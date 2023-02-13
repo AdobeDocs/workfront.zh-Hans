@@ -8,7 +8,7 @@ description: 您可以使用“Kick-Start”功能在Adobe Workfront中导入包
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ ht-degree: 0%
 * 多选下拉框
 * 下拉
 * 复选框
-* 单选按钮.
+* 单选按钮
 
 这些字段有时可以有许多（有时是数百个）选项。 使用Kick-Start功能导入它们可以节省您(作为Workfront管理员)大量时间并确保避免出现错误。
 
-您必须按照以下各节中所述的步骤，依次使用启动导入包含多个选项的自定义字段：
+>[!IMPORTANT]
+>
+>您必须按照以下各节中所述的步骤，依次使用启动导入包含多个选项的自定义字段：
+>
+>1. 从Workfront导出现有自定义数据（可选步骤）
+>1. 导出自定义数据的启动模板
+>1. 填充Excel Kick-Starts电子表格
+>1. 将Excel电子表格上传到Workfront
 
-1. 从Workfront导出现有自定义数据（可选步骤）
-1. 导出自定义数据的启动模板
-1. 填充Excel Kick-Starts电子表格
-1. 将Excel电子表格上传到Workfront
+
 
 ## 从Workfront导出现有自定义数据（可选步骤）
 
@@ -115,15 +119,20 @@ ht-degree: 0%
 
 1. 打开您在上一部分中下载的Excel电子表格，并注意到许多工作表。 每个工作表表示应用程序中的一个对象。
 
-   例如： **参数** （指自定义字段）， **参数选项**（这是指“自定义字段”选项）， **类别** （指自定义表单）。
+   >[!INFO]
+   >
+   >例如， **参数** （指自定义字段）， **参数选项**（这是指“自定义字段”选项）， **类别** （指自定义表单）。
+   >
+   >必须以Workfront数据库支持的格式写入对象的名称及其属性。
+   >
+   >有关这些对象含义的信息，请参阅 [Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >有关Workfront数据库中对象名称的信息，请参阅 [API Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   必须以Workfront数据库支持的格式写入对象的名称及其属性。
 
-   有关这些对象含义的信息，请参阅 [Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   有关Workfront数据库中对象名称的信息，请参阅 [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 确保以下信息的格式正确：
@@ -164,7 +173,9 @@ ht-degree: 0%
 
    * **`setName`** =输入您希望在Workfront中显示的自定义字段名称。
 
-      例如，我们可能会导入两个自定义字段，称为 _品牌_&#x200B;复选框字段和 _媒体_，单选按钮字段。
+      >[!INFO]
+      >
+      >例如，我们可能会导入两个自定义字段，称为 _品牌_&#x200B;复选框字段和 _媒体_，单选按钮字段。
 
    * 的 **`setName`** 和 **`setValue`** 列通常包含相同的信息，它们应反映新字段在Workfront界面中所需的名称。
    例如，字段的值是报表中显示的名称，而名称显示在附加到对象的自定义表单中。
