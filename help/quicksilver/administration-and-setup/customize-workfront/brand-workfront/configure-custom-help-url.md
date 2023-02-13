@@ -1,0 +1,61 @@
+---
+title: 配置自定义帮助 URL
+user-type: administrator
+product-area: system-administration
+navigation-topic: brand-workfront
+description: 如果您创建一个自定义内部帮助网站，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该网站。 这不会影响主菜单中的主帮助链接，以及整个Workfront中与上下文相关的帮助链接，这些链接会将用户引导至Workfront帮助网站。
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 4%
+
+---
+
+# 配置自定义帮助 URL
+
+如果您创建一个自定义内部帮助网站，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该网站。
+
+![](assets/custom-help-button.png)
+
+这不会影响主菜单中的主帮助链接，以及整个Workfront中与上下文相关的帮助链接，这些链接会将用户引导至Workfront帮助网站。
+
+![](assets/custom-help-url.png)
+
+有关用户如何同时访问您在Workfront中配置的自定义帮助URL和常规Workfront帮助网站的信息，请参阅 [在新的Adobe Workfront体验中访问Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+
+## 访问要求
+
+您必须具有以下访问权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>计划</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 配置自定义帮助URL
+
+1. 单击主菜单图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击“设置”。
+1. 单击 **系统** > **首选项**.
+1. 在 **常规首选项** 部分，在 **自定义帮助URL** 字段中，键入自定义帮助网站所在的URL。
+
+   如果您的自定义帮助位置需要登录凭据，则用户在从Workfront访问网站时需要这些凭据。 如果您没有使用单点登录(SSO)，则自定义帮助网站的凭据可能需要与Workfront凭据分开管理。
+
+1. 单击&#x200B;**保存**。

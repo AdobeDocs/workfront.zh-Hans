@@ -1,0 +1,161 @@
+---
+content-type: overview
+product-previous: workfront-goals
+navigation-topic: goal-review-and-sections
+title: Adobe Workfront目标部分概述
+description: 您可以访问目标或单个目标列表，并从Adobe Workfront目标的几个部分对其进行管理。 使用哪个部分取决于您在处理目标时要达到的目的。
+author: Alina
+feature: Workfront Goals
+exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
+source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
+
+---
+
+# Adobe Workfront目标部分概述
+
+
+>[!NOTE]
+>
+>贵组织必须具备以下条件才能使用本文中描述的功能：
+>
+>* 专业或更高级 [Adobe Workfront计划](https://www.workfront.com/plans).
+>* 除了Adobe Workfront许可证之外，还具有Workfront许可证。
+>
+>  请联系您的Workfront客户经理以了解Workfront Target许可证。
+>
+>有关访问Workfront目标的其他信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+在您的Workfront管理员向您授予对Workfront目标的访问权限后，您可以查看您或您组织中的其他人在Workfront目标区域中创建的目标。
+
+您可以访问目标或单个目标列表，并从Workfront目标的几个部分对其进行管理。 使用哪个部分取决于您在处理目标时要达到的目的。
+
+您可以应用过滤器来仅显示每个部分中对您非常重要的目标。
+
+>[!TIP]
+>
+>在一个部分中更新的过滤器会自动应用于目标列表、图形和目标对齐部分。 这样，您只能更新一次。 有关更多信息，请参阅 [在Adobe Workfront目标中筛选信息](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+
+以下是Workfront目标各节以及可用于管理目标的选项的简要概述。 有关可在Workfront目标的每个部分中执行的其他操作的更多信息，我们还建议使用以下文章：
+
+* [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)
+* [更新Adobe Workfront目标中的目标进度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [在Adobe Workfront目标中筛选信息](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+
+
+## 目标列表
+
+您可以使用目标列表来查看属于您、您的团队、组或您组织的目标。 您可以查看任意状态和任意时间段的目标。
+
+有关导航目标列表和管理目标的信息，请参阅 [管理Adobe Workfront目标目标列表中的目标](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+
+![](assets/goal-list-unshimmed.png)
+
+使用目标列表可执行以下操作：
+
+* 查看属于您、您的团队、组或组织的目标。
+* 查看目标及其信息（例如，名称、所有者、进度或条件）。
+* 添加新目标。
+
+   有关更多信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+
+* 访问目标的页面，并编辑和更新目标、其结果或活动
+
+   有关更多信息，请参阅 [在Adobe Workfront目标中编辑目标](../../workfront-goals/goal-management/edit-goals.md).
+
+* 编辑目标。
+
+## 图表
+
+您可以使用“图形”部分全面了解属于您或您组织的目标运行状况。 您可以在此部分中查看任意时间段内目标状态的进度信息。
+
+有关使用图形部分的信息，请参阅 [查看图表以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+
+![](assets/graphs-section-unshimmed.png)
+
+使用图形部分可执行以下操作：
+
+* 查看属于您、您的团队、组或组织的目标的绩效。
+* 查看具有给定进度状态的目标数。
+* 了解您的目标每周的绩效。
+
+## 目标对齐方式
+
+如果您的目标彼此一致，则可以使用“目标一致性”部分显示和查看您组织中的所有目标及其彼此的一致性。 对齐的目标显示在连接的卡上，以说明它们彼此的对齐。 父目标会最先显示，子目标会堆叠在其后面。 您可以在此部分中查看任意状态和任意时间段的目标。
+
+有关导航“目标对齐”部分以管理目标的信息，请参阅 [导航Adobe Workfront Target中的“目标对齐”部分](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+
+有关协调目标的信息，请参阅以下文章：
+
+* [在Adobe Workfront目标中通过将目标连接起来来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+
+![](assets/goal-alignment-section-unshimmed.png)
+
+使用“目标对齐”部分可执行以下操作：
+
+* 以卡片格式查看属于您或您的组织的目标。
+* 显示目标层次结构并查看对齐的子目标。
+* 访问目标页面并更新目标、其结果或活动。
+
+<!--
+## Pulse
+
+<span class="preview"> The Pulse section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span> 
+
+You can use the Pulse section to review and request updates to goals that might influence the progress of your goals. These could be your own goals, or goals that belong to your teams, groups, or your organization. You can view goals in any status and from any time period in this section.
+
+>[!TIP]
+>
+>Only goals that have been checked in on at least once display in the Pulse section.
+
+For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
+
+![](assets/pulse-section-350x141.png)
+
+Use the Pulse section to do the following:
+
+* View goals that belong to your teams, groups, or organization. 
+* Review goal progress and updates, including aligned goals, their results, and activities. 
+* Make or ask for updates to a goal by adding a comment. 
+* Access the Goal Details panel and edit and update the goal, its results, or activities.
+* Add new goals. 
+* Check in on goals.
+
+  >[!TIP]
+  >
+  >Clicking Check in opens the Check-in section in the left panel.
+
+## Check-in
+
+<span class="preview"> The Check-in section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span>
+
+You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see  [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+
+You can use the Check-in section to update active goals and any results and activities that you are the owner of. You can primarily view only goals in an Active status in this section. Children goals aligned to active parents also display in the Check-in section, regardless of their status.
+
+>[!IMPORTANT]
+>
+>* A goal displays in the Check-in section only if it is assigned to you or if it has a result or activity that is assigned to you. 
+>* If a goal assigned to you is the child goal of a parent that is not assigned to you and your goal (the child goal) is closed, inactive, or a draft, the parent goal does not display in your Check-in section. 
+>
+
+For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+
+![](assets/check-in-section-350x143.png)
+
+Use the Check-in section to do the following:
+
+* Review goal progress and updates, including aligned goals, their results, and activities. 
+* Update the progress on the results and activities that are assigned to you. For information about updating goals by checking in on them, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+
+  >[!IMPORTANT]
+  >
+  >You can check in only on the results and activities assigned to you in the Check-in section, and not those that are assigned to other entities.
+
+* Add a comment to a goal, then click Post to make or ask for updates to a goal. 
+* Access the Goal Details panel and edit and update the goal, its results, or activities.
+* Add new goals.
+-->

@@ -1,0 +1,39 @@
+---
+product-previous: workfront-fusion
+content-type: release-notes
+product-area: workfront-integrations
+navigation-topic: fusion-release-activity
+title: “Workfront Fusion版本活动：2020年8月17日这一周
+description: 本页介绍2020年8月17日这一周Adobe Workfront Fusion中所有增强功能。
+author: Luke
+feature: Product Announcements, Workfront Fusion
+exl-id: d3fc3169-b23e-49ea-aafd-136761278ef6
+hidefromtoc: true
+source-git-commit: e18b23e7d58aced4c95c5df51769a6e959fa3d57
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 1%
+
+---
+
+# Workfront Fusion版本活动： 2020年8月17日这一周
+
+本页介绍2020年8月17日这一周Adobe Workfront Fusion中所有增强功能。
+
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+
+## SharePoint连接器和模块现已可用
+
+您现在可以使用Workfront Fusion连接到SharePoint帐户。 借助SharePoint模块，您可以在SharePoint帐户中执行各种操作，例如创建项目、阅读文档或下载文件。
+
+有关可用SharePoint模块的信息，请参阅 [SharePoint模块](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
+
+**预览版本**
+
+* 不适用
+
+**生产版本**
+
+2020年8月20日

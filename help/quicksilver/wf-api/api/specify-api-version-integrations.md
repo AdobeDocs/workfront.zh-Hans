@@ -1,0 +1,57 @@
+---
+content-type: api
+navigation-topic: api-navigation-topic
+title: 在集成中指定API版本
+description: 在集成中指定API版本
+author: John
+feature: Workfront API
+exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
+source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 0%
+
+---
+
+# 在集成中指定API版本
+
+所有Adobe Workfront URI都需要在URI的“attask/api”部分之后引用API的特定版本。 以下示例调用了版本7.0:
+`attask/api/v7.0/<objectName>/<objectId>` 请确保您的所有集成都调用了当前支持的Workfront API。
+
+## Workfront API的发布和弃用计划
+
+新版API每两年发布一次，每六到八个月发布一次。 每个版本在其发行日期后三年内受支持，在已弃用状态下再受一年支持，即版本可用但不受支持。
+
+有关Workfront API的发行频率和弃用计划的更多信息，请参阅 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
+
+Workfront自2017年7月起弃用API的默认版本。 这意味着Workfront不再将特定版本的API指定为默认版本。 所有将来的API URI必须指定API的一个版本才能有效。
+
+>[!IMPORTANT]
+>
+> 必须在2018年7月1日之前更新使用默认API版本的任何集成，以调用特定受支持的API版本。
+
+## 确定您使用的API版本
+
+您可以通过检查发送到Workfront API的HTTP请求的URI来确定您所使用的API的版本。 以下示例显示了一个指定API版本7的Workfront请求URI:
+
+`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+
+如果URI未指定版本，则它使用API的默认版本，如以下示例所示：
+
+`https://<domainname>.my.workfront.com/attask/api/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+
+>[!IMPORTANT]
+>
+> 在URI中未指定API版本的集成将自动路由到API的默认版本，并且在2018年7月1日之后将无法正常工作。
+
+## 更新集成以使用支持的API版本
+
+构建或维护Workfront集成时，您应该包含一种方法，用于动态更新API版本和其他可能发生更改的属性（例如您的API密钥）。
+
+要提高集成更新的效率，您应考虑以下有关记录集成值的建议：
+
+* 在您保持更新的属性文件中存储值，但以未来更改为条件
+* 创建Web服务以实时管理资产
+* 将属性值存储到应用程序可读取的数据存储中
+
+在设计Workfront集成时考虑到这一点，可在这些值不可避免地发生更改时，轻松地需要大量开发工作。

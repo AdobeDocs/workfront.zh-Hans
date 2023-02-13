@@ -1,0 +1,194 @@
+---
+title: 隐藏的测试文件
+description: 在搜索和左侧导航中隐藏
+hidefromtoc: true
+hide: true
+exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
+source-git-commit: ea2fef66d50f07b05648356179d996d3aa4d23df
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 3%
+
+---
+
+# 增强的身份验证概述
+
+<!-- enhanced authentication is no longer available for workfront customers -->
+
+{{important-admin-console-onboard}}
+
+Adobe Workfront正在改变用户和密码的系统管理。 这些更改将在名为 **增强的身份验证** 体验。 增强的身份验证为用户提供了跨所有Workfront产品和服务的更加一致和安全的登录体验。
+
+下表提供了有关当前和未来功能的详细信息：
+
+>[!IMPORTANT]
+>
+>大多数客户当前使用旧版身份验证，而有些客户使用增强型身份验证1.0。
+> 
+>要验证您当前使用的身份验证类型，请转到 *your_domain*.my.workfront.com/login。 如果您被重定向到/auth/login ，则表明您使用的是增强型身份验证1.0。
+> 
+>如果您被重定向到https://login-a-xx.workfront.com/ ，其中“xx”可能是美国（美国）、欧盟（欧洲）或GCP(Google云平台)，具体取决于您的位置/平台，则表明您使用的是增强型身份验证2.0。
+>
+>到2021年底，所有客户都将迁移到增强身份验证2.0。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col data-mc-conditions=""> 
+ <thead> 
+  <tr> 
+   <th> <p><strong>功能</strong> </p> </th> 
+   <th><strong>旧版身份验证</strong> </th> 
+   <th><strong>增强的身份验证1.0</strong> </th> 
+   <th> <p>增强的身份验证2.0</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td colspan="3"> <p><strong>登录选项</strong> </p> </td> 
+   <td> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>启用单个用户名以用于所有Workfront产品和服务，包括培训、支持等</p> </td> 
+   <td>不可用</td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>允许在Workfront实例中使用相同的电子邮件地址</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版本起提供</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版本起提供</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版本起提供</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>电子邮件地址不区分大小写</p> </td> 
+   <td> <p>✓</p> <p>自2019.3版本起提供</p> </td> 
+   <td> <p>✓</p> <p>如果地址不同，则多个用户不能具有相同的电子邮件地址。 </p> </td> 
+   <td> <p>✓</p> <p>如果地址不同，则多个用户不能具有相同的电子邮件地址。 </p> <p>Workfront管理员将在2019年底收到通知，以开始修复重复的电子邮件地址。</p> </td> 
+  </tr> 
+  <tr> 
+   <td colspan="3"> <p><strong>密码管理选项</strong> </p> </td> 
+   <td> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>指使用户作为Workfront管理员重置密码电子邮件</p> </td> 
+   <td> <p>不可用 </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>为用户设置作为Workfront管理员的临时密码</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>未计划</p> <p>此功能不是安全最佳实践</p> </td> 
+   <td> <p>未计划</p> <p>此功能不是安全最佳实践</p> </td> 
+  </tr> 
+  <tr> 
+   <td colspan="3"> <p><strong>密码策略要求</strong> </p> </td> 
+   <td> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>要求用户在特定时间范围后重置密码</p> </td> 
+   <td>✓</td> 
+   <td> <p>未计划</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>限制用户使用先前的密码 </p> </td> 
+   <td>✓</td> 
+   <td>未计划 </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>防止密码输入尝试不正确 </p> </td> 
+   <td> <p>✓ </p> <p>在5次错误密码输入尝试后锁定帐户。 Workfront管理员配置锁定后所需的等待时间</p> </td> 
+   <td> <p>✓</p> <p>根据行业最佳实践，每次连续出现错误密码后，等待时间会呈指数级增长；Workfront管理员无法配置所需时间</p> </td> 
+   <td> <p>✓</p> <p>使用锁定算法，主动阻止各种可疑行为。</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>需要混合使用小写、大写、数字和特殊字符</p> </td> 
+   <td>✓</td> 
+   <td> <p>✓ </p> <p>提高了选择特定要求的灵活性</p> </td> 
+   <td> <p>✓</p> <p> 
+     </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>设置最小密码长度 </p> </td> 
+   <td> 不可用 </td> 
+   <td> ✓ </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Restrict users from using more than 2 identical characters in a row</td> 
+    <td>Not available</td> 
+    <td>Not available</td> 
+    <td> <p>✓</p> </td> 
+   </tr>
+  --> 
+  <tr> 
+   <td colspan="3"> <p><strong>单点登录协议支持</strong></p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>支持符合Active Directory和LDAP协议的SSO集成</p> </td> 
+   <td> ✓ </td> 
+   <td> <p> 已弃用</p> <p>Active Directory、Azure和LDAP系统应使用SAML 2.0</p> </td> 
+   <td> <p>已弃用</p> <p>可以使用加密的SAML 2.0或OpenID连接来配置Active Directory、Azure和LDAP系统。</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>支持符合SAML 2.0的SSO协议 </p> </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>支持Open ID连接协议</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p> 配置Workfront登录页面，以始终重定向到身份提供程序登录页面 </p> </td> 
+   <td> 默认启用，不能禁用</td> 
+   <td> <p>✓</p> <p>Workfront管理员可以配置登录页面以重定向到身份提供程序登录页面，也可以配置登录按钮或按钮。</p> </td> 
+   <td> <p>✓</p> <p> Workfront管理员可以配置登录页面以重定向到身份提供程序登录页面，也可以配置登录按钮或按钮。</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>允许每个实例启用多个SSO提供程序</p> </td> 
+   <td> <p>不适用</p> </td> 
+   <td> <p>未计划</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td colspan="3"> <p><strong>环境支持</strong> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>预览环境的单个用户名和密码</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>沙盒环境的单个用户名和密码</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>不可用</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+  <!--
+   <tr> 
+    <td> <p>Available for Production environments</p> </td> 
+    <td>✓</td> 
+    <td> ✓&nbsp;</td> 
+    <td> <p>✓</p> </td> 
+   </tr>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> Available for Preview and Sandbox environments&nbsp;</td> 
+    <td> ✓&nbsp;</td> 
+    <td> ✓</td> 
+    <td> <p>✓</p> </td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
