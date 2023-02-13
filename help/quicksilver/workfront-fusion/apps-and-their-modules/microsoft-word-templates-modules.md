@@ -8,8 +8,7 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word模板模块
 description: 在Adobe Workfront Fusion场景中，您可以自动执行使用Microsoft Word模板的工作流，并将其连接到多个第三方应用程序和服务。
 author: Becky
-hidefromtoc: true
-source-git-commit: 604d5f1d5e2db4d6367ac3543895f60aaae3abd8
+source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
