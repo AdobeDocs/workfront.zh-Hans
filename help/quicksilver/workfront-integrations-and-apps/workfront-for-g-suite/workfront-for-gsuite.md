@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite可将您连接到最重要的工作，�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * [访问 [!DNL Adobe Workfront] [!DNL G Suite]中的主页内容](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [更新 [!DNL Adobe Workfront] [!DNL G Suite]中的对象](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [查看和管理[!DNL G Suit]e中的文档](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [从[!DNL G Suite]查看和管理文档](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
 * [查看和管理 [!DNL Adobe Workfront] 对象详细信息来自 [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
 * [查看 [!DNL Adobe Workfront] 对象从 [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
