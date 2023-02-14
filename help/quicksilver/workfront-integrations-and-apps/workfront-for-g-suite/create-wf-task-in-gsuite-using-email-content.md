@@ -7,14 +7,18 @@ description: 您可以转换外部电子邮件(不是由Adobe生成) [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # 创建 [!DNL Adobe Workfront] 任务 [!DNL G Suite] 使用电子邮件内容
+
+>[!NOTE]
+>
+>有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
 您可以转换外部电子邮件(不是由 [!DNL Adobe Workfront]) [!DNL Workfront] 任务。
 

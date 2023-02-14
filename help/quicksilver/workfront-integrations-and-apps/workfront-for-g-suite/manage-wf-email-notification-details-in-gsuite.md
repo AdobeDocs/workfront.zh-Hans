@@ -7,14 +7,18 @@ description: 在G Suite中，打开通知电子邮件Adobe [!DNL Workfront] 发�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
 # 管理 [!DNL Adobe Workfront] 通知详细信息来自 [!DNL G Suite]
+
+>[!NOTE]
+>
+>有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
 在 [!DNL G Suite]，当您打开通知电子邮件时 [!DNL Adobe Workfront] 已发送，您可以查看关联的工作项详细信息并做出响应，而无需离开 [!UICONTROL 收件箱]. 如果可以执行一些操作（例如批准请求），则您可以直接从 [!DNL Workfront for G Suite].
 

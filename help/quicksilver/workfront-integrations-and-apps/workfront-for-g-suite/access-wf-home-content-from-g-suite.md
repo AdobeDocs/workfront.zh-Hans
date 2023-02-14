@@ -7,14 +7,18 @@ description: 您可以访问 [!DNL Adobe Workfront] 主页内容，包括分配�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 访问 [!DNL Adobe Workfront] [!UICONTROL 主页] 内容来源 [!DNL G Suite]
+
+>[!NOTE]
+>
+>有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
 您可以访问 [!DNL Adobe Workfront] [!UICONTROL 主页] 内容，包括分配给您的所有任务、问题、批准和访问请求，而无需离开G Suite。
 

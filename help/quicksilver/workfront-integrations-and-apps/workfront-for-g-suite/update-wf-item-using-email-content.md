@@ -7,14 +7,18 @@ description: 您可以使用非Adobe Workfront电子邮件中的信息更新现�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # 更新 [!DNL Adobe Workfront] 项目自 [!DNL G Suite] 使用电子邮件内容
+
+>[!NOTE]
+>
+>有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
 您可以使用非[!DNL Adobe Workfront] 电子邮件。
 

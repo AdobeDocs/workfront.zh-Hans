@@ -7,14 +7,18 @@ description: 您无需离开G Suite即可查看和管理工作项的详细信息
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # 查看和管理 [!DNL Adobe Workfront] 对象详细信息来自 [!DNL G Suite]
+
+>[!NOTE]
+>
+>有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
 您无需离开即可查看和管理工作项的详细信息 [!DNL G Suite]. 例如，您可以读取任务的描述、查看其父对象、更改其状态并将其标记为完成，所有这些操作均在 [!DNL Adobe Workfront for G Suite].
 
