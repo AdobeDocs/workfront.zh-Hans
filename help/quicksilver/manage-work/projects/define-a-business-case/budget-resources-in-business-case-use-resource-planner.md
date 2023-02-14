@@ -5,7 +5,7 @@ description: 在资源计划中，您可以使用项目层资源计划员来预�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -13,6 +13,10 @@ ht-degree: 0%
 ---
 
 # 使用资源计划员在业务案例中预算资源
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 在资源计划中，您可以使用项目层资源计划员来预算在构建业务案例时完成项目中的工作所需的任务职责。
 
@@ -169,3 +173,7 @@ ht-degree: 0%
    成本以项目的币种显示在业务案例中。
 
    在“业务案例”中指定的预算信息也会显示在资源计划器中。
+
+   <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->
