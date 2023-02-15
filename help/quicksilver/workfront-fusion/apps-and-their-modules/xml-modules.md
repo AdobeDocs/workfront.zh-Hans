@@ -188,7 +188,7 @@ ht-degree: 1%
 >1. 将 [!DNL Google Sheets] > [!UICONTROL 选择行] 模块来获取数据。 设置模块以从 [!DNL Google] 电子表格。 设置&#x200B;**[!UICONTROL 返回的最大行数]** 值较小，但出于测试目的大于1（例如，3）。 执行 [!DNL Google Sheets] 模块，方法是右键单击该模块并选择“**[!UICONTROL 仅运行此模块]**.&quot; 验证模块的输出。
 >1. 连接 [!UICONTROL 阵列聚合器] 模块之后 [!DNL Google Sheets] 模块。 在模块的设置中，选择 [!DNL Google Sheets] 模块 **[!UICONTROL 源节点]** 字段。 暂时保留其他字段。
 >1. 连接 [!UICONTROL XML] > [!UICONTROL 创建XML] 模块之后 [!UICONTROL 阵列聚合器] 模块。
-   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
+>   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
 >1. 单击 **[!UICONTROL 发电机]** 按钮并将XML示例粘贴到 [!UICONTROL 示例数据] 字段：
 >
 >   ![](assets/sample-data-field-350x146.png)
