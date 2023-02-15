@@ -92,14 +92,14 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 简单值标记只会被替换为相应的值。 标记的名称与 [!UICONTROL 键] 字段的值，它位于双大括号内；例如，
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 。
 
 **示例：** 要创建一个“嗨，Petr！”的文档，您可以使用 [!DNL Microsoft Word Template] 模块以创建以下模板：
 
-<pre>&gt;嗨{name}}!</pre>
+<pre>&gt;嗨&#123;&#123;name&#125;&#125;!</pre>
 
 为此，您应按如下方式设置模块：
 
@@ -110,7 +110,7 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 您可以使用条件标记来换行仅在满足特定条件时才应呈现的文本。 要隐藏文本，请将其置于开始和结束条件标记之间，如“hasPhone”（条件为数据是否包含电话号码）。 开始标记的名称前面附加有井号#，结束标记的名称前面附加有斜杠/，如以下示例所示。
 
 **示例：** 要生成包含客户电话号码的文档（如果输入数据包含电话号码，但没有电子邮件地址），您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
-<pre>&gt; {{#hasPhone}}电话：{{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}电子邮件：{{email}} {{/hasEmail}}</pre>为此，您应按如下方式设置模块：
+<pre>> &#123;&#123;#hasPhone&#125;&#125;电话：&#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;电子邮件：&#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>为此，您应按如下方式设置模块：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 
 **示例：** 要生成列出客户列表中每个联系人的姓名和电话号码的文档，您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
 
-<pre>&gt; {{#contact}}</pre><pre>&gt; {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
 
 为此，您应按如下方式设置模块：
 
