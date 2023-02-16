@@ -6,9 +6,9 @@ description: 使用Adobe Workfront方案计划员时，您可以在您创建的�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">所需的作业角色部分 </td> 
-      <td> <p>单击 <strong>[!UICONTROL开始键入作业角色]</strong> 字段，然后从列表中选择角色，或开始键入<span>n个活动</span> 作业角色。 </p> <p><span>根据计划是设置为使用FTE还是小时，</span> 在FTE中添加此方案所需的工作角色数 <span><span>或小时</span></span><span> 每月</span>. <span>默认情况下，将显示方案的前三个月。</span></p> <p><span>更新方案的职务职责信息还会更新计划的必需职务职责信息。</span> </p> <p>有关设置计划以使用FTE或小时的信息，请参阅 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>. </p> <p>提示：  
-        <ul> 
-         <li> <p><span>使用[!UICONTROL Tab]键移至下个月。</span> </p> </li> 
-         <li> <p> 全部 <span>活动</span> 单击此字段时，系统中会列出作业角色。 </p> </li> 
-         <li> <p>首先显示已添加到计划的“可用”作业角色中的作业角色。 有关向计划添加可用作业角色的信息，请参阅 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在方案计划员中创建和编辑计划</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] 认为全职等效为一个月160小时。 </p> </li> 
-        </ul> </p> <p>您可以为FTE输入一个小于1个FTE的数字或小数 <span>或</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">小时</span>. 例如，0.5顾问工作角色意味着顾问将将其一半的FTE（通常为4小时，其中8小时为1个FTE）用于此计划。 </p> <p>对于方案计划器中的所有计算，Workfront会使用以下值：1个FTE = 8小时。 </p> </td> 
+      <td> <p>单击 <strong>[!UICONTROL开始键入作业角色]</strong> 字段，然后从列表中选择角色，或开始键入<span>n个活动</span> 作业角色。 </p> <p><span>根据计划是设置为使用FTE还是小时，</span> 在FTE中添加此方案所需的工作角色数 <span><span>或小时</span></span><span> 每月</span>. <span>默认情况下，将显示方案的前三个月。</span></p> <p><span>更新方案的职务职责信息还会更新计划的必需职务职责信息。</span> </p> <p>有关设置计划以使用FTE或小时的信息，请参阅 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在 [!DNL Scenario Planner]</a>. </p>
+      <p><b>重要信息</b></p>  
+      <p>对于 [!DNL Scenario Planner], [!DNL Workfront] 使用以下值：1个FTE = 8小时。 </p>
+
+   <p><b>笔尖</b></p>
+
+   <ul> 
+       <li> <p><span>使用[!UICONTROL Tab]键移至下个月。</span> </p> </li> 
+      <li> <p> 全部 <span>活动</span> 单击此字段时，系统中会列出作业角色。 </p> </li> 
+       <li> <p>首先显示已添加到计划的“可用”作业角色中的作业角色。 有关向计划添加可用作业角色的信息，请参阅 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在方案计划员中创建和编辑计划</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] 认为全职等效为一个月160小时。 </p> <p>对于方案计划器中的所有计算，Workfront会使用以下值：1个FTE = 8小时。 </p></li> 
+      </ul> </p> <p>您可以为FTE输入一个小于1个FTE的数字或小数 <span>或</span> <span>小时</span>. 例如，0.5顾问工作角色意味着顾问将将其一半的FTE（通常为4小时，其中8小时为1个FTE）用于此计划。 </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">费用科</td> 

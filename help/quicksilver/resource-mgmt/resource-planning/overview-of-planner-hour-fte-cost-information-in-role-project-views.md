@@ -7,9 +7,9 @@ description: 资源计划员的“项目”和“职责”视图中的工时、F
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ ht-degree: 0%
      <li>为其他项目编列的小时数。 </li> 
     </ul> <p>用户的可用小时数、FTE或成本会根据以下情况进行更改： </p> 
     <ul> 
-     <li>如何根据系统级别的“资源管理首选项”来计算其计划和FTE。<br>有关计算用户和作业角色可用性的详细信息，请参阅文章 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">资源计划员中用户和角色的小时数和FTE计算概述</a>.</li> 
+     <li>如何根据系统级别的“资源管理首选项”来计算其计划和FTE。<br><p>有关计算用户和作业角色可用性的详细信息，请参阅文章 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">资源计划员中用户和角色的小时数和FTE计算概述</a>.</p>
+     有关在Workfront中配置资源管理首选项的更多信息，请参阅 <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置资源管理首选项</a></li> 
     </ul> 
     <ul> 
      <li>the <strong>项目计划优先级</strong>，则为用户编入工作预算。<br>有关项目计划优先级如何影响用户可用小时数的详细信息，请参阅 <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">资源计划员导航概述 </a>. </li> 
@@ -135,6 +136,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### “PLN（已计划）”列 {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ ht-degree: 0%
       <li> <p>职责的可用时间或成本与预算时间或成本之间的差额：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>启用NET计算设置中的“使用计划(PLN)”值时，“可用时间”或“成本”与“计划时间”或“成本”之间的差值：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>笔尖</b> <span>
 
-仅当您在显示选定项目部分中自定义视图时，才应用此选项。</span> </p> <p><span>有关更多信息，请参阅</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront资源计划员复查资源可用性和分配</a> </p> </li>
+仅当您在显示选定项目部分中自定义视图时，才应用此选项。</span> </p> <p><span>有关更多信息，请参阅 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront资源计划员复查资源可用性和分配</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ ht-degree: 0%
       <li> <p>用户的可用时间或成本与预算时间或成本之间的差额：</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>启用NET计算设置中的“使用计划(PLN)”值时，“可用时间”或“成本”与“计划时间”或“成本”之间的差值：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>笔尖</b> <span>
 
-仅当您在显示选定项目部分中自定义视图时，才应用此选项。</span> </p> <p><span>有关更多信息，请参阅</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront资源计划员复查资源可用性和分配</a> </p> </li>
+仅当您在显示选定项目部分中自定义视图时，才应用此选项。</span> </p> <p><span>有关更多信息，请参阅 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">使用Adobe Workfront资源计划员复查资源可用性和分配</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
