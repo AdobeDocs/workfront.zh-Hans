@@ -6,16 +6,22 @@ title: 删除或存档展示板
 description: 您可以删除或存档Workfront中的展示板。 删除展示板会从Workfront中永久删除它，而存档展示板会保留所有信息卡，并允许在以后恢复它。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 删除或存档展示板
 
-您可以在 [!DNL Workfront]. 删除展示板会将其从 [!DNL Workfront]，而存档展示板会保留所有信息卡，并允许在以后恢复信息卡。
+{{highlighted-preview}}
+
+您可以在 [!DNL Workfront]. 删除展示板会将其从 [!DNL Workfront]，而存档展示板会保留所有信息卡，并允许在以后恢复信息卡。 <span class="preview">这些选项适用于集合中的独立展示板和展示板。</span>
+
+>[!NOTE]
+>
+>只有在为Workfront展示板选择加入早期功能后，才可使用收藏集。
 
 ## 访问要求
 

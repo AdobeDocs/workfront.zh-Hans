@@ -6,9 +6,9 @@ description: 您可以过滤展示板以仅显示某些信息卡。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 成员] ，然后选择要查看其卡片的人员。 您还可以显示未分配的卡。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 成员] ，然后选择要查看其卡片的人员。 您还可以显示未分配的卡。
 
    ![按成员筛选](assets/boards-filter-by-assignees-0822.png)
 
 ## 按标记筛选展示板
 
 1. 访问展示板。
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 标记] ，然后选择要查看的标记。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 标记] ，然后选择要查看的标记。
 
    ![按标记过滤](assets/boards-filter-by-tags-0822.png)
 
 ## 按状态筛选展示板
 
 1. 访问展示板。
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 状态] ，然后选择要查看的状态类型。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 状态] ，然后选择要查看的状态类型。
 
    您还可以隐藏已完成的信息卡。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 ## 按截止日期筛选展示板
 
 1. 访问展示板。
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 到期日期] ，然后选择要查看的日期选项。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 到期日期] ，然后选择要查看的日期选项。
 
    只显示选定日期范围内的卡。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 默认情况下，展示板中只显示活动信息卡。 您可以过滤展示板以显示任何存档的信息卡。
 
 1. 访问展示板。
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 存档卡片] ，然后选择 **[!UICONTROL 存档的卡片]** 以显示任何已存档的卡。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 存档卡片] ，然后选择 **[!UICONTROL 存档的卡片]** 以显示任何已存档的卡。
 
    过滤器显示已存档的卡的数量。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 ## 按连接筛选展示板
 
 1. 访问展示板。
-1. 单击过滤器图标 ![过滤器](assets/filter-icon-spectrum-25x25.png)，展开 [!UICONTROL 连接] ，然后选择 [!DNL Workfront] 项目。
+1. 单击 [!UICONTROL **过滤器**]，展开 [!UICONTROL 连接] ，然后选择 [!DNL Workfront] 项目。
 
    您还可以显示未连接到项目的信息卡。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 ## 在展示板中搜索
 
 1. 访问展示板。
-1. 单击搜索图标 ![搜索](assets/search-icon.png) 并键入搜索词。 然后，按Enter。
+1. 单击 [!UICONTROL **搜索**] 并键入搜索词。 然后，按Enter。
 
    将显示包含搜索词的所有卡片。
 
