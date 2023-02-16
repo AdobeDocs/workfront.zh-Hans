@@ -6,14 +6,16 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
 # 管理展示板列
+
+{{highlighted-preview}}
 
 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列，以及删除您不需要的任何列。
 
@@ -119,12 +121,18 @@ ht-degree: 0%
       此外，还会显示连接卡的状态转换选项。 （状态转换不适用于临时信息卡。） 这些选项可确定应用于中任务或问题的状态 [!DNL Workfront] 将连接的卡移至此列时。
 
    1. 要更改默认状态转换选择，请单击 **[!UICONTROL 编辑]** 图标 ![“编辑”图标](assets/edit-icon-spectrum.png).
-   1. 为任务选择状态，为问题选择状态。 仅默认 [!DNL Workfront] 状态可用，而不是自定义状态。
+   1. <span class="preview">在预览环境中：选择 [!UICONTROL **自定义**] 状态和 [!UICONTROL **系统**] 状态以应用于卡，适用于任务和问题。</span>
 
-   >[!NOTE]
-   >
-   >如果您在 [!DNL Workfront]，首次将连接的信息卡移入此列时，系统将提示您选择状态。 例如，如果连接的项目具有多个状态类型，这些状态类型都与 [!UICONTROL 已完成]，则必须选择在中使用的状态 [!DNL Workfront]. 您可以将选择设置为默认选项，这样在每次将信息卡移至列时都不必进行选择。
-   >有关状态的更多信息，请参阅 [状态概述](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">当信息卡被移动到此列时， [!DNL Workfront] 首先尝试应用自定义状态（例如，“已解析”）。 如果自定义状态不适用于该卡，则Workfront将应用系统状态（例如，已关闭）。</span>
+
+      <span class="preview">此外，如果连接任务或问题的状态更改为列策略中设置的自定义或系统状态，则卡会自动移至列。</span>
+
+   1. 在生产环境中：为任务选择状态，为问题选择状态。 仅默认 [!DNL Workfront] 状态可用，而不是自定义状态。
+
+      >[!NOTE]
+      >
+      >如果您在 [!DNL Workfront]，首次将连接的信息卡移入此列时，系统将提示您选择状态。 例如，如果连接的项目具有多个状态类型，这些状态类型都与 [!UICONTROL 已完成]，则必须选择在中使用的状态 [!DNL Workfront]. 您可以将选择设置为默认选项，这样在每次将信息卡移至列时都不必进行选择。
+      >有关状态的更多信息，请参阅 [状态概述](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. （可选）为卡片分配者设置值：
 
