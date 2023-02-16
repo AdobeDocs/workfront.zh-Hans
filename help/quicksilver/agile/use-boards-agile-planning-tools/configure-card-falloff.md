@@ -6,7 +6,7 @@ title: 配置卡片衰减
 description: 您可以配置展示板，以便按计划存档信息卡或从展示板上删除信息卡。
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![卡片衰减设置](assets/card-falloff-switch.png)
 
-1. 选择何时从展示板存档信息卡。 您最多可以选择4周或30天。
+1. 选择何时从展示板存档信息卡。 您最多可以选择8周或60天。
 
    日期由上次修改卡的时间确定。
 
