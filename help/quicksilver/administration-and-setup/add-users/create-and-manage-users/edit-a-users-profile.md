@@ -8,54 +8,17 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2760'
 ht-degree: 0%
 
 ---
 
 # 编辑用户的配置文件
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-<b>TIP</b>
-
-<span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -144,16 +107,16 @@ For more information about creating schedules in Workfront, see Create a schedul
       <td role="rowheader">访问权限</td> 
       <td> 
        <ul> 
-        <li><b>处于活动状态：</b> 选中此框可指示用户处于活动状态。 活动用户使用Workfront许可证。 清除该框将停用用户。</li> 
-        <li> <p><b>访问级别：</b> 选择要分配给此用户的访问级别。</p> 
-        <p>在为用户分配访问级别时，您可以分配等于或小于您自己的访问级别的级别。 （例如，如果您的访问级别是“计划员”，则您无法分配“管理员”访问级别。） 但是，如果Workfront管理员在访问级别上启用了非默认权限，而在您自己的访问级别上也未启用(通过“微调”设置，如 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>)。 </p> 
-        <p>有关访问级别的更多信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">配置对Adobe Workfront的访问权限</a>.</p> </li> 
-        <li> <p><b>布局模板</b>:为用户选择布局模板。 此布局模板优先于分配给用户的主组、主组或主作业角色的任何布局模板。 有关布局模板分配优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a>.</p> <p><b>注释</b>:  <p>您在此字段中可用的模板列表取决于您的访问权限：</p> 
-          <ul> 
-           <li>作为Workfront管理员，您可以看到所有系统级别和组级别的布局模板。</li> 
-           <li>作为组管理员，您可以看到系统级别的布局模板，以及与您管理的组关联的布局模板。</li> 
-           <li>作为具有计划许可证且有权编辑用户的用户，您只能看到系统级别的布局模板。</li> 
-          </ul> <p>有关组级别布局模板的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a>.</p> </p> </li> 
+      <li><b>处于活动状态：</b> 选中此框可指示用户处于活动状态。 活动用户使用Workfront许可证。 清除该框将停用用户。</li> 
+       <li> <p><b>访问级别：</b> 选择要分配给此用户的访问级别。</p> 
+       <p>在为用户分配访问级别时，您可以分配等于或小于您自己的访问级别的级别。 （例如，如果您的访问级别是“计划员”，则您无法分配“管理员”访问级别。） 但是，如果Workfront管理员在访问级别上启用了非默认权限，而在您自己的访问级别上也未启用(通过“微调”设置，如 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>)。 </p> 
+       <p>有关访问级别的更多信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">配置对Adobe Workfront的访问权限</a>.</p> </li> 
+       <li> <p><b>布局模板</b>:为用户选择布局模板。 此布局模板优先于分配给用户的主组、主组或主作业角色的任何布局模板。 有关布局模板分配优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a>.</p> <p><b>注释</b>:  <p>您在此字段中可用的模板列表取决于您的访问权限：</p> 
+       <ul> 
+       <li>作为Workfront管理员，您可以看到所有系统级别和组级别的布局模板。</li> 
+       <li>作为组管理员，您可以看到系统级别的布局模板，以及与您管理的组关联的布局模板。</li> 
+       <li>作为具有计划许可证且有权编辑用户的用户，您只能看到系统级别的布局模板。</li> 
+       </ul> <p>有关组级别布局模板的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">创建和管理布局模板</a>.</p> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -173,7 +136,24 @@ For more information about creating schedules in Workfront, see Create a schedul
       <td role="rowheader">资源规划 </td> 
       <td> 
        <ul>
-       <li><b>计划停用</b>:如果要计划在一段时间后停用此用户，请选中此框。 </li> 
+       <li>
+       <b><span class="preview">工作时间</span></b>: <span class="preview">表示用户可用于实际工作（不包括间接费用）的全职等效(FTE)时间的百分比。 工作时间必须是最多1的小数，并且不能是0。 例如，实际工作的20%可用性为0.2。</span>
+
+   <span class="preview">字段的默认值为1，表示用户将其整个FTE用于实际的项目相关工作。</span>
+
+   <span class="preview">系统使用此编号来计算用户在实际项目相关工作中的可用性。 </span>
+
+   <span class="preview">有关在Workfront中创建计划的更多信息，请参阅 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">创建计划</a>.</span>
+
+   <span class="preview">计划例外和休息时间也可能影响用户容量。
+
+   Workfront会根据“设置”区域中的“资源管理”首选项来计算用户的可用性。 有关更多信息，请参阅 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置资源管理首选项</a>.
+
+   <b>笔尖</b>
+
+   <span class="preview">将“工作时间”值设置为1，以指示用户可用于与项目相关的工作，且其整个全时对等工作。</span>
+   </li> 
+      <li> <b>计划停用</b>:如果要计划在一段时间后停用此用户，请选中此框。 </li> 
        <li><b>计划停用日期</b>:用户在此日期之后被停用。 有关计划用户停用的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">计划用户停用</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a>.</li> 
        <li> <p><b>主要角色</b>:这是用户可以在Workfront中履行的主要作业角色。 分配给用户的每项任务和问题也会分配给此作业角色。 作业角色在资源管理中是必不可少的。 仅当您具有具有管理用户访问权限的计划许可证，或者您是Workfront管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的更多信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> <p>列表中仅显示活动作业角色。 </p> </li> 
        <li>如果您选择了 <b>主要角色</b>, <b>FTE可用性百分比</b> 字段。 指定将用户计划的时间百分比分配给此作业角色。 主角色的FTE可用性百分比的默认值为100%。 </li> 
@@ -188,9 +168,28 @@ For more information about creating schedules in Workfront, see Create a schedul
       </ul></p> </li> 
        <li><b>默认小时类型</b>:为用户选择默认的小时类型。 这是用户记录时间时默认使用的小时类型。</li> 
        <li><b>可用小时类型</b>:选择用户应可用的小时类型。 这些小时类型在Workfront中的任意位置都可见，用户可以在其中记录时间。 用户只能查看在项目级别和用户级别启用的小时类型。 有关用户可使用的小时类型的更多信息，请参阅 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">定义工时单的工时类型和可用性</a>.</li> 
-       <li><b>登录时间：</b> 选择用户是否应以小时或天为单位记录工作项的时间。 有关更多信息，请参阅 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">配置时间是以小时还是天记录</a>.</li> 
-       <li> <p><b>FTE</b>:仅当系统级别的“资源管理首选项”设置为 <b>默认计划</b>. 值必须为 <i>0</i> 或介于 <i>.1</i> 和 <i>1</i>.</p> <p>例如，如果FTE值为0.5，而默认计划为40小时，则用户每周可工作20小时。</p> <p>如果系统级别的“资源管理首选项”设置为 <b>用户的计划</b>，则此处指定的值将被忽略，用户将根据其计划中指定的内容被视为可用。 在这种情况下，资源计划员用户的FTE通过以下公式计算：</p> <p ><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><em><br></em> </p> <p>有关计算用户FTE的详细信息，请参阅 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">资源计划员中用户和角色的小时数和FTE计算概述</a>.<br>有关在Workfront中创建计划的更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>.</p> <p>计划例外和休息时间可能会影响计划小时数或FTE的数量。 有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>. </p> </li> 
-        <li><b>资源池</b>:将用户与资源池关联。 有关更多信息，请参阅 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">将资源池与用户关联 </a>.</li> 
+       <li><b>登录时间：</b> 选择用户是否应以小时或天为单位记录工作项的时间。 有关更多信息，请参阅 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">配置时间是以小时还是天记录</a>.</li>
+
+   <li> <b>FTE</b>:这是用户的“全时对等”。 Workfront仅在系统级别的“资源管理首选项”设置为“默认计划”时，才使用此数字根据默认计划计算用户的可用性。
+
+   <p>FTE指示用户在工作中可花费的时间。 这包括开销以及项目工作花费的时间。 例如，在会议中花费的时间或培训也包含在FTE中。</p>
+
+   FTE必须是最多1的小数，并且不能是0。 例如，如果FTE值为0.5，而Workfront中的默认计划为40小时，则用户每周可用20小时。
+
+   字段的默认值为1。
+
+   计划例外，休假时间， <span class="preview">和工作时间的价值</span> 可能会影响用户的可用性。
+
+   Workfront会根据“设置”区域中的“资源管理”首选项来计算用户的可用性。
+
+   如果系统级别的“资源管理首选项”设置为“用户的计划”，则忽略此处指定的值，并根据用户的计划中指定的内容来考虑用户是否可用。
+
+   有关更多信息，请参阅 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置资源管理首选项</a>.
+
+   有关在Workfront中创建计划的更多信息，请参阅 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">创建计划</a>.
+   </li>
+
+   <li><b>资源池</b>:将用户与资源池关联。 有关更多信息，请参阅 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">将资源池与用户关联 </a>.</li> 
         <li><b>每小时成本</b>:用户每小时的成本金额。 </li> 
         <li><b>每小时计费</b>:用户每小时的账单金额。</li> 
        </ul> </td> 
