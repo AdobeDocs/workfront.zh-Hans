@@ -7,9 +7,9 @@ description: 您可以创建和编辑标记，并将其应用于校样和文件�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 标记]** > **[!UICONTROL 管理标记]** 就在名单上。
 
 1. 在 [!UICONTROL 标记] 选项卡，按照 [创建、编辑或删除选项卡。](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   当标记旁边的复选框中的复选框为深灰色时，标记将应用于所有选定项目。 如果为浅灰色，则只有选定批次中的某些项目会使用它进行标记。 如果要从所有选定项目中删除标记，请确保标记旁边的勾号框为空。\
+   当标记旁边的复选框为深灰色时，标记将应用于所有选定项目。 如果为浅灰色，则只有选定批次中的某些项目会使用它进行标记。 如果要从所有选定项目中删除标记，请确保标记旁边的勾号框为空。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## 通过校样详细信息或文件详细信息管理标记

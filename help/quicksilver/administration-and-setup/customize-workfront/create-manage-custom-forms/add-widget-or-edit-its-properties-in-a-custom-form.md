@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必需）键入或粘贴存储在Internet上的小组件的URL。</p> 
+       <p><strong>重要信息</strong>:的URL必须是公共URL。 </p>
       <p>如果您添加视频小组件，当前可以通过在URL框中添加以下内容来执行此操作：</p> 
       <ul> 
       <li> <p>YouTube或Vimeo链接</p> </li> 
       <li> <p>Google Drive视频链接</p> </li> 
       <li> <p>链接到扩展为MP4和MOV的视频</p> </li> 
-      <li> <p>已上传到Workfront实例中“文档”区域的视频的链接。 有关说明，请参阅 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">从“文档”区域将视频小组件添加到自定义表单</a> 在本文中。</p> </li> 
+      <li> <p>已上传到Workfront实例中“文档”区域的视频的链接。 有关说明，请参阅 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">从“文档”区域将视频小组件添加到自定义表单</a> 在本文中。</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 
