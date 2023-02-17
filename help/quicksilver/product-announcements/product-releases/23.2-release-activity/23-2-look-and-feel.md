@@ -4,10 +4,10 @@ description: 在23.2版本时间范围内进行外观更新
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ ht-degree: 4%
 ## “文档详细信息”中的“更新的文档版本”图标
 
 我们更新了文档版本图标的外观。 现在，图标会在您使用过去版本时显示一个红色圆点，并将鼠标悬停在上面显示“过去的版本”。
+
+## 复制一个或多个模板任务时的新体验
+
+>[!NOTE]
+>
+>预览版本：2023年2月16日；计划生产版本：2023年3月2日
+
+为了让您对Adobe Workfront的使用在应用程序的所有位置保持一致，我们在复制或移动模板任务时重新设计了界面。 当前，在任务级别复制模板任务或在列表中复制一个或多个任务时，此功能可用。
+
+一些改进包括：
+
+* 复制或移动模板任务之前必须更新的所有信息都会显示在一个连续的页面上。
+* Workfront会在选择目标模板后立即检查您是否有权访问目标模板。 在进行此增强之前，在确认了副本或移动后，会显示一条警告消息，指示您没有正确的访问权限，这会导致额外的步骤和操作被禁止。
+* 能够请求对要复制或移动模板任务的模板的访问权限，而不离开复制或移动模板任务框。
+
+有关更多信息，请参阅 [复制和移动模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 * [管理员增强功能](#administrator-enhancements)
 * [灵活的增强功能](#agile-enhancements)
+* [项目管理增强功能](#project-management-enhancements)
+* [资源管理增强](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -81,6 +83,57 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自定义信息卡中字段的显示</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>现在，可进行自定义，以配置在信息卡上显示的字段（在信息卡打开时的完整视图中）和展示板上的压缩信息卡视图中。 禁用字段时，这两个视图中都不显示字段。 您还可以在完整视图中启用字段，并在压缩视图中隐藏该字段。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本：2023年2月23日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">为移入展示板列的信息卡定义默认状态</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>您现在可以通过在列策略中选择自定义状态和系统状态，将默认状态设置为应用于移动到特定列中的卡。 将信息卡移入列时，Workfront会首先尝试应用自定义状态（例如，等待反馈）。 如果自定义状态不适用于该卡，则Workfront将应用系统状态（例如，暂挂）。 此外，如果连接任务或问题的状态更改为列策略中设置的自定义或系统状态，则卡会自动移至列。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本：2023年2月23日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">收藏集现在在Adobe Workfront展示板中可用</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>您现在可以在展示板仪表板上创建收藏集。 收藏集是一组用于协作工作的委员会。 命名收藏集后，您可以使用一组提供预定义设置（如列名称）的模板将展示板添加到收藏集。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本：2023年2月23日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">连接卡上的估计字段映射到Workfront对象上的“文章点”字段</a></p>
@@ -99,7 +152,6 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">进气列中的预览卡</a></p>
@@ -113,6 +165,77 @@ ht-degree: 0%
                             <li>
                                  <p>提前选择加入的生产版本：2023年2月2日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
                                 <p>适用于所有客户的生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 项目管理增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">复制项目时复制预算小时数</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <p>现在，您可以在复制项目时，选择复制在“业务案例”或“资源计划员”的“资源预算”区域中预算的小时数。 在此增强之前，项目预算的小时数未转移到复制的项目。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生产版本：2023年3月2日（非周期）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 资源管理增强
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入“工作时间”字段以准确计算用户容量</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <p>为了让资源经理能够准确计算其用户的可用性并考虑用户投入实际项目相关工作的时间，我们将工作时间概念引入Adobe Workfront。</p>
+                        <p>在创建或编辑每个用户的配置文件时，您可以为其定义“工作时间”字段的值。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月16日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生产版本：2023年3月2日（非周期）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件</span></a><span style="color: #ff0000;"> 生产新增！</span>
-                        <p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件</span></a>
+                        </span></a><p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
