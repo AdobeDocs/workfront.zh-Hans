@@ -6,9 +6,9 @@ description: 本页介绍R1.3版本的“预览”环境中所有可用的更改
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 2%
 
 ## 更新了处理日历的团队
 
+>[!NOTE]
+>
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用负载平衡器计划资源的信息，请参阅 [工作负载平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 现在，适用于团队的“工作”日历包含其他功能以及更新的外观。 “工作日历”团队现在的功能与项目的资源计划工具类似。
 
 更新的“工作日历”团队包括以下改进：
@@ -52,22 +56,26 @@ ht-degree: 2%
 * 默认情况下，“工作于”(Working On)团队日历中会显示问题。\
    在计划项目资源时，默认情况下不会显示问题。
 
-有关使用更新的团队工作日历的详细信息，请参阅 [资源计划](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+有关使用更新的团队处理日历的更多信息，请参阅“资源计划”。
 
 ## 资源计划增强功能
 
 计划时间轴包括以下增强功能：
 
-* [使用过滤器控制在计划时间轴上显示哪些用户](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [为用户分配任务后，用户将停留在时间轴上](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* “使用过滤器控制在计划时间线上显示哪些用户”
+* “用户在被分配任务后仍停留在时间轴上”
 
 ### 使用过滤器控制在计划时间轴上显示哪些用户 {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用负载平衡器计划资源的信息，请参阅 [工作负载平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 过滤器现在可用于控制在计划时间轴上显示哪些用户，以及在“未分配”区域中显示哪些任务和问题。 在筛选器中选择用户后，将仅显示您选择的用户，而不管他们的角色分配是否与“未分配”区域中任务的角色分配相匹配。 此外，还会显示当前分配给该用户的所有任务。
 
 在进行此项更改之前，过滤器仅控制在“未分配”区域中显示哪些任务和问题。 仅当用户与“未分配”区域中任务的角色分配匹配时，才会在计划时间轴中显示用户。
 
-有关使用过滤器控制计划时间轴上显示内容的更多信息，请参阅  [在“计划”区域中筛选信息](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)和  [在“计划”区域中手动分配未分配的任务和问题](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [在“计划”区域中手动分配未分配的任务和问题](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+有关使用过滤器控制计划时间轴上显示内容的更多信息，请参阅“在计划区域中过滤信息”和“在计划区域中手动分配未分配的任务和问题”。
 
 ### 为用户分配任务后，用户将停留在时间轴上 {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ ht-degree: 2%
 
 在进行此更改之前，如果“未分配”区域中没有具有匹配角色分配的剩余任务或问题，则在为用户分配任务或问题后，用户将立即从计划时间轴中消失。
 
-有关更多信息，请参阅  [在“计划”区域中手动分配未分配的任务和问题](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [在“计划”区域中手动分配未分配的任务和问题](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+有关更多信息，请参阅“在计划区域中手动分配未分配的任务和问题”。
 
 ## 通过更改对象名称自定义Workfront术语
 

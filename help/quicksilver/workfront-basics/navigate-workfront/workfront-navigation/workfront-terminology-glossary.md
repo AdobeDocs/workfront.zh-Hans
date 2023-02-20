@@ -5,9 +5,9 @@ title: 术语表 [!DNL Adobe Workfront] 术语
 description: 的 [!DNL Adobe Workfront] 术语表列出了Adobe Workfront中常用的术语。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '19106'
+source-wordcount: '19138'
 ht-degree: 0%
 
 ---
@@ -480,8 +480,14 @@ ht-degree: 0%
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>能力</p> </td> 
+   <td> <p>资源可用的时间。 请参阅“可用性”。 </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL类别]</p> </td> 
    <td> <p>类别是自定义表单。 您可以为此对象生成报表，也可以在其他对象报表中显示该报表。 并非所有对象都可以具有自定义表单或类别。 以下对象可以具有自定义表单： <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ ht-degree: 0%
    <td>[!UICONTROL文件夹]</td> 
    <td>文件夹用于组织与对象关联的文档或报表。</td> </tr>
   <tr>
-  <td>FTE（相当于全职）</td> 
+  <td>[!UICONTROL FTE]（相当于全职）</td> 
    <td>这是“等效全时”，用于指示资源可用于工作的时间。 
-   FTE字段显示在以下区域： 
+   [!UICONTROL FTE]字段显示在以下区域中： 
   <ul>
    <li> 编辑或创建用户时的用户配置文件 </li>
-   <li> 资源规划程序 </li>
-   <li> 方案计划员(需要为Workfront方案计划员提供附加许可证) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL方案规划器](需要为Workfront方案规划器附加许可) </li>
    <li> 用户列表和报表 </li> </ul>
 
-<p>FTE必须是最多1的小数，并且不能是0。 </p>
-   <p> FTE为1（如用户配置文件中所定义，此为用户FTE字段的默认值）表示资源（用户或角色）根据计算其可用性的计划计算整个小时数。 </p>
+<p>[!UICONTROL FTE]必须是最多1的小数，并且不能是0。 </p>
+   <p> 如果[!UICONTROL FTE]为1(这是用户的[!UICONTROL FTE]字段（在其配置文件中定义）的默认值)，则意味着资源（用户或角色）会根据计算其可用性的计划计算整个小时数。 </p>
    <p>您的Workfront管理员可决定将哪个计划用于确定用户的可用性。  </p>
    <ul>
-   <li> 使用默认计划时，Workfront会使用其配置文件中找到的用户的FTE来计算可用性。 </li>
-   <li> 使用用户计划时，Workfront会使用用户的休息时间， <span class="preview">工作时间值</span>和默认计划的小时数来计算用户的FTE。 </li> </ul>
+   <li> 使用[!UICONTROL默认计划]时，Workfront会使用其配置文件中找到的用户的[!UICONTROL FTE]来计算可用性。 </li>
+   <li> 使用用户计划时，Workfront会使用用户的休息时间， <span class="preview">[!UICONTROL工作时间]值</span>、和[!UICONTROL默认计划]的小时数来计算用户的[!UICONTROL FTE]。 </li> </ul>
 
 <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">配置资源管理首选项</a>.  </p>
-   <p>有关在Workfront中创建计划的更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">创建计划</a>. </p>
+   <p>有关在 [!DNL Workfront]，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">创建计划</a>. </p>
 
 <p><b>注释</b></p>
-   <p>对于方案计划器中的所有计算，Workfront会使用以下值：1个FTE = 8小时。</p>
-   <p>有关更多信息，请参阅 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">方案规划器入门</a>. </p>
+   <p>对于[!UICONTROL Scenario Planner]中的所有计算，Workfront会使用以下值：1 [!UICONTROL FTE] = 8小时。</p>
+   <p>有关更多信息，请参阅 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">[!UICONTROL Scenario Planner]入门</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL已计划]</td> 
-   <td> <p>计划发生某件事的时间范围。 在中创建项目、任务或问题时 [!DNL Workfront]，则可建立计划的开始和结束日期以及计划的时间范围。 这些值代表您完成工作所需时间的原始意图或估计。 </p></td> 
+   <td> <p>计划发生某件事的时间范围。 在中创建项目、任务或问题时 [!DNL Workfront]，则可建立计划的开始和结束日期以及计划的时间范围。 这些值表示您完成某个项目所需的原始意图或估算时间。 </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL计划收益]</td> 
@@ -1904,7 +1910,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL计划豁免]</td> 
-   <td>也称为[!UICONTROL Modified Shift]。 计划的天数，与计划定义的常规每周工作时间形成对比。 例如，如果将计划设置为仅在星期一到星期五工作，则计划工作的星期六将是[!UICONTROL计划例外]。</td> 
+   <td>也称为[!UICONTROL Modified Shift]。 计划的天数，与由计划定义的常规每周工作时间不同。 例如，如果将计划设置为仅在星期一到星期五工作，则计划工作的星期六将是[!UICONTROL计划例外]。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL计划报表]</td> 
@@ -2328,15 +2334,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL工作时间]</td> 
    <td>
 
-<p><span class="preview">表示用户可用于实际工作（不包括间接费用）的全职等效(FTE)时间的百分比。 工作时间必须是最多1的小数，并且不能是0。 例如，实际工作的20%可用性为0.2。</span>  </p>
-   </p><span class="preview">字段的默认值为1，表示用户将其整个FTE用于实际的项目相关工作。</span>   </p>
+<p><span class="preview">表示用户可用于实际工作（不包括开销）的相当于全职([!UICONTROL FTE])的时间的百分比。 [!UICONTROL工作时间]必须是最多1的小数，并且不能是0。 例如，实际工作的20%可用性为0.2。</span>  </p>
+   </p><span class="preview">字段的默认值为1，表示用户将其整个[!UICONTROL FTE]用于实际的项目相关工作。</span>   </p>
    <p><span class="preview">系统使用此编号来计算用户在实际项目相关工作中的可用性。 </span></p>
    <p> <span class="preview">计划例外和休息时间也可能影响用户容量。</span> </p>
-   <p><span class="preview">有关在Workfront中创建计划的更多信息，请参阅创建计划。 （插入链接）</span> </p>
-    <p>Workfront会根据“设置”区域中的“资源管理”首选项来计算用户的可用性。 有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">配置资源管理首选项</a>. </p> 
-   <p><span class="preview">您可以在编辑或创建用户时更新用户的工作时间。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">编辑用户的配置文件</a></span></p> 
+   <p><span class="preview">有关在Workfront中创建计划的更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">创建计划</a>.</span> </p>
+    <p>Workfront会根据[!UICONTROL Setup]区域中的Resource Management首选项计算用户的可用性。 有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">配置资源管理首选项</a>. </p> 
+   <p><span class="preview">您可以在编辑或创建用户时更新用户的[!UICONTROL工作时间]。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">编辑用户的配置文件</a></span></p> 
    <b>笔尖</b> 
-   <p><span class="preview">将“工作时间”值设置为1，以指示用户可用于与项目相关的工作，且其整个全时对等工作。</span></p> 
+   <p><span class="preview">将[!UICONTROL工作时间]值设置为1，表示用户可用于与项目相关的工作，且其整个全时对等内容。</span></p> 
    </td> 
   </tr> 
   <tr> 

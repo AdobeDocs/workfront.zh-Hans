@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * [!UICONTROL 计划] [!UICONTROL 例外] (取决于 [!UICONTROL 计划] ，它可以是用户计划的例外，也可以是与 [!DNL Workfront] [!UICONTROL 默认计划])
 * 用户的休息时间
 * 全时等效项的值([!UICONTROL FTE])或 [!DNL Workfront] 系统。 的 [!UICONTROL FTE] 如计划中所定义，当用户全时工作时等于1。
-* <span class="preview">的值 [!UICONTROL 工作时间] 用户，指用户在项目相关工作上花费的时间。 这不包括间接费用时间，如会议和培训。 的 [!UICONTROL 工作时间] 等于1，当用户在 [!UICONTROL FTE] 或是时间表，这意味着他们不会花时间从事与项目无关的工作，如会议或培训。</span>
+<div class="preview">
+*用户的[!UICONTROL工作时间]值，指用户在项目相关工作上花费的时间。 这不包括间接费用时间，如会议和培训。 当用户在[!UICONTROL FTE]或计划所指示的整个时间内都可工作时，[!UICONTROL工作时间]等于1，这意味着他们不会将任何时间用于与项目无关的工作，如会议或培训。
+</div>
 
 有关中的计划和计划资源的信息 [!DNL Workfront]，请参阅 [资源管理入门](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

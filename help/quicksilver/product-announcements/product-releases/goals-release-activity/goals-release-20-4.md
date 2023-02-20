@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ ht-degree: 0%
 
 * 更新了在目标列表部分使用更直观的打印链接打印目标列表的体验。
 
-   有关打印目标的信息，请参阅 [在Adobe Workfront目标中打印目标列表](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   有关打印目标的信息，请参阅“在Adobe Workfront目标中打印目标列表”。
+
+   >[!NOTE]
+   >
+   >  已弃用打印目标的功能，并从Workfront中删除。
+
 
 * 在“目标详细信息”面板中添加了有关结果和活动的其他信息，以便您能够清楚地了解结果和活动之间的差异。
 

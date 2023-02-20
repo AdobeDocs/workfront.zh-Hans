@@ -6,9 +6,9 @@ description: 计划项目概述
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ ht-degree: 0%
 
    有关计划时数的详细信息，请参阅文章 [计划时数概述](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* 将每个任务分配给负责完成此任务的用户或团队。 
+* 将每个任务分配给负责完成此任务的用户或团队。
 * 检查您分配给任务的用户的可用性。 确保他们可以自由工作且未过度分配，以便能够完成分配的任务。 如果用户分配过多或他们的计划中有时间休假，请考虑以下任一情况：
 
    * 减少每项任务的计划时数。
    * 向任务中添加更多用户，以确保任务可在为其分配的时间内完成。
    * 将任务重新指派给没有其他约束的可用用户。\
       有关规划项目资源的更多信息，请参阅文章 [Adobe Workfront资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      有关安排资源完成项目工作的详细信息，请参阅文章 [资源计划](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      有关计划资源完成项目工作的详细信息，请参阅 [工作负载平衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

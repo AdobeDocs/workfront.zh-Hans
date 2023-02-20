@@ -6,9 +6,9 @@ description: 为项目定义工作划分结构(WBS)是一组最终概述了项�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 1%
 有关规划更高级别资源使用的信息，请参阅文章 [资源规划入门](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 在构建一个项目的工作划分结构并确保将每个任务分配给正确的资源的上下文中管理资源时，您就可以安排资源用于需要完成的工作。\
-有关计划资源的信息，请参阅 [资源计划](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) 中。
+有关计划资源的信息，请参阅 [工作负载平衡器](../../../resource-mgmt/workload-balancer/workload-balancer.md) 中。
 
 ## 估计项目财务
 

@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront中使用过滤器来减少在列表、�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,6 @@ Workfront中有多种类型的过滤器。 所有过滤器的目的都与限制�
 * 利用率报告
 
    有关信息，请参阅 [筛选利用信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 在文章中 [查看资源利用信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* 资源计划区域\
-   有关信息，请参阅文章 [在“计划”区域中筛选信息](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * 工作负载均衡器
 

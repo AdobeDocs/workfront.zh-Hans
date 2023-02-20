@@ -6,9 +6,9 @@ description: 2016年，在“预览”环境中提供了以下功能。 这些�
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ ht-degree: 0%
 
 ## 资源计划改进
 
-现在，您可以查看您是资源管理器的项目上的所有任务，从而在制定计划决策时能够得到更多的信息。 
+>[!NOTE]
+>
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用负载平衡器计划资源的信息，请参阅 [工作负载平衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-有关可用于计划资源的工具的常规信息，请参阅 [资源计划入门](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+现在，您可以查看您是资源管理器的项目上的所有任务，从而在制定计划决策时能够得到更多的信息。
 
-要调整计划时间轴上显示的信息，请创建过滤器，如 [在“计划”区域中筛选信息](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+有关可用于计划资源的工具的常规信息，请参阅“资源计划快速入门”。
 
-除了查看您负责的项目中的任务之外，您还可以使用计划时间轴对资源分配进行更改。 有关如何在计划时间轴上管理用户分配的信息，请参阅 [在“计划”区域中手动分配未分配的任务和问题](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+要调整在计划时间线上显示的信息，请创建一个过滤器，如“计划区域的过滤信息”中所述。
+
+除了查看您负责的项目中的任务之外，您还可以使用计划时间轴对资源分配进行更改。 有关如何在计划时间轴上管理用户分配的信息，请参阅“在计划区域中手动分配未分配的任务和问题”。
 
 ## 在计划时间轴上管理用户分配
 
 现在，使用新的资源计划工具计划资源时，您可以确定如何将任务或问题的计划小时数分配给用户。 您可以在任务持续时间内和分配的用户之间跨天数划分小时。
 
-有关更多信息，请参阅 [在“计划”区域中管理用户分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+有关更多信息，请参阅“在计划区域中管理用户分配”。
 
 ## 默认情况下，用户分配处于禁用状态
 
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 以前，默认显示分配底纹，无法禁用。
 
-有关如何启用用户分配选项的更多信息，请参阅 [在“计划”区域中管理用户分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [在“计划”区域中管理用户分配](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+有关如何启用用户分配选项的更多信息，请参阅“在计划区域中管理用户分配”。
 
 ## 布局模板可确定新日历还是旧日历显示在“我的工作区”中
 

@@ -5,9 +5,9 @@ description: 在资源规划中，您可以在构建业务案例时对完成项�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预算资源与为项目计划资源不同。 在预算资源时，您可以估计完成项目工作所需的角色。 要实际计划或为用户分配项目工作，请参阅 [资源计划入门](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). 有关Adobe Workfront中资源规划的信息，请参阅 [资源规划入门](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>预算资源与为项目计划资源不同。 在预算资源时，您可以估计完成项目工作所需的角色。 要实际计划或为用户分配项目工作，请参阅 [在工作负载平衡器中管理用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 必须先将作业角色与项目关联，然后才能对项目的资源进行预算。 以下是将作业角色分配给项目的方法：
 

@@ -7,9 +7,9 @@ description: 与任务、问题或项目关联的计划时间表示分配的用�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ ht-degree: 0%
 >
 >“每日计划小时数”或每日分配是任务持续时间内每天计划小时数的分配。 如果任务有一个分配，则此数字表示每个分配每天的计划小时数。 如果任务具有多个分配，则每日计划小时数分配与任务的每日计划小时数不同。 对于具有多个分配的任务，Workfront中没有每个分配的每日计划时数的可视表示形式。
 
- 
-
 ## 查找并了解计划小时数值
 
 您可以在Workfront的各个区域中找到“计划小时数”值。 
@@ -89,7 +87,6 @@ ht-degree: 0%
 * [项目、任务或问题的“详细信息”部分](#the-details-section-of-a-project-task-or-issue)
 * [“编辑任务”或“编辑问题”框](#the-edit-task-or-edit-issue-box)
 * [报告](#reports)
-* [计划区域](#the-scheduling-areas)
 * [工作负载平衡器](#the-workload-balancer)
 * [资源计划员](#the-resource-planner)
 * [“ Utilization ”报告](#the-utilization-report)
@@ -131,20 +128,22 @@ ht-degree: 0%
 >
 >如果您创建项目（财务数据）报表并按日期对其进行分组，则计划小时数可能会根据项目任务的时间表显示项目的一部分计划小时数。 默认情况下，Workfront会为任务持续时间的每一天平均分配计划时数任务。 特定时间范围内的计划小时数与Workfront在项目（财务数据）报表中为该时间范围设置的相等分配相匹配。
 
-### 计划区域  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-任务和问题的计划小时数显示在计划小时数字段的计划区域中。
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-您可以在“计划”区域中查看分配给任务或问题的每个用户的计划小时数的每日分配。
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-每日小时金额表示以下任一值： 
+The daily hour amount represents one of the following:
 
-* Workfront在任务或问题持续期间的每一天平均分配的默认金额
-* 由资源管理员管理的调整后每日分配。
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   有关在计划工具中调整每日分配的信息，请参阅 [在“计划”区域中管理用户分配](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### 工作负载平衡器 {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ ht-degree: 0%
 * 对于项目，屏幕上会显示任务和问题之后的计划小时总数。
 
    >[!TIP]
-   工作负载平衡器不会显示项目的所有计划小时数，如项目详细信息区域所示。
+   >
+   >工作负载平衡器不会显示项目的所有计划小时数，如项目详细信息区域所示。
 
 您可以查看分配给任务或负载平衡器中问题的每个用户的每日计划小时分配。
 
@@ -176,7 +176,8 @@ ht-degree: 0%
 您可以在“资源计划员”的“PLN”列中查看与工作物料关联的用户和职务职责的每周计划小时数分配。
 
 >[!TIP]
-负载平衡器中的每日分配调整会影响资源计划器中任务和问题的每周分配。
+>
+>负载平衡器中的每日分配调整会影响资源计划器中任务和问题的每周分配。
 
 每个对象的计划小时数因您应用到资源计划员的视图而异。 有关更多信息，请参阅 [资源计划员的“项目”和“职责”视图中的工时、FTE和成本信息概览](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ ht-degree: 0%
 项目计划小时数是与每项任务和问题的分配关联的小时数。
 
 >[!IMPORTANT]
-请注意，“利用率”报表中的“计划时数”与分配关联，而与任务和问题本身无关。 “利用率”报表中的“计划小时数”在项目的任务和问题上并不总是与“计划小时数”匹配。 但是，计划小时数与与任务和问题分配关联的小时数匹配。
+>
+>请注意，“利用率”报表中的“计划时数”与分配关联，而与任务和问题本身无关。 “利用率”报表中的“计划小时数”在项目的任务和问题上并不总是与“计划小时数”匹配。 但是，计划小时数与与任务和问题分配关联的小时数匹配。
 
 您可以在“利用率”报表中查看以下类型的计划时数：
 

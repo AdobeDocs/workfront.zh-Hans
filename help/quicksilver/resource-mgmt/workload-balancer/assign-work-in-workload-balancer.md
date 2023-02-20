@@ -6,7 +6,7 @@ description: 作为资源管理器，您可以使用Adobe Workfront工作负载�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ Workfront使用以下信息在负载平衡器中计算用户的容量：
 * 用户的休息时间。 这表示用户计划起飞的日期。
 
    有关更多信息，请参阅 [在Adobe Workfront中配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">用户的工作时间。 这表示用户可用于执行实际项目相关工作（不包括间接费用）的FTE时间百分比。 将“工作时间”值设置为1，以指示用户可用于与项目相关的工作，且其整个全时对等工作。</span>
+<div class="preview">
+*用户的工作时间。 这表示用户可用于执行实际项目相关工作（不包括间接费用）的FTE时间百分比。 将“工作时间”值设置为1，以指示用户可用于与项目相关的工作，且其整个全时对等工作。
+</div>
 
 ## 在工作负载平衡器中分配工作
 

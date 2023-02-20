@@ -7,7 +7,7 @@ description: 您可以为用户、团队或作业角色分配任务或取消分�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * 有关分配任务的信息，请参阅 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 和 [在任务列表中修改多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* 有关在“计划”区域修改多个任务的分配的信息，请参阅 [将多个用户分配修改为“计划”区域中的任务](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* 有关在“计划”区域修改多个任务的分配的信息，请参阅“修改计划区域中任务的多个用户分配”。
 * 有关使用工作负载平衡器分配任务的信息，请参阅 [工作负载平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 本条中的某些信息也适用于问题的分配。 有关分配问题和其他注意事项的更多信息，请参阅 [修改问题分配概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
