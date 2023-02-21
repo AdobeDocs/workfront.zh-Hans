@@ -7,7 +7,7 @@ description: 您无需离开G Suite即可查看和管理工作项的详细信息
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ ht-degree: 0%
 
    选择任务或问题时， **[!UICONTROL 详细信息]** 选项卡。 位于 **[!UICONTROL 详细信息]** 选项卡显示父对象的名称、任务或问题的名称，以及 [!UICONTROL 到期日期] （如果是任务）或 [!UICONTROL 优先级日期] （如果是问题）。
 
-   ![](assets/details-tab.png)
 
    您可以在此选项卡上执行各种任务，而无需离开 [!DNL G Suite]，包括以下内容：
 

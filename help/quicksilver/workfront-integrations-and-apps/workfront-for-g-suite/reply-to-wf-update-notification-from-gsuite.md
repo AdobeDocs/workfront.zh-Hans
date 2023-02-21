@@ -7,7 +7,7 @@ description: 当您在 [!DNL Adobe] [!DNL Workfront]，您可以快速发布Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >有 [已知问题](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 的当前版本 [!DNL Workfront for G Suite] 无法按预期工作。 我们正在开发新版本，并期待该版本发布到 [!DNL Google Marketplace] 在不久的将来。
 
-当您在 [!DNL Adobe] [!DNL Workfront]，您可以快速发布来自 [!DNL Workfront for G Suite].
+当您在 [!DNL Adobe Workfront]，您可以快速发布来自 [!DNL Workfront for G Suite].
 
 ## 访问要求
 
