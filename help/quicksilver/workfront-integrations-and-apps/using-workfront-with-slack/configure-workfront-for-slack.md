@@ -6,9 +6,9 @@ description: 集成 [!DNL Adobe Workfront] 通过Slack，您可以访问和创�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 09b4644a63241fa9e0a213bfa6f1a7e4264a1703
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,8 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 在中打开[!DNL Slack]]**.
 
 1. 通过指定 [!DNL Slack] URL和单击 **[!UICONTROL 继续]**.\
-   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
 
 1. 检查 [!DNL Slack] 正在请求。 如果您同意此访问，请单击 **[!UICONTROL 允许访问]** 授权 [!DNL Workfront] 应用程序。
-
-   ![](assets/integrations-access-screen-350x429.png)
 
 您现在可以访问 [!DNL Workfront] 从 [!DNL Slack]，如 [访问 [!DNL Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -98,8 +95,6 @@ ht-degree: 0%
    或
 
    单击 **[!UICONTROL 添加应用程序]** 图标 [!DNL Slack] 实例。
-
-   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
 
 1. 开始键入 *[!DNL Workfront]* 中。
 1. 按Enter。

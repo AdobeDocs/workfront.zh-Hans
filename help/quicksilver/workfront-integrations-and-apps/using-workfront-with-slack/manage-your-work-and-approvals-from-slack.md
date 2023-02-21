@@ -6,9 +6,9 @@ description: 您可以访问“家庭工作列表”、审阅并同意处理任�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -62,8 +62,7 @@ ht-degree: 1%
    >* 您可以使用 `/wf` 而不是 `/workfront`.
 
 
-   将显示用于访问任务、问题和批准列表的按钮。 单击其中一个按钮，将显示 [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   将显示用于访问任务、问题和批准列表的按钮。 单击其中一个按钮，将显示 [!DNL Slack].
 
 1. （可选）单击 **[!UICONTROL 任务]** 以显示所有任务。
 
@@ -95,8 +94,7 @@ ht-degree: 1%
    >* 您可以使用 `/wf` 而不是 `/workfront`.
 
 
-   此时将显示列表中的前20项任务。\
-   ![](assets/slack-two-tasks-350x286.png)
+   此时将显示列表中的前20项任务。
 
 1. 单击 **[!UICONTROL +`<remaining number>` 更多]** 以显示其他任务。
 1. 请考虑查看有关工作项的以下信息：
@@ -141,8 +139,7 @@ ht-degree: 1%
    >* 您可以使用 `/wf` 而不是 `/workfront`.
 
 
-   此时将显示列表中的前20个问题。\
-   ![](assets/slack-two-issues-350x323.png)
+   此时将显示列表中的前20个问题。
 
 1. 单击 **[!UICONTROL +剩余 `<number>` 更多]** 以显示其他项目。
 1. 请考虑查看有关工作项的以下信息：
@@ -179,12 +176,6 @@ ht-degree: 1%
    您的 **[!UICONTROL 批准]** 列表显示。 此外，还会显示有关这些项目的其他信息，例如请求该项目的用户名称或该项目所属的项目名称。
 
 1. 单击 **[!UICONTROL +剩余 `<number>` 更多]** 以显示其他项目。
-
-   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. 考虑管理以下对象的批准：
 

@@ -6,9 +6,9 @@ description: 安装后 [!DNL Adobe Workfront] 用于Salesforce as a [!DNL Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划。 有关各种�
    单击 **[!UICONTROL 新建]** 以添加新布局。
 
 1. （可选）将 **[!UICONTROL 区域]** 组件，并将其放置到所需位置。\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. （可选）为新部分指定名称。
 
@@ -82,15 +81,13 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划。 有关各种�
 1. 单击 **[!UICONTROL 确定]**.
 1. 在 **[!UICONTROL 布局]** 区域，单击 **[!UICONTROL 可视化强制页面].**
 
-1. 拖放 **[!UICONTROL WorfrontOpportunities]** 组件添加到 **[!UICONTROL 机会]** 布局。
+1. 拖放 **[!UICONTROL WorkfrontOpportunities]** 组件添加到 **[!UICONTROL 机会]** 布局。
 
    或
 
    拖放 **[!UICONTROL WorkfrontAccounts]** 组件添加到  **[!UICONTROL 帐户]** 布局。\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
 1. 单击 **[!UICONTROL 属性]** 图标。\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
 
 1. 要获得最佳显示，请为 [!DNL Workfront Visualforce] 页面：
 
@@ -104,8 +101,6 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划。 有关各种�
    现在，所有已分配此布局的用户都能够查看 [!DNL Workfront] 部分 [!UICONTROL 机会] 或 [!UICONTROL 帐户] 对象。
 
    用户会看到 [!DNL Workfront] 登录屏幕 [!DNL Workfront] 中。 如果他们没有 [!DNL Workfront] 帐户，则他们可以折叠部分，但不能将其从布局中删除。
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## 配置 [!DNL Workfront] 部分 [!DNL Salesforce Lightning Experience] 框架
 
@@ -142,14 +137,11 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划。 有关各种�
 1. 转到 **[!UICONTROL 机会]** 或 **[!UICONTROL 帐户]**.
 
 1. 单击 **[!UICONTROL 设置]** 图标，然后单击 **[!UICONTROL 编辑页面]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. 展开 **[!UICONTROL 自定义管理]** 中。
 1. 拖放 **[!DNL Workfront]** 组件 [!UICONTROL 机会] 或帐户页面。
 
    我们建议将页面的全宽度用于 [!DNL Workfront] 部分而不是布局的列之一。
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -159,4 +151,3 @@ A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划。 有关各种�
    >
    >用户会看到 [!DNL Workfront] 登录屏幕 [!DNL Workfront] 中。 如果他们没有 [!DNL Workfront] 帐户，则他们可以折叠部分，但不能将其从布局中删除。 用户可以使用您已启用的身份验证方法登录：增强的身份验证或您的安全断言标记语言(SAML)URL。
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

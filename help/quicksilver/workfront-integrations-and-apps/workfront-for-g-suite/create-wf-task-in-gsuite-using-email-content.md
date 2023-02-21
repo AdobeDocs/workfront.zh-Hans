@@ -7,7 +7,7 @@ description: 您可以转换外部电子邮件(不是由Adobe生成) [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ ht-degree: 0%
 1. 如果 [!UICONTROL Workfront for G Suite] 未显示面板，请单击 [!DNL Workfront] 图标 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 页面最右侧的附加组件侧栏。
 1. 在中打开电子邮件 [!DNL G Suite]，单击 [!DNL Workfront for G Suite] 将电子邮件转换为 [!DNL Workfront] 任务。
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. 选择 **[!UICONTROL 新建]** 选项来指示任务是属于项目还是属于独立于项目的个人任务。
 1. 如果要将任务附加到父项目，请单击 **[!UICONTROL 项目名称]**，开始键入所需任务的项目名称，然后在项目名称出现在下面的列表中时单击该名称。
 1. 进行以下任何更改：
@@ -107,8 +105,6 @@ ht-degree: 0%
    在 **[!UICONTROL 详细信息]** ，也可以单击 **[!UICONTROL 查看[!DNL Workfront]]** 去Workfront执行新任务。
 
    刷新浏览器时，会在 [!DNL Workfront for G Suite] 面板会确认您已将电子邮件转换为任务：
-
-   ![](assets/email-was-converted.png)
 
    您可以单击该链接以转到 [!DNL Workfront for G Suite] 面板。
 

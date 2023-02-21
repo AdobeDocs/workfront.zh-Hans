@@ -6,16 +6,16 @@ description: 您可以搜索 [!DNL Workfront] 任意 [!DNL Adobe WorkfrontWorkfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # 搜索和共享 [!DNL Adobe Workfront] 项目 [!DNL Microsoft Teams]
 
-您可以搜索 [!DNL Workfront] 任意 [!DNL Adobe WorkfrontWorkfront] 渠道 [!DNL Microsoft Teams] 并与团队成员共享这些项目。
+您可以搜索 [!DNL Workfront] 任意 [!DNL Adobe Workfront] 渠道 [!DNL Microsoft Teams] 并与团队成员共享这些项目。
 
 * [共享先决条件 [!DNL Workfront] 项目 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [搜索和共享 [!DNL Workfront] 项目 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ ht-degree: 0%
    这会发送消息，包括 [!DNL Workfront] 项目添加到渠道。\
    渠道的所有成员都可以看到此消息，包括 [!DNL Workfront] 卡。
 
-1. 单击 **[!UICONTROL 在Workfront中查看]** 在Workfront中查看项目。\
-   仅具有 [!DNL Workfront] 许可证可以在Workfront中查看项目。
+1. 单击 **[!UICONTROL 在Workfront中查看]** 查看 [!DNL Workfront].\
+   仅具有 [!DNL Workfront] 许可证可以在 [!DNL Workfront].

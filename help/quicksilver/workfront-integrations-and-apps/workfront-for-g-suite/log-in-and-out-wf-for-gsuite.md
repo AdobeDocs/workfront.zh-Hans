@@ -7,7 +7,7 @@ description: 本文介绍了如何登录或退出 [!DNL Adobe Workfront for] G�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -69,8 +69,6 @@ ht-degree: 0%
 
 1. 如果 [!UICONTROL Workfront for G Suite] 未显示面板，请单击 [!DNL Workfront] 图标 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 页面最右侧的附加组件侧栏。
 1. 单击 **[!UICONTROL 更多操作]** 图标 [!DNL Workfront for G Suite] 的上界。
-
-   ![](assets/more-actions-icon.png)
 
 1. 单击 **[!UICONTROL 注销]** 中。
 

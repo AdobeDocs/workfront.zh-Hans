@@ -6,9 +6,9 @@ description: 在团队所有者为Microsoft Teams安装Adobe Workfront后，您�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 1%
 
 ## 提交 [!DNL Workfront] 请求 [!DNL Microsoft Teams]
 
-1. 单击 **[!UICONTROL 添加了更多应用程序]** 图标(在Microsoft Teams中)。
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 单击 **[!UICONTROL 添加了更多应用程序]** （三点）图标 [!DNL Microsoft Teams].
 
 1. 单击 **[!DNL Workfront]** 在显示的列表中。
 1. 单击 **[!UICONTROL 请求]** 选项卡。
@@ -89,14 +87,10 @@ ht-degree: 1%
 
 ## 查看 [!DNL Workfront] 您在 [!DNL Microsoft Teams]
 
-1. 单击 **[!UICONTROL 添加了更多应用程序]** 图标(在Microsoft Teams中)。
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 单击 **[!UICONTROL 添加了更多应用程序]** （三点）图标 [!DNL Microsoft Teams].
 
 1. 单击 **[!DNL Workfront]** 在显示的列表中。
 1. 单击 **[!UICONTROL 请求]** 选项卡。
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    您提交的请求列在 [!UICONTROL 我提交的请求] 区域 [!UICONTROL 请求] 选项卡。 您无法配置此选项卡中显示的有关您提交的请求的信息。
 

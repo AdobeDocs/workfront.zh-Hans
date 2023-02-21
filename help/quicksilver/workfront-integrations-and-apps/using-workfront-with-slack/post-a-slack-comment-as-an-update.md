@@ -6,9 +6,9 @@ description: 您可以添加Slack评论作为对Adobe Workfront中特定项目�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,13 @@ ht-degree: 0%
 
 ## 发布 [!DNL Slack] 作为 [!DNL Workfront]
 
-1. 将鼠标悬停在您在 [!DNL Slack] 渠道，然后单击 **[!UICONTROL 更多操作]** 图标。
-
-   ![](assets/slack-more-icon.png)
+1. 将鼠标悬停在您在 [!DNL Slack] 渠道，然后单击 **[!UICONTROL 更多操作]** （三点）图标。
 
 1. 单击 **[!UICONTROL 发布更新] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >您可能需要单击 **[!UICONTROL 更多消息快捷键]** 向下滚动以找到 **[!UICONTROL 发布更新]** 选项。
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. 在 **[!UICONTROL 项目、任务或问题]** 框中，开始键入要添加更新的项目、任务或问题的名称，然后单击项目、任务或问题的名称，该名称会显示在列表中。 对象在列表中显示之前，您必须具有查看权限。
 1. （可选）在 **[!UICONTROL 包括其他用户]** 框中，开始键入您可以查看的要包含在更新中的用户名称，然后在列表中显示时单击该名称。
 1. 单击 **[!UICONTROL 提交]**.
@@ -66,6 +60,6 @@ ht-degree: 0%
 
 1. （可选）单击您发布更新以在中访问该项目、任务或问题的名称 [!DNL Workfront].
 
-   在 [!DNL Workfront] 更新源于 [!DNL Slack].
+   评论源自 [!DNL Slack]，则评论会显示消息“[!UICONTROL 发布自 [!DNL Slack]]&quot; [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

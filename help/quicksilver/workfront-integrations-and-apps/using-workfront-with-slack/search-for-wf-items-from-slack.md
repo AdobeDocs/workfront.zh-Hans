@@ -6,9 +6,9 @@ description: 您可以搜索 [!DNL Adobe Workfront] 项目来源 [!DNL Slack], i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
@@ -60,8 +60,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >命令区分大小写。 关键字不区分大小写，且必须输入时不带方括号或引号。\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >命令区分大小写。 关键字不区分大小写，且必须输入时不带方括号或引号。
 
 1. 在显示的字段中，从以下字段中选择对象类型：
 

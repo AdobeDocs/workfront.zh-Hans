@@ -6,9 +6,9 @@ description: 接收 [!DNL Adobe Workfront] 通知 [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ ht-degree: 6%
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. 默认情况下，所有通知都处于启用状态。\
    禁用以下任何通知：
 
@@ -107,25 +105,15 @@ ht-degree: 6%
 
    * 单击 **[!UICONTROL 处理它]** 接受处理任务。
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * （视情况而定）单击 **[!UICONTROL 回复[!DNL Workfront]]** 要回复评论，请键入您的回复，然后单击 **[!UICONTROL 回复]**.
 
-   * （视情况而定）单击 **[!UICONTROL 回复[!DNL Workfront]]** 要回复评论，请键入您的回复，然后单击 **[!UICONTROL 回复]**.\
-
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
-
-   * （视情况而定）单击 **[!UICONTROL 批准]** 或 **[!UICONTROL 拒绝]** 批准或拒绝等待您批准的任务、问题或项目。\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
+   * （视情况而定）单击 **[!UICONTROL 批准]** 或 **[!UICONTROL 拒绝]** 批准或拒绝等待您批准的任务、问题或项目。
 
    * （视情况而定）单击 **[!UICONTROL 批准]**, **[!UICONTROL 更改]**&#x200B;或 **[!UICONTROL 拒绝]**、批准、批准更改或拒绝文档。
 
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       在批准文档之前，您还可以将鼠标悬停在文档的缩略图上，然后单击放大镜图标以查看文档的更大预览。\
       仅批准的Slack [文件类型](https://api.slack.com/types/file) 可以预览。
 
    * （视情况而定）单击 **[!UICONTROL 授予]** 或 **[!UICONTROL 忽略]** 来授予或忽略其他用户的更多访问权限请求。
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       您会收到一则确认消息，确认您的操作已在 [!DNL Workfront]，以获取您在通知中做出的每项决策。

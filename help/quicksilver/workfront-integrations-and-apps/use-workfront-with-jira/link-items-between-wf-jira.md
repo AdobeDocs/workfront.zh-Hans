@@ -6,9 +6,9 @@ description: 您可以链接 [!DNL Jira] 问题 [!DNL Adobe Workfront] 自动或
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ As a [!DNL Workfront] 管理员，您可以定义触发器，以在 [!DNL Jira] 
 
    在 **[!UICONTROL 更新]** 新任务的区域中，有一条注释，指示已在 [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. （可选）单击指向Jira问题的链接以在Jira中将其打开。
 
    或
@@ -142,15 +140,14 @@ When [!DNL Workfront] 和 [!DNL Jira] 项目已关联，则其中一个项目的
 
    或
 
-   从 [!UICONTROL 详细信息] 面积 ![](assets/details-icon-in-left-panel.png)，复制 **[!UICONTROL 参考编号]** 在Workfront。
+   从 [!UICONTROL 详细信息] 区域，复制 **[!UICONTROL 参考编号]** 在Workfront。
 
    >[!NOTE]
    >
    >您必须具有 [!DNL Workfront] 登录许可证 [!DNL Workfront]. 否则， [!DNL Workfront] 用户必须向您提供此信息。
 
 1. 在 [!DNL Jira]，导航到要手动链接到 [!DNL Workfront] 项目。
-1. 在 [!DNL Workfront] 右面板，粘贴 **URL** 或 **[!UICONTROL 参考编号]** 的 [!DNL Workfront] 链接到该项目的项目。\
-   ![manually_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. 在 [!DNL Workfront] 右面板，粘贴 **URL** 或 **[!UICONTROL 参考编号]** 的 [!DNL Workfront] 链接到该项目的项目。
 
 1. 单击 **[!UICONTROL 链接]**.
 
@@ -168,8 +165,6 @@ When [!DNL Workfront] 和 [!DNL Jira] 项目已关联，则其中一个项目的
 
 有关如何在右侧面板中显示其他字段的更多信息，请参阅 [在之间配置字段同步 [!DNL Jira] 和 [!DNL Workfront] 项目](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) 部分 [配置 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). 来自 [!DNL Workfront] 与集成关联的管理员将发布在 **[!DNL Workfront]** 选项卡 [!DNL Jira] 确认新 [!DNL Jira] 项目已创建。 注释包含指向 [!DNL Jira] 问题。
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## 取消项目之间的链接 [!DNL Jira] 和 [!DNL Workfront]
 
 之间的链接项目 [!DNL Jira] 和 [!DNL Workfront] 可以手动从中取消链接 [!DNL Jira].\
@@ -185,6 +180,6 @@ When [!DNL Workfront] 和 [!DNL Jira] 项目已关联，则其中一个项目的
 取消链接 [!DNL Jira] 来自 [!DNL Workfront] 项目：
 
 1. 在 [!DNL Jira]，导航到链接到 [!DNL Workfront] 任务或问题。
-1. 转到 [!DNL Workfront] 右侧面板，然后单击 **[!UICONTROL 取消链接]** 图标，然后单击 **[!UICONTROL 取消链接]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. 转到 [!DNL Workfront] 右侧面板，然后单击 **[!UICONTROL 取消链接]** 图标，然后单击 **[!UICONTROL 取消链接]**.
+
    之前链接的 [!DNL Jira] 和 [!DNL Workfront] 项目现已取消关联。 将来可能单独更新这些字段、评论或文档的任何字段、评论或文档都不会针对其他应用程序中先前的相应字段、评论或文档进行更新。

@@ -6,9 +6,9 @@ description: 您可以将电子邮件转换为 [!DNL Adobe Workfront] 任务或�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ ht-degree: 0%
 
    您可能需要单击电子邮件右上角的向下箭头才能访问 [!DNL Workfront] 图标。
 
-1. 单击 **[!UICONTROL 菜单]** 图标以显示可用列表 [!DNL Workfront] 选项。
+1. 单击 **[!UICONTROL 菜单]** 图标 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 显示可用列表 [!DNL Workfront] 选项。
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. 单击 **[!UICONTROL 添加到工作]**.
-
-   ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. 选择 **[!UICONTROL 添加到项目]** 字段。
 1. 开始在 **[!UICONTROL 项目]** 字段，然后在列表中显示时将其选中。
@@ -95,4 +93,3 @@ ht-degree: 0%
 
    在 [!DNL Workfront] 外接面板中，请注意带有添加了电子邮件的链接的确认消息 [!DNL Workfront] 作为任务或问题。 链接包括转换日期。
 
-   ![outlook_this_email_was_added_as_an_issue_png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

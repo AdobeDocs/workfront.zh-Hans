@@ -6,9 +6,9 @@ description: 安装并配置后 [!DNL Adobe Workfront] 对于Slack，您可以�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ ht-degree: 0%
 
    此时会显示收藏夹列表。
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. （可选）单击 **[!UICONTROL 显示更多]** 列出更多收藏。
 1. 单击收藏夹的名称以在中将其打开 [!DNL Workfront] 的子菜单。
 
@@ -73,7 +71,6 @@ ht-degree: 0%
    >命令区分大小写。 您可以使用 `/wf` 而不是 `/workfront`.
 
    此时会按上次访问顺序显示“最近项目”列表，最新项目位于顶部。 项目一次列出三个，并按对象类型分组。\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. （可选）单击 **[!UICONTROL 显示更多]** 列出更近的项目。
 1. （可选）单击最近访问过的项目的名称以在中将其打开 [!DNL Workfront] 的子菜单。

@@ -6,9 +6,9 @@ description: 安装后 [!DNL Adobe Workfront] 对于Salesforce，您可以定义
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1506'
 ht-degree: 3%
 
 ---
@@ -198,8 +198,6 @@ ht-degree: 3%
 1. 选择 **[!UICONTROL 项目]** 选项卡。
 
    由定义的触发器创建的所有项目都将在此选项卡中列出。 中的任何用户 [!DNL Salesforce] 也有 [!DNL Workfront] 帐户以及有权在 [!DNL Workfront] 也可以在 [!DNL Salesforce] 对于 [!UICONTROL 机会] 或生成这些帐户的帐户。
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    您可以查看有关该集成所创建项目的以下信息：
 

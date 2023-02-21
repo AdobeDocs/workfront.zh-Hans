@@ -6,9 +6,9 @@ description: 您可以转换 [!DNL Outlook] 电子邮件至 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 单击 **[!DNL Workfront]** 图标来显示 [!DNL Workfront] 插件。\
    您可能需要单击电子邮件右上角的向下箭头才能访问 [!DNL Workfront] 图标。
 
-1. 单击 **[!UICONTROL 菜单]** 图标以显示可用列表 [!DNL Workfront] 选项。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 单击 **[!UICONTROL 菜单]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 图标以显示可用列表 [!DNL Workfront] 选项。\
+
 
 1. 单击 **[!UICONTROL 添加到工作]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. 取消选择 **[!UICONTROL 添加到项目]** 字段。
 1. （可选）在将以下信息另存为任务之前，您可以从电子邮件中更新该信息：
@@ -67,5 +66,4 @@ ht-degree: 0%
 1. （可选）单击 **[!UICONTROL 在Workfront中查看]** 在 [!DNL Workfront] 应用程序。
 
 1. （可选）导航回 [!DNL Outlook]，然后选择原始电子邮件。\
-   在 [!DNL Workfront] 加载项面板中，请注意带有链接的确认信息，即电子邮件已作为任务添加到Workfront。 链接包括转换日期。\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)
+   在 [!DNL Workfront] 加载项面板中，请注意带有链接的确认信息，即电子邮件已作为任务添加到Workfront。 该链接包括转换日期。\

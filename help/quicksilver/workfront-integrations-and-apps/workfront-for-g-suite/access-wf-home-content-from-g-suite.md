@@ -7,7 +7,7 @@ description: 您可以访问 [!DNL Adobe Workfront] 主页内容，包括分配�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ ht-degree: 0%
 1. 如果 [!UICONTROL Workfront for G Suite] 未显示面板，请单击 [!DNL Workfront] 图标 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 页面最右侧的附加组件侧栏。
 1. 如果您在 [!DNL Workfront] 表示 [!DNL G Suite]，单击箭头以转到 [!UICONTROL 主页] 的上界。
 
-   ![](assets/left-arrow-to-home.png)
-
 1. 在 **[!UICONTROL 排序依据]** 区域，单击展开箭头 ![](assets/dropdown-arrow.png)，然后单击一个选项以指定您希望如何对工作项目进行分组，以便找到所需的工作项目。
-
-   ![](assets/sort-by-area.png)
 
    当您按 **[!UICONTROL 提交日期]** 或 **[!UICONTROL 计划完成]** 日期时，最早的工作项位于顶部。
 

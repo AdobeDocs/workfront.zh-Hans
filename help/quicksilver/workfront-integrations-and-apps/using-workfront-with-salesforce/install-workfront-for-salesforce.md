@@ -6,9 +6,9 @@ description: 要在应用程序在 [!DNL Salesforce] AppExchange，请参阅安�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ As a [!DNL Salesforce] 和 [!DNL Adobe Workfront] 管理员，您可以安装 [!
 
 1. 检查 **[!UICONTROL 是，授予对这些第三方网站的访问权限]** 框中。
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    此时会显示加载屏幕，安装过程可能需要一些时间。
 
 1. 单击 **[!UICONTROL 完成]** 安装完成后。
@@ -123,11 +121,9 @@ As a [!DNL Salesforce] 和 [!DNL Adobe Workfront] 管理员，您可以安装 [!
 
    的 [!DNL Workfront] 应用程序列在 **[!UICONTROL 已安装的包]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. 导航到 **[!UICONTROL 设置>安全控制>远程站点设置]**.
 1. （视情况而定）如果您没有看到 [!DNL Workfront] 在 **[!UICONTROL 所有远程站点]** 列表，单击 **[!UICONTROL 新建远程站点]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. 指定 **[!UICONTROL 远程站点名称]**.\
    例如， *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ As a [!DNL Salesforce] 和 [!DNL Adobe Workfront] 管理员，您可以安装 [!
 
    的 [!DNL Workfront] 应用程序列在 **[!UICONTROL 已安装的包]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. 导航到 **[!UICONTROL 设置].**
 1. 在 **[!UICONTROL 设置]** 部分，展&#x200B;开&#x200B;**[!UICONTROL 安全性].**
 
 1. 单击 **[!UICONTROL 远程站点设置]**.
 1. （视情况而定）如果您没有看到 [!DNL Workfront] 在 **[!UICONTROL 所有远程站点]** 列表，单击 **[!UICONTROL 新建远程站点]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. 指定 **[!UICONTROL 远程站点名称]**.
 

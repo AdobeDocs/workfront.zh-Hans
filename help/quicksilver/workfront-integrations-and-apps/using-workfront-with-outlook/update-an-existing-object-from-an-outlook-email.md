@@ -6,9 +6,9 @@ description: 您可以使用Outlook电子邮件中的信息更新现有项目、
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 单击 **[!DNL Workfront]** 图标来显示Workfront加载项。\
    您可能需要单击电子邮件右上角的向下箭头才能访问 [!DNL Workfront] 图标。
 
-1. 单击 **[!UICONTROL 菜单]** 图标以显示可用列表 [!DNL Workfront] 选项。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 单击 **[!UICONTROL 菜单]** 图标 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 显示可用列表 [!DNL Workfront] 选项。\
+
 
 1. 单击 **[!UICONTROL 更新] 在Workfront**.\
-   ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    您可以在将电子邮件另存为任务之前，从该电子邮件中更新以下信息：
 
    * **[!UICONTROL 类型]**:选择要更新的对象类型。 您可以选择 **[!UICONTROL 项目]**, **[!UICONTROL 任务]**&#x200B;或 **[!UICONTROL 问题]**. 您选择的对象将确定在 **[!UICONTROL 名称]** 字段。 如果不确定对象的类型，请选择 **[!UICONTROL 全部]** 以同时搜索项目、任务和问题。
@@ -67,7 +66,6 @@ ht-degree: 0%
 1. （可选）单击 **[!UICONTROL 包括其他]**，开始键入要包含在更新中的用户名称，然后在下拉列表中显示该名称时单击该名称。\
    重复此过程以包含其他用户，然后单击 **[!UICONTROL 完成]**.\
    默认情况下，无论您是否包含通知，您回复的用户都会收到通知。\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. （可选）单击 **[!UICONTROL 锁]** 图标，以限制对公司内用户进行此更新。 锁定更新后，公司外的用户将看不到该更新。
 

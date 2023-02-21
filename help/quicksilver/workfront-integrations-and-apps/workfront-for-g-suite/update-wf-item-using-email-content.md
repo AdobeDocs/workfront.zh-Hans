@@ -7,7 +7,7 @@ description: 您可以使用非Adobe Workfront电子邮件中的信息更新现�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ ht-degree: 0%
 1. 在 **[!UICONTROL 类型]**，单击下拉箭头，然后单击要在其中添加更新的对象类型。
 1. 单击 **[!UICONTROL 搜索]** 选项，开始键入要添加更新的对象的名称，然后在项目显示在下面的列表中时选择该项目。
 
-   ![](assets/click-search-for-task-issue.png)
-
    此选项会因您在步骤3中选择的内容而异。 可能是 **[!UICONTROL 搜索项目]**, **[!UICONTROL 搜索任务]**&#x200B;或 **[!UICONTROL 搜索问题]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 更新]**.
 
    刷新浏览器时，会在 [!DNL Workfront for G Suite] 面板会确认您已将电子邮件转换为更新：
-
-   ![](assets/email-was-converted-as-update.png)
 
    您可以单击链接以转到 [!UICONTROL 更新] 选项卡 [!DNL Workfront] 对于您在步骤4中指定的对象。
 

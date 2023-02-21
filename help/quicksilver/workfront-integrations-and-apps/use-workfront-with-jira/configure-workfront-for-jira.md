@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ ht-degree: 0%
 
    的 **[!UICONTROL 触发器]** 选项卡。
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. 单击 **[!UICONTROL 添加触发器]** 以添加新触发器。
 1. 在 **[!UICONTROL Workfront团队/用户/角色]** 字段，指定 [!DNL Workfront] 团队、用户或作业角色，然后单击以在列表中显示时将其选中。
 
@@ -180,8 +178,6 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 配置]**.
 1. 登录到 [!DNL Workfront] 作为Workfront管理员。
 1. 单击 **[!UICONTROL 设置]** 选项卡。
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. 在 **[!UICONTROL 从吉拉同步到Workfront]** ，选择要更新的字段 [!DNL Jira] 在Workfront中更新时。
 
@@ -305,7 +301,7 @@ ht-degree: 0%
            <li>选择 <strong>[!UICONTROL Always]</strong> 您可以启用集成，以在每次 [!DNL Jira] 没有用户 [!DNL Workfront] 帐户对链接的 [!DNL Jira] 问题：
             <ul>
              <li>已分配给 [!DNL Jira] 问题</li>
-             <li><p>将时间记录到 [!DNL Jira] 问题</p><p>此新用户不会占用 [!DNL Workfront] 许可证。 默认设置为“始终”。 用户在中以这种方式创建 [!DNL Workfront] 在其名称中添加了“[!UICONTROL Jira]”。</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>将时间记录到 [!DNL Jira] 问题</p><p>此新用户不会占用 [!DNL Workfront] 许可证。 默认设置为“始终”。 用户在中以这种方式创建 [!DNL Workfront] 在其名称中添加了“[!UICONTROL Jira]”。</p></li>
             </ul></li>
            <li>选择 <strong>[!UICONTROL Never]</strong>，则会发生以下情况：
             <ul>
