@@ -6,10 +6,10 @@ description: API版本控制和支持计划
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfront每半年发布一次新API版本，每六到八个月发布一次。 API版本在发布后的3年内受支持。 不再支持3年以前的API版本。
+Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本在发布后的3年内受支持。 不再支持3年以前的API版本。
 
 下表显示了Workfront API的发行和支持计划。
 

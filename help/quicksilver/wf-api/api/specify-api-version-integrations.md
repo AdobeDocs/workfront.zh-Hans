@@ -6,35 +6,45 @@ description: 在集成中指定API版本
 author: John
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # 在集成中指定API版本
 
-所有Adobe Workfront URI都需要在URI的“attask/api”部分之后引用API的特定版本。 以下示例调用了版本7.0:
-`attask/api/v7.0/<objectName>/<objectId>` 请确保您的所有集成都调用了当前支持的Workfront API。
+<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览沙盒”环境中可用。</span>
+
+所有Adobe Workfront URI都需要在URI的“attask/api”部分之后引用API的特定版本。 以下示例调用版本15.0:
+
+`attask/api/v15.0/<objectName>/<objectId>`
+
+请确保您的所有集成都调用了当前支持的Workfront API。
 
 ## Workfront API的发布和弃用计划
 
-新版API每两年发布一次，每六到八个月发布一次。 每个版本在其发行日期后三年内受支持，在已弃用状态下再受一年支持，即版本可用但不受支持。
+新版API会定期发布，通常每年发布两次。 每个版本在其发行日期后三年内受支持，在已弃用状态下再受一年支持，即版本可用但不受支持。
 
 有关Workfront API的发行频率和弃用计划的更多信息，请参阅 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront自2017年7月起弃用API的默认版本。 这意味着Workfront不再将特定版本的API指定为默认版本。 所有将来的API URI必须指定API的一个版本才能有效。
-
 >[!IMPORTANT]
 >
-> 必须在2018年7月1日之前更新使用默认API版本的任何集成，以调用特定受支持的API版本。
+>* 在23.2版本发布后，API的默认版本将设置为最新版本。 任何未指定版本的API调用都将使用默认版本。 每次Workfront发布新版API时，默认版本都将更新至最新版本。 因此，在发布新版本的Workfront API后，应检查使用默认版本的任何API调用，以确保仍支持该功能。
+>
+>* 如果贵组织当前使用默认API，则Workfront管理员已收到公告中心消息，其中包含有关默认API的进一步说明。
+>
+>* <span class="preview">预览环境中的默认API设置为最新版本。 在23.2版本（2023年4月）之后，生产环境中的默认API将设置为最新版本</span>.
+>
+>要查看API的最新版本，请参阅 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
+
 
 ## 确定您使用的API版本
 
-您可以通过检查发送到Workfront API的HTTP请求的URI来确定您所使用的API的版本。 以下示例显示了一个指定API版本7的Workfront请求URI:
+您可以通过检查发送到Workfront API的HTTP请求的URI来确定您所使用的API的版本。 以下示例显示了一个Workfront请求URI，该URI指定了API的版本15:
 
-`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+`https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
 
 如果URI未指定版本，则它使用API的默认版本，如以下示例所示：
 
@@ -42,7 +52,7 @@ Workfront自2017年7月起弃用API的默认版本。 这意味着Workfront不�
 
 >[!IMPORTANT]
 >
-> 在URI中未指定API版本的集成将自动路由到API的默认版本，并且在2018年7月1日之后将无法正常工作。
+> 在URI中未指定API版本的集成会自动路由到API的默认版本。
 
 ## 更新集成以使用支持的API版本
 
