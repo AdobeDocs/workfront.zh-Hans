@@ -6,7 +6,7 @@ description: 从 [!UICONTROL 展示板] 功能板中，您可以创建新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 4%
@@ -15,11 +15,9 @@ ht-degree: 4%
 
 # 创建或编辑展示板
 
-{{highlighted-preview}}
-
 从 [!UICONTROL 展示板] 功能板中，您可以创建新展示板或编辑现有展示板。
 
-<span class="preview">要向收藏集添加展示板，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+要向收藏集添加展示板，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 访问要求
 
@@ -45,15 +43,13 @@ ht-degree: 4%
 ## 创建新展示板
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
-1. 要创建独立展示板，请单击 **[!UICONTROL 新建]** 在 [!UICONTROL 展示板] 的上界。 <span class="preview">要向收藏集添加展示板，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. 要创建独立展示板，请单击 **[!UICONTROL 新建]** 在 [!UICONTROL 展示板] 的上界。 要向收藏集添加展示板，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > 仅通过早期的功能选择加入，才能使用收藏集 [!DNL Workfront] [!UICONTROL 展示板].
 
-1. <span class="preview">为展示板选择模板。</span>
-
-   <div class="preview">
+1. 为展示板选择模板。
 
    | 模板 | 描述 |
    |---------|----------|
@@ -64,8 +60,6 @@ ht-degree: 4%
    >[!NOTE]
    >
    > 仅通过早期的功能选择加入功能，才可使用展示板模板 [!DNL Workfront] [!UICONTROL 展示板].
-
-   </div>
 
 1. 在 **[!UICONTROL 展示板]** 字段，然后按Enter。
 1. 根据需要配置展示板。

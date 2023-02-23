@@ -5,9 +5,9 @@ title: 自定义信息卡上显示的字段
 description: 您可以通过禁用字段来自定义在信息卡上显示的字段，使其不会显示在完整信息卡或压缩视图中，或者隐藏压缩信息卡视图上的字段。
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 自定义信息卡上显示的字段
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->此功能仅通过Workfront主板的早期功能选择加入来提供。
+>此功能仅通过 [!DNL Workfront] [!UICONTROL 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 默认情况下，所有可用字段都显示在信息卡上（在信息卡打开时显示在完整视图中）和信息卡板上的压缩卡片视图中。 您可以自定义显示哪些字段：
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 1. 单击 [!UICONTROL **配置**] 打开“配置”面板。
 1. 展开 [!UICONTROL **卡片**].
 
-   默认情况下，所有字段都处于启用状态。
+   大多数字段默认处于启用状态。
 
 1. 关闭字段可在两个卡片视图中禁用该字段。
 1. 单击隐藏图标 ![隐藏图标](assets/eye-hide-icon.png) 字段旁边，以将其隐藏在缩合视图中。

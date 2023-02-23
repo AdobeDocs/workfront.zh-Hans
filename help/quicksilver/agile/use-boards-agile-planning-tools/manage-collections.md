@@ -6,7 +6,7 @@ title: 管理收藏集
 description: 收藏集是一组可配置的展示板，用于协作处理工作。
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # 管理收藏集
-
-{{highlighted-preview-article-level}}
 
 收藏集是一组可配置的展示板，用于协作处理工作。 收藏集可以包含从模板创建的不同类型的展示板。
 

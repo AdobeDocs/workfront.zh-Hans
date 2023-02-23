@@ -7,7 +7,7 @@ description: 在使用临时卡片和连接卡片创建展示板时，您可能�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # 敏捷规划工具概述
 
-{{highlighted-preview}}
-
-在使用临时卡片和连接卡片创建展示板时，您可能希望利用其他灵活规划工具，包括列WIP限制、将卡片分组到泳道、可用于积压工作的进纸列，以及 <span class="preview">展示板集合</span>.
+在使用临时卡片和连接卡片创建展示板时，您可能希望利用其他灵活规划工具，包括列WIP限制、将卡片分组到泳道、可用于积压工作的进纸列以及展示板集合。
 
 您可以以适合您和您的团队的方式使用任何或所有这些工具，而无需提交特定的灵活方法（如看板或清理）。
 
