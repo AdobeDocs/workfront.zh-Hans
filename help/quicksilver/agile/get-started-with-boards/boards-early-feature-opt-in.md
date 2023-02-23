@@ -6,9 +6,9 @@ title: 抢先试用功能选择加入 [!DNL Adobe Workfront] 展示板
 description: 阅读本文，了解 [!DNL Workfront Boards] 抢先试用功能选择加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,10 @@ ht-degree: 0%
   </tr>  
   <tr>
    <td>为移动到列中的信息卡定义默认状态</td>
+   <td>部分释放</td>
+  </tr>
+  <tr>
+   <td>在连接的卡上记录小时数</td>
    <td>部分释放</td>
   </tr>
  </tbody> 

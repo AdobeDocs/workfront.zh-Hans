@@ -6,14 +6,16 @@ description: 您可以在Adobe Workfront中记录工作项目的时间(&n)，以
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
 
 # 日志时间
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您在这些工作项上花费的小时数。 您还可以记录与工作无关的时间，如休假、病假或在会议中花费的时间。 您登录的时间显示在您的时间表中。
 
@@ -96,6 +98,7 @@ ht-degree: 0%
 * [主页](#home)
 * [项目、任务或问题](#project-task-or-issue)
 * [“摘要”面板](#summary-panel)
+* <span class="preview">[展示板](#boards)</span>
 * [移动设备应用程序](#mobile-app)
 
 ### 时间表 {#timesheet}
@@ -394,7 +397,20 @@ ht-degree: 0%
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### 展示板 {#boards}
+
+>[!NOTE]
+>
+>此功能仅通过Workfront主板的早期功能选择加入来提供。
+
+您可以在Workfront主板上的连接卡上登录时间。 这与记录任务或问题的时间相同，而记录在卡片上的小时则保存在连接的任务或问题上。
+有关更多信息，请参阅 [在主板上使用连接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### 移动设备应用程序 {#mobile-app}
 
 您可以从Workfront移动设备应用程序中记录时间。
+有关更多信息，请参阅 [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 或 [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)

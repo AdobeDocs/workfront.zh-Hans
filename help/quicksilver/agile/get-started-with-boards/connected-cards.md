@@ -6,14 +6,16 @@ description: 您可以在展示板上添加一个信息卡，该信息卡已连�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # 在主板上使用连接的卡
+
+{{highlighted-preview}}
 
 您可以在展示板上添加一个信息卡，该信息卡已连接到 [!DNL Workfront].
 
@@ -104,7 +106,7 @@ ht-degree: 1%
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL任务负责人]</strong></td>
-      <td><p>要向信息卡分配更多人员或团队，请开始在搜索字段中键入名称，然后在列表中显示时选择该名称。 您可以添加个人和团队。 在连接的卡上只允许一个团队分配。</p>
+      <td><p>要向信息卡分配更多人员或团队，请开始在搜索字段中键入名称，然后在列表中显示时选择该名称。 您可以添加个人和团队。 连接的卡上只允许一个团队分配。</p>
       <p>受分配者必须是董事会成员，否则他们不会出现在选择列表中。 当团队是展示板上的成员时，可以将各个团队成员分配到卡片中。</p>
       <p>您选择的任何受分配人也会分配给 [!DNL Workfront].</p></td>
      </tr>
@@ -182,3 +184,27 @@ ht-degree: 1%
    项目名称显示在卡详细信息的“连接”区域中。
 
 1. 单击 **[!UICONTROL 关闭]** 回到董事会。
+
+<div class="preview">
+
+## 在连接的卡上记录小时数
+
+>[!NOTE]
+>
+>此功能仅通过Workfront主板的早期功能选择加入来提供。
+
+您必须拥有正确的权限，才能记录连接任务或问题的小时数。
+
+默认情况下，时间日志记录字段不显示在连接的信息卡上。 必须启用 [!UICONTROL **小时**] 在 [!UICONTROL 配置] 区域 [!UICONTROL 卡片]. 有关更多信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. 输入任务或问题的小时数。
+1. 选择 [!UICONTROL 小时类型] （如果与默认值不同）。
+1. 单击 [!UICONTROL **日志时间**].
+
+   ![在卡上记录小时数](assets/log-hours-on-card.png)
+
+   在卡上记录的时间也保存在连接的任务或问题上。
+
+卡片上的日志记录时间与任务或问题上的日志记录时间相同。 有关更多信息，请参阅文章中的“记录项目、任务或问题的时间” [日志时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
