@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 创建、编辑和分配工时单配置文件
-description: 您可以创建、编辑和分配工时单配置文件，这些工时单为用户生成定期工时单，无需您进一步干预。 这样可节省您的时间，并确保以下内容在用户之间保持一致 — 编辑我。
+description: 您可以创建、编辑和分配工时单配置文件，这些工时单为用户生成定期工时单，无需您进一步干预。 这样可节省您的时间并确保用户之间的一致性。
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>创建时间表</strong> </td> 
-      <td> <p> <p>指定时间表配置文件应何时生成时间表。 时间表可设置为每周、每两周、每半月或每月自动生成。 选择希望生产工时单的一周中的某一天。</p> <p><b>注释</b>
+      <td> <p> <p>指定时间表配置文件应何时生成时间表。 时间表可设置为每周、每两周、每半月或每月自动生成。 选择希望生产工时单的一周中的某一天。</p>
+      <p>每周时间表从生成之日起开始。 例如，如果您每星期四创建每周工时单，则每周时间表的第一天是星期四。</p>
+      <p><b>注释</b></p>
 
-   如果将时间表配置文件配置为在星期五创建时间表，则用户无法记录当周的星期五、星期六和星期日的时间表。</p> <p>Workfront始终一次创建两个工时单：第一个时间表始终包括当前日期，第二个时间表在第一个时间表的时间范围结束时开始。</p> </p> </td>
-   </tr> 
+   <p>Workfront始终一次创建两个工时单：第一个时间表始终包括当前日期，第二个时间表在第一个时间表的时间范围结束时开始。</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>审批者</strong></p> </td> 
       <td> <p> <p>批准者是为与时间表关联的用户批准时间表的用户。 您最多可以在时间表上标识7个用户作为批准者。 识别多个用户对于确保在某人不在办公室时有审批者可用非常有用。 当用户提交时间表以供审批时，所有审批者都会收到通知。 只有一个用户需要批准时间表才能获得批准。</p> <p>只能将具有时间表管理权限的用户设置为批准者。 有关工时单管理权限的详细信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> <p>使用下拉菜单选择工时单的审批者（如果需要审批者）。 您可以从以下选项中进行选择：</p> 
