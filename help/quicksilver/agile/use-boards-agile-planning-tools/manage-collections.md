@@ -6,24 +6,22 @@ title: 管理收藏集
 description: 收藏集是一组可配置的展示板，用于协作处理工作。
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # 管理收藏集
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>仅通过早期的功能选择加入，才能使用收藏集 [!UICONTROL [!DNL Workfront] 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 收藏集是一组可配置的展示板，用于协作处理工作。 收藏集可以包含从模板创建的不同类型的展示板。
 
 收藏集会与您有权访问的各个展示板一起显示在功能板上，这些展示板不属于收藏集。 有关展示板仪表板的信息，请参阅 [使用展示板仪表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以单击功能板上的任何展示板名称以将其打开。
-
->[!NOTE]
->
->仅通过早期的功能选择加入，才能使用收藏集 [!UICONTROL [!DNL Workfront] 展示板].
 
 ## 访问要求
 
