@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">重命名布局模板中的管脚</span></a><span style="color: #ff0000;"> 预览中的新增功能！</span>
-                        <p>您现在可以重命名布局模板中的针脚，以便对用户更有意义，而不是使用固定页面的默认名称。 管理员创建的管脚将针对分配给布局模板的所有用户显示，用户无法重命名这些管脚。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">重命名布局模板中的管脚</span></a>
+                        </span></a><p>您现在可以重命名布局模板中的针脚，以便对用户更有意义，而不是使用固定页面的默认名称。 管理员创建的管脚将针对分配给布局模板的所有用户显示，用户无法重命名这些管脚。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -83,9 +83,26 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">在主板上的连接卡上记录小时</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>现在，您可以在连接的卡上登录数小时，这与在任务或问题上的登录方式相同。 您必须拥有正确的任务或问题权限才能记录时间。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年2月23日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本：2023年3月2日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自定义信息卡中字段的显示</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自定义信息卡中字段的显示</a></p>
                         <p>现在，可进行自定义，以配置在信息卡上显示的字段（在信息卡打开时的完整视图中）和展示板上的压缩信息卡视图中。 禁用字段时，这两个视图中都不显示字段。 您还可以在完整视图中启用字段，并在压缩视图中隐藏该字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -102,7 +119,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">为移入展示板列的信息卡定义默认状态</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">为移入展示板列的信息卡定义默认状态</a></p>
                         <p>您现在可以通过在列策略中选择自定义状态和系统状态，将默认状态设置为应用于移动到特定列中的卡。 将信息卡移入列时，Workfront会首先尝试应用自定义状态（例如，等待反馈）。 如果自定义状态不适用于该卡，则Workfront将应用系统状态（例如，暂挂）。 此外，如果连接任务或问题的状态更改为列策略中设置的自定义或系统状态，则卡会自动移至列。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -119,7 +136,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">收藏集现在在Adobe Workfront展示板中可用</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">收藏集现在在Adobe Workfront展示板中可用</a></p>
                         <p>您现在可以在展示板仪表板上创建收藏集。 收藏集是一组用于协作工作的委员会。 命名收藏集后，您可以使用一组提供预定义设置（如列名称）的模板将展示板添加到收藏集。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -190,7 +207,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">复制项目时复制预算小时数</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">复制项目时复制预算小时数</a>
                         <p>现在，您可以在复制项目时，选择复制在“业务案例”或“资源计划员”的“资源预算”区域中预算的小时数。 在此增强之前，项目预算的小时数未转移到复制的项目。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -225,7 +242,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入“工作时间”字段以准确计算用户容量</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入“工作时间”字段以准确计算用户容量</a>
                         <p>为了让资源经理能够准确计算其用户的可用性并考虑用户投入实际项目相关工作的时间，我们将工作时间概念引入Adobe Workfront。</p>
                         <p>在创建或编辑每个用户的配置文件时，您可以为其定义“工作时间”字段的值。</p>
                     </td>
@@ -328,6 +345,21 @@ ht-degree: 0%
 
 浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [培训版本更新页面](https://one.workfront.com/s/training-release-updates).
 
+### 即将从Workfront中删除功能
+
+以下功能即将从Workfront中删除：
+
+#### **对Workfront默认API的更改**
+
+为确保API调用能够利用最新的Workfront API功能，我们正在更新默认API。 当API调用未指定API版本时，将对默认API进行调用。
+
+现在，默认API将反映API的最新版本。 今后，我们将在每次发布新API版本时更新默认API，以便对默认API的调用始终使用最新版本的API。
+
+以前，默认API使用的是Workfront API版本2.0，该版本已弃用。
+
+如果贵组织当前使用的是已弃用的默认API，则Workfront管理员已收到公告中心消息，其中包含有关默认API的进一步说明。
+
+有关更多信息，请参阅 [更新使用默认API版本控制的集成](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

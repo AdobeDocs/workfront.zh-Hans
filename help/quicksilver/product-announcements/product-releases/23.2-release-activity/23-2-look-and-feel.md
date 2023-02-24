@@ -4,7 +4,7 @@ description: 在23.2版本时间范围内进行外观更新
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->预览版本：2023年2月9日；计划生产版本：2023年2月23日
+>预览版本：2023年2月9日；计划生产版本：2023年3月2日
 
 现在，在以下区域添加用户时，会显示其他用户信息：
 
