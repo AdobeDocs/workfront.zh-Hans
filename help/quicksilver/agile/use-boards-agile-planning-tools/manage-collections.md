@@ -6,14 +6,16 @@ title: 管理收藏集
 description: 收藏集是一组可配置的展示板，用于协作处理工作。
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
 # 管理收藏集
+
+{{highlighted-preview-article-level}}
 
 收藏集是一组可配置的展示板，用于协作处理工作。 收藏集可以包含从模板创建的不同类型的展示板。
 
@@ -60,7 +62,7 @@ ht-degree: 4%
 
 | 模板 | 描述 |
 |---------|----------|
-| 基本展示板 | 展示板上提供了三个默认列。 您可以添加新列，并重命名或删除默认列。 <p>展示板上提供了三个默认列。 您可以添加新列，并重命名或删除默认列。 |
+| 基本展示板 | 展示板上提供了三个默认列。 您可以添加新列，并重命名或删除默认列。 <p>未应用列策略。 |
 | Kanban 展示板 | 展示板上提供了以下列：积压、新增、进行中、完成和暂挂。 您可以添加新列，并重命名或删除默认列。<p>要使用积压工作，必须为进气列设置过滤器。 有关信息，请参阅 [向展示板添加进气柱](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的默认策略，请单击 [!UICONTROL **更多** 菜单] 在列中，然后选择 [!UICONTROL **编辑**]. 您可以更改其中任何预设策略。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | 回顾展示板 | 展示板上提供了以下列：什么进展顺利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 您可以添加新列，并重命名或删除默认列。 <p>未应用列策略。 |
 
