@@ -9,9 +9,9 @@ description: 本页介绍2022年5月9日这一周在Adobe Workfront Fusion中所
 author: Luke
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: 74b86728f7e77ca7c83ae060f244e6459d6e35b2
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
 
 ## 增强了方案执行历史记录搜索功能

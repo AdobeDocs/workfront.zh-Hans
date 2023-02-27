@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 ### Workfront 维护更新
 
-有关23.2版本期间进行的维护更新的信息，请参阅 [Workfront维护更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+有关23.2版本期间进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 培训更新
 

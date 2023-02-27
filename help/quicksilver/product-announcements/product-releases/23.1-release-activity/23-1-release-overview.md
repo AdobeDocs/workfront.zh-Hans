@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: ab0dfa8f5cfa7f76e25361deea13215dc66c9d01
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
@@ -523,7 +523,7 @@ ht-degree: 0%
 
 ### Workfront 维护更新
 
-有关22.3版本期间进行的维护更新的信息，请参阅 [Workfront维护更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+有关22.3版本期间进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 培训更新
 
