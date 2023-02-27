@@ -4,10 +4,10 @@ keywords: API，数据，同步，日志，条目，对象
 navigation-topic: general-api
 title: 使用API同步程序和服务的数据
 description: 使用API同步程序和服务的数据
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

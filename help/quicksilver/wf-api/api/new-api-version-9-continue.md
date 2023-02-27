@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API版本9的新增功能（续）
 description: 此列表是较大列表的后半部分。 上半部分位于API版本9的新增功能。 有关版本9的更新列表，请参阅API版本9的更新。
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 29%

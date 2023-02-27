@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API版本8的新增功能
 description: 这是API版本9新增的资源列表。 有关已对版本8的资源进行的更新列表，请访问API版本8的更新
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 32%

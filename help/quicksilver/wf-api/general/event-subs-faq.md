@@ -3,10 +3,10 @@ content-type: api;faq
 navigation-topic: general-api
 title: 常见问题解答 — 事件订阅
 description: 常见问题解答 — 事件订阅
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    * 如果满足以下任一条件，则将很难禁用事件订阅URL:
 
-      * 订阅URL无法交付7天，并且在过去72小时内至少连续2000次尝试交付失败。
+      * 订阅URL无法交付7天，并且在过去72小时内至少连续2000次交付尝试失败。
       * 订阅URL无法连续尝试50,000次。
 
 ## 如果我在尝试调用事件订阅API时收到500响应状态，我应该怎么做？

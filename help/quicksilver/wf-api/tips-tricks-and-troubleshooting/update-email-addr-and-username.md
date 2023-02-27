@@ -3,10 +3,10 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: 更新emailAddr时不会更新用户名
 description: 更新emailAddr时不会更新用户名
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
-source-git-commit: a939e14cbd6936bdd0c46c1ed641acdda497b8fc
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%

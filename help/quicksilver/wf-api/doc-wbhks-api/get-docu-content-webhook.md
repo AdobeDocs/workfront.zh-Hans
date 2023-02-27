@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: 通过Webhooks获取文档内容
 description: 返回文档的原始字节
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 7%

@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API版本12的新增功能
 description: Workfront于2020年11月12日发布了API版本12。 API版本12具有与版本11相比的以下更改
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 2%
