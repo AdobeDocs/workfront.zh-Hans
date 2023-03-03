@@ -1,90 +1,88 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: 工作负载平衡器中分配工作的概述
-description: 作为资源管理器，您可以使用Adobe Workfront工作负载平衡器来查看尚未分配给用户的工作项，并将这些项分配给用户。
+title: 在工作负载均衡器中分配工作概述
+description: 作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户的工作项，并将这些项目分配给用户。
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
-# 工作负载平衡器中分配工作的概述
+# 在工作负载均衡器中分配工作概述
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户的工作项，并将这些项目分配给用户。
 
-作为资源管理器，您可以使用Adobe Workfront工作负载平衡器来查看尚未分配给用户的工作项，并将这些项分配给用户。
+有关工作负载均衡器的常规信息，请参见 [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-有关工作负载平衡器的一般信息，请参阅 [工作负载平衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+您可以将工作项（任务和问题）分配给Workfront其他区域中的用户。 但是，通过使用工作负载均衡器，您可以轻松地了解用户的可用性，并在为他们分配更多工作之前清楚地看到他们分配到的所有其他项目。
 
-您可以将工作项（任务和问题）分配给Workfront其他区域的用户。 但是，通过使用工作负载平衡器，您可以轻松地了解用户的可用性，并在为他们分配更多工作之前清楚地看到他们分配到的所有其他项目。
-
-有关在Workfront其他区域分配工作项的信息，请参阅以下文章：
+有关在Workfront的其他区域中分配工作项的信息，请参阅以下文章：
 
 * [分配任务](../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [分配问题](../../manage-work/issues/manage-issues/assign-issues.md)
 
-## 工作负载平衡器中的用户可用性
+## 工作负载均衡器中的用户可用性
 
-您可以在负载平衡器中分配工作以匹配用户的可用时间。 为确保您分配正确的工作量而不是过度分配用户，分配给用户的工作项的计划小时总数必须与用户的每日或每周分配相匹配。
+您可以在工作负载均衡器中分配工作，以匹配用户的可用时间。 要确保您分配正确的工作量并且不会过度分配用户，分配给用户的工作项的计划小时总数必须与用户每日或每周分配相匹配。
 
 您必须了解Workfront如何计算用户的可用时间。
 
-Workfront使用以下信息在负载平衡器中计算用户的容量：
+Workfront使用以下信息在工作负载均衡器中计算用户的容量：
 
-* 资源管理首选项。 Workfront管理员通过选择在“设置”的“资源管理”区域中使用以下任一选项来确定系统的可用时间计算方式：
+* 资源管理首选项。 Workfront管理员通过在“设置”的“资源管理”区域中选择使用下列选项之一，确定系统可用时间的计算方式：
 
    * Workfront系统的默认计划和用户的FTE。
-   * 用户的计划，如“用户配置文件”区域中所示。
+   * 用户的计划，如用户配置文件区域中所示。
 
-      这会计算用户的每日和每周可用性。 所选计划的任何计划例外都反映在负载平衡器中用户的容量中。
+      这会计算用户的每日和每周可用性。 所选时间表上的任何时间表异常反映在工作负载均衡器的用户容量中。
    有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-   有关计划的信息，请参阅 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+   有关时间表的信息，请参阅 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-* 用户的休息时间。 这表示用户计划起飞的日期。
+* 用户的空闲时间。 这指示用户计划起飞的日期。
 
    有关更多信息，请参阅 [在Adobe Workfront中配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
-*用户的工作时间。 这表示用户可用于执行实际项目相关工作（不包括间接费用）的FTE时间百分比。 将“工作时间”值设置为1，以指示用户可用于与项目相关的工作，且其整个全时对等工作。
-</div>
 
-## 在工作负载平衡器中分配工作
+* 用户的工作时间。 这表示用户可用于执行实际项目相关工作（不包括间接费用）的FTE时间百分比。 将工作时间的值设置为1表示用户可用于其整个全职等效项目相关工作。
 
-您可以分配尚未分配给用户的工作项，或重新分配已分配给负载平衡器中用户的项。
 
-可以通过以下方式在工作负载平衡器中分配工作：
+## 在工作负载均衡器中分配工作
 
-* 通过手动分配每个项目，一次只分配一个项目。
+您可以在工作负载均衡器中分配尚未分配给用户的工作项，或重新分配已分配给用户的项。
 
-   在人工分配项目时，您可以一次进行一次高级分配。
+可以通过以下方式在工作负载均衡器中分配工作：
 
-   有关更多信息，请参阅 [使用工作负载平衡器手动分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* 通过手动分配每个项目，一次分配一个项目。
 
-* 通过将工作项拖放到需要分配的用户，一次只需一个项目。
+   在手动分配物料时，您可以一次分配一个“高级分配”。
 
-   有关更多信息，请参阅 [通过拖放在工作负载平衡器中分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   有关更多信息，请参阅 [使用工作负载均衡器手动分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-* 使用“批量分配”选项，一次可处理多个项目。 您可以定义规则，以便将项目一次分配给多个用户。
+* 通过将工作项拖放到需要分配的用户，每次一个项目。
 
-   有关更多信息，请参阅 [使用工作负载平衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   有关更多信息，请参阅 [通过拖放在工作负载均衡器中分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-有关取消分配工作的信息，请参阅 [在负载平衡器中取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+* 使用“批量分配”选项，一次分配多个项目。 您可以定义规则，通过规则一次将项目分配给多个用户。
 
-## 工作负载平衡器中的分配区域
+   有关更多信息，请参阅 [使用工作负载均衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-您可以在“资源”区域、项目或团队级别使用负载平衡器将工作分配给用户。 有关工作负载平衡器在Workfront中的位置的详细信息，请参阅 [找到工作负载平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+有关取消分配工作的信息，请参见 [在工作负载均衡器中取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
-工作负载平衡器中有两个区域，您可以在其中查看工作项：
+## 工作负载均衡器中的任务区域
 
-* **未分配的工作**:显示未分配给用户的项目。
-* **分配的工作**:显示分配给用户的项目。
+您可以在项目或团队级别使用“资源”区域中的“工作负载均衡器”将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-下表描述了根据项目的分配在每个区域中显示哪些项目：
+在工作负载均衡器中有两个区域可以查看工作项：
+
+* **未分配的工作**：显示未分配给用户的项目。
+* **已分派的工作**：显示分配给用户的项目。
+
+下表描述了根据各个区域的工作分配，哪些项显示在每个区域中：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,8 +90,8 @@ Workfront使用以下信息在负载平衡器中计算用户的容量：
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>分配类型</strong> </td> 
-   <td colspan="2"><strong>分配可见的区域</strong> </td> 
+   <td><strong>任务类型</strong> </td> 
+   <td colspan="2"><strong>任务可见的区域</strong> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -143,26 +141,26 @@ Workfront使用以下信息在负载平衡器中计算用户的容量：
  </tbody> 
 </table>
 
-&#42;将工作项分配给用户和角色后，只有在角色是主要代理人时，它才会显示在“未分配的工作”区域中。
+&#42;当工作项分配给用户和角色时，仅当角色是主要被分配者时，它才会显示在“未分配的工作”区域中。
 
-&#42;&#42;将工作项分配给用户和其他实体后，只有当用户是主要代理人时，它才会显示在“已分配的工作”区域中。
+&#42;&#42;将工作项分配给用户和其他实体时，仅当用户是主要被分配人时，它才会显示在已分配的工作区域中。
 
-有关负载平衡器的“未分配”和“已分配”区域的详细信息，请参阅 [导航工作负载平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关工作负载均衡器的“未指定”和“已指定”区域的详细信息，请参见 [导航到工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## 对工作角色、团队和用户进行多种分配的注意事项
+## 有关向工作角色、团队和用户分配多个工作项的注意事项
 
-在为工作项分配多个资源时，请考虑以下事项：
+将多个资源分配给工作项时，请考虑以下事项：
 
-* 用户可以拥有与其配置文件关联的多个作业角色。 有关将用户与作业角色关联的信息，请参阅 [编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 用户可有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* 任务或问题通常首先分配给一个或多个作业角色或团队。 当项目准备好启动时，可能还需要将它们分配给用户。\
-   如果任务或问题被分配到一个或多个角色，然后您又分配了一个用户，则Adobe Workfront会根据以下规则确定要与附加用户关联的作业角色（如果有）：
+* 任务或问题通常首先分配给一个或多个工作角色或团队。 当项目准备好开始时，可能需要将它们也分配给用户。\
+   如果将任务或问题分配给一个或多个角色，并且您还分配了用户，则Adobe Workfront将根据以下规则决定要将哪个工作角色与附加用户（如果有）相关联：
 
-   * 如果只分配了一个作业角色，并且该角色与用户的主角色相匹配，则该任务或问题将仅分配给执行其主角色的用户。
-   * 如果分配了多个角色，并且其中至少一个角色与用户的辅助角色匹配，则任务或问题会分配给执行其中一个其他角色(如果存在多个匹配，Workfront将随机选择)的用户，以及分配的任何其他角色。
-   * 如果分配了一个或多个作业角色，并且与用户的角色没有匹配，则任务或问题将分配给角色或角色以及用户。
+   * 如果仅分配了一个工作角色，并且该工作角色与用户的主要角色匹配，则任务或问题仅被分配给履行其主要角色的用户。
+   * 如果分配了多个角色，并且至少有一个角色与用户的辅助角色匹配，则将任务或问题分配给履行其中一个其他角色(如果存在多个匹配，则Workfront会随机选择其他角色)的用户以及分配的任何其他角色。
+   * 如果分配了一个或多个工作角色，但没有与用户的角色匹配，则任务或问题将同时分配给该角色或角色和用户。
 
-* 如果任务或问题被分配给团队，并且您也分配了用户，则任务或问题仍会同时分配给团队和用户。
+* 如果将任务或问题分配给团队并且您还分配了用户，则任务或问题仍会分配给团队和用户。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
