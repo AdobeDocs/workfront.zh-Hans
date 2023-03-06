@@ -4,28 +4,28 @@ description: Workfront Fusion发布活动周，2022年12月12日
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 5293ea1b83334567da5dfdd85221faec3deeb64b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动：2022年12月12日这一周
+# Workfront Fusion发布活动： 2022年12月12日开始的周
 
-本页介绍2022年2月14日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2022年2月14日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发行版活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中近期的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
-## 融合增强功能，以满足未来增长需求
+## 针对未来增长的Fusion增强
 
-我们正在幕后为Fusion为来年的预期增长做准备。 这些更改中的大部分内容对您不可见，但将确保当前和未来客户的可靠、高效性能。
+我们正在进行幕后工作，为Fusion预计来年的增长做好准备。 您看不到这些更改中的大部分内容，但可以确保为当前和未来客户提供可靠且高效的性能。
 
 
-我们当前正在研究：
+我们当前正在处理：
 
-* 进一步扩展了使用AdobeIdentity Management系统(IMS)进行未来Workfront融合身份验证的过程。
-* 更改Workfront Fusion处理未使用的Web挂接的方式，以防止它们在Fusion扩展时影响性能。
-* 其他基础架构增强。
+* 继续使用AdobeIdentity Management System (IMS)进行将来的Workfront Fusion身份验证。
+* 更改Workfront Fusion处理未使用Webhook的方式，以防止它们在Fusion扩展时影响性能。
+* 其他基础架构增强功能。
