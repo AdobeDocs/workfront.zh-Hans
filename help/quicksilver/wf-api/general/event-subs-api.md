@@ -6,9 +6,9 @@ description: 事件订阅API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-对事件订阅支持的Adobe Workfront对象执行操作时，您可以将Workfront配置为向所需的端点发送响应。 这意味着第三方应用程序在发生Workfront交互后不久便可以通过Workfront API接收来自交互的更新。 通常，您可能会在记录的数据更改后的不到5秒内收到Webhook通知。 客户平均在记录的数据更改后不到1秒钟就会收到Webhook通知。  
+当事件订阅支持的Adobe Workfront对象上发生操作时，您可以将Workfront配置为将响应发送到所需的端点。 这意味着第三方应用程序在更新发生后不久即可通过Workfront API从Workfront交互中接收更新。 通常，您预计会在5秒内收到来自记录数据更改的webhook通知。 平均而言，客户会在距记录的数据更改不到1秒的时间内收到webhook通知。  
 
-要通过防火墙接收事件订阅负载，您必须将以下IP地址添加到您的允许列表:
+允许列表要通过防火墙接收事件订阅负载，您必须将以下IP地址添加到：
 
 **对于欧洲客户：**
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 * 54.218.48.56
 * 52.39.217.230
 
-以下主题支持事件订阅API:
+以下主题支持事件订阅API：
 
 ## 事件订阅支持的对象
 
@@ -73,65 +73,10 @@ ht-degree: 3%
 
 要创建、查询或删除事件订阅，您的Workfront用户需要满足以下条件：
 
-* “系统管理员”的访问级别
-* apiKey
+* 要使用“事件订阅”，需要具有“系统管理员”访问级别。
+* A `sessionID`  标头才能使用事件订阅API
 
-   >[!NOTE]
-   >
-   >如果您的用户已在使用Workfront的API，则您的用户应该已经拥有apiKey。 您可以通过以下HTTP请求检索apiKey:
-
-**请求URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**请求标头：**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>内容类型</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**响应代码：**
-
-| 响应代码 | 描述 |
-|---|---|
-| 200(OK) | 已成功处理请求，应在响应正文中返回用户的现有apiKey。 |
-| 401（未授权） | 服务器确认请求，但无法处理该请求，因为请求的apiKey/用户无权发出此请求。 |
-
-{style=&quot;table-layout:auto&quot;}
-
-**响应正文示例：**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> 如果您是首次使用Workfront API，则需要生成一个apiKey，您可以通过以下链接执行此操作：
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   有关更多信息，请参阅 [身份验证](api-basics.md#authentication) 在 [API基础知识](api-basics.md).
 
 ## 形成订阅资源
 
@@ -139,11 +84,11 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
 
 * objId（可选）
 
-   * **字符串**  — 为其触发事件的指定objCode对象的ID。 如果未指定此字段，则用户将接收指定类型的所有对象的事件。
+   * **字符串**  — 为其触发事件的指定objCode的对象的ID。 如果未指定此字段，则用户会收到指定类型的所有对象的事件。
 
-* objCode（必需）
+* 对象代码（必需）
 
-   * **字符串**  — 订阅更改的对象的objCode。 下表列出了objCode的可能值。
+   * **字符串**  — 订阅更改的对象的对象代码。 下表中列出了objCode的可能值。
 
       <table style="table-layout:auto"> 
       <col> 
@@ -151,13 +96,13 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
       <thead> 
        <tr> 
         <th><p>对象</p></th> 
-        <th><p>objCode</p></th> 
+        <th><p>对象代码</p></th> 
        </tr> 
       </thead> 
       <tbody> 
        <tr> 
         <td scope="col">分配</td> 
-        <td scope="col"><p>ASSGN</p></td> 
+        <td scope="col"><p>分配</p></td> 
        </tr> 
        <tr> 
         <td scope="col">公司 </td> 
@@ -169,11 +114,11 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
        </tr> 
        <tr> 
         <td scope="col"><p>文档</p></td> 
-        <td scope="col">多库 </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>费用</p></td> 
-        <td scope="col">EXPNS</td> 
+        <td scope="col">扩展</td> 
        </tr> 
        <tr> 
         <td scope="col"><p>小时</p></td> 
@@ -197,7 +142,7 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
        </tr> 
        <tr> 
         <td scope="col"><p>项目</p></td> 
-        <td scope="col"><p>PROJ</p></td> 
+        <td scope="col"><p>项目</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>报告</p></td> 
@@ -209,7 +154,7 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
        </tr> 
        <tr> 
         <td scope="col"><p>模板</p></td> 
-        <td scope="col"><p>TMPL</p></td> 
+        <td scope="col"><p>模板</p></td> 
        </tr> 
        <tr> 
         <td scope="col">时间表</td> 
@@ -232,19 +177,19 @@ PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&
 
 * url（必需）
 
-   * **字符串**  — 通过HTTP将订阅事件有效负载发送到的端点的URL。
+   * **字符串**  — 通过HTTP向其发送订阅事件负载的端点的URL。
 
-* authToken（必需）
+* authToken （必需）
 
-   * **字符串** - OAuth2载体令牌，用于使用“URL”字段中指定的URL进行身份验证。 
+   * **字符串**  — 用于通过“URL”字段中指定的URL进行身份验证的OAuth2持有者令牌。 
 
 ## 创建事件订阅API请求
 
-在确保用户具有管理员访问权限并形成订阅资源后，您便可以创建事件订阅。
+在确保用户具有管理员访问权限并形成订阅资源后，便可以创建事件订阅。
 
-使用以下语法来构建URL。
+使用以下语法构建URL。
 
-**请求URL:**
+**请求URL：**
 
 
 ```
@@ -258,8 +203,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
+   <th> <p>标头名称</p> </th> 
+   <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>授权</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -290,14 +235,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 响应代码 | 描述 |
 |---|---|
 | 201（已创建） | 已成功创建事件订阅。 |
-| 400（请求错误） | 订阅资源的URL字段被视为无效。 |
-| 401（未授权） | 提供的apiKey为空或视为无效。 |
-| 403（禁止） | 与提供的apiKey匹配的用户没有管理员访问权限。 |
+| 400（错误请求） | 订阅资源的URL字段被视为无效。 |
+| 401（未授权） | 提供的sessionID为空或被视为无效。 |
+| 403（禁止访问） | 与提供的sessionID匹配的用户没有管理员访问权限。 |
 
-将订阅资源作为请求正文传递（其内容类型为“application/json”）会导致为指定的对象创建事件订阅。 响应代码为201（已创建）表示已创建订阅。 201以外的响应代码表示订阅是 **NOT** 创建。
+将订阅资源作为请求正文传递（内容类型为“application/json”）会导致为指定的对象创建事件订阅。 响应代码201 （已创建）表示已创建订阅。 201以外的响应代码表示订阅 **NOT** 已创建。
 
 >[!NOTE]
- “位置”响应标头包含新创建事件订阅的URI。
+>
+> “Location”响应标头包含新创建的事件订阅的URI。
 
 **响应标头示例：**
 
@@ -310,18 +256,18 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 ## 查询事件订阅
 
-查询Workfront HTTP时，请使用GET方法。 有两种方法可查询事件订阅：按订阅ID查询（请参阅下文）或查询所有事件订阅。
+查询Workfront的HTTP时，请使用GET方法。 有两种方法可以查询事件订阅：按订阅ID查询（请参阅下文）或查询所有事件订阅。
 
 ### 查询所有事件订阅
 
-您可以按照apiKey值的指定查询客户的所有事件订阅。 您还可以使用以下选项管理响应：
+您可以根据apiKey值的指定，查询客户的所有事件订阅。 您还可以使用以下选项管理响应：
 
-* **页面**:用于指定要返回的页数的查询参数选项。 默认值为1。
-* **限制**:查询参数选项，以指定每页返回的结果数。 默认值为100，最大值为1000。
+* **页面**：查询参数选项，用于指定要返回的页数。 默认值为1。
+* **限制**：查询参数选项，用于指定每页返回的结果数。 默认值为100，最大值为1000。
 
-列出特定客户所有事件订阅的请求语法如下：
+用于列出特定客户的所有事件订阅的请求语法如下：
 
-**请求URL:**
+**请求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -336,14 +282,14 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
+   <th> <p>标头名称</p> </th> 
+   <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授权</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,19 +298,19 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | 响应代码 | 描述 |
 |---|---|
-| 200(OK) | 返回的请求，其中包含为与提供的apiKey匹配的客户找到的所有事件订阅。 |
-| 401（未授权） | 提供的apiKey为空。 |
-| 403（禁止） | 与提供的apiKey匹配的用户没有管理员访问权限。 |
+| 200 （确定） | 返回的请求包含为匹配提供的sessionID的客户找到的所有事件订阅。 |
+| 401（未授权） | 提供的sessionID为空。 |
+| 403（禁止访问） | 与提供的sessionID匹配的用户没有管理员访问权限。 |
 
 
 **响应标头示例：**
 
 | 响应标头 | 示例 |
 |---|---|
-| Content-Type | `→application/json;charset=UTF-8` |
+| 内容类型 | `→application/json;charset=UTF-8` |
 | 日期 | `→Wed, 05 Apr 2017 21:29:32 GMT` |
 | 服务器 | `→Apache-Coyote/1.1` |
-| 传输编码 | `→chunked` |
+| Transfer-Encoding | `→chunked` |
 
 
 **响应正文示例：**
@@ -406,15 +352,15 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 位置
 
-* **页面** 和 **限制** 是请求中提供的值，还是未提供值的默认值
+* **页面** 和 **限制** 是请求中提供的值，如果未提供值，则使用默认值
 * **page_count** 是可查询的页面总数。
 * **total_count** 是与查询匹配的订阅总数。
 
-### 按事件订阅ID进行查询
+### 按事件订阅ID查询
 
-您可以按事件订阅的ID查询事件订阅。 列出事件订阅的请求语法如下：
+您可以按事件订阅ID查询事件订阅。 列出事件订阅的请求语法如下：
 
-**请求URL:**
+**请求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -429,14 +375,14 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
+   <th> <p>标头名称</p> </th> 
+   <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授权</p> </td> 
-   <td> <p>apiKey值</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID值</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -445,9 +391,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 | 响应代码 | 描述 |
 |---|---|
-| 200(OK) | 返回的请求包含与提供的订阅ID匹配的事件订阅。 |
-| 401（未授权） | 提供的apiKey为空。 |
-| 403（禁止） | 与提供的apiKey匹配的用户没有管理员访问权限。 |
+| 200 （确定） | 返回的请求具有匹配提供的订阅ID的事件订阅。 |
+| 401（未授权） | 提供的sessionID为空。 |
+| 403（禁止访问） | 与提供的sessionID匹配的用户没有管理员访问权限。 |
 
 
 **响应正文示例：**
@@ -466,32 +412,32 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
                 }
 ```
 
-## 事件订阅过滤
+## 事件订阅筛选
 
-事件订阅过滤功能可用于确保您仅接收相关消息。 为订阅创建过滤器可能会显着减少端点需要使用的消息数量。
+事件订阅筛选可用于确保您仅接收相关消息。 为您的订阅创建过滤器可能会显着减少您的端点需要使用的消息数量。
 
-例如， **更新 — 任务** 事件订阅只能在 **newState** 事件有效负载的 **taskStatus** as **当前**.
+例如， **更新 — 任务** 事件订阅只能设置为在以下情况下触发： **newState** 事件有效负载的 **任务状态** 作为 **当前**.
 
 >[!IMPORTANT]
-以下属性适用于事件订阅过滤
+以下属性适用于事件订阅筛选
 
-* 当过滤器字段具有非空值时， **newState** 包含过滤器键和值会发送到订阅的URL
-* 您可以按 **newState** 和/或 **oldState**&#x200B;对象
-* 过滤器仅根据它们是否等于特定值来评估
-* 如果过滤器语法不正确或与 **newState** 在有效负载中，将不会返回验证消息，以指示发生错误
-* 当前存在的订阅无法更新过滤器；必须使用新筛选器参数创建新订阅。
-* 多个过滤器可应用于单个订阅，并且仅在满足所有过滤条件时才会提供订阅。
-* 将多个过滤器应用于单个订阅的做法与使用 **和** 逻辑运算符。
-* 只要一个或多个事件订阅字段参数在每个事件订阅之间不同，就可以将多个事件订阅应用于单个对象。
-* 当将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此实践可用作逻辑运算符的等效替代方法 **或** 无法使用过滤器参数设置。
+* 当过滤器字段具有非空值时，仅限具有的邮件 **newState** 包含过滤器键和值，会发送到订阅的URL
+* 您可以按中包含的自定义数据进行筛选 **newState** 和/或 **oldState**&#x200B;对象的
+* 仅根据过滤器是否等于特定值来评估过滤器
+* 如果您的过滤器语法不正确或与 **newState** 在有效负载中，将不会返回验证消息以指示发生了错误
+* 无法在当前存在的订阅上更新筛选器；必须使用新的筛选器参数创建新订阅。
+* 多个筛选器可应用于单个订阅，并且仅在满足所有筛选器条件时交付订阅。
+* 将多个过滤器应用于单个订阅的做法等效于使用 **和** 逻辑运算符。
+* 只要每个事件订阅之间有一个或多个事件订阅字段参数不同，就可以将多个事件订阅应用于单个对象。
+* 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此做法可用作逻辑运算符的等效替代项 **或** 无法使用筛选参数设置的属性。
 
 ### 使用比较运算符
 
-您可以指定比较字段和过滤器字段。 在此对字段中使用比较运算符可筛选比较结果。 例如，您可以创建UPDATE - TASK订阅，该订阅仅在任务状态不等于当前时发送有效负荷。 您可以使用以下比较运算符：
+您可以指定比较字段以及过滤器字段。 在此至字段中使用比较运算符以筛选比较结果。 例如，您可以创建一个UPDATE - TASK订阅，该订阅仅在任务状态不等于“当前”时发送有效负载。 您可以使用以下比较运算符：
 
-#### eq:等于
+#### eq： equal
 
-此过滤器允许在发生的更改与 `fieldValue` 完全在过滤器中。 的 `fieldValue` 值区分大小写。
+此过滤器允许在发生的更改匹配时传递消息 `fieldValue` 完全符合条件。 此 `fieldValue` 值区分大小写。
 
 ```
 {
@@ -509,9 +455,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### ne:不等于
+#### ne：不等于
 
-此过滤器允许在发生的更改与匹配时发送消息 `fieldValue` 完全在过滤器中。 的 `fieldValue` 值区分大小写。
+此过滤器允许在发生的更改不匹配时传递消息 `fieldValue` 完全符合条件。 此 `fieldValue` 值区分大小写。
 
 ```
 {
@@ -529,9 +475,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### gt:大于
+#### gt：大于
 
-此过滤器允许在指定的 `fieldName` 大于的值 `fieldValue`.
+如果指定的更新，此过滤器允许传递消息 `fieldName` 大于的值 `fieldValue`.
 
 ```
 {
@@ -549,9 +495,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### get:大于或等于
+#### gte：大于或等于
 
-此过滤器允许在指定的 `fieldName` 大于或等于的值 `fieldValue`.
+如果指定的更新，此过滤器允许传递消息 `fieldName` 大于或等于 `fieldValue`.
 
 ```
 {
@@ -569,9 +515,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### lt:小于
+#### lt：小于
 
-此过滤器允许在指定的 `fieldName` 小于的值 `fieldValue`.
+如果指定的更新，此过滤器允许传递消息 `fieldName` 小于的值 `fieldValue`.
 
 ```
 {
@@ -589,9 +535,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### lte:小于或等于
+#### lte：小于或等于
 
-此过滤器允许在指定的 `fieldName` 小于或等于 `fieldValue`.
+如果指定的更新，此过滤器允许传递消息 `fieldName` 小于或等于 `fieldValue`.
 
 ```
 {
@@ -611,7 +557,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 包含
 
-如果发生的更改包含 `fieldValue` 中。 的 `fieldValue` 值区分大小写
+如果发生的更改包含 `fieldValue` 在过滤器中。 此 `fieldValue` 值区分大小写
 
 ```
 {
@@ -631,10 +577,10 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 更改
 
-此过滤器仅允许在指定的字段(`fieldName`)在oldstate和newstate中具有不同的值。 正在更新除指定字段以外的其他字段(`fieldName`)将不会返回该更改。
+此过滤器仅允许在指定的字段(`fieldName`)在oldstate和newstate中具有不同的值。 正在更新指定字段以外的其他字段(`fieldName`)将不会返回该更改。
 
 >[!NOTE]
-`fieldValue` 在下面的筛选器数组中不起作用。
+`fieldValue` 在“筛选器”数组中，该选项不起作用。
 
 ```
 {
@@ -654,12 +600,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### state
 
-此连接器将过滤器应用于已创建或更新对象的新状态或旧状态。 当您想要了解在何处进行了从某个内容到另一个内容的更改时，此功能非常有用。
-`oldState` 在CREATE上不可能 `eventTypes`.
+此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。 当您想知道在何处对某个对象进行了更改时，这会很有帮助。
+`oldState` 创建时不可能 `eventTypes`.
 
 >[!NOTE]
-下面的订阅和给定的过滤器将仅返回任务名称包含的消息 `again` 在 `oldState`，在对任务进行更新之前的状态。
-这种方法的一个用例是查找objCode消息，这些消息从一个内容更改为另一个内容。 例如，要了解从“Research Some Name”（研究团队名称）更改为“Research TeamName Some name”（研究团队名称某些名称）的所有任务
+下面带有给定过滤器的订阅将仅返回任务名称包含以下内容的消息 `again` 在 `oldState`，对任务进行更新之前的状态。
+此功能的用例是查找从一个事物更改为另一个事物的objCode消息。 例如，找出从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
@@ -680,7 +626,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 使用连接器字段
 
-的 `filterConnector` 字段，可选择应用过滤器的方式。 默认值为“AND”，其中过滤器必须全部为 `true` 以使订阅消息通过。 如果指定了“OR”，则只有一个过滤器必须匹配才能通过订阅消息。
+此 `filterConnector` 利用订阅有效负载上的字段，可选择应如何应用过滤器。 默认值为“AND”，其中所有过滤器都必须是 `true` 订阅消息才能查看。 如果指定了“OR”，则只有一个过滤器必须匹配订阅消息才能通过。
 
 ```
 {
@@ -706,9 +652,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ## 删除事件订阅
 
-删除Workfront HTTP时，请使用DELETE方法。 按订阅ID删除单个事件订阅的请求语法如下：
+删除Workfront的HTTP时，请使用DELETE方法。 用于按订阅ID删除单个事件订阅的请求语法如下：
 
-**请求URL:**
+**请求URL：**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -723,14 +669,14 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
+   <th> <p>标头名称</p> </th> 
+   <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授权</p> </td> 
-   <td> <p> 用户的apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID值 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,15 +695,15 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <tbody> 
   <tr> 
    <td>200（无内容）</td> 
-   <td>服务器成功删除了与提供的subscriptionID匹配的事件订阅。</td> 
+   <td>服务器已成功删除与提供的subscriptionID匹配的事件订阅。</td> 
   </tr> 
   <tr> 
    <td>401（未授权）</td> 
-   <td>提供的apiKey为空。</td> 
+   <td>提供的sessionID为空。</td> 
   </tr> 
   <tr> 
-   <td>403（禁止）</td> 
-   <td>与提供的apiKey匹配的用户没有管理员访问权限。</td> 
+   <td>403（禁止访问）</td> 
+   <td>与提供的sessionID匹配的用户没有管理员访问权限。</td> 
   </tr> 
   <tr> 
    <td>404（未找到）</td> 
@@ -776,23 +722,23 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 **响应正文示例：** 不适用
 
-## 事件负载示例
+## 事件有效负载示例
 
-用户收到的负载因对象类型而异，但传递这些不同负载的格式是一致的。
+用户收到的有效负载因对象类型而异，但存在一个一致的格式，用于交付这些变化的有效负载。
 
 例如，以下属性在所有事件负载中保持一致：
 
-* eventType
+* 事件类型
 * subscriptionId
 * oldState
 * newState
-* eventTime
+* eventtime
 
-尽管格式一致，但属性中包含的值在不同对象和对象类型之间有所不同。
+虽然格式一致，但属性中包含的值因对象和对象类型而异。
 
-下面显示了UPDATE事件和CREATE事件的有效负载示例。 请注意，在UPDATE示例中，oldState对象和newState对象是相同的，而在CREATE示例中，oldState对象为空（非NULL）。
+下面显示了UPDATE事件和CREATE事件的负载示例。 请注意，在UPDATE示例中，oldState对象和newState对象是相同的，而在CREATE示例中，oldState对象为空（不是NULL）。
 
-以下是UPDATE事件的有效负荷示例：
+以下是UPDATE事件的有效负载示例：
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -860,7 +806,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
                 }
 ```
 
-以下是CREATE事件的有效负荷示例：
+以下是CREATE事件的有效负载示例：
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -901,17 +847,17 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
             }
 ```
 
-## 基本64编码
+## Base 64编码
 
-如果由于事件订阅中包含的特殊字符与网络设置发生冲突而拒绝事件订阅，则可以使用Base64编码传递事件订阅。 Base64是一组编码方案，可将任意数据转换为ASCII字符串格式。 请务必注意，Base64不是一种安全加密形式。
+如果由于事件订阅中包含的特殊字符与网络设置之间的冲突而拒绝事件订阅，则可以使用Base64编码传递事件订阅。 Base64是一组可以将任意数据转换为ASCII字符串格式的编码方案。 需要注意的是，Base64不是一种安全加密形式。
 
-### 基64编码字段
+### Base 64编码字段
 
-base64Encoding字段是用于启用事件订阅负载的Base64编码的可选字段。 默认值为false，可能的值为：true、false和“ ”（空白）。
+base64Encoding字段是一个可选字段，用于启用事件订阅有效负载的Base64编码。 默认值为false，可能的值为： true、false和“ ”（空白）。
 
 ### 使用base64Encoding字段的请求示例
 
-如果使用将base64Encoding字段设置为true发出请求，则 **newState** 和 **oldState** 有效负载中的对象将作为基本64编码字符串进行传递。 如果base64Encoding字段设置为false、留空或未包含在请求中，则返回的有效负载将不会在base 64中进行编码。
+如果使用设置为true的base64Encoding字段发出请求，则 **newState** 和 **oldState** 有效负载中的对象作为基本64编码字符串交付。 如果base64Encoding字段设置为false、保留为空或未包含在请求中，则返回的有效负载将不会在base 64中编码。
 
 以下是使用base64Encoding字段的请求示例：
 
@@ -927,7 +873,7 @@ base64Encoding字段是用于启用事件订阅负载的Base64编码的可选字
             }
 ```
 
-### 基于64编码的响应负载示例
+### 基础64编码中的响应有效负载示例
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -947,9 +893,9 @@ base64Encoding字段是用于启用事件订阅负载的Base64编码的可选字
 
 ## 用于查询所有事件订阅的已弃用方法
 
-以下API端点已弃用，不应用于新实施。 我们还建议将旧实施转换到 **查询事件订阅** 部分。
+以下API端点已弃用，不应将其用于新实施。 我们还建议将旧实施转换为 **查询事件订阅** 章节。
 
-您可以按照apiKey值的指定查询客户的所有事件订阅。 列出特定客户所有事件订阅的请求语法如下所示：
+您可以查询由sessionID值指定的客户的所有事件订阅。 用于列出特定客户的所有事件订阅的请求语法如下URL：
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -964,14 +910,14 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <col> 
  <thead> 
   <tr> 
-   <th> <p>标题名称</p> </th> 
-   <th> <p>标题值</p> </th> 
+   <th> <p>标头名称</p> </th> 
+   <th> <p>标头值</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>授权</p> </td> 
-   <td> <p> 用户的apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID值 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -990,15 +936,15 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <tbody> 
   <tr> 
    <td>200（无内容）</td> 
-   <td>请求成功返回了为用户找到的所有事件订阅。</td> 
+   <td>该请求已成功返回为用户找到的所有事件订阅。</td> 
   </tr> 
   <tr> 
    <td>401（未授权）</td> 
-   <td>提供的apiKey为空。</td> 
+   <td>提供的sessionID为空。</td> 
   </tr> 
   <tr> 
-   <td>403（禁止）</td> 
-   <td>与提供的apiKey匹配的用户没有管理员访问权限。</td> 
+   <td>403（禁止访问）</td> 
+   <td>与提供的sessionID匹配的用户没有管理员访问权限。</td> 
   </tr> 
  </tbody> 
 </table>
