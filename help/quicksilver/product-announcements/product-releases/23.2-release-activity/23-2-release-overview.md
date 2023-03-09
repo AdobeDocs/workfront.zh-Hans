@@ -4,9 +4,9 @@ description: 23.2发行版概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
+source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 有关准备即将发布的版本的提示，请参阅 [为Adobe Workfront季度发布做准备](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
-<!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
+## 发布网络研讨会
+
+我们建议您注册Adobe Summit以观看以下Workfront讲座，以代替举行发布版网络研讨会：
+
+[有影响力的体验：从内容创建到个性化](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) ，了解创建、管理和个性化内容的新方式，并以更高的效率提供有影响力的体验。 此会话将为虚拟受众进行实时流式传输。
+
+[Adobe Workfront的未来](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) 2023年3月23日，了解Workfront的愿景及其在Adobe生态系统中的地位，并偷窥未来路线图。 此会议将录制，并稍后作为按需内容提供。
 
 <span class="preview">非周期功能（在23.2发行日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
@@ -30,6 +36,7 @@ ht-degree: 0%
 * [Agile增强功能](#agile-enhancements)
 * [项目管理增强功能](#project-management-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
+* [移动增强功能](#mobile-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -50,7 +57,30 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">重命名布局模板中的图钉</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">使用新的表单设计器创建自定义表单</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <p>新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。</p>
+                        <p>通过新的表单设计器，我们添加了 
+                        <ul>
+                        <li><strong>复制字段</strong>：您现在可以通过直接在画布中单击字段上的复制图标来复制现有字段。</li>
+                        <li><strong>使用默认部分</strong>：如果表单创建者尚未在表单顶部添加分区，则画布中现在将显示默认分区，以便用户能够调整未分配自定义分区的字段的权限。 </li>
+                        <li><strong>更改描述性文本的大小</strong>：您现在可以为描述性文本字段分配小尺寸、中尺寸或大尺寸。 您也可以将它们与其他字段在同一行上使用。 <span style="color: #ff0000;"> 更改描述性文本的大小已暂时延迟，但即将推出。</span></li> 
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年3月9日<br /></p>
+                            </li>
+                            <li>
+                                 <p>生产版本：随23.2版提供</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">重命名布局模板中的图钉</span></a>
                         </span></a><p>您现在可以在布局模板中重命名大头针，以便对用户更有意义，而不是使用固定页面的默认名称。 管理员创建的pin将显示给分配给布局模板的所有用户，并且用户无法重命名这些pin。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -82,26 +112,26 @@ ht-degree: 0%
                         <p><span class="bold">发行日期</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">从列表和报告将任务和问题添加到Workfront讨论区</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>您现在可以直接从列表或报告视图将现有任务或问题添加到Workfront展示板。 您添加到展示板的任何项目都将成为连接的卡片。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 2, 2023<br /></p>
+                                <p>预览版本： 2023年3月2日<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>生产版本：随23.2版提供</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">在展示板上记录已连接信息卡上的小时数</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在展示板上记录已连接信息卡上的小时数</a></p>
                         <p>您现在可以在已连接的信息卡上记录小时数，就像在任务或问题上一样。 您必须对任务或问题具有正确的权限才能记录时间。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -118,7 +148,7 @@ ht-degree: 0%
                 </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">自定义信息卡上的字段显示</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">自定义信息卡上的字段显示</a></p>
                         <p>自定义功能现在可用于配置信息卡上显示的字段，包括信息卡打开时的完整视图以及展示板上的压缩信息卡视图。 禁用时，字段不会显示在任一视图中。 您还可以在全视图中启用某个字段并在压缩视图中隐藏该字段。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -135,7 +165,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">为移动到展示板列中的信息卡定义默认状态</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">为移动到展示板列中的信息卡定义默认状态</a></p>
                         <p>现在，通过在列策略中选择自定义状态和系统状态，可设置默认状态以应用于移动到特定列的卡片。 将信息卡移动到列中时，Workfront会首先尝试应用自定义状态（例如，等待反馈）。 如果该信息卡的自定义状态不可用，Workfront将改为应用系统状态（例如，已搁置）。 此外，如果所连接任务或问题的状态更改为列策略中设置的自定义或系统状态，信息卡会自动移动到列。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -152,7 +182,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">收藏集现在可在Adobe Workfront展示板中使用</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">收藏集现在可在Adobe Workfront展示板中使用</a></p>
                         <p>您现在可以在展示板功能板上创建收藏集。 收藏集是一组用于协作完成工作的展示板。 为收藏集命名后，您可以使用一组提供预定义设置（如列名称）的模板将展示板添加到收藏集。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -169,7 +199,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上的估计字段映射到Workfront对象上的故事点字段</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上的估计字段映射到Workfront对象上的故事点字段</a></p>
                         <p>Workfront展示板中已连接信息卡上的“估计”字段现在映射到关联Workfront对象的“故事点”字段。 </p>
                         <p>新的“故事点”字段是可编辑的自由表单字段，可添加到列表或报告中任务或问题。 它与计划小时数或团队分配无关。</p>
                     </td>
@@ -187,7 +217,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">在摄取列中预览卡片</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在摄取列中预览卡片</a></p>
                         <p>现在，您可以单击引入列中的已连接信息卡，以查看其内容的仅查看版本。 在将信息卡从摄取列移动到展示板上的另一列之前，无法编辑信息卡内容。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -223,7 +253,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront中通常提供的增强型过滤器体验<span style="color: #ff0000;"> 预览中的新增功能！</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">批量编辑项目时的新体验</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <p>作为更新Workfront Experience的外观的一部分，我们重新设计了编辑项目框，可在批量同时编辑多个项目时使用。 在项目列表中选择多个项目时，您可以访问新的“编辑项目”框。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年3月9日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生产版本：从3月23日开始，这将分阶段发布到生产环境，并将于2023年5月11日完成</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront中通常提供的增强型过滤器体验</a>
                         <p>增强的过滤器体验将正式可用，并将于2023年3月2日在预览中成为标准过滤器生成器。 生产环境的分阶段推出也将从3月2日开始，所有客户都可在23.2版本中使用该版本。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -239,7 +285,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">复制项目时复制预算小时数</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">复制项目时复制预算小时数</a>
                         <p>现在，您可以选择在复制项目时复制业务案例或资源规划者的资源预算区域中预算的小时数。 在此增强之前，为项目预算的小时数未转移到复制的项目。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -274,7 +320,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">引入“工作时间”字段以准确计算用户容量</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">引入“工作时间”字段以准确计算用户容量</a>
                         <p>为了使资源管理者能够准确地计算用户的可用性，并计算用户投入到实际项目相关工作的时间，我们在Adobe Workfront中引入了“工作时间”的概念。</p>
                         <p>在创建或编辑用户档案时，您可以为每个用户定义“工作时间”字段的值。</p>
                     </td>
@@ -285,6 +331,42 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p><span class="preview">生产版本：2023年3月2日（非周期）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 移动增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">移动应用程序中的生物特征识别登录和展示板收藏集</span></a><span style="color: #ff0000;"> 即将推出！</span>
+                        <p>现在，生物特征识别登录是一个选项，可以让您更快地登录到移动设备应用程序！ 一旦在首次登录后设置了生物特征验证，用户将能够使用指纹或面部识别快速重新登录应用程序，只需偶尔重新验证密码即可。 此外，在以后的更新中，将针对常规登录体验进行一些外观上的改进。</p>
+                        <p>移动设备应用程序现在也支持展示板收藏集，允许移动设备用户从其移动设备展示板列表中查看他们在桌面版本中有权访问的任何收藏集。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用<br /></p>
+                            </li>
+                            <li>
+                                 <p>生产版本：可在Apple App Store和Google Play Store中获取2023年3月13日</p>
                             </li>
                         </ul>
                     </td>
@@ -310,7 +392,46 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新客户将加入AdobeUnified Experience</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <p>Adobe统一体验包括：
+                        <ul>
+                        <li>通过Adobe Experience Cloud对所有Adobe应用程序进行单次登录</li>
+                        <li>用于在Workfront组织和环境之间移动的“组织切换器”</li>
+                        <li>包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项的导航</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本： 2023年3月中下旬</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">验证查看器将在新选项卡中打开，以供统一体验中的用户使用</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <p>现在，验证查看器将在新选项卡中打开，以供统一体验中的用户使用。
+                        </p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本： 2023年3月中下旬</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件</span></a>
                         </span></a><p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -380,6 +501,10 @@ Workfront Fusion中的新增功能在23.2版本发行计划以外的版本周期
 ### 即将从Workfront中删除的功能
 
 以下功能即将从Workfront中删除：
+
+#### **仪表板外部页面不再支持仪表板URL**
+
+为了改进功能板的稳定性和加载时间，功能板中的外部页面将不再能够引用功能板URL。 如果帐户中包含任何引用仪表板的外部页面，系统管理员将收到应用程序内通知，提醒他们存在此更改。 有关更多信息，请参阅 [在功能板中嵌入外部页面](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **对Workfront默认API的更改**
 
