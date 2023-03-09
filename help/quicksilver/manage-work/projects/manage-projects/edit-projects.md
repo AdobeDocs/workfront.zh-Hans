@@ -6,7 +6,7 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 -->
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>完成情况类型</strong> </td> 
       <td> <p>在以下条件类型之间进行选择： 
-        <ul> 
-         <li><strong>手动：</strong> 项目所有者手动设置项目的条件。</li> 
-         <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置条件。 有关了解进度状态的更多信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>.</li> 
-        </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择系统项目完成情况计算方式的默认值 <span>或您的组</span>. 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>手动：</strong> 项目所有者手动设置项目的条件。</li> 
+       <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置条件。 有关了解进度状态的更多信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>.</li> 
+       </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择系统项目完成情况计算方式的默认值 <span>或您的组</span>. 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>完成情况</strong> </td> 
@@ -242,10 +243,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>时间表模式</strong> </td> 
       <td> <p>指定是从开始日期还是从完成日期开始安排项目。 此选择确定项目上任务的计划日期。 
-        <ul> 
-         <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概览</a>. 项目时间线从开始日期开始计算，而项目完成日期则由系统根据所有任务的持续时间来计算。 </li> 
-         <li><strong>完成日期</strong>：项目的最后一个任务与项目具有相同的规划完成日期。 项目时间线从完成日期开始计算，项目开始日期由系统从项目完成日期减去所有任务的持续时间来计算。 </li> 
-        </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择系统或组的默认“计划模式”设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概览</a>. 项目时间线从开始日期开始计算，而项目完成日期则由系统根据所有任务的持续时间来计算。 </li> 
+       <li><strong>完成日期</strong>：项目的最后一个任务与项目具有相同的规划完成日期。 项目时间线从完成日期开始计算，项目开始日期由系统从项目完成日期减去所有任务的持续时间来计算。 </li> 
+       </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择系统或组的默认“计划模式”设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>计划开始日期和时间</strong> </td> 
@@ -266,10 +267,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>组</strong></td> 
       <td> <p> <p>指定与项目关联的组的名称。 </p>这是必填字段. 不能有与组不关联的项目。 </p> <p>将鼠标悬停在正确组上并单击信息图标，可以确保选择正确的组 <img src="assets/info-icon.png"> 旁边显示的内容。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上方的组的层次结构及其管理员。</p> 默认情况下，在创建项目时，以下组之一会自动与项目关联，除非您指定其他组：</p> 
-        <ul> 
-         <li> <p><span>从“项目”区域创建项目时，项目创建者的主组与项目相关联。</span> </p> <p>从项目组合或项目群的项目分区创建项目时，也是如此。</p> </li> 
-         <li> <p>当从设置区域中的组主页创建项目时，该组与项目相关联。</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果项目、其任务或问题已经与使用组级别自定义状态的组级别审批流程相关联，则更改组可能会在先前组的审批状态与系统级别现有的审批状态之间产生冲突。 在更新组之前，请考虑删除项目或其任务或问题上的组级别审批流程。 有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别审批流程</a>. 有关创建组级自定义状态的信息，请参见 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑组状态</a></p> </td> 
+       <ul> 
+       <li> <p><span>从“项目”区域创建项目时，项目创建者的主组与项目相关联。</span> </p> <p>从项目组合或项目群的项目分区创建项目时，也是如此。</p> </li> 
+       <li> <p>当从设置区域中的组主页创建项目时，该组与项目相关联。</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果项目、其任务或问题已经与使用组级别自定义状态的组级别审批流程相关联，则更改组可能会在先前组的审批状态与系统级别现有的审批状态之间产生冲突。 在更新组之前，请考虑删除项目或其任务或问题上的组级别审批流程。 有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别审批流程</a>. 有关创建组级自定义状态的信息，请参见 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑组状态</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>公司</strong> </td> 
@@ -293,7 +294,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >   在更新项目所有者、项目发起人和资源管理器字段时，请注意头像、用户的主要角色或其电子邮件地址以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+   >在更新项目所有者、项目发起人和资源管理器字段时，请注意头像、用户的主要角色或其电子邮件地址以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -302,7 +303,6 @@ ht-degree: 2%
    单击&#x200B;**保存**。
 
 ### 自定义表单 {#custom-forms}
-
 
 根据您的访问级别和您对项目的权限，存在以下情况：
 
@@ -333,7 +333,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >   您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中只显示活动的自定义表单。 有关构建自定义表单的更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以向一个项目添加十个自定义表单。
+   >您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中只显示活动的自定义表单。 有关构建自定义表单的更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以向一个项目添加十个自定义表单。
 
 
 1. （视情况而定）如果您将自定义表单附加到项目，请编辑表单上的任何字段。 在保存项目之前，必须指定所有必填字段。
@@ -514,17 +514,12 @@ ht-degree: 2%
        <td> <p>选择要与项目关联的审批流程。 您的Workfront管理员必须定义系统级别的批准流程，然后才能将他们与项目关联。 <span>对批准流程具有管理访问权限的用户也可以创建特定于组的批准流程。</span> 有关创建审批流程的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建批准流程</a>.</p> <p>添加审批流程时，请考虑以下事项： </p> 
        <ul> 
        <li>列表中仅显示有效的审批流程。 </li> 
-       <li> <p>列表中将显示系统范围和组特定的批准流程。 与项目组以外的组关联的审批流程不会显示在列表中。</p> <p>如果与项目关联的组发生更改，则组特定的审批流程会变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>批量编辑项目时，存在以下情况：</p>
-
-   <ul> 
-   <li> <p>当您从同一组中选择项目时，系统层和组层审批流程都会显示在此字段中。</p> </li> 
-   <li> <p>当您从不同的组中选择项目时，此字段仅显示系统级别的审批流程。</p> </li> 
-   <li> <p>当任何项目附加一次性审批流程时，它将被您选择的系统层或组层审批流程替换。 </p> </li> 
-   </ul> 
+       <li> <p>列表中将显示系统范围和组特定的批准流程。 与项目组以外的组关联的审批流程不会显示在列表中。</p> <p>如果与项目关联的组发生更改，则组特定的审批流程会变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>批量编辑项目时，存在以下情况：</p> 
+       <ul> 
+       <li> <p>当您从同一组中选择项目时，系统层和组层审批流程都会显示在此字段中。</p> </li> 
+       <li> <p>当您从不同的组中选择项目时，此字段仅显示系统级别的审批流程。</p> </li> 
+       <li> <p>当任何项目附加一次性审批流程时，它将被您选择的系统层或组层审批流程替换。 </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >   删除自定义表单导致表单上的所有现有自定义字段信息丢失。 无法恢复此操作。
+   >删除自定义表单导致表单上的所有现有自定义字段信息丢失。 无法恢复此操作。
 
    有关编辑自定义表单的更多信息，请参阅部分 [自定义Forms](#custom-forms) 本文章中。
 
@@ -887,5 +882,3 @@ ht-degree: 2%
 
 1. （可选）单击 **取消** 在底部 **编辑项目** 页面以移除对所有项目所做的所有更改。
 1. 单击&#x200B;**保存**。
-
-<div>
