@@ -6,7 +6,7 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 ## 编辑项目
 
-通过编辑项目，可修改项目的信息和设置，以及项目上的任务和问题。
+通过编辑项目，您可以修改项目的信息和设置，以及项目上的任务和问题。
 
 本文中提到的一些设置可能会根据其在创建项目的模板中的状态从默认状态进行修改。 有关编辑模板的信息，请参阅 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
