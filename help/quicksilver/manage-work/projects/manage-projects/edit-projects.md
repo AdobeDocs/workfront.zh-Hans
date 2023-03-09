@@ -6,7 +6,7 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
+source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -882,3 +882,5 @@ ht-degree: 2%
 
 1. （可选）单击 **取消** 在底部 **编辑项目** 页面以移除对所有项目所做的所有更改。
 1. 单击&#x200B;**保存**。
+
+</div>
