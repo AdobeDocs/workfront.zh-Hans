@@ -7,9 +7,9 @@ description: 您可以使用表单设计器设计自定义表单。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ ht-degree: 4%
    >[!NOTE]
    >
    >带格式的文本字段不适用于Workfront移动设备应用程序（在即将发布的版本中提供）。
+
 * **描述性文本**：用于包含相关说明和指向Workfront外部页面的链接。
+
 +++
 
 要添加文本字段，请执行以下操作：
@@ -145,6 +147,17 @@ ht-degree: 4%
     <td>输入到</td>
     <td>描述</td>
     <td>可用于 </td>
+    </tr>
+    <tr>
+    <td>大小</td>
+    <td><p>更改表单上文本字段的大小。<p>
+   </td>
+    <td><ul>
+    <li>单行文本</li>
+    <li>段落文本</li>
+    <li>带格式文本</li>
+    <li>描述性文本 — 即将推出</li>
+    </ul></td>
     </tr>
     <tr>
     <td>标签</td>
@@ -209,6 +222,14 @@ ht-degree: 4%
     <td><ul><li>描述性文本</li></ul></td>
     </tr>
    </table>
+
+1. （可选）重复上一步以添加任何其他字段或构件。
+
+   或
+
+   要复制字段，请将鼠标悬停在字段上，然后单击复制图标。
+
+   ![复制图标](assets/copy-field.png)
 
 1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
 
@@ -346,6 +367,20 @@ ht-degree: 4%
     </tbody> 
     </table>
 
+1. （可选）重复上一步以添加任何其他字段或构件。
+
+   或
+
+   要复制字段，请将鼠标悬停在字段上，然后单击复制图标。
+
+   ![复制图标](assets/copy-field.png)
+
+1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
+
+   或
+
+   单击 **保存并关闭**.
+
 ### 添加预输入和日期字段
 
 您可以将预输入和日期字段添加到自定义表单。
@@ -445,6 +480,14 @@ ht-degree: 4%
     </tbody> 
    </table>
 
+1. （可选）重复上一步以添加任何其他字段或构件。
+
+   或
+
+   要复制字段，请将鼠标悬停在字段上，然后单击复制图标。
+
+   ![复制图标](assets/copy-field.png)
+
 1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
 
    或
@@ -520,6 +563,14 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
+1. （可选）重复上一步以添加任何其他字段或构件。
+
+   或
+
+   要复制字段，请将鼠标悬停在字段上，然后单击复制图标。
+
+   ![复制图标](assets/copy-field.png)
+
 1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
 
    或
@@ -588,6 +639,14 @@ The Workfront Mobile app -->
      </tr> 
     </tbody> 
    </table>
+
+1. （可选）重复上一步以添加任何其他字段或构件。
+
+   或
+
+   要复制字段，请将鼠标悬停在字段上，然后单击复制图标。
+
+   ![复制图标](assets/copy-field.png)
 
 1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
 
