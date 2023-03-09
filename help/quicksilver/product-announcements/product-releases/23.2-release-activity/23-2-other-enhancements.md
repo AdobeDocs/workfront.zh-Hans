@@ -4,9 +4,9 @@ description: 23.2其他增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 本页介绍了在23.2版本中对“预览”环境进行的所有其他增强。 这些增强功能将在23.2版本的生产环境中提供。
 
 有关23.2版本周期此时可用所有更改的列表，请参阅 [23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 问题Beta版的新评论体验
+
+目前正在开发Adobe Workfront中评论体验的更新。 此更新包括一些对象的“更新”部分中的新界面、新功能和改进的性能。
+
+这一新体验最终将统一整个Adobe Workfront以及整个Adobe Experience Cloud中的其他部门的评论工作。
+
+作为此更新的一部分，我们将向问题的更新部分引入新的评论体验。 在当前版本中，每个用户都可以在测试版模式下切换以在自己的环境中启用此体验。 接受Beta协议后，将显示新的更新部分，这样他们可以像现在一样继续管理他们在该部分的工作。
+Workfront Goals在23.1版本中发布了类似的功能。
+
+此更新中包含的一些功能包括：
+
+* 用于注释和系统更新的单独选项卡
+* 更好的性能
+
+在将来的版本中将添加更多功能，因为该功能也将添加到其他对象。
+
+有关新评论体验提供的内容的信息，请参阅 [统一的评论体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## 在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件
 
