@@ -6,17 +6,16 @@ description: 您可以更新附加到某个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # 管理附加到对象的自定义表单
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 您可以更新附加到某个对象的自定义表单的显示顺序，删除它们，或者批量编辑自定义表单在多个对象上的显示方式。
 
@@ -98,13 +97,11 @@ ht-degree: 0%
 ## 批量编辑对象时管理多个自定义表单
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
+><span class="preview">有关在预览环境中批量管理项目自定义表单的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 批量编辑应用了多个自定义表单的对象时，您可以编辑自定义表单在这些对象上的显示方式，以及编辑自定义表单中的常用字段。
 

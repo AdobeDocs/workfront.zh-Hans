@@ -7,17 +7,16 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
 # 将自定义表单添加到对象
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 您可以将现有的自定义表单添加到下面列出的任何对象中。 自定义表单包含自定义字段，您可以在其中存储有关对象的信息。
 
@@ -53,8 +52,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p> <p><b>注释</b></p>
+
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>管理要为其附加自定义表单的对象的权限。</p> <p>查看自定义表单或更高权限，并具有以下权限： <b>附加到自定义数据</b> 对象（项目、任务和问题）。 有关更多信息，请参阅 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共享自定义表单</a>.</p> <p>重要信息：如果您没有对自定义Forms具有管理访问权限的计划许可证，则您必须至少具有查看自定义表单的特定权限，如中所述 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共享自定义表单</a>. 即使表单在系统范围内可见，也必须向您授予这些权限。 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
@@ -110,13 +111,13 @@ ht-degree: 1%
 通过在列表中选择自定义表单，可以将它们添加到多个对象中。
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">有关在“预览”环境中将自定义表单批量添加到项目的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. 导航到对象列表。
 1. 在列表中选择多个对象。

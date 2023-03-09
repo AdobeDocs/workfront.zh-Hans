@@ -6,9 +6,9 @@ description: 资源池是用户的集合，可帮助您管理Adobe Workfront中�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # 将资源池与项目和模板关联
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >批量编辑项目或模板时，此字段仅显示所有选定项目或模板共有的资源池。 如果所选项目没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖项目或模板的单个资源池。
+   >* 在生产环境中，当您批量编辑项目或模板时，此字段仅显示所有选定项目或模板通用的资源池。 如果所选项目没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖项目或模板的单个资源池。
+   >
+   >* <span class="preview">在“预览”环境中，当您批量编辑项目时，如果所选项目具有不同的资源池，则会显示“多个值”指示符。 如果批量添加资源池，则所有池都将添加到所选项目中，并覆盖原始资源池。</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. 单击 **保存更改**.\
    当资源池与项目或模板关联时，您可以在资源规划者内为项目预算用户分配。\

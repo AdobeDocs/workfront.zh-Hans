@@ -8,17 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义详细信息视图
 
-<!-- drafted for bulk editing proejcts: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 作为Adobe Workfront管理员，您可以使用布局模板来确定当用户单击“详细信息”图标时会显示哪些信息 ![](assets/project-details-icon.png) 查看任务、问题、文档、项目群或项目组合时，位于左侧面板中。
 
@@ -38,12 +37,11 @@ or billing record
 
    ![](assets/edit-task-screen.png)
 
-<!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
+* <span class="preview">批量编辑项目时的“编辑对象”屏幕，如编辑项目</span>
 
-  <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
-  -->
+   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+-->
 
 * 摘要 ![](assets/summary-panel-icon.png) 任务和问题列表面板
 

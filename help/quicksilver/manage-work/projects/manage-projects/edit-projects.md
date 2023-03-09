@@ -6,7 +6,7 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
+source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -884,3 +884,4 @@ ht-degree: 2%
 1. 单击&#x200B;**保存**。
 
 </div>
+
