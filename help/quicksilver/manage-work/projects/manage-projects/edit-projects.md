@@ -6,17 +6,16 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 2%
 
 ---
 
 # 编辑项目
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ ht-degree: 2%
 
 您可以批量编辑项目并同时更新所有选定项目的信息。
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+您在所有选定项目上更改的信息会覆盖单个项目上的现有信息，但资源管理器字段除外。
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+在批量编辑项目时添加新资源管理器，可将该管理器添加到所有选定的项目。 如果其他资源管理器与所选项目相关联，则除了通过批量编辑添加的项目外，这些资源管理器还停留在项目中。
 
-### Edit projects in bulk in the Production environment
+根据您选择在其中更新项目的环境，批量编辑项目会有所不同。
 
--->
+### 在生产环境中批量编辑项目
 
 要批量编辑项目，请执行以下操作：
 
@@ -792,105 +789,103 @@ Editing projects in bulk differs depending on what environment you choose to upd
 
    您所做的所有更改现在在所有选定项目中均可见。
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### 在预览环境中编辑项目
 
-Consider the following when editing projects in bulk in the Preview environment:
+在预览环境中批量编辑项目时，请考虑以下事项：
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* 当您为同一字段选择具有不同值的项目时，该字段在编辑项目框中显示“多个值”指示符。 复选框、单选按钮和切换的字段旁边有一个“多个值”指示器。
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* 除了“多个值”指示符之外，如果所选选项在至少一个所选项目上不同，则具有多个选项的字段会以下列方式之一显示：
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * 复选框字段有一行，而不是针对某些已选中但未选中所有选定项目的选项的复选框。
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * 切换类型字段显示灰显，中间为针对某些项目启用的选项进行切换，但并非针对所有选定项目启用该选项。
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * 已选择某些选项但不是全部选项的单选按钮类型字段，将所有单选按钮显示为空白。
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* 在多选项字段（例如显示为一组切换或复选框的字段）中更新一个选项时，所选项目之间的所有其他选项必须匹配。
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >例如，您可能会有一个包含三个复选框（选项1、选项2和选项3）的复选框字段，并且对于所有项目，选项1处于未选中状态；对于某些项目，选项2和3处于选中状态，对于您选择的其他项目，选项3处于未选中状态。 如果要为所有项目选中选项1，您还必须使选项2和3与所有选定项目匹配，然后才能保存更改，因此您必须选择它们或取消选择它们，以便它们在所有选定项目上匹配。 如果不更改任何选项，则可以按原样保存该字段，并且项目将保留其当前选择的所有选项。
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* 当您选择属于不同组的多个项目时，“状态”字段中显示的状态是系统级别状态，而不是组级别状态。
 
-To edit projects in the Preview environment: 
+要在预览环境中编辑项目，请执行以下操作：
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击 **项目**.
+1. 在列表中选择多个项目。
+1. 单击 **编辑** 图标 ![](assets/edit-icon.png) 位于列表顶部。
+此 **编辑项目** 对话框打开。
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+根据Workfront管理员或组管理员修改布局模板的方式，编辑项目框左侧面板中的区域或这些区域中列出的任何字段可能会重新排列或不显示。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. 单击 **概述** 以编辑有关所选项目的一般信息。  有关编辑“概述”区域的更多信息，请参阅部分 [概述](#overview) 本文章中。
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >您编辑的字段以浅紫色背景显示。
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. 单击 **自定义Forms** 编辑、添加或替换与所选项目关联的自定义表单。
+
+   附加到所有选定项目的自定义表单将显示在 **通用自定义表单** 中的子部分 **自定义Forms** 区域。
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   所有选定项目通用的表单名称将显示在编辑项目框的左侧面板中。
+
+1. 开始键入自定义表单的名称 **添加自定义表单** 字段。
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   已附加到选定项目的自定义表单将显示在 **附加的表单** 中的子部分 **添加自定义表单** 字段。
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   其他可与项目关联但未附加到任何选定项目的自定义表单将显示在 **要添加的Forms** 中的子部分 **添加自定义表单** 字段。
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. 单击选择中的其他自定义表单 **添加自定义表单** 或 **要添加的Forms** 在列表中显示时显示子区域。
+
+   当自定义表单已附加到某些所选项目时，添加表单时，表单名称旁边会显示已选择该表单的项目数。
+
+1. （可选）单击 **x** 图标图标，然后单击 **移除** 以将其从所有选定项目中删除。
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   删除自定义表单导致表单上的所有现有自定义字段信息丢失。 无法恢复此操作。
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   有关编辑自定义表单的更多信息，请参阅部分 [自定义Forms](#custom-forms) 本文章中。
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. 单击 **财务** 以编辑所有选定项目的财务信息。
+有关编辑“财务”区域的详细信息，请参阅部分 [财务](#finance) 本文章中。
+1. 单击 **项目设置** 以编辑所有选定项目的设置。
+有关编辑“项目设置”区域的更多信息，请参阅部分 [项目设置](#project-settings) 本文章中。
+1. 单击 **任务设置** 以编辑所有选定项目的任务设置。
+有关编辑“任务设置”区域的更多信息，请参阅部分 [任务设置](#task-settings) 本文章中。
+1. 单击 **问题设置** 以编辑所有选定项目的问题设置。
+有关编辑“问题设置”区域的更多信息，请参阅部分 [问题设置](#issue-settings) 本文章中。
+1. 单击 **访问** 以编辑所有选定项目的访问设置。
+有关编辑“访问”区域的更多信息，请参阅部分 [访问](#access) 本文章中。
+1. （可选）要删除您在“编辑项目”框中添加的任何信息，请将鼠标悬停在已编辑的字段上，然后单击 **x** 字段右上角的放弃图标。
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. （可选）单击 **取消** 在底部 **编辑项目** 页面以移除对所有项目所做的所有更改。
+1. 单击&#x200B;**保存**。
 
 <div>
--->

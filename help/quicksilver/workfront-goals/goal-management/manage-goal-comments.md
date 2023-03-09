@@ -2,20 +2,20 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: 在Adobe Workfront目标中管理目标注释
-description: 您可以向可以在Adobe Workfront目标中查看的所有目标添加评论。
+description: 您可以将注释添加到可在Adobe Workfront目标中查看的所有目标。
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目标中管理目标注释
 
-您可以向可以在Adobe Workfront目标中查看的所有目标添加评论。
+您可以将注释添加到可在Adobe Workfront目标中查看的所有目标。
 
 <!--drafted for P&P:
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中描述的操作：
+您必须具有以下权限才能执行本文中所述的操作：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +79,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业或更高</p> </td> 
+   <td> <p>专业或专业以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -87,11 +87,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td> <p>您必须为Adobe Workfront目标购买额外的许可证才能访问本文所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>. </p> </td> 
+   <td> <p>您必须为Adobe Workfront目标购买额外的许可证，才能访问本文中所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>查看或更高权限访问目标</p> <p><b>注释</b><p>如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅：</p> 
+   <td> <p>查看或更高的目标访问权限</p> <p><b>注释</b><p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅：</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予对Adobe Workfront目标的访问权限</a></span> </p> </li> 
@@ -101,20 +101,20 @@ ht-degree: 0%
    <td role="rowheader">对象权限</td> 
    <td> 
     <div> 
-     <p>查看或更高权限</p> 
+     <p>查看目标或更高权限</p> 
      <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
 在开始之前，您必须具备以下条件：
 
-* 包含主菜单中“目标”区域的布局模板。
+* 包含主菜单中的目标区域的布局模板。
 
 ## 找到“注释”区域
 
@@ -188,28 +188,29 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->本页面上的内容是指新统一注释体验的一部分功能，当前仅在Adobe Workfront Target中提供。 有关统一注释体验的更多信息，请参阅 [统一的注释体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+您可以在目标页面的更新部分中，向目标添加注释。
 
-您可以在目标页面的更新部分中向目标添加评论。
+您可以回复或喜欢您或其他人在此区域添加的评论。
 
-您可以回复或称赞您或其他人在此区域中添加的评论。
-
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 中。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
 这将打开目标列表。
-1. 找到要向其添加评论的目标，然后单击其名称以打开目标页面。
-1. 单击  **更新** 中。
+1. 找到要向其添加注释的目标，然后单击其名称以打开目标页面。
+1. 单击  **更新** （在左侧面板中）。
 1. 单击 **评论** 选项卡。
-1. 开始在 **编写评论** 框中。
+1. 开始在 **编写评论** 盒子。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. （可选）在 **通知** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
+   >[!TIP]
+   >
+   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 草稿注释仅对输入它们的用户可见。
+
+1. （可选）在 **通知** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
 1. 单击 **提交**.
-1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-7。 <!--insure this stays accurate-->
-1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
-1. （可选）要向更新添加富文本格式，请在键入内容时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可选）单击 **系统活动** 选项卡查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在系统活动选项卡中。 Workfront还会在将结果、活动或项目添加到目标或进行更新时记录系统更新。 <!--ensure the casing on the tab has not changed-->
+1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至7操作。 <!--insure this stays accurate-->
+1. （可选）单击 **点赞** 图标![](assets/like-icon.png) 喜欢其他人添加的评论。 图标会随喜欢的数量而更新。
+1. （可选）要在更新中添加富文本格式，请在键入时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。 当将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。 <!--ensure the casing on the tab has not changed-->
 
 <!--
 ## Add comments to goals in the Check-in section
