@@ -4,9 +4,9 @@ description: 23.2管理员增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 * **更改描述性文本的大小**：您现在可以为描述性文本字段分配小尺寸、中尺寸或大尺寸。 您也可以将它们与其他字段在同一行上使用。 <span style="color: #ff0000;"> 更改描述性文本的大小已暂时延迟，但即将推出。</span></li>
 
-有关更多信息，请参阅 [表单设计器概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+有关更多信息，请参阅 [表单设计器概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## 重命名布局模板中的图钉
 
@@ -37,4 +39,4 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [使用布局模板自定义固定页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). 有关用户如何重命名其个人固定页面的详细信息，请参阅 [固定页面以自定义您的工作区](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[观看此功能的视频演示](https://video.tv.adobe.com/v/3414364/)
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3414364/){target=_blank}

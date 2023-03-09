@@ -4,9 +4,9 @@ description: 23.2项目增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 * 我们已从编辑项目框中删除了注释功能。
 
 有关信息，请参阅 [编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Adobe Workfront中通常提供的增强型过滤器体验
 
