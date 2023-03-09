@@ -2,22 +2,22 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 预览并完成自定义表单
-description: 构建或编辑完自定义表单后，您可以预览该表单以查看用户的外观，然后保存并关闭该表单。
+title: 使用旧版表单生成器预览并完成自定义表单
+description: 完成自定义表单的构建或编辑后，您可以预览该表单以查看用户看到的外观，然后保存并关闭它。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# 预览并完成自定义表单
+# 使用旧版表单生成器预览并完成自定义表单
 
-构建或编辑完自定义表单后，您可以预览该表单以查看用户的外观，然后保存并关闭该表单。
+完成自定义表单的构建或编辑后，您可以预览该表单以查看用户看到的外观，然后保存并关闭它。
 
 ## 访问要求
 
@@ -42,15 +42,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请联系您的Workfront管理员。
+&#42;要了解您拥有哪些计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
-## 预览和完成自定义表单的创建
+## 预览并完成自定义表单的创建
 
-1. 开始创建和配置自定义表单，如文章中所述 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [在自定义表单中添加或编辑资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)，等等。
+1. 如文章中所述，开始创建和配置自定义表单 [使用旧版表单生成器创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)， [使用旧版表单生成器将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)， [使用旧版表单生成器添加或编辑自定义表单中的资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)和其他。
 
 1. （可选）单击 **预览** 要查看表单在使用时的外观，请单击 **结束预览** 以返回编辑表单。
 
-1. 单击 **保存并关闭** 以保存更改。
+1. 单击 **保存+关闭** 以保存更改。
 
    或
 
@@ -58,10 +58,10 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果表单已附加到许多对象，则可能需要几分钟时间才能将所做的更改应用到所有对象。 这会在后台进行，因此您可以在等待时在Workfront中处理其他任务。
+   >如果表单已附加到许多对象，则可能需要几分钟才能将更改应用于所有对象。 此操作在后台进行，因此您可以在等待时处理Workfront中的其他任务。
 
-1. （可选）将表单添加到要使用它的Workfront对象中，如 [将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （可选）将表单添加到要使用的Workfront对象中，如中所述 [将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-   如果普通用户拥有对象的管理权限，则也可以执行此操作。
+   如果常规用户拥有对象的管理权限，也可以执行此操作。
 
-   将自定义表单添加到对象后，有权管理对象和编辑自定义表单的用户可以填写并更新其自定义字段中的信息。
+   将自定义表单添加到对象后，有权管理该对象和编辑自定义表单的用户可以填写并更新其自定义字段中的信息。
