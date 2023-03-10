@@ -4,9 +4,9 @@ description: 23.2发行版概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">使用新的表单设计器创建自定义表单</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">使用新的表单设计器测试版创建自定义表单</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
                         <p>新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。</p>
                         <p>通过新的表单设计器，我们添加了 
                         <ul>

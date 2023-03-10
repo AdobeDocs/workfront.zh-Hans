@@ -4,9 +4,9 @@ description: 23.2管理员增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 有关23.2版本周期此时可用所有更改的列表，请参阅 [23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## 使用新的表单设计器创建自定义表单
+## 使用新的表单设计器测试版创建自定义表单
 
-新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。
+现在，新表单设计器已在公共测试版中可用，它拥有一个新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。
 
 通过新的表单设计器，我们添加了
 
