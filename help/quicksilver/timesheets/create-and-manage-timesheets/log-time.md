@@ -6,9 +6,9 @@ description: 您可以在&nbsp；Adobe Workfront中记录工作项的时间，�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3000'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: Review or higher</p> </td> 
+   <p>Review or higher</p> 
+   <p><b>NOTE</b></p>
+
+   <ul><li>Reviewers can log only General Hours in a timesheet</li>
+   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -60,7 +64,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td> <p>审核或更高</p> 
+   <p><b>注释</b></p>
+
+<ul><li>查看者只能在时间表中记录常规小时数</li>
+   <li>您必须拥有工作许可证或更高许可证才能记录项目、任务或问题的小时数</li></ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
