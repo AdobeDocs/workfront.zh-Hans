@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
+source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,44 @@ ht-degree: 0%
 >* 用户可通过访问相同的站点、收藏集、文件夹、子文件夹和文件。 [!DNL Workfront] [!DNL SharePoint] 集成，就像他们在 [!DNL SharePoint] 帐户。
 
 
-## 配置旧版SharePoint集成以继续访问文档
+## 的安全性、访问和授权信息 [!DNL SharePoint] 集成
 
-要确保您的用户能够继续访问通过旧版Workfront集成链接到SharePoint的文档，您必须重新配置对旧版SharePoint集成的访问权限，并使SharePoint客户端密钥保持最新。
+### 身份验证和授权
+
+[!DNL Workfront] 使用OAuth2检索访问令牌和刷新令牌。 此访问令牌用于向所有 [!DNL SharePoint] 区域。
+
+### 访问和权限
+
+用户首次向添加文档时 [!DNL Workfront] 起始日期 [!DNL SharePoint]时，用户会被定向到请求以下权限的屏幕：
+
+| 访问权限 | 原因 |
+|---|---|
+| 拥有对文件的完全访问权限 | 允许 [!DNL Workfront] 用于访问用户文件以链接资产。 当文档发送自 [!DNL Workfront] 到 [!DNL SharePoint]， [!DNL Workfront] 需要访问权限才能创建资产。 |
+| 读取所有网站集中的项目 | 允许 [!DNL Workfront] 以读取资产以启用用户导航。 |
+| 编辑或删除所有网站集中的项目 | 允许 [!DNL Workfront] 在网站和网站集中创建资产。 仅在链接尝试不成功后进行清理时使用“删除”。 |
+| 维护对您已授予其访问权限的数据的访问权限 | 允许 [!DNL Workfront] 以生成刷新令牌。 |
+| 登录并读取用户配置文件 | 允许 [!DNL Workfront] 通过OAuth2登录流程，使用访问令牌代表用户操作。 |
+
+此访问权限由用户在首次使用该集成时授予，并且可随时撤销。
+
+有关对的访问，请考虑以下事项 [!DNL SharePoint] 通过 [!DNL Workfront] [!DNL SharePoint] 集成：
+
+* [!DNL Workfront] 请求在集成中执行操作所需的最低访问权限。
+* 查看、编辑或删除 [!DNL Adobe Workfront] 文档链接到 [!DNL SharePoint] 基于用户在中的访问权限 [!DNL Workfront]. 但是，任何导航、下载或编辑 [!DNL SharePoint] 文件或文件夹需要访问 [!DNL SharePoint]，对这些操作的访问权限由控制 [!DNL SharePoint].
+* 用户可以查看缩略图并预览源自 [!DNL SharePoint]，并且可以在以下位置查看文件和文件夹名称： [!DNL SharePoint]，无需登录 [!DNL SharePoint].
+* 仅当用户处于脱机状态且另一个用户查看链接到的文件夹的内容时，才会使用用户的访问令牌 [!DNL Workfront]. 访问令牌用于发现文件夹中的任何文档是否已添加、删除或编辑。
+
+### 安全性
+
+之间的所有通信 [!DNL Workfront] 和 [!DNL SharePoint] 通过HTTPS执行，这会加密信息。
+
+[!DNL Workfront] 不存储、复制或复制来自的数据 [!DNL SharePoint]. 唯一的例外是 [!DNL Workfront] 存储缩略图来源 [!DNL SharePoint] 以显示在列表视图和预览中。
+
+如果资产首次上传到 [!DNL Workfront]，然后发送到 [!DNL SharePoint]， [!DNL Workfront] 保留第一个文件的数据，因为用户可以下载以前版本的 [!DNL Workfront] 文档。 如果文档创建于 [!DNL SharePoint]， [!DNL Workfront] 不会存储该文件数据。
+
+## 配置旧版 [!DNL SharePoint] 集成以便继续访问文档
+
+为了确保您的用户能够继续访问通过旧版链接到Workfront的文档 [!DNL SharePoint] 集成，您必须重新配置对旧版的访问权限 [!DNL SharePoint] 集成并使SharePoint客户端密钥保持最新。
 
 * [重新配置对旧版的访问权限 [!DNL SharePoint] 集成](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -130,213 +165,220 @@ ht-degree: 0%
 1. 将新的客户端密钥输入到 **[!UICONTROL 客户端密码]** 字段。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
+<!--
 
-
-## 有关设置旧版SharePoint集成的说明
+## Instructions for setting up the legacy SharePoint integration
 
 >[!IMPORTANT]
 >
->此集成已弃用。 此处的说明仅供参考，不久将会被删除。
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
 
 
-Workfront连接到 [!DNL SharePoint] 在线使用OAuth 2.0，大多数基于Web的集成都使用这一标准对用户进行身份验证和授权。
+Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
-要配置OAuth，您需要创建 [!DNL SharePoint] 网站和中的网站应用程序 [!DNL SharePoint]. 以下各节将介绍此过程。
+To configure OAuth, you need to create a [!DNL SharePoint] site and a Site App within [!DNL SharePoint]. This process is described in the following sections.
 
-有关OAuth的更多信息，请参阅 [http://oauth.net](http://oauth.net/).
+For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 
 >[!TIP]
 >
->为了便于在文件之间复制和粘贴信息 [!DNL Workfront] 和 [!DNL SharePoint] 在这些步骤中，我们建议将这两个应用程序保留在单独的选项卡中打开。
+>To make it easy to copy and paste information between [!DNL Workfront] and [!DNL SharePoint] in these steps, we recommend keeping both applications open in separate tabs.
 
-* [创建和配置 [!DNL SharePoint] 站点](#create-and-configure-a-sharepoint-site)
-* [授予对站点应用程序的写入权限](#grant-write-permissions-to-the-site-app)
-* [创建 [!DNL Workfront] [!DNL SharePoint] 集成实例](#create-a-workfront-sharepoint-integration-instance)
-* [完成集成](#complete-your-integration)
-* [添加文档](#add-documents)
+* [Create and configure a [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### 创建和配置 [!DNL SharePoint] 站点  {#create-and-configure-a-sharepoint-site}
+### Create and configure a [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
 
-为了 [!DNL Workfront] 进行身份验证 [!DNL SharePoint]， [!DNL Workfront] 可以使用主控的站点，用户可以 [!UICONTROL 完全控制] 权限级别或特定的管理权限。 此主控站点充当的身份验证入口点 [!DNL Workfront].
+In order for [!DNL Workfront] to authenticate with [!DNL SharePoint], [!DNL Workfront] ca use a master site where users have the [!UICONTROL Full Control] permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for [!DNL Workfront].
 
-创建和配置 [!DNL SharePoint] 站点：
+To create and configure a [!DNL SharePoint] Site:
 
-1. （可选）如果您不想使用组织的根站点，可以在中创建主控站点 [!DNL SharePoint].
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in [!DNL SharePoint].
 
-   有关说明，请访问 [创建站点](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) 在 [!DNL Microsoft] 文档。
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the [!DNL Microsoft] Documentation.
 
-   * 选择 **[!UICONTROL 团队站点]** 选项。
+   * Select the **[!UICONTROL Team Site]** option when creating the site.
 
-1. （视情况而定）如果您在步骤1中创建了站点，请转到刚刚创建的站点。
+1. (Conditional) If you created a site in step 1, go to the site you just created.
 
-   或
+   Or
 
-   如果您未在步骤1中创建站点，请转到贵组织的根站点。
+   If you did not create a site in step 1, go to your organization's root site.
 
-1. 添加 `/_layouts/15/appregnew.aspx` 到浏览器窗口顶部搜索栏中的URL末尾。
-1. 配置以下字段：
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL客户端ID]</p> </td> 
-      <td> <p>单击 <strong>[！UICONTROL生成]</strong> 生成客户端ID。 将此ID复制到安全位置。 稍后当您设置 [!DNL SharePoint] 集成 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL客户端密钥]</p> </td> 
-      <td> <p>单击 <strong>[！UICONTROL生成]</strong> 生成客户端密钥。 将此密码复制到安全位置。 稍后当您设置 [!DNL SharePoint] 集成 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client Secret]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>标题</p> </td> 
-      <td> <p>输入标题，例如 [!DNL Workfront] 站点应用程序。 用户在添加文档时看到此标题。</p> </td> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as [!DNL Workfront] Site App. Users see this title when adding documents..</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL应用程序域]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL App Domain]</p> </td> 
       <td> <p><code>my.workfront.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL重定向URI]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Redirect URI]</p> </td> 
       <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 创建]**
-1. 继续访问 [授予对站点应用程序的写入权限](#grant-write-permissions-to-the-site-app).
+1. Click **[!UICONTROL Create]**
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### 授予对站点应用程序的写入权限  {#grant-write-permissions-to-the-site-app}
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
-此时，您已经成功创建了一个站点应用程序，并在其中注册了该应用程序 [!DNL Workfront]. 此站点应用程序在中也称为应用程序主体 [!DNL SharePoint]. 它驻留在您的租户中。 新站点应用程序无法自动访问租户中的站点集合。 必须明确授予每个网站集的权限。 以下步骤将向您展示如何向新的站点应用程序授予网站集的写入权限。 为您添加的每个网站集重复这些步骤 [!UICONTROL 可见站点集合] （按照上述步骤）。
+At this point, you have successfully created a Site App and registered it within [!DNL Workfront]. This site app is also known as an app principal in [!DNL SharePoint]. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under [!UICONTROL Visible Site Collections] in the steps above.
 
-此网站应用程序必须具有 [!UICONTROL 写入] 用户需要通过访问的任何网站集的权限 [!DNL Workfront].
+This site app must have [!UICONTROL Write] permission to any site collections that users need to access through [!DNL Workfront].
 
-1. 将“/_layouts/15/appinv.aspx”添加到中的URL [!DNL Sharepoint].
+1. Add '/_layouts/15/appinv.aspx' to the URL in [!DNL Sharepoint].
 
-   **示例:**
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
    ```
 
-1. 配置以下字段
+1. Configure the following fields
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL应用程序ID]</td> 
-      <td> <p>添加您在中创建的客户端ID <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">创建和配置 [!DNL SharePoint] 站点 </a>并单击 <strong>[！UICONTROL查找]</strong>.</p> </td> 
+      <td role="rowheader">[!UICONTROL App ID]</td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>and click <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL客户端] / [！UICONTROL应用程序域] / [！UICONTROL重定向URL]</p> </td> 
-      <td> <p>单击[！UICONTROL查找]时，将自动填充这些内容。</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL Redirect URL]</p> </td> 
+      <td> <p>These automatically fill when you click [!UICONTROL Lookup].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL权限请求XML]</td> 
-      <td> <p>将以下XML复制到[！UICONTROL权限请求XML]字段。 确保完全按照所示添加，而不添加其他空格等。 以避免出现错误。</p> 
+      <td role="rowheader">[!UICONTROL Permission Request XML]</td> 
+      <td> <p>Copy the following XML to the [!UICONTROL Permission Request XML] field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
       <div></a> 
       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-       <pre></pre></div></div></td></tr></tbody></table>
+       <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+      </div> 
+      </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
-1. 在出现的对话框中，单击 **[!UICONTROL 信任它]**.
-1. 通过单击 **[!UICONTROL 网站集应用程序权限]** 中的链接 [!UICONTROL 站点设置].
-1. 对其余网站集重复上述步骤，然后继续 [创建 [!DNL Workfront] [!DNL SharePoint] 集成实例](#create-a-workfront-sharepoint-integration-instance).
+1. Click **[!UICONTROL Create]**. 
+1. In the dialog that appears, click **[!UICONTROL Trust it]**.
+1. Verify that the site app has access to the site collection by clicking the **[!UICONTROL Site collection app permissions]** link in [!UICONTROL Site Settings].
+1. Repeat the steps above for the remaining site collections, then continue with [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### 创建 [!DNL Workfront] [!DNL SharePoint] 集成实例 {#create-a-workfront-sharepoint-integration-instance}
+### Create a [!DNL Workfront] [!DNL SharePoint] integration instance {#create-a-workfront-sharepoint-integration-instance}
 
-当您在中创建站点应用程序时 [!DNL SharePoint]，您现在可以将站点应用程序中的信息复制到 [!DNL Workfront]. 站点应用程序是应用程序主体，充当发出OAuth请求以访问站点集合中文档的管道。
+When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-1. 登录 [!DNL Workfront] 作为管理员。
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. Log into [!DNL Workfront] as an administrator.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. 在左侧面板中，单击 **[!UICONTROL 文档]** > **[!UICONTROL [!DNL SharePoint]集成]**.
-1. 单击 **[!UICONTROL 添加[!DNL SharePoint]]**.
-1. 配置以下字段：
+1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
+1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL名称]</p> </td> 
-      <td> <p>输入名称 [!DNL SharePoint] 集成。 用户单击[！UICONTROL Add] &gt; [！UICONTROL From] 'name of integration'时会看到此名称。 </p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
+      <td> <p>Enter a name for the [!DNL SharePoint] integration. Users see this name when they click [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL [!DNL SharePoint] 主机实例</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Host Instance]</p> </td> 
       <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL [!DNL Azure] 访问域]</p> </td> 
-      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>这是指用户将用于通过进行身份验证的主控站点。 它可能是与[！UICONTROL相同的域 [!DNL SharePoint] 主机实例]。</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Access Domain]</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the [!UICONTROL [!DNL SharePoint] Host Instance].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>
       </p> </td> 
-      <td> <b>重要</b> 网站集仅用于旧版 [!DNL SharePoint] 集成。
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] Integration.
        <ul> 
-        <li> <p><b>如果您使用的是组织的根站点</b><b>：</b> </p> <p>输入 <code>/</code></p> </li> 
-        <li> <p><b>如果您使用的是主控的网站和子网站：</b> </p> <p><b>重要</b>： [!DNL Microsoft SharePoint] 不再建议使用子站点。</p> <p>在上面部分输入您创建的网站集的URL主体。</p> <p>这是.com后面的URL部分。</p> <p>示例：对于URL <code>https://mycompany.sharepoint.com/sites/mysite</code>，则词干将为 <code>/sites/mysite</code>.</p> </li> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL SharePoint] 客户端ID</td> 
-      <td>输入您在中生成的客户端ID <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">创建和配置 [!DNL SharePoint] 站点 </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client ID]</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL SharePoint] 客户端密码]</td> 
-      <td>输入您在中生成的客户端密钥 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">创建和配置 [!DNL SharePoint] 站点 </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client Secret]</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL可见站点集合]</td> 
-      <td> <b>重要</b> 网站集仅用于旧版 [!DNL SharePoint] 集成。
+      <td role="rowheader">[!UICONTROL Visible Site Collections]</td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] integration.
        <ul> 
-        <li> <p><b> 如果您使用的是组织的根站点</b><b>：</b> </p> <p>输入 <code>/</code></p> </li> 
-        <li> <p><b>如果您使用的是主控的网站和子网站：</b> </p> <p><b>重要</b>： [!DNL Microsoft SharePoint] 不再建议使用子站点。</p> <p>对于每个要添加到的子网站 [!DNL SharePoint] 集成，输入子站点的主体。</p> <p>示例：对于URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>，则词干将为 <code>/sites/mysite/mysubsite</code>.</p> <p><b>注释</b>:   <p>如果只想测试配置（无子站点），请输入主控站点的主体。 </p> <p>示例：对于URL <code> https://mycompany.sharepoint.com/sites/mysite</code>，则词干将为 <code>/sites/mysite</code>.</p> <p>在按照中所述测试配置后 <a href="#complete-your-integration" class="MCXref xref">完成集成</a>，您必须删除主控站点并输入子站点。</p> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
-           <li value="1">单击 <strong>[！UICONTROL主菜单]</strong> 图标 <img src="assets/main-menu-icon.png"> （位于的右上角） [!DNL Adobe Workfront]，然后单击 <strong>[！UICONTROL设置]</strong> <img src="assets/gear-icon-settings.png">.<li><p>在左侧面板中，单击 <strong>[！UICONTROL文档]</strong> &gt; <strong>[！UICONTROL [!DNL SharePoint] 集成]</strong>.</p></li><li><p>单击 [!DNL SharePoint] 要设置的集成，然后单击编辑。</p></li><li><p>从[！UICONTROL Visible Site Collections]字段中删除主控站点的主体。</p></li><li><p>对于每个要添加到的子网站 [!DNL SharePoint] 集成，输入子站点的主体。</p></li><p>示例：对于URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>，则词干将为 <code>/sites/mysite/mysubsite</code>.</p></li> 
+           <li value="1">Click the <strong>[!UICONTROL Main Menu]</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of [!DNL Adobe Workfront], then click <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integration]</strong>.</p></li><li><p>Click the [!DNL SharePoint] integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the [!UICONTROL Visible Site Collections] field.</p></li><li><p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
        </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 保存]**
-1. 继续访问 [完成集成](#complete-your-integration).
+1. Click **[!UICONTROL Save]**
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### 完成集成 {#complete-your-integration}
+### Complete your integration {#complete-your-integration}
 
-基本配置即将完成。
+The basic configuration is almost complete.
 
-1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 文档]** ![](assets/document-icon.png).
-1. 单击 **[!UICONTROL 新增]**.
-1. 单击 **[!UICONTROL 起始日期]`<title of your [!DNL SharePoint] site>`** 在下拉菜单中。
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. Click **[!UICONTROL Add new]**.
+1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 
-   此时会出现一个对话框，邀请您信任此站点。
+   A dialog that invites you to Trust this site appears.
 
    >[!NOTE]
    >
-   >如果未显示此对话框，则您的 [!DNL SharePoint] 集成配置不正确。
+   >If this dialog does not appear, your [!DNL SharePoint] integration is not configured correctly.
 
-1. 单击 **[!UICONTROL 信任它]**.
+1. Click **[!UICONTROL Trust it]**.
 
-### 添加文档 {#add-documents}
+### Add documents {#add-documents}
 
-您现在可以从以下位置添加文档： [!DNL SharePoint] 站点。
+You can now add documents from your [!DNL SharePoint] site.
 
-有关说明，请参阅 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) 在 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+For instructions, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 
 >[!IMPORTANT]
 >
->如果链接文件夹的用户无权再访问外部应用程序， [!DNL Workfront] 无法再访问文件夹的内容。 例如，如果最初链接文件夹的用户离开公司，则可能会发生这种情况。 为确保继续访问，具有该文件夹访问权限的用户必须重新链接该文件夹。
+>If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+> 
+
+-->
 
 ## 疑难解答
 
 * [问题：用户在使用时遇到基于身份验证的错误 [!DNL SharePoint] 集成。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [问题： As a [!DNL Workfront] 用户，我无法设置新的 [!DNL SharePoint] 实例。 当我尝试这样做时，我看到一个错误。](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error)
 * [问题：当尝试浏览时 [!DNL SharePoint] 中的文件 [!DNL Workfront]，则看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [问题：我无法访问中以前链接的文件夹和文档 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -344,7 +386,7 @@ Workfront连接到 [!DNL SharePoint] 在线使用OAuth 2.0，大多数基于Web�
 
 解决方案：
 
-用户必须是组的成员，该组对具有适当的权限 [!DNL SharePoint] 站点。
+用户必须具有适当的权限，才能访问 [!DNL SharePoint] 站点。
 
 用户具有 [!UICONTROL 完全控制] 拥有您的的所有必要权限 [!DNL SharePoint] 集成。 如果不希望向用户授予完全控制访问权限，则必须授予以下权限：
 
@@ -373,15 +415,19 @@ Workfront连接到 [!DNL SharePoint] 在线使用OAuth 2.0，大多数基于Web�
 
 有关创建和编辑权限级别的说明，请参阅 [如何创建和编辑权限级别](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) 在Microsoft文档中。
 
-### 问题： As a [!DNL Workfront] 用户，我无法设置新的 [!DNL SharePoint] 实例。 当我尝试这样做时，我看到一个错误。 {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
+<!--
 
-解决方案：
+### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
-这可能是由多种原因造成的，源自 [!DNL Workfront] 或 [!DNL SharePoint]的配置。 验证：
+Solutions:
 
-* 客户端ID、客户端密钥、返回URL和其他配置字段已正确映射到 [!DNL Workfront] [!DNL SharePoint] 集成实例和 [!DNL SharePoint] 站点应用程序。
-* 用户具有 [!UICONTROL 完全控制] 用于身份验证的网站集的权限。
-* “站点应用程序”列在 [!UICONTROL 网站应用程序权限] 对于 [!UICONTROL 网站集] 用于身份验证。
+This can be caused by a number of things, originating in either [!DNL Workfront] or [!DNL SharePoint]'s configuration. Verify that:
+
+* The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the [!DNL Workfront] [!DNL SharePoint] Integration instance and the [!DNL SharePoint] Site App.
+* The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
+* The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
+
+-->
 
 ### 问题：当尝试浏览时 [!DNL SharePoint] 中的文件 [!DNL Workfront]，则看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
@@ -389,25 +435,31 @@ Workfront连接到 [!DNL SharePoint] 在线使用OAuth 2.0，大多数基于Web�
 
 在中查看网站集 [!DNL Workfront]，则必须满足以下条件：
 
-* 网站集必须在以下位置注册： [!DNL Workfront] [!DNL SharePoint] 集成实例。
+<!--
 
-   在中验证此功能的步骤 [!DNL Workfront]：
+* The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
-   1. 转到 [!UICONTROL 设置] > [!UICONTROL 文档] > [!UICONTROL [!DNL SharePoint] 集成].
-   1. 编辑 [!DNL SharePoint] 集成实例信息。
-   1. 验证网站集是否列在 [!UICONTROL 可见站点集合].
+  To verify this in [!DNL Workfront]:
+
+   1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
+   1. Edit the [!DNL SharePoint] Integration instance information.
+   1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * 用户必须拥有对网站集的查看权限 [!DNL SharePoint].
-* 在中验证此功能的步骤 [!DNL SharePoint]，转到 [!DNL SharePoint]，然后打开网站集> [!UICONTROL 设置] > [!UICONTROL 网站权限].
-* 此 [!DNL SharePoint] 网站应用程序必须有权访问网站集。
 
-   在中验证此功能的步骤 [!DNL SharePoint]：
+   在中验证此功能的步骤 [!DNL SharePoint]，转到 [!DNL SharePoint]，然后打开网站集> [!UICONTROL 设置] > [!UICONTROL 网站权限].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
-   1. 转到网站集> [!UICONTROL 设置] > [!UICONTROL 网站应用程序权限].
-   1. 确保 [!UICONTROL 站点应用程序] 使用者 [!DNL Workfront] 此处列出。
-   1. （视情况而定）如果网站应用程序未列出，请使用_layouts/15/appinv.aspx添加到网站集。
+  To verify this in [!DNL SharePoint]:
 
-      有关添加网站集的信息，请参阅向网站应用程序授予写入权限。
+   1. Go to the site collection > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
+   1. Ensure that the [!UICONTROL Site App] used by [!DNL Workfront] is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### 问题：我无法访问中以前链接的文件夹和文档 [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -419,8 +471,10 @@ Workfront连接到 [!DNL SharePoint] 在线使用OAuth 2.0，大多数基于Web�
 
 有关从外部提供程序链接文件夹的信息，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### 问题：我尝试从添加文档时看到“404未找到”错误 [!DNL Sharepoint]
+<!--
 
-#### 解决方案：
+### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
-如果中配置的站点之一出现此错误 [!UICONTROL 可见站点集合] 列表已在Sharepoint中删除。 查看 [!UICONTROL 可见站点集合] 列表，并删除已在Sharepoint中删除的任何站点。
+#### Solution:
+
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
