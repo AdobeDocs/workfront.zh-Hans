@@ -4,9 +4,9 @@ description: 23.2项目增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 * 指示哪些自定义表单已附加到所选项目，以及已附加特定表单的项目数。
 
 * 我们已从编辑项目框中删除了注释功能。
+
+* 在批量编辑项目时，我们已取消了“重新计算记分卡”选项。
 
 有关信息，请参阅 [编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
