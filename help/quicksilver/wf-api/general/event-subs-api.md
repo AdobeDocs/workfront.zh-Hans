@@ -6,9 +6,9 @@ description: 事件订阅API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 ### 查询所有事件订阅
 
-您可以根据apiKey值的指定，查询客户的所有事件订阅。 您还可以使用以下选项管理响应：
+您可以查询客户的所有事件订阅，或使用以下内容管理响应。 您还可以使用以下选项管理响应：
 
 * **页面**：查询参数选项，用于指定要返回的页数。 默认值为1。
 * **限制**：查询参数选项，用于指定每页返回的结果数。 默认值为100，最大值为1000。
