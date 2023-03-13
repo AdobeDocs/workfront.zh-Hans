@@ -4,7 +4,7 @@ description: 23.2发行版概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -399,7 +399,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年3月9日<br /></p>
+                                <p>预览版本： 2023年3月20日<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">生产版本：随23.2版提供 </span></p>
