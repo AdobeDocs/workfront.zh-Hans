@@ -6,9 +6,9 @@ description: 您可以将注释添加到可在Adobe Workfront目标中查看的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. 找到要向其添加注释的目标，然后单击其名称以打开目标页面。
 1. 单击  **更新** （在左侧面板中）。
 1. 单击 **评论** 选项卡。
-1. 开始在 **编写评论** 盒子。
+1. 开始在 **新建评论** 盒子。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >
    >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 草稿注释仅对输入它们的用户可见。
 
-1. （可选）在 **通知** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
+1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
 1. 单击 **提交**.
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至7操作。 <!--insure this stays accurate-->
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png) 喜欢其他人添加的评论。 图标会随喜欢的数量而更新。
