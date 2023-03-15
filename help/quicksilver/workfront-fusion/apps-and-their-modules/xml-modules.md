@@ -181,26 +181,26 @@ ht-degree: 1%
 </table>
 
 >[!INFO]
-**示例:**
+>**示例:**
 典型的用例是从 [!DNL Google] 将电子表格转换为XML。
-1. 将 [!DNL Google Sheets] > [!UICONTROL 选择行] 模块来获取数据。 设置模块以从 [!DNL Google] 电子表格。 设置&#x200B;**[!UICONTROL 返回的最大行数]** 值较小，但出于测试目的大于1（例如，3）。 执行 [!DNL Google Sheets] 模块，方法是右键单击该模块并选择“**[!UICONTROL 仅运行此模块]**.&quot; 验证模块的输出。
-1. 连接 [!UICONTROL 阵列聚合器] 模块之后 [!DNL Google Sheets] 模块。 在模块的设置中，选择 [!DNL Google Sheets] 模块 **[!UICONTROL 源节点]** 字段。 暂时保留其他字段。
-1. 连接 [!UICONTROL XML] > [!UICONTROL 创建XML] 模块之后 [!UICONTROL 阵列聚合器] 模块。
-   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
-1. 单击 **[!UICONTROL 发电机]** 按钮并将XML示例粘贴到 [!UICONTROL 示例数据] 字段：
-
-![](assets/sample-data-field-350x146.png)
-1. 单击&#x200B;**[!UICONTROL 保存]**。“数据结构”中的“规范”字段现在包含生成的结构。
-1. 将数据结构的名称更改为更具体的内容，然后单击 **[!UICONTROL 保存]**. 与根数组属性对应的字段在JSON模块的设置中显示为可映射的字段。
-1. 单击 **[!UICONTROL 地图]** 按钮，并映射 `Array[]` 项目 [!UICONTROL 阵列聚合器] 输出到它：
-1. 单击 **[!UICONTROL 确定]** 关闭XML模块的设置。
-1. 打开的设置 [!UICONTROL 阵列聚合器] 模块。 更改 **[!UICONTROL 目标结构]** 从自定义到与父XML元素对应的XML模块字段。映射 [!DNL Google Sheets] 模块。
-1. 单击 **[!UICONTROL 确定]** 关闭阵列聚合器模块的设置。
-1. 运行方案。
-
-   XML模块输出正确的XML文件。
-1. 打开的设置 [!DNL Google Sheets] 模块并增加 [!UICONTROL 返回的最大行数] 值大于电子表格中的行数以处理所有数据。
-   生成的XML可保存到 [!DNL Dropbox]、通过电子邮件作为附件发送、通过FTP上传到服务器等。
+>1. 将 [!DNL Google Sheets] > [!UICONTROL 选择行] 模块来获取数据。 设置模块以从 [!DNL Google] 电子表格。 设置&#x200B;**[!UICONTROL 返回的最大行数]** 值较小，但出于测试目的大于>1（例如，3）。 执行 [!DNL Google Sheets] 模块，方法是右键单击该模块并选择“**[!UICONTROL 仅运行此模块]**.&quot; 验证模块的输出。
+>1. 连接 [!UICONTROL 阵列聚合器] 模块之后 [!DNL Google Sheets] 模块。 在模块的设置中，选择 [!DNL Google Sheets] 模块 **[!UICONTROL 源节点]** 字段。 暂时保留其他字段。
+>1. 连接 [!UICONTROL XML] > [!UICONTROL 创建XML] 模块之后 [!UICONTROL 阵列聚合器] 模块。
+>   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
+>1. 单击 **[!UICONTROL 发电机]** 按钮并将XML示例粘贴到 [!UICONTROL 示例数据] 字段：
+>
+>![](assets/sample-data-field-350x146.png)
+>1. 单击&#x200B;**[!UICONTROL 保存]**。“数据结构”中的“规范”字段现在包含生成的结构。
+>1. 将数据结构的名称更改为更具体的内容，然后单击 **[!UICONTROL 保存]**. 与根数组属性对应的字段在JSON模块的设置中显示为可映射的字段。
+>1. 单击 **[!UICONTROL 地图]** 按钮，并映射 `Array[]` 项目 [!UICONTROL 阵列聚合器] 输出到它：
+>1. 单击 **[!UICONTROL 确定]** 关闭XML模块的设置。
+>1. 打开的设置 [!UICONTROL 阵列聚合器] 模块。 更改 **[!UICONTROL 目标结构]** 从自定义到与父XML元素对应的XML模块字段。映射 [!DNL Google Sheets] 模块。
+>1. 单击 **[!UICONTROL 确定]** 关闭阵列聚合器模块的设置。
+>1. 运行方案。
+>
+>   XML模块输出正确的XML文件。
+>1. 打开的设置 [!DNL Google Sheets] 模块并增加 [!UICONTROL 返回的最大行数] 值大于电子表格中的行数以处理所有数据。
+>   生成的XML可保存到 [!DNL Dropbox]、通过电子邮件作为附件发送、通过FTP上传到服务器等。
 
 
 ## 添加XML属性
