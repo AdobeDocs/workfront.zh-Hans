@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 | **近期视图** | 包括您最近访问过且您拥有的校样，这些校样具有根据用户档案权限查看结果的权限，以及与您共享的校样。 此视图仅显示您自己已打开的校样(通过 [!DNL Workfront Proof] 查看器或通过校样详细信息页面)。 |
 | **电子邮件链接** | 要从电子邮件中打开校样，只需在电子邮件应用程序中打开该电子邮件，然后单击 [!UICONTROL 转到校样] 按钮链接，此时您将转到 [!DNL Workfront Proof] 应用程序。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 在应用程序中查看静态校样
 

@@ -6,8 +6,8 @@ feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 3%
       |---|---|
       | 显示数据源 | 启用此选项可在报表画布上显示可视化的源表格，或禁用用于隐藏可视化的选项。 |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1766'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ As a [!DNL Workfront] 管理员或 [!DNL Workfront Proof] 管理员，您可以�
 | 观察人 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
 | 访客 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 请考虑以下关于角色和权限的事项：
 

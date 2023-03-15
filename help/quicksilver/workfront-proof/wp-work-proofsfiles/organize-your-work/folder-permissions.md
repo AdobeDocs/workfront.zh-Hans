@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 17%
+source-wordcount: '557'
+ht-degree: 16%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 17%
 | **经理** | 否 | 是 | 是 | 否 | 是 | 否 | 是 |
 | **观察人** | 否 | 是 | 否 | 否 | 否 | 否 | 否 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 如果公共文件夹归经理所有，则他/她可以删除根文件夹和任何子文件夹。
 
@@ -57,7 +57,7 @@ ht-degree: 17%
 | **经理** | 否 | 是 | 否 | 否 | 否 | 否 | 否 |
 | **观察人** | 否 | 是 | 否 | 否 | 否 | 否 | 否 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 例如，如果您希望项目经理及其团队仅查看特定文件夹，则项目经理可以设置一个专用文件夹，然后与特定用户共享该文件夹。
 

@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 | 信用卡 | 信用卡 |
 | 银行转账 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 我们不接受支票
 

@@ -7,7 +7,7 @@ description: 您可以在 [!DNL Adobe Workfront Fusion] 帐户配置文件。
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

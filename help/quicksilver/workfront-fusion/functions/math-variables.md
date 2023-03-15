@@ -8,7 +8,7 @@ description: 在 [!DNL Adobe Workfront Fusion mapping] 的上界。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

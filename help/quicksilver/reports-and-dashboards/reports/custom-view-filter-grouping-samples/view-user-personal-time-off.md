@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 5%
    | 开始日期 | 用户指示的时段的开始日期。 |
    | 结束日期 | 用户指示的时段的结束日期。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. （可选）通过编辑以下任意选项卡来完成报表的创建：
 

@@ -5,7 +5,7 @@ title: 委派任务和问题
 description: 您可以在外出时临时委派分配给的工作。 本文介绍了如何委派任务和问题分配。
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 1%

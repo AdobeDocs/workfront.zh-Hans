@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: 您可以构建用户可以附加到Workfront对象的自定义表单。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
+description: 您可以构建一个自定义表单，用户可以将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 author: Caroline
 feature: System Setup and Administration
 role: Admin

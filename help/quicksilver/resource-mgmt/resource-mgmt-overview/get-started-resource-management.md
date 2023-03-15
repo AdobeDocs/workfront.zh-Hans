@@ -166,8 +166,7 @@ Workfront有几套用于管理资源的工具。 每个工具都有一个单独�
 有关Workfront中每个资源管理工具的要求信息，请参阅以下内容：
 
 * 文章中的“在资源规划器中工作的先决条件”部分 [资源计划员概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * 文章中的“使用工作负载平衡器的最佳实践”部分 [工作负载平衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [在Adobe Workfront获得预算资源所需的资源](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [在工作负载平衡器中管理资源所需的访问权限](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

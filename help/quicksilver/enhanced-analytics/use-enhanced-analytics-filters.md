@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1498'
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/timeframe-filter-350x220.png)
 
-## 添加过滤器
+## 添加筛选器
 
 您可以根据默认项目字段、自定义表单字段和分配给项目的主团队添加过滤器。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | **发起人** | 仅显示具有选定赞助商的项目的数据 |
 | **项目所有者** | 仅显示具有选定项目所有者的项目的数据 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 自定义表单过滤器的工作方式不同。 有关更多信息，请参阅 [添加项目字段过滤器](#add-a-project-field-filter).
 

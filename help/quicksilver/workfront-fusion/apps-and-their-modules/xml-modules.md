@@ -88,40 +88,40 @@ ht-degree: 1%
 >1. 创建新方案。
 >1. 插入 [!UICONTROL HTTP] > [!UICONTROL 获取文件] 模块
 >1. 打开模块的配置并按如下方式对其进行配置：
->
+
 >
 >   **URL**:XML文件的URL(例如， `https://siftrss.com/f/rqLy05ayMBJ`)
 >
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. 单击 **[!UICONTROL 确定]**&#x200B;保存并关闭模块的配置。
->1. 添加 [!UICONTROL XML] > [!UICONTROL 解析XML] 模块，在 [!UICONTROL HTTP] > [!UICONTROL 获取文件] 模块并按如下方式对其进行配置：
-><table style="table-layout:auto"> 
->    <col> 
->    <col> 
->    <tbody> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL数据结构]</td> 
->      <td> 
->       <ol> 
->        <li value="1">单击 <strong>[!UICONTROL Add]</strong> 按钮。</li> 
->        <li value="2">单击 <strong>[!UICONTROL生成器]</strong> 按钮。</li> 
->        <li value="3">在Web浏览器中，打开一个新的选项卡或窗口。</li> 
->        <li value="4">将您在第三步中使用的URL放在地址栏中，并获取XML文件。</li> 
->        <li value="5">选择所有XML文本并将其复制到剪贴板。</li> 
->        <li value="6">关闭选项卡或窗口，然后返回到您的方案。</li> 
->        <li value="7">将复制的XML文本粘贴到Sample data字段中。</li> 
->        <li value="8">单击 <strong>[!UICONTROL Save]</strong>.</li> 
->        <li value="9">验证是否已成功生成数据结构。</li> 
->        <li value="10">单击 <strong>[!UICONTROL Save]</strong> 以保存数据结构。</li> 
->       </ol> <p>您可以跳过步骤2至9以提供空数据结构。 如果数据结构为空，则在至少执行一次模块之前，在映射面板中无法显示模块的输出。</p> </td> 
->     </tr> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL XML]</td> 
->      <td> <p>映射 <code>Data </code>[!UICONTROL HTTP] &gt; [!UICONTROL获取文件]模块的输出中的项目添加到字段中。 使用 <code>toString()</code> 函数将其值从[!UICONTROL缓冲区]（二进制数据）类型转换为[!UICONTROL文本]数据类型。</p> <p>您可以将公式的代码复制并粘贴到字段中： <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>有关缓冲和文本数据类型的详细信息，请参阅 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion中的项目数据类型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
->     </tr> 
->    </tbody> 
->   </table>
+1. 添加 [!UICONTROL XML] > [!UICONTROL 解析XML] 模块，在 [!UICONTROL HTTP] > [!UICONTROL 获取文件] 模块并按如下方式对其进行配置：
+<table style="table-layout:auto"> 
+&gt;    <col> 
+&gt;    <col> 
+&gt;    <tbody> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL数据结构]</td> 
+&gt;      <td> 
+&gt;       <ol> 
+&gt;        <li value="1">单击 <strong>[!UICONTROL Add]</strong> 按钮。</li> 
+&gt;        <li value="2">单击 <strong>[!UICONTROL生成器]</strong> 按钮。</li> 
+&gt;        <li value="3">在Web浏览器中，打开一个新的选项卡或窗口。</li> 
+&gt;        <li value="4">将您在第三步中使用的URL放在地址栏中，并获取XML文件。</li> 
+&gt;        <li value="5">选择所有XML文本并将其复制到剪贴板。</li> 
+&gt;        <li value="6">关闭选项卡或窗口，然后返回到您的方案。</li> 
+&gt;        <li value="7">将复制的XML文本粘贴到Sample data字段中。</li> 
+&gt;        <li value="8">单击 <strong>[!UICONTROL Save]</strong>.</li> 
+&gt;        <li value="9">验证是否已成功生成数据结构。</li> 
+&gt;        <li value="10">单击 <strong>[!UICONTROL Save]</strong> 以保存数据结构。</li> 
+&gt;       </ol> <p>您可以跳过步骤2至9以提供空数据结构。 如果数据结构为空，则在至少执行一次模块之前，在映射面板中无法显示模块的输出。</p> </td> 
+&gt;     </tr> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
+&gt;      <td> <p>映射 <code>Data </code>[!UICONTROL HTTP] &gt; [!UICONTROL获取文件]模块的输出中的项目添加到字段中。 使用 <code>toString()</code> 函数将其值从[!UICONTROL缓冲区]（二进制数据）类型转换为[!UICONTROL文本]数据类型。</p> <p>您可以将公式的代码复制并粘贴到字段中： <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>有关缓冲和文本数据类型的详细信息，请参阅 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion中的项目数据类型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+&gt;     </tr> 
+&gt;    </tbody> 
+&gt;   </table>
 
 
 ## [!UICONTROL 解析XML属性]
@@ -181,31 +181,26 @@ ht-degree: 1%
 </table>
 
 >[!INFO]
-> 
->**示例:**
-> 
->典型的用例是从 [!DNL Google] 将电子表格转换为XML。
->1. 将 [!DNL Google Sheets] > [!UICONTROL 选择行] 模块来获取数据。 设置模块以从 [!DNL Google] 电子表格。 设置&#x200B;**[!UICONTROL 返回的最大行数]** 值较小，但出于测试目的大于1（例如，3）。 执行 [!DNL Google Sheets] 模块，方法是右键单击该模块并选择“**[!UICONTROL 仅运行此模块]**.&quot; 验证模块的输出。
->1. 连接 [!UICONTROL 阵列聚合器] 模块之后 [!DNL Google Sheets] 模块。 在模块的设置中，选择 [!DNL Google Sheets] 模块 **[!UICONTROL 源节点]** 字段。 暂时保留其他字段。
->1. 连接 [!UICONTROL XML] > [!UICONTROL 创建XML] 模块之后 [!UICONTROL 阵列聚合器] 模块。
->   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
->1. 单击 **[!UICONTROL 发电机]** 按钮并将XML示例粘贴到 [!UICONTROL 示例数据] 字段：
->
->   ![](assets/sample-data-field-350x146.png)
->
->1. 单击&#x200B;**[!UICONTROL 保存]**。“数据结构”中的“规范”字段现在包含生成的结构。
->1. 将数据结构的名称更改为更具体的内容，然后单击 **[!UICONTROL 保存]**. 与根数组属性对应的字段在JSON模块的设置中显示为可映射的字段。
->1. 单击 **[!UICONTROL 地图]** 按钮，并映射 `Array[]` 项目 [!UICONTROL 阵列聚合器] 输出到它：
->1. 单击 **[!UICONTROL 确定]** 关闭XML模块的设置。
->1. 打开的设置 [!UICONTROL 阵列聚合器] 模块。 更改 **[!UICONTROL 目标结构]** 从自定义到与父XML元素对应的XML模块字段。映射 [!DNL Google Sheets] 模块。
->1. 单击 **[!UICONTROL 确定]** 关闭阵列聚合器模块的设置。
->1. 运行方案。
->
->   XML模块输出正确的XML文件。
->
->1. 打开的设置 [!DNL Google Sheets] 模块并增加 [!UICONTROL 返回的最大行数] 值大于电子表格中的行数以处理所有数据。
->
->   生成的XML可保存到 [!DNL Dropbox]、通过电子邮件作为附件发送、通过FTP上传到服务器等。
+**示例:**
+典型的用例是从 [!DNL Google] 将电子表格转换为XML。
+1. 将 [!DNL Google Sheets] > [!UICONTROL 选择行] 模块来获取数据。 设置模块以从 [!DNL Google] 电子表格。 设置&#x200B;**[!UICONTROL 返回的最大行数]** 值较小，但出于测试目的大于1（例如，3）。 执行 [!DNL Google Sheets] 模块，方法是右键单击该模块并选择“**[!UICONTROL 仅运行此模块]**.&quot; 验证模块的输出。
+1. 连接 [!UICONTROL 阵列聚合器] 模块之后 [!DNL Google Sheets] 模块。 在模块的设置中，选择 [!DNL Google Sheets] 模块 **[!UICONTROL 源节点]** 字段。 暂时保留其他字段。
+1. 连接 [!UICONTROL XML] > [!UICONTROL 创建XML] 模块之后 [!UICONTROL 阵列聚合器] 模块。
+   模块的设置需要描述XML输出结构的数据结构。 单击 **[!UICONTROL 添加]** 按钮以打开数据结构设置。 创建此数据结构的最简单方法是从XML示例自动生成此数据结构。
+1. 单击 **[!UICONTROL 发电机]** 按钮并将XML示例粘贴到 [!UICONTROL 示例数据] 字段：
+
+![](assets/sample-data-field-350x146.png)
+1. 单击&#x200B;**[!UICONTROL 保存]**。“数据结构”中的“规范”字段现在包含生成的结构。
+1. 将数据结构的名称更改为更具体的内容，然后单击 **[!UICONTROL 保存]**. 与根数组属性对应的字段在JSON模块的设置中显示为可映射的字段。
+1. 单击 **[!UICONTROL 地图]** 按钮，并映射 `Array[]` 项目 [!UICONTROL 阵列聚合器] 输出到它：
+1. 单击 **[!UICONTROL 确定]** 关闭XML模块的设置。
+1. 打开的设置 [!UICONTROL 阵列聚合器] 模块。 更改 **[!UICONTROL 目标结构]** 从自定义到与父XML元素对应的XML模块字段。映射 [!DNL Google Sheets] 模块。
+1. 单击 **[!UICONTROL 确定]** 关闭阵列聚合器模块的设置。
+1. 运行方案。
+
+   XML模块输出正确的XML文件。
+1. 打开的设置 [!DNL Google Sheets] 模块并增加 [!UICONTROL 返回的最大行数] 值大于电子表格中的行数以处理所有数据。
+   生成的XML可保存到 [!DNL Dropbox]、通过电子邮件作为附件发送、通过FTP上传到服务器等。
 
 
 ## 添加XML属性

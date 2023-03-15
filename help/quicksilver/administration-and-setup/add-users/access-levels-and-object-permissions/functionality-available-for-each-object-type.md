@@ -12,8 +12,8 @@ role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 12%
+source-wordcount: '1436'
+ht-degree: 11%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 12%
 | 查看财务 | ✓ | ✓ | ✓ |   |   |
 | 更新/评论 | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ ht-degree: 12%
 | 编辑 | ✓ |   |   |   |   |
 | 复制 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ ht-degree: 12%
 | 链接（与集成） | ✓ | ✓ | ✓ | ✓ |   |
 | 取消链接（与集成） | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ ht-degree: 12%
 | 复制 | ✓ |   |   |   |   |
 | 编辑模板详细信息 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ ht-degree: 12%
 | 在项目上制造风险 | ✓ |   |   |
 | 查看项目风险 | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ ht-degree: 12%
 | 资源规划工具中的预算资源&#42;&#42; | ✓ |   |   |   |   |
 | 将资源池附加到项目、模板和用户 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; 使用访问级别，Workfront管理员可以禁用或启用此功能。 有关更多信息，请参阅 [可配置地访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ ht-degree: 12%
 | 在主菜单中查看方案 ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | 查看用户创建的计划和方案&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

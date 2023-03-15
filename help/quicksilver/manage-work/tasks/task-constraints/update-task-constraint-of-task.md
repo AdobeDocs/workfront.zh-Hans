@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 9%
+source-wordcount: '355'
+ht-degree: 8%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 9%
    | 完成时间不晚于 | 有关信息，请参阅 [任务约束概述：不迟于完成](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
    | 不早于完成 | 有关信息，请参阅 [任务约束概述：不早于完成](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 单击 **保存** **更改**.
 

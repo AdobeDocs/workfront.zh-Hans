@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Select或Premium [!DNL Workfront] 使用此功能需要计划。 有关各种可
    | **可搜索** | 允许用户通过搜索自定义字段数据来查找项目。 |
    | **隐藏** | 隐藏 [!UICONTROL 新校样]、新访客和 [!UICONTROL 新用户] 页面 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 在 **自定义字段** 页面，单击 **[!UICONTROL 自定义字段设置]** 选项卡来刷新页面。

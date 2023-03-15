@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![创建进气列](assets/create-intake-column2.png)
 
-   进纸柱在板的左侧添加。 在对其应用过滤器之前，该过滤器将一直留空。
+   进纸柱在板的左侧添加。 在对其应用过滤器之前，它将一直留空。
 
 1. 单击 **[!UICONTROL 筛选源]** 选择 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]**.
 

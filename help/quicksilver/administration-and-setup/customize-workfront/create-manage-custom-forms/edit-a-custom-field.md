@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 编辑自定义表单中自定义字段、分区界限或小部件的属性
-description: 您可以在Adobe Workfront实例中编辑自定义表单中使用的自定义字段、分区界限或小部件的属性。 其中包括项目的标签、名称、说明等。
+title: 在自定义表单中编辑自定义字段、区域分时或小组件的属性
+description: 您可以编辑在Adobe Workfront实例中在自定义表单中使用的自定义字段、区域时间或小组件的属性。 这些内容包括项目的标签、名称、说明等。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# 编辑自定义表单中自定义字段、分区界限或小部件的属性
+# 在自定义表单中编辑自定义字段、区域分时或小组件的属性
 
-您可以在Adobe Workfront实例中编辑自定义表单中使用的自定义字段、分区界限或小部件的属性。 其中包括项目的标签、名称、说明等。
+您可以编辑在Adobe Workfront实例中在自定义表单中使用的自定义字段、区域时间或小组件的属性。 这些内容包括项目的标签、名称、说明等。
 
-有关自定义表单中的自定义字段和小部件的信息，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自定义表单中添加或编辑资源小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关自定义表单中的自定义字段和小组件的信息，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 和 [在自定义表单中添加或编辑资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## 访问要求
 
@@ -44,19 +44,19 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有哪些计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请联系您的Workfront管理员。
 
-## 编辑自定义表单中使用的自定义字段、分区界限或小组件
+## 编辑在自定义表单中使用的自定义字段、区域分时或小组件
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
 
 1. 单击 **自定义Forms。**
 1. 单击 **字段** 选项卡。
-1. 选择自定义字段、分区界限或小组件，然后单击 **编辑**.
-1. 在显示的框中，更改对正在编辑的项目可用的任何选项。
+1. 选择自定义字段、区域分隔或小组件，然后单击 **编辑**.
+1. 在显示的框中，更改您所编辑项目的任何可用选项。
 
    查看有关这些选项的更多信息
-   * 如果您使用的是自定义表单生成器，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自定义表单中添加或编辑资源小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-   * 如果您使用的是表单设计器，请参阅 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * 如果您使用自定义表单生成器，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自定义表单中添加或编辑资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * 如果您使用表单设计器，请参阅 [设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. 完成后，单击 **保存+关闭**.
+1. 完成后，单击 **保存并关闭**.

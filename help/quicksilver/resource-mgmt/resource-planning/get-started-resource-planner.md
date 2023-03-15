@@ -74,7 +74,7 @@ ht-degree: 0%
 
    有关如何为单个项目预算资源的信息，请参阅文章 [业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   有关如何在资源计划器中为一次多个项目预算资源的信息，请参阅文章中的“资源计划器中的预算资源”部分 [使用“项目”和“职责”视图在资源计划员中预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   有关如何在资源计划器中为一次多个项目预算资源的信息，请参阅文章中的“在资源计划器中预算资源”一节 [使用“项目”和“职责”视图在资源计划员中预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## 在资源计划器中工作的先决条件 {#prerequisites-for-working-in-the-resource-planner}
 

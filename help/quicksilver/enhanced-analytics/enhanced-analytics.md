@@ -30,9 +30,9 @@ ht-degree: 3%
 * [在Enhanced Analytics中查看资源容量可视化](../enhanced-analytics/resource-capacity-overview.md)
 * [在Enhanced Analytics中查看“团队容量”可视化](../enhanced-analytics/team-capacity-overview.md)
 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
+   <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-<!--
+   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 

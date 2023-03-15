@@ -11,8 +11,8 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 10%
+source-wordcount: '1085'
+ht-degree: 8%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 10%
 | **主组** | 营销 |
 | **工作角色** | 业务分析师 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户2
 
@@ -97,7 +97,7 @@ ht-degree: 10%
 | **主组** | 营销 |
 | **工作角色** | 项目经理 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户3
 
@@ -111,7 +111,7 @@ ht-degree: 10%
 | **主组** | 销售 |
 | **工作角色** | 销售代表 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户4
 
@@ -125,7 +125,7 @@ ht-degree: 10%
 | **主组** | 财务 |
 | **工作角色** | 控制器 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户5
 
@@ -139,7 +139,7 @@ ht-degree: 10%
 | **主组** | 营销 |
 | **工作角色** | IT |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户6
 
@@ -153,7 +153,7 @@ ht-degree: 10%
 | **主组** | 资源管理器 |
 | **工作角色** | 无 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 下载启动模板
 

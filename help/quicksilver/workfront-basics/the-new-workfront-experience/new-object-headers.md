@@ -69,7 +69,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>紫色的[!UICONTROL项目]图标 <img src="assets/nwe-projects-icon.png"> 显示在项目名称的左侧。</p> </td> 
+   <td> <p>紫色的[!UICONTROL Project]图标 <img src="assets/nwe-projects-icon.png"> 显示在项目名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目名称</td> 

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2545'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 2%
       | 在这个项目公司工作的人 | 属于与此项目关联的公司的用户可以查看请求并将其添加到此队列。 如果存在与项目关联的公司，则公司名称将列在此设置后面的括号中。 |
       | 在这个项目组工作的人 | 属于与此项目关联的组的用户可以查看请求并将其添加到此队列。 如果存在与项目关联的组，则该组的名称将列在此设置后面的括号中。 |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **与以下链接共享：** 通过以下选项，您可以使用外部页面直接访问请求队列以及与请求队列关联的表单，以访问Workfront以外的用户或Workfront用户。 有关将请求队列嵌入功能板中作为外部页面的信息，请参阅 [在功能板中嵌入请求队列](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -275,7 +275,7 @@ ht-degree: 2%
       | 拥有查看此项目权限的用户（计划许可） | 具有计划许可证且对此项目也具有查看权限的用户可以查看所选字段以及未选定的字段。 其他可以向此项目提交请求的用户只能看到选定的字段。 |
       | 无用户 | 用户看不到未选择的字段。 所有能够向此项目提交请求的用户只能看到所选字段。 |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **自定义Forms**:选择要与请求队列关联的自定义表单。 只有问题自定义Forms可从此下拉菜单中进行选择。 提交到请求队列的所有问题都将与选定的表单相关联。\
       如果您有多个队列主题与请求队列相关联，我们建议您将自定义表单与队列主题相关联。 有关为请求队列创建子部分的详细信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

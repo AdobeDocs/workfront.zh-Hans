@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ## 目标
 
-目标可定义项目的目标。 此区域默认在“业务案例”中启用，但Workfront管理员可能选择不显示。 此字段会按优先顺序显示目标。
+目标可定义项目的目标。 此区域在“业务案例”中默认启用，但Workfront管理员可能选择不显示。 此字段会按优先顺序显示目标。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>

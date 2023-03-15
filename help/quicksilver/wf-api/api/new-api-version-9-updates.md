@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 47%
 | `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
 | `taskID`<sup>2</sup> |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹标记已删除：可报告\
 ²标记已删除：NOT_GROUPABLE
@@ -41,7 +41,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 分配
 
@@ -52,7 +52,7 @@ ht-degree: 47%
 |  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
 |  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹添加了以下字段：lockToRole
 
@@ -62,7 +62,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹对possibleValues的更改
 
@@ -73,7 +73,7 @@ ht-degree: 47%
 | `days` |  |  |  |  |  |  |
 | `workHoursPerDay` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 迭代
 
@@ -81,7 +81,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 |  |  |  |  | `moveIssues` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 布局模板
 
@@ -89,7 +89,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 注释
 
@@ -99,7 +99,7 @@ ht-degree: 47%
 | `json` |  |  |  |  |  |  |
 | `richTextNoteID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Op 任务
 
@@ -110,7 +110,7 @@ ht-degree: 47%
 | `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
 |  |  |  |  | `unlinkExternalObject` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 资源预算
 
@@ -118,7 +118,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `ID` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ¹标记已删除：可报告
 
@@ -128,7 +128,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `homeGroupID` | `homeGroup` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 任务
 
@@ -138,7 +138,7 @@ ht-degree: 47%
 |  |  |  |  | `linkExternalObject` |  |  |
 |  |  |  |  | `unlinkExternalObject` |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 团队
 
@@ -146,7 +146,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `includeIssues` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 时间表配置文件
 
@@ -154,7 +154,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
@@ -162,7 +162,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 |  |  |  |  |  | `filtersForObjCode` |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
@@ -170,7 +170,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 |  |  |  |  |  | `viewsForObjCode` |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户
 
@@ -179,7 +179,7 @@ ht-degree: 47%
 | `logTimeInDays` |  |  |  |  |  |  |
 | `workHoursPerDay` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 工作
 

@@ -304,7 +304,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>在以下日期可用：</strong> <p>测试版预览版本： 2020年12月2日</p> <p>生产版本： 2020年12月16日</p> <p><strong>可在以下环境中使用：</strong> </p> <p>新的Adobe Workfront体验 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">在痕迹导航导航中展开或折叠项目</a> </p> <p>为了更便于查看完整的痕迹导航路径，我们添加了展开和折叠功能。</p> <p>现在，任何已截断的项目都会在项目之前分组，并包含文本“更多”。 例如，“3个以上”表示有3个对象未显示。</p> <p>以前，您必须单击省略号才能在下拉菜单中显示任何截断的对象。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">在痕迹导航导航中展开或折叠项目</a> </p> <p>为了更便于查看完整的痕迹导航路径，我们添加了展开和折叠功能。</p> <p>现在，任何已截断的项目都会在项目之前进行分组，并包含文本“更多”。 例如，“3个以上”表示有3个对象未显示。</p> <p>以前，您必须单击省略号才能在下拉菜单中显示任何截断的对象。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>测试版预览版本： 2020年1月7日</p> <p>生产版本： 2021年1月21日</p> <p><strong>可在以下环境中使用：</strong> </p> <p>新的Adobe Workfront体验 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

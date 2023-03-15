@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 将现有任务或问题添加到Adobe Workfront讨论区
-description: 您可以从列表或报告视图将任何任务或问题添加到Adobe Workfront中的讨论区。
+title: 将现有任务或问题添加到Adobe Workfront展示板
+description: 您可以从列表或报表视图将任何任务或问题添加到Adobe Workfront的展示板。
 author: Lisa
 feature: Agile
 source-git-commit: e7cd8447ad257c9808de0b76762061343d004a4a
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-您可以将任何任务或问题添加到中的讨论区 [!DNL Adobe Workfront] 从列表或报表视图中。
+您可以在 [!DNL Adobe Workfront] 列表或报表视图。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具有以下访问权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -32,40 +32,40 @@ ht-degree: 0%
   </tr>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td>
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td>
+   <td> <p>[!UICONTROL Work]或更高版本</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><strong>对象权限</strong></td>
-   <td> <p>[！UICONTROL视图]或任务或问题的更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td>
+   <td> <p>[!UICONTROL视图]或更高权限访问任务或问题</p> <p>有关请求其他访问权限的信息，请参阅 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td>
   </tr>
  </tbody>
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
 
-## 将现有任务或问题添加到讨论区
+## 将现有任务或问题添加到展示板
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront].
-1. 选择下列选项之一： **[!UICONTROL 项目]**， **[!UICONTROL 报告]**，或 **[!UICONTROL 仪表板]**.
-1. 转到包含要添加到讨论区的任务或问题的项目、报告或功能板。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront].
+1. 选择以下选项之一： **[!UICONTROL 项目]**, **[!UICONTROL 报表]**&#x200B;或 **[!UICONTROL 功能板]**.
+1. 转到包含要添加到展示板的任务或问题的项目、报表或功能板。
 1. 选择一个或多个任务或问题。
-1. 单击 [!UICONTROL **更多**] > [!UICONTROL **添加到讨论区**].
-1. 在 [!UICONTROL 添加至] 对话框中，选择要将项目添加到的展示板。
+1. 单击 [!UICONTROL **更多**] > [!UICONTROL **添加到展示板**].
+1. 在 [!UICONTROL 添加到] 对话框，选择要将项目添加到的展示板。
 
-   只能使用独立展示板，不能使用属于收藏集的展示板。
+   只有独立展示板才可用，而不是收藏集中的展示板。
 
 1. 单击 [!UICONTROL **添加**].
 
-   任务或问题将添加到讨论区。 如果展示板将列策略应用于状态，则信息卡会添加到与其状态对应的列中。 否则，它将显示在左侧的第一列中，不包括引入列。
+   任务或问题将添加到展示板。 如果展示板对状态应用了列策略，则卡片会添加到与其状态对应的列中。 否则，它将显示在左侧的第一列中，不包括进气列。
 
-## 显示与任务或问题关联的讨论区
+## 显示与任务或问题关联的展示板
 
-1. 转到项目、报告或仪表板，其中包含要查看其面板信息的任务或问题。
-1. 选择包含“展示板”列的视图，或使用“展示板”列创建新视图。
+1. 转到项目、报表或功能板，其中包含要查看其展示板信息的任务或问题。
+1. 选择包含展示板列的视图，或使用展示板列创建新视图。
 有关视图的信息，请参阅 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
-1. 单击 [!UICONTROL **显示**] 在列中显示任务或问题所在讨论区的列表。
+1. 单击 [!UICONTROL **显示**] 在列中，显示任务或问题所在的展示板列表。
 
-   ![在列中显示讨论区](assets/show-boards-in-column.png)
+   ![在列中显示展示板](assets/show-boards-in-column.png)
 
 1. 单击展示板名称以打开展示板上连接的任务或问题。
 

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 | 导航包括 [!DNL Adobe] 产品， [!DNL Adobe] 通知、帮助和用户配置文件，以及 [!DNL Workfront] 导航栏 | 导航包括 [!DNL Workfront] 仅限导航栏 |
 | 可通过访问 [!UICONTROL 主菜单] 和顶部导航区域 | 可通过访问 [!UICONTROL 主菜单] 和 [!DNL Workfront] 导航栏 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 常见问题解答
 
