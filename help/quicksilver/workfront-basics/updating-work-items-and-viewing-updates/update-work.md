@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-您可以对Adobe Workfront对象（项目、任务或问题）添加更新，以告知对象的进度。 为对象分配或订阅了该对象的用户可以查看您的更新。 您还可以标记用户以引起用户对更新的注意。
+您可以在Workfront中向多个对象添加注释。 有关更多信息，请参阅 [“更新”选项卡概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以从以下Workfront区域向对象添加更新：
+除了对对象添加注释外，您还可以对Adobe Workfront对象（项目、任务或问题）添加更新，以告知该对象的进度。 为对象分配或订阅了该对象的用户可以查看您的更新。 您还可以标记用户以引起用户对更新的注意。
+
+此页面上的信息是指更新项目、任务或问题的工作。 有关向目标添加评论和更新的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+您可以从Workfront的以下区域更新项目、任务和问题：
 
 * 从Workfront对象的Updates部分中
 * 从“主页”区域（针对任务和问题）

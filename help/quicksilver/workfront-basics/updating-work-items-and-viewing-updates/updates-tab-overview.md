@@ -7,16 +7,22 @@ description: “更新”选项卡会显示过去90天内最近进行的200次�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # “更新”选项卡概述
 
-“更新”选项卡会显示过去90天内最近进行的200次更新。 您可以回复以下对象的更新：
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+“更新”选项卡会显示过去90天内最近进行的200次更新。
+
+您可以对以下对象进行评论和回复更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ ht-degree: 6%
   <tr> 
    <td> 
     <ul> 
+     <li>文档</li> 
+     <li>目标</li> 
+     <li>问题</li> 
+     <li>迭代</li> 
      <li>项目</li> 
-     <li>项目组合</li> 
      <li>项目群</li> 
-     <li>模板</li> 
-     <li>模板任务</li> 
-     <li>任务</li> 
+     <li>项目组合</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>问题</li> 
-     <li>迭代</li> 
      <li>故事</li> 
-     <li>用户</li> 
-     <li>文档</li> 
+     <li>任务</li> 
+     <li>模板</li> 
+     <li>模板任务</li> 
      <li>时间表</li> 
+     <li>用户</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ ht-degree: 6%
   <tr> 
    <td>迭代</td> 
    <td>团队</td> 
+  </tr>
+
+<tr> 
+   <td>目标</td> 
+   <td>结果，活动</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >添加到系统更新的回复不会汇总到父对象。 只有对子对象的直接回复和添加到现有更新的回复才会汇总到父对象。
+>
+>有关Adobe Workfront中对象层次结构的信息，请参阅 [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-有关Adobe Workfront中对象层次结构的信息，请参阅 [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## “更新”选项卡的限制
 
