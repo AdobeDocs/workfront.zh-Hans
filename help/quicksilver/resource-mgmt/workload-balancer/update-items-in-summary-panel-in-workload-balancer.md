@@ -6,9 +6,9 @@ description: 您可以打开工作负载平衡器中的“摘要”面板，以�
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在为团队或在“资源”区域使用工作负载平衡器时进行计划 </p>
-   <p>使用项目的负载平衡器时工作 </p>
+   <td> <p>在资源区中使用负载平衡器时进行计划</p>
+   <p>使用团队或项目的负载平衡器时工作</p> 
  </p> </td> 
   </tr> 
   <tr> 

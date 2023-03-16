@@ -6,9 +6,9 @@ description: 为了高效查找工作项并重点关注您管理的用户或项�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在为团队或在“资源”区域使用工作负载平衡器时进行计划 </p>
-   <p>使用项目的负载平衡器时工作 </p>
+   <td> <p>在资源区中使用负载平衡器时进行计划</p>
+   <p>使用团队或项目的负载平衡器时工作</p>
  </td> 
   </tr> 
   <tr> 

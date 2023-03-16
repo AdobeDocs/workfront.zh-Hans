@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront工作负载平衡器手动为用户�
 author: Alina
 feature: Resource Management
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在为团队或在“资源”区域使用工作负载平衡器时进行计划 </p>
-   <p>使用项目的负载平衡器时工作 </p>
+   <td> <p>在资源区中使用负载平衡器时进行计划</p>
+   <p>使用团队或项目的负载平衡器时工作</p>
  </td> 
   </tr> 
   <tr> 

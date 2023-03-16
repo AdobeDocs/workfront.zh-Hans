@@ -6,7 +6,7 @@ description: 您可以向用户、角色或团队分配任务，以指示谁负�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>如果分配了多个角色，并且其中至少一个角色与用户的其他角色之一匹配，则任务或问题会被分配给用户（如果存在多个匹配，则随机选择角色），以及分配的任何其他角色</li>
       <li>如果至少分配了一个作业角色，并且与用户的作业角色没有匹配，则任务或问题将分配给角色或角色以及用户。</li>
      </ul>
-   <p>有关用户的主要角色和其他角色的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">编辑用户的配置文件</a>.</p>
-   </td>
-  </tr>
+   <p>有关用户的主要角色和其他角色的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">编辑用户的配置文件</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

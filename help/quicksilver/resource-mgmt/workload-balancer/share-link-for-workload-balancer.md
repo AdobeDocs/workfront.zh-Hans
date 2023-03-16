@@ -6,9 +6,9 @@ description: 您可以与可能没有可用资源区域的其他用户共享负�
 author: Alina
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划或更高版本</p> </td> 
+   <td> <p>在资源区中使用负载平衡器时进行计划</p>
+   <p>使用团队或项目的负载平衡器时工作</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 

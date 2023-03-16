@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ ht-degree: 1%
        <ul> 
         <li>状态为[!UICONTROL Current]</li> 
         <li>过去3个月里有过更新</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>当项目的范围发生更改时</strong>:选择此选项可在项目范围发生更改时立即重新计算项目时间轴。 有关构成项目范围更改的内容的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>.</p> </li> 
+        <li>具有以下更新类型之一：</li>
+        <ul>
+        <li>更改时自动更新</li>
+        <li>仅在更改时更新</li>
+        <li>仅自动更新</li> 
+      </ul>       
+    <b>笔尖</b>
+    <p>具有“仅手动”更新类型的项目不受此设置的影响。</p>
+    <li> <p><strong>当项目的范围发生更改时</strong>:选择此选项可在项目范围发生更改时立即重新计算项目时间轴。 有关构成项目范围更改的内容的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

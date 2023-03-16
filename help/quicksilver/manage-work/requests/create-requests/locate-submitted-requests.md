@@ -6,9 +6,9 @@ description: 了解Adobe Workfront的哪些区域，您可以在这些区域找�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ ht-degree: 1%
 
    如果问题已转换为任务或项目，并且在转换过程中删除了该问题，则“摘要”面板为空。 有关转换问题的信息，请参阅 [转换Adobe Workfront中的问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. 从 **“过滤器”图标** ![](assets/filter-nwepng.png) 在列表的右上方，选择以下任意过滤器：
+1. 从 **“过滤器”图标** ![](assets/filter-nwepng.png) 在列表的右上方，选择下表中列出的任意过滤器。
+
+   >[!TIP]
+   >
+   >您不能在“请求”区域修改过滤器。 此外，没有用于修改或更改“请求”区域视图的选项。
 
    <table style="table-layout:auto"> 
     <col> 
