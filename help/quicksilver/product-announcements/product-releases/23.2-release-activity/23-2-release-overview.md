@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
+source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [灵活的增强功能](#agile-enhancements)
 * [项目管理增强功能](#project-management-enhancements)
 * [资源管理增强](#resource-management-enhancements)
+* [报表和功能板增强功能]
 * [移动设备增强功能](#mobile-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -57,7 +58,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">使用新的表单设计器测试版创建自定义表单</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">使用新的表单设计器测试版创建自定义表单</a>
                         <p>新的表单设计器具有新的画布样式工作区，允许您同时查看字段、画布和字段设置。</p>
                         <p>通过使用新的表单设计器，我们在 
                         <ul>
@@ -113,9 +114,47 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+              <!-- <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">从列表和报告将任务和问题添加到Workfront展示板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+                        <ul>
+                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
+                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
+                        <li>Iteration planning and iteration process boards</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">从列表和报告将任务和问题添加到Workfront展示板</a></p>
                         <p>现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板。 您添加到展示板的任何项目都将变成连接的卡片。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -253,7 +292,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">批量编辑项目时的新体验</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">批量编辑项目时的新体验</a>
                         <p>作为更新Workfront体验外观的一部分，我们在批量编辑多个项目时重新设计了“编辑项目”框。 在项目列表中同时选择多个项目时，您可以访问新的编辑项目框。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -338,6 +377,45 @@ ht-degree: 0%
             </tbody>
         </table>
 
+<!--
+### Reports and Dashboards enhancements
+
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                    </td>
+                    <td><p><b>Available on these dates: N/A</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        -->
+
 ### 移动设备增强功能
 
 <table>
@@ -392,7 +470,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验</a><span style="color: #ff0000;"> 预览中的新增功能！</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验</a>
                         <p>目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在某些对象的“更新”部分中包含新界面、新增功能和改进的性能。</p>
                         <p>这一新体验最终将统一整个Adobe Workfront及其他地区、整个Adobe Experience Cloud的评论。</p>
                     </td>
