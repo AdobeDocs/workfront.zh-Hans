@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">从列表和报告将任务和问题添加到展示板工作流</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将列表和报表中的任务和问题添加到工作流卡片列表</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
                         <p>现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板中的工作流。 您添加到工作流的任何项目都会作为计划外卡添加到卡列表中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -170,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">从列表和报告将任务和问题添加到Workfront展示板</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将列表和报告中的任务和问题添加到Workfront展示板</a></p>
                         <p>现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板。 您添加到展示板的任何项目都将变成连接的卡片。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

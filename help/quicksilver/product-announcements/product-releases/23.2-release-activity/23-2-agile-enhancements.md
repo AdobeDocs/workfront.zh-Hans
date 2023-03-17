@@ -4,9 +4,9 @@ description: 23.2灵活增强
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Workfront展示板中提供的几项新增功能使您能够使用灵活的Scrum
 
 有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)和 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 在发布我的分支之前，第二篇文章将无法在“主”中找到。
 
-## 从列表和报告将任务和问题添加到展示板工作流
+## 将列表和报表中的任务和问题添加到工作流卡片列表
 
 现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板中的工作流。 您添加到工作流的任何项目都会作为计划外卡添加到卡列表中。
+
+有关更多信息，请参阅 [将现有任务或问题添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## 向展示板上的信息卡添加自定义字段
+
+您现在可以在Adobe Workfront展示板中包含自定义字段。 必须已在Workfront中创建字段。 您无法在展示板中设计和创建新的自定义字段。
+
+与默认字段一样，您可以选择在信息卡的完整视图和展示板上的压缩视图上显示自定义字段。
+
+卡上自定义字段中的任何数据均为只读。
+
+有关更多信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## 将列表和报告中的任务和问题添加到Workfront展示板
+
+现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板。 您添加到展示板的任何项目都将变成连接的卡片。
+
+此外，展示板字段现在可添加到任务或问题的列表和报告中。 此字段显示已将任务或问题添加到的所有展示板。
 
 有关更多信息，请参阅 [将现有任务或问题添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Workfront展示板中提供的几项新增功能使您能够使用灵活的Scrum
 
 有关更多信息，请参阅 [在主板上使用连接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## 从列表和报告将任务和问题添加到Workfront展示板
-
-现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板。 您添加到展示板的任何项目都将变成连接的卡片。
-
-此外，展示板字段现在可添加到任务或问题的列表和报告中。 此字段显示已将任务或问题添加到的所有展示板。
-
-有关更多信息，请参阅 [将现有任务或问题添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## 自定义信息卡中字段的显示
 
