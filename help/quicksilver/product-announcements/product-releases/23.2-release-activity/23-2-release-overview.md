@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">画布功能板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">画布功能板</a><span style="color: #ff0000;"> 即将推出！</span></p>
                         <p>画布功能板已作为功能板的正在进行的功能添加，该功能板可在布局模板中启用。 除了新的布局选项外，画布功能板还允许将报表画布可视化与现有报表组合。 目前仅支持列表报表，但在开发持续时将添加更多选项。</p>
                     </td>
-                    <td><p><b>在以下日期可用：不适用</b></p>
+                    <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：<br /></p>
+                                <p>预览版本：不适用<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">生产版本：在23.2版本中</span></p>
