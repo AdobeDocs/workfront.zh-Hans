@@ -6,9 +6,9 @@ title: 抢先试用功能选择加入 [!DNL Adobe Workfront] 展示板
 description: 阅读本文，了解 [!DNL Workfront Boards] 抢先试用功能选择加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ ht-degree: 0%
    <td>部分释放</td>
   </tr>
   <tr>
-   <td>创建展示板集合</td>
+   <td>创建工作流并将展示板添加到工作流</td>
    <td>部分释放</td>
   </tr>
   <tr>
    <td>创建迭代</td>
-   <td>计划</td>
+   <td>部分发布（在预览中提供）</td>
   </tr>
   <tr>
    <td>定义卡片列表或积压工作</td>
-   <td>计划</td>
+   <td>部分发布（在预览中提供）</td>
   </tr>
   <tr>
    <td>将子任务作为核对清单项导入卡片中</td>

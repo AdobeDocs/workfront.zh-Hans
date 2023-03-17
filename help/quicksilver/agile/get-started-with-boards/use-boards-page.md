@@ -6,30 +6,32 @@ description: 的 [!UICONTROL 展示板] 功能板显示您有权访问的展示�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
 # 使用展示板仪表板
 
-展示板功能板显示您有权访问的展示板和收藏集列表，包括您创建的展示板和您已添加到的展示板。 您有权访问但不属于收藏集的各个展示板会首先显示。
+{{highlighted-preview}}
+
+展示板功能板显示您有权访问的展示板和工作流列表，包括您创建的展示板和您已添加到的展示板。 您有权访问的不属于工作流的各个展示板会首先显示。
 
 >[!NOTE]
 >
->仅通过早期的功能选择加入，才能使用收藏集 [!DNL Workfront] [!UICONTROL 展示板].
+>工作流在预览环境中可用，在生产中可通过选择加入的早期功能获得 [!UICONTROL [!DNL Workfront] 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-在功能板上，您可以对展示板和收藏集执行以下操作：
+在功能板上，您可以对展示板和工作流执行以下操作：
 
-* 存档展示板（无法存档收藏集）
-* 筛选展示板列表
+* 存档展示板 <span class="preview">或工作流</span>
+* 筛选展示板 <span class="preview">和工作流</span>
 * 按展示板名称或修改日期对展示板列表进行排序
-* 搜索展示板或收藏集
-* 删除展示板或收藏集
+* 搜索展示板或工作流
+* 删除展示板或工作流
 
-有关创建新展示板或编辑现有展示板的信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md). 有关创建新收藏集的信息，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+有关创建新展示板或编辑现有展示板的信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md). 有关创建新工作流的信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 访问要求
 
@@ -52,14 +54,14 @@ ht-degree: 0%
 
 &#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
 
-## 过滤板 {#filter-boards}
+## 过滤板 <span class="preview">和工作流</span> {#filter-boards}
 
-您可以过滤展示板功能板以显示活动展示板、存档的展示板或所有展示板。
+您可以过滤展示板功能板以显示活动、存档或所有展示板或工作流。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
-1. 单击 [!UICONTROL **过滤器**] 选择 **[!UICONTROL 全部]**, **[!UICONTROL 活动展示板]**&#x200B;或 **[!UICONTROL 存档展示板]**.
+1. 单击 [!UICONTROL **过滤器**] 在“展示板”区域或“工作流”区域中，然后选择 **[!UICONTROL 全部]**, **[!UICONTROL 活动]**&#x200B;或 **[!UICONTROL 已存档]**.
 
-   当在功能板上应用除默认值以外的过滤器时，过滤器图标上会显示一个指示器 ![[!UICONTROL 应用于] 仪表板](assets/boards-filterapplied-30x30.png).
+   当在功能板上应用除默认值以外的过滤器时，过滤器图标上会显示一个指示器 ![应用于功能板的过滤器](assets/boards-filterapplied-30x30.png).
 
 ## 排序板
 
@@ -70,64 +72,68 @@ ht-degree: 0%
 
    当在功能板上应用除默认值以外的排序时，排序图标上会显示一个指示器 ![应用排序](assets/sort-applied-boards.png).
 
-## 搜索展示板或收藏集
+## 搜索展示板或工作流
 
-您可以在展示板区域搜索特定展示板，或在收藏集区域搜索特定收藏集。
+您可以在展示板区域搜索特定展示板，或在工作流区域搜索特定工作流。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
 1. 单击 [!UICONTROL **搜索**] 并键入搜索词。 然后，按Enter。
 
-   将显示标题中包含搜索词的所有展示板。
+   将显示标题中包含搜索词的所有展示板或工作流。
 
    单击X以清除搜索。
 
    ![在功能板上搜索展示板](assets/boards-searchbox.png)
 
-## 存档展示板
+## 存档展示板 <span class="preview">或工作流</span>
 
-存档展示板会将其发送到存档，您稍后可以恢复它。
+存档展示板或工作流会将其发送到存档，您稍后可以恢复它。
 
 >[!NOTE]
 >
 >存档展示板时，它将被存档给所有展示板成员。
+>
+>存档工作流时，其所有展示板都会存档。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
 1. 单击 **[!UICONTROL 更多]** 菜单 ![“更多”菜单](assets/more-icon-spectrum.png) ，然后选择 **[!UICONTROL 存档]**.
 
-   安 [!UICONTROL 存档] 图标 ![存档](assets/archive-icon-spectrum-25x20.png) 显示在展示板上。 您无法编辑已存档的展示板。
+   在工作流中，菜单位于右侧，位于 [!UICONTROL **查看工作流**] 按钮。
 
-   存档的展示板会隐藏在展示板功能板上，除非您应用过滤器来显示它们。 有关更多信息，请参阅 [[!UICONTROL 过滤板]](#filter-boards) 章节。
+   安 [!UICONTROL 存档] 图标 ![存档](assets/archive-icon-spectrum-25x20.png) 显示在展示板或工作流中。 您无法编辑存档的展示板或工作流。
 
-1. 要恢复已存档的展示板，请单击 **[!UICONTROL 更多]** 菜单 ![“更多”菜单图标](assets/more-icon-spectrum.png) 并选择 **[!UICONTROL 还原]**.
+   存档的项目在展示板功能板中会隐藏，除非您应用过滤器来显示它们。 有关更多信息，请参阅 [[!UICONTROL 过滤板]](#filter-boards) 章节。
 
-## 删除展示板或收藏集
+1. 要恢复存档的展示板或工作流，请单击 **[!UICONTROL 更多]** 菜单 ![“更多”菜单图标](assets/more-icon-spectrum.png) 并选择 **[!UICONTROL 还原]**.
+
+## 删除展示板或工作流
 
 删除展示板时，它将从 [!DNL Workfront] 无法恢复。 展示板上的所有信息卡也会随展示板一起删除。
 
-删除收藏集会删除收藏集中的所有展示板。
+删除工作流也会删除工作流中的所有展示板。
 
 >[!NOTE]
 >
->您只能删除您创建的展示板和收藏集，而不能删除您添加到的展示板和收藏集。
+>您只能删除您创建的展示板和工作流，而不能删除您添加到的展示板和工作流。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
 1. 单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL “更多”菜单]](assets/more-icon-spectrum.png) ，然后选择 **[!UICONTROL 删除]**.
 
-   在收藏集中，菜单位于右侧的 [!UICONTROL **查看收藏集**] 按钮。
+   在工作流中，菜单位于右侧，位于 [!UICONTROL **查看工作流**] 按钮。
 
-1. 单击 **[!UICONTROL 删除展示板]** 或 [!UICONTROL **删除集合**] 确认消息。
+1. 单击 **[!UICONTROL 删除展示板]** 或 [!UICONTROL **删除工作流**] 确认消息。
 
-## 将展示板移到收藏集
+## 将展示板移动到工作流
 
-您可以将独立展示板移入收藏集，或将展示板从一个收藏集移动到另一个收藏集。
+您可以将一个独立的主板移入工作流，或将一个主板从一个工作流移动到另一个工作流。
 
 >[!NOTE]
 >
 >您只能移动您创建的展示板，而不能移动您被添加到的展示板。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
-1. 单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL “更多”菜单]](assets/more-icon-spectrum.png) ，然后选择 [!UICONTROL **移动到收藏集**].
-1. 选择要将展示板添加到的收藏集，然后单击 [!UICONTROL **移动**].
+1. 单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL “更多”菜单]](assets/more-icon-spectrum.png) ，然后选择 [!UICONTROL **移动到工作流**].
+1. 选择要将展示板添加到的工作流，然后单击 [!UICONTROL **移动**].
 
-   展示板将移入收藏集中，且不再显示在 [!UICONTROL 展示板] 的上界。
-如果您尚未创建收藏集，系统会提示您创建一个收藏集以将展示板移动到中。
+   展示板将移入工作流中，且不再显示在 [!UICONTROL 展示板] 的上界。
+如果您尚未创建工作流，系统会提示您创建一个工作流以将展示板移入。

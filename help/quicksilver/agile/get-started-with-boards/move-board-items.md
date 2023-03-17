@@ -6,9 +6,9 @@ description: 您可以将信息卡移动到展示板上的任意列，或复制�
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -74,6 +74,8 @@ ht-degree: 1%
    ![“更多”菜单](assets/boards-moremenu-350x329.png)
 
 ## 复制信息卡
+
+复制临时信息卡会复制信息卡上的所有字段，包括核对清单项。
 
 >[!NOTE]
 >

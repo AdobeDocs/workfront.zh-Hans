@@ -7,18 +7,36 @@ description: 在使用临时卡片和连接卡片创建展示板时，您可能�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # 敏捷规划工具概述
 
-在使用临时卡片和连接卡片创建展示板时，您可能希望利用其他灵活规划工具，包括列WIP限制、将卡片分组到泳道、可用于积压工作的进纸列以及展示板集合。
+{{highlighted-preview}}
 
-您可以以适合您和您的团队的方式使用任何或所有这些工具，而无需提交特定的灵活方法（如看板或清理）。
+在使用临时卡片和连接卡片创建展示板时，您可能希望利用其他灵活规划工具。
+
+用于看板的工具包括：
+
+* 列的WIP限制
+* 将卡分组为泳道
+* 可用于积压的进气柱
+
+<div class="preview">
+
+用于Scrum的工具包括：
+
+* 工作流和迭代板
+* 卡片列表或积压
+* 迭代量度
+
+</div>
+
+您可以采用适合您和您的团队的方式使用任何或所有这些工具，而无需致力于特定的灵活方法。
 
 本节包含以下文章：
 
@@ -26,4 +44,7 @@ ht-degree: 0%
 * [向展示板添加进气柱](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [配置卡片衰减](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [查看迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
