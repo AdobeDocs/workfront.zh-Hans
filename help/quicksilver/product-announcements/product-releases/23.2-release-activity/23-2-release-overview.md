@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [灵活的增强功能](#agile-enhancements)
 * [项目管理增强功能](#project-management-enhancements)
 * [资源管理增强](#resource-management-enhancements)
-* [报表和功能板增强功能]
+* [报表和功能板增强功能](#reports-and-dashboards-enhancements)
 * [移动设备增强功能](#mobile-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -377,8 +377,8 @@ ht-degree: 0%
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### 报表和功能板增强功能
 
 
 <table>
@@ -387,34 +387,32 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">功能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">画布功能板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>画布功能板已作为功能板的正在进行的功能添加，该功能板可在布局模板中启用。 除了新的布局选项外，画布功能板还允许将报表画布可视化与现有报表组合。 目前仅支持列表报表，但在开发持续时将添加更多选项。</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>在以下日期可用：不适用</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>预览版本：<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">生产版本：在23.2版本中</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### 移动设备增强功能
 
