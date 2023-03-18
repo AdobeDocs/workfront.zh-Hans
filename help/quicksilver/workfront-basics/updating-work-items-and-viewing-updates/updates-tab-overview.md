@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: “更新”选项卡概述
-description: “更新”选项卡会显示过去90天内最近进行的200次更新。
+title: 更新部分概述
+description: “更新”部分显示了过去90天内最近进行的200次更新。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# “更新”选项卡概述
+# 更新部分概述
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-“更新”选项卡会显示过去90天内最近进行的200次更新。
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-您可以对以下对象进行评论和回复更新：
+-->
+
+对象的“更新”部分显示用户对跟踪对象更改的对象或系统更新所做的注释。
+
+## 更新部分概述
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+对象的“更新”部分显示了过去90天内最近进行的200次更新。
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+“更新”部分显示以下信息：
+
+* 用户的评论以及对这些评论的回复。
+* 系统更新，这些信息性消息是Workfront创建的，用于记录对象上的某些事件。 例如，您可以通过系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的项目启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+将显示以下对象的“更新”部分：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ ht-degree: 7%
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## 也显示在较高级别对象上的更新
 
-如下表所示，对某些对象的更新所做的回复也会显示在排名较高的对象的“更新”(Updates)选项卡中。
+如下表所示，对某些对象的更新所做的回复也会显示在排名较高的对象的“更新”部分。
 
-例如，在向任务添加更新时，该更新会显示在任务的“更新”选项卡和包含该任务的项目的“更新”选项卡中。
+例如，在向任务添加更新时，该更新将显示在任务的“更新”部分和包含该任务的项目的“更新”部分。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ ht-degree: 7%
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## “更新”选项卡的限制
+## “更新”部分的限制
 
 ### 用户和团队的限制
 
-无法对团队进行更新。 团队的“更新”(Updates)选项卡由在以下对象上输入的更新填充：
+无法对团队进行更新。 团队的“更新”部分由在以下对象上输入的更新填充：
 
 * 用户
 * 时间表
 * 故事
 * 迭代
 
-在用户和团队的更新选项卡上，您可以查看过去90天内输入的更新。
+在用户和团队的“更新”部分中，您可以查看过去90天内输入的更新。
 
 如果您想要查看对用户或团队所做的所有更新（超出90天限制），则可以构建报表以进行注释。 报表不应具有时间过滤器来显示为用户或团队进行的所有更新。 有关更多信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

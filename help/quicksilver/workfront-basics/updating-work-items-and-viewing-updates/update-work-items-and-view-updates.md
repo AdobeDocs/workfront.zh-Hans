@@ -3,22 +3,24 @@ content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
 title: 更新工作项并查看更新
-description: 查看这些文章，了解如何在Adobe Workfront中使用更新。
+description: 您可以使用大多数对象的“更新”部分添加注释、回复，或跟踪有关对象上发生的更改的系统跟踪更新。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: a4bd798e3d6c6f5d7e55a8b0f5b5269a3dbf83e4
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # 更新工作项并查看更新
 
+您可以使用大多数对象的“更新”部分添加注释、回复，或跟踪有关对象上发生的更改的系统跟踪更新。
+
 本节包含以下文章：
 
-* [“更新”选项卡概述](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [更新部分概述](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [字段中的字符限制](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
