@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对跟踪对象更改的对�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->我们当前正在重新设计对象的Updates部分。 您可以通过启用注释测试版来访问新设计。
+>我们当前正在重新设计对象的Updates部分。
 >
->目前，测试版适用于 <span class="preview">问题</span>.
+>有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->有关新评论体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>您可以从以下对象和以下环境中访问新设计：
+>
+>* <span class="preview">为以下对象启用注释测试版体验时：</span>
+   >
+   >     * <span class="preview">问题</span>
+
+   >     
+   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
+   >
+   >     * <span class="preview">主页</span>
+   >     * <span class="preview">列表中的“摘要”面板</span>
+   >     * <span class="preview">工时单中的“摘要”面板</span>
+>
+>* 默认情况下，作为以下对象的当前注释体验：
+   >
+   >     * 目标
+
+   >
+   >     您必须拥有其他许可证才能访问Workfront Goals。 有关信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 对象的“更新”部分显示用户对跟踪对象更改的对象或系统更新所做的注释。
 
@@ -79,9 +98,9 @@ ht-degree: 4%
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-“更新”部分在测试版评论体验的以下选项卡中显示信息：
+“更新”部分在新注释体验的以下选项卡中显示信息：
 
-* **更新**:显示用户的评论以及对这些评论的回复。 有关更新新注释体验中对象的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **评论**:显示用户的评论以及对这些评论的回复。 有关更新新注释体验中对象的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**:显示系统更新，这些信息性消息是Workfront为记录对象上的某些事件而创建的。 例如，您可以通过系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的项目启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 目前，您可以使用测试版对以下对象添加评论体验来评论和回复更新：
@@ -102,14 +121,6 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->评论体验测试版是目标的默认当前体验。 您必须拥有其他许可证才能访问Workfront Goals。
->
->有关信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 也显示在较高级别对象上的更新
 

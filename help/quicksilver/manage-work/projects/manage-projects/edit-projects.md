@@ -6,9 +6,9 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,15 @@ ht-degree: 2%
        <ul> 
        <li> <p><span>从“项目”区域创建项目时，项目创建者的“主页组”会与项目关联。</span> </p> <p>从项目组合或项目群的项目部分创建项目时，也是如此。</p> </li> 
        <li> <p>从“设置”区域的组主页创建项目时，该组将与项目关联。</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>如果项目或其任务或问题已与使用组级别自定义状态的组级别审批流程相关联，则更改组可能会在上一个组的审批状态与系统级别现有的审批状态之间产生冲突。 在更新项目组之前，请考虑删除项目上的组级审批流程或其任务或问题。 有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别的审批流程</a>. 有关创建组级别自定义状态的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑群组状态</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>注释</b></p>
+
+   <ul>
+      <li><p>如果项目或其任务或问题与组级别的自定义状态相关联，则更改项目组可能会导致项目的状态、任务或问题发生更改以匹配新组。</p></li>
+      <li><p>如果项目或其任务或问题已与使用组级别自定义状态的组级别审批流程相关联，则更改组可能会在上一个组的审批状态与系统级别现有的审批状态之间产生冲突。</p>
+      <p>在更新项目组之前，请考虑删除项目上的组级审批流程或其任务或问题。</p>
+      <p>有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别的审批流程</a>.</p>
+      <p>有关创建组级别自定义状态的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑群组状态</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>公司</strong> </td> 

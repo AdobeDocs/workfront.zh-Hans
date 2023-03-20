@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->当前，我们正在重新设计在使用对象的Updates部分时更新工作的方式。
->
->您可以通过启用注释测试版来访问新设计。
->
->目前，测试版适用于 <span class="preview">问题</span>.
->
+>我们当前正在重新设计在Adobe Workfront中的注释体验。
 >有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>您可以访问以下对象的新设计：
+> * <span class="preview">在启用注释测试版时出现问题。 </span>
+   >
+   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
+   >
+   >     * <span class="preview">主页</span>
+   >     * <span class="preview">列表中的“摘要”面板</span>
+   >     * <span class="preview">工时单中的“摘要”面板</span>
+>
+> * 目标
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 您可以在更新部分中向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”(Updates)部分的详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ drafted for P&P release:
 1. 要回复更新，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### 使用注释测试版体验向工作项添加更新
-
-
->[!NOTE]
->
->本节介绍的功能适用于以下对象：
->
->* <span class="preview">问题，在您启用评论测试版体验时。</span>
-   >
-   >   <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
-   >
-   >   * <span class="preview">主页</span>
-   >   * <span class="preview">列表中的“摘要”面板</span>
-   >   * <span class="preview">工时单中的“摘要”面板</span>
->* 目标
-
-   >
-   >   新的评论体验是目标的当前默认体验。
-   >   您必须拥有其他许可证才能访问Workfront Goals。 有关信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 中。

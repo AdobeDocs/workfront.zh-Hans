@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，该项目的所�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,31 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>我们当前正在重新设计在Adobe Workfront中的注释体验。
+>有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>您可以访问以下对象的新设计：
+> * <span class="preview">在启用注释测试版时出现问题。 </span>
+   >
+   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
+   >
+   >     * <span class="preview">主页</span>
+   >     * <span class="preview">列表中的“摘要”面板</span>
+   >     * <span class="preview">工时单中的“摘要”面板</span>
+>
+> * 目标
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+
+
 如果您希望引起用户对某个对象的注意，否则用户可能不会关注该对象，则可以在对该对象进行更新时标记用户。
 您可以在更新时标记这些用户，以便与他们共享对象，而不是通过将这些用户分配给对象或让他们订阅对象来将其包含在对象中。 标记用户将收到有关您输入的更新的通知。
 
@@ -85,11 +94,9 @@ ht-degree: 0%
 
 ## 更新时标记其他人
 
-<!--
-Tagging others in an update differs depending on which experience and which object you select.
+根据您选择的体验和对象，在更新中标记其他对象时会有所不同。
 
-### Tag others on updates in the current Updates section
--->
+### 在当前更新部分中为其他用户标记更新
 
 1. 开始更新工作项，如 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 在 **通知** 字段中，开始键入要包含的用户或团队的名称，然后在下拉列表中显示该名称时单击该名称。
@@ -125,47 +132,43 @@ Tagging others in an update differs depending on which experience and which obje
 
    有关更新工作项时可用的其他功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--
 <div class="preview">
 
-### Tag others on updates in the commenting Beta experience
+### 在评论测试版体验的更新中标记其他人
 
-1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
+1. 开始更新工作项，如 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 在 **标记人员或团队** 字段中，开始键入要包含的用户或团队的名称，然后在下拉列表中显示该名称时单击该名称。
 
-   <!- ********************* this doesn't seem to work in Beta - keep drafted for now: 
-   Or
+   或
 
-   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. ************close draft
+   在 **编写评论** 区域，开始键入要包含在更新中的用户或团队的名称，然后在下拉列表中显示该名称时单击。
 
    >[!TIP]
    >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >要在用户名称相似或相同时识别正确的用户，请注意头像、用户的主要角色或其电子邮件地址。 用户必须至少与一个作业角色关联，才能在您在更新中标记他们时查看该角色。
 
    ![](assets/tag-others-unified-commenting.png)
 
-      <!-******************* this might not be there for issues yet - keep drafted if not: 
-      1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
-
-         >[!NOTE]
-         >
-         >* This option displays only when the user is associated with a Company.
-         >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them. - ************close draft 
-      
-1. (Optional) To add multiple users and teams, repeat step 2.
+1. （可选）要将更新设为私有，请启用 **对我的公司私有** 中。 这样，更新仅对公司中的用户可见。
 
    >[!NOTE]
    >
-   >All users and team members listed in the "Tag people or teams" field receive an in-app notification for the update and might receive an email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in listed as a member of the thread for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >* 仅当用户与公司关联时，才会显示此选项。
+   >* 公司外的标记用户仍可能收到应用程序内通知或电子邮件，即使他们在“更新”选项卡中看不到私人评论。 如果您不想与外部用户共享信息，我们建议不要在更新时为其添加标签。
 
-1. Click **Submit**.  
-   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
-1. (Optional) Cick the number of members included in the update to display a list of entities that the update you entered is shared with. 
+1. （可选）要添加多个用户和团队，请重复步骤2。 <!--insure this stays accurate-->
+
+   >[!NOTE]
+   >
+   >“标记人员或团队”字段中列出的所有用户和团队成员都将收到更新的应用程序内通知，并可能会收到电子邮件，具体取决于其电子邮件通知设置的配置。 在评论或回复中标记自己的用户会收到该评论或回复的通知，并且在线程的剩余时间中，他们的名称将列为线程的成员，但是，除非他们再次标记自己，否则他们不会收到其他通知。 有关更多信息，请参阅 [激活或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+1. 单击 **提交**.\
+   更新中包含的用户会自动被授予对象的“查看”权限，并且可以查看和响应对对象所做的更新。
+
+   您可以在成员区域的更新文本下查看每个回复中标记的对象。 当对对象进行更新或回复时，这些用户以及订阅该对象的任何用户都会收到通知。
+1. （可选）单击 **成员** 更新中包含，以显示您输入的更新与之共享的实体列表。
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
--->
+   有关更新工作项时可用的其他功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

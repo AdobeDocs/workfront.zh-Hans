@@ -6,7 +6,7 @@ description: 您可以使用Adobe Workfront工作负载平衡器将工作项拖�
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -35,8 +35,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划在资源区的负载平衡器中分配工作</p>
-   <p>在团队或项目的负载平衡器中分配工作</p>
+   <td> <p>规划，在资源区的负载平衡器中分配工作</p>
+   <p>工作，在团队或项目的负载平衡器中分配工作</p>
  </td> 
   </tr> 
   <tr> 

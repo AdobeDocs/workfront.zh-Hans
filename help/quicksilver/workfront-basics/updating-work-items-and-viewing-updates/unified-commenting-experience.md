@@ -5,9 +5,9 @@ title: 统一的注释体验
 description: 新的统一评论体验将
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -247,7 +247,8 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">此功能应在23.2中提供，并且已暂时延迟。</span> 
    </td>
    <td> 
    </td>
