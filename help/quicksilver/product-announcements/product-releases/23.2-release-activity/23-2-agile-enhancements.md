@@ -4,9 +4,9 @@ description: 23.2灵活增强
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Workfront展示板中提供的几项新增功能使您能够使用灵活的Scrum
 
 请注意，收藏集已重命名为工作流。 工作流可帮助您以不同方式显示数据。 您可以在列表、展示板或小版本的卡片上显示项目。 工作流中的信息卡也可以在多个展示板之间共享。 您可以在工作流中使用卡和展示板轻松促进工作流。
 
-有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)和 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 在发布我的分支之前，第二篇文章将无法在“主”中找到。
+有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)和 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 在发布我的分支之前，第二篇文章将无法在“主”中找到。
 
 ## 将列表和报表中的任务和问题添加到工作流卡片列表
 

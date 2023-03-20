@@ -6,9 +6,9 @@ title: 管理工作流
 description: 工作流是一组可配置的展示板和卡片，用于协作处理工作。
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '868'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 工作流是一组可配置的展示板和卡片，用于协作处理工作。 工作流可以包括从模板创建的不同类型的展示板， <span class="preview">和工作品的卡片列表。 在工作流中，您可以跟踪小版本或短划分中的工作。</span>
 
-<span class="preview">有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 工作流会与您有权访问的各个展示板一起显示在功能板上，这些展示板不属于工作流的一部分。 有关展示板仪表板的信息，请参阅 [使用展示板仪表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以单击功能板上的任何展示板名称以将其打开。
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
    卡片总数、指向的卡片数和小版本数显示在“卡片列表”部分。 单击 [!UICONTROL **查看列表**] 打开列表并添加信息卡。 有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   如果已定义小版本，则会显示其开始日期、卡数和点数。 单击 [!UICONTROL **查看迭代展示板**] 打开展示板。 有关更多信息，请参阅 [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   如果已定义小版本，则会显示其开始日期、卡数和点数。 单击 [!UICONTROL **查看迭代展示板**] 打开展示板。 有关更多信息，请参阅 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. 单击 [!UICONTROL **添加源**] 定义将信息卡导入工作流的源。 此时，唯一可用的源是 [!DNL Adobe Workfront].
 1. 添加过滤器以将任务和问题从Workfront导入为信息卡。

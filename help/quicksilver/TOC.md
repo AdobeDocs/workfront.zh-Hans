@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '12773'
+source-wordcount: '12776'
 ht-degree: 1%
 
 ---
@@ -930,7 +930,7 @@ ht-degree: 1%
       * [配置卡片衰减](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
       * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-      * [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [查看迭代量度](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * 敏捷团队中的看板 {#kanban}
       * [敏捷团队中的看板](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)

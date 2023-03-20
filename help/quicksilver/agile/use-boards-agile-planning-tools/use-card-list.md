@@ -6,9 +6,9 @@ title: 使用卡片列表
 description: 您可以在工作流中创建卡列表，并将卡添加到小版本中。
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->必须先创建小版本，然后才能向其添加卡片。 有关信息，请参阅 [创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>必须先创建小版本，然后才能向其添加卡片。 有关信息，请参阅 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. 访问工作流的卡列表。
 1. 选择 [!UICONTROL **迭代视图**] 查看哪些卡被分配到小版本以及哪些卡是计划外的。
