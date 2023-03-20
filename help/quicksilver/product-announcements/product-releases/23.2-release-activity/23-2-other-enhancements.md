@@ -4,9 +4,9 @@ description: 23.2其他增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 未来版本中将添加更多功能，因为这些增强功能将继续添加到其他对象中。
 
 有关新的注释体验提供内容的信息，请参阅 [统一的注释体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## 在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件
 

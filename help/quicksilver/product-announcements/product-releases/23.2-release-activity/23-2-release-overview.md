@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -484,7 +484,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验<span style="color: #ff0000;"> 预览中的新增功能！</span></a>
                         <p>目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在某些对象的“更新”部分中包含新界面、新增功能和改进的性能。 </p>
                         <p>这一新体验最终将统一整个Adobe Workfront及其他地区、整个Adobe Experience Cloud的评论。 </p>
                     </td>
