@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 1%
@@ -218,15 +218,16 @@ drafted for P&P release:
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. 单击 **提交** 将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息，或删除任何已标记的用户。
-提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
+1. <span class="preview">（可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.</span>
+1. <span class="preview">编辑评论中的信息，或删除任何已标记的用户。 </span>
+
+   <span class="preview">提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。 </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
+   >   <span class="preview">只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。</span>
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤4-7。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （可选）单击 **赞** 图标![](assets/like-icon.png). 该图标会随称赞次数而更新。
 1. （视情况而定和可选）如果您在评论中包含其他人员，请单击更新中包含的成员数，以显示您输入的评论与之共享的实体列表。
