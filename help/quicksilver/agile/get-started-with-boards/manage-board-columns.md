@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ ht-degree: 0%
 
       ![列的状态](assets/boards-column-status.png)
 
-      此外，还会显示连接卡的状态转换选项。 （状态转换不适用于临时信息卡。） 这些选项可确定应用于中任务或问题的状态 [!DNL Workfront] 将连接的卡移至此列时。
+      此外，还会显示连接卡的状态转换选项。 （状态转换不适用于临时信息卡。） 这些选项可确定应用于中任务或问题的自定义状态 [!DNL Workfront] 将连接的卡移至此列时。
 
-   1. 要更改默认状态转换选择，请单击 **[!UICONTROL 编辑]** 图标 ![“编辑”图标](assets/edit-icon-spectrum.png).
-   1. 如果您使用的是早期功能选择加入：选择 [!UICONTROL **自定义**] 状态以应用于卡，适用于任务和问题。
+   1. 如果您使用的是早期功能选择加入：选择 [!UICONTROL **自定义**] 状态。
 
-      当信息卡被移动到此列时， [!DNL Workfront] 首先尝试应用自定义状态（例如，“已解析”）。 如果自定义状态不适用于该卡，则Workfront将应用系统状态（例如，已关闭）。 系统状态是您在上面步骤b中选择的状态。
+      当信息卡被移动到此列时， [!DNL Workfront] 首先尝试应用自定义状态（例如，“已解析”）。 如果所选的自定义状态不适用于该卡，则系统会提示您选择与系统状态对应的其他状态（从上面的步骤b中）。
 
       此外，如果连接任务或问题的状态更改为列策略中设置的自定义或系统状态，则卡会自动移至列。
 

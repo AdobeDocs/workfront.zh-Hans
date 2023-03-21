@@ -7,9 +7,9 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ ht-degree: 0%
    >[!NOTE]
    >
    >您可以过滤进气列以包含任务和问题，但必须为每个对象类型分别设置过滤器。
+   >
+   >此外，保存的过滤器和系统默认过滤器也可供您选择。
 
 1. 在过滤器面板上，单击 **[!UICONTROL 新建过滤器]** 以开始使用。
 
