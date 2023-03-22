@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装Adobe Workfront for Photoshop插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >要查找您的域，请打开浏览器，导航到 [!DNL Workfront] 实例，并复制URL的第一部分：\
-   >![](assets/domain-350x50.png)   >
+   >* 要查找您的域，请打开浏览器，导航到 [!DNL Workfront] 实例，并复制URL的第一部分：\
+      >![](assets/domain-350x50.png)
+   >
+   > * 如果您的Workfront实例已与Experience Cloud集成，请咨询您的管理员，以向您提供位于Admin Console中产品> Workfront下的Workfront域。
+
 
 1. 在浏览器中，输入 [!DNL Workfront] 凭据，然后单击 **[!UICONTROL 登录]**. 如果您的公司使用单点登录(SSO)，则会将您定向到SSO提供商的页面以登录。
 
