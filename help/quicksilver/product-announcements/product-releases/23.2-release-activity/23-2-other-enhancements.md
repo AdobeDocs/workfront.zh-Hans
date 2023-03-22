@@ -4,9 +4,9 @@ description: 23.2其他增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,6 @@ ht-degree: 0%
 * 性能更佳
 
 * 新评论的实时指标。
-   >[!NOTE]
-   >
-   >实时指标的发布已推迟。
 
 * 在提交注释后编辑注释。
 
