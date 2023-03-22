@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ drafted for P&P release:
 
 1. 要回复更新，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### 使用注释测试版体验向工作项添加更新
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 中。
-1. <span class="preview">单击 **试用评论测试版** 按钮，然后单击 **同意** 测试版协议。 这会将“更新”区域切换为注释测试版体验。 </span>
-此 
-**评论** 选项卡。
+1. 单击 **试用评论测试版** 按钮，然后单击 **同意** 测试版协议。 这会将“更新”区域切换为注释测试版体验。
+的 **评论** 选项卡。
 1. 开始在 **新建注释** 框中。
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ drafted for P&P release:
 
    有关更多信息，请参阅本文中的“在Workfront更新中使用富文本”部分。 <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >如果其他用户将评论提交到您正在更新的同一项目，则会有一条带有“New”（新建）指示符的红线，用于通知您较新的评论。
+   >
+   >只有在对项目提交评论后，才会显示指示器，而在仍在撰写评论时，才会显示指示器。
+   >
+   >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. 单击 **提交** 将更新添加到Workfront对象。
-1. <span class="preview">（可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.</span>
-1. <span class="preview">编辑评论中的信息，或删除任何已标记的用户。 </span>
-
-   <span class="preview">提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。 </span>
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
+1. 编辑评论中的信息，或删除任何已标记的用户。
+提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。</span>
+   >   只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤4-7。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （可选）单击 **赞** 图标![](assets/like-icon.png). 该图标会随称赞次数而更新。
 1. （视情况而定和可选）如果您在评论中包含其他人员，请单击更新中包含的成员数，以显示您输入的评论与之共享的实体列表。
@@ -241,6 +245,7 @@ drafted for P&P release:
    >
    >您无法向系统更新添加注释。
 
+</div>
 
 ## 在Workfront更新中使用富文本
 

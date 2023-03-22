@@ -7,9 +7,9 @@ description: Adobe Workfront对与项目关联的对象数量存在限制。 已
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Adobe Workfront对与项目关联的对象数量存在限制。 已设置项目�
  <tbody> 
   <tr> 
    <td role="rowheader"><p>任务</p></td> 
-   <td>  <p>每个项目的最大任务数为5,000。 当任务数接近此最大值时，将显示一条警告消息。 达到最大值时，将显示一条错误消息，无法将其他任务添加到项目中。</p> <p>为避免达到此最大限度，请将已关闭的任务移动到为已结束任务指定的其他项目。 可能需要调整这些项目的报告。</p> </td> 
+   <td>  <p>每个项目的最大任务数为5,000。 当任务数接近此最大值时，将显示一条警告消息。 达到最大值时，将显示一条错误消息，无法将其他任务添加到项目中。</p> <p>为避免达到此最大限度，请将已关闭的任务移动到为已结束任务指定的其他项目。 可能需要调整这些项目的报告。</p>
+
+<b>重要信息</b>
+
+对于任务具有大量依赖关系的项目，我们建议项目中的任务数应远远低于允许的最大5,000个任务数。
+
+可能会影响或阻止重新计算项目时间轴的任务依赖关系的一些示例包括：
+
+<ul><li>子项数量</li>
+   <li>多级别任务缩进</li>
+   <li>前置任务数</li>
+   <li>多个分配</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>问题</p></td> 

@@ -6,14 +6,16 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目标中管理目标注释
+
+<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
 
@@ -149,16 +151,28 @@ ht-degree: 0%
    >
    >   <span class="preview">只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。</span>
 
+   <!-- <div class="preview">
+   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+
+      * **Copy update link** to copy the link of an update, without the replies.
+      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy body text** to copy the text of an update. 
+
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+   </div>
+   -->
+
 1. 单击 **提交**.
 
-   <!--drafted for 23.2 beta release: 
-      >[!TIP]
-      >
-      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-      >
-      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
-      >
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >如果其他用户将评论提交到您正在更新的同一项目，则会有一条带有“New”（新建）指示符的红线，用于通知您较新的评论。
+   >
+   >只有在对项目提交评论后，才会显示指示器，而在仍在撰写评论时，才会显示指示器。
+   >
+   >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-9。 <!--insure this stays accurate-->
 1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
