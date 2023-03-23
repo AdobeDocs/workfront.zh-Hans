@@ -6,9 +6,9 @@ description: 导出数据的一些原因是 — 编辑我。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 ### 导出限制 {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 报表在Workfront中的显示方式以及通过手动导出、提交报表或API导出的方式存在一些限制。
@@ -106,9 +106,13 @@ ht-degree: 0%
    * 对于Excel .xlsx文件，此限制为 **10万行**.
    * 这些限制不包括列标题以及报表中分组的行。 例如，如果您在一个报表中有6个分组，并且有50,000行或数据，则导出的文件将有50,000行。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >如果报表的项目数超过这些限制，则会收到导出失败的错误。 将屏幕上显示的项目数量减少到小于或等于这些限制的数量，以便能够导出结果。
+   >导出在列中包含集合引用的报表时，可能会导致错误，即使该报表在其他情况下位于所列的导出限制范围内也是如此。 如果引用的集合太大，则导出过程会超时，并随后导致错误。
+   >
+   >要避免出现此错误，请在导出之前排除引用较大集合的列，或减小引用的集合的大小。
+
+   如果报表的项目数超过这些限制，则会收到导出失败的错误。 将屏幕上显示的项目数量减少到小于或等于这些限制的数量，以便能够导出结果。
 
    如果您的报表超过50,000/65,000/100,000行，并且您想要导出所有数据，我们建议您使用过滤器或提示来获取较小数据负载，并执行多次导出。
 
