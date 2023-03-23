@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] 连接到 [!DNL Jira] 使用OAuth 2.0，这是大多数基于Web的集成用于用户身份验证和授权的标准。
+   >用户必须具有有效 `apiKey` in [!UICONTROL Workfront] 创建成功连接。
 
    您必须登录 [!DNL Workfront] as a [!DNL Workfront] 管理员以继续配置。
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] 连接到 [!DNL Jira] 使用OAuth 2.0，这是大多数基于Web的集成用于用户身份验证和授权的标准。
    >* 提示您输入的域时 [!DNL Workfront] 帐户，请使用以下格式键入： *yourCompany&#39;sDomain.my.workfront.com*. 您公司的域通常是您公司的名称。
    >* 增强的身份验证在 [!DNL Workfront] 管理员为此集成启用了此功能。
 
@@ -317,7 +318,7 @@ ht-degree: 0%
 
    现在，每当用户在任一项中的某个项目上更新此配置中指定的任何字段时 [!DNL Jira] 或 [!DNL Workfront]，则另一个应用程序中的链接项目也会更新。
 
-## 疑难解答
+## 故障排除
 
 ### 无法在中创建项目 [!DNL Jira] 因为标记为“[!UICONTROL 找不到]&quot;
 
