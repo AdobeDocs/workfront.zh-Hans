@@ -4,9 +4,9 @@ description: 23.2灵活增强
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 本页介绍在“预览”环境中23.2版本所做的所有灵活增强。 23.2版本的生产环境中将提供这些增强功能。
 
 有关23.2发行周期中此刻可用的所有更改的列表，请参阅 [23.2版本概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 将任务和问题从对象详细信息添加到Workfront展示板或工作流
+
+现在，您可以直接从对象详细信息将现有任务或问题添加到Workfront展示板或工作流卡列表。 您添加到展示板的任何项目都将成为连接的信息卡，而添加到工作流的任何项目都将作为计划外信息卡添加到信息卡列表中。
+
+有关更多信息，请参阅 [将现有任务或问题添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Adobe Workfront展示板中提供的迭代功能
 
@@ -28,6 +34,8 @@ Workfront展示板中提供的几项新增功能使您能够使用灵活的Scrum
 请注意，收藏集已重命名为工作流。 工作流可帮助您以不同方式显示数据。 您可以在列表、展示板或小版本的卡片上显示项目。 工作流中的信息卡也可以在多个展示板之间共享。 您可以在工作流中使用卡和展示板轻松促进工作流。
 
 有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)和 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 在发布我的分支之前，第二篇文章将无法在“主”中找到。
+
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## 将列表和报表中的任务和问题添加到工作流卡片列表
 

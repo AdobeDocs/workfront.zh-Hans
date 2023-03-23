@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中提供的迭代功能</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将任务和问题从对象详细信息添加到Workfront展示板或工作流</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>现在，您可以直接从对象详细信息将现有任务或问题添加到Workfront展示板或工作流卡列表。 您添加到展示板的任何项目都将成为连接的信息卡，而添加到工作流的任何项目都将作为计划外信息卡添加到信息卡列表中。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年3月23日<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本：在23.2版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中提供的迭代功能</a></p>
                         <p>Workfront展示板中提供的几项新增功能使您能够使用灵活的Scrum功能。 这些功能包括：
                         <ul>
                         <li>用于对与同一团队相关的展示板进行分组和协作的工作流</li>
@@ -138,7 +154,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将列表和报表中的任务和问题添加到工作流卡片列表</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将列表和报表中的任务和问题添加到工作流卡片列表</a></p>
                         <p>现在，您可以直接从列表或报表视图将现有任务或问题添加到Workfront展示板中的工作流。 您添加到工作流的任何项目都会作为计划外卡添加到卡列表中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -154,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">向展示板上的信息卡添加自定义字段</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">向展示板上的信息卡添加自定义字段</a></p>
                         <p>您现在可以在Adobe Workfront展示板中包含自定义字段。 必须已在Workfront中创建字段。 您无法在展示板中设计和创建新的自定义字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -484,7 +500,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验<span style="color: #ff0000;"> 预览中的新增功能！</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">针对问题测试版的新评论体验</a>
                         <p>目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在某些对象的“更新”部分中包含新界面、新增功能和改进的性能。 </p>
                         <p>这一新体验最终将统一整个Adobe Workfront及其他地区、整个Adobe Experience Cloud的评论。 </p>
                     </td>
