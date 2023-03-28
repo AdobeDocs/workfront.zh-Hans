@@ -4,9 +4,9 @@ description: 23.2其他增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 本页介绍23.2版本到“预览”环境的所有其他增强功能。 23.2版本的生产环境中将提供这些增强功能。
 
 有关23.2发行周期中此刻可用的所有更改的列表，请参阅 [23.2版本概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 新增了Workfront for Creative Cloud插件
+
+我们在Workfront中为Creative Cloud插件添加了以下更改：
+
+* 现在，当任务具有前置任务时，插件会通知您
+* 韩语现在是一种受支持的语言
 
 ## 针对问题测试版的新评论体验
 

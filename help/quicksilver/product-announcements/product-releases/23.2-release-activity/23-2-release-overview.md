@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新增了Workfront for Creative Cloud插件</a>
+                        <p>我们在Workfront中为Creative Cloud插件添加了以下更改：
+                        <ul>
+                        <li>现在，当任务具有前置任务时，插件会通知您</li>
+                        <li>韩语现在是一种受支持的语言</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">生产版本：2023年3月23日 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

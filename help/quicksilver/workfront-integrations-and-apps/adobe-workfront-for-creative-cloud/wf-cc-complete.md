@@ -6,9 +6,9 @@ description: 您可以停留在Adobe Creative Cloud应用程序中，并在Adobe
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ ht-degree: 0%
 
 1. 从 **[!UICONTROL 工作列表]**，选择要标记为完成的任务或问题。
 1. 单击 **[!UICONTROL 完成]**.\
-   这将在Workfront中标记项目结束。\
-   ![](assets/complete-work-350x529.png)
+   这将在Workfront中标记项目结束。
+
+   >[!NOTE]
+   >
+   >如果工作项具有前置项，则在前置项被标记为完成之前，“完成”按钮将显示为灰色。 查看的前置任务 [!DNL Workfront]，单击任务名称。
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
