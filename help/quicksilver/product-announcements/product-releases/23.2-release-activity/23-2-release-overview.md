@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.2版本概述
 
-本页介绍了计划于2023年4月发布的23.2版中包含的功能信息。
+本页介绍了计划于2023年4月3日这一周发布的23.2版本中包含的功能。
 
 在“预览”环境中，提供了此页面上的增强功能。 当23.2版本接近其计划的生产版本时，本页面将进行更新，并提供其他增强功能。
 
