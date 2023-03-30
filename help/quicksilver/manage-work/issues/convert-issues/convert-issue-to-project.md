@@ -6,9 +6,9 @@ description: 在Adobe Workfront中将问题转换为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以将问题转换为新项目，也可以使用模板将其转换为项目。 本文介绍了将问题转换为项目的两种方式。
 
 有关转换问题的一般信息，请参阅 [转换Adobe Workfront中的问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+从问题创建项目时，项目上的某些字段会从其他对象填充。 有关更多信息，请参阅文章中的“新建项目默认设置”部分 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
 
 ## 访问要求
 
@@ -80,7 +82,7 @@ ht-degree: 0%
       >[!TIP]
       >   
       >* 如果问题是使用请求队列创建的，则新项目会继承请求队列的组。
-      >* 如果问题是通过将其添加到项目的“问题”部分来创建的，则新项目会继承该组（如果问题的项目）。
+      >* 如果问题是通过将其添加到项目的“问题”部分来创建的，则新项目会继承问题项目的组。
 
 
    * 要使用模板将问题转换为项目，请执行以下操作之一：

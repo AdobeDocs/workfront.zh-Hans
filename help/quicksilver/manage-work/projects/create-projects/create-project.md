@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 创建项目
-description: (注意：这是从UI中的Projects全局导航部分链接到的，位于经典中。 请勿更改/删除)
+description: 项目是Adobe Workfront的一大项工作。 您可以从头开始创建项目、使用模板，或通过将问题或任务转换为项目来创建项目。
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -127,13 +127,21 @@ ht-degree: 1%
 * Workfront在应用由Workfront管理员设置的设置之前，会应用组的设置（如果存在）。
 * 如果您使用模板创建项目，则模板中的设置优先于Workfront或组管理员建立的设置。
 
->[!NOTE]
->
->我们建议新项目的默认状态为“计划”。 在对新项目进行更改时，这可确保通知不会触发给分配给项目的用户。
+   >[!NOTE]
+   >
+   >我们建议新项目的默认状态为“计划”。 在对新项目进行更改时，这可确保通知不会触发给分配给项目的用户。
+   >
+   >有关为新项目设置默认状态和其他默认设置的更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [为组配置项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-有关为新项目设置默认状态和其他默认设置的更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront将新项目的组和状态定义如下：
 
+   * 从模板创建的新项目的默认状态与Workfront管理员在主项目首选项区域或组管理员(或Workfront管理员)在组的项目首选项区域定义的状态相对应。
 
+   * 新项目的组是模板的组。 如果模板未与组关联，则项目的组是创建项目的用户的主组。
+
+   * 新项目的可用状态与项目组的状态匹配，该组是模板组或创建项目的用户的主组。
+
+   * 通过将问题转换为项目而创建的新项目组是问题的现有项目组。 如果转换问题的用户无权访问问题的项目，则新项目的组是转换问题的用户的主组。 新项目的状态与与项目关联的组的组状态匹配，该组是原始项目的组或转换问题的用户的主组。
 
 ## 从头开始创建项目
 

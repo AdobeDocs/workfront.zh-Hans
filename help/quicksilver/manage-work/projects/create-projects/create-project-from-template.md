@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 使用模板创建项目
-description: 您可以将模板用作创建新项目的框架。 如果您的项目经常重复，则对新项目的一般时间轴使用模板可使您不必重复构建相同的项目。
+description: 您可以将模板用作创建项目的框架。 如果您的项目经常重复，则对新项目的一般时间轴使用模板可使您不必重复构建相同的项目。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
+source-wordcount: '1104'
+ht-degree: 0%
 
 ---
 
 # 使用模板创建项目
 
-您可以将模板用作创建新项目的框架。 如果您的项目经常重复，则对新项目的一般时间轴使用模板可使您不必重复构建相同的项目。
+您可以将模板用作创建项目的框架。 如果您的项目经常重复，则对新项目的一般时间轴使用模板可使您不必重复构建相同的项目。
 
-通过模板，您可以捕获与项目关联的所有可重复流程、信息和设置。 与模板关联的所有信息都会传输到项目。 这包括任务、分配、持续时间、文档、财务详细信息、风险和自定义表单。
+模板为您提供了一种捕获与项目关联的可重复流程、信息和设置的方法。 与模板关联的信息被传输到项目。 这包括任务、分配、持续时间、文档、财务详细信息、风险和自定义表单。
 
 >[!TIP]
 >
->从模板创建的新项目的状态与您的Workfront管理员在主项目首选项区域或组管理员(或Workfront管理员)在组的项目首选项区域定义的状态相对应。 有关配置项目首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [为组配置项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront将新项目的组和状态定义如下：
+>
+>* 从模板创建的新项目的默认状态与Workfront管理员在主项目首选项区域或组管理员(或Workfront管理员)在组的项目首选项区域定义的状态相对应。 有关配置项目首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 或 [为组配置项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* 新项目的组是模板的组。 如果模板未与组关联，则项目的组是创建项目的用户的主组。
+>
+>* 新项目的可用状态与项目组的状态匹配，该组是模板组或创建项目的用户的主组。
+
 
 您可以使用以下选项从模板创建项目：
 
@@ -88,7 +95,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看模板的权限</p> <p>在创建项目时，您会自动收到该项目的管理权限 </p> <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看模板的权限</p> <p>在创建项目时，您会自动收到该项目的“管理”权限 </p> <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
