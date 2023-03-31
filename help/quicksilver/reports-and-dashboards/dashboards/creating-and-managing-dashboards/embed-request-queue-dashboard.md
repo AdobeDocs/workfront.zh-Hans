@@ -6,9 +6,9 @@ description: 您可以在功能板中嵌入新请求队列，以便向用户提�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-必须先创建以下两项，然后才能将请求队列嵌入功能板：
+必须先创建以下两项，然后才能在功能板中嵌入请求队列：
 
 * **功能板**:有关创建功能板的信息，请参阅 [创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 * **请求队列**:有关创建请求队列的信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -97,11 +97,9 @@ ht-degree: 1%
 
    该代码应类似于以下内容：
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   这是与选定项目关联的请求队列的链接。已预选请求类型。
+   这是指与选定项目关联的请求队列的链接。 预选请求类型。
 
    用户可以选择所需的任何主题组或队列主题，也可以选择其他请求类型。
 
@@ -120,19 +118,15 @@ ht-degree: 1%
 
    该代码应类似于以下内容：
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. 编辑代码以仅保留以下信息：
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >您可以保留 `<samp>iframe </samp>` 标记时。
+   >您可以添加 `<samp>iframe </samp>` 标记时。
 
    这是指与选定项目关联的请求队列的链接。 请求类型已预选，无法更改。
 
