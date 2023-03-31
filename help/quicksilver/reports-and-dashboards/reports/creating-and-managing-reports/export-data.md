@@ -6,9 +6,9 @@ description: 导出数据的一些原因是 — 编辑我。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    >[!IMPORTANT]
    >
-   >导出在列中包含集合引用的报表时，可能会导致错误，即使该报表在其他情况下位于所列的导出限制范围内也是如此。 如果引用的集合太大，则导出过程会超时，并随后导致错误。
+   >导出在列中包含集合引用的报表时，可能会导致错误，即使该报表在其他情况下位于所列的导出限制范围内也是如此。 如果引用的集合太大，则导出过程会超时，随后会导致错误。
    >
    >要避免出现此错误，请在导出之前排除引用较大集合的列，或减小引用的集合的大小。
 
