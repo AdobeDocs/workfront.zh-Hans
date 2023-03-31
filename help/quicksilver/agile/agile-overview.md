@@ -7,9 +7,9 @@ description: Agile是一种工作方法，它允许团队以一致的频率完�
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -43,3 +43,7 @@ Agile是一种工作方法，它允许团队以一致的频率完成少量可管
 1. 将项目中的任务添加到团队的积压工作或文章展示板。
 
    有关信息，请参阅 [管理敏捷积压](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [将现有任务或问题添加到 [!UICONTROL 看板] 展示板](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)和 [将文章添加到现有小版本](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## 在项目中使用敏捷
+
+您可以利用项目的灵活功能，而无需遇到通常伴随灵活实践的管理难题（例如管理团队积压、创建迭代等）。 有关更多信息，请参阅 [在敏捷视图中管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
