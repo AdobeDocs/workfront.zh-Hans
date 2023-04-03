@@ -6,9 +6,9 @@ description: 您可以通过调整浏览器上的语言首选项和Workfront中�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Workfront术语会随每次Workfront更新一起更新，以了解支持的语�
 
 Workfront支持以下语言：
 
-* 简体中文(zh-CN)
-* 繁体中文(zh-TW)
 * 英语（美语）
 * 法语(fr-FR)
 * 德语（去德）
-* 意大利语(it_IT)
 * 日语(ja)
+* 西班牙语(es)
+* 意大利语(it_IT)
 * 葡萄牙语(pt-BR)
-* 西班牙语 — 拉丁美洲
+* 朝鲜语(ko)
+* 简体中文(zh-CN)
+* 繁体中文(zh-TW)
 
 浏览器中用于查看Workfront的语言由浏览器语言设置控制。 确保为浏览器选择一种语言，该语言列在支持的语言列表中。
 
