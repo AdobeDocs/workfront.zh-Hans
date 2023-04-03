@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -151,17 +151,12 @@ ht-degree: 0%
    >
    >   <span class="preview">只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。</span>
 
-   <!-- <div class="preview">
-   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+   1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击以下任意选项以将信息从注释复制到剪贴板：
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
-      * **Copy body text** to copy the text of an update. 
+      * **复制链接** ，以复制更新的链接，而不提供回复。
+      * **复制正文文本** 以复制更新的文本。
 
-         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
+         有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. 单击 **提交**.
 
@@ -174,6 +169,7 @@ ht-degree: 0%
    >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">（可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。 </span>
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-9。 <!--insure this stays accurate-->
 1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
 1. （可选）要向更新添加富文本格式，请在键入内容时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

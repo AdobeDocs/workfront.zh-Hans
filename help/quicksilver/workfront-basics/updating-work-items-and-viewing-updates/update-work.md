@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ drafted for P&P release:
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 中。
-1. 单击 **试用评论测试版** 按钮，然后单击 **同意** 测试版协议。 这会将“更新”区域切换为注释测试版体验。
+1. 启用 **评论测试版** 在“更新”区域的右上角切换，然后单击 **同意** 测试版协议。 这会将“更新”区域切换为注释测试版体验。
 的 **评论** 选项卡。
 1. 开始在 **新建注释** 框中。
 
@@ -224,7 +224,7 @@ drafted for P&P release:
 
 1. 单击 **提交** 将更新添加到Workfront对象。
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息，或删除任何已标记的用户。
+1. 编辑评论中的信息，或删除任何已标记的用户。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ drafted for P&P release:
 
 ## 复制更新信息
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->使用测试版注释体验时，无法复制更新。
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 您可以通过多种方式复制更新。 复制链接后，您可以与他人共享该链接，以将他们定向到更新。
 
@@ -348,7 +349,7 @@ drafted for P&P release:
 此选项会将整个线程链接复制到剪贴板，以便您可以与其他用户共享该线程。
 
 1. 转到要复制的更新线程。
-1. 单击 **更多** 菜单，然后单击 **复制线程链接**.
+1. 单击 **更多** 菜单，然后单击 **复制线程链接** <span class="preview">或 **复制链接** 使用测试版体验时</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ drafted for P&P release:
 此选项将特定更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会看到更新周围的边框。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制更新链接**.
+1. 单击 **更多** 菜单，然后单击 **复制更新链接** <span class="preview">或 **复制链接** 使用测试版体验时</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

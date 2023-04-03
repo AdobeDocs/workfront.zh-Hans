@@ -6,9 +6,9 @@ description: 当某人添加或回复工作对象的更新时，其回复将显�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,14 +109,11 @@ ht-degree: 0%
 
 1. 开始键入您的回复，然后使用富文本工具栏中的任何其他选项。 有关使用富文本的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. 单击 **提交** 来保存回复。
 
+1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 更新旁边的，以了解用于管理回复的更多选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## 通过电子邮件通知回复更新
 
