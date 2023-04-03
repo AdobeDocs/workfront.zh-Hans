@@ -6,9 +6,9 @@ description: 您可以从Workfront商城安装Creative Cloud用Adobe插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -74,17 +74,11 @@ ht-degree: 1%
 
 安装 [!DNL Adobe Workfront for design and video] 插件：
 
-1. 打开 [!DNL Adobe Creative Cloud] 应用程序。
-1. 单击 **[!UICONTROL Marketplace]** 选项卡。
-1. 在 **[!UICONTROL 搜索所有插件]** 框，文字 *Workfront*，然后按 **[!UICONTROL 输入]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for design and video] 插件显示在搜索结果中，单击 **[!UICONTROL 获取]**.
+1. 转到 [Adobe Workfront for Design and Video安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) Adobe交换。
+1. 在出现的对话框中，单击 **打开 [!DNL Adobe Creative Cloud] 桌面应用程序**.
+1. 一次 [!DNL Adobe Creative Cloud] 插件管理器打开，单击 **[!UICONTROL 安装]**.
 1. 阅读对话框中的信息，然后单击 **[!UICONTROL 确定]**.
-1. 安装插件后，打开 [!DNL Creative Cloud] 您需要的应用程序，并在插件面板中找到Workfront插件。
-
-   <!-- new screen -->
+1. 安装插件后，打开 [!DNL Creative Cloud] 应用程序，然后在插件面板中找到Workfront插件。
 
 1. 有关如何打开插件的信息，请继续阅读以下章节。
 

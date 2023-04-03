@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装Adobe Workfront for XD插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,10 @@ ht-degree: 1%
 >如果您是 [!DNL Adobe Admin Console] 管理员，您可以在 [!DNL Creative Cloud] 部署包。 有关更多信息，请参阅 [在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. 打开 [!DNL Adobe Creative Cloud] 应用程序。
-1. 单击 **[!UICONTROL Marketplace]** 选项卡。
-1. 在 **[!UICONTROL 搜索所有插件]** 框，文字 *Workfront*，然后按 **[!UICONTROL 输入]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for XD] 插件显示在搜索结果中，单击 **[!UICONTROL 获取]**.
+1. 转到 [Adobe Workfront for XD安装页面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) Adobe交换。
+1. 在出现的对话框中，单击 **打开 [!DNL Adobe Creative Cloud] 桌面应用程序**.
+1. 一次 [!DNL Adobe XD] 插件管理器打开，单击 **[!UICONTROL 安装]**.
 1. 阅读对话框中的信息，然后单击 **[!UICONTROL 确定]**.
-
 1. 有关如何打开插件的信息，请继续阅读以下章节。
 
 ## 打开 [!DNL Adobe Workfront for XD] 插件

@@ -6,9 +6,9 @@ description: 您可以将您的画板作为文档上传，以便快速审核和�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 中。
 
 1. 单击 **[!UICONTROL 新建文件]** 在插件底部附近。
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
-1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
+1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
+1. 打开 **[!UICONTROL 设置导出文件设置]** 对话框，然后根据上面选择的资产类型配置任何所需的导出选项。
+
+   ![](assets/file-export-settings.png)
+1. 单击 **[!UICONTROL 上传]**.
 文档将显示在 [!UICONTROL 文档] 区域。
