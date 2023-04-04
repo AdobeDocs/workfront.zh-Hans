@@ -5,9 +5,9 @@ title: 统一的注释体验
 description: 新的统一评论体验将
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ ht-degree: 1%
 要启用新的注释体验测试版，请执行以下操作：
 
 1. 转到要激活其新注释体验的对象，然后单击 **更新** 中。
-1. 单击 **试用注释测试版** 位于“更新”区域的右下角。
+1. 启用 **评论测试版** 在“更新”区域的右上角切换。
 1. 单击 **同意** 测试版协议框中。 这为所选对象启用了新的注释体验。
 1. 开始在 **评论** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
 

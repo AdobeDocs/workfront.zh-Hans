@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ drafted for P&P release:
    >[!TIP]
    >
    >   只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
+
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤4-7。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （可选）单击 **赞** 图标![](assets/like-icon.png). 该图标会随称赞次数而更新。
 1. （视情况而定和可选）如果您在评论中包含其他人员，请单击更新中包含的成员数，以显示您输入的评论与之共享的实体列表。
@@ -349,7 +350,12 @@ drafted for P&P release:
 此选项会将整个线程链接复制到剪贴板，以便您可以与其他用户共享该线程。
 
 1. 转到要复制的更新线程。
-1. 单击 **更多** 菜单，然后单击 **复制线程链接** <span class="preview">或 **复制链接** 使用测试版体验时</span>.
+
+1. 单击 **更多** 菜单，然后单击 **复制线程链接**
+
+   或
+
+   <span class="preview">**复制链接** 使用测试版体验时</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ drafted for P&P release:
 此选项将特定更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会看到更新周围的边框。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制更新链接** <span class="preview">或 **复制链接** 使用测试版体验时</span>.
+1. 单击 **更多** 菜单，然后单击 **复制更新链接**
+
+   或
+
+   <span class="preview">**复制链接** 使用测试版体验时</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **确认** <span class="preview">或 **删除**</span>，位于评论测试版体验中。
+1. 在显示的消息中，单击 **确认**
+
+   或
+
+   <span class="preview"> **删除**，在评论测试版体验中</span>.
 
 >[!NOTE]
 >
