@@ -4,9 +4,9 @@ description: 在23.2版本时间范围内进行外观更新
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 2%
 本页介绍了在23.2版本时间范围内对Adobe Workfront应用程序各个区域的外观进行的细微更新。 在发布到“预览”后，生产环境中将至少在2周内提供这些增强功能。
 
 有关23.2版本中可用的所有更改的列表，请参阅 [23.2版本概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## “请求”区域中“草稿”列表的外观更新
+
+>[!NOTE]
+>
+>预览版本：2023年4月4日；计划生产版本：2023年4月18日
+
+我们更新了“请求”区域中的“草稿”列表，使其与Workfront中较新的列表一致。
+某些更新包括：
+
+* 将“按请求类型过滤”过滤器替换为标准快速过滤器
+* 当列表不包含任何请求时，从草稿列表中删除了图像
+* 向列表添加了分页和列排序。
+
+有关更多信息，请参阅 [从草稿创建请求](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## 智能用户选择可在Workfront的其他区域使用
 
