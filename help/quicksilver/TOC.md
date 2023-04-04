@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '12782'
+source-wordcount: '12799'
 ht-degree: 1%
 
 ---
@@ -175,6 +175,9 @@ ht-degree: 1%
          * [Workfront Scenario Planner 20.3版本 — 2020年8月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront Target发布活动 {#goals-release}
          * [Adobe Workfront Target发布活动](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+         * 23.1版本中的目标 {#goals-23-2}
+            * [Adobe Workfront Goals与23.2版本](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+            * [Adobe Workfront Goals 23.2发行活动：2023年3月20日一周](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * 23.1版本中的目标 {#goals-23-1}
             * [Adobe Workfront Goals与23.1版本](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1发行活动：2023年12月5日一周](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)

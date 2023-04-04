@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ ht-degree: 0%
 
 ### Workfront目标增强功能
 
-此时，版本中没有Workfront Target目标更新。 此区域将在更新可用时进行更新。
+23.2版本中Workfront Goals版本的新增功能。 有关预览中当前提供的这些新增功能的信息，请参阅 [Adobe Workfront Goals与23.2版本](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API版本15
 
