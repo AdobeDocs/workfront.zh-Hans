@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ ht-degree: 0%
 
 ## 最新版本
 
+### Alpha版本3 - 2023年3月
+
+在第3个Alpha版本中，我们引入了成功消息，这些消息在完成添加或删除批准者和审阅者等操作时显示，从而整合了您的反馈。 此外，此版本还增强了待批准的可见性，现在可以在“主页”和“我的更新”页面上查看待批准，使用户能够轻松地直接从这些页面批准文档。
+
+请查看以下完整视频演示：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _过去版本_
+
 ### Alpha版本2 - 2023年1月
 
 在此Alpha 2版本中，您可以添加个人和团队作为审阅人或批准人，并直接从文档详细信息页面做出批准决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _过去版本_
+观看 [视频演示](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha版本1 - 2022年11月
 
