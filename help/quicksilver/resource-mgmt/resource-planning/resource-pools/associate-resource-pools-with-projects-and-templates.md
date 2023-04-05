@@ -6,9 +6,9 @@ description: 资源池是用户的集合，可帮助您在Adobe Workfront中管�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Also - take out all the references to Preview and Prod at prod final
 
    >[!NOTE]
    >
-   >* 在生产环境中，批量编辑项目或模板时，此字段中只会显示所有选定项目或模板共有的资源池。 如果选定的项目没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖项目或模板的单个资源池。
+   >* 批量编辑模板时，此字段中只会显示所有选定模板共有的资源池。 如果选定的模板没有共享资源池，则此字段为空。 您在此处指定的资源池将覆盖项目或模板的单个资源池。
    >
-   >* <span class="preview">在“预览”环境中，批量编辑项目时，如果选定的项目具有不同的资源池，则会显示“多个值”指示器。 如果批量添加资源池，则所有池都将添加到选定项目，并覆盖原始资源池。</span>
+   >* 批量编辑项目时，如果选定的项目具有不同的资源池，则会显示“多个值”指示器。 如果为项目批量添加资源池，则所有池都将添加到选定项目，并覆盖原始资源池。</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

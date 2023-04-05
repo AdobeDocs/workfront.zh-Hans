@@ -6,16 +6,16 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # 编辑项目
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ ht-degree: 2%
 
 您可以批量编辑项目，并同时更新所有选定项目的信息。
 
+批量编辑项目时，请考虑以下事项：
 
-您正在更改的所有选定项目的信息将覆盖单个项目的现有信息，但“资源管理器”字段除外。
+* 您正在更改的所有选定项目的信息将覆盖单个项目的现有信息，但“资源管理器”字段除外。
 
-批量编辑项目时添加新的资源管理器会将该管理器添加到所有选定项目。 如果其他资源管理器与选定的项目相关联，则除了通过批量编辑添加的资源管理器之外，它们还会保留在项目中。
-
-批量编辑项目会因您选择在哪个环境中更新项目而有所不同。
-
-### 在生产环境中批量编辑项目
-
-要批量编辑项目，请执行以下操作：
-
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
-
-1. 单击 **项目**.
-1. 在列表中选择多个项目。
-1. 单击 **编辑**.
-
-   的 **编辑项目** 对话框。
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. 在以下部分中指定有关所有选定项目的信息：
-
-   * **概述**
-
-      有关信息，请参阅 [概述](#overview) 章节。
-
-   * **财务**
-
-      有关信息，请参阅 [金融](#finance) 章节。
-
-   * **项目组合**
-
-      有关信息，请参阅 [概述](#overview) 章节。
-
-   * **设置**
-
-      有关信息，请参阅 [项目设置](#project-settings) 章节。
-
-   * **访问权限**
-
-      有关信息，请参阅 [访问](#access) 章节。
-
-   * **自定义表单**
-
-      有关信息，请继续执行下面的步骤7。
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **任务**
-
-      有关信息，请参阅 [任务设置](#task-settings) 章节。
-
-   * **问题**
-
-      有关信息，请参阅   [问题设置](#issue-settings) 章节。
-
-   * **评论**
-
-      有关信息，请继续执行下面的步骤9。
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. （可选）在“设置”区域中，选择以下任意选项：
-
-   * **重新计算成本和收入**:选择此选项可重新计算选定所有项目的成本和收入。
-   * **重新计算时间轴**:选择此选项可重新计算所有选定项目的时间轴。
-   * **重新计算记分卡**:选择此选项可重新计算所有选定项目的记分卡值。
-
-   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. 单击 **自定义Forms** 编辑附加到所有选定项目的自定义表单。
-
-   如果所选项目没有任何常用的自定义表单，则此部分中不会列出任何表单。
-
-   您只能编辑表单上附加到所有选定项目且您有权编辑的字段。
-
-1. （可选）在自定义Forms部分中，选择 **重新计算自定义表达式** 选项，以确保附加到选定项目的自定义Forms中的所有计算量度自定义字段都是最新的。
-
-   >[!IMPORTANT]
-   >
-   >我们建议在您重新计算自定义表达式时，不要一次选择500个以上的项目。
-
-1. （可选）单击 **注释**，然后选择向每个项目框发布更新，并在可用字段中指定要在项目更新流中显示的评论，并执行以下操作之一：
-
-   * 单击 **人员** 图标 ![](assets/people-icon-updates-classic.png) 以标记将收到您评论通知的用户。
-   * 单击 **锁** 图标 ![](assets/lock-icon-open-updates-classic.png) 将您的评论限制为仅供公司内人员使用。
-
-   此注释对具有项目查看权限和有权查看注释的每个人可见。
-
-1. 单击 **保存更改**.
-
-   现在，您所做的所有更改在所有选定项目上均可见。
-
-<div class="preview">
-
-### 在预览环境中以批量方式编辑项目
-
-在“预览”环境中批量编辑项目时，请考虑以下事项：
+   批量编辑项目时添加新的资源管理器会将该管理器添加到所有选定项目。 如果其他资源管理器与选定的项目相关联，则除了通过批量编辑添加的资源管理器之外，它们还会保留在项目中。
 
 * 当您为同一字段选择具有不同值的项目时，该字段会在“编辑项目”框中显示一个“多个值”指示器。 复选框、单选按钮和切换字段旁边有一个“多个值”指示器。
 
@@ -826,7 +727,7 @@ ht-degree: 2%
 
 * 当您选择属于不同组的多个项目时，“状态”字段中显示的状态是系统级别状态，而不是组级别状态。
 
-要在预览环境中编辑项目，请执行以下操作：
+要批量编辑项目，请执行以下操作：
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
 1. 单击 **项目**.
@@ -865,7 +766,7 @@ ht-degree: 2%
 
 1. 单击以在 **添加自定义表单** 或 **Forms添加** 子区域。
 
-   如果自定义表单已附加到某些选定项目，则在添加表单时，表单名称旁会显示一个指示，指示有多少项目已选择表单。
+   当自定义表单已附加到某些选定项目时，表单名称旁会显示一个指示，指示在添加表单时，有多少项目已附加表单。
 
 1. （可选）单击 **x** 图标，然后单击 **删除** ，以将其从所有选定项目中删除。
 
@@ -892,5 +793,100 @@ ht-degree: 2%
 1. （可选）单击 **取消** 在 **编辑项目** 页面，以删除对所有项目所做的所有更改。
 1. 单击&#x200B;**保存**。
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->

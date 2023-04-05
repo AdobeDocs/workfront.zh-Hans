@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新设计：
-> * <span class="preview">在启用注释测试版时出现问题。 </span>
+> * 在启用注释测试版时出现问题。
    >
-   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
+   >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
    >
-   >     * <span class="preview">主页</span>
-   >     * <span class="preview">列表中的“摘要”面板</span>
-   >     * <span class="preview">工时单中的“摘要”面板</span>
+   >     * 主页
+   >     * 列表中的“摘要”面板
+   >     * 工时单中的“摘要”面板
 >
 > * 目标
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ drafted for P&P release:
 
 1. 要回复更新，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### 使用注释测试版体验向工作项添加更新
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
@@ -224,7 +223,7 @@ drafted for P&P release:
 
 1. 单击 **提交** 将更新添加到Workfront对象。
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息，或删除任何已标记的用户。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. 编辑评论中的信息 <!--or remove any of the tagged users-->.
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ drafted for P&P release:
    >
    >您无法向系统更新添加注释。
 
-</div>
 
 ## 在Workfront更新中使用富文本
 
@@ -318,7 +316,7 @@ drafted for P&P release:
    >* 图像只能从对象的“更新”(Updates)选项卡访问，而无法在“文档”(Documents)选项卡中使用。
    >* 您可以发送包含图像的更新，而不发送任何文本。
 
-1. 单击 **更新**  <span class="preview">或 **提交**</span>，位于评论测试版体验中。
+1. 单击 **更新**  或 **提交**，使用评论测试版体验时。
 
 
 ## 复制更新信息
@@ -351,11 +349,7 @@ drafted for P&P release:
 
 1. 转到要复制的更新线程。
 
-1. 单击 **更多** 菜单，然后单击 **复制线程链接**
-
-   或
-
-   <span class="preview">**复制链接** 使用测试版体验时</span>.
+1. 单击 **更多** 菜单，然后单击 **复制线程链接** 或 **复制链接**，使用测试版体验时。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ drafted for P&P release:
 此选项将特定更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会看到更新周围的边框。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制更新链接**
-
-   或
-
-   <span class="preview">**复制链接** 使用测试版体验时</span>.
+1. 单击 **更多** 菜单，然后单击 **复制更新链接** 或 **复制链接**，使用测试版体验时。
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **确认**
-
-   或
-
-   <span class="preview"> **删除**，在评论测试版体验中</span>.
+1. 在显示的消息中，单击 **确认** 或 **删除**，使用评论测试版体验时。
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ drafted for P&P release:
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">在使用测试版注释体验时，无法禁用系统更新。 </span>
-><span class="preview">此部分中的信息仅涉及当前更新部分中提供的功能。 </span>
-><span class="preview">有关测试版中系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>在使用测试版注释体验时，无法禁用系统更新。
+>此部分中的信息仅涉及当前更新部分中提供的功能。
+>有关测试版中系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront对象的“更新”部分显示两种类型的信息：

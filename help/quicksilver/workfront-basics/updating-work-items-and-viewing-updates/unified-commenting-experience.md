@@ -5,9 +5,9 @@ title: 统一的注释体验
 description: 新的统一评论体验将
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 新的注释体验
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在选定对象的“更新”部分中包含新界面、新增功能和改进的性能。
 
@@ -91,7 +91,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">替换为编辑注释 </span>
+   <td>替换为编辑注释 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">此功能应在23.2中提供，并且已暂时延迟。</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023年二季度 
    </td>
@@ -318,7 +316,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ ht-degree: 1%
 
 ## 找到新的注释体验
 
-在以下版本中查看更新部分时，以下对象当前支持新的注释体验：
+在以下版本的Workfront中查看更新部分时，以下对象当前支持新的注释体验：
 
 * 在更新部分中启用测试版体验时：
 
-   <div class="preview">
-
-   * 问题.
+   * 问题
    有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * 默认情况下，作为主要的注释体验：
 
@@ -408,8 +403,6 @@ ht-degree: 1%
 
    有关管理目标更新的更多信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 要启用新的注释体验测试版，请执行以下操作：
 
@@ -423,5 +416,3 @@ ht-degree: 1%
    单击  **系统活动** 选项卡，以查看由Workfront生成的活动更新。
 
    有关在新注释体验中更新对象的更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

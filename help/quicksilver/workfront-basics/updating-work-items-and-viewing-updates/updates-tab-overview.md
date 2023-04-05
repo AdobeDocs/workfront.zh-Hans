@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对跟踪对象更改的对�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->我们当前正在重新设计对象的Updates部分。
->
+>我们当前正在重新设计在Adobe Workfront中的注释体验。
 >有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->您可以从以下对象和以下环境中访问新设计：
+>您可以访问以下对象的新设计：
+> * 在启用注释测试版时出现问题。
+   >
+   >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
+   >
+   >     * 主页
+   >     * 列表中的“摘要”面板
+   >     * 工时单中的“摘要”面板
 >
->* <span class="preview">为以下对象启用注释测试版体验时：</span>
-   >
-   >     * <span class="preview">问题</span>
-
-   >     
-   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
-   >
-   >     * <span class="preview">主页</span>
-   >     * <span class="preview">列表中的“摘要”面板</span>
-   >     * <span class="preview">工时单中的“摘要”面板</span>
->
->* 默认情况下，作为以下对象的当前注释体验：
-   >
-   >     * 目标
+> * 目标
 
    >
-   >     您必须拥有其他许可证才能访问Workfront Goals。 有关信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 对象的“更新”部分显示用户对跟踪对象更改的对象或系统更新所做的注释。
@@ -116,7 +111,7 @@ ht-degree: 4%
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">问题</span></li> 
+     <li>问题</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ ht-degree: 4%
 >
 >有关Adobe Workfront中对象层次结构的信息，请参阅 [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> 无法在新的评论测试版体验中回复系统更新。 有关更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> 无法在新的评论测试版体验中回复系统更新。 有关更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## “更新”部分的限制
 

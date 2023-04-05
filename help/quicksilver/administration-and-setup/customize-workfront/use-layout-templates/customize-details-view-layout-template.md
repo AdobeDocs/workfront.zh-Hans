@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义详细信息视图
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 作为Adobe Workfront管理员，您可以使用布局模板来确定当用户单击详细信息图标时显示的信息 ![](assets/project-details-icon.png) 查看任务、期刊、文档、项目或项目组合时，显示在左侧面板中。
 
@@ -38,9 +38,9 @@ or billing record
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">批量编辑项目（如编辑项目）时，“编辑对象”会显示屏幕</span>
+* 批量编辑对象时，“编辑对象”会显示屏幕。 目前，批量编辑项目时支持此功能。
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * 概要 ![](assets/summary-panel-icon.png) 任务和问题列表面板

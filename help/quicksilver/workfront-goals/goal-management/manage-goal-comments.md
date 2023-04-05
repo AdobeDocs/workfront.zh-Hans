@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 您可以向可以在Adobe Workfront目标中查看的所有目标添加评论。
 
@@ -140,16 +140,15 @@ ht-degree: 0%
    >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 草拟注释仅对输入这些注释的用户可见。
 
 1. （可选）在 **标记人员或团队** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
-1. <span class="preview">（可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 在“称赞”图标的右侧，单击 **编辑**. </span>
-1. <span class="preview">编辑评论中的信息，或删除任何已标记的用户。 </span>
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 在“称赞”图标的右侧，单击 **编辑**.
+1. 编辑评论中的信息&lt;<!--, or remove any of the tagged users-->.
+提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
-   <span class="preview">提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。</span>
+   > 只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
 
    1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击以下任意选项以将信息从注释复制到剪贴板：
 
@@ -169,7 +168,7 @@ ht-degree: 0%
    >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">（可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。 </span>
+1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-9。 <!--insure this stays accurate-->
 1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
 1. （可选）要向更新添加富文本格式，请在键入内容时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

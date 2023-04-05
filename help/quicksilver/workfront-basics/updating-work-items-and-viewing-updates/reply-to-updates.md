@@ -6,9 +6,9 @@ description: 当某人添加或回复工作对象的更新时，其回复将显�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >有关新更新体验的更多信息，请参阅 [新的注释体验](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新设计：
-> * <span class="preview">在启用注释测试版时出现问题。 </span>
+> * 在启用注释测试版时出现问题。
    >
-   >     <span class="preview">此功能仅适用于问题的“更新”部分，不适用于以下区域：</span>
+   >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
    >
-   >     * <span class="preview">主页</span>
-   >     * <span class="preview">列表中的“摘要”面板</span>
-   >     * <span class="preview">工时单中的“摘要”面板</span>
+   >     * 主页
+   >     * 列表中的“摘要”面板
+   >     * 工时单中的“摘要”面板
 >
 > * 目标
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ ht-degree: 0%
 1. （可选）使用格式、表情符号、包含链接或图像，如文章“在Workfront更新中使用富文本”一节中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 单击 **回复** 来保存回复。
 
-<div class="preview">
-
 ### 使用评论测试版体验时回复评论
 
 1. 转到要向其添加回复的对象。
@@ -113,7 +112,6 @@ ht-degree: 0%
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 更新旁边的，以了解用于管理回复的更多选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## 通过电子邮件通知回复更新
 
