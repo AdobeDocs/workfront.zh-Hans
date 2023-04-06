@@ -6,7 +6,7 @@ title: 使用卡片列表
 description: 您可以在工作流中创建卡列表，并将卡添加到小版本中。
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 使用卡片列表
-
-{{highlighted-preview-article-level}}
 
 您可以在工作流中创建卡列表，并将卡添加到小版本中。
 

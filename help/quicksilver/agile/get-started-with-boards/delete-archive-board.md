@@ -6,9 +6,9 @@ title: 删除或存档展示板
 description: 您可以删除或存档Workfront中的展示板。 删除展示板会从Workfront中永久删除它，而存档展示板会保留所有信息卡，并允许在以后恢复它。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 0%
 # 删除或存档展示板
 
 您可以在 [!DNL Workfront]. 删除展示板会将其从 [!DNL Workfront]，而存档展示板会保留所有信息卡，并允许在以后恢复信息卡。 这些选项适用于作为工作流一部分的独立主板和主板。
-
->[!NOTE]
->
->以前版本的工作流（称为收藏集）只能通过选择加入的早期功能 [!UICONTROL [!DNL Workfront] 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
->工作流可供预览环境中的每个人使用。
 
 ## 访问要求
 

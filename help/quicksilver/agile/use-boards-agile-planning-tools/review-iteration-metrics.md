@@ -6,18 +6,16 @@ title: 查看迭代量度
 description: 可在迭代流程板上为工作流中的每个迭代提供量度。
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # 查看迭代量度
 
-{{highlighted-preview-article-level}}
-
-可在迭代流程板上为工作流中的每个迭代提供量度。
+在工作流、迭代流程板和功能板上，可以针对每个小版本使用量度。
 
 ## 访问要求
 

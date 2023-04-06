@@ -6,24 +6,18 @@ title: 管理工作流
 description: 工作流是一组可配置的展示板和卡片，用于协作处理工作。
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 2%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
 # 管理工作流
 
-{{highlighted-preview}}
+工作流是一组可配置的展示板和卡片，用于协作处理工作。 工作流可以包括根据模板创建的不同类型的展示板以及工作项的卡片列表。 在工作流中，您可以跟踪小版本或短划分中的工作。
 
->[!NOTE]
->
->工作流在预览环境中可用，在生产中可通过选择加入的早期功能获得 [!UICONTROL [!DNL Workfront] 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-工作流是一组可配置的展示板和卡片，用于协作处理工作。 工作流可以包括从模板创建的不同类型的展示板， <span class="preview">和工作品的卡片列表。 在工作流中，您可以跟踪小版本或短划分中的工作。</span>
-
-<span class="preview">有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 工作流会与您有权访问的各个展示板一起显示在功能板上，这些展示板不属于工作流的一部分。 有关展示板仪表板的信息，请参阅 [使用展示板仪表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以单击功能板上的任何展示板名称以将其打开。
 
@@ -68,7 +62,7 @@ ht-degree: 2%
 | 基本展示板 | 展示板上提供了三个默认列。 您可以添加新列，并重命名或删除默认列。 <p>未应用列策略。 |
 | Kanban 展示板 | 展示板上提供了以下列：积压、新增、进行中、完成和暂挂。 您可以添加新列，并重命名或删除默认列。<p>要使用积压工作，必须为进气列设置过滤器。 有关信息，请参阅 [向展示板添加进气柱](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的默认策略，请单击 [!UICONTROL **更多** 菜单] 在列中，然后选择 [!UICONTROL **编辑**]. 您可以更改其中任何预设策略。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | 回顾展示板 | 展示板上提供了以下列：什么进展顺利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 您可以添加新列，并重命名或删除默认列。 <p>未应用列策略。 |
-| <span class="preview">迭代过程</span> | <span class="preview">这是用于定义和运行迭代的展示板。 <p>展示板上提供了以下列：积压、新增、进行中、完成和暂挂。 不能向展示板添加任何列。 <p>要查看每列的默认策略，请单击 [!UICONTROL **更多**] 菜单，然后选择 [!UICONTROL **编辑**]. 您可以更改其中任何预设策略。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| 迭代过程 | 这是用于定义和运行迭代的展示板。 <p>展示板上提供了以下列：积压、新增、进行中、完成和暂挂。 不能向展示板添加任何列。 <p>要查看每列的默认策略，请单击 [!UICONTROL **更多**] 菜单，然后选择 [!UICONTROL **编辑**]. 您可以更改其中任何预设策略。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 有关设置展示板的更多信息，请参阅 [创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ ht-degree: 2%
 
    这与向展示板添加成员的过程相同。 有关更多信息，请参阅 [在展示板中添加或删除成员](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## 配置工作流
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ ht-degree: 2%
 
    为工作流源添加过滤器与为基本板或看板板上的进纸列添加过滤器相同。 有关更多信息，请参阅 [向展示板添加进气柱](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>
