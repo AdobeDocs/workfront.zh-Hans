@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 使用布局模板自定义固定的页面
-
-{{highlighted-preview}}
 
 在布局模板中，您可以将您希望用户始终可用的页面固定到Adobe Workfront顶部。 这些页面可通过主菜单访问 ![](assets/main-menu-icon.png) 或功能板。
 
@@ -70,9 +68,9 @@ ht-degree: 0%
 
 1. 重复上一步骤以固定任何其他页面。
 
-1. <span class="preview"> （可选）要重命名销，请将鼠标悬停在销上，单击销名称旁的箭头，然后选择 **重命名管脚**. 键入新的针脚名称，然后单击复选标记图标或按Enter键。</span>
+1. （可选）要重命名销，请将鼠标悬停在销上，单击销名称旁的箭头，然后选择 **重命名管脚**. 键入新的针脚名称，然后单击复选标记图标或按Enter键。
 
-   <span class="preview"> 在单击复选标记或按Enter键后，将显示一个小弹出窗口，几秒钟后，该窗口将允许您在保存前撤消销钉名称更改。</span>
+   在单击复选标记或按Enter键后，将显示一个小弹出窗口，几秒钟后，该窗口将允许您在保存前撤消销钉名称更改。
 
 1. 继续自定义布局模板。
 
