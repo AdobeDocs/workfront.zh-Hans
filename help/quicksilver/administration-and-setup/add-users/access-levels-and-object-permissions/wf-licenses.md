@@ -1,35 +1,35 @@
 ---
-title: Adobe Workfront许可证概述
+title: 旧版许可证概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 许可证，类型
 navigation-topic: access-levels
 description: 贵组织在收购Adobe Workfront时购买了一定数量的许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要向每个用户分配四种类型的付费Workfront许可证之一。
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '361'
 ht-degree: 2%
 
 ---
 
-# Adobe Workfront许可证概述
+# 旧版许可证概述
 
-贵组织在收购Adobe Workfront时购买了一定数量的许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要向每个用户分配四种类型的付费Workfront许可证之一。
+贵组织在收购Adobe Workfront时购买了一定数量的旧版许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要向每个用户分配四种类型的付费Workfront旧版许可证之一。
 
-## Workfront许可证和访问级别如何绑定在一起
+## 旧版许可证和旧版访问级别如何绑定在一起
 
-这4种类型的付费Workfront许可证允许不同级别的访问Workfront。 每个访问级别都附加到其中一个许可证。
+4种类型的付费Workfront旧版许可证允许不同级别的访问Workfront。 每个旧版访问级别都附加到这些旧版许可证之一。
 
-作为Workfront管理员，您无需为用户分配许可证，而是为用户分配附加到该许可证的访问权限级别。
+作为Workfront管理员，您无需为用户分配旧版许可证，而是为他们分配附加到该旧版许可证的旧版访问级别。
 
 此表和图表显示了对Workfront的主要访问级别：
 
-| 许可证 | 关联的访问级别 |
+| 旧版许可证 | 关联的旧版访问级别 |
 |--- |--- |
 | 计划 | 计划员系统管理员 |
 | 工作 | 员工 |
@@ -38,9 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->外部许可证不是付费许可证。 它主要用于与不使用Workfront的协作者共享文档。 有关更多信息，请参阅 [Adobe Workfront中的内置访问级别](default-access-levels-in-workfront.md).
-
-![](assets/licenses-and-access-levels.png)
+>外部许可证不是付费许可证。 它主要用于与不使用Workfront的协作者共享文档。 有关更多信息，请参阅 [Adobe Workfront中的内置访问级别](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## 许可证如何定义访问级别
 

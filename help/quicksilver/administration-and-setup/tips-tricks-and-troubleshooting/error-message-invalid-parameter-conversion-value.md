@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '337'
 ht-degree: 1%
 
 ---
@@ -27,18 +27,18 @@ ht-degree: 1%
 
 此消息在以下情景中发生：
 
-例如，您有一个自定义字段，其格式为“文本”。  现在，您要将自定义字段的格式更改为货币。 在你的 [!DNL Adobe Workfront] 实例中，此字段已附加到对象，并且其中已指定信息。 至少一个此类字段中的现有信息已格式化为文本。 因此，不能将字段的格式更改为货币。
+例如，您有一个自定义字段，其格式为“文本”。  现在，您要将自定义字段的格式更改为货币。 在您的Adobe Workfront实例中的某个位置，此字段已附加到对象，并且其中已指定信息。 至少一个此类字段中的现有信息已格式化为文本。 因此，不能将字段的格式更改为货币。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront] 计划</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a>*</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] 许可证概述</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">旧版许可证概述</a>*</p> </td> 
    <td>计划</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,7 +47,7 @@ ht-degree: 1%
     <ul> 
      <li> <p>创建报表、功能板和日历</p> </li> 
      <li> <p>创建过滤器、视图和分组</p> </li> 
-    </ul> <p><b>注意</b>:如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+    </ul> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

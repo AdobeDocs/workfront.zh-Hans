@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 访问，模型，漏斗，图，级别，权限
 navigation-topic: access-levels
-title: 可用于每种对象类型的功能
+title: 可用于各种旧版访问级别的每个对象类型的功能
 description: 下表列出了各种访问级别中每种对象类型可用的功能。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1446'
 ht-degree: 11%
 
 ---
 
-# 可用于每种对象类型的功能
+# 可用于各种旧版访问级别的每个对象类型的功能
 
 下表列出了各种访问级别中每种对象类型可用的功能。
 

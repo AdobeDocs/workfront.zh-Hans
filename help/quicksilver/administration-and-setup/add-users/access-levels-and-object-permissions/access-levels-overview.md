@@ -1,23 +1,23 @@
 ---
-title: 访问级别概述
+title: 旧版访问级别概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 访问，级别，系统，管理员，计划员，工作人员，审核者，请求者，外部，用户
 navigation-topic: access-levels
 description: 每个用户必须具有访问级别，才能登录并在Workfront中工作。 您可以使用访问级别控制用户可以查看和处理某些Workfront对象和区域的内容。 6个内置访问级别中的每个级别都附加在Workfront的5个许可证（计划、工作、审查、请求和外部）中的一个许可证上。
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# 访问级别概述
+# 旧版访问级别概述
 
 作为Adobe Workfront管理员，您可以为用户分配访问级别，具体用途如下：
 
@@ -42,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>许可证</td> 
-   <td> <p>附加到访问级别的许可证决定了如何配置访问级别。</p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> <p><strong>笔尖</strong>:您可以通过查看用户列表或报表，查看为每个用户分配的访问级别和许可证。 有关说明，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出用户的访问级别和许可证</a>.</p> </td> 
+   <td> <p>附加到访问级别的许可证决定了如何配置访问级别。</p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">旧版许可证概述</a>.</p> <p><strong>笔尖</strong>:您可以通过查看用户列表或报表，查看为每个用户分配的访问级别和许可证。 有关说明，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出用户的访问级别和许可证</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>内置访问级别</td> 

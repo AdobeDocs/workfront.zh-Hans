@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 按许可证类型访问对象和区域
-description: 下表说明了每个Adobe Workfront许可证允许在Workfront中访问对象和区域的最高级别（“编辑”或“查看”）。
-author: Caroline
+title: 按许可证类型对对象和区域的旧版访问
+description: 下表说明了每个Adobe Workfront旧版许可证允许访问Workfront中的对象和区域的最高级别（“编辑”或“查看”）。
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '436'
 ht-degree: 19%
 
 ---
 
-# 按许可证类型访问对象和区域
+# 按许可证类型对对象和区域的旧版访问
 
-下表说明了每个Adobe Workfront许可证允许在Workfront中访问对象和区域的最高级别（“编辑”或“查看”）。
+下表告诉您，每个Adobe Workfront许可证都允许使用Workfront中的对象和区域，这是旧版访问（编辑或查看）的最高级别。
 
 * **查看**:用户可以查看和共享项目。
 * **编辑**:用户可以创建、编辑、删除和共享项目。
@@ -49,11 +49,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->具有审阅许可证或请求许可证的用户的共享功能有限。 有关更多信息，请参阅 [Adobe Workfront许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>具有审阅许可证或请求许可证的用户的共享功能有限。 有关更多信息，请参阅 [Adobe Workfront许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 或 [Adobe Workfront旧版许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >外部用户无法在Workfront中搜索项目。 他们可以查看专门与他们共享的文档和日历。 用户还可以查看与其共享项目的用户。
 
-您可以在以下文章中找到有关访问级别允许对每个对象和区域执行哪些操作的详细信息：
+您可以在以下文章中找到有关旧版访问级别允许对每个对象和区域执行哪些操作的详细信息：
 
 * [授予对项目的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

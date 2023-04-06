@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# 访问级别和权限如何协同工作
+# 旧版访问级别和权限如何协同工作
 
 Adobe Workfront管理员确定每个用户应具有的访问级别。 该访问级别定义用户可以查看和处理系统中的对象类型和区域。
 
@@ -31,11 +31,11 @@ Adobe Workfront管理员确定每个用户应具有的访问级别。 该访问�
 
 本文介绍了此组合的工作方式。
 
-## 访问级别
+## 旧版访问级别
 
 登录Workfront时，需要由Workfront管理员分配给每个用户的访问级别。
 
-默认访问级别为：
+默认的旧版访问级别为：
 
 * 系统管理员（附加到计划许可证）
 * 计划员（附加到计划许可证）

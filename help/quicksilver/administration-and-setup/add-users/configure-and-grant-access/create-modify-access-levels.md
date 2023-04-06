@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户，如 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。 在使用访问级别时，务必要了解它们如何与用户在彼此共享对象时授予的对象权限一起使用。 有关访问级别的更多信息，请参阅
 
-在使用访问级别时，务必要了解它们如何与用户在彼此共享对象时授予的对象权限一起使用。 有关更多信息，请参阅 [访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [旧版访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->我们强烈建议您保持内置访问级别不变，以便在设置用户后，您可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 （除了“系统管理员”和“外部用户”之外，您可以对每个访问级别执行此操作。）
+>我们强烈建议您保持内置访问级别不变，以便在设置用户后，您可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 除了系统管理员和外部用户之外，您可以对每个访问级别执行此操作。
 
 ## 访问要求
 
@@ -41,11 +42,13 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>当前计划：标准
+   <p>或</p>
+   <p>旧版计划：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="#" class="MCXref xref selected">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>键入访问级别的名称。 </p> <p>如果您刚刚复制了访问级别以创建新访问级别，则默认名称为访问级别名称（副本），其中访问级别名称是您复制的访问级别。</p> <p><strong>笔尖</strong>:我们建议您在副本名称中包含访问级别的原始名称。 例如，在ACME公司，计划员访问层的副本可以命名为ACME计划员。</p> </td> 
+      <td> <p>键入访问级别的名称。 </p> <p>如果您刚刚复制了访问级别以创建新访问级别，则默认名称为访问级别名称（副本），其中访问级别名称是您复制的访问级别。</p> <p><strong>笔尖</strong>:我们建议您在副本名称中包含访问级别的原始名称。 例如，在ACME公司，“标准”访问级别的副本可以命名为ACME Standard。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">描述 </td> 
@@ -77,12 +80,12 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">许可证类型</td> 
-      <td>确保此处选择的许可证与您创建或编辑的访问级别类型最为相关。 所选许可证决定哪些设置可用于访问级别。 有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</td> 
+      <td>确保此处选择的许可证与您创建或编辑的访问级别类型最为相关。 所选许可证决定哪些设置可用于访问级别。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">旧版许可证概述</a> 或 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront旧版许可证概述</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （视情况而定）如果 **计划** 的 **许可证类型** 框中，滚动到部分 **允许对** 并为将具有此访问权限级别的用户选择管理访问权限。
+1. （视情况而定）如果 **标准** 或 **计划** 的 **许可证类型** 框中，滚动到部分 **允许对** 并为将具有此访问权限级别的用户选择管理访问权限。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ ht-degree: 6%
         <li>添加新作业角色</li> 
         <li>编辑角色开单和成本费率</li> 
        </ul> 
-       <p>有关对具有管理权限的计划员用户有权访问任务角色的财务数据的访问权限的重要信息，请参阅 <a href="#planner-users-with-administrative-access-to-job-roles">具有作业角色管理访问权限的计划员用户</a>.</p>
+       <p>有关对具有任务角色管理访问权限的标准或计划员用户可用的财务数据的访问权限的重要信息，请参阅 <a href="#planner-users-with-administrative-access-to-job-roles">具有任务角色管理访问权限的标准或计划员用户</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">时间表和小时数</td> 
-      <td> <p>组管理员可以将工时单配置文件分配给他们管理的组和子组中的用户。</p> <p>如果未启用此选项，组管理员将无法将工时单配置文件分配给其管理的组和子组中的其他用户，但他们可以创建工时单配置文件。</p> <p>拥有计划许可证的所有其他用户都可以在Workfront中查看所有小时和工时单。</p> <p>如果未启用此选项，则用户只能在以下时间查看小时：</p> 
+      <td> <p>组管理员可以将工时单配置文件分配给他们管理的组和子组中的用户。</p> <p>如果未启用此选项，组管理员将无法将工时单配置文件分配给其管理的组和子组中的其他用户，但他们可以创建工时单配置文件。</p> <p>拥有标准或计划许可证的所有其他用户都可以在Workfront中查看所有工时和工时单。</p> <p>如果未启用此选项，则用户只能在以下时间查看小时：</p> 
        <ul> 
         <li>他们管理的项目、任务或问题</li> 
         <li>他们自己的时间表</li> 
@@ -203,9 +206,9 @@ ht-degree: 6%
 
    有关Adobe管理员如何为用户分配系统管理员访问级别的信息，请参阅 [授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## 具有作业角色管理访问权限的计划员用户 {#planner-users}
+## 具有任务角色管理访问权限的标准或计划员用户 {#planner-users}
 
-如果您授予计划员用户对任务职责的管理访问权限，系统将自动为用户启用“编辑职责开单和成本费率”设置。
+如果您授予标准或计划员用户对任务职责的管理访问权限，则系统将自动为用户启用“编辑职责开单和成本费率”设置。
 
 之后，如果您禁用对用户作业角色的管理访问，则用户仍可看到作业角色，因为“编辑角色帐单和成本费率”设置仍处于启用状态。
 

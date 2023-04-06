@@ -6,9 +6,9 @@ description: 您可以在支持“文档”的任何对象上请求文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您拥有 [Adobe Workfront许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 启用后，您可以向任何电子邮件地址发送请求。 中有一个设置 [配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 这可确定这些外部电子邮件用户在与Workfront交互之前是否需要创建密码。 
+   >如果您拥有 [旧版许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 启用后，您可以向任何电子邮件地址发送请求。 中有一个设置 [配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 这可确定这些外部电子邮件用户在与Workfront交互之前是否需要创建密码。 
 
 1. 描述您请求文档的原因。
 1. 单击 **发送请求**.

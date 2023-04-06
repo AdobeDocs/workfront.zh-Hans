@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 6e711f208d14bb8d1d4b57733a2327b46fa7969b
+source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
 workflow-type: tm+mt
-source-wordcount: '12804'
+source-wordcount: '12860'
 ht-degree: 1%
 
 ---
@@ -412,15 +412,21 @@ ht-degree: 1%
          * [查看用户登录信息](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * 访问级别的工作方式 {#access-levels}
-         * [访问级别的工作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [访问级别概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [许可证概述](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [访问级别和权限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [按许可证类型访问对象](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [访问级别的工作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [访问级别概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [许可证概述](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [按许可证类型访问对象和区域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [可用于每种对象类型的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * 旧版访问级别的工作原理 {#legacy-access-levels}
+         * [如何访问旧版级别](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [旧版访问级别概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [旧版许可证概述](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [旧版访问级别和权限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [按许可证类型对对象的旧版访问](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [每种对象类型的功能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [每个对象类型的可配置访问](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [内置访问级别](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [列出用户的访问级别和许可证](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [可为每个对象类型配置的旧版访问权限](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [内置的旧版访问级别](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [列出用户的旧版访问级别和许可证](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * 配置对Workfront的访问权限 {#configure-access}
          * [配置访问权限](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [创建或修改自定义访问级别](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1803,6 +1809,9 @@ ht-degree: 1%
          * [批量编辑校样权限配置文件字段](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [禁用通过公共URL或嵌入代码共享校样](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [常见问题解答：Adobe Workfront内部的校对 — 美国到EMEA的迁移](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+   * 有关批准的提示、技巧和疑难解答 {#ttt-approvals}
+      * [有关批准的提示、技巧和疑难解答](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [查看所有用户的决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 时间表 {#timesheets}
    * [时间表](timesheets/timesheets-all.md)
    * 时间表详细信息 {#details}

@@ -5,12 +5,10 @@ title: 面向非付费用户的有限文档和验证决策概述 
 description: 对于所有未付费的Workfront许可证，证明和文档决策是有限的。 每月根据每位用户重置限制。
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
@@ -74,13 +72,13 @@ ht-degree: 8%
 
 ## 参与者用户
 
-拥有参与者许可证的用户达到其决策限制后，他们将通过无限制的校样和文档决策自动升级到Light许可证。 <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+拥有参与者许可证的用户达到其决策限制后，他们将通过无限制的校样和文档决策自动升级到Light许可证。 有关Light许可证的更多信息，请参阅 [轻量级](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 部分 [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 文章。
 
 >[!NOTE]
 >
->Workfront管理员和用户都将收到有关此升级的电子邮件通知。
+>Workfront管理员将收到有关此升级的电子邮件通知。
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## 查看用户的决策数
+
+您可以在Workfront的“用户”区域中查看用户的决策数。 有关更多信息，请参阅 [查看所有用户的决策数](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
