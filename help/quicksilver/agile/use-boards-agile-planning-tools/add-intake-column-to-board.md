@@ -7,9 +7,9 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ ht-degree: 0%
    ![引入列](assets/intake-column-added3.png)
 
    在将信息卡移入其他展示板列之前，信息卡进入列中不可编辑。 您可以单击卡片以在只读视图中将其打开，也可以单击 ![打开任务或问题](assets/boards-launch-icon.png) 在新的浏览器选项卡中打开任务或问题。
-
-   >[!NOTE]
-   >
-   >进纸列中信息卡的只读视图只能通过选择加入的早期功能获得 [!DNL Workfront] [!UICONTROL 展示板].
 
    您可以手动对进气列上的项目重新排序。
 

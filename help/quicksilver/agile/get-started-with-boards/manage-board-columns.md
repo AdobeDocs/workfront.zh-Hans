@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ ht-degree: 0%
 
       此外，还会显示连接卡的状态转换选项。 （状态转换不适用于临时信息卡。） 这些选项可确定应用于中任务或问题的自定义状态 [!DNL Workfront] 将连接的卡移至此列时。
 
-   1. 如果您使用的是早期功能选择加入：选择 [!UICONTROL **自定义**] 状态。
+   1. 选择 [!UICONTROL **自定义**] 状态。
 
-      当信息卡被移动到此列时， [!DNL Workfront] 首先尝试应用自定义状态（例如，“已解析”）。 如果所选的自定义状态不适用于该卡，则系统会提示您选择与系统状态对应的其他状态（从上面的步骤b中）。
+      当信息卡被移动到此列时， [!DNL Workfront] 首先尝试应用自定义状态（例如，“已解析”）。 如果所选的自定义状态不适用于该卡，则系统会提示您选择与系统状态对应的其他状态（从上面的步骤b中）。 有关状态的更多信息，请参阅 [状态概述](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       此外，如果连接任务或问题的状态更改为列策略中设置的自定义或系统状态，则卡会自动移至列。
-
-      >[!NOTE]
-      >
-      >只有通过早期的功能选择加入功能，才能设置列的默认自定义状态。 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. 如果您没有使用早期的功能选择加入：为任务选择状态，为问题选择状态。 仅默认 [!DNL Workfront] 状态可用，而不是自定义状态。
-
-      >[!NOTE]
-      >
-      >如果您在 [!DNL Workfront]，首次将连接的信息卡移入此列时，系统将提示您选择状态。 例如，如果连接的项目具有多个状态类型，这些状态类型都与 [!UICONTROL 已完成]，则必须选择在中使用的状态 [!DNL Workfront]. 您可以将选择设置为默认选项，这样在每次将信息卡移至列时都不必进行选择。
-      >有关状态的更多信息，请参阅 [状态概述](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. （可选）为卡片分配者设置值：
 

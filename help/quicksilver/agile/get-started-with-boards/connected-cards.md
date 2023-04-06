@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一个信息卡，该信息卡已连�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 0%
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL估计]</strong></td>
-      <td><p>卡片要完成的小时数。</p><p>如果您在 [!DNL Workfront] [!UICONTROL Boards]，更改估计也会更改连接上的故事点值 [!DNL Workfront] 对象。</p><p>如果您未选择加入早期功能，则此字段仅为手动输入，值不能超过99。</p></td>
+      <td><p>卡片要完成的小时数。</p><p>更改估计也会更改连接上的故事点值 [!DNL Workfront] 对象。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL标记]</strong></td>
@@ -184,10 +184,6 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 关闭]** 回到董事会。
 
 ## 在连接的卡上记录小时数
-
->[!NOTE]
->
->此功能仅通过Workfront主板的早期功能选择加入来提供。
 
 您必须拥有正确的权限，才能记录连接任务或问题的小时数。
 

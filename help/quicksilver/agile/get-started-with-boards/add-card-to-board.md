@@ -6,7 +6,7 @@ description: 您可以快速将临时信息卡添加到展示板，并将其分�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL估计]</strong></td> 
-      <td><p>键入卡片预计完成的小时数。 这只是手动输入。</p></td>
+      <td>键入卡片预计完成的小时数。 这只是手动输入。</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL到期日期]</strong></td> 

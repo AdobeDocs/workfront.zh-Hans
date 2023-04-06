@@ -6,9 +6,9 @@ title: 抢先试用功能选择加入 [!DNL Adobe Workfront] 展示板
 description: 阅读本文，了解 [!DNL Workfront Boards] 抢先试用功能选择加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>进气列中的仅查看卡</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>卡上的“地图估计”字段映射到任务上的“故事点”字段</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>创建工作流并将展示板添加到工作流</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>创建迭代</td>
-   <td>部分发布（在预览中提供）</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>定义卡片列表或积压工作</td>
-   <td>部分发布（在预览中提供）</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>将子任务作为核对清单项导入卡片中</td>
@@ -142,19 +142,31 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>自定义信息卡中字段的显示</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>  
   <tr>
    <td>为移动到列中的信息卡定义默认状态</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>在连接的卡上记录小时数</td>
-   <td>部分释放</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>将自定义字段添加到连接的卡</td>
-   <td>部分发布（在预览中提供）</td>
+   <td>已发布</td>
+  </tr>
+  <tr>
+   <td>为展示板定义电子邮件通知</td>
+   <td>计划</td>
+  </tr>
+  <tr>
+   <td>将旧看板卡迁移到展示板</td>
+   <td>计划</td>
+  </tr>
+  <tr>
+   <td>创建动态展示板</td>
+   <td>计划</td>
   </tr>
  </tbody> 
 </table>
