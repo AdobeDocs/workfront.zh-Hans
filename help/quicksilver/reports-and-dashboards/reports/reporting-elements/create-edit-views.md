@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中创建或编辑视图
 description: 您可以使用视图自定义您在屏幕上显示的信息类型。 您可以在Adobe Workfront中使用多种类型的视图。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%

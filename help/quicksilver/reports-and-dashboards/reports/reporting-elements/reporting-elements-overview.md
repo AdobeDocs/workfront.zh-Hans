@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reports
 title: 报表元素概述
 description: 所有Adobe Workfront报表和列表都由三个基本元素（视图、过滤器和分组）组合而成。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

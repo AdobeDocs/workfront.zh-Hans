@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 使用基于用户的通配符对报表进行归纳
 description: 在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行归纳。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%

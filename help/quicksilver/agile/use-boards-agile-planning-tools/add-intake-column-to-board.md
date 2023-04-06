@@ -7,7 +7,7 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    此示例显示了对特定项目中状态为 [!UICONTROL 新建] 或 [!UICONTROL 正在进行]，并且已分配给我。
 
-   有关构建过滤器的详细信息，请参阅文章中的“在测试版生成器中创建或编辑过滤器”部分 [在中创建或编辑过滤器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   有关构建过滤器的详细信息，请参阅文章中的“在标准生成器中创建或编辑过滤器”部分 [在中创建或编辑过滤器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. 命名过滤器并单击 **[!UICONTROL 保存]**.
 

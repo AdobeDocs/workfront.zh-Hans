@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 使用基于日期的通配符对报表进行归纳
 description: 在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行归纳。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%

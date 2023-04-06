@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 修改列宽和顺序
 description: 请参阅本文，了解列宽准则以及如何在Workfront中更改列宽和顺序。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%

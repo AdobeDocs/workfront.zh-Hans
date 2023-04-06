@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在Adobe Workfront中创建或编辑过滤器
 description: 您可以使用过滤器限制在项目列表的屏幕上显示的信息量。 您可以根据对象的特定信息定义特定条件，并仅显示满足这些条件的对象。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2380'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中创建或编辑过滤器
-
-<span class="preview">请注意，在“预览”环境中，现在默认显示增强的过滤器体验（以前称为“测试版”）。 这些增强的过滤器现在为“标准”，旧的过滤器体验为“旧版”。</span>
 
 您可以使用过滤器限制在项目列表的屏幕上显示的信息量。 您可以根据对象的特定信息定义特定条件，并仅显示满足这些条件的对象。
 
@@ -76,11 +74,6 @@ ht-degree: 1%
 </tr>
 <tr>
 <td>标准生成器</td>
-<td>所有对象 </td>
-<td>列表和报表</td>
-</tr>
-<tr>
-<td>测试版生成器</td>
 <td>
 <ul>
 <li> <p>项目</p> </li>
@@ -100,149 +93,75 @@ ht-degree: 1%
 <ul>
 <li> <p>方案计划器中的项目列表</p> <p>方案计划员需要附加许可证。 有关Workfront方案规划器的信息，请参阅 <a href="../../../scenario-planner/scenario-planner-overview.md">方案计划员概述</a>. </p> </li>
 </ul>
-<p>注意：过滤器的测试版生成器在报表中不可用。
+<p>注意：过滤器的标准生成器在报表中不可用。
 </td>
+</tr>
+<tr>
+<td>旧版生成器</td>
+<td>所有对象 </td>
+<td>列表和报表</td>
 </tr>
 </tbody>
 </table>
 
 有关Workfront对象的信息，请参阅 [了解Adobe Workfront中的对象](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## 在标准生成器中创建或编辑过滤器 {#create-filter-in-standard-builder}
-
-您可以通过以下方式在列表和报表中创建过滤器：
-
-* 从头开始
-* 编辑现有过滤器，并将其另存为新过滤器
-
-无论您使用哪种方法创建过滤器，从头开始或从现有过滤器创建过滤器都是相似的。
-
-1. 转到包含要自定义的过滤器的列表或报表。
-1. 单击 **过滤器** 图标 ![“过滤器”图标](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >报表创建者必须允许编辑过滤器，才能查看报表上的过滤器下拉列表。 默认情况下，报表默认过滤器会应用于报表。 仅当您编辑报表时，才可自定义报表默认过滤器。
-
-   ![过滤器下拉列表](assets/filter-drop-down-expanded-nwe.png)
-
-1. 单击 **新建过滤器** 过滤器列表顶部
-
-   或
-
-   将鼠标悬停在要修改的过滤器上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
-
-   用于自定义过滤器启动项的生成器。
-
-1. 执行以下任一操作：
-
-   * 通过单击现有规则并选择新选项来修改现有过滤器规则。
-   * 通过单击 **添加其他过滤器规则**，开始键入要在 **开始键入字段名称** 框中，然后在下拉列表中显示时单击该图标。
-
-      与过滤器对象关联的字段列在 **开始键入字段名称** 框中。
-
-   * 单击 **和** 或 **或** 添加新过滤器规则时。\
-      添加过滤器规则时，请使用过滤器修饰符来建立过滤器的条件。 有关过滤器修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-      >[!NOTE]
-      >
-      >当通过多个OR语句连接一组AND语句时，必须对每组语句重复在OR语句之间不变的字段。
-      >
-      >![连接的过滤器语句](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >在为包含“营销”字样且项目状态为“当前”或“计划”的任务构建过滤器时，必须具有以下过滤器规则：
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >尽管任务：名称包含“营销”在两个“与”过滤器组之间不会发生更改，因此必须在第二个组中重复此操作。
-
-   * 单击“X”图标以删除现有过滤器规则。
-
-1. （可选）单击 **切换到文本模式** 使用文本模式界面添加过滤器。
-
-   有关使用文本模式界面创建过滤器的更多信息，请参阅 [使用文本模式编辑过滤器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. 单击 **保存过滤器** 创建新过滤器，或将所选过滤器替换为您所做的更改。
-
-   或
-
-   单击 **另存为新过滤器** 以根据所选过滤器创建新过滤器。
-
-   新过滤器会显示在过滤器列表中，并且会自动应用于您选择的列表或报表。
-
-1. （可选）执行以下操作之一：
-
-   * 与其他用户共享您创建的过滤器，或在系统范围内使用这些过滤器。 有关信息，请参阅 [共享过滤器、查看或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * 删除您不希望再在列表中显示的过滤器。 有关信息，请参阅 [删除过滤器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## 在测试版生成器中创建或编辑过滤器
-
 使用不同的界面创建过滤器时，请考虑以下事项：
 
-* 您可以在相同位置找到测试版生成器，这些位置对应于上表中所列区域的标准过滤器界面。
-* 您可以在标准界面和测试版生成器界面之间来回切换，在该界面中提供了测试版选项。
-* 在一个区域中启用测试版生成器后，它将成为所有可用区域的默认体验。 例如，如果在项目列表中启用测试版生成器，则它也是构建任务和在列表中发布过滤器的默认体验。
-* 您可以通过以下方式使用测试版生成器界面创建过滤器：
+* 在找到上表所列区域的旧版过滤器界面的相同位置，您可以找到标准生成器。
+* 标准生成器是所有可用区域的默认体验。 要切换到旧版过滤器生成器，请单击 **更多** 菜单 [!UICONTROL **过滤器**] 选择 [!UICONTROL **返回到旧版过滤器**].
 
-   * 从头开始
-   * 编辑现有过滤器
-   * 复制现有过滤器
-   * 复制现有过滤器，对其进行编辑，然后将其另存为新过滤器
+   ![返回旧版过滤器](assets/use-legacy-filters.png)
 
-* 保存的过滤器在两个生成器中都可用，无论您最初使用哪个体验来构建它们。 例如，如果您使用标准生成器创建了过滤器，则还可以在测试版生成器界面中查找和修改该过滤器。
+* 保存的过滤器在两个生成器中都可用，无论您最初使用哪个体验来构建它们。 例如，如果您使用旧版生成器创建了过滤器，则也可以在标准生成器界面中查找和修改该过滤器。
 
    >[!TIP]
    >
-   >测试版生成器中不包含“全部”过滤器，因为当未应用任何过滤器时，将显示所有列表项。 单击 **全部清除** ，以清除任何活动过滤器并显示所有项目。 如果 **全部清除** 灰显，则不会应用任何滤镜。
+   >标准生成器中不包含“全部”过滤器，因为当未应用过滤器时，将显示所有列表项。 单击 [!UICONTROL **全部清除**] ，以清除任何活动过滤器并显示所有项目。 如果 [!UICONTROL **全部清除**] 灰显，则不会应用任何滤镜。
 
-* 在构建组合AND和OR运算符的多语句过滤器时，标准生成器和测试版生成器的语法略有不同。 因此，当您从一个生成器切换到另一个生成器时，这些过滤器的显示方式可能会有所不同。
+* 在构建组合AND和OR运算符的多语句过滤器时，标准生成器和旧版生成器的语法略有不同。 因此，当您从一个生成器切换到另一个生成器时，这些过滤器的显示方式可能会有所不同。
 
    >[!INFO]
    >
    >存在以下方案：
    >
-   >1. 使用测试版生成器创建具有以下语法的过滤器：
+   >1. 使用标准生成器创建具有以下语法的过滤器：
    >
    >   `(A OR B) AND C`
    >
-   >1. 切换回标准生成器，然后使用标准生成器的语法编辑过滤器，如 [在标准生成器中创建或编辑过滤器](#create-filter-in-standard-builder) 章节。 标准生成器的语法会按如下方式显示filter语句：
+   >1. 切换到旧版生成器，然后使用旧版生成器的语法编辑过滤器，如 [在旧版生成器中创建或编辑过滤器](#create-filter-in-legacy-builder) 章节。 旧版生成器的语法会按如下方式显示filter语句：
    >
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    >
-   >1. 在标准界面中更改过滤器。
-   >1. 切换回测试版生成器。 过滤器语句会根据标准生成器中支持的逻辑显示，如上所述。
+   >1. 更改旧版界面中的过滤器。
+   >1. 切换回标准生成器。 筛选器语句将根据旧版生成器中支持的逻辑显示，如上所述。
 
    >
-   >   过滤器显示在测试版生成器界面中，如下所示：
+   >   该过滤器显示在标准生成器界面中，如下所示：
    >  
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    > 
-   >   之所以出现这种情况，是因为过滤器已在标准界面中修改。
+   >   之所以出现这种情况，是因为过滤器已在旧版界面中修改。
 
-使用测试版生成器界面创建过滤器：
+## 在标准生成器中创建或编辑过滤器
+
+您可以通过以下方式使用标准生成器界面创建过滤器：
+
+* 从头开始
+* 编辑现有过滤器
+* 复制现有过滤器
+* 复制现有过滤器，对其进行编辑，然后将其另存为新过滤器
+
+使用标准生成器界面创建过滤器：
 
 1. 转到要创建过滤器或包含要自定义过滤器的列表。
-1. 单击 **过滤器** 图标 ![“过滤器”图标](assets/filter-nwepng.png)，然后启用 **测试版设置** ![测试版设置](assets/beta-toggle-white-on-existing-filters.png) 以访问测试版生成器。 默认情况下，该复选框处于禁用状态。
+1. 单击 **过滤器** 图标 ![“过滤器”图标](assets/filter-nwepng.png) 打开生成器界面。
 
-   接下来，根据需要同意测试版协议。 您只需同意一次，测试版生成器即会保持启用状态。
-
-   这将打开测试版过滤器生成器界面。
-
-   >[!TIP]
-   >
-   >启用测试版生成器后，过滤器生成器界面的标题会变为蓝色。 启用测试版生成器界面后，Workfront会保留所有可用区域的该界面处于启用状态。
-
-   ![测试版过滤器生成器](assets/new-filters-all-filter-types.png)
+   ![标准过滤器生成器](assets/new-filters-all-filter-types.png)
 
 1. 查看以下过滤器列表：
 
@@ -312,7 +231,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >构建过滤器时，结果会立即显示在列表中。 如果过滤器面板覆盖列表，则可以将其关闭以查看显示。 再次打开面板时，您输入的信息会保留在测试版生成器中。
+   >构建过滤器时，结果会立即显示在列表中。 如果过滤器面板覆盖列表，则可以将其关闭以查看显示。 再次打开面板时，您输入的信息会保留在生成器中。
 
 1. 开始键入要过滤的字段的值。 例如，如果要按 `Issue:Name`. 当值显示在列表中时，选择该值。
 
@@ -335,7 +254,7 @@ ht-degree: 1%
 
    >[!INFO]
    >
-   >当您过滤名称中包含“营销”且“未完成”且“暂挂”的项目时，可以使用以下多个过滤器组：
+   >当您过滤名称中包含“营销”且未完成且未处于暂挂状态的项目时，可以使用以下多个过滤器组：
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -351,15 +270,15 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >我们建议您尽可能多地使用测试版生成器界面构建过滤器，并仅在您必须修改文本模式仅支持的过滤器时使用文本模式。
+   >我们建议您尽可能多地使用标准生成器界面来构建过滤器，并仅在您必须修改文本模式下仅支持的过滤器时使用文本模式。
 
    有关使用文本模式界面创建过滤器的更多信息，请参阅 [使用文本模式编辑过滤器](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. 单击 **退出文本模式** 返回测试版生成器界面。
+1. 单击 **退出文本模式** 返回到标准生成器界面。
 
    >[!WARNING]
    >
-   >测试版生成器或标准界面不支持某些文本模式语句。 创建这些类型的语句后退出文本模式可能会生成警告消息。
+   >标准生成器或旧版界面不支持某些文本模式语句。 创建这些类型的语句后退出文本模式可能会生成警告消息。
 
 1. （可选）单击 **应用** 将过滤器应用到列表并查看结果。
 
@@ -411,4 +330,78 @@ ht-degree: 1%
    * 与他人共享该过滤器，或在全系统范围内提供该过滤器。 有关更多信息，请参阅 [共享过滤器、查看或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * 如果过滤器不再有效或重复，请删除该过滤器。 您只能删除您拥有的过滤器。 您可以删除与您共享的过滤器。 有关信息，请参阅 [删除过滤器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## 在旧版生成器中创建或编辑过滤器 {#create-filter-in-legacy-builder}
+
+您可以通过以下方式在列表和报表中创建旧版过滤器：
+
+* 从头开始
+* 编辑现有过滤器，并将其另存为新过滤器
+
+无论您使用哪种方法创建过滤器，从头开始或从现有过滤器创建过滤器都是相似的。
+
+1. 转到包含要自定义的过滤器的列表或报表。
+1. 单击 **过滤器** 图标 ![“过滤器”图标](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >报表创建者必须允许编辑过滤器，才能查看报表上的过滤器下拉列表。 默认情况下，报表默认过滤器会应用于报表。 仅当您编辑报表时，才可自定义报表默认过滤器。
+
+   ![过滤器下拉列表](assets/filter-drop-down-expanded-nwe.png)
+
+1. 单击 **新建过滤器** 中。
+
+   或
+
+   将鼠标悬停在要修改的过滤器上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
+
+   用于自定义过滤器启动项的生成器。
+
+1. 执行以下任一操作：
+
+   * 通过单击现有规则并选择新选项来修改现有过滤器规则。
+   * 通过单击 **添加其他过滤器规则**，开始键入要在 **开始键入字段名称** 框中，然后在下拉列表中显示时单击该图标。
+
+      与过滤器对象关联的字段列在 **开始键入字段名称** 框中。
+
+   * 单击 **和** 或 **或** 添加新过滤器规则时。\
+      添加过滤器规则时，请使用过滤器修饰符来建立过滤器的条件。 有关过滤器修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+      >[!NOTE]
+      >
+      >当通过多个OR语句连接一组AND语句时，必须对每组语句重复在OR语句之间不变的字段。
+      >
+      >![连接的过滤器语句](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+      >
+      >在为包含“营销”字样且项目状态为“当前”或“计划”的任务构建过滤器时，必须具有以下过滤器规则：
+      >
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Current`
+      >`OR`
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Planning`
+      >
+      >尽管任务：名称包含“营销”在两个“与”过滤器组之间不会发生更改，因此必须在第二个组中重复此操作。
+
+   * 单击“X”图标以删除现有过滤器规则。
+
+1. （可选）单击 **切换到文本模式** 使用文本模式界面添加过滤器。
+
+   有关使用文本模式界面创建过滤器的更多信息，请参阅 [使用文本模式编辑过滤器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+1. 单击 **保存过滤器** 创建新过滤器，或将所选过滤器替换为您所做的更改。
+
+   或
+
+   单击 **另存为新过滤器** 以根据所选过滤器创建新过滤器。
+
+   新过滤器会显示在过滤器列表中，并且会自动应用于您选择的列表或报表。
+
+1. （可选）执行以下操作之一：
+
+   * 与其他用户共享您创建的过滤器，或在系统范围内使用这些过滤器。 有关信息，请参阅 [共享过滤器、查看或分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * 删除您不希望再在列表中显示的过滤器。 有关信息，请参阅 [删除过滤器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 

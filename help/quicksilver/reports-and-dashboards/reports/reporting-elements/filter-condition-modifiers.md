@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 过滤器和条件修饰符
 description: 过滤器和条件修饰符允许您构建过滤器并建立条件以格式化报表结果。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 1%

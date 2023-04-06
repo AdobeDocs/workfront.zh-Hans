@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 在视图中使用条件格式
 description: 在您与Adobe Workfront中的其他用户共享报表时，请考虑自定义报表视图、简化某些信息的阅读过程，或者干脆脱颖而出。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 2%

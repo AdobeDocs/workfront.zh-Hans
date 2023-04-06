@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 通配符过滤器变量
 description: 通过在过滤器中使用通配符，您可以引用通用用户或日期，而不是特定用户或日期。 这样，您构建的元素就会是动态的，结果会根据使用这些元素的上下文而发生更改。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Workfront基于日期的通配符选项可以与任何日期过滤器属性结�
 | **m** | 月 |
 | **y** | 年 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **限定符** |  |
 |---|---|
 | **b** | 星期初（星期日） |
 | **e** | 周末（星期六） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **运算符** |  |
 |---|---|
 | **+** | 将值添加到通配符值 |
 | **-** | 从通配符值中减去值 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 例如，通配符 `$$TODAYb+2w` 是指“从本周开始算起2周”。 通配符*`$$NOW+2h` 是指“2小时后”。
 
