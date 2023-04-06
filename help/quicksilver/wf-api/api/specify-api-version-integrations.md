@@ -6,18 +6,16 @@ description: 在集成中指定API版本
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # 在集成中指定API版本
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览沙盒”环境中可用。</span>
-
-所有Adobe Workfront URI都需要在URI的“attask/api”部分之后引用API的特定版本。 以下示例调用版本15.0:
+所有Adobe Workfront URI应在URI的“attask/api”部分之后引用API的特定版本。 以下示例调用版本15.0:
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 在23.2版本发布后，API的默认版本将设置为最新版本。 任何未指定版本的API调用都将使用默认版本。 每次Workfront发布新版API时，默认版本都将更新至最新版本。 因此，在发布新版本的Workfront API后，应检查使用默认版本的任何API调用，以确保仍支持该功能。
+>* API的默认版本设置为最新版本。 任何未指定版本的API调用都将使用默认版本。 每次Workfront发布新版API时，默认版本都将更新至最新版本。 **因此，在发布新版本的Workfront API后，应检查使用默认版本的任何API调用，以确保仍支持该功能。**
 >
 >* 如果贵组织当前使用默认API，则Workfront管理员已收到公告中心消息，其中包含有关默认API的进一步说明。
->
->* <span class="preview">预览环境中的默认API设置为最新版本。 在23.2版本（2023年4月）之后，生产环境中的默认API将设置为最新版本</span>.
 >
 >要查看API的最新版本，请参阅 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
 
