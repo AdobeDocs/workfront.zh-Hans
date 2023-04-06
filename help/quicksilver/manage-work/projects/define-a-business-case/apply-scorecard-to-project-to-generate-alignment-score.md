@@ -5,16 +5,14 @@ description: 您可以使用评分卡衡量项目与之前已建立的项目组�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # 将记分卡应用于项目并生成对齐分数
-
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
 
 您可以使用评分卡衡量项目与之前已建立的项目组合标准的一致程度。 评分卡通常反映组织的使命、价值和战略目标。
 
@@ -95,17 +93,20 @@ ht-degree: 0%
 
    记分卡现在与项目关联，并且项目已进行评分。
 
-1. （视情况而定）当记分卡问题的值发生更改时，必须重新计算记分卡以反映项目得分的新值。 要重定记分卡，请执行以下操作：
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. 转到项目列表，然后选择列表中的所有项目。
-   1. 单击 **编辑** 图标。
-   1. 单击 **设置** 在左侧面板中，然后检查 **重新计算记分卡** 选项。
-   1. 单击保存。这会根据为所有选定项目附加的记分卡来重新计算得分值。
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">批量编辑项目时，用于重新计算记分卡的选项已从预览环境中删除。 </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## 生成对齐分数
 

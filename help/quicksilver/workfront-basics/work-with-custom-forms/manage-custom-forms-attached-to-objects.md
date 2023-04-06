@@ -6,16 +6,16 @@ description: 您可以更新附加到一个对象的自定义表单的显示顺�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # 管理附加到对象的自定义表单
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以更新附加到一个对象的自定义表单的显示顺序，删除它们，或批量编辑自定义表单在多个对象上的显示方式。
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">有关在“预览”环境中批量管理项目中的自定义表单的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>对于除项目之外的所有对象，将自定义表单管理为对象是相同的。
+>
+>有关将自定义表单批量添加到项目的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
 
 在批量编辑应用了多个自定义表单的对象时，您可以编辑在这些对象上显示自定义表单的方式，以及编辑自定义表单中的常用字段。
 

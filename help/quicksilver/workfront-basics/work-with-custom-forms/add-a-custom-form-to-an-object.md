@@ -7,16 +7,16 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
 
 # 将自定义表单添加到对象
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 您可以将现有的自定义表单添加到下面列出的任何对象。 自定义表单包含自定义字段，您可以在其中存储有关对象的信息。
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">有关在“预览”环境中批量将自定义表单添加到项目的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>对于除项目外的所有对象，将自定义表单添加到对象的方式都相同。
+>
+>有关将自定义表单批量添加到项目的信息，请参阅文章 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. 导航到对象列表。
 1. 在列表中选择多个对象。
 
-1. 单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击 **编辑** 图标  ![](assets/edit-icon.png)，或者单击 **编辑** 图标 ![](assets/edit-icon.png).
+1. 单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击 **编辑** 图标  ![](assets/edit-icon.png)，或者单击 **编辑** 图标 ![](assets/edit-icon.png) 列表顶部。
 1. 单击 **自定义Forms** 中。
 1. 选择要与 **选择** 下拉菜单。
    >[!NOTE]
    >
    >如果在下拉菜单中找不到表单，则意味着至少有一个对象的表单已与其关联。 在将表单添加到其余对象之前，确定哪个对象并将其从您的选择中排除。
+
 
 1. 单击 **保存更改**.
 

@@ -7,16 +7,16 @@ description: 无法通过多选自定义字段来绘制报表图表。 您需要
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # 按多选自定义字段绘制报表图表
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 无法通过多选自定义字段来绘制报表图表。 您需要创建一个引用多选自定义字段的附加计算字段，以便还按多选自定义字段的值来图表报表。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   ><span class="preview">已在“预览”环境中从批量编辑项目中删除此选项。  您仍可以通过单击 **更多** ![](assets/more-icon-45x33.png) ，然后 **重新计算表达式**. </span>
+   >此选项已从批量编辑项目中消除。  您仍可以通过单击 **更多** 图标 ![](assets/more-icon-45x33.png) ，然后 **重新计算表达式**.
 
 
 1. 转到要为引用多选自定义字段的计算字段添加图表的报表。
