@@ -7,7 +7,7 @@ description: 您可以使用表单设计器组织自定义表单。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 529de9d31be883325d425dceb286d750397c5d8e
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # 使用表单设计器组织和预览表单
-
-{{highlighted-preview-article-level}}
 
 您可以使用表单设计器组织自定义表单。
 
@@ -38,7 +36,7 @@ ht-degree: 0%
    <td>
    <p>当前计划：标准</p>
    <p>或</p>
-   <p>传统计划：计划</p></td> 
+   <p>旧版计划：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -47,25 +45,25 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-## 添加分区界限
+## 添加节分符
 
-您可以将自定义表单中的自定义字段和小组件分组到具有标题的部分。 这对于向将填写表单的用户展示组织好的体验非常有用。 此外，如果您需要限制特定用户访问某些自定义字段和小部件，您可以将它们放在分区中，然后仅向这些用户授予对分区的访问权限。
+您可以将自定义表单中的自定义字段和小组件分组为包含标题的部分。 这对于向填写表单的用户展示有组织的体验非常有用。 此外，如果您需要限制特定用户对特定自定义字段和小组件的访问权限，则可以将这些字段和小组件放置在某个部分中，然后仅向这些用户授予对该部分的访问权限。
 
-例如，如果您需要跟踪只有系统管理员才能查看或编辑的敏感信息，则可以使用“仅限管理员”权限创建分区界限，并将敏感字段放置在该分区中。
+例如，如果您需要跟踪只有系统管理员才能查看或编辑的敏感信息，则可以创建具有“仅管理员”权限的分区，并将敏感字段放在该分区中。
 
-您为部分选择的访问设置直接绑定到用户在附加自定义表单的Workfront对象上拥有的权限。 您可以根据用户是否具有查看、参与或管理该对象的权限来隐藏或显示部分。 或者，您也可以将部分设置为“仅管理员”，以便只有具有系统管理员访问权限级别的用户才能访问它。
+您为部分选择的访问设置会直接绑定到用户在附加了自定义表单的Workfront对象上拥有的权限。 您可以根据用户是否有权查看、贡献或管理该对象来隐藏或显示部分。 或者，您也可以将部分设置为“仅管理员”，以便只有具有系统管理员访问权限级别的用户才能访问该部分。
 
-有关对象权限的信息，请参见 [对象权限共享概述](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+有关对象权限的信息，请参阅 [对象共享权限概述](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-有关自定义表单中的自定义字段和小部件的信息，请参阅 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+有关自定义表单中的自定义字段和小组件的信息，请参阅 [设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-### 为自定义表单中的部分创建和配置访问权限
+### 在自定义表单中创建和配置对部分的访问权限
 
-1. 开始创建或编辑自定义表单并添加字段，如中所述 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. 开始创建或编辑自定义表单和添加字段，如 [设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. 单击 **分节符** 并将其拖动到画布上的所需位置。
+1. 单击 **区域划分** 并将其拖到画布上的所需位置。
 
-1. 在右侧面板中，为部分配置所需的选项：
+1. 在右侧面板中，配置所需部分的选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,11 +73,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">标签</td> 
-      <td> <p>（必需）键入要显示在部分上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要</b>：避免在此标签中使用特殊字符。 它们在报表中无法正确显示。</p> </td> 
+      <td> <p>（必需）键入要在部分上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要信息</b>:避免在此标签中使用特殊字符。 无法在报表中正确显示它们。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">描述</td> 
-      <td>如果要向用户说明此部分的用途，请键入文本。 显示在自定义表单上部分的标签下方。</td> 
+      <td>如果要向用户说明该部分的用途，请键入文本。 它显示在自定义表单上区域标签的下方。</td> 
      </tr> 
      <!--<tr> 
       <td role="rowheader">Add Logic</td> 
@@ -87,63 +85,63 @@ ht-degree: 0%
      </tr> -->
      <tr> 
       <td role="rowheader"> <p>授予访问权限</p> </td> 
-      <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。 
-       <p>以下权限位于 <b>具有该对象访问权限的用户可以查看字段值</b>：</p> 
+      <td> <p> 选择用户对附加了自定义表单的对象所需的权限，以查看此部分并编辑其字段值。 
+       <p>以下权限位于 <b>具有此对象访问权限的用户可以查看字段值</b>:</p> 
          <ul>  
-          <li><p><b>有限编辑</b>：（仅当对象是项目、任务、问题或用户时才可用）：</p> 
-          <p>允许用户在对象是项目、任务或问题时，向对象投稿。</p>
-          <p>如果用户是用户，则允许用户编辑配置文件或拥有对象的配置文件权限。</p></li> 
-          <li><b>编辑</b>：管理对象的权限 </li> 
-          <li><b>仅管理员</b>：系统管理员访问级别</li> 
+          <li><p><b>有限编辑</b>:（仅当对象是项目、任务、问题或用户时才可用）：</p> 
+          <p>允许用户在对象是项目、任务或问题时对对象进行投稿。</p>
+          <p>允许用户编辑配置文件或拥有对象（如果用户）的配置文件权限。</p></li> 
+          <li><b>编辑</b>:管理对象的权限 </li> 
+          <li><b>仅管理员</b>:系统管理员访问级别</li> 
          </ul> </li> 
-        <p>以下权限位于 <b>具有该对象访问权限的用户可以编辑字段值</b>： </p> 
+        <p>以下权限位于 <b>具有此对象访问权限的用户可以编辑字段值</b>: </p> 
          <ul> 
-          <li> <p><b>有限编辑</b>：（仅当对象是项目、任务、问题或用户时才可用）：</p> 
-           <p>如果对象是项目、任务或问题，则此权限允许用户向对象投稿</p>
-          <p>如果对象是用户，则此权限允许用户编辑配置文件或拥有对该对象的配置文件权限。</p> 
-          <li><b>编辑</b>：管理对象的权限 </li> 
-          <li><b>仅管理员</b>：系统管理员访问级别</li> 
+          <li> <p><b>有限编辑</b>:（仅当对象是项目、任务、问题或用户时才可用）：</p> 
+           <p>如果对象是项目、任务或问题，则此权限允许用户对该对象进行贡献</p>
+          <p>如果对象是用户，则此权限允许用户编辑配置文件或拥有该对象的配置文件权限。</p> 
+          <li><b>编辑</b>:管理对象的权限 </li> 
+          <li><b>仅管理员</b>:系统管理员访问级别</li> 
          </ul> </li> 
        </ul> 
-       <p>有关对象权限的信息，请参见 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象权限共享概述</a>.</p> 
+       <p>有关对象权限的信息，请参阅 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象共享权限概述</a>.</p> 
        <p><b>注释</b>:  
        <ul> 
-       <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用这些值，则也会出现这种情况。</p> </li> 
-       <li> <p>将多个对象类型与表单关联可以更改这些步骤中可用的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多个对象类型如何影响自定义表单中的分区界限权限</a> 本文章中。</p> </li> 
+       <li> <p>没有此处指定权限的用户在部分中看不到自定义字段和小组件。 </p> <p>如果您在报表中显示字段值或在文本模式报表中的计算字段中使用这些值，则也会出现这种情况。</p> </li> 
+       <li> <p>将多个对象类型与您的表单关联，可能会更改这些步骤中提供的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">在自定义表单中，多个对象类型如何影响节点划分权限</a> 在本文中。</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 将至少一个自定义字段或构件拖动或添加到新分区。 在保存节之前需要此项。
+1. 将至少一个自定义字段或小组件拖放或添加到新部分。 在保存部分之前，需要执行此操作。
 
 1. 单击 **完成**.
 
    >[!TIP]
    >
-   >您可以单击 **应用** 创建自定义表单时，可随时保存更改并保持表单打开。
+   >您可以单击 **应用** 创建自定义表单以保存所做更改并保持表单打开时，随时可以执行此操作。
 
-### 多个对象类型如何影响分区界限权限 {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+### 多种对象类型如何影响节划分权限 {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-自定义表单分区界限的“有限编辑”权限仅适用于“项目”、“任务”、“问题”和“用户”对象类型。
+自定义表单部分中断的“有限编辑”权限仅适用于项目、任务、问题和用户对象类型。
 
-在具有“有限编辑”权限的分区界限的自定义表单中，如果您将其他对象类型(Portfolio、程序、文档、公司、账单记录、小版本、费用或组)之一添加到表单，系统将提示您切换到“编辑”权限，该权限与该对象类型和表单上的现有对象类型都兼容。
+在自定义表单中，如果向表单添加其他对象类型(“Portfolio”、“程序”、“文档”、“公司”、“帐单记录”、“小版本”、“费用”或“组”)，则系统会提示您切换到“编辑”权限，该权限与表单上该对象类型和现有对象类型都兼容。
 
 >[!INFO]
 >
->**示例：** 在与项目对象类型关联的自定义表单中，分区界限配置有有限的编辑权限。
+>**示例：** 在与项目对象类型关联的自定义表单中，会使用“有限编辑”权限配置节断点。
 >
->将Portfolio对象类型添加到表单，这意味着有限编辑权限选项不再可用于表单中的分区界限。
+>您将Portfolio对象类型添加到表单中，这意味着“有限编辑”权限选项不再可用于表单中的部分中断。
 >
->屏幕上显示的消息会提示您切换到“编辑”权限，该权限是与项目对象类型和Portfolio对象类型兼容的最低级别权限。
+>屏幕上的消息会提示您切换到“编辑”权限，该权限是与“项目”对象类型和“Portfolio”对象类型兼容的最低级别权限。
 
 
-## 在自定义表单中放置自定义字段和小部件
+## 在自定义表单中放置自定义字段和小组件
 
 
-1. 开始创建或编辑自定义表单，如中所述 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. 开始创建或编辑自定义表单，如 [设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. 要将自定义字段和小组件放置在同一行，请将一个字段和小组件拖动到彼此旁边，直到它们之间出现一行。
+1. 要将自定义字段和小组件放置在同一行上，请将一个字段和小组件拖动到另一行旁边，直到它们之间出现一条线。
 
 <!--
 Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
@@ -156,11 +154,11 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* 您可以使用 **预览** 按钮，了解自定义字段和小组件在表单中的显示方式。
->* 自定义字段和小组件在表单中的显示方式可能并不总是相同，具体取决于用户查看时可用的屏幕空间量。 例如，如果水平空间有限，则一行字段中的第三个字段可能会换成下一行字段。
+>* 您可以使用 **预览** 按钮，以了解自定义字段和小组件在表单中的显示方式。
+>* 自定义字段和小组件在表单中的显示方式可能并不总是相同，具体取决于用户查看时屏幕空间的可用程度。 例如，如果水平空间有限，一行字段中的第三个字段可能会换到下一行字段。
 
 
-1. （可选）要将自定义字段或构件放置到另一个字段的上方或下方，请将其拖动到上面或下方，直到项目之间出现一条水平蓝色线。
+1. （可选）要将自定义字段或小组件置于另一个字段或小组件上方或下方，请将其拖动到上方或下方，直到项目之间出现水平蓝线。
 
 1. 要保存更改，请单击 **应用**
 
@@ -170,6 +168,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 ## 预览自定义表单
 
-1. 开始创建或编辑自定义表单并添加字段，如中所述 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. 开始创建或编辑自定义表单和添加字段，如 [设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. 单击 **预览** ，查看表单在使用时的外观，然后单击 **结束预览** 以返回编辑表单。
+1. 单击 **预览** 查看使用表单时的外观，然后单击 **结束预览** 以返回编辑表单。

@@ -4,9 +4,9 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2版本概述
 
-本页介绍了计划于2023年4月3日这一周发布的23.2版本中包含的功能。
-
-在“预览”环境中，提供了此页面上的增强功能。 当23.2版本接近其计划的生产版本时，本页面将进行更新，并提供其他增强功能。
+本页介绍了23.1版本中包含的功能。 2023年4月6日和7日发行的23.2版本在生产环境中提供了这些增强功能。
 
 有关为即将发布的版本做准备的提示，请参阅 [为Adobe Workfront季度版本做准备](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将任务和问题从对象详细信息添加到Workfront展示板或工作流</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">将任务和问题从对象详细信息添加到Workfront展示板或工作流</a></p>
                         <p>现在，您可以直接从对象详细信息将现有任务或问题添加到Workfront展示板或工作流卡列表。 您添加到展示板的任何项目都将成为连接的信息卡，而添加到工作流的任何项目都将作为计划外信息卡添加到信息卡列表中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -429,7 +427,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">画布功能板</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">画布仪表板</a></p>
                         <p>画布功能板已作为功能板的正在进行的功能添加，该功能板可在布局模板中启用。 除了新的布局选项外，画布功能板还允许将报表画布可视化与现有报表组合。 目前仅支持列表报表，但在开发持续时将添加更多选项。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -464,8 +462,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">移动应用程序中的生物识别登录和展示板收藏集</span></a><span style="color: #ff0000;"> 即将推出！</span>
-                        <p>生物识别登录现在是加快登录移动设备应用程序的选项！ 在首次登录后设置生物识别验证后，用户将能够使用指纹或面部识别来快速重新登录应用程序，只需偶尔进行密码重新验证。 此外，在稍后的更新中，常规登录体验还会获得一些外观上的改进。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">移动应用程序中的生物识别登录和展示板收藏集</span></a>
+                        </span></a><p>生物识别登录现在是加快登录移动设备应用程序的选项！ 在首次登录后设置生物识别验证后，用户将能够使用指纹或面部识别来快速重新登录应用程序，只需偶尔进行密码重新验证。 此外，在稍后的更新中，常规登录体验还会获得一些外观上的改进。</p>
                         <p>移动设备应用程序现在也支持展示板收藏集，允许移动设备用户从其移动设备展示板列表中查看他们在桌面版本中有权访问的任何收藏集。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -537,7 +535,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新客户净额将载入Adobe统一体验</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新客户净额将载入Adobe统一体验</a></p>
                         <p>Adobe统一体验包括：
                         <ul>
                         <li>通过Adobe Experience Cloud对所有Adobe应用程序进行单次登录</li>
@@ -559,7 +557,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">校对查看器将在统一体验的用户的新选项卡中打开</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">校对查看器将在统一体验的用户的新选项卡中打开</a></p>
                         <p>校对查看器现在会在统一体验的用户的新选项卡中打开。
                         </p>
                     </td>
@@ -627,11 +625,11 @@ ht-degree: 0%
 
 23.2版本中Workfront Goals版本的新增功能。 有关预览中当前提供的这些新增功能的信息，请参阅 [Adobe Workfront Goals与23.2版本](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API版本15
+### API版本16
 
-对于API版本15，我们修改了一些资源和端点。 某些更改支持新功能，而其他更改则使您能够更轻松地使用通过API提供的信息。
+API版本16将随2.3版本一起发布。 对于API版本16，我们修改了一些资源和端点。 某些更改支持新功能，而其他更改则使您能够更轻松地使用通过API提供的信息。
 
-有关新增功能和更新功能的信息，请参阅 [API版本15的新增功能](/help/quicksilver/wf-api/api/new-api-version-15.md).
+有关新增功能和更新功能的信息，请参阅 [API版本16的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

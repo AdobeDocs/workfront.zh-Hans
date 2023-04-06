@@ -4,7 +4,7 @@ description: 在23.2版本时间范围内进行外观更新
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->预览版本：2023年4月4日；计划生产版本：2023年4月18日
+>预览版本：2023年4月4日；计划生产版本：2023年4月20日
 
 我们更新了“请求”区域中的“草稿”列表，使其与Workfront中较新的列表一致。
 某些更新包括：
