@@ -6,7 +6,7 @@ description: Adobe Workfront于2021年4月22日发布了API版本13。 API版本
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Team对象是可分配给工作项的用户集合。
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront管理员或组管理员可以创建模板以自定义Adobe Workfront中的布局元素。 LayoutTemplate对象特定于新的Adobe Workfront体验。
+Adobe Workfront管理员或组管理员可以创建模板以自定义Adobe Workfront中的布局元素。 UITemplate对象专用于新的Adobe Workfront体验。
 
 有关在Adobe Workfront Classic中表示布局模板的对象，请参阅 [布局模板](#layouttemplate).
 
