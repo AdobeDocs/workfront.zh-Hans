@@ -7,9 +7,9 @@ description: 您可以查看报表是否已添加到Adobe Workfront中的功能�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ ht-degree: 0%
 
 ## 在报表列表的视图中显示功能板信息
 
+>[!WARNING]
+>
+>在报表列表中包含功能板列可能会显着增加加载时间，尤其是对于较长的报表列表而言。
+
 要使用报表列表的功能板信息构建视图，请执行以下操作：
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Workfront的右上角，单击 **报表**.
-
 1. 在报表列表中，单击 **查看** 下拉菜单。
 1. 单击 **新建视图**.
 1. 单击 **添加列**.
