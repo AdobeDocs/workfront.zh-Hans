@@ -5,21 +5,15 @@ title: 自定义信息卡上显示的字段
 description: 您可以通过禁用字段来自定义在信息卡上显示的字段，使其不会显示在完整信息卡或压缩视图中，或者隐藏压缩信息卡视图上的字段。
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # 自定义信息卡上显示的字段
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->此功能仅通过 [!DNL Workfront] [!UICONTROL 展示板]. 有关详细信息，请参阅 [抢先试用Adobe Workfront展示板的功能选择加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 默认情况下，所有可用字段都显示在信息卡上（在信息卡打开时显示在完整视图中）和信息卡板上的压缩卡片视图中。 您可以自定义显示哪些字段：
 
@@ -71,13 +65,13 @@ ht-degree: 0%
 1. 要显示两个视图中的所有字段，请单击 [!UICONTROL **将所有字段恢复为默认值**].
 1. 单击 [!UICONTROL **隐藏配置**] 以关闭“配置”面板。
 
-<div class="preview">
-
 ## 将自定义字段添加到信息卡
+
+连接的信息卡上提供了自定义字段。 它们仅在完整卡片视图中可见，而不在展示板的压缩视图中可见。
 
 >[!NOTE]
 >
->在信息卡中添加自定义字段时，信息卡上的数据为只读。 此外，自定义字段仅在连接的卡上可用。
+>在信息卡中添加自定义字段时，信息卡上的数据为只读。
 
 1. 访问展示板并单击 [!UICONTROL **配置**] 打开“配置”面板。
 1. 展开 [!UICONTROL **卡片**].
@@ -88,8 +82,16 @@ ht-degree: 0%
 
    ![搜索自定义字段](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >以下字段类型无法添加到信息卡：Adobe XD、图像、PDF、视频。
+
 1. 选择字段名称。
+1. （可选）单击 **[!UICONTROL 字段值]** 字段来更改此自定义字段。
+1. （可选）更改 **[!UICONTROL 字段标签]** 的字段名称。
+1. 完成更改后，单击 [!UICONTROL **保存字段**].
 
-   自定义字段将添加到可用字段列表，并且默认启用。 您可以按照 [配置信息卡](customize-fields-on-card.md#configure-cards) 或将其从展示板中删除。
+   ![自定义字段值和标签](assets/save-custom-field-value-label.png)
 
-</div>
+   自定义字段将添加到可用字段列表，并且默认启用。 您可以按照 [配置信息卡](customize-fields-on-card.md#configure-cards) 编辑字段，或从所有信息卡中删除该字段。
+
