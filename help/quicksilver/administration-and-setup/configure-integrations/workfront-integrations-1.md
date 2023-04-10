@@ -9,9 +9,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 57dc48ebecc4010f3dc08113878a7d5bb4d3ecc6
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,24 @@ ht-degree: 0%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
+   <td> 
+    <ul> 
+     <li>集成 [!DNL Workfront] 对以下Adobe Creative Cloud应用程序的评论和批准： 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>从下载/安装 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交换</a>.</p></li></ul>
+     <p>有关信息和说明，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安装  [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序</a></p> 
+     </td>  <td> </td> 
+   <td> </td> 
+  </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
@@ -277,9 +295,9 @@ ht-degree: 0%
 
    有关更多信息，请参阅 [[!DNL Adobe Workfront Fusion] 概述](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
-* Adobe Experience Manager Assets
-   [!DNL ]
-有关更多信息，请参阅 [配置 [!DNL Workfront] with [!DNL Adobe Experience Manager] 旧连接器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+* [!DNL Adobe Experience Manager Assets]
+
+   有关更多信息，请参阅 [配置 [!DNL Workfront] with [!DNL Adobe Experience Manager] 旧连接器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
 
 ## 合作伙伴集成
 

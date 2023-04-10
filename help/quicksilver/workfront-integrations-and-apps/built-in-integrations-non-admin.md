@@ -6,9 +6,9 @@ title: Adobe Workfront内置集成概述
 description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 例如，如果您是营销行业的创意工作人员，则可以使用Adobe Creative Cloud加载项将资产直接从Photoshop导出到Workfront。
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>集成 [!DNL Workfront] 使用InDesign、Illustrator和Photoshop进行评论和批准 </li> 
-     <li>从ExchangeAdobe或手动下载/安装</li> 
-    </ul> </td> 
+     <li>集成 [!DNL Workfront] 对以下Adobe Creative Cloud应用程序的评论和批准： 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>从下载/安装 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交换</a>.</p></li></ul>
+     <p>有关信息和说明，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安装  [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
