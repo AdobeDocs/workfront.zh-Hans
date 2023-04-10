@@ -6,16 +6,16 @@ title: Adobe Workfront内置集成概述
 description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 例如，如果您是营销行业的创意工作人员，则可以使用Adobe Creative Cloud加载项将资产直接从Photoshop导出到Workfront。
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 2%
 
 ---
 
 # Adobe Workfront内置集成概述
 
-您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 例如，如果您是营销行业的创意工作人员，则可以使用Adobe Creative Cloud加载项将资产直接从Photoshop导出到Workfront。
+您可以集成 [!DNL Adobe Workfront] ，以及其他 [!DNL Adobe] 产品。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 例如，如果您是营销行业的创意员工，则可以使用 [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序将资产直接从Photoshop导出到Workfront。
 
 您的 [!DNL Workfront] 管理员必须先启用并配置内置集成，然后才能使用它们。 要了解在您的组织内使用哪些内置集成，请联系您的 [!DNL Workfront] 管理员。
 

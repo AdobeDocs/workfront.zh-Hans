@@ -7,16 +7,16 @@ title: Adobe Workfront集成方法
 description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 您可以使用任何或所有这些集成，具体取决于哪些集成对给定任务最有用。
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront集成方法
 
-您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 您可以使用任何或所有这些集成，具体取决于哪些集成对给定任务最有用。
+您可以集成 [!DNL Adobe Workfront] ，以及其他 [!DNL Adobe] 产品。 这些集成可以扩展 [!DNL Workfront] 并根据贵组织的需求量身定制。 您可以使用任何或所有这些集成，具体取决于哪些集成对给定任务最有用。
 
 ## 内置集成
 
