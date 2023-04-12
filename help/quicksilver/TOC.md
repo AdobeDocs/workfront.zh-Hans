@@ -2,7 +2,7 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
+source-git-commit: 078f1a4d35f8aab9e650d1e7ddb1ac76665e79c4
 workflow-type: tm+mt
 source-wordcount: '12860'
 ht-degree: 1%
@@ -1698,8 +1698,8 @@ ht-degree: 1%
       * [委派批准请求](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [将新审批流程或现有审批流程与工作关联](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [撤回提交的批准](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 验证 {#proofing}
-      * [验证](review-and-approve-work/proofing/proofing.md)
+   * 校样 {#proofing}
+      * [校样](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校样权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
