@@ -6,7 +6,7 @@ description: 您可以向信息卡中添加标记，以直观地显示它们相�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL “更多”菜单]](assets/more-icon-spectrum.png) ，然后选择 **[!UICONTROL 编辑]**.
 
-1. 从卡中查找要删除的标记，然后单击 **[!UICONTROL 删除]**&#x200B;图标 ![删除标记](assets/copy-of-boards-remove-30x23.png).
+1. 从卡中查找要删除的标记，然后单击 **[!UICONTROL 删除]** 图标 ![删除标记](assets/copy-of-boards-remove-30x23.png).
 1. 单击&#x200B;**[!UICONTROL 关闭]**。
 
 ## 删除标记
