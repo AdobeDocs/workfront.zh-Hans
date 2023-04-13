@@ -4,12 +4,12 @@ keywords: 版本
 navigation-topic: product-announcements
 title: Adobe Workfront发行计划和流程
 description: “预览”环境每周更新一次，其中包含新增功能。 在即将发布的季度版本的发行说明中，将介绍这些功能。
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 季度版本中删除的功能
 
-与给定季度版本相关的所有功能都可以在最终生产版本之前的2-4周的预览版中进行测试。 如果在此之前从季度版本中删除了功能，将采取以下措施通知客户：
+与给定季度版本相关的所有功能都可以在“预览”版中测试，在最终的“生产”版本发布之前，测试时间最少为2-4周。 如果在此之前从季度版本中删除了功能，将采取以下措施通知客户：
 
 * 季度版本的发行说明(位于 [产品版本](../../product-announcements/product-releases/product-releases.md) 页面)，以指示该功能已被删除。
 
@@ -41,6 +41,30 @@ ht-degree: 0%
 * 季度版本的发行说明(位于 [产品版本](../../product-announcements/product-releases/product-releases.md) 页面)，以指示该功能已被删除。
 * 向Workfront社区添加一个帖子，声明该功能已被删除。
 * 通过公告中心向所有客户发送一条消息，说明该功能已被删除。 (公告中心是Workfront的应用程序内通知中心。 有关更多信息，请参阅 [发送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## 测试版
+
+Workfront有时会作为测试版计划的一部分发布新功能。
+有关每个测试版的具体信息，包括如何参与、每个测试版计划启动时的发布和所有测试版计划都不同。
+
+以下是Workfront提供的测试版计划类型：
+
+* **已结束或私人测试版**:以下是封闭版或私有版测试版的特征：
+
+   * 少数客户可以使用这些功能，这些功能由Workfront精心选择。
+   * 参与者通常与产品经理合作并定期提供反馈。
+   * 作为测试版一部分的新功能可以发布到“预览”或“生产”，或发布到为测试版计划提供的单独环境。 已关闭的测试版功能会以随机间隔发布，且不会发出警告。
+   * 产品发行页面上没有关于已关闭测试版的发行信息。
+
+* **公开或公开测试版**:以下是公开或公开测试版版本的特点：
+
+   * 这些功能可供所有Workfront客户使用，但处于测试版状态。 它们可能并非总是功能齐全，而且欢迎随时提供反馈。
+   * 参与公共测试版是可选的，客户可以自行决定是否将测试版功能转换为自己。
+   * 作为测试版一部分的新功能可以发布到“预览”或“生产”。
+   * 与Workfront的常规发布模式相比，功能的发布频率可能更高。
+   * 产品发行页面中包含有关何时将功能发布到公共测试版的信息。
+
+有关产品发行说明的信息，请参阅 [产品版本](../../product-announcements/product-releases/product-releases.md).
 
 ## 发行说明
 
