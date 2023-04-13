@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
 workflow-type: tm+mt
-source-wordcount: '12867'
+source-wordcount: '12875'
 ht-degree: 1%
 
 ---
@@ -2149,6 +2149,7 @@ ht-degree: 1%
    * Adobe Workfront for G Suite {#workfront-for-g-suite}
       * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [安装适用于G Suite的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Workfront for G Suite中的隐私和权限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [登录和退出Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [从G Suite访问Adobe Workfront主页内容](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
       * [从G Suite更新Adobe Workfront对象](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
