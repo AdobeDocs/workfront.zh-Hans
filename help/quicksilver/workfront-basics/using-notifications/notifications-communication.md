@@ -6,10 +6,10 @@ description: 以下通知会提醒您有关涉及的工作项目中发生的通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 4%
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>某人备注我的工作项之一</strong> </p> <p>工作项的被分派人在用户向工作项添加更新时随时会收到电子邮件通知，除非添加更新的用户也是被分派人。 </p> <p>在请求上发布评论时，通过电子邮件将问题主要联系人发送给。</p> <p>问题的主要联系人在请求中发布评论时会收到电子邮件通知，除非发布评论的用户也是问题的主要联系人。</p> <p>直接包含在评论中的任何用户也会收到电子邮件通知。</p> <p>仅当项目状态为[!UICONTROL Current]时，才会发送通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL注释] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>某人备注我的工作项之一</strong> </p> <p>工作项的被分派人在用户向工作项添加更新时随时会收到电子邮件通知，除非添加更新的用户也是被分派人。 </p> <p>在请求上发布评论时，通过电子邮件将问题主要联系人发送给。</p> <p>问题的主要联系人在请求中发布评论时会收到电子邮件通知，除非发布评论的用户也是问题的主要联系人。</p> <p>直接包含在评论中的任何用户也会收到电子邮件通知。</p> <p>即时通知电子邮件的主题是： <em>[!UICONTROL注释] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 每日摘要通知的主题是：<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> 工作项名称<br>项目名称<br>工作项参考编号<br>对工作项发表评论的用户的名称<br>对工作项目的评论文本<br>评论的日期和时间<br>*收到的评论总数<br>*收到的每个对象的注释数<br>*项目名称<br>*<strong>[!UICONTROL请参阅所有通知]</strong> 按钮<br>*每日摘要日期 </td> 
    <td><strong>每日</strong> </td> 
   </tr> 
