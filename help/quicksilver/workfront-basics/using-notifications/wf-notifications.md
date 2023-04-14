@@ -6,14 +6,16 @@ description: Adobe Workfront会在您的移动设备上发送电子邮件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] 通知
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] 在移动设备上发送电子邮件通知、应用程序内通知和通知。
 
@@ -32,6 +34,7 @@ ht-degree: 1%
 * [已发布评论的通知](#notification-of-posted-comments)
 * [自动提醒](#automatic-reminders)
 * [提醒通知](#reminder-notifications)
+* [展示板通知](#boards-notifications)
 * [其他 [!DNL Workfront] 电子邮件](#other-workfront-emails)
 
 ### 事件通知
@@ -127,6 +130,16 @@ A [!DNL Workfront] 管理员(或具有 [!UICONTROL 计划员] 访问级别和对
 
 有关设置和启用提醒通知的信息，请参阅 [设置提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+<span class="preview">
+
+### 展示板通知
+
+[!DNL Adobe Workfront] [!UICONTROL 展示板] 在您被添加到展示板以及向您分配信息卡时，会向您发送电子邮件。
+
+您可以在展示板首选项中选择要接收的电子邮件。 有关更多信息，请参阅 [展示板电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
+
 ### 其他 [!DNL Workfront] 电子邮件
 
 您可能会从收到其他电子邮件 [!DNL Workfront] 无法配置。 以下电子邮件由 [!DNL Workfront] 当满足这些条件时：
@@ -153,7 +166,7 @@ A [!DNL Workfront] 管理员(或具有 [!UICONTROL 计划员] 访问级别和对
 
 * [!UICONTROL 处理此项工作]
 * [!UICONTROL 评论]
-* [!UICONTROL 做批准决定]
+* [!UICONTROL 做审批决策]
 * [!UICONTROL 查看所有通知]
 * [!UICONTROL 添加]
 * [!UICONTROL 开始]
