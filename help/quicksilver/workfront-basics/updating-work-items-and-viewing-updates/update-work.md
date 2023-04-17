@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ drafted for P&P release:
    >   只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
 
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤4-7。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （视情况而定和可选）如果其他用户添加了注释，这些注释会在“更新”部分的可见区域之外显示，请单击 **查看** 在蓝色里面 **新建评论横幅** 来显示这些注释。
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   屏幕底部会显示其他注释。
+
+   >[!NOTE]
+   >
+   >   仅当输入新更新的用户以及当前正在查看更新部分的用户都使用新的注释体验时，才会显示“新注释”指示器和“查看”按钮。
+
+
 1. （可选）单击 **赞** 图标![](assets/like-icon.png). 该图标会随称赞次数而更新。
 1. （视情况而定和可选）如果您在评论中包含其他人员，请单击更新中包含的成员数，以显示您输入的评论与之共享的实体列表。
 

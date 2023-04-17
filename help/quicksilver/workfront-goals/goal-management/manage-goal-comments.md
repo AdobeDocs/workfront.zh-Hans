@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ ht-degree: 0%
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-9。 <!--insure this stays accurate-->
+1. （视情况而定和可选）如果其他用户添加了注释，这些注释会在“更新”部分的可见区域之外显示，请单击 **查看** 在蓝色里面 **新建评论横幅** 来显示这些注释。
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   屏幕底部会显示其他注释。
 1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
 1. （可选）要向更新添加富文本格式，请在键入内容时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）单击 **系统活动** 选项卡查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在系统活动选项卡中。 Workfront还会在将结果、活动或项目添加到目标或进行更新时记录系统更新。 <!--ensure the casing on the tab has not changed-->
