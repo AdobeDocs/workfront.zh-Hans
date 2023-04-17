@@ -7,9 +7,9 @@ description: 利用Adobe Workfront Fusion DevTool，可了解情景并排除其�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 3d5b9e178cc3222523b558e3c6717ce54f322ff9
+source-git-commit: c7946e975c82f54c1a20e716f73d0cf8053ee1a6
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -51,17 +51,28 @@ ht-degree: 0%
 
 ## 安装 [!DNL Chrome] DevTool扩展
 
-使用 [!DNL Workfront Fusion] DevTool，您首先需要安装它。
+<!--
+To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
-1. 单击 [此链接](assets/workfront-fusion-devtool-2023-feb.zip) 下载扩展。
-1. 下载文件后，将其解压缩到您选择的文件夹。
-1. 在中打开选项卡 [!DNL Chrome]
-1. 在选项卡的搜索栏中，输入 `chrome://extensions`.
-1. 单击 **[!UICONTROL 开发人员模式]** 在屏幕的右上角切换以启用开发人员模式。 如果切换到右侧，则会启用开发人员模式。
-1. 单击 **[!UICONTROL 加载已解压的]**.
-1. 选择包含DevTool的文件夹（您在步骤2中已将文件解压到该文件夹）。
+1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
+1. When the files have downloaded, extract them to a folder of your choice.
+1. Open a tab in [!DNL Chrome]
+1. In the search bar of the tab, enter `chrome://extensions`.
+1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
+1. Click **[!UICONTROL Load unpacked]**.
+1. Select the folder containing the DevTool (where you extracted the files in step 2).
 
-   解压后，DevTool会显示在您的其他Chrome扩展中。
+   Once unpacked, the DevTool appears among your other Chrome extensions.
+   -->
+
+您可以将 [!DNL Workfront Fusion] DevTool到 [!DNL Chrome] 到 [!UICONTROL [!DNL Chrome] 网上商店].
+
+1. 单击 [此链接](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 转到 [!DNL Workfront Fusion] 上的DevTool [!UICONTROL [!DNL Chrome] 网上商店].
+1. 单击 [!UICONTROL 添加到 [!DNL Chrome]].
+1. 在打开的窗口中，检查权限。 如果您同意这些权限，请单击 [!UICONTROL 添加扩展].
+
+的 [!DNL Workfront Fusion] DevTool扩展已添加到 [!DNL Chrome] 扩展。
+
 
 ## 找到 [!DNL Workfront Fusion] DevTool
 
