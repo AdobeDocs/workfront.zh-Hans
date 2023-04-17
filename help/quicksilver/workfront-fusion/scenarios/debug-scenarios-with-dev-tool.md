@@ -7,7 +7,7 @@ description: 利用Adobe Workfront Fusion DevTool，可了解情景并排除其�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c7946e975c82f54c1a20e716f73d0cf8053ee1a6
+source-git-commit: c7d3a5927996c76b4f7e66302809c2b46dd5f1d7
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -68,8 +68,8 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 您可以将 [!DNL Workfront Fusion] DevTool到 [!DNL Chrome] 到 [!UICONTROL [!DNL Chrome] 网上商店].
 
 1. 单击 [此链接](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 转到 [!DNL Workfront Fusion] 上的DevTool [!UICONTROL [!DNL Chrome] 网上商店].
-1. 单击 [!UICONTROL 添加到 [!DNL Chrome]].
-1. 在打开的窗口中，检查权限。 如果您同意这些权限，请单击 [!UICONTROL 添加扩展].
+1. 单击 **[!UICONTROL 添加到[!DNL Chrome]]**.
+1. 在打开的窗口中，检查权限。 如果您同意这些权限，请单击 **[!UICONTROL 添加扩展]**.
 
 的 [!DNL Workfront Fusion] DevTool扩展已添加到 [!DNL Chrome] 扩展。
 
