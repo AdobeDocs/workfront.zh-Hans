@@ -7,9 +7,9 @@ description: 您可以在 [!DNL Adobe] Workfront融合。
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ ht-degree: 0%
 
 ## 创建新模板
 
+您可以在与构建方案类似的流程中构建模板。 Fusion管理员还可以根据现有场景创建模板。
+
+* [构建模板](#build-a-template)
+* [根据方案创建模板](#create-a-template-from-a-scenario)
+
+### 构建模板
+
 1. 单击 **[!UICONTROL 模板]** ![](assets/fusion-template-icon.png) 中。
 1. 单击 **[!UICONTROL 创建新模板]** 中。
 1. （可选）通过替换默认模板 **[!UICONTROL 新模板名称]** 中。
@@ -81,6 +88,36 @@ ht-degree: 0%
 >[!NOTE]
 >
 >通过保存模板，可使模板对所有团队成员可见。 如果您希望模板可在团队外部访问，则需要发布该模板，然后使用共享链接，或请求管理员批准和发布模板。
+
+### 根据方案创建模板
+
+>[!NOTE]
+>
+>您必须是Fusion管理员才能根据情景创建模板。
+
+1. 打开要从中创建方案的方案的方案详细信息页面。
+1. 单击 **管理员** 在页面的右上角附近下拉。
+1. 选择 **克隆为模板**.
+
+   方案将复制到新模板页面中。
+1. （可选）通过替换默认模板 **[!UICONTROL 新模板名称]** 中。
+1. （可选）要更改模板的语言，请单击 **[!UICONTROL 设置模板]** ![](assets/fusion-scenario-settings-icon.png) 并从语言下拉列表中选择语言。
+
+   >[!IMPORTANT]
+   >
+   >“语言”选项与系统设置中提供的语言相对应，只涉及公共模板的名称及其说明。 保存模板后，便无法更改模板语言。
+
+1. （可选）要输入模板的说明，请单击 **[!UICONTROL 设置模板]** ![](assets/fusion-scenario-settings-icon.png) 并输入描述。
+1. 编辑应用程序、模块和工具的方式与编辑标准方案时的方式相同。
+
+   要向模块添加上下文帮助，请参阅 [设置 [!UICONTROL 向导] 功能](#set-up-wizard-functionality) 在本文中。
+
+   >[!NOTE]
+   >
+   >如果您的模板包含需要添加连接、凭据或其他隐私敏感信息的模块，则此信息不会与模板用户共享。
+
+1. （可选）单击 **[!UICONTROL 运行一次]** 来测试模板。
+1. 单击 **[!UICONTROL 保存]** 图标 ![](assets/save-icon.png).
 
 ## 设置 [!UICONTROL 向导] 功能 {#set-up-wizard-functionality}
 
