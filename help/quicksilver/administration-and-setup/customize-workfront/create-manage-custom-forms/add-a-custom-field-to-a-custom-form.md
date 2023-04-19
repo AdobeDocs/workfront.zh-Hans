@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -156,11 +156,12 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">格式</td> 
-      <td> <p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注释</b>:   
-        <ul> 
-         <li>保存表单后，无法编辑此字段。 如果您打算在数学计算中使用字段，请确保选择数字或货币格式。<br></li> 
-         <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li> 
-        </ul> </p> </td> 
+      <td> <p>选择将在自定义字段中捕获的数据类型。 保存表单后，您可以更改格式选择，但新格式必须支持输入的值。</p>
+
+   <p><strong>示例：</strong> 如果为至少一个对象上具有文本格式的字段保存数字值，然后将格式更改为数字或货币，则不会遇到错误。 </p>
+      <p>但是，如果您在至少一个对象上以文本格式将字母数字值保存在字段中，然后尝试将格式更改为数字或货币，则您将遇到错误，因为保存的字母数字值与数字或货币格式不兼容。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">显示类型</td> 
@@ -204,7 +205,7 @@ ht-degree: 2%
       <td>（仅限描述性文本字段）如果要将超链接应用于您键入的描述性文本，请将其添加到此处。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">创建必填字段</td> 
+      <td role="rowheader">制作一个必填字段</td> 
       <td>如果希望必填字段以供用户完成自定义表单，请选择此选项。 </td> 
      </tr> 
      <tr> 
