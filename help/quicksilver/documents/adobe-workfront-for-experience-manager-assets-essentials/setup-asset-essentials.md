@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials — 编辑我中将您的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '531'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 5%
 * 将资产从Experience Manager Assets Essentials链接到Workfront中的项目和任&#x200B;务
 * 促进推送到Experience Manager Assets Essentials的资产的版本控制工作流
 
+您还可以将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境跨组织ID连接到一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
 ## 访问要求
 
