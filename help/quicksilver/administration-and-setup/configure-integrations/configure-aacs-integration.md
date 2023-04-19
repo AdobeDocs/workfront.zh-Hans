@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets集成
 description: 您可以通过以下Adobe Experience Manager Assets集成来连接您的工作。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * 跟踪资产和文件夹的元数据
 * 在之间同步项目元数据 [!DNL Workfront] 和 [!DNL Experience Manager Assets]
 
+您还可以将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境跨组织ID连接到一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
 ## 访问要求
 
