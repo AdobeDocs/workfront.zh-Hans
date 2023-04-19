@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ### Workfront — 每周创建基线
 
 此模板会在每周的东部时间周一早上6点对按项目组合过滤的项目捕获项目基线，并在更新流中创建更新以进行日志记录。
+
+### 查找策略时间中未使用的项目模板并通知
+
+每月使用您自己的策略查看一次项目模板，该策略具有易于管理的模板，可通知相应用户模板，从而违反您的策略。
 
 ## Workfront - Workfront校样模板
 
