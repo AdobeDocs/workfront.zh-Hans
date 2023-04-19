@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装Adobe Workfront for Photoshop插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,15 @@ ht-degree: 1%
 
 * 您必须安装 [!DNL Adobe Photoshop] 应用程序 [!DNL Workfront] 插件。
 
-## 安装 [!DNL Adobe Workfront for Photoshop] 插件
+## 安装 [!DNL Adobe Workfront for Photoshop] 用于您组织的插件
 
->[!TIP]
->
->如果您是 [!DNL Adobe Admin Console] 管理员，您可以在 [!DNL Creative Cloud] 部署包。 有关更多信息，请参阅 [在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+如果您是 [!DNL Adobe Admin Console] 管理员，您可以在 [!DNL Creative Cloud] 部署包。 有关更多信息，请参阅 [在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[在此处查看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## 安装 [!DNL Adobe Workfront for Photoshop] 单独插件
+
+您可以安装 [!DNL Adobe Workfront for Photoshop] 插件 [!DNL Adobe Exchange].
 
 1. 转到 [Adobe Workfront for Photoshop安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) Adobe交换。
 1. 在出现的对话框中，单击 **打开 [!DNL Adobe Creative Cloud] 桌面应用程序**.
