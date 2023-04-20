@@ -6,14 +6,16 @@ description: 您可以在展示板上添加一个信息卡，该信息卡已连�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
 
 # 在主板上使用连接的卡
+
+{{highlighted-preview}}
 
 您可以在展示板上添加一个信息卡，该信息卡已连接到 [!DNL Workfront].
 
@@ -96,21 +98,21 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL名称]</strong></td> 
-      <td> <p>更改名称也会更改连接的名称 [!DNL Workfront] 对象。</p> </td> 
+      <td>更改名称也会更改连接的名称 [!DNL Workfront] 对象。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong></td> 
-      <td> <p>更改描述还会更改连接的 [!DNL Workfront] 对象。</p> </td> 
+      <td>更改描述还会更改连接的 [!DNL Workfront] 对象。 <span class="preview">您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL任务负责人]</strong></td>
-      <td><p>要向信息卡分配更多人员或团队，请开始在搜索字段中键入名称，然后在列表中显示时选择该名称。 您可以添加个人和团队。 连接的卡上只允许一个团队分配。</p>
+      <td><p>要向信息卡分配更多人员或团队，请开始在搜索字段中键入名称，然后在列表中显示时选择该名称。 您可以添加个人和团队。 在连接的卡上只允许一个团队分配。</p>
       <p>受分配者必须是董事会成员，否则他们不会出现在选择列表中。 当团队是展示板上的成员时，可以将各个团队成员分配到卡片中。</p>
       <p>您选择的任何受分配人也会分配给 [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>选择卡的列。</p></td>
+      <td>选择卡的列。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL状态]</strong></td>
@@ -120,7 +122,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL计划完成]</strong></td>
-      <td><p>更改此日期还会更改连接的计划完成日期 [!DNL Workfront] 对象。</p></td>
+      <td>更改此日期还会更改连接的计划完成日期 [!DNL Workfront] 对象。</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL估计]</strong></td>
@@ -137,6 +139,12 @@ ht-degree: 0%
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">使用左侧的导航面板可在卡片详细信息的字段组之间移动。</span>
+
+   >[!NOTE]
+   >
+   >左侧导航面板和在“描述”字段中添加可单击链接的功能，只有通过为Workfront展示板提供早期功能选择加入才可用。
 
 1. 单击 **[!UICONTROL 关闭]** 回到董事会。
 卡片上会显示连接的对象、受让人、标记、到期日期、核对清单计数器、预计小时数和状态。
