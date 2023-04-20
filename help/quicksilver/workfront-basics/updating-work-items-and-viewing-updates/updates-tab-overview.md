@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对跟踪对象更改的对�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 4%
   <tr> 
    <td> 
     <ul> 
-     <li>目标</li> 
+     <li><p>目标</p>
+     <p>这是目标的默认体验</p>
+     </li> 
      </ul> </td> 
    <td> 
     <ul> 
