@@ -6,16 +6,14 @@ description: 除了使用Workfront在您输入新请求时向您建议的可用�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # 从草稿创建请求
-
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
 
 除了使用Workfront在您输入新请求时向您建议的可用草稿之外，您还可以从“草稿”部分访问草稿请求，然后从此处完成提交。
 
@@ -61,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">（可选）单击列标题可按该列对列表进行排序。</span>
+1. （可选）单击列标题可按该列对列表进行排序。
 
 1. 在“草稿”列表的以下列中查看有关每个草稿的信息：
 
@@ -73,7 +71,12 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. <span class="preview">（可选）使用“草稿”列表右上角的快速过滤器，开始键入草稿请求、请求队列、队列主题或主题组的名称，然后单击草稿的名称以将其打开。 </span>
+1. （可选）使用“草稿”列表右上角的快速过滤器，开始键入草稿请求、请求队列、队列主题或主题组的名称，然后单击草稿的名称以将其打开。
+
+   >[!TIP]
+   >
+   >不能在“请求”区域的“草稿”部分应用永久筛选器。 此外，没有用于修改或更改草稿列表视图的选项。
+
 1. 按照 [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. （可选和视情况而定）在输入请求期间的任意时间点，单击 **放弃** 草稿。 这将删除无法恢复的草稿。 有关删除草稿的详细信息，请参阅 [删除请求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
