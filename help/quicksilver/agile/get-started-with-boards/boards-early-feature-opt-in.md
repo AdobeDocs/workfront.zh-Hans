@@ -6,9 +6,9 @@ title: 抢先试用功能选择加入 [!DNL Adobe Workfront] 展示板
 description: 阅读本文，了解 [!DNL Workfront Boards] 抢先试用功能选择加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>将旧看板卡迁移到展示板</td>
-   <td>计划</td>
+   <td>部分释放</td>
   </tr>
   <tr>
    <td>创建动态展示板</td>
