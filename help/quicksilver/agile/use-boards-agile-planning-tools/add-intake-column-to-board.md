@@ -7,9 +7,9 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 您可以选择在展示板中添加一个摄取列，在将任务和问题作为连接的信息卡添加到时，将其自动提取 [!DNL Workfront]，基于您定义的过滤器。 进纸列可用作看板团队的积压工作列、支持团队在问题添加到请求队列时查看问题的进纸位置，或您需要的任何其他目的。
 
 一个展示板上只允许有一列进纸，它始终显示为最左侧的栏。
+
+进纸柱在动态板上不可用。
 
 摄入量限制为300项任务和300项问题。 它们按项目上定义的优先级排序。 有关优先级的信息，请参阅 [更新任务优先级](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) 和 [更新问题优先级](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
