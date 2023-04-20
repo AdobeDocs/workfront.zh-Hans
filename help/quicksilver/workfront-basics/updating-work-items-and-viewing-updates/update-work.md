@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 草拟注释仅对输入这些注释的用户可见。
+   >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 添加到评论的任何图像也会保存在草稿中。 草稿将保存7天，之后将被丢弃，无法恢复。 草拟注释仅对输入这些注释的用户可见。
 
 1. （可选）在 **标记人员或团队** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
 1. （可选）要向更新添加富文本格式，请在 **富文本** 工具栏来增强文本：
@@ -223,7 +223,7 @@ drafted for P&P release:
 
 1. 单击 **提交** 将更新添加到Workfront对象。
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息 <!--or remove any of the tagged users-->.
+1. 编辑评论中的信息，或删除任何已标记的用户。
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ drafted for P&P release:
    1. 在 **要显示的文本**，请键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选）要将图像附加到更新，请单击 **图像** 图标 ![](assets/addimageicon-35x32.png) 浏览到您计算机上的图像。\
-   或\
-   将图像拖入更新区域。
+1. （可选）要将图像附加到更新，请根据您使用的环境，执行下列操作之一：
+
+   * 单击 **图像** 图标 ![](assets/addimageicon-35x32.png) 并在使用当前更新体验时，浏览到计算机上的图像或将图像拖到更新区域
+
+   或
+
+   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用注释测试版体验时，浏览到您计算机上的图像。
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **确认** 或 **删除**，使用评论测试版体验时。
+1. 在显示的消息中，单击 **确认** 或单击 **删除**，使用评论测试版体验时。
 
->[!NOTE]
->
->删除附加图像的更新会同时删除注释和图像。
+   >[!NOTE]
+   >
+   >删除附加图像的更新会同时删除注释和图像。
+
+   如果删除的评论具有与其关联的回复，则表示该评论已被删除，且其删除者的姓名也与之相关。
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   使用评论测试版体验时，已删除的评论会立即从Workfront中删除。 使用“更新”部分的用户会看到其他用户实时删除评论。
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## 添加时间表更新
 
