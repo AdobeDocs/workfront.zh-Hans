@@ -5,7 +5,8 @@ navigation-topic: boards
 title: 展示板电子邮件通知和首选项
 description: Adobe Workfront展示板在您添加到展示板以及向您分配信息卡时，会向您发送电子邮件。
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 展示板电子邮件通知和首选项
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板] 在您被添加到展示板以及向您分配信息卡时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择要接收的电子邮件。
 
