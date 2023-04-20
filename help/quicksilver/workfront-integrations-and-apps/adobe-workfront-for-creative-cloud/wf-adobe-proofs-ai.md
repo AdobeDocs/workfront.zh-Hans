@@ -5,13 +5,13 @@ title: 从Illustrator上传校样
 description: 您可以将您的画板作为文档上传，以便快速审核和批准，或者只是存储在Adobe Workfront中。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # 从上传校样 [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 校样批准]** 选择 **[!UICONTROL 自动]**.
 1. （可选）在 **[!UICONTROL 工作流模板]** 框中，键入校样工作流模板的名称。
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

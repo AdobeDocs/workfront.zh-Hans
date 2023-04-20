@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ ht-degree: 0%
 
 ## 调整自动校样设置 {#adjust-proof-settings}
 
-1. （可选）调整自动校样设置
+1. （可选）调整自动校样工作流设置
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>验证阶段</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>禁用阶段
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>验证阶段</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>禁用阶段
+         </td>
+         <td>
+      <ol>
 
    <li>切换全选以禁用所有阶段。 
-   <p>或</p></li>
-   <li>切换各个阶段。</li>
+      <p>或</p></li>
+      <li>切换各个阶段。</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>添加收件人
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>添加收件人
+         </td>
+         <td>
+      <ol>
 
    <li>在添加新收件人框中，开始键入用户的名称。
-
-   注意：您无法通过插件中的电子邮件添加外部收件人。
 
    <li>指定校样角色。
 
    <li>为收件人选择电子邮件警报的类型。 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>设置截止时间
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>设置截止时间
+         </td>
+         <td>
+      <ol>
 
    <li>选择截止日期。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>电子邮件通知</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>将校样通知收件人
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>电子邮件通知</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>将校样通知收件人
+         </td>
+         <td>
+      <ol>
 
    <li>启用此复选框可在创建校样时通知用户。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>添加自定义消息
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>添加自定义消息
+         </td>
+         <td>
+      <ol>
 
    <li>键入主题。
 
    <li>键入自定义消息。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
