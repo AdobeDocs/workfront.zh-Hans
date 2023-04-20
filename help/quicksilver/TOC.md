@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 3d7a9637ea3f2bb11919456ed8e47ba3be6f791f
+source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
 workflow-type: tm+mt
-source-wordcount: '12917'
+source-wordcount: '12919'
 ht-degree: 1%
 
 ---
@@ -2035,6 +2035,7 @@ ht-degree: 1%
       * [Adobe Experience Manager Assets模块](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Journey Optimizer模块](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe PDF服务模块](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [可放气模块](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Adobe Target模块](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [亚洛迪亚模块](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan模块](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
