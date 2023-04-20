@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 草拟注释仅对输入这些注释的用户可见。
+   >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 添加到评论的任何图像也会保存在草稿中。 草稿将保存7天，之后将被丢弃，无法恢复。 草拟注释仅对输入这些注释的用户可见。
 
+1. （可选）要向更新添加富文本格式，超链接或图像会使用富文本工具栏上的任意选项，或使用富文本工具栏上的任意选项，或使用富文本工具栏旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）在 **标记人员或团队** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
+1. 选择 **对我的公司私有** 切换以使评论仅对公司中的人员可见。
+
+   >[!TIP]
+   >
+   >您必须在配置文件中指定公司才能在“更新”区域中使用此选项。
+
+1. 单击 **提交**.
+
+   >[!TIP]
+   >
+   >如果其他用户将评论提交到您正在更新的同一项目，则会有一条带有“New”（新建）指示符的红线，用于通知您较新的评论。
+   >
+   >只有在对项目提交评论后，才会显示指示器，而在仍在撰写评论时，才会显示指示器。
+   >
+   >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息&lt;<!--, or remove any of the tagged users-->.
+1. 编辑评论中的信息，或删除任何已标记的用户。
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ ht-degree: 0%
 
          有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. 单击 **提交**.
-
-   >[!TIP]
-   >
-   >如果其他用户将评论提交到您正在更新的同一项目，则会有一条带有“New”（新建）指示符的红线，用于通知您较新的评论。
-   >
-   >只有在对项目提交评论后，才会显示指示器，而在仍在撰写评论时，才会显示指示器。
-   >
-   >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。
+1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 在评论的右侧，单击 **删除** 要删除您添加的评论。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤5-9。 <!--insure this stays accurate-->
 1. （视情况而定和可选）如果其他用户添加了注释，这些注释会在“更新”部分的可见区域之外显示，请单击 **查看** 在蓝色里面 **新建评论横幅** 来显示这些注释。
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
    屏幕底部会显示其他注释。
 1. （可选）单击 **赞** 图标![](assets/like-icon.png) 喜欢别人添加的评论。 该图标会随称赞次数而更新。
-1. （可选）要向更新添加富文本格式，请在键入内容时使用富文本工具栏上的任何属性。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. （可选）单击 **系统活动** 选项卡查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在系统活动选项卡中。 Workfront还会在将结果、活动或项目添加到目标或进行更新时记录系统更新。 <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
