@@ -6,14 +6,16 @@ description: 您可以快速将临时信息卡添加到展示板，并将其分�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # 向展示板添加临时信息卡
+
+{{highlighted-preview}}
 
 您可以快速将信息卡添加到展示板，并将其分配给展示板上的成员。 该卡可以表示任务、问题、人员、组，或要包含在展示板中的任何类型的项目。
 
@@ -63,7 +65,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong> </td> 
-      <td>卡的描述。</td> 
+      <td>卡的描述。 <span class="preview">您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL任务负责人]</strong> </td> 
@@ -96,7 +98,17 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+   生产环境中的卡片详细信息图像示例：
    ![临时卡片详细信息](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">预览环境中的卡片详细信息图像示例：
+   ![临时卡片详细信息](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">使用左侧的导航面板可在卡片详细信息的字段组之间移动。</span>
+
+   >[!NOTE]
+   >
+   >左侧导航面板和在“描述”字段中添加可单击链接的功能，只有通过为Workfront展示板提供早期功能选择加入才可用。
 
 1. 单击 **[!UICONTROL 关闭]** 将信息卡添加到展示板。
 
