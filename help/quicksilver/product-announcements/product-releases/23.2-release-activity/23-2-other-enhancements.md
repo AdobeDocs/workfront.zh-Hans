@@ -4,7 +4,8 @@ description: 23.2其他增强功能
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 未来版本中将添加更多功能，因为这些增强功能将继续添加到其他对象中。
 
-有关新的注释体验提供内容的信息，请参阅 [统一的注释体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+有关新的注释体验提供内容的信息，请参阅 [新的注释体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 

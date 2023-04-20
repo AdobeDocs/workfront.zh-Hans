@@ -2,7 +2,7 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 1%
@@ -808,7 +808,7 @@ ht-degree: 1%
       * [更新时标记其他人](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [在备注报表中查看所有更新](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [“处理并完成”按钮概述](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [统一的注释体验](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [新的注释体验](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * 使用自定义表单 {#work-with-custom-forms}
       * [使用自定义表单](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [将自定义表单添加到对象](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

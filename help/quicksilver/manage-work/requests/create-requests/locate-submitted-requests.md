@@ -6,9 +6,9 @@ description: 了解Adobe Workfront的哪些区域，您可以在这些区域找�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >您不能在“请求”区域的“已提交”部分修改过滤器。 此外，没有用于修改或更改已提交请求列表视图的选项。
+   >您不能在“请求”区域的“已提交”部分修改过滤器。
 
    <table style="table-layout:auto"> 
     <col> 
