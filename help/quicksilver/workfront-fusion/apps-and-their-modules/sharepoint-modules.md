@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [驱动器项目](#drive-item)
 * [项](#item)
 * [列表](#list)
 * [页面（测试版）](#page-beta)
 * [网站](#site)
 * [其他](#other)
+
+### 驱动器项目
+
+* [创建文件](#create-a-file)
+* [创建文件夹](#create-a-folder)
+* [获取文件](#get-a-file)
+* [监视文件夹项目](#watch-folder-items)
+
+#### 创建文件
+
+此操作模块在SharePoint中创建新文件。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
+   <td> <p>选择您希望如何标识要创建的文件的位置。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL文件夹ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要创建文件的位置。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL源文件]</td> 
+   <td>从前一个模块中选择源文件，或映射源文件的名称和数据。</td> 
+  </tr>  </tbody> 
+</table>
+
+#### 创建文件夹
+
+此操作模块会在SharePoint中创建新文件夹。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
+   <td> <p>选择您希望如何识别要创建的文件夹的位置。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL文件夹ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要创建文件夹的位置。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL文件夹名称]</td> 
+   <td>输入或映射新文件夹的名称。</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### 获取文件
+
+此操作模块检索指定的SharePoint文件。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
+   <td> <p>选择您希望如何识别要获取的文件的位置。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL文件ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择文件的位置。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### 监视文件夹项目
+
+当项目在您选择的文件夹中更新时，此触发器模块会启动一个方案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
+   <td> <p>选择您希望如何识别要获取的文件的位置。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL文件夹ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要监视的文件夹的位置。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td>输入最大项数 [!DNL Workfront Fusion] 应在一个方案执行周期中返回。</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### 项
 
