@@ -7,9 +7,9 @@ description: 在使用临时卡片和连接卡片创建展示板时，您可能�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [向展示板添加进气柱](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [配置卡片衰减](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [将敏捷团队看板卡迁移到Workfront展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
