@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion可无缝地连接您的应用程序和Web服
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
+source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 有关如何使用Workfront Fusion的信息，请参阅 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## 最新版本
+
+### 2023年4月
+
+* [Workfront Fusion版本活动：2023年4月17日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
 ### 2023年3月
 
@@ -84,6 +88,10 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 
 * [Workfront Fusion版本活动：2022年1月3日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## 2021年发布的Fusion版本
+
++++**单击以打开**
+
 ### 2021年11月
 
 * [Workfront Fusion版本活动：2021年11月29日一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
@@ -142,6 +150,12 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 * [Workfront Fusion版本活动：2021年1月11日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion版本活动：2021年1月4日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## 2020年发布的Fusion版本
+
++++**单击以打开**
+
 ### 2020年12月
 
 * [Workfront Fusion版本活动：2020年12月7日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -160,3 +174,5 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 
 * [Workfront Fusion版本活动：2020年8月24日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion版本活动：2020年8月17日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++
