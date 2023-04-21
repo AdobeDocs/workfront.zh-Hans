@@ -5,23 +5,19 @@ title: 面向非付费用户的有限文档和验证决策概述 
 description: 对于所有未付费的Workfront许可证，证明和文档决策是有限的。 每月根据每位用户重置限制。
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # 面向非付费用户的有限文档和验证决策概述
 
-对于所有未付费的Workfront许可证，证明和文档决策是有限的。 每月根据每位用户重置限制。
+对于新计划的所有未付费的Workfront许可证，证明和文档决定是有限的。 有关更多信息，请参阅 [新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->校样和文档决策限制不适用于 [旧版Workfront许可证和访问级别](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-每个许可证的决策限制因您所执行的计划而异：
+每月根据每位用户重置限制。 每个许可证的决策限制因您所执行的计划而异：
 
 <table>
   <tr>

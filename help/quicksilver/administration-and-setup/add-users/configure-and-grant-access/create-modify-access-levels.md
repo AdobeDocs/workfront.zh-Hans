@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。 在使用访问级别时，务必要了解它们如何与用户在彼此共享对象时授予的对象权限一起使用。 有关访问级别的更多信息，请参阅
 
-* [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [旧版访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">许可证类型</td> 
-      <td>确保此处选择的许可证与您创建或编辑的访问级别类型最为相关。 所选许可证决定哪些设置可用于访问级别。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">旧版许可证概述</a> 或 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront旧版许可证概述</a>.</td> 
+      <td>确保此处选择的许可证与您创建或编辑的访问级别类型最为相关。 所选许可证决定哪些设置可用于访问级别。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a> 或 <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">许可证概述</a>.</td> 
      </tr> 
     </tbody> 
    </table>

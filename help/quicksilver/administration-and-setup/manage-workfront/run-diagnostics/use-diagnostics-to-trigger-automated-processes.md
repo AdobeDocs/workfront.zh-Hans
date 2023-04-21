@@ -7,9 +7,9 @@ description: 您可以使用诊断手动触发自动化流程，例如基于时�
 feature: System Setup and Administration
 role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">旧版许可证概述</a> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a> </td> 
    <td> <p>计划 </p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</td> 
   </tr> 
  </tbody> 

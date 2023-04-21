@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: 配置是否自动生成校样
 description: 您可以配置当用户指定向Workfront添加文档时，系统是否自动生成校样。 默认情况下，此设置处于禁用状态。
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">旧版许可证概述</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>*</td> 
    <td>计划</td> 
   </tr> 
   <tr> 

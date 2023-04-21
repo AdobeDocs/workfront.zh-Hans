@@ -1,5 +1,5 @@
 ---
-title: 访问级别概述
+title: 新访问级别概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: 每个用户必须具有访问级别，才能登录并在Workfront�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
 
-# 访问级别概述
+# 新访问级别概述
 
 作为Adobe Workfront管理员，您可以为用户分配访问级别，具体用途如下：
 
 * 每个用户必须具有访问级别，才能登录并在Workfront中工作。
 * 您可以使用访问级别控制用户可以查看和处理某些Workfront对象和区域的内容。
 
-## Adobe Workfront中的内置访问级别 {#built-in-access}
+## Adobe Workfront中新的内置访问级别 {#built-in-access}
 
-Workfront具有6个内置访问级别：
+Workfront具有6个新的内置访问级别：
 
 * 系统管理员
 * 标准

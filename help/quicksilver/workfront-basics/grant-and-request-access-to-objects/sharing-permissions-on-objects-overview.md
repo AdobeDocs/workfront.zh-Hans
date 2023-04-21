@@ -6,7 +6,7 @@ description: 您可以共享或移除您创建的对象或与您共享的对象�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 您不必是Adobe Workfront管理员，即可共享您有权访问的对象的权限，但对对象的权限在Workfront管理员设置的访问级别内有效。
 
-您可以共享或移除您创建的对象或与您共享的对象的权限。 当您不是对象的创建者时，除了对对象的“共享”权限之外，还必须对要在访问级别共享的对象具有“共享”访问权限。 有关访问级别的信息，请参阅 [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [旧版访问级别概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+您可以共享或移除您创建的对象或与您共享的对象的权限。 当您不是对象的创建者时，除了对对象的“共享”权限之外，还必须对要在访问级别共享的对象具有“共享”访问权限。 有关访问级别的信息，请参阅 [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [访问级别概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

@@ -1,26 +1,26 @@
 ---
-title: 可对每种对象类型的功能进行可配置的旧版访问
-description: 本文介绍作为Adobe Workfront管理员，您可以在每个旧版访问级别中，为每个对象类型提供哪些权限。 它还说明每种类型的旧版访问级别的默认配置。
+title: 可配置地访问每种对象类型的功能
+description: 本文介绍作为Adobe Workfront管理员，您可以在每个访问级别中允许对每种对象类型执行哪些操作。 它还说明每种类型访问级别的默认配置。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3435'
 ht-degree: 10%
 
 ---
 
-# 可对每种对象类型的功能进行可配置的旧版访问
+# 可配置地访问每种对象类型的功能
 
-本文介绍作为Adobe Workfront管理员，您可以在每个旧版访问级别中，为每个对象类型提供哪些权限。 它还说明每种类型的旧版访问级别的默认配置。
+本文介绍作为Adobe Workfront管理员，您可以在每个访问级别中允许对每种对象类型执行哪些操作。 它还说明每种类型访问级别的默认配置。
 
 有关每个访问级别中对象类型可用的所有功能的信息，请参阅 [可用于每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## 项目
 
-在每个旧版访问级别中，您可以为项目配置以下选项：
+在每个访问级别中，您可以为项目配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 任务
 
-在每个旧版访问级别中，您可以为任务配置以下选项：
+在每个访问级别中，您可以为任务配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ ht-degree: 10%
 
 ## 问题
 
-在每个旧版访问级别中，您可以针对问题配置以下选项：
+在每个访问级别中，您可以针对问题配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ ht-degree: 10%
 
 ## 项目组合
 
-在每个旧版访问级别中，您可以为组合配置以下选项：
+在每个访问级别中，您可以为组合配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ ht-degree: 10%
 
 ## 项目群
 
-在每个旧版访问级别中，您可以为程序配置以下选项：
+在每个访问级别中，您可以为程序配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ ht-degree: 10%
 
 ## 报表、功能板和日历
 
-在每个旧版访问级别中，您可以为报表、功能板和日历配置以下选项：
+在每个访问级别中，您可以为报表、功能板和日历配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ ht-degree: 10%
 
 ## 过滤器、视图和分组
 
-在每个旧版访问级别中，您可以为过滤器、视图和分组配置以下选项：
+在每个访问级别中，您可以为过滤器、视图和分组配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ ht-degree: 10%
 
 ## 文档
 
-在每个旧版访问级别中，您可以为文档配置以下选项：
+在每个访问级别中，您可以为文档配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ ht-degree: 10%
 
 ## 用户
 
-在每个旧版访问级别中，您可以为用户配置以下选项：
+在每个访问级别中，您可以为用户配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ ht-degree: 10%
 
 ## 团队
 
-在每个旧版访问级别中，您可以为团队配置以下选项：
+在每个访问级别中，您可以为团队配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ ht-degree: 10%
 
 ## 模板
 
-在每个旧版访问级别中，您可以为模板配置以下选项：
+在每个访问级别中，您可以为模板配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ ht-degree: 10%
 
 ## 财务数据
 
-在每个旧版访问级别中，您可以为财务数据配置以下选项：
+在每个访问级别中，您可以为财务数据配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ ht-degree: 10%
 
 ## 资源管理
 
-在每个旧版访问级别中，您可以为资源管理配置以下选项：
+在每个访问级别中，您可以为资源管理配置以下选项：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ ht-degree: 10%
 
 ## 方案计划员区域
 
-所有旧版访问级别的默认设置为“无权访问”。 Workfront管理员可以将其更改为“查看”或“编辑”访问级别，以供任何“计划员”、“工作人员”和“审阅人”访问级别使用。
+所有访问级别的默认设置为“无访问”。 Workfront管理员可以将其更改为“查看”或“编辑”访问级别，以供任何“计划员”、“工作人员”和“审阅人”访问级别使用。
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront目标区域
 
-所有六个默认旧版访问级别（以及所有4个许可证类型）都可以编辑和查看Workfront目标。
+所有六个默认访问级别（以及所有4个许可证类型）都可以编辑和查看Workfront目标。
 
 默认选项为“编辑”。

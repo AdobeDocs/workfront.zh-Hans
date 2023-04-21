@@ -1,28 +1,29 @@
 ---
-title: 许可证概述
+title: 新许可证概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 许可证，类型
 navigation-topic: access-levels
-description: 贵组织在购买Adobe Workfront时购买了一定数量的许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要为每个用户分配三种类型的付费Workfront许可证之一。
+description: 贵组织在购买Adobe Workfront时购买了一定数量的许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要为每个用户提供3种类型的新付费Workfront许可证之一。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
 
-# 许可证概述
+# 新许可证概述
 
 贵组织在购买Adobe Workfront时购买了一定数量的许可证。 作为Workfront管理员，在为用户分配访问级别时，您需要为每个用户分配三种类型的付费Workfront许可证之一。
 
-## Workfront许可证和访问级别如何绑定在一起
+## 新Workfront许可证和新访问级别如何绑定在一起
 
-这3种类型的付费Workfront许可证允许不同级别的访问Workfront。 每个访问级别都附加到其中一个许可证。
+这3种新的付费Workfront许可证允许不同级别的访问Workfront。 每个访问级别都附加到其中一个许可证。
 
 作为Workfront管理员，您无需为用户分配许可证，而是为用户分配附加到该许可证的访问权限级别。
 
@@ -56,4 +57,3 @@ ht-degree: 2%
 您可以查看分配给用户的许可证和访问级别。 有关更多信息，请参阅 [列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 有关管理许可证的信息，请参阅 [管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

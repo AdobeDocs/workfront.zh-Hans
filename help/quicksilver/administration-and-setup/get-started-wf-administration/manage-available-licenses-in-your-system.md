@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 在左侧面板的底部，单击 **系统** > **许可证**.
 
-   有关此页面上列出的许可证的详细信息，请参阅 [旧版许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   有关此页面上列出的许可证的详细信息，请参阅 [许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## 查看有关每月校样和文档决策分配的信息
 
-对于所有未付费的Workfront许可证，证明和文档决策是有限的。 每月根据每位用户重置限制。
-
 >[!IMPORTANT]
 >
->校样和文档决策限制不适用于 [旧版Workfront许可证和访问级别](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>校样和文档决策限制仅适用于新许可证上的用户。 有关更多信息，请参阅 [新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+对于所有未付费的Workfront许可证，证明和文档决策是有限的。 每月根据每位用户重置限制。
 
 每个许可证的决策限制因您所在的计划而异。 您可以在“设置”>“许可证”中查看每月的分配。
 
