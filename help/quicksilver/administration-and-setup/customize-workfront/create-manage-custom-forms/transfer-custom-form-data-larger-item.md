@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # 转换对象时传输自定义表单数据
 
-根据贵组织的业务需求，任务或问题中定义的工作可能会变得过大，无法在任务或问题中管理它。 在这种情况下，您可以将它们转换为较大的工作项：
+根据贵组织的业务需求，任务或问题中定义的工作可能会变得过大，无法在任务或问题中管理。 在这种情况下，您可以将它们转换为较大的工作项：
 
 * 您可以将问题转换为任务或项目
 * 您可以将任务转换为项目
@@ -51,34 +51,25 @@ ht-degree: 0%
 
 &#42;要了解您拥有的计划、许可证类型或访问级别配置，请联系您的Workfront管理员。
 
-## 第一：复制自定义表单 {#first-copy-the-custom-form}
-
-首先，您需要确保保留任何要转换的任务或问题的自定义表单数据。 由于自定义表单数据必须与转换后的项目完全匹配，因此最佳做法是复制表单，以便将其附加到新对象。
-
->[!TIP]
->
->在这种情况下，保留自定义表单数据的另一种方法是将较大的对象类型添加到自定义表单。 有关说明，请参阅 [开始编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) 在文章中 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+## 第一：将其他对象添加到自定义表单
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
 
 1. 单击 **自定义Forms**.
-1. 选择任务类型或问题类型自定义表单，然后单击 **复制**.
-1. 在 **自定义表单** 对话框，为新表单指定名称。
+1. 找到所需的表单，然后单击 **编辑**.
+1. 在表单顶部，添加您计划将任务或问题转换为的对象。
+   >[!INFO]
+   >
+   >**示例**:如果要将自定义表单数据传输到项目，请选择项目。
 
-1. 从 **表单类型** 下拉菜单中，选择要为其创建新自定义表单的对象类型
-
-   **示例：** 如果要将自定义表单数据传输到项目，请选择项目。
-
-1. 单击 **复制表单**.
-
-   现在，可以将此复制的自定义表单附加到任务或项目。
+1. 单击 **应用** 表格底部。
 
 1. 继续 [第二：转换问题或任务并传输自定义表单数据](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## 第二：转换问题或任务并传输自定义表单数据 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 复制您要转换的问题或任务的自定义表单，如部分所述 [第一：复制自定义表单](#first-copy-the-custom-form) 在本文中。
-1. 使用 **自定义Forms** 选项来选择您复制的自定义表单。 有关说明，请参阅以下文章：
+1. 在您要转换的问题或任务的自定义表单中添加其他对象，如一节中所述 [第一：向自定义表单中添加其他对象](#first-add-additonal-objects-to-the-custom-form) 在本文中。
+1. 使用 **自定义Forms** 选项来选择所需的自定义表单。 有关说明，请参阅以下文章：
 
    * [在Adobe Workfront中将问题转换为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [在Adobe Workfront中将问题转换为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
@@ -88,3 +79,29 @@ ht-degree: 0%
 
    现在，在问题的自定义字段中捕获的信息将传输到任务上的自定义表单。
 
+
+<!--
+## First: Copy the custom form {#first-copy-the-custom-form}
+
+First you need to make sure that you retain any custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form so that you can attach it to the new object.
+
+>[!TIP]
+>
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms**.
+1. Select the task- or issue-type custom form, then click **Copy**.
+1. In the **Custom Form** dialog box, specify a name for the new form.  
+
+1. From the **Form Type** drop-down menu, select the type of object you want to create the new custom form for
+
+   **Example:** If you want to transfer the custom form data to a project, select Project.
+
+1. Click **Copy Form**.
+
+   This copied custom form can now be attached to a task or project.
+
+1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+-->
