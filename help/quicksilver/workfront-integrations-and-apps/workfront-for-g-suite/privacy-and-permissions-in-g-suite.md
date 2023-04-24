@@ -7,16 +7,16 @@ description: Workfront for G Suite中的隐私和权限
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 90d088846e72f1632274043c8d8ca7807ff05b4a
+source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Workfront for G Suite中的隐私和权限
 
-由于客户隐私很重要，因此Adobe Workfront不会存储或收集因第三方授权Google插件应用程序而导致的任何可识别客户数据。 Workfront for G Suite遵循Google API服务用户数据策略，包括“有限使用”要求。
+由于客户隐私很重要，因此Adobe Workfront不会存储或收集因第三方授权Google插件应用程序而导致的任何可识别客户数据。 Workfront for G Suite将使用从Google API收到的信息并将其传输到任何其他应用程序时，将遵循Google API服务用户数据策略，包括“有限使用”要求。
 
 我们需要以下权限，以便Workfront for G Suite插件能够发挥最大价值：
 
