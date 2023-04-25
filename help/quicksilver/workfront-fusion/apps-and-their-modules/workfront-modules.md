@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!UICONTROL搜索标准]</td> 
-   <td> <p>输入要搜索的字段、要在查询中使用的运算符，以及要在字段中搜索的值。</p> <p>注意：请勿使用 <code>username </code>中。 包括 <code>username </code>在API查询中 [!DNL Workfront] 将用户记录到Workfront，则搜索将失败。</p> </td> 
+   <td> <p>输入要搜索的字段、要在查询中使用的运算符，以及要在字段中搜索的值。</p> <p>注意：请勿使用 <code>username </code>中。 包括 <code>username </code>在API查询中 [!DNL Workfront] 将用户记录到Workfront，则搜索将失败。</p> <p>注意： <code>In</code> 和 <code>NotIn</code>使用数组。 输入应采用数组格式。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL输出]</td> 
