@@ -7,7 +7,7 @@ description: 方案编辑器允许您在可视化界面中创建和编辑方案�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -158,3 +158,4 @@ ht-degree: 0%
      <td>单击 <strong>[!UICONTROL运行一次]</strong> 以在激活方案之前验证方案是否按预期运行。 激活后，方案将根据其计划执行。 如果一切未按预期运行，您可以访问我们的错误处理部分以了解如何处理错误。</td> 
    </tr> 
 </tbody>
+</table>
