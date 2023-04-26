@@ -7,9 +7,9 @@ description: 方案编辑器允许您在可视化界面中创建和编辑方案�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ ht-degree: 0%
 
    如果要编辑现有方案，请单击该方案。
 
-1. （视情况而定）如果您要创建新方案，请在 **[!UICONTROL 您希望集成哪些服务]**，选择要在方案中使用的应用程序，然后单击 **[!UICONTROL 继续]**.
-
-   或
-
-   单击 **[!UICONTROL 跳过]** 如果您希望从方案编辑器中选择应用程序，请执行以下操作：
-
    在显示的方案编辑器中，您可以执行下表中列出的所有操作。 有关更多信息，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. 完成方案编辑（或在编辑时随时）后，单击 [!UICONTROL 保存] 图标。 ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ ht-degree: 0%
    >保存方案后，可通过三点式菜单访问新版本，以备将来需要访问。 之前保存的方案版本仅可在60天内使用。
 
 ## 可用的方案编辑器操作
+
+方案编辑器中提供了以下操作：
 
 <table style="table-layout:auto"> 
 <tbody>

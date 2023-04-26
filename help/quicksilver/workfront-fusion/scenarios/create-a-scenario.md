@@ -7,9 +7,9 @@ description: 以下任务说明如何创建 [!DNL Adobe Workfront Fusion] 情景
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 方案]** ![](assets/scenarios-icon.png) 中。
 
 1. 单击 **[!UICONTROL 创建新方案]** 的双曲余切值。
-1. （可选）在 **[!UICONTROL 您希望集成哪些服务]**，如果要创建新方案，请选择要在该方案中使用的应用程序，然后单击 **[!UICONTROL 继续]**.
-
-   或
-
-   单击 **[!UICONTROL 跳过]** 要从方案编辑器中选择应用程序时，请执行以下操作：
-
 1. 在显示的屏幕（方案编辑器）中，如果要创建新方案，请单击 **[!UICONTROL 新方案]** 并键入方案的名称。
 1. 继续 [在方案中添加模块](#add-a-module-in-a-scenario).
 
