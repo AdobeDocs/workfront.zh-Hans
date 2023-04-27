@@ -5,7 +5,7 @@ title: 我正在筛选的项目，包括意外结果
 description: 请阅读本文以对“我所在的项目”筛选器进行故障诊断，包括意外结果。
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 检查 [!UICONTROL **项目详细信息**] 对于过滤器包含的每个意外项目，请从所有字段中删除您的名称。
 
-或
+   或
 
 1. 尝试使用类似的过滤器，例如 [!UICONTROL **我拥有的项目**]，其中仅包括专门分配给您的项目。
 
