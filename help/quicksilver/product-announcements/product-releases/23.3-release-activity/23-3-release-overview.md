@@ -4,9 +4,9 @@ description: 23.3版本概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront增强功能
 
 * [灵活的增强功能](#agile-enhancements)
+* [集成增强功能](#integration-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 灵活的增强功能
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">添加到动态展示板模板的简单过滤器</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>动态展示板模板上的过滤器已得到简化，以便您更快地创建展示板。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年4月27日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.3版本中</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">动态展示板模板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">动态展示板模板</a></p>
                         <p>新模板动态展示板现已可用于独立展示板。 此模板不适用于工作流中的展示板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>提前选择加入的生产版本：2023年4月27日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
+                                 <p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
                                 <p>适用于所有客户的生产版本：在23.3版本中</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">将敏捷团队看板卡迁移到展示板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">将敏捷团队看板卡迁移到展示板</a></p>
                         <p>新 <b>添加到展示板</b> 按钮在敏捷小组看板板上允许您将所有卡从看板板添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将信息卡添加到现有展示板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>提前选择加入的生产版本：2023年4月27日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
+                                 <p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
                                 <p>适用于所有客户的生产版本：在23.3版本中</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">向左导航添加到展示板上的信息卡详细信息</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">向左导航添加到展示板上的信息卡详细信息</a></p>
                         <p>随着向Workfront展示板上的信息卡添加更多字段选项，信息卡详细信息会增长得更长。 卡片详细信息左侧的新导航面板允许您选择一个部分并自动移动到该组字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>提前选择加入的生产版本：2023年4月27日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
+                                 <p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
                                 <p>适用于所有客户的生产版本：在23.3版本中</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### 集成增强功能
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront调整自动校样工作流模板设置以进行Creative Cloud</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>现在，您可以直接在Creative Cloud中调整现有的自动化工作流模板设置。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年4月27日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：2023年4月27日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### 其他增强功能
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">现在，没有Avar的用户档案显示用户首字母</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">现在，没有Avar的用户档案显示用户首字母</a></p>
                         <p>为了更便于在大列表中查找特定用户，没有自定义变量的配置文件现在会在列表和旧版报表的彩色背景中显示用户的缩写。 这是一项次要的外观更改，在已使用头像照片或用户已停用时不适用。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>预览版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：在23.3版本中</span></p>
+                                <p><span class="preview">生产版本：2023年5月4日</span></p>
                             </li>
                         </ul>
                     </td>
