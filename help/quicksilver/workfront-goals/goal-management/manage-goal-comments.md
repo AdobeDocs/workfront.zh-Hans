@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息，或删除任何已标记的用户。
+1. 编辑评论中的信息、添加或删除图像或删除任何已标记的用户。
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

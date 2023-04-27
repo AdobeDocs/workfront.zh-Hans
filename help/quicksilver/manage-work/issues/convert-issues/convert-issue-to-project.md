@@ -6,9 +6,9 @@ description: 在Adobe Workfront中将问题转换为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >* 如果将附加到问题的多对象自定义表单配置为与问题和项目一起使用，则在进行转换时保留表单中保存的所有信息。
-         >
+         >* 如果将附加到问题的多对象自定义表单配置为与问题和项目一起使用，则在您进行转换时，如果问题和项目的自定义表单中同时存在字段，则保留表单中保存的所有信息。
+         >* 如果将具有计算字段的多对象自定义表单附加到问题和项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果出现不兼容的情况，系统会显示一条消息，提醒您进行调整。 有关更多信息，请参阅 [使用旧版表单生成器将计算量度添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* 如果您使用模板进行转换，而附加到模板的自定义表单包含自定义字段（该字段也可在附加到问题的自定义表单中找到），则问题中的字段值将用于新项目。 但是，如果问题上的自定义字段为空，则会使用模板中的值。
 
    1. 单击 [!UICONTROL **转换为项目**].

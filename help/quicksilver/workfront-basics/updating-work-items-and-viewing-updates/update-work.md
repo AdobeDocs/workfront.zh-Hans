@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '2945'
+source-wordcount: '2949'
 ht-degree: 1%
 
 ---
@@ -223,7 +223,7 @@ drafted for P&P release:
 
 1. 单击 **提交** 将更新添加到Workfront对象。
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息，或删除任何已标记的用户。
+1. 编辑评论中的信息、添加或删除图像或删除任何已标记的用户。
 提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

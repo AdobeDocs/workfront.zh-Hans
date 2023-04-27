@@ -5,9 +5,9 @@ title: 术语表 [!DNL Adobe Workfront] 术语
 description: 的 [!DNL Adobe Workfront] 术语表列出了Adobe Workfront中常用的术语。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ ht-degree: 0%
    <td>[!UICONTROL External]</td> 
    <td> <p>通常是许可证类型或具有此许可证的用户，此类用户只能查看系统中的信息。</p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 许可证概述</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>在指定的记录系统之外存储和管理的任何服务或软件。</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL字段]</td> 
+   <td><p>任何Workfront对象或与其关联的信息，如数据库中所示。 </p>
+   <p>例如，“project”、“user”、“hour”既是Workfront对象，也是字段。 “名称”、“状态”、“所有者”、“开始日期”是与上述对象关联的Workfront字段。 </p>
+
+<p>在引用对象时，项目“对象”和“字段”可以互换使用。</p>
+   <p>在报告范围中，“字段”是指要在报告中捕获的对象或有关该对象的信息。</p>
+
+<p><b>注释</b></p>
+
+<p>在文本更多报表中，字段引用对象或其信息，这些信息显示在数据库中。</p>
+   <p>有时，您在用户界面中看到的名称与数据库中字段的名称不同。 例如，“issue”是Workfront界面中对象的名称，而“opTask”是Workfront数据库中对象（或字段）的名称。 </p> 
+   <p> 在编写文本模式报表、查看、过滤器或分组时，或在创建计算字段时，务必使用数据库中显示的字段。</p>
+
+<p>有关更多信息，请参阅 <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> 和 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">文本模式概述</a>.</p>
+
+<p>默认情况下，Workfront附带一组字段，用于定义对象及其信息。 您也可以创建自定义字段来定义对象，但不能创建自定义对象。</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL过滤器]</td> 
    <td> <p>报表或列表元素的主要构建基块之一，用于定义在屏幕上显示的信息。 有关报表元素的更多信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">报表元素：过滤器、视图和分组</a>.</p> <p>过滤器可确定在报表或 [!DNL Workfront] 面板列表，如项目、任务或问题。</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL对象]</td> 
-   <td> <p>组织的工作项目和报表，以及在[!UICONTROL Workfront]中管理这些项目的用户组。 对象可以是：</p> 
+   <td> <p>您在中显示的信息 [!DNL Adobe Workfront] 由存储在 [!DNL Workfront] 数据库。 对象是驱动Workfront中信息的因素。 对象的一些示例包括：</p> 
     <ul> 
      <li>[!UICONTROLPortfolio]</li> 
      <li>[!UICONTROL程序]</li> 
@@ -1314,7 +1335,17 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL用户]</li> 
      <li>[!UICONTROL公司]</li> 
-    </ul> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解[!UICONTROL Adobe Workfront]中的对象</a>.</p> </td> 
+     <li>[!UICONTROL自定义表单]</li>
+     <li>[!UICONTROL自定义字段]</li>  
+     <li>[!UICONTROL小时数]</li> 
+     <li>[!UICONTROL计费费率]</li> 
+     <li>[!UICONTROL模板]</li> 
+     <li>[!UICONTROL模板任务]</li>
+
+<p><b>注释</b></p>
+  <p>这不是一份详尽的清单。 </p>
+
+</ul> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解[!UICONTROL Adobe Workfront]中的对象</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL对象类型]</td> 

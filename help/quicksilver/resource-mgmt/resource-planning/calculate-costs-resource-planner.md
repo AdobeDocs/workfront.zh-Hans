@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 在资源计划器中计算成本
-description: '(Alina:***链接至“资源计划员”文章中的“了解资源计划员的区域”。  — 请勿移动/更改/删除。)'
-author: Alina
+description: 您可以使用成本值而不是小时或FTE值在Adobe Workfront资源计划器中对资源进行预算。 成本值不适用于资源计划器中的**按用户查看**视图。
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 您可以使用成本值而不是小时或FTE值在Adobe Workfront资源计划器中对资源进行预算。 成本值不适用于&#x200B;**按用户查看** 查看资源计划器。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
 
 1. 单击 **资源化**.
-1. 转到。
+1. 转至资源计划员。
 1. （视情况而定）选择 **按项目查看** 或 **按角色查看**.\
    默认情况下 **按项目查看** 中。\
    分配和可用性信息以小时为单位显示。
