@@ -6,9 +6,9 @@ description: 您可以从Workfront商城安装Creative Cloud用Adobe插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您必须具有 [!DNL Adobe Creative Cloud] 除 [!DNL Workfront] 许可证。</td> 
+   <td><p>您必须具有 [!DNL Adobe Creative Cloud] 除 [!DNL Workfront] 许可证。</p><p>有关更多信息，请参阅 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud支持策略</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,10 +6,10 @@ description: 您可以将画板作为校样直接上传到Adobe Workfront，以�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >用户必须具有 [!UICONTROL 桌面校对查看器] 以审阅和批准交互式校样。 有关更多信息，请参阅 [安装 [!UICONTROL 桌面校对查看器]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >用户必须具有 [!UICONTROL 桌面校对查看器] 以审阅和批准交互式校样。 有关详细信息，请参阅[安装[!UICONTROL 桌面校样查看器]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)。
 
 ## 上传新校样版本
 
@@ -229,6 +233,8 @@ ht-degree: 0%
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. 从 **[!UICONTROL 资产类型]** 下拉菜单。
 

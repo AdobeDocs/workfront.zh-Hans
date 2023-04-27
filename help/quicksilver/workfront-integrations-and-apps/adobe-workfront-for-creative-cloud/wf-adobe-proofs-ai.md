@@ -6,9 +6,9 @@ description: 您可以将您的画板作为文档上传，以便快速审核和�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 中。
 1. 单击 **[!UICONTROL 新建文件]** 在插件底部附近。
 1. 启用 **[!UICONTROL 创建校样]** 切换。
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
 1. 在 **[!UICONTROL 校样批准]** 选择 **[!UICONTROL 基本]**.
 1. （可选）添加批准者。
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
+1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
+
 1. （可选）选择 **[!UICONTROL 添加外部文件]** 从计算机添加文件。
 1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
 
    ![](assets/plugin-files-350x307.png)\
    文档将显示在 [!UICONTROL 文档] 区域。
+
 
 ## 上传自动校样
 
@@ -93,26 +92,26 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 中。
 
 1. 单击 **[!UICONTROL 新建文件]** 在插件底部附近。
-1. 启用 **[!UICONTROL 创建校样]** 切换，然后选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. 启用 **[!UICONTROL 创建校样]** 切换。
+1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
 1. 在 **[!UICONTROL 校样批准]** 选择 **[!UICONTROL 自动]**.
 1. （可选）在 **[!UICONTROL 工作流模板]** 框中，键入校样工作流模板的名称。
-<!--
+
 {{adjust-proof-settings}}
--->
+
+>[!NOTE]
+>
+> 如果工作流模板中存在任何空白必填字段，则会自动打开自动校样设置，您需要填充这些字段才能上传校样。
+
+
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
+1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
 1. （可选）选择 **[!UICONTROL 添加外部文件]** 从计算机添加文件。
 1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
-
-   ![](assets/plugin-files-350x307.png)\
-   文档将显示在 [!UICONTROL 文档] 区域。
-
+文档将显示在 [!UICONTROL 文档] 区域。
 
 ## 上传新校样版本
 
@@ -126,15 +125,13 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png)中。
 
 1. 单击 **[!UICONTROL 新版本]** 在插件底部附近。
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-1. 启用 **[!UICONTROL 创建校样]** 切换，然后选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. 启用 **[!UICONTROL 创建校样]** 切换。
 
 1. 在 *[!UICONTROL *校样批准]**部分，选择 **[!UICONTROL 基本]** 或 **[!UICONTROL 自动]**.
 
 1. 添加 **[!UICONTROL 审阅人]** 或 **[!UICONTROL 工作流模板]** 根据您在步骤7中选择的批准类型。
 
 1. （可选）在 **[!UICONTROL 更新]** 的上界。
+1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
 1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
 文档将显示在 [!UICONTROL 文档] 区域。
