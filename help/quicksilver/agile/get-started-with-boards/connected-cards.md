@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一个信息卡，该信息卡已连�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ ht-degree: 0%
    </table>
 
    使用左侧的导航面板可在卡片详细信息的字段组之间移动。
-
-   >[!NOTE]
-   >
-   >左侧导航面板和在“描述”字段中添加可单击链接的功能，只有通过为Workfront展示板提供早期功能选择加入才可用。
 
 1. 单击 **[!UICONTROL 关闭]** 回到董事会。
 卡片上会显示连接的对象、受让人、标记、到期日期、核对清单计数器、预计小时数和状态。
