@@ -6,7 +6,7 @@ description: 在项目财务区管理信息
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ ht-degree: 2%
       <td>指定此项目的预算。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定成本</strong> </td> 
+      <td role="rowheader">固定成本</td> 
       <td>指定此项目的固定成本。 这不应包括任何人工或费用成本。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定收入</strong> </td> 
+      <td role="rowheader">固定收入</td> 
       <td> <p>指定此项目的固定收入。 这不应包括来自向合作伙伴或第三方计费的任何账单记录的收入。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">项目货币</td> 
       <td> <p>如果此项目的货币与系统中的默认货币不同，请指定此项目的货币。 系统中的默认货币由Workfront管理员定义。 有关在Workfront中设置汇率的更多信息，请参阅文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. 单击 **保存****更改**.
+1. 单击 **保存更改**.
