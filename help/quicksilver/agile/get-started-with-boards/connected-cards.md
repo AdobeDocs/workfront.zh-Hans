@@ -6,7 +6,7 @@ description: 您可以在展示板上添加一个信息卡，该信息卡已连�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在主板上使用连接的卡
-
-{{highlighted-preview}}
 
 您可以在展示板上添加一个信息卡，该信息卡已连接到 [!DNL Workfront].
 
@@ -102,7 +100,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong></td> 
-      <td>更改描述还会更改连接的 [!DNL Workfront] 对象。 <span class="preview">您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</span></td> 
+      <td>更改描述还会更改连接的 [!DNL Workfront] 对象。 您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL任务负责人]</strong></td>
@@ -140,7 +138,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   <span class="preview">使用左侧的导航面板可在卡片详细信息的字段组之间移动。</span>
+   使用左侧的导航面板可在卡片详细信息的字段组之间移动。
 
    >[!NOTE]
    >

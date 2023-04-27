@@ -6,16 +6,14 @@ description: 您可以快速将临时信息卡添加到展示板，并将其分�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # 向展示板添加临时信息卡
-
-{{highlighted-preview}}
 
 您可以快速将信息卡添加到展示板，并将其分配给展示板上的成员。 该卡可以表示任务、问题、人员、组，或要包含在展示板中的任何类型的项目。
 
@@ -65,7 +63,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL描述]</strong> </td> 
-      <td>卡的描述。 <span class="preview">您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</span></td>
+      <td>卡的描述。 您可以在描述中添加URL，在保存卡片后，这些URL将变为可单击的链接。</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL任务负责人]</strong> </td> 
@@ -98,13 +96,13 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   生产环境中的卡片详细信息图像示例：
+   在未启用早期功能访问的情况下，生产环境中的卡片详细信息图像示例：
    ![临时卡片详细信息](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">预览环境中的卡片详细信息图像示例：
-   ![临时卡片详细信息](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   示例卡片详细信息位于已启用抢先功能访问的生产环境中的图像：
+   ![临时卡片详细信息](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">使用左侧的导航面板可在卡片详细信息的字段组之间移动。</span>
+   使用左侧的导航面板可在卡片详细信息的字段组之间移动。
 
    >[!NOTE]
    >
