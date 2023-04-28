@@ -4,9 +4,9 @@ description: 23.3版本概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront调整自动校样工作流模板设置以进行Creative Cloud</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront调整自动校样工作流模板设置以进行Creative Cloud</a></p>
                         <p>现在，您可以直接在Creative Cloud中调整现有的自动化工作流模板设置。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
