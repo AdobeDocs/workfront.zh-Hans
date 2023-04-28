@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: 工作负载平衡器
-description: 工作负载平衡器是一个资源调度工具，最终将取代当前已弃用的当前资源调度工具。
+description: 工作负载平衡器是一种资源计划工具，它允许您将工作项分配给资源。
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # 工作负载平衡器
-
->[!IMPORTANT]
->
->工作负载平衡器是一个资源调度工具，它正在替换当前已弃用的调度工具。
->
->有关删除资源计划工具并将其替换为工作负载平衡器的详细信息，请参阅 [弃用Adobe Workfront中的资源计划工具](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->我们建议您使用工作负载平衡器来计划资源。
 
 有关工作负载平衡器是什么、如何导航以及如何使用它分配工作的信息，请参阅以下文章：
 

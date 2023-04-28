@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ ht-degree: 0%
 
 * 项目页面的“计划”部分
 
-负载平衡器正在替换资源调度程序。 有关弃用情况以及如何准备使用负载平衡器的详细信息，请参阅以下资源：
-
-* [弃用Adobe Workfront中的资源计划工具](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [从资源计划迁移到负载平衡器](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+负载平衡器正在替换资源调度程序。
 
 #### **事件订阅API中的SHARE事件类型。**
 

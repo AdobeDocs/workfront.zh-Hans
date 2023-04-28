@@ -6,9 +6,9 @@ description: 如果在提交问题后必须完成更多工作才能完成问题�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >如果将附加到问题的多对象自定义表单配置为用于问题和任务，则默认情况下会附加表单。 进行转换时，在问题表单中保存的所有信息都会保留给任务。
-   >
-   >如果目标项目在编辑项目时在“任务默认自定义Forms”字段中定义了任何默认表单，则这些任务表单也会添加到新任务中。 原始问题与默认任务表单上的字段之间通用的任何自定义字段都会预填充问题字段中的信息。
+   >* 如果将附加到问题的多对象自定义表单配置为与问题和任务一起使用，则在转换时，如果问题和任务的自定义表单都存在字段，则表单中保存的所有信息都将保留。
+   >* 如果将具有计算字段的多对象自定义表单附加到问题和任务，则问题和任务必须与表单的计算自定义字段中引用的所有字段兼容。 如果出现不兼容的情况，系统会显示一条消息，提醒您进行调整。 有关更多信息，请参阅 [使用旧版表单生成器将计算量度添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* 如果目标项目在编辑项目时在“任务默认自定义Forms”字段中定义了任何默认表单，则这些任务表单也会添加到新任务中。 原始问题与默认任务表单上的字段之间通用的任何自定义字段都会预填充问题字段中的信息。
+
+
 
 1. 单击 [!UICONTROL **转换为任务**].
 

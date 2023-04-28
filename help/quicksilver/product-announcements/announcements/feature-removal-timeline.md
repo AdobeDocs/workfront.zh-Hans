@@ -7,9 +7,9 @@ description: Adobe Workfront产品的各种功能正在逐步淘汰。 以下是
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront产品的各种功能正在逐步淘汰。 以下是每个功能�
    <td>21.2版本不再支持</td> 
   </tr> 
   <tr> 
-   <td> <p>资源调度</p> <p>负载平衡器在资源调度方面提供了改进的体验。</p> <p>有关负载平衡器和与资源计划工具的功能比较的详细信息，请参阅 <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">弃用Adobe Workfront中的资源计划工具</a>.</p> </td> 
+   <td> <p>资源调度</p> <p>负载平衡器在资源调度方面提供了改进的体验。</p> <p>有关工作负载平衡器的详细信息，请参阅 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">工作负载平衡器概述</a>.</p> </td> 
    <td> </td> 
    <td> <p>2020年11月9日（在20.4版本中）不再受支持</p> <p>--</p> <p>2022年上半年后从Workfront平台删除</p> </td> 
   </tr> 

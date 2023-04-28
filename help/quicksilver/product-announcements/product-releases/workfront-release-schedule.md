@@ -7,9 +7,9 @@ description: “预览”环境每周更新一次，其中包含新增功能。 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Workfront有时会作为测试版计划的一部分发布新功能。
 
 ## 其他版本
 
-有时，Workfront可能会发布一些可能未在发行说明、维护更新或任何实际文档文章中记录的功能。 这是为了在将新功能设为永久功能之前，先对新功能进行测试。 通常，这些测试会发布给有限数量的客户，但有时可能会发布给每个人。
+有时，Workfront可能会发布一些可能未在发行说明、维护更新或任何文档文章中记录的功能。 这是为了在将新功能设为永久功能之前，先对新功能进行测试。 通常，这些测试会发布给有限数量的客户，但有时可能会发布给每个人。 这些组件可以发布到预览或生产环境。
 
-如果您在系统中遇到与文档不匹配的问题，我们会要求您联系我们的客户支持团队。 有关更多信息，请参阅 [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+如果您在系统中遇到与文档不匹配的问题，并且您可能遇到问题，我们会要求您联系我们的客户支持团队。 有关更多信息，请参阅 [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## 发行说明
 

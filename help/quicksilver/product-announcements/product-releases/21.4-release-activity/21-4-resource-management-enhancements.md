@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 ## 工作负载平衡器的新默认选项
 
 作为弃用计划并使工作负载平衡器Workfront的主要资源分配工具的一部分，我们使Workfront平衡器成为所有新用户的默认选项。 目前，计划是默认选项。 此更改适用于您可以从中访问计划的所有区域，其中包括“资源”区域(在新的Adobe Workfront体验中)或“人员”区域(在Adobe Workfront Classic中)，以及项目和团队级别。
-
-有关弃用计划的信息，请参阅 [弃用Adobe Workfront中的资源计划工具](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## 工作负载平衡器中的新筛选器体验
 

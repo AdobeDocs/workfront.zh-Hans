@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ in January 2022
 除了“名称”之外，新的“批量分配”还包含按“项目”和“任务状态”划分的新筛选功能。
 
 有关更多信息，请参阅 [工作负载平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-有关计划工具弃用的信息，请参阅 [弃用Adobe Workfront中的资源计划工具](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## 管理作业角色时覆盖货币
 
