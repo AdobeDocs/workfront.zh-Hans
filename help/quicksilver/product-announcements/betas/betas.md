@@ -5,9 +5,9 @@ description: 了解Adobe Workfront中最新的Beta版本。
 author: Alina
 feature: Product Announcements
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 以下文章包含有关测试版中当前功能的信息：
 
 * [报表画布测试版：概述](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-* [新的注释体验](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [新的评论测试版体验](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [表单设计器概述](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 
 
@@ -36,8 +36,8 @@ The features described in this page are currently available as part of beta prog
 
 ## New commenting exprience Beta
 
-* [New commenting experience](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
-* [New commenting experience beta release activity](../betas/new-commenting-experience-beta-release-activity.md)
+* [New commenting experience](../betas/new-commenting-experience-beta/unified-commenting-experience.md)
+* [New commenting experience beta release activity](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 
 ## New form designer Beta
 

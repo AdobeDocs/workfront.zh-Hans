@@ -6,7 +6,8 @@ title: Adobe Workfront Goals 23.2发布活动周2023年3月20日
 description: 本页介绍了在“预览”环境中对23.2版本的Adobe Workfront目标所做的所有增强。 这些增强功能将于2023年3月20日这一周的生产环境中提供。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+exl-id: 2397339a-7a78-41ee-8882-0606309e356c
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -25,4 +26,4 @@ ht-degree: 0%
 
 从23.2版本开始，目标的注释体验将与针对问题发布的新注释体验测试版相匹配。 在2023年的所有版本中，我们将继续在此方面发布更新。
 
-有关评论体验测试版中提供哪些功能的信息，请参阅 [新的注释体验](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+有关评论体验测试版中提供哪些功能的信息，请参阅 [新的注释体验](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
