@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ ht-degree: 3%
 
 这与在 [!DNL Workfront Fusion] 情景。 如果没有事件订阅过滤器，您的WebHook将接收与您选择的对象类型相关的所有事件。 这些事件中的大多数都与情景无关，必须先过滤掉，然后情景才能继续。
 
+Workfront >监视事件过滤器中提供了以下运算符：
+
+* 等于
+* 不等于
+* 大于
+* 小于
+* 大于或等于
+* 小于或等于
+* 包含
+* 已存在
+* 不存在
+* 已更改
+
 >[!NOTE]
+>
+> * 的 `Exists`, `Does not exist`和 `Changed` 运算符不需要值，并且这些选项中没有值字段。
+> * 的 `Changed` 运算符会忽略“状态”字段。
+
+
+>[!IMPORTANT]
 >
 >无法编辑现有 [!DNL Workfront] 网络挂钩。 为 [!DNL Workfront] 事件订阅，删除当前webhook并创建新webhook。
 
