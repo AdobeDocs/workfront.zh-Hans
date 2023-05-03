@@ -6,9 +6,9 @@ description: 您可以向可以在Adobe Workfront目标中查看的所有目标�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
    >
    >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 添加到评论的任何图像也会保存在草稿中。 草稿将保存7天，之后将被丢弃，无法恢复。 草拟注释仅对输入这些注释的用户可见。
 
-1. （可选）要向更新添加富文本格式，超链接或图像会使用富文本工具栏上的任意选项，或使用富文本工具栏上的任意选项，或使用富文本工具栏旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）要向更新、超链接或图像添加富文本格式，请使用富文本工具栏上的任意选项，或使用富文本工具栏旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）在 **标记人员或团队** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
 1. 选择 **对我的公司私有** 切换以使评论仅对公司中的人员可见。
 
@@ -159,8 +159,8 @@ ht-degree: 0%
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息、添加或删除图像或删除任何已标记的用户。
-提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
+1. 编辑评论中的信息、添加或删除图像，或删除任何已标记的用户。
+您可以在提交评论后的15分钟内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 

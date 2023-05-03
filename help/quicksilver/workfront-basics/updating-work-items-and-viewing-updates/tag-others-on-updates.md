@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新时标记其他人
 description: 在Adobe Workfront对象上提供更新注释时，该项目的所有用户都可以查看已提交的信息。 但是，有时不在项目中的用户可能会从查看此信息中受益。 您可以在更新时标记这些用户，以便与他们共享，而不是将这些用户包含在项目中。 标记用户将收到事件通知。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >我们当前正在重新设计在Adobe Workfront中的注释体验。
->有关新更新体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->您可以访问以下对象的新设计：
+>有关新评论体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>您可以访问以下对象的新体验：
 > * 在启用注释测试版时出现问题。
    >
    >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
@@ -48,13 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->必须启用事件通知，用户才能收到电子邮件通知。 管理员可以为整个系统或顶级组启用通知。 用户还可以在自己的用户配置文件中启用或禁用单个事件通知。 有关更多信息，请参阅以下内容：
->
->* [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [查看和配置群组的事件通知](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [激活或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>用户必须在其配置文件中启用个人通知，才能接收电子邮件通知。 有关更多信息，请参阅 [激活或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 有关向Workfront对象添加更新的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

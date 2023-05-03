@@ -6,9 +6,9 @@ description: 目前正在开发有关Adobe Workfront中注释体验的更新信�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '592'
 ht-degree: 1%
 
 ---
@@ -384,12 +384,9 @@ ht-degree: 1%
   </tr>
 </table>
 
+## 新的评论测试版体验发布活动
 
-<!--
-## New commenting beta experience release activity
-
-For information about the features recently released, see [New commenting beta exprience release activity] (**********insert link after you move this file to the right folder in Betas**********)
---->
+有关最近发布的功能的信息，请参阅 [新的评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找到新的注释体验
 

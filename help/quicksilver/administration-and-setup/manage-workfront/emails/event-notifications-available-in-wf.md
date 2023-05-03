@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 26%
 
 ---
@@ -220,11 +220,8 @@ ht-degree: 26%
   <tr> 
    <td> <p>文档</p> </td> 
    <td> <p>咨询台请求文档添加到问题创建者</p> </td> 
-   <td> <p>与我作为主要联系人的问题相关的文档已更改或上载.</p> <p>在文档上传或更改时，问题的主要联系人会收到电子邮件通知，除非上传或更改文档的用户也是主要联系人。</p> <p>仅当项目状态为“当前”，并且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。 <!-- 在FLARE中起草：有关将项目作为帮助请求队列发布的更多信息，请参阅 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">项目中的“队列详细信息”选项卡概述</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>活动</p> </td> 
+   <td> <p>与我作为主要联系人的问题相关的文档已更改或上载.</p> <p>在文档上传或更改时，问题的主要联系人会收到电子邮件通知，除非上传或更改文档的用户也是主要联系人。</p> <p>仅当项目状态为“当前”，并且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。</p> </td> 
+   <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
    <td> <p>问题</p> </td> 
@@ -234,6 +231,11 @@ ht-degree: 26%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## 通信
 
@@ -268,10 +270,8 @@ ht-degree: 26%
   <tr> 
    <td> <p>用户</p> </td> 
    <td>向用户定向更新</td> 
-   <td> <p>有人将我列入定向更新.</p> <p>定向更新是指当用户在更新中专门包括另一个用户时，如 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新时标记其他人</a>.</p> <p>在这种情况下，被包含在定向更新中的用户会收到有关该更新的电子邮件通知。</p> <p>仅当用户具有对对象的访问权限时，才会发送电子邮件通知&lt;!&gt; — 在FLARE中起草：和不是进入更新的同一用户
-
-    -->. &lt;/p> &lt;p>默认情况下会激活此事件通知，因此无法停用。&lt;/p> &lt;/td>
-<td> <p>活动</p> </td> 
+   <td> <p>有人将我列入定向更新.</p> <p>定向更新是指当用户在更新中专门包括另一个用户时，如 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新时标记其他人</a>.</p> <p>在这种情况下，被包含在定向更新中的用户会收到有关该更新的电子邮件通知。</p> <p>仅当用户具有对象的访问权限并在其配置文件中保持启用该对象时，才会发送电子邮件通知。  </p> <p>默认情况下会激活此事件通知，因此无法停用。</p> </td> 
+   <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
    <td> <p>团队</p> </td> 
@@ -308,6 +308,10 @@ ht-degree: 26%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## 审批信息
 
@@ -398,7 +402,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> <p>问题</p> </td> 
-   <td> <p>发出分配给</p> </td> 
+   <td> <p>对分配给</p> </td> 
    <td> <p>在批准或拒绝问题之后，向被分派的用户发送电子邮件.</p> <p>在作出批准决定（批准或拒绝）时，问题的受让人会收到电子邮件通知。</p> <p>具有审阅许可证的用户不会收到通知。</p> </td> 
    <td> <p>非活动</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ ht-degree: 26%
   <tr> 
    <td> <p>文档</p> </td> 
    <td> <p>咨询台请求文档添加到问题分派给</p> </td> 
-   <td> <p>在我的请求下上传或更改文档.</p> <p>当文档上传或更改时，问题代理人会收到一封电子邮件通知，告知其添加的问题。</p> <p>如果输入问题的用户是问题代理人，则不会发送电子邮件通知。</p> <p>仅当项目状态为“当前”，并且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。<!-- 在FLARE中起草：有关将项目作为帮助请求队列发布的更多信息，请参阅 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">项目中的“队列详细信息”选项卡概述</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>活动</p> </td> 
+   <td> <p>在我的请求下上传或更改文档.</p> <p>当文档上传或更改时，问题代理人会收到一封电子邮件通知，告知其添加的问题。</p> <p>如果输入问题的用户是问题代理人，则不会发送电子邮件通知。</p> <p>仅当项目状态为“当前”，并且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。</p> </td> 
+   <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任务</p> </td> 
@@ -461,6 +462,11 @@ ht-degree: 26%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## 有关我正在执行的项目的信息
 
@@ -739,12 +745,7 @@ ht-degree: 26%
    <td> </td> 
    <td> <p>错误通知</p> </td> 
    <td> <p>发现一个需要您注意的错误。</p> <p>Workfront尝试后无法连接到POP帐户时，会生成电子邮件通知。 25次尝试后，Workfront会禁用与POP帐户的连接以保留资源，并发出通知。 </p> <p>如果POP电子邮件与请求队列关联，则会向项目所有者发送电子邮件通知；如果POP帐户与电子邮件设置中的“传入邮件”功能关联，则会向Workfront管理员发送电子邮件通知。
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ ht-degree: 26%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## 委派
 

@@ -5,24 +5,22 @@ title: 将敏捷团队看板卡迁移到Workfront展示板
 description: 您可以将工作项从敏捷的小组看板板迁移到新的或现有的Workfront板。
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 将敏捷团队看板卡迁移到Workfront展示板
 
+{{highlighted-preview-article-level}}
+
 您可以将工作项从敏捷的小组看板板迁移到新的或现有的Workfront板。 运行迁移时，看板板上的所有卡都会复制到Workfront板。 不允许您选择特定的卡。
 
 在Workfront展示板上放置信息卡的方法基于栏策略。 (例如，策略可以将状态为“进行中”的所有信息卡移到特定列。 有关列策略的更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) 如果没有策略或信息卡与策略不匹配，则信息卡会放置在展示板最左侧的列中。 目前，旧版展示板上“积压”列中的信息卡未添加到Workfront展示板。
 
 卡不会从敏捷团队看板板中删除，并且卡状态更改将同步到两个看板板。 在您准备好切换到Workfront主板之前，您可以保持两个主板处于活动状态。
-
->[!NOTE]
->
->此功能仅通过Workfront主板的早期功能选择加入来提供。
 
 ## 访问要求
 

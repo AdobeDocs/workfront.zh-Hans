@@ -6,7 +6,7 @@ description: 当某人添加或回复工作对象的更新时，其回复将显�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >我们当前正在重新设计在Adobe Workfront中的注释体验。
->有关新更新体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->您可以访问以下对象的新设计：
+>有关新评论体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>您可以访问以下对象的新体验：
 > * 在启用注释测试版时出现问题。
    >
    >     此功能仅适用于问题的“更新”部分，不适用于以下区域：

@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >我们当前正在重新设计在Adobe Workfront中的注释体验。
->有关新更新体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->您可以访问以下对象的新设计：
+>有关新评论体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>您可以访问以下对象的新体验：
 > * 在启用注释测试版时出现问题。
    >
    >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
@@ -135,7 +136,7 @@ drafted for P&P release:
 1. 转到要为其提供更新的工作项（例如项目、任务或问题）。
 1. 单击 **更新** 中。
 1. 单击 **开始新更新，** 然后键入更新。
-1. （可选）使用富文本，或向更新中添加表情符号、链接或图像，以增强您的内容。 有关更多信息，请参阅本文中的“在Workfront更新中使用富文本”部分
+1. （可选）使用富文本，或向更新中添加表情符号、链接或图像，以增强您的内容。 有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 本文章节
 1. （可选）更新有关工作项的以下任何信息：
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ drafted for P&P release:
    * 编号列表
    * 添加附件 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   有关更多信息，请参阅本文中的“在Workfront更新中使用富文本”部分。 <!--remove this list, above, when we get to parity for Rich Text-->
+   有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。 <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ drafted for P&P release:
    >您无法向系统更新添加注释。
 
 
-## 在Workfront更新中使用富文本
+## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ drafted for P&P release:
 
    或
 
-   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用注释测试版体验时，浏览到您计算机上的图像。
+   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用注释测试版体验时，浏览到您计算机上的图像。 <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* 您的Workfront管理员必须先启用添加图像功能，然后才能看到图像图标。
+   >* 您的Workfront管理员必须先在Workfront界面区域的更新馈送首选项部分中启用添加图像，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型有.jpg、.gif和.png。
-   >* 图像只能从对象的“更新”(Updates)选项卡访问，而无法在“文档”(Documents)选项卡中使用。
+   >* 图像可从对象的“更新”部分访问，也可在“文档”区域使用。
+   >* <!--In the current commenting experience,--> 删除包含图像的注释时，该图像会保留在“文档”区域，但不再显示在“更新”部分。
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 您可以发送包含图像的更新，而不发送任何文本。
 
 1. 单击 **更新**  或 **提交**，使用评论测试版体验时。
@@ -392,7 +396,7 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >删除附加图像的更新会同时删除注释和图像。
+   >删除附加图像的更新会同时删除注释和图像。 有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。
 
    如果删除的评论具有与其关联的回复，则表示该评论已被删除，且其删除者的姓名也与之相关。
 
