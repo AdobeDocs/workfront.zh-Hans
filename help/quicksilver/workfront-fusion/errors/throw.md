@@ -8,7 +8,7 @@ description: 在某些情况下，您可能想要强制停止方案执行，然�
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## Throw的解决方法
 
-要有条件地引发错误，您可以配置模块，使其在操作过程中有意失败。 一种可能是利用 [!UICONTROL JSON] > [!UICONTROL 解析JSON] 模块(请参阅 [JSON模块](../../workfront-fusion/apps-and-their-modules/json-modules.md))，配置为可选地引发错误（在此例中为BundleValidationError）：
+要有条件地引发错误，您可以配置模块，使其在操作过程中选择性地失败。 一种可能是利用 [!UICONTROL JSON] > [!UICONTROL 解析JSON] 模块(请参阅 [JSON模块](../../workfront-fusion/apps-and-their-modules/json-modules.md))，配置为可选地引发错误（在此例中为BundleValidationError）：
 
 然后，可以将一个错误处理指令附加到错误处理路由：
 

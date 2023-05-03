@@ -7,7 +7,7 @@ description: 在某些情况下，如果失败的原因可能会随着时间的�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ ht-degree: 0%
 * 最小重试间隔为1分钟。
 * 如果模块正在处理多个包，并且包的处理失败，则部分执行（仅导致错误的包）将移到未完成的执行文件夹中，并根据 [!UICONTROL 中断] 指令设置。 但是，当前执行会继续，并且模块会继续处理后续的包。 您可以启用“[!UICONTROL 顺序处理]“ ”选项 [!UICONTROL 方案设置] 以防止在成功解析“未完成执行”文件夹中存储的执行操作之前再次执行方案。
 
-有关未完成执行的更多信息，请参阅 [在中查看和解决未完成的执行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   有关未完成执行的更多信息，请参阅 [在中查看和解决未完成的执行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### 使用 [!UICONTROL 中继器] 模块
 
-1. 使用 **[!UICONTROL 中继器]** 模块及其设置 [!UICONTROL 重复] 字段的长度。
+1. 使用 **[!UICONTROL 中继器]** 模块及其设置 **[!UICONTROL 重复]** 字段的长度。
 1. 将可能失败的模块链接到 **[!UICONTROL 中继器]** 模块。
 1. 将错误处理程序路由附加到此模块(请参阅 [在中处理错误 [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md))。
 1. 链接 **[!UICONTROL 工具] > [!UICONTROL 睡眠]** 模块到错误处理程序路由并设置其 **[!UICONTROL 延迟]** 字段，以表示两次尝试之间间隔的秒数。
@@ -98,7 +98,7 @@ ht-degree: 0%
 >
 >![](assets/http-make-request-350x116.png)
 >
->如果潜在故障模块的结果太复杂，无法存储在简单变量中，则可以使用数据存储来存储/检索结果。 数据存储将只包含一条记录。 例如，记录的键可以是， `Result`.
+>如果潜在故障模块的结果过于复杂，无法存储在简单变量中，则可以使用数据存储来存储/检索结果。 数据存储将只包含一条记录。 例如，记录的键可以是， `Result`.
 >
 >有关数据存储的更多信息，请参阅 [数据存储在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
