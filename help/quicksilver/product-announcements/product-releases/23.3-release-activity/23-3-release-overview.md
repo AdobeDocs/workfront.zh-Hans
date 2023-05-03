@@ -4,9 +4,9 @@ description: 23.3版本概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
+source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>预览版本：2023年4月20日<br /></p>
                             </li>
                             <li>
-                                 <p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.3版本中</p>
+                                 <s><p>提前选择加入的生产版本：2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p></s>
+                                 </li>
+                                 <li>
+                                <p><span class="preview">适用于所有客户的生产版本：2022年5月18日</span>3</p>
                             </li>
                         </ul>
                     </td>
