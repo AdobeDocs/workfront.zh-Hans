@@ -8,9 +8,9 @@ description: 有时，在执行方案期间可能会发生错误。 如果服务
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ ht-degree: 0%
 * 如果第一个模块发生错误，则方案的执行将终止，并显示警告消息。 [!DNL Workfront Fusion] 然后，会反复尝试以增加时间间隔重新运行该方案（如下所述）。 如果所有尝试都失败， [!DNL Workfront Fusion] 停用方案。
 * 如果连接错误发生在第一个模块以外的另一个模块上，则后续步骤取决于 [允许存储未完成的执行](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 方案高级设置中的选项：
 
-   * 如果启用了此选项，则方案的执行将移至 [!UICONTROL 未完成执行] 文件夹中 [!DNL Workfront Fusion] 会反复尝试以增加时间间隔重新运行该方案。 如果所有尝试都失败，则执行将保留在 [在中查看和解决未完成的执行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) 文件夹，等待用户手动解析。
-   * 如果禁用了选项，则执行方案后将以错误结束，然后是回滚阶段。 [!DNL Workfront Fusion] 然后，会反复尝试以增加时间间隔重新运行该方案。 如果所有尝试都失败， [!DNL Workfront Fusion] 停用方案。
+   * 如果启用了此选项，则方案的执行将移至 [!UICONTROL 未完成执行] 文件夹中 [!DNL Workfront Fusion] 会反复尝试以增加时间间隔重新运行该方案。 如果所有尝试都失败，则执行将保留在“未完成的执行”文件夹中，等待用户手动解决。
+
+      有关未完成执行的更多信息，请参阅 [在中查看和解决未完成的执行 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * 如果禁用此选项，则执行方案后将以错误结束，然后是回滚阶段。 [!DNL Workfront Fusion] 然后，会反复尝试以增加时间间隔重新运行该方案。 如果所有尝试都失败， [!DNL Workfront Fusion] 停用方案。
 
 ### 增加时间间隔
 
@@ -80,17 +82,19 @@ ht-degree: 0%
 >
 >**示例:**
 >
->方案包含 [!DNL Google Sheets] 触发器 [!UICONTROL 监视行]. [!DNL Google Sheets] 30分钟内不可用，因为 [!DNL Workfront Fusion] 启动方案，因此无法检索新行。 此方案将在10分钟后停止并重试。 由于服务在此时间范围内仍然不可用， [!DNL Workfront Fusion] 仍无法获取有关新行的信息。 方案的下一次运行将在1小时内计划进行。 [!DNL Google Sheets] 此时间内将再次可用，并且方案成功运行。
+>方案包含 [!DNL Google Sheets] 触发器 [!UICONTROL 监视行]. [!DNL Google Sheets] 30分钟内不可用，因为 [!DNL Workfront Fusion] 启动方案，因此无法检索新行。 此方案将在10分钟后停止并重试。 因为 [!DNL Google Sheets] 仍然不可用， [!DNL Workfront Fusion] 仍无法获取有关新行的信息。 方案的下一次运行将在1小时内计划进行。 [!DNL Google Sheets] 现已再次可用，并且方案已成功运行。
 
 ## 数据错误
 
 `DataError`
 
-当项目映射不正确且未通过对执行的验证时，会生成数据错误 [!DNL Workfront Fusion] 第三方服务的侧面或侧面。 有关更多信息，请参阅 [在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+当项目映射不正确且未通过对执行的验证时，会生成数据错误 [!DNL Workfront Fusion] 第三方服务的侧面或侧面。
 
 如果发生此错误，则方案（模块失败的位置）会移至未完成的执行文件夹，您可以在该文件夹中对问题进行故障诊断。 但是，此方案不会停止，并会继续根据其计划运行。 要在出现“数据错误”时停止执行方案，请在“方案”设置面板中启用“顺序处理”选项。
 
 如果尚未启用 [!UICONTROL 允许存储未完成的执行] 方案设置中的选项时，方案的执行将终止，并执行回滚。
+
+有关映射的更多信息，请参阅 [在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 有关未完成执行的信息，请参阅 [查看和解决Adobe Workfront Fusion中未完成的执行](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ ht-degree: 0%
 
 `InvalidAccessTokenError`
 
-访问令牌错误在 [!DNL Workfront Fusion] 无法访问在第三方服务中注册的帐户。 通常情况下，当您撤消 [!DNL Workfront Fusion] 在给定服务的管理中，但相关方案会按计划继续运行。
+访问令牌错误在 [!DNL Workfront Fusion] 无法访问在第三方服务中注册的帐户。 通常情况下，当您撤消 [!DNL Workfront Fusion] 在给定服务的管理中，但相关情景会按计划继续运行。
 
 如果发生此错误，将立即停止执行方案。 从发生错误的模块开始的方案的其余部分将移至未完成的执行文件夹。
 
@@ -118,7 +122,9 @@ ht-degree: 0%
 
 `RateLimitError`
 
-如果超出给定服务设置的限制，则会生成速率限制错误。 如果发生此错误， [!DNL Workfront Fusion] 以与连接错误相同的方式进行。 有关更多信息，请参阅 [连接错误](#connection-error).
+如果超出给定服务设置的限制，则会生成速率限制错误。 如果发生此错误， [!DNL Workfront Fusion] 以与连接错误相同的方式进行。
+
+有关更多信息，请参阅 [连接错误](#connection-error).
 
 ## 数据错误不完整
 
@@ -126,11 +132,15 @@ ht-degree: 0%
 
 仅触发器出现数据错误不完整。 如果触发器无法从给定服务下载所需数据，则会生成此错误。
 
-如果方案终止时使用 `IncompleteDataError`，则其进一步行为将取决于其设置 [!UICONTROL 连续错误的最大数量]. 有关更多信息，请参阅 [连续错误数](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 在文章中 [Adobe Workfront Fusion中的“方案设置”面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+如果方案终止时使用 `IncompleteDataError`，则其进一步行为将取决于其设置 [!UICONTROL 连续错误的最大数量].
+
+有关更多信息，请参阅 [连续错误数](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 在文章中 [Adobe Workfront Fusion中的“方案设置”面板](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**示例：** 一种情况是 [!DNL Workfront] 触发器 [!UICONTROL 观看记录] 设置为监视文档。 在您上传大型文档（如长视频）时，会执行此方案。 因为 [!UICONTROL Workfront Fusion] 当视频仍在上传到Workfront时，该方案会终止，因为 `IncompleteDataError`.
+>**示例:**
+>
+>一种情况是 [!DNL Workfront] 触发器 [!UICONTROL 观看记录] 设置为监视文档。 在您上传大型文档（如长视频）时，会执行此方案。 因为 [!UICONTROL Workfront Fusion] 当视频仍在上传到Workfront时，该方案会终止，因为 `IncompleteDataError`.
 
 ## 运行时错误
 
