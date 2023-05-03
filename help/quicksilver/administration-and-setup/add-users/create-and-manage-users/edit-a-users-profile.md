@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # 编辑用户的配置文件
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">自定义表单</td> 
-      <td>将现有用户自定义表单与此用户关联。 必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 有关创建自定义表单的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>.</td> 
+      <td><p>将现有用户自定义表单与此用户关联。 必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 您无权编辑的字段不会显示在单个自定义表单中。</p> <p>有关创建自定义表单的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">评论</td> 
-      <td> <p>键入要发送给用户及其用户配置文件的Updates区域的评论。</p> </td> 
+      <td>键入要发送给用户及其用户配置文件的Updates区域的评论。</td> 
      </tr> 
     </tbody> 
    </table>
