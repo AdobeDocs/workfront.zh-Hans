@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ drafted for P&P release:
    >* 您的Workfront管理员必须先在Workfront界面区域的更新馈送首选项部分中启用添加图像，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型有.jpg、.gif和.png。
    >* 图像可从对象的“更新”部分访问，也可在“文档”区域使用。
-   >* <!--In the current commenting experience,--> 删除包含图像的注释时，该图像会保留在“文档”区域，但不再显示在“更新”部分。
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 您可以发送包含图像的更新，而不发送任何文本。
+   >* 删除包含图像的评论时，根据您选择的体验，会出现以下情况：
+      >
+      >     * 在当前的注释体验中，图像仍保留在“文档”区域中，但在“更新”部分中不再可见。
+      >     * 在新的注释体验中，图像会从“更新”部分以及“文档”区域中移除。 在编辑注释和删除图像时，图像也会从“文档”区域中删除。
+   >* 当某人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
+
 
 1. 单击 **更新**  或 **提交**，使用评论测试版体验时。
 
