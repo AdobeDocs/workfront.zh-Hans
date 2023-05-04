@@ -5,30 +5,32 @@ keywords: 组，首选项，任务，组，问题，解锁
 navigation-topic: create-and-manage-groups
 title: 为组配置工时单和小时首选项
 description: 在系统级别，Adobe Workfront管理员可以使用解锁工时单和小时首选项部分常规首选项和预填充工时单。 这允许群组管理员为自己的群组单独配置这些部分中的选项。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 为组配置工时单和小时首选项
 
+{{highlighted-preview}}
+
 Adobe Workfront管理员可以在系统级别解锁以下时间表和小时首选项部分，以便组管理员可以为自己的组单独配置它们：
 
-* 常规首选项
-* 用以下内容预填充工时表
+* 常规偏好设置
+* <span class="preview">用户可记录时间的位置</span>
+* 预填充工时单
 
 如果您管理的组上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员（对于任何组）也是如此。
 
 “工时单”和“工时首选项”页上的以下部分只能在系统级别进行配置，并且无法为组解锁：
 
-* 记录时间
-* 项目、任务或问题删除首选项
+* 删除的项目、任务和问题
 
 有关Workfront管理员如何解锁工时单和小时首选项的信息，请参阅部分 [解锁组的工时单和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [配置工时单和工时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Adobe Workfront管理员可以在系统级别解锁以下时间表和小时首�
     </tbody> 
    </table>
 
-1. 在 **使用** ，请配置以下任意选项：
+1. <span class="preview">在 **用户可在其中记录时间** ，请配置以下任意选项：</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">直接在项目中记录时间</span></td> 
+      <td><span class="preview">允许用户在项目上记录时间（在“更新”选项卡和时间表上）。 如果要限制用户在项目级别记录时间，请取消选中此选项。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">在项目完成后记录时间</span></td>
+      <td><span class="preview">允许用户记录已标记为完成的项目的时间。 如果禁用此选项，则用户将无法记录在处于“完成”状态的项目上已完成的工作的时间。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">记录已停用项目的时间</span></td> 
+      <td><span class="preview">启用此选项后，用户可以在处于“无效”状态的项目上登录数小时。</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >此首选项基于用户的主组首选项的配置来应用。 如果在用户的“主页组”首选项中启用了这些设置，则无论项目的组首选项是否允许，它们都将能够直接在项目（包括已完成或已终止的项目）上记录时间。
+
+1. 在 **预填充工时单** ，请配置以下任意选项：
 
    <table style="table-layout:auto"> 
     <col> 
