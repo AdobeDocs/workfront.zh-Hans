@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 122751851792dfecd062f156f804827cb732c40b
+source-git-commit: a683108ded1e7b022f0179832afaa1da0b81709c
 workflow-type: tm+mt
-source-wordcount: '12940'
+source-wordcount: '12957'
 ht-degree: 1%
 
 ---
@@ -183,7 +183,10 @@ ht-degree: 1%
          * [Workfront Scenario Planner 20.3版本 — 2020年8月14日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront Target发布活动 {#goals-release}
          * [Adobe Workfront Target发布活动](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * 23.1版本中的目标 {#goals-23-2}
+         * 23.3版本中的目标 {#goals-23-3}
+            * [Adobe Workfront Goals与23.3版本](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+            * [Adobe Workfront Goals 23.3发行活动：2023年5月1日这一周](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+         * 23.2版本中的目标 {#goals-23-2}
             * [Adobe Workfront Goals与23.2版本](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2发行活动：2023年3月20日一周](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * 23.1版本中的目标 {#goals-23-1}
@@ -2223,8 +2226,8 @@ ht-degree: 1%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront促销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront促销活动请求或促销活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+* Workfront 校样 {#workfront-proof}
+   * [Workfront 校样](workfront-proof/workfront-proof.md)
    * 开始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流示例 {#workflow-examples}
