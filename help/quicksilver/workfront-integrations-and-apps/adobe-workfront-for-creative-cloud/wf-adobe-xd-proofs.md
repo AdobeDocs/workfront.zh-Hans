@@ -6,9 +6,9 @@ description: 您可以将画板作为校样直接上传到Adobe Workfront，以�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >要选择多个画板，请单击鼠标并将其拖动到所需的画板上。
+   >* 画板将按选择的顺序显示在校样中。 第一个选定的画板将是校样中的第一个页面，依此类推。
+   >* 要快速选择多个画板，请单击并将鼠标拖动到所需画板上。 这不允许您控制校样中画板的顺序。
+
 
 1. 启用 **[!UICONTROL 创建校样]**.
 
