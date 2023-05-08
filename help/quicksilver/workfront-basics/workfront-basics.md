@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront基础知识
-description: 复习这些方面，了解 Adobe Workfront 的基础知识。
+description: 复习这些部分以了解 Adobe Workfront 的基础知识。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2

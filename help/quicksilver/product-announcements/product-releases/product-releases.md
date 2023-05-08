@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-announcements
 title: 产品版本
-description: 以下是指向当前和过去版本的发行说明的链接。
+description: 以下是当前和过去版本的发行说明的链接。
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # 产品版本
 
-以下是指向当前和过去版本的发行说明的链接。
+以下是当前和过去版本的发行说明的链接。
 
 有关Adobe Workfront发行计划的信息，请参阅 [Adobe Workfront发行计划和流程](../../product-announcements/product-releases/workfront-release-schedule.md).
 

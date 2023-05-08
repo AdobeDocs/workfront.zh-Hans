@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: 管理和设置
-description: 在本分区中找到管理 Workfront 系统所需的信息。
+description: 可在此部分中找到管理 Workfront 系统所需的信息。
 feature: System Setup and Administration
 role: Admin
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
