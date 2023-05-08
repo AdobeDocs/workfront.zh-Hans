@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ## Adobe Workfront中新的内置访问级别 {#built-in-access}
 
-Workfront具有6个新的内置访问级别：
+Workfront具有5个新的内置访问级别：
 
 * 系统管理员
 * 标准
