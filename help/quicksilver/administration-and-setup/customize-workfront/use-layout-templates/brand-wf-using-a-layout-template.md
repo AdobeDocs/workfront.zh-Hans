@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板品牌Adobe Workfront
+
+>[!IMPORTANT]
+>
+>此页面中描述的过程仅适用于尚未载入的组织 [!DNL Adobe Experience Cloud].
+>
+> 如果贵组织已载入 [!DNL Adobe Experience Cloud]，品牌推广不可用。
 
 您可以使用布局模板在顶部导航区域和主菜单中为特定组、团队、工作角色和用户自定义徽标。 这对于大型组织中具有自己品牌的组尤其有用。
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront管理员可以在系统级别对整个组织进行相同的品牌自定义，如 [品牌化Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 但布局模板中的品牌策略会取代系统级别的品牌策略。>
+>Workfront管理员可以在系统级别对整个组织进行相同的品牌自定义，如 [品牌化Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 但布局模板中的品牌策略会取代系统级别的品牌策略。
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

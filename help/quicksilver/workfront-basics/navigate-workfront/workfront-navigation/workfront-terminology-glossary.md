@@ -5,9 +5,9 @@ title: 术语表 [!DNL Adobe Workfront] 术语
 description: 的 [!DNL Adobe Workfront] 术语表列出了Adobe Workfront中常用的术语。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 <tr> 
    <td>[!UICONTROL品牌策略]</td> 
-   <td>定制过程 [!DNL Workfront] 使界面具有与您的公司相似的外观，使用您的颜色和徽标。</td> 
+   <td><p>定制过程 [!DNL Workfront] 使界面具有与您的公司相似的外观，使用您的颜色和徽标。</p><p><strong>注意</strong><br>如果贵组织已载入 [!DNL Adobe Experience Cloud]，品牌推广不可用。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL痕迹导航]</td> 

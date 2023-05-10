@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 注销 [!DNL Adobe Workfront]
 description: 出于安全考虑，请务必注销 [!DNL Adobe Workfront] 定期。 默认情况下， [!DNL Workfront] 在用户处于不活动状态8小时后，会自动将用户注销。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ ht-degree: 0%
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>此页面中描述的过程仅适用于尚未载入的组织 [!DNL Adobe Experience Cloud].
+>
+> 如果贵组织已载入 [!DNL Adobe Experience Cloud]，您将通过单击顶部导航中的配置文件图片并选择 [!UICONTROL **注销**] 中。 有关更多信息，请参阅 [[!DNL Adobe Unified Experience] 表示 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## 访问要求
 
