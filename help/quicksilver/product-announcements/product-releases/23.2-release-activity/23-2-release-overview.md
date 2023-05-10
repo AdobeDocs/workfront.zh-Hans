@@ -4,13 +4,13 @@ description: 23.2版本概述
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2版本概述
 
@@ -52,6 +52,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">将Workfront字段值映射到Experience Manager Assets中的标记</a>
+                        <p>现在，您可以根据Workfront中的数据对资产进行分类并快速查找。  您可以在用于Experience Manager Assets集成的Workfront中将此数据映射为元数据配置的一部分。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用<br /></p>
+                            </li>
+                            <li>
+                                 <p>生产版本：2023年3月30日</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

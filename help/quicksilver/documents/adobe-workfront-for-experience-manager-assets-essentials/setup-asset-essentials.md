@@ -6,10 +6,10 @@ description: 在Experience Manager Assets Essentials — 编辑我中将您的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -109,6 +109,23 @@ ht-degree: 5%
 * 在Experience Manager Assets Essentials中配置元数据架构，如 [配置Adobe Workfront和Experience Manager Assets之间的资产元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * （可选）在Workfront中配置自定义表单字段。 Workfront有许多您可以使用的内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关更多信息，请参阅 [创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **支持的Workfront和Experience Manager Assets字段**
+
+**AEM关键词**
+
+您可以在Workfront Essentials中将任何Experience Manager Assets支持的字段映射到关键词。
+
+要将字段链接到关键词，请选择 `dc:subject` 在元数据映射区域的Experience Manager Assets字段下拉列表中。
+
+要将多个单行文本字段映射到关键字，请在元数据映射的Workfront侧输入以逗号分隔的关键字值列表， `dc:subject` 在Experience Manager Assets那边。 每个字段值都映射到一个单独的关键字。 您可以使用计算字段将多个Workfront字段合并为一个以逗号分隔的文本字段。
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### 资产
 
@@ -119,6 +136,8 @@ ht-degree: 5%
    >
    >您可以将单个Workfront字段映射到多个Experience Manager Assets字段。 您无法将多个Workfront字段映射到单个Experience Manager Assets字段。
 1. 在 **Experience Manager** 字段中，选择一个Experience Manager Assets字段。
+
+   要将Workfront字段映射到Experience Manager Assets标记，请选择 `dc:subject`.
 1. 根据需要重复步骤1和2。
    ![启用元数据](assets/metadata-assets-essentials.png)
 1. 单击 **保存** 或继续 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 章节。
