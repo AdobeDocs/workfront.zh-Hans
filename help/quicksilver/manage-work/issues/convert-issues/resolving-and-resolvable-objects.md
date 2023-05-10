@@ -7,7 +7,7 @@ description: 可解析对象是其分辨率与解析对象绑定的问题。 解
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -169,7 +169,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 您可以使用相同的键创建自定义状态，以用于问题和项目或任务。 当项目或任务（作为解析对象）更改为自定义状态时，更改也会反映问题的状态。 问题和项目或任务状态的状态键必须相同。
 
-例如，使用三个字母代码“LCD”（等于“当前”）创建一个名为“已启动”的项目自定义状态。 此外，创建一个名为“项目启动”的问题自定义状态，并将字母代码“LCD”等于“进行中”。 当您将项目标记为“已启动”时，问题会自动将状态更改为“已启动项目”。 如果未启用“自动****设置问题状态以使用状态键匹配可解析对象”设置，则问题状态将改为“进行中”（默认状态）。
+例如，使用三个字母代码“LCD”（等于“当前”）创建一个名为“已启动”的项目自定义状态。 此外，创建一个名为“项目启动”的问题自定义状态，并将字母代码“LCD”等于“进行中”。 当您将项目标记为“已启动”时，问题会自动将状态更改为“已启动项目”。 如果未启用“解决对象更改的状态”设置，则“自动更新可解决的问题”状态将改为“进行中”（默认状态）。
 
 有关创建自定义状态的更多信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
