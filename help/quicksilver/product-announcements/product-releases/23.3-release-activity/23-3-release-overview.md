@@ -4,9 +4,9 @@ description: 23.3版本概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板载进气柱上可用的简单过滤器</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>已将简化的过滤器添加到进气列设置中，以便更快地定义进气列。 可用的过滤器包括Workfront项目和按团队或用户的分配。 您可以根据需要切换到高级过滤器。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年5月10日<br /></p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本：2023年5月10日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过为Workfront主板提供早期功能选择加入来提供。</span></p>
+                                <p>适用于所有客户的生产版本：在23.3版本中</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">添加到动态展示板模板的简单过滤器</a></p>
                         <p>动态展示板模板上的过滤器已得到简化，以便您更快地创建展示板。</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段值映射到Experience Manager Assets中的标记</a><span style="color: #ff0000;"> 生产新增！</span></p>
+                        <p>现在，您可以根据Workfront中的数据对资产进行分类并快速查找。 您可以在用于Experience Manager Assets集成的Workfront中将此数据映射为元数据配置的一部分。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年5月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：2023年5月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段映射到自定义Experience Manager Assets元数据字段</a><span style="color: #ff0000;"> 生产新增！</span></p>
+                        <p>通过本机集成，您现在可以将本机和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年5月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：2023年5月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront调整自动校样工作流模板设置以进行Creative Cloud</a></p>
@@ -285,7 +334,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Proof增强功能
 
-此时，版本中没有Workfront校样更新。 此区域将在更新可用时进行更新。
+23.3发行时间范围内Workfront Proof版本的新增功能。 有关预览中当前提供的这些新增功能的信息，请参阅 [Adobe Workfront Proof与23.3版本](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront目标增强功能
 

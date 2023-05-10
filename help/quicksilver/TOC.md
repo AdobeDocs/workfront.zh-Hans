@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [23.3 2023年4月17日的发行活动周](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [23.3 2023年4月24日的发行活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [23.3 2023年5月1日发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [23.3 2023年5月8日的发行活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [在23.3版本发行时间范围内进行外观更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版 {#release-23-2}
          * [23.2版本概述](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 1%
          * [Workfront Goals与20.4版本](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront Goals与20.3版本 — 2020年8月14日](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Workfront Proof发行活动 {#proof-release}
+         * 23.3版本的验证 {#proof-23-3-release}
+            * [Adobe Workfront Proof与23.3版本](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3发行活动：2023年5月8日这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof发行活动：2021年5月17日这一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof发行活动：2021年11月29日一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 季度发行存档 {#quarterly-release}
