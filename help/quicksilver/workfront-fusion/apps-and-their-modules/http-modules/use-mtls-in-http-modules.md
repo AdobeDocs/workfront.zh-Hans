@@ -9,9 +9,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模块中使用相互TLS，�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 595d6e3e0a7d87240644bf20efd425917f4d953d
+source-git-commit: e67e6b6d3baf9f17a0a451fa4e1dbc365340f76e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -83,40 +83,35 @@ ht-degree: 0%
 
 您可以使用以下链接下载Workfront Fusion公共证书：
 
+### 2023年5月25日至2024年6月9日的证明
+
+>[!IMPORTANT]
+>
+>* 这些 [!DNL Workfront Fusion] 公共证书将于2024年6月9日到期。 在您的证书过期后，您需要将新证书上载到Web服务。 我们建议您：
+   >
+   >   * 记下过期日期，并设置提醒，供您自己将证书上传到Web服务。
+   >   * 将此页面加入书签以轻松查找新证书。
+>
+* 它们是非通配符mTLS证书。
+>
+
+* [下载 [!DNL Workfront Fusion] 证书2023](assets/fusion-prod-us-mtls-certificate.pem)
+* [下载 [!DNL Workfront Fusion] 2023年欧盟证书](assets/fusion-prod-eu-mtls-certificate.pem)
+
+   用于欧盟
+
 ### 2022年11月14日至2023年7月15日的证书
 
 >[!IMPORTANT]
 >
->这些 [!DNL Workfront Fusion] 公共证书将于2023年7月15日到期。 在您的证书过期后，您需要将新证书上载到Web服务。 我们建议您：
->
->* 记下过期日期，并设置提醒，供您自己将证书上传到Web服务。
->* 将此页面加入书签以轻松查找新证书。
->
+>* 这些 [!DNL Workfront Fusion] 公共证书将于2023年7月15日到期。
+>* 它们是通配符mTLS证书。
 
 
 * [下载 [!DNL Workfront Fusion] 证书2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
 * [下载 [!DNL Workfront Fusion] 2023年欧盟证书](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    用于欧盟
-
-<!--
-
-Previous US cert
-
-* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
-
-### Certificates for November 17, 2021 - November 14, 2022
-
->[!IMPORTANT]
->
->These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
-
-* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-  -->
 
 ## 在中启用相互TLS [!DNL Workfront Fusion] HTTP模块
 
