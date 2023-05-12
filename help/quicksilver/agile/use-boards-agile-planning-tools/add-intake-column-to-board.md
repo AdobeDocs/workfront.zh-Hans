@@ -7,9 +7,9 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ ht-degree: 0%
 
 &#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
 
-## 创建进气列
+## 使用简单过滤器创建进气列
+
+>[!NOTE]
+>
+>仅通过为Adobe Workfront主板提供早期功能选择加入功能，才提供简单过滤器。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **[!UICONTROL 展示板]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ ht-degree: 0%
 1. 展开 **[!UICONTROL 展示板]**.
 1. 打开 **[!UICONTROL 动态摄取要登入的项目]**.
 
-   ![创建进气列](assets/create-intake-column2.png)
+   ![进气列简单过滤器选项](assets/intake-column-simple-filters.png)
 
    进纸柱在板的左侧添加。 在对其应用过滤器之前，它将一直留空。
 
+1. （可选）搜索并选择 [!DNL Workfront] [!UICONTROL **项目**].
+1. （可选）搜索并选择用户或团队 [!UICONTROL **分配**].
+1. 选择 [!UICONTROL **包括已完成的工作**] 以在“摄取”列中显示“完成”状态的任务和问题。
+
+   >[!NOTE]
+   >
+   >如果未选择此选项，则当其他状态的信息卡标记为完成时，它们将“掉下”展示板，不再显示。
+
+1. 单击 [!UICONTROL **应用**].
+
+   所有对象都以连接卡的形式显示在主板进气列中。
+
+   ![引入列](assets/intake-column-added3.png)
+
+## 使用高级过滤器创建进气列
+
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **[!UICONTROL 展示板]**.
+1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
+1. 单击 **[!UICONTROL 配置]** 打开“配置”面板。
+1. 展开 **[!UICONTROL 展示板]**.
+1. 打开 **[!UICONTROL 动态摄取要登入的项目]**.
+
+   进纸柱在板的左侧添加。 在对其应用过滤器之前，它将一直留空。
+
+1. 单击 [!UICONTROL **使用高级过滤器**].
 1. 单击 **[!UICONTROL 筛选源]** 选择 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]**.
+
+   ![进气列高级过滤器选项](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ ht-degree: 0%
 
    ![引入列](assets/intake-column-added3.png)
 
-   在将信息卡移入其他展示板列之前，信息卡进入列中不可编辑。 您可以单击卡片以在只读视图中将其打开，也可以单击 ![打开任务或问题](assets/boards-launch-icon.png) 在新的浏览器选项卡中打开任务或问题。
-
-   您可以手动对进气列上的项目重新排序。
-
-   摄取列右上方的图标显示当前该列中的卡片数量以及应用的过滤器数量。
-
    >[!NOTE]
    >
    >您可以随时更新过滤器，方法是打开“配置”面板，单击 **[!UICONTROL 筛选源]**，然后选择 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]**.
+
+## 使用进气柱
+
+在将信息卡移入其他展示板列之前，信息卡进入列中不可编辑。 您可以单击卡片以在只读视图中将其打开，也可以单击 ![打开任务或问题](assets/boards-launch-icon.png) 在新的浏览器选项卡中打开任务或问题。
+
+
+您可以手动对进气列上的项目重新排序。
+
+摄取列右上方的图标显示当前该列中的卡片数量以及应用的过滤器数量。
 
 1. （可选）要在进气列中搜索项目，请单击 ![“搜索”图标](assets/search-icon.png) 列中。
 1. （可选）要将信息卡从进入列移动到另一列，请将信息卡拖放到您希望显示的位置。

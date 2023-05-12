@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 功能板中，您可以创建新展示�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ ht-degree: 3%
       所有对象都以连接卡的形式显示在主板上。
 
       的 [!UICONTROL **添加的信息卡**] 计数器显示展示板上有多少张卡片。 例如，如果您选择的项目包含100个任务和问题，则计数器会显示100个。 如果您添加了用户分配，并且该人员被分配到项目上的5个任务，则计数器会显示5个任务。
+
+   1. （可选）选择 [!UICONTROL **包括已完成的工作**] 在展示板上包含已填写的卡片。
+
+      >[!NOTE]
+      >
+      >如果未选择此选项，则当其他状态的信息卡标记为完成时，它们将“掉下”展示板，不再显示。
 
    1. （可选）单击 [!UICONTROL **使用高级过滤器**] 以显示其他过滤器选项。
 
