@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront的以下区域中向项目、任务或�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Workfront网站可通过以下方式阻止病毒和其他恶意内容通过文�
 
 ### Workfront如何检测损坏的文件 {#how-workfront-detects-corrupted-files}
 
-Workfront在上传文档时会扫描病毒。 如果您尝试上传损坏的文档，Workfront将中断上传过程，并出现一条消息，指示文件已损坏。 当Workfront检测到潜在的恶意内容并计划删除该文件时，您还会收到电子邮件通知。\
-除非您手动删除，否则所有损坏的文件将在检测后的24小时内被删除。 如果删除损坏的文件，Workfront会将此操作作为更新进行跟踪。 如果允许Workfront删除它，则不会记录任何更新。
+只有在请求时，才为贵组织启用文档扫描。
+
+如果启用了文档扫描，则在上载文件时将扫描25 MB以下的文件。 不会扫描超过25 MB的文件。
+
+如果Workfront检测到损坏的文档，Workfront将中断上传过程，并出现一条消息，指示文件已损坏。 当Workfront检测到潜在的恶意内容并计划删除该文件时，您还会收到电子邮件通知。
+
+除非您手动删除损坏的文件，否则会在检测后的24小时内将其删除。 如果删除损坏的文件，Workfront会将此操作作为更新进行跟踪。 如果允许Workfront删除它，则不会记录任何更新。
 
 ### 文件名限制 {#file-name-restrictions}
 
