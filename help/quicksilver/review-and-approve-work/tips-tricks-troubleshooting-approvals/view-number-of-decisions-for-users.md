@@ -6,7 +6,7 @@ description: 您可以查看用户在您的Workfront实例中做出的校样和�
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 1. 打开 **视图** 区域，然后选择 **许可证** 中。
 
-1. 查找列 **本月的审批** 查看每个用户在当月做出的决定数。
+1. 查找列 **本月的决定** 查看每个用户在当月做出的决定数。
