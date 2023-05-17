@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ drafted for P&P release:
 1. 转到更新区域，然后开始键入评论。
 1. （可选）要向更新添加富文本格式，请在 **富文本** 工具栏。
 
-   | **属性** | **工具栏按钮** | **Mac快捷键** | **PC快捷键** |
+   | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
    | 粗体 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
+   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开创建链接或添加链接框，请执行以下操作：⌘+K</br> <br><span class="preview">在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：⌘+V</span></br> | <br>要打开创建链接或添加链接框，请执行以下操作：Ctrl+K</br> <br><span class="preview">在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：Ctrl+V</span></br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    要停止格式化文本，请取消选择 **富文本** 工具栏。
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
