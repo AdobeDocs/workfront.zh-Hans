@@ -5,9 +5,9 @@ title: “新的评论体验测试版发布活动”
 description: 查看Adobe Workfront新评论测试版体验的每周发布活动。
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '552'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 ## 2023年5月15日这一周
 
-### 改进了向注释添加超链接时的体验（标题）
+### 改进了向注释添加超链接时的体验
 
 现在，您可以使用以下快捷键向注释添加超链接：
 
