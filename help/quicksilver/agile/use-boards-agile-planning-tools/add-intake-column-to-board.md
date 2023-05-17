@@ -7,9 +7,9 @@ description: 您可以选择在展示板中添加一个摄取列，根据您定�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
    进纸柱在板的左侧添加。 在对其应用过滤器之前，它将一直留空。
 
 1. 单击 [!UICONTROL **使用高级过滤器**].
-1. 单击 **[!UICONTROL 筛选源]** 选择 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]**.
+1. 单击 **[!UICONTROL 添加过滤器源]** 选择 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]**.
 
    ![进气列高级过滤器选项](assets/intake-column-advanced-filters1.png)
 
