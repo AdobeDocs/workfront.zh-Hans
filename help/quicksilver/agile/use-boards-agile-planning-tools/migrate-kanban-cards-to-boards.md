@@ -5,7 +5,7 @@ title: 将敏捷团队看板卡迁移到Workfront展示板
 description: 您可以将工作项从敏捷的小组看板板迁移到新的或现有的Workfront板。
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 将敏捷团队看板卡迁移到Workfront展示板
-
-{{highlighted-preview-article-level}}
 
 您可以将工作项从敏捷的小组看板板迁移到新的或现有的Workfront板。 运行迁移时，看板板上的所有卡都会复制到Workfront板。 不允许您选择特定的卡。
 
