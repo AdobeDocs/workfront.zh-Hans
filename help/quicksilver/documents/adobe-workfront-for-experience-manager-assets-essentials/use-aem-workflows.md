@@ -5,14 +5,16 @@ title: 在Experience Manager Assets Essentials集成中使用工作流
 description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 038f5f3c941ea69feb43492a30b5abea39f7c932
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets集成中使用工作流
+
+<span class="preview">此页面上的信息是指尚未普遍提供的功能。 它仅在“预览沙盒”环境中可用。</span>
 
 工作流是一组将Workfront与Adobe Experience Manager as a Cloud Service连接的操作。 Workfront管理员可以在Workfront中配置工作流，然后将其分配给项目模板。 当使用分配了工作流的项目模板创建项目时，将触发工作流中定义的操作。
 
