@@ -4,9 +4,9 @@ description: 23.3版本概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">组级别控件可用于“用户可以记录时间”时间表和小时首选项</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">组级别控件可用于“用户可以记录时间”时间表和小时首选项</a></p>
                         <p>系统管理员现在可以锁定和解锁“用户可以记录时间”时间表和小时首选项。 解锁此首选项后，群组管理员可以为每个群组分别配置“用户可以记录时间”设置。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板载进气柱上可用的简单过滤器</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板载进气柱上可用的简单过滤器</a></p>
                         <p>已将简化的过滤器添加到进气列设置中，以便更快地定义进气列。 可用的过滤器包括Workfront项目和按团队或用户的分配。 您可以根据需要切换到高级过滤器。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段值映射到Experience Manager Assets中的标记</a><span style="color: #ff0000;"> 生产新增！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">在创建项目时自动创建链接的文件夹到Adobe Experience Manager Assets</a><span style="color: #ff0000;"> 生产新增！</span></p>
+                        <p>通过新的Adobe Experience Manager集成创建链接文件夹工作流，您可以配置集成的Adobe Experience Manager Assets文件夹路径。 将集成添加到项目模板后，使用该模板创建的任何项目都将自动在指定文件夹的Experience Manager Assets中创建链接的子文件夹。 </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：2023年5月11日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：2023年5月18日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段值映射到Experience Manager Assets中的标记</a></p>
                         <p>现在，您可以根据Workfront中的数据对资产进行分类并快速查找。 您可以在用于Experience Manager Assets集成的Workfront中将此数据映射为元数据配置的一部分。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段映射到自定义Experience Manager Assets元数据字段</a><span style="color: #ff0000;"> 生产新增！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段映射到自定义Experience Manager Assets元数据字段</a></p>
                         <p>通过本机集成，您现在可以将本机和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
