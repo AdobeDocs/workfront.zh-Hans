@@ -6,16 +6,16 @@ description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '7344'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # 编辑项目
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它适用于预览环境中的所有客户以及生产环境中的选定客户组。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ ht-degree: 2%
 * 状态
 * 如果您在当前审批流程中设置为审批者，则应做出审批决策
 
-<div class="preview">
-
 ## 批量编辑项目
 
 您可以批量编辑项目，并同时更新所有选定项目的信息。
@@ -795,7 +793,6 @@ ht-degree: 2%
 1. （可选）单击 **取消** 在 **编辑项目** 页面，以删除对所有项目所做的所有更改。
 1. 单击&#x200B;**保存**。
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

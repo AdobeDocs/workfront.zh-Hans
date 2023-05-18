@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上突出显示的信息是指目前尚不普遍可用的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ drafted for P&P release:
    | 粗体 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开创建链接或添加链接框，请执行以下操作：⌘+K</br> <br><span class="preview">在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：⌘+V</span></br> | <br>要打开创建链接或添加链接框，请执行以下操作：Ctrl+K</br> <br><span class="preview">在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：Ctrl+V</span></br> |
+   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开创建链接或添加链接框，请执行以下操作：⌘+K</br> <br>在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：⌘+V</br> | <br>要打开创建链接或添加链接框，请执行以下操作：Ctrl+K</br> <br>在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |

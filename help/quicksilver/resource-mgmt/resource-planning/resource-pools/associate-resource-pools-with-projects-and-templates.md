@@ -6,7 +6,7 @@ description: 资源池是用户的集合，可帮助您在Adobe Workfront中管�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Also - take out all the references to Preview and Prod at prod final
    >
    >* 批量编辑模板时，此字段中只会显示所有选定模板共有的资源池。 如果选定的模板没有共享资源池，则此字段为空。 您在此处指定的资源池将覆盖项目或模板的单个资源池。
    >
-   >* 批量编辑项目时，如果选定的项目具有不同的资源池，则会显示“多个值”指示器。 如果为项目批量添加资源池，则所有池都将添加到选定项目，并覆盖原始资源池。</span>
+   >* 批量编辑项目时，如果选定的项目具有不同的资源池，则会显示“多个值”指示器。 如果为项目批量添加资源池，则所有池都将添加到选定项目，并覆盖原始资源池。
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. 单击 **保存更改**.\
    将资源池与项目或模板关联后，您可以在资源计划器中为项目预算用户分配。\
