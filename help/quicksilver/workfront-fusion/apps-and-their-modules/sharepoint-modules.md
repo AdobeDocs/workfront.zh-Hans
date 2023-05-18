@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ ht-degree: 0%
 * [获取文件](#get-a-file)
 * [监视文件夹项目](#watch-folder-items)
 
-#### 创建文件
+#### 获取更改
 
-此操作模块在SharePoint中创建新文件。
+此模块返回在SharePoint中所做的更改。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
-   <td> <p>选择您希望如何标识要创建的文件的位置。</p> 
+   <td> <p>选择要如何标识要在中检索更改的文件夹的位置。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL文件夹ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要创建文件的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要检索更改的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源文件]</td> 
-   <td>从前一个模块中选择源文件，或映射源文件的名称和数据。</td> 
+   <td role="rowheader">[!UICONTROL令牌]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ ht-degree: 0%
 
 ### 项
 
-* [[!UICONTROL 监视项目]](#watch-items)
-* [[!UICONTROL 列表项]](#list-items)
-* [[!UICONTROL 获取项目]](#get-an-item)
+* [[!UICONTROL 复制项目]](#copy-an-item)
 * [[!UICONTROL 创建项目]](#create-an-item)
-* [[!UICONTROL 更新项目]](#update-an-item)
 * [[!UICONTROL 删除项目]](#delete-an-item)
+* [[!UICONTROL 获取项目]](#get-an-item)
+* [[!UICONTROL 列表项]](#list-items)
+* [[!UICONTROL 移动项目]](#move-an-item)
+* [[!UICONTROL 更新项目]](#update-an-item)
+* [[!UICONTROL 监视项目] （已计划）](#watch-items-scheduled)
 
-#### [!UICONTROL 监视项目]
 
-此触发器模块会在创建或修改项目时启动方案。
+#### [!UICONTROL 复制项目]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL监视列表]</td> 
-   <td>按创建时间（新项目）还是修改时间（更新项目）选择您要监视列表。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL输入站点和列表ID]</td> 
-   <td> <p>选择您希望如何识别要监视的网站和列表。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>[!UICONTROL列表ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要监视的网站，然后选择列表。 这些下拉列表仅检索后跟的网站。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大项目数。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 列表项]
-
-此操作模块可检索指定列表中所有项目的列表。
+此操作模块复制SharePoint列表中的现有项目。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ ht-degree: 0%
    <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL列表项]</td> 
-   <td> <p>选择您希望如何标识要从中检索项目的列表。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>[!UICONTROL列表ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要从中检索项目的列表的网站，然后选择该列表。 </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大项目数。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 获取项目]
-
-此操作模块会返回指定项目的数据。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL获取项目]</td> 
-   <td> <p>选择您希望如何识别包含要获取的项目的网站和列表。</p> 
+   <td role="rowheader">输入站点、驱动器和文件夹ID</td> 
+   <td> <p>选择您希望如何识别包含要复制的项目的网站和列表。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要从中检索项目的列表的网站，然后选择该列表，然后选择该项目。 </p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在复制项目类型字段中，选择移动的是字段还是文件夹。  选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL目标ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL新名称]</td> 
+   <td>输入或映射项目新副本的名称。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 删除项目]
+
+此操作模块会删除SharePoint列表中的现有项目。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL更新项目]</td> 
+   <td> <p>选择您希望如何识别包含要删除项目的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要删除的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 获取项目]
+
+此操作模块会返回指定项目的数据。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL获取项目]</td> 
+   <td> <p>选择您希望如何识别包含要获取的项目的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要从中检索项目的列表的网站，然后选择该列表，然后选择该项目。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 列表项]
+
+此操作模块可检索指定列表中所有项目的列表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL列表项]</td> 
+   <td> <p>选择您希望如何标识要从中检索项目的列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>[!UICONTROL列表ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要从中检索项目的列表的网站，然后选择该列表。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大项目数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 移动项目]
+
+此操作模块复制SharePoint列表中的现有项目。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">输入站点、驱动器和文件夹ID</td> 
+   <td> <p>选择您希望如何识别包含要移动项目的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在复制项目类型字段中，选择移动的是字段还是文件夹。 选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL目标ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL新名称]</td> 
+   <td>输入或映射已移动项目的名称。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 更新项目]
 
 此操作模块会更新SharePoint列表中的现有项目。
@@ -351,39 +408,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 删除项目]
+#### [!UICONTROL 监视项目] （已计划）
 
-此操作模块会删除SharePoint列表中的现有项目。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL更新项目]</td> 
-   <td> <p>选择您希望如何识别包含要删除项目的网站和列表。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要删除的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 列表
-
-* [[!UICONTROL 监视列表]](#watch-lists)
-* [[!UICONTROL 列表列表]](#list-lists)
-* [[!UICONTROL 获取列表]](#get-a-list)
-* [[!UICONTROL 创建列表]](#create-a-list)
-
-#### [!UICONTROL 监视列表]
-
-创建或修改列表时，此触发器模块会启动一个方案。
+此触发器模块会在创建或修改项目时启动方案。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL输入站点和列表ID]</td> 
    <td> <p>选择您希望如何识别要监视的网站和列表。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 要监视的列表所在的位置。</p> </li> 
-     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要监视的网站。 下拉列表仅检索您关注的网站。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>[!UICONTROL列表ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要监视的网站，然后选择列表。 这些下拉列表仅检索后跟的网站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大列表数。</p> </td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大项目数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 列表列表]
+### 列表
 
-此操作模块可检索指定列表中所有项目的列表。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL列表]</td> 
-   <td> <p>选择您希望如何识别要从中检索列表的网站。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要检索的列表的网站。 下拉列表仅检索您关注的网站。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大列表数。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 获取列表]
-
-此操作模块返回指定列表的数据。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL获取列表]</td> 
-   <td> <p>选择您希望如何识别包含要获取的项目的网站和列表。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>列表ID</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要检索的列表的网站，然后选择该列表。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 创建列表]](#create-a-list)
+* [[!UICONTROL 获取列表]](#get-a-list)
+* [[!UICONTROL 列表列表]](#list-lists)
+* [[!UICONTROL 监视列表]](#watch-lists)
 
 #### [!UICONTROL 创建列表]
 
@@ -497,6 +481,87 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 获取列表]
+
+此操作模块返回指定列表的数据。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL获取列表]</td> 
+   <td> <p>选择您希望如何识别包含要获取的项目的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 和 <strong>列表ID</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要检索的列表的网站，然后选择该列表。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 列表列表]
+
+此操作模块可检索指定列表中所有项目的列表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL列表]</td> 
+   <td> <p>选择您希望如何识别要从中检索列表的网站。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要检索的列表的网站。 下拉列表仅检索您关注的网站。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大列表数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 监视列表]
+
+创建或修改列表时，此触发器模块会启动一个方案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL监视列表]</td> 
+   <td>按创建时间（新项目）还是修改时间（更新项目）选择您要监视列表。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL输入站点和列表ID]</td> 
+   <td> <p>选择您希望如何识别要监视的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong> 要监视的列表所在的位置。</p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>选择要监视的网站。 下拉列表仅检索您关注的网站。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大列表数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 页面（测试版）
 
 >[!NOTE]
@@ -528,31 +593,8 @@ ht-degree: 0%
 
 ### 网站
 
-* [[!UICONTROL 搜索站点]](#search-sites)
 * [[!UICONTROL 获取网站]](#get-a-site)
-
-#### [!UICONTROL 搜索站点]
-
-此操作模块会按您指定的参数搜索站点。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！显示名称的UICONTROL关键字]</td> 
-   <td> <p>输入或映射要搜索网站的搜索词。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大站点数。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 搜索站点]](#search-sites)
 
 #### [!UICONTROL 获取网站]
 
@@ -577,6 +619,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 搜索站点]
+
+此操作模块会按您指定的参数搜索站点。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！显示名称的UICONTROL关键字]</td> 
+   <td> <p>输入或映射要搜索网站的搜索词。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大站点数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 其他
 
 #### [!UICONTROL 进行API调用]
@@ -597,7 +662,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL方法]</p> </td> 
-   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL标头]</td> 
@@ -617,6 +682,28 @@ ht-degree: 0%
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 观看事件
+
+当在SharePoint中添加、更新或删除项目时，此即时触发模块会启动一个方案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>选择现有网页挂接，或单击“添加”以创建新网页挂接。</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion可无缝地连接您的应用程序和Web服
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 
 有关如何使用Workfront Fusion的信息，请参阅 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## 最新版本
+## 2023年发布的Fusion版本
 
 ### 2023年5月
 
+* [Workfront Fusion版本活动：2023年5月15日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Workfront Fusion版本活动：2023年5月1日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### 2023年4月
@@ -35,6 +36,10 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 
 * [Workfront Fusion版本活动：2023年3月20日一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion版本活动：2023年3月6日一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## 2022年发布的Fusion版本
+
++++**单击以打开**
 
 ### 2022年12月
 
@@ -91,6 +96,8 @@ Adobe Workfront Fusion可无缝地连接您的应用程序和Web服务，以便�
 ### 2022年1月
 
 * [Workfront Fusion版本活动：2022年1月3日这一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## 2021年发布的Fusion版本
 
