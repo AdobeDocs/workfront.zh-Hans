@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets集成
 description: 您可以通过以下Adobe Experience Manager Assets集成来连接您的工作。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ link to documentation about creating schema - waiting on response from Anuj abou
 >用户必须具有中的写入权限 [!DNL Experience Manager] 对于对象中的资产，以便在更新元数据时进行同步。
 
 1. 启用 **[!UICONTROL 同步对象元数据]** 字段。
-1. 单击保存或继续 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 章节。
+1. 单击 **保存** 或继续 [设置工作流（可选）](#set-up-workflows-optional) 章节。
+
+<!--Courtney start here-->
+
+## 设置工作流（可选）
+
+工作流是一组将Workfront与Adobe Experience Manager as a Cloud Service连接的操作。 作为Workfront管理员，您可以在Workfront中配置工作流，然后将其分配给项目模板。 当使用分配了工作流的项目模板创建项目时，将触发工作流中定义的操作。
+
+您在集成中设置的默认工作流值可以在项目模板和项目级别被覆盖。
+
+### 设置用于创建Adobe Experience Manager链接文件夹的工作流
+
+1. 切换 **[!UICONTROL 创建链接的文件夹]** 开。
+1. 选择一个文件夹路径，以指示您希望将所有关联的文件夹关联到此集成的位置。
+   ![链接的文件夹导航](assets/select-folder-aem-integration.png)
+1. 启用 **附加Portfolio和程序名称** 选项，在链接文件夹名称的末尾自动包含Portfolio和项目群名称。
+1. 单击 **保存** 或继续 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 章节。
+
+<!--Courtney end here-->
 
 ## 设置链接的文件夹（可选）
 
