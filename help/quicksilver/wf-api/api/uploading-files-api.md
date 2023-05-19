@@ -1,33 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: 通过API上传文件
-description: 通过API上传文件
+title: 透過API上傳檔案
+description: 透過API上傳檔案
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# 通过API上传文件
+# 透過API上傳檔案
 
-您可以通过API工具(如Postman)或简单的cURL命令，使用Workfront API上传文件。
+您可以使用Workfront API搭配API工具(例如Postman)或簡單的cURL命令上傳檔案。
 
-要上载文档，请参阅 **上传文档** 在Workfront [帖子行为](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). 您还可以对cURL请求使用相同的说明。
+若要上傳檔案，請參閱 **正在上傳檔案** 在Workfront中 [貼文行為](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). 您也可以對cURL請求使用這些相同的指示。
 
-**使用API工具上传文件时，请遵循以下准则：**
+**使用API工具上傳檔案時，請遵循下列准則：**
 
-* 使用API工具选项上传文件。 这通常是 **选择文件** 按钮。
+* 使用API工具選項上傳檔案。 這些通常是 **選擇檔案** 按鈕。
 
-* 使用POSTHTTP方法请求上传文件。
+* 使用POSTHTTP方法提出上傳檔案的請求。
 
-* 您的请求应会生成一个响应，该响应中包含其句柄的值。
+* 您的請求應該會產生一個回應，其中包含其控制代碼的值。
 
-* 在JSON有效负载中使用objID的句柄值、对象类型和GUID值，以进行后续调用。 这用于为文件创建对象，如以下示例中所示：
+* 在JSON裝載中使用物件的控制代碼值、物件型別和GUID值，進行後續呼叫。 這是用來建立檔案的物件，如下列範例所示：
 
 ```
 }
@@ -39,6 +39,6 @@ ht-degree: 0%
 }
 ```
 
-您应会在响应中收到对象的ID。
+您應該會在回應中收到物件的ID。
 
-有关更多信息，请参阅您使用的特定API工具的帮助。
+如需詳細資訊，請參閱您使用的特定API工具的說明。
