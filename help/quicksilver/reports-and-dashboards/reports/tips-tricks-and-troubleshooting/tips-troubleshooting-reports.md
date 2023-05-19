@@ -2,25 +2,24 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
-title: 有关报表的提示、技巧和疑难解答
-description: 本节包含以下文章 — 编辑我。
+title: 報告的提示、技巧和疑難排解
+description: 本節包含下列文章 — 編輯我。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-# 有关报表的提示、技巧和疑难解答
+# 報告的提示、技巧和疑難排解
 
-本节包含以下文章：
+本節包含下列文章：
 
-* [为新的Workfront体验创建基本报表计划](https://one.workfront.com/s/basic-report-creation-program)
-* [报表常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
-* [日历上的错误消息：“此日历具有已停用用户的视图权限。”](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-* [运行报表时出现错误消息：“您当前未登录。”](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-* [内联编辑日期会将日历显示转移到框外](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
-* [功能板报表中未显示的共享列的数据](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
+* [報表常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
+* [行事曆上的錯誤訊息：「此行事曆擁有已停用使用者的檢視許可權。」](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
+* [執行報告時的錯誤訊息：「您目前未登入。」](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+* [內嵌編輯日期班次行事曆顯示在方塊外](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+* [來自共用欄的資料未顯示在儀表板報表中](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

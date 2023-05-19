@@ -1,67 +1,67 @@
 ---
-title: 使用布局模板自定义登陆页面
+title: 使用版面配置範本自訂登入頁面
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 作为Workfront管理员，您可以使用布局模板指定您希望用户每次登录Workfront时都能看到的区域。
+description: 身為Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
-# 使用布局模板自定义登陆页面
+# 使用版面配置範本自訂登入頁面
 
-作为Adobe Workfront管理员，您可以使用布局模板来指定您希望用户每次登录Workfront时都能看到的区域。
+身為Adobe Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
 
-有关布局模板的更多信息，请参阅 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+如需版面配置範本的詳細資訊，請參閱 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+如需有關群組版面配置範本的資訊，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
    <td>计划</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问权限级别。
-要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。
+若要為群組執行這些動作，您必須是該群組的管理員。</p> <p><b>注意</b>：如果您還是沒有存取權，請洽詢Workfront管理員，瞭解他們是否對您的存取層級設定其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自定义登陆页面
+## 自訂登入頁面
 
-1. 开始使用布局模板，如 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 在 **顶部导航区域**，单击 **选择登陆页面**，然后选择您希望用户在登录时查看的区域。
+1. 開始使用版面範本，如所述 [建立和管理版面範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. 在 **頂端導覽區域**，按一下 **選取登陸頁面**，然後選取您希望使用者登入時看到的區域。
 
    >[!IMPORTANT]
    >
-   >要查看“方案和目标”区域，需要额外的许可证。 有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en) 或有关Workfront方案计划员的信息，请参阅 [方案计划员概述](../../../scenario-planner/scenario-planner-overview.md).
+   >若要檢視「情境和目標」區域，需要額外的授權。 如需Workfront目標的相關資訊，請參閱 [Adobe Workfront目標總覽](../../../workfront-goals/goal-management/wf-goals-overview.md) 或如需Workfront案例規劃工具的詳細資訊，請參閱 [情境規劃工具概觀](../../../scenario-planner/scenario-planner-overview.md).
 
-1. 继续自定义布局模板。
+1. 繼續自訂版面範本。
 
    或
 
-   如果您已完成自定义，请单击 **保存**.
+   如果您已完成自訂，請按一下 **儲存**.
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后稍后继续修改模板。
+   >您可以隨時按一下「儲存」以儲存進度，然後繼續稍後修改範本。

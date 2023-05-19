@@ -2,27 +2,27 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 报表中的计算自定义数据
-description: 本节包含以下文章 — 编辑我。
+title: 報表中計算出的自訂資料
+description: 本節包含下列文章 — 編輯我。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-# 报表中的计算自定义数据
+# 報表中計算出的自訂資料
 
-本节包含以下文章：
+本節包含下列文章：
 
-* [计算数据表达式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
-* [计算自定义字段与计算列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
-* [计算自定义表达式中的条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-* [“IF”语句概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-* [计算的自定义字段示例：在问题自定义窗体上显示问题创建者的经理](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-* [计算的自定义字段示例：在自定义表单中显示状态时间戳](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-* [计算的自定义字段示例：显示字段的编辑历史记录](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-* [为新的Workfront体验创建基本报表计划](https://one.workfront.com/s/basic-report-creation-program)
+* [計算資料運算式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+* [計算自訂欄位與計算欄的比較](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+* [計算自訂運算式中的條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+* [「IF」陳述式概觀](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+* [計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+* [計算自訂欄位範例：在自訂表單中顯示狀態時間戳記](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+* [計算自訂欄位範例：顯示欄位的編輯歷史記錄](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

@@ -2,50 +2,50 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 报表元素概述
-description: 所有Adobe Workfront报表和列表都由三个基本元素（视图、过滤器和分组）组合而成。
+title: 報表元素概觀
+description: 所有Adobe Workfront報告和清單都是三個基本元素的組合 — 檢視、篩選器和群組。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# 报表元素概述
+# 報表元素概觀
 
-所有Adobe Workfront报告和清单都包含三个基本要素：
+所有Adobe Workfront報告和清單都是三個基本元素的組合：
 
-* 视图
-* 过滤器
-* 分组
+* 檢視
+* 篩選器
+* 群組
 
-或者，您也可以将提示和图表添加到报表。
+或者，您也可以將提示和圖表新增至報表。
 
-有关创建提示的信息，请参阅 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+如需有關建立提示的資訊，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-有关在报表中创建图表的信息，请参阅 [将图表添加到报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+如需在報告中建立圖表的相關資訊，請參閱 [新增圖表至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-本节包含以下文章：
+本節包含下列文章：
 
-* [基本报表创建程序](https://one.workfront.com/s/basic-report-creation-program)
-* [报表元素：过滤器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [过滤器Adobe Workfront概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [在Adobe Workfront中创建或编辑过滤器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
-* [通配符过滤器变量](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [视图Adobe Workfront概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [在Adobe Workfront中创建或编辑视图](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [在Adobe Workfront中创建分组](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
-* [编辑现有分组](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-* [在Adobe Workfront中创建或编辑视图](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [使用基于日期的通配符对报表进行归纳](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-* [使用基于用户的通配符对报表进行归纳](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-* [共享过滤器、查看或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-* [删除过滤器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [使用里程碑视图](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
-* [修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
+* [報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [在Adobe Workfront中建立或編輯篩選器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+* [萬用字元篩選變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [在Adobe Workfront中建立或編輯檢視](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+* [編輯現有群組](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+* [在Adobe Workfront中建立或編輯檢視](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [使用以日期為基礎的萬用字元來概括報表](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+* [使用以使用者為基礎的萬用字元來概括報告](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+* [共用篩選、檢視或群組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [移除篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [使用里程碑檢視](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+* [修改欄寬和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
