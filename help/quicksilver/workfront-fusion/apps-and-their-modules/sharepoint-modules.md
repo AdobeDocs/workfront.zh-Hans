@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ ht-degree: 0%
    <td> <p>选择您希望如何识别包含要复制的项目的网站和列表。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在复制项目类型字段中，选择移动的是字段还是文件夹。  选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在项目类型字段中，选择移动的是字段还是文件夹。  选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL目标ID]</td> 
-   <td>  </td> 
+   <td> 输入或映射要将项目复制到的文件夹的ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL新名称]</td> 
@@ -367,12 +367,12 @@ ht-degree: 0%
    <td> <p>选择您希望如何识别包含要移动项目的网站和列表。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL列表ID]</strong>和 <strong>[!UICONTROL项目ID]</strong> 中。</p> </li> 
-     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在复制项目类型字段中，选择移动的是字段还是文件夹。 选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
+     <li> <p><strong>[!UICONTROL从您所关注的列表中选择]</strong> </p> <p>在项目类型字段中，选择移动的是字段还是文件夹。 选择包含要复制的项目的网站，然后选择列表，然后选择该项目。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL目标ID]</td> 
-   <td>  </td> 
+   <td> 输入或映射要将项目移动到的文件夹的ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL新名称]</td> 
@@ -643,6 +643,33 @@ ht-degree: 0%
 </table>
 
 ### 其他
+
+#### 获取更改
+
+此模块检索在SharePoint文件夹中执行的添加、更新和删除操作。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL SharePoint] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">连接 [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 在本文中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL进入站点、驱动器和文件夹ID]</td> 
+   <td> <p>选择您希望如何识别包含要更新项目的网站和列表。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>输入或映射 <strong>[!UICONTROL网站ID]</strong>, <strong>[!UICONTROL驱动器ID]</strong>和 <strong>[!UICONTROL文件夹ID]</strong> 中。</p> </li> 
+     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择包含要更新的项目的站点，然后选择驱动器，然后选择文件夹。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL令牌]</td> 
+   <td> 令牌用于标识模块应从何时开始检索更改。  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 进行API调用]
 
