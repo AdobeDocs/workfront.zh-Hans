@@ -1,75 +1,75 @@
 ---
-title: 查看群组中分配和使用的许可证数量
-description: 作为Adobe Workfront管理员，您可以查看组及其子组中当前使用的各个许可证类型的计数。 当您需要评估是否要重新分发许可证时，此功能非常有用。
-author: Caroline
+title: 檢視群組中配置及使用的授權數目
+description: 身為Adobe Workfront管理員，您可以檢視目前用於群組及其子群組的個別授權型別計數。 當您需要評估是否要重新分配授權時，這個選項會很有用。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
-# 查看群组中分配和使用的许可证数量
+# 檢視群組中配置及使用的授權數目
 
-作为Adobe Workfront管理员，您可以查看组及其子组中当前使用的各个许可证类型的计数。 当您需要评估是否要重新分发许可证时，此功能非常有用。
+身為Adobe Workfront管理員，您可以檢視目前用於群組及其子群組的個別授權型別計數。 當您需要評估是否要重新分配授權時，這個選項會很有用。
 
-如果您管理的组上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员（对于任何组）也是如此。
+如果您管理的群組上方有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。
 
 >[!IMPORTANT]
 >
->仅当用户的主群组是用户的主群组时，用户的许可证才会计入特定群组。
+>只有當群組是使用者的「主群組」時，才會在特定群組中計算使用者的授權。
 
-## 访问要求
+## 存取需求
 
-您必须具备以下条件才能执行本文中的步骤：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a>*</td> 
-   <td> <p>团队或更高级别</p> </td> 
+   <td role="rowheader">Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront许可证</a>*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>计划 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系您的Workfront管理员。
+&#42;如果您需要瞭解自己擁有的計畫或授權型別，請聯絡Workfront管理員。
 
-## 查看组中使用的许可证数
+## 檢視群組中使用的授權數量
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
 
-1. 在左侧面板中，单击 **群组** ![](assets/groups-icon.png).
+1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
 
-1. 单击群组的名称。
-1. 在显示的页面的右上角附近的标题区域中，查看 **使用中的许可证** 查看 **计划** 和 **工作** 当前正在使用的许可证。
+1. 按一下群組名稱。
+1. 在顯示的頁面上，於右上角附近的標頭區域中檢視 **使用中的授權** 區域以檢視 **計畫** 和 **工作** 目前使用的授權。
 
-   如果您正在查看顶级群组，而Workfront管理员为群组定义了每个许可证类型的最大数量，则也会显示这些数量。 例如，在以下组中，最多10个用户可以拥有计划许可证，15个用户可以拥有工作许可证：
+   如果您檢視的是頂層群組，而Workfront管理員為群組定義了每個授權型別的最大數量，這些數字也會顯示。 例如，在以下群組中，最多10個使用者可以擁有計畫授權，15個使用者可以擁有工作授權：
 
    ![](assets/licenses-used-allocated.png)
 
-   有关Workfront管理员如何为群组定义最大已分配许可证数的信息，请参阅部分 [设置家庭组的最大许可证计数](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) 在文章中 [管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+   如需Workfront管理員如何為群組定義最大分配授權數量的相關資訊，請參閱區段 [設定主群組的授權數量上限](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) 在文章中 [管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
    >[!NOTE]
    >
-   >如果您要查看的组是子组，则只能查看正在使用的许可证数量，而不能查看为该组分配的最大许可证数量。 这是因为Workfront管理员没有为子组定义最大许可证计数。
+   >如果您要檢視的群組是子群組，您只能檢視正在使用的授權數目，而不是為群組配置的授權數目上限。 這是因為Workfront管理員並未定義子群組的授權數量上限。
    >
    >![](assets/subgroup-used-licenses-only.png)
 
-1. 对于组中当前使用的每种许可证类型（包括“审阅”和“请求”）的单独计数，请单击正下方的文本区域 **使用中的许可证：**
+1. 如需群組目前使用的每種授權型別（包括「檢閱」和「請求」）的個別計數，請按一下下方文字區域 **使用中的授權：**
 
    ![](assets/click-text-to-see-more.png)
 
-   显示的框为所有四种Workfront许可证类型提供了相同的信息：计划、工作、审核和请求。 在框的底部，您可以看到此组成员或其某个子组成员使用的许可证总数：
+   顯示的方塊為所有四種Workfront授權型別提供相同的資訊：計畫、工作、稽核和請求。 在方塊底部，您可以看到此群組或其子群組的成員所使用的授權總數：
 
    ![](assets/more-license-info.png)
 
-   对于“审阅”和“请求”许可证，“最大”列始终显示“无限制”。
+   對於「檢閱和請求」授權，「最大值」欄一律顯示「無限制」。

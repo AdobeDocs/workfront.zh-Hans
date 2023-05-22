@@ -1,38 +1,38 @@
 ---
-title: 23.1版本概述
-description: 23.1版本概述
+title: 23.1版本總覽
+description: 23.1版本總覽
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
 
-# 23.1版本概述
+# 23.1版本總覽
 
-本页介绍了23.1版本中包含的功能。
+本頁提供23.1版本中包含的功能相關資訊。
 
-2023年1月18日和19日发行的23.1版本在生产环境中提供了这些增强功能。
+這些增強功能於2023年1月18日和19日發行的23.1版本中在生產環境中提供。
 
-23.1版网络研讨会于2023年1月10日星期二举行。 您可以 [在此处注册网络研讨会以查看按需录制](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
+23.1版本網路研討會於2023年1月10日（星期二）舉行。 您可以 [報名參加網路研討會，在這裡觀看隨選錄影](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
-<span class="preview">非周期功能（在23.1发行日期之前发布到生产环境的功能）以黄色突出显示。</span>
+<span class="preview">非週期功能（在23.1發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
 
-## Adobe Workfront增强功能
+## Adobe Workfront增強功能
 
-* [项目和资源管理增强功能](#project-and-resource-management-enhancements)
+* [專案和資源管理增強功能](#project-and-resource-management-enhancements)
 
-* [灵活的增强功能](#agile-enhancements)
+* [敏捷增強功能](#agile-enhancements)
 
-* [移动设备增强功能](#mobile-enhancements)
+* [行動裝置增強功能](#mobile-enhancements)
 
-* [其他增强功能](#other-enhancements)
+* [其他增強功能](#other-enhancements)
 
-### 项目和资源管理增强功能
+### 專案和資源管理增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -44,61 +44,61 @@ ht-degree: 0%
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">发行日期</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在工作负载平衡器中批量分配项目时，向“其他分配”列表添加了辅助作业角色</a></p>
-                        <p>在“角色分配”字段中选择作业角色后，在工作负载平衡器中批量分配用户时，在“要分配的用户”字段的“其他分配”列表中填充的用户列表现在将在其名称下显示与每个用户关联的所有作业角色。 在此增强之前，只显示用户的主角色。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在工作負載平衡器大量指派專案時，將次要工作角色新增到其他指派清單</a></p>
+                        <p>在「角色指派」欄位中選擇工作角色後，在工作負載平衡器中批次指派使用者時，「要指派的使用者」欄位的「其他指派」清單中的使用者清單現在將顯示與每個使用者相關聯的所有工作角色在其名稱下。 在此增強功能之前，只會顯示使用者的主要角色。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2023年1月5日<br /></p>
+                                <p>預覽版本： 2023年1月5日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：在23.1版本中</span></p>
+                                <p><span class="preview">生產版本：第23.1發行版本</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在项目中重新定位“添加用户”选项</a></p>
-                        <p>为了准备弃用和移除资源计划工具，我们已将项目计划部分中的“添加用户”选项重新定位到人员部分。 向项目添加用户时，与项目中的项目没有关联的用户将成为项目团队的一部分。</p>
-                        <p>10月20日，资源计划程序已从预览环境中删除。 它将在23.1版本中从生产环境中删除。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">重新調整專案上「新增使用者」選項的位置</a></p>
+                        <p>為了準備淘汰和移除「資源排程」工具，我們將「新增使用者」選項從專案的「排程」區段重新放置到「人員」區段。 將使用者新增至專案時，未與專案專案相關聯的使用者會成為專案團隊的一部分。</p>
+                        <p>資源排程器已於10月20日從預覽環境中移除。 此版本將在23.1版中從生產環境中移除。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月20日<br /></p>
+                                <p>預覽版本： 2022年10月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：2022年10月27日（非周期）</span></p>
+                                <p><span class="preview">生產版本：2022年10月27日（非週期）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">将直接链接复制到文档文件夹</a></p>
-                        <p>您现在可以复制和共享文档文件夹链接，以便快速访问该文件夹。 用户必须至少具有查看对象的访问权限才能查看文件夹。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">複製檔案資料夾的直接連結</a></p>
+                        <p>您現在可以複製和共用檔案資料夾連結，以提供對資料夾的快速存取。 使用者必須至少具有物件的檢視存取權，才能檢視資料夾。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月13日<br /></p>
+                                <p>預覽版本： 2022年10月13日<br /></p>
                             </li>
                             <li>
-                                <p>生产版本：在23.1版本中</p>
+                                <p>生產版本：第23.1發行版本</p>
                             </li>
                         </ul>
                     </td>
@@ -106,7 +106,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 灵活的增强功能
+### 敏捷增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -118,18 +118,18 @@ ht-degree: 0%
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">发行日期</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">为Workfront展示板进行规划</a><span style="color: #ff0000;"> 即将推出！</span></p>
-                        <p>Adobe Workfront展示板中新增的Scrum规划功能提供了灵活的选项来管理您的灵活流程。 使用这些工具，您可以：
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">適用於Workfront展示板的Scrum規劃</a><span style="color: #ff0000;"> 即將推出！</span></p>
+                        <p>Adobe Workfront展示板中新的Scrum規劃功能提供彈性的選項，可管理您的敏捷流程。 使用這些工具，您可以：
                         <ul>
-                        <li>跟踪小版本或短划分中的工作</li>
-                        <li>使用velocity指导团队承诺</li>
-                        <li>跟踪燃耗和完成率</li>
+                        <li>追蹤反複專案或衝刺中的工作</li>
+                        <li>使用Velocity來指導團隊承諾</li>
+                        <li>追蹤待執行工作與完成率</li>
                         </ul>
                         </p>
                     </td>
@@ -138,167 +138,167 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：待定<br /></p>
+                                <p>預覽版本：待定<br /></p>
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>适用于所有客户的生产版本：23.1版本发布后的快速跟进</p>
+                                <p>適用於所有客戶的生產版本：23.1版本之後快速跟進</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">卡片上的到期日期映射到Workfront对象上的计划完成日期</a></p>
-                        <p>Workfront展示板中连接的信息卡的到期日期现在映射到关联的Workfront对象的计划完成日期。 如果您在信息卡上更新到期日期，则计划完成日期会在任务或问题上更新。 更改计划完成日期也会更改卡片上的到期日期。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">卡片上的到期日對應到Workfront物件的計畫完成日期</a></p>
+                        <p>Workfront展示板中已連線卡上的到期日現在對應至相關Workfront物件上的規劃完成日期。 如果您更新卡片上的到期日，則任務或問題上的計畫完成日期會更新。 變更計畫完成日期也會變更卡片上的到期日。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年12月1日<br /></p>
+                                <p>預覽版本： 2022年12月1日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：不可用</p> 
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本：無法使用</p> 
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板核对清单项目和Workfront子任务现已关联</a></p>
-                        <p>将连接的信息卡添加到Workfront任务的展示板后，任何子任务都会作为核对清单项目导入该信息卡。 此外，在连接的卡上创建检查列表项时，子任务会添加到Workfront任务中。 与问题有关的核对清单项未与任何Workfront对象关联。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板檢查清單專案和Workfront子任務現在已連結</a></p>
+                        <p>當您為Workfront任務將連線的卡片新增到展示板時，任何子任務都會匯入為卡片上的清單專案。 此外，當您在已連線的卡片上建立檢查清單專案時，子任務會新增到Workfront任務中。 問題的檢查清單專案未連線至任何Workfront物件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年12月1日<br /><span style="color: #ff0000;"> 此功能已从“预览”中删除，将不会随23.1一起发布。</span></p>
+                                <p>預覽版本： 2022年12月1日<br /><span style="color: #ff0000;"> 此功能已從「預覽」中移除，且不會隨23.1版發行。</span></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：不可用</p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本：無法使用</p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板列上的卡计数器</a></p>
-                        <p>可使用新的配置设置来打开展示板上所有列的卡片计数器。 如果对列使用WIP限制，则不会添加单独的卡片计数器。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板欄上的卡片計數器</a></p>
+                        <p>有新的組態設定可開啟主機板上所有欄的卡片計數器。 如果您在欄上使用WIP限制，則不會新增個別的卡片計數器。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年11月17日<br /></p>
+                                <p>預覽版本： 2022年11月17日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年12月1日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年12月1日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在展示板仪表板上搜索和排序</a></p>
-                        <p>您现在可以按展示板名称或日期对展示板功能板进行排序，并在列表中搜索特定的展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在面板控制面板上搜尋和排序</a></p>
+                        <p>您現在可以依展示板名稱或日期來排序展示板控制面板，並在清單中搜尋特定展示板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年11月10日<br /></p>
+                                <p>預覽版本： 2022年11月10日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年11月17日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年11月17日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                      <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">状态显示在卡片上</a></p>
-                        <p>如果展示板上的信息卡被分配了状态，则状态现在会显示在信息卡上，这样您就不必打开信息卡即可查看状态。 此增强功能适用于临时卡和连接的卡。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">狀態會顯示在卡片上</a></p>
+                        <p>如果展示板上的卡片指派了狀態，則狀態現在會顯示在卡片上，因此您不必開啟卡片即可檢視狀態。 此增強功能同時適用於Ad Hoc卡和連線卡。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年11月10日<br /></p>
+                                <p>預覽版本： 2022年11月10日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年11月17日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年11月17日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">可链接卡片现在可在展示板上使用</a></p>
-                        <p>您现在可以向其他展示板用户发送指向特定信息卡的链接。 用户必须有权查看展示板，然后才能打开链接。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">可連結卡現在可在展示板上使用</a></p>
+                        <p>您現在可以將特定卡片的連結傳送給其他看板使用者。 此人必須擁有檢視展示板的存取權，才能開啟連結。</p>
                         <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
-                        <p>您可以复制完整的URL并将其发送给其他人。 访问链接时，他们将直接转到打开的卡。</p>
-                        <p>以前，链接可用于展示板，但不可用于特定信息卡。</p>
+                        <p>您可以複製完整URL並將其傳送給其他人。 使用者存取連結時，會直接前往開啟的卡片。</p>
+                        <p>過去，連結只適用於展示板，不適用於特定卡片。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年11月10日<br /></p>
+                                <p>預覽版本： 2022年11月10日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年11月17日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年11月17日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">在展示板上按连接过滤</a></p>
-                        <p>展示板上的过滤器列表现在包含按连接过滤的选项，该选项可显示特定项目的所有连接卡。 您还可以按未连接的卡进行过滤。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依展示板上的連線篩選</a></p>
+                        <p>展示板上的篩選器清單現在包含依連線篩選的選項，這會向您顯示特定專案的所有連線卡。 您也可以依未連線的卡片進行篩選。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月27日<br /></p>
+                                <p>預覽版本： 2022年10月27日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年11月3日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年11月3日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">按计划从展示板存档信息卡</a></p>
-                        <p>您可以配置展示板，以便按计划存档信息卡或“从展示板上流失”。 选项可用于设置特定列中的信息卡，以在特定天或周内进行存档。 例如，您可以定义衰减，以便“完成”列中的信息卡在列中处于两周后进行存档。</p>
-                        <p>如果要在信息卡从展示板上掉下来后再次显示信息卡，可以设置展示板筛选器以显示已存档的信息卡。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">依排程從展示板封存卡片</a></p>
+                        <p>您可以設定展示板，讓卡片能依排程封存或「脫離」展示板。 選項可用於設定特定欄中的卡片，以封存特定天數或周數。 例如，您可以定義流失，讓完整欄中的卡片在欄中停留在兩週後封存。</p>
+                        <p>如果您要在卡片從展示板掉落後再次顯示卡片，您可以將展示板篩選設定為顯示已封存的卡片。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月27日<br /></p>
+                                <p>預覽版本： 2022年10月27日<br /></p>
                             </li>
                             <li>
-                                <p>提前选择加入的生产版本：2022年11月3日 <span style="color: #ff0000;"> 此功能仅在此日期通过为Workfront主板提前选择加入功能在生产环境中提供。</span></p>
-                                <p>适用于所有客户的生产版本：在23.1版本中</p>
+                                <p>提前選擇加入的生產版本： 2022年11月3日 <span style="color: #ff0000;"> 此功能的推出必須透過Workfront展示板的早期功能選擇加入，才能在生產環境中使用。</span></p>
+                                <p>適用於所有客戶的生產版本：透過23.1版</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +306,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 移动设备增强功能
+### 行動裝置增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -318,22 +318,22 @@ ht-degree: 0%
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">发行日期</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">展示板现在可在移动设备应用程序中使用</a><span style="color: #ff0000;"> 即将推出！</span></p>
-                        <p>Adobe Workfront展示板现在可在移动设备应用程序中使用！ 您可以直接从主屏幕访问展示板，并在桌面版Workfront中查看您有权访问的所有展示板。 在特定展示板中，您可以查看和编辑其所有列和信息卡。 卡片详细信息包括名称、描述、列、受分配者、状态、到期日、估算、标记和核对清单项。 展示板上可看到临时卡和连接的卡。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">現在，行動應用程式中可以使用展示板</a><span style="color: #ff0000;"> 即將推出！</span></p>
+                        <p>行動應用程式現在提供Adobe Workfront面板！ 您可以直接從首頁畫面存取主機板，並在Workfront的案頭版本中檢視您可以存取的所有主機板。 在特定展示板中，您可以檢視和編輯其所有欄和卡片。 卡片詳細資訊包括名稱、說明、欄、受託人、狀態、到期日、估計、標籤和檢查清單專案。 隨選卡和已連線卡都會顯示在展示板上。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：不适用<br /></p>
+                                <p>預覽版本：不適用<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：2023年1月中下旬在Apple App Store和Google Play商店提供</span></p>
+                                <p><span class="preview">生產版本：於2023年1月中到1月底在Apple App Store和Google Play商店提供</span></p>
                             </li>
                         </ul>
                     </td>
@@ -341,7 +341,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 其他增强功能
+### 其他增強功能
 
 <table>
             <col style="width: 50%;" />
@@ -353,54 +353,54 @@ ht-degree: 0%
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">发行日期</span>
+                        <p><span class="bold">發行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">将Illustrator添加到Adobe Workfront以进行设计和视频插件</a><span style="color: #ff0000;"> 生产新增！</span></p>
-                        <p>我们很高兴地宣布，我们将扩展Adobe Workfront for InDesign插件，以包含Adobe Illustrator。</p>
-                        <p>更新的插件Adobe Workfront（用于设计和视频）现在将支持Illustrator、InDesign、Premiere Pro和After Effects。  </p>
-                        <p>此插件允许您访问工作项详细信息，与“更新”区域的同事协作，并记录全部时间，而无需离开您喜爱的Creative Cloud应用程序。</p>
-                        <p>管理员还可以从Admin Console中创建包含插件的资源包，并以受管或自管方式部署到用户。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront中新增Illustrator的設計和視訊外掛程式簡介</a><span style="color: #ff0000;"> 生產中的新功能！</span></p>
+                        <p>我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Illustrator。</p>
+                        <p>更新版的外掛程式Adobe Workfront現在可支援Illustrator、InDesign、Premiere Pro和After Effects。  </p>
+                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及完整記錄時間而不需離開您最喜愛的Creative Cloud應用程式。</p>
+                        <p>管理員也可以使用Admin Console中的外掛程式建立套件，並以受管理或自行管理的方式部署給使用者。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：不适用<br /></p>
+                                <p>預覽版本：不適用<br /></p>
                             </li>
                             <li>
-                                <p>生产版本： <span class="preview">2022年12月12日</span></p>
+                                <p>生產版本： <span class="preview">2022年12月12日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">增强的过滤体验，通常在Adobe Workfront中提供</a></p>
-                        <p>过滤器体验的升级已于2022年8月发布，现已在项目、任务和问题列表上公开测试版。 现在，大多数列表都提供了增强的过滤器。</p>
-                        <p>作为23.1版本的“快速跟进”，增强的过滤器体验将普遍可用，并在2023年2月/3月的时间范围内成为标准过滤器生成器。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront中普遍提供的增強型篩選器體驗</a></p>
+                        <p>2022年8月，篩選體驗的升級版已發佈至專案、任務和問題清單的公開測試版。 大多數清單現在都提供增強型篩選器。</p>
+                        <p>作為23.1版的「快速跟進」，增強型篩選體驗將正式推出，並在2023年2/3月時間範圍內成為標準篩選產生器。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2023年2/3月<br /></p>
+                                <p>預覽版本： 2023年2月/3月<br /></p>
                             </li>
                             <li>
-                                <p>生产版本：2023年2/3月</p>
+                                <p>生產版本： 2023年2月/3月</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在“设置”区域的“过滤器”、“视图”和“分组”页面中新增了列表控制功能。</a></p>
-                        <p>我们在“设置”区域的“过滤器”、“视图”和“分组”页面中添加了列表控制功能。 在布局模板中，您可以启用或禁用布局模板的过滤器、视图和分组。
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在「設定」區域的「篩選器」、「檢視」和「群組」頁面中新增清單控制功能。</a></p>
+                        <p>我們已將清單控制功能新增到「設定」區域的「篩選器」、「檢視」和「群組」頁面。 您可以在此處啟用或停用配置範本的篩選器、檢視和群組。
 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -408,10 +408,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年12月1日<br /></p>
+                                <p>預覽版本： 2022年12月1日<br /></p>
                             </li>
                             <li>
-                                <p>生产版本：在23.1版本中</p>
+                                <p>生產版本：第23.1發行版本</p>
                             </li>
                         </ul>
                     </td>
@@ -419,53 +419,53 @@ ht-degree: 0%
                 <tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">为设计和视频引入Adobe Workfront</a></p>
-                        <p>我们很高兴地宣布，我们将扩展Adobe Workfront for InDesign插件，包括Adobe Premiere Pro和After Effects。 该插件将重命名为Adobe Workfront以用于设计和视频。</p>
-                        <p>更新的插件Adobe Workfront（用于设计和视频）现在将支持InDesign、Premiere Pro和After Effects—Illustrator即将推出。</p>
-                        <p>此插件允许您访问工作项详细信息，与“更新”区域的同事协作，并记录全部时间，而无需离开您喜爱的Creative Cloud应用程序。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">介紹Adobe Workfront的設計和影片</a></p>
+                        <p>我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Premiere Pro和After Effects。 外掛程式將重新命名為Adobe Workfront的設計和視訊。</p>
+                        <p>更新版的外掛程式Adobe Workfront現在可支援InDesign、Premiere Pro和After Effects，Illustrator也即將推出。</p>
+                        <p>此外掛程式可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及完整記錄時間而不需離開您最喜愛的Creative Cloud應用程式。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：不适用<br /></p>
+                                <p>預覽版本：不適用<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：2022年11月17日</span></p>
+                                <p><span class="preview">生產版本： 2022年11月17日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.1版本时间段内的观感更新</a></p>
-                        <p>在23.1版本期限内，将对Adobe Workfront应用程序各个区域的外观进行细微更新。 在发布到“预览”后，生产环境中将至少在2周内提供这些增强功能。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.1版本發行時間範圍內的外觀更新</a></p>
+                        <p>在23.1版發行時間範圍內，我們對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：在23.1版本发布的整个时间范围内<br /></p>
+                                <p>預覽版本：在整個23.1版本時間範圍內<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：发布到“预览”后至少2周（除非另有指定）</span></p>
+                                <p><span class="preview">生產發行：發行至預覽後至少2週（除非另有指定）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何访问Workfront帮助，以便Adobe统一体验客户</a></p>
-                        <p>如果贵组织已载入Adobe Admin Console和Workfront的Adobe统一体验，则Workfront导航栏将不再包含“帮助”链接。</p>
-                        <p>您可以从Adobe Experience League导航栏左侧的主菜单或通过顶部导航区域的问号图标访问Workfront帮助。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">如何為使用Adobe的客戶提供存取Workfront說明Unified Experience</a></p>
+                        <p>如果您的組織已加入Adobe Admin Console和Workfront的Adobe統一體驗，Workfront導覽列將不再包含「說明」連結。</p>
+                        <p>您可以從Workfront導覽列左側的主要功能表，或透過頂端導覽區域中的問號圖示，存取Adobe Experience League上的Workfront說明。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月27日<br /></p>
+                                <p>預覽版本： 2022年10月27日<br /></p>
                             </li>
                             <li>
-                                <p>生产版本：2022年11月3日 <span style="color: #ff0000;"> 此功能仅适用于已载入到WorkfrontAdobe统一体验的客户。</span></p>
+                                <p>生產版本： 2022年11月3日 <span style="color: #ff0000;"> 此功能僅適用於已加入WorkfrontAdobe統一體驗的客戶。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -473,21 +473,21 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">删除管脚时重命名管脚和新体验</a></p>
-                        <p>以下更新现在可用于针脚：</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">刪除圖釘時重新命名圖釘和新體驗</a></p>
+                        <p>以下更新現在可用於圖釘：</p>
                         <ul>
-                        <li>重命名现有管脚</li>
-                        <li>改进了删除PIN时的体验</li>
+                        <li>重新命名現有圖釘</li>
+                        <li>改善刪除圖釘時的體驗</li>
                         </ul>
-                        <p>当您将鼠标悬停在销上时，下拉菜单中会显示用于重命名销和删除销的选项。</p>
+                        <p>當您將游標停留在圖釘上時，重新命名圖釘和移除圖釘的選項會出現在下拉式選單中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：2022年10月13日<br /></p>
+                                <p>預覽版本： 2022年10月13日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：2022年10月27日（非周期）</span></p>
+                                <p><span class="preview">生產版本：2022年10月27日（非週期）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -497,93 +497,93 @@ ht-degree: 0%
 
 ## 公告
 
-### Workfront Fusion增强功能
+### Workfront Fusion增強功能
 
-在23.1版本计划之外，Workfront Fusion的新增功能在生产环境中以一定频率提供。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion版本活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新功能可在23.1版發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### WorkfrontScenario Planner增强功能
+### WorkfrontScenario Planner增強功能
 
-此时版本中没有方案计划员更新。 此区域将在更新可用时进行更新。
+此發行版本中目前沒有Scenario Planner更新。 在有可用更新時，此區域將會更新。
 
-### Workfront Proof增强功能
+### Workfront校訂增強功能
 
-此时，版本中没有Workfront校样更新。 此区域将在更新可用时进行更新。
+此版本目前沒有Workfront校訂更新。 在有可用更新時，此區域將會更新。
 
-### Workfront目标增强功能
+### Workfront目標增強功能
 
-23.1版本中Workfront Goals版本的新增功能。 有关预览中当前提供的这些新增功能的信息，请参阅 [Adobe Workfront Goals与23.1版本](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+Workfront Goals 23.1版本隨附的新功能。 如需有關這些現在可在「預覽」中使用的新功能的資訊，請參閱 [23.1版的Adobe Workfront目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
-### API版本15
+### API 15版
 
-对于API版本15，我们修改了一些资源和端点。 某些更改支持新功能，而其他更改则使您能够更轻松地使用通过API提供的信息。
+針對API版本15，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-有关新增功能和更新功能的信息，请参阅 [API版本15的新增功能](/help/quicksilver/wf-api/api/new-api-version-15.md).
+如需新增功能和更新的詳細資訊，請參閱 [API 15版的新增功能](/help/quicksilver/wf-api/api/new-api-version-15.md).
 
-有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+如需API版本的詳細資訊，請參閱 [API版本設定和支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront 维护更新
 
-有关22.3版本期间进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+如需22.3版期間所進行維護更新的相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### 培训更新
+### 訓練更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [培训版本更新页面](https://one.workfront.com/s/training-release-updates).
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [訓練版本更新頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
-### 即将从Workfront中删除功能
+### 即將從Workfront移除的功能
 
-以下功能即将从Workfront中删除：
+下列功能即將從Workfront移除：
 
-#### **从预览环境中弃用和删除“促销活动（测试版）”区域**
+#### **淘汰並從預覽環境中移除Campaign (Beta)區域**
 
-我们将于2023年1月9日从预览环境中删除“促销活动（测试版）”区域。 我们的产品团队将审查此功能，并将其包含在未来的产品版本中。
+我們將於2023年1月9日從預覽環境中移除Campaigns （Beta版）區域。 我們的產品團隊將會檢閱此功能，並將其納入未來的產品發行中。
 
-目前，我们正在进行以下更改：
+目前，我們正在進行下列變更：
 
-* 从“主菜单”和“预览”环境的“布局”模板中删除“营销活动（测试版）”区域。
-* 对于那些通过请求启用促销活动（测试版）的客户，请从主菜单和生产环境中的布局模板中删除该促销活动（测试版）区域。
+* 從主要功能表和預覽環境中的版面配置範本中移除Campaigns （測試版）區域。
+* 針對已依請求啟用此功能的客戶，從主要功能表和生產環境中的版面配置範本中移除Campaigns （測試版）區域。
 
-此外，还将删除描述此功能的所有文章。
+此外，所有說明此功能的文章也將被移除。
 
-#### **列表控件（从“设置”中的“界面”区域）**
+#### **清單控制項（從「設定」中的「介面」區域）**
 
-在23.1版本中，“设置”>“界面”中的“列表控件”将被删除。
+在23.1版中將移除「設定>介面」中的清單控制項。
 
-某些列表控制功能正在移至“设置”>“界面”>“过滤器/视图/分组”区域。 有关更多信息，请参阅 [创建、编辑和共享默认过滤器、视图和分组](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+有些清單控制功能正移至「設定>介面>篩選器/檢視/群組」區域。 如需詳細資訊，請參閱 [建立、編輯和共用預設篩選器、檢視和群組](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-#### **Workfront的Illustrator扩展和InDesign**
+#### **適用於Illustrator和InDesign的Workfront擴充功能**
 
-我们正在 [Workfront的Illustrator扩展和InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) 更新了Creative Cloud插件。 从2022年底开始，此扩展将不再可在AdobeExchange中安装。
+我們正在取代 [適用於Illustrator和InDesign的Workfront擴充功能](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) 並更新Creative Cloud外掛程式。 自2022年底開始，將無法再在Adobe交換中安裝此擴充功能。
 
-更新的Adobe Workfront中提供了此扩展中的功能以及一些增强功能，用于Creative Cloud插件：
-* [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+此擴充功能中的功能以及數項增強功能，在更新的Adobe Workfront for Creative Cloud外掛程式中提供：
+* [適用於Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* [適用於XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [適用於設計與影片的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
-#### **资源调度程序**
-
->[!NOTE]
->
->10月20日，资源计划程序已从预览环境中删除。 它将在2023年1月的23.1版本中从生产环境中删除。
-
-
-在弃用资源计划工具时，我们删除了以下区域：
-
-* 主菜单资源区中的“计划”部分
-
-* 团队页面的“计划”部分
-
-* 项目页面的“计划”部分
-
-负载平衡器正在替换资源调度程序。
-
-#### **事件订阅API中的SHARE事件类型。**
+#### **資源排程器**
 
 >[!NOTE]
 >
->  此功能在创建新订阅时已弃用，并将于2023年1月删除。
+>資源排程器已於10月20日從預覽環境中移除。 2023年1月23.1版將把其從生產環境中移除。
 
-此事件类型允许客户在更新对象权限时进行监视。
 
-有关事件订阅以及将继续受支持的其他事件类型的更多信息，请参阅 [事件订阅API](/help/quicksilver/wf-api/general/event-subs-api.md)
+作為淘汰資源排程工具的一部分，我們已移除下列區域：
+
+* 主功能表資源區域中的排程區段
+
+* 團隊頁面的「排程」區段
+
+* 專案頁面的「排程」區段
+
+工作負載平衡器正在取代資源排程器。
+
+#### **事件訂閱API中的SHARE事件型別。**
+
+>[!NOTE]
+>
+>  建立新訂閱時，此功能已遭取代，並將於2023年1月移除。
+
+此事件型別可讓客戶觀看物件的許可權何時更新。
+
+如需事件訂閱的詳細資訊，以及繼續支援的其他事件型別，請參閱 [事件訂閱API](/help/quicksilver/wf-api/general/event-subs-api.md)
 
 
