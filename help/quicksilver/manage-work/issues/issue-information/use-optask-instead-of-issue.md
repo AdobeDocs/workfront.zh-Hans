@@ -1,52 +1,52 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 引用问题时，请使用“opTask”和“issue”
-description: 问题的名称在Adobe Workfront数据库中显示为opTask。 尽管有时您需要使用问题字段名称来引用问题，但大多数情况下，在引用问题时，您必须使用opTask字段名称，而不是问题。
+title: 參考問題時使用「opTask」和「issue」
+description: 問題的名稱在Adobe Workfront資料庫中顯示為opTask。 雖然有時您需要使用問題欄位名稱來參考問題，但大多數時候您在參考問題時都必須使用opTask欄位名稱，而不是問題。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# 引用问题时，请使用“opTask”和“issue”
+# 參考問題時使用「opTask」和「issue」
 
-问题的名称显示为 `opTask` 在Adobe Workfront数据库中。 尽管有时您需要使用 `issue` 字段名称引用问题，大多数情况下您必须使用 `opTask` 字段名称，而不是 `issue` 引用问题时。
+問題的名稱顯示為 `opTask` 在Adobe Workfront資料庫中。 雖然有時您需要使用 `issue` 欄位名稱是指問題，大部分時候您必須使用 `opTask` 欄位名稱而非 `issue` 引用問題時。
 
-有关对象在Workfront数据库中的显示方式的详细信息，请参阅 [API Explorer](https://one.workfront.com/s/api-explorer).
+如需物件在Workfront資料庫中顯示的詳細資訊，請參閱 [API總管](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` 文件名
+## `opTask` 檔案名稱
 
-使用 `opTask` 在以下上下文中引用问题时的字段名称：
+使用 `opTask` 在下列內容中參考問題時的欄位名稱：
 
-* 在创建文本模式的问题自定义报告时，您想引用视图、过滤器、分组或提示中的问题。
+* 當您建立問題的文字模式自訂報告時，並且您想在檢視、篩選器、分組或提示中參考問題。
 
-   有关在报表中使用文本模式的更多信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+   如需在報表中使用文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
-* 在Kick-Start数据导入器工作表中更新问题字段时。
+* 當您更新Kick-Start資料匯入工具表中的問題欄位時。
 
-   有关使用Kick-Start在Workfront中导入数据的更多信息，请参阅 [使用“启动”模板将数据导入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+   如需使用Kick-Start在Workfront中匯入資料的詳細資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## `issue` 字段名称
+## `issue` 欄位名稱
 
-使用 `issue` 用于引用以下上下文中问题的字段名称：
+使用 `issue` 參考下列內容中問題的欄位名稱：
 
-* 在报表中使用文本模式引用收藏集中的问题时。
-* 使用Workfront API引用问题集合时。
+* 當您在報告中使用文字模式來參考集合中的問題時。
+* 當您使用Workfront API參考問題集合時。
 
-有关报告收藏集的信息，请参阅 [在报表中引用集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+如需關於集合報表的資訊，請參閱 [報表中的參考集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->

@@ -1,68 +1,68 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 的 [!DNL Adobe Workfront] 社区
-description: Adobe [!DNL Workfront] 社区是一个拥有10,000多名用户的在线组 [!DNL Workfront] 用户。 通过社区，您可以了解产品版本的最新信息、了解客户活动，以及与其他用户讨论 [!DNL Workfront] 产品和服务。 您将找到问题的答案并与其他人建立联系 [!DNL Workfront] 客户。
+title: 此 [!DNL Adobe Workfront] 社群
+description: Adobe [!DNL Workfront] 社群是超過10,000人的線上群組 [!DNL Workfront] 使用者。 透過社群，您可以掌握最新的產品發行消息、瞭解客戶活動，並與其他使用者討論 [!DNL Workfront] 產品和服務。 您可以找到問題的解答，並與他人建立連線 [!DNL Workfront] 客戶。
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# 的 [!DNL Adobe Workfront] 社区
+# 此 [!DNL Adobe Workfront] 社群
 
-Adobe [!DNL Workfront] 社区是一个拥有10,000多名用户的在线组 [!DNL Workfront] 用户。 通过社区，您可以了解产品版本的最新信息、了解客户活动，以及与其他用户讨论 [!DNL Workfront] 产品和服务。 您将找到问题的答案并与其他人建立联系 [!DNL Workfront] 客户。
+Adobe [!DNL Workfront] 社群是超過10,000人的線上群組 [!DNL Workfront] 使用者。 透過社群，您可以掌握最新的產品發行消息、瞭解客戶活動，並與其他使用者討論 [!DNL Workfront] 產品和服務。 您可以找到問題的解答，並與他人建立連線 [!DNL Workfront] 客戶。
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
-## 登录
+## 登入
 
-* [授权支持联系人](#authorized-support-contact)
-* [无SSO登录的非授权支持联系人](#non-authorized-support-contact-without-sso-login)
-* [通过SSO登录获得非授权支持联系人](#non-authorized-support-contact-with-sso-login)
+* [授權支援連絡人](#authorized-support-contact)
+* [不透過SSO登入的非授權支援連絡人](#non-authorized-support-contact-without-sso-login)
+* [使用SSO登入的非授權支援連絡人](#non-authorized-support-contact-with-sso-login)
 
-### 授权支持联系人 {#authorized-support-contact}
+### 授權支援連絡人 {#authorized-support-contact}
 
-如果您是授权支持联系人(ASC)，则您拥有 [!UICONTROL 服务台], [!UICONTROL 创新实验室]和 [!DNL Workfront] [!UICONTROL 上升]. 您可以使用相同的凭据登录 [!DNL Workfront] 社区。 在这种情况下，您会将子域留空。
+如果您是授權支援連絡人(ASC)，則您擁有 [!UICONTROL 服務檯]， [!UICONTROL 創新實驗室]、和 [!DNL Workfront] [!UICONTROL 上緣]. 您可以使用相同的認證登入 [!DNL Workfront] 社群。 在此情況下，您會將子網域保留空白。
 
 ![community_4.png](assets/community-4-350x129.png)
 
-### 无SSO登录的非授权支持联系人 {#non-authorized-support-contact-without-sso-login}
+### 不透過SSO登入的非授權支援連絡人 {#non-authorized-support-contact-without-sso-login}
 
-如果您不是授权支持联系人，则可以定期登录 [!DNL Workfront] 实例凭据。 使用与 [!DNL Workfront] 实例。
+如果您不是授權支援連絡人，可以使用您的固定帳戶登入 [!DNL Workfront] 執行個體認證。 使用與您的相同的子網域 [!DNL Workfront] 執行個體。
 
 >[!NOTE]
 >
->仅当您的公司不使用单点登录(SSO)登录Workfront时，此选项才有效。
+>只有貴公司未使用單一登入(SSO)登入Workfront時，此選項才有效。
 
-### 通过SSO登录获得非授权支持联系人 {#non-authorized-support-contact-with-sso-login}
+### 使用SSO登入的非授權支援連絡人 {#non-authorized-support-contact-with-sso-login}
 
-如果贵公司确实使用单点登录(SSO)，您必须联系 [!DNL Workfront] 客户支持通过电话请求帐户。 如果您无法提交票证或参与实时聊天，请联系您的“授权” [!DNL Workfront] 客户支持联系人。
+如果您的公司確實使用SSO，您必須聯絡 [!DNL Workfront] 客戶支援透過電話要求帳戶。 如果您無法提交票證或進行即時聊天，請聯絡您的授權人員 [!DNL Workfront] 客戶支援聯絡人。
 
-如果您已在Ascent Training中设置了帐户，则可以使用这些相同的凭据访问社区网站（在本例中，将子域留空）。
+如果您已在Ascent Training中設定帳戶，您可以使用這些相同的認證來存取社群網站（在此情況下，請將子網域保留空白）。
 
-如果您不记得社区站点的密码，请联系 [!DNL Workfront Customer Support] 他们可以帮你。
+如果您不記得您的Community網站密碼，請聯絡 [!DNL Workfront Customer Support] 他們可以為您提供幫助。
 
-## 常见问题解答
+## 常見問題集
 
-* [我的子域是什么？](#what-s-my-subdomain)
-* [我忘记了用户名或密码。 如何重置我的用户名或密码？](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
+* [我的子網域是什麼？](#what-s-my-subdomain)
+* [我忘記了自己的使用者名稱或密碼。 如何重設我的使用者名稱或密碼？](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
-### 的URL是什么 [!DNL Workfront] 社区？
+### 何謂URL？ [!DNL Workfront] 社群？
 
-的 [!DNL Workfront] 社区在 [!DNL Workfront One] 网站的URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+此 [!DNL Workfront] 社群位於 [!DNL Adobe Experience League] 位於下列URL的網站：  [[!DNL Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-### 我的子域是什么？ {#what-s-my-subdomain}
+### 我的子網域是什麼？ {#what-s-my-subdomain}
 
-如果您不熟悉子域，可以使用一种简单的方法来查找子域。 如果您已登录 [!DNL Workfront]，则子域是之前的文本字符串或单词 *.workfront.com*  或 *my.workfront.com* 中。 例如，如果您的Workfront URL显示 *aptied.workfront.com，* then *食欲* 是您的子域。 请参阅下图中的标记C。
+如果您不熟悉您的子網域，有一個簡單的方法可以找到它。 如果您已登入 [!DNL Workfront]，您的子網域是之前的文字字串或單字 *.workfront.com*  或 *my.workfront.com* 在URL中。 例如，如果您的Workfront URL顯示 *appetite.workfront.com，* 則 *食慾* 是您的子網域。 請參閱下圖中的標籤C 。
 
 ![community_5.png](assets/community-5-350x175.png)
 
-### 我忘记了用户名或密码。 如何重置我的用户名或密码？ {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
+### 我忘記了自己的使用者名稱或密碼。 如何重設我的使用者名稱或密碼？ {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
 
-如果您忘记了用户名或密码，请联系支持人员，代表将帮助重置您的凭据。
+如果您忘記使用者名稱或密碼，請聯絡支援人員，代表會協助重設您的認證。
