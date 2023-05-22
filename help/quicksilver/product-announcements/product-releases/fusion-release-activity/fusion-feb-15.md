@@ -1,44 +1,44 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2021年2月15日的一周
-description: Workfront Fusion版本活动：&nbsp;2021年2月15日的一周
+title: Workfront Fusion發行活動：&nbsp；2021年2月15日當週
+description: Workfront Fusion發行活動：&nbsp；2021年2月15日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: ''
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年2月15日开始的一周
+# Workfront Fusion發行活動： 2021年2月15日當週
 
-本页介绍2021年2月15日这一周Adobe Workfront Fusion中所做的所有增强功能。
+本頁說明2021年2月15日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標籤為Workfront Fusion維護更新的更新。
 
-此版本还包含一个或多个维护更新。 有关Workfront Fusion 2.0维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+此版本也包含一或多個維護更新。 如需Workfront Fusion 2.0維護更新的詳細資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## 团队现在共享电子邮件通知设置
+## Teams現在共用電子郵件通知設定
 
-我们已将电子邮件通知更改为由团队而不是用户设置。 现在，您可以确保团队的每个成员都获得相同的信息。
+我們已將電子郵件通知變更為由團隊設定，而非由使用者設定。 現在您可以確保團隊的每個成員都獲得相同的資訊。
 
-以前，用户会设置自己的电子邮件通知设置。
+之前，使用者會設定自己的電子郵件通知設定。
 
 >[!NOTE]
 >
->Fusion将组织通知设置应用到组织中每个团队的团队级别。 要确保您的团队能够利用新的通知功能，请更新团队级别的电子邮件通知设置。
+>Fusion會將組織通知設定套用至組織中每個團隊的團隊層級。 為確保您的團隊能利用新的通知功能，請更新團隊層級的電子郵件通知設定。
 
-有关更多信息，请参阅 [Adobe Workfront Fusion组织和团队](../../../workfront-fusion/organizations/organizations-and-teams.md).
+如需詳細資訊，請參閱 [Adobe Workfront Fusion組織和團隊](../../../workfront-fusion/organizations/organizations-and-teams.md).
 
-## 在Workfront >自定义API调用模块中选择API版本
+## 在Workfront >自訂API呼叫模組中選取API版本
 
-为了使您的API调用更加可自定义，我们允许您选择希望Workfront >自定义API调用模块访问的Workfront API版本。 您可以从版本11、版本12或Workfront内部API中进行选择。
+為了讓您的API呼叫更可自訂，我們讓您能夠選取您希望Workfront >自訂API呼叫模組存取的Workfront API版本。 您可以從11版、12版或Workfront內部API中選擇。
 
-以前，您无法为此模块选择Workfront API版本。
+之前，您無法選取此模組的Workfront API版本。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+如需詳細資訊，請參閱 [Adobe Workfront模組](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
