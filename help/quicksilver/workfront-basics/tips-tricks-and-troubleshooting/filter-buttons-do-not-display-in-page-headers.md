@@ -1,23 +1,23 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 过滤器按钮不显示在页面标题中
-description: 请阅读本文，对页面标题中未显示过滤器按钮的问题进行故障诊断。
+title: 篩選器按鈕未顯示在頁首中
+description: 閱讀本文章，疑難排解頁面標頭中未顯示的篩選按鈕。
 feature: Get Started with Workfront
-author: Lisa and Alina
+author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
 
 ---
 
-# 过滤器按钮不显示在页面标题中
+# 篩選器按鈕未顯示在頁首中
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,71 +25,71 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] 许可证</strong></td> 
-   <td> <p>[!UICONTROL计划] </p> </td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront] 授權</strong></td> 
+   <td> <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[!UICONTROL系统管理员]</p> </td> 
+   <td role="rowheader"><strong>存取層級設定</strong></td> 
+   <td> <p>[！UICONTROL系統管理員]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 问题
+## 問題
 
-以下过滤器按钮不会显示在其各自的区域中：
+下列篩選按鈕不會顯示在各自的區域中：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>[!DNL Adobe Workfront] 面积</strong></td> 
-   <td><strong>过滤器按钮</strong></td> 
+   <td><strong>[!DNL Adobe Workfront] 區域</strong></td> 
+   <td><strong>篩選按鈕</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL项目] </p> </td> 
+   <td> <p>[！UICONTROL專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL项目我正在执行]</p> </li> 
-     <li> <p>[！我拥有的UICONTROL项目]</p> </li> 
+     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
+     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[!UICONTROL时间表]</span> </td> 
+   <td><span>[！UICONTROL時間表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[!UICONTROL My Timetime Approvals]</span> </p> </li> 
-     <li> <p><span>[!UICONTROL我的时间表]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 解决方案
+## 解決方案
 
-中的过滤器按钮 [!UICONTROL 项目和时间表] 区域不会显示，因为相应的过滤器未包含在应用于用户的布局模板中。 的 [!DNL Workfront] 管理员必须分配包含过滤器的布局模板。
+中的篩選按鈕 [!UICONTROL 專案和時程表] 區域未顯示，因為對應的篩選器未包含在套用至使用者的版面配置範本中。 此 [!DNL Workfront] 管理員必須指派包含篩選器的配置範本。
 
 >[!NOTE]
 >
->有时，过滤器会从 [!UICONTROL 列表控件] 区域 [!UICONTROL 设置]. 的 [!DNL Workfront] 管理员必须在此区域的列表中包含这些模板，才能在布局模板中使用这些模板。
+>有時候，篩選器會從 [!UICONTROL 清單控制項] 區域於 [!UICONTROL 設定]. 此 [!DNL Workfront] 管理員必須將其包含在此區域的清單中，才能在版面配置範本中使用。
 
-1. 验证布局模板是否显示以下过滤器：
+1. 確認版面配置範本顯示下列篩選器：
 
-   * [!UICONTROL 我正在执行的项目] 和 [!UICONTROL 我拥有的项目] 在 [!UICONTROL 项目] 面积
-   * [!UICONTROL 我的时间表批准] 和 [!UICONTROL 我的工时表] 在 [!UICONTROL 时间表] 面积
+   * [!UICONTROL 我參與的專案] 和 [!UICONTROL 我擁有的專案] 在 [!UICONTROL 專案] 區域
+   * [!UICONTROL 我的時程表核准] 和 [!UICONTROL 我的時間表] 在 [!UICONTROL 時間表] 區域
 
-   要执行此操作，请执行以下操作：
+   若要這麼做：
 
-   1. 访问布局模板。
-   1. 选择 **[!UICONTROL 列表]** 在 **[!UICONTROL 自定义用户看到的内容]**.
-   1. 选择 **[!UICONTROL 项目]** 或 **[!UICONTROL 工时单]** 在 **[!UICONTROL 选择要自定义的列表]**.
-   1. 在 **[!UICONTROL 过滤器]** 部分，验证 **[!UICONTROL 我正在执行的项目]**, **[!UICONTROL 我拥有的项目]** （对于项目）和 **[!UICONTROL 我的时间表批准]** 和 **[!UICONTROL 我的工时表]** （对于工时单）。
+   1. 存取配置範本。
+   1. 選取 **[!UICONTROL 清單]** 在 **[!UICONTROL 自訂使用者看到的內容]**.
+   1. 選取 **[!UICONTROL 專案]** 或 **[!UICONTROL 時間表]** 在 **[!UICONTROL 選取要自訂的清單]**.
+   1. 在 **[!UICONTROL 篩選]** 區段，確認 **[!UICONTROL 我參與的專案]**， **[!UICONTROL 我擁有的專案]** （適用於專案）和 **[!UICONTROL 我的時程表核准]** 和 **[!UICONTROL 我的時間表]** （適用於時程表）已選取。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   有关更多信息，请参阅 [使用布局模板自定义过滤器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   如需詳細資訊，請參閱 [使用版面配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. 将布局模板分配给正确的用户、作业角色、团队或组。 有关信息，请参阅 [将用户分配到布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. 將版面配置範本指派給正確的使用者、職位角色、團隊或群組。 如需詳細資訊，請參閱 [將使用者指派至版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
