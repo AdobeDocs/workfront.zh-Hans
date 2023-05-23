@@ -1,132 +1,132 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 修改列宽和顺序
-description: 请参阅本文，了解列宽准则以及如何在Workfront中更改列宽和顺序。
+title: 修改欄寬和順序
+description: 請參閱本文章，瞭解欄寬指引，以及如何在Workfront中變更欄寬和順序。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
 
-# 修改列宽和顺序
+# 修改欄寬和順序
 
-以下是列宽在Adobe Workfront中如何工作的准则：
+以下是有關欄寬在Adobe Workfront中如何運作的准則：
 
-* 默认情况下，Workfront会在列表和报表中定义列的宽度。
-* Workfront会根据 `valueformat`除非在列的文本模式中另有指定，否则将在所有列表和报表中显示相应信息。
+* Workfront預設會定義清單和報告中的欄寬。
+* Workfront會根據 `valueformat`除非在欄的文字模式中另外指定，否則所有清單和報告中的資訊。
 
    >[!NOTE]
    >
-   >Workfront不会根据 `valueformat` “设置”和“报表”区域的可用列表中的信息。
+   >Workfront不會根據 `valueformat` 「設定」和「報告」區域中可用清單中的資訊。
 
-   的 `valueformat` 值定义列中显示的信息类型。 例如，显示数字的列比显示“描述”字段的列要窄。
+   此 `valueformat` value會定義欄中顯示的資訊型別。 例如，顯示數字的欄比顯示「說明」欄位的欄窄。
 
-* 您可以根据要在列中显示的信息类型，自定义Workfront列表和报表中列的宽度以满足您的需求。
+* 您可以根據要在欄中顯示的資訊型別，自訂Workfront清單和報告中的欄寬，以符合您的需求。
 
-   在查看列表或报表时，您可以临时修改列宽，也可以通过调整视图生成器中列的宽度来永久修改列宽。 有关临时修改列宽的信息，请参阅 [临时修改列宽和顺序时的注意事项](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 章节。
+   您可以在檢視清單或報表時暫時修改欄寬，或是透過在檢視產生器中調整欄寬來永久修改。 如需暫時修改欄寬的相關資訊，請參閱 [暫時修改欄寬和順序時的注意事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 章節。
 
-* 内置视图中显示的列具有以前由Workfront定义的硬编码宽度。 要修改这些宽度，您必须在视图生成器中使用文本模式手动更新这些列的宽度。
+* 內建檢視中顯示的欄具有先前由Workfront定義並以硬式編碼的寬度。 若要修改這些寬度，您必須使用檢視產生器中的文字模式，手動更新這些欄的寬度。
 
-   有关在文本模式下修改列的信息，请参阅 [查看：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+   如需有關在文字模式中修改欄的資訊，請參閱 [檢視：永久編輯欄寬](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td> <p>要求或以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对过滤器、视图、分组的访问权限</p> <p>编辑对报表、功能板、日历的访问权限，以编辑报表中的视图</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>編輯篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的檢視</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理报表的权限以编辑报表中的视图</p> <p>管理要编辑的视图的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>管理報表的許可權以編輯報表中的檢視</p> <p>管理檢視的許可權以進行編輯</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 修改列宽和顺序
+## 修改欄寬和順序
 
-您可以通过以下方式修改报表中列的宽度和顺序：
+您可以透過下列方式修改報表中的欄寬和順序：
 
-* [临时修改列的宽度和顺序](#modify-width-and-order-of-columns-temporarily)
-* [永久修改列的宽度和顺序](#modify-width-and-order-of-columns-permanently)
+* [暫時修改欄寬和順序](#modify-width-and-order-of-columns-temporarily)
+* [永久修改欄寬和順序](#modify-width-and-order-of-columns-permanently)
 
-### 临时修改列的宽度和顺序 {#modify-width-and-order-of-columns-temporarily}
+### 暫時修改欄寬和順序 {#modify-width-and-order-of-columns-temporarily}
 
-您可以拖动列边框以调整列大小，并拖放列以临时重新排序整个Workfront网站中大多数列表中的列。 这包括报表、视图、功能板报表和甘特视图。
+您可以拖曳欄框線來調整欄大小，以及拖放欄以暫時在整個Workfront網站的大部分清單中重新排序。 這包括報告、檢視、儀表板的報告和甘特圖。
 
-有关Workfront列表的更多信息，请参阅文章 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需Workfront清單的詳細資訊，請參閱文章 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* [临时修改列宽和顺序时的注意事项](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
-* [临时调整列大小](#resize-columns-temporarily)
-* [临时重新排序列](#reorder-columns-temporarily)
+* [暫時修改欄寬和順序時的注意事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
+* [暫時調整欄大小](#resize-columns-temporarily)
+* [暫時重新排序欄](#reorder-columns-temporarily)
 
-#### 临时修改列宽和顺序时的注意事项 {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
+#### 暫時修改欄寬和順序時的注意事項 {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
 
-您可以临时修改列表中列的宽度和顺序，而无需编辑其视图。
+您可以暫時修改清單中欄的寬度和順序，而無需編輯其檢視。
 
-临时调整列大小和对列进行排序时，请考虑以下事项：
+暫時調整欄大小和排序欄時，請注意下列事項：
 
-* 调整列大小时，新列大小会存储在浏览器的本地存储中，并且默认情况下会进行保存。 使用其他浏览器或清除缓存或浏览数据会导致列大小恢复为默认值。 刷新页面会保留您对列宽所做的更改。
-* 重新排序列时，只有在您离开列表或刷新浏览器页面之前，才会保留您选择的顺序。 在离开列表或刷新浏览器页面后，列将返回其默认顺序。
-* 为了获得最佳性能，要重新排序的列在列表中应不超过100个项目。
-* 调整列大小时，所做的更改将仅应用于当前使用的视图，并且仅对您可见。 与其他用户共享视图时，不会共享您定义的列大小。
-* 在通过向右拖动列的边框来调整列大小后，将保留相邻列的宽度，以下情况除外：
+* 重新調整欄大小時新欄大小會儲存在瀏覽器的本機儲存空間中，並依預設儲存。 使用不同的瀏覽器、清除快取或瀏覽資料會導致欄大小恢復為預設值。 重新整理頁面會保留您對欄寬所做的變更。
+* 重新排序欄時，只會維持您選擇的順序，直到您離開清單或重新整理瀏覽器頁面為止。 離開清單或重新整理瀏覽器頁面後，欄會回到其預設順序。
+* 為獲得最佳效能，您重新排序的欄在清單中不應超過100個專案。
+* 當您調整欄大小時，您的變更只會套用至您目前使用的檢視，而且只有您能看見。 與其他使用者共用檢視時，不會共用您已定義的欄大小。
+* 當您將欄的邊框拖曳到右邊來調整欄大小後，除了下列情況外，相鄰欄的寬度會保留：
 
-   * 设置区域
-   * “报告”区域
-   * 文档列表和报表
+   * 設定區域
+   * 報告區域
+   * 檔案清單和報告
 
    >[!NOTE]
    >
-   >无法在任何列表中将列的左边框移到相邻列的左边框之上。
+   >您無法將欄的左邊框移動到任何清單中相鄰欄的左邊框之外。
 
-* 如果将任何列表导出到文件，则列的临时顺序不会传输到导出的文件。 导出的文件显示原始列表中列的顺序，然后列才重新排序。
+* 如果您將任何清單匯出至檔案，欄的暫時順序不會轉移到匯出的檔案。 在重新排序欄之前，匯出的檔案會顯示原始清單中的欄順序。
 
-有关从列表和报表导出数据的更多信息，请参阅文章 [导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+如需從清單和報告匯出資料的詳細資訊，請參閱文章 [匯出資料](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-#### 临时调整列大小 {#resize-columns-temporarily}
+#### 暫時調整欄大小 {#resize-columns-temporarily}
 
-1. 转到要修改的列表。
-1. 拖动列的边框，直到列达到所需大小。\
+1. 前往您要修改的清單。
+1. 拖曳欄的框線，直到欄達到所需大小。\
    ![](assets/column-resize-350x124.png)
 
-#### 临时重新排序列 {#reorder-columns-temporarily}
+#### 暫時重新排序欄 {#reorder-columns-temporarily}
 
-1. 转到要修改的列表。
-1. 单击要移动到其他位置的列以选取该列。
-1. 将列拖到正确的位置。
-1. 将列拖放到位置中，以将其移动。
+1. 前往您要修改的清單。
+1. 按一下要移至其他位置的欄，挑選該欄。
+1. 將欄拖曳到正確的位置。
+1. 將欄拖放到位置以移動它。
 
    ![](assets/column-reorder-350x118.png)
 
 >[!TIP]
 >
->当同时查看甘特图和列表视图时，此功能特别有用。 查看甘特图时，列可能会变为隐藏。 要在显示甘特图时查看列，只需拖动要查看的列即可，使其显示在页面的左侧。
+>這在同時檢視甘特圖和清單檢視時特別有用。 檢視甘特圖時，欄可能會變成隱藏。 若要在顯示甘特圖時檢視欄，只要拖曳您要檢視的欄，使其顯示在頁面左側即可。
 
-### 永久修改列的宽度和顺序 {#modify-width-and-order-of-columns-permanently}
+### 永久修改欄寬和順序 {#modify-width-and-order-of-columns-permanently}
 
-要永久重新排序列，请参阅 [创建或自定义标准视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 在文章中 [视图Adobe Workfront概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+若要永久重新排序欄，請參閱區段 [建立或自訂標準檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 在文章中 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-只能使用文本模式永久修改列的宽度。
+您只能使用文字模式來永久修改欄寬。
 
-有关使用文本模式和永久修改列宽的详细信息，请参阅文章 [文本模式常见用法概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+如需有關使用文字模式及永久修改欄寬的詳細資訊，請參閱文章 [文字模式的常見用途概觀](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

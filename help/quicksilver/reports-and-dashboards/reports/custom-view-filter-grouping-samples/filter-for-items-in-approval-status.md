@@ -2,73 +2,76 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “过滤器：仅显示处于批准状态的项目
-description: 您只能显示当前处于“待批准”状态的特定项目。 对于具有批准状态的任何其他对象，其工作方式均相同。
+title: 「篩選：僅顯示處於核准狀態的專案」
+description: 您只能顯示目前處於「未決核准」中特定狀態的專案。 這對具有核准狀態的任何其他物件具有相同作用。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 1%
 
 ---
 
-# 过滤器：仅显示处于批准状态的项目
+# 篩選：僅顯示處於核准狀態的專案
 
-您只能显示当前处于“待批准”状态的特定项目。 对于具有批准状态的任何其他对象，其工作方式均相同。
+您只能顯示目前處於「未決核准」中特定狀態的專案。 這對具有核准狀態的任何其他物件具有相同作用。
 
-您可以将以下对象置于批准状态：
+您可以將下列物件置於核准狀態：
 
 * 任务
 * 问题
 * 项目
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改篩選器 </p>
+   <p>計畫修改報告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改篩選器</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr>
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 仅显示处于审批状态的项目
+## 僅顯示處於核准狀態的專案
 
-1. 例如，转到要自定义的项目列表的过滤器。
-1. 单击 **添加过滤器规则** 对于 **状态** 列表对象的字段。\
-   例如，在项目报表中，添加 **状态等于计划**，但是您希望仅显示状态为 **计划 — 待批准**.
+1. 例如，前往您要為專案清單自訂的篩選器。
+1. 按一下 **新增篩選規則** 的 **狀態** 清單中物件的欄位。\
+   例如，在專案報告中，新增 **狀態等於Planning**，如果您只想顯示處於以下狀態的專案： **計畫 — 未決核准**.
 
-1. 单击 **切换到文本模式**.
+1. 按一下 **切換至文字模式**.
 1. 修改
 
    ```
    status
    ```
 
-   添加行 **:A** 至状态的3个字母键：
-   <pre>status=PLN:A<br>status_Mod=in</pre>
+   藉由新增行 **：A** 至狀態的3字母金鑰：
+   <pre>status=PLN：A<br>status_Mod=in</pre>
 
-1. 单击 **完成**，则 **保存过滤器**.
+1. 按一下 **完成**，則 **儲存篩選器**.
 
-   该列表仅显示处于“计划 — 待批准”状态的项目。
+   清單僅顯示處於「計畫 — 未決核准」狀態的專案。

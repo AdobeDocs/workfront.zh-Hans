@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “分组：指示是否应使用文本模式折叠或展开分组的结果。
-description: “分组：指示是否应使用文本模式折叠或展开分组的结果。
+title: 「群組：指示群組結果應使用文字模式收合或展開」
+description: 「群組：指示群組結果應使用文字模式收合或展開」
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# 分组：指示是否应使用文本模式折叠或展开分组结果
+# 群組：指出群組結果應使用文字模式收合或展開
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
 -->
 
-您可以使用标准报表生成器指示分组中的结果是否应在列表或报表中显示折叠或展开。 默认情况下，会展开分组显示。 有关创建分组的信息，请参阅 [在Adobe Workfront中创建分组](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+您可以使用標準Report Builder來指出群組結果在清單或報表中應摺疊還是展開。 依預設，群組中的結果顯示為展開狀態。 如需建立群組的相關資訊，請參閱 [在Adobe Workfront中建立群組](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Understanding text mode, Edit groupings to organize reports, Create a Custom Report; create a snippet when convenient)</p>
@@ -28,61 +28,64 @@ ht-degree: 0%
 
 >[!TIP]
 >
->* 当您在查看列表时手动调整分组时，Adobe Workfront会在您注销之前记住您的手动首选项。 当您重新登录时，将根据此设置显示列表。
->* 从图表元素访问分组结果后，分组结果始终会显示为已展开。
+>* 當您在檢視清單時手動調整群組時，Adobe Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
+>* 從圖表元素存取群組結果後，群組結果一律展開顯示。
 >
 
 
-您还可以指示应使用文本模式显示分组是展开还是折叠。
+您也可以指定群組應使用文字模式顯示展開或收合。
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改群組 </p>
+   <p>計畫修改報告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr>  
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 指示是否应使用文本模式折叠或展开分组结果
+## 指示群組結果應使用文字模式收合或展開
 
-1. 转到对象列表。
-1. 从 **分组**&#x200B;下拉菜单，选择 **新建分组**.
+1. 前往物件清單。
+1. 從 **分組**&#x200B;下拉式功能表，選取 **新群組**.
 
-1. 添加分组并单击 **切换到文本模式**.
+1. 新增群組並按一下 **切換至文字模式**.
 
    或
 
-   如果分组已处于文本模式，请将以下代码添加到要显示折叠的分组级别：
+   如果群組已處於文字模式，請將下列程式碼新增至您要摺疊顯示的群組層級：
 
    ```
    group.0.iscollapsed=true
    ```
 
-1. （可选）如果希望显示扩展的分组，请将以下代码添加到相应的分组级别：
+1. （選擇性）如果要展開群組顯示，請將下列程式碼新增至適當的群組層級：
 
    ```
    group.0.iscollapsed=false
    ```
 
-1. 单击 **完成**，则 **保存分组**.
+1. 按一下 **完成**，則 **儲存群組**.

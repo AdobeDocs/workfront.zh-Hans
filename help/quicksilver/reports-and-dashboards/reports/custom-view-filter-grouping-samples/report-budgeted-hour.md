@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: ‘报告：预算小时数
-description: ‘报告：预算小时数
+title: '報告：預算時數'
+description: '報告：預算時數'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
 
 ---
 
-# 报表：预算小时数
+# 報告：預算時數
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
 -->
 
-如果要与无权访问资源计划员的其他用户共享预算小时信息，则可以通过构建预算小时报表来执行此操作。 然后，您可以与他们共享该报表。
+當您想要與無權存取資源規劃工具的其他使用者共用預算時數資訊時，您可以透過建立預算時數報表來執行此操作。 然後，您就可以與他們共用報表。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
@@ -28,81 +28,83 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->预算小时数在Adobe Workfront数据库中每小时更新一次。 刷新报表不一定会刷新报表中的小时信息。 您可以在每个预算小时报表的右上角查看自上次更新以来已经过的时间。 刷新报表时，仅当距上次更新已超过一小时时，才会刷新报表中的信息。
+>預算時數會在Adobe Workfront資料庫中每小時更新一次。 重新整理報告不一定會重新整理報告中的小時資訊。 您可以在每個「預算時數」報表的右上角，檢視自上次更新後所經過的時間。 重新整理報告只會在上次更新後超過一小時時重新整理其中的資訊。
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯對報告、儀表板、行事曆的存取權</p> <p>編輯篩選器、檢視、群組的存取權</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 生成预算小时报表
+## 建立預算時數報告
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png) ，然后单击 **报表**.
+1. 按一下 **主要功能表** ![](assets/main-menu-icon.png) 然後按一下 **報表**.
 
-1. 单击 **新建报表>预算小时数**.
+1. 按一下 **新報告>預算時數**.
 
-   默认视图将应用于报表。
+   預設檢視會套用至報表。
 
-1. （可选）为了更便于阅读，请单击 **预算小时数** 列，然后 **切换到文本模式**，然后更改
+1. （選用）若要讓報表更易於閱讀，請按一下 **預算時數** 欄，然後 **切換至文字模式**，然後變更
 
    ```
    valuefield
    ```
 
-   行到
+   行至
 
    ```
    valueexpreesion
    ```
 
-   并输入舍入表达式。
+   並輸入舍入運算式。
 
-   这会将预算小时数舍入为您指定的小数位数。
+   這會將預算時數四捨五入至您指定的小數。
 
-   有关如何在Workfront中对数字进行四舍五入的信息，请参阅文章 [计算数据表达式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   如需如何在Workfront中舍入數字的詳細資訊，請參閱文章 [計算資料運算式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. （可选）单击 **添加列** 添加其他列。
-1. （可选）为了更便于阅读，我们建议您为报表添加分组。 我们建议进行以下分组：
+1. （可選）按一下 **新增欄** 以新增其他欄。
+1. （選用）若要讓報表更易於閱讀，建議您新增分組至報表。 我們建議進行下列分組：
 
-   单击 **分组** 选项卡，然后执行以下一个或多个操作：
+   按一下 **群組** 標籤，然後執行下列一或多項作業：
 
-   1. 单击 **添加分组** 然后开始键入“项目名称”，然后在列表中显示时将其选中。
-   1. 单击 **添加分组** 然后开始键入“作业角色名称”，然后在列表中显示时将其选中。
-   1. 单击 **添加分组** 开始键入 **分配日期**，选择该时间范围（当该时间范围显示在列表中时），然后从 **分组日期依据** 字段。
+   1. 按一下 **新增群組** 並開始輸入「專案名稱」，然後當它出現在清單中時選取它。
+   1. 按一下 **新增群組** 並開始輸入「工作角色名稱」，然後當它出現在清單中時選取它。
+   1. 按一下 **新增群組** 並開始輸入 **配置日期**，請在它出現在清單中時選取它，然後從中選擇要作為分組依據的時間範圍 **日期分組條件** 欄位。
 
-1. （可选）单击 **过滤器** 向报表添加过滤器。
-1. （可选）单击 **图表** 向报表中添加图表。
-1. 单击 **保存并关闭**.
+1. （可選）按一下 **篩選器** 以新增篩選器至報表。
+1. （可選）按一下 **圖表** 以新增圖表至報表。
+1. 按一下 **儲存+關閉**.
 
-## 复查预算小时报表
+## 檢閱預算時數報告
 
-默认情况下，“预算小时”报表中提供以下信息：
+「預算時數」報表預設提供下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,27 +112,27 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">项目 </td> 
-   <td>这是与预算小时关联的项目名称。</td> 
+   <td>這是與預算時數相關聯的專案名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>作业角色</p> </td> 
-   <td>这是与预算小时关联的职务角色的名称。 </td> 
+   <td role="rowheader"> <p>工作角色</p> </td> 
+   <td>這是與預算時數相關聯的工作角色名稱。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">用户</td> 
-   <td>这是与预算小时关联的用户名称。</td> 
+   <td>這是與預算時數相關聯的使用者名稱。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">分配日期</td> 
-   <td> <p>这是分配日期。 这是您预算小时数的一周中的第一天（星期日）。</p> <p>提示：  <p>如果一周跨越两个月，则会在报表中生成两行：一个对应于一周的第一天（一周的星期日，即第一个月），另一个对应于第二个月的第一天（可能是一周的任何一天）。</p> <p>例如，如果您为6月30日（星期日） — 7月6日（星期六）这一周的用户预算8小时，则这两行会显示分配日期：6月30日和7月1日。</p> </p> </td> 
+   <td> <p>這是配置日期。 這是您編列時數預算的一週的第一天（星期日）。</p> <p>秘訣：  <p>如果一週跨越兩個月，這會在報表中產生兩列：一個對應一週的第一天（一週的星期日，在第一個月內），第二個對應第二個月的第一天（可能是一週的任何一天）。</p> <p>例如，如果您為使用者編列了6月30日（星期日）至7月6日（星期六）這週的8小時的預算，則兩列會顯示分配日期6月30日和7月1日。</p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">预算小时</td> 
-   <td>这些是分配给资源计划员中用户的预算小时数。</td> 
+   <td>這些是分配給資源規劃工具中使用者的預算時數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">兹罗提。 预算小时</td> 
-   <td>这些是分配给资源计划员中任务职责或项目的预算小时数。</td> 
+   <td role="rowheader">計畫 预算小时</td> 
+   <td>這些是分配至資源規劃工具中工作角色或專案的預算時數。</td> 
   </tr> 
  </tbody> 
 </table>

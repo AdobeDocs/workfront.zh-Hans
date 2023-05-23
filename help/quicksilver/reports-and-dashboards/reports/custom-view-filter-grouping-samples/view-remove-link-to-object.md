@@ -2,99 +2,105 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “查看：删除列中对象的链接'
-description: 默认情况下，显示在视图链接中的某些对象会链接到该对象的“详细信息”(Details)页面。 例如，显示项目名称的列即是指向项目的链接；显示用户名称的列是指向用户配置文件页面的链接。
+title: 「檢視：移除欄中物件的連結」
+description: 依預設，您在檢視連結中顯示的某些物件會連結到物件的「詳細資訊」頁面。 例如，顯示專案名稱的欄是專案的連結；顯示使用者名稱的欄是使用者設定檔頁面的連結。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
 
-# 查看：删除列中对象的链接
+# 檢視：移除欄中物件的連結
 
-默认情况下，显示在视图链接中的某些对象会链接到该对象的“详细信息”(Details)页面。 例如，显示项目名称的列即是指向项目的链接；显示用户名称的列是指向用户配置文件页面的链接。
+依預設，您在檢視連結中顯示的某些物件會連結到物件的「詳細資訊」頁面。 例如，顯示專案名稱的欄是專案的連結；顯示使用者名稱的欄是使用者設定檔頁面的連結。
 
-您可以在所有视图中显示的列中使用文本模式删除此链接。
+您可以使用文字模式，在所有檢視中顯示的欄中移除此連結。
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改檢視 </p>
+   <p>計畫修改報告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr>   
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 示例：从任务视图的“任务名称”列中删除指向任务的链接：
+## 範例：從任務檢視的「任務名稱」欄中移除任務的連結：
 
-1. 转到任务列表。
-1. 从 **查看** 下拉菜单中，单击 **新建视图** 创建新视图。
-
-   或
-
-   单击 **“编辑”图标** ![](assets/edit-icon.png)
-
-   要编辑现有视图，请选择该视图。
-
-1. 单击 **添加列** 添加新列。
+1. 前往工作清單。
+1. 從 **檢視** 下拉式功能表，按一下 **新增檢視** 以建立新檢視。
 
    或
 
-   单击包含对象链接的现有列。
+   按一下 **編輯圖示** ![](assets/edit-icon.png)
 
-1. 单击 **切换到文本模式**.
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
-1. 删除您在 **文本模式** ，并将其替换为以下代码：
+   若要編輯現有檢視，請選取檢視。
 
-   <pre>displayname=任务名称<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
+1. 按一下 **新增欄** 以新增欄。
+
+   或
+
+   按一下具有物件連結的現有欄。
+
+1. 按一下 **切換至文字模式**.
+1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
+1. 移除您在「 」中找到的文字 **文字模式** 方塊，並以下列程式碼取代：
+
+   <pre>displayname=任務名稱<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
-   >通过调整以下内容，您可以对其他对象使用类似的代码：
+   >您可以調整下列內容，將類似的程式碼用於其他物件：
    >
    >   
    >   
-   >   * 替换 **valuefield** 代码行 **valueexpression** 并在等号后保留花括号中包含的相同名称。
+   >   * 取代 **valuefield** 程式碼行包含 **值運算式** 和將相同的名稱包含在等號後的大括弧中。
    >   
    >   
    >
    >   
    >   
-   >   * 消除所有以>开头的行
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >
-   >
-   >
+   >   * 排除開頭為>的所有行
+
+      >   
+      >     ```>   
+      >     link.
+      >     ```   >   
+      >   
+      >     
+      from the original text of the column. For example, eliminate all the following lines:
+      >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+      >   
+      >   
+      >
 
 
 
-1. 单击 **保存**，则 **保存视图**.
+1. 按一下 **儲存**，則 **儲存檢視**.

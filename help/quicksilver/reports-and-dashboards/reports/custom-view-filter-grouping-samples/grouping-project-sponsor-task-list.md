@@ -2,66 +2,69 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “分组：任务列表的项目赞助商
-description: 此任务分组允许您按项目赞助商对任务进行分组。
+title: 「群組：任務清單的專案贊助者」
+description: 此任務群組可讓您依專案贊助者將任務分組。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# 分组：任务列表的项目赞助商
+# 群組：任務清單的專案贊助者
 
-此任务分组允许您按项目赞助商对任务进行分组。
+此任務群組可讓您依專案贊助者將任務分組。
 
 ![](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改群組 </p>
+   <p>計畫修改報告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr>  
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 按项目赞助方分组，以获取任务列表
+## 按專案贊助者分組任務清單
 
-要应用此分组，请执行以下操作：
+若要套用此群組：
 
-1. 转到任务列表。
-1. 在 **分组** 下拉菜单，选择 **新建分组**.
+1. 前往工作清單。
+1. 在 **分組** 下拉式功能表，選取 **新群組**.
 
-1. 单击 **切换到文本模式**.
-1. 删除在文本编辑窗口中看到的文本。
-1. 在文本编辑窗口中复制并粘贴以下代码：
+1. 按一下 **切換至文字模式**.
+1. 移除您在文字編輯視窗中看到的文字。
+1. 在文字編輯視窗中複製並貼上下列程式碼：
 
    ```
    group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string
    ```
 
-1. 单击 **保存分组**.
+1. 按一下 **儲存群組**.

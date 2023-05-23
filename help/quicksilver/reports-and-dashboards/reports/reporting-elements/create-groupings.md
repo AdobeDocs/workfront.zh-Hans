@@ -1,73 +1,73 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 在Adobe Workfront中创建分组
-description: 您可以从头开始创建自定义分组或自定义现有分组。
+title: 在Adobe Workfront中建立群組
+description: 您可以從頭開始建立自訂分組，也可以自訂現有分組。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中创建分组
+# 在Adobe Workfront中建立群組
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
 -->
 
-报表或列表的结果可以通过分组进行组织。 根据特定信息对信息进行分类。
+報表或清單的結果可依分組進行整理。 分組會根據特定資訊來分類資訊。
 
-您可以从头开始创建自定义分组或自定义现有分组。 请按照以下步骤从头开始创建分组。
+您可以從頭開始建立自訂分組，也可以自訂現有分組。 請依照下列步驟，從頭開始建立群組。
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td> <p>要求或以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对过滤器、视图、分组的访问权限</p> <p>编辑对报表、功能板、日历的访问权限，以在报表中创建分组</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader"><strong>存取層級設定*</strong></td> 
+   <td> <p>編輯篩選器、檢視、群組的存取權</p> <p>編輯對報告、儀表板、行事曆的存取權，以在報告中建立分組</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理报表的权限以编辑报表中的分组</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader"><strong>物件許可權</strong></td> 
+   <td> <p>管理報告的許可權以編輯報告中的分組</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 创建分组
+## 建立群組
 
-1. 转到要在其中创建自定义分组的报表或列表。
-1. 单击 **分组** 图标。
+1. 前往您要建立自訂群組的報表或清單。
+1. 按一下 **分組** 圖示。
 
-   ![选择新分组](assets/newgrouping-nwe-standard-350x304.png)
+   ![選取新群組](assets/newgrouping-nwe-standard-350x304.png)
 
-1. 单击 **新建分组**.
-用于创建分组启动项的界面生成器。
+1. 按一下 **新群組**.
+用於建立分組的介面產生器隨即啟動。
 
-1. 在 **分组预览** ，单击 **添加分组** 定义您希望如何组织报表中的信息。 下面显示了分组在报表中的预览。
+1. 在 **群組預覽** 區段，按一下 **新增群組** 以定義報告中的資訊組織方式。 報表中分組內容的預覽顯示如下。
 
-1. 开始键入表示您希望以何种方式组织报表中的信息的字段名称，然后在下拉列表中显示时单击该名称。
-1. （可选和视情况而定）在更新列表中构建分组时，请选择 **默认情况下折叠此分组** 如果希望分组中的结果显示折叠而不是展开。 默认情况下，此设置处于禁用状态，分组结果始终显示在扩展列表中。
+1. 開始輸入欄位名稱，代表您要以何種方式組織報表中的資訊，然後當它出現在下拉式清單中時按一下它。
+1. （選擇性和條件性）在更新清單中建立群組時，請選取 **依預設摺疊此群組** 如果您希望群組中的結果以收合方式顯示，而不是以展開方式顯示。 此設定預設為停用，群組結果一律顯示在展開清單中。
 
-   有关更新列表和旧版列表的信息，请参阅部分 [更新列表与旧版列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 在文章中 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   如需有關已更新和舊版清單的資訊，請參閱區段 [更新清單和舊版清單之間的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 在文章中 [開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -75,22 +75,22 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >* 当您在查看列表时手动调整分组时，Workfront会在您注销之前记住您的手动首选项。 当您重新登录时，将根据此设置显示列表。
-   >* 在从图表元素或旧列表中访问分组后，分组结果始终会显示为已展开。 在这些情况下，将忽略此设置。
+   >* 當您在檢視清單時手動調整群組時，Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
+   >* 從圖表元素或舊版清單存取群組結果後，群組結果一律會展開顯示。 在這些情況下，會忽略此設定。
 
 
-1. 重复步骤4、5和6以定义其他分组。\
-   您最多可以定义三个分组来组织信息。 通过创建矩阵报告，您最多可以通过四个分组来进一步组织信息。 有关矩阵报表的更多信息，请参阅 [创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. 重複步驟4、5和6以定義其他群組。\
+   您最多可以定義三個群組來組織資訊。 您可以建立矩陣報表，將資訊進一步組織為最多四個群組。 如需矩陣報表的詳細資訊，請參閱 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. 单击 **保存分组**.
+1. 按一下 **儲存群組**.
 
 ## 其他信息
 
-另请参阅：
+另請參閱：
 
-* [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [报表元素：过滤器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [编辑现有分组](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+* [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [報表元素：篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [編輯現有群組](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,72 +2,75 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “查看：在任务列表中显示任务缩进
-description: 在此任务视图中，您可以向“任务名称”列添加代码，以根据项目的“工作划分结构”缩进显示任务。
+title: 「檢視：在任務清單中顯示任務縮排」
+description: 在此任務檢視中，您可以將程式碼新增至「任務名稱」欄，以顯示根據專案的「工作分解結構」縮排的任務。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# 查看：在任务列表中显示任务缩进
+# 檢視：在任務清單中顯示任務縮排
 
-在此任务视图中，您可以向“任务名称”列添加代码，以根据项目的“工作划分结构”缩进显示任务。
+在此任務檢視中，您可以將程式碼新增至「任務名稱」欄，以顯示根據專案的「工作分解結構」縮排的任務。
 
 ![](assets/view-text-mode-indentation-task-list-350x171.png)
 
-## 访问要求
+## 存取需求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必須具有下列存取權才能執行本文中的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td> <p>請求修改檢視 </p>
+   <p>計畫修改報告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+
+如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+</tr> 
   <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-## 在任务列表的列中显示任务缩进
+## 在任務清單的欄中顯示任務縮排
 
-1. 转到任务列表。
-1. 从 **查看** 下拉菜单中，单击 **新建视图**.
+1. 前往工作清單。
+1. 從 **檢視** 下拉式功能表，按一下 **新增檢視**.
 
-1. 单击 **添加列** 并开始在 **在此列中显示** 字段，然后在其列表中显示时将其选中。
+1. 按一下 **新增欄** 並開始在「 」中輸入「任務名稱」 **顯示在此欄中** 欄位，然後在清單中顯示時選取它。
 
-1. 在新列中，单击 **切换到文本模式**.
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
-1. 删除您在
+1. 在新欄中按一下 **切換至文字模式**.
+1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
+1. 移除您在「 」中找到的文字
 
    ```
    valuefield=
    ```
 
-   行并将其替换为以下代码：
+   行，並以下列程式碼取代：
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. 单击 **保存**，则 **保存视图**.
+1. 按一下 **儲存**，則 **儲存檢視**.
