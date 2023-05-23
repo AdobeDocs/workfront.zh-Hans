@@ -1,35 +1,35 @@
 ---
-title: 配置文档集成
+title: 設定檔案整合
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 配置文档集成
+description: 設定檔案整合
 author: Courtney, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 456c7b21835c96912e8974063f7797283dcb4e6d
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 1%
 
 ---
 
-# 配置文档集成
+# 設定檔案整合
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-作为 [!DNL Adobe Workfront] 管理员，您可以配置文档集成以在 [!UICONTROL Workfront]. 您还可以配置 [!UICONTROL Workfront] 以便文档仅存储在文档服务应用程序中，而不存储在 [!UICONTROL Workfront] 自己。 有关更多信息，请参阅 [更新并链接来自 [!UICONTROL Workfront] 到外部云提供程序](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in [从外部应用程序链接文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+作為 [!DNL Adobe Workfront] 管理員，您可以設定檔案整合以管理檔案 [!UICONTROL Workfront]. 您也可以設定 [!UICONTROL Workfront] 因此檔案只會儲存在document services應用程式中，而不會儲存在 [!UICONTROL Workfront] 本身。 如需詳細資訊，請參閱 [更新並連結檔案，從 [!UICONTROL Workfront] 至外部雲端提供者](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) 在 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->允许在 [!DNL Workfront Proof] 和 [!DNL Workfront] 服务器，则可能需要向添加某些IP地允许列表址。 有关更多信息，请参阅 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>若要允許開啟以下專案之間的通訊： [!DNL Workfront Proof] 和 [!DNL Workfront] 伺服器，您可能需要將特定IP位址新增至允許清單。 如需詳細資訊，請參閱 [設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## 访问要求
+## 存取需求
 
-您必须具备以下条件才能执行本文中的步骤：
+您必須具備下列專案才能執行本文所述的步驟：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,26 +37,26 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL计划]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
+   <td>[！UICONTROL計畫]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>你必须是 [!DNL Workfront] 管理员。 有关 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td role="rowheader">存取層級設定*</td> 
+   <td> <p>您必須是 [!DNL Workfront] 管理員。 有關以下專案的資訊： [!DNL Workfront] 管理員，請參閱 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
 
-## 受支持的集成
+## 支援的整合
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-您可以配置以下集成以管理文档：
+您可以設定下列整合來管理檔案：
 
 <!--
   Experience Manager Assets Essentials </p>
@@ -66,178 +66,179 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-   从链接校样 [!DNL Workfront Proof] 用于制作最初在 [!DNL Workfront Proof] 可在 [!DNL Workfront]. A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划或更高版本。 有关各种可用计划的更多信息，请参阅 [Workfront计划。](https://www.workfront.com/plans)
+   連結校樣從 [!DNL Workfront Proof] 可讓您製作原本在中建立的校樣 [!DNL Workfront Proof] 提供於 [!DNL Workfront]. A [!UICONTROL Pro] [!DNL Workfront] 需要計畫或更高版本才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱 [Workfront計畫。](https://www.workfront.com/plans)
 
 * [!DNL Microsoft SharePoint]
 
-   有关与集成的信息 [!DNL SharePoint]，请参阅 [配置 [!DNL SharePoint] 集成](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+   如需整合的相關資訊，請參閱 [!DNL SharePoint]，請參閱 [設定 [!DNL SharePoint] 整合](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
-* 第三方云文档提供程序：
+* 第三方雲端檔案提供者：
 
    * [!DNL Box]
    * [!DNL Dropbox]
    * [!DNL Dropbox Business]
    * [!DNL WebDAM]
    * [!DNL Microsoft OneDrive]
+   * [!DNL Microsoft SharePoint]
    * [!UICONTROL Google Drive]
 
       <!--Quip-->
    >[!TIP]
    >
-   >您可以采用与校样和批准已直接上传到的文档相同的方式，对从外部云提供商链接的文档进行校样和批准 [!DNL Workfront].
+   >您可以校訂和核准從外部雲端提供者連結的檔案，就像校訂和核准直接上傳到的檔案一樣 [!DNL Workfront].
 
-* 其他文档提供程序（通过自定义文档集成）。
+* 其他檔案提供者（透過自訂檔案整合）。
 
-   A [!UICONTROL Pro] [!DNL Workfront] 使用此功能需要计划或更高版本。 有关各种可用计划的更多信息，请参阅 [[!DNL Workfront] 计划。](https://www.workfront.com/plans)
+   A [!UICONTROL Pro] [!DNL Workfront] 需要計畫或更高版本才能使用此功能。 如需各種可用計畫的詳細資訊，請參閱 [[!DNL Workfront] 計畫。](https://www.workfront.com/plans)
 
-此外，您还可以 [!DNL Workfront] 使用本机数字资产管理(DAM)系统或第三方DAM集成记录体验。 管理员必须启用这些功能，才能将用户的服务链接到其 [!DNL Workfront] 帐户。 有关Workfront DAM的更多信息，请参阅 [使用管理文档 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+此外，您也可以增強 [!DNL Workfront] 原生數位資產管理(DAM)系統或協力廠商DAM整合的檔案體驗。 管理員必須啟用這些功能，使用者才能將服務連結至其 [!DNL Workfront] 帳戶。 如需Workfront DAM的詳細資訊，請參閱 [管理檔案，使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-## 配置集成以管理文档
+## 設定整合以管理檔案
 
-1. 登录到 [!DNL Workfront] 作为管理员。
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 登入 [!DNL Workfront] 以管理員身分。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
-1. 在左侧面板中，单击 **[!UICONTROL 文档]** > **[!UICONTROL 云提供商].**
+1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL 雲端服務供應商].**
 
-1. （可选）将文档存储在文档服务应用程序中，而不是 [!DNL Workfront]，选择 **[!UICONTROL 阻止用户在 [!DNL Workfront]].**
+1. （選擇性）將檔案儲存在檔案服務應用程式中，但不儲存在 [!DNL Workfront]，選取 **[!UICONTROL 防止使用者將檔案儲存在 [!DNL Workfront]].**
 
-1. 选择要启用的集成。
+1. 選取您要啟用的整合。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-如果您要设置与的集成 [!DNL Workfront DAM]，则您可以 [!DNL Workfront] 将元数据包含在文档中。 有关映射元数据的信息，请参阅 [设置元数据映射](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+如果您要設定與整合 [!DNL Workfront DAM]，您可以啟用 [!DNL Workfront] 以包含中繼資料與檔案。 如需對應中繼資料的相關資訊，請參閱 [設定中繼資料對應](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
-## 配置自定义文档集成
+## 設定自訂檔案整合
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-自定义文档集成允许 [!DNL Workfront] 将文件链接到 [!DNL Workfront] 从几乎任何系统，只要系统是与 [!DNL Workfront].
+自訂檔案整合允許 [!DNL Workfront] 要將檔案連結到的使用者 [!DNL Workfront] 幾乎任何系統，前提是系統能夠搭配使用 [!DNL Workfront].
 
-要使自定义集成可供用户使用，您首先需要构建集成。 有关如何构建要与 [!DNL Workfront]，请参阅 [文档Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+若要讓使用者可以使用自訂整合，您首先需要建置整合。 如需如何建置要與搭配使用的整合的相關資訊 [!DNL Workfront]，請參閱 [檔案Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
-构建自定义文档集成后，您可以将其提供给网站上的用户。
+建立自訂檔案整合後，您可將它提供給您網站上的使用者。
 
-1. 登录到 [!DNL Workfront] 作为管理员。
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 登入 [!DNL Workfront] 以管理員身分。
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
-1. 在左侧面板中，单击 **[!UICONTROL 文档]** > **[!UICONTROL 自定义集成].**
+1. 在左側面板中，按一下 **[!UICONTROL 檔案]** > **[!UICONTROL 自訂整合].**
 
-1. 单击 **[!UICONTROL 添加自定义集成]**.
-1. 指定以下信息以配置集成：
+1. 按一下 **[!UICONTROL 新增自訂整合]**.
+1. 指定下列資訊以設定整合：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL名称]</td> 
-      <td>自定义集成的名称。 这是用户在Workfront中使用集成时看到的名称。</td> 
+      <td role="rowheader">[！UICONTROL名稱]</td> 
+      <td>自訂整合的名稱。 這是使用者在Workfront中使用整合時看到的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Base API URL] </td> 
-      <td>用于API调用的基本HTTP或安全HTTP URL。 例如， <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
+      <td>API呼叫的基本HTTP或安全HTTP URL。 例如， <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL身份验证类型]</td> 
-      <td> <p>对自定义集成进行授权API调用时要使用的身份验证方法。</p> 
+      <td role="rowheader">[！UICONTROL驗證型別]</td> 
+      <td> <p>對自訂整合進行授權API呼叫時使用的驗證方法。</p> 
        <ul> 
-        <li>如果您选择 <strong>[!UICONTROL OAuth]</strong>，继续步骤6。</li> 
-        <li>如果您选择 <strong>[!UICONTROL ApiKey]</strong>，继续步骤7。</li> 
+        <li>如果您選擇 <strong>[！UICONTROL OAuth]</strong>，繼續步驟6。</li> 
+        <li>如果您選擇 <strong>[！UICONTROL ApiKey]</strong>，請繼續步驟7。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （视情况而定）如果您选择 **[!UICONTROL OAuth]** 身份验证 **[!UICONTROL 身份验证类型]**，请指定以下信息：
+1. （視條件而定）如果您已選取 **[!UICONTROL OAuth]** 驗證 **[!UICONTROL 驗證型別]**，請指定下列資訊：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL身份验证URL]</td> 
-      <td>用于用户身份验证的完整URL。 [!DNL Workfront] 在OAuth配置过程中，将用户导航到此地址。</td> 
+      <td role="rowheader">[！UICONTROL驗證URL]</td> 
+      <td>用於使用者驗證的完整URL。 [!DNL Workfront] 在OAuth布建程式中將使用者導覽至此位址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL令牌端点URL]</td> 
+      <td role="rowheader">[！UICONTROL權杖端點URL]</td> 
       <td>用于检索 OAuth 令牌的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL客户端ID]</td> 
-      <td>此集成的OAut客户端ID。</td> 
+      <td role="rowheader">[！UICONTROL使用者端ID]</td> 
+      <td>此整合的OAut使用者端ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL客户端密钥]</td> 
-      <td>此集成的OAut客户端密钥。</td> 
+      <td role="rowheader">[！UICONTROL使用者端密碼]</td> 
+      <td>此整合的OAut使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL请求参数]</td> 
-      <td> <p>指定要附加到每个API调用查询字符串的可选值。 例如， access_type=offline。</p> <p>要添加多个请求参数，请单击 <strong>+添加请求参数</strong>.</p> </td> 
+      <td role="rowheader">[！UICONTROL要求引數]</td> 
+      <td> <p>指定要附加至每個API呼叫之查詢字串的選用值。 例如，access_type=offline。</p> <p>若要新增多個請求引數，請按一下 <strong>+新增請求引數</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >的 [!DNL Workfront] 重定向URI，显示在 [!UICONTROL 自定义集成] 页面列出了用于注册此集成与外部文档提供程序的URI。
+   >此 [!DNL Workfront] 顯示在底部的重新導向URI [!UICONTROL 自訂整合] 頁面會列出用來向外部檔案提供者註冊此整合的URI。
 
-1. （视情况而定）如果您选择 **[!UICONTROL ApiKey]** 身份验证 **[!UICONTROL 身份验证类型]**，指定由自定义文档提供程序颁发的API密钥。
+1. （視條件而定）如果您已選取 **[!UICONTROL ApiKey]** 驗證 **[!UICONTROL 驗證型別]**，指定自訂檔案提供者所發出的API金鑰。
 
-   [!DNL Workfront] 使用此API密钥对文档提供程序进行授权API调用。
+   [!DNL Workfront] 使用此API金鑰對檔案提供者進行授權的API呼叫。
 
-1. 单击 **[!UICONTROL 保存]** 创建集成。
+1. 按一下 **[!UICONTROL 儲存]** 以建立整合。
 
-## 使用文档集成
+## 使用檔案整合
 
-有关用户如何使用的信息 [!DNL Workfront DAM]，请参阅 [使用管理文档 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+如需使用者如何使用的詳細資訊 [!DNL Workfront DAM]，請參閱 [管理檔案，使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-有关用户如何使用校样的信息，请参阅 [创建校样](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+如需使用者如何使用校訂的詳細資訊，請參閱 [建立校樣](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
 
-有关用户在配置后如何使用第三方文档集成的信息，请参阅 [从外部应用程序链接文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+如需有關在您設定協力廠商檔案整合後使用者如何使用協力廠商檔案整合的資訊，請參閱 [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### 配置 [!DNL Workfront] 将元数据发送到 [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
+### 設定 [!DNL Workfront] 將中繼資料傳送至 [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-从发送文档时 [!DNL Workfront] to [!DNL Workfront DAM]，则还可以发送与该文档关联的信息。 有关文档的信息已映射到 [!DNL Workfront DAM] 作为元数据。
+從傳送檔案時 [!DNL Workfront] 至 [!DNL Workfront DAM]，您也可以傳送與該檔案相關聯的資訊。 檔案的相關資訊已對應至 [!DNL Workfront DAM] 作為中繼資料。
 
-信息仅通过单向映射(从 [!DNL Workfront] to [!DNL Workfront DAM] 并且只有在将文档上传到时，才会将其转移 [!DNL Workfront DAM]. Workfront字段中的任何未来更改都不会更新 [!DNL Workfront DAM] 在文档已上传之后。\
-您可以映射相同的 [!DNL Workfront] 字段 [!DNL Workfront DAM] 字段，但不能使用相同的 [!DNL Workfront DAM] 字段 [!DNL Workfront] 字段。
+資訊只會單向對應，從 [!DNL Workfront] 至 [!DNL Workfront DAM] 而且僅當檔案上傳到時才會傳輸 [!DNL Workfront DAM]. Workfront欄位中的任何未來變更都不會更新以下專案的中繼資料欄位： [!DNL Workfront DAM] 檔案上傳後。\
+您可以對應相同的 [!DNL Workfront] 欄位至各種 [!DNL Workfront DAM] 欄位，但您不能使用相同的 [!DNL Workfront DAM] 多個欄位 [!DNL Workfront] 欄位。
 
-如果必须配置多个 [!DNL Workfront] 导出到一个字段 [!DNL Workfront DAM] 字段，首先在 [!DNL Workfront] 以显示对象的所有单个自定义字段。 然后，映射计算出的 [!DNL Workfront] 字段至1 [!DNL Workfront DAM] 字段。\
-有关计算自定义字段的更多信息，请参阅 [将计算数据添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+如果您必須設定多個 [!DNL Workfront] 要匯出至一個的欄位 [!DNL Workfront DAM] 欄位，請先在中建立計算自訂欄位 [!DNL Workfront] 以顯示物件的所有個別自訂欄位。 然後，對應計算的 [!DNL Workfront] 欄位至一 [!DNL Workfront DAM] 欄位。\
+如需有關已計算自訂欄位的詳細資訊，請參閱 [將計算資料新增至自訂表單](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-映射会影响任何用户从 [!DNL Workfront] to [!UICONTROL Workfront] DAM。
+對應會影響任何使用者從上傳的所有檔案 [!DNL Workfront] 至 [!UICONTROL Workfront] DAM。
 
-As a [!DNL Workfront] 管理员，必须启用 [!DNL Workfront DAM] 在Workfront中，才能映射元数据映射流程的字段。 有关如何启用的更多信息 [!DNL Workfront DAM]，请参阅 [配置Workfront以将元数据发送到 [!DNL Workfront DAM]](#configure-workfront-to-send-metadata-to-workfront-dam).
+As a [!DNL Workfront] 管理員，您必須啟用 [!DNL Workfront DAM] 前往Workfront中對應中繼資料對應程式的欄位。 如需如何啟用的詳細資訊 [!DNL Workfront DAM]，請參閱 [設定Workfront將中繼資料傳送至 [!DNL Workfront DAM]](#configure-workfront-to-send-metadata-to-workfront-dam).
 
-配置 [!DNL Workfront] 将元数据发送到 [!DNL Workfront DAM]:
+進行設定 [!DNL Workfront] 將中繼資料傳送至 [!DNL Workfront DAM]：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
-1. 单击 **[!UICONTROL 文档]** > **[!UICONTROL 元数据映射]**.
+1. 按一下 **[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**.
 
-1. 在 **[!UICONTROL 为映射选择源字段]** 字段中，开始键入要映射到的Workfront字段的名称 [!DNL Workfront DAM]，然后在列表中看到时将其选中。
-1. 在 **[!UICONTROL 选择要映射的目标字段]**，选择 [!DNL Workfront DAM] 要填充的字段中的 [!DNL Workfront] 字段。
+1. 在 **[!UICONTROL 選取要對應的來源欄位]** 欄位，開始輸入您要對應到的Workfront欄位名稱 [!DNL Workfront DAM]，然後在清單中看到該區段時加以選取。
+1. 在 **[!UICONTROL 選擇要對應的目標欄位]**，選取 [!DNL Workfront DAM] 要填入所選欄位中資訊的欄位 [!DNL Workfront] 欄位。
 
    >[!NOTE]
    >
-   > 所有发送到的文档 [!DNL Workfront DAM] 有权执行此操作的用户的元数据将更新为 [!DNL Workfront] 映射到此处的字段，当它们上传到 [!DNL Workfront DAM].
+   > 所有傳送至的檔案 [!DNL Workfront DAM] 如有許可權的使用者，其中繼資料會更新為 [!DNL Workfront] 當欄位上傳至時，會在此處對應欄位 [!DNL Workfront DAM].
 
-1. 单击 **[!UICONTROL 添加映射]**.
+1. 按一下 **[!UICONTROL 新增對應]**.
 
-1. 继续添加更多 [!UICONTROL Workfront] 字段和对应的 [!DNL Workfront DAM] 字段。
+1. 繼續新增更多 [!UICONTROL Workfront] 欄位和對應的 [!DNL Workfront DAM] 欄位。
 
-### 删除映射的字段
+### 刪除對應的欄位
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 按一下 **[!UICONTROL 主要功能表]** 圖示 ![](assets/main-menu-icon.png) 右上角的 [!DNL Adobe Workfront]，然後按一下 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
-1. 展开 **[!UICONTROL 文档]**，然后单击 **[!UICONTROL 元数据映射]**.
+1. 展開 **[!UICONTROL 檔案]**，然後按一下 **[!UICONTROL 中繼資料對應]**.
 
-1. 在字段列表中，选择要从元数据映射中删除的任意字段。
-1. 单击 **[!UICONTROL 删除]**.
+1. 在欄位清單中，選取您要從中繼資料對應中移除的任何欄位。
+1. 按一下 **[!UICONTROL 刪除]**.
 
-   这些字段将从元数据映射中删除，并且其中包含的信息不会传输到 [!DNL Workfront DAM] 上传的文档。
+   欄位會從中繼資料對應中移除，且其中包含的資訊不會傳輸至 [!DNL Workfront DAM] 以及上傳的檔案。
