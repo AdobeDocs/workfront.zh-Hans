@@ -7,7 +7,7 @@ description: 工作流是一组可配置的展示板和信息卡，用于协作�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
+source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 2%
@@ -103,7 +103,7 @@ ht-degree: 2%
 1. 单击 [!UICONTROL **源**] 图标 ![“源”图标](assets/sources-icon.png) 定义将信息卡导入工作流的源。 此时，唯一可用的源是 [!DNL Adobe Workfront].
 1. 添加筛选器以卡片形式从Workfront导入任务和问题。
 
-   为工作流源添加过滤器与为基本展示板或Kanban展示板上的摄取列添加高级过滤器相同。 有关更多信息，请参阅 [向展示板添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   为工作流源添加过滤器与在基本展示板或Kanban展示板上为引入列添加高级过滤器相同。 有关更多信息，请参阅 [向展示板添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## 配置工作流
 
