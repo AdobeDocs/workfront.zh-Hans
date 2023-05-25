@@ -1,36 +1,36 @@
 ---
-title: 23.3版本總覽
-description: 23.3版本總覽
+title: 23.3发行版概述
+description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7fb37ca286649a1556cd0098f6570786eea8a4c1
+source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
 
 ---
 
-# 23.3版本總覽
+# 23.3发行版概述
 
-本頁提供23.3版本預計於2023年7月發行之功能的相關資訊。
+本页介绍了计划于2023年7月发布的23.3版本中包含的功能。
 
-此頁面的增強功能可在預覽環境中取得。 隨著23.3版接近其規劃的生產版本，此頁面將透過其他增強功能進行更新。
+此页面上的增强功能在“预览”环境中可用。 随着23.3版本接近其计划的“生产”版本，此页面将进行额外的增强功能更新。
 
 
 <!-- Keep commented until Final Preview release.
 
 The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
 
-<span class="preview">非週期功能（在23.3發行日期之前發佈到生產環境的功能）會以黃色標示。</span>
+<span class="preview">非周期功能（在23.3发行日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
-## Adobe Workfront增強功能
+## Adobe Workfront增强功能
 
-* [敏捷增強功能](#agile-enhancements)
-* [整合增強功能](#integration-enhancements)
-* [其他增強功能](#other-enhancements)
+* [Agile增强功能](#agile-enhancements)
+* [集成增强功能](#integration-enhancements)
+* [其他增强功能](#other-enhancements)
 
-### 管理員增強功能
+### 管理员增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -42,22 +42,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">發行日期</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">「使用者可在其中記錄時間」時程表和小時偏好設定可用的群組層級控制</a></p>
-                        <p>系統管理員現在可以鎖定和解鎖「使用者可在何處記錄時間」時程表和小時偏好設定。 解鎖此偏好設定時，群組管理員可以為每個群組分別設定「使用者可記錄時間的位置」設定。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">可用于“用户可以在其中记录时间”时间表和小时首选项的组级别控制</a></p>
+                        <p>系统管理员现在可以锁定和解锁“用户可以在此处记录时间”时间表和小时首选项。 解锁此首选项后，组管理员可以为每个组单独配置“用户可以记录时间的位置”设置。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月4日</p>
+                                <p>预览版本： 2023年5月4日</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年5月18日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月18日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -65,7 +65,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-### 敏捷增強功能
+### Agile增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -77,125 +77,125 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">發行日期</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">展示板標籤管理員的增強功能</a></p>
-                        <p>標籤管理員介面已經過改良，可讓您快速建立新標籤並將其套用至卡片。 您也可以為工作串流建立標籤。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">对展示板标记管理器的增强</a></p>
+                        <p>标签管理器界面已得到改进，允许您快速创建新标签并将其应用到信息卡。 您还可以为工作流创建标记。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月19日</p>
+                                <p>预览版本： 2023年5月19日</p>
                             </li>
                             <li>
-                                 <p><span class="preview">生產版本： 2023年5月19日</span></p>
+                                 <p><span class="preview">生产版本： 2023年5月19日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板內輸入欄上可用的簡單篩選器</a></p>
-                        <p>已將簡化篩選器新增至輸入欄設定，讓您更快速地定義輸入欄。 可用的篩選器為團隊或使用者的Workfront專案和指派。 您可以視需要切換至進階篩選器。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">板载摄取列上可用的简单过滤器</a></p>
+                        <p>已将简化的过滤器添加到摄取列设置，以便更快地定义摄取列。 可用的过滤器是按团队或用户列出的Workfront项目和工作分配。 您可以根据需要切换到高级过滤器。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月10日<br /></p>
+                                <p>预览版本： 2023年5月10日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年5月10日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                 <p>提前选择加入的生产版本： 2023年5月10日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</span></p>
+                                <p>适用于所有客户的生产版本：使用23.3版本</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">將簡單篩選器新增到動態展示板範本</a></p>
-                        <p>動態展示板範本上的篩選器已經過簡化，讓您能夠更快速地建立展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">已将简单筛选器添加到动态展示板模板</a></p>
+                        <p>动态展示板模板上的过滤器已经过简化，使您能够更快地创建展示板。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月27日<br /></p>
+                                <p>预览版本： 2023年4月27日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                 <p>提前选择加入的生产版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</span></p>
+                                <p>适用于所有客户的生产版本：使用23.3版本</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">動態展示板範本</a></p>
-                        <p>新的範本「動態主機板」現在可用於獨立主機板。 此範本不適用於工作流程內的展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">动态展示板模板</a></p>
+                        <p>新模板“动态展示板”现在可用于独立展示板。 此模板不适用于工作流内的展示板。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月20日<br /></p>
+                                <p>预览版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                 <p>提前选择加入的生产版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</span></p>
+                                <p>适用于所有客户的生产版本：使用23.3版本</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">將敏捷團隊Kanban卡片移轉至展示板</a></p>
-                        <p>新 <b>新增到展示板</b> 敏捷團隊看板上的按鈕可讓您將所有看板卡從Kanban看板新增到Workfront看板。 您可以選擇建立新的Workfront展示板，或將卡片新增至現有展示板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">将Agile团队Kanban卡迁移到展示板</a></p>
+                        <p>新 <b>添加到讨论区</b> 敏捷团队Kanban展示板上的按钮允许您将Kanban展示板中的所有信息卡添加到Workfront展示板。 您可以选择创建新的Workfront展示板或将信息卡添加到现有展示板。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月20日<br /></p>
+                                <p>预览版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                 <s><p>提前選擇加入的生產版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</span></p></s>
+                                 <s><p>提前选择加入的生产版本： 2023年4月28日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</span></p></s>
                                  </li>
                                  <li>
-                                <p><span class="preview">適用於所有客戶的生產版本： 2023年5月18日</span></p>
+                                <p><span class="preview">适用于所有客户的生产版本： 2023年5月18日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">左側導覽已新增到展示板上的卡片詳細資訊</a></p>
-                        <p>隨著更多欄位選項新增到Workfront展示板上的卡片，卡片的詳細資訊會變得更長。 卡片詳細資料左側的新導覽面板可讓您選取區段並自動移至該欄位群組。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">左侧导航已添加到展示板上的信息卡详细信息</a></p>
+                        <p>由于向Workfront展示板上的信息卡添加了更多字段选项，信息卡详细信息会增长得更长。 卡片详细信息左侧的新导航面板允许您选择部分并自动移动到该字段组。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月20日<br /></p>
+                                <p>预览版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">適用於所有客戶的生產版本： 2023年4月27日</span></p>
+                                <p><span class="preview">适用于所有客户的生产版本： 2023年4月27日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">看板電子郵件通知和偏好設定</a></p>
-                        <p>Adobe Workfront面板現在提供電子郵件通知。 通知預設為開啟，您可以在偏好設定中選取要接收的電子郵件。 當您新增至展示板以及指派卡片給您時，您將會收到電子郵件。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">讨论区电子邮件通知和首选项</a></p>
+                        <p>现在为Adobe Workfront展示板提供了电子邮件通知。 默认情况下，通知处于打开状态，您可以在首选项中选择希望接收的电子邮件。 将您添加到展示板以及将信息卡分配给您时，您将收到一封电子邮件。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月13日<br /></p>
+                                <p>预览版本： 2023年4月13日<br /></p>
                             </li>
                             <li>
-                                 <p>提前選擇加入的生產版本： 2023年4月13日 <span style="color: #ff0000;"> 此功能只能透過Workfront展示板的早期功能選擇加入在生產環境中使用。</p>
-                                <p>適用於所有客戶的生產版本：透過23.3版本</p>
+                                 <p>提前选择加入的生产版本： 2023年4月13日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</p>
+                                <p>适用于所有客户的生产版本：使用23.3版本</p>
                             </li>
                         </ul>
                     </td>
@@ -203,7 +203,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-### 整合增強功能
+### 集成增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -215,70 +215,70 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">發行日期</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結資料夾至Adobe Experience Manager資產</a><span style="color: #ff0000;"> 生產中的新功能！</span></p>
-                        <p>透過Adobe Experience Manager整合的全新建立連結資料夾工作流程，您可以透過Adobe Experience Manager Assets資料夾的路徑設定整合。 將整合新增至專案範本時，從範本建立的任何專案都會在指定資料夾的Experience Manager Assets中自動建立連結的子資料夾。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接文件夹到Adobe Experience Manager Assets</a><span style="color: #ff0000;"> 生产中的新增功能！</span></p>
+                        <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月11日</p>
+                                <p>预览版本： 2023年5月11日</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年5月18日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月24日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位值對應至Experience Manager Assets中的標籤</a></p>
-                        <p>現在，您可以根據Workfront的資料進行分類並快速尋找資產。 您可以在Workfront中將此資料對應為Experience Manager Assets整合中繼資料設定的一部分。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段值映射到Experience Manager Assets中的标记</a></p>
+                        <p>现在，您可以根据Workfront中的数据分类并快速查找资源。 您可以在Workfront for Experience Manager Assets集成中将此数据映射为元数据配置的一部分。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月10日</p>
+                                <p>预览版本： 2023年5月10日</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年5月10日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月10日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">將Workfront欄位對應至自訂Experience Manager Assets中繼資料欄位</a></p>
-                        <p>透過原生整合，您現在可以將原生和內建Workfront欄位對應到Experience Manager Assetsas a Cloud Service中的自訂中繼資料結構描述欄位。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">将Workfront字段映射到自定义Experience Manager Assets元数据字段</a></p>
+                        <p>通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年5月10日</p>
+                                <p>预览版本： 2023年5月10日</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年5月10日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月10日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront進行Creative Cloud以調整自動化校樣工作流程範本設定</a></p>
-                        <p>您現在可以直接在Creative Cloud中調整現有的自動化工作流程範本設定。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">使用Adobe Workfront调整自动验证工作流模板设置以进行Creative Cloud</a></p>
+                        <p>您现在可以直接在Creative Cloud中调整现有的自动工作流模板设置。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月27日</p>
+                                <p>预览版本： 2023年4月27日</p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年4月27日</span></p>
+                                <p><span class="preview">生产版本： 2023年4月27日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -286,7 +286,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-### 其他增強功能
+### 其他增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -298,55 +298,55 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">發行日期</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">沒有頭像的設定檔現在會顯示使用者首字母</a></p>
-                        <p>為了更方便在大型清單中尋找特定使用者，沒有自訂頭像的設定檔現在會在清單和舊版報表中以彩色背景顯示使用者的縮寫。 這是微幅的裝飾變更，若已使用頭像像片或使用者已停用，則不適用。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">没有头像的配置文件现在会显示用户缩写</a></p>
+                        <p>为了更便于在大型列表中查找特定用户，没有自定义头像的用户档案现在在列表和旧版报表中以彩色背景显示用户的缩写。 这是一个较小的外观更改，如果已在使用头像照片或用户已停用，则不适用。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本： 2023年4月20日<br /></p>
+                                <p>预览版本： 2023年4月20日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本： 2023年5月4日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月4日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3版本發行時間範圍內的外觀更新</a></p>
-                        <p>在23.3版發行時間範圍內，我們對Adobe Workfront應用程式的各個區域外觀和感覺進行了小幅更新。 這些增強功能將在發佈到「預覽」後至少2週內可在「生產」環境中使用。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在23.3版本发布时间范围内的外观更新</a></p>
+                        <p>在23.3版本发布时间范围内，对Adobe Workfront应用程序各个区域的外观和感觉进行了小幅更新。 这些增强功能将在发布到“预览”状态后至少2周内在“生产”环境中提供。 </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本：在整個23.3版本時間範圍內<br /></p>
+                                <p>预览版本：在整个23.3版本发布时间范围内<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生產發行：發行至預覽後至少2週（除非另有指定）</span></p>
+                                <p><span class="preview">生产版本：发布到预览后至少2周（除非另有指定）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新的評論Beta版體驗增強功能</a></p>
-                        <p>「更新」區段的增強功能將在23.3發行時間範圍內提供新的評論測試版體驗。 除非另有指定，否則這些增強功能將在23.3版本的生產環境中提供。 
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新增评论测试版体验增强功能</a></p>
+                        <p>对“更新”部分的增强功能将在新的注释测试版体验的23.3发行时间范围内提供。 除非另有说明，否则这些增强功能将在23.3版本的生产环境中提供。 
  </p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>預覽版本：在整個23.3版本時間範圍內<br /></p>
+                                <p>预览版本：在整个23.3版本发布时间范围内<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生產版本：23.3版（除非另有指定）</span></p>
+                                <p><span class="preview">生产版本：随23.3版一起提供（除非另有说明）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -356,37 +356,37 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## 公告
 
-### Workfront Fusion增強功能
+### Workfront Fusion增强
 
-Workfront Fusion中的新功能可在23.3版發行排程以外的生產環境中使用。 如需最新功能的詳細資訊，請參閱 [Adobe Workfront Fusion發行活動](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新增功能在23.3版本发行计划以外的版本周期内推出。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion发行版活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### Workfront情境規劃工具增強功能
+### Workfront Scenario Planner增强
 
-此發行版本中目前沒有Scenario Planner更新。 在有可用更新時，此區域將會更新。
+在发行版中的此阶段，没有Scenario Planner更新。 在有可用更新时，将更新此区域。
 
-### Workfront校訂增強功能
+### Workfront Proof增强功能
 
-在23.3發行時間範圍內推出Workfront Proof版本的新功能。 如需有關這些現在可在「預覽」中使用的新功能的資訊，請參閱 [23.3版的Adobe Workfront校訂](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
+在23.3发行时间范围内发布Workfront Proof的新增功能。 有关这些现在可在“预览”中使用的新功能的信息，请参阅 [23.3版的Adobe Workfront Proof](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
-### Workfront目標增強功能
+### Workfront目标增强功能
 
-Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需有關這些現在可在「預覽」中使用的新功能的資訊，請參閱 [23.3版的Adobe Workfront目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
+Workfront Goals发布的新功能将在23.3版本发布时间范围内发布。 有关这些现在可在“预览”中使用的新功能的信息，请参阅 [Adobe Workfront 23.3版本的目标](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
-### API 16版
+### API版本16
 
-針對API版本16，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+对于API版本16，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-如需新增功能和更新的詳細資訊，請參閱 [API 16版的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+有关新增功能和更新的信息，请参阅 [API版本16中的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-如需API版本的詳細資訊，請參閱 [API版本設定和支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront 维护更新
 
-如需22.3版期間所進行維護更新的相關資訊，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+有关22.3版本中进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### 訓練更新
+### 培训更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱 [訓練版本更新頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 欲了解更多信息，请参见 [培训版本更新页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 
