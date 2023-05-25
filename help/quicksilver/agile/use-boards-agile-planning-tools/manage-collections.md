@@ -2,29 +2,29 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: 管理工作流程
-description: 工作流程是一組可設定的展示板和卡片，用於合作處理工作。
+title: 管理工作流
+description: 工作流是一组可配置的展示板和信息卡，用于协作处理工作。
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
-# 管理工作流程
+# 管理工作流
 
-工作流程是一組可設定的展示板和卡片，用於合作處理工作。 工作串流可包含從範本建立的不同型別的展示板，以及工作專案的卡片清單。 在工作流程中，您可以追蹤反複專案或衝刺中的工作。
+工作流是一组可配置的展示板和信息卡，用于协作处理工作。 工作流可以包含从模板创建的不同类型的展示板和工作项的卡片列表。 在工作流中，您可以跟踪迭代或冲刺中的工作。
 
-如需詳細資訊，請參閱 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 和 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-工作串流會連同您有權存取的個別面板（不屬於工作串流）一起顯示在控制面板上。 有關面板儀表板的資訊，請參閱 [使用面板儀表板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以按一下圖示板上的任何電路板名稱來開啟它。
+在仪表板上显示工作流，以及您有权访问的不属于工作流的各个展示板。 有关展示板仪表板的信息，请参阅 [使用展示板功能板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以单击操控板上的任意展示板名称以将其打开。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,80 +34,88 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
    <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 建立工作流程
+## 创建工作流
 
 {{step1-to-boards}}
 
-1. 按一下 **[!UICONTROL 新增工作流程]** 在 [!UICONTROL 工作串流] 圖示板區域。
-1. 輸入名稱以取代 **[!UICONTROL 未命名工作流程]** 並按Enter。
+1. 单击 **[!UICONTROL 添加工作流]** 在 [!UICONTROL 工作流] 仪表板区域。
+1. 键入要替换的名称 **[!UICONTROL 无标题工作流]** 并按Enter。
 
-   您可以將面板新增至工作流程或按一下 [!UICONTROL **所有展示板**] 以返回控制面板。
+   您可以将展示板添加到工作流中或单击 [!UICONTROL **所有讨论区**] 以返回到仪表板。
 
-## 在工作串流中建立新展示板
+## 在工作流中创建新展示板
 
-1. 如果您尚未在工作流程中，請按一下 [!UICONTROL **檢視工作流程**] ，以開啟現有的工作流程。
-1. 按一下 **[!UICONTROL 新增展示板]** 於 [!UICONTROL 展示板] 工作流程的索引標籤。
-1. 選取展示板的範本。
+1. 如果您尚未在工作流中，请单击 [!UICONTROL **查看工作流**] ，以打开现有的工作流。
+1. 单击 **[!UICONTROL 添加展示板]** 在 [!UICONTROL 讨论区] 工作流选项卡。
+1. 为展示板选择模板。
 
 | 模板 | 描述 |
 |---------|----------|
-| 基本展示板 | 展示板上提供了三個預設欄。 您可以新增欄並重新命名或刪除預設欄。 <p>未套用任何欄原則。 |
-| Kanban 展示板 | 展示板上提供下列欄位：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您可以新增欄並重新命名或刪除預設欄。<p>若要使用待處理專案，您必須為輸入欄設定篩選器。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>若要複查每欄的預設原則，請按一下 [!UICONTROL **更多** 功能表] 在欄上並選取 [!UICONTROL **編輯**]. 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| 回顾展示板 | 展示板上提供下列欄：哪些專案進展順利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 您可以新增欄並重新命名或刪除預設欄。 <p>未套用任何欄原則。 |
-| 迭代过程 | 這是用來定義和執行疊代的展示板。 <p>展示板上提供下列欄位：「待處理專案」、「新增」、「進行中」、「完成」和「保留」。 您無法將任何欄新增到展示板中。 <p>若要複查每欄的預設原則，請按一下 [!UICONTROL **更多**] 功能表並選取 [!UICONTROL **編輯**]. 您可以變更這些預先設定原則中的任何一項。 如需詳細資訊，請參閱 [管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| 基本展示板 | 展示板上提供了三个默认列。 可以添加新列，也可以重命名或删除缺省列。 <p>未应用任何列策略。 |
+| Kanban 展示板 | 展示板上提供了以下列：“积压”、“新建”、“进行中”、“完成”和“暂停”。 可以添加新列，也可以重命名或删除缺省列。<p>要使用积压，必须为引入列设置过滤器。 有关信息，请参阅 [向展示板添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的默认策略，请单击 [!UICONTROL **更多** 菜单] 在列上并选择 [!UICONTROL **编辑**]. 您可以更改这些预设策略中的任何一个。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| 回顾展示板 | 展示板上提供了以下列：哪些方面进展顺利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 可以添加新列，也可以重命名或删除缺省列。 <p>未应用任何列策略。 |
+| 迭代过程 | 这是用于定义和运行小版本的展示板。 <p>展示板上提供了以下列：“积压”、“新建”、“进行中”、“完成”和“暂停”。 不能向展示板添加任何列。 <p>要查看每列的默认策略，请单击 [!UICONTROL **更多**] 列上的菜单并选择 [!UICONTROL **编辑**]. 您可以更改这些预设策略中的任何一个。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-如需設定主機板的詳細資訊，請參閱 [建立或編輯展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+有关设置讨论区的详细信息，请参阅 [创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-## 篩選工作流程上的展示板清單
+## 过滤工作流中的讨论区列表
 
-當預設值以外的篩選器套用到電路板清單上時，篩選器圖示上會顯示一個指示器 ![已套用篩選器](assets/boards-filterapplied-30x30.png). 按一下 [!UICONTROL **全部清除**] 以移除所有篩選器，然後按一下 [!UICONTROL **隱藏篩選器**] 以關閉篩選面板。
+当电路板列表应用除默认值以外的过滤器时，过滤器图标上会显示一个指示符 ![已应用筛选器](assets/boards-filterapplied-30x30.png). 单击 [!UICONTROL **全部清除**] 以删除所有筛选器，然后单击 [!UICONTROL **隐藏筛选器**] 以关闭过滤器面板。
 
 {{step1-to-boards}}
 
-1. 在控制面板上，按一下 [!UICONTROL **檢視工作流程**] 以開啟工作流程。
-1. 按一下 [!UICONTROL **展示板**] 標籤（如果尚未顯示）。
-1. 按一下 [!UICONTROL **篩選**].
-1. 選取您要依狀態檢視的面板（已封存的面板、作用中的面板或所有面板）。
-1. 選取您要依範本檢視的面板。
+1. 在功能板上，单击 [!UICONTROL **查看工作流**] 以打开工作流。
+1. 单击 [!UICONTROL **讨论区**] 选项卡。
+1. 单击 [!UICONTROL **筛选条件**].
+1. 按状态选择要查看的展示板（已存档展示板、活动展示板或所有展示板）。
+1. 选择要按模板查看的展示板。
 
-## 將成員新增至工作流程
+## 将成员添加到工作流
 
-必須先將人員和團隊作為成員新增到工作流程中，他們才能檢視工作流程及其內容。 工作流程成員可以新增和移除工作流程上的成員，並檢視哪些面板在工作流程中。
+必须将人员和团队作为成员添加到工作流中，然后才能查看工作流及其内容。 工作流成员可以在工作流中添加和移除成员，并查看哪些展示板位于工作流中。
 
 >[!NOTE]
 >
->工作流程成員必須先新增為該特定展示板的成員，才能開啟工作流程上的展示板。
+>在工作流成员作为成员添加到该特定展示板之前，他们无法在工作流上打开展示板。
 
 {{step1-to-boards}}
 
-1. 在控制面板上，按一下 [!UICONTROL **檢視工作流程**] 以開啟工作流程。
-1. 按一下 **[!UICONTROL 新增成員]** 圖示 ![新增成員](assets/boards-addmember-spectrum-25x25.png) 將成員和團隊新增至工作流程。
+1. 在功能板上，单击 [!UICONTROL **查看工作流**] 以打开工作流。
+1. 单击 **[!UICONTROL 添加成员]** 图标 ![添加成员](assets/boards-addmember-spectrum-25x25.png) 将成员和团队添加到工作流。
 
-   此程式與將成員新增至展示板的程式相同。 如需詳細資訊，請參閱 [從展示板新增或移除成員](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+   此过程与向展示板添加成员相同。 有关更多信息，请参阅 [在讨论区中添加或移除成员](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-## 設定工作流程
+## 将源添加到工作流
+
+源确定工作流中信息卡的来源。
 
 {{step1-to-boards}}
 
-1. 在控制面板上，按一下 [!UICONTROL **檢視工作流程**] 以開啟工作流程。
-1. 按一下 [!UICONTROL **設定**] 以開啟 [!UICONTROL 設定工作流程] 面板。
-1. （選用）輸入工作資料流的說明。 此說明會顯示在控制面板上。
-1. （選用）將標籤新增至工作流程。 如需詳細資訊，請參閱 [新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. 单击 [!UICONTROL **源**] 图标 ![“源”图标](assets/sources-icon.png) 定义将信息卡导入工作流的源。 此时，唯一可用的源是 [!DNL Adobe Workfront].
+1. 添加筛选器以卡片形式从Workfront导入任务和问题。
 
-   卡片總數、所指向的卡片數以及反複專案數都會顯示在「卡片清單」區段中。 按一下 [!UICONTROL **檢視清單**] 以開啟清單並新增卡片。 如需詳細資訊，請參閱 [使用卡片清單](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   为工作流源添加过滤器与为基本展示板或Kanban展示板上的摄取列添加高级过滤器相同。 有关更多信息，请参阅 [向展示板添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-   如果已定義版序，則會顯示其開始日期、卡片數和點數。 按一下 [!UICONTROL **檢視反複專案展示板**] 以開啟展示板。 如需詳細資訊，請參閱 [在工作串流中建立反複專案](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+## 配置工作流
 
-1. 按一下 [!UICONTROL **新增來源**] 以定義將卡片匯入工作資料流的來源。 目前，唯一可用的來源為 [!DNL Adobe Workfront].
-1. 新增篩選器以卡片形式從Workfront匯入任務和問題。
+{{step1-to-boards}}
 
-   為工作流程來源新增篩選器與為基本展示板或Kanban展示板上的輸入欄新增篩選器相同。 如需詳細資訊，請參閱 [將輸入欄新增到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. 在功能板上，单击 [!UICONTROL **查看工作流**] 以打开工作流。
+1. 单击 [!UICONTROL **配置**] 以打开 [!UICONTROL 配置工作流] 面板。
+1. （可选）展开 [!UICONTROL **工作流**] 并键入工作流的描述。 此描述显示在仪表板上。
+1. （可选）展开 [!UICONTROL **迭代**] 以为此工作流定义迭代进程。
+
+   信息卡总数、指向的信息卡数和迭代数都显示在“信息卡列表”部分。 单击 [!UICONTROL **查看列表**] 以打开列表并添加卡片。 有关更多信息，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+
+   如果已定义迭代，则会显示其开始日期、卡片数和点数。 单击 [!UICONTROL **查看展示板**] 以打开开发周期展示板。 有关更多信息，请参阅 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
+1. （可选）展开 [!UICONTROL **标记**] 以将标记添加到工作流。 搜索标记，或在搜索框中键入新标记名称，然后按Enter创建标记。
