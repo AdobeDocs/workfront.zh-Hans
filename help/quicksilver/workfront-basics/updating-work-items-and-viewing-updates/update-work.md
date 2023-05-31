@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新工作
-description: 您可以对Adobe Workfront对象（项目、任务或问题）添加更新，以告知对象的进度。 为对象分配或订阅了该对象的用户可以查看您的更新。 您还可以标记用户以引起用户对更新的注意。
+description: 您可以对Adobe Workfront对象（项目、任务或问题）添加更新，以传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3151'
 ht-degree: 1%
 
 ---
@@ -21,40 +21,40 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->我们当前正在重新设计在Adobe Workfront中的注释体验。
+>我们目前正在重新设计Adobe Workfront中的评论体验。
 >
->有关新评论体验的更多信息，请参阅 [新的注释体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 在启用注释测试版时出现问题。
+> * 问题， <!--<span class="preview">projects, tasks, and documents</span>,--> 启用备注测试版时。
    >
-   >     此功能仅适用于问题的“更新”部分，不适用于以下区域：
+   >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
    >     * 主页
-   >     * 列表中的“摘要”面板
-   >     * 工时单中的“摘要”面板
+   >     * 列表中的摘要面板
+   >     * 时间表中的“摘要”面板
 >
 > * 目标
 
    >
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront Goals。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-您可以在更新部分中向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”(Updates)部分的详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以在对对象进行注释时，对Workfront对象（项目、任务或问题）添加更新，以告知该对象的进度。 为对象分配或订阅了该对象的用户可以查看您的更新。 您还可以标记用户以引起用户对更新的注意。 标记用户会收到有关您更新的应用程序内通知和电子邮件。
+您可以对Workfront对象（项目、任务或问题）添加更新，以在对象上添加注释时传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。 标记的用户会收到应用程序内通知和一封关于您更新的电子邮件。
 
-本页中的信息介绍了如何对Workfront对象进行注释，以及如何更新项目、任务和问题。 有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须拥有其他许可证才能访问Workfront Goals。
+本页上的信息介绍了如何评论Workfront对象以及如何更新项目、任务和问题。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须拥有其他许可证才能访问Workfront目标。
 
 
-您可以从Workfront的以下区域添加对项目、任务和问题的更新：
+您可以从Workfront的以下区域向项目、任务和问题添加更新：
 
-* 从Workfront对象的Updates部分中
-* 从“主页”区域（针对任务和问题）
-* 从对象列表的“摘要”面板（针对任务和问题）
-* 从时间表（任务和问题）
+* 从Workfront对象，在更新部分
+* 从主页区域（用于任务和问题）
+* 从“摘要”面板中的对象列表（用于任务和问题）
+* 从时间表（用于任务和问题）
 
 ## 访问要求
 
@@ -90,7 +90,7 @@ drafted for P&P release:
  </tbody> 
 </table>
 -->
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,39 +104,39 @@ drafted for P&P release:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>（二）对问题和文件提出要求或更高要求；对所有其他对象进行审阅或更高版本</p> </td> 
+   <td> <p>对于问题和文档，请求或更高版本；对于所有其他对象，审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
    <td> <p>查看或编辑更新所在对象的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 向工作项添加更新
 
 <!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
-对工作项添加更新的方式会有所不同，具体取决于“更新”部分的哪个版本以及您选择的对象。
+向工作项添加更新会因更新部分的版本以及您选择的对象而异。
 
-### 在当前更新部分中为工作项添加更新
+### 在当前更新分区中为工作项添加更新
 
 >[!NOTE]
 >
->以下功能适用于除目标之外的所有对象。 您必须拥有其他许可证才能访问Workfront Goals。 有关对目标进行评论的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)
+>以下功能适用于目标以外的所有对象。 您必须拥有其他许可证才能访问Workfront目标。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)
 
-1. 转到要为其提供更新的工作项（例如项目、任务或问题）。
-1. 单击 **更新** 中。
-1. 单击 **开始新更新，** 然后键入更新。
-1. （可选）使用富文本，或向更新中添加表情符号、链接或图像，以增强您的内容。 有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 本文章节
+1. 转到要为其提供更新的工作项（如项目、任务或问题）。
+1. 单击 **更新** 部分。
+1. 单击 **开始新的更新，** 然后键入您的更新。
+1. （可选）使用富文本或在更新中添加表情符号、链接或图像来增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节
 1. （可选）更新有关工作项的以下任何信息：
 
    <table style="table-layout:auto"> 
@@ -145,29 +145,29 @@ drafted for P&P release:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>通知</strong></td> 
-      <td>确定必须收到更新通知的用户。 为对象分配或订阅的用户在进行更新时会自动接收通知。<br><p>有关如何在更新中包含其他用户的信息，请参阅 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新时标记其他人</a>.</p></td> 
+      <td>确定必须收到更新通知的用户。 进行更新时，分配给或订阅对象的用户会自动收到通知。<br><p>有关如何将其他人包含在更新中的信息，请参阅 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>提交日期</strong></td> 
-      <td>在日期选取器中，选择完成工作项的提交日期。 有关提交日期的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>.</td> 
+      <td>在日期选取器中，选择您提交以完成工作项的日期。 有关提交日期的信息，请参见 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>完成情况</strong></td> 
-      <td>为任务或问题选择新条件。 有关选择条件的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">任务和问题的更新条件</a>.</td> 
+      <td>为任务或问题选择新条件。 有关选择条件的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任务和问题的条件</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>状态</strong></td> 
-      <td>单击当前状态旁边的箭头，然后从下拉菜单中选择所需的状态。 有关设置状态的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a>.<p>更新工作项的状态不会自动更改项目的状态。 根据项目的设置方式，您必须单独对项目状态进行更新。 有关各种项目更新类型的更多信息，请参阅 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">选择项目更新类型 </a>.</p><p><b>注释</b>
+      <td>单击当前状态旁边的箭头，然后从下拉菜单中选择所需的状态。 有关设置状态的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a>.<p>更新工作项的状态不会自动更改项目的状态。 根据项目的设置方式，您可能必须单独更新项目状态。 有关各种项目更新类型的更多信息，请参阅 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">选择项目更新类型 </a>.</p><p><b>注释</b>
 
-   当工作项目处于“待批准”状态时，您无法更改其状态。</p></td>
+   当工作项处于未决批准状态时，您无法更改其状态。</p></td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>完成栏</strong></td> 
-      <td>（仅适用于任务）通过将进度条滑动到所需百分比来指示已完成的工作百分比。 您还可以双击完成栏并输入完成百分比。</td> 
+      <td>（仅在任务中可用）通过将进度条滑动到所需的百分比来指示已完成工作的百分比。 您还可以双击完成栏并输入完成百分比。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>我的公司私有</strong></td> 
-      <td> <p>禁用此选项，可阻止公司外的用户有权查看此更新。</p> 
+      <td> <p>禁用此选项可阻止公司外部的用户查看此更新。</p> 
       <p><b>注释</b></p>
       <p>仅当用户与公司关联时，才会显示此选项。</p>
       </td> 
@@ -179,28 +179,28 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >单击后，将显示一个小弹出窗口7秒 **更新**，允许您在发布更新之前撤消更新并返回到编辑窗格。 如果您关闭撤消弹出窗口，等待其消失或导航离开页面，则将发布更新。
+   >单击后会显示一个小型弹出窗口，持续七秒 **更新**，允许您在发布更新之前撤消更新并返回编辑窗格。 如果您关闭撤消弹出窗口、等待其消失或导航离开页面，则会发布更新。
    >
-   >如果Workfront管理员在您的访问级别中选择了“绝不允许用户删除评论”设置，则无法撤消评论。 有关更多信息，请参阅 [创建和修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >如果您的Workfront管理员在访问级别选择“从不允许用户删除评论”设置，则无法撤消评论。 有关更多信息，请参阅 [创建和修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. 要回复更新，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. 要回复更新，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### 使用注释测试版体验向工作项添加更新
+### 使用备注测试版体验向工作项添加更新
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
-1. 单击  **更新** 中。
-1. 启用 **评论测试版** 在“更新”区域的右上角切换，然后单击 **同意** 测试版协议。 这会将“更新”区域切换为注释测试版体验。
-的 **评论** 选项卡。
-1. 开始在 **新建注释** 框中。
+1. 单击  **更新** （在左侧面板中）。
+1. 启用 **评论Beta版** 在“更新”区域的右上角进行切换，然后单击 **同意** 在Beta版协议上。 这会将“更新”区域切换到备注测试版体验。
+此 **注释** 选项卡默认处于选中状态。
+1. 开始在 **新建评论** 盒子。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前，导航到“更新”部分，会将页面上的评论保留为草稿模式，即使在注销并重新登录之后也是如此。 添加到评论的任何图像也会保存在草稿中。 草稿将保存7天，之后将被丢弃，无法恢复。 草拟注释仅对输入这些注释的用户可见。
+   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 添加到注释中的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
-1. （可选）在 **标记人员或团队** 区域，开始键入用户或要包含在此评论中的团队的名称或电子邮件，然后在列表中显示时选择该名称或电子邮件。
-1. （可选）要向更新添加富文本格式，请在 **富文本** 工具栏来增强文本：
+1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
+1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏来增强文本：
 
    * 粗体
    * 斜体
@@ -210,31 +210,33 @@ drafted for P&P release:
    * 编号列表
    * 添加附件 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。 <!--remove this list, above, when we get to parity for Rich Text-->
+   欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。 <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
-   >如果其他用户将评论提交到您正在更新的同一项目，则会有一条带有“New”（新建）指示符的红线，用于通知您较新的评论。
+   >如果另一个用户向您正在更新的同一项目提交评论，则会显示一条带“新”指示器的红线，以告知您较新的评论。
    >
-   >只有在对项目提交评论后，才会显示指示器，而在仍在撰写评论时，才会显示指示器。
+   >指示符仅在提交项目的评论之后显示，而不会在评论仍处于撰写状态时显示。
    >
-   >仅当输入了新更新的用户以及当前正在输入更新的用户都使用了新的注释体验时，才会显示“新建”指示器。
+   >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 
 1. 单击 **提交** 将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 在“称赞”图标的右侧，单击 **编辑**.
-1. 编辑评论中的信息、添加或删除图像或删除任何已标记的用户。
-提交评论后，您可以在15内对其进行编辑。 “已编辑”指示器会添加到更新评论时显示的日期戳的左侧。
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 单击“赞”图标右侧，然后单击 **编辑**.
+1. 编辑评论中的信息，添加或删除图像，或者删除任何已标记的用户。
+您可以在15分钟内通过提交评论来编辑评论。 “已编辑”指示符将添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   只有在您提交原始更新时，才会生成一封电子邮件，通知用户您的更新。 编辑更新后，不会生成任何电子邮件。
+   >* 仅当提交原始更新时，才会生成电子邮件通知用户您的更新。 编辑更新后不会生成电子邮件。
+   >* 评论旁边的日期戳是原始评论的日期，而不是上次编辑的日期。
 
-1. （可选）单击 **回复** 要回复现有评论，请执行上述步骤4-7。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [更新回复](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. （视情况而定和可选）如果其他用户添加了注释，这些注释会在“更新”部分的可见区域之外显示，请单击 **查看** 在蓝色里面 **新建评论横幅** 来显示这些注释。
+
+1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤4至7操作。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （有条件和可选）如果其他用户添加了显示在更新部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -242,20 +244,20 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >   仅当输入新更新的用户以及当前正在查看更新部分的用户都使用新的注释体验时，才会显示“新注释”指示器和“查看”按钮。
+   >   “新注释”指示器和“查看”按钮仅在进入新更新的用户以及当前查看更新分区的用户都使用新注释体验时显示。
 
 
-1. （可选）单击 **赞** 图标![](assets/like-icon.png). 该图标会随称赞次数而更新。
-1. （视情况而定和可选）如果您在评论中包含其他人员，请单击更新中包含的成员数，以显示您输入的评论与之共享的实体列表。
+1. （可选）单击 **点赞** 图标![](assets/like-icon.png). 图标会随喜欢的数量而更新。
+1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. （可选）单击 **系统活动** 选项卡查看系统记录的更新。 更新对象或其任何子项后，Workfront会生成有关该更新的注释，并将其显示在系统活动选项卡中。
+1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子对象时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
    有关详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
-   >您无法向系统更新添加注释。
+   >您无法将注释添加到系统更新。
 
 
 ## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
@@ -264,83 +266,83 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->富文本工具栏中的某些选项可能不适用于评论测试版体验。
+>富文本工具栏中的某些选项可能不适用于注释测试版体验。
 
 您可以使用富文本或向其添加各种项目（如表情符号、链接或图像）来增强更新。
 
-1. 转到更新区域，然后开始键入评论。
-1. （可选）要向更新添加富文本格式，请在 **富文本** 工具栏。
+1. 转到更新区域并开始键入评论。
+1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏。
 
    | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
    | 粗体 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开创建链接或添加链接框，请执行以下操作：⌘+K</br> <br>在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：⌘+V</br> | <br>要打开创建链接或添加链接框，请执行以下操作：Ctrl+K</br> <br>在评论测试版体验中，要将链接粘贴到所选文本上，请执行以下操作：Ctrl+V</br> |
+   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：⌘+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上： ⌘+V</br> | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：Ctrl+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上：Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
-   要停止格式化文本，请取消选择 **富文本** 工具栏。
+   要停止设置文本格式，请取消选择 **富文本** 工具栏。
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
-   >* 格式设置还会显示在用户收到的包含您更新的任何电子邮件通知中。
-   >* 在“更新”选项卡中查看更新时，应用于电子邮件中更新的富文本格式不会显示在更新中。
-   >* 如果贵组织将Workfront与Internet Explorer结合使用，则粘贴到更新中的任何带格式的文本都将丢失其富文本格式，并显示为纯文本。 您可以使用富文本工具栏上的属性重新设置文本格式。
-   >* 对于在“时间表”区域进行的更新，或在报表中查看的“备注”和“最后条件”对象，富文本格式不可用。
+   >* 用户收到的任何包含您更新的电子邮件通知中也会显示格式。
+   >* 在“更新”选项卡中查看更新时，应用于电子邮件中更新的富文本格式不会显示在更新上。
+   >* 如果您的组织将Workfront与Internet Explorer结合使用，则粘贴到更新中的任何格式化文本都将丢失其富文本格式并显示为纯文本。 您可以使用“富文本”工具栏上的属性来重新设置文本格式。
+   >* 富文本格式不适用于在时间表区域中所做的更新，也不适用于在报表中查看的注释和上一个条件对象。
 
 
-1. （可选）如果要包含来自先前更新或来自其他来源的文本，并将其与您自己的更新区分开，则可将其标记为“块引用”。 单击 **块报价** 图标 ![](assets/block-quote-small.png) 然后键入要引用的文本。 带引号的文本显示为垂直灰线。 单击 **块报价** 图标，以恢复正常格式。
+1. （可选）如果要包含来自先前更新或其他来源的文本，并将其与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线标记显示。 单击 **块引用** 图标，以返回正常格式。
 
    ![](assets/block-quote-marked-350x144.png)
 
-1. （可选）将表情符号添加到更新中。
+1. （可选）将表情符号添加到您的更新中。
 
    >[!NOTE]
    >
-   >* Workfront不会将标点符号（如：）替换为表情符号。
-   >* 对于在“时间表”区域进行的更新，或在报表中查看的“备注”和“最后条件”对象，不提供表情符号。
-   >* Workfront中的表情符号功能利用Unicode字符，因此，仅在支持Unicode代码点的浏览器和操作系统上显示。 与您的平台、浏览器或操作系统版本不同的用户可能无法访问相同的表情符号。
-   >* 不支持的表情符号由黑框或白框表示。
+   >* Workfront不会将标点符号表情符号（例如：）替换为表情符号。
+   >* 表情符号不适用于时间表区域中所做的更新，也不适用于报告中查看的注释和上一个条件对象。
+   >* Workfront中的表情符号功能利用Unicode字符，因此，仅在支持Unicode代码点的浏览器和操作系统上显示。 平台、浏览器或操作系统版本与您的版本不同的用户可能无法访问相同的表情符号。
+   >* 不支持的emoji由黑白框表示。
    >* Windows 7仅支持黑白表情符号。
-   >* 在“更新”区域查看更新时，应用于通过电子邮件进行的更新的表情符号不会显示在更新中。
+   >* 在更新区域查看时，应用到通过电子邮件进行的更新的表情符号不会显示在更新上。
 
 
 1. （可选）要添加指向其他信息源的URL链接，请执行以下操作：
 
-   1. 在要插入链接的更新中单击。
-   1. 在 **富文本** 工具栏，单击 **超链接** 图标。 ![](assets/link-icon.png)
+   1. 单击更新中要插入链接的位置。
+   1. 在 **富文本** 工具栏上，单击 **超链接** 图标。 ![](assets/link-icon.png)
 
-   1. 在 **创建链接** 框，位于 **URL**，键入或粘贴要链接的源的URL。
+   1. 在 **创建链接** 框，位于下 **URL**，键入或粘贴要链接到的源的URL。
 
-   1. 在 **要显示的文本**，请键入或粘贴链接文本。
+   1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选）要将图像附加到更新，请根据您使用的环境，执行下列操作之一：
+1. （可选）要将图像附加到更新，请根据您使用的环境执行以下操作之一：
 
-   * 单击 **图像** 图标 ![](assets/addimageicon-35x32.png) 并在使用当前更新体验时，浏览到计算机上的图像或将图像拖到更新区域
+   * 单击 **图像** 图标 ![](assets/addimageicon-35x32.png) 使用当前的更新体验时，浏览到计算机上的图像或将图像拖到更新区域中
 
    或
 
-   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用注释测试版体验时，浏览到您计算机上的图像。 <!--the name of the icon and the icon for it might change-->
+   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用评论Beta版体验时，和浏览到计算机上的图像。 <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* 您的Workfront管理员必须先在Workfront界面区域的更新馈送首选项部分中启用添加图像，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
-   >* 最大图像文件大小为7 MB。 支持的图像文件类型有.jpg、.gif和.png。
-   >* 图像可从对象的“更新”部分访问，也可在“文档”区域使用。
-   >* 您可以发送包含图像的更新，而不发送任何文本。
+   >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
+   >* 可以从对象的“更新”部分访问图像，并且这些图像也可在文档区域中使用。
+   >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的评论时，根据您选择的体验，会出现以下情况：
       >
-      >     * 在当前的注释体验中，图像仍保留在“文档”区域中，但在“更新”部分中不再可见。
-      >     * 在新的注释体验中，图像会从“更新”部分以及“文档”区域中移除。 在编辑注释和删除图像时，图像也会从“文档”区域中删除。
-   >* 当某人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
+      >     * 在当前备注体验中，图像保留在文档区域中，但在更新部分中不再可见。
+      >     * 在新的注释体验中，图像会从更新部分以及文档区域中删除。 编辑评论和删除图像时，图像也会从“文档”区域删除。
+   >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
 
 
-1. 单击 **更新**  或 **提交**，使用评论测试版体验时。
+1. 单击 **更新**  或 **提交**，使用评论Beta体验时。
 
 
 ## 复制更新信息
@@ -352,10 +354,10 @@ drafted for P&P release:
 >Copying an update is not possible when using the Beta commenting experience.
 -->
 
-您可以通过多种方式复制更新。 复制链接后，您可以与他人共享该链接，以将他们定向到更新。
+有几种方法可以复制更新。 复制链接后，您可以与其他人共享该链接，以将他们定向到更新。
 
 * [复制更新](#copy-the-update)
-* [复制线程链接](#copy-the-thread-link)
+* [复制跟帖链接](#copy-the-thread-link)
 * [复制更新链接](#copy-the-update-link)
 
 ### 复制更新 {#copy-the-update}
@@ -367,60 +369,60 @@ drafted for P&P release:
 
    ![选择复制正文文本](assets/update-stream-copy-body-text-350x152.png)
 
-### 复制线程链接 {#copy-the-thread-link}
+### 复制跟帖链接 {#copy-the-thread-link}
 
-此选项会将整个线程链接复制到剪贴板，以便您可以与其他用户共享该线程。
+此选项将完整的线程链接复制到剪贴板，以便您可以与其他用户共享线程。
 
 1. 转到要复制的更新线程。
 
-1. 单击 **更多** 菜单，然后单击 **复制线程链接** 或 **复制链接**，使用测试版体验时。
+1. 单击 **更多** 菜单，然后单击 **复制跟帖链接** 或 **复制链接**，使用测试版体验时。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 ### 复制更新链接 {#copy-the-update-link}
 
-此选项将特定更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会看到更新周围的边框。
+此选项将特定的更新链接复制到剪贴板。 当您共享更新链接时，关注该链接的用户会看到更新周围的边框。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制更新链接** 或 **复制链接**，使用测试版体验时。
+1. 单击 **更多** 单个更新旁边的菜单，然后单击 **复制更新链接** 或 **复制链接**，使用测试版体验时。
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
 ## 删除更新或回复
 
-根据Workfront管理员授予您的访问权限，您可能能够删除您在对象的Updates选项卡中添加的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 在文章中 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+根据Workfront管理员赋予您的访问权限，您也许能够删除在对象的“更新”选项卡上添加的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 在文章中 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-任何Workfront用户(包括Workfront管理员)都无法删除其他用户进行的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户身份登录并删除他们所做的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+任何Workfront用户(包括Workfront管理员)都无法删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，Workfront管理员可以以该用户身份登录并删除他们所做的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 转到要删除的更新或回复。
-1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**.
+1. 单击 **更多** 菜单，然后单击要删除的更新或回复旁边的 **删除**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **确认** 或单击 **删除**，使用评论测试版体验时。
+1. 在显示的消息中，单击 **确认** 或单击 **删除**，使用评论Beta体验时。
 
    >[!NOTE]
    >
-   >删除附加图像的更新会同时删除注释和图像。 有关更多信息，请参阅 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。
+   >删除具有附加图像的更新会同时删除注释和图像。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 章节。
 
-   如果删除的评论具有与其关联的回复，则表示该评论已被删除，且其删除者的姓名也与之相关。
+   当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
-   使用评论测试版体验时，已删除的评论会立即从Workfront中删除。 使用“更新”部分的用户会看到其他用户实时删除评论。
+   使用备注测试版体验时，已删除的备注会立即从Workfront中删除。 使用“更新”部分的用户会看到评论被其他用户实时删除。
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## 添加时间表更新
+## 在时间表上添加更新
 
-1. 转到要更新的时间表。
+1. 转到要更新的“时间表”。
 1. 单击时间表以将其打开。
-1. 在工时表底部，单击 **包含评论**.
-1. 在“时间表”(Timeske)底部显示的框中，键入更新。
+1. 在时间表底部，单击 **包括评论**.
+1. 在时间表底部显示的框中，键入更新。
 
-   ![timetime_update_stream.png](assets/timesheet-update-stream-350x50.png)
+   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. （视情况而定）要保存更新而不提交时间表以供审批，请单击 **保存以备以后使用**.
+1. （视情况而定）要保存更新而不提交时间表以供审批，请单击 **保存供以后使用**.
 
    或
 
@@ -428,7 +430,7 @@ drafted for P&P release:
 
    或
 
-   如果未通过审批者设置工时单，请单击 **保存并关闭时间表** 以保存更新。
+   如果您的时间表未由批准者设置，请单击 **保存并关闭工时表** 以保存您的更新。
 
 ## 启用或禁用系统更新
 
@@ -436,9 +438,9 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->在使用测试版注释体验时，无法禁用系统更新。
->此部分中的信息仅涉及当前更新部分中提供的功能。
->有关测试版中系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+>使用Beta版评论体验时，无法禁用系统更新。
+>此部分中的信息仅引用了当前更新部分中可用的功能。
+>有关Beta版系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront对象的“更新”部分显示两种类型的信息：
@@ -447,20 +449,20 @@ Workfront对象的“更新”部分显示两种类型的信息：
 
    ![](assets/user-update-cl-350x277.png)
 
-* **系统更新：** 系统更新删除资产、添加或删除版本、附加或删除批准请求以及对对象上的文档所做的任何编辑或更改的记录。
+* **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。
 
    ![](assets/system-updates-cl-350x277.png)
 
-根据您的Workfront许可证，系统更新可能默认启用。 Workfront管理员可以确定系统更新中跟踪的内容，如 [系统跟踪的更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您还可以过滤掉系统更新或活动，以便仅查看所有对象的用户更新。
+根据您的Workfront许可证，默认情况下可能会启用系统更新。 Workfront管理员可以确定系统更新中跟踪的内容，如中所述 [系统跟踪的更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您还可以过滤掉系统更新或活动，以便只看到所有对象的用户更新。
 
-有关用户和系统更新之间差异的详细信息，请参阅 [系统跟踪的更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+有关用户更新和系统更新之间差异的更多信息，请参阅 [系统跟踪的更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-要启用或禁用系统更新，请执行以下操作：
+要启用或禁用系统更新：
 
 1. 单击 **更新** 选项卡。
-1. 单击 **显示系统更新** 向左（禁用）或向右（启用）滑动开关。
+1. 单击 **显示系统更新** 向左（禁用）或向右（启用）滑动交换机。
 
    ![](assets/show-system-updates-qs-350x55.png)
 
-   此选项在整个Workfront中的所有对象中都是永久性的，并且会保持在您选择的位置，即使您从Workfront中注销也是如此。
+   该选项在Workfront中的所有对象中都是持久的，并且会保留在您选择的位置，即使您从Workfront注销也是如此。
 

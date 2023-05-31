@@ -1,29 +1,29 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-experience-beta
-title: 新的注释体验
-description: 目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在选定对象的“更新”部分中包含新界面、新增功能和改进的性能。
+title: 新的评论体验
+description: 目前正在开发Adobe Workfront中评论体验的更新。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
 
-# 新的注释体验
+# 新的评论体验
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-目前正在开发有关Adobe Workfront中注释体验的更新信息。 此更新在选定对象的“更新”部分中包含新界面、新增功能和改进的性能。
+目前正在开发Adobe Workfront中评论体验的更新。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
-在Workfront中，新的注释体验将缓慢地变为可用于具有更新部分的所有对象，稍后将扩展到其他Adobe Experience Cloud应用程序。
+新的评论体验将缓慢地变为可用于Workfront中具有“更新”部分的所有对象，稍后它将扩展到其他Adobe Experience Cloud应用程序。
 
 ## 功能
 
-新的注释体验包括对现有更新流的改进和更改。
+新的评论体验包括现有更新流的改进和更改。
 
 <!-- Previous content here - replaced with the table below: 
 
@@ -44,38 +44,38 @@ ht-degree: 1%
 
 -->
 
-新注释体验中包含的改进包括以下内容：
+新注释体验中包括的改进包括：
 
 * 改进了性能和用户体验
 * 将用户评论与系统活动更新分离。 系统更新功能的方式没有变化。
-* 将新注释添加到对象时的实时指示器
-* 在提交评论后编辑评论。
+* 向对象添加新注释时的实时指示器
+* 在提交评论后进行编辑。
 
-已从新体验中删除以下功能：
+以下功能已从新体验中删除：
 
-* 对系统更新进行注释。
+* 有关系统更新的注释。
 
-下表说明了新注释体验中提供的功能，以及这些功能在支持这些功能的领域中的可用性：
+下表说明了新注释体验中可用的功能，以及这些功能在受支持领域的可用性：
 
 <table>
   <tr>
    <td><strong>功能 </strong>
    </td>
-   <td><strong>存在于旧的注释体验中 </strong>
+   <td><strong>存在于旧的评论体验中 </strong>
    </td>
-   <td><strong>在新评论体验的测试版中存在 </strong>
+   <td><strong>存在于新评论体验的测试版中 </strong>
    </td>
    <td><strong>将在新的评论体验中引入 </strong>
    </td>
-   <td><strong>何时将在新的评论体验中引入 </strong>
+   <td><strong>何时将被引入新的评论体验 </strong>
    </td>
-   <td><strong>研究 </strong>
+   <td><strong>正在研究 </strong>
    </td>
   </tr>
   <tr>
-   <td>创建/读取/回复/删除注释 
+   <td>创建/读取/回复/删除评论 
    </td>
-   <td>✓ 
+   <td>✓ “ ”标签 
   </td>
    <td>✓ 
    </td>
@@ -87,7 +87,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>富文本（不包括引用和表情符号）
+   <td>富文本（不包括引号和emoji）
    </td>
    <td>✓ 
    </td>
@@ -102,7 +102,7 @@ ht-degree: 1%
   </tr>
   <tr>
  <tr>
-   <td>富文本（引用和表情符号）
+   <td>富文本（引文和表情符号）
    </td>
    <td>✓ 
    </td>
@@ -110,14 +110,14 @@ ht-degree: 1%
    </td>
    <td> ✓
    </td>
-   <td> 2023年二季度
+   <td> 2023年第二季度
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-<td>对评论做出响应（类似） 
+<td>对评论做出反应（类似） 
    </td>
    <td>✓ 
    </td>
@@ -173,7 +173,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>对公司私有的评论 
+   <td>公司私有的评论 
    </td>
    <td>✓ 
    </td>
@@ -187,7 +187,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>撤消评论的发布 
+   <td>撤消评论过帐 
    </td>
    <td>✓ 
    </td>
@@ -205,7 +205,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td>替换为“活动”选项卡 
+   <td>已替换为“活动”选项卡 
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>编辑注释 
+   <td>编辑评论 
    </td>
    <td> 
    </td>
@@ -229,7 +229,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>在离开页面时保存注释草稿 
+   <td>导航离开页面时保存评论草稿 
    </td>
    <td>✓ 
    </td>
@@ -243,7 +243,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>实时查看新评论（包括查看评论删除的时间）
+   <td>实时查看新评论（包括查看何时删除评论）
    </td>
    <td> 
    </td>
@@ -257,17 +257,17 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>日志时间 
+   <td>记录时间 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -285,7 +285,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>能够在注释时编辑状态、条件、提交日期 
+   <td>可在注释时编辑状态、条件和提交日期 
    </td>
    <td>✓ 
    </td>
@@ -303,21 +303,21 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> 已替换为复制链接
+   <td> 替换为复制链接
    </td>
    <td> 
    </td>
-   <td>2023年二季度 
+   <td>2023年第二季度 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>复制注释链接 
+   <td>复制评论链接 
    </td>
    <td>✓ 
    </td>
-   <td> 已替换为复制链接
+   <td> 替换为复制链接
    </td>
    <td> 
    </td>
@@ -335,7 +335,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td>2023年二季度 
+   <td>2023年第二季度 
    </td>
    <td> 
    </td>
@@ -355,7 +355,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>解决注释 
+   <td>解决评论 
    </td>
    <td> 
    </td>
@@ -363,7 +363,7 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td>2023年三季度 
+   <td>2023年第三季度 
    </td>
    <td>✓ 
    </td>
@@ -377,46 +377,61 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td>2023年三季度 
+   <td>2023年第三季度 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>回复系统更新 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
-## 新的评论测试版体验发布活动
+## 新的评论Beta版体验发布活动
 
-有关最近发布的功能的信息，请参阅 [新的评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关最近发布的功能的信息，请参阅 [新评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## 找到新的注释体验
+## 找到新的评论体验
 
-在以下版本的Workfront中查看更新部分时，以下对象当前支持新的注释体验：
+查看以下Workfront版本中的更新部分时，以下对象当前支持新的评论体验：
 
 * 在更新部分中启用测试版体验时：
 
-   * 问题
+   * 问题<!--, <span class="preview">projects, tasks, and documents</span>-->
    有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-* 默认情况下，作为主要的注释体验：
+* 默认情况下，作为主要评论体验：
 
    * 目标
    >[!NOTE]
    >
-   >您必须拥有Adobe Workfront Target的额外许可证，才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >您必须拥有Adobe Workfront Goals的附加许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
    有关管理目标更新的更多信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-要启用新的注释体验测试版，请执行以下操作：
+要启用新的评论体验测试版，请执行以下操作：
 
-1. 转到要激活其新注释体验的对象，然后单击 **更新** 中。
-1. 启用 **评论测试版** 在“更新”区域的右上角切换。
-1. 单击 **同意** 测试版协议框中。 这将为所选对象启用新的注释体验。
-1. 开始在 **评论** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
+1. 转到要为其激活新注释体验的对象，然后单击 **更新** （在左侧面板中）。
+1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
+1. 单击 **同意** Beta协议框中的。 这将为所选对象启用新的注释体验。
+1. 开始在 **注释** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
 
    或
 
-   单击  **系统活动** 选项卡，以查看由Workfront生成的活动更新。
+   单击  **系统活动** 选项卡中，查看Workfront生成的活动更新。
 
-   有关在新注释体验中更新对象的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   有关更新新注释体验中对象的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
