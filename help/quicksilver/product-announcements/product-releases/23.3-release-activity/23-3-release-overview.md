@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接文件夹到Adobe Experience Manager Assets</a><span style="color: #ff0000;"> 生产中的新增功能！</span></p>
-                        <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p>
+                        <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p><p>此功能仅适用于Workfront中的Adobe Experience Manager as a Cloud Service集成。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
