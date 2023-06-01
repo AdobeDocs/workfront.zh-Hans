@@ -6,7 +6,7 @@ description: 当有人在工作对象上添加或回复更新时，他们的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span>.
-   >
-   >     当您启用备注测试版体验时，该选项可用。\
-   >     此功能仅适用于“更新”部分，不适用于以下区域：
-   >
-   >     * 主页
-   >     * 列表中的摘要面板
-   >     * 时间表中的“摘要”面板
 >
-> * 目标
-
-   >
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* 问题， <span class="preview">项目、任务和文档</span>.
+>
+>  当您启用备注测试版体验时，该选项可用。
+>
+>  此功能仅适用于“更新”部分，不适用于以下区域：
+>
+>  * 主页
+>  * 列表中的摘要面板
+>  * 时间表中的“摘要”面板
+>
+>* 目标
+>
+>  新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 
@@ -100,6 +100,7 @@ ht-degree: 0%
    您可以在该更新会话的顶部看到活跃参与对话或被标记在每次回复中的用户。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户，以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. （可选）要在回复中包含来自上次更新的文本，请单击 **更多** 菜单，然后单击要报价的更新或回复 **引用回复**. 上次更新的文本显示在输入区域中，以垂直灰色线标记。
 1. （可选）按照文章中“在Workfront更新中使用富文本”一节中所述，使用格式、表情符号、包含链接或图像 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 单击 **回复** 以保存回复。
