@@ -6,14 +6,18 @@ description: 您可以在&nbsp；Adobe Workfront中记录工作项的时间，�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
 
 # 记录时间
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您在这些工作项上花费的小时数。 您还可以记录与工作无关的时间，如休假、病假或会议时间。 您的登录时间显示在您的时间表中。
 
@@ -109,7 +113,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->查看分配给时间表配置文件的用户可查看时间表选项卡并记录常规小时数。 但是，他们无法记录时间表上显示的任何分配给他们的任务或问题的小时数。
+>查看分配给时间表配置文件的用户可查看时间表区域并记录常规小时数。 但是，他们无法记录时间表上显示的任何分配给他们的任务或问题的小时数。
 
 1. 单击 [!UICONTROL **主菜单**] 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
 
@@ -342,40 +346,32 @@ ht-degree: 0%
 
 ### 项目、任务或问题 {#project-task-or-issue}
 
-您可以记录项目、任务或问题的项目特定时间。
+您可以在以下部分中记录项目、任务或问题的项目特定时间：
 
-#### 记录时间所需的权限
+* [“更新”部分](#updates-section)
+* [“小时”部分](#hours-section)
 
-要记录项目、任务或问题的小时数，您需要具有特定权限。 您可以在项目、任务或问题的两个位置记录时间：
+#### “更新”部分{#updates-section}
 
-* [“更新”选项卡](#updates-tab)
-* [“小时”选项卡](#hours-tab)
-
-##### “更新”选项卡{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> 您可以记录问题的时间， <span class="preview">项目和任务</span> 在更新部分中启用新的注释测试版体验时。
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+要在项目、任务或问题的更新部分中记录时间，您必须具备以下条件：
 
-在项目、任务或问题的更新选项卡上记录小时数之前，需要满足以下条件：
-
-* 您必须拥有工作或计划许可证。
-* 您必须至少拥有对项目、任务或问题的贡献权限才能访问记录小时数。\
+* 工作或计划许可证。
+* 为项目、任务或问题分配或更高权限以便访问记录小时数。\
    有关授予项目权限的更多信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* 如果要直接将时间记录到项目，Workfront管理员必须启用“直接在项目上记录时间”设置，该设置位于 [!UICONTROL **时间表和小时数** ]> [!UICONTROL **首选项**].\
+* 您的Workfront管理员必须启用“直接在项目上记录时间”设置，位于 [!UICONTROL **时间表和小时数** ]> [!UICONTROL **首选项**]，如果要直接将时间记录到项目。
+
    有关允许用户直接将小时数记录到项目的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-要在项目、任务或问题的更新选项卡中记录时间，请执行以下操作：
+要在项目、任务或问题的更新部分中记录时间，请执行以下操作：
 
 1. 转到项目、任务或问题。
 1. 在左侧面板中，选择 **更新**.
@@ -403,22 +399,22 @@ ht-degree: 0%
 
 1. 单击 **记录时间**.
 
-##### “小时”选项卡{#hours-tab}
+#### “小时”部分{#hours-section}
 
-在项目、任务或问题的小时数选项卡上记录小时数之前，需要满足以下条件：
+您必须是Workfront管理员才能在小时数部分中记录项目、任务和问题的时间。
 
-* 您必须是系统管理员。
+或
 
-或者，您必须具备以下所有条件：
+您必须具备以下所有条件：
 
-* 您必须拥有对时间表和小时数具有管理访问权限的计划许可证。 有关授予对时间表和小时数的管理访问权限的更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* 您必须至少具有项目的Contribute权限，并且有权访问记录小时数。 有关授予项目权限的更多信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* 如果要直接将时间记录到项目，您的Workfront管理员必须在“时间表和小时数”>“首选项”下启用直接在项目上记录时间设置。 有关允许用户直接将小时数记录到项目的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* 对时间表和小时数具有管理访问权限的计划许可证。 有关授予对时间表和小时数的管理访问权限的更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* 为项目分配或更高权限并有权访问记录小时数。 有关授予项目权限的更多信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* 如果要直接将时间记录到项目，您的Workfront管理员必须启用“时间表和小时数”>“首选项”下的直接在项目上记录时间设置。 有关允许用户直接将小时数记录到项目的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-要在项目、任务或问题的小时数选项卡中记录时间，请执行以下操作：
+要在项目、任务或问题的小时数部分中记录时间，请执行以下操作：
 
 1. 转到项目、任务或问题。
-1. 在左侧面板中，选择 **小时**.
+1. 在左侧面板中，单击 **小时**.
 1. 单击 **记录时间**.
 
    此时将显示记录小时数对话框。

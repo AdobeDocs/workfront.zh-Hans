@@ -6,10 +6,10 @@ description: 查看Adobe Workfront的每周发布活动，了解新的评论Beta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -29,48 +29,41 @@ ht-degree: 8%
 
 ## 2023年5月29日起一周
 
+### 新增评论项目、任务和问题的测试版体验
+
+新的备注测试版体验现在可用于项目、任务和文档。 在此更新之前，评论测试版体验仅适用于问题和目标。
+
+预览： 2023年6月1日
+
+生产：通过23.3版本提供
+
+>[!NOTE]
+>
+>从2023年6月1日开始，任何发布到新评论测试版体验的功能将在23.3版发布到生产版之后的“生产”环境中可用于项目、任务和文档。 有关信息，请参阅 [23.3发行版概述](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### 编辑评论后“已编辑”标记的新外观
 
-在新的备注测试版体验中编辑备注时，会向备注添加“已编辑”标记。 此标记现在具有比最初发布的外观和感觉更新的外观。 评论的日期和时间戳是原始评论的日期和时间戳。 它们不是进行编辑时的日期和时间戳。  有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+在新的备注测试版体验中编辑备注时，会向备注添加“已编辑”标记。 此标记现在具有最初发布的外观和风格。 评论的日期和时间戳是原始评论的日期和时间戳。 它们不是进行编辑时的日期和时间戳。  有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 预览： 2023年5月31日
 
 生产： 2023年6月1日
 
-<!--
+### 子对象中的注释向上滚动到父对象
 
-### Comments from children objects now roll up to a parent object  
+现在，在启用备注测试版体验时，与子对象关联的备注将上滚到父对象。 例如，文档注释现在显示在文档附加问题上。 有关信息，请参阅 [更新部分概述](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+预览： 2023年6月1日
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+生产： 2023年6月1日
 
-Production, for issues: June 1, 2023 
+### 在新的备注测试版体验中记录时间
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+使用新的备注测试版体验时，您可以从更新区域记录问题、任务和项目的时间。 有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+预览： 2023年6月1日
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+制作：有待宣布
 
 ## 2023年5月15日起一周
 

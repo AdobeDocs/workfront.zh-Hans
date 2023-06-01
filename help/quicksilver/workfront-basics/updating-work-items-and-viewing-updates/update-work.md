@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <!--<span class="preview">projects, tasks, and documents</span>,--> 启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span>，则会在启用备注测试版时。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
@@ -193,7 +193,7 @@ drafted for P&P release:
 此 **注释** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ drafted for P&P release:
 1. （可选）要添加指向其他信息源的URL链接，请执行以下操作：
 
    1. 单击更新中要插入链接的位置。
-   1. 在 **富文本** 工具栏上，单击 **超链接** 图标。 ![](assets/link-icon.png)
+   1. 在 **富文本** 工具栏上，单击 **超链接** 图标 ![](assets/link-icon.png).
 
    1. 在 **创建链接** 框，位于下 **URL**，键入或粘贴要链接到的源的URL。
 

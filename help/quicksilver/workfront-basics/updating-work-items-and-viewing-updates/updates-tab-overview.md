@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <!--<span class="preview">projects, tasks, and documents</span>,--> 启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span> 启用备注测试版时。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
@@ -99,7 +99,7 @@ ht-degree: 4%
 * **注释**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-目前，您可以在以下对象上使用测试版注释体验进行注释和回复更新：
+目前，您可以在以下对象上使用测试版注释体验添加注释和回复更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ ht-degree: 4%
      <li><p>目标</p>
      <p>这是目标的默认体验</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">项目</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>问题</li> 
+     <li><span class="preview">任务</span></li>
+     <li><span class="preview">文档</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## 更新也会显示在较高级别的对象中
 
@@ -151,17 +129,15 @@ ht-degree: 4%
 
 例如，将更新添加到任务时，该更新会显示在任务的更新部分以及包含该任务的项目的更新部分中。
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>启用新的备注测试版体验时，备注会显示在以下排名较高的对象和以下环境中：
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* 问题
+>* <span class="preview">项目</span>
+>* <span class="preview">任务</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 下表显示其注释也显示在较高排名的对象上的对象：
 
