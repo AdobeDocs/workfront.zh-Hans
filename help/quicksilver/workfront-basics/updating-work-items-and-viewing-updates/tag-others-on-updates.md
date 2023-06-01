@@ -6,9 +6,9 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <!--<span class="preview">projects, tasks, and documents</span>,--> 启用备注测试版时。
+> * 问题， <span class="preview">项目</span>， <span class="preview">任务</span>、和 <span class="preview">文档</span>，则会在启用备注测试版时。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
@@ -77,8 +77,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>问题和文档的请求者或更高；所有其他对象的查看者或更高</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
+   <td> <p>问题和文档的请求者或更高；所有其他对象的查看者或更高</p> 
+   <p><b>注释</b>
+
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
    <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 

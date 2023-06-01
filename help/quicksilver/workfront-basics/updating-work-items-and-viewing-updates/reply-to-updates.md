@@ -6,9 +6,9 @@ description: 当有人在工作对象上添加或回复更新时，他们的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <!--<span class="preview">projects, tasks, and documents</span>,--> 启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span>，则会在启用备注测试版时。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >

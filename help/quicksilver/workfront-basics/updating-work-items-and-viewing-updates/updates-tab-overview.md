@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span> 启用备注测试版时。
+> * 问题， <span class="preview">项目</span>， <span class="preview">任务</span>、和 <span class="preview">文档</span>，则会在启用备注测试版时。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->启用新的备注测试版体验时，备注会显示在以下排名较高的对象和以下环境中：
+>启用新的备注测试版体验时，备注会显示在以下排名较高的对象上：
 >
 >* 问题
 >* <span class="preview">项目</span>
