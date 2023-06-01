@@ -6,9 +6,9 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目</span>， <span class="preview">任务</span>、和 <span class="preview">文档</span>，则会在启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span>.
    >
+   >     当您启用备注测试版体验时，该选项可用。
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
    >     * 主页

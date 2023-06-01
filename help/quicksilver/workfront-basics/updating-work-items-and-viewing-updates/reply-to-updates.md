@@ -6,9 +6,9 @@ description: 当有人在工作对象上添加或回复更新时，他们的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span>，则会在启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span>.
    >
+   >     当您启用备注测试版体验时，该选项可用。\
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
    >     * 主页
@@ -106,7 +107,7 @@ ht-degree: 0%
 ### 使用评论Beta版体验时回复评论
 
 1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **注释** 按Tab键查找要回复的注释或回复。
+1. 单击 **更新**，然后单击 **评论** 按Tab键查找要回复的注释或回复。
 1. 单击 **回复**.
 
    您可以在页面底部看到积极参与对话的用户 **新建评论** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户，以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

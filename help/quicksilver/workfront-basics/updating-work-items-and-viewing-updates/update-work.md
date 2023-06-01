@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3181'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,9 @@ ht-degree: 1%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目</span>， <span class="preview">任务</span>、和 <span class="preview">文档</span>，则会在启用备注测试版时。
+> * 问题， <span class="preview">项目、任务和文档</span>.
+   >
+   >     当您启用备注测试版体验时，该选项可用。
    >
    >     此功能仅适用于“更新”部分，不适用于以下区域：
    >
@@ -190,7 +192,7 @@ drafted for P&P release:
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 在“更新”区域的右上角进行切换，然后单击 **同意** 在Beta版协议上。 这会将“更新”区域切换到备注测试版体验。
-此 **评论** 选项卡默认处于选中状态。
+此 **注释** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
 
    <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
