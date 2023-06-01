@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能](#administrator-enhancements)
 * [Agile增强功能](#agile-enhancements)
 * [集成增强功能](#integration-enhancements)
+* [项目增强功能](#project-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接文件夹到Adobe Experience Manager Assets</a><span style="color: #ff0000;"> 生产中的新增功能！</span></p>
-                        <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p><p>此功能仅适用于Workfront中的Adobe Experience Manager as a Cloud Service集成。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接文件夹到Adobe Experience Manager Assets</a></p>
+                        <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### 项目增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新文档审批</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>文档审批正在分阶段重新设计，将在每个版本中提供给更多用户。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年5月31日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本： 2023年6月14日</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### 其他增强功能
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">项目、任务和文档的新评论测试版体验</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>新的备注测试版体验现在可用于项目、任务和文档。 在此更新之前，评论测试版体验仅适用于问题和目标。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月1日<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本：随23.3版提供</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">没有头像的配置文件现在会显示用户缩写</a></p>
