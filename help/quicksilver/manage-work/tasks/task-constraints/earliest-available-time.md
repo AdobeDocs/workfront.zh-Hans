@@ -2,23 +2,23 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: “任务约束概述：最早可用时间”
-description: 最早可用时间是任务约束，它将任务安排为在考虑任何前置任务关系后的最早可用时间开始。
+title: '任务约束概览：最早可用时间'
+description: 最早可用时间是一个任务限制，它计划在考虑任何前置任务关系后的最早可用时间开始任务。
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# 任务约束概述：最早可用时间
+# 任务约束概览：最早可用时间
 
-最早可用时间是任务约束，它将任务安排为在考虑任何前置任务关系后的最早可用时间开始。
+最早可用时间是一个任务限制，它计划在考虑任何前置任务关系后的最早可用时间开始任务。
 
-有关如何更新任务上的任务约束的信息，请参阅 [更新任务的任务约束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+有关如何更新任务的任务限制的信息，请参阅 [更新任务的任务限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,28 +52,32 @@ ht-degree: 0%
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## 最早可用时间与尽快可用的时间之差
+## 最早可用时间与尽可能早之间的时间差
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-当存在以下所有条件时，“最早可用时间”约束与“尽快”约束不同：
+当存在以下所有条件时，“最早可用时间”约束与“尽可能早”约束不同：
 
-* 项目计划完成
-* 项目中的任务具有前置关系
-* 前置任务具有灵活的任务约束
+* 项目计划自完成开始
+* 项目中的任务具有前置任务关系
+* 前置任务具有灵活的任务限制
 
 在这种情况下：
 
-* **最早可用时间：** 在后续任务上使用最早可用时间约束优先于先前任务的灵活约束。
+* **最早可用时间：** 对后继任务使用最早可用时间限制会优先处理前继任务的灵活限制。
 
-   **示例：** 任务A是任务B的前身。任务B具有最早的可用时间约束，任务A具有尽可能晚的约束。 在这种情况下，任务B将安排在尽可能接近项目完成的时间。
+   **示例**
 
-   ![当任务的日期接近项目的完成日期时，“最早可用时间”约束](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+   任务A是任务B的前置任务。任务B具有最早可用时间限制，而任务A具有尽可能晚的时间限制。 在此情况下，任务B被安排在尽可能接近项目完成的阶段。
 
-* **尽快：** 在此方案中，对后续任务使用“尽快”约束将优先级赋予后续任务。
+   ![当任务的日期接近项目的完成日期时，最早可用时间限制](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-   **示例：**  任务A是任务B的前身。任务B具有尽快的约束，任务A具有尽快的约束。 在这种情况下，任务B将安排在尽可能靠近项目开始的位置。
+* **尽快：** 在此场景中，对后续任务使用“越早越好”限制可为后续任务赋予优先级。
 
-   ![任务的日期接近项目的开始日期时，尽快设置约束](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+   **示例**
+
+   任务A是任务B的前身。任务B具有尽可能早的限制条件，而任务A具有尽可能晚的限制条件。 在这种情况下，任务B的计划时间应尽可能接近项目的开始时间。
+
+   ![尽快限制当任务的日期接近项目的开始日期时](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
