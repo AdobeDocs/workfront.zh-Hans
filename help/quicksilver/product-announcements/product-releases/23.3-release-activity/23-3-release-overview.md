@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">改进了通过拖放操作将文档移动到链接的文件夹时的体验</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p> 
+                        <p>我们在将文档拖放到链接文件夹中的过程中添加了一些透明度。 现在，您移动到链接文件夹的文档将保留在文档列表中，直到完全移动为止。 文档选项已禁用，但您仍然可以在移动文档时打开该文档进行查看。 文档完成传输后，它会从文档列表中消失，因为它现在完全位于链接的文件夹中。 </p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月7日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本： 2023年6月15日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">创建项目时自动创建链接文件夹到Adobe Experience Manager Assets</a></p>
                         <p>借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。 </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新文档审批</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">更改对Microsoft Office校样的支持</a> </p>
+                        <p>为了维护强大且可扩展的验证处理解决方案，我们更改了支持的Microsoft Office文件类型和文件大小限制。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月8日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本： 2023年6月8日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新文档审批</a> </p>
                         <p>文档审批正在分阶段重新设计，将在每个版本中提供给更多用户。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">项目、任务和文档的新评论测试版体验</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">项目、任务和文档的新评论测试版体验</a> </p>
                         <p>新的备注测试版体验现在可用于项目、任务和文档。 在此更新之前，评论测试版体验仅适用于问题和目标。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新增的画布功能板体验增强功能</a></p>
+                        <p>对画布功能板的增强功能将在23.3版本发行时间范围内提供。 除非另有说明，否则这些增强功能将在23.3版本的生产环境中提供。 
+ </p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：在整个23.3版本发布时间范围内<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：随23.3版一起提供（除非另有说明）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

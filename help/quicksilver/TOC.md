@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 1%
          * [23.3 2023年5月8日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [23.3 2023年5月15日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3 2023年5月29日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [23.3 2023年6月5日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [在23.3版本发布时间范围内查看体验更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版本 {#release-23-2}
          * [23.2发行版概述](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 1%
          * [22.3发行版概述](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3管理员增强功能](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [22.3集成增强](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [22.3移动设备增强功能 ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [22.3其他增强功能 ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [22.3项目增强功能 ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [22.3资源管理增强功能 ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [22.3报告增强功能 ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [22.3移动设备增强功能](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [22.3其他增强功能](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [22.3项目增强功能](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [22.3资源管理增强功能](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [22.3报告增强功能](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [在22.3版本发布时间范围内查看体验更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * 22.2版本 {#release-22-2}
          * [22.2发行版概述](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
