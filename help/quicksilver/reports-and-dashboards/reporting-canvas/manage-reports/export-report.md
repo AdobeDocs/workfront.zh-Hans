@@ -1,20 +1,20 @@
 ---
-title: 在报表画布中导出报表
-description: 在报表画布中导出报表
+title: 在报告画布中导出报告
+description: 在报告画布中导出报告
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
 
 ---
 
-# 在报表画布中导出报表
+# 在报告画布中导出报告
 
-您可以将整个报表（或特定块）导出为符合您需求的文件格式。 您可以导出到：
+可以将整个报表（或特定块）导出为文件格式以满足您的需要。 您可以导出到：
 
 * PDF（当前已禁用）
 * CSV
@@ -23,20 +23,20 @@ ht-degree: 1%
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报表画布测试版：概述](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## 导出报表
+## 导出报告
 
-1. 导航到要导出的报表。
-1. 在报表标题中，单击 **更多** 图标 ![](assets/more-icon-27x15.png)，单击 **导出**，然后选择要创建的文件格式。
+1. 导航到要导出的报告。
+1. 在报告标题中，单击 **更多** 图标 ![](assets/more-icon-27x15.png)，单击 **导出**，然后选择要创建的文件格式。
 
    >[!NOTE]
    >
    >有关导出的文件，请考虑以下事项：
    >
-   >   * 如果将包含多个表的报表导出为XLSX格式，则导出的文件将包含每个表的单独工作表。
-   >   * 如果将包含多个表的报表导出为CSV格式，则导出的结果会是一个压缩文件夹，其中包含每个表的单独文件。
-   >   * 如果将包含分组行的表导出为CSV格式，则CSV文件将包含所有行，但这些行不会按组显示。
+   >   * 如果将包含多个表的报告导出为XLSX格式，则导出的文件包含每个表的单独工作表。
+   >   * 如果将包含多个表的报表导出为CSV格式，则导出的结果是一个压缩文件夹，其中包含每个表的单独文件。
+   >   * 如果将包含已分组行的表导出为CSV格式，则CSV文件包含所有行，但它们不显示在组中。
 
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.

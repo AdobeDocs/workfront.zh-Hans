@@ -1,10 +1,10 @@
 ---
-title: 在报表画布中配置KPI可视化
-description: 在报表画布中配置KPI可视化
+title: 在报告画布中配置KPI可视化图表
+description: 在报告画布中配置KPI可视化图表
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%
@@ -12,23 +12,23 @@ ht-degree: 2%
 ---
 
 
-# 在报表画布中配置KPI可视化
+# 在报告画布中配置KPI可视化图表
 
-关键绩效指标(KPI)可视化图表可帮助您快速传达组织的当前绩效。
+关键绩效指标(KPI)可视化图表可以帮助您一目了然地传达组织的当前绩效。
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报表画布测试版：概述](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## 配置KPI可视化
+## 配置KPI可视化图表
 
 >[!TIP]
 >
->在您构建和编辑报表中的块时，所有更改都会自动保存。
+>在报告中构建和编辑块时，会自动保存所有更改。
 
-1. 首先，使用 **KPI** 报表的可视化类型，如 [在报表画布中添加或编辑可视化块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. 首先，添加一个可视化图表块，其中 **KPI** 报表的可视化图表类型，如中所述 [在报告画布中添加或编辑可视化图表块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. 单击编辑可视化图表图标 ![](assets/edit-icon.png) 在可视化的右上角，执行以下任意操作。
+1. 单击“编辑可视化图表”图标 ![](assets/edit-icon.png) 然后，在可视化的右上角执行以下任一操作。
 
    1. 在 **设置** 选项卡：
 
@@ -38,20 +38,20 @@ ht-degree: 2%
        <tbody>
         <tr>
          <td role="rowheader">可视化类型</td>
-         <td><p>切换到其他类型的可视化图表。 如果这样做，菜单上的后续选项可能会发生更改。</p></td>
+         <td><p>切换到其他可视化类型。 如果这样做，菜单上的后续选项可能会更改。</p></td>
         </tr>
         <tr>
          <td role="rowheader">源字段</td>
-         <td>选择要在可视化中表示的数据。</td>
+         <td>选择要在可视化图表中表示的数据。</td>
         </tr>
         <tr>
          <td role="rowheader">聚合类型</td>
-         <td><p> 指示您希望如何汇总这些值：</p>
+         <td><p> 指明汇总值的方式：</p>
           <ul>
-           <li><p><b>计数</b>:值的数量</p></li>
-           <li><p><b>总和</b>:所有值的总和 </p></li>
-           <li><p><b>平均</b>：所有值的平均值</p></li>
-           <li><p><b>最小</b>：仅最低值</p></li>
+           <li><p><b>计数</b>：值的数量</p></li>
+           <li><p><b>总和</b>：所有值的总计 </p></li>
+           <li><p><b>Average</b>：所有值的平均值</p></li>
+           <li><p><b>最小值</b>：仅最小值</p></li>
            <li><p>最大值：仅最大值</p></li>
           </ul></td>
         </tr>
@@ -60,9 +60,9 @@ ht-degree: 2%
 
    1. 在 **数据** 选项卡：
 
-      | 数据源（下拉菜单） | 将可视化的数据源更改为报表画布上的其他表。 |
+      | 数据源（下拉菜单） | 将可视化图表的数据源更改为报表画布上的另一个表。 |
       |---|---|
-      | 显示数据源 | 启用此选项可在报表画布上显示可视化的源表格，或禁用用于隐藏可视化的选项。 |
+      | 显示数据源 | 启用此选项以在报表画布上显示可视化图表的源表，或禁用隐藏该表的选项。 |
 
       {style="table-layout:auto"}
 
@@ -70,4 +70,4 @@ ht-degree: 2%
       NOLAN-FLAG: convert table to html. 
       -->
 
-1. 单击可视化设置菜单外的任意位置以将其关闭。
+1. 单击可视化图表设置菜单之外的任意位置将其关闭。

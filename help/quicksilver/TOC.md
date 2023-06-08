@@ -2,7 +2,7 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 1%
@@ -352,9 +352,9 @@ ht-degree: 1%
          * [删除自定义SMTP作为外寄电子邮件选项](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * 测试版计划 {#beta}
       * [测试版计划](product-announcements/betas/betas.md)
-      * 报告画布测试版 {#reporting-canvas-beta}
-         * [报告画布测试版概述](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [报告画布测试版：发布活动](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Canvas功能板测试版 {#canvas-dashboards-beta}
+         * [报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Canvas Dashboards测试版：发布活动](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新的评论体验测试版 {#new-commenting-experience-beta}
          * [新增评论测试版体验信息](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新的评论体验](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
