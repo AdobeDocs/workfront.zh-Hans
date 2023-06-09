@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
+source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -319,23 +319,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">发行日期</span>
                         </p>
                     </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">更改对Microsoft Office校样的支持</a> </p>
-                        <p>为了维护强大且可扩展的验证处理解决方案，我们更改了支持的Microsoft Office文件类型和文件大小限制。</p>
-                    </td>
-                    <td><p><b>在以下日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年6月8日<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">生产版本： 2023年6月8日</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新文档审批</a> </p>
@@ -373,7 +356,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
+            <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">项目、任务和文档的新评论测试版体验</a> </p>
                         <p>新的备注测试版体验现在可用于项目、任务和文档。 在此更新之前，评论测试版体验仅适用于问题和目标。</p>

@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
+source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
 workflow-type: tm+mt
-source-wordcount: '13069'
+source-wordcount: '13077'
 ht-degree: 1%
 
 ---
@@ -214,6 +214,7 @@ ht-degree: 1%
       * Workfront Proof发布活动 {#proof-release}
          * 23.3版本中的验证 {#proof-23-3-release}
             * [23.3版的Adobe Workfront Proof](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3发布活动： 2023年6月5日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年5月8日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront验证发布活动： 2021年5月17日开始的这一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront校对发布活动： 2021年11月29日开始的这一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)

@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront Proof与23.3版本
-description: 本页介绍了在23.3版本的生产环境中发布的新Adobe Workfront体验中Adobe Workfront校样的功能。
+title: 23.3版的Adobe Workfront Proof
+description: 本页介绍了随23.3版发布到生产环境的新Adobe Workfront Experience中Adobe Workfront Proof的功能。
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
+# 23.3版的Adobe Workfront Proof
 
-# Adobe Workfront Proof与23.3版本
+本页介绍了在23.3版本发布时间范围内发布到生产环境的Adobe Workfront Proof的功能。
 
-本页提供了有关Adobe Workfront校样功能的信息，该校样将在23.3版本时间范围内发布到生产环境。
-
-有关23.3发行周期中此时Workfront所有区域所有可用更改的列表，请参阅 [23.3版本概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+有关23.3发行周期中此时对Workfront的所有区域可用的所有更改列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -34,20 +34,36 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                <tr>
+                </tr>
+                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">桌面校对查看器更新</a><span style="color: #ff0000;"> 生产新增！</span></p>
-                        <p>桌面校对查看器已更新至版本2.1.24! 此更新包括对用于审阅交互式校样的Chrome v100支持，以及许多问题修复。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">更改对Microsoft Office校样的支持</a><span style="color: #ff0000;"> 生产中的新增功能！</span> </p>
+                        <p>为了维护强大且可扩展的验证处理解决方案，我们更改了支持的Microsoft Office文件类型和文件大小限制。</p>
                     </td>
-                    <td><p><b>在以下日期可用：</b></p>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月8日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本： 2023年6月8日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">桌面校对查看器更新</a></p>
+                        <p>桌面校对查看器已更新至版本2.1.24！ 此更新包括对审阅交互式验证的Chrome v100支持，以及许多问题修复。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>预览版本：2023年5月10日<br /></p>
+                                <p>预览版本： 2023年5月10日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：2023年5月10日</span></p>
+                                <p><span class="preview">生产版本： 2023年5月10日</span></p>
                             </li>
                         </ul>
                     </td>
