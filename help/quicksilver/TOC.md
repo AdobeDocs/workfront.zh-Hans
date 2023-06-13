@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '13077'
+source-wordcount: '13075'
 ht-degree: 1%
 
 ---
@@ -2109,7 +2109,6 @@ ht-degree: 1%
          * [在Adobe Workfront Fusion的HTTP模块中使用双向TLS](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
       * [HubSpot CRM模块](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
       * [图像模块](workfront-fusion/apps-and-their-modules/image-module.md)
-      * [集成模块](workfront-fusion/apps-and-their-modules/intacct-modules.md)
       * [Jira软件模块](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON模块](workfront-fusion/apps-and-their-modules/json-modules.md)
       * [MariaDB模块](workfront-fusion/apps-and-their-modules/mariadb-modules.md)

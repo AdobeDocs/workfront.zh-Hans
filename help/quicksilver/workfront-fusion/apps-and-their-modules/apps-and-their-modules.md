@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: workfront-fusion-2-0
 title: 应用程序及其模块
-description: Adobe Workfront Fusion当前为此列表上的应用程序提供专用连接器。 如果要处理的应用程序不在此列表中，您可以使用HTTP、SOAP或JSON模块连接到该应用程序。
+description: Adobe Workfront Fusion当前为此列表中的应用程序提供专用连接器。 如果要使用的应用程序不在此列表中，您可以使用HTTP、SOAP或JSON模块连接到该应用程序。
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 27%
 
 ---
@@ -20,13 +20,12 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->Adobe Workfront Fusion几乎可以连接到任何Web服务。 它不限于此列表上的应用程序。 如果要处理的应用程序不在此列表中，您可以使用以下模块直接连接到Web服务：
+>Adobe Workfront Fusion可以连接到几乎任何Web服务。 不仅限于此列表上的应用程序。 如果要使用的应用程序不在此列表中，您可以使用以下模块直接连接到Web服务：
 >
 >* [[!UICONTROL HTTP] 模块](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 >* [[!UICONTROL SOAP] 模块](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 >* [[!UICONTROL JSON] 模块](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
-
 
 ## Workfront Fusion应用程序及其模块
 
@@ -49,7 +48,7 @@ ht-degree: 27%
 * [[!DNL Azure Active Directory] 模块](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
 * [[!DNL Azure DevOps] 模块](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
@@ -57,7 +56,7 @@ ht-degree: 27%
 * [[!DNL Bynder] 模块](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
 * [[!DNL CloudConvert] 模块](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
@@ -68,14 +67,14 @@ ht-degree: 27%
 * [[!DNL DocuSign] 模块](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
 * [[!DNL Dropbox] 模块](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
 * [电子邮件模块](../../workfront-fusion/apps-and-their-modules/email-modules.md)
-* [[!UICONTROL 加密器]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
+* [[!UICONTROL 加密程序]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
 * [[!DNL Figma] 模块](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
-* [Adobe Workfront聚变中的流量控制](../../workfront-fusion/apps-and-their-modules/flow-control.md)
+* [Adobe Workfront Fusion中的流量控制](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 * [[!DNL Frame.io] 模块](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
 * [[!UICONTROL FTP] 模块](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
 * [[!DNL GitHub] 模块](../../workfront-fusion/apps-and-their-modules/github.md)
@@ -91,16 +90,17 @@ ht-degree: 27%
 * [[!UICONTROL HTTP] 模块](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] 模块](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [图像模块](../../workfront-fusion/apps-and-their-modules/image-module.md)
-* [[!DNL Intacct] 模块](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
-
-   <!--
+<!--
+* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
+-->
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [[!DNL Jira] 软件模块](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON] 模块](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
   -->
 
@@ -132,7 +132,7 @@ ht-degree: 27%
 * [[!UICONTROL 文本解析器]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL 工具]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)
 * [[!DNL Trello] 模块](../../workfront-fusion/apps-and-their-modules/trello-modules.md)
-* [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+* [Webhook](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
 * [[!DNL Widen] 模块](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 * [[!DNL Workday] 模块](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
 * [[!UICONTROL XML]](../../workfront-fusion/apps-and-their-modules/xml-modules.md)

@@ -3,26 +3,26 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: “Workfront Fusion版本活动：2021年2月1日一周”
-description: 本页介绍2021年2月1日这一周Adobe Workfront Fusion中所有增强功能。
+title: 'Workfront Fusion发布活动：2021年2月1日开始的周'
+description: 本页介绍了2021年2月1日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年2月1日起的一周
+# Workfront Fusion发布活动： 2021年2月1日开始的周
 
-本页介绍2021年2月1日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2021年2月1日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发行版活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中近期的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -32,7 +32,7 @@ ht-degree: 0%
 </div>
 -->
 
-## MariaDB连接器和模块现已可用
+## MariaDB连接器和模块现已推出
 
 您现在可以使用Workfront Fusion连接到MariaDB帐户。
 
@@ -43,25 +43,29 @@ ht-degree: 0%
 
 有关详细信息，请参阅 [MariaDB模块](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
-## Marketo连接器和模块现已可用
+## Marketo连接器和模块现已推出
 
-* 现在，您可以使用Workfront Fusion连接到Marketo帐户。 使用Marketo连接器，您可以
-* 创建或更新记录时会触发方案。
+* 现在，您可以使用Workfront Fusion连接到您的Marketo帐户。 借助Marketo连接器，您可以
+* 在创建或更新记录时触发方案。
 * 创建、读取或更新记录
 * 上传或下载文件
 * 列出或搜索给定类型的记录
 * 在列表中添加潜在客户或从列表中删除潜在客户
-* 计划营销活动
-* 复制程序
+* 计划活动
+* 复制项目
 * 进行自定义API调用
 
 有关更多信息，请参阅 [Marketo模块](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
-## Intacct连接器和模块现已可用
+<!--
 
-您现在可以使用Workfront Fusion 2.0连接到Intacct帐户。 通过Intacct模块，您可以：
+## Intacct connector and modules now available
 
-* 根据您指定的条件搜索资产
-* 执行自定义API调用。
+You can now use Workfront Fusion 2.0 to connect to your Intacct account. With the Intacct modules, you can:
 
-有关详细信息，请参阅 [Intacct模块](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+* Search assets based on criteria you specify
+* Perform a custom API call.
+
+For more information see [Intacct modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+
+-->
