@@ -6,10 +6,10 @@ description: 查看Adobe Workfront的每周发布活动，了解新的评论Beta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ ht-degree: 6%
 >针对Workfront对象发布到Beta版体验的注释功能也发布到Workfront目标中目标对象的“更新”部分。
 
 以下部分列出了在原始版本之后添加的功能，从最近发布的功能开始。
+
+## 2023年6月13日起一周
+
+### 改进了编辑评论时的体验
+
+现在，您可以在编辑注释时使用以下快捷键：
+
+* 按CTRL + Z(对于Mac，按CMD + Z)可撤消更改
+
+* 按CTRL + Y(对于Mac，按CMD + Y)可重做更改
+
+在这些增强功能之前，无法在编辑评论时撤消或重做更改。 有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+预览： 2023年6月13日
+
+生产日期： 2023年6月13日
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## 2023年5月29日起一周
 

@@ -6,9 +6,9 @@ description: 您可以将注释添加到可在Adobe Workfront目标中查看的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ ht-degree: 0%
    >
    >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 添加到注释中的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
+1. （可选）要撤消或重做更改，请使用以下快捷键：
+   * 按CTRL + Z(Mac按⌘ + z)可撤消更改
+   * 按CTRL + Y(Mac按⌘ + y)可重做更改
 1. （可选）要向更新、超链接或图像添加富文本格式，请使用富文本工具栏上的任意选项或其旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
 1. 选择 **我的公司私有** 切换以使评论仅对您公司内的人员可见。
@@ -170,13 +173,12 @@ ht-degree: 0%
    >
    > * 日期戳是原始评论的日期，而不是最新更新的日期。
 
-
    1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击以下任意选项以将评论中的信息复制到剪贴板：
 
       * **复制链接** 复制更新的链接，而不复制回复。
       * **复制正文文本** 以复制更新的文本。
 
-         有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 单击注释右侧，然后单击 **删除** 以删除您添加的评论。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至9操作。 <!--insure this stays accurate-->

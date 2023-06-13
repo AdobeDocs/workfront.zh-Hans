@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3211'
 ht-degree: 1%
 
 ---
@@ -27,22 +27,20 @@ ht-degree: 1%
 >
 >您可以访问以下对象的新体验：
 > * 问题， <span class="preview">项目、任务和文档</span>.
-   >
-   >     当您启用备注测试版体验时，该选项可用。
-   >
-   >     此功能仅适用于“更新”部分，不适用于以下区域：
-   >
-   >     * 主页
-   >     * 列表中的摘要面板
-   >     * 时间表中的“摘要”面板
+>
+>     当您启用备注测试版体验时，该选项可用。
+>
+>     此功能仅适用于“更新”部分，不适用于以下区域：
+>
+>     * 主页
+>     * 列表中的摘要面板
+>     * 时间表中的“摘要”面板
 >
 > * 目标
-
-   >
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ drafted for P&P release:
    >
    >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 添加到注释中的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
+1. （可选）要撤消或重做更改，请使用以下快捷键：
+   * 按CTRL + Z(Mac按⌘ + z)可撤消更改
+   * 按CTRL + Y(Mac按⌘ + y)可重做更改
 1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
 1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏来增强文本：
 
@@ -235,7 +236,6 @@ drafted for P&P release:
    >
    >* 仅当提交原始更新时，才会生成电子邮件通知用户您的更新。 编辑更新后不会生成电子邮件。
    >* 评论旁边的日期戳是原始评论的日期，而不是上次编辑的日期。
-
 
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤4至7操作。 <!--(**************insure this stays accurate***********)-->. 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （有条件和可选）如果其他用户添加了显示在更新部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
@@ -296,7 +296,6 @@ drafted for P&P release:
    >* 如果您的组织将Workfront与Internet Explorer结合使用，则粘贴到更新中的任何格式化文本都将丢失其富文本格式并显示为纯文本。 您可以使用“富文本”工具栏上的属性来重新设置文本格式。
    >* 富文本格式不适用于在时间表区域中所做的更新，也不适用于在报表中查看的注释和上一个条件对象。
 
-
 1. （可选）如果要包含来自先前更新或其他来源的文本，并将其与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线标记显示。 单击 **块引用** 图标，以返回正常格式。
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ drafted for P&P release:
    >* 不支持的emoji由黑白框表示。
    >* Windows 7仅支持黑白表情符号。
    >* 在更新区域查看时，应用到通过电子邮件进行的更新的表情符号不会显示在更新上。
-
 
 1. （可选）要添加指向其他信息源的URL链接，请执行以下操作：
 
@@ -338,11 +336,10 @@ drafted for P&P release:
    >* 可以从对象的“更新”部分访问图像，并且这些图像也可在文档区域中使用。
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的评论时，根据您选择的体验，会出现以下情况：
-      >
-      >     * 在当前备注体验中，图像保留在文档区域中，但在更新部分中不再可见。
-      >     * 在新的注释体验中，图像会从更新部分以及文档区域中删除。 编辑评论和删除图像时，图像也会从“文档”区域删除。
+   >
+   >     * 在当前备注体验中，图像保留在文档区域中，但在更新部分中不再可见。
+   >     * 在新的注释体验中，图像会从更新部分以及文档区域中删除。 编辑评论和删除图像时，图像也会从“文档”区域删除。
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
-
 
 1. 单击 **更新**  或 **提交**，使用评论Beta体验时。
 
@@ -449,11 +446,11 @@ Workfront对象的“更新”部分显示两种类型的信息：
 
 * **用户更新：** 用户更新是您和系统中的其他用户输入的注释。
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 根据您的Workfront许可证，默认情况下可能会启用系统更新。 Workfront管理员可以确定系统更新中跟踪的内容，如中所述 [系统跟踪的更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您还可以过滤掉系统更新或活动，以便只看到所有对象的用户更新。
 
