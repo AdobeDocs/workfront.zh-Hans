@@ -96,7 +96,7 @@ ht-degree: 4%
 
 “更新”部分在新注释体验的以下选项卡中显示信息：
 
-* **注释**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **评论**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 目前，您可以在以下对象上使用测试版注释体验添加注释和回复更新：
