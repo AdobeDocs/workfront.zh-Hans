@@ -7,7 +7,7 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >您可以访问以下对象的新体验：
 > * 问题， <span class="preview">项目、任务和文档</span>.
-   >
-   >     当您启用备注测试版体验时，该选项可用。
-   >
-   >     此功能仅适用于“更新”部分，不适用于以下区域：
-   >
-   >     * 主页
-   >     * 列表中的摘要面板
-   >     * 时间表中的“摘要”面板
 >
-> * 目标
-
-   >
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     当您启用备注测试版体验时，该选项可用。
+>
+>     此功能仅适用于“更新”部分，不适用于以下区域：
+>
+>     * 主页
+>     * 列表中的摘要面板
+>     * 时间表中的“摘要”面板
+>
+> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 对象的“更新”部分显示用户对对象所做的注释或跟踪对象更改的系统更新。
 
@@ -98,7 +96,7 @@ ht-degree: 4%
 
 “更新”部分在新注释体验的以下选项卡中显示信息：
 
-* **评论**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **注释**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 目前，您可以在以下对象上使用测试版注释体验添加注释和回复更新：
@@ -124,6 +122,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## 更新也会显示在较高级别的对象中
 
