@@ -6,9 +6,9 @@ description: 目前正在开发Adobe Workfront中评论体验的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,22 @@ ht-degree: 1%
   </tr>
   <tr>
  <tr>
-   <td>富文本（引文和表情符号）
+   <td>富文本（块引号）
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2023年第二季度
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> 报价注释
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-
-<td>对评论做出反应（类似） 
+   <td>对评论做出反应（类似） 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ ht-degree: 1%
 * 在更新部分中启用测试版体验时：
 
    * 问题， <span class="preview">项目、任务和文档</span>
-   有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 默认情况下，作为主要评论体验：
 
    * 目标
-   >[!NOTE]
-   >
-   >您必须拥有Adobe Workfront Goals的附加许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   有关管理目标更新的更多信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >您必须拥有Adobe Workfront Goals的附加许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  有关管理目标更新的更多信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 要启用新的评论体验测试版，请执行以下操作：

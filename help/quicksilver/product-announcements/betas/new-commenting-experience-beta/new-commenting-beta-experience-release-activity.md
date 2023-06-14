@@ -6,9 +6,9 @@ description: 查看Adobe Workfront的每周发布活动，了解新的评论Beta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ ht-degree: 5%
 
 以下部分列出了在原始版本之后添加的功能，从最近发布的功能开始。
 
-## 2023年6月13日起一周
+## 2023年6月12日起一周
+
+### “展示板”区域中卡的新评论Beta体验
+
+新的评论Beta版体验现在可用于展示板区域中的信息卡。 有关更多信息，请参阅 [23.3发行版概述](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+预览： 2023年6月15日
+
+提前选择加入的生产版本： 2023年6月22日
+
+面向所有客户的生产：使用23.3版本
+
+### 向评论添加块引用
+
+您现在可以使用新评论测试版体验中的富文本工具栏选项将块引号添加到评论中。
+
+有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+预览： 2023年6月14日
+
+生产日期： 2023年6月15日
 
 ### 改进了编辑评论时的体验
 

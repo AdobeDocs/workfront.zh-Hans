@@ -6,7 +6,7 @@ description: 当有人在工作对象上添加或回复更新时，他们的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -26,8 +26,7 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
->
->* 问题， <span class="preview">项目、任务和文档</span>.
+> * 问题， <span class="preview">项目、任务和文档</span>.
 >
 >     当您启用备注测试版体验时，该选项可用。
 >
@@ -37,11 +36,11 @@ ht-degree: 0%
 >     * 列表中的摘要面板
 >     * 时间表中的“摘要”面板
 >
->* 目标
+> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->  新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->  有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 

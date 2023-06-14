@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 1%
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * 列表中的摘要面板
 >     * 时间表中的“摘要”面板
 >
-> * 目标
+> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ drafted for P&P release:
    | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：⌘+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上： ⌘+V</br> | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：Ctrl+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上：Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 块引用 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    要停止设置文本格式，请取消选择 **富文本** 工具栏。
 

@@ -6,7 +6,7 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >您可以访问以下对象的新体验：
 > * 问题， <span class="preview">项目、任务和文档</span>.
-   >
-   >     当您启用备注测试版体验时，该选项可用。
-   >     此功能仅适用于“更新”部分，不适用于以下区域：
-   >
-   >     * 主页
-   >     * 列表中的摘要面板
-   >     * 时间表中的“摘要”面板
 >
-> * 目标
-
-   >
-   >   新的评论体验是目标的默认体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     当您启用备注测试版体验时，该选项可用。
+>
+>     此功能仅适用于“更新”部分，不适用于以下区域：
+>
+>     * 主页
+>     * 列表中的摘要面板
+>     * 时间表中的“摘要”面板
+>
+> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 在更新对象时，如果您希望吸引用户注意他们可能未关注的对象，则可以标记用户。
@@ -51,6 +50,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >用户必须在个人资料中启用个人通知，以便接收电子邮件通知。 有关更多信息，请参阅 [激活或停用您自己的事件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 有关向Workfront对象添加更新的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ ht-degree: 0%
    >
    >* 仅当用户与公司关联时，才会显示此选项。
    >* 公司外部的已标记用户仍可能会收到应用程序内通知或电子邮件，即使他们不会在“更新”选项卡上看到私人评论。 如果不想与外部用户共享信息，我们建议不要在更新时标记这些用户。
-
 
 1. （可选）要添加多个用户和团队，请重复步骤2。 <!--insure this stays accurate-->
 
