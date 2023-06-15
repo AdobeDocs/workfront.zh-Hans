@@ -2,33 +2,33 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: 抢先试用功能选择加入 [!DNL Adobe Workfront] 展示板
-description: 阅读本文，了解 [!DNL Workfront Boards] 抢先试用功能选择加入。
+title: 的早期功能选择加入 [!DNL Adobe Workfront] 讨论区
+description: 阅读本文章，了解 [!DNL Workfront Boards] 早期功能加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 抢先试用功能选择加入 [!DNL Adobe Workfront] [!UICONTROL 展示板]
+# 的早期功能选择加入 [!DNL Adobe Workfront] [!UICONTROL 讨论区]
 
-所有用户都可以使用具有临时卡和连接卡的展示板，我们很高兴能够打开其他展示板功能，以便从2022年7月开始尽早选择加入功能。
+所有用户都可以使用带有临时信息卡和连接信息卡的展示板，我们很高兴能够从2022年7月开始为早期功能选择加入打开其他展示板功能。
 
-[!DNL Adobe Workfront] [!UICONTROL 展示板] 是灵活的工具，通过提供对包含列和卡的共享展示板的访问权限，来允许团队进行协作。
+[!DNL Adobe Workfront] [!UICONTROL 讨论区] 是灵活的工具，通过为包含列和卡片的共享展示板提供访问权限，允许团队协作。
 
-有关展示板的一般信息，请参阅 [[!UICONTROL 展示板] 概述](/help/quicksilver/agile/boards-overview.md).
+有关展示板的一般信息，请参阅 [[!UICONTROL 讨论区] 概述](/help/quicksilver/agile/boards-overview.md).
 
-## 发行计划
+## 发布计划
 
-* 在“预览”中提前启动功能选择加入功能：2022年7月22日
+* 预览版中的早期功能选择加入启动： 2022年7月22日
 * 正式发布： 2022年7月28日
 
 ## 功能
 
-下表概述了展示板的主要功能及其当前发行状态。 根据我们收到的输入，完整版本中可能不提供您可以通过早期功能选择加入访问的功能。
+下表概述了主板的主要功能及其当前发行状态。 根据我们收到的信息，您可通过早期功能选择加入访问的功能在完整版本中可能不可用。
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 0%
    <th><strong>状态</strong></th> 
   </tr>
   <tr>
-   <td>[!UICONTROL主菜单]中的[!UICONTROL主板]区域</td>
+   <td>[！UICONTROL主菜单]中的[！UICONTROL展示板]区域</td>
    <td>已发布</td>
   </tr>
     <tr>
@@ -53,11 +53,11 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>创建已连接到的信息卡 [!DNL Workfront] 对象</td>
+   <td>创建连接到的信息卡 [!DNL Workfront] 对象</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将Ad Hoc卡转换为连接的卡</td>
+   <td>将临时信息卡转换为连接的信息卡</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[!UICONTROL Work in Progress]限制添加到列</td>
+   <td>将[！UICONTROL工作进行中]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -73,23 +73,23 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将团队添加到展示板或信息卡</td>
+   <td>将团队添加到讨论区或信息卡</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>添加核对清单项目详细信息</td>
+   <td>添加清单项目详细信息</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>更新了过滤器</td>
+   <td>已更新筛选器</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>添加进气列</td>
+   <td>添加引入列</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>展示板上的组信息卡</td>
+   <td>在展示板上对信息卡进行分组</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>定义卡片衰减</td>
+   <td>定义卡片减退</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>搜索展示板并对功能板进行排序</td>
+   <td>搜索展示板并对仪表板进行排序</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -109,19 +109,19 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>对列使用卡计数器</td>
+   <td>在列上使用卡片计数器</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将卡到期日期映射到任务计划完成日期</td>
+   <td>将信息卡到期日期映射到任务计划完成日期</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>进气列中的仅查看卡</td>
+   <td>摄取列中的仅查看卡片</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>卡上的“地图估计”字段映射到任务上的“故事点”字段</td>
+   <td>将信息卡上的“估计”字段映射到任务上的“故事点”字段</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -129,52 +129,56 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>创建迭代</td>
+   <td>创建开发周期</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>定义卡片列表或积压工作</td>
+   <td>定义卡列表或积压</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将子任务作为核对清单项导入卡片中</td>
+   <td>将子任务作为清单项目导入信息卡中</td>
    <td>计划</td>
   </tr>
   <tr>
-   <td>自定义信息卡中字段的显示</td>
+   <td>自定义信息卡上的字段显示</td>
    <td>已发布</td>
   </tr>  
   <tr>
-   <td>为移动到列中的信息卡定义默认状态</td>
+   <td>为移动到列中的卡片定义默认状态</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>在连接的卡上记录小时数</td>
+   <td>在连接的卡片上记录小时数</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将自定义字段添加到连接的卡</td>
+   <td>将自定义字段添加到连接的卡片</td>
    <td>已发布</td>
   </tr>
   <tr>
-   <td>为展示板定义电子邮件通知</td>
-   <td>部分释放</td>
+   <td>定义讨论区的电子邮件通知</td>
+   <td>已部分发布</td>
   </tr>
   <tr>
-   <td>将旧看板卡迁移到展示板</td>
-   <td>此功能将于2023年5月18日在生产环境中提供，并且不是早期功能选择加入的一部分。</td>
+   <td>将旧版Kanban卡迁移到展示板</td>
+   <td>此功能将于2023年5月18日在生产环境中提供，不是早期功能选择加入的一部分。</td>
   </tr>
   <tr>
    <td>创建动态展示板</td>
-   <td>部分释放</td>
+   <td>已部分发布</td>
   </tr>
   <tr>
-   <td>在卡片详细信息中使用左侧导航</td>
-   <td>部分释放</td>
+   <td>在信息卡详细信息上使用左侧导航</td>
+   <td>已部分发布</td>
   </tr>
   <tr>
-   <td>对进气柱使用简化的过滤器</td>
-   <td>部分释放</td>
+   <td>在摄取列上使用简化的过滤器</td>
+   <td>已部分发布</td>
+  </tr>
+  <tr>
+   <td>在临时信息卡和连接的信息卡上使用注释</td>
+   <td>已部分发布</td>
   </tr>
  </tbody> 
 </table>
@@ -183,14 +187,14 @@ ht-degree: 0%
 
 ### 可用性
 
-所有组织都可以使用展示板的早期功能。 参与是完全可选的。
+展示板的早期功能适用于所有组织。 参与是完全可选的。
 
-### 选择启用
+### 选择加入
 
-仅 [!DNL Workfront] 管理员可以选择使用展示板的早期功能。 当 [!DNL Workfront] 管理员会启用早期功能，组织中的所有用户都将选择加入。
+仅 [!DNL Workfront] 管理员可以选择加入展示板的早期功能。 当 [!DNL Workfront] 管理员启用早期功能，组织中的所有用户都选择启用。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
-1. 单击 ![抢先试用功能选择加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 抢先试用功能选择加入])。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 ![早期功能加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能加入])图标。
 1. 单击 **[!UICONTROL 启用]**.
 1. 开始使用展示板的早期功能。
 
@@ -199,26 +203,26 @@ ht-degree: 0%
 1. 在展示板中，单击 **[!UICONTROL 反馈]** 按钮。
 1. 填写表单，然后单击 **[!UICONTROL 提交]**.
 
-## 抢先体验功能选择加入常见问题解答
+## 早期功能选择加入常见问题解答
 
-### 如何知道我的组织是否选择了早期功能？
+### 如何知道我的组织是否已选择早期功能？
 
-当 [!DNL Workfront] 管理员已为展示板启用早期功能，您将看到 [!UICONTROL 抢先试用功能选择加入] “已启用”按钮。 单击按钮可查看已启用的功能。
+当 [!DNL Workfront] 管理员已为展示板启用早期功能，您将看到 [!UICONTROL 早期功能加入] 仪表板屏幕顶部的“已启用”按钮。 单击按钮以查看已启用哪些功能。
 
-### 是否可以仅为特定用户启用早期功能？
+### 是否只能为特定用户启用早期功能？
 
-当 [!DNL Workfront] 管理员为展示板启用早期功能时，组织中的所有用户都将选择加入。
+当 [!DNL Workfront] 管理员为展示板启用早期功能，组织中的所有用户都选择加入。
 
-但是， [!DNL Workfront] 管理员可以在 [!UICONTROL 主菜单] 适用于具有布局模板的单个用户或用户组。 有关信息，请参阅 [自定义 [!UICONTROL 主菜单] 使用布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+但是， [!DNL Workfront] 管理员可以从以下位置隐藏展示板选项 [!UICONTROL 主菜单] 适用于具有布局模板的单个用户或用户组。 有关信息，请参阅 [自定义 [!UICONTROL 主菜单] 使用布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->这不会阻止用户使用URL访问展示板。 它只会阻止他们看到 [!DNL Boards] 选项 [!UICONTROL 主菜单].
+>这不会阻止用户使用URL访问展示板。 这只会阻止他们看到 [!DNL Boards] 中的选项 [!UICONTROL 主菜单].
 
-### 加入后，我是否可以选择退出早期功能？
+### 我加入后是否可以退出早期功能？
 
-仅 [!DNL Workfront] 管理员可以选择退出接收早期功能。 如果 [!DNL Workfront] 管理员会禁用早期功能，组织中的所有用户都将被选择退出。
+仅 [!DNL Workfront] 管理员可以选择不接收早期功能。 如果 [!DNL Workfront] 管理员禁用早期功能，组织中的所有用户都选择退出。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 展示板]**.
-1. 单击 ![提前启用功能选择加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 提前启用功能选择加入])。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 ![已启用早期功能选择加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已启用早期功能选择加入])图标。
 1. 单击 **[!UICONTROL 禁用]**.
