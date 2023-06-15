@@ -7,10 +7,10 @@ description: 通过Adobe Experience Cloud访问Workfront Fusion可为您提供�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 访问 [!DNL Workfront Fusion] 到 [!DNL Adobe Experience Cloud] 为您提供管理所有广告的无缝、统一体验[!DNL]Obe应用程序。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
-有关描述中导航的视频 [!DNL Fusion] 在 [!DNL Adobe Experience Cloud]，请参见 [[!DNL Fusion] 在 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+有关描述中导航的视频 [!DNL Fusion] 在 [!DNL Adobe Experience Cloud]，请参见：
+
+[[!DNL Fusion] 上 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## 访问要求
 
