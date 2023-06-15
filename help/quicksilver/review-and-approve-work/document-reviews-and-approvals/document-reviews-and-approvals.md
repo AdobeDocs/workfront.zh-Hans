@@ -6,9 +6,9 @@ title: 文档审阅和批准
 description: 本节包含有关Adobe Workfront中的文档审批的文章。
 author: Nolan
 feature: Work Management
-source-git-commit: 4593b63cbe6b2dc3ebffc57769f69bd7d31037a3
+source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,6 @@ ht-degree: 0%
 
 本节包含以下部分：
 
+* [文档审批概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [管理文档审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
 * [审阅和批准文档](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
