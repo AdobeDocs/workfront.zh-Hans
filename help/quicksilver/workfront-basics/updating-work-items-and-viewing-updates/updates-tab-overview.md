@@ -7,7 +7,7 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%

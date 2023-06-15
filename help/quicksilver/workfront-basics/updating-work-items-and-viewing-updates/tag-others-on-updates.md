@@ -6,7 +6,7 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%

@@ -6,7 +6,7 @@ description: 当有人在工作对象上添加或回复更新时，他们的回�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -108,7 +108,7 @@ ht-degree: 0%
 ### 使用评论Beta版体验时回复评论
 
 1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **注释** 按Tab键查找要回复的注释或回复。
+1. 单击 **更新**，然后单击 **评论** 按Tab键查找要回复的注释或回复。
 1. 单击 **回复**.
 
    您可以在页面底部看到积极参与对话的用户 **新建评论** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户，以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
