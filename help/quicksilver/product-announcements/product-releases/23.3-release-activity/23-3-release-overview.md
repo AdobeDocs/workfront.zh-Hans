@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">向展示板上的信息卡添加评论</a> <span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <p>您现在可以向展示板上的临时信息卡和已连接信息卡添加注释，并在注释上标记其他用户。 备注可在信息卡详细信息中找到。 展示板的评论功能使用新的Adobe Workfront评论体验。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月15日</p>
+                            </li>
+                            <li>
+                                 <p>提前选择加入的生产版本： 2023年6月22日 <span style="color: #ff0000;"> 此功能仅在生产环境中通过Workfront展示板的早期功能选择加入才可用。</span></p>
+                                <p>适用于所有客户的生产版本：使用23.3版本</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">改进了通过拖放操作将文档移动到链接的文件夹时的体验</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">改进了通过拖放操作将文档移动到链接的文件夹时的体验</a></p> 
                         <p>我们在将文档拖放到链接文件夹中的过程中添加了一些透明度。 现在，您移动到链接文件夹的文档将保留在文档列表中，直到完全移动为止。 文档选项已禁用，但您仍然可以在移动文档时打开该文档进行查看。 文档完成传输后，它会从文档列表中消失，因为它现在完全位于链接的文件夹中。 </p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在23.3版本发布时间范围内的外观更新</a></p>
-                        <p>在23.3版本发布时间范围内，对Adobe Workfront应用程序各个区域的外观和感觉进行了小幅更新。 这些增强功能将在发布到“预览”状态后至少2周内在“生产”环境中提供。 </p>
-                    </td>
-                    <td><p><b>在以下日期提供：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本：在整个23.3版本发布时间范围内<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">生产版本：发布到预览后至少2周（除非另有指定）</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新增评论测试版体验增强功能</a></p>
                         <p>对“更新”部分的增强功能将在新的注释测试版体验的23.3发行时间范围内提供。 除非另有说明，否则这些增强功能将在23.3版本的生产环境中提供。 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：在整个23.3版本发布时间范围内<br /></p>
+                                <p>预览版本： 2023年6月5日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">生产版本：随23.3版一起提供（除非另有说明）</span></p>
+                                <p><span class="preview">生产版本： 2023年6月5日</span></p>
                             </li>
                         </ul>
                     </td>
