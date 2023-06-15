@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * 列表中的摘要面板
 >     * 时间表中的“摘要”面板
 >
-> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 目标， <span class="preview">展示板区域中的信息卡</span>
 >
->   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的评论体验是目标的唯一体验 <span class="preview">和卡片</span>. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->以下功能适用于目标以外的所有对象。 您必须拥有其他许可证才能访问Workfront目标。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)
+>以下功能适用于除目标和信息卡之外的所有对象。 您必须拥有其他许可证才能访问Workfront目标。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. 转到要为其提供更新的工作项（如项目、任务或问题）。
 1. 单击 **更新** 部分。
@@ -283,7 +285,7 @@ drafted for P&P release:
    | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：⌘+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上： ⌘+V</br> | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：Ctrl+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上：Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 块引用 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    要停止设置文本格式，请取消选择 **富文本** 工具栏。
 
@@ -346,20 +348,17 @@ drafted for P&P release:
 
 ## 复制更新信息
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 有几种方法可以复制更新。 复制链接后，您可以与其他人共享该链接，以将他们定向到更新。
+
+根据您使用的注释体验，复制更新会有所不同。
+
+### 复制当前评论体验中的更新
 
 * [复制更新](#copy-the-update)
 * [复制跟帖链接](#copy-the-thread-link)
 * [复制更新链接](#copy-the-update-link)
 
-### 复制更新 {#copy-the-update}
+#### 复制更新 {#copy-the-update}
 
 此选项将文本从特定更新复制到剪贴板。
 
@@ -368,24 +367,47 @@ drafted for P&P release:
 
    ![选择复制正文文本](assets/update-stream-copy-body-text-350x152.png)
 
-### 复制跟帖链接 {#copy-the-thread-link}
+#### 复制跟帖链接 {#copy-the-thread-link}
 
 此选项将完整的线程链接复制到剪贴板，以便您可以与其他用户共享线程。
 
 1. 转到要复制的更新线程。
 
-1. 单击 **更多** 菜单，然后单击 **复制跟帖链接** 或 **复制链接**，使用测试版体验时。
+1. 单击 **更多** 菜单，然后单击 **复制跟帖链接**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### 复制更新链接 {#copy-the-update-link}
+#### 复制更新链接 {#copy-the-update-link}
 
 此选项将特定的更新链接复制到剪贴板。 当您共享更新链接时，关注该链接的用户会看到更新周围的边框。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 单个更新旁边的菜单，然后单击 **复制更新链接** 或 **复制链接**，使用测试版体验时。
+1. 单击 **更多** 单个更新旁边的菜单，然后单击 **复制更新链接**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### 复制新评论体验中的更新
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [复制链接](#copy-link)
+* [复制正文文本](#copy-body-text)
+
+#### 复制链接
+
+此选项将注释或线程链接复制到剪贴板，以便您可以与其他用户共享注释或整个线程。
+
+1. 转到要复制其链接的更新。
+
+1. 单击 **更多** 菜单，然后单击 **复制链接**.
+
+#### 复制正文文本
+
+此选项将文本从特定更新复制到剪贴板。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
 
 ## 删除更新或回复
 

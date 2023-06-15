@@ -6,9 +6,9 @@ description: 目前正在开发Adobe Workfront中评论体验的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ ht-degree: 1%
 新注释体验中包括的改进包括：
 
 * 改进了性能和用户体验
-* 将用户评论与系统活动更新分离。
+* 将用户评论与系统活动更新分离
 * 向对象添加新注释时的实时指示器
-* 在提交评论后进行编辑。
+* 提交评论后进行编辑
 
 以下功能已从新体验中删除：
 
-* 有关系统更新的注释。
+* 关于系统更新的评论
+* 可在注释时编辑状态、条件和提交日期
+* 编辑自定义表单
 
 下表说明了新注释体验中可用的功能，以及这些功能在受支持领域的可用性：
 
@@ -295,7 +297,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ ht-degree: 1%
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ ht-degree: 1%
   </tr>
 </table>
 
-## 新的评论Beta版体验发布活动
+## 发布时间表
 
-有关最近发布的功能的信息，请参阅 [新评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关最近发布到新评论体验的功能以及发布时间线的信息，请参阅 [新评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找到新的评论体验
 
@@ -423,21 +425,18 @@ ht-degree: 1%
 
 * 在更新部分中启用测试版体验时：
 
-   * 问题， <span class="preview">项目、任务和文档</span>
+   * 问题， <span class="preview">项目、任务、故事和文档</span>
 
   有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 默认情况下，作为主要评论体验：
 
-   * 目标
+   * 目标， <span class="preview">展示板区域中的信息卡</span>
 
   >[!NOTE]
   >
   >您必须拥有Adobe Workfront Goals的附加许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  有关管理目标更新的更多信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 要启用新的评论体验测试版，请执行以下操作：
 

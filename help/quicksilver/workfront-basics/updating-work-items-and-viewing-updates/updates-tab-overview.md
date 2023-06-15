@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * 列表中的摘要面板
 >     * 时间表中的“摘要”面板
 >
-> * 目标<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 目标， <span class="preview">展示板区域中的信息卡</span>
 >
->   新的评论体验是目标的默认设置 <!--<span class="preview">and cards</span>-->. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的评论体验是目标的唯一体验 <span class="preview">和卡片</span>. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 对象的“更新”部分显示用户对对象所做的注释或跟踪对象更改的系统更新。
 
@@ -84,7 +84,7 @@ ht-degree: 4%
      <li>模板</li> 
      <li>模板任务</li> 
      <li>时间表</li> 
-     <li>用户</li> 
+     <li>用户</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -96,10 +96,10 @@ ht-degree: 4%
 
 “更新”部分在新注释体验的以下选项卡中显示信息：
 
-* **评论**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **注释**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-目前，您可以在以下对象上使用测试版注释体验添加注释和回复更新：
+目前，您可以在以下对象上使用新的注释体验添加注释和回复更新：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目标</p>
-     <p>这是目标的默认体验</p>
+     <li><span class="preview">展示板区域中的信息卡</span></li>
+      这是实现目标的唯一体验 <span class="preview">和卡片</span>.
      </li> 
      <li><span class="preview">项目</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>问题</li> 
@@ -123,12 +124,10 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 更新也会显示在较高级别的对象中
 
