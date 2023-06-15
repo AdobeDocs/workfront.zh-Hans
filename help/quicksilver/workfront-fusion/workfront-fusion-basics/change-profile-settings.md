@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: 變更中的設定檔設定 [!DNL Adobe Workfront Fusion]
-description: 您可以變更您網站上的 [!DNL Adobe Workfront Fusion] 帳戶設定檔。
+title: 在中更改配置文件设置 [!DNL Adobe Workfront Fusion]
+description: 您可以更改 [!DNL Adobe Workfront Fusion] 帐户配置文件。
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
-# 變更中的設定檔設定 [!DNL Adobe Workfront Fusion]
+# 在中更改配置文件设置 [!DNL Adobe Workfront Fusion]
 
-您可以變更您網站上的 [!DNL Adobe Workfront Fusion] 帳戶設定檔。
+您可以更改 [!DNL Adobe Workfront Fusion] 帐户配置文件。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,50 +31,68 @@ ht-degree: 0%
    <td> <p>[!DNL Pro] 或更高</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p><p>[！UICONTROL [!DNL Workfront Fusion] 工作自動化專用]</p>   </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p><p>[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">產品</td> 
-   <td>貴組織必須購買 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文所述功能。</td> 
+   <td role="rowheader">产品</td> 
+   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有哪些計畫、授權型別或存取權，請聯絡您的 [!DNL Workfront] 管理員。
+要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有關以下專案的資訊： [!DNL Adobe Workfront Fusion] 授權，請參閱 [[!DNL Adobe Workfront Fusion] 授權](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 變更設定檔設定
+## 更改配置文件设置
 
-若要變更帳戶設定檔中的資訊：
+根据您的组织是否在AdobeUnified Shell上，更改配置文件设置的过程有所不同。
 
-1. 按一下左側面板底部的頭像，然後按一下 **[!UICONTROL 設定檔]**.
-1. 按一下： **[!UICONTROL 一般選項]**，然後變更下列任一選項：
+* [更改Unified Shell上的配置文件设置](#change-profile-settings-on-the-unified-shell)
+* [在没有Unified Shell的情况下更改配置文件设置](#change-profile-settings-without-the-unified-shell)
+
+### 更改Unified Shell上的配置文件设置
+
+如果您的组织位于AdobeUnified Shell上，您可以通过单击顶部导航区域中您的配置文件图片来访问您的配置文件和首选项选项。
+
+此菜单允许您：
+
+* 选择 **[!UICONTROL 深色主题]** 格式设置 [!DNL Adobe Experience Cloud].
+* 设置 **[!UICONTROL 首选项]** 对象 [!DNL Adobe Experience Cloud]，包括主要和次要语言首选项。
+* 访问您的 **[!UICONTROL [!DNL Workfront]个人资料]**. 进入配置文件后，单击 **[!UICONTROL 更多]** 菜单并选择 **[!UICONTROL 编辑]**. 有关配置文件的更多信息，请参阅 [配置我的设置](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL 注销]** Adobe Experience Cloud的。
+
+### 在没有Unified Shell的情况下更改配置文件设置
+
+要在未使用Unified ShellAdobe的组织中更改帐户配置文件中的信息，请执行以下操作：
+
+1. 单击左侧面板底部的头像，然后单击 **[!UICONTROL 个人资料]**.
+1. 单击： **[!UICONTROL 常规选项]**，然后更改以下任意选项：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL組織]</td> 
-      <td> <p>選取您要使用的組織。<br></p> </td> 
+      <td role="rowheader">[！UICONTROL组织]</td> 
+      <td> <p>选择要使用的组织。<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL時區選項]</td> 
+      <td role="rowheader">[！UICONTROL时区选项]</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL Web]</strong>：變更日期與時間所使用的時區，顯示於 [!DNL Workfront Fusion] 網站。</li> 
-        <li><strong>[！UICONTROL案例]</strong>：變更案例執行期間（當您未明確指定時區時）用於剖析和格式化日期和時間的時區。 您可以為每個設定選擇時區。</li> 
+        <li><strong>[！UICONTROL Web]</strong>：更改上显示的日期和时间所使用的时区 [!DNL Workfront Fusion] 网站。</li> 
+        <li><strong>[！UICONTROL场景]</strong>：在场景运行期间（如果未明确指定时区），更改用于解析和格式化日期和时间的时区。 您可以为每个设置选择一个时区。</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL API]</td> 
-      <td> <p>您可以新增要用於兩者之間呼叫的API權杖 [!DNL Workfront Fusion] 和另一個應用程式或Web服務。 這是進階功能。</p> </td> 
+      <td> <p>您可以添加要用于以下时间之间的调用的API令牌： [!DNL Workfront Fusion] 和另一个应用程序或Web服务。 这是一项高级功能。</p> </td> 
      </tr> 
     </tbody> 
    </table>
