@@ -6,9 +6,9 @@ description: 查看Adobe Workfront新评论体验的每周发布活动。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ ht-degree: 4%
    * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
 * 23.4版本（2023年10月初）
    * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * 2023年底：
-   * 从仍具有旧版体验的对象中删除旧版体验。
-   * 以下对象将新的注释体验作为唯一的体验：项目、任务、问题、故事、文档、模板、模板任务、项目、项目组合、团队、用户，以及时间表、目标、信息卡。
+   * 以下对象具有新的注释体验作为默认体验：项目、任务、问题、故事、文档、模板、模板任务、项目、项目组合、团队、用户，以及时间表、目标、信息卡。 旧版评论体验仍将作为一个选项。
 
   >[!NOTE]
   >
