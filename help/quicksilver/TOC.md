@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [为Adobe Workfront季度发布做准备](product-announcements/product-releases/release-readiness.md)
       * 23.3版本 {#release-23-3}
          * [23.3发行版概述](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [23.3 2023年4月10日的发布活动周](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [23.3 2023年4月17日的发布活动周](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [23.3 2023年4月24日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [23.3 2023年5月1日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [23.3 2023年5月8日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [23.3 2023年5月15日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [23.3 2023年5月29日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [23.3 2023年6月5日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [23.3 2023年6月12日的发布活动周](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3管理员增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 Agile增强](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3集成增强](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3项目增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3移动设备增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3其他增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [在23.3版本发布时间范围内查看体验更新](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2版本 {#release-23-2}
          * [23.2发行版概述](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2管理员增强功能](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Workfront Proof发布活动 {#proof-release}
          * 23.3版本中的验证 {#proof-23-3-release}
             * [23.3版的Adobe Workfront Proof](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3发布活动： 2023年7月17日起的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年6月5日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年5月8日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront验证发布活动： 2021年5月17日开始的这一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
