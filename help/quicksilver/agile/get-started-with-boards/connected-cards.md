@@ -6,16 +6,14 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
 
 # 在展示板上使用连接的信息卡
-
-{{highlighted-preview}}
 
 您可以在展示板上添加一张信息卡，该信息卡连接到中的现有任务和问题。 [!DNL Workfront].
 
@@ -146,13 +144,13 @@ ht-degree: 0%
       <td>请参阅下面的“在连接的卡上记录小时数”。</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL注释]</strong></span> </td>
-      <td><span class="preview"><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="附件图标"> 将文件附加到注释。 要标记人员或团队，请使用注释区域底部的搜索框。 用户不必是讨论区的成员。 已连接信息卡上的标记用户将收到电子邮件通知。</p><p>单击 <strong>[！UICONTROL提交]</strong> 以向信息卡添加注释。</p>
-      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.</p></span></td>
+      <td role="rowheader"><strong>[！UICONTROL注释]</strong></td>
+      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="附件图标"> 将文件附加到注释。 要标记人员或团队，请使用注释区域底部的搜索框。 用户不必是讨论区的成员。 已连接信息卡上的标记用户将收到电子邮件通知。</p><p>单击 <strong>[！UICONTROL提交]</strong> 以向信息卡添加注释。</p>
+      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p><p><strong>注意：</strong> 信息卡上的评论只能通过Workfront展示板的早期功能选择加入获得。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL系统活动]</strong></span> </td> 
-      <td><span class="preview"><p>如果您拥有 <strong>系统活动</strong> 活动作为卡片部分启用，则会显示在此区域中。</p> <p>有关更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自定义信息卡上显示的字段</a> 和 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">系统跟踪的更新</a>.</p></span></td>
+      <td role="rowheader"><strong>[！UICONTROL系统活动]</strong></td> 
+      <td><p>如果您拥有 <strong>系统活动</strong> 活动作为卡片部分启用，则会显示在此区域中。</p> <p>有关更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自定义信息卡上显示的字段</a> 和 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">系统跟踪的更新</a>.</p><p><strong>注意：</strong> 系统活动只能通过Workfront展示板的早期功能选择加入来进行。</p></td>
      </tr>     
     </tbody> 
    </table>

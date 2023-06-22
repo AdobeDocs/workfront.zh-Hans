@@ -6,16 +6,14 @@ description: 您可以快速将临时信息卡添加到展示板并将其分配�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 向展示板添加临时信息卡
-
-{{highlighted-preview}}
 
 您可以快速将信息卡添加到展示板并将其分配给展示板上的成员。 信息卡可以表示要包含在展示板中的任务、问题、人员、组或任何类型的项目。
 
@@ -100,18 +98,18 @@ ht-degree: 0%
       <td> <p>单击 <strong>[！UICONTROL添加清单项目]</strong>. 然后，键入项目的标题并按Enter。 将自动添加另一个项目。 继续输入标题以添加更多项目。</p> <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理信息卡上的清单项目</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL注释]</strong></span> </td>
-      <td><span class="preview"><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="附件图标"> 将文件附加到注释。 要标记人员或团队，请使用注释区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
+      <td role="rowheader"><strong>[！UICONTROL注释]</strong></td>
+      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="附件图标"> 将文件附加到注释。 要标记人员或团队，请使用注释区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
       </p><p>单击 <strong>[！UICONTROL提交]</strong> 以向信息卡添加注释。</p>
-      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.</p></span></td>
+      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p><p><strong>注意：</strong> 信息卡上的评论只能通过Workfront展示板的早期功能选择加入获得。</p></td>
      </tr>
     </tbody> 
    </table>
 
-   生产环境中的示例图像：
+   未使用早期功能选择加入时的生产环境中的示例图像：
    ![临时信息卡详细信息](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">“预览”环境中的示例图像：</span>
+   启用早期功能选择加入后，生产环境中的示例图像：
    ![临时信息卡详细信息](assets/ad-hoc-card-details-with-comments.png)
 
    使用左侧导航面板在信息卡详细信息中的字段部分之间移动。
