@@ -2,9 +2,9 @@
 user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 1%
 
 ---
@@ -1738,8 +1738,8 @@ ht-degree: 1%
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [查看文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 校样 {#proofing}
-      * [校样](review-and-approve-work/proofing/proofing.md)
+   * 验证 {#proofing}
+      * [验证](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
@@ -2166,6 +2166,7 @@ ht-degree: 1%
          * [使用Adobe Workfront插件更新您的工作](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [使用Adobe Workfront插件将工作项标记为完成](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [使用Adobe Workfront插件记录时间](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [管理 [!DNL Adobe Workfront] 来自Adobe Creative Cloud的通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * 使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证 {#upload-docs-proofs-wf-cc}
          * [从上传文档和验证 [!DNL Adobe Workfront plugin] 到 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [使用适用于Creative Cloud应用程序的Adobe Workfront插件上传文档和验证](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2250,8 +2251,8 @@ ht-degree: 1%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront营销活动请求或营销活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 校样 {#workfront-proof}
-   * [Workfront 校样](workfront-proof/workfront-proof.md)
+* Workfront 验证 {#workfront-proof}
+   * [Workfront 验证](workfront-proof/workfront-proof.md)
    * Workfront Proof入门 {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流示例 {#workflow-examples}
