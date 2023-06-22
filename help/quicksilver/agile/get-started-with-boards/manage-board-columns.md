@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除不需要的任何列。
 
 列设置包括策略，这些策略允许您定义卡片被移动到该列时卡片所发生的变化的选项。
+
+有关按列对卡片进行排序的信息，请参见 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## 访问要求
 
