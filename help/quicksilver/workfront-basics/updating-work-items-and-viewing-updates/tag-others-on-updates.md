@@ -6,7 +6,7 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -37,9 +37,9 @@ ht-degree: 0%
 >     * 列表中的摘要面板
 >     * 时间表中的“摘要”面板
 >
-> * 目标， <span class="preview">展示板区域中的信息卡</span>
+> * 讨论区中的目标、信息卡
 >
->   新的评论体验是目标的唯一体验 <span class="preview">和卡片</span>. 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新的评论体验是目标和信息卡的唯一体验。 您必须拥有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 

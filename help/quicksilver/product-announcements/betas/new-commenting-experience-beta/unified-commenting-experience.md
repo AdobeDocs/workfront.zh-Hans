@@ -6,16 +6,16 @@ description: 目前正在开发Adobe Workfront中评论体验的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # 新的评论体验
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅适用于预览环境中的所有客户。</span>
 
 目前正在开发Adobe Workfront中评论体验的更新。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
@@ -432,7 +432,7 @@ ht-degree: 1%
 
 * 默认情况下，作为主要评论体验：
 
-   * 目标， <span class="preview">展示板区域中的信息卡</span>
+   * 讨论区中的目标、信息卡
 
   >[!NOTE]
   >
