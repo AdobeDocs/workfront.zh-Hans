@@ -6,9 +6,9 @@ description: 目前正在开发Adobe Workfront中评论体验的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ ht-degree: 1%
 
 * 在更新部分中启用测试版体验时：
 
-   * 问题， <span class="preview">项目、任务、故事和文档</span>
+   * 问题， <span class="preview">项目、任务和文档</span>
 
   有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

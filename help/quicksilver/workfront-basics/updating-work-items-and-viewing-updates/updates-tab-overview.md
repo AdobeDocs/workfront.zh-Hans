@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 4%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>故事</li> 
+     <li>故事*</li> 
      <li>任务</li> 
      <li>模板</li> 
      <li>模板任务</li> 
@@ -89,10 +89,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+*故事是任务。 所有与任务相关的信息也可用于故事。
 
 ### Beta版评论体验中“更新”部分的概述
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 “更新”部分在新注释体验的以下选项卡中显示信息：
 
@@ -109,7 +112,7 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目标</p>
-     <li><span class="preview">展示板区域中的信息卡</span></li>
+     <li><span class="preview">展示板区域中的信息卡*</span></li>
       这是实现目标的唯一体验 <span class="preview">和卡片</span>.
      </li> 
      <li><span class="preview">项目</span></li>
@@ -124,10 +127,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+*在信息卡上启用“备注”和“系统活动”部分时，您可以在信息卡区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 更新也会显示在较高级别的对象中
 

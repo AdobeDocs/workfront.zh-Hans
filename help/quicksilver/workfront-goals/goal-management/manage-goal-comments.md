@@ -6,9 +6,9 @@ description: 您可以将注释添加到可在Adobe Workfront目标中查看的�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 0%
         有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 单击注释右侧，然后单击 **删除** 以删除您添加的评论。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至9操作。 <!--insure this stays accurate-->
+1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至9操作。 有关回复更新的详细信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. （有条件和可选）如果其他用户添加了显示在更新部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
