@@ -4,9 +4,9 @@ description: 在23.3版本发布时间范围内查看体验更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版和生产版：待宣布（23.3版之前）
+>计划预览版： 2023年6月28日；计划生产版： 2023年7月13日
 
 我们对“提交的请求”列表的界面进行了改进。
 
@@ -36,8 +36,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本：待宣布（23.3版本之前）；生产版本：随23.3版本一起发布
+>计划预览版： 2023年7月5日；计划生产版：随23.3版一起发布
 
 我们更新了提交新请求时显示的新请求框。 现在，界面与向项目添加新问题时显示的新问题框匹配。
 
 有关更多信息，请参阅 [创建和提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## 更新的记帐费率列表
+
+>[!NOTE]
+>
+>预览版本： 2023年6月29日；针对快速版本客户的计划生产版本：将在23.3生产版本之后发布；针对所有客户的计划生产版本：使用23.4版本
+
+项目记帐费率列表现在具有更现代的外观，可在Workfront中的大多数其他列表中找到。

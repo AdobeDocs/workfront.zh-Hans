@@ -3,9 +3,9 @@ title: 23.3 Agile增强
 description: 23.3 Agile增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 本页介绍了23.3版本对“预览”环境做出的所有Agile增强。 这些增强功能将在23.3版本的生产环境中提供。
 
 有关23.3版本周期此时可用所有更改的列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+有关如何在季度发布之前选择启用新展示板功能的详细信息，请参阅 [Adobe Workfront展示板的早期功能加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## 项目的敏捷视图显示看板
 
@@ -28,24 +30,6 @@ ht-degree: 0%
 
 更新后的项目Agile视图的文档将随版本一起发布以供预览。
 
-## 深色模式现在可在Adobe Workfront展示板上使用
-
-您现在可以在深色模式下显示所有展示板和工作流。 新设置可通过“展示板”操控板上的首选项使用。
-
->[!NOTE]
->
->如果您组织的Workfront实例已载入到Adobe统一体验，您可以通过首选项菜单（您的配置文件图片）为所有Adobe Experience Cloud启用深色主题格式，并且您将不会看到Workfront展示板的单独深色模式选项。
-
-有关更多信息，请参阅 [讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Adobe Workfront展示板中的工作流迭代改进
-
-我们添加了将目标添加到迭代的功能，而无需在信息卡上列出目标。 目标以清单格式添加，可以标记为完成。 迭代右上角的量度区域显示了存在多少个目标和已完成的目标数。
-
-此外，“下一个开发周期”列现在可在开发周期展示板上使用。 当您将信息卡置入此列时，它将自动传送到下一个迭代，并且不会返回到积压。 在下一个迭代中，信息卡会出现在与其状态对应的列中。
-
-有关这两项功能的详细信息，请参阅 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## 按展示板列排序
 
 我们添加了为展示板列中的卡片排序的功能。 选择排序依据的选项时，将对所有列进行排序。 您不能对单个列进行排序，积压或引入列也不会进行排序。
@@ -56,6 +40,24 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## 深色模式现在可在Adobe Workfront展示板上使用
+
+您现在可以在深色模式下显示所有展示板和工作流。 新设置可通过“展示板”操控板上的首选项使用。
+
+>[!NOTE]
+>
+>如果您组织的Workfront实例已载入到Adobe统一体验，您可以通过首选项菜单（您的配置文件图片）为所有Adobe Experience Cloud启用深色主题格式，并且您将不会看到Workfront展示板的单独深色模式选项。
+
+有关更多信息，请参阅 [讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Adobe Workfront展示板中的工作流迭代中可用的目标
+
+我们添加了将目标添加到迭代的功能，而无需在信息卡上列出目标。 目标以清单格式添加，可以标记为完成。 迭代右上角的量度区域显示了存在多少个目标和已完成的目标数。
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+有关更多信息，请参阅 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## 向展示板上的信息卡添加评论
 
 >[!NOTE]
@@ -65,6 +67,8 @@ ht-degree: 0%
 您现在可以向展示板上的临时信息卡和已连接信息卡添加注释，并在注释上标记其他用户。 备注可在信息卡详细信息中找到。 展示板的评论功能使用新的Adobe Workfront评论体验。
 
 有关更多信息，请参阅 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## 对展示板标记管理器的增强
 
