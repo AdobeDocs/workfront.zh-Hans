@@ -6,9 +6,9 @@ description: 查看Adobe Workfront新评论体验的每周发布活动。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ ht-degree: 3%
 
 现在，当使用新的评论体验时，您能够复制评论的内容并将其作为新引号添加到同一会话中的回复。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 文档将在发布版本时更新。
 
-预览和生产：计划于2023年6月29日发布
+计划的预览和生产版本： 2023年6月29日
+
+#### 用于记录时间的新界面
+
+我们重新设计了界面，用于从新评论体验的更新区域记录时间。
+
+有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md). 文档将在发布版本时更新。
+
+计划预览版本： 2023年6月29日
+
+计划生产版本： 23.3版本
 
 #### 将表情符号添加到更新
 
 您现在可以使用新注释体验中的富文本工具栏选项将表情符号添加到注释中。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 文档将在发布版本时更新。
 
 预览：待宣布（在23.3版本期间）
 
@@ -91,11 +101,11 @@ ht-degree: 3%
 
 这将是这些对象的唯一评论体验，因为当您访问这些对象时，旧版评论体验会被删除。
 
-有关更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+有关更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 文档将在发布版本时更新。
 
 预览版本：将在23.3生产版本（2023年7月20日）之后发布
 
-快速版本客户的生产版本：将在23.3生产版本之后发布
+面向快速版本客户的生产版本：将在23.3版本之后发布
 
 适用于所有客户的生产版本：使用23.4版本
 
