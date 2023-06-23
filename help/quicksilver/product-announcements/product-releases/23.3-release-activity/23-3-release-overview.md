@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此页面上的增强功能在“预览”环境中可用。 随着23.3版本接近其计划的“生产”版本，此页面将进行额外的增强功能更新。
 
-23.3版本网络研讨会将于2023年6月29日举行。 您可以 [在此处注册网络研讨会](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+23.3版本网络研讨会将于2023年6月29日举行。 您可以 [在此处注册网络研讨会](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">非周期功能（在23.3发行日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
