@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">按展示板列排序</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">按展示板列排序</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
                         <p>我们添加了为展示板列中的卡片排序的功能。 选择排序依据的选项时，将对所有列进行排序。 您不能对单个列进行排序，积压或引入列也不会进行排序。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
