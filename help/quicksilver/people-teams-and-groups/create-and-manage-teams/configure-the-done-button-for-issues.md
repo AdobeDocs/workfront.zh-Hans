@@ -6,7 +6,7 @@ description: 完成按钮可自动设置任务或问题的状态。 默认情况
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 具有特定权限的用户可以配置 [!UICONTROL 完成] 按钮来反映系统中的特定状态。 有3种不同的方式 [!UICONTROL 完成] 按钮适用于中的问题 [!DNL Workfront]：
 
 * 如果用户已分配 [!UICONTROL 主团队]， a [!DNL Workfront] 管理员或具有权限的用户 [!UICONTROL 计划] 许可证可以配置 [!UICONTROL 完成] 按钮以反映团队成员的某些状态。 参见 [配置 [!UICONTROL 完成] “团队”按钮](#configure-the-uicontrol-done-button-for-a-team) 本文章中。
-* 如果用户没有 [!UICONTROL 主团队]，但它们具有[!UICONTROL 其他团队] 在其配置文件中，Workfront搜索 [!UICONTROL 完成] 任何与用户关联的团队上的按钮。 选择是随机的，与任何团队关联的状态用于问题。
+* 如果用户没有 [!UICONTROL 主团队]，但它们具有 [!UICONTROL 其他团队] 在其配置文件中，Workfront搜索 [!UICONTROL 完成] 任何与用户关联的团队上的按钮。 选择是随机的，与任何团队关联的状态用于问题。
 * 如果用户没有 [!UICONTROL 主团队] 已分配， [!UICONTROL 完成] 问题的按钮已绑定到系统生成的 [!UICONTROL 已解决] 具有三个字母代码的状态 [!UICONTROL RLV]. 此方案中没有可用的配置选项。 此 [!UICONTROL 完成] 按钮会自动默认为此状态。
 * 如果 [!UICONTROL 已解决] ([!UICONTROL RLV])状态已删除，并且用户将该问题标记为 [!UICONTROL 完成] 没有 [!UICONTROL 主团队]，默认问题状态会绑定到设置为默认问题的任何内容， [!UICONTROL 已关闭] 对于分配给问题所属项目的组。 Workfront管理员可以为组配置系统范围的默认设置。 参见 [配置 [!UICONTROL 完成] 按钮时 [!UICONTROL 已解决] 已删除状态](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) 本文章中。
 
