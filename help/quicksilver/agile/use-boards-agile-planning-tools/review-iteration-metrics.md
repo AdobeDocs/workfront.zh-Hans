@@ -7,9 +7,9 @@ description: 量度可用于工作流中迭代流程展示板上的每个迭代�
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 1. 选择 [!UICONTROL 迭代过程] 展示板。
 1. 查看右上角展示板上方的量度区域。 单击向上和向下箭头可在迭代之间移动。
 
-   显示以下量度：分配给开发周期的点总数、开发周期中尚未完成的剩余点、开发周期中完成的点数。
+   显示以下量度：分配给开发周期的点总数、开发周期中尚未完成的剩余点以及开发周期中完成的点数。
 
 1. （可选）单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png) 以打开所选小版本的详细信息对话框。
 

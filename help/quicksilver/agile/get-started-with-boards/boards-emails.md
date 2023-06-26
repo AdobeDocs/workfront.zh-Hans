@@ -6,9 +6,9 @@ title: 讨论区电子邮件通知和首选项
 description: Adobe Workfront展示板会在您将您添加到展示板时以及向您分配信息卡时向您发送电子邮件。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >电子邮件通知只能通过Workfront展示板的早期功能选择加入获得。
-
-<span class="preview">其他首选项允许您为所有展示板和工作流启用深色模式。</span>
 
 ## 访问要求
 
