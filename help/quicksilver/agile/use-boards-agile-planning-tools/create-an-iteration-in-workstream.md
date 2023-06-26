@@ -7,16 +7,14 @@ description: 迭代是为完成工作而保留的设定时间。 某些敏捷团
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # 在工作流中创建迭代
-
-{{highlighted-preview}}
 
 迭代是为完成工作而保留的设定时间。 某些敏捷团队可能会将开发周期称为冲刺。
 
@@ -90,12 +88,13 @@ ht-degree: 0%
 
    迭代开始后，您只能更改迭代名称，而不能更改日期或迭代长度。
 
-1. <span class="preview">要将目标添加到迭代，请展开 [!UICONTROL **目标**].</span>
-1. <span class="preview">单击 [!UICONTROL **添加目标**]，并键入目标名称。</span>
+<!--   
 
-   <span class="preview">当目标在迭代过程中完成时，您可以选中复选框以将其标记为完成，或单击 **删除** 图标 ![“删除”图标](assets/delete.png) 以删除目标。 迭代右上角的量度区域显示了存在多少个目标和已完成的目标数。</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration
