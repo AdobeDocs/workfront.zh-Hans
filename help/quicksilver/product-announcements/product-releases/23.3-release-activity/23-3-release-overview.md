@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ ht-degree: 0%
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">深色模式现在可在Adobe Workfront展示板上使用</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">深色模式现在可在Adobe Workfront展示板上使用</a></p>
                         <p>您现在可以在深色模式下显示所有展示板和工作流。 新设置可通过“展示板”操控板上的首选项使用。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年6月22日</p>
+                                <p>预览版本： 2023年6月22日<span style="color: #ff0000;"> 此功能已从“预览”中删除，将不会随23.3一起发布。</span></p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用23.3版本</p>
+                                <p>适用于所有客户的生产版本：不适用</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中的工作流迭代上可用的目标</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中的工作流迭代上可用的目标</a></p>
                         <p>我们添加了将目标添加到迭代的功能，而无需在信息卡上列出目标。 目标以清单格式添加，可以标记为完成。 迭代右上角的量度区域显示了存在多少个目标和已完成的目标数。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年6月22日</p>
+                                <p>预览版本： 2023年6月22日<span style="color: #ff0000;"> 此功能已从“预览”中删除，将不会随23.3一起发布。</span></p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用23.3版本</p>
+                                <p>适用于所有客户的生产版本：不适用</p>
                             </li>
                         </ul>
                     </td>

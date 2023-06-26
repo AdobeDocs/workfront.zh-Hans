@@ -3,9 +3,9 @@ title: 23.3 Agile增强
 description: 23.3 Agile增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## 深色模式现在可在Adobe Workfront展示板上使用
 
 您现在可以在深色模式下显示所有展示板和工作流。 新设置可通过“展示板”操控板上的首选项使用。
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 我们添加了将目标添加到迭代的功能，而无需在信息卡上列出目标。 目标以清单格式添加，可以标记为完成。 迭代右上角的量度区域显示了存在多少个目标和已完成的目标数。
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+此外，“下一个开发周期”列现在可在开发周期展示板上使用。 当您将信息卡置入此列时，它将自动传送到下一个迭代，并且不会返回到积压。 在下一个迭代中，信息卡会出现在与其状态对应的列中。
 
 有关更多信息，请参阅 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
