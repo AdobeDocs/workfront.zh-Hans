@@ -6,9 +6,9 @@ description: 查看Adobe Workfront新评论体验的每周发布活动。
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 3%
 >
 >23.2版本在Beta版中推出了新的评论体验。 有关原始版本的信息，请参阅 [23.2发行版概述](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->针对Workfront对象发布到Beta版体验的注释功能也发布到Workfront目标中目标对象的“更新”部分。
+>针对Workfront对象发布到Beta版体验的注释功能也作为唯一的注释体验发布到以下对象的“更新”部分：
+>* 目标
+>* “展示板”区域中的信息卡。
 
 ## 发布时间表
 

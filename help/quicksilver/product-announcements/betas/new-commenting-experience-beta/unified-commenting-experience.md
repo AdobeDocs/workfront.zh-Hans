@@ -6,9 +6,9 @@ description: 目前正在开发Adobe Workfront中评论体验的更新。 此更
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ ht-degree: 1%
 * 关于系统更新的评论
 * 可在注释时编辑状态、条件和提交日期
 * 编辑自定义表单
+
+>[!NOTE]
+>
+>在启用测试版体验时，以下列出的对象仅包含过去一年（从2022年6月开始）的注释和系统更新。
+>
+>* 问题
+>* <span class="preview">项目</span>
+>* <span class="preview">任务</span>
+>* <span class="preview">文档</span>
+>
+>在查看当前体验中的更新部分时，您可以查看2022年6月之前的注释和系统更新。
+
 
 下表说明了新注释体验中可用的功能，以及这些功能在受支持领域的可用性：
 
@@ -443,7 +455,7 @@ ht-degree: 1%
 1. 转到要为其激活新注释体验的对象，然后单击 **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
 1. 单击 **同意** Beta协议框中的。 这将为所选对象启用新的注释体验。
-1. 开始在 **注释** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
+1. 开始在 **评论** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
 
    或
 

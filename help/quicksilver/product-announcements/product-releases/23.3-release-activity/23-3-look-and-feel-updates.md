@@ -4,9 +4,9 @@ description: 在23.3版本发布时间范围内查看体验更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 * 页面上传时现在有一个加载指示器；
 * “复制”图标是永久性的，并伴有文本，如果没有选择请求，该图标将处于禁用状态。
 
-有关更多信息，请参阅 [复制并提交请求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+有关更多信息，请参阅 [复制并提交请求](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 文档将在功能发布后更新。
 
-## 提交新请求时更新了设计
+## 向项目添加新问题时更新了设计
 
 >[!NOTE]
 >
 >计划预览版： 2023年7月5日；计划生产版：随23.3版一起发布
 
-我们更新了提交新请求时显示的新请求框。 现在，界面与向项目添加新问题时显示的新问题框匹配。
+我们更新了向项目提交新问题时显示的“新问题”框。 现在，界面与向请求队列提交新请求时显示的新请求框匹配。
 
-有关更多信息，请参阅 [创建和提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+有关更多信息，请参阅 [创建问题](../../../manage-work/issues/manage-issues/create-issues.md). 文档将在功能发布后更新。
 
 ## 更新的记帐费率列表
 
