@@ -1,13 +1,14 @@
 ---
 title: 复制并提交请求
-description: 复制并提交请求
+description: 当您频繁提交类似请求时，可以复制现有的已提交请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ ht-degree: 2%
 1. （视情况而定）如果默认情况下不显示“已提交”部分，请单击 **已提交** （在左侧面板中）。
 1. 找到要复制并作为新请求提交的请求，然后执行以下操作之一：
 
-   * 选择它，然后单击 **复制并提交为新版本** 图标 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （在已提交的请求列表的左上角）。 <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * 选择它，然后单击 **复制并提交为新版本** 图标 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （在已提交的请求列表的左上角）。 <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
