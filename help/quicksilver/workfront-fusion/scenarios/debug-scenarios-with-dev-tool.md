@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 使用Adobe Workfront Fusion DevTool调试方案
-description: 利用Adobe Workfront Fusion DevTool，可了解情景并排除其故障。 DevTool向Chrome开发人员工具中添加了一个额外的面板。 使用此调试器面板，您可以检查方案的所有手动运行，查看所有已执行的操作，并查看每个已执行API调用的详细信息。 您可以查看哪个模块、操作或单个响应导致了错误，并使用该知识来优化您的方案。
+title: 使用Adobe Workfront Fusion DevTool调试场景
+description: Adobe Workfront Fusion DevTool允许您了解场景并对其进行故障排除。 DevTool向Chrome开发人员工具添加了一个额外的面板。 使用此调试器面板，您可以检查场景的所有手动运行，查看所有执行的操作，并查看每个执行的API调用的详细信息。 您可以查看导致错误的模块、操作或单个响应，并使用该知识来优化场景。
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c7d3a5927996c76b4f7e66302809c2b46dd5f1d7
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Adobe Workfront Fusion] DevTool
+# 使用调试方案 [!DNL Adobe Workfront Fusion] DevTool
 
-的 [!DNL Adobe Workfront Fusion] DevTool允许您了解情景并排除其故障。 DevTool会向 [!DNL Chrome Developer Tools]. 使用此调试器面板，您可以检查方案的所有手动运行，查看所有已执行的操作，并查看每个已执行API调用的详细信息。 您可以查看哪个模块、操作或单个响应导致了错误，并使用该知识来优化您的方案。
+此 [!DNL Adobe Workfront Fusion] 通过DevTool，您可以了解场景并对其进行故障排除。 DevTool将一个额外的面板添加到 [!DNL Chrome Developer Tools]. 使用此调试器面板，您可以检查场景的所有手动运行，查看所有执行的操作，并查看每个执行的API调用的详细信息。 您可以查看导致错误的模块、操作或单个响应，并使用该知识来优化场景。
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,22 +32,30 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]许可证**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] （用于工作自动化和集成） </p><p>[!UICONTROL [!DNL Workfront Fusion] （工作自动化） </p>  </td>    </tr> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
+  <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] （对于工作自动化和集成），[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>贵组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 安装 [!DNL Chrome] DevTool扩展
 
@@ -65,20 +73,20 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
    Once unpacked, the DevTool appears among your other Chrome extensions.
    -->
 
-您可以将 [!DNL Workfront Fusion] DevTool到 [!DNL Chrome] 到 [!UICONTROL [!DNL Chrome] 网上商店].
+您可以添加 [!DNL Workfront Fusion] DevTool [!DNL Chrome] 通过 [!UICONTROL [!DNL Chrome] 网络商店].
 
-1. 单击 [此链接](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 转到 [!DNL Workfront Fusion] 上的DevTool [!UICONTROL [!DNL Chrome] 网上商店].
-1. 单击 **[!UICONTROL 添加到[!DNL Chrome]]**.
+1. 单击 [此链接](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 以转到 [!DNL Workfront Fusion] 开发工具 [!UICONTROL [!DNL Chrome] 网络商店].
+1. 单击 **[!UICONTROL 添加至[!DNL Chrome]]**.
 1. 在打开的窗口中，检查权限。 如果您同意这些权限，请单击 **[!UICONTROL 添加扩展]**.
 
-的 [!DNL Workfront Fusion] DevTool扩展已添加到 [!DNL Chrome] 扩展。
+此 [!DNL Workfront Fusion] DevTool扩展将添加到 [!DNL Chrome] 扩展。
 
 
 ## 找到 [!DNL Workfront Fusion] DevTool
 
-使用 [!DNL Workfront Fusion] DevTool中，您必须将 [!DNL Workfront Fusion] DevTool扩展 [!DNL Chrome] 浏览器，如 [安装Chrome DevTool扩展](#install-the-chrome-devtool-extension).
+要使用 [!DNL Workfront Fusion] DevTool，您必须添加 [!DNL Workfront Fusion] 您的DevTool扩展 [!DNL Chrome] 浏览器，如中所述 [安装Chrome DevTool扩展](#install-the-chrome-devtool-extension).
 
-1. 打开 [!DNL Workfront Fusion] 情景。
+1. 打开您的 [!DNL Workfront Fusion] 场景。
 1. 打开 [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
@@ -98,21 +106,21 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
    >[!TIP]
    >
-   >我们建议将 [!DNL Chrome Developer Console] 以更好地查看您的模块。
+   >我们建议停靠 [!DNL Chrome Developer Console] 以更好地查看模块。
 
-1. 单击 **[!DNL Workfront Fusion]** 选项卡 [!DNL Chrome Dev Tools].
+1. 单击 **[!DNL Workfront Fusion]** 按Tab键进入 [!DNL Chrome Dev Tools].
 
 ## 使用 [!DNL Workfront Fusion] DevTool
 
-Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的左侧面板中找到这些组件。
+Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的左侧面板中找到这些内容。
 
 * [实时流](#live-stream)
-* [方案调试器](#scenario-debugger)
+* [场景调试器](#scenario-debugger)
 * [工具](#tools)
 
 ### 实时流
 
-在方案中，当您单击运行一次时，实时流会显示在后台发生的情况。
+实时流显示场景中单击运行一次后后台发生的情况。
 
 1. 单击 **[!UICONTROL 实时流]** 图标 ![](assets/live-stream-icon.png) 以打开实时流部分。
 1. 执行以下任一操作：
@@ -129,58 +137,58 @@ Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的�
     <tbody> 
      <tr> 
       <td role="rowheader">查看请求信息</td> 
-      <td> <p>您可以查看方案中每个模块的以下信息</p> 
+      <td> <p>您可以查看场景中每个模块的以下信息</p> 
        <ul> 
-        <li> <p>请求头（API端点URL、http方法、调用请求的时间和日期、请求头和查询字符串）</p> </li> 
+        <li> <p>请求标头（API端点URL、http方法、调用请求的时间和日期、请求标头以及查询字符串）</p> </li> 
         <li> <p>请求正文</p> </li> 
         <li> <p>响应标头</p> </li> 
         <li> <p>响应正文</p> </li> 
-       </ul> <p>要查看此信息，请单击 [!DNL Workfront Fusion] 开发工具。</p> </td> 
+       </ul> <p>要查看此信息，请单击 [!DNL Workfront Fusion] DevTool。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>搜索请求和响应</p> </td> 
-      <td> <p>在 [!DNL Workfront Fusion] DevTool来仅显示包含搜索词的请求。</p> </td> 
+      <td> <p>在左侧面板的搜索字段中输入搜索词 [!DNL Workfront Fusion] DevTool ，用于仅显示包含搜索词的请求。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>删除请求列表 </p> </td> 
-      <td> <p>单击DevTool左侧面板右上角的垃圾桶图标，以清除 [!DNL Workfront Fusion] 开发工具。 </p> </td> 
+      <td> <p>单击DevTool左侧面板右上角的垃圾桶图标，以清除由记录的请求列表。 [!DNL Workfront Fusion] DevTool。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>启用控制台日志记录</p> </td> 
-      <td> <p>单击计算机图标 <img src="assets/console-computer-icon.png"> 工具的右上角。</p> <p>当计算机图标为绿色时，控制台中会启用日志记录功能。</p> </td> 
+      <td> <p>单击计算机图标 <img src="assets/console-computer-icon.png"> DevTool左侧面板的右上角。</p> <p>当计算机图标为绿色时，将启用控制台中的日志记录。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>使用原始JSON格式或cURL检索请求</p> </td> 
+      <td role="rowheader"> <p>以原始JSON格式或cURL检索请求</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>原始JSON</strong> </p> <p>单击 <strong>[!UICONTROL Copy RAW]</strong> 工具右窗格的右上角。</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>单击 <strong>[!UICONTROL Copy cURL]</strong> 工具右窗格的右上角。</p> </li> 
+        <li> <p><strong>原始JSON</strong> </p> <p>单击 <strong>[！UICONTROL Copy RAW]</strong> DevTool右窗格右上角的。</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>单击 <strong>[！UICONTROL复制cURL]</strong> DevTool右窗格右上角的。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-### 方案调试器
+### 场景调试器
 
-情景调试器对于更复杂的情景非常有用。 它显示方案运行的历史记录，并允许您按模块的名称或ID搜索模块。
+场景调试器可用于更复杂的场景。 它显示方案运行的历史记录，并允许您按名称或ID搜索模块。
 
-1. 单击 **[!UICONTROL 方案调试器]** 图标 ![](assets/scenario-debugger-icon.png) 以打开方案调试器。
-1. （可选）在的左窗格的搜索字段中输入搜索词（名称或模块ID） [!DNL Workfront Fusion] 中的DevTool [!UICONTROL 方案调试器] 中。
-1. 双击模块的名称，以在方案编辑器中打开其设置。
-1. 通过单击所需的操作，查看请求详细信息。
+1. 单击 **[!UICONTROL 场景调试器]** 图标 ![](assets/scenario-debugger-icon.png) 以打开场景调试器。
+1. （可选）在左侧窗格的搜索字段中输入搜索词（名称或模块ID） [!DNL Workfront Fusion] 中的DevTool [!UICONTROL 场景调试器] 部分。
+1. 双击模块的名称以在方案编辑器中打开其设置。
+1. 通过单击所需的操作查看请求详细信息。
 
 ### 工具
 
-的 [!DNL Workfront Fusion] DevTool具有一些工具，可让您更轻松地设置方案。
+此 [!DNL Workfront Fusion] DevTool提供了一些工具，可让您更轻松地设置场景。
 
-1. 单击 **[!UICONTROL 工具]** 图标 ![](assets/console-tools-icon.png) 打开工具。
+1. 单击 **[!UICONTROL 工具]** 图标 ![](assets/console-tools-icon.png) 以打开“工具”。
 1. 选择要使用的工具
-1. 按如下所述配置字段。
+1. 配置字段，如下所述。
 1. 单击 **[!UICONTROL 运行]**.
 
 工具及其字段：
 
-* [集中模块](#focus-a-module)
+* [聚焦模块](#focus-a-module)
 * [通过映射查找模块](#find-modules-by-mapping)
 * [获取应用程序元数据](#get-app-metadata)
 * [复制映射](#copy-mapping)
@@ -188,50 +196,50 @@ Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的�
 * [交换连接](#swap-connection)
 * [交换变量](#swap-variable)
 * [交换应用程序](#swap-app)
-* [基64](#base-64)
+* [以64为底](#base-64)
 * [复制模块名称](#copy-module-name)
 * [重新映射源](#remap-source)
 * [突出显示应用程序](#highlight-app)
 * [迁移GS](#migrate-gs)
 
-#### [!UICONTROL 集中模块]
+#### [!UICONTROL 聚焦模块]
 
 按ID打开指定模块的设置。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL模块ID]</td>
-        <td>输入要为其打开设置的模块的ID。</td>
+        <td>[！UICONTROL模块ID]</td>
+        <td>输入要打开其设置的模块ID。</td>
     </tr>
 </table>
 
 #### [!UICONTROL 通过映射查找模块]
 
-用于搜索指定术语的模块值。 输出包含包含您搜索的术语的模块ID。
+允许您搜索指定术语的模块值。 输出包含模块ID，这些模块包含您已搜索的术语。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL关键字]</td> 
-   <td> <p> 输入要搜索的术语。 </p> </td> 
+   <td role="rowheader">[！UICONTROL关键字]</td> 
+   <td> <p> 输入要搜索的搜索词。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL仅使用值]</p> </td> 
-   <td> <p>启用此选项可仅在模块字段的值中搜索。</p> <p>禁用此选项，也可在模块字段名称中搜索。</p> <p>通过名称和标签参数执行搜索。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL仅使用值]</p> </td> 
+   <td> <p>启用此选项可仅搜索模块字段的值。</p> <p>禁用此选项还可在模块字段的名称中进行搜索。</p> <p>搜索通过name和label参数执行。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 获取应用程序元数据]
 
-按应用程序的模块名称或ID检索应用程序的元数据。 例如，当您需要了解情景中使用的应用程序版本时，这项功能非常有用。
+按应用程序的模块名称或ID检索应用程序的元数据。 例如，在需要了解场景中使用的应用程序版本时，这非常有用。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL源模块]</td>
-        <td>选择要检索其元数据的模块。</td>
+        <td>[！UICONTROL源模块]</td>
+        <td>选择要检索元数据的模块。</td>
     </tr>
 </table>
 
@@ -241,120 +249,120 @@ Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的�
 
 >[!CAUTION]
 >
->确保设置正确的源模块和目标模块。 如果选择其他类型的模块，则将删除目标模块中的值。
+>确保设置了正确的源模块和目标模块。 如果选择其他类型的模块，则将删除目标模块中的值。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源模块]</td> 
+   <td role="rowheader">[！UICONTROL源模块]</td> 
    <td> <p> 选择模块或输入要从中复制字段值的模块的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target模块]</p> </td> 
-   <td> <p>选择模块或输入要插入源模块值的模块的ID。</p> <p>重要信息：目标模块中的值将被覆盖。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL目标模块]</p> </td> 
+   <td> <p>选择模块或输入要插入源模块值的模块ID。</p> <p>重要信息：将覆盖目标模块中的值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 复制筛选器]
 
-将筛选器设置从源模块复制到目标模块。
+将过滤器设置从源模块复制到目标模块。
 
 >[!NOTE]
 >
->复制操作将对置于选定模块左侧的过滤器执行。
+>复制操作在位于所选模块左侧的过滤器上执行。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源模块]</td> 
+   <td role="rowheader">[！UICONTROL源模块]</td> 
    <td> <p> 选择模块或输入要从中复制筛选器值的模块的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target模块]</p> </td> 
-   <td> <p>选择模块或输入要从源模块插入筛选值的模块的ID。</p> <p>重要信息：目标模块中的值将被覆盖。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL目标模块]</p> </td> 
+   <td> <p>选择模块或输入要向其中插入源模块中的过滤器值的模块ID。</p> <p>重要信息：将覆盖目标模块中的值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL保留回退路由设置]</p> </td> 
-   <td> <p>源筛选器将设置为回退路由。 启用此选项还可将目标筛选器设置为回退路由。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL保留回退路由设置]</p> </td> 
+   <td> <p>源筛选器设置为回退路由。 启用此选项还可以将目标过滤器设置为回退路由。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 交换连接]
 
-将源模块中的连接复制到同一应用程序方案中的每个模块。
+在同一应用程序的场景中，复制从源模块到每个模块的连接。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL源模块]</td>
+        <td>[！UICONTROL源模块]</td>
         <td>选择模块或输入要从中复制连接的模块的ID。</td>
     </tr>
 </table>
 
 #### [!UICONTROL 交换变量]
 
-在方案中搜索指定的变量，并将其替换为新变量。
+搜索方案中的指定变量并将其替换为新的变量。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！要查找的UICONTROL变量]</td> 
-   <td> <p> 在方案中的模块中找到要替换的变量药丸，并将其复制到此（[!UICONTROL要查找的变量]）字段。 在字段中，显示双花括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td role="rowheader">[！UICONTROL要查找的变量]</td> 
+   <td> <p> 在场景中从模块找到要替换的变量丸并将其复制到此（[！UICONTROL要查找的变量]）字段。 在字段中，它出现时带有双大括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL替换为]</p> </td> 
-   <td> <p>在方案中的模块中找到要将变量替换为的变量药丸，并将其复制到此（[!UICONTROL要查找的变量]）字段。 在字段中，显示双花括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL替换为]</p> </td> 
+   <td> <p>在场景的模块中，找到要用来替换变量的变量丸子，并将其复制到此（[！UICONTROL要查找的变量]）字段中。 在字段中，它出现时带有双大括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL模块]</p> </td> 
-   <td> <p>选择要替换变量的模块。 如果未选择任何模块，则变量将在整个方案中替换。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL模块]</p> </td> 
+   <td> <p>选择要替换变量的模块。 如果未选择模块，则变量将在整个场景中被替换。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 交换应用程序]
 
-将方案中的选定应用程序版本替换为其他应用程序版本。
+将场景中选定的应用程序版本替换为其他应用程序版本。
 
-例如，可以使用此功能将Gmail和电子邮件应用程序的模块升级到最新版本。
+例如，可使用此选项将Gmail和电子邮件应用程序的模块升级到最新版本。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！要替换的UICONTROL应用程序]</td> 
+   <td role="rowheader">要替换的[！UICONTROL应用程序]</td> 
    <td> <p> 选择要替换的应用程序。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL替换为]</p> </td> 
-   <td> <p>选择要将其替换为的应用程序。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL替换为]</p> </td> 
+   <td> <p>选择要替换它的应用程序。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 基64]
+#### [!UICONTROL 以64为底]
 
-用于将输入的数据编码为Base64或对Base64进行解码。 某些请求将编码为Base64。 当您想要在编码请求中搜索特定数据时，此工具会非常有用。
+允许您将输入的数据编码为Base64或解码Base64。 部分请求编码为Base64。 当您想要搜索编码请求中的特定数据时，此工具可能很有用。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL操作] </td> 
-   <td> <p>选择是要将[!UICONTROL Raw Data]字段中的数据编码为Base64，还是将Base64解码为Raw Data。</p> </td> 
+   <td role="rowheader">[！UICONTROL操作] </td> 
+   <td> <p>选择是要将数据从[！UICONTROL Raw Data]字段编码为Base64，还是要将Base64解码为Raw Data。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL原始数据]</p> </td> 
-   <td> <p> 根据上面[!UICONTROL Operation]字段中选择的选项，输入要编码为Base64或Base64（如果要解码为原始数据）的数据。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL原始数据]</p> </td> 
+   <td> <p> 根据上面[！UICONTROL操作]字段中选择的选项，输入要编码为Base64的数据，如果要解码为原始数据，则输入Base64。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -368,62 +376,62 @@ Workfront Fusion DevTool分为3个主要部分。 您可以在DevTool窗口的�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL模块] </td> 
-   <td> <p>选择要复制的模块名称。</p> </td> 
+   <td role="rowheader">[！UICONTROL模块] </td> 
+   <td> <p>选择要复制其名称的模块。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 重新映射源]
 
-用于将映射源从一个模块更改为另一个模块。
+允许您将映射源从一个模块更改为另一个模块。
 
-您必须首先将要用作源模块的模块添加到方案中的路由。
+您必须首先将要用作源模块的模块添加到场景中的路由。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL源模块] </td> 
-   <td> <p> 选择要替换的模块作为方案中其他模块的映射源。</p> </td> 
+   <td role="rowheader">[！UICONTROL源模块] </td> 
+   <td> <p> 选择要替换的模块作为场景中其他模块的映射源。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target模块]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL目标模块]</p> </td> 
    <td> <p>选择要用作新映射源的模块。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！要编辑的UICONTROL模块]</p> </td> 
-   <td> <p>如果不想在整个方案中更改映射，请选择要更改映射的模块。 </p> </td> 
+   <td role="rowheader"> <p>要编辑的[！UICONTROL模块]</p> </td> 
+   <td> <p>如果不想更改整个方案中的映射，请选择要为其更改映射的模块。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 突出显示应用程序]
 
-在您的方案中突出显示指定应用程序的模块。
+突出显示场景中指定应用程序的模块。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！要高亮显示的UICONTROL应用程序] </td> 
-   <td> <p> 选择要在方案中突出显示的应用程序。</p> </td> 
+   <td role="rowheader">[！UICONTROL应用程序将突出显示] </td> 
+   <td> <p> 选择要在场景中高亮显示的应用程序。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL版本] </p> </td> 
-   <td> <p>选择要突出显示的应用程序版本。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL版本] </p> </td> 
+   <td> <p>选择要高亮显示的应用程序版本。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL高亮显示颜色]</p> </td> 
-   <td> <p> 输入要用于突出显示模块的十六进制颜色。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL高亮颜色]</p> </td> 
+   <td> <p> 输入要用于突出显示模块的颜色十六进制。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 迁移GS]
 
-此工具专门用于升级 [!DNL Google Sheets] （旧版）模块到最新版本 [!DNL Google Sheets] 版本。 它会在方案路由中模块的旧版本之后添加模块的新版本。
+此工具专为升级而设计 [!DNL Google Sheets] （旧版）模块到最新版本 [!DNL Google Sheets] 版本。 紧接在场景路由中的旧版模块之后，它会添加一个新版本的模块。
 
-此模块不要求您设置任何参数。
+此模块不需要您设置任何参数。

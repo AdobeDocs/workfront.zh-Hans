@@ -9,9 +9,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模块中使用双方TLS，�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ ht-degree: 0%
 >**示例:**
 >
 >* **TLS**：当用户在浏览器中键入“MyGreatBank.com”时，他们希望确保自己将访问“我的伟大银行”，而不是可能滥用或出售其银行信息的网站。 他们还想确保自己的银行账户信息被加密。
-   >
-   >   当浏览器（客户端）连接到MyGreatBank.com （服务器）时，TLS需要来自MyGreatBank.com的证书来验证其身份。 证书由证书颁发机构提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 由于浏览器信任证书颁发机构，因此允许连接。
+>
+>   当浏览器（客户端）连接到MyGreatBank.com （服务器）时，TLS需要来自MyGreatBank.com的证书来验证其身份。 证书由证书颁发机构提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 由于浏览器信任证书颁发机构，因此允许连接。
 >
 >* **双向TLS**： MySoftware.com是一个软件客户端，需要来自MyGreatBank.com API的信息。 MyGreatBank仅允许受信任的客户端连接到其服务器。 因此，除了验证MyGreatBank.com身份的一般TLS之外，TLS/证书颁发机构进程还验证MySoftware.com发出的请求。
-
 
 ## 访问要求
 
@@ -57,11 +56,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[！UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 这些 [!DNL Workfront Fusion] 公共证书将于2024年6月9日到期。 您的证书过期后，您需要向Web服务上传新证书。 我们建议您：
-   >
-   >   * 记下过期日期，并设置提醒，以便您自己将证书上传到您的Web服务。
-   >   * 将此页面加入书签以轻松查找新证书。
+>
+>   * 记下过期日期，并设置提醒，以便您自己将证书上传到您的Web服务。
+>   * 将此页面加入书签以轻松查找新证书。
 >
 >* 这些是非通配符mTLS证书。
-
 
 * [下载 [!DNL Workfront Fusion] 证书2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [下载 [!DNL Workfront Fusion] 2023年欧盟证书](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   在欧盟使用
+  在欧盟使用
 
 <!--
 

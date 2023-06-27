@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Adobe Workfront Fusion中的一般函数
+title: Adobe Workfront Fusion中的常规函数
 description: Adobe Workfront Fusion映射面板中提供了以下常规函数。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto">
  <col> 
@@ -31,26 +31,34 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]许可证**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （用于工作自动化和集成） </p><p>[!UICONTROL [!DNL Workfront Fusion] （工作自动化）</p>  </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
+   <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>贵组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL get（对象或数组）；path)]
+## [!UICONTROL get（对象或数组；路径）]
 
-返回对象或数组的值路径。 要访问嵌套对象，请使用点表示法。 数组中的第一个项是索引1。
+返回对象或数组的值路径。 要访问嵌套对象，请使用点表示法。 数组中的第一项是索引1。
 
 >[!INFO]
 >
@@ -61,68 +69,65 @@ ht-degree: 2%
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
+## [!UICONTROL if （表达式；值1；值2）]
 
-## [!UICONTROL if（表达式）；value1;value2)]
-
-返回 `value1` 如果表达式的计算结果为true;否则，它将返回 `value2`.
+返回 `value1` 如果表达式的计算结果为true，则返回 `value2`.
 
 >[!INFO]
 >
 >**示例:**
 >
 >* `if( 1 = 1 ; A ; B )`
-   >
-   >    返回A
+>
+>    返回
 >
 >* `if( = 2 ; A ; B )`
-   >
-   >   返回B
+>
+>   返回B
 
+## [!UICONTROL imfempty (value1； value2)]
 
-## [!UICONTROL ifempty(value1;value2)]
-
-返回 `value1` 如果此值不为空；否则，它将返回 `value2`.
+返回 `value1` 如果此值不为空，则会返回 `value2`.
 
 >[!INFO]
 >
 >**示例:**
 >
 >* `ifempty(` `A` `;` `B` )
-   >
-   >   返回A
+>
+>   返回
 >
 >* `ifempty(` `unknown` `;` `B` )
-   >
-   >   返回B
+>
+>   返回B
 >
 >* `ifempty(` `""` `;` `B` )
-   >
-   >   返回B
+>
+>   返回B
 
+## [!UICONTROL 开关(表达式；值1；结果1； [value2； result2； ...]； [else])]
 
-## [!UICONTROL 开关（表达式）；value1;结果1; [value2;结果2;...]; [else])]
-
-根据值列表计算一个值（称为表达式）；返回与第一个匹配值对应的结果。
+根据值列表评估一个值（称为表达式）；返回与第一个匹配值对应的结果。
 
 >[!INFO]
 >
 >**示例:**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   返回2
+>
+>   返回2
 >
 >* `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   返回3
+>
+>   返回3
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
 >  返回4
 
-## [!UICONTROL opt(object);键1; [key2;...])]
+## [!UICONTROL omit(object； key1； [key2； ...])]
 
-忽略对象的给定键，并返回其余键。
+省略对象的给定键并返回其余键。
 
 >[!INFO]
 >
@@ -132,9 +137,9 @@ ht-degree: 2%
 >
 >返回用户信息的集合，不包括密码。
 
-## [!UICONTROL pick(object);键1; [key2;...])]
+## [!UICONTROL pick(object； key1； [key2； ...])]
 
-仅选取对象中的给定键。
+仅从对象中选取给定的键。
 
 >[!INFO]
 >
@@ -142,4 +147,4 @@ ht-degree: 2%
 >
 >`pick(` 用户 `;` 密码 `;` 电子邮件 `)`
 >
->仅返回用户密码和电子邮件地址的集合。
+>仅返回用户的密码和电子邮件地址的集合。

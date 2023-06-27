@@ -7,16 +7,16 @@ description: 通过Adobe Experience Cloud访问Workfront Fusion可为您提供�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Unified Experience] 用于 [!DNL Workfront Fusion]
 
-访问 [!DNL Workfront Fusion] 到 [!DNL Adobe Experience Cloud] 为您提供管理所有广告的无缝、统一体验[!DNL]Obe应用程序。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
+访问 [!DNL Workfront Fusion] 到 [!DNL Adobe Experience Cloud] 为您提供无缝、统一的体验，管理您的所有 [!DNL Adobe] 应用程序。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
 有关描述中导航的视频 [!DNL Fusion] 在 [!DNL Adobe Experience Cloud]，请参见：
 
@@ -40,11 +40,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> <p>[！UICONTROL [!DNL Workfront Fusion] 工作自动化] </p>  </td> 
+   <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

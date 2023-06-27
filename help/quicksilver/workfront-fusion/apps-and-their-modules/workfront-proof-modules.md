@@ -4,33 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
-title: Workfront校样模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用 [!DNL Workfront Proof]，并将其连接到多个第三方应用程序和服务。
+title: Workfront Proof模块
+description: 在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Workfront Proof]，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a79c6b2fb2b651987f973bc0d74e0eeea312c5bc
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront Proof] 模块
 
-在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用 [!DNL Workfront Proof]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Workfront Proof]，并将其连接到多个第三方应用程序和服务。
 
-如果您需要执行校对内当前不支持的任务，则此功能非常有用 [!DNL Workfront] 或 [!DNL Workfront Proof]，例如根据某些事件更新校样并搜索校样的收件人。
+如果您需要执行验证中当前不支持的任务，这将很有用 [!DNL Workfront] 或位于 [!DNL Workfront Proof]，例如根据某些事件更新验证和搜索验证的收件人。
 
-的 [!DNL Workfront Proof] 连接器不计入贵组织可用的活动应用程序数。 所有方案，即使它们仅使用 [!DNL Workfront Proof] 应用程序时，请根据贵组织的总方案计数计算。
+此 [!DNL Workfront Proof] connector不计入您的组织可用的活动应用程序数量。 所有方案，即使它们只使用 [!DNL Workfront Proof] 应用程序，是否计入贵组织的方案总数。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-有关模块的信息，请参阅 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto">
  <col> 
@@ -38,32 +38,40 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td>
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （用于工作自动化和集成） </p>  <p>[!UICONTROL [!DNL Workfront Fusion] （工作自动化）</p></td> 
+   <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] （对于工作自动化和集成），[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>贵组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL Workfront Proof] 模块及其字段
 
-配置 [!DNL Workfront Proof] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除了这些， [!DNL Workfront Proof] 字段可能会显示，具体取决于诸如应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Workfront Proof] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Workfront Proof] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果您看到字段或函数上方的映射按钮，则可以使用它为该字段设置变量和函数。 有关更多信息，请参阅 [在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -75,31 +83,31 @@ ht-degree: 0%
 
 * [观看校样](#watch-proofs)
 * [观看PDF摘要](#watch-for-pdf-summary)
-* [[!UICONTROL 观看校样活动]](#watch-proof-activity)
+* [[!UICONTROL Watch Proof活动]](#watch-proof-activity)
 
 #### [!UICONTROL 观看校样]
 
-当某人创建或决定校样时，此计划触发器模块会执行一个方案。
+此计划触发器模块在有人创建验证或做出决定时执行场景。
 
-该模块会返回在您指定的时间段内找到的所有记录的列表及其类型。 它还会返回您指定字段的值。 如果模块找到对校样做出的决策，则它会在单独的字段中同时包含先前值和当前值。 您可以在方案的后续模块中映射此信息。
+该模块会返回一个列表，其中包含您在指定的时间段内找到的所有记录及其类型。 它还会返回指定字段的值。 如果模块发现对验证做出了决策，则它将在单独的字段中包含上一个和当前值。 您可以将此信息映射到场景中的后续模块。
 
-这会在您指定的定期计划间隔内发生。
+此操作在您指定的定期计划间隔内发生。
 
-您必须拥有足够的权限才能在中访问校样或校样 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的验证 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接]</td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">记录类型</td> 
-   <td>选择 [!DNL Workfront Proof] 记录您希望模块监视的内容。</td> 
+   <td>选择类型 [!DNL Workfront Proof] 您希望模块观看的录制。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">输出</td> 
@@ -107,20 +115,20 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">限制</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大记录数。</p> </td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 观看PDF摘要]
 
-此即时触发模块在某人为校样创建PDF摘要时执行方案。
+当有人为校对创建PDF摘要时，此即时触发模块执行场景。
 
-此模块中需要Webhook。
+此模块中需要webhook。
 
-模块会返回与校样关联的所有标准字段，以及连接所访问的任何自定义字段和值。 它还会为PDF摘要创建新事件订阅，并输出有效载荷中发送的“pdf_url”属性的内容。 您可以在方案的后续模块中映射此信息。
+模块返回与验证关联的所有标准字段，以及连接访问的任何自定义字段和值。 它还为PDF摘要创建新的事件订阅，并输出有效负载中发送的“pdf_url”属性中的内容。 您可以将此信息映射到场景中的后续模块。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -128,26 +136,26 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Webhook]</td> 
-   <td>您可以选择现有网页挂接，也可以创建新网页挂接。 有关更多信息，请参阅 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">中的即时触发器(Webhook) [!DNL Adobe Workfront Fusion]</a>. </td> 
+   <td>[！UICONTROL Webhook]</td> 
+   <td>您可以选择现有的webhook或创建一个新的webhook。 有关更多信息，请参阅 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">中的即时触发器(Webhook) [!DNL Adobe Workfront Fusion]</a>. </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL限制]</td> 
-   <td>输入或映射您希望模块在每个方案执行周期期间返回的最大记录数。</td> 
+   <td>[！UICONTROL限制]</td> 
+   <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 观看校样活动]
+#### [!UICONTROL Watch Proof活动]
 
-当在校样中发生指定的活动时，此触发器模块会执行一个方案。
+此触发器模块执行对验证验证发生指定活动的场景。
 
-模块会返回与校样关联的所有标准字段，以及连接所访问的任何自定义字段和值。 它还会为PDF摘要创建新事件订阅，并输出 `pdf_url` 属性。 您可以在方案的后续模块中映射此信息。
+模块返回与验证关联的所有标准字段，以及连接访问的任何自定义字段和值。 它还为PDF摘要创建新的事件订阅，并输出以下内容中的 `pdf_url` 在有效负载中发送的属性。 您可以将此信息映射到场景中的后续模块。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -155,15 +163,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Activity type]</td> 
-   <td>选择您是要观看任何新决策（包括[!UICONTROL校样]状态更改），还是仅观看整体校样状态更改。</td> 
+   <td>[！UICONTROL活动类型]</td> 
+   <td>选择您是要观看任何新决策（包括[！UICONTROL验证]状态更改），还是只观看整体验证状态更改。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL限制]</td> 
-   <td>输入或映射您希望模块在每个方案执行周期期间返回的最大记录数。</td> 
+   <td>[！UICONTROL限制]</td> 
+   <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,21 +180,21 @@ ht-degree: 0%
 
 * [[!UICONTROL 创建校对]](#create-proof)
 * [[!UICONTROL 自定义API调用]](#custom-api-call)
-* [[!UICONTROL 下载校样]](#download-proof)
+* [[!UICONTROL 下载校对]](#download-proof)
 * [[!UICONTROL 读取记录]](#read-a-record)
 * [[!UICONTROL 请求PDF摘要]](#request-pdf-summary)
-* [[!UICONTROL 更新校样]](#update-proof)
+* [[!UICONTROL 更新校对]](#update-proof)
 * [[!UICONTROL 上传文件]](#upload-file)
 
 #### [!UICONTROL 创建校对]
 
-此操作模块会在中创建新校样或新版本的校样 [!DNL Workfront Proof].
+此操作模块在中创建新验证或新版本的验证 [!DNL Workfront Proof].
 
-如果要创建新版本，请指定新校样和源校样的参数。
+如果要创建新版本，请指定新验证和源验证的参数。
 
-该模块返回新校样或校样版本的ID。您可以在场景中的后续模块中映射此信息。
+模块返回新验证或验证版本的ID。您可以将此信息映射到场景中的后续模块。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,146 +202,146 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样类型]</td> 
-   <td> <p>指定您希望创建的校样具有基本工作流还是[!UICONTROL自动工作流]。</p> <p>然后，填写为所选校样类型显示的字段。 例如，如果您选择[!UICONTROL Automated Workflow]，请填写 <strong>[!UICONTROL工作流阶段]</strong> 字段来配置阶段。</p></td> 
+   <td>[！UICONTROL校对类型]</td> 
+   <td> <p>指定您希望创建的验证具有基本工作流还是[！UICONTROL自动工作流]。</p> <p>然后填写为您选择的验证类型显示的字段。 例如，如果您选择[！UICONTROL自动工作流]，请填写 <strong>[！UICONTROL工作流暂存]</strong> 用于配置暂存的字段。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL允许下载原始文件]</td> 
-   <td>选择是否允许下载从中创建校样的原始文件。</td> 
+   <td>[！UICONTROL允许下载原始文件]</td> 
+   <td>选择是否允许下载从中创建校对的原始文件。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Classic校样查看器]</td> 
-   <td>选择您是否在使用经典校样查看器。</td> 
+   <td>[！UICONTROL Classic Proof Viewer]</td> 
+   <td>选择是否使用经典校样查看器。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL将所有文件合并到单个校样中]</td> 
-   <td>启用此选项可将所有文件合并到一个多页校样中。</td> 
+   <td>[！UICONTROL将所有文件合并到单个验证中]</td> 
+   <td>启用此选项可将所有文件合并到一个多页验证中。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL创建新校样版本]</td> 
-   <td>如果希望模块创建现有校样的新版本，请选择此选项。 然后，在 <strong>[!UICONTROL现有校样ID]</strong> 字段，用于显示、映射或输入校样的唯一ID。</td> 
+   <td>[！UICONTROL创建新验证版本]</td> 
+   <td>如果希望模块创建现有校对的新版本，请选择此选项。 然后，在 <strong>[！UICONTROL现有校对ID]</strong> 显示、映射或输入验证的唯一ID的字段。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL自定义链接标签]</td> 
-   <td>输入或映射自定义校样链接的标签。</td> 
+   <td>[！UICONTROL自定义链接标签]</td> 
+   <td>输入或映射自定义验证链接的标签。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL自定义链接URL]</td> 
+   <td>[！UICONTROL自定义链接URL]</td> 
    <td>输入或映射自定义链接的URL。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL订阅者的默认电子邮件通知]</td> 
-   <td>键入以下数字之一，以指示您要对所创建校样使用的以下默认电子邮件通知设置。
+   <td>[！UICONTROL订阅者的默认电子邮件通知]</td> 
+   <td>键入以下数字之一，以指示要将以下哪些默认电子邮件通知设置用于创建的验证。
     <ul>
      <li><strong>1</strong>  — 所有新评论和回复</li>
-     <li><strong>2</strong>  — 对我的评论的答复</li>
+     <li><strong>2</strong>  — 回复我的评论</li>
      <li><strong>3</strong>  — 每日摘要</li>
-     <li><strong>4</strong>  — 每小时概要</li>
+     <li><strong>4</strong>  — 每小时摘要</li>
      <li><strong>5</strong>  — 仅决策</li>
      <li><strong>9</strong>  — 已禁用</li>
     </ul></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL禁用Excel摘要]</td> 
-   <td>选择是否要禁用将校样注释下载到Excel文件的功能。</td> 
+   <td>[！UICONTROL禁用Excel摘要]</td> 
+   <td>选择是否要禁用将校对注释下载到Excel文件的功能。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL禁用PDF摘要]</td> 
-   <td>选择是否要禁用将校样注释下载到PDF文件的功能。</td> 
+   <td>[！UICONTROL禁用PDF摘要]</td> 
+   <td>选择是否要禁用将校对评论下载到PDF文件的功能。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL禁用订阅电子邮件]</td> 
-   <td>选择是否要禁用此校样的订阅电子邮件。</td> 
+   <td>[！UICONTROL禁用订阅电子邮件]</td> 
+   <td>选择是否要为此验证禁用订阅电子邮件。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL启用嵌入播放器]</td> 
-   <td>选择是否要为此校样启用嵌入式播放器。</td> 
+   <td>[！UICONTROL启用嵌入播放器]</td> 
+   <td>选择是否要为此验证启用嵌入的播放器。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL启用订阅]</td> 
-   <td>选择是否允许非参与者的用户订阅校样。<br>如果选择此选项，则还可以为订阅者选择默认角色，如此表所述。</td> 
+   <td>[！UICONTROL启用订阅]</td> 
+   <td>选择是否允许非参与者订阅验证。<br>如果选择此选项，还可以为订阅者选择默认角色，如此表所述。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL启用订阅验证]</td> 
-   <td>选择是否要启用订阅电子邮件验证。 如果启用了此功能，订阅者必须单击电子邮件中的链接才能访问校样。</td> 
+   <td>[！UICONTROL启用订阅验证]</td> 
+   <td>选择是否要启用订阅电子邮件验证。 如果启用此项，订阅者必须单击电子邮件中的链接才能访问验证。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL启用团队URL]</td> 
-   <td>选择是希望创建的校样来隐藏还是显示团队URL。</td> 
+   <td>[！UICONTROL启用团队URL]</td> 
+   <td>选择您希望创建的校样隐藏还是显示团队URL。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL文件哈希] <span style="font-weight: normal;">或</span> [!UICONTROL文件哈希]</td> 
-   <td>添加要从中创建校样或校样的文件的ID。</td> 
+   <td>[！UICONTROL文件哈希] <span style="font-weight: normal;">或</span> [！UICONTROL文件哈希]</td> 
+   <td>添加要从中创建验证的一个或多个文件的ID。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL文件名]</td> 
-   <td>添加所创建校样的文件名或名称。这是必填字段。</td> 
+   <td>[！UICONTROL文件名]</td> 
+   <td>为创建的验证添加一个或多个文件名这是必填字段。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL在做出所有必需决策时进行锁校样]</td> 
-   <td>指定是否希望创建的校样在做出所有必需的决策后锁定。</td> 
+   <td>[！UICONTROL完成所有必需的决策时锁定校对]</td> 
+   <td>指定您是否希望在做出所有必需的决策后锁定创建的验证。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL将此校样通知收件人]</td> 
-   <td>选择一个选项，以指示您是否希望在创建校样时通知收件人。&gt;</td> 
+   <td>[！UICONTROL将此证明通知收件人]</td> 
+   <td>选择一个选项，以指示您是否希望在创建验证时通知收件人。&gt;</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样名称]</td> 
-   <td>键入所创建校样的名称。这是必填字段。 使用管道符号(|)分隔多个校样的名称。</td> 
+   <td>[！UICONTROL校对名称]</td> 
+   <td>为创建的验证键入名称这是必填字段。 使用管道符号(|)为多个校样分隔名称。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样所有者ID]</td> 
-   <td>输入或映射校样所有者的ID。 如果此字段留空，则校样所有者将设置为当前用户。</td> 
+   <td>[！UICONTROL校对所有者ID]</td> 
+   <td>输入或映射验证所有者的ID。 如果此字段留空，则验证所有者将设置为当前用户。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL引用ID]</td> 
-   <td>输入校样的引用ID。</td> 
+   <td>[！UICONTROL引用ID]</td> 
+   <td>输入验证的参考ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL需要电子签名]</td> 
-   <td>选择您是否希望要求对证据作出决定的任何人提交电子签名。</td> 
+   <td>[！UICONTROL需要电子签名]</td> 
+   <td>选择是否要要求对验证做出决定的任何人提交电子签名。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL需要登录]</td> 
-   <td> <p>指定是否希望创建的校样需要登录。 </p> <p>此设置与[!UICONTROL需要登录]设置相同，详见 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在中配置校样设置[!UICONTROL [!DNL Workfront Proof]</a></p> </td> 
+   <td>[！UICONTROL需要登录]</td> 
+   <td> <p>指定您是否希望创建的验证需要登录。 </p> <p>这与中说明的[！UICONTROL需要登录]设置相同 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">中的[！UICONTROL配置校对设置] [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Resolution ID]</td> 
-   <td>输入要用于校样的分辨率ID。 有关分辨率ID的列表，请参阅 [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API文档</a>.</td> 
+   <td>[！UICONTROL分辨率ID]</td> 
+   <td>输入要用于校对的分辨率ID。 有关解决方案ID的列表，请参见 [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API文档</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROLSWF]</td> 
-   <td>输入SWF校样的类型。</td> 
+   <td>[！UICONTROLSWF]</td> 
+   <td>输入SWF验证的类型。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Show] [item]</td> 
-   <td>对于每个项目，选择是否要在校样中显示它。</td> 
+   <td>[！UICONTROL Show] [item]</td> 
+   <td>对于每个项目，选择是否要将其显示在验证中。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Workspace ID]</td> 
-   <td>输入要在中创建校样的工作区的ID。 </td> 
+   <td>[！UICONTROL工作区ID]</td> 
+   <td>输入要在其中创建验证的工作区的ID。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL收件人]</td> 
-   <td>添加所创建校样的收件人的电子邮件地址。</td> 
+   <td>[！UICONTROL收件人]</td> 
+   <td>为创建的验证添加所需收件人的电子邮件地址。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Deadline]</td> 
-   <td> <p>指定您希望创建校样的截止时间。 使用以下日期格式：</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
+   <td>[！UICONTROL截止日期]</td> 
+   <td> <p>指定您希望创建的校对的截止日期。 使用以下日期格式：</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 自定义API调用]
 
-通过此操作模块，您可以对 [!DNL Workfront Proof] API。 这样，您就可以创建数据流自动化，而另一个数据流无法实现 [!DNL Workfront Proof] 模块。
+通过此操作模块，您可以对 [!DNL Workfront Proof] API。 这样，您就可以创建一个其他人无法实现的数据流自动化 [!DNL Workfront Proof] 模块。
 
-模块会返回状态代码、标头和正文。 您可以在方案的后续模块中映射此信息。
+模块将返回状态代码、标题和正文。 您可以将此信息映射到场景中的后续模块。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -341,15 +349,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL方法]</td> 
-   <td>设置API调用的操作。 有关可用的操作，请参阅 <a href="http://api.proofhq.com/">校样API文档</a>.</td> 
+   <td>[！UICONTROL方法]</td> 
+   <td>为API调用设置操作。 有关可用的操作，请参阅 <a href="http://api.proofhq.com/">Proof API文档</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL主体(XML)]</td> 
-   <td> <p>以标准JSON对象的形式为API调用添加正文内容。</p> <p>注释:  <p>使用条件语句时，例如 <code>if</code> 在JSON中，将引号放置在条件语句的外部。</p> 
+   <td>[！UICONTROL正文(XML)]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -363,17 +371,17 @@ ht-degree: 0%
 >
 >![](assets/wfp-api-module-example-350x586.png)
 
-#### [!UICONTROL 下载校样]
+#### [!UICONTROL 下载校对]
 
-此操作模块会下载您使用其ID标识的特定校样的源文件。
+此操作模块下载您使用其ID识别的特定验证的源文件。
 
-您指定校样的ID。
+您指定校对的ID。
 
-该模块返回用于创建校样的源文件的内容。您可以在方案的后续模块中映射此信息。
+模块返回用于创建验证的源文件的内容。您可以将此信息映射到场景中的后续模块。
 
-您必须拥有足够的权限才能访问 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的记录 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -381,26 +389,26 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样ID]</td> 
-   <td> <p>键入校样的唯一ID，该ID位于[!UICONTROL校样详细信息]页面上。 有关更多信息，请参阅 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">在中管理校样详细信息 [!DNL Workfront Proof]</a>.</p> </td> 
+   <td>[！UICONTROL校对ID]</td> 
+   <td> <p>键入在[！UICONTROL校对详细信息]页面上找到的校对的唯一ID。 有关更多信息，请参阅 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">在中管理校对详细信息 [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 读取记录]
 
-此操作模块从 [!DNL Workfront Proof].
+该操作模块从中的单个验证读取数据 [!DNL Workfront Proof].
 
-您可以指定校样的ID以及校样中需要的信息。
+您可以指定校样的ID以及您想要从校样中获得的信息。
 
-模块会返回您为校样选择的字段值及其类型。 您可以在方案的后续模块中映射此信息。
+该模块返回您为验证选择的字段的值及其类型。 您可以将此信息映射到场景中的后续模块。
 
-您必须拥有足够的权限才能访问 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的记录 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -408,34 +416,34 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL记录类型]</td> 
-   <td>选择要阅读校样、校样注释还是校样审阅人。</td> 
+   <td>[！UICONTROL记录类型]</td> 
+   <td>选择您要读取校样、校样评论还是校样审阅者。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL输出]</td> 
+   <td>[！UICONTROL输出]</td> 
    <td> <p>选择要包含在此模块的输出包中的信息。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID]</td> 
-   <td>输入或映射唯一 [!DNL Workfront Proof] 您希望模块读取的记录的ID。</td> 
+   <td>[！UICONTROL ID]</td> 
+   <td>输入或映射唯一值 [!DNL Workfront Proof] 您希望模块读取的记录的ID。</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 请求PDF摘要]
 
-此操作模块会请求PDF摘要，以获取 [!DNL Workfront Proof].
+此操作模块请求中特定验证的PDF摘要 [!DNL Workfront Proof].
 
-您指定校样的ID。
+您指定校对的ID。
 
-该模块返回PDF摘要信息。 您可以在方案的后续模块中映射此信息。
+该模块返回PDF摘要信息。 您可以将此信息映射到场景中的后续模块。
 
-您必须拥有足够的权限才能访问 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的记录 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -443,14 +451,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样ID]</td> 
-   <td> <p>输入唯一 [!DNL Workfront Proof] 要为其请求PDF摘要的校样的ID。</p> </td> 
+   <td>[！UICONTROL校对ID]</td> 
+   <td> <p>输入唯一值 [!DNL Workfront Proof] 要请求PDF摘要的校对ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL回调URL]</td> 
+   <td>[！UICONTROL回调URL]</td> 
    <td>输入或映射要将PDF摘要发送到的URL。</td> 
   </tr> 
  </tbody> 
@@ -458,20 +466,20 @@ ht-degree: 0%
 
 ##### 可能的错误
 
-* **错误**:&quot;[!UICONTROL 您没有执行此请求的权限。 舞台必须至少包含一个收件人。]&quot;
-* **解决方案**:确保您不是分配给工作流各个阶段的唯一用户。 必须有另一个用户被分配到工作流的各个阶段。
+* **错误**： &quot;[!UICONTROL 您没有执行此请求的特权。 该阶段必须至少包含一个收件人。]”
+* **解决方案**：确保您不是唯一一个分配到工作流阶段的用户。 必须为工作流的阶段分配另一个用户。
 
-#### [!UICONTROL 更新校样]
+#### [!UICONTROL 更新校对]
 
-此操作模块会更新 [!DNL Workfront Proof].
+此操作模块更新中的现有校对 [!DNL Workfront Proof].
 
 您可以指定校样的ID和记录类型以及要包含在输出中的字段。
 
-模块会返回与记录关联的任何标准字段，以及连接所访问的任何自定义字段和值。 您可以在方案的后续模块中映射此信息。
+该模块返回与记录关联的任何标准字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
 
-您必须拥有足够的权限才能访问 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的记录 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -479,86 +487,86 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样ID]</td> 
-   <td> <p>键入校样的唯一ID，该ID位于[!UICONTROL校样详细信息]页面上。 有关更多信息，请参阅 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">在中管理校样详细信息 [!DNL Workfront Proof]</a>.</p> </td> 
+   <td>[！UICONTROL校对ID]</td> 
+   <td> <p>键入在[！UICONTROL校对详细信息]页面上找到的校对的唯一ID。 有关更多信息，请参阅 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">在中管理校对详细信息 [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Deadline]</td> 
-   <td> <p>指定您希望创建校样的截止时间。 使用以下日期格式：</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
+   <td>[！UICONTROL截止日期]</td> 
+   <td> <p>指定您希望创建的校对的截止日期。 使用以下日期格式：</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL订阅者的默认电子邮件通知]</td> 
-   <td>选择您要用于所创建校样的以下默认电子邮件通知设置中的哪个。
+   <td>[！UICONTROL订阅者的默认电子邮件通知]</td> 
+   <td>选择您想对创建的校样使用以下默认电子邮件通知设置中的哪项。
     <ul>
-     <li> [!UICONTROL所有新评论和回复]</li>
-     <li>[!UICONTROL对我的评论的回复]</li>
-     <li>[!UICONTROL每日摘要]</li>
-     <li> [!UICONTROL每小时摘要]</li>
-     <li> [！仅UICONTROL决策]</li>
-     <li> [!UICONTROL Disabled]</li>
+     <li> [！UICONTROL所有新评论和回复]</li>
+     <li>[！UICONTROL回复我的评论]</li>
+     <li>[！UICONTROL每日摘要]</li>
+     <li> [！UICONTROL小时摘要]</li>
+     <li> [！UICONTROL仅决策]</li>
+     <li> [！UICONTROL已禁用]</li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL默认角色]</td> 
-   <td>选择校样的默认角色。</td> 
+   <td>[！UICONTROL默认角色]</td> 
+   <td>选择校对的默认角色。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL禁用订阅电子邮件]</td> 
-   <td>选择是否要禁用此校样的订阅电子邮件。</td> 
+   <td>[！UICONTROL禁用订阅电子邮件]</td> 
+   <td>选择是否要为此验证禁用订阅电子邮件。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL启用订阅]</td> 
-   <td>选择是否允许非参与者的用户订阅校样。<br>如果选择此选项，则还可以为订阅者选择[!UICONTROL默认角色]，如此表所述。</td> 
+   <td>[！UICONTROL启用订阅]</td> 
+   <td>选择是否允许非参与者订阅验证。<br>如果选择此选项，您还可以为订阅者选择[！UICONTROL默认角色]，如本表所述。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL启用订阅验证]</td> 
-   <td>选择是否要启用订阅电子邮件验证。 如果启用了此功能，订阅者必须单击电子邮件中的链接才能访问校样。</td> 
+   <td>[！UICONTROL启用订阅验证]</td> 
+   <td>选择是否要启用订阅电子邮件验证。 如果启用此项，订阅者必须单击电子邮件中的链接才能访问验证。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL启用团队URL]</td> 
-   <td>选择是希望创建的校样来隐藏还是显示团队URL。</td> 
+   <td>[！UICONTROL启用团队URL]</td> 
+   <td>选择您希望创建的校样隐藏还是显示团队URL。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL在做出所有必需决策时进行锁校样]</td> 
-   <td>指定是否希望创建的校样在做出所有必需的决策后锁定。</td> 
+   <td>[！UICONTROL完成所有必需的决策时锁定校对]</td> 
+   <td>指定您是否希望在做出所有必需的决策后锁定创建的验证。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL消息]</td> 
-   <td>输入或映射要随校样一起显示的消息。</td> 
+   <td>[！UICONTROL消息]</td> 
+   <td>输入或映射要与校样一起显示的消息。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样ID] </td> 
-   <td>输入或映射要更新校样的ID。</td> 
+   <td>[！UICONTROL校对ID] </td> 
+   <td>输入或映射要更新的校对ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL校样名称]</td> 
-   <td>输入或映射要更新的校样的名称。</td> 
+   <td>[！UICONTROL校对名称]</td> 
+   <td>输入或映射要更新的校对的名称。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL需要登录]</td> 
-   <td> <p>指定是否希望创建的校样需要登录。 </p> <p>此设置与[!UICONTROL需要登录]设置相同，详见 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在中配置校样设置[!UICONTROL [!DNL Workfront Proof]</a></p> </td> 
+   <td>[！UICONTROL需要登录]</td> 
+   <td> <p>指定您是否希望创建的验证需要登录。 </p> <p>这与中说明的[！UICONTROL需要登录]设置相同 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">中的[！UICONTROL配置校对设置] [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL显示版本，如]</td> 
-   <td>选择是否要显示指向此校样其他版本的链接。</td> 
+   <td>[！UICONTROL Show Versions Like]</td> 
+   <td>选择是否要显示此校对的其他版本的链接。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL主题]</td> 
-   <td>输入或映射校样的主题</td> 
+   <td>[！UICONTROL主题]</td> 
+   <td>输入或映射验证的主题</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 上传文件]
 
-此操作模块上传文件以与 [!UICONTROL 创建校样] 模块 [!DNL Workfront Proof].
+此操作模块上传文件以用于 [!UICONTROL 创建校对] 中的模块 [!DNL Workfront Proof].
 
-该模块会返回已上传文件的哈希ID。 您可以在方案的后续模块中映射此信息。
+模块会返回已上传文件的哈希ID。 您可以将此信息映射到场景中的后续模块。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -566,11 +574,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL源文件]</td> 
-   <td> <p>从前一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
+   <td>[！UICONTROL源文件]</td> 
+   <td> <p>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -582,13 +590,13 @@ ht-degree: 0%
 
 #### [!UICONTROL 搜索]
 
-此搜索模块在 [!DNL Workfront Proof] 与您指定的搜索查询匹配。
+此搜索模块查找对象中的记录 [!DNL Workfront Proof] 与指定的搜索查询匹配的用户名称。
 
-如果模块正在搜索校样，则会返回校样的ID。 或者，如果正在搜索收件人，则返回收件人的用户ID、电子邮件、名称、位置和电子邮件别名。您可以在方案的后续模块中映射此信息。
+如果模块正在搜索验证，则会返回验证的ID。 如果正在搜索收件人，则它会返回收件人的用户ID、电子邮件、名称、位置和电子邮件别名。您可以将此信息映射到场景中的后续模块。
 
-您必须拥有足够的权限才能访问 [!DNL Workfront Proof] 以检索此信息。
+您必须具有足够的权限才能访问中的记录 [!DNL Workfront Proof] 以检索此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -596,27 +604,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>搜索</td> 
-   <td> <p>Se[!UICONTROL ]选择您希望模块搜索的记录类型。</p> 
+   <td> <p>Se[！UICONTROL ]选择您希望模块搜索的记录类型。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL校样]</strong> </p> <p>输入要搜索的校样的校样名称。</p> </li> 
-     <li> <p><strong>[!UICONTROL Recipient]</strong> </p> <p>输入要搜索的收件人的电子邮件地址。</p> </li> 
+     <li> <p><strong>[！UICONTROL Proof]</strong> </p> <p>输入要搜索的校对的校对名称。</p> </li> 
+     <li> <p><strong>[！UICONTROL收件人]</strong> </p> <p>输入要搜索的收件人的电子邮件地址。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL结果集]</td> 
-   <td>指示模块是否将搜索 <strong>[!UICONTROL所有匹配记录]</strong> 或仅 <strong>[!UICONTROL第一条匹配记录]</strong>.</td> 
+   <td>[！UICONTROL结果集]</td> 
+   <td>指示模块是否会搜索 <strong>[！UICONTROL所有匹配记录]</strong> 或仅 <strong>[！UICONTROL第一个匹配记录]</strong>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL排序依据]</td> 
-   <td>选择要按对结果排序的字段。</td> 
+   <td>[！UICONTROL排序方式]</td> 
+   <td>选择要作为结果排序依据的字段。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL排序方向]</td> 
-   <td> <p>选择是升序排序还是降序排序结果。</p> </td> 
+   <td>[！UICONTROL排序方向]</td> 
+   <td> <p>选择您要对结果进行升序排序还是降序排序。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -631,15 +639,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>有关连接 [!DNL Workfront Proof] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Workfront Proof] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL输出]</td> 
+   <td>[！UICONTROL输出]</td> 
    <td> <p>选择要包含在此模块的输出包中的信息。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大模板数。</p> </td> 
+   <td>[！UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大模板数。</p> </td> 
   </tr> 
  </tbody> 
 </table>

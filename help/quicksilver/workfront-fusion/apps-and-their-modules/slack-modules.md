@@ -5,28 +5,28 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Slack模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用Slack的工作流，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用Slack的工作流，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
-source-git-commit: aacdfccfb5c050d72f343fe7567979a8b0c9445b
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 0%
+source-wordcount: '1775'
+ht-degree: 1%
 
 ---
 
 # [!DNL Slack] 模块
 
-在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用 [!DNL Slack]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Slack]，并将其连接到多个第三方应用程序和服务。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-有关模块的信息，请参阅 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,36 +34,44 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td>
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>贵组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 先决条件
 
-使用 [!DNL Slack] 模块，您必须 [!DNL Slack] 帐户。
+使用 [!DNL Slack] 模块，您必须具有 [!DNL Slack] 帐户。
 
 ## [!DNL Slack] 模块及其字段
 
-配置 [!DNL Slack] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除了这些， [!DNL Slack] 字段可能会显示，具体取决于诸如应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Slack] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Slack] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果您看到字段或函数上方的映射按钮，则可以使用它为该字段设置变量和函数。 有关更多信息，请参阅 [在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -72,7 +80,7 @@ ht-degree: 0%
 * [渠道](#channels)
 * [反应](#reactions)
 * [星](#stars)
-* [保存的项目](#saved-items)
+* [已保存的项目](#saved-items)
 * [固定](#pins)
 * [用户](#users)
 * [提醒](#reminders)
@@ -84,23 +92,23 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看公共渠道消息]**
 
-当将新消息添加到公共渠道时，此触发器模块会启动方案。
+此触发器模块在将新消息添加到公共渠道时启动场景。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Channel] </td> 
-   <td> <p>选择要观看新消息的公共渠道。</p> </td> 
+   <td role="rowheader">[！UICONTROL渠道] </td> 
+   <td> <p>选择要监视新消息的公共渠道。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL限制] </td> 
-   <td> <p>设置消息的最大数量 [!DNL Workfront Fusion] 将在一个执行周期中返回。</p> </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td> <p>设置最大消息数 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,23 +117,23 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看专用渠道消息]**
 
-当将新消息添加到专用渠道（组）时，此触发器模块会启动方案。
+此触发器模块在将新消息添加到专用渠道（组）时启动场景。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Channel] </td> 
-   <td> <p>选择要观看新消息的专用渠道。</p> </td> 
+   <td role="rowheader">[！UICONTROL渠道] </td> 
+   <td> <p>选择要监视新消息的专用频道。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL限制] </td> 
-   <td> <p>设置消息的最大数量 [!DNL Workfront Fusion] 将在一个执行周期中返回。</p> </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td> <p>设置最大消息数 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -213,23 +221,23 @@ This search module returns messages matching a search query.
 
 +++ **[!UICONTROL 获取专用渠道消息]**
 
-此操作模块从选定的渠道中检索消息的详细信息。
+此操作模块从所选渠道检索消息的详细信息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL渠道ID]</p> </td> 
-   <td> <p>输入（映射）渠道ID。</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL渠道ID]</p> </td> 
+   <td> <p>输入（映射）渠道ID。</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL消息ID（时间戳）]</p> </td> 
-   <td> <p> 输入或映射要检索相关信息的消息的消息时间戳。</p> <p>注意：时间戳可以使用其他模块（如[!UICONTROL Watch Public Channel]模块）进行检索。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL消息ID（时间戳）]</p> </td> 
+   <td> <p> 输入或映射要检索相关信息的消息的消息时间戳。</p> <p>注意：可使用其他模块（例如[！UICONTROL Watch Public Channel]模块）检索时间戳。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -238,23 +246,23 @@ This search module returns messages matching a search query.
 
 +++ **[!UICONTROL 获取公共渠道消息]**
 
-此操作模块会从指定的公共渠道返回具有给定ID的消息。
+此操作模块从指定的公共渠道返回具有给定ID的消息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL渠道ID]</p> </td> 
-   <td> <p>输入或映射渠道ID。</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL渠道ID]</p> </td> 
+   <td> <p>输入或映射渠道ID。</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL消息ID（时间戳）]</td> 
-   <td> <p> 输入或映射要检索相关信息的消息的消息时间戳。</p> <p>注意：时间戳可以使用其他模块（如[!UICONTROL Watch Public Channel]模块）进行检索。</p> </td> 
+   <td role="rowheader">[！UICONTROL消息ID（时间戳）]</td> 
+   <td> <p> 输入或映射要检索相关信息的消息的消息时间戳。</p> <p>注意：可使用其他模块（例如[！UICONTROL Watch Public Channel]模块）检索时间戳。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,63 +304,63 @@ This action module retrieves a thread of messages posted to a conversation.
 
 +++ **[!UICONTROL 创建消息]**
 
-此操作模块会创建新消息。
+该操作模块将创建新消息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL输入渠道ID或名称]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL输入渠道ID或名称]</p> </td> 
    <td> <p>选择您希望如何选择要创建消息的渠道。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>在 <strong>[!UICONTROL渠道ID或名称]</strong> 字段中，输入或映射要在其中发布消息的渠道的渠道ID或名称。</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择渠道类型，然后选择渠道。</p> </li> 
+     <li> <p><strong>[！UICONTROL手动输入]</strong> </p> <p>在 <strong>[！UICONTROL渠道ID或名称]</strong> 字段，输入或映射要发布消息的渠道的渠道ID或名称。</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </li> 
+     <li> <p><strong>[！UICONTROL从列表中选择]</strong> </p> <p>选择渠道类型，然后选择渠道。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>输入要创建的消息的文本内容。</p> <p>注意：有关文本格式的详细信息，请参阅 <a href="https://api.slack.com/reference/surfaces/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL文本]</p> </td> 
+   <td> <p>输入要创建的消息的文本内容。</p> <p>注：有关文本格式的详细信息，请参阅 <a href="https://api.slack.com/reference/surfaces/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL块]</td> 
-   <td>块是可用于自定义和组织消息的可重用组件。 有关块的更多信息，请参阅 <a href="https://api.slack.com/block-kit">块工具包</a> 在 [!DNL Slack] 文档。</td> 
+   <td role="rowheader">[！UICONTROL块]</td> 
+   <td>块是可重用的组件，可用于自定义和整理消息。 有关块的详细信息，请参阅 <a href="https://api.slack.com/block-kit">块套件</a> 在 [!DNL Slack] 文档。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL线程消息ID（时间戳）]</td> 
-   <td>如果新消息是回复，请输入要回复的消息的时间戳。 请勿输入已作回复的消息的时间戳。</td> 
+   <td role="rowheader">[！UICONTROL线程消息ID（时间戳）]</td> 
+   <td>如果新消息是回复，请输入要回复的消息的时间戳。 不要输入已经是回复的消息的时间戳。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL回复广播]</td> 
-   <td> <p>选择 <strong>[!UICONTROL Yes]</strong> 如果同时适用以下两项：</p> 
+   <td role="rowheader">[！UICONTROL回复广播]</td> 
+   <td> <p>选择 <strong>[！UICONTROL是]</strong> 如果同时满足以下两个条件：</p> 
     <ul> 
-     <li> <p>新留言是对另一条留言的回复</p> </li> 
-     <li> <p>您希望新消息对渠道中的每个人都可见</p> </li> 
+     <li> <p>新消息是对另一消息的回复</p> </li> 
+     <li> <p>您希望渠道中的所有人都能够看到新消息</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL链接名称]</p> </td> 
-   <td> <p>启用此选项，以允许名称和渠道使用 <code>@username</code> 或 <code>#channel</code> 格式。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL链接名称]</p> </td> 
+   <td> <p>启用此选项以允许使用名称和渠道 <code>@username</code> 或 <code>#channel</code> 格式。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL解析消息文本]</p> </td> 
-   <td> <p>启用此选项以允许自动解析。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> <p>注意：如果您在原始消息中使用了[!UICONTROL链接名称]或[!UICONTROL解析消息文本]选项，则还应在运行[!UICONTROL更新消息]模块时指定这些选项。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL解析消息文本]</p> </td> 
+   <td> <p>启用此选项以允许自动分析。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> <p>注意：如果您在原始消息中使用了[！UICONTROL链接名称]或[！UICONTROL解析消息文本]选项，则您还应在运行[！UICONTROL更新消息]模块时指定这些选项。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL使用Markdown]</p> </td> 
-   <td> <p>启用此选项，以允许 [!DNL Slack] 以在文本中使用标记。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL使用Markdown]</p> </td> 
+   <td> <p>启用此选项以允许 [!DNL Slack] 在文本中使用Markdown。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL解除主要基于文本的内容]</p> </td> 
-   <td> <p>启用此选项可允许展开主要基于文本的内容。 </p> <p>有关在中展开的更多信息 [!DNL Slack]，请参阅 <a href="https://api.slack.com/reference/messaging/link-unfurling">在消息中展开链接</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL主要展开基于文本的内容]</p> </td> 
+   <td> <p>启用此选项以允许展开主要基于文本的内容。 </p> <p>有关展开的详细信息 [!DNL Slack]，请参见 <a href="https://api.slack.com/reference/messaging/link-unfurling">在消息中展开链接</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Unfurl媒体内容]</p> </td> 
-   <td> <p>启用此选项可允许展开媒体内容。 </p> <p>有关在中展开的更多信息 [!DNL Slack]，请参阅 <a href="https://api.slack.com/reference/messaging/link-unfurling">在消息中展开链接</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL展开媒体内容]</p> </td> 
+   <td> <p>启用此选项可允许展开媒体内容。 </p> <p>有关展开的详细信息 [!DNL Slack]，请参见 <a href="https://api.slack.com/reference/messaging/link-unfurling">在消息中展开链接</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -361,39 +369,39 @@ This action module retrieves a thread of messages posted to a conversation.
 
 +++ **[!UICONTROL 更新消息]**
 
-利用此操作模块，可编辑现有消息。
+此操作模块允许您编辑现有消息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL输入渠道ID或名称]</p> </td> 
-   <td> <p>选择要选择的消息的方式。</p> 
+   <td role="rowheader"> <p>[！UICONTROL输入渠道ID或名称]</p> </td> 
+   <td> <p>选择您希望如何选择要发送的消息。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>在 <strong>[!UICONTROL渠道ID或名称]</strong> 字段，输入或映射渠道ID或包含消息的渠道，然后输入 <strong>[!UICONTROL时间戳（消息ID）]</strong> 的URL。.</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </li> 
-     <li> <p><strong>[!UICONTROL从列表中选择]</strong> </p> <p>选择渠道类型，选择渠道，然后选择消息。</p> </li> 
+     <li> <p><strong>[！UICONTROL手动输入]</strong> </p> <p>在 <strong>[！UICONTROL渠道ID或名称]</strong> 字段，输入或映射包含消息的渠道或渠道ID，然后输入 <strong>[！UICONTROL时间戳（消息ID）]</strong> 消息的。.</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </li> 
+     <li> <p><strong>[！UICONTROL从列表中选择]</strong> </p> <p>选择渠道类型，然后选择渠道，然后选择消息。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>输入要更新的消息的新文本内容。</p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL文本]</p> </td> 
+   <td> <p>输入要更新的消息的新文本内容。</p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL块]</td> 
-   <td>块是可用于自定义和组织消息的可重用组件。 有关块的更多信息，请参阅 <a href="https://api.slack.com/block-kit">块工具包</a> 在 [!DNL Slack] 文档。</td> 
+   <td role="rowheader">[！UICONTROL块]</td> 
+   <td>块是可重用的组件，可用于自定义和整理消息。 有关块的详细信息，请参阅 <a href="https://api.slack.com/block-kit">块套件</a> 在 [!DNL Slack] 文档。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL链接名称]</p> </td> 
-   <td> <p>启用此选项，以允许名称和渠道使用 <code>@username</code> 或 <code>#channel</code> 格式。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL链接名称]</p> </td> 
+   <td> <p>启用此选项以允许使用名称和渠道 <code>@username</code> 或 <code>#channel</code> 格式。 </p> <p>有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL解析消息文本]</p> </td> 
-   <td> <p>启用此选项以允许自动解析。 </p> <p> 有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面的文本格式</a> 在 [!DNL Slack] 文档。</p> <p>注意：如果您在原始消息中使用了[!UICONTROL链接名称]或[!UICONTROL解析消息文本]选项，则还应在运行更新消息模块时指定这些选项。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL解析消息文本]</p> </td> 
+   <td> <p>启用此选项以允许自动分析。 </p> <p> 有关更多信息，请参阅 <a href="https://api.slack.com/docs/formatting">设置应用程序表面文本的格式</a> 在 [!DNL Slack] 文档。</p> <p>注意：如果您在原始消息中使用了[！UICONTROL链接名称]或[！UICONTROL解析消息文本]选项，则您还应在运行更新消息模块时指定这些选项。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,23 +410,23 @@ This action module retrieves a thread of messages posted to a conversation.
 
 +++ **[!UICONTROL 删除消息]**
 
-此操作模块会删除指定的消息。
+此操作模块删除指定的消息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL渠道ID]</p> </td> 
-   <td> <p>输入或映射渠道ID。</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL渠道ID]</p> </td> 
+   <td> <p>输入或映射渠道ID。</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL消息ID]</td> 
-   <td> <p> 输入或映射要删除的消息的时间戳。</p> <p>注意：时间戳可以使用其他模块（如Watch Private Channel Module）进行检索。</p> </td> 
+   <td role="rowheader">[！UICONTROL消息ID]</td> 
+   <td> <p> 输入或映射要删除的消息的时间戳。</p> <p>注意：可使用其他模块（如Watch Private Channel模块）检索时间戳。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -642,27 +650,27 @@ This action module returns deletes the specified file.
 
 +++ **[!UICONTROL 列出渠道]**
 
-此搜索模块会返回工作区中所有渠道的列表。
+此搜索模块返回工作区中所有渠道的列表。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL排除已存档]</p> </td> 
-   <td> <p>选择[!UICONTROL是]以在结果中排除已存档的渠道。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Exclude archived]</p> </td> 
+   <td> <p>选择[！UICONTROL是]可在结果中排除已存档的渠道。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Type] </td> 
+   <td role="rowheader">[！UICONTROL类型] </td> 
    <td> <p>选择要检索的渠道类型。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL限制] </td> 
-   <td> <p>设置最大通道数 [!DNL Workfront Fusion] 将在一个执行周期中返回。</p> </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td> <p>设置最大通道数 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -678,12 +686,12 @@ This action module returns deletes the specified file.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL渠道ID]</p> </td> 
-   <td> <p>输入或映射要检索相关信息的渠道ID。</p> <p>注意：可以使用[!UICONTROL List Channels]模块检索渠道ID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL渠道ID]</p> </td> 
+   <td> <p>输入或映射要检索相关信息的渠道ID。</p> <p>注意：可以使用[！UICONTROL List Channels]模块检索渠道ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -692,27 +700,27 @@ This action module returns deletes the specified file.
 
 +++ **[!UICONTROL 在渠道中列出成员]**
 
-此搜索模块会返回所选渠道中的用户列表。
+此搜索模块返回选定渠道中的用户列表。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Channel Type]</td> 
-   <td>选择包含要列出的成员列表的渠道类型。</td> 
+   <td role="rowheader">[！UICONTROL渠道类型]</td> 
+   <td>选择包含要列出成员列表的渠道类型。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private Channel]</td> 
-   <td>选择要列出其成员的渠道。</td> 
+   <td role="rowheader">[！UICONTROL Public] / [！UICONTROL Private Channel]</td> 
+   <td>选择要为其列出成员的渠道。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL限制] </td> 
-   <td> <p>设置成员的最大数量 [!DNL Workfront Fusion] 将在一个执行周期中返回。</p> </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td> <p>设置成员的最大数量 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1480,41 +1488,41 @@ This action module updates a user's current status.
 
 +++ **[!UICONTROL 进行API调用]**
 
-通过此操作模块，您可以对 [!DNL Slack] API。 这样，您就可以创建数据流自动化，而另一个数据流无法实现 [!DNL Slack] 模块。
+通过此操作模块，您可以对 [!DNL Slack] API。 这样，您就可以创建一个其他人无法实现的数据流自动化 [!DNL Slack] 模块。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Slack] 帐户 [!DNL Workfront Fusion]，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL连接] </td> 
+   <td> <p>有关连接 [!DNL Slack] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>输入相对于 <code>https://slack.com/api/</code>. 示例: <code>/users/identity</code>.</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td>输入相对路径 <code>https://slack.com/api/</code>. 示例: <code>/users/identity</code>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL标头]</td> 
-   <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
+   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL查询字符串]</td> 
+   <td role="rowheader">[！UICONTROL查询字符串]</td> 
    <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL主体]</td> 
-   <td> <p>以标准JSON对象的形式为API调用添加正文内容。</p> <p>注释:  <p>使用条件语句时，例如 <code>if</code> 在JSON中，将引号放置在条件语句的外部。</p> 
+   <td role="rowheader">[！UICONTROL主体]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL基本URL]</td> 
+   <td role="rowheader">[！UICONTROL基本URL]</td> 
    <td>选择要用于API调用的基本URL。</td> 
   </tr> 
  </tbody> 
@@ -1524,10 +1532,10 @@ This action module updates a user's current status.
 
 ## 术语
 
-在配置 [!DNL Slack] 模块：
+以下术语在配置时可能很有用 [!DNL Slack] 模块：
 
-* **DM**: [!UICONTROL 私信]
-* **IM**: [!UICONTROL 即时消息]
-* **专用渠道**:以前 [!UICONTROL 组]
-* **私信**:以前 [!UICONTROL IM]
-* **渠道**: [!UICONTROL 对话] 在API文档中， [!UICONTROL 频道] 在 [!DNL Slack] 应用程序。
+* **DM**： [!UICONTROL 直接消息]
+* **IM**： [!UICONTROL 即时消息]
+* **专用频道**：以前为 [!UICONTROL 组]
+* **直接消息**：以前为 [!UICONTROL IM]
+* **渠道**： [!UICONTROL 对话] 在API文档中， [!UICONTROL 渠道] 在 [!DNL Slack] 应用程序。
