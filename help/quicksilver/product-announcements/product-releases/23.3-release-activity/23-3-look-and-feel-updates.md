@@ -4,7 +4,7 @@ description: 在23.3版本发布时间范围内查看体验更新
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->计划预览版： 2023年6月28日；计划生产版： 2023年7月13日
+>计划预览版： 2023年6月29日；计划生产版： 2023年7月13日
 
 我们对“提交的请求”列表的界面进行了改进。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->计划预览版： 2023年7月5日；计划生产版：随23.3版一起发布
+>计划预览版： 2023年7月6日；计划生产版：随23.3版一起发布
 
 我们更新了向项目提交新问题时显示的“新问题”框。 现在，界面与向请求队列提交新请求时显示的新请求框匹配。
 

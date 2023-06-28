@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅适用于预览环境中的所有客户。</span>
 
 >[!NOTE]
 >
@@ -112,8 +112,8 @@ ht-degree: 0%
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **注释** 按Tab键查找要回复的注释或回复。
-   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+1. 单击 **更新**，然后单击 **评论** 按Tab键查找要回复的注释或回复。
+1. <span class="preview">（可选）要在回复中包含来自上次更新的文本，请单击 **更多** 菜单，然后单击要报价的更新或回复 **引用回复**. 上次更新的文本显示在输入区域中，以垂直灰色线标记。</span>
 1. 单击 **回复**.
 
    您可以在页面底部看到积极参与对话的用户 **新建评论** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户，以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
