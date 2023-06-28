@@ -3,9 +3,9 @@ title: 23.3集成增强
 description: 23.3集成增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,16 @@ ht-degree: 0%
 本页介绍了23.3版本对“预览”环境所做的所有集成增强。 这些增强功能将在23.3版本的生产环境中提供。
 
 有关23.3版本周期此时可用所有更改的列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## 新的G Suite集成现已推出
+
+Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAuth2进行身份验证，并替换以前的集成。
+
+以前的G Suite集成现已弃用，并将自动卸载。
+
+有关如何安装新集成的说明，请参阅 [安装 [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+有关Workfront for G Suite的更多信息，请参阅 [适用于G Suite的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## Adobe Creative Cloud集成现在支持多个分配的用户
 

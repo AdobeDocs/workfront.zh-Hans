@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ ht-degree: 0%
 23.3版本网络研讨会将于2023年6月29日举行。 您可以 [在此处注册网络研讨会](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">非周期功能（在23.3发行日期之前发布到生产环境的功能）以黄色突出显示。</span>
+
+>[!IMPORTANT]
+>
+>23.3版本包括将您的组织移至每月版本的选项。 因此，Workfront正在更改版本的编号方案，以便兼顾每月和每季度的版本跟踪。
+>
+>* 如果您位于 **快速发布（每月）** 跟踪，23.3之后的版本将 **23.8**，2023年8月。
+> * 如果您位于 **每季** 版本跟踪，23.3之后的版本将 **23.10**，2023年10月。
+> 
+> 季度发行将包括三个月发行版本的功能。 例如，23.10季度版本将包括在23.8、23.9和23.10月度版本中发布的功能。
+>每月发行|每季度发行|
+>----|----|
+>|<ul><li>23.8（2023年8月）</li><li>23.9（2023年9月）</li><li>23.10（2023年10月）</li></ul>| <ul><li>23.10（2023年10月）</li></ul>|
+>|<ul><li>23.11（2023年11月）</li><li>23.12（2023年12月）</li><li>24.1（2024年1月）</li></ul>| <ul><li>24.1（2024年1月）</li></ul>|
 
 ## Adobe Workfront增强功能
 
@@ -353,6 +366,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">新的G Suite集成现已推出</a></p> 
+                        <p>Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAuth2进行身份验证，并替换以前的集成。</p><p>以前的G Suite集成现已弃用，并将自动卸载。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：不适用</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本： 2023年6月27日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud集成现在支持多个分配的用户</a></p> 
