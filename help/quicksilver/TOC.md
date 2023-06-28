@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 42abf0163e5ad25923a913d315bdd0f4b95418be
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '13093'
+source-wordcount: '13094'
 ht-degree: 1%
 
 ---
@@ -619,7 +619,7 @@ ht-degree: 1%
          * [向新用户发送电子邮件邀请](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * 安全性 {#security}
          * [安全性](administration-and-setup/manage-workfront/security/security.md)
-         * [安全首选项](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [配置系统首选项](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [用于验证的密码](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [删除了单点登录选项](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [续订SAML 2.0元数据证书](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)

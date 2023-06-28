@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Adobe Workfront中的新主页入门
 description: 新主页是一项用于管理工作的强大新功能。
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ ht-degree: 0%
 
 对于更喜欢现有“主页”体验的用户，可以切换“新主页”。
 
+
 **要返回到当前主页体验，请执行以下操作：**
 
 1. 通过单击Adobe Workfront图标，导航到您的主页 ![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png) ，或者单击主菜单图标 ![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png) 然后单击 **主页**.
@@ -97,3 +98,7 @@ ht-degree: 0%
    ![返回当前主页按钮](../new-home/assets/go-back-to-current-home-button.png)
 
 1. 在显示的确认窗口中，您可以选择参加一个简短的调查来了解您在New Home中的体验，或者单击 **返回当前主页** 以最终确定您的决策并恢复到当前主页体验。
+
+>[!NOTE]
+>
+> 系统管理员可以禁用“新建主页”作为其用户的默认设置。 有关更改系统内用户的默认主页体验的信息，请参阅 [配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

@@ -3,7 +3,7 @@ title: 23.3其他增强功能
 description: 23.3其他增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [Adobe Workfront中的新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[观看此功能的视频演示](https://video.tv.adobe.com/v/3420860/){target=_blank}
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## 新增其他对象的注释体验
 
