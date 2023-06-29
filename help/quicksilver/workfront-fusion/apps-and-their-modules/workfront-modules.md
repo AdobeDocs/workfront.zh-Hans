@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -993,6 +993,12 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
+   <td>校对审批</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>保留时间* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ Workfront >关注事件过滤器中提供了以下运算符：
 有关Webhook的更多信息，请参阅 [中的即时触发器(Webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 有关场景中过滤器的更多信息，请参阅 [将过滤器添加到中的方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
