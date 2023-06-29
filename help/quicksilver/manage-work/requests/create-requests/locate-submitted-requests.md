@@ -6,16 +6,16 @@ description: 了解Adobe Workfront的各个区域，您可以在这些区域找�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # 查找提交的请求
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
 
 您可以找到您或其他人提交的以下类型的请求，或者您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域找到这些请求：
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 要查找您或其他用户已提交的请求，请执行以下操作：
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
-1. 单击 **已提交** ，以查看所有提交的请求。
+1. 单击 **已提交** ，以查看所有提交的请求。
 
    您最多可以查看2000个请求，并且这些请求可以显示在多个页面上。
 
@@ -70,44 +70,43 @@ ht-degree: 1%
    >
    >您无法自定义已提交的请求列表中的列。
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. 默认情况下，将显示以下列：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">名称</td> 
-      <td> <p>请求的名称。</p> <p>单击请求的名称以将其打开。 </p> <p><b>笔尖</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">名称</td> 
+         <td> <p>请求的名称。</p> <p>单击请求的名称以将其打开。 </p> <p><b>笔尖</b>
 
    如果问题在转换为任务或项目时未保留，则问题的名称将灰显且无法再单击。 有关转换问题的信息，请参阅 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">在Adobe Workfront中转化问题概述</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">已转换为</td> 
-      <td> <p>解析对象的名称，该对象可以是请求已转换为的任务或项目。 </p> <p>单击任务或项目的名称以将其打开。 </p> <p>如果未转换请求，则此字段为空。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">路径</td> 
-      <td>最初提交请求的请求队列、主题组和队列主题的名称。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">状态</td> 
-      <td>请求或解析对象（任务或项目）的当前状态</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">输入日期</td> 
-      <td>提交请求的日期或创建解析对象的日期（如果请求在转换时被删除）。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">上次更新日期</td> 
-      <td> <p>上次更新请求的日期。</p> <p>默认情况下，提交的请求列表将按此字段排序。 </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">已转换为</td> 
+         <td> <p>解析对象的名称，该对象可以是请求已转换为的任务或项目。 </p> <p>单击任务或项目的名称以将其打开。 </p> <p>如果未转换请求，则此字段为空。 </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">路径</td> 
+         <td>最初提交请求的请求队列、主题组和队列主题的名称。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">状态</td> 
+         <td>请求或解析对象（任务或项目）的当前状态</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">输入日期</td> 
+         <td>提交请求的日期或创建解析对象的日期（如果请求在转换时被删除）。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">上次更新日期</td> 
+         <td> <p>上次更新请求的日期。</p> <p>默认情况下，提交的请求列表将按此字段排序。 </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. （可选）单击列的标题可按列进行排序。
 
