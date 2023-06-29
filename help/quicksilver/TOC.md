@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 1%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 1%
          * [创建记分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [项目时间表重新计算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [项目的自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * 配置时间表和工时表首选项 {#configure-timesheets-schedules}
          * [配置时间表和工时表首选项](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [时间表概述](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 1%
          * [使用公司层记帐费率覆盖项目层记帐费率](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [改写工作角色开单费率和计算项目收入概览](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [覆盖项目级别的工作角色记帐费率](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [将费率卡附加到项目](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [项目计划收益概述](manage-work/projects/project-finances/project-planned-benefit.md)
          * [设置绩效指数方法(PIM)](manage-work/projects/project-finances/set-pim.md)
          * [计算投资回报率(ROI)](manage-work/projects/project-finances/calculate-roi.md)

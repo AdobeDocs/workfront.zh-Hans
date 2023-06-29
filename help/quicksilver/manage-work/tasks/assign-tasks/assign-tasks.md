@@ -2,47 +2,48 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 分配任务
-description: 您可以向用户、角色或团队分配任务，以指示谁负责完成任务。 您可以一次将任务分配给多个资源。
+description: 您可以将任务分配给用户、角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
 
 # 分配任务
 
-您可以向用户、作业角色或团队分配任务，以指明谁负责完成任务。 您可以一次将任务分配给多个资源。
+{{highlighted-preview}}
+
+您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
 >[!TIP]
 >
 >您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
 >
->如果在停用用户、作业角色或团队之前已分配它们，则它们仍会被分配到工作项。 在这种情况下，我们建议执行以下操作：
+>如果在停用用户、工作角色或团队之前分配了用户、工作角色或团队，则他们仍会分配到工作项。 在这种情况下，我们建议执行以下操作：
 >
->* 将工作项重新分配给活动资源。
+>* 将工作项重新分配给有效资源。
 >* 将已停用团队中的用户与活动团队相关联，并将工作项重新分配给活动团队。
 >
 
+分配给任务的用户数量和任务所有者的计划可以修改任务的计划日期，从而导致更改项目的时间表。 有关将多个用户分配给任务的影响的信息，请参阅 [修改任务分配的概览](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-分配给任务的用户数和任务所有者的计划可以修改任务的计划日期，从而更改项目的时间表。 有关为任务分配多个用户的影响的信息，请参阅 [修改任务分配概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+除了本文之外，我们还建议您阅读以下文章，以了解有关分配任务的更多信息：
 
-除了本文之外，我们建议您阅读以下文章以了解有关分配任务的更多信息：
-
-* [修改任务分配概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [修改任务分配的概览](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [进行智能分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [在任务列表中修改多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [计划项目概述](../../../manage-work/projects/planning-a-project/plan-project.md)
 * [任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [设置项目计划完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [工作负载平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 访问要求
 
@@ -78,7 +79,7 @@ ht-degree: 1%
 
 -->
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,52 +95,52 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目和任务的访问权限</p> <p>查看或更高权限用户</p> <p><b>注释</b>
+   <td> <p>编辑对项目和任务的访问权限</p> <p>查看或更高的用户访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>对任务贡献或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>向任务分配或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 对工作角色、团队和用户进行多种分配的注意事项
+## 有关向工作角色、团队和用户分配多个工作项的注意事项
 
-在为工作项分配多个资源时，请考虑以下事项：
+将多个资源分配给工作项时，请考虑以下事项：
 
-* 用户可以拥有与其配置文件关联的多个作业角色。 有关将用户与作业角色关联的信息，请参阅 [编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 用户可有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* 如果为任务或问题分配多个用户，则您选择的第一个用户将自动指定为任务或问题的所有者。
-有关更改此选项的说明，请参阅文章中有关“设为主要”选项的信息 [创建高级分配](create-advanced-assignments.md).
+* 如果将多个用户分配给一个任务或问题，则您选择的第一个用户会自动被指定为任务或问题的所有者。
+有关更改此项的说明，请参阅文章中有关“设为主要项”选项的信息 [创建高级分配](create-advanced-assignments.md).
 
-* 团队不能是任务或问题上的主要代理人。 在任务或问题上，只能将用户或作业角色指定为主角色。
+* 团队不能是任务或问题的主要被分配人。 只有用户或工作角色可以被指定为任务或问题上的主要角色。
 
 <!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
 You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
-* 项目中的任务和问题可能会首先分配给一个或多个团队或作业角色。 当项目准备就绪后，可能还需要将它们分配给用户：
+* 项目中的任务和问题可能首先被分配给一个或多个团队或工作角色。 当项目准备开始时，可能需要将它们也分配给用户：
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
   <tr>
    <td>团队</td>
-   <td>如果您为团队分配任务，并且还为用户分配了任务，则该任务仍会分配给团队和用户，即使用户不是团队的成员也是如此。</td>
+   <td>如果将任务分配给团队并且还分配了用户，则该任务仍会分配给团队和用户，即使用户不是团队成员。</td>
   </tr>
   <tr>
    <td>职位角色</td>
-   <td><p>如果您将任务或问题分配给一个或多个角色，然后又分配了一个用户，则会根据以下规则确定要与附加用户关联的作业角色（如果有）：</p>
+   <td><p>如果将任务或问题分配给一个或多个角色，然后又分配了用户，将根据以下规则决定要与附加用户（如果有）关联的工作角色：</p>
      <ul>
-      <li>如果只分配了一个作业角色，并且该角色与用户的主角色（在其配置文件中配置）匹配，则该任务或问题将仅分配给该用户。</li>
-      <li>如果分配了多个角色，并且其中至少一个角色与用户的其他角色之一匹配，则任务或问题会被分配给用户（如果存在多个匹配，则随机选择角色），以及分配的任何其他角色</li>
-      <li>如果至少分配了一个作业角色，并且与用户的作业角色没有匹配，则任务或问题将分配给角色或角色以及用户。</li>
+      <li>如果只分配了一个工作角色，并且该工作角色与用户的主要角色（在其配置文件中配置）匹配，则任务或问题仅分配给该用户。</li>
+      <li>如果分配了多个角色，并且其中至少有一个角色与用户的其他角色之一匹配，则会将任务或问题分配给用户（如果存在多个匹配，则随机选择角色），还会分配任何其他角色</li>
+      <li>如果至少分配了一个工作角色，但没有与用户的工作角色匹配，则会将任务或问题分配给该角色或角色和用户。</li>
      </ul>
-   <p>有关用户的主要角色和其他角色的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">编辑用户的配置文件</a>.</p>
+   <p>有关用户的主要角色和其他角色的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">编辑用户配置文件</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -162,40 +163,42 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 分配单个任务
 
 1. 转到要分配的任务。
-1. 单击 **分配给** 在 **分配** 字段。
+1. 单击 **分配给** 在 **指定任务** 任务或问题标题中的字段。
 
    或
 
-   如果已分配任务或问题，请单击分配的名称。
+   如果任务或问题已分配，则单击分配的名称。
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. 执行下列操作之一：
 
-   * 开始键入要分配的用户、角色或团队的名称，然后在列表中显示该名称时单击该名称。
+   * 开始键入要分配的用户、角色或团队的名称，然后在名称出现在列表中时单击它。
 
 
-      >[!TIP]
-      >
-      >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分名称相同的用户。 用户必须至少与一个作业角色关联，才能在您添加时查看该角色。
+     >[!TIP]
+     >
+     >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+     >
+     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
    * （视情况而定）单击 **建议的分配** 列表（如果显示此列表）。 有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    * 单击 **高级**
 
-      有关如何进行高级分配的信息，请参阅 [创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     有关如何进行高级分配的信息，请参阅 [创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. 单击&#x200B;**保存**。
-1. （可选并视情况而定）单击 **X图标** 单击任务右侧面板中用于删除分配的分配名称旁边的 **高级**.
+1. （可选和视情况而定）单击 **X图标** 在任务右侧面板中的任务名称旁边，用于移除任务（如果已单击） **高级**.
 
 ## 在列表中分配任务
 
-当列表视图中显示任何分配字段时，您可以在列表或报表中分配任务。 这是分配任务的更快方式。 本文介绍了如何修改列表中某个任务的分配。 有关在列表中为多个任务修改多个分配的信息，请参阅 [在任务列表中修改多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+当任何分配字段在列表视图中可见时，您可以在列表或报表中分配任务。 这是分配任务的更快方式。 本文介绍如何修改列表中一项任务的分配。 有关为列表中的多个任务修改多个分配的信息，请参阅 [修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-根据视图中显示的字段，您可以为任务分配以下实体：
+根据视图中显示的字段，可以将以下实体分配给任务：
 
-| 字段 | 已分配的实体 |
+| 字段 | 分配的实体 |
 |---|---|
 | **分配给** | 分配一个用户 |
 | **已分派** | 分配一个用户 |
@@ -203,29 +206,30 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 要在列表中分配任务，请执行以下操作：
 
-1. 转到视图中具有“已分配至”、“已分配”或“分配”字段的任务列表。
-1. （可选）单击 **自动保存** 下拉菜单，然后从以下选项中选择：
+1. 转到具有“任务负责人”、“任务分派”或“工作总揽”字段的任务列表。
+1. （可选）单击 **自动保存** 下拉菜单并从以下选项中进行选择：
 
    | 选项 | 选项描述 |
    |---|---| 
-   | 自动保存 | 您对任务所做的更改会自动保存，您无法还原它们 |
-   | 手动保存 | 您必须手动保存更改。 您可以在保存更改之前还原这些更改。 |
-   | 时间线规划 | 您必须手动保存更改。 您可以在保存更改之前还原这些更改。 保存更改和所有项目依赖项的速度比选择“手动保存”时要快。 |
+   | 自动保存 | 您对任务所做的更改会自动保存，并且您无法还原它们 |
+   | 手动保存 | 您必须手动保存更改。 在保存更改之前，您可以还原这些更改。 |
+   | 时间线规划 | 您必须手动保存更改。 在保存更改之前，您可以还原这些更改。 保存更改和所有项目依赖项比选择手动保存更快。 |
 
-   有关在列表中编辑任务时保存任务的详细信息，请参阅 [在列表中编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   有关在列表中编辑任务时保存任务的更多信息，请参阅 [编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-1. 要分配任务，请执行以下操作之一：
+1. 要分配任务，请执行下列操作之一：
 
-   * 在 **分配给** 或 **已分配** 字段，然后开始键入要分配给任务的活动用户的名称，然后在任务显示在列表中时单击该名称。
-   * 在 **分配** 字段，然后开始键入要分配给任务的活动用户、作业角色或团队的名称，然后在列表中显示时单击该名称。
+   * 在 **分配对象** 或 **已指定** 字段并开始键入要分配给任务的活动用户的名称，然后在列表中显示该用户时单击该用户。
+   * 在 **指定任务** 字段并开始键入要分配给任务的活动用户、工作角色或团队的名称，然后在列表中显示时单击该名称。
 
-      >[!TIP]
-      >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分名称相同的用户。 用户必须至少与一个作业角色关联，才能在您添加时查看该角色。
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+     >
+     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
-1. （视情况而定）在 **分配** 字段，单击 **人员** 图标以打开 **高级分配** 框中创建高级分配。
+
+1. （视情况而定）当在 **指定任务** 字段中，单击 **人员** 图标，打开 **高级工作** 框和创建高级分配。
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
@@ -234,49 +238,53 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    有关更多信息，请参阅 [创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   您不能从“已分配给”或“已分配”字段进行高级分配。
+   >
+   >您无法从“分配至”或“已分配”字段进行高级分配。
 
-1. 在将受分配人添加到任务后，按Enter键或单击页面上的任意位置，以保存所做更改（如果选择了“自动保存”）。 否则，请单击 **保存**.
+1. 将受分配人添加到任务后，按Enter键或单击页面上的任意位置以保存更改（如果选择“自动保存”）。 否则，请单击 **保存**.
 
-## 为用户分配多个任务
+## 将多个任务分配给用户
 
-1. 转到要批量分配的任务列表。
-1. （视情况而定）确保 **自动保存** 选项。
+1. 转到要批量分配的任务的列表。
+1. （视情况而定）确保 **自动保存** 选项时，如果您位于项目下的任务列表中，则该选项处于选中状态。
 
    >[!IMPORTANT]
-   在项目上手动保存任务时，无法批量编辑任务。
+   >
+   >在项目中手动保存任务时，无法批量编辑任务。
 
 1. 在任务列表中选择多个任务。
 1. 单击 **编辑**.
 
-   的 **编辑任务** 对话框。
+   此 **编辑任务** 对话框打开。
 
-1. 在 **分配** 区域，选择 **被分派人** 框中，然后开始键入要分配给所有任务的用户、作业角色或团队的名称。
+1. 在 **指定任务** 区域，选择 **被分派人** 框中，然后开始键入要分配给所有任务的用户、工作角色或团队的名称。
 
    >[!IMPORTANT]
-   如果已分配任何任务，则您在此处指示的资源将添加到任务中，而不是替换任务中的现有资源。
+   >
+   >如果已经分配了任何任务，您在此处指示的资源将添加到任务中，而不是替换任务上的现有资源。
 
-1. （可选）选择 **任务所有者** 列来指示在向任务分配多个资源时，哪个资源是主要任务接受者或任务的所有者。 这不适用于团队。
-1. （视情况而定）指定 **分配%** 对于分配给任务的每个资源，如果您选择的所有任务都具有持续时间类型“工作驱动”或“计算分配”。 这表示这些资源在完成任务上应花费的时间。 此设置仅适用于用户和作业角色。
+1. （可选）选择 **任务所有者** 列，指明在将多个资源分配给任务时，哪个资源是任务的主要被分配人或所有者。 这不适用于团队。
+1. （视情况而定）指定 **分配%** 对于分配给任务的每个资源（如果您选择的所有任务的持续时间类型均为“投入比导向”或“计算的工作分配”）。 这指示这些资源应在完成任务上花费多少时间。 这仅适用于用户和职位角色。
 
    或
 
-   指定 **小时** 对于分配给任务的每个资源，如果您选择的所有任务的持续时间类型都为“简单”。 所有资源的所有小时总数应等于任务的计划小时数。
+   指定数量 **小时** 对于分配给任务的每个资源，如果您选择的所有任务的持续时间类型为“简单”。 所有资源的所有小时总数应等于任务的计划小时数。
 
    >[!IMPORTANT]
-   如果您选择的任务具有不同的持续时间类型或您选择的任务具有不同的持续时间类型，则无法指定每个资源的分配百分比或小时数。
+   >
+   >如果所选任务具有不同的持续时间类型或所选任务的持续时间类型不同，则不能指定每个资源的分配百分比或小时数。
 
-   有关任务的持续时间类型的信息，请参阅 [任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   有关任务的持续时间类型的信息，请参阅 [任务工期和工期类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. （可选）从 **选择角色** 下拉菜单(位于 **被分派人的角色** 列。 如果未选择角色，Workfront会自动选择用户的主角色。
+1. （可选）从中选择用户应在任务上执行的角色 **选择角色** 中的下拉菜单 **被分派人的角色** 列。 如果不选择角色，Workfront会自动选择用户的主要角色。
 
-1. （可选）如果要从所有任务中删除现有任务分配者，请执行以下操作之一：
+1. （可选）如果要从所有任务中移除现有被分配人，请执行下列操作之一：
 
-   1. 开始键入要从任务中删除的用户、角色或团队的名称，然后在列表中显示该名称时将其选中，并单击 **删除被分派人** 以删除更多受分配者。
-   1. 单击 **删除所有现有的受分配人** 从所有选定任务中删除所有受分配者。
+   1. 开始键入要从任务中删除的用户、角色或团队的名称，然后当该名称出现在列表上时将其选中并单击 **移除被分派人** 以移除更多被分派人。
+   1. 单击 **移除所有现有被分配人** 以移除所有选定任务中的所有被分配人。
 
 1. 单击 **保存更改**.
-1. （可选和视情况而定）当任务列表中显示“已分配给”或“分配”字段时，在任务的这些列之一中单击，然后单击 **X图标** 将其从任务中删除的被分派人名称旁边。
+1. （可选，视情况而定）当任务列表中显示“分配给”或“工作总揽”字段时，在任务的以下列之一中单击，然后单击 **X图标** ，以将其从任务中删除。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
