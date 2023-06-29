@@ -1,199 +1,230 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: 在敏捷檢視中管理專案
-description: 必要的計畫、授權型別和存取Adobe Workfront計畫團隊、Pro、商務或企業Workfront授權型別存取模式中的檢閱、工作或計畫許可權編輯存取權和建立報告、儀表板和行事曆的功能
+title: 在Agile视图中管理项目
+description: 所需的计划、许可证类型和访问Adobe Workfront Plan Team、Pro、Business或Enterprise Workfront许可证类型在访问模型中审阅、工作或计划权限编辑访问和创建报告、仪表板和日历的能力
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
 
-# 在敏捷檢視中管理專案
+# 在Agile视图中管理项目
 
-必要的計畫、授權型別和存取權
+{{highlighted-preview}}
+
+<!--
+Required plans, license types, and access
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront計畫</a> </p> </td> 
-   <td> <p>團隊、Pro、企業或企業 </p> </td> 
+   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
+   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront授權型別</p> </td> 
-   <td> <p>稽核、工作或計畫 </p> </td> 
-  </tr> <!--
+   <td> <p>Workfront License Type</p> </td> 
+   <td> <p>Review, Work, or Plan </p> </td> 
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
-
-您可以針對專案利用敏捷功能
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
- 無需因敏捷實務而面臨管理挑戰（例如管理團隊待辦專案或建立反複專案）。
+您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 
-如果您想在使用團隊待辦專案並允許您從待辦專案上的任務建立迭代的敏捷環境中工作，請遵循中的指示 [在敏捷環境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+如果要在使用团队积压工作的Agile环境中工作，并允许您从积压工作上的任务创建迭代，请按照 [在敏捷环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>評論或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對以下區域的存取權：</p> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对以下区域的访问权限：</p> 
     <ul> 
      <li> <p>项目</p> </li> 
-     <li> <p>報告、儀表板、行事曆</p> </li> 
-     <li> <p>篩選器、檢視、群組</p> </li> 
-    </ul> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+     <li> <p>报告、功能板、日历</p> </li> 
+     <li> <p>筛选器、视图、分组</p> </li> 
+    </ul> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看项目权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 瞭解敏捷專案
+## 了解Agile项目
 
-* [專案中的敏捷功能](#agile-functionality-in-a-project)
-* [在專案與疊代上使用敏捷檢視時的差異](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
+>[!NOTE]
+>
+><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
 
-### 專案中的敏捷功能 {#agile-functionality-in-a-project}
+* [项目中的Agile功能](#agile-functionality-in-a-project)
+* [在项目上使用敏捷视图与在小版本上使用敏捷视图时的差异](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
-在敏捷檢視中管理專案時，可以使用以下敏捷功能：
+### 项目中的Agile功能 {#agile-functionality-in-a-project}
+
+在Agile视图中管理项目时，可以使用以下Agile功能：
 
 * 完成状态\
-   如需有關完成狀態的詳細資訊，請參閱 [反複專案完成狀態概觀](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  有关完成状态的更多详细信息，请参阅 [迭代完成状态概述](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
-* 劇本面板\
-   如需故事板的詳細資訊，請參閱 [Scrum展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) 區段。
+* 故事板\
+  有关故事板的更多详细信息，请参阅 [Scrum展示板](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) 部分。
 
-在專案上使用敏捷檢視與在純粹的敏捷環境中工作有一些差異（具有積壓和反複專案）。 如需詳細資訊，請參閱 [在專案與疊代上使用敏捷檢視時的差異](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) 本文章內容。
+在项目上使用Agile视图与在纯Agile环境（具有积压和迭代）中工作有一些区别。 有关更多信息，请参阅 [在项目上使用敏捷视图与在小版本上使用敏捷视图时的差异](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) 本文章中。
 
-### 在專案與疊代上使用敏捷檢視時的差異 {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
+### 在项目上使用敏捷视图与在小版本上使用敏捷视图时的差异 {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [任務和子任務遵循劇本展示板上不同的顯示規則](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [未使用積壓和反複專案](#backlogs-and-iterations-are-not-used)
-* [任務順序在敏捷檢視中維護，並且無法重新排序](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [任務僅以計畫時數測量](#tasks-are-measured-only-in-planned-hours)
-* [敏捷團隊未使用](#the-agile-team-is-not-used)
-* [專案中的每個使用者都可以在不同的敏捷檢視中檢視專案](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
+* [任务和子任务遵循故事板上的不同显示规则](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [未使用积压和迭代](#backlogs-and-iterations-are-not-used)
+* [任务顺序在Agile视图中维护，不能重新排序](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
+* [任务仅按计划小时数测量](#tasks-are-measured-only-in-planned-hours)
+* [未使用Agile团队](#the-agile-team-is-not-used)
+* [项目中的每个用户都可以在不同的Agile视图中查看项目](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### 任務和子任務遵循劇本展示板上不同的顯示規則 {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### 任务和子任务遵循故事板上的不同显示规则 {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* 沒有父任務和子任務的任務一律會顯示為內文板上的單一內文卡片。\
-   例如，這些任務在專案清單檢視中會如下所示：
+* 没有父任务和子任务的任务始终显示为故事板上的单个故事卡。\
+  例如，这些任务在项目列表视图中如下所示：
 
-   ![敏捷專案清單 — 無父或子任務的任務](assets/agile-project-single-list-nwe.png) 這些任務在專案敏捷檢視中顯示如下：
+  ![Agile项目列表 — 无父任务或子任务的任务](assets/agile-project-single-list-nwe.png) 这些任务在项目Agile视图中如下所示：
 
-   ![專案敏捷檢視 — 沒有父任務或子任務的任務](assets/agile-project-singlecard-nwe.png)
+  ![项目敏捷视图 — 无父任务或子任务的任务](assets/agile-project-singlecard-nwe.png)
 
-* 具有子任務的父任務一律顯示在 **劇本** 內文板欄。 子任務會顯示在父任務的泳道中。\
-   例如，這些任務在專案清單檢視中會如下所示：
+* 具有子任务的父任务始终显示在 **故事** 故事板上的栏。 子任务显示在父任务的泳道中。\
+  例如，这些任务在项目列表视图中如下所示：
 
-   ![敏捷專案清單 — 具有父系和子系的任務](assets/agile-project-parent-list-nwe.png)\
-   這些任務在專案敏捷檢視中顯示如下：
+  ![Agile项目列表 — 具有父任务和子任务的任务](assets/agile-project-parent-list-nwe.png)\
+  这些任务在项目Agile视图中如下所示：
 
-   ![敏捷專案檢視 — 具有父任務和子任務的任務](assets/agile-project-parent-nwe.png)
+  ![Agile项目视图 — 具有父任务和子任务的任务](assets/agile-project-parent-nwe.png)
 
-* 第二層子任務（子任務的子任務）顯示為緊接父任務外懸掛的灰色卡片。
-* 第三層子任務（子任務的子任務）永遠不會顯示在劇本面板上。
+* 第二级子任务（子任务的子任务）在紧接父任务中显示为悬挂的灰色卡片。
+* 第三级子任务（子任务的子任务）永远不会显示在故事板上。
 
-#### 未使用積壓和反複專案 {#backlogs-and-iterations-are-not-used}
+#### 未使用积压和迭代 {#backlogs-and-iterations-are-not-used}
 
-在敏捷檢視中檢視專案時，未使用下列敏捷元件：
+在Agile视图中查看项目时，不使用以下Agile组件：
 
-* **待處理專案：** 未使用待處理專案，因為專案中的任何任務都會自動顯示為劇本。
-* **反複專案：** 目前指定於專案時間表上的天數會成為工作日，而不是建立反複專案來定義完成工作的日期。
+* **积压：** 未使用积压，因为项目中的任何任务都会自动显示为案例。
+* **迭代：** 项目时间表上目前指定的日期不是创建迭代来定义完成工作的日期，而是工作日。
 
-#### 任務順序在敏捷檢視中維護，並且無法重新排序 {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
+#### 任务顺序在Agile视图中维护，不能重新排序 {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
-當您在敏捷故事板中檢視專案時，會維持任務在專案中顯示的順序。
+当您在敏捷故事板中查看项目时，维护了任务在项目中显示的顺序。
 
-在敏捷檢視中檢視專案時，您無法重新排序專案中的任務。 由於修改作業順序可能會影響其他可能具有相依性的作業，因此您必須在標準檢視中檢視專案，才能修改作業順序。
+在敏捷视图中查看项目时，无法对项目中的任务重新排序。 由于修改任务顺序可能会影响可能具有依赖关系的其他任务，因此必须在标准视图中查看项目才能修改任务顺序。
 
-#### 任務僅以計畫時數測量 {#tasks-are-measured-only-in-planned-hours}
+#### 任务仅按计划小时数测量 {#tasks-are-measured-only-in-planned-hours}
 
-專案上的任務一律以計畫時數測量。
+项目中的任务始终按计划小时数测量。
 
-在反複專案中，任務（劇本）能以小時或點來測量。
+在迭代中，任务（故事）可以用小时数或点数来衡量。
 
-#### 敏捷團隊未使用 {#the-agile-team-is-not-used}
+#### 未使用Agile团队 {#the-agile-team-is-not-used}
 
-因為敏捷團隊完成指派給他們的疊代工作，敏捷團隊在敏捷檢視中檢視專案時不使用。
+由于Agile团队完成分配给他们的迭代工作，因此Agile团队在Agile视图中查看项目时不使用。
 
-實際上，專案上的任何使用者都會成為該專案的敏捷團隊。
+相反，项目中的任何用户实际上将成为该项目的Agile团队。
 
-#### 專案中的每個使用者都可以在不同的敏捷檢視中檢視專案 {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
+#### 项目中的每个用户都可以在不同的Agile视图中查看项目 {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
 
-與敏捷疊代不同，專案上的使用者可以自行自訂敏捷檢視，而其他使用者則使用不同的敏捷檢視。
+与敏捷开发周期不同，项目上的用户可以为自己自定义敏捷视图，而其他用户使用不同的敏捷视图。
 
-在敏捷反複專案中，敏捷故事板上可用的資訊（例如可用的狀態列）取決於團隊層級。
+在敏捷开发周期中，敏捷故事板上可用的信息（例如可用的状态列）由团队级别确定。
 
-有關如何自訂敏捷檢視的資訊，請參閱  [建立或自訂敏捷檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 在  [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+有关如何自定义Agile视图的信息，请参阅 [创建或自定义Agile视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 在 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-## 在敏捷檢視中檢視專案
+## 在Agile视图中查看项目
 
-1. 前往您要在敏捷檢視中檢視的專案。
-1. 按一下 **敏捷** 圖示。\
-   ![敏捷圖示](assets/agile-icon-nwe.png)\
-   專案會顯示在預設的敏捷檢視中。\
-   如果您先前在自訂敏捷檢視中檢視過專案，則專案會顯示在該檢視中，而不是預設敏捷檢視中。
+1. 转到要在敏捷视图中查看的项目。
+1. 单击 **敏捷** 图标 ![Agile图标](assets/agile-icon-nwe.png).
 
-1. （可選）如果您已建立自訂敏捷檢視，或如果另一個使用者已建立自訂敏捷檢視並與您共用，您可以檢視它而不是預設敏捷檢視。\
-   按一下 **檢視** 下拉式功能表，然後按一下您要檢視的自訂敏捷檢視。
+   <span class="preview">或</span>
 
-   下次您按一下 **敏捷** 圖示。\
-   有關如何建立新的敏捷檢視的資訊，請參閱 [建立和自訂敏捷檢視](#create-and-customize-agile-views).\
-   專案會顯示在自訂敏捷檢視中。
+   <span class="preview">单击 **讨论区** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).</span>
 
-1. （視條件而定）如果您的專案中的任務使用「新增」、「進行中」或「完成」以外的狀態（敏捷檢視的預設狀態），您必須將其他狀態新增到敏捷檢視，以顯示這些狀態的任何任務。\
-   如果任務處於未顯示在敏捷內文板上的狀態，則任務本身不會顯示在敏捷內文板上（但是，這些任務的完成百分比仍會貢獻任何父系任務的「完成百分比」和整個專案的「完成百分比」）。\
-   若要將狀態新增至敏捷檢視，請建立新的敏捷檢視或自訂現有的敏捷檢視，如文章的「建立或自訂敏捷檢視」一節中所述 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   项目显示在默认的Agile视图中。
 
-1. （可選）若要返回清單檢視，請按一下 **清單** 圖示。\
-   ![](assets/list-icon.png)
+   <span class="preview">在“预览”环境中，默认显示电路板视图。</span>
 
-## 建立和自訂敏捷檢視 {#create-and-customize-agile-views}
+   ![项目讨论区视图](assets/project-agile-board-view.png)
 
-和Workfront中的標準檢視一樣，您可以自訂現有的敏捷檢視或從頭開始建立新的敏捷檢視。 與標準檢視不同，您無法根據現有的敏捷檢視建立新的敏捷檢視。
+   （仅限旧版Agile视图）如果以前在自定义Agile视图中查看过项目，则项目将显示在该视图中，而不是默认Agile视图中。
 
-如需建立和自訂敏捷檢視的詳細資訊，請參閱文章中的「建立或自訂敏捷檢視」一節 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+1. <span class="preview">（可选）单击 **配置** 设置列和卡片的选项。</span>
 
-## 共用現有的敏捷檢視
+   <span class="preview">有关更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 和 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 请注意，您无法在项目的展示板视图中定义列策略。</span>
 
-有關如何共用敏捷檢視的資訊，請參閱 [共用篩選、檢視或群組](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. <span class="preview">（可选）单击 **使用旧版Agile** 使用旧版Agile视图而不是“展示板”视图。</span>
 
-## 移除現有的敏捷檢視
+1. （可选 — 仅限旧版Agile视图）如果您已创建自定义Agile视图，或者如果其他用户已创建自定义Agile视图并与您共享，则可以查看该视图，而不是默认Agile视图。
 
-如需有關如何刪除檢視的資訊，請參閱文章中的「移除檢視」一節 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+   单击 **视图** 下拉菜单，然后单击要查看的自定义敏捷视图。
+
+   下次单击 **敏捷** 图标。
+
+   有关如何创建新的Agile视图的信息，请参阅 [创建和自定义Agile视图](#create-and-customize-agile-views).
+
+   项目显示在自定义Agile视图中。
+
+1. （视情况而定 — 仅限旧版Agile视图）如果项目中的任务使用的状态不是“新建”、“进行中”或“完成”（Agile视图的默认状态），则必须将其他状态添加到Agile视图，才能显示这些状态的任何任务。
+
+   如果任务处于未显示在敏捷故事板上的状态，则任务本身未显示在敏捷故事板上（但是，这些任务的完成百分比仍然会构成任何父任务的完成百分比和整个项目的完成百分比）。
+
+   要向Agile视图添加状态，请创建新的敏捷视图或自定义现有的Agile视图，如文章的“创建或自定义Agile视图”部分中所述 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. （可选）要返回到列表视图，请单击 **列表** 图标。\
+   ![列表图标](assets/list-icon.png)
+
+## 创建和自定义Agile视图 {#create-and-customize-agile-views}
+
+>[!NOTE]
+>
+><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+
+与Workfront中的标准视图一样，您可以自定义现有Agile视图或从头开始创建新的Agile视图。 与标准视图不同，您不能根据现有Agile视图创建新的Agile视图。
+
+有关创建和自定义Agile视图的更多信息，请参阅文章中的“创建或自定义Agile视图”部分 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+## 共享现有Agile视图
+
+>[!NOTE]
+>
+><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+
+有关如何共享Agile视图的信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+## 删除现有的Agile视图
+
+>[!NOTE]
+>
+><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+
+有关如何删除视图的信息，请参阅文章中的“删除视图”部分 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

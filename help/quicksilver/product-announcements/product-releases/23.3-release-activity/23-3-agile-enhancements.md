@@ -3,9 +3,9 @@ title: 23.3 Agile增强
 description: 23.3 Agile增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 在讨论区中，您可以选择切换到旧版敏捷视图。
 
-更新后的项目Agile视图的文档将随版本一起发布以供预览。
+有关更多信息，请参阅 [在Agile视图中管理项目](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## 按展示板列排序
 
