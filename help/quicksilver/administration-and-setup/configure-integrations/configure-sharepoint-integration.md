@@ -3,12 +3,12 @@ title: 配置 [!DNL SharePoint] 集成
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 您可以集成 [!DNL Workfront] with [!DNL SharePoint] 在线，为用户提供导航、链接和添加的功能 [!DNL SharePoint] 文档。Workfront 提供的功能与其他功能类似 [!DNL Workfront] 集成，如Google Drive、Box和Dropbox。
+description: 您可以集成 [!DNL Workfront] 替换为 [!DNL SharePoint] 在线，使用户能够导航到、链接和添加 [!DNL SharePoint] Workfront中的文档。 提供的功能与其他功能类似 [!DNL Workfront] 集成，例如Google Drive、Box和Dropbox。
 author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -23,20 +23,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新 [!DNL SharePoint] 22.3版本（2022年7月）中的集成已发布到生产环境。 尽管您的用户仍可以访问通过旧版链接的文档 [!DNL SharePoint] 集成中，用户必须使用 [!DNL SharePoint] 集成以链接来自SharePoint的文档。
+>新 [!DNL SharePoint] 集成已在22.3版本（2022年7月）中发布到生产环境。 尽管您的用户仍然可以访问通过旧版链接的文档 [!DNL SharePoint] 集成，他们必须使用 [!DNL SharePoint] 集成以从SharePoint链接文档。
 >
->* 新的SharePoint集成不需要管理员进行配置，并且可由个人用户进行设置。 但是，为确保顺利过渡到新的SharePoint集成，Workfront管理员必须在Workfront设置区域中进行一些小的设置更改。
-   >
-   >    有关信息和说明，请参阅 [配置旧版SharePoint集成，以便继续访问文档](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 在本文中。
+>* 新的SharePoint集成不需要管理员进行配置，并且可以由个人用户进行设置。 但是，为了确保顺利过渡到新的SharePoint集成，Workfront管理员必须在Workfront设置区域中进行一些细微的设置更改。
+>
+>    有关信息和说明，请参阅 [配置旧版SharePoint集成以继续访问文档](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 本文章中。
 >    
->* 我们建议用户链接当前通过旧版链接的文档 [!DNL SharePoint] 集成。
-   >    
-   >    有关链接文档的说明，请参阅 [从外部应用程序链接文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+>* 我们建议用户链接当前通过旧版链接的文档 [!DNL SharePoint] 通过新集成集成。
+>    
+>    有关链接文档的说明，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
+您可以集成 [!DNL Workfront] 替换为 [!DNL SharePoint Online]，使用户能够导航到、链接和添加 [!DNL SharePoint] Workfront中的文档。 提供的功能与其他功能类似 [!DNL Workfront] 集成，例如 [!DNL Google Drive]， [!DNL Box]、和 [!DNL Dropbox].
 
-您可以集成 [!DNL Workfront] with [!DNL SharePoint Online]，为用户提供导航、链接和添加的功能 [!DNL SharePoint] 文档。Workfront 提供的功能与其他功能类似 [!DNL Workfront] 集成，例如 [!DNL Google Drive], [!DNL Box]和 [!DNL Dropbox].
-
-此集成仅与 [!DNL SharePoint Online]. 的内部部署实例 [!DNL SharePoint] 不受支持。
+此集成仅与兼容 [!DNL SharePoint Online]. 的内部部署实例 [!DNL SharePoint] 不受支持。
 
 ## 访问要求
 
@@ -52,118 +51,116 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL计划]</td> 
+   <td>[！UICONTROL计划]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>你必须是 [!DNL Workfront] 管理员。 有关 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关以下项的信息 [!DNL Workfront] 管理员，请参见 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 先决条件
 
-您必须在 [!DNL SharePoint] 修改或配置贵组织的 [!DNL SharePoint].
+您必须具有任何必要的访问权限或权限 [!DNL SharePoint] 要修改或配置贵组织的 [!DNL SharePoint].
 
 ## 通过新的SharePoint集成链接文档
 
-单个用户可以通过新 [!DNL SharePoint] 集成。 集成不需要管理员配置。 用户而是会登录到 [!DNL Microsoft] 帐户，这允许集成访问用户 [!DNL SharePoint].
+个人用户可以通过新页面链接文档 [!DNL SharePoint] 集成。 集成不需要管理员配置。 相反，用户登录到他们的 [!DNL Microsoft] 关联文档时所用的帐户，使集成能够访问用户界面中提供的文档。 [!DNL SharePoint].
 
-用户首次连接 [!DNL Workfront] [!DNL SharePoint] 集成 [!DNL SharePoint] 帐户，他们将看到并同意 [!DNL Workfront] 与他们进行交互时使用 [!UICONTROL SharePoint] 帐户。 读取权限允许 [!DNL Workfront] 在 [!DNL SharePoint]、和写入权限允许用户将文件上传到 [!DNL SharePoint].
+用户第一次连接 [!DNL Workfront] [!DNL SharePoint] 集成到其 [!DNL SharePoint] 帐户，他们将看到并同意以下项的所有权限： [!DNL Workfront] 与以下对象交互时使用 [!UICONTROL SharePoint] 帐户。 读取权限允许 [!DNL Workfront] 查看并访问文件 [!DNL SharePoint]、和写入权限允许用户将文件上传到 [!DNL SharePoint].
 
 ![Sharepoint权限](assets/sharepoint-permissions.png)
 
-有关通过新链接文档的说明 [!DNL SharePoint] 集成，请参阅 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+有关通过以下方式链接文档的说明： [!DNL SharePoint] 集成，请参见 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
 >
->* A [!DNL SharePoint] 集成可以连接到单个 [!DNL SharePoint] 实例。 因此，用户可以为 [!DNL SharePoint]，但无法将集成设置为秒 [!DNL SharePoint]，即使他们有权访问和 [!DNL SharePoint].
+>* A [!DNL SharePoint] 集成可以连接到单个 [!DNL SharePoint] 实例。 因此，用户可以设置一个集成 [!DNL SharePoint]，但无法设置与秒的集成 [!DNL SharePoint]，即使他们有权访问和第二个页面上的文档 [!DNL SharePoint].
 >
->* 用户可以通过 [!DNL Workfront] [!DNL SharePoint] 集成 [!DNL SharePoint] 帐户。
+>* 用户可通过访问相同的站点、收藏集、文件夹、子文件夹和文件。 [!DNL Workfront] [!DNL SharePoint] 集成，就像他们在 [!DNL SharePoint] 帐户。
 
-
-## 安全、访问和授权信息 [!DNL SharePoint] 集成
+## 的安全性、访问和授权信息 [!DNL SharePoint] 集成
 
 ### 身份验证和授权
 
-[!DNL Workfront] 使用OAuth2检索访问令牌和刷新令牌。 此访问令牌用于对所有 [!DNL SharePoint] 区域。
+[!DNL Workfront] 使用OAuth2检索访问令牌和刷新令牌。 此访问令牌用于向所有 [!DNL SharePoint] 区域。
 
 ### 访问和权限
 
-用户首次将文档添加到 [!DNL Workfront] 从 [!DNL SharePoint]，则会被定向到请求以下权限的屏幕：
+用户首次向添加文档时 [!DNL Workfront] 起始日期 [!DNL SharePoint]时，用户会被定向到请求以下权限的屏幕：
 
 | 访问权限 | 原因 |
 |---|---|
-| 拥有对文件的完全访问权限 | 允许 [!DNL Workfront] 访问用户文件以链接资产时，请执行以下操作： 从发送文档时 [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] 需要访问权限才能创建资产。 |
-| 读取所有网站集中的项目 | 允许 [!DNL Workfront] 读取资产以启用用户导航。 |
-| 编辑或删除所有网站集中的项目 | 允许 [!DNL Workfront] 在站点和站点集中创建资产。 仅在链接尝试失败后进行清理时，才使用删除。 |
-| 维护您授予其访问权限的数据的访问权限 | 允许 [!DNL Workfront] 以生成刷新令牌。 |
-| 登录并读取用户配置文件 | 允许 [!DNL Workfront] 要通过OAuth2登录流程，使用访问令牌代表用户执行操作。 |
+| 拥有对文件的完全访问权限 | 允许 [!DNL Workfront] 用于访问用户文件以链接资产。 当文档发送自 [!DNL Workfront] 到 [!DNL SharePoint]， [!DNL Workfront] 需要访问权限才能创建资产。 |
+| 读取所有网站集中的项目 | 允许 [!DNL Workfront] 以读取资产以启用用户导航。 |
+| 编辑或删除所有网站集中的项目 | 允许 [!DNL Workfront] 在网站和网站集中创建资产。 仅在链接尝试不成功后进行清理时使用“删除”。 |
+| 维护对您已授予其访问权限的数据的访问权限 | 允许 [!DNL Workfront] 以生成刷新令牌。 |
+| 登录并读取用户配置文件 | 允许 [!DNL Workfront] 通过OAuth2登录流程，使用访问令牌代表用户操作。 |
 
-此访问权限由用户在首次使用集成时授予，并且可以随时撤消。
+此访问权限由用户在首次使用该集成时授予，并且可随时撤销。
 
-请考虑以下与访问 [!DNL SharePoint] 到 [!DNL Workfront] [!DNL SharePoint] 集成：
+有关对的访问，请考虑以下事项 [!DNL SharePoint] 通过 [!DNL Workfront] [!DNL SharePoint] 集成：
 
-* 为此集成请求的权限为 **委托** 权限。
-* [!DNL Workfront] 请求执行集成中的操作所需的最低访问权限。
-* 查看、编辑或删除 [!DNL Adobe Workfront] 链接到的文档 [!DNL SharePoint] 基于用户在 [!DNL Workfront]. 但是，对于 [!DNL SharePoint] 文件或文件夹需要访问 [!DNL SharePoint]，并且这些操作的访问权限由 [!DNL SharePoint].
-* 用户可以查看缩略图并预览源自 [!DNL SharePoint]，并且可以在 [!DNL SharePoint]，而不登录 [!DNL SharePoint].
-* 用户的访问令牌仅在用户处于脱机状态且其他用户查看链接到的文件夹的内容时使用 [!DNL Workfront]. 访问令牌用于发现文件夹中是否有文档已添加、删除或编辑。
+* 为此集成请求的权限为 **已委托** 权限。
+* [!DNL Workfront] 请求在集成中执行操作所需的最低访问权限。
+* 查看、编辑或删除 [!DNL Adobe Workfront] 文档链接到 [!DNL SharePoint] 基于用户在中的访问权限 [!DNL Workfront]. 但是，任何导航、下载或编辑 [!DNL SharePoint] 文件或文件夹需要访问 [!DNL SharePoint]，对这些操作的访问权限由控制 [!DNL SharePoint].
+* 用户可以查看缩略图并预览源自 [!DNL SharePoint]，并且可以在以下位置查看文件和文件夹名称： [!DNL SharePoint]，无需登录 [!DNL SharePoint].
+* 仅当用户处于脱机状态且另一个用户查看链接到的文件夹的内容时，才会使用用户的访问令牌 [!DNL Workfront]. 访问令牌用于发现文件夹中的任何文档是否已添加、删除或编辑。
 
 ### 安全性
 
-之间的所有通信 [!DNL Workfront] 和 [!DNL SharePoint] 通过HTTPS进行，以加密信息。
+之间的所有通信 [!DNL Workfront] 和 [!DNL SharePoint] 通过HTTPS执行，这会加密信息。
 
-[!DNL Workfront] 不存储、复制或复制 [!DNL SharePoint]. 唯一的例外是 [!DNL Workfront] 存储缩略图 [!DNL SharePoint] 以在列表视图和预览中显示。
+[!DNL Workfront] 不存储、复制或复制来自的数据 [!DNL SharePoint]. 唯一的例外是 [!DNL Workfront] 存储缩略图来源 [!DNL SharePoint] 以显示在列表视图和预览中。
 
-如果资产首次上传到 [!DNL Workfront]，然后发送到 [!DNL SharePoint], [!DNL Workfront] 保留第一个文件的数据，因为用户可以下载 [!DNL Workfront] 文档。 如果文档是在 [!DNL SharePoint], [!DNL Workfront] 不存储该文件数据。
+如果资产首次上传到 [!DNL Workfront]，然后发送到 [!DNL SharePoint]， [!DNL Workfront] 保留第一个文件的数据，因为用户可以下载以前版本的 [!DNL Workfront] 文档。 如果文档创建于 [!DNL SharePoint]， [!DNL Workfront] 不会存储该文件数据。
 
-## 配置旧版 [!DNL SharePoint] 集成以继续访问文档
+## 配置旧版 [!DNL SharePoint] 集成以便继续访问文档
 
-确保用户能够继续访问通过旧版链接到Workfront的文档 [!DNL SharePoint] 集成中，您必须重新配置对旧版的访问权限 [!DNL SharePoint] 集成并保持SharePoint客户端密钥为最新。
+为了确保您的用户能够继续访问通过旧版链接到Workfront的文档 [!DNL SharePoint] 集成，您必须重新配置对旧版的访问权限 [!DNL SharePoint] 集成并使SharePoint客户端密钥保持最新。
 
 * [重新配置对旧版的访问权限 [!DNL SharePoint] 集成](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
 
 ### 重新配置对旧版的访问权限 [!DNL SharePoint] 集成
 
-确保您可以访问通过旧版链接的文档 [!DNL SharePoint] 集成，同时确保用户无法通过该集成链接新文档，请完成以下过程。
+确保您可以访问通过旧版链接的文档 [!DNL SharePoint] 集成，在确保用户无法通过该集成链接新文档的同时，请完成以下步骤。
 
 >[!NOTE]
 >
-> * 旧版 [!DNL SharePoint] 集成标记为“[!DNL SharePoint].&quot;
-> * 新 [!DNL SharePoint] 集成标记为“[!UICONTROL [!DNL SharePoint] （图形API）].&quot;
+> * 旧版 [!DNL SharePoint] 集成被标记为“[!DNL SharePoint].”
+> * 新 [!DNL SharePoint] 集成被标记为“[!UICONTROL [!DNL SharePoint] （图形API）].”
 
-
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **[!UICONTROL 设置]** ![设置](../get-started-wf-administration/assets/gear-icon-settings.png).
-1. 选择 **[!UICONTROL 文档]** 在左侧导航中，选择 **[!UICONTROL 云提供商]**.
-1. 确保 **[!DNL SharePoint]** 选项和 **[!UICONTROL [!DNL SharePoint]（图形API）]** 选项均已启用。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 设置]** ![设置](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. 选择 **[!UICONTROL 文档]** 在左侧导航中，然后选择 **[!UICONTROL 云提供商]**.
+1. 确保 **[!DNL SharePoint]** 期权及 **[!UICONTROL [!DNL SharePoint]（图形API）]** 选项均已启用。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 选择 **[!UICONTROL 文档]** 在左侧导航中，选择 **[!UICONTROL [!DNL SharePoint]集成]**.
-1. 选择列表左侧的复选标记以用于所有现有集成，然后选择 **[!UICONTROL 禁用]**.
+1. 选择 **[!UICONTROL 文档]** 在左侧导航中，然后选择 **[!UICONTROL [!DNL SharePoint]集成]**.
+1. 选中列表左侧的复选标记可显示所有现有集成，然后选择 **[!UICONTROL 禁用]**.
 
 
 ### 配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成
 
-您的 [!DNL SharePoint] 客户端密钥每年过期一次。 确保继续访问旧版中的文档 [!DNL SharePoint] 集成时，必须保留 [!DNL SharePoint] 客户端密钥。
+您的 [!DNL SharePoint] 客户端密钥每年过期一次。 确保持续访问旧版中的文档 [!DNL SharePoint] 集成，您必须保留其 [!DNL SharePoint] 客户端密钥为最新。
 
 >[!IMPORTANT]
 >
-> 因为 [!DNL SharePoint] 客户端密钥由 [!DNL Microsoft]，客户端密钥功能和过程可能会根据 [!DNL SharePoint] 由 [!DNL Microsoft]. 始终检查 [!DNL Microsoft] 有关 [!DNL SharePoint].
+> 因为 [!DNL SharePoint] 客户端密钥由处理 [!DNL Microsoft]，客户端密钥功能和过程可能会因对的更新而更改 [!DNL SharePoint] 创建者 [!DNL Microsoft]. 始终检查 [!DNL Microsoft] 文档，以了解中有关过程和功能的最新信息 [!DNL SharePoint].
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. 生成新的客户端密钥，如 [替换 [!DNL SharePoint] 插件](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. 生成新的客户端密码，如中所述 [在中替换过期的客户端密码 [!DNL SharePoint] 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
 1. 将此客户端密钥复制到安全位置。
 1. 登录 [!DNL Workfront] 作为管理员。
-1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
 1. 在左侧面板中，单击 **[!UICONTROL 文档]** > **[!UICONTROL [!DNL SharePoint]集成]**.
 1. 单击 [!DNL SharePoint] 要更新的集成，然后单击 **[!UICONTROL 编辑]**.
-1. 在 **[!UICONTROL 客户端密钥]** 字段。
+1. 将新的客户端密钥输入到 **[!UICONTROL 客户端密码]** 字段。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 <!--
@@ -379,42 +376,42 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 ## 故障排除
 
-* [问题：使用 [!DNL SharePoint] 集成。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [问题：尝试浏览时 [!DNL SharePoint] 文件 [!DNL Workfront]，则看不到任何或所有网站收藏集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
-* [问题：我无法访问 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
+* [问题：用户在使用时遇到基于身份验证的错误 [!DNL SharePoint] 集成。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
+* [问题：当尝试浏览时 [!DNL SharePoint] 中的文件 [!DNL Workfront]，则看不到任何或所有网站集。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [问题：我无法访问中以前链接的文件夹和文档 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
-### 问题：使用 [!DNL SharePoint] 集成。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
+### 问题：用户在使用时遇到基于身份验证的错误 [!DNL SharePoint] 集成。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
 
 解决方案：
 
-用户必须拥有 [!DNL SharePoint] 网站。
+用户必须具有适当的权限，才能访问 [!DNL SharePoint] 站点。
 
-具有 [!UICONTROL 完全控制] 拥有您的 [!DNL SharePoint] 集成。 如果您不想向用户授予完全控制访问权限，则必须授予以下权限：
+用户具有 [!UICONTROL 完全控制] 拥有您的的所有必要权限 [!DNL SharePoint] 集成。 如果不希望向用户授予完全控制访问权限，则必须授予以下权限：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Design]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL设计]</p> </td> 
    <td> <p>可以查看、添加、更新、删除、批准和自定义</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL编辑]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL编辑]</p> </td> 
    <td> <p>可以添加、编辑和删除列表；可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以查看、添加、更新和删除列表项和文档</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！仅UICONTROL视图]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL仅视图]</p> </td> 
    <td> <p>可以查看页面、列表项和文档（具有服务器端文件处理程序的文档类型可以在浏览器中查看，但不能下载）</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关创建和编辑权限级别的说明，请参阅 [如何创建和编辑权限级别](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) (在Microsoft文档中)。
+有关创建和编辑权限级别的说明，请参阅 [如何创建和编辑权限级别](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) 在Microsoft文档中。
 
 <!--
 
@@ -430,11 +427,11 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 问题：尝试浏览时 [!DNL SharePoint] 文件 [!DNL Workfront]，则看不到任何或所有网站收藏集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 问题：当尝试浏览时 [!DNL SharePoint] 中的文件 [!DNL Workfront]，则看不到任何或所有网站集。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解决方案：
 
-要在 [!DNL Workfront]，则必须满足以下条件：
+在中查看网站集 [!DNL Workfront]，则必须满足以下条件：
 
 <!--
 
@@ -447,9 +444,9 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
    1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
    -->
 
-* 用户必须有权查看 [!DNL SharePoint].
+* 用户必须拥有对网站集的查看权限 [!DNL SharePoint].
 
-   要在 [!DNL SharePoint]，转到 [!DNL SharePoint]，然后打开网站集> [!UICONTROL 设置] > [!UICONTROL 网站权限].
+  在中验证此功能的步骤 [!DNL SharePoint]，转到 [!DNL SharePoint]，然后打开网站集> [!UICONTROL 设置] > [!UICONTROL 网站权限].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
@@ -462,15 +459,15 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
       
 -->
 
-### 问题：我无法访问 [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### 问题：我无法访问中以前链接的文件夹和文档 [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 解决方案：
 
-如果链接了 [!DNL SharePoint] 文件夹无法再进行身份验证， [!DNL Workfront] 无法再访问文件夹的内容。 例如，如果最初链接文件夹的用户离开公司，则可能会发生这种情况。
+如果链接了用户 [!DNL SharePoint] 文件夹无法再进行身份验证， [!DNL Workfront] 无法再访问文件夹的内容。 例如，如果最初链接文件夹的用户离开公司，则可能会发生这种情况。
 
-要确保继续访问，有权访问文件夹的用户必须重新链接该文件夹。
+为确保继续访问，具有该文件夹访问权限的用户必须重新链接该文件夹。
 
-有关从外部提供程序关联文件夹的信息，请参阅 [从外部应用程序链接文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关从外部提供程序链接文件夹的信息，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <!--
 

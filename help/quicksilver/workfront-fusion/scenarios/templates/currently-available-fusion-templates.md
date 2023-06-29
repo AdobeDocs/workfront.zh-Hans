@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
+source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 您的团队或组织可能有其他团队创建的模板可用。
 
-要查看可用的模板，请单击 **模板** 图标 ![](assets/fusion-template-icon.png) 侧面导航菜单中找到。
+要查看可用的模板，请单击 **模板** 图标 ![](assets/fusion-template-icon.png) （在Fusion的侧面导航菜单中）。
 
 ## Workfront模板
 
