@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -530,6 +530,22 @@ ht-degree: 0%
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">“新建共享”按钮</a> </p>
+                        <p>已从项目、任务和问题的更多菜单中提取了共享选项，以便更直观地共享。</p>
+                    </td>
+                    <td><p><b>在以下日期提供：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年6月22日<br /></p>
+                            </li>
+                            <li>
+                                <p>生产版本：随23.3版提供</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>

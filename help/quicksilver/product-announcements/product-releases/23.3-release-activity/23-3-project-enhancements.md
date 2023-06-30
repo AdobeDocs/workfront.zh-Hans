@@ -3,9 +3,9 @@ title: 23.3项目增强功能
 description: 23.3项目增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ ht-degree: 0%
 * 直接从“我的更新”和“主页”做出批准决策
 * 为特定文档版本创建批准
 
-有关使用新文档审批的更多信息，请参阅 [文档审阅和批准](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+有关使用新文档审批的更多信息，请参阅 [新建文档审批概述](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## “新建共享”按钮
+
+已从项目、任务和问题的更多菜单中提取了共享选项，以便更直观地共享。 现在，新的“共享”按钮显示在对象名称旁边，紧靠在“更多”菜单之前。 共享文档、项目组合和项目群保持不变。
+
+有关共享对象的详细信息，请参见 [共享对象](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
