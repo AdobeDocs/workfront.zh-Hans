@@ -9,9 +9,9 @@ description: 要使用 [!DNL Google Sheets] 替换为 [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ ht-degree: 0%
 ### 如何从获取空单元格 [!DNL Google Sheet]
 
 使用 [!UICONTROL 搜索行（高级）] 模块并使用此公式获取空列。
-<pre>选择* [！UICONTROL，其中E​为null]</pre>其中，“E”是列，“is null”是条件。 您可以使用[Google Query Lang]创建更高级的查询。](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>选择*，其中E为null</pre>其中，“E”是列，“is null”是条件。 您可以使用[Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage)创建更高级的查询。
 
 ### 在工作表中添加按钮以运行方案
 
