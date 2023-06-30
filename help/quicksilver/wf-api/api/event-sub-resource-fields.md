@@ -6,16 +6,16 @@ description: 事件订阅资源字段
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 11%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
 # 事件订阅资源字段
 
-事件订阅资源字段表示导致事件订阅向配置的端点发送出站消息的事件的触发器。 编辑资源字段时，会触发UPDATE事件。
+事件订阅资源字段表示事件的触发器，这些事件会导致事件订阅将出站消息发送到配置的端点。 编辑资源字段时，会触发UPDATE事件。
 
 下表列出了可用于事件订阅资源的字段：
 
@@ -26,504 +26,736 @@ ht-degree: 11%
  <thead> 
   <tr> 
    <th>资源</th> 
-   <th>objCode</th> 
+   <th>对象代码</th> 
    <th>字段</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>分配</td> 
-   <td>ASSGN</td> 
+   <td>分配</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>actualWorkPerDayStartDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>assignedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>assignedToID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> assignmentPercent </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> assignmentpercent </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> avgWorkPerDay </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> avgWorkPerDay </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> customerID </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> 客户ID </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>isPrimary</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> isTeamAssignment </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> isTeamAssignment </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> opTaskID </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> 对象代码 </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> projectedAvgWorkPerDay </td> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> opTaskID </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> protedUserAllocationPercentage </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> projectedAvgWorkPerDay </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> projectID </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> projectedUserAllocationPercentage </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> projectID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> securityRootID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>taskID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>任务ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>teamID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>工作</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>workPerDayList</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>workRequired</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>所需工作</td> 
   </tr> 
   <tr> 
    <td>公司</td> 
    <td>CMPY</td> 
-   <td>categoryID</td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> extRefId </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> groupID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 对象代码 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> parametervalues </td> 
+  </tr> 
+  <tr> 
   <tr> 
    <td>仪表板</td> 
    <td>PTLTAB</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate将仅在每天第一次更新时触发事件。 </p> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>docID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate仅在每天首次更新时触发事件。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>portalProfileID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userID</td> 
   </tr> 
   <tr> 
    <td>文档</td> 
-   <td>多库</td> 
+   <td>DOCU</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>currentVersionID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>当前版本ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customer:isAdvancedDocMgmtEnabled</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer：isAdvancedDocMgmtEnabled</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>documentRequestId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>组</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>迭代标识</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> lastUpdatedByID </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> lastUpdatedByID </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>ownerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>注释ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> <p>referenceNumber</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
-   <td><span>DOCV</span> </td> 
-   <td><span>activeProofStages</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>documentID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>docSize</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>entryDate</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>enteredByID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>分机</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>externalIntegrationType</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>externalStorageID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>fileName</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>fileType</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>位置</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>spresodByUserID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofDeadlineDate</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofDecision</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofName</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofOwnerID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofPages</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofProgress</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>proofApprovalStatusID</span> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>版本</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
   </tr> 
   <tr> 
-   <td>费用</td> 
-   <td>EXPNS</td> 
-   <td> actualAmount </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> actualUnitAmount </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> billingRecordID </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> categoryID </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customFormsIDs</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>描述</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>effectDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>enteredByID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>expObjCode</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>expenseTypeID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>extRefID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>isBillable</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> 可报销 </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> isRevacted </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdatedByID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>masterTaskID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>objectCategories</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>objID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>opTaskID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedAmount</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>parametervalues</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedUnitAmount</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>项目组合ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>projectID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>referenceObjCode</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <p>referencenumber</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>referenceObjID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>发行版本ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>任务ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateTaskId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topObjId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userID</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>文档版本</span> </td> 
+   <td><span>DOCV</span> </td> 
+   <td><span>accessorIDs</span> </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>activeProofStages</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>文档ID</span> </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>documentProviderID</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>docSize</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>entrydate</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>enteredByID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>分机</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>externalIntegrationType</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>externalStorageID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>文件名</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>文件类型</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>ID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>位置</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>对象代码</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofApprovalStatusID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofedByUserID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofDeadlineDate</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofDecision</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofName</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofOwnerID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofPage</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofProgress</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>proofStageID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>version</span> </td> 
+  </tr> 
+  <tr> 
+   <td>费用</td> 
+   <td>扩展</td> 
+   <td> 实际金额 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> actualUnitAmou </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> billingRecordID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 类别ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customFormsIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>描述</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>生效日期</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>expObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>费用类型ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>isBillable</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 可退还 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 已退还 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象类别</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedMaunt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedunitAmount</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceObjID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>referenceObjectName</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>taskID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>任务ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateTaskId </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>topObjCode</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>topObjID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>topObjId</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>topReferenceObjCode</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
@@ -532,109 +764,139 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> actualCost </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> 实际成本 </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>approvedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>approvedOnDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>dupID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>extRefID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>externalTimesheetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>小时</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>hourTypeID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>小时类型ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>opTaskID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>projectID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>projectOverheadID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>referenceObjCode</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>referenceObjID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>taskID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>任务ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>timeskeID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>工时表ID</td> 
   </tr> 
   <tr> 
    <td>问题</td> 
@@ -642,89 +904,214 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>assignedToID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>currentApprovalStepID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>迭代标识</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>kanbanBoardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastConditionNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedCompletionDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedCompletionDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>优先次序</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>projectID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>referenceNumber</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueDefID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueTopicID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referencenumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceObjID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>拒绝问题ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>resolveOpTaskID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>解决项目ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>resolveTaskID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>resolvingObjId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>根组ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>sourceObjId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>sourceTaskId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedById</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>teamID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
    <td>注释</td> 
@@ -732,29 +1119,179 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachDocumentID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachObjID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>noteText</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachOpTaskID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachWorkID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachWorkUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>auditRecordId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>文档ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>externalServiceID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>迭代标识</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>注释文本</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>opTaskID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>parentInvalidationID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parentJournalEntryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parentNoteId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>项目组合ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>proofActionId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>rtfNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>主题</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>任务ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateTaskId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>threadid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>工时表ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topObjId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userID</td> 
   </tr> 
   <tr> 
    <td>项目组合</td> 
@@ -762,54 +1299,79 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
   </tr> 
   <tr> 
    <td>项目群</td> 
@@ -817,184 +1379,354 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdatedByID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>name</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>ownerID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>portfolioID</td> 
-  </tr> 
-  <tr> 
-   <td>项目</td> 
-   <td>PROJ</td> 
-   <td>accessorIDs</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>companyID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>货币</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>描述</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>enteredByID</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>groupID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpatedByID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedCompletionDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>项目组合ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td>项目</td> 
+   <td>项目</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>alignmentScoreCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>companyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>convertedOpTaskID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>convertedOpTaskOriginatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>货币</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>currentApprovalStepID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>deliverablescorecardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>描述</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+    <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>issueWorkflowAutomationId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastConditionNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+<tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>里程碑路径ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>popaccountid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>优先次序</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>portfolioID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>programID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>referenceNumber</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueDefID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>ponsorID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>referencenumber</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>拒绝问题ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>resourcePoolID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>根组ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>scheduleid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>subscriptorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedById</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>TaskworkflowautomationID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>teamID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>templateID</td> 
   </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workflowAutomationID</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>校样批准</span> </td> 
+   <td><span>校对审批</span> </td> 
    <td><span>PRFAPL</span> </td> 
+   <td><span>accessorIDs</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>批准者决策</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>approverID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>客户ID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>文档ID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>documentVersionID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>审批者决策</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>ID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>审批者ID</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>isWaitingDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
-   <td><span>isAwaitingDecision</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>对象代码</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofCreationDate</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
+   <td><span>请求者ID</span> </td> 
   </tr> 
   <tr> 
    <td>报告</td> 
@@ -1002,374 +1734,759 @@ ht-degree: 11%
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>appGlobalID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>filterid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastViewedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>preferenceID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>publicRunAsUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>报告文件夹ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>runAsUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>scheduledReportID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>uiObjCode</td> 
   </tr> 
   <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>viewID</td> 
+  </tr> 
+  <tr> 
    <td>任务</td> 
    <td>任务</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>assignedToID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>billingRecordID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>convertedOpTaskID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>convertedOpTaskOriginatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>currentApprovalStepID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>迭代标识</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>kanbanBoardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastConditionNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>里程碑ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>planedCompletionDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>parentId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>优先次序</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>projectID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>referenceNumber</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>recurrenceRuleID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>referencenumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>拒绝问题ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>根组ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>securityRootID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedById</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>teamID</td> 
   </tr> 
   <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>templateTaskId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workflowAutomationID</td> 
+  </tr> 
+  <tr> 
    <td>模板</td> 
-   <td>TMPL</td> 
+   <td>模板</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>approvalProcessID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>companyID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>deliverablescorecardID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>描述</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>entryDate</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>entrydate</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>issueWorkflowAutomationId</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>里程碑路径ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>ownerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>优先次序</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>portfolioID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>programID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>referenceNumber</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueDefID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>ponsorID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>项目组合ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referencenumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>scheduleid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>subscriptorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>TaskworkflowautomationID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>teamID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
    <td>时间表</td> 
    <td>TSHET</td> 
-   <td>approversListString</td> 
+   <td>approverID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>批准者列表字符串</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>displayName</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>endDate </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>显示名称</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>extRefID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>hasNotes</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>hoursDuration</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>hasnotes</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>小时持续时间</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>isEditable</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastNoteID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>attermineHours</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>regularHours</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>overtimeHours</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>startDate </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>regulathours</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>状态</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>timedeleProfileID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>timesheetProfileID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>totalHours</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalhours</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>userID</td> 
   </tr> 
   <tr> 
    <td>用户</td> 
    <td>用户</td> 
-   <td>accessLevelID</td> 
+   <td>访问级别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>categoryID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>类别ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>companyID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>customerID</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>客户ID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>defaultHourTypeID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>delegationToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>eauthUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>emailAddr</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>extRefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>homeGroupID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>homeTeamID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>isActive</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastEnteredNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastLoginDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>latestUpdateNoteID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>布局模板ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>logTimeInDays</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>managerID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>name</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>parameterValues*</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>对象代码</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>参数值*</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>portalProfileID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>resourcePoolID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>scheduleid</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>timesheetProfileID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>title</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>uiTemplateID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>uumUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>tiworkHoursPerDaytle</td> 
   </tr> 
  </tbody> 
 </table>
