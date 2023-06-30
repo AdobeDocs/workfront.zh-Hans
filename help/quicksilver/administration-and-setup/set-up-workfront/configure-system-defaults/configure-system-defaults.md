@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,6 @@ ht-degree: 0%
 * [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [为项目配置时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 * [为项目启用自定义季度](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [启用或禁用组织的快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

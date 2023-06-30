@@ -2,86 +2,91 @@
 content-type: release-notes
 keywords: 版本
 navigation-topic: product-announcements
-title: Adobe Workfront發行排程和程式
-description: 預覽環境每週更新一次，其中包含新功能。 這些功能會在即將發行的季度版本注意事項中說明。
+title: Adobe Workfront发布计划和流程
+description: “预览”环境每周更新一次，其中包含新功能。 这些功能将在即将发布的季度版本的发行说明中介绍。
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront發行排程和程式
+# Adobe Workfront发布计划和流程
 
-## 更新排程以預覽
+## 更新预览计划
 
-預覽環境每週更新一次，其中包含新功能。 這些功能會在即將發行的季度版本注意事項中說明。
+“预览”环境每周更新一次，其中包含新功能。 这些功能将在即将发布的季度版本的发行说明中介绍。
 
-## 更新生產排程
+## 更新生产计划
 
-### 產品功能
+### 产品功能
 
-通常情況下，生產環境中的預覽功能會在下一個季度版本中提供。 但是，在某些情況下，功能可在季度版本之外的生產環境中使用。 這些變更至少會在「預覽」中保留2週，讓您有充足的時間熟悉這些變更。 這些變更在新增到預覽版時也會透過宣告中心傳達。
 
-### 維護更新
+Adobe Workfront有两种发布新功能和更新的模型。 贵组织可以选择按季度还是按更快的发布时间表接收新功能。
 
-Adobe Workfront產品的問題修正每週都可在生產環境中取得。 請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面以檢視最近修正的內容。
+通常，“预览”中的功能会在下一个版本中提供给您的生产环境。 但是，在某些情况下，功能在计划版本之外的生产环境中可用。 这些更改至少会在“预览”中保留2周，以便您有足够的时间熟悉这些更改。 这些更改在添加到预览版时也会通过公告中心进行沟通。
 
-## 從每季發行移除的功能
+有关季度发布和快速发布流程的详细信息，请参见 [启用或禁用组织的快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-與指定季度版本相關的所有功能都可在「預覽」中測試，在最終版本發行到「生產」之前至少2至4週。 如果在此之前從季度版本中移除功能，將採取以下動作通知客戶：
+### 维护更新
 
-* 每季發行的發行說明(可在 [產品發行](../../product-announcements/product-releases/product-releases.md) 頁面)更新以表示功能已移除。
+每周，“生产”环境中都会提供对Adobe Workfront产品的问题修复。 请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面查看最近修复的内容。
 
-如果在所有功能都可在「預覽」中測試後從季度發行中移除功能，則會採取以下動作來通知客戶：
+## 从计划版本中删除的功能
 
-* 每季發行的發行說明(可在 [產品發行](../../product-announcements/product-releases/product-releases.md) 頁面)更新以表示功能已移除。
-* 在Workfront社群中新增文章，說明已移除該功能。
-* 系統會透過「公告中心」傳送訊息給所有客戶，說明此功能已移除。 (宣告中心是Workfront的應用程式內通知中心。 如需詳細資訊，請參閱 [傳送宣告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+在最终发布到生产环境之前，与给定版本（每月或每季度）关联的所有功能都可以在“预览”环境中至少测试2至4周。 如果在此之前从计划版本中删除了功能，则会采取以下操作来通知客户：
 
-## Beta版
+* 计划版本的发行说明(可在 [产品版本](../../product-announcements/product-releases/product-releases.md) 页面)更新以指示该功能已被删除。
 
-Workfront有時會發行新功能，作為測試版計畫的一部分。
-每個測試版的特定資訊，包括如何參與、每個測試版計畫啟動時的發行和所有測試版計畫不同。
+如果在所有功能都可在“预览”中测试后从计划版本中删除功能，则会采取以下操作来通知客户：
 
-Workfront提供下列測試版計畫：
+* 此版本的发行说明(可从以下网站获取： [产品版本](../../product-announcements/product-releases/product-releases.md) 页面)更新以指示该功能已被删除。
+* 在Workfront社区中添加了一条帖子，声明该功能已被删除。
+* 通过“公告中心”向所有客户发送一条消息，声明该功能已被删除。 (公告中心是Workfront的应用程序内通知中心。 有关更多信息，请参阅 [发送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
-* **封閉式或私人測試版**：以下是封閉或私密測試版的特性：
+## 测试版
 
-   * 少數客戶可透過Workfront精心挑選的功能。
-   * 參與者通常會與產品經理合作，並定期提供意見回饋。
-   * 屬於Beta版一部分的新功能可發佈到「預覽」或「生產」，或發佈到為Beta版計畫提供的單獨環境。 封閉式Beta版功能會隨機發行，不會發出警告。
-   * 產品發行頁面上沒有已關閉beta的發行資訊。
+有时，Workfront会发布新功能，作为测试版计划的一部分。
+有关每个测试版的特定信息，包括如何参与、每个测试版计划启动时的发布和所有测试版计划不同。
 
-* **公開或公開測試版**：以下是公開或公開測試版的特性：
+Workfront提供了以下测试版计划：
 
-   * 這些功能可供所有Workfront客戶使用，但處於測試版狀態。 他們可能並不總是完全發揮功能，歡迎隨時提供意見回饋。
-   * 您可以選擇是否參與公開測試版，客戶可以自行決定是否開啟測試版功能。
-   * 屬於Beta版一部分的新功能可發佈到「預覽」或「生產」。
-   * 功能發行頻率可能高於Workfront的一般發行模式。
-   * 有關功能何時發佈到公開測試版的資訊包含在產品發行頁面中。
+* **封闭式或私有测试版**：以下是封闭或私有测试版的特征：
 
-如需有關產品發行說明的資訊，請參閱 [產品發行](../../product-announcements/product-releases/product-releases.md).
+   * 一小部分客户可以使用该功能，这些功能由Workfront仔细选择。
+   * 参与者通常与产品经理合作，并定期提供反馈。
+   * Beta版中的新增功能可以发布到“预览”或“生产”环境，也可以发布到为Beta版计划提供的单独环境。 封闭Beta版功能会随机发布，并且不会发出警告。
+   * 产品发行页面上没有已关闭beta的发行信息。
+
+* **公开或公开测试版**：以下是公开或公开测试版的特征：
+
+   * 这些功能对所有Workfront客户都可用，但处于Beta状态。 它们可能并不总是完全起作用，并且始终欢迎提供反馈。
+   * 公开测试版的参与是可选的，客户可以自行决定是否启用Beta版功能。
+   * Beta版中的新增功能可以发布到“预览”版或“生产”版。
+   * 与Workfront的常规发布模式相比，功能的发布频率可能更高。
+   * 有关何时将功能发布到公共测试版的信息包含在产品发布页面中。
+
+有关产品发行说明的信息，请参阅 [产品版本](../../product-announcements/product-releases/product-releases.md).
 
 ## 其他版本
 
-有時，Workfront可能會發行發行發行說明、維護更新或任何說明檔案文章中可能未記載的功能。 這樣做是為了在將新功能永久化之前對其進行測試。 通常，這些測試會發佈給有限數量的客戶，但可能會在一段時間後發佈給每個人。 它們可以發佈到預覽或生產環境。
+有时，Workfront可能会发布未在发行说明、维护更新或任何文档文章中记录的功能。 这样做是为了在将新功能永久化之前对其进行测试。 通常，这些测试发布给有限数量的客户，但可能会有时间将其发布给每个客户。 它们可以发布到预览或生产环境。
 
-如果您在系統中發現與檔案不符的專案或有關於這些專案的問題，請聯絡我們的客戶支援團隊。 如需詳細資訊，請參閱 [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+如果您在系统中发现与文档不匹配的某些内容，并且可能有关于这些内容的问题，我们建议您联系我们的客户支持团队。 有关更多信息，请参阅 [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-## 發行說明
+## 发行说明
 
-使用即將發行的季度版本的發行說明來檢視哪些新功能可在「預覽」中使用，以及何時將發行到生產環境。
+使用即将发布的计划版本的发行说明查看哪些新功能在“预览”中可用，以及何时将其发布到生产环境。
 
-若要尋找下一個季度版本的發行說明，請參閱 [產品發行](../../product-announcements/product-releases/product-releases.md)，然後按一下連結，帶您前往即將發行版本的版本概觀頁面。
+要查找下一个计划版本的发行说明，请参阅 [产品版本](../../product-announcements/product-releases/product-releases.md)，然后单击链接，以转到即将发布的版本的版本概述页面。
 
-發行說明的左欄會提供包含功能清單的表格，其中會包含每個功能的簡短說明。 您可以按一下功能連結來觀看新功能的示範影片，以及存取新功能的相關檔案。 在右欄中，您會看到每個功能的下列資訊：
+发行说明在左栏中提供了一个包含功能列表的表，其中简要说明了每个功能。 您可以单击功能链接以查看新功能的演示视频，并访问有关新功能的文档。 在右列中，您会看到每个功能的以下信息：
 
-* 預覽發行日期
-* 生產發行日期
+* 预览发行日期
+* 生产发布日期
 
 例如：
 
