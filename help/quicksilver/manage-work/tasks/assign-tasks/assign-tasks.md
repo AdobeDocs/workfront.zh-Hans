@@ -6,9 +6,9 @@ description: 您可以将任务分配给用户、角色或团队，以指明负�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 分配任务
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>2023年6月30日，在预览中临时禁用了分配率覆盖功能。
 
 您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 

@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ ht-degree: 0%
 > * 如果您位于 **每季** 版本跟踪，23.3之后的版本将 **23.10**，2023年10月。
 > 
 > 季度发行将包括三个月发行版本的功能。 例如，23.10季度版本将包括在23.8、23.9和23.10月度版本中发布的功能。
->
->|每月发行|每季度发行|
->|----|----|
+>每月发行|每季度发行|
+>----|----|
 >|<ul><li>23.8（2023年8月）</li><li>23.9（2023年9月）</li><li>23.10（2023年10月）</li></ul>| <ul><li>23.10（2023年10月）</li></ul>|
 >|<ul><li>23.11（2023年11月）</li><li>23.12（2023年12月）</li><li>24.1（2024年1月）</li></ul>| <ul><li>24.1（2024年1月）</li></ul>|
 
@@ -114,7 +113,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">项目的敏捷视图显示看板</a><span style="color: #ff0000;"> 即将推出！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">项目的敏捷视图显示看板</a><span style="color: #ff0000;"> 预览中的新增功能！</span></p>
                         <p>项目的敏捷视图现在包括附加功能，用于在Kanban展示板中筛选、分组和排序工作。 新的灵活视图设计包括强大的搜索功能，以及直接从展示板向项目添加新任务的能力。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -333,7 +332,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本和记帐费率</a><span style="color: #ff0000;"> 即将推出！</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本和记帐费率</a><span style="color: #ff0000;"> 预览中的新增功能！</span> </p>
                         <p>Workfront中的公司、用户和工作角色对象现在提供日期有效成本和计费率。 当将日期有效费率应用于项目，并且在项目任务中记录小时数时，使用每个时间期的指定费率计算成本和收入。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -343,7 +342,8 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>快速版本客户的生产版本：将在23.3生产版本之后发布</p>
-                                <p>适用于所有客户的生产版本：使用23.4版本</p>
+                                <p>适用于所有客户的生产版本：使用23.4版本<br>
+                                <span style="color: #ff0000;"> 2023年6月30日，在预览中临时禁用了分配率覆盖功能。</span></p>
                             </li>
                         </ul>
                     </td>
