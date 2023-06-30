@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3465'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,22 @@ ht-degree: 0%
 
 有关用于PDF服务的API的信息，请参阅 [Adobe文档生成API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## 使用时的注意事项 [!DNL Adobe PDF Services]
+## 使用时的安全注意事项 [!DNL Adobe PDF Services]
 
-* [您不需要 [!DNL Adobe] 帐户](#you-do-not-need-an-adobe-account)
-* [[!DNL Workfront Fusion] 不会存储您的文件](#workfront-fusion-does-not-store-your-files)
+<!--
 
-### 您不需要 [!DNL Adobe] 帐户
+* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
+* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
 
-因为 [!DNL Workfront Fusion] 是 [!DNL Adobe] 产品套件，您无需另外安装 [!DNL Adobe] 帐户以使用这些工具。 每个工具访问 [!DNL Adobe] PDF功能，无需使用连接。
+### You do not need an [!DNL Adobe] account 
 
-虽然 [!DNL Workfront Fusion] 不需要 [!DNL Adobe] 帐户使用PDF服务，模块需要连接。 此连接中没有涉及任何凭据，您只提供连接本身的名称。
+Because [!DNL Workfront Fusion] is part of the [!DNL Adobe] product suite, you don't need a separate [!DNL Adobe] account to use these tools. Each tool accesses [!DNL Adobe] PDF functionality without using a connection.
 
-### [!DNL Workfront Fusion] 不会存储您的文件
+Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
+
+### [!DNL Workfront Fusion] does not store your files 
+
+-->
 
 此 [!DNL Adobe PDF Services] 可以读取、转换或修改您的文件，但两者都不能 [!DNL Adobe] 也不 [!DNL Workfront Fusion] 存储您的文件或数据。 这意味着：
 
@@ -79,6 +83,59 @@ ht-degree: 0%
 
 有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## 创建连接 [!DNL Adobe PDF Services]
+
+为创建连接 [!DNL Adobe PDF Services] 模块：
+
+1. 在任意 [!DNL Adobe PDF Services] 模块，单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
+
+1. 填写以下字段：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[！UICONTROL连接类型]</td>
+          <td>
+            <p>选择是要创建服务器到服务器连接还是JWT连接。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL连接名称]</td>
+          <td>
+            <p>输入此连接的名称。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL客户端ID]</td>
+          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL客户端密钥]</td>
+          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端密钥]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL技术帐户ID]（仅限JWT）</td>
+          <td>输入您的 [!DNL Adobe] [！UICONTROL技术帐户ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL组织ID]（仅限JWT）</td>
+          <td>输入您的 [!DNL Adobe] [！UICONTROL组织ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL元范围]（仅限JWT）</td>
+          <td>
+            输入连接所需的任何元范围。
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. 单击 **[!UICONTROL 继续]** 以保存连接并返回到模块。
+
+
 ## [!DNL Adobe PDF Services] 模块及其字段
 
 配置时 [!DNL PDF Services]， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还可能会显示其他字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
@@ -98,10 +155,12 @@ ht-degree: 0%
 * [[!UICONTROL 将PDF转换为图像]](#convert-pdf-to-image)
 * [[!UICONTROL 将PDF文件线性化]](#linearize-a-pdf-file)
 * [[!UICONTROL PDF文件的OCR]](#ocr-for-pdf-file)
-* [[!UICONTROL PDF页面操作]](#pdf-page-manipulation)
+* [[!UICONTROL 页面操作]](#page-manipulation)
+* [[!UICONTROL PDF辅助功能自动标记]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF文件属性]](#pdf-file-properties)
 * [[!UICONTROL ProtectPDF文件]](#protect-pdf-file)
 * [[!UICONTROL 删除PDF文件的保护]](#remove-protection-of-a-pdf-file)
+* [拆分PDF文件](#split-a-pdf-file)
 
 ### [!UICONTROL 生成文档]
 
@@ -132,7 +191,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -168,7 +227,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -199,7 +258,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -234,7 +293,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文档]</td> 
@@ -261,7 +320,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -292,7 +351,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -361,7 +420,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -406,7 +465,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -433,7 +492,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -467,7 +526,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -496,7 +555,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -517,7 +576,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -538,7 +597,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL PDF页面操作]
+### [!UICONTROL 页面操作]
 
 此模块允许您有选择地旋转或删除PDF文档中的页面。 例如，您可以将纵向视图更改为横向视图，或从PDF文档中删除某些页面。
 
@@ -550,7 +609,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -579,6 +638,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+### [!UICONTROL PDF辅助功能自动标记]
+
+该操作模块会创建一个标记为辅助功能用例的PDF。 它还创建了一个可选的Microsoft Excel报表，其中列出了问题并提供了修复建议。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL连接]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL源文件]</td> 
+   <td> <p>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL班次标题]</td> 
+   <td> <p>启用此选项可切换文档上的标题。</p> 
+    <ul> 
+     <li> <p><b>[！UICONTROL生成报告]</b> </p> <p>启用此选项可生成报告，其中列出PDF中的辅助功能问题及其位置，并提供有关如何修复这些问题的建议。</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL PDF文件属性]
 
 此工具提取有关文档的基本信息，例如：
@@ -597,7 +684,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -618,7 +705,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -668,7 +755,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>选择要用于此模块的连接。</p> <p>您不需要 [!DNL Adobe] 用于创建PDF服务连接的帐户。 有关更多信息，请参阅 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">您不需要 [!DNL Adobe] 帐户</a> 本文章中。</p> </td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
@@ -680,3 +767,35 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+### [!UICONTROL 拆分PDF文件]
+
+此操作模块将PDF文档拆分为多个较小的文档。 您可以指定是否按文件数、每个文件的页数或页面范围拆分它。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[！UICONTROL连接]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL源文件]</td> 
+   <td> <p>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</p> <p>源文件必须采用PDF格式。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL拆分选项]</td> 
+   <td>选择要如何拆分文件。 
+   <ul>
+   <li><p><b>页面范围</b></p><p>对于要拆分为单独文档的每个页面范围，单击 <b>添加</b> 并输入要在其上开始的页面和要在其上结束的页面。</p></li>
+   <li><p><b>页数</b></p><p>输入要包括在新文档中的页数。</p></li>
+   <li><p><b>文件数</b></p><p>输入要将文档分割到的平均大小的文件数。</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
