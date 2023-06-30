@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -67,6 +69,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p><span class="preview">启用快速审查流程</span></p> </td> 
+      <td><span class="preview">允许您为组织启用每月Workfront版本，而不是每季度版本。</p><p>有关快速发布过程的详细信息，请参见 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">启用或禁用组织的快速发布</a>.</span></p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>允许嵌入 <strong>Workfront</strong> 在iframe中</p> </td> 
       <td>允许您将Workfront嵌入到iframe中。<p>此选项默认处于禁用状态。</p><p><b>重要</b>：在iframe中显示基于Web的应用程序会使应用程序容易遭受点击劫持安全漏洞攻击。</p></td> 
