@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,8 @@ ht-degree: 0%
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 回复更新或回复
+
+您可以回复对象线程中可查看的注释，也可以以Workfront或组管理员身份登录并代表其他用户回复注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 回复评论或回复会因您选择的体验和对象而异。
 

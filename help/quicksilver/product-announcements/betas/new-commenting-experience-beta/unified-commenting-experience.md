@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 1%
 * 关于系统更新的评论
 * 可在注释时编辑状态、条件和提交日期
 * 编辑自定义表单
+* 当Workfront或组管理员以其他用户的身份登录并代表他们添加评论时，显示“代表&lt;用户名>”信息。
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ ht-degree: 1%
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>富文本（表情符号）
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>富文本（块引号）
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td>从线程中删除人员 
+   <td>自动标记所有线程参与者
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ ht-degree: 1%
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>编辑自定义表单 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>可在注释时编辑状态、条件和提交日期 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>复制跟帖链接 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ ht-degree: 1%
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023年第二季度 
    </td>
@@ -411,9 +399,50 @@ ht-degree: 1%
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>编辑自定义表单 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>可在注释时编辑状态、条件和提交日期 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>回复系统更新 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>添加以其他用户身份登录的评论时显示“代表”
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ ht-degree: 1%
 
 ## 发布时间表
 
-有关最近发布到新评论体验的功能以及发布时间线的信息，请参阅 [新评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关最近发布到新评论体验的功能以及发布时间线的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 找到新的评论体验
 
@@ -456,7 +485,7 @@ ht-degree: 1%
 1. 转到要为其激活新注释体验的对象，然后单击 **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
 1. 单击 **同意** Beta协议框中的。 这将为所选对象启用新的注释体验。
-1. 开始在 **注释** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
+1. 开始在 **评论** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
 
    或
 

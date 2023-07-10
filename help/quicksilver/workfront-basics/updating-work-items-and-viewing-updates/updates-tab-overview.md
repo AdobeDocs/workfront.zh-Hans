@@ -7,10 +7,10 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 4%
 
 “更新”部分在新注释体验的以下选项卡中显示信息：
 
-* **评论**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+* **注释**：显示用户所做的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 目前，您可以在以下对象上使用新的注释体验添加注释和回复更新：
@@ -232,7 +232,18 @@ ht-degree: 4%
 
 ### 代表其他用户输入评论时的限制
 
-Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Workfront中执行输入注释等操作。 (有关信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 代表其他用户所做的任何评论都将显示在评论中。
+Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Workfront中执行输入注释等操作。
+
+有关信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+代表其他用户所做的任何评论都将显示在评论中。
+
+>[!NOTE]
+>
+><span class="preview">使用新的评论体验时，评论添加为以其他用户身份登录的用户，并且没有迹象表明他们代表其他人添加评论。
+>
+>例如，如果Workfront管理员以其他用户身份登录，则与评论关联的用户是Workfront管理员。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 组管理员可以代表他人发表评论，但不能删除该评论。 只有Adobe Workfront管理员可以删除他们代表其他用户所做的评论。
 
