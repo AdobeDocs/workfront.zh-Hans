@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ### APILayer > Workfront — 每日汇率更新（欧元）
 
 此模板创建一个在设定的时间点自动更新汇率的方案。 此方案从APIlayers.com API中提取欧元(EUR)对美元(USD)的汇率并更新Workfront中的汇率。
+
+## Workfront-Marketo模板
+
+这些模板支持Workfront-Marketo集成。
+
+>[!NOTE]
+>
+> 您必须拥有Workfront Fusion for Work Automation and Integration许可证才能在此部分中使用模板。
+
+### 通过Workfront审批工作流审批您的Marketo Engage电子邮件草稿
+
+这是Workfront与Marketo Engage之间审核和批准集成的一部分。 此模板检测Workfront中的电子邮件验证是否已被批准，然后更新Marketo Engage中对应的电子邮件是否已批准。
+
+### 在Workfront中提出引入营销活动请求并在Marketo Engage中自动创建营销活动
+
+此方案提供了一种编程方式，可根据Workfront中的请求在Marketo Engage中创建电子邮件和网络研讨会营销活动。 通过使用自动化来创建、组织和配置活动，团队可以提高效率。
+
+### 在Workfront中查看Marketo Engage电子邮件草稿的电子邮件验证
+
+此模板检测Workfront任务是否已设置为准备好审查状态，然后从Marketo Engage导出电子邮件草稿以将其另存为Workfront中的验证。
 
 ## Workfront-Anaplan模板
 
