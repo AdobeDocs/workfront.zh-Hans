@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>23.8（2023年8月）</li><li>23.9（2023年9月）</li><li>23.10（2023年10月）</li></ul> | <ul><li>23.10（2023年10月）</li></ul> |
 >| <ul><li>23.11（2023年11月）</li><li>23.12（2023年12月）</li><li>24.1（2024年1月）</li></ul> | <ul><li>24.1（2024年1月）</li></ul> |
+>
+>按计划将于当月最后一个星期四发布月度和季度季度报告。
 
 ## Adobe Workfront增强功能
 
@@ -69,7 +71,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本：不适用</p>
+                                <p>预览版本： 2023年6月22日</p>
                             </li>
                             <li>
                                 <p>生产版本：随23.3版提供</p>
