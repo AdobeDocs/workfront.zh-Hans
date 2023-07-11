@@ -6,9 +6,9 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ ht-degree: 0%
 
 ### 在当前更新部分中标记其他人的更新
 
+您可以在当前的更新部分中手动标记用户。
+
 1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 在 **通知** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 
@@ -134,9 +136,19 @@ ht-degree: 0%
 
 ### 在评论Beta版体验的更新中为其他人添加标签
 
-您可以在评论Beta版体验中为其他人标记更新。 您还可以在编辑评论时删除被错误地标记的用户。
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+您可以在评论Beta版体验中手动为其他人标记更新。 您还可以在编辑或回复评论时删除被错误地标记的用户。
+
+1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. 在 **标记人员或团队** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 
    或

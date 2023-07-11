@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3465'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以对Workfront对象（项目、任务或问题）添加更新，以在对象上添加注释时传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。 标记的用户会收到应用程序内通知和一封关于您更新的电子邮件。
+您可以对Workfront对象（项目、任务或问题）添加更新，以在对象上添加注释时传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。 标记的用户会收到应用程序内通知和一封关于您更新的电子邮件。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -196,7 +196,7 @@ drafted for P&P release:
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 在“更新”区域的右上角进行切换，然后单击 **同意** 在Beta版协议上。 这会将“更新”区域切换到备注测试版体验。
-此 **评论** 选项卡默认处于选中状态。
+此 **注释** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
 
    <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>

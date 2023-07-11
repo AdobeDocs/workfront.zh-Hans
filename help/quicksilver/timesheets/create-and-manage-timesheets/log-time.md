@@ -6,7 +6,7 @@ description: 您可以在&nbsp；Adobe Workfront中记录工作项的时间，�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ ht-degree: 0%
 1. 在左侧面板中，选择 **更新**.
 1. 单击 **记录时间**.
 
-   此时将显示“输入小时”对话框。
+   <span class="preview">此时将显示日志时间对话框。 </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ ht-degree: 0%
    >   
    >   在“输入天数”框的右上角有一个指示，指示一天中包含多少小时。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. 指定以下信息：
 
