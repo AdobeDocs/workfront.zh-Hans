@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 任务跟踪模式概述
-description: 在创建或编辑任务时，您可以调整任务的“跟踪模式”设置，以控制任务的“进度状态”指示器的显示方式和显示时间。 Adobe Workfront在您为跟踪任务进度配置某些设置时会显示进度状态标记。
+description: 在创建或编辑任务时，您可以调整任务的“跟踪模式”设置，以控制任务的“进度状态”指示器的显示方式和时间。 当您配置某些设置以跟踪任务的进度时，Adobe Workfront会显示进度状态标记。
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
 
 # 任务跟踪模式概述
 
-在创建或编辑任务时，您可以调整任务的“跟踪模式”设置，以控制任务的“进度状态”指示器的显示方式和显示时间。 Adobe Workfront在您为跟踪任务进度配置某些设置时会显示进度状态标记。
+在创建或编辑任务时，您可以调整任务的“跟踪模式”设置，以控制任务的“进度状态”指示器的显示方式和时间。 当您配置某些设置以跟踪任务的进度时，Adobe Workfront会显示进度状态标记。
 
 有关任务进度状态的详细信息，请参阅 [任务进度状态概述](../../../manage-work/tasks/task-information/task-progress-status.md).
 
@@ -34,9 +34,9 @@ ht-degree: 3%
 </div>
 -->
 
-## 跟踪模式选项 {#tracking-mode-options}
+## “跟踪模式”选项 {#tracking-mode-options}
 
-作为任务所有者或项目经理，您可以选择Workfront如何指示每项任务的进度状态。 有关如何在任务中设置跟踪模式的信息，请参阅 [设置任务的跟踪模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+作为任务所有者或项目经理，您可以选择Workfront如何指示每个任务的进度状态。 有关如何设置任务的跟踪模式的信息，请参阅 [为任务设置跟踪模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 您可以从以下选项中进行选择：
 
@@ -48,31 +48,31 @@ ht-degree: 3%
 
 ### 用户必须更新 {#user-must-update}
 
-选择此选项后，Workfront将使用任务的“完成百分比”和“记录的实际小时数”来确定任务的“进度状态”。 这是默认选项。
+选择此选项后，Workfront会使用任务的完成百分比和记录的实际小时数来确定任务的进度状态。 这是默认选项。
 
 ### 假设准时 {#assume-on-time}
 
-Workfront假定无论当前的完成状态如何，任务都将按时完成。 如果没有，则Workfront会自动假定下一个工作日的计划完成日期。 您仍必须指示任务何时完成。 当用户不会定期更新其任务时，请使用此选项。
+Workfront假定任务将按时完成，而不考虑当前的完成状态。 如果不包含，Workfront会自动假定下一个工作日的规划完成日期。 您仍然必须指示任务何时完成。 当用户不定期更新其任务时，可使用此选项。
 
 ### 忽略迟到警告 {#ignore-late-warnings}
 
-任务的进度状态将保持为“按时”，直到它变为“延迟”。 例如，如果您将任务计划为10天，并在任务完成当天，该任务显示完成百分比为60%，则Workfront会通过添加4天来更新预计完成日期，而任务的进度状态将变为“延迟”。
+任务的进度状态将为“准时”，直到变为“延迟”。 例如，如果您安排一项任务用时10天，而任务在要完成的当天显示完成百分比为60%，则Workfront会添加四天来更新预计完成日期，并且任务的进度状态会变为“延迟”。
 
 ### 自动完成 {#auto-complete}
 
-Workfront假定任务将按计划完成，并在其到期或计划完成日期标记为完成。 在此之前，Workfront使用“完成百分比”和“实际记录的小时数”来确定进度状态。 但是，无论在计划完成日期之前处于进度状态，Workfront仍会标记任务已完成。
+Workfront假定任务将按计划完成，并在任务的到期或计划完成日期将其标记为完成。 在此之前，Workfront使用完成的百分比和记录的实际小时数来确定进度状态。 但是，无论在计划完成日期之前的进度状态如何，Workfront仍会标记任务已完成。
 
-存在以下例外：
+存在以下异常：
 
-* 如果任务的前置任务不完整，则在所有前置任务完成之前，不会自动完成该任务。
-* 如果任务具有“固定日期”约束，则无论其前置任务是否完成，任务始终在“计划完成日期”完成。
+* 如果任务的前置任务不完整，则直到完成所有前置任务后才会自动完成该任务。 必须强制执行前置任务。
+* 如果任务具有固定日期限制，则无论前置任务是否已完成，任务始终在计划完成日期完成。
 
 >[!IMPORTANT]
 >
->如果选择任务自动完成，则在重新计算项目时间时，会将任务标记为完成。 如果项目的“更新类型”设置为“自动”或“自动”并且“更改时”，则每天都会计算项目时间轴。 有关项目时间轴重新计算的信息，请参阅 [重新计算项目时间表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>选择让任务自动完成会在重新计算项目时间时将任务标记为“完成”。 如果项目的“更新类型”设置为“自动”或“自动”且“发生更改时”，则每天计算项目的时间表。 有关项目时间表重新计算的信息，请参阅 [重新计算项目时间表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->实际完成日期的时间是时间轴自动计算日期的午夜。 用于生成此时间戳的时间是您系统的时区，由您的Workfront管理员在“设置”的“客户信息”部分中定义。 有关设置系统时区的信息，请参阅 [配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>实际完成日期的时间是自动计算时间线当天的午夜。 用于生成此时间戳的时间是您的系统的时区，由Workfront管理员在“设置”的“客户信息”部分中定义。 有关设置系统时区的信息，请参见 [配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### 前置任务 {#predecessor}
 
-Workfront根据其先前关系估计任务的预计完成日期。 任务的进度状态根据此估计确定。 例如，任务B的持续时间为1天，并计划在其前任任务A完成两天，该时间应为5天。 然后，用户将任务B更新为完成50%，但前身任务A尚未开始。 Workfront将从属任务B的完成时间安排在上一任务开始日期后6天，从而允许任务A为5天，任务B为1天。
+Workfront根据其前置任务关系估计任务的预计完成日期。 任务的“进度状态”是根据此估计确定的。 例如，任务B的工期为1天，并且计划在其前置任务任务A的两天后完成，这应该需要5天。 用户随后将任务B更新为已完成50%，但前置任务（任务A）尚未开始。 Workfront会将从属任务B安排在前置任务开始日期后的六天内完成，任务A的完成日期为5天，任务B的完成日期为1天。
