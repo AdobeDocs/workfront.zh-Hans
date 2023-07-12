@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Adobe Workfront中的新主页入门
 description: 新主页是一项用于管理工作的强大新功能。
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
     在表格中显示分配给您的问题，表格中包含可自定义的筛选器、视图和分组，以及一个用于直接创建新问题的按钮。
 
 * **我的请求**\
-    显示分配给您的所有请求、一个仅允许您显示打开请求的过滤器以及一个打开请求的摘要窗格的按钮。
+    显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要窗格的按钮。
 
 * **团队请求**\
     显示您按团队排序的团队的所有待处理请求，以及直接将请求分配给用户或自己处理请求的按钮。
