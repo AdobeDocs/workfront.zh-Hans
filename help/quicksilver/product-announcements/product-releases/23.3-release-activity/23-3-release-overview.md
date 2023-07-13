@@ -4,9 +4,9 @@ description: 23.3发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ ht-degree: 0%
                             <li>
                                 <p>快速版本客户的生产版本：将在23.3生产版本之后发布</p>
                                 <p>适用于所有客户的生产版本：使用23.4版本<br>
-                                <span style="color: #ff0000;"> 2023年6月30日，在预览中临时禁用了分配率覆盖功能。</span></p>
+                                <span style="color: #ff0000;"> 从2023年6月30日至7月13日，在“预览”中暂时禁用了分配率覆盖功能。</span></p>
                             </li>
                         </ul>
                     </td>
