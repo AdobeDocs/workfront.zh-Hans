@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 我们重新设计了界面，用于从新评论体验的更新区域记录时间。
 
-有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md). 文档将在发布版本时更新。
+有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 预览版本： 2023年7月5日
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 现在，当使用新的评论体验时，您能够复制评论的内容并将其作为新引号添加到同一会话中的回复。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 文档将在发布版本时更新。
+有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 预览： 2023年6月28日
 
