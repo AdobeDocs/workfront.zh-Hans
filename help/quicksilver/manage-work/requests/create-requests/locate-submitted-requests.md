@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: 查找提交的请求
 description: 了解Adobe Workfront的各个区域，您可以在这些区域找到您或其他人提交的请求，或者您从未提交并另存为草稿的请求。
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 查找提交的请求
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 您可以找到您或其他人提交的以下类型的请求，或者您已开始但从未完成提交的请求。 您可以在Adobe Workfront的以下区域找到这些请求：
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    >
    >您无法自定义已提交的请求列表中的列。
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 默认情况下，将显示以下列：

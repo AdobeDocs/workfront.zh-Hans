@@ -6,9 +6,9 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span>.
+> * 问题， <span class="preview" style="display-inline">项目、任务和文档</span>.
 >
 >     当您启用备注测试版体验时，该选项可用。
 >
@@ -136,19 +136,19 @@ ht-degree: 0%
 
 ### 在评论Beta版体验的更新中为其他人添加标签
 
-<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
+您可以通过以下方式，为新评论体验中的更新标记其他人：
 
-You can tag others on updates in the new commenting experience in the following ways:
+* <span class="preview"> **自动**：当用户添加评论或回复时，会自动标记它们并将其添加到评论框的标记人员或团队区域。 </span>
+* **手动**：手动将用户添加到评论框的标记人员区域时。
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
-* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+您还可以在编辑或回复评论时删除被错误地标记的用户。
 
-You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">作为评论所有者，您会被自动标记并添加到评论框的“标记人员”或“团队”区域。 </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">评论所有者无法在评论框的“标记人员”或“团队”区域中看到自己的名称。</span>
 
-您可以在评论Beta版体验中手动为其他人标记更新。 您还可以在编辑或回复评论时删除被错误地标记的用户。
-
-1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. 在 **标记人员或团队** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 
    或

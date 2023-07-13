@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3497'
 ht-degree: 1%
 
 ---
@@ -42,21 +42,34 @@ ht-degree: 1%
 >
 >     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
-您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-您可以对Workfront对象（项目、任务或问题）添加更新，以在对象上添加注释时传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。 标记的用户会收到应用程序内通知和一封关于您更新的电子邮件。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+## 有关更新工作的注意事项
 
-您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-本页上的信息介绍了如何评论Workfront对象以及如何更新项目、任务和问题。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须拥有其他许可证才能访问Workfront目标。
+* 您可以对Workfront对象（项目、任务或问题）添加更新，以在对象上添加注释时传达对象的进度。 已分配或订阅对象的用户可以查看您的更新。
 
+* 您可以标记用户以引起他们对更新的注意。 标记的用户会收到应用程序内通知和一封关于您更新的电子邮件。
 
-您可以从Workfront的以下区域向项目、任务和问题添加更新：
+  >[!TIP]
+  >
+  >   <span class="preview">在新的注释体验中，会自动标记注释所有者。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* 从Workfront对象，在更新部分
-* 从主页区域（用于任务和问题）
-* 从“摘要”面板中的对象列表（用于任务和问题）
-* 从时间表（用于任务和问题）
+* 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* 您可以从Workfront的以下区域向项目、任务和问题添加更新：
+
+   * 从Workfront对象，在更新部分
+   * 从主页区域（用于任务和问题）
+   * 从“摘要”面板中的对象列表（用于任务和问题）
+   * 从时间表（用于任务和问题）
+
+本页上的信息介绍了如何评论Workfront对象以及如何更新项目、任务和问题。
+
+有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须拥有其他许可证才能访问Workfront目标。
+
+有关对展示板区域中的信息卡进行注释的信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 访问要求
 
@@ -395,7 +408,7 @@ drafted for P&P release:
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
 
 * [复制链接](#copy-link)
 * [复制正文文本](#copy-body-text)

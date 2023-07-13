@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # 复制并提交请求
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 当您频繁提交类似请求时，可以复制现有的已提交请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 
@@ -122,11 +122,11 @@ ht-degree: 2%
 1. （视情况而定）如果默认情况下不显示“已提交”部分，请单击 **已提交** （在左侧面板中）。
 1. 找到要复制并作为新请求提交的请求，然后执行以下操作之一：
 
-   * 选择它，然后单击 <span class="preview"> **复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> （在已提交的请求列表的左上角）。
+   * 选择它，然后单击 **复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （在已提交的请求列表的左上角）。
 
    >[!TIP]
    >
-   > <span class="preview">如果未先选择请求，则复制图标将灰显。</span>
+   > 如果未先选择请求，则复制图标将灰显。
 
    * 单击 **更多** 菜单 ![](assets/more-icon.png) 请求名称的右侧，然后单击 **复制并提交为新版本**
 

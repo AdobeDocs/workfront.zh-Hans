@@ -2,14 +2,15 @@
 product-area: projects
 navigation-topic: manage-projects
 title: 复制项目
-description: 您可以复制项目，而不是从头开始创建项目。 您一次只能复制一个项目。 您无法批量复制项目。
+description: 您可以复制项目，而不是从头开始创建项目。 您一次只能复制一个项目。 不能批量复制项目。
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 5%
+source-wordcount: '764'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 5%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-您可以复制项目，而不是从头开始创建项目。 您一次只能复制一个项目。 您无法批量复制项目。
+您可以复制项目，而不是从头开始创建项目。 您一次只能复制一个项目。 不能批量复制项目。
 
 >[!IMPORTANT]
 >
->以下项目永远不会从现有项目复制到新项目：
+>以下项目绝不会从现有项目复制到新项目：
 >
 >* 问题
 >* 记帐费率
@@ -33,7 +34,7 @@ ht-degree: 5%
 >* 跨项目前置任务
 >* 预算小时
 >
->以下项目始终会从现有项目复制到新项目：
+>以下项始终从现有项目复制到新项目：
 >
 >* 任务
 >* 模板
@@ -43,7 +44,7 @@ ht-degree: 5%
 >* 记分卡
 >* 任务默认信息(任务默认审批流程、任务默认自定义Forms)
 >
-
+> 项目上原始任务的日期复制到新项目。 您必须更改项目的开始日期或完成日期（取决于其计划模式）以更新任务的日期。 任务限制可能会阻止您更改项目的日期。
 
 ## 访问要求
 
@@ -92,32 +93,32 @@ ht-degree: 5%
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>访问级别配置*</strong> </td> 
-   <td> <p>编辑对具有创建功能的项目的访问权限 <span>和复制</span> 项目</p> <p><b>注释</b>
+   <td> <p>编辑对能够创建的项目的访问权限 <span>和复制</span> 项目</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>对象权限</strong> </p> </td> 
-   <td> <p>查看项目的权限或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看项目的权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 复制单个项目
 
-复制项目还会将原始项目中的某些信息复制到新项目。 您还可以指定在复制过程中不应将哪些项目复制到新项目。
+复制项目时，还会将原始项目中的一些信息复制到新项目中。 您还可以指定在复制过程中不应将哪些项复制到新项目。
 
-复制项目：
+要复制项目，请执行以下操作：
 
-1. 转到要复制的项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 项目名称的权限
+1. 转到要复制的项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 项目名称的右侧
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报表并选择一个项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 列表顶部。
+   转到项目列表或报告，选择一个项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 位于列表顶部。
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
@@ -129,11 +130,11 @@ ht-degree: 5%
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. 选择 **状态** 的URL。
+1. 选择 **状态** 用于新项目。
 
    默认情况下， **状态** 与原始项目的匹配。
 
-1. （可选）取消选择您不希望复制到新项目的项目。 下表说明了取消选择这些项目时会发生的情况：
+1. （可选）取消选择不想复制到新项目的项。 下表描述了取消选择这些项时会出现的情况：
 
 
    <table style="table-layout:auto"> 
@@ -144,7 +145,7 @@ ht-degree: 5%
       <td role="rowheader">全部选择</td> 
       <td> <p>选择所有选项并清除新项目中列出的所有字段和对象。</p> <p><b>笔尖</b>
 
-   取消选择 <strong>全选</strong> 取消选择所有项目。 </p> </td>
+   取消选择 <strong>全选</strong> 取消选择所有项。 </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">分配</td> 
@@ -152,46 +153,46 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">进度</td> 
-      <td>删除所有任务的进度，它们显示为“新”。 </td> 
+      <td>删除所有任务的进度，这些任务显示为新任务。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">自定义数据</td> 
-      <td> <p>从项目的自定义表单中删除信息，以及与以下项目关联的自定义表单信息：</p> 
+      <td> <p>删除项目上自定义表单中的信息，以及与以下项目关联的自定义表单上的信息：</p> 
        <ul> 
         <li>任务</li> 
         <li>费用</li> 
         <li> 文档</li> 
        </ul> <p><b>注释</b>
 
-   自定义表单仍附加在任务、费用、文档和项目中，但表单自定义字段中的信息不会复制到新项目中。 </p> </td>
+   自定义表单仍附加到任务、费用、文档和项目，但表单的自定义字段中的信息不会复制到新项目。 </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">文档</td> 
-      <td> <p>删除“文档”选项卡中的所有内容，包括文档版本、链接的文档和文件夹。</p> <p>默认情况下，文档校样和批准无法复制到其他项目。 </p> </td> 
+      <td> <p>删除文档选项卡中的所有内容，包括文档版本、链接的文档和文件夹。</p> <p>默认情况下，文档验证和批准无法复制到其他项目。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">所有前置任务</td> 
-      <td> <p>删除项目任务之间的所有前置关系。 </p> <p><b>笔尖</b>
+      <td> <p>删除项目任务之间的所有前置任务关系。 </p> <p><b>笔尖</b>
 
-   无论是否选择了跨项目前置项，都不会将其转移到新项目。 </p> </td>
+   跨项目前置任务从不转移到新项目，无论是否选择此选项。 </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">预算小时</td> 
-      <td> <p>从复制的项目中删除在项目业务案例的“资源计划”区域中预算的小时数。</p>
+      <td> <p>从复制的项目中删除在项目业务案例的资源规划区域中预算的小时数。</p>
 
 <b>注释</b>
 
-使用方案计划员编入预算的小时数永远不会复制到新项目，因为新项目未与方案计划员中的方案关联。 有关更多信息，请参阅 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">使用方案计划员在业务案例中预算资源</a>
+绝不会将使用方案规划器的预算小时数复制到新项目，因为新项目未链接到方案规划器中的方案。 有关更多信息，请参阅 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">使用方案规划器的业务案例中的预算资源</a>
 </tr></td>
     <tr> 
       <td role="rowheader">财务信息</td> 
       <td> <p>删除以下区域中的信息： </p> 
        <ul> 
         <li>项目的财务子选项卡</li> 
-        <li> 商业案例中的计划效益</li> 
+        <li> 业务案例中的计划收益</li> 
         <li>所有任务的财务信息<br></li> 
-       </ul> <p>有关项目“财务”子选项卡的详细信息，请参阅 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">在项目财务区管理信息</a>.</p> </td> 
+       </ul> <p>有关项目财务子选项卡的详细信息，请参阅 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理项目财务方面的信息</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">批准流程</td> 
@@ -203,17 +204,17 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">费用</td> 
-      <td>删除与任务或项目相关的费用。 </td> 
+      <td>删除与任务或项目关联的费用。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">权限</td> 
-      <td> 删除所有用户对任务或项目的权限。</td> 
+      <td> 删除对任务或项目上所有用户的权限。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **复制** 创建项目副本。
+1. 单击 **复制** 创建项目的副本。
 
-   这会创建一个与您复制的项目类似的新项目。
+   这将创建一个与复制的项目类似的新项目。
 
-   您可以开始更改新复制的项目，如审核任务分配或调整时间轴。
+   您可以开始更改新复制的项目，如审核任务分配或调整时间线。
