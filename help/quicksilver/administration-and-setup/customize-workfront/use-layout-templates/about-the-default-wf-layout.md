@@ -4,12 +4,12 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 默认布局是在Adobe Workfront管理员使用布局模板进行任何更改之前，先排列主菜单、左侧面板以及视图、分组和过滤器。
-author: Caroline
+description: 默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单、左侧面板以及视图、分组和筛选器的排列。
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -18,19 +18,19 @@ ht-degree: 14%
 
 # 关于默认Adobe Workfront布局
 
-缺省布局是主菜单的排列 ![](assets/main-menu-icon.png)，以及视图、分组和过滤器，之后Adobe Workfront管理员才能使用布局模板进行任何更改。
+默认布局是主菜单的排列 ![](assets/main-menu-icon.png)，以及Adobe Workfront管理员使用布局模板进行任何更改之前的视图、分组和筛选器。
 
-有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅 [将用户分配到布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅 [将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->用户可以通过编辑用户配置文件首选项来更改自己的布局。 有关更多信息，请参阅 [首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 部分 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>用户可以通过编辑其用户配置文件首选项来更改自己的布局。 欲了解更多信息，请参见 [首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 中的部分 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## 每个访问级别的默认布局
 
-每个用户的默认布局取决于其访问级别。 根据分配给用户的访问级别，某些用户在主菜单或某些左侧面板项目中可能看不到某些区域。
+每个用户的默认布局取决于其访问级别。 某些用户可能无法看到主菜单中的某些区域或某些左侧面板项目，具体取决于分配给他们的访问级别。
 
-下表显示了默认情况下每个访问级别显示的左侧面板项目。 每个访问级别的默认登陆区域也会显示：
+下表显示了默认情况下，每个访问级别显示的左侧面板项目。 还指示了每个访问级别的默认登陆区域：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +102,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>人员</strong> (已重命名为 <strong>团队</strong> （对于具有工作许可证的用户）</td> 
+   <td rowspan="5"><strong>人员</strong> (已重命名为 <strong>团队</strong> （适用于拥有工作许可证的用户）</td> 
    <td><strong>团队</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
