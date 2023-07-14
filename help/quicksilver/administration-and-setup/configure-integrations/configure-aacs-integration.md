@@ -5,7 +5,7 @@ title: Adobe Experience Manager Assets集成
 description: 您可以将工作与以下Adobe Experience Manager Assets集成联系起来。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 * 跟踪资源和文件夹的元数据
 * 在之间同步项目元数据 [!DNL Workfront] 和 [!DNL Experience Manager Assets]
 
-您还可以将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境连接到跨组织ID的一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
+>[!NOTE]
+>
+>您还可以将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境连接到跨组织ID的一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
 ## 访问要求
 
@@ -165,7 +167,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
 > * Workfront中的“设置”>“自定义Forms”或对象中的字段
 > * Experience Manager Assets中的Assets >元数据架构
 
-
 +++
 
 ### 映射资源的元数据
@@ -181,7 +182,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
    >
    >您可以映射一个 [!DNL Workfront] 字段到多个 [!UICONTROL Experience Manager Assets] 字段。 无法映射多个 [!DNL Workfront] 字段到单个 [!DNL Experience Manager Assets] 字段。
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. 在 [!DNL Experience Manager Assets] 字段，在预填充的类别中搜索，或在搜索字段中输入至少两个字母以访问其他类别。
 1. 根据需要重复步骤2和3。
