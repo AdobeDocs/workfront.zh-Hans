@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 个人资料包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3248'
 ht-degree: 1%
 
 ---
@@ -196,8 +196,7 @@ ht-degree: 1%
 
 ## 配置 [!UICONTROL 我的设置] 区域
 
-1. {#step1-click-profile-pic}
-
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 单击Adobe Workfront右上角的个人资料图片旁边的用户名。 或者（如果可用），单击顶部导航区域中您的个人资料图片，然后单击 **[!UICONTROL Workfront配置文件]**.
 1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-icon.png)，然后单击 **[!UICONTROL 编辑]**.
 
 1. 根据您的访问级别，您可以更新以下部分：
