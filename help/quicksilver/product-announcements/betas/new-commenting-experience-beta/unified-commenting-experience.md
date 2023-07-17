@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -21,6 +21,15 @@ ht-degree: 1%
 目前正在开发Adobe Workfront中评论体验的更新。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
 新的评论体验将缓慢地变为可用于Workfront中具有“更新”部分的所有对象，稍后它将扩展到其他Adobe Experience Cloud应用程序。
+
+<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
+
+For additional resources for the new commenting experience, also see the following articles:
+
+* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+
+-->
 
 ## 功能
 
@@ -500,7 +509,7 @@ ht-degree: 1%
 1. 转到要为其激活新注释体验的对象，然后单击 **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
 1. 单击 **同意** Beta协议框中的。 这将为所选对象启用新的注释体验。
-1. 开始在 **评论** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
+1. 开始在 **注释** 选项卡。 打开新体验时，“注释”选项卡应为默认选项卡
 
    或
 

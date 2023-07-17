@@ -2,295 +2,190 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：合併一個共用欄中多個欄的資訊」
-description: 您可以合併顯示在多個獨立欄中的資訊，並將其顯示在共用欄中。
+title: '视图：合并来自一个共享列中多个列的信息'
+description: 您可以合并显示在多个单独列中的信息，并将其显示在共享列中。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
-# 檢視：合併一個共用欄中多個欄的資訊
+# 视图：合并来自一个共享列中多个列的信息
 
-您可以合併顯示在多個獨立欄中的資訊，並將其顯示在共用欄中。
+您可以合并显示在多个单独列中的信息，并将其显示在共享列中。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理对报告的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 共用或合併欄時的注意事項
+## 共享或合并列时的注意事项
 
-* 您可以合併兩個相鄰欄並顯示每個欄的資訊，每個欄的資訊之間以分行符號分隔，也可以合併兩個相鄰欄的資訊，每個欄的資訊之間沒有分隔符號。
-* 您可以將本文中所述的相同語法套用至已共用欄和相鄰欄，以合併來自兩個以上欄的資訊。
-* 此
+* 可以合并两个相邻列并显示以换行符分隔的每列的信息，也可以合并相邻两列中的信息，而不用分隔符分隔每列的信息。
+* 通过将本文中描述的相同语法应用于已共享列和相邻列，可以合并来自两个以上列的信息。
+* 此 `valueformat=HTML` 行在共享列中是必需的。 否则，从Adobe Workfront导出报告时，列将不包含任何信息（它们将留空）。
+* 合并的列可能不支持条件格式。
 
-   ```
-   valueformat=HTML
-   ```
+  存在以下异常：
 
-   行在共用欄中是必要的。 否則，從Adobe Workfront匯出報表時，欄不會包含任何資訊（將為空白）。
-* 合併的欄可能不支援條件式格式設定。
+   * 在Workfront中查看信息时，如果构成合并列的列彼此的格式不同，则保留第一列的格式并忽略所有其他列的格式。
+   * 将视图导出到PDF文件时，条件格式适用于合并列中的第一列。
+   * 将视图导出到Excel文件时，合并的列显示为单独的列。 各个列还会显示各自的条件格式规则。
 
-   存在下列例外：
+* 具有以下特征的列 **viewalias** 属性可以限制可合并的列数。 要避免这些限制，请避免使用 **viewalias** 属性。 如果您必须包含 **viewalias** 属性，请确保它是列中列出的最后一个项目。
 
-   * 在Workfront中檢視資訊時，如果構成合併欄的欄彼此格式不同，則會保留第一欄的格式，並忽略所有其他欄的格式。
-   * 將檢視匯出至PDF檔案時，條件式格式會套用至合併欄中的第一欄。
-   * 將檢視匯出至Excel檔案時，合併的欄會顯示為單獨的欄。 個別欄也會顯示各自的條件式格式規則。
+* 如果将带有共享列的列表导出为Excel或Tab分隔格式，则这些列在导出的文件中会被分隔。
 
-* 具有的欄 **viewalias** attribute可限制可合併的欄數。 若要避免這些限制，請避免使用 **viewalias** 屬性。 如果您必須包含 **viewalias** 屬性，請確定它是欄中列出的最後一個專案。
+* 当其中一列或两列都显示 `tile` 类型字段，则合并列中会自动引入强制换行符。 例如，带格式的文本字段包括 `tile` 键入字段。 在此例中，有一行代码 `type=tile` 在文本模式下查看列时。
 
-* 如果將含有共用欄的清單匯出為Excel或Tab分隔格式，這些欄會在匯出的檔案中分隔出來。
+## 合并来自两列的数据，但不带换行符
 
-## 合併兩欄資料而不使用分行符號
-
-您可以合併多個不同欄的資料，將其顯示在一欄中，每欄的值之間沒有分隔符號或空格。
+您可以合并来自多个单独列的数据，以将其显示在一列中，每列的值之间没有分隔符或空格。
 
 >[!TIP]
 >
->合併無法同時顯示同一筆記錄的值的兩欄時，建議使用此方法。 例如，在「工作專案」報表中，「問題名稱」和「任務名稱」欄可以合併，而不需要它們之間的分行符號，因為「工作專案」不能同時有「問題名稱」和「任務名稱」。 工作專案可以是Workfront中的問題或任務。
+>当合并不能同时显示同一记录值的两列时，建议使用此方法。 例如，在工作项报表中，可以合并“问题名称”和“任务名称”列，而不在它们之间使用换行符，因为工作项不能同时具有“问题名称”和“任务名称”。 工作项可以是Workfront中的问题或任务。
 
-若要這麼做：
+要执行此操作，请执行以下操作：
 
-1. 使用文字模式進行檢視，將下列文字新增至您要合併的第一欄：
+1. 使用视图的文本模式，将以下文本添加到要合并的第一列：
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   合併清單或報表的前兩欄時，Workfront會在包含第一欄中物件相關資訊的每一行文字的前面加上
+   合并列表或报表的前两列时，Workfront会在包含第一列中对象信息的每行文本的前面加上 `column.0.` 以及包含有关第二列信息的文本行 `column.1.` .
 
-   ```
-   column.0.
-   ```
+   必须在第一列的列号前面加上该列的编号。 列计数始终以标记为的列表或报告的最左侧列开始 `column.0.`.
 
-   以及包含第二欄相關資訊的文字行
+   如果共享多列，请确保在包含每列的共享信息的代码行中添加列号。
 
-   ```
-   column.1.
-   ```
+   **示例：** 以下是合并列的文本模式代码，该合并列包含三个单独的列，从列表的第二列开始。 合并的值包括“项目名称”、“计划开始日期”和“项目所有者”名称，这三个值之间没有间隔：
 
-   。\
-   您必須在第一欄的欄號前面加上該欄的編號。 欄計數一律以清單或報表最左邊標籤為「 」的欄開始
+   `column.1.valuefield=name`
 
-   ```
-   column.0.
-   ```
+   `column.1.valueformat=HTML`
 
-   。
+   `column.1.sharecol=true`
 
-   如果您共用多個欄，請確保在包含每個欄的共用資訊的程式碼行中新增欄編號。
+   `column.2.valuefield=plannedStartDate`
 
-   **範例：** 以下是合併欄的文字模式程式碼，該合併欄包含三個不同的欄，從清單的第二欄開始。 合併的值包括專案名稱、計劃開始日期和專案所有者的名稱，且三個值之間沒有間隙：
+   `column.2.valueformat=atDate`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.3.valuefield=owner:name`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.3.valueformat=HTML`
 
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
+![](assets/shared-column-no-line-breaks-350x142.png)
 
-   ```
-   column.2.valueformat=atDate
-   ```
+1. 单击 **保存**，则 **保存视图**.
 
-   ```
-   column.2.sharecol=true
-   ```
+## 使用换行符合并两列中的数据
 
-   ```
-   column.3.valuefield=owner:name
-   ```
+执行以下操作可合并多列数据，以将其显示在一个公用列中，并在每列的值之间使用换行符：
 
-   ```
-   column.3.valueformat=HTML
-   ```
-
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
-
-1. 按一下 **儲存**，則 **儲存檢視**.
-
-## 使用分行符號合併兩欄的資料
-
-執行下列操作來合併多欄的資料，以在一個通用欄中顯示資料，並在每欄的值之間加上分行符號：
-
-1. 在您要合併的兩個欄之間新增第三個欄。
+1. 在要合并的两列之间添加第三列。
 
    >[!TIP]
-   * 您要合併的欄必須彼此相鄰。
-   * 您必須按一下要合併的第一欄。
+   >
+   >* 要合并的列必须彼此相邻。
+   >* 必须单击要合并的第一列。
+
+1. 单击 **切换到文本模式** 并在步骤1中添加的中间列中添加以下代码：
+
+   `value=<br>`
+
+   `valueformat=HTML`
+
+   `width=1`
+
+   `sharecol=true`
 
 
-1. 按一下 **切換至文字模式** 和將下列程式碼新增至您在步驟1中新增的中間欄：
+1. 将以下文本添加到第一列：
 
-   ```
-   value=<br>
-   ```
+   `sharecol=true`
 
-   ```
-   valueformat=HTML
-   ```
+   合并列表或报表的前两列时，Workfront会在包含第一列中对象信息的每行文本的前面加上 `column.0.`，与共享信息的列 `column.1.`，以及包含有关第二列信息的文本行 `column.2.`.
 
-   ```
-   width=1
-   ```
+   如果组合列位于视图的中间，则根据列在视图中的位置对其进行编号。 列计数始终以标记为的列表或报告的最左侧列开始 `column.0.`.
 
-   ```
-   sharecol=true
-   ```
+   如果共享多列，请确保在包含共享信息的代码行中添加列号。
 
-1. 將下列文字新增至第一欄：
+   **示例：** 以下是共享列的文本模式代码，该列包含项目名称、计划开始日期和带换行符的项目所有者名称。 共享列是项目视图的第二列。
 
-   ```
-   sharecol=true
-   ```
 
-   合併清單或報表的前兩欄時，Workfront會在包含第一欄中物件相關資訊的每一行文字的前面加上
+   `column.1.displayname=Project_StartDate_Owner`
 
-   ```
-   column.0.
-   ```
+   `column.1.sharecol=true`
 
-   ，與共用資訊的欄
+   `column.1.textmode=true`
 
-   ```
-   column.1.
-   ```
+   `column.1.valuefield=name`
 
-   ，以及包含第二欄相關資訊的文字行
+   `column.1.valueformat=HTML`
 
-   ```
-   column.2.
-   ```
+   `column.2.value=<br>`
 
-   。如果組合欄位於檢視的中間，則欄會根據它們在檢視中的位置編號。 欄計數一律以清單或報表最左邊標籤為「 」的欄開始
+   `column.2.width=1`
 
-   ```
-   column.0.
-   ```
+   `column.2.valueformat=HTML`
 
-   。
+   `column.2.sharecol=true`
 
-   如果您共用多個欄，請確定在包含共用資訊的程式碼行中新增欄編號。
+   `column.3.valuefield=plannedStartDate`
 
-   **範例：** 以下是共用欄的文字模式代碼，該共用欄包含專案名稱、計劃開始日期以及具有分行符號的專案所有者名稱。 共用欄是專案檢視的第二欄。
+   `column.3.valueformat=atDate`
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
+   `column.3.sharecol=true`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.4.value=<br>`
 
-   ```
-   column.1.textmode=true
-   ```
+   `column.4.width=1`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.4.valueformat=HTML`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.4.sharecol=true`
 
-   ```
-   column.2.value=<br>
-   ```
+   `column.5.textmode=true`
 
-   ```
-   column.2.width=1
-   ```
+   `column.5.valuefield=owner:name`
 
-   ```
-   column.2.valueformat=HTML
-   ```
+   `column.5.valueformat=HTML`
 
-   ```
-   column.2.sharecol=true
-   ```
 
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
+   ![](assets/shared-column-with-line-breaks-350x199.png)
 
-   ```
-   column.3.valueformat=atDate
-   ```
 
-   ```
-   column.3.sharecol=true
-   ```
-
-   ```
-   column.4.value=<br>
-   ```
-
-   ```
-   column.4.width=1
-   ```
-
-   ```
-   column.4.valueformat=HTML
-   ```
-
-   ```
-   column.4.sharecol=true
-   ```
-
-   ```
-   column.5.textmode=true
-   ```
-
-   ```
-   column.5.valuefield=owner:name
-   ```
-
-   ```
-   column.5.valueformat=HTML
-   ```
-
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
-
-1. 按一下 **儲存**，則 **儲存檢視**.
+1. 单击 **保存**，则 **保存视图**.
