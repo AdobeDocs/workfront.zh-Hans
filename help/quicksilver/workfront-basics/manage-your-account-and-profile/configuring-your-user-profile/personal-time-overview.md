@@ -7,9 +7,9 @@ description: Adobe Workfront的设计目的不是复制或替换您现有的系�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 0%
 >* [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## 访问要求
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## 在中配置个人休假 [!DNL Workfront]
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击配置文件图片旁边的用户名。
+1. {#step1-click-profile-pic}
 
 1. 在左侧面板中，单击 **[!UICONTROL 空闲时间]**.
 1. 为您的个人休息时间选择所需的日期。
@@ -71,4 +70,4 @@ ht-degree: 0%
    如果您要休假不到一整天，并且指示休假的开始和结束时间，请将其保留为未选中状态。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。\
-   您的休息时间现在可以在以下位置看到： [!DNL Workfront] 诸如资源网格之类的调度工具中的系统。 在此期间为您分配了工作后，会出现一个工具提示，告知用户您已安排休息时间。
+   您的休息时间现在可以在以下位置看到： [!DNL Workfront] 系统中的资源管理工具，如资源规划者和工作负载均衡器。 在此期间为您分配了工作后，会出现一个工具提示，告知用户您已安排休息时间。
