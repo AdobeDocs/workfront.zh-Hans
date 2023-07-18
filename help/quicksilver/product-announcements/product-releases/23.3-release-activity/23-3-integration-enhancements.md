@@ -3,9 +3,9 @@ title: 23.3集成增强
 description: 23.3集成增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Adobe Creative Cloud集成现在支持在任务或问题有多个分配用户时
 
 有关安装Workfront forCreative Cloud插件的信息，请参阅 [安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## 改进了通过拖放操作将文档移动到链接的文件夹时的体验
+<!--
 
-我们在将文档拖放到链接文件夹中的过程中添加了一些透明度。 现在，您移动到链接文件夹的文档将保留在文档列表中，直到完全移动为止。 文档选项已禁用，但您仍然可以在移动文档时打开该文档进行查看。 文档完成传输后，它会从文档列表中消失，因为它现在完全位于链接的文件夹中。
+## Improved experience when moving a document to a linked folder with drag and drop
 
-以前，在文档完成移动到链接的文件夹之前，文档会立即从文档列表中消失。
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-有关更多信息，请参阅 [链接来自外部应用程序的文档](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## 创建项目时自动创建链接文件夹到Adobe Experience Manager Assets
 
