@@ -8,9 +8,9 @@ description: 数据存储类似于数据库或简单表，可以存储方案中�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td> <p>[！UICONTROL数据存储大小（以MB为单位）</p> </td> 
-      <td> <p>从总内部数据存储中分配数据存储的大小。</p> <p>注：保留金额可以随时更改。</p>  </td> 
+      <td> <p>从总内部数据存储中分配数据存储的大小。</p> <p> 默认值为10 MB。 如果您从500 MB分配中拥有的未分配数据存储空间少于10 MB，则默认大小是未分配的存储量。  <p>注：保留金额可以随时更改。</p>  </td> 
      </tr> 
     </tbody> 
    </table>
