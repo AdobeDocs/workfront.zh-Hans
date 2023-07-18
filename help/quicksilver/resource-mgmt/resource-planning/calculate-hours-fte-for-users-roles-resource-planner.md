@@ -7,7 +7,7 @@ description: 计算资源规划者中用户和角色的小时数和FTE的概览
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ Workfront管理员通过在“设置”的“资源管理”区域中选择使�
      有关调度（包括默认调度）的详细信息，请参见 [创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * 此 **可用FTE** 对于资源规划者中的用户，与用户设置中指定的用户FTE相同。
-例如，如果用户设置中的用户FTE为0.5，则用户在资源规划者中的可用FTE为0.5。 有关显示在用户设置中的用户FTE值的更多信息，请参阅 [编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     例如，如果用户设置中的用户FTE为0.5，则用户在资源规划者中的可用FTE为0.5。 有关显示在用户设置中的用户FTE值的更多信息，请参阅 [编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **用户的计划**：用户的计划用于确定用户在资源规划者中的可用性。 忽略用户FTE的值。 在本例中：
 
    * 此 **可用小时数** 资源计划员中的小时数与用户计划中的小时数相同。
 
-  例如，如果用户的计划具有每周40小时的工作时间，则用户可以在资源规划者中每周工作40小时。
+     例如，如果用户的计划具有每周40小时的工作时间，则用户可以在资源规划者中每周工作40小时。
 
    * 此 **可用FTE** 在资源计划程序中，通过以下公式计算：
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  例如，如果用户计划具有20个小时工作可用时间，而Workfront中的默认计划具有40个小时工作可用时间，则用户的FTE为0.5。
+     例如，如果用户计划具有20个小时工作可用时间，而Workfront中的默认计划具有40个小时工作可用时间，则用户的FTE为0.5。
 
-  有关调度（包括默认调度）的详细信息，请参见 [创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     有关调度（包括默认调度）的详细信息，请参见 [创建计划](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
