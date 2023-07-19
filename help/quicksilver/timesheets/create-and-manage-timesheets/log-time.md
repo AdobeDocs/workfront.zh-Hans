@@ -6,9 +6,9 @@ description: 您可以在&nbsp；Adobe Workfront中记录工作项的时间，�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您在这些工作项上花费的小时数。 您还可以记录与工作无关的时间，如休假、病假或会议时间。 您的登录时间显示在您的时间表中。
 
@@ -361,13 +361,13 @@ ht-degree: 0%
 
 #### “更新”部分{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> 您可以记录问题的时间， <span class="preview">项目和任务</span> 在更新部分中启用新的注释测试版体验时。
+> 当前和新的“更新”部分在用户界面外观和风格上略有不同。 本节中的信息是指新注释体验中显示的功能。
 >
->有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>有关新的“更新”部分的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 要在项目、任务或问题的更新部分中记录时间，您必须具备以下条件：
 
@@ -383,9 +383,9 @@ ht-degree: 0%
 
 1. 转到项目、任务或问题。
 1. 在左侧面板中，选择 **更新**.
-1. 单击 **记录时间**.
+1. 单击 **记录时间**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">此时将显示日志时间对话框。 </span>
+   此时将显示日志时间对话框。
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ ht-degree: 0%
    >   
    >   在“输入天数”框的右上角有一个指示，指示一天中包含多少小时。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 指定以下信息：
 

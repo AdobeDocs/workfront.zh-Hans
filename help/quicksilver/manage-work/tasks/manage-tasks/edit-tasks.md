@@ -6,9 +6,9 @@ description: 您可以编辑有关已创建、具有Contribute或“管理”权
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">每次发生的持续时间</td> 
-      <td> <p>这仅在周期性任务的父级上显示。 它显示每个周期性任务的持续时间。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>. </p> <p> <b>注释</b>
+      <td> <p>这仅在周期性任务的父级上显示。 它显示每个周期性任务的持续时间，如创建任务时定义。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>. </p> <p> <b>注释</b>
 
    在单个周期性任务中修改的持续时间不显示此字段中指示的值。 </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ ht-degree: 4%
    </tr> 
    <tr> 
    <td role="rowheader">计划小时</td> 
-   <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所需的实际时间。 当“持续时间类型”设置为“计算的工作分配”时，您只能指定任务的计划小时数。 有关持续时间类型的详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务工期和工期类型概览</a>.</p> </td> 
+   <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所需的实际时间。 当“持续时间类型”设置为“计算的工作分配”时，您只能指定任务的计划小时数。 有关持续时间类型的详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务工期和工期类型概览</a>.</p> 
+   <b>注释</b>
+   <p>
+   创建周期性任务时，计划小时数是每个事件的小时数。 父任务的计划小时数是所有发生的所有计划小时数的总和。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">分配</td> 

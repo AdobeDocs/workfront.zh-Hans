@@ -6,9 +6,9 @@ description: 对Adobe Workfront对象提供更新注释时，项目中的所有�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅在“预览”环境中可用。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview" style="display-inline">项目、任务和文档</span>.
+> * 问题、项目、任务和文档。
 >
 >     当您启用备注测试版体验时，该选项可用。
 >
@@ -138,16 +138,16 @@ ht-degree: 0%
 
 您可以通过以下方式，为新评论体验中的更新标记其他人：
 
-* <span class="preview"> **自动**：当用户添加评论或回复时，会自动标记它们并将其添加到评论框的标记人员或团队区域。 </span>
+* **自动**：当用户添加评论或回复时，会自动标记它们并将其添加到评论框的标记人员或团队区域。
 * **手动**：手动将用户添加到评论框的标记人员区域时。
 
 您还可以在编辑或回复评论时删除被错误地标记的用户。
 
-1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">作为评论所有者，您会被自动标记并添加到评论框的“标记人员”或“团队”区域。 </span>
+1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 作为评论所有者，您会被自动标记并添加到评论框的“标记人员”或“团队”区域。
 
    >[!TIP]
    >
-   ><span class="preview">评论所有者无法在评论框的“标记人员”或“团队”区域中看到自己的名称。</span>
+   >评论所有者无法在评论框的“标记人员”或“团队”区域中看到自己的名称。
 
 1. 在 **标记人员或团队** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 

@@ -7,10 +7,10 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅适用于预览环境中的所有客户。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span>.
+> * 问题、项目、任务和文档。
 >
 >     当您启用备注测试版体验时，该选项可用。
 >
@@ -115,13 +115,13 @@ ht-degree: 3%
      <li>展示板区域中的信息卡*</li>
       这是唯一的目标和卡片体验。
      </li> 
-     <li><span class="preview">项目</span></li>
+     <li>项目</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>问题</li> 
-     <li><span class="preview">任务</span></li>
-     <li><span class="preview">文档</span></li>
+     <li>任务</li>
+     <li>文档</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->启用新的备注测试版体验时，备注会显示在以下排名较高的对象上：
+>启用新的注释体验时，注释会显示在以下排名较高的对象上：
 >
 >* 问题
->* <span class="preview">项目</span>
->* <span class="preview">任务</span>
+>* 项目
+>* 任务
 >
 >有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 
 代表其他用户所做的任何评论都将显示在评论中。
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">使用新的评论体验时，评论添加为以其他用户身份登录的用户，并且没有迹象表明他们代表其他人添加评论。
+>使用新的评论体验时，评论添加为以其他用户身份登录的用户，并且没有迹象表明他们代表其他人添加评论。
 >
->例如，如果Workfront管理员以其他用户身份登录，则与评论关联的用户是Workfront管理员。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>例如，如果Workfront管理员以其他用户身份登录，则与评论关联的用户是Workfront管理员。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 组管理员可以代表他人发表评论，但不能删除该评论。 只有Adobe Workfront管理员可以删除他们代表其他用户所做的评论。

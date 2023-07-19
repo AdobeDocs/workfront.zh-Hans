@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # 新的评论体验
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅适用于预览环境中的所有客户。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 目前正在开发Adobe Workfront中评论体验的更新。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
@@ -74,9 +74,9 @@ For additional resources for the new commenting experience, also see the followi
 >
 >查看当前体验中的更新部分时，您可以在2022年6月之前查看这些对象的注释和系统更新：
 >* 问题
->* <span class="preview">项目</span>
->* <span class="preview">任务</span>
->* <span class="preview">文档</span>
+>* 项目
+>* 任务
+>* 文档
 
 下表说明了新注释体验中可用的功能，以及这些功能在受支持领域的可用性：
 
@@ -159,7 +159,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ For additional resources for the new commenting experience, also see the followi
 
 * 在更新部分中启用测试版体验时：
 
-   * 问题， <span class="preview">项目、任务和文档</span>
+   * 问题、项目、任务和文档
 
   有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

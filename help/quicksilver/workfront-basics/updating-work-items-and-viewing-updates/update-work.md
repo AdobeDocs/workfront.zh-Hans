@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未公开发布的功能。 它仅适用于预览环境中的所有客户。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >您可以访问以下对象的新体验：
-> * 问题， <span class="preview">项目、任务和文档</span>.
+> * 问题、项目、任务和文档。
 >
 >     当您启用备注测试版体验时，该选项可用。
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
   >[!TIP]
   >
-  >   <span class="preview">在新的注释体验中，会自动标记注释所有者。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   在新的注释体验中，会自动标记注释所有者。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须拥有其他许可证才能访问Workfront目标。
 
-有关对展示板区域中的信息卡进行注释的信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+有关在“展示板”区域的信息卡上添加注释的信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 访问要求
 
@@ -174,7 +174,7 @@ drafted for P&P release:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>状态</strong></td> 
-      <td>单击当前状态旁边的箭头，然后从下拉菜单中选择所需的状态。 有关设置状态的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a>.<p>更新工作项的状态不会自动更改项目的状态。 根据项目的设置方式，您可能必须单独更新项目状态。 有关各种项目更新类型的更多信息，请参阅 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">选择项目更新类型 </a>.</p><p><b>注释</b>
+      <td>单击当前状态旁边的箭头，然后从下拉菜单中选择所需的状态。 有关设置状态的信息，请参阅 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a>.<p>更新工作项的状态不会自动更改项目的状态。 根据项目的设置方式，您可以单独更新项目状态。 有关各种项目更新类型的更多信息，请参阅 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">选择项目更新类型 </a>.</p><p><b>注释</b>
 
    当工作项处于未决批准状态时，您无法更改其状态。</p></td>
    </tr> 
@@ -209,10 +209,10 @@ drafted for P&P release:
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** （在左侧面板中）。
 1. 启用 **评论Beta版** 在“更新”区域的右上角进行切换，然后单击 **同意** 在Beta版协议上。 这会将“更新”区域切换到备注测试版体验。
-此 **注释** 选项卡默认处于选中状态。
+此 **评论** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -238,7 +238,7 @@ drafted for P&P release:
    >
    >如果另一个用户向您正在更新的同一项目提交评论，则会显示一条带“新”指示器的红线，以告知您较新的评论。
    >
-   >指示符仅在提交项目的评论之后显示，而不会在评论仍处于撰写状态时显示。
+   >指示符仅在提交项目上的评论之后显示，而不会在评论仍在撰写时显示。
    >
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
@@ -478,7 +478,7 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->使用Beta版评论体验时，无法禁用系统更新。
+>在使用新的注释体验时，无法禁用系统更新。
 >此部分中的信息仅引用了当前更新部分中可用的功能。
 >有关Beta版系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
