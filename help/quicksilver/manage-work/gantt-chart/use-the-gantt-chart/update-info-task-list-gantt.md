@@ -6,9 +6,9 @@ description: 任务列表甘特图显示有关项目或模板中任务的详细�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL 自动保存]** 选项默认处于选中状态，在这种情况下，所有更改都将自动保存。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![单击甘特图图标](assets/click-gantt-chart-icon.png)
 
 1. （可选）单击 **[!UICONTROL 计划模式]** 图标并选择 **[!UICONTROL 手动保存标准]** 或 **[!UICONTROL 时间线规划]** 以手动保存更改。
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    所有更改都会在 **[!UICONTROL 自动保存]** 选项。 默认情况下处于启用状态。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![单击甘特图图标](assets/click-gantt-chart-icon.png)
 
 1. （可选）单击 **[!UICONTROL 计划模式]** 图标并选择 **[!UICONTROL 手动保存标准]** 或 **[!UICONTROL 时间线规划]** 以手动保存更改。
 
@@ -178,7 +178,7 @@ ht-degree: 1%
 1. 转到要修改的项目。
 1. 在 **[!UICONTROL 任务]** 区域，单击 **[!UICONTROL 甘特图]** 图标。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![单击甘特图图标](assets/click-gantt-chart-icon.png)
 
    所有更改都会在 **[!UICONTROL 自动保存]** 选项。 默认情况下处于启用状态。
 
