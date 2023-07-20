@@ -3,7 +3,7 @@ title: 23.3 Agile增强
 description: 23.3 Agile增强
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 23.3 Agile增强
 
-本页介绍了23.3版本对“预览”环境做出的所有Agile增强。 这些增强功能将在23.3版本的生产环境中提供。
+此页面介绍了在23.3版本中推出的所有展示板和Agile增强功能。 2023年7月20日和21日发布的23.3版本在“生产”环境中提供了这些增强功能。
 
 有关23.3版本周期此时可用所有更改的列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

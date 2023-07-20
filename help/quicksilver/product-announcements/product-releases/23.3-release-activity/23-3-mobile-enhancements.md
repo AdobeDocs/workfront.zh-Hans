@@ -3,16 +3,16 @@ title: 23.3移动设备增强功能
 description: 23.3移动设备增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 23.3移动设备增强功能
 
-本页介绍了23.3版本对“预览”环境所做的所有移动设备增强。 这些增强功能将在23.3版本的生产环境中提供。
+本页介绍了23.3版本的所有移动设备增强功能。 2023年7月20日和21日发布的23.3版本在“生产”环境中提供了这些增强功能。
 
 有关23.3版本周期此时可用所有更改的列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
