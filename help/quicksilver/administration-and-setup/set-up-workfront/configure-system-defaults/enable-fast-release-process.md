@@ -7,7 +7,7 @@ description: 您可以选择按月还是按季度接收新的Workfront功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 启用或禁用组织的快速发布
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront有两种发布新功能和更新的模型。 您可以选择是按季度接收新功能，还是按更快的发布时间表接收新功能。
 
