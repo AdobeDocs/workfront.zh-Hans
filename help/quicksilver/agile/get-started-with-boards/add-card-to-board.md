@@ -6,9 +6,9 @@ description: 您可以快速将临时信息卡添加到展示板并将其分配�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ ht-degree: 0%
       <td role="rowheader"><strong>[！UICONTROL注释]</strong></td>
       <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="附件图标"> 将文件附加到注释。 要标记人员或团队，请使用注释区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
       </p><p>单击 <strong>[！UICONTROL提交]</strong> 以向信息卡添加注释。</p>
-      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p><p><strong>注意：</strong> 信息卡上的评论只能通过Workfront展示板的早期功能选择加入获得。</p></td>
+      <p><strong>注意：</strong> 信息卡上的注释区域使用新的Adobe Workfront注释体验。 有关更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   未使用早期功能选择加入时的生产环境中的示例图像：
-   ![临时信息卡详细信息](assets/boards-edit-ad-hoc-card-041723.png)
-
-   启用早期功能选择加入后，生产环境中的示例图像：
    ![临时信息卡详细信息](assets/ad-hoc-card-details-with-comments.png)
 
    使用左侧导航面板在信息卡详细信息中的字段部分之间移动。

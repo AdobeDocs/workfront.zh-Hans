@@ -6,9 +6,9 @@ title: 的早期功能选择加入 [!DNL Adobe Workfront] 讨论区
 description: 阅读本文章，了解 [!DNL Workfront Boards] 早期功能加入。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>定义讨论区的电子邮件通知</td>
-   <td>已部分发布</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>将旧版Kanban卡迁移到展示板</td>
@@ -166,19 +166,19 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>创建动态展示板</td>
-   <td>已部分发布</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>在信息卡详细信息上使用左侧导航</td>
-   <td>已部分发布</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>在摄取列上使用简化的过滤器</td>
-   <td>已部分发布</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>在临时信息卡和连接的信息卡上使用注释</td>
-   <td>已部分发布</td>
+   <td>已发布</td>
   </tr>
  </tbody> 
 </table>

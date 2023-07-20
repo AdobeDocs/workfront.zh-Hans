@@ -6,7 +6,7 @@ description: 您可以筛选展示板以仅显示某些信息卡。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在展示板中过滤和搜索
-
-{{highlighted-preview}}
 
 您可以筛选要显示的展示板：
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 * 已存档信息卡
 * 连接到特定项目的信息卡
 
-<span class="preview">对展示板排序会对列中的所有卡片进行排序。 您不能对单个列进行排序，积压或引入列也不会进行排序。</span>
+对展示板排序会对列中的所有卡片进行排序。 您不能对单个列进行排序，积压或引入列也不会进行排序。
 
 搜索还可以帮助您在展示板上找到特定信息卡。
 
@@ -110,8 +108,6 @@ ht-degree: 0%
 
    ![按连接筛选](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## 在展示板上排序
 
 选择排序依据的选项时，将对所有列进行排序。 您不能对单个列进行排序，积压或引入列也不会进行排序。
@@ -130,8 +126,6 @@ ht-degree: 0%
    应用默认排序以外的排序时，排序图标上会显示一个指示符 ![已应用排序](assets/sort-applied-boards.png).
 
    ![按展示板上的列排序](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## 在讨论区中搜索
 

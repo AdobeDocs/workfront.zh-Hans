@@ -7,9 +7,9 @@ description: 您可以选择将引入列添加到展示板，在添加任务和�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 0%
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 使用简单过滤器创建引入列
-
->[!NOTE]
->
->仅可通过早期选择加入Adobe Workfront展示板的功能获得简单过滤器。
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 讨论区]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).

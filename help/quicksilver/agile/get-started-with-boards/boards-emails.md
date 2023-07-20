@@ -6,9 +6,9 @@ title: 讨论区电子邮件通知和首选项
 description: Adobe Workfront展示板会在您将您添加到展示板时以及向您分配信息卡时向您发送电子邮件。
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # 讨论区电子邮件通知和首选项
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择要接收的电子邮件。
-
->[!NOTE]
->
->电子邮件通知只能通过Workfront展示板的早期功能选择加入获得。
 
 ## 访问要求
 

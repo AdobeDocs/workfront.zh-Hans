@@ -6,16 +6,14 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中创建或编辑视图
-
-{{highlighted-preview}}
 
 您可以使用视图自定义在屏幕上显示的信息类型。 您可以在Adobe Workfront中使用多种类型的视图。
 
@@ -150,16 +148,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">此过程仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+>此过程仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
 创建或自定义Agile视图：
 
 1. 转到项目中的任务列表。
-1. 单击 **Agile情节提要** 图标 ![Agile情节提要图标](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">或</span>
-
-   <span class="preview">单击 **讨论区** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png)，然后单击 **使用旧版Agile** 在展示板视图中。</span>
+1. 单击 **讨论区** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png)，然后单击 **使用旧版Agile** 在展示板视图中。
 
 1. （视情况而定）要自定义现有Agile视图，请执行以下操作：
 
@@ -255,4 +249,4 @@ ht-degree: 1%
 1. 单击&#x200B;**保存**。\
    您的访问权限指定视图的保存方式。 如果最初创建了该视图，则可以保存更改；否则，系统会提示您保存版本。 请记住，您对视图所做的更改会影响已共享该视图的用户。
 
-1. （可选）单击 **列表视图** 图标 ![](assets/list-view-in-agile-view-for-tasks.png) 以返回任务列表。
+1. （可选）单击 **列表** 图标，以返回到任务列表。

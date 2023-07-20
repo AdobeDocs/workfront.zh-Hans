@@ -6,16 +6,14 @@ description: 所需的计划、许可证类型和访问Adobe Workfront Plan Team
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # 在Agile视图中管理项目
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+>此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
 * [项目中的Agile功能](#agile-functionality-in-a-project)
 * [在项目上使用敏捷视图与在小版本上使用敏捷视图时的差异](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Required plans, license types, and access
 ## 在Agile视图中查看项目
 
 1. 转到要在敏捷视图中查看的项目。
-1. 单击 **敏捷** 图标 ![Agile图标](assets/agile-icon-nwe.png).
+1. 单击 **讨论区** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">或</span>
-
-   <span class="preview">单击 **讨论区** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).</span>
-
-   项目显示在默认的Agile视图中。
-
-   <span class="preview">在“预览”环境中，默认显示电路板视图。</span>
+   默认情况下将显示项目的讨论区视图。
 
    ![项目讨论区视图](assets/project-agile-board-view.png)
 
-   （仅限旧版Agile视图）如果以前在自定义Agile视图中查看过项目，则项目将显示在该视图中，而不是默认Agile视图中。
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">（可选）单击 **配置** 设置列和卡片的选项。</span>
+1. （可选）单击 **配置** 设置列和卡片的选项。
 
-   <span class="preview">有关更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 和 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 请注意，您无法在项目的展示板视图中定义列策略。</span>
+   有关更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 和 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 请注意，您无法在项目的展示板视图中定义列策略。
 
-1. <span class="preview">（可选）单击 **使用旧版Agile** 使用旧版Agile视图而不是“展示板”视图。</span>
+1. （可选）单击 **使用旧版Agile** 使用旧版Agile视图而不是“展示板”视图。
 
 1. （可选 — 仅限旧版Agile视图）如果您已创建自定义Agile视图，或者如果其他用户已创建自定义Agile视图并与您共享，则可以查看该视图，而不是默认Agile视图。
 
@@ -200,14 +192,13 @@ Required plans, license types, and access
 
    要向Agile视图添加状态，请创建新的敏捷视图或自定义现有的Agile视图，如文章的“创建或自定义Agile视图”部分中所述 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. （可选）要返回到列表视图，请单击 **列表** 图标。\
-   ![列表图标](assets/list-icon.png)
+1. （可选）要返回到列表视图，请单击 **列表** 图标。
 
 ## 创建和自定义Agile视图 {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+>此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
 与Workfront中的标准视图一样，您可以自定义现有Agile视图或从头开始创建新的Agile视图。 与标准视图不同，您不能根据现有Agile视图创建新的Agile视图。
 
@@ -217,7 +208,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+>此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
 有关如何共享Agile视图的信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。</span>
+>此部分仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
 有关如何删除视图的信息，请参阅文章中的“删除视图”部分 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
