@@ -4,9 +4,9 @@ title: 摘要概述
 description: 您可以使用“摘要”面板直接从任务问题、文档的列表或从的其他区域查看和更新工作项信息 [!DNL Adobe Workfront] 显示任务和问题。
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ ht-degree: 2%
    >
    >您一次只能选择一个任务或一个问题，以在 [!UICONTROL 摘要] 面板。
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![摘要面板](assets/summary-panel-for-task.png)
 
 1. （可选）要关闭 [!UICONTROL 摘要] 执行下面操作之一：
 
    * 在任务或问题列表中，单击 **[!UICONTROL 打开摘要]** 图标 ![](assets/summary-panel-icon.png)
 
-      或
+     或
 
-      单击 **X** 图标（位于的右上角） [!UICONTROL 摘要] 面板。
+     单击 **X** 图标（位于的右上角） [!UICONTROL 摘要] 面板。
 
    * 在 [!UICONTROL 已提交] 部分 [!UICONTROL 请求] 区域，单击 **[!UICONTROL 关闭摘要]** 图标 ![](assets/close-summary-with-text-nwe.png)
 
-      或
+     或
 
-      单击 **X** 图标（位于“摘要”面板的右上角）。
+     单击 **X** 图标（位于“摘要”面板的右上角）。
 
 ## [!UICONTROL 完成百分比]
 

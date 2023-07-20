@@ -6,9 +6,9 @@ description: 只有在创建项目后，您才能在项目中创建任务。
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 1%
 
 本文介绍了如何从头开始创建任务。 您还可以通过以下方式创建任务：
 
-* 通过复制或复制现有任务。 有关信息，请参阅 [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* 通过将任务从一个项目移动到另一个项目。 有关信息，请参阅 [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* 通过复制或复制现有任务。 有关信息，请参阅 [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* 通过将任务从一个项目移动到另一个项目。 有关信息，请参阅 [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## 访问要求
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 1. （视情况而定）如果您当前正在查看Agile视图中的任务列表，请单击 **列表视图** 图标 ![](assets/list-view-in-agile-view-for-tasks.png) 图标，以显示任务列表。
 1. （可选）单击 **计划模式** 图标 ![](assets/nwe-plan-mode-icon-task-list.png) 并选择 **手动保存**，然后选择以下任一选项 **标准** 或 **时间线规划**. 这将禁用 **自动保存** 选项，默认情况下处于启用状态。
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![选择手动保存](assets/manual-save-option.png)
 
    >[!TIP]
    >

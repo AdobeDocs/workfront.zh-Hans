@@ -6,9 +6,9 @@ description: Adobe Workfront中的甘特图提供了任务或项目列表的可�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ In [!DNL Adobe Workfront]，共有两种 [!UICONTROL 甘特图] 具有类似功�
 
 访问任务列表 [!UICONTROL 甘特图]，导航到上述任何区域并单击 [!UICONTROL 甘特图] 图标。
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![单击甘特图图标](assets/click-gantt-chart-icon.png)
 
 ### 项目列表 [!UICONTROL 甘特图] {#project-list-gantt-chart}
 
