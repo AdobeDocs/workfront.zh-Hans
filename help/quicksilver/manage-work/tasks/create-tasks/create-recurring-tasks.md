@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: 创建周期性任务
 description: 您可以为必须在单个项目中重复的任务创建周期性任务。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >   为新周期性任务指示的持续时间和已计划小时数是每个周期性任务的持续时间和已计划小时数。 父级任务的持续时间是指最早任务的计划起始日期与最迟任务的计划完成日期之间的时间。 父任务的已计划小时数是所有重复项中所有已计划小时数的总和。
+   >   为新周期性任务指示的持续时间和已计划小时数是每个事件的持续时间和已计划小时数。 父级任务的持续时间是指最早任务的计划起始日期与最迟任务的计划完成日期之间的时间。 父任务的已计划小时数是所有发生的所有已计划小时数的总和。
 
 1. 单击 **概述** （在左侧面板中）。
 1. 向下滚动到 **周期性计划** 部分，然后选择 **使其成为周期性任务** 选项。

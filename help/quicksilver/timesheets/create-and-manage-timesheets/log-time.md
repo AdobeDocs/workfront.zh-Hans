@@ -5,8 +5,9 @@ title: 记录时间
 description: 您可以在&nbsp；Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如休假、病假或会议时间。 您的登录时间显示在您的时间表中。
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3337'
 ht-degree: 0%
