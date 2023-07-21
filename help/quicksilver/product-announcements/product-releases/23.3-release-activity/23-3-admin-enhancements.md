@@ -3,9 +3,9 @@ title: 23.3管理员增强功能
 description: 23.3管理员增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ ht-degree: 0%
 有关更多信息，请参阅 [配置时间表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 和 [为组配置时间表和小时首选项](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## 显示表单设计器测试版中显示的逻辑并跳过逻辑指示器和规则
+
+表单设计器公共测试版于2023年7月21日在预览和生产中重新启用。 新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。
+此外，当您在表单设计器测试版中打开自定义表单时，该表单包含在旧版表单生成器中创建的显示或跳过逻辑时，您现在可以查看逻辑：
+
+* 表单设计器画布中某个字段上的图标表示在该字段上配置了逻辑，或者该字段用于在其他字段上配置的逻辑规则中。
+* 选择应用了逻辑的字段会在字段设置中显示现有的逻辑规则。
+
+在表单设计器测试版中，尚未提供编辑现有逻辑和向自定义表单添加新逻辑的功能，但计划在未来提供。
+
+有关更多信息，请参阅 [表单设计器概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

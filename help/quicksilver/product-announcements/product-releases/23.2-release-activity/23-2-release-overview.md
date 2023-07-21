@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p>生产版本：随23.2版提供<br />
-                                 <span style="color: #ff0000;">2023年5月24日，表单设计器Beta版在预览和生产中被暂时禁用。</span></p>
+                                 <span style="color: #ff0000;">2023年5月24日至7月21日，表单设计器Beta版在预览和生产中被暂时禁用。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">重命名布局模板中的图钉</span></a>
-                        </span></a><p>您现在可以在布局模板中重命名大头针，以便对用户更有意义，而不是使用固定页面的默认名称。 管理员创建的pin将显示给分配给布局模板的所有用户，并且用户无法重命名这些pin。</p>
+                        <p>您现在可以在布局模板中重命名大头针，以便对用户更有意义，而不是使用固定页面的默认名称。 管理员创建的pin将显示给分配给布局模板的所有用户，并且用户无法重命名这些pin。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>
@@ -480,7 +480,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">移动应用程序中的生物特征识别登录和展示板收藏集</span></a>
-                        </span></a><p>现在，生物特征识别登录是一个选项，可以让您更快地登录到移动设备应用程序！ 一旦在首次登录后设置了生物特征验证，用户将能够使用指纹或面部识别快速重新登录应用程序，只需偶尔重新验证密码即可。 此外，在以后的更新中，将针对常规登录体验进行一些外观上的改进。</p>
+                        <p>现在，生物特征识别登录是一个选项，可以让您更快地登录到移动设备应用程序！ 一旦在首次登录后设置了生物特征验证，用户将能够使用指纹或面部识别快速重新登录应用程序，只需偶尔重新验证密码即可。 此外，在以后的更新中，将针对常规登录体验进行一些外观上的改进。</p>
                         <p>移动设备应用程序现在也支持展示板收藏集，允许移动设备用户从其移动设备展示板列表中查看他们在桌面版本中有权访问的任何收藏集。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
@@ -592,7 +592,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Workfront for XD中将画板导出为单个PDF或多个PDF文件</span></a>
-                        </span></a><p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
+                        <p>在Adobe Workfront for XD插件中，您现在可以选择将画板导出为单个PDF文件或多个PDF文件。</p>
                     </td>
                     <td><p><b>在以下日期提供：</b></p>
                         <ul>

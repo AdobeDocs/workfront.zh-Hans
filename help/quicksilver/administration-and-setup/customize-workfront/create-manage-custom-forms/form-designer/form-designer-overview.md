@@ -4,22 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以设计一个自定义表单，用户可将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # 表单设计器概述
-
->[!IMPORTANT]
->
->2023年5月24日，窗体设计人员被暂时禁用。 您可以使用旧版表单生成器创建和编辑自定义表单。 参见 [使用旧版表单生成器创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 您可以使用新的表单设计器来设计自定义表单，以便用户可以将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 
@@ -31,7 +27,7 @@ ht-degree: 1%
 
 新表单设计器和旧表单生成器的顶部都有一个新按钮。 您可以使用此按钮在旧版生成器和新设计器之间切换。
 
-![](assets/switch-views.png)
+![切换到新的窗体设计器](assets/switch-views.png)
 
 ## 表单设计器提供的新功能
 
@@ -43,9 +39,9 @@ ht-degree: 1%
 
 * **使用默认部分**：如果表单创建者尚未在表单顶部添加分区，则画布中现在将显示默认分区，以便用户能够调整未分配自定义分区的字段的权限。
 
-   >[!NOTE]
-   >
-   >将表单附加到对象后，默认部分在对象中不可见。
+  >[!NOTE]
+  >
+  >将表单附加到对象后，默认部分在对象中不可见。
 
 ## 功能即将推出
 
@@ -59,6 +55,20 @@ ht-degree: 1%
 >
 >使用新表单设计器时，逻辑和预输入筛选器的现有配置不会受到影响。
 
+### 显示/跳过逻辑
+
+虽然在设计新的自定义表单时尚未添加显示/跳过逻辑，但您可以查看在旧版表单生成器中创建的表单上的现有显示/跳过逻辑。
+
+表单设计器中字段上的图标指示逻辑应用于该字段。
+
+此 **D** 图标左下角表示该字段是用于显示逻辑的目标字段（如果对表单进行了特定选择，则会显示此字段）。 此 **D** 图标位于右下角表示该字段用于定义显示逻辑（此字段上的特定选择或值将显示目标字段）。
+
+此 **S** 左下方的图标表示该字段是用于跳过逻辑的目标字段（如果对表单进行了特定选择，则表单会向前跳过该字段）。 此 **S** 图标位于右下角表示该字段用于定义跳过逻辑（此字段上的特定选择或值将跳过其他字段并直接转到目标字段）。
+
+选择应用了逻辑的字段会在字段设置中显示现有的逻辑规则。
+
+![逻辑规则](assets/form-designer-view-only-logic.png)
+
 ## 从表单设计器中移除的功能
 
 我们已从窗体设计器中删除了以下功能：
@@ -69,11 +79,12 @@ ht-degree: 1%
    * 表单设置现在位于画布顶部
 
    * 表单共享主选项卡和字段共享子选项卡
-   >[!NOTE]
-   >
-   >您可以通过设置>自定义Forms > Forms或字段选项卡控制表单和字段共享。
+
+  >[!NOTE]
+  >
+  >您可以通过设置>自定义Forms > Forms或字段选项卡控制表单和字段共享。
 
 * 在更新提要中跟踪字段变化
-   >[!NOTE]
-   >
-   >您可以在设置>界面>更新馈送中找到此项
+  >[!NOTE]
+  >
+  >您可以在设置>界面>更新馈送中找到此项
