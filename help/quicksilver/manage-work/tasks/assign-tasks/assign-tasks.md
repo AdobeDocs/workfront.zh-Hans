@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: 分配任务
 description: 您可以将任务分配给用户、角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -119,7 +120,7 @@ ht-degree: 1%
 * 用户可有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * 如果将多个用户分配给一个任务或问题，则您选择的第一个用户会自动被指定为任务或问题的所有者。
-有关更改此项的说明，请参阅文章中有关“设为主要项”选项的信息 [创建高级分配](create-advanced-assignments.md).
+有关更改此设置的说明，请参阅文章中有关“设为主要”选项的信息 [创建高级分配](create-advanced-assignments.md).
 
 * 团队不能是任务或问题的主要被分配人。 只有用户或工作角色可以被指定为任务或问题上的主要角色。
 
@@ -184,6 +185,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
      >
+     >您必须在访问级别中启用“查看联系人信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >
      ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
@@ -229,6 +232,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >[!TIP]
      >
      >添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+     >
+     >您必须在访问级别中启用“查看联系人信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
      ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 

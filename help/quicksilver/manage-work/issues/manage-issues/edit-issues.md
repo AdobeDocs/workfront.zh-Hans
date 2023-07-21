@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2493'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,8 @@ ht-degree: 2%
 
    <b>笔尖</b>
 
-   添加主要联系人用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+   <p>添加主要联系人用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。</p>
+      <p> 您必须在访问级别中启用“查看联系人信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>.</p>
 
 
    </td> 

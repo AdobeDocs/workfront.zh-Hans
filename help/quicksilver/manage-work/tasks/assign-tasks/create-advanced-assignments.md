@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: 创建高级分配
 description: 您可以使用高级分配管理任务或问题分配。
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -107,7 +108,9 @@ ht-degree: 0%
    >* 您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
    >
    >
-   >* 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+   >* 添加用户分配时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。
+   >用户必须与至少一个工作角色关联，才能在添加时查看该角色。
+   >您必须在访问级别中启用“查看联系人信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* <span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择系统/默认工作角色以使用分配的默认开单费率，或选择费率卡工作角色以在分配层改写费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
