@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ ht-degree: 0%
 
 表单设计器中字段上的图标指示逻辑应用于该字段。
 
-此 **D** 图标左下角表示该字段是用于显示逻辑的目标字段（如果对表单进行了特定选择，则会显示此字段）。 此 **D** 图标位于右下角表示该字段用于定义显示逻辑（此字段上的特定选择或值将显示目标字段）。
+此 ![目标字段的显示逻辑](assets/display-logic-bottom-left.png) 图标左下角表示该字段是用于显示逻辑的目标字段（如果对表单进行了特定选择，则会显示此字段）。 此 ![定义显示逻辑图标](assets/display-logic-bottom-right.png) 图标位于右下角表示该字段用于定义显示逻辑（此字段上的特定选择或值将显示目标字段）。
 
-此 **S** 左下方的图标表示该字段是用于跳过逻辑的目标字段（如果对表单进行了特定选择，则表单会向前跳过该字段）。 此 **S** 图标位于右下角表示该字段用于定义跳过逻辑（此字段上的特定选择或值将跳过其他字段并直接转到目标字段）。
+此 ![目标字段的跳过逻辑](assets/skip-logic-bottom-left.png) 左下方的图标表示该字段是用于跳过逻辑的目标字段（如果对表单进行了特定选择，则表单会向前跳过该字段）。 此 ![定义跳过逻辑图标](assets/skip-logic-bottom-right.png) 图标位于右下角表示该字段用于定义跳过逻辑（此字段上的特定选择或值将跳过其他字段并直接转到目标字段）。
+
+![逻辑图标](assets/logic-icons-3.png)
 
 选择应用了逻辑的字段会在字段设置中显示现有的逻辑规则。
 
