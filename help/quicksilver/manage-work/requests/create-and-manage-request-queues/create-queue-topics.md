@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: 创建队列主题
 description: 队列主题可与工艺路线规则配合使用，以自动将传入工作分配给用户、工作角色、团队，或将其置于项目中。 队列主题定义实施路由规则所需的条件。
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>请求类型</strong> </td> 
-      <td> <p>选择此队列主题存储的请求类型。 可见选项是在 <strong>队列详细信息</strong> 选项卡中。 这是必填字段。 </p> <p>注：只有在“队列详细资料”页和“队列主题”页中均选择了“请求类型”时，“请求类型”才会在“请求”区域显示为选项。 有关设置项目的队列详细信息区域的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. </p> <p>从以下类型中选择：</p> 
-       <ul> 
-        <li>错误报告</li> 
-        <li>更改顺序</li> 
-        <li>问题</li> 
-        <li>请求</li> 
-       </ul> <p>您的Workfront管理员可能已重命名其中的一些选项。 </p> </td> 
-     </tr> 
+      <td> <p>选择此队列主题存储的请求类型。 可见选项是在 <strong>队列详细信息</strong> 选项卡中。 这是必填字段。 </p>
+
+   <p><b>注释</b>:
+
+   仅当在“队列详细信息”和“队列主题”页面中都选择了“请求类型”时，“类型”才会在“请求”区域显示为选项。 有关设置项目的队列详细信息区域的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. </p> <p>从以下类型中选择：</p>
+   <ul>
+   <li>错误报告</li>
+   <li>更改顺序</li>
+   <li>问题</li>
+   <li>请求</li>
+   </ul> <p>您的Workfront管理员可能已重命名其中的一些选项。 </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
