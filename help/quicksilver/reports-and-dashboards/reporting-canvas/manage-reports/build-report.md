@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">叙述</td> 
-       <td> <p>添加为报告中的信息提供上下文的文本。</p> <p>有关更多信息，请参阅[最终链接]。</p> </td> 
+       <td> <p>添加为报告中的信息提供上下文的文本。</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Web内容</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">画布过滤器</td> 
-       <td> <p>添加过滤器以允许用户查看报告的不同方面。 此过滤器适用于报表中的所有数据。</p> <p>有关更多信息，请参阅[最终链接]。</p> </td> 
+       <td> <p>添加过滤器以允许用户查看报告的不同方面。 此过滤器适用于报表中的所有数据。</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">收藏报告</td> 
-      <td>离开编辑窗格后，单击 <strong>星形</strong> 图标[图标]（位于报表名称旁边）以将其添加到收藏报表列表中。</td> 
+      <td>离开编辑窗格后，单击 <strong>星形</strong> 图标，以将其添加到收藏报表的列表中。</td> 
      </tr> 
     </tbody> 
    </table>

@@ -7,9 +7,9 @@ description: 您可以与审阅人共享和审阅各种类型的文件，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfront具有以下限制：
 
 * 每个文件的文件大小必须小于4 GB。
-* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)文件必须小于512 MB。
+* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)文件必须小于512 MB。 （这也适用于在实施大小限制之前创建的这些文件类型的取消存档校样。）
 * xls和XLSX文件必须小于100 MB。
 * 附加到验证评论的文件必须小于30 MB。
 * PNG的高度和宽度必须小于65535像素。
@@ -180,11 +180,15 @@ Workfront具有以下限制：
 > * XLT - Microsoft Excel模板
 > * XLTX - Microsoft Excel模板
 
+>[!WARNING]
+> 由于安全问题，我们暂时不支持以下静态文件类型：
+>
+> * EPS — 封装的PostScript
+
 * AI - Adobe Illustrator图稿
 * AIT - Adobe Illustrator模板
 * DOC - Microsoft Word文档
 * DOCX - Microsoft Word文档
-* EPS — 封装的PostScript
 * PDF-Adobe可移植文档文件
 * PPT - PowerPoint演示文稿
 * PPTX - PowerPoint演示文稿2007 PS - PostScript文件
