@@ -6,14 +6,20 @@ description: 按照以下提示进行操作，以顺利地为每个新的Workfro
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # 准备一个 [!DNL Adobe Workfront] 计划版本
+
+>[!NOTE]
+>
+>Workfront提供了两种用于发布新功能和更新的模型。 贵组织可以选择按季度还是按更快的发布时间表接收新功能。 无论您的组织使用何种模型，版本的准备过程都是相似的。
+>
+>有关这两种发行模型的详细说明，请参阅 [启用或禁用组织的快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] 定期发布对生产环境的主要更新。 As a [!DNL Workfront] 管理员，您有机会确保贵组织能够顺利过渡到每个新版本的 [!DNL Workfront] 产品。
 
@@ -50,7 +56,7 @@ ht-degree: 0%
 
 当给定功能转到您的页面时，将会发布该功能的发行说明。 [!UICONTROL 预览沙盒] 环境。 这样，您就可以在将该功能加入生产环境之前了解并探索该功能。
 
-每个版本都有一个发布概述页面，其中简要介绍了每个功能，并提供了指向更深入说明的链接，其中包含了其他信息和演示视频。 这些深入附注在版本发布后按周整理，以便预览，然后按更接近实际生产发布日期的区域重新整理。
+每个版本都有一个发布概述页面，其中简要介绍了每个功能，并提供了指向更深入说明的链接，其中包含了其他信息和演示视频。 这些深入说明在发布进行预览时按周整理，然后在更接近实际生产季度发布日期的区域重新整理。
 
 我们强烈建议观看发行说明中提供的演示视频。 这些选项对于查看正在使用的功能特别有用，或者对于快速查看功能上下文特别有用（如果您没有准时）。
 
@@ -78,7 +84,7 @@ As a [!DNL Workfront] 管理员，您将收到公告中心消息 [!DNL Workfront
 
 ### 探索 [!UICONTROL 预览沙盒] 环境
 
-此 [!UICONTROL 预览沙盒] 环境，也称为 [!UICONTROL 预览] 环境，作为一个环境，组织中的用户可以在其中安全地测试和使用生产环境中的单独数据副本。 [!UICONTROL Workfront] 在将新特性和功能发布到生产环境之前，就在“预览”环境中发布了这些特性和功能。 在将这些功能发布到用户的日常工作流中之前，您可以了解这些功能。 然后，如果您的用户在利用新功能时遇到任何困难，您将能够更轻松地帮助他们适应。
+此 [!UICONTROL 预览沙盒] 环境，也称为 [!UICONTROL 预览] 环境，作为一个环境，组织中的用户可以在其中安全地测试和使用生产环境中的单独数据副本。 [!UICONTROL Workfront] 通常，在将“预览”环境的新增功能和功能发布到“生产”环境之前至少两周。 在将这些功能发布到用户的日常工作流中之前，您可以了解这些功能。 然后，如果您的用户在利用新功能时遇到任何困难，您将能够更轻松地帮助他们适应。
 
 >[!TIP]
 >
