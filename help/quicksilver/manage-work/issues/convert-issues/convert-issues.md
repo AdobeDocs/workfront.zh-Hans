@@ -1,60 +1,64 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 转换Adobe Workfront中的问题概述
-description: 如果在提交问题后需要完成更多工作才能完成问题，您可以将问题转换为项目或任务。
+title: 在Adobe Workfront中转化问题概述
+description: 如果在提交问题后需要完成更多工作，您可以将问题转化为项目或任务。
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
 
-# 转换Adobe Workfront中的问题概述
+# 在Adobe Workfront中转化问题概述
 
-如果在提交问题后需要完成更多工作才能完成问题，您可以将问题转换为项目或任务。
+如果在提交问题后需要完成更多工作，您可以将问题转化为项目或任务。
 
-有关将问题转换为任务的信息，请参阅 [在Adobe Workfront中将问题转换为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+有关将问题转化为任务的信息，请参阅 [在Adobe Workfront中将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-有关将问题转换为项目的信息，请参阅 [在Adobe Workfront中将问题转换为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关将问题转化为项目的信息，请参阅 [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## 转换问题时的注意事项
+## 转化问题时的注意事项
 
-* 您的Workfront管理员或组管理员已经为问题发生的情况、其解决方式以及将问题转换为项目或任务时主要联系人的访问权限设置首选项，如 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Workfront会删除在转换过程中与问题相关的任何批准。
-* Workfront在您将问题的解决对象转换为任务或项目时会覆盖该对象。 新任务或问题在转换后成为问题的新解决对象。
+* 您的Workfront管理员或组管理员已经为问题发生的首选项、问题的解决方法以及在将其转换为项目或任务时其主要联系人的访问权限进行了设置，如中所述 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Workfront会删除在转化期间与问题关联的任何审批。
+* 当您将其转换为任务或项目时，Workfront会覆盖问题的解决对象。 在转换后，新任务或问题将成为问题的新解析对象。
 * 请考虑以下事项：
 
-   * 在转换过程中，可能会询问您是否希望将问题及其解决方案与您创建的项目或任务绑定。
-   * 如果保留问题，则当项目、任务或问题发生任何更改或Workfront重新计算时间轴时，项目或任务的状态和完成百分比会自动更新问题的状态和完成百分比。
+   * 在转换过程中，可能会询问您是否要使问题及其解决方案与正在创建的项目或任务保持绑定。
+   * 如果您保留问题，则当项目、任务或问题发生任何更改或者Workfront重新计算时间线时，项目或任务的状态和完成百分比会自动更新问题的状态和完成百分比。
 
-* 在使用模板将问题转换为项目时，模板中的大多数信息都会传输到新项目。 但是，问题中的某些信息也可以转移到新项目。 有关更多信息，请参阅 [使用模板将问题转换为项目时的项目字段概述](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 章节。
-* 在转换问题时，并非所有文档或其信息都会移动到将问题转换为的新对象。 在转换附加了文档或文档链接的问题时，将包括以下项目：
+* 将问题转化为任务或项目时，问题会从分配给问题的用户的“主页”区域移除。
+
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 欲了解更多信息，请参见 [使用模板将问题转化为项目时的项目字段概述](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 部分。
+* 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
    * 文档
-   * 将链接记录到第三方服务，如Google Drive或SharePoint。
+   * 记录指向第三方服务的链接，例如Google Drive或SharePoint。
    * 版本
-   * 仅当选项 **保留原始问题，并将其解决办法与此任务挂钩** 中。
-   * 在转换附加了文档和文档链接的问题时，不包括文档批准。
+   * 仅当选项满足以下条件时，才会包含验证 **保留原来的问题，并将其解决方案与此任务绑定** 未选中。
+   * 在转换附加了文档和文档链接的问题时，不包括文档审批。
 
-* 如果您决定将问题保留在转换中，并且附加了文档，则文档及其版本将会复制到项目或任务中。 校样和文档批准不会复制到项目或任务中。
-* 如果您决定不将问题保留在转换中，并且它附有文档、文档、其版本以及校样传输到项目或任务。 文档批准不会转移到项目或任务。
-* 如果您的文档和文件夹链接到来自第三方服务(如Google Drive)的原始问题，无论您在转换过程中是否保留该问题，这些链接都将复制到新对象。
-* 系统还会将问题评论复制到从问题转换的任务或项目中，但标记的用户将不会转移。
-* 如果要将自定义表单信息从问题传输到要转换到的项目或任务，请确保您有一个项目或任务自定义表单，其中包含要从问题中传输的相同字段。 有关更多信息，请参阅 [转换对象时传输自定义表单数据](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* 如果您决定在转化中保留问题并且附加了文档，则文档及其版本将会复制到项目或任务中。 验证和文档审批将不会复制到项目或任务。
+* 如果您决定不将问题保留在转化中，并且它有附加文档，文档、其版本和校样会传输到项目或任务。 文档审批将不会传输到项目或任务。
+* 如果您的文档和文件夹链接至来自第三方服务(如Google Drive)的原始问题，则无论您在转换期间是否保留该问题，这些链接都将复制到新对象中。
+* 问题注释也会复制到从问题转换的任务或项目，但标记的用户不会转移。
+* 如果要将自定义表单信息从问题传输至要将其转换到的项目或任务，请确保您有项目或任务自定义表单，其中包含要从问题传输来的相同字段。 有关更多信息，请参阅 [转换对象时传输自定义表单数据](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-## 使用模板将问题转换为项目时的项目字段概述 {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
+## 使用模板将问题转化为项目时的项目字段概述 {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
-将问题转换为项目时，您可以将其转换为空白项目或使用模板。
+将问题转化为项目时，您可以将其转化为空白项目或使用模板。
 
-有关信息，请参阅 [在Adobe Workfront中将问题转换为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关信息，请参阅 [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-使用模板时，模板中填充的某些字段会传输到由转换后的问题创建的项目。 其他字段会从转换后的问题传输到项目。
+使用模板时，模板中填充的某些字段会传输到从转换的问题创建的项目。 其他字段从转换的问题转移到项目。
 
-下表列出了项目信息以及项目信息是从模板还是从问题进行传输：
+下表列出了项目信息以及它是从模板还是从问题中传输：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,11 +66,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>描述</td> 
-   <td> <p>问题描述会转移到新项目。 </p> <p> 如果没有有关该问题的说明，则模板中的说明会传输到项目。 </p> <p>对于问题和模板，如果“描述”字段都为空，则项目中的字段为空。 </p> </td> 
+   <td> <p>问题的描述将转移到新项目。 </p> <p> 如果问题没有描述，则模板中的描述将传输到项目。 </p> <p>如果问题和模板的描述字段为空，则项目中的字段为空。 </p> </td> 
   </tr> 
   <tr> 
    <td>状态</td> 
-   <td>为模板上的组选择的默认状态。 如果模板未与组关联，则项目状态将设置为Workfront管理员在“设置”的“项目首选项”区域中设置的默认状态。 有关信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</td> 
+   <td>为模板上的组选择的默认状态。 如果模板未与组关联，则项目状态将设置为Workfront管理员在“设置”的“项目偏好设置”区域中设置的默认状态。 有关信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</td> 
   </tr> 
   <tr> 
    <td>优先级</td> 
@@ -74,15 +78,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>问题中的URL会传输到新项目。 </p> <p> 如果问题上未指定URL，则模板中的URL将传输到项目。 </p> <p>如果问题和模板的URL字段都为空，则项目中的字段为空。 </p> </td> 
+   <td> <p>问题中的URL将传输到新项目。 </p> <p> 如果问题中未指定URL，则模板中的URL将传输到项目。 </p> <p>如果问题和模板的URL字段为空，则项目中的字段为空。 </p> </td> 
   </tr> 
   <tr> 
-   <td>项目条件类型</td> 
+   <td>项目完成情况类型</td> 
    <td>从模板进行传输。</td> 
   </tr> 
   <tr> 
-   <td>项目条件</td> 
-   <td>与Workfront管理员在“设置”区域中确定的系统级别默认首选项匹配。 有关信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">将自定义条件设置为项目的默认条件</a></td> 
+   <td>项目完成情况</td> 
+   <td>与Workfront管理员在设置区域中确定的系统级默认首选项匹配。 有关信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">将自定义条件设置为项目的默认值</a></td> 
   </tr> 
   <tr> 
    <td>时间表开始日期</td> 
@@ -92,8 +96,8 @@ ht-degree: 2%
    <td>项目日期</td> 
    <td> 
     <ul> 
-     <li> <p><b>计划开始日期</b>:应根据模板计划的时区，预先选择基于模板计划工作时间的最近工作时间。 如果将“计划自”字段设置为“从完成”，则禁用此字段。 </p> </li> 
-     <li> <p><b>计划完成日期</b>:应根据模板计划的时区，预先选择基于模板计划工作时间的最近工作时间。 如果将“计划起始”字段设置为“起始”，则禁用此字段。 </p> </li> 
+     <li> <p><b>计划开始日期</b>：根据模板计划的时区，应预先选择基于模板计划工作时间的最接近的工作时间。 如果“计划起始日期”字段设置为“完成日期”，则此字段将被禁用。 </p> </li> 
+     <li> <p><b>计划完成日期</b>：根据模板计划的时区，应预先选择基于模板计划工作时间的最接近的工作时间。 如果“计划起始日期”字段设置为“起始日期”，则此字段将被禁用。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -106,7 +110,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>组</td> 
-   <td>从模板进行传输。 如果模板上没有组，则会将其设置为问题所属的项目组。</td> 
+   <td>从模板进行传输。 如果模板上无组，则将其设置为问题所属的项目组。</td> 
   </tr> 
   <tr> 
    <td>公司</td> 
@@ -114,11 +118,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>项目所有者</td> 
-   <td>从模板上的“模板所有者”字段进行传输。 否则，它将设置为正在执行转换的登录用户。 </td> 
+   <td>从模板的“模板所有者”字段转移。 否则，它会设置为正在执行转换的登录用户。 </td> 
   </tr> 
   <tr> 
    <td>项目赞助者</td> 
-   <td>从模板上的“模板赞助商”字段进行传输。 否则，此字段为空。</td> 
+   <td>从模板上的模板发起人字段传输。 否则，此字段为空。</td> 
   </tr> 
   <tr> 
    <td>资源管理器</td> 
@@ -126,19 +130,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>任务设置</td> 
-   <td>从模板中传输。</td> 
+   <td>从模板转移。</td> 
   </tr> 
   <tr> 
    <td>问题设置</td> 
-   <td>从模板中传输。 </td> 
+   <td>从模板转移。 </td> 
   </tr> 
   <tr> 
    <td>访问权限</td> 
-   <td> <p>从模板上的访问部分传输。 </p> </td> 
+   <td> <p>从模板上的Access部分转移。 </p> </td> 
   </tr> 
   <tr> 
    <td>审批</td> 
-   <td>从模板中传输。 在转换期间，将删除与问题关联的批准。 </td> 
+   <td>从模板转移。 与问题相关的审批将在转换期间删除。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,17 +225,17 @@ ht-degree: 2%
 
 ## 查看有关项目和任务的原始问题信息 {#view-original-issue-information-on-projects-and-tasks}
 
-您可以在项目和任务列表和报表中或在“项目详细信息”区域中查看原始问题信息。 有关构建报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+您可以在项目、任务列表和报告或项目详细信息区域中查看原始问题信息。 有关生成报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-下表说明了在转换的项目和任务中显示哪些问题字段。
+下表说明了哪些问题字段在转换后的项目和任务中可见。
 
-| 问题字段 | 项目或任务字段 | 项目列表或报表 | 项目详细信息区域 | 任务列表或报表 | 任务详细信息区域 |
+| 问题字段 | 项目或任务字段 | 项目列表或报告 | 项目详细信息区域 | 任务列表或报告 | 任务详细信息区域 |
 |---|---|---|---|---|---|
 | 问题名称 | 转换的问题名称 | ✔ | ✔ | ✔ | ✔ |
-| 主要联系人 | 已转换的问题创作者名称 | ✔ | `✔` | ✔ |   |
-| 输入日期 | 已转换的发行条目日期 | ✔ |   | ✔ |   |
+| 主要联系人 | 转换的问题发起人姓名 | ✔ | `✔` | ✔ |   |
+| 输入日期 | 转换的问题输入日期 | ✔ |   | ✔ |   |
 
 
 >[!CAUTION]
 >
->如果问题的主要联系人发生更改，或者问题在问题转换后从项目或任务中取消链接，则转换的问题发起者名称不会更新，它会在问题转换时显示问题的原始主要联系人。
+>如果问题的主要联系人发生更改，或者在问题转换之后问题从项目或任务中取消链接，则转换的问题发起人姓名不会更新，并且会在问题转换时显示问题的原始主要联系人。

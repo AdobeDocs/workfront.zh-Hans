@@ -3,14 +3,14 @@ title: 使用布局模板自定义详细信息视图
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 作为Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目群或项目组合时选择左侧面板中的“详细信息”部分时显示哪些信息。
+description: 作为Workfront管理员，您可以使用布局模板来确定当用户查看任务、问题、文档、项目群或项目组合时选择左侧面板中的“详细信息”部分时显示的信息。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,29 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-作为Adobe Workfront管理员，您可以使用布局模板来确定当用户单击“详细信息”图标时会显示哪些信息 ![](assets/project-details-icon.png) 查看任务、问题、文档、项目群或项目组合时，位于左侧面板中。
+作为Adobe Workfront管理员，您可以使用布局模板来确定当用户单击详情图标时显示的信息 ![](assets/project-details-icon.png) 查看任务、问题、文档、项目群或项目组合时，位于左侧面板中的。
 
 <!--
 or billing record
 -->
 
-您还可以更改此信息出现的顺序。 例如，对于用户看到的所有任务，您可以将自定义Forms信息移动到用户看到的所有任务的详细信息视图的顶部。
+您还可以更改此信息出现的顺序。 例如，对于用户看到的所有任务，对于用户看到的所有任务，您可以将自定义Forms信息移动到详细信息视图的顶部。
 
 有关创建布局模板的信息，请参阅 [创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md).
 
-有关组的布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅 [将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md).
+配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关为用户分配布局模板的信息，请参阅 [将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md).
 
-您对对象的“详细信息”视图所做的更改也会决定用户在以下区域看到的字段的可用性和顺序：
+您对对象的“详细信息”视图所做的更改还决定了用户在以下区域看到的字段的可用性和顺序：
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* “创建对象”框，如“创建任务”
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* “编辑对象”屏幕，如“编辑任务”、“编辑问题”和“编辑项目”
+* 编辑对象时显示“编辑对象”屏幕，例如“编辑任务”、“编辑问题”和“编辑项目”
 
   ![](assets/edit-task-screen.png)
 
@@ -58,13 +57,13 @@ or billing record
 
   >[!NOTE]
   >
-  >对布局模板所做的更改只会影响分配给登录用户的任务和问题的“摘要”面板中字段的顺序和可用性。
+  >对布局模板所做的更改只会影响分配给登录用户的任务和问题在“摘要”面板中字段的顺序和可用性。
 
 * “转化”框，如“将问题转化为任务”或“将问题转化为项目”框。
 
   ![将问题转换为任务框](assets/convert-issue-to-task-box.png)
 
-有关组的布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## 访问要求
 
@@ -76,7 +75,7 @@ or billing record
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -93,7 +92,7 @@ or billing record
 ## 自定义用户在详细信息视图中看到的内容
 
 1. 开始使用布局模板，如中所述 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 单击向下箭头 ![](assets/dropdown-arrow-12x12.png) 下 **自定义用户看到的内容**，然后单击 **项目**， **任务**， **问题**， **项目**，或 **Portfolio。**
+1. 单击向下箭头 ![](assets/dropdown-arrow-12x12.png) 下 **自定义用户查看内容**，然后单击 **项目**， **任务**， **问题**， **项目**，或 **Portfolio。**
 <!--
 , or billing record
 -->
@@ -101,7 +100,7 @@ or billing record
 1. 在 **详细信息** 部分，执行以下任一操作可自定义用户在详细信息视图中看到的内容：
 
    * 拖动任意节标题 ![](assets/move-icon---dots.png) 来改变他们的顺序。
-   * 启用或禁用下的选项 **概述** 和 **自定义Forms** 来显示或隐藏它们。
+   * 启用或禁用下的选项 **概述** 和 **自定义Forms** 显示或隐藏它们。
 
      如果隐藏其中一个部分中的所有字段，则会隐藏整个部分。
 
@@ -115,4 +114,4 @@ or billing record
 
    >[!TIP]
    >
-   >您可以随时单击保存以保存进度，然后稍后继续修改模板。
+   >您可以随时单击保存以保存进度，然后继续修改模板。
