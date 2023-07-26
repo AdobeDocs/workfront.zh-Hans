@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 删除自定义表单
 description: 您可以从系统中删除自定义表单。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有哪些计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
 ## 删除自定义表单
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 
 1. 单击 **自定义Forms。**
 1. 选择自定义表单，然后单击 **删除**.
-1. 如果您确定想要永久删除自定义表单及其所附加对象的所有关联数据，请单击 **是，删除它**.
+1. 如果您确定要永久删除自定义表单及其所附加对象的所有关联数据，请单击 **是的，删除它**.

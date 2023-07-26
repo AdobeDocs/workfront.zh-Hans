@@ -2,22 +2,23 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: 的早期功能选择加入 [!DNL Adobe Workfront] 讨论区
-description: 阅读本文章，了解 [!DNL Workfront Boards] 早期功能加入。
+title: 适用于的早期功能加入 [!DNL Adobe Workfront] 讨论区
+description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能加入。
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# 的早期功能选择加入 [!DNL Adobe Workfront] [!UICONTROL 讨论区]
+# 适用于的早期功能加入 [!DNL Adobe Workfront] [!UICONTROL 讨论区]
 
-所有用户都可以使用带有临时信息卡和连接信息卡的展示板，我们很高兴能够从2022年7月开始为早期功能选择加入打开其他展示板功能。
+包含临时信息卡和已连接信息卡的展示板可供所有用户使用，我们很高兴能从2022年7月开始为早期功能选择加入打开其他展示板功能。
 
-[!DNL Adobe Workfront] [!UICONTROL 讨论区] 是灵活的工具，通过为包含列和卡片的共享展示板提供访问权限，允许团队协作。
+[!DNL Adobe Workfront] [!UICONTROL 讨论区] 是一款灵活的工具，通过为包含列和卡片的共享展示板提供访问权限，允许团队进行协作。
 
 有关展示板的一般信息，请参阅 [[!UICONTROL 讨论区] 概述](/help/quicksilver/agile/boards-overview.md).
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 功能
 
-下表概述了主板的主要功能及其当前发行状态。 根据我们收到的信息，您可通过早期功能选择加入访问的功能在完整版本中可能不可用。
+下表概述了电路板的主要功能及其当前发行状态。 根据我们收到的信息，您可通过早期功能选择加入访问的功能在完整版本中可能不可用。
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -65,7 +66,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将[！UICONTROL工作进行中]限制添加到列</td>
+   <td>将[！UICONTROL正在工作]限制添加到列</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -73,7 +74,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将团队添加到讨论区或信息卡</td>
+   <td>将团队添加到展示板或信息卡</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -89,7 +90,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>在展示板上对信息卡进行分组</td>
+   <td>展示板上的组信息卡</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -97,7 +98,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>定义卡片减退</td>
+   <td>定义卡片减少</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -121,7 +122,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将信息卡上的“估计”字段映射到任务上的“故事点”字段</td>
+   <td>将卡片上的估计字段映射到任务上的故事点字段</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -129,7 +130,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>创建开发周期</td>
+   <td>创建迭代</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -173,7 +174,7 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>在摄取列上使用简化的过滤器</td>
+   <td>在引入列上使用简化的过滤器</td>
    <td>已发布</td>
   </tr>
   <tr>
@@ -187,14 +188,14 @@ ht-degree: 0%
 
 ### 可用性
 
-展示板的早期功能适用于所有组织。 参与是完全可选的。
+讨论区的早期功能适用于所有组织。 参与是完全可选的。
 
 ### 选择加入
 
-仅 [!DNL Workfront] 管理员可以选择加入展示板的早期功能。 当 [!DNL Workfront] 管理员启用早期功能，组织中的所有用户都选择启用。
+仅 [!DNL Workfront] 管理员可以选择使用讨论区的早期功能。 当 [!DNL Workfront] 管理员启用早期功能，组织中的所有用户都选择加入。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
-1. 单击 ![早期功能加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能加入])图标。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 ![早期功能加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能加入])。
 1. 单击 **[!UICONTROL 启用]**.
 1. 开始使用展示板的早期功能。
 
@@ -205,9 +206,9 @@ ht-degree: 0%
 
 ## 早期功能选择加入常见问题解答
 
-### 如何知道我的组织是否已选择早期功能？
+### 如何知道我的组织是否已选择使用早期功能？
 
-当 [!DNL Workfront] 管理员已为展示板启用早期功能，您将看到 [!UICONTROL 早期功能加入] 仪表板屏幕顶部的“已启用”按钮。 单击按钮以查看已启用哪些功能。
+当 [!DNL Workfront] 管理员已为展示板启用早期功能，您将看到 [!UICONTROL 早期功能加入] 仪表板屏幕顶部的“启用”按钮。 单击按钮以查看已启用哪些功能。
 
 ### 是否只能为特定用户启用早期功能？
 
@@ -217,12 +218,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这不会阻止用户使用URL访问展示板。 这只会阻止他们看到 [!DNL Boards] 中的选项 [!UICONTROL 主菜单].
+>这不会阻止用户使用URL访问展示板。 它只会阻止用户看到 [!DNL Boards] 中的选项 [!UICONTROL 主菜单].
 
 ### 我加入后是否可以退出早期功能？
 
 仅 [!DNL Workfront] 管理员可以选择不接收早期功能。 如果 [!DNL Workfront] 管理员禁用早期功能，组织中的所有用户都选择退出。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
-1. 单击 ![已启用早期功能选择加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已启用早期功能选择加入])图标。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 ![已启用早期功能加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已启用早期功能加入])。
 1. 单击 **[!UICONTROL 禁用]**.

@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Power BI模块
-description: 除了Adobe Workfront许可证，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 # [!DNL Power BI] 模块
 
-[!DNL Power BI] 是一个应用程序，它允许您可视化数据并向利益相关者展示数据。 它可以获取来自各种来源的数据。
+[!DNL Power BI] 是一个应用程序，它允许您可视化并向利益相关者展示数据。 它可以获取来自各种来源的数据。
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] 不是数据源。 While [!DNL Workfront Fusion] 可以创建和使用数据源，但不会存储您的数据。
+>[!DNL Workfront Fusion] 不是数据源。 同时 [!DNL Workfront Fusion] 可以创建和使用数据源，但不会存储您的数据。
 
 
 ## 访问要求
@@ -52,17 +53,17 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-&#42;&#42;有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## [!DNL Power BI] 模块及其字段
 
@@ -83,8 +84,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
@@ -110,8 +111,8 @@ ht-degree: 0%
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+    <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL输入功能板ID]</td>
@@ -122,7 +123,7 @@ ht-degree: 0%
   <tr>
     <td role="rowheader">[！UICONTROL功能板ID]</td>
     <td>
-      <p>输入或映射包含要列出的图块的仪表板ID。</p>
+      <p>输入或映射包含要列出的图块的仪表板的ID。</p>
     </td>
   </tr>
   <tr>
@@ -147,8 +148,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入功能板ID]</td>
@@ -171,15 +172,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 获取功能板拼贴]
 
-此操作模块检索指定仪表板拼贴的元数据。
+此操作模块可检索指定功能板拼贴的元数据。
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入功能板ID]</td>
@@ -195,26 +196,26 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL拼贴ID]</td>
-      <td>输入或映射 [!DNL Power BI] 您希望为其检索详细信息的拼贴。</td>
+      <td>输入或映射 [!DNL Power BI] 要检索其详细信息的图块。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有要检索的拼贴的组的ID。</td>
+      <td>选择或映射拥有您要检索的拼贴的组的ID。</td>
     </tr>
   </tbody>
 </table>
 
 #### [!UICONTROL 创建功能板]
 
-该操作模块将创建一个新仪表板。
+此操作模块将创建一个新仪表板。
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL名称]</td>
@@ -238,8 +239,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
@@ -256,7 +257,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 获取报告]
+#### [!UICONTROL 获取报表]
 
 此操作模块检索指定报表的元数据。
 
@@ -265,8 +266,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入报表ID]</td>
@@ -282,7 +283,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有要为其检索元数据的报表的组的ID。</td>
+      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
     </tr>
   </tbody>
 </table>
@@ -296,8 +297,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入报表ID]</td>
@@ -331,8 +332,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入报表ID]</td>
@@ -364,17 +365,17 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有要为其检索元数据的报表的组的ID。</td>
+      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
       <td>
-        <p>在每个方案执行周期中，输入或映射您希望模块记录的最大数量[action]。</p>
+        <p>在每个方案执行周期中，输入或映射您希望模块记录的最大数目，即[action]。</p>
       </td>
     </tr>
   </tbody>
@@ -389,8 +390,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入报表ID]</td>
@@ -406,7 +407,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有您要为其检索元数据的数据集的组的ID。</td>
+      <td>选择或映射拥有要为其检索元数据的数据集的组的ID。</td>
     </tr>
   </tbody>
 </table>
@@ -420,8 +421,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL名称]</td>
@@ -437,13 +438,13 @@ ht-degree: 0%
         <p>选择或映射数据集的默认模式：</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL As Azure]</b>：与有实时连接的数据集 [!DNL Azure Analysis Service]</p>
+            <p><b>[！UICONTROL As Azure]</b>：实时连接到的数据集 [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[！UICONTROL As Prem]</b>：与有实时连接的数据集 [!DNL On-premise Analysis] 服务</p>
+            <p><b>[！UICONTROL As On Prem]</b>：实时连接到的数据集 [!DNL On-premise Analysis] 服务</p>
           </li>
           <li>
-            <p><b>[!DNL Push]</b>：允许以编程方式访问以将数据推入的数据集 [!DNL Power BI]</p>
+            <p><b>[!DNL Push]</b>：允许以编程方式访问将数据推入的数据集 [!DNL Power BI]</p>
           </li>
           <li>
             <p><b>[!DNL Push Streaming]</b>：支持数据流式传输并允许以编程方式访问将数据推入的数据集 [!DNL Power BI]</p>
@@ -455,8 +456,8 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL表]</td>
-      <td>向数据集添加表。 有关字段，请参阅 <a href="#Table" class="MCXref_0">表字段</a></td>
+      <td role="rowheader">[！UICONTROL Tables]</td>
+      <td>向数据集添加表。 有关字段，请参阅 <a href="#Table" class="MCXref_0">表格字段</a></td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
@@ -479,7 +480,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-##### 表字段
+##### 表格字段
 
 <table>
   <col/>
@@ -552,7 +553,7 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL服务器]  </td>
+      <td role="rowheader">[！UICONTROL Server]  </td>
       <td>
         <p>输入或映射要使用的服务器的名称。</p>
       </td>
@@ -591,8 +592,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入表]</td>
@@ -632,7 +633,7 @@ ht-degree: 0%
         <p>添加行字段。</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL键]</b>
+            <p><b>[！UICONTROL Key]</b>
             </p>
             <p>输入或映射密钥名称。</p>
           </li>
@@ -674,8 +675,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入数据集]</td>
@@ -696,15 +697,15 @@ ht-degree: 0%
       <td>输入或映射拥有数据集的组的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL通知选项]  </td>
+      <td role="rowheader">[！UICONTROL Notify选项]  </td>
       <td>
         <p>选择或映射要通知的选项：</p>
         <ul>
           <li>
-            <p>[！UICONTROL Mail on Completion]</p>
+            <p>[！UICONTROL Mail On Completion]</p>
           </li>
           <li>
-            <p>[！UICONTROL邮件失败]</p>
+            <p>[！UICONTROL失败时发送邮件]</p>
           </li>
           <li>
             <p>[！UICONTROL无通知]</p>
@@ -724,8 +725,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入报表ID]</td>
@@ -750,15 +751,15 @@ ht-degree: 0%
 
 #### [!UICONTROL Watch应用程序]
 
-此触发器模块会在应用程序更新后启动场景。
+此触发器模块会在应用程序更新时启动方案。
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
@@ -778,8 +779,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
@@ -790,7 +791,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 列表应用程序的报表]
+#### [!UICONTROL 列出应用程序的报表]
 
 此搜索模块从指定的应用程序中检索所有报表的列表。
 
@@ -799,12 +800,12 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL应用程序ID]</td>
-      <td>选择或映射您要从中列出报表的应用程序的ID。</td>
+      <td>选择或映射要从中列出报表的应用程序的ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
@@ -815,7 +816,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 列出应用程序的仪表板]
+#### [!UICONTROL 列出应用程序的控制面板]
 
 此搜索模块从指定的应用程序中检索功能板列表。
 
@@ -824,8 +825,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL应用程序ID]</td>
@@ -849,8 +850,8 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL应用程序ID]  </td>
@@ -863,15 +864,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 获取应用程序的报表]
 
-此操作模块可检索指定应用程序报表的元数据。
+此操作模块检索指定应用程序报表的元数据。
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL应用程序ID]  </td>
@@ -897,13 +898,13 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL应用程序ID]  </td>
       <td>
-        <p>选择或映射包含要检索的功能板的应用程序ID。</p>
+        <p>选择或映射包含要检索的功能板的应用程序的ID。</p>
       </td>
     </tr>
     <tr>
@@ -919,15 +920,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 进行API调用]
 
-此操作模块执行API调用 [!DNL Power BI] API。
+此操作模块对执行API调用 [!DNL Power BI] API。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td> <p>有关连接 [!DNL Power BI] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关连接 [!DNL Power BI] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -946,7 +947,7 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL标头]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以标准JSON对象的形式添加请求的标头。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -960,7 +961,7 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主体]</td>
+      <td role="rowheader">[！UICONTROL Body]</td>
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

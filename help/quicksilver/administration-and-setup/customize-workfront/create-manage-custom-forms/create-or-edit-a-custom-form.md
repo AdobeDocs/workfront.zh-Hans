@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以创建或编辑新的自定义表单。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -44,24 +44,24 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有哪些计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
 ## 开始创建自定义表单
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 单击 **自定义Forms** （在左侧面板中）。
+1. 单击 **自定义Forms** 在左侧面板中。
 
-   在显示的视图中，您可以查看为组织创建的所有自定义表单和自定义字段。 您还可以查看每个表单的创建者以及与其关联的字段。
+   在显示的视图中，您可以查看为您的组织创建的所有自定义表单和自定义字段。 您还可以查看每个表单的创建者以及与其关联的字段。
 
 1. 单击 **新建自定义表单。**
-1. 至少选择一个要与自定义表单关联的对象类型，然后单击 **继续**.
+1. 选择至少一个要与自定义表单关联的对象类型，然后单击 **继续**.
 
    ![](assets/choose-object-type.jpg)
 
-1. 在 **表单设置** 选项卡，键入 **表单标题** 和可选 **描述** 用于自定义表单。
+1. 在 **表单设置** 打开选项卡，键入 **表单标题** 和可选 **描述** 用于自定义表单。
 
-1. （可选）如果要向表单添加更多对象类型，以便将其附加到更多对象，请单击对象类型后面的加号，然后在显示的菜单中选择所需的对象类型。
+1. （可选）如果要向表单中添加更多对象类型，以便将其附加到更多对象，请单击对象类型后面的加号，然后在显示的菜单中选择所需的对象类型。
 
    您可以重复此操作，以添加所需数量的对象类型。您还可以单击对象类型上的X将其从表单中删除。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以单击 **应用** 创建自定义表单时，可随时保存更改并保持表单打开。
+   >您可以单击 **应用** 在创建自定义表单时，可随时保存更改并保持表单打开。
 
 1. 如果要向表单中添加新的自定义字段，请继续 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
@@ -84,23 +84,23 @@ ht-degree: 0%
    * [向自定义表单添加分区界限](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [在自定义表单中重用现有的计算自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [将显示逻辑和跳过逻辑添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [向自定义表单添加显示逻辑和跳过逻辑](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ## 开始编辑自定义表单
 
-您可以在自定义表单创建后随时对其进行编辑。
+您可以在创建自定义表单后随时对其进行编辑。
 
 >[!CAUTION]
 >
 >有关从自定义表单中删除字段而不丢失用户在这些字段中输入的数据的信息，请参阅部分 [删除自定义字段而不丢失用户输入的数据](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) 在文章中 [从系统中删除自定义字段或构件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 >
->通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统来提醒使用自定义表单的用户您所做的更改。
+>通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统来提醒使用自定义表单的人员您的更改。
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 单击 **自定义Forms** （在左侧面板中）。
+1. 单击 **自定义Forms** 在左侧面板中。
 
-   在显示的视图中，您可以查看为您的组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
+   在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
 1. 选择要编辑的自定义表单，然后单击 **编辑**.
 1. （可选）要更改自定义表单的标题和描述，请单击 **表单设置** 选项卡，然后键入 **表单标题** 和 **描述**.
@@ -111,13 +111,13 @@ ht-degree: 0%
 
    您可以重复此操作，以添加所需数量的对象类型。
 
-   也可以单击对象类型上的X将其从表单中删除。 当您要从已保存的自定义表单中删除对象类型时，应谨慎执行此操作。 有关更多信息，请参阅 [删除自定义表单上的对象类型](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   也可以单击对象类型上的X将其从表单中删除。 当您想要从已保存的自定义表单中删除对象类型时，应谨慎执行此操作。 有关更多信息，请参阅 [删除自定义表单上的对象类型](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. 单击 **完成**.
 
    >[!TIP]
    >
-   >您可以单击 **应用** 创建自定义表单时，可随时保存更改并保持表单打开。
+   >您可以单击 **应用** 在创建自定义表单时，可随时保存更改并保持表单打开。
 
 1. 如果要向表单中添加新的自定义字段，请继续 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 或 [在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
@@ -130,4 +130,4 @@ ht-degree: 0%
    * [向自定义表单添加分区界限](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [在自定义表单中重用现有的计算自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [将显示逻辑和跳过逻辑添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [向自定义表单添加显示逻辑和跳过逻辑](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)

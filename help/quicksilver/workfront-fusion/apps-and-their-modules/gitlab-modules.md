@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: GitLab模块
-description: 除了Adobe Workfront许可证，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
+feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '4485'
 ht-degree: 0%
@@ -19,13 +20,13 @@ ht-degree: 0%
 
 # [!UICONTROL GitLab] 模块
 
-除了Adobe Workfront许可证，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!UICONTROL GitLab]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!UICONTROL GitLab]，并将其连接到多个第三方应用程序和服务。
 
 >[!NOTE]
 >
->本文需要对API文档有一定的了解，并且 [!DNL GitLab] 功能概述。
+>本文需要熟悉API文档以及 [!DNL GitLab] 一般功能。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -58,21 +59,21 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connect [!DNL GitLab] 到 [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## 连接 [!DNL GitLab] 到 [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
 
-1. 在任意 [!DNL Workfront Fusion] [!DNL Gitlab] 模块，单击 **[!UICONTROL 添加]** ，位于连接字段旁边。
+1. 在任何 [!DNL Workfront Fusion] [!DNL Gitlab] 模块，单击 **[!UICONTROL 添加]** ，位于连接字段旁边。
 1. 配置以下字段：
 
    <table style="table-layout:auto"> 
@@ -96,11 +97,11 @@ ht-degree: 0%
 
 
 1. 单击 **[!UICONTROL 继续]**.
-1. 单击 **[!UICONTROL 授权]** 以创建连接并返回到模块。
+1. 单击 **[!UICONTROL 授权]** 以创建连接并返回模块。
 
 ## [!DNL GitLab] 模块及其字段
 
-配置时 [!DNL GitLab] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL GitLab] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL GitLab] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL GitLab] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -108,9 +109,9 @@ ht-degree: 0%
 
 ### 触发器
 
-+++**[!UICONTROL 关注内部版本状态]**
++++**[!UICONTROL 监视生成状态]**
 
-当内部版本状态更改时，此即时触发模块会启动场景。
+此即时触发器模块会在内部版本状态更改时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -127,7 +128,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看承诺/MR/问题/代码片段评论]**
 
-此即时触发器模块在对提交、合并请求、问题或代码片段作出评论时启动场景。
+此即时触发器模块在对提交、合并请求、问题或代码片段进行注释时启动场景。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -135,7 +136,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视以征求意见的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
+   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视其注释的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -144,7 +145,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看提交（推送）]**
 
-此即时触发模块会在将提交推送到存储库时启动场景。 推送标记时，此模块不会启动场景。
+此即时触发模块会在将提交推送到存储库时启动方案。 此模块不会在推送标记时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -169,7 +170,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视其问题注释的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
+   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook关注的问题评论</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -178,7 +179,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL Watch问题]**
 
-此 [!UICONTROL 即时触发] 模块在创建问题或更新、关闭或重新打开现有问题时启动方案。
+此 [!UICONTROL 即时触发] 当创建问题或更新、关闭或重新打开现有问题时，模块会启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -193,9 +194,9 @@ ht-degree: 0%
 
 +++
 
-+++**[!UICONTROL 观看合并请求]**
++++**[!UICONTROL 观察合并请求]**
 
-当发生以下情况之一时，此即时触发器模块将启动一个场景：
+出现以下情况之一时，此即时触发模块将启动一个场景：
 
 * 已创建新的合并请求
 * 现有合并请求已更新、合并或关闭
@@ -215,9 +216,9 @@ ht-degree: 0%
 
 +++
 
-+++**[!UICONTROL 观看合并请求注释]**
++++**[!UICONTROL Watch合并请求注释]**
 
-此即时触发器模块在对合并请求作出评论时启动场景。
+此即时触发器模块在对合并请求作出评论时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -225,7 +226,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视合并请求注释的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
+   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>希望webhook监视合并请求注释的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -234,7 +235,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观察管道状态]**
 
-此即时触发模块在管道状态更改时启动场景。
+此即时触发器模块在管道状态更改时启动场景。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -258,12 +259,12 @@ ht-degree: 0%
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>有关连接 [!DNL GitLab] 目标帐户 [!DNL Workfront] Fusion，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] 到 [!DNL Workfront] Fusion</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关连接 [!DNL GitLab] 帐户至 [!DNL Workfront] 融合，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">连接 [!DNL GitLab] 到 [!DNL Workfront] 融合</a> 本文章中。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大结果</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期内监视的最大记录数。</p> </td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期中监视的最大记录数。</p> </td> 
    </tr> 
    </tbody> 
 </table>
@@ -279,12 +280,12 @@ ht-degree: 0%
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>有关连接 [!DNL GitLab] 目标帐户 [!DNL Workfront] Fusion，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] 到 [!DNL Workfront] Fusion</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关连接 [!DNL GitLab] 帐户至 [!DNL Workfront] 融合，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">连接 [!DNL GitLab] 到 [!DNL Workfront] 融合</a> 本文章中。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大结果</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期内监视的最大记录数。</p> </td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期中监视的最大记录数。</p> </td> 
    </tr> 
    </tbody> 
 </table>
@@ -293,7 +294,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 监视存储库标记]**
 
-此即时触发器模块会在存储库中创建或删除标记时启动场景。
+此即时触发器模块会在存储库中创建或删除标记时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -310,7 +311,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看代码片断评论]**
 
-此即时触发器模块在对代码片段进行新注释时启动场景。
+此即时触发器模块在对代码片段进行新注释时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -318,7 +319,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视以征求意见的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
+   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视其注释的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -327,7 +328,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看待办事项]**
 
-此计划触发器模块在添加新任务后启动方案。 未应用筛选器时，触发器将在添加新的待处理任务时运行。
+此计划触发器模块在添加新待办事项后启动方案。 未应用筛选器时，触发器将在添加新的待处理任务时运行。
 
 有关字段的信息，请参阅 [获取待办事项列表](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) 在 [!DNL GitLab] 文档。
 
@@ -335,7 +336,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 观看Wiki页面]**
 
-此即时触发器模块会在创建或编辑Wiki页面时启动场景。
+此即时触发器模块会在创建或编辑Wiki页面时启动方案。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -343,7 +344,7 @@ ht-degree: 0%
    <tbody> 
    <tr> 
    <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望webhook监视Wiki页面的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
+   <td><p>选择要用于此触发器的webhook，或添加新的webhook。 </p><p>要添加新的webhook， <ol><li>单击 <b>[！UICONTROL添加]</b> [！UICONTROL webhook]字段旁边。</li><li>输入以下内容： <ul><li>webhook的名称</li><li>要用于此webhook的连接</li><li>您希望Webhook关注Wiki页面的项目</li></ul></li><li>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -362,19 +363,19 @@ ht-degree: 0%
 
 +++**[!UICONTROL 取消生成]**
 
-此操作模块取消项目的单个内部版本。
+此操作模块会取消项目的单次生成。
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>有关连接 [!DNL GitLab] 目标帐户 [!DNL Workfront] Fusion，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] 到 [!DNL Workfront] Fusion</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关连接 [!DNL GitLab] 帐户至 [!DNL Workfront] 融合，请参见 <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">连接 [!DNL GitLab] 到 [!DNL Workfront] 融合</a> 本文章中。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[！UICONTROL项目ID]</td> 
-   <td> <p>选择或映射包含要取消的内部版本的项目。</p> </td> 
+   <td> <p>选择或映射包含要取消的生成的项目。</p> </td> 
    </tr> 
    <tr> 
    <td role="rowheader">[！UICONTROL内部版本ID]</td> 
@@ -387,10 +388,10 @@ ht-degree: 0%
    </tr> 
    <tr> 
    <td role="rowheader">[！UICONTROL应删除源分支]</td> 
-   <td>选择合并完成后是否要删除源分支。</td> 
+   <td>选择合并完成时是否要删除源分支。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">生成成功时进行[！UICONTROL合并]</td> 
+   <td role="rowheader">构建成功时进行[！UICONTROL合并]</td> 
    <td>选择是否在构建完成后立即合并合并合并请求。</td> 
    </tr> 
    <tr> 
@@ -404,31 +405,31 @@ ht-degree: 0%
 
 +++**[!UICONTROL 取消管道的生成]**
 
-此操作模块取消单个管道的构建。
+此操作模块会取消单个管道的构建。
 
-有关字段的信息，请参阅 [取消管道的作业](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [取消管道作业](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) 在 [!DNL GitLab] 文档。
 
 +++
 
 +++**[!UICONTROL 管道成功时取消合并]**
 
-如果某个合并请求设置为在管道成功时合并，则此操作模块将取消该操作。
+如果合并请求设置为在管道成功时合并，则此操作模块将取消该操作。
 
 有关字段的信息，请参阅 [管道成功时取消合并](https://docs.gitlab.com/ee/api/merge_requests.html) 在 [!DNL GitLab] 文档。
 
 +++
 
-+++**[!UICONTROL Cherry选择承诺]**
++++**[!UICONTROL 樱桃选择承诺]**
 
-此操作模块樱桃挑选对给定分支的提交。
+此操作模块樱桃选择提交到给定分支。
 
-有关字段的信息，请参阅 [Cherry选择承诺](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [樱桃选择承诺](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) 在 [!DNL GitLab] 文档。
 
 +++
 
 +++**[!UICONTROL 创建新标签]**
 
-此操作模块为给定的存储库创建新标签。
+此操作模块为给定存储库创建新标签。
 
 有关字段的信息，请参阅 [创建新标签](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) 在 [!DNL GitLab] 文档。
 
@@ -444,7 +445,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 创建新版本]**
 
-此操作模块将发行说明添加到现有的Git标记中。
+此操作模块将发行说明添加到现有的Git标记。
 
 有关字段的信息，请参阅 [创建版本](https://docs.gitlab.com/ee/api/releases/#create-a-release) 在 [!DNL GitLab] 文档。
 
@@ -460,13 +461,13 @@ ht-degree: 0%
 
 +++**[!UICONTROL 创建任务]**
 
-此操作模块为当前用户在选定问题上创建一个任务。 当前用户是由用于此模块的连接上的凭据标识的用户。
+此操作模块为选定问题的当前用户创建一个任务。 当前用户是由用于此模块的连接上的凭据标识的用户。
 
 有关字段的信息，请参阅 [创建待办事项](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) 在 [!DNL GitLab] 文档。
 
 +++
 
-+++**[!UICONTROL 在合并请求上创建任务]**
++++**[!UICONTROL 对合并请求创建任务]**
 
 此操作模块为所选合并请求上的当前用户创建一个任务。 当前用户是由用于此模块的连接上的凭据标识的用户。
 
@@ -484,7 +485,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 在存储库中创建新文件]**
 
-此操作模块在选定的存储库中创建新文件。
+此操作模块在选定存储库中创建新文件。
 
 有关字段的信息，请参阅 [在存储库中创建新文件](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) 在 [!DNL GitLab] 文档。
 
@@ -516,7 +517,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 创建新的代码片段注释]**
 
-此操作模块为单个代码片段创建新注释。 代码片段注释是用户可以在代码片段中发布的注释。
+此操作模块为单个代码片段创建新注释。 代码片段注释是用户可以在代码片段中发布的评论。
 
 有关字段的信息，请参阅 [创建新的代码片段注释](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) 在 [!DNL GitLab] 文档。
 
@@ -524,7 +525,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 创建存储库分支]**
 
-此操作模块创建一个存储库分支。
+此操作模块会创建一个存储库分支。
 
 有关字段的信息，请参阅 [创建存储库分支](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) 在 [!DNL GitLab] 文档。
 
@@ -540,7 +541,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 删除合并请求]**
 
-此操作模块仅适用于管理员和项目所有者。 它删除有问题的合并请求
+此操作模块仅适用于管理员和项目所有者。 它会删除有问题的合并请求
 
 有关字段的信息，请参阅 [删除合并请求](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) 在 [!DNL GitLab] 文档。
 
@@ -564,14 +565,14 @@ ht-degree: 0%
 
 +++**[!UICONTROL 编辑问题]**
 
-此操作模块更新现有项目问题。 此调用还用于将问题标记为已关闭。
+此操作模块可更新现有项目问题。 此调用还用于将问题标记为已关闭。
 
 有关字段的信息，请参阅 [编辑问题](https://docs.gitlab.com/ee/api/issues.html#edit-issue) 在 [!DNL GitLab] 文档。
 
 +++
 
 +++**[!UICONTROL 编辑里程碑]**
-此操作模块更新现有项目里程碑。
+此操作模块可更新现有项目里程碑。
 
 有关字段的信息，请参阅 [编辑里程碑](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) 在 [!DNL GitLab] 文档。
 
@@ -579,15 +580,15 @@ ht-degree: 0%
 
 +++**[!UICONTROL 擦除内部版本]**
 
-此操作模块清除项目的内部版本（删除作业工件和作业日志）。
+此操作模块会清除项目的生成（删除作业工件和作业日志）。
 
-有关字段的信息，请参阅 [清除作业](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [擦除作业](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) 在 [!DNL GitLab] 文档。
 
 +++
 
 +++**[!UICONTROL 获取待办事项列表]**
 
-此搜索模块检索待办事项的列表。
+此搜索模块检索待办事项列表。
 
 有关字段的信息，请参阅 [获取待办事项列表](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) 在 [!DNL GitLab] 文档。
 
@@ -597,7 +598,7 @@ ht-degree: 0%
 
 此操作模块可检索项目的单个作业。
 
-有关字段的信息，请参阅 [获得单个作业](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [获取单个作业](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) 在 [!DNL GitLab] 文档。
 
 +++
 
@@ -650,8 +651,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>要创建新连接，请参阅 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>要创建新连接，请参见 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL项目]</td> 
@@ -659,7 +660,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL问题ID]</td> 
-   <td> <p>输入或映射要检索其详细信息的问题名称。</p> </td> 
+   <td> <p>输入或映射您要检索其详细信息的问题的名称。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -674,11 +675,11 @@ ht-degree: 0%
 
 +++
 
-+++**[!UICONTROL 获取单合并请求]**
++++**[!UICONTROL 获取单一合并请求]**
 
 此操作模块可检索有关单个合并请求的信息。
 
-有关字段的信息，请参阅 [获取单合并请求](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [获取单一合并请求](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) 在 [!DNL GitLab] 文档。
 
 +++
 
@@ -692,7 +693,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 获取单合并请求提交]**
 
-此操作模块可检索合并请求提交的列表。
+此操作模块检索合并请求提交的列表。
 
 有关字段的信息，请参阅 [获取单合并请求提交](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) 在 [!DNL GitLab] 文档。
 
@@ -764,7 +765,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出所有合并请求注释]**
 
-此搜索模块可检索单个合并请求的所有注释的列表。
+此搜索模块检索单个合并请求的所有注释列表。
 
 有关字段的信息，请参阅 [列出所有合并请求注释](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) 在 [!DNL GitLab] 文档。
 
@@ -772,7 +773,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出所有代码片段注释]**
 
-此模块获取单个代码片段的所有注释的列表。 代码片段注释是用户可以在代码片段中发布的注释。
+此模块获取单个代码片段的所有注释列表。 代码片段注释是用户可以在代码片段中发布的评论。
 
 有关字段的信息，请参阅 [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) 在 [!DNL GitLab] 文档。
 
@@ -780,15 +781,15 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出提交内部版本]**
 
-此搜索模块返回项目中特定提交的内部版本列表。
+此搜索模块会返回项目中特定提交的内部版本列表。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>要创建新连接，请参阅 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>要创建新连接，请参见 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL项目ID]</td> 
@@ -805,7 +806,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出问题]**
 
-此搜索模块按指定的筛选条件设置返回所有问题。
+此搜索模块按指定的过滤器设置返回所有问题。
 
 有关字段的信息，请参阅 [列出问题](https://docs.gitlab.com/ee/api/issues.html#list-issues) 在 [!DNL GitLab] 文档。
 
@@ -837,7 +838,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出拥有的项目]**
 
-此搜索模块可检索其中已将经过身份验证的用户设置为所有者的项目。
+此搜索模块可检索其已验证用户设置为所有者的项目。
 
 有关字段的信息，请参阅 [列出用户项目](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) 在 [!DNL GitLab] 文档。
 
@@ -909,7 +910,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 列出项目]**
 
-此搜索模块可检索经过身份验证的用户是其成员的所有项目。
+此搜索模块可检索经过身份验证的用户所属的所有项目。
 
 有关字段的信息，请参阅 [列出所有项目](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) 在 [!DNL GitLab] 文档。
 
@@ -949,7 +950,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 将待办事项标记为完成]**
 
-此操作模块将当前用户的ID给定的单个待办事项标记为完成。
+此操作模块将当前用户由其ID给定的单个待办事项标记为完成。
 
 有关字段的信息，请参阅 [将待办事项标记为完成](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) 在 [!DNL GitLab] 文档。
 
@@ -981,7 +982,7 @@ ht-degree: 0%
 
 +++**[!UICONTROL 新建问题]**
 
-此操作模块会创建一个新的项目问题。
+此操作模块将创建新的项目问题。
 
 有关字段的信息，请参阅 [新建问题](https://www.integromat.com/en/help/app/gitlab) 在 [!DNL GitLab] 文档。
 
@@ -989,23 +990,23 @@ ht-degree: 0%
 
 +++**[!UICONTROL 播放内部版本]**
 
-此操作模块触发手动操作以启动作业。
+此操作模块会触发启动作业的手动操作。
 
 有关字段的信息，请参阅 [播放作业](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) 在 [!DNL GitLab] 文档。
 
 +++
 
-+++**[!UICONTROL 发布要提交的注释]**
++++**[!UICONTROL 发布评论以提交]**
 
 此操作模块向提交添加注释。
 
-有关字段的信息，请参阅 [发布要提交的注释](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) 在 [!DNL GitLab] 文档。
+有关字段的信息，请参阅 [发布评论以提交](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) 在 [!DNL GitLab] 文档。
 
 +++
 
 +++**[!UICONTROL 删除变量]**
 
-此操作模块删除项目的变量。
+此操作模块可删除项目的变量。
 
 有关字段的信息，请参阅 [删除变量](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) 在 [!DNL GitLab] 文档。
 
@@ -1013,19 +1014,19 @@ ht-degree: 0%
 
 +++**[!UICONTROL 重试生成]**
 
-此操作模块重试提交中的单个生成。
+此操作模块在提交中重试单个生成。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>要创建新连接，请参阅 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>要创建新连接，请参见 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect [!DNL GitLab] 至Workfront Fusion]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL项目ID]</td> 
-   <td> <p>选择包含要重试的内部版本的项目。</p> </td> 
+   <td> <p>选择包含要重试的生成的项目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL内部版本ID]</td> 

@@ -3,12 +3,12 @@ title: 转换对象时传输自定义表单数据
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 当工作项中定义的工作变得过大时，您可以将其转换为较大的工作项。
+description: 当在工作项中定义的工作变得过大时，您可以将其转换为较大的工作项。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # 转换对象时传输自定义表单数据
 
-根据贵组织的业务需求，任务或问题中定义的工作可能会变得过大，无法在任务或问题中管理。 在这种情况下，您可以将它们转换为较大的工作项：
+根据组织的业务需求，在任务或问题中定义的工作可能变得太大，无法在任务或问题中管理。 在这种情况下，您可以将它们转换为较大的工作项：
 
-* 您可以将问题转换为任务或项目
+* 您可以将问题转化为任务或项目
 * 您可以将任务转换为项目
 
 要将自定义表单数据从问题传输到任务或项目，您必须按照以下顺序完成本文中的两个任务。
 
-有关更多信息，请参阅 [转换Adobe Workfront中的问题概述](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [转换Adobe Workfront中的问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+有关更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## 访问要求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -49,35 +49,35 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
-## 第一：将其他对象添加到自定义表单
+## 第一：向自定义表单添加其他对象
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
 1. 单击 **自定义Forms**.
-1. 找到所需的表单，然后单击 **编辑**.
-1. 在表单顶部，添加您计划将任务或问题转换为的对象。
+1. 查找所需的表单，然后单击 **编辑**.
+1. 在表单顶部，添加您计划要将任务或问题转换到的对象。
    >[!INFO]
    >
-   >**示例**:如果要将自定义表单数据传输到项目，请选择项目。
+   >**示例**：如果要将自定义表单数据传输到项目，请选择项目。
 
-1. 单击 **应用** 表格底部。
+1. 单击 **应用** 在表单底部。
 
-1. 继续 [第二：转换问题或任务并传输自定义表单数据](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. 继续到 [第二：转换问题或任务并传输自定义表单数据](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## 第二：转换问题或任务并传输自定义表单数据 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 在您要转换的问题或任务的自定义表单中添加其他对象，如一节中所述 [第一：向自定义表单中添加其他对象](#first-add-additonal-objects-to-the-custom-form) 在本文中。
-1. 使用 **自定义Forms** 选项来选择所需的自定义表单。 有关说明，请参阅以下文章：
+1. 将其他对象添加到要转换的问题或任务的自定义表单中，如一节中所述 [第一：向自定义表单添加其他对象](#first-add-additonal-objects-to-the-custom-form) 本文章中。
+1. 使用转换问题或任务 **自定义Forms** 选项，以选择所需的自定义表单。 有关说明，请参阅以下文章：
 
-   * [在Adobe Workfront中将问题转换为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [在Adobe Workfront中将问题转换为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [在Adobe Workfront中将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [将任务转换为项目](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 在 **转换为（对象类型）** 对话框，单击 **添加Forms** 下拉菜单，然后选择您在上一部分中复制的表单。
+1. 在 **转换为（对象类型）** 对话框，单击 **添加Forms** 下拉菜单，然后选择在上一部分中复制的表单。
 
-   现在，在问题的自定义字段中捕获的信息将传输到任务上的自定义表单。
+   现在，在问题的自定义字段中捕获的信息已转移到任务上的自定义表单中。
 
 
 <!--

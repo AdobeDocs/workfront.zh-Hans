@@ -3,10 +3,11 @@ filename: boards-emails
 content-type: reference
 navigation-topic: boards
 title: 讨论区电子邮件通知和首选项
-description: Adobe Workfront展示板会在您将您添加到展示板时以及向您分配信息卡时向您发送电子邮件。
+description: 当您添加到展示板并分配给您卡片时，Adobe Workfront展示板会向您发送电子邮件。
 author: Lisa
+feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 讨论区电子邮件通知和首选项
 
-[!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择要接收的电子邮件。
+[!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择希望接收哪些电子邮件。
 
 ## 访问要求
 
@@ -29,7 +30,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -38,13 +39,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 设置讨论区电子邮件的首选项
 
 {{step1-to-boards}}
 
-1. 单击 [!UICONTROL **首选项**] 在展示板仪表板上。
+1. 单击 [!UICONTROL **偏好设置**] 在展示板仪表板上。
 1. 选择是否要接收添加到展示板并分配给信息卡的电子邮件。
 
    ![讨论区电子邮件首选项](assets/boards-email-preferences.png)

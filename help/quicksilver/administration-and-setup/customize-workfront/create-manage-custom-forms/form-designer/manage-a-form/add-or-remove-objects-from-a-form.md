@@ -1,23 +1,23 @@
 ---
-title: 使用表单设计器在现有自定义表单中添加或删除对象类型
+title: 使用表单设计器从现有自定义表单添加或删除对象类型
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以使用表单设计器在自定义表单中添加或删除对象类型。
+description: 您可以使用表单设计器从自定义表单中添加或删除对象类型。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
+# 使用表单设计器从现有自定义表单添加或删除对象类型
 
-# 使用表单设计器在现有自定义表单中添加或删除对象类型
-
-您可以使用表单设计器在现有自定义表单中添加或删除对象类型。
+您可以使用表单设计器从现有自定义表单中添加或删除对象类型。
 
 ## 访问要求
 
@@ -29,14 +29,14 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
    <p>当前计划：标准</p>
    <p>或</p>
-   <p>旧版计划：计划</p></td> 
+   <p>传统计划：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -45,28 +45,28 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
-## 将对象类型添加到现有的自定义表单
+## 将对象类型添加到现有自定义表单
 
-您可以向表单中添加其他对象类型，以便将其附加到多个对象。
+您可以向表单添加其他对象类型，以便将其附加到多个对象。
 
 >[!NOTE]
 >
->区域划分权限可能会受对象类型的影响。 自定义表单部分中断的“有限编辑”权限仅适用于项目、任务、问题和用户对象类型。
+>分区界限权限可能受对象类型影响。 自定义表单分区界限的“有限编辑”权限仅适用于“项目”、“任务”、“问题”和“用户”对象类型。
 >
->有关更多信息，请参阅 [多种对象类型如何影响节划分权限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>有关更多信息，请参阅 [多个对象类型如何影响分区界限权限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 单击 **自定义Forms** 中。
+1. 单击 **自定义Forms** 在左侧面板中。
 
-   在显示的视图中，您可以查看为贵组织创建的所有自定义表单。 您还可以查看谁创建了每个表单、它与哪种对象类型一起使用，以及它是否处于活动状态。
+   在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
 1. 选择要向其添加其他对象类型的自定义表单，然后单击 **编辑**.
 
-1. 单击表单顶部的加号+之后 **对象类型**，然后在显示的菜单中选择所需的类型。 您可以重复此操作以添加所需数量的对象类型。
+1. 单击表单顶部的加号+之后 **对象类型**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
    ![](assets/add-new-object.png)
 
@@ -74,27 +74,27 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以单击 **应用** 创建自定义表单以保存所做更改并保持表单打开时，随时可以执行此操作。
+   >您可以单击 **应用** 在创建自定义表单时，可随时保存更改并保持表单打开。
 
-## 删除自定义表单中的对象类型
+## 删除自定义表单上的对象类型
 
 您可以从现有自定义表单中删除对象类型。 自定义表单必须至少具有一个对象类型。
 
 >[!CAUTION]
 >
->如果用户已将自定义表单附加到要删除的类型对象并向其添加数据，则当您在表单上删除该对象类型时，该数据将被永久删除。 其中可能包含用户以后需要的历史信息。
+>如果人们已经将自定义表单附加到要删除的类型的对象并向其添加数据，则当您删除表单上的该对象类型时，将会永久删除该数据。 它可能包含用户以后需要的历史信息。
 >
->通常，我们建议最大限度地减少您编辑已在使用的自定义表单的次数。 没有通知系统可提醒使用自定义表单的人员您所做的更改。
+>通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统来提醒使用自定义表单的人员您的更改。
 
 要删除对象类型，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 单击 **自定义Forms** 中。
+1. 单击 **自定义Forms** 在左侧面板中。
 1. 选择要编辑的自定义表单，然后单击 **编辑**.
-1. 单击 **对象类型** 要从表单中删除的内容，然后单击 **删除** 显示的警告消息上。
+1. 单击任意 **对象类型** 要从表单中删除的项目，然后单击 **删除** 在显示的警告消息上。
 
    ![](assets/delete-object-types.png)
 
-1. （可选）对要从表单中删除的任何其他对象类型重复上一步。
+1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
 1. 单击 **完成**，然后单击 **关闭并保存**.

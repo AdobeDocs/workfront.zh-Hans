@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Workday模块
-description: 在Adobe Workfront Fusion场景中，您可以自动执行使用 [!DNL Workday]，并将其连接到多个第三方应用程序和服务。
+description: 在Adobe Workfront Fusion场景中，您可以自动使用 [!DNL Workday]，并将其连接到多个第三方应用程序和服务。
 author: Becky
+feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # [!DNL Workday] 模块
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Workday]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Workday]，并将其连接到多个第三方应用程序和服务。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,17 +52,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
@@ -69,11 +70,11 @@ ht-degree: 1%
 
 * 拥有 [!DNL Workday] 帐户。
 
-* 在中创建OAuth应用程序 [!DNL Workday]. 有关说明，请参阅 [!DNL Workday] 文档。
+* 在中创建OAuth应用程序 [!DNL Workday]. 有关说明，请参见 [!DNL Workday] 文档。
 
-## Connect [!DNL Workday] 到 [!DNL Workfront Fusion]
+## 连接 [!DNL Workday] 到 [!DNL Workfront Fusion]
 
-1. 在任意 [!DNL Workfront Fusion] 模块，单击 [!UICONTROL 添加] 旁边的 [!UICONTROL 连接] 字段
+1. 在任何 [!DNL Workfront Fusion] 模块，单击 [!UICONTROL 添加] 旁边的 [!UICONTROL 连接] 字段
 
 2. 填写以下字段：
 
@@ -93,23 +94,23 @@ ht-degree: 1%
             </tr>
             <tr>
                 <td role="rowheader">[！UICONTROL服务URL]</td>
-                <td>输入您的地址 [!DNL Workday] Web服务，不包含 <code>https://</code>. 例如： <code>mycompany-services.workday.com</code>.</td>
+                <td>输入您的地址 [!DNL Workday] Web服务，不包括 <code>https://</code>. 例如： <code>mycompany-services.workday.com</code>.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[！UICONTROL租户名称]</td>
-                <td>为此输入租户 [!DNL Workday] 帐户。 您的租户是贵组织的标识符，可在用于登录Workday的URL中看到。 示例：在地址中 <code>https://www.myworkday.com/mycompany</code>，租户为 <code>mycompany</code>.</td>
+                <td>输入此的租户 [!DNL Workday] 帐户。 您的租户是贵组织的标识符，可在您用于登录Workday的URL中看到。 示例：在地址中 <code>https://www.myworkday.com/mycompany</code>，租户为 <code>mycompany</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[！UICONTROL客户端ID]</td>
-                <td>输入客户端ID [!DNL Workday] 此连接使用的应用程序。 当您在中创建应用程序时，将获得此项 [!DNL Workday].</td>
+                <td>输入客户端ID [!DNL Workday] 此连接使用的应用程序。 当您在中创建应用程序时，您将获得此项 [!DNL Workday].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[！UICONTROL客户端密钥]</td>
-                <td>输入客户端密钥 [!DNL Workday] 此连接使用的应用程序。 当您在中创建应用程序时，将获得此项 [!DNL Workday].</td>
+                <td>输入客户端密钥 [!DNL Workday] 此连接使用的应用程序。 当您在中创建应用程序时，您将获得此项 [!DNL Workday].</td>
             </tr>
             <tr>
                 <td role="rowheader">[！UICONTROL会话超时（分钟）]</td>
-                <td >输入您的授权令牌过期的分钟数。</td>
+                <td >输入授权令牌过期的分钟数。</td>
             </tr>
         </tbody>
     </table>
@@ -119,7 +120,7 @@ ht-degree: 1%
 
 ## [!DNL Workday] 模块及其字段
 
-配置时 [!DNL Workday] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Workday] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Workday] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Workday] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -150,8 +151,8 @@ ht-degree: 1%
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">[！UICONTROL连接]</td>
-            <td>有关连接 [!DNL Workday] Workfront Fusion的帐户，请参阅 <a href="#Connect" class="MCXref xre[!DNL ]f" >Connect [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>有关连接 [!DNL Workday] Workfront Fusion帐户，请参阅 <a href="#Connect" class="MCXref xre[!DNL ]f" >连接 [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[！UICONTROL记录类型]</td>
@@ -179,8 +180,8 @@ ht-degree: 1%
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">[！UICONTROL连接]</td>
-            <td>有关连接 [!DNL Workday] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xre[!DNL ]f" >Connect [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>有关连接 [!DNL Workday] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xre[!DNL ]f" >连接 [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[！UICONTROL记录类型]</td>
@@ -204,11 +205,11 @@ ht-degree: 1%
 
 ### [!UICONTROL 进行自定义API调用]
 
-通过此操作模块，您可以对 [!DNL Workday] API。 这样，您就可以创建一个其他人无法实现的数据流自动化 [!DNL Workday] 模块。
+通过此操作模块，您可以对 [!DNL Workday] API。 这样，您就可以创建另一个无法实现的数据流自动化 [!DNL Workday] 模块。
 
 配置此模块时，会显示以下字段。
 
-模块会返回状态代码，以及API调用的标头和正文。
+模块返回a状态代码，以及API调用的标头和正文。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -216,7 +217,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>有关连接 [!DNL Workday] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xre[!DNL ]f" >Connect [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
+            <td>有关连接 [!DNL Workday] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xre[!DNL ]f" >连接 [!DNL Workday] 到 [!DNL Workfront Fusion]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
@@ -227,7 +228,7 @@ ht-degree: 1%
    <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -235,7 +236,7 @@ ht-degree: 1%
    <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -253,8 +254,8 @@ ht-degree: 1%
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">[！UICONTROL连接]</td>
-            <td>有关连接 [!DNL Workday] Workfront Fusion的帐户，请参阅 <a href="#Connect" class="MCXref xref" >[！UICONTROL Connect [!DNL Workday] 至Workfront Fusion]</a></td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>有关连接 [!DNL Workday] Workfront Fusion帐户，请参阅 <a href="#Connect" class="MCXref xref" >[！UICONTROL Connect [!DNL Workday] 至Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">记录类型</td>
@@ -280,7 +281,7 @@ ht-degree: 1%
 
 #### [!UICONTROL 读取记录]
 
-该操作模块读取单个记录。
+此操作模块读取单个记录。
 
 <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -289,8 +290,8 @@ ht-degree: 1%
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">[！UICONTROL连接]</td>
-            <td>有关连接 [!DNL Workday] Workfront Fusion的帐户，请参阅 <a href="#Connect" class="MCXref xref" >[！UICONTROL Connect [!DNL Workday] 至Workfront Fusion]</a></td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>有关连接 [!DNL Workday] Workfront Fusion帐户，请参阅 <a href="#Connect" class="MCXref xref" >[！UICONTROL Connect [!DNL Workday] 至Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">[！UICONTROL记录类型]</td>
@@ -316,8 +317,8 @@ ht-degree: 1%
       <col/>
       <tbody>
           <tr>
-              <td role="rowheader">[！UICONTROL连接]</td>
-              <td>有关连接 [!DNL Workday] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xref" >Connect [!DNL Workday] 到 [!DNL Workfront Fusion]</a></td>
+              <td role="rowheader">[！UICONTROL Connection]</td>
+              <td>有关连接 [!DNL Workday] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#Connect" class="MCXref xref" >连接 [!DNL Workday] 到 [!DNL Workfront Fusion]</a></td>
           </tr>
           <tr>
               <td  role="rowheader">[！UICONTROL记录类型]</td>

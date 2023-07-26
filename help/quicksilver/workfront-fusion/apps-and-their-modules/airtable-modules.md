@@ -5,25 +5,26 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
-title: 可放气模块
-description: Adobe Workfront Fusion除了需要Adobe Workfront许可证之外，还需要Adobe Workfront Fusion许可证。
+title: 可飞行模块
+description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
 
 ---
 
-# 可放气模块
+# 可飞行模块
 
 
-使用 [!DNL Airtable] 连接器 [!DNL Adobe Workfront Fusion]，则可以根据 [!DNL Airtable] 帐户、创建、上传和更新记录、搜索记录，以及对Airtable API进行自定义API调用。
+使用 [!DNL Airtable] 连接器 [!DNL Adobe Workfront Fusion]，您可以根据中的事件启动方案 [!DNL Airtable] 帐户，创建、上传和更新记录、搜索记录，以及对Airtable API进行自定义API调用。
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中的功能：
+您必须具有以下权限才能使用本文中的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,26 +32,26 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td>
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] （用于工作自动化和集成） </p> </td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>贵组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
@@ -67,12 +68,12 @@ ht-degree: 2%
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. 打开Workfront Fusion和 **创建连接** 对话框。
+1. 打开Workfront Fusion和 **创建连接** 所需模块的对话框。
 1. 输入连接的名称。
-1. （可选）单击显示高级设置，然后输入可放置的客户端ID和客户端密钥。
-1. 单击 **继续** 按钮以创建连接并返回到模块。
+1. （可选）单击显示高级设置，然后输入您的可传输客户端ID和客户端密钥。
+1. 单击 **继续** 按钮以创建连接并返回模块。
 
-## 可飞行模块及其字段
+## 可飞行模块及其领域
 
 ### 记录
 
@@ -81,20 +82,20 @@ ht-degree: 2%
 * [获取记录](#get-a-record)
 * [搜索记录](#search-records)
 * [更新记录](#update-a-record)
-* [更新记录](#upsert-a-record)
-* [监视记录](#watch-records)
-* [监视响应](#watch-responses)
+* [更新插入记录](#upsert-a-record)
+* [观看记录](#watch-records)
+* [Watch响应](#watch-responses)
 * [进行API调用](#make-an-api-call)
 
 #### 创建记录 {#create-a-record}
 
-此操作模块会创建新记录。
+此操作模块创建新记录。
 
-您可以指定要在记录中保存的数据以及要将其存储的位置。
+您可以指定要在记录中存储的数据以及存储位置。
 
-模块会返回与记录关联的任何标准字段，以及连接所访问的任何自定义字段和值。 您可以在方案的后续模块中映射此信息。
+该模块会返回与记录关联的任何标准字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,11 +103,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择新记录所属的基础。</p> </td> 
+   <td> <p>选择新记录将属于的基底。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
@@ -141,20 +142,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>智能链接</td> 
-   <td> <p>启用此选项，可在链接到其他表的字段中输入名称，而不是记录ID。 如果没有匹配项，则在链接的表中自动创建记录。</p> </td> 
+   <td> <p>启用此选项可输入名称，而不是将记录ID输入到链接到另一个表的字段。 如果没有匹配项，则会在链接表中自动创建记录。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### 删除记录 {#delete-a-record}
 
-此操作模块会删除特定记录。
+此操作模块删除特定记录。
 
 您可以指定记录的ID和位置。
 
-模块会返回记录的ID和任何关联字段，以及连接所访问的任何自定义字段和值。 您可以在方案的后续模块中映射此信息。
+该模块返回记录ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,26 +163,26 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择包含要删除的记录的基。</p> </td> 
+   <td> <p>选择包含要删除的记录的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
    <td> <p>选择包含要删除的记录的表。</p> </td> 
   </tr> 
   <tr> 
-   <td>记录ID</td> 
-   <td> <p>输入或映射您希望删除模块的记录的唯一可播放ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
+   <td>记录Id</td> 
+   <td> <p>输入或映射您希望模块删除的记录的唯一可通风性ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### 获取记录 {#get-a-record}
 
-此操作模块检索记录详细信息。
+此操作模块可检索记录详细信息。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,19 +190,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择包含要检索记录的表的基。</p> </td> 
+   <td> <p>选择包含带有要检索的记录的表的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表</td> 
    <td> <p> 选择包含要检索其详细信息的记录的表。</p> </td> 
   </tr> 
   <tr> 
-   <td>记录ID</td> 
-   <td> <p> 输入或映射要检索详细信息的记录的ID。</p> </td> 
+   <td>记录Id</td> 
+   <td> <p> 输入或映射要检索其详细信息的记录ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -210,9 +211,9 @@ ht-degree: 2%
 
 此搜索模块在Airtable中查找与您指定的搜索查询匹配的对象中的记录。
 
-您可以在方案的后续模块中映射此信息。
+您可以在场景的后续模块中映射此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -220,11 +221,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择要搜索记录的基数。</p> </td> 
+   <td> <p>选择要搜索记录的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
@@ -232,11 +233,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用于筛选记录的公式。 将为每个记录计算公式，如果结果不是 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则只返回该视图中满足公式的记录。</p> <p>例如，要仅包含名称不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请在Airtable支持文档中搜索有关公式字段引用的信息。</p> </td> 
+   <td> <p>用于筛选记录的公式。 系统会为每个记录计算公式，如果结果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请在Airtable支持文档中搜索有关公式字段引用的信息。</p> </td> 
   </tr> 
   <tr> 
    <td>排序 </td> 
-   <td> <p>选择排序方向和要按排序结果的字段。</p> </td> 
+   <td> <p>选择排序方向和要作为结果排序依据的字段。</p> </td> 
   </tr> 
   <tr> 
    <td>查看 </td> 
@@ -244,7 +245,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>限制</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期期间返回的最大记录数。</p> </td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,11 +254,11 @@ ht-degree: 2%
 
 此操作模块更新特定记录。
 
-您指定记录的ID以及您希望它包含的新数据。
+您可以指定记录的ID以及要包含的新数据。
 
-模块会返回与记录关联的任何标准字段，以及连接所访问的任何自定义字段和值。 您可以在方案的后续模块中映射此信息。
+该模块会返回与记录关联的任何标准字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -265,19 +266,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择包含要更新的记录的基。</p> </td> 
+   <td> <p>选择包含要更新的记录的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
    <td> <p>选择包含要更新的记录的表。</p> </td> 
   </tr> 
   <tr> 
-   <td>记录ID </td> 
-   <td> <p>输入或映射您希望更新模块的记录的唯一可播放ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
+   <td>记录Id </td> 
+   <td> <p>输入或映射您希望模块更新的记录的唯一Airtable ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>记录</p> </td> 
@@ -308,20 +309,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>智能链接</td> 
-   <td> <p>在链接到其他表的字段中输入名称，而不是记录ID。 如果没有匹配项，则在链接的表中自动创建记录。</p> </td> 
+   <td> <p>输入链接到其他表的字段的名称，而不是记录ID。 如果没有匹配项，则会在链接表中自动创建记录。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 更新记录
+#### 更新插入记录
 
 此操作模块更新或插入特定记录。
 
-您指定记录的ID以及您希望它包含的新数据。
+您可以指定记录的ID以及要包含的新数据。
 
-模块会返回与记录关联的任何标准字段，以及连接所访问的任何自定义字段和值。 您可以在方案的后续模块中映射此信息。
+该模块会返回与记录关联的任何标准字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -329,19 +330,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择包含要更新的记录的基。</p> </td> 
+   <td> <p>选择包含要更新的记录的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
    <td> <p>选择包含要更新的记录的表。</p> </td> 
   </tr> 
   <tr> 
-   <td>记录ID </td> 
-   <td> <p>如果要更新记录，请输入或映射希望模块更新的记录的唯一可播放ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
+   <td>记录Id </td> 
+   <td> <p>如果要更新记录，请输入或映射要模块更新的记录的唯一Airtable ID。 例如，您可以使用搜索记录模块检索ID。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>记录</p> </td> 
@@ -372,14 +373,14 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>智能链接</td> 
-   <td> <p>在链接到其他表的字段中输入名称，而不是记录ID。 如果没有匹配项，则在链接的表中自动创建记录。</p> </td> 
+   <td> <p>输入链接到其他表的字段的名称，而不是记录ID。 如果没有匹配项，则会在链接表中自动创建记录。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 监视记录 {#watch-records}
+#### 观看记录 {#watch-records}
 
-当在指定的表中创建或更新记录时，此触发器模块会启动一个方案。
+在指定表中创建或更新记录时，此触发器模块会启动一个方案。
 
 >[!NOTE]
 >
@@ -391,11 +392,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
-   <td> <p>选择要监视新记录的基数。</p> </td> 
+   <td> <p>选择要监视新记录的基础。</p> </td> 
   </tr> 
   <tr> 
    <td>表 </td> 
@@ -403,7 +404,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>触发器配置</p> </td> 
-   <td> <p>触发器字段</p> <p>A <code>Created Time</code> 或 <code>Last Modified Time</code> 用于对记录进行排序的字段。 如果您没有 <code>Created Time</code> 或 <code>Last Modified Time</code> 字段，则需要创建一个。 </p> <p>标签字段</p> <p>用作记录标签的字段，例如，在“选择开始位置”对话框中。</p> </td> 
+   <td> <p>触发器字段</p> <p>A <code>Created Time</code> 或 <code>Last Modified Time</code> 用于对记录进行排序的字段。 如果您没有 <code>Created Time</code> 或 <code>Last Modified Time</code> 字段中，您需要创建一个。 </p> <p>标签字段</p> <p>用作记录标签的字段，例如，在“选择开始位置”对话框中。</p> </td> 
   </tr> 
   <tr> 
    <td>限制</td> 
@@ -415,36 +416,36 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用于筛选记录的公式。 将为每个记录计算公式，如果结果不是 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则只返回该视图中满足公式的记录。</p> <p>例如，要仅包含名称不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请参阅Airtable支持文档中有关公式字段引用的信息。</p> </td> 
+   <td> <p>用于筛选记录的公式。 系统会为每个记录计算公式，如果结果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请参阅Airtable支持文档中有关公式字段引用的信息。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 监视响应
+#### Watch响应
 
-此触发器模块会在提交表单时启动一个方案。
+此触发器模块在提交表单时启动方案。
 
 >[!NOTE]
 >
->此功能仅适用于付费的Airtable Pro计划。
+>此功能仅适用于付费的Airtable Pro Plan。
 
-需要在Workfront Fusion中生成Webhook URL，然后将其添加到Airtable中的表单配置。
+webhook URL需要在Workfront Fusion中生成，然后添加到Airtable中的表单配置中。
 
-1. 将Watch新响应模块添加到您的Workfront Fusion方案中。
-1. 生成并复制Webhook URL。
+1. 将Watch New Responses模块添加到您的Workfront Fusion方案。
+1. 生成并复制webhook URL。
 
    有关说明，请参阅 [Adobe Workfront Fusion中的即时触发器(Webhook)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
-1. 登录到Airtable帐户。
-1. 打开要用于表单的基本和表，然后创建表单视图。
-1. 根据需要设置表单，向下滚动表单，并启用在表单提交后重定向到URL选项。
-1. 在显示的对话框中输入步骤2中生成的Webhook URL，并在Webhook URL之后添加？record_id={record_id}以在模块的输出中包含记录ID，然后单击“保存”。 例如，生成的URL将如下所示：
-1. 返回到您的Workfront Fusion方案并运行“监视响应”模块，以便仅从Airtable加载字段，并能够将这些字段映射到其他模块。
-1. 在表格中提交表单，其中启用了提交表单后重定向到URL选项并添加了Webhook URL（上面的步骤6）。
+1. 登录到您的Airtable帐户。
+1. 打开要用于表单的“基础”和表，并创建“表单”视图。
+1. 根据需要设置表单，向下滚动表单，然后启用“提交表单后重定向到URL”选项。
+1. 将步骤2中生成的Webhook URL输入到显示的对话框中，并添加？record_id={record_id} 紧接在webhook URL后面以将“记录ID”包含在模块输出中，然后单击“保存”。 例如，生成的URL将如下所示：
+1. 返回到Workfront Fusion场景并运行观察响应模块，以仅从Airtable加载字段并能够将这些字段映射到其他模块。
+1. 在Airtable中提交表单，其中启用了提交表单后重定向到URL选项并添加了Webhook URL（上述步骤6）。
 
-   触发“监视响应”模块并加载所需数据。
+   触发Watch Responses模块并加载所需数据。
 
-1. 紧跟“可播放”>“监视响应”模块添加“可播放”>“获取记录”模块，并将record_id映射到“记录ID”字段。
+1. 在Airtable > Watch Responses模块之后添加Airtable > Get a Record模块，并将record_id映射到记录ID字段。
 
 现在，每次提交表单时，都会触发Workfront Fusion场景中的“监视响应”模块，并且“获取记录”模块会返回提交的表单详细信息。
 
@@ -452,11 +453,11 @@ ht-degree: 2%
 
 #### 自定义API调用
 
-通过此操作模块，您可以对 [!DNL Airtable] API。 这样，您就可以创建数据流自动化，而另一个数据流无法实现 [!DNL Airtable] 模块。
+通过此操作模块，您可以对 [!DNL Airtable] API。 这样，您就可以创建另一个无法实现的数据流自动化 [!DNL Airtable] 模块。
 
-该操作基于您指定的实体类型（Allocida对象类型）。
+该操作基于您指定的图元类型（Allocadia对象类型）。
 
-配置此模块时，将显示以下字段。
+配置此模块时，会显示以下字段。
 
 <table style="table-layout:auto">
  <col> 
@@ -464,11 +465,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>连接</p> </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 在本文中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>输入相对于 <code>https://api.airtable.com/}</code>. 示例: <code>v0/{base}/{table}</code> </td> 
+   <td>输入相对路径 <code>https://api.airtable.com/}</code>. 示例: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
@@ -480,11 +481,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">查询字符串</td> 
-   <td> <p>以键和值的形式为API调用添加查询</p> </td> 
+   <td> <p>以键和值的形式添加API调用查询</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">正文</td> 
-   <td> <p>以标准JSON对象的形式为API调用添加正文内容。</p> <p>注释:  <p>使用条件语句时，例如 <code>if</code> 在JSON中，将引号放置在条件语句的外部。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

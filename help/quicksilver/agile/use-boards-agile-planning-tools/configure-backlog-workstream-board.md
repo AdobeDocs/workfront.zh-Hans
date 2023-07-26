@@ -3,10 +3,11 @@ filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
 title: 在工作流展示板上配置积压
-description: 您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中提取到展示板积压中的卡定义查询。
+description: 您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中拉入展示板积压的卡定义查询。
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 # 在工作流展示板上配置积压
 
-您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中提取到展示板积压中的卡定义查询。
+您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中拉入展示板积压的卡定义查询。
 
 >[!NOTE]
 >
->如果您在积压工作中添加了一个与查询条件不匹配的新信息卡，该信息卡将在展示板刷新后从积压工作中消失，并且仅在信息卡列表中可用。 您可以随时更改查询以调整哪些信息卡显示在积压工作列中。
+>如果您在积压工作列中添加的新信息卡与查询条件不匹配，则当展示板刷新时，信息卡将从积压工作中消失，并且仅在信息卡列表中可用。 您可以随时更改查询以调整哪些卡片显示在积压工作列中。
 
-积压事项列和查询在独立展示板上不可用。 有关将引入列添加到独立展示板的信息，请参见 [向展示板添加引入列](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+积压事项列和查询在独立展示板上不可用。 有关将引入列添加到独立展示板的信息，请参见 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## 访问要求
 
@@ -35,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -44,7 +45,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 在工作流展示板上配置积压
 
@@ -55,7 +56,7 @@ ht-degree: 0%
 1. 单击 [!UICONTROL **配置**] ，打开“配置”面板。
 1. 打开 [!UICONTROL **在此讨论区中包含积压事项列**].
 
-   积压工作列将添加到展示板的左侧。 在将查询应用于它之前，它保持空白。
+   积压事项列将添加到展示板的左侧。 在将查询应用于它之前，它保持空白。
 
 1. 展开 [!UICONTROL **积压查询**].
 
@@ -63,14 +64,14 @@ ht-degree: 0%
    >
    >默认查询可能已应用于积压，显示卡列表中所有具有状态且状态为“未完成”的工作项。
 
-1. 单击 [!UICONTROL **添加条件**] ，然后单击“空”字段。
+1. 单击 [!UICONTROL **添加条件**] 然后单击“空”字段。
 1. 选择要作为查询依据的字段。
 
    您可以选择的字段是信息卡上的默认字段。
 
 1. 选择查询修改量。
 
-   修饰符选项取决于其可以应用的字段。 例如，“name”字段不将“大于”或“小于”作为修饰符选项，因为这些修饰符仅适用于数字。
+   修饰符选项取决于它们可以应用的字段。 例如，“name”字段不包含“大于”或“小于”作为修饰符选项，因为这些修饰符仅适用于数字。
 
 1. 选择值。
 
@@ -85,4 +86,4 @@ ht-degree: 0%
 1. （可选）单击 [!UICONTROL **创建组**] 添加一组使用OR运算符连接到第一个条件的条件。
 1. 单击 [!UICONTROL **保存查询**].
 
-   此时将应用查询，并且符合条件的信息卡将显示在积压列中。
+   这将应用查询，并且符合条件的卡片将显示在积压列中。

@@ -3,12 +3,12 @@ title: 自定义表单概述
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 您可以构建用户可以附加到Workfront对象的自定义表单。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
+description: 您可以构建自定义表单，以便用户将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 自定义表单概述
 
-您可以构建用户可以附加到Workfront对象的自定义表单。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
+您可以构建自定义表单，以便用户将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 
 例如，用户可以向项目附加以下自定义表单，以便项目上的用户可以请求项目的营销内容：
 
@@ -41,7 +41,7 @@ Workfront为每种对象类型提供了许多内置字段。 在自定义表单�
 
 ## 如何创建自定义表单
 
-可通过两个选项在中创建自定义表单 [!DNL Workfront]. 您可以使用旧版自定义表单生成器或新表单设计器：
+可通过两个选项在中创建自定义表单 [!DNL Workfront]. 您可以使用旧版自定义表单生成器或新的表单设计器：
 
 * [旧版自定义表单生成器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -61,6 +61,6 @@ Workfront为每种对象类型提供了许多内置字段。 在自定义表单�
 * 费用
 * 组
 
-有关说明，请参阅 [将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+有关说明，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-创建自定义表单的用户可以将其配置为使用多种对象类型。
+创建自定义表单的用户可以将其配置为使用多个对象类型。

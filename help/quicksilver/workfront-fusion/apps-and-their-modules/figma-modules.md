@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 图形模块
-description: 使用 [!DNL Adobe Workfront Fusion] 图形模块，您可以检索注释、文件、文件版本或项目的列表。 您还可以发布评论或调用Figma API。
+description: 使用 [!DNL Adobe Workfront Fusion] 图形模块，您可以检索注释、文件、文件版本或项目的列表。 您还可以向Figma API发布评论或进行调用。
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%
@@ -54,26 +55,26 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">产品</td>
       <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
-使用 [!DNL Figma] 模块，您必须具有 [!DNL Figma] 帐户。
+使用 [!DNL Figma] 模块，您必须拥有 [!DNL Figma] 帐户。
 
 ## [!DNL Figma] 模块及其字段
 
-配置时 [!DNL Figma] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Figma] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Figma] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Figma] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -106,8 +107,8 @@ ht-degree: 1%
   <col />
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
       </td>
     </tr>
     <tr>
@@ -115,7 +116,7 @@ ht-degree: 1%
       <td>输入或映射要添加或删除注释的文件的文件ID。 </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL注释]</td>
+      <td role="rowheader">[！UICONTROL Comment]</td>
       <td>输入要删除的注释的文本。</td>
     </tr>
   </tbody>
@@ -130,8 +131,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL文件ID]</td>
@@ -149,7 +150,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
-      <td>输入或映射您希望模块在每个方案执行周期内返回的最大注释数。</td>
+      <td>输入或映射您希望模块在每个方案执行周期中返回的最大注释数。</td>
     </tr>
   </tbody>
 </table>
@@ -157,20 +158,20 @@ ht-degree: 1%
 
 #### [!UICONTROL 发表评论]
 
-该操作模块会将注释发布到Figma文件。
+此操作模块向Figma文件发布评论。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[！UICONTROL文件ID]</td>
       <td>
-        <p>输入或映射要向其发布评论的文件的文件ID。 </p>
+        <p>输入或映射要向其发布注释的文件的文件ID。 </p>
         <ul>
           <li>
             <p>如果您不知道文件的ID，请单击 <b>[！UICONTROL查找文件]</b> 并输入或映射与文件关联的项目的ID，然后选择该文件。</p>
@@ -182,7 +183,7 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL注释]</td>
+      <td role="rowheader">[！UICONTROL Comment]</td>
       <td>输入注释的文本。</td>
     </tr>
   </tbody>
@@ -209,8 +210,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL对象类型]</td>
@@ -220,8 +221,8 @@ ht-degree: 1%
           <li>
             <p><b>[！UICONTROL文件]</b>
             </p>
-            <p>该模块返回由[！UICONTROL Key]引用的文档作为JSON对象。 可以从任何Figma文件URL解析文件密钥。</p>
-            <p>有关字段，请参阅 <a href="#Get2" class="MCXref xref" >[！UICONTROL获取文件或图像：文件]</a>.</p>
+            <p>模块会返回由[！UICONTROL Key]引用的文档作为JSON对象。 可以从任何Figma文件URL解析文件密钥。</p>
+            <p>有关字段，请参阅 <a href="#Get2" class="MCXref xref" >[！UICONTROL获取文件或图像： File]</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL文件节点]</b>
@@ -238,7 +239,7 @@ ht-degree: 1%
           <li>
             <p><b>[！UICONTROL图像填充]</b>
             </p>
-            <p>模块会返回文档中图像填充中存在的所有图像的下载链接。 图像填充是如何 [!DNL Figma] 表示任何用户提供的图像。 将图像拖入时 [!DNL Figma]， [!DNL Figma] 创建一个具有单个填充的矩形，用于表示图像，并且用户能够变换矩形（以及填充上的属性）。</p>
+            <p>模块会返回文档图像填充中存在的所有图像的下载链接。 图像填充就是这样 [!DNL Figma] 表示任何用户提供的图像。 将图像拖入 [!DNL Figma]， [!DNL Figma] 创建一个具有表示图像的单个填充的矩形，并且用户能够转换矩形（和填充上的属性）。</p>
             <p>有关字段，请参阅 <a href="#Get5" class="MCXref xref" >[！UICONTROL获取文件或图像：图像填充]</a>.</p>
           </li>
         </ul>
@@ -255,7 +256,7 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL文件密钥]</td>
+      <td role="rowheader">[！UICONTROL文件键]</td>
       <td>选择要从中返回JSON的文件。</td>
     </tr>
     <tr>
@@ -265,8 +266,8 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[！UICONTROL节点ID]</td>
       <td>
-        <p>要仅返回文档的一个子集，请输入您希望模块返回的节点。 该模块会返回列出的节点、其子节点以及根节点与列出的节点之间的任何内容。</p>
-        <p>对于要返回的每个节点，单击 <b>[！UICONTROL添加]</b> 并输入节点的文本。</p>
+        <p>要仅返回文档的子集，请输入您希望模块返回的节点。 该模块会返回列出的节点、它们的子节点以及根节点与列出的节点之间的任何内容。</p>
+        <p>对于每个要返回的节点，单击 <b>[！UICONTROL添加]</b> 并输入节点的文本。</p>
       </td>
     </tr>
     <tr>
@@ -287,12 +288,12 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL几何]</td>
+      <td role="rowheader">[！UICONTROL Geometry]</td>
       <td>要返回矢量数据，请输入 <code>paths</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL插件数据]</td>
-      <td>插件ID和/或字符串“[！UICONTROL shared]”的逗号分隔列表。 由这些插件编写的文档中存在的任何数据都将包含在的结果中 <code>pluginData</code> 和 <code>sharedPluginData</code> 属性。</td>
+      <td>插件ID和/或字符串“[！UICONTROL shared]”的逗号分隔列表。 由这些插件编写的文档中提供的任何数据都将包含在的结果中， <code>pluginData</code> 和 <code>sharedPluginData</code> 属性。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL分支数据]</td>
@@ -308,14 +309,14 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL文件密钥]</td>
+      <td role="rowheader">[！UICONTROL文件键]</td>
       <td>选择要从中返回JSON的文件。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL节点ID]</td>
       <td>
         <p>输入您希望模块返回并转换的节点</p>
-        <p>对于要返回的每个节点，单击 <b>[！UICONTROL添加]</b> 并输入节点的文本。</p>
+        <p>对于每个要返回的节点，单击 <b>[！UICONTROL添加]</b> 并输入节点的文本。</p>
       </td>
     </tr>
     <tr>
@@ -340,12 +341,12 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL几何]</td>
+      <td role="rowheader">[！UICONTROL Geometry]</td>
       <td>要返回矢量数据，请输入 <code>paths</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL插件数据]</td>
-      <td>插件ID和/或“共享”字符串的逗号分隔列表。 由这些插件编写的文档中存在的任何数据都将包含在pluginData和sharedPluginData属性的结果中。</td>
+      <td>插件ID和/或字符串“shared”的逗号分隔列表。 由这些插件编写的文档中存在的任何数据都将包含在pluginData和sharedPluginData属性的结果中。</td>
     </tr>
   </tbody>
 </table>
@@ -358,7 +359,7 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL文件密钥]</td>
+      <td role="rowheader">[！UICONTROL文件键]</td>
       <td>选择要从中返回JSON的文件。</td>
     </tr>
     <tr>
@@ -398,11 +399,11 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROLSVG — 简化描边]</td>
-      <td>启用此选项可简化内/外笔触，并在可能的情况下使用笔触属性，而不是 &lt;mask&gt;. 默认值：[！UICONTROL true]。</td>
+      <td>启用此选项可简化内/外描边，并在可能的情况下使用描边属性而不是 &lt;mask&gt;. 默认值： [！UICONTROL true]。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL使用绝对边界]</td>
-      <td>启用此选项可使用节点的完整尺寸，而不管节点是否被裁剪或节点周围的空间为空。 使用此项导出文本节点而不进行裁剪。 默认值： [！UICONTROL false]。</td>
+      <td>启用此选项可使用节点的完整尺寸，无论是否裁剪节点或节点周围的空间为空。 使用此项导出文本节点而不进行裁剪。 默认值： [！UICONTROL false]。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL版本ID]</td>
@@ -418,7 +419,7 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL文件密钥]</td>
+      <td role="rowheader">[！UICONTROL文件键]</td>
       <td>选择要从中返回JSON的文件。</td>
     </tr>
   </tbody>
@@ -426,14 +427,14 @@ ht-degree: 1%
 
 ### [!UICONTROL 列出文件版本历史记录]
 
-此搜索模块返回中单个文件的版本历史记录 [!UICONTROL Figma].
+此搜索模块在中返回单个文件的版本历史记录 [!UICONTROL 菲格玛].
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     <tr>
       <td role="rowheader">[！UICONTROL文件ID]</td>
       <td>
@@ -464,8 +465,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL文件ID]</td>
@@ -494,12 +495,12 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL团队ID]</td>
-      <td>输入或映射要为其检索文件的项目的项目ID。 团队ID可在Figma中的团队页面URL中找到</td>
+      <td>输入或映射要检索其文件的项目的项目ID。 团队ID可在Figma中的团队页面URL中找到</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
@@ -520,8 +521,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[！UICONTROL Object&gt;键]</td>
@@ -533,12 +534,12 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL页面大小]</td>
-      <td>输入或映射每页返回的数字或结果。 默认值： 30。</td>
+      <td>输入或映射每页返回的数字或结果。 默认值：30。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL After]</td>
       <td>
-        <p>输入或映射结果编号，之后开始检索结果。 可以与[！UICONTROL页面大小]字段结合使用来对结果进行分页。</p>
+        <p>输入或映射结果编号，之后开始检索结果。 可以与[！UICONTROL Page Size]字段结合使用来对结果进行分页。</p>
         <p>此值未与对象ID相对应。</p>
         <p>此字段不能与[！UICONTROL Before]字段结合使用。</p>
       </td>
@@ -546,7 +547,7 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[！UICONTROL Before]</td>
       <td>
-        <p>输入或映射开始检索结果之前的结果编号。 可以与[！UICONTROL页面大小]字段结合使用来对结果进行分页。</p>
+        <p>输入或映射开始检索结果之前的结果编号。 可以与[！UICONTROL Page Size]字段结合使用来对结果进行分页。</p>
         <p>此值未与对象ID相对应。</p>
         <p>此字段不能与[！UICONTROL After]字段结合使用。</p>
       </td>
@@ -571,8 +572,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-      <td> <p>有关连接 [!DNL Figma] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td> <p>有关连接 [!DNL Figma] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL URL]</td>
@@ -586,7 +587,7 @@ ht-degree: 1%
       <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL标头]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以标准JSON对象的形式添加请求的标头。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -601,7 +602,7 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主体]</td>
+      <td role="rowheader">[！UICONTROL Body]</td>
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -611,7 +612,7 @@ ht-degree: 1%
 
 #### [!UICONTROL 观看活动]
 
-当您的团队中的特定团队发生以下事件之一时，此触发器模块会启动一个场景 [!DNL Figma] 团队空间
+当您的团队中的特定团队发生以下任一事件时，此触发器模块会启动一个场景 [!DNL Figma] 团队空间
 
 * 文件更新
 
@@ -637,7 +638,7 @@ ht-degree: 1%
             <p>单击 <b>[！UICONTROL添加]</b> [！UICONTROL Webhook]字段旁边。</p>
           </li>
           <li value="2">
-            <p>选择要用于此webhook的连接。 有关连接 [!DNL Figma] [！UICONTROL Workfront Fusion]帐户，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[！UICONTROL Adobe Workfront Fusion]的连接 — 基本说明。</a></p>
+            <p>选择要用于此webhook的连接。 有关连接 [!DNL Figma] 帐户，请参阅Workfront Fusion <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[！UICONTROL Adobe Workfront Fusion]的连接 — 基本说明。</a></p>
           </li>
           <li value="3">
             <p>选择您希望模块监视的事件类型。</p>
@@ -646,7 +647,7 @@ ht-degree: 1%
             <p>输入希望webhook观看其事件的团队的ID。</p>
           </li>
           <li value="5">
-            <p>输入您希望webhook观看的事件的[！UICONTROL状态]或[！UICONTROL描述]。</p>
+            <p>输入您希望webhook监视的事件的[！UICONTROL状态]或[！UICONTROL描述]。</p>
           </li>
           <li value="6">
             <p>单击 <b>[！UICONTROL保存]</b> 以保存webhook并返回到模块。</p>

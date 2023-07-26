@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer模块
-description: 在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Adobe Journey Optimizer]，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Journey Optimizer]，并将其连接到多个第三方应用程序和服务。
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 Becky: pull from main, add to TOCs, then push to merge.
 -->
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Adobe Journey Optimizer]，并将其连接到多个第三方应用程序和服务。 [!DNL Adobe Journey Optimizer] 通过模块，您可以创建、读取、更新或删除记录，或对 [!DNL Adobe Journey Optimizer] API。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Journey Optimizer]，并将其连接到多个第三方应用程序和服务。 [!DNL Adobe Journey Optimizer] 通过模块，您可以创建、读取、更新或删除记录，或对 [!DNL Adobe Journey Optimizer] API。
 
 
 如果您需要有关创建方案的说明，请参阅 [创建方案](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -59,18 +60,18 @@ Becky: pull from main, add to TOCs, then push to merge.
     <tr>
       <td role="rowheader">产品</td>
       <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
@@ -78,11 +79,11 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 * 您必须拥有有效的 [!DNL Adobe Journey Optimizer] 帐户。
 
-## 创建连接 [!DNL Adobe Journey Optimizer]
+## 创建与的连接 [!DNL Adobe Journey Optimizer]
 
-为创建连接 [!DNL Adobe Journey Optimizer] 模块：
+要为创建连接，请执行以下操作 [!DNL Adobe Journey Optimizer] 模块：
 
-1. 在任意 [!DNL Adobe Journey Optimizer] 模块，单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
+1. 在任何 [!DNL Adobe Journey Optimizer] 模块，单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
 
 1. 填写以下字段：
 
@@ -100,19 +101,19 @@ Becky: pull from main, add to TOCs, then push to merge.
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL客户端ID]</td>
-          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].</td>
+          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端ID]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL客户端密钥]</td>
-          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端密钥]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+          <td>输入您的 [!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL技术帐户ID]</td>
-          <td>输入您的 [!DNL Adobe] [！UICONTROL技术帐户ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+          <td>输入您的 [!DNL Adobe] [！UICONTROL技术帐户ID]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL组织ID]</td>
-          <td>输入您的 [!DNL Adobe] [！UICONTROL组织ID]。 可以在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+          <td>输入您的 [!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL元范围]</td>
@@ -123,7 +124,7 @@ Becky: pull from main, add to TOCs, then push to merge.
         <tr>
           <td role="rowheader">[！UICONTROL私钥]</td>
           <td>
-            <p>输入在中创建凭据时生成的私钥。 [!DNL Adobe Developer Console]. </p>
+            <p>输入在中创建凭据时生成的私钥 [!DNL Adobe Developer Console]. </p>
             <p>要提取您的私钥或证书，请执行以下操作：</p>
             <ol>
               <li value="1">
@@ -150,7 +151,7 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 ## [!DNL Adobe Journey Optimizer] 模块及其字段
 
-配置时 [!DNL Adobe Journey Optimizer] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Journey Optimizer] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Adobe Journey Optimizer] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Journey Optimizer] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -175,8 +176,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -185,13 +186,13 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td>
         选择要创建的记录类型
         <ul>
-        <li><b>[！UICONTROL位置]</b>：继续访问 <a href="#placement-fields" >[！UICONTROL Placement]字段</a>.</li>
-        <li><b>[！UICONTROL决策规则]</b>：继续访问 <a href="#decision-rule-fields" >[！UICONTROL决策规则]字段</a>.</li>
-        <li><b>[！UICONTROL决策]</b>：继续访问 <a href="#decision-fields" >[！UICONTROL Decision]字段</a>.</li>
-        <li><b>[！UICONTROL标记]</b>：继续访问 <a href="#tag-fields" >[！UICONTROL标记]字段</a>.</li>
-        <li><b>[！UICONTROL收藏集]</b>：继续访问 <a href="#collection-fields" >[！UICONTROL集合]字段</a>.</li>
-        <li><b>[！UICONTROL后备优惠]</b>：继续访问 <a href="#fallback-offer-fields" >[！UICONTROL后备优惠]字段</a>.</li>
-        <li><b>[！UICONTROL个性化优惠]</b>：继续访问 <a href="#personalized-offer-fields" >[！UICONTROL个性化优惠]字段</a>.</li>
+        <li><b>[！UICONTROL位置]</b>：继续执行 <a href="#placement-fields" >[！UICONTROL Placement]字段</a>.</li>
+        <li><b>[！UICONTROL决策规则]</b>：继续执行 <a href="#decision-rule-fields" >[！UICONTROL Decision rule]字段</a>.</li>
+        <li><b>[！UICONTROL决策]</b>：继续执行 <a href="#decision-fields" >[！UICONTROL Decision]字段</a>.</li>
+        <li><b>[！UICONTROL标记]</b>：继续执行 <a href="#tag-fields" >[！UICONTROL标记]字段</a>.</li>
+        <li><b>[！UICONTROL收藏集]</b>：继续执行 <a href="#collection-fields" >[！UICONTROL Collection]字段</a>.</li>
+        <li><b>[！UICONTROL后备优惠]</b>：继续执行 <a href="#fallback-offer-fields" >[！UICONTROL后备优惠]字段</a>.</li>
+        <li><b>[！UICONTROL个性化优惠]</b>：继续执行 <a href="#personalized-offer-fields" >[！UICONTROL个性化优惠]字段</a>.</li>
         </ul>
       </td>
     </tr>
@@ -272,7 +273,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[！UICONTROL版面]</td>
+      <td role="rowheader">[！UICONTROL Placements]</td>
       <td>选择要添加到此决策中的投放位置
       </td>
     </tr>
@@ -321,7 +322,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">
-        [！UICONTROL元素]
+        [！UICONTROL Elements]
       </td>
       <td>选择要包含在集合中的标记。
       </td>
@@ -350,7 +351,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         [！UICONTROL位置]
       </td>
-      <td>输入或映射后备优惠的版面。
+      <td>输入或映射后备优惠的位置。
       </td>
     </tr>
   </tbody>
@@ -373,7 +374,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">投放位置</td>
-      <td>选择个性化优惠的版面。
+      <td>选择个性化优惠的投放位置。
       </td>
     </tr>
     <tr>
@@ -393,12 +394,12 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
    <tr>
       <td role="rowheader">[！UICONTROL优先级]</td>
-      <td>选择此优惠的优先级。 优先级会影响是否将呈现此选件而不是另一个选件。
+      <td>选择此优惠的优先级。 优先级会影响是否会呈现此选件而不是其他选件。
       </td>
     </tr>
    <tr>
       <td role="rowheader">[！UICONTROL上限约束]</td>
-      <td>输入或映射此选件的显示次数。
+      <td>输入或映射此选件将显示的次数。
       </td>
     </tr>
   </tbody>
@@ -413,8 +414,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -434,7 +435,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL位置]/[！UICONTROL决策规则]/[！UICONTROL决策]/[！UICONTROL标记]/[！UICONTROL收藏集]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
+      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
       </td>
       <td>
         选择要删除的记录。
@@ -453,8 +454,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -473,7 +474,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL标头]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以标准JSON对象的形式添加请求的标头。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -487,7 +488,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主体]</td>
+      <td role="rowheader">[！UICONTROL Body]</td>
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -495,7 +496,7 @@ Becky: pull from main, add to TOCs, then push to merge.
      <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
       <td>
-        <p>输入您希望模块在一个执行周期内返回的最大结果数。</p>
+        <p>输入您希望模块在一个执行周期内返回的结果的最大数目。</p>
       </td>
     </tr>
   </tbody>
@@ -510,8 +511,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -531,7 +532,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL位置]/[！UICONTROL决策规则]/[！UICONTROL决策]/[！UICONTROL标记]/[！UICONTROL收藏集]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
+      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
       </td>
       <td>
         选择要删除的记录。
@@ -550,8 +551,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -571,7 +572,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL位置]/[！UICONTROL决策规则]/[！UICONTROL决策]/[！UICONTROL标记]/[！UICONTROL收藏集]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
+      <td role="rowheader">[！UICONTROL Placement]/[！UICONTROL Decision rule]/[！UICONTROL Decision]/[！UICONTROL Tag]/[！UICONTROL Collection]/[！UICONTROL后备优惠]/[！UICONTROL个性化优惠]
       </td>
       <td>
         选择要更新的记录。
@@ -586,7 +587,7 @@ Becky: pull from main, add to TOCs, then push to merge.
       <li>单击 <b>[！UICONTROL添加]</b>.</li>
       <li>选择要添加、替换还是删除值。</li>
       <li>输入要更新的字段。</li>
-      <li>为字段输入新值。</li>
+      <li>为该字段输入新值。</li>
       </td>
     </tr>
 
@@ -605,8 +606,8 @@ Becky: pull from main, add to TOCs, then push to merge.
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL连接]</td>
-     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与的连接 [!DNL Adobe Journey Optimizer]，请参见 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与的连接 [!DNL Adobe Journey Optimizer]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -635,17 +636,17 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL字段]</td>
-      <td><p>如果要将搜索限制在特定字段中，请输入相应的字段。 对于要将搜索限制到的每个字段，单击[！UICONTROL添加项]，然后输入该字段的名称。</p><p>路径表达式采用点分隔路径的形式，例如 <code>_instance.xdm:name</code>.</p>
+      <td><p>如果要将搜索限制在特定字段中，请输入相应的字段。 对于要将搜索限制到的每个字段，单击[！UICONTROL添加项]并输入该字段的名称。</p><p>路径表达式采用点分隔路径的形式，例如 <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Order by] </td>
-      <td>输入或映射要按其排序结果的属性。
+      <td>输入或映射要对结果排序的属性。
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL顺序方向]</td>
-   <td>选择您要按升序方向还是降序方向对结果排序。
+   <td>选择要按升序或降序方向对结果排序。
     </td>
      </tr>
   </tbody>
