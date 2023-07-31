@@ -8,18 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
+source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
 
 # 创建问题
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可用。</span>
-
 <!--remove Preview and Prod references when this comes to Prod-->
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。 </span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2023年第四季度发行版概述](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+
 
 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 具有适当访问权限的用户可以在项目或任务进展到完成时查看和监控问题的状态，而无需冗长的电子邮件链或状态会议。 与属于已计划事件的任务不同，问题表示Adobe Workfront中的未计划工作项。
 

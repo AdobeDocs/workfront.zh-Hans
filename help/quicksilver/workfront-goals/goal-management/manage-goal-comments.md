@@ -2,13 +2,13 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: 在Adobe Workfront目标中管理目标注释
-description: 您可以将注释添加到可在Adobe Workfront目标中查看的所有目标。
+description: 您可以向可在Adobe Workfront目标中查看的所有目标添加注释。
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-您可以将注释添加到可在Adobe Workfront目标中查看的所有目标。
+您可以向可在Adobe Workfront目标中查看的所有目标添加注释。
 
 <!--drafted for P&P:
 
@@ -91,7 +91,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td> <p>您必须为Adobe Workfront目标购买额外的许可证，才能访问本文中所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>. </p> </td> 
+   <td> <p>您必须为Adobe Workfront目标购买额外的许可证，才能访问本文中所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
@@ -105,46 +105,46 @@ ht-degree: 0%
    <td role="rowheader">对象权限</td> 
    <td> 
     <div> 
-     <p>查看目标或更高权限</p> 
+     <p>查看目标的权限或更高的权限</p> 
      <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 先决条件
 
 在开始之前，您必须具备以下条件：
 
-* 包含主菜单中的目标区域的布局模板。
+* 在主菜单中包含目标区域的布局模板。
 
 ## 找到更新部分
 
-您可以在目标页面的更新部分中，向目标添加注释。
+您可以在目标页面的“更新”部分中向目标添加评论。
 
 您可以回复或喜欢您或其他人在此区域添加的评论。
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
 这将打开目标列表。
-1. 找到要向其添加注释的目标，然后单击其名称以打开目标页面。
-1. 单击  **更新** （在左侧面板中）。
-1. 单击 **注释** 选项卡。
+1. 找到要添加注释的目标，然后单击其名称以打开目标页面。
+1. 单击  **更新** 在左侧面板中。
+1. 单击 **评论** 选项卡。
 1. 开始在 **新建评论** 盒子。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上的评论仍会处于草稿模式。 添加到注释中的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
+   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上评论仍会以草稿模式保留。 添加到注释的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
 1. （可选）要撤消或重做更改，请使用以下快捷键：
-   * 按CTRL + Z(Mac按⌘ + z)可撤消更改
-   * 按CTRL + Y(Mac按⌘ + y)可重做更改
+   * CTRL + Z(Mac为⌘ + z)可撤消更改
+   * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 1. （可选）要向更新、超链接或图像添加富文本格式，请使用富文本工具栏上的任意选项或其旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后在此评论显示在列表中时将其选定。
-1. 选择 **我的公司私有** 切换以使评论仅对您公司内的人员可见。
+1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此注释中的用户或团队的名称或电子邮件，然后当其显示在列表中时将其选定。
+1. 选择 **我的公司私有** 切换以使评论仅对您公司中的人员可见。
 
    >[!TIP]
    >
@@ -154,16 +154,14 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >如果另一个用户向您正在更新的同一项目提交评论，则会显示一条带“新”指示器的红线，以告知您较新的评论。
+   >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带“New”指示器的红线以通知您较新的评论，并且屏幕底部会显示一个蓝色通知，指示新评论的数量。
    >
-   >指示符仅在提交项目的评论之后显示，而不会在评论仍处于撰写状态时显示。
-   >
-   >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
+   >指示符仅在提交项目的评论之后显示，而不在评论仍在撰写时显示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 单击“赞”图标右侧，然后单击 **编辑**.
-1. 编辑评论中的信息，添加或删除图像，或者删除任何已标记的用户。
-您可以在提交评论后15分钟内对其进行编辑。 “已编辑”指示符将添加到更新评论时显示的日期戳的左侧。
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 点按赞”图标右侧，然后单击 **编辑**.
+1. 编辑评论中的信息，添加或删除图像，或删除任何已标记用户。
+您可以在提交评论后15分钟内对其进行编辑。 “已编辑”指标将添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
@@ -171,9 +169,9 @@ ht-degree: 0%
    >
    > * 仅当提交原始更新时，才会生成电子邮件通知用户您的更新。 编辑更新后不会生成电子邮件。
    >
-   > * 日期戳是原始评论的日期，而不是最新更新的日期。
+   > * 日期戳是原始注释的日期，而不是最新更新的日期。
 
-   1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击以下任意选项以将评论中的信息复制到剪贴板：
+   1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击以下任一选项以将信息从评论复制到剪贴板：
 
       * **复制链接** 复制更新的链接，而不复制回复。
       * **复制正文文本** 以复制更新的文本。
@@ -182,14 +180,14 @@ ht-degree: 0%
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-icon.png) 单击注释右侧，然后单击 **删除** 以删除您添加的评论。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤5至9操作。 有关回复更新的详细信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
-1. （有条件和可选）如果其他用户添加了显示在更新部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
+1. （视情况而定，可选）如果其他用户添加了显示在“更新”部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    屏幕底部会显示其他注释。
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png) 喜欢其他人添加的评论。 图标会随喜欢的数量而更新。
 
-1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。 当将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。 <!--ensure the casing on the tab has not changed-->
+1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在System Activity选项卡中。 在将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。 <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
 
