@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 2%
+source-wordcount: '2504'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
 
-您可以编辑单个问题，也可以编辑列表中的问题。 有关编辑列表中问题的信息，请参阅 [编辑列表中的问题](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
+您可以编辑单个问题，也可以在列表中编辑问题。 有关编辑列表中的问题的信息，请参阅 [编辑列表中的问题](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## 访问要求
 
@@ -31,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -39,18 +39,24 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑问题的访问权限</p> <p><b>注释</b>
+   <td> <p>编辑对问题的访问权限</p> <p><b>注释</b>
 
 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>为问题分配权限，以便在问题详细信息区域编辑问题 </p> <p>管理问题的权限以在“编辑问题”框中编辑问题</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>向问题贡献权限以编辑详细信息区域中的以下字段： </p>
+   <ul>
+   <li>描述</li>
+   <li>状态</li>
+   <li>严重程度</li>
+   </ul>
+   <p>管理问题的权限以编辑详细信息区域或编辑问题框中的所有字段</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 编辑问题时的限制
 
@@ -61,27 +67,27 @@ ht-degree: 2%
 
 ## 编辑单个问题
 
-您可以使用“编辑问题”或“问题详细信息”区域编辑问题。 以下步骤描述了如何在“编辑问题”框中编辑问题。
+您可以使用“编辑问题”或“问题详细信息”区域编辑问题。 以下步骤描述了如何在编辑问题框中编辑问题。
 
 1. 转到 **主菜单**.
-1. 单击 **项目**，然后单击项目名称以打开该项目。
+1. 单击 **项目**，然后单击某个项目的名称以打开该项目。
 1. （可选）单击 **任务** ，然后单击任务的名称以打开该任务。
-1. 单击 **问题** （在左侧面板中）。
+1. 单击 **问题** 在左侧面板中。
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
-1. （可选）要编辑有关问题的有限信息，请单击 **问题详细信息** （在左侧面板中）。
+1. （可选）要编辑有关问题的有限信息，请单击 **问题详细信息** 在左侧面板中。
 
    ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
-   >根据Workfront管理员或组管理员修改版面模板的方式，问题详细信息区域中的字段可能会重新排列或不显示。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据您的Workfront管理员或组管理员如何修改布局模板，问题详细信息区域中的字段可能会重新排列或不显示。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    要编辑“详细信息”部分中的信息，请执行以下操作：
 
    1. （可选）单击 **全部折叠** 图标来折叠所有区域。
-   1. （可选和视情况而定）折叠区域时，单击 **右指箭头** ![](assets/right-pointing-arrow.png) ，以展开要编辑的区域。
+   1. （可选且视情况而定）折叠区域后，单击 **右指箭头** ![](assets/right-pointing-arrow.png) ，展开要编辑的区域。
    1. （可选）要附加自定义表单，请在 **添加自定义表单** 字段，然后在列表中显示该字段时将其选定，然后单击 **保存更改**.
    1. （可选）单击 **导出** 图标 ![](assets/export.png) 要将概述和自定义表单信息导出到PDF文件，请单击 **导出**. 从以下项中选择：
 
@@ -95,7 +101,7 @@ ht-degree: 2%
 
       有关更多信息，请参阅 [导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-   有关“问题详细信息”部分中可见字段的信息，请按照以下所述继续编辑“编辑问题”框中的问题。
+   有关问题详细信息部分中可见字段的信息，请按照以下所述继续编辑问题框中的问题。
 
 1. 要编辑有关问题的所有信息，请在列表中选择问题，然后单击 **编辑** 位于列表顶部
 
@@ -107,7 +113,7 @@ ht-degree: 2%
 
    >[!IMPORTANT]
    >
-   >您必须具有问题的管理权限才能查看编辑链接。
+   >您必须具有问题的管理权限才能看到编辑链接。
 
    所有问题字段在编辑问题框中可用，并按左侧面板中列出的区域分组。
 
@@ -123,7 +129,7 @@ ht-degree: 2%
    >
    >根据Workfront管理员如何设置布局模板，您的环境中编辑问题框中的字段可能不同。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
-   >创建问题时，也可以从“新建问题”框访问以下部分中列出的大多数字段。 字段所在的部分与“新问题”框不匹配。 有关创建问题的信息，请参阅 [创建问题](../../issues/manage-issues/create-issues.md).
+   >在创建问题时，也可以从新建问题框访问以下部分中列出的大多数字段。 字段所在的部分与“新问题”框不匹配。 有关创建问题的信息，请参阅 [创建问题](../../issues/manage-issues/create-issues.md).
 
 ### 问题名称 {#issue-name}
 
@@ -157,18 +163,18 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">状态</td> 
-      <td> <p>选择问题的状态。 有关问题状态的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">访问系统问题状态列表</a>. </p> </td> 
+      <td> <p>选择问题的状态。 有关问题状态的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">访问系统问题状态的列表</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">优先级</td> 
-      <td> <p>这是一个可视标记，可用于排定问题的优先级。</p> <p>从以下选项中选择：</p> 
+      <td> <p>这是一个可视化标记，可用于排定问题的优先级。</p> <p>从以下选项中选择：</p> 
        <ul> 
         <li> <p><strong>无</strong> </p> </li> 
         <li> <p><strong>低</strong> </p> </li> 
         <li> <p><strong>正常</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>紧急</strong> </p> </li> 
-       </ul> <p>根据Workfront管理员选择的项目偏好设置，优先级名称可能会有所不同。 有关编辑优先级的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>.</p> </td> 
+       </ul> <p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">严重程度</td> 
@@ -179,7 +185,7 @@ ht-degree: 2%
         <li> <p style="font-weight: bold;">有变通方案的问题</p> </li> 
         <li> <p style="font-weight: bold;">没有变通方案的问题</p> </li> 
         <li> <p style="font-weight: bold;">致命错误</p> </li> 
-       </ul> <p>根据Workfront管理员选择的项目偏好设置，严重性名称可能有所不同。 有关编辑严重性的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">创建或自定义问题严重程度</a>.</p> </td> 
+       </ul> <p>根据您的Workfront管理员选择的项目偏好设置，严重性名称可能有所不同。 有关编辑严重性的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">创建或自定义问题严重程度</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -187,7 +193,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">类型</td> 
-      <td> <p>根据项目经理在项目的队列详细信息区域中选择的队列属性，您或许可以指定问题的类型。 从以下选项中选择 <b>类型</b> 下拉菜单： </p> 
+      <td> <p>根据项目经理在项目的队列详细信息区域中选择的队列属性，您也许能够指定问题的类型。 从以下选项中选择 <b>类型</b> 下拉菜单： </p> 
        <ul> 
         <li> <p><strong>错误报告</strong> </p> </li> 
         <li> <p><strong>更改顺序</strong> </p> </li> 
@@ -197,12 +203,12 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">主要联系人</td> 
-      <td>默认情况下，主要联系人是问题的创建者。 要修改此设置，请在Workfront中开始键入任何活动用户的名称，然后从列表中选择它。 问题只能有一个主要联系人。<br> 如果更改了主要联系人，则原始主要联系人仍具有此问题的管理访问权限。 在共享问题时，您必须从“问题访问权限”框中手动删除此访问权限。
+      <td>默认情况下，主要联系人是问题的创建者。 要修改此设置，请在Workfront中开始键入任何活动用户的名称，然后从列表中选择该用户。 问题只能有一个主要联系人。<br> 如果更改主要联系人，则原始主要联系人仍具有此问题的管理访问权限。 共享问题时，必须从“问题访问权限”框中手动删除此访问权限。
 
-   <b>笔尖</b>
+   <b>提示</b>
 
-   <p>添加主要联系人用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看该角色。</p>
-      <p> 您必须在访问级别中启用“查看联系人信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>.</p>
+   <p>添加主要联系人用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。</p>
+      <p> 您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>.</p>
 
 
    </td> 
@@ -217,25 +223,25 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">计划完成日期和时间</td> 
-      <td> 默认情况下，计划完成日期是从默认计划开始日期算起的24小时。 默认情况下，问题的持续时间为1天。 您可以更新 <strong>计划完成日期</strong> 问题。</td> 
+      <td> 默认情况下，计划完成日期距默认计划开始日期有24小时。 默认情况下，问题的持续时间为1天。 您可以更新 <strong>计划完成日期</strong> 问题。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">实际开始日期和时间</td> 
-      <td>在将问题的状态更改为时，会自动填写实际开始日期 <strong>进行中</strong>. 您可以更新 <strong>实际开始日期</strong> 问题。 如果需要，您可以手动更新日期。 </td> 
+      <td>在将问题状态更改为时，会自动填写实际开始日期 <strong>进行中</strong>. 您可以更新 <strong>实际开始日期</strong> 问题。 如果需要，您可以手动更新日期。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">实际完成日期和时间</td> 
-      <td>在将问题的状态更改为时，会自动填写实际完成日期 <strong>已关闭</strong> 或<strong>已解决</strong>. 您可以更新 <strong>实际完成日期</strong> 对于问题。 如果需要，您可以手动更新日期。</td> 
+      <td>在将问题状态更改为时，会自动填写实际完成日期 <strong>已关闭</strong> 或<strong>已解决</strong>. 您可以更新 <strong>实际完成日期</strong> 对于此问题。 如果需要，您可以手动更新日期。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">问题解决者</td> 
-      <td> <p>这显示问题是否由其他对象解决。 您可以从下拉菜单中选择此问题是由任务、项目还是其他问题解决，然后开始键入将解决该问题的任务、项目或问题的名称。 当它出现在列表中时将其选中。</p>
+      <td> <p>这显示问题是否由其他对象解决。 您可以从下拉菜单中选择此问题是由任务、项目还是其他问题解决，然后开始键入将解决此问题的任务、项目或问题的名称。 当它出现在列表中时将其选中。</p>
 
    <b>注释</b>
 
-   当您选择要解决问题的对象时，问题状态链接到解决对象的状态，并且无法在问题中更改。 有关解析对象的详细信息，请参阅 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述 </a>.
+   当您选择对象以解决问题时，问题状态将链接到解决对象的状态，并且无法在该问题上更改。 有关解析对象的详细信息，请参阅 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述 </a>.
 
-   <b>笔尖</b>
+   <b>提示</b>
 
    当您的系统或组管理员将“解决者”字段添加到问题自定义标题时，当存在与问题关联的解决对象时，该字段将更改为“解决问题”、“解决任务”或“解决项目”。
 
@@ -245,11 +251,11 @@ ht-degree: 2%
 
    <tr> 
       <td role="rowheader">解决问题、解决任务或解决项目</td> 
-      <td>解决问题、任务或问题的链接名称。  </td> 
+      <td>解决问题、任务或问题的问题的链接名称。  </td> 
      </tr> 
       <tr> 
       <td role="rowheader">这个问题已经解决</td> 
-      <td>在您访问的问题得到解决时完成的问题链接名称。  </td> 
+      <td>在您访问的问题得到解决后完成的问题链接名称。  </td> 
      </tr>
 
 
@@ -265,11 +271,11 @@ ht-degree: 2%
 #### 分配 {#assignments}
 
 1. 按如上所述开始编辑问题。
-1. 单击 **指定任务** （在左侧面板中）。
+1. 单击 **指定任务** 在左侧面板中。
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. 单击 **搜索人员、角色和团队** ，然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或者在列表上显示它时按Enter键。
+1. 单击 **搜索人员、角色和团队** 然后开始键入要分配给任务的用户、角色或团队的名称，然后单击该名称，或当该名称显示在列表上时按Enter键。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -277,17 +283,17 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果用户名包含特殊字符，则必须在搜索字段中包含该特殊字符。
+   >如果用户名包含特殊字符，则必须在搜索字段中包含特殊字符。
 
    >[!TIP]
    >
    >您可以分配多个用户、工作角色或团队。 您只能分配活动用户、工作角色和团队。
    >
    >
-   >如果在停用用户、工作角色或团队之前分配了用户、工作角色或团队，则仍会将其分配给工作项。 在这种情况下，我们建议执行以下操作：
+   >如果在停用用户、工作角色或团队之前已分配用户、工作角色或团队，则仍将其分配给工作项目。 在这种情况下，我们建议执行以下操作：
    >
-   >* 将工作项重新分配给有效资源。
-   >* 将已停用团队中的用户与活动团队相关联，并将工作项重新分配给活动团队。
+   >* 将工作项重新分配给活动资源。
+   >* 将已停用团队中的用户与活动团队关联，并将工作项重新分配给活动团队。
 
 1. （可选）将鼠标悬停在受让人的姓名上，然后单击 **设为主要播放器**. 团队不能是问题的主要被分配人。
 1. 更新以下字段：
@@ -300,11 +306,11 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">计划小时</td> 
-      <td> <p>这是问题的被分派人完成问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p>注意：更改问题的计划小时数不会更改问题的计划完成日期。 </p> </td> 
+      <td> <p>这是问题的被分派人完成该问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p>注意：更改问题的已计划小时数不会更改问题的已计划完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">受让人的角色</td> 
-      <td> <p>从中选择角色 <strong>被分派人的角色</strong> 选择人员作为被分配人时的下拉菜单。 这是被分派人可以在这个问题上发挥的作用。 </p> <p><b>笔尖</b>
+      <td> <p>从中选择角色 <strong>被分派人的角色</strong> 选择人员作为被分配人时的下拉菜单。 这是被分派人可以在这个问题上发挥的作用。 </p> <p><b>提示</b>
 
    下拉菜单中仅显示与其配置文件中每个被分配人关联的工作角色。</p> </td>
    </tr> 
@@ -322,11 +328,11 @@ ht-degree: 2%
 
 1. 在 **添加自定义表单** 字段中，选择要与问题关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关构建自定义表单的更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以为一个问题添加十个自定义表单。
 
-1. （视情况而定）如果您将自定义表单附加到问题，请编辑表单上的任何字段。 在保存问题之前，您必须指定所有必填字段。
+1. （视情况而定）如果您在问题中附加了自定义表单，请编辑表单上的任何字段。 在保存问题之前，必须指定所有必填字段。
 
    >[!NOTE]
    >
-   >根据Workfront管理员如何为自定义表单中的部分设置权限，并非所有人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对问题本身的权限。 有关设置自定义表单各部分的权限的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 有关设置问题权限的信息，请参阅 [共享问题](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >根据您的Workfront管理员如何为自定义表单中的部分设置权限，并非每个人都可以查看或编辑给定自定义表单上的相同字段。 编辑自定义表单分区中字段的权限取决于您对问题本身的权限。 有关设置自定义表单各部分的权限的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 有关设置问题权限的信息，请参阅 [共享问题](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. 单击 **保存** 或继续编辑以下部分。
 
@@ -349,15 +355,15 @@ ht-degree: 2%
       <td role="rowheader">批准流程</td> 
       <td> 
        <div> 
-       <p>选择要与问题关联的批准流程。 您的Workfront管理员必须定义系统级别的批准流程，然后才能将他们与问题关联。 对批准流程具有管理访问权限的用户 <span> 还可以创建特定于组的批准流程。</span>有关创建批准流程的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建批准流程</a>. </p> 
+       <p>选择要与问题关联的审批流程。 您的Workfront管理员必须定义系统级别的审批流程，然后才能将他们与问题关联。 对审批流程具有管理访问权限的用户 <span> 还可以创建特定于组的批准流程。</span>有关创建批准流程的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">创建工作项的审批流程</a>. </p> 
        <p>添加审批流程时，请考虑以下事项： </p> 
        <ul> 
        <li>列表中仅显示有效的审批流程。 </li> 
-       <li> <p>列表中将显示系统范围和组特定的批准流程。 与项目组以外的组关联的审批流程不会显示在列表中。</p> <p>重要信息：如果项目组发生更改，则特定于组的审批流程将变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>. </p> </li> 
+       <li> <p>系统范围及组特定的批准流程会显示在列表中。 与项目组以外的组关联的审批流程不会显示在列表中。</p> <p>重要信息：如果项目组发生更改，则特定于组的审批流程将变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">组和审批流程更改如何影响分配的审批流程</a>. </p> </li> 
        <li> <p>您可以定义在创建请求队列或队列主题时自动附加到问题的默认批准流程。 有关更新队列详细信息的信息，请参见 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. 有关创建队列主题的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">创建队列主题</a>. </p> </li> 
        <li>批量编辑问题时，存在以下情况： 
        <ul> 
-       <li><p>当您从同一组中选择多个问题时，系统级别和组特定的审批流程都会显示在此字段中。</p></li> 
+       <li><p>从同一组中选择多个问题时，此字段将显示系统级别和组特定的审批流程。</p></li> 
        <li><p>当您从不同的组中选择多个问题时，此字段仅显示系统级别的审批流程。</p></li> 
        <li><p>当任何问题附加一次性审批流程时，它将被您选择的系统级别或组级别审批流程替换。 </p></li> 
        </ul></li> 
@@ -366,14 +372,14 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">提醒通知</td> 
-      <td> <p>选中要为其将提醒通知附加到此问题的复选框。 将显示问题的所有提醒通知。 您的Workfront管理员必须先配置提醒通知，然后才能在问题中选择它们。 有关配置提醒通知的更多信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">设置提醒通知</a></p> </td> 
+      <td> <p>选中要为其将提醒通知附加到此问题的复选框。 所有问题提醒通知都会显示。 您的Workfront管理员必须配置提醒通知，然后才能在问题中选择它们。 有关配置提醒通知的更多信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">设置提醒通知</a></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 单击 **保存。**
 
-## 编辑问题标题中的问题（受限）
+## 编辑问题标题中的问题（受限的）
 
 您可以在问题标题中编辑有限数量的信息。
 
