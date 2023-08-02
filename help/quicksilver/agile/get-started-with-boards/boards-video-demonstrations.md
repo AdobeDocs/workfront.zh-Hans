@@ -7,9 +7,9 @@ description: 这些视频将向您介绍Adobe Workfront中提供的各种类型�
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 1%
 看板可以包含积压工作（或摄取列），该列配置了过滤器，以将任务和问题从Workfront带到看板。
 
 [观看看板的视频演示。](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### 动态展示板
+
+动态展示板允许您根据Workfront项目自动使用信息卡填充展示板。 通过使用过滤器，卡片会根据其状态添加到列。
+
+[观看动态展示板的视频演示。](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### 移动展示板
 
