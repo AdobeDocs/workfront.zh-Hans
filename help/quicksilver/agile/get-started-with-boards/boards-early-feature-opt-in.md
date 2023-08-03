@@ -7,9 +7,9 @@ description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能加
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ ht-degree: 0%
   <tr>
    <td>在临时信息卡和连接的信息卡上使用注释</td>
    <td>已发布</td>
+  </tr>
+  <tr>
+   <td>查看已连接信息卡上的文档</td>
+   <td>已部分发布</td>
   </tr>
  </tbody> 
 </table>
