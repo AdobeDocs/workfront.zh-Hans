@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b2c6f5d4bc189eb8158f02a126aec8e9cb87d28e
+source-git-commit: cac061ccfe297c2b85f7c376779db17a4eda916b
 workflow-type: tm+mt
-source-wordcount: '13141'
+source-wordcount: '13146'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
       * 2023年第四季度发行 {#release-23-q4}
          * [2023年第4季度发行版概述](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023年第4季度发行周，2023年7月24日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
+         * [2023年第4季度发行周，2023年7月31日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
       * 23.3版本 {#release-23-3}
          * [23.3发行版概述](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3管理员增强功能](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
