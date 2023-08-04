@@ -8,9 +8,9 @@ description: 通过Adobe Workfront Fusion的“组织”和“团队”功能，
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,30 @@ ht-degree: 0%
    <td>
    <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] （对于工作自动化和集成），[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 对于工作自动化和集成]，[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
    <td> 
      <p>您必须是 [!DNL Workfront Fusion] 组织管理员。</p>
-     <p>您必须是 [!DNL Workfront Fusion] 团队管理员。</p>
+     <p>您必须是 [!DNL Workfront Fusion] 您的团队的管理员。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-<p>**有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 许可证</a></p>
+<p>**有关以下内容的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 许可证</a></p>
 
 
 ## 组织
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 所有者]**：所有者拥有组织中可用的所有权限。
 * **[!UICONTROL 管理员]**：管理员角色使用户能够为组织创建和管理团队和用户。
-* **[!UICONTROL 会员]**：成员能够使用 [!DNL Workfront Fusion] 但无法进行组织更改。
+* **[!UICONTROL 会员]**：成员可以使用 [!DNL Workfront Fusion] 但无法进行组织更改。
 * **[!UICONTROL 会计师]**：会计师角色仅允许用户在组织功能板上查看许可证信息。
 * **[!UICONTROL 应用程序开发人员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 邀请用户加入组织：
 
-1. 单击 **[!UICONTROL 更改详细信息]** 在屏幕右上角。
+1. 单击 **[!UICONTROL 更改详细信息]** 屏幕右上角的。
 1. 选择 **[!UICONTROL 邀请新用户]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
@@ -102,17 +102,17 @@ ht-degree: 0%
 
 收件人单击按钮后，会被重定向到邀请页面，以便接受邀请。
 
-邀请将在一天后过期。
+邀请将在天后过期。
 
 >[!NOTE]
 >
->如果用户是新用户 [!DNL Fusion]， [!DNL Fusion] 自动为他们创建一个帐户，并发送一封包含临时密码的电子邮件，指示新用户登录并更改其密码。
+>如果用户是新用户 [!DNL Fusion]， [!DNL Fusion] 自动为他们创建一个帐户，并发送一封包含临时密码的电子邮件，指导新用户登录并更改其密码。
 
 ### 在组织之间切换
 
 您可能属于Fusion中的多个组织。 资源不会在组织之间共享。
 
-您可以通过单击右上角的Adobe名称并从下拉菜单中选择新组织，在Unified Experience中切换组织。 只有具有Fusion帐户的组织才会显示在下拉列表中，即使您是Adobe中其他组织的成员。
+您可以通过单击右上角的组织名称并从下拉菜单中选择新组织，在AdobeUnified Experience中切换组织。 只有具有Fusion帐户的组织才会显示在下拉列表中，即使您是Adobe中其他组织的成员。
 
 ## 团队
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 * 场景
 * 连接
-* Webhook
+* Webhooks
 * 键
 * 数据存储
 * 数据结构
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于团队控制对资源的访问，因此团队有时只拥有一名成员很有用。 例如，正在培训的用户可以创建与其个人的连接 [!DNL Google] 帐户。 任何团队成员也将能够连接到个人 [!DNL Google] 帐户，因此在这种情况下，最好用户是培训团队的唯一成员。
+>由于团队控制对资源的访问，因此有时团队仅有一个成员会很有用。 例如，培训用户可创建与其个人的连接 [!DNL Google] 帐户。 任何团队成员也能够连接到个人 [!DNL Google] 帐户，因此在这种情况下，用户最好是培训团队的唯一成员。
 
 组织可以拥有所需数量的团队，并且用户可能属于一个或多个团队。
 
@@ -142,10 +142,12 @@ ht-degree: 0%
 用户在其每个团队中具有以下角色之一：
 
 * **[!UICONTROL 团队管理员]**：除了其他团队角色的功能外，管理员角色还允许用户添加、删除或更改团队成员的角色。
-* **[!UICONTROL 团队成员]**：团队成员角色允许用户创建和执行场景。
-* **[!UICONTROL 团队监控]**：此 [!UICONTROL 监测] 角色允许用户访问方案的执行信息，但他们无法设计方案或更改其“活动”状态。
-* **[!UICONTROL 团队操作员]**：此 [!UICONTROL 运算符] 角色允许用户查看执行数据并更改场景的“活动”状态。
-* **[!UICONTROL 受团队限制的成员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
+* **[!UICONTROL 团队成员]**：团队成员角色允许用户创建和执行方案。
+* **[!UICONTROL 团队监控]**：和 [!UICONTROL 监测] 角色允许用户访问方案的执行信息，但他们无法设计方案或更改其“活动”状态。
+* **[!UICONTROL 团队操作员]**：和 [!UICONTROL 运算符] 角色允许用户查看执行数据并更改方案的“活动”状态。
+* **[!UICONTROL 团队受限成员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
+
+有关团队角色可用的特定任务的信息，请参阅[组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### 团队管理
 
@@ -160,7 +162,7 @@ ht-degree: 0%
 
 1. 在左侧导航面板中，单击 **[!UICONTROL 组织]**
 1. 选择 **[!UICONTROL 团队]** 选项卡。
-1. 单击 **[!UICONTROL 添加新团队]** 在团队列表下。
+1. 单击 **[!UICONTROL 添加新团队]** 在团队列表中。
 1. 输入新团队的名称，然后单击 **添加**.
 
 #### 设置团队通知选项
@@ -184,8 +186,8 @@ ht-degree: 0%
       <td>在场景运行中发生错误时收到电子邮件。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL场景停用]</p> </td> 
-      <td><p>在场景停用时收到电子邮件。</p><p><b>注意：</b> 仅当场景由于错误而被自动停用时，才会通知您场景停用。 您不会收到有关手动停用方案的通知。</p><p>在某些情况下，场景可能会被停用 [!DNL Workfront Fusion] 工程团队，因为这种情况会导致性能或其他问题。 在这些情况下，您不会在中收到通知 [!DNL Workfront Fusion]. </p></td>
+      <td role="rowheader"> <p>[！UICONTROL方案停用]</p> </td> 
+      <td><p>在场景停用时收到电子邮件。</p><p><b>注意：</b> 仅当场景由于错误而被自动停用时，才会通知您场景停用。 您不会收到有关手动停用的方案的通知。</p><p>在某些情况下，场景可能会被停用 [!DNL Workfront Fusion] 工程团队，因为场景会导致性能或其他问题。 在这些情况下，您不会在中收到通知 [!DNL Workfront Fusion]. </p></td>
 
 </tr>
 </tbody>
@@ -197,9 +199,9 @@ ht-degree: 0%
 
 您可能属于Fusion中的多个团队。 由于团队不共享资源，因此您可能需要切换团队以访问特定方案或其他资源。
 
-如果您的组织不在AdobeUnified Experience中，您可以通过单击左侧导航中的团队名称，然后从下拉菜单中选择一个团队来切换团队。
+如果贵组织不在Unified ExperienceAdobe中，则可以通过单击左侧导航中的团队名称，然后从下拉菜单中选择一个团队来切换团队。
 
-如果您的团队在AdobeUnified Experience，您可以通过单击标题中的团队名称，然后从下拉菜单中选择一个团队来选择一个新团队。 此选项适用于特定团队的所有页面，如场景页面或“连接”页面。
+如果您的团队位于Unified ExperienceAdobe上，您可以通过单击标题中的团队名称，然后从下拉菜单中选择团队来选择一个新团队。 此选项适用于特定团队的所有页面，如场景页面或“连接”页面。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>
