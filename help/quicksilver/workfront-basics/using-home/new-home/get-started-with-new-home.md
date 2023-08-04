@@ -5,10 +5,10 @@ title: 开始使用Adobe Workfront中的新主页
 description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ ht-degree: 21%
 * **待办事项**\
     这个独特的构件允许您向个人核对清单添加文本项目，以便您自由编辑。
 
-默认情况下，主页会根据您的许可证类型填充几个特定的构件。 下表概述了每种许可证类型的用户首次导航到新主页时看到的构件。
+  >[!NOTE]
+  >
+  >您必须具有创建任务的权限，才能在待办事项构件中创建待办事项。
 
-| **旧版许可证类型** | **默认构件** | **当前许可证类型** | **默认构件** |
-|---|---|---|---|
-| 计划 | 我的项目、提及内容、待办事项 | 标准 | 我的项目、我的工作、提及、待办事项 |
-| 工作 | 我的工作、提及、待办事项 | 浅色 | 我的工作，等待我的审批，待办事项 |
-| 复查 | 我的工作、提及、待办事项 | 投稿人 | 我的工作、提及、待办事项 |
-| 有限 | 我的项目，等待我的审批，待办事项 | 外部的 | 等待我的审批，待办事项 |
-| 投稿人 | 我的工作、提及、待办事项 |  |  |
-| 外部的 | 等待我的审批，待办事项 |  |  |
+默认情况下，主页会根据您的许可证类型填充几个特定的构件。 下表概述了每种许可证类型的用户首次导航到“新主页”时看到的构件。
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>当前许可证类型</b></td>
+        <td><b>默认构件</b></td>
+    </tr>
+    <tr>
+        <td>标准</td>
+        <td>我的项目、我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>浅色</td>
+        <td>我的工作，等待我的审批，待办事项</td>
+    </tr>
+    <tr>
+        <td>投稿人</td>
+        <td>我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>外部的</td>
+        <td>等待我的审批，待办事项</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>旧版许可证类型</b></td>
+        <td><b>默认构件</b></td>
+    </tr>
+    <tr>
+        <td>计划</td>
+        <td>我的项目、提及内容、待办事项</td>
+    </tr>
+    <tr>
+        <td>工作</td>
+        <td>我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>复查</td>
+        <td>我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>有限</td>
+        <td>我的项目，等待我的审批，待办事项</td>
+    </tr>
+    <tr>
+        <td>投稿人</td>
+        <td>我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>外部的</td>
+        <td>等待我的审批，待办事项</td>
+    </tr>
+</table>
 
 有关添加、移动、调整或删除小部件的信息，请参阅 [在新主页中添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
