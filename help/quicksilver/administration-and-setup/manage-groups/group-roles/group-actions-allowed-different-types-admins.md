@@ -2,25 +2,25 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: 允许对不同类型管理员执行的操作
-description: 此表比较了管理Workfront系统的Adobe Workfront管理员、管理顶级群组的群组管理员和管理子群组的群组管理员可用的管理活动。
+title: 不同类型管理员允许的操作
+description: 此表比较了Adobe Workfront管理员(管理Workfront系统)、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# 组管理员允许的操作
+# 允许组管理员执行的操作
 
-下表列出了可用于以下目的的管理活动：
+此表列出了可用于以下各项的管理活动：
 
 * 管理Workfront系统的Adobe Workfront管理员（用于比较）
-* 管理顶级群组的群组管理员
+* 管理顶级组的组管理员
 * 管理子组的组管理员
 
 <table style="table-layout:auto"> 
@@ -39,7 +39,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>在新的Adobe Workfront体验中注册成员</td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
@@ -62,7 +62,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>锁定和解锁项目、任务和问题首选项</p> </td> 
+   <td> <p>锁定和解锁项目、任务和问题偏好设置</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -74,13 +74,13 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>锁定和解锁工时单和小时首选项</p> </td> 
+   <td> <p>锁定和解锁时间表和小时首选项</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>配置工时单和工时首选项</p> </td> 
+   <td> <p>配置时间表和小时首选项</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
@@ -146,25 +146,25 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理工时单配置文件</p> </td> 
+   <td> <p>创建和管理周期性工时表</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>创建一次性工时单</td> 
+   <td>创建一次性工时表</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>创建和管理作业角色</td> 
+   <td>创建和管理职位角色</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> 创建和管理优先级、严重性、条件</p> </td> 
+   <td> <p> 创建和管理优先级、严重性和条件</p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -182,19 +182,19 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>以其他人身份登录</td> 
+   <td>以他人身份登录</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>查看和恢复已删除的项目</td> 
+   <td>查看并恢复已删除的项目</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>查看和管理还原的项目</td> 
+   <td>查看和管理已还原的项目</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -206,7 +206,7 @@ ht-degree: 0%
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>分配最大许可证数</td> 
+   <td>分配许可证的最大数量</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -226,6 +226,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42; 在组管理员的访问级别中， **编辑** 必须为 **用户** 设置，使用 **用户管理员（群组用户）** 选定项 **优化设置** ![](assets/gear-icon-in-access-levels.png). 有关更多信息，请参阅 [配置用户的访问权限以使用自定义访问级别编辑用户](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 在文章中 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; 在组管理员的访问级别中， **编辑** 必须为以下项选择 **用户** 设置，使用 **用户管理员（组用户）** 选定于 **微调您的设置** ![](assets/gear-icon-in-access-levels.png). 有关更多信息，请参阅部分 [配置用户的访问权限以使用自定义访问级别编辑用户](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 在文章中 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; 在群组管理员的访问级别中，必须启用对此操作的访问权限。 有关更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; 在组管理员的访问级别中，必须启用对此操作的访问权限。 有关更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+以下活动仅适用于组和子组管理员，前提是他们的组织位于Prime或Ultimate计划中。 这些特定的活动也可以称为“高级企业控制”。 请参阅 [Adobe Workfront定价和包装页面](https://business.adobe.com/products/workfront/pricing.html) 以了解有关计划的详细信息。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
+
+* 配置项目、任务和问题首选项
+* 配置时间表和小时首选项
+* 配置事件通知电子邮件
+* 创建和管理审批流程
+* 创建和管理子组
