@@ -3,57 +3,100 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: 系统跟踪的更新
-description: Adobe Workfront通过记录对象中的状态信息来捕获某些对象上发生的活动 [!UICONTROL 更新] 的上界。
-author: Caroline
+title: 系统跟踪更新
+description: Adobe Workfront通过将状态信息记录在对象的 [!UICONTROL 更新] 区域。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 6%
 
 ---
 
-# 系统跟踪的更新
+# 系统跟踪更新
 
-[!DNL Adobe Workfront] 通过记录对象中的状态信息，捕获某些对象上发生的活动 [!UICONTROL 更新] 的上界。
+[!DNL Adobe Workfront] 通过在对象的 [!UICONTROL 更新] 区域。
 
-的 [!UICONTROL 更新] 区域包含以下类型的更新：
+此 [!UICONTROL 更新] 区域包含以下类型的更新：
 
 * **用户更新：** 由用户手动输入。 也称为评论、回复和注释。
 
-   ![](assets/updates-qs-350x125.png)
+  有关配置用户更新的更多信息，请参阅 [配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-* **系统更新：** 由系统自动制作。 系统更新包括描述该项目发生的更改类型的简短说明。
+  ![](assets/updates-qs-350x125.png)
 
-   <!--
+* **系统更新：** 由系统自动生成。 系统更新包括一个简要注释，描述该项发生了什么类型的更改。
+
+  有关系统更新源以及如何启用它们的详细信息，请参阅 [配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+  <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
   
   -->
 
-以下对象可以有更新：
+## 有关系统跟踪更新的注意事项
 
-* 项目
-* 任务
-* 问题
-* 项目组合
-* 项目群
-* 用户
-* 模板
-* 模板任务
-* 文档
-* 时间表
+* 系统跟踪更新不适用于具有“更新”区域的所有对象。 此 [!UICONTROL 更新] 区域可用于以下对象：
 
-您的 [!DNL Workfront] 许可证确定系统更新是否默认显示在 [!UICONTROL 更新] 对象区域。 [!DNL Workfront] 具有 [!UICONTROL 计划] 许可证中显示了系统更新 [!UICONTROL 更新] 的上界。 但是，用户可以过滤掉系统更新，如 [[!UICONTROL 启用] 或禁用系统更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 部分 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 所有其他 [!DNL Workfront] 默认情况下，许可证会过滤系统更新。
+   * [!UICONTROL 项目]
+   * [!UICONTROL 任务]
+   * [!UICONTROL 问题]
+   * [!UICONTROL 项目组合]
+   * [!UICONTROL 项目群]
+   * [!UICONTROL 用户]
+   * [!UICONTROL 模板]
+   * [!UICONTROL 模板任务]
+   * [!UICONTROL 团队]
+   * [!UICONTROL 文档]
+   * [!UICONTROL 时间表]
+   * [!UICONTROL 叙述]
 
-[!DNL Workfront] 管理员可以定义系统应在 [!UICONTROL 更新] 的上界。 并非所有对象都可配置 [!UICONTROL 更新] 状态馈送。 以下对象具有 [!UICONTROL 更新] 可捕获系统跟踪的更新馈送，但没有可配置的更新状态馈送的区域：
+     在 [!DNL Workfront]，故事是任务。
+   * [!UICONTROL 迭代]
+   * [!UICONTROL 目标]
 
-* 模板
-* 模板任务
-* 文档
-* 时间表
+     您必须拥有额外的许可证才能访问 [!UICONTROL 目标] 区域。 有关信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * [!UICONTROL 卡片] 在展示板上
 
-有关系统更新信息源以及如何启用它们的更多信息，请参阅 [配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). 有关配置用户更新的更多信息，请参阅 [配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+     有关信息卡更新的更多信息，请参阅 [向展示板添加临时信息卡](../../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+* [!DNL Workfront] 不跟踪以下对象的任何系统更新：
+
+   * [!UICONTROL 团队]
+   * [!UICONTROL 模板]
+   * [!UICONTROL 模板任务]
+
+<!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
+
+Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
+-->
+
+* 用户可以默认查看系统更新，也可以选择不显示系统更新。
+
+  有关禁用系统更新显示的信息，请参阅部分 [启用或禁用系统更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 在文章中 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  >[!NOTE]
+  >
+  >我们目前正在重新设计评论体验和 [!UICONTROL 更新] 区域位于 [!DNL Workfront].
+  >
+  > 使用新的评论体验时，无法隐藏系统更新。
+  > 
+  >有关新评论体验的更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+* Workfront记录以下对象的系统跟踪更新，但没有选项可禁用显示这些对象：
+
+   * [!UICONTROL 项目组合]
+   * [!UICONTROL 项目群]
+   * [!UICONTROL 迭代]
+
+* [!DNL Workfront] 管理员可以定义系统应跟踪的更改类型 [!UICONTROL 更新] 区域。 并非所有具有 [!UICONTROL 更新] 区域也可供配置 [!UICONTROL 更新] 信息源。 以下对象具有 [!UICONTROL 更新] 捕获系统跟踪的更新馈送，但没有可配置的更新馈送的区域：
+
+   * [!UICONTROL 文档]
+   * [!UICONTROL 时间表]
+   * [!UICONTROL 迭代]
+
