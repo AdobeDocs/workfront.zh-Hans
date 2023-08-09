@@ -7,7 +7,7 @@ description: 本页介绍了在23.3版本中发布到“生产”环境的新Ado
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -46,8 +46,8 @@ ht-degree: 0%
                                 <p>预览和生产版本： 2023年7月27日</p>
                             </li>
                             <li>
-                                <p><i>对于使用版本2.1.27的自动安装的用户</i></p>
-                                <p>预览和生产版本：待定</p>
+                                <p><i>对于使用版本2.1.28的自动安装的用户</i></p>
+                                <p>预览和生产版本： 2023年8月10日</p>
                             </li>
                         </ul>
                     </td>
