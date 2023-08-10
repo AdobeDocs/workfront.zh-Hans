@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 3%
 
 有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 文档将在发布版本时更新。
 
-预览和生产：将宣布（在23.3版本期间或之后不久） <!--August 10, 2023-->
+预览和生产： 2023年8月10日
 
 #### 新增其他对象的注释体验
 

@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ drafted for P&P release:
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> 以向评论中添加图像。 必须先将映像保存在计算机上，然后才能附加映像。 <!--**************** this might be renamed to "Add image")-->
-
 1. 单击 **提交** 将更新添加到Workfront对象。
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 点按赞”图标右侧，然后单击 **编辑**.
 1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。
@@ -301,7 +299,6 @@ drafted for P&P release:
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-   | 表情符号 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    要停止设置文本格式，请取消选择 **富文本** 工具栏。
 
@@ -345,7 +342,7 @@ drafted for P&P release:
 
    或
 
-   单击 **添加附件** 图标 ![](assets/add-image-paperclip-icon.png) 使用评论Beta版体验时，和浏览到计算机上的图像。 <!--the name of the icon and the icon for it might change-->
+   单击 **添加附件** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用评论Beta版体验时，和浏览到计算机上的图像。 <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >
