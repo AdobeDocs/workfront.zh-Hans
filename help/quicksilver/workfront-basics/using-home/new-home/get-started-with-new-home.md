@@ -5,10 +5,10 @@ title: 开始使用Adobe Workfront中的新主页
 description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 20%
 
 ### 构件
 
-小组件是New Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 以下是目前可供选择的十个小组件及其显示的信息摘要：
+小组件是New Home的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。 有关添加、移动、调整或删除小部件的信息，请参阅 [在新主页中添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+以下是目前可供选择的十个小组件及其显示的信息摘要：
 
 * **我的工作**\
     该构件是管理各种工作的很好的起点，它可在一个位置显示所有分配的任务、问题和请求。
@@ -50,7 +52,7 @@ ht-degree: 20%
     在具有可自定义列的表格中显示您组织的所有批准项，以及允许您搜索特定批准项的搜索栏。
 
 * **提及**\
-    显示最近在 Workfront 中@提及您的评论线程，以及允许您在构件中撰写回复的回复按钮。
+    显示最近在 Workfront 中@提及您的评论线程，以及允许您在构件中撰写回复的回复按钮。只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
 
 * **待办事项**\
     这个独特的构件允许您向个人核对清单添加文本项目，以便您自由编辑。
@@ -71,11 +73,11 @@ ht-degree: 20%
         <td>我的项目、我的工作、提及、待办事项</td>
     </tr>
     <tr>
-        <td>浅色</td>
+        <td>轻量</td>
         <td>我的工作，等待我的审批，待办事项</td>
     </tr>
     <tr>
-        <td>投稿人</td>
+        <td>参与者</td>
         <td>我的工作、提及、待办事项</td>
     </tr>
     <tr>
@@ -106,7 +108,7 @@ ht-degree: 20%
         <td>我的项目，等待我的审批，待办事项</td>
     </tr>
     <tr>
-        <td>投稿人</td>
+        <td>参与者</td>
         <td>我的工作、提及、待办事项</td>
     </tr>
     <tr>
@@ -114,8 +116,6 @@ ht-degree: 20%
         <td>等待我的审批，待办事项</td>
     </tr>
 </table>
-
-有关添加、移动、调整或删除小部件的信息，请参阅 [在新主页中添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### 后台自定义
 
