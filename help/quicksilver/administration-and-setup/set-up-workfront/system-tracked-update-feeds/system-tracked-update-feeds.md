@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,15 @@ ht-degree: 6%
      您必须拥有额外的许可证才能访问 [!UICONTROL 目标] 区域。 有关信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL 卡片] 在展示板上
 
-     有关信息卡更新的更多信息，请参阅 [向展示板添加临时信息卡](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     有关信息卡更新的更多信息，请参阅 [在展示板上使用连接的信息卡](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] 不跟踪以下对象的任何系统更新：
 
    * [!UICONTROL 团队]
    * [!UICONTROL 模板]
    * [!UICONTROL 模板任务]
+   * 临时 [!UICONTROL 卡片]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL 文档]
    * [!UICONTROL 时间表]
    * [!UICONTROL 迭代]
+   * [!UICONTROL 目标]
+
 
