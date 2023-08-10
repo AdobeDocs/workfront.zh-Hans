@@ -3,9 +3,9 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
+source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 
 * [展示板增强功能](#boards-enhancements)
 * [项目增强功能](#project-enhancements)
+* [其他增强功能](#other-enhancements)
 
 ### 展示板增强功能
 
@@ -61,7 +62,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上可用的仅查看文档</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>对于Adobe Workfront展示板上连接的信息卡，您现在可以查看文档，如图像和PDF。 您可以在浏览器中预览文档或将其下载到计算机。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上可用的仅查看文档</a></p><p>对于Adobe Workfront展示板上连接的信息卡，您现在可以查看文档，如图像和PDF。 您可以在浏览器中预览文档或将其下载到计算机。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -92,7 +93,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">项目讨论区视图现在可用于问题</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>您现在可以访问项目问题列表的“展示板”视图。 Kanban展示板可帮助您以比在列表中查看问题更直观的方式跟踪问题进度。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">项目讨论区视图现在可用于问题</a></p><p>您现在可以访问项目问题列表的“展示板”视图。 Kanban展示板可帮助您以比在列表中查看问题更直观的方式跟踪问题进度。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -149,11 +150,65 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 其他增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023年第四季度期间的外观更新</a></p><p>在2023年第四季度内，我们将对Adobe Workfront应用程序各个区域的外观和操作方式进行细微的更新。 查看各个发行说明以了解具体发行日期。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：整个2023年第四季度发布时间范围</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：查看特定日期的发行说明</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ## 公告
 
 ### Workfront Fusion增强
 
-此版本中目前没有Workfront Fusion更新。 在有可用更新时，将更新此区域。
+Workfront Fusion中的新增功能在2023年第四季度发布计划之外的“生产”环境中一次提供。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner增强
 
