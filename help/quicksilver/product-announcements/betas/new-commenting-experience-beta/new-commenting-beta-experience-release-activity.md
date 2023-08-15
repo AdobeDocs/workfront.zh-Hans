@@ -7,24 +7,43 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1618'
 ht-degree: 3%
 
 ---
 
 # 新的评论体验发布活动
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+
+
 本页包含有关当前在Adobe Workfront中正在进行的新评论体验的发布时间线的信息。
 
 有关新评论体验的一般信息，包括当前可用或正在研究的功能列表，请参阅 [新的评论体验](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+
+<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
+>
+>Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
+>
+><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
+-->
 
 >[!IMPORTANT]
 >
 >23.2版本在Beta版中推出了新的评论体验。 有关原始版本的信息，请参阅 [23.2发行版概述](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->针对Workfront对象发布到Beta Experience的注释功能也作为唯一注释体验发布到以下对象的“更新”部分：
+>对于发布到支持测试版评论体验的Workfront对象的功能，也作为唯一评论体验发布到以下对象的“更新”部分：
 >* 目标
 >* 信息卡位于展示板区域。
 
@@ -42,24 +61,52 @@ ht-degree: 3%
 * 在23.3版本（2023年7月20日）中：
    * 为项目、任务和文档评论Experience Beta。
    * “展示板”区域中信息卡的新评论体验（作为唯一体验）
-* 在23.4版本期间（日期尚未公布）（限量发布）<!--, only available to customers that choose the fast release -->)：
+* 在23.10版本（日期尚未公布）（限量版本，仅向选择快速版本的客户提供）中： <!--for August 17 - add the actual date in here-->
    * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
-* 23.4版本（2023年10月初）
+   * 为项目、任务、问题和文档评论Experience Beta将成为默认选项。 这将结束新评论体验的Beta阶段。
+* 23.10版本（2023年10月）
    * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
-   * 为项目、任务、问题和文档评论Experience Beta将成为默认选项。
+   * 项目、任务、问题和文档的新注释体验将成为默认选项。 这将结束新评论体验的Beta阶段。
 * 2023年底：
-   * 旧版评论体验将保留为以下对象的选项：项目、任务、问题和文档。
+   * 旧版评论体验将保留为以下对象的辅助选项：项目、任务、问题和文档。
 
   >[!NOTE]
   >
-  >    迭代将继续具有旧版评论体验。
+  >    迭代将继续具有旧版评论体验。 新的评论体验将不可用于迭代。
 
 ## 已发布功能
 
-以下部分包含原始版本之后添加的功能的列表，从最近发布的功能开始。
+以下部分包含在原始23.2版本之后添加的功能的列表，从最近发布的功能开始。
+
+<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
+
+>[!IMPORTANT]
+>
+><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
+>
+><span class="preview"></span>
+>
+><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+-->
+
+<!--for the August 17 release: remove the paragraph below and replace it with this: 
+
+The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+-->
 
 以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
+
+<!--add the following with the August 17 release: 
+
+### Week of August 14, 2023
+
+#### Avatar improvements when tagging users in an update
+
+To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+-->
 
 ### 2023年6月19日后发布的功能
 

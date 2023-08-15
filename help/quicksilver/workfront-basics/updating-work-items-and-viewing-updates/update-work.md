@@ -6,20 +6,45 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '3460'
+source-wordcount: '3430'
 ht-degree: 1%
 
 ---
 
 # 更新工作
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -151,6 +176,8 @@ drafted for P&P release:
 
 ### 在当前更新分区中为工作项添加更新
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >以下功能适用于除目标和卡片之外的所有对象。 您必须具有其他许可证才能访问Workfront目标。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -209,15 +236,16 @@ drafted for P&P release:
 
 1. 要回复更新，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### 使用备注测试版体验向工作项添加更新
+### 使用新的评论体验向工作项添加更新
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 在左侧面板中。
-1. 启用 **评论Beta版** 在“更新”区域的右上角切换，然后单击 **同意** 在Beta协议上。 这会将更新区域切换到备注测试版体验。
-此 **评论** 选项卡默认处于选中状态。
+
+   此 **评论** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
+   <!-- August 17 - add new screen shot and make yellow-->
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -245,6 +273,8 @@ drafted for P&P release:
 1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。
 提交评论后，您可以在15分钟内对其进行编辑。 “已编辑”指标将添加到更新评论时显示的日期戳的左侧。
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -254,6 +284,8 @@ drafted for P&P release:
 
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤4 - 8操作。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （视情况而定，可选）如果其他用户添加了显示在“更新”部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -267,7 +299,9 @@ drafted for P&P release:
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png). 图标会随喜欢的数量而更新。
 1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+<!--August 17 - new screen shot and make yellow-->
+
+![](assets/members-icons-expanded-unshimmed.png)
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
    有关详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -313,6 +347,8 @@ drafted for P&P release:
 
 1. （可选）如果要包含来自先前更新或其他来源的文本，并将它们与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线条标记。 单击 **块引用** 图标，以返回正常格式。
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/block-quote-marked-350x144.png)
 
 1. （可选）向更新中添加表情符号。
@@ -342,7 +378,7 @@ drafted for P&P release:
 
    或
 
-   单击 **添加附件** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用评论Beta版体验时，和浏览到计算机上的图像。 <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   单击 **添加附件** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。 <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -366,6 +402,8 @@ drafted for P&P release:
 根据您使用的注释体验，复制更新会有所不同。
 
 ### 复制当前评论体验中的更新
+
+<!--October 26 - replace current with legacy-->
 
 * [复制更新](#copy-the-update)
 * [复制跟帖链接](#copy-the-thread-link)
@@ -431,7 +469,7 @@ drafted for P&P release:
 任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 转到要删除的更新或回复。
-1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**.
+1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -442,6 +480,8 @@ drafted for P&P release:
    >删除具有附加图像的更新会同时删除注释和图像。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
 
    当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
+
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
@@ -481,17 +521,17 @@ drafted for P&P release:
 >[!NOTE]
 >
 >使用新的评论体验时，无法禁用系统更新。
->此部分中的信息仅引用当前更新部分中的可用功能。
+>此部分中的信息仅引用当前更新部分中的可用功能。 <!--October 26: replace current with legacy-->
 >有关Beta版系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront对象的“更新”部分显示两种类型的信息：
 
-* **用户更新：** 用户更新是您和系统中的其他用户输入的注释。
+* **用户更新：** 用户更新是您和系统中的其他用户输入的注释。 <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。
+* **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。 <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/system-updates-cl-350x277.png)
 

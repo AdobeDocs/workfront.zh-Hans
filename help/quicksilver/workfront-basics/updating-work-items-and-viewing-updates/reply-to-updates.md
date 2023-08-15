@@ -8,18 +8,36 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
 # 回复更新
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -49,7 +67,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在新的评论Beta版体验中无法回复系统更新。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>无法在新评论体验中回复系统更新。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## 访问要求
@@ -109,13 +127,13 @@ ht-degree: 0%
 1. （可选）使用格式、表情符号、包含链接或图像，如文章中“在Workfront更新中使用富文本”一节中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 单击 **回复** 以保存回复。
 
-### 回复使用评论Beta版体验时的评论
+### 使用新评论体验时回复评论
 
-有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+有关新的注释体验中可用的功能以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 转到要向其添加回复的对象。
 1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
-1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击要报价的更新或回复 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
+1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 要报价的更新或回复旁边的菜单 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击 **回复**.
 
    您可以在页面底部看到积极参与对话的用户 **新建评论** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
@@ -124,7 +142,7 @@ ht-degree: 0%
 
 1. 单击 **提交** 以保存回复。
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) ，了解更多用于管理回复的选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 在更新旁边 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> 以获取更多用于管理回复的选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## 回复电子邮件通知的更新

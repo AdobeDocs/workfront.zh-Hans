@@ -7,16 +7,20 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # 新的评论体验
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 Adobe Workfront中的评论体验更新目前正在开发中。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
@@ -34,25 +38,6 @@ For additional resources for the new commenting experience, also see the followi
 ## 功能
 
 新的评论体验包括对现有更新流的改进和更改。
-
-<!-- Previous content here - replaced with the table below: 
-
->[!IMPORTANT]
->The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
-
-* **Creating comments**
-
-    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-* **Responding to comments**
-
-    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
-
-* **System Activity**
-    
-    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
--->
 
 新评论体验中包括的改进包括：
 
@@ -73,6 +58,7 @@ For additional resources for the new commenting experience, also see the followi
 >在启用测试版体验时，以下列出的对象仅包含过去一年中（从2022年6月开始）的注释和系统更新。
 >
 >在2022年6月之前查看当前体验中的更新部分时，您可以查看这些对象的注释和系统更新：
+>
 >* 问题
 >* 项目
 >* 任务
@@ -487,24 +473,80 @@ For additional resources for the new commenting experience, also see the followi
 
 ## 找到新的评论体验
 
-在查看以下Workfront版本中的更新部分时，以下对象当前支持新的评论体验：
+以下对象当前支持新的评论体验：
 
-* 在更新部分中启用测试版体验时：
+<!--replace the first bullet with this on August 17: 
+
+<span class="preview">
+
+* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+
+   * Project
+   * Task
+   * Issue
+   * Document
+
+   >[!TIP]
+   >
+   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+
+   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+</span>
+
+-->
+
+* 在的更新部分中启用测试版体验时
 
    * 问题、项目、任务和文档
 
   有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+<!--replace the second bullet with this on August 17: 
 
-* 默认情况下，作为主要评论体验：
+<span class="preview">
 
-   * 讨论区中的目标、信息卡
+* By default, as the only commenting experience for the following objects:  
+
+  * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+>[!TIP]
+>
+>There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
+</span>
+
+-->
+
+* 默认情况下，作为唯一
+
+   * 目标，展示板上的信息卡
 
   >[!NOTE]
   >
   >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-要启用新的评论体验测试版，请执行以下操作：
+<!--display on August 17: 
+
+Depending on the environment you access the commenting experience you can do one of the following: 
+
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
+-->
+
+要启用评论体验测试版，请执行以下操作：
 
 1. 转到要为其激活新评论体验的对象，然后单击 **更新** 在左侧面板中。
 1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
@@ -516,3 +558,19 @@ For additional resources for the new commenting experience, also see the followi
    单击  **系统活动** 选项卡中，用于查看Workfront生成的活动更新。
 
    有关更新新注释体验中的对象的详细信息，请参见 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--make this available for August 17: 
+
+<span class="preview">
+
+To disable the new commenting experience and display the legacy experience: 
+
+1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
+1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
+  
+  This changes the Updates area to the legacy commenting stream. 
+
+1. Start typing an update in the space provided. 
+</span>
+
+-->
