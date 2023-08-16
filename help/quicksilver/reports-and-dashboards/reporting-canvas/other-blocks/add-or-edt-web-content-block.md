@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: other-blocks
 title: 在报告画布中添加或编辑Web内容块
-description: Web内容块允许您直接在报表中显示来自外部网站的信息。
+description: 利用Web内容块，可直接在报表中显示来自外部网站的信息。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -16,16 +18,16 @@ ht-degree: 1%
 
 # 在报告画布中添加或编辑Web内容块
 
-Web内容块允许您直接在报表中显示来自外部网站的信息。
+利用Web内容块，可直接在报表中显示来自外部网站的信息。
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 添加或编辑Web内容块
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击&#x200B;**报告**.
-1. 单击 **新建报告**.
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击&#x200B;**报表**.
+1. 单击 **新报告**.
 
    或
 
@@ -41,10 +43,10 @@ Web内容块允许您直接在报表中显示来自外部网站的信息。
 
    >[!TIP]
    >
-   >通过拖动块角控制滑块，可以在放置块后更改块的大小。
+   >可以通过拖动块拐角手柄来更改块放置后的大小。
 
 1. 单击 **无标题Web内容** 在块标题中，然后键入块的标题。
-1. 单击 **编辑** 图标 ![](assets/edit-icon.png) 块标头中的。
+1. 单击 **编辑** 图标 ![](assets/edit-icon.png) 在块标题中。
 
    ![](assets/web-content-block-header-350x76.png)
 
@@ -62,8 +64,7 @@ Web内容块允许您直接在报表中显示来自外部网站的信息。
    >   * domo.com
    >   * looker.com
 
-
-   如果输入的URL无法被嵌入，则会在其下方显示警告。 这些警告包括：
+   如果输入的URL无法被嵌入，则会在它下面显示警告。 这些警告包括：
 
    | 警告名称 | 原因 |
    |---|---|
@@ -76,6 +77,6 @@ Web内容块允许您直接在报表中显示来自外部网站的信息。
 
    >[!WARNING]
    >
-   >传递参数当前被禁用。
+   >传递参数当前已禁用。
 
-1. 单击 **嵌入URL** 以保存所做选择并返回到报表。
+1. 单击 **嵌入URL** 以保存所做的选择并返回到报表。

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 导出报告
 
@@ -36,8 +38,8 @@ ht-degree: 1%
    >
    >   * 如果将包含多个表的报告导出为XLSX格式，则导出的文件包含每个表的单独工作表。
    >   * 如果将包含多个表的报表导出为CSV格式，则导出的结果是一个压缩文件夹，其中包含每个表的单独文件。
-   >   * 如果将包含已分组行的表导出为CSV格式，则CSV文件包含所有行，但它们不显示在组中。
-
+   >   * 如果将包含分组行的表导出为CSV格式，则CSV文件包含所有行，但它们不会以分组形式显示。
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

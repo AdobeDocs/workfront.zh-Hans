@@ -1,10 +1,12 @@
 ---
-title: 在报告画布中添加或编辑可视化图表块
-description: 在报告画布中添加或编辑可视化图表块
+title: 在报表画布中添加或编辑可视化图表块
+description: 在报表画布中添加或编辑可视化图表块
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%
@@ -12,9 +14,9 @@ ht-degree: 1%
 ---
 
 
-# 在报告画布中添加或编辑可视化图表块
+# 在报表画布中添加或编辑可视化图表块
 
-可视化图表可以通过以易于理解的方式突出显示重要信息，帮助您用数据讲述故事。
+可视化图表可以帮助您以易于理解的方式突出显示重要信息，从而用数据讲述故事。
 
 您可以向报表中添加以下类型的可视化图表：
 
@@ -25,16 +27,16 @@ ht-degree: 1%
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 添加或编辑可视化图表块
 
 >[!TIP]
 >
->在报告中构建和编辑块时，会自动保存所有更改。
+>当您在报表中构建和编辑块时，会自动保存所有更改。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报告**.
-1. 单击 **新建报告**，然后创建一个包含数据表的报表，如中所述 [在报告画布中构建报告](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) 和 [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **新报告**，然后创建包含数据的报表，如中所述 [在报告画布中构建报告](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) 和 [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    或
 
@@ -50,19 +52,19 @@ ht-degree: 1%
 
    或
 
-   选择 **可视化** 图标****画布上现有表的顶部。
+   选择 **可视化** 图标****在画布上的现有表格的顶部。
 
    >[!TIP]
    >
    >放置块后，可通过拖动其角手柄来更改块的大小。
 
-1. （视情况而定）如果报表包含多个表，则在 **构建可视化** 框，为可视化图表选择源表。
+1. （视情况而定）如果报表包含多个表，则在 **构建可视化** 框，为可视化选择源表。
 
    ![](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >如果您选择 **+添加新表**，则会在可视化图表块下方创建新表块。 您必须先使用数据填充表，然后才能为其添加可视化。 有关创建和编辑表的详细信息，请参见[ [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >如果您选择 **+添加新表**，则会在可视化图表块下方创建新表块。 您必须先使用数据填充表，然后才能为其添加可视化。 有关创建和编辑表格的详细信息，请参见[ [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. 选择要添加的可视化图表类型。
 
@@ -76,7 +78,7 @@ ht-degree: 1%
 
 1. 继续配置可视化：
 
-   * **条形图** 可视化图表：有关说明，请参阅 [在报表画布中配置条形图可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **列** 可视化图表：有关说明，请参阅 [在报告画布中配置列可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **饼图** 可视化图表：有关说明，请参阅 [在报表画布中配置饼图可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** 可视化图表：有关说明，请参阅 [在报告画布中配置KPI可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **条形图** 可视化：有关说明，请参阅 [在报表画布中配置条形图可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * **列** 可视化：有关说明，请参阅 [在报告画布中配置列可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * **饼图** 可视化：有关说明，请参阅 [在报表画布中配置饼图可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * **KPI** 可视化：有关说明，请参阅 [在报告画布中配置KPI可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

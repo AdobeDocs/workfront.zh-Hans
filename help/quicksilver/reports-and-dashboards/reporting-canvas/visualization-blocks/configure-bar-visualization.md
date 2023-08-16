@@ -4,7 +4,9 @@ description: 在报表画布中配置条形图可视化
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -18,17 +20,17 @@ ht-degree: 2%
 
 ## 先决条件
 
-在开始之前，您必须注册报表画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## 配置条形图可视化图表
+## 配置条形图可视化
 
 >[!NOTE]
 >
->在报告中构建和编辑块时，会自动保存所有更改。
+>当您在报表中构建和编辑块时，会自动保存所有更改。
 
-1. 首先，添加一个可视化图表块，其中 **条形图** 报表的可视化图表类型，如中所述 [在报告画布中添加或编辑可视化图表块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. 首先，添加一个可视化图块，其中 **条形图** 报表可视化图表类型，如中所述 [在报表画布中添加或编辑可视化图表块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. 单击“编辑可视化图表”图标 ![](assets/edit-icon.png) 然后，在可视化的右上角执行以下任一操作。
+1. 单击编辑可视化图标 ![](assets/edit-icon.png) 然后执行以下任一操作。
 
    1. 在 **设置** 选项卡：
 
@@ -42,7 +44,7 @@ ht-degree: 2%
         </tr>
         <tr>
          <td role="rowheader">垂直轴</td>
-         <td><p>选择要沿条形图可视化图表的垂直左边缘或Y轴描述的数据。 可视化图表会根据水平轴上的每个项目比较此轴上的项目。</p></td>
+         <td><p>选择要沿条形图可视化图表的垂直左边缘或Y轴描述的数据。 可视化图表会根据水平轴上的每个项比较此轴上的项。</p></td>
         </tr>
         <tr>
          <td role="rowheader">水平轴</td>
@@ -52,7 +54,7 @@ ht-degree: 2%
            <li><p><b>总和</b>：所有值的总计 </p></li>
            <li><p><b>Average</b>：所有值的平均值</p></li>
            <li><p><b>最小值</b>：仅最小值</p></li>
-           <li><p><b>最大值</b>：仅最高值</p></li>
+           <li><p><b>最大值</b>：仅最大值</p></li>
           </ul></td>
         </tr>
         <tr>
@@ -74,4 +76,4 @@ ht-degree: 2%
       NOLAN-FLAG: convert table to html. 
       -->
 
-1. 单击可视化图表设置菜单之外的任意位置将其关闭。
+1. 单击可视化设置菜单之外的任意位置将其关闭。
