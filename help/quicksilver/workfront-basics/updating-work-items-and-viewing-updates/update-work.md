@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3496'
 ht-degree: 1%
 
 ---
@@ -19,56 +19,55 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>我们当前正在重新设计Adobe Workfront中的评论体验。
+>根据您从哪些环境和哪些对象中访问评论体验，您可能会在更新部分中看到不同的功能。
+>
+>有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新的评论体验仅适用于“更新”部分，不适用于以下区域：
+>
+> * 主页
+> * 列表中的摘要面板
+> * 时间表中的“摘要”面板
 
-<!-- with October 26 release: add somewhere this:
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old message, before Auhust 17: 
 
 >[!NOTE]
 >
->我们当前正在重新设计Adobe Workfront中的评论体验。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->您可以访问以下对象的新体验：
-> * 问题、项目、任务和文档。
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     当您启用备注测试版体验时，该选项可用。
+>     This is available when you enable the commenting Beta experience.
 >
->     此功能仅适用于更新部分，不适用于以下区域：
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * 主页
->     * 列表中的摘要面板
->     * 时间表中的“摘要”面板
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 讨论区中的目标、信息卡
+> * Goals, cards in the Boards area
 >
->   新的评论体验是目标和信息卡的唯一体验。 您必须具有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
-
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->
 
 ## 有关更新工作的注意事项
 
@@ -170,8 +169,6 @@ drafted for P&P release:
 
 ## 向工作项添加更新
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
-
 向工作项添加更新会因更新部分的版本以及您选择的对象而异。
 
 ### 在当前更新分区中为工作项添加更新
@@ -245,9 +242,8 @@ drafted for P&P release:
 
    此 **评论** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
-   <!-- August 17 - add new screen shot and make yellow-->
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -257,7 +253,7 @@ drafted for P&P release:
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此注释中的用户或团队的名称或电子邮件，然后当其显示在列表中时将其选定。
-1. （可选）使用富文本，或添加 <!--hidden for August 10: emojis,--> 链接或图像到您的更新，以增强您的内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
+1. （可选）使用富文本或在更新中添加表情符号、链接或图像来增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
 
    >[!TIP]
    >
@@ -266,16 +262,14 @@ drafted for P&P release:
    >指示符仅在提交项目的评论之后显示，而不会在评论仍在撰写时显示。
    >
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
 
 1. 单击 **提交** 将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 点按赞”图标右侧，然后单击 **编辑**.
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png)  <span class="preview">在注释的右上角</span>，然后单击 **编辑**.
 1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。
 提交评论后，您可以在15分钟内对其进行编辑。 “已编辑”指标将添加到更新评论时显示的日期戳的左侧。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
@@ -283,13 +277,19 @@ drafted for P&P release:
    >* 评论旁边的日期戳是原始评论的日期，而不是上次编辑的日期。
 
 1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤4 - 8操作。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">要向现有回复添加更多回复，您可以开始输入 **添加回复……** 框，或单击 **回复** 在原始注释上。 您的回复将添加到线程的末尾。</span>
+
+
 1. （视情况而定，可选）如果其他用户添加了显示在“更新”部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
 
    屏幕底部会显示其他注释。
+
+
 
    >[!NOTE]
    >
@@ -299,9 +299,12 @@ drafted for P&P release:
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png). 图标会随喜欢的数量而更新。
 1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
-<!--August 17 - new screen shot and make yellow-->
+   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
 
-![](assets/members-icons-expanded-unshimmed.png)
+   >[!TIP]
+   >
+   >   <span class="preview">前两个已标记实体的名称显示在它们的头像旁边。 如果标记了两个以上的实体，则只显示第一个实体的名称，并显示附加实体的数量。</span>
+
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
    有关详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -310,19 +313,22 @@ drafted for P&P release:
    >
    >您无法向系统更新添加注释。
 
-
 ## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
 
-<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->富文本工具栏中的某些选项可能不适用于注释测试版体验。
+>富文本工具栏中的某些选项可能不适用于新的注释体验。
 
 您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强更新。
 
 1. 转到 **更新** Workfront区域，并开始键入注释。
-1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏中。 <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
+1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏中。
+
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
@@ -336,7 +342,7 @@ drafted for P&P release:
 
    要停止设置文本格式，请取消选择 **富文本** 工具栏。
 
-   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
@@ -347,9 +353,7 @@ drafted for P&P release:
 
 1. （可选）如果要包含来自先前更新或其他来源的文本，并将它们与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线条标记。 单击 **块引用** 图标，以返回正常格式。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/block-quote-marked-350x144.png)
+   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
 
 1. （可选）向更新中添加表情符号。
 
@@ -416,7 +420,7 @@ drafted for P&P release:
 1. 转到要复制的更新或回复。
 1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
 
-   ![选择复制正文文本](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### 复制跟帖链接 {#copy-the-thread-link}
 
@@ -435,14 +439,13 @@ drafted for P&P release:
 1. 转到要复制的更新或回复。
 1. 单击 **更多** 菜单，然后单击 **复制更新链接**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
-
+   ![](assets/copy-update-link-old-ui.png)
 
 ### 在新的评论体验中复制更新
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 * [复制链接](#copy-link)
 * [复制正文文本](#copy-body-text)
@@ -469,7 +472,7 @@ drafted for P&P release:
 任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 转到要删除的更新或回复。
-1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**. <!--October 26 - replace screen shot here-->
+1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -481,9 +484,7 @@ drafted for P&P release:
 
    当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
 
-   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
-
-   ![](assets/removed-comment-indicator-new-experience.png)
+   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
 
    使用备注测试版体验时，已删除的备注会立即从Workfront中删除。 使用更新分区的用户会看到评论被其他用户实时删除。
 
@@ -514,9 +515,9 @@ drafted for P&P release:
 
 ## 启用或禁用系统更新
 
-<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+<!--October 2023: remove the whole section because this is no longer possible -->
 
-<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
+<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
@@ -527,11 +528,11 @@ drafted for P&P release:
 
 Workfront对象的“更新”部分显示两种类型的信息：
 
-* **用户更新：** 用户更新是您和系统中的其他用户输入的注释。 <!--August 17 - new screen shot and make yellow-->
+* **用户更新：** 用户更新是您和系统中的其他用户输入的注释。 <!--October 2023 - new screen shot -->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。 <!--August 17 - new screen shot and make yellow-->
+* **系统更新：** 系统更新记录删除资产、添加或删除版本、附加或删除审批请求，以及对对象上的文档所做的任何编辑或更改。 <!--October 2023 - new screen shot -->
 
   ![](assets/system-updates-cl-350x277.png)
 

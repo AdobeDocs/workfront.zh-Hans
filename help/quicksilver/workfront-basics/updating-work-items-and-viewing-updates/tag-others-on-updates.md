@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
@@ -17,49 +17,51 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
+<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+>[!IMPORTANT]
+>
+>我们当前正在重新设计Adobe Workfront中的评论体验。
+>根据您从哪些环境和哪些对象中访问评论体验，您可能会在更新部分中看到不同的功能。
+>
+>有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新的评论体验仅适用于“更新”部分，不适用于以下区域：
+>
+> * 主页
+> * 列表中的摘要面板
+> * 时间表中的“摘要”面板
+
+
+<!--old note before August 17: 
+
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 -->
-
->[!NOTE]
->
->我们当前正在重新设计Adobe Workfront中的评论体验。
->
->有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->您可以访问以下对象的新体验：
-> * 问题、项目、任务和文档。
->
->     当您启用备注测试版体验时，该选项可用。
->
->     此功能仅适用于更新部分，不适用于以下区域：
->
->     * 主页
->     * 列表中的摘要面板
->     * 时间表中的“摘要”面板
->
-> * 讨论区中的目标、信息卡
->
->   新的评论体验是目标和信息卡的唯一体验。 您必须具有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
-
 
 在更新对象时，如果想要吸引用户注意在其他情况下他们可能不会关注的对象，则可以标记用户。
 您可以在更新中标记这些用户以与他们共享，而不是通过将其分配给对象或使其订阅来将这些用户包含在对象中。 已标记的用户将收到有关您输入的更新的通知。
@@ -204,16 +206,10 @@ ht-degree: 0%
 1. 单击 **提交**.\
    更新中包含的用户会被自动授予对象的“查看”权限，并且可以查看和响应对对象所做的更新。
 
-   您可以在成员区域的更新文本下看到每个回复中均标有哪些人。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。
-
-   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
-
-1. （可选）单击数字 **成员** 包含在更新中，显示与您输入的更新共享到的实体列表。
-
-   <!--update screen shot for August 17-->
+   <span class="preview">标记实体的名称显示在它们的头像旁边，最多两个实体。 如果标记了两个以上的实体，则除了显示标记了多少个其他实体外，还会显示第一个实体的名称。</span>
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) “赞”图标右侧 <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->，然后单击 **编辑**. 删除所有已标记的用户，然后单击 **提交**. 只有在输入评论后15分钟内才能对其进行编辑。 您只能编辑添加的注释。
+1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) <span class="preview">在注释的右上角</span>，然后单击 **编辑**. 删除所有已标记的用户，然后单击 **提交**. 只有在输入评论后15分钟内才能对其进行编辑。 您只能编辑添加的注释。

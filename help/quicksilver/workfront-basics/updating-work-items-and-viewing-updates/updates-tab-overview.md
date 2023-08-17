@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 4%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>我们当前正在重新设计Adobe Workfront中的评论体验。
+>
+>根据您从哪些环境和哪些对象中访问评论体验，您可能会在更新部分中看到不同的功能。
+>
+>有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新的评论体验仅适用于“更新”部分，不适用于以下区域：
+>
+> * 主页
+> * 列表中的摘要面板
+> * 时间表中的“摘要”面板
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 4%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->我们当前正在重新设计Adobe Workfront中的评论体验。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->有关新评论体验的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->您可以访问以下对象的新体验：
-> * 问题、项目、任务和文档。
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     当您启用新的评论体验时，该选项可用。
+>     This is available when you enable the new commenting experience.
 >
->     此功能仅适用于更新部分，不适用于以下区域：
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * 主页
->     * 列表中的摘要面板
->     * 时间表中的“摘要”面板
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 讨论区中的目标、信息卡
+> * Goals, cards in the Boards area
 >
->   新的评论体验是目标和信息卡的唯一体验。 您必须具有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-对象的“更新”部分显示用户对对象所做的注释或跟踪对象更改的系统更新。
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## “更新”部分的概述
-
-根据您从中访问信息的环境，“更新”部分中的信息将以不同的方式进行组织。
-
-### “当前更新”部分的概述
-
-<!--October 26 - replace current with legacy-->
 
 * 对象的“更新”部分显示过去90天内进行的最近200次更新。
 
@@ -106,12 +103,20 @@ ht-degree: 4%
       <li>模板任务</li> 
       <li>时间表</li> 
       <li>用户</li>
+      <li>展示板上的信息卡</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *故事是任务。 与任务相关的所有信息也可用于故事。
+
+根据您从中访问信息的环境，“更新”部分中的信息将以不同的方式进行组织。
+
+
+### “当前更新”部分的概述
+
+<!--October 26 - replace current with legacy-->
 
 * 当前的“更新”部分显示以下信息：
 
@@ -128,74 +133,88 @@ ht-degree: 4%
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 更新部分显示新评论体验中以下选项卡中的信息：
 
    * **评论**：显示用户发表的评论以及对这些评论的回复。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，您可以使用系统更新捕获状态、名称或自定义字段中的更改。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * 目前，您可以在以下对象上使用新的注释体验添加注释和回复更新：
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * 项目
+   * 任务（和故事）
+   * 问题
+   * 文档
+   * 目标
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >您必须具有其他许可证才能访问Workfront目标。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * 展示板上的信息卡
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > 在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * 模板
+   * 模板任务
+   * 时间表
+   * 用户
+   * 项目组合
+   * 项目群
+
+  >[!NOTE]
+  >
+  >    不能显示迭代的新注释体验。
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>目标</p>
-        <li>展示板区域中的信息卡*</li>
-          这是目标和信息卡的唯一体验。
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>项目</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>问题</li> 
-        <li>任务</li>
-        <li>文档</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*在信息卡上启用“备注”和“系统活动”部分时，您可以在“展示板”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## 也出现在较高排名对象上的更新
 
@@ -287,7 +306,11 @@ ht-degree: 4%
 
 ### 用户和团队的限制
 
-您无法对团队进行更新。 团队的“更新”部分由在以下对象上输入的更新填充：
+您无法在团队的“更新”部分中添加新注释。
+
+<span class="preview">您可以向在团队中查看的更新添加回复。 回复显示在团队的“更新”部分以及它所属对象的更新部分中。 </span>
+
+团队的“更新”部分由在以下对象上输入的更新填充：
 
 * 用户
 * 时间表

@@ -7,20 +7,19 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 1%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
 # 新的评论体验
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Adobe Workfront中的评论体验更新目前正在开发中。 此更新包括新界面、新功能和所选对象更新部分中的改进性能。
 
@@ -473,83 +472,97 @@ For additional resources for the new commenting experience, also see the followi
 
 ## 找到新的评论体验
 
-以下对象当前支持新的评论体验：
+新的注释环境当前可用于以下对象和以下环境：
 
-<!--replace the first bullet with this on August 17: 
+* 在“生产”环境中，所有客户均可执行以下操作：
 
-<span class="preview">
+   * 在的更新部分中启用测试版体验时
 
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+      * 问题、项目、任务和文档
 
-   * Project
-   * Task
-   * Issue
-   * Document
+     有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+   * 默认情况下，作为唯一
 
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+      * 目标，展示板上的信息卡
 
-</span>
+     >[!NOTE]
+     >
+     >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+* <span class="preview"> 在所有客户的预览环境中 </span>
 
-* 在的更新部分中启用测试版体验时
+  <span class="preview">
 
-   * 问题、项目、任务和文档
+   * 默认情况下，当您在更新部分中为以下对象启用新注释体验时：
 
-  有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * 项目
+      * 任务
+      * 问题
+      * 文档
 
-<!--replace the second bullet with this on August 17: 
+     >[!TIP]
+     >
+     >默认情况下，将对这些对象启用新建评论体验选项。 您可以取消选择“新建注释”切换开关以显示旧版注释体验。
 
-<span class="preview">
+     有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* By default, as the only commenting experience for the following objects:  
+  </span>
 
-  * Goal
+  <span class="preview">
+
+   * 默认情况下，作为以下对象的唯一注释体验：
+
+      * 目标
+
+        >[!NOTE]
+        >
+        >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * 展示板上的信息卡
+      * 团队
+      * 模板
+      * 模板任务
+      * 时间表
+      * 项目群
+      * 项目组合
+      * 用户
+
+     >[!TIP]
+     >
+     >没有选项可为迭代启用新的评论体验。 只有旧版评论体验可用于迭代。
+
+  </span>
+
+<!--before August 17: 
+
+The new commenting experience is currently supported for the following objects:
+
+
+* When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+* By default, as the only commenting experience for
+
+    * Goals, cards on a board
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
 
 -->
 
-* 默认情况下，作为唯一
+根据您访问评论体验的环境，可以执行以下操作之一：
 
-   * 目标，展示板上的信息卡
+* 在生产环境中启用评论体验测试版
+* <span class="preview">在预览环境中启用旧版评论体验 </span>
 
-  >[!NOTE]
-  >
-  >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--display on August 17: 
-
-Depending on the environment you access the commenting experience you can do one of the following: 
-
-* Enable the commenting experience Beta in the Production environment
-* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
--->
-
-要启用评论体验测试版，请执行以下操作：
+要在生产环境中启用评论体验测试版，请执行以下操作：
 
 1. 转到要为其激活新评论体验的对象，然后单击 **更新** 在左侧面板中。
-1. 启用 **评论Beta版** 切换到“更新”区域的右上角。
+1. 单击 **评论Beta版** 在“更新”区域的右上角切换以启用它。
 1. 单击 **同意** 在Beta协议框中。 这将为所选对象启用新的注释体验。
 1. 在中开始键入更新 **评论** 选项卡。 打开新Experience时，“评论”选项卡应为默认选项卡
 
@@ -557,20 +570,19 @@ Depending on the environment you access the commenting experience you can do one
 
    单击  **系统活动** 选项卡中，用于查看Workfront生成的活动更新。
 
-   有关更新新注释体验中的对象的详细信息，请参见 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<!--make this available for August 17: 
-
 <span class="preview">
 
-To disable the new commenting experience and display the legacy experience: 
+要禁用新的评论体验并在“预览”环境中显示旧版体验，请执行以下操作：
 
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
+1. 转到项目、任务、问题或文档，然后单击 **更新** 在左侧面板中。
+1. 单击 **新建注释** 在更新区域的右上角进行切换，以取消选择该切换并禁用新体验。
 
-1. Start typing an update in the space provided. 
+这会将更新区域更改为旧版评论流。
+
+1. 在中开始键入更新 **评论** 选项卡。 打开新Experience时，“评论”选项卡应为默认选项卡
+
+   或
+
+   单击  **系统活动** 选项卡中，用于查看Workfront生成的活动更新。
+
 </span>
-
--->
