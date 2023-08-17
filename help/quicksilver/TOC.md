@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [管理信息卡](agile/get-started-with-boards/move-board-items.md)
       * [管理信息卡上的清单项目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [在信息卡上添加文档](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [从展示板中删除或存档信息卡](agile/get-started-with-boards/delete-board-items.md)
       * [在展示板中过滤和搜索](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1096,7 +1097,7 @@ ht-degree: 1%
          * [Adobe Experience Manager集成疑难解答](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 从旧版或增强型连接器迁移 {#migrate-from-legacy-enhanced-connectors}
       * [从旧版或增强型连接器迁移](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [从旧版或增强型连接器迁移到Workfront，以便进行Adobe Experience Manageras a Cloud Service集成](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [从旧版或增强型连接器迁移到Workfront，以便进行AdobeExperience Manageras a Cloud Service集成](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [从旧连接器迁移到增强连接器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [使用Adobe Experience Manager旧版连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [使用Adobe Experience Manager增强型连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)

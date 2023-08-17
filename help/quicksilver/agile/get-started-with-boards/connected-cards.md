@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 0%
 * [!UICONTROL 状态]
 * [!UICONTROL 计划的完成日期]
 * [!UICONTROL 估计] / [!UICONTROL 故事点]
+* <span class="preview">[!UICONTROL 文档]</span>
 
 >[!NOTE]
+>
 >每个展示板只能添加一次单个连接的任务或问题。 同一任务或问题可以连接到多个讨论区。
 
 ## 访问要求
@@ -143,8 +145,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[！UICONTROL文档]</strong></span></td>
-      <td><span class="preview"><p>将鼠标悬停在文档缩略图上，然后单击 <strong>预览</strong> 在浏览器中查看文件，或者 <strong>下载</strong> 将文件下载到您的计算机。</p></span>
-      <span class="preview"><p><strong>注意：</strong> 此时，必须将文档上传到Workfront任务，才能在连接的卡片上使用。</p></span></td>
+      <td><span class="preview">对于现有文档，将鼠标悬停在文档缩略图上，然后单击 <strong>预览</strong> 在浏览器中查看文件，或者 <strong>下载</strong> 将文件下载到您的计算机。 有关新文档，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在信息卡上添加文档</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL小时]</strong></td>

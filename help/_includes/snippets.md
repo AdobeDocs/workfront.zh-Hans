@@ -1,7 +1,7 @@
 ---
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 0%
 ## 预览和快速发布2023年第4季度 {#preview-and-fast-release}
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## 文章级别 — 2023年第四季度预览和快速发布 {#article-preview-and-fast-release}
+
+<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
 <span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
@@ -289,7 +297,7 @@ ht-degree: 0%
    >* 当分配给项目的用户将该项目置于与“完成”按钮关联的状态时，无论您选择的状态是“已完成”、“已关闭”还是工作状态，该项目都将显示为该用户的“完成”。
    >   
    >   
-   >  例如，将“完成”按钮与“进行中”关联后，对于将状态从“新建”更改为“进行中”的用户，工作项显示为“已完成”。
+   >  例如，将“完成”按钮与“进行中”关联后，对于将状态从“新建”更改为“进行中”的用户，工作项显示为“完成”。
    >   
    >* 问题类型可自定义，并且它们的名称可能与您的环境中下面列出的不同。\
    >  以下是默认的任务和问题类型：
