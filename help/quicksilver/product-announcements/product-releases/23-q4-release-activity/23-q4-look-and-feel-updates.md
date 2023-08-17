@@ -4,7 +4,7 @@ description: 2023年第四季度发布时间范围内的外观更新
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 我们更新了“设置”>“电子邮件”>“通知”区域中有关“电子邮件通知”、“提醒通知”和“电子邮件模板”的选项卡，使其设计更加现代化，与Workfront的其他区域一致。
 
-有关信息，请参阅 [为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+有关信息，请参阅 [为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
