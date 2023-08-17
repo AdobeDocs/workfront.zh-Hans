@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 2%
 
 以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
 
-### 2023年8月14日开始的一周（2023年第四季度版本开始）
+### 2023年8月14日起一周
+
+[观看在2023年8月14日这一周内发布的所有功能的视频演示](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 新增其他对象的注释体验
 
