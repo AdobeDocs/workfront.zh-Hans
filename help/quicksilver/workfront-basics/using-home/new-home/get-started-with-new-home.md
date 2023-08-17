@@ -5,10 +5,10 @@ title: 开始使用Adobe Workfront中的新主页
 description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ ht-degree: 19%
     </tr>
     <tr>
         <td>轻量</td>
-        <td>我的工作，等待我的审批，待办事项</td>
+        <td>我的工作，等待我的审批</td>
     </tr>
     <tr>
         <td>参与者</td>
-        <td>我的工作、提及、待办事项</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的审批，待办事项</td>
+        <td>等待我的批准</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ ht-degree: 19%
     </tr>
     <tr>
         <td>复查</td>
-        <td>我的工作、提及、待办事项</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>有限</td>
-        <td>我的项目，等待我的审批，待办事项</td>
+        <td>我的项目，等待我的审批</td>
     </tr>
     <tr>
         <td>参与者</td>
-        <td>我的工作、提及、待办事项</td>
+        <td>我的工作，提及</td>
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的审批，待办事项</td>
+        <td>等待我的批准</td>
     </tr>
 </table>
 
