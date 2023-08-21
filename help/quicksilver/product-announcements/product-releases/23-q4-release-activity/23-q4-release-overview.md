@@ -3,9 +3,9 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>按季度发布的生产：使用23.10版本（除非另有说明）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的新筛选器选项</a> </p>
+                        <p>新主页中的“我的工作”小组件现在提供新筛选器选项。 选项包括对象类型（任务、问题和请求）和状态（未就绪、准备开始、处理和完成）的筛选器。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.8版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p>
+                        <p>为了更好地满足组织的独特需求，“新主页”现在为实例布局模板中定义的对象使用自定义术语。 例如，如果“项目”对象在您的Workfront实例中被重新标记为“促销活动”，则“我的项目”小组件将在“新主页”中显示为“我的促销活动”。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.8版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">为禁用了“新建主页”的帐户删除了“尝试新建主页”按钮</a> </p>
+                        <p>对于已禁用“新建主页”的帐户，“尝试新建主页”按钮不再出现。 新主页必须由系统管理员重新启用，然后个人用户才能使用该按钮尝试新主页。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.8版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
                             </li>
                         </ul>
                     </td>
