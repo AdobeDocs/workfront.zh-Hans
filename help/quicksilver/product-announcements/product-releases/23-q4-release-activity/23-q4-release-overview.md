@@ -3,7 +3,7 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年8月3日<br /></p>
+                                <p>预览版本： 2023年8月3日</p>
                             </li>
                             <li>
                                 <p>为展示板提早访问生产： 2023年8月10日</p>
@@ -88,7 +88,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年8月3日<br /></p>
+                                <p>预览版本： 2023年8月3日</p>
                             </li>
                              <li>
                                 <p>用于快速发布的生产：使用23.8版本</p>
@@ -105,10 +105,10 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年8月21日<br /></p>
+                                <p>预览版本： 2023年8月21日</p>
                             </li>
                             <li>
-                                <p>为展示板提供生产环境及早访问：待定</p>
+                                <p>为展示板提早访问生产： 2023年8月24日</p>
                             </li>
                             <li>
                                 <p>快速发布生产：待定</p>
