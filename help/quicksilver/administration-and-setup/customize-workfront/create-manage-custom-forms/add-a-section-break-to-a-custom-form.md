@@ -7,9 +7,9 @@ description: 您可以将自定义表单中的自定义字段和小组件分组�
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ ht-degree: 0%
       <td role="rowheader"> <p>授予访问权限</p> </td> 
       <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。 
        <p>以下权限位于 <b>具有该对象访问权限的用户可以查看字段值</b>：</p> 
-         <ul>  
+         <ul>
+          <li><strong>视图</strong>：查看对象的权限</li>
           <li><p><b>有限编辑</b>：（仅当对象是项目、任务、问题或用户时才可用）：</p> 
           <p>允许用户在对象是项目、任务或问题时，向该对象投稿。</p>
           <p>如果用户是用户，则允许用户编辑配置文件或拥有对象的配置文件权限。</p></li> 
