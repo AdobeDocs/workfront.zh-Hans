@@ -7,9 +7,9 @@ description: 您可以在中创建新方案模板 [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >通过保存模板，您可以使其对所有团队成员可见。 如果您希望可以在团队外部访问模板，则必须提交请求以批准和发布模板。 该请求将进入Adobe Workfront进行审批，在获得批准后，您团队之外的其他人可以访问该模板。
+>
+>有关发布模板的信息，请参阅 [发布和共享 [!DNL Adobe Workfront Fusion] 模板](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### 从场景创建模板
 
