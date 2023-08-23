@@ -2,25 +2,25 @@
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: 自定义信息卡上显示的字段
-description: 您可以通过禁用某个字段以使其不在全卡片或压缩视图中显示，或隐藏压缩卡片视图上的字段来自定义要在卡片上显示的字段。
+description: 您可以通过禁用字段以使其不显示在全卡片或压缩视图中，或隐藏压缩卡片视图上的字段来自定义要在卡片上显示的字段。
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
 
 # 自定义信息卡上显示的字段
 
-默认情况下，所有可用字段都会显示在信息卡上，包括信息卡打开时的完整视图以及展示板上的压缩信息卡视图。 您可以通过以下方式自定义显示哪些字段：
+默认情况下，所有可用字段都会显示在信息卡上，包括信息卡打开时的全视图以及展示板上的压缩信息卡视图。 您可以通过以下方式自定义显示哪些字段：
 
 * 禁用字段，使其不显示在任一视图中
 * 在压缩的卡片视图上隐藏字段
 
-如果某个字段包含值，而您禁用了该字段，那么如果您稍后再次启用该字段，则会保留该值。
+如果某个字段包含值，而您禁用了该字段，则稍后再次启用该字段时，该值将保留。
 
 部分（在信息卡详细信息中显示为左侧导航选项）也可用于显示和隐藏。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -51,36 +51,36 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 配置信息卡 {#configure-cards}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) （位于的右上角） [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 单击 [!UICONTROL **配置**] ，打开“配置”面板。
 1. 展开 [!UICONTROL **卡片**].
 
    默认情况下，大多数字段和部分处于启用状态。
 
-1. 关闭字段或部分以禁用这两个卡片视图中的字段或部分。
+1. 关闭字段或部分以在这两个卡片视图中禁用它。
 1. 单击隐藏图标 ![“隐藏”图标](assets/eye-hide-icon.png) 显示在字段或区域旁边，以将其隐藏在精简视图中。
 1. 要显示两个视图中的所有字段和部分，请单击 [!UICONTROL **将所有字段恢复为默认值**].
 1. 单击 [!UICONTROL **隐藏配置**] 以关闭“配置”面板。
 
-## 将自定义字段添加到信息卡
+## 将自定义字段添加到卡片
 
-连接的信息卡上提供了自定义字段。 它们仅在全卡片视图中可见，而在展示板上的精简视图中不可见。
+连接的卡片上提供自定义字段。 它们仅在全卡片视图中可见，而在展示板上的精简视图中不可见。
 
 >[!NOTE]
 >
 >当您将自定义字段添加到信息卡时，信息卡上的数据为只读。
 
-1. 访问展示板并单击 [!UICONTROL **配置**] 以打开“配置”面板。
+1. 访问展示板并单击 [!UICONTROL **配置**] 以打开配置面板。
 1. 展开 [!UICONTROL **卡片**].
 1. 下 [!UICONTROL 卡片字段]，单击 [!UICONTROL **添加自定义字段**].
 1. 选择 [!UICONTROL **任务**] 或 [!UICONTROL **问题**].
 
-   出现任务或问题的可用字段类别。 展开类别可查看所有字段。 您还可以搜索字段。
+   出现任务或问题的可用字段类别。 展开类别以查看所有字段。 您还可以搜索字段。
 
    ![搜索自定义字段](assets/boards-search-for-custom-field.png)
 
@@ -95,4 +95,8 @@ ht-degree: 0%
 
    ![自定义字段值和标签](assets/save-custom-field-value-label.png)
 
-   自定义字段将添加到可用字段列表，默认情况下处于启用状态。 您可以按照 [配置信息卡](customize-fields-on-card.md#configure-cards) 部分，编辑该字段或从所有信息卡中删除它。
+   该自定义字段将添加到可用字段列表，默认情况下处于启用状态。 您可以按照 [配置信息卡](customize-fields-on-card.md#configure-cards) 部分，编辑该字段或从所有信息卡中删除它。
+
+>[!NOTE]
+>
+>如果您稍后在Workfront中重命名自定义字段，则必须编辑“配置”面板上的字段标签以使其匹配，否则该字段将不会显示在卡片上。
