@@ -7,9 +7,9 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    当有人更改对象中计算自定义字段引用的其他对象中的数据时，更改不会自动反映在对象中。 有关手动更新对象中所有已计算的自定义字段的信息，请参阅 [重新计算对象的所有已计算自定义字段](#recalculate-all-calculated-custom-fields-for-an-object) 本文章中。
 
-   <span class="preview">修改页面上的依赖字段时，自定义表单上的计算字段会实时动态重新计算。 您无需保存表单即可查看更新后的结果。 这适用于默认表单以及自定义表单中的计算字段。</span>
+   <span class="preview">修改页面上的依赖字段时，自定义表单上的计算字段会实时动态重新计算。 您可以在不保存表单的情况下查看新的计算字段值，但在保存更改之前，该值不会实际应用于表单和对象。 这适用于默认表单以及自定义表单中的计算字段。</span>
 
    当您与列表中的其他对象一起批量编辑对象时，也可以手动更新该对象的所有计算自定义字段。 有关说明，请参阅 [编辑对象时，重新计算列表中多个对象的所有计算自定义字段](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) 本文章中。
 
