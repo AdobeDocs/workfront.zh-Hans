@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ ht-degree: 2%
 以下部分包含在原始23.2版本之后添加的功能的列表，从最近发布的功能开始。
 
 以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
+
+### 2023年8月21日起一周
+
+#### 在“注释”选项卡上更改时间戳格式
+
+我们在新注释流的“注释”选项卡中更新了用户注释的时间戳格式。 作为此更改的一部分，当前年份的注释在时间戳中不再显示年份。 将鼠标悬停在时间戳上会显示完整日期，包括年份。
+
+更改不会影响“系统活动”选项卡中的系统更新。
+
+预览和生产： 2023年8月24日
 
 ### 2023年8月14日起一周
 
