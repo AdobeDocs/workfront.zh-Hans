@@ -1,13 +1,13 @@
 ---
 title: 在Adobe Admin Console中管理用户
-description: 作为Adobe管理员，您可以使用Adobe Admin Console创建Adobe Workfront用户和系统管理员。
+description: Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系统管理员。
 author: Becky, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
+source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->仅当贵组织的Workfront实例已载入Adobe业务平台时，本文中的功能才可用。
+>仅当贵组织的Workfront实例已载入到Adobe业务平台时，本文中的功能才可用。
 >
->有关根据贵组织是否已载入Adobe业务平台而不同的程序列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-作为Adobe管理员，您可以使用Adobe Admin Console创建Adobe Workfront用户和系统管理员。 控制台是管理整个组织中Adobe权限的中心位置。 有关更多信息，请参阅 [Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html).
+Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系统管理员。 该控制台是管理整个组织的Adobe权利的中心位置。 欲了解更多信息，请参见 [Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html).
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe管理员权限</td> 
@@ -45,32 +45,32 @@ ht-degree: 0%
 
 ## 先决条件
 
-在使用WorkfrontAdmin Console之前，您应会收到一封电子邮件，邀请您加入控制台。
+在使用Workfront的Admin Console之前，您应该会收到一封邀请您加入控制台的电子邮件。
 
-1. 如果您是Adobe的新用户，并且收到一封电子邮件告知您您现在拥有管理贵组织Adobe软件和服务的管理权限，请单击电子邮件中的按钮以创建Adobe帐户并打开Admin Console。
+1. 如果您是Adobe的新用户，并且已收到一封电子邮件，告知您现在拥有管理贵组织的Adobe软件和服务的管理权限，请单击电子邮件中的按钮以创建Adobe帐户并打开该Admin Console。
 
    或
 
-   如果您已经拥有Adobe帐户，请转到 [Adobe Admin Console页面](https://adminconsole.adobe.com/).
+   如果您已有Adobe帐户，请转到 [Adobe Admin Console页面](https://adminconsole.adobe.com/).
 
-## 访问您的Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
+## 访问Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 从 [Adobe Admin Console页面](https://adminconsole.adobe.com/)，选择 **产品** ，然后选择 **Workfront** 产品区块。
+1. 从 [Adobe Admin Console页面](https://adminconsole.adobe.com/)，选择 **产品** 选项卡，然后选择 **Workfront** 产品拼贴。
 
    ![](assets/admin-product-1.png)
 
 1. 在显示的列表中，选择顶部的链接。
 
-   这是您的用户工作的生产实例。
+   这是用户工作的生产实例。
 
    ![](assets/instances-1.png)
 
    >[!TIP]
    >
-   >您的预览实例（列表中的第二个链接）是一个测试环境，可复制您的实时生产环境。 有关更多信息，请参阅 [Adobe Workfront预览沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >预览实例（列表中的第二个链接）是一个复制实时生产环境的测试环境。 有关更多信息，请参阅 [Adobe Workfront预览Sandbox环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
    >
    >
-   >您还可以在列表中看到指向沙盒环境的链接。 有关更多信息，请参阅 [Adobe Workfront预览沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >您还可能在列表中看到指向沙盒环境的链接。 有关更多信息，请参阅 [Adobe Workfront预览Sandbox环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 1. 在显示的列表中，使用 **产品配置文件** 选项卡，单击Workfront产品配置文件链接的名称。
 
@@ -82,18 +82,25 @@ ht-degree: 0%
    >
    >请勿对产品配置文件本身进行任何更改。
 
-1. 继续阅读本文的以下章节之一：
+1. 继续阅读本文中的以下章节之一：
 
    * [在Workfront中使用Adobe Admin Console创建用户](#create-users-in-workfront-with-the-adobe-admin-console)
    * [在Workfront中使用Adobe Admin Console创建系统管理员](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
 ## 在Workfront中使用Adobe Admin Console创建用户 {#create-users-in-workfront-with-the-adobe-admin-console}
 
-1. 转到Admin Console中的用户和管理区域，如 [访问您的Workfront生产实例的用户和管理区域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 在本文中。
-1. 使用 **用户** 选项卡，选择 **添加用户**.
+必须将Workfront用户添加到Adobe Admin Console。 管理员可以直接在Adobe Admin Console中创建用户。 组管理员在Workfront中创建用户，然后提交这些用户以供审批。 获得批准后，该用户即添加到Adobe Admin Console。
+
+* [直接在Adobe Admin Console的Workfront中创建用户](#create-users-in-workfront-directly-in-the-adobe-admin-console)
+* [在Workfront中创建用户并批准他们用于Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
+
+### 直接在Adobe Admin Console的Workfront中创建用户
+
+1. 转到Admin Console中的用户和管理区域，如中所述 [访问Workfront生产实例的用户和管理区域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章中。
+1. 使用 **用户** 选项卡上，选择 **添加用户**.
 1. 在 **将用户添加到此产品配置文件** 框中，输入要添加的用户的电子邮件地址或名称，然后选择 **保存**.
 
-   在Workfront中创建具有请求者访问级别的用户。
+   将使用请求者访问级别在Workfront中创建用户。
 
    >[!IMPORTANT]
    >
@@ -101,30 +108,62 @@ ht-degree: 0%
 
 1. 在Workfront中，更改用户的访问级别。
 
-   有关Workfront管理员如何更改用户访问级别的说明，请参阅 [编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   有关Workfront管理员如何更改用户访问级别的说明，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. 重复步骤3和4以添加更多用户。
 
    >[!NOTE]
    >
-   >对于新的Adobe用户，Admin Console会发送一封电子邮件，邀请他们完成注册流程。 所有用户必须完成注册过程才能访问任何Adobe系统。
+   >对于新的Adobe用户，Admin Console会发送一封电子邮件，邀请他们完成注册过程。 所有用户都必须完成注册过程才能访问任何Adobe系统。
    >
-   >对于现有Adobe用户，用户可能会（也可能不会）收到有关Workfront可用的电子邮件。 这是由Adobe管理员控制的产品首选项。
+   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
+
+### 在Workfront中创建用户并批准他们用于Adobe Admin Console
+
+此工作流允许无权访问Adobe Admin Console的组管理员创建用户。
+
+首先，组管理员在Workfront中创建用户。 这将创建处于已停用和未决批准状态的用户。
+
+之后，Workfront管理员会批准用户。 这会在Workfront中激活用户并将他们添加到Adobe Admin Console。
+
+#### 在Workfront中创建用户（组管理员）
+
+有关在Workfront中创建用户的说明，请参阅 [添加用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+#### 批准用户(Workfront管理员)
+
+批准用户：
+
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+
+1. 选择用户，然后单击更多图标 ![](assets/more-icon.png).
+
+1. 要批准用户，请单击 **批准**，然后单击 **提交**.
+
+   或
+
+   要拒绝用户并从Workfront中删除用户，请单击 **拒绝**，然后单击 **提交**.
+
+批准的用户会自动添加到Adobe Admin Console。
+
+被拒绝的用户会自动从Workfront中删除。
+
+
 
 ## 在Workfront中使用Adobe Admin Console创建系统管理员 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
 
-系统管理员访问权限级别仅在Adobe Admin Console上授予。 您无法在Workfront中授予或删除管理员访问权限。
+仅在Adobe Admin Console上授予系统管理员访问级别。 您无法在Workfront中授予或删除管理员访问权限。
 
-必须先将用户添加到Workfront的生产实例中，然后才能将该用户设为Workfront系统管理员。 有关说明，请参阅 [在Workfront中使用Adobe Admin Console创建用户](#create-users-in-workfront-with-the-adobe-admin-console) 在本文中。
+您必须先将用户添加到Workfront的生产实例，然后才能将用户设为Workfront系统管理员。 有关说明，请参阅 [在Workfront中使用Adobe Admin Console创建用户](#create-users-in-workfront-with-the-adobe-admin-console) 本文章中。
 
-1. 转到Admin Console中的用户和管理区域，如 [访问您的Workfront生产实例的用户和管理区域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 在本文中。
+1. 转到Admin Console中的用户和管理区域，如中所述 [访问Workfront生产实例的用户和管理区域](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 本文章中。
 1. 选择 **管理员** 选项卡。
 1. 选择 **添加管理员**.
 1. 在 **添加产品配置文件管理员** 框中，输入要添加的管理员的电子邮件地址或名称，然后选择 **保存**.
 
    ![](assets/add-admin-1.png)
 
-   系统管理员在Workfront中创建。
+   在Workfront中创建系统管理员。
 
    >[!IMPORTANT]
    >
@@ -132,32 +171,32 @@ ht-degree: 0%
 
 ## 有关Adobe Admin Console的其他详细信息：
 
-* Workfront系统管理员可以在Workfront中停用Workfront用户，但不会停用Admin Console中的用户。
+* Workfront系统管理员可以在Workfront中停用Workfront用户，但这不会停用Admin Console中的用户。
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* 用户 **主页组** 取决于创建用户。 当前无法从Admin Console中自定义该设置。
-* 只能从Workfront中编辑Adobe Admin Console系统管理员访问级别。
+* 用户 **主组** 根据创建它们的用户确定。 当前无法从Admin Console内自定义标记。
+* 只能从Adobe Admin Console中编辑Workfront系统管理员访问级别。
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   How is this done?
   
   -->
 
-* 必须首先通过Admin Console来编辑用户（该用户是任何其他访问级别的系统管理员）。
+* 对于作为系统管理员的用户编辑任何其他访问级别，必须首先通过Admin Console完成。
 
-   <!--
+  <!--
    This is not clear
   -->
 
 * 要从Workfront中的用户删除系统管理员访问权限，您需要使用Adobe Admin Console以产品配置文件管理员身份删除该用户。 这会将用户的Workfront访问级别从系统管理员更改为请求者。
 
-   >[!IMPORTANT]
-   >
-   >请勿对产品配置文件本身进行任何更改。
+  >[!IMPORTANT]
+  >
+  >请勿对产品配置文件本身进行任何更改。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
