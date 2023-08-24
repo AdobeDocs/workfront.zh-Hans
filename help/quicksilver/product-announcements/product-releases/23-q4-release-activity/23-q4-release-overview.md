@@ -3,9 +3,9 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 ## Adobe Workfront增强功能
 
 * [展示板增强功能](#boards-enhancements)
+* [集成增强功能](#integration-enhancements)
 * [项目增强功能](#project-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -60,6 +61,42 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月21日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产： 2023年8月24日</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在连接的信息卡上添加文档</a></p><p>您现在可以在Adobe Workfront展示板上连接的信息卡上附加文档。 您在信息卡上添加的任何文档都将在所连接任务或问题的文档选项卡上可用，并且这两个区域都支持相同的文件类型。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月21日</p>
+                            </li>
+                            <li>
+                                <p>为展示板提早访问生产： 2023年8月24日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：待定</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上可用的仅查看文档</a></p><p>对于Adobe Workfront展示板上连接的信息卡，您现在可以查看文档，如图像和PDF。 您可以在浏览器中预览文档或将其下载到计算机。 </p>
@@ -98,29 +135,65 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### 集成增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">在连接的信息卡上添加文档</a></p><p>您现在可以在Adobe Workfront展示板上连接的信息卡上附加文档。 您在信息卡上添加的任何文档都将在所连接任务或问题的文档选项卡上可用，并且这两个区域都支持相同的文件类型。</p>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强将文档发送到SharePoint (GraphAPI)时的体验</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>我们进行了一些更改，以便在将文档发送到SharePoint (GraphAPI)文件夹时更轻松地找到文件夹</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2023年8月21日</p>
-                            </li>
-                            <li>
-                                <p>为展示板提早访问生产： 2023年8月24日</p>
+                                <p>预览版本： 8月24日<br /></p>
                             </li>
                             <li>
                                 <p>快速发布生产：待定</p>
                             </li>
                             <li>
-                                <p>按季度发布的生产：使用23.10版本</p>
+                                <p>按季度发布的生产：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 8月24日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：待定</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：待定</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### 项目增强功能
 
