@@ -7,9 +7,9 @@ description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能加
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -210,9 +210,9 @@ ht-degree: 0%
 
 ## 早期功能选择加入常见问题解答
 
-### 如何知道我的组织是否已选择使用早期功能？
+### 如何知道我的组织是否选择了早期功能？
 
-当 [!DNL Workfront] 管理员已为展示板启用早期功能，您将看到 [!UICONTROL 早期功能加入] 仪表板屏幕顶部的“启用”按钮。 单击按钮以查看已启用哪些功能。
+联系 [!DNL Workfront] 管理员以了解他们是否已为展示板启用早期功能。
 
 ### 是否只能为特定用户启用早期功能？
 

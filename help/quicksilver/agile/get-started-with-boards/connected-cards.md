@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ ht-degree: 0%
 
    卡片会添加到最左列的底部。 连接的 [!DNL Workfront] 对象及其任务负责人将显示在信息卡上。
 
-   >[!NOTE]
-   >
-   >如果被分派人 [!DNL Workfront] 任务或问题不是讨论区成员，他们未分配到信息卡。
-
    ![连接的信息卡](assets/boards-connected-card-first-added.png)
 
 1. 单击 ![未结任务或问题](assets/boards-launch-icon.png) 以打开 [!DNL Workfront] 新浏览器选项卡中的任务或问题。
@@ -124,9 +120,8 @@ ht-degree: 0%
       <td><p>完成信息卡的小时数。</p><p>更改估计也会更改连接的故事点值 [!DNL Workfront] 对象。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL被分派人]</strong></td>
-      <td><p>要为该信息卡分配更多人员或团队，请在搜索字段中开始键入名称，然后当该信息卡显示在列表中时将其选定。 您可以同时添加个人和团队。 一个已连接的信息卡上只允许一个团队分配。</p>
-      <p>被分派人必须是讨论区的成员，否则他们不会出现在选择列表中。 如果团队是讨论区的成员，则可以将各个团队成员分配给该信息卡。</p>
+      <td role="rowheader"><strong>[！UICONTROL分配]</strong></td>
+      <td><p>要将更多人员或团队分配给信息卡，请单击 <strong>[！UICONTROL Add Assignment]</strong> 并开始在搜索字段中键入名称。 然后，当它显示在结果列表中时将其选中。 您可以同时添加个人和团队。 一个已连接的信息卡上只允许一个团队分配。</p>
       <p>您选择的任何被分配者也会被分配到中的任务或问题 [!DNL Workfront].</p></td>
      </tr>
      <tr>
