@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
+source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
 workflow-type: tm+mt
-source-wordcount: '13192'
+source-wordcount: '13201'
 ht-degree: 1%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 1%
          * [布局模板的管理访问权限](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [将用户分配给布局模板](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [复制布局模板](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [使用API调用删除经典布局模板](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 自定义表单 {#custom-forms}
          * [自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自定义表单概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
