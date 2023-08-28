@@ -1,14 +1,14 @@
 ---
 title: 复制并提交请求
-description: 当您频繁提交类似请求时，可以复制现有的已提交请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
+description: 当您频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-当您频繁提交类似请求时，可以复制现有的已提交请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
+当您频繁提交类似请求时，可以复制已提交的现有请求。 在这种情况下，您可以复制现有请求，对请求进行最小更改，然后将其作为新请求重新提交。
 
 ## 访问要求
 
@@ -58,7 +58,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -66,29 +66,29 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑问题的访问权限</p> <p><b>注释</b>
+   <td> <p>编辑对问题的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>将请求添加到请求队列的权限</p> <p>查看现有请求的权限或更高的权限</p> <p>有关设置请求队列的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. </p> </td> 
+   <td> <p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 先决条件
 
-您必须有一个请求，您或您组织中的某人之前已提交该请求，才能复制并重新提交。 如果请求属于其他人，则您必须至少具有“查看”权限，才能复制该请求并将其作为新请求提交。
+您必须有一个请求，您或您组织中的某人之前已提交该请求，然后才能复制并重新提交。 如果请求属于其他人，则您必须至少具有查看该请求的权限，才能将其复制并作为新请求提交。
 
 ## 关于复制请求并将其提交为新请求的注意事项
 
 * 您只能复制并提交已提交的请求。 您不能复制草稿的请求。
 * 您可以复制并提交您最初提交的请求，或其他人提交的请求，并且您至少有权查看。
-* 您始终有权复制和提交您自己的请求副本，除非有人删除了您对这些请求的权限。
-* 当请求队列的创建者启用 **来自同一公司的人员将为所有请求继承相同的权限** 在“队列详细信息”或“编辑项目”区域中。 禁用此设置将仅允许原始请求者查看自己的请求。
+* 您始终有权复制并提交您自己的请求副本，除非有人删除了您对这些请求的权限。
+* 当请求队列的创建者启用 **来自同一公司的人员将针对所有请求继承相同的权限** 在“队列详细信息”或“编辑项目”区域中。 禁用此设置将仅允许原始请求者查看自己的请求。
 
   有关更多信息，请参阅以下文章：
 
@@ -106,11 +106,11 @@ ht-degree: 2%
      >如果队列主题是请求队列中的唯一主题，您仍然可以复制并提交请求，该主题将保存在请求队列本身下。
 
    * 请求队列不再作为帮助请求队列发布。 有关信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-   * 如果请求队列没有队列主题，并且原始请求是在2022年1月之前提交的。
+   * 如果请求队列没有队列主题，则原始请求是在2022年1月之前提交的。
 
    * 与请求队列关联的项目的状态不再是当前。
 
-* 如果在转换过程中保留了已转换的请求，则可以复制并提交该请求的副本。 有关更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+* 如果在转换过程中保留了已转换请求，则可以复制并提交该请求的副本。 有关更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -119,20 +119,25 @@ ht-degree: 2%
 ## 复制并提交请求
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **请求**.
-1. （视情况而定）如果默认情况下不显示“已提交”部分，请单击 **已提交** （在左侧面板中）。
+1. （视情况而定）如果默认情况下不显示“已提交”部分，请单击 **已提交** 在左侧面板中。
+
+   >[!TIP]
+   >
+   >   您的Workfront或组管理员可以自定义您的布局模板，并从环境的主菜单或左侧面板中删除区域。 在这种情况下，您可能无法使用它们。
+
 1. 找到要复制并作为新请求提交的请求，然后执行以下操作之一：
 
-   * 选择它，然后单击 **复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （在已提交的请求列表的左上角）。
+   * 选择它，然后单击 **复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位于已提交的请求列表的左上角）。
 
    >[!TIP]
    >
    > 如果未先选择请求，则复制图标将灰显。
 
-   * 单击 **更多** 菜单 ![](assets/more-icon.png) 请求名称的右侧，然后单击 **复制并提交为新版本**
+   * 单击 **更多** 菜单 ![](assets/more-icon.png) 请求名称的右侧，然后单击 **复制并提交为新**
 
      或
 
-     右键单击选定的请求，然后单击 **复制并提交为新版本**.
+     右键单击选定的请求，然后单击 **复制并提交为新**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -140,16 +145,16 @@ ht-degree: 2%
      >
      >当您无权创建问题时，您会收到一则警告，指出管理员限制您创建请求。
 
-1. （可选）根据需要更新以下信息：
+1. （可选）如果需要，请更新以下信息：
 
    * **请求类型**：保存所复制请求的请求队列。 默认情况下，复制的请求将保存到原始请求的请求队列中。
-   * **主题组** 和 **队列主题**，如果已选择。 为您的环境自定义名称或主题组和队列主题。 默认情况下，复制的请求将保存到原始请求的主题组和队列主题中。
+   * **主题组** 和 **队列主题**，如果选中了它们。 为您的环境自定义名称或主题组和队列主题。 默认情况下，复制的请求将保存到原始请求的主题组和队列主题中。
 
      >[!TIP]
      >
-     >如果路径与原始请求的路径不同，则请求队列的创建者修改了队列。
+     >如果路径更改自原始请求的路径，则请求队列的创建者会修改该队列。
 
-1. （可选）更新复制请求中的任何信息。 根据请求队列创建者在 **新问题字段** 部分 **队列详细信息** 子选项卡中，您可以找到以下任意字段：
+1. （可选）更新复制请求中的任何信息。 根据请求队列创建者在 **新建问题字段** 的部分 **队列详细信息** 在该项目的子选项卡中，您可能会找到以下任意字段：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -161,7 +166,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>描述</strong> </td> 
-      <td>显示原始请求的描述。 如有必要，请更新它。</td> 
+      <td>显示原始请求的说明。 如有必要，请更新它。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong> </td> 
@@ -180,7 +185,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>严重程度</strong> </td> 
-      <td> <p>指定请求的严重性。 严重程度应该定义在不能及时解决此请求时对您工作的影响。 默认选项为：</p> 
+      <td> <p>指定请求的严重性。 严重性应该定义如果不能及时解决此请求对您工作的影响。 默认选项为：</p> 
        <ul> 
         <li>轻微</li> 
         <li>导致混淆</li> 
@@ -195,10 +200,10 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>分配</strong></span> </td> 
-      <td> <p>指示请求应分配到的活动用户、工作角色或团队的名称。 </p> <p> 您可以指定多个用户、工作角色或团队。 </p> <p>根据请求队列的设置方式，您可能只能将请求分配给一种或两种类型的资源，而不是全部三种。 </p> <p>我们建议对您的请求队列使用路由规则，以便它们可以自动路由到适当的资源。 </p> </td> 
+      <td> <p>指示请求应分配到的活动用户、工作角色或团队的名称。 </p> <p> 您可以指定多个用户、工作角色或团队。 </p> <p>根据请求队列的设置方式，您可能只能将请求分配给一种或两种类型的资源，而不是全部分配给三种资源。 </p> <p>我们建议对请求队列使用路由规则，以便它们可以自动路由到适当的资源。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">根据请求队列的设置方式，您可能只能为请求分配一种类型的资源（例如，用户）。 如果传送规则还与请求队列相关联，并且它自动将请求传送到不同类型的资源（例如，小组），则您的请求将分配给在提交请求时手动指定的实体（用户）以及在传送规则中指定的资源（小组）。</p> <p style="font-weight: normal;">有关更多信息，请参阅以下文章：</p> 
+      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">根据请求队列的设置方式，您可能只能为请求分配一种类型的资源（例如，用户）。 如果路由规则也关联到请求队列，并且它自动将请求路由到不同类型的资源（例如，小组），则您的请求将分配给在提交请求时手动指定的实体（用户）以及在路由规则中指定的资源（小组）。</p> <p style="font-weight: normal;">有关更多信息，请参阅以下文章：</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a> </p> </li> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a> <br> </p> </li> 
@@ -222,7 +227,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>文档</strong> </td> 
-      <td> <p>将文档添加到您的请求。 附加到原始请求的文档不会转移到复制的请求。</p> <p><b>笔尖</b>
+      <td> <p>将文档添加到请求。 附加到原始请求的文档不会转移到复制的请求。</p> <p><b>提示</b>
 
    根据请求队列的设置方式，文档部分可能会在自定义字段之前或之后显示。</p> <p> </p> </td>
    </tr> 
@@ -233,7 +238,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >* 附加到原始请求的所有自定义表单以及自定义字段中包含的值都会传输到复制的请求。 这包括包含逻辑的字段。
+   >* 附加到原始请求的所有自定义表单以及自定义字段中包含的值都会转移到复制的请求。 这包括包含逻辑的字段。
    >* 您无法从复制的请求中删除自定义表单。
 
 1. 单击 **提交**.

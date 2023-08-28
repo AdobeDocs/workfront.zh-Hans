@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 为其他人标记更新
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
 <span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ ht-degree: 0%
 
 您可以通过以下方式为新评论体验中的更新标记其他人：
 
-* **自动**：当用户添加评论或回复时，会自动对其进行标记并将其添加到评论框的标记人员或团队区域。
+* **自动**：当用户启动跟帖、添加评论或添加回复时，会自动为其添加标记，并添加到评论框的标记人员或团队区域。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >当线程在旧版评论体验中启动时，不会自动标记线程参与者。
+
 * **手动**：手动将用户添加到评论框的“标记人员”区域时。
 
 您还可以在编辑或回复评论时删除被错误地标记的用户。
@@ -213,3 +220,10 @@ ht-degree: 0%
    有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) <span class="preview">在注释的右上角</span>，然后单击 **编辑**. 删除所有已标记的用户，然后单击 **提交**. 只有在输入评论后15分钟内才能对其进行编辑。 您只能编辑添加的注释。
+
+   >[!TIP]
+   >
+   >使用旧版评论体验添加评论和回复时，未特别标记的评论所有者无法由使用新评论体验的用户手动删除。
+
+
+
