@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # 新的评论体验发布活动
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ ht-degree: 2%
 
 更改不会影响“系统活动”选项卡中的系统更新。
 
-预览和生产： 2023年8月24日
+面向所有客户的预览和生产： 2023年8月24日
 
 ### 2023年8月14日起一周
 
 [观看在2023年8月14日这一周内发布的所有功能的视频演示](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 新增其他对象的注释体验
+
+[!BADGE 用于快速发布的生产中]{type=Positive}
 
 在发布到生产环境的23.3版本后不久，即可为以下对象提供新的评论体验：模板任务、模板、时间表、团队、用户、程序、项目组合。
 
@@ -98,6 +102,8 @@ ht-degree: 2%
 适用于所有客户的生产版本：使用23.10版本（2023年10月）
 
 #### 新评论流的新设计更新
+
+[!BADGE 用于快速发布的生产中]{type=Positive}
 
 我们重新设计了新的评论流，使其具有更更新的外观。 其中一些改进包括：
 
@@ -122,6 +128,8 @@ ht-degree: 2%
 按季度发布的生产：23.10版（2023年10月）
 
 #### 新的评论体验是项目、任务、问题和文档的默认体验
+
+[!BADGE 用于快速发布的生产中]{type=Positive}
 
 我们正在将新的注释体验设置为以下对象的默认体验：项目、任务、问题和文档。  在访问这些对象时，旧版注释体验仍将作为替代选项。
 
