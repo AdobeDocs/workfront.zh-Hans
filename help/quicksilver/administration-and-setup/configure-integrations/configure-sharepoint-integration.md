@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
+source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -93,12 +91,12 @@ ht-degree: 0%
 要将文档发送到SharePoint，请执行以下操作：
 
 1. 单击 **发送至** 图标 ![发送至](assets/send-to-icon.png) 并选择SharePoint (Graph API)。
-1. <span class="preview">（可选）在搜索栏中搜索要发送文档的站点或文件夹。</span>
+1. （可选）在搜索栏中搜索要发送文档的站点或文件夹。
 1. 从列表中选择站点或文件夹。
 
-   * <span class="preview">站点已标记为 ![站点图标](assets/site-icon.png).</span>
+   * 站点已标记为 ![站点图标](assets/site-icon.png).
 
-   * <span class="preview">文件夹标有 ![文件夹图标](assets/folder-icon.png).</span>
+   * 文件夹标有 ![文件夹图标](assets/folder-icon.png).
 
    * 文件未使用图标进行标记。
 
