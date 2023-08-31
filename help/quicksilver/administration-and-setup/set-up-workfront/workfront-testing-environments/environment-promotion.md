@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -839,7 +839,7 @@ Deleted
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### 标题
@@ -891,14 +891,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 #### 选项
 
-如果 `translationmap` POST正文中未提供，进程将自动启动 `/translationmap` 呼叫。 此 `translationmap` 返回的内容将按原样使用，没有机会进行审查或调整。
+如果 `translationmap` POST正文中未提供，进程将自动启动 `/prepare-installation` 呼叫。 此 `translationmap` 返回的内容将按原样使用，没有机会进行审查或调整。
 
 如果 `translationmap` POST正文中提供了，安装过程将使用提供的映射。 这样，安装用户就可以在执行安装尝试之前查看并进行必要的调整。
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### 标题
@@ -954,7 +954,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### 标题
