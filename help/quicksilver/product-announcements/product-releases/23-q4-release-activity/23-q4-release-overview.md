@@ -3,9 +3,9 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a></p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -127,6 +127,9 @@ ht-degree: 0%
                             <li>
                                 <p>预览版本： 2023年8月3日</p>
                             </li>
+                            <li>
+                                <p>用于展示板早期访问的生产：不适用</p>
+                            </li>
                              <li>
                                 <p>用于快速发布的生产：不适用</p>
                             </li>
@@ -157,7 +160,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强将文档发送到SharePoint (GraphAPI)时的体验</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>我们进行了一些更改，以便在将文档发送到SharePoint (GraphAPI)文件夹时更轻松地找到文件夹</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强将文档发送到SharePoint (GraphAPI)时的体验</a></p><p>我们进行了一些更改，以便在将文档发送到SharePoint (GraphAPI)文件夹时更轻松地找到文件夹</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -165,17 +168,14 @@ ht-degree: 0%
                                 <p>预览版本： 8月24日<br /></p>
                             </li>
                             <li>
-                                <p>快速发布生产：待定</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：待定</p>
+                                <p><span class="preview">适用于所有客户的生产： 2023年8月31日</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a><span style="color: #ff0000;"> 预览中的新增内容！</span> </p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -183,10 +183,7 @@ ht-degree: 0%
                                 <p>预览版本： 8月24日<br /></p>
                             </li>
                             <li>
-                                <p>快速发布生产：待定</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：待定</p>
+                                <p><span class="preview">适用于所有客户的生产： 2023年8月31日</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">向项目添加新问题时更新了设计</a> </p><p>此更新已在23.3版本中发布。
-                        <p>我们更新了向项目提交新问题时显示的“新问题”框。 现在，界面与向请求队列提交新请求时显示的新请求框匹配。  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">向项目添加新问题时更新了设计</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>此更新已在23.3版本中发布。</p>
+                        <p>我们更新了向项目提交新问题时显示的“新问题”框。 现在，界面与向请求队列提交新请求时显示的新请求框匹配。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -232,7 +231,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">表单上计算字段的动态重新计算</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">表单上计算字段的动态重新计算</a></p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>现在，当页面上任何表单上的依赖值被修改时，附加到对象的表单上的计算字段会被动态地实时重新计算。 这样，您无需保存表单即可查看更新后的结果。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -252,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">对没有分配的简单持续时间类型的子周期性任务设置计划小时数</a></p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>我们对计划小时数分配给无分派且持续时间类型简单的周期性任务的方式进行了更改。 现在，当您为具有简单持续时间类型而没有分配的新周期性任务设置计划小时数时，小时数也会分配给各个重复事件。 在此更改之前，当父任务未分配时，无法为个别重复保存小时数。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -349,6 +350,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新增评论体验测试版增强功能</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>对“更新”部分的增强功能将在2023年第四季度的“评论Experience Beta”发布时间范围内提供。 这些增强功能将在2023年第四季度版本（2023年10月）的“生产”环境中向所有客户提供。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -368,6 +370,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新的画布功能板测试版增强功能</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>Canvas功能板的增强功能将在当前测试版的2023年第四季度发布时间范围内提供。 这些增强功能将在2023年第四季度版本（2023年10月）的“生产”环境中向所有客户提供。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -387,6 +390,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的新筛选器选项</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>新主页中的“我的工作”小组件现在提供新筛选器选项。 选项包括对象类型（任务、问题和请求）和状态（未就绪、准备开始、处理和完成）的筛选器。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -425,6 +429,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">为禁用了“新建主页”的帐户删除了“尝试新建主页”按钮</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>对于已禁用“新建主页”的帐户，“尝试新建主页”按钮不再出现。 新主页必须由系统管理员重新启用，然后个人用户才能使用该按钮尝试新主页。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -444,6 +449,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">更改为新主页默认小部件集</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>需要创建任务权限的To-dos构件现在仅存在于为具有标准、计划或工作许可证类型的用户设置的默认构件中。 此外，该构件已从具有所有其他许可证类型的用户的主页中自动移除。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
