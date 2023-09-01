@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ ht-degree: 0%
 **[!UICONTROL 人力资源组织设置]**
 此Blueprint包含要扩展到人力资源部门的组织结构的配置。
 
-[!BADGE 新!]{type=Informative}**[!UICONTROL 信息技术组织设置]**
+**[!UICONTROL 信息技术组织设置]**
 此Blueprint包含组织结构的配置，以扩展为信息技术用例。
 
-**[!UICONTROL 继承实例基础知识 |清单]**
+[!BADGE 新!]{type=Informative}**[!UICONTROL 继承实例基础知识 |清单]**
 此Blueprint包含一个项目模板（或清单），您可以查看该项目模板（或清单），其中包含一个简短的问题、资源和链接列表，以清楚地了解Workfront实例的配置方式。 当您最近继承了Workfront实例并且需要有关从何处开始的指导时，请使用此项。
 
 **[!UICONTROL 集成式营销活动执行]**
