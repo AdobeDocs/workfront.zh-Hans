@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 **[!UICONTROL 人力资源组织设置]**
 此Blueprint包含要扩展到人力资源部门的组织结构的配置。
 
-**[!UICONTROL 信息技术组织设置]**
+[!BADGE 新!]{type=Informative}**[!UICONTROL 信息技术组织设置]**
 此Blueprint包含组织结构的配置，以扩展为信息技术用例。
 
 **[!UICONTROL 继承实例基础知识 |清单]**
@@ -78,6 +78,10 @@ ht-degree: 0%
 
 **[!UICONTROL 新员工准备工作]**
 此Blueprint包含模板 [!DNL Workfront] 多年来，专业服务组织一直利用与人力资源团队开展实施工作来促使人力资源专家和招聘经理完成重要活动，使新员工的第一天表现卓著。
+
+[!BADGE 新!]{type=Informative}**离线 |离开用户信息板**
+
+此Blueprint包含一个功能板，其中包含13个报告，可帮助您查找、重新分配或以其他方式管理与离开Workfront的用户相关的对象和分配。 您也可以将这些报告用于移动到新角色或组的用户以重新分配其工作。
 
 **[!UICONTROL 实施后：新用例转出]**
 此Blueprint包含一个模板，用于组织 [!DNL Workfront] 客户将需要完成此项工作，以便在其初始实施后管理向后续流程的扩展。
@@ -100,6 +104,10 @@ ht-degree: 0%
 **[!UICONTROL 招聘流程跟踪]**
 此Blueprint为内部招聘资源定义了一个核对清单，用于帮助业务利益相关者跟踪人数请求的进度。 它旨在支持受管成熟度级别。
 
+[!BADGE 新!]{type=Informative}**资源管理准备**
+
+使用此项目模板和用户报告可确保您具有生成准确资源管理数据所需的正确设置和信息。
+
 **[!UICONTROL 风险控制自我评估：关键风险缓解计划]**
 [!UICONTROL 风险控制自我评估] (RSCA)定义了一个流程，用于识别风险并衡量您为减轻这些风险而实施的控制。 此模板可为您确定评估新风险、确保实施适当的控制以及确保您知道如何衡量和记录控制的有效性的过程。
 
@@ -117,6 +125,14 @@ ht-degree: 0%
 
 **[!UICONTROL 系统管理员维护仪表板]**
 此Blueprint包含单个仪表板，可帮助系统管理员定期维护和清除系统中可能随时间积累的杂乱内容。
+
+[!BADGE 新!]{type=Informative}**价值实现 |核心值功能板**
+
+此Blueprint包含一个功能板，其中包含21个报表可帮助您衡量Workfront的值。 这些报告可帮助您将集中工作和管理工作流程的好处转化为可衡量的价值，您可以随着时间的推移跟踪这些价值以实现更好的成果。
+
+[!BADGE 新!]{type=Informative}**价值实现 |审阅和批准功能板**
+
+此Blueprint包含一个包含7个报表的功能板，可帮助您实现Workfront的价值。 这些报告可帮助您将审核和批准工作的价值转化为可衡量的好处，您可以随着时间的推移跟踪这些好处以实现更好的成果。
 
 **[!UICONTROL 视频资产生产] （集成）**
 此 [!UICONTROL 视频资产生产] 包中包含一个模板，该模板用于组织标准视频生产流程的工作流程。 该模板为团队的原始视频资产创建提供了一个精益流程，该流程依赖于标准操作过程来定义工作方式，并且仅使用项目来排列工作优先级并跟踪进度。
