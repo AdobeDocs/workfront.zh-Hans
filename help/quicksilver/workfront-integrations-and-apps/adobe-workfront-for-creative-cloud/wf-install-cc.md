@@ -6,9 +6,9 @@ description: 您可以安装 [!DNL Adobe Workfront for design and video] 从Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ ht-degree: 1%
 如果您是 [!DNL Adobe Admin Console] 管理员，您可以包括 [!DNL Adobe Workfront for design and video] 在 [!DNL Creative Cloud] 部署包。 有关更多信息，请参阅 [在包中包含插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [在此处查看视频教程](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] 管理员还可以创建仅用于分发给用户的插件包。 有关更多信息，请参阅 [创建[！UICONTROL [!DNL Adobe Workfront] 对象 [!DNL Creative Cloud]] 您用户的软件包，位于 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 安装 [!DNL Workfront for design and video] 单独
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '13214'
+source-wordcount: '13223'
 ht-degree: 1%
 
 ---
@@ -740,6 +740,7 @@ ht-degree: 1%
       * [禁用文档集成](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [配置SharePoint集成](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [设置元数据映射](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [创建[！UICONTROL [!DNL Adobe Workfront] 对象 [!DNL Creative Cloud]] 您用户的软件包，位于 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [为Workfront集成创建OAuth2应用程序](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [查看和管理自定义OAuth2应用程序](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [配置JumpSeat集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
