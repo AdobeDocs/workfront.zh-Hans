@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL收入类型]</td> 
-   <td> <p>计算任务的计划和实际收入预估。 当 <strong>[！UICONTROL收入类型]</strong> 设置为<strong>[！UICONTROL不可记帐]</strong>，计划的小时数和记录的实际小时数不生成任务的收入估计值，并且任务上的工作不对项目级别的收入做出贡献。</p> </td> 
+   <td> <p>计算任务的计划和实际收入预估。 当 <strong>[！UICONTROL收入类型]</strong> 设置为 <strong>[！UICONTROL不可记帐]</strong>，计划的小时数和记录的实际小时数不生成任务的收入估计值，并且任务上的工作不对项目级别的收入做出贡献。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL成本类型]</td> 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[！UICONTROL允许主要联系人访问该任务]</strong>：授予主要联系人（问题创建者）访问任务的权限，以审阅任务、随时了解其进度并在任务的更新部分做出评论。</li> 
+     <li><strong>[！UICONTROL允许主要联系人访问该任务]</strong>：授予主要联系人（问题创建者）查看任务的权限以审阅任务、随时了解其进度并在任务的“更新”部分作出评论。</li> 
      <li> <p><strong>[！UICONTROL允许在转换期间更改这些设置]</strong>：允许正在将问题转换为任务期间更改这些选项的用户。</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[！UICONTROL允许主要联系人访问该项目]</strong>：授予主要联系人（问题创建者）访问项目的权限以审查项目、随时了解其进度并在项目的更新部分做出评论。</li> 
+     <li><strong>[！UICONTROL允许主要联系人访问该项目]</strong>：授予主要联系人（问题创建者）查看项目的权限以审查项目、随时了解其进度并在项目的更新部分做出评论。</li> 
      <li><strong>[！UICONTROL允许在转换期间更改这些设置]</strong>：允许将问题转换为项目的用户在问题转换期间更改列出的选项。</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[！UICONTROL将某人分配给任务时]</td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL授予他们……访问任务的权限]</strong>：定义用户对其所分配任务的默认权限。 有关任务权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</li> 
+     <li><strong>[！UICONTROL授予他们……访问任务的权限]</strong>：定义用户对其所分配任务的默认权限。 有关任务权限的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</li> 
      <li> <p><strong>[！UICONTROL还授予他们……对项目的访问权限]</strong>：定义用户对其分配了任务的项目具有的默认权限。 有关项目权限的更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[！UICONTROL将某人分派到一个问题时]</td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL授予他们……访问任务的权限]</strong>：定义用户对其所分配任务的默认权限。 有关任务权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</li> 
+     <li><strong>[！UICONTROL授予他们……访问任务的权限]</strong>：定义用户对其所分配任务的默认权限。 有关任务权限的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</li> 
      <li> <p><strong>[！UICONTROL还授予他们……对项目的访问权限]</strong>：定义用户对其分配了任务的项目具有的默认权限。 有关项目权限的更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p> </li> 
     </ul> </td> 
   </tr> 
