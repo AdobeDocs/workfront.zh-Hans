@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ drafted for P&P release:
       <td> <p>禁用此选项可阻止公司外部的用户查看此更新。</p> 
       <p><b>注释</b></p>
       <p>仅当用户与公司关联时，才会显示此选项。</p>
+      <p>此选项并非在所有可从中添加更新的区域都可用。 例如，这不适用于可从其中添加更新的第三方应用程序。 </p>
       </td> 
      </tr> 
     </tbody> 
