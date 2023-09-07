@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13223'
+source-wordcount: '13232'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 1%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动 {#fusion-release}
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion发行活动： 2023年9月1日起的一周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion发行活动： 2023年8月21日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion发行活动： 2023年8月7日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Workfront Fusion发行活动： 2023年7月10日开始的周](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion中的连接](workfront-fusion/connections/connections.md)
       * [关于将Adobe Workfront Fusion连接到应用程序或服务](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [在Adobe Workfront Fusion中创建连接](workfront-fusion/connections/connection-instruction-toc.md)
+      * [连接元数据](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [创建与Adobe Workfront Fusion的连接 — 基本说明](workfront-fusion/connections/connect-to-fusion-general.md)
       * [将Adobe Workfront Fusion连接到任何Web服务](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [将Adobe Workfront Fusion连接到使用API令牌授权的Web服务](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
