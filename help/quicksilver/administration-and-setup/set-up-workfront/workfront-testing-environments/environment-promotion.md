@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ SessionID: abc1234
 >
 >数组中的每一项包含 `objCode` 与Workfront API Explorer中记录的目标代码对应的键。
 >
->每个项目还包含 `entities` 收藏集。 这需要 `ID` 和 `name` 要显示的键。
+>每个项目还包含 `entities` 收藏集。 这需要 `ID` 字段。 它也可以接受一个可选的 `name` 属性以便于了解 `ID` 表示。
 >
 >对于在中请求的允许对象代码列表 `objectCollections` 列表，请参见 [环境升级支持的对象](#supported-objects-for-environment-promotion) 部分。
 
