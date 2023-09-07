@@ -1,19 +1,19 @@
 ---
 title: HubSpot CRM模块
-description: 此 [!DNL Adobe Workfront Fusion] 通过HubSpot CRM模块，您可以监视事件、记录、联系人、参与、文件和表单提交，或者创建、检索、更新和删除记录、联系人、参与、事件或文件。 [!DNL HubSpot CRM] 帐户。
+description: 此 [!DNL Adobe Workfront Fusion] HubSpot CRM模块允许您监视事件、记录、联系人、参与、文件和表单提交，或者创建、检索、更新和删除您的中的记录、联系人、参与、事件或文件。 [!DNL HubSpot CRM] 帐户。
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM] 模块
 
-此 [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] 通过模块，您可以监视事件、记录、联系人、预订、文件和表单提交，或者创建、检索、更新和删除记录、联系人、预订、事件或文件。 [!DNL HubSpot CRM] 帐户。
+此 [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] 通过模块，您可以监视事件、记录、联系人、预约、文件和表单提交，或者创建、检索、更新和删除记录、联系人、预约、事件或文件。 [!DNL HubSpot CRM] 帐户。
 
 ## 访问要求
 
@@ -42,29 +42,29 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
-使用 [!DNL HubSpot CRM] 模块，您必须具有 [!DNL HubSpot CRM] 帐户。
+使用 [!DNL HubSpot CRM] 模块，您必须拥有 [!DNL HubSpot CRM] 帐户。
 
-## Connect [!DNL Adobe Workfront Fusion] 到 [!DNL HubSpot CRM]
+## 连接 [!DNL Adobe Workfront Fusion] 到 [!DNL HubSpot CRM]
 
-有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 [创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 [创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL HubSpot CRM] 模块及其字段
 
-配置时 [!DNL Hubspot CRM] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Hubspot CRM] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Hubspot CRM] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Hubspot CRM] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -90,15 +90,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
    <td>输入或映射模块在一个执行周期中返回的最大项数。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">要搜索的[！UICONTROL对象类型]</td> 
+   <td role="rowheader">[！UICONTROL要搜索的对象类型]</td> 
    <td>选择要搜索的Hubspot CRM对象的类型。</td> 
   </tr> 
   <tr> 
@@ -106,10 +106,10 @@ ht-degree: 0%
    <td>选择要显示在模块输出中的属性。 可用字段取决于您选择的对象。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL筛选依据] </td> 
+   <td role="rowheader">[！UICONTROL过滤方式] </td> 
    <td> <p>选择您希望如何筛选搜索</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL查询]</strong> </p> <p>输入或映射查询</p> </li> 
+     <li> <p><strong>[！UICONTROL Query]</strong> </p> <p>输入或映射查询</p> </li> 
      <li> <p><strong>[！UICONTROL属性]</strong> </p> <p>输入搜索的组或筛选器。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -117,8 +117,8 @@ ht-degree: 0%
    <td role="rowheader">[！UICONTROL排序方式]</td> 
    <td> <p>如果要对结果进行排序，请单击。 如果选择对结果进行排序，则会显示以下字段。 </p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL属性名称]</strong> </p> <p>选择要作为结果排序依据的属性</p> </li> 
-     <li> <p><strong>[！UICONTROL方向]</strong> </p> <p>选择您要按升序方向还是降序方向对结果进行排序。</p> </li> 
+     <li> <p><strong>[！UICONTROL属性名称]</strong> </p> <p>选择要按其排序结果的属性</p> </li> 
+     <li> <p><strong>[！UICONTROL方向]</strong> </p> <p>选择是否要以升序或降序方向对结果进行排序。</p> </li> 
     </ul> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -147,8 +147,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -170,21 +170,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择记录类型。</p> 
     <ul> 
      <li>[！UICONTROL联系人]</li> 
-     <li>[！UICONTROL公司] </li> 
+     <li>[！UICONTROL Company] </li> 
      <li>[！UICONTROL交易]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL搜索类型]</td> 
-   <td>如果您正在获取联系人，请选择是要按ID还是电子邮件地址来识别它。</td> 
+   <td>如果您正在获取联系人，请选择是要通过ID还是电子邮件地址来识别联系人。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID]</td> 
@@ -206,8 +206,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -238,15 +238,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 删除记录]
 
-此操作模块删除联系人、公司或交易。
+此操作模块可删除联系人、公司或交易。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -261,15 +261,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 获取记录属性]
 
-此操作模块通过其（内部）名称获取特定记录属性的元数据。
+此操作模块通过特定记录属性的（内部）名称获取该属性的元数据。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -295,8 +295,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -304,7 +304,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL搜索]</td> 
-   <td>选择您是要监视最近修改的记录还是最近创建的记录。</td> 
+   <td>选择您要监视最近修改的记录还是最近创建的记录。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出属性]</td> 
@@ -330,15 +330,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建/更新联系人（旧版）]
 
-如果门户中不存在联系人，则创建联系人；如果门户中不存在联系人，则使用最新的属性值更新联系人。
+如果门户中不存在联系人，则创建联系人；如果门户中不存在联系人，则使用最新属性值更新联系人。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL属性]</td> 
@@ -349,15 +349,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建/更新联系人组]
 
-创建联系人组或更新联系人（如果已经存在）。 当批次大小限制为100个或更少联系人时，性能最佳。 通过此端点进行的更改是异步处理的，因此可能需要几分钟才能将更改应用于联系人记录。
+创建联系人组或更新他们（如果已经存在）。 当批次大小限制为100个或更少联系人时，性能最佳。 通过此端点进行的更改是异步处理的，因此可能需要几分钟才能将更改应用到联系人记录。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL要创建/更新的联系人批次] </td> 
@@ -383,12 +383,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL列表ID] </td> 
-   <td>选择要向其中添加联系人的列表的ID。 </td> 
+   <td>选择要向其添加联系人的列表的ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID/电子邮件] </td> 
@@ -414,8 +414,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL列表ID] </td> 
@@ -435,8 +435,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID 1] </td> 
@@ -458,11 +458,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查询]</td> 
+   <td role="rowheader">[！UICONTROL Query]</td> 
    <td>输入搜索查询。</td> 
   </tr> 
   <tr> 
@@ -481,12 +481,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>最大联系人数 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
+   <td>联系人数上限 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出属性]</td> 
@@ -509,16 +509,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID]</td> 
-   <td>输入要列出其联系人的公司ID。 </td> 
+   <td>输入要列出其联系人的公司的ID。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>最大联系人数 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
+   <td>联系人数上限 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Contact ID [start offset] </td> 
@@ -530,15 +530,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 监视添加到列表中的联系人]
 
-此触发器模块会在向列表添加新联系人后启动场景。 这仅适用于拥有付费营销帐户的用户。
+此触发器模块会在向列表添加新联系人后启动方案。 这仅适用于拥有付费营销帐户的用户。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL列表ID]</td> 
@@ -569,8 +569,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL对象类型] </td> 
@@ -588,8 +588,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL管道ID] </td> 
@@ -613,8 +613,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL域] </td> 
@@ -622,7 +622,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>公司的最大数量 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
+   <td>最大公司数 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出属性]</td> 
@@ -646,8 +646,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹名称] </td> 
@@ -655,7 +655,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL父文件夹ID] </td> 
-   <td>为正在创建的文件夹选择父文件夹的ID。 </td> 
+   <td>为要创建的文件夹选择父文件夹的ID。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -669,8 +669,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID]</td> 
@@ -688,8 +688,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件ID] </td> 
@@ -717,8 +717,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL ID]</td> 
@@ -731,13 +731,26 @@ ht-degree: 0%
 
 允许您执行自定义API调用。
 
+>[!NOTE]
+>
+>以下端点已于2023年8月31日在HubSpot API中弃用，并且在Fusion模块中无法再使用。
+>
+>* 列出内容事件
+>* 列出社交事件
+>* 列出日历任务事件
+>* 列出所有日历事件
+>* 创建日历任务
+>* 按ID获取日历任务
+>* 更新日历任务
+>* 删除日历任务
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL HubSpot CRM] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
@@ -745,26 +758,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
-   <td> <p>选择要使用的HTTP方法：</p> <p>[！UICONTROLGET]</p> <p>检索条目的信息。</p> <p>[！UICONTROLPOST]</p> <p>以创建新条目。</p> <p>[！UICONTROLPUT]</p> <p>更新/替换现有条目。</p> <p>[！UICONTROLPATCH]</p> <p>以更新部分条目。</p> <p>[！UICONTROLDELETE]</p> <p>删除条目。</p> </td> 
+   <td> <p>选择要使用的HTTP方法：</p> <p>[！UICONTROLGET]</p> <p>检索条目的信息。</p> <p>[！UICONTROLPOST]</p> <p>以创建新条目。</p> <p>[！UICONTROLPUT]</p> <p>更新/替换现有条目。</p> <p>[！UICONTROLPATCH]</p> <p>更新部分条目。</p> <p>[！UICONTROLDELETE]</p> <p>以删除条目。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
-   <td> <p> 输入所需的请求标头。 您无需添加授权标头；我们已经为您添加了授权标头。</p> </td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p> 输入所需的请求标头。 您无需添加授权标头；我们已经为您添加了这些标头。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL查询字符串]</td> 
    <td> <p> 输入请求查询字符串。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。在使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**示例：** 以下API调用返回中的所有联系人： [!DNL HubSpot] 帐户：
+>**示例：** 以下API调用返回 [!DNL HubSpot] 帐户：
 >
 >**URL**： `/contacts/v1/lists/all/contacts/all`
 >
@@ -772,7 +785,7 @@ ht-degree: 0%
 >
 >![](assets/hubspot-api-config.png)
 >
->搜索匹配项可在模块的输出中找到，位于 [!UICONTROL 捆绑] > [!UICONTROL 正文] > [!UICONTROL 联系人].
+>搜索匹配项可在模块的“输出”中找到，位于 [!UICONTROL 捆绑] > [!UICONTROL 正文] > [!UICONTROL 联系人].
 >
 >在我们的示例中，返回了3个联系人：
 >
