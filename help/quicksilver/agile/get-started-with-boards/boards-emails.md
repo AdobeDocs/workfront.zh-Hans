@@ -7,9 +7,9 @@ description: 当您添加到展示板并分配给您卡片时，Adobe Workfront�
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 讨论区电子邮件通知和首选项
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择希望接收哪些电子邮件。
+
+根据您的电子邮件通知设置，当您在已连接信息卡上的评论中被标记时，也会收到一封电子邮件。 有关更多信息，请参阅 [激活或停用您自己的事件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
 
 ## 访问要求
 
