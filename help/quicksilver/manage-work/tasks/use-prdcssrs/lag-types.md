@@ -7,9 +7,9 @@ description: 滞后是指在强制前置任务完成后，直到相关任务可�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 0%
 <p><b>注释</b></p> 百分比的最大滞后时间限制为2000%。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>每周时间(w) </p> </td> 
+   <td> <p>每周时间（w或we） </p> </td> 
    <td> <p>通过指定包含前置任务计划完成日期的一周中某天，可以测量两个任务之间的延迟。</p> <p>对于此滞后类型，一周中的每一天都与一个数字关联：</p> 
     <ul> 
      <li>星期日=1</li> 
@@ -187,7 +187,7 @@ ht-degree: 0%
 <p>要指示过去或未来周，您可以在滞后类型的天数字前添加一个数字。 </p> <p>例如，要指示10周前的星期一，您可以使用此代码指示后继者的前置任务：</p> <p><code>4fs-102w</code> </p> <p>10表示10周前，2是分配给星期一的数字。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>非零的周日(k)</p> </td> 
+   <td> <p>非零周中的日（k或ke）</p> </td> 
    <td> <p>两个任务之间的延迟的度量方式与“星期”延迟类型相同，但如果前置任务的时间在指定周的同一天结束，则不在此限。 然后计算到相邻周的滞后时间(+/-)。 </p> <p>在这种情况下，滞后时间不能为0。</p> </td> 
   </tr> 
  </tbody> 
