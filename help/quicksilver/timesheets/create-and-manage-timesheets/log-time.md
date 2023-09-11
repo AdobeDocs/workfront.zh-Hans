@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3470'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,7 @@ ht-degree: 0%
 * 时间表包括所有已记录日期的总时间。 即使已将时间线计算配置为排除周末，也会始终包含周末（如中所述） [配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md))。
 * 时间表中显示的最大项目数为45。 如果超过45个项目的日期与时间表时间范围相匹配，则仅显示最近更新的项目。
 * 已记帐记帐记录中包含的小时条目将灰显，无法在时间表中编辑。 有关更多信息，请参阅 [创建开票记录](../../manage-work/projects/project-finances/create-billing-records.md).
+* 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关更多信息，请参阅 [从主页区域创建工作项](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## 记录时间
 

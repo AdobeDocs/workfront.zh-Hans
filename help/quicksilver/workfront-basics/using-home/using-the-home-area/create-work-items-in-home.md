@@ -6,9 +6,9 @@ description: 从主页区域创建工作项
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
 -->
 
-您可以从中创建工作项 [!UICONTROL 主页] 区域。 您可以自行创建个人任务、向其他用户请求工作或向特定项目添加任务。
+您可以从中创建工作项 [!UICONTROL 主页] 区域。 您可以为自己创建个人任务、向其他用户请求工作或向特定项目添加任务。
 
 ## 访问要求
 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -39,7 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Worker]</p> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Worker]</p> <p><b>注释</b></p> 
+   <p>如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -48,49 +49,52 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 ## 创建个人任务
 
-您可以在中创建仅供您使用的个人任务 [!UICONTROL 主页] 区域：
+您可以创建仅供您使用的个人任务 [!UICONTROL 主页] 区域：
 
 1. 单击 **[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png) 图标，然后单击 **[!UICONTROL 主页]**.
 1. 单击 **[!UICONTROL 新建任务]** > **[!UICONTROL 个人]**.
 
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
-1. 在 **[!UICONTROL 名称]** 字段中，指定任务的名称。
-1. （可选）单击 **[!UICONTROL 选择日期]**，然后选择任务的到期日期。 这会将 [!UICONTROL 计划完成日期] 完成任务。\
-   您可以更改 **[!UICONTROL 计划完成日期]** 单击右侧面板中的日期或编辑 **[!UICONTROL 完成日期为]** 任务中的直接日期。
+1. 在 **[!UICONTROL 名称]** 字段，指定任务的名称。
+1. （可选）单击 **[!UICONTROL 选择日期]**，然后选择任务到期的日期。 这会设置 [!UICONTROL 计划完成日期] 完成任务。\
+   您可以更改 **[!UICONTROL 计划完成日期]** 单击右侧面板中的日期或编辑 **[!UICONTROL 完成日期为]** 日期直接在任务中。
 
 1. 单击 **[!UICONTROL 创建]** 以保存任务。\
-   任务已分配给您，并且可在以下位置找到： [!UICONTROL 主页] 区域。
+   该任务已分配给您，并且可在以下位置找到： [!UICONTROL 主页] 区域。
 
 >[!NOTE]
 >
->* 创建个人任务时，该任务存储在不可搜索的“隐藏”项目中 [!UICONTROL Workfront]. 该项目名为“&lt;用户名>‘的任务>”。 “用户名”是创建任务的用户的全名。 只有当您单击中的个人任务时，才能访问此项目。 [!UICONTROL 主页] 区域，例如，任务的痕迹导航。
+>* 创建个人任务时，该任务存储在不可搜索的“隐藏”项目中 [!UICONTROL Workfront]. 该项目名为“&lt;用户名>‘的任务>”。 “用户名”是创建任务的用户的全名。 只有当您单击中的个人任务时，才能访问此项目 [!UICONTROL 主页] 区域，例如任务的痕迹导航。
 >
->* 与常规项目任务不同，个人任务在Workfront界面中可见的字段集有限，并且不会影响任何项目的时间表或进度。 将个人任务重新分配给另一个用户会将所有任务字段添加到个人任务，但该任务仍然保留在创建该任务的用户的个人项目上。
+>* 与常规项目任务不同，个人任务在Workfront界面中可见的字段集有限，并且不会影响任何项目的时间线或进度。 将个人任务重新分配给另一个用户会将所有任务字段添加至个人任务，但该任务仍保留在创建该任务的用户的个人项目中。
 >
->* 如果要将个人任务纳入常规工作流，我们建议您创建一个项目，并将任何个人任务移动到该项目。
+>
+>* 仅当个人任务记录了小时数或将它们固定到时间表时，才会显示在时间表上。 仅当为任务记录了小时数时，您才可以将个人任务固定到时间表。 有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
+>* 如果要将个人任务变成常规工作流的一部分，我们建议您创建项目并将任何个人任务移动到项目中。
 >
 > ![[!UICONTROL 个人任务项目]](assets/createworkitems-personal--project-350x105.png)
 
-## 从其他用户请求工作
+## 请求另一个用户的工作
 
-您可以直接从主页区域向其他用户请求工作。 当按照本节所述向其他用户请求工作时，任务将作为请求显示在用户的“主页”区域中，直到用户单击为止 **[!UICONTROL 处理此项工作]**.
+您可以直接从“主页”区域向其他用户请求工作。 当按照本节所述向其他用户请求工作时，任务将作为请求显示在用户的“主页”区域中，直到用户单击为止 **[!UICONTROL 处理此项工作]**.
 
-要向其他用户请求工作，请执行以下操作： [!UICONTROL 主页] 区域：
+要向其他用户请求工作，请执行以下操作 [!UICONTROL 主页] 区域：
 
 1. 单击 **[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png) 图标，然后单击 **[!UICONTROL 主页]**.
 1. 单击 **[!UICONTROL 新建任务]**，然后选择 **[!UICONTROL 请求]**.
 
    ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. 在 **[!UICONTROL 名称]** 字段中，指定任务的名称。
+1. 在 **[!UICONTROL 名称]** 字段，指定任务的名称。
 1. 在 **[!UICONTROL 分配给]** 字段中，开始键入要分配的用户、团队或角色的名称，然后在名称出现在下拉菜单中时单击该名称。
 1. 在 [!UICONTROL 添加为] 下拉菜单，选择添加任务还是问题。
-1. 单击 **[!UICONTROL 选择日期]**，然后选择任务的到期日期和时间。
+1. 单击 **[!UICONTROL 选择日期]**，然后选择任务到期的日期和时间。
 1. 单击 **[!UICONTROL 创建]** 以保存任务。\
    任务将作为工作请求显示在中 [!UICONTROL 主页] 指定用户的区域。
 
@@ -105,13 +109,13 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL 名称]** 字段中，指定任务或问题的名称。
 1. 在 **[!UICONTROL 分配给]** 字段中，开始键入要分配的用户、团队或角色的名称，然后在名称出现在下拉菜单中时单击该名称。
-1. 开始键入要在其中创建任务或问题的项目的名称，然后在名称出现在下拉菜单中时单击该名称。
+1. 开始键入要在其中创建任务或问题的项目名称，然后在名称出现在下拉菜单中时单击该名称。
 
    >[!IMPORTANT]
    >
-   >任务或问题出现在 [!UICONTROL 工作列表] 仅当项目 [!UICONTROL 状态] 设置为 [!UICONTROL 当前].
+   >任务或问题显示在 [!UICONTROL 工作列表] 仅当项目 [!UICONTROL 状态] 设置为 [!UICONTROL 当前].
 
 1. （视情况而定）要创建问题，请选择 **[!UICONTROL 问题]** 从 **[!UICONTROL 添加为]** 下拉菜单。 默认情况下， **[!UICONTROL 任务]** 已选中。
 
-1. 单击 **[!UICONTROL 选择日期]**，然后选择任务的到期日期和时间。
+1. 单击 **[!UICONTROL 选择日期]**，然后选择任务到期的日期和时间。
 1. 单击 **[!UICONTROL 创建]** 以保存任务。
