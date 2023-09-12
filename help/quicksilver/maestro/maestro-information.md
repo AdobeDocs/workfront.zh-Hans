@@ -1,0 +1,52 @@
+---
+title: AdobeMaestro信息
+description: 作为营销运营负责人，您可以使用AdobeMaestro为所有团队在营销生命周期中组织工作。 此部分中的文章介绍如何配置Maestro，以及如何开始将其功能用作营销活动管理操作的一部分。
+hidefromtoc: true
+hide: true
+source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 0%
+
+---
+
+
+# AdobeMaestro信息
+
+<!--
+title: Adobe Maestro 
+description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations. 
+hidefromtoc: yes
+author: Alina
+feature: Work Management
+role: User, Admin
+hide: yes
+-->
+
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+
+作为营销运营负责人，您可以使用AdobeMaestro为所有团队在营销生命周期中组织工作。
+
+>[!IMPORTANT]
+>
+>目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>
+>有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
+>
+>有关信息，请参阅 [Adobe大师概述](../maestro/maestro-overview.md).
+
+您可以使用此页作为所有AdobeMaestro文档的起点。
+
+以下各节中的文章介绍如何配置Maestro并开始使用其功能。
+
+>[!IMPORTANT]
+>
+>在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
+
+* [Maestro概述](maestro-overview.md)：Adobe大师的全面概述，包括此解决方案特有的术语和概念。
+* [发布活动](../maestro/release-activity.md)：列出了自2023年5月22日Maestro封闭Beta计划启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
+* [访问信息](../maestro/access/access-information.md)：有关使用Adobe大师所需访问的信息。
+* [架构信息](../maestro/architecture-and-fields/architecture-and-fields-information.md)：有关AdobeMaestro架构的深入信息，其中包含有关如何创建和管理工作区、记录类型和字段的分步说明。
+* [记录信息](../maestro/records/records-information.md)：有关如何创建和管理记录的深入信息和分步说明。
+* [视图信息](../maestro/views/views-information.md)：有关Maestro视图以及如何管理这些视图的深入信息。
+
