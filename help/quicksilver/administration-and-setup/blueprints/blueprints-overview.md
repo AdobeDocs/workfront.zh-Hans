@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Blueprint概述
+
+Blueprint是一组Workfront对象，用于处理Workfront中的常见用例。 您可以下载并安装Blueprint，然后根据特定用例配置对象。
+
+>[!INFO]
+>
+>示例:
+>
+>* **人力资源组织设置**
+>
+>   此Blueprint包含要扩展到人力资源部门的组织结构的配置。
+>
+>* **添加新的员工IT核对清单**
+>
+>   此Blueprint包含用于组织新员工入门培训活动的模板。 使用此模板可让IT团队高效运营，从而带来积极的新员工体验并更快地跟踪工作效率。
+>
+>* **继承实例基础知识清单**
+>
+>    此Blueprint包含一个项目模板（或清单），您可以查看该项目模板（或清单），其中包含一个简短的问题、资源和链接列表，以清楚地了解Workfront实例的配置方式。 当您最近继承了Workfront实例并且需要有关从何处开始的指导时，请使用此项。
+>
+>要查看当前的Blueprint，请参阅 [可用Blueprint的列表](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 Blueprint提供基本的构建块，帮助您创建随增长而增长的工作管理系统。 系统管理员可以浏览Blueprint目录并安装现成的项目模板、功能板和组织结构。 其他用户可以浏览目录并请求安装Blueprint。 有关更多信息，请参阅 [浏览Blueprint目录并请求安装Blueprint](../../administration-and-setup/blueprints/browse-catalog.md).
 
