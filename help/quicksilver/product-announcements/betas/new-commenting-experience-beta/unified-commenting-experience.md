@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ For additional resources for the new commenting experience, also see the followi
 
 >[!NOTE]
 >
->在启用测试版体验时，以下列出的对象仅包含过去一年中（从2022年6月开始）的注释和系统更新。
+>以下列出的对象仅具有新注释体验中提供的从2019年1月1日开始的注释和系统更新。
 >
->在2022年6月之前查看当前体验中的更新部分时，您可以查看这些对象的注释和系统更新：
+>在2019年1月1日之前查看当前体验中的更新部分时，您可以查看这些对象的注释和系统更新：
 >
 >* 问题
 >* 项目

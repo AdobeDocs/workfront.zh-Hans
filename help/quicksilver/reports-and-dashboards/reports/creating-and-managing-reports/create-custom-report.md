@@ -1,72 +1,76 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: 建立自訂報表
-description: 瞭解如何建立報表可協助您在Adobe Workfront中存取組織所需的資訊。 您可以使用Workfront中提供的任何內建報告，也可以從頭開始建立自己的報告。
+title: 创建自定义报表
+description: 了解如何创建报表有助于您在Adobe Workfront中提供对贵组织所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建您自己的报告。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
 
 
-# 建立自訂報表
+# 创建自定义报表
 
-瞭解如何建立報表可協助您在Adobe Workfront中存取組織所需的資訊。 您可以使用Workfront中提供的任何內建報告，也可以從頭開始建立自己的報告。
+了解如何创建报表有助于您在Adobe Workfront中提供对贵组织所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建您自己的报告。
 
-如需內建報表的詳細資訊，請參閱 [使用Adobe Workfront內建報表](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). 如需有關複製報表以建立報表的資訊，請參閱 [建立報告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+有关内置报告的详细信息，请参阅 [使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
-## 存取需求
+有关通过复制报告来创建报告的信息，请参阅 [创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-您必須具有下列存取權才能執行本文中的步驟：
+有关创建和管理报告（包括课程、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“了解”部分。
+
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對報告、儀表板、行事曆的存取權</p> <p>編輯篩選器、檢視、群組的存取權</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>您將取得所建立報告的管理許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>您将获得所创建报告的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 建立報告 {#create-a-report}
+## 创建报告 {#create-a-report}
 
-若要觀看如何建立報告的影片，請參閱此 [建立自訂報表](#Walk-thr) 下方的。
+要观看有关如何创建报告的视频，请参阅此 [创建自定义报表](#Walk-thr) 下。
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) 然後按一下 **報表**.
-1. 按一下 **新報告**，然後選取您要用於報表的物件型別。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **报表**.
+1. 单击 **新建报告**，然后为报表选择所需的对象类型。
 
-   Report Builder隨即載入。
+   加载Report Builder。
 
-   如需可用物件報表的特定資訊，請參閱區段 [物件報告](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 在文章中 [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   有关可用对象报表的特定信息，请参阅部分 [对象报表](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 在文章中 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
-   >您也可以複製現有報表來建立報表。 如需詳細資訊，請參閱 [建立報告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   >您也可以通过复制现有报告来创建报告。 有关更多信息，请参阅 [创建报告副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-1. 在Report Builder中，新增下列專案至您的報表：
+1. 在Report Builder中，将以下内容添加到报表中：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,79 +84,78 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>列（视图）</td> 
-      <td> <p>在報表中新增欄可決定報表所包含的資訊。</p> <p>若要瞭解如何新增欄，請參閱 <a href="#add-columns-view-to-a-report" class="MCXref xref">新增欄（檢視）至報表</a>.<br></p> </td> 
+      <td> <p>向报表中添加列将决定报表包含的信息。</p> <p>要了解如何添加列，请参阅 <a href="#add-columns-view-to-a-report" class="MCXref xref">向报表中添加列（视图）</a>.<br></p> </td> 
      </tr> 
      <tr> 
       <td>分组</td> 
-      <td> <p>在報表中新增群組，會決定報表的編排方式。</p> <p>若要瞭解如何新增群組，請參閱 <a href="#add-groupings-to-a-report" class="MCXref xref">新增群組至報表</a>.</p> </td> 
+      <td> <p>向报表中添加分组可确定报表的组织方式。</p> <p>要了解如何添加分组，请参阅 <a href="#add-groupings-to-a-report" class="MCXref xref">向报表中添加分组</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>过滤器</td> 
-      <td> <p>將篩選規則新增至報表可決定您在報表中看到的資訊。</p> <p>若要瞭解如何新增篩選器，請參閱 <a href="#add-filters-to-a-report" class="MCXref xref">新增篩選器至報表</a>.</p> </td> 
+      <td>筛选条件</td> 
+      <td> <p>将过滤器规则添加到报表可确定您在报表中看到的信息。</p> <p>要了解如何添加过滤器，请参阅 <a href="#add-filters-to-a-report" class="MCXref xref">将过滤器添加到报表</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>图表</td> 
-      <td> <p>將圖表新增至報表可決定如何以視覺化方式呈現報表中的資訊。</p> <p>若要瞭解如何新增圖表，請參閱 <a href="#add-a-chart-to-a-report" class="MCXref xref">新增圖表至報表</a>.</p> </td> 
+      <td> <p>向报表中添加图表可确定报表中的信息以可视方式显示。</p> <p>要了解如何添加图表，请参阅 <a href="#add-a-chart-to-a-report" class="MCXref xref">向报表中添加图表</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在報告建立過程中的任何時候，按一下 **套用** 以儲存變更。
-1. 完成後，按一下 **儲存+關閉**.
+1. 在报告创建过程中的任何时候，单击 **应用** 以保存更改。
+1. 完成后，单击 **保存+关闭**.
 
-### 新增欄（檢視）至報表 {#add-columns-view-to-a-report}
+### 向报表中添加列（视图） {#add-columns-view-to-a-report}
 
-1. 開始建立報表，如 [建立報告](#create-a-report) 章節。
-1. 在Report Builder中，選取 **欄（檢視）** 索引標籤來識別要在報表中顯示的欄。
-1. （可選）按一下 **套用現有檢視** 以使用現有檢視。
+1. 开始创建报告，如 [创建报告](#create-a-report) 部分。
+1. 在报表生成器中，选择 **列（视图）** 选项卡以确定要在报表中显示的列。
+1. （可选）单击 **应用现有视图** 以使用现有视图。
 
-   如需建立新檢視的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   有关创建新视图的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 若要新增欄，請按一下 **新增欄**.
+1. 要添加新列，请单击 **添加列**.
 
    或
 
-   若要變更現有欄，請選取您要變更的欄，然後按一下目前名稱旁的(x)。
+   要更改现有列，请选择要更改的列，然后单击当前名称旁边的(x)。
 
-1. 開始輸入您要新增的欄位。 如果欄位可用，則會填入可與其產生關聯的每個物件。 按一下欄位名稱以將其新增至欄。
+1. 开始键入要添加的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到列。
 
-   有關您在欄中看到的欄位的詳細資訊，請參閱 [Adobe Workfront術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   有关您在列中看到的字段的更多信息，请参阅 [Adobe Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    ![](assets/nwe-add-column-typeahead-350x459.png)
 
-1. （選用）在 **欄設定** 區域，選取 **依此欄排序** 若要以遞增字母順序遞減排序欄中的值，則請指出清單是否應使用此欄作為第一個排序。
+1. （可选）在 **列设置** 区域，选择 **按此列排序** 要按降序对列中的值进行升序排序，请指明列表是否应使用此列作为第一个排序。
 
-   如果您想要先依一欄中的值排序，接著依第二欄中的值排序，則可以在報表檢視中進行多個層級的排序，依此類推。
+   如果您要先按一列中的值排序，其次按第二列中的值排序，则报表视图中可以有多个级别的排序，等等。
 
-   如果根據第一個排序標準有多個結果相同，則會依第二個排序標準的順序排序。 如果根據第一和第二排序標準有多個結果相同，則它們會根據第三排序等排序。
+   如果多个结果根据第一个分类标准相同，则它们按第二个分类标准的顺序排序。 如果多个结果按照第一和第二排序标准相同，则它们按照第三排序标准进行排序，依此类推。
 
    >[!NOTE]
    >
-   >如果您新增的欄位所參照的物件與您報告的物件距離太遠，您可能無法依此欄位排序。\
-   >例如，問題報告無法依專案所有者欄位排序，因為它參考了3個額外的物件：專案、所有者和名稱。 不過，您仍可將此欄位新增至問題報告，並檢視相關資訊。
+   >如果添加字段引用的对象与您报告的对象相距太远，则可能无法按该字段排序。\
+   >例如，问题报告无法按项目所有者字段排序，因为它引用了3个额外的对象：项目、所有者和名称。 但是，您仍可将此字段添加到问题报告并查看与其相关的信息。
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
-1. （選擇性）如果您使用群組，並且想要彙總（彙總）欄中的資訊，請按一下 **此欄的摘要方式** 中的下拉式清單 **欄設定** 區域，然後選取您要用來彙總欄中資訊的選項。
+1. （可选）如果您要使用分组，并且希望汇总（汇总）列中的信息，请单击 **此列的汇总方式** 中的下拉列表 **列设置** 区域，然后选择要用于聚合列中信息的选项。
 
-   彙總資訊會顯示在分組列的欄中。
+   聚合的信息显示在分组行的列中。
 
-   ![分組的彙總摘要](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
+   ![分组的汇总摘要](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
 
-   如需在欄中摘要資料的詳細資訊，請參閱 [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   有关汇总列中数据的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
    >[!NOTE]
    >
-   >當您彙總分組中下列欄位的值時，下列例外情況適用於父系物件（例如父系任務）：
+   >在分组中聚合以下字段的值时，以下例外适用于父对象（例如，父任务）：
    >
-   >* 除「實際時數」（例如，計畫/實際勞力成本、計畫/實際費用成本、計畫/實際成本、計畫時數）之外的所有數字與幣別欄位，只會彙總子系任務和獨立任務的值。 它們不會彙總父系任務的值或父系父系的值。
-   >* 實際時數彙總主要父任務和獨立任務的值；它們不會彙總父任務父任務或子任務的數字。
-   >* 數字和貨幣值的自訂資料欄位會彙總所有任務：父項、子項、父項的父項以及獨立任務。
+   >* 除“实际小时数”（例如，“计划/实际劳力成本”、“计划/实际费用成本”、“计划/实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
+   >* 实际小时数聚合主父级任务和独立任务的值；它们不会聚合父级任务或子级任务的父级任务的数量。
+   >* 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。
 
+   有关在报表中使用分组的更多信息，请参阅 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-   如需在報表中使用群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-
-1. （可選）按一下 **進階選項** 指定欄的下列資訊：
+1. （可选）单击 **高级选项** 要为列指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -160,93 +163,92 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">自定义列标签</td> 
-      <td> <p>指定欄的自訂標籤。 此標籤會取代預設標籤。</p> </td> 
+      <td> <p>指定列的自定义标签。 此标签将替换默认标签。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">字段格式</td> 
-      <td> <p>選取您要為欄中的欄位顯示值的格式。</p> </td> 
+      <td> <p>选择您希望为列中的字段显示值的格式。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">在仪表板上显示此列</td> 
-      <td> <p>當報告與其他報告並排顯示時，選取此選項可在控制面板上顯示此欄。 取消選取此選項時，在報告並排顯示的儀表板上檢視報告時不會顯示此欄。</p> </td> 
+      <td> <p>当报告与其他报告并排显示时，选择此选项可在功能板上显示此列。 如果未选择此选项，则在报告并排显示的功能板上查看报告时，不会显示此列。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">列规则</td> 
-      <td> <p>按一下 <strong>為此欄新增規則</strong> 以新增條件式格式至欄。 新增規則後，您可以定義欄位和文字樣式，以顯示符合該規則的欄位。 按一下 <strong>新增規則</strong> 定義完規則之後。 如需檢視中條件式格式的詳細資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">在檢視中使用條件式格式</a>.</p> </td> 
+      <td> <p>单击 <strong>为此列添加规则</strong> 向列添加条件格式。 添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 单击 <strong>添加规则</strong> 完成规则定义之后。 有关视图中条件格式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">在视图中使用条件格式</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下 **套用** 以套用您目前所做的變更，並使用下列選項繼續編輯報表。
+1. 单击 **应用** 以应用您所做的更改，并使用以下选项继续编辑报告。
 
-   按一下 **儲存+關閉** 如果您已完成編輯報告中的欄並想要儲存報告。
+   单击 **保存+关闭** 如果您已完成编辑报告中的列，并且要保存报告。
 
-### 新增群組至報表 {#add-groupings-to-a-report}
+### 向报表中添加分组 {#add-groupings-to-a-report}
 
-1. 開始建立報表，如 [建立報告](#create-a-report) 章節。
-1. 在Report Builder中，選取 **群組** 索引標籤來識別您要將報表中的專案分組的方式。
-1. 按一下 **新增群組** 以新增群組。
+1. 开始创建报告，如 [创建报告](#create-a-report) 部分。
+1. 在报表生成器中，选择 **分组** 选项卡，以标识要在报表中对项目进行分组的方式。
+1. 单击 **添加分组** 以添加新分组。
 
    或
 
-   選擇 **套用現有群組** 以選取現有群組
+   选择 **应用现有分组** 选择现有分组
    ![](assets/nwe-add-grouping-350x230.png)
 
-1. 開始輸入您要新增為群組的欄位。 如果欄位可用，則會填入可與其產生關聯的每個物件。 按一下欄位名稱，將其新增至該群組。
-1. （選用）您可以選擇按一下「 」，以文字模式建立群組 **切換至文字模式**. 如需有關使用文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+1. 开始键入要作为分组添加的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该分组。
+1. （可选）您可以通过单击，选择在文本模式下构建分组 **切换到文本模式**. 有关使用文本模式的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   如需建立新群組的詳細資訊，請參閱 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   有关创建新分组的详细信息，请参见 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. （選用）選取 **依預設摺疊此群組** 如果您希望此群組中的結果以收合方式顯示，而不是以展開方式顯示。
+1. （可选）选择 **默认情况下折叠此分组** 如果您希望此分组中的结果以折叠方式显示而不是展开方式。
 
-   此設定預設為停用，群組結果一律顯示在展開清單中。
+   默认情况下，此设置处于禁用状态，分组的结果始终显示在展开列表中。
 
    >[!TIP]
    >
-   >* 當您在檢視清單時手動調整群組時，Workfront會記住您的手動偏好設定，直到您登出為止。 當您重新登入時，清單會根據此設定顯示。
-   >* 從圖表元素存取群組結果後，群組結果一律展開顯示。
+   >* 当您在查看列表时手动调整分组时，Workfront会记住您的手动首选项，直到您注销。 重新登录时，将根据此设置显示列表。
+   >* 从图表元素访问分组结果后，这些结果始终以展开形式显示。
 
+1. （可选）您可以选择构建矩阵分组，以网格格式显示结果。
 
-1. （選擇性）您可以選擇建立矩陣群組，以格線格式顯示結果。
+   有关构建矩阵报表的更多信息，请参阅 [创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   如需建立矩陣報表的詳細資訊，請參閱 [建立矩陣報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. 单击 **应用** 以应用您所做的更改，并使用以下选项继续编辑报告。
 
-1. 按一下 **套用** 以套用您目前所做的變更，並使用下列選項繼續編輯報表。
+   单击 **保存+关闭** 如果您已完成编辑报告中的分组并想要保存报告。
 
-   按一下 **儲存+關閉** 如果您已完成編輯報告中的群組，且您想要儲存報告。
+### 将过滤器添加到报表 {#add-filters-to-a-report}
 
-### 新增篩選器至報表 {#add-filters-to-a-report}
-
-1. 開始建立報表，如 [建立報告](#create-a-report) 章節。
-1. 在Report Builder中，選取 **篩選器** 標籤以識別您要納入報表的資訊量。
-1. 按一下 **新增篩選規則** 以新增自訂篩選器。\
+1. 开始创建报告，如 [创建报告](#create-a-report) 部分。
+1. 在报表生成器中，选择 **过滤器** 选项卡，用于标识您希望报表包含的信息量。
+1. 单击 **添加筛选器规则** 以添加自定义筛选条件。\
    或\
-   選擇 **套用現有篩選器** 以使用現有篩選器。
+   选择 **应用现有筛选器** 以使用现有筛选器。
 
    ![](assets/nwe-add-a-filter-350x93.png)
 
-1. 若您按一下 **新增篩選規則**，開始輸入您要新增為篩選器的欄位。 如果欄位可用，則會填入可與其產生關聯的每個物件。 按一下欄位名稱，將其新增至該篩選器。\
-   使用篩選器修飾元來建置您的篩選器。 如需篩選修飾元的詳細資訊，請參閱 [篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. 如果您单击 **添加筛选器规则**，开始键入要添加为过滤器的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该过滤器。\
+   使用过滤器修饰符构建您的过滤器。 有关过滤器修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   如需建立新篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建新过滤器的更多信息，请参阅 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. （選用）您可以選擇按一下「 」，在文字模式中建立篩選器 **切換至文字模式**.
+1. （可选）您可以通过单击 **切换到文本模式**.
 
-   如需有關使用文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+   有关使用文本模式的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-1. 按一下 **套用** 當您完成編輯報表中的篩選器以套用目前所做的變更，並使用以下選項繼續編輯報表時。
+1. 单击 **应用** 当您完成编辑报告中的过滤器以应用您到目前为止的更改并使用以下选项继续编辑报告时。
 
-   按一下 **儲存+關閉** ，且您想要儲存該報告。
+   单击 **保存+关闭** ，并且您想要保存该报表。
 
-### 新增圖表至報表 {#add-a-chart-to-a-report}
+### 向报表中添加图表 {#add-a-chart-to-a-report}
 
-1. 開始建立報表，如 [建立報告](#create-a-report) 章節。
-1. 在Report Builder中，選取 **圖表** 標籤，然後選取您要新增的圖表型別。
+1. 开始创建报告，如 [创建报告](#create-a-report) 部分。
+1. 在报表生成器中，选择 **图表** 选项卡，然后选择要添加的图表类型。
 
    ![](assets/nwe-add-a-chart-350x247.png)
 
-   如需在報告中建立圖表的詳細資訊，請參閱 [新增圖表至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   有关在报表中构建图表的详细信息，请参阅 [向报表中添加图表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. 按一下 **套用** 以套用您目前所做的變更，並使用下列選項繼續編輯報表。
+1. 单击 **应用** 以应用您所做的更改，并使用以下选项继续编辑报告。
 
-   按一下 **儲存+關閉** 如果您已完成編輯報告並想要儲存報告。
+   单击 **保存+关闭** 如果您已完成编辑报告并想要保存报告。

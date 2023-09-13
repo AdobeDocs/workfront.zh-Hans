@@ -1,30 +1,32 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 文字模式的常見用途概觀
-description: 文字模式的常見用途概觀
+title: 文本模式的常见用途概述
+description: 文本模式的常见用途概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
-# 文字模式的常見用途概觀
+# 文本模式的常见用途概述
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)</p>
 -->
 
-您可以在報表和報表元素中使用文字模式來擴展報表功能。 您也可以使用某個版本的文字模式，以建置更複雜的計算自訂欄位。 如需文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+您可以使用报表和报表元素中的文本模式来扩展报表功能。 您还可以使用某个版本的文本模式来构建更复杂的计算自定义字段。 有关文本模式的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-本文僅概述幾個常見範例，說明何處您最可能需要使用文字模式來擴展Adobe Workfront中的報表或計算自訂欄位功能。 如需更詳細的範例清單，請參閱：
+本文仅概述几个常见示例，您最可能需要在其中使用文本模式来扩展Adobe Workfront中的报表或计算自定义字段功能。 有关更全面的示例列表，请参阅：
 
-* [自訂檢視、篩選和分組範例](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [報表中計算出的自訂資料](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [自定义视图、筛选器和分组示例](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [报表中计算的自定义数据](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+
+有关使用文本模式创建报告（包括类、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
 
 <!--this link is outdated: 
 
@@ -32,35 +34,35 @@ For additional real-life text mode examples that other Workfront customers might
 
 -->
 
-## 您可能在清單和報告中使用文字模式的例項
+## 可以在列表和报告中使用文本模式的实例
 
-建議您使用Report和List Builder來建置檢視、篩選器和群組。 不過，在某些情況下，您可以使用文字模式來增強報告和清單。
+我们建议您使用报表和列表生成器来构建视图、筛选器和分组。 但是，在某些情况下，您可以使用文本模式来增强报告和列表。
 
-當您想要在Workfront中達成下列目標時，可以使用文字模式：
+当您希望在Workfront中实现以下目标时，可以使用文本模式：
 
-* 在自訂表單中建立自訂計算自訂欄位。\
-   如需有關已計算自訂欄位的詳細資訊，請參閱 [在計算自訂欄位中使用文字模式](#use-text-mode-in-calculated-custom-fields) 章節。
-* 增強超出Report Builder可能的篩選器、檢視和群組。 如需使用文字模式進行篩選、檢視和分組的相關資訊，請參閱本文中的下列章節：
+* 在自定义表单中构建自定义计算自定义字段。\
+  有关计算的自定义字段的更多信息，请参阅 [在计算自定义字段中使用文本模式](#use-text-mode-in-calculated-custom-fields) 部分。
+* 在Report Builder中可提供的范围之外增强筛选器、视图和分组。 有关对筛选器、视图和分组使用文本模式的信息，请参阅本文中的以下部分：
 
-   * [在檢視中使用文字模式](#use-text-mode-in-views)
-   * [在篩選中使用文字模式](#use-text-mode-in-filters)
-   * [在分組中使用文字模式](#use-text-mode-in-groupings)
+   * [在视图中使用文本模式](#use-text-mode-in-views)
+   * [在筛选器中使用文本模式](#use-text-mode-in-filters)
+   * [在分组中使用文本模式](#use-text-mode-in-groupings)
 
-* 建立自訂提示。 您只能使用文字模式建立自訂提示。
+* 创建自定义提示。 您只能使用文本模式创建自定义提示。
 
-   如需有關建立自訂提示的資訊，請參閱 [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  有关生成自定义提示的信息，请参阅 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-## 在計算自訂欄位中使用文字模式 {#use-text-mode-in-calculated-custom-fields}
+## 在计算自定义字段中使用文本模式 {#use-text-mode-in-calculated-custom-fields}
 
-您可以使用文字模式將計算出的自訂欄位新增到自訂表單。
+您可以使用文本模式将计算的自定义字段添加到自定义表单。
 
-如需將計算後的自訂欄位新增至自訂表單的詳細資訊，請參閱 [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关将计算自定义字段添加到自定义表单的更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-如需在文字模式中建立計算自訂欄位的詳細資訊，請參閱 [將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关在文本模式下创建计算自定义字段的更多信息，请参阅 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-例如，您可以新增計算自訂欄位，顯示專案標示為進行中時的時間和日期戳記。 您可以將此計算用於其他狀態。
+例如，您可以添加计算自定义字段，以显示项目被标记为“进行中”时的时间和日期戳。 您可以将此计算用于其他状态。
 
-如需詳細資訊，請參閱 [計算自訂欄位範例：在自訂表單中顯示狀態時間戳記](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
+有关信息，请参阅 [计算自定义字段示例：在自定义表单中显示状态时间戳](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -93,22 +95,22 @@ For additional real-life text mode examples that other Workfront customers might
 </div>
 -->
 
-## 在檢視中使用文字模式 {#use-text-mode-in-views}
+## 在视图中使用文本模式 {#use-text-mode-in-views}
 
-您可以在檢視中使用文字模式，展開您可以在檢視中顯示的欄位和物件。
+您可以使用视图中的文本模式来展开可在视图中显示的字段和对象。
 
-如需在檢視中使用文字模式的最常見原因範例，請參閱下列文章：
+有关在视图中使用文本模式的最常见原因的示例，请参阅以下文章：
 
-* [檢視：顯示未包含在標準介面中的物件](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [檢視：顯示欄中兩個欄位之間的計算結果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [檢視：永久編輯欄寬](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [檢視：合併一個共用欄中多個欄的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [檢視：移除欄中物件的連結](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
-* [報表中的參考集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [檢視：隱藏欄的內容](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [檢視：在欄中顯示影像而非字串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [檢視：在任務清單中顯示任務縮排](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [檢視：計算時間和日期差異](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [视图：显示未包含在标准界面中的对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [视图：显示列中两个字段之间的计算结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [视图：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [视图：合并来自一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+* [视图：删除列中对象的链接](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [在报表中引用收藏集](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [视图：隐藏列的内容](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [视图：在列中显示图像而不是字符串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [视图：在任务列表中显示任务缩进](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [查看：计算时间和日期差异](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -290,22 +292,22 @@ Avoid using images that are uploaded to Workfront. Because images stored in Work
 </div>
 -->
 
-## 在篩選中使用文字模式 {#use-text-mode-in-filters}
+## 在筛选器中使用文本模式 {#use-text-mode-in-filters}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace all these links with the link to the actual articles; --- hide all the sections below)</p>
 -->
 
-建立篩選條件時，您可以使用文字模式來展開可篩選的欄位和物件。
+构建过滤器时，您可以使用文本模式来展开可过滤的字段和对象。
 
-如需在篩選中使用文字模式的最常見原因範例，請參閱下列文章：
+有关在过滤器中使用文本模式的最常见原因的示例，请参阅以下文章：
 
-* [篩選：建立參照相同欄位（「AND」陳述式）的多個篩選規則](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [篩選：僅顯示處於核准狀態的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [篩選：當狀態與不同群組相關聯時，依相同名稱狀態顯示專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
-* [篩選：比較兩個欄位來排除清單中的專案](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* 區段 [橫跨物件階層中多個層級的文字模式篩選範例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) 在文章中 [使用EXISTS陳述式建立複雜的文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-* 區段 [為遺失的物件建立複雜文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) 在文章中 [使用EXISTS陳述式建立複雜的文字模式篩選器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [过滤器：创建引用同一字段（“AND”语句）的多个过滤器规则](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [筛选器：仅显示处于审批状态的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [筛选器：当状态与不同组关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [筛选器：通过比较两个字段来消除列表中的项](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* 部分 [跨对象层次结构中多个级别的文本模式筛选器的示例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) 在文章中 [使用EXISTS语句创建复杂的文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* 部分 [为缺少的对象创建复杂文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) 在文章中 [使用EXISTS语句创建复杂的文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -365,20 +367,20 @@ Only one status displays here. The status line displays one of the three-letter 
 </div>
 -->
 
-## 在分組中使用文字模式 {#use-text-mode-in-groupings}
+## 在分组中使用文本模式 {#use-text-mode-in-groupings}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace all these links with the link to the actual articles; --- hide all the sections below)</p>
 -->
 
-建立群組時，您可以使用文字模式來展開欄位和物件，以便在清單和報告中進行群組。
+在构建分组时，可以使用文本模式展开可在列表和报告中作为分组依据的字段和对象。
 
-如需群組中使用文字模式的最常見原因範例，請參閱下列文章：
+有关在分组中使用文本模式的最常见原因的示例，请参阅以下文章：
 
-* [群組：依照群組中所有物件通用的計算值來組織清單結果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [分組：將第四個分組新增至清單](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [分組：編輯分組中的顯示名稱](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [群組：指出群組結果應使用文字模式收合或展開](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [分组：按分组中所有对象通用的计算值组织列表结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [分组：向列表添加第四个分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [分组：编辑分组中的显示名称](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [分组：指示应使用文本模式折叠或展开分组的结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

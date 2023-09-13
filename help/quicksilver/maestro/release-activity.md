@@ -3,9 +3,9 @@ title: AdobeMaestro发布活动
 description: 使用Maestro创建自定义对象、字段和工作区。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 预览和生产： 2023年7月13日
 
-您现在可以向Maestro记录类型添加复选框字段类型。 您可以使用Checkbox字段类型将单个复选框选项添加到记录。 您可以使用此字段指明特定记录的特定属性或状态。 例如，您可以将其用作跟踪每个记录的完成、批准或任何其他二进制属性的标志。
+您现在可以向Maestro记录类型添加复选框字段类型。 您可以使用Checkbox-type字段将单个复选框选项添加到记录。 您可以使用此字段指明特定记录的特定属性或状态。 例如，您可以将其用作跟踪每个记录的完成、批准或任何其他二进制属性的标志。
 
 ## 2023年6月26日起一周
 

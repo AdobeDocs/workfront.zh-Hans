@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2047'
 ht-degree: 2%
 
 ---
@@ -70,6 +70,16 @@ ht-degree: 2%
 以下部分包含在原始23.2版本之后添加的功能的列表，从最近发布的功能开始。
 
 以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
+
+### 2023年9月11日起一周
+
+#### 新的评论体验捕获从2019年1月1日开始的信息
+
+项目、任务、问题和文档现在显示从2019年1月1日开始的更新。 在此增强功能之前，新的注释体验仅捕获了从2022年6月起这些对象的更新。
+
+有关更多信息，请参阅 [新的评论体验](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+适用于所有客户的预览和生产： 2023年9月11日。
 
 ### 2023年8月21日起一周
 
