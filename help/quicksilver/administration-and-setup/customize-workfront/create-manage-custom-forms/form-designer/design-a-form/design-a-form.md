@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # 使用表单设计器设计表单
+
+{{preview-and-fast-release}}
 
 您可以使用表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -491,6 +493,90 @@ ht-degree: 4%
    或
 
    单击 **保存并关闭**.
+
+<div class="preview">
+
+### 添加外部查找字段
+
+外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择以下选项之一。
+
+要添加外部查找，请执行以下操作：
+
+1. 在屏幕左侧，查找 **外部查找** 然后将其拖动到画布上的某个部分。
+1. 在屏幕右侧，配置自定义字段的选项：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">标签</td> 
+      <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要</b>：避免在此标签中使用特殊字符。 它们在报表中无法正确显示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">名称</td> 
+      <td> <p>（必需）此名称是系统标识自定义字段的方式。</p> <p>首次配置自定义字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> 
+      <p><b>重要</b>：   
+      <ul> 
+      <li>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。 <p>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。</p> </li>
+      <li> <p>我们建议您不要键入已用于内置Workfront字段的名称。</p> </li>
+      <li><p>我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。</p></li>
+      </ul> <p>每个自定义字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。 有关更多信息，请参阅 <a href="#Add" class="MCXref xref">将自定义字段添加到自定义表单</a> 本文章中。</p> </td>
+     </tr> 
+      <td role="rowheader">说明</td> 
+      <td> <p>键入有关自定义字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">格式</td>
+      <td><p>选择将在自定义字段中捕获的数据类型。</p>
+      <p><strong>注释:</strong></p>
+      <ul><li>保存表单后，可以更改格式类型，但有一个限制：对象上的所有现有值都必须能够转换为新类型。 （例如，如果格式类型为“文本”，并且对象正在存储“abc”值，则您无法转换该字段，并且会收到一个错误，说明系统无法将“abc”转换为数字/货币。） 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li>
+      <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">基本 API URL</td> 
+      <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
+      <ul><li>$$query — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
+      <li>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</li></ul>
+      <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP方法</td> 
+      <td>选择 <strong>Get</strong>， <strong>Post</strong>，或 <strong>Put</strong> 用于方法。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON路径</td>
+      <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择哪些值将从JSON内部显示在下拉选项中。</p><p>例如，如果API URL按此格式返回JSON：</br>
+      <pre>
+      { data： { { name： "USA"}， { name： "Canada"} }
+      </pre>
+      </p>
+      <p>然后，您可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项。</p> <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅 <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">标题</td>
+      <td>单击 <strong>添加标题</strong>，然后键入或粘贴使用API进行身份验证所需的键值对。</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
+
+   或
+
+   单击 **保存并关闭**.
+
+>[!NOTE]
+>
+>外部API调用的技术限制：
+>
+>* 最大选项数：200（仅显示返回的JSON中的前200个选项）
+>* 超时： 3秒
+>* 重试次数：3
+>* 重试之间的等待持续时间：500毫秒
+>* 预期响应状态： 2xx
+
+</div>
 
 ### 添加图像、PDF和视频
 
