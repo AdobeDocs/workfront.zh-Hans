@@ -3,9 +3,9 @@ title: 创建记录类型
 description: 记录类型是AdobeMaestro的对象类型。 在Maestro中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作项。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

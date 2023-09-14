@@ -3,9 +3,9 @@ title: 连接记录类型
 description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Maestro记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ author: Alina
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

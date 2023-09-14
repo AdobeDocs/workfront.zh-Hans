@@ -3,9 +3,9 @@ title: 工作区模板列表
 description: 工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 Maestro随附了一组模板，帮助您在构建工作区时开始使用基本记录类型、分类和字段。
 hide: true
 hidefromtoc: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

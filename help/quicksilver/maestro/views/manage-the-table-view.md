@@ -3,9 +3,9 @@ title: 管理表视图
 description: 访问AdobeMaestro中的记录类型页时，可以在表格视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
-source-git-commit: 4a3cf7211eef2b161a29b74e8e9b2b12c21eaf4d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

@@ -3,9 +3,9 @@ title: 视图信息
 description: 可以在表格或时间线视图中显示AdobeMaestro记录。 以下文章介绍如何创建和管理AdobeMaestro记录视图。
 hidefromtoc: true
 hide: true
-source-git-commit: 0701b3677dba280e8e0cf232aff083d922bb4897
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

@@ -3,9 +3,9 @@ title: 编辑字段
 description: 在Adobe管理器中，您可以编辑已创建字段的字段设置。
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

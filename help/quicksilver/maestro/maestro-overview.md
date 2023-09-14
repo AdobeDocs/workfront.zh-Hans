@@ -3,9 +3,9 @@ title: Adobe大师概述
 description: Adobe大师”是Adobe Workfront推出的新产品。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,14 @@ ht-degree: 1%
 
 <!-- remove the references to closed beta from the entire article-->
 
+<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
+
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
+>[观看Adobe大师的视频演示](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Adobe大师简介
 

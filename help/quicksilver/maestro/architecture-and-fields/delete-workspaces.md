@@ -3,9 +3,9 @@ title: 删除工作区
 description: 如果工作区不再相关，您可以将其删除。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵公司必须注册AdobeMaestro测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>

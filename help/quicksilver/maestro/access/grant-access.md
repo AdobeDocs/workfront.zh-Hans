@@ -3,9 +3,9 @@ title: 授予对Adobe大师的访问权限
 description: 了解如何在Adobe大师中授予访问权限和共享信息。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>
+>有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
+>
+>有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

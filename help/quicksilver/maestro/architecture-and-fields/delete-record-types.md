@@ -3,9 +3,9 @@ title: 删除记录类型
 description: 如果操作记录类型或分类记录类型不再相关，您可以将其删除。
 hidefromtoc: true
 hide: true
-source-git-commit: 14b456f32dd2c8735e0a5252387f25305efc7610
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

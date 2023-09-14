@@ -3,9 +3,9 @@ title: 编辑记录类型
 description: 保存记录类型后，您可以对其进行编辑。 记录类型是AdobeMaestro的对象类型。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

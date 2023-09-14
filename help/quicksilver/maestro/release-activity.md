@@ -3,9 +3,9 @@ title: AdobeMaestro发布活动
 description: 使用Maestro创建自定义对象、字段和工作区。
 hidefromtoc: true
 hide: true
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

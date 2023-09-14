@@ -3,9 +3,9 @@ title: 创建字段
 description: 在Adobe管理器中，您可以为每种操作记录类型或分类创建自定义字段。 然后，可将该字段与Maestro记录相关联。
 hidefromtoc: true
 hide: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2555'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >

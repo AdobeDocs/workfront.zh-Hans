@@ -3,10 +3,10 @@ title: 访问概述
 description: 组织中的所有用户都可以访问AdobeMaestro。 目前，没有与用户或Maestro中的信息相关的访问级别或权限。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->目前，AdobeMaestro是封闭测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>
+>有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
+>
+>有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
