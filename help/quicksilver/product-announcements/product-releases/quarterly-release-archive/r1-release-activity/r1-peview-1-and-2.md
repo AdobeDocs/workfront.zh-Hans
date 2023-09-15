@@ -2,109 +2,109 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1预览1和2
-description: 本页介绍R1.1和R1.2版本在“预览”环境中可用的所有更改。 此页面上的功能于2017年1月19日在预览环境中提供。
+description: 本页介绍R1.1和R1.2版本在“预览”环境中提供的所有更改。 2017年1月19日，预览环境中提供了此页面上的功能。
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
 
 # R1预览1和2
 
-本页介绍R1.1和R1.2版本在“预览”环境中可用的所有更改。 此页面上的功能于2017年1月19日在预览环境中提供。
+本页介绍R1.1和R1.2版本在“预览”环境中提供的所有更改。 2017年1月19日，预览环境中提供了此页面上的功能。
 
-有关R1中所有更改的列表，请参阅 [R1发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+有关在R1中所做所有更改的列表，请参见 [R1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## 从回收站恢复项目、任务和问题 
 
-Workfront管理员现在可以恢复过去30天内已删除的项目、任务和问题。 与项目、任务或问题关联的所有信息都将恢复，包括文档和自定义数据。
+Workfront管理员现在可以恢复过去30天内删除的项目、任务和问题。 与项目、任务或问题相关的所有信息都会恢复，包括文档和自定义数据。
 
-还提供了新选项，用于配置针对已删除的项目、任务或问题记录的小时数所发生的情况。 有关更多信息，请参阅 [配置在删除和还原对象时对小时数的影响](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+新选项也可用于配置针对已删除的项目、任务或问题记录的小时数的变化情况。 有关更多信息，请参阅 [配置删除和还原对象时的影响（小时）](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 有关在Workfront中恢复对象的更多信息，请参阅 [恢复已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-有关如何查看最近还原的项目、任务和问题的信息，请参阅 [查看还原的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+有关如何查看最近恢复的项目、任务和问题的信息，请参阅 [查看已还原的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-## 审批图显示了以前、当前和将来审批步骤的可视化表示形式
+## 审批流程图显示先前、当前和未来审批步骤的可视化表示形式
 
-现在，当项目、任务或问题的批准处于待批准状态时，将显示一个图表。 审批图显示了审批流程中的当前步骤（待定），还允许您快速查看以前和将来的审批步骤，而无需导航到“审批”选项卡。
+现在，当项目、任务或问题等待审批时，会显示图表。 批准图显示了批准流程中的当前步骤（待定），并允许您快速查看以前和未来的批准步骤，而无需导航到批准选项卡。
 
-在进行此项更改之前，有关批准步骤的信息仅在项目、任务或问题的“批准”选项卡上可用，并且仅在列表视图中显示，而不是在图表视图中显示。 （此信息仍可用，且在“批准”选项卡中未更改。）
+在此更改之前，有关审批步骤的信息仅在项目、任务或问题的审批选项卡上可用，并且仅显示在列表视图而非图视图中。 （此信息在“审批”选项卡中仍可用且未更改。）
 
-在项目上，审批信息显示在项目标题旁边的标题中。 对于任务和问题，审批信息会显示在右侧面板中。
+在项目中，审批信息显示在标题旁边的标题中。 在任务和问题上，批准信息显示在右侧面板中。
 
-有关更多信息，请参阅 [批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+有关更多信息，请参阅 [审批工作](../../../../review-and-approve-work/manage-approvals/approving-work.md) 在  [审批工作](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-## 配置要更新的待批准对象
+## 配置待审批的待更新对象
 
-当项目、任务或问题等待批准时，您现在可以配置用户是否可以：
+当项目、任务或问题正在等待审批时，您现在可以配置用户是否可以：
 
-* 编辑待批准的项目、任务或问题的自定义表单。\
-   有关如何配置待批准时要编辑的项目、任务和问题的信息，请参阅 [配置全局批准设置](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+* 编辑待审批项目、任务或问题的自定义表单。\
+  有关如何配置待审批时要编辑的项目、任务和问题的信息，请参阅 [配置全局审批设置](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
-* 向待批准的项目添加问题。\
-   有关如何配置项目以允许用户在项目处于待批准状态时添加问题的信息，请参阅 [配置系统范围的项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 将问题添加到待审批的项目。\
+  有关如何配置项目以允许用户在项目未决批准时添加问题的信息，请参阅 [配置系统范围的项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* 编辑项目中待批准的任务和问题。\
-   有关如何配置项目以允许用户在项目等待批准时编辑任务和问题的信息，请参阅 [配置系统范围的项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 编辑待审批项目中的任务和问题。\
+  有关如何配置项目以允许用户在项目未决批准时编辑任务和问题的信息，请参阅 [配置系统范围的项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-在进行此项更改之前，无法编辑待批准的项目、任务和问题；此外，无法将问题添加到待批准的项目中，以及无法在待批准项目中编辑任务和问题。
+在此更改之前，无法编辑未决批准的项目、任务和问题；此外，无法将问题添加到未决批准的项目，并且无法在未决批准的项目中编辑任务和问题。
 
 ## 将布局模板分配给组
 
 您现在可以将布局模板分配给组。
 
-在进行此更改之前，您可以将布局模板分配给用户、团队和工作角色。 将布局模板分配给组具有布局模板分配优先级中最低的排名。 
+在此更改之前，您可以将布局模板分配给用户、团队和工作角色。 将布局模板分配给组时，其分配优先级最低。 
 
-有关更多信息，请参阅“创建和管理布局模板”。
+有关详细信息，请参阅创建和管理布局模板。
 
-## 对批量编辑用户通知的更改
+## 更改了批量编辑用户通知
 
-关于批量编辑用户电子邮件通知设置的功能已发生更改。 当您选择多个用户以编辑其通知电子邮件设置时，只会更改所有选定用户的正在更新的特定通知。 所有未更改的电子邮件通知设置对于选定的所有用户都保持相同，即使这些用户不同于用户。 
+围绕批量编辑用户电子邮件通知设置的功能已更改。 如果选择多个用户编辑其通知电子邮件设置，则所有选定用户仅会更改要更新的特定通知。 对于所选的所有用户，所有未更改的电子邮件通知设置保持不变，即使这些设置因用户而异。 
 
-在进行此项更改之前，已保存您选择的电子邮件通知设置，并且在保存更改时，已取消选择所有其他未更改的通知设置。 
+在此更改之前，您选择的电子邮件通知设置已保存，并且在保存更改时，所有其他未更改通知设置都已取消选择。 
 
-有关更多信息，请参阅 [激活或停用您自己的事件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+有关更多信息，请参阅中的“批量修改用户通知设置” [修改您自己的电子邮件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## 更新了多个电子邮件通知的外观
 
-以下电子邮件通知的外观已更新为新的UI:
+以下电子邮件通知的外观已更新为新的UI：
 
 * 问题分配
 * 提交日期更改
-* 当项目状态从 idea/approved/rejected/requested/planning 更改为当前，发送电子邮件给团队
-* 对利害关系方的批准决定
-* 任务依赖项的前置任务完成
-* 待批准（项目、任务、问题）
+* 我参与的一个项目成为活动状态
+* 向利害关系方作出批准决定
+* 前置任务完成到任务依赖
+* 未决批准（项目、任务、问题）
 * 项目、任务、问题的状态更改
 
-请记住，更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为预览沙盒会清除所有用户的电子邮件地址。    有关电子邮件通知的更多信息，请参阅 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为预览沙盒将清除所有用户的电子邮件地址。    有关电子邮件通知的更多信息，请参阅 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## 多个通知区域的新电子邮件摘要选项
 
 以下通知区域已添加“每日摘要”选项：
 
-* 有关我正在执行的项目的信息
+* 有关我参与的项目的信息
 * “我赞助的项目”相关信息
 * 批准信息
 * “分配给我的工作”相关信息
 * 通信
 
-有关更多信息，请参阅 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).  请记住，更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为预览沙盒会清除所有用户的电子邮件地址。 
+有关更多信息，请参阅 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).  请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能，因为预览沙盒将清除所有用户的电子邮件地址。 
 
-## 将群组设为公用
+## 将组设为公用
 
-将群组设为公用群组时，您现在可以将该群组添加到用户中，而无需成为群组所有者。 您必须具有用户管理访问权限才能编辑用户。
+现在，将组设为公共组时，您可以将该组添加到用户，而无需成为组所有者。 您必须具有用户管理权限才能编辑用户。
 
-有关将群组公开的更多信息，请参阅 [创建群组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) 部分 [创建群组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+有关公开组的更多信息，请参见 [创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) 中的部分 [创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-## 在移动设备应用程序中共享对象的URL 
+## 共享移动应用程序中对象的URL 
 
-现在，您可以在Workfront移动设备应用程序上共享以下对象的URL:
+现在，您可以在Workfront移动设备应用程序上的以下对象中共享URL：
 
 * 项目
 * 任务
@@ -112,23 +112,23 @@ Workfront管理员现在可以恢复过去30天内已删除的项目、任务和
 * 时间表
 * 文档
 
-您可以在以下应用程序中共享对象的URL:
+可以在以下应用程序中共享对象的URL：
 
 * 文本消息
 * 电子邮件
 * 存储驱动器（例如iCloud驱动器）
-* 另一个已安装的应用程序(例如，Notes、Facebook)
-* 您可以将指向对象的链接复制到剪贴板，稍后再粘贴到任何其他应用程序中。 
+* 其他已安装的应用程序(例如Notes、Facebook)
+* 您可以将指向对象的链接复制到剪贴板，然后将其粘贴到任何其他应用程序中。 
 
 ## 设置中的上下文相关帮助
 
-“设置”菜单下的所有区域都已更新，其右上角都有一个“帮助”图标。 此图标提供有关该区域的帮助网站文章的链接。 “设置”区域内的某些部分也已更新为“帮助”图标。 
+“设置”菜单下的所有区域已更新，区域右上角有一个帮助图标。 此图标提供指向有关该区域的帮助站点文章的链接。 “设置”区域中的一些部分也更新了“帮助”图标。 
 
 ## 添加更精确的费用率
 
-现在，您可以在创建费用类型时添加更准确的费用率。 费用率在小数后最多可包含4个字符（例如1.0375）。 这意味着使用此比率的任何字段都可以更精确。
+现在，您可以在创建费用类型时添加更准确的费用率。 小数点后费用费率最多可包含4个字符（例如，1.0375）。 这意味着，任何使用此速率的字段都可以更精确。
 
-在进行此项更改之前，费用率最多只能包含小数后的2个字符（例如1.03）。
+在此更改之前，费用费率最多只能包含小数点后的2个字符（例如1.03）。
 
 有关创建费用率的详细信息，请参阅 [创建自定义费用类型](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
@@ -144,6 +144,6 @@ This feature focuses primarily on improving the performance of large lists of ta
 
  
 
-## R1预览1和2版网络研讨会记录
+## R1 Preview 1和2 Release网络研讨会录像
 
-此网络研讨会由Workfront版本准备团队于2017年1月19日召开。 此网络研讨会重点讨论了2017年版本更改，并介绍了可在“预览”中测试的新功能。
+此网络研讨会由Workfront发布准备团队于2017年1月19日主持。 此网络研讨会重点讨论了2017年的版本更改，并涵盖了可在预览中测试的新功能。

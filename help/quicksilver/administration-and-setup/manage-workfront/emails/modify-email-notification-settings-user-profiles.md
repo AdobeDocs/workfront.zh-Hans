@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: 修改，电子邮件，通知，设置，批量，批量编辑，配置，多个，用户
 navigation-topic: emails-administration
 title: 修改用户配置文件中的电子邮件通知设置
-description: 如果您是Adobe Workfront管理员或者您具有允许您编辑其他用户设置的“规划者”访问级别，则可以一次为多个用户配置通知设置。 这包括指定用户在事件发生时接收通知，还是接收每日摘要电子邮件中的通知，如Adobe Workfront通知中所述。 有关编辑用户所需的访问级别的信息，请参阅向用户授予访问权限。
-author: Lisa, Caroline
+description: 本文为Workfront或组管理员提供有关如何更新其他用户的电子邮件通知的信息。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以一次为一个用户配置电子邮件通知，包括您自己的配置文件。 有关更多信息，请参阅 [激活或停用您自己的事件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>您还可以一次为一个用户配置电子邮件通知，包括您自己的配置文件。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## 访问要求
