@@ -3,9 +3,9 @@ title: 编辑记录
 description: 您可以在Adobe大师中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,7 @@ ht-degree: 1%
 * 如果编辑的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
 
+
 ## 编辑记录
 
 您可以从以下区域编辑记录：
@@ -140,7 +141,9 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >链接的字段不可编辑。 这些字段的信息将自动从链接的记录中填充。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+   >* 链接的字段不可编辑。 这些字段的信息将自动从链接的记录中填充。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+   >
+   >* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
 
 
 
