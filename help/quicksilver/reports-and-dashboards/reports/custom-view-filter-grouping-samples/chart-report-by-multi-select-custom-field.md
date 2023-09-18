@@ -7,7 +7,7 @@ description: 只有在您创建捕获多选自定义字段中选定选项的附�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >此选项已从批量编辑项目中消除。  您仍然可以通过单击 **更多** 图标 ![](assets/more-icon-45x33.png) 在项目列表的顶部，然后 **重新计算表达式**.
-
 
 1. 转到要在其中添加引用多选自定义字段的计算字段的图表的报表。
 1. 单击 **报表操作**，则 **编辑**.
