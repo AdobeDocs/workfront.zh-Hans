@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -126,6 +126,10 @@ ht-degree: 3%
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >允许进行多项选择的字段，例如复选框和下拉列表，很难在报告中进行图表和分组。 为了更便于在报告中使用图表和进行分组，您可以为每个选择创建单独的字段（例如，单行文本字段）。
+
 1. 在 **字段设置** 选项卡中，配置用于要添加的自定义字段类型的可用选项：
 
    <table style="table-layout:auto"> 
@@ -159,7 +163,7 @@ ht-degree: 3%
       <td> <p>选择将在自定义字段中捕获的数据类型。 您可以在保存表单后更改格式选择，但新格式必须支持输入的值。</p>
 
    <p><strong>示例：</strong> 如果至少在一个对象上保存具有“文本”格式的字段的数值，以后又将该格式更改为“数字”或“货币”，则不会遇到错误。 </p>
-      <p>但是，如果您在至少对一个对象使用了“文本”格式的字段中保存了字母数字值，然后尝试将格式更改为“数字”或“货币”，则会遇到错误，因为保存的字母数字值与数字或货币格式不兼容。 </p>
+      <p>但是，如果在至少一个对象上使用“文本”格式在字段中保存字母数字值，然后尝试将格式更改为“数字”或“货币”，则将遇到错误，因为保存的字母数字值与数字或货币格式不兼容。 </p>
 
    </td> 
      </tr> 

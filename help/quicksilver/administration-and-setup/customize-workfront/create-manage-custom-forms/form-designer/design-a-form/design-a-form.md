@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 1. 在屏幕左侧，找到以下文本字段之一，并将其拖动到画布上的部分：
 
-   * 单行文本：
+   * 单行文本
    * 段落文本
    * 带格式的文本字段
    * 描述性文本
@@ -254,6 +254,10 @@ ht-degree: 4%
 * **下拉列表**：提供下拉列表选项列表。
 
 +++
+
+>[!NOTE]
+>
+>如果字段允许进行多项选择（例如复选框组），则很难在报告中进行图表和分组。 为了更便于在报告中使用图表和进行分组，您可以为每个选择创建单独的字段（例如，单行文本字段）。
 
 添加单选按钮和复选框：
 
@@ -541,11 +545,11 @@ ht-degree: 4%
       <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">HTTP方法</td> 
+      <td role="rowheader">HTTP 方法</td> 
       <td>选择 <strong>Get</strong>， <strong>Post</strong>，或 <strong>Put</strong> 用于方法。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">JSON路径</td>
+      <td role="rowheader">JSON 路径</td>
       <td><p>键入或粘贴API的JSON路径。</p> <p>此选项允许从API URL返回的JSON中提取数据。 它提供了一种方法，用于选择哪些值将从JSON内部显示在下拉选项中。</p><p>例如，如果API URL按此格式返回JSON：</br>
       <pre>
       { data： { { name： "USA"}， { name： "Canada"} }
@@ -568,13 +572,14 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->外部API调用的技术限制：
+>以下项目是对外部API调用的技术限制：
 >
 >* 最大选项数：200（仅显示返回的JSON中的前200个选项）
 >* 超时： 3秒
 >* 重试次数：3
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
+>* 用户可以在Workfront列表和报告中看到选定值（并编辑该值），但看不到包含来自外部API的选项的下拉列表。
 
 </div>
 
