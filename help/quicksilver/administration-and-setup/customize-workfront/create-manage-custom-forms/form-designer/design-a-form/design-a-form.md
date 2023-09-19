@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->如果字段允许进行多项选择（例如复选框组），则很难在报告中进行图表和分组。 为了更便于在报告中使用图表和进行分组，您可以为每个选择创建单独的字段（例如，单行文本字段）。
+>允许进行多项选择的字段，例如复选框组和下拉列表，很难在报告中进行图表和分组。 为了更便于在报告中使用图表和进行分组，您可以为每个选择创建单独的字段（例如，单行文本字段）。
 
 添加单选按钮和复选框：
 
@@ -328,7 +328,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
      <td role="rowheader">显示类型</td> 
-    <td>在字段的单选按钮、复选框组或下拉列表之间切换。</td> 
+    <td>在字段的单选按钮、复选框组、下拉列表或多选下拉列表之间切换。</td> 
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
@@ -559,7 +559,7 @@ ht-degree: 4%
      </tr>
      <tr> 
       <td role="rowheader">标题</td>
-      <td>单击 <strong>添加标题</strong>，然后键入或粘贴使用API进行身份验证所需的键值对。</td>
+      <td><p>单击 <strong>添加标题</strong>，然后键入或粘贴使用API进行身份验证所需的键值对。</p><p><strong>注意：</strong> 标头字段不是存储凭据的安全位置，您应该小心输入和保存的内容。</p></td>
      </tr>
     </tbody>
    </table>
