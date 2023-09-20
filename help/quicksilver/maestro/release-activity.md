@@ -3,9 +3,9 @@ title: AdobeMaestro发布活动
 description: 使用Maestro创建自定义对象、字段和工作区。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ ht-degree: 0%
 本部分列出了自2023年5月22日Maestro封闭Beta计划启动以来发布的功能和修补程序。
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与Maestro封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
+
+## 2023年9月18日起一周
+
+### 重新排列行
+
+预览和生产： 2023年9月20日
+
+现在，您可以在记录类型页面的“表”视图中重新排列一个或多个行（或记录）。
 
 ## 2023年9月4日起一周
 
