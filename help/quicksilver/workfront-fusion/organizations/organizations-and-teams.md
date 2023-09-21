@@ -8,9 +8,9 @@ description: 通过Adobe Workfront Fusion的“组织”和“团队”功能，
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,12 @@ ht-degree: 0%
 1. 输入新团队的名称，然后单击 **添加**.
 
 #### 设置团队通知选项
+
+>[!NOTE]
+>
+>如果您访问 [!DNL Fusion] 通过 [!DNL Adobe Experience Cloud]，您的通知在中处理 [!DNL Experience Cloud] 通知中心。
+>
+>有关更多信息，请参阅 [访问您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 在团队级别设置电子邮件通知选项。
 
