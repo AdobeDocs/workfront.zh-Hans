@@ -3,9 +3,9 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >| 每月发布 | 季度发布 |
 >|----|----|
 >| <ul><li>23.8（2023年8月31日）</li><li>23.9（2023年9月28日）</li><li>23.10（2023年10月26日）</li></ul> | <ul><li>23.10（2023年10月26日起一周）</li></ul> |
+
+23.10版本网络研讨会将于2023年10月5日举行。 您可以 [在此处登记网络研讨会](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">周期外功能（在2023年第四季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
