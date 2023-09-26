@@ -3,7 +3,8 @@ title: 访问信息
 description: 作为Workfront管理员，您必须向用户授予访问权限才能使用Maestro。 以下文章包含有关使用Maestro时用户需要具有的访问权限的信息。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

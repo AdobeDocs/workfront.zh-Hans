@@ -3,7 +3,8 @@ title: 创建字段
 description: 在Adobe管理器中，您可以为每种操作记录类型或分类创建自定义字段。 然后，可将该字段与Maestro记录相关联。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 2%

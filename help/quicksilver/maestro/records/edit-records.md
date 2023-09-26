@@ -3,7 +3,8 @@ title: 编辑记录
 description: 您可以在Adobe大师中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
 hidefromtoc: true
 hide: true
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

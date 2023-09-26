@@ -3,7 +3,8 @@ title: 视图信息
 description: 可以在表格或时间线视图中显示AdobeMaestro记录。 以下文章介绍如何创建和管理AdobeMaestro记录视图。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

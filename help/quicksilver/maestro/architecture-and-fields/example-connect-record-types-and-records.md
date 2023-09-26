@@ -3,7 +3,8 @@ title: 连接记录类型和记录的示例
 description: 本文介绍了如何在AdobeMaestro记录类型与Workfront项目对象类型之间创建连接的示例。 它还介绍了如何将Maestro记录与连接到单个项目。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 0%

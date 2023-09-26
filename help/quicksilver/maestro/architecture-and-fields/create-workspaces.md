@@ -3,7 +3,8 @@ title: 创建工作区
 description: 工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 您可以在Maestro中完全自定义工作区。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

@@ -3,7 +3,8 @@ title: 记录信息
 description: 在AdobeMaestro中创建记录类型后，可以创建这些类型的单个记录。 以下文章介绍如何在Adobe Maestro中创建和管理记录。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

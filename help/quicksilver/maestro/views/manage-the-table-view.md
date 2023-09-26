@@ -3,7 +3,8 @@ title: 管理表视图
 description: 访问AdobeMaestro中的记录类型页时，可以在表格视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 5%

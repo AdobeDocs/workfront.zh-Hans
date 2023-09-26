@@ -3,7 +3,8 @@ title: 工作区模板列表
 description: 工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 Maestro随附了一组模板，帮助您在构建工作区时开始使用基本记录类型、分类和字段。
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
