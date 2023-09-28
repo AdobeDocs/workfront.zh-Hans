@@ -4,13 +4,13 @@ description: 2023年第四季度发布时间范围内的外观更新
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # 2023年第四季度发布时间范围内的外观更新
 
@@ -27,3 +27,13 @@ ht-degree: 0%
 我们更新了“设置”>“电子邮件”>“通知”区域中有关“电子邮件通知”、“提醒通知”和“电子邮件模板”的选项卡，使其设计更加现代化，与Workfront的其他区域一致。
 
 有关信息，请参阅 [为系统中的每个人配置事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## 工作角色屏幕的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2023年9月21日；适用于所有客户的生产版本：发布费率卡和其他财务管理更新的时间
+
+我们已将“新建工作角色”和“编辑工作角色”屏幕更新为与Workfront其他区域一致的更加现代的设计。
+
+有关信息，请参阅 [创建和管理职位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

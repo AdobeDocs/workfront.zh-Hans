@@ -3,9 +3,10 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
+exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -66,7 +67,8 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">将外部API中的值选项添加到自定义表单</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">将外部API中的值选项添加到自定义表单</a></p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>新的字段类型， <strong>外部查找</strong>现在可在自定义表单设计器上使用。 当数据存储在外部系统上时，此字段类型允许您从外部API加载选项，并根据自定义表单中的其他字段值筛选。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -104,7 +106,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a></p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -201,7 +203,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强将文档发送到SharePoint (GraphAPI)时的体验</a></p><p>我们进行了一些更改，以便在将文档发送到SharePoint (GraphAPI)文件夹时更轻松地找到文件夹</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">增强将文档发送到SharePoint (GraphAPI)时的体验</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们进行了一些更改，以便在将文档发送到SharePoint (GraphAPI)文件夹时更轻松地找到文件夹</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -216,7 +218,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -370,7 +372,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">我的工作小组件的新快速访问按钮</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">我的工作小组件的新快速访问按钮</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>“我的工作”小组件中新增了快速访问按钮，进一步扩展了您直接从“新主页”管理工作的能力。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -409,7 +412,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
                         <p>为了更好地满足组织的独特需求，“新主页”现在为实例布局模板中定义的对象使用自定义术语。 例如，如果“项目”对象在您的Workfront实例中被重新标记为“促销活动”，则“我的项目”小组件将在“新主页”中显示为“我的促销活动”。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -595,6 +598,8 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+[!BADGE In production ]{type=Informative}
+
 
 
 Test for boards early access stuff
@@ -604,5 +609,3 @@ Production release for early opt-in: March 2, 2023 This feature is available in 
 Production release for all customers: With the 23.2 release
 
 -->
-
-
