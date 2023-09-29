@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### 主页增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题跟踪小组件的新快速访问按钮</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>进一步扩展了直接从新主页管理工作的能力，新的快速访问按钮已添加到项目、任务和问题跟踪小组件。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年9月13日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.9版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的新筛选器选项</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>新主页中的“我的工作”小组件现在提供新筛选器选项。 选项包括对象类型（任务、问题和请求）和状态（未就绪、准备开始、处理和完成）的筛选器。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.8版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <p>为了更好地满足组织的独特需求，“新主页”现在为实例布局模板中定义的对象使用自定义术语。 例如，如果“项目”对象在您的Workfront实例中被重新标记为“促销活动”，则“我的项目”小组件将在“新主页”中显示为“我的促销活动”。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产： 2023年8月31日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">为禁用了“新建主页”的帐户删除了“尝试新建主页”按钮</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>对于已禁用“新建主页”的帐户，“尝试新建主页”按钮不再出现。 新主页必须由系统管理员重新启用，然后个人用户才能使用该按钮尝试新主页。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.8版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">更改为新主页默认小部件集</a> </p>
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>需要创建任务权限的To-dos构件现在仅存在于为具有标准、计划或工作许可证类型的用户设置的默认构件中。 此外，该构件已从具有所有其他许可证类型的用户的主页中自动移除。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年8月17日<br /></p>
+                            </li>
+                            <li>
+                                <p>快速发布生产： 2023年8月17日</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产日期： 2023年8月17日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>按季度发布的生产：使用23.10版本（除非另有说明）</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">我的工作小组件的新快速访问按钮</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>“我的工作”小组件中新增了快速访问按钮，进一步扩展了您直接从“新主页”管理工作的能力。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年9月13日<br /></p>
-                            </li>
-                            <li>
-                                <p>用于快速发布的生产：使用23.9版本</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：使用23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的新筛选器选项</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>新主页中的“我的工作”小组件现在提供新筛选器选项。 选项包括对象类型（任务、问题和请求）和状态（未就绪、准备开始、处理和完成）的筛选器。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>用于快速发布的生产：使用23.8版本</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：使用23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
-                        <p>为了更好地满足组织的独特需求，“新主页”现在为实例布局模板中定义的对象使用自定义术语。 例如，如果“项目”对象在您的Workfront实例中被重新标记为“促销活动”，则“我的项目”小组件将在“新主页”中显示为“我的促销活动”。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">适用于所有客户的生产： 2023年8月31日</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">为禁用了“新建主页”的帐户删除了“尝试新建主页”按钮</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>对于已禁用“新建主页”的帐户，“尝试新建主页”按钮不再出现。 新主页必须由系统管理员重新启用，然后个人用户才能使用该按钮尝试新主页。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>用于快速发布的生产：使用23.8版本</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：使用23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">更改为新主页默认小部件集</a> </p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>需要创建任务权限的To-dos构件现在仅存在于为具有标准、计划或工作许可证类型的用户设置的默认构件中。 此外，该构件已从具有所有其他许可证类型的用户的主页中自动移除。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年8月17日<br /></p>
-                            </li>
-                            <li>
-                                <p>快速发布生产： 2023年8月17日</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产日期： 2023年8月17日</p>
                             </li>
                         </ul>
                     </td>
