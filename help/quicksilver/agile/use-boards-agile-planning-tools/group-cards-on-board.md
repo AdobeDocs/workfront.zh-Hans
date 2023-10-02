@@ -7,9 +7,9 @@ description: 您可以在展示板上按被分派人或按标记对信息卡进�
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->摄取列中的任何信息卡都不会包含在组中。 有关引入列的信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>摄取列中的任何卡都不包含在组中，并且在应用组时摄取列是隐藏的。 有关引入列的信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## 访问要求
 
