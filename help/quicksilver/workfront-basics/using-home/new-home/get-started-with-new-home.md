@@ -5,13 +5,13 @@ title: 开始使用Adobe Workfront中的新主页
 description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # 开始使用Adobe Workfront中的新主页
 
@@ -77,7 +77,7 @@ ht-degree: 20%
         <td>我的工作，等待我的审批</td>
     </tr>
     <tr>
-        <td>参与者</td>
+        <td>投稿人</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ ht-degree: 20%
         <td>我的项目，等待我的审批</td>
     </tr>
     <tr>
-        <td>参与者</td>
+        <td>投稿人</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
@@ -131,24 +131,9 @@ ht-degree: 20%
 
 1. 在 **背景** 的部分 **自定义** 窗格，单击要为“主页”背景选择的颜色。 您还可以单击 **无** 以删除背景。
 
-### 按时间范围过滤
-
-您可以快速筛选主页上的所有信息，以在三个特定时间范围（天、周或月）内显示对象信息。 此外，“主页”顶部还会显示您到期的任务数以及在范围内完成的任务数的摘要。
-
-**要更改主页的时间范围，请执行以下操作：**
-
-1. 通过单击Adobe Workfront图标，导航到您的主页 ![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png) ，或者通过单击主菜单图标 ![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png) 然后单击 **主页**.
-
-1. 单击主页左上角的时间范围过滤器。 默认情况下，过滤器设置为 **我的周**.
-
-   ![时间范围过滤器下拉列表](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. 单击任一 **天**， **周**，或 **月** 对主页进行过滤，使其仅显示在该时间范围内到期的对象信息。
-
 ## 还原到当前主页体验
 
 对于更喜欢现有Home体验的用户，可切换New Home 。
-
 
 **要返回到当前主页体验，请执行以下操作：**
 
