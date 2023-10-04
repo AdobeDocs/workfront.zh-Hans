@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## 新的Workfront许可证和新访问级别如何绑定
 
-这3种新的付费Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
+这3种新Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
 
 作为Workfront管理员，您无需为用户分配许可证，而是为他们分配附加到该许可证的访问级别。
 
