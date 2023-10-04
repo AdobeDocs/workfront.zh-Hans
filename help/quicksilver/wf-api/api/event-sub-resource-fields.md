@@ -6,16 +6,16 @@ description: 事件订阅资源字段
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 10%
 
 ---
 
 # 事件订阅资源字段
 
-事件订阅资源字段表示事件的触发器，这些事件会导致事件订阅将出站消息发送到配置的端点。 编辑资源字段时，会触发UPDATE事件。
+事件订阅资源字段表示事件的触发器，这些事件会导致事件订阅向配置的端点发送出站消息。 编辑资源字段时，会触发UPDATE事件。
 
 下表列出了可用于事件订阅资源的字段：
 
@@ -64,6 +64,11 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> classifierID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> 客户ID </td> 
   </tr> 
   <tr> 
@@ -79,7 +84,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isTeamAssignment </td> 
+   <td> isteamassignment </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -126,7 +131,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>任务ID</td> 
+   <td>taskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td>工作</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -161,7 +171,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -211,7 +221,7 @@ ht-degree: 10%
   <tr> 
    <td>仪表板</td> 
    <td>PTLTAB</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate仅在每天首次更新时触发事件。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate仅在每日首次更新时触发事件。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -271,7 +281,7 @@ ht-degree: 10%
   <tr> 
    <td>文档</td> 
    <td>DOCU</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -286,7 +296,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customer：isAdvancedDocMgmtEnabled</td> 
+   <td>客户：isAdvancedDocMgmtEnabled</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -356,7 +366,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>objID</td> 
+   <td>对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -396,7 +406,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referenceObjID</td> 
+   <td>referenceObjId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -411,7 +421,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>任务ID</td> 
+   <td>taskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -421,12 +431,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>templateTaskId</td> 
+   <td>templateTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>顶对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -436,7 +446,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td><span>文档版本</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span>accessourcides</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -456,7 +466,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>documentProviderID</td> 
+   <td>documentProviderId</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -466,12 +476,12 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>entrydate</span> </td> 
+   <td><span>entryDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredByID</span> </td> 
+   <td><span>enteredById</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -486,7 +496,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>externalStorageID</span> </td> 
+   <td><span>externalStorageId</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -551,7 +561,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofPage</span> </td> 
+   <td><span>proofPages</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -566,17 +576,17 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>version</span> </td> 
+   <td><span>版本</span> </td> 
   </tr> 
   <tr> 
    <td>费用</td> 
-   <td>扩展</td> 
+   <td>展开</td> 
    <td> 实际金额 </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> actualUnitAmou </td> 
+   <td> actualUnitAmount </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -606,17 +616,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>生效日期</td> 
+   <td>effectiondate</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -646,7 +656,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> 可退还 </td> 
+   <td> 是可退还 </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -676,7 +686,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>objID</td> 
+   <td>对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -686,17 +696,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>plannedMaunt</td> 
+   <td>plannedAmou</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>plannedate</td> 
+   <td>plannedDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>plannedunitAmount</td> 
+   <td>plannedunitamount</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -711,7 +721,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referenceObjID</td> 
+   <td>referenceObjId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -726,7 +736,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>任务ID</td> 
+   <td>taskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -736,7 +746,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>templateTaskId </td> 
+   <td>templateTaskID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -746,7 +756,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>顶对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -761,7 +771,7 @@ ht-degree: 10%
   <tr> 
    <td>小时</td> 
    <td>HOUR</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -801,7 +811,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -821,7 +831,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>小时类型ID</td> 
+   <td>hourTypeID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -871,7 +881,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referenceObjID</td> 
+   <td>referenceObjId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -891,7 +901,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>任务ID</td> 
+   <td>taskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -901,7 +911,7 @@ ht-degree: 10%
   <tr> 
    <td>问题</td> 
    <td>OPTASK</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -936,12 +946,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1026,7 +1036,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1041,12 +1051,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>referenceObjID</td> 
+   <td>referenceObjId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>拒绝问题ID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1056,7 +1066,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>解决项目ID</td> 
+   <td>resolveProjectID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1066,7 +1076,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolvingObjId</td> 
+   <td>resolvingObjID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1076,7 +1086,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>根组ID</td> 
+   <td>rootGroupID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1091,7 +1101,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>sourceTaskId</td> 
+   <td>sourceTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1111,12 +1121,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workflowAutomationID</td> 
+   <td>Workflowautomationid</td> 
   </tr> 
   <tr> 
    <td>注释</td> 
    <td>注释</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1161,12 +1171,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>externalServiceID</td> 
+   <td>外部服务ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1196,7 +1206,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>objID</td> 
+   <td>对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1211,7 +1221,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>parentInvalidationID</td> 
+   <td>parentInvaldationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1241,12 +1251,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>proofActionId</td> 
+   <td>proofactionid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rtfNoteID</td> 
+   <td>richTextNoteID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1261,7 +1271,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>任务ID</td> 
+   <td>taskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1271,12 +1281,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>templateTaskId</td> 
+   <td>templateTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>threadid</td> 
+   <td>threadID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1286,7 +1296,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>topObjId</td> 
+   <td>顶对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1296,7 +1306,7 @@ ht-degree: 10%
   <tr> 
    <td>项目组合</td> 
    <td>端口</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1321,12 +1331,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1376,7 +1386,7 @@ ht-degree: 10%
   <tr> 
    <td>项目群</td> 
    <td>PRGM</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1396,7 +1406,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1456,7 +1466,7 @@ ht-degree: 10%
   <tr> 
    <td>项目</td> 
    <td>项目</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1467,6 +1477,11 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCardID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1516,12 +1531,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1611,7 +1626,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1621,17 +1636,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>拒绝问题ID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resourcePoolID</td> 
+   <td>resourcePoolId</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>根组ID</td> 
+   <td>rootGroupID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1656,7 +1671,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TaskworkflowautomationID</td> 
+   <td>taskWorkflowAutomationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1671,17 +1686,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workflowAutomationID</td> 
+   <td>Workflowautomationid</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>校对审批</span> </td> 
-   <td><span>PRFAPL</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span>ProofApproval</span> </td> 
+   <td><span>PRFAPI</span> </td> 
+   <td><span>accessourcides</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>批准者决策</span> </td> 
+   <td><span>approverDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1731,7 +1746,7 @@ ht-degree: 10%
   <tr> 
    <td>报告</td> 
    <td>PTLSEC</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1751,7 +1766,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1761,7 +1776,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>filterid</td> 
+   <td>filterId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1801,7 +1816,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>objID</td> 
+   <td>对象ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1846,7 +1861,7 @@ ht-degree: 10%
   <tr> 
    <td>任务</td> 
    <td>任务</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1896,12 +1911,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1976,7 +1991,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>parentId</td> 
+   <td>parentid</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2006,7 +2021,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>拒绝问题ID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2016,7 +2031,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>根组ID</td> 
+   <td>rootGroupID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2041,17 +2056,17 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>templateTaskId</td> 
+   <td>templateTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workflowAutomationID</td> 
+   <td>Workflowautomationid</td> 
   </tr> 
   <tr> 
    <td>模板</td> 
    <td>模板</td> 
-   <td>accessorIDs</td> 
+   <td>accessourcides</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2086,12 +2101,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entrydate</td> 
+   <td>entryDate</td> 
   </tr> 
   </tr> 
   <tr> 
@@ -2171,7 +2186,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>queueDefID</td> 
+   <td>queueDefId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2196,7 +2211,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TaskworkflowautomationID</td> 
+   <td>taskWorkflowAutomationID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2206,7 +2221,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workflowAutomationID</td> 
+   <td>Workflowautomationid</td> 
   </tr> 
   <tr> 
    <td>时间表</td> 
@@ -2251,12 +2266,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>小时持续时间</td> 
+   <td>hoursDuration</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>isEditable</td> 
+   <td>可编辑</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2316,7 +2331,7 @@ ht-degree: 10%
   <tr> 
    <td>用户</td> 
    <td>用户</td> 
-   <td>访问级别ID</td> 
+   <td>accessLevelID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2351,12 +2366,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>emailAddr</td> 
+   <td>电子邮件地址</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enteredById</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2416,7 +2431,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>布局模板ID</td> 
+   <td>布局模板标识</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2451,7 +2466,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resourcePoolID</td> 
+   <td>resourcePoolId</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2481,12 +2496,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>uumUserID</td> 
+   <td>uumuserid</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
