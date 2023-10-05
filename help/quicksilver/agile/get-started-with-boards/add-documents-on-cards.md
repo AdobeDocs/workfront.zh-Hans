@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 在信息卡上添加文档
-description: 即将推出!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: 您可以将文档添加到Adobe Workfront展示板上连接的信息卡。
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # 在信息卡上添加文档
+
+>[!IMPORTANT]
+>
+>此功能在所有环境中暂时被禁用。
 
 {{article-preview-and-fast-release}}
 
