@@ -6,9 +6,9 @@ description: 您可以筛选展示板以仅显示某些信息卡。
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ ht-degree: 0%
 默认情况下，展示板上仅显示活动信息卡。 您可以筛选展示板以显示任何已存档的信息卡。
 
 1. 访问展示板。
+1. 单击 [!UICONTROL **配置**] ，打开“配置”面板。
+1. 展开 [!UICONTROL **卡片**].
+1. 打开 [!UICONTROL **在展示板上显示已存档的卡片**].
 1. 单击 [!UICONTROL **筛选**]，展开 [!UICONTROL 已存档信息卡] 部分，然后选择 **[!UICONTROL 已存档的信息卡]** 以显示任何已存档的信息卡。
 
    该过滤器显示已存档信息卡的数量。
 
-   ![筛选已存档的卡片](assets/boards-filter-by-archived-cards_0822.png)
+   ![筛选已存档的卡片](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >此 [!UICONTROL 已存档信息卡] 如果您未打开配置设置显示存档的信息卡，则区域在筛选器中不可用。
 
 1. 选择 **[!UICONTROL 已存档的信息卡]** 再次清除选项并仅显示活动信息卡。
 
