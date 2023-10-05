@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 ### [!BADGE 新!]{type=Informative}
 
-该自动化可监控具有自定义表单的程序中的新项目。 然后，它将这些项目群自定义表单和字段添加到新项目中。
+此自动化会根据您在CSV中指定的名称、Portfolio、状态、计划开始日期和模板详细信息在Workfront中创建新项目。
 
 ### [!BADGE 新!]{type=Informative}
+
+使用此模板对您的请求强制30天附注更新。 如果在30天内未更新请求，则其状态会在60天内更改并关闭。
+
+### [!BADGE 新!]{type=Informative}
+
+此自动化功能可将项目更新为“完成”状态，所有1005点完成的任务均在此状态。 具有未结问题、未结任务或项目批准的项目将收到更新，在解决后，项目将变为完成状态。
+
+### [!BADGE 新!]{type=Informative}
+
+使用此方案有助于自动警告和关闭符合贵组织过时项目策略的项目。
+
+### [!BADGE 新!]{type=Informative}
+
+使用此模板可将问题或请求的注释和回复复制到已转换的项目或任务中。
+
+### Workfront — 将项目群自定义Forms和字段数据复制到关联的新项目
+
+该自动化可监控具有自定义表单的程序中的新项目。 然后，它将这些项目群自定义表单和字段添加到新项目中。
+
+### Workfront — 将Portfolio自定义Forms和字段数据复制到关联的新项目
 
 该自动化功能可监控带有自定义表单的项目组合中的新项目。 然后，它将这些项目组合自定义表单和字段添加到新项目中。
 
@@ -58,7 +78,7 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 此模板在每周的星期一早上6点按项目组合过滤的项目上捕获项目基线，并在更新流中创建更新以供日志记录。
 
-### [!BADGE 新!]{type=Informative}
+### 查找未在策略时间内使用的项目模板并通知
 
 每月使用您自己的策略查看一次项目模板，该策略与此易于管理的模板一起通知违反您策略的相应用户模板。
 
@@ -81,6 +101,10 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 >[!NOTE]
 >
 > 您必须拥有Workfront Fusion for Work Automation and Integration许可证才能在此部分中使用模板。
+
+### [!BADGE 新!]{type=Informative}
+
+为客户端API建立JWT授权。
 
 ### APILayer > Workfront — 每日汇率更新(EUR)
 
@@ -105,6 +129,19 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ### 在Workfront中查看Marketo Engage电子邮件草稿的电子邮件验证
 
 此模板检测Workfront任务是否已设置为准备好审查状态，然后从Marketo Engage导出电子邮件草稿以将其保存为Workfront中的验证。
+
+## Workfront-SharePoint模板
+
+这些模板将Workfront与SharePoint连接起来。
+
+>[!NOTE]
+>
+> 您必须拥有Workfront Fusion for Work Automation and Integration许可证才能在此部分中使用模板。
+
+### [!BADGE 新!]{type=Informative}
+
+利用此模板，可查看SharePoint文件夹中是否有更改。
+
 
 ## Workfront-Anaplan模板
 
@@ -131,3 +168,6 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 * [创建 [!DNL Anaplan] 列表项来自 [!DNL Adobe Workfront] 营销活动请求](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [应用 [!DNL Anaplan] 预算分配到 [!DNL Adobe Workfront] 活动请求或活动项目](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
