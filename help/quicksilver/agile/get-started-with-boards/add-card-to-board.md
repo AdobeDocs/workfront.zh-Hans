@@ -6,9 +6,9 @@ description: 您可以快速将临时信息卡添加到展示板并将其分配�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe] Workfront，然后单击 **[!UICONTROL 讨论区]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 单击 **[!UICONTROL 添加信息卡] > [!UICONTROL 新信息卡]**.
+
+   此 [!UICONTROL 信息卡详细信息] 框。
+
+   >[!NOTE]
+   >
+   >如果您在“名称”字段的外部单击，则临时信息卡会自动保存为“无标题”显示在最左列的底部。 要退出而不保存卡，必须单击 [!UICONTROL **取消**] 而不单击 [!UICONTROL 信息卡详细信息] 盒子。
+
 1. 在 **[!UICONTROL 信息卡详细信息]** 框中，添加以下信息：
 
    <table style="table-layout:auto"> 
