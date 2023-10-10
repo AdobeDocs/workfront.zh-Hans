@@ -6,13 +6,13 @@ description: 本文包含有关新评论体验的最常见问题列表。
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # 新的评论体验常见问题解答
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 目前，我们仅支持将图像附件添加到评论。 如果您想查看其他文件类型，请提交创新实验室请求，以便我们了解对功能的需求。
 
-## 您是否将重新添加在新的评论体验中编辑工作项的状态、完成情况或规划完成日期的功能？
+## 您是否会添加重新编辑新评论体验中工作项的状态、条件、提交日期或规划完成日期的功能？
 
 我们不计划恢复执行这些操作的能力，因为这些操作在标题和对象的详细信息区域可用。 我们理解我们要求您改变使用评论流的模式，但我们这么做是为了保持评论体验，以便直接用于沟通和协作。
 

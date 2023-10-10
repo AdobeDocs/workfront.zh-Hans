@@ -4,13 +4,13 @@ description: Adobe大师”是Adobe Workfront推出的新产品。 您可以创�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Adobe大师概述
 
@@ -358,6 +358,7 @@ To share the Maestro area using a layout template:
 | 在时间轴视图中排序分组 |                               | ✓ |                  |
 | 连接工作区 |                               | ✓ |                  |
 | 连接Maestro记录和分类 | ✓ |
+| 在表视图中搜索记录 | ✓ |   |
 | 将Maestro记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ |                                 |                  |
 | 记录详细信息页面 | ✓ |                                  |                  |
 | 更新记录详细信息页面的布局 |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-

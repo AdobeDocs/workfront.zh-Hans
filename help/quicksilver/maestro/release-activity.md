@@ -4,13 +4,13 @@ description: 使用Maestro创建自定义对象、字段和工作区。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # AdobeMaestro发布活动
 
@@ -34,13 +34,21 @@ ht-degree: 0%
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与Maestro封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
 
+## 2023年10月9日起一周
+
+### 在表格视图中搜索
+
+预览和生产： 2023年10月9日
+
+您现在可以搜索关键字，以便在表格视图中快速查找记录。 您可以在屏幕上可见的任何字段中使用关键字和特殊字符来查找记录。 有关信息，请参阅 [管理表视图](../maestro/views/manage-the-table-view.md).
+
 ## 2023年9月18日起一周
 
 ### 重新排列行
 
 预览和生产： 2023年9月20日
 
-现在，您可以在记录类型页面的“表”视图中重新排列一个或多个行（或记录）。
+现在，您可以在记录类型页面的“表”视图中重新排列一个或多个行（或记录）。 有关信息，请参阅 [管理表视图](../maestro/views/manage-the-table-view.md).
 
 ## 2023年9月4日起一周
 

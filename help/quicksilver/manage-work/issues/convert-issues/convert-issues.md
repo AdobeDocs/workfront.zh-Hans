@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ ht-degree: 2%
 
 * 将问题转化为任务或项目时，问题会从分配给问题的用户的“主页”区域移除。
 
-* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 欲了解更多信息，请参见 [使用模板将问题转化为项目时的项目字段概述](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 部分。
+* 转化问题时，原始问题的权限不会转移到转化后的对象（任务或项目）。
+
+* 使用模板将问题转化为项目时，模板中的大多数信息会传输到新项目。 但是，问题中的某些信息也可以传输到新项目。 欲了解更多信息，请参见 [使用模板将问题转化为项目时的项目字段概述](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 部分。
 * 在转化问题时，并非所有文档或其信息都会移动到问题转化到的新对象。 在转换附加了文档或文档链接的问题时，包括以下项：
 
    * 文档
@@ -110,12 +112,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>组</td> 
-   <td>从模板进行传输。 如果模板上无组，则将其设置为问题所属的项目组。</td> 
+   <td><p> 存在以下情况：</p>
+     <ul><li>如果在转换期间指定了组，则该组将成为项目的组</li>
+     <li>如果您使用模板转换为项目，并且模板上有一个组，并且在转换过程中未指定组，则模板组将成为新项目的组</li>
+      <li> 如果模板上无组，并且在转换过程中未指定组，则原始问题项目的组将变成新项目的组</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>公司</td> 
-   <td>从模板进行传输。 否则，此字段为空。</td> 
-  </tr> 
+   <td>公司</td>    
+   <td>  从模板进行传输。 否则，此字段为空。</td>
+
+</tr> 
   <tr> 
    <td>项目所有者</td> 
    <td>从模板的“模板所有者”字段转移。 否则，它会设置为正在执行转换的登录用户。 </td> 

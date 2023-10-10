@@ -4,15 +4,15 @@ description: 在Adobe大师，记录是记录类型的实例。 在创建单个�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
-
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # 创建记录
 
@@ -167,4 +167,3 @@ ht-degree: 0%
 
    * 行包含新记录
    * 列填充记录字段的信息。
-
