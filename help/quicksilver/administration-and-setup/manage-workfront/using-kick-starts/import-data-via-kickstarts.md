@@ -1,32 +1,32 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: 快速启动，快速启动，快速启动，快速启动
+keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
 title: 使用快速启动模板将数据导入Adobe Workfront
-description: Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导入到Workfront中的数据填充这些工作簿。 Adobe Workfront提供了一个可用于执行此操作的快速启动模板，如Kick-Starts数据导入程序中所述。
+description: Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个快速启动模板，您可以使用它来执行此操作，如Kick-Starts数据导入程序中所述。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
 
 # 使用快速启动模板将数据导入Adobe Workfront
 
-Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导入到Workfront中的数据填充这些工作簿。 Adobe Workfront提供了一个可用于执行此操作的快速启动模板，如中所述 [Kick-Starts数据导入程序](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个可用于执行此操作的快速启动模板，如中所述 [Kick-Starts数据导入程序](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 此过程分为3个主要任务：
 
 * 首先，将快速启动模板导出为电子表格文件
 * 其次，使用您的数据填充电子表格
-* 最后，将填充的电子表格导入Workfront
+* 最后，将填充后的电子表格导入Workfront
 
-本文按照适当的顺序概述了其中的每一种程序。
+本文按照适当的顺序概述了其中的每个过程。
 
 ## 访问要求
 
@@ -38,7 +38,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -61,19 +61,19 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
 
 ## 将快速启动模板导出为电子表格文件
 
-导出Kick-Start模板时，您会收到一个空白的Excel电子表格工作簿。 在本文的后续过程中，您将使用信息填充工作簿，然后将其导入回Workfront。
+在导出快速启动模板时，您将收到一个空白的Excel电子表格工作簿。 在本文的后续过程中，您将使用自己的信息填充工作簿，然后将其导入回Workfront。
 
-要导出Kick-Start模板：
+要导出快速启动模板，请执行以下操作：
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 单击 **系统** > **导出数据(Kick-Starts)**.
+1. 单击 **系统** > **导出数据(Kick-Start)**.
 
 1. 单击 **更多选项**，然后选择要包含的信息类型。
 
-   您选择的每个选项都表示导出电子表格中多个选项卡的集合。 例如，如果选择“报表”选项，则创建报表所需的所有对象都将包含在电子表格中（视图、筛选器、分组、报表）。
+   您选择的每个选项都表示导出电子表格中多个选项卡的集合。 例如，如果选择“报告”选项，则创建报告所需的所有对象都将包含在电子表格中（视图、筛选器、分组、报告）。
 
-   您可以使用下面列出的所有对象类型将数据导入Workfront。 (访问级别选项是唯一例外。 导出中的“访问级别”数据表仅供参考，允许您按ID为新用户帐户分配访问级别。)
+   您可以使用下面列出的所有对象类型将数据导入Workfront。 (唯一的例外是访问级别选项。 导出中的“访问级别”数据表仅供参考 — 允许您按ID为新用户帐户分配访问级别。)
 
    每种对象类型的模板都可以以下列文件格式导出，并包含以下工作表：
 
@@ -90,19 +90,19 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>仪表板</p> <p>系统中所有功能板都可以导出。 在单个导出中，最多可以选择100个特定仪表板。</p> </td> 
+      <td scope="col"> <p>仪表板</p> <p>系统中的所有仪表板都可以导出。 在一次导出中，最多可以选择100个特定仪表板。</p> </td> 
       <td scope="col">导出为ZIP文件</td> 
       <td scope="col"> <p>参数</p> <p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报告</p> <p>门户选项卡部分</p> <p>仪表板</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报表。</p> </td> 
+      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> </td> 
       <td scope="col">导出为ZIP文件 </td> 
       <td scope="col"> <p scope="col">参数</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报告</p> <p scope="col">首选项</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>审批</p> </td> 
       <td scope="col"> <p>导出为Excel文件</p> </td> 
-      <td scope="col"> <p>步骤审批者</p> <p>批准步骤</p> <p>审批</p> <p>批准流程</p> <p>首选项</p> </td> 
+      <td scope="col"> <p>步骤审批者</p> <p>审批步骤</p> <p>审批</p> <p>批准流程</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>自定义数据</p> </td> 
@@ -126,7 +126,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
      </tr> 
      <tr> 
       <td> <p>用户</p> </td> 
-      <td> <p>导出为Excel文件。 要查看选项的完整列表，请单击 <strong>更多选项</strong>.</p> </td> 
+      <td> <p>导出为Excel文件。 要查看完整的选项列表，请单击 <strong>更多选项</strong>.</p> </td> 
       <td> <p>用户</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
@@ -268,7 +268,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
    </table>
 
 1. 单击 **下载**.
-1. 继续使用 [使用您的数据填充电子表格模板](#populate-the-spreadsheet-template-with-your-data) 以使用您的信息填充模板。
+1. 继续 [使用您的数据填充电子表格模板](#populate-the-spreadsheet-template-with-your-data) 以使用您的信息填充模板。
 
 ## 使用您的数据填充电子表格模板 {#populate-the-spreadsheet-template-with-your-data}
 
@@ -282,18 +282,18 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
 
 >[!TIP]
 >
->要更好地了解在填充Kick-Start模板时如何需要格式化每列中的信息，请考虑通过导出一个使用您尝试导入的对象上的现有Workfront数据的Kick-Start来运行一个练习。 有关说明，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>要更好地了解在填充Kick-Start模板时如何需要格式化每列中的信息，请考虑执行一个练习，即在您尝试导入的对象上使用现有Workfront数据导出Kick-Start。 有关说明，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 打开空白的快速启动模板时，许多选项卡（数据表）可用。 它们取决于您选择下载的对象。 每一个都表示应用程序中的一个对象，如项目、任务、小时、功能板和用户：
 
-打开其中一个选项卡时，第2行将显示可在导入期间设置的每个对象的字段。 在列标题中，字段“set”一词后面的名称与数据库中显示的字段名称相同。 这些字段用作列标题。
+打开其中一个选项卡时，第2行将显示导入期间可以设置的每个对象的字段。 在列标题中，字段“set”一词后面的名称与数据库中显示的名称相同。 这些字段用作列标题。
 
 >[!IMPORTANT]
 >
->为避免出现错误，请确保以下各项：
+>要避免出现错误，请确保以下各项：
 >
 >* 请勿以任何方式删除或修改这些字段。 例如，请勿更改其顺序或名称。
->* 使用以粗体显示的列标题填充每个字段。 这些表示必填字段。
+>* 在每个字段中填充以粗体显示的列标题。 这些表示必填字段。
 >
 >  但是，如果必填字段包含系统首选项中设置的默认值，则无需填充该字段。
 >
@@ -302,39 +302,44 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以使用要导�
 
 ### 导入记录  {#import-a-record}
 
-工作表的每一行都对应于一个唯一对象。
+工作表的每一行对应于一个唯一对象。
 
 1. 填写中的单元格 **isNew** 列：
 
    * 如果要导入的对象是新对象，请键入 **TRUE** 以导入行中的数据。
-   * 如果对象已存在于Workfront中，请键入 **FALSE** 忽略行。
+   * 如果对象已在Workfront中，请键入 **FALSE** 忽略行。
 
-1. 填写中的单元格 **ID** 列按以下方式之一：
+1. 填写中的单元格 **ID** 列中，使用以下方式之一：
 
-   * 如果您要导入的对象是新对象(并且您键入了 **TRUE** 在 **isNew** 列)，为ID指定任意数字。 此数字在电子表格中必须是唯一的。
+   * 如果您要导入的对象是新的(并且您键入了 **TRUE** 在 **isNew** 列)，为ID指定任意数字。 此数字在电子表格中必须是唯一的。
 
    * 如果您要导入的对象已存在于Workfront系统中(并且您键入了 **FALSE** 在 **isNew** 列)，ID必须是该对象在Workfront中存在的字母数字GUID。
 
-     **示例：** 对于项目，值显示在 **setGroupID** 列必须满足以下条件之一：
+     ![组的示例ID](assets/kick-start-group-example.png)
+
+   * 导入项目时，必须指明组ID。
+
+      * 如果该组已存在于Workfront中，则必须将其唯一ID添加到 **setGroupID** 字段输入正确的项目名称。
+      * 如果该组在Workfront中不存在，则可以添加 **组组** 工作表到导入文件，设置 **isNew** 字段至 **TRUE** 在组工作表上，并在组中指示新组的数字ID **ID** 列。 此 **setGroupID** 新项目的字段必须与数字匹配 **ID** 给新组的。
+
+     **示例：** 对于项目，值显示在 **setGroupID** 列必须为以下项之一：
 
       * Workfront实例中现有组的GUID
       * 上的ID列中的值（数字） **组组** 表（如果在导入过程中创建新组）
-
-        ![组的示例ID](assets/kick-start-group-example.png)
 
 1. 输入导入期间要填充的必填字段和任何其他字段的值。
 1. （可选）要添加自定义数据，请执行以下操作：
 
    * 为要包含在导入流程中的每个自定义字段创建新列。
    * 按如下方式命名其相应自定义字段的每个新列： **DE：[Workfront中显示的自定义字段的名称]**.
-   * 在列中 **setCategoryID**，键入此自定义字段所在的现有自定义表单的GUID。 导入自定义数据时需要此字段。
+   * 在列中 **setCategoryId**，键入此自定义字段所在的现有自定义表单的GUID。 导入自定义数据时需要此字段。
    * 如果您需要在自定义字段中添加多个数据值（如单选按钮、复选框或列表），请使用首选项选项卡中列出的垂直条自定义数据分隔符“|”来分隔这些值。
 
      **示例：** 在DE：Departments列下键入A|D以填充自定义表单中的部门A和部门D。
 
 ### 包括日期  {#include-dates}
 
-Workfront可以处理大多数日期格式。 但是，必须确保电子表格中的日期列格式为日期。 如果该列的格式为常规、数字或文本，则导入将失败。
+Workfront可以处理大多数日期格式。 但是，必须确保电子表格中的日期列设置为日期的格式。 如果该列的格式为常规、数字或文本，则导入将失败。
 
 >[!TIP]
 >
@@ -342,16 +347,16 @@ Workfront可以处理大多数日期格式。 但是，必须确保电子表格�
 
 Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30或07/10/2022 1:00 PM）。
 
-如果省略了日期中的时间，Workfront会执行以下操作之一：
+如果忽略日期中的时间，Workfront会执行以下操作之一：
 
-* 假定上午12:00。 要查看您期望的日期结果，系统时区必须与您的时区匹配。
+* 假定上午12:00。 要查看预期的日期结果，系统时区必须与您的时区匹配。
 * 如果它位于与调度关联的对象上，则时间将推迟到调度允许的最早时间。
 
 >[!NOTE]
 >
->使用UNIX时间戳时，必须在值的末尾另外包括三个零。
+>使用UNIX时间戳时，必须在值的末尾加上三个额外的零。
 >
->例如，如果时间戳为7336899000，则您将在单元格中输入7336899000000。
+>例如，如果您的时间戳为7336899000，则会在单元格中输入7336899000000。
 
 ### 使用通配符 {#use-wildcards}
 
@@ -368,12 +373,12 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>$$TODAY</p> </td> 
-   <td> <p>当用于时 <strong>setDate</strong> 字段中，此通配符将日期设置为导入Kick-Start当天的午夜。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入当周的星期一开始，而不考虑实际执行导入的日期，则可以使用 <strong>$$TODAYbw</strong>. 这会将项目的计划开始日期设置为星期日凌晨12:00。 由于项目时间表目前可能不允许工作，因此将于星期一上午9点开始。</p> </td> 
+   <td> <p>$$今天</p> </td> 
+   <td> <p>当用于时 <strong>setDate</strong> 字段中，此通配符将日期设置为导入Kick-Start当天的午夜。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入当周的星期一开始，而不考虑实际执行导入的日期，则可以使用 <strong>$$TODAYbw</strong>. 这会将您项目的计划开始日期设置为星期日凌晨12:00。 由于当时项目时间表可能不允许工作，因此将于星期一上午9点开始。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>当用于时 <strong>setDate</strong> 字段，此通配符根据您在Kick-Start导入期间创建记录的时刻设置日期。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果您希望项目在导入后3小时开始，则可以使用 <strong>$$NOW+3h</strong>.</p> </td> 
+   <td> <p>当用于时 <strong>setDate</strong> 字段，该通配符根据您在Kick-Start导入期间创建记录的时刻设置日期。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入后3小时开始，您可以使用 <strong>$$NOW+3h</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
@@ -381,24 +386,24 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>此通配符是专门为Kick-Start用户导入添加的。 创建Workfront帐户后，将创建一个具有系统管理员访问权限级别的用户。 在帐户中创建其他用户时，分配给默认管理员的用户名可用作前缀。</p> <p>由于用户名在所有客户中必须是唯一的，因此，如果您有多个用户使用非常常见的用户名，例如John Smith，他可能有一个用户名“jsmith”，那么这个选项会很有用。 通过在用户名分配前加上默认管理员用户名，可以保证每个用户名都是唯一的(例如： <strong>$$CUSTOMER.jsmith</strong>)。</p> <p>提示：要确保用户名在系统范围内是唯一的，一种更轻松的方式是输入个人电子邮件地址 <strong>setusername</strong> 字段。</p> </td> 
+   <td> <p>此通配符是专门为快速启动用户导入添加的。 创建Workfront帐户后，将创建具有系统管理员访问权限级别的用户。 在帐户中创建其他用户时，分配给默认管理员的用户名可用作前缀。</p> <p>由于用户名在所有客户中必须是唯一的，因此，如果您有多个人的用户名非常常见，例如John Smith，他的用户名可能是“jsmith”，那么这个选项会很有用。 通过在默认管理员用户名前面添加用户名分配，可以保证每个用户名都是唯一的(例如： <strong>$$CUSTOMER.jsmith</strong>)。</p> <p>提示：要确保用户名在系统范围内是唯一的，一种更轻松的方式是在 <strong>设置用户名</strong> 字段。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### ID的属性名称替换  {#attribute-name-substitution-for-ids}
 
-尽管最佳做法是尽可能使用ID，但在设置时，有时将ID从一个工作表交叉引用到另一个工作表会很麻烦 **setAttributeID** 值。 只需更改列标题，即可按名称引用值。
+尽管最佳做法是尽可能使用ID，但有时在设置 **setattributeid** 值。 只需更改列标题即可按名称引用值。
 
 **示例:**
 
 * **（项目导入）**
 
-  导入项目时，将 **setGroupID** ，方法是转到 **组组** 表，记下各自的组ID，并将其粘贴到正确的单元格中(**setGroupID** 列) **项目项目** 工作表。
+  在导入项目时，设置 **setGroupID** ，方法是转到 **组组** 工作表中，记下各自的组ID，并将它们粘贴到正确的单元格中(**setGroupID** 列) **项目项目** 工作表。
 
-  当仅处理几个组和项目时，这是可行的，但如果您处理每个组和项目，那么这是不实用的。
+  当仅处理几个组和项目时，这是可行的，但如果您处理的是每个组和项目的多个组，则它是不实用的。
 
-  要执行上述示例的属性名称替换，请更改 **setGroupID** 列标题至 **#setGroupID组****名称**. 然后，您可以按名称引用每个项目的组。
+  要执行上述示例的属性名称替换，请更改 **setGroupID** 列标题至 **#setGroupID GROUP****name**. 然后，您可以按名称引用每个项目的组。
 
   >[!NOTE]
   >
@@ -406,7 +411,7 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
 
 * **（用户导入）**
 
-  导入用户时，请填写 **setRoleID** 从 **角色角色** 选项卡。
+  导入用户时，填写 **setRoleID** 从 **角色角色** 选项卡。
 
   一些角色ID用于帐户中已存在的记录，而其他角色ID则在导入期间创建。
 
@@ -415,8 +420,8 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
   以下是在同一导入文件上使用这两种方法的方法：
 
    * 在电子表格左侧添加一列 **setRoleID** 列。
-   * 为新列命名 **#setRoleID角色名称**.
-   * 对于现有记录的角色分配，请在以下位置输入角色名称： **#setRoleID角色名称** 列。
+   * 命名新列 **#setRoleID角色名称**.
+   * 要向现有记录分配角色，请在以下位置输入角色名称： **#setRoleID角色名称** 列。
 
      对于新角色记录的角色分配，请在setRoleID中输入您在“角色角色”工作表中分配的ID。
 
@@ -424,7 +429,7 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
 
 ## 将电子表格数据导入Workfront
 
-使用数据填充Excel模板后，您可以将其数据上传到Workfront。
+使用数据填充Excel模板后，可将其上传到Workfront。
 
 Kick-Start导入支持以下文件类型：
 
@@ -434,7 +439,7 @@ Kick-Start导入支持以下文件类型：
 
   >[!NOTE]
   >
-  >在导入引用报表、文档、头像的 Excel 电子表格或视图、过滤器或分组属性文件时，必须使用 ZIP 文件。使用压缩的导入文件时， &#42;ZIP文件的名称必须与 &#42;.xlsx或 &#42;.xls文件，并且所有内容必须处于相同的文件结构级别（无文件夹）。
+  >在导入引用报表、文档、头像的 Excel 电子表格或视图、过滤器或分组属性文件时，必须使用 ZIP 文件。使用压缩的导入文件时， &#42;ZIP文件必须具有与 &#42;.xlsx或 &#42;.xls文件，并且所有内容必须处于相同的文件结构级别（无文件夹）。
 
 
 要将模板电子表格数据导入Workfront，请执行以下操作：
@@ -443,7 +448,7 @@ Kick-Start导入支持以下文件类型：
 
 1. 单击 **系统** >**导入数据(Kick-Start)**.
 
-1. 在 **使用Kick-Start电子表格上传数据** 部分，单击 **选择文件**，然后浏览并选择填充的电子表格。
+1. 在 **使用快速启动电子表格上传数据** 部分，单击 **选择文件**，然后浏览并选择填充的电子表格。
 
 1. 单击 **上传。**
 

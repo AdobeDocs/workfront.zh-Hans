@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
    >
    >* “名称”字段已冻结，不是水平滚动的一部分。
 
-1. 选择一行中的一个或多个记录，然后拖放 **句柄** 图标 ![](assets/handle-icon.png) 记录名称的左侧，用于对行重新排序。
-
-   >[!NOTE]
-   >
-   >如果对表视图至少应用一种排序，则无法对行重新排序。
-
 1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 
    >[!TIP]
@@ -191,9 +185,16 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 
 在Maestro中，一个记录类型最多可以有10,000条记录（或行）。
 
-向Maestro表视图中添加行与在表中创建记录相同。
+1. 转到记录类型页面并选择 **表** 从“视图”下拉菜单中查看。
+1. 开始添加记录（或行），如文章中所述 [创建记录](../records/create-records.md).
 
-有关更多信息，请参阅 [创建记录](../records/create-records.md).
+   您在表格视图中添加的记录会立即保存，并且所有访问Maestro的用户都可以看到。 <!--this will change with permissions-->
+
+1. （可选）选择一行中的一个或多个记录，然后拖放 **句柄** 图标 ![](assets/handle-icon.png) 记录名称的左侧，用于对行重新排序。
+
+   >[!NOTE]
+   >
+   >如果对表视图至少应用一种排序，则无法对行重新排序。
 
 <!-- this is not possible right now:
 
