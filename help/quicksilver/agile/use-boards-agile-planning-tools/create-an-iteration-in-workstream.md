@@ -3,20 +3,24 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: 在工作流中创建迭代
-description: 迭代是为完成工作而保留的设定时间。 某些敏捷团队可能会将开发周期称为冲刺。
+description: 迭代是为完成工作而保留的设定时间。 某些Agile团队可能会将开发周期称为冲刺。
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
 # 在工作流中创建迭代
 
-迭代是为完成工作而保留的设定时间。 某些敏捷团队可能会将开发周期称为冲刺。
+>[!IMPORTANT]
+>
+>工作流仅适用于特定的客户组。
+
+迭代是为完成工作而保留的设定时间。 某些Agile团队可能会将开发周期称为冲刺。
 
 ## 访问要求
 
@@ -30,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -47,8 +51,8 @@ ht-degree: 0%
 1. 使用以下方法之一创建迭代：
 
    * 在“信息卡列表”选项卡的迭代视图中，单击 [!UICONTROL **创建迭代**].
-   * 在“卡片列表”选项卡的列表视图中，单击 [!UICONTROL **创建迭代**].
-   * 在“展示板”选项卡上，单击 [!UICONTROL **添加展示板**] 并选择 [!UICONTROL **迭代过程**] 作为展示板模板。 然后，打开迭代板并单击 [!UICONTROL **配置迭代**].
+   * 在卡片列表选项卡的列表视图中，单击 [!UICONTROL **创建迭代**].
+   * 在展示板选项卡上，单击 [!UICONTROL **添加展示板**] 并选择 [!UICONTROL **迭代过程**] 作为展示板模板。 然后，打开迭代板并单击 [!UICONTROL **配置迭代**].
 
 1. 在“小版本详细信息”对话框中，添加以下信息：
 
@@ -71,22 +75,22 @@ ht-degree: 0%
 
 1. 单击&#x200B;[!UICONTROL **保存**]。
 
-   迭代现在显示在卡片列表的迭代视图中，并显示在迭代展示板上的量度区域中。
+   迭代现在显示在卡片列表的迭代视图中，并显示在迭代展示板的量度区域中。
 
-   要将信息卡添加到迭代，请参阅 [使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   要将信息卡添加到迭代，请参阅 [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## 编辑现有迭代
 
 1. 要打开工作流，请单击 [!UICONTROL **查看工作流**].
 1. 使用以下方法之一打开迭代：
 
-   * 在“卡片列表”选项卡的迭代视图中，单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png).
+   * 在“信息卡列表”选项卡的迭代视图中，单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png).
    * 在迭代板上，单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png) 在右上角的量度区域中。
 
-1. 在 [!UICONTROL 迭代配置] 面板，根据需要编辑小版本。
+1. 在 [!UICONTROL 迭代配置] 面板，根据需要编辑迭代。
 1. 要更改迭代名称，请展开 [!UICONTROL **迭代详细信息**].
 
-   迭代开始后，您只能更改迭代名称，而不能更改日期或迭代长度。
+   一旦迭代开始，您只能更改迭代名称，而不能更改日期或迭代长度。
 
 <!--   
 

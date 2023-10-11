@@ -7,14 +7,18 @@ description: 您可以选择在工作流中的展示板上显示积压列，并�
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # 在工作流展示板上配置积压
+
+>[!IMPORTANT]
+>
+>工作流仅适用于特定的客户组。
 
 您可以选择在工作流中的展示板上显示积压列，并为从工作流卡列表中拉入展示板积压的卡定义查询。
 

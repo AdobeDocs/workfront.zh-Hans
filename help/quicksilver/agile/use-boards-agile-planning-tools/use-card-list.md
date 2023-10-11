@@ -2,26 +2,31 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: 使用卡片列表
-description: 您可以在工作流中创建卡列表，并将卡添加到小版本中。
+title: 使用信息卡列表
+description: 您可以在工作流中创建信息卡列表并将信息卡添加到迭代。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
-# 使用卡片列表
+# 使用信息卡列表
 
-您可以在工作流中创建卡列表，并将卡添加到小版本中。
+>[!IMPORTANT]
+>
+>并非所有客户都可以使用工作流。
 
-卡列表可用作工作流的积压工作。
+您可以在工作流中创建信息卡列表并将信息卡添加到迭代。
+
+信息卡列表可用作工作流的积压工作。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,11 +36,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL请求]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,89 +50,88 @@ ht-degree: 0%
 {{step1-to-boards}}
 
 1. 要打开工作流，请单击 [!UICONTROL **查看工作流**].
-1. 单击 [!UICONTROL **卡片列表**] 选项卡。
-1. 单击 [!UICONTROL **添加卡片**].
+1. 单击 [!UICONTROL **信息卡列表**] 选项卡。
+1. 单击 [!UICONTROL **添加信息卡**].
 1. 在 [!UICONTROL **创建/编辑信息卡**] 对话框，添加以下信息：
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL名称]</strong></td> 
-      <td>卡片的名称。</td> 
+      <td><strong>[！UICONTROL名称]</strong></td> 
+      <td>卡的名称。</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL描述]</strong></td> 
-      <td>卡的描述。</td> 
+      <td><strong>[！UICONTROL描述]</strong></td> 
+      <td>信息卡的描述。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL估计]</strong></td> 
-      <td>卡片的预计完成小时数。 这只是手动输入。</td> 
+      <td><strong>[！UICONTROL估计]</strong></td> 
+      <td>预计完成信息卡的小时数。 这只是一个手动输入。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL状态]</strong></td> 
+      <td><strong>[！UICONTROL状态]</strong></td> 
       <td>选择卡的状态。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL迭代]</strong></td> 
-      <td>选择要将卡分配到的小版本。</td> 
+      <td><strong>[！UICONTROL迭代]</strong></td> 
+      <td>选择要为其分配信息卡的迭代。</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL任务负责人]</strong></td> 
-      <td><p>要分配信息卡，请开始在搜索字段中键入名称，然后在信息卡显示在列表中时将其选中。 您可以添加个人和团队，并且可以为信息卡分配多个人员或团队。</p><p>受分配者必须是工作流中的成员，否则他们不会显示在选择列表中。</p></td> 
+      <td><strong>[！UICONTROL被分派人]</strong></td> 
+      <td><p>要分配卡，请在搜索字段中开始键入名称，然后在此卡显示在列表中时将其选定。 您可以同时添加个人和团队，也可以将多个人员或团队分配给信息卡。</p><p>被分派人必须是工作流中的成员，否则他们不会出现在选择列表中。</p></td> 
      </tr>
     </tbody> 
    </table>
 
 1. 单击&#x200B;[!UICONTROL **保存**]。
-1. 继续添加信息卡，直到您生成信息卡列表。
+1. 继续添加信息卡，直到构建信息卡列表。
 
 ## 查看卡片
 
-要在单个列表中查看工作流的所有信息卡，请单击 [!UICONTROL **列表视图**] 选项卡。
+要在单个列表中查看工作流的所有卡片，请单击 [!UICONTROL **列表视图**] 在“信息卡列表”选项卡上。
 
-要查看按小版本分组的工作流的所有卡，请单击 [!UICONTROL **迭代视图**]. 计划外卡片显示在其自己的组中。
+要查看按迭代分组的工作流的所有卡片，请单击 [!UICONTROL **迭代视图**]. 计划外的信息卡会显示在他们自己的组中。
 
-要编辑现有信息卡，请在列表中选择该信息卡，然后单击 [!UICONTROL **编辑**].
+要编辑现有信息卡，请在列表中选择该信息卡并单击 [!UICONTROL **编辑**].
 
-要删除信息卡，请在列表中选择该信息卡，然后单击 [!UICONTROL **删除**].
+要删除某个信息卡，请在列表中选择该信息卡并单击 [!UICONTROL **删除**].
 
-### 筛选卡片
+### 过滤卡片
 
-卡只能从迭代展示板存档。 存档信息卡后，信息卡不会显示在信息卡列表中，除非您进行过滤以显示已存档的信息卡。 有关存档信息卡的信息，请参阅 [从展示板中删除或存档信息卡](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
-
-1. 访问工作流的卡列表。
-1. 单击 [!UICONTROL **过滤器**] 选择 [!UICONTROL **全部**], [!UICONTROL **活动卡**]&#x200B;或 [!UICONTROL **存档的卡片**].
-
-   当在卡片列表中应用除默认值以外的过滤器时，过滤器图标上会显示一个指示器 ![已应用过滤器](assets/boards-filterapplied-30x30.png).
-
-### 在卡片列表中搜索
+信息卡只能从迭代展示板存档。 存档信息卡时，除非您进行筛选以显示存档的信息卡，否则它不会显示在信息卡列表中。 有关存档信息卡的信息，请参阅 [从展示板中删除或存档信息卡](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. 访问工作流的卡列表。
-1. 单击 [!UICONTROL **搜索**] 并键入搜索词。 然后，按Enter。
+1. 单击 [!UICONTROL **筛选**] 并选择 [!UICONTROL **全部**]， [!UICONTROL **活动信息卡**]，或 [!UICONTROL **已存档的信息卡**].
+
+   当在信息卡列表上应用默认以外的过滤器时，过滤器图标上会显示指示器 ![已应用筛选器](assets/boards-filterapplied-30x30.png).
+
+### 在信息卡列表中搜索
+
+1. 访问工作流的卡列表。
+1. 单击 [!UICONTROL **Search**] 并键入搜索词。 然后，按Enter。
 
    将显示包含搜索词的所有卡片。
-单击X以清除搜索。
+单击X清除搜索。
 
-   ![在展示板中搜索信息卡](assets/boards-searchbox.png)
+   ![在展示板中搜索卡片](assets/boards-searchbox.png)
 
-## 向小版本添加卡
+## 将信息卡添加到迭代
 
 >[!NOTE]
 >
->必须先创建小版本，然后才能向其添加卡片。 有关信息，请参阅 [在工作流中创建小版本](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>必须先创建迭代，然后才能向其添加卡片。 有关信息，请参阅 [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. 访问工作流的卡列表。
-1. 选择 [!UICONTROL **迭代视图**] 查看哪些卡被分配到小版本以及哪些卡是计划外的。
-1. 在列表中选择计划外卡片，然后单击 [!UICONTROL **编辑**].
-1. 在 [!UICONTROL **迭代**] 字段。
-1. 如果您使用文章点，请在 [!UICONTROL **估计**] 字段。
+1. 选择 [!UICONTROL **迭代视图**] 查看哪些信息卡已分配给开发周期，哪些是计划外的。
+1. 在列表中选择一个未计划的卡片并单击 [!UICONTROL **编辑**].
+1. 选择迭代 [!UICONTROL **迭代**] 字段。
+1. 如果您使用故事点，请在 [!UICONTROL **估计**] 字段。
 1. 单击&#x200B;[!UICONTROL **保存**]。
 
-   卡片将移至小版本，小版本量度反映卡片和点数。
+   信息卡会被移动到迭代，迭代量度反映信息卡和点的数量。
 
-   您还可以将卡从计划外卡片组拖放到小版本中，或单击 [!UICONTROL **添加卡片**] 向小版本中添加新卡。
+   您还可以将信息卡从“未计划的信息卡”组拖放到开发周期中，或单击 [!UICONTROL **添加信息卡**] 以向开发周期中添加新信息卡。
 
 >[!TIP]
 >
->如果已创建迭代流程板，则卡列表上的所有计划外卡都将显示在 [!UICONTROL 积压] 列。 当信息卡移入另一列时，它将成为活动小版本的一部分。 您添加到卡片列表中小版本的卡片将根据其状态添加到列中。
-
+>如果已创建迭代流程展示板，则信息卡列表中的所有未计划信息卡都会显示在 [!UICONTROL 积压] 列。 将信息卡移动到另一列时，它将成为活动迭代的一部分。 添加到信息卡列表中迭代的信息卡会根据其状态添加到列。
