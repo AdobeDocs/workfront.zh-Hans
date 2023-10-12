@@ -6,9 +6,9 @@ description: API版本控制和支持计划
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
+source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -35,9 +35,15 @@ Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本�
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>17</td> 
+   <td> <p>2023年10月12日</p> </td> 
+   <td> <p>**2026年期间</p> <p>（随26.10发行版一起提供）</p> </td> 
+  </tr> 
+ <tr>
    <td>16</td> 
    <td> <p>2023年4月</p> <p>（在23.2版本中）</p> </td> 
-   <td> <p>**2026年期间</p> <p>（随26.2版本一起提供）</p> </td> 
+   <td> <p>**2026年期间</p> <p>（随26.4版本一起提供）</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 
