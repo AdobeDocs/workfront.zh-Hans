@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ ht-degree: 0%
       <td><p>您添加的任何自定义字段都会显示在此区域中。</p>
       <p>有关更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">自定义信息卡上显示的字段</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[！UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>此部分将显示任务的任何现有子任务。 单击 <strong>[！UICONTROL添加子任务]</strong> 以添加新子任务。</p>
+      <p>部分顶部的计数器显示已完成的子任务数和子任务总数。</p>
+      <p>有关子任务的详细信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任务</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL核对清单]</strong> </td> 
-      <td> <p>单击 <strong>[！UICONTROL添加清单项目]</strong>. 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p> <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理信息卡上的清单项目</a>.</p></td>
+      <td role="rowheader"><strong>[！UICONTROL核对清单]</strong></td>
+      <td><p>单击 <strong>[！UICONTROL添加清单项目]</strong>. 然后，键入项目的标题并按Enter。 系统会自动添加另一个项目。 继续输入标题以添加更多项目。</p>
+      <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理信息卡上的清单项目</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[！UICONTROL文档]</strong></span></td>
