@@ -4,10 +4,10 @@ description: 2023年第四季度发布时间范围内的外观更新
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本页介绍在2023年第四季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2023年第四季度版本的所有可用更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 工作负载均衡器中手动调整分配的指示器
+
+>[!NOTE]
+>
+>预览版本： 2023年10月12日；面向所有客户的生产版本：待定
+
+为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
+
+有关更多信息，请参阅 [管理工作负载均衡器中的用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## 设置通知区域中选项卡的新外观更新
 

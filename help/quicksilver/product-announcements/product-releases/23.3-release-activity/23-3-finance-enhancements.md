@@ -3,9 +3,10 @@ title: 23.3 Financial Management增强功能
 description: 23.3 Financial Management增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 >
 >* 面向快速版本客户的生产版本：将在23.3生产版本之后发布
 >
->* 所有客户的生产版本：所有客户的生产版本：使用23.10版本（2023年10月）
+>* 适用于所有客户的生产版本：适用于所有客户的生产版本：即将宣布
 >
 >2023年6月30日至7月13日，在预览中临时禁用了分配率覆盖功能。
 

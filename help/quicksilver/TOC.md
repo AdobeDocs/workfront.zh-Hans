@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
 workflow-type: tm+mt
-source-wordcount: '13352'
+source-wordcount: '13344'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 1%
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
       * 2023年第四季度发行 {#release-23-q4}
          * [2023年第4季度发行版概述](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-         * [2023年第4季度发行周，2023年7月24日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-         * [2023年第4季度发行周，2023年7月31日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-         * [2023年第4季度发行周，2023年8月14日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-         * [2023年第4季度发行周，2023年8月21日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-         * [2023年第4季度发行周，2023年9月11日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-         * [2023年第4季度发行周，2023年10月2日](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+         * [2023年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+         * [2023年第4季度主板增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+         * [2023年第4季度Financial Management增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+         * [2023年第4季度主页增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [2023年第4季度集成增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+         * [2023年第4季度项目增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [2023年第4季度其他增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [在2023年第4季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * 23.3版本 {#release-23-3}
          * [23.3发行版概述](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
