@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 3%
@@ -50,7 +50,7 @@ For additional resources for the new commenting experience, also see the followi
 * 有关系统更新的注释
 * 在注释时编辑状态、条件和提交日期的功能
 * 编辑自定义表单
-* 当Workfront或组管理员以其他用户身份登录并代表他们添加评论时，显示“代表&lt;用户名>”信息。
+* 当Workfront或组管理员以其他用户身份登录并代表他们添加评论时，显示“代表&lt;用户名>”信息。 <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
 * 在向文档添加评论时标记人员时的“请求审批”选项。
 
 >[!NOTE]

@@ -4,13 +4,13 @@ description: 在Adobe管理器中，您可以为每种操作记录类型或分�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ ht-degree: 2%
    * [百分比](#percentage)
    * [货币](#currency)
    * [复选框](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ ht-degree: 2%
 
    ![](assets/single-line-text-field-type.png)
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列标题上时，将显示字段的描述。
 1. 单击&#x200B;**创建**。
@@ -213,12 +214,22 @@ ht-degree: 2%
 
 段落字段捕获有关记录的其他字母数字信息，与描述字段类似。 段落字段的内容最多可包含1,000个字符。
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **段落** 字段类型。
 
    ![](assets/paragraph-field-type.png)
 
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 1. 单击&#x200B;**创建**。
@@ -235,7 +246,7 @@ ht-degree: 2%
    ![](assets/multi-select-field-type.png)
 
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **选项**：保存字段后可从下拉菜单中选择的选项。 每个选择的名称可以同时包含数字和字母。
@@ -257,7 +268,7 @@ ht-degree: 2%
    ![](assets/single-select-field-type.png)
 
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **选项**：保存字段后可从下拉菜单中选择的选项。 每个选择的名称可以同时包含数字和字母。
@@ -279,7 +290,7 @@ ht-degree: 2%
    ![](assets/date-field-type.png)
 
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。
@@ -308,7 +319,7 @@ ht-degree: 2%
 1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **数字** 字段类型。
 
    ![](assets/number-field-type.png)
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
 
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
@@ -331,7 +342,7 @@ ht-degree: 2%
 
    ![](assets/percentage-field-type.png)
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **精度**：要为字段记录的小数位数。 您最多可以显示6个小数。
@@ -353,7 +364,7 @@ ht-degree: 2%
 
    ![](assets/currency-field-type.png)
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **货币**：要在此字段中显示的货币类型。 这是国际标准化组织(ISO)的货币列表。
@@ -376,12 +387,30 @@ ht-degree: 2%
 
    ![](assets/checkbox-field-type.png)
 
-1. 添加以下信息：
+1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 1. 单击&#x200B;**创建**。
 
    新的复选框字段作为列添加到记录类型，其值可以与记录相关联。 字段还显示在记录的详细信息页面上。
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## 通过将记录类型链接在一起来创建字段
 
@@ -402,6 +431,3 @@ ht-degree: 2%
 从模板创建工作区时，Maestro会为操作记录类型和分类创建字段。
 
 有关信息，请参阅 [创建工作区](../architecture-and-fields/create-workspaces.md).
-
-
-

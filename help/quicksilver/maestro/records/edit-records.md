@@ -4,13 +4,13 @@ description: 您可以在Adobe大师中编辑记录信息。 必须先创建记�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 * 您可以编辑您或其他用户创建的记录。 <!--will change with access levels-->
 * 如果编辑的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
-
+* 您无法编辑从其他记录链接的字段。
 
 ## 编辑记录
 
@@ -145,6 +145,11 @@ ht-degree: 1%
    >* 链接的字段不可编辑。 这些字段的信息将自动从链接的记录中填充。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
    >
    >* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->
