@@ -6,9 +6,9 @@ description: 使用工作负载均衡器了解资源的可用性并将工作分�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >* 分配给工作角色或团队的工作项，以及分配给作为主要被分配人的用户的工作项，不会显示在未分配的工作区域中。
-  >* 分配给用户的工作项以及工作角色（其中工作角色被选为该项的主要被分配人）确实显示在“未分配的工作”区域中。
+  >* 分配给工作角色或团队的工作项以及分配给作为主要被分配人的用户的工作项既显示在“未分配的工作”区域中，也显示在“已分配的工作”区域中的已分配用户名下。
+  >* 分配给用户的工作项和工作角色（其中工作角色被选为该项的主要被分配人）显示在“未分配的工作”区域中。
   >* 分配给多个用户的工作项显示在“已分配的工作”区域的所有已分配用户名下。
+
+  有关详细信息，请参阅中的“工作负载均衡器的工作区域” [在工作负载均衡器中分配工作概述](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * 当项目在某个时间段内没有任务时，项目级别的栏会变暗。
 

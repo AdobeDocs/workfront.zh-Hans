@@ -6,7 +6,7 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 管理工作负载均衡器中的用户分配
+
+{{highlighted-preview}}
 
 作为资源管理器，您可以将工作分配给用户，并通过工作负载均衡器管理用户的每日、每周或每月分配，以确保为他们分配的小时数符合其可用计划。
 
@@ -256,7 +258,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->工作项名称的右侧将显示一个铅笔图标，指示已手动调整该工作项。
+><span class="preview">工作项名称的右侧将显示一个铅笔图标，指示已手动调整该工作项。</span>
 
 ![“手动调整小时数”图标](assets/icon-for-manually-adjusted-hours.png)
 
