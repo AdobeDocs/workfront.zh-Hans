@@ -3,9 +3,9 @@ title: 2023年第四季度主页增强功能
 description: 2023年第四季度主页增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 本页介绍了在2023年第四季度发行版中对“预览”环境做出的所有主页增强。 这些增强功能将在23.10版本的生产环境中提供。
 
 有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 项目、任务和问题小组件的委托工作按钮
+
+作为旧主页的一项常用功能，我们现在为“我的工作”、“我的任务”和“我的问题”构件添加了一个委派按钮，以便在您外出时轻松委派工作。 在委派菜单（其功能与在新主页之前的方式相同）中，您可以选择要将故事和问题委派给谁以及委派多长时间。 请注意，必须在您的Workfront环境中启用工作委托，按钮才能显示。
+
+有关在Workfront中委托的更多信息，请参阅 [管理任务和问题委派](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## 新主页的新讨论区小组件
 

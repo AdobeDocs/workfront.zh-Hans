@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题小组件的委托工作按钮</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>作为旧主页的一项常用功能，我们现在为“我的工作”、“我的任务”和“我的问题”构件添加了一个委派按钮，以便在您外出时轻松委派工作。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年10月12日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用23.10版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用23.10版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新主页的新讨论区小组件</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
