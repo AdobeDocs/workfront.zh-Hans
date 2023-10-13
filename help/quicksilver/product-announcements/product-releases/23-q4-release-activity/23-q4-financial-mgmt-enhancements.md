@@ -3,9 +3,9 @@ title: 2023年第四季度财务管理增强功能
 description: 2023年第四季度财务管理增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,5 @@ ht-degree: 0%
 在Workfront中，公司、用户和工作角色对象现在有日期有效成本和计费率可用。 在将日期有效费率应用于项目并且小时数记录到项目任务时，使用每个时间期的指定费率计算成本和收入。
 
 有关更多信息，请参阅 [编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)， [创建和管理职位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、和 [开单和收入概览](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3424915/){target=_blank}
