@@ -7,9 +7,9 @@ description: 预览环境每周更新一次，并提供新功能。 这些功能
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe Workfront有两种发布新功能和更新的模型。 贵组织可以选择按季度还是按更快的发布时间表接收新功能。
 
-按计划将于当月最后一个星期四发布月度和季度季度报告。 释放通常发生在美国山地时间晚上8-10点左右。
+按计划将于当月最后一个星期四发布月度和季度季度报告。 释放通常发生在美国山区时间前一天晚上8-10点左右。
 
 通常，“预览”中的功能会在下一个版本中提供给您的生产环境。 但是，在某些情况下，功能在计划版本之外的生产环境中可用。 这些更改至少会在“预览”中保留2周，以便您有足够的时间熟悉这些更改。 这些更改在添加到“预览”中时也会通过“公告中心”进行沟通。
 
