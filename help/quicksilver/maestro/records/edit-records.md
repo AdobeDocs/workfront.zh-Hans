@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,18 @@ ht-degree: 1%
 ## 有关编辑记录的注意事项
 
 * 您可以编辑您或其他用户创建的记录。 <!--will change with access levels-->
-* 如果编辑的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
+* 您无法编辑从其他记录链接的字段或包含计算的字段。
+* 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
-* 您无法编辑从其他记录链接的字段。
+* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
+* 编辑段落类型字段时，可以使用以下富文本格式选项：
+
+   * 粗体
+   * 斜体
+   * 下划线
+   * 添加链接
+   * 添加项目符号列表
+   * 添加编号列表
 
 ## 编辑记录
 
@@ -99,9 +108,11 @@ ht-degree: 1%
 
 ### 从记录的“详细信息”页面编辑记录
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) 如果左上角可用，请单击Maestro。
+1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
 
    您上次访问的工作区将打开。
+
+1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
 1. 执行下列操作之一：
 
    * 在“表”视图中，单击记录的名称。
@@ -120,11 +131,6 @@ ht-degree: 1%
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    包含计算或由系统生成的链接字段或字段不可编辑。
-
-
 1. 单击 **保存更改**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### 从记录类型表格视图中编辑记录
@@ -132,24 +138,15 @@ ht-degree: 1%
 1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然后单击 **大师** ![](assets/maestro-icon.png).
 
    您上次访问的工作区随即打开。
+
+1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
 1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
-1. 单击记录行内部以开始编辑有关内联记录的信息，然后按 **输入** 以保存更改。 更改将自动保存。
+1. 单击记录行内部以开始编辑有关内联记录的信息。
 
-   >[!TIP]
-   >
-   >* 链接的字段不可编辑。 这些字段的信息将自动从链接的记录中填充。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
-   >
-   >* 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。

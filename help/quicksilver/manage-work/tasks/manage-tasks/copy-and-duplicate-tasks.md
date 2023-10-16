@@ -6,9 +6,9 @@ description: 您可以将任务从项目复制到另一个项目，也可以复�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ ht-degree: 1%
 
 复制任务时，请考虑以下事项：
 
-* 里程碑将转移到复制的任务并从原始任务中删除。
 * 将任务从一个项目复制到另一个项目时，可能会重新计算任务日期。 重新计算将考虑新项目使用的时间表和项目的时间表来源信息。
-* 子任务转移到新任务。
 * 自定义表单将随任务一起复制。 仅当您在复制任务时选择复制自定义数据时，自定义字段中的信息才会传输到复制的任务。
 * 在复制过程中，您可以选择将某些与任务关联的项复制到复制的任务。 但是，默认情况下，以下对象不会传输到复制的任务：
    * 问题
    * 记录的小时数
-   * 用户评论 <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * 用户评论 <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* 默认情况下，以下项目将移至复制的任务：
 
-您可以在Adobe Workfront Web应用程序的以下区域中复制任务：
+   * 里程碑将转移到复制的任务并从原始任务中删除。
+   * 子任务转移到新任务。
 
-* 在任务级别，从 **“更多”图标** ![](assets/qs-more-menu-19x7.png) 任务名称的右侧。
-
-  有关信息，请参见 [在任务级别复制任务](#copy-a-task-at-the-task-level) 部分。
-
-* 在任务列表中，执行下列操作之一：
-
-   * 右键单击任务的名称。
-   * 选择任务（或多个任务）并展开 **更多** 图标 ![](assets/more-icon-task-list.png) 在任务列表的顶部。
-   * 选择任务并展开 **更多** 图标 ![](assets/more-icon-task-list.png) 在任务名称旁边。
-
-     选择多个任务时，此选项不可用。
-
-  有关信息，请参见 [复制列表中的任务](#copy-tasks-in-a-list) 部分。
+* 您可以一次复制一个任务，也可以在编辑列表中的任务时一次复制多个任务。
 
 ## 复制列表中的任务 {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ ht-degree: 1%
 
    转到任务报告。
 
-1. 单击 **任务** 在左侧面板中。
+1. （视情况而定）单击 **任务** 在左侧面板中，如果打开了包含任务的项目。
 1. 单击 **规划模式菜单** ![](assets/qs-list-mode-or-save-mode-icon-small.png) ，则 **自动保存**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ ht-degree: 1%
 
    * 单击 **更多菜单** 单击任务列表顶部的 **复制到**.
    * 右键单击选定的任务，然后单击 **复制到**.
-   * 选择一项任务时，单击 **更多** 菜单 ![](assets/more-icon-task-list.png) 单击列表中的任务名称旁边的，然后单击 **复制到**.
+   * 选择一项任务时，单击 **更多** 菜单 ![](assets/more-icon-task-list.png) 单击列表中的任务名称旁边的，然后单击 **复制到**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 继续复制任务，如一节中所述 [在任务级别复制任务](#copy-a-task-at-the-task-level) 从步骤4开始。
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## 在任务级别复制任务 {#copy-a-task-at-the-task-level}
 
-除了复制任务列表中的任务外，您还可以在打开任务后复制任务。 
+除了复制任务列表中的任务外，您还可以在打开任务后复制任务。
 
 1. 通过搜索在Workfront系统中查找任务。
-1. 单击任务的名称以将其打开。 
+1. 单击任务的名称以将其打开。
 1. 单击 **更多** 下拉菜单 ![](assets/qs-more-menu.png) 单击任务名称旁边的，然后单击 **复制** **到**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ ht-degree: 1%
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. 键入的名称 **目标项目** 要将任务复制到 **选择目标项目** 字段。 
+1. 键入的名称 **目标项目** 要将任务复制到 **选择目标项目** 字段。
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ ht-degree: 1%
 
    默认显示当前项目名称。 如果要复制同一项目中的任务，请保留此字段不变。
 
-1. （视情况而定）单击 **请求访问** 以请求对项目的访问权限（如果您无权访问所选项目）。
+1. （视情况而定）单击 **请求访问** 以请求对项目的访问权限（如果您无权访问所选项目）。
 1. （视情况而定）如果您有权将任务添加到目标项目上的任务之一，请继续将任务复制到选定的目标项目，而不请求访问权限。
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止将任务添加到这些项目，则会显示类似消息。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止将任务添加到这些项目，则会显示类似消息。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. 单击 **选项** 在左侧面板中，取消选择您不希望与任务一起复制的任务属性。 默认情况下，将选择所有选项。
+1. 单击 **选项** 在左侧面板中，取消选择您不希望与任务一起复制的任务属性。 默认情况下，将选择所有选项。
 
    >[!TIP]
    >
-   选择，然后取消选择 **全选** 取消选择所有选项。
+   >选择，然后取消选择 **全选** 取消选择所有选项。
 
    取消选择下列选项，不将它们转移到复制的任务。 下表描述了取消选择这些选项时会发生的情况：
 
@@ -239,24 +225,24 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1.  （可选）单击 **选择父级** 在左侧面板中，选择要成为所复制任务的父级的目标项目中的任务。
+1. （可选）单击 **选择父级** 在左侧面板中，选择要成为所复制任务的父级的目标项目中的任务。
 
-   >[!TIP]
-   >
-   当选择在一个列表中复制多个任务时，所有选定任务都会成为选定父级的子级。
+>[!TIP]
+>
+>当选择在一个列表中复制多个任务时，所有选定任务都会成为选定父级的子级。
 
-   通过执行以下操作之一选择父级：
+通过执行以下操作之一选择父级：
 
-   * 在任务列表中，选择项目计划中的父项之一。
-   * 单击搜索图标 ![“搜索”图标](assets/search-icon.png) 并按名称搜索父任务。
+* 在任务列表中，选择项目计划中的父项之一。
+* 单击搜索图标 ![“搜索”图标](assets/search-icon.png) 并按名称搜索父任务。
 
-   该任务应显示在列表中。
+该任务应显示在列表中。
 
-   ![使用搜索功能移动任务时选择父任务 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![使用搜索功能移动任务时选择父任务 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. 找到父项后，选择该父项的单选按钮。 
+1. 找到父项后，选择该父项的单选按钮。
 
-   如果不选择父任务，则将任务作为主任务而不是子任务复制，并且它们将被放置在目标项目的任务列表的末尾。 
+   如果不选择父任务，则将任务作为主任务而不是子任务复制，并且它们将被放置在目标项目的任务列表的末尾。
 
 1. 单击 **复制任务**
 
@@ -275,7 +261,6 @@ ht-degree: 1%
 ### 复制任务的注意事项 {#considerations-for-duplicating-tasks}
 
 * 仅当任务列表按任务编号排序时，才能复制任务列表中的任务。
-
 * 新任务将与原始任务具有相同的名称。
 * 您无法选择将哪些信息复制到新任务。 默认情况下，原始任务中的几乎所有信息都将转移到复制任务，包括父关系。
 * 以下项目未转移到新任务：
@@ -285,10 +270,12 @@ ht-degree: 1%
    * 问题
    * 只有位于同一组复制任务中的前置任务才会与其后续任务一起复制。
 
-     **示例：** 例如，如果同时复制任务2及其前置任务任务1，则您有任务2的副本和任务1的副本。 任务1的副本将是任务2的副本的前身。 但是，如果您只复制任务2而没有复制其前置任务，则其副本将没有前置任务。
+     **示例**
+
+     例如，如果同时复制任务2及其前置任务任务1，则您有任务2的副本和任务1的副本。 任务1的副本将是任务2的副本的前身。 但是，如果您只复制任务2而没有复制其前置任务，则其副本将没有前置任务。
 
 * 复制父任务时，即使未选择子任务，也会复制所有子任务。
-* 您可以同时复制多个任务。
+* 您可以同时复制一个或多个任务。
 
   但是，不能同时复制多个非连续的任务。
 
@@ -312,4 +299,4 @@ ht-degree: 1%
 
       1. 单击 **保存** 以保存更改。
 
-   1. 编辑列表中的任务
+         这些任务将复制并添加到与原始任务相同的项目中。

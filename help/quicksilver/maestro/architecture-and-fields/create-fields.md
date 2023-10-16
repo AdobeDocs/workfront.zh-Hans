@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 2%
    * [百分比](#percentage)
    * [货币](#currency)
    * [复选框](#checkbox)
-     <!--* [People](#people)-->
+   * [人员](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ ht-degree: 2%
 
 ### 段落 {#paragraph}
 
-段落字段捕获有关记录的其他字母数字信息，与描述字段类似。 段落字段的内容最多可包含1,000个字符。
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+段落字段捕获有关记录的其他字母数字信息，与描述字段类似。
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* 段落字段的内容最多可包含1,000个字符。
+>
+>* 当段落字段显示在记录的表视图或详细信息页面中时，您可以使用富文本格式来增强段落字段的内容。
 
 1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **段落** 字段类型。
 
@@ -394,23 +390,25 @@ ht-degree: 2%
 
    新的复选框字段作为列添加到记录类型，其值可以与记录相关联。 字段还显示在记录的详细信息页面上。
 
-<!--
-### People
+### 人员
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+您可以使用“人员”字段类型添加用户 <!--, job role, or team--> 录音。 这是预先输入字段，您只能添加用户<!--, roles, or teams--> Workfront中已存在的受众。
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **人员** 字段类型。
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. 将以下信息添加到 **新建字段** 选项卡：
+   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
+   * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
+   * **允许多个值**：如果要允许用户在此字段中添加多个用户，请选择此选项。 默认情况下，此选项处于未选中状态。
+
+   >[!NOTE]
+   >
+   >    如果选择“允许多个值”，并且多个用户存储在字段附加到的记录中，则以后编辑此字段时，无法再取消选择设置。
+1. 单击&#x200B;**创建**。
+
+   新的People-type字段作为列添加到记录类型，其值可与记录相关联。 字段还显示在记录的详细信息页面上。
 
 ## 通过将记录类型链接在一起来创建字段
 

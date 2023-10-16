@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ ht-degree: 0%
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与Maestro封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
 
+## 2023年10月16日起一周
+
+### 新建人员字段类型
+
+预览和生产： 2023年10月16日
+
+您现在可以向Maestro记录类型添加人员类型字段。 您可以使用“人员”类型字段将现有用户与记录关联。 有关信息，请参阅 [创建字段](../maestro/architecture-and-fields/create-fields.md).
+
+
+### 富文本 — 段落字段的格式
+
+预览和生产： 2023年10月16日
+
+我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图中或在记录的“详细信息”页中使用富文本设置段落字段的格式。 有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
+
+
 ## 2023年10月9日起一周
 
 ### 在表格视图中搜索
@@ -41,24 +57,6 @@ ht-degree: 0%
 预览和生产： 2023年10月9日
 
 您现在可以搜索关键字，以便在表格视图中快速查找记录。 您可以在屏幕上可见的任何字段中使用关键字和特殊字符来查找记录。 有关信息，请参阅 [管理表视图](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## 2023年9月18日起一周
 
