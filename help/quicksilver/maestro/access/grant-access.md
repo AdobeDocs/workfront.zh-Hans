@@ -4,19 +4,21 @@ description: 了解如何在Adobe大师中授予访问权限和共享信息。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 授予对Adobe大师的访问权限
 
 >[!IMPORTANT]
+>
+>Adobe大师”是Adobe Workfront推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe大师”是Adobe Workfront推出的新产品。 有关更多信息，请参阅 [Maestro概述](../maestro-overview.md).
 
 目前，贵组织中的所有用户都可以访问Maestro，前提条件如下：
 
@@ -50,9 +50,9 @@ Adobe大师”是Adobe Workfront推出的新产品。 有关更多信息，请�
 
 要使用布局模板共享Maestro区域：
 
-1. 以系统管理员身份登录Workfront。
+1. 登录 **Workfront** 作为系统管理员。
 
-1. 使用布局模板将Maestro图标添加到主菜单。
+1. 添加 **大师** 图标 ![](assets/maestro-icon.png) 到 **主菜单** 使用 **布局模板**.
 
    有关信息，请参阅 [使用布局模板自定义主菜单](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Adobe大师”是Adobe Workfront推出的新产品。 有关更多信息，请�
    现在，分配给模板的所有用户都可以在他们的主菜单中访问Maestro。
 
    用户可以开始创建工作区、记录类型、记录和字段。
-
-
-

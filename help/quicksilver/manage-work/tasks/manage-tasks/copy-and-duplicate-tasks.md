@@ -6,9 +6,9 @@ description: 您可以将任务从项目复制到另一个项目，也可以复�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 1%
    转到任务报告。
 
 1. （视情况而定）单击 **任务** 在左侧面板中，如果打开了包含任务的项目。
-1. 单击 **规划模式菜单** ![](assets/qs-list-mode-or-save-mode-icon-small.png) ，则 **自动保存**.
+1. 单击 **计划模式** 图标 ![](assets/qs-list-mode-or-save-mode-icon-small.png)，并确保 **自动保存** 选项。
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ ht-degree: 1%
 
 1. （可选）单击 **选择父级** 在左侧面板中，选择要成为所复制任务的父级的目标项目中的任务。
 
->[!TIP]
->
->当选择在一个列表中复制多个任务时，所有选定任务都会成为选定父级的子级。
+   >[!TIP]
+   >
+   >当选择在一个列表中复制多个任务时，所有选定任务都会成为选定父级的子级。
 
-通过执行以下操作之一选择父级：
+   通过执行以下操作之一选择父级：
 
-* 在任务列表中，选择项目计划中的父项之一。
-* 单击搜索图标 ![“搜索”图标](assets/search-icon.png) 并按名称搜索父任务。
+   * 在任务列表中，选择项目计划中的父项之一。
+   * 单击搜索图标 ![“搜索”图标](assets/search-icon.png) 并按名称搜索父任务。
 
-该任务应显示在列表中。
+   任务将显示在列表中。
 
-![使用搜索功能移动任务时选择父任务 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![使用搜索功能移动任务时选择父任务 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 找到父项后，选择该父项的单选按钮。
 
-   如果不选择父任务，则将任务作为主任务而不是子任务复制，并且它们将被放置在目标项目的任务列表的末尾。
+   如果不选择父任务，则任务将作为主任务而不是子任务复制，并放置在目标项目的任务列表的末尾。
 
 1. 单击 **复制任务**
 
@@ -287,11 +289,11 @@ ht-degree: 1%
 1. 单击 **任务** 在左侧面板中。
 1. 执行下列操作之一：
 
-   * （视情况而定）单击 **规划模式菜单** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **自动保存**，选择要复制的任务，然后单击 **更多菜单** ![](assets/qs-more-menu-29x11.png) > **复制**.
+   * （视情况而定）单击 **计划模式** 图标 ![](assets/qs-list-mode-or-save-mode-icon-small.png) 并确保 **自动保存** 选项，选择要复制的任务，然后单击 **更多菜单** ![](assets/qs-more-menu-29x11.png) > **复制**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （视情况而定）单击 **规划模式菜单** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手动保存** > **标准** 或 **时间线规划**，然后执行以下操作：
+   * （视情况而定）单击 **计划模式** 图标 ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手动保存** > **标准** 或 **时间线规划**，然后执行以下操作：
 
       1. 选择要复制的一个或多个任务，然后单击 **复制**.
       1. （可选）单击 **还原** 以撤消您的更改并且不复制任务。

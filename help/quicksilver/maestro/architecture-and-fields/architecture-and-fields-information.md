@@ -4,9 +4,10 @@ description: 以下文章介绍如何配置AdobeMaestro的架构。 在此配置
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ hide: yes
 * [编辑记录类型](../architecture-and-fields/edit-record-types.md)
 * [连接记录类型](../architecture-and-fields/connect-record-types.md)
 * [连接记录类型和记录的示例](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [在Adobe大师中创建字段](../architecture-and-fields/create-fields.md)
+* [创建字段](../architecture-and-fields/create-fields.md)
 * [编辑字段](../architecture-and-fields/edit-fields.md)
 * [删除工作区](../architecture-and-fields/delete-workspaces.md)
 * [删除记录类型](../architecture-and-fields/delete-record-types.md)
 * [删除字段](../architecture-and-fields/delete-fields.md)
-
-

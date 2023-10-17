@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ ht-degree: 2%
    >[!NOTE]
    >
    >    如果选择“允许多个值”，并且多个用户存储在字段附加到的记录中，则以后编辑此字段时，无法再取消选择设置。
+
 1. 单击&#x200B;**创建**。
 
    新的People-type字段作为列添加到记录类型，其值可与记录相关联。 字段还显示在记录的详细信息页面上。

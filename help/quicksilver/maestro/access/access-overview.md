@@ -4,19 +4,21 @@ description: 组织中的所有用户都可以访问AdobeMaestro。 目前，没
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 99fac041-a235-4991-b826-d19944164bc9
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 # 访问概述
 
 >[!IMPORTANT]
+>
+>Adobe大师”是Adobe Workfront推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe大师”是Adobe Workfront推出的新产品。 有关更多信息，请参阅 [Maestro概述](../maestro-overview.md).
 
 目前，贵组织中的所有用户都可以访问Maestro，前提是Workfront管理员为他们启用了访问权限。
 

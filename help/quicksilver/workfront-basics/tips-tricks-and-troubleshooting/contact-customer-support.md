@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 联系客户支持
-description: 联系客户支持
+description: 作为Adobe Workfront客户，您可以通过电话或在线提交票证来联系Workfront客户支持团队。
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,76 +18,76 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-As a [!DNL Adobe Workfront] 客户，您可以联系 [!DNL Workfront] 客户支持团队通过电话或在线提交票证。
+作为 [!DNL Adobe Workfront] 客户，您可以联系 [!DNL Workfront] 客户支持团队通过电话或在线提交票证。
 
 >[!NOTE]
 >
->对于关键问题，请联系 [!DNL Workfront] 客户支持。
+>对于严重问题，请联系 [!DNL Workfront] 客户支持电话。
 
 ## 电话
 
-您可以联系 [!DNL Workfront Customer Support] 每周7天，每天24小时，通过以下数字：
+您可以联系 [!DNL Workfront Customer Support] 一周7天，每天24小时，具体数据如下：
 
 * 美国：844-306-HELP(4357)
-* 欧洲、中东和非洲地区：+44 1256 274200
+* EMEA： +44 1256 274200
 * 澳大利亚：+61 1800 849259
 
 ## Web
 
-您可以从自助服务中提交支持票证 [!DNL Experience League] 门户。
+您可以从自助服务提交支持工单 [!DNL Experience League] 门户。
 
 >[!CAUTION]
 >
->只有授权的支持联系人（或授权的客户）才能提交在线支持票证。
+>只有授权支持联系人（或授权客户）才能提交在线支持工单。
 
 
-1. 从 [[!DNL Experience League]](https://experienceleague.adobe.com) 网站，单击 **[!UICONTROL 支持]**  的双曲余切值。
+1. 从 [[!DNL Experience League]](https://experienceleague.adobe.com) 网站，单击 **[!UICONTROL 支持]**  页面顶部的。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   从支持主页上，您可以轻松导航到打开的支持案例、记录新案例、查看热门支持文章或访问其他学习来源。
+   从支持主页中，您可以轻松导航到打开的支持案例、登记新案例、查看热门支持文章或访问其他学习来源。
 
-1. 要提交案例，请选择选项“[!UICONTROL 打开支持案例]&quot;，然后单击 **[!UICONTROL Sign] 在**.
+1. 要提交案例，请选择选项 **[!UICONTROL 打开支持案例]**，然后单击 **[!UICONTROL 签名] 在**.
 
-1. 单击 **[!UICONTROL 开箱]** 中。
+1. 单击 **[!UICONTROL 未结案例]** 在左侧边栏中。
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   的 [!UICONTROL 案例创建] 打开页面，您可以在该页面中输入产品名称([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion]、等)、大小写标题和大小写描述。
+   此 [!UICONTROL 案例创建] 页面将打开，您可以在其中输入产品名称([!DNL Adobe Workfront]， [!DNL Adobe Workfront Fusion]、案例标题和案例描述。
 
    >[!TIP]
    >
-   >在描述您面临的问题时，请尽可能提供描述性，以帮助我们加快故障排除过程。
+   >在描述您遇到的问题时，请尽可能提供描述，以帮助我们加快故障排除过程。
 
 
-1. 填写以下字段的信息，为我们提供更具体的详细信息：
+1. 填写以下字段的信息，向我们提供更具体的详细信息：
 
-   * **[!UICONTROL 案例优先级]** ([!UICONTROL 低], [!UICONTROL 中], [!UICONTROL 高], [!UICONTROL 关键])
-   * **[!UICONTROL 案例产品]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals]等)
-   * **[!UICONTROL 环境]** ([!UICONTROL 生产], [!UICONTROL 预览], [!UICONTROL 沙盒]等)
-   * **[!UICONTROL 客户地区]** （美洲、欧洲、中东和非洲、亚太）
+   * **[!UICONTROL 案例优先级]** ([!UICONTROL 低]， [!UICONTROL 中]， [!UICONTROL 高]， [!UICONTROL 关键])
+   * **[!UICONTROL 案例产品]** ([!UICONTROL DAM]， [!DNL Fusion]， [!DNL Goals]、等)
+   * **[!UICONTROL 环境]** ([!UICONTROL 生产]， [!UICONTROL 预览]， [!UICONTROL 沙盒]、等)
+   * **[!UICONTROL 客户地区]** （美洲、EMEA、APAC）
 
-1. 上传任何相关文件，然后单击 **[!UICONTROL 提交案例]**.
+1. 上传所有相关文件，然后单击 **[!UICONTROL 提交案例]**.
 
-   的 [!UICONTROL 我的案例] 页面。
+   此 [!UICONTROL 我的案例] 页面显示。
 
    ![](assets/all-cases-list-exl-support-portal.png)
 
-1. （可选）在 **[!UICONTROL 我的案例]** 页面上，查看您的组织提交的案例。
+1. （可选）在 **[!UICONTROL 我的案例]** 页面，查看您的组织已提交的案例。
 
    >[!TIP]
    >
-   >您还可以导航到 [!UICONTROL 我的案例] 通过单击 **[!UICONTROL 我的案例]** 中。
+   >您还可以导航到 [!UICONTROL 我的案例] 通过单击显示的页面 **[!UICONTROL 我的案例]** 在左侧边栏中。
 
-1. 在 [!UICONTROL 我的案例] 页面，请使用页面顶部的选项按产品进行筛选([!DNL Experience Cloud] 解决方案或案例 [!UICONTROL 状态] （打开或关闭）。 您还可以使用 [!UICONTROL 搜索] 框来搜索与您的支持案例相关的任何关键词。
+1. 在 **[!UICONTROL 我的案例]** 页面上，使用页面顶部的选项进行过滤 **产品([!DNL Experience Cloud] solution)** 或大小写 **[!UICONTROL 状态]** （打开或关闭）。 您也可以使用 [!UICONTROL 搜索] 框中，以搜索与您的支持案例相关的任何关键词。
 
-1. 要查看案例的更多详细信息，请单击 **案例号** 来访问它。 的 [!UICONTROL 案例] 视图打开。
+1. 要查看案例的更多详细信息，请单击 **案例编号** 以访问它。 此 [!UICONTROL 案例] 视图打开。
 
-1. 在 [!UICONTROL 案例] 查看，与分配的案例所有者一起查看最新的注释，并添加任何其他附件或响应。
+1. 在 [!UICONTROL 案例] 查看、查看已分配案例责任人的最新注释并添加任何附加附件或回应。
 
-1. 单击 **[!UICONTROL 呈报到管理]** 在页面右侧的 **[!UICONTROL 案例详细信息]** 来升级案件。
+1. 单击 **[!UICONTROL 上报至管理层]** 位于页面右侧下方的 **[!UICONTROL 案例详细信息]** 让案子升级。
 
-1. 单击 **[!UICONTROL 关闭案例]** 按钮来关闭大小写。
+1. 单击 **[!UICONTROL 关闭案例]** 按钮以关闭机箱。
 
 
 如果您在提交请求时遇到任何问题，请致电客户支持团队。

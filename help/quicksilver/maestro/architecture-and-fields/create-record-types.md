@@ -1,20 +1,20 @@
 ---
-title: 创建记录类型
+title: 创建运营记录类型
 description: 记录类型是AdobeMaestro的对象类型。 在Maestro中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作项。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1398'
 ht-degree: 1%
 
 ---
 
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 创建记录类型
+# 创建运营记录类型
 
 >[!IMPORTANT]
 >
@@ -260,11 +260,3 @@ ht-degree: 1%
    * 项目群
 
 有关更多信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
-
-
-
-
-
-
-
-

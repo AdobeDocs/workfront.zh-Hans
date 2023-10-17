@@ -4,13 +4,13 @@ description: 作为营销运营负责人，您可以使用AdobeMaestro为所有�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # AdobeMaestro信息
 
@@ -53,8 +53,8 @@ hide: yes
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [观看Adobe大师的视频演示](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro概述](maestro-overview.md)：Adobe大师的全面概述，包括此解决方案特有的术语和概念。 我们建议您在此处与Maestro开始您的历程。
-* [发布活动](../maestro/release-activity.md)：列出了自2023年5月22日Maestro封闭Beta计划启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
+* [Adobe大师概述](maestro-overview.md)：Adobe大师的全面概述，包括此解决方案特有的术语和概念。 我们建议您在此处与Maestro开始您的历程。
+* [AdobeMaestro发布活动](../maestro/release-activity.md)：列出了自2023年5月22日Maestro封闭Beta计划启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
 
 ## Maestro架构和功能
 
@@ -64,4 +64,3 @@ hide: yes
 * [架构信息](../maestro/architecture-and-fields/architecture-and-fields-information.md)：有关AdobeMaestro架构的深入信息，其中包含有关如何创建和管理工作区、记录类型和字段的分步说明。
 * [记录信息](../maestro/records/records-information.md)：有关如何创建和管理记录的深入信息和分步说明。
 * [视图信息](../maestro/views/views-information.md)：有关Maestro视图以及如何管理这些视图的深入信息。
-
