@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注释</b>:</p> 
+   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Workfront还接受时间值作为日期的一部分（例如：07/10/2022 01:30�
 
 Kick-Start导入支持以下文件类型：
 
-* 基于XML的Excel (&#42;.xlsx)
-* 旧版Excel (&#42;.xls)
-* 已压缩(&#42;ZIP) xlsx或xls文件
+* 基于XML的Excel (.xlsx)
+* 旧版Excel (.xls)
+* 压缩的(.ZIP)文件（仅包含.xlsx或.xls文件）
 
   >[!NOTE]
   >
-  >在导入引用报表、文档、头像的 Excel 电子表格或视图、过滤器或分组属性文件时，必须使用 ZIP 文件。使用压缩的导入文件时， &#42;ZIP文件必须具有与 &#42;.xlsx或 &#42;.xls文件，并且所有内容必须处于相同的文件结构级别（无文件夹）。
-
+  >在导入引用以下对象的Excel电子表格时，必须使用.ZIP文件：
+  >
+  >* 报告
+  >* 文档
+  >* 头像
+  >* 查看、筛选或分组属性文件。
+  >
+  >使用压缩的导入文件时，.ZIP文件必须与.xlsx或.xls文件同名，并且所有文件都必须处于同一结构级别（没有文件夹）。
 
 要将模板电子表格数据导入Workfront，请执行以下操作：
 

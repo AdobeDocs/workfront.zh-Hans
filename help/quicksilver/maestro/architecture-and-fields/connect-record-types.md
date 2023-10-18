@@ -4,13 +4,13 @@ description: 指示各个记录类型如何相互关联的一种方法是连接�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
@@ -42,6 +44,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 * Maestro操作记录类型
 * 将运营记录类型主要归入分类记录类型
+* 操作记录类型的主要分类类型
 * Maestro操作记录类型和来自其他应用程序的对象类型。
 
 这样，您便可以在另一个Maestro记录中显示链接记录或对象类型中的字段。
@@ -240,7 +243,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 1. 单击 **添加字段** 以保存更改。
 
-   添加了以下内容：
+   添加了以下项目：
 
    * 手动添加链接记录类型后，将显示这些记录的链接记录字段。 链接记录字段的名称是您在步骤6中选择的名称。 <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
    * 要链接的记录类型上的链接记录字段。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
 
-     例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并将营销活动的连接字段命名为“链接的产品”，则会为“Product”记录类型创建“Campaign”链接字段。
+     例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并将营销活动的连接字段命名为“链接的产品”，则会为“Product”记录类型创建“Campaign”链接记录字段。
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >当您将记录类型与以下内容连接时，显示链接来源的记录类型的链接记录字段不会添加到记录类型： <!--is this temporary for taxonomies??-->
-     >        
-     >   * 分类。
-     >   * 来自另一个应用程序的对象类型。
-
-1. （可选）在原始记录类型或链接记录类型表格视图中，单击链接记录字段右侧的下拉列表，然后单击以下任一项：
+1. （可选）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：
 
    * **编辑字段**：您只能更新 **名称** 和 **描述** 字段的信息。
    * **编辑查找字段**：添加或删除任何链接记录的字段。
@@ -270,11 +264,10 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
    要添加或删除字段，请按照上述步骤7 - 12中的说明操作。 <!--ensure these step numbers stay accurate-->
 
-1. （可选）单击链接记录或链接字段标题中的向下箭头，然后单击 **删除**.
+1. （可选）在链接记录字段标题中，从要链接的记录类型单击向下箭头，然后单击 **删除**.
 
-   记录字段和任何其他查找字段将被删除，并且这些字段及其信息将无法恢复。
+   记录字段和任何其他链接的查找字段将被删除，并且这些字段及其信息将无法恢复。
 
    >[!TIP]
    >
-   >    不会删除从原始记录链接的记录中的链接记录字段。 <!-- is this still accurate?! -->
-
+   >    您链接到的记录类型中的链接记录字段不会被删除。 <!-- is this still accurate?! -->

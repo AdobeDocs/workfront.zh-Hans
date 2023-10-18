@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 创建记录
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >

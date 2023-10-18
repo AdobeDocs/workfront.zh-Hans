@@ -4,19 +4,21 @@ description: 在Adobe管理器中，您可以删除不再相关的自定义字�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 删除字段
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -35,6 +37,9 @@ ht-degree: 0%
 * 您可以删除您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions-->
 * 您只能删除记录类型表中的字段。
 * 存储在字段中的任何信息都将被删除并且无法恢复。
+* 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。
+
+  有关更多信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## 访问要求

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # 创建运营记录类型
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -100,7 +102,7 @@ ht-degree: 1%
 
         有关信息，请参阅 [创建工作区](../architecture-and-fields/create-workspaces.md).
       * 当您使用Excel或CSV文件导入它们时。 这不适用于分类记录类型。
-      * 从另一个应用程序创建与对象类型的连接时，向记录类型添加字段时。 这会在Maestro中创建只读记录类型，该记录类型连接到原始应用程序中的对象类型。 这不适用于分类记录类型。
+      * 从另一个应用程序创建与对象类型的连接时，向记录类型添加字段时。 这会在Maestro中创建只读记录类型，该记录类型连接到原始应用程序中的对象类型。
 
      有关连接对象类型与Maestro记录的信息，请参见 [连接记录](../records/connect-records.md).
    * 手动:
@@ -258,5 +260,7 @@ ht-degree: 1%
    * 项目
    * 项目组合
    * 项目群
+   * 公司
+   * 组
 
 有关更多信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).

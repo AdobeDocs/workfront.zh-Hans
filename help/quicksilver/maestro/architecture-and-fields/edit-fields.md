@@ -4,19 +4,21 @@ description: 在Adobe管理器中，您可以编辑已创建字段的字段设�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 编辑字段
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >

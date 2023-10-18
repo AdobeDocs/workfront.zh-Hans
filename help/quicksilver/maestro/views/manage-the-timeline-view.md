@@ -4,13 +4,13 @@ description: 访问AdobeMaestro中的记录类型页面时，可以在时间轴�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
-
 
 # 管理时间线视图
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -261,5 +263,3 @@ this is not possible right now; if this is the same functionality as the table v
 1. 单击&#x200B;**保存**。
 
    这些记录将按照您选择的规范显示在时间轴视图中。
-
-

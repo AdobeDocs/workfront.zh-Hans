@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -240,7 +240,7 @@ ht-degree: 2%
       <td> <p> <p>(仅在选择后显示 <strong>手动</strong> 对于 <strong>完成情况类型</strong>)：选择条件以指示项目的进展情况。 </p> <p>有关如何自动或手动设置项目完成情况的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目完成情况和完成情况类型概览</a></p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>时间表模式</strong> </td> 
+      <td role="rowheader"><strong>排程模式</strong> </td> 
       <td> <p>指定是从开始日期还是从完成日期开始计划项目。 此选择确定项目上任务的计划日期。 
        <ul> 
        <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概述</a>. 项目时间线从开始日期开始计算，项目完成日期由系统根据所有任务的持续时间来计算。 </li> 
@@ -457,7 +457,7 @@ ht-degree: 2%
        <td> <p>控制如何将父级任务标记为“完成”。 从以下选项中选择： 
        <ul> 
        <li><strong>自动</strong>：父任务被标记为“完成”，它们会自动更新完成百分比，因为子任务已完成，且子任务的完成百分比也会更新。 </li> 
-       <li><strong>手动</strong>：您必须手动更新完成百分比和父任务的状态，而不考虑对子任务进行的更改。</li> 
+       <li><strong>手动</strong>：您必须手动更新完成百分比和父任务的状态，而不考虑对子任务进行的更改。 这样，即使子任务不完整，您也可以将父任务标记为已完成。 </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 

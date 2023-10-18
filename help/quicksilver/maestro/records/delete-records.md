@@ -4,19 +4,20 @@ description: 您可以删除您或其他用户创建的记录。 无法恢复已
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # 删除记录
 
 >[!IMPORTANT]
+>>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >

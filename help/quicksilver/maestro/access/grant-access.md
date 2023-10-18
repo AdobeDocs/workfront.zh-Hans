@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe大师”是Adobe Workfront推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 要使用布局模板共享Maestro区域：
 
-1. 登录 **Workfront** 作为系统管理员。
+1. 登录 **Workfront** Workfront管理员。
 
 1. 添加 **大师** 图标 ![](assets/maestro-icon.png) 到 **主菜单** 使用 **布局模板**.
 

@@ -4,13 +4,13 @@ description: 在记录类型之间创建连接后，可以将各个记录彼此�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # 连接记录
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -276,15 +278,3 @@ hide: yes
    >  您在Workfront对象记录类型页面中添加或删除的字段不会从链接到Workfront对象类型的Maestro记录类型中添加或删除。 这些字段仅在只读Workfront记录类型页面上可见，因此您可以在Maestro中查看它们。
 
 1. （可选）从“Workfront对象记录类型”页面上的“视图”下拉菜单中，选择“时间轴”视图，以在时间轴视图中显示Workfront链接对象。
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,13 +4,13 @@ description: 在AdobeMaestro中创建记录类型后，可以创建这些类型�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -27,6 +27,8 @@ hide: yes
 # 记录信息
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >

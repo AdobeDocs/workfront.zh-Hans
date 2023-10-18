@@ -4,13 +4,13 @@ description: 工作区是团队使用的操作记录类型和分类的集合，�
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # 工作区模板列表
 
 >[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
 >
 >目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
 >
@@ -154,5 +156,3 @@ You must have the following:
       * **产品团队**：3个字段
       * **功能请求**：8个字段和1个链接字段
       * **行业**：1个字段和1个链接字段
-
-
