@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Some users, such as executives, need to be able to control which administrators 
 1. 单击 **登录。**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Workfront提供多种机制，用于跟踪和审核管理员以其他用户身�
 当您以其他用户身份登录Workfront并执行某个操作时，Workfront明确指示您执行的任何操作都是由您代表您以身份登录的用户执行的。
 
 例如，如果您在以其他用户身份登录时对某个项目进行注释，则会显示一条语句，指示您代表该用户发表了注释。
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->使用新的评论体验时，评论会添加为以其他用户身份登录的用户，而不会指示他们代表其他人添加评论。
->
->例如，如果Workfront管理员以其他用户身份登录，则与评论关联的用户是Workfront管理员。 有关更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### 查看审核信息 {#view-audit-information}
 

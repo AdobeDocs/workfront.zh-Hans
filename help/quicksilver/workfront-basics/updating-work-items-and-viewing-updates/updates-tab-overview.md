@@ -7,10 +7,10 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ The Updates section of an object displays comments that users make on the object
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 更新部分显示新评论体验中以下选项卡中的信息：
@@ -211,8 +209,6 @@ The Updates section of an object displays comments that users make on the object
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## 也出现在较高排名对象上的更新
 
@@ -325,18 +321,13 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 
 有关信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-代表其他用户所做的任何评论都将在评论中标明。
+以其他用户身份登录并添加注释时，请考虑以下事项：
 
-<!--remove the note below when we release this back to the new commenting-->
+* 代表其他用户所做的任何评论都将在评论中标明。
 
->[!NOTE]
->
->使用新的评论体验时，评论会添加为以其他用户身份登录的用户，而不会指示他们代表其他人添加评论。
->
->例如，如果Workfront管理员以其他用户身份登录，则与评论关联的用户是Workfront管理员。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* 组管理员可以代表他人进行评论，但无法删除该评论。 只有Adobe Workfront管理员可以删除他们代表其他用户所做的评论。
 
-
-组管理员可以代表他人进行评论，但无法删除该评论。 只有Adobe Workfront管理员可以删除他们代表其他用户所做的评论。
+* 仅当Workfront或组管理员以其他用户身份注销并以他们自己身份重新登录时，才能编辑他们代表其他用户添加的评论。
 
 ## 使用日记帐分录报表查看工作项的系统更新
 

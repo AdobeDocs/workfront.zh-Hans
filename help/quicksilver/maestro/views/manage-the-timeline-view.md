@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 1%
+source-wordcount: '1432'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +156,7 @@ role: User
 
 ### 添加过滤器
 
-过滤器可帮助您减少屏幕上显示的信息量。
+您可以使用过滤器减少屏幕上显示的信息量。
 
 在时间线视图中使用过滤器时，请考虑以下事项：
 
@@ -166,13 +166,13 @@ role: User
 
 * 这些过滤器对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的筛选器。 查看同一时间轴视图的两个用户会看到当前应用的同一过滤器。
 
-* 不能为您构建并应用于时间线视图的过滤器命名。
+* 您无法为时间线视图命名您构建的过滤器。
 
-* 删除筛选器会将其从访问与您相同记录类型的任何人中移除，并使用与您使用的相同视图。
+* 删除筛选器会将其从与您访问相同记录类型以及显示与您相同的视图的任何人中删除。
 
-在时间轴视图中添加筛选器与在表视图中添加筛选器相同。
+* 在时间轴视图中添加筛选器与在表视图中添加筛选器相同。
 
-有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](../views/manage-the-table-view.md).
+  有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](../views/manage-the-table-view.md).
 
 ### 添加分组
 
@@ -180,45 +180,49 @@ role: User
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 将分组应用于视图时，您可以按类似的信息对记录进行分组。
 
 在时间线视图中使用分组时，请考虑以下事项：
 
-* 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * 您可以在Maestro视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
 * 在使用API时，您最多可以应用4个级别的分组。
+* 这些分组对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的分组。 查看同一时间轴视图的两个用户会看到当前应用的相同分组。
+
+* 不能为时间线视图命名您构建的分组。
+
+* 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
 
 要添加分组，请执行以下操作：
 
-1. 创建时间线视图，如文章所述 [管理记录视图](../views/manage-record-views.md).
-1. 单击 **分组**.
+1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
+1. 单击 **分组** 位于时间轴视图的右上角。
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. 单击其中一个建议字段，或单击 **选择其他字段** 并搜索其他字段，然后在列表中显示该字段时单击该字段。
+1. 单击其中一个建议字段，或单击 **选择其他字段**，搜索其他字段，然后在列表中显示该字段时单击它。
 
    >[!TIP]
    >
    >您无法选择链接的字段。
 
-   分组将自动应用于时间轴，并且记录显示在分组框中。 分组中的项目数显示在分组行上。
+   分组将自动应用于时间轴，并且记录显示在分组框中。
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. （可选）重复上述步骤以添加最多3个分组。
 
-   应用的分组数将显示在工具栏右上角的分组图标的左侧。
+   为分组选择的字段数将显示在分组图标旁边。
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （可选）单击 **x** 图标删除分组
+1. （可选）单击 **x** 图标为分组选择的字段的右侧，以删除分组
 
    或
 
-   单击 **全部清除** 以删除所有分组。
+   单击 **全部清除** 以删除所有字段。
 
 1. 在 **记录分组条件** 方框关闭它。
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### 编辑时间线视图设置 {#edit-the-timeline-view-settings}
 
-更新时间线视图设置以指示在视图的时间线部分中显示的信息。
+更新时间线视图设置，以指示信息在视图的时间线部分中显示什么及如何显示。
 
-1. 创建时间线视图，如文章所述 [管理记录视图](../views/manage-record-views.md).
+1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
 1. 单击 **设置**.
 1. 单击 **日期和时间** 在左侧面板中，然后选择 **开始日期** 和 **结束日期** 以在时间轴上显示。 您可以选择默认的“开始”和“结束”日期，也可以选择任何可用的日期字段。 表示记录的条形图从您为开始日期指定的日期开始，结束日期对应于结束日期。
 
    >[!NOTE]
    >
-   >    对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
+   >对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
 
+1. 单击 **条形图样式** 在左侧面板中，用于指示要在记录栏上显示的字段。
 
-1. 单击 **记录详细信息** 以指明要在记录栏上显示的字段。
-
-   默认情况下，“名称”字段处于选中状态。
+   默认情况下，“名称”字段处于选中状态。 <!--adjust this when the primary field is released??-->
 
 1. 单击 **添加字段** 最多向记录栏添加4个字段。
 1. 在 **搜索字段** 框中，然后单击要添加字段。
@@ -259,6 +262,41 @@ this is not possible right now; if this is the same functionality as the table v
    右侧将显示时间轴上栏的外观。
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. 单击 **颜色** 在左侧面板中，自定义时间轴中记录和分组的颜色。
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. （视情况而定，可选）如果将分组添加到时间轴视图，请从以下选项中进行选择，以在 **设置分组颜色** 部分：
+
+   * **默认（灰色）**：分组的颜色设置为灰色。 这是默认设置。
+   * **字段值**：分组的颜色与您作为分组依据的字段的颜色匹配。
+您只能将分组的颜色与具有颜色编码选项的字段匹配。
+
+   例如，多选或单选字段可以具有颜色编码选项。
+
+   如果按没有颜色编码选项的字段分组，则分组颜色保持灰色。
+
+   >[!TIP]
+   >
+   >如果未将分组添加到时间轴视图，则不会显示此部分。
+
+1. 在 **设置记录颜色** 部分，从以下选项中选择以设置记录的颜色：
+
+   * **记录类型**：记录的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
+   * **字段值**：记录的颜色与您指定的字段的颜色匹配。 继续执行步骤10。 <!--ensure this stays accurate-->
+   * **分组**：记录的颜色与您为分组指定的颜色相匹配。 当未将分组应用于时间轴视图时，此选项将灰显。
+   * **无**：记录显示在白色栏中。
+
+1. （视情况而定）如果您选择 **字段值** 对于记录颜色，从 **将记录颜色与** 下拉菜单。
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   下拉菜单中仅显示具有颜色编码选项的字段。
+
+   例如，多选或单选字段可以具有颜色编码选项。
+
+   如果对于所选的记录类型没有带颜色编码选项的字段，则此选项将灰显。
 
 1. 单击&#x200B;**保存**。
 

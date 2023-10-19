@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ ht-degree: 0%
 
 我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图中或在记录的“详细信息”页中使用富文本设置段落字段的格式。 有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
 
+
+### 时间轴视图的记录并分组颜色编码
+
+预览和生产： 2023年10月19日
+
+您现在可以对时间轴视图中的记录栏和分组进行颜色编码。
+
+下面是您可以选择在“时间轴”视图中显示的记录条和分组的颜色选项：
+
+* 分组可以匹配以下颜色：
+
+   * 灰色（默认）
+
+   * 分组依据的字段的颜色
+
+* 条形可以与以下颜色匹配：
+
+   * 记录类型的颜色
+
+   * 所选字段的颜色
+
+   * 分组的颜色
+
+   * 无颜色（默认）
+
+将颜色与特定字段匹配时，您只能选择具有颜色编码选项的字段。
+
+有关更多信息，请参阅 [管理时间线视图](../maestro/views/manage-the-timeline-view.md).
 
 ## 2023年10月9日起一周
 

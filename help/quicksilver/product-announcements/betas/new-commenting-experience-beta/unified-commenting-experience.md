@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Adobe Workfront中的评论体验更新目前正在开发中。 此更新包括�
 
 新的评论体验将缓慢地变为可用于Workfront中具有“更新”部分的所有对象，稍后它将扩展到其他Adobe Experience Cloud应用程序。
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## 功能
@@ -50,7 +47,7 @@ For additional resources for the new commenting experience, also see the followi
 * 有关系统更新的注释
 * 在注释时编辑状态、条件和提交日期的功能
 * 编辑自定义表单
-* 当Workfront或组管理员以其他用户身份登录并代表他们添加评论时，显示“代表&lt;用户名>”信息。 <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。
 
 >[!NOTE]
@@ -381,34 +378,36 @@ For additional resources for the new commenting experience, also see the followi
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>解决评论 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>2023年第三季度 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>在评论中搜索 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>2023年第三季度 
+   <td>2024年第一季度 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>在评论中复制并粘贴图像
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>2024年第一季度 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>编辑自定义表单 
    </td>
@@ -456,7 +455,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

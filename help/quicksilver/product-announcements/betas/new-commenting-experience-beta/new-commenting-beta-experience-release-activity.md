@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ ht-degree: 2%
   >
   >    迭代将继续具有旧版评论体验。 新的评论体验将不可用于迭代。
 
+* 2024年第一季度（2024年1月）：
+
+   * 将删除切换回旧版注释流的选项，新注释流将成为所有对象的唯一体验，迭代除外。
+
 ## 已发布功能
 
 以下部分包含在原始23.2版本之后添加的功能的列表，从最近发布的功能开始。
 
 以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### 2023年10月16日起一周
 
-### Week of October 9, 2023
+#### 以其他用户身份登录并发表评论时，添加“代表&lt;用户名>”信息
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+重新设计评论体验时，我们已在Workfront或组管理员以其他用户身份登录时添加评论时删除了“代表&lt;用户名>”指示符。 此信息现已恢复。
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+适用于所有客户的预览和生产： 2023年10月19日。
 
 ### 2023年9月11日起一周
 
