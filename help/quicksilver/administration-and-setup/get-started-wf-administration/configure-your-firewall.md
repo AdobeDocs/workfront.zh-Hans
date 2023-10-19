@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >要在贵组织已登记到Adobe Admin Console的情况下配置允许列表，请参阅 [允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >有关因您的组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>每个机构配置其允许列表的方式都是独一无二的。 与您的IT团队合作，确定贵组织的过程并实施这些补充内容。
 
 列入允许列表如果您的防火墙或邮件服务器配置为仅允许某些供应商访问，则必须将某些IP地址添加到其。 这样可在您的环境与Adobe Workfront服务器之间打开通信，并允许以下流程：
 
