@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新参与者默认登陆页面：新主页</a> <span style="color: #ff0000;"> 预览中的新增内容！</span> </p>
-                        <p>新主页现在是参与者帐户的默认登陆页面。 这个新的默认主页包含许多专门选择的构件，它们最能促使参与者立即管理其工作。</p>
+                        <p>新主页现在是参与者/请求者帐户的默认登陆页面。 这个新的默认主页包含许多专门选择的构件，这些构件最能帮助参与者立即管理其工作。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -628,27 +628,8 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">更新了电子邮件模板</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
-                        <p>作为更新事件通知电子邮件的新计划的开始，我们更新了其中两个最常用的方法：文档审批和对象共享。</p>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2023年10月12日</p>
-                            </li>
-                            <li>
-                                <p>用于快速发布的生产：使用23.10版本</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：使用23.10版本</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">参与者主菜单更改</a> <span style="color: #ff0000;"> 预览中的新增内容！</span></p>
-                        <p>为了更好地向参与者告知付费Workfront许可证类型所提供的功能，他们现在可以在主菜单中查看所有可用选项。</p>
+                        <p>为了更好地向参与者/请求者告知付费Workfront许可证类型所提供的功能，他们现在可以看到主菜单中的所有可用选项。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

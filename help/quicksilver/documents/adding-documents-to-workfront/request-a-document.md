@@ -6,9 +6,9 @@ description: 您可以在支持“文档”的任何对象上请求文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    您可以单击在电子邮件通知中找到的链接，然后上传文档。 或者，您也可以单击应用程序内通知。 每个选项都会将您引至用户配置文件页面，您可以在其中上传请求的文档。
 
-   您还可以直接回复电子邮件并附加请求的文档（如果配置为支持电子邮件响应）。 要配置电子邮件响应，请参阅。
+   您还可以直接回复电子邮件并附加请求的文档（如果配置为支持电子邮件响应）。
 
 1. 上传文档后，请求该文档的人可以个人身份访问该文档 **文档** 区域。
 

@@ -3,9 +3,9 @@ title: 2023年第四季度主页增强功能
 description: 2023年第四季度主页增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 新参与者默认登陆页面：新主页
 
-新主页现在是参与者帐户的默认登陆页面。 这个新的默认主页包含许多专门选择的构件，它们最能促使参与者立即管理其工作。 首次访问页面时，系统还会向参与者说明如何使用新主页以及自定义演练中默认提供的特定小组件。 请注意，如果参与者帐户当前使用具有自定义主页的布局，则该布局将保留其主页。
+新主页现在是参与者/请求者帐户的默认登陆页面。 这个新的默认主页包含许多专门选择的构件，这些构件最能帮助参与者立即管理其工作。 首次访问页面时，参与者还将收到有关使用新主页以及自定义演练中默认提供的特定小组件的说明。 请注意，如果参与者帐户当前使用具有自定义主页的布局，则该布局将保留其主页。
 
 有关使用“新建主页”的详细信息，请参阅 [新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
