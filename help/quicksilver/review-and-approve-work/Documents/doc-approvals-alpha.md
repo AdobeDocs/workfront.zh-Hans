@@ -4,11 +4,12 @@ navigation-topic: approvals
 title: Alpha计划 — 文档审批
 description: 我们很高兴地宣布推出文档审批Alpha计划。 在这里，您可以找到有关最新Alpha版本的信息以及简短的视频演练，帮助您入门。
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%

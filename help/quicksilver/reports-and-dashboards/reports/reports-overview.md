@@ -3,11 +3,12 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: 报告
-description: 請檢閱這些區域，以瞭解如何使用Adobe Workfront中的報告。
+description: 请查看这些区域以了解如何使用Adobe Workfront中的报表。
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -16,17 +17,17 @@ ht-degree: 5%
 
 # 报告
 
-本節包含下列小節：
+本节包含以下子部分：
 
-* [報表基本需知](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
-* [報表元素概觀](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-* [使用內建報告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [建立和管理報告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-* [報表中計算出的自訂資料](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [自訂檢視、篩選和分組範例](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [文字模式資源](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [報表使用情況概觀](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [报告基础知识](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [报表元素概述](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+* [使用内置报告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+* [创建和管理报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [报表中计算的自定义数据](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [自定义视图、筛选器和分组示例](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [文本模式资源](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [报表使用情况概述](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [日历](../../reports-and-dashboards/reports/calendars/calendars.md)
-* [報告的提示、技巧和疑難排解](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
+* [报告的提示、技巧和疑难解答](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
 <!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

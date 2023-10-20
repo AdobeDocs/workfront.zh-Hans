@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: 添加用户概述
-description: 您可以在Adobe Workfront中通过从头开始创建个人用户或复制现有用户来添加用户。
+description: 您可以通过从头开始创建单个用户或复制现有用户，在Adobe Workfront中添加用户。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 # 添加用户
 
-此部分包含以下子部分：
+本节包含以下子部分：
 
 * [创建和管理用户](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [新访问级别的工作方式](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)

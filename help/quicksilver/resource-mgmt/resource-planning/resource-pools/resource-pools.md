@@ -2,11 +2,12 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 资源池
-description: 资源池是用户的集合，可帮助您在Adobe Workfront中管理资源。
+description: 资源池是用户集合，可帮助您管理Adobe Workfront中的资源。
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: aaf8e6ab-2958-44ad-96ca-0f3d842dd800
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%
@@ -15,9 +16,9 @@ ht-degree: 5%
 
 # 资源池
 
-资源池是用户的集合，可帮助您在Adobe Workfront中管理资源。
+资源池是用户集合，可帮助您管理Adobe Workfront中的资源。
 
-以下文章介绍了使用资源池在Adobe Workfront中管理项目时的功能。
+以下文章介绍了在Adobe Workfront中使用资源池管理项目时的功能。
 
 * [资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 * [创建资源池](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)

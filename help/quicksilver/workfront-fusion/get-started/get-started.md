@@ -4,11 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: 开始使用 [!DNL Adobe Workfront Fusion]
-description: 除了Adobe Workfront许可证，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
+description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 28219812fc14b1f72d80d35960b03f66d8a89fb0
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%

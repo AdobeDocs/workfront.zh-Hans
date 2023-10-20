@@ -2,11 +2,12 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: 使用 [!DNL Adobe Workfront] 移动应用程序
-description: 通过以下方式加快团队和个人的参与并简化工作 [!DNL Adobe Workfront's] 移动设备应用程序，可在任何iOS或Android设备上使用。
+description: 通过以下方式，加快参与并简化组织中团队和个人的工作 [!DNL Adobe Workfront's] 移动设备应用程序，可在任何iOS或Android设备上使用。
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 使用 [!DNL Adobe Workfront] 移动应用程序
 
-通过以下方式加快团队和个人的参与并简化工作 [!DNL Adobe Workfront's] 移动设备应用程序，可在任何iOS或Android设备上使用。 通过应用程序，您可以：
+通过以下方式，加快参与并简化组织中团队和个人的工作 [!DNL Adobe Workfront's] 移动设备应用程序，可在任何iOS或Android设备上使用。 使用该应用程序，您可以：
 
 * 快速访问重要信息
 * 通过一步操作保持工作流正常运行
@@ -23,13 +24,13 @@ ht-degree: 0%
 
 您可以从以下位置下载并安装应用程序： [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) 或 [Google Play商店](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
-在移动设备应用程序中，您可以像在浏览器版本的中一样完成工作项并查看信息 [!DNL Workfront]. 这些功能及更多功能均可用：
+在移动设备应用程序中，您可以像在浏览器版本中一样完成工作项并查看信息 [!DNL Workfront]. 可以使用以下功能及更多功能：
 
 * 处理和分配任务和问题
 * 发布更新
 * 访问Workfront展示板
 * 查看和管理项目
-* 查看、评论验证和做出决策
+* 查看、评论和制定校样决策
 * 批准任务和问题、文档、验证、时间表和访问请求
 * 查看和响应应用程序内通知
 * 创建和处理Workfront请求
@@ -37,18 +38,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此 [!DNL Adobe Workfront] 移动应用程序正在替换 [!DNL Workfront Proof] 不再受支持的应用程序，将在10月的23.10版本中完全删除。 [!DNL Workfront] 客户现在应使用 [!DNL Adobe Workfront] 用于执行验证审阅和审批的移动应用程序。
+>此 [!DNL Adobe Workfront] 移动应用程序正在替换 [!DNL Workfront Proof] 不再受支持的应用程序，将在10月的23.10版本中完全删除。 [!DNL Workfront] 客户现在应使用 [!DNL Adobe Workfront] 用于执行验证审查和审批的移动应用程序。
 
-欲知关于 [!DNL Adobe Workfront] 查看以下文章：
+欲知关于 [!DNL Adobe Workfront] 请在移动应用程序上查看以下文章：
 
 * [[!DNL Adobe Workfront] 用于 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [成为 [!DNL Android] Beta测试器](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
 * [[!DNL Adobe Workfront] 用于 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [成为 [!DNL iOS] Beta测试器](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL 主页] 区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
-* [[!UICONTROL 我的工作] 部分（在移动设备应用程序中）](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
+* [[!UICONTROL 我的工作] 部分来创建模型](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [[!DNL Adobe Workfront] [!UICONTROL 讨论区] 适用于移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
-* [在中查看校样并做出决策 [!DNL Adobe Workfront] 移动应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+* [在中查看验证并做出决策 [!DNL Adobe Workfront] 移动应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 * [对中的校样的评论 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
 * [对中的校样的评论 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 * [在中共享和下载校样 [!DNL Adobe Workfront] 移动应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)

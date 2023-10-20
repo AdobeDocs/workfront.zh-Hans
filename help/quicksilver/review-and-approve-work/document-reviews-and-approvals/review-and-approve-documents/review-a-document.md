@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 查看文档
-description: 作为审阅人，您可以预览已提交给您进行审阅的文档。
+title: 审阅文档
+description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
+# 审阅文档
 
-# 查看文档
-
-作为审阅人，您可以预览已提交给您进行审阅的文档。
+作为审阅人，您可以预览已提交您审阅的文档。
 
 >[!IMPORTANT]
 >
->本文内容涉及更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## 访问要求
 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -48,7 +48,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 <!--
 ## Review a document from Home
@@ -59,7 +59,7 @@ Add once functionality is added
 
 1. 通过单击文档名称转到文档页面。
 
-1. 从下拉菜单中选择要查看的文档版本。 默认情况下将选择最新版本。
+1. 从下拉菜单中选择要审阅的文档版本。 默认情况下将选择最新版本。
 
 1. 将鼠标悬停在“预览”框中的文档上。 然后，执行以下任一操作：
 
@@ -75,9 +75,9 @@ Add once functionality is added
 
 1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
 
-1. 单击所需的文档，此时将打开文档摘要窗格。
+1. 单击所需的文档，此时将打开“文档摘要”窗格。
 
-1. 在版本下拉菜单中选择要查看的文档版本。 默认情况下将选择最新版本。
+1. 在版本下拉列表中选择要查看的文档版本。 默认情况下将选择最新版本。
 
 1. 将鼠标悬停在 **详细信息** “文档摘要”窗格顶部的部分。 然后，执行以下任一操作：
 

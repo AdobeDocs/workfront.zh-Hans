@@ -4,8 +4,9 @@ title: 测试版计划
 description: 了解Adobe Workfront中的当前测试版。
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # 测试版计划
 
-本页链接的各篇文章介绍了Adobe Workfront中当前可用的测试版计划。 Beta版中提供的功能可能并非对所有客户都可用。
+本页链接的各篇文章介绍了Adobe Workfront中当前提供的测试版计划。 Beta版中提供的功能可能并非对所有客户都可用。
 
-以下文章包含有关当前处于测试版状态的功能的信息：
+以下文章包含有关当前处于Beta状态的功能的信息：
 
 * [画布功能板概述](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [新的评论测试版体验](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)

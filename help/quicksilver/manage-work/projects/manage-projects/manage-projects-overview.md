@@ -3,11 +3,12 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: 管理项目
-description: 请在以下文章中了解有关管理项目的信息。
+description: 有关管理项目的信息，请参阅以下文章。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -28,13 +29,13 @@ ht-degree: 0%
 * [重新计算项目时间表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [更改项目的状态](../../../manage-work/projects/manage-projects/change-project-status.md)
 * [选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)
-* [需要时间来批准项目](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
-* [在项目概述区域中管理信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-* [项目条件和条件类型概述](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
-* [设置项目的条件类型](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
+* [项目需要批准时间](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
+* [在项目概述区域管理信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
+* [项目完成情况和完成情况类型概览](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
+* [设置项目的完成情况类型](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
 * [从项目中删除用户](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
-* [计划项目的资源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
-* [与项目团队成员通信](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [在敏捷视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [为项目计划资源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
+* [与项目团队成员沟通](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
+* [在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [项目限制概述](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [项目量度概述](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [项目指标概述](../../../manage-work/projects/manage-projects/project-metrics.md)

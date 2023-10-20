@@ -8,8 +8,9 @@ description: 作为 [!DNL Adobe Workfront] 管理员，您可以配置系统默�
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -30,8 +31,8 @@ ht-degree: 0%
 * [编辑和创建风险类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [创建自定义费用类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
-* [为项目配置时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
+* [配置项目的时间线重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 * [为项目启用自定义季度](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-* [启用或禁用组织的快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [为您的组织启用或禁用快速发布](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [配置位置](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

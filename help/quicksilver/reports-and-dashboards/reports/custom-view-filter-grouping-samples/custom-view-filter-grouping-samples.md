@@ -2,25 +2,26 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 自定义视图、过滤器和分组示例
-description: 自定义视图、过滤器和分组示例TOC-proper文章”。 我认为，按对象来组织这些活动没有多大价值。)”
+title: 自定义视图、筛选器和分组示例
+description: 自定义视图、筛选器和分组示例适合目录文章”。 我觉得用物品来组织这种活动没什么价值。)”
 author: Lisa and Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
-# 自定义视图、过滤器和分组示例
+# 自定义视图、筛选器和分组示例
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-本节提供了可在Adobe Workfront帐户中使用的自定义视图、过滤器和分组示例。 除非另有指定，否则这些示例不能仅使用标准模式界面来构建，而只能使用文本模式界面来构建。 有关文本模式的更多信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+本节提供可在Adobe Workfront帐户中使用的自定义视图、筛选器和分组的示例。 除非另有指定，否则不能仅使用标准模式界面构建这些示例，而只能使用文本模式界面构建这些示例。 有关文本模式的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
@@ -30,102 +31,102 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For additional real-life text mode examples that other Workfront customers might have identified, visit the <a href="https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3" target="_blank">Text Mode Reporting Discussions</a> tab in&nbsp; Adobe Workfront One or join the <a href="https://one.workfront.com/s/community" target="_blank">Workfront Community</a> (requires logging in). &nbsp;</p>
 -->
 
-## 自定义视图的示例
+## 自定义视图示例
 
-* [查看：将父任务名称显示为全部大写](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-* [查看：任务视图的同一列中计划小时数的实际小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-* [查看：已分配用户的公司和主页组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [查看：任务视图中持续时间和计划工作的基准差异](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
-* [查看：在时间表视图中计算超时成本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
+* [视图：将父任务的名称显示为全部大写字母](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+* [视图：任务视图的同一列中计划小时数内的实际小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+* [视图：已分配用户的公司和主组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+* [视图：任务视图中工期和计划工时的基线差异](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [视图：在时间表视图中计算加班成本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
 * [查看：计算时间和日期差异](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-* [查看：显示列中两个字段之间的计算结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [查看：在列中添加任务后续项列表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [查看和分组：显示项目实际持续时间按分组中的平均值汇总](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [查看：在小时列表中组合任务和问题详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-* [查看：在列中显示图像而不是字符串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [查看：显示未包含在标准界面中的对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [视图：显示列中两个字段之间的计算结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [视图：在列中添加任务后续任务列表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+* [查看和分组：显示按分组中的平均值汇总的项目实际持续时间](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [视图：以小时列表显示组合任务和问题详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [视图：在列中显示图像而不是字符串](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [视图：显示未包含在标准界面中的对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
 * [查看：显示任务和项目列表上的原始问题信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-* [查看：在任务视图中显示程序和Portfolio信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-* [查看：在任务列表中显示任务缩进](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [查看：包含校样链接的文档报告](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
-* [查看：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [查看：扩展用户详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-* [查看：隐藏列的内容](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [查看：父任务信息的小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-* [查看：审批信息问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-* [查看：发起者的公司名称问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
-* [查看：解决对象详细信息问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
-* [查看：一个共享列中多个列的合并信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [查看：多行项目视图](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+* [视图：在任务视图中显示程序和Portfolio信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+* [视图：在任务列表中显示任务缩进](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [查看：文档报告，带有指向验证的链接](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+* [视图：永久编辑列的宽度](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [视图：展开的用户详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+* [视图：隐藏列的内容](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [查看：包含父任务信息的小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+* [查看：审批信息存在问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+* [视图：发起方的公司名称存在问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+* [视图：解析对象详细信息时出现问题](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+* [视图：合并来自一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+* [视图：多行项目视图](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
 * [查看：任务和项目的原始问题详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-* [查看：通过缩进任务来显示任务中的父子关系](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
-* [查看：任务视图中每个分配的计划小时数与实际小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [查看：前置详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [视图：通过缩进任务显示任务中的父子关系](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
+* [视图：在任务视图中，计划小时数与每个工作的实际小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+* [查看：前置任务详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [查看：包含所有项目团队用户和角色的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
-* [查看：具有作业角色的项目用户列表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
-* [查看：删除列中对象的链接](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [视图：具有工作角色的项目用户列表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
+* [视图：删除列中对象的链接](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
-* [查看：报表中使用的报表元素](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-* [查看：任务或项目报告中的可解析对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+* [视图：报表中使用的报表元素](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+* [视图：任务或项目报告中的可解析对象](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [查看：显示最多4层的父任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
-* [查看：问题提交路径](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [查看：具有所有日期差异的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
-* [查看：受计划例外影响的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
-* [查看：使用自定义数据字段的外部URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [查看：用户职务角色占FTE可用性的百分比](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-* [查看：用户个人关闭时间](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+* [视图：显示最深4级的父级任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [视图：问题的提交路径](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
+* [视图：具有所有日期差异的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [视图：受计划例外影响的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+* [视图：使用自定义数据字段的外部URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+* [视图：用户工作角色占FTE可用性的百分比](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [查看：用户个人休息时间](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
   -->
 
-## 自定义过滤器的示例
+## 自定义筛选器的示例
 
-* [过滤器：显示不完整的跨项目前置项](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-* [过滤器：显示不完整的跨项目后续项](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [过滤器：显示当前项目待批准](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
-* [过滤器：仅显示处于批准状态的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [过滤器：通过比较两个字段来消除列表中的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* [过滤器：显示父任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [过滤器：校样批准报表可忽略以前的校样版本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-* [过滤器：创建引用相同字段（“AND”语句）的多个筛选规则](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [过滤器：显示计划提交的报表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [过滤器：当状态与不同组关联时，按相同名称状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [筛选器：显示不完整的跨项目前置任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+* [筛选器：显示不完整的跨项目后置任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [筛选器：显示您当前的待审批项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+* [筛选器：仅显示处于审批状态的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [筛选器：通过比较两个字段来消除列表中的项](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* [筛选器：显示父级任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
+* [过滤器：验证审批报告，以忽略以前的验证版本](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [过滤器：创建引用同一字段（“AND”语句）的多个过滤器规则](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [筛选器：显示计划提交的报表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+* [筛选器：当状态与不同组关联时，按同名状态显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
-## 自定义分组的示例
+## 自定义分组示例
 
-* [按多选自定义字段对报表进行分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-* [分组：项目所有者的主组（以小时为单位）](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [分组：Portfolio责任人、项目责任人、项目责任人和项目状态的4层任务分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [按多选自定义字段对报表分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
+* [分组：小时列表中项目所有者的主组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [分组：Portfolio责任人、方案责任人、项目责任人和项目状态的4层任务分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
 * [分组：向列表添加第四个分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [分组：按分组中所有对象共有的计算值组织列表结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [分组：显示在分组中聚合多个计算值的结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-* [分组：指示是否应使用文本模式折叠或展开分组结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [分组：按分组中所有对象通用的计算值组织列表结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [分组：显示分组中多个计算值的聚合结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
+* [分组：指示应使用文本模式折叠或展开分组的结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 * [分组：项目百分比细分1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
 * [分组：项目百分比细分2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-* [分组：按登入日期列出的项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [分组：项目赞助人数小时](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
-* [分组：任务列表的项目赞助商](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
+* [分组：按输入日期显示项目](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+* [分组：项目发起人的小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [分组：任务列表的项目发起人](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
 * [分组：编辑分组中的显示名称](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [分组：项目所有者的主组（以小时为单位）](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [分组：任务百分比划分1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-* [分组：任务百分比划分2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
-* [分组：按组合、项目和项目排列的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+* [分组：小时列表中项目所有者的主组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [分组：任务百分比细分1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+* [分组：任务百分比细分2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+* [分组：按项目组合、项目和项目分类的任务](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
-## 其他自定义报表元素和报表
+## 其他自定义报告元素和报表
 
-* [报表或列表：显示与对象关联的用户](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-* [报表：预算小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-* [报表：组合任务和问题视图和分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+* [报告或列表：显示与对象关联的用户](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [报告：预算小时数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+* [报告：合并的任务和问题查看和分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
 * [按多选自定义字段绘制报表图表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--

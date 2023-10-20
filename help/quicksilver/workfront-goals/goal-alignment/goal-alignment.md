@@ -2,30 +2,31 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 请查看以下文章，了解如何在Workfront目标中实现目标。
-description: 请在以下文章中了解如何协调Adobe Workfront中的目标。
+title: 请查看以下文章，了解如何在Workfront目标中调整目标。
+description: 请在以下文章中了解如何在Adobe Workfront中调整目标。
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: d7087420e3cd641445974738b00e9338b327e7d7
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront目标中的目标协调
+# Adobe Workfront目标中的目标对齐方式
 
 >[!NOTE]
 >
->贵组织必须具备以下条件才能使用本文中描述的功能：
+>您的组织必须具备以下条件才能使用本文中所述的功能：
 >
->* 专业或更高级 [Adobe Workfront计划](https://www.workfront.com/plans).
->* 除了Adobe Workfront许可证之外，还具有Workfront许可证。
+>* Pro或更高版本 [Adobe Workfront计划](https://www.workfront.com/plans).
+>* 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >
->请联系您的Workfront客户经理以了解Workfront Target许可证。
+>请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:    
     
@@ -49,10 +50,10 @@ Contact your Workfront account manager to learn about a Workfront Goals license.
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
 -->
 
-请查看以下文章，了解如何在Workfront目标中实现目标：
+请查看以下文章，了解如何在Workfront目标中调整目标：
 
-* [Adobe Workfront目标中的目标协调概述](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [在Adobe Workfront目标中通过将目标连接起来来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Adobe Workfront目标中的目标对齐概述](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [在Adobe Workfront目标中删除目标协调](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
-* [导航Adobe Workfront Target中的“目标对齐”部分](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
+* [在Adobe Workfront目标中移除目标对齐方式](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [在Adobe Workfront目标中的目标对齐部分中进行导航](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

@@ -5,8 +5,9 @@ title: 导航 [!DNL Adobe Workfront]
 description: 阅读这些文章以了解如何在Workfront中导航并了解Workfront术语。
 feature: Get Started with Workfront
 author: Lisa
+recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%

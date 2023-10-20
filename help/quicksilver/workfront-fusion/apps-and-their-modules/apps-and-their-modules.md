@@ -5,11 +5,12 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: workfront-fusion-2-0
 title: 应用程序及其模块
-description: Adobe Workfront Fusion当前为此列表中的应用程序提供专用连接器。 如果要使用的应用程序不在此列表中，您可以使用HTTP、SOAP或JSON模块连接到该应用程序。
+description: Adobe Workfront Fusion当前为此列表中的应用程序提供专用连接器。 如果您要使用的应用程序不在此列表中，则可以使用HTTP、SOAP或JSON模块连接到该应用程序。
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 27%
@@ -127,10 +128,10 @@ ht-degree: 27%
 * [[!DNL Slack] 模块](../../workfront-fusion/apps-and-their-modules/slack-modules.md)
 * [[!UICONTROL SOAP] 模块](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 * [[!DNL Split.io] 模块](../../workfront-fusion/apps-and-their-modules/split-io-modules.md)
-* [[!UICONTROL 文本解析器]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
+* [[!UICONTROL 文本分析器]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL 工具]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)
 * [[!DNL Trello] 模块](../../workfront-fusion/apps-and-their-modules/trello-modules.md)
-* [Webhook](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+* [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
 * [[!DNL Widen] 模块](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 * [[!DNL Workday] 模块](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
 * [[!UICONTROL XML]](../../workfront-fusion/apps-and-their-modules/xml-modules.md)

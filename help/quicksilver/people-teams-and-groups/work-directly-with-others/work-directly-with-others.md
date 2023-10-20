@@ -3,11 +3,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
 title: 直接与他人合作
-description: 查看这些文章，了解如何直接与Workfront中的其他人员合作。
+description: 阅读这些文章，了解如何在Workfront中直接与他人合作。
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: 83d9f2f6-f5f9-4fd1-8c2d-2eda521d0c19
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%

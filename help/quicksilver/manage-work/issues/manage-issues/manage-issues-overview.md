@@ -6,8 +6,9 @@ title: 管理问题
 description: 以下文章包含有关管理问题的信息。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 10%
@@ -28,4 +29,4 @@ ht-degree: 10%
 * [移动问题](../../../manage-work/issues/manage-issues/move-issues.md)
 * [删除问题](../../../manage-work/issues/manage-issues/delete-issues.md)
 * [修改列表中多个问题的用户分配](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-* [自动将问题状态从“等待反馈”更新为“正在进行”](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
+* [自动将问题状态从等待反馈更新为进行中](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)

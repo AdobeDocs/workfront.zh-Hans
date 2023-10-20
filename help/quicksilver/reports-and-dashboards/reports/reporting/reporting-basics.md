@@ -2,22 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 報表基本需知
-description: 請檢閱這些文章，瞭解Adobe Workfront的報告基本知識。
+title: 报告基础知识
+description: 阅读这些文章，了解Adobe Workfront中的报表基础知识。
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-# 報表基本需知
+# 报告基础知识
 
-本節包含下列文章：
+本节包含以下文章：
 
-* [開始使用Adobe Workfront中的報告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [將預設報表另存為新報表](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
+* [Adobe Workfront中的报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [将默认报表另存为新报表](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+  <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
