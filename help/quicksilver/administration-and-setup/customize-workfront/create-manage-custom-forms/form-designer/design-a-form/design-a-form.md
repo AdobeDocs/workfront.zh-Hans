@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 4%
 
 ### 添加外部查找字段
 
-外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择以下选项之一。
+外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。
 
 要添加外部查找，请执行以下操作：
 
@@ -540,7 +540,8 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">基本 API URL</td> 
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
-      <ul><li>$$query — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
+      <ul><li>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
+      <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 （例如，用户可以使用基本URL“$$HOST/attask/api/task/search”搜索任务，它允许搜索任务并从返回的任务列表中选择值。）</li>
       <li>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</li></ul>
       <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td> 
      </tr>
@@ -561,6 +562,15 @@ ht-degree: 4%
       <td role="rowheader">标题</td>
       <td><p>单击 <strong>添加标题</strong>，然后键入或粘贴使用API进行身份验证所需的键值对。</p><p><strong>注意：</strong> 标头字段不是存储凭据的安全位置，您应该小心输入和保存的内容。</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">多选下拉框</td>
+      <td><p>选择此选项可允许用户在下拉菜单中选择多个值。</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">制作一个必填字段</td>
+      <td><p>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。</p></td>
+     </tr>       
     </tbody>
    </table>
 
