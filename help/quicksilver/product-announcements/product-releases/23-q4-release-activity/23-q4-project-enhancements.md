@@ -3,9 +3,9 @@ title: 2023年第四季度项目增强功能
 description: 2023年第四季度项目增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ ht-degree: 0%
 我们对计划小时数分配给无分派且持续时间类型简单的周期性任务的方式进行了更改。 现在，当您为具有简单持续时间类型而没有分配的新周期性任务设置计划小时数时，小时数也会分配给各个重复事件。 在此更改之前，当父任务未分配时，无法为个别重复保存小时数。
 
 有关创建周期性任务的信息，请参阅 [创建周期性任务](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## 任务列表实时更新
+
+任务列表现在实时更新。 对任务所做的更改会在任务列表中更新，这样查看任务列表的用户就可以在不刷新页面的情况下查看更改。
