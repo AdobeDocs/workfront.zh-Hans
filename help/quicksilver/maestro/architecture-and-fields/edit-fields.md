@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -113,6 +113,9 @@ ht-degree: 0%
    这将打开记录类型的页面。
 1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
 1. 将鼠标悬停在要编辑的字段的列标题上，然后单击字段名称后面的向下箭头。
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. 单击 **编辑字段**，然后更新有关该字段的信息并单击 **保存**.
 
    <!--insert screen shot when finalized-->

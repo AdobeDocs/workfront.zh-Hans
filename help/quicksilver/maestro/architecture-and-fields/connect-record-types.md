@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   要添加或删除字段，请按照上述步骤7 - 12中的说明操作。 <!--ensure these step numbers stay accurate-->
+   要添加或移除查找字段，请按照上述步骤7-12中的说明操作。 <!--ensure these step numbers stay accurate-->
 
 1. （可选）在链接记录字段标题中，从要链接的记录类型单击向下箭头，然后单击 **删除**.
 

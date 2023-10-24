@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -106,6 +106,9 @@ ht-degree: 0%
 1. 单击要删除其字段的记录类型的卡片。
 1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
 1. 在列标题中查找要删除的字段，将鼠标悬停在列标题上，然后单击字段名称后的向下箭头。
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. 单击 **删除**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
