@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题跟踪小组件的新快速访问按钮</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作小组件的新快速操作按钮</a> </p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>进一步扩展了直接从新主页管理工作的能力，新的快速访问按钮已添加到项目、任务和问题跟踪小组件。</p>
+                        <p>“我的工作”小组件中新增了快速操作按钮，进一步扩展了您直接从“新主页”管理工作的能力。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -764,9 +764,9 @@ API版本17于2023年10月12日发布。 对于API版本17，我们修改了一�
 
 请注意，Workfront移动设备应用程序要求先登录Workfront。 外部用户和访客可以继续使用验证应用程序进行验证工作；但是，23.10已不再支持该应用程序，并且它将变得不可用。
 
-#### 已为不使用工作流的帐户删除了工作流
+#### 为不使用工作流的帐户删除工作流
 
-对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍然可以访问工作流。 增强的Scrum功能将在未来版本中介绍。
+对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍有权访问它们。增强的Scrum功能将在未来版本中介绍。
 
 <!-- HTML you might need
 

@@ -6,10 +6,10 @@ description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 23%
     在具有可自定义列的表格中显示您组织的所有批准项，以及允许您搜索特定批准项的搜索栏。
 
 * **提及**\
-    显示最近在 Workfront 中@提及您的评论线程，以及允许您在构件中撰写回复的回复按钮。只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
+    显示来自Workfront的最近评论线程，类似于“我的更新”页面，以及一个允许您在小组件中撰写回复的回复按钮。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
 
 * **待办事项**\
     这个独特的构件允许您向个人核对清单添加文本项目，以便您自由编辑。
@@ -78,7 +78,7 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>投稿人</td>
-        <td>我的工作，提及</td>
+        <td>我的请求，提及，等待我的审批，讨论区</td>
     </tr>
     <tr>
         <td>外部的</td>
@@ -100,15 +100,15 @@ ht-degree: 23%
         <td>我的工作、提及、待办事项</td>
     </tr>
     <tr>
-        <td>复查</td>
+        <td>评论</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>
-        <td>有限</td>
+        <td>请求</td>
         <td>我的项目，等待我的审批</td>
     </tr>
     <tr>
-        <td>投稿人</td>
+        <td>参与</td>
         <td>我的工作，提及</td>
     </tr>
     <tr>

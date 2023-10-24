@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: '802'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>允许嵌入 <strong>Workfront</strong> 在iframe中</p> </td> 
-      <td>允许在iframe中嵌入Workfront。<p>此选项默认处于禁用状态。</p><p><b>重要</b>：在iframe中显示基于Web的应用程序，会使该应用程序容易遭受点击劫持安全漏洞的攻击。</p></td> 
+      <td>允许在iframe中嵌入Workfront。<p>默认禁用此选项。</p><p><b>重要</b>：在iframe中显示基于Web的应用程序，会使该应用程序容易遭受点击劫持安全漏洞的攻击。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">在 Office 365 加载项中允许进行 SAML 2.0 身份验证</td> 
@@ -99,7 +99,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">要求外部用户使用密码注册</td> 
-      <td> <p>要求外部用户先注册，然后才能在Workfront中查看项目。 默认情况下，此选项处于禁用状态。 启用此选项后，对于没有Workfront帐户但通过电子邮件地址包括在某些更新中的用户，系统将提示他们先创建帐户，然后才能查看其所包含的项目。 这将为他们创建一个外部用户帐户。</p> <p>此选项默认处于禁用状态。</p> </td> 
+      <td> <p>要求外部用户先注册，然后才能在Workfront中查看项目。 默认情况下，此选项处于禁用状态。 启用此选项后，对于没有Workfront帐户但通过电子邮件地址包括在某些更新中的用户，系统将提示他们先创建帐户，然后才能查看其所包含的项目。 这将为他们创建一个外部用户帐户。</p> <p>默认禁用此选项。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">在以下时段后自动注销用户：</td> 
@@ -111,7 +111,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">系统中的用户将默认看到新主页体验 </td> 
-      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户仍可以选择单独启用或禁用“新建主页”。 禁用后，用户将无法选择使用新主页。 此选项默认处于启用状态。</td> 
+      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 <b>禁用后，用户将无法选择使用新主页。</b> 默认情况下，此设置处于启用状态。</td> 
      </tr> 
     </tbody> 
    </table>
