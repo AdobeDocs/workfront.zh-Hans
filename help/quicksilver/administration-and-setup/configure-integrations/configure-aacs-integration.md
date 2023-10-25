@@ -5,14 +5,18 @@ title: 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
 description: 您可以将工作与您的内容关联到 [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 4915dfb923a661befaf33007b8bcb9834e38a3e4
+source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
+
+>[!IMPORTANT]
+>
+>此功能仅适用于已载入到 [!DNL Adobe Admin Console].
 
 您可以将工作与您的内容关联到 [!DNL Experience Manager Assets]下&#x200B;列：
 
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以跨组织ID将多个Experience Manager Assets存储库连接到一个Workfront环境，或将多个Workfront环境连接到一个Experience Manager Assets存储库。 对于要设置的每个集成，请按照本文中的配置说明进行操作。
+>您还可以连接多个 [!DNL Experience Manager Assets] 将存储库合并到一个 [!UICONTROL Workfront] 环境或多个 [!DNL Workfront] 环境到一个 [!DNL Experience Manager Assets] 跨组织ID的存储库 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
 ## 访问要求
 
@@ -176,7 +180,9 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 要映射资源的元数据，请执行以下操作：
 
-1. 选择 **[!UICONTROL 资产]** 在元数据表的上方。
+<!--
+1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. 在 **[!UICONTROL [!DNL Workfront]字段]** 列中，选择一个内置或自定义Workfront字段。
 
    >[!NOTE]
@@ -186,44 +192,46 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 1. 在 [!DNL Experience Manager Assets] 字段，在预填充的类别中进行搜索，或在搜索字段中输入至少两个字母以访问其他类别。
 1. 根据需要重复步骤2和3。
-   ![元数据字段](assets/asset-metadata.png)
-1. 单击 [!UICONTROL 保存] 或转到 [文件夹](#folders) 部分。
+   ![元数据字段](assets/metadata-no-asset-toggle.png)
+1. 单击 [!UICONTROL 保存] 或转到 [设置工作流](#set-up-workflows-optional) 部分。
 
-### 映射文件夹的元数据
+<!--
 
-当用户在项目中创建链接文件夹时，关联的项目、项目组合和项目群数据将映射到中的文件夹元数据字段 [!DNL Experience Manager Assets].
+### Map metadata for folders
+
+When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
->此集成不支持中的自定义元数据 [!DNL Adobe Experience Manager].
+>This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-要映射文件夹的元数据，请执行以下操作：
+To map metadata for folders: 
 
-1. 选择 **[!UICONTROL 文件夹]** 在元数据表的上方。
-1. 在 **[!UICONTROL [!DNL Workfront]字段]** 列中，选择一个内置或自定义Workfront字段。
+1. Select **[!UICONTROL Folders]** above the metadata table.
+1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
-   >[!NOTE]
-   >
-   >您可以将单个Workfront字段映射到多个Experience Manager Assets字段。 无法映射多个 [!DNL Workfront] 字段到单个 [!DNL Experience Manager Assets] 字段。
+    >[!NOTE]
+    >
+    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
 
-1. 在 **[!DNL Experience Manager Assets]** 字段，在预填充的类别中进行搜索，或在搜索字段中输入至少两个字母以访问其他类别。
-1. 根据需要重复步骤2和3。
-   ![文件夹元数据](assets/folder-metadata.png)
-1. 单击 **[!UICONTROL 保存]** 或转到 [项目元数据同步](#project-metadata-sync) 部分。
+1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
+1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
+1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### 对象元数据同步
+### Object metadata sync
 
-An [!DNL Experience Manager] 映射到的字段 [!DNL Workfront] 项目组合、项目群、项目、任务、问题和文档字段在中更改时会自动更新 [!DNL Workfront].
+An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
-启用此选项后，任何已推送到AdobeExperience Manager的资源都会在“文档详细信息”页面上包含一张信息卡，用于显示文档Adobe Experience Manager元数据的实时视图。
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
->用户必须具有写入权限 [!DNL Experience Manager] 用于位于对象中的资产，以便元数据在更新时同步。
+>Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
-1. 启用 **[!UICONTROL 同步对象元数据]** 字段。
-1. 单击 **保存** 或转到 [设置工作流（可选）](#set-up-workflows-optional) 部分。
+1. Enable the **[!UICONTROL Sync object metadata]** field.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
 
 <!--Courtney start here-->
 
