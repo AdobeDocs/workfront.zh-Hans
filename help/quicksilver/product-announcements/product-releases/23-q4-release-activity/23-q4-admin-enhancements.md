@@ -3,9 +3,9 @@ title: 2023年第四季度管理员增强功能
 description: 2023年第四季度管理员增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 本页介绍了在2023年第四季度版本中对“预览”环境所做的所有管理员增强。 这些增强功能将在23.10版本的生产环境中提供。
 
 有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 向旧版许可证模型客户提供的证明和文档决策
+
+尚未过渡至新Adobe Workfront许可证模型的旧版客户现在可以在单个报告中查看每个用户每月验证/文档决策数的数据。 在运行“用户决策”报表时，此数据可用。
+
+有关更多信息，请参阅 [了解Adobe Workfront中的对象](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 和 [查看所有用户的验证和文档决策数](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## 自定义表单上的计算字段现在可以使用$$USER通配符
 

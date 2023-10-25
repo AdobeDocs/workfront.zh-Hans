@@ -5,9 +5,9 @@ title: 了解中的对象 [!DNL Adobe Workfront]
 description: 了解中的对象 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ ht-degree: 7%
 * [!UICONTROL 用户委托]
 
   您可以报告被委派在办公室外执行他人任务和问题的用户。 此报表显示外出用户以及在外出时履行职责的用户。
+
 * [!UICONTROL 用户决策]
+
+  您可以报告用户在当月对验证和文档做出了多少决策。
+
 * [!UICONTROL 查看]
 * [!UICONTROL 工作项] （这将生成任务和问题报告）
