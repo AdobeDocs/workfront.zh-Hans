@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">向旧版许可证模型客户提供的证明和文档决策</a></p>
+                        <p>尚未过渡至新Adobe Workfront许可证模型的旧版客户现在可以在单个报告中查看每个用户每月验证/文档决策数的数据。 在运行“用户决策”报表时，此数据可用。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年10月12日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产： 2023年10月12日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">自定义表单上的计算字段现在可以使用$$USER通配符</a></p>
@@ -494,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -502,7 +518,7 @@ These enhancements will be included in the following releases:
                                 <p>预览版本： 2023年8月24日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">适用于所有客户的生产： 2023年8月31日</span></p>
+                                <p><span class="preview">适用于所有客户的生产： 23.10版本之后</span></p>
                             </li>
                         </ul>
                     </td>
@@ -766,7 +782,7 @@ API版本17于2023年10月12日发布。 对于API版本17，我们修改了一�
 
 #### 为不使用工作流的帐户删除工作流
 
-对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍有权访问它们。增强的Scrum功能将在未来版本中介绍。
+对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍有权访问这些工作流。增强的Scrum功能将在未来版本中介绍。
 
 <!-- HTML you might need
 
