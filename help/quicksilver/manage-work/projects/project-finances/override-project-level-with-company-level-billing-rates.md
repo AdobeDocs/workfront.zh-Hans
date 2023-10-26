@@ -1,27 +1,25 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 使用公司层记帐费率覆盖项目层记帐费率
-description: 使用公司层记帐费率覆盖项目层记帐费率
+title: 用公司级别的记帐费率覆盖项目级别的记帐费率
+description: 用公司级别的记帐费率覆盖项目级别的记帐费率
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# 使用公司层记帐费率覆盖项目层记帐费率
-
-{{highlighted-preview}}
+# 用公司级别的记帐费率覆盖项目级别的记帐费率
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
 -->
 
-您可以将项目配置为使用公司级别的记帐费率，而不是使用项目级别的记帐费率。
+您可以将项目配置为使用公司级别的记帐费率，而不是项目级别的记帐费率。
 
 ## 访问要求
 
@@ -33,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -50,16 +48,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 启用公司级别记帐费率覆盖选项
+## 启用公司级别的记帐费率覆盖选项
 
 当公司与项目相关联并且启用此选项时，对公司级别记帐费率所做的更改将覆盖在项目上设置的记帐费率。
 
-当用户手动重新计算项目的财务时，将应用对公司级别记帐费率所做的任何更改。 历史收入计算也会被覆盖，除非将它们标记为已记帐。
+当用户手动重新计算项目财务时，将应用对公司级别记帐费率的任何更改。 历史收入计算也会被覆盖，除非将它们标记为已记帐。
 
 1. 转到项目。
-1. 单击 **更多** 菜单 ![](assets/qs-more-icon-on-an-object.png) 在标题中位于项目名称旁边，然后单击 **编辑**.
+1. 单击 **更多** 菜单 ![](assets/qs-more-icon-on-an-object.png) 在标题中位于项目名称旁，然后单击 **编辑**.
 1. 在 **财务** 部分，启用 **允许公司级别的记帐费率覆盖项目级别的记帐费率**.
 
    >[!CAUTION]
@@ -70,27 +68,19 @@ ht-degree: 0%
 
 ## 更新公司级别的记帐费率并将其应用于项目
 
-在项目上启用公司级别记帐费率覆盖选项后，对公司记帐费率所做的更改将在重新计算财务时应用于项目。
+在项目上启用了公司级别记帐费率覆盖选项后，对公司记帐费率所做的更改将在任何重新计算财务时应用于项目。
 
 >[!NOTE]
 >
->用户必须有权访问其访问级别中的公司，才能更新公司级别的记帐费率。
+>用户必须有权访问其访问级别的公司，才能更新公司级别的记帐费率。
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置**.
 1. 单击 **公司**.
-1. 单击与您为其启用了公司级别记帐费率覆盖的项目关联的公司名称。
-1. 单击 **记帐费率** （在左侧面板中）。
-1. 在生产环境中，为中的现有工作角色输入新的计费率 **公司记帐费率** 字段，然后按Enter。
+1. 单击与您启用了公司级别记帐费率覆盖的项目关联的公司的名称。
+1. 单击 **记帐费率** 在左侧面板中。
+1. 更新 **公司记帐费率** 以及现有工作角色的开始/结束日期，然后按Enter。
 
-   或
-
-   <div class="preview">
-
-   在“预览”环境中，更新 **公司记帐费率** 现有工作角色的开始/结束日期，然后按Enter。
-
-   要添加新的生效日期公司记帐费率，请选择工作角色的记帐费率，然后单击编辑。 有关生效日期的公司记帐费率的详细信息，请参阅 [覆盖公司级别的工作角色记帐费率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   要添加新的生效日期公司记帐费率，请为工作角色选择记帐费率，然后单击 **编辑**. 有关生效日期的公司记帐费率的详细信息，请参阅 [覆盖公司级别的工作角色记帐费率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. 要更新一个或多个项目的公司费率，请执行下列操作之一：
 
@@ -104,5 +94,5 @@ ht-degree: 0%
 
    * 单个项目：
 
-      1. 转到为其启用公司级别记帐费率覆盖的项目。
+      1. 转到为其启用了公司级别记帐费率覆盖的项目。
       1. 单击 **更多** 菜单 ![](assets/qs-more-icon-on-an-object.png) 在标题中位于项目名称旁边，然后单击 **重新计算财务**.

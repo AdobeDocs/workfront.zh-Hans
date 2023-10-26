@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 创建和管理职位角色
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -83,11 +81,11 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">[！UICONTROL成本率]</td> 
       <td><p>这是工作角色的每小时成本率。 此值计算与角色相关的任务和问题的计划成本和实际成本，并最终计算项目的计划和实际成本。 使用[！UICONTROL基础货币]输入汇率。</p> 
-      <p><span class="preview">对于日期有效成本率，请单击 <strong>[！UICONTROL添加率]</strong>. 输入时间段的成本/小时值，并根据需要分配[！UICONTROL开始日期]和[！UICONTROL结束日期]。 第一个成本费率没有起始日期，最后一个成本费率没有终止日期。</span></p> <p><span class="preview">某些日期会自动添加。 例如，如果第一个成本费率没有结束日期，并且您添加了一个起始日期为2023年5月1日的第二个成本费率，则结束日期为2023年4月30日的成本费率将添加到第一个成本费率中，这样就不会出现任何差距。</span></p> <p><span class="preview">提示：编辑现有工作角色时，您可以选择 <strong>按开始日期排序</strong> 在费率列表的顶部查看最近的开始日期。 </span></p></td> 
+      <p>对于日期有效成本率，请单击 <strong>[！UICONTROL添加率]</strong>. 输入时间段的成本/小时值，并根据需要分配[！UICONTROL开始日期]和[！UICONTROL结束日期]。 第一个成本费率没有起始日期，最后一个成本费率没有终止日期。</p> <p>某些日期会自动添加。 例如，如果第一个成本费率没有结束日期，并且您添加了一个起始日期为2023年5月1日的第二个成本费率，则结束日期为2023年4月30日的成本费率将添加到第一个成本费率中，这样就不会出现任何差距。</p> <p>提示：编辑现有工作角色时，您可以选择 <strong>按开始日期排序</strong> 在费率列表的顶部查看最近的开始日期。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL记帐费率] </td> 
-      <td><p>这是工作角色的每小时记帐费率。 此值计算与角色相关的任务和问题的计划收入和实际收入，最终计算项目的计划收入和实际收入。 使用[！UICONTROL基础货币]输入汇率。</p> <p><span class="preview">对于日期有效计费率，请单击 <strong>[！UICONTROL添加率]</strong>. 输入时间段的记帐/小时值，并根据需要分配[！UICONTROL开始日期]和[！UICONTROL结束日期]。 第一个记帐费率没有开始日期，最后一个记帐费率没有结束日期。</span></p> <p><span class="preview">某些日期会自动添加。 例如，如果第一个记帐费率没有结束日期，而您添加第二个记帐费率的开始日期为2023年5月1日，则结束日期为2023年4月30日将添加到第一个记帐费率，这样就不会存在任何间隔。</span></p> <p><span class="preview">提示：编辑现有工作角色时，您可以选择 <strong>按开始日期排序</strong> 在费率列表的顶部查看最近的开始日期。 </span></p> </td> 
+      <td><p>这是工作角色的每小时记帐费率。 此值计算与角色相关的任务和问题的计划收入和实际收入，最终计算项目的计划收入和实际收入。 使用[！UICONTROL基础货币]输入汇率。</p> <p>对于日期有效计费率，请单击 <strong>[！UICONTROL添加率]</strong>. 输入时间段的记帐/小时值，并根据需要分配[！UICONTROL开始日期]和[！UICONTROL结束日期]。 第一个记帐费率没有开始日期，最后一个记帐费率没有结束日期。</p> <p>某些日期会自动添加。 例如，如果第一个记帐费率没有结束日期，而您添加第二个记帐费率的开始日期为2023年5月1日，则结束日期为2023年4月30日将添加到第一个记帐费率，这样就不会存在任何间隔。</p> <p>提示：编辑现有工作角色时，您可以选择 <strong>按开始日期排序</strong> 在费率列表的顶部查看最近的开始日期。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[！UICONTROL Override Currency]</span> </td> 
