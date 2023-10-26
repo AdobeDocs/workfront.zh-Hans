@@ -6,7 +6,7 @@ description: 用公司级别的记帐费率覆盖项目级别的记帐费率
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ ht-degree: 0%
 
    * 多个项目：
 
-   1. 转到项目列表。
-   1. 选中与要更新的项目对应的复选框。
-   1. 单击 **编辑**.
-   1. 在设置部分，启用 **重新计算成本和收入** 选项。
-   1. 单击 **保存更改**.
+      1. 转到项目列表。
+      1. 选中与要更新的项目对应的复选框。
+      1. 单击 **编辑**.
+      1. 在设置部分，启用 **重新计算成本和收入** 选项。
+      1. 单击 **保存更改**.
 
    * 单个项目：
 

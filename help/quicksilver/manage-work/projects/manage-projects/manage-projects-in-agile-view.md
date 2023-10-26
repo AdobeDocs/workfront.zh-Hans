@@ -6,7 +6,7 @@ description: 所需的计划、许可证类型和访问Adobe Workfront计划团�
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 2137d792485324386b33e75af91ab09415b48390
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在Agile视图中管理项目
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -163,7 +161,7 @@ Required plans, license types, and access
 
 ## 在Agile视图中查看项目
 
-1. <span class="preview">转到任务列表或问题列表中的要在Agile视图中查看的项目。</span>
+1. 转到任务列表或问题列表中的要在Agile视图中查看的项目。
 1. 单击 **展示板** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).
 
    默认情况下，将显示项目的讨论区视图。
