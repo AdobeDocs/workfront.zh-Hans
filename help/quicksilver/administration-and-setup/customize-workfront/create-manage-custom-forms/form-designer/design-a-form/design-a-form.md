@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # 使用表单设计器设计表单
-
-{{preview-and-fast-release}}
 
 您可以使用表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -498,8 +496,6 @@ ht-degree: 4%
 
    单击 **保存并关闭**.
 
-<div class="preview">
-
 ### 添加外部查找字段
 
 外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。
@@ -590,8 +586,6 @@ ht-degree: 4%
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
 >* 用户可以在Workfront列表和报告中看到选定值（并编辑该值），但看不到包含来自外部API的选项的下拉列表。
-
-</div>
 
 ### 添加图像、PDF和视频
 
