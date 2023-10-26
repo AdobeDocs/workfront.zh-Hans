@@ -6,7 +6,7 @@ description: 您可以将文档添加到Adobe Workfront展示板上连接的信�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在信息卡上添加文档
-
-{{article-preview-and-fast-release}}
 
 您可以将文档添加到Adobe Workfront展示板上连接的信息卡。 您在信息卡中添加的任何文档都将在已连接任务或问题的文档选项卡上可用，并且您在任务或问题中添加的文档将显示在信息卡上。 这两个区域都支持相同的文件类型。 有关Workfront中文档的更多信息，请参阅 [将文档从您的文件系统添加到Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

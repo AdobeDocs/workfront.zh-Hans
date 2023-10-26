@@ -6,7 +6,7 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 在展示板上使用连接的信息卡
-
-{{preview-and-fast-release}}
 
 您可以在展示板上添加一个连接到中现有任务和问题的信息卡 [!DNL Workfront].
 
@@ -27,8 +25,8 @@ ht-degree: 0%
 * [!UICONTROL 状态]
 * [!UICONTROL 计划的完成日期]
 * [!UICONTROL 估计] / [!UICONTROL 故事点]
-* <span class="preview">[!UICONTROL 子任务]</span>
-* <span class="preview">[!UICONTROL 文档]</span>
+* [!UICONTROL 子任务]
+* [!UICONTROL 文档]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ ht-degree: 0%
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL Subtask]</strong></span></td>
-      <td><span class="preview"><p>此部分将显示任务的任何现有子任务。 单击 <strong>[！UICONTROL添加子任务]</strong> 以添加新子任务。</p>
+      <td role="rowheader"><strong>[！UICONTROL Subtask]</strong></td>
+      <td><p>此部分将显示任务的任何现有子任务。 单击 <strong>[！UICONTROL添加子任务]</strong> 以添加新子任务。</p>
       <p>部分顶部的计数器显示已完成的子任务数和子任务总数。</p>
-      <p>有关子任务的详细信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任务</a>.</p></span></td>
+      <p>有关子任务的详细信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">管理展示板上的子任务</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL核对清单]</strong></td>
@@ -148,8 +146,8 @@ ht-degree: 0%
       <p>清单顶部的计数器显示已完成项目的数量和项目总数。</p> <p>有关清单项目的更多信息，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">管理信息卡上的清单项目</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[！UICONTROL文档]</strong></span></td>
-      <td><span class="preview">对于现有文档，将鼠标悬停在文档缩略图上，然后单击 <strong>预览</strong> 在浏览器中查看文件，或者 <strong>下载</strong> 将文件下载到您的计算机。 有关新文档，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在信息卡上添加文档</a>.</span></td>
+      <td role="rowheader"><strong>[！UICONTROL文档]</strong></td>
+      <td>对于现有文档，将鼠标悬停在文档缩略图上，然后单击 <strong>预览</strong> 在浏览器中查看文件，或者 <strong>下载</strong> 将文件下载到您的计算机。 有关新文档，请参阅 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">在信息卡上添加文档</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL小时]</strong></td>

@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 将文档从您的文件系统添加到Adobe Workfront
-description: 您可以在Adobe Workfront的以下区域将文档添加到项目、任务或问题 — 编辑我。
+description: 您可以在Adobe Workfront中将文档添加到多个区域中的项目、任务或问题。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # 将文档从您的文件系统添加到Adobe Workfront
 
-{{preview-and-fast-release}}
-
 您可以在Adobe Workfront的以下区域将文档添加到项目、任务或问题：
 
 * 全局文档区域
 * Workfront对象的“文档”区域
-* <span class="preview">Workfront展示板上的连接卡</span>
+* Workfront展示板上的连接卡
 
 您还可以上传文档的新版本，并将链接添加到来自第三方云供应商(如Google Drive、Dropbox和Microsoft OneDrive)的文档。 有关添加文档新版本的信息，请参阅 [上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md). 有关添加来自第三方云供应商的文档的信息，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
