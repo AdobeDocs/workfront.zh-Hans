@@ -6,7 +6,7 @@ description: 桌面校对查看器是必须安装在本地计算机上的应用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -53,8 +53,8 @@ ht-degree: 0%
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 如果您使用的是生产环境，请单击 [适用于桌面校对查看器的Mac生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.28.pkg)
-   * 如果您使用的是“预览”环境，请单击 [桌面验证查看器的Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.28.pkg)
+   * 如果您使用的是生产环境，请单击 [适用于桌面校对查看器的Mac生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.31.pkg)
+   * 如果您使用的是“预览”环境，请单击 [桌面验证查看器的Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.31.pkg)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，单击 **继续**，然后单击 **安装**.
@@ -73,12 +73,12 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您可以通过运行命令行来安装桌面校对查看器 `Workfront Proof Setup 2.1.20.exe" /S`
+>您可以通过运行命令行来安装桌面校对查看器 `Workfront Proof Setup 2.1.31.exe" /S`
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 在生产环境中，单击 [桌面校对查看器的Windows生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.28.exe)
-   * 在“预览”环境中，单击 [桌面校对查看器的Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.28.exe)
+   * 在生产环境中，单击 [桌面校对查看器的Windows生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.31.exe)
+   * 在“预览”环境中，单击 [桌面校对查看器的Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.31.exe)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，打开刚刚下载的文件以开始安装。

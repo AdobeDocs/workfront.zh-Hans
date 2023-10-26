@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '13358'
+source-wordcount: '13366'
 ht-degree: 1%
 
 ---
@@ -381,6 +381,7 @@ ht-degree: 1%
          * [新的评论体验常见问题解答](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
       * Workfront与Frame.io集成alpha {#frame-io-wf-integration-alpha}
          * [Adobe Workfront和Frame.io本机集成alpha：概述](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+         * [Adobe Workfront和Frame.io本机集成alpha：功能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * 管理和设置 {#administration-and-setup}
    * [管理和设置](administration-and-setup/administration-and-setup.md)
    * 管理入门 {#get-started-administration}
@@ -1772,8 +1773,8 @@ ht-degree: 1%
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 验证 {#proofing}
-      * [验证](review-and-approve-work/proofing/proofing.md)
+   * 校样 {#proofing}
+      * [校样](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
@@ -2322,8 +2323,8 @@ ht-degree: 1%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 验证 {#workfront-proof}
-   * [Workfront 验证](workfront-proof/workfront-proof.md)
+* Workfront 校样 {#workfront-proof}
+   * [Workfront 校样](workfront-proof/workfront-proof.md)
    * 开始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流示例 {#workflow-examples}
