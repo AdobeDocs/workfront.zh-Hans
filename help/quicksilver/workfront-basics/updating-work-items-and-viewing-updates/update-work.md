@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3617'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,28 @@ ht-degree: 1%
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >我们当前正在重新设计Adobe Workfront中的评论体验。
->根据您从哪些环境和哪些对象中访问评论体验，您可能会在更新部分中看到不同的功能。
+>
+>根据您访问评论体验的对象，您可能会看到更新部分的以下功能：
+>* 新体验
+>* 旧版体验
+>* 新体验和旧体验
 >
 >有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新的评论体验仅适用于“更新”部分，不适用于以下区域：
+>新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
 >
 > * 主页
 > * 列表中的摘要面板
@@ -169,20 +176,18 @@ drafted for P&P release:
 
 ## 向工作项添加更新
 
-向工作项添加更新会因更新部分的版本以及您选择的对象而异。
-
-### 在当前更新分区中为工作项添加更新
-
-<!--on October 26, replace "current" with "legacy"-->
-
->[!NOTE]
+>[!IMPORTANT]
 >
->以下功能适用于除目标和卡片之外的所有对象。 您必须具有其他许可证才能访问Workfront目标。 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
->
->在信息卡上启用“注释”和“系统活动”部分时，您可以在“信息卡”区域中添加和查看信息卡的更新。 有关更多信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
+>本页上的信息介绍了如何更新项目、任务和问题。
+
+
+根据您使用的更新部分的版本，向工作项添加更新会有所不同。
+
+### 在旧版更新部分中为工作项添加更新
 
 1. 转到要为其提供更新的工作项（如项目、任务或问题）。
 1. 单击 **更新** 部分。
+1. （视情况而定）如果已启用，请单击 **新建注释** 更新部分右上角的选项，可禁用该选项并启用旧版评论体验。
 1. 单击 **开始新的更新，** 然后键入您的更新。
 1. （可选）使用富文本或在更新中添加表情符号、链接或图像来增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
 1. （可选）更新有关工作项的以下任何信息：
@@ -236,15 +241,14 @@ drafted for P&P release:
 
 ### 使用新的评论体验向工作项添加更新
 
-有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
+1. 找到要更新的对象（项目、任务或问题），然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 在左侧面板中。
+1. （视情况而定）如果 **新建注释** 选项被禁用，单击以启用它。
 
-   此 **评论** 选项卡默认处于选中状态。
+   这将启用新的评论体验。 此 **评论** 选项卡默认处于选中状态。
 1. 开始在 **新建评论** 盒子。
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -263,19 +267,23 @@ drafted for P&P release:
    >指示符仅在提交项目的评论之后显示，而不会在评论仍在撰写时显示。
    >
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
-   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 单击 **提交** 将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png)  <span class="preview">在注释的右上角</span>，然后单击 **编辑**.
-1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。
-提交评论后，您只能在15分钟内对其进行编辑。 “已编辑”指示符将添加到输入评论时显示的日期戳的左侧。
+1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**.
+
+   >[!IMPORTANT]
+   >
+   >提交评论后，您只能在15分钟内对其进行编辑。
+
+1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。 “已编辑”指示符将添加到输入评论时显示的日期戳的左侧。
 
    >[!TIP]
    >
    >当前年份的注释不会在日期戳中显示年份。 将鼠标悬停在时间戳上会显示完整日期，包括年份。
 
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -284,34 +292,27 @@ drafted for P&P release:
    >* 当您代表其他用户发布评论时(以Workfront或组管理员身份以其他用户身份登录时)，如果您以其他用户身份登录，则无法编辑评论。 只有在以用户身份注销并以您自己身份重新登录之后，才能编辑注释。
 
 
-1. （可选）单击 **回复** 要回复现有评论，请按照上述步骤4 - 8操作。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （可选）单击 **回复** 或开始在 **添加回复……** 区域，回复现有评论，然后执行上述步骤4-8。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-   >[!TIP]
-   >
-   >   <span class="preview">要向现有回复添加更多回复，您可以开始输入 **添加回复……** 框，或单击 **回复** 在原始注释上。 您的回复将添加到线程的末尾。</span>
+1. （视情况而定，可选）如果其他用户添加了注释，这些注释在您添加注释时显示在“更新”部分的可见区域之外，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
 
-
-1. （视情况而定，可选）如果其他用户添加了显示在“更新”部分的可见区域之外的注释，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
-
-   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
+   ![](assets/blue-new-comments-banner-with-view-button.png)
 
    屏幕底部会显示其他注释。
-
 
 
    >[!NOTE]
    >
    >   “新评论”指示器和“查看”按钮仅在输入新更新的用户以及当前查看更新分区的用户都使用新评论体验时显示。
 
-
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png). 图标会随喜欢的数量而更新。
 1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
-   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >   <span class="preview">前两个已标记实体的名称显示在它们的头像旁边。 如果标记了两个以上的实体，则只显示第一个实体的名称，并显示附加实体的数量。</span>
+   >前两个已标记实体的名称显示在它们的头像旁边。 如果标记了两个以上的实体，则只显示第一个实体的名称，并显示附加实体的数量。
 
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
@@ -327,7 +328,7 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->富文本工具栏中的某些选项可能不适用于新的注释体验。
+>除非另有指定，否则以下信息介绍如何在新的评论体验中使用富文本。
 
 您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强更新。
 
@@ -340,15 +341,18 @@ drafted for P&P release:
 
    | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
-   | 粗体 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 粗体 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“创建链接”或“添加链接”框，请执行以下操作：⌘+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上： ⌘+V</br> | <br>要打开创建链接或添加链接框：Ctrl+K</br> <br>在备注测试版体验中，将链接粘贴到所选文本上：Ctrl+V</br> |
+   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“添加链接”框，请执行以下操作：⌘+K</br> <br>要在所选文本上粘贴链接，请执行以下操作：⌘+V</br> | <br>打开“添加链接”框：Ctrl+K</br> <br>要在所选文本上粘贴链接，请执行以下操作：Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 块引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | <br>Ctrl+Shift+9</br> <br>这在新的评论体验中不可用。 </br> |
+
+   <!--remove the last row when we remove legacy from the system-->
 
    要停止设置文本格式，请取消选择 **富文本** 工具栏。
+
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
@@ -359,11 +363,13 @@ drafted for P&P release:
    >* 如果您的组织将Workfront与Internet Explorer一起使用，则粘贴到更新中的任何格式化文本都将丢失其富文本格式，并显示为纯文本。 您可以使用富文本工具栏上的属性重新设置文本格式。
    >* 富文本格式不适用于“时间表”区域中所做的更新，也不适用于在报表中查看的注释和上一个条件对象。
 
-1. （可选）如果要包含来自先前更新或其他来源的文本，并将它们与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线条标记。 单击 **块引用** 图标，以返回正常格式。
+1. （可选且视情况而定）如果要包含来自先前更新或其他来源的文本，并将它们与您自己的更新区分开来，您可以将其标记为“块引用”。 单击 **块引用** 图标 ![](assets/block-quote-small.png) 并键入要引述的文本。 带引号的文本以垂直灰色线条标记。 单击 **块引用** 图标，以返回正常格式。 这在新的评论体验中不可用。
 
-   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-1. （可选）向更新中添加表情符号。
+   ![](assets/block-quote-marked-350x144.png)</span>
+
+1. （可选）单击 **表情符号** 图标 ![](assets/emoji-icon.png) 以向更新中添加表情符号。
 
    >[!NOTE]
    >
@@ -384,13 +390,7 @@ drafted for P&P release:
    1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选）要将图像附加到更新，请根据您使用的环境执行以下操作之一：
-
-   * 单击 **图像** 图标 ![](assets/addimageicon-35x32.png) 并使用当前的更新体验浏览到计算机上的图像，或将图像拖到更新区域中
-
-   或
-
-   单击 **添加附件** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。 <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
+1. （可选）要将图像附加到更新，请单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
 
    >[!NOTE]
    >
@@ -400,11 +400,13 @@ drafted for P&P release:
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，根据您选择的体验，会出现以下情况：
    >
-   >     * 在当前备注体验中，图像仍保留在文档区域中，但在更新部分中不再可见。
+   >     * 在旧版注释体验中，图像仍保留在文档区域中，但在更新部分中不再可见。
    >     * 在新的备注体验中，图像会从更新部分以及文档区域中删除。 编辑注释并删除图像时，也会从“文档”区域中删除图像。
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
 
-1. 单击 **更新**  或 **提交**，使用评论Beta版体验时。
+   <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. 单击 **提交** 以添加您的评论。
 
 
 ## 复制更新信息
@@ -413,13 +415,14 @@ drafted for P&P release:
 
 根据您使用的注释体验，复制更新会有所不同。
 
-### 复制当前评论体验中的更新
+### 在旧版评论体验中复制更新
 
-<!--October 26 - replace current with legacy-->
+<!--remove legacy when removed from the UI-->
 
 * [复制更新](#copy-the-update)
 * [复制跟帖链接](#copy-the-thread-link)
 * [复制更新链接](#copy-the-update-link)
+* [引用回复](#quote-reply)
 
 #### 复制更新 {#copy-the-update}
 
@@ -449,18 +452,35 @@ drafted for P&P release:
 
    ![](assets/copy-update-link-old-ui.png)
 
+
+#### 引用回复
+
+Quote Reply选项将原始备注作为块备注复制到新回复中。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **引用回复**.
+
+   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
+
+1. 继续添加更新，然后单击 **回复** 以添加注释。
+
 ### 在新的评论体验中复制更新
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
+通过执行以下操作之一，可以从现有注释中复制信息：
+
 * [复制链接](#copy-link)
 * [复制正文文本](#copy-body-text)
+* [引用回复](#quote-reply-1)
+
+![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### 复制链接
 
-此选项将注释或线程链接复制到剪贴板，以便您与其他用户共享注释或整个线程。
+复制链接选项将注释或线程链接复制到剪贴板，以便您与其他用户共享注释或整个线程。
 
 1. 转到要复制其链接的更新。
 
@@ -468,10 +488,25 @@ drafted for P&P release:
 
 #### 复制正文文本
 
-此选项将文本从特定更新复制到剪贴板。
+复制正文文本选项可将文本从特定更新复制到剪贴板。
 
 1. 转到要复制的更新或回复。
 1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
+
+#### 引用回复
+
+Quote reply选项将原始备注作为块备注复制到新回复中。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **引用回复**.
+
+   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
+
+   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
+
+1. 继续添加更新，然后单击 **提交** 以添加注释。
 
 ## 删除更新或回复
 
@@ -484,7 +519,7 @@ drafted for P&P release:
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **确认** 或单击 **删除**，使用评论Beta版体验时。
+1. 在显示的消息中，单击 **删除**.
 
    >[!NOTE]
    >
@@ -492,9 +527,9 @@ drafted for P&P release:
 
    当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
 
-   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
+   ![](assets/removed-comment-indicator-new-experience.png)
 
-   使用备注测试版体验时，已删除的备注会立即从Workfront中删除。 使用更新分区的用户会看到评论被其他用户实时删除。
+   已删除的评论将立即从Workfront中删除。 使用更新分区的用户会看到评论被其他用户实时删除。
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
@@ -521,18 +556,19 @@ drafted for P&P release:
 
 -->
 
+
+
 ## 启用或禁用系统更新
 
-<!--October 2023: remove the whole section because this is no longer possible -->
+<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
 
 <!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
 >使用新的评论体验时，无法禁用系统更新。
->此部分中的信息仅引用当前更新部分中的可用功能。 <!--October 26: replace current with legacy-->
->有关Beta版系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>此部分中的信息仅涉及旧版更新部分中提供的功能。 &lt;! — 从系统中删除旧版时删除此部分 — >
+>有关新评论体验中系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Workfront对象的“更新”部分显示两种类型的信息：
 

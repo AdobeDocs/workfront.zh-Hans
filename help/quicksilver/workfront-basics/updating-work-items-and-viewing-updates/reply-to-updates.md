@@ -8,28 +8,37 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # 回复更新
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >我们当前正在重新设计Adobe Workfront中的评论体验。
->根据您从哪些环境和哪些对象中访问评论体验，您可能会在更新部分中看到不同的功能。
+>
+>根据您访问评论体验的对象，您可能会看到更新部分的以下功能：
+>* 新体验
+>* 旧版体验
+>* 新体验和旧体验
 >
 >有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新的评论体验仅适用于“更新”部分，不适用于以下区域：
+>新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
 >
 > * 主页
 > * 列表中的摘要面板
@@ -41,6 +50,7 @@ ht-degree: 0%
 >
 >无法在新评论体验中回复系统更新。 有关更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## 访问要求
 
@@ -79,7 +89,30 @@ ht-degree: 0%
 
 回复注释或回复会因您选择的体验和对象而异。
 
-### 在当前更新部分中回复更新或回复
+### 使用新评论体验时回复评论
+
+有关新的注释体验中可用的功能以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+1. 转到要向其添加回复的对象。
+1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
+1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
+1. 单击 **回复**.
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   您可以在页面底部看到积极参与对话的用户 **添加回复……** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   要向现有回复添加其他回复，您可以开始键入 **添加回复……** 框，或单击 **回复** 在原始注释上。 您的回复将添加到线程的末尾。
+
+1. 开始键入回复，并使用富文本工具栏中的任何其他选项。 有关使用富文本或其他更新功能的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+
+1. 单击 **提交** 以保存回复。
+
+1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 在要回复的评论的右上角，查看更多用于管理回复的选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+
+### 在旧版更新部分中回复更新或回复
 
 1. 转到要向其添加回复的对象。
 1. 在 **更新** 选项卡中，查找要回复的更新或回复。
@@ -98,30 +131,6 @@ ht-degree: 0%
 1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击要报价的更新或回复 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. （可选）使用格式、表情符号、包含链接或图像，如文章中“在Workfront更新中使用富文本”一节中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 单击 **回复** 以保存回复。
-
-### 使用新评论体验时回复评论
-
-有关新的注释体验中可用的功能以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
-1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单 <span class="preview">在要回复的评论的右上角</span>，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
-1. 单击 **回复**.
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   您可以在页面底部看到积极参与对话的用户 **添加回复……** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">要向现有回复添加其他回复，您可以开始键入 **添加回复……** 框，或单击 **回复** 在原始注释上。 您的回复将添加到线程的末尾。 </span>
-
-1. 开始键入回复，并使用富文本工具栏中的任何其他选项。 有关使用富文本或其他更新功能的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-
-1. 单击 **提交** 以保存回复。
-
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) <span class="preview">在要回复的评论的右上角</span> 以获取更多用于管理回复的选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-
 
 ## 回复电子邮件通知的更新
 

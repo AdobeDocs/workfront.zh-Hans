@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2209'
 ht-degree: 2%
 
 ---
@@ -25,41 +25,70 @@ ht-degree: 2%
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
-本页包含有关当前在Adobe Workfront中正在进行的新评论体验的发布时间线的信息。
+>[!IMPORTANT]
+>
+>本文中的信息介绍的是新评论体验的测试阶段发布的功能。
+>
+>新评论体验测试版计划于2023年4月开始，于2023年10月结束。
+>
+>从2023年第四季度发布（2023年10月）开始，测试版期间发布的功能已提供给所有客户，并且测试版计划已结束。
+> 
+><br>有关更多信息，请参阅以下文章： </br>
+>
+>* 有关在新的Experience Beta测试期间发布的功能的信息，请参阅 [新的评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>* 有关在新的评论体验测试版计划结束后针对评论体验发布的功能的信息，请参阅当前产品版本概述页面。
 
-有关新评论体验的一般信息，包括当前可用或正在研究的功能列表，请参阅 [新的评论体验](../new-commenting-experience-beta/unified-commenting-experience.md).
+<!--
+ This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
+
+For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 
 >[!IMPORTANT]
 >
->23.2版本在Beta版中推出了新的评论体验。 有关原始版本的信息，请参阅 [23.2发行版概述](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->对于发布到支持测试版评论体验的Workfront对象的功能，也作为唯一评论体验发布到以下对象的“更新”部分：
->* 目标
->* 信息卡位于展示板区域。
+>Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
-## 发布时间表
+-->
 
-我们计划以迭代方式发布新的评论体验。 这将影响每个版本中的选定对象。 一小部分功能可能会在开始时发布，并且随着时间的推移，将向剩余对象添加更多功能。
+## 新的评论体验发布时间表
 
-有关哪些Workfront对象显示“更新”部分的信息，请参阅   [更新部分概述](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+新的评论体验为Workfront对象的“更新”部分引入了新设计。
 
-以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。 有关所有已发布功能的详细信息，请参阅 [已发布功能](#released-features) 部分。
+有关哪些Workfront对象显示“更新”部分的信息，请参阅 [更新部分概述](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
+
+有关Beta版发布期间以及发布时间的功能的详细信息，请参阅 [Beta版期间发布的功能](#features-released-during-the-beta-period) 部分。
+
+有关在Beta版结束之后为新评论体验发布的功能的信息，请参阅当前版本概述页面。
+
+以下是发布新评论体验的计划时间表：
 
 * 在23.2版本（2023年4月6日）中：
-   * 为问题评论Experience Beta
-   * 目标的新评论体验（作为唯一体验）
+   * 针对问题启动评论体验Beta版
+   * 发布新的目标评论体验（作为唯一体验）
 * 在23.3版本（2023年7月20日）中：
-   * 为项目、任务和文档评论Experience Beta。
-   * “展示板”区域中信息卡的新评论体验（作为唯一体验）
+   * 为项目、任务和文档启动评论体验测试版。
+   * 在展示板区域发布信息卡的新评论体验（作为唯一体验）
 * 在2023年第四季度版本（限量版本，仅向选择快速版本的客户提供）中：
-   * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
-   * 为项目、任务、问题和文档评论Experience Beta将成为默认选项。 移除“Beta”标签。
-* 2023年第四季度(23.10)发布（2023年10月）
-   * 模板、模板任务、程序、项目组合、团队、用户和时间表的新评论体验（作为唯一体验）
-   * 项目、任务、问题和文档的新注释体验将成为默认选项。 这将结束新评论体验的Beta阶段。
+   * 发布模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
+   * 更新项目、任务、问题和文档的评论体验测试版，使其成为默认选项。 移除“Beta”标签。
+* 在2023年第四季度(23.10)发布（2023年10月26日）
+   * 向所有客户发布有关模板、模板任务、程序、项目组合、团队、用户和工时表的新注释体验（作为唯一体验）。
+   * 将项目、任务、问题和文档的新注释体验设置为默认选项。
+
+  >[!IMPORTANT]
+  >
+  >    这将结束新评论体验的Beta阶段。
+
+   * 从这一日期开始，将针对评论体验发布的所有功能纳入当前的每月和季度常规版本中。
 * 2023年底：
-   * 旧版评论体验将保留为以下对象的辅助选项：项目、任务、问题和文档。
+   * 将旧版注释体验保留为以下对象的辅助选项：项目、任务、问题和文档。 新的注释体验是所有用户的默认选项。
 
   >[!NOTE]
   >
@@ -67,13 +96,15 @@ ht-degree: 2%
 
 * 2024年第一季度（2024年1月）：
 
-   * 将删除切换回旧版注释流的选项，新注释流将成为所有对象的唯一体验，迭代除外。
+   * 删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
 
-## 已发布功能
+## Beta版期间发布的功能
 
-以下部分包含在原始23.2版本之后添加的功能的列表，从最近发布的功能开始。
+此部分记录的功能现在可供所有客户在所有环境中使用。
 
-以下信息介绍每周发布的新评论测试版体验中包含的功能。 本文列出了针对新评论体验添加的新功能和已解决的问题。
+在23.2版本（2023年4月6日）和2023年第四季度版本（2023年10月26日）之间的测试阶段，向评论体验添加了以下功能。
+
+以下信息以每周一次的方式介绍发布活动，从最新更新开始。
 
 ### 2023年10月16日起一周
 
@@ -109,7 +140,9 @@ ht-degree: 2%
 
 #### 新增其他对象的注释体验
 
-[!BADGE 用于快速发布的生产中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 在发布到生产环境的23.3版本后不久，即可为以下对象提供新的评论体验：模板任务、模板、时间表、团队、用户、程序、项目组合。
 
@@ -125,7 +158,9 @@ ht-degree: 2%
 
 #### 新评论流的新设计更新
 
-[!BADGE 用于快速发布的生产中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 我们重新设计了新的评论流，使其具有更更新的外观。 其中一些改进包括：
 
@@ -151,7 +186,9 @@ ht-degree: 2%
 
 #### 新的评论体验是项目、任务、问题和文档的默认体验
 
-[!BADGE 用于快速发布的生产中]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 我们正在将新的注释体验设置为以下对象的默认体验：项目、任务、问题和文档。  在访问这些对象时，旧版注释体验仍将作为替代选项。
 

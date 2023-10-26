@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 配置系统更新
 description: Workfront在对象的 [!UICONTROL 更新] 区域来记录用户对对象执行的更改。 作为 [!DNL Workfront] 管理员，您可以配置哪些对象字段和操作 [!DNL Workfront] 用于记录系统更新的轨道。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * 用户在对象字段中进行的更改
 * 用户对对象执行的操作
 
-这些系统更新包括已进行的更改、进行更改的用户名称以及更改的时间和日期。
+这些系统更新包括以下类型的信息：
+
+* 所做的更改
+* 进行更改的用户的名称
+* 更改的时间和日期
 
 有关系统更新的详细信息，请参阅 [系统跟踪更新](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 

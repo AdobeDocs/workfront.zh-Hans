@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。 </span>\
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2023年第四季度发行版概述](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
@@ -366,14 +368,6 @@ ht-degree: 0%
 
 #### “更新”部分{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> 当前和新的“更新”部分在用户界面外观和风格上略有不同。 本节中的信息是指新评论体验中显示的功能。
->
->有关新的“更新”部分的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 要在项目、任务或问题的更新部分中记录时间，您必须具备以下各项：
 
 * 工作或计划许可证。
@@ -398,7 +392,7 @@ ht-degree: 0%
    >   
    >   在“输入天数”框的右上角显示一天中包含的小时数。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 指定以下信息：
 
