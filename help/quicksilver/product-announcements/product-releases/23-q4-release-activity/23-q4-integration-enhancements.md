@@ -3,16 +3,16 @@ title: 2023年第四季度集成增强功能
 description: 2023年第四季度集成增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # 2023年第四季度集成增强功能
 
-本页介绍了2023年第四季度版本与预览环境集成的所有增强功能。 这些增强功能将在23.10版本的生产环境中提供。
+本页介绍了2023年第四季度版本与预览环境集成的所有增强功能。 这些增强功能在23.10版本的生产环境中提供。
 
 有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

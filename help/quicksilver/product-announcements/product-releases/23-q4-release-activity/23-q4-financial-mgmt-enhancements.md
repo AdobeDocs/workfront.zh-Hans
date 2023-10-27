@@ -3,16 +3,16 @@ title: 2023年第四季度财务管理增强功能
 description: 2023年第四季度财务管理增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # 2023年第四季度财务管理增强功能
 
-本页介绍了在2023年第四季度发布到“预览”环境时执行的所有Financial Management增强功能。 这些增强功能将在23.10版本的生产环境中提供。
+本页介绍了在2023年第四季度发布到“预览”环境时执行的所有Financial Management增强功能。 这些增强功能在23.10版本的生产环境中提供。
 
 有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
