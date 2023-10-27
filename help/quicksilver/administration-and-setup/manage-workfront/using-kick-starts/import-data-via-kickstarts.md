@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 1. 填写中的单元格 **isNew** 列：
 
    * 如果要导入的对象是新对象，请键入 **TRUE** 以导入行中的数据。
-   * 如果对象已在Workfront中，请键入 **FALSE** 忽略行。
+   * 如果对象已在Workfront中， **FALSE** 必须位于列中才能忽略行。
+
+      * Workfront中已存在的记录不会更新。
+      * 如果您下载的模板包含数据，则现有对象已标记为 **FALSE**.
+      * 如果下载了空白模板，则不需要为现有对象添加新行。
 
 1. 填写中的单元格 **ID** 列中，使用以下方式之一：
 
-   * 如果您要导入的对象是新的(并且您键入了 **TRUE** 在 **isNew** 列)，为ID指定任意数字。 此数字在电子表格中必须是唯一的。
+   * 如果您要导入的对象是新的(并且您键入了 **TRUE** 在 **isNew** 列)，为ID键入任意数字。 此数字在电子表格中必须是唯一的。
 
-   * 如果您要导入的对象已存在于Workfront系统中(并且您键入了 **FALSE** 在 **isNew** 列)，ID必须是该对象在Workfront中存在的字母数字GUID。
+   * 如果对象已存在于Workfront中(并且 **FALSE** 位于 **isNew** 列)，ID必须是该对象在Workfront中存在的字母数字GUID。
+
+      * Workfront中已存在的记录不会更新。
+      * 如果您下载了包含数据的模板，则现有对象已包含GUID作为ID。
+      * 通过更改，您可以基于现有对象导入新对象 **FALSE** 到 **TRUE** 在 **isNew** 列，更改ID，并在导入之前进行必要的数据调整。
 
      ![组的示例ID](assets/kick-start-group-example.png)
 
