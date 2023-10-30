@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ ht-degree: 0%
 1. 单击 **新建&lt;记录类型名称>** 在表的最后一行中，向表中添加新行。
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    键入CTRL+Enter以在新行中添加新记录。
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. 开始在新行中输入有关新记录的信息。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -151,4 +151,4 @@ ht-degree: 1%
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。
+1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 “已保存”的指示器会短暂显示在表格视图的右上角，表示已保存更改。
