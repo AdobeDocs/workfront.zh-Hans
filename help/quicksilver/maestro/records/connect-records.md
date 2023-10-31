@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ hide: yes
    >
    >  您在Workfront对象记录类型页面中添加或删除的字段不会从链接到Workfront对象类型的Maestro记录类型中添加或删除。 这些字段仅在只读Workfront记录类型页面上可见，因此您可以在Maestro中查看它们。
 
-1. （可选）从“Workfront对象记录类型”页面上的“视图”下拉菜单中，选择“时间轴”视图，以在时间轴视图中显示Workfront链接对象。
+1. （可选且视情况而定）如果您向Workfront对象添加了至少两个日期字段，请单击 **视图** “Workfront对象记录类型”页面中的下拉菜单，然后选择 **时间线** 视图。 Workfront链接对象显示在时间轴视图中。

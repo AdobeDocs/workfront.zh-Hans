@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ ht-degree: 0%
 本部分列出了自2023年5月22日Maestro封闭Beta计划启动以来发布的功能和修补程序。
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与Maestro封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
+
+## 2023年10月30日起一周
+
+### 新的用户字段类型和日期字段，用于捕获记录创建或上次修改者或日期
+
+预览和生产： 2023年10月30日
+
+我们为Maestro记录引入了以下字段类型：
+
+* 创建者
+
+* 创建日期
+
+* 上次修改者
+
+* 上次修改日期
+
+根据这些字段类型创建的字段的字段值为只读，可捕获创建或上次修改记录的用户的名称，或创建或上次修改记录的日期。
+
+有关更多信息，请参阅 [创建字段](../maestro/architecture-and-fields/create-fields.md).
+
+### 从Maestro记录导航到Workfront对象
+
+预览和生产： 2023年10月31日
+
+现在，您可以从Maestro中的以下区域打开Workfront对象页面：
+
+* 只读链接Workfront对象记录表视图
+
+* 只读Workfront对象记录详细信息页面
+
+有关更多信息，请参阅 [连接记录](../maestro/records/connect-records.md).
 
 ## 2023年10月16日起一周
 
