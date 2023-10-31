@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 4%
 
 ---
@@ -111,7 +111,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">系统中的用户将默认看到新主页体验 </td> 
-      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 <b>禁用后，用户将无法选择使用新主页。</b> 默认情况下，此设置处于启用状态。</td> 
+      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过手动输入导航到他们的新主页 <code>/home/workspaces</code> 实例URL末尾。 默认情况下，此设置处于启用状态。</td> 
      </tr> 
     </tbody> 
    </table>
