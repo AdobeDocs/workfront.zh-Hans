@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ hide: yes
 * 将操作记录转换为分类记录
 * Maestro操作记录和来自其他应用程序的对象。
 
-  当前支持以下应用程序和对象类型：
+  您可以将Maestro记录连接到下列应用程序中所列类型的对象：
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ hide: yes
 * 每个有权访问Maestro的人都可以看到您在Maestro记录之间或Maestro记录与Workfront对象之间建立的连接。 此外，您还可以查看和编辑其他所有人的连接。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * 您可以将一个Maestro记录连接到另一个应用程序的一个或多个对象。
 * 不能连接分类以记录类型或从其他应用程序连接到对象。 <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* 目前，您只能将Maestro记录链接到Workfront对象。 要将Maestro记录与Workfront对象链接，您必须具备以下条件：
+* 要将Maestro记录与Workfront对象链接，您必须具备以下条件：
 
    * Workfront对象。 例如，您必须首先在Workfront中创建项目、项目组合、项目、公司或组。
    * Maestro工作区、记录类型和记录。 有关更多信息，请参阅以下文章：
@@ -151,16 +151,16 @@ hide: yes
 
 ### 连接Maestro记录
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
    默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
-1. 从中选择表视图 **视图** 记录类型页面右上角的下拉菜单
+1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
 1. 从所选记录类型添加与另一记录或对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
 
-新列将添加到表中以显示链接的记录类型。
+   新列将添加到表中以显示链接的记录类型。
 
 1. 通过向表添加新行将记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
 1. 从表视图中列出的记录，转到链接的记录列，将鼠标悬停在与要与其他Maestro记录链接的记录对应的单元格上，然后单击 **+** 图标。
@@ -201,7 +201,7 @@ hide: yes
 
 在Maestro记录类型和Workfront对象类型之间创建连接后，可以将单个Maestro记录连接到Workfront中的对象。 您还可以将字段从Workfront对象连接到Maestro记录类型。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
    默认情况下应打开上次访问的工作区。
 
@@ -265,11 +265,30 @@ hide: yes
    >
    >    * 要在“时间线”视图中显示Workfront对象记录类型，您必须至少有两个日期字段显示在只读Workfront记录类型页面的“表”视图中。
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 在页面标题中，位于Workfront对象记录类型名称旁边，然后单击 **重命名** 以编辑记录名称。
+1. （可选）要在Maestro中打开Workfront对象记录“详细信息”页面，请执行以下操作之一：
 
-   >[!NOTE]
-   >
-   >    您无法从Workfront记录类型页面中删除链接的Workfront记录类型或任何对象。
+   * 从您链接的记录类型中，转到Workfront对象链接记录字段，然后单击Workfront对象的名称。
+   * 从 **表** 查看Workfront记录类型页面，单击Workfront对象的名称
+
+     或
+
+     单击 **更多** Workfront对象名称右侧的菜单，然后单击 **视图**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   这将打开链接的Workfront对象的“Maestro详细信息”页面。 这是只读页面。
+
+1. （可选）要在Workfront中打开链接的Workfront对象，请执行以下操作之一：
+
+   * 从 **表** Workfront记录类型页面的视图，单击Workfront对象的名称，
+
+   或
+
+   单击 **更多** Workfront对象名称右侧的菜单，然后单击 **转到源**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   此时将打开Workfront对象页面。 如果您有相应的权限，则可以编辑有关Workfront对象的信息。
 
 1. （可选）单击 **添加字段** 图标 ![](assets/add-fields-icon.png) 表视图右上角的Workfront记录类型页面，用于从Workfront记录类型中添加或删除Workfront字段。
 

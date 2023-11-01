@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,7 @@ ht-degree: 1%
 * 如果删除的记录链接到其他记录，则不会删除链接的记录，但也会删除来自已删除记录的信息。
 * 不能批量删除记录。 <!--this will probably change-->
 * 您无法从时间线视图中删除记录。
+* 您无法删除从其他应用程序链接的记录类型。 例如，如果将Maestro记录链接到Workfront对象，则无法从Workfront对象记录页面中删除Workfront对象。
 
 ## 删除记录
 

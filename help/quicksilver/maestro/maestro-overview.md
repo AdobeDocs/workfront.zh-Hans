@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1845'
 ht-degree: 1%
 
 ---
@@ -223,6 +223,10 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
    * 货币
    * 复选框
    * 人员
+   * 创建者
+   * 创建日期
+   * 上次修改者
+   * 上次修改日期
 
 * **链接的记录类型**， **链接的记录**、和 **链接的记录字段**：您可以在以下实体之间创建连接：
 

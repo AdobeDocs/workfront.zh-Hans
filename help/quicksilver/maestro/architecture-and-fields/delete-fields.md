@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,8 @@ ht-degree: 0%
 
 ## 有关删除Maestro字段的注意事项：
 
-* 您可以删除您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions-->
+* 您可以删除您创建的字段或由其他用户或系统创建的字段。 <!--this will change with access levels/ permissions-->
+* 您无法删除记录的“名称”字段。 <!--change this to say you can't delete the field selected to be the primary-->
 * 您只能删除记录类型表中的字段。
 * 存储在字段中的任何信息都将被删除并且无法恢复。
 * 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。

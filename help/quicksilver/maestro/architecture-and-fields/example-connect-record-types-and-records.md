@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ ht-degree: 0%
    * 您选择连接到营销活动的项目在Workfront项目记录类型页面中显示为单独的记录。 项目记录也是只读的，当项目在Workfront中更新时，其信息会自动更新。 您必须从所连接的Maestro记录添加更多项目，以便在Workfront项目记录类型中查看它们。
    * 营销活动链接的记录字段使用从营销活动记录类型页面连接到项目的营销活动名称进行填充。
 
-1. （可选）单击 **更多** 图标 ![](assets/more-menu.png) Workfront项目记录类型名称的右侧，然后单击 **重命名** 以重命名记录类型。
+1. （可选）要在Maestro中打开Workfront项目的“详细信息”页面，请执行以下操作之一：
 
-   >[!TIP]
-   >
-   >您可以通过单击记录类型标题中的名称来重命名记录类型名称。
+   * 从您链接的记录类型(**营销活动**)，转到Workfront项目链接的记录字段(**项目信息**)，然后单击Workfront项目的名称。
+   * 从 **表** 视图 **Workfront项目** 记录页面，单击Workfront项目的名称
 
-1. 单击添加字段图标 ![](assets/add-fields-icon.png) 将更多项目字段添加到WorkfrontWorkfront项目经理记录类型中。
+     或
+
+     单击 **更多** Workfront项目右侧的菜单，然后单击 **视图**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   这将打开链接的Workfront项目的“Maestro详细信息”页面。 这是只读页面。
+
+1. （可选）要在Workfront中打开链接的Workfront项目，请执行以下操作之一：
+
+   * 从 **表** 视图 **Workfront项目** 页面上，单击Workfront项目的名称，
+
+   或
+
+   单击 **更多** Workfront项目名称右侧的菜单，然后单击 **转到源**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   此时将打开Workfront项目页面。 如果您有权编辑有关Workfront项目的信息，则可以进行编辑。
+
+1. 单击 **添加字段** 图标 ![](assets/add-fields-icon.png) 将更多项目字段添加到WorkfrontWorkfront项目经理记录类型中。
 1. 单击 **+** 图标，以将其添加到中的Workfront项目经理记录 **未选择的字段** 部分。
 1. 单击 **-** 图标来显示要从Workfront项目经理记录中移除的任何项目字段。 **选定的字段** 部分。
 1. 单击&#x200B;**保存**。
