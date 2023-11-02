@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ ht-degree: 0%
 
 1. （视情况而定）如果记录类型页面未在表视图中打开，请单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表格视图。
 
-1. 单击 **新建&lt;记录类型名称>** 在表的最后一行中，向表中添加新行。
+1. 要添加新记录，请单击 **新建&lt;记录类型名称>** 在表的最后一行
+
+   或
+
+   单击 **Shift + Enter** 从表格的任意列或行访问键盘。 这会添加一个空行。
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    键入CTRL+Enter以在新行中添加新记录。
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. 开始在新行中输入有关新记录的信息。
 

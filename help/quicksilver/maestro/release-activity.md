@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ ht-degree: 0%
 * 只读Workfront对象记录详细信息页面
 
 有关更多信息，请参阅 [连接记录](../maestro/records/connect-records.md).
+
+### 改进了表视图中的导航
+
+预览和生产： 2023年11月2日
+
+我们改进了记录类型页面的表视图中的导航。
+
+以下是一些改进：
+
+* 使用键盘上的Tab键浏览表的列和行
+
+* 从任何列位置添加新记录。 在此改进之前，您只能从第一列添加记录。
+
+* 使用Shift + Enter键盘组合在表中添加新记录（或行）。
+
+有关更多信息，请参阅 [创建记录](../maestro/records/connect-records.md).
 
 ## 2023年10月16日起一周
 
