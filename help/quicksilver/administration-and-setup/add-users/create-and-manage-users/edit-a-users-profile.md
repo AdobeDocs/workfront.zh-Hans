@@ -8,7 +8,7 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: a5596a2c734aa1d0f7927e37873761abd56e590b
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 编辑用户配置文件
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -161,7 +163,8 @@ ht-degree: 0%
        <li> <p><b>主要角色</b>：这是用户可以在Workfront中履行的主要工作角色。 分配给用户的每个任务和问题也会分配给此工作角色。 工作角色在资源管理中至关重要。 只有在您拥有管理用户访问权限的计划许可证，或者您是Workfront管理员时，才能更新此字段。 有关设置具有管理用户访问权限的用户的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> <p>列表中只显示活动工作角色。 </p> </li> 
        <li>如果您选择了 <b>主要角色</b>， <b>FTE可用性的百分比</b> 字段显示。 指定将用户计划的时间百分比分配给此工作角色。 主角色的FTE可用性百分比的默认值为100%。 </li> 
        <li> <p><b>其他角色</b>：一个用户可以在Workfront中具有多个工作角色。 工作角色在资源管理中至关重要。 用户可以履行的工作角色数量没有限制。 但是，我们建议不要将一位用户分配给过多的工作角色，因为对于这些用户而言，资源管理可能变得过于复杂。<p>列表中只显示活动工作角色。 有关工作角色的详细信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">创建和管理职位角色</a>.</p> <p>只有在您拥有管理用户访问权限的计划许可证，或者您是Workfront管理员时，才能更新此字段。 <br>有关设置具有管理用户访问权限的用户的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </li> 
-       <li> <p>（视情况而定）如果您选择了一个或多个 <b>其他角色</b>， <b>FTE可用性的百分比</b> 字段将为每个角色显示。 指定将用户计划的时间百分比分配给每个工作角色。 其他角色的FTE可用性百分比的默认值为0%。</p> <p><b>注意</b>：如果其他角色的FTE可用性为0%，则它们不会显示在资源规划者中，除非将用户分配给这些角色中的任务。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>注释</b>: <p>全部的总和 <b>占FTE可用性的百分比</b> 所有角色的均必须等于100%。 每个FTE可用百分比计算资源规划者中每个用户的每个角色的可用小时数。 每个用户每个角色的可用小时数取决于用户的可用时间。</p> <p>Workfront会根据Workfront管理员在资源管理首选项中选择用于计算FTE的方法，计算用户的可用时间。</p> <p>有关计算用户可用性的信息，请参见 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时数和FTE的概述</a>.</p> <p>有关配置资源管理首选项的信息，请参见 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>.</p> </p> <p>（可选）如果用户在项目期间的工作角色发生更改，则在财务计算中使用有效工作角色分配的日期。</p><p>单击 <b>按日期定义角色</b>，选择 <b>主要角色</b> 和 <b>其他角色</b>，并输入每个角色的分配百分比。 这些角色可以与现有角色（使用不同的百分比）相同，也可以是新角色。 选择 <b>开始日期</b> 这些角色生效时。 这可以是未来的日期。 当最新的角色变为活动角色时，您可以单击 <b>显示以前的角色</b> 查看以前的非活动角色。</p> </li> 
+       <li> <p>（视情况而定）如果您选择了一个或多个 <b>其他角色</b>， <b>FTE可用性的百分比</b> 字段将为每个角色显示。 指定将用户计划的时间百分比分配给每个工作角色。 其他角色的FTE可用性百分比的默认值为0%。</p> <p><b>注意</b>：如果其他角色的FTE可用性为0%，则它们不会显示在资源规划者中，除非将用户分配给这些角色中的任务。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>注释</b>: <p>全部的总和 <b>占FTE可用性的百分比</b> 所有角色的均必须等于100%。 每个FTE可用百分比计算资源规划者中每个用户的每个角色的可用小时数。 每个用户每个角色的可用小时数取决于用户的可用时间。</p> <p>Workfront会根据Workfront管理员在资源管理首选项中选择用于计算FTE的方法，计算用户的可用时间。</p> <p>有关计算用户可用性的信息，请参见 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时数和FTE的概述</a>.</p> <p>有关配置资源管理首选项的信息，请参见 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>.</p> </p>
+       <span class="preview"><p>（可选）如果用户在项目期间的工作角色发生更改，则在财务计算中使用有效工作角色分配的日期。</p><p>单击 <b>按日期定义角色</b>，选择 <b>主要角色</b> 和 <b>其他角色</b>，并输入每个角色的分配百分比。 这些角色可以与现有角色（使用不同的百分比）相同，也可以是新角色。 选择 <b>开始日期</b> 这些角色生效时。 这可以是未来的日期。 当最新的角色变为活动角色时，您可以单击 <b>显示以前的角色</b> 查看以前的非活动角色。</p> </li></span>
        <li> <p><b>计划</b>：将计划与用户关联。 用户调度计算用户所分配任务的时间线。</p> <p>必须先创建计划，然后才能将其与用户关联。 有关创建调度的详细信息，请参见 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>.</p> <p><b>注意</b>：我们建议与用户关联的计划与用户的时区匹配。</p> </li> 
        <li> <p><b>周期性工时表</b>：将时间表配置文件与用户关联，以确保自动为用户生成时间表。</p> <p><b>注意</b>：在此字段中可用的配置文件列表取决于您的访问权限：
        <ul>
