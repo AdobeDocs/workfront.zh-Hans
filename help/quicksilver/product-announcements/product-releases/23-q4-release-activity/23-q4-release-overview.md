@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题小组件的委托工作按钮</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
-                        <p>作为旧主页的一项常用功能，我们现在为“我的工作”、“我的任务”和“我的问题”构件添加了一个委派按钮，以便在您外出时轻松委派工作。</p>
+                        <p>作为旧主页的一项常用功能，我们现在为“我的工作”、“我的任务”和“我的问题”构件添加了一个委派按钮，以便在您外出时轻松委派工作。 请注意，必须在您的Workfront环境中启用工作委托，按钮才能显示。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

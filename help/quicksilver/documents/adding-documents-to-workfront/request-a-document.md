@@ -6,9 +6,9 @@ description: 您可以在支持“文档”的任何对象上请求文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,6 @@ ht-degree: 0%
    如果启用此首选项，用户将收到电子邮件通知以及应用程序内通知。 有关电子邮件通知的更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    您可以单击在电子邮件通知中找到的链接，然后上传文档。 或者，您也可以单击应用程序内通知。 每个选项都会将您引至用户配置文件页面，您可以在其中上传请求的文档。
-
-   您还可以直接回复电子邮件并附加请求的文档（如果配置为支持电子邮件响应）。
 
 1. 上传文档后，请求该文档的人可以个人身份访问该文档 **文档** 区域。
 
