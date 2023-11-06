@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -201,7 +201,7 @@ drafted for P&P release:
       <td>确定必须收到更新通知的用户。 进行更新时，分配给或订阅对象的用户会自动收到通知。<br><p>有关如何将其他人包含在更新中的信息，请参阅 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>提交日期</strong></td> 
+      <td role="rowheader"><strong>承诺日期</strong></td> 
       <td>在日期选取器中，选择您提交以完成工作项的日期。 有关提交日期的信息，请参见 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>.</td> 
      </tr> 
      <tr> 
@@ -415,55 +415,6 @@ drafted for P&P release:
 
 根据您使用的注释体验，复制更新会有所不同。
 
-### 在旧版评论体验中复制更新
-
-<!--remove legacy when removed from the UI-->
-
-* [复制更新](#copy-the-update)
-* [复制跟帖链接](#copy-the-thread-link)
-* [复制更新链接](#copy-the-update-link)
-* [引用回复](#quote-reply)
-
-#### 复制更新 {#copy-the-update}
-
-此选项将文本从特定更新复制到剪贴板。
-
-1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### 复制跟帖链接 {#copy-the-thread-link}
-
-此选项将完整的线程链接复制到剪贴板，以便您可以与其他用户共享线程。
-
-1. 转到要复制的更新跟帖。
-
-1. 单击 **更多** 菜单，然后单击 **复制跟帖链接**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### 复制更新链接 {#copy-the-update-link}
-
-此选项将特定的更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会在更新周围看到边框。
-
-1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制更新链接**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### 引用回复
-
-Quote Reply选项将原始备注作为块备注复制到新回复中。
-
-1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **引用回复**.
-
-   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
-
-1. 继续添加更新，然后单击 **回复** 以添加注释。
-
 ### 在新的评论体验中复制更新
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ Quote Reply选项将原始备注作为块备注复制到新回复中。
 
 1. 单击 **更多** 菜单，然后单击 **复制链接**.
 
+1. 将您在上一步中复制的链接粘贴到电子邮件或其他应用程序中以便与其他人共享。 共享链接会打开您从中共享该链接的评论。
+
+   >[!TIP]
+   >
+   >当您在更高层对象的子对象上共享对话的链接时，该链接会在更高层对象的“更新”区域中打开线程。
+   >
+   >例如，如果从项目的“更新”区域复制任务注释的链接，注释将打开项目页面。
+
 #### 复制正文文本
 
 复制正文文本选项可将文本从特定更新复制到剪贴板。
@@ -507,6 +466,64 @@ Quote reply选项将原始备注作为块备注复制到新回复中。
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. 继续添加更新，然后单击 **提交** 以添加注释。
+
+### 在旧版评论体验中复制更新
+
+<!--remove legacy when removed from the UI-->
+
+* [复制更新](#copy-the-update)
+* [复制跟帖链接](#copy-the-thread-link)
+* [复制更新链接](#copy-the-update-link)
+* [引用回复](#quote-reply)
+
+  >[!TIP]
+  >
+  >当您从更高层对象复制并共享子对象上对话的链接时，该链接会在子对象的“更新”区域中打开线程。
+  >
+  >例如，如果从项目的“更新”区域复制任务注释的链接，则注释将打开任务页面。
+
+#### 复制更新 {#copy-the-update}
+
+此选项将文本从特定更新复制到剪贴板。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### 复制跟帖链接 {#copy-the-thread-link}
+
+此选项将完整的线程链接复制到剪贴板，以便您可以与其他用户共享线程。
+
+1. 转到要复制的更新跟帖。
+
+1. 单击 **更多** 菜单，然后单击 **复制跟帖链接**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. 将您在上一步中复制的链接粘贴到电子邮件或其他应用程序中以便与其他人共享。 共享链接会打开您从中共享该链接的评论。
+
+#### 复制更新链接 {#copy-the-update-link}
+
+此选项将特定的更新链接复制到剪贴板。 当您共享更新链接时，跟踪该链接的用户会在更新周围看到边框。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **复制更新链接**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. 将您在上一步中复制的链接粘贴到电子邮件或其他应用程序中以便与其他人共享。 共享链接会打开您从中共享该链接的评论。
+
+#### 引用回复
+
+Quote Reply选项将原始备注作为块备注复制到新回复中。
+
+1. 转到要复制的更新或回复。
+1. 单击 **更多** 菜单，然后单击 **引用回复**.
+
+   将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
+
+1. 继续添加更新，然后单击 **回复** 以添加注释。
 
 ## 删除更新或回复
 
