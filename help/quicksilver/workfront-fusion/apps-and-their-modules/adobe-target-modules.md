@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL记录类型]</td>
@@ -197,19 +197,19 @@ ht-degree: 0%
       <ul>
         <li>
           <p>[！UICONTROL AB活动]</p>
-          <p>继续 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB活动字段</a>.</p>
+          <p>继续 <a href="#ab-activity-fields" class="MCXref xref" >AB活动字段</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL XT活动]</p>
-          <p>继续 <a href="#XT" class="MCXref xref" >XT活动字段</a>.</p>
+          <p>继续 <a href="#xt-activity-fields" class="MCXref xref" >XT活动字段</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL选件]</p>
-          <p>继续 <a href="#Offer" class="MCXref xref" >优惠字段</a>.</p>
+          <p>继续 <a href="#offer-fields" class="MCXref xref" >优惠字段</a>.</p>
         </li>
         <li>
           <p>[！UICONTROL受众]</p>
-          <p>继续 <a href="#Audience" class="MCXref xref" >受众字段</a>.</p>
+          <p>继续 <a href="#audience-fields" class="MCXref xref" >受众字段</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL [!DNL Target] 基本URL</td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL记录类型]</td>
@@ -733,7 +733,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL记录类型]</td>
@@ -756,7 +756,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL记录类型]</td>
@@ -766,12 +766,12 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL AB活动]</b>
             </p>
-            <p>请参阅中的字段描述 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB活动字段</a> 下 <a href="#Create2" class="MCXref xref" >创建记录</a>.</p>
+            <p>请参阅中的字段描述 <a href="#ab-activity-fields" class="MCXref xref" >AB活动字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL XT活动]</b>
             </p>
-            <p>请参阅中的字段描述 <a href="#XT" class="MCXref xref" >XT活动字段</a> 下 <a href="#Create2" class="MCXref xref" >创建记录</a>.</p>
+            <p>请参阅中的字段描述 <a href="#xt-activity-fields" class="MCXref xref" >XT活动字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
           </li>
           <li>
             <p><b>[！UICONTROL其他活动]</b>
@@ -781,12 +781,12 @@ ht-degree: 0%
           <li>
             <p><b>[！UICONTROL选件]</b>
             </p>
-            <p>请参阅中的字段描述 <a href="#Offer" class="MCXref xref" >优惠字段</a> 下 <a href="#Create2" class="MCXref xref" >创建记录</a>.</p>
+            <p>请参阅中的字段描述 <a href="#offer-fields" class="MCXref xref" >优惠字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>请参阅中的字段描述 <a href="#Audience" class="MCXref xref" >受众字段</a> 下 <a href="#Create2" class="MCXref xref" >创建记录</a>.</p>
+            <p>请参阅中的字段描述 <a href="#audience-fields" class="MCXref xref" >受众字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+      <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL记录类型]</td>
@@ -852,7 +852,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[！UICONTROL Connection]</td>
-    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#Create" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
+    <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
   </tr>
   <tr>
     <td role="rowheader">[！UICONTROL记录类型]</td>
