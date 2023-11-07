@@ -1,12 +1,13 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: 使用API Explorer
-description: 使用API Explorer
+title: 使用API资源管理器
+description: 使用API资源管理器
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -14,37 +15,37 @@ ht-degree: 0%
 ---
 
 
-# 使用API Explorer
+# 使用API资源管理器
 
-使用Adobe Workfront Core API時，API Explorer是舊版參考工具，可編錄支援的資源、引數和變數之間的關係。
+使用Adobe Workfront核心API时，API Explorer是一种旧版参考工具，它对支持的资源、参数和变量之间的关系进行编录。
 
-## 存取API總管：
+## 访问API Explorer：
 
-1. 使用網頁瀏覽器導覽至 [API總管](https://developer.adobe.com/workfront/api-explorer/)\
+1. 使用Web浏览器导航到 [API资源管理器](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. 在API Explorer的右上角，選取所需的Workfront **API版本**，預設會自動選取最新版本
-1. 此 **篩選** 欄位，可用來篩選依名稱列出的物件，並截斷相應顯示的物件清單：
+1. 在API Explorer的右上角，选择所需的Workfront **API版本**，默认情况下会自动选择最新版本
+1. 此 **筛选** 字段，可用于筛选按名称列出的对象，并将截断相应显示的对象列表：
 
    ![](assets/mceclip2-350x147.png)
 
-   * **欄位**：指定物件內的可用欄位。
-   * **引用**：指定物件的可用參考變數。 參照是變數的別名。 初始化後，參照可以與變數名稱互換使用。 參考使用初始化的記憶體。
-   * **集合**：物件的可用集合。 集合是代表物件與資源之間一對多關係的變數。
-   * **搜尋**：物件的可用搜尋資源。 搜尋結果會根據API要求中搜尋資源所指定的查詢引數。
-   * **動作**：物件支援的動作。 動作可以是針對資源或一組資源執行的簡單或複雜程式。 指定的動作也可能影響相關資源。
+   * **字段**：指定对象中的可用字段。
+   * **引用**：指定对象的可用参考变量。 引用是变量的别名。 初始化后，引用可以与变量名称互换使用。 引用使用初始化的内存。
+   * **收藏集**：对象的可用集合。 集合是表示对象和资源之间一对多关系的变量。
+   * **Search**：对象的可用搜索资源。 搜索结果基于API请求中搜索资源指定的查询参数。
+   * **操作**：对象支持的操作。 操作可以是针对某个资源或一组资源执行的简单或复杂的过程。 给定的操作也可能影响相关资源。
 
-1. 開啟標籤，然後按一下「物件ID」以檢視適用的變數。\
+1. 打开选项卡，然后单击对象ID以查看适用的变量。\
    ![](assets/approval-350x89.png)\
-   根據選取的物件，可能會套用下列變數：
+   根据所选对象，可能应用以下变量：
 
-   | 變數 | 定義 |
+   | 变量 | 定义 |
    |---|---|
-   | 字段名称 | Workfront API內作業所使用的欄位名稱。 |
-   | 欄位型別 | 可輸入資料表格中特定欄位的值型別。 可能的欄位型別值包括字串、double、int、dateTime。 |
-   | 列舉型別 | 可用來識別資料型別的值型別。 |
-   | 可能的值 | 物件的可接受值。 |
-   | 屬性型態物件代碼 | 可用來修改物件類別的屬性。 |
-   | URL | 可讓您的應用程式與Workfront API通訊的進入路徑。 |
-   | 引數 | 可在應用程式和Workfront之間傳遞的物件變數。 |
-   | 結果型別 | 可從方法傳回的允許資料型別。 |
+   | 字段名称 | Workfront API内操作中使用的字段的名称。 |
+   | 字段类型 | 可输入数据表中特定字段中的值的类型。 可能的字段类型值包括string、double、int、dateTime。 |
+   | 枚举类型 | 可用于标识数据类型的值的类型。 |
+   | 可能值 | 对象的可接受值。 |
+   | 属性类型对象代码 | 可用于修改对象类的属性。 |
+   | URL | 允许应用程序与Workfront API通信的条目路径。 |
+   | 参数 | 可在应用程序和Workfront之间传递的对象变量。 |
+   | 结果类型 | 可从方法返回的可允许的数据类型。 |

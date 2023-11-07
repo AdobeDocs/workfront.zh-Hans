@@ -1,31 +1,32 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本7的新增功能
+title: API版本7中的新增功能
 description: 收藏集
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
-# API版本7的新增功能
+# API版本7中的新增功能
 
 ## 新建对象
 
-### 校样Bean
+### 校对Bean
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 搜索 |
-| deadLine |   |   |   |   |   |   |
+| 死线 |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -83,7 +84,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>获取  </td> 
+   <td>Get  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -113,26 +114,26 @@ ht-degree: 50%
 | ID |   |   |   |   |   | 添加 |
 |   |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | 删除 |
-|   |   |   |   |   |   | 获取 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | 搜索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 校样批准
+### ProofApproval
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
-|   |   |   |   |   |   | 获取 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | 搜索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 资源轮廓
+### 资源分布
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -140,11 +141,11 @@ ht-degree: 50%
 |   |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | 删除 |
 |   |   |   |   |   |   | 编辑 |
-|   |   |   |   |   |   | 获取 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | 搜索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -156,25 +157,25 @@ ht-degree: 50%
 | isOwner  | 用户  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 时间表配置文件
+### 周期性工时表
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | 添加 |
+| ID |   |  hourType |   |   |   | 添加 |
 | name |   |   |   |   |   | 复制 |
 |   |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | 删除 |
 |   |   |   |   |   |   | 编辑 |
-|   |   |   |   |   |   | 获取 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | 搜索 |
 |   |   |   |   |   |   | 替换 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -183,16 +184,16 @@ ht-degree: 50%
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID | 客户 | 用户 |   |   |   | 添加 |
-| customerID  | enteredBy  |   |   |   |   | 计数 |
+| 客户ID  | 输入者  |   |   |   |   | 计数 |
 | 描述  | lastUpdatedBy  |   |   |   |   | 删除 |
-| enteredByID  |   |   |   |   |   | 编辑 |
-| entryDate  |   |   |   |   |   | 获取 |
-| extRefID  |   |   |   |   |   | 报告 |
+| enteredById  |   |   |   |   |   | 编辑 |
+| entryDate  |   |   |   |   |   | Get |
+| extRefId  |   |   |   |   |   | 报告 |
 | lastUpdateDate |   |   |   |   |   | 搜索 |
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -201,11 +202,11 @@ ht-degree: 50%
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
-| articleName  |   |   |   |   |   | 获取 |
+| 文章名称  |   |   |   |   |   | Get |
 | pageID  |   |   |   |   |   | 报告 |
 | url  |   |   |   |   |   | 搜索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -213,19 +214,19 @@ ht-degree: 50%
 
  
 
-## 更新的对象
+## 已更新对象
 
-对现有对象的更改：只列出了“添加”，“移除”具有“删除”，对现有的更改在表后面附加了注释
+对现有对象的更改：只列出添加项，删除项具有删除线，对现有对象的更改在表后具有附加注释
 
 ### UpdateBean
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改 
+<sup>1</sup> 对可能值的更改 
 
  
 
@@ -234,16 +235,16 @@ ht-degree: 50%
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### 访问规则<sup>1</sup>
 
-¹标记为可报告
+<sup>1</sup> 标记为可报告
 
  
 
@@ -253,11 +254,11 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### 批准路径¹
+### 批准路径<sup>1</sup>
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ ht-degree: 50%
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹已删除可报告标志
+<sup>1</sup> 已移除可报告标志
 
  
 
@@ -279,25 +280,25 @@ ht-degree: 50%
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了日期验证
+<sup>1</sup> 已添加日期验证
 
-²添加了不可过滤标记(_F)
+<sup>2</sup> 已添加Not_Filterable标志
 
  
 
-### 分配
+### 任务
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProject<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignuserfromprojects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了includeIssues字段
+<sup>1</sup> 已添加字段includeIssues
 
  
 
@@ -305,11 +306,11 @@ ht-degree: 50%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改 
+<sup>1</sup> 对可能值的更改 
 
  
 
@@ -319,7 +320,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,17 +330,17 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### DocumentVersion 
+### 文档版本 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -347,26 +348,26 @@ ht-degree: 50%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
-| layoutTemplateID |   |   |   |   |   |   |
+| isPublic |  布局模板 | 用户组  |   |   |   |   |
+| 布局模板标识 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹更改了8到9的PRECISION验证器
+<sup>1</sup> 将PRECISION验证器更改为8到9
 
  
 
-### HourType
+### 小时类型
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
 |   |   |   |   |   | defaultTaskHourType  |   |
-|   |   |   |   |   | globalHourTypes  |   |
+|   |   |   |   |   | globalHourType  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ ht-degree: 50%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改
+<sup>1</sup> 对可能值的更改
 
  
 
@@ -386,10 +387,10 @@ ht-degree: 50%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
+| approvalCompletionDate |   |   |   |  assignmultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -402,7 +403,7 @@ ht-degree: 50%
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,17 +415,17 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### QueueTopic
+### 队列主题
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -442,23 +443,23 @@ ht-degree: 50%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalCompletionDate |   |   |   | assignmultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 模板任务
+### TemplateTask
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹类型从Int更改为Double 
+<sup>1</sup> 类型从Int更改为Double 
 
  
 
@@ -496,9 +497,9 @@ ht-degree: 50%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDecavilationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timeskeleProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetprofileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -518,7 +519,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>isUserTermonicalActive</td> 
+   <td>isUserTerminalsActive</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -543,15 +544,15 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-### 用户说明
+### 用户注释
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
-| ackDate |   |   |   |   |   |   |
+| 确认日期 |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改
+<sup>1</sup> 对可能值的更改

@@ -6,11 +6,12 @@ title: 删除文档或文件夹
 description: 删除文档或文件夹
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
 
 ## URL
 
-PUT/删除
+PUT/delete
 
 ## 查询参数
 
@@ -34,11 +35,11 @@ PUT/删除
 
 ## 个回应
 
-指示成功或失败的JSON字符串，如下面的错误处理部分中指定。
+指示成功或失败的JSON字符串，如下面的错误处理部分中所述。
 
 ### 示例
 
-PUThttps://www.example.com/api/deleteid=1234
-* 返回 `status: “success”`
+PUThttps://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234
+* 返回 `status: "success"`
 
-* 返回 `status: “failure”, error: “File not found”`
+* 返回 `status: "failure", error: "File not found"`

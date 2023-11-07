@@ -1,27 +1,28 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本10的新增功能
-description: 更新的资源
+title: API版本10中的新增功能
+description: 已更新的资源
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 46%
+source-wordcount: '472'
+ht-degree: 42%
 
 ---
 
-# API版本10的新增功能
+# API版本10中的新增功能
 
 * [新资源](#new-resources)
-* [更新的资源](#updated-resources)
-* [已删除的资源](#removed-resources)
+* [已更新的资源](#updated-resources)
+* [已删除资源](#removed-resources)
 
 ## 新资源 {#new-resources}
 
-### ActivityLog
+### 活动日志
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -30,7 +31,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 日历条目
 
@@ -41,10 +42,10 @@ ht-degree: 46%
 |   |   |   |   |   |   | 删除  |
 |   |   |   |   |   |   | 编辑  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 报表  |
+|   |   |   |   |   |   | 报告  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
@@ -52,10 +53,10 @@ ht-degree: 46%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 报表  |
+|   |   |   |   |   |   | 报告  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
@@ -66,82 +67,82 @@ ht-degree: 46%
 |   |   |   |   |   |   | 删除  |
 |   |   |   |   |   |   | 编辑  |
 |   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | 报表  |
+|   |   |   |   |   |   | 报告  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| customerID | 客户 |   |   |   |   |   |
+| 客户ID | 客户 |   |   |   |   |   |
 | groupID | 组 |   |   |   |   |   |
-| planLimit |   |   |   |   |   |   |
+| planlimit |   |   |   |   |   |   |
 | usedLicenses |   |   |   |   |   |   |
 | 工作限制 |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| customerID | 客户 |   |   |   |   | 添加 |
+| 客户ID | 客户 |   |   |   |   | 添加 |
 | edTime | 用户 |   |   |   |   | 计数 |
 | firstDayOfWeek |   |   |   |   |   | 删除 |
 | ID |   |   |   |   |   | 编辑 |
 | showPTO |   |   |   |   |   | GET |
-| startTime |   |   |   |   |   | 报表 |
+| startTime |   |   |   |   |   | 报告 |
 | userID |   |   |   |   |   | SEARCH |
-| workDate |   |   |   |   |   |   |
+| 工作日期 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**更新的资源**
+**已更新的资源**
 
-以下现有资源已使用此版本的Workfront API进行更新。 对资源所做的更改如下所示：
+以下现有资源已使用此版本的Workfront API进行了更新。 对资源所做的更改如下所示：
 
-* 添加内容仅列出
-* 删除使用删除线文本进行指示
-* 更改列在表后面的注释中
+* 添加内容只会列出
+* 删除以删除线文本指示
+* 更改在表后面的注释中列出
 
 ### 审批
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
-| projectBudgededCost  |   |   |   |   |   |   |
-| projectNetValue  |   |   |   |   |   |   |
+| projectBudgetedCost  |   |   |   |   |   |   |
+| 项目净值  |   |   |   |   |   |   |
 | projectRoi  |   |   |   |   |   |   |
-| resourcePlannerBudgededLaborCost  |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
-### 分配
+### 任务
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |   |   |   |   |   |   |
+| assignmentpercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`添加了验证器LESS_THAN_EQUAL
+`<sup>1</sup>`已添加验证器LESS_THAN_EQUAL
 
-### BudgededHour
+### BudgetedHour
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -149,11 +150,11 @@ ht-degree: 46%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对possibleValues的更改
+<sup>1</sup> 对possibleValues的更改
 
 ### DocMetadataLinkGroup
 
@@ -161,36 +162,36 @@ ht-degree: 46%
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 文档
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### DocumentRequest
-
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
-|---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
-
-{style=&quot;table-layout:auto&quot;}
-
-DocumentVersion
+### 文档请求
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| `masterTaskID` |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+文档版本
+
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+|---|---|---|---|---|---|---|
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对possibleValues的更改
+<sup>1</sup> 对possibleValues的更改
 
 费用
 
@@ -198,7 +199,7 @@ DocumentVersion
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 组
 
@@ -207,73 +208,73 @@ DocumentVersion
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### LinkedFolder
+### 链接文件夹
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对possibleValues的更改
+<sup>1</sup> 对possibleValues的更改
 
 ### Op 任务
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹类型从null更改为布尔值
+<sup>1</sup> 类型从null更改为布尔值
 
-### PortalSection
+### 门户部分
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 项目组合
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
-| portfolioRoi |   |   |   |   |   |   |
+| 项目组合净值 |   |   |   |  |  |   |
+| 项目组合Roi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 项目
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| projectBudgededCost  |   |   |   | linkExternalObject  |   |   |
-| projectNetValue |   |   |   | unlinkExternalObject |   |   |
+| projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
+| 项目净值 |   |   |   | unlinkExternalObject |   |   |
 | projectRoi |   |   |   |   |   |   |
-| resourcePlannerBudgededLaborCost |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 校样批准
+### ProofApproval
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| 审批者决策 |  |  |  |  |  |  |
+| approverDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 费率
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rate值 <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了验证器货币
+<sup>1</sup>已添加验证方货币
 
 ### 任务
 
@@ -283,7 +284,7 @@ DocumentVersion
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,27 +292,27 @@ DocumentVersion
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了验证器LESS_THAN
+<sup>1</sup> 添加了验证器LESS_THAN
 
-### TeamAssignment
-
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
-|---|---|---|---|---|---|---|
-| `masterTaskID` |   |   |   |   |   |   |
-
-{style=&quot;table-layout:auto&quot;}
-
-### TeamTask
+### 团队分派
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
+
+### 团队任务
+
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+|---|---|---|---|---|---|---|
+| `masterTaskID` |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
 
 ### 时间表
 
@@ -319,63 +320,63 @@ DocumentVersion
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 更新
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对possibleValues的更改
+<sup>1</sup> 对possibleValues的更改
 
 ### 用户
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|   | accessLevel  |   |   |   |   |   |
+|   | accesslevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 用户说明
+### 用户注释
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| 事件类型 <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对possibleValues的更改
+<sup>1</sup> 对possibleValues的更改
 
 ### 工作
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹类型从null更改为布尔值
+<sup>1</sup> 类型从null更改为布尔值
 
-## 已删除的资源 {#removed-resources}
+## 已删除资源 {#removed-resources}
 
 ### ResourceBudgetedHour
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 添加  |
-| budgededHours |   |   |   |   |   | 计数  |
+| budgetedHours |   |   |   |   |   | 计数  |
 | ID |   |   |   |   |   | 删除  |
-| planedBudgededHours |   |   |   |   |   | 编辑  |
+| plannedBudgetedHours |   |   |   |   |   | 编辑  |
 | projectID |   |   |   |   |   | GET  |
-| roleID |   |   |   |   |   | 报表  |
+| roleID |   |   |   |   |   | 报告  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

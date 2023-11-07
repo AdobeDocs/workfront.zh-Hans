@@ -1,23 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本9的新增功能（续）
-description: 此列表是较大列表的后半部分。 上半部分位于API版本9的新增功能。 有关版本9的更新列表，请参阅API版本9的更新。
+title: API版本9中的新增功能（续）
+description: 这份名单只是大名单的第二部分。 前半部分位于API版本9中的新增功能。 在API版本9的更新中，您可以找到版本9的更新列表。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 25%
 
 ---
 
-# API版本9的新增功能（续）
+# API版本9中的新增功能（续）
 
-此列表是较大列表的后半部分。 前半部分可位于 [API版本9的新增功能](../../wf-api/api/new-api-version-9.md). 您可在以下位置找到版本9的更新列表： [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md).
+这份名单只是大名单的第二部分。 前半部分可以位于 [API版本9中的新增功能](../../wf-api/api/new-api-version-9.md). 您可以在以下位置找到版本9的更新列表： [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md).
 
-## PortalSection
+## 门户部分
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -83,7 +84,7 @@ ht-degree: 29%
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
@@ -95,9 +96,9 @@ ht-degree: 29%
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## PortalSectionStatityInfo
+## PortalSectionStatisticInfo
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -113,7 +114,7 @@ ht-degree: 29%
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 门户选项卡
 
@@ -135,7 +136,7 @@ ht-degree: 29%
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
@@ -152,17 +153,17 @@ ht-degree: 29%
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## ReportFolder
+## 报告文件夹
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| customerID | `customer` |   |   |   |   |   |
+| 客户ID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 计划报表
 

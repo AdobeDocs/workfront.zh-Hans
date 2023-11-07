@@ -1,23 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本9的新增功能
-description: 这是API版本9的新资源列表，要查看对版本9的资源所做的更新列表，请访问API版本9的更新
+title: API版本9中的新增功能
+description: 这是API版本9的新资源列表，要查看版本9的资源更新列表，请访问API版本9的更新
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
-# API版本9的新增功能
+# API版本9中的新增功能
 
 ## 新资源
 
-这是API版本9的新资源列表，要查看对版本9的资源所做的更新列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)
+这是API版本9的新资源列表，要查看对版本9的资源已进行的更新列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)
 
 ### 访问级别
 
@@ -63,7 +64,7 @@ ht-degree: 16%
 
 {style="table-layout:auto"}
 
-### BudgededHour
+### BudgetedHour
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -109,7 +110,7 @@ ht-degree: 16%
 
 {style="table-layout:auto"}
 
-### ExternalSection
+### 外部部分
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -139,4 +140,4 @@ ht-degree: 16%
 
  
 
-这份清单分成两半。 要查看下半部分，请参阅 [API版本9的新增功能（续）](../../wf-api/api/new-api-version-9-continue.md). 要查看版本9更新的列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)
+这份名单已经分成两半。 要查看下半部分，请参见 [API版本9中的新增功能（续）](../../wf-api/api/new-api-version-9-continue.md). 要查看版本9更新的列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)

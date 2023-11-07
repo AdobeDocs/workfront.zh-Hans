@@ -1,35 +1,36 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本8的新增功能
-description: 这是API版本9新增的资源列表。 有关已对版本8的资源进行的更新列表，请访问API版本8的更新
+title: API版本8中的新增功能
+description: 这是API版本9的新增资源列表。 有关已对版本8的资源进行的更新的列表，请访问API版本8的更新
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 32%
+source-wordcount: '261'
+ht-degree: 30%
 
 ---
 
-# API版本8的新增功能
+# API版本8中的新增功能
 
 ## 新资源
 
-这是API版本9新增的资源列表。 有关已对版本8的资源进行更新的列表，请访问 [API版本8的更新](../../wf-api/api/new-api-version-8-updates.md)
+这是API版本9的新增资源列表。 有关已对版本8的资源进行的更新的列表，请访问 [API版本8的更新](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| 积压订单 | 客户 |   |   | bulkCopy  |   | 复制 |
+| backlogOrder | 客户 |   |   | bulkcopy  |   | 复制 |
 | 颜色 | 迭代  |   |   |   |   | 计数 |
-| customerID | lastUpdatedBy |   |   |   |   | 删除 |
-| 估计 | opTask |   |   |   |   | 编辑 |
+| 客户ID | lastUpdatedBy |   |   |   |   | 删除 |
+| 预估 | op任务 |   |   |   |   | 编辑 |
 | ID | 项目 |   |   |   |   | GET  |
-| isReady | storyboardParent |   |   |   |   | 报表 |
-| iterationID | 任务 |   |   |   |   | SEARCH |
+| isReady | 情节提要父级 |   |   |   |   | 报告 |
+| 迭代标识 | 任务 |   |   |   |   | SEARCH |
 | lastUpdateDate | 团队 |   |   |   |   |   |
 | lastUpdatedByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
@@ -44,20 +45,20 @@ ht-degree: 32%
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | 计数  |
+| 弃用版本 |   |   |   |   |   | 计数  |
 | removalRelease |   |   |   |   |   | GET |
-| versionName |   |   |   |   |   | 报表 |
+| versionName |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**看板板**
+**KanbanBoard**
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
@@ -66,10 +67,10 @@ ht-degree: 32%
 |   |   |   |   |   |   | 删除 |
 |   |   |   |   |   |   | 编辑 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 报表 |
+|   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApprovalStatus
 
@@ -79,33 +80,33 @@ ht-degree: 32%
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ProofFileMetadata**
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| documentVersionID | documentVersion |   |   |   |   |   |
+| documentVersionID | 文档版本 |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
-| fileName |   |   |   |   |   |   |
+| 文件名 |   |   |   |   |   |   |
 | ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ResourceBudgetedHour**
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 添加 |
-| budgededHours |   |   |   |   |   | 计数 |
-| planedBudgededHours |   |   |   |   |   | 删除 |
+| budgetedHours |   |   |   |   |   | 计数 |
+| plannedBudgetedHours |   |   |   |   |   | 删除 |
 | projectID |   |   |   |   |   | 编辑 |
 | roleID |   |   |   |   |   | GET |
-| userID |   |   |   |   |   | 报表 |
+| userID |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
@@ -116,21 +117,21 @@ ht-degree: 32%
 |   |   |   |   |   |   | 删除 |
 |   |   |   |   |   |   | 编辑 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 报表 |
+|   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**富文本注释**
+**RichTextNote**
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | 报表 |
+|   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 订阅
 
@@ -138,12 +139,12 @@ ht-degree: 32%
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | 订阅者 | 添加 |
 |   |   |   |   | removeSubscribers |   | 计数  |
-|   |   |   |   | 订阅 |   | 删除 |
+|   |   |   |   | 订阅次数 |   | 删除 |
 |   |   |   |   | 取消订阅 |   | GET |
-|   |   |   |   |   |   | 报表 |
+|   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 用户角色
 

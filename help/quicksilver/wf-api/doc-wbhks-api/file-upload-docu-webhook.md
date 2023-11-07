@@ -2,26 +2,27 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: 通过文档Webhooks上传文件
-description: 通过文档Webhooks上传文件
+title: 通过文档Webhook上传文件
+description: 通过文档Webhook上传文件
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# 通过文档Webhooks上传文件
+# 通过文档Webhook上传文件
 
-将文件上传到文档存储提供程序是一个两步流程，需要两个单独的API端点。 Adobe Workfront通过调用/uploadInit开始上传过程。 此端点会返回一个文档ID，在上传文档字节时，该ID会被传递到/upload。 根据基础文档存储系统，可能需要创建一个零长度文档，然后稍后更新文档的内容。
+将文件上传到文档存储提供商的过程分为两步，需要两个单独的API端点。 Adobe Workfront通过调用/uploadInit开始上传过程。 此端点返回一个文档ID，然后在上传文档字节时将其传递到/upload。 根据基础文档存储系统的不同，可能需要创建一个长度为零的文档，然后稍后更新该文档的内容。
 
-添加到此规范的1.1版中，文档ID和文档版本ID可用于从Workfront中检索其他信息。
+添加到此规范版本1.1中的文档ID和文档版本ID可用于从Workfront中检索额外信息。
 
-**示例：** 如果文档管理系统需要有关文档的额外信息，则Webhook实施代码可以使用文档ID来使用Workfront的RESTful API检索该信息。 作为一种好的做法，此信息可能来自文档上的自定义数据字段，其中包含任务、问题或项目。
+**示例：** 如果文档管理系统需要有关文档的额外信息，webhook实施代码可以使用文档ID使用Workfront的RESTful API检索该信息。 好的做法是，这些信息可能来自文档上的自定义数据字段，并且包含任务、问题或项目。
 
 ## POST方法
 
@@ -43,7 +44,7 @@ POST/uploadInit
  <tbody> 
   <tr> 
    <td>parentId </td> 
-   <td>Webhook提供程序引用的父文件夹ID。</td> 
+   <td>由webhook提供程序引用的父文件夹ID。</td> 
   </tr> 
   <tr> 
    <td>文件名 </td> 
@@ -51,7 +52,7 @@ POST/uploadInit
   </tr> 
   <tr> 
    <td>documentId</td> 
-   <td> <p>Workfront文档ID（在版本1.1中添加）</p> <p> </p> </td> 
+   <td> <p>Workfront文档ID（1.1版中添加）</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
@@ -72,11 +73,11 @@ https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documen
 
 ## PUT方法
 
-将文档的字节上载到Webhook提供程序。
+将文档的字节上载到webhook提供程序。
 
 **URL**
 
-PUT/上载
+PUT/upload
 
 ## 查询参数
 
@@ -93,7 +94,7 @@ PUT/上载
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -101,7 +102,7 @@ result: “success”
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

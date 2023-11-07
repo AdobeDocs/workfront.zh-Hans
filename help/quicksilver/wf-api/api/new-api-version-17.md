@@ -5,7 +5,9 @@ title: API版本17中的新增功能
 description: Adobe Workfront于2022年4月6日发布了API版本17。 API版本17具有来自版本15的以下更改。
 author: Becky
 feature: Workfront API
-source-git-commit: e0b040b062796a1d1b1e0c029ca0ef71b77ed54a
+role: Developer
+exl-id: 08e90754-5505-424c-ae67-015cc987b5df
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 4%
@@ -803,14 +805,14 @@ UserNote对象是通知。
               <li>已批准文档(ADA)</li>
               <li>已审批但有更改的文档(ADC)</li>
               <li>文档需求工作(ADN)</li>
-              <li>（用户）已将（文档）标记为已批准。 不再需要您的审批。(AAN)</li>
-              <li>（用户）已将（文档）标记为已批准，但有更改。 不再需要您的审批。(ACN)</li>
-              <li>（用户）已将（文档）标记为需要工作。 不再需要您的审批。(AWN)</li>
+              <li>（用户）已将（文档）标记为已批准。 不再需要您的审批. (AAN)</li>
+              <li>（用户）已将（文档）标记为已批准，但有更改。 不再需要您的审批. (ACN)</li>
+              <li>（用户）已将（文档）标记为需要工作。 不再需要您的审批. (AWN)</li>
               <li>文档需要您立即审核而不是批准(AAC)</li>
               <li>文档需要您立即批准而不是审阅(ADN)</li>
               <li>已审阅文档(RDC)</li>
               <li>已审阅文档(TRC)</li>
-              <li>（用户）已审阅（文档）为完成。 不再需要您的审查。(TRN)</li>
+              <li>（用户）已审阅（文档）为完成。 不再需要您审阅. (TRN)</li>
             </ul>
           </li>
         </ul>

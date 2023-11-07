@@ -7,9 +7,10 @@ title: 文档Webhooks API概述
 description: 文档Webhooks API主题
 author: Becky
 feature: Workfront API
+role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

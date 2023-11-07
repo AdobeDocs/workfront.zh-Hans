@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API版本6的新增功能
-description: API版本6的新增功能
+title: API版本6中的新增功能
+description: API版本6中的新增功能
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 38%
 
 ---
 
-# API版本6的新增功能
+# API版本6中的新增功能
 
 ## 新建对象
 
@@ -22,9 +23,9 @@ ht-degree: 42%
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | ID | 客户 |   |   |   |   | 添加 |
-| customerID | 项目 |   |   |   |   | 计数 |
-| projectID | resourceManager |   |   |   |   | 删除 |
-| resourceManagerID | 模板 |   |   |   |   | 获取 |
+| 客户ID | 项目 |   |   |   |   | 计数 |
+| projectID | 资源管理器 |   |   |   |   | 删除 |
+| resourceManagerID | 模板 |   |   |   |   | Get |
 | templateID |   |   |   |   |   | 报告  |
 |   |   |   |   |   |   | 搜索  |
 
@@ -33,26 +34,26 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| fileName |   |   |   |   | 上传 |   |
+| 文件名 |   |   |   |   | 上传 |   |
 | 句柄 |   |   |   |   |   |   |
-| objCode |   |   |   |   |   |   |
+| 对象代码 |   |   |   |   |   |   |
 
 
 ### 自定义标签
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | customLabels | 添加 |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | 计数 |
+| ID |   |   |   | checkDelete | customLabel | 添加 |
+|   |   |   |   | inUseByOtherLayoutTemplate | user自定义标签 | 计数 |
 |   |   |   |   | removeCustomLabel |   | 删除 |
-|   |   |   |   |   |   | 获取 |
+|   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 报告 |
 |   |   |   |   |   |   | 搜索 |
 
 
-## 更新的对象
+## 已更新对象
 
-对现有对象的更改：只列出了“添加”，“移除”具有“删除”，对现有的更改在表后面附加了注释
+对现有对象的更改：只列出添加项，删除项具有删除线，对现有对象的更改在表后具有附加注释
 
 ### 更新
 
@@ -60,14 +61,14 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改
+<sup>1</sup> 对可能值的更改
 
-² hasFilters属性更改为true
+<sup>2</sup> hasFilters属性已更改为true
 
  
 
@@ -75,17 +76,17 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
-| isOriginalPlanedHoursSet |   |   |   |   |   |   |
+| completedHours |   | 资源管理器 | resourceManagerIDs |   |   |   |
+| 约束日期<sup>1</sup> |   |   |   |   |   |   |
+| isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了日期验证
+<sup>1</sup> 已添加日期验证
 
-²添加了NOT_FILTERABLE标记
+<sup>2</sup> 已添加NOT_FILTERABLE标志
 
  
 
@@ -93,46 +94,46 @@ ht-degree: 42%
 
 |   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 批准步骤
+### 审批步骤
 
  
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改
+<sup>1</sup> 对可能值的更改
 
  
 
-### 批准路径¹
+### 批准路径<sup>1</sup>
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | 添加 |
-| approvedStatusLabel |   |   |   |   |   | 计数 |
+| approvedStatusLabs |   |   |   |   |   | 计数 |
 | 备注 |   |   |   |   |   | 删除 |
-| enteredByID |   |   |   |   |   | 编辑 |
-| entryDate |   |   |   |   |   | 获取 |
+| enteredById |   |   |   |   |   | 编辑 |
+| entryDate |   |   |   |   |   | Get |
 | globalPathID |   |   |   |   |   | 报告 |
 | isPrivate |   |   |   |   |   | 搜索 |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹更改为可报告
+<sup>1</sup> 更改为可报告
 
-²添加了最大长度验证器
+<sup>2</sup> 添加了最大长度验证器
 
  
 
@@ -140,26 +141,26 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| 约束日期<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| 所需工作<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了日期验证
+<sup>1</sup> 已添加日期验证
 
-²添加了不可过滤标记(_F)
+<sup>2</sup> 已添加Not_Filterable标志
 
  
 
-### 分配
+### 任务
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | assignUserToRoleOnProjects |   |   |
+|   |   |   |   | assignUserToRoleOnProject |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
-|   |   |   |   | unassignUserFromProjects |   |   |
+|   |   |   |   | unassignuserfromprojects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了不可过滤标记(_F)
+<sup>1</sup> 已添加Not_Filterable标志
 
  
 
@@ -179,11 +180,11 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 所需工作<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了不可过滤标记(_F)
+<sup>1</sup> 已添加Not_Filterable标志
 
  
 
@@ -191,20 +192,20 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹添加了NO_TIME字段标记
+<sup>1</sup> 添加了NO_TIME字段标志
 
-### 燃耗事件 
+### 燃尽事件 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ ht-degree: 42%
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -223,11 +224,11 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatusses |   |
-|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuss |   |
-|   |   |   |   |   | taskGroupStatusses |   |
+|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
+|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatures |   |
+|   |   |   |   |   | taskGroupStatures |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ ht-degree: 42%
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| 费率<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹更改了8到9的PRECISION验证器
+<sup>1</sup> 将PRECISION验证器更改为8到9
 
  
 
@@ -260,7 +261,7 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,61 +269,61 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹对可能值的更改
+<sup>1</sup> 对可能值的更改
 
  
 
-### Optask（问题）¹ 
+### Optask（问题）<sup>1</sup> 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹标记为可恢复
+<sup>1</sup> 标记为可恢复
 
-²添加了不可过滤标记(_F)
+<sup>2</sup> 已添加Not_Filterable标志
 
  
 
-### 项目¹ 
+### 项目<sup>1</sup> 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
-| isOriginalPlanedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
-| originalWorkRequired |   |   | `work` |   |   |   |
+| isOriginalPlannedHoursSet |   | 资源管理器 | resourceManagerIDs  |   |   |   |
+| originalworkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | 工作 |   |   |   |   |   |   |
-| workRequired |   |   |   |   |   |   |
+| 所需工作 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹标记为可恢复和资源_可管理
+<sup>1</sup> 标记为“可恢复”和“资源可管理”
 
-²添加了不可过滤标记(_F)
+<sup>2</sup> 已添加Not_Filterable标志
 
  
 
-### 任务¹
+### 任务<sup>1</sup>
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| 约束日期<sup>2</sup> |   |   |   |   |   |   |
+| 所需工作<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹标记为可恢复
+<sup>1</sup> 标记为可恢复
 
-²添加了AT_DATE_YEAR_BEFORE验证器
+<sup>2</sup> 已添加AT_DATE_YEAR_BEFORE验证器
 
-³添加了不可过滤标记(_F)
+<sup>3</sup> 已添加Not_Filterable标志
 
  
 
@@ -333,31 +334,31 @@ ht-degree: 42%
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 模板¹ 
+### 模板<sup>1</sup> 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-|   |   | resourceManagers | resourceManagerIDs |   |   |   |
+|   |   | 资源管理器 | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹标记为可恢复和资源_可管理
+<sup>1</sup> 标记为“可恢复”和“资源可管理”
 
-### 模板任务¹ 
+### 模板任务<sup>1</sup> 
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 所需工作<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹标记为可恢复
+<sup>1</sup> 标记为可恢复
 
-²添加了不可过滤标记(_F)
+<sup>2</sup> 已添加Not_Filterable标志
 
  
 
@@ -365,25 +366,25 @@ ht-degree: 42%
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH违规者
+<sup>1</sup> MAX_LENGTH违规者
 
  
 
-### 用户说明
+### 用户注释
 
 | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| 事件类型<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能值已更改
+<sup>1</sup> 可能的值已更改
 
-²已将过滤器更改为 `[true]`
+<sup>2</sup> 已将筛选器更改为 `[true]`
 
  
 

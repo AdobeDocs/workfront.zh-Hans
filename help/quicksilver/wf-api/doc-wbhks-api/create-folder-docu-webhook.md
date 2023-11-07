@@ -2,20 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: 使用文档Web挂接创建文件夹
-description: 使用文档Web挂接创建文件夹
+title: 创建包含文档Webhook的文件夹
+description: 创建包含文档Webhook的文件夹
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
 
-# 使用文档Web挂接创建文件夹
+# 创建包含文档Webhook的文件夹
 
 在给定目录中创建文件夹。
 
@@ -35,7 +36,7 @@ POST/createFolder
 
 **响应**
 
-新创建文件夹的元数据，由/metadata端点定义。
+新创建文件夹的元数据，如/metadata端点定义。
 
 ## 示例
 
@@ -52,7 +53,7 @@ name=New Folder
 ```
 {title:"New Folder",br /> kind:"folder"
  id":"5678",
- viewLink:"”,
+ viewLink:"",
  downloadLink:"",
  mimeType:"",
  dateModified:"2014­06­05T17:39:45.251Z"

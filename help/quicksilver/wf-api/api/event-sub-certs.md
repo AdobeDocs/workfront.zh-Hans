@@ -5,7 +5,9 @@ title: 事件订阅证书
 description: 事件订阅证书
 author: Becky
 feature: Workfront API
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+role: Developer
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -27,26 +29,26 @@ Sandbox 1
 Sandbox 2
 -->
 
-客户端TLS允许您验证您收到的事件订阅消息是否实际来自Adobe Workfront。 要启用此功能，必须将您的服务器配置为请求和验证Workfront的x509证书。
+通过客户端TLS，可验证您收到的事件订阅消息是否实际来自Adobe Workfront。 要启用此功能，必须将您的服务器配置为请求和验证Workfront的x509证书。
 
 
 ## 验证Workfront的客户端证书
 
-此过程假定您的服务器已配置为接受TLS连接。 Workfront不支持自签名证书。
+此过程假定您的服务器配置为接受TLS连接。 Workfront不支持自签名证书。
 
-通常，为服务器启用客户端身份验证需要执行以下步骤：
+通常，为服务器启用客户端身份验证所需的步骤如下：
 
 1. 下载DigiCert全局根CA证书的PEM版本。
 1. 打开客户端证书验证。
 
-   将步骤1中的CA证书指定为受信任。
+   将步骤1中的CA证书指定为可信证书。
 
-1. 将验证深度设置为2，因为我们的证书实际上由DigiCert SHA2 Secure Server CA签名，该CA是DigiCert Global Root CA下的中间CA。
-1. 通过检查客户端证书的主体域名，验证客户端证书是否实际来自Workfront。
+1. 将验证深度设置为2，因为我们的证书实际由DigiCert SHA2安全服务器CA签名，该CA是DigiCert全局根CA下的中间CA。
+1. 通过检查客户端证书的主题域名，验证其是否确实来自Workfront。
 
 ## 服务器配置示例
 
-### NGINX
+### 恩金克斯
 
 ```
 server {
@@ -63,7 +65,7 @@ server {
 }
 ```
 
-有关更多信息，请参阅 [ngx_http_ssl_module的NGiNX文档](http://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+欲了解更多信息，请参见 [ngx_http_ssl_module的NGiNX文档](http://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -92,7 +94,12 @@ Listen 443
 
 ## 证书到环境的映射
 
-| WF环境 |证书通用名称 |证书主体(DN) | | — | — | — | |生产 | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com| |预览 | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com | |沙盒1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com | |沙盒2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| WF环境 | 证书公用名 | 证书主题(DN) |
+| -- | -- | -- |
+| 生产 | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| 预览 | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront， Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## 下载证书
 
@@ -105,4 +112,3 @@ Listen 443
 >[!NOTE]
 >
 >您可以对两个沙盒环境使用相同的客户端证书。
-

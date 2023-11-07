@@ -1,44 +1,45 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: 用于事件订阅的出站消息格式
-description: 用于事件订阅的出站消息格式
+title: 事件订阅的出站消息格式
+description: 事件订阅的出站消息格式
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# 用于事件订阅的出站消息格式
+# 事件订阅的出站消息格式
 
-随着Adobe Workfront 2017.3的发布，事件订阅的出站消息格式将发生更改，从而可提高性能并更好地用于集成的事件订阅。
+在Adobe Workfront 2017.3版中，用于事件订阅的出站消息格式将发生更改，以提高性能并更好地将事件订阅用于您的集成。
 
-## 更新了出站消息格式
+## 出站消息格式的更新
 
 将对出站消息格式进行以下更改：
 
-* 出站消息将包括Workfront资源的oldState和newState。
+* 出站消息将包含Workfront资源的oldState和newState。
 
-   这些值将显示因Workfront中的事件而对对象所做的更改。
+  这些值将显示因Workfront中的事件而对对象所做的更改。
 
 * eventTime元数据字段将添加到所有出站消息中。
 
-   此字段将以Nanoseconds和EpochSeconds表示事件发生的时间。 在对由集成处理的事件进行排序时使用eventTime 。
+  此字段将指示事件发生的时间（以纳秒和EpochSeconds为单位）。 在订购由您的集成处理的事件时使用eventTime。
 
-* 将删除NOTE资源中的owner:companyID引用字段。
-* 将删除DOCU（文档）资源上的currentVersion referenced objectOn。
+* 将删除NOTE资源中引用的owner：companyID字段。
+* 将删除DOCU（文档）资源上的currentVersion引用对象。
 
-如果您当前使用的是Workfront事件订阅，则需要在2017.3版本之前更新Workfront集成，才能考虑这些更改。
+如果您当前使用Workfront活动订阅，则需要在2017.3版本之前更新Workfront集成，才能解决这些更改。
 
 要了解有关事件订阅的更多信息，请参阅 [事件订阅API](../../wf-api/general/event-subs-api.md).
 
-## 旧消息格式和新消息格式示例
+## 新旧报文格式示例
 
-2017.3版发布后，将不再使用以下旧格式的CREATE消息：
+2017.3版发布后，将不再使用以下旧格式CREATE消息：
 
 ```
 {
@@ -72,7 +73,7 @@ ht-degree: 0%
 }
 ```
 
-2017.3版之后将使用以下新格式CREATE消息：
+以下新格式CREATE消息将在2017.3版之后使用：
 
 ```
 {
@@ -146,7 +147,7 @@ ht-degree: 0%
  }
 ```
 
-2017.3版发布后将使用以下新格式的UPDATE消息：
+以下新格式UPDATE消息将在2017.3版本之后使用：
 
 ```
 {

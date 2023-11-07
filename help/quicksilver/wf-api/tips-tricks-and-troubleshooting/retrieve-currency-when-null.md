@@ -1,20 +1,22 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: 当货币为null时，检索项目的货币信息
-description: 当货币为null时，检索项目的货币信息
+title: 在货币为null时检索项目的货币信息
+description: 在货币为null时检索项目的货币信息
 author: Becky
 feature: Workfront API
-source-git-commit: a9af457793e123a60172fe4baf5ae5def472b026
+role: Developer
+exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 当货币为null（未分配）时，检索项目的货币信息
+# 在货币为null（未分配）时检索项目的货币信息
 
-可使用以下请求检索具有货币字段的项目对象：
+使用以下请求可检索包含货币字段的项目对象：
 
 ```
 GET /attask/api-internal/project/{{projectID}}?fields=currency
@@ -35,7 +37,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-如果未为项目设置货币，则此响应将包含值为的货币 `null`:
+如果未为项目设置货币，则此响应将包含具有值的货币 `null`：
 
 ```
 {
@@ -50,11 +52,11 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-如果需要项目使用货币（例如计算），则可以检索客户的默认货币：
+如果您需要项目的币种（如用于计算的币种），则可以检索客户的默认币种：
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-响应包括用户设置为默认的货币，该货币将用于未设置该货币的客户的任何项目：
+此响应包括用户设置为默认值的货币，没有该货币设置的任何项目都将使用此货币：
 
 ```
 {
