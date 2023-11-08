@@ -4,9 +4,9 @@ description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">子任务现在可在Adobe Workfront展示板上使用</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>当您将已连接的信息卡添加到Workfront任务的展示板时，任何现有子任务都会导入到该信息卡上。 此外，在连接的信息卡上创建子任务时，也会将一个子任务添加到Workfront任务中。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">子任务现在可在Adobe Workfront展示板上使用</a> <span style="color: #ff0000; font-weight: bold;">（自2023年11月7日起暂时不可用）</span></p><p>[！BADGE In Production ]{type=Informational}</p><p>当您将已连接的信息卡添加到Workfront任务的展示板时，任何现有子任务都会导入到该信息卡上。 此外，在连接的信息卡上创建子任务时，也会将一个子任务添加到Workfront任务中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
