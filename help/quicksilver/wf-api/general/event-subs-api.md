@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ ht-degree: 3%
 * 仪表板
 * 文档
 * 费用
+* 字段
 * 小时
 * 问题
 * 注释
 * 项目组合
 * 项目群
 * 项目
+* 记录
+* 记录类型
 * 报告
 * 任务
 * 模板
@@ -122,6 +125,10 @@ ht-degree: 3%
         <td scope="col">展开</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>字段</p></td> 
+        <td scope="col"><p>字段</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>小时</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -144,6 +151,14 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>项目</p></td> 
         <td scope="col"><p>项目</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>记录</p></td> 
+        <td scope="col"><p>记录</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>记录类型</p></td> 
+        <td scope="col"><p>记录类型</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>报告</p></td> 
