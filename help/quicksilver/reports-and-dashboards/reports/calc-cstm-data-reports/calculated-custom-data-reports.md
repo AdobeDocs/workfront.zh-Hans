@@ -3,21 +3,21 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 报表中计算的自定义数据
-description: 本部分包含以下文章 — 编辑我。
+description: 您可以使用计算的自定义数据创建报表。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # 报表中计算的自定义数据
 
-本节包含以下文章：
+您可以使用计算的自定义数据创建报表。 以下文章描述了如何做到这一点：
 
 * [计算的数据表达式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [计算的自定义字段与计算的列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)

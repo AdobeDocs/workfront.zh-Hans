@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 作为 [!DNL Adobe Workfront] 管理员，您可以在中指定时间表和小时数的首选项 [!DNL Workfront] 以定义时间表可预填充的项目以及用户可将时间记录到的项目。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->默认情况下，您在时间表的时间范围内记录时间的项目会显示在时间表中，但它们可能不符合本文中所述的预填充时间表条件。
+>除了根据本文中所述的条件预填充时间表的项目外，默认情况下，时间表上还会显示以下项目：
+>* 您在时间表的时间范围内记录时间的项目
+>* 固定到时间表的项目
+>* 您搜索并手动添加到时间表的项目。 默认情况下会固定手动添加的项目。
 >
->有关日志记录时间的信息，请参见 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 您对时间表所做的任何更改都会影响将来创建的所有时间表。

@@ -1,13 +1,13 @@
 ---
 title: AdobeMaestro发布活动
-description: 使用Maestro创建自定义对象、字段和工作区。
+description: Adobe大师目前可供选定Workfront客户使用。 请经常阅读本文以了解最近为AdobeMaestro发布的功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ ht-degree: 0%
 本部分列出了自2023年5月22日Maestro封闭Beta计划启动以来发布的功能和修补程序。
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与Maestro封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
+
+## 2023年11月6日起一周
+
+### 表格视图的分组
+
+预览和生产： 2023年11月7日
+
+您现在可以在记录类型页面的表视图中分组记录。 您可以在Maestro界面中按三个唯一字段分组 <!--checking into this for now: and by four fields when using the API-->.
+
+有关更多信息，请参阅 [管理表视图](../maestro/views/manage-the-table-view.md).
 
 ## 2023年10月30日起一周
 

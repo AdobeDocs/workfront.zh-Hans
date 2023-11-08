@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 4%
+source-wordcount: '2069'
+ht-degree: 3%
 
 ---
 
@@ -109,7 +109,7 @@ hide: yes
 1. 更新以下视图元素，如以下子部分所述：
    * [列（或字段）](#add-columns-or-fields)
    * [行（或记录）](#add-rows-or-records)
-   * [筛选条件](#add-filters)
+   * [过滤器](#add-filters)
    * [分组](#add-groupings)
    * [排序](#sort-information)
 
@@ -319,45 +319,55 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 
 1. （可选）单击 **过滤器**，然后单击 **x** 图标以移除过滤器。 <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### 添加分组 {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+将分组应用于视图时，您可以按类似的信息对记录进行分组。
 
-You can group records by similar information when applying  a grouping to a view.
+在表格视图中添加分组与向时间轴视图添加分组类似。
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+请考虑以下事项：
 
-Consider the following:
+* 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
+* 您可以在Maestro视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+&lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+* 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
+* 不能为表视图命名您构建的分组。
+* 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
+* 您可以编辑分组下列出的记录。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+要添加分组，请执行以下操作：
 
-To add a grouping:
+1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
+1. 单击 **分组** 位于时间轴视图的右上角。
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. 单击其中一个建议字段，或单击 **选择其他字段**，搜索其他字段，然后在列表中显示该字段时单击它。
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >您无法选择链接的字段。
 
--->
+   该分组将自动应用于表，并且记录显示在分组分离行下
+
+1. （可选）重复上述步骤以添加最多3个分组。
+
+   为分组选择的字段数将显示在分组图标旁边。
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. （可选）内部 **记录分组条件** 框中，单击 **x** 图标为分组选择的字段的右侧，以删除分组
+
+   或
+
+   单击 **全部清除** 以删除所有字段。
+
+1. 在 **记录分组条件** 方框关闭它。
+1. （可选）单击 **+新建&lt;记录类型名称>** 在任何分组结束时添加新记录，然后刷新页面以将新记录添加到相应的分组。 <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 添加排序 {#sort-information}
 
