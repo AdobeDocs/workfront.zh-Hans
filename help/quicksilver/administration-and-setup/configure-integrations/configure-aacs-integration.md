@@ -5,7 +5,7 @@ title: 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
 description: 您可以将工作与您的内容关联到 [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
+source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -231,9 +231,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## 设置工作流（可选）
 
@@ -248,8 +246,6 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
    ![链接的文件夹导航](assets/select-folder-aem-integration.png)
 1. 启用 **附加Portfolio和程序名称** 选项，用于在链接文件夹名称的末尾自动包含Portfolio和项目名称。
 1. 单击 **保存** 或转到 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 部分。
-
-<!--Courtney end here-->
 
 ## 设置链接的文件夹（可选）
 
