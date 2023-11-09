@@ -6,16 +6,14 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets集成中使用工作流
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 Workfront管理员可以在Workfront中配置工作流，然后将它们分配给项目模板。 使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
 
@@ -147,8 +145,6 @@ ht-degree: 0%
 
 #### 发布资产
 
-<div class="preview">
-
 要编辑用于发布资产的工作流，请执行以下操作：
 
 1. 切换 **自动发布资源** 根据需要打开或关闭。
@@ -159,4 +155,4 @@ ht-degree: 0%
 
    如果您在 [!DNL Adobe Experience Manager area]，则您的更改会自动保存。 <!--Do they though?-->
 
-</div>
+

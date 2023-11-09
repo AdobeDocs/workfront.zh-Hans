@@ -6,16 +6,14 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # 将文档发送到Experience Manager Assets或Assets Essentials
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的资源不计入总体存储空间。
 
@@ -116,9 +114,9 @@ ht-degree: 0%
 1. 找到要移动的文档。
 1. 将文档拖放到要将它移动到的链接Experience Manager Assets文件夹中。
 
-<div class="preview">文档正在移动时，文档选项不可用。 将文档移至Experience Manager Assets后，在Workfront的文档列表中不再可见。
+文档正在移动时，文档选项不可用。 将文档移至Experience Manager Assets后，在Workfront的文档列表中不再可见。
 
 >[!NOTE]
 >
 > 您在文档移动时对文档所做的任何操作或编辑都不会显示在Experience Manager Assets的文档中，因此将丢失。
-</div>
+

@@ -4,9 +4,9 @@ description: 2023年第四季度集成增强功能
 author: Lisa
 feature: Product Announcements
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 0%
 有关更多信息，请参阅 [通过新的SharePoint集成链接文档](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## 文档集成的拖放升级功能
-
->[!NOTE]
->
->此功能尚未发布到生产环境。
 
 在将文件拖放到链接的文件夹中时，我们增强了用户体验。
 
