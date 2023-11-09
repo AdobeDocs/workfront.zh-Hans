@@ -5,9 +5,9 @@ title: 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
 description: 您可以将工作与您的内容关联到 [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 您可以在项目模板和项目级别覆盖在集成中设置的默认工作流值。
 
-### 设置用于创建Adobe Experience Manager链接文件夹的工作流
+Adobe Experience Manager集成中提供了以下工作流：
+
+* [创建Adobe Experience Manager链接文件夹](#create-adobe-experience-manager-linked-folders)
+* [发布发送到Adobe Experience Manager资源的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### 创建Adobe Experience Manager链接文件夹
 
 1. 切换 **[!UICONTROL 创建链接文件夹]** 打开。
 1. 选择文件夹路径以指示要将所有链接文件夹与此集成关联的位置。
    ![链接的文件夹导航](assets/select-folder-aem-integration.png)
-1. 启用 **附加Portfolio和程序名称** 选项，用于在链接文件夹名称的末尾自动包含Portfolio和项目名称。
-1. 单击 **保存** 或转到 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 部分。
+1. 启用 **[!UICONTROL 附加Portfolio和程序名称]** 选项，用于在链接文件夹名称的末尾自动包含Portfolio和项目名称。
+1. 单击 **[!UICONTROL 保存]** 或转到 [发布发送到Adobe Experience Manager资源的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 部分。
+
+### 发布发送到Adobe Experience Manager资源的资源
+
+1. 打开 **[!UICONTROL 自动发布资源]**.
+1. 选中要发布发送到Adobe Experience Manager资源的资源的位置旁边的框。 您可以启用任一选项或同时启用两个选项。
+1. （视情况而定）如果已启用Brand Portal选项，请选择要发布资源的Brand Portal 。
+1. 单击 **[!UICONTROL 保存]** 或转到 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 部分。
 
 ## 设置链接的文件夹（可选）
 
