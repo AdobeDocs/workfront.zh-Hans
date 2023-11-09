@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '查看：计算时间和日期差异'
-description: 构建显示对象上两个日期字段之间或对象上日期字段与父对象上另一个日期字段之间差异的视图。
+description: 了解如何计算时间和日期差异。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---

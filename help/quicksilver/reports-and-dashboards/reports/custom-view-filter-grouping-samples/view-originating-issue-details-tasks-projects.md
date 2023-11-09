@@ -2,77 +2,77 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：任務和專案的原始問題詳細資訊」
-description: 當問題轉換為任務或專案時，會在任務或專案與問題之間建立解決物件關係。 此檢視顯示任務或專案完成時自動完成問題的下列欄位 — 編輯我。
+title: '查看：任务和项目的原始问题详细信息'
+description: 当问题转换为任务或项目时，在任务或项目与问题之间建立解析对象关系。 此视图显示任务或项目完成时自动完成的问题字段。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
 
-# 檢視：任務和專案的原始問題詳細資訊
+# 查看：任务和项目的原始问题详细信息
 
-當問題轉換為任務或專案時，會在任務或專案與問題之間建立解決物件關係。 此檢視顯示任務或專案完成時自動完成之問題的下列欄位：
+当问题转换为任务或项目时，在任务或项目与问题之间建立解析对象关系。 此视图显示任务或项目完成时自动完成问题的以下字段：
 
 * 名称
 * 输入日期
-* 计划完成日期
+* 规划完成日期
 * 实际完成日期
 * 请求类型
-* 建立者名稱
-* 指派給使用者
+* 发起人姓名
+* 已分配给用户
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-如需詳細資訊，另請參閱 [檢視：在任務和專案清單上顯示原始問題資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+有关更多信息，另请参阅 [查看：显示任务和项目列表上的原始问题信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 檢視任務和專案的原始問題詳細資訊
+## 查看任务和项目的原始问题详细信息
 
-1. 前往任務清單或專案清單。
-1. 從 **檢視** 下拉式功能表，選取 **新增檢視**.
+1. 转到任务列表或项目列表。
+1. 从 **视图** 下拉菜单，选择 **新建视图**.
 
-1. 在&#x200B;**欄預覽** 區域，排除除一欄以外的所有欄。
-1. 按一下剩餘欄的標頭，然後按一下 **切換至文字模式**.
-1. 將滑鼠移到文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 移除您在「 」中找到的文字 **文字模式** 方塊，並以下列程式碼取代：
+1. 在&#x200B;**列预览** 区域，消除除一列之外的所有列。
+1. 单击其余列的标题，然后单击 **切换到文本模式**.
+1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
+1. 删除您在中找到的文本 **文本模式** 框中，然后使用以下代码替换它：
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre></pre>
+   <pre><code>column.0.textmode=false<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.descriptionkey=name<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.width=150<br>column.1.displayname=Resolvables (Issues)<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(resolvables).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={name}<br>column.1.valueformat=HTML<br>column.2.displayname=Resolvables Entry Date<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(resolvables).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={entryDate}<br>column.2.valueformat=HTML<br>column.3.displayname=Resolvables Due Date<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(resolvables).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=Resolvables Actual Completion Date<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(resolvables).lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={actualCompletionDate}<br>column.4.valueformat=HTML<br>column.5.displayname=Resolvables Request Type<br>column.5.listdelimiter=<br><br>column.5.listmethod=nested(resolvables).lists<br>column.5.textmode=true<br>column.5.type=iterate<br>column.5.valueexpression={opTaskType}<br>column.5.valueformat=HTML<br>column.6.displayname=Resolvables Originator<br>column.6.listdelimiter=<br><br>column.6.listmethod=nested(resolvables).lists<br>column.6.textmode=true<br>column.6.type=iterate<br>column.6.valueexpression={owner}.{name}<br>column.6.valueformat=HTML<br>column.7.descriptionkey=assignedto<br>column.7.linkedname=assignedTo<br>column.7.listsort=nested(assignedTo).string(name)<br>column.7.namekey=assignedto<br>column.7.querysort=assignedTo:name<br>column.7.shortview=false<br>column.7.stretch=0<br>column.7.textmode=true<br>column.7.valuefield=assignedTo:name<br>column.7.valueformat=HTML<br>column.7.width=150</code></pre>
 
-1. 按一下 **儲存檢視**.
+1. 单击 **保存视图**.

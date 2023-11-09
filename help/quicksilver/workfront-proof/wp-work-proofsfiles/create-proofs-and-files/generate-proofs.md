@@ -2,190 +2,190 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: 在中生成校样 [!DNL Workfront Proof]
-description: Workfront校样允许您从文档或网站创建校样，并与他人共享这些校样。 以下步骤描述了各种可用的配置选项 — 编辑我。
+title: 在中生成验证 [!DNL Workfront Proof]
+description: Workfront Proof允许您从文档或网站创建验证，并与他人共享这些验证。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
 
-# 在中生成校样 [!DNL Workfront Proof]
+# 在中生成验证 [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
 
-[!DNL Workfront Proof] 使您能够从文档或网站创建校样，并与他人共享这些校样。 以下步骤描述了可用的各种配置选项：
+[!DNL Workfront Proof] 允许您从文档或网站创建验证，并与他人共享这些验证。 以下步骤描述了可用的各种配置选项：
 
-## 为文档生成校样
+## 为文档生成验证
 
-1. 执行以下任一操作，以开始创建新校样并显示 [!UICONTROL 新校样] 页面：
+1. 执行以下任一操作以开始创建新验证并显示 [!UICONTROL 新校对] 页面：
 
-   * 单击绿色 **[!UICONTROL 新校样]** 按钮。
-   * 在 **[!UICONTROL 功能板]** 区域，在 **[!UICONTROL 概述]** ，单击 **[!UICONTROL 新校样]** 链接。
+   * 单击绿色 **[!UICONTROL 新校对]** 按钮来显示页面左上角的链接。
+   * 在 **[!UICONTROL 仪表板]** 区域，在 **[!UICONTROL 概述]** 选项卡，单击 **[!UICONTROL 新校对]** 链接。
 
-   * 通过Dropzone提交（企业功能）。
-   * 的 **[!UICONTROL 新校样]** 页面。
+   * 通过Dropzone（企业功能）提交。
+   * 此 **[!UICONTROL 新校对]** 页面显示。
 
-1. 要校样一个或多个文档，请按以下任一方式添加要校样的文档（重复此过程以添加多个要校样的文档）：
+1. 要验证一个或多个文档，请通过以下任一方式添加要验证的文档（重复此过程以添加多个要验证的文档）：
 
-   * 将文档从文件系统拖到 **[!UICONTROL 添加文件]** 的上界。
-   * 在 **[!UICONTROL 添加文件]** 区域，然后浏览以查找并选择要从工作站的文件系统上传的文档。
+   * 将文档从文件系统拖放到中的拖放区域 **[!UICONTROL 添加文件]** 区域。
+   * 在的拖放区域中单击 **[!UICONTROL 添加文件]** 区域，然后浏览以查找并选择要从工作站上的文件系统上传的文档。
 
-      ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
-1. 要校样一个或多个网站，请在 **[!UICONTROL 添加文件]** 区域，然后按 **[!UICONTROL 输入]**.
+1. 要验证一个或多个网站，请在中指定要验证的网站的URL **[!UICONTROL 添加文件]** 区域，然后按 **[!UICONTROL 输入]**.
 
-1. （可选）重复此过程以添加多个网站进行校样。
+1. （可选）重复此过程以添加多个网站进行校对。
 
-   有关校样网站的更多详细信息，请参阅 [为URL生成校样](#generate-a-proof-for-a-url).
+   有关校对网站的更多详细信息，请参阅 [为URL生成校对](#generate-a-proof-for-a-url).
 
    ![](assets/proof-website-350x65.png)
 
-1. （可选）修改任何已上传文件的文件名：
+1. （可选）修改任何已上载文件的文件名：
 
-   1. 将鼠标悬停在 **[!UICONTROL 添加文件]** ，然后单击 **[!UICONTROL 编辑]** 图标。
+   1. 将鼠标悬停在要修改的文档列表中 **[!UICONTROL 添加文件]** 区域，然后单击 **[!UICONTROL 编辑]** 图标。
 
       ![proof_edit.png](assets/proof-edit-350x53.png)
 
-   1. 在 **[!UICONTROL 校样名称]** 字段，指定新名称，然后单击 **[!UICONTROL 完成]**.
+   1. 在 **[!UICONTROL 校对名称]** 字段，指定新名称，然后单击 **[!UICONTROL 完成]**.
 
-   1. （可选）要删除要上载的任何文件，请将鼠标悬停在 **[!UICONTROL 添加文件]** ，然后单击 **[!UICONTROL 删除]** 图标。
+   1. （可选）若要删除上传的任何文件，请将鼠标悬停在 **[!UICONTROL 添加文件]** 区域，然后单击 **[!UICONTROL 删除]** 图标。
 
       ![proof_delete.png](assets/proof-delete-350x53.png)
 
-   1. （可选）启用选项， **[!UICONTROL 将所有兼容的文件合并到单个校样中]**.
+   1. （可选）启用选项， **[!UICONTROL 将所有兼容的文件合并到单个校对中]**.
 
-      **启用此选项后：** 所有静态文件和网站都可通过单个校样获取，并且您在给定时间最多可上传50个文件。
+      **启用此选项后：** 所有静态文件和网站都在一个验证中可用，您最多可以在给定时间上传50个文件。
 
       >[!NOTE]
       >
-      >交互式文件（包括视频和交互式网站）不能合并为单个校样。
+      >交互式文件（包括视频和交互式网站）无法合并为单个验证。
 
-      **禁用此选项时：** 所有文档和网站都作为单个校样生成，并且您在给定时间最多可上传20个文件。
+      **禁用此选项时：** 所有文档和网站都作为单独的验证生成，您最多可以在给定时间上传20个文件。
 
-      要将所有上传的文件和网站合并到一个校样中，请执行以下操作：
+      要将所有上传的文件和网站合并到一个验证中，请执行以下操作：
 
-      1. 启用选项， **[!UICONTROL 将所有兼容的文件合并到单个校样中]**.
-      1. 在 **[!UICONTROL 校样名称]** 字段，为组合校样指定新名称。
-      1. 在 **[!UICONTROL 添加文件]** 区域，通过将文件拖动到所需的顺序来重新排序包含的文件。 文件的顺序是组合校样的页面顺序。 有关创建组合校样的更多信息，请参阅 [创建多页校样](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+      1. 启用选项， **[!UICONTROL 将所有兼容的文件合并到单个校对中]**.
+      1. 在 **[!UICONTROL 校对名称]** 字段，为组合验证指定新名称。
+      1. 在 **[!UICONTROL 添加文件]** 区域，通过将文件拖到所需顺序来重新排序所包含的文件。 文件的顺序是组合验证的页面顺序。 有关创建组合校样的更多信息，请参阅 [创建多页验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
-1. （可选）如果您要在 **[!UICONTROL 工作流]** 选项：
+1. （可选）如果要使用包括多个阶段的自动化工作流，请在 **[!UICONTROL 工作流]** 部分，从以下选项中选择：
 
-   * **基本：** 选择此选项可指定在创建校样后立即有权访问校样的用户。 您可以与多个用户共享校样。
+   * **基本：** 选择此选项可指定希望在验证创建后立即有权访问验证的用户。 您可以与多个用户共享验证。
 
-      有关共享校样的更多信息，请参阅 [在中共享校样 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     有关共享验证的更多信息，请参阅中的“将用户添加到验证” [在中共享验证 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **自动：** 选择此选项可在您拥有复杂的审阅流程时管理内容审阅和批准，或者如果您定期将内容发送给同一组人员进行审阅。 使用自动化工作流，校样会从舞台移动到舞台直至最终批准。 相关用户在需要批准时随时会收到通知。
+   * **自动：** 如果您拥有复杂的审阅流程，或者您定期将内容发送给相同的人员组进行审阅，则选择此选项可管理内容审阅和批准。 借助自动化工作流，验证会从一个阶段移动到另一个阶段，直到最终批准。 在要求相关用户进行审批时，他们随时都会收到通知。
 
-      有关创建自动化工作流的更多信息，请参阅 [在中使用自动工作流设置校样 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     有关创建自动工作流的详细信息，请参阅 [在中使用自动工作流设置验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
-1. 选择是否向您在上一步中选择的用户发送电子邮件通知和自定义消息：
+1. 选择是否向在上一步中选择的用户发送电子邮件通知和自定义消息：
 
-   * **通知收件人此校样：** 选择此选项可向用户发送电子邮件通知。 When **[!UICONTROL 基本共享]** 的 **[!UICONTROL 工作流]** 部分，在创建校样时发送电子邮件通知。 When **[!UICONTROL 自动化工作流]** 的 **[!UICONTROL 工作流]** 部分，当校样进入用户关联的自动工作流阶段时，会发送电子邮件通知。
+   * **将此证明通知收件人：** 选择此选项可向用户发送电子邮件通知。 时间 **[!UICONTROL 基本共享]** 在 **[!UICONTROL 工作流]** 部分，在创建验证时发送电子邮件通知。 时间 **[!UICONTROL 自动化工作流]** 在 **[!UICONTROL 工作流]** 部分，当验证进入用户关联的自动工作流阶段时会发送电子邮件通知。
 
-   * **添加自定义消息：** 选择此选项可在通知中包含自定义消息。 您可以指定主题和消息正文。 消息正文可以包含富文本格式，如粗体、项目符号和超链接。
+   * **添加自定义消息：** 选择此选项可在通知中包含自定义消息。 您可以指定主题和消息正文。 消息正文可以包括富文本格式，例如粗体、项目符号和超链接。
 
-1. 选择以下任何校样设置：
+1. 选择以下任何验证设置：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">需要登录 — 校样只能与其他用户共享</td> 
-      <td> <p><strong>需要登录 — 校样只能与其他用户共享：</strong> 选择此选项时，仅 [!DNL Workfront Proof] 用户可以查看校样。</p> <p>此选项默认处于禁用状态；任何具有URL的人员都可以查看校样。</p> <p>选择此选项时：</p> 
+      <td role="rowheader">需要登录 — 验证只能与其他用户共享</td> 
+      <td> <p><strong>需要登录 — 验证只能与其他用户共享：</strong> 选中此选项时，仅 [!DNL Workfront Proof] 用户能够查看验证。</p> <p>默认情况下禁用此选项；任何具有URL的人员都可以查看校对。</p> <p>选中此选项时：</p> 
        <ul> 
-        <li>用户无法登录到校样，除非已将他们添加到校样中。</li> 
+        <li>用户无法登录到验证，除非他们已添加到验证中。</li> 
         <li>无法启用订阅。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">只需要一个决定即可进行此证明</td> 
-      <td> <p>当选择此选项时，在其中一名决策者作出决定后完成审查。</p> <p>默认情况下，此选项处于禁用状态。</p> </td> 
+      <td role="rowheader">此证明只需一个决定</td> 
+      <td> <p>如果选择该选项，则审阅会在决策者之一做出决定后完成。</p> <p>默认禁用此选项。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">要求对决策进行电子签名</td> 
-      <td>用户在决定校样时需要指定其用户名和密码。</td> 
+      <td>用户必须在做出验证决策时指定用户名和密码。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">在做出所有必需的决策时锁定验证</td> 
-      <td> <p><strong></strong> 启用此设置后，在做出所有决策后，校样状态将被锁定。 当最终审批者做出决策时，状态会自动从已解锁更改为已锁定。</p> <p>默认情况下，此选项处于禁用状态。</p> </td> 
+      <td role="rowheader">作出所有必需的决策时锁定验证</td> 
+      <td> <p><strong></strong> 启用此设置后，将在做出所有决策后锁定验证状态。 当最终批准者做出决定时，状态会自动从已解锁更改为已锁定。</p> <p>默认禁用此选项。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下载原始文件</td> 
-      <td> <p><strong></strong> 选择此选项后，审阅人可以下载创建校样的原始文件。</p> <p>取消选择此选项后，“下载”图标将不再可见。<br>默认情况下，此选项处于启用状态。</p> </td> 
+      <td> <p><strong></strong> 选择此选项后，审阅人将能够下载从中创建验证的原始文件。</p> <p>取消选择此选项时，“下载”图标不再可见。<br>此选项默认处于启用状态。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">通过公共URL或嵌入代码共享校样</td> 
-      <td>选择此选项后，可通过公共URL或嵌入代码共享校样。</td> 
+      <td role="rowheader">通过公共URL或嵌入代码共享验证</td> 
+      <td>选择此选项后，可以通过公共URL或嵌入代码共享验证。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">通过公共URL或嵌入代码订阅校样</td> 
-      <td> <p>选择此选项后，尚未明确添加到校样的人员可订阅校样。 在以下设置中，校样订阅者将获得您定义的角色和电子邮件：</p> 
+      <td role="rowheader">通过公共URL或嵌入代码订阅验证</td> 
+      <td> <p>选择此选项时，未明确添加到验证的用户可以订阅验证。 订阅验证的用户将获得您在以下设置中定义的角色和电子邮件：</p> 
        <ul> 
-        <li><strong>订阅者角色</strong>:分配给所有订阅校样的审阅人的默认校样角色。</li> 
-        <li><strong>订阅者的电子邮件警报设置</strong>:分配给所有订阅校样的审阅人的默认电子邮件警报。</li> 
-        <li> <p><strong>通过电子邮件链接进行验证访问是</strong>:配置订阅者是否收到包含校样链接的电子邮件。 您可以选择 <strong>无电子邮件</strong> （访问校样不需要电子邮件链接）、 <strong>仅校样通知电子邮件</strong> （订阅者通过电子邮件接收指向校样的链接，且无需任何验证）或 <strong>验证和校样通知电子邮件</strong> (订阅者会通过电子邮件收到指向校样的链接，并且必须单击该链接才能访问校样；此选项旨在确保人员输入了他们有权访问的正确电子邮件地址)。</p> <p>注意：如果校样附加了自动工作流，则所有订阅都会向校样所有者生成确认电子邮件，以便他们决定应将人员添加到哪个阶段。</p> </li> 
+        <li><strong>订阅者角色</strong>：分配给订阅了验证的所有审阅人的默认验证角色。</li> 
+        <li><strong>订阅者的电子邮件警报设置</strong>：分配给订阅了验证的所有审阅人的默认电子邮件警报。</li> 
+        <li> <p><strong>验证访问需要电子邮件链接</strong>：配置订阅者是否收到一封包含证明链接的电子邮件。 您可以选择 <strong>无电子邮件</strong> （访问验证不需要电子邮件链接）， <strong>仅验证通知电子邮件</strong> （订阅者无需任何验证即可通过电子邮件接收指向验证的链接），或 <strong>验证和验证通知电子邮件</strong> （订阅者通过电子邮件收到校样的链接，必须单击该链接才能访问校样；此选项旨在确保人员输入了他们有权访问的正确电子邮件地址）。</p> <p>注意：如果验证已附加自动工作流，则所有订阅都将向验证所有者生成确认电子邮件，以便他们决定应将人员添加到哪个阶段。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 创建校样]**.
+1. 单击 **[!UICONTROL 创建校对]**.
 
-   Workfront开始生成所选文档或网站的校样。 根据文件大小和类型，文档上传的滞后时间会有所不同。 请耐心等待，因为生成较大的文件需要更长的时间。 您可以从页面导航到其他位置，Workfront将继续生成您的文件。 最大文件上传大小为4 GB。
+   Workfront开始生成选定文档或网站的验证。 根据文件大小和类型，文档上传的滞后时间会有所不同。 请耐心等待，因为生成更大的文件需要更长的时间。 您可以离开页面，Workfront将继续生成您的文件。 最大文件上传大小为4GB。
 
-   生成校样后，单击 **[!UICONTROL 转到校样]** 以启动校样工具。
+   生成验证后，单击 **[!UICONTROL 前往校对]** 以启动校对工具。
 
    ![Screenshot_2018-05-16_08-59-34.png](assets/screenshot-2018-05-16-08-59-34-350x134.png)
 
-   文档将显示在校样工具中。
+   文档显示在校对工具中。
 
-   帐户中未启用校样的用户仍可以查看文档并对校样进行评论。
+   帐户未启用验证的用户仍可以查看文档并对验证进行评论。
 
-## 为URL生成校样 {#generate-a-proof-for-a-url}
+## 为URL生成校对 {#generate-a-proof-for-a-url}
 
-您可以首次为URL生成校样。 或者，您也可以生成之前已生成校样的URL校样的新版本。
+您可以首次为URL生成校对。 或者，您可以生成新版本的URL校对，其中之前已生成校对。
 
 >[!NOTE]
 >
->仅当您的 [!DNL Workfront] 环境与 [!DNL Workfront Proof] 高级帐户。 如果无法按此部分所述使用校样，请与系统管理员联系。
+>仅当满足以下条件时，您才可以为URL生成交互式验证 [!DNL Workfront] 环境与集成 [!DNL Workfront Proof] Premium帐户。 如果您无法使用本节中介绍的校对，请与系统管理员联系。
 
-要为URL生成校样，请执行以下操作：
+要为URL生成校对，请执行以下操作：
 
-1. 执行以下任一操作，以开始创建新校样并显示 [!UICONTROL 新校样] 页面：
+1. 执行以下任一操作以开始创建新验证并显示 [!UICONTROL 新校对] 页面：
 
-   * 单击绿色 **[!UICONTROL 新校样]** 按钮。
-   * 在 **[!UICONTROL 功能板]** 区域，在 **[!UICONTROL 概述]** ，单击 **[!UICONTROL 新校样]** 链接。
+   * 单击绿色 **[!UICONTROL 新校对]** 按钮来显示页面左上角的链接。
+   * 在 **[!UICONTROL 仪表板]** 区域，在 **[!UICONTROL 概述]** 选项卡，单击 **[!UICONTROL 新校对]** 链接。
 
-   * 通过Dropzone提交（企业功能）。
+   * 通过Dropzone（企业功能）提交。
 
-1. （视情况而定）在 **[!UICONTROL 新校样]** ，以创建现有校样的新版本：
+1. （视情况而定）在 **[!UICONTROL 新校对]** 页面，以创建现有验证的新版本：
 
-   1. 选择要添加新版本的URL校样。
-   1. 单击 **[!UICONTROL 新版本]** 按钮。
+   1. 选择要添加新版本的URL校对。
+   1. 单击 **[!UICONTROL 新版本]** 按钮进行标记。
 
       ![Screenshot_2018-05-15_10-59-56.png](assets/screenshot-2018-05-15-10-59-56-350x80.png)
 
-1. 在显示的New校样版本页面中，指定要在 **[!UICONTROL 添加文件]** 区域，然后按 **[!UICONTROL 输入]**.
+1. 在显示的新验证版本页面中，指定您要验证的网站的URL **[!UICONTROL 添加文件]** 区域，然后按 **[!UICONTROL 输入]**.
 
-1. （可选）重复此过程以添加多个网站进行校样。
+1. （可选）重复此过程以添加多个网站进行校对。
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-1. 单击 **[!UICONTROL 添加文件]** 的上界。
+1. 单击文档列表中的网站，网址为 **[!UICONTROL 添加文件]** 区域。
 
    ![proof_upload_website_modify.png](assets/proof-upload-website-modify-350x185.png)
 
-1. 指定 **[!UICONTROL 校样名称]** 来证明。
+1. 指定 **[!UICONTROL 校对名称]** 为了证据。
 
-   默认情况下，校样名称与网站URL相同。
+   默认情况下，验证名称与网站URL相同。
 
 1. 选择 **[!UICONTROL 处理网站内容]** 选项：
 
@@ -194,72 +194,72 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">捕获屏幕截图</td> 
-      <td>创建URL首页的静态图像校样。</td> 
+      <td role="rowheader">捕获屏幕快照</td> 
+      <td>创建URL头页的静态图像的校对。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">交互型</td> 
-      <td> <p>创建校样，以允许审阅人导航网站、查看HTML5图像、Flash元素等。</p> <p>要创建交互式校样，网站必须使用安全协议(https)托管。 此外，无法将无法嵌入iFrame的网站作为交互式校样生成（iFrame嵌入限制由您尝试嵌入的网站控制）。</p> <p>创建初始校样后，在创建后续版本时无法更改此设置。</p> <p>有关交互式校对的更多信息，请参阅 <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">为交互式内容生成校样</a>.</p> </td> 
+      <td> <p>创建一个校样，允许查看者导航站点、查看HTML5图像、Flash元素等。</p> <p>要创建交互式验证，必须使用安全协议(https)托管网站。 此外，无法嵌入到iframe中的网站无法生成为交互式验证（iframe嵌入限制由您尝试嵌入的网站控制）。</p> <p>创建初始验证后，创建后续版本时无法更改此设置。</p> <p>有关交互式校对的更多信息，请参阅 <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">为交互式内容生成验证</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">屏幕截图分辨率</td> 
-      <td> <p>（此选项不适用于交互式校样。） 您可以调整内容所显示的分辨率，也可以选择多个分辨率。</p> <p>这样，用户便可以查看校样以查看内容在不同设备（如各种大小的手机、平板电脑和显示器）上的显示方式。</p> <p>如果选择多个分辨率，则会为您选择的每个分辨率创建单独的校样。</p> <p>当用户对校样进行注释时，当前屏幕分辨率会自动显示在注释中，以确保其他用户了解该注释关联的分辨率。</p> </td> 
+      <td role="rowheader">屏幕快照分辨率</td> 
+      <td> <p>（此选项不适用于交互式验证。） 您可以调整内容显示所用的分辨率，也可以选择多个分辨率。</p> <p>这使用户能够查看验证以查看内容在不同设备上的显示方式，例如各种尺寸的电话、平板电脑和显示器。</p> <p>如果选择多个分辨率，则会为您选择的每个分辨率创建单独的校样。</p> <p>当用户对验证进行评论时，当前屏幕分辨率自动显示在评论中，以确保其他用户知道评论关联的分辨率。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">查找子页面</td> 
-      <td>（此选项不适用于交互式校样。） 选择此选项可在网站的各个页面之间导航。 您可以将网站从主页的深度扩展到2个级别。 将鼠标悬停在页面上可查看页面的URL。 仅选择要校样的页面。 默认情况下，您选择的每个页面都将作为单个校样创建；或，启用 <strong>合并到单个校样中</strong> 选项，将所有选定页面合并到一个校样中。</td> 
+      <td>（此选项不适用于交互式验证。） 选择此选项可导航浏览网站的页面。 您可以将网站从主页扩展到深2层。 将鼠标悬停在页面上可查看页面的URL。 仅选择您要验证的页面。 默认情况下，您选择的每个页面都将作为单个验证创建；或者，启用 <strong>合并为单个校对</strong> 用于将所有选定页面组合到单个验证中的选项。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可选）配置任何高级校对选项，例如共享校样、添加自动工作流，或设置访问和订阅设置。 有关这些选项的更多详细信息，请参阅以下文章：
+1. （可选）配置任何高级验证选项，例如共享验证、添加自动工作流或设置访问和订阅设置。 有关这些选项的更多详细信息，请参阅以下文章：
 
-   * [在中共享校样 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [在中使用自动工作流设置校样 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-   * [配置校样的访问和订阅设置](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [在中共享验证 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [在中使用自动工作流设置验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+   * [配置验证的访问和订阅设置](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. 单击 **[!UICONTROL 完成]**.
 
-   如果向现有URL校样添加新版本，则在原始校样或以前版本上配置的任何选项都将保留在此版本中。如果向现有URL校样添加新版本，则在原始校样或以前版本上配置的任何选项都将在此版本中保留。
+   如果您向现有URL校对添加新版本，则在此版本中维护在原始校对或以前版本中配置的任何选项。如果您向现有URL校对添加新版本，则在此版本中维护在原始校对或以前版本中配置的任何选项。
 
-1. 单击 **[!UICONTROL 创建校样]**.
+1. 单击 **[!UICONTROL 创建校对]**.
 
-## 为交互式内容生成校样 {#generate-a-proof-for-interactive-content}
+## 为交互式内容生成验证 {#generate-a-proof-for-interactive-content}
 
-使用此功能需要专业Workfront计划或更高版本。 有关各种可用计划的更多信息，请参阅 [Workfront计划](https://www.workfront.com/plans).
+使用此功能需要Pro Workfront计划或更高版本。 有关各种可用计划的详细信息，请参阅 [Workfront计划](https://www.workfront.com/plans).
 
-有关交互式内容的更多信息，请参阅 [交互式内容校样概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+有关交互式内容的详细信息，请参阅 [交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 * [将交互式内容添加为URL](#add-interactive-content-as-a-url)
 * [将交互式内容添加为ZIP文件](#add-interactive-content-as-a-zip-file)
 
 ### 将交互式内容添加为URL {#add-interactive-content-as-a-url}
 
-有关如何添加交互式URL校样的信息，请参阅  [为URL生成校样](#generate-a-proof-for-a-url).
+有关如何添加交互式URL校对的信息，请参阅  [为URL生成校对](#generate-a-proof-for-a-url).
 
 ### 将交互式内容添加为ZIP文件 {#add-interactive-content-as-a-zip-file}
 
-1. 通过创建捆绑的.zip文件来准备内容。
+1. 通过创建.zip捆绑文件来准备内容。
 
-   有关.zip捆绑文件规范的信息，请参阅 [关于在ZIP文件中准备交互式内容以进行校对](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) 在文章中 [交互式内容校样概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   有关.zip捆绑文件规范的信息，请参见 [关于在ZIP文件中准备交互式内容以进行校样](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) 在文章中 [交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-1. 执行以下任一操作，以开始创建新校样并显示 [!UICONTROL 新校样] 页面：
+1. 执行以下任一操作以开始创建新验证并显示 [!UICONTROL 新校对] 页面：
 
-   * 单击绿色 **[!UICONTROL 新校样]** 按钮。
-   * 在 **[!UICONTROL 功能板]** 区域，在 **[!UICONTROL 概述]** ，单击 **[!UICONTROL 新校样]** 链接。
+   * 单击绿色 **[!UICONTROL 新校对]** 按钮来显示页面左上角的链接。
+   * 在 **[!UICONTROL 仪表板]** 区域，在 **[!UICONTROL 概述]** 选项卡，单击 **[!UICONTROL 新校对]** 链接。
 
-   * 通过Dropzone提交（企业功能）。
+   * 通过Dropzone（企业功能）提交。
 
-1. 在 **[!UICONTROL 新校样]** 页面，将您的交互式.zip包拖放到 **[!UICONTROL 添加文件]** 的上界。
+1. 在 **[!UICONTROL 新校对]** 在出现的页面中，将您的交互式.zip包拖放到 **[!UICONTROL 添加文件]** 区域。
 
-1. （可选）配置任何高级校对选项，例如共享校样、添加自动工作流，或设置访问和订阅设置。 有关这些选项的更多详细信息，请参阅以下文章：
+1. （可选）配置任何高级验证选项，例如共享验证、添加自动工作流或设置访问和订阅设置。 有关这些选项的更多详细信息，请参阅以下文章：
 
-   * [在中共享校样 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [在中共享验证 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * 在文章中
-   * [配置校样的访问和订阅设置](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [配置验证的访问和订阅设置](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. 单击 **[!UICONTROL 创建校样]**.
+1. 单击 **[!UICONTROL 创建校对]**.
 
-   Workfront开始生成.zip包的校样。 根据包大小，文档上传的滞后时间会有所不同。 生成较大的文件需要更长的时间。 您可以从页面导航到其他位置，Workfront将继续生成您的文件。 最大文件上传大小为4 GB。
+   Workfront开始生成.zip捆绑包的验证。 根据包大小，文档上传的滞后时间会有所不同。 生成较大的文件需要较长时间。 您可以离开页面，Workfront将继续生成您的文件。 最大文件上传大小为4GB。
 
-   在生成校样后，您可以单击 **[!UICONTROL 转到校样]** 按钮来打开校样。
+   验证生成后，您可以单击 **[!UICONTROL 前往校对]** 按钮来打开验证。

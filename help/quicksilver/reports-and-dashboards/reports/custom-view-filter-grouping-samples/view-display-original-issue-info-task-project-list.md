@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: “查看：显示任务和项目列表上的原始问题信息
-description: 在任务和项目列表视图中，在将问题转换为列表中的任务和项目 — 编辑我之后，您可以在任务和项目列表视图上显示原始问题的以下信息。
+title: '查看：在任务和项目列表中显示原始问题信息'
+description: 在将问题转换为列表中的任务和项目后，您可以在任务和项目列表的视图上显示原始问题中的信息。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
 # 查看：显示任务和项目列表上的原始问题信息
 
-在任务和项目列表视图中，在将问题转换为列表中的任务和项目后，您可以在任务和项目列表中显示原始问题的以下信息：
+在将问题转换为列表中的任务和项目后，您可以在任务和项目列表的视图上显示原始问题的以下信息：
 
 * 转换的问题名称
 * 转换的问题输入日期
-* 已转换的问题创作者名称
+* 转换的问题发起人姓名
 
-有关使用标准报表生成器创建视图的信息，请参阅 [视图Adobe Workfront概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+有关使用标准Report Builder创建视图的信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-![task_and_project_list_with_original_issue_info_png](assets/task-and-project-list-with-original-issue-info-350x59.png)
+![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-有关在项目和任务列表中包含其他问题信息的详细信息，另请参阅 [查看：任务和项目的原始问题详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+有关包括有关项目和任务列表的其他问题信息的更多信息，另请参阅 [查看：任务和项目的原始问题详细信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

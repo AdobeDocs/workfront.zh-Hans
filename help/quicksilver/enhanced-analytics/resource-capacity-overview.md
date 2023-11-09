@@ -1,22 +1,22 @@
 ---
-title: 在Enhanced Analytics中查看资源容量可视化
+title: 在Enhanced Analytics中查看资源产能可视化图表
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: “资源能力”可视化图表显示团队是否已结束、已不足或已满。 此计算基于 — 编辑我。
+description: “资源能力”可视化图表显示团队是超出、不足还是处于能力。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
-# 在Enhanced Analytics中查看资源容量可视化
+# 在Enhanced Analytics中查看资源产能可视化图表
 
-“资源能力”可视化图表显示团队是否已结束、已不足或已满。
+“资源能力”可视化图表显示团队是超出、不足还是处于能力。
 
 ## 访问要求
 
@@ -28,19 +28,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
-   <td> <p>业务或更高版本</p> </td> 
+   <td> <p>业务或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>*</td> 
-   <td> <p>审阅或更高版本</p> </td> 
+   <td> <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看项目访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。<br>有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。<br>有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,88 +49,88 @@ ht-degree: 0%
 
 ## 先决条件
 
-有关使用Enhanced Analytics的先决条件，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 了解“资源能力”可视化图表
+## 了解资源产能可视化图表
 
-“资源能力”可视化图表显示团队是否已结束、已不足或已满。 此计算基于：
+“资源能力”可视化图表显示团队是超出、不足还是处于能力。 此计算基于：
 
-* **可用容量**:在过滤的时间段内，家庭团队可以工作的总小时数
+* **可用产能**：主团队在过滤的时间段内可以工作的总小时数
 
-   >[!NOTE]
-   >
-   >如果您查看的是未来的时间段，则可用容量将根据团队过去7天的容量计算。 因此，不考虑任何计划PTO。
+  >[!NOTE]
+  >
+  >如果您查看的是未来的时间段，则可用容量是根据团队过去7天的容量来计算的。 因此，不会考虑任何计划的PTO。
 
-* **计划容量**:在过滤的时间段内，预期由主团队完成的计划工时总数
+* **已计划产能**：在过滤的时间段内，主页团队预计的计划工作小时总数
 
-将家庭团队的计划时间与实际计划时间进行比较，有助于您确定自己是否没有为家庭团队分配足够的工作，或者他们是否因繁重的工作而感到精疲力竭。
+主页团队的计划小时数和实际计划小时数之间的比较可以帮助您确定您是否没有向主页团队分配足够的工作，或者他们是否可能因大量工作负载而感到倦怠。
 
 ![](assets/resource-capacity-350x110.png)
 
-在“资源能力”可视化图表上，您可以看到以下详细信息：
+在资源能力可视化图表上，您可以看到以下详细信息：
 
-* **计划容量**:与主团队名称内联，蓝色圆圈表示分配给主团队的计划小时数。
+* **已计划产能**：与主团队名称内联，蓝色圆圈表示分配给主团队的已计划小时数。
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **实际能力**:与主队名称内联，垂直线表示主队可用的小时数。
+* **实际产能**：与主团队名称内联，垂直线表示主团队可用的小时数。
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
-* **超容量**:当水平线和蓝色圆圈在垂直线的右侧显示时，为家庭团队分配的工作量超过了他们在可用小时数内完成的工作量。 这表示在过滤的时间段内，团队的容量可能超过容量。 在蓝色圆圈的右侧，显示团队需要完成的剩余小时数。
+* **超出产能**：当水平线和蓝色圆显示在垂直线的右侧时，为主团队分配的工作量超过了他们能够完成的可用小时数。 这意味着在过滤的时间段内，团队可能会超出产能。 团队需要完成的剩余小时数显示在蓝色圆圈的右侧。
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
-* **能力不足**:当水平线和蓝色圆圈显示在垂直线的左侧时，主团队的可用小时数多于他们分配的计划工时数。 这表示该团队在过滤的时间段内可能处于容量不足状态。 蓝色圆圈的左侧显示了家庭团队完成工作的额外可用小时数。
+* **低于产能**：当水平线和蓝色圆圈显示在垂直线的左侧时，主团队的可用小时数多于为其分配的计划工作小时数。 这意味着该团队在过滤的时间段内可能没有足够的容量。 主团队完成工作的额外可用小时数显示在蓝色圆圈的左侧。
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
-将鼠标悬停在一行上可显示计划容量和可用容量的确切小时数，以及主团队超出或低于容量的小时数。
+将鼠标悬停在一行上会显示计划容量和可用容量的确切小时数，以及主团队超出或低于容量的小时数。
 
 查看此信息可帮助您确定：
 
-* 如果主队被过度分配或分配不足。
-* 最大的项目是家庭团队所关注的。
-* 哪些主队可以工作。
+* 主团队是否分配过多或分配不足。
+* 最大的项目是主团队所专注的。
+* 哪些主团队可以工作。
 
-要了解如何获取此可视化图表的最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 查看“资源能力”可视化
+## 查看资源产能可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **Analytics**.
+1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **分析**.
 1. 在左侧面板中，选择 **人员**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. （可选）要使用其他日期范围，请从日期范围筛选器中选择新的开始日期和结束日期。
+1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
    有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. （视情况而定）如果您未设置团队过滤器，请添加团队过滤器，然后选择要查看其数据的每个团队。
+1. （视情况而定）如果尚未设置团队筛选器，请添加团队筛选器并选择要查看其数据的每个团队。
 
-   有关在Enhanced Analytics中添加过滤器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   添加过滤器后，最多会显示50个项目的数据，并且即使您离开页面或注销Workfront后，这些过滤器仍保持活动状态。
+   添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
-1. （可选）要放大日期范围，请在可视化中选择一个点以表示日期范围的开始日期，然后拖到日期范围的结束日期。
+1. （可选）要放大日期范围，请在可视化图表上选择一个点作为日期范围的起点，然后拖动到日期范围的终点。
 
-   所有其他可视化图表将更新至同一日期范围，并创建时间范围过滤器。
+   所有其他可视化都会更新到相同的日期范围，并创建一个时间范围过滤器。
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. 将鼠标悬停在主团队行上，可查看仍可计划的小时数、主团队计划完成的小时数，以及工作的总小时数（标记为超量、次数或容量）。
+1. 将鼠标悬停在主团队线路上，查看还有多少小时可供安排，主团队计划完成的时数，以及标记为超出、不足或处于产能状态的总工作小时数。
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. （可选）要导出可视化数据，请单击 **导出图标** ![](assets/export.png) 在可视化的右上角，选择导出格式：
+1. （可选）要导出可视化数据，请单击 **“导出”图标** ![](assets/export.png) 然后选择导出格式：
 
    * **图表 (PNG)**
    * **数据表(XSLX)**
 
-1. 单击主团队名称，以在“团队容量”可视化图表中查看更多信息。
+1. 单击主团队名称可在团队容量可视化图表中查看更多信息。
 
-   要了解有关“团队容量”可视化的更多信息，请参阅 [在Enhanced Analytics中查看“团队容量”可视化](../enhanced-analytics/team-capacity-overview.md).
+   要了解有关团队容量可视化的更多信息，请参阅 [在“增强分析”中查看“团队容量”可视化图表](../enhanced-analytics/team-capacity-overview.md).
 
 

@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
 title: 报告的提示、技巧和疑难解答
-description: 本部分包含以下文章 — 编辑我。
+description: 了解如何对报表进行故障排除。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---

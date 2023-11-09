@@ -1,27 +1,27 @@
 ---
 product-area: documents;setup
 navigation-topic: review-a-proof
-title: 設定校訂檢視器設定
-description: 您可以為Web Proof Viewer和Desktop Proof Viewer — 編輯我。
+title: 配置校对查看器设置
+description: 您可以配置Web验证查看器和桌面验证查看器的设置。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
-# 設定校訂檢視器設定
+# 配置校对查看器设置
 
-您可以為Web Proof Viewer和Desktop Proof Viewer進行下列設定：
+您可以为Web验证查看器和桌面验证查看器配置以下设置：
 
-* 註解標示和圖釘是否顯示在校樣上。
-* 標籤工具會顯示在校樣檢視器頂端還是下拉式功能表中。
-* 您在開啟的校樣上以檢閱者身分收到的電子郵件通知有哪些。
+* 注释标记和图钉是否显示在验证上。
+* 标记工具是显示在校样查看器的顶部还是下拉菜单中。
+* 您作为查看者会在打开的验证中收到哪些电子邮件通知。
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
@@ -29,147 +29,147 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For comparative information about the Web Proofing Viewer and the Desktop Proofing Viewer, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p>
 -->
 
-您可以為「案頭校訂檢視器」設定下列設定：
+您可以为桌面校对查看器配置以下设置：
 
-* 您希望網站內容中的連結在檢視器中開啟的方式。
+* 希望在查看器中打开网站内容中的链接的方式。
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
-* 當您按一下設定為在新的瀏覽器標籤或視窗中開啟的連結時，會發生什麼情況。
-* 清除可能與您檢視的校樣一起儲存的快取資料，以便讓快顯視窗之類的內容（可由瀏覽器快取資料封鎖）顯示在檢視器中。
+* 当您单击设置为在新的浏览器选项卡或窗口中打开的链接时，会发生什么情况。
+* 清除可能随您查看的验证一起保存的缓存数据，以使弹出窗口（可由浏览器缓存数据阻止）等内容显示在查看器中。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>目前計畫：Pro或更高版本</p> <p>或</p> <p>舊版計畫：選擇或Premium</p> <p>如需有關校訂不同計畫的存取許可權的詳細資訊，請參閱 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">存取Workfront中的校訂功能</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>目前計畫：工作或計畫</p> <p>舊版計畫：任何（您必須為使用者啟用校樣）</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校对权限配置文件 </td> 
-   <td>經理或以上</td> 
+   <td>经理或更高版本</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯檔案的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、角色或校訂許可權設定檔，請聯絡您的Workfront或Workfront Proof管理員。
+&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
-## 設定校訂檢視器設定
+## 配置校对查看器设置
 
-若要設定校訂檢視器設定：
+要配置校对查看器设置，请执行以下操作：
 
-1. 以下列其中一種方式開啟「網頁校訂檢視器」或「案頭校訂檢視器」：
+1. 通过以下方式之一打开Web验证查看器或桌面验证查看器：
 
-   * 如果您在Adobe Workfront中校訂，請前往包含您要檢視之校訂的檔案清單，將游標停留在檔案上，然後按一下 **未完成的校訂**.
-   * 如果您使用Workfront Proof，請按一下 **前往校訂** 「儀表板」或「檢視」清單中校訂的圖示 ![](assets/go-to-proof-blue-icon.png).
+   * 如果您在Adobe Workfront中校对，请转到包含要查看的校对的文档列表，将鼠标悬停在文档上，然后单击 **打开校对**.
+   * 如果您使用Workfront Proof，请单击 **前往校对** 仪表板或视图列表中的验证图标 ![](assets/go-to-proof-blue-icon.png).
 
-1. 如果左側工具列未顯示，請按一下 **選單** 圖示，位於「網頁校訂檢視器」的左上角。
+1. 如果未显示左侧工具栏，请单击 **菜单** 图标，位于Web验证查看器的左上角。
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 在左側工具列中，按一下 **設定** 圖示 ![](assets/settings-icon-in-pv.png).
+1. 在左侧工具栏中，单击 **设置** 图标 ![](assets/settings-icon-in-pv.png).
 
-1. 設定下列任一專案 **設定** 隨即顯示。
+1. 配置以下任一项 **设置** 那个显示器。
 
-   可用的設定可能會因您開啟的校樣型別而異。
+   可用的设置可能因您打开的校样类型而异。
 
-   * **顯示標籤** （一律可在網頁校訂檢視器和案頭校訂檢視器中使用）：這些是檢閱者在使用標籤工具時新增到校訂的註解標籤。 如果您停用註解，當您按一下註解清單中的註解時，仍可看見註解。
+   * **显示标记** （在Web验证查看器和桌面验证查看器中始终可用）：这些是查看者在使用标记工具时添加到验证的注释标记。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
 
-      此設定會影響您開啟的所有校訂。
+     此设置会影响您打开的所有校样。
 
-   * **顯示圖釘** （一律可在網頁校訂檢視器和案頭校訂檢視器中取得）：這些是校訂者在使用標籤工具時新增到校訂中的編號圖釘。 註解可指出稽核者新增註解的位置和順序。 如果您停用註解，當您按一下註解清單中的註解時，仍可看見註解。
+   * **显示大头针** （在Web验证查看器和桌面验证查看器中始终可用）：这些是查看者在使用标记工具时添加到验证中的带编号的pin。 它们指示审阅人添加注释的位置和顺序。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
 
-      此設定會影響您開啟的所有校訂。
+     此设置会影响您打开的所有校样。
 
-   * **使用展開的標籤工具** （一律可在網頁校訂檢視器和案頭校訂檢視器中使用）：依預設，標籤工具選項會顯示在校訂檢視器的頂端。 您可以將它們設定為在垂直選單中顯示，此選單只有在您按一下它時才開啟。
+   * **使用扩展的标记工具** （始终在Web验证查看器和桌面验证查看器中可用）：默认情况下，标记工具选项显示在验证查看器的顶部。 您可以将它们配置为在垂直菜单中显示，此垂直菜单仅在单击时打开。
 
-      此設定對您開啟的所有校訂都有效。
+     此设置对您打开的所有验证有效。
 
-   * **傳送有關以下內容的電子郵件通知給我：** （一律可在網頁校訂檢視器和案頭校訂檢視器中取得）：按一下下列其中一個選項。 此設定只會影響您已開啟的校訂。 如需詳細資訊，請參閱 [校訂評論和決定概觀的通知](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **向我发送有关以下内容的电子邮件通知：** （始终在Web验证查看器和桌面验证查看器中可用）：单击以下选项之一。 此设置仅影响您已打开的校对。 有关更多信息，请参阅 [验证评论和决策通知概述](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">所有活動</td> 
-        <td>每次校樣上有任何活動（例如新評論、回覆或決定）時，Workfront都會傳送電子郵件給檢閱者。 <p>這是管理校訂流程人員的絕佳選項，因為可讓他們檢視活動發生的時間。 </p><p>使用者不會收到有關其活動的電子郵件警報。</p></td> 
+        <td role="rowheader">所有活动</td> 
+        <td>每次验证上存在任何活动（如新评论、回复或决策）时，Workfront都会向查看者发送电子邮件。 <p>这是管理校对流程的人员的最佳选项，因为它允许他们查看活动发生的情况。 </p><p>用户不会收到有关其活动的电子邮件警报。</p></td> 
        </tr> 
        <tr> 
-        <td role="rowheader">回覆我的評論</td> 
-        <td>只有當某人明確回覆其評論（這不包括他們自己的評論）時，才會傳送電子郵件給稽核者。 這表示如果校樣上的某人發表新評論，則不會通知檢閱者。<p>建議您的客戶在校樣上使用此設定，以便他們不會收到校樣上任何其他評論的通知，並且只收到他們自己評論的回覆通知。</p><p>雖然具有此電子郵件警報設定的檢閱者不會收到其他新評論的通知，但他們仍然可以在校訂檢視器中檢視校訂上的所有評論。</p><p>如需關於註解的資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">檢視並回覆校訂評論</a>.</p></td> 
+        <td role="rowheader">回复我的评论</td> 
+        <td>只有当某人明确回复其评论时，才会向审阅人发送电子邮件（这不包括他们自己对评论的回复）。 这意味着如果验证中的某人发表新评论，则不会通知查看者。<p>建议向验证上的客户使用此设置，以便他们不会收到有关验证的任何其他评论的通知，并且只会在回复他们自己的评论时收到通知。</p><p>虽然具有此电子邮件警报设置的查看者不会收到有关其他新评论的通知，但他们仍然可以在验证查看器中查看有关验证的所有评论。</p><p>有关注释的信息，请参见 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">查看并回复验证评论</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">决策</td> 
-        <td>Workfront只會在有人做出決定時傳送電子郵件給稽核者。<p>這對於管理核准流程的人員（例如專案經理）非常有用，他們需要監控校訂的進度並檢視哪些使用者已做出決定。</p><p>除非您在提交決策時選取電子郵件確認選項，否則不會通知您自己的決策。</p></td> 
+        <td>Workfront仅在有人做出决定时向审核者发送电子邮件。<p>这对于管理审批流程的人员（如项目经理）非常有用，他们需要监控验证进度并查看哪些用户做出了决定。</p><p>除非您在提交决策时选择了电子邮件确认选项，否则不会通知您自己的决策。</p></td> 
        </tr> 
        <tr> 
-        <td role="rowheader">最終決定</td> 
-        <td>當校訂的最後一位核准者做出決定時，Workfront會傳送電子郵件。<p>設計師經常會使用此警報，通常不需要參與實際的稽核討論。 做出最終決定時，設計人員會收到通知，然後可以對任何必要的變更採取行動。</p><p>此警示對於必須在複查程式完成後才收到通知的部門主管也十分有用。</p></td> 
+        <td role="rowheader">最终决定</td> 
+        <td>当验证的最后一位审批者做出决定时，Workfront会发送电子邮件。<p>此警报通常由设计人员使用，他们通常不需要参加实际的审核讨论。 当做出最终决定时，设计人员会收到通知，然后可以对任何必要的更改执行操作。</p><p>此警报对于需要仅在审核流程完成后才收到通知的部门领导也很有用。</p></td> 
        </tr> 
        <tr> 
-        <td role="rowheader">每小時摘要</td> 
-        <td>Workfront每小時會傳送電子郵件給稽核者，其中包含該小時內發生的所有評論、回覆和決策的摘要。<p>只有當您以外的活動發生在過去一小時內，才會傳送電子郵件。 </p><p>此警報是檢視專案概觀的好地方。</p><p>此摘要的範例使用案例是資深檢閱者，他需要專案概觀，但不需要立即收到校訂上所有活動的通知。</p></td> 
+        <td role="rowheader">每小时摘要</td> 
+        <td>Workfront每小时会向查看者发送一封电子邮件，其中包含该小时发生的所有评论、回复和决策的摘要。<p>仅当过去一小时内发生除您自己的活动以外的活动时，才会发送电子邮件。 </p><p>此警报非常适合用于查看项目概述。</p><p>此摘要的示例用例是高级查看者，他需要项目概述，但不需要立即收到有关验证中所有活动的通知。</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">每日摘要</td> 
-        <td>Workfront只會傳送一封電子郵件，其中包含所有評論、回覆和決定，而且只會在您擁有的活動以外的日期列出。<p>此警報是檢視專案摘要的好方法，而不會在一天中忙於多次更新。</p><p>此摘要的範例使用案例是部門負責人，他想要監控專案的整體進度。</p><p>如需詳細資訊，請參閱 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理校訂評論和決定的通知</a>.</p></td> 
+        <td>Workfront会发送一封电子邮件，其中包含仅在有您自己的活动之外的活动时列出的所有评论、回复和决策。<p>此警报非常适合用于查看项目摘要，而不会在一天之内出现多次更新。</p><p>此摘要的示例用例是一个部门领导，他想要监控项目的整体进度。</p><p>有关更多信息，请参阅 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理验证评论和决策的通知</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
-        <td role="rowheader">無電子郵件</td> 
-        <td>Workfront不會傳送任何電子郵件警示。<br>這對僅供參考之用，且不需要收到任何變更通知的人員非常有用。<p>系統預設值為「每日」摘要（也視為「未設定」）。 如果您或您的稽核者沒有進行任何其他變更，則您的所有校樣都會有此設定。</p></td> 
+        <td role="rowheader">无电子邮件</td> 
+        <td>Workfront不发送任何电子邮件警报。<br>这对于仅出于参考目的添加到验证而无需通知任何更改的人员非常有用。<p>系统默认值为“Daily summary（每日摘要）”(也视为“Not Set（未设置）”)。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td> 
        </tr> 
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **按一下校樣中的超連結時** （僅適用於「案頭校訂檢視器」）：選取選項以指定當您按一下設定為在新的瀏覽器標籤或視窗中開啟的連結時，會在「案頭校訂檢視器」中發生的情況。
+   * **单击验证中的超链接时** （仅在桌面验证查看器中可用）：选择一个选项，以指定当您单击设置为在新的浏览器选项卡或窗口中打开的链接时，在桌面验证查看器中发生的情况。
 
-      此設定對您開啟的所有互動式校訂都有效。
+     此设置对您打开的所有交互式验证有效。
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">在校訂檢視器中開啟</td> 
-        <td>連結一律會在案頭校訂檢視器中開啟，而且您可以校訂連結的內容。 </td> 
+        <td role="rowheader">在验证查看器中打开</td> 
+        <td>链接始终在桌面校对查看器中打开，您可以校对链接的内容。 </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">在瀏覽器中開啟</td> 
-        <td>連結一律會在瀏覽器中開啟，而不是在校樣檢視器中。 您無法校訂連結的內容。</td> 
+        <td role="rowheader">在浏览器中打开</td> 
+        <td>链接始终在浏览器中打开，而不是在验证查看器中打开。 您无法校对链接的内容。</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">每次都詢問我</td> 
-        <td> <p>每次您想在案頭校訂檢視器或瀏覽器中開啟連結時，系統都會提示您提示。 如果您在案頭校訂檢視器中開啟連結，則可以校訂連結的內容。 如果您在瀏覽器中開啟連結，將無法校訂連結的內容。</p> <p> <img src="assets/proof-desktop-alwaysask-350x243.png" alt="proof_desktop_alwaysask.png" style="width: 350;height: 243;"> </p> <p>此設定只會影響您已開啟的校訂。</p> </td> 
+        <td role="rowheader">每次都询问我</td> 
+        <td> <p>每次要在桌面验证查看器或浏览器中打开链接时，系统都会提示您进行选择。 如果在桌面校对查看器中打开链接，则可以校对链接的内容。 如果您在浏览器中打开链接，则无法验证链接的内容。</p> <p> <img src="assets/proof-desktop-alwaysask-350x243.png" alt="proof_desktop_alwaysask.png" style="width: 350;height: 243;"> </p> <p>此设置仅影响您已打开的校对。</p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **清除快取**：清除可能以您正在檢視的互動式校樣儲存的瀏覽器快取資料。 這可讓快顯視窗（可由瀏覽器快取資料封鎖）等內容顯示在案頭校訂檢視器中。
+   * **清除缓存**：清除可能随您正在查看的交互式验证一起保存的浏览器缓存数据。 这样可使弹出窗口（可由浏览器缓存数据阻止）等内容显示在桌面验证查看器中。
 
-      已清除的資料包括HTTP快取（例如要在下一頁重新整理後重複使用的影像）和網頁儲存資料快取（例如Cookie和識別使用者的資料）。
+     清除的数据包括HTTP缓存（如要在下一页刷新后重用的图像）和Web存储数据缓存（如Cookie和标识用户的数据）。
 
-      此設定只會影響您已開啟的校訂。
+     此设置仅影响您已打开的校对。
