@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ An example of how this can be used would be helpful here and/or in the section <
       <td>指定提醒通知的名称。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">等待期</td> 
+      <td role="rowheader">资格期限</td> 
       <td> <p>在中指定日期之前或之后的小时数、工作日数、天数（日历日）、周数或月数 <strong>计时</strong> 字段。</p> <p><b>注释</b>:  
         <ul> 
          <li> <p>满足所有条件后，在指定日期的24小时后开始提醒通知。</p> </li> 
@@ -109,13 +109,13 @@ An example of how this can be used would be helpful here and/or in the section <
       <td role="rowheader">标准</td> 
       <td> <p>选择条件以限定要计划的提醒通知。 除非满足标准选择，否则不会计划提醒通知。</p> <p>根据您在步骤4中选择的对象类型，可以使用以下标准选项：</p> 
        <ul> 
-        <li><strong>当前项目中未完成的项目：</strong> （可用于任务和问题提醒）仅当与提醒通知关联的对象状态不是“完成”并且项目状态是“当前”时，才会计划发送提醒通知。</li> 
-        <li><strong>当前项目中的所有项目：</strong>（可用于任务和问题提醒）提醒通知计划发送与对象状态无关，并且仅当提醒通知关联的项目状态为“当前”时。</li> 
-        <li><strong>未完成的项目：</strong> （可用于项目提醒）提醒通知计划当项目状态不是“完成”时发送。</li> 
-        <li><strong>完成项目：</strong> （可用于项目提醒）提醒通知计划于项目状态为完成时发送。</li> 
-        <li><strong>未结工时表：</strong> （可用于时间表提醒）提醒通知计划于时间表状态为“打开”时发送。</li> 
-        <li><strong>已提交的工时表：</strong> （可用于时间表提醒）提醒通知计划于时间表状态为已提交时发送。</li> 
-        <li><strong>未结时间表或每周少于40小时：</strong> （可用于时间表提醒）提醒通知计划在以下情况下发送：时间表状态为“打开”或时间表记录的时间少于40小时。</li> 
+        <li><strong>当前项目中未完成的项目：</strong> <i>（可用于任务和问题提醒）</i> 仅当与提醒通知关联的对象状态不是“完成”并且项目状态是“当前”时，才会计划发送提醒通知。</li> 
+        <li><strong>当前项目中的所有项目：</strong> <i>（可用于任务和问题提醒）</i> 提醒通知计划发送与对象状态无关，并且仅当与提醒通知关联的项目状态为“当前”时。</li> 
+        <li><strong>未完成的项目：</strong> <i>（可用于项目提醒）</i> 提醒通知计划于项目状态不是“完成”时发送。</li> 
+        <li><strong>所有项目：</strong> <i>（可用于项目提醒）</i> 无论项目状态如何，提醒通知都会按计划发送。</li> 
+        <li><strong>未结工时表：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“打开”时发送。</li> 
+        <li><strong>已提交的工时表：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“已提交”时发送。</li> 
+        <li><strong>未结时间表或每周少于40小时：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“打开”或时间表记录时间少于40小时时发送。</li> 
         <li><strong>电子邮件模板：</strong> 从下拉列表中，选择要附加到提醒的电子邮件模板。<br>有关如何构建电子邮件模板的信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">配置电子邮件模板</a>.</li> 
        </ul> </td> 
      </tr> 

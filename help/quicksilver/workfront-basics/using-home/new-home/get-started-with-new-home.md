@@ -6,10 +6,10 @@ description: 新主页是一个用于管理您的工作的强大新功能。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 21%
+source-wordcount: '945'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 21%
     在具有可自定义过滤器、视图和分组的表格中显示分配给您的任务，以及用于直接创建新任务的按钮。
 
 * **我的问题**\
-    在表格中显示分配给您的问题，该表格带有可自定义的筛选器、视图和分组，以及一个用于直接创建新问题的按钮。
+    在表格中显示分配给您的问题，该表格带有可自定义的筛选器、视图和分组，以及一个用于直接创建新问题的按钮。 此构件仅包含其关联项目设置为当前的问题。
 
 * **我的请求**\
     显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要窗格的按钮。
