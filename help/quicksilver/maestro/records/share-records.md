@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 从记录类型表格视图中共享记录链接
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然后单击 **大师**.
+1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
 
    您上次访问的工作区随即打开。
 1. 单击记录类型卡片。
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    或
 
-   将鼠标悬停在记录名称上，然后单击更多菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
 
    ![](assets/contextual-menu-for-record-row.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ role: User
    单击 **全部清除** 以删除所有字段。
 
 1. 在 **记录分组条件** 方框关闭它。
+1. （可选）单击 **设置**，则 **颜色** 到颜色代码分组。 欲了解更多信息，请参见 [编辑时间线视图设置](#edit-the-timeline-view-settings) 部分。
 
 <!-- 
 

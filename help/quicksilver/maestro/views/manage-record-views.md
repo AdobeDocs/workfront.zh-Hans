@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 在右上角 <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->，然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** 图标 ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture-and-fields/create-workspaces.md).
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture-and-fields/create-record-types.md).
 

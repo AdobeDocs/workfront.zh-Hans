@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 您可以在记录类型页面的表格视图中创建记录。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 在右上角 <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->，然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** 图标 ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture-and-fields/create-workspaces.md).
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture-and-fields/create-record-types.md).
 

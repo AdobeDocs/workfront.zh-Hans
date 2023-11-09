@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ ht-degree: 4%
    <td>团队</td> 
   </tr> 
   <tr> 
-   <td>时间表*</td> 
-   <td>用户、团队</td> 
+   <td>时间表</td> 
+   <td><p>用户、团队</p>
+   <p><b>注释</b></p>
+   <p>时间表备注显示在做出备注的用户的“更新”部分及其主页团队的“更新”部分。</p>
+   </td> 
   </tr> 
   <tr> 
    <td>模板任务</td> 
@@ -184,7 +187,7 @@ ht-degree: 4%
    <td>迭代，团队</td> 
   </tr> 
   <tr> 
-   <td>迭代*</td> 
+   <td>迭代</td> 
    <td>团队</td> 
   </tr>
 
@@ -198,7 +201,7 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-*这些内容不适用于新的评论体验。
+
 
 <br>
 
