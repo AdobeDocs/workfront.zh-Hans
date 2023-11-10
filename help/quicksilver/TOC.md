@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: adce227ab7108409195be56ace27f533a926268b
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '13392'
 ht-degree: 1%
@@ -729,7 +729,7 @@ ht-degree: 1%
          * [管理组对象](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [管理组公司](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [管理组布局模板](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-         * [管理组项目](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+         * [管理组项目组合](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
          * [管理组程序](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
          * [管理组团队](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
          * [管理组审批流程](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
@@ -1778,8 +1778,8 @@ ht-degree: 1%
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 验证 {#proofing}
-      * [验证](review-and-approve-work/proofing/proofing.md)
+   * 校对 {#proofing}
+      * [校对](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
