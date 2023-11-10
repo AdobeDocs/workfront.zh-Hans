@@ -6,7 +6,7 @@ description: 您可以响应根据对项目、任务、问题和其他对象的�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -19,12 +19,8 @@ ht-degree: 1%
 
 您可以通过以下方式回复电子邮件通知的更新：
 
-回复原始评论。
-
 * 使用电子邮件中的“评论”按钮可导航回Workfront并回复更新区域的更新。
-* 回复您收到的电子邮件。 您的回复电子邮件已添加为Workfront
-
-
+* 回复您收到的电子邮件。 您的回复电子邮件将添加为Workfront对原始评论的回复。
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ ht-degree: 1%
 
 您必须具有以下权限才能执行本文中的步骤：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

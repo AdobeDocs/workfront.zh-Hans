@@ -6,9 +6,9 @@ description: 以下通知会提醒您正在赞助的项目中发生的活动。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
    <td><strong>即时</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>发现一个需要我关注的错误</strong> </p> <p>通过电子邮件回复评论的用户会在回复无法传递时收到电子邮件通知。</p> <p>即时通知电子邮件的主题是： <em>[！UICONTROL无法处理] &lt;subject of="" original="" message=""&gt;</em></p> <p>有关使用电子邮件回复评论的信息，请参阅。<strong></strong></p> </td> 
+   <td> <p><strong>发现一个需要我关注的错误</strong> </p> <p>通过电子邮件回复评论的用户会在回复无法传递时收到电子邮件通知。</p> <p>即时通知电子邮件的主题是： <em>[！UICONTROL无法处理] &lt;subject of="" original="" message=""&gt;</em></p> <p>有关使用电子邮件回复评论的信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">回复电子邮件通知</a>.</p> </td>
    <td> </td> 
    <td><strong>即时</strong> </td> 
   </tr> 
