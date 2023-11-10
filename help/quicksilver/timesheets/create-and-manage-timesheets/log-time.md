@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ ht-degree: 0%
 
 您可以在主页中记录特定于项目的时间。
 
-有关使用“主页”区域的一般信息，请参阅 [使用“主页”区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+有关使用“主页”区域的一般信息，请参阅以下部分：
 
-要从“主页”区域记录工作项的时间，请执行以下操作：
+* 有关使用旧版主页区域的信息，请参阅 [使用“主页”区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* 有关使用新的“主页”区域的信息，请参阅 [开始使用Adobe Workfront中的新主页](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### 在新的“主页”区域的工作项上记录时间
+
+1. 已转到 **主页** 区域。
+1. 添加以下任意构件：
+
+   * 我的任务
+   * 我的问题
+   * 我的工作
+   * 我的请求
+1. 在列表中选择任务、问题或请求，然后单击 **摘要**
+
+   或
+
+   单击 **摘要** 图标 ![](assets/open-summary-icon-in-home.png) 来自我的工作小组件中的任务或问题。
+
+   右侧将打开“摘要”面板。
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. 继续在“摘要”面板中记录时间，如中所述 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### 在旧版主页区域的工作项上记录时间
 
 1. 在 **工作列表** 区域，选择要记录时间的项目。
 1. 在右侧面板中，单击 **记录时间**.
@@ -430,16 +454,16 @@ ht-degree: 0%
    * **所有者：** 默认情况下，您的姓名会显示在此字段中。\
      如果要为其他用户记录小时数，请指定其名称。
 
-   * **小时**：输入项目、任务或问题的小时数。
    * **小时类型**：如果小时类型与默认显示的类型不同，请从下拉菜单中选择小时类型。
 
      根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参见 [定义工时表的小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **工作角色**：（视情况而定）如果您的Workfront或组管理员已启用 **手动将工作角色分配给小时条目** 设置，选择 **工作角色** 从下拉菜单中。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的更多信息，请参阅文章 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **小时**：输入项目、任务或问题的小时数。
 
-1. 单击 **记录小时数**.
+1. 单击 **记录时间**.
 
 ### 摘要面板
 
