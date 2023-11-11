@@ -5,11 +5,11 @@ product-area: workfront-integrations;calendars
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365日历
-description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用Microsoft Office 365日历的工作流，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动使用Microsoft Office 365日历的工作流，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 # [!DNL Microsoft Office 365 Calendar]
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Microsoft Office 365 Calendar]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Microsoft Office 365 Calendar]，并将其连接到多个第三方应用程序和服务。
 
-要使用 [!DNL Office 365 Calendar] 替换为 [!DNL Adobe Workfront Fusion]，则必须拥有 [!DNL Office 365 Excel] 帐户。 您可以在以下位置创建一个 [www.office.com](http://www.office.com/).
+要使用 [!DNL Office 365 Calendar] 替换为 [!DNL Adobe Workfront Fusion]，则必须拥有 [!DNL Office 365 Excel] 帐户。 您可以在以下位置创建一个 [www.office.com](https://www.office.com/).
 
 有关将Office 365帐户连接到 [!DNL Workfront Fusion]，请参见 [创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-在您同意后，您将被重定向回 [!UICONTROL Workfront Fusion] 可在其中继续创建场景的“管理”页面。
+在您同意后，您将被重定向回 [!UICONTROL Workfront Fusion] “管理”页面，您可以在此页面继续创建方案。
 
 ## 访问要求
 
@@ -53,25 +53,25 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
-使用 [!DNL Microsoft Office 365 Calendar] 模块，您必须具有 [!DNL Microsoft Office 365 Calendar] 帐户。
+使用 [!DNL Microsoft Office 365 Calendar] 模块，您必须拥有 [!DNL Microsoft Office 365 Calendar] 帐户。
 
 ## [!DNL Microsoft Office 365 Calendar] 模块及其字段
 
-配置时 [!DNL Microsoft Office 365 Calendar] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Microsoft Office 365 Calendar] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Microsoft Office 365 Calendar] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Microsoft Office 365 Calendar] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要观察事件系列是否发生删除，请选择 [!UICONTROL 按更新时间] 在 [!UICONTROL 观看活动] 字段。 此模块不监视已删除的单个事件或删除的事件系列。
+>要监视某个事件系列的已删除事件，请选择 [!UICONTROL 按更新时间] 在 [!UICONTROL 观看活动] 字段。 此模块不会监视已删除的单个事件或删除的事件系列。
 
 
 <table style="table-layout:auto"> 
@@ -104,21 +104,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL观看活动]</td> 
+   <td role="rowheader">[！UICONTROL监视事件]</td> 
    <td> <p>选择您希望如何观看活动。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL按创建时间]</strong> </p> <p>注意新的活动。</p> </li> 
-     <li> <p><strong>[！UICONTROL更新时间]</strong> </p> <p>观看更新的活动。</p> </li> 
+     <li> <p><strong>[！UICONTROL按创建时间]</strong> </p> <p>留意新活动。</p> </li> 
+     <li> <p><strong>[！UICONTROL，更新时间]</strong> </p> <p>观看更新的活动。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历组ID]</td> 
-   <td>选择包含要从中观看事件的日历的[！UICONTROL日历组]。</td> 
+   <td>选择包含要监视其活动的日历的[！UICONTROL日历组]。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历]</td> 
@@ -144,13 +144,13 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历组ID]</td> 
-   <td>选择包含要从中观看事件的日历的[！UICONTROL日历组]。</td> 
+   <td>选择包含要监视其活动的日历的[！UICONTROL日历组]。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历]</td> 
@@ -169,7 +169,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Order by]</td> 
-   <td> <p>选择要如何对结果进行排序。</p> 
+   <td> <p>选择您希望对结果进行排序的方式。</p> 
     <ul> 
      <li><strong>[！UICONTROL主题]</strong>，升序或降序</li> 
      <li><strong>[！UICONTROL创建日期时间]</strong>，升序或降序</li> 
@@ -192,8 +192,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
@@ -204,16 +204,16 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建事件]
 
-此操作模块将创建一个新事件。
+此操作模块将创建新事件。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL主题]</td> 
@@ -221,19 +221,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL开始日期]</td> 
-   <td> 输入事件在组合日期和时间表示法中开始时的单一时间点。 使用格式 <code>({date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> 输入事件在合并日期和时间表示法中开始时的单个时间点。 使用格式 <code>({date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL结束日期]</td> 
-   <td> 输入事件以组合日期和时间表示形式结束时的单一时间点。 使用格式 <code>{date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> 输入事件以组合日期和时间表示结束时的单一时间点。 使用格式 <code>{date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL提醒时间]</td> 
-   <td>选择是否要为此事件激活提醒。</td> 
+   <td>选择是否要激活此事件的提醒。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL提醒]</td> 
-   <td>输入或映射提醒触发时，事件开始前的分钟数。</td> 
+   <td>输入或映射提醒触发时事件开始前的分钟数。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL重要性]</td> 
@@ -250,7 +250,7 @@ ht-degree: 0%
     <ul> 
      <li><strong>[！UICONTROL正常]</strong> </li> 
      <li> <p><strong>[！UICONTROL Personal]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为个人]”消息。</p> </li> 
-     <li> <p><strong>[！UICONTROL专用]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为私人]”消息。 收件人的收件箱规则不会转发或重定向此事件。</p> </li> 
+     <li> <p><strong>[！UICONTROL Private]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为私人]”消息。 收件人的收件箱规则不会转发或重定向此事件。</p> </li> 
      <li> <p><strong>[！UICONTROL机密]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为机密]”消息。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -260,15 +260,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL正文内容]</td> 
-   <td>输入或映射与事件关联的消息正文。 它可以是HTML或文本格式（如上面[！UICONTROL正文Content Type]字段中指定）。</td> 
+   <td>输入或映射与事件关联的消息正文。 它可以为HTML或文本格式（如上面[！UICONTROL正文内容类型]字段中所指定）。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL位置]</td> 
    <td> <p>输入事件位置详细信息。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">请求的[！UICONTROL响应]</td> 
-   <td>选择 <strong>[！UICONTROL是]</strong> 请求被邀请者发送对活动邀请的响应。</td> 
+   <td role="rowheader">已请求[！UICONTROL响应]</td> 
+   <td>选择 <strong>[！UICONTROL是]</strong> 请求被邀请者发送活动邀请的响应。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL显示为]</td> 
@@ -284,7 +284,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL与会者]</p> </td> 
-   <td> <p>添加活动的出席者。</p> 
+   <td> <p>添加活动参与者。</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL名称]</strong> </p> <p>输入与会者的姓名。</p> </li> 
      <li> <p><strong>[！UICONTROL电子邮件]</strong> </p> <p>输入与会者的电子邮件地址。</p> </li> 
@@ -306,13 +306,13 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
-   <td>输入、映射或选择要更新的事件的ID。</td> 
+   <td>输入、映射或选择要更新的事件ID。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL主题]</td> 
@@ -320,19 +320,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL开始日期]</td> 
-   <td> 输入事件在组合日期和时间表示法中开始时的单一时间点。 使用格式 <code>{date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> 输入事件在合并日期和时间表示法中开始时的单个时间点。 使用格式 <code>{date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL结束日期]</td> 
-   <td> 输入事件以组合日期和时间表示形式结束时的单一时间点。 使用格式 <code>({date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> 输入事件以组合日期和时间表示结束时的单一时间点。 使用格式 <code>({date}T{time}</code>；例如， <code>2017-08-29T04:00:00.0000000</code>. 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL提醒时间]</td> 
-   <td>选择是否要为此事件激活提醒。</td> 
+   <td>选择是否要激活此事件的提醒。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL提醒]</td> 
-   <td>输入或映射提醒触发时，事件开始前的分钟数。</td> 
+   <td>输入或映射提醒触发时事件开始前的分钟数。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL重要性]</td> 
@@ -349,7 +349,7 @@ ht-degree: 0%
     <ul> 
      <li><strong>[！UICONTROL正常]</strong> </li> 
      <li> <p><strong>[！UICONTROL Personal]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为个人]”消息。</p> </li> 
-     <li> <p><strong>[！UICONTROL专用]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为私人]”消息。 收件人的收件箱规则不会转发或重定向此事件。</p> </li> 
+     <li> <p><strong>[！UICONTROL Private]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为私人]”消息。 收件人的收件箱规则不会转发或重定向此事件。</p> </li> 
      <li> <p><strong>[！UICONTROL机密]</strong> </p> <p>收件人看到“[！UICONTROL请将其视为机密]”消息。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -359,15 +359,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL正文内容]</td> 
-   <td>输入或映射与事件关联的消息正文。 它可以是HTML或文本格式（如上面[！UICONTROL正文Content Type]字段中指定）。</td> 
+   <td>输入或映射与事件关联的消息正文。 它可以为HTML或文本格式（如上面[！UICONTROL正文内容类型]字段中所指定）。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL位置]</td> 
    <td> <p>输入事件位置详细信息。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">请求的[！UICONTROL响应]</td> 
-   <td>选择 <strong>[！UICONTROL是]</strong> 请求被邀请者发送对活动邀请的响应。</td> 
+   <td role="rowheader">已请求[！UICONTROL响应]</td> 
+   <td>选择 <strong>[！UICONTROL是]</strong> 请求被邀请者发送活动邀请的响应。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL显示为]</td> 
@@ -383,7 +383,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL与会者]</p> </td> 
-   <td> <p>添加活动的出席者。</p> 
+   <td> <p>添加活动参与者。</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL名称]</strong> </p> <p>输入与会者的姓名。</p> </li> 
      <li> <p><strong>[！UICONTROL电子邮件]</strong> </p> <p>输入与会者的电子邮件地址。</p> </li> 
@@ -405,9 +405,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
@@ -433,9 +433,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历组ID]</td> 
@@ -443,7 +443,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>输入日历的最大数量 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。</td> 
+   <td>输入最大日历数 [!DNL Workfront Fusion] 应在一个场景执行周期中返回。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,9 +457,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -477,9 +477,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历名称]</td> 
@@ -497,13 +497,13 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
-   <td>为要更新的日历输入[！UICONTROL日历ID]。 </td> 
+   <td>输入要更新的日历的[！UICONTROL日历ID]。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL新日历名称]</td> 
@@ -521,9 +521,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -543,9 +543,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
@@ -556,7 +556,7 @@ ht-degree: 0%
    td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。例如， <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -564,7 +564,7 @@ ht-degree: 0%
    <td> <p> 以标准JSON对象的形式添加API调用的查询。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:   <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

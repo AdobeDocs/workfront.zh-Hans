@@ -2,51 +2,51 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: “常见问题解答：Adobe Workfront — 美国到EMEA的迁移
-description: Adobe Workfront将直接联系受Workfront Proof US影响的所有组织，以迁移到EMEA。
+title: '常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA'
+description: Adobe Workfront将直接联系所有受Workfront Proof美国影响的组织迁移到EMEA。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
-# 常见问题解答：Adobe Workfront内部的校对 — 美国到EMEA的迁移
+# 常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA
 
-## 如何知道此更改是否会影响我的组织？ 
+## 如何知道此更改是否影响我的组织？ 
 
-Adobe Workfront将直接联系受Workfront Proof US影响的所有组织，以迁移到EMEA。
+Adobe Workfront将直接联系所有受Workfront Proof美国影响的组织迁移到EMEA。
 
-## 我是否需要为迁移做任何准备？
+## 我是否需要执行任何操作来准备迁移？
 
-是. 在迁移之前，请确保将以下内容添加到贵组织的允许列表:\
+是. 在迁移之前，请确保将以下内容添加到组织的允许列表中：\
 **webcapture.proofhq.eu**
 
 ## 迁移我的帐户需要多长时间？
 
-在很短的时间内，长达两小时，当我们将其迁移到EMEA数据中心的新位置时，您的帐户将无法访问。 您可以在 [Workfront状态网站](http://status.workfront.com/). 
+在很短的时间内（最长两小时），当我们将您的帐户迁移到EMEA数据中心的新位置时，无法访问您的帐户。
 
-客户迁移完成后，我们将开始将您的所有文件从我们的美国数据中心移至EMEA数据中心。 移动文件时，仍可在美国数据中心访问这些文件。 此过程将在后台进行，不会影响您和您的用户。
+帐户迁移完成后，我们将开始将您的所有文件从我们的美国数据中心移至EMEA数据中心。 文件移动期间，仍可通过美国数据中心访问。 此过程将在后台进行，不会影响您和您的用户。
 
 迁移完成后，您和您的用户将只能从EMEA数据中心访问文件和校样。 
 
-## 我用来访问Workfront Proof的URL将会出现什么情况？
+## 我用于访问Workfront Proof的URL会出现什么情况？
 
-为了使迁移成为可能，您用于访问系统的URL必须从proofhq.com更改为proofhq.eu。 迁移后使用旧proofhq.com URL的任何人都将收到一条提供新登录链接的消息：
+为了进行迁移，用于访问系统的URL必须从proofhq.com更改为proofhq.eu。 迁移后使用旧proofhq.com URL的任何人都将收到一条消息，提供新的登录链接：
 
-## 我是否仍可以使用旧的校样链接和书签？
+## 我仍然可以使用我的旧校样链接和书签吗？
 
-迁移后，特定于校样的书签将不再有效。 使用校样的任何人都将收到一条消息，该消息提供通过“转到校样”按钮访问校样的权限：
+迁移后，特定于验证的书签将不再有效。 任何使用验证的用户都会收到一条消息，其中提供了通过“前往验证”按钮访问验证的权限：
 
-## 我的用户名和密码是否与以前相同？
+## 我的用户名和密码是否会与以前相同？
 
-是的，您的用户名和密码将与今天完全相同。
+是，您的用户名和密码将与当前完全相同。
 
-## 我是否仍可以与在美国合作的证明帐户进行交互？
+## 我仍然可以与在美国的合作伙伴帐户进行互动吗？
 
-不会，您以前对美国验证帐户的任何访问权限都将不再可用。 您在EMEA的帐户与美国环境完全分离。 这是为了确保您的数据保持安全，并遵守欧盟数据隐私法。
+否，您对以前的美国验证帐户的任何访问权限将不再可用。 您在EMEA的帐户与美国环境完全分离。 这是为了确保您的数据保持安全并遵守欧盟数据隐私法律。
 
-如果您与之合作的另一个美国帐户需要维护此合作关系，则该帐户的所有者需要随您的帐户进行迁移。 请在迁移前与他们讨论此问题，以确保移动正确的帐户。
+如果您拥有另一个与你合作的美国帐户，并且需要维持这种合作关系，则该帐户的所有者需要随你的帐户进行迁移。 请在迁移前与他们讨论此内容，以确保移动正确的帐户。

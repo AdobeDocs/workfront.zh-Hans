@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Workfront Proof API是使用SSL保护的简单HTTP服务。 该API旨在为您�
 
 ## API版本控制
 
-为了保持与现有客户端集成的兼容性，我们从12.1版本引入了API版本控制。 请参阅  [API更新](http://api.proofhq.com/new-updates) 页面以了解更多信息。 如果某个方法或参数没有版本信息，则意味着您会在标准API中找到此信息，请参阅下面的“API快速入门”部分。
+为了保持与现有客户端集成的兼容性，我们从12.1版本引入了API版本控制。 请参阅  [API更新](https://api.proofhq.com/new-updates.html) 页面以了解更多信息。 如果某个方法或参数没有版本信息，则意味着您会在标准API中找到此信息，请参阅下面的“API快速入门”部分。
 
 ## API快速入门
 
@@ -54,6 +54,3 @@ API入口点：
     </soapenv:Envelope>
 ```
 
-## 常见问题解答
-
-有关常见问题的集合，请访问 [此](http://api.proofhq.com/faqs) 页面。

@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # [!DNL Quickbase] 模块
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Quickbase]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Quickbase]，并将其连接到多个第三方应用程序和服务。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,17 +51,17 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 ## [!DNL Quickbase] 模块及其字段
 
-配置时 [!DNL Quickbase] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Quickbase] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Quickbase] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Quickbase] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -77,15 +77,15 @@ ht-degree: 2%
 
 ### [!DNL Custom API Call]
 
-此模块会调用任何可用的 [!DNL Quickbase] RESTful API端点记录在 [developer.quickbase.com](http://developer.quickbase.com/).
+此模块会调用任何可用的 [!DNL Quickbase] RESTful API端点记录在 [developer.quickbase.com](https://developer.quickbase.com/).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Quickbase] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Quickbase] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
@@ -96,7 +96,7 @@ ht-degree: 2%
    <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如： <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 2%
    <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

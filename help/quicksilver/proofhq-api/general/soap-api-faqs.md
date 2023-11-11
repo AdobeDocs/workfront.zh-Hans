@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## 什么是校对/个人URL？
 
-**团队/公开**：每个验证版本都有一个唯一的团队（公共）URL。 如果启用，它将以只读模式打开验证。 您可以使用获取团队URL [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) 方法。
+**团队/公开**：每个验证版本都有一个唯一的团队（公共）URL。 如果启用，它将以只读模式打开验证。 您可以使用获取团队URL [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) 方法。
 
-**个人**：每个查看者和验证版本的个人URL都是唯一的。 如果验证集包含3个版本，并且查看者位于所有版本，则查看者将具有3个唯一的个人URL。 个人URL会打开验证版本，其中已识别审阅人，因此应保持安全且不予共享。 个人URL可通过调用 [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) 方法，然后在每个方法上  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) 并获取参数“proof_url”。
+**个人**：每个查看者和验证版本的个人URL都是唯一的。 如果验证集包含3个版本，并且查看者位于所有版本，则查看者将具有3个唯一的个人URL。 个人URL会打开验证版本，其中已识别审阅人，因此应保持安全且不予共享。 个人URL可通过调用 [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) 方法，然后在每个方法上  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) 并获取参数“proof_url”。
 
 ## >在打开小型验证时如何包含自定义参数？
 
@@ -71,5 +71,5 @@ ht-degree: 0%
 
 ## 如何创建Java Web服务客户端？
 
-[此视频](http://screencast.com/t/xsSNrqs5b) 显示了如何使用Eclipse和Workfront Proof WSDL定义创建Java Web服务客户端。
+[此视频](https://screencast.com/t/xsSNrqs5b) 显示了如何使用Eclipse和Workfront Proof WSDL定义创建Java Web服务客户端。
 

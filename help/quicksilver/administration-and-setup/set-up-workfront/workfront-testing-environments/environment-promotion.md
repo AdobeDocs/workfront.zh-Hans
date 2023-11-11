@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2304'
 ht-degree: 2%
@@ -134,7 +134,7 @@ API对每个请求进行身份验证，以确保客户端有权查看或修改�
 
 ### 请求标头身份验证
 
-首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这有一个优势，就是可以安全抵御 [跨站点请求伪造(CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻击，并且不会出于缓存目的干扰URI。
+首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这有一个优势，就是可以安全抵御 [跨站点请求伪造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻击，并且不会出于缓存目的干扰URI。
 
 以下是请求标头的示例：
 
