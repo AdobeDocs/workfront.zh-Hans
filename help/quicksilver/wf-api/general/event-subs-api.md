@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 3%
+source-wordcount: '2126'
+ht-degree: 4%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 3%
 * 模板
 * 时间表
 * 用户
+* Workspace
 
 有关事件订阅对象支持的字段列表，请参阅 [事件订阅资源字段](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ ht-degree: 3%
        <tr> 
         <td scope="col">用户</td> 
         <td scope="col">用户</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Workspace</td> 
+        <td scope="col">工作区</td> 
        </tr> 
       </tbody> 
      </table>
