@@ -3,7 +3,7 @@ title: 2024年第一季度发行版概述
 description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年11月9日、2024年<br /></p>
+                                <p>预览版本： 2024年11月9日、2023年<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">面向所有客户的生产：11月9日。 2024</span></p>
+                                <p><span class="preview">面向所有客户的生产：11月9日。 2023</span></p>
                             </li>
                         </ul>
                     </td>
