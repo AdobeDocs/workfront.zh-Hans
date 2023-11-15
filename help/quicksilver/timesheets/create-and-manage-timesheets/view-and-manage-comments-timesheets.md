@@ -6,9 +6,9 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ ht-degree: 0%
 
 1. 单击 **时间表**.
 1. 转到要在其中发表评论的时间表。
-1. 单击 **更新** 在左侧面板中，确保 **评论** 选项卡中，并开始输入更新 **新建评论** 盒子。
+1. 单击 **更新** 在左侧面板，然后单击 **评论** 选项卡。
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. 输入更新 **新建评论** 盒子。
 1. （可选）在中添加人员或团队 **标记人员或团队** 字段以包含您的更新中的其他人。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. （可选）向评论中添加富文本格式。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）选择 **我的公司私有** 选项。

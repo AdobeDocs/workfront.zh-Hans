@@ -6,9 +6,9 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ ht-degree: 0%
 
 * 在主菜单中包含目标区域的布局模板。
 
-## 找到更新部分
+## 管理目标注释
 
 您可以在目标页面的“更新”部分中向目标添加评论。
 
 您可以回复或喜欢您或其他人在此区域添加的评论。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 位于右上角，或 **主菜单** 图标 ![](assets/lines-main-menu.png) （如果可用），然后单击 **目标**.
 这将打开目标列表。
 1. 找到要添加注释的目标，然后单击其名称以打开目标页面。
 1. 单击  **更新** 在左侧面板中。
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. 单击 **x** 图标，以清除搜索结果并返回至开始状态。
 1. 单击 **评论** 选项卡。
 1. 开始在 **新建评论** 盒子。
 

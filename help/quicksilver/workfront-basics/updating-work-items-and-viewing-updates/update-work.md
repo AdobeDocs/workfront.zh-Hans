@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3803'
 ht-degree: 1%
 
 ---
@@ -390,7 +390,7 @@ drafted for P&P release:
    1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选）要将图像附加到更新，请单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
+1. （可选） <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
 
    >[!NOTE]
    >
@@ -408,6 +408,30 @@ drafted for P&P release:
 
 1. 单击 **提交** 以添加您的评论。
 
+<!-- for the search for comments - November 2023 release to Preview: 
+
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+
+</div>
+
+-->
 
 ## 复制更新信息
 

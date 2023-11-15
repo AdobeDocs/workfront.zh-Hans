@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '13392'
+source-wordcount: '13399'
 ht-degree: 1%
 
 ---
@@ -1778,8 +1778,8 @@ ht-degree: 1%
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 校对 {#proofing}
-      * [校对](review-and-approve-work/proofing/proofing.md)
+   * 校样 {#proofing}
+      * [校样](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
@@ -2012,6 +2012,7 @@ ht-degree: 1%
    * Adobe大师访问 {#adobe-maestro-access}
       * [访问信息](maestro/access/access-information.md)
       * [访问概述](maestro/access/access-overview.md)
+      * [在Adobe大师中共享权限概述](maestro/access/sharing-permissions-overview.md)
       * [授予对Adobe大师的访问权限](maestro/access/grant-access.md)
    * AdobeMaestro记录 {#adobe-maestro-records}
       * [记录信息](maestro/records/records-information.md)
