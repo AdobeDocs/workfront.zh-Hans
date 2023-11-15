@@ -6,18 +6,14 @@ description: 利用信息卡上的子任务，您可以在任务之间建立父�
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 7a48179ad113c57fe6588a32de86aaf8836f586e
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # 管理展示板上的子任务
-
->[!IMPORTANT]
->
->信息卡上的子任务自2023年11月7日起暂时不可用。
 
 利用信息卡上的子任务，您可以在任务之间建立父子关系，并创建工作的层次结构。 您添加到Workfront展示板上信息卡的子任务也会添加到Workfront项目中的任务。 有关项目级别的子任务和任务的详细信息，请参阅 [创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

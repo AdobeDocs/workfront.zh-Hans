@@ -6,9 +6,9 @@ description: 您可以通过禁用字段以使其不显示在全卡片或压缩�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ ht-degree: 0%
 
 连接的卡片上提供自定义字段。 它们仅在全卡片视图中可见，而在展示板上的精简视图中不可见。
 
->[!NOTE]
->
->当您将自定义字段添加到信息卡时，信息卡上的数据为只读。
+自定义字段中的数据可以在信息卡上编辑，但某些自定义元素可能只能在原始字段上编辑，不能在信息卡上编辑。
 
 1. 访问展示板并单击 [!UICONTROL **配置**] 以打开配置面板。
 1. 展开 [!UICONTROL **卡片**].

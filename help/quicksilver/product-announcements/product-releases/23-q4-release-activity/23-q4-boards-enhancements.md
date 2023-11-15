@@ -4,9 +4,9 @@ description: 2023年第四季度董事会增强功能
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 有关如何在季度发布之前选择启用新展示板功能的详细信息，请参阅 [Adobe Workfront展示板的早期功能加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## 子任务现在可在Adobe Workfront展示板上使用
-
->[!NOTE]
->
->此功能自2023年11月7日起暂时不可用。 当该功能可用时，将更新此页面。
 
 当您将已连接的信息卡添加到Workfront任务的展示板时，任何现有子任务都会导入到该信息卡上。 此外，在连接的信息卡上创建子任务时，也会将一个子任务添加到Workfront任务中。
 
