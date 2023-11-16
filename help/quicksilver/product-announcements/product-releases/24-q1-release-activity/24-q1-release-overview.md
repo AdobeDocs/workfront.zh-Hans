@@ -3,10 +3,10 @@ title: 2024年第一季度发行版概述
 description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront增强功能
 
+* [文档管理增强功能](#document-management-enhancements)
 * [集成增强功能](#integration-enhancements)
+* [更新流和通知增强功能](#update-stream-and-notification-enhancements)
+
+### 文档管理增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年11月16日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审阅和审批状态显示在文档标题中</a></p><p>为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年11月9日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### 集成增强功能
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中现在提供预输入字段</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年11月16日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">所有客户的生产日期： 2023年12月7日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Adobe Experience Manager中自动发布资源</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们已将另一个工作流添加到Adobe Experience Manager集成。 现在，您可以将资源设置为在发送到Adobe Experience Manager时自动发布。 可将集成配置为发布到Adobe Experience Manager发布服务或Adobe Experience Manager Brand Portal。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年11月9日、2023年<br /></p>
+                                <p>预览版本： 2023年11月9日</p>
                             </li>
                             <li>
-                                <p><span class="preview">面向所有客户的生产：11月9日。 2023</span></p>
+                                <p><span class="preview">面向所有客户的生产： 2023年11月9日</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### 更新流和通知增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年11月16日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中复制并粘贴图像</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了提供消息内容的上下文，您现在可以从计算机复制图像并将其粘贴到新的更新或回复中，从而快速将图像附加到注释中。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年11月16日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## 公告
 
