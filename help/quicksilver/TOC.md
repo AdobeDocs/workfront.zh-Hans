@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
 workflow-type: tm+mt
-source-wordcount: '13399'
+source-wordcount: '13402'
 ht-degree: 1%
 
 ---
@@ -1774,6 +1774,7 @@ ht-degree: 1%
          * [创建文档审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [向文档添加其他审阅人或批准者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [从文档中删除批准者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * 审阅和批准文档 {#review-and-approve-documents}
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

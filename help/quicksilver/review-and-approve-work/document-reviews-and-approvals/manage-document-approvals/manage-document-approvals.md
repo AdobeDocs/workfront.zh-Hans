@@ -8,9 +8,9 @@ author: Nolan
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31eb7de4-aa45-4d97-bd00-7040936e15dc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 * [创建文档审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [向文档添加其他审阅人或批准者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [从文档中删除批准者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+* [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
