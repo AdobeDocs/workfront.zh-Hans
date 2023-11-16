@@ -6,16 +6,16 @@ description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 审阅文档
 
-作为审阅人，您可以预览已提交您审阅的文档。
+作为审阅人，您可以查看已提交您审阅的文档。 与批准不同，您无需做出决定。 而是要确认您已查看资产。
 
 >[!IMPORTANT]
 >
@@ -70,6 +70,7 @@ Add once functionality is added
    单击 **下载** 将文档的本地副本下载到设备上。
 
 1. （可选）复查文档后，您可以在文档的 **更新** 部分。 有关注释的更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 要记录您已完成审阅，请单击 **完成审阅**.
 
 ## 从“文档摘要”窗格中复查文档
 
@@ -90,3 +91,4 @@ Add once functionality is added
 1. （可选）复查文档后，您可以在文档的 **更新** 部分。 有关注释的更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （可选）您还可以通过向下滚动到 **版本** “文档摘要”窗格的部分，然后单击更多图标 ![](../assets/more-icon.png) 在要审阅的版本旁边，然后选择 **下载** 或 **预览**.
+1. 要记录您已完成审阅，请单击 **完成审阅**.
