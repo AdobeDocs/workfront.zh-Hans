@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '3985'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,13 @@ ht-degree: 1%
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 </span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -38,7 +39,7 @@ ht-degree: 1%
 >
 >有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
+>新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问更新时，该体验不可用：
 >
 > * 主页
 > * 列表中的摘要面板
@@ -390,13 +391,17 @@ drafted for P&P release:
    1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选） <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
+1. （可选） <span class="preview">要将图像附加到更新，请从计算机复制屏幕快照，然后单击 **CTRL + V** 对于Windows(或 **CMD + V** (适用于Mac)以将其粘贴到注释中</span>
+
+   或
+
+   单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
 
    >[!NOTE]
    >
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
-   >* 可以从对象的“更新”部分访问图像，也可以在“文档”区域访问图像。
+   >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，根据您选择的体验，会出现以下情况：
    >
@@ -408,30 +413,28 @@ drafted for P&P release:
 
 1. 单击 **提交** 以添加您的评论。
 
-<!-- for the search for comments - November 2023 release to Preview: 
-
 <div class="preview">
 
-## Search for an update
+## 搜索更新
 
 >[!NOTE]
 >
->This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+>此功能仅适用于新注释体验中的“注释”选项卡。 这在“更新”部分的“系统活动”选项卡中不可用。
 
-You can search for a comment or a reply in the Updates section of an object. 
+您可以在对象的“更新”部分中搜索注释或回复。
 
-1. Go to the **Updates** section of an object.
-1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. 转到 **更新** 对象的部分。
+1. 开始键入关键字 <!--or a user's name--> 在 **Search** 框中。 <!--You can search for comment owner's names or for users who are tagged on comments. -->
 
    ![](assets/search-field-in-updates-tab.png)
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. 单击 **x** 图标，以清除搜索结果并返回至开始状态。
 
 </div>
 
--->
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## 复制更新信息
 
