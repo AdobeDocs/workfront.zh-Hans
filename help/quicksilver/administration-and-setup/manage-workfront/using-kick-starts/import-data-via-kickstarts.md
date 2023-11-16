@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -136,9 +136,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p>访问级别</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td>分配</td> 
+      <td>任务</td> 
       <td>导出为Excel文件</td> 
-      <td> <p>分配</p> <p>首选项</p> </td> 
+      <td> <p>任务</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
       <td>公司</td> 
@@ -300,6 +300,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 >
 >  例如，在 **项目项目** 选项卡， **setCondition** 和 **setConditionType** 字段可留空，但 **setGroupID** 和 **setName** 列不能。
 >
+>* 某些字段，包括 **setResourceRe收入** 和 **setEnteredByID**，由系统自动生成。 如果在电子表格中输入这些字段的数据，则在上传电子表格时，快速启动过程将覆盖该数据。
 
 ### 导入记录  {#import-a-record}
 
