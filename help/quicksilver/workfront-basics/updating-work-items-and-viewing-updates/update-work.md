@@ -6,22 +6,20 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # 更新工作
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 </span>
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * 您可以从与Workfront集成的其他应用程序或Workfront移动设备应用程序向Workfront对象添加注释。
 
-  并非所有与Workfront集成的应用程序都能够向Workfront对象添加注释。
+  并非所有与Workfront集成的应用程序都可以向Workfront对象添加注释。
 
   从应用程序访问Workfront对象时，并非所有在Workfront对象的“更新”部分中可用的功能都可用于其他应用程序。 例如，在将评论从第三方应用程序添加到Workfront对象时，富文本功能或将评论设为某人的公司私密可能不可用。
 
@@ -234,7 +232,7 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >单击后会出现一个小型弹出窗口，持续七秒 **更新**，允许您撤消更新并在发布更新之前返回到编辑窗格。 如果您关闭撤消弹出窗口、等待其消失或导航离开页面，则将发布更新。
+   >单击后会出现一个小型弹出窗口，持续七秒 **更新**，允许您撤消更新并在发布更新之前返回到编辑窗格。 如果您关闭撤消弹出窗口、等待其消失或导航离开页面，则会发布更新。
    >
    >如果您的Workfront管理员在访问级别选择“不允许用户删除评论”设置，则无法撤消评论。 有关更多信息，请参阅 [创建和修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -263,7 +261,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带有“新”指示器的红线，以告知您较新的评论。
+   >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带“新”指示器的红线，通知您较新的评论。
    >
    >指示符仅在提交项目的评论之后显示，而不会在评论仍在撰写时显示。
    >
@@ -290,7 +288,7 @@ drafted for P&P release:
    >
    >* 仅当提交原始更新时，才会生成电子邮件通知用户您的更新。 编辑更新后不会生成电子邮件。
    >* 评论旁边的日期戳是原始评论的日期，而不是上次编辑的日期。
-   >* 当您代表其他用户发布评论时(以Workfront或组管理员身份以其他用户身份登录时)，如果您以其他用户身份登录，则无法编辑评论。 只有在以用户身份注销并以您自己身份重新登录之后，才能编辑注释。
+   >* 当您代表其他用户添加评论时(以Workfront或组管理员身份以其他用户身份登录时)，如果您以其他用户身份登录，则无法编辑评论。 只有在以用户身份注销并以您自己身份重新登录之后，才能编辑注释。
 
 
 1. （可选）单击 **回复** 或开始在 **添加回复……** 区域，回复现有评论，然后执行上述步骤4-8。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ drafted for P&P release:
    1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选） <span class="preview">要将图像附加到更新，请从计算机复制屏幕快照，然后单击 **CTRL + V** 对于Windows(或 **CMD + V** (适用于Mac)以将其粘贴到注释中</span>
+1. （可选） <span class="preview">要将图像附加到更新，请从计算机复制屏幕快照，然后将其粘贴到注释中 </span>
 
    或
 
-   单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 使用新的评论体验时，浏览到计算机上的图像。
+   单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
 
    >[!NOTE]
    >
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
    >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
+   >* <span class="preview">您可以右键单击新注释或在键盘上按Ctrl + V(对于Windows，或按CMD + V(对于Mac))来粘贴图像。</span>
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，根据您选择的体验，会出现以下情况：
    >
@@ -424,13 +423,17 @@ drafted for P&P release:
 您可以在对象的“更新”部分中搜索注释或回复。
 
 1. 转到 **更新** 对象的部分。
-1. 开始键入关键字 <!--or a user's name--> 在 **Search** 框中。 <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. 开始键入关键字 <!--or a user's name --> 在 **Search** 框（位于右上角） **评论** 选项卡。
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
 
-1. 单击 **x** 图标，以清除搜索结果并返回至开始状态。
+   Workfront会搜索对象的整个更新流，而不在屏幕上可见的注释。
+
+1. 单击 **x** 图标，以清除搜索结果并返回所有注释。
 
 </div>
 

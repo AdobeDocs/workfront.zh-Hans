@@ -2,15 +2,15 @@
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
 title: 有关新的备注测试版体验的信息
-description: 新的评论测试版体验目前已关闭。 以下文章记录了在新的评论体验中提供的功能。
+description: 新的评论Experience测试版计划目前已关闭。 以下文章记录了在新的评论体验中提供的功能。
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 0ffa49583d8c248c8e248caccd1bb5edd18e9a91
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新的评论测试版体验目前已关闭。
+>新的评论Experience测试版计划目前已关闭。
 >
 >从2023年第四季度版本（2023年10月）开始，测试期间发布的功能已提供给所有客户。
 
