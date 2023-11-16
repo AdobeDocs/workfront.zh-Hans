@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 这些模板可自动化Workfront流程和工作流。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 从CSV创建项目
 
 此自动化会根据您在CSV中指定的名称、Portfolio、状态、计划开始日期和模板详细信息在Workfront中创建新项目。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 清理请求，过去30天内未添加任何新注释
 
 使用此模板对您的请求强制30天附注更新。 如果在30天内未更新请求，则其状态会在60天内更改并关闭。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 在100%完成时将项目状态更改为完成。
 
 此自动化功能可将项目更新为“完成”状态，所有1005点完成的任务均在此状态。 具有未结问题、未结任务或项目批准的项目将收到更新，在解决后，项目将变为完成状态。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 警告并尝试关闭过时的项目
 
 使用此方案有助于自动警告和关闭符合贵组织过时项目策略的项目。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 将来自源问题/请求的新注释和回复复制到已转换的项目或任务
 
 使用此模板可将问题或请求的注释和回复复制到已转换的项目或任务中。
 
@@ -57,6 +57,10 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ### Workfront — 将批准的问题转化为项目
 
 此模板将问题转化为项目。 您可以修改它以符合贵组织的标准。
+
+### [!BADGE 新!]{type=Informative}
+
+此灵活方案将问题或请求中的文档复制到以前转换的项目或任务中。
 
 ### 根据字段更改量身定制的通知
 
@@ -102,7 +106,7 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 >
 > 您必须拥有Workfront Fusion for Work Automation and Integration许可证才能在此部分中使用模板。
 
-### [!BADGE 新!]{type=Informative}
+### 使用JWT（JSON Web令牌）建立连接
 
 为客户端API建立JWT授权。
 
@@ -138,7 +142,7 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 >
 > 您必须拥有Workfront Fusion for Work Automation and Integration许可证才能在此部分中使用模板。
 
-### [!BADGE 新!]{type=Informative}
+### 观看SharePoint文件夹更改
 
 利用此模板，可查看SharePoint文件夹中是否有更改。
 
