@@ -7,9 +7,9 @@ description: 您可以选择向展示板添加引入列，以根据您定义的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,9 +114,13 @@ ht-degree: 2%
 
    ![筛选器生成器](assets/intake-filter-dialog6.png)
 
-   此示例显示特定项目中处于以下状态的任务的过滤器： [!UICONTROL 新建] 或 [!UICONTROL 进行中]、和已分配给我。
+   此示例显示特定项目中处于以下状态的任务的过滤器： [!UICONTROL 新建] 或 [!UICONTROL 进行中].
 
-   有关构建过滤器的详细信息，请参阅文章中的“在标准生成器中创建或编辑过滤器”部分 [在中创建或编辑筛选器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   >[!NOTE]
+   >
+   >建议不要在展示板过滤器上使用“我”（已登录用户）通配符，因为不保证会始终显示已登录用户的任务或问题。 在展示板设置正确的任务和问题后，您可以筛选展示板以显示特定被分配人的项目。 有关更多信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+   有关构建过滤器的更多详细信息，请参阅文章中的“在标准生成器中创建或编辑过滤器”部分 [在中创建或编辑筛选器 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. 命名过滤器并单击 **[!UICONTROL 保存]**.
 
@@ -141,7 +145,6 @@ ht-degree: 2%
 ## 使用引入列
 
 在将摄取列中的卡片移动到其他展示板列之前，这些卡片不可编辑。 您可以单击卡以以以只读视图将其打开，或单击 ![未结任务或问题](assets/boards-launch-icon.png) 在新的浏览器选项卡中打开任务或问题。
-
 
 您可以手动重新排序引入列上的项目。
 
