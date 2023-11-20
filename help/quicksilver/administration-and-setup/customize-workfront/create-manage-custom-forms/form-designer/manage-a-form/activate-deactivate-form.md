@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # 停用或重新激活自定义表单
 
 您可以重新激活或取消激活自定义表单。 我们建议停用自定义表单，而不是删除您不再用于保留历史数据的表单。
+
+>[!NOTE]
+>
+>如果自定义表单被停用，但仍属于队列主题或请求队列定义，则会将其附加到新请求。 如果您不希望表单出现在请求中，则必须将其从请求队列中手动删除。
 
 ## 访问要求
 
