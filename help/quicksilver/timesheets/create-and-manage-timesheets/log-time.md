@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ ht-degree: 0%
 
 #### 在时间表上记录时间 {#log-time-on-a-timesheet}
 
-您可以在时间表上记录常规小时数或项目特定小时数。
+您可以将时间记录到时间表中的以下项目：
+
+* 预填充的任务、问题和项目，会根据Workfront管理员如何设置时间表首选项自动显示。 有关如何预填充时间表的信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  您的时间表中只预填充了分配给您的任务和问题。 分配给团队或工作角色的任务和问题不会自动填充您的时间表。
+
+  在分配给您团队的项目上单击处理它会将项目分配给您，该项目将显示在您的时间表中。
+* 您手动添加的任务、问题或项目。
+* 已在Workfront中的其他位置记录时间的任务、问题或项目。
+* 常规时间（休假、培训、管理时间）。
 
 >[!NOTE]
 >
 >查看分配给时间表配置文件的用户可查看时间表区域并记录常规小时数。 但是，他们无法记录时间表上显示的、分配给他们的任何任务或问题的小时数。
 
-1. 单击 [!UICONTROL **主菜单**] 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+要在时间表上记录时间，请执行以下操作：
+
+1. 单击 [!UICONTROL **主菜单**] 图标 ![](assets/main-menu-icon.png) 位于右上角，或 **主菜单** 图标 ![](assets/lines-main-menu.png) （如果可用）的Workfront左上角。
 
 1. 单击 [!UICONTROL **时间表**]. 默认情况下显示您当前的工时表。
    ![时间表](assets/timesheet-redesigned-nwe.png)
-
-   该时间表预先填充了在该时间表的时间范围内分配给您的项目。 有关如何预填充时间表的信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 如果您在时间表上没有看到某个项目，则可以添加该项目。
-
-   >[!NOTE]
-   >
-   >该时间表只预先填充了分配给您的项目。 它不会预先填充分配给您的团队或工作角色的项目。
-   >
-   >在分配给您团队的项目上单击处理它会将项目分配给您，该项目将显示在您的时间表中。
 
 
 1. （可选）单击 **全屏** 图标 ![](assets/full-screen.png) 以全屏模式显示时间表，然后单击 **退出全屏** ![](assets/exit-full-screen.png) 图标以返回时间表。
