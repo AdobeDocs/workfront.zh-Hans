@@ -6,9 +6,9 @@ description: 您可以通过禁用字段以使其不显示在全卡片或压缩�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您稍后在Workfront中重命名自定义字段，则必须编辑“配置”面板上的字段标签以使其匹配，否则该字段将不会显示在卡片上。
+
+## 显示或隐藏已存档的信息卡
+
+您必须打开配置设置以在展示板上显示已存档的卡片。
+
+1. 访问展示板并单击 [!UICONTROL **配置**] 以打开配置面板。
+1. 展开 [!UICONTROL **卡片**].
+1. 打开 [!UICONTROL **在展示板上显示已存档的卡片**].
+
+   现在，您可以筛选展示板以显示已存档的任何信息卡。 有关详细信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. 单击 [!UICONTROL **隐藏配置**] 以关闭“配置”面板。
+
+## 配置信息卡减少
+
+要在一段时间后自动从展示板中移除信息卡，请参阅 [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

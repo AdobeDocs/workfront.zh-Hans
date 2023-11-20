@@ -6,9 +6,9 @@ description: 从展示板中删除信息卡时，该信息卡会被永久删除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此 [!UICONTROL 已存档信息卡] 如果您未打开配置设置显示存档的信息卡，则区域在筛选器中不可用。
+   >此 [!UICONTROL 已存档信息卡] 如果您未打开配置设置显示存档的信息卡，则区域在筛选器中不可用。 有关更多信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. 选择 **[!UICONTROL 已存档的信息卡]** 再次清除选项并仅显示活动信息卡。
