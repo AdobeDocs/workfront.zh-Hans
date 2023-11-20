@@ -8,9 +8,9 @@ description: 本文包含有关中角色的访问权限的信息。 [!DNL Adobe]
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 1%
 >在中，组织角色与团队角色是不同的 [!DNL Workfront Fusion]. 有关组织和团队角色的更多信息，请参阅 [组织和团队](../organizations/organizations-and-teams.md).
 
 ## 访问要求
-
-您必须具有以下权限才能使用本文中的功能：
-
-&lt;##访问要求
 
 您必须具有以下权限才能使用本文中的功能：
 
@@ -122,7 +118,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>管理组织用户</p> </td> 
    <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">u</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
