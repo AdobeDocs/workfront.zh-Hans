@@ -8,9 +8,9 @@ description: 通过Adobe Workfront Fusion的“组织”和“团队”功能，
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 0%
 * **[!UICONTROL 会计师]**：会计师角色仅允许用户在组织功能板上查看许可证信息。
 * **[!UICONTROL 应用程序开发人员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
 
+有关每个组织角色中用户可以执行的特定操作的信息，请参阅 [组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### 邀请用户加入组织
 
 默认情况下，组织所有者（或授权用户）可以邀请其他人加入其组织。
@@ -145,7 +147,7 @@ ht-degree: 0%
 * **[!UICONTROL 团队操作员]**：和 [!UICONTROL 运算符] 角色允许用户查看执行数据并更改方案的“活动”状态。
 * **[!UICONTROL 团队受限成员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
 
-有关团队角色可用的特定任务的信息，请参阅[组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+有关每个团队角色中用户可以执行的特定操作的信息，请参阅 [组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### 团队管理
 
