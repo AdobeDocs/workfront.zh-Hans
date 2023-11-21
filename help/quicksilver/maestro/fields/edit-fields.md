@@ -1,20 +1,32 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 编辑字段
+description: 在Adobe管理器中，您可以编辑已创建字段的字段设置。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 共享记录
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+
+# 编辑字段
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,24 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+您可以编辑已创建字段的字段设置。
 
-您可以通过以下方式共享Maestro记录：
+有关创建Adobe生成器字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
+本文介绍了如何编辑Maestro字段的设置。 有关编辑Maestro记录的字段值的信息，请参见 [编辑记录](../records/edit-records.md).
 
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
+## 有关编辑字段信息的注意事项
 
-<!-- Update with this when we release permissions: 
+* 您可以编辑您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions-->
+* 您可以在记录类型表中编辑字段。
+* 保存字段后，您无法编辑字段类型。
+* 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
+<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
 -->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## 访问要求
 
@@ -90,8 +101,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +146,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +166,36 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 编辑字段
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+   默认情况下应打开上次访问的工作区。
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+   工作区将打开，并显示与其关联的记录类型和分类。
+1. 单击要编辑其字段的记录类型或分类卡。
+
+   这将打开记录类型的页面。
+1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
+1. 将鼠标悬停在要编辑的字段的列标题上，单击字段名称后的向下箭头，然后单击 **编辑字段**
 
    或
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   双击该字段的列标题。
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   该链接将会复制到您的剪贴板中。
+1. 更新有关该字段的信息并单击 **保存**.
 
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
+   >保存字段后无法更新字段类型。
 
 
-   <!--add there when it will be available: if they have access to this record-->
+1. （视情况而定）对于链接的记录字段，单击 **编辑查找字段** 并从链接的记录类型中添加或删除任何字段。
+
+   有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).

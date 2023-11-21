@@ -1,20 +1,20 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 删除工作区
+description: 如果工作区不再相关，您可以将其删除。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 共享记录
+# 删除工作区
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+在Adobe大师中，工作区是团队计划工作的集中位置。 有关更多信息，请参阅 [创建工作区](../architecture/delete-workspaces.md).
 
-您可以通过以下方式共享Maestro记录：
+您可以删除不再相关的工作区。
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
-
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+我们建议在删除工作区之前，在其他工作区中重新创建与您要删除的工作区关联的部分或全部记录类型和分类。
 
 ## 访问要求
 
@@ -60,7 +46,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵公司必须注册AdobeMaestro测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -90,8 +76,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +121,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +129,8 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +143,20 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 有关删除工作区的注意事项
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+* 您可以删除自己或组织中的任何人已创建的任何工作区。 <!--this will change with access levels and permissions-->
+* 删除工作区时，也会删除所有记录类型、分类及其字段。 <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* 已删除的工作区及其包含的信息无法恢复。
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+## 删除工作区
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+   这将打开您上次访问的工作区。
 
-   或
+1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要删除的工作区。
+1. 单击 **更多** 菜单 ![](assets/more-menu.png) 在工作区名称旁边，然后单击 **删除**.
+1. 单击 **删除** 以确认。
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   该链接将会复制到您的剪贴板中。
-
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
-
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   工作区已被删除，无法恢复。 任何记录类型、分类、其记录以及与它们关联的字段也会被删除。 <!--ensure this is right after closed beta-->

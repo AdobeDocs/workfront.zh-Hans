@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13421'
+source-wordcount: '13428'
 ht-degree: 1%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 1%
    * [Adobe大师概述](maestro/maestro-overview.md)
    * [AdobeMaestro发布活动](maestro/release-activity.md)
    * Adobe大师架构 {#adobe-maestro-architecture}
-      * [架构信息](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [创建工作区](maestro/architecture-and-fields/create-workspaces.md)
-      * [记录类型和分类概述](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [创建运营记录类型](maestro/architecture-and-fields/create-record-types.md)
-      * [创建分类记录类型](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [连接记录类型](maestro/architecture-and-fields/connect-record-types.md)
-      * [创建字段](maestro/architecture-and-fields/create-fields.md)
-      * [编辑记录类型](maestro/architecture-and-fields/edit-record-types.md)
-      * [编辑字段](maestro/architecture-and-fields/edit-fields.md)
-      * [删除工作区](maestro/architecture-and-fields/delete-workspaces.md)
-      * [删除记录类型](maestro/architecture-and-fields/delete-record-types.md)
-      * [删除字段](maestro/architecture-and-fields/delete-fields.md)
-      * [连接记录类型和记录的示例](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [工作区模板列表](maestro/architecture-and-fields/workspace-templates.md)
+      * [架构信息](maestro/architecture/architecture-information.md)
+      * [创建工作区](maestro/architecture/create-workspaces.md)
+      * [记录类型和分类概述](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [创建运营记录类型](maestro/architecture/create-record-types.md)
+      * [创建分类记录类型](maestro/architecture/create-a-taxonomy.md)
+      * [连接记录类型](maestro/architecture/connect-record-types.md)
+      * [编辑记录类型](maestro/architecture/edit-record-types.md)
+      * [删除工作区](maestro/architecture/delete-workspaces.md)
+      * [删除记录类型](maestro/architecture/delete-record-types.md)
+      * [连接记录类型和记录的示例](maestro/architecture/example-connect-record-types-and-records.md)
+      * [工作区模板列表](maestro/architecture/workspace-templates.md)
+   * AdobeMaestro字段 {#adobe-maestro-fields}
+      * [字段信息](maestro/fields/fields-information.md)
+      * [字段概述](maestro/fields/fields-overview.md)
+      * [创建字段](maestro/fields/create-fields.md)
+      * [编辑字段](maestro/fields/edit-fields.md)
+      * [删除字段](maestro/fields/delete-fields.md)
    * Adobe大师访问 {#adobe-maestro-access}
       * [访问信息](maestro/access/access-information.md)
       * [访问概述](maestro/access/access-overview.md)

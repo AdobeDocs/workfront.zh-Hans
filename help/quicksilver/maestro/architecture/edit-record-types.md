@@ -1,20 +1,32 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 编辑记录类型
+description: 保存记录类型后，您可以对其进行编辑。 记录类型是AdobeMaestro的对象类型。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# 共享记录
+-->
+
+# 编辑记录类型
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,7 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
-
-您可以通过以下方式共享Maestro记录：
-
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
-
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+记录类型是AdobeMaestro的对象类型。 您可以编辑您或其他人创建的记录类型的外观。 有关创建Maestro记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
 ## 访问要求
 
@@ -89,9 +83,9 @@ ht-degree: 0%
  </tbody>
 </table>
 
+
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +130,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +150,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 编辑记录类型
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+   默认情况下应打开上次访问的工作区。
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
+1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **更新外观**.
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+
+1. 在“更新记录类型”框中，更新以下信息：
+
+   * **记录名称**：根据需要编辑记录类型名称。 <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **外观**：编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
+      * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
+      * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
+
+     ![](assets/update-record-type-box.png)
+
+1. 单击“更新记录类型”框外部以保存更改。
+1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面。
+1. 单击 **更多** “记录类型名称”右侧的菜单，然后单击 **重命名** 重命名记录类型
 
    或
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   重命名标题中的记录类型。  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-   该链接将会复制到您的剪贴板中。
-
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
-
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   您还可以在记录类型页面的标题中重命名记录类型。

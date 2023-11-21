@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
 >
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >[观看Adobe大师的视频演示](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  有关更多信息，请参阅 [创建工作区](../maestro/architecture-and-fields/create-workspaces.md).
+  有关更多信息，请参阅 [创建工作区](../maestro/architecture/create-workspaces.md).
 
 * **记录类型**：Maestro主对象类型。
 
@@ -140,7 +140,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
   在Maestro中，您可以创建符合组织工作流程的任何记录类型。 稍后，您可以定义记录类型如何相互关联或表单从属关系。
 
-  有关更多信息，请参阅 [运营记录类型和分类概览](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  有关更多信息，请参阅 [运营记录类型和分类概览](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro具有以下记录类型：
 
@@ -150,7 +150,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
      例如，促销活动、活动、项目群可以是运营记录类型。
 
-     有关更多信息，请参阅 [创建记录类型](../maestro/architecture-and-fields/create-record-types.md).
+     有关更多信息，请参阅 [创建记录类型](../maestro/architecture/create-record-types.md).
 
    * **分类**：捕获有关运营记录类型的属性的记录类型。
 
@@ -160,7 +160,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
      例如，“受众”、“区域”或“地址”可以是分类类型的记录类型。
 
-     有关更多信息，请参阅 [创建分类记录类型](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     有关更多信息，请参阅 [创建分类记录类型](../maestro/architecture/create-a-taxonomy.md).
 
 * **记录**：Maestro记录类型的实例。 记录可以引用操作记录类型或分类。
 
@@ -183,7 +183,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
   Maestro随附销售、营销和产品管理工作区模板。
 
-  有关更多信息，请参阅 [创建工作区](../maestro/architecture-and-fields/create-workspaces.md).
+  有关更多信息，请参阅 [创建工作区](../maestro/architecture/create-workspaces.md).
 
 * **字段**：字段是可添加到包含有关记录类型信息的操作或分类记录类型的属性。 <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
    * Maestro字段完全可自定义，并且只能在Maestro中访问。 您无法从Workfront访问Maestro字段。
 
-  有关更多信息，请参阅 [创建字段](../maestro/architecture-and-fields/create-fields.md)
+  有关更多信息，请参阅 [创建字段](../maestro/fields/create-fields.md)
 
   默认情况下，新的操作记录类型与以下预定义字段相关联：
 
@@ -243,7 +243,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
   有关链接记录类型、记录和创建链接字段的信息，请参阅以下文章：
 
-   * [连接记录类型](../maestro/architecture-and-fields/connect-record-types.md)
+   * [连接记录类型](../maestro/architecture/connect-record-types.md)
    * [连接记录](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

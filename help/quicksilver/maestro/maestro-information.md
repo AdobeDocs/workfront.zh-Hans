@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
 >
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
@@ -62,7 +62,8 @@ hide: yes
 
 以下部分包含详细描述当前可用的Maestro功能的文章：
 
-* [访问信息](../maestro/access/access-information.md)：有关使用Adobe大师所需访问的信息。
-* [架构信息](../maestro/architecture-and-fields/architecture-and-fields-information.md)：有关AdobeMaestro架构的深入信息，其中包含有关如何创建和管理工作区、记录类型和字段的分步说明。
+* [访问信息](../maestro/access/access-information.md)：有关使用AdobeMaestro所需的访问和权限的信息。
+* [架构信息](../maestro/architecture/architecture-information.md)：有关AdobeMaestro架构的深入信息，其中包含有关如何创建和管理工作区及记录类型的分步说明。
+* [字段信息](../maestro/fields/fields-information.md)：有关为Maestro记录类型创建自定义字段的深入信息和分步说明。
 * [记录信息](../maestro/records/records-information.md)：有关如何创建和管理记录的深入信息和分步说明。
-* [视图信息](../maestro/views/views-information.md)：有关Maestro视图以及如何管理这些视图的深入信息。
+* [视图信息](../maestro/views/views-information.md)：有关Maestro视图以及如何在记录类型页面中查看记录时管理这些视图的深入信息。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
 >
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
@@ -83,6 +83,62 @@ ht-degree: 0%
  </tbody>
 </table>
 
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -99,8 +155,8 @@ ht-degree: 0%
 您可以在记录类型页面的表格视图中创建记录。
 
 1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** 图标 ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
-默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture-and-fields/create-workspaces.md).
-1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture-and-fields/create-record-types.md).
+默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 所选类型的所有记录都显示在表格视图中。
@@ -129,11 +185,11 @@ ht-degree: 0%
 
 通过将Maestro链接记录链接到其他应用程序，您可以从这些应用程序中导入记录。
 
-1. 创建Maestro记录类型，如 [创建记录类型](../architecture-and-fields/create-record-types.md).
+1. 创建Maestro记录类型，如 [创建记录类型](../architecture/create-record-types.md).
 
 1. 为上一步中创建的记录类型创建Maestro记录。 有关信息，请参阅部分 [通过手动将记录添加到记录类型来创建记录](#create-records-by-manually-adding-them-to-a-record-type) 本文章中。
 
-1. 从第三方应用程序为您创建的Maestro记录类型创建与对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+1. 从第三方应用程序为您创建的Maestro记录类型创建与对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
 1. 使用在上一步中创建的链接记录字段，将第三方应用程序中的记录添加到上面创建的Maestro记录中。 有关信息，请参阅 [连接记录](../records/connect-records.md).
 

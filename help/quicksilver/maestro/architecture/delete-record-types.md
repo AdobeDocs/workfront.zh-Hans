@@ -1,20 +1,31 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 删除记录类型
+description: 如果操作记录类型或分类记录类型不再相关，您可以将其删除。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# 共享记录
+# 删除记录类型
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+如果操作记录类型或分类记录类型不再相关，您可以将其删除。
 
-您可以通过以下方式共享Maestro记录：
+有关记录类型和分类的信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
+我们建议在删除字段和记录之前，在其他记录类型上重新创建与您要删除的记录类型或分类关联的它们。
 
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## 访问要求
 
@@ -90,8 +89,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 删除记录类型时的注意事项
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+* 您可以删除您或组织中的任何人已创建的任何记录类型或分类。 <!--this will change with access levels and permissions-->
+* 删除记录类型会删除与其关联的所有信息，包括该类型的字段和记录。
+* 无法恢复已删除的记录类型或其信息。
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+## 删除记录类型
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+删除分类记录类型与删除操作记录类型相同。
 
-   或
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   默认情况下应打开上次访问的工作区。
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
 
-   该链接将会复制到您的剪贴板中。
+   工作区将打开，并显示与其关联的记录类型和分类。
+1. 单击要删除的记录类型或分类卡。
 
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
+   这将打开记录类型的页面。
+1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**.
+1. 单击 **删除** 以确认。
 
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   所选的记录类型或分类及其字段和关联的记录将被删除。

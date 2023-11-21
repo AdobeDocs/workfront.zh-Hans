@@ -1,20 +1,31 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 删除字段
+description: 在Adobe管理器中，您可以删除不再相关的自定义字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# 共享记录
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# 删除字段
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+在Adobe管理器中，您可以创建自定义字段来存储有关记录的信息。
 
-您可以通过以下方式共享Maestro记录：
+有关在Maestro中创建自定义字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
+您可以删除不再相关的Maestro字段。
 
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
+## 有关删除Maestro字段的注意事项：
 
-<!-- Update with this when we release permissions: 
+* 您可以删除您创建的字段或由其他用户或系统创建的字段。 <!--this will change with access levels/ permissions-->
+* 您无法删除记录的“名称”字段。 <!--change this to say you can't delete the field selected to be the primary-->
+* 您只能删除记录类型表中的字段。
+* 存储在字段中的任何信息都将被删除并且无法恢复。
+* 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## 访问要求
 
@@ -90,8 +98,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 删除字段
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+   这将打开Maestro中上次访问的工作区。
+1. 单击要删除其字段的记录类型的卡片。
+1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
+1. 在列标题中查找要删除的字段，将鼠标悬停在列标题上，然后单击字段名称后的向下箭头。
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   或
+1. 单击 **删除**. <!-- check this: they might replace it with **Delete field**-->
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. 单击 **删除** 以确认。
 
-   该链接将会复制到您的剪贴板中。
-
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
-
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   该字段已删除，无法恢复，并且无法再与任何记录关联。

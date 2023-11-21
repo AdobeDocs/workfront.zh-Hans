@@ -1,20 +1,20 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 创建工作区
+description: 工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 您可以在Maestro中完全自定义工作区。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 共享记录
+# 创建工作区
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,9 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+在Adobe大师中，工作区是团队计划工作的集中位置。
 
-您可以通过以下方式共享Maestro记录：
-
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
-
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 您可以在Maestro中完全自定义工作区。
 
 ## 访问要求
 
@@ -90,8 +74,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -126,24 +109,21 @@ After permissions - replace the table with - below
   
   <tr>
    <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
+   <td> <p>System Administrator</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
+
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +136,56 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 有关工作区的注意事项
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+* 您可以为组织内的特定组织单位创建工作区，以匹配每个单位独特的工作方式。
+* 工作区包含的记录类型和分类应反映组织单位的工作生命周期。
+* 创建工作区时，组织中的所有人都可以查看、编辑或删除该工作区。  <!--this will change with access levels and permissions-->
+* 您的组织中最多可以有1,000个工作区。
+* 工作区包含每个工作区特有的记录类型。 <!--this might change-->
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+## 创建工作区
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）如果系统中没有任何工作区，请单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+   或者，从现有工作区中，单击工作区名称右侧的向下指向，然后单击 **创建工作区**.
+
+   ![](assets/workspace-drop-down-right-menu.png)
+
+   这将打开Maestro的“工作区”区域。
+1. （可选且视情况而定）单击 **预览** 在以下任何预定义workspace模板中：
+
+   * 营销管理
+   * 销售管理
+   * 产品管理
+
+   指示与每个模板关联的操作记录类型、分类以及字段数。
+
+   ![](assets/previewing-a-workspace-template.png)
+
+   有关Maestro工作区模板的信息，请参阅 [工作区模板列表](../architecture/workspace-templates.md).
+
+1. 单击 **使用模板** 以开始从所选模板创建工作区
 
    或
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   单击 **创建工作区** 从头开始创建工作区。
 
-   ![](assets/contextual-menu-for-record-row.png)
+   将创建以下工作区类型之一：
 
-   该链接将会复制到您的剪贴板中。
+   * 一个空工作区，您可以在其中开始手动添加记录类型。
+   * 填充了示例记录类型的工作区，您可以进一步自定义这些类型。
 
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
+1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键
 
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
+   或
 
+   单击 **更多** 菜单 ![](assets/more-menu.png)工作区名称右侧，然后单击 **重命名**.
 
-   <!--add there when it will be available: if they have access to this record-->
+1. （可选）单击 **添加记录类型** 向工作区添加记录类型。
+
+   有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
+
+1. （可选）单击 **添加分类** 向工作区中添加分类。
+
+   有关信息，请参阅 [创建分类](../architecture/create-a-taxonomy.md).

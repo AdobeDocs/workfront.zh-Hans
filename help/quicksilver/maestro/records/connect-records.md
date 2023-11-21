@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
 >
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
@@ -42,9 +42,9 @@ hide: yes
 
 您必须先将两个记录类型连接在一起，或者将记录类型连接到另一个应用程序中的对象类型，然后可以使用记录类型的“表”视图将记录连接到另一个对象，或者将记录连接到其他对象。
 
-有关将记录类型相互连接或从其他应用程序连接到对象类型的信息，请参见 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+有关将记录类型相互连接或从其他应用程序连接到对象类型的信息，请参见 [连接记录类型](../architecture/connect-record-types.md).
 
-有关连接记录类型的示例，请参见 [连接记录类型和记录的示例](../architecture-and-fields/example-connect-record-types-and-records.md).
+有关连接记录类型的示例，请参见 [连接记录类型和记录的示例](../architecture/example-connect-record-types-and-records.md).
 
 您可以连接以下各项：
 
@@ -113,6 +113,61 @@ hide: yes
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ hide: yes
    * Workfront对象。 例如，您必须首先在Workfront中创建项目、项目组合、项目、公司或组。
    * Maestro工作区、记录类型和记录。 有关更多信息，请参阅以下文章：
 
-      * [创建工作区](../architecture-and-fields/create-workspaces.md)
-      * [创建记录类型](../architecture-and-fields/create-record-types.md)
+      * [创建工作区](../architecture/create-workspaces.md)
+      * [创建记录类型](../architecture/create-record-types.md)
       * [创建记录](../records/create-records.md)
 
-   * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+   * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 
 ### 连接Maestro记录
 
@@ -158,7 +213,7 @@ hide: yes
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
-1. 从所选记录类型添加与另一记录或对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+1. 从所选记录类型添加与另一记录或对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
    新列将添加到表中以显示链接的记录类型。
 
@@ -216,7 +271,7 @@ hide: yes
    * 公司
    * 组
 
-   有关更多信息，请参阅 [连接记录类型](../architecture-and-fields/connect-record-types.md).
+   有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
    新列将添加到表中以显示链接对象类型。
 

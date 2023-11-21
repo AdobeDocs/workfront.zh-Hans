@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ ht-degree: 0%
   您的时间表中只预填充了分配给您的任务和问题。 分配给团队或工作角色的任务和问题不会自动填充您的时间表。
 
   在分配给您团队的项目上单击处理它会将项目分配给您，该项目将显示在您的时间表中。
+
 * 您手动添加的任务、问题或项目。
 * 已在Workfront中的其他位置记录时间的任务、问题或项目。
 * 常规时间（休假、培训、管理时间）。

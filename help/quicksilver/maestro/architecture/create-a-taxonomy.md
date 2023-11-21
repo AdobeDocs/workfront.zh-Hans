@@ -1,20 +1,20 @@
 ---
-title: 共享记录
-description: 您可以与其他人共享记录以提高协作能力。
+title: 创建分类记录类型
+description: 分类是一种可重用的记录类型，可捕获Adobe Workfront Maestro中某个运营记录类型的相关属性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 共享记录
+# 创建分类记录类型
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-要与其他用户协作，您可以与他人共享记录。
+分类是记录类型，用于捕获AdobeMaestro中有关操作记录类型的属性。
 
-您可以通过以下方式共享Maestro记录：
+例如，Campaign可以是操作记录类型。 以下是捕获有关Campaign记录类型的属性的分类：地区、受众、国家/地区。
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
-
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+有关Maestro记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 访问要求
 
@@ -52,7 +38,9 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe产品</p> </td>
    <td>
@@ -81,6 +69,7 @@ ht-degree: 0%
    <td> <p>任何</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">布局模板</td>
    <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/grant-access.md">授予对Adobe大师的访问权限</a>. </p>  
@@ -90,8 +79,7 @@ ht-degree: 0%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 从记录类型表格视图中共享记录链接
+## 有关创建分类的注意事项
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+* 必须先创建工作区，然后才能在该工作区中创建分类。
 
-   您上次访问的工作区随即打开。
-1. 单击记录类型卡片。
+  有关工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+* 通过执行以下操作之一，可以创建分类记录类型：
+   * 在使用模板创建工作区时自动创建它们。 有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
+   * 从头开始手动创建它们。
+   * 通过从外部列表中粘贴信息，手动创建它们。
 
-   此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行
+* 所有新创建的分类都包含以下字段：
 
-   或
+   * 名称 <!--if there won't be any more fields, consider rephrasing this-->
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+  此外，您还可以将自定义字段添加到分类。 有关更多信息，请参阅 [创建字段](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    使用工作区模板时创建的分类具有其他字段。
 
-   该链接将会复制到您的剪贴板中。
+## 创建分类
 
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
+创建分类与从头开始或从工作区模板创建操作记录类型类似。
 
-   >[!TIP]
-   >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
+有关信息，请参阅文章中的“从头开始创建记录类型”部分 [创建记录类型](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+有关在从模板创建工作区时自动创建分类的信息，请参阅 [创建工作区](../architecture/create-workspaces.md).

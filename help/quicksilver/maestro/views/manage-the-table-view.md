@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2080'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->本文中的信息是指AdobeMaestro，它是Adobe公司推出的新产品。
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
 >
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
@@ -125,7 +125,7 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 在一个表格视图中最多可添加500个字段（或列）。
 
 1. 转到记录类型页面并选择 **表** 从“视图”下拉菜单中查看。
-1. 开始添加字段（或列），如文章中所述 [创建字段](../architecture-and-fields/create-fields.md).
+1. 开始添加字段（或列），如文章中所述 [创建字段](../fields/create-fields.md).
 
    您添加的列对访问记录类型的所有用户均可见，并且作为新字段添加到所选记录类型的记录的“详细信息”页面上。
 
@@ -238,7 +238,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 
      >[!TIP]
      >
-     > 您无法选择链接的字段。 有关信息，请参阅 [创建字段](../architecture-and-fields/create-fields.md).
+     > 您无法选择链接的字段。 有关信息，请参阅 [创建字段](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 
    >[!TIP]
    >
-   > 您无法选择链接的字段。 有关信息，请参阅 [创建字段](../architecture-and-fields/create-fields.md).
+   > 您无法选择链接的字段。 有关信息，请参阅 [创建字段](../fields/create-fields.md).
 
 1. （可选）在 **记录排序方式** 框中，单击 **x** 图标来移除排序
 
