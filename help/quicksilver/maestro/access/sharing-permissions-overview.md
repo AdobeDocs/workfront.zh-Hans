@@ -4,9 +4,10 @@ description: 您可以共享或删除您创建的AdobeMaestro工作区的权限�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ ht-degree: 2%
      <li>添加字段</li> 
      <li>删除字段</li> 
      <li>在记录类型之间添加新连接</li> 
+     <li>与用户和组共享工作区</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ ht-degree: 2%
 有关共享Maestro工作区的信息，请参阅 [授予对Adobe大师的访问权限](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ For general information on the new commenting experience, including a list of fe
 ### 2023年9月11日起一周
 
 #### 新的评论体验捕获从2019年1月1日开始的信息
+
+>[!NOTE]
+>
+>此限制已于2023年11月28日移除。 有关更多信息，请参阅 [2024年第一季度发行版概述](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 项目、任务、问题和文档现在显示从2019年1月1日开始的更新。 在此增强功能之前，新的注释体验仅捕获了从2022年6月起这些对象的更新。
 

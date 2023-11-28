@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ The new commenting experience will slowly become available for all the objects w
 * 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->以下列出的对象仅具有新注释体验中提供的从2019年1月1日开始的注释和系统更新。
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->在2019年1月1日之前查看当前体验中的更新部分时，您可以查看这些对象的注释和系统更新：
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* 问题
->* 项目
->* 任务
->* 文档
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-欲了解更多信息，请参见 [新的评论体验常见问题解答](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 下表说明了新Commending Experience中可用的功能以及这些功能在受支持领域的可用性：
 
