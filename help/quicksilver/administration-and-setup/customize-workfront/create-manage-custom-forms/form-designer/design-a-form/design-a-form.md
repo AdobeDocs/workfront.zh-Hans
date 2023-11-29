@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
 workflow-type: tm+mt
-source-wordcount: '4886'
+source-wordcount: '4908'
 ht-degree: 4%
 
 ---
@@ -538,8 +538,9 @@ ht-degree: 4%
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
       <ul><li>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
       <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 （例如，用户可以使用基本URL“$$HOST/attask/api/task/search”搜索任务，它允许搜索任务并从返回的任务列表中选择值。）</li>
-      <li>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</li></ul>
-      <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td> 
+      <li>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</li>
+      <li>{referenceObject}.{fieldName}  — 其中字段是对象的一部分。 此语法类似于自定义表达式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP 方法</td> 
