@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: 管理工作
-description: 在以下章节中查找有关管理Adobe Workfront中工作的文章。
+description: 您可以使用Adobe Workfront管理您的工作。 您可以首先确定用于定义工作的工作对象，具体取决于其复杂性和您分配给它的资源或预算。 本节介绍如何将您的工作组织到较大的工作项（如项目、项目组合或项目）中，以及如何将较大的工作量划分为更易于管理的工作项（如任务和问题）。 此外，您可以使用甘特图定义工作的时间线，或在没有时间完成工作时将工作委派给其他人。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
-# 管理工作
+# 管理工作信息
+
+您可以使用Adobe Workfront管理您的工作。
+
+您可以首先确定用于定义工作的工作对象，具体取决于其复杂性和您分配给它的资源或预算。
+
+本节介绍如何将您的工作组织到较大的工作项（如项目、项目组合或项目）中，以及如何将较大的工作量划分为更易于管理的工作项（如任务和问题）。
+
+此外，您可以使用甘特图定义工作的时间线，或在没有时间完成工作时将工作委派给其他人。
 
 本节包含以下子部分：
 

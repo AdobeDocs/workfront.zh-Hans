@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,30 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年11月27日起一周
+
+### 在Maestro表视图中将信息从一个字段复制并粘贴到另一个字段
+
+预览和生产： 2023年11月28日
+
+现在，您可以在Maestro记录类型表格视图中将一个字段中的信息复制并粘贴到另一个相同类型的字段。
+
+请考虑以下事项：
+
+* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
+
+* 您无法复制和粘贴在记录的“详细信息”区域中显示的字段的字段值。
+
+* 不能复制和粘贴以下字段类型的字段值：
+
+   * 人员
+
+   * 系统字段
+
+   * 因连接记录而创建的链接字段
+
+有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
 
 ## 2023年11月6日起一周
 

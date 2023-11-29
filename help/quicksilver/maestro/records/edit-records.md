@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### 从记录类型表格视图中编辑记录
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 在右上角， <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
    您上次访问的工作区随即打开。
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）从 **视图** 下拉菜单（位于表的右上角），选择 **表** 视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 “已保存”的指示器会短暂显示在表格视图的右上角，表示已保存更改。
+
+   >[!NOTE]
+   >
+   >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
+   >  
+   >  * 通过链接记录类型创建的链接字段
+   >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
+
+
+1. （可选）复制某个字段的现有值，然后将其粘贴到另一条记录上的相同类型字段中，然后单击 **输入** 以保存更改。
+
+   >[!NOTE]
+   >
+   >请考虑以下事项：
+   >
+   >* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
+   >
+   >* 您无法复制和粘贴在记录的“详细信息”区域中显示的字段的字段值。
+   >* 不能复制和粘贴以下字段类型的字段值：
+   ><ul>
+   >
+   > * 人员
+   >
+   > * 系统字段
+   >
+   > * 因连接记录而创建的链接字段
+
+   <!--take People out of the list above when they release this - this might be coming later-->
