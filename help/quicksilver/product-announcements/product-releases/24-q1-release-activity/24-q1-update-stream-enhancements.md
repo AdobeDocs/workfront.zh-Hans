@@ -3,9 +3,10 @@ title: 2024年第一季度更新流和通知增强功能
 description: 2024年第一季度更新流和通知增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 本页介绍了在2024年第一季度版本中对“预览”环境所做的所有更新流和通知增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 新的评论体验可捕获项目、任务、问题和文档的所有信息
+
+项目、任务、问题和文档会显示自Workfront实例启动以来在新评论体验区域中的所有更新。 在此增强功能之前，新的注释体验仅捕获了这些对象从2019年1月开始进行的更新。
 
 ## 在更新部分中搜索评论或用户
 
