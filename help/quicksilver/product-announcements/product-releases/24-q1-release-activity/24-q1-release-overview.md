@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中现在提供预输入字段</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中现在提供预输入字段</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>预览版本： 2023年11月16日</p>
                             </li>
                             <li>
-                                <p><span class="preview">所有客户的生产日期： 2023年12月7日</span></p>
+                                <p><span class="preview">适用于所有客户的生产： 2023年11月29日</span></p>
                             </li>
                         </ul>
                     </td>
