@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ ht-degree: 0%
 
 要测试该功能，请登录Workfront预览版或沙盒实例并执行以下步骤：
 
+>[!NOTE]
+>
+><span class="preview">突出显示的文本</span> 以下提及尚未用于测试但将包含在更高版本中的功能。
+>
+
 1. **协调员：** 在Workfront中，使用创建项目 `Frame.io alpha testing` 组被指定为项目组。
 
-1. **协调员：** 在Workfront中，将您的创意分配给项目或启用框架的任务，并将项目状态更改为“当前”。
+1. **协调员：** 在Workfront中，将您的创意分配给项目 <span class="preview">或启用帧的任务</span> 并将项目状态更改为“当前”。
 
 1. **创意人员：** 检查您的电子邮件中是否有邀请加入新创建的Frame.io项目
 
 1. **创意人员：** 单击邀请电子邮件中的“加入项目”按钮，加入Frame.io项目，查看项目中的创意简报，然后在所选的Creative Cloud工具中开始创建内容。
 
-1. **创意人员：** 将您创建的资源上传到Frame.io，并将它们添加到链接的Workfront项目（或已分配的启用Frame的任务）。
+1. **创意人员：** 将您创建的资源上传到Frame.io，并将其添加到链接的Workfront项目 <span class="preview">（或已分配了支持框架的任务）。</span>
 
 1. **协调员：** 在Workfront中，找到项目中链接的Frame.io资源并分配审阅人/批准者(有关分配审阅人/批准者的详细信息，请参阅 [向文档添加其他批准者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
 
 1. **利益相关者：** 在Workfront中，在“主页”或“文档详细信息”中查看您的审批请求，并在Frame.io查看器中查看框架连接的文档，然后留下包含反馈的注释。
 
-1. **协调员：** 在Workfront中，查看利益相关者在Frame.io连接文档的“更新”部分创建的评论。
+1. <span class="preview">**协调员：** 在Workfront中，查看利益相关者在Frame.io连接文档的“更新”部分创建的评论。</span>
 
-1. **利益相关者：** 在Frame.io查看器中做出决策。
+1. <span class="preview">**利益相关者：** 在Frame.io查看器中做出决策。</span>
 
-1. **创意人员：** 在Frame.io中，请注意针对您的资源作出的整体批准决定。
+1. <span class="preview">**创意人员：** 在Frame.io中，请注意针对您的资源作出的整体批准决定。</span>
 
 1. **创意人员：** 在Frame.io中，通过将更新版本添加到所连接资源的版本栈栈来应用请求的更改。
 
