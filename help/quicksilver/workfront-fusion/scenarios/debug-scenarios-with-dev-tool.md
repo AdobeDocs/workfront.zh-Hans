@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool允许您了解场景并排除其故�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
+source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,6 @@ ht-degree: 0%
 
 1. 右键单击页面的空白区域（不是模块）。
 1. 选择 **打开Devtool**.
-
->[!NOTE]
->
->目前，仅 **实时流** 和 **场景调试器** Unified Experience中的用户可以使用Devtool的各个区域。 此 **工具** 区域目前在Unified Experience中不可用。
 
 ### 访问Classic中的Devtool [!DNL Fusion] 体验
 
@@ -193,10 +189,6 @@ Workfront Fusion Devtool分为3个主要部分。 您可以在Devtool窗口的�
 1. 通过单击所需操作查看请求详细信息。
 
 ### 工具
-
->[!NOTE]
->
->此区域当前不适用于AdobeUnified Experience中的用户。
 
 此 [!DNL Workfront Fusion] Devtool提供了一些工具，可让您更轻松地设置场景。
 
