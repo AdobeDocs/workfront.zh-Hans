@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 3%
+source-wordcount: '1226'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >新评论体验测试版计划于2023年4月开始，于2023年10月结束。 新评论体验的Beta测试版计划已于2023年10月版结束。
 >
->除非另有说明，否则本文中介绍的功能已于2023年10月向所有客户发布。
+>从2023年10月开始，所有新评论体验的新功能均已发布给所有客户。 有关更多信息，请参阅每个版本的当前版本概述页面。
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -502,9 +502,45 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 ## 发布时间表
 
-有关最近发布到新评论体验的功能以及发布时间轴的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关在Beta测试版时间范围内向新评论体验发布的功能的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
+
+有关在Beta版结束之后为新评论体验发布的功能的信息，请参阅当前版本概述页面。
+
+以下是发布新评论体验的计划时间表：
+
+* 在23.2版本（2023年4月6日）中：
+   * 针对问题启动评论体验Beta版
+   * 发布新的目标评论体验（作为唯一体验）
+* 在23.3版本（2023年7月20日）中：
+   * 为项目、任务和文档启动评论体验测试版。
+   * 在展示板区域发布信息卡的新评论体验（作为唯一体验）
+* 在2023年第四季度版本（限量版本，仅向选择快速版本的客户提供）中：
+   * 发布模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
+   * 更新项目、任务、问题和文档的评论体验测试版，使其成为默认选项。 移除“Beta”标签。
+* 在2023年第四季度(23.10)发布（2023年10月26日）
+   * 向所有客户发布有关模板、模板任务、程序、项目组合、团队、用户和工时表的新注释体验（作为唯一体验）。
+   * 将项目、任务、问题和文档的新注释体验设置为默认选项。
+
+  >[!IMPORTANT]
+  >
+  >    这将结束新评论体验的Beta阶段。
+
+   * 从这一日期开始，将针对新评论体验发布的所有功能纳入当前的每月和季度定期发布中。
+* 2023年底：
+   * 将旧版注释体验保留为以下对象的辅助选项：项目、任务、问题和文档。 新注释体验是这些对象的所有用户的默认选项。
+   * 使新的注释体验成为所有其他对象的唯一体验。
+
+  >[!NOTE]
+  >
+  >    迭代将继续具有旧版评论体验。 新的评论体验将不可用于迭代。
+
+* 2024年第二季度（2024年4月）：
+
+   * 删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
 
 ## 找到新的评论体验
 

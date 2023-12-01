@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
      ![](assets/table-view-example.png)
 
-   * **时间线视图**：按时间顺序显示时间轴中至少具有两个日期字段的记录。
+   * **时间线视图**：按时间顺序显示时间轴中至少具有两个日期类型字段的记录。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ To share the Maestro area using a layout template:
 | 提交请求 |                               |                                  | ✓ |
 | 创意摘要 |                               |                                  | ✓ |
 | 自定义记录的颜色和图标 | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| 向记录添加注释 |                               | ✓ |                 |
+| 段落字段的富文本格式 | ✓ |                                  |                 |
 
 ## Maestro发布活动
 
