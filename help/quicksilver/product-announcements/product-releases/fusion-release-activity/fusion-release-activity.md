@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion可将您的应用程序和Web服务无缝连
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 83249a555a71ea9626d5df53036144f991e81617
+source-git-commit: d2ebed0139b04bb7c42bbae8064b416229472fdf
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2023年11
 
+* [Workfront Fusion发行活动： 2023年11月27日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
 * [Workfront Fusion发行活动： 2023年11月13日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
 
 
