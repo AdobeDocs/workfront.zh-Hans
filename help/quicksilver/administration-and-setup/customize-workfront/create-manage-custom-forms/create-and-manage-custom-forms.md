@@ -1,5 +1,5 @@
 ---
-title: 自定义表单
+title: 我的组中的自定义表单
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,20 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
-# 自定义表单
+# 我的组中的自定义表单
+
+您可以构建自定义表单，以便用户将其附加到Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
+
+您可以在Workfront实例中创建的自定义表单的数量没有限制。 您可以附加到对象的自定义表单限制为10个。
+
+本节包含以下文章：
 
 * [自定义表单概述](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
 * [旧版自定义表单生成器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
