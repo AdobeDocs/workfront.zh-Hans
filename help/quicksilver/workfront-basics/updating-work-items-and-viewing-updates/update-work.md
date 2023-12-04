@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * 从“主页”区域（针对任务和问题）
    * 从对象列表中的“摘要”面板或时间表（用于任务和问题）
 
-本页上的信息介绍如何评论Workfront对象以及如何更新项目、任务和问题。
+本页上的信息介绍如何对Workfront对象进行评论，以及在向项目、任务和问题添加评论时如何更新项目、任务和问题。
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须具有其他许可证才能访问Workfront目标。
 
@@ -156,13 +158,14 @@ drafted for P&P release:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>针对问题和文档的请求或更高请求；针对所有其他对象的查看或更高版本</p> </td> 
+   <td> <p>请求或更高版本的问题和文档</p>
+   <p> 查看所有其他对象或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
    <td> <p>查看或编辑更新所在对象的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
@@ -175,14 +178,29 @@ drafted for P&P release:
 
 ## 向工作项添加更新
 
+根据您使用的更新部分的版本，向工作项添加更新会有所不同。
+
+您可以将更新添加到以下对象：
+
+* 项目
+* 任务
+* 问题
+* 项目群
+* 项目组合
+* 模板
+* 模板任务
+* 用户
+* 工时表
+* 团队
+* 目标
+* 展示板区域中的信息卡
+* 迭代
+
+### 在旧版更新部分中为工作项添加更新
+
 >[!IMPORTANT]
 >
 >本页上的信息介绍了如何更新项目、任务和问题。
-
-
-根据您使用的更新部分的版本，向工作项添加更新会有所不同。
-
-### 在旧版更新部分中为工作项添加更新
 
 1. 转到要为其提供更新的工作项（如项目、任务或问题）。
 1. 单击 **更新** 部分。
