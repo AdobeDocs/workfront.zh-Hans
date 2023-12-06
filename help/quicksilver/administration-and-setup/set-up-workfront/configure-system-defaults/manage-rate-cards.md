@@ -7,9 +7,10 @@ description: 费率卡允许您根据位置为每个角色定义多个计费费�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>旧版计划： [！UICONTROL计划]</p>
-       <p>当前计划： [！UICONTROL Standard]</p></td> 
+   <td><p>新计划： [！UICONTROL Standard] </p>
+       <p>或</p> 
+       <p>当前计划： [！UICONTROL计划] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
-   <p>当前计划：标准</p>
+   <p>新计划：标准</p>
    <p>或</p>
-   <p>传统计划：计划</p></td> 
+   <p>当前计划：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -196,7 +196,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>格式</td>
-    <td><p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注释</b>:   
+    <td><p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注意</b>：   
     <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
     <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li> 
@@ -313,7 +313,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
     <td role="rowheader">格式</td> 
-    <td> <p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注释</b>:   
+    <td> <p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注意</b>：   
      <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
     <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li> 
@@ -462,7 +462,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">参考对象类型</td> 
-      <td> <p>选择要与字段关联的对象类型。</p> <p>单击“应用”或“保存+关闭”后，将无法更改该字段的对象类型。</p> <p><b>注释</b>:   
+      <td> <p>选择要与字段关联的对象类型。</p> <p>单击“应用”或“保存+关闭”后，将无法更改该字段的对象类型。</p> <p><b>注意</b>：   
         <ul> 
          <li>如果您的Workfront管理员在Workfront用户界面中为Portfolio、程序或项目自定义了名称，则该对象的默认Workfront名称将显示在此下拉列表中，而不是自定义名称中。 如果您需要此方面的帮助，请咨询您的Workfront管理员。<br></li> 
          <li>iOS和Android Workfront Mobile应用程序支持以下对象类型：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</li> 
@@ -529,7 +529,7 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">格式</td>
       <td><p>选择将在自定义字段中捕获的数据类型。</p>
-      <p><strong>注释:</strong></p>
+      <p><strong>注意：</strong></p>
       <ul><li>保存表单后，可以更改格式类型，但有一个限制：对象上的所有现有值都必须能够转换为新类型。 （例如，如果格式类型为“文本”，并且对象正在存储“abc”值，则您无法转换该字段，并且会收到一个错误，说明系统无法将“abc”转换为数字/货币。） 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li>
       <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li></ul></td>
      </tr> 
@@ -556,7 +556,7 @@ ht-degree: 4%
       <p>然后，您可以使用“$.data[*].name”选择“美国”和“加拿大”作为下拉选项。</p> <p>有关JSON路径并确保编写正确JSON路径的更多信息，请参阅 <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">标题</td>
+      <td role="rowheader">标头</td>
       <td><p>单击 <strong>添加标题</strong>，然后键入或粘贴使用API进行身份验证所需的键值对。</p><p><strong>注意：</strong> 标头字段不是存储凭据的安全位置，您应该小心输入和保存的内容。</p></td>
      </tr>
      <tr> 

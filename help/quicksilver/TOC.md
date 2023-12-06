@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -525,7 +525,7 @@ ht-degree: 1%
       * Adobe Workfront中的自定义品牌策略 {#custom-branding}
          * [自定义品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [品牌化您的实例](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [配置自定义帮助 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [配置自定义帮助URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 布局模板 {#layout-templates}
          * [布局模板](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [默认Workfront布局](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -546,7 +546,7 @@ ht-degree: 1%
          * [复制布局模板](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [使用API调用删除经典布局模板](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 自定义表单 {#custom-forms}
-         * [自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [我的组中的自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自定义表单概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 旧版自定义表单生成器 {#custom-form-builder}
             * 使用自定义表单生成器 {#use-the-custom-form-builder}
@@ -1393,7 +1393,7 @@ ht-degree: 1%
          * [更新任务列表甘特图中的信息](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [甘特图中的均衡资源](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [将甘特图导出到PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * 组合管理 {#portfolio-management}
+   * Portfolio管理 {#portfolio-management}
       * [组合管理](manage-work/portfolios/portfolio-management-overview.md)
       * Adobe Workfront中的Portfolio概述 {#portfolio-overview-in-adobe-workfront}
          * [项目组合](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -1473,7 +1473,7 @@ ht-degree: 1%
    * 适用于团队和组的提示、技巧和疑难解答 {#tips-tricks-people-teams-groups}
       * [适用于团队和组的提示、技巧和疑难解答](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [用户名已被使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* 报告 {#reporting}
+* 报表 {#reporting}
    * [报告](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 报告画布 {#reporting-canvas}
       * [报告画布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
@@ -1678,7 +1678,7 @@ ht-degree: 1%
          * [了解仪表板](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [仪表板入门](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [了解报告在功能板上的显示方式](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * 创建和管理报告面板 {#create-dashboards}
+      * 创建和管理仪表板 {#create-dashboards}
          * [创建和管理报告面板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [创建功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [将报表添加到功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1692,7 +1692,7 @@ ht-degree: 1%
          * [共享功能板](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [从功能板中删除外部页面](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [画布功能板概述](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 已优化的分析 {#enhanced-analytics}
+   * 增强的分析 {#enhanced-analytics}
       * [已优化的分析](enhanced-analytics/enhanced-analytics.md)
       * [增强的分析概述](enhanced-analytics/enhanced-analytics-overview.md)
       * [在增强的分析中应用过滤器](enhanced-analytics/use-enhanced-analytics-filters.md)
@@ -1784,8 +1784,8 @@ ht-degree: 1%
          * [审阅和批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * 校样 {#proofing}
-      * [校样](review-and-approve-work/proofing/proofing.md)
+   * 校对 {#proofing}
+      * [校对](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
@@ -1899,7 +1899,7 @@ ht-degree: 1%
       * [审批的提示、技巧和疑难解答](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 时间表 {#timesheets}
-   * [时间表](timesheets/timesheets-all.md)
+   * [工时表](timesheets/timesheets-all.md)
    * 工时表详细信息 {#details}
       * [Adobe Workfront中的工时表详细信息](timesheets/timesheets/timesheets.md)
       * [工时表概述](timesheets/timesheets/timesheets-overview.md)
@@ -1950,8 +1950,8 @@ ht-degree: 1%
    * [在Scenario Planner中共享计划](scenario-planner/share-a-plan.md)
    * [在任务列表中显示项目和计划的角色分配](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [在工作负载均衡器显示项目和计划的角色分配](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront 模板 {#adobe-workfront-goals}
-   * [Adobe Workfront 模板](workfront-goals/workfront-goals.md)
+* Adobe Workfront目标 {#adobe-workfront-goals}
+   * [Adobe Workfront目标](workfront-goals/workfront-goals.md)
    * [Adobe Workfront目标概述](workfront-goals/goal-management/wf-goals-overview.md)
    * Adobe Workfront目标中的目标管理 {#goal-management}
       * [Adobe Workfront目标中的目标管理](workfront-goals/goal-management/goal-management.md)
@@ -2338,8 +2338,8 @@ ht-degree: 1%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 校样 {#workfront-proof}
-   * [Workfront 校样](workfront-proof/workfront-proof.md)
+* Workfront Proof {#workfront-proof}
+   * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
    * 开始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流示例 {#workflow-examples}
@@ -2552,7 +2552,7 @@ ht-degree: 1%
       * Workfront Proof API {#wf-proof-api}
          * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
          * [Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * 盒子 {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof与Box集成简介](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [通过您的Box帐户创建验证](workfront-proof/wp-integrations/box/create-proof-box-account.md)

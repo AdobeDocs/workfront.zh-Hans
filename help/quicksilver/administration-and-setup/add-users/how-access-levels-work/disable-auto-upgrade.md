@@ -9,10 +9,10 @@ description: 每个用户都必须具有访问级别，才能在Workfront中登�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >禁用后，任何超出分配数量的决策的非付费用户都不会自动升级。
-
 
 ## 访问要求
 
@@ -42,9 +41,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>当前计划：标准
+   <td>新计划：标准
    <p>或</p>
-   <p>传统计划：计划</p></td> 
+   <p>当前计划：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

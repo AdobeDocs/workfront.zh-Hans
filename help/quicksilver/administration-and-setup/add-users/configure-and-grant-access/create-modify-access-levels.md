@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -42,9 +42,9 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>当前计划：标准
+   <td>新计划：标准
    <p>或</p>
-   <p>传统计划：计划</p></td> 
+   <p>当前计划：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -100,7 +100,7 @@ ht-degree: 6%
       <td>在Workfront中添加新公司和编辑现有公司。<br><p>如果没有此访问权限，用户只能查看现有公司。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">自定义表单</td> 
+      <td role="rowheader">我的组中的自定义表单</td> 
       <td>创建和管理其组中的所有自定义表单。 <br><p>如果没有此访问权限，用户只能将现有表单附加到他们有权贡献或管理的对象。</p></td> 
      </tr> 
      <tr> 
