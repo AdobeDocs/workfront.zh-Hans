@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年12月4日起一周
+
+### 在Maestro表视图中，为“人员类型”和链接记录字段将信息从一个字段复制并粘贴到另一个字段
+
+预览和生产： 2023年12月5日
+
+现在，您可以在Maestro记录类型表格视图中将一个字段中的信息复制并粘贴到另一个相同类型的字段。 以下类型的字段现在支持此功能：
+
+* 人员
+* 链接的记录字段
+
+请考虑以下事项：
+
+* 显示多个值的字段支持将字段值从一个字段复制和粘贴到另一个字段。
+
+* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
+
+* 您无法复制和粘贴在记录的“详细信息”区域中显示的字段的字段值。
+
+有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
+
+有关链接字段的信息，请参阅 [连接记录类型](../maestro/architecture/connect-record-types.md).
 
 ## 2023年11月27日起一周
 

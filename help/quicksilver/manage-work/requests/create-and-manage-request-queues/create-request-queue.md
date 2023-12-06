@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 创建请求队列
-description: 您可以设置请求队列，用户可以在其中输入未在项目上计划的临时请求。
+description: 您可以设置请求队列，用户可以在其中输入未在项目上计划的临时请求。 例如，可以设置技术支持请求队列来捕获到某个IT部门的所有用户请求。
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,39 @@ ht-degree: 2%
 
 ## 访问要求
 
-<!--drafted for P&P: replace the table below with this:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> <p>任何 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> 
+   <p>新许可证： Standard </p>
+   或
+   <p>当前许可证：计划 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对项目的访问权限</p> <p><b>注释</b>
+
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员
+
+
+<!--old access levels: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,16 +71,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>Current license: Stadard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,37 +86,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+*To find out what plan, license type, or access you have, contact your Workfront administrator
 -->
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限</p> <p><b>注释</b></p>
-
-<p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">对象权限</td> 
-   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员
 
 ## 请求队列概述
 
@@ -230,7 +230,7 @@ ht-degree: 2%
    * **默认持续时间：** 默认持续时间是完成问题通常需要的时间。 这会成为所有传入问题的默认值，可以手动修改。 持续时间通常以小时、天或周设置。 问题的默认持续时间与问题的已计划小时数相同。 问题的计划完成日期根据此字段计算。\
      问题持续时间的默认值为1天或8小时。 如果Workfront管理员将每个工作日的典型小时数设置为小于8小时，则问题的默认持续时间仍为8小时。 例如，如果“每个工作日的典型小时数”设置为7小时，则问题的默认持续时间为1.14天或8小时。 有关如何设置系统“每个工作日的典型小时数”的更多信息，请参阅文章中的“时间线计算”部分 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **同一公司的人将为所有请求继承相同的访问权限。：** 选中后，提交到队列的所有请求对同一公司的用户可见。 用户可以在位于请求区域的所有请求部分中查看这些请求。 启用或禁用此设置时，它会影响所有未来的请求；而不会对信息产生追溯性影响。
+   * **来自同一公司的人员将针对所有请求继承相同的权限。：** 选中后，提交到队列的所有请求对同一公司的用户可见。 用户可以在位于请求区域的所有请求部分中查看这些请求。 启用或禁用此设置时，它会影响所有未来的请求；而不会对信息产生追溯性影响。
    * **当有人提出请求时，自动授予：** 当用户向请求队列发出请求时，将自动授予用户您选择用于该请求的权限级别。 从以下权限级别中选择：
 
       * **查看访问权限**

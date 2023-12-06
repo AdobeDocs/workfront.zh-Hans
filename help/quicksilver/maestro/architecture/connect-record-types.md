@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## 有关连接记录类型的注意事项
+
+请考虑以下事项：
 
 * 可以在Maestro中连接以下实体：
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/dots-main-menu.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/lines-main-menu.png) 图标，然后单击 **[!UICONTROL 大师]**.
 
    默认情况下应打开上次访问的工作区。
 
@@ -252,7 +255,7 @@ After permssions - replace the table with:
    * **允许多条记录**：选择此选项以指示您允许用户在链接记录类型字段显示在原始记录上时添加多个记录。 默认情况下，该选项处于选中状态。
    * **选择查找字段**：选择此选项可从所选记录类型添加字段。 默认情况下，该选项处于选中状态。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
 1. （视情况而定）如果您在上一步中选择了选择查找字段设置，则 **添加查找字段** 框打开。
 

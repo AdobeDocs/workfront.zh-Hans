@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中将任务移动到其他项目或不�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新计划：标准 </p> 
+ <p>或</p>  
+<p>当前计划：工作或更高 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -180,7 +182,7 @@ ht-degree: 2%
    有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a> 并寻找特定的限制。</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">分配</td> 
+      <td role="rowheader">任务详情</td> 
       <td> <p>将从任务中删除所有分配。 </p> </td> 
      </tr> 
      <tr> 
@@ -202,7 +204,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">文档</td> 
       <td> <p>附加到任务的文档不会转移到已移动的任务。 这包括版本、验证和链接文档。</p> <p>这不包括文档审批。 移动任务时绝不能移动文档审批。</p> 
-      <b>注释</b>
+      <b>注意</b>
 
    如果您选择不随任务移动文档，则文档将被删除并放入回收站30天。 管理员可以恢复它们，它们将在移动的任务上恢复。
 

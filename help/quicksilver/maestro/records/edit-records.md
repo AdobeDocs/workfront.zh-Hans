@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -217,7 +217,7 @@ After permssions - replace the table with:
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
 
-1. （可选）复制某个字段的现有值，然后将其粘贴到另一条记录上的相同类型字段中，然后单击 **输入** 以保存更改。
+1. （可选）复制字段的一个或多个现有值，然后将它们粘贴到另一记录上的相同类型字段中，然后单击 **输入** 以保存更改。
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ After permssions - replace the table with:
    >* 不能复制和粘贴以下字段类型的字段值：
    ><ul>
    >
-   > * 人员
-   >
    > * 系统字段
-   >
-   > * 因连接记录而创建的链接字段
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

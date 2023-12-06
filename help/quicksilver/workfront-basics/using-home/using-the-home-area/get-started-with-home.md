@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: 开始使用 [!UICONTROL 主页]
-description: 您可以通过两种方式在中查看您的工作 [!UICONTROL 主页] 区域，从 [!UICONTROL 工作列表] 或 [!UICONTROL 日历].
+description: 此 [!UICONTROL 主页] 区域是您的一站式服务，用于查找分配给您的任务、问题和审批。 您可以通过两种方式在中查看您的工作 [!UICONTROL 主页] 区域，从 [!UICONTROL 工作列表] 或 [!UICONTROL 日历].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # 开始使用 [!UICONTROL 主页]
 
-本文介绍了当前应用程序的概述 [!UICONTROL 主页] 区域位于 [!DNL Adobe Workfront]. 有关使用新产品的信息 [!UICONTROL 主页]，请参见 [开始使用Adobe Workfront中的新主页](../new-home/get-started-with-new-home.md).
+本文介绍了当前应用程序的概述 [!UICONTROL 主页] 区域位于 [!DNL Adobe Workfront]. 有关使用新产品的信息 [!UICONTROL 主页]，请参见 [新主页入门](../new-home/get-started-with-new-home.md).
 
 有两种方式可查看您当前的工作 [!UICONTROL 主页] 区域：
 
 * 从 [!UICONTROL 工作列表]
 * 从 [!UICONTROL 日历].
 
-## 工作列表
+## [!UICONTROL 工作列表]
 
 您可以在以下位置查看所有已分配的工作： [!UICONTROL 工作列表]：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 * [在中显示项目 [!UICONTROL 工作列表] 在 [!UICONTROL 主页] 区域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [从创建工作项 [!UICONTROL 主页] 区域](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## 日历
+## [!UICONTROL 日历]
 
 您可以通过显示工作项的到期时间来显示您的工作，还可以通过在以下位置查看您的工作来阻止完成这些工作： [!UICONTROL 日历] 在 [!UICONTROL 主页] 区域：
 
@@ -59,15 +59,15 @@ ht-degree: 0%
 
 ## 查找您的工作
 
-此 [!UICONTROL 主页] 区域是您的一站式服务，用于查找分配给您的任务、问题和审批。 中内置的过滤器和排序选项 [!UICONTROL 主页] 区域协同工作，支持您按所需的方式工作。 您可以使用 [!UICONTROL 排序方式] 选项可将多个项目组合在一起，然后使用过滤器来集中处理需要完成的工作。
+此 [!UICONTROL 主页] 区域是您的一站式服务，用于查找分配给您的任务、问题和审批。 筛选器、分组和排序选项可协同工作，支持您以所需的方式组织工作项目。 您可以使用分组将项目分组在一起，使用筛选器重点关注需要完成的工作，最后使用排序按分组的升序或降序列出项目。
 
 >[!NOTE]
 >
 >过滤器和排序选项存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则筛选器和排序不会更改，但如果您切换浏览器或计算机，则筛选器和排序将不同。
 
-### 将相似的工作项与&#39;[!UICONTROL 分组依据]&#39;选项
+### 将相似的工作项与分组一起分组
 
-此 [!UICONTROL 排序方式] 选项允许您对工作列表中的类似项目进行分组。 您可以按以下方式排序：
+您可以使用分组在工作列表的通用标题下显示类似项目。 您可以按以下方式分组项目：
 
 * [!UICONTROL 已计划完成]
 * [!UICONTROL 已计划开始]
@@ -93,21 +93,17 @@ ht-degree: 0%
 
   例如，您可以选择 [!UICONTROL 问题] 要查看所有状态中的所有问题([!UICONTROL 正在处理] 或 [!UICONTROL 已请求])，或 [!UICONTROL 审批] 查看所有工作项、访问请求、时间表、文档和验证审批。
 
-* 仅按状态筛选。
-
-  例如，您可以选择 [!UICONTROL 已完成] 筛选以显示已完成的任务和问题。 这包括个人任务，但不包括批准。
-
 有关如何使用过滤器的更多信息，请参阅 [在中显示项目 [!UICONTROL 工作列表] 在 [!UICONTROL 主页] 区域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### 访问分配给您团队的工作
 
-此 [!UICONTROL 主页] 区域具有专用于团队请求的永久分组，其中具有指向团队请求页面的直接链接。 使用此分组可查看和访问您所在任何团队的请求。
+此 [!UICONTROL 主页] 区域具有永久分组([!UICONTROL 团队请求])，显示分配给您团队的任务和问题。 团队将显示在此部分中。 单击团队名称将打开该团队的“团队请求”页面。
 
 >[!NOTE]
 >
->此 [!UICONTROL 筛选] 和 [!UICONTROL 排序方式] 选项不会影响 [!UICONTROL 团队请求] 分组。 只要您已将工作分配给团队，就可以显示此分组。
+>筛选和排序选项不会影响 [!UICONTROL 团队请求] 分组。 只要您已将工作分配给团队，就可以显示此分组。
 
 有关访问团队请求的更多信息，请参阅文章 [[!UICONTROL 管理] 中的工作和团队请求 [!UICONTROL 主页] 区域](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ ht-degree: 0%
 
 ### 监测您提交的工作
 
-跟踪您直接从提交以供审批的工作 [!UICONTROL 工作列表]. 您可以提醒批准者需要批准的工作。 如果需要，您还可以撤消批准。
+跟踪您直接从提交以供审批的工作 [!UICONTROL 工作列表]. 有一个永久分组 [!UICONTROL 我已提交的审批] 当您选择查看时 [!UICONTROL 审批] 在 [!UICONTROL 工作列表]. 您可以提醒批准者需要批准的工作。 如果需要，您还可以撤消批准。
 
 >[!NOTE]
 >
->此 [!UICONTROL 筛选] 和 [!UICONTROL 排序方式] 选项不会影响 [!UICONTROL 我已提交的审批] 分组。 只要您有工作等待批准，此分组即可显示。
-
-
+>筛选和排序不会影响 [!UICONTROL 我已提交的审批] 分组。 只要您有工作等待批准，此分组即可显示。
+>
+>中的审批数 [!UICONTROL 审批] 过滤器不显示您提交以供审批的项目数。 此 [!UICONTROL 审批] 过滤器仅显示等待您审批的项目。
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## 优先处理对您而言重要的事项
 
-此 [!UICONTROL 工作列表] 使您能够展示对您而言非常重要的工作并排定其优先级， [!UICONTROL 我的优先级排序方式] 选项。 您最多可以将20个项目添加到 [!UICONTROL 我的优先级] 列表。 使用 [!UICONTROL 更多] 菜单以将工作项添加到您的优先级列表。
+此 [!UICONTROL 工作列表] 使您能够展示对您而言非常重要的工作并排定其优先级， [!UICONTROL 我的优先级] 分组。 您最多可以将20个项目添加到 [!UICONTROL 我的优先级] 列表。
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ ht-degree: 0%
 
 ## 完成它
 
-在中使用右侧面板 [!UICONTROL 主页] 更新并完成您的工作。
+单击中项目的名称后 [!UICONTROL 工作列表]，使用中的右侧面板 [!UICONTROL 主页] 更新并完成您的工作。
 
 ### 在为您自定义的空间中工作
 
-您的 [!DNL Adobe Workfront] 管理员最多可以添加16个自定义字段，以便更轻松地查找和更新您需要的信息。 大多数字段都是可编辑的，因此您不必导航到工作项。
+您的 [!DNL Workfront] 管理员可以向中的项目添加最多16个自定义字段 [!UICONTROL 工作列表]以便于查找和更新您需要的信息。 大多数字段都是可编辑的，因此您不必导航到工作项。
 
-要更新此区域中的任意字段，只需单击该字段。
+要更新此区域中的任意字段，只需单击一个字段。 如果该字段可编辑，则可以在右侧面板中修改它。
 
 >[!NOTE]
 >
->您无法更新 [!UICONTROL 提交日期] 在这个区域。
+>您无法更新 [!UICONTROL 提交日期] 如果此字段从布局模板添加到工作项。
 
 ![](assets/16-fields-home-350x137.png)
 
-### 用重要信息更新同事
+### 用重要信息更新其他人
 
-与的同事快速、高效地沟通 [!UICONTROL 主页] 区域。 您可以向同事提问、通知他们最近更新的信息，或回复直接评论。 此外，您还可以通过以下方式向其他人更新您正在取得的进展：
+通过EMC的 [!UICONTROL 主页] 区域。 使用工作项的评论区域，您可以提问、通知他人最近更新，或回复来自的评论 [!UICONTROL 主页] 区域。 此外，您还可以通过以下方式向其他人更新您正在取得的进展：
 
-* 正在更新 [!UICONTROL 提交日期]
+* 正在更新 [!UICONTROL 提交日期] 在注释区域
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   这是可在主页中更新提交日期的唯一位置。
 
-* 报告您对事情的感受
+* 通过添加评论或更新 [!UICONTROL 条件] 项
 * 更新完成百分比栏
 
 欲知关于如何在中通信 [!UICONTROL 主页] 区域，请参见 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
