@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 9ff647ba4eca31e6d2d06a8c9b787badaf965477
+source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] 计划]*</td> 
-   <td><p>新计划： [！UICONTROL Prime]或更高版本</p>
+   <td><p>新计划：任意</p>
        <p>或</p>
        <p>当前计划： [！UICONTROL Pro]或更高版本</p>
    </td> 

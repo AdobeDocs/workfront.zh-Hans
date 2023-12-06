@@ -1,48 +1,55 @@
 ---
-title: 在Enhanced Analytics中查看燃耗可视化
+title: 在增强型分析中查看燃尽可视化图表
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: “燃耗”可视化显示特定项目随时间的燃耗，并帮助您了解项目条件、速度与剩余小时数（即天数）之间的关系。
+description: 燃尽可视化图表显示特定项目在一段时间内的燃尽，并帮助您了解项目完成情况、速度和剩余小时数或天数之间的关系。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
-# 在Enhanced Analytics中查看燃耗可视化
+# 在增强型分析中查看燃尽可视化图表
 
-“燃耗”可视化显示特定项目随时间的燃耗，并帮助您了解项目条件、速度与剩余小时数（即天数）之间的关系。
+燃尽可视化图表显示特定项目在一段时间内的燃尽，并帮助您了解项目完成情况、速度和剩余小时数或天数之间的关系。
 
-![](assets/burndown-350x112.png)
+![增强分析燃尽示例](assets/burndown120623.png)
 
 ## 访问要求
 
-您必须具备以下条件：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
-   <td> <p>业务或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td>
+      <p>新计划：任意</p>
+      <p>或</p>
+      <p>当前计划：业务或更高</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>*</td> 
-   <td> <p>审阅或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td>
+      <p>新计划：轻度或以上</p>
+      <p>或</p>
+      <p>当前计划：审阅或更高版本</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看项目访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。<br>有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。<br>有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,102 +58,101 @@ ht-degree: 0%
 
 ## 先决条件
 
-有关使用Enhanced Analytics的先决条件，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
 
-## 了解燃耗可视化图表
+## 了解燃尽可视化图表
 
-实蓝线显示从开始日期到计划完成日期的计划速度。 当添加、删除或更新工作时，此行会进行调整，并在项目达到计划完成日期时变为虚线垂直行。
+实心蓝线显示从开始日期到计划完成日期的计划速率。 当工作被添加、移除或更新时，这条线会随之发生调整，当项目达到计划的完成日期时，它就会变成虚线。
 
-![](assets/burndown-planned-line.png)
+![计划周转率](assets/burndown-planned-line.png)
 
-实际线条显示项目在一段时间内所花费的小时数（即天数）。 此线条的颜色表示每天项目的状态：
+实际行显示一段时间内在项目上花费的小时数或天数。 此行的颜色表示每天的项目完成情况：
 
-* **绿色**:项目已定位。
+* **绿色**：项目达成目标。
 
-   ![](assets/burndown-green.png)
+  ![准时](assets/burndown-green.png)
 
-* **橙色**:项目面临风险。
+* **橙色**：项目存在风险。
 
-   ![](assets/burndown-orange.png)
+  ![处于风险中](assets/burndown-orange.png)
 
-* **红色**:项目有问题。
+* **红色**：项目遇到问题。
 
-   ![](assets/burndown-red.png)
+  ![存在问题](assets/burndown-red.png)
 
-有关这些项目条件的更多信息，请参阅 [项目条件和条件类型概述](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+有关这些项目条件的更多信息，请参阅 [项目完成情况和完成情况类型概览](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-当实际行垂直向上移动时，已向项目中添加工作。 当线条垂直向下移动时，已移除或完成项目的工作。
+当实际线条垂直向上移动时，工作已添加到项目中。 当线条垂直向下移动时，项目的工作已移除或完成。
 
-在可视化图表的x轴下方，您可以查看有关任务和小时数（或天数）在给定日期（添加量、完成量以及两者之间的差异）的更多信息。
+在可视化图表的x轴下方，您可以看到有关任务和小时数（或天数）在给定日期如何变化的更多信息（添加数量、完成数量以及两者的差异）。
 
-在“燃耗”可视化中查看所有这些信息可帮助您确定：
+在“燃尽”可视化图表中查看所有这些信息有助于您确定：
 
-* 单个项目一段时间的运行状况
-* 出现问题（或计划外工作）对计划工作有何影响。
-* 哪些事件会将您的项目延长到原始完成日期之后。
+* 单个项目在一段时间内的运行状况
+* 进入（或计划外工作）的问题如何影响计划工作
+* 哪些事件使您的项目超过了原始完成日期
 
-要了解如何获取此可视化图表的最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 查看燃耗可视化
+## 查看燃尽可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **Analytics**.
-1. （可选）要使用其他日期范围，请从日期范围筛选器中选择新的开始日期和结束日期。
+{{step1-to-analytics}}
 
-   ![](assets/filters-select-date-range-350x344.png)
+1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
+
+   ![选择日期](assets/filters-select-date-range-350x344.png)
 
    有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. （视情况而定）如果您需要限制项目数据集，请选择并应用您要使用的过滤器。
+1. （视情况而定）如果您需要限制项目数据集，请选择并应用要使用的过滤器。
 
-   有关在Enhanced Analytics中添加过滤器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   添加过滤器后，最多会显示50个项目的数据，并且即使您离开页面或注销Workfront后，这些过滤器仍保持活动状态。
+   添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
-1. （可选）要放大日期范围，请在可视化中选择一个点以表示日期范围的开始日期，然后拖到日期范围的结束日期。
+1. （可选）要放大日期范围，请在可视化图表上选择一个点作为日期范围的起点，然后将其拖动到日期范围的终点。
 
-   所有其他可视化图表将更新至同一日期范围，并创建时间范围过滤器。
+   所有其他可视化都会更新到同一日期范围，并自动创建时间范围过滤器。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![时间范围过滤器](assets/timeframe-filter-350x220.png)
 
-1. 在飞行计划或项目树状图可视化中，单击某个项目可查看更多信息。
+1. 在外部测试版计划或项目树状图可视化图表上，单击项目以查看更多信息。
 
-   “燃耗”和“飞行任务”可视化图表显示。
+   此时将显示“燃尽”和“飞行中的任务”可视化图表。
 
    >[!NOTE]
    >
-   >要进一步了解这些其他可视化图表，请参阅：
+   >要了解有关这些其他可视化图表的更多信息，请参阅：
    >
-   >   
-   >   
-   >   * [在Enhanced Analytics中查看飞行计划可视化](../enhanced-analytics/flight-plan-overview.md)
-   >   * [在增强型分析中查看项目树状图可视化](../enhanced-analytics/project-treemap-overview.md)
-   >   * [在增强分析中查看“飞行”可视化中的任务](../enhanced-analytics/tasks-in-flight-overview.md)
-
+   >   * [在增强型分析中查看外部测试版计划可视化图表](../enhanced-analytics/flight-plan-overview.md)
+   >   * [在增强型分析中查看项目树状图可视化图表](../enhanced-analytics/project-treemap-overview.md)
+   >   * [在Enhanced Analytics中查看外部测试版中的任务可视化图表](../enhanced-analytics/tasks-in-flight-overview.md)
+   >
 
 1. （可选）将视图从计划小时数更改为 **持续时间**.
 
-   默认情况下，会选择计划小时数。
+   默认情况下选择已计划小时数。
 
    >[!NOTE]
    >
    >选择 **持续时间** 将所有小时信息更改为天。\
-   >![](assets/duration-burndown-350x112.png)\
-   >有关“增强分析”区域持续时间的更多信息，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+   >![持续时间燃尽](assets/duration-burndown-350x112.png)\
+   >有关“增强分析”区域中持续时间的更多信息，请参阅中的“持续时间视图”部分。 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. 单击折线图上的任意点。
 
-   将显示确切日期，下面显示了选定日期的任务和小时数（或天数）的进一步信息。
+   确切日期会显示，而且图形下方会显示有关选定日期的任务和小时数（或天数）的更多信息。
 
-   ![](assets/burndown-task-and-hour-changes-350x121.png)
+   ![燃尽详细信息](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
-   >如果实际速度是沿可视化图表的x轴（内联0小时或0天）运行的平直线，则表示未向项目添加计划小时数（即天数）。\
-   >如果实际速度是一条直线，在x轴上方（内联x轴的小时数或天数），且从不下降，则表示在过滤的时间段内未完成任务。
+   >如果实际速度是沿可视化图表的x轴运行的平面线（内联0小时或0天），则意味着没有向项目添加计划的小时数或天数。\
+   >如果实际速度是x轴上方的平直线（与小时数或天数内联）且永远不会降低，则意味着在过滤的时间段内未完成任何任务。
 
-1. （可选）要导出可视化数据，请单击 **导出** 图标 ![](assets/export.png)在可视化的右上角，选择导出格式：
+1. （可选）要导出可视化数据，请单击 **导出** 图标 ![“导出”图标](assets/export.png)并选取导出格式：
 
-   * **图表 (PNG)**
-   * **数据表(XSLX)**
+   * 图表 (PNG)
+   * 数据表(XSLX)
 
-1. （可选）要查看选定项目中任务进度的详细信息，请查看“燃耗”可视化下方的“飞行中的任务”可视化。
+1. （可选）要查看有关所选项目中任务进度的详细信息，请查看外部测试版中的任务可视化图表，该可视化图表显示在燃尽可视化图表下方。 有关更多信息，请参阅 [在Enhanced Analytics中查看外部测试版中的任务可视化图表](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
