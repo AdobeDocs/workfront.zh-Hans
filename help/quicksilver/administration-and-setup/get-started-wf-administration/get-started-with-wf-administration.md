@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Adobe Workfront管理快速入门
-description: 您可以为组织配置Workfront系统默认值、时间表和时间表、组织设置、系统跟踪更新信息以及测试环境
-author: Caroline
+title: “Adobe Workfront管理快速入门：文章索引”
+description: 在此部分中，您可以找到有关Adobe Workfront首次设置的信息和说明，以及作为Workfront管理员需要的信息。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront管理快速入门
+# Adobe Workfront管理快速入门：文章索引
+
+在此部分中，您可以找到有关Adobe Workfront首次设置的信息和说明，以及作为Workfront管理员需要的信息。
 
 本节包含以下文章：
 

@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 您可以将Adobe Workfront与第三方应用程序集成。 集成可以扩展Workfront的实用程序，并根据贵组织的需求对其进行定制。
-author: Becky, Caroline
+description: 您可以将Adobe Workfront与第三方应用程序以及其他应用程序集成 [!DNL Adobe] 产品。 集成可以扩展Workfront的实用程序，并根据贵组织的需求对其进行定制。 有关不同类型集成的详细信息，请参阅本文。
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 集成
 
-您可以将Adobe Workfront与第三方应用程序以及其他应用程序集成 [!DNL Adobe] 产品。 集成可以扩展Workfront的实用程序，并根据贵组织的需求对其进行定制。
+您可以集成 [!DNL Adobe Workfront] 第三方应用程序及其他 [!DNL Adobe] 产品。 集成可以扩展Workfront的实用程序，并根据贵组织的需求对其进行定制。
 
 的集成 [!DNL Workfront] 分为以下类别：
 
@@ -42,15 +42,15 @@ ht-degree: 0%
 
    有关可用集成的列表，请参阅 [无需额外付费即可获得集成](#integrations-available-at-no-additional-cost) 和 [需要额外购买的集成](#integrations-requiring-an-additional-purchase).
 
-1. **识别您的技术管理员**
+1. **确定您的技术管理员**
 
-   确定您组织的技术管理员，了解您要与集成的应用程序 [!DNL Workfront]. 例如，如果您选择与 [!DNL Jira]，您必须与贵公司的 [!DNL Jira] 管理员，并让他们参与其平台内的任何配置需求。 您还应该让此管理员参与任何与的对话 [!DNL Workfront] 客户支持。
+   确定您要与集成的应用程序的技术管理员 [!DNL Workfront]. 例如，如果您选择与 [!DNL Jira]，您必须与贵公司的 [!DNL Jira] 管理员，并让他们参与其平台内的任何配置需求。 您还应该让此管理员参与任何与的对话 [!DNL Workfront] 客户支持。
 
-   要开始使用管理员，您需要向他们提供该集成的具体说明。 有关这些说明的链接，请参阅 [无需额外付费即可获得集成](#integrations-available-at-no-additional-cost).
+   要启动管理员，您需要向他们提供该集成的特定说明。 有关这些说明的链接，请参阅 [无需额外付费即可获得集成](#integrations-available-at-no-additional-cost).
 
 1. **与 [!DNL Workfront] 客户支持**
 
-   如果您的管理员对本机集成设置有任何问题，则可以与 [!DNL Workfront] 客户支持可帮助指导或排除故障。 同时 [!DNL Workfront] 不会为您设置集成，我们致力于为您提供自行完成集成所需的所有必要工具和资源。 您可以直接与客户支持人员交谈，也可以探索内容丰富的资源文章来帮助您轻松设置集成。
+   如果管理员对本机集成设置有任何问题，您可以联系 [!DNL Workfront] 客户支持可帮助指导或排除故障。 同时 [!DNL Workfront] 不会为您设置集成，我们致力于为您提供自行完成集成所需的所有必要工具和资源。 您可以直接与客户支持人员交谈，也可以探索内容丰富的资源文章来帮助您轻松设置集成。
 
    要与客户支持部门建立联系，请参阅 [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您必须是组织的指定支持联系人才能提交支持案例。 在案例提交后，您可以将另一个系统的技术管理员添加到对话中。 他们无法直接自行联系支持人员。
+   >您必须是组织的指定支持联系人才能提交支持案例。 在案例提交后，您可以将另一个系统的技术管理员添加到对话中。 他们无法直接联系支持人员。
 
 我们了解到，可用的内置（本机）集成可能无法满足贵公司的所有需求。 如果是这种情况，请联系您的客户经理以讨论自定义集成。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
     <ul> 
      <li>[!DNL G Suite] 用户必须具有 [!DNL Workfront] 许可证 </li> 
      <li>[!DNL Workfront] 必须为每个访问级别设置查看和工作共享权限 </li> 
-     <li> 已启用POP的电子邮件帐户 </li> 
+     <li> 用户必须具有启用POP的电子邮件帐户 </li> 
      <li>[!DNL Workfront] 请求设置必须包括POP设置 </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ ht-degree: 0%
     </ul> <p>有关更多信息，请参阅 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL Pro] [!DNL Workfront] 计划或更高版本</li> 
+     <li><p>新的Workfront计划：[！UICONTROL Select] [!DNL Workfront] 计划或更高版本</p><p>当前Workfront计划： [！UICONTROL Pro] [!DNL Workfront] 计划或更高版本</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -167,7 +167,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!DNL Microsoft] 日历 ([!DNL Office 365] / [!DNL Outlook Live])</td> 
+   <td>[!DNL Microsoft] 日历([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
      <li> <p>与的基于Web的版本集成 [!DNL Outlook] 在云托管中 [!DNL Office 365] 或 [!DNL Outlook Live.] </p> </li> 
@@ -234,7 +234,7 @@ ht-degree: 0%
     </ul> <p>有关更多信息，请参阅 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL Pro] [!DNL Workfront] 计划或更高版本</li> 
+     <li><p>新的Workfront计划：[！UICONTROL Select] [!DNL Workfront] 计划或更高版本</p><p>当前Workfront计划： [！UICONTROL Pro] [!DNL Workfront] 计划或更高版本</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ ht-degree: 0%
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] 链接应用程序和服务内或之间的操作，以创建自动传输和转换数据的方案。 它具有到许多应用程序的专用连接器，但可以使用公共API连接到任何应用程序。
+
   有关更多信息，请参阅 [[!DNL Adobe Workfront Fusion] 概述](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  有关更多信息，请参阅 [适用于Experience Manager Assets和Assets Essentials的Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Workfront与Experience Manager Assets或Assets Essentials之间的集成使组织可以将工作与数字资源管理内在地联系起来，提升内容速度，缩短产品上市时间。
+
+有关更多信息，请参阅 [适用于Experience Manager Assets的Adobe Workfront集成概述](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## 合作伙伴集成
 
-[!DNL Workfront] 拥有丰富的合作伙伴生态系统，其中包括数十种丰富您的 [!DNL Workfront] 体验。
+[!DNL Workfront] 有许多合作伙伴集成丰富了 [!DNL Workfront] 体验。
 
-现有合作伙伴产品的示例包括与的集成 [!DNL Salesforce.com]， [!DNL Oracle Responsys]、和 [!DNL Microsoft Visual Studio]. 有关这些集成以及其他令人期待的集成的更多信息，请参阅 [[!DNL Workfront] 市场](https://www.workfront.com/enterprise/marketplace/apps/).
+现有合作伙伴产品的示例包括与的集成 [!DNL Salesforce.com]， [!DNL Oracle Responsys]、和 [!DNL Microsoft Visual Studio].
+
+有关这些集成和其他合作伙伴集成的更多信息，请参见 [[!DNL Workfront] 市场](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-此 [!DNL Workfront] API使您能够扩展和增强 [!DNL Workfront] 体验。 您可以使用我们的开放API创建您自己的集成。 有关 [!DNL Workfront] API，请参见 [!DNL Workfront] [API资源管理器](../../wf-api/general/api-explorer.md).
+此 [!DNL Workfront] API使您能够扩展和增强 [!DNL Workfront] 体验。 您可以使用我们的开放API创建您自己的集成。
+
+有关 [!DNL Workfront] API，请参见 [!DNL Workfront] [API资源管理器](../../wf-api/general/api-explorer.md).

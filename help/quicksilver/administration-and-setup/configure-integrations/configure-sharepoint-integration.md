@@ -3,14 +3,14 @@ title: 配置 [!DNL SharePoint] 集成
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 您可以集成 [!DNL Workfront] 替换为 [!DNL SharePoint] 在线，为用户提供了导航到、链接和添加的能力 [!DNL SharePoint] Workfront中的文档。 提供的功能与其他功能类似 [!DNL Workfront] 集成，例如Google Drive、Box和Dropbox。
-author: Becky, Caroline
+description: 您可以集成 [!DNL Workfront] 替换为 [!DNL SharePoint] 在线，为用户提供了导航到、链接和添加的能力 [!DNL SharePoint] Workfront中的文档。 提供的功能与其他功能类似 [!DNL Workfront] 文档集成。
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
+source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关的信息 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td>您必须是 [!DNL Workfront] 管理员。 有关的信息 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-您必须拥有中任何必要的访问权限或 [!DNL SharePoint] 要修改或配置您组织的 [!DNL SharePoint].
+您必须拥有中任何必要的访问权限或 [!DNL SharePoint] 要修改或配置 [!DNL SharePoint] 集成。
 
 ## 通过新的SharePoint集成链接文档
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 从SharePoint链接文档
 
-有关从SharePoint通过新页面链接文档的说明 [!DNL SharePoint] 集成，请参阅 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+有关从SharePoint通过新页面链接文档的说明 [!DNL SharePoint] 集成，请参阅 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### 将文档发送到SharePoint
 
@@ -115,16 +115,13 @@ ht-degree: 0%
 
 | 访问权限 | 原因 |
 |---|---|
-| 拥有对文件的完全访问权限 | 允许 [!DNL Workfront] 用于访问用户文件以链接资产。 在发送文档时 [!DNL Workfront] 到 [!DNL SharePoint]， [!DNL Workfront] 需要创建资产的权限。 |
+| 拥有对文件的完全访问权限 | 允许 [!DNL Workfront] 访问用户的文件以链接资产。 在发送文档时 [!DNL Workfront] 到 [!DNL SharePoint]， [!DNL Workfront] 需要创建资产的权限。 |
 | 读取所有网站集中的项目 | 允许 [!DNL Workfront] 以读取资产并启用用户导航。 |
-| 编辑或删除所有网站集中的项目 | 允许 [!DNL Workfront] 在网站和网站集中创建资产。 仅在链接尝试失败后进行清理时使用“删除”。 |
+| 编辑或删除所有网站集中的项目 | 允许 [!DNL Workfront] 在站点和站点集合中创建资产。 仅在链接尝试失败后进行清理时使用“删除”。 |
 | 维护对您已授予其访问权限的数据的访问权限 | 允许 [!DNL Workfront] 以生成刷新令牌。 |
 | 登录并读取用户配置文件 | 允许 [!DNL Workfront] 通过OAuth2登录流程，使用访问令牌代表用户行事。 |
 
-此访问权限在用户首次使用集成时授予，并可随时撤销。
-
-有关对的访问，请考虑以下事项 [!DNL SharePoint] 通过 [!DNL Workfront] [!DNL SharePoint] 集成：
-
+* 此访问权限在用户首次使用集成时授予，并可随时撤销。
 * 为此集成请求的权限为 **已委派** 权限。
 * [!DNL Workfront] 请求在集成中执行操作所需的最低访问权限。
 * 查看、编辑或删除 [!DNL Adobe Workfront] 文档链接到 [!DNL SharePoint] 基于用户在中的访问权限 [!DNL Workfront]. 但是，任何导航、下载或编辑 [!DNL SharePoint] 文件或文件夹需要访问 [!DNL SharePoint]，对这些操作的访问权限由控制 [!DNL SharePoint].
@@ -143,24 +140,25 @@ ht-degree: 0%
 
 为了确保您的用户能够继续访问通过旧版链接到Workfront的文档 [!DNL SharePoint] 集成，您必须重新配置对旧版的访问权限 [!DNL SharePoint] 集成并使SharePoint客户端密钥保持最新。
 
-* [重新配置对旧版的访问权限 [!DNL SharePoint] 集成](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
-* [配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
+* [重新配置对旧版的访问权限 [!DNL SharePoint] 集成](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### 重新配置对旧版的访问权限 [!DNL SharePoint] 集成
 
-为了确保您可以访问通过旧版链接的文档 [!DNL SharePoint] 集成，在确保用户无法通过该集成链接新文档的同时，请完成以下过程。
+重新配置旧版 [!DNL SharePoint] 通过集成，您的用户可访问通过旧版链接的文档 [!DNL SharePoint] 集成，同时确保您的用户无法通过该集成链接新文档。
 
 >[!NOTE]
 >
 > * 旧版 [!DNL SharePoint] 集成被标记为“[!DNL SharePoint]“
 > * 新 [!DNL SharePoint] 集成被标记为“[!UICONTROL [!DNL SharePoint] （图形API）]“
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 设置]** ![设置](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
 1. 选择 **[!UICONTROL 文档]** 在左侧导航中，然后选择 **[!UICONTROL 云提供商]**.
 1. 确保 **[!DNL SharePoint]** 期权及 **[!UICONTROL [!DNL SharePoint]（图形API）]** 选项均已启用。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 选择 **[!UICONTROL 文档]** 在左侧导航中，然后选择 **[!UICONTROL [!DNL SharePoint]集成]**.
 1. 选中列表左侧的复选标记可显示所有现有集成，然后选择 **[!UICONTROL 禁用]**.
+   ![](assets/disable-old-sharepoint.png)
 
 
 ### 配置客户端密钥以继续访问旧版 [!DNL SharePoint] 集成
@@ -175,13 +173,13 @@ ht-degree: 0%
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. 生成新的客户端密码，如中所述 [在中替换过期的客户端密码 [!DNL SharePoint] 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. 生成新的客户端密码，如中所述 [在中替换过期的客户端密码 [!DNL SharePoint] 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. 将此客户端密钥复制到安全位置。
 1. 登录 [!DNL Workfront] 作为管理员。
-1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
 1. 在左侧面板中，单击 **[!UICONTROL 文档]** > **[!UICONTROL [!DNL SharePoint]集成]**.
 1. 单击 [!DNL SharePoint] 要更新的集成，然后单击 **[!UICONTROL 编辑]**.
-1. 将新的客户端密钥输入到 **[!UICONTROL 客户端密码]** 字段。
+1. 找到 **连接信息** 部分，然后将新的客户端密钥输入到 **[!UICONTROL SharePoint客户端密码]** 字段。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 <!--
@@ -467,7 +465,8 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 * 用户必须具有对网站集的查看权限，该网站集位于 [!DNL SharePoint].
 
-  在中验证此内容 [!DNL SharePoint]，转到 [!DNL SharePoint]，然后打开网站集> [!UICONTROL 设置] > [!UICONTROL 网站权限].
+  在中验证此内容 [!DNL SharePoint]中，检查SharePoint中网站集的权限。
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
