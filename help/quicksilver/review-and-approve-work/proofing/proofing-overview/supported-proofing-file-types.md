@@ -3,32 +3,32 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: 支持的校对文件类型和大小限制概述
-description: 您可以与审阅人共享和审阅各种类型的文件，即使他们计算机上未安装用于创建文件的软件(例如Photoshop或Illustrator)。 我们支持大小最大为4 GB的静态、视频、音频、网络捕获和交互式文件类型。
+description: 您可以与审阅人共享和审阅各种类型的文件，即使他们未在其计算机上安装用于创建文件的软件(如Photoshop或Illustrator)也是如此。 我们支持大小最大为4 GB的静态、视频、音频、网络捕获和交互式文件类型。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # 支持的校对文件类型和大小限制概述
 
-您可以与审阅人共享和审阅各种类型的文件，即使他们计算机上未安装用于创建文件的软件(例如Photoshop或Illustrator)。 我们支持大小最大为4 GB的静态、视频、音频、网络捕获和交互式文件类型。
+您可以与审阅人共享和审阅各种类型的文件，即使他们未在其计算机上安装用于创建文件的软件(如Photoshop或Illustrator)也是如此。 我们支持大小最大为4 GB的静态、视频、音频、网页捕获和交互式文件类型。
 
 ## 文件大小限制
 
 Workfront具有以下限制：
 
 * 每个文件的文件大小必须小于4 GB。
-* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)文件必须小于512 MB。 （这也适用于在实施大小限制之前创建的这些文件类型的取消存档校样。）
+* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)文件必须小于512 MB。 （这同样适用于在实施大小限制之前创建的这些文件类型的取消存档校样。）
 * xls和XLSX文件必须小于100 MB。
 * 附加到验证评论的文件必须小于30 MB。
 * PNG的高度和宽度必须小于65535像素。
 * 静态组合验证最多可支持50个文件。
-* 作为验证上载的文档必须少于2,000页。
+* 上载为验证的文档必须少于2,000页。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Workfront具有以下限制：
 > * XLTX - Microsoft Excel模板
 
 * ABC - LEAD高级位压缩
-* ABIC — 自适应两级图像压缩
+* ABIC — 自适应双级图像压缩
 * AFP — 高级功能演示
 * AI - Adobe Illustrator图稿
 * ANI - Windows动画光标
@@ -58,7 +58,7 @@ Workfront具有以下限制：
 * AWD - Microsoft传真
 * BMP - Windows和OS/2位图格式
 * CAL - CALS Raster
-* CGM — 计算机图形元文件
+* CGM — 计算机图形图元文件
 * CIN — 柯达西农
 * CLP - Windows剪贴板
 * CMP - LEAD压缩
@@ -67,7 +67,7 @@ Workfront具有以下限制：
 * CR2 - Canon Raw
 * CRW - Canon Raw
 * CUR - Windows光标
-* CUT - Dr. Halo
+* CUT — 光环博士
 * DGN — 交互式设计
 * DOC - Microsoft Word文档
 * DOCX - Microsoft Word文档
@@ -88,20 +88,20 @@ Workfront具有以下限制：
 * FLC - Flic Animation
 * FPX — 柯达闪光灯
 * GBR - GerberGIF- CompuServe
-* GIF — 图形交换格式(仅限新WorkfrontGIF查看器中的动画)
+* GIF — 图形交换格式(仅限新Workfront校对查看器中出现动画GIF)
 * GIFHDP - Windows HD照片
 * ICO - Windows图标
 * IFF — 交换文件格式
 * IOCA — 图像对象内容架构
 * IMG - GEM图像
-* ITG — 交互图形
+* ITG — 交互图
 * JBG - JBIG
 * JB2 - JBIG2
 * JPG — 联合摄影专家组(JPEG)
-* JPEG-XR - Windows Media照片/高清照片(HDP)
+* JPEG-XR - Windows Media Photo/HD Photo (HDP)
 * JPEG-LS -JPEG无损
 * J2K -JPEG2000
-* JP2 — 压缩的JPEG2000
+* JP2 — 已压缩的JPEG2000
 * JPM —JPEG2000第6部分
 * JPX -JPEG2000第2部分
 * KDC - Kodak数码相机
@@ -124,7 +124,7 @@ Workfront具有以下限制：
 * PCT - Macintosh图片
 * PCX — 画笔
 * PDF-Adobe可移植文档文件
-* PGM — 可移植位图实用程序
+* PGM — 便携式位图实用程序
 * PLT - HPGL绘图仪
 * PNG — 可移植网络图形
 * PNM — 可移植位图实用程序
@@ -135,15 +135,15 @@ Workfront具有以下限制：
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
-* RAF — 富士胶片原始格式
+* RAF - Fujifilm原始格式
 * 原始 — 原始数据
 * RTF — 富文本
-* RW2 - Panasonic原始格式
+* RW2 — 松下原始格式
 * SCT - Scitex连续色调
 * SFF — 结构化传真格式
-* SGI - Silicon Graphics图像
+* SGI - Silicon图形图像
 * SHP - ESRI形状
-* SMP — 先锋科技
+* SMP — 先知
 * SNP - Microsoft访问报表快照
 * SR2 - Sony Raw格式
 * SRF - Sony Raw格式
@@ -151,7 +151,7 @@ Workfront具有以下限制：
 * TDB - Microsoft Windows缩略图缓存
 * TFX - Internet传真
 * TGA - Truevision TARGA
-* TIFF — 标记的图像文件格式
+* TIFF — 标记图像文件格式
 * TIFX - Xerox互联网传真文件
 * VFF - Sun TAAC位图
 * WBMP — 无线位图
@@ -163,8 +163,8 @@ Workfront具有以下限制：
 * XLS - Microsoft Excel电子表格
 * XLSX - Microsoft Excel电子表格2007
 * XPM - XPicMap
-* XPS - XML纸张规格
-* XWD - X WindowDump
+* XPS - XML纸张规范
+* XWD - X窗口转储
 
 ## 静态文件 — 文本工具
 
@@ -241,11 +241,11 @@ Workfront具有以下限制：
 
 ## Zip文件
 
-出于安全原因，我们不支持从ZIP文件中提取文件。 在上传文件之前先解压缩。 如果不这样做，上传将不会不成功。
+出于安全原因，我们不支持或从ZIP文件中提取文件。 在上传文件之前先解压缩。 如果不这样做，上传将不会失败。
 
-只有在压缩文件包含完整的交互式项目并且您的帐户启用了交互式功能（Premium计划）时，才能提交压缩文件。
+只有在压缩文件包含完整的交互式项目并且您的帐户启用了交互式功能（高级计划）时，您才可以提交压缩文件。
 
-有关更多信息，请参阅 [交互式内容验证概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+有关更多信息，请参阅 [交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## InDesign和Quark文件
 
