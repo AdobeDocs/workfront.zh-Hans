@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ drafted for P&P release:
 1. 单击 **更新** 部分。
 1. （视情况而定）如果已启用，请单击 **新建注释** 更新部分右上角的选项，可禁用该选项并启用旧版评论体验。
 1. 单击 **开始新的更新，** 然后键入您的更新。
-1. （可选）使用富文本或在更新中添加表情符号、链接或图像来增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
+1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
 1. （可选）更新有关工作项的以下任何信息：
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ drafted for P&P release:
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此注释中的用户或团队的名称或电子邮件，然后当其显示在列表中时将其选定。
-1. （可选）使用富文本或在更新中添加表情符号、链接或图像来增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
+1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ drafted for P&P release:
 
    >[!IMPORTANT]
    >
-   >提交评论后，您只能在15分钟内对其进行编辑。
+   >您只能在提交评论后15分钟内对其进行编辑。
 
 1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。 “已编辑”指示符将添加到输入评论时显示的日期戳的左侧。
 
@@ -407,11 +407,15 @@ drafted for P&P release:
    1. 下 **要显示的文本**，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
-1. （可选） <span class="preview">要将图像附加到更新，请从计算机复制屏幕快照，然后将其粘贴到注释中 </span>
+1. （可选）要将图像附加到更新，请执行下列操作之一：
 
-   或
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
+   * <span class="preview">从计算机中复制屏幕快照，然后将其粘贴到评论中 </span>
+   * 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
+
 
    >[!NOTE]
    >
