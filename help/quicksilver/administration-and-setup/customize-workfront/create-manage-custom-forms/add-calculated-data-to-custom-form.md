@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
    >
    >在此示例中， `SUB` 是表达式，引用的字段为 `actualRevenue` 和 `actualCost`.
 
-   计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。 有关可用表达式的信息，请参见 [计算的数据表达式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   计算通常以表达式开头，后跟括号，其中包含将自定义表单附加到对象时要引用的字段。 有关可用表达式的信息，请参见 [计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    每个字段都必须用大括号括起来，如一节中所述 [已计算的自定义字段中所需的语法](#syntax-required-in-calculated-custom-fields) 本文章中。 当您开始键入字段名称时，系统会提供建议，您可以选择一个来将其插入到计算中。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >您可以执行以下任一操作以获得有关计算的帮助：
    > 
-   >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章中有关更多信息“了解详情”链接 [计算的数据表达式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章中有关更多信息“了解详情”链接 [计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
    >  ![](assets/colors-fields-expressions.jpg)
@@ -155,7 +155,7 @@ ht-degree: 0%
    >
    >在右侧的显示区域中，将显示字段 *12345。* 这只是个指示器，提醒您在创建或编辑自定义表单时该字段是已计算的自定义字段。 当表单附加到对象并且用户填写时，他们会在字段中看到计算结果，而不是 *12345* 指示器。
 
-1. （可选）使用以下任意选项进一步配置计算的自定义字段：
+1. （可选）使用以下任意选项进一步配置计算出的自定义字段：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >在配置为与Task对象类型一起使用的自定义表单中，您将创建一个名为“负责”的计算自定义字段。 您可以将其配置为引用内置字段，以便在将表单附加到任务时，显示负责的主要被分配人的姓名：
 >

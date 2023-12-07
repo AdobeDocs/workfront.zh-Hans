@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: 前置任务概述
-description: 前置任务是指另一个任务（称为后置任务或从属任务）所依赖的任务。 Adobe Workfront支持五种类型的前置任务依赖项。
+description: 前置任务是另一个任务（称为后置任务或从属任务）所依赖的任务。 Adobe Workfront支持五种类型的前置任务依赖项。
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-前置任务是指另一个任务（称为后置任务或从属任务）所依赖的任务。 Adobe Workfront支持五种类型的前置任务依赖项。 要了解前置任务依赖关系，请参阅 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+前置任务是另一个任务（称为后置任务或从属任务）所依赖的任务。 Adobe Workfront支持五种类型的前置任务依赖项。 要了解前置任务依赖关系，请参阅 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## 前置任务概述
 
 了解前置任务功能对于了解项目中的时间表很重要。
 
-任务之间的前置任务关系存在于单个项目中以及多个项目中。
+任务前置任务关系存在于单个项目中的任务之间以及不同项目中的任务之间。
 
-在多项目依赖关系的情况下，您可以建立跨项目前置任务。
+在多项目依赖关系的情况下，您可以在来自两个不同项目的任务之间建立跨项目前置任务。
 
-无论前置任务和后续任务属于同一项目还是属于两个不同的项目，依赖项和时间线的计算均采用相同方式。
+无论前置任务和后续任务属于同一项目还是属于两个不同的项目，每个项目的依赖项和时间线的计算均采用相同方式。
 
 对于前置任务，项目时间线受以下影响：
 
@@ -38,15 +38,19 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 滞后值和类型\
   有关依赖项和延迟的详细信息，请参见 [任务列表中的前置任务值示例](#examples-of-predecessor-values-in-a-task-list).
 
-例如，如果任务A是结束 — 开始关系中任务B的前置任务，并且任务B的任务限制为“尽快”，则Workfront会将任务B的规划开始日期分配在任务A的规划完成日期之后，而不管是否强制实施该前置任务。
+  例如，如果任务A是结束 — 开始关系中任务B的前置任务，并且任务B的任务限制为“尽快”，则Workfront会将任务B的规划开始日期分配在任务A的规划完成日期之后，而不管是否强制实施该前置任务。
 
 要了解前置任务关系，您必须了解：
 
 * **依赖关系类型：** 前置任务通过各种依赖关系类型进行链接。 有关依赖关系类型的详细信息，请参见 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **实施前置任务：** 实施前置任务时，前置任务完成后才能开始后续任务。 后续任务将在前置任务完成后立即开始执行。
+* **实施前置任务：** 在执行前置任务时，前置任务完成之前不能启动后续任务。 后续任务将在前置任务完成后立即开始执行。
 
-  在前置任务完成之前，Workfront不允许将其标记为进行中或完成。 但是，Workfront允许在该任务中报告小时数。\
+  当前置任务未完成（或已开始）并且未强制执行时，前置任务可以开始，但项目时间线仍受前置任务和后续任务的日期影响。
+
+  对于强制实施的前置任务，在前置任务完成之前，Workfront不允许将后续任务标记为“进行中”或“完成”。
+
+  但是，Workfront允许在该任务中报告小时数。\
   有关强制实施前置任务的更多信息，请参阅 [强制前置任务](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **滞后：** 您可以在依赖项中构建延迟，这会造成在前置任务完成之后和后置任务可以开始之前必须发生的延迟。 滞后会影响项目的时间表。
@@ -104,7 +108,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
   >[!NOTE]
   >
-  >强制值(**e**)必须添加到滞后时间，而不是前置任务。
+  >您必须添加强制值(**e**)，而不是前置任务。
 
 * **4515:2** 前置任务编号为2。  — 这是从完成到开始，与项目中具有参考号的前置任务的非强制依赖关系 **4515**.
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 0%
 
         >[!INFO]
         >
-        >**示例:**
+        >**示例：**
         >
         >在配置为处理项目、任务和问题的自定义表单中，您可以使用以下公式来显示对象类型：
         >
@@ -281,7 +281,7 @@ ht-degree: 0%
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
       > 
-      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章中有关更多信息“了解详情”链接 [计算的数据表达式](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* 将鼠标悬停在计算中的表达式上可查看说明、如何使用该表达式的示例以及文章中有关更多信息“了解详情”链接 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* 使用颜色编码标识已添加的组件。 表达式以蓝色显示，字段以绿色显示。
       >  ![](assets/colors-fields-expressions.jpg)
@@ -295,7 +295,7 @@ ht-degree: 0%
 +++
    1. 单击 **最小化** 在为计算的自定义字段创建计算后。
 
-   1. （可选）使用以下任意选项进一步配置计算的自定义字段：
+   1. （可选）使用以下任意选项进一步配置计算出的自定义字段：
 
       <table style="table-layout:auto">
    <col> 
