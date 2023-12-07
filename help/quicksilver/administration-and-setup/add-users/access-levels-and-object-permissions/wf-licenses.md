@@ -5,25 +5,25 @@ content-type: reference
 product-area: system-administration
 keywords: 许可证，类型
 navigation-topic: access-levels
-description: 您的组织在获得Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供4种类型的付费Workfront许可证之一。
-author: Courtney
+description: 您的组织在获得Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户分配五种类型的Workfront许可证之一。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
 
 # 许可证概述
 
-您的组织在获得Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供5种类型的Workfront许可证之一。
+您的组织在获得Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户分配五种类型的Workfront许可证之一。
 
 ## 许可证和访问级别如何绑定
 
-5种Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
+五种类型的Workfront许可证允许对Workfront进行不同级别的访问。 每个访问级别都附加到其中一个许可证。
 
 作为Workfront管理员，您无需为用户分配许可证，而是为他们分配附加到该许可证的访问级别。
 
