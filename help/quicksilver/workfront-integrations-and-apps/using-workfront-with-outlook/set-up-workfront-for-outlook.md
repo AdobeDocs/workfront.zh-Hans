@@ -2,13 +2,13 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: 设置 [!DNL Adobe Workfront] 对象 [!DNL Outlook]
-description: Adobe Workfront Fusion提供了与Outlook的集成。 本文介绍了如何在自己的工作流中开始使用此集成。
+description: 此 [!DNL Adobe Workfront] [!DNL Outlook] 加载项允许您执行键 [!DNL Workfront] 直接从Outlook中执行任务。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,11 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新计划：标准 </p>
- <p>或</p> 
-<p>当前计划： [！UICONTROL工作]、[！UICONTROL计划] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td> 
+   <p>新计划： [！UICONTROL Standard]</p> 
+   <p>当前计划：[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 ### 客户端要求 {#client-requirements}
 
-我们支持以下版本的 [!DNL Outlook]：
+Workfront支持以下版本 [!DNL Outlook]：
 
 * [!DNL Outlook 2013] 或更高版本 [!DNL Windows]
 *[!DNL  Outlook 2016] 或更高版本 [!DNL Windows]
@@ -91,7 +90,7 @@ ht-degree: 0%
 
 连接到时，默认满足邮件服务器要求 [!DNL Office 365] 或 [!DNL Outlook.com]. 但是，如果您已连接到本地安装的 [!DNL Exchange Server]，则适用以下要求：
 
-* 我们支持所有人 [!DNL Exchange On-Premise] 服务器
+* Workfront支持所有 [!DNL Exchange On-Premise] 服务器
 * [!DNL Exchange Web Services] (EWS)必须启用，并且必须向Internet公开。
 * 服务器必须具有有效的身份验证证书，服务器才能颁发有效的身份令牌。 的新安装 [!DNL Exchange Server] 包括默认身份验证证书。
 
@@ -103,11 +102,7 @@ ht-degree: 0%
 
 ## 安装加载项
 
-有关设置的详细信息 [!DNL Workfront] 的加载项 [!DNL Outlook]，请参见 [[!DNL Workfront]  — 协作工作管理。](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] 对象 [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] 对象 [!DNL Outlook] 在Web上](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] 对象 [!DNL Outlook] 日期 [!DNL Windows] 或 [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+您可以从获取适用于Outlook的Workfront加载项 [Microsoft商店](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] 对象 [!DNL Outlook 365] {#workfront-for-outlook-365}
 

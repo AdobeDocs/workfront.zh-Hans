@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ ht-degree: 2%
 
 ## 任务持续时间概述
 
->[!NOTE]
->
->当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅  [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 如果任务的实际起始日期和实际完成日期不在项目、主要被分配人或默认计划的计划之内，则任务持续时间为零。
 
 **示例：** 如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
 
-以下是计算Adobe Workfront中的持续时间时存在的两种方案。
+以下是计算Adobe Workfront中的持续时间时存在的两种方案：
 
-* 如果将任务分配给用户，Workfront会按此确切顺序使用以下计划之一，以计算“持续时间”：
+* 如果将任务分配给用户Workfront，则会按此确切顺序使用以下计划之一来计算“持续时间”：
 
    1. Workfront会考虑用户的计划。
    1. 如果用户未与计划关联，则Workfront会考虑项目的计划。
@@ -41,11 +37,15 @@ ht-degree: 2%
 
 * 如果任务分配给多个用户：
 
-  Workfront会考虑项目或主要受让人的日程安排。
+   1. Workfront会考虑项目或主要受让人的日程安排。
 
   当任务分配给多个用户时，由Workfront管理员确定Workfront使用的计划。 有关信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   这些步骤类似于了解Workfront使用哪个计划计算持续时间后的第一个方案。
+
+>[!NOTE]
+>
+>当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅  [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## 任务持续时间的时间单位
 
@@ -57,14 +57,14 @@ ht-degree: 2%
 |---|---|
 | 分钟 | 一 |
 | 小时 | H |
-| 天数. 这是默认设置。 | D |
+| 天。 这是默认设置。 | D |
 | 周 | 星期- |
 | 月 | T |
-| 占用分钟数 | EM |
-| 占用小时数 | EH |
-| 占用天数 | ED |
-| 占用周数 | EW |
-| 占用月数 | ET |
+| 经过的分钟数 | EM |
+| 经过的小时数 | EH |
+| 经过的天数 | ED |
+| 经过的周数 | EW |
+| 经过的月数 | ET |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 * 这项工作有多大？
 * 要花多久时间？
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## 定义持续时间类型
 
@@ -104,14 +104,14 @@ ht-degree: 2%
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">持续时间类型 </th> 
-   <th scope="col"> <p><strong>功能</strong> </p> </th> 
+   <th scope="row"><p><strong>持续时间类型</strong></p></th> 
+   <th scope="col"> <p><strong>函数</strong> </p> </th> 
    <th scope="col"> <p><strong>资源如何影响It</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <th scope="col"> <p><strong>计算的分配量</strong> </p> </th> 
+   <th scope="col"> <p><strong>计算的工作分配</strong> </p> </th> 
    <td scope="col"> <p>计算任务中每个被分配人的分配百分比。 </p> <p>选择此持续时间类型时，可以为任务输入单个持续时间和已计划小时数。 Workfront将计划小时数除以任务持续时间内的小时数，再除以分配给任务的资源数，从而计算每个被分配人的分配。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">持续时间类型概览：计算分配</a>.</p> </td> 
    <td scope="col">向任务添加或移除被分配者时，持续时间和已计划小时数未发生变化。 </td> 
   </tr> 
@@ -121,7 +121,7 @@ ht-degree: 2%
    <td scope="col"> <p>将受分配者添加到任务后，计划小时数增加。 </p> <p>从任务中删除被分配者时，计划小时数会减少。</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>投入比导向</p> </th> 
+   <th scope="col"> <p><strong>投入比导向</strong></p> </th> 
    <td scope="col"> <p>基于资源数确定计划小时数。</p> <p>选择此持续时间类型后，您能够为任务输入单个持续时间。 Workfront计算该任务的已计划小时数，方法是用工期中的天数乘以计划中的工作小时数，然后除以该任务的被分配人数。 </p> <p>您可以手动将每个被分配人的分配百分比更改为任务，但计划小时数保持不变。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">持续时间类型概述：投入比导向</a>.</p> </td> 
    <td scope="col"> <p>从任务中删除被分配者时，计划的小时数增加。</p> <p>将受分配者添加到任务后，计划小时数会减少。 </p> <p>无论被分配人数量或其时间表如何变化，持续时间都不会改变。 </p> <p>持续时间等于计划小时数。 计划持续时间等于计划小时数除以被分配人数量。</p> </td> 
   </tr> 
