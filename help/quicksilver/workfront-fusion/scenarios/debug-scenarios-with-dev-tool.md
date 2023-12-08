@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool允许您了解场景并排除其故�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 使用调试方案 [!DNL Adobe Workfront Fusion] Devtool
 
 此 [!DNL Adobe Workfront Fusion] 通过Devtool，您可以了解各种方案并排除其故障。 Devtool会添加一个额外的面板到 [!DNL Chrome Developer Tools]. 使用此调试器面板，您可以检查场景的所有手动运行，查看所有执行的操作，并查看每个执行的API调用的详细信息。 您可以查看导致错误的模块、操作或单个响应，并使用该知识来优化场景。
+
+有关Fusion Devtool的深入视频演练，请参阅 [Devtool演练](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## 访问要求
 
@@ -98,7 +100,7 @@ ht-degree: 0%
 要使用 [!DNL Workfront Fusion] Devtool，您必须添加 [!DNL Workfront Fusion] Devtool扩展到 [!DNL Chrome] 浏览器，如中所述 [安装Chrome Devtool扩展](#install-the-chrome-Devtool-extension).
 
 1. 打开您的 [!DNL Workfront Fusion] 方案。
-1. 打开 [!DNL Chrome Developer Tools]:
+1. 打开 [!DNL Chrome Developer Tools]：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -325,11 +327,11 @@ Workfront Fusion Devtool分为3个主要部分。 您可以在Devtool窗口的�
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL变量查找]</td> 
-   <td> <p> 在场景中从模块找到要替换的可变丸子，并将其复制到此（[！UICONTROL变量到查找]）字段中。 在字段中，它带有双大括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> 在场景中从模块找到要替换的可变丸子，并将其复制到此（[！UICONTROL变量到查找]）字段中。 在字段中，它带有双大括号。 示例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL替换为]</p> </td> 
-   <td> <p>在场景的模块中，找到要用来替换变量的变量，并将其复制到此（[！UICONTROL要查找的变量]）字段中。 在字段中，它带有双大括号。 示例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>在场景的模块中，找到要用来替换变量的变量，并将其复制到此（[！UICONTROL要查找的变量]）字段中。 在字段中，它带有双大括号。 示例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL模块]</p> </td> 
