@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion Devtool允许您了解场景并排除其故�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 您可以添加 [!DNL Workfront Fusion] 开发工具到 [!DNL Chrome] 通过 [!UICONTROL [!DNL Chrome] 网络商店].
 
-1. 单击 [此链接](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 以转到 [!DNL Workfront Fusion] 开发工具 [!UICONTROL [!DNL Chrome] 网络商店].
+1. 单击 [此链接](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) 以转到 [!DNL Workfront Fusion] 开发工具 [!UICONTROL [!DNL Chrome] 网络商店].
 1. 单击 **[!UICONTROL 添加至[!DNL Chrome]]**.
 1. 在打开的窗口中，检查权限。 如果您同意这些权限，请单击 **[!UICONTROL 添加扩展]**.
 
