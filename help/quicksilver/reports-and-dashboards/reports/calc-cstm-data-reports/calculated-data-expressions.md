@@ -7,7 +7,7 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ ht-degree: 0%
 
 * 在自定义字段中，在任务的自定义表单上，使用以下内容生成附加自定义表单的任务的父级项目的名称：
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * 在报表的自定义列中，您将使用以下内容在任务报表中添加“项目名称”自定义列：
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   或
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >

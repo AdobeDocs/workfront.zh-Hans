@@ -7,9 +7,9 @@ description: 在使用文本模式时，在Adobe Workfront中构建计算的自�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -55,27 +55,27 @@ ht-degree: 1%
   <tr> 
    <td>等于 (区分大小写)</td> 
    <td>= </td> 
-   <td> <p>使用此运算符指示当对帐单的第一个字段等于第二个字段时，满足条件。</p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><pre>if({projectedCompletionDate}={plannedCompletionDate}，“顺利进行”，“偏离轨道”)</pre> </td> 
+   <td> <p>使用此运算符指示当对帐单的第一个字段等于第二个字段时，满足条件。</p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>大于 </td> 
    <td>&gt; </td> 
-   <td>使用此运算符指示当对帐单的第一个字段大于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><pre>if({projectedCompletionDate}&gt;{plannedCompletionDate}，“延迟”，“)</pre></td> 
+   <td>使用此运算符指示当对帐单的第一个字段大于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>大于或等于 </td> 
    <td>&gt;= </td> 
-   <td>使用此运算符指示当对帐单的第一个字段大于或等于第二个字段时满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><pre>if({projectedCompletionDate}&gt;={plannedCompletionDate}，“延迟”，“早期”)</pre></td> 
+   <td>使用此运算符指示当对帐单的第一个字段大于或等于第二个字段时满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>小于 </td> 
    <td>&lt; </td> 
-   <td>使用此运算符指示当对帐单的第一个字段小于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><pre>if({projectedCompletionDate}&lt;{plannedCompletionDate}，“早期”，“)</pre></td> 
+   <td>使用此运算符指示当对帐单的第一个字段小于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>小于或等于 </td> 
    <td>&lt;= </td> 
-   <td>使用此运算符指示当对帐单的第一个字段小于或等于第二个字段时满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><pre>if({projectedCompletionDate}&lt;={plannedCompletionDate}，“早期”，“晚期”)</pre></td> 
+   <td>使用此运算符指示当对帐单的第一个字段小于或等于第二个字段时满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>不会 </td> 
@@ -95,12 +95,12 @@ ht-degree: 1%
   <tr> 
    <td>或 </td> 
    <td>|| </td> 
-   <td> <p>使用此运算符指示当表达式找到语句的第一个值或第二个值时满足条件。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将处于“当前”或“计划”状态的项目标记为“活动”： </p><pre>if({status}="PLN"||{status}="CUR"，"Active"，"Not Active")</pre> </td> 
+   <td> <p>使用此运算符指示当表达式找到语句的第一个值或第二个值时满足条件。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将处于“当前”或“计划”状态的项目标记为“活动”： </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> 和 </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>使用此运算符可指示当表达式找到同时满足两个条件的项时，该条件是否满足。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，以查找处于当前状态且条件为“存在风险”的项目并将它们标记为“需要调解”。 </p><pre>if({status}=“当前”和&amp;{condition}=“AR”，“需要调解”，”))</pre> </td> 
+   <td> <p>使用此运算符可指示当表达式找到同时满足两个条件的项时，该条件是否满足。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，以查找处于当前状态且条件为“存在风险”的项目并将它们标记为“需要调解”。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

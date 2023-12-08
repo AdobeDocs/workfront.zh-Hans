@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ After permssions - replace the table with:
 
 1. 单击 **保存更改**. <!--logged a bug for this - this needs to be "Save"-->
 
-### 从记录类型表格视图中编辑记录
+### 从记录类型的表视图中编辑记录
 
 1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
    >  
-   >  * 通过链接记录类型创建的链接字段
+   >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
    >
-   >* 您无法复制和粘贴在记录的“详细信息”区域中显示的字段的字段值。
+   >* 您不能在记录的详细信息区域中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
-   ><ul>
    >
-   > * 系统字段
+   >
+   >    * 通过连接记录类型创建的链接字段。 您可以复制和粘贴链接的记录字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+   >    * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

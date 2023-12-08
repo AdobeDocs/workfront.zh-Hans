@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -152,9 +152,9 @@ After permssions - replace the table with:
 
 ## 编辑记录类型
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
 1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **更新外观**.
@@ -181,3 +181,4 @@ After permssions - replace the table with:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    您还可以在记录类型页面的标题中重命名记录类型。
+1. （可选）展开记录类型名称右侧的向下箭头，然后选择要编辑的其他记录类型。

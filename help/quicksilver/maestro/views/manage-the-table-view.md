@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2085'
 ht-degree: 3%
 
 ---
@@ -128,6 +128,21 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 1. 开始添加字段（或列），如文章中所述 [创建字段](../fields/create-fields.md).
 
    您添加的列对访问记录类型的所有用户均可见，并且作为新字段添加到所选记录类型的记录的“详细信息”页面上。
+
+<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
+
+    (******add screen shot*****)
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
+
+    >[!NOTE]
+    >
+    >    Only fields of the following types can be primary fields: 
+
+        * Single-line text
+        * Number
+        * Formula -->
+
 
 1. 执行以下操作之一以重新排序表中的列：
 
