@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront通知
+title: 通知概述
 description: Adobe Workfront会在您的移动设备上发送电子邮件通知、应用程序内通知和通知。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 通知
+# 通知概述
 
 [!DNL Adobe Workfront] 会在您的移动设备上发送电子邮件通知、应用程序内通知和通知。
 
 ## 电子邮件通知
 
-[!DNL Workfront] 会发送大量电子邮件通知，以提醒用户有关Workfront中的活动并提供有用信息和链接。
+[!DNL Workfront] 会发送电子邮件通知，以提醒用户有关Workfront中的活动，并提供有用的信息和链接。
 
 要更改电子邮件通知的偏好设置，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ ht-degree: 1%
 
 ### 事件通知
 
-事件通知在中预定义 [!DNL Workfront]. 它们通常由特定事件触发。
+事件通知通常由某些预定义事件触发，例如向您分配任务或获得您所做评论的回复。
 
-在事件通知由激活后 [!DNL Workfront] 管理员或组管理员，您可以通过编辑 [!UICONTROL 通知] 用户配置文件中的首选项。 您还可以选择是在事件发生时接收通知，还是接收在一封每日摘要电子邮件中摘要的事件。
+在中激活事件通知后 [!DNL Workfront] 系统(按您的 [!DNL Workfront] 管理员或组管理员，您可以通过编辑 [!UICONTROL 通知] 用户配置文件中的首选项。 您还可以选择是在事件发生时接收通知，还是接收在一封每日摘要电子邮件中摘要的事件。
 
-取决于 [!DNL Workfront] 管理员已为配置事件通知 [!DNL Workfront] 系统（如中所述） [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))，则您只能在设置中看到这些通知的子集。
+您可能会在设置中只看到这些通知的子集，具体取决于 [!DNL Workfront] 管理员已为配置事件通知 [!DNL Workfront] 系统。 有关更多信息，请参阅 [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 默认状态显示创建新用户时默认为新用户启用哪些通知（每天、即时或同时启用两者）。
 
@@ -56,6 +56,8 @@ ht-degree: 1%
 >只有事件通知可以配置为在每日摘要更新中发送。
 
 ### 每日摘要通知
+
+每日摘要通知是一封电子邮件，其中包含您在发送电子邮件前24小时内收到的特定类型的所有通知。
 
 有关为每日摘要电子邮件投放启用的电子邮件通知的完整列表以及有关电子邮件通知所有类别的信息，请参阅 [事件通知](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ ht-degree: 1%
 
   对于 **[!UICONTROL 通信]** 类别，则通知按通信发生的对象分组。
 
+  >[!NOTE]
+  >
+  >对于“通信”类别，您可以选择仅用于即时发送的单个通知。 要在每日摘要中发送通知，您必须选择所有通知。
+
 * 每日摘要电子邮件列出针对某个特定区域(例如 **有关我拥有的项目的信息**)，并且是在选择交付时间之前的24小时内。
 * 为每日摘要投放选择的时区与您的时区匹配，因为它是在您的浏览器上配置的。
 * 每日摘要电子邮件在主题行中包含分区的名称以及投放日期。
@@ -85,13 +91,15 @@ ht-degree: 1%
 
 为发生通信的对象总结该信息，并且为每个对象显示通信消息的总数。
 
-有关配置电子邮件通知的更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+要回复评论或在Workfront中查看评论，请执行以下操作：
 
-有关评论 [!UICONTROL 通信] 电子邮件，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 单击 **[!UICONTROL 注释]** 按钮。
 
-要了解有关 [!UICONTROL 通信] 电子邮件，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   此 [!UICONTROL 更新] 此时将打开对象区域，并以蓝色列出特定注释。
 
-有关启用每日摘要通知的更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   打开一个回复框，您可以使用它来回复注释。
+
+有关配置电子邮件通知（包括启用每日摘要通知）的更多信息，请参阅 [查看和修改电子邮件通知设置](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) 在 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### 自动提醒
 
@@ -120,7 +128,7 @@ ht-degree: 1%
 
 ### 提醒通知
 
-A [!DNL Workfront] 管理员(或具有 [!UICONTROL 规划者] 访问级别和对提醒通知的管理访问权限)可以设计有关临近截止日期的提醒通知，并将它们附加到项目、任务、问题和时间表。 有关如何获得所需管理访问权限的详细信息，请参阅 [授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] 管理员(或具有 [!UICONTROL 规划者] 访问级别和对提醒通知的管理访问权限)可以设计有关临近截止时间的提醒通知，并手动将其与项目、任务、问题和时间表关联。
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ A [!DNL Workfront] 管理员(或具有 [!UICONTROL 规划者] 访问级别和对
 
 有关设置和启用提醒通知的信息，请参阅 [设置提醒通知](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+有关如何获得所需管理访问权限的信息，请参见 [授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### 讨论区通知
 
-[!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。
+[!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 您可以在讨论区首选项中选择要接收的电子邮件。
 
-您可以在讨论区首选项中选择要接收的电子邮件。 有关更多信息，请参阅 [讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+有关更多信息，请参阅 [讨论区电子邮件通知和首选项](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### 其他 [!DNL Workfront] 电子邮件
 
-您可能会收到其他电子邮件 [!DNL Workfront] 无法配置的属性。 以下电子邮件由自动发送 [!DNL Workfront] 当满足以下条件时：
+您可能会收到其他电子邮件 [!DNL Workfront] 无法配置的属性。
+
+以下电子邮件由自动发送 [!DNL Workfront] 当满足以下条件时：
 
 * 恢复项目：当 [!DNL Workfront] 管理员从恢复对象 [!UICONTROL 回收] 在收件箱中，电子邮件会发送至 [!DNL Workfront] 管理员。
 * 无法恢复：当 [!DNL Workfront] 管理员尝试从回收站恢复对象，恢复失败时，会向发送一封电子邮件 [!DNL Workfront] 管理员。
@@ -161,11 +173,11 @@ A [!DNL Workfront] 管理员(或具有 [!UICONTROL 规划者] 访问级别和对
 如果您拥有 [!DNL Workfront] 安装在您手机上的移动设备应用程序，点击电子邮件中的链接即可在以下位置打开它们： [!DNL Workfront] 移动应用程序。 这包括点按以下任一操作按钮：
 
 * [!UICONTROL 处理此项工作]
-* [!UICONTROL 评论]
-* [!UICONTROL 做审批决策]
+* [!UICONTROL 注释]
+* [!UICONTROL 作出批准决定]
 * [!UICONTROL 查看所有通知]
 * [!UICONTROL 添加]
-* [!UICONTROL 开始]
+* [!UICONTROL 开始使用]
 * [!UICONTROL 查看更多详细信息]
 
 欲知关于 [!DNL Workfront] 移动设备应用程序，请参阅 [使用 [!DNL Adobe Workfront] 移动应用程序](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

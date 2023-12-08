@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 有关所有可报告字段及其属性的完整列表，请参阅 [API资源管理器](../../../wf-api/general/api-explorer.md).
 
-有关使用文本模式创建报告（包括类、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
+有关使用文本模式创建报告（包括课程、视频和教程）的更多信息，请访问Adobe Experience League网站上的“了解”部分。
 
 ## 有关文本模式语法的注意事项
 
@@ -99,14 +99,14 @@ ht-degree: 0%
 
 ### 视图和分组的语法
 
-您可能会注意到构建视图和分组时的代码行类似。
+构建视图和分组时的代码行类似。
 
 有关创建视图和分组的信息，请参阅以下文章：
 
 * [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-视图或分组最重要的代码行是标识视图列或分组中引用的对象的代码行。 根据此字段是直接引用Workfront数据库字段还是多个字段之间的计算，代码行可能以 `valuefield` 或 `valueexpression`
+视图或分组最重要的代码行是标识视图列或分组中引用的对象的代码行。 这一行代码可能以 `valuefield` 或 `valueexpression` 基于此字段是直接引用Workfront数据库字段还是多个字段之间的计算。
 
 下表列出了视图或分组中最常见的代码行：
 
@@ -216,13 +216,11 @@ ht-degree: 0%
 
 #### `Valueformat` 视图和分组概述
 
-视图或分组中第二最重要的代码行是 `valueformat=` 行。 这会告知Workfront采用哪种格式返回您在
-`valuefield` 或valueexpression行。 尽管您可以对使用多种格式 `valueformat` 行中，我们建议您在使用时
-`valueexpression`：
+视图或分组中第二最重要的代码行是 `valueformat=` 行。 这会告知Workfront采用哪种格式返回您在 `valuefield` 或 `valueexpression` 行。 尽管您可以对使用多种格式 `valueformat` 行中，我们建议您在使用时 `valueexpression`：
 
 `valueformat=HTML`
 
-其他 `valueformats` 值，另请参阅以下文章：
+其他 `valueformat` 值，另请参阅以下文章：
 
 * [设置文本模式报表中的日期格式](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [设置文本模式报表中的数字、货币和百分比值的格式](../../reports/text-mode/format-numbers-in-text-mode-reports.md)

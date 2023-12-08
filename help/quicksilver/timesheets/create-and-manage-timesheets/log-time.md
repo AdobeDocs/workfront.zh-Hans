@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <ul><li>查看或更高版本以在时间表中记录常规小时数</li>
-   <li> 用于记录项目、任务或问题的小时数的工作或更高</li></ul>
+   <td> <p>新计划：<ul><li>在时间表中记录常规小时数的较轻或更高</li></p>
+   <li> 在项目、任务或问题上记录小时数的标准或更高版本</li></ul></p>
+   <p>或</p>
+   <p>当前计划：<ul><li>查看或更高版本以在时间表中记录常规小时数</li></p>
+   <li> 用于记录项目、任务或问题的小时数的工作或更高</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ ht-degree: 0%
 * 已记帐记帐记录中包含的小时条目将灰显，无法在时间表中编辑。 有关更多信息，请参阅 [创建开票记录](../../manage-work/projects/project-finances/create-billing-records.md).
 * 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关更多信息，请参阅 [从主页区域创建工作项](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## 记录时间
+## 记录时间 {#log-time-section}
 
 您可以在Workfront的以下区域记录时间：
 
@@ -136,7 +139,7 @@ ht-degree: 0%
 
 要在时间表上记录时间，请执行以下操作：
 
-1. 单击 [!UICONTROL **主菜单**] 图标 ![](assets/main-menu-icon.png) 位于右上角，或 **主菜单** 图标 ![](assets/lines-main-menu.png) （如果可用）的Workfront左上角。
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
 
 1. 单击 [!UICONTROL **时间表**]. 默认情况下显示您当前的工时表。
    ![工时表](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ ht-degree: 0%
 1. （可选）展开过滤器、视图或分组下拉菜单以应用或自定义一个下拉菜单，并查看所需的项目信息。
 
 1. 在列表中选择一个或多个项目，然后单击 **添加**.
+
+   如果一次添加的项目少于50个，则这些项目会添加到时间表中。 任务和问题列在项目的名称下。
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ ht-degree: 0%
 
    ![小时类型下拉菜单](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   根据您的操作系统或浏览器，在使用标准QWERTY键盘时，请按以下按键组合以添加另一行：
@@ -231,7 +237,6 @@ ht-degree: 0%
    >   根据您的操作系统或浏览器，在使用标准QWERTY键盘时，请按以下一组键来删除行：
    >   * Ctrl + Option + — 用于Windows计算机
    >   * Cmd + Option + — 用于Mac计算机
-
 
 1. 在时间表的时间线部分中指定要在任何给定日期上登录的时间量，然后单击小时框外部以保存小时条目。 小时数会自动保存。 您记录时间的行以浅蓝色突出显示，小时条目框以深蓝色列出。
 
@@ -300,6 +305,8 @@ ht-degree: 0%
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
+1. （可选）返回到 **工时表** 区域以关闭或提交您的工时表。
+
    * **关闭**：完成更新后关闭时间表。 仅当您的时间表与批准者无关联时，此选项才可用。
 
    * **提交以供审批：** 仅当时间表上有审批者时，此选项才可用。 保存更改并提交以供审批。 在关闭工时表后，您可以通过单击 **撤消**，如果尚未获得批准。 有关更多信息，请参阅 [提交工时表以供审批](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
@@ -323,7 +330,7 @@ ht-degree: 0%
 
 要从时间表删除小时条目，请执行以下操作：
 
-1. 转到时间表，并查找要移除的小时条目。
+1. 转到时间表，并查找要删除的小时条目。
 1. 将输入的小时数替换为0或移除小时数并将其替换为0，然后按Enter。
 
    删除小时，并自动保存时间表。

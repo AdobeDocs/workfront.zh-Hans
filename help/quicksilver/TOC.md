@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
 workflow-type: tm+mt
-source-wordcount: '13778'
+source-wordcount: '13777'
 ht-degree: 0%
 
 ---
@@ -877,7 +877,7 @@ ht-degree: 0%
       * [管理附加到对象的自定义表单](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 使用通知 {#use-notifications}
       * [使用通知](workfront-basics/using-notifications/use-notifications.md)
-      * [Adobe Workfront通知](workfront-basics/using-notifications/wf-notifications.md)
+      * [通知概述](workfront-basics/using-notifications/wf-notifications.md)
       * [修改您自己的电子邮件通知](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [订阅Adobe Workfront中的项目](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [应用程序内通知概述](workfront-basics/using-notifications/in-app-notifications-overview.md)

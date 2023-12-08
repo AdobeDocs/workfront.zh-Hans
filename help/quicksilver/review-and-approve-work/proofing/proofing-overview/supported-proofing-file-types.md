@@ -7,9 +7,9 @@ description: 您可以与审阅人共享和审阅各种类型的文件，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
+source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront具有以下限制：
 
 >[!NOTE]
 >
->上载较大的文件需要较长时间，如果连接不稳定，操作可能会终止/中断。
+>上载较大的文件需要较长时间，如果连接不稳定，操作可能会终止或中断。
 
 ## 静态文件
 

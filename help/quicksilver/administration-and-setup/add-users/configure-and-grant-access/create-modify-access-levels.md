@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: 作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。 当您使用访问级别时，了解它们如何与用户在彼此共享对象时授予的对象权限一起工作很重要。 有关访问级别的详细信息，请参阅
+作为Adobe Workfront管理员，您可以创建自定义访问级别并将其应用于用户。 当您使用访问级别时，了解它们如何与用户在彼此共享对象时授予的对象权限一起工作很重要。 有关访问级别的详细信息，请参阅：
 
 * [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">汇率</td> 
-      <td> <p>在Workfront中添加新货币。</p> <p>如果没有此访问权限，用户只能将现有货币添加到他们创建的项目。</p> </td> 
+      <td> 在Workfront中添加新货币。 <p>如果没有此访问权限，用户只能将现有货币添加到他们创建的项目。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">费用</td> 
@@ -118,13 +118,13 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">职位角色</td> 
-      <td> <p>凭借此访问权限，用户可以执行以下操作：</p> 
+      <td> 凭借此访问权限，用户可以执行以下操作： 
        <ul> 
         <li>查看和编辑现有工作角色</li> 
         <li>添加新工作角色</li> 
         <li>编辑角色计费和成本率</li> 
        </ul> 
-       <p>有关对工作角色具有管理访问权限的Standard或Planner用户可用的财务数据访问权限的重要信息，请参阅 <a href="#planner-users-with-administrative-access-to-job-roles">对工作角色具有管理访问权限的标准或Planner用户</a>.</p>
+       <p>有关对工作角色具有管理访问权限的Standard或Planner用户可用的财务数据访问权限的重要信息，请参阅 <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">对工作角色具有管理访问权限的标准或Planner用户</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">时间表和小时数</td> 
-      <td> <p>组管理员可以将时间表配置文件分配给其管理的组和子组中的用户。</p> <p>如果未启用此选项，组管理员无法将时间表配置文件分配给他们管理的组和子组中的其他用户，尽管他们可以创建这些用户档案。</p> <p>所有其他拥有Standard或Plan许可证的用户都可以在Workfront中查看所有小时和工时表。</p> <p>如果未启用此选项，用户只能在以下日期查看小时数：</p> 
+      <td> 组管理员可以将时间表配置文件分配给其管理的组和子组中的用户。 <p>如果未启用此选项，组管理员无法将时间表配置文件分配给他们管理的组和子组中的其他用户，尽管他们可以创建这些用户档案。</p> <p>所有其他拥有Standard或Plan许可证的用户都可以在Workfront中查看所有小时和工时表。</p> <p>如果未启用此选项，用户只能在以下日期查看小时数：</p> 
        <ul> 
         <li>他们管理的项目、任务或问题</li> 
         <li>他们自己的时间表</li> 
@@ -168,11 +168,11 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">视图仅在已将他们包含在会话中的位置上更新</td> 
-      <td> <p>允许用户仅查看包含其名称或团队名称的注释。</p> <p> <p><b>注意</b>：这可防止用户订阅Workfront中的项目。 有关订阅项目的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">添加用户</a>.</p> </p> </td> 
+      <td> 允许用户仅查看包含其名称或团队名称的注释。 <p> <p><b>注意</b>：这可防止用户订阅Workfront中的项目。 有关订阅项目的详细信息，请参阅 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">订阅Adobe Workfront中的项目</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">切勿允许用户删除评论 </td> 
-      <td> <p>阻止用户删除他们对项目所做的评论。 </p> <p><b>注意</b>：没有人可以删除其他用户的评论。</p> </td> 
+      <td> 阻止用户删除他们对项目所做的评论。  <p><b>注意</b>：没有人可以删除其他用户的评论。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">仅查看他们属于的公司、组和团队</td> 
@@ -191,7 +191,7 @@ ht-degree: 6%
 
 1. （有条件，可选）如果为属于多个公司的用户设置了Workfront系统，则根据其他用户在部分中所属的公司来限制其他用户的可见性 **其他公司的人员应只能查看以下项的用户：**.
 
-   您可以限制用户仅查看其公司或您指定为主要公司的公司的用户。 有关主要公司的详细信息，请参阅 [创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   您可以限制用户仅查看其公司或您指定为主要公司的公司的用户。 主要公司通常表示您的大多数用户工作的Workfront帐户。 有关主要公司的详细信息，请参阅 [创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
