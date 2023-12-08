@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2202'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td> <p>新计划：标准 </p>
+ <p>或</p> 
+<p>当前计划：计划 </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -66,7 +69,7 @@ ht-degree: 1%
 
 ## 为工作项创建系统级或组级全局审批流程
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. （视情况而定）如果要创建系统级批准流程，请单击 **进程** > **审批** 在左侧面板中。
 
@@ -78,7 +81,7 @@ ht-degree: 1%
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. 单击 **项目审批**， **任务审批**，或 **问题审批** 选项卡，具体取决于要创建的审批流程类型。
+1. 选择 **项目审批**， **任务审批**，或 **问题审批** 选项卡。
 
 1. 单击 **新建批准流程**.
 1. 在显示的框中指定以下信息：
@@ -89,15 +92,15 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">批准流程名称</td> 
-      <td>键入审批流程的描述性名称。 在将审批流程应用于对象时，用户会看到此名称，如中所述 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>.</td> 
+      <td><p>键入审批流程的描述性名称。 在将审批流程应用于对象时，用户会看到此名称，如中所述 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">描述</td> 
-      <td>键入审批流程的描述。 这显示在 <b>审批</b> 中的部分 <b>设置</b> 批准流程名称旁边的区域。</td> 
+      <td><p>键入审批流程的描述。 这显示在 <b>审批</b> 中的部分 <b>设置</b> 批准流程名称旁边的区域。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">活动</td> 
-      <td> <p>如果您希望其他用户能够将审批流程附加到他们创建的项目、任务和问题，请保持启用此选项。 </p> <p>此选项默认处于启用状态。</p> <p> 当您的组织不再需要使用审批流程，但希望保留有关其使用的历史信息时，将审批流程标记为不活动会很有用。</p> </td> 
+      <td> <p>如果您希望其他用户能够将审批流程附加到他们创建的项目、任务和问题，请保持启用此选项。 </p> <p>此选项默认处于启用状态。</p> <p> 提示：当您的组织不再需要使用审批流程，但希望保留有关其使用的历史信息时，将审批流程标记为不活动会很有用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">此批准流程的使用者可以为 </td> 
@@ -143,7 +146,7 @@ ht-degree: 1%
    <p>将用户添加为审批者时，请注意头像、用户的主要角色或其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。</p>
       <p>您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>. </p>
 
-   <p><b>注释</b>:
+   <p><b>注意</b>：
 
    将用户、团队或角色添加为批准者，不会自动授予他们与该批准相关联的对象的权限。 在触发审批步骤时，用户会获得对对象的权限。 否则，必须先与他们共享对象，然后才能作出批准决定。 </p> <p>也可以通过指定个人的角色将个人指定为批准者。 例如，您可以将项目所有者、项目发起人、Portfolio所有者、项目群所有者或经理分配为批准者。 当您开始键入时，这些选项会自动显示。</p>
 
@@ -156,15 +159,15 @@ ht-degree: 1%
        </ul> 
        <ul> 
        <li> <p>当您将审批分配给项目责任人，并且没有指定任何人为项目责任人时，审批将重新分配给主要Workfront管理员，如设置区域的客户信息部分所述。 有关信息，请参阅 <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">配置系统的基本信息</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>您可以重复此过程以将多个批准者添加到阶段。 单个阶段可以包括用户、团队和工作角色作为批准者的组合。 您可以添加到阶段的批准者数量没有限制。</p> <p><b>重要</b>：  <p>将工作角色指定为批准者时，与该工作角色关联、也位于项目团队中的所有用户都可以做出批准决定。 </p> <p>将团队分配为批准者时，该团队中的任何用户都可以就批准做出决定。 </p> <p>有关项目团队的详细信息，请参阅 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">项目团队概述</a>. 有关批准工作的更多信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">审批工作 </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>您可以重复此过程以将多个批准者添加到阶段。 单个阶段可以包括用户、团队和工作角色作为批准者的组合。 您可以添加到阶段的批准者数量没有限制。</p> <p><b>重要</b>：  <p>将工作角色指定为批准者时，与该工作角色关联、也位于项目团队中的所有用户都可以作出批准决定。 </p> <p>将团队分配为批准者时，该团队中的任何用户都可以就批准做出决定。 </p> <p>有关项目团队的详细信息，请参阅 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">项目团队概述</a>. 有关批准工作的更多信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">审批工作 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">只需一个决策</td> 
-      <td> <p>（仅当将多个审批者添加到阶段时才显示）如果阶段上的任何审批者可以在此阶段批准或拒绝工作项，请选择此选项。 此操作允许工作项离开阶段。 </p> <p>如果未选择此选项，则在项目离开阶段之前，所有已标识的批准者必须批准或拒绝阶段（按任何顺序）。 如果任何一位批准者拒绝该阶段，该进程将中断并重新开始，以便进行所需的更改。 然后，审批者可以再次批准或拒绝该阶段。</p> <p>当团队被指定为批准者时，团队的任何成员都可以授予或拒绝阶段。</p> </td> 
+      <td role="rowheader">只需一个决策 <br> <br>（仅当将多个批准者添加到阶段时才显示） </td> 
+      <td> <p>如果阶段中的任何一位审批者可以在此阶段批准或拒绝工作项，请选择此选项。 此操作允许工作项离开阶段。 </p> <p>如果未选择此选项，则在项目离开阶段之前，所有已标识的批准者必须批准或拒绝阶段（按任何顺序）。 如果任何一位批准者拒绝该阶段，该进程将中断并重新开始，以便进行所需的更改。 然后，审批者可以再次批准或拒绝该阶段。</p> <p>当团队被指定为批准者时，团队的任何成员都可以授予或拒绝阶段。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">添加阶段</p> </td> 
-      <td>（可选）使用上面三行中说明的选项，向路径中添加另一个阶段。 您可以根据需要向路径添加任意数量的阶段。</td> 
+      <td><p>（可选）使用上面三行中说明的选项，向路径中添加另一个阶段。 您可以根据需要向路径添加任意数量的阶段。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">选择批准被拒绝时发生的情况</p> </td> 
@@ -197,7 +200,11 @@ ht-degree: 1%
 
 ## 将审批流程与工作项关联
 
-如果要为工作项（项目、任务或问题）创建审批流程，请先创建审批流程，然后创建工作项，然后您和您的用户可以将审批流程与工作项关联。
+当您要为工作项（项目、任务或问题）创建审批流程时，
+
+1. 首先创建批准流程
+1. 创建工作项
+1. 将审批流程与工作项关联
 
 有关将审批流程与工作项关联的说明，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

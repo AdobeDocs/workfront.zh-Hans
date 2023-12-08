@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 验证
-description: 了解校对。
+title: “验证：文章索引”
+description: 在创意团队工作的同一文档中审阅和评论。 借助Workfront Proofing，您可以请求反馈、查看注释并获取有关待批准和已完成批准的通知 — 所有这些操作都同时维护注释和版本的审核跟踪。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
-# 验证
+# 验证：文章索引
+
+在创意团队工作的同一文档中审阅和评论。 借助Workfront Proofing，您可以请求反馈、查看注释并获取有关待批准和已完成批准的通知 — 所有这些操作都同时维护注释和版本的审核跟踪。
 
 本节包含以下子部分：
 

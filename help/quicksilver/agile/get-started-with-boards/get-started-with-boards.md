@@ -1,20 +1,20 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 在中开始使用讨论区 [!DNL Adobe Workfront]
+title: “展示板入门：文章索引”
 description: 阅读这些文章，了解如何在Workfront中使用展示板。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# 在中开始使用讨论区 [!DNL Adobe Workfront]
+# 讨论区入门：文章索引
 
 本节包含以下文章：
 

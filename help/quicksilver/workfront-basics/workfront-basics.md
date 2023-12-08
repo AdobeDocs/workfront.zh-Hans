@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 * [Adobe Workfront术语表](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront浏览器要求](../workfront-basics/workfront-browser-requirements.md)
 * [Adobe Workfront支持的语言](../workfront-basics/supported-languages-in-workfront.md)
-* [导航Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [导航Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [主页](../workfront-basics/using-home/home.md)
 * [更新工作项并查看更新](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [使用自定义表单](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)

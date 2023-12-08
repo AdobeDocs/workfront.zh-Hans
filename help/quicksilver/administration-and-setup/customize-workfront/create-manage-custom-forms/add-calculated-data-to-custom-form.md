@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -282,7 +282,7 @@ ht-degree: 0%
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-有关变量的更多信息，例如 `$$OBJCODE,` 请参阅 [通配符筛选器变量](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+有关变量的更多信息，例如 `$$OBJCODE,` 请参阅 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 已计算自定义字段的自动更新
 

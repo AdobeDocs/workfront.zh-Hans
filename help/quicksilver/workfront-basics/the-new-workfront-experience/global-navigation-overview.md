@@ -5,9 +5,9 @@ description: 顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p class="bold">[！UICONTROL设置]</p> </td> 
-   <td> <p>点击 <b>[！UICONTROL设置]</b> 将您转到[！UICONTROL设置]区域，您可以在其中配置 [!DNL Workfront] 帐户。 根据您的访问设置，您可以配置的内容可能会受到限制。</p> <p>有关[！UICONTROL Setup]区域的详细信息，请参阅 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和设置</a>.</p> </td> 
+   <td> <p>点击 <b>[！UICONTROL设置]</b> 将您转到[！UICONTROL设置]区域，您可以在其中配置 [!DNL Workfront] 帐户。 根据您的访问设置，您可以配置的内容可能会受到限制。</p> <p>有关[！UICONTROL Setup]区域的详细信息，请参阅 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和设置：文章索引</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[！UICONTROL帮助]</p> </td> 

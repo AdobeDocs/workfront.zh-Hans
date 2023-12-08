@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: 管理和设置
-description: 可在此部分中找到管理 Workfront 系统所需的信息。
+title: “管理和设置：文章索引”
+description: 查找管理Workfront系统所需的信息。
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 27%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
-# 管理和设置
+# 管理和设置：文章索引
 
-本节包含以下子部分：
+管理员能够控制和自定义Workfront中的用户体验。 请使用以下链接开始操作：
 
 * [Adobe Workfront管理快速入门](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--

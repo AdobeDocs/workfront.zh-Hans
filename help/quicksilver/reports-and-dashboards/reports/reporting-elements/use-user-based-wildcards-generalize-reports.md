@@ -1,95 +1,95 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 使用以使用者為基礎的萬用字元來概括報告
-description: 建立特定報表元素時，您可以使用萬用字元而非特定資訊來概括報表。
+title: 使用基于用户的通配符对报告进行归纳
+description: 在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行泛化。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
-# 使用以使用者為基礎的萬用字元來概括報告
+# 使用基于用户的通配符对报告进行归纳
 
-建立特定報表元素時，您可以使用萬用字元而非特定資訊來概括報表。 例如，如果您想建立一個顯示指派給特定使用者的任務的報告，您可以在篩選器的指派給欄位中使用使用者的名稱。 不過，如果您想要建立顯示指派給登入使用者之任務的報告，而不論該使用者是誰，您可以使用萬用字元來表示當有人檢視報告時，它只會顯示與他們相關的資訊。 這樣的話，報表只需建立一次，但由於您在篩選器中使用萬用字元，因此每當其他人讀取報表時，都會產生不同的結果。
+在构建某些报表元素时，您可以使用通配符而不是特定信息来对报表进行泛化。 例如，如果要创建显示分配给特定用户的任务的报告，则可以在过滤器的“分配给”字段中使用用户的名称。 但是，如果您要创建显示分配给登录用户的任务的报表，而不考虑该用户的身份，则可以使用通配符来指示当有人查看报表时，该报表仅显示与他们有关的信息。 这样的话，您只需构建一次报表，但由于您在筛选器中使用了通配符，因此每当其他人读取此报表时，它都会生成不同的结果。
 
-建置下列報表元素時，您可以使用使用者型萬用字元：
+在构建以下报表元素时，您可以使用基于用户的通配符：
 
-* 过滤器
-* 自訂提示
-* 為欄新增規則時的檢視
+* 筛选器
+* 自定义提示
+* 添加列的规则时的视图
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>編輯篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>访问级别配置*</strong></td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>管理報表的許可權，以編輯報表中的報表元素</p> <p>管理檢視或篩選的許可權以進行編輯</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader"><strong>对象权限</strong></td> 
+   <td> <p>管理对报告的权限以编辑报告中的报告元素</p> <p>管理视图或筛选器的权限以编辑它们</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 必要條件
+## 先决条件
 
-您必須先建立報表，才能在其中新增萬用字元變數。
+必须先创建报告，然后才能向其添加通配符变量。
 
-如需建立報告的指示，請參閱 [建立報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+有关创建报告的说明，请参阅 [创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## 操作步驟
+## 操作步骤
 
-若要在報表中插入以使用者為基礎的萬用字元：
+要在报表中插入基于用户的通配符，请执行以下操作：
 
-1. 前往您要插入使用者型萬用字元的報表。
-1. 按一下 **報表動作**，則 **編輯**.
+1. 转到要为其插入基于用户的通配符的报表。
+1. 单击 **报表操作**，则 **编辑**.
 
-1. 按一下 **篩選器** 標籤。
-1. 按一下 **新增篩選規則**.
-1. 開始輸入您要作為篩選依據的欄位名稱。\
-   您必須輸入參考使用者物件或使用者相關資訊的欄位。
-1. 選取 **等於** ，此專案位於篩選器變數的下拉式功能表中。
+1. 单击 **过滤器** 选项卡。
+1. 单击 **添加筛选器规则**.
+1. 开始键入要作为筛选依据的字段的名称。\
+   您必须键入引用用户对象或用户相关信息的字段。
+1. 选择 **等于** 过滤器变量的下拉菜单中。
 
    >[!TIP]
    >
-   >您必須一律選取 **等於** 在Adobe Workfront中使用萬用字元時篩選變數。
+   >您必须始终选择 **等于** 在Adobe Workfront中使用通配符时的筛选器变量。
 
-1. 在 **開始輸入名稱……** 方塊，輸入： `$$USER.ID` 或 `$$USER.name` 如果您希望報表根據登入使用者的名稱顯示有關該使用者的資訊。 您可以插入參照登入使用者群組、團隊、公司或其他資訊的其他萬用字元。
+1. 在 **开始键入名称……** 框，键入： `$$USER.ID` 或 `$$USER.name` 如果您希望报表显示有关登录用户的信息（基于其名称）。 您可以插入引用登录用户的组、团队、公司或其他信息的其他通配符。
 
-   如需使用者型萬用字元的完整清單，請參閱 [萬用字元篩選變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   有关基于用户的通配符的完整列表，请参见 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. 按一下 **儲存+關閉**.
+1. 单击 **保存+关闭**.
 
 ## 其他信息
 
-另請參閱：
+另请参阅：
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [萬用字元篩選變數](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [在Adobe Workfront中建立或編輯篩選器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
-* [在檢視中使用條件式格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

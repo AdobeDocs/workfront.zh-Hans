@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [Adobe Workfront和Frame.io本机集成alpha：概述](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfront和Frame.io本机集成alpha：功能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * 管理和设置 {#administration-and-setup}
-   * [管理和设置](administration-and-setup/administration-and-setup.md)
+   * [管理和设置：文章索引](administration-and-setup/administration-and-setup.md)
    * 管理入门 {#get-started-administration}
       * [管理入门：文章索引](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [定义实施目标](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Adobe Workfront浏览器要求](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront支持的语言](workfront-basics/supported-languages-in-workfront.md)
    * 导航Adobe Workfront {#navigate}
-      * [导航Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [导航Adobe Workfront：文章索引](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront搜索 {#search}
          * [Adobe Workfront搜索](workfront-basics/navigate-workfront/search/search.md)
          * [搜索Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [敏捷](agile/agile.md)
    * [展示板概述](agile/boards-overview.md)
    * Adobe Workfront中的讨论区入门 {#boards-in-workfront}
-      * [Adobe Workfront中的讨论区入门](agile/get-started-with-boards/get-started-with-boards.md)
+      * [讨论区入门：文章索引](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront展示板视频演示](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [展示板早期功能选择加入](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [使用展示板功能板](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Adobe Workfront中的分组概述](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [在Adobe Workfront中创建分组](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [编辑现有分组](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [通配符筛选器变量](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [通配符筛选器变量概述](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [使用基于日期的通配符对报表进行泛化](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [使用基于用户的通配符对报告进行归纳](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [共享筛选器、视图或分组](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校对 {#proofing}
-      * [校对](review-and-approve-work/proofing/proofing.md)
+      * [验证：文章索引](review-and-approve-work/proofing/proofing.md)
       * 校对概述 {#proofing-overview}
          * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

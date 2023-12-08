@@ -4,9 +4,9 @@ description: 22.2版本中对管理自定义表单进行了以下重要增强。
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 这允许您创建单个自定义表单，用于项目、任务、问题以及自定义表单支持的任何其他类型的对象。
 
-在转换问题或任务时，这尤其有用，因为您可以将自定义表单及其数据传递到转换的对象。 您不再需要为各种对象类型创建和维护同一自定义表单的精确副本，手动将自定义表单添加到项目中。
+在转换问题或任务时，这尤其有用，因为您可以将自定义表单及其数据传递到转换的对象。 您不再需要为各种对象类型创建和维护同一自定义表单的精确副本，请手动将自定义表单添加到项目中。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >某人提交了一个内部IT请求（问题），并提供了有关附加自定义表单中所需内容的详细信息。
 >
@@ -115,7 +115,7 @@ ht-degree: 0%
 * 从自定义表单中删除两个不兼容项目之一 — 对象类型或引用的字段。
 * 保留这两个项目并使用通配符筛选器变量 `$$OBJCODE` 作为IF表达式中的条件，以创建两个不同版本的In Charge字段。 这允许字段成功运行，无论表单附加到哪种类型的对象。
 
-  使用上面的示例，尽管项目没有内置的“分配给：名称”字段，但有一个内置的“所有者”字段（该字段自动填充项目创建者的名称，除非有人手动更改此名称）。 因此，在自定义的“负责人”字段中，您可以使用 `$$OBJCODE` 如下所示，在自定义表单附加到项目时引用“所有者”字段，在表单附加到任务时引用“分配给：名称”字段：
+  使用上面的示例，尽管项目没有内置的“分配给：姓名”字段，但有一个内置的“所有者”字段（该字段自动填充项目创建者的姓名，除非有人手动更改此名称）。 因此，在自定义的“负责人”字段中，您可以使用 `$$OBJCODE` 如下所示，在自定义表单附加到项目时引用“所有者”字段，在表单附加到任务时引用“分配给：名称”字段：
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 有关将计算自定义字段添加到自定义表单的说明，请参阅 [将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-有关变量的更多信息，例如 `$$OBJCODE`，请参见 [通配符筛选器变量](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+有关变量的更多信息，例如 `$$OBJCODE`，请参见 [通配符筛选器变量概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### 从自定义表单中删除对象类型时请小心
 

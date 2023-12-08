@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 导航 [!DNL Adobe Workfront]
+title: “导航 [!DNL Adobe Workfront]：文章索引”
 description: 阅读这些文章以了解如何在Adobe Workfront中导航并了解Workfront术语。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 396d273f6a2a61786f9f2afb9541065ae407bb45
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 导航 [!DNL Adobe Workfront]
+# 导航 [!DNL Adobe Workfront]：文章索引
 
 阅读这些文章以了解如何在Adobe Workfront中导航并了解Workfront术语。
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 * [了解中的对象 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [术语表 [!DNL Adobe Workfront] 术语](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [[!DNL Adobe Unified Experience] 用于 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
-* [[!DNL Adobe Workfront] 搜索](../../workfront-basics/navigate-workfront/search/search.md)
+* [[!DNL Adobe Workfront] Search](../../workfront-basics/navigate-workfront/search/search.md)
 * [中的最近访问和收藏夹 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [顶部导航栏概述](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
 * [左侧导航位置 [!DNL Adobe Workfront]](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)

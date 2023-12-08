@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 0%
 
 * 您可以在中使用通配符 `valueexpression` 但不是在 `valuefield` 行。
 
-  有关通配符的信息，请参见 [通配符筛选器变量](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  有关通配符的信息，请参见 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` 视图和分组概述
@@ -285,4 +285,4 @@ ht-degree: 0%
      >
      >语句连接器区分大小写，并且始终大写。 在文本模式下可以省略“AND”。
 
-* 通配符，可使筛选器更动态，并针对当前时间或登录的用户自定义筛选器。 有关通配符的信息，请参见 [通配符筛选器变量](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* 通配符，可使筛选器更动态，并针对当前时间或登录的用户自定义筛选器。 有关通配符的信息，请参见 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

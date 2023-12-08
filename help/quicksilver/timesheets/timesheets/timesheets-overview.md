@@ -3,65 +3,30 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 工时表概述
-description: 您可以使用工时表跟踪您在工作上花费的时间。 有关Adobe Workfront中时间表布局的信息，请参阅了解时间表布局。
+description: 您可以使用时间表跟踪Adobe Workfront内外您花在工作上的时间。
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # 工时表概述
 
-您可以使用工时表跟踪您在Adobe Workfront中工作所用的时间。
+您可以使用时间表跟踪Adobe Workfront内外您花在工作上的时间。
 
-作为Workfront或组管理员，您可以创建时间表并将时间表与您的用户关联。 有关创建时间表的信息，请参阅 [创建和管理工时表](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+您可以记录工作项（如项目、任务和问题）的项目时间。 任务、问题和项目的登录时间会自动显示在您的时间表中。
 
-时间表是一种网格状表格，它显示工作项和日历区域。 您可以记录项目的时间，并将其与执行工作的日期关联。 这会跟踪您在Workfront中的实际工作时间。 时间表上还有一个区域，可记录非工作相关项目的时间，如会议、培训或外出时间。
+您还可以在“常规时间”下直接在时间表上记录非工作相关项目（如会议、培训或离职时间）的非项目时间。
 
-有关Adobe Workfront中时间表布局的信息，请参阅 [了解时间表布局](../../timesheets/timesheets/timesheet-layout.md).
-
-![](assets/timesheet-example.png)
-
-您可以在Workfront中通过多种方式记录时间，通常在执行工作的项目、任务或问题级别。 针对任务、问题和项目的记录时间也会显示在您的时间表中。
-
-您还可以在常规小时下记录非项目工作的时间。 常规小时时间只能记录在您的时间表中。
-
-有关可以在Workfront中记录时间的位置的更多信息，请参阅 [记录时间](../../timesheets/create-and-manage-timesheets/log-time.md).
+有关如何在Workfront中记录时间的更多详细信息，请参阅 [记录时间](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
->Workfront移动设备应用程序还允许您发布更新、更改记录时间、输入评论以及关闭时间表。
-
-## 访问要求
-
-您必须具备以下条件才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>计划 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须对时间表具有管理访问权限。 </p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+>如果您是Workfront或组管理员，则可以创建时间表并将时间表与您的用户关联。 有关创建时间表的信息，请参阅 [创建和管理工时表](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## 了解项目时间与非项目时间
@@ -76,21 +41,21 @@ ht-degree: 0%
 
 * **非项目时间：** 直接在用户时间表上。 有关如何在Workfront中跟踪时间的更多信息，请参阅   [记录时间](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-  在时间表上，资源可以记录假期小时数、病假小时数、运输小时数、维修或维护设备小时数，或您希望创建的任何一般管理费用小时类型。
+  在时间表上，您可以记录休假小时数、病假小时数、运输小时数、维修或维护设备小时数，或您希望创建的任何常规间接费用小时类型。
 
 ## 在时间表区域访问时间表
 
-有关可记录时间的Workfront所有区域的信息，请参阅 [记录时间](../../timesheets/create-and-manage-timesheets/log-time.md).
+默认情况下，所有用户都可以使用时间表区域。 Workfront管理员可以根据需要在布局模板中更改此设置。 有关更多信息，请参阅 [使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 要访问时间表，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/dots-main-menu.png) 位于右上角，或 **主菜单** 图标 ![](assets/lines-main-menu.png) 在Workfront的左上角（如果可用），单击时间表。
+{{step1-to-timesheets}}
 
-   默认情况下，会显示时间表区域，以及属于您或您有权查看的所有时间表显示。
+默认情况下，您有权显示的所有时间表以及时间表。 有关Adobe Workfront中时间表布局的信息，请参阅 [了解时间表布局](../../timesheets/timesheets/timesheet-layout.md).
 
-   ![](assets/all-timesheets-list-nwe-350x68.png)
+![](assets/all-timesheets-list-nwe-350x68.png)
 
-1. 单击右上角的以下选项之一，可显示有限数量的时间表：
+1. 单击右上角的以下选项之一以显示您的时间表：
 
    * **我的工时表** 以仅显示您的时间表。
 
@@ -100,7 +65,6 @@ ht-degree: 0%
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
-   此时将显示已过滤的工时表列表。
 
 1. （可选）更新时间表列表顶部的视图、筛选器和分组。 有关更多信息，请参阅 [报表元素：筛选器、视图和分组](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
@@ -109,6 +73,3 @@ ht-degree: 0%
    每个时间表都会显示您已记录时间的所有任务、问题和项目。 此外，时间表还显示最多45个分配给您的任务、问题或项目，其日期在时间表的时间范围内，但您可能尚未记录时间。
 
    有关更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-
-
