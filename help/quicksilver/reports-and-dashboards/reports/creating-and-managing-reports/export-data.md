@@ -6,9 +6,9 @@ description: 了解如何导出报表数据
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 关于报表在Workfront中的显示方式以及通过手动导出、已交付报表或通过API导出报表的方式，有一些限制。
 
+* **50,000个单元格：** Excel文件的报表导出中允许的最大单元格数。
 * **50,000行：** 报表导出中允许的.pdf和Tab分隔文件的数据行数。
 
    * 对于Excel .xls文件，此限制为 **65,000行**.
@@ -310,14 +311,14 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
->如果行 `valueformat=HTML` 对于自定义字段列，如果以文本模式显示，并且链接值不显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
+如果行 `valueformat=HTML` 对于自定义字段列，如果以文本模式显示，并且链接值不显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
 >
->例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
+例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 在导出为Excel格式时，导出的文件中只包含指向Workfront中对象的链接，并且只有在您可以选择允许导出Excel文档中存在链接的位置（如报表投放）才支持使用链接。
 
