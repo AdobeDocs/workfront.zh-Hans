@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 0%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 0%
       * 配置您的用户配置文件 {#configure-user-profile}
          * [配置您的用户配置文件](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [配置我的设置](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [在Adobe Workfront中配置个人休息时间](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [配置个人休息时间](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * 管理您的Adobe Workfront帐户 {#manage-workfront-account}
          * [管理您的Adobe Workfront帐户](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [登录到Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

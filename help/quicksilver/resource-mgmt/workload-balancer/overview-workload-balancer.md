@@ -7,9 +7,9 @@ description: 在项目经理计划项目工作并创建任务后，您可以使�
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
      有关创建调度的详细信息，请参见 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * 在个人资料中更新其休息时间日历。\
-     有关更新用户休息时间日程表的信息，请参阅 [在Adobe Workfront中配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     有关更新用户休息时间日程表的信息，请参阅 [配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
