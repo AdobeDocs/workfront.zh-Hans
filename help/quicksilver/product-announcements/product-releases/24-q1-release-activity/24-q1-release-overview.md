@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年12月7日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a></p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

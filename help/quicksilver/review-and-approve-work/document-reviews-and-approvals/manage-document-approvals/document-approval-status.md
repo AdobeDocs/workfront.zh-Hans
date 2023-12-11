@@ -5,14 +5,18 @@ title: 文档审批状态
 description: 列出并解释了文档审批状态
 author: Becky
 feature: Work Management, Digital Content and Documents
-source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
+exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 6%
+source-wordcount: '184'
+ht-degree: 4%
 
 ---
 
 # 文档审批状态
+
+<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
+
 
 您可以在文档的标题中找到文档的审批状态。
 
@@ -24,7 +28,7 @@ ht-degree: 6%
             <tbody>
                  <tr>
                     <td>
-                        已通知</p>
+                        等待审阅</p>
                     </td>
                     <td>
                         <ul>
@@ -41,11 +45,28 @@ ht-degree: 6%
                     <td>
                         <ul>
                             <li>
-                                <p>至少有一个查看者或审批者查看了资源</p>
+                                <p>至少有一个查看者查看了资源</p>
                             </li>
                             <li>
-                                <p>至少有一个审阅人尚未完成审阅</p><p>或</p>
-                                <p>至少有一个批准者尚未作出批准决定</p>
+                                <p>至少有一个审阅人尚未完成审阅</p>
+                            </li>
+                            <li>
+                                <p>没有为此资源分配批准者</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        已审查</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>所有审阅人已完成审阅</p>
+                            </li>
+                            <li>
+                                <p>没有为此资源分配批准者</p>
                             </li>
                         </ul>
                     </td>
@@ -96,3 +117,106 @@ ht-degree: 6%
                 </tr>
            </tbody>
         </table>
+
+
+
+<!--
+
+
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                 <tr>
+                    <td>
+                        Pending review</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Reviewers and approvers have been notified, but have not yet opened the asset.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        In review</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>At least one reviewer or approver has viewed the asset</p>
+                            </li>
+                            <li>
+                                <p>At least one reviewer has not completed their review</p><p>Or</p>
+                                <p>At least one approver has not made an approval decision</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Reviewed</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                All reviews are complete
+                            </li>
+                            <li>
+                                There are no approvers
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>Needs work</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>At least one approver has made a decision of "Needs work"</p>
+                                <p>Other approvers may have given decisions of "Approved with changes" or "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                  <tr>
+                    <td>Approved with changes</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>At least one approver has made a decision of "Approved with changes"</p>
+                                <p>Other approvers may have given decisions of "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>Approved</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>
+                            <li>
+                                <p>All approvers may have given decisions of "Approved"
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
+-->

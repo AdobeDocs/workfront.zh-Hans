@@ -4,9 +4,9 @@ description: 2024年第一季度文档管理增强功能
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 本页介绍了在2024年第一季度发行版中对“预览”环境所做的所有文档管理增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
 有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 已更新文档审批状态
+
+为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。
+
+有关特定可用状态的更多信息，请参阅 [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## 文档审阅和审批状态显示在文档标题中
 
