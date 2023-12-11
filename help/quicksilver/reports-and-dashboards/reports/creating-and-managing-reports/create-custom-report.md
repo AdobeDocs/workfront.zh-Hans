@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 创建自定义报表
-description: 了解如何创建报表有助于您在Adobe Workfront中提供对贵组织所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建您自己的报告。
+description: 您可以通过创建报告，提供对贵组织在Adobe Workfront中所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建自定义报告。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>新增：标准 </p>
+   或
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -47,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>您将获得所创建报告的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>您获取对所创建报告的管理权限。</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ ht-degree: 1%
 
 ## 创建报告 {#create-a-report}
 
-要观看有关如何创建报告的视频，请参阅此 [创建自定义报表](#Walk-thr) 下。
+{{step1-to-reports}}
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后为报表选择所需的对象类型。
 
    加载Report Builder。
@@ -92,7 +93,7 @@ ht-degree: 1%
       <td> <p>向报表中添加分组可确定报表的组织方式。</p> <p>要了解如何添加分组，请参阅 <a href="#add-groupings-to-a-report" class="MCXref xref">向报表中添加分组</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>筛选条件</td> 
+      <td>筛选器</td> 
       <td> <p>将过滤器规则添加到报表可确定您在报表中看到的信息。</p> <p>要了解如何添加过滤器，请参阅 <a href="#add-filters-to-a-report" class="MCXref xref">将过滤器添加到报表</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -109,17 +110,17 @@ ht-degree: 1%
 
 1. 开始创建报告，如 [创建报告](#create-a-report) 部分。
 1. 在报表生成器中，选择 **列（视图）** 选项卡以确定要在报表中显示的列。
-1. （可选）单击 **应用现有视图** 以使用现有视图。
+1. （可选）单击 **应用现有视图** ，然后在下拉菜单中单击视图名称以使用现有视图。
 
-   有关创建新视图的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   有关创建视图的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. （可选）要删除现有列，请单击要删除的列，然后单击 **x** 列标题中当前名称的旁边。
 
 1. 要添加新列，请单击 **添加列**.
 
    或
 
-   要更改现有列，请选择要更改的列，然后单击当前名称旁边的(x)。
-
-1. 开始键入要添加的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到列。
+   要更改现有列，请单击该列，然后单击 **移除** 图标 ![](assets/x-icon-circled.png) 中当前字段左侧 **在此列字段中显示** 框中，开始键入新字段，然后在字段显示在列表中时单击它。
 
    有关您在列中看到的字段的更多信息，请参阅 [Adobe Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ ht-degree: 1%
    >
    >在分组中聚合以下字段的值时，以下例外适用于父对象（例如，父任务）：
    >
-   >* 除“实际小时数”（例如，“计划/实际劳力成本”、“计划/实际费用成本”、“计划/实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
+   >* 除“实际小时数”（例如，“计划或实际劳力成本”、“计划或实际费用成本”、“计划或实际成本”、“计划小时数”）之外的所有数字和货币字段仅汇总子任务和独立任务的值。 它们不会聚合父任务的值或父任务的父值。
    >* 实际小时数聚合主父级任务和独立任务的值；它们不会聚合父级任务或子级任务的父级任务的数量。
    >* 数字和货币值的自定义数据字段汇总所有任务：父任务、子任务、父任务的父任务和独立任务。
 
@@ -193,7 +194,8 @@ ht-degree: 1%
 
    或
 
-   选择 **应用现有分组** 选择现有分组
+   选择 **应用现有分组** 以选择显示在列表中的现有分组。
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. 开始键入要作为分组添加的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该分组。
@@ -210,7 +212,7 @@ ht-degree: 1%
    >* 当您在查看列表时手动调整分组时，Workfront会记住您的手动首选项，直到您注销。 重新登录时，将根据此设置显示列表。
    >* 从图表元素访问分组结果后，这些结果始终以展开形式显示。
 
-1. （可选）您可以选择构建矩阵分组，以网格格式显示结果。
+1. （可选）单击 **切换到矩阵分组**，以构建矩阵分组并以网格格式显示您的结果。
 
    有关构建矩阵报表的更多信息，请参阅 [创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
