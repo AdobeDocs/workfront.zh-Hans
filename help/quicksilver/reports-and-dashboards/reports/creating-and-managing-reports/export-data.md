@@ -315,10 +315,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 >
 例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 在导出为Excel格式时，导出的文件中只包含指向Workfront中对象的链接，并且只有在您可以选择允许导出Excel文档中存在链接的位置（如报表投放）才支持使用链接。
 
