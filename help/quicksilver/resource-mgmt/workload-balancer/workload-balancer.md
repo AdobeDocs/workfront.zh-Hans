@@ -3,19 +3,21 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: 工作负载均衡器
-description: 工作负载均衡器是一种资源计划工具，允许您将工作项分配给资源。
-author: Alina
+description: 工作负载均衡器是Adobe Workfront中的资源计划工具，允许您将任务和问题分配给人员资源。
+author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# 工作负载均衡器
+# 工作负载均衡器：文章索引
+
+工作负载均衡器是Adobe Workfront中的资源计划工具，允许您将任务和问题分配给人员资源。
 
 有关什么是工作负载均衡器、如何导航它以及如何使用它分配工作的信息，请参阅以下文章：
 
@@ -31,13 +33,4 @@ ht-degree: 0%
 * [在工作负载均衡器中取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
 * [管理工作负载均衡器中的用户分配](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 * [使用链接共享工作负载均衡器](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/add-custom-section-for-balancer.md" class="MCXref xref" xrefformat="{para}">Add a custom section to display the Workload Balancer </a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
-  -->
-
 * [使用摘要更新工作负载均衡器中的工作项](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)

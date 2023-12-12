@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ {\f13 } 
   </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -114,9 +114,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>富文本（不包括引号和表情符号）
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -129,9 +129,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>富文本（表情符号）
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -144,9 +144,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>富文本（块引号）
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -159,9 +159,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 报价注释
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -173,9 +173,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>对评论做出反应（类似） 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -187,9 +187,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>将图像附加到注释 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -201,9 +201,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在评论中标记人员 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -217,7 +217,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -233,7 +233,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -246,9 +246,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>公司私有的评论 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -260,7 +260,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>撤消评论的过帐 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td>替换为编辑注释 
    </td>
@@ -274,7 +274,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>关闭系统更新 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td>已替换为活动选项卡 
    </td>
@@ -290,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -302,9 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在离开页面时保存评论草稿 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -318,7 +318,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -330,9 +330,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>记录时间 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -344,7 +344,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>复制跟帖链接 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 替换为复制链接
    </td>
@@ -358,7 +358,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>复制评论链接 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 替换为复制链接
    </td>
@@ -372,9 +372,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>引用注释文本 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td>✓
+   <td>✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -386,9 +386,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>复制正文文本 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -402,7 +402,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ {\f13 }</span>
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ {\f13 }</span>
    </td>
    <td> 
    </td>
@@ -430,7 +430,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>在评论中拖放图像
    </td>
-   <td> 
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -438,14 +438,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>2024年第一季度 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
   </tr>
 
 <tr>
    <td>编辑自定义表单 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -459,7 +459,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在注释时编辑状态、条件和提交日期的功能 
    </td>
-   <td>✓ 
+   <td>✓ {\f13 } 
    </td>
    <td> 
    </td>
@@ -473,7 +473,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>回复系统更新 
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -487,9 +487,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>添加以其他用户身份登录的评论时显示“代表”
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
-   <td> ✓
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>

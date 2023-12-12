@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 3%
@@ -118,7 +118,7 @@ hide: yes
 
 Maestro表格视图的列标题显示与视图中的记录关联的字段。 表格视图中显示的相同字段也会显示在Maestro记录的“详细信息”部分中。 有关更多信息，请参阅 [编辑记录](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 向视图添加列与向记录类型添加字段相同。
 
@@ -128,21 +128,6 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 1. 开始添加字段（或列），如文章中所述 [创建字段](../fields/create-fields.md).
 
    您添加的列对访问记录类型的所有用户均可见，并且作为新字段添加到所选记录类型的记录的“详细信息”页面上。
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. 执行以下操作之一以重新排序表中的列：
 
@@ -161,6 +146,27 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
    >* 无法隐藏“名称”字段。
    >
    >* “名称”字段已冻结，不是水平滚动的一部分。
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 
@@ -213,12 +219,12 @@ Maestro表格视图的行显示所选记录类型的单个记录。
    >
    >如果对表视图至少应用一种排序，则无法对行重新排序。
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### 添加过滤器 {#add-filters}
 

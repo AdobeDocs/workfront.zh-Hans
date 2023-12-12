@@ -3,10 +3,10 @@ title: ’[!DNL Adobe Workfront] 文档
 description: 文档 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 2%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -75,9 +75,9 @@ Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理
 
 使用工作负载均衡器作为在Workfront中计划资源的替代方法。
 
-请参阅 [工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+请参阅 [工作负载均衡器：文章索引](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront 模板
+### Adobe Workfront目标
 
 让您的战略与您的工作保持一致，以通过使用Adobe工作框架目标实现一致和成功。
 
@@ -97,7 +97,7 @@ Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理
 
 请参阅 [developer.adobe.com上的Workfront API资源管理器](https://developer.adobe.com/workfront/api-explorer/).
 
-### Workfront 集成
+### Workfront集成
 
 通过将Workfront与其他系统集成，在一个位置访问所有应用程序。
 

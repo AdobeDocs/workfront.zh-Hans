@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 0%
       * [资源利用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [查看资源利用率信息](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 工作负载均衡器 {#the-workload-balancer}
-      * [工作负载均衡器](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [工作负载均衡器：文章索引](resource-mgmt/workload-balancer/workload-balancer.md)
       * [工作负载均衡器概述](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [在工作负载均衡器中管理资源所需的访问权限](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [找到工作负载均衡器](resource-mgmt/workload-balancer/locate-workload-balancer.md)
