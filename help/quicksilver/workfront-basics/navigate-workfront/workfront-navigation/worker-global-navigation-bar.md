@@ -7,9 +7,9 @@ description: 主菜单会随着您分配的访问级别而更改 [!DNL Adobe Wor
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 请求]**：您可以提交请求并查看您或您的团队成员在此提交的请求。 有关信息，请参阅 [请求](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL 时间表]**：您可以在此处访问您当前、未来或旧的时间表。 有关信息，请参阅 [时间表](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL 时间表]**：您可以在此处访问您当前、未来或旧的时间表。 有关信息，请参阅 [时间表：文章索引](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL 文档]**：您可以在此处上传文档或查看与您共享的文档。 有关信息，请参阅 [文档](../../../documents/documents-overview.md).
 

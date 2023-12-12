@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新计划：标准</p>
+   <td> <p>新增：标准</p>
         <p>或</p>
-        <p>当前计划：计划 </p> </td> 
+        <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 

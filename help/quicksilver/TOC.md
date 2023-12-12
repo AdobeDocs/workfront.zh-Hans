@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [审批的提示、技巧和疑难解答](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 时间表 {#timesheets}
-   * [工时表](timesheets/timesheets-all.md)
+   * [时间表：文章索引](timesheets/timesheets-all.md)
    * 工时表详细信息 {#details}
-      * [Adobe Workfront中的工时表详细信息](timesheets/timesheets/timesheets.md)
+      * [工时表详细信息：文章索引](timesheets/timesheets/timesheets.md)
       * [工时表概述](timesheets/timesheets/timesheets-overview.md)
       * [了解时间表布局](timesheets/timesheets/timesheet-layout.md)
-   * 在Adobe Workfront中创建和管理工时表 {#create-and-manage-timesheets-in-adobe-workfront}
-      * [在Adobe Workfront中创建和管理工时表](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * 创建和管理工时表 {#create-and-manage-timesheets-in-adobe-workfront}
+      * [创建和管理时间表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [创建、编辑和分配时间表配置文件](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [定义工时表的小时类型和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [创建一次性时间表](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [手动生成工时表](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [导出时间表列表](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * 配置时间的记录方式 {#configure-timesheet-preferences}
-      * [配置时间的记录方式](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [配置时间的记录方式：文章索引](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [配置时间是以小时还是天为单位记录](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * 时间表的提示、技巧和疑难解答 {#tips-tricks-troubleshooting-for-timesheets}
-      * [提示、技巧和疑难解答](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [提示、技巧和疑难解答：文章索引](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [更正工时表的工作周开始日期](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [在利率变化时，防止“重新计算财务”操作影响历史小时数](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [使用Adobe Workfront API跟踪小时记录](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

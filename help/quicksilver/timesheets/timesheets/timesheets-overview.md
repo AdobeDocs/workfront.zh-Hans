@@ -7,9 +7,9 @@ description: 您可以使用时间表跟踪Adobe Workfront内外您花在工作�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果您是Workfront或组管理员，则可以创建时间表并将时间表与您的用户关联。 有关创建时间表的信息，请参阅 [创建和管理工时表](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>如果您是Workfront或组管理员，则可以创建时间表并将时间表与您的用户关联。 有关创建时间表的信息，请参阅 [创建和管理时间表：文章索引](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## 了解项目时间与非项目时间

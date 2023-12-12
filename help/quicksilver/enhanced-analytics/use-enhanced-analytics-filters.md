@@ -6,9 +6,9 @@ description: Adobe Workfront的“增强分析”区域中的过滤器可帮助�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td>
-      <p>新计划：任意</p>
+      <p>新建：任何</p>
       <p>或</p>
-      <p>当前计划：业务或更高</p></td> 
+      <p>当前：业务或更高</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
-      <p>新计划：轻度或以上</p>
+      <p>新增：浅色或更高</p>
       <p>或</p>
-      <p>当前计划：审阅或更高版本</p>
+      <p>当前：审阅或更高版本</p>
    </td> 
   </tr>
   <tr> 

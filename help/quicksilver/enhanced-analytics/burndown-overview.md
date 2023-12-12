@@ -7,9 +7,9 @@ description: 燃尽可视化图表显示特定项目在一段时间内的燃尽�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td>
-      <p>新计划：任意</p>
+      <p>新建：任何</p>
       <p>或</p>
-      <p>当前计划：业务或更高</p></td>
+      <p>当前：业务或更高</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td>
-      <p>新计划：轻度或以上</p>
+      <p>新增：浅色或更高</p>
       <p>或</p>
-      <p>当前计划：审阅或更高版本</p>
+      <p>当前：审阅或更高版本</p>
    </td> 
   </tr> 
   <tr> 

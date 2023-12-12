@@ -1,20 +1,20 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: 在Adobe Workfront中创建和管理工时表
+title: “创建和管理时间表：文章索引”
 description: 您可以在Adobe Workfront中创建时间表，并跟踪您在完成工作上花费的时间。 请在以下文章中了解有关创建、编辑和管理时间表的更多信息。
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中创建和管理工时表
+# 创建和管理时间表：文章索引
 
 本节包含以下文章：
 

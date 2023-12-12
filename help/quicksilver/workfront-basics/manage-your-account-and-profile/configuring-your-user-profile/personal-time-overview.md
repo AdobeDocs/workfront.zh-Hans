@@ -7,9 +7,9 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>新计划：标准（配置个人休息时间）</p>
+   <td> <p>新增：标准（用于配置个人休息时间）</p>
         <p>或</p>
-        <p>当前计划：工作或更高（配置个人休息时间）</p> </td>
+        <p>当前：工作或更高（用于配置个人休息时间）</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
