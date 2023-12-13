@@ -5,11 +5,12 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront内置集成概述
 description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这些集成可以扩展的 [!DNL Workfront] 并根据贵组织的需求对其进行定制。 例如，如果您是营销行业的创意工作者，则可以使用Adobe Creative Cloud加载项将资产直接从Photoshop导出到Workfront。
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +42,7 @@ Workfront中目前提供以下内置集成。
      <li>After Effects </li>
      </ul>
      <li><p>从下载/安装 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交换</a>.</p></li></ul>
-     <p>有关信息和说明，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安装  [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序</a></p> </td> 
+     <p>有关信息和说明，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">安装  [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
