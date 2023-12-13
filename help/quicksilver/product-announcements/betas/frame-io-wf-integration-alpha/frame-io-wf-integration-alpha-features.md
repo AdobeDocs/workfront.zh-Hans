@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. **协调员：** 在Workfront中，使用创建项目 `Frame.io alpha testing` 组被指定为项目组。
 
-1. **协调员：** 在Workfront中，将您的创意分配给项目 <span class="preview">或启用帧的任务</span> 并将项目状态更改为“当前”。
+1. **协调员：** 在Workfront中，将您的创意分配给项目 <span class="preview">或启用帧的任务（请注意，子任务不能标记为启用帧）</span> 并将项目状态更改为“当前”。
 
 1. **创意人员：** 检查您的电子邮件中是否有邀请加入新创建的Frame.io项目
 
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **创意人员：** 在Frame.io中，通过将更新版本添加到所连接资源的版本栈栈来应用请求的更改。
 
 1. **协调员：** 在Workfront中，将审批者/审阅者分配给新上传的版本，并监控进度，直到该版本实现注销。
+
+## 详细测试方案
+
+对于希望测试附加功能的参与者，我们创建了一个更复杂的测试场景。 可在此处下载此详细测试方案的指南： [WF + Frame.io详细测试方案演练](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## 功能计划
 
