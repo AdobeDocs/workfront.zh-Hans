@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ ht-degree: 0%
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能](#administrator-enhancements)
 * [文档管理增强功能](#document-management-enhancements)
 * [集成增强功能](#integration-enhancements)
 * [更新流和通知增强功能](#update-stream-and-notification-enhancements)
+
+### 管理员增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年12月14日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### 文档管理增强功能
 
@@ -59,7 +97,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a></p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -132,7 +170,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速操作按钮已更改为仅在鼠标悬停时显示</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速操作按钮已更改为仅在鼠标悬停时显示</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -215,7 +253,25 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的评论体验可捕获项目、任务、问题和文档的所有信息</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>项目、任务、问题和文档会显示自Workfront实例启动以来在新评论体验区域中的所有更新。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年12月14日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的评论体验可捕获项目、任务、问题和文档的所有信息</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>项目、任务、问题和文档会显示自Workfront实例启动以来在新评论体验区域中的所有更新。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -223,14 +279,14 @@ ht-degree: 0%
                                 <p>预览版本： 2023年11月28日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产： 2023年11月28日</p>
+                                <p><span class="preview">适用于所有客户的生产： 2023年11月28日</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a></p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -248,7 +304,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中复制并粘贴图像</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了提供消息内容的上下文，您现在可以从计算机复制图像并将其粘贴到新的更新或回复中，从而快速将图像附加到注释中。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中复制并粘贴图像</a></p><p>为了提供消息内容的上下文，您现在可以从计算机复制图像并将其粘贴到新的更新或回复中，从而快速将图像附加到注释中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
