@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 * 记录类型的所有表视图都具有您选择的相同主字段。
 
 有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### 将Maestro记录与Adobe Experience Manager (AEM)资源连接起来
+
+预览版本： 2023年12月14日
+
+生产版本： 2023年12月15日
+
+现在，您可以在Maestro记录类型与Adobe Experience Manager资源之间建立连接。
+
+建立连接后，以下功能可用于此更新：
+
+* Maestro用户可以将AEM资源、文件夹或收藏集链接到AEM中他们有权访问的特定存储库中的Maestro记录
+
+* Maestro用户连接到记录后，即可查看Maestro中所有连接的资产。
+
+* 建立连接后，会在Maestro中自动创建Experience Manager Assets记录类型。 连接的资产在此新记录类型的Maestro表和时间线视图中可见。
+
+* 您可以在从中连接的Maestro记录表中查看AEM资源信息。
+
+有关更多信息，请参阅 [连接记录类型](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## 2023年12月4日起一周
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ hide: yes
       * 项目组合
       * 项目群
       * 公司
-      * 组
+      * 群组
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -206,9 +206,9 @@ After permssions - replace the table with:
 
 ### 连接Maestro记录
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
@@ -254,33 +254,24 @@ After permssions - replace the table with:
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
 
-在Maestro记录类型和Workfront对象类型之间创建连接后，可以将单个Maestro记录连接到Workfront中的对象。 您还可以将字段从Workfront对象连接到Maestro记录类型。
+在Maestro记录类型和Workfront对象类型之间创建连接后，可以将单个Maestro记录连接到Workfront中的对象。 您连接的Workfront字段会自动填充到链接对象的Maestro记录中。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
-1. 从中选择表视图 **视图** 记录类型页面右上角的下拉菜单
-1. 从Workfront中为选定记录类型添加与对象类型的新连接。 从Workfront部分下的以下对象中进行选择：
+1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
 
-   * 项目
-   * 项目组合
-   * 项目群
-   * 公司
-   * 组
-
-   有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
-
-   新列将添加到表中以显示链接对象类型。
-
-1. 通过将新行添加到表，将单个记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
-1. 从表格视图中列出的记录，转到链接对象列，将鼠标悬停在与要与Workfront中的其他对象链接的记录对应的单元格上，然后单击 **+** 图标。 <!--change Workfront to other applications, when this will be possible-->
+1. （可选）通过向表中添加新行，将单个记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
+1. （视情况而定）如果将选定的记录类型与Workfront对象连接，请转到链接对象列，将鼠标悬停在与要与Workfront对象链接的记录对应的单元格上，然后单击 **+** 图标。
 
    此 **连接对象** 框显示。
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   有关将记录类型与来自第三方应用程序的对象连接的详细信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
 1. 开始在搜索框中键入Workfront对象的名称，然后当该对象显示在列表中时将其选定
 
@@ -288,11 +279,11 @@ After permssions - replace the table with:
 
    在框中选择一个或多个对象的名称，然后单击 **连接对象** “连接对象”框右上角的。
 
-   向Maestro中添加了以下内容：
+   添加了以下内容：
 
    * 选定的Workfront对象将添加到链接的记录字段。
    * 将字段添加到链接记录时，将为您选择的每个链接字段创建新的链接字段（或查找字段）。
-   * 名为“Workfront对象”的新记录类型将在与链接的Maestro记录相同的工作区中创建。 对象的名称是此记录类型名称的一部分。 例如，链接到Workfront项目会在Maestro中创建Workfront项目记录类型。
+   * 名为“&lt; Name of the Workfront object type >”的新记录类型将在与链接的Maestro记录相同的工作区中创建。 对象的名称是此记录类型名称的一部分。 例如，链接到Workfront项目会创建 **项目** Maestro中的记录类型。
 
      这是只读记录类型，它显示在您从Maestro记录创建的新链接对象字段中选择的Workfront对象。 链接的对象的链接字段也会显示在只读链接的Workfront记录中。
 
@@ -307,7 +298,7 @@ After permssions - replace the table with:
      >
      >* 如果启用了“允许多条记录”设置，则多个对象的值要么以逗号分隔，要么根据您选择的聚合器聚合。
      >
-     >* 不会为链接的Workfront对象创建指向Maestro链接记录的链接记录字段。
+     >* 在Workfront中，不会为链接的Workfront对象创建指向Maestro链接记录的链接记录字段。
 
 
 1. （可选）关闭“Maestro记录类型”页面，然后转到您选择的工作区。
@@ -318,7 +309,6 @@ After permssions - replace the table with:
    >    * Workfront记录类型页面中列出的记录是只读Workfront对象。 从Workfront记录类型链接的字段也显示为只读列，在Workfront中填充这些字段时，会自动填充这些字段。
    >    * 您不能在Maestro中手动更新Workfront字段。 Workfront对象字段必须在Workfront中填充，并且字段值会自动显示在Maestro的Workfront记录中。
    >
-   >    * 要在“时间线”视图中显示Workfront对象记录类型，您必须至少有两个日期字段显示在只读Workfront记录类型页面的“表”视图中。
 
 1. （可选）要在Maestro中打开Workfront对象记录“详细信息”页面，请执行以下操作之一：
 
@@ -351,4 +341,122 @@ After permssions - replace the table with:
    >
    >  您在Workfront对象记录类型页面中添加或删除的字段不会从链接到Workfront对象类型的Maestro记录类型中添加或删除。 这些字段仅在只读Workfront记录类型页面上可见，因此您可以在Maestro中查看它们。
 
-1. （可选且视情况而定）如果您向Workfront对象添加了至少两个日期字段，请单击 **视图** “Workfront对象记录类型”页面中的下拉菜单，然后选择 **时间线** 视图。 Workfront链接对象显示在时间轴视图中。
+1. （可选且视情况而定）如果您向Workfront对象添加了至少两个日期字段，请单击 **视图** “Workfront对象记录类型”页面中的下拉菜单，然后选择 **时间线** 查看或 **创建视图** 创建时间线视图。  有关信息，请参阅 [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+   Workfront链接对象显示在时间轴视图中。
+
+
+### 将Maestro记录连接到Adobe Experience Manager对象
+
+<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+在Maestro记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个Maestro记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的Maestro记录类型上。
+
+{{step1-to-maestro}}
+
+默认情况下应打开上次访问的工作区。
+
+1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
+1. 单击记录类型的卡以打开记录类型页面。
+1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
+
+1. （可选）通过向表中添加新行，将单个记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
+1. （视情况而定）如果将选定的记录类型与Experience Manager Assets连接，请转到链接对象列，将鼠标悬停在要与Experience Manager中的其他对象链接的记录对应的单元格上，然后单击 **+** 图标。
+
+   此 **选择资源** 框显示。 <!--update screen shot with actual assets-->
+
+   ![](assets/select-assets-box-for-aem-record-connections.png)
+
+   有关将记录类型与来自第三方应用程序的对象连接的详细信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+
+1. 单击可选择以下某些类型的资产：
+
+   * 图像
+   * 收藏集
+   * 文件夹
+
+   您可以选择多个资源。
+
+   >[!IMPORTANT]
+   >
+   > 您只能连接您有权在Experience Manager中查看的资源。
+
+1. 单击 **选择**.
+
+   添加了以下内容：
+
+   * 选定的Experience Manager资源将添加到链接的记录字段。
+   * 将字段添加到链接记录时，将为您选择的每个链接字段创建新的链接字段（或查找字段）。
+   * 名为“Experience Manager Assets”的新记录类型将在与链接的Maestro记录相同的工作区中创建。
+
+     这是只读记录类型，它显示在您从Maestro记录创建的新链接对象字段中选择的Experience Manager对象。 链接对象的链接字段也会显示在只读链接Experience Manager记录中。
+
+     >[!IMPORTANT]
+     >
+     > 仅当将单个资产添加到Maestro记录时，才会创建只读的Experience Manager Assets记录类型。 只是在Maestro记录类型和Experience Manager Assets之间创建连接不会创建Experience Manager Assets记录类型。
+
+     Experience Manager资源字段中的任何现有信息都显示在链接或查找字段中。
+
+     >[!TIP]
+     >
+     >
+     >* 如果启用了“允许多条记录”设置，则多个对象的值将以逗号分隔。
+     >
+     >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Maestro链接记录的链接记录字段。
+
+
+1. （可选）关闭“Maestro记录类型”页面，然后转到您选择的工作区。
+1. 单击Experience Manager Assets记录类型的卡。 只读Experience Manager Assets记录类型卡片应在“表”视图中打开。
+
+   >[!NOTE]
+   >
+   >    * Experience Manager Assets记录类型页面中列出的记录是只读资源。 从Experience Manager Assets记录类型链接的字段也显示为只读列，当这些字段在Experience Manager中填充时，会自动填充它们。
+   >    * 您不能在Maestro中手动更新Experience Manager字段。 必须在Experience Manager中填充Experience Manager资源字段，并且字段值会自动显示在Maestro的Experience Manager Assets记录中。
+   >
+
+1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。 <!--update screen shot with hi-rez picture-->
+
+   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+
+   为图像文件显示以下字段：
+
+   * 图像的缩略图
+   * 图像文件名
+   * 维度
+   * 大小
+   * 描述
+   * Experience Manager中的文件路径
+   * 资源类型
+   * 创建日期
+   * 修改日期
+
+1. （可选）要在Maestro中打开“Experience Manager Assets记录详细信息”页面，请执行以下操作：
+
+   1. 转到 **Experience Manager Assets** Maestro记录类型信息卡在您最初选择的工作区中，然后单击以打开记录类型页面。
+Experience Manager Assets Maestro记录类型页面为只读。
+   1. 在表视图中，单击资源的名称
+
+      或
+
+      将鼠标悬停在资产名称上，单击 **更多** 菜单 ![](assets/more-menu.png) 资产名称的右侧，然后单击 **视图**.\
+      这将打开资产的主管 **详细信息** 页面。 这是只读页面。
+1. （可选）要在Experience Manager中打开“Experience Manager资源记录详细信息”页面，请执行以下操作之一：
+
+   * 转到链接来源记录的Maestro记录类型页面，单击链接记录字段中的资产名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
+   * 转到 **Experience Manager Assets** Maestro记录类型信息卡在您最初选择的同一工作区中，单击以打开记录类型页面，单击资产名称以打开Maestro **详细信息** 页面，然后单击 **转到源** 屏幕右上角的。
+
+     ![](assets/go-to-source-asset-maestro-details-page.png)
+   * 转到 **Experience Manager Assets** 在最初选择的同一工作区中，Maestro记录类型信息卡单击该信息卡以打开Experience Manager Assets记录类型页面，将鼠标悬停在资源名称上，然后单击 **更多** 菜单，然后单击 **转到源**.
+
+     ![](assets/go-to-source-option-on-table-view.png)
+
+   资源将在Experience Manager Assets中打开。
+
+1. （可选）单击 **添加字段** 图标 ![](assets/add-fields-icon.png) Experience Manager Assets添加或删除Experience Manager字段。
+
+   >[!NOTE]
+   >
+   >  您在Experience Manager Assets记录类型页面中添加或删除的字段不会从链接到Experience Manager资源的Maestro记录类型中添加或删除。 这些字段仅在只读Experience Manager Assets记录类型页面上可见，因此您可以在Maestro中查看它们。
+
+1. （可选且视情况而定）如果您向Experience Manager链接资源添加了至少两个日期字段，请单击 **视图** “Experience Manager Assets记录类型”页面中的下拉菜单，然后选择 **时间线** 查看或 **创建视图** 创建时间线视图。  有关信息，请参阅 [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Experience Manager Assets链接的资产会显示在时间轴视图中。

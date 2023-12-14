@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 <td>
    <p> Adobe产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -197,7 +199,13 @@ After permssions - replace the table with:
       * 项目组合
       * 项目群
       * 公司
-      * 组
+      * 群组
+
+   * Adobe Experience Manager Assets：
+
+      * 资产
+      * 文件夹
+      * 收藏集
 
 * 将记录类型与另一个记录类型或另一个应用程序中的对象类型连接后，将出现以下情况：
 
@@ -230,12 +238,14 @@ After permssions - replace the table with:
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击 **+** 图标，然后单击 **新建连接** 选项卡。
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. 在 **记录类型** 字段中，选择下列选项之一： <!--is the field name spelled right? lowercase "t"?-->
 
-   * 其他操作记录类型
-   * 分类
-   * Workfront项目、Portfolio、项目群、公司或组。
+   * 所选工作区中的另一个操作记录类型
+   * 所选工作区中的分类
+   * Workfront对象类型部分中的项目、Portfolio、项目群、公司或组。
+   * Adobe应用程序部分中的Experience Manager Assets 。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ After permssions - replace the table with:
    * **允许多条记录**：选择此选项以指示您允许用户在链接记录类型字段显示在原始记录上时添加多个记录。 默认情况下，该选项处于选中状态。
    * **选择查找字段**：选择此选项可从所选记录类型添加字段。 默认情况下，该选项处于选中状态。
 
+1. （视情况而定，可选）如果您已选择连接Workfront对象，请选择 **自定义表单** 从 **仅链接符合这些条件的项目** 部分。 <!--this needs to be updated for each object when they fix this UI.--> 只有附加了选定自定义表单的对象才能链接到选定的Maestro记录类型。 您可以选择多个表单。
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. （视情况而定）如果您已选择连接到Experience Manager Assets，请从以下位置选择一个存储库： **Experience Manager存储库** 中的下拉菜单 **链接以下存储库中的资产** 部分。 这是必填字段。 只有您在Experience Manager Assets中有权访问的存储库才会显示在此字段中。
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. 单击 **创建**.
 
-1. （视情况而定）如果您在上一步中选择了选择查找字段设置，则 **添加查找字段** 框打开。
+1. （视情况而定）如果您选择 **选择查找字段** 在上一步中，设置 **添加查找字段** 框打开。
 
    单击 **+** 图标，以添加来自的字段 **未选择的字段** 区域。
 
@@ -274,6 +292,10 @@ After permssions - replace the table with:
 1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择聚合器值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或聚合的值。
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > 将记录类型连接到Experience Manager Assets时，聚合不可用。
 
    从以下项中选择：
 
