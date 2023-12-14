@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 要详细了解Alpha的运行方式和参与方式，请参阅 [Adobe Workfront和Frame.io集成alpha：概述](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >如果您是在没有您的公司参与此Alpha程序的情况下访问这些页面的，请确保谨慎处理此处的信息，并联系Workfront或Frame.io管理员以获取更多信息。
+>
 
 ## 基本测试场景
 
@@ -32,30 +32,32 @@ ht-degree: 0%
 
 要测试该功能，请登录Workfront预览版或沙盒实例并执行以下步骤：
 
->[!NOTE]
->
-><span class="preview">突出显示的文本</span> 以下提及尚未用于测试但将包含在更高版本中的功能。
->
-
 1. **协调员：** 在Workfront中，使用创建项目 `Frame.io alpha testing` 组被指定为项目组。
 
-1. **协调员：** 在Workfront中，将您的创意分配给项目 <span class="preview">或启用帧的任务（请注意，子任务不能标记为启用帧）</span> 并将项目状态更改为“当前”。
+1. **协调员：** 在Workfront中，将需要创意工作的任务标记为已启用框架（在任务详细信息中），并将您的创意分配给该任务（如果您希望测试整个工作流，请一并分配）。
+
+>[!NOTE]
+>
+>子任务不能标记为已启用框架。
+>
+
+1. **协调员：** 上传您的创意简报并将项目状态更改为“当前”。
 
 1. **创意人员：** 检查您的电子邮件中是否有邀请加入新创建的Frame.io项目
 
 1. **创意人员：** 单击邀请电子邮件中的“加入项目”按钮，加入Frame.io项目，查看项目中的创意简报，然后在所选的Creative Cloud工具中开始创建内容。
 
-1. **创意人员：** 将您创建的资源上传到Frame.io，并将其添加到链接的Workfront项目 <span class="preview">（或已分配了支持框架的任务）。</span>
+1. **创意人员：** 将您创建的资源上传到Frame.io，并通过选择其中一个分配的启用Frame的任务来将其添加到链接的Workfront项目。 选择选项以将任务标记为完成。
 
-1. **协调员：** 在Workfront中，找到项目中链接的Frame.io资源并分配审阅人/批准者(有关分配审阅人/批准者的详细信息，请参阅 [向文档添加其他批准者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
+1. **协调员：** 在Workfront中，在启用了frame的任务中找到链接的Frame.io资源，并检查该任务的状态是否更改为“完成”。
 
-1. **利益相关者：** 在Workfront中，在“主页”或“文档详细信息”中查看您的审批请求，并在Frame.io查看器中查看框架连接的文档，然后留下包含反馈的注释。
+1. **协调员：** 将审阅者/批准者分配给链接的Frame.io资产。 如果要测试整个工作流，请将您自己指定为批准者。 (有关分配审阅/批准者的详细信息，请参阅 [向文档添加其他批准者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
 
-1. <span class="preview">**协调员：** 在Workfront中，查看利益相关者在Frame.io连接文档的“更新”部分创建的评论。</span>
+1. **利益相关者：** 在Workfront的“主页”、“文档详细信息”或接收的电子邮件通知中查看您的审批请求。 在Frame.io查看器中打开资产，留下包含反馈的注释，然后做出决定。
 
-1. <span class="preview">**利益相关者：** 在Frame.io查看器中做出决策。</span>
+1. **协调员：** 在Workfront中，查看在Frame.io连接文档的更新部分中创建的利益相关者评论，以及审批部分或文档摘要窗格中的决策。
 
-1. <span class="preview">**创意人员：** 在Frame.io中，请注意针对您的资源作出的整体批准决定。</span>
+1. **创意人员：** 在Frame.io中，请注意针对您的资源作出的整体批准决定。
 
 1. **创意人员：** 在Frame.io中，通过将更新版本添加到所连接资源的版本栈栈来应用请求的更改。
 
@@ -71,17 +73,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">突出显示的文本</span> 以下提及尚未实施，但将包含在更高版本中的功能。
->
 >项目符号下 **“未来版本中的潜在改进”** 根据Alpha反馈和我们不断演变的开发计划，标头可能会也可能不会包含在将来的版本中。
 >
 
-
 ### Workfront管理员可以在Workfront组和Frame.io帐户之间建立连接
 
-* <span class="preview">在Workfront中，您可以将Workfront组连接到Frame.io帐户</span>
+* 在Workfront中，您可以将Workfront组连接到Frame.io帐户
 
-* 将在Frame.io中创建一个新的Frame.io团队，表示连接的Workfront组
+* 将在Frame.io中创建一个新的Frame.io团队，该团队表示连接的Workfront组(请注意，此功能仅针对在生产环境中使用集成的客户启用。 仍在沙盒或预览中测试的客户将由Adobe团队配置连接。)
 
 **未来版本中的潜在改进：**
 
@@ -93,19 +92,17 @@ ht-degree: 0%
 
 * 能够通过分配连接了帧的组将Workfront项目标记为Frame.io已启用
 
-* <span class="preview">增强：能够将Workfront项目中的任务切换为框架任务，这反过来将在Frame.io中创建任务文件夹</span>
+* 能够将Workfront项目中的任务切换为框架任务，这反过来将在Frame.io中创建任务文件夹
 
-* 当Workfront项目状态设置为“当前”时，将在Frame中创建相应的已连接项目，并将为Workfront分配的用户添加到Frame项目，并从Frame.io向他们发送电子邮件通知
+* 如果Workfront项目分配了框架连接组，并且至少有一个启用了框架任务，则当Workfront项目状态设置为“当前”时，将在Frame中创建相应的连接项目，并将分配给Workfront的用户添加到Frame项目，并从Frame.io向他们发送电子邮件通知
 
-   * 所有Workfront项目成员（用户和团队）将作为协作者添加到Frame.io项目（在创建项目时和以后创建项目时）
-
-   * <span class="preview">更改：分配给“已启用Frame的Workfront”任务的用户和团队将作为协作者添加到Frame.io项目中，并在以后创建项目时收到通知</span>
+   * 将分配给已启用Frame的Workfront任务的用户和团队作为协作者添加到Frame.io项目中，并通知他们（在创建项目时及以后）
 
 * 添加到项目中的文档（创意摘要）以及启用Frame的任务将在创建项目时推送到Frame.io项目（位于相应的工作文件夹中）（触发器：项目状态设置为当前）
 
    * 我们建议您先限制添加到项目中的文档数量，然后再激活到创意摘要，以避免向Frame.io发送多个不必要的文档
 
-* <span class="preview">增强：从Frame.io项目中删除从启用了框架的Workfront任务中明确取消分配的用户/团队</span>
+   * 在初始项目同步之后添加的文档/任务不会推送到Frame.io，只会推送用户/团队
 
 **未来版本中的潜在改进：**
 
@@ -121,9 +118,9 @@ ht-degree: 0%
 
 * 在Frame.io中上传的新版本将在Workfront中自动在连接的资源上创建新文档版本
 
-* <span class="preview">增强：能够从Frame.io中将引用的Workfront任务标记为完成</span>
+* 能够从Frame.io中将引用的Workfront任务标记为完成
 
-* <span class="preview">增强：如果已连接的Workfront文档被删除，则它保留在Frame.io中，并可重新连接到同一项目任务或其他项目任务</span>
+* 如果连接的Workfront文档被删除，它将保留在Frame.io中，并且可以重新连接到同一项目任务或其他项目任务
 
 **未来版本中的潜在改进：**
 
@@ -135,7 +132,7 @@ ht-degree: 0%
 
 * 可以将Workfront用户和团队添加到用于连接Frame.io的文档的新文档审批中
 
-* <span class="preview">增强：当用户/团队从启用了Frame的文档取消共享时，他们也将失去对Frame.io查看器中的资产的访问权限</span>
+* 当用户/团队从启用了Frame的文档取消共享时，他们也将失去对Frame.io查看器中的资产的访问权限
 
 **未来版本中的潜在改进：**
 
@@ -151,12 +148,4 @@ ht-degree: 0%
 
 * 能够利用Frame.io查看器提供的现有审阅和注释功能，这些功能将与Workfront的更新流同步
 
-* <span class="preview">能够在Frame.io查看器中作出新的文档批准决策</span>
-
-### 在Frame.io中，将通知创意人员有关所连接Frame.io资产的整体决策
-
-* <span class="preview">增强：Frame.io内的资产将显示整体文档审批状态</span>
-
-### 项目协调员可以将最终资源发送到AEM
-
-* <span class="preview">增强：可以使用现有的Workfront + AEM Asset CS连接器将包含元数据的帧连接文档发送到AEM</span>
+* 能够在Frame.io查看器中作出新的文档批准决策
