@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >23.3版本包括将您的组织移至每月版本的选项。 因此，Workfront更改了版本的编号方案，以说明每月和每季度的版本跟踪。
 >
->除非另有说明，否则每月和季度发行计划于当月最后一个星期四提供。
+>除非另有说明，否则每月和季度发行计划于当月第二整周的星期四提供。
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
