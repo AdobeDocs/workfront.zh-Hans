@@ -6,9 +6,9 @@ description: 您在中创建了Kanban或Scrum敏捷团队 [!DNL Adobe Workfront]
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
    <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
    <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
    <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>编辑团队的访问权限</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
@@ -68,7 +75,6 @@ ht-degree: 0%
 1. 选择要管理的Agile团队。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png) ，然后选择 **[!UICONTROL 编辑]**.
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。\
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
 1. 在 **[!UICONTROL 敏捷]** 部分，在 **[!UICONTROL 估计故事位于]** 区域，选择是使用点还是小时来估算文章的大小（工作负荷）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
@@ -89,8 +95,6 @@ ht-degree: 0%
 
 1. 选择要管理的Agile团队。
 1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.
-
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ ht-degree: 0%
 
 1. 选择要管理的Agile团队。
 1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.\
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ ht-degree: 0%
 1. 选择要管理的Kanban团队。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png)，然后选择 **[!UICONTROL 编辑]**.
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
-
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
 1. 在 **[!UICONTROL 敏捷]** 部分，在 **[!UICONTROL 方法]** 部分，确保选中Kanban。
@@ -193,8 +194,6 @@ ht-degree: 0%
 1. 选择要管理的Kanban团队。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png)，然后选择 **[!UICONTROL 编辑]**.
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
-
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
 1. 选择 **[!UICONTROL 从积压自动添加下一个故事]** 配置积压中的下一个项自动添加到 **[!UICONTROL 新建]** 列(在将项目移出 **[!UICONTROL 进行中]** 列。
@@ -215,8 +214,6 @@ ht-degree: 0%
 1. （可选）单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Kanban团队或在搜索栏中搜索团队。
 1. 选择Kanban团队。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png) ，然后选择 **[!UICONTROL 编辑]**.
-
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 

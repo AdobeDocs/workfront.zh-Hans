@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '13783'
-ht-degree: 0%
+source-wordcount: '13788'
+ht-degree: 1%
 
 ---
 
@@ -395,7 +395,7 @@ ht-degree: 0%
    * [管理和设置：文章索引](administration-and-setup/administration-and-setup.md)
    * 管理入门 {#get-started-administration}
       * [管理入门：文章索引](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-      * [定义实施目标](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+      * [定义Adobe Workfront实施目标概述](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [管理您的许可证](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [配置基础知识](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [防火墙概述](administration-and-setup/get-started-wf-administration/firewall-overview.md)
@@ -436,7 +436,7 @@ ht-degree: 0%
          * [管理公司成员资格](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [停用或重新激活公司](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [工作角色](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-         * [创建和管理职位角色](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+         * [创建和管理工作角色](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [删除职位角色](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [取消激活工作角色](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [覆盖工作角色记帐费率](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
@@ -459,7 +459,7 @@ ht-degree: 0%
          * [编辑用户配置文件](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [批量编辑用户配置文件](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [创建直接下属](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-         * [以其他用户身份登录](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+         * [以其他用户身份登录。](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
          * [重置用户的首选项](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
          * [更改用户名](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [更改自动设置用户的密码](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -546,7 +546,7 @@ ht-degree: 0%
          * [复制布局模板](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [使用API调用删除经典布局模板](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 自定义表单 {#custom-forms}
-         * [我的组中的自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [自定义表单概述](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 旧版自定义表单生成器 {#custom-form-builder}
             * 使用自定义表单生成器 {#use-the-custom-form-builder}
@@ -689,13 +689,13 @@ ht-degree: 0%
       * [管理组](administration-and-setup/manage-groups/manage-groups.md)
       * 组 {#groups}
          * [组概述](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [组](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [群组](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [子组概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [主组概述](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * 创建和管理组 {#create-manage-groups}
          * [创建和管理组](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [创建组](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-         * [管理组](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
+         * [管理群组](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
          * [组事件通知](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
          * [查看和管理组的详细信息](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
          * [查看和管理组的成员资格](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
@@ -707,7 +707,7 @@ ht-degree: 0%
          * [解锁时间表和小时首选项](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
          * [移动组](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
          * [停用或重新激活组](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
-         * [删除组](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+         * [删除群组](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [导出组列表](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * 创建和管理子组 {#create-manage-subgroups}
          * [创建和管理子组](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
@@ -980,7 +980,7 @@ ht-degree: 0%
       * [创建或编辑展示板](agile/get-started-with-boards/create-edit-board.md)
       * [删除或存档展示板](agile/get-started-with-boards/delete-archive-board.md)
       * [在讨论区中添加或删除成员](agile/get-started-with-boards/add-members-to-board.md)
-      * [管理展示板列](agile/get-started-with-boards/manage-board-columns.md)
+      * [管理展示板上的列](agile/get-started-with-boards/manage-board-columns.md)
       * [向展示板添加临时信息卡](agile/get-started-with-boards/add-card-to-board.md)
       * [在展示板上使用连接的信息卡](agile/get-started-with-boards/connected-cards.md)
       * [将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -1008,7 +1008,7 @@ ht-degree: 0%
    * [Agile概述](agile/agile-overview.md)
    * Adobe Workfront中的Agile入门 {#agile-in-workfront}
       * [Adobe Workfront中的Agile入门](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [创建Agile团队](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [创建敏捷团队](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [配置Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [配置Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * 敏捷团队中的Kanban {#kanban}
@@ -1473,7 +1473,7 @@ ht-degree: 0%
    * 适用于团队和组的提示、技巧和疑难解答 {#tips-tricks-people-teams-groups}
       * [适用于团队和组的提示、技巧和疑难解答](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [用户名已被使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* 报表 {#reporting}
+* 报告 {#reporting}
    * [报告](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 报告画布 {#reporting-canvas}
       * [报告画布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
@@ -1520,7 +1520,7 @@ ht-degree: 0%
          * [使用基于日期的通配符对报表进行泛化](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [使用基于用户的通配符对报告进行归纳](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [共享筛选器、视图或分组](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-         * [删除筛选器、视图和分组](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+         * [删除过滤器、视图和分组](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [使用里程碑视图](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [修改列宽和顺序](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
       * 使用内置报告 {#built-in-reports}
@@ -1533,7 +1533,7 @@ ht-degree: 0%
          * [创建报告](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [创建自定义报表](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
          * [运行报表](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
-         * [创建矩阵报表](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
+         * [创建矩阵报告](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
          * [创建报告副本](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
          * [按时间范围筛选报表](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
          * [向报表添加提示](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -1755,14 +1755,14 @@ ht-degree: 0%
       * [导航工作负载均衡器](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [使用链接共享工作负载均衡器](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [使用摘要更新工作负载均衡器中的工作项](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* 审阅和批准工作 {#review-and-approve-work}
+* 审查并审批工作 {#review-and-approve-work}
    * [审阅和批准工作](review-and-approve-work/review-and-approve-work.md)
    * [Alpha计划 — 文档审批](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作审批 {#work-approvals}
       * [工作审批](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [审批流程概述](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [请求文档审批](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [请求文件审批](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [审批工作](review-and-approve-work/manage-approvals/approving-work.md)
       * [查看审批](review-and-approve-work/manage-approvals/view-approvals.md)
       * [提醒审批者已提交的审批](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -1821,7 +1821,7 @@ ht-degree: 0%
             * [使用验证审批报告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [从Adobe Workfront访问Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 管理校对版本 {#manage-proof-versions}
-            * [管理校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [管理校样版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [创建新版本的验证](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [查看校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [查看和管理校对版本详细信息](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
@@ -1858,7 +1858,7 @@ ht-degree: 0%
       * 在Adobe Workfront中查看校样 {#review-proofs-in-workfront}
          * [在Adobe Workfront中查看验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * 查看证明 {#review-a-proof}
-            * [查看证明](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [审查验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在验证中查看内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [测量验证中的区域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [更改视频验证中时间轴的测量单位](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -2188,7 +2188,7 @@ ht-degree: 0%
       * [Google幻灯片模块](workfront-fusion/apps-and-their-modules/google-slides-modules.md)
       * [Google Team Drive模块](workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
       * HTTP模块 {#fusion-http-modules}
-         * [HTTP模块](workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+         * [HTTP 模块](workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
          * [HTTP >发出请求模块](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
          * [HTTP >创建基本授权请求模块](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
          * [HTTP >创建OAuth 2.0请求模块](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
@@ -2199,7 +2199,7 @@ ht-degree: 0%
       * [HubSpot CRM模块](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
       * [图像模块](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira软件模块](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
-      * [JSON模块](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JSON 模块](workfront-fusion/apps-and-their-modules/json-modules.md)
       * [MariaDB模块](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown模块](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo模块](workfront-fusion/apps-and-their-modules/marketo-modules.md)
@@ -2223,12 +2223,12 @@ ht-degree: 0%
       * [SFTP模块](workfront-fusion/apps-and-their-modules/sftp.md)
       * [SharePoint模块](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
       * [Slack模块](workfront-fusion/apps-and-their-modules/slack-modules.md)
-      * [SOAP模块](workfront-fusion/apps-and-their-modules/soap-module.md)
+      * [SOAP 模块](workfront-fusion/apps-and-their-modules/soap-module.md)
       * [Split.io模块](workfront-fusion/apps-and-their-modules/split-io-modules.md)
       * [文本分析器](workfront-fusion/apps-and-their-modules/text-parser.md)
       * [工具](workfront-fusion/apps-and-their-modules/tools-modules.md)
       * [网格模块](workfront-fusion/apps-and-their-modules/trello-modules.md)
-      * [Webhooks](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+      * [Webhook](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
       * [加宽模块](workfront-fusion/apps-and-their-modules/widen-modules.md)
       * [Workday模块](workfront-fusion/apps-and-their-modules/workday-modules.md)
       * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
@@ -2276,7 +2276,7 @@ ht-degree: 0%
       * [查看Jira活动日志](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
    * 适用于G Suite的Adobe Workfront {#workfront-for-g-suite}
       * [适用于G Suite的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [安装适用于G Suite的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [安装 Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Workfront for G Suite中的隐私和权限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [登录和注销Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [从G Suite访问Adobe Workfront主页内容](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
@@ -2338,7 +2338,7 @@ ht-degree: 0%
       * [将Anaplan预算分配应用于Adobe Workfront项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [根据Adobe Workfront营销活动请求创建Anaplan列表项](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
+* Workfront 验证 {#workfront-proof}
    * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
    * 开始使用Workfront Proof {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
@@ -2513,7 +2513,7 @@ ht-degree: 0%
          * [使用Workfront Proof创建和管理自定义配置文件](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [使用Workfront Proof在帐户之间移动用户](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
       * 组 {#groups}
-         * [组](workfront-proof/wp-mnguserscontacts/groups/groups.md)
+         * [群组](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [将组添加到验证](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof创建验证组](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [使用Workfront Proof使组成为私有组](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
@@ -2606,7 +2606,7 @@ ht-degree: 0%
    * API常规信息 {#api-general-information}
       * [API常规信息](wf-api/general/api-general.md)
       * [API 基础知识](wf-api/general/api-basics.md)
-      * [API资源管理器](wf-api/general/api-explorer.md)
+      * [API 资源管理器](wf-api/general/api-explorer.md)
       * [使用API资源管理器](wf-api/general/using-api-explorer.md)
       * [Adobe Workfront API中的富文本字段](wf-api/general/rich-text-field-api.md)
       * [API示例脚本](wf-api/general/api-example-scripts.md)

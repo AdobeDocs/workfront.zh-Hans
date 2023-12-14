@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 工作负载均衡器概述
-description: 在项目经理计划项目工作并创建任务后，您可以使用工作负载均衡器将此工作分配给团队中的用户。
-author: Alina
+description: 项目经理通过创建任务来计划项目工作之后，以及资源经理将工作角色资源分配给资源规划者中的项目之后，项目所有者和团队经理可以使用工作负载均衡器将工作项分配给用户。
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-在项目经理计划项目工作并创建任务后，您可以使用工作负载均衡器将此工作分配给用户。
+项目经理通过创建任务来计划项目工作之后，以及资源经理将工作角色资源分配给资源规划者中的项目之后，项目所有者和团队经理可以使用工作负载均衡器将工作项分配给用户。
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 
   有关更多信息，请参阅 [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  您还可以批量分配工作项，这样更容易同时跨多个项目分配大量工作项。 有关更多信息，请参阅 [使用工作负载均衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  您还可以批量分配工作项，这样更容易同时跨多个项目分配多个工作项。 有关更多信息，请参阅 [使用工作负载均衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * 执行官可以通过透明地了解组织内部人员的利用情况，及时作出人员配置决定。
 * 团队成员从更好的协作中获益，因为他们都可以随时查看同事正在做什么。 有关在工作负载均衡器中查看或管理资源所需访问的信息，请参见 [在工作负载均衡器中管理资源所需的访问权限](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ ht-degree: 0%
 
   有关在工作负载均衡器管理资源的工作负载所需的访问权限的信息，请参阅 [在工作负载均衡器中管理资源所需的访问权限](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* 要管理其工作量的用户需要满足以下条件，以便有关其可用性和技能的信息准确无误：
+* 要管理其工作量的用户必须满足以下条件，以便有关其可用性和技能的信息准确无误：
 
    * 将时间表和职位角色与其配置文件关联。
-   * 有关将时间表和工作角色与用户关联的详细信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     有关将时间表和工作角色与用户关联的详细信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * 如果用户未与时间表关联，则出于资源管理目的，默认情况下Workfront系统的默认时间表与该用户关联。
-   * 在其计划中更新计划例外。\
+   * 在其计划中更新计划例外。
+
      有关创建调度的详细信息，请参见 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * 在个人资料中更新其休息时间日历。\
+   * 在个人资料中更新其休息时间日历。
+
      有关更新用户休息时间日程表的信息，请参阅 [配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ ht-degree: 0%
      </div>   
      -->
 
-* Workfront管理员必须确定Workfront计算用户可用性的方式。 他们可以决定Workfront是使用系统默认计划还是用户计划来计算用户可用的时间。 有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Workfront管理员必须确定Workfront计算用户可用性的方式。 他们可以决定Workfront是使用系统默认计划，还是使用用户的计划通过调整Workfront设置区域中的资源管理首选项来计算用户可用的时间。
+
+  有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 设置任务和问题的最佳实践 {#best-practices-for-setting-up-tasks-and-issues}
 
 开始在工作负载均衡器中将工作分配给用户之前，确保存在以下任务和问题设置：
 
-* 父级任务未分配给用户或角色。 它们不会显示在工作负载均衡器中。
+* 父级任务未分配给用户或角色。 父任务未显示在工作负载均衡器中。
 * 任务和问题的规划小时数值大于零。
 
 * 任务和问题的持续时间值大于零。
@@ -124,16 +129,16 @@ ht-degree: 0%
 
 ## 开始使用工作负载均衡器之前
 
-* 您可以使用工作负载均衡器分配工作并管理组织中用户的每日分配。
+* 在开始使用工作负载均衡器之前，请查看以下文章：
 
-  本文向您介绍如何导航工作负载均衡器以执行以下操作： [导航工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md).
+   * 本文向您介绍如何导航工作负载均衡器以执行以下操作： [导航工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md).
 
-  以下文章将指导您逐步了解如何分配工作和管理用户分配：
+   * 以下文章将指导您逐步了解如何分配工作和管理用户分配：
 
-   * [在工作负载均衡器中分配工作概述](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [管理工作负载均衡器中的用户分配](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [在工作负载均衡器中分配工作概述](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [管理工作负载均衡器中的用户分配](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* 工作负载均衡器可以位于Workfront的多个不同区域。 有关可在何处找到工作负载均衡器的信息，请参见 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* 工作负载均衡器可以在Workfront的多个不同区域找到。 有关可在何处找到工作负载均衡器的信息，请参见 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## 使用工作负载均衡器所需的访问权限
 

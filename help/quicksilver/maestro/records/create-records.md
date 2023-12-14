@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ ht-degree: 0%
 
 * 为Maestro记录类型手动创建它们
 * 将它们连接到来自第三方应用程序的Maestro记录。
+* 通过复制和粘贴外部列表中的信息创建记录。
+
+本文介绍了如何创建Maestro记录。 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
+
+* [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## 访问要求
 
@@ -183,7 +189,7 @@ After permssions - replace the table with:
 
 ## 通过从其他应用程序连接记录来创建记录
 
-通过将Maestro链接记录链接到其他应用程序，您可以从这些应用程序中导入记录。
+通过将Maestro链接记录链接到其他应用程序，您可以从这些应用程序中导入记录。 这会为第三方应用程序连接对象创建Maestro记录类型。 连接到原始Maestro记录的记录显示在第三方应用程序连接的对象Maestro记录类型表格视图中。
 
 1. 创建Maestro记录类型，如 [创建记录类型](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ After permssions - replace the table with:
 
      例如，如果您将Maestro记录类型连接到Workfront项目，则会在同一工作区中创建名为“Workfront项目”的只读记录类型。
    * 第三方记录类型页面中的只读记录。 从第三方应用程序导入的记录仍保持只读状态，并且只能在原始应用程序中更新。
-
 
 ## 通过复制和粘贴外部列表中的信息创建记录
 

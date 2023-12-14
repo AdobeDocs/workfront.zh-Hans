@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023年12月18日起一周
+
+### 更新记录类型的表视图中的主字段
+
+预览和生产： 2023年12月14日
+
+现在，您可以选择要显示在Maestro表视图的第一列中的字段。 此字段现在称为主字段。
+
+在此增强功能之前，记录的“名称”字段始终显示在表视图的第一列中，并且无法放置到其他位置。
+
+经过此改进后，请注意以下事项：
+
+* 缺省情况下，“名称”列或字段仍是表的第一列。
+
+* 您可以选择以下任何类型的字段作为主字段，并替换第一列中的“名称”字段：
+
+   * 单行文本
+
+   * 数字
+
+   * 公式
+
+     >[!NOTE]
+     >
+     >公式类型的字段将在稍后日期发布。
+
+* 表视图的主字段始终冻结，不能移动，除非将其他字段设置为主字段。
+
+* 您可以从非主列标题中更改主字段。
+
+* 记录类型的所有表视图都具有您选择的相同主字段。
+
+有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## 2023年12月4日起一周
 

@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ drafted for P&P release:
 
 1. （可选）要将图像附加到更新，请执行下列操作之一：
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">将图像保存在计算机上，然后将其拖放到新注释区域。</span>
+     <span class="preview">生产环境中无法为新评论体验提供此功能。 在生产环境中，旧版评论体验中提供了在评论中拖放图像的功能。 </span>
 
    * <span class="preview">从计算机中复制屏幕快照，然后将其粘贴到评论中 </span>
    * 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
@@ -431,6 +430,11 @@ drafted for P&P release:
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. （可选）要在现有更新中查看图像，请执行下列操作之一：
+
+   * 单击 **预览** 图标 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 在图像缩略图上，在新的浏览器选项卡中打开全尺寸图像。
+   * 单击 **下载** 图标 ![](assets/downloadimageicon.png) 在图像缩略图上下载图像。
 
 1. 单击 **提交** 以添加您的评论。
 

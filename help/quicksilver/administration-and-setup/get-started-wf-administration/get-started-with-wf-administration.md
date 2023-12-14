@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [定义Adobe Workfront实施的目标](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [定义Adobe Workfront实施目标概述](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
 * [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [配置系统的基本信息](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* “名称”字段始终是表视图中的第一个字段。
-   >
-   >* 不能将“名称”字段移动到其他位置。
-   >
-   >* 无法隐藏“名称”字段。
-   >
-   >* “名称”字段已冻结，不是水平滚动的一部分。
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* “名称”字段始终是表视图中的第一个字段。
+     >
+     >* 不能将“名称”字段移动到其他位置。
+     >
+     >* 无法隐藏“名称”字段。
+     >
+     >* “名称”字段已冻结，不是水平滚动的一部分。
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * 通过更改主字段将第一列中的字段替换为其他字段。 有关详细信息，请继续执行步骤4。 <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. （可选）将鼠标悬停在表首列中任何未显示的字段的列标题中的字段名称上，单击字段名称右侧的向下箭头，然后单击 **设置为主字段**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. 单击 **设置字段** 以确认。
+
+   该字段将成为主字段，这意味着它将显示为表视图的第一列。 前一个主字段移至第二列。
+
+   >[!NOTE]
+   >
+   >   * 只有以下类型的字段才能是主字段：
+   >
+   >       * 单行文本
+   >       * 数字
+   >       * 公式
+   >
+   >         稍后将发布公式字段。
+   >
+   >   * 主字段始终冻结，无法移动。 如果需要将主字段移动到其他位置，您可以选择另一个字段来替换主字段。
+   >
+   >   * 更改表格视图中的主字段会影响选择它的所有其他用户的视图。
+   >
+   >   * 更改表格视图中的主字段会影响所有表格视图。
+   >
+   >   * 不能删除或隐藏主字段。
 
 1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 
