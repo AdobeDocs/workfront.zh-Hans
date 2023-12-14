@@ -6,15 +6,17 @@ description: 您可以查看Workfront实例中用户做出的验证和文档决�
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # 查看所有用户的验证和文档决策数
+
+{{highlighted-preview}}
 
 您可以查看Workfront实例中用户做出的验证和文档决策数量。
 
@@ -26,11 +28,17 @@ ht-degree: 0%
 
 要查看用户的决策数，请执行以下操作：
 
-1. 单击 **主菜单** Adobe Workfront图标，然后单击 **用户**.
+{{step-1-to-users}}
 
 1. 打开 **视图** 区域，然后选择 **许可证** 视图。
+1. 查找列 **本月决策** 用于查看每个用户在该月作出的决策数。
+1. <span class="preview">要查看历史数据，请打开 **视图** 区域并选择 **历史用户视图**.</span>
+1. <span class="preview">查找列 **用户历史决策** 要查看每个用户在一个月内作出的决定数。 从当月算起，数据会追溯至12个月。</span>
 
-1. 查找列 **本月决策** 查看每个用户在该月作出的决策。
+>[!NOTE]
+>
+><span class="preview">如果“历史用户视图”不可用，则可以创建新视图以显示历史数据。 添加 **用户历史决策** 作为视图中的列。 有关将列添加到视图的信息，请参见 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## 在报告区域中查看决策
 
@@ -38,7 +46,12 @@ ht-degree: 0%
 >
 >此报表适用于新访问级别模型和旧访问级别模型的用户。
 
-1. 单击 **主菜单** Adobe Workfront图标，然后单击 **报表**.
+{{step1-to-reports}}
+
 1. 单击 **新建报告**，然后选择 **用户决策**.
+1. 查找列 **本月决策** 用于查看每个用户在该月作出的决策数。
+
+   <span class="preview">从当月算起，数据会追溯至12个月。 此 **月** 和 **年** 列显示决策是在哪个月作出的。 第1个月是指1月，第2个月是指2月，以此类推。</span>
+
 1. 查看报告并根据需要进行编辑。 有关更多信息，请参阅 [创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
