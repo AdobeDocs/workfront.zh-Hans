@@ -6,7 +6,7 @@ description: “您在中显示的信息 [!DNL Adobe Workfront] 由存储在文�
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0d167d78477b746d35209b315f0a7903b7269d1b
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '2306'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] 对象概述
+
+<!--Audited: 12/2023-->
 
 <!--
 <***Linked to several articles, do not remove/ change. 
@@ -162,7 +164,7 @@ ht-degree: 1%
 | [!UICONTROL 公司] | ![](assets/company-icon-nwe.png)  ， ![](assets/nwe-company-icon-54x54.png) |  |
 | [!UICONTROL 仪表板] | ![](assets/dashboard-icon-nwe.png)  ， ![](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL 目标] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL 组] | ![](assets/groups-icon-nwe.png)  ， ![](assets/nwe-group-icon.png) |  |
+| [!UICONTROL 群组] | ![](assets/groups-icon-nwe.png)  ， ![](assets/nwe-group-icon.png) |  |
 | [!UICONTROL 问题] | ![](assets/issue-icon-nwe.png)  ， ![](assets/nwe-issues-icon.png) | ✔ |
 | [!UICONTROL 工作角色] | ![job_role_icon.png](assets/job-role-icon-52x50.png)， ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)， ![](assets/job-role-nwe-no-color.png)， ![](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL 计划] | ![](assets/plan-icon.png)， ![](assets/nwe-plan-icon-60x57.png) |  |
@@ -259,7 +261,7 @@ ht-degree: 1%
    * 您可以为战略目标构建报告，或者在项目与目标关联作为目标活动时，在项目报告中显示与目标相关的信息。 只有贵组织购买了，您才能创建战略目标并将项目联系起来 [!DNL Workfront Goals] 许可证。 有关信息 [!DNL Workfront Goals]，请参见 [[!DNL Workfront Goals] 概述](../../../workfront-goals/goal-management/wf-goals-overview.md). 有关将项目连接到战略目标的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 *您无法报告与关联的项目目标 [!UICONTROL 商业论证]. 有关项目目标与战略目标的信息，请参阅 [术语表 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* [!UICONTROL 组]
+* [!UICONTROL 群组]
 * [!UICONTROL 分组]
 * [!UICONTROL 小时类型]
 * [!UICONTROL 计划]

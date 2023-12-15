@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 作为Adobe Workfront管理员，您可以为用户分配访问级别，以实现以下两种目的：
 
 * 每个用户都必须具有访问级别，才能在Workfront中登录和工作。
-* 您可以使用访问级别来控制用户可以查看和处理某些Workfront对象和区域的内容。
+* 访问级别控制用户可以查看特定Workfront对象和区域并执行哪些操作。
 
 六个内置访问级别中的每一个都附加到五个Workfront许可证之一：计划、工作、审查、请求和外部。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![](assets/access-levels-and-licenses-old.png)
 
-有关相关主题的信息，请参阅以下文章：
+有关与访问级别相关的主题的信息，请参阅以下文章：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ ht-degree: 0%
   <tr> 
    <td><strong>分配访问级别</strong></td> 
    <td> <p>有关如何将访问级别分配给用户的说明，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>访问级别标准、轻度、参与者</td> 
+   <td> <p>如果您在环境中看到这些访问级别，而不是“计划”、“工作”、“审阅”或“请求”，则您的组织将使用新的访问级别模型。 有关新模型的信息，请参见 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

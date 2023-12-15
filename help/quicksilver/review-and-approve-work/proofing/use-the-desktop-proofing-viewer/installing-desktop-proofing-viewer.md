@@ -6,14 +6,16 @@ description: 桌面校对查看器是必须安装在本地计算机上的应用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # 安装桌面校对查看器
+
+<!--Audited: 12/2023-->
 
 桌面校对查看器是必须安装在本地计算机上的应用程序，主要用于校对交互式内容。
 
@@ -34,11 +36,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
+   <td> <p>新建：任何</p> <p>或</p> <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>任何</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td> <p>任何</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果在打开交互式验证时桌面验证查看器未启动，则可能意味着Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如中所述 [用于在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>如果在打开交互式验证时桌面验证查看器未启动，则可能意味着Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如中所述 [用于在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## 在Windows上安装桌面校对查看器
 

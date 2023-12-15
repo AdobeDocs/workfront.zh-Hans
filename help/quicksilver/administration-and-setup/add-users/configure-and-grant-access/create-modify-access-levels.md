@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1418'
 ht-degree: 6%
 
 ---
 
 # 创建和修改自定义访问级别
+
+<!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
@@ -42,9 +44,9 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>新计划：标准
+   <td>新增：标准
    <p>或</p>
-   <p>当前计划：计划</p></td> 
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -100,7 +102,7 @@ ht-degree: 6%
       <td>在Workfront中添加新公司和编辑现有公司。<br><p>如果没有此访问权限，用户只能查看现有公司。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的组中的自定义表单</td> 
+      <td role="rowheader">自定义表单</td> 
       <td>创建和管理其组中的所有自定义表单。 <br><p>如果没有此访问权限，用户只能将现有表单附加到他们有权贡献或管理的对象。</p></td> 
      </tr> 
      <tr> 
@@ -117,7 +119,7 @@ ht-degree: 6%
        </ul><p><b>注意</b>：不允许用户创建新费用类型。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">职位角色</td> 
+      <td role="rowheader">工作角色</td> 
       <td> 凭借此访问权限，用户可以执行以下操作： 
        <ul> 
         <li>查看和编辑现有工作角色</li> 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 文本模式语法概述
+
+<!--Audited: 12/2023-->
 
 您可以使用文本模式界面在列表和报告中创建更复杂的视图、筛选器、分组和自定义提示。 通过使用文本模式，您可以访问在标准模式界面中不可用的字段及其属性。
 
@@ -55,7 +57,7 @@ ht-degree: 0%
   有关Workfront中对象层次的信息，请参阅：
 
    * [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API资源管理器](../../../wf-api/general/api-explorer.md)
+   * [API 资源管理器](../../../wf-api/general/api-explorer.md)
 
 * 尽量使用通配符，使报告和列表更加动态，避免为不同的用户和类似的时间线重复使用它们。
 

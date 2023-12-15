@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # 记录时间
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新计划：<ul><li>在时间表中记录常规小时数的较轻或更高</li></p>
+   <td> <p>新增：<ul><li>在时间表中记录常规小时数的较轻或更高</li></p>
    <li> 在项目、任务或问题上记录小时数的标准或更高版本</li></ul></p>
    <p>或</p>
-   <p>当前计划：<ul><li>查看或更高版本以在时间表中记录常规小时数</li></p>
+   <p>当前：<ul><li>查看或更高版本以在时间表中记录常规小时数</li></p>
    <li> 用于记录项目、任务或问题的小时数的工作或更高</li></ul></p>
    </td> 
   </tr> 

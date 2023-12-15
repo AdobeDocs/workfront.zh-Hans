@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 1%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 1%
          * [定义项目的请求类型](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * 创建请求 {#create-requests}
          * [创建请求](manage-work/requests/create-requests/create-requests.md)
-         * [创建和提交Adobe Workfront请求](manage-work/requests/create-requests/create-submit-requests.md)
+         * [创建并提交请求](manage-work/requests/create-requests/create-submit-requests.md)
          * [从草稿创建请求](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [允许用户通过电子邮件将问题发送到请求队列项目](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [查找已提交的请求](manage-work/requests/create-requests/locate-submitted-requests.md)

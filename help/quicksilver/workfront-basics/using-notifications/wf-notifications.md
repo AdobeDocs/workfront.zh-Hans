@@ -6,14 +6,16 @@ description: Adobe Workfront会在您的移动设备上发送电子邮件通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1395'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 通知概述
+
+<!--Audited: 12/2023-->
 
 [!DNL Adobe Workfront] 会在您的移动设备上发送电子邮件通知、应用程序内通知和通知。
 
@@ -105,7 +107,7 @@ ht-degree: 0%
 
 自动提醒功能由您的 [!DNL Workfront] 管理员提醒您过期、延迟或接近计划完成日期的任务和问题。 对于延迟通知，在任务或问题完成之前，每夜发送电子邮件。 管理员配置这些后，将无法禁用它们。 此外，您无法更改自动提醒触发的电子邮件的内容或主题行。
 
-它们可以发送到以下一项或多项中：
+它们可以被发送至以下一类或多类人员：
 
 * 分配给任务或问题的用户
 * 用户的直属经理
