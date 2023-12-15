@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -180,6 +180,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系�
 
 
 ## 在Workfront中使用Adobe Admin Console创建系统管理员 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
 
 仅在Adobe Admin Console上授予系统管理员访问级别。 您无法在Workfront中授予或删除管理员访问权限。
 

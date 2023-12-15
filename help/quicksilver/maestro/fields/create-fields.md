@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
-ht-degree: 2%
+source-wordcount: '3158'
+ht-degree: 1%
 
 ---
 
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，选择要为其创建字段的记录类型的工作区，然后单击记录类型。
 
@@ -220,7 +220,7 @@ After permssions - replace the table with:
 1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列标题上时，将显示字段的描述。
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的单行字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -243,7 +243,7 @@ After permssions - replace the table with:
 1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的段落字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -266,7 +266,7 @@ After permssions - replace the table with:
    **将选项按A-Z排序** 选项。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. 单击 **x** 图标以将其删除。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的多选字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -288,7 +288,7 @@ After permssions - replace the table with:
 1. （可选）按所需顺序手动拖放每个选项，或选择 **将选项按A-Z排序** 选项。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. 单击 **x** 图标以将其删除。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的单选字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -319,7 +319,7 @@ After permssions - replace the table with:
       * **24小时**：例如：18:00
       * **12小时**：例如：6:00 PM
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的日期字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -341,7 +341,7 @@ After permssions - replace the table with:
    >
    >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的数字字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -363,7 +363,7 @@ After permssions - replace the table with:
    >
    >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的百分比字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -386,7 +386,7 @@ After permssions - replace the table with:
    >
    >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新货币字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -401,7 +401,7 @@ After permssions - replace the table with:
 1. 将以下信息添加到 **新建字段** 选项卡：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的复选框字段作为列添加到记录类型，其值可以与记录相关联。
 
@@ -422,7 +422,7 @@ After permssions - replace the table with:
    >
    >    如果选择“允许多个值”，并且多个用户存储在字段附加到的记录中，则以后编辑此字段时，无法再取消选择设置。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的People-type字段作为列添加到记录类型，其值可与记录相关联。
 
@@ -439,7 +439,7 @@ After permssions - replace the table with:
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的“创建者 — 类型”字段作为列添加到记录类型中，其值预先填充有创建每个记录的用户的名称。
 
@@ -472,7 +472,7 @@ After permssions - replace the table with:
       * **24小时**：例如：18:00
       * **12小时**：例如：6:00 PM
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的创建日期类型字段作为列添加到记录类型，其值预填充有创建记录的日期（或日期和时间）。
 
@@ -490,7 +490,7 @@ After permssions - replace the table with:
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的上次修改者类型字段作为列添加到记录类型，其值预填充有上次修改每个记录的用户的名称。
 
@@ -523,7 +523,7 @@ After permssions - replace the table with:
       * **24小时**：例如：18:00
       * **12小时**：例如：6:00 PM
 
-1. 单击&#x200B;**创建**。
+1. 单击 **创建**.
 
    新的“上次修改日期 — 类型”字段作为列添加到记录类型中，其值预填充有上次修改记录的日期（或日期和时间）。
 

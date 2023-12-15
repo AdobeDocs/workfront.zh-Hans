@@ -6,7 +6,7 @@ description: 您在中创建了Kanban或Scrum敏捷团队 [!DNL Adobe Workfront]
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 0%
@@ -32,6 +32,8 @@ ht-degree: 0%
 有关配置Scrum团队的信息，请参阅 [配置Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## 访问要求
+
+<!--Audited: 12/2023-->
 
 您必须具有以下权限才能执行本文中的步骤：
 

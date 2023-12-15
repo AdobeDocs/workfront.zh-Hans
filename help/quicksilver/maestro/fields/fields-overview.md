@@ -4,9 +4,10 @@ description: 您可以在AdobeMaestro中添加反映组织生命周期的新字�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -55,9 +56,9 @@ hide: yes
 
 * 您可以通过以下方式手动或自动创建字段：
 
-   * 手动:
+   * 手动：
 
-      * 通过在记录类型页的“表”视图中添加列。 表的列是与记录类型关联的字段。 这些是在记录的“详细信息”页面上显示的相同字段。
+      * 通过在记录类型页面的表视图中添加列。 表的列是与记录类型关联的字段。 这些是在记录的“详细信息”页面上显示的相同字段。
 
         不能从记录的详细信息页面创建字段。
 
@@ -71,7 +72,7 @@ hide: yes
 
       * 通过使用Excel或CSV文件导入记录类型。 有关更多信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
-   * 自动:
+   * 自动：
 
       * 默认情况下，每次创建记录类型时。
 
@@ -81,12 +82,12 @@ hide: yes
          * 描述
          * 开始日期
          * 结束日期
-         * 状态. 记录状态的默认值是：
+         * 状态。 记录状态的默认值是：
             * 开发
             * 计划
             * 活动
             * 已完成
-            * 保持
+            * 暂停
 
            您可以添加更多值或重命名现有值。
 

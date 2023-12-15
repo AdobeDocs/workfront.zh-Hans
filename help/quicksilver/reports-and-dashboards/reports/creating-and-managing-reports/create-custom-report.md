@@ -6,7 +6,7 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # 创建自定义报表
+
+<!--Audited: 12/2023-->
 
 您可以通过创建报告，提供对贵组织在Adobe Workfront中所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建自定义报告。
 
@@ -93,7 +95,7 @@ ht-degree: 1%
       <td> <p>向报表中添加分组可确定报表的组织方式。</p> <p>要了解如何添加分组，请参阅 <a href="#add-groupings-to-a-report" class="MCXref xref">向报表中添加分组</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>筛选器</td> 
+      <td>过滤器</td> 
       <td> <p>将过滤器规则添加到报表可确定您在报表中看到的信息。</p> <p>要了解如何添加过滤器，请参阅 <a href="#add-filters-to-a-report" class="MCXref xref">将过滤器添加到报表</a>.</p> </td> 
      </tr> 
      <tr> 

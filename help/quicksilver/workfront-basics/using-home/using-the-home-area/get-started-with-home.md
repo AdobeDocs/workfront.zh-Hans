@@ -6,7 +6,7 @@ description: 此 [!UICONTROL 主页] 区域是您的一站式服务，用于查�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 开始使用 [!UICONTROL 主页]
+
+<!--Audited: 12/2023-->
 
 本文介绍了当前应用程序的概述 [!UICONTROL 主页] 区域位于 [!DNL Adobe Workfront]. 有关使用新产品的信息 [!UICONTROL 主页]，请参见 [新主页入门](../new-home/get-started-with-new-home.md).
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 有关如何使用“主页日程表”的详细信息，请参阅 [使用 [!UICONTROL 主页日程表] 视图](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-## 查找您的工作
+## 找到您的工作
 
 此 [!UICONTROL 主页] 区域是您的一站式服务，用于查找分配给您的任务、问题和审批。 筛选器、分组和排序选项可协同工作，支持您以所需的方式组织工作项目。 您可以使用分组将项目分组在一起，使用筛选器重点关注需要完成的工作，最后使用排序按分组的升序或降序列出项目。
 

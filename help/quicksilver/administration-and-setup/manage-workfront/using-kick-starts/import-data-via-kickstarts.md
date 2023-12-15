@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 6%
@@ -17,6 +17,8 @@ ht-degree: 6%
 ---
 
 # 使用快速启动模板将数据导入Adobe Workfront
+
+<!--Audited: 12/2023-->
 
 Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个可用于执行此操作的快速启动模板，如中所述 [Kick-Starts数据导入程序](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
@@ -172,9 +174,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 筛选</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>组</td> 
+      <td>群组</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 组</p> <p>首选项 </p> </td> 
+      <td> <p> 群组</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>分组</td> 

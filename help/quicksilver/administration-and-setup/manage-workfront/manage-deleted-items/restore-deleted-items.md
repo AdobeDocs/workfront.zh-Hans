@@ -8,14 +8,16 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 恢复已删除的项目
+
+<!--Audited: 12/2023-->
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -63,7 +65,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * “更新”区域中的评论和回复
 * 审批
-* 任务详情
+* 分配
 * 自定义表单
 * 队列设置
 * 业务案例，包括记分卡、目标和风险
@@ -75,7 +77,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 状态
 * 财务资料：
 
-   * 开票记录
+   * 账单记录
    * 记帐费率
    * 费用
 

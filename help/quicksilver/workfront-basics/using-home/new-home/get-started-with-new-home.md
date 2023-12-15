@@ -6,7 +6,7 @@ description: 新主页是一个用于管理您的工作的强大新功能。 您
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 新主页入门
+
+<!--Audited: 12/2023-->
 
 Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体验，同时为您提供更灵活的方式以专注于正确的工作。
 

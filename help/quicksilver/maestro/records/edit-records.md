@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ After permssions - replace the table with:
 
 ### 从记录的“详细信息”页面编辑记录
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+{{step1-to-maestro}}
 
-   您上次访问的工作区将打开。
+您上次访问的工作区将打开。
 
 1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
 1. 执行下列操作之一：

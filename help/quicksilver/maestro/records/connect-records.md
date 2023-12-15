@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,13 @@ hide: yes
       * 公司
       * 群组
 
+   * Adobe Experience Manager Assets
+
+      * 图像文件
+      * 文件夹
+
+
+
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 ## 访问要求
@@ -72,9 +79,10 @@ hide: yes
  <col>
 <tbody>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> Adobe产品</p> 
+   </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>要将Maestro记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -183,20 +191,21 @@ After permssions - replace the table with:
 
 ### 有关连接记录的注意事项
 
-* 建立记录类型之间的连接后，连接的记录类型在它们链接到的记录类型表中显示为链接记录字段。
+* 连接记录类型后，连接的记录类型在链接它们的记录类型表中显示为链接记录字段。
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
 * 您可以将链接记录类型的字段添加到要链接的记录类型的表中。
 * 您无法手动更新正在链接的记录中链接字段的值。
 
-  链接记录中链接字段的值会自动填充您正在链接的Maestro记录。
+  链接记录中链接字段的值会自动填充您从所配置的Maestro工作区或从第三方应用程序链接的Maestro记录。
 
-* 每个有权访问Maestro的人都可以看到您在Maestro记录之间或Maestro记录与Workfront对象之间建立的连接。 此外，您还可以查看和编辑其他所有人的连接。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* 每个有权访问Maestro的人都可以看到您在Maestro记录之间或Maestro记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们对您所连接的第三方应用程序的权限如何。
+* 您可以查看和编辑其他所有人的连接。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * 您可以将一个Maestro记录连接到另一个应用程序的一个或多个对象。
-* 不能连接分类以记录类型或从其他应用程序连接到对象。 <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* 要将Maestro记录与Workfront对象链接，您必须具备以下条件：
+* 要将Maestro记录与其他记录或对象链接，您必须具备以下各项：
 
-   * Workfront对象。 例如，您必须首先在Workfront中创建项目、项目组合、项目、公司或组。
-   * Maestro工作区、记录类型和记录。 有关更多信息，请参阅以下文章：
+   * 至少有一个Maestro工作区、记录类型和记录。
+
+     有关更多信息，请参阅以下文章：
 
       * [创建工作区](../architecture/create-workspaces.md)
       * [创建记录类型](../architecture/create-record-types.md)
@@ -213,12 +222,8 @@ After permssions - replace the table with:
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
-1. 从所选记录类型添加与另一记录或对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
-
-   新列将添加到表中以显示链接的记录类型。
-
-1. 通过向表添加新行将记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
-1. 从表视图中列出的记录，转到链接的记录列，将鼠标悬停在与要与其他Maestro记录链接的记录对应的单元格上，然后单击 **+** 图标。
+1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](../../maestro/records/create-records.md).
+1. 从表视图中列出的记录，转到链接的记录列，将鼠标悬停在与要与其他记录链接的记录对应的单元格上，然后单击 **+** 图标。
 
    此 **连接对象** 框显示。
 
@@ -232,23 +237,22 @@ After permssions - replace the table with:
 
    添加了以下内容：
 
-   * 链接的记录显示在您在步骤3中选择的记录的链接记录字段中。 更新链接的记录会自动更新您正在链接的记录的链接记录字段。 <!--ensure the number of the step stays accurate-->
-   * 属于链接记录的链接字段会自动填充原始链接记录中的信息。 您无法手动编辑链接的字段。
+   * 链接的记录显示在您在步骤5中选择的记录的链接记录字段中。 <!--accurate?--> 更新链接的记录会自动更新您正在链接的记录的链接字段。 您无法手动编辑链接的字段。
 
      >[!TIP]
      >
      >* 我们交替使用“链接字段”和“查找字段”。
      >
-     >* 如果在连接记录类型时启用了“允许多条记录”设置，则多个选定对象的字段值要么以逗号分隔，要么根据您选择的聚合器聚合。
+     >* 如果您已启用 **允许多条记录** 设置连接记录类型时，多个选定对象的字段值显示时用逗号分隔，或根据您选择的聚合器聚合。
 
-1. （可选）关闭“Maestro记录类型”页面，然后转到您选择的工作区。
+1. （可选）关闭Maestro记录类型页面，然后转到所选的工作区。
 1. 单击链接到的记录类型的卡。
 
-   例如，如果您已将Campaign记录与产品记录连接，请单击 **产品** 卡片。
+   例如，如果您已连接 **营销活动** 包含产品记录的记录，单击 **产品** 卡片。
 
-   记录类型卡片应在“表”视图中打开。
+   记录类型卡片应在“表”视图中打开。 如果没有，请选择表格视图。
 
-   请注意，Campaign链接记录字段显示您在产品记录类型页面中链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
+   请注意 **营销活动** 链接记录字段显示您在产品记录类型页面中链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
 ### 将Maestro记录连接到Workfront对象
 
@@ -282,7 +286,7 @@ After permssions - replace the table with:
    添加了以下内容：
 
    * 选定的Workfront对象将添加到链接的记录字段。
-   * 将字段添加到链接记录时，将为您选择的每个链接字段创建新的链接字段（或查找字段）。
+   * 如果您在通过Workfront连接记录类型时添加了它们，则链接字段（或查找字段）会自动填充Workfront中的信息。
    * 名为“&lt; Name of the Workfront object type >”的新记录类型将在与链接的Maestro记录相同的工作区中创建。 对象的名称是此记录类型名称的一部分。 例如，链接到Workfront项目会创建 **项目** Maestro中的记录类型。
 
      这是只读记录类型，它显示在您从Maestro记录创建的新链接对象字段中选择的Workfront对象。 链接的对象的链接字段也会显示在只读链接的Workfront记录中。
@@ -302,13 +306,9 @@ After permssions - replace the table with:
 
 
 1. （可选）关闭“Maestro记录类型”页面，然后转到您选择的工作区。
-1. 单击Workfront对象记录类型的卡片。 例如，单击 **Workfront项目** 信息卡(如果链接到Workfront项目)。 只读Workfront记录类型卡片应在“表”视图中打开。
+1. （可选）单击Workfront对象记录类型的卡片。 例如，单击 **项目** 信息卡(如果链接到Workfront项目)。 应在表视图中打开只读Workfront记录类型卡片。
 
-   >[!NOTE]
-   >
-   >    * Workfront记录类型页面中列出的记录是只读Workfront对象。 从Workfront记录类型链接的字段也显示为只读列，在Workfront中填充这些字段时，会自动填充这些字段。
-   >    * 您不能在Maestro中手动更新Workfront字段。 Workfront对象字段必须在Workfront中填充，并且字段值会自动显示在Maestro的Workfront记录中。
-   >
+   Workfront记录类型页面中列出的记录是已从Maestro记录链接的只读Workfront对象。 从Workfront记录类型链接的字段也显示为只读列，在Workfront中填充这些字段时，会自动填充这些字段。
 
 1. （可选）要在Maestro中打开Workfront对象记录“详细信息”页面，请执行以下操作之一：
 
@@ -325,7 +325,7 @@ After permssions - replace the table with:
 
 1. （可选）要在Workfront中打开链接的Workfront对象，请执行以下操作之一：
 
-   * 从 **表** Workfront记录类型页面的视图，单击Workfront对象的名称，
+   * 从 **表** 查看Workfront记录类型页面，单击Workfront对象的名称，以在Maestro中打开项目记录
 
    或
 
@@ -335,7 +335,7 @@ After permssions - replace the table with:
 
    此时将打开Workfront对象页面。 如果您有相应的权限，则可以编辑有关Workfront对象的信息。
 
-1. （可选）单击 **添加字段** 图标 ![](assets/add-fields-icon.png) 表视图右上角的Workfront记录类型页面，用于从Workfront记录类型中添加或删除Workfront字段。
+1. （可选）在Maestro的只读Workfront对象记录页面中，单击 **添加字段** 图标 ![](assets/add-fields-icon.png) 要从Workfront记录类型中添加或删除Workfront字段，请执行以下操作：
 
    >[!NOTE]
    >
@@ -349,6 +349,12 @@ After permssions - replace the table with:
 ### 将Maestro记录连接到Adobe Experience Manager对象
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+>[!IMPORTANT]
+>
+>您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Maestro记录连接到Adobe Experience Manager Assets。
+>
+>如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 在Maestro记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个Maestro记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的Maestro记录类型上。
 
@@ -372,24 +378,23 @@ After permssions - replace the table with:
 1. 单击可选择以下某些类型的资产：
 
    * 图像
-   * 收藏集
    * 文件夹
 
    您可以选择多个资源。
 
    >[!IMPORTANT]
    >
-   > 您只能连接您有权在Experience Manager中查看的资源。
+   > 您只能连接您有权在Experience Manager中查看的资源。 连接后，所有Maestro用户都可以在Maestro中查看资源，无论他们在Experience Manager Assets中如何访问。
 
 1. 单击 **选择**.
 
    添加了以下内容：
 
    * 选定的Experience Manager资源将添加到链接的记录字段。
-   * 将字段添加到链接记录时，将为您选择的每个链接字段创建新的链接字段（或查找字段）。
-   * 名为“Experience Manager Assets”的新记录类型将在与链接的Maestro记录相同的工作区中创建。
+   * 链接的字段（或查找字段）会填充Experience Manager所连接资源中的信息。
+   * 名为“Experience Manager Assets”的新记录类型将在与链接的Maestro记录相同的工作区中创建。 <!--is this still added?-->
 
-     这是只读记录类型，它显示在您从Maestro记录创建的新链接对象字段中选择的Experience Manager对象。 链接对象的链接字段也会显示在只读链接Experience Manager记录中。
+     这是只读记录类型，它显示在您从Maestro记录创建的新链接对象字段中选择的Experience Manager资源。 链接对象的链接字段也会显示在只读链接Experience Manager记录中。
 
      >[!IMPORTANT]
      >
@@ -405,14 +410,10 @@ After permssions - replace the table with:
      >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Maestro链接记录的链接记录字段。
 
 
-1. （可选）关闭“Maestro记录类型”页面，然后转到您选择的工作区。
+1. （可选）关闭Maestro记录类型页面，然后转到所选的工作区。
 1. 单击Experience Manager Assets记录类型的卡。 只读Experience Manager Assets记录类型卡片应在“表”视图中打开。
 
-   >[!NOTE]
-   >
-   >    * Experience Manager Assets记录类型页面中列出的记录是只读资源。 从Experience Manager Assets记录类型链接的字段也显示为只读列，当这些字段在Experience Manager中填充时，会自动填充它们。
-   >    * 您不能在Maestro中手动更新Experience Manager字段。 必须在Experience Manager中填充Experience Manager资源字段，并且字段值会自动显示在Maestro的Experience Manager Assets记录中。
-   >
+   Experience Manager Assets记录类型页面中列出的记录是只读资源。 从Experience Manager Assets记录类型链接的字段也显示为只读列，当这些字段在Experience Manager中填充时，会自动填充它们。
 
 1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。 <!--update screen shot with hi-rez picture-->
 

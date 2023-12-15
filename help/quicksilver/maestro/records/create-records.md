@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ After permssions - replace the table with:
 
    >[!NOTE]
    >
-   >  * “名称”字段不是必填字段。 但是，我们建议您为记录添加名称，因为在将记录相互链接时，识别记录会很有帮助。
+   >  * 记录没有必填字段。 但是，我们建议您为记录添加名称，因为在将记录相互链接时，识别记录会很有帮助。
    >
    >  * 引用其他记录类型或计算字段的字段为只读字段。
 

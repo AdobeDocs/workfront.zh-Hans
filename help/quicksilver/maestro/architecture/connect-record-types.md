@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 您可以连接以下各项：
 
-* Maestro操作记录类型
-* 将运营记录类型主要归入分类记录类型
-* 操作记录类型的主要分类类型
-* Maestro操作记录类型和来自其他应用程序的对象类型。
+* 将主要操作记录类型相互转换
+* 相互间的主要分类
+* 将主要操作记录类型和分类相互关联
+* Maestro操作记录类型和分类与其他应用程序的对象类型相同。
 
 这样，您便可以在另一个Maestro记录中显示链接记录或对象类型中的字段。
 
@@ -75,7 +75,8 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
    <p> Adobe产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets</p>
+   <p><b>注释</b></p>
+   <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。 </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
@@ -123,7 +124,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -185,11 +186,7 @@ After permssions - replace the table with:
    * 两种操作记录类型
    * 两种分类
    * 操作记录类型和分类
-   * 来自另一个应用程序的操作记录类型和对象类型。
-
-     >[!TIP]
-     >
-     >    无法将分类记录类型连接到操作记录类型或从其他应用程序连接到对象类型。
+   * 操作记录类型或分类以及来自其他应用程序的对象类型。
 
 * 您可以连接以下具有Maestro记录类型的应用程序中的以下对象：
 
@@ -203,36 +200,44 @@ After permssions - replace the table with:
 
    * Adobe Experience Manager Assets：
 
-      * 资产
+      * 图像
       * 文件夹
-      * 收藏集
+
+     >[!IMPORTANT]
+     >
+     >您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Maestro记录连接到Adobe Experience Manager Assets。
+     >
+     >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * 将记录类型与另一个记录类型或另一个应用程序中的对象类型连接后，将出现以下情况：
 
-   * 连接两种记录类型时：在要连接的记录类型上创建“链接记录”字段。 在您连接的记录类型上会创建一个类似的链接记录字段。
+   * **连接两种记录类型时**：在您连接的记录类型上创建链接记录字段。 在您连接的记录类型上会创建一个类似的链接记录字段。
 
      例如，如果将“Campaign”记录类型与“Product”记录类型连接，则将在“Campaign”记录类型上创建名为“链接的产品”的链接记录字段，并在“Product”记录类型上创建自动名为“Campaign”的链接记录类型。
 
-   * 将记录类型字段与分类连接时：在要连接的记录类型上创建链接记录字段。 在要连接的分类上不会创建任何链接的记录字段。
+   * **将记录类型与另一个应用程序的对象类型连接时**：在您连接的记录类型上创建链接记录字段。 在第三方应用程序对象上不会自动创建任何链接的记录字段。
 
-     例如，如果将“Campaign”记录类型与“Audience”分类记录类型连接，则在Campaign记录类型上创建名为“链接受众”的链接记录字段。 在受众分类记录类型上未创建自动命名为“Campaign”的链接记录字段。 <!--this might be temporary-->
-
-   * 将记录类型字段与另一个应用程序的对象类型连接时：将在您连接的记录类型上创建链接记录字段。 Workfront中的Workfront项目不会自动创建任何链接的记录字段。 仅当实际对象连接到Maestro记录时，才会在Workfront对象记录类型上创建链接记录字段。
+     仅当实际对象连接到Maestro记录时，才会为第三方应用程序对象创建新的Maestro记录类型。
 
      有关更多信息，请参阅 [连接记录](../records/connect-records.md).
 
-* 连接记录类型后，可以将一个记录类型的多个字段连接到另一个记录类型。 我们将这些字段称为“链接字段”或“查找字段”。
+   * **从您连接的记录或对象添加查找字段时**：链接的字段会添加到您正在连接的记录中，其中显示您选择的查找字段，这些字段将从链接的记录转到您正在链接的记录。 记录字段始终为只读，并且会自动填充第三方对象的值。
+
+     例如，如果您将“Campaign”Maestro记录类型连接到Workfront项目，并且选择将该项目的“计划完成日期”字段引入Maestro记录，则将为您链接来源的记录自动创建一个名为“计划完成日期”（来自项目）的链接字段。
+
 * 链接的记录字段前面有关系图标 ![](assets/relationship-field-icon.png).
+
+  链接的字段前面有标识该字段类型的图标。 例如，指示字段是数字、段落或日期的图标。
+
 * 为记录类型创建单个记录后，您可以从链接的记录类型字段中选择连接到的记录。 有关信息，请参阅 [连接记录](../records/connect-records.md).
-* 不能编辑链接字段来自链接记录类型的信息，因为一旦您选择链接记录，这些字段就会自动从它们所属的原始记录类型填充。
 
 ## 连接记录类型
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/dots-main-menu.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/lines-main-menu.png) 图标，然后单击 **[!UICONTROL 大师]**.
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录类型的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
@@ -242,16 +247,19 @@ After permssions - replace the table with:
 
 1. 在 **记录类型** 字段中，选择下列选项之一： <!--is the field name spelled right? lowercase "t"?-->
 
-   * 所选工作区中的另一个操作记录类型
-   * 所选工作区中的分类
-   * Workfront对象类型部分中的项目、Portfolio、项目群、公司或组。
-   * Adobe应用程序部分中的Experience Manager Assets 。
+   * 所选工作区中的其他操作记录类型或分类
+
+     >[!TIP]
+     >
+     >只有所选工作区中的记录类型和分类可供连接。
+     > 
+     >如果在所选工作区中没有其他记录类型，则不会显示工作区名称。
+
+   * A **项目、Portfolio、计划、公司**，或 **组** 从 **Workfront对象类型** 部分。
+   * **Experience Manager Assets** 从 **Adobe应用程序** 部分。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-   >[!TIP]
-   >
-   > 只有选定工作区的记录类型和分类可供选择。
 
 1. 更新以下信息：
 
@@ -275,7 +283,7 @@ After permssions - replace the table with:
 
 1. 单击 **创建**.
 
-1. （视情况而定）如果您选择 **选择查找字段** 在上一步中，设置 **添加查找字段** 框打开。
+1. （视情况而定）如果您选择 **选择查找字段** 设置， **添加查找字段** 框打开。
 
    单击 **+** 图标，以添加来自的字段 **未选择的字段** 区域。
 
@@ -285,9 +293,8 @@ After permssions - replace the table with:
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   >[!NOTE]
-   >
-   >如果您未选择任何字段，则 **名称** 在原始记录的表格视图中，链接记录的字段是唯一可见的字段。 此 **名称** 无法删除字段。
+
+1. （可选）单击 **跳过** 并且不要从链接的记录或对象添加任何字段。 此 **名称** 在原始记录的表格视图中，链接记录的字段是唯一可见的字段。
 
 1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择聚合器值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或聚合的值。
 
@@ -318,19 +325,17 @@ After permssions - replace the table with:
 
 1. （可选）使用 **搜索** 图标 ![](assets/search-icon.png) 以搜索字段。
 
-1. （可选）单击 **跳过** 如果您不想添加来自所连接记录类型的任何字段。
-
 1. 单击 **添加字段** 以保存更改。
 
    添加了以下项目：
 
-   * 手动添加链接记录类型后，将显示这些记录的链接记录字段。 链接记录字段的名称是您在步骤6中选择的名称。 <!-- ensure this is still accurate-->
+   * 手动添加链接记录类型中的记录后，显示这些记录的链接记录字段。 链接记录字段的名称是您在步骤5中选择的名称。 <!--accurate-->
 
-   * 在链接记录字段中手动添加记录后，将显示链接记录类型字段中信息的链接字段（或字段）。 仅在以下情况下创建链接的字段： **选择查找字段** 创建连接时可选择“设置”。 链接的字段根据以下模式进行命名：
+   * 在链接记录字段中手动添加记录后，显示链接记录类型字段中信息的链接字段（或字段）。 仅在以下情况下创建链接的字段： **选择查找字段** 创建连接时可选择“设置”。 链接的字段根据以下模式进行命名：
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * 要链接的记录类型上的链接记录字段。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
+   * 当您将Maestro记录类型链接到彼此时，链接记录字段也会添加到要链接的记录类型上。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
 
      例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并将营销活动的连接字段命名为“链接的产品”，则会为“Product”记录类型创建“Campaign”链接记录字段。
 
@@ -341,7 +346,14 @@ After permssions - replace the table with:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   要添加或移除查找字段，请按照上述步骤7-12中的说明操作。 <!--ensure these step numbers stay accurate-->
+   要添加或移除查找字段，请按照上述步骤9-13中的说明操作。 <!--ensure these step numbers stay accurate-->
+
+   >[!NOTE]
+   >
+   > 您无法将链接到的记录的查找字段添加到指示第三方应用程序中对象的链接记录类型。
+   >
+   > 例如，在链接到Workfront项目时，您无法从“Maestro项目”记录类型中显示的“Campaign”链接记录字段中添加“Campaign”Maestro对象的查找字段。
+
 
 1. （可选）在链接记录字段标题中，从要链接的记录类型单击向下箭头，然后单击 **删除**.
 

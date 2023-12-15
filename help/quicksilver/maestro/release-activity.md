@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### 将Maestro记录与Adobe Experience Manager (AEM)资源连接起来
+### 将Maestro记录与Adobe Experience Manager Assets连接
 
 预览版本： 2023年12月14日
 
 生产版本： 2023年12月15日
 
-现在，您可以在Maestro记录类型与Adobe Experience Manager资源之间建立连接。
+>[!IMPORTANT]
+>
+>贵组织的Workfront实例必须载入到Adobe业务平台或Adobe Admin Console，才能将Maestro记录连接到Adobe Experience Manager Assets。
+>
+>如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+现在，您可以在Maestro记录类型与Adobe Experience Manager Assets之间建立连接。
 
 建立连接后，以下功能可用于此更新：
 
-* Maestro用户可以将AEM资源、文件夹或收藏集链接到AEM中他们有权访问的特定存储库中的Maestro记录
+* 您可以将Experience Manager资源和文件夹从Experience Manager Assets中他们有权访问的特定存储库链接到Maestro记录。 在此过程中，您可以将资源字段连接到Maestro字段。
 
-* Maestro用户连接到记录后，即可查看Maestro中所有连接的资产。
+* Maestro用户可以查看Maestro中连接的资产的名称以及连接字段的值
 
-* 建立连接后，会在Maestro中自动创建Experience Manager Assets记录类型。 连接的资产在此新记录类型的Maestro表和时间线视图中可见。
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* 您可以在从中连接的Maestro记录表中查看AEM资源信息。
+* 您可以在Maestro记录的“已连接”记录字段中单击表格视图中的资产名称，并查看包含资产缩略图和多个关键字段的弹出窗口。 从弹出窗口中，您可以导航到Experience Manager中的资源查看器，并查看有关该查看器的所有详细信息。
 
-有关更多信息，请参阅 [连接记录类型](/help/quicksilver/maestro/architecture/connect-record-types.md)
+有关更多信息，请参阅 [连接记录类型](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023年12月4日起一周
 

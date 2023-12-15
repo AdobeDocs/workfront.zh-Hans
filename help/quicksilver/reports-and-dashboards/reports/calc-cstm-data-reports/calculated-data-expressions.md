@@ -7,7 +7,7 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 计算数据表达式概述
+
+<!--Audited: 12/2023-->
 
 您可以使用数据表达式在Adobe Workfront中定义计算的自定义字段。 计算表达式将生成新字段的语句中的现有Workfront字段连接在一起。
 
