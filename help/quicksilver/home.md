@@ -3,10 +3,10 @@ title: ’[!DNL Adobe Workfront] 文档
 description: 文档 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -65,11 +65,11 @@ Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理
 
 请参阅 [报告和仪表板](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
-#### 文本模式报表
+#### 文本模式报告
 
 如果您不知道如何在Workfront中创建所需的报告，则可能需要使用文本模式找到您所查找的解决方案。
 
-请参阅 [文本模式资源](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+请参阅 [文本模式资源：文章索引](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### 工作负载均衡器
 
@@ -91,7 +91,7 @@ Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理
 
 请参阅 [API基础知识](/help/quicksilver/wf-api/general/api-basics.md).
 
-### API资源管理器
+### API 资源管理器
 
 您可以在API资源管理器中查看通过Adobe Workfront API提供的所有对象。
 

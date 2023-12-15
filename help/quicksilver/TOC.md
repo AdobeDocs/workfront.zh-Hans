@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 1%
          * [查看：用户个人休息时间](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [按多选自定义字段绘制报表图表](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * 文本模式资源 {#text-mode}
-         * [文本模式资源](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [文本模式资源：文章索引](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [文本模式概述](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [文本模式的常见用途概述](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [文本模式语法概述](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)

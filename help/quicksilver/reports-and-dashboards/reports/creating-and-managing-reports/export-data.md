@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 导出数据
-description: 了解如何导出报表数据
+description: 您可以从各种列表、报表、功能板和搜索中导出Adobe Workfront数据。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # 导出数据
 
+<!-- Audited: 12/2023 -->
+
 您可以从各种列表、报表、功能板和搜索中导出Adobe Workfront数据。
+
+导出数据的一些原因包括：
+
+* 您希望向Workfront外部的人员提供数据的硬拷贝。
+* 要将报告结果作为附件发送给外部用户。
+* 您要创建Workfront数据的外部备份。
+* 在Workfront Web应用程序中，有一个限制是在一个页面上仅显示2,000个结果。 如果您的报告生成超过2,000个，您可以将报告导出为任何可用格式，并在一个列表中查看报告中的所有结果。
+
+您可以从Workfront界面手动导出报表，也可以计划报表的交付，并稍后向您发送该报表。 有关计划传送报表的更多信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 本文中的信息不适用于以下导出：
 
 * 从图表报表导出信息。
@@ -29,15 +41,6 @@ ht-degree: 0%
 * 从资源规划者导出信息。
 
   有关从资源规划者导出信息的更多信息，请参阅中的“导出选项” [资源规划者导航概述](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-导出数据的一些原因包括：
-
-* 您希望向Workfront外部的人员提供数据的硬拷贝。
-* 要将报告结果作为附件发送给外部用户。
-* 您要创建Workfront数据的外部备份。
-* 在Workfront Web应用程序中，有一个限制是在一个页面上仅显示2,000个结果。 如果您的报告生成超过2,000个，您可以将该报告导出为以下任一格式，并在一个列表中查看报告中的所有结果。
-
-您可以从Workfront界面手动导出报表，也可以计划报表的交付，并稍后向您发送该报表。 有关计划传送报表的更多信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## 访问要求
 
@@ -55,29 +58,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td>
+    <p>新增：浅色或更高</p>
+    <p>或</p>
+    <p>当前：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限的报告、功能板、日历以导出报告</p> <p>在列表中查看对象或更高访问权限，以导出列表</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看或更高权限的报告、功能板和日历以导出报告</p> <p>在列表中查看对象或更高访问权限，以导出列表</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看报表或功能板的权限或更高以导出报表或功能板</p> <p>查看您在列表中查看的对象或更高权限以导出列表</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看报表或功能板的权限或更高以导出报表或功能板</p> <p>查看您在列表中查看的对象或更高权限以导出列表</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 先决条件
 
 必须先创建报表，然后才能导出其数据。
 
-有关创建报告的详细信息，请参阅 [创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+有关创建报告的详细信息，请参阅 [创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 或 [创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## 导出格式和限制
-
-* [导出格式](#export-formats)
-* [导出限制](#export-limits)
 
 ### 导出格式 {#export-formats}
 
@@ -105,7 +110,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    * 对于Excel .xls文件，此限制为 **65,000行**.
    * 对于Excel .xlsx文件，此限制为 **100,000行**.
-   * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行或数据，则导出的文件将有50,000行。
+   * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
    * 通过API集成导出。
    * 通过快速启动导出的数据。
 
-     有关通过快速启动导出数据的更多信息，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     有关通过快速启动导出数据的更多信息，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >尽管您只能将数据导出为Excel格式文件，但可以在快速启动文件中导出50,000行。 
+     >尽管您只能将数据导出为Excel格式文件，但可以在快速启动文件中导出50,000行。
 
    * 导出项目的利用率信息。
 
@@ -151,9 +156,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 ## 导出数据
 
-* [从报表或列表导出数据](#export-data-from-a-report-or-list)
-* [从功能板导出数据](#export-data-from-a-dashboard)
-
 ### 从报表或列表导出数据 {#export-data-from-a-report-or-list}
 
 1. 转到要导出的报告或列表。
@@ -167,14 +169,17 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 1. 单击 **导出**，然后选择格式。
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   要导出仪表板报告，您必须拥有计划许可证。\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    或
 
-   单击 **导出** 图标 ![](assets/export-icon-nwe.png)，然后选择格式。
+   单击 **导出** 图标 ![“导出”图标](assets/export-icon-nwe.png)，然后选择格式。
 
    可用于导出PDF的选项取决于Workfront用户设置中的区域设置：
 
@@ -212,9 +217,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 无论您是导出对象列表还是导出报告，导出的文件都将具有文件名和标题。 您可以通过引用文件名在计算机上找到导出的文件。 报告的标题将为用户指明在与他们共享导出文件时该文件的内容。
 
-* [导出列表的文件名](#file-names-for-exported-lists)
-* [导出报表的文件名](#file-names-for-exported-reports)
-
 #### 导出列表的文件名 {#file-names-for-exported-lists}
 
 导出对象列表时，对象的类型会显示在导出文件的文件名以及列表标题中。
@@ -247,9 +249,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 导出对象列表时，只有PDF格式的文件会有标题。 如果将列表或报表导出为Excel、Excel (.xlsx)或Tab分隔格式，则文件没有标题。
 
-* [导出列表的标题](#titles-for-exported-lists)
-* [导出报告的标题](#titles-for-exported-reports)
-
 #### 导出列表的标题 {#titles-for-exported-lists}
 
 将项目中的任务和问题列表导出到PDF文件时，所导出文档的标题是以下标题之一：
@@ -257,7 +256,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * *项目名称 — 导出的任务*
 * *项目名称 — 导出的问题*
 
-将Task中的Task和Issue列表导出到PDF文件时，所导出文档的拼贴是以下拼贴之一：
+将任务中的任务和问题列表导出到PDF文件时，所导出文档的拼贴是以下拼贴之一：
 
 * *项目名称 — 任务名称 — 导出的任务*
 * *项目名称 — 任务名称 — 导出问题*
@@ -274,7 +273,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 如果报表导出为Excel、Excel (.xlsx)或Tab分隔格式，则导出的报表将没有标题。 导出的文件的标题是报表在Workfront Web应用程序中显示的名称。
 
-如果报告有说明，它将包含在导出的文件中。
+如果报告有说明，则将其包含在导出的文件中。
 
 ### 时间戳 {#timestamps}
 
@@ -297,11 +296,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 在发送或计划发送报告时，除非报告具有特殊视图，否则您始终会收到报告的默认选项卡。
 
-如果报表在Web应用程序中具有特殊格式，则在仅针对.pdf和Excel文件交付“详细信息”和“矩阵”选项卡时，应使用特殊格式交付报表。
+如果您的报表在Web应用程序中具有特殊格式，则在交付“详细信息”和“矩阵”选项卡时，报表应具有特殊格式，仅适用于.pdf和Excel文件。
 
 >[!NOTE]
 >
-如果要导出的数据包含共享列，并且要导出为Excel或Tab分隔格式，则导出的文件中会分隔这些列。
+>如果要导出的数据包含共享列，并且要导出为Excel或Tab分隔格式，则导出的文件中会分隔这些列。
 
 有关如何自定义报表中的格式的详细信息，请参阅 [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
-如果行 `valueformat=HTML` 对于自定义字段列，如果以文本模式显示，并且链接值不显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
+>如果行 `valueformat=HTML` 对于自定义字段列，如果以文本模式显示，并且链接值不显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
 >
-例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
+>例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 在导出为Excel格式时，导出的文件中只包含指向Workfront中对象的链接，并且只有在您可以选择允许导出Excel文档中存在链接的位置（如报表投放）才支持使用链接。
 
 ## 品牌化 {#branding}
+
+>[!IMPORTANT]
+>
+>品牌仅适用于尚未载入Adobe Experience Cloud的组织。
+>
+>如果您的组织已登记到Adobe Experience Cloud，则品牌推广不可用。
 
 如果您的Workfront管理员为全局导航栏的Workfront实例添加了自定义品牌，则导出的.pdf文件还将包含您的个性化徽标。
 
