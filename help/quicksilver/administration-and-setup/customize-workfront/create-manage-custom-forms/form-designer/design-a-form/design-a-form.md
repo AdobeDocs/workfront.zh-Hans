@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
-ht-degree: 4%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -391,7 +391,7 @@ ht-degree: 4%
 
 * **预输入**：允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 此字段类型支持以下对象：
    * 用户
-   * 组
+   * 群组
    * 工作角色
    * 项目组合
    * 项目群
@@ -499,6 +499,10 @@ ht-degree: 4%
 ### 添加外部查找字段
 
 外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。
+
+>[!NOTE]
+>
+>外部查找功能在Document对象上不可用。
 
 要添加外部查找，请执行以下操作：
 
