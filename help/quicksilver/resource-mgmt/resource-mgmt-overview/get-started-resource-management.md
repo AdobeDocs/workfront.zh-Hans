@@ -7,14 +7,16 @@ description: 资源管理允许您配置系统，以便根据资源的可用性�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 资源管理入门
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
    * **资源规划者**：您可以使用资源管理第一阶段的资源规划者，根据资源的计划可用性来预算资源的项目时间。 在资源计划阶段，您可以在资源池中组织用户，并将多个资源池分配给一个项目。
 
-     有关资源计划的详细信息，请参阅部分 [Adobe Workfront中的资源规划](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     有关资源计划的详细信息，请参阅 [Adobe Workfront中的资源规划](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **场景规划器**：这是一个更高级别的资源规划，可让您跨多个计划管理这些资源，这些计划可以跨一个、三个或五年计划并包含多个项目。 您可以使用最佳方案以充分利用其可用性和预算。
 
@@ -48,7 +50,7 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
    * **工作负载均衡器**：这属于资源管理的较低级别阶段，您可以在该阶段根据完成资源所需的小时数和可用性将资源分配给资源必须完成的实际工作（任务和问题）。 使用工作负载均衡器，您可以将用户分配到当前未分配或分配给工作角色的实际工作。
 
-     有关Workfront均衡器的信息，请参阅部分 [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     有关Workfront均衡器的信息，请参阅 [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
 有关Workfront中每个资源管理工具的要求的信息，请参阅以下内容：
 
-* 文章中的“使用资源规划者的先决条件”部分 [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* 部分 [在资源规划者中工作的先决条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 在文章中 [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* 文章中的“使用工作负载均衡器的最佳实践”部分 [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 部分 [使用工作负载均衡器的最佳实践](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 在文章中 [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [在工作负载均衡器中管理资源所需的访问权限](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

@@ -2,11 +2,11 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 项目模板概述
-description: 您可以使用项目模板来捕获与组织中的项目关联的大多数可重复流程、信息和设置。
+description: 您可以使用项目模板捕获与组织中项目关联的大多数可重复流程、信息和设置。
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 1%
@@ -15,20 +15,22 @@ ht-degree: 1%
 
 # 项目模板概述
 
-您可以使用项目模板来捕获与组织中的项目关联的大多数可重复流程、信息和设置。
+<!-- Audited: 12/2023 -->
 
-您可以定义任务、队列主题、自定义表单、在模板中附加文档。
+您可以使用项目模板捕获与组织中项目关联的大多数可重复流程、信息和设置。
 
-创建模板后，您可以将它们附加到现有项目，也可以使用它们构建新项目。 有关模板的所有信息都会传输到使用该模板创建的项目。
+您可以在模板中定义任务、队列主题、自定义表单和附加文档。
+
+创建模板后，您可以将其附加到现有项目，或者使用它们构建新项目。 模板上的所有信息将传输到使用它创建的项目。
 
 ## 在Adobe Workfront中使用模板的好处
 
 以下是使用模板创建项目的一些好处：
 
-* 在创建重复的新项目时，这样可节省您的时间和精力。
-* 您在项目范围中具有一致的信息，这些信息是相似的。
-* 在报告项目时，此功能非常有用。 例如，您可以报告共享同一模板的项目，以比较其进度并查找完成方式的改进。
-* 除了定义将来的项目设置之外，您还可以在模板上为将来的项目添加以下信息：
+* 在创建重复的新项目时，它可以节省您的时间和精力。
+* 您在范围相似的项目间具有一致的信息。
+* 在报告项目时，此插件非常有用。 例如，您可以报告共享同一模板的项目，比较其进度并发现改进完成方式的方法。
+* 除了定义未来的项目设置外，您还可以为模板上的未来项目添加以下信息：
 
    * 任务
    * 文档
@@ -38,7 +40,7 @@ ht-degree: 1%
    * 主题组
    * 路由规则
    * 自定义Forms
-   * 公司和集团信息
+   * 公司和组信息
 
 ## 创建模板的最佳实践
 
@@ -48,39 +50,39 @@ ht-degree: 1%
 
 创建模板时，请考虑以下事项：
 
-* 不要将用户分配给模板任务。 虽然您可以将任务保留为未分配状态，但我们建议您将作业角色分配给任务。 这样，您就可以在使用模板创建项目时，为用户分配哪些任务。
-* 始终为模板任务指定“持续时间”和“计划小时数”值。 项目中的每个任务都应与任务保持打开状态的持续时间相关联，并且与“计划小时”值关联，以了解任务实际完成所花费的时间。 在Workfront中使用资源管理工具时，无法为资源正确编入没有此信息的任务预算。
+* 不要将用户分配给模板任务。 虽然您可以保留未分配任务，但我们建议您为任务分配工作角色。 这将让您了解在使用模板创建项目时，可以为任务分配哪些用户。
+* 始终为模板任务指定持续时间和已计划小时数值。 项目中的每个任务都应与任务可以保持打开状态的持续时间相关联，并与计划小时值相关联，以说明任务实际完成所需的时间。 在Workfront中使用资源管理工具时，无法正确为没有此信息的任务预算资源。
 
-   有关持续时间的信息，请参阅以下文章：
+  有关持续时间的信息，请参阅以下文章：
 
-   * [任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [任务工期和工期类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [项目持续时间概述](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-   有关计划时数的信息，请参阅 [计划时数概述](../../../manage-work/tasks/task-information/planned-hours.md).
+  有关计划小时数的信息，请参阅 [计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* 当您对未来项目计划的整个内容有清晰的了解时，请在最后添加任务之间的前置任务关系。 向模板任务添加前置任务与向项目任务添加前置任务类似。
+* 在任务的最后，当您对未来的项目计划有一个明确的了解时，添加前置任务关系。 将前置任务添加到模板任务与将前置任务添加到项目中的任务类似。
 
-   有关将前置任务添加到任务的信息，请参阅 [任务前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  有关向任务添加前置任务的信息，请参阅 [前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* 指示应将模板与谁共享以供将来使用，以及应将从模板创建的项目与谁共享。 有关共享模板的信息，请参阅 [共享项目模板](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
-* 使用全局批准流程，并尽可能将其添加到您的模板和模板任务中。 当任务或未来项目需要完成相同的批准时，这将节省时间。
+* 指示模板应当与谁共享以供将来使用，以及应当与谁共享将从模板创建的项目。 有关共享模板的信息，请参阅 [共享项目模板](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* 使用全局审批流程，并在可能的情况下将其添加到模板和模板任务。 在任务或未来项目需要经过相同的审批时，这将节省时间。
 
-   有关创建审批的信息，请参阅 [为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  有关创建批准的信息，请参阅 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-   有关将审批流程与工作项关联的信息，请参阅 [将新审批流程或现有审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  有关将审批流程与工作项关联的信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-## 模板的创建方法
+## 创建模板的方法
 
 您可以通过以下方式创建新模板：
 
-* 白手起家。\
-   有关从头开始创建新模板的更多信息，请参阅 [创建项目模板](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+* 从头开始。\
+  有关从头开始创建新模板的详细信息，请参阅 [创建项目模板](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
-* 从现有项目，将项目另存为模板。\
-   有关从现有项目创建模板的更多信息，请参阅 [从项目创建模板](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
+* 从现有项目中，通过将项目另存为模板。\
+  有关从现有项目创建模板的详细信息，请参阅 [从项目创建模板](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
 
-* 从其他模板复制模板。\
-   有关复制现有模板的更多信息，请参阅 [复制项目模板](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+* 通过从另一个模板复制它。\
+  有关复制现有模板的详细信息，请参阅 [复制项目模板](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* 使用示例模板。\
-   有关使用示例模板构建模板的更多信息，请参阅 [根据示例创建项目模板](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
+* 使用我们的示例模板。\
+  有关使用我们的示例模板构建模板的更多信息，请参阅 [根据示例创建项目模板](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
