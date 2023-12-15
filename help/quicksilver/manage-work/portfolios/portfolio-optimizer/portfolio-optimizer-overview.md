@@ -7,9 +7,9 @@ description: 此 [!UICONTROL Portfolio优化器] 是用于项目评估和比较�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ ht-degree: 0%
 
 此 [!UICONTROL Portfolio优化器] 只有在您已满足以下前提条件时，才能协助您：
 
-
-* 此 [!UICONTROL 商业案例] 项目已完成。 有关信息，请参阅部分中的文章 [定义业务案例](../../projects/define-a-business-case/define-business-case.md).
-* 在要审阅的项目的“项目详细信息”部分的“项目概述”区域中定义项目组合
+* 此 [!UICONTROL 商业案例] 项目已完成。 有关信息，请参阅中的文章 [定义业务案例：文章索引](../../projects/define-a-business-case/define-business-case.md).
+* 在要审阅的项目的“项目详细信息”部分的“项目概述”区域中定义项目组合。
 * 您已为要审阅的项目指明了项目预算和计划收益。 固定成本和固定收入是可选的，但可增加其他值。 有关信息，请参阅 [项目财务字段](../../projects/project-finances/project-finances-overview-1.md).
-
 
 有关查找 [!UICONTROL Portfolio优化器]，请参见 [找到 [!UICONTROL Portfolio优化器]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 

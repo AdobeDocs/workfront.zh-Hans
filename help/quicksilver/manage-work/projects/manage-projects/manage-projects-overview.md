@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 管理项目
+title: “管理项目：文章索引”
 description: 有关管理项目的信息，请参阅以下文章。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# 管理项目
+# 管理项目：文章索引
 
 本节包含以下文章：
 

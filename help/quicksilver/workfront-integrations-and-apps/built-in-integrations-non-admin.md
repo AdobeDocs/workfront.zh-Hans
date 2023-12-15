@@ -7,7 +7,7 @@ description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -15,6 +15,8 @@ ht-degree: 3%
 ---
 
 # Adobe Workfront内置集成概述
+
+<!-- Audited: 12/2023 -->
 
 您可以集成 [!DNL Adobe Workfront] 第三方应用程序及其他 [!DNL Adobe] 产品。 这些集成可以扩展的 [!DNL Workfront] 并根据贵组织的需求对其进行定制。 例如，如果您是营销行业的创意工作者，则可以使用 [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 可将资源直接从Photoshop导出到Workfront的应用程序。
 

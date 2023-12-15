@@ -6,9 +6,9 @@ description: 为项目定义工作分解结构(WBS)是一组最终概述项目�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfront中的资源管理允许您确定是否有足够的员工完成项目�
 
 Workfront将计算每个任务的计划成本以及项目的整体成本。 任务的计划成本包括任务的所有费用以及分配给任务的员工或角色的成本。 任务、角色和员工的小时费率在任务、角色和用户创建期间分配。
 
-有关项目财务的信息，请参阅部分 [项目财务](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+有关项目财务的信息，请参阅部分 [项目财务：文章索引](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## 确定项目的批准点
 
@@ -129,7 +129,7 @@ Workfront将计算每个任务的计划成本以及项目的整体成本。 任�
 * 任务序列和时间线（计划的开始和完成日期以及任务持续时间）
 * 前置任务依赖项
 * 子关系和父关系
-* 任务详情
+* 分配
 
 完成WBS后，您可以在项目级别的任务列表或报表中查看它。
 

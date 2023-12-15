@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 项目财务
+title: “项目财务：文章索引”
 description: 以下文章包含有关可在其中查找项目财务信息的区域以及如何管理项目财务的信息。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# 项目财务
+# 项目财务：文章索引
 
 有关可在其中找到项目财务信息的区域以及如何管理项目财务的信息，请参阅以下文章：
 

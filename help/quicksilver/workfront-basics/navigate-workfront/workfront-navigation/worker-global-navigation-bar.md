@@ -7,9 +7,9 @@ description: 主菜单会随着您分配的访问级别而更改 [!DNL Adobe Wor
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 主页]**：此处显示分配给您的任务和问题。 这是Worker的默认登录页面，但它不会出现在 [!UICONTROL 主菜单] 除非Workfront管理员将其添加到布局模板中。  有关信息，请参阅 [开始使用 [!UICONTROL 主页]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL 项目]**：此处显示与您共享的项目。 有关信息，请参阅 [项目](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL 项目]**：此处显示与您共享的项目。 有关信息，请参阅 [项目：文章索引](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL 报表]**：与您共享的报告将显示在此处。 有关信息，请参阅 [报表](../../../reports-and-dashboards/reports/reports-overview.md).
 

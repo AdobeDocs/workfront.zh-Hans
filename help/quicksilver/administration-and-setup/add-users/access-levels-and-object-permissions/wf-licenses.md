@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 ---
 
 # 许可证概述
+
+<!-- Audited: 12/2023 -->
 
 您的组织在获得Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户分配五种类型的Workfront许可证之一。
 

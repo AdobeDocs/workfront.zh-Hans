@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 6ad50604b74310659572d679f483afa0fc44491f
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 ---
 
 # 准备将您的组织载入Adobe Admin Console
+
+<!-- Audited: 12/2023 -->
 
 由于Adobe Workfront是一种Adobe产品，因此您可以通过Adobe Admin Console访问它。 这使您能够在一个中心位置为用户管理Workfront以及其他Adobe帐户和产品。
 
