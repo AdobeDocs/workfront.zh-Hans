@@ -7,9 +7,9 @@ description: 您可以集成 [!DNL Adobe Workfront] 第三方应用程序。 这
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,6 @@ Workfront中目前提供以下内置集成。
     <ul> 
      <li>在中创建新票证 [!DNL Jira] 基于中的任务和问题 [!DNL Workfront]</li> 
      <li>同步链接任务的更新和状态，介于 [!DNL Workfront] 和 [!DNL Jira] </li> 
-     <li>对两者都有效 [!DNL Jira] 服务器和Jira云 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
