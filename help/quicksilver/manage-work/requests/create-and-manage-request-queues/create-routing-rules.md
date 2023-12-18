@@ -8,18 +8,20 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
 # 创建路由规则
 
+<!-- Audited: 12/2023 -->
+
 路由规则可控制Adobe Workfront在将问题提交到请求队列时对问题执行的操作。 有关创建请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-路由规则将问题发送给最适于解决提交的问题或请求的特定用户或工作角色。 路由规则通常与队列主题相关联，这些主题用于控制将应用于问题或请求的路由规则。
+路由规则将问题发送给最适合解决已提交问题或请求的特定用户或工作角色。 路由规则通常与队列主题相关联，这些主题用于控制将哪个路由规则应用于问题或请求。
 
 ## 访问要求
 
@@ -53,7 +55,7 @@ ht-degree: 2%
 </table>
 -->
 
-您必须具备以下条件：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,11 +63,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td>
+    <p>新增：标准</p>
+    <p>或</p>
+    <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -75,19 +80,19 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
 ## 创建路由规则
 
-1. 转到要为请求添加路由规则的项目。
-1. 单击 **路由规则** （在左侧面板中）。 您可能需要单击 **显示更多**，则 **路由规则**.
+1. 转到要在其中添加请求路由规则的项目。
+1. 单击 **路由规则** 在左侧面板中。 您可能需要单击 **显示更多**，则 **路由规则**.
 1. 单击 **新建路由规则** 以添加新规则。
-1. 为路由规则指定以下信息：
+1. 为传送规则输入以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,15 +102,15 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名称</strong> </td> 
-      <td> <p>路由规则的名称。 如果您有权查看有关项目的此信息，则可以查看路由规则。</p> </td> 
+      <td>路由规则的名称。 如果您有权查看有关项目的此信息，则可以查看路由规则。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>描述</strong> </td> 
       <td>添加路由规则的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>默认受分派人*</strong> </td> 
-      <td>添加应将新问题分配给的活动用户或活动工作角色。 此字段只能有一个默认被分派人。 </td> 
+      <td role="rowheader"><strong>默认代理人*</strong> </td> 
+      <td>添加应将新问题分配给的活动用户或活动工作角色。 此字段只能有一个默认被分配人。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>默认团队*</strong> </td> 
@@ -113,7 +118,7 @@ ht-degree: 2%
 
    <p><b>注释</b></p>
 
-   提交问题后，您可以编辑其分配并分配其他用户、角色或团队。 有关信息，请参阅  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">分配问题 </a>.
+   提交问题后，可编辑其分配并分配其他用户、角色或团队。 有关信息，请参阅  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">分配问题</a>.
 
    </td> 
      </tr> 
@@ -126,16 +131,16 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >*如果用户、工作角色或团队在与路由规则关联后停用，则请求将继续路由到这些用户、工作角色或团队。 您必须定期清点所有工艺路线规则，并将已停用的分配替换为有效分配。
+   >*如果用户、工作角色或团队在与路由规则关联后停用，请求将继续路由到这些用户、工作角色或团队。 您必须定期清点所有路由选择规则，并将已停用的分配替换为有效分配。
 
    将问题路由到项目时，拥有该问题权限的用户将获得在该项目上设置的权限。 有关设置项目权限的信息，请参阅 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![新建路由规则框](assets/new-routing-rule-box.png)
 
 1. 单击&#x200B;**保存**。
 
-   此过程仅定义路由规则。 为确保问题在提交到请求队列时得到路由，您必须在 **队列详细信息** 选项卡位于 **默认路由**.
+   此过程仅定义路由规则。 为确保问题在提交到请求队列时得到路由，您必须在 **队列详细信息** 选项卡在 **默认路由**.
 
-   有关向请求队列添加默认路由的信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   有关将默认路由添加到请求队列的信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    如果要将多个传送规则与请求队列关联，则必须创建多个队列主题，并将每个主题与单独的传送规则关联。 有关创建队列主题的详细信息，请参见 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

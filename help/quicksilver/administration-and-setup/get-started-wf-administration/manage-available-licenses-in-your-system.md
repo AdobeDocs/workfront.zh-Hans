@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 管理系统中的可用许可证
 description: 作为Adobe Workfront管理员，您可以访问有关您的Workfront帐户的信息，包括为您的组织购买的许可证数量，以及当前正在使用的许可证数量。
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # 管理系统中的可用许可证
+
+<!-- Audited: 12/2023 -->
 
 作为Adobe Workfront管理员，您可以访问有关您的Workfront帐户的信息，包括为您的组织购买的许可证数量，以及当前正在使用的许可证数量。
 
@@ -33,7 +35,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td>
+    <p>新增：标准</p>
+    <p>或</p>
+    <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -44,11 +49,11 @@ ht-degree: 0%
 
 ## 查看您组织的许可证
 
-当您向添加到Workfront的用户分配访问级别时，会自动使用更新的已用许可证数量。 有关更多信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+当您向添加到Workfront的用户分配访问级别时，会自动更新正在使用的许可证数量。 有关更多信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 要查看系统中的许可证信息，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板底部，单击 **系统** > **许可证**.
 
@@ -62,16 +67,16 @@ ht-degree: 0%
 
 ## 查看有关Workfront加载项许可证的信息
 
-在下面的屏幕快照中， **10个验证许可证中的5个** 表示该组织拥有付费的Workfront Proof加载项，并且当前使用他们购买的10个Workfront Proof许可证中的5个。
+如果您的组织有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如， **10个验证许可证中的5个** 指示该组织当前正在使用他们购买的10个Workfront验证许可证中的5个。
 
-![](assets/updated-licenses-page.png)
+![Workfront加载项许可证](assets/updated-licenses-page.png)
 
 如果您的组织已购买Workfront Goals，则此产品的许可证信息也会显示在此处。 在这种情况下，您可以查看以下信息：
 
 * 贵公司已购买的Workfront目标许可证总数
 * 与用户关联的Workfront目标许可证数量。 这是在其访问级别至少授予了目标查看访问权限的用户数量。
 
-有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md). 有关访问Workfront目标的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md). 有关访问Workfront目标的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->没有管理权限的用户可以使用组报告查看许可证计数。 在报告选项卡中，创建新的组报告并添加以下列：>
+>没有管理权限的用户可以使用组报告查看许可证计数。 在报告选项卡中，创建新的组报告并添加以下列：
+>
 >* 许可证类型限制：工作人员限制
 >* 许可证类型限制：规划者限制
 >
 >要了解有关创建报告的更多信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## 查看有关每月验证和文档决策拨款的信息
 
@@ -103,11 +108,11 @@ If an organization has other paid add-on products, their license information als
 
 有关验证和文档决策限制的更多信息，请参阅 [非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![每月决策分配](assets/monthly-decision-allotment.png)
 
 ## 在“许可证”页面中添加或删除主组 {#add-or-remove-a-home-group-to-the-licenses-page}
 
-需要商业或企业Workfront计划才能使用此功能。 有关各种可用计划的详细信息，请参阅 [Workfront计划。](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 每个用户只能分配给一个主组。 Workfront通过计算每个主组中分配和当前使用的许可证数，提供了面向组的许可证计数。
 
@@ -121,7 +126,7 @@ If an organization has other paid add-on products, their license information als
 
 要在许可证页面中添加或删除主组，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板底部，单击 **系统** > **许可证**.
 
@@ -143,11 +148,11 @@ If an organization has other paid add-on products, their license information als
 
 默认情况下，许可证最大数量设置为N/A，这意味着没有限制。
 
-组管理员可以查看他们管理的主组中分配和使用的许可证数量。 有关更多信息，请参阅 [在新的Adobe Workfront Experience中查看组中分配和使用的许可证数量](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+组管理员可以查看他们管理的主组中分配和使用的许可证数量。 有关更多信息，请参阅 [查看组中已分配和使用许可证的数量](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
-设置主组的最大许可证计数：
+设置主组的最大许可证数：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板底部，单击 **系统** > **许可证**.
 
