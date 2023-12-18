@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ ht-degree: 0%
 
 * 有关如何创建访问级别的信息，请参阅 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * 有关用户如何彼此共享对象以及如何授予这些对象的“查看”和“编辑”权限的信息，请参阅 [向对象授予权限并请求权限](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* 有关文档文章中提供的访问要求表格的信息，请参阅 [Workfront文档中的访问级别要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
