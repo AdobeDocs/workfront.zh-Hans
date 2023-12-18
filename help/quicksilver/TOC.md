@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02bff4280909c8a7a26a51356503268a87704c06
+source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
 workflow-type: tm+mt
-source-wordcount: '13821'
+source-wordcount: '13825'
 ht-degree: 1%
 
 ---
@@ -470,7 +470,7 @@ ht-degree: 1%
          * [审核日志](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [查看和导出审核日志](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [查看用户登录信息](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-         * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [在Adobe Admin Console中管理用户](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * 新访问级别的工作方式 {#access-levels}
          * [新访问级别的工作方式](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新访问级别概述](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
