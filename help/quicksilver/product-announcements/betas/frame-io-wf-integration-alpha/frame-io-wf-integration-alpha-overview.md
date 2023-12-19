@@ -8,7 +8,7 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 充分利用这两个领域，了解Frame.io和Workfront之间简化的体验（包括新文档批准）如何推动您的内容生命周期，从工作启动到签核和交付。
 
 
-要了解有关alpha的计划功能以及如何对其进行测试的更多信息，请参阅 [Adobe Workfront和Frame.io本机集成alpha：功能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+要了解有关alpha的计划功能以及如何对其进行测试的更多信息，请参阅 [Adobe Workfront和Frame.io本机集成alpha：功能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >

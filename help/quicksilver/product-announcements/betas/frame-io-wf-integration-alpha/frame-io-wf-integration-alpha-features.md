@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,16 @@ ht-degree: 0%
 
 通过这种集成，我们的目标是让创意人员留在他们选择的工具（CC或Frame.io）中来执行其内容创建和同行审阅，同时让项目经理从Workfront内部协调工作并初始化和监控正式审阅流程。 这可以通过利用两种解决方案中的最佳功能来实现：Workfront用于管理内容批准的新文档批准，以及Frame.io提供的内容审查功能。 总之，新文档批准和Frame.io将形成我们新的端到端内容审查和批准体验。 
 
-要详细了解Alpha的运行方式和参与方式，请参阅 [Adobe Workfront和Frame.io集成alpha：概述](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+要详细了解Alpha的运行方式和参与方式，请参阅 [Adobe Workfront和Frame.io集成alpha：概述](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
 >如果您是在没有您的公司参与此Alpha程序的情况下访问这些页面的，请确保谨慎处理此处的信息，并联系Workfront或Frame.io管理员以获取更多信息。
 >
+
+## 演示视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
 
 ## 基本测试场景
 
