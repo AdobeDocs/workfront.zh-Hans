@@ -1,17 +1,18 @@
 ---
-title: AdobeMaestro字段
+title: “字段：文章索引”
 description: 您可以在AdobeMaestro中添加反映组织生命周期的新字段。 字段是记录类型的属性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# 字段信息
+# 字段：文章索引
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ hide: yes
 * [编辑字段](../fields/edit-fields.md)
 * [删除字段](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

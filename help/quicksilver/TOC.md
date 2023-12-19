@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 1%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 1%
          * [创建自定义状态和优先级标签](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [状态概述](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [列出所有项目状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [项目状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [系统项目状态概述](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [列出所有任务状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [任务状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [列出问题状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -2003,7 +2003,7 @@ ht-degree: 1%
    * [Adobe大师概述](maestro/maestro-overview.md)
    * [AdobeMaestro发布活动](maestro/release-activity.md)
    * Adobe大师架构 {#adobe-maestro-architecture}
-      * [架构信息](maestro/architecture/architecture-information.md)
+      * [架构：文章索引](maestro/architecture/architecture-information.md)
       * [创建工作区](maestro/architecture/create-workspaces.md)
       * [记录类型和分类概述](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [创建运营记录类型](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 1%
       * [连接记录类型和记录的示例](maestro/architecture/example-connect-record-types-and-records.md)
       * [工作区模板列表](maestro/architecture/workspace-templates.md)
    * AdobeMaestro字段 {#adobe-maestro-fields}
-      * [字段信息](maestro/fields/fields-information.md)
+      * [字段：文章索引](maestro/fields/fields-information.md)
       * [字段概述](maestro/fields/fields-overview.md)
       * [创建字段](maestro/fields/create-fields.md)
       * [编辑字段](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 1%
       * [访问概述](maestro/access/access-overview.md)
       * [授予对Adobe大师的访问权限](maestro/access/grant-access.md)
    * AdobeMaestro记录 {#adobe-maestro-records}
-      * [记录信息](maestro/records/records-information.md)
+      * [记录：文章索引](maestro/records/records-information.md)
       * [创建记录](maestro/records/create-records.md)
       * [连接记录](maestro/records/connect-records.md)
       * [编辑记录](maestro/records/edit-records.md)
       * [删除记录](maestro/records/delete-records.md)
       * [共享记录](maestro/records/share-records.md)
+      * [管理记录注释](maestro/records/manage-record-comments.md)
    * AdobeMaestro视图 {#adobe-maestro-views}
-      * [视图信息](maestro/views/views-information.md)
+      * [视图：文章索引](maestro/views/views-information.md)
       * [管理记录视图](maestro/views/manage-record-views.md)
       * [管理表视图](maestro/views/manage-the-table-view.md)
       * [管理时间线视图](maestro/views/manage-the-timeline-view.md)

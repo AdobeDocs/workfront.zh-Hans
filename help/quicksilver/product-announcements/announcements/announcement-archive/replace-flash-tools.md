@@ -1,26 +1,26 @@
 ---
-title: 在Adobe Workfront中替换基于Flash的工具
-description: 在Adobe Workfront中替换基于Flash的工具
+title: Adobe Workfront中基于Flash的工具的替换
+description: Adobe Workfront中基于Flash的工具的替换
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 1%
+source-wordcount: '2702'
+ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中替换基于Flash的工具
+# Adobe Workfront中基于Flash的工具的替换
 
-我们已从Adobe Workfront Classic中删除了所有基于Flash的工具。
+我们已从Adobe Workfront Classic中删除所有基于Flash的工具。
 
-基于当前标准的替换工具现在在Workfront中提供。 这些更改与Adobe宣布的停止对Flash产品的支持保持一致。
+Workfront中现在提供了基于当前标准的替换工具。 这些更改与Adobe宣布的Flash产品支持终止一致。
 
 ## 重要日期
 
-以下日期对于在Workfront中删除所有基于Flash的工具非常重要：
+以下日期对于Workfront中所有基于Flash的工具的删除过程非常重要：
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -34,80 +34,80 @@ ht-degree: 1%
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **2020年11月19日**:所有基于Flash的工具都已从所有Workfront产品中删除。
+* **2020年11月19日**：已从所有Workfront产品中删除所有基于Flash的工具。
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact
   <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.
   </MadCap:conditionalText>
   -->
 
-## 基于Flash的旧版工具
+## 基于Flash的传统工具
 
-以下部分中列出的工具已从Workfront系统中删除，并替换为新的解决方案。
+以下部分列出的工具已从Workfront系统中删除并替换为新的解决方案。
 
-有关替换工具的信息，请参阅 [旧版基于Flash的工具及其替代方法](#legacy-flash-based-tools-and-their-replacements) 在本文中。
+有关替换工具的信息，请参见 [基于Flash的旧版工具及其替代工具](#legacy-flash-based-tools-and-their-replacements) 本文章中。
 
 ### 资源管理
 
-* “人员”区域中的“旧版资源计划”选项卡以及选项卡中包含的所有工具，包括以下内容：
+* “人员”区域中的“旧版资源计划”选项卡以及该选项卡中包含的所有工具，其中包括以下内容：
 
    * 资源预算管理器
    * 性能规划者
    * 资源评估
    * 资源网格\
-      有关更多信息，请参阅 [Adobe Workfront资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     有关更多信息，请参阅 [Adobe Workfront中的资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-* 项目业务案例中的“旧资源估计”区域
+* 项目业务案例中的旧版资源评估区域
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   is displayed in view-only mode
   </MadCap:conditionalText>
   -->
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   For more information, see
   <a href="../../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref">Migrate from Legacy Resource Estimates to Resource Budgeting </a>
   </MadCap:conditionalText>
   -->
 
-   。
+  。
 
-* 项目“人员配备”选项卡中的“资源网格”子选项卡
-* 项目“人员配备”选项卡的“计划”子标签中的“使用新计划区域”选项，该选项将删除旧计划区域或团队生成器。 在这种情况下，计划时间轴现在默认显示。
-* 用户配置文件下的“分配”选项卡
+* 项目的“员工”选项卡中的“资源网格”子选项卡
+* 在项目的“人员配备”标签的“计划”子标签中的“使用新计划区域”选项，该标签删除了原有计划区域或小组生成器。 在这种情况下，现在默认显示计划时间线。
+* 用户配置文件下的分配选项卡
 
 ### 报告
 
-已删除以下报表功能和报表：
+已删除以下报告功能和报告：
 
-* 删除了报表功能：
+* 已删除报表功能：
 
    * 用户报表中的“资源网格”选项
-   * 项目或任务报表中的“旧版甘特图”选项\
-      有关更多信息，请参阅 [在甘特图中查看信息](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * 项目或任务报告中的“传统甘特图”选项\
+     有关更多信息，请参阅 [在甘特图中查看信息](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * 删除的报表：
 
-   * 旧版资源池报表
-   * 资源估计报告
+   * “传统资源池”报告
+   * “资源评估”报表
 
-   >[!NOTE]
-   >
-   >通过报表或API访问的所有旧版字段（旧版资源池、旧版预算成本、旧版成本、旧版预算小时数、旧版预算人工成本等）都会显示在各种报表中，但不会填充新信息。
+  >[!NOTE]
+  >
+  >通过报表或通过API访问的所有旧版字段（旧版资源池、旧版预算成本、旧版成本、旧版预算小时数、旧版预算劳力成本等）都会显示在各种报表中，但不会填充新信息。
 
 ### 传统甘特图
 
-* 项目和任务列表中的所有旧版甘特视图，以及报表和报表选项
-* “Portfolio”和“程序”中的“旧甘特图”子选项卡
-* 模板上的模板任务列表中的“旧甘特图”子选项卡、模板任务的“子任务”选项卡中的“旧甘特图”视图以及模板任务报表中的“旧甘特图”子选项卡
+* 项目和任务列表以及报表和报告选项中的所有旧版甘特图
+* Portfolio和程序中的“旧版甘特图”子选项卡
+* 模板上的模板任务列表中的“旧甘特图”子选项卡，模板任务的“子任务”选项卡中的“旧甘特图”视图，以及“模板任务”报告中的“旧甘特图”视图
 
-### 验证
+### 校对
 
-对于大多数客户而言，旧版校样查看器已被替换为新的Web校样查看器和桌面校样查看器，并且已于2020年11月为所有客户删除了旧版校样查看器。
+旧版验证查看器已替换为适用于大多数客户的新Web验证查看器和桌面验证查看器，并且已于2020年11月为所有客户删除。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">With the 2018.2 release, the Legacy proofing viewer was removed as the default viewer.</p>
@@ -115,10 +115,10 @@ ht-degree: 1%
 
 有关更多信息，请参阅以下资源：
 
-* [Web校样查看器中的审阅校样](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [在桌面校对查看器中查看校样](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [在Web验证查看器中查看验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [在桌面校对查看器中查看校对](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
   -->
 
@@ -133,13 +133,13 @@ ht-degree: 1%
 </div>
 -->
 
-## 旧版基于Flash的工具及其替代方法 {#legacy-flash-based-tools-and-their-replacements}
+## 基于Flash的旧版工具及其替代工具 {#legacy-flash-based-tools-and-their-replacements}
 
-除非另有指定，否则所有旧版特征都已被新特征替换，如下表所示。
+除非另有指定，否则所有旧版功能都已替换为新功能，如下表所示。
 
 >[!CAUTION]
 >
->基于Flash的旧版工具已从所有环境中删除。
+>已删除所有环境中基于Flash的旧工具。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -147,71 +147,71 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> <p><strong>旧版工具</strong> </p> </th> 
-   <th> <p><strong>新工具</strong> </p> </th> 
+   <th> <p><strong>新建工具</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>传统资源池</strong> </p> <p>旧版资源池是完成项目同时需要的作业角色的组或集合。 旧版资源池存在许多缺点：</p> 
+   <td> <p><strong>传统资源池</strong> </p> <p>传统资源池是完成项目时同时需要的职务角色的组或集合。 传统资源池存在许多缺点：</p> 
     <ul> 
-     <li> 您可以将一个用户与一个旧版资源池相关联，但该资源池仅用于报告目的。 由于旧版资源池使用抽象作业角色实体运行，因此没有考虑用户的计划例外和休息时间，从而导致有关资源可用性的数据不准确。 </li> 
+     <li> 您可以将一个用户与一个旧版资源池关联，但该资源池仅用于报告目的。 由于传统资源池使用抽象工作角色实体运行，因此未考虑用户的计划例外和空闲时间，从而导致有关资源可用性的数据不准确。 </li> 
     </ul> 
     <ul> 
-     <li>您只能为每个项目指定一个旧版资源池，这会导致多个旧版资源池仅支持独立工作且从不共享资源的不同组的流。 在所有其他情况下，建议保留一个包含系统中所有资源的旧版资源池，这会导致大量项目和数据出现性能问题。</li> 
+     <li>您只能为每个项目指定一个传统资源池，这将导致多个传统资源池仅支持独立工作的各个组的流，并且永远不会共享资源。 在所有其他情况下，建议保留一个包含系统中所有资源的传统资源池，这会导致大量项目和数据出现性能问题。</li> 
     </ul> </td> 
-   <td> <p><strong>资源池</strong> </p> <p>新资源池是完成项目同时需要的用户集合。 Workfront还认识到，在某些情况下，专业用户需要将工作单独分配给他们。 因此，您现在可以对用户进行预算，而不是对作业角色进行预算。 </p> 资源池相对于旧版资源池的优势包括： 
+   <td> <p><strong>资源池</strong> </p> <p>新资源池是完成项目时同时需要的用户的集合。 Workfront还认识到，在某些情况下，专门用户需要单独为其分配工作。 因此，您现在可以预算用户而非工作角色。 </p> 与旧版资源池相比，资源池具有以下优势： 
     <ul>
-     <li>由于资源池基于用户，因此在计算用户和角色可用性时已考虑其休息时间和计划例外。 这样可生成精确且最新的数据，从而能够做出正确的预算决策，并最大限度地减少项目运行中发生更改的可能性。</li>
-     <li>由于现在对资源可用性和数据准确性有了更多的控制，因此Workfront允许您将多个资源池与一个项目相关联。 一个用户也可以属于多个资源池，以防他们同时具有多个可在多个项目中使用的技能。 </li>
-    </ul><p>由于对数据的这种控制，不再需要有一个资源池来包含分配可用预算的所有资源。 事实上，我们不建议这样做。 相反，我们建议您将资源池多样化，并仅将相关资源池与项目关联。</p><p> 有关资源池的详细信息，请参阅 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 资源池概述 </a></p></td> 
+     <li>由于资源池基于用户，因此计算用户和角色可用性时已考虑其休息时间和计划例外情况。 这样可以提供准确和最新的数据，从而做出正确的预算决定，并在项目实施期间最大限度地降低变更的可能性。</li>
+     <li>由于现在可以更好地控制资源的可用性和数据的准确性，因此Workfront允许您将多个资源池与一个项目关联。 一个用户也可以属于多个资源池，前提是他们拥有多种技能，可以同时用于多个项目。 </li>
+    </ul><p>由于对数据有这样的控制，不再需要有一个包含所有资源的资源池来分配可用预算。 事实上，我们不推荐这样做。 为此，我们建议多元化您的资源池并仅将相关资源池与项目相关联。</p><p> 有关资源池的详细信息，请参见 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 资源池概述 </a></p></td> 
   </tr> 
   <tr> 
-   <td> <p><strong>资源预算管理器</strong> </p> <p>您可以使用资源预算管理器指定多个资源池中作业角色资源的可用性。 但是，由于旧版资源池的缺点，很少使用此功能。 使用时，它会强制用户手动输入作业角色的可用性，以使预算更准确。 计划例外和用户休假时间未被考虑在内。</p> </td> 
-   <td> <p>通过根据资源池中的用户自动计算可用性，不再需要资源预算管理器。 该工具已被淘汰，同时计算可用性的所有手动工作也被取消。</p> </td> 
+   <td> <p><strong>资源预算管理器</strong> </p> <p>您可以使用资源预算管理器指定多个资源池中工作角色资源的可用性。 但是，由于旧版资源池的缺点，此功能很少使用。 在使用时，它会强制用户手动输入工作角色的可用性，以使预算更准确。 未考虑计划例外情况和用户的休息时间。</p> </td> 
+   <td> <p>随着基于资源池中的用户的可用性自动计算，不再需要资源预算管理器。 该工具已经淘汰，同时取消了计算可用性的所有手动工作。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>资源评估</strong> </p> <p>每个旧资源池下的“资源估计”选项卡与资源预算管理器具有相同的用途，仅在一个旧资源池的上下文中可用。 此工具具有与资源预算管理器和旧版资源池相同的限制：不准确的数据和手动输入可用性。 </p> </td> 
-   <td> <p>随着用户可用性的自动计算，资源估计已过时并已被删除。</p> <p>该工具在项目业务案例的“旧版资源池”和“旧版资源估计”中被删除。 <!--
+   <td> <p><strong>资源估计</strong> </p> <p>每个传统资源池下的资源估计值选项卡与资源预算管理器具有相同的用途，但仅限于一个传统资源池的上下文。 此工具与资源预算管理器和旧版资源池具有相同的限制：数据不准确和手动输入可用性。 </p> </td> 
+   <td> <p>随着用户可用性的自动计算，资源估计已过时并已删除。</p> <p>在项目的业务案例中，该工具在旧版资源池和旧版资源评估中消除。 <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
      --></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>性能规划者</strong> </p> <p>能力规划器是Workfront的一个工具，用于根据资源的可用性对资源进行预算编制并对旧资源库中的项目进行优先级排序。 鉴于资源估计和为能力规划员提供信息的资源预算管理员的数据不完整，必须根据用户的可用性对项目优先顺序进行重复检查。</p> <p>使用单个包含系统中所有作业角色的旧版资源池是最常见的情况，这会导致能力规划器尝试加载大量项目时出现性能问题。</p> </td> 
-   <td> <p><strong>资源计划员的项目视图</strong> </p> <p>在“资源计划器”的“基于项目”视图中，您可以对资源进行预算，并按与在“旧能力计划器”中执行预算类似的方式对项目进行优先级排序。 与旧版工具不同，现在支持更多数据，通过考虑用户的休假时间和计划例外，可用信息将更加精确。</p> <p>可用、已计划和已编入预算的信息一目了然，以便资源经理可以同时查看是否有足够的人员来完成工作以及项目计划是否超出初始预算估计。</p> <p> 有关在资源计划器中使用项目视图的信息，请参阅 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源计划员概述</a></p> <p><strong>方案计划员</strong> </p> <p>对于长期能力规划、假设情景建模和优先级排序，我们还引入了Workfront情景规划器。 </p> <p>方案规划器仅在新的Adobe Workfront体验中可用，并且需要额外的许可证。 有关Workfront方案规划器的信息，请参阅 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">方案计划员概述</a>. </p> </td> 
+   <td> <p><strong>能力规划者</strong> </p> <p>Capacity Planner是一种Workfront工具，用于根据资源的可用性为传统资源池中的资源编制预算并安排项目的优先级。 鉴于来自资源估算和资源预算管理器（为能力规划者提供信息）的数据不完整，必须根据用户的可用性对项目优先顺序进行双重检查。</p> <p>最常见的情况是，使用包含系统中所有工作角色的单个传统资源池，这会导致能力规划者尝试加载大量项目时出现性能问题。</p> </td> 
+   <td> <p><strong>资源规划者的项目视图</strong> </p> <p>在资源规划者的基于项目的视图中，您可以像在传统能力规划者中那样预算资源和优先处理项目。 与旧版工具不同，现在支持更多数据，因为考虑到用户的休息时间和计划例外情况，可用信息更加精确。</p> <p>可用信息、计划信息和预算信息一目了然，以便资源管理器能够查看是否有足够的人员来完成工作以及项目计划是否超出初始预算估计。</p> <p> 有关在资源规划者中使用项目视图的信息，请参阅 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源规划者概述</a></p> <p><strong>场景规划器</strong> </p> <p>对于长期容量规划、假设情景建模和优先排序，我们还引入了Workfront场景规划器。 </p> <p>Scenario Planner仅在新的Adobe Workfront Experience中可用，并且需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>旧版资源估计（业务案例）</strong> </p> <p>您可以使用“业务案例”的“旧资源估计”区域，在项目计划和资源请求中预算一定数量的人工小时数和成本。 此视图未提供对资源可用性的任何可见性，这会导致大致的资源请求，并增加了被拒绝项目工作的机会。</p> </td> 
-   <td> <p><strong>资源预算编制（业务案例）</strong> </p> <p>“业务案例”下的“资源预算”部分将“资源计划员”功能引入业务案例，从而提供用户和角色可用性的可见性，以及在用户层进行预算的能力。 </p> <p> 有关“业务案例”的“资源预算”区域的信息，请参阅 <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">业务案例领域概述</a>. </p> </td> 
+   <td> <p><strong>传统资源评估（商业案例）</strong> </p> <p>您可以使用业务案例的旧版资源估算区域来预算特定的人工小时数和成本，作为项目规划和资源请求的一部分。 此视图未提供资源可用性的任何可见性，从而导致资源请求的大致性以及被拒绝项目工作的可能性增加。</p> </td> 
+   <td> <p><strong>资源预算（业务案例）</strong> </p> <p>Business Case下的Resource Budgeting部分将Resource Planner功能引入Business Case，从而提供用户和角色可用性可见性以及在用户级别进行预算的能力。 </p> <p> 有关Business Case的“资源预算”区域的信息，请参阅 <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">业务案例的领域概述</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>资源估计报表</strong> </p> <p>在使用旧版资源管理工具时，您可以从业务案例报告预算小时数和计划小时数。 这样，您就可以生成矩阵报表，其中显示特定时间范围内每个职务角色的预算工作和计划工作总数。 此报表不可编辑，您无法根据报表结果对资源预算进行任何更改。 </p> </td> 
-   <td> <p><strong>利用率报表</strong> </p> <p>“内置利用率”报表并排显示“计划”、“预算”和“实际工时”、“成本”和“收入”。 </p> <p>有关使用“利用率”报表的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用信息 </a>. </p> 
+   <td> <p><strong>资源评估报告</strong> </p> <p>使用资源管理的旧版工具时，您可以从业务案例中报告预算和计划小时数。 这允许您生成矩阵报告，其中显示特定时间范围内每个工作角色的预算和计划工作总量。 此报告不可编辑，您无法在报告发现的基础上对资源的预算进行任何更改。 </p> </td> 
+   <td> <p><strong>利用率报告</strong> </p> <p>内置利用率报告并排显示计划小时数、预算小时数和实际小时数、成本和收入。 </p> <p>有关使用“利用率”报表的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用率信息 </a>. </p> 
     <div> 
      <p><strong>可报告预算小时数</strong> </p> 
-     <p>为预算小时数创建报表，以在报表表单中复查资源计划员中预算的小时数。 </p> 
+     <p>为预算小时数创建报告以审查报告表单中资源规划者中预算的小时数。 </p> 
      <p>有关预算小时数的信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Adobe Workfront术语表</a>.</p> 
-     <p>有关创建报表的信息，请参阅 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报表</a>.</p> 
-    </div> <p><strong>资源计划员的角色视图</strong> </p> <p>现在，在新的本机视图（即资源计划员的基于角色的视图）中，可以使用“旧版资源管理”工具中“业务”案例的预算小时数和计划小时数。 此视图提供了“可用”、“计划”和“预算小时数”信息概览，并允许您在同一位置控制和更改预算。 这可确保在高级职位角色规划期间做出更好的决策。 </p> <p> 有关资源计划员的“职责视图”中预算资源的信息，请参阅 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">使用项目和角色视图对资源进行预算 </a> 部分 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源计划员概述</a></p> </td> 
+     <p>有关创建报告的信息，请参见 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">创建自定义报表</a>.</p> 
+    </div> <p><strong>资源规划者的角色视图</strong> </p> <p>传统资源管理工具中业务案例的预算和计划小时数现在可在新的本机视图（资源规划者的基于角色的视图）中获取。 此视图提供可用小时数、计划小时数和预算小时数概览，并允许您在同一位置控制和更改预算。 这确保在高级职位角色规划期间做出更好的决策。 </p> <p> 有关在资源规划者的角色视图中预算资源的信息，请参阅 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">使用项目和角色视图来预算资源 </a> 中的部分 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源规划者概述</a></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>资源网格</strong> </p> <p>在项目进入完成阶段时，资源网格可让您查看特定用户的分配情况。 </p> <p>例如，您可以轻松地查看项目团队中的某人何时提前完成了工作，何时有人落后，以及他们在特定时间段内是否被过度分配或分配不足。 </p> <p>遗憾的是，您未能在同一视图中对信息采取行动。 要纠正过度分配问题，您必须转到项目并手动调整其中的信息，而不能查看您的操作结果。</p> </td> 
-   <td> <p>资源网格已被两个新工具替换。 根据您在资源规划的哪个阶段找到自己，您可以使用以下工具：</p> 
+   <td> <p><strong>资源网格</strong> </p> <p>资源网格让您能够查看在项目走向完成时特定用户的分配情况。 </p> <p>例如，您可以轻松地查看您项目团队中的某人何时提前完成工作、何时落后，以及他们是否在特定时间范围内分配过多或不足。 </p> <p>很遗憾，您无法根据同一视图中的信息执行操作。 要纠正过度分配问题，您必须转到项目并手动调整那里的信息，而看不到操作的结果。</p> </td> 
+   <td> <p>资源网格已由两种新工具取代。 您可以使用以下工具，具体取决于您所在的资源计划阶段：</p> 
     <ul> 
-     <li> <p><strong>对于分析阶段：</strong> </p> 
+     <li> <p><strong>在分析阶段：</strong> </p> 
       <ul> 
-       <li> <p><strong>工作负载平衡器</strong>:使用工作负载平衡器在更精细的粒度级别查看用户的工作负载。 使用工作负载平衡器时，可以查看哪些用户在其工作负载中具有可用性，以便按时完成任务。 这包括它们的休息时间和计划例外详细信息。 </p> <p>有关工作负载平衡器的信息，请参阅 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">工作负载平衡器概述</a>.</p> </li> 
-       <li> <p><strong>资源计划员的用户视图</strong><strong>:</strong> 在尝试更高层次地了解用户分配到哪些项目时，请使用资源计划员的“用户视图”。 这样，您就可以了解用户正在处理的内容，以及他们在特定时间范围内的过度分配和分配不足。 “资源计划器”还提供整体用户总体分配的可视化，以及“实际记录的小时数”的可见性，这有助于分析完成工作的进度。 </p> <p>有关在资源计划器中使用用户视图的信息，请参阅 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">使用“用户视图”可查看可用、计划和实际小时数或FTE </a> 部分 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源计划员概述</a></p> </li> 
+       <li> <p><strong>工作负载均衡器</strong>：使用工作负载均衡器在更加精细的级别查看用户的工作负载。 使用工作负载均衡器时，可以查看哪些用户在其工作负载中具有可用性以按时完成任务。 这包括他们的休息时间和计划例外详细信息。 </p> <p>有关工作负载均衡器的信息，请参见 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">工作负载均衡器概述</a>.</p> </li> 
+       <li> <p><strong>资源规划者的用户视图</strong><strong>：</strong> 在试图更高级别了解您的用户分配到的项目时，请使用资源规划者的用户视图。 这让您能够查看用户正在处理什么以及他们在特定时间范围内的过度分配和过度分配。 Resource Planner还提供了用户总体分配的可视化信息，以及记录的实际小时数的可视化信息，这有助于分析完成工作的进度。 </p> <p>有关在资源规划者中使用用户视图的信息，请参见 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">使用“用户视图”可查看可用小时数、计划小时数和实际小时数或FTE </a> 中的部分 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">资源规划者概述</a></p> </li> 
       </ul> </li> 
-     <li><strong>对于战术阶段：</strong> 
+     <li><strong>战术阶段：</strong> 
       <ul> 
-       <li><strong>工作负载平衡器</strong> 您可以使用负载平衡器执行以下操作： 
+       <li><strong>工作负载均衡器</strong> 您可以使用工作负载均衡器执行以下操作： 
         <ul>
          <li>将工作分配给用户。</li>
          <li>管理用户对工作项的分配。 </li>
-         <li>与可能看不到“人员”区域的其他用户共享工作负载平衡器。 使用“可共享”链接功能共享指向工作负载平衡器的链接，并将其嵌入到自定义功能板中。 任何有权查看用户的用户在您共享这些功能板时都可以查看这些功能板。</li>
-        </ul><p>工作负载平衡器在“人员”区域中可用。 </p><p>有关工作负载平衡器的信息，请参阅 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">工作负载平衡器概述</a>.</p></li> 
+         <li>与可能没有人员区域可见性的其他用户共享工作负载均衡器。 使用可共享链接功能可共享指向工作负载均衡器的链接，并将其嵌入自定义功能板。 当您共享这些仪表板时，任何有权查看用户的用户都可以查看这些仪表板。</li>
+        </ul><p>工作负载均衡器位于人员区域。 </p><p>有关工作负载均衡器的信息，请参见 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">工作负载均衡器概述</a>.</p></li> 
       </ul> <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
@@ -232,20 +232,20 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>旧甘特图、任务列表</strong> </p> <p> 任务列表上的“旧版甘特图”使用户能够直观地查看项目的时间轴并执行假设方案规划，而无需提交对数据库的更改。 旧版甘特图是基于Flash技术的，存在安全风险。 </p> </td> 
-   <td> <p><strong>甘特图、</strong> <strong>任务列表</strong></p> <p> 基于HTML的新甘特图与旧版甘特图的用途相同。 用户可以通过从任务列表工具栏中更改为“手动保存”选项，在不将更改提交到数据库的情况下，可以显示项目的时间轴并执行假设方案规划。 </p> <p>使用自动保存选项时，新的甘特图是交互式的，当您希望在发生更改时自动保存更改时，可以使用该选项。 </p> <p>新的任务列表甘特图是基于最新技术构建的，并且可靠。 此新的甘特图直接位于任务列表上，在处理任务列表时，无需切换选项卡或更改视图即可轻松访问该甘特图。 </p> <p>尽管新甘特图提供的功能与上一图相同，但与旧版甘特图相比，其功能存在一些差异。 </p> <p> 模板上的模板任务列表中的“旧甘特图”子选项卡、模板任务的“子任务”选项卡中的“旧甘特图”视图，以及模板任务报表中的“旧甘特图”子选项卡也已替换为基于HTML的甘特图。 </p> <p>如果您使用旧甘特图主要用于简单视图和快速编辑，而不使用实际图表，则新的时间轴规划选项允许您对关键规划字段进行快速更改。 您可以从任务列表工具栏中选择时间轴计划，而不是自动保存。</p> <p>有关使用时间轴计划选项保存任务列表的详细信息，请参阅文章中的“选择时间轴计划选项时手动保存任务列表中的更改”部分 <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">在列表中编辑任务</a>. </p> </td> 
+   <td> <p><strong>旧版甘特图、任务列表</strong> </p> <p> 任务列表上的旧版甘特图使用户能够直观地查看项目的时间表并执行假设情景计划，而无需将更改提交到数据库。 传统甘特图基于Flash技术，存在安全隐患。 </p> </td> 
+   <td> <p><strong>甘特图，</strong> <strong>任务列表</strong></p> <p> 新的基于HTML的甘特图与旧版甘特图具有相同的用途。 用户可以通过更改任务列表工具栏中的“手动保存”选项来可视化项目的时间表并执行假设情景计划，而无需将更改提交到数据库。 </p> <p>使用自动保存选项时，新的甘特图是交互式的，当您想要在更改发生时自动保存时，可以使用该选项。 </p> <p>新的任务列表甘特图基于最新的技术构建并可靠。 此新甘特图直接位于任务列表中，在处理任务列表时可轻松访问，无需切换选项卡或更改视图。 </p> <p>尽管新的甘特图提供了与上一个图表相同的功能，但与旧版甘特图相比，在功能上存在一些差异。 </p> <p> 模板任务列表中的旧版甘特图子选项卡、模板任务子任务选项卡中的旧版甘特图以及模板任务报告中的旧版甘特图也已替换为基于HTML的甘特图。 </p> <p>如果您将旧版甘特图主要用于简单视图和快速编辑，而不使用实际图表，则新的“时间线计划”选项允许您对关键计划字段进行快速更改。 您可以从任务列表工具栏中选择“时间线计划”而不是“自动保存”。</p> <p>有关使用“时间线计划”选项保存任务列表的详细信息，请参阅文章中的“选择“时间线计划”选项时手动在任务列表中保存更改”部分 <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">编辑列表中的任务</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>项目列表的旧甘特图</strong> </p> <p>通过项目列表上的“旧版甘特图”，用户能够在一个视图中查看项目及其任务。 在不离开项目列表上下文的情况下，用户可以查看有关项目中任务的详细信息以及项目之间的依赖关系。 项目列表上的“旧甘特图”是基于Flash技术的，存在安全隐患。 </p> </td> 
-   <td> <p><strong>甘特图、项目列表</strong> </p> <p>基于HTML的甘特图与旧版甘特图的用途相同。 用户可以在一个视图中查看项目及其任务，以便直观地识别项目和任务之间的依赖关系。 项目列表甘特图直接位于项目列表中。 新的甘特图具有现代化的界面，并基于最新技术构建。</p> <p>有关项目列表甘特图的信息，请参阅 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">在甘特图中查看信息 </a>.</p> </td> 
+   <td> <p><strong>项目列表的旧版甘特图</strong> </p> <p>项目列表上的旧版甘特图使用户能够在一个视图中查看项目及其任务。 在不离开项目列表上下文的情况下，用户可查看有关项目中任务的详细信息以及项目之间的依赖关系。 项目清单上的旧版甘特图基于Flash技术，存在安全风险。 </p> </td> 
+   <td> <p><strong>甘特图，项目列表</strong> </p> <p>基于HTML的甘特图与旧版甘特图的用途相同。 用户可以在一个视图中查看项目及其任务，以直观地识别项目之间以及任务之间的依赖关系。 项目列表甘特图直接位于项目列表中。 新的甘特图具有现代化的界面，并且基于最新的技术构建。</p> <p>有关项目列表甘特图的信息，请参阅 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">在甘特图中查看信息 </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>报表、日历和文档的共享对话框</strong> </p> <p>在共享报表、日历和文档时，使用的对话框基于Flash技术。</p> </td> 
-   <td> <p>在Workfront中共享报表、日历和文档的体验未发生更改。 但是，体验不再依赖于Flash。</p> <p>有关共享这些项目的更多信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象共享权限概述</a>.</p> </td> 
+   <td> <p><strong>报告、日历和文档的共享对话框</strong> </p> <p>共享报告、日历和文档时，使用的对话框基于Flash技术。</p> </td> 
+   <td> <p>在Workfront中共享报告、日历和文档时的体验未发生更改。 但是，该体验不再依赖于Flash。</p> <p>有关共享这些项目的详细信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象权限共享概述</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>旧版校对查看器</strong> </p> <p>旧版校对查看器是基于Web的校对查看器，它为静态、视频和交互式校样提供了校对功能。</p> </td> 
-   <td> <p><strong>Web校对查看器和桌面校对查看器</strong> </p> <p>Web校对查看器提供了用于静态校样和视频校样的校样功能。</p> <p>桌面校对查看器除了提供对静态校样和视频校样的完全支持之外，还提供了用于交互式校样的校样功能。</p> <p>任何主要提供商都不再支持SWF文件格式，并且已用HTML5横幅替换，用于校样。 </p> <p>有关可用校对查看器之间差异的更多详细信息，请参阅 <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Web校对查看器与桌面校对查看器概述之间的差异</a>.</p> </td> 
+   <td> <p><strong>旧版验证查看器</strong> </p> <p>旧版验证查看器是基于Web的验证查看器，为静态、视频和交互式验证提供了验证功能。</p> </td> 
+   <td> <p><strong>Web验证查看器和桌面验证查看器</strong> </p> <p>Web校对查看器提供静态校对和视频校对的校对功能。</p> <p>桌面校对查看器为交互式校对提供校对功能，此外还提供对静态校对和视频校对的完全支持。</p> <p>SWF文件格式不再受任何主要提供商的支持，并已由HTML5校对横幅取代。 </p> <p>有关可用校对查看者之间差异的更多详细信息，请参阅 <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Web验证查看器和桌面验证查看器的区别概述</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

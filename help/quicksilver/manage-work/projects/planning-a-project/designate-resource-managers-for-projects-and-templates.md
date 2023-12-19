@@ -1,19 +1,19 @@
 ---
 product-area: projects;templates
 navigation-topic: plan-a-project
-title: 为项目或模板指定资源管理器
-description: 您可以为项目指定资源管理器，以指明谁负责管理项目上的资源。
+title: 为项目或模板指定资源经理
+description: 您可以为项目指定资源管理器，以指明谁负责管理项目的资源。
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
-# 为项目或模板指定资源管理器
+# 为项目或模板指定资源经理
 
 <!--
 <p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
-您可以为项目指定资源管理器，以指明谁负责管理项目上的资源。 这是一个信息性字段，它未与任何资源管理工具连接。
+您可以为项目指定资源管理器，以指明谁负责管理项目的资源。 这是信息字段，未连接到任何资源管理工具。
 
 <!-- drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
@@ -74,7 +74,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 </table>
 -->
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -92,7 +92,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对项目和模板的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -100,20 +100,20 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 <p><b>注释</b>
 
-作为资源管理器添加到项目或模板的用户会立即获得对项目或模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td>
+作为资源管理器添加到项目或模板的用户会立即获得对项目或模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 关于资源管理器的考虑
+## 关于资源管理器的注意事项
 
 >[!NOTE]
 >
->资源管理器不是作业角色；它是项目或模板上可用的字段，您可以手动更新该字段。
+>资源管理器不是工作角色；它是可在项目或模板中手动更新的字段。
 
-* 您最多可以为单个项目或模板指定30个用户作为资源管理器。
+* 您最多可以指定30个用户作为单个项目或模板的资源经理。
 
 <!--
 * In the Production environment,designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
@@ -124,66 +124,66 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 
-* 不能将团队或组指定为资源管理器。 您只能将用户指定为资源管理器。
+* 不能将团队或组指定为资源经理。 您只能将用户指定为资源管理器。
 
 * 在项目或模板中指定为资源管理员的用户不会自动成为项目团队的一部分。
 
-   有关项目团队的信息，请参阅 [管理项目团队](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  有关项目团队的信息，请参阅 [管理项目团队](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-* 您可以为项目或项目模板指定资源管理器。 在项目模板上指定“资源管理器”时，在模板上指定为“资源管理器”的任何用户都会自动成为使用该模板创建的任何项目上的“资源管理器”。
-* 您可以在以下区域中查看“资源管理器”字段：
+* 可以为项目或项目模板指定资源管理器。 在项目模板上指定资源管理器时，在该模板上指定为资源管理器的任何用户都会自动成为使用该模板创建的任何项目的资源管理器。
+* 您可以在以下区域查看Resource Manager字段：
 
-   * 编辑项目时（如本文所述）。
-   * 编辑模板时，如本文所述。
-   * 构建项目或模板报告时。 有关构建报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * 创建或自定义列表的项目或模板视图时。 有关更多信息，请参阅 [视图Adobe Workfront概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * 在编辑项目时，如本文所述。
+   * 在编辑模板时，如本文所述。
+   * 构建项目或模板报表时。 有关生成报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * 创建或自定义列表的项目或模板视图时。 有关更多信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-* 您可以快速在多个项目或模板上添加或删除资源管理器，方法是：将“资源管理器”字段添加到列表或项目的视图，然后使用内嵌编辑功能编辑此字段。
+* 通过将资源管理器字段添加到列表或项目的视图中，并使用内联编辑编辑编辑此字段，可以快速在多个项目或模板中添加或删除资源管理器。
 
-## 为项目指定资源管理器
+## 指定项目的资源经理
 
 1. 执行以下任一操作：
 
-   * 要将“资源管理器”添加到单个项目，请转到要指定一个或多个资源管理器的项目，然后单击 **“更多”菜单** 项目名称旁边，然后 **编辑。**
+   * 要将资源管理器添加到单个项目，请转到要指定一个或多个资源管理器的项目，然后单击 **更多菜单** 在项目名称旁边，然后 **编辑。**
 
-   * 要同时将资源管理器添加到多个项目，请导航到项目列表，选择要指定一个或多个资源管理器的项目，然后单击 **编辑**.
+   * 要将资源管理器同时添加到多个项目，请导航到项目列表，选择要指定一个或多个资源管理器的项目，然后单击 **编辑**.
 
-      不会从您正在编辑的项目中删除现有资源管理器；通过这种方式添加的任何用户，除了任何现有的资源管理器之外，还会作为资源管理器添加到项目中。
+     不会从正在编辑的项目中删除现有资源管理器；通过这种方式添加的任何用户都将添加为项目上的资源管理器，以及任何现有资源管理器。
 
-   * 要将资源管理器添加到新项目，请开始创建新项目。
+   * 要向新项目添加资源管理器，请开始创建新项目。
 
-      有关创建项目的信息，请参阅 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
+     有关创建项目的信息，请参见 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
 
-1. 在 **概述** ，单击 **资源管理器** 字段。
-1. 开始键入要作为项目资源管理器添加的用户的名称，然后在该名称显示在列表中时单击该名称。
+1. 在 **概述** 编辑项目对话框的部分中，单击 **资源管理器** 字段。
+1. 开始键入要作为项目资源管理器添加的用户名称，然后在列表中出现该名称时单击该名称。
 
-   重复此步骤为项目添加多个资源管理器。
+   重复此步骤为该项目添加多个资源管理器。
 
 1. 单击 **保存更改**.
 
 ## 为模板指定资源管理器
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
 
 1. 单击 **模板**.
 
 1. 执行以下任一操作：
 
-   * 要将资源管理器添加到单个模板，请转到要在其中指定一个或多个资源管理器的模板，然后单击 **“更多”菜单** 在模板名称旁边， **编辑。**
+   * 要将资源管理器添加到单个模板，请转到要指定一个或多个资源管理器的模板，然后单击 **更多菜单** 在模板名称旁边，然后 **编辑。**
 
-   * 要同时将资源管理器添加到多个模板，请转到模板列表，选择要在其中指定一个或多个资源管理器的模板，然后单击 **编辑**.
+   * 要同时向多个模板添加资源管理器，请转到模板列表并选择要指定一个或多个资源管理器的模板，然后单击 **编辑**.
 
-      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户，除了任何现有的资源管理器之外，都将作为资源管理器添加到模板中。
+     不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击 **新模板**，然后单击 **“更多”菜单** 在模板名称旁边， **编辑。**
+   * 要将资源管理器添加到新模板，请单击 **新建模板**，然后单击 **更多菜单** 在模板名称旁边，然后 **编辑。**
 
-1. 在 **概述** 中，单击 **资源管理器** 字段。
-1. 开始键入要作为模板资源管理器添加的用户的名称，然后在该名称显示在列表中时单击该名称。
+1. 在 **概述** 部分，单击 **资源管理器** 字段。
+1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。
 
-   重复此步骤以向模板添加多个资源管理器。
+   重复此步骤，向模板中添加多个资源管理器。
 
 1. 单击 **保存更改**.

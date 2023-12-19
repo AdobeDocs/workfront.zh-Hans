@@ -1,13 +1,13 @@
 ---
-title: 记录信息
+title: “记录：文章索引”
 description: 在AdobeMaestro中创建记录类型后，可以创建这些类型的单个记录。 以下文章介绍如何在Adobe Maestro中创建和管理记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# 记录信息
+# 记录：文章索引
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ hide: yes
 * [删除记录](../records/delete-records.md)
 * [共享记录](../records/share-records.md)
 * [连接记录](../records/connect-records.md)
+* [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md)

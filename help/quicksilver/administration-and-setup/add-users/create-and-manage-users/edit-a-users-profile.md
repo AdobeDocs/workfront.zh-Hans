@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    <li><b>显示更新状态的完成百分比</b>：如果要在此用户任务的更新区域中显示完成百分比栏，请选中此选项。</li> 
        <li><b>将我分配给自己的工作发送到我的工作选项卡中</b>：如果您希望用户分配给自己的所有内容直接显示在“主页”区域的“处理中”列表中，请选中此选项。 默认情况下，在“主页”区域的“准备开始”或“未就绪”列表中列出分配给用户的所有内容。</li> 
-       <li><b>上传文档时自动生成验证</b>：如果您希望用户上传的文档立即生成验证，请选中此选项。 根据您的Workfront验证许可证，在用户生成验证时，可在您的系统中为所有用户生成的验证总数可能会受到影响。 </li>
+       <li><b>上传文档时自动生成验证</b>：如果您希望用户上传的文档立即生成验证，请选中此选项。 </li>
        </ul> </td> 
      </tr> 
      <tr> 

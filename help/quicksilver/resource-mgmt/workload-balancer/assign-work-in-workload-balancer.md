@@ -6,10 +6,10 @@ description: 作为资源管理器，您可以使用Adobe Workfront工作负载�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 0%
+source-wordcount: '1033'
+ht-degree: 1%
 
 ---
 

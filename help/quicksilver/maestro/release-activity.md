@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2023年12月18日起一周
+## 2024年12月18日起一周
+
+### 从“详细信息”页面添加有关记录的注释
+
+适用于所有客户的预览和生产： 2023年12月18日
+
+>[!NOTE]
+>
+>以下功能将在2024年1月版本的生产中可用：
+>
+>* 搜索注释
+>
+>* 复制并粘贴图像
+>
+>* 拖放图像
+>
+>有关更多信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+现在，您可以在详细信息页面中查看记录时，通过添加注释或回复他人来与他人协作处理单个记录。
+
+Maestro记录的注释体验与Workfront对象的新注释体验相匹配。
+
+有关更多信息，请参阅 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## 2023年12月11日起一周
 
 ### 更新记录类型的表视图中的主字段
 
@@ -102,7 +126,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 预览版本： 2023年12月14日
 
-生产版本： 2023年12月15日
+生产版本：计划于2023年12月15日发布
 
 >[!IMPORTANT]
 >

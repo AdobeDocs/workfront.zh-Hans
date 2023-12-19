@@ -1,13 +1,13 @@
 ---
-title: 架构信息
+title: “架构：文章索引”
 description: 以下文章介绍如何配置AdobeMaestro的架构。 在此配置中，您将了解如何创建工作区、记录类型和自定义字段以映射您要在AdobeMaestro中管理的工作流。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 架构信息
+# 架构：文章索引
 
 >[!IMPORTANT]
 >

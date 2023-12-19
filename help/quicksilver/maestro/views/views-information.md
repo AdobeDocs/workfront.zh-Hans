@@ -1,13 +1,13 @@
 ---
-title: 视图信息
+title: “查看次数：文章索引”
 description: 可以在表格或时间线视图中显示AdobeMaestro记录。 以下文章介绍如何创建和管理AdobeMaestro记录视图。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 视图信息
+# 视图：文章索引
 
 >[!IMPORTANT]
 >
