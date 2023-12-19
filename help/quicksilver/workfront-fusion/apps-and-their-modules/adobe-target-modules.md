@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -611,8 +611,8 @@ ht-degree: 0%
       <td>
         <p>启用切换可使“与”规则生效，即必须应用所有规则。</p>
         <p>对于要应用于受众的每个规则，单击 <b>[！UICONTROL添加项]</b> 并输入要应用的规则的JSON。 </p>
-        <div class="example"><span class="autonumber"><span><b>示例: </b></span></span>
-          <p>示例:</p>
+        <div class="example"><span class="autonumber"><span><b>示例： </b></span></span>
+          <p>示例：</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -649,7 +649,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 进行自定义API调用]
 
-此模块对进行自定义API调用 [!DNL Adobe Target] API
+此模块对进行自定义API调用 [!DNL Adobe Target] API。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -693,7 +693,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
