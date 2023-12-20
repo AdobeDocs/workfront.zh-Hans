@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: create-projects
 title: 创建项目基线
-description: 基线是一个项目快照，它表示初始项目计划中或在项目生命周期的任何给定时间包含的关键信息。
+description: 基线是项目快照，表示初始项目计划中包含的关键信息段或在项目生命周期内的任何给定时间。
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # 创建项目基线
 
-基线是一个项目快照，它表示初始项目计划中或在项目生命周期的任何给定时间包含的关键信息。
+<!-- Audited: 12/2023 -->
 
-您可以使用基线来比较当前计划中的这些信息与原始计划或任何其他时间点的信息，以识别问题任务、范围蠕变和其他随时间变化的趋势。
+基线是项目快照，表示初始项目计划中包含的关键信息段或在项目生命周期内的任何给定时间。
+
+您可以使用基准线将那些信息段从当前计划与原始计划或任何其他时间点进行比较，以确定问题任务、范围变动和其他随时间变化的趋势。
 
 ## 访问要求
 
@@ -53,7 +55,7 @@ drafted for P&P:
 </table>
 -->
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,20 +63,22 @@ drafted for P&P:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+    <td><p>新增：标准</p>
+        <p>或</p>
+        <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
    <td> <p>编辑对项目的访问权限</p> <p><b>注意</b>
-   如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予对项目的访问权限</a>. 有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目或更高级别的权限以查看基线</p> <p>管理项目以创建基线的权限</p> <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看项目或更高版本的权限以查看基线</p> <p>管理项目的权限以创建基线</p> <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,27 +88,27 @@ drafted for P&P:
 ## 使用基线的注意事项
 
 * 您可以在项目的生命周期内多次捕获项目进度的快照，从而创建多个基线。
-* 您可以通过创建基线或构建基线报告来查看项目基线中包含的信息。
-* 创建基线时，还会在该基线的基线任务上捕获任务信息。
+* 通过创建基线或生成基线报告，可以查看项目基线中包含的信息。
+* 创建基线时，也会在该基线的基线任务中捕获任务信息。
 * 您可以通过构建基线任务报告来查看基线任务的信息。
 
 >[!IMPORTANT]
 >
->基线会生成项目名称、日期和财务信息的快照。 基线不包括项目中自定义字段的值。 有关基线中包含的财务信息，请参阅 [项目基线中包含的项目资金](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>基线会快照项目的名称、日期和财务信息。 基线不包括项目中的自定义字段值。 有关基线中包含的财务信息，请参阅 [项目基线中包含的项目财务](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## 创建基线
 
-可以通过以下方式创建基线：
+可通过以下方式创建基线：
 
-* **自动**:您的Workfront管理员或组管理员会为Workfront设置项目首选项，以便当项目变为“当前”时自动创建基线。 启用此设置后，当项目状态变为“当前”时，将创建一个基线。 未启用此设置时，必须手动创建基线。
+* **自动**：您的Workfront管理员或组管理员可为Workfront设置项目首选项，以便在项目变为当前时自动创建基线。 启用此设置后，当项目状态变为“当前”时，将创建一个基线。 如果未启用此设置，则必须手动创建基线。
 
-   有关配置项目首选项和设置自动基线创建的更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  有关配置项目首选项和设置自动基线创建的详细信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >启用此设置后，每当项目状态变为“当前”时，都会自动为项目创建基线。 第一个创建的基线是默认的基线。 在项目生命周期中必须手动创建所有其他基线。
+  >[!CAUTION]
+  >
+  >启用此设置可在每次项目状态更改为当前时自动为项目创建基线。 第一个创建的基线是默认基线。 在项目的有效期内，您必须手动创建所有其他基线。
 
-* **手动**:您可以根据需要为项目创建新基线，以便项目继续运行。 然后，可以比较基线以查看项目在一段时间内的进展情况。
+* **手动**：随着项目的进行，您可以根据需要为项目创建新基线。 然后，您可以比较基线，以查看项目在一段时间内的进展情况。
 
 要创建基线，请执行以下操作：
 
@@ -115,7 +119,7 @@ drafted for P&P:
 
    单击 **显示更多**，然后单击 **基线**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![项目中的“基线”部分](assets/baselines-section-on-project-with-header.png)
 
 1. 单击 **新建基线。**
 1. 指定基线的名称。
@@ -125,29 +129,29 @@ drafted for P&P:
    默认情况下，将显示有关所创建基线的以下信息：
 
    * 基线名称
-   * 基准条目日期
-   * 计划起始日期创建基准时项目的起始日期
-   * 预计起始日期创建基准时的项目日期
+   * 基线输入日期
+   * 创建基线时项目的计划开始日期
+   * 创建基线时项目的预计开始日期
    * 创建基线时项目的实际持续时间
-   * 创建基线时项目完成百分比
-   * 显示基线是否为项目的默认基线的默认基线指示器
+   * 创建基线时项目的完成百分比
+   * 默认基线指示器，显示基线是否为项目的默认基线
 
-      >[!TIP]
-      >
-      >不能在同一视图或报表中同时查看任意两个基线的信息。 您只能在同一报表中查看给定基线和默认基线的信息。 在项目生命周期中，您可以随时修改您认为是默认基线的基线。
+     >[!TIP]
+     >
+     >不能在同一视图或报告中同时查看来自任意两个基线的信息。 您只能在同一个报告中查看给定基线和“默认”基线的信息。 您可以在项目生命周期内的任何时间修改您认为作为默认基线的基线。
 
-1. （可选）单击“视图”旁边的下拉箭头，然后 **自定义视图** 向视图添加字段并比较基线之间的其他信息。
+1. （可选）单击 **视图** 按钮，然后创建新视图或编辑当前视图以将字段添加到视图并比较基线之间的附加信息。 有关信息，请参阅 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## 创建基线或基线任务报表
+## 创建基线或基线任务报告
 
-要查看基线信息，您还可以创建基线或基线任务报告。 这允许您在一个视图中显示有关基线或基线任务的任意数量的字段，以比较它们。
+要查看基线信息，您还可以创建基线或基线任务报告。 这样，您可以在一个视图中显示任意数量的有关基线或基线任务的字段，以对其进行比较。
 
 >[!TIP]
 >
 >必须先创建基线，然后才能创建基线或基线任务报告。
 
-有关创建报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的信息，请参见 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-我们建议您将项目名称分组添加到基线或基线报表中，以便更便于阅读。
+我们建议您在基线或基线任务报告中添加项目名称分组，以便于阅读。
 
-有关创建分组的信息，请参阅 [在Adobe Workfront中创建分组](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+有关创建分组的信息，请参见 [在Adobe Workfront中创建分组](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

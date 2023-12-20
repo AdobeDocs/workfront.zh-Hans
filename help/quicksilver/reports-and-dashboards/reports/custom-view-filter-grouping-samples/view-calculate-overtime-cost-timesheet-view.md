@@ -2,93 +2,93 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在時程表檢視中計算加班成本」
-description: Adobe Workfront預設不會計算加班，但您可以建立計算加班的時程表報告。
+title: '查看：在时间表视图中计算加班成本'
+description: 在Adobe Workfront中默认不计算加班，但您可以创建计算加班的时间表报表。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# 檢視：在時程表檢視中計算加班成本
+# 视图：在时间表视图中计算加班成本
 
-Adobe Workfront預設不會計算加班，但您可以建立計算加班的時程表報告。
+在Adobe Workfront中默认不计算加班，但您可以创建计算加班的时间表报表。
 
-如果使用者與其設定檔中的每小時成本費率相關聯，您也可以計算該使用者加班的成本金額。\
-如需將使用者與每小時成本費率建立關聯的資訊，請參閱文章 [設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+如果用户与其配置文件中的每小时成本费率相关联，则还可以计算该用户加班的成本额。\
+有关将用户与每小时成本费率关联的信息，请参阅文章 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 >[!NOTE]
 >
->您可以新增至清單或報告中時程表檢視的「加班」欄位會顯示時程表的「加班」欄位中的資訊。 此資訊由有權修改時程表的使用者手動更新。 如需時程表中加班欄位的詳細資訊，請參閱文章 [瞭解時程表配置](../../../timesheets/timesheets/timesheet-layout.md).
+>可添加到列表或报告中时间表视图的超时字段显示了在时间表超时字段中找到的信息。 此信息由有权修改时间表的用户手动更新。 有关时间表中超时字段的更多信息，请参阅文章 [工时表布局概述](../../../timesheets/timesheets/timesheet-layout.md).
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 在時程表檢視中計算加班成本
+## 在工时表视图中计算加班成本
 
-若要將已計算的「加班」欄新增至時程表檢視：
+要向时间表视图添加计算的加班列，请执行以下操作：
 
-1. 前往時程表清單，或建立時程表報告。
+1. 转到时间表列表，或创建时间表报告。
 
-   如需建立報表的相關資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   有关创建报告的信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. 按一下 **自訂檢視** 在時程表清單中。
+1. 单击 **自定义视图** 在时间表列表中。
 
    或
 
-   選取 **欄（檢視）** 索引標籤的時程表報告。
+   选择 **列（视图）** 选项卡进行编辑。
 
-1. 按一下 **新增欄**.
-1. 按一下 **切換至文字模式**.
-1. 在 **顯示在此欄中** 區域，按一下 **按一下以編輯文字**.
-1. 將下列文字模式程式碼複製並貼到 **文字模式** 對話方塊。
-   <pre>displayname=計算的加班成本<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40，({totalHours}-40)*{user}。{costPerHour}，{totalHours}*{user}。{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
+1. 单击 **添加列**.
+1. 单击 **切换到文本模式**.
+1. 在 **显示在此列中** 区域，单击 **单击以编辑文本**.
+1. 将以下文本模式代码复制并粘贴到 **文本模式** 对话框。
+   <pre>displayname=计算的加班成本<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40，({totalHours}-40)*{user}.{costPerHour}，{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
-   >此計算假設使用者通常每週工作40小時。
+   >此计算假定用户通常每周工作40小时。
 
-1. 按一下 **儲存**，然後命名新檢視並按一下 **儲存檢視** 在時程表清單中。
+1. 单击 **保存**，然后命名新视图并单击 **保存视图** 在时间表列表中。
 
    或
 
-   按一下 **儲存+關閉** 在時程表報表中。
+   单击 **保存+关闭** 在时间表报告中。
 
-1. （選擇性和條件性）如果您要建立時程表報表，請指定報表的名稱，然後按一下 **儲存報告**.
+1. （可选且视情况而定）如果您正在构建时间表报表，请指定报表的名称，然后单击 **保存报告**.
 
-   每個使用者的加班成本會顯示在 **已計算的加班成本** 欄。
+   每个用户的加班成本显示在 **计算的加班成本** 列。
 
    ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)

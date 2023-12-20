@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 1%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 1%
    * 工时表详细信息 {#details}
       * [工时表详细信息：文章索引](timesheets/timesheets/timesheets.md)
       * [工时表概述](timesheets/timesheets/timesheets-overview.md)
-      * [了解时间表布局](timesheets/timesheets/timesheet-layout.md)
+      * [工时表布局概述](timesheets/timesheets/timesheet-layout.md)
    * 创建和管理工时表 {#create-and-manage-timesheets-in-adobe-workfront}
       * [创建和管理时间表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [创建、编辑和分配时间表配置文件](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

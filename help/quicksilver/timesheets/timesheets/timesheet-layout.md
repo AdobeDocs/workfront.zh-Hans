@@ -2,169 +2,170 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 了解时间表布局
-description: 本文介绍了Adobe Workfront中时间表的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
+title: 工时表布局概述
+description: 本文介绍了时间表在Adobe Workfront中的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ca552b80e9d78fd09068d72479e1b2bddc596c70
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
 
-# 了解时间表布局
+# 工时表布局概述
 
-本文介绍了Adobe Workfront中时间表的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
+<!-- Audited: 12/2023 -->
 
-工时单和工时首选项控制工时单上显示的内容。 本文概述了所有可用选项。 有关信息，请参阅 [配置工时单和工时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+本文介绍了时间表在Adobe Workfront中的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
 
-有关如何在时间表上记录时间的信息，请参阅 [日志时间](../../timesheets/create-and-manage-timesheets/log-time.md).
+时间表和小时首选项控制时间表上显示的内容。 本文概述所有可用选项。 有关选择选项的信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-![时间表布局](assets/timesheet-layout-unshimmed.png)
+有关如何在时间表中记录时间的信息，请参见 [记录时间](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-以下是时间表的区域：
+![工时表布局](assets/timesheet-layout-unshimmed.png)
 
-* [时间表标题](#timesheet-header)
+以下是时间表区域：
+
+* [工时表标题](#timesheet-header)
 * [左侧面板](#the-left-panel)
 * [工作项](#work-items)
 * [工具栏](#toolbar)
 * [时间表页脚](#timesheet-footer)
-* [作业角色](#job-role)
+* [工作角色](#job-role)
 * [小时数类型](#hour-type)
-* [左面板中的更新区域](#updates-area-in-the-left-panel)
-* [“摘要”面板](#summary-panel)
-* [时间范围和小时进入区域](#time-frame-and-hour-entry-area)
+* [更新左侧面板中的区域](#updates-area-in-the-left-panel)
+* [摘要面板](#summary-panel)
+* [时间范围和小时输入区域](#time-frame-and-hour-entry-area)
 * [小时条目评论](#hour-entry-comments)
 * [小时](#hours)
 * [总计](#totals)
 
-## 时间表标题
+## 工时表标题
 
-![](assets/timesheet-title-unshimmed-redesign.png)
+![工时表标题](assets/timesheet-title-unshimmed-redesign.png)
 
-时间表标题包括以下信息：
+时间表标题包含以下信息：
 
 * 时间表的时间范围。
-* “操作”区域包括以下内容：
+* “操作”区域包含以下内容：
    * 一个星形图标，用于将时间表添加到收藏夹列表。
-   * 带有删除选项的更多图标，您可以在其中删除时间表。
-* 工时单所有者的名称。
-* 工时表中显示的项目记录的小时总数。
-* 加班小时数。 这是手动输入，且仅当 **加班** 在时间表中启用了设置。 有关更多信息，请参阅 [编辑工时单信息](../create-and-manage-timesheets/edit-timesheets.md).
+   * 带有删除选项的“更多”图标允许您删除时间表。
+* 时间表所有者的名称。
+* 为时间表中显示的项目记录的小时数总计。
+* 加班小时数。 这是手动输入，仅当 **加班** 在时间表上启用设置。 有关更多信息，请参阅 [编辑工时表信息](../create-and-manage-timesheets/edit-timesheets.md).
 
 >[!TIP]
 >
->您无法记录超过工时单上当前总工时数的加班小时数。 例如，如果迄今为止已在时间表上记录了7小时，则无法记录8小时的加班时间。
-
+>您无法记录的加班小时数大于时间表上当前的总小时数。 例如，如果迄今为止您在时间表上记录了7小时，则无法记录8小时的加班时间。
 
 * 时间表状态。
 
 ## 左侧面板
 
-![](assets/timesheet-left-panel-unshimmed-redesign.png)
+![工时表左侧面板](assets/timesheet-left-panel-unshimmed-redesign.png)
 
 您可以在左侧面板中访问以下部分：
 
-* **时间表**:显示实际工时单。
-* **更新**:显示工时单的注释和系统更新。 有关更多信息，请参阅 [左面板中的更新区域](#updates-area-in-the-left-panel) 章节。
+* **工时表**：显示实际工时表。
+* **更新**：显示时间表的注释和系统更新。 欲了解更多信息，请参见 [更新左侧面板中的区域](#updates-area-in-the-left-panel) 部分。
 
 ## 工作项
 
-![](assets/timesheet-object-names-unshimmed-redesign.png)
+![工时表工作项](assets/timesheet-object-names-unshimmed-redesign.png)
 
-工作项是您要记录其时间的项目、任务和问题。 单击标题行中的向下箭头可折叠项目以及下面列出的任务和问题。 单击项目名称旁边的向下箭头可折叠该项目的工作项。
+工作项是您要记录时间的项目、任务和问题。 单击标题行中的向下箭头可折叠下方列出的项目以及任务和问题。 单击项目名称旁边的向下箭头可折叠该项目的工作项。
 
-任务、问题和项目在时间表时间段内计划的时间表或项目之外记录时间，这些任务、问题和项目会自动显示在此处。
+在时间表外记录时间的任务、问题和项目或在时间表时间范围内计划的项目自动显示在此处。
 
 ## 工具栏
 
-![](assets/timesheet-toolbar-unshimmed-redesign.png)
+![工时表工具栏](assets/timesheet-toolbar-unshimmed-redesign.png)
 
 工具栏包含以下选项：
 
-* 在添加项目、任务或问题中可添加项目的“添加项目”按钮。
-* 快速筛选图标，用于搜索工时单中的任务或问题。
-* 的 **显示注释** 用于查看或隐藏针对项目、任务或问题小时条目记录的小时评论的设置。
-* 在全屏模式下显示工时单的全屏图标。
-* **打开摘要** (或 **关闭摘要**)按钮，您可以在其中打开或关闭“摘要”面板以查看有关任务或问题的其他信息。 这不适用于项目。
+* 此 **添加项目** 允许您添加项目、任务或问题的按钮。
+* 快速过滤器图标用于在时间表中搜索任务或问题。
+* 此 **显示评论** 允许您查看或隐藏为项目、任务或问题小时条目记录的小时注释的设置。
+* 以全屏模式显示时间表的全屏图标。
+* 此 **打开摘要** (或 **关闭摘要**)按钮以打开或关闭“摘要”面板，查看任务或问题的其他信息。 此按钮不适用于项目。
 
-有关更多信息，请参阅 [日志时间](../create-and-manage-timesheets/log-time.md).
+有关更多信息，请参阅 [记录时间](../create-and-manage-timesheets/log-time.md).
 
 ## 时间表页脚
 
-![](assets/timesheet-footer-unshimmed-redesign.png)
+![时间表页脚](assets/timesheet-footer-unshimmed-redesign.png)
 
-您可以单击此区域中的“提交以供审批”、“关闭”、“批准”和“拒绝”按钮，以关闭或拒绝工时表审批。
+您可以单击 **提交以供审批**， **关闭**， **批准**、和 **拒绝** 按钮以关闭或拒绝时间表审批。
 
 此区域还包含有关上次保存时间表的时间的信息。 您对时间表中的信息所做的所有更改都会自动保存。
 
 ## 工作角色
 
-![](assets/timesheet-job-role-area-unshimmed-redesign.png)
+![职位角色](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-您可以选择与小时条目关联的其他作业角色。 您的Workfront管理员必须启用手动将作业角色分配给小时条目设置。 默认情况下，在为任务或问题分配时为您指定的作业角色会显示。 如果您未在任务或问题上分配作业角色，则默认显示“主角色”。 有关更多信息，请参阅文章 [配置工时单和工时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+您可以选择其他工作角色来与小时条目关联。 您的Workfront管理员必须启用 **将工作角色分配给小时条目** 手动设置。 默认情况下，系统将显示分配给任务或问题时为您指定的工作角色。 如果您未分配任务或问题的工作角色，则默认显示您的主要角色。 有关更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-您可以为不同角色记录同一工作项的多个小时条目。 有关更多信息，请参阅 [日志时间](../create-and-manage-timesheets/log-time.md).
+您可以为不同角色的相同工作项记录多个小时条目。 有关更多信息，请参阅 [记录时间](../create-and-manage-timesheets/log-time.md).
 
 ## 小时数类型
 
-![](assets/timesheet-hour-type-unshimmed-redesign.png)
+![小时类型](assets/timesheet-hour-type-unshimmed-redesign.png)
 
-您可以选择不同的小时类型以与每个项目上的小时条目相关联。 仅当Workfront管理员为您的环境启用此字段时，才会显示此字段。 有关信息，请参阅文章 [配置工时单和工时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+您可以选择不同的小时类型，以与每个项目的小时条目关联。 仅当Workfront管理员为您的环境启用此字段时，才会显示此字段。 有关信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-您可以针对不同的小时类型记录同一工作项的多个小时条目。 有关更多信息，请参阅 [日志时间](../create-and-manage-timesheets/log-time.md).
+您可以为不同的小时类型记录同一工作项的多个小时条目。 有关更多信息，请参阅 [记录时间](../create-and-manage-timesheets/log-time.md).
 
-## 左面板中的更新区域
+## 更新左侧面板中的区域
 
-![](assets/timesheet-updates-section-unshimmed-redesign.png)
+![更新左侧时间表面板中的区域](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-您可以在左侧面板的“更新”部分对时间表进行注释，以与时间表批准者或其他用户通信。
+您可以在时间表上添加备注，以便与时间表批准者或左侧面板更新部分中的其他用户通信。
 
-对工时单所作的任何评论都会显示在该区域，即工时单的底部。 此区域显示在工时表下方和工时表页脚上方。 有关更多信息，请参阅 [查看和管理工时单上的注释](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+对时间表所做的任何评论都将显示在时间表底部的此区域中。 此区域显示在时间表下方和时间表页脚上方。 有关更多信息，请参阅 [查看和管理工时表上的备注](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
-## “摘要”面板
+## 摘要面板
 
-![](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
+![摘要面板](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
-对于时间表中显示的任务或问题，您可以对访问“摘要”面板进行注释。 在此，您可以对任务和问题进行评论，或更新其信息。 有关更多信息，请参阅 [概要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+您可以访问“摘要”面板，查看时间表中显示的任务或问题。 从此处，您可以对任务和问题进行评论，或更新其信息。 有关更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-在“时间表摘要”面板中为工作项输入的注释显示在任务或问题的“更新”区域中。 “摘要”面板不适用于项目。
+您在时间表摘要面板中为工作项输入的注释将显示在任务或问题的更新区域。 “摘要”面板不适用于项目。
 
-## 时间范围和小时进入区域
+## 时间范围和小时输入区域
 
-![](assets/timesheet-time-frame-log-time-area.png)
+![时间表时间范围](assets/timesheet-time-frame-log-time-area.png)
 
-时间表的时间范围显示在工作项的右侧。
+工时表的时间范围显示在工作项的右侧。
 
-您可以创建一、两或四周的工时单。
+您可以创建一个、两个或四个星期的时间表。
 
-时间范围以整周增量显示。 指定时间表时间范围外的天数将灰显。 您无法记录超出时间表时间范围的天数。
+时间范围以整周为增量显示。 超出指定时间表时间范围的天数将变暗。 您无法记录超出时间表时间范围的天数的时间。
 
-有关信息，请参阅 [创建一次性工时单](../create-and-manage-timesheets/create-tmshts.md) 或 [创建、编辑和分配工时单配置文件](../create-and-manage-timesheets/create-timesheet-profiles.md).
+有关信息，请参阅 [创建一次性时间表](../create-and-manage-timesheets/create-tmshts.md) 或 [创建、编辑和分配时间表配置文件](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## 小时条目评论
 
-![](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
+![小时条目评论](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
-您可以为您添加到工时单的每小时条目添加注释。
+您可以为添加到时间表的每个小时条目添加评论。
 
-您在“小时录入注释”框中输入的注释显示在时间表中，位于您记录时间的每个工作项下 **显示注释** 设置时，才会启用。
+您在小时条目注释框中输入的注释将显示在时间表中您记录时间 **显示评论** 在工具栏中启用设置。
 
 ![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## 小时
 
-![](assets/timesheet-hours-area-unshimmed-redesign.png)
+![工时表小时](assets/timesheet-hours-area-unshimmed-redesign.png)
 
-工时单为每个工作项和工时单范围的日期提供输入字段，以记录处理该物料所花费的时间。 当您记录时间时，您记录时间的项目以浅蓝色突出显示，小时框以深蓝色列出。
+时间表为每个工作项提供输入字段，并在时间表范围中指定日期，以记录处理该项所花费的时间。 在记录时间时，记录时间以浅蓝色突出显示的项目和小时框以深蓝色列出。
 
 ## 总计
 
-![](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
+![工时表总计](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
-查看在时间表上输入的所有小时的总和，按天（在时间表的标题中）以及按对象（在最后一列中）汇总。
+查看在时间表上输入的所有小时数的总和，按天（在时间表标题中）和对象（在最后一列）汇总。
