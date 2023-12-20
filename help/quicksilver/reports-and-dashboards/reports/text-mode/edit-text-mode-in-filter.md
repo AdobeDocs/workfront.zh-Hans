@@ -1,108 +1,108 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 使用文字模式編輯篩選器
-description: '注意：在文章中新增區段：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html；***此外，在文字模式概觀文章中草擬此區域)'
+title: 使用文本模式编辑筛选器
+description: '注意：在文章中添加一节：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html；***此外，在文本模式概述文章中起草此区域)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
-# 使用文字模式編輯篩選器
+# 使用文本模式编辑筛选器
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
 -->
 
-您可以使用文字模式在清單或報告中編輯篩選器，以存取標準介面中無法使用的欄位，並建立更複雜的篩選器。
+您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
 
-如需建立篩選時的更多文字模式範例，另請參閱文章中的「自訂篩選的範例」一節 [自訂檢視、篩選和分組範例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+有关创建过滤器时的更多文本模式示例，另请参阅文章中的“自定义过滤器示例”部分 [自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯篩選器、檢視、群組的存取權</p> <p>編輯報告、儀表板、行事曆的存取權，以編輯報告中的報告元素</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權，以便編輯報表中的篩選器</p> <p>管理篩選器的許可權以編輯它</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理对报告的权限以编辑报告中的筛选器</p> <p>管理筛选器权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 必要條件
+## 先决条件
 
-在報表或清單中開始使用文字模式之前，請務必先確定您熟悉Workfront文字模式語法。
+在报表或列表中开始使用文本模式之前，请始终确保您熟悉Workfront文本模式语法。
 
-如需詳細資訊，請參閱：
+有关更多信息，请参阅：
 
-* [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [文字模式語法概觀](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [自訂檢視、篩選和分組範例](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [自定义视图、筛选器和分组示例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## 在篩選器中編輯文字模式
+## 在筛选器中编辑文本模式
 
-使用文字模式編輯篩選器對於報告和清單是相同的。 從報表或清單存取篩選器時不同。
+对于报告和列表，使用文本模式编辑过滤器是相同的。 从报表或列表访问过滤器有所不同。
 
 >[!TIP]
 >
->建議您在標準模式中建立儘可能多的篩選器，然後將篩選器轉換為文字模式以進行編輯。
+>我们建议您在标准模式下构建尽可能多的过滤器，然后将过滤器转换为文本模式以进行编辑。
 
-如需建立篩選器的詳細資訊，請參閱 [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+有关构建过滤器的更多信息，请参阅 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-如需建立報表的相關資訊，請參閱 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的信息，请参见 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. 执行下列操作之一：
 
-   1. 若要從報表存取篩選器，請前往報表，然後按一下 **報表動作** > **編輯** > **篩選器** 標籤。
-   1. 若要從清單存取篩選器，請前往清單並從 **篩選** 下拉式選單，將滑鼠移至您要修改的篩選器上，然後按一下 **編輯** 圖示 ![](assets/edit-icon.png).
+   1. 要从报表访问过滤器，请转到报表，然后单击 **报表操作** > **编辑** > **过滤器** 选项卡。
+   1. 要从列表访问过滤器，请转到列表，然后从 **筛选** 在下拉菜单中，将鼠标悬停在要修改的筛选器上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
 
-      篩選產生器隨即開啟。
+      此时将打开过滤器生成器。
 
-1. 按一下 **新增篩選規則** 以開始新增篩選條件，然後按一下 **切換至文字模式** 產生器的右上角。
-1. 使用文字模式新增篩選陳述式。 每個篩選陳述式可包含下列各行和其他資訊：
+1. 单击 **添加筛选器规则** 以开始添加过滤器的条件，然后单击 **切换到文本模式** 生成器的右上角。
+1. 使用文本模式添加过滤器语句。 每个过滤语句可以包含以下行和其他信息：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td><b>篩選行/資訊</b></td> 
+      <td><b>过滤行/信息</b></td> 
       <td><b>示例</b></td> 
      </tr> 
      <tr> 
-      <td> <p>欄位名稱及其在Workfront資料庫中顯示的值。</p> <p>此為必要行。</p> <p> 如需有關物件和欄位在資料庫中如何顯示的詳細資訊，請參閱 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API總管</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>若要篩選狀態為「進行中」的任務，請使用下列行：</p> <p><code>status=INP</code> </p> <p><b>秘訣</b>
+      <td> <p>字段名称及其在Workfront数据库中显示的值。</p> <p>此行是必填的。</p> <p> 有关对象和字段如何在数据库中显示的详细信息，请参见 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>.</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>要筛选状态为“进行中”的任务，请使用以下行：</p> <p><code>status=INP</code> </p> <p><b>提示</b>
 
-   篩選狀態時，必須使用三個字母的狀態代碼，而不是名稱。</p> </td>
+   筛选状态时，必须使用三个字母的状态代码，而不是名称。</p> </td>
    </tr> 
      <tr> 
-      <td> <p>欄位名稱修飾詞，以及該修飾詞所代表的內容。 這表示您正在篩選的欄位必須符合哪些條件。</p> <p>此為必要行。</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>若要指出您篩選的任務狀態必須等於進行中，除了上述行外，請使用以下行：</p> <p><code>status_Mod=in</code> </p> <p>如果修正因子是範圍，則有兩個明細行可表示修正因子。</p> 
-       <div> <span class="autonumber"><span><b>範例 </b></span></span> 
-        <p>這是文字模式篩選器，會尋找進行中的任務、具有當月計畫完成日期的任務，並指派給具有特定GUID的使用者：</p> 
+      <td> <p>字段名称修饰符以及修饰符所代表的内容。 这指示您正在过滤的字段必须满足的条件。</p> <p>此行是必填的。</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>要指示筛选的任务状态必须等于进行中，请使用上述行之外的以下行：</p> <p><code>status_Mod=in</code> </p> <p>如果修改量是一个范围，则有两个行表示该修改量。</p> 
+       <div> <span class="autonumber"><span><b>示例 </b></span></span> 
+        <p>这是一个文本模式筛选器，用于查找正在进行的任务、计划完成日期在当前月份内的任务以及分配给具有特定GUID的用户的任务：</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
         <p><code>status=INP</code> </p> 
@@ -110,18 +110,18 @@ ht-degree: 0%
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>如需文字模式中篩選修飾元的完整清單，請參閱文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">篩選和條件修飾元</a>.</p> 
+        <p>有关文本模式中过滤器修饰符的完整列表，请参阅文章 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">过滤器和条件修饰符</a>.</p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>陳述式運運算元。 依預設，每個篩選陳述式都由「AND」運運算元連線。 這不會顯示在文字模式介面中。 您也可以在兩個陳述式之間新增「OR」運運算元，以表示您想要篩選可滿足兩個條件中其中一個的物件。</p> <p>只有含有多個陳述式的篩選器才需要篩選器運運算元。</p> <p>秘訣：   
+      <td> <p>语句运算符。 默认情况下，每个filter语句都通过“AND”运算符连接。 这不会显示在文本模式界面中。 您还可以在两个语句之间添加“OR”运算符，以指示您要筛选满足两个条件中一个或另一个的对象。</p> <p>只有包含多个语句的过滤器才需要过滤器运算符。</p> <p>提示：   
         <ul> 
-         <li> <p>「OR」區分大小寫，且必須一律大寫。</p> </li> 
-         <li> <p>當您將運運算元從AND變更為OR時，清單專案的數量可能會增加。</p> </li> 
+         <li> <p>“或”区分大小写，且必须始终大写。</p> </li> 
+         <li> <p>当您将运算符从AND更改为OR时，列表项的数量可能会增加。</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div> <span class="autonumber"><span><b>範例 </b></span></span> 
-        <p>若要篩選處於進行中狀態或計畫完成日期為今天的任務，請使用下列專案： </p> 
+       <div> <span class="autonumber"><span><b>示例 </b></span></span> 
+        <p>要筛选状态为“进行中”或计划完成日期为今天的任务，请使用以下内容： </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
         <p><code>OR:1:plannedCompletionDate=$$TODAY</code> </p> 
@@ -129,10 +129,10 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>萬用字元，可讓您概括篩選器中的資訊，並參照目前時間或登入的使用者。</p> <p>萬用字元為選用。</p> <p>秘訣：   <p>建議您儘可能使用萬用字元，讓篩選器更動態，不要為每個使用者重複相同的篩選器或類似的時間範圍。</p> <p>如需有關篩選萬用字元的資訊，請參閱 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">萬用字元篩選變數</a>.</p> </p> </td> 
+      <td> <p>通配符，允许您在筛选器中泛化信息并引用当前时间或登录用户。</p> <p>通配符是可选的。</p> <p>提示：   <p>我们建议尽可能使用通配符，以使筛选器更动态，并且不要对每个用户或相似的时间范围复制相同的筛选器。</p> <p>有关筛选器通配符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>範例</b></span></span> 
-        <p>若要篩選指派給目前登入之使用者的任務，請使用下列專案：</p> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>示例</b></span></span> 
+        <p>要筛选分配给当前登录用户的任务，请使用以下内容：</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
        </div> </td> 
@@ -140,38 +140,45 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 若要新增由「OR」運運算元連線的篩選陳述式，請執行下列動作：
+1. 要添加由“OR”运算符连接的过滤器语句，请执行以下操作：
 
-   1. 新增一行程式碼並輸入OR:1: 後面接著您要篩選的物件或屬性，以及您要用來比較它的值。 若要參照任何狀態（「新建」除外）的任務，請使用下列行：
+   1. 添加新的代码行并键入OR:1: 后跟要过滤的对象或属性，以及要与其比较的值。 要引用处于“新建”以外的任何状态的任务，请使用以下行：
 
       ```
       OR:1:status=NEW
       ```
 
-   1. 新增第二行並輸入OR:1: 後面接著物件、修飾詞和修飾詞代碼。 若要定義代碼明細行的修正因子，以參考除「新增」以外的所有作業狀態，請使用下列修正因子明細行：
+   1. 添加第二行并键入OR:1: 后跟对象、修饰符和修饰符代码。 要为引用所有任务状态（新建除外）的代码行定义修改量，请使用以下修改量行：
 
       ```
       OR:1:status_Mod=notin
       ```
 
-      新陳述式的每一行前面都必須加上「或：`<number>`：」。
+      新语句的每一行前面都必须加上“或：`<number>`：&quot;。
 
-      如需有關在篩選器中建立「OR」陳述式的資訊，請參閱 [在文字模式篩選器中建立「OR」陳述式](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      有关在筛选器中创建“OR”语句的信息，请参阅 [在文本模式过滤器中创建“OR”语句](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
 <!--WRITER - reformat note below -->
 
 >[!NOTE]
 >
->同一篩選器中可以有多個「OR」陳述式。 每次有新的「OR」陳述式時，「OR：」後面的數字都會增加。
-若要篩選狀態為「進行中」、已指派給登入使用者或具有規劃完成日期的任務，請使用下列專案：
+>同一过滤器可以有多个“OR”语句。 每当您有新的“OR”语句时，“OR：”之后的数字都会增加。
+>
+要筛选状态为“进行中”、已分配给登录用户或计划完成日期为今天的任务，请使用以下内容：
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
-1. 按一下 **完成** 如果要儲存變更並繼續編輯報告或篩選器。
-1. 按一下 **儲存+關閉** 儲存報告或 **儲存篩選器** 以將篩選器儲存在清單中。
+1. 单击 **完成** 如果要保存更改并继续编辑报表或过滤器。
+1. 单击 **保存+关闭** 保存报告或 **保存筛选器** 将过滤器保存在列表中。
 
 

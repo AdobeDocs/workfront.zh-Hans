@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '63'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 * [使用内置报告](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [创建和管理报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [报表中计算的自定义数据](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [自定义视图、筛选器和分组示例](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [自定义视图、筛选器和分组示例：文章索引](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [文本模式资源：文章索引](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [报表使用情况概述](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [日历](../../reports-and-dashboards/reports/calendars/calendars.md)

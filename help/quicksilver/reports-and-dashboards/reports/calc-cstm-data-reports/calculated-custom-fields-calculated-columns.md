@@ -7,9 +7,9 @@ description: 了解报告和仪表板中的自定义数据
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ ht-degree: 0%
 有关视图中计算的自定义列的示例，请参阅以下文章：
 
 * [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [自定义视图、筛选器和分组示例](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [自定义视图、筛选器和分组示例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

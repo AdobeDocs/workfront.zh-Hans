@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 自定义视图、筛选器和分组示例
-description: 自定义视图、筛选器和分组示例适合目录文章”。 我觉得用物品来组织这种活动没什么价值。)”
-author: Lisa and Nolan
+title: “自定义视图、筛选器和分组示例：文章索引”
+description: 本节提供可在Adobe Workfront帐户中使用的自定义视图、筛选器和分组的示例。
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 自定义视图、筛选器和分组示例
+# 自定义视图、筛选器和分组示例：文章索引
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

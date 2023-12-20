@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 1%
       * [报告](reports-and-dashboards/reports/reports-overview.md)
       * 报告基础知识 {#report-basics}
          * [报告基础知识](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Adobe Workfront中的报告入门](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [报告入门](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [将默认报表另存为新报表](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * 报表元素 {#report-elements}
          * [报表元素概述](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 1%
          * [计算自定义字段示例：在自定义表单中显示状态时间戳](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [计算自定义字段示例：显示字段的编辑历史记录](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * 自定义视图、筛选器和分组示例 {#custom-view-samples}
-         * [自定义视图、筛选器和分组示例](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [自定义视图、筛选器和分组示例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [报告或列表：显示与对象关联的用户](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [筛选器：显示不完整的跨项目前置任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [筛选器：显示不完整的跨项目后置任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
