@@ -7,14 +7,16 @@ description: 您可以创建批准流程并将其附加到对象，以确保指�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # 审批流程概述
+
+<!-- Audited: 12/2023 -->
 
 您可以创建批准流程并将其附加到对象，以确保指定用户在对象进行之前审阅某些更改。
 
@@ -22,27 +24,26 @@ ht-degree: 0%
 
 * 工作项（项目、任务或问题、模板、模板任务）
 * 文档
-* Proof
-
-有关创建审批流程的说明，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* 校对
 
 本文包含与工作项关联的审批流程的一般信息。
+有关创建审批流程的说明，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## 审批流程类型
+## 工作项的审批流程类型
 
 如果您是Adobe Workfront管理员或对审批流程具有管理访问权限的用户，则可以为项目、任务和问题创建以下审批流程：
 
 * **系统级全局审批流程**：用户可以将这些内容附加到以下任意位置：
 
    * 审批部分中的项目、任务或问题
-   * 在编辑项目框中的任务默认审批流程区域
-   * 在项目的队列详细信息或队列主题部分、默认批准流程区域中。 项目必须启用为请求队列。
+   * 在任务默认审批流程区域的编辑项目框中
+   * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列。
 
 * **组级全局审批流程**：用户可以将这些文件附加到以下内容：
 
    * 属于与审批部分中的审批流程关联的组的项目、任务或问题
-   * 在编辑项目框中，属于与审批流程关联的组的项目的任务默认审批流程区域
-   * 在项目的队列详细信息或队列主题部分、默认批准流程区域中。 项目必须启用为请求队列，并且必须属于与审批流程关联的组。
+   * 在任务默认审批流程区域的“编辑项目”框中，为属于与审批流程关联的组的项目
+   * 在项目的默认批准流程区域的队列详细信息或队列主题部分。 项目必须启用为请求队列，并且必须属于与审批流程关联的组。
 
   有关创建系统级别或组级别审批流程的信息，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

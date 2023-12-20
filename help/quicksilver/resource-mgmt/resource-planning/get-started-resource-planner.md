@@ -7,7 +7,7 @@ description: 您可以使用资源计划程序来估计和预算分配给其所�
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 资源规划者概述
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -41,8 +43,8 @@ ht-degree: 0%
 * 要使用“用户”视图查看以下信息，请执行以下操作：
 
    * 根据用户的计划提供的可用性
-   * 根据项目计划完成工作所需的计划时间。
-   * 用户已登录实际工作项的时间。
+   * 按照项目计划完成工作所需的计划时间
+   * 用户已登录实际工作项的时间
 
   有关查看资源规划者中用户的可用小时、计划小时数和实际小时数或FTE的更多信息，请参阅文章 [使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

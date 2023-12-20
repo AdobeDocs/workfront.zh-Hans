@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 许可证，类型
 navigation-topic: access-levels
 description: 您的组织在购买Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供3种类型的新Workfront许可证之一。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -19,13 +19,15 @@ ht-degree: 2%
 
 # 新许可证概述
 
+<!-- Audited: 12/2023 -->
+
 您的组织在购买Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供3种类型的Workfront许可证之一。
 
 ## 新的Workfront许可证和新访问级别如何绑定
 
 这3种新Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
 
-作为Workfront管理员，您无需为用户分配许可证，而是为他们分配附加到该许可证的访问级别。
+您不可以为用户分配许可证，而是为其分配附加到该许可证的访问级别。
 
 此表和图表显示了对Workfront的主要访问级别：
 
@@ -34,7 +36,7 @@ ht-degree: 2%
 | 标准 | 系统管理员，标准 |
 | 轻量 | 轻量 |
 | 投稿人 | 投稿人 |
-| 外部的* | 外部用户 |
+| 外部* | 外部用户 |
 
 >[!NOTE]
 >
@@ -54,6 +56,6 @@ ht-degree: 2%
 
 例如，如果将标准访问级别分配给用户，则可用标准许可证的数量将减少1。
 
-您可以查看分配给用户的许可证和访问级别。 有关更多信息，请参阅 [列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+您可以查看分配给用户的许可证和访问级别。 有关更多信息，请参阅 [列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-有关管理许可证的信息，请参见 [管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
+有关管理许可证的信息，请参见 [管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

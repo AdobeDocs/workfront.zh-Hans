@@ -7,7 +7,7 @@ description: 通过在过滤器中使用通配符，您可以引用通用用户�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # 通配符筛选器变量概述
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -173,7 +175,7 @@ ht-degree: 1%
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
    <td> <p>$$USER.name变量是指登录用户的全名。</p> <p>注意：   <p>仅当在文本模式下修改过滤器时，此通配符变量才起作用。 您无法在不支持文本模式的筛选器中使用此通配符。 例如，您无法在以下区域的筛选条件中使用此通配符：</p> 
      <ul> 
-      <li> <p>资源规划者</p> </li> 
+      <li> <p>资源规划程序</p> </li> 
       <li> <p>工作负载均衡器</p> </li> 
       <li> <p>分析</p> </li> 
      </ul> </p> </td> 

@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # 修改多个用户的电子邮件通知设置
+
+<!-- Audited: 12/2023 -->
 
 如果您是Adobe Workfront管理员或者您具有允许您编辑其他用户设置的“规划者”访问级别，则可以一次为多个用户配置通知设置。 这包括指定用户是在发生事件时接收通知，还是在一封每日摘要电子邮件中接收通知，如中所述 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md). 有关编辑用户所需的访问级别的信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

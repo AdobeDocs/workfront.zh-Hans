@@ -6,14 +6,16 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # 创建或编辑展示板
+
+<!-- Audited: 12/2023 -->
 
 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板或编辑现有展示板。
 
@@ -29,6 +31,13 @@ ht-degree: 3%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>新文档：参与者或更高版本 </p>
+ <p>或</p> 
+<p>当前： [！UICONTROL Request]或更高版本 </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
    <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
@@ -40,7 +49,7 @@ ht-degree: 3%
 
 ## 创建新讨论区
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+{{step1-to-boards}}
 1. 单击 **[!UICONTROL 添加展示板]**.
 
 1. 为展示板选择模板。
@@ -49,7 +58,7 @@ ht-degree: 3%
    |---------|----------|
    | 基本展示板 | 主板上有三个默认列。 您可以添加新列，并重命名或删除默认列。 <p>主板上有三个默认列。 您可以添加新列，并重命名或删除默认列。 |
    | Kanban 展示板 | 以下列显示在展示板上：积压、新增、进行中、完成和搁置。 您可以添加新列，并重命名或删除默认列。<p>要使用积压，必须为引入列设置过滤器。 有关信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的默认策略，请单击 [!UICONTROL **更多** 菜单] 在列上并选择 [!UICONTROL **编辑**]. 您可以更改这些预设策略中的任何一个。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | 回顾展示板 | 讨论区上提供了以下各列：哪些方面进展顺利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 您可以添加新列，并重命名或删除默认列。 <p>不应用任何列策略。 |
+   | 回顾展示板 | 讨论区上提供了以下各列：哪些方面进展顺利？ 可以改进什么？ 我们应该为谁庆祝？ 我们可以做些什么来加快步伐？ 您可以添加新列，并重命名或删除默认列。 <p>不应用任何列策略。 |
    | 动态展示板 | 展示板上提供了以下列：未选择、新建、进行中、已暂挂和完成。 您可以添加新列，并重命名或删除默认列。 (可以重命名未选定的列，但不能将其删除。 此列包含状态与任何其他列状态均不匹配的所有信息卡。) <p>默认列策略根据列的状态为列分配信息卡。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. 仅对于动态展示板，请按照设置向导中的步骤操作：
@@ -86,7 +95,7 @@ ht-degree: 3%
 
 ## 编辑现有讨论区
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+{{step1-to-boards}}
 1. 在仪表板上，选择要打开的面板。
 1. 根据需要编辑展示板。 您可以单击电路板名称对其进行重命名。
 

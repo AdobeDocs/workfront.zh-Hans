@@ -6,7 +6,7 @@ description: 此 [!DNL Adobe Workfront] [!DNL Outlook] 加载项允许您执行�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 设置 [!DNL Adobe Workfront for Outlook]
+
+<!-- Audited: 12/2023 -->
 
 此 [!DNL Adobe Workfront] [!DNL Outlook] 加载项允许您执行以下键 [!DNL Workfront] 直接从Outlook中执行的任务：
 

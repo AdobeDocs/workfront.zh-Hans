@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 396d273f6a2a61786f9f2afb9541065ae407bb45
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 导航 [!DNL Adobe Workfront]：文章索引
+
+<!-- Audited: 12/2023 -->
 
 阅读这些文章以了解如何在Adobe Workfront中导航并了解Workfront术语。
 
