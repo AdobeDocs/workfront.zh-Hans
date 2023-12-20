@@ -1,29 +1,31 @@
 ---
-title: 重置用户首选项
+title: 重置用户的首选项
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。 个人用户还可以重置自己的用户首选项设置。
-author: Caroline
+description: 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。 个人用户也可以重置自己的用户首选项设置。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# 重置用户首选项
+# 重置用户的首选项
+
+<!-- Audited: 12/2023 -->
 
 作为Adobe Workfront管理员，您可以重置或删除Workfront系统中任何用户的用户首选项设置。
 
-个人用户还可以重置自己的用户首选项设置。
+个人用户也可以重置自己的用户首选项设置。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,22 +33,24 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 关于受影响的设置
 
-重置用户首选项时，某些首选项会还原为系统默认设置，而其他首选项会被清除或删除：
+重置用户首选项时，某些首选项将恢复为系统默认值，而其他首选项将清除或删除：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,18 +64,18 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>视图</td> 
-   <td> <p> 还原到系统默认值</p> <p>不会删除现有视图。 您可以再次选择它们。</p> </td> 
+   <td> <p> 已还原为系统默认值</p> <p>不会删除现有视图。 您可以再次选择它们。</p> </td> 
   </tr> 
   <tr> 
    <td>过滤器</td> 
-   <td> <p>还原到系统默认值</p> <p>不会删除现有过滤器。 您可以再次选择它们。</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>不会删除现有筛选器。 您可以再次选择它们。</p> </td> 
   </tr> 
   <tr> 
    <td>分组</td> 
-   <td> <p>还原到系统默认值</p> <p>不会删除现有分组。 您可以再次选择它们。</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>现有分组不会被删除。 您可以再次选择它们。</p> </td> 
   </tr> 
   <tr> 
-   <td>最近项目列表</td> 
+   <td>最新项目列表</td> 
    <td>已清除</td> 
   </tr> 
   <tr> 
@@ -80,7 +84,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>用户首选项</td> 
-   <td> <p>还原到系统默认值</p> <p>电子邮件通知还原为系统默认值</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。</p> </td> 
   </tr> 
   <tr> 
    <td>用户定义的自定义选项卡</td> 
@@ -88,28 +92,25 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>用户定义的全局导航选项</td> 
-   <td>如果未分配布局模板，则设置回布局模板定义或系统默认值。</td> 
+   <td>设置为布局模板定义，如果未分配布局模板，则设置为系统默认值。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 重置用户首选项
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 选择 **登录方式**.
-1. 开始键入要重置其首选项的用户名称，然后在下拉列表中显示该名称时单击。
+1. 选择 **登录身份**.
+1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
 1. 选择  **登录**.
-1. 在Web浏览器顶部的URL字段中，添加 `/resetUser` after `workfront.com`.
+1. 在Web浏览器顶部的URL字段中添加 `/resetUser` 之后 `workfront.com`.
 
    >[!NOTE]
    >
-   >这区分大小写。 U必须大写，其余字符必须小写。 例如：
+   >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
    >
-   >
-   ```
-   >https://company_domain.my.workfront.com/resetUser
-   >```
+   >`https://company_domain.my.workfront.com/resetUser`
 
 1. 按 **输入**.
 1. 要重置所有用户首选项，请选择 **重置**.
