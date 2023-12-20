@@ -6,9 +6,9 @@ description: 在创建构成报告或列表的元素时，可以使用标准或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-在创建构成报告或列表的元素时，可以使用标准或文本模式界面在Adobe Workfront中构建报告或列表。 标准界面允许您引用Workfront界面中随时可用的字段及其属性。 使用文本模式，您可以引用在标准模式下可能不可用，但在Workfront数据库中可用的字段和属性。
+在创建构成报告或列表的元素时，可以使用标准或文本模式界面在Adobe Workfront中构建报告或列表。
+
+标准界面允许您引用Workfront界面中随时可用的字段及其属性。
+
+使用文本模式，您可以引用在标准模式下可能不可用，但在Workfront数据库中可用的字段和属性。
 
 有关使用文本模式创建报告（包括类、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“学习”部分。
 
@@ -74,9 +78,6 @@ ht-degree: 0%
 >
 >并非所有通过API可用的字段都可通过文本模式界面使用。 如果您在文本模式代码中使用了正确的字段，并且没有显示预期的结果，则该字段可能只能通过API报告。
 
-* [访问报表元素并编辑文本模式](#access-reporting-elements-and-edit-text-mode)
-* [使用文本模式的常见原因](#common-reasons-to-use-text-mode)
-
 ## 访问报表元素并编辑文本模式 {#access-reporting-elements-and-edit-text-mode}
 
 从报表或列表访问视图、分组和筛选器时，访问文本模式界面的方式与此类似。
@@ -95,13 +96,20 @@ ht-degree: 0%
 
 有关访问自定义提示的文本模式界面的信息，请参见 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## 使用文本模式的常见原因 {#common-reasons-to-use-text-mode}
+
+除了创建只能使用文本模式配置的自定义提示之外，我们建议您使用Report Builder构建视图、筛选器和分组。 但是，在某些情况下，您可以使用文本模式来增强报告和列表。
+
+有关文本模式的常见用法的详细信息，请参见 [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ ht-degree: 0%
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>报表的第一个分组的组号为0。 引用第一个分组的所有行都以group.0开头。&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>报表的第二个分组的组号为1。 所有引用第二个分组的行均以&lt;code>group.1&lt;/code>开头。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>报表的第三个分组的组数为2。 所有引用第三个分组的行均以&lt;code>group.2&lt;/code>开头。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>仅在文本模式下，可以为第四个分组添加组号3。 所有引用第四个分组的行均以&lt;code>group.3&lt;/code>开头。&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->当您在查看列表时手动调整分组时，Workfront会记住您的手动首选项，直到您注销。 重新登录时，将根据此设置显示列表。
->
->从图表元素访问分组结果后，这些结果始终以展开形式显示。
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## 使用文本模式的常见原因 {#common-reasons-to-use-text-mode}
 
-除了创建只能使用文本模式配置的自定义提示之外，我们建议您使用Report Builder构建视图、筛选器和分组。 但是，在某些情况下，您可以使用文本模式来增强报告和列表。
-
-有关文本模式的常见用法的详细信息，请参见 [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

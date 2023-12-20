@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: 配置系统范围的项目首选项
 description: 作为 [!DNL Adobe Workfront] 管理员，您可以为在整个系统中创建的所有项目配置默认首选项。 这些首选项影响项目、任务和问题行为。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,30 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] 计划</p></td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL计划]</td> 
+   <td><p>新文档： [！UICONTROL Standard]</p>
+   或
+   <p>当前： [！UICONTROL计划]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL系统管理员]</p> <p><b>注意</b>：</p><p>如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 配置整个组织的项目首选项
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **[!UICONTROL 项目首选项]** > **[!UICONTROL 项目]**.
 
-1. 在出现的页面上，继续下面列出的四个部分之一以配置首选项 [!UICONTROL 项目状态]， [!UICONTROL 时间线]， [!UICONTROL 商业案例]、和 [!UICONTROL 死后期限].
+1. 在 **项目首选项** 页面，继续下面列出的四个部分之一以配置首选项 [!UICONTROL 项目状态]， [!UICONTROL 时间线]， [!UICONTROL 商业案例]、和 [!UICONTROL 死后期限].
 1. 如果您希望整个组织中的所有组都使用相同的项目首选项，请确保锁定每个首选项 ![](assets/lock-toggle-button.png) （这是默认设置）。
 
    >[!IMPORTANT]
@@ -89,7 +92,7 @@ ht-degree: 0%
          </ul>
         <p>默认情况下，此首选项处于启用状态。 </p> 
         <p><b>注释</b></p>
-        <p> 组管理员可以更改组的此首选项。 当用户属于具有不同首选项的多个组时，如果用户的主组启用了此首选项，则允许用户创建没有模板的项目。</p> 
+        <p> 组管理员可以更改组的此首选项。 当用户属于具有不同首选项的多个组时，如果用户的主组启用了此首选项，则用户可以创建没有模板的项目。</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL根据进度状态自动设置项目条件]</td> 
-   <td> <p>此首选项允许用户手动设置项目的[！UICONTROL Condition] ([！UICONTROL On Target]、[！UICONTROL At Risk]、[！UICONTROL In Trouble])或具有 [!DNL Workfront] 根据项目在时间线上的进度自动设置[！UICONTROL条件]（进度状态）。 有关项目条件的更多信息，请参阅 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">项目完成情况和完成情况类型概览</a>.</p> </td> 
+   <td> <p>此首选项允许用户将项目的[！UICONTROL Condition]手动设置为([！UICONTROL On Target]、[！UICONTROL At Risk]、[！UICONTROL In Trouble])或具有 [!DNL Workfront] 根据项目在时间线上的进度自动设置[！UICONTROL条件]（进度状态）。 有关项目条件的更多信息，请参阅 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">项目完成情况和完成情况类型概览</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL自动创建基线]</p> </td> 
@@ -157,7 +160,7 @@ ht-degree: 0%
    <td role="rowheader">[！UICONTROL用户空闲时间]</td> 
    <td> <p>确定任务的主要被分配人的休假是否调整了项目上该任务的计划日期。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL考虑任务持续时间中的用户空闲时间]</strong>：如果为任务的主要被分配者安排的任何休息时间出现在任务持续时间中，则会调整任务的计划日期。 这是默认设置。 </p> <p>例如，如果一项约束为[！UICONTROL的任务计划于6月1日开始并在6月3日完成，而主要被分配人将6月2日标记为休假，则该任务的计划日期将调整为6月1日至6月4日。</p> <p><b>重要</b>：选择此设置时，任务的持续时间不会更改。 根据任务限制，只有计划的日期会更改。</p> </li> 
+     <li> <p><strong>[！UICONTROL考虑任务持续时间中的用户空闲时间]</strong>：如果为任务的主要被分配者安排的任何休息时间出现在任务持续时间中，则会调整任务的计划日期。 这是默认设置。 </p> <p>例如，如果一项约束为[！UICONTROL的任务计划于6月1日开始并在6月3日完成，而主要被分配人将6月2日标记为休假，则该任务的计划日期将调整为6月1日至6月4日。</p> <p><b>重要</b>：</p> <p>选择此设置时，任务的持续时间不会更改。 根据任务限制，只有计划的日期会更改。</p> </li> 
      <li><strong>[！UICONTROL忽略任务持续时间中的用户空闲时间]</strong>：项目上每个任务的计划日期仍保持原计划，即使任务的主要被分配人在任务持续时间里有空闲时间。</li> 
     </ul> <p>为此设置选择选项时，请考虑以下事项：</p> 
     <ul> 
@@ -172,7 +175,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL项目时间表将自动重新计算]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL项目时间表会自动重新计算]</p> </td> 
    <td> <p>确定重新计算项目时间线的时间。 有关重新计算项目时间线的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>.</p> <p>默认启用以下选项。 您可以选择以下一个或多个设置：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL，每晚]</strong>：选择此项以每晚重新计算项目时间线。 您对项目所做的任何可能影响时间线的更改不会立即可见。 [!DNL Workfront​​​] 仅当满足以下两个条件时，才在夜间重新计算项目的时间表：</p> <p> 
@@ -185,14 +188,14 @@ ht-degree: 0%
         <li>仅在更改时更新</li>
         <li>仅自动更新</li> 
       </ul>       
-    <b>提示</b>
+    <b>提示：</b>
     <p>更新类型为仅手动的项目不受此设置的影响。</p>
     <li> <p><strong>当项目范围更改时</strong>：选择此项可在项目范围发生更改时立即重新计算项目时间线。 有关构成项目范围更改的内容的信息，请参见 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新计算项目时间表</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL当多个用户被分配到任务时，使用]的计划</p> </td> 
-   <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划， [!DNL Workfront] 使用系统默认计划计算任务的时间线。</p> <p>如果将多个用户分配给一个项目中的同一任务，并且分配给该任务的用户也分配了计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
+   <td> <p>如果项目未分配计划，或分配给其任务的用户未分配计划， [!DNL Workfront] 使用系统默认计划计算任务的时间线。</p> <p>如果将多个用户分配给项目中的同一任务，并且该项目分配有计划，并且分配给这些任务的用户也分配有计划，则[！UICONTROL Workfront]将使用以下计划：</p> 
     <ul> 
      <li><strong>[！UICONTROL主要分配]</strong>： [!DNL Workfront] 使用任务上主要分配的时间表来计算时间表。</li> 
      <li><strong>[！UICONTROL项目]</strong>： [!DNL Workfront] 使用项目的计划来计算每项任务的时间表。</li> 
@@ -205,12 +208,12 @@ ht-degree: 0%
      <li><strong>[！UICONTROL通常每工作日小时数]</strong>：为将处理项目的用户设置典型工作日的小时数。 默认值为8小时。</li> 
     </ul> 
     <ul> 
-     <li><strong>[！UICONTROL每周典型工作日]</strong>：为将处理项目的用户设置标准工作周。 默认值为5天。</li> 
-    </ul> <p>这2个选项会将天转换为小时，或将周转换为天。</p> <p>例如，如果您有一个具有8个计划小时数的任务，并且持续时间基于计划小时数计算， [!DNL Workfront] 将那些小时转换为天，以便将持续时间显示为天。</p> <p>从典型的[！UICONTROL每周工作日]字段中， [!DNL Workfront] 计算系统的相当于全职(FTE)值。 这是什么 [!DNL Workfront] 在计算用户分配时使用。</p> <p>当您计划项目时间线、资源预算或针对项目记录时间时，可以使用这些值。 </p> <p>在系统中为用户建立时间表时，不使用这些时间表，如中所述 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[！UICONTROL配置]时间表和小时首选项</a>.</p> <p><b>注意</b>： [!DNL Workfront] 管理员无法解锁[！UICONTROL时间线计算]首选项。</p> </td> 
+     <li><strong>[！UICONTROL每周典型工作日]</strong>：为处理项目的用户设置标准工作周。 默认值为5天。</li> 
+    </ul> <p>这2个选项会将天转换为小时，或将周转换为天。</p> <p>例如，如果您有一个具有8个计划小时数的任务，并且持续时间基于计划小时数计算， [!DNL Workfront] 将那些小时转换为天，以便将持续时间显示为天。</p> <p>从典型的[！UICONTROL每周工作日]字段中， [!DNL Workfront] 计算系统的相当于全职(FTE)值。 这是什么 [!DNL Workfront] 在计算用户分配时使用。</p> <p>当您计划项目时间线、资源预算或针对项目记录时间时，可以使用这些值。 </p> <p>在系统中为用户建立时间表时，不使用这些时间表，如中所述 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[！UICONTROL配置]时间表和小时首选项</a>.</p> <p><b>注意</b>：</p> <p>[!DNL Workfront] 管理员无法解锁[！UICONTROL时间线计算]首选项。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[！UICONTROL自定义季度]</p> </td> 
-   <td> <p>为将处理项目的用户配置自定义年度季度。 自定义季度通常是不匹配日历年内传统季度划分的季度。 您可以添加多个自定义季度。 有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">为项目启用自定义季度</a>.</p>  <p><b>注意</b>： [!DNL Workfront] 管理员无法解锁[！UICONTROL自定义季度]首选项。</p> </td> 
+   <td> <p>为将处理项目的用户配置自定义年度季度。 自定义季度通常是不匹配日历年内传统季度划分的季度。 您可以添加多个自定义季度。 有关更多信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">为项目启用自定义季度</a>.</p>  <p><b>注意</b>： </p><p>[!DNL Workfront] 管理员无法解锁[！UICONTROL自定义季度]首选项。</p> </td> 
   </tr> 
  </tbody> 
 </table>

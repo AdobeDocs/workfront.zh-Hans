@@ -6,9 +6,9 @@ description: Portfolio或项目Portfolio管理(PPM)是对项目列表进行优�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 ### 项目审查 {#project-review}
 
-提交项目请求后，Portfolio经理或执行团队会对其进行审核，并决定是否批准它们。 如果获得批准，则将为公司项目Portfolio选择它们。
+提交项目请求后，Portfolio经理或执行团队会对其进行审阅，并决定是否批准项目。 如果他们批准项目，则为公司项目Portfolio选择项目。
 
 有关项目组合的详细信息，请参阅 [中的Portfolio概述 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)有关批准业务案例的更多信息，请参阅 [批准业务案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,7 +67,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 ### 资源规划 {#resource-planning}
 
-除了优化项目组合的性能并安排项目的优先级外，资源管理器还确保为项目分配适当的资源。 他们利用以下提供的资源管理工具来评估资源的可用性和分配： [!DNL Workfront].
+除了优化项目组合的性能和安排项目的优先级之外，资源管理器还确保为项目分配适当的资源。 他们利用以下提供的资源管理工具来评估资源的可用性和分配： [!DNL Workfront].
 
 根据资源的可用性，Portfolio管理员可能需要重新安排项目的优先级。
 
@@ -75,7 +75,7 @@ Portfolio或项目Portfolio管理(PPM)是对项目列表进行优先级划分和
 
 ### 项目执行 {#project-execution}
 
-在从Portfolio经理收到项目批准和从资源管理器收到资源验证后，作为项目所有者，您可以将项目置于以下状态 [!UICONTROL 当前] 您的用户可以开始工作以完成项目。 建议在此阶段捕获项目的基线，以便在原始状态下为项目设置参考点。
+在从Portfolio经理收到项目批准和从资源管理器收到资源验证后，作为项目所有者，您可以将项目置于以下状态 [!UICONTROL 当前] 您的用户可以开始工作以完成项目。 我们建议您在此阶段捕获项目的基线，以便在项目的原始状态下为其设置参考点。
 
 有关管理中项目的更多信息 [!DNL Workfront]，请参见 [管理项目：文章索引](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 有关在项目中创建基线的详细信息，请参见 [创建项目基线](../../../manage-work/projects/create-projects/create-baselines.md).
