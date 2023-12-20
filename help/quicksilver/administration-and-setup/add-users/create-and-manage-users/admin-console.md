@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
+source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系�
    >
    >对于新的Adobe用户，Admin Console会发送一封电子邮件，邀请他们完成注册过程。 所有用户都必须完成注册过程才能访问任何Adobe应用程序。
    >
-   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
+   >对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。 您的Adobe管理员可能不是Workfront管理员。
 
 ### 在Workfront中创建用户并批准他们用于Adobe Admin Console
 
