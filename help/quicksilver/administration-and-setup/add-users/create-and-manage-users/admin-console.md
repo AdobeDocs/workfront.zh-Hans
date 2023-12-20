@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系�
 
 ## 访问Workfront生产实例的用户和管理区域 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 从 [Adobe Admin Console页面](https://adminconsole.adobe.com/)，选择 **产品** 选项卡，然后选择 **Workfront** 产品拼贴。
+1. 从 [Adobe Admin Console页面](https://adminconsole.adobe.com/)，选择 **产品** 选项卡，然后选择 **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. 在显示的列表中，选择顶部的链接。
 
    这是用户工作的生产实例。
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront用户和系�
 
 {{step-1-to-users}}
 
-1. 选择用户，然后单击&#x200B;**ö** re图标 ![](assets/more-icon.png).
+1. 选择用户，然后单击 **更多** 图标 ![](assets/more-icon.png).
 
 1. 要批准用户，请单击 **批准**，然后单击 **提交**.
 
