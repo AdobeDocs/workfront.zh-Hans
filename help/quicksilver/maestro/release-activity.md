@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ Maestro记录的注释体验与Workfront对象的新注释体验相匹配。
 
 有关更多信息，请参阅 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### 适用于Adobe Workfront Fusion的Maestro连接器（测试版）
+
+预览和生产： 2023年12月21日
+
+现在，您可以使用Adobe Workfront Fusion连接到Maestro。 使用新的AdobeMaestro Fusion连接，您可以：
+
+* 创建、读取、更新和删除记录
+
+* 按记录类型获取记录列表
+
+* 删除或获取记录类型列表
+
+* 搜索记录
+
+* 进行API调用
+
+* 在Maestro中进行更改时触发方案
+
+有关更多信息，请参阅 [AdobeMaestro模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## 2023年12月11日起一周
 
 ### 更新记录类型的表视图中的主字段
@@ -126,7 +146,7 @@ Maestro记录的注释体验与Workfront对象的新注释体验相匹配。
 
 预览版本： 2023年12月14日
 
-生产版本：计划于2023年12月15日发布
+生产版本： 2023年12月21日
 
 >[!IMPORTANT]
 >

@@ -7,26 +7,26 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # 智能分配概述
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳用户。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。</span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳资源。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。 智能分配可以是用户、工作角色或团队。
 
 >[!NOTE]
 >
->智能分配不考虑用户的可用性。 但是，当任务和问题被分配时，其根据其计划可用性会影响它们的计划和预计日期。 有关时间安排的信息，请参阅文章 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>建议用户时，智能分配不会考虑用户的可用性。 但是，当任务和问题被分配时，其根据其计划可用性会影响它们的计划和预计日期。 有关时间安排的信息，请参阅文章 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 本文包含有关智能分配的一般信息。 有关使用智能分配向用户分配任务和问题的信息，请参阅 [进行智能分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ ht-degree: 0%
 
 您可以在以下区域查看智能分配，您可以在其中分配任务或问题：
 
-* 任务、问题列表或报告 <!--edit this to say just issue list or report and update screen shot - add new one-->
+* “工作总揽”列中的问题列表或报告
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">“工作总揽”列中的任务列表或报告 </span>
 
-* 任务或问题标题
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* 任务或问题标题在任务字段
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* 任务或问题摘要面板
+* 任务或问题任务区域中的摘要面板
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* “主页”区域中列出的项目的“工作总揽”字段
+* 打开任务或问题时，在“工作总揽”区域的“主页”区域中列出的项目的“工作总揽”字段
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* 工作负载均衡器
+* 分配任务或问题时位于已分配此区域的工作负载均衡器
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智能分配条件
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+智能分配在任务中的工作方式与问题中的工作方式不同。
 
-### Smart assignments criteria for tasks
+### 任务的智能分配条件
 
-Task smart assignments work in two phases:  
+任务智能分配计算分两个阶段进行。
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### 任务智能分配计算的第一阶段
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+在计算智能分配的第一阶段，Workfront会计算每个分配的相似性得分。 相似度得分的计算以及分配的列出顺序考虑以下因素：
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* 如果现有分配的任务、项目和项目组合名称与尝试分配的任务相同，则为其指定100%的分数。 现有分配的任务的项目名称和项目组合名称还必须与您尝试分配的任务的项目名称和项目组合匹配。
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* 如果只有其他分配中的某些信息与现有任务匹配，则得分可能低于100%。
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  例如，如果您在名为“我的项目组合”的项目组合中分配名为“我的项目”的名为“我的第二个任务”的任务，并在名为“我的项目组合”的项目组合中另一个名为“我的项目”的名为“我的任务”的现有任务，则分配给“我的任务”的用户可能获得95%的分数，因为现有任务的名称与您当前尝试分配的任务名称相似，但并不相同。
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  Workfront仅在任务、项目和项目组合的“名称”字段中查找匹配项，而不会在任何其他字段中查找。
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* 如果将分配任务分配给系统中许多名称相似的任务，则它们可能会获得较高的得分。 例如，如果名为“开发”的团队被分配到名称中包含“AI”的系统中的50%任务，而您现在正在分配名称中包含“AI”的另一个任务，则“开发”团队的得分较高。 在这种情况下，项目和项目组合的名称没有那么重要。
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* 考虑到此评分系统，前7个建议按其分数的降序顺序列为智能分配。 分数低于40%的工作不显示。
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* 如果多个分配具有相同的得分，则会按照分配日期的顺序显示，从最近的日期开始。
 
-#### Second phase of smart assignment calculation criteria for tasks
+  例如，如果Rick今天早些时候被分派到一个类似的任务，而Jennifer两天前被分派到一个类似的任务，则Rick首先显示。
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* 如果没有匹配项使用此计算，则智能分配的第二阶段将开始（使用不同的算法计算）。
 
-### Smart assignments criteria for tasks and issues 
+#### 任务智能分配计算的第二阶段
 
-</div> 
+如果任务智能分配的第一步未找到匹配项，则Workfront会按照与计算问题智能分配相同的方式计算任务的智能分配。
+
+有关更多信息，请参阅部分 [任务和问题的智能分配标准](#smart-assignments-criteria-for-tasks-and-issues) 本文章中。
+
+### 任务和问题的智能分配标准
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">仅当任务智能分配计算的第一阶段未找到任何匹配项时，以下标准才适用于任务。 有关信息，请参阅部分 [任务智能分配计算的第一阶段](#first-phase-of-smart-assignment-calculation-for-tasks) 本文章中。 默认情况下，以下标准始终适用于问题。 </span>
 
 根据以下条件的组合，在智能分配下拉列表中推荐用户（按照从高到低的顺序列出）：
 

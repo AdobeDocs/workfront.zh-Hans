@@ -6,20 +6,18 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # 进行智能分配
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。</span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的用户建议。 有关智能分配的信息，请参见 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ ht-degree: 0%
 
 智能分配适用于大多数您可以在Workfront中进行分配的位置。
 
-1. 转到以下区域，然后单击 **指定任务** 或 **将此分派至** 字段：   
+1. 转到以下区域，然后单击 **指定任务** 或 **将此分派至** 字段：
 
    * 任务、问题列表或报告
    * 任务或问题标题
    * 任务或问题摘要面板
    * “主页”区域中列出的项目的“工作总揽”字段
-   * 在“计划”或“计划”区域中的任务或问题
    * 工作负载均衡器中的任务或问题
 
-1. 将光标置于任务字段中，并等待两秒钟。 此 **建议的工作分配** 或 **以下是一些建议** 列表随即显示。
+1. 将光标置于任务字段中，并等待两秒钟。
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">此 **建议的工作分配** 列表随即显示。</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   此时将显示列表标题 **以下是一些建议** 而不是 **建议的工作分配** 在问题列表中。
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ ht-degree: 0%
 
    有关智能分配显示位置的更多信息，请参阅文章中的“查找智能分配建议”部分 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. 单击推荐列表中的用户的名称，以选择该用户。 点击 **分配给我** 将工作项分配给您自己。
+1. 单击推荐列表中的用户的名称，以选择该用户。
+
+1. （可选）单击 **分配给我** 以将工作项分配给您自己。
 
    >[!TIP]
    >
