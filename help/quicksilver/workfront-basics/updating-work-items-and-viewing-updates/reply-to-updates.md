@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 0%
 > * 主页
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
+> * 工作负载均衡器中的“摘要”面板
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 

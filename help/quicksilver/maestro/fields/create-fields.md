@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ After permssions - replace the table with:
 
 
 1. 单击 **+** 图标来添加新字段。
-1. 在 **新建字段** 选项卡，从以下字段类型中选择：
+1. 在 **新建字段** 选项卡，在中搜索字段类型 **字段类型** 框，或从以下字段类型中选择：
 
    * [单行文本](#single-line-text)
    * [段落](#paragraph)

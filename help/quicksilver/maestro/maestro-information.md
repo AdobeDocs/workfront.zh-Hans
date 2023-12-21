@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ hide: yes
 * [观看Adobe大师的视频演示](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Adobe大师概述](maestro-overview.md)：Adobe大师的全面概述，包括此解决方案特有的术语和概念。 我们建议您在此处与Maestro开始您的历程。
 * [AdobeMaestro发布活动](../maestro/release-activity.md)：列出了自2023年5月22日Maestro封闭Beta计划启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
+* [Workfront Fusion的Adobe大师模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Maestro架构和功能
 

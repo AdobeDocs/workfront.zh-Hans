@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 > * 主页
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
+> * 工作负载均衡器中的“摘要”面板
 
 在更新对象时，如果想要吸引用户注意在其他情况下他们可能不会关注的对象，则可以标记用户。
 

@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ ht-degree: 0%
 ## 创建和管理布局模板的注意事项
 
 * 用户可以自定义其自身布局的几个区域。 在更改布局模板时，所做的更改会与所做的任何自定义设置合并，而不会覆盖或重置这些自定义设置。 如果将用户分配到新布局模板，也是如此。
-* 您在Adobe Workfront Classic中创建的旧版面模板自2019年秋季迁移以来，已自动包含在新Adobe Workfront Experience的实例中。 2020年4月，迁移了在Adobe Workfront Classic中创建的布局模板。 我们建议您在新版Adobe Workfront Experience中更新这些布局模板，以便利用新功能并在该环境中使用它们。
 * 组管理员和具有计划许可证的用户（可以编辑其他用户）可以将系统级和组级布局模板添加到他们在编辑其配置文件时可以管理的用户。
 * 组管理员无法将布局模板分配给工作角色或团队。
 
 有关布局模板的详细信息，请参阅 [布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## 创建或修改布局模板
 

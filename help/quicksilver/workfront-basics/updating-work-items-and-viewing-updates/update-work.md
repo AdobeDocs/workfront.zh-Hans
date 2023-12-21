@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * 主页
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
+> * 工作负载均衡器中的“摘要”面板
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * 从Workfront对象，在更新部分
    * 从“主页”区域（针对任务和问题）
-   * 从对象列表中的“摘要”面板或时间表（用于任务和问题）
+   * 从对象、时间表列表的“摘要”面板或从工作负载均衡器（用于任务和问题）
 
 本页上的信息介绍如何对Workfront对象进行评论，以及在向项目、任务和问题添加评论时如何更新项目、任务和问题。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ After permssions - replace the table with:
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. 在 **记录类型** 字段中，选择下列选项之一： <!--is the field name spelled right? lowercase "t"?-->
+1. 在 **记录类型** 字段，搜索记录类型，或选择以下选项之一： <!--is the field name spelled right? lowercase "t"?-->
 
    * 所选工作区中的其他操作记录类型或分类
 

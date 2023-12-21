@@ -6,7 +6,7 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ ht-degree: 1%
   >
   >1. 使用标准生成器可创建具有以下语法的过滤器：
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. 切换到旧版生成器，然后使用旧版生成器的语法编辑过滤器，如 [在旧版生成器中创建或编辑筛选器](#create-filter-in-legacy-builder) 部分。 旧版生成器的语法按以下方式显示filter语句：
+  >1. 切换到旧版生成器，然后使用旧版生成器的语法编辑过滤器，如部分所述 [在旧版生成器中创建或编辑筛选器](#create-filter-in-legacy-builder) 本文章中。 旧版生成器的语法按以下方式显示filter语句：
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. 更改旧版界面中的筛选器。
   >1. 切换回标准生成器。 过滤器语句根据旧版生成器中支持的逻辑显示，如上所述。
   >
-  >   过滤器在标准生成器界面中显示如下：
+  >      过滤器在标准生成器界面中显示如下：
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   发生这种情况是因为在旧版界面中修改了过滤器。
+  >      发生这种情况是因为在旧版界面中修改了过滤器。
 
 ## 在标准生成器中创建或编辑过滤器
 

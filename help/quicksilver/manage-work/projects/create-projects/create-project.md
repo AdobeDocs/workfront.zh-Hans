@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,11 @@ ht-degree: 1%
      如果通过转化问题创建项目时使用模板，请参阅上面第二个场景，了解哪个组和哪个状态Workfront适用于新项目。
 
 ## 从头开始创建项目
+
+>[!NOTE]
+>
+>如果您使用模板创建项目，我们建议您也看到此文章 [使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. 执行下列操作之一：
 

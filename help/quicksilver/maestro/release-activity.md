@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Maestro记录的注释体验与Workfront对象的新注释体验相匹配。
 
 ### 适用于Adobe Workfront Fusion的Maestro连接器（测试版）
 
-预览和生产： 2023年12月21日
+生产： 2023年12月21日
+
+>[!IMPORTANT]
+>
+>贵组织必须购买Adobe Workfront Fusion才能与Maestro建立连接。
+>
+>有关信息，请参阅 [Adobe Workfront Fusion概述](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 现在，您可以使用Adobe Workfront Fusion连接到Maestro。 使用新的AdobeMaestro Fusion连接，您可以：
 
