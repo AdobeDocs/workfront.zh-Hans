@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 1%
 
       此 [!UICONTROL **正在添加的卡片**] 计数器显示展示板上将包含多少张卡。 例如，如果选择具有100个任务和问题的项目，则计数器显示100。 如果添加用户分配并且该用户被分配到项目中的5个任务，则计数器显示5。
 
-   1. （可选）选择 [!UICONTROL **包括已完成的工作**] 在展示板上包括完成的卡片。
+   1. （可选）选择 [!UICONTROL **将已完成的工作作为存档信息卡提供**] 将已完成的任务和问题作为存档信息卡载入展示板。
 
       >[!NOTE]
       >
-      >如果未选中此选项，则当处于其他状态的卡标记为完成时，它们将“从”展示板上“脱落”并且不再显示。
+      >默认情况下，已存档的信息卡不会显示在展示板上。 要显示已存档的信息卡，您必须打开配置设置，然后筛选展示板以显示已存档的信息卡。 有关详细信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 和 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >如果未选择此选项，则展示板创建时完成的卡片不会显示在展示板上。 以后标记为完成的卡片会保留在展示板的“完成”列中，除非您设置卡片减少，否则不会存档。 有关更多信息，请参阅 [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （可选）单击 [!UICONTROL **使用高级过滤器**] 以显示其他筛选器选项。
 
