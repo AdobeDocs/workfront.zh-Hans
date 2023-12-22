@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 1%
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
       * 2024年第一季度发行 {#release-24-q1}
          * [2024年第1季度发行版概述](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [2024年第一季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [2024年第一季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [2024年第1季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [2024年第1季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [2024年第1季度主板增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [2024年第1季度主页增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [2024年第1季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [2024年第一季度更新流和通知增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [2024年第一季度主页增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [2024年第1季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024年第1季度更新流和通知增强功能](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * 2023年第四季度发行 {#release-23-q4}
          * [2023年第4季度发行版概述](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 1%
          * [自定义左侧面板](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [自定义“详细信息”视图](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [自定义主页和摘要](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [自定义新主页](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [自定义固定页面](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [自定义筛选器、视图、分组](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [自定义用户界面术语](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
