@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,20 @@ role: User
    单击 **切换到紧凑视图** 在同一行中显示其日期不相交的记录。 <!--check to see if they updated the name of the setting here-->
 
    默认情况下，记录显示在“压缩”视图中。
+
+1. 执行以下操作可快速查找与关键字匹配的记录：
+
+   1. 单击 **Search** 图标 ![](assets/search-icon.png) 并开始键入与屏幕上所显示记录的任何字段关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      您可以使用屏幕上可见的任何单词或特殊字符。
+
+      不能使用与表格视图中隐藏的字段关联的关键字。
+
+   1. 在键盘上按Enter键以转到下一个找到的字段。
+   1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
+   1. 单击搜索框中的X图标以清除搜索关键字。
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)

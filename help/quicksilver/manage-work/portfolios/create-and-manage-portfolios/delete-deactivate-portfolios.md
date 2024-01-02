@@ -6,14 +6,16 @@ description: Portfolio是Adobe Workfront中的项目或项目群的集合。 如
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # 删除和停用项目组合
+
+<!--Audited: 01/2024-->
 
 Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
 
@@ -33,11 +35,12 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard] </p>
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p><b>注释</b></p> <p> 如果您没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -74,7 +77,7 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
 
 1. 单击 **[!UICONTROL Portfolio]** .
 1. 单击项目组合的名称。
-1. 单击更多菜单 ![](assets/more-icon.png) 项目组合名称的右侧，然后单击 **[!UICONTROL 取消激活Portfolio]**.
+1. 单击 **更多** 菜单 ![](assets/more-icon.png) 项目组合名称的右侧，然后单击 **[!UICONTROL 取消激活Portfolio]**.
 
 ## 删除项目组合
 

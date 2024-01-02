@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -502,9 +502,12 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 ## 发布时间表
 
-有关在Beta测试版时间范围内向新评论体验发布的功能的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>有关在Beta测试版时间范围内向新评论体验发布的功能的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
 

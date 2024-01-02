@@ -6,7 +6,7 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 在Adobe Workfront中创建或编辑筛选器
+
+<!--Audited: 12/2023-->
 
 您可以通过过滤器限制在项目列表中屏幕上显示的信息量。 您可以根据对象的特定信息定义特定标准，并仅显示符合这些标准的对象。
 

@@ -6,14 +6,16 @@ description: Adobe Workfront使agile团队能够以递增、有条理的方式�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # 创建敏捷团队
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] 使Agile团队能够以增量、有条理的方式完成工作。
 
@@ -41,7 +43,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL计划]以创建一个新的Agile团队；[！UICONTROL工作]或更高版本以将团队转换为Agile团队</p> </td> 
+   <td> <p>新增：标准</p>
+   当前： 
+   <ul><li><p>[！UICONTROL计划]创建新的Agile团队</p></li> 
+   <li><p>[！UICONTROL工作]或更高版本以将团队转换为Agile团队</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ ht-degree: 1%
 
 ## 创建敏捷团队
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 团队]**.
+{{step1-to-team}}
+
 1. 单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后单击 **[!UICONTROL 创建新团队]**.
 
    ![选择“创建新团队”。](assets/create-new-team-350x198.png)
 
-1. 指定以下信息，请参见 [!UICONTROL 新建团队] 对话框：
+   此时将显示“新建团队”框。
+
+1. 指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL这是一个Agile团队]</strong> </td> 
       <td>选择此选项可将此新团队配置为Agile团队。</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[！UICONTROL处于活动状态]</strong> </td> 
+      <td>选择此选项以激活此团队。 其他用户对非活动的团队不可见以分配给工作。 </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[！UICONTROL组]</strong> </td> 
-      <td> <p>开始键入要添加到团队中的组的名称，然后在该名称出现在下拉列表中时选择该名称。</p> <p>注意：将团队分配给组或子组时，该组或子组的任何组管理员都可以管理团队，而无需成为其成员。 组管理员可以从[！UICONTROL主菜单]转到[！UICONTROL团队]区域，然后单击[！UICONTROL切换团队]箭头 <img src="assets/switch-team-icon.png" alt="“切换团队”图标"> 列出分配给其管理组的所有团队。</p> </td> 
+      <td> <p>开始键入要添加到团队中的组的名称，然后在该名称出现在下拉列表中时选择该名称。</p> <p><b>注释</b></p> <p> 将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为团队成员。 组管理员可以从[！UICONTROL主菜单]转到[！UICONTROL团队]区域，然后单击[！UICONTROL切换团队]箭头 <img src="assets/switch-team-icon.png" alt="“切换团队”图标"> 列出分配给其管理组的所有团队。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL团队成员]</strong> </td> 
@@ -145,7 +160,9 @@ ht-degree: 1%
 
 1. 单击 **保存更改。**
 
-   有关配置Agile团队的信息，请参阅以下文章：
+   团队将另存为Agile团队。 在编辑团队时，您可以将新团队配置为Scrum或Kanban团队。
+
+   有关更多信息，请参阅以下文章：
 
    * [配置 [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [配置 [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

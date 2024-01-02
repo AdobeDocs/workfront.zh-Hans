@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1959'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,7 @@ Adobe大师”是Adobe Workfront推出的新产品。 Maestro的目的是全面�
 | 连接工作区 |                               | ✓ {\f13 } |                  |
 | 连接Maestro记录和分类 | ✓ {\f13 } |
 | 在表视图中搜索记录 | ✓ {\f13 } |   |
+| 在时间轴视图中搜索记录 | ✓ {\f13 } |   |
 | 将Maestro记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
 | 将Maestro记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
 | 记录详细信息页面 | ✓ {\f13 } |                                  |                  |

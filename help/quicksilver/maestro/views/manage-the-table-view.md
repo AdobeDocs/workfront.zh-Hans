@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -197,15 +197,15 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击 **搜索** 图标 ![](assets/search-icon.png) 并开始键入与屏幕上所显示记录的任何字段关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+   1. 单击 **Search** 图标 ![](assets/search-icon.png) 并开始键入与屏幕上所显示记录的任何字段关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的字段会高亮显示。
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
       不能使用与表格视图中隐藏的字段关联的关键字。
 
-      按键盘上的Enter键会转到下一个找到的字段。
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. 在键盘上按Enter键以转到下一个找到的字段。
 
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
 
