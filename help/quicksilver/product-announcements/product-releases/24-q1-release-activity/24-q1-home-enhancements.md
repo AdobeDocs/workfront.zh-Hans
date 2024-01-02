@@ -4,9 +4,9 @@ description: 2024年第一季度主页增强功能
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,17 @@ ht-degree: 0%
 
 有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## 使用布局模板的新主页的管理员控件
+<!--
 
-管理员现在可以使用布局模板为用户自定义新的主页。 自定义选项包括选择必需的小组件及其位置、选择背景以及用于选择可用筛选器和组（并设置默认值）的特定于小组件的选项。
+## Administrator controls for new Home using layout templates
 
-请注意，管理员布局模板选择将覆盖单个用户的自定义设置；即，在保存对布局模板所做的更改时，该布局模板上的用户将更改其新主页以匹配布局模板，并且其现有构件选择将推送到页面底部。 虽然管理员选择的构件可以由用户重新定位，但无法删除它们。
+Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
 
-有关更多信息，请参阅 [使用布局模板自定义新主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
+
+For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+
+-->
 
 ## 我的工作快速操作按钮已更改为仅在鼠标悬停时显示
 
