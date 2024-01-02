@@ -4,9 +4,9 @@ description: 2024年第一季度文档管理增强功能
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ ht-degree: 0%
 
 ## 已更新文档审批状态
 
+>[!NOTE]
+>
+>此功能属于分阶段发布，目前仅适用于特定客户。
+
 为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。
 
 有关特定可用状态的更多信息，请参阅 [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## 文档审阅和审批状态显示在文档标题中
 
+>[!NOTE]
+>
+>此功能属于分阶段发布，目前仅适用于特定客户。
+
 为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。 现在，您可以一目了然地看到对文档作出的批准决定，或者文档是否仍在审核中。
 
 有关特定状态的信息，请参阅 [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## 将审阅标记为完成
+
+>[!NOTE]
+>
+>此功能属于分阶段发布，目前仅适用于特定客户。
 
 为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 **完成我的审查** 按钮。 现在，当设置为审阅者的用户审阅了文档时，他们可以单击 **完成我的审查** 按钮以在Workfront中记录审核已完成。
 
