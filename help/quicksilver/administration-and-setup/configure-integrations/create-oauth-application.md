@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 5%
@@ -39,7 +39,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
@@ -128,7 +128,7 @@ ht-degree: 5%
 1. 在左侧导航面板中，单击 **[!UICONTROL 系统]**，然后选择 **[!UICONTROL OAuth2应用程序]**.
 1. 单击 **[!UICONTROL 创建应用程序集成]**.
 此 **新OAuth2应用程序** 框显示。
-1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL 服务器身份验证]**.
+1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL 机器对机器应用程序]**.
 1. 输入新应用程序的名称，如“[!DNL Workfront] 用于ClientApp。”
 1. 单击 **[!UICONTROL 创建]**.
 1. 填写新应用程序的字段。
@@ -180,7 +180,7 @@ ht-degree: 5%
 1. 单击 **[!UICONTROL 创建应用程序集成]**.
 
    此 **新OAuth2应用程序** 显示。
-1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL 用户身份验证]**.
+1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL Web应用程序]**.
 1. 输入新OAuth2应用程序的名称，例如“[!DNL Workfront] 用于ClientApp。”
 1. 单击 **[!UICONTROL 创建]**.
 1. 填写新应用程序的字段。
@@ -266,7 +266,7 @@ ht-degree: 5%
       <td>用户通过Workfront身份验证后，会被重定向到此路径。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL每次使用时轮换刷新令牌]</td> 
+      <td role="rowheader">[！UICONTROL每次使用令牌时都会轮换刷新令牌]</td> 
       <td>启用此选项可在使用刷新令牌时发出新的刷新令牌。您的应用程序必须在每次刷新后存储新的刷新令牌。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
