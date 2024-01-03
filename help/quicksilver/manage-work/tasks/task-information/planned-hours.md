@@ -7,14 +7,16 @@ description: 与任务、问题或项目关联的已计划小时数表示已分�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # 计划小时数概述
+
+<!-- Audited: 01/2024 -->
 
 与任务、问题或项目关联的已计划小时数表示已分配用户完成任务、问题或项目所需的时间量。
 
@@ -30,16 +32,13 @@ ht-degree: 0%
 
 * 您可以随时修改问题的已计划小时数的值。
 * 您无法修改项目或父任务的计划小时数的值，因为它们是其所有任务和子任务的所有计划小时数的计算总数。
-* 使用资源管理工具管理用户分配可能会更改任务、问题、项目以及与工作项关联的工作分配的计划小时数。
+* 使用资源管理工具管理用户分配可能会更改任务、问题和项目的计划小时数，以及与工作项关联的工作分配的数量。
 
 ## 任务的计划小时数与项目的计划小时数 {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
 任务中的计划小时数累计到项目的计划小时数。 问题中的计划小时数并不总是累计到项目的计划小时数。
 
 本节介绍任务和项目计划小时数之间的差异。 它还描述了您可以在何处查看汇总到项目的问题计划小时数。
-
-* [任务的计划小时数](#planned-hours-on-tasks)
-* [项目计划小时数](#planned-hours-on-projects)
 
 ### 任务的计划小时数 {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ ht-degree: 0%
 
 ## 查找并了解计划小时数值
 
-您可以在Workfront的各个区域找到计划小时数值。 
+您可以在Workfront的各个区域找到计划小时数值。
 
 显示的已计划小时数源自项目上的工作项，或者计算方式有所不同，具体取决于您在中查看这些工作项的区域和对象。
 
@@ -90,31 +89,31 @@ ht-degree: 0%
 * [工作负载均衡器](#the-workload-balancer)
 * [资源规划者](#the-resource-planner)
 * [利用率报告](#the-utilization-report)
-* [“角色分配”面板](#The%C2%A0Role)
+* [“角色分配”面板](#the-role-allocation-panel)
 
 ### 项目、任务或问题的详细信息部分 {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![详细信息部分的计划小时数](assets/planned-hours-on-details-for-project.png)
 
-任务、问题或项目的详细信息部分中的计划小时数是与相应项目关联的总计划小时数。
+任务、问题或项目的详细信息部分中的计划小时数是与项目关联的计划小时数总计。
 
 有关项目已计划小时数的详细信息，请参见 [任务的计划小时数与项目的计划小时数](#planned-hours-on-tasks-vs-planned-hours-on-projects) 部分。
 
 ### “编辑任务”或“编辑问题”框 {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![“编辑任务”框](assets/planned-hours-on-edit-task-box-nwe.png)
 
 任务或问题的编辑框中的计划小时数是相应项目的总计划小时数。
 
 有关项目已计划小时数的详细信息，请参见 [任务的计划小时数与项目的计划小时数](#planned-hours-on-tasks-vs-planned-hours-on-projects) 部分。
 
-对于任务，只能编辑某些持续时间类型的已计划小时数。 欲了解更多信息，请参见 [根据持续时间类型更新任务已计划小时数](#update-task-planned-hours-based-on-duration-type) 部分。
+对于任务，只能编辑某些持续时间类型的已计划小时数。 有关信息，请参见 [根据持续时间类型更新任务已计划小时数](#update-task-planned-hours-based-on-duration-type) 部分。
 
 您可以在分配区域查看分配给任务或问题的每个用户或工作角色的单独计划小时数分配。
 
 ### 报告 {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![报告上的计划小时数](assets/planned-hours-on-task-report.png)
 
 您可以在项目、任务和问题报告中添加规划小时数字段。
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### 工作负载均衡器 {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![工作负载均衡器中的计划小时数](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 任务、问题和项目的以下已计划小时数显示在任务、问题或项目名称右侧的工作负载均衡器中：
 
@@ -163,13 +162,13 @@ The daily hour amount represents one of the following:
 计划小时数的每日小时数表示以下小时数之一： 
 
 * Workfront在任务、问题或项目持续时间的每天平均分配的默认金额
-* 由资源管理器管理的调整后的每日分配。
+* 由资源管理器管理的调整后的每日分配
 
   有关在工作负载均衡器中调整每日分配的信息，请参阅 [管理工作负载均衡器中的用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### 资源规划者 {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![资源规划者中的计划小时数](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
 资源规划者显示项目、任务和问题的计划小时数。
 
@@ -184,7 +183,7 @@ The daily hour amount represents one of the following:
 任务和问题的每周计划小时数表示以下值之一：
 
 * Workfront在任务或问题持续时间的每天平均分配的默认每周金额
-* 由工作负载均衡器中的资源管理器管理的已调整每周分配。
+* 由工作负载均衡器中的资源管理器管理的已调整每周分配
 
   有关在工作负载均衡器中调整每日分配的信息，请参阅 [管理工作负载均衡器中的用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -252,19 +251,16 @@ The daily hour amount represents one of the following:
 
 * 如果您未手动更新单个用户或角色分配以触发对任务计划小时数的更改，则在您添加、删除或替换任务上的分配时，计划小时数保持不变。 向任务添加新分配时，各个分配将在所有被分配者之间重新分配。
 * 当您手动更新分配以触发对任务计划小时数的更改时，计划小时数会在您从任务中删除分配时减少。 当您替换分配时，它们保持不变。
-* 当您手动更新分配以触发对任务计划小时数的更改并向任务添加分配时，新分配默认分配为0小时。 您必须手动更新其分配给任务的分配，该更新可能会影响已计划小时数。
+* 当您手动更新分配以触发对任务计划小时数的更改并向任务添加分配时，新分配默认分配为0小时。 您必须手动更新他们到任务的分配，这可能会影响规划小时数。
 * 如果您未手动更新分配以触发对任务计划小时数的更改，并且您删除了任务的所有分配，则计划小时数将保持不变。
 * 当您手动更新分配以触发对任务计划小时数的更改并且删除任务的所有分配时，计划小时数也会被删除，任务的计划小时数变为0。
 
 >[!NOTE]
 >
-例如，如果一项任务具有10个计划小时数，而您有两个任务接受者，则默认情况下每个任务接受者分配5小时。
+例如，如果一项任务具有10个计划小时数，而您有两个被分配人，则默认情况下会为每个人分配5小时。
 >
 * 如果您未使用工作负载均衡器更新单个用户分配或每日分配，并且从任务中删除了任何或所有被分配人，则任务已计划小时数仍为10小时。
-* 如果您将分配分配分别手动更改为4小时和6小时，并且删除分配到6小时的用户及其工作角色，则任务计划小时数将更新为4小时。 如果您还删除分配给4小时的用户，但保留与已删除用户关联的工作角色，则任务的已计划小时数将保留4小时。 如果删除最后一个分配到4小时的用户及其工作角色，并且任务仍然未分配，则任务的已计划小时数将变为0。
-
-
-
+* 如果您将分配分配分别手动更改为4小时和6小时，并且删除分配到6小时的用户及其工作角色，则任务计划小时数将更新为4小时。 如果您还删除分配给4小时的用户，但保留与已删除用户关联的工作角色，则任务的已计划小时数将保留4小时。 如果删除最后一个分配到4小时的用户及其工作角色，并且任务仍然未分配，则任务计划小时数将变为0。
 
 ## 使用工作投入自动更新任务已计划小时数
 

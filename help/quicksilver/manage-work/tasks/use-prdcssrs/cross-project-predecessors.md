@@ -6,9 +6,9 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
