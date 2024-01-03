@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ role: User
 
       您可以使用屏幕上可见的任何单词或特殊字符。
 
-      不能使用与表格视图中隐藏的字段关联的关键字。
+      不能使用与不在时间轴视图中显示的字段关联的关键字。
 
    1. 在键盘上按Enter键以转到下一个找到的字段。
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
-   1. 单击搜索框中的X图标以清除搜索关键字。
+   1. 单击 **x** 图标，以清除搜索关键词。
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
