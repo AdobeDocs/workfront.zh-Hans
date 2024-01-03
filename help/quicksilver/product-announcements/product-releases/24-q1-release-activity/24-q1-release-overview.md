@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -205,24 +205,24 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
-<!--                <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板的新主页的管理员控件</a></p><p>管理员现在可以使用布局模板为用户自定义新的主页。 自定义选项包括选择必需的小组件及其位置、选择背景以及用于选择可用筛选器和组（并设置默认值）的特定于小组件的选项。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: December 21, 2023</p>
+                                <p>预览版本： 2023年12月21日</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.1 release</p>
+                                <p>用于快速发布的生产：使用24.1版本</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.1 release</p>
+                                <p>按季度发布的生产：使用24.1版本</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速操作按钮已更改为仅在鼠标悬停时显示</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。</p>
