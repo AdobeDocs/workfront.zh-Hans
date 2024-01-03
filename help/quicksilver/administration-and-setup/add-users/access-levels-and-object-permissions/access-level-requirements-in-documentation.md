@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront文档操作方法文章包含一个表，其中说明了此过程所需的访问和权限要求。 通过此访问要求表，您可以了解您是否可以在Workfront中执行特定操作，或者为什么您可能无法执行。 本文介绍“访问要求”表的每个元素，并提供故障排除提示以及指向更深入信息的链接。
 
 如果给定文章的“访问要求”表中没有行，则该操作没有此类型的要求。
+
+某些行包含标记为“新”和“当前”的信息。 这是因为Workfront正在过渡到一个新的定价和打包模式，一些组织在该新模式下运营，而其他组织则仍在使用当前模式。 要了解贵组织使用哪种模型，请与Workfront管理员联系。 欲知详情，请参阅以下网站上的链接： [访问要求表](#the-access-requirements-table) 章节。
 
 >[!NOTE]
 >
@@ -51,6 +53,18 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <li>如果您拥有正确的访问级别，但仍没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.
    </ul>
       </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">产品</td> 
+   <td>Workfront提供了一些可在Workfront之外购买的产品。
+   <p>描述在这些附加产品内执行的过程的文章在此处列出了所需的产品。</p>
+   <ul>
+   <li>Adobe Experience Manager Assets或Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Workfront Scenario Planner</li>
+   </ul>
+   <p>要了解您的组织是否已购买这些附加产品之一，请联系您的Workfront管理员。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
