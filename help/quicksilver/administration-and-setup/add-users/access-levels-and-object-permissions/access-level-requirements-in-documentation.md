@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
+source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <p>描述在这些附加产品内执行的过程的文章在此处列出了所需的产品。</p>
    <ul>
    <li>Adobe Experience Manager Assets或Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront Fusion *</li>
+   <li>Workfront目标*</li>
+   <li>Workfront Scenario Planner *</li>
    </ul>
-   <p>要了解您的组织是否已购买这些附加产品之一，请联系您的Workfront管理员。</p></td> 
+   <p>*包含在Workfront Ultimate计划中
+   <p>要了解贵组织是否已购买这些附加产品之一，或者贵组织是否使用Workfront Ultimate计划，请联系您的Workfront管理员。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion许可证</td> 
