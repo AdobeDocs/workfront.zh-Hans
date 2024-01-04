@@ -4,25 +4,29 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprint概述
-description: Blueprint提供基本的构建块，帮助您创建随增长而增长的工作管理系统。
-author: Lisa
+description: Blueprint是一组Workfront对象，用于处理Workfront中的常见用例。 您可以下载并安装Blueprint，然后根据特定用例配置对象。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # Blueprint概述
 
+<!--Audited: 01/2024-->
+
 Blueprint是一组Workfront对象，用于处理Workfront中的常见用例。 您可以下载并安装Blueprint，然后根据特定用例配置对象。
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
->示例:
+>示例：
 >
 >* **人力资源组织设置**
 >
@@ -32,7 +36,7 @@ Blueprint是一组Workfront对象，用于处理Workfront中的常见用例。 �
 >
 >   此Blueprint包含用于组织新员工入门培训活动的模板。 使用此模板可让IT团队高效运营，从而带来积极的新员工体验并更快地跟踪工作效率。
 >
->* **继承实例基础知识清单**
+>* **继承实例基础知识 | 清单**
 >
 >    此Blueprint包含一个项目模板（或清单），您可以查看该项目模板（或清单），其中包含一个简短的问题、资源和链接列表，以清楚地了解Workfront实例的配置方式。 当您最近继承了Workfront实例并且需要有关从何处开始的指导时，请使用此项。
 >
@@ -43,9 +47,9 @@ Blueprint提供基本的构建块，帮助您创建随增长而增长的工作�
 
 每个Blueprint都面向一个部门和特定的成熟度级别，以帮助您在系统中更快地实施经验证的最佳实践。 Blueprint目录卡和详细信息中指示了以下详细的成熟度级别。
 
-**[!UICONTROL 受管]：** 在活动和交付项被完全接受为标准流程之前，受管理的项目模板可帮助支持采用新的业务流程。 它们包含确保遵循新流程每个步骤的任务。
+* **[!UICONTROL 受管]：** 在活动和交付项被完全接受为标准流程之前，受管理的项目模板可帮助支持采用新的业务流程。 它们包含确保遵循新流程每个步骤的任务。
 
-**[!UICONTROL 集成]：** 集成项目模板假定业务功能通过标准操作程序得到支持。 进程的参与者了解完成进程所需的步骤和任务。 支持此流程的项目模板包含的任务较少，只能跟踪里程碑以及报告所需的其他关键交付项。
+* **[!UICONTROL 集成]：** 集成项目模板假定业务功能通过标准操作程序得到支持。 进程的参与者了解完成进程所需的步骤和任务。 支持此流程的项目模板包含的任务较少，只能跟踪里程碑以及报告所需的其他关键交付项。
 
 ## 查找正确的Blueprint
 
@@ -57,9 +61,9 @@ Blueprint类型显示Blueprint中包含的内容。 类型列在目录的Bluepri
 
 提供了以下类型的Blueprint：
 
-* 项目模板：包括与项目模板关联的标准对象（任务、问题、角色和团队）以及与这些对象相关的一些首选项。 有关更多信息，请参阅 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* 组织结构：包括与组织结构关联的对象（公司、组、角色和团队）。 有关更多信息，请参阅 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* 仪表板：包含用于特定用例的一个或多个仪表板，例如实施服务。
+* **项目模板**：包括与项目模板关联的标准对象（任务、问题、角色和团队），以及与这些对象相关的一些首选项。 有关更多信息，请参阅 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **组织结构**：包括与组织结构关联的对象（公司、组、角色和团队）。 有关更多信息，请参阅 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **仪表板**：包括一个或多个用于特定用例的仪表板，例如实施服务。
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -68,9 +72,9 @@ Blueprint类型显示Blueprint中包含的内容。 类型列在目录的Bluepri
 
 要查看当前的Blueprint，请参阅 [可用Blueprint的列表](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
-### 查看  详细信息
+### 查看详细信息
 
-每个Blueprint都包含详细信息页面。 在此页中，您可以：
+每个Blueprint都包含一个“详细信息”页面。 在此页中，您可以：
 
 * 查看工作流内容的摘要
 * 阅读Blueprint的简短摘要
@@ -82,7 +86,7 @@ Blueprint类型显示Blueprint中包含的内容。 类型列在目录的Bluepri
 
 ## 安装Blueprint
 
-系统管理员可以直接在生产环境中或沙盒环境中安装。 要了解更多信息，请参阅 [安装Blueprint](../../administration-and-setup/blueprints/blueprints-install.md) 或 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+Workfront管理员可以直接在任何环境（生产、预览或沙盒环境）中安装Blueprint。 要了解更多信息，请参阅 [安装Blueprint](../../administration-and-setup/blueprints/blueprints-install.md) 或 [配置Blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 
 安装后，您可能不确定接下来要采取什么最佳操作。 有关信息，请参阅 [安装Blueprint后要执行的操作](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 

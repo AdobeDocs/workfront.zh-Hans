@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 任务
+title: “任务：文章索引”
 description: 任务是Adobe Workfront中影响项目完成的较小工作项。 请参阅以下文章以了解有关管理任务的信息。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# 任务
+# 任务：文章索引
 
-本节包含以下子部分：
+<!--Audited: 01/2024-->
+
+任务是Adobe Workfront中影响项目完成的较小工作项。 在以下子部分中了解有关管理任务的信息：
 
 * [任务信息](../../manage-work/tasks/task-information/task-information.md)
 * [创建任务](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)

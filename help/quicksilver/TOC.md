@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 1%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 1%
          * [计算示例 — 以任务汇总的形式计算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [计算示例 — 在项目级别计算EAC](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * 任务 {#tasks}
-      * [任务](manage-work/tasks/tasks-overview.md)
+      * [任务：文章索引](manage-work/tasks/tasks-overview.md)
       * 任务信息 {#task-information}
          * [任务信息](manage-work/tasks/task-information/task-information.md)
          * [任务概述](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 1%
       * [适用于团队和组的提示、技巧和疑难解答](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [用户名已被使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 报告 {#reporting}
-   * [报告](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [报告和仪表板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 报告画布 {#reporting-canvas}
       * [报告画布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * 管理报告 {#manage-reports}

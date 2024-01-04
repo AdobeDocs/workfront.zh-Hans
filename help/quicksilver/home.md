@@ -3,9 +3,9 @@ title: ’[!DNL Adobe Workfront] 文档
 description: 文档 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理
 
 要以易于阅读的格式显示现有信息并与所有利益相关者共享，请使用报告和仪表板。
 
-请参阅 [报告和仪表板](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+请参阅 [报告和仪表板：文章索引](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### 文本模式报告
 

@@ -1,18 +1,18 @@
 ---
-title: AdobeMaestro信息
+title: “Adobe的大师信息：文章索引”
 description: 作为营销运营负责人，您可以使用AdobeMaestro为所有团队在营销生命周期中组织工作。 此部分中的文章介绍如何配置Maestro，以及如何开始将其功能用作营销活动管理操作的一部分。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# AdobeMaestro信息
+# Adobe的大师信息：文章索引
 
 <!--
 title: Adobe Maestro 

@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
-ht-degree: 2%
+source-wordcount: '7452'
+ht-degree: 1%
 
 ---
 
 # 编辑项目
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 2%
 </div>
 -->
 
-您可以根据需要经常在Adobe Workfront中编辑项目。 我们建议您在项目状态更改为当前后对其执行最低程度的编辑，通过向整个项目团队发送更改通知来避免混淆。 理想情况下，当项目处于规划状态时，应编辑项目。 有关项目团队的信息，请参见 [项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+您可以根据需要经常在Adobe Workfront中编辑项目。 我们建议您在项目状态更改为当前后对其执行最低程度的编辑，通过向整个项目团队发送更改通知来避免混淆。
+
+理想情况下，当项目处于规划状态时，应编辑项目。 有关项目团队的信息，请参见 [项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## 访问要求
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,17 +48,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td><p>新增：标准 </p> 
+   或
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>编辑对项目的访问权限</p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> 
-    <p>管理项目的权限 </p> 
-    <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+     <p>管理项目的权限 </p> 
+     <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ ht-degree: 2%
 
 编辑项目时，请考虑以下事项：
 
-* 您无法编辑处于批准流程中的项目，但记录时间除外。
+* 您无法编辑处于批准流程中的项目，但记录时间并更改状态除外。
 * 仅当您的Workfront管理员或组管理员在“项目首选项”区域中启用了此功能时，您才可以将文档或模板附加到状态为“完成”、“废弃”或“未决批准”的项目。 有关设置项目首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * 您只能编辑有关处于非活动状态或完成状态的项目的以下信息：
 
@@ -110,20 +84,25 @@ ht-degree: 2%
 
 通过编辑项目，您可以修改项目的信息和设置，以及项目上的任务和问题。
 
-本文中提到的某些设置可能会根据其在创建项目的模板中的状态从默认状态进行修改。 有关编辑模板的信息，请参阅 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+本文中提到的某些设置可能会根据其在创建项目的模板中的状态从默认状态进行修改。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **项目**.
+有关编辑模板的信息，请参阅 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+有关从模板创建项目的信息，请参阅 [使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. （可选）单击 **我在处理的项目** 或 **我拥有的项目** 的图标，以显示您是所有者或您是项目团队一部分的项目。
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. 单击要编辑的项目名称以打开项目页面。
 
    >[!NOTE]
    >
    >如果您是组管理员，则可以在组区域和项目区域查看和编辑组的项目。 有关更多信息，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. （可选）要编辑有关项目的有限信息，请单击 **项目详细信息** 在左侧面板中。
+1. 单击要编辑的项目名称以打开项目页面。
+
+1. （可选）要编辑有关项目的有限信息，请单击 **项目详细信息** 在左侧面板中。 如果要编辑有关项目的所有信息，请继续执行步骤5。 <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ ht-degree: 2%
 
    要编辑“详细信息”部分中的信息，请执行以下操作：
 
-   1. （可选）单击 **全部折叠** 图标来折叠所有区域。
+   1. （可选）单击 **全部折叠** 图标 ![](assets/collapse-icon.png)  以折叠所有区域。
    1. （可选且视情况而定）折叠区域后，单击 **右指箭头** ![](assets/right-pointing-arrow.png) ，展开要编辑的区域。
    1. 有关在项目详细信息选项卡中编辑信息的更多信息，请参阅以下文章：
 
@@ -158,7 +137,9 @@ ht-degree: 2%
 
    或
 
-   从项目列表中，选择一个项目，然后单击 **编辑** 图标 ![](assets/edit-icon.png) 位于列表顶部。
+   从项目列表中，选择一个或多个项目，然后单击 **编辑** 图标 ![](assets/edit-icon.png) 位于列表顶部。
+
+   有关批量编辑项目的更多信息，请参阅部分 [批量编辑项目](#edit-projects-in-bulk) 本文章中。
 
    此 **编辑项目** 框打开。
 
@@ -172,7 +153,7 @@ ht-degree: 2%
    >
    >根据您的Workfront管理员或组管理员如何修改布局模板，编辑项目框左侧面板中的区域或这些区域中列出的任何字段可能会重新排列或不显示。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. （视情况而定）如果您单击 **更多** 菜单，然后 **编辑**，请考虑更新左侧面板中列出的以下任意区域中的信息：
+1. （视情况而定）如果您单击 **更多** 菜单，然后 **编辑**，可更新左侧面板中列出的以下任意区域的信息：
 
    * [项目名称](#project-name)
    * [概述](#overview)
@@ -208,96 +189,102 @@ ht-degree: 2%
 1. 更新有关项目的以下信息：
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>描述</strong> </td> 
-      <td> <p>添加有关项目的其他信息。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>状态</strong> </td> 
-      <td> <p>选择项目的状态。 在所有任务和问题完成之前，您无法将项目标记为完成。 有关项目状态的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">访问系统项目状态的列表</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>优先级</strong> </td> 
-      <td> <p> <p>这只是一个可视标记，可让您设置项目的优先级。</p> <p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>指定与此项目信息相关的Web链接。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>完成情况类型</strong> </td> 
-      <td> <p>在以下条件类型之间进行选择： 
-       <ul> 
-       <li><strong>手动：</strong> 项目所有者手动设置项目的条件。</li> 
-       <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置条件。 有关了解进度状态的更多信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>.</li> 
-       </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择有关如何为系统计算项目条件的默认值 <span>或您的组</span>. 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>完成情况</strong> </td> 
-      <td> <p> <p>(仅在选择后显示 <strong>手动</strong> 对于 <strong>完成情况类型</strong>)：选择条件以指示项目的进展情况。 </p> <p>有关如何自动或手动设置项目完成情况的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目完成情况和完成情况类型概览</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>排程模式</strong> </td> 
-      <td> <p>指定是从开始日期还是从完成日期开始计划项目。 此选择确定项目上任务的计划日期。 
-       <ul> 
-       <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概述</a>. 项目时间线从开始日期开始计算，项目完成日期由系统根据所有任务的持续时间来计算。 </li> 
-       <li><strong>完成日期</strong>：项目的最后一个任务与项目具有相同的规划完成日期。 项目时间线从完成日期开始计算，项目开始日期由系统计算，从项目完成日期减去所有任务的持续时间。 </li> 
-       </ul><p>您的Workfront管理员<span> 或组管理员</span> 为您的系统或您的组选择默认的“计划模式”设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>计划开始日期和时间</strong> </td> 
-      <td> <p> <p>指定选择时的日期 <strong>从开始日期开始计划</strong>. <br></p> <p>当您选择时，这是只读字段 <strong>从完成日期开始计划</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>计划完成日期和时间</strong> </td> 
-      <td> <p>指定选择时的日期 <strong>从完成日期开始计划</strong>. </p> <p>当您选择时，这是只读字段 <strong>从开始日期开始计划</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>项目组合</strong></td> 
-      <td>指示项目所属的Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合 </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>项目群</strong></td> 
-      <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>组</strong></td> 
-      <td> <p> <p>指定与项目关联的组的名称。 </p>这是必填字段. 不能有与组不关联的项目。 </p> <p>您可以将鼠标悬停在正确的组上并单击信息图标，以确保选择正确的组 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 默认情况下，以下组之一在创建项目时自动与项目关联，除非您指定其他组：</p> 
-       <ul> 
-       <li> <p><span>从“项目”区域创建项目时，项目创建者的“主组”与项目相关联。</span> </p> <p>从项目组合或项目群的项目分区创建项目时，也是如此。</p> </li> 
-       <li> <p>从设置区域中的组主页创建项目时，该组与项目相关联。</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>注释</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>描述</strong> </td> 
+         <td> <p>添加有关项目的其他信息。</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>状态</strong> </td> 
+         <td> <p>选择项目的状态。 在所有任务和问题完成之前，您无法将项目标记为完成。 有关项目状态的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">访问系统项目状态的列表</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>优先级</strong> </td> 
+         <td> <p> <p>这只是一个可视标记，可让您设置项目的优先级。</p> <p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>指定与此项目信息相关的Web链接。</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>完成情况类型</strong> </td> 
+         <td> <p>在以下条件类型之间进行选择： 
+         <ul> 
+         <li><strong>手动：</strong> 项目所有者手动设置项目的条件。</li> 
+         <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置条件。 有关了解进度状态的更多信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>.</li> 
+         </ul><p>您的Workfront管理员<span> 或组管理员</span> 选择有关如何为系统计算项目条件的默认值 <span>或您的组</span>. 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>条件</strong> </td> 
+         <td> <p> <p>(仅在选择后显示 <strong>手动</strong> 对于 <strong>完成情况类型</strong>)：选择条件以指示项目的进展情况。 </p> <p>有关如何自动或手动设置项目完成情况的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目完成情况和完成情况类型概览</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>计划模式</strong> </td> 
+         <td> <p>指定是从开始日期还是从完成日期开始计划项目。 此选择确定项目上任务的计划日期。 
+         <ul> 
+         <li><strong>开始日期</strong>：默认情况下，项目的第一个任务的计划开始日期与项目相同。 有关任务计划开始日期的信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任务计划开始日期概述</a>. 项目时间线从开始日期开始计算，项目完成日期由系统根据所有任务的持续时间来计算。 </li> 
+         <li><strong>完成日期</strong>：项目的最后一个任务与项目具有相同的规划完成日期。 项目时间线从完成日期开始计算，项目开始日期由系统计算，从项目完成日期减去所有任务的持续时间。 </li> 
+         </ul><p>您的Workfront管理员<span> 或组管理员</span> 为您的系统或您的组选择默认的“计划模式”设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>计划开始日期和时间</strong> </td> 
+         <td> <p> <p>指定选择时的日期 <strong>从开始日期开始计划</strong>. <br></p> <p>当您选择时，这是只读字段 <strong>从完成日期开始计划</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>计划完成日期和时间</strong> </td> 
+         <td> <p>指定选择时的日期 <strong>从完成日期开始计划</strong>. </p> <p>当您选择时，这是只读字段 <strong>从开始日期开始计划</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>项目组合</strong></td> 
+         <td>指示项目所属的Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合 </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>项目群</strong></td> 
+         <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>群组</strong></td> 
+         <td> <p> <p>指定与项目关联的组的名称。 </p>这是必填字段。 不能有与组不关联的项目。 </p> <p>您可以将鼠标悬停在正确的组上并单击信息图标，以确保选择正确的组 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 默认情况下，以下组之一在创建项目时自动与项目关联，除非您指定其他组：</p> 
+         <ul> 
+         <li> <p><span>从“项目”区域创建项目时，项目创建者的“主组”与项目相关联。</span> </p> <p>从项目组合或项目群的项目分区创建项目时，也是如此。</p> </li> 
+         <li> <p>从设置区域中的组主页创建项目时，该组与项目相关联。</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>注释</b></p>
 
-   <ul>
-      <li><p>如果项目或其任务或问题与组级自定义状态关联，则更改项目组可能会导致项目状态、任务或问题更改以与新组匹配。</p></li>
-      <li><p>如果项目或其任务或问题已使用组级自定义状态与组级审批流程关联，则更改组可能会导致上一个组的审批状态与系统级现有的审批状态之间发生冲突。</p>
-      <p>在更新组之前，请考虑删除项目或其任务或问题的组级别审批流程。</p>
-      <p>有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别审批流程</a>.</p>
-      <p>有关创建组级自定义状态的信息，请参见 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑组状态</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>公司</strong> </td> 
-      <td> <p>指定与项目关联的公司。 必须先创建公司，然后才能将其与项目关联。 只有活动的公司才能与项目关联。 有关创建公司的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">创建和编辑公司</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>项目所有者</strong> </td> 
-      <td> <p>开始键入用户的名称以将其添加到项目中，然后在列表中显示该用户时将其选定。 用户将添加到项目团队，并自动获得项目的“管理”权限。 指定为项目所有者的用户必须是Workfront活动用户。</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>项目赞助者</strong> </td> 
-      <td> <p>开始键入用户的名称以将其添加到项目中，然后在列表中显示该用户时将其选定。 用户将添加到项目团队，并自动获得项目的“查看”权限。 指定为项目发起人的用户必须是Workfront活动用户。<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>资源管理器</strong> </td> 
-      <td> <p> 开始键入用户的名称以将其添加到项目中，然后在用户显示在列表时选择用户。 用户将添加到项目团队，并自动获得项目的管理权限，并且可以为项目上的任务和问题分配资源。 即使从资源管理器字段中移除，用户仍保留对项目的管理权限。 可以指定多个资源管理器。<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>如果项目或其任务或问题与组级自定义状态关联，则更改项目组可能会导致项目状态、任务或问题更改以与新组匹配。&lt;/p>&lt;/li>
+       &lt;li>&lt;p>如果项目或其任务或问题已使用组级自定义状态与组级审批流程关联，则更改组可能会导致上一个组的审批状态与系统级现有的审批状态之间发生冲突。&lt;/p>
+       &lt;p>在更新组之前，请考虑删除项目或其任务或问题的组级别审批流程。&lt;/p>
+       &lt;p>有关创建组级别审批流程的信息，请参阅&lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>组级别审批流程&lt;/a>。&lt;/p>
+       &lt;p>有关创建组级自定义状态的信息，请参阅&lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>创建或编辑组状态&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>公司</strong> </td> 
+         <td> <p>指定与项目关联的公司。 必须先创建公司，然后才能将其与项目关联。 只有活动的公司才能与项目关联。 有关创建公司的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">创建和编辑公司</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>项目所有者</strong> </td> 
+         <td> <p>开始键入用户的名称以将其添加到项目中，然后在列表中显示该用户时将其选定。 用户将添加到项目团队，并自动获得项目的“管理”权限。 指定为项目所有者的用户必须是Workfront活动用户。</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>项目赞助者</strong> </td> 
+         <td> <p>开始键入用户的名称以将其添加到项目中，然后在列表中显示该用户时将其选定。 用户将添加到项目团队，并自动获得项目的“查看”权限。 指定为项目发起人的用户必须是Workfront活动用户。<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>资源管理者</strong> </td> 
+         <td> <p> 开始键入用户的名称以将其添加到项目中，然后在用户显示在列表时选择用户。 用户将添加到项目团队，并自动获得项目的管理权限，并且可以为项目上的任务和问题分配资源。 即使从资源管理器字段中移除，用户仍保留对项目的管理权限。 可以指定多个资源管理器。<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>转换的问题发起人</strong> </td> 
+         <td> <p> 默认情况下，此字段自动填充为创建项目转换来源问题的用户的名称。 您可以在Workfront中使用任何其他用户名更新此名称。 <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,7 +294,7 @@ ht-degree: 2%
    >
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. （可选）根据要修改的信息，继续编辑以下部分。
+1. （可选）根据要修改的信息，继续编辑以下部分
 
    或
 
@@ -333,8 +320,7 @@ ht-degree: 2%
 * [共享自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [向自定义表单添加分区界限](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-要编辑自定义表单上的信息，请执行以下操作：
-
+要在编辑项目时编辑自定义表单上的信息，请执行以下操作：
 
 1. 按如上所述开始编辑项目。
 1. 单击 **自定义Forms** 在左侧面板中。
@@ -388,7 +374,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>预算</strong> </td> 
-      <td> <p>指定项目的预算。<br></p> </td> 
+      <td> 指定项目的预算。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>绩效指数方法</strong> </td> 
@@ -493,7 +479,7 @@ ht-degree: 2%
       </tr> 
       <tr> 
        <td role="rowheader"><strong>风险</strong> </td> 
-       <td> <p> <p>定义项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。</p> <p> <p>考虑从以下风险级别中选择：</p> <p>- 很低</p> <p>- 低</p> <p>- 中</p> <p>- 高</p> <p>- 很高</p> <p>您无法自定义此处指示的风险级别。</p> <p>这些风险与项目存续期间可能发生的潜在风险无关，您应在项目的“风险”选项卡中或业务案例中记录这些风险。 有关潜在项目风险的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">编辑和创建风险类型</a>. </p> </p> </p> </td> 
+       <td> <p> <p>定义项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。</p> <p> <p>考虑从以下风险级别中选择：</p> <p> — 非常低</p> <p> — 低</p> <p> — 中</p> <p> — 高</p> <p> — 非常高</p> <p>您无法自定义此处指示的风险级别。</p> <p>这些风险与项目存续期间可能发生的潜在风险无关，您应在项目的“风险”选项卡中或业务案例中记录这些风险。 有关潜在项目风险的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">编辑和创建风险类型</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>资源池</strong> </td> 
@@ -512,7 +498,9 @@ ht-degree: 2%
        <td> <p> <p>从以下选项中选择：</p> 
        <ul> 
        <li> <p>选择 <strong>否</strong> 以使所有特定于项目的小时类型在项目上可用。 （这是默认选项）</p> <p>或</p> </li> 
-       <li>选择 <strong>是</strong> 要使项目特定的小时类型的子集仅在项目上可用，然后选择要使其可用的小时类型。 （按住Shift键可选择多个小时类型。）</li> 
+       <li>选择 <strong>是</strong> 要使项目特定的小时类型的子集仅在项目上可用，则从以下列表中选择要使其可用的小时类型 <b>小时类型</b> 字段。</li> 
+       <p><b>提示</b></p>
+       <p>此 <b>小时类型</b> 选择时字段不可编辑 <b>否</b>.</p> 
        <p>如果选择此选项，则在记录项目（或项目中的任务和问题）的小时数时，只有您选择的小时类型才可供选择。 您必须至少选择一个小时类型；如果选择此选项，但未选择任何小时类型，则所有小时类型都将在项目上可用。</p> </ul>
 
    <p>必须在单个用户级别做出相同的小时类型选择，以便用户查看项目中的这些小时类型选项。 有关在用户级别定义小时类型的详细信息，请参见 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">记录时间</a>. </p> </p> </td> 
@@ -558,7 +546,7 @@ ht-degree: 2%
 
 1. 在 **任务默认审批流程** 框内，选择在将所有新任务添加到项目时要与它们关联的任务批准流程。
 
-   您的Workfront管理员（或具有批准流程管理访问权限的用户）必须创建任务的系统级批准流程，然后才能将其与项目关联。 列表中仅显示有效的审批流程。 有关创建批准流程的信息，请参阅 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 有关对项目组的更改或审批流程中的更改如何影响审批设置的信息，请参阅 [组和审批流程更改如何影响分配的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   您的Workfront管理员（或具有批准流程管理访问权限的用户）必须创建任务的系统级或组级批准流程，然后才能将其与项目关联。 列表中仅显示有效的审批流程。 有关创建批准流程的信息，请参阅 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 有关对项目组的更改或审批流程中的更改如何影响审批设置的信息，请参阅 [组和审批流程更改如何影响分配的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    批量编辑项目时，存在以下情况：
 
@@ -654,11 +642,11 @@ ht-degree: 2%
       <td><p>选择自 <strong>视图</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 请求的访问权限。 当项目还是一个请求队列并且用户向项目提交请求时，他们被授予对所提交请求的此访问权限。 有关将项目设置为请求队列的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>来自同一公司的人员将针对所有请求继承相同的权限</strong></td> 
+      <td role="rowheader"><strong>同一公司的人将为所有请求继承相同的访问权限。</strong></td> 
       <td><p>如果您希望来自同一公司的人员对项目中的所有请求（无论他们是否提交请求）具有相同的访问权限，请选择此字段。<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>授予某人此项目的访问权限时：授予他们访问权限……</strong></td> 
+      <td role="rowheader"><strong>当授予某人此项目的访问权限时：指示的默认访问权限……</strong></td> 
       <td><p>选择您希望用户在项目上拥有的访问选项（如果项目与其共享）。 如果指定为，则为其访问选择特定选项 <strong>查看器</strong>， <strong>参与者</strong>，或 <strong>经理</strong> 与他们共享项目时。 </p><p>此 <strong>删除</strong> 在中访问 <strong>管理</strong> 权限级别确定用户是否可以删除项目本身。 用户具有 <strong>管理</strong> 对项目的访问权限可以删除项目中的任务和问题，无论是否选择了此选项（如果有） <strong>管理</strong> 任务和问题的权限。 </p></td> 
      </tr> 
     </tbody> 
@@ -677,6 +665,7 @@ ht-degree: 2%
 默认情况下，项目标题中包含以下字段。
 
 * 项目名称
+* 完成百分比
 * 项目所有者
 * 计划完成日期和时间
 
@@ -731,8 +720,8 @@ ht-degree: 2%
 
 要批量编辑项目，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
-1. 单击 **项目**.
+{{step1-to-projects}}
+
 1. 在列表中选择多个项目。
 1. 单击 **编辑** 图标 ![](assets/edit-icon.png) 位于列表顶部。
 此 **编辑项目** 对话框打开。
