@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 链接来自外部应用程序的文档
-description: 您可以将文档和文件夹链接到Adobe Workfront。
+description: 您可以从外部源将文档和文件夹链接到Adobe Workfront。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # 链接来自外部应用程序的文档
+
+<!-- Audited: 01/2024 -->
 
 您可以从以下来源将文档和文件夹链接到Adobe Workfront：
 
@@ -35,8 +37,8 @@ ht-degree: 0%
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 校样 </td> 
-   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 使用此功能需要Pro Workfront计划或更高版本。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</td> 
+   <td role="rowheader">Workfront 验证 </td> 
+   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他文档提供程序（通过自定义文档集成）</td> 
-   <td> <p class="workfront_plans">使用此功能需要Pro Workfront计划或更高版本。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</p> </td> 
+   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -94,12 +96,6 @@ ht-degree: 0%
 ## 将文档从外部应用程序链接到Workfront
 
 您可以将现有文档与外部云提供商链接。 这包括任何共享文档。
-
-* [先决条件](#prerequisites)
-* [将外部文档链接到Workfront](#link-an-external-document-to-workfront)
-* [添加链接文档的新版本](#add-a-new-version-of-a-linked-document)
-* [链接Workfront校对文档](#link-workfront-proof-documents)
-* [在Workfront中创建Google文档](#create-a-google-document-from-within-workfront)
 
 ### 先决条件 {#prerequisites}
 
@@ -168,7 +164,7 @@ ht-degree: 0%
 
    您只需执行此操作一次。
 
-1. 在 **链接外部文件和文件夹** 在出现的框中，键入要搜索的项目名称，然后按 **输入** 以查看外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
+1. 在 **链接外部文件和文件夹** 在出现的框中，键入要搜索的项目名称，然后按 **输入** 查看来自外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
 
    或
 
@@ -190,7 +186,7 @@ ht-degree: 0%
    >
    >对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
 
-有关添加从文件系统上传到Workfront的文档的新版本的信息，请参阅 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) 在 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+有关添加从文件系统上传到Workfront的文档的新版本的信息，请参阅 [将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### 链接Workfront校对文档 {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ ht-degree: 0%
    >
    >根据环境中配置的第三方提供商，此菜单中的选项可能有所不同。
 
-1. 在 **链接** 验证 **从** 在出现的Workfront Proof框中，开始键入要在Workfront中提供的验证的名称。
+1. 在 **从Workfront Proof链接验证** 框中，开始键入要在Workfront中提供的校样名称。
 
    列表会在您键入内容时进行筛选。
 
@@ -223,9 +219,7 @@ ht-degree: 0%
 
 1. 转到 **文档** Workfront中需要文档的区域。
 1. 单击 **新增** > **Google文件**，然后选择要创建的Google文档类型。
-
-1. 选择要创建的Google文档类型。
-1. 如果 **添加Google驱动器帐户** 框，单击 **授权古奇通道**.
+1. 如果 **添加Google驱动器帐户** 框，单击 **授权Google Drive**.
 
    Google文档将添加到 **文档** 选项卡。
 
@@ -233,7 +227,7 @@ ht-degree: 0%
    >
    > “我的驱动器”和“与我共享”显示两个不同的结果。 如果您在“我的驱动器”中找不到文件，请签入“与我共享”文件夹。
 
-## 更新文档，并将其从Workfront链接到外部云提供商
+## 将文档从Workfront上传并链接到外部云提供商
 
 您可以上传文档，并将其从Workfront链接到外部云提供商。 这会将文档的存储空间从Workfront移动到外部云提供商。 当文档在外部应用程序中更改时，会自动在Workfront中更新。
 
@@ -256,11 +250,7 @@ ht-degree: 0%
 
 ## 链接文件夹
 
-在Workfront和外部云提供商之间链接文件夹时，将链接该文件夹及其所有内容。 如果没有Workfront访问权限的用户从外部文档应用程序添加、删除和修改文件，则其更改将同步到Workfront。 以下部分介绍了如何链接文件夹和子文件夹：
-
-* [文件夹访问权限](#folder-access-rights)
-* [链接一个或多个外部文件夹](#link-one-or-more-external-folders)
-* [将子文件夹添加到链接的文件夹](#add-subfolders-to-a-linked-folder)
+在Workfront和外部云提供商之间链接文件夹时，将链接该文件夹及其所有内容。 如果没有Workfront访问权限的用户从外部文档应用程序添加、删除和修改文件，则其更改将同步到Workfront。
 
 ### 文件夹访问权限 {#folder-access-rights}
 
@@ -330,8 +320,6 @@ ht-degree: 0%
 
 1. 选择要在其中放置文档的链接文件夹，然后单击 **新增>文档**，然后浏览到文档并将其添加到文件夹。
 
-
-
    或
 
    在 **文档** 在需要文档的区域中，将文档拖到链接的文件夹中。
@@ -340,10 +328,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * 文档正在移动时，文档选项不可用。 将文档移至Experience Manager Assets后，在Workfront的文档列表中不再可见。
+> * 文档正在移动时，文档选项不可用。
+>
+> * 将文档移至Experience Manager Assets后，在Workfront的文档列表中不再可见。
 >
 > * 您在文档移动时对文档所做的任何操作或编辑都不会显示在Experience Manager Assets的文档中，因此将丢失。
-
 
 ## 删除链接的文档或文件夹
 
@@ -362,4 +351,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->请勿在Workfront中重命名链接到Dropbox的文档；这样做会导致Workfront中的文件无法访问。 相反，请以Dropbox重命名文件，然后重新同步该文件，如中所述 [链接来自外部应用程序的文档](#synchronizing-changes-made-on-a-linked-document).
+>请勿在Workfront中重命名链接到Dropbox的文档；这样做会导致Workfront中的文件无法访问。 相反，请以Dropbox重命名文件，然后重新同步该文件。

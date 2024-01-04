@@ -6,9 +6,9 @@ description: 在项目组合中导航
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,9 @@ ht-degree: 0%
 
    * **[!UICONTROL 活动]**：包括与处于以下状态的选定项目组合关联的所有项目：
 
-      * [!UICONTROL 计划]
+      * [!UICONTROL 规划]
       * [!UICONTROL 已批准]
-      * [!UICONTROL 目前]
+      * [!UICONTROL 当前]
    * **[!UICONTROL 已请求]**：包括与所选项目组合关联的项目，且状态为 **[!UICONTROL 已请求]**.
 
      有关查看请求的项目的信息，请参阅 [审核请求的项目](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
@@ -93,7 +93,7 @@ ht-degree: 0%
      >
      >要仅查看特定项目，请考虑在中创建项目过滤器 **[!UICONTROL 筛选]** 项目列表顶部的下拉菜单，减少显示的项目数。
 
-     有关创建过滤器的详细信息，请参阅 [中的过滤器概述 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     有关创建过滤器的详细信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. 单击 **[!UICONTROL 程序]** 在左侧面板中创建项目组合或管理现有项目。\

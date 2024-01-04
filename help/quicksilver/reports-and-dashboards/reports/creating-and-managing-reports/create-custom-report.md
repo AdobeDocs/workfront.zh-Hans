@@ -6,9 +6,9 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. 如果您单击 **添加筛选器规则**，开始键入要添加为过滤器的字段。 如果该字段可用，则会填充每个可关联该字段的对象。 单击字段名称以将其添加到该过滤器。\
    使用过滤器修饰符构建您的过滤器。 有关过滤器修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   有关创建新过滤器的更多信息，请参阅 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建新过滤器的更多信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. （可选）您可以通过单击 **切换到文本模式**.
 

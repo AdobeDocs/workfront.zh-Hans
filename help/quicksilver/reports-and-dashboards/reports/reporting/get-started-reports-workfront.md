@@ -7,9 +7,9 @@ description: 通过报告，可查看用户和工作的最新动态。 使用报
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">筛选</td> 
-   <td> <li>控制报表中显示的信息量。</li> <li>有关过滤器的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfront中的过滤器概述</a>.</li> <li>有关过滤器修饰符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">过滤器和条件修饰符</a>.</li> <li>您可以使用通配符进行过滤，以使过滤器更通用，并为其提供更大的使用灵活性。</li> <li>有关在过滤器中使用通配符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量</a>.</li> </td> 
+   <td> <li>控制报表中显示的信息量。</li> <li>有关过滤器的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">过滤器概述</a>.</li> <li>有关过滤器修饰符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">过滤器和条件修饰符</a>.</li> <li>您可以使用通配符进行过滤，以使过滤器更通用，并为其提供更大的使用灵活性。</li> <li>有关在过滤器中使用通配符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

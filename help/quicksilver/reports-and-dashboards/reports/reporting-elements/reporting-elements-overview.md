@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 * [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
@@ -47,6 +47,6 @@ ht-degree: 0%
 * [使用基于日期的通配符对报表进行泛化](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
 * [使用基于用户的通配符对报告进行归纳](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
 * [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-* [删除筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [删除过滤器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [使用里程碑视图](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

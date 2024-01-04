@@ -6,9 +6,9 @@ description: 您可以从各种列表、报表、功能板和搜索中导出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
   如果报表的行数超过50,000/65,000/100,000，并且您想要导出所有数据，我们建议您使用过滤器或提示来获取较小的数据负载，并执行多次导出。
 
-  有关使用过滤器的信息，请参阅 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  有关使用过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   有关使用提示的信息，请参见 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

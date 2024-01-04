@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 有关构建过滤器和自定义提示的信息，请参阅：
 
-* [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 有关在文本模式下创建过滤器的信息，请参阅 [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

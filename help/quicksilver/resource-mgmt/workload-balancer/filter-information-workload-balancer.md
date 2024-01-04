@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >当您保存并应用新过滤器，然后导航离开工作负载均衡器时，即使您注销并重新登录，过滤器也会保留。
 
-
-本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中过滤器的信息，请参阅 [Adobe Workfront中的过滤器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中过滤器的信息，请参阅 [过滤器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 访问要求
 

@@ -7,9 +7,9 @@ description: 报表常见问题解答
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 此错误意味着您的图表最多包含618个不同的结果，例如，条形图中有超过618个条形。 要解决显示问题，您需要通过修改当前过滤器和分组选择来优化结果。
 
-有关修改筛选器和分组的信息，请参阅文章 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 和 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+有关修改筛选器和分组的信息，请参阅文章 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 和 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## 为什么当我作为同事访问同一报表（或日历）时，我看到我的任务（或问题），而他们却看到其任务？
 

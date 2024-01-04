@@ -2,19 +2,21 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Adobe Workfront中的过滤器概述
+title: 过滤器概述
 description: 您可以使用Adobe Workfront中的过滤器来减少您在列表、报告或其他区域屏幕上显示的信息量。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront中的过滤器概述
+# 过滤器概述
+
+<!-- Audited: 01/2024 -->
 
 您可以使用Adobe Workfront中的过滤器来减少您在列表、报告或其他区域屏幕上显示的信息量。
 
@@ -49,7 +51,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 ## Workfront临时过滤器
 
-快速筛选器允许您使用关键字在屏幕上搜索项目。 刷新页面后，将清除临时快速过滤器。 无法保存临时过滤器以重复使用。
+快速筛选器允许您使用关键词在屏幕上搜索项目。 刷新页面后，将清除临时快速过滤器。 无法保存临时过滤器以重复使用。
 
 有关快速过滤器的信息，请参阅 [将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
@@ -57,7 +59,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 您可以使用您、其他人或Workfront在对象列表或报表中创建的永久筛选器。
 
-有关Workfront中的对象以及可为哪些对象构建报表的信息，请参阅 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关Workfront中的对象以及可为哪些对象构建报表的信息，请参阅 [Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 有关列表和报告中的过滤器的更多信息，请参阅以下文章：
 
@@ -70,7 +72,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 您可以在Workfront的以下区域中使用内置过滤器或构建自定义过滤器：
 
 * 主页\
-  有关信息，请参见 [筛选工作列表](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) 部分内容 [在“主页”区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  有关信息，请参见 [筛选工作列表](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) 部分内容 [在“主页”区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * 请求区域。 您不能在请求区域中自定义筛选器。
 
   有关信息，请参阅 [查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -80,7 +82,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 * 利用率报告
 
-  有关信息，请参阅部分 [筛选器利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 在文章中 [查看资源利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  有关信息，请参阅部分 [筛选器利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) 在文章中 [查看资源利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * 工作负载均衡器
 
@@ -142,8 +144,9 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 >在报表中创建或编辑过滤器时，必须编辑报表，以便新过滤器成为报表的默认过滤器。 仅编辑过滤器时，在Report Builder之外，报表的默认过滤器不会更新。\
 >有关编辑报告的信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-有关Workfront列表的信息，请参阅文章 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-有关Workfront报表的信息，请参阅文章 [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+有关Workfront列表的信息，请参阅 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+有关Workfront报表的信息，请参阅 [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 在列表或报告中使用过滤器时，请考虑以下事项：
 
@@ -151,13 +154,13 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 * 您的Workfront管理员必须授予您对筛选器、视图和分组的编辑权限，才能创建永久筛选器。
 
-  有关授予对筛选器、视图和分组的访问权限的信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  有关更多信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* 您对筛选器的权限级别决定了筛选器的保存方式。 如果最初创建的是过滤器，则可以保存更改，否则系统会提示您保存正在修改的过滤器版本。
+* 您对筛选器的权限级别决定了筛选器的保存方式。 如果您最初创建的是过滤器，则可以保存更改。 否则，系统会提示您保存正在修改的过滤器的新版本。
 
   >[!TIP]
   >
-  >请记住，如果您对与其他人共享的过滤器进行了更改，则这些更改也会影响他们。
+  >请记住，如果您对与其他人共享的过滤器进行更改，这些更改也会影响他们。
 
 * 仅当与您共享过滤器的用户授予您“管理”权限时，您才能自定义与您共享的过滤器。 有关共享过滤器的信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -181,14 +184,14 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
  <tbody> 
   <tr> 
    <td><strong>对象</strong></td> 
-   <td> <p>筛选器的Workfront数据库对象。 有关哪些对象可在Workfront中报告的信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解Adobe Workfront中的对象</a>. </p> <p>例如，项目、任务、问题、用户、文档可以是过滤器的对象。 </p> </td> 
+   <td> <p>筛选器的Workfront数据库对象。 有关哪些对象可在Workfront中报告的信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront对象概述</a>. </p> <p>例如，项目、任务、问题、用户或文档可以是过滤器的对象。 </p> </td> 
   </tr> 
   <tr> 
    <td><strong>字段</strong></td> 
    <td> <p>过滤对象的属性。 </p> <p>例如，您可以按“Portfolio名称”或“项目所有者”进行筛选。 在这些情况下，“名称”和“所有者”是Portfolio和项目对象的字段。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>值</strong></p> </td> 
+   <td><strong>值</strong></td> 
    <td>Workfront中字段的实际名称。 例如，“完成”可以是项目状态字段的值。 </td> 
   </tr> 
   <tr> 
@@ -241,14 +244,13 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 
 ## 使用文本模式界面创建筛选器
 
-您可以使用文本模式界面构建过滤器。 我们建议使用标准或Beta生成器界面生成大多数过滤器语句，并且只作为最后一步编辑过滤器的代码。 不建议单独使用文本模式界面从头开始构建过滤器。
+您可以使用文本模式界面构建过滤器。 我们建议使用标准生成器或旧版生成器界面来生成大部分过滤器语句，并且仅作为最后一步编辑过滤器的代码。 不建议单独使用文本模式界面从头开始构建过滤器。
 
 有关使用文本模式界面创建过滤器的详细信息，请参阅 [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## 为复杂字段创建过滤器
 
-* [为值包含逗号的字段创建过滤器](#create-filters-for-fields-whose-values-contain-commas)
-* [创建其值是多选自定义字段的筛选器](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+您可以为复杂字段创建过滤器，例如值包含逗号的字段和值为多选自定义字段的字段。
 
 ### 为值包含逗号的字段创建过滤器 {#create-filters-for-fields-whose-values-contain-commas}
 
@@ -270,7 +272,7 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 
 `DE:check_Mod=in`
 
-此语法可确保将值作为一个选项一起读取。 如果省略斜杠，Workfront会将逗号读取为“OR”，在这种情况下，只会选择具有第一个或第二个选项的项目。
+此语法可确保将值作为一个选项一起读取。 如果省略斜杠，Workfront会将逗号读取为OR，在这种情况下，只会选择具有第一个或第二个选项的项目。
 
 此语法在构建提示时也适用。 有关使用提示的详细信息，请参阅 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

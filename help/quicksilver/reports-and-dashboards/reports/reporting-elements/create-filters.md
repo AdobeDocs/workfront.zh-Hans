@@ -6,9 +6,9 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 * Workfront其他区域中的筛选器，列表和报告除外。
 
-  有关Workfront中所有过滤器的列表以及可应用这些过滤器的区域，请参阅 [Adobe Workfront中的过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  有关Workfront中所有过滤器的列表以及可应用这些过滤器的区域，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 访问要求
 
@@ -241,7 +241,7 @@ ht-degree: 1%
 
    ![包含全部或任何或真下拉菜单](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   有关过滤器运算符的详细信息，请参阅 [Adobe Workfront中的过滤器概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关过滤器运算符的详细信息，请参阅 [过滤器概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 单击字段下拉菜单可查看最近使用的字段以及作为筛选依据的建议字段的列表。 建议的字段当前显示在您正在过滤的列表中。
 

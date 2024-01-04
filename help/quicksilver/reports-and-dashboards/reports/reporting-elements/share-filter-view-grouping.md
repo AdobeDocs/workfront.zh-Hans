@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 共用篩選、檢視或群組
-description: 您可以與其他使用者共用您有權檢視的篩選器、檢視和群組。
+title: 共享筛选器、视图或分组
+description: 您可以与其他用户共享您有权查看的筛选器、视图和分组。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
 
-# 共用篩選、檢視或群組
+# 共享筛选器、视图或分组
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -22,71 +22,71 @@ ht-degree: 1%
 </div>
 -->
 
-當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯物件的存取權。 如需授予物件存取許可權的詳細資訊，請參閱 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参见 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-除了授予使用者的存取層級之外，您還可以授予他們檢視或編輯您所建立或有權共用之特定物件的許可權。 如需存取層級和許可權的詳細資訊，請參閱 [存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予用户的访问级别之外，您还可以授予他们查看或编辑您创建或有权共享的特定对象的权限。 有关访问级别和权限的更多信息，请参阅 [访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-您可以與其他使用者共用您有權檢視的篩選器、檢視和群組。
+您可以与其他用户共享您有权查看的筛选器、视图和分组。
 
-當您共用篩選、檢視或分組時，您可以將該篩選、檢視或分組套用至您的清單。 根據授予您的存取許可權，您或許可以修改該區段並與其他使用者共用。
+当您共享某个筛选器、视图或分组时，您可以将该筛选器、视图或分组应用于您的列表。 根据授予您的访问权限，您也许能够修改它并与其他用户共享它。
 
-如需有關如何建立篩選、檢視或群組的資訊，請參閱下列文章：
+有关如何创建过滤器、视图或分组的信息，请参阅以下文章：
 
-* [Adobe Workfront中的篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Adobe Workfront中的檢視概觀](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-## 存取需求
+## 访问要求
 
-您必須具備下列條件：
+您必须具备以下条件：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront計畫*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront授權*</strong></td> 
-   <td> <p>要求或以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
+   <td> <p>请求或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>檢視或更高許可權存取篩選器、檢視、群組</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader"><strong>访问级别配置*</strong></td> 
+   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>檢視或擁有共用檢視、篩選器或群組存取權的較高許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader"><strong>对象权限</strong></td> 
+   <td> <p>查看权限或更高权限可共享到视图、筛选器或分组</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 共用篩選、檢視或群組
+## 共享筛选器、视图或分组
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-根據您用來共用篩選器的介面，選取清單中的共用篩選器會有所不同：標準版或舊版。 如需有關篩選條件建置介面型別的資訊，請參閱 [在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+根据您从哪个界面共享筛选器，在选择列表中共享筛选器会有所不同：标准版或旧版。 有关过滤器构建界面的类型的信息，请参见 [在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-您只能在舊版介面中共用檢視和群組。
+您只能在旧版界面中共享视图和分组。
 
-### 使用標準產生器介面共用篩選器
+### 使用标准生成器界面共享过滤器
 
-您可以在標準介面中從專案、任務、問題、投資組合、計畫、使用者、範本或群組清單共用篩選器。 篩選的標準產生器介面不適用於任何其他物件，或檢視或群組。
+可在标准界面中从项目、任务、问题、项目组合、程序、用户、模板或组列表中共享过滤器。 筛选器的标准生成器界面不适用于任何其他对象，也不适用于视图或分组。
 
-使用標準產生器介面共用篩選器：
+使用标准生成器界面共享过滤器：
 
-1. 前往專案、任務或問題的清單。
-1. 按一下 **篩選** 圖示 ![篩選圖示](assets/filter-nwepng.png).
+1. 转到项目、任务或问题的列表。
+1. 单击 **筛选** 图标 ![过滤器图标](assets/filter-nwepng.png).
 
-   ![標準篩選產生器](assets/new-filters-all-filter-types.png)
+   ![标准过滤器生成器](assets/new-filters-all-filter-types.png)
 
-1. 檢閱下列篩選器清單：
+1. 查看以下筛选器列表：
 
    <table style="table-layout:auto">
    <col>
@@ -94,94 +94,95 @@ ht-degree: 1%
    <tbody>
    <tr>
    <td role="rowheader"><strong>已收藏</strong></td>
-   <td>您標示為我的最愛的篩選器。 當您最愛篩選器時，其原始位置會顯示於篩選器名稱下方，且除非您將其移除為最愛，否則會隱藏在原始清單中。</td>
+   <td>您标记为收藏的过滤器。 当您收藏某个过滤器时，其原始位置将显示在过滤器名称下方，并且除非将其作为收藏删除，否则它将在原始列表中隐藏。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>已保存</strong></td>
-   <td>您自行建立和儲存的篩選器。 依預設，此清單會依照最近儲存的順序顯示已儲存的篩選器，但您可拖曳篩選器名稱以手動重新排序清單。</td>
+   <td>您自己构建并保存的过滤器。 默认情况下，此列表以最近保存的顺序显示保存的筛选器，但可以拖动筛选器名称手动重新排序列表。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>系统默认值</strong></td>
-   <td>Workfront系統預設篩選器，以及Workfront管理員新增至您的篩選器清單中的篩選器（在系統層級或版面配置範本中）。</td>
+   <td>Workfront系统默认筛选器，以及Workfront管理员添加到您的筛选器列表中的筛选器，这些筛选器可以位于系统级别或布局模板中。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>已与我共享</strong></td>
-   <td>其他人建立並與您共用，或在系統範圍內共用的篩選器。</td>
+   <td>其他人创建并与您共享或在系统范围内共享的过滤器。</td>
    </tr>
    </tbody>
    </table>
 
-1. 將游標停留在您至少有權檢視和共用的篩選器上，然後按一下 **更多** 功能表 ![更多選單](assets/more-icon-spectrum.png)，然後按一下 **共用**.
+1. 将鼠标悬停在您至少有权查看和共享的过滤器上，然后单击 **更多** 菜单 ![更多菜单](assets/more-icon-spectrum.png)，然后单击 **共享**.
 
-   ![更多功能表選項](assets/new-filters-more-menu-options-with-delete.png)
+   ![更多菜单选项](assets/new-filters-more-menu-options-with-delete.png)
 
-   篩選條件共用方塊隨即顯示。
+   此时将显示筛选器共享框。
 
-1. 啟用 **檢視系統範圍** 設定。 這可授予Workfront中的任何人檢視篩選器的許可權。
+1. 启用 **查看系统范围** 设置。 这将授予Workfront中的任何人查看筛选器的权限。
 
    >[!IMPORTANT]
    >
-   >請謹慎使用此設定。 為所有使用者新增許多篩選器將會使篩選器體驗雜亂，並使篩選器更難找到。
+   >请谨慎使用此设置。 为所有用户添加多个筛选器将会使筛选器体验杂乱，并使筛选器更难找到。
 
-   或開始輸入您要在其中共用的使用者、團隊、角色、群組或公司名稱 **將存取權授予** 欄位。
+   或者开始键入要在中共享的用户、团队、角色、组或公司的名称 **将访问权限授予** 字段。
 
-   ![篩選器共用方塊](assets/new-filters-share-filter.png)
+   ![筛选器共享框](assets/new-filters-share-filter.png)
 
-1. （可選）按一下實體名稱旁的向右箭頭，以編輯其對篩選器的許可權，然後啟用 **檢視** 或 **管理** 選項。 **檢視** 為預設值。
+1. （可选）单击实体名称旁边的向右箭头以编辑其对筛选器的权限，然后启用 **视图** 或 **管理** 选项。 **视图** 是默认值。
 
-   ![共用許可權](assets/new-filters-sharing-permissions.png)
+   ![共享权限](assets/new-filters-sharing-permissions.png)
 
-1. （選用）執行下列任一項作業，啟用或停用實體的其他許可權：
+1. （可选）通过执行以下操作之一，启用或禁用实体的其他权限：
 
-   1. 按一下 **檢視** 並停用 **共用** 選項。 預設為啟用。
-   1. 按一下 **管理** 並停用 **共用** 或 **刪除** 選項。 預設為啟用。
+   1. 单击 **视图** 并禁用 **共享** 选项。 默认情况下处于启用状态。
+   1. 单击 **管理** 并禁用 **共享** 或 **删除** 选项。 默认情况下启用它们。
 
       >[!NOTE]
       >
-      >如果您啟用「使用刪除管理存取權」選項，即使這些使用者並不擁有該篩選器，他們也將能夠從所有使用者中刪除該篩選器。
-   >[!TIP]
-   >
-   >使用者無法收到高於其存取層級的許可權。 如果他們沒有存取層級中編輯篩選器的存取權，他們將無權管理篩選器。 Workfront會停用這些使用者的「管理」選項，且選項會變暗。
-
-1. 按一下 **共用**. 篩選器會與您指定的實體共用。
+      >如果使用删除选项启用管理访问权限，则这些用户将从所有用户中删除该筛选器，即使他们并不拥有该筛选器。
 
    >[!TIP]
    >
-   >與群組共用會將篩選的許可權授予群組的成員及所有子群組。
+   >用户获得的权限不能高于其访问级别。 如果他们无权在其访问级别编辑“筛选器”，则他们将无权管理筛选器。 Workfront对这些用户禁用了“管理”选项，并且该选项呈灰显状态。
 
-   您共用的篩選器會顯示在 **與我共用** 這些實體的篩選面板的區段。
-
-   ![與我共用的篩選器](assets/new-filters-shared-with-me.png)
-
-### 使用舊版介面共用篩選器、檢視和群組
-
-共用舊版介面中的篩選器、檢視和群組的方式相同。
-
-1. 前往物件清單或報表。
-1. （視條件而定）從清單中，按一下 **篩選**， **檢視**，或 **分組** 圖示，然後將滑鼠指標暫留在您要共用的篩選、檢視或分組上，按一下 **更多** 圖示 ![「更多」圖示](assets/more-icon.png)，則 **共用**.
-
-   在報表中，按一下 **篩選**， **檢視**，或 **分組** 下拉式功能表，然後選取您要共用的篩選器、檢視或群組。
-
-1. （視條件而定）如果從報表共用，請按一下 **篩選**， **檢視**，或 **分組** 再次使用下拉式功能表，然後按一下 **共用篩選器**， **共用檢視**，或 **共用群組**.\
-   此 **篩選器存取權**， **檢視存取權**，或 **群組存取權** 對話方塊隨即顯示。
-
-   ![共用篩選器](assets/share-filter-people-box-nwe-350x458.png)
-
-1. 根據您要與誰共用，完成下列任一項作業：
-
-   **若要與個別使用者、團隊、角色、群組或公司共用，請執行下列動作：** 在提供的欄位中，開始輸入您要與其共用的使用者、團隊、角色、群組或公司的名稱，然後在其出現在下拉式清單中時按一下該名稱。\
-   重複此程式，與多個使用者、團隊、角色、群組或公司共用存取權。
+1. 单击&#x200B;**共享**。该筛选器将与您指定的实体共享。
 
    >[!TIP]
    >
-   >「與群組共用」可將篩選、檢視或分組的許可權授予群組的成員及所有子群組。
+   >与组共享会将筛选器的权限授予该组的成员和所有子组的成员。
 
-   **若要與系統中的所有使用者共用：** 按一下 **設定** 圖示，然後按一下 **使其在整個系統內可見**.\
-   您的管理員必須選取「共用系統範圍」選項，才能使用此選項。 如需詳細資訊，請參閱文章 [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 和 [共用報告、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   您共享的过滤器将显示在 **与我共享** 这些实体的过滤器面板的部分。
 
-1. （視條件而定）如果您要與個別使用者、團隊、角色、群組或公司共用，請按一下下拉式功能表，以定義您要授與的存取層級。
+   ![与我共享的过滤器](assets/new-filters-shared-with-me.png)
 
-   您可以從下列選項中選取：
+### 使用旧版界面共享过滤器、视图和分组
+
+在旧版界面中共享筛选器、视图和分组的方式相同。
+
+1. 转到对象列表或报告。
+1. （视情况而定）在列表中，单击 **筛选**， **视图**，或 **分组** 图标，然后将鼠标悬停在要共享的过滤器、视图或分组上，单击 **更多** 图标 ![“更多”图标](assets/more-icon.png)，则 **共享**.
+
+   在报表中，单击 **筛选**， **视图**，或 **分组** 下拉菜单，然后选择要共享的筛选器、视图或分组。
+
+1. （视情况而定）如果从报表进行共享，请单击 **筛选**， **视图**，或 **分组** 再次显示下拉菜单，然后单击 **共享筛选器**， **共享视图**，或 **共享分组**.\
+   此 **筛选器访问权限**， **查看访问权限**，或 **分组访问权限** 对话框随即显示。
+
+   ![共享筛选器](assets/share-filter-people-box-nwe-350x458.png)
+
+1. 根据要与谁共享，完成以下任一操作：
+
+   **要与个人用户、团队、角色、组或公司共享，请执行以下操作：** 在提供的字段中，开始键入要与之共享的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。\
+   重复此过程可与多个用户、团队、角色、组或公司共享访问权限。
+
+   >[!TIP]
+   >
+   >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
+
+   **要与系统中的所有用户共享，请执行以下操作：** 单击 **设置** 图标，然后单击 **使其在系统范围内可见**.\
+   管理员必须选择“共享系统范围”选项才能使用此选项。 有关更多信息，请参阅文章 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 和 [共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+
+1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。
+
+   您可以从以下选项中进行选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -189,21 +190,21 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>查看它</strong></td> 
-      <td> <p>選取此選項可允許共用收件者僅使用共用篩選器、檢視或群組。 選取此選項時，收件者無法對共用專案進行任何修改。</p> </td> 
+      <td> <p>选择此选项可允许共享收件人仅使用共享筛选器、视图或分组。 选择此选项时，收件人无法对共享项目进行任何修改。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>管理它</strong></td> 
-      <td> <p>選取此選項可允許共用收件者使用及修改共用篩選器、檢視或群組。</p> </td> 
+      <td> <p>选择此选项可允许共享收件人使用和修改共享筛选器、视图或分组。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>共用</strong></td> 
-      <td> <p>按一下 <strong>進階設定</strong>，然後選取或清除 <strong>共用</strong> 選項，視您是否要讓收件者能夠與其他人共用而定。</p> </td> 
+      <td role="rowheader"><strong>共享</strong></td> 
+      <td> <p>单击 <strong>高级设置</strong>，然后选择或清除 <strong>共享</strong> 选项，具体取决于您是否希望收件人能够与其他人共享。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 单击&#x200B;**保存**。
 
-   與您共用篩選器、檢視或分組的使用者可以按一下 **篩選**， **檢視**，或 **分組** 下拉式功能表或圖示，然後向下捲動至 **與我共用** 區段。
+   与您共享该过滤器、视图或分组的用户可以通过单击 **筛选**， **视图**，或 **分组** 下拉菜单或图标，并向下滚动到 **与我共享** 部分。
 
 
