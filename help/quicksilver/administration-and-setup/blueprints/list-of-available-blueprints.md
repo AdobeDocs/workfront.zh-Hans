@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 **[!UICONTROL 信息技术组织设置]**
 此Blueprint包含组织结构的配置，以扩展为信息技术用例。
 
-**[!UICONTROL 继承实例基础知识 |清单]**
+**[!UICONTROL 继承实例基础知识 | 清单]**
 此Blueprint包含一个项目模板（或清单），您可以查看该项目模板（或清单），其中包含一个简短的问题、资源和链接列表，以清楚地了解Workfront实例的配置方式。 当您最近继承了Workfront实例并且需要有关从何处开始的指导时，请使用此项。
 
 **[!UICONTROL 集成式营销活动执行]**
@@ -79,7 +79,7 @@ ht-degree: 0%
 **[!UICONTROL 新员工准备工作]**
 此Blueprint包含模板 [!DNL Workfront] 多年来，专业服务组织一直利用与人力资源团队开展实施工作来促使人力资源专家和招聘经理完成重要活动，使新员工的第一天表现卓著。
 
-**离线 |离开用户信息板**
+**离线 | 离开用户信息板**
 
 此Blueprint包含一个功能板，其中包含13个报告，可帮助您查找、重新分配或以其他方式管理与离开Workfront的用户相关的对象和分配。 您也可以将这些报告用于移动到新角色或组的用户以重新分配其工作。
 
@@ -126,11 +126,15 @@ ht-degree: 0%
 **[!UICONTROL 系统管理员维护仪表板]**
 此Blueprint包含单个仪表板，可帮助系统管理员定期维护和清除系统中可能随时间积累的杂乱内容。
 
-**价值实现 |核心值功能板**
+**价值实现 | 核心值功能板**
 
 此Blueprint包含一个功能板，其中包含21个报表可帮助您衡量Workfront的值。 这些报告可帮助您将集中工作和管理工作流程的好处转化为可衡量的价值，您可以随着时间的推移跟踪这些价值以实现更好的成果。
 
-**价值实现 |审阅和批准功能板**
+[!BADGE 最新！]{type=Informative}**价值实现 | 提供面向客户端的服务仪表板**
+
+此Blueprint包含一个包含8个报表的功能板，可帮助您实现Workfront的好处。 这些报告旨在帮助您将面向客户的服务转化为可衡量的价值，以便您能够随着时间的推移跟踪这些价值以实现更好的成果。
+
+**价值实现 | 审阅和批准信息板**
 
 此Blueprint包含一个包含7个报表的功能板，可帮助您实现Workfront的价值。 这些报告可帮助您将审核和批准工作的价值转化为可衡量的好处，您可以随着时间的推移跟踪这些好处以实现更好的成果。
 
