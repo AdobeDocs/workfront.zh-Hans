@@ -4,9 +4,9 @@ description: 2024年第一季度主页增强功能
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 本页介绍了在2024年第一季度版本中对“预览”环境进行的所有主页增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
 有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 新的待处理审批构件可用
+
+为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 在此，您可以查看分配用于批准或审阅您拥有的项目文档的用户的列表，查看其审阅或审批的状态，并提醒审阅者和审批者完成其审阅或审批。
+
+有关主页小组件的更多信息，请参阅 [新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 使用布局模板的新主页的管理员控件
 

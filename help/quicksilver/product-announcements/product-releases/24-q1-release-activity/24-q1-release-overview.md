@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ ht-degree: 0%
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年1月3日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.1版本</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.1版本</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板的新主页的管理员控件</a></p><p>管理员现在可以使用布局模板为用户自定义新的主页。 自定义选项包括选择必需的小组件及其位置、选择背景以及用于选择可用筛选器和组（并设置默认值）的特定于小组件的选项。</p>
                     </td>
