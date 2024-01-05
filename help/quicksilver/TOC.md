@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13843'
 ht-degree: 1%
 
 ---
@@ -480,7 +480,7 @@ ht-degree: 1%
          * [通过新许可证访问对象和区域](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [可用于新访问级别的每种对象类型的功能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [对新许可计划上的非付费用户禁用自动升级选项](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-         * [Workfront文档中的访问级别要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+         * [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * 访问级别的工作方式 {#legacy-access-levels}
          * [访问级别的工作方式](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [访问概述](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
