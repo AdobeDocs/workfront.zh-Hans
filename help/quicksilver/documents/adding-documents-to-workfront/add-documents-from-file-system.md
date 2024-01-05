@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中将文档添加到多个区域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 1. 转到要添加新文档的项目、任务或问题。
 1. 单击 **文档** 选项卡，然后单击 **新增** 下拉菜单。
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. 根据要添加的文档类型，执行以下任一操作：
 
@@ -98,7 +98,7 @@ ht-degree: 1%
         <li value="1">从 <strong>新增</strong> 下拉菜单，选择 <strong>请求文档</strong>.</li> 
         <li value="2">在 <strong>您向谁请求它</strong> 框中，键入向其请求文档的用户的名称。</li> 
         <li value="3">在 <strong>告知您正在请求的内容</strong> 框中，键入文档的名称。</li> 
-        <li value="4"> <p>单击 <strong>发送请求</strong>.</p> <p>您的请求将显示在“文档”选项卡上。</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>有关请求文档的更多信息，请参阅 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">请求文档</a>.</p> </li> 
+        <li value="4"> <p>单击 <strong>发送请求</strong>.</p> <p>您的请求将显示在“文档”选项卡上。</p> <p>有关请求文档的更多信息，请参阅 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">请求文档</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
