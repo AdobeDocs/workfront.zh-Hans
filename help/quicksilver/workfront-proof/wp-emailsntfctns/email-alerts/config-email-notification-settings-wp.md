@@ -7,9 +7,9 @@ description: 从Workfront Proof生成的电子邮件通知会通知协作者最�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ ht-degree: 0%
 
 您可以在以下区域为审阅人设置电子邮件通知：
 
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">产品</td> 
+   <td>Workfront校对独立</td> 
+  </tr> 
+</table>
+
+可以在新验证页面上设置查看者的电子邮件通知， [!UICONTROL 新版本] 页面，并在中管理 [!UICONTROL 工作流] 的部分 [!UICONTROL 校对详细信息] 页面。 有关更多信息，请参阅 [在中生成验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * 新验证页面
 * 此 [!UICONTROL 新版本] 页面
 * 此 [!UICONTROL 工作流] 的部分 [!UICONTROL 校对详细信息] 页面。
 
 有关更多信息，请参阅 [在中生成验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [在中生成验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [在中生成验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [在中管理校对详细信息 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+每个用户还可以设置自己的电子邮件警报设置，如果协作者拥有自己的偏好或帐户管理员拥有对警报频率的推荐，则在与他们共享验证时，会自动应用这些设置。 可在用户详细信息页面上将此项设置为验证默认值。
 
 每个用户也可以设置自己的电子邮件警报设置，当与其共享验证时，将自动应用这些设置。 <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

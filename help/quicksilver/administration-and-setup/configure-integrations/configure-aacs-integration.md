@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
 description: 您可以将工作与您的内容关联到 [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 许可证*</strong>
    </td>
-   <td>[！UICONTROL计划]
+   <td>当前： [！UICONTROL计划] <br>
+   新文档： [！UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ ht-degree: 0%
 
 ## 设置集成信息
 
-1. 单击 **[!UICONTROL 主菜单]** Adobe Workfront图标，然后单击 **[!UICONTROL 设置]** .
+{{step-1-to-setup}}
+
 1. 选择 **[!UICONTROL 文档]** 在左侧面板中，然后选择 **[!UICONTROL [!DNL Experience Manager]集成]**.
 
    >[!NOTE]

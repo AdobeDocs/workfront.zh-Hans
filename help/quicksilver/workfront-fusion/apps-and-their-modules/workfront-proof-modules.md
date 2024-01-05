@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -353,11 +353,11 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL方法]</td> 
-   <td>为API调用设置操作。 有关可用的操作，请参阅 <a href="http://api.proofhq.com/">Proof API文档</a>.</td> 
+   <td>为API调用设置操作。 有关可用的操作，请参阅 <a href="https://api.proofhq.com/">Proof API文档</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL正文(XML)]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -367,7 +367,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >![](assets/wfp-api-module-example-350x586.png)
 

@@ -6,7 +6,7 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ ht-degree: 1%
 ## 创建新讨论区
 
 {{step1-to-boards}}
+
 1. 单击 **[!UICONTROL 添加展示板]**.
 
 1. 为展示板选择模板。
@@ -98,6 +99,7 @@ ht-degree: 1%
 ## 编辑现有讨论区
 
 {{step1-to-boards}}
+
 1. 在仪表板上，选择要打开的面板。
 1. 根据需要编辑展示板。 您可以单击电路板名称对其进行重命名。
 

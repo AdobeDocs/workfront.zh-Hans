@@ -3,11 +3,11 @@ content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
 title: 项目所有者和赞助者概述
-description: 您可以为项目指定项目所有者和项目赞助商。
+description: 您可以为项目指定项目所有者和项目发起人。
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -16,44 +16,47 @@ ht-degree: 0%
 
 # 项目所有者和赞助者概述
 
-您可以为项目指定项目所有者和项目赞助商。
+<!-- Audited: 1/2024 -->
 
-项目责任人是负责按时按预算完成项目的个人。
+您可以为项目指定项目所有者和项目发起人。
 
-项目赞助者是该项目的重要利益相关方，该项目有资源投资于该项目。 项目的完成通常使项目发起人受益。
+项目所有者是负责按时和按预算完成项目的个人。
 
-有关如何更新项目所有者或赞助商的信息，请参阅 [更新项目所有者和赞助者](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+项目发起人是项目的重要利益相关者，拥有项目资源投资。 项目的完成通常有益于项目发起人。
+
+有关如何更新项目的项目所有者或发起人的信息，请参阅 [更新项目所有者和发起人](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
 ## 项目所有者
 
-您可以通过在项目或模板上指定项目所有者来指定项目经理。
+您可以通过指定项目或模板上的项目所有者来指定项目经理。
 
 您只能为项目定义一个项目所有者。
 
 使用“项目所有者”字段可以执行以下操作：
 
 * 您只能指定一个用户作为项目所有者。
-* 您可以将项目所有者指定为项目的小时数审批者。
-* 在定义项目、任务或发放审批流程时，您可以将项目责任人指定为通用审批者。 有关批准的信息，请参阅 [编辑批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 您可以指定项目所有者作为项目的小时批准者。
+* 在定义项目、任务或问题审批流程时，您可以将项目责任人指定为通用审批人。 有关审批的信息，请参阅 [编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >如果您为项目所有者分配了批准，并且没有人被指定为项目所有者，则该批准将重新分配给主Workfront管理员，如“设置”区域的“客户信息”部分中所述。 有关信息，请参阅 [配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >当您将审批分配给项目责任人，并且没有指定任何人为项目责任人时，审批将重新分配给主要Workfront管理员，如设置区域的客户信息部分所述。 有关信息，请参阅 [配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
-* 您可以启用某些仅发送给项目所有者的通知。
+* 您可以启用仅交付给项目所有者的某些通知。
 
-   有关电子邮件通知的更多信息，请参阅部分 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  有关电子邮件通知的更多信息，请参阅部分 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* 您可以在报表或列表中显示项目所有者字段。
+* 您可以在报告或列表中显示“项目所有者”字段。
 
-   您还可以在视图、分组或提示中显示“项目所有者”字段。
+  您还可以在视图、分组或提示中显示项目所有者字段。
 
-   例如，您可以将以下文本模式表达式复制到过滤器中，以显示登录用户拥有的项目： 
+  例如，您可以将以下文本模式表达式复制到过滤器中，以显示已登录用户拥有的项目： 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -71,34 +74,34 @@ ht-degree: 0%
 </div>
 -->
 
-## 项目赞助商
+## 项目发起人
 
-您可以将系统中的任何用户指定为项目赞助商。 项目赞助商通常是需要了解项目进展情况的经理、执行官或利益相关方。
+您可以将系统中的任何用户指定为项目发起人。 项目发起人通常是需要了解项目情况的经理、执行人员或利益相关者。
 
-在分配项目赞助商时，请考虑以下事项：
+在分配项目发起人时，请考虑以下事项：
 
-* 项目赞助商不会获得对项目的任何其他访问权限，但会添加到项目的电子邮件通知中。 有关通知的信息，请参阅文章 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。 有关通知的信息，请参阅文章 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* 您只能指定一个项目赞助商。
-* 在定义项目、任务或发放审批流程时，您可以将项目主办者指定为通用审批者。 有关批准的信息，请参阅 [编辑批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 您只能指定一个项目发起人。
+* 在定义项目、任务或问题批准流程时，您可以将项目发起人指定为通用批准者。 有关审批的信息，请参阅 [编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >当您为项目发起人分配了批准，并且没有人被指定为项目的发起人时，批准将重新分配给项目所有者。 如果没有人指定为项目所有者，则会将批准分配给Workfront管理员。
+  >[!IMPORTANT]
+  >
+  >当您将审批分配给项目发起人并且没有人被指定为项目发起人时，审批将重新分配给项目所有者。 如果没有指定任何人为项目的所有者，则会将审批分配给Workfront管理员。
 
-* 您可以在报表或列表中显示项目赞助商字段。
+* 您可以在报告或列表中显示项目发起人字段。
 
-   您还可以在视图、分组或提示中显示项目赞助商字段。
+  您还可以在视图、分组或提示中显示项目发起人字段。
 
-   例如，您可以将以下文本模式表达式复制到过滤器中，以显示登录用户赞助的项目：
+  例如，您可以将以下文本模式表达式复制到过滤器中，以显示由登录用户赞助的项目：
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

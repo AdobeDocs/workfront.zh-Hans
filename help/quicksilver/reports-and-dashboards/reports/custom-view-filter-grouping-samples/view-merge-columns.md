@@ -7,14 +7,16 @@ description: 您可以合并显示在多个单独列中的信息，并将其显�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 视图：合并来自一个共享列中多个列的信息
+
+<!-- Audited: 1/2024 -->
 
 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
 
@@ -32,8 +34,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求修改视图 </p>
-   <p>计划修改报告</p> </td> 
+   <td> <p> 当前： 
+   <ul>
+   <li>请求修改视图</li> 
+   <li>计划修改报告</li>
+   </ul>
+     </p>
+     <p> 新增： 
+   <ul>
+   <li>修改视图的参与者</li> 
+   <li>用于修改报告的标准</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >
 >如果合并的两列不能同时显示同一记录的值，则建议使用此方法。 例如，在工作项报告中，可以合并“问题名称”和“任务名称”列，而无需在它们之间插入换行符，因为工作项不能同时具有“问题名称”和“任务名称”。 工作项可以是Workfront中的问题或任务。
 
-为此，请执行以下操作：
+要合并两列不带换行符的数据，请执行以下操作：
 
 1. 使用视图的文本模式，将以下文本添加到要合并的第一列：
 

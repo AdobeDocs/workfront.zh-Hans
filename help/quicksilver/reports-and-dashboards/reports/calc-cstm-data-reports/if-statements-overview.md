@@ -7,7 +7,7 @@ description: 可以在通用编程语言中使用“IF”语句。 在Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # “IF”语句概述
+
+<!-- Audited: 1/2024 -->
 
 可以在通用编程语言中使用“IF”语句。 在Adobe Workfront中，“IF”语句允许您比较、设置数据字段的格式并将其字符串在一起，以用于报表和自定义数据。 此外，从数学上考虑“IF”语句可以更好地理解概念，因为表达式变量是常用的。
 
@@ -44,10 +46,10 @@ ht-degree: 0%
 您可以使用以下格式在Workfront中构建“IF”语句：
 <pre>IF（Condition，True表达式，False表达式）</pre>“IF”语句的组成部分包括：
 
-* **如果**=这是“函数”的Workfront计算数据表达式。 与SUM和PROD表达式类似，它首先告诉系统将该函数理解为“IF”语句。 在此语句中始终使用大写字母表示“IF”。\
+* **如果** =这是“函数”的Workfront计算数据表达式。 与SUM和PROD表达式类似，它首先告诉系统将该函数理解为“IF”语句。 在此语句中始终使用大写字母表示“IF”。\
   有关所有计算数据表达式的列表，请参阅 [计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **条件**=这是Workfront变量必须满足的条件，也是此方程式的基础。 之后可在方程式中指定的所有内容都取决于条件。 可以使用许多引用、比较或数学表达式来启动公式。 条件的一些示例包括：
+* **条件** =这是Workfront变量必须满足的条件，也是此方程式的基础。 之后可在方程式中指定的所有内容都取决于条件。 可以使用许多引用、比较或数学表达式来启动公式。 条件的一些示例包括：
 
    * 日期晚于指定对象上的另一个日期。
    * 状态等于指定对象上可用的状态之一。
@@ -55,9 +57,9 @@ ht-degree: 0%
 
 * **条件运算符** =此运算符可帮助您构建“IF”语句的条件。 例如，“等于”或“大于”是条件运算符。 有关可在语句中使用的条件运算符列表，请参见 [计算自定义表达式中的条件运算符](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **真****表达式**=这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
+* **真****表达式** =这是“True”变量，它告知等式满足条件的条件（true指示器）后要显示的指示器。
 
-* **错误表达式**=这是“False”变量，它告知公式当不符合条件的条件（false指示器）时要显示的指示器。
+* **错误表达式** =这是“False”变量，它告知公式当不符合条件的条件（false指示器）时要显示的指示器。
 
 在以下示例中，使用原始语句格式为“IF”语句编写简单数据表达式。 该表达式比较了Workfront中的两个不同的日期字段，然后将True/False结果作为数据字符串：
 
