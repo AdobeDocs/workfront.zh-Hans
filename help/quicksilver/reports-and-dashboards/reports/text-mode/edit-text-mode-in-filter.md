@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 使用文本模式编辑筛选器
-description: '注意：在文章中添加一节：/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html；***此外，在文本模式概述文章中起草此区域)'
+description: 您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # 使用文本模式编辑筛选器
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 您可以使用文本模式在列表或报告中编辑过滤器，以访问标准界面中不可用的字段，并创建更复杂的过滤器。
 
-有关创建过滤器时的更多文本模式示例，另请参阅文章中的“自定义过滤器示例”部分 [自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+有关创建过滤器时的更多文本模式示例，另请参阅文章中的“自定义过滤器示例”部分 [自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## 访问要求
 
@@ -37,7 +39,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td><p>新增：标准</p>
+    <p>或</p>
+    <p>当前：计划</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -45,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限以编辑报告中的筛选器</p> <p>管理筛选器权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的筛选器</p> <p>管理筛选器权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,11 +81,11 @@ ht-degree: 0%
 1. 执行下列操作之一：
 
    1. 要从报表访问过滤器，请转到报表，然后单击 **报表操作** > **编辑** > **过滤器** 选项卡。
-   1. 要从列表访问过滤器，请转到列表，然后从 **筛选** 在下拉菜单中，将鼠标悬停在要修改的筛选器上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
+   1. 要从列表访问过滤器，请转到列表，然后从 **筛选** 菜单，将鼠标悬停在要修改的过滤器上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
 
       此时将打开过滤器生成器。
 
-1. 单击 **添加筛选器规则** 以开始添加过滤器的条件，然后单击 **切换到文本模式** 生成器的右上角。
+1. 单击 **添加筛选器规则** 以开始添加过滤器的条件，然后单击 **文本模式** 或 **切换到文本模式** 在生成器的右侧。
 1. 使用文本模式添加过滤器语句。 每个过滤语句可以包含以下行和其他信息：
 
    <table style="table-layout:auto"> 
@@ -99,7 +103,7 @@ ht-degree: 0%
    筛选状态时，必须使用三个字母的状态代码，而不是名称。</p> </td>
    </tr> 
      <tr> 
-      <td> <p>字段名称修饰符以及修饰符所代表的内容。 这指示您正在过滤的字段必须满足的条件。</p> <p>此行是必填的。</p> </td> 
+      <td> <p>字段名称修饰符以及修饰符所代表的内容。 这指示作为筛选依据的字段必须满足哪些条件。</p> <p>此行是必填的。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>要指示筛选的任务状态必须等于进行中，请使用上述行之外的以下行：</p> <p><code>status_Mod=in</code> </p> <p>如果修改量是一个范围，则有两个行表示该修改量。</p> 
        <div> <span class="autonumber"><span><b>示例 </b></span></span> 
         <p>这是一个文本模式筛选器，用于查找正在进行的任务、计划完成日期在当前月份内的任务以及分配给具有特定GUID的用户的任务：</p> 
@@ -129,7 +133,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>通配符，允许您在筛选器中泛化信息并引用当前时间或登录用户。</p> <p>通配符是可选的。</p> <p>提示：   <p>我们建议尽可能使用通配符，以使筛选器更动态，并且不要对每个用户或相似的时间范围复制相同的筛选器。</p> <p>有关筛选器通配符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量</a>.</p> </p> </td> 
+      <td> <p>通配符，允许您在筛选器中泛化信息并引用当前时间或登录用户。</p> <p>通配符是可选的。</p> <p>提示：   <p>我们建议尽可能使用通配符，以使筛选器更动态，并且不要对每个用户或相似的时间范围复制相同的筛选器。</p> <p>有关筛选器通配符的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量概述</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>示例</b></span></span> 
         <p>要筛选分配给当前登录用户的任务，请使用以下内容：</p> 
@@ -142,43 +146,32 @@ ht-degree: 0%
 
 1. 要添加由“OR”运算符连接的过滤器语句，请执行以下操作：
 
-   1. 添加新的代码行并键入OR:1: 后跟要过滤的对象或属性，以及要与其比较的值。 要引用处于“新建”以外的任何状态的任务，请使用以下行：
+   1. 添加新的代码行并键入OR:1: 后跟要过滤的对象或属性以及要与它们进行比较的值。 要引用处于“新建”以外的任何状态的任务，请使用以下行：
 
-      ```
-      OR:1:status=NEW
-      ```
+      `OR:1:status=NEW`
 
    1. 添加第二行并键入OR:1: 后跟对象、修饰符和修饰符代码。 要为引用所有任务状态（新建除外）的代码行定义修改量，请使用以下修改量行：
 
-      ```
-      OR:1:status_Mod=notin
-      ```
+      `OR:1:status_Mod=notin`
 
       新语句的每一行前面都必须加上“或：`<number>`：&quot;。
 
       有关在筛选器中创建“OR”语句的信息，请参阅 [在文本模式过滤器中创建“OR”语句](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
-<!--WRITER - reformat note below -->
+      >[!NOTE]
+      >
+      >同一过滤器可以有多个“OR”语句。 每次有新的“OR”语句时，“OR：”之后的数字都会增加。
+      >
+      >要筛选状态为“进行中”、已分配给登录用户或计划完成日期为今天的任务，请使用以下内容：
+      >
+      >`status=INP`
+      >`status_Mod=in`
+      >`OR:1:assignedToID=$$USER.ID`
+      >`OR:1:assignedToID_Mod=in`
+      >`OR:2:plannedCompletionDate=$$TODAY`
+      >`OR:2:plannedCompletionDate_Mod=eq`
 
->[!NOTE]
->
->同一过滤器可以有多个“OR”语句。 每当您有新的“OR”语句时，“OR：”之后的数字都会增加。
->
-要筛选状态为“进行中”、已分配给登录用户或计划完成日期为今天的任务，请使用以下内容：
->
-`status=INP`
->
-`status_Mod=in`
->
-`OR:1:assignedToID=$$USER.ID`
->
-`OR:1:assignedToID_Mod=in`
->
-`OR:2:plannedCompletionDate=$$TODAY`
->
-`OR:2:plannedCompletionDate_Mod=eq`
-
-1. 单击 **完成** 如果要保存更改并继续编辑报表或过滤器。
+1. 单击 **退出文本模式** 或 **完成** 以保存文本模式更改，并继续编辑报表或过滤器。
 1. 单击 **保存+关闭** 保存报告或 **保存筛选器** 将过滤器保存在列表中。
 
 

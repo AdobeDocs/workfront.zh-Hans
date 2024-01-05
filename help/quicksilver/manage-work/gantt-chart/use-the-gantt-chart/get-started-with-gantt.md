@@ -6,14 +6,16 @@ description: Adobe Workfront中的甘特图提供了任务或项目列表的时�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # 开始使用 [!UICONTROL 甘特图]
+
+<!-- Audited: 01/2024 -->
 
 Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可视表示形式。
 
@@ -35,7 +37,7 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 * 您可以配置哪些信息显示在两个任务列表中 [!UICONTROL 甘特图] 和项目列表 [!UICONTROL 甘特图].
 * 不能配置颜色或字体 [!UICONTROL 甘特图] 将显示信息。
 * 当从任务中更新信息时，它会自动反映在两个任务列表中 [!UICONTROL 甘特图] 和项目列表 [!UICONTROL 甘特图].
-* 更新模板任务中的信息时，该信息会自动反映在模板任务列表中 [!UICONTROL 甘特图].
+* 当模板任务中的信息更新时，它会自动反映在模板任务列表中 [!UICONTROL 甘特图].
 
 ## 访问 [!UICONTROL 甘特图]
 
@@ -44,9 +46,6 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 您可以查看任务列表 [!UICONTROL 甘特图] 直接从项目的任务列表或从任务报告。
 
 您可以查看项目列表 [!UICONTROL 甘特图] 在项目列表或项目报告中。
-
-* [任务列表 [!UICONTROL 甘特图]](#task-list-gantt-chart)
-* [项目列表 [!UICONTROL 甘特图]](#project-list-gantt-chart)
 
 ### 任务列表 [!UICONTROL 甘特图] {#task-list-gantt-chart}
 
@@ -81,8 +80,8 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
    * [!UICONTROL 实际日期]
    * [!UICONTROL 分配]
    * [!UICONTROL 基线]
-   * [!UICONTROL 承诺日期]
-   * [!UICONTROL % 完成]
+   * [!UICONTROL 提交日期]
+   * [!UICONTROL 完成百分比]
    * [!UICONTROL 关键路径]
    * [!UICONTROL 里程碑菱形]
    * [!UICONTROL 里程碑线]
@@ -122,7 +121,7 @@ Adobe Workfront中的甘特图提供了任务或项目列表的时间线的可�
 1. 配置要在项目中显示的信息 [!UICONTROL 甘特图] 图表，单击 [!UICONTROL **设置**] 图标，然后启用以下任一选项：
 
    * [!UICONTROL 实际日期]
-   * [!UICONTROL % 完成]
+   * [!UICONTROL 完成百分比]
    * [!UICONTROL 里程碑菱形]
    * [!UICONTROL 里程碑线]
    * [!UICONTROL 前置任务]

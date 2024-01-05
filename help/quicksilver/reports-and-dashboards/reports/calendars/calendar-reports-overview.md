@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 日历报表概述
-description: 日历报告实际上是一种动态报告，它提供了工作的可视化表示形式。
+description: 日历报告是一种动态报告，提供工作的可视化表示形式。 您可以在日历报告中显示任务、问题和项目的日期信息。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 4%
 
 ---
 
 # 日历报表概述
 
-日历报告实际上是一种动态报告，它提供了工作的可视化表示形式。 您可以在日历报表中显示以下对象的日期信息：
+<!-- Audited: 01/2024 -->
+
+日历报告实际上是一种动态报告，它提供了工作的可视化表示形式。 您可以在日程表报告中显示以下对象的日期信息：
 
 * 任务
 * 问题
 * 项目
 
-您在中访问日历报表的能力 [!DNL Adobe Workfront] 由以下各项决定 [!DNL Workfront] 管理员。 有关查看日历报表所需的访问级别的详细信息，请参阅 [授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+您在中访问日历报表的能力 [!DNL Adobe Workfront] 取决于您的访问级别。 有关查看日历报表所需访问权限的详细信息，请参阅 [授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## 创建您自己的日历
 
-[!UICONTROL Workfront] 在以下情况下，自动创建默认个人日历：
+[!DNL Workfront] 在以下情况下，自动创建默认的个人日历：
 
-* 无权访问任何其他日历的新创建用户首次访问日历报告页面\
-   或
-* 用户手动删除所有日历，并且无权访问任何其他日历
+* 您是新创建的用户，没有访问任何其他日历的权限，并且是首次访问日历报告页面
 
->[!NOTE]
->
->如果用户有权访问任何其他日历，例如系统范围的共享日历或专门与用户共享的日历，则不会创建个人日历。
+  或
 
-此外，用户可以创建日历并访问其他用户与其共享的日历。 在Workfront中，用户可以访问的日历数量没有限制。
+* 您手动删除所有日历，并且无权访问任何其他日历
 
 >[!NOTE]
 >
->您必须拥有 [!UICONTROL 编辑] 访问 [!UICONTROL 报表]， [!UICONTROL 仪表板]、和 [!UICONTROL 日历] 创建日历报表的访问级别。 联系 [!DNL Workfront] 管理员。
+>如果您有权访问任何其他日历（如系统范围的共享日历或专门与您共享的日历），则不会创建个人日历。
+
+此外，您还可以创建日历并访问其他用户与您共享的日历。 您可以访问的日历数量没有限制 [!DNL Workfront].
+
+>[!NOTE]
+>
+>您必须拥有 [!UICONTROL 编辑] 访问 [!UICONTROL 报表]， [!UICONTROL 仪表板]、和 [!UICONTROL 日历] 创建日历报表的访问级别。 联系 [!DNL Workfront] 管理员，以了解更多信息。
 
 ## 按日期对项目分组
 
