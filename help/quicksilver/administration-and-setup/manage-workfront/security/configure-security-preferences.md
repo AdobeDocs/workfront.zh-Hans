@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 4%
 
 ---
@@ -95,7 +95,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>文档请求<br></li>
         <li>文档审批</li>
         <li>日历</li>
-       </ul><p>此选项默认处于启用状态。</p> <p><b>重要</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfront中的内置访问级别</a>.</p> </td> 
+       </ul><p>此选项默认处于启用状态。</p> <p><b>重要</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">要求外部用户使用密码注册</td> 

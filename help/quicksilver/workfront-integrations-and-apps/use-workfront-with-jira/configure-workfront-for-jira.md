@@ -6,9 +6,9 @@ description: 您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 计划]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 计划]</td> 
    <td><p>新建：任何</p>
        <p>或</p>
        <p>当前： [！UICONTROL Pro]或更高版本</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td><p>新文档： [！UICONTROL Standard] </p>
        <p>或</p> 
        <p>当前： [！UICONTROL计划] </p>
@@ -54,13 +54,13 @@ ht-degree: 0%
    <td> <p>系统管理员访问权限</p> <p>重要信息：我们建议您在中创建单独的系统管理员帐户 [!DNL Jira] 和 [!DNL Workfront] 以专门用于此集成，而不使用可能附加到用户的现有集成。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关的信息 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是 [!DNL Workfront] 管理员。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 

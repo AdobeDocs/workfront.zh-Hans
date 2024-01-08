@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 访问，模型，漏斗，图表，级别，权限
 navigation-topic: access-levels
-title: Adobe Workfront中的内置访问级别
+title: 内置访问级别
 description: 当前六个内置访问级别中的每一个都针对特定类型的用户而设计，这些用户包括系统管理员、规划者、工作人员、查看者、请求者和外部用户。 通过这些访问级别，您可以控制用户在系统中可以编辑和查看的内容。 如果您需要自定义访问级别，则可以复制内置访问级别，并根据您希望它允许各种Workfront对象类型的访问量对其进行修改。
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 6%
+source-wordcount: '1685'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront中的内置访问级别
+# 内置访问级别
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ ht-degree: 6%
 >
 >您无法修改系统管理员或外部用户访问级别。
 
-
-有关创建自定义访问级别或修改内置访问级别之一的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+有关创建自定义访问级别或修改内置访问级别之一的信息，请参阅 [创建和修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ ht-degree: 6%
 * 任何负责规划、创建和管理任务、项目、项目组合和项目群的人员
 * 负责将工作（任务和问题）分配给其他用户的任何人
 * 构建报告以及批准工时表、工作项和文档的用户
-* 需要访问主菜单中所有区域的用户 ![](assets/main-menu-icon.png)
+* 需要访问主菜单中所有区域的用户 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用
 
 您可以创建Planner内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,7 +158,7 @@ ht-degree: 6%
 具有审阅者访问级别的用户：
 
 * 不能分派工作项或批准工时表
-* 可以访问主菜单中的请求和文档区域 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用。
+* 可以访问主菜单中的请求和文档区域 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 
 您可以创建Reviewer内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -321,8 +320,8 @@ ht-degree: 6%
 具有外部用户访问级别的用户：
 
 * 只能查看与其共享的文档和日历报告
-* 查看与其共享文档和日历报告的用户
-* 批准与其共享的文档
+* 可以查看与其共享文档和日历报告的用户
+* 可以批准与其共享的文档
 
 您无法修改此访问级别。
 

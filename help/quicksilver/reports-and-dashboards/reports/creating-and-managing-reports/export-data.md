@@ -6,9 +6,9 @@ description: 您可以从各种列表、报表、功能板和搜索中导出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
     <p>新增：浅色或更高</p>
     <p>或</p>
     <p>当前：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限的报告、功能板和日历以导出报告</p> <p>在列表中查看对象或更高访问权限，以导出列表</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高权限的报告、功能板和日历以导出报告</p> <p>在列表中查看对象或更高访问权限，以导出列表</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看报表或功能板的权限或更高以导出报表或功能板</p> <p>查看您在列表中查看的对象或更高权限以导出列表</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
+   <td> <p>查看报表或功能板的权限或更高以导出报表或功能板</p> <p>查看您在列表中查看的对象或更高权限以导出列表</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 

@@ -7,10 +7,10 @@ description: 在Adobe Workfront中指明何时发生批准的休息时间非常�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新增：标准（用于配置个人休息时间）</p>
         <p>或</p>
         <p>当前：工作或更高（用于配置个人休息时间）</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td>具有[！UICONTROL Edit User]访问权限的[！UICONTROL Manager] （更改其他用户的休息日日历）<br>
    <strong>注意：</strong> 如果经理编辑另一个用户的个人休息时间日程表，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 在中配置个人休息时间 [!DNL Workfront]
 

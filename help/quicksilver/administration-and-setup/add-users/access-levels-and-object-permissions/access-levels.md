@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [许可证概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Adobe Workfront中的内置访问级别](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [内置访问级别](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
 * [按许可证类型访问对象和区域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)

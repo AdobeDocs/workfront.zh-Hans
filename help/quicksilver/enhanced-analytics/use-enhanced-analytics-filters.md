@@ -6,9 +6,9 @@ description: Adobe Workfront的“增强分析”区域中的过滤器可帮助�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>
       <p>新建：任何</p>
       <p>或</p>
       <p>当前：业务或更高</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
       <p>新增：浅色或更高</p>
       <p>或</p>
@@ -49,17 +49,17 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
    </td> 
   </tr>
   <tr> 
-   <td>访问级别* </td> 
-   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“Portfolio”和“用户”的“查看”权限才能查看特定项目字段筛选器选项。</p> <p>注意：如果在“编辑访问级别”对话框的“设置其他限制”部分中选择了限制，则在应用过滤器后，您可能无法看到过滤器或“增强分析”页面上的所有信息。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td>访问级别配置</td> 
+   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“Portfolio”和“用户”的“查看”权限才能查看特定项目字段筛选器选项。</p> <p>注意：如果在 <strong>设置其他限制</strong> 访问级别对话框的部分中，应用过滤器后，您可能无法看到过滤器或增强分析页面上的所有信息。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
