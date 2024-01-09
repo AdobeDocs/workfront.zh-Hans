@@ -1,14 +1,14 @@
 ---
 title: 在Adobe大师中共享权限概述
-description: 您可以共享或删除您创建的AdobeMaestro工作区的权限。
+description: 您可以共享或删除AdobeMaestro工作区或视图的权限。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 1%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-您可以共享或删除您创建的AdobeMaestro工作区的权限。
+您可以共享或删除AdobeMaestro工作区或视图的权限。
+
+本文介绍Maestro对象的权限级别。
+
+有关如何共享工作区或视图的信息，请参阅以下文章：
+
+* [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [共享视图](/help/quicksilver/maestro/access/share-views.md)
 
 ## 可以在Adobe大师中共享的对象
 
@@ -48,6 +56,8 @@ ht-degree: 1%
 
    * 新的定价模式：标准许可证
    * 当前定价模型：工作或更高许可证
+
+  有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * 系统管理员可以管理和共享其他用户创建的工作区。
 * 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
 * 您无法批量共享工作区。
@@ -58,48 +68,95 @@ ht-degree: 1%
 
 ## 共享Maestro对象的权限
 
-下表说明了在共享Maestro工作区或视图时可以选择的权限级别：
+以下各节中的表说明了在共享Maestro工作区或视图时可以选择的权限级别，以及每个级别允许的功能。
 
+### 工作区权限
+
+|        | 管理 | 参与 | 查看 |
+|--------|--------|------------|-------|
+| 编辑 | ✓ {\f13 } |            |       |
+| 共享 | ✓ {\f13 } |            |       |
+| 删除 | ✓ {\f13 } |            |       |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+
+### 记录类型权限
+
+向工作区授予权限时，将继承记录类型权限。
+
+|        | 管理 | 参与 | 查看 |
+|--------|--------|------------|-------|
+| 创建 | ✓ {\f13 } |            |       |
+| 删除 | ✓ {\f13 } |            |       |
+| 编辑 | ✓ {\f13 } |            |       |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+
+### 记录权限
+
+向工作区授予权限时，将继承记录权限。
+
+|        | 管理 | 参与 | 查看 |
+|--------|--------|------------|-------|
+| 创建 | ✓ {\f13 } |            |       |
+| 删除 | ✓ {\f13 } | ✓ {\f13 } |       |
+| 编辑 | ✓ {\f13 } | ✓ {\f13 } |       |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+
+### 字段权限
+
+向工作区授予权限时，将继承字段权限。
+以下权限是指字段本身，而不是与每个字段关联的值。 要编辑字段值，您必须具有编辑记录的权限。
+
+|        | 管理 | 参与 | 查看 |
+|--------|--------|------------|-------|
+| 创建 | ✓ {\f13 } |            |       |
+| 删除 | ✓ {\f13 } |            |       |
+| 编辑 | ✓ {\f13 } |            |       |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+
+
+### 查看权限
+
+您必须授予单独的权限以记录视图。 向工作区授予权限不会向工作区中的记录视图授予权限。
+
+|        | 管理 | 查看 |
+|--------|--------|-------|
+| 编辑 | ✓ {\f13 } |       |
+| 删除 | ✓ {\f13 } |       |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } |
+| 应用 | ✓ {\f13 } | ✓ {\f13 } |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>新增：标准许可证</b></p> <p><b>当前：工作人员或更高许可证</b></p></strong>
-   </td>
-   <td><strong>管理权限</strong>
-   </td>
-   <td><strong>Contribute权限</strong>
-   </td>
-   <td><strong>查看权限</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>创建</strong>
-   </td>
-   <td rowspan="5" ><strong>工作区</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>删除</strong>
+   <td><strong>Create</strong>
    </td>
-   <td>✓ {\f13 }
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -107,23 +164,11 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>共享</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>编辑</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td>
    </td>
@@ -131,25 +176,11 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>视图</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
-  </tr>
-  <tr>
-   <td><strong>创建/删除</strong>
-   </td>
-   <td rowspan="3" ><strong>记录类型*</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td>
    </td>
@@ -157,11 +188,37 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>编辑</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -169,76 +226,76 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>视图</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
-  </tr>
-  <tr>
-   <td><strong>创建/删除</strong>
-   </td>
-   <td rowspan="3" ><strong>记录*</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
+   <td>
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>编辑</strong>
+   <td><strong>View</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>视图</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
   <tr>
    <tr>
-   <td><strong>创建</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>视图</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>删除</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td>
    </td>
@@ -246,23 +303,11 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>共享</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>编辑</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td>
    </td>
@@ -270,54 +315,78 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td><strong>视图</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
    <td>
    </td>
-   <td>✓ {\f13 }
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
    </td>
   </tr>
 
 <tr>
-   <td><strong>创建/删除</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>字段*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>编辑</strong>
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>✓ {\f13 }
-   </td>
-   <td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>视图</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>✓
    </td>
-   <td>✓ {\f13 }
+   <td>
    </td>
-   <td>✓ {\f13 }
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
 
@@ -325,11 +394,7 @@ ht-degree: 1%
 
 </table>
 
-*记录类型、记录和字段从工作区继承权限。
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-有关在Maestro中访问的一般信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
 
-有关共享工作区的信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).
-
-有关共享视图的信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md)
 

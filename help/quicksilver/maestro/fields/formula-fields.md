@@ -4,9 +4,9 @@ description: 在Adobe管理器中，您可以创建公式字段，这些字段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。 <!--is this still accurate??-->
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
-* 无法使用链接记录类型中的查找字段。
 * 在Maestro界面中显示的公式中，必须添加引用的字段。
+* 在公式中使用链接记录类型中的查找字段将在以后可用。
 
 ## 支持的公式
 

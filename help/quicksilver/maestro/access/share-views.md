@@ -4,9 +4,9 @@ description: 在Adobe Workfront Maestro中工作时，您可以与其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->系统管理员无法查看或共享他们自己未创建的视图。
+>系统管理员无法查看或共享他们自己未创建的视图。 他们只能查看或共享与其共享的视图。
 
 
-要与他人共享工作区，请执行以下操作：
+要与他人共享视图，请执行以下操作：
 
 {{step1-to-maestro}}
 
-1. 打开要共享的工作区，然后单击“记录类型”信息卡。
+1. 打开要共享其视图的工作区，然后单击“记录类型”信息卡。
 
    这将打开记录类型页面。
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. 在 **授予工作区访问权限至** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。
+1. 在 **授予查看权限** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ ht-degree: 1%
 
 {{step1-to-maestro}}
 
-1. 打开要共享的工作区，然后单击“记录类型”信息卡。
+1. 打开要共享其视图的工作区，然后单击“记录类型”信息卡。
 
    这将打开记录类型页面。
 
 1. 在视图下拉菜单中，将鼠标悬停在要共享的视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **共享**.
 
-1. 查找要删除的用户或组，然后单击 **移除**.
+1. 查找要删除的用户或组，然后单击 **移除** 用户或组名称右侧的“权限”下拉菜单中。
 
 1. 单击&#x200B;**保存**。
 
