@@ -8,9 +8,9 @@ description: 如果未加载校对内容，并且您只能看到空的校对查�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained
 
 ## 查看插件
 
-如果您的浏览器和 [!DNL Flash Player] 插件是最新的，并且您的网络未阻止与的连接 [!DNL Workfront Proof] 您的浏览器中可能会存在一些影响查看校样的问题。 现在，您的浏览器中有多个可用插件和扩展，其中一些插件和扩展会干扰其他插件和扩展，或者与其他插件和扩展发生冲突。
+如果您的浏览器是最新的，并且网络未阻止与的连接 [!DNL Workfront Proof]，您的浏览器中可能会存在一些影响查看校样的问题。 您的浏览器中通常有多个可用的插件和扩展，其中一些插件和扩展可能会干扰其他插件和扩展，或者与其他插件和扩展发生冲突。
 
-最佳实践是删除所有未知加载项，仅保留您使用且您信任的加载项。 每个浏览器都应为您提供用于检查/修改/删除插件和扩展的选项。 我们的 [!DNL Workfront Proof] 查看器基于 [!DNL Flash] 并且我们使用JavaScript来加载查看器，以便您特别想要查看可能会影响这些插件的插件。
+最佳实践是删除所有未知加载项，仅保留您使用且您信任的加载项。 每个浏览器都应为您提供用于检查/修改/删除插件和扩展的选项。 我们使用JavaScript加载 [!DNL Workfront Proof] 查看器，以便您特别查看可能会影响该查看器的插件。
 
-如果加载验证时存在任何特定的加载项干扰，您可以尝试检查浏览器控制台中的详细信息。
+如果加载验证时存在任何特定的加载项干扰，您可以尝试在浏览器的控制台中查看详细信息。
 
 ![浏览器控制台](assets/proofview-4.png)
 
@@ -101,8 +101,8 @@ Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained
 
 ## 检查混合内容设置
 
-与的所有连接 [!DNL Workfront Proof] 通过HTTPS。 但是，在 [!DNL Workfront Proof] 查看器我们通过HTTP加载图块，并使用令牌保护数据。 这会创建一些浏览器或安全解决方案可能阻止的混合内容（默认情况下或根据手动配置）。
+与的所有连接 [!DNL Workfront Proof] 通过HTTPS。 但是，在 [!DNL Workfront Proof] 查看器我们通过HTTP加载图块，并使用令牌保护数据。 这会创建一些浏览器或安全解决方案可能阻止的混合内容（默认情况下或通过手动配置）。
 
-如果这是验证未在您的计算机上打开的原因（您应该能够在浏览器的控制台中看到相关警报），则授权此类连接 [!DNL Workfront Proof] 或者修改您的设置以允许计算机上的被动混合内容。 您的浏览器、AV软件、网络配置等可能会阻止混合内容 — 要确定确切原因，请与您的IT团队/网络管理员联系。 他们还应该能够帮助在您的计算机上启用混合内容。
+如果这是校样未在计算机上打开的原因（您应该能够在浏览器的控制台中看到相关警报），请授权此类连接 [!DNL Workfront Proof] 或者修改您的设置以允许计算机上的被动混合内容。 您的浏览器、AV软件或网络配置可能会阻止混合内容，以确定确切原因。 您应该与IT团队/网络管理员取得联系。 他们还应该能够帮助在您的计算机上启用混合内容。
 
 
