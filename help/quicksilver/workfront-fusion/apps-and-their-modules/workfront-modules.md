@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 您可以创建与 [!DNL Workfront] 直接从 [!DNL Workfront Fusion] 模块。
 
 1. 在任何 [!DNL Workfront] 应用程序模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 盒子。
-1. 在URL中输入实例的名称。 示例: `https://<your instance>.my.workfront.com`.
+1. 在URL中输入实例的名称。 示例： `https://<your instance>.my.workfront.com`.
 1. 单击 **[!UICONTROL 下一个]**.
 1. 单击 **[!UICONTROL SAML登录]** 以创建连接并返回模块。
 
@@ -160,7 +160,7 @@ ht-degree: 3%
 
 有关更多信息，请参阅部分 [事件有效负载示例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) 在 [!DNL Workfront] 帮助文章 [事件订阅API](../../wf-api/general/event-subs-api.md).
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -450,7 +450,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -458,7 +458,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -532,7 +532,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL操作]</td> 
-   <td> <p>选择要模块执行的操作。</p> <p>根据您选择的[！UICONTROL记录类型]和[！UICONTROL操作]，您可能需要填写其他字段。 这两种设置的某些组合可能只需要记录ID，而其他设置(例如的Project <strong>[！UICONTROL记录类型]</strong> 和[！UICONTROL附加模板] <strong>[！UICONTROL操作]</strong>)需要其他信息（例如对象ID和模板ID）。</p> <p>有关各个字段的详细信息，请参见 <a href="http://developer.workfront.com/">Workfront开发人员文档</a>. </p> 
+   <td> <p>选择要模块执行的操作。</p> <p>根据您选择的[！UICONTROL记录类型]和[！UICONTROL操作]，您可能需要填写其他字段。 这两种设置的某些组合可能只需要记录ID，而其他设置(例如的Project <strong>[！UICONTROL记录类型]</strong> 和[！UICONTROL附加模板] <strong>[！UICONTROL操作]</strong>)需要其他信息（例如对象ID和模板ID）。</p> <p>有关各个字段的详细信息，请参见 <a href="http://developer.workfront.com/">Workfront开发人员文档</a>. <p><strong>注意</strong>：开发人员文档网站仅包含通过API版本14访问的信息，但仍包含适用于API调用的宝贵信息。 </p> 
     <ol> 
      <li value="1"> <p>从左侧导航栏中选择 [!DNL Workfront] 开发人员文档页面。 以下类型有自己的页面：</p> 
       <ul> 
@@ -568,7 +568,7 @@ ht-degree: 3%
       </ul> <p>对于所有其他记录类型，选择 <b>[！UICONTROL其他对象和端点]</b>，并在按字母顺序排序的页面上找到记录类型。</p> </li> 
      <li value="2"> <p>在相应记录类型的页面上，搜索操作（Ctrl-F或Cmd-F）。</p> </li> 
      <li value="3"> <p>查看所选操作下可用字段的描述。</p> </li> 
-    </ol> <p>注释:  <p>通过创建验证时 [!DNL Workfront] [！UICONTROL杂项操作]模块，最佳实践是在没有任何高级选项的情况下创建验证，然后使用更新验证 [!DNL Workfront Proof] SOAP API。</p> <p>有关使用创建验证的更多信息 [!DNL Workfront] API（此模块使用它），请参见 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">在通过创建验证时添加高级验证选项 [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>注意：  <p>通过创建验证时 [!DNL Workfront] [！UICONTROL杂项操作]模块，最佳实践是在没有任何高级选项的情况下创建验证，然后使用更新验证 [!DNL Workfront Proof] SOAP API。</p> <p>有关使用创建验证的更多信息 [!DNL Workfront] API（此模块使用它），请参见 <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">在通过创建验证时添加高级验证选项 [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL ID]</td> 
@@ -577,7 +577,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] object types available for each [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
+查看 [!DNL Workfront] 可在其中使用此模块的对象类型 [[!DNL Workfront] 对象类型可用于每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -839,70 +839,70 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>分配</td> 
+   <td>任务</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>基线</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 开票记录 </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>记帐费率</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>仪表板</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文档</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文件文件夹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文档请求</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文档版本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>费用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>费用类型</td> 
@@ -911,112 +911,112 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>组</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>群组</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>小时</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>小时数类型</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>问题</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>迭代</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>工作角色</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日志条目</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路径</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>注释</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>注释标签</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>项目组合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目群</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目用户</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>校对审批</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>保留时间* </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>报告</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>风险</td> 
@@ -1033,44 +1033,44 @@ ht-degree: 3%
   <tr> 
    <td>步骤审批者</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任务</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>团队</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>模板</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>模板任务</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>时间表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
@@ -1113,358 +1113,358 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>批准流程</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>分配</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>任务</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>开票记录</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>记帐费率</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文档</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文件文件夹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文档版本</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>费用</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>费用类型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>组</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>群组</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>小时</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>小时数类型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>问题</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>迭代</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>工作角色</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日志条目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路径</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>注释</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>注释标签</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>项目组合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目群</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目用户</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留时间* </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>风险</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>风险类型</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步骤审批者</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任务</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>团队</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>模板</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>模板任务</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>时间表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1492,182 +1492,182 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>批准流程</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>分配</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>任务</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>开票记录</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>记帐费率</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文档</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文件文件夹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>文档版本</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>费用</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>费用类型</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>组</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>群组</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>小时</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>小时数类型</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>问题</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>迭代</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>工作角色</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日志条目</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路径</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>注释</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>注释标签</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>项目组合</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目群</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>项目用户</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留时间* </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>风险</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>风险类型</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步骤审批者</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任务</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>团队</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>模板</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>模板任务</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>时间表</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>用户委托</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
  </tbody> 
