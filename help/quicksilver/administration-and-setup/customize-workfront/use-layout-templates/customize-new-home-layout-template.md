@@ -7,9 +7,9 @@ description: 您可以使用布局模板配置用户在打开新主页时看到�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>如果使用布局模板为特定构件设置默认过滤器或分组，则由于现有用户偏好设置，该过滤器或分组可能不会立即生效。 要立即应用新过滤器或分组，您或用户可能需要通过在其URL的末尾附加“/resetUser”来重置其用户偏好设置。
 
 1. 继续自定义布局模板。
 
