@@ -2,20 +2,22 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 创建和管理职位角色
+title: 创建和管理工作角色
 description: 作为 [!DNL Adobe Workfront] 管理员或对工作角色具有管理访问权限的用户，您可以创建可分配给用户的工作角色，并删除与您的组织无关的默认工作角色。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
-# 创建和管理职位角色
+# 创建和管理工作角色
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,7 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td>[！UICONTROL计划]</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -48,7 +52,9 @@ ht-degree: 0%
 
 ## 创建工作角色
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe] Workfront，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+要创建工作角色，请执行以下操作：
+
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;。 **[!UICONTROL 职位角色].**
 1. 单击 **[!UICONTROL 新建工作角色].**

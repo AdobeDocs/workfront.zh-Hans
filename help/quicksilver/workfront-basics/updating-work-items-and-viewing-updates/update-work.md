@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
 workflow-type: tm+mt
 source-wordcount: '4189'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 更新工作
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
@@ -112,7 +114,6 @@ After the monthly releases to Production, the same features are also available i
 有关在“展示板”区域中对信息卡进行批注的信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 访问要求
-
 
 您必须具有以下权限才能执行本文中的步骤：
 

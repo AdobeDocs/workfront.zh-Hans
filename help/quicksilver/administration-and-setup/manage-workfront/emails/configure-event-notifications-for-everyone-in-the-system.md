@@ -1,18 +1,20 @@
 ---
 title: 为系统中的每个人配置事件通知
 description: 当发生特定事件时，事件通知会触发向用户发送电子邮件。 作为Adobe Workfront管理员或具有Planner访问级别的用户，您可以为系统中的所有用户配置事件通知。 事件通知的配置包括激活或停用该通知。
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # 为系统中的每个人配置事件通知
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -44,7 +46,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td> <p>新增：标准</p>
+ <p>或</p> 
+<p>当前：计划</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -57,13 +62,13 @@ ht-degree: 0%
 
 ## 为所有用户配置事件通知
 
-您必须先在Workfront的“设置”区域中启用通知，用户才能在其配置文件中启用或禁用通知。
+您必须先在Workfront的“设置”区域中启用通知，然后才能在其个人配置文件中启用或禁用通知。
 
 >[!TIP]
 >
 >您无法从设置区域激活Workfront目标的通知。 用户只能在其用户档案中激活这些通知。 拥有计划许可证的用户可以为其他用户激活它们。 有关为用户启用Workfront目标通知的信息，请参阅 [通知：目标](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **电子邮件** > **通知**.
 
@@ -71,7 +76,7 @@ ht-degree: 0%
 
 
 1. 确保 **事件通知** 选项卡处于打开状态。
-1. 单击事件名称左侧的开关以将其打开或关闭。
+1. 将开关切换至事件名称的左侧，以打开或关闭该开关。
 
    要查看事件的默认通知状态，请参阅 [事件通知](../../../workfront-basics/using-notifications/event-notifications.md).
 

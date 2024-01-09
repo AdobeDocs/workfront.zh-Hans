@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 1%
          * [疑难解答 — Mac上的验证查看器中的界面字体损坏](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [了解缓存和Cookie如何影响Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度问题](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [有关查看校样 — Flash共享对象的问题解释](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [疑难解答 — Workfront校对查看器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof集成 {#wf-proof-integrations}
       * [Workfront Proof集成](workfront-proof/wp-integrations/wp-integrations.md)

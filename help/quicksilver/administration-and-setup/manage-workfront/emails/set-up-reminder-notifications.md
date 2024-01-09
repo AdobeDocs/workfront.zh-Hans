@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 1%
+source-wordcount: '1094'
+ht-degree: 2%
 
 ---
 
 # 设置提醒通知
 
-提醒通知根据指定条件向收件人发送电子邮件。 作为Adobe Workfront管理员或具有提醒通知的规划者访问级别和管理访问权限的用户，您可以手动将提醒通知与您的工作项相关联，如项目、任务、问题和时间表。
+<!-- Audited: 1/2024 -->
+
+提醒通知根据指定条件向收件人发送电子邮件。 您可以手动将提醒通知与工作项关联，如项目、任务、问题和时间表。
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ An example of how this can be used would be helpful here and/or in the section <
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td> <p>新增：标准 </p>
+ <p>或</p> 
+<p>当前：计划</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -52,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 自定义提醒电子邮件
 
-您可以使用包含自定义电子邮件主题和正文的自定义电子邮件来自定义提醒通知。 电子邮件正文可包含自定义HTML。
+您可以自定义提醒通知电子邮件中的主题、正文和HTML。
 
 或者，您也可以使用提醒通知随附的默认电子邮件。 默认电子邮件使用提醒通知名称作为电子邮件主题，使用电子邮件正文中的对象名称，包括触发通知的事件。
 
@@ -62,7 +67,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 创建提醒通知
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **电子邮件** > **通知** > **提醒通知**.
 
@@ -86,7 +91,7 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">资格期限</td> 
-      <td> <p>在中指定日期之前或之后的小时数、工作日数、天数（日历日）、周数或月数 <strong>计时</strong> 字段。</p> <p><b>注释</b>:  
+      <td> <p>在中指定日期之前或之后的小时数、工作日数、天数（日历日）、周数或月数 <strong>计时</strong> 字段。</p> <p><b>注意</b>：  
         <ul> 
          <li> <p>满足所有条件后，在指定日期的24小时后开始提醒通知。</p> </li> 
          <li> <p>项目、任务和问题的提醒通知在山地时间的每晚午夜触发。 当天起所有符合提醒通知条件的对象都会在该时间过后不久触发通知给指定用户。</p> </li> 
@@ -144,10 +149,12 @@ An example of how this can be used would be helpful here and/or in the section <
 
 手动触发提醒通知：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **系统** > **诊断** 在Workfront的左下角。
 
 1. 单击 **发送提醒通知** 然后等待屏幕顶部确认它们已发送。
 
    在提醒通知中指定的用户会收到一封电子邮件。
+
+![](assets/reminder-test.png)

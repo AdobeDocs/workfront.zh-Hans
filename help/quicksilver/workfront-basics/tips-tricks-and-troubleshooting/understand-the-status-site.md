@@ -4,14 +4,16 @@ description: 您可以查看 [!DNL Workfront] 平台，包括事件、定期维�
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # 此 [!DNL Adobe Workfront] 状态站点
+
+<!-- Audited: 1/2024 -->
 
 ## Status网站概述
 
@@ -28,11 +30,7 @@ ht-degree: 1%
 
 您可以在 [!DNL Adobe] 状态站点。
 
-1. 转到 [[!DNL https://one.workfront.com]](https://one.workfront.com/)，然后单击 **[!UICONTROL 状态]** 在 **[!UICONTROL 支持]** 区域（位于页面的右下角）。
-
-   或
-
-   类型 [status.adobe.com](https://status.adobe.com/) ，以访问状态网站。
+1. 类型 [status.adobe.com](https://status.adobe.com/) ，以访问状态网站。
 
 1. 选择 **[!UICONTROL Experience Cloud]**.
 1. 向下滚动并选择 **[!UICONTROL Adobe Workfront]** 从解决方案列表中。
@@ -43,6 +41,7 @@ ht-degree: 1%
 
 1. 转到 [status.adobe.com](https://status.adobe.com/).
 1. 在状态栏中，选择 **[!UICONTROL 管理订阅]**.
+   ![](assets/manage-subs.png)
 1. 如果您现有帐户，请登录到该帐户；否则，请创建一个新帐户。
 1. 单击 **[!UICONTROL 创建订阅]** 按钮。
 1. 选择 **[!UICONTROL Adobe Workfront]** 在 **[!UICONTROL Experience Cloud]** 标题，然后单击 **[!UICONTROL 继续]**.
@@ -50,10 +49,6 @@ ht-degree: 1%
 1. 单击 **[!UICONTROL 完成]** 以确认您的订阅。
 
 ## 了解已命名的漏洞
-
-* [什么是命名的漏洞？](#what-is-a-named-vulnerability)
-* [如何查看由标识的命名漏洞 [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [为什么这很重要？](#why-is-this-important)
 
 ### 什么是命名的漏洞？ {#what-is-a-named-vulnerability}
 

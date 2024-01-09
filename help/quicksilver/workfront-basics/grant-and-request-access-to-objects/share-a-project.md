@@ -2,82 +2,84 @@
 title: 在Adobe Workfront中共享项目
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: 在分配访问级别时，Adobe Workfront管理员可以授予您查看或编辑项目的权限。 有关更多信息，请参阅授予对项目的访问权限。
+description: 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关更多信息，请参阅授予对项目的访问权限。
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 3%
+source-wordcount: '986'
+ht-degree: 2%
 
 ---
 
 # 在Adobe Workfront中共享项目
 
-在分配访问级别时，Adobe Workfront管理员可以授予您查看或编辑项目的权限。 有关更多信息，请参阅 [授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+<!-- Audited: 1/2024 -->
+
+在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关更多信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 除了授予用户的访问级别之外，您还可以授予他们查看、贡献或管理您有权共享的特定项目的权限。
 
-权限特定于Workfront中的一个项目，并定义可以对该项目执行哪些操作。
+权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
-## 关于共享项目的注意事项
+## 有关共享项目的注意事项
 
-除了以下注意事项外，另请参阅 [对象共享权限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+除了下面的注意事项外，另请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* 默认情况下，项目的创建者具有管理项目的权限，并且还被指定为项目所有者。 如果将项目分配给其他所有者，则该用户也有权管理项目。 当项目创建者（或所有者）与其他用户共享项目时，他们会向这些用户授予特定权限，以控制他们在项目中工作时可以执行的操作。
+* 默认情况下，项目的创建者具有管理项目的权限，并被指定为项目所有者。 如果项目分配给其他所有者，则该用户也具有管理项目的权限。 当项目创建者（或所有者）与其他用户共享项目时，他们将特定权限授予这些用户，以控制他们在项目上工作时可以执行的操作。
 
-   但是，如果项目责任人没有计划员许可证，则他们无权完全管理项目。 只有具有计划许可证的用户才有权管理项目。 有关更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  但是，如果项目所有者没有Planner许可证，他们将没有管理项目的完全访问权限。 只有拥有计划许可证的用户才有权管理项目。 有关更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-* 您可以单独共享项目，也可以一次共享其中多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的更多信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* 您可以为项目授予以下权限： 
+* 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的更多信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* 您可以向项目授予以下权限：
 
    * 查看
    * 管理
    * 参与
 
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
-* 在共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
+* 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-   有关根据用户对项目的权限管理对项目任务和问题的访问权限的信息，请参阅 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 章节 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
+  有关根据用户对项目的权限管理对项目上任务和问题的访问权限的信息，请参阅 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 部分内容 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Workfront管理员可以指定文档是否应继承用户访问级别中较高对象的权限。 有关限制文档继承权限的更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档的继承权限的详细信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* 您可以从项目中删除继承的权限，以便子对象不会继承它们。 有关从对象中删除继承权限的更多信息，请参阅  [从对象删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 您可以从项目中删除继承的权限，以便子对象不会继承它们。 有关从对象中删除继承权限的详细信息，请参阅 [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## 共享项目的方法 {#ways-to-share-a-project}
 
 您可以通过以下方式共享项目：
 
-* 通过执行以下操作之一手动操作：
+* 通过执行以下操作之一来手动执行：
 
-   * 将用户添加到项目团队。 在将用户添加到项目团队时，他们会自动获取项目的查看权限。\
-      有关将用户添加到项目团队的更多信息，请参阅 [项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * 使用 **共享** 选项。
+   * 正在将用户添加到项目团队。 将用户添加到项目团队时，他们将自动获得项目的“查看”权限。\
+     有关将用户添加到项目团队的更多信息，请参阅中的“将用户添加到项目团队”部分 [项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * 使用时单独或批量共享项目 **共享** 选项。
 
-      共享项目与在Adobe Workfront中共享所有其他对象类似。
+     共享项目与共享Adobe Workfront中的所有其他对象类似。
 
-      有关在Workfront中共享对象的信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     有关在Workfront中共享对象的信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* 通过执行以下操作之一自动：
+* 通过执行以下操作之一，自动执行：
 
-   * 将项目放入 **Portfolio** 或 **项目** 已与他人共享。 用户对项目拥有的权限与对项目组合或项目群拥有的权限相同。\
-      有关将项目添加到 **Portfolio**，请参阅 [将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-      有关将项目添加到 **项目**，请参阅 [将项目添加到项目群](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * 将项目放入 **Portfolio** 或 **项目** 已与其他人共享。 用户将获得与项目组合或项目群相同的项目权限。\
+     有关将项目添加到的信息 **Portfolio**，请参见 [将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     有关将项目添加到的信息 **项目**，请参见 [将项目添加到项目群](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-      有关查看对象的继承权限的信息，请参阅 [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     有关查看对象的继承权限的信息，请参见 [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * 在用于创建项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅 [共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅 [共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * 定义项目访问模板。
 
-      要定义项目访问模板，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     要定义项目访问模板，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-      >[!TIP]
-      >
-      >附加或保存模板时，可以清除“模板项目共享”规则。
+     >[!TIP]
+     >
+     >附加或保存模板时，您可以清除模板项目共享规则。
 
-   * 编辑项目并定义 **当某人有权访问此项目时** 设置。 有关更多信息，请参阅 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
+   * 编辑项目并定义 **当授予某人此项目的访问权限时** 设置。 有关更多信息，请参阅 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -102,10 +104,10 @@ ht-degree: 3%
 
 ## 不同许可证类型的限制
 
-* 具有Worker许可证的用户无权管理项目。 对于Worker，最高的共享权限是Contribute。
-* 具有请求许可证的用户可以查看项目信息，但他们对项目的访问权限有限。
-* 如果审批流程中还包含具有查看或Contribute权限的用户，则更改项目状态会出现异常。 他们可以批准项目，该项目会更改项目的状态，但状态是要批准或拒绝的预定义状态。
-* 要能够复制项目，用户还必须有权在其访问级别中创建项目。
+* 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
+* 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
+* 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
+* 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -131,7 +133,7 @@ The
 
 ## 项目权限选项
 
-下表列出了用户在共享项目时可授予的权限。 有关用户根据其许可证获得的访问权限的更多信息，请参阅 [授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+下表列出了用户在共享项目时可以授予的权限。 有关用户根据其许可证获得的访问权限的更多信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -142,210 +144,210 @@ The
   <tr> 
    <th> <p><strong>操作</strong> </p> </th> 
    <th> <p><strong>管理</strong> </p> </th> 
-   <th> <p><strong>参与</strong> </p> </th> 
-   <th> <p><strong>查看</strong> </p> </th> 
+   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>视图</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>添加自定义表单</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>更新自定义字段</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>添加批准流程</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>添加审批流程</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>批准项目</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>批准小时数</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓ </p> </td> 
+   <td> <p>批准小时</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 } </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>创建项目</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加文档</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加问题</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加任务</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>复制项目</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>删除项目</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>修改计划日期</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>共享项目</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>在系统范围内共享</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>查看项目</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>更新/注释</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>更新/评论</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>更改状态</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>记录小时数</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑分配</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理基线</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>管理风险*</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>管理财务状况*</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>管理财务*</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加/编辑费用*</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>查看财务状况*</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>查看财务*</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>附加模板</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>另存为模板</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>添加/编辑业务案例</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑项目详细信息</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>编辑人员配置</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>编辑员工</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>导出至 MS 项目</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
   </tr> 
   <tr> 
    <td> <p>重新计算财务/时间表*</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>设置队列属性</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>在列表中批量编辑项目</p> </td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;无权访问财务数据的用户无法管理项目的风险和财务，即使他们有权编辑项目。 有关访问金融数据的信息，请参阅 [授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;无权访问财务数据的用户无法管理项目的风险和财务，即使他们拥有项目的编辑权限也是如此。 有关访问财务数据的信息，请参阅 [授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
