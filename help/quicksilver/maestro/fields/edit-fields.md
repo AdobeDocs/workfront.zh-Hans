@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ recommendations: noDisplay, noCatalog
 
 ## 有关编辑字段信息的注意事项
 
-* 您可以编辑您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions-->
+* 您可以编辑您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * 您可以在记录类型表中编辑字段。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
@@ -94,7 +94,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/grant-access.md">授予对Adobe大师的访问权限</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -141,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

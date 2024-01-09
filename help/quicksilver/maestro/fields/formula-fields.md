@@ -4,16 +4,19 @@ description: 在Adobe管理器中，您可以创建公式字段，这些字段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
+
+# 公式字段概述
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# 公式字段概述
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -81,7 +84,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/grant-access.md">授予对Adobe大师的访问权限</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。 <!--is this still accurate??-->
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
+* 无法使用链接记录类型中的查找字段。
+* 在Maestro界面中显示的公式中，必须添加引用的字段。
+
+## 支持的公式
+
+我们支持Workfront计算字段中的所有公式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+此外，我们支持Maestro公式字段的以下表达式：
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>表达式</th> 
+   <th>说明和示例</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>按分隔符返回连接字符串。</p> <p>表达式的格式如下所示：
 
--->
+    ARRAYJOIN（分隔符，数组）
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>数组唯一</strong> </td> 
+   <td> <p>返回具有唯一值的数组。</p> <p>表达式的格式如下所示：
+
+    ARRAYUNIQUE(array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>将日期和时间的时区设置为特定时区。</p> <p>表达式的格式如下所示：
+
+    SETTIMEZONE（日期，&#39;美洲/洛杉矶&#39;）
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>返回一年中的周数。（可选）您可以指定星期的开始日期（使用1表示星期日，使用2表示星期一）。 如果忽略，默认情况下，周从星期日开始。</p> <p>表达式的格式如下所示：
+
+    WEEKOFYEAR（日期，2）
+    或
+    WEEKOFYEAR（日期）
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

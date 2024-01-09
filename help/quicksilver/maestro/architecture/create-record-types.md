@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 记录类型可以是以下任一类型：
 
 * **操作记录类型**
-* **分类标准**
+* **分类**
 
 有关Maestro记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -76,7 +76,7 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/grant-access.md">授予对Adobe大师的访问权限</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -123,7 +123,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -152,7 +152,7 @@ After permssions - replace the table with:
 
 * 通过执行以下操作之一，可在工作区中创建记录类型：
 
-   * 自动:
+   * 自动：
       * 使用模板创建工作区时。
 
         有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
@@ -160,9 +160,9 @@ After permssions - replace the table with:
       * 从另一个应用程序创建与对象类型的连接时，向记录类型添加字段时。 这会在Maestro中创建只读记录类型，该记录类型连接到原始应用程序中的对象类型。
 
      有关连接对象类型与Maestro记录的信息，请参见 [连接记录](../records/connect-records.md).
-   * 手动:
+   * 手动：
 
-      * 从头开始.
+      * 从头开始。
 
 ## 使用工作区模板创建记录类型
 
@@ -316,6 +316,6 @@ After permssions - replace the table with:
    * 项目组合
    * 项目群
    * 公司
-   * 组
+   * 群组
 
 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).

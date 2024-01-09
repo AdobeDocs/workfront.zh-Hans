@@ -1,26 +1,24 @@
 ---
 title: 在Adobe大师中共享权限概述
-description: 您可以共享或删除您创建的AdobeMaestro工作区的权限。 只有Workfront管理员才能创建和共享工作区。
+description: 您可以共享或删除您创建的AdobeMaestro工作区的权限。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 2%
+source-wordcount: '400'
+ht-degree: 1%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
-<!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+<!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!-- *********add to TOC****************-->
 
 # 在Adobe大师中共享权限概述
-
-您可以共享或删除您创建的AdobeMaestro工作区的权限。 只有Workfront管理员才能创建和共享工作区。
 
 >[!IMPORTANT]
 >
@@ -32,92 +30,306 @@ ht-degree: 2%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
+您可以共享或删除您创建的AdobeMaestro工作区的权限。
+
 ## 可以在Adobe大师中共享的对象
 
 您可以在Maestro中共享以下对象：
 
 * Workspace
 
-  共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
+  共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。 视图不共享。
+
+* 视图
 
 ## 关于在Maestro中共享对象的注意事项
 
-* 只有Workfront管理员可以共享工作区。
-* 所有Workfront管理员都可以访问和共享其他用户创建的工作区。
+* 您必须具有以下许可证才能在Maestro中创建工作区：
+
+   * 新的定价模式：标准许可证
+   * 当前定价模型：工作或更高许可证
+* 系统管理员可以管理和共享其他用户创建的工作区。
+* 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
 * 您无法批量共享工作区。
 * 您可以与以下实体共享工作区：
    * 用户
-   * 组
+   * 群组
+* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。
 
 ## 共享Maestro对象的权限
 
-下表说明了在共享Maestro工作区时可以选择的权限级别：
+下表说明了在共享Maestro工作区或视图时可以选择的权限级别：
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
- <tr> 
-   <td role="rowheader"><p><b>权限级别</b></p></td> 
-   <td> <p><b>您可以执行的操作</b></p> 
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>查看</p></td> 
-   <td> 
-    <ul> 
-     <li>查看工作区</li> 
-     <li>查看工作区中的所有记录类型</li> 
-     <li>查看记录类型中的所有记录</li> 
-     <li>查看记录类型中的所有字段</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>参与</p></td> 
-   <td>  
-    <ul> 
-     <li>查看权限包含的所有操作</li> 
-     <li>添加记录</li>
-     <li>创建记录</li> 
-     <li>删除记录</li>  
-     <li>编辑记录</li>
-     <li>编辑字段设置</li>
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>管理</p></td> 
-   <td> 
-    <ul> 
-     <li>“查看”和“贡献”权限包含的所有操作</li> 
-     <li>编辑记录类型</li> 
-     <li>创建记录类型</li> 
-     <li>删除记录类型</li> 
-     <li>添加字段</li> 
-     <li>删除字段</li> 
-     <li>在记录类型之间添加新连接</li> 
-     <li>与用户和组共享工作区</li> 
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Workfront管理员</p></td> 
-   <td> <p>这不是Maestro权限。</p>
-   <p> 所有Workfront管理员都可以执行以下操作： </p>
-   <ul><li>创建工作区</li>
-    <li> 管理现有工作区，即使他们自己尚未创建这些工作区。 </li> 
-    <li>管理工作区中的所有信息（记录类型、记录、字段）
-    </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+
+
+</td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td><p><b>新增：标准许可证</b></p> <p><b>当前：工作人员或更高许可证</b></p></strong>
+   </td>
+   <td><strong>管理权限</strong>
+   </td>
+   <td><strong>Contribute权限</strong>
+   </td>
+   <td><strong>查看权限</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>创建</strong>
+   </td>
+   <td rowspan="5" ><strong>工作区</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>删除</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>共享</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>编辑</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+  </tr>
+  <tr>
+   <td><strong>创建/删除</strong>
+   </td>
+   <td rowspan="3" ><strong>记录类型*</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>编辑</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+  </tr>
+  <tr>
+   <td><strong>创建/删除</strong>
+   </td>
+   <td rowspan="3" ><strong>记录*</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>编辑</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+  </tr>
+  <tr>
+   <tr>
+   <td><strong>创建</strong>
+   </td>
+   <td rowspan="5" ><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>删除</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>共享</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>编辑</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+  </tr>
+
+<tr>
+   <td><strong>创建/删除</strong>
+   </td>
+   <td rowspan="3" ><strong>字段*</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>编辑</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>视图</strong>
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+   <td>✓ {\f13 }
+   </td>
+  </tr>
+
+
+
 </table>
 
-<!-- the following sections are hidden in the links below - ensure they are visible-->
+*记录类型、记录和字段从工作区继承权限。
 
-## 共享工作区
+有关在Maestro中访问的一般信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
 
-有关共享Maestro工作区的信息，请参阅 [授予对Adobe大师的访问权限](../access/grant-access.md).
+有关共享工作区的信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).
 
-## 删除对工作区的权限
+有关共享视图的信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md)
 
-有关共享Maestro工作区的信息，请参阅 [授予对Adobe大师的访问权限](../access/grant-access.md).
-
-<!--This is currently not possible: ## Request permissions to objects -->

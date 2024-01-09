@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ recommendations: noDisplay, noCatalog
 ## 有关删除Maestro字段的注意事项：
 
 * 只能删除记录类型表格视图中的字段。
-* 您可以删除您创建的字段或由其他用户或系统创建的字段。 <!--this will change with access levels/ permissions-->
+* 您可以删除您创建的字段或由其他用户或系统创建的字段。 <!--this will change to: take this out with permissions - it's in the table! -->
 * 您无法删除记录的主字段。
 * 存储在字段中的任何信息都将被删除并且无法恢复。
 * 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。
@@ -91,7 +91,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/grant-access.md">授予对Adobe大师的访问权限</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -138,7 +138,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

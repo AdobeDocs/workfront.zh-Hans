@@ -6,9 +6,9 @@ description: 报表交付概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 将特殊视图应用于报表时，特殊视图将显示在Workfront中报表的详细信息选项卡中。
 
-当您计划具有特殊视图的报表的提交时，默认的“详细信息”选项卡会显示在已发送电子邮件的附件中，而不是特殊视图中。
+当您计划具有特殊视图的报表的投放时，详细信息选项卡会在已发送电子邮件的附件中投放，而不是在特殊视图中投放。
 
 以下被视为特殊观点：
 
