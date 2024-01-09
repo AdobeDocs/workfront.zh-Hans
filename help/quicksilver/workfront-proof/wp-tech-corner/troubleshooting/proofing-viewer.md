@@ -4,18 +4,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: 故障排除 —  [!DNL Workfront Proof] 校对查看器
-description: 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。 尝试以下可能的解决方案。
+description: 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
 
 # 故障排除 —  [!DNL Workfront Proof] 校对查看器
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。 尝试以下可能的解决方案。
 
-## 确保您的浏览器和 [!DNL Flash Player] 版本为最新版本
+## 确保您的浏览器 <!--and [!DNL Flash Player]--> 版本为最新
 
 所有开发人员都在不断开发应用程序，并且会定期发布产品的新增功能和修复。 这是为了改进用户体验并保持安全级别，因此最佳实践是仅使用最新版本。 这还有助于避免应用程序之间的冲突。
 
@@ -41,40 +43,42 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 ### 浏览器版本
 
-现在，大多数浏览器会自动更新，但是如果您遇到任何问题，则值得检查您使用的版本，并在需要时执行更新。
+通常，大多数浏览器会自动更新，但是如果您遇到任何问题，则值得检查您使用的版本并在需要时执行更新。
 
-在浏览器中，转到 [!UICONTROL 菜单] 并找到 [!UICONTROL 关于] 选项(在某些情况下，这可能在以下位置可见： [!UICONTROL 帮助] 菜单)。 在 [!UICONTROL 关于] 弹出窗口会显示有关当前浏览器版本的信息，以及更新/检查更新的选项。
+在浏览器中，转到 [!UICONTROL 菜单] 并找到 [!UICONTROL 关于] 选项(在某些情况下，这可能在 [!UICONTROL 帮助] 菜单)。 在 [!UICONTROL 关于] 弹出窗口中，您可以找到有关当前浏览器版本的信息以及更新/检查更新的选项。
 
-请在Chrome中查看：
+例如，在Chrome中：
 
-![ProofView_3.png](assets/proofview-3-350x206.png)
+![Chrome浏览器版本](assets/proofview-3.png)
 
-一旦您拥有 [!DNL Flash Player] 安装的插件和浏览器版本尝试重新打开您的验证，并查看问题是否已解决。
+安装最新浏览器版本后，尝试重新打开您的校样并查看问题是否已解决。
 
-## 确保您的本地 [!DNL Flash] 存储可用
+<!--
+## Ensure Your Local [!DNL Flash] Storage is Available
 
-我们的 [!DNL Workfront Proof] 查看器基于Flash，我们存储了一些有关校样的数据(即注释、校样磁贴、 [!DNL Workfront Proof] 查看器设置) [!DNL Flash Player]. 如果 [!DNL Workfront Proof] 查看器将打开，但其中没有内容需要确保Flash存储在您的计算机上可用并且 [!DNL Workfront Proof] 允许使用它。
+Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
-如果分配了某些存储，但您使用的验证较大，且包含多个页面，则注释会尝试增加 [!DNL Flash] 存储并重新加载您的校对。
+If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-请查看我们的 [查看校样时出现问题 —  [!DNL Flash] 已说明共享对象](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) 以了解详细说明。
+Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
+-->
 
 ## 确定问题所在
 
 * 验证是否在其他浏览器中打开？
-* 如果您每天使用一个浏览器，并且在查看验证时遇到问题，请尝试在计算机上的其他浏览器中打开相同的验证。 为此，只需复制主浏览器URL栏中的验证链接，并将其粘贴到其他浏览器中即可。 如果证明打开正常，请检查您的主浏览器配置、插件和扩展，因为这些可能会干扰。
-* 我们没有任何首选浏览器，但是如果您当前浏览器出现任何性能问题，我们建议您切换到其他浏览器。
+* 如果您每天使用一个浏览器，并且无法在其中查看验证，请尝试在计算机上的其他浏览器中打开相同的验证。 要实现此目的，只需复制主浏览器URL栏中的验证链接，并将其粘贴到其他浏览器中即可。 如果验证在此处打开，请检查您的主浏览器配置、插件和扩展，因为这些可能会干扰。
+* 我们没有任何首选浏览器，但如果您当前浏览器出现任何性能问题，我们建议您切换到其他浏览器。
 * 验证是否会在您所在位置的其他计算机上打开？
-如果您的校对未在计算机上的任何浏览器中打开，请尝试在您所在位置和/或您所在位置之外的其他计算机上打开它。 这将允许您确定问题是否由特定计算机引起，或者是否由本地网络中的某个设备引起。
-如果您的安全级别更高，则您的连接将与 [!DNL Workfront Proof] 可能被以下内容阻止：
+如果您的校对未在计算机上的任何浏览器中打开，请尝试在您所在位置和/或您所在位置之外的其他计算机上打开它。 这将允许您确定特定计算机上是否有问题，或者问题是否位于本地网络中。
+如果您的安全级别更高，则您与 [!DNL Workfront Proof] 可能被以下内容阻止：
 
    * 您的本地AV软件
    * 您的网络安全解决方案
    * DNS、防火墙或代理配置
-   * 这些设置超出了我们的控制范围。 有多种安全解决方案可供使用，我们无法分辨哪些解决方案在您的网络中实施，哪些解决方案可能会阻止到您的连接 [!DNL Workfront Proof]. 也不能 [!DNL Workfront Proof] 以决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您与IT团队联系，以便他们检查网络设置并授权或添加 [!DNL Workfront Proof] 到允许列表（如果需要）。
+   * 这些设置超出了我们的控制范围。 有多种安全解决方案可供使用，我们无法分辨哪些解决方案在您的网络中实施，哪些解决方案可能会阻止到您的连接 [!DNL Workfront Proof]. 也不能 [!DNL Workfront Proof] 以决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您联系IT团队，以便他们检查网络设置并授权或添加 [!DNL Workfront Proof] 到允许列表（如果需要）。
 
 * 是否与以下对象连接 [!DNL Workfront Proof] 是否允许进入您的网络？
-在验证查看器中，我们加载拼贴 — 页面的片段。 如果此内容在您的结尾未正确加载，则可能是一些连接 [!DNL Workfront Proof] 在您的网络中被阻止。 您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。 您的IT团队应该能够帮助验证这一点。
+在验证查看器中，我们加载拼贴 — 页面的片段。 如果此内容在您的终端未正确加载，则可能是由于某些连接 [!DNL Workfront Proof] 在您的网络中被阻止。 您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。 您的IT团队应该能够帮助验证这一点。
 
 ## 查看插件
 
@@ -84,7 +88,7 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 如果加载验证时存在任何特定的加载项干扰，您可以尝试检查浏览器控制台中的详细信息。
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![浏览器控制台](assets/proofview-4.png)
 
 在大多数较新的浏览器中，提供了一些其他开发人员工具，可用于进行更高级的故障排除。
 
@@ -94,7 +98,6 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 * 检查控制台中是否有任何警报或消息。 这些详细信息有助于确定问题的根本原因。
 * 让您的IT团队分析结果。 他们应该能够提出建议并帮助解决本地问题。
 * 将结果分享给我们的支持团队。 我们很乐意帮忙。
-
 
 ## 检查混合内容设置
 
