@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '3099'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ ht-degree: 0%
 要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 连接 [!DNL Workfront Proof] 到 [!DNL Workfront Fusion]
+
+您可以创建与 [!DNL Workfront Proof] 直接从 [!DNL Workfront Fusion] 模块。
+
+1. 在任何 [!DNL Workfront Fusion] 模块，单击 [!UICONTROL **添加**] 旁边的 [!UICONTROL 连接] 字段
+
+2. 填写以下字段：
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[！UICONTROL连接名称]</p>
+                </td>
+                <td>输入连接的名称</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL connections.environmentType]</td>
+                <td>选择此环境是生产环境，还是非生产环境，如预览或沙盒。</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[！UICONTROL connections.authenticationType]</td>
+                <td>选择这是服务帐户还是个人帐户。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL电子邮件/用户名]</td>
+                <td>输入您的用户名 [!DNL Workfront Proof] 帐户。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL密码]</td>
+                <td>输入密码 [!DNL Workfront Proof] 帐户。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL租户名称]</td>
+                <td><strong>注意</strong>：不使用BYOK的客户必须将此字段留空。 <p>输入此帐户的租户ID。 如果您在查找租户ID时需要帮助，请联系Workfront客户支持。</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[！UICONTROL域扩展]</td>
+                <td>输入用于访问帐户的URL的扩展名。 <p>示例： <code>com</code> 或 <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[！UICONTROL Production， Preview或Custom Environment]</td>
+                <td>选择与生产、预览或自定义环境的连接。</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. 单击 [!UICONTROL **继续**] 以保存连接并返回到模块
 
 ## [!DNL Workfront Proof] 模块及其字段
 
