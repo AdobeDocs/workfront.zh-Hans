@@ -3,9 +3,9 @@ title: 2024年第一季度项目增强功能
 description: 2024年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AI驱动的智能分配
 
-我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于您在Workfront中分配任务的每个位置（任务列表、任务标题中的任务区域、主页和摘要面板）。
+我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 
 现在，当算法建议智能分配时，会查看以下信息：
 

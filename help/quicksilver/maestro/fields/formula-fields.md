@@ -4,9 +4,9 @@ description: 在Adobe管理器中，您可以创建公式字段，这些字段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## 支持的公式
 
-我们支持Workfront计算字段中的所有公式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro公式字段支持Workfront计算字段中的所有表达式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 此外，我们支持Maestro公式字段的以下表达式：
 
@@ -179,7 +179,7 @@ After permssions - replace the table with:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>按分隔符返回连接字符串。</p> <p>表达式的格式如下所示：
 
-    ARRAYJOIN（分隔符，数组）
+<code>ARRAYJOIN（分隔符，数组）</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ After permssions - replace the table with:
    <td><strong>数组唯一</strong> </td> 
    <td> <p>返回具有唯一值的数组。</p> <p>表达式的格式如下所示：
 
-    ARRAYUNIQUE(array)
+<code>ARRAYUNIQUE(array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>返回记录的ID。</p> <p>表达式的格式如下所示：
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ After permssions - replace the table with:
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>将日期和时间的时区设置为特定时区。</p> <p>表达式的格式如下所示：
 
-    SETTIMEZONE（日期，&#39;美洲/洛杉矶&#39;）
+<code>SETTIMEZONE（日期，&#39;美洲/洛杉矶&#39;）</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ After permssions - replace the table with:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>返回一年中的周数。（可选）您可以指定星期的开始日期（使用1表示星期日，使用2表示星期一）。 如果忽略，默认情况下，周从星期日开始。</p> <p>表达式的格式如下所示：
 
-    WEEKOFYEAR（日期，2）
-    或
-    WEEKOFYEAR（日期）
+<code>WEEKOFYEAR（日期，2）</code>
+或
+<code>WEEKOFYEAR（日期）</code>
 </p>
    </td></tr>
 

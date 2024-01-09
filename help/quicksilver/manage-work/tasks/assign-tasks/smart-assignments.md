@@ -7,9 +7,9 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ ht-degree: 0%
 
 #### 任务智能分配计算的第一阶段
 
-在计算智能分配的第一阶段，Workfront会计算每个分配的相似性得分。 相似度得分的计算以及分配的列出顺序考虑以下因素：
+在计算智能分配的第一阶段，Workfront会计算每个分配的相似性得分。
+
+>[!NOTE]
+>
+>智能分配计算的第一个阶段不适用于以下任务区域：
+>
+>* 工作负载均衡器中的批量分配。
+>* 主板上的连接卡。
+
+
+相似度得分的计算以及分配的列出顺序考虑以下因素：
 
 * 如果现有分配的任务、项目和项目组合名称与尝试分配的任务相同，则为其指定100%的分数。 现有分配的任务的项目名称和项目组合名称还必须与您尝试分配的任务的项目名称和项目组合匹配。
 

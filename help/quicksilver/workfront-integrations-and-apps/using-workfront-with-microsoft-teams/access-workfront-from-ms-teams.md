@@ -6,14 +6,16 @@ description: 您可以访问 [!DNL Adobe Workfront] 从 [!DNL Microsoft Teams] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # 访问 [!DNL Adobe Workfront] 从 [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p>
+   <p>当前： [！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+
+*有关Workfront访问要求的更多信息，请参阅 [Workfront文档中的访问要求概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
@@ -63,6 +68,8 @@ ht-degree: 1%
 * 您已登录 [!DNL Workfront] 从 [!DNL Microsoft Teams].
 
 ## 访问 [!DNL Workfront] 从 [!DNL Workfront] 机器人聊天频道
+
+您必须登录到Workfront。
 
 1. 打开 **[!DNL Workfront]** 机器人聊天频道。
 1. 单击 **[!DNL Workfront]** 图标来显示搜索框。
@@ -89,6 +96,8 @@ ht-degree: 1%
 
 ## 访问 [!DNL Workfront] 来自团队渠道
 
+您必须登录到Workfront。
+
 1. 打开团队渠道并键入 **@[!DNL Workfront]**，然后选择 **[!DNL Workfront].**
 
 1. 单击 **[!UICONTROL Search]** 以搜索项目、任务或问题。
@@ -102,7 +111,7 @@ ht-degree: 1%
    * **[!DNL Log out]** 以注销Workfront
    * **[!DNL New task]** 创建新的个人任务
 
-     有关从创建新任务的信息 [!DNL Microsoft Teams]，请参见 [创建 [!DNL Adobe Workfront] 任务来源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     有关创建任务的信息 [!DNL Microsoft Teams]，请参见 [创建 [!DNL Adobe Workfront] 任务来源 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL 帮助]** 查看所有可用命令的列表。
 
