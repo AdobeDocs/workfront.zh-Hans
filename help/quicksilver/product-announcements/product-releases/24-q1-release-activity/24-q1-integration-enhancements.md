@@ -4,9 +4,9 @@ description: 2024年第一季度集成增强功能
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 本页介绍了2024年第一季度版本与预览环境集成的所有增强功能。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
 有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Experience Manager Assets Essentials中的映射元数据现在使用 `xcm:keywords` 而不是 `dc:subject`
+
+我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两种服务都使用 `xcm:keywords` 字段。
+
+以前，这些字段将映射到 `dc:subject` Experience Manager Assets字段。 Experience Manager Assetsas a Cloud Service功能未做更改。
+
+当前映射到的任何Experience Manager Assets Essentials元数据 `dc:subject` 必须重新映射到 `xcm:keywords`.
+
+有关将元数据映射到Experience Manager Assets Essentials的信息，请参阅 [AEM关键词](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Adobe Experience Manager集成中现在提供预输入字段
 

@@ -6,10 +6,10 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 ## 设置元数据（可选）
 
-将 Workfront 对象数据映射到 Experience Manager Assets 中的资源媒体字段。元数据会在第一次从 Workfront 推送资源时进行映射。
+将Workfront对象数据映射到Experience Manager Assets中的资源媒体字段。 元数据在首次从Workfront推送资源时映射。
 
 
 ### 先决条件
@@ -111,15 +111,15 @@ ht-degree: 4%
 * 在Experience Manager Assets Essentials中配置元数据架构，如中所述 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关更多信息，请参阅 [创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **支持的Workfront和Experience Manager Assets字段**
+## 支持的Workfront和Experience Manager Assets字段
 
 **AEM关键词**
 
 您可以将任何Workfront支持的字段映射到Experience Manager Assets Essentials中的关键字。
 
-要将字段链接到关键字，请选择 `dc:subject` 在元数据映射区域的Experience Manager Assets字段下拉列表中。
+要将字段链接到关键字，请选择 `xcm:keywords` 在元数据映射区域的Experience Manager Assets字段下拉列表中。
 
-要将多个单行文本字段映射到关键字，请在元数据映射的Workfront端输入一个以逗号分隔的关键字值列表，并且 `dc:subject` 在Experience Manager Assets那边。 每个字段值都映射到单独的关键字。 您可以使用计算字段将多个Workfront字段组合到一个以逗号分隔的文本字段中。
+要将多个单行文本字段映射到关键字，请在元数据映射的Workfront端输入一个以逗号分隔的关键字值列表，并且 `xcm:keywords` 在Experience Manager Assets那边。 每个字段值都映射到单独的关键字。 您可以使用计算字段将多个Workfront字段组合到一个以逗号分隔的文本字段中。
 
 <!--
 Look for essentials article
@@ -139,7 +139,7 @@ For more information on keywords in Experience Manager Assets, including how to 
    >您可以将单个Workfront字段映射到多个Experience Manager Assets字段。 您无法将多个Workfront字段映射到一个Experience Manager Assets字段。
 1. 在 **Experience Manager** 字段中，选择一个Experience Manager Assets字段。
 
-   要将Workfront字段映射到Experience Manager Assets标记，请选择 `dc:subject`.
+   要将Workfront字段映射到Experience Manager Assets标记，请选择 `xcm:keywords`.
 1. 根据需要重复步骤1和2。
    ![启用元数据](assets/metadata-assets-essentials.png)
 1. 单击 **保存** 或转到 [设置链接的文件夹（可选）](#set-up-linked-folders-optional) 部分。

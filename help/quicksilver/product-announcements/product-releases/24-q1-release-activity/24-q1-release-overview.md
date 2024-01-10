@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a></p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
@@ -276,6 +277,23 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用 <code>xcm:keywords</code> 而不是 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两种服务都使用 <code>xcm:keywords</code> 字段。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年1月10日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产： 2023年1月10日</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产日期： 2023年1月10日</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中现在提供预输入字段</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
