@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
     <tr>
 <tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ ht-degree: 1%
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader">访问级别配置</td>
+   <td> <p>Maestro没有访问级别控制</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>管理视图的权限</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ ht-degree: 1%
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## 使用Maestro视图时的注意事项
 
 * Maestro中的视图是特定于记录类型的。 不能将同一视图应用于两种不同的记录类型。
-* 您创建的视图对访问Maestro区域的每个人都可见。 <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 为操作记录类型构建视图与为分类记录类型构建视图相同。
-* 修改或删除视图时，将修改和删除所有可访问Maestro区域的用户。
+* 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
 * 以下元素对于Maestro中的每个视图都是唯一的：
 
    * 筛选
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > 由于Maestro当前处于Beta状态，因此某些视图元素可能不可用于这两个视图。
 
-
 本文介绍了有关Maestro视图的以下信息：
 
 * [创建和编辑视图](#create-or-edit-record-views)
 * [删除视图](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [共享视图](#share-a-view)
 
 ## 表格视图和时间线视图之间的异同
 
@@ -200,7 +146,9 @@ When we release permissions to views:
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** 图标 ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ When we release permissions to views:
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 
    该视图将为所有能够访问Maestro区域的用户删除，并且无法恢复。
+
+## 共享视图
+
+有关共享视图的信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

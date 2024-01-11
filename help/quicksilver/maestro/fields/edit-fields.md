@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,13 @@ recommendations: noDisplay, noCatalog
 
 有关创建Adobe生成器字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-本文介绍了如何编辑Maestro字段的设置。 有关编辑Maestro记录的字段值的信息，请参见 [编辑记录](../records/edit-records.md).
+本文介绍了如何编辑Maestro字段的设置。 有关编辑Maestro记录的字段值的信息，请参见 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 有关编辑字段信息的注意事项
 
-* 您可以编辑您创建的字段或其他用户创建的字段。 <!--this will change with access levels/ permissions - take out, it's in the table!-->
+* 如果您对字段所属的工作区具有管理权限，则可以编辑您创建的字段或其他用户创建的字段。
 * 您可以在记录类型表中编辑字段。
+* 您无法在记录的详细信息页面或时间线视图中编辑字段。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -63,9 +64,14 @@ recommendations: noDisplay, noCatalog
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,83 +94,30 @@ recommendations: noDisplay, noCatalog
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问控制</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>管理工作区的权限</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 编辑字段
 

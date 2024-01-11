@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,9 @@ ht-degree: 0%
 
 * 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
 
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
+* 通过共享工作区，您可以与其他用户共享工作区中的所有记录。 有关更多信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).
 
 本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## 访问要求
 
@@ -53,9 +45,14 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -78,73 +75,30 @@ ht-degree: 0%
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>使用链接查看或更高的工作区权限以共享记录 </p>
+   <p>管理共享记录所属工作区时共享记录的工作区的权限 </p>
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
- </tbody>
+<tr>
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
 
--->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -186,3 +140,7 @@ After permissions - replace the table with - below
 
 
    <!--add there when it will be available: if they have access to this record-->
+
+## 通过共享工作区来共享工作区中的所有记录
+
+与他人共享工作区时，您可以共享工作区中的所有记录。 有关更多信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3404'
 ht-degree: 0%
 
 ---
@@ -194,10 +194,6 @@ Maestro记录的注释体验与Workfront对象的新注释体验相匹配。
    * 数字
 
    * 公式
-
-     >[!NOTE]
-     >
-     >公式类型的字段将在稍后日期发布。
 
 * 表视图的主字段始终冻结，不能移动，除非将其他字段设置为主字段。
 

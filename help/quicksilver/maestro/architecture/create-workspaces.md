@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,14 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -54,81 +59,35 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：标准</p>
+   <p>当前：工作或更高</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问级别控制</p>
 </td>
   </tr>
+
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>您将获得所创建工作区的管理权限。 </p>  
 </td>
   </tr>
- </tbody>
+
+<tr>
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>您必须将Maestro区域添加到布局模板中。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,13 +104,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * 您可以为组织内的特定组织单位创建工作区，以匹配每个单位独特的工作方式。
 * 工作区包含的记录类型和分类应反映组织单位的工作生命周期。
-* 创建工作区时，组织中的所有人都可以查看、编辑或删除该工作区。  <!--this will change with access levels and permissions-->
+* 在创建工作区时，只有您才有权访问和管理工作区。 您必须与其他用户共享，他们才能在同一空间与您协作。 有关信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).
 * 您的组织中最多可以有1,000个工作区。
 * 工作区包含每个工作区特有的记录类型。 <!--this might change-->
 
 ## 创建工作区
 
-1. （视情况而定）如果系统中没有任何工作区，请单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+1. （视情况而定）如果您的环境中没有任何工作区，请单击 **创建工作区**
 
    或者，从现有工作区中，单击工作区名称右侧的向下指向，然后单击 **创建工作区**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ hide: yes
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ hide: yes
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader">访问级别配置</td>
+   <td> <p>Maestro没有访问级别控制 </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>管理视图的权限</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">布局模板</td>
    <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
@@ -82,63 +94,6 @@ hide: yes
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## 管理表视图 {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
    >       * 数字
    >       * 公式
    >
-   >         稍后将发布公式字段。
-   >
    >   * 主字段始终冻结，无法移动。 如果需要将主字段移动到其他位置，您可以选择另一个字段来替换主字段。
    >
    >   * 更改表格视图中的主字段会影响选择它的所有其他用户的视图。
@@ -267,7 +220,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 1. 转到记录类型页面并选择 **表** 从“视图”下拉菜单中查看。
 1. 开始添加记录（或行），如文章中所述 [创建记录](../records/create-records.md).
 
-   您在表格视图中添加的记录会立即保存，并且所有访问Maestro的用户都可以看到。 <!--this will change with permissions-->
+   您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
 1. （可选）选择一行中的一个或多个记录，然后拖放 **句柄** 图标 ![](assets/handle-icon.png) 记录名称的左侧，用于对行重新排序。
 

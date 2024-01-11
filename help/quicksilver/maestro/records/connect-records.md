@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ hide: yes
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> Adobe产品</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Maestro记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p></td>
+   <p> Adobe Workfront</p> 
+   <p>要将Maestro记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -97,95 +102,36 @@ hide: yes
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
-   <td><p>任意，创建Maestro记录</p> 
-<p>在Workfront中查看项目的工作或更高版本</p>
-  <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe Workfront许可证概述</a>.</p> 
+   <td>
+   <p>任何</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任意，创建Maestro记录</p>
-<p>查看或更高权限的项目、Portfolio、项目群</p> 
-<p>查看用户不属于的组或公司时，对组和公司的附加访问权限</p>   
+
+<tr>
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>对象权限</p></td>
-   <td> <p>查看要与Maestro记录链接的对象或授予更高的权限  
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>管理工作区的权限</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p></td>
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 连接记录
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   链接记录中链接字段的值会自动填充您从所配置的Maestro工作区或从第三方应用程序链接的Maestro记录。
 
-* 每个有权访问Maestro的人都可以看到您在Maestro记录之间或Maestro记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们对您所连接的第三方应用程序的权限如何。
-* 您可以查看和编辑其他所有人的连接。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* 每个有权访问Maestro并拥有工作区管理权限的人都可以查看您在Maestro记录之间或Maestro记录与其他应用程序对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们对您所连接的第三方应用程序的权限如何。 <!--check with PM-->
+* 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个Maestro记录连接到另一个应用程序的一个或多个对象。
 * 要将Maestro记录与其他记录或对象链接，您必须具备以下各项：
 

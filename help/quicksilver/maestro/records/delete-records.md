@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -91,12 +91,6 @@ ht-degree: 1%
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## 有关删除记录的注意事项
 
 * 您可以删除您或其他用户创建的记录。
@@ -157,5 +151,5 @@ ht-degree: 1%
 
 1. （可选）使用以下键盘快捷键撤消或重做删除记录：
 
-   * **还原**：CTRL/CMD + Z
-   * **重做**：CTRL/CMD + Shift + Z
+   * CTRL + Z(Mac为⌘ + Z)可撤消更改
+   * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改

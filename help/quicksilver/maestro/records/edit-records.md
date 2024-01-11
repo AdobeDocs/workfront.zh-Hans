@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -179,5 +179,5 @@ ht-degree: 1%
 
 1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：
 
-   * **还原**：CTRL/CMD + Z
-   * **重做**：CTRL/CMD + Shift + Z
+   * CTRL + Z(Mac为⌘ + Z)可撤消更改
+   * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改

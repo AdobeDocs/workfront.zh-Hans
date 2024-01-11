@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ hide: yes
 
 * 仅当您将Workfront记录类型与Workfront对象类型连接并添加来自Workfront对象的链接或查找字段时，才能从Maestro访问字段。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
-* 您可以查看和更新您或任何其他用户创建的字段的设置。 <!--this will change with access/ permissions-->
+* 如果您对字段所属的工作区具有“管理”权限，则可以查看和更新您或任何其他用户创建的字段的设置。
 
 * 一个记录类型最多可以有500个字段。
 
