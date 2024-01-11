@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
+source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13854'
 ht-degree: 1%
 
 ---
@@ -781,7 +781,7 @@ ht-degree: 1%
    * Adobe Admin Console中的管理 {#admin-in-admin-console}
       * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [为Adobe Admin Console做好准备](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [了解Workfront产品和用户迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [了解Workfront迁移到Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * 管理和设置的提示、技巧和疑难解答 {#admin-setup-tips}
       * [提示、技巧和疑难解答](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [组管理员必须比其管理的组管理员拥有更高的访问权限](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
