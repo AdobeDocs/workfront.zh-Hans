@@ -1,18 +1,19 @@
 ---
 title: 访问概述
-description: 组织中的所有用户都可以访问AdobeMaestro。 目前，没有与用户或Maestro中的信息相关的访问级别或权限。
+description: 使用Adobe专家功能时，存在许可证和共享权限限制。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
+<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # 访问概述
 
@@ -26,16 +27,11 @@ ht-degree: 1%
 >
 >有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
 
-AdobeMaestro没有访问级别限制。
-
-您组织中的所有用户都可以访问Maestro，无论其访问级别如何。
-
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+使用Adobe专家功能时，存在许可证和共享权限限制。
 
 ## 访问要求
 
-您必须具备以下条件才能使用Adobe经理：
+您必须具有以下设置才能使用Adobe经理：
 
 <table style="table-layout:auto">
  <col>
@@ -52,7 +48,7 @@ AdobeMaestro没有访问级别限制。
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。  </p>
+<p>贵公司必须注册AdobeMaestro封闭测试版计划。 </p>
    </td>
   </tr>
   <tr>
@@ -62,92 +58,39 @@ AdobeMaestro没有访问级别限制。
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>任何</p>
+   要创建工作区，用户必须具有以下许可证： 
+   <ul><li><p>新增：标准</p> </li>
+   <li><p>当前：工作人员或更高版本</p> </li></ul>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>访问级别</p></td>
-   <td> <p>任何</p>  
+  <tr>
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro对象没有访问级别控制</p>  
 </td>
   </tr>
-
+<tr>
+   <td role="rowheader"><p>对象权限</p></td>
+   <td>
+   <p>向未创建的工作区和视图分配或更高权限，以便编辑、删除和共享它们</p>
+    <p>系统管理员可以管理他们未创建的工作区和视图 </p>
+   <p>有关共享Maestro对象权限的信息，请参阅  
+   <a href="../access/sharing-permissions-overview.md">在Adobe大师中共享权限概述</a> 
+  </td>
+  </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront管理员必须添加主菜单中的Maestro区域到布局模板。</p> 
+   <td> <p>系统管理员必须将“主菜单”中的Maestro区域添加到布局模板中。</p> 
    <p>有关信息，请参阅 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用布局模板自定义主菜单</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-<!--After we enable permissions, replace the section content above with this:
+*有关新定价模式和当前定价模式的详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-There are license and sharing permission restrictions to use Adobe Maestro capabilities. (*********** this should be the intro right under the title; also update the metadata with this when live*******)
-
-You must have the following settings to use Adobe Maestro: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Any</p>
-   To create workspaces, users must have the following license: 
-   <ul><li><p>New: Standard</p> </li>
-   <li><p>Current: Worker or higher</p> </li></ul>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Maestro objects</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them</p>
-    <p>System Administrators can manage workspaces and views they did not create </p>
-   <p>For information about sharing permissions for Maestro objects, see  
-   <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Maestro</a> 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in the Main Menu to your layout template.</p> 
-   <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about the new and current pricing models, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
-
--->
 
 ## 与他人共享主菜单中的大师区域
 
@@ -177,13 +120,8 @@ Maestro没有访问控制。
 
 ## 授予权限
 
-没有与Maestro对象关联的权限。
+您必须向非系统管理员用户授予您创建的工作区和视图的权限，以便他们能够访问这些工作区和视图。
 
-所有在其环境中启用了Maestro的用户都可以查看、编辑和删除任何其他用户添加到Maestro的所有信息。
-
-<!--
-Take out the text above and replace with this: 
-
-For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).-->
+有关更多信息，请参阅 [在Adobe大师中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 

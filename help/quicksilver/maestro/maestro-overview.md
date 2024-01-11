@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Adobe大师概述
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Adobe大师”是Adobe Workfront推出的新产品。 Maestro的目的是全面�
 | 将Maestro记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
 | 记录详细信息页面 | ✓ {\f13 } |                                  |                  |
 | 更新记录详细信息页面的布局 |                               | ✓ {\f13 } |                  |
-| 共享工作区 | | ✓ {\f13 } |  |
-| 共享视图 | | ✓ {\f13 } |  |
+| 共享工作区 | ✓ {\f13 } | |  |
+| 共享视图 | ✓ {\f13 } | |  |
 | 提交请求 |                               |                                  | ✓ {\f13 } |
 | 创意摘要 |                               |                                  | ✓ {\f13 } |
 | 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
@@ -92,15 +88,11 @@ Adobe大师”是Adobe Workfront推出的新产品。 Maestro的目的是全面�
 | 适用于Adobe Workfront Fusion的Maestro模块 | ✓ {\f13 } |                                  |                 |
 | 将信息从一个字段复制并粘贴到另一个字段 | ✓ {\f13 } |                                  |                 |
 
-## 在封闭测试版计划期间使用Maestro所需的访问权限
+## 在Workfront实例中为用户启用Maestro
 
->[!IMPORTANT]
->
->目前，没有与用户或Maestro中的信息相关的访问级别或权限。 所有用户都可以查看、编辑和删除任何其他用户添加到Maestro的所有信息。
+贵组织必须注册AdobeMaestro封闭测试版计划，然后才能访问Maestro。 有关注册Beta版计划的信息，请联系您的客户代表。
 
-有关使用Maestro所需的访问权限的更多信息，请参阅 [Adobe专家访问概述](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+有关授予对Maestro的访问权限以及允许其他人使用Maestro的详细信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro术语
 
@@ -185,7 +177,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
    * Maestro字段完全可自定义，并且只能在Maestro中访问。 您无法从Workfront访问Maestro字段。
 
-  有关更多信息，请参阅 [创建字段](../maestro/fields/create-fields.md)
+  有关更多信息，请参阅 [创建字段](../maestro/fields/create-fields.md).
 
   默认情况下，新的操作记录类型与以下预定义字段相关联：
 
@@ -208,6 +200,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
    * 百分比
    * 货币
    * 复选框
+   * 公式
    * 人员
    * 创建者
    * 创建日期
@@ -272,12 +265,6 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
 | 可在表中导入的Excel文件的CSV大小 | 5MB |
-
-## 在Workfront实例中为用户启用Maestro
-
-贵组织必须注册AdobeMaestro封闭测试版计划，然后才能访问Maestro。 有关注册Beta版计划的信息，请联系您的客户代表。
-
-有关授予对Maestro的访问权限以及允许其他人使用Maestro的详细信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
 
 ## 找到Maestro
 

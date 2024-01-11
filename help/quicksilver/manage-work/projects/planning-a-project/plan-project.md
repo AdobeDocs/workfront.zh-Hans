@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # 计划项目概述
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 项目是Adobe Workfront中的一个大型工作项。 您可以将项目划分为较小工作项的任务，如任务。 任务可以分配给负责完成任务的用户或团队。 当所有用户完成其任务时，项目也会完成。
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 ### 定义项目计划 {#define-the-project-schedule}
 
-您必须确定计划并将其与项目以及负责完成项目任务的用户关联。
+您必须确定一个时间表，并将其与项目以及负责完成项目任务的用户关联。
 
 考虑在计划上定义以下内容：
 
@@ -104,7 +106,7 @@ ht-degree: 0%
 
   例如，您可能有一个项目要建造一栋公寓楼。 您的目标之一包括水管工程，另一个则是打好基础。 水管工的一项任务是连接市区的主要水线，这必须在打地基之前完成。 但是，在打好地基之前，您的大多数其他管道施工任务都无法完成。 在这种情况下，应考虑使用前置任务，以了解何时可以在完成某个目标的先决条件后启动该目标。
 
-  当使用父任务来组织目标时，您可以为每个主要目标创建一个任务，并在进入将主要目标分解为单独任务的阶段时添加子任务。 这样可以将属于目标一部分的任务保留在项目中组织。
+  当您使用父任务来组织目标时，可以为每个主要目标创建一个任务，并在进入将主要目标分解为单独任务的阶段时添加子任务。 这样可以将属于目标一部分的任务保留在项目中组织。
 
   有关前置任务的更多信息，请参阅 [前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -118,7 +120,7 @@ ht-degree: 0%
 
 ## 定义任务 {#define-tasks}
 
-在定义项目目标和与其关联的任务时，您将创建项目时间线。
+在定义项目的目标以及与其关联的任务时，您将创建项目时间线。
 
 您可以通过以下方式在项目中创建任务：
 

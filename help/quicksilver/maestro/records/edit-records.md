@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,14 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe产品</p> </td>
+   <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -62,73 +67,24 @@ ht-degree: 1%
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问控制 </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>为工作区提供或更高权限</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
- </tbody>
+<tr>
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## 有关编辑记录的注意事项
 
@@ -221,7 +177,7 @@ After permssions - replace the table with:
    >    * 通过连接记录类型创建的链接字段。 您可以复制和粘贴链接的记录字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
    >    * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
+1. （可选）使用以下键盘快捷键可撤消或重做编辑或复制和粘贴记录信息：
 
-    * **Undo**: CTRL/CMD + Z
-    * **Redo**: CTRL/CMD + Shift + Z-->
+   * **还原**：CTRL/CMD + Z
+   * **重做**：CTRL/CMD + Shift + Z

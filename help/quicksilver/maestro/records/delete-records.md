@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,12 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
    <p> Adobe产品</p> </td>
    <td>
@@ -52,80 +57,34 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证</p>
+   </td>
    <td>
    <p>任何</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别</td>
-   <td> <p>任何</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> <p>Maestro没有访问级别控制 </p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>权限</p></td>
+   <td> <p>为工作区提供或更高权限</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
 
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,9 +115,10 @@ After permssions - replace the table with:
 
 ### 从记录的“详细信息”页面中删除记录
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) 如果左上角可用，请单击Maestro。
+{{step1-to-maestro}}
 
-   您上次访问的工作区将打开。
+您上次访问的工作区将打开。
+
 1. 单击记录类型。
 
    此时将打开记录类型页面。
@@ -179,9 +139,10 @@ After permssions - replace the table with:
 
 ### 从记录类型表格视图中删除记录
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 位于右上角，或 **主菜单** ![](assets/main-menu-shell.png) （如果可用），然后单击 **大师**.
+{{step1-to-maestro}}
 
-   您上次访问的工作区随即打开。
+您上次访问的工作区随即打开。
+
 1. 单击记录类型。
 
    此时将打开记录类型页面。
@@ -194,7 +155,7 @@ After permssions - replace the table with:
 
    该记录已删除，无法恢复。
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+1. （可选）使用以下键盘快捷键撤消或重做删除记录：
 
-   * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z-->
+   * **还原**：CTRL/CMD + Z
+   * **重做**：CTRL/CMD + Shift + Z

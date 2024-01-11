@@ -4,22 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以创建或编辑新的自定义表单。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # 使用旧版表单生成器创建或编辑自定义表单
 
+<!--Audited: 01/2024-->
+
 您可以创建或编辑新的自定义表单。 本文解释了这两项任务。
 
 有关从现有自定义表单创建新自定义表单的信息，请参阅 [复制自定义表单以使用旧版表单生成器创建新表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+本文介绍了如何使用旧版表单生成器创建自定义表单。 有关使用表单设计器创建自定义表单的信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 访问要求
 
@@ -35,7 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td><p>新增：标准</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
@@ -44,15 +49,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 开始创建自定义表单
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **自定义Forms** 在左侧面板中。
 
-   在显示的视图中，您可以查看为您的组织创建的所有自定义表单和自定义字段。 您还可以查看每个表单的创建者以及与其关联的字段。
+   自定义表单显示在列表中。 您可以查看为您的组织创建的所有自定义表单和自定义字段。 您还可以查看创建每个表单的人员、与其关联的对象以及表单是否处于活动状态。
 
 1. 单击 **新建自定义表单。**
 1. 选择至少一个要与自定义表单关联的对象类型，然后单击 **继续**.
@@ -61,13 +67,15 @@ ht-degree: 0%
 
 1. 在 **表单设置** 打开选项卡，键入 **表单标题** 和可选 **描述** 用于自定义表单。
 
-1. （可选）如果要向表单中添加更多对象类型，以便将其附加到更多对象，请单击对象类型后面的加号，然后在显示的菜单中选择所需的对象类型。
+1. （可选）如果要向表单中添加更多对象类型，以便将其附加到更多对象，请单击 **加** 签名晚于 **对象类型**，然后在显示的菜单中选择所需的对象类型。
 
-   您可以重复此操作，以添加所需数量的对象类型。您还可以单击对象类型上的X将其从表单中删除。
+   您可以重复此操作，以添加所需数量的对象类型。
+
+1. （可选）单击 **X** 对象类型，以将其从表单中删除。
 
    有关从已保存的自定义表单中删除对象类型的信息，请参阅 [删除自定义表单上的对象类型](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. 单击 **完成**.
+1. 单击 **完成** 屏幕左下角的。
 
    >[!TIP]
    >
@@ -96,16 +104,16 @@ ht-degree: 0%
 >
 >通常，我们建议最大限度地减少编辑已使用的自定义表单的次数。 没有通知系统来提醒使用自定义表单的人员您的更改。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **自定义Forms** 在左侧面板中。
 
-   在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
+   自定义表单显示在列表中。 您可以查看为您的组织创建的所有自定义表单和自定义字段。 您还可以查看创建每个表单的人员、与其关联的对象以及表单是否处于活动状态。
 
 1. 选择要编辑的自定义表单，然后单击 **编辑**.
 1. （可选）要更改自定义表单的标题和描述，请单击 **表单设置** 选项卡，然后键入 **表单标题** 和 **描述**.
 
-1. （可选）如果要向表单添加更多对象类型，以便将其附加到更多对象，请单击后面的加号+ **对象类型**，然后在显示的菜单中选择所需的类型。
+1. （可选）如果要向表单中添加更多对象类型，以便将其附加到更多对象，请单击后面的加号+ **对象类型**，然后在显示的菜单中选择所需的类型。
 
    ![](assets/add-object-type-existing-form.png)
 

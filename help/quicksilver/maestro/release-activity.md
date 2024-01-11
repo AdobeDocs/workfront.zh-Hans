@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ ht-degree: 0%
 
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Maestro封闭测试版计划的客户可以访问其生产环境中的所有功能。
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>在2023年5月至2023年12月期间，本文中的所有功能均已发布到“预览”和“生产”环境。 自2024年1月起，Maestro功能已暂时从预览和沙盒环境中移除。 此日期之后发布的所有功能当前都可在生产环境中使用。
 
 本文列出了自2023年5月22日Maestro封闭测试版计划启动以来发布的功能和修补程序。
 
@@ -42,83 +40,80 @@ ht-degree: 0%
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
 
-<!--## Week of January 15, 2024
+## 2024年1月15日起一周
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Maestro功能将从预览和沙盒环境中删除
 
-Preview and sandbox: <***Date here****> 
+预览和沙盒：2024年1月11日
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+Maestro区域和所有Maestro功能已暂时从“预览”和“沙盒”环境中删除。 之后，会将Maestro添加到这些环境中，我们将在发行活动说明中介绍该步骤。
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### 工作区和视图的Maestro权限
 
-### Maestro permissions for workspaces and views
+生产： 2024年1月11日
 
-Production: <****date here****>
+预览：待定
 
-Preview: To be determined
+您现在可以将工作区或视图与用户和组共享。 您可以根据用户需要查看或编辑的信息，将其权限设置为不同的级别。
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+共享工作区时，用户有权访问该空间中的记录类型、记录和字段。
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+共享工作区时，用户不会收到与工作区的记录类型关联的视图的共享权限。 您必须向视图授予单独的权限。
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+以下是Maestro工作区的权限级别：
 
-The following are the permissions levels for Maestro workspaces:  
+* 查看：用户可以查看与其共享的工作区。 他们还可以从共享工作区查看记录类型和记录。
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* 参与：用户可以在与其共享的工作区中创建、编辑或删除记录。  他们无法创建或编辑与其共享的记录类型或工作区。
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* 管理：用户可以创建、编辑和删除工作区、记录类型、记录以及与其共享的工作区中的字段。
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+以下是记录视图的权限级别：
 
-The following are the permissions levels for record type views:
+* 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
+* 管理：用户可以编辑、共享和删除视图。
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+有关更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe大师中共享权限概述](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### 新建公式字段类型
 
-### New Formula field type (title) 
+生产： 2024年1月11日
 
-Production: <*******date**********> 
+预览：待定
 
-Preview: To be determined 
+您现在可以向记录类型添加公式类型字段。
 
-You can now add a Formula type field to a record type.  
+公式字段使用记录类型中其他字段的现有值以及指示应如何计算现有值的函数来生成新值。
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+在公式计算中，不能使用来自链接记录类型的查找字段。 此功能将在以后提供。
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+有关信息，请参阅 [公式字段概述](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### 在表视图中管理记录时撤消/重做操作
 
-### Undo/ Redo actions when managing records in the table view
+生产： 2024年1月11日
 
-Production: <****Date******>
-Preview: To be determined
+预览：待定
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+现在，在表视图中执行以下操作时，可以撤消或重做更改：
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* 复制/粘贴数据
+* 编辑记录
+* 添加记录
+* 删除记录
 
-You can use the following keystrokes to undo or redo actions: 
+您可以使用以下按键来撤消或重做操作：
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* 撤消：CTRL/ CMD + Z
+* 重做：CTRL/CMD + Shift+Z
 
-For more information, see the following articles:  
+有关更多信息，请参阅以下文章：
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [编辑记录](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [删除记录](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [创建记录](/help/quicksilver/maestro/records/create-records.md)
 
 ## 2023年12月25日起一周
 

@@ -6,17 +6,19 @@ description: '注意：在文章中添加章节：/Content/Reports and Dashboard
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
 
 # 使用文本模式编辑视图
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
+<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
 您可以使用文本模式编辑列表或报表中的视图，以访问标准界面中不可用的字段并创建更复杂的视图。
@@ -35,20 +37,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>新增：标准 </p>
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
@@ -114,84 +118,86 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><strong>valuefield</strong>=</p> </td> 
-      <td> <p>这是对象或字段在数据库中显示的名称。 有关对象和字段如何在数据库中显示的详细信息，请参见 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>.</p> <p>存在以下情况：</p> 
-       <ol> 
-        <li value="1"> <p> 如果显示的字段名称是短语而不是单个名词，则必须使用驼峰式大小写语法作为 <code>valuefield</code>. 例如，对于任务的计划开始日期，代码为： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>如果要显示自定义字段，请 <code>valuefield</code> value是字段的实际名称，如您在界面中所见。 例如，对于名为“更多信息”的自定义字段，代码为：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>如果要显示与视图中的其他对象相关的对象，请使用 <code>valuefield</code> 代码行对象名称和属性用冒号分隔。 </p> <p>例如，任务视图中显示“任务所有者”名称的一列具有以下valuefield行值：Portfolio</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>这表示您可以从报表（任务）的对象中访问下一个相关对象（项目），从那里，您可以从项目（项目组合），然后依次访问项目组合所有者（所有者）及其名称（名称）中的以下相关对象。 </p> </li> 
-       </ol> <p>有关对象如何彼此连接的信息，请参阅部分 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">对象的相互依赖性和层次结构</a> 在 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">了解Adobe Workfront中的对象</a>.</p> <p>注：如果在文本模式下选择的字段在标准界面中无效，则无法切换回列中的标准界面。</p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
+      <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
+        
+        <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>If you want to display a custom field, the <code>valuefield</code> value is the actual name of the field, as you see it in the interface. For example, for a custom field named "More information", the code is:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>If you want to display objects that are related to other objects in a view using the <code>valuefield</code> line of code the object names and attributes are separated by colons. </p> <p>For example, a column in a task view that would display the name of the Portfolio Owner has the following value for the valuefield line:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>This indicates that from the object of the report (task), you can access the next related object (project), from there, you can access the following related object from project (portfolio), then the portfolio owner (owner) and then their name (name). </p> </li> 
+       </ol> <p>For information about how objects connect to one another, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependency and hierarchy of objects</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>Note: If you choose a field in text mode that is not valid in the standard interface, you are not able to switch back to the standard interface within the column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>值格式=</strong> </td> 
-      <td> <p>此行表示用于显示 <code>valuefield</code>. 此 <code>valueformat</code> 标识对象或字段显示为文本、数字、百分比或日期。</p> <p>我们建议使用 <code>HTML</code> 您的 <code>valueformat</code>，尤其是使用 <code>valueexpression</code>，以确保最准确地显示您的信息。 </p> <p>有关此行的其他值的信息，请参见 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">在文本模式下使用条件格式</a>.</p> </td> 
+      
+      <td><code><strong>valueformat=</strong></code> </td> 
+      <td> <p>This line represents the format used to display the <code>valuefield</code>. The <code>valueformat</code> identifies whether an object or field displays as text, number, percentage, or date.</p> <p>We recommend using <code>HTML</code> for your <code>valueformat</code>, especially when using <code>valueexpression</code>, to ensure the most accurate display of your information. </p> <p>For information about additional values for this line, see <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>您可以添加此行来替换 <code>valuefield</code>，以便在列中显示计算字段。</p> <p>您必须将 <code>valuefield</code> 中每次使用大括号内的对象时 <code>valueexpression</code>.</p> <p>存在以下情况： </p> 
-       <ol> 
-        <li value="1"> <p>如果要以大写形式在列中显示字段，您可以使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>此 <code>valuefield</code> 对象的URL将拼写为API Explorer中显示的内容。 </p> </li> 
-        <li value="2">如果要添加多个 <code>valuefields</code> 将它们捆绑在一起，必须用句号将它们分开。</li> 
-        <li value="3"> <p>例如，如果要显示任务的主要被分配人的姓名，请使用 <code>valueexpression</code>，您将使用：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>如果要在中使用自定义字段 <code>valueexpression</code> 字段名称前面必须加一行 <code>DE:</code> 以指示它是一个自定义字段。 字段的名称在界面中显示时拼写。 </p> <p>重要提示：如果自定义字段放置在权限受限的自定义表单分区中，并且某些用户在报表中查看此计算时，值表达式的计算为空。 有关调整自定义表单分区的权限的信息，请参阅 <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a></span>.</p> <p>例如，如果您有一个标记为“开发人员姓名”的自定义字段，并且您想在列中大写显示此字段，您可以使用以下内容 <code>valueexpression</code> 以指示此情况：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>在引用“预输入”类型自定义字段时，使用以下表达式来引用在标记为“开发人员名称”的字段中选择的对象的名称：</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+      
+      <td> <p><code><strong>valueexpression=</strong></code> </p> </td> 
+      <td> <p>You can add this line to replace <code>valuefield</code>, if you want to display a calculated field in the column.</p> <p>You must enclose the <code>valuefield</code> of the objects in curly brackets every time you use it in a <code>valueexpression</code>.</p> <p>The following scenarios exist: </p> 
+        
+        <li value="1"> <p>If you want to display a field in a column in upper case, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> of the object is spelled as it appears in the API Explorer. </p> </li> 
+        <li value="2">If you want to add multiple <code>valuefields</code> by stringing them together, you must separate them by a period.</li> 
+        <li value="3"> <p>For example, if you want to display the name of the Primary Assignee of a task using <code>valueexpression</code>, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="4"> <p>If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p> <p>Important: When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.</p> <p>For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>When referencing a Typeahead type custom field, use the following expression to reference the name of the object selected in a field labeled "Developer Name":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>descriptionkey= /描述=</strong> </p> </td> 
-      <td> <p>当您将鼠标悬停在列的名称上时，此行定义工具提示的文本。 在这种情况下，它使用键来翻译描述文本中的名称值。 如果要修改说明，请将此行更改为： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>description=Your Value</code>.</p> </td> 
+      
+      <td> <p><code><strong>descriptionkey=</strong></code> / <code><strong>description=</strong></code> </p> </td> 
+      <td> <p>This line defines the text of a tool tip as you mouse over the name of the column. In this case it is using a key to translate the name value in the description text. If you want to modify the description, change this line to read: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>description=Your Value</code>.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>该行定义列标签。 在此例中，它使用基于键的缩写值。</p> <p>如果要修改列名，可将此值更改为： </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> 允许您为列名输入任何文本，而<code>namekey</code> 需要输入用于翻译列名的键。</p> <p>要更改列名，您还可以添加 <code>displayname </code>行（如果不存在）。</p> </td> 
+      
+      <td><code><strong>namekey=</code> / <code><strong>name=</strong></code> </td> 
+      <td> <p>This line defines the column label. In this case it is using the abbreviated value based on the key.</p> <p>If you want to modify the column name you can change this value to: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> allows you to enter any text for the column name, while<code>namekey</code> requires you enter a key that is used to translate the name of a column.</p> <p>To change the column name you can also add the <code>displayname </code>line, if one is not present.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>displayname =</strong> </td> 
-      <td> <p>您可以添加以下行来更改列的名称，这将暂停 <code>namekey/name</code> 值：</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>displayname=Your Value</code> </p> </td> 
+      
+      <td><code><strong>displayname =</strong></code> </td> 
+      <td> <p>You can add the following line to change the name of a column, which suspends the <code>namekey/name</code> value:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>displayname=Your Value</code> </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>查询排序=</strong> </td> 
-      <td>该行定义在单击列标题时如何对结果进行排序。 如果列不存在，则在运行报告后无法对该列进行排序。</td> 
+      
+      <td><code><strong>querysort=</strong> </code></td> 
+      <td>This line defines how the results are sorted when the column header is clicked. If it is not present then the column cannot be sorted after the report is run.</td> 
      </tr> 
-     <tr> 
-      <td><strong>宽度=</strong> </td> 
-      <td> <p>此线条表示用于列的像素数。 如果省略该行或将其设置为0（零），则该列不会出现在视图中。</p> <p>在文本模式下手动修改此字段时，还必须添加 <code>usewidths=true</code> 值到列。</p> </td> 
+      
+      <td><code><strong>width=</strong></code> </td> 
+      <td> <p>This line represents the number of pixels that are used for the column. If the line is omitted or set to 0 (zero) then the column does not appear in the view.</p> <p>When you modify this field manually in text mode, you must also add the <code>usewidths=true</code> value to your column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>usewidths=true</strong> </td> 
-      <td> <p>除了使用本行外， <code>width=</code> 自定义列宽时的行。 </p> </td> 
+      
+      <td><code><strong>usewidths=true</strong></code> </td> 
+      <td> <p>You must use this line in addition to the <code>width=</code> line when customizing the width of a column. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>makeFieldEditable=</strong> </td> 
-      <td> <p>此行定义列中显示的值是否可内联编辑。 如果此行等于 <strong>true</strong>，列中的值可内联编辑。 如果此行等于 <code>false</code>，列中的值不可内联编辑。</p> </td> 
+      
+      <td><code><strong>makeFieldEditable=</strong></code> </td> 
+      <td> <p>This line defines whether the value displayed in a column is inline editable or not. If this line equals <strong>true</strong>, the value in the column is inline editable. If this line equals <code>false</code>, the value in the column is not inline editable.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valuefield=</strong> </td> 
-      <td> <p>仅当希望列中显示的值链接到与其关联的对象时，才插入此行。 该链接将打开对象的详细信息页面。 此值应与 <code>valuefield=</code> 行。 插入时，您还必须添加 <code>link.valueformat=</code> 行。 </p> <p> 例如，您可以插入 <code>link.valuefield=priority</code> 在问题视图中，问题的“优先级”显示为链接。 单击此链接将打开问题页面。</p> </td> 
+      
+      <td><code><strong>link.valuefield=</strong> </code></td> 
+      <td> <p>Insert this line only when you want the value displayed in a column to link to the object associated with it. The link opens the details page of the object. This value should match the <code>valuefield=</code> line. When you insert this, you must also add the <code>link.valueformat=</code> line. </p> <p> For example, you can insert <code>link.valuefield=priority</code> in an issue view, and the Priority of the issue displays as a link. Clicking this link opens the Issue page.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>只有在已插入 <code>link.valuefield</code> 行，添加指向列中值的链接。 该链接将打开对象的详细信息页面。 此值应与 <code>valueformat=</code> 行，并指示用于显示 <code>valuefield</code>. </p> <p>重要提示：在也包含链接的内置列中查看文本模式时，您会注意到许多行引用了该链接。 当您在文本模式下创建自己的自定义列并向其中添加链接语句时，其中某些行可能不再受支持或不必要。 添加链接值时必需使用的行包括<code> link.valuefield</code> 和 <code>link.valueformat</code>. </p> </td> 
+      
+      <td><code><strong>link.valueformat=</strong> </code></td> 
+      <td> <p>Insert this line only when you have inserted the <code>link.valuefield</code> line to add a link to the value in a column. The link opens the details page of the object. This value should match the <code>valueformat=</code> line and indicates the format used to display the <code>valuefield</code>. </p> <p>Important: When viewing the text mode in a built-in column that also includes a link, you notice a number of lines referring to the link. Some of those lines might no longer be supported or are unnecessary when you create your own custom column in text mode and add the link statements to it. The lines that are mandatory when adding a linked value are<code> link.valuefield</code> and <code>link.valueformat</code>. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>这是指如何汇总每个列的值。 有多行以开头 <code>aggregator.</code> 他们都引用汇总列结果的汇总。 </p> <p>一般来说， <code>aggregator.</code> 行与列对象的行匹配。 </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>">
-        <span class="autonumber"><span><b>示例： </b></span></span> 
-        <p>任务报告中按“总和”汇总的“计划小时数”列可能如下所示： </p> 
-        <div>
-         <pre>textmode=true</pre>
-         <pre>valuefield=workRequired</pre>
-         <pre>valueformat=compound</pre>
-         <pre>aggregator.function=SUM</pre>
-         <pre>aggregator.valuefield=workRequired</pre>
-         <pre>aggregator.displayformat=minutesAsHoursString</pre>
-         <pre>aggregator.valueformat=compound</pre>
-         <pre>namekey=workRequired</pre>
-         <pre>shortview=false</pre> 
+      
+      <td><code><strong>aggregator.function=</strong></code> </td> 
+      <td> <p>This refers to how the values of each column are summarized. There are multiple lines that start with <code>aggregator.</code> and they all refer to the aggregator that summarizes the results of the column. </p> <p>As a general rule, the <code>aggregator.</code> lines match those of the column object. </p> 
+       
+        <span class="autonumber"><span><b>Example: </b></span></span> 
+        <p>The Planned&nbsp;Hours column in a task report summarized by Sum may look like the following: </p>
+
+   <div>
+         <code>textmode=true</code>
+         <code>valuefield=workRequired</code>
+         <code>valueformat=compound</code>
+         <code>aggregator.function=SUM</code>
+         <code>aggregator.valuefield=workRequired</code>
+         <code>aggregator.displayformat=minutesAsHoursString</code>
+         <code>aggregator.valueformat=compound</code>
+         <code>namekey=workRequired</code>
+         <code>shortview=false</code> 
         </div> 
-       </div> 
-       <div>
-        此 <code>aggregator. </code>行可以包含 <code>valuefield </code>或 <code>valueexpression</code>
+       </div>
+
+   <div>
+      此 <code>aggregator. </code>行可以包含 <code>valuefield </code>或 <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
