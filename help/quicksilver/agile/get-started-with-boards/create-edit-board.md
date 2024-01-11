@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档：参与者或更高版本 </p>
  <p>或</p> 
 <p>当前： [！UICONTROL Request]或更高版本 </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 创建新讨论区
 
@@ -64,6 +60,7 @@ ht-degree: 1%
 
 1. 仅对于动态展示板，请按照设置向导中的步骤操作：
 
+   1. 键入讨论区的名称，然后单击 [!UICONTROL **下一个**].
    1. 搜索并选择 [!DNL Workfront] [!UICONTROL **项目**] 将任务和问题提交到讨论区。
    1. 搜索并选择 [!UICONTROL **指定任务**] 将任务和问题提交到讨论区。
 
@@ -71,13 +68,11 @@ ht-degree: 1%
 
       此 [!UICONTROL **正在添加的卡片**] 计数器显示展示板上将包含多少张卡。 例如，如果选择具有100个任务和问题的项目，则计数器显示100。 如果添加用户分配并且该用户被分配到项目中的5个任务，则计数器显示5。
 
-   1. （可选）选择 [!UICONTROL **将已完成的工作作为存档信息卡提供**] 将已完成的任务和问题作为存档信息卡载入展示板。
+   1. （可选）选择 [!UICONTROL **不存档已完成的卡片**] 将已完成的任务和问题作为可见卡片带入展示板（位于已完成列中）。 如果未选择此选项，则创建展示板时完成的卡片将作为存档卡片放入展示板中。
 
       >[!NOTE]
       >
       >默认情况下，已存档的信息卡不会显示在展示板上。 要显示已存档的信息卡，您必须打开配置设置，然后筛选展示板以显示已存档的信息卡。 有关详细信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 和 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >如果未选择此选项，则展示板创建时完成的卡片不会显示在展示板上。 以后标记为完成的卡片会保留在展示板的“完成”列中，除非您设置卡片减少，否则不会存档。 有关更多信息，请参阅 [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （可选）单击 [!UICONTROL **使用高级过滤器**] 以显示其他筛选器选项。
 
