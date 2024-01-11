@@ -4,16 +4,16 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # 2024年第一季度发行版概述
 
-本页介绍了计划于2024年1月发布的2024年第一季度版本中包含的功能。
+本页介绍了计划于2024年1月15日这一周发行的2024年第一季度版本中包含的功能。
 
 此页面上的增强功能在“预览”环境中可用。 随着2024年第一季度版本接近其计划发布的生产版本，此页面将进行额外的增强。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a></p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -208,7 +208,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -357,7 +357,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.1版本</p>
                             </li>
                             <li>
-                                <p>按季度发布的生产：使用24.1版本</p>
+                                <p>面向所有客户的生产：使用24.4版本（2024年4月）</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a></p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

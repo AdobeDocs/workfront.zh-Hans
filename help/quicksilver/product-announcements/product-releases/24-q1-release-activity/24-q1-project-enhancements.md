@@ -3,9 +3,9 @@ title: 2024年第一季度项目增强功能
 description: 2024年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## AI驱动的智能分配
+
+>[!NOTE]
+>
+>用于快速版本的生产：用于24.1版本；面向所有客户的生产：用于24.4版本（2024年4月）
 
 我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 
