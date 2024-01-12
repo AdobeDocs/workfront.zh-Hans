@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
 
-## 2024年1月15日起一周
+## 2024年1月8日起一周
 
 ### Maestro功能将从预览和沙盒环境中删除
 

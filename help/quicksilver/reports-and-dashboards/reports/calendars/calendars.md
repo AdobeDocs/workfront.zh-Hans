@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: 日历
-description: 阅读这些文章以了解有关Adobe Workfront中的日历报表的信息。
+title: “日历：文章索引”
+description: 日历报告是一种动态报告，提供工作的可视化表示形式。 您可以在日历报告中显示项目、任务和问题的日期信息。 阅读这些文章以了解有关Adobe Workfront中的日历报表的信息。
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# 日历
+# 日程表：文章索引
 
-本节包含以下文章：
+<!--Audited: 01/2024-->
+
+日历报告是一种动态报告，提供工作的可视化表示形式。 您可以在日历报告中显示项目、任务和问题的日期信息。
+
+阅读以下文章，了解Adobe Workfront中的日历报表：
 
 * [日历报表概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

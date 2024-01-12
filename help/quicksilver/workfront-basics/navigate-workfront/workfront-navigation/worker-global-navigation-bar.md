@@ -7,9 +7,9 @@ description: 主菜单会随着您分配的访问级别而更改 [!DNL Adobe Wor
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 仪表板]**：此处显示与您共享的仪表板。 有关信息，请参阅 [仪表板](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL 日历]**：与您共享的日历将显示在此处。 有关信息，请参阅 [日历](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL 日历]**：与您共享的日历将显示在此处。 有关信息，请参阅 [日程表：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL 团队]**：分配给您团队的任务和问题将显示在此区域中。 作为工作人员，您是唯一 [!DNL Workfront] 看到 [!UICONTROL 团队] 区域。
 
