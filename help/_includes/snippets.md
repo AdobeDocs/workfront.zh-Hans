@@ -1,8 +1,8 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
-ht-degree: 0%
+source-wordcount: '2285'
+ht-degree: 1%
 
 ---
 # 代码片段
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ## 先决条件 {#cc-install-prereq}
 
-您必须为正在使用的Adobe Creative Cloud应用程序安装正确的插件：
+您必须为您正在使用的 Adobe Creative Cloud 应用程序安装正确的插件：
 * 有关Photoshop的信息，请参阅 [安装适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * 对于XD，请参阅 [安装适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * 有关InDesign、Illustrator、Premiere Pro和After Effects的信息，请参阅 [安装Adobe Workfront以提供设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -318,6 +318,10 @@ ht-degree: 0%
 ## 步骤1 — 开始使用资源 —  {#step1-to-resourcing}
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 资源]**.
+
+## 步骤1 — 转到利用率报表 —  {#step1-to-utilization-report}
+
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 资源]**，则 [!UICONTROL **利用**] 在左侧面板中。
 
 <!-- Review and approve work -->
 
