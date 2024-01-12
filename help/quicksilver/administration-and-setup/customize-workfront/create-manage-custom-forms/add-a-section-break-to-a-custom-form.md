@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用旧版表单生成器向自定义表单添加分区界限
 description: 您可以将自定义表单中的自定义字段和小组件分组到具有标题的部分。 这对于向将填写表单的用户展示组织好的体验非常有用。 此外，如果您需要限制特定用户访问某些自定义字段和小部件，则可以将这些字段和小部件放入分区，然后仅向这些用户授予对分区的访问权限。
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -83,12 +84,12 @@ ht-degree: 0%
       <td>如果要向用户说明此部分的用途，请键入文本。 这会显示在自定义表单上部分的标签下方。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">添加逻辑</td> 
-      <td>根据用户在填写表单时在多选自定义字段中做出的选择，使用显示逻辑指定是否在表单上显示部分。 有关更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">向自定义表单添加显示逻辑和跳过逻辑</a>.</td> 
+      <td role="rowheader"><p>添加逻辑</p></td> 
+      <td><p>根据用户在填写表单时在多选自定义字段中做出的选择，使用显示逻辑指定是否在表单上显示部分。</p><p><strong>注意：</strong> 如果分区界限下的所有单个字段应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。 即使未将显示逻辑应用于分区界限，也会发生这种情况。</p><p>有关更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">向自定义表单添加显示逻辑和跳过逻辑</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>授予访问权限</p> </td> 
-      <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。 
+      <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。
        <p>以下权限位于 <b>具有该对象访问权限的用户可以查看字段值</b>：</p> 
          <ul>
           <li><strong>视图</strong>：查看对象的权限</li>
@@ -108,7 +109,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>有关对象权限的信息，请参见 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象权限共享概述</a>.</p> 
-       <p><b>注释</b>:  
+       <p><b>注意</b>：  
        <ul> 
        <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用它们，也是如此。</p> </li> 
        <li> <p>将多个对象类型与表单关联可以更改这些步骤中可用的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多个对象类型如何影响自定义表单中的分区界限权限</a> 本文章中。</p> </li> 

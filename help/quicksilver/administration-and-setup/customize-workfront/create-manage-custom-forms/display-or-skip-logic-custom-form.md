@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以根据用户在填写自定义表单时所做的选择，决定应显示或跳过自定义表单的哪些部分。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -56,26 +56,23 @@ ht-degree: 1%
 
 * 无法将跳过逻辑添加到构件或分区界限中。 您只能将其添加到多选字段（单选按钮、下拉列表或复选框）。
 
-* 您可以将显示逻辑和跳过逻辑添加到自定义字段中。对于自定义字段，以下所有条件均成立：
+* 如果自定义字段的以下情况全部属实，则您可以将显示逻辑和跳过逻辑添加到自定义字段中：
 
    * 它是一个多选字段（单选按钮、下拉列表或复选框）
    * 它前面有一个多选字段
    * 后跟另一个自定义字段
 
 * 复制具有显示逻辑或跳过逻辑的表单时，该逻辑将复制到新的自定义表单中。
-* 为自定义表单创建显示逻辑规则时，请牢记以下几点
+* 批量编辑对象时，所有自定义字段都会显示在“编辑对象”框中，包括跳过或隐藏的字段。
+* 为自定义表单创建显示逻辑规则时，请牢记以下几点：
 
    * 默认情况下，显示逻辑语句中未包含的自定义字段会显示在自定义表单中。
    * 您可以创建多字段显示逻辑语句。
-
-* 批量编辑对象时，所有自定义字段都会显示在“编辑对象”框中，包括跳过或隐藏的字段。
+   * 如果分区界限下的所有字段都应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。
 
 ## 创建具有显示和跳过逻辑的示例自定义表单
 
 要了解如何向自定义表单添加显示和跳过逻辑，最好的方法是通过以下两个部分中说明的实际示例：
-
-* [显示逻辑](#display-logic)
-* [跳过逻辑](#skip-logic)
 
 ### 显示逻辑 {#display-logic}
 
