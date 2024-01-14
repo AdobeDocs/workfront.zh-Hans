@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 1%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 1%
          * [隐藏报表](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * 电子邮件 {#emails}
          * [电子邮件](administration-and-setup/manage-workfront/emails/emails.md)
-         * [电子邮件通知](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [电子邮件通知：文章索引](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [配置事件通知](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [可用事件通知](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [可用事件通知a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [解锁所有组的事件通知](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [事件通知主题行](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [修改用户的电子邮件通知设置](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 1%
    * 管理组 {#manage-groups}
       * [管理组](administration-and-setup/manage-groups/manage-groups.md)
       * 组 {#groups}
-         * [组概述](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [群组](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [组：文章索引](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [组概述](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [子组概述](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [主组概述](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * 创建和管理组 {#create-manage-groups}

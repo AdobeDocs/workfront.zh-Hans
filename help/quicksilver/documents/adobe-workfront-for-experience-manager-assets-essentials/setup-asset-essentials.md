@@ -6,7 +6,7 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
+source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 支持的Workfront和Experience Manager Assets字段
 
-**AEM关键词**
+### AEM关键词
 
 您可以将任何Workfront支持的字段映射到Experience Manager Assets Essentials中的关键字。
 
