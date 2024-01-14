@@ -4,7 +4,7 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用 <code>xcm:keywords</code> 而不是 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两种服务都使用 <code>xcm:keywords</code> 字段。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用 <code>xcm:keywords</code> 而不是 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两种服务都使用 <code>xcm:keywords</code> 字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
