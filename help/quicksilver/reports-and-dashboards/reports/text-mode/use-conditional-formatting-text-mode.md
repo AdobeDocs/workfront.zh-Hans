@@ -6,9 +6,9 @@ description: 在文本模式下使用条件格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准 </p> 
+   <p>或</p>
    <p>当前：计划</p> 
    </td> 
   </tr> 
@@ -55,9 +56,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 文本模式中的条件格式
 

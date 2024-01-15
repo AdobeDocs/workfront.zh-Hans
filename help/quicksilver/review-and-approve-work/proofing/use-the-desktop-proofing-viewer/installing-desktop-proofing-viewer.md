@@ -6,9 +6,9 @@ description: 桌面校对查看器是必须安装在本地计算机上的应用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>新建：任何</p> <p>或</p> <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
@@ -44,6 +44,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 {{latest-version}}
 

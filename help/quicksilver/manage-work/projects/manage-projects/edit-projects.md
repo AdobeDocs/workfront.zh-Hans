@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7404'
 ht-degree: 1%
 
 ---
@@ -43,18 +43,18 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准 </p> 
    或
    <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限</p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -65,7 +65,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 编辑项目的限制
 

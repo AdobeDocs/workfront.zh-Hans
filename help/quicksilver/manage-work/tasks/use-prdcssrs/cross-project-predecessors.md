@@ -6,9 +6,9 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -35,37 +35,6 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 
 ## 访问要求
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -73,29 +42,29 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
- <tr> 
-  <td role="rowheader">Adobe Workfront许可证*</td> 
-  <td> <p>新增：标准 </p>
- <p>或</p> 
-<p>当前：计划 </p> 
-</td> 
- </tr>   <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准 </p> 
+   或
+   <p>当前：计划 </p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对任务和项目的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td> <p>编辑对任务和项目的访问权限</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务和项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理任务和项目的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 创建跨项目前置任务
 

@@ -7,10 +7,10 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 2%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront许可证*</td> 
+  <td role="rowheader">Adobe Workfront许可证</td> 
   <td> <p>新文档：参与者或更高版本 </p>
  <p>或</p> 
 <p>当前：请求或更高版本 </p> 
@@ -57,10 +57,9 @@ ht-degree: 2%
  </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p> <p><b>注释</b></p>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td> <p>编辑您对其管理自定义表单的对象的访问权限</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>管理要为其附加自定义表单的对象的权限。</p> <p>查看自定义表单或对该表单具有更高权限， <b>附加到自定义数据</b> 对象（项目、任务和问题）。 有关更多信息，请参阅 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共享自定义表单</a>.</p> <p>重要信息：如果您没有对自定义Forms具有管理访问权限的计划许可证，则您必须至少具有查看自定义表单的特定权限，如中所述 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">共享自定义表单</a>. 即使表单在系统范围内可见，也必须向您授予这些权限。 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
@@ -68,7 +67,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
