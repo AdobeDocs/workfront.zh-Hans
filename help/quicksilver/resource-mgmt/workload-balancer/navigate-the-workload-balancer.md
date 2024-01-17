@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 导航工作负载均衡器
 description: 使用工作负载均衡器了解资源的可用性并将工作分配给用户。 本文将引导您使用可用于更新工作负载均衡器的视图和导航工作负载均衡器的图标和设置。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 * 如果您无权查看某些项目，则它们将显示为 **不可访问的工作项** 或 **不可访问的项目**.
 
-  ![不可访问工作项](assets/wb-inaccessible-work-items.png)
+  ![不可访问的工作项](assets/wb-inaccessible-work-items.png)
 
 * 工作项的名称显示在左侧，其时间轴显示在右侧。
 * 每个工作项的总计划小时数显示在工作项名称的右侧，以及代表工作项时间线的栏的左侧。
@@ -222,7 +222,7 @@ ht-degree: 0%
 1. 从以下选项中选择要在工作负载均衡器中一次显示的周数：
    * 1 周
    * 2 周
-   * 4 周. 这是默认设置。
+   * 4周。 这是默认设置。
    * 6 周
    * 3 个月
 

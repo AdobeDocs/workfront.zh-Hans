@@ -4,10 +4,10 @@ keywords: 工作，团队，员工，资源
 navigation-topic: the-workload-balancer
 title: 找到工作负载均衡器
 description: 您可以使用工作负载均衡器来计划工作的资源，或查看其可用性和当前分配。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

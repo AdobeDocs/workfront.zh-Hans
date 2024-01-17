@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 在工作负载均衡器中分配工作概述
 description: 作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户的工作项，并将这些项目分配给用户。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 1%

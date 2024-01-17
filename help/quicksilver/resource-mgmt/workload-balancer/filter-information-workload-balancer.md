@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 工作负载均衡器中的过滤器信息
 description: 为了高效地查找工作项并专注于您管理的用户或项，我们强烈建议您在工作负载均衡器中使用过滤器。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
