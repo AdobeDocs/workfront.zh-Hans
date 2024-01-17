@@ -1,13 +1,13 @@
 ---
 title: 报告更新区域
-description: 报告更新区域
+description: 日志条目报表会从项目、任务、问题和其他对象的更新区域显示系统更新，以前只能通过Adobe Workfront API使用这些更新区域。 虽然这是一个针对特定用例的高级报告，但采用更易于理解的格式后，您可以在Workfront中报告项目活动和系统更新。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 3%
 
 ---
@@ -38,25 +38,25 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：标准 </p><p>或 </p><p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看对包含您在报表中显示的日志条目的对象的权限</p> <p>在创建报告后，您将获得对报告的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看对包含您在报表中显示的日志条目的对象的权限</p> <p>在创建报告后，您将获得对报告的管理权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 * 要报告的任何自定义字段均具有设置 **在更新源中显示字段更改** 已启用。
 
-  要了解如何为自定义字段启用此设置，请参阅部分 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  要了解如何为自定义字段启用此设置，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## 日记帐分录报表概览
 
@@ -127,7 +127,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-要组织此报表中的信息，您可以使用内置的分组项目。 项目分组为您提供项目名称的主要分组和输入日期的辅助分组。 您可以在报告创建期间应用此现有分组，也可以在查看报告时应用此现有分组。
+要组织此报表中的信息，您可以使用称为“项目”的内置分组。 项目分组为您提供项目名称的主要分组和输入日期的辅助分组。 您可以在报告创建期间应用此现有分组，也可以在查看报告时应用此现有分组。
 
 要了解如何为报告设置所需的视图、筛选器和分组，请参阅相关部分：
 
@@ -167,7 +167,7 @@ ht-degree: 3%
 >如果要比较条件更改之间的天数差异，您可以使用增强型分析。\
 >要了解有关增强型分析的更多信息，请参阅 [增强的分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后选择 **日志条目**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ ht-degree: 3%
 
 要查看任务或问题何时被删除，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后选择 **日志条目**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ ht-degree: 3%
 
    有关添加列的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **过滤器** 选项卡，单击 **添加筛选器规则**，然后添加以下内容：
+1. 在 **过滤器** 选项卡，单击 **添加筛选器规则**，然后添加以下过滤器：
 
    * **更改类型** > **等于** > **删除**
    * **项目编号** > **等于** > **`<project>`**
@@ -365,7 +365,7 @@ ht-degree: 3%
 
 要查看自定义字段在项目生命周期中的变化情况，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后选择 **日志条目**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ ht-degree: 3%
 
    有关添加列的详细信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 在 **过滤器** 选项卡，单击 **添加筛选器规则**，然后添加以下内容：
+1. 在 **过滤器** 选项卡，单击 **添加筛选器规则**，然后添加以下过滤器：
 
    * **日志条目字段名称** > **包含** > **DE**
 
@@ -467,7 +467,7 @@ ht-degree: 3%
 
 您可以设置“日记帐分录”报表，以显示计划完成日期在项目生命周期中的更改频率。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后选择 **日志条目**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ ht-degree: 3%
 
 您可以设置“日记条目”报表，以显示项目所有者（或项目经理）在项目生命周期中的更改次数。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **报表**.
 1. 单击 **新建报告**，然后选择 **日志条目**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

@@ -7,14 +7,16 @@ description: 功能板的用途是提供对信息的快速访问。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # 仪表板入门
+
+<!-- Audited: 1/2024 -->
 
 功能板的用途是提供对来自多个报表信息的快速访问。 首先，您可以收集报告中的信息，然后将多个报告放在功能板上，以便更轻松地访问信息。
 
@@ -29,25 +31,25 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront计划*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront计划</strong></p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront许可证*</strong></p> </td> 
-   <td> <p>审核或更高</p> </td> 
+   <td> <p><strong>Adobe Workfront许可证</strong></p> </td> 
+   <td> <p>新文档：参与者或更高版本</p><p>或</p><p>当前：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>访问级别*</strong> </td> 
-   <td> <p>查看或更高的报告、功能板和日历访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td><strong>访问级别</strong> </td> 
+   <td> <p>查看或更高的报告、功能板和日历访问权限</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>对象权限</strong> </p> </td> 
-   <td> <p>查看仪表板的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.<br>有关功能板权限的更多信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">共享报告、功能板和日历 </a>.</p> </td> 
+   <td> <p>查看仪表板的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 可添加到功能板的对象
 
@@ -80,12 +82,12 @@ ht-degree: 0%
 * 打印这些文件的硬拷贝以与用户共享。\
   有关打印功能板的详细信息，请参阅 [打印功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* 将它们导出为.pdf文件，以便通过电子邮件发送给用户。\
-  有关将功能板导出为.pdf文件的详细信息，请参阅 [导出功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* 将它们导出为PDF文件，以便您可以通过电子邮件发送给用户。\
+  有关将功能板导出到PDF文件的详细信息，请参阅 [导出功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 与用户共享功能板时，默认情况下，该功能板上的所有报告、日历和外部页面也会与相同用户共享。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >如果用户被删除，则无法再访问他们创建的任何仪表板。 要了解更多信息，请参阅 [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ ht-degree: 0%
 
 可通过以下方式显示操控板：
 
-* 访问放置它的部分，并显示放置在部分中的仪表板。\
+* 访问放置仪表板的自定义部分。\
   有关在自定义部分放置功能板的更多信息，请参阅 [Adobe Workfront中的左侧导航](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* 搜索并在找到时手动访问它。
+* 搜索并手动访问仪表板。
 
 ## 访问功能板
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png)，然后单击 **仪表板**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **仪表板**.
 1. 将鼠标悬停在左侧边栏上，然后选择以下任一项：
 
    * **我的仪表板**：此处列出了您构建的报告面板。
@@ -110,7 +112,7 @@ ht-degree: 0%
      >如果您没有访问级别的报告、功能板和日历的“编辑”访问权限，则无法创建功能板。 在这种情况下，“我的仪表板”列表为空。
 
    * **共享报告面板**：此处列出了由其他用户创建并与您共享的功能板。
-   * **所有仪表板**：此处列出了您和其他用户与您共享的仪表板。
+   * **所有仪表板**：此处列出了其他用户与您共享的您的功能板和功能板。
 
    ![功能板区域](assets/dashboards-area.png)
 

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: 从主页区域创建工作项
-description: 从主页区域创建工作项
-author: Lisa
+description: 您可以从中创建工作项 [!UICONTROL 主页] 区域。 您可以为自己创建个人任务、向其他用户请求工作或向特定项目添加任务。
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
