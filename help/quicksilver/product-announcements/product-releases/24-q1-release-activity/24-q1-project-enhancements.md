@@ -3,9 +3,9 @@ title: 2024年第一季度项目增强功能
 description: 2024年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->用于快速版本的生产：用于24.1版本；面向所有客户的生产：用于24.4版本（2024年4月）
+>快速发布生产：使用24.2版（2024年2月）；面向所有客户的生产：使用24.4版（2024年4月）
 
 我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 
