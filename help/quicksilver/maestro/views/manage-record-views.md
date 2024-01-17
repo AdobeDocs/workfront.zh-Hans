@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ ht-degree: 0%
 | 从外部列表中复制行并将其粘贴到表中 | ✓ {\f13 } |               |
 | 在时间轴中显示记录 |            | ✓ {\f13 } |
 | 筛选记录 | ✓ {\f13 } | ✓ {\f13 } |
-| 组记录 |           | ✓ {\f13 } |
+| 组记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 排序记录 | ✓ {\f13 } |              |
 | 颜色代码记录 |           | ✓ {\f13 } |
 | 颜色代码分组 |           | ✓ {\f13 } |
-| 搜索记录 | ✓ {\f13 } | ✓ {\f13 } |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| 搜索特定记录 | ✓ {\f13 } | ✓ {\f13 } |
+| 共享视图 | ✓ {\f13 } | ✓ {\f13 } |
+| 从视图中打开记录的“详细信息”页面 | ✓ {\f13 } | ✓ {\f13 } |
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ ht-degree: 0%
    默认情况下，Maestro将视图命名为“Table &lt; number >”或“Timeline &lt; number >”。 该数字是自动生成的增量。
 
 1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称。 <!--ensure there is not another saving step here?!-->
-1. （可选）要管理视图，请参阅以下文章以了解更多信息：
+1. （可选）要管理特定类型的视图，请参阅以下文章：
 
    * [管理表视图](../views/manage-the-table-view.md)
    * [管理时间线视图](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## 删除视图
 
@@ -202,6 +197,7 @@ ht-degree: 0%
 
 有关共享视图的信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

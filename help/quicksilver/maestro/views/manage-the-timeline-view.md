@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+>有关信息，请参阅 [Adobe大师概述](/help/quicksilver/maestro/maestro-overview.md).
 
 访问AdobeMaestro中的记录类型页面时，可以在时间轴视图中显示记录。
 
@@ -129,7 +129,12 @@ role: User
 
    ![](assets/timeline-view-example.png)
 
-   与所选记录类型关联的记录在时间轴中显示为条形，并默认按时间顺序排序。
+   与所选记录类型关联的记录在时间轴中显示为条形，默认情况下，这些记录按其开始日期的时间顺序排序。
+
+   >[!TIP]
+   >
+   >    时间轴中记录的排序在压缩视图中不可见。
+
 
 1. 执行以下操作之一可在时间轴中导航：
 
@@ -165,8 +170,8 @@ role: User
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
    * [分组](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [设置](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
 

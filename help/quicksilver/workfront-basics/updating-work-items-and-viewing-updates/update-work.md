@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可选）要将图像附加到更新，请执行下列操作之一：
 
-   * <span class="preview">将图像保存在计算机上，然后将其拖放到新注释区域。</span>
-     <span class="preview">生产环境中无法为新评论体验提供此功能。 在生产环境中，旧版评论体验中提供了在评论中拖放图像的功能。 </span>
-
-   * <span class="preview">从计算机中复制屏幕快照，然后将其粘贴到评论中 </span>
+   * 将图像保存在计算机上，然后将其拖放到新注释区域。
+   * 从计算机中复制屏幕快照，然后将其粘贴到评论中。 旧版评论体验中不提供此功能。
    * 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
 
 
@@ -392,7 +390,7 @@ After the monthly releases to Production, the same features are also available i
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
    >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
-   >* <span class="preview">您可以右键单击新注释或在键盘上按Ctrl + V(对于Windows，或按CMD + V(对于Mac))来粘贴图像。</span>
+   >* 您可以右键单击新注释或在键盘上按Ctrl + V(对于Windows，或者按⌘ + V(对于Mac))来粘贴图像。
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，根据您选择的体验，会出现以下情况：
    >
@@ -404,12 +402,10 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可选）要在现有更新中查看图像，请执行下列操作之一：
 
-   * 单击 **预览** 图标 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 在图像缩略图上，在新的浏览器选项卡中打开全尺寸图像。
+   * 单击 **预览** 图标 ![](assets/previewimageicon-31x31.png) 在图像缩略图上，在新的浏览器选项卡中打开全尺寸图像。
    * 单击 **下载** 图标 ![](assets/downloadimageicon.png) 在图像缩略图上下载图像。
 
 1. 单击 **提交** 以添加您的评论。
-
-<div class="preview">
 
 ## 搜索更新
 
@@ -422,7 +418,11 @@ After the monthly releases to Production, the same features are also available i
 1. 转到 **更新** 对象的部分。
 1. 开始键入关键字 <!--or a user's name --> 在 **Search** 框（位于右上角） **评论** 选项卡。
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   只能搜索属于评论或回复文本的单词。 您无法搜索在更新中标记的用户或团队的名称。
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ After the monthly releases to Production, the same features are also available i
    Workfront会搜索对象的整个更新流，而不在屏幕上可见的注释。
 
 1. 单击 **x** 图标，以清除搜索结果并返回所有注释。
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

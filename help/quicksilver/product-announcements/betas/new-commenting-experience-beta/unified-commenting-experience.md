@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1252'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 # 新的评论体验
 
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。  </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
 
 <!--
 
@@ -402,7 +402,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓ {\f13 }</span>
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓ {\f13 }</span>
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>
@@ -432,7 +432,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> <span class="preview">✓ {\f13 }</span>
+   <td> ✓ {\f13 }
    </td>
    <td> 
    </td>

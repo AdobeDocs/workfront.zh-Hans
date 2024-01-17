@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
 >
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+>有关信息，请参阅 [Adobe大师概述](/help/quicksilver/maestro/maestro-overview.md).
 
 使用Adobe专家功能时，存在许可证和共享权限限制。
 

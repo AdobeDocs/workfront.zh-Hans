@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 
       不能使用与表格视图中隐藏的字段关联的关键字。
 
-   1. 在键盘上按Enter键以转到下一个找到的字段。
+   1. 按 **输入** 在键盘上转到下一个找到的字段。
 
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
 
@@ -279,7 +279,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
         </thead>
         <tbody>
         <tr>
-            <td>单行，段落 </td>
+            <td>单行、段落、公式 </td>
             <td><p>包含</p>
             <p>不包含</p>
             <p>是</p>
@@ -296,7 +296,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
             <p>不为空</p></td>
         </tr>
         <tr>
-            <td>多选</td>
+            <td>多选，人员</td>
             <td><p>具有任何</p>
             <p>包含所有</p>
             <p>完全匹配</p>
@@ -305,7 +305,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
             <p>不为空</p></td>
         </tr>
         <tr>
-            <td>数值、百分比、货币</td>
+            <td>数字、百分比、货币</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

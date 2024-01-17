@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Adobe大师”是Adobe Workfront推出的新产品。 Maestro的目的是全面�
 * 全面自定义工作流，从决定组织使用哪些对象类型（或记录类型）到配置这些对象如何相互链接。
 * 链接到来自其他系统的对象类型，为所有进程创建一致的框架。
 
-## Maestro中当前可用的功能
+## 当前可用的Maestro功能
 
 下表说明了Maestro中可用的主要功能及其可用时间线。 该列表不包括所有功能。
+
+有关新功能及其发布时间的信息，请参阅 [Maestro发布活动](/help/quicksilver/maestro/release-activity.md).
 
 | 功能 | 现在可用 | 即将推出 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
 * **链接的字段** （或查找字段）：在两个记录类型之间建立连接并将单个记录链接在一起后，您可以在要连接的记录中引用链接记录的字段。
 
+  例如，如果将Maestro营销活动与Workfront项目连接，则可以在Maestro营销活动记录中显示已连接项目的项目所有者字段。
+
   ![](assets/add-lookup-fields-modal.png)
 
   有关链接记录类型、记录和创建链接字段的信息，请参阅以下文章：
@@ -268,7 +272,7 @@ Maestro的框架是完全可自定义的。 您可以创建所有记录类型、
 
 ## 找到Maestro
 
-确保您的组织已获得Maestro的访问权限，并且您的系统或组管理员已将Maestro区域添加到主菜单。
+确保您的组织已获得Maestro的访问权限，并且您的系统或组管理员已将Maestro区域添加到主菜单。 有关信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) .
 
 要找到Maestro：
 
