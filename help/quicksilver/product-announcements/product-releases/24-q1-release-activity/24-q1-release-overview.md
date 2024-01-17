@@ -4,7 +4,7 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
+source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -470,11 +470,11 @@ Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一
 
 此版本中目前没有更新Workfront Goals。 在有可用更新时，将更新此区域。
 
-### API版本16
+### API版本17
 
-对于API版本16，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
+对于API版本17，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本16中的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+有关新增功能和更新内容的信息，请参阅 [API版本17中的新增功能](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
