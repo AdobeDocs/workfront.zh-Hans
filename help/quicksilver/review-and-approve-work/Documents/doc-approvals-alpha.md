@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ ht-degree: 0%
 
 ## 最新版本
 
+## Alpha第6版 — 2024年1月
+
+在此第6个Alpha版本中，我们具有：
+
+* 通过新的弹出窗口改善添加参与者的体验，以防止意外添加人员并通知他们
+* 添加了一个新的“未决批准”构件，该构件显示您拥有的项目的所有未决批准，包括查看所有处于批准状态的人、其状态以及提醒尚未做出决策的任何人的功能
+* 为所有审阅人添加了新的“完成我的审阅”操作，他们可以使用它来指示已完成其步骤
+
+请查看下面的完整视频演练：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _过去的版本_
+
 ### Alpha版本5 - 2023年9月
 
 在此第5个Alpha版本中，我们具有：
@@ -36,11 +50,7 @@ ht-degree: 0%
 * 添加了添加外部批准者的功能
 * 改进了外部审批者预览、下载和评论文档的视图
 
-请查看下面的完整视频演练：
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _过去的版本_
+观看 [视频演练](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha第4版 — 2023年5月
 
@@ -48,15 +58,13 @@ ht-degree: 0%
 
 我们对这一里程碑感到兴奋，并期待未来取得更多成就！
 
-请查看下面的完整视频演练：
-
-观看 [视频演练](https://video.tv.adobe.com/v/3420094/){target=_blank}
+观看 [视频演练](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha版本3 - 2023年3月
 
 在此第三个Alpha版本中，我们引入了一些成功消息以纳入您的反馈，这些成功消息会在完成添加或删除批准者和审阅者等操作时显示。 此外，此版本增强了待审批的可见性，现在可以在“主页”和“我的更新”页面上查看，使用户能够轻松地直接从这些页面审批文档。
 
-观看 [视频演练](https://video.tv.adobe.com/v/3417854/){target=_blank}
+观看 [视频演练](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha版本2 - 2023年1月
 
@@ -70,7 +78,7 @@ ht-degree: 0%
 
 如果要观看视频，则需要在预览环境中设置以下内容：
 
-* 添加用户:
+* 添加用户：
    * Angela审批者
    * Andrew Approver
    * Alice审批者
