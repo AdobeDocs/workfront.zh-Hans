@@ -4,9 +4,9 @@ description: 2024年第一季度发行版概述
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
+source-git-commit: 2a825387d0a17b459d3c1204ef57c09bae754452
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,11 @@ ht-degree: 0%
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [展示板增强功能](#boards-enhancements)
 * [文档管理增强功能](#document-management-enhancements)
+* [主页增强功能](#home-enhancements)
 * [集成增强功能](#integration-enhancements)
+* [项目增强功能](#project-enhancements)
 * [更新流和通知增强功能](#update-stream-and-notification-enhancements)
 
 ### 管理员增强功能
@@ -58,7 +61,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a></p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -206,7 +209,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -225,7 +228,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板的新主页的管理员控件</a></p><p>管理员现在可以使用布局模板为用户自定义新的主页。 自定义选项包括选择必需的小组件及其位置、选择背景以及用于选择可用筛选器和组（并设置默认值）的特定于小组件的选项。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板的新主页的管理员控件</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>管理员现在可以使用布局模板为用户自定义新的主页。 自定义选项包括选择必需的小组件及其位置、选择背景以及用于选择可用筛选器和组（并设置默认值）的特定于小组件的选项。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -382,7 +385,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a></p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -415,7 +418,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a></p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -433,7 +436,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中复制并粘贴图像</a></p><p>为了提供消息内容的上下文，您现在可以从计算机复制图像并将其粘贴到新的更新或回复中，从而快速将图像附加到注释中。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中复制并粘贴图像</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了提供消息内容的上下文，您现在可以从计算机复制图像并将其粘贴到新的更新或回复中，从而快速将图像附加到注释中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
