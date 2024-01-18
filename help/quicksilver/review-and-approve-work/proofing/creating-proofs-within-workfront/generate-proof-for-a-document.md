@@ -6,9 +6,9 @@ description: 您可以在将文档上传到Workfront时为其生成验证。 您
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ If a proof fails to generate after following the steps described in the followin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> 
+   <p>新建：任何 </p>
+   <p>当前： Pro或更高版本</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> 
+   <p>新增：标准</p>
+   <p>当前：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">校对权限配置文件 </td> 
@@ -45,19 +49,19 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 上传文档并创建验证
 
 1. 转到要创建新验证的项目、任务或问题。
-1. 单击 **文档** 选项卡。
+1. 单击 **文档** 选项卡。
 1. 单击“文档” ![](assets/document-icon.png) 在左侧面板中。
-1. 单击 **新增**，然后单击 **校对** 在出现的菜单中。
+1. 单击 **新增**，然后单击 **校对** 在出现的菜单中。
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ If a proof fails to generate after following the steps described in the followin
 ## 上传文档并创建新版本的验证
 
 1. 转到要创建新版本现有校对的项目、任务或问题。
-1. 单击 **文档** 选项卡。
+1. 单击 **文档** 选项卡。
 1. 选择要添加新版本的文档。
-1. 单击 **新增** > **版本** > **校对**.
+1. 单击 **新增** > **版本** > **校对**.
 1. 在 **新验证版本** 显示的页面，您可以
 
    * [使用基本工作流创建高级验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
