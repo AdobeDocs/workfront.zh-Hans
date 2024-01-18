@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign Classic模块
-description: 使用 [!DNL Adobe Campaign Classic] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 场景基于中的事件 [!DNL Adobe Campaign Classic] 帐户、创建、读取或更新协议和其它记录、使用您设置的标准搜索记录以及上传文档。
+description: 使用 [!DNL Adobe Campaign Classic] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 基于您的事件的场景 [!DNL Adobe Campaign Classic] 帐户，创建、读取或更新协议和其它记录，使用您设置的标准搜索记录，以及加载文档。
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 1%
+source-wordcount: '1382'
+ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Campaign Classic] 模块
 
-使用 [!DNL Adobe Campaign Classic] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 场景基于中的事件 [!DNL Adobe Campaign Classic] 帐户、创建、读取或更新记录、使用您设置的标准搜索记录，以及执行自定义API调用。
+使用 [!DNL Adobe Campaign Classic] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 基于您的事件的场景 [!DNL Adobe Campaign Classic] 帐户，创建、读取或更新记录，使用您设置的标准搜索记录，以及执行自定义API调用。
 
 ## 访问要求
 
@@ -47,28 +47,81 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connect [!DNL Adobe Campaign Classic] 到 [!DNL Adobe Workfront Fusion]
+## 连接 [!DNL Adobe Campaign Classic] 到 [!DNL Adobe Workfront Fusion]
 
-1. 在任意 [!DNL Adobe Campaign Classic] 模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 字段。
-1. 输入用于连接到您的网站的基本URL [!DNL Adobe Campaign Classic] 实例。
-1. 输入用户名和密码。
+>[!IMPORTANT]
+>
+>我们强烈建议创建服务器到服务器连接。 Adobe Campaign更新了其API，以仅接受服务器到服务器连接。 如果您要连接到Campaign版本8或更高版本，则 **必须** 创建服务器到服务器连接。
+>
+>有关Campaign新连接要求的更多信息，请参阅 [将Campaign技术操作员迁移到Adobe Developer控制台](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) 请参阅Campaign文档。
+
+1. 在任何 [!DNL Adobe Campaign Classic] 模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 字段。
+1. 填写以下字段：
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[！UICONTROL连接类型]</td>
+          <td>
+            <p>选择是要创建基本连接，还是要创建服务器到服务器连接。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL连接名称]</td>
+          <td>
+            <p>输入此连接的名称。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL基本URL]</td>
+          <td>输入用于连接到 [!DNL Adobe Campaign Classic] 实例。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL用户名]</td>
+          <td>如果要创建基本连接，请输入您的Adobe Campaign用户名。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL密码]</td>
+          <td>如果要创建基本连接，请输入您的Adobe Campaign密码。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL客户端ID]</td>
+          <td>如果要创建服务器到服务器连接，请输入 [!DNL Adobe] [！UICONTROL客户端ID]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL客户端密钥]</td>
+          <td>如果要创建服务器到服务器连接，请输入 [!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL环境]</td>
+          <td>选择您是连接到生产环境还是非生产环境。
+        </tr>
+        <tr>
+          <td role="rowheader">[！UICONTROL类型]</td>
+          <td>选择您是要连接到服务帐户还是个人帐户。
+        </tr>
+   </tbody>
+    </table>
 1. 单击 **[!UICONTROL 继续]** 以创建连接并返回模块。
 
 ## [!DNL Adobe Campaign Classic] 模块及其字段
 
-配置时 [!DNL Adobe Campaign Classic] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Campaign Classic] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Adobe Campaign Classic] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Campaign Classic] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -80,7 +133,7 @@ ht-degree: 1%
 
 ### 触发器
 
-#### [!UICONTROL 观看记录]
+#### [!UICONTROL 观察记录]
 
 此计划触发器模块在记录更改时启动方案。
 
@@ -89,12 +142,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL筛选器]</td> 
-   <td>选择是要监视新记录、更新的记录，还是同时监视两者。</td> 
+   <td>选择要监视新记录、更新记录还是两者。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
@@ -105,8 +158,8 @@ ht-degree: 1%
    <td>选择要包含在模块输出中的字段。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">要包含在输出中的[！UICONTROL自定义字段]</td> 
-   <td>对于要包含在输出中的每个自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
+   <td role="rowheader">[！UICONTROL要包含在输出中的自定义字段]</td> 
+   <td>对于每个要包含在输出中的自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL返回结果的最大数目]</td> 
@@ -135,8 +188,8 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
@@ -162,8 +215,8 @@ ht-degree: 1%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL操作]</td>
@@ -176,7 +229,7 @@ ht-degree: 1%
     </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL标头]</td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
         <p>以标准JSON对象的形式添加请求的标头。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -184,8 +237,8 @@ ht-degree: 1%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL XML正文]</td>
-   <td> <p>在XML中添加API调用的正文内容，而不使用会话元素。 </td>     </tr>
+      <td role="rowheader">[！UICONTROL XML Body]</td>
+   <td> <p>以XML形式为API调用添加正文内容，而不添加会话元素。 </td>     </tr>
   </tbody>
 </table>
 
@@ -198,8 +251,8 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
@@ -224,12 +277,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL操作]</td> 
-   <td><p>选择要在对象上执行的操作。</p>
+   <td><p>选择要对对象执行的操作。</p>
    <ul>
    <li><p><b>[!DNL List]</b></p><p> 有关可用字段，请参阅 <a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a> 本文章中。 </p></li>
      <li><p><b>[！UICONTROL Get]</b></p><p> 有关可用字段，请参阅 <a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a> 本文章中。 </p></li> 
@@ -244,19 +297,19 @@ ht-degree: 1%
 
 #### [!UICONTROL 读取记录]
 
-该操作模块从以下位置读取记录 [!DNL Adobe Campaign Classic].
+此操作模块从读取记录 [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
-   <td>选择类型 [!DNL Adobe Campaign Classic] 您想要读取的记录。</td> 
+   <td>选择类型 [!DNL Adobe Campaign Classic] 要读取的记录。</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[！UICONTROL ID] </td> 
@@ -267,8 +320,8 @@ ht-degree: 1%
    <td>选择要包含在模块输出中的字段。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">要包含在输出中的[！UICONTROL自定义字段]</td> 
-   <td>对于要包含在输出中的每个自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
+   <td role="rowheader">[！UICONTROL要包含在输出中的自定义字段]</td> 
+   <td>对于每个要包含在输出中的自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -276,15 +329,15 @@ ht-degree: 1%
 
 #### [!UICONTROL 订阅或取消订阅]
 
-此操作模块为用户订阅或取消订阅信息服务。
+此操作模块为用户订阅或取消订阅信息服务的用户。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL订阅或取消订阅]</td> 
@@ -310,8 +363,8 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
@@ -319,11 +372,11 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td role="rowheader">[！UICONTROL ID] </td> 
-   <td>输入要更新的记录ID的映射。</td> 
+   <td>输入要更新的记录的映射ID。</td> 
   </tr> 
 <tr> 
    <td role="rowheader">[！UICONTROL字段] </td> 
-   <td>选择要更新值的字段，然后填写这些字段的值。 字段因您选择的记录类型而异。</td> 
+   <td>选择要更新其值的字段，然后填写这些字段的值。 字段因您选择的记录类型而异。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL自定义字段]</td> 
@@ -336,15 +389,15 @@ ht-degree: 1%
 
 #### [!UICONTROL 搜索]
 
-此搜索模块根据指定的条件返回记录。
+此搜索模块会根据指定的条件返回记录。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与的连接 [!DNL Adobe Campaign Classic]，请参见 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign Classic]</a> 本文章中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
