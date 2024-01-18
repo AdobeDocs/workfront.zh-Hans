@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 3%
    <ul>
    <li>描述</li>
    <li>状态</li>
-   <li>严重程度</li>
+   <li>严重性</li>
    </ul>
    <p>管理问题的权限以编辑详细信息区域或编辑问题框中的所有字段</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
   </tr> 
@@ -77,8 +77,6 @@ ht-degree: 3%
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （可选）要编辑有关问题的有限信息，请单击 **问题详细信息** 在左侧面板中。
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -171,13 +169,13 @@ ht-degree: 3%
        <ul> 
         <li> <p><strong>无</strong> </p> </li> 
         <li> <p><strong>低</strong> </p> </li> 
-        <li> <p><strong>正常</strong> </p> </li> 
+        <li> <p><strong>普通</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>紧急</strong> </p> </li> 
        </ul> <p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">严重程度</td> 
+      <td role="rowheader">严重性</td> 
       <td> <p>这是一个可视标志，用于指示问题中描述的问题有多严重。 严重程度特定于问题。 从以下选项中选择：</p> 
        <ul> 
         <li> <p style="font-weight: bold;">轻微</p> </li> 
@@ -237,7 +235,7 @@ ht-degree: 3%
       <td role="rowheader">问题解决者</td> 
       <td> <p>这显示问题是否由其他对象解决。 您可以从下拉菜单中选择此问题是由任务、项目还是其他问题解决，然后开始键入将解决此问题的任务、项目或问题的名称。 当它出现在列表中时将其选中。</p>
 
-   <b>注释</b>
+   <b>注意</b>
 
    当您选择对象以解决问题时，问题状态将链接到解决对象的状态，并且无法在该问题上更改。 有关解析对象的详细信息，请参阅 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述 </a>.
 
@@ -305,7 +303,7 @@ ht-degree: 3%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">计划小时</td> 
+      <td role="rowheader">规划小时数</td> 
       <td> <p>这是问题的被分派人完成该问题所需的实际时间。 键入问题的已计划小时数。<br></p> <p>注意：更改问题的已计划小时数不会更改问题的已计划完成日期。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

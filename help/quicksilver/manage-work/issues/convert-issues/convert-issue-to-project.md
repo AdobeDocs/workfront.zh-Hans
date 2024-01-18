@@ -6,10 +6,10 @@ description: 在Adobe Workfront中将问题转化为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -90,8 +90,6 @@ ht-degree: 0%
 
       * 单击问题的名称，然后单击 [!UICONTROL **更多**] 菜单 ![](assets/more-icon.png) 问题名称的右侧
 
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
-
         或
 
       * 在问题列表、报表或功能板中选择问题，单击 **更多** 菜单 ![](assets/more-icon.png) ，然后单击 **从模板转换为项目** 并开始在 **搜索模板** 框，然后在模板显示在列表中时单击模板的名称。 继续执行步骤3。
@@ -146,7 +144,7 @@ ht-degree: 0%
 
    1. （可选且视情况而定）单击 [!UICONTROL **选项**] 在左侧面板中，然后从可用的选项中进行选择：
 
-      * [!UICONTROL **保留原来的问题，并将其解决方案与此项目绑定**]
+      * [!UICONTROL **保存原来的问题，并将其解决方案与项目绑定**]
 
         取消选择时，将删除原始问题。
 

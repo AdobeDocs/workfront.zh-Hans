@@ -6,9 +6,9 @@ description: 您可以更新任务的状态，以告知其他人该任务在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ ht-degree: 1%
 
 ## 访问要求
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 您必须具有以下权限才能手动更新任务：
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新增：标准</p> 
+   或
+   <p>当前：工作或更高</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑任务访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑任务访问权限</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理任务的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 有关更新任务状态的注意事项
 
@@ -94,20 +64,54 @@ ht-degree: 1%
 
 ## 手动更新任务状态
 
-在更新任务状态时，还可以键入有关新状态的说明并更改其他任务信息，如到期日期。
+您可以在Workfront的以下区域中更新任务状态：
 
-1. 转到您分配了要更新其状态的任务。
+* 任务页面上的任务标题。
+* 编辑任务时显示的编辑任务框。
+* 任务页面上的“任务详细信息”部分。
+* 在任务列表或报告中，当状态字段在视图中可见时。
+* 在任务的“摘要”面板中。
+
+要在任务标题中手动更新任务状态，请执行以下操作：
+
+1. 转到要更新其状态的任务。
 1. 单击 **状态** 字段并选择新状态。
-1. （可选）执行以下任一操作以提供有关更新的其他信息，然后单击 **更新** 或者，如果任务具有 **完成** 状态，单击 **完成：**
+1. 要提供任务完成的可视指示，请拖动或双击下面的气泡 **完成百分比** 在任务的标题中
 
-   * 要添加有关更新的注释，请转到 **更新** 区域并单击 **开始新的更新**，然后键入您的注释。
+   或
 
-   * 要通知特定用户有关更新，请在 **通知** 键入有关更新的注释时显示的框。 有关更多信息，请参阅 [为其他人标记更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 要更新任务的完成情况，请单击 **选择完成情况** 右侧 **通知** 框（键入有关更新的注释时会显示这些内容），然后选择最能反映任务当前条件的条件。
+   在任务标题中的气泡内单击以输入百分比。
 
-   * 要更新任务的提交日期，请展开 **提交日期** 下拉日历，然后选择新的提交日期。
-   * 要提供任务完成的可视指示，请将气泡拖动到“完成百分比”下，或双击它以输入百分比值。\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. （可选）执行以下任一操作以提供有关更新的其他信息：
+
+   * 要添加有关更新的注释，请转到 **更新** 部分并单击 **新建评论**，然后键入注释。
+
+     ![](assets/add-update-to-task.png)
+
+   * 要通知特定用户有关更新，请在 **标记人员或团队** 键入评论时显示的字段。 有关更多信息，请参阅 [为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * 要更新任务的提交日期，请单击 **任务详细信息**，然后编辑 **提交日期** 字段。 有关信息，请参阅 [编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  只有任务被分配者才能更新提交日期。
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 自动更新任务状态
 
@@ -123,9 +127,9 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>操作</td> 
-   <td>原始状态</td> 
-   <td>新建状态</td> 
+   <td><b>操作</b></td> 
+   <td><b>原始状态</b></td> 
+   <td><b>新建状态</b></td> 
   </tr> 
   <tr> 
    <td>将任务完成百分比更新为100%</td> 
@@ -139,7 +143,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>单击“开始任务”按钮接受处理分配给您的任务</span> </td> 
-   <td><span>新</span> </td> 
+   <td><span>新建</span> </td> 
    <td> <p>与“主团队”设置中的“开始任务”按钮关联的任何状态。</p> <p>有关将“处理此项工作”按钮替换为“开始任务”按钮的信息，请参阅 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span>.</p> <p>提示： <span>点击</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">“撤消”按钮</span>单击“开始任务”后，状态将恢复为“新建”。 </p> </td> 
   </tr> 
  </tbody> 
