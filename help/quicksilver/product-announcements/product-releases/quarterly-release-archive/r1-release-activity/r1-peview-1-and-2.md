@@ -5,10 +5,11 @@ title: R1预览1和2
 description: 本页介绍R1.1和R1.2版本在“预览”环境中提供的所有更改。 2017年1月19日，预览环境中提供了此页面上的功能。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -109,7 +110,7 @@ Workfront管理员现在可以恢复过去30天内删除的项目、任务和问
 * 项目
 * 任务
 * 问题
-* 时间表
+* 工时表
 * 文档
 
 可以在以下应用程序中共享对象的URL：

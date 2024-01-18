@@ -1,29 +1,30 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2022年2月7日开始的一周
-description: Workfront Fusion版本活动：&nbsp;2022年2月7日开始的一周
+title: Workfront Fusion发布活动：&nbsp；2022年2月7日开始的周
+description: Workfront Fusion发布活动：&nbsp；2022年2月7日开始的周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2022年2月7日起的一周
+# Workfront Fusion发行活动： 2022年2月7日开始的周
 
-本页介绍2022年2月7日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2022年2月7日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
 ## Anaplan连接器和模块现已可用
 
-现在，您可以使用Adobe Workfront Fusion连接到您的Anaplan帐户。 借助Anaplan模块，您可以
+现在，您可以使用Adobe Workfront Fusion连接到您的Anaplan帐户。 通过Anaplan模块，您可以
 
 * 创建、读取、更新、删除或搜索Anaplan记录
 * 将记录批量导入Anaplan
@@ -45,8 +46,8 @@ ht-degree: 0%
 
 ## 创建方案时直接转到方案编辑器
 
-为了使方案创建过程更顺畅，我们删除了应用程序选择页面。 现在，您可以直接转到方案编辑器，然后从添加模块时显示的列表中选择要连接到的应用程序。
+为了使场景创建过程更加顺畅，我们删除了应用程序选择页面。 现在，您可以直接转到方案编辑器，并从添加模块时显示的列表中选择要连接的应用程序。
 
-以前，您可以从应用程序选择页面和列表中选择应用程序。
+以前，您可以从应用程序选择页面以及列表中选择应用程序。
 
 有关为您的方案选择应用程序的更多信息，请参阅 [在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md).

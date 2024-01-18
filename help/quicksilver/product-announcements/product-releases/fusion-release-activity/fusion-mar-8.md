@@ -3,31 +3,32 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion發行活動： 2021年3月8日當週'
-description: 本頁說明2021年3月8日當週在Adobe Workfront Fusion中所做的所有增強功能。
+title: 'Workfront Fusion发布活动：2021年3月8日当周'
+description: 本页介绍了2021年3月8日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion發行活動： 2021年3月8日當週
+# Workfront Fusion发布活动： 2021年3月8日开始的周
 
-本頁說明2021年3月8日當週在Adobe Workfront Fusion中所做的所有增強功能。
+本页介绍了2021年3月8日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-如需所有最近變更的清單，請參閱 [Adobe Workfront Fusion發行活動](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-如需Workfront Fusion中近期的錯誤修正清單，請參閱 [Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 頁面，並檢查是否有任何標籤為Workfront Fusion維護更新的更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
-## 在對應面板中搜尋專案
+## 在映射面板中搜索项目
 
-為了讓您更輕鬆地在您的情境中尋找要對應的專案，我們新增了搜尋對應面板的功能。 這樣一來，在有大量模組或資料的情境下，對應就會容易得多。
+为了更便于您在场景中查找要映射的项目，我们添加了搜索映射面板的功能。 这样一来，在包含大量模块或数据的场景中，映射就会更加容易。
 
-如需對應的詳細資訊，請參閱 [在Adobe Workfront Fusion中將資訊從一個模組對應到另一個模組](../../../workfront-fusion/mapping/map-information-between-modules.md).
+有关映射的详细信息，请参阅 [在Adobe Workfront Fusion中将信息从一个模块映射到另一个模块](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-此功能現已包含在 [Workfront Fusion中的通用聯結器和路由](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) Adobe Experience League上的學習路徑。
+此功能现已包含在 [Workfront Fusion中的通用连接器和路由](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) Adobe Experience League的学习路径。

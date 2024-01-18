@@ -3,9 +3,11 @@ title: 2023年第四季度其他增强功能
 description: 2023年第四季度其他增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ ht-degree: 0%
 为了更好地向参与者/请求者告知付费Workfront许可证类型所提供的功能，他们现在可以看到主菜单中的所有可用选项。 参与者不可用的选项将显示为灰色。
 
 有关主菜单的更多信息，请参阅 [顶部导航栏概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

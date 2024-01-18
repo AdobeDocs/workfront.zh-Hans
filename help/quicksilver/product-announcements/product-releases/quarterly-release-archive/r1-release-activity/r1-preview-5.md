@@ -5,10 +5,11 @@ title: R1预览5
 description: 本页介绍R1 Preview 5版本在Preview环境中可用的所有更改。 2017年3月16日，预览环境中提供了此页面上的功能。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ ht-degree: 13%
 
 现在，即时电子邮件通知中提供了以下选项。 这些选项仅适用于同时具有每日摘要对应项的即时通知：
 
-* &quot;将此项添加至每日摘要&quot;
+* “将此项添加到每日摘要”
 * “停止此类型的电子邮件”
 
 现在，当您收到即时电子邮件通知时，您可以将该通知添加到每日摘要通知中，也可以完全取消订阅该通知。

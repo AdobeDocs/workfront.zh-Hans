@@ -4,37 +4,38 @@ description: 21.4请求增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # 21.4请求增强功能
 
-本页介绍了在“预览”环境的21.4版本中所做的所有请求增强功能。 这些增强功能将于2021年10月4日这一周的生产环境中提供。
+本页介绍了21.4版本对“预览”环境所做的所有请求增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本中可用的所有更改的列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## 改进了对请求的搜索，现在包含特殊字符
+## 现在，改进的请求搜索包含特殊字符
 
-为了在提交请求时更快、更轻松地查找请求队列，我们改进了搜索算法，现在可以查找可能包含任何特殊字符的队列。
+为了更快、更轻松地在提交请求时查找请求队列，我们改进了搜索算法，现在可以查找可能包含任何特殊字符的队列。
 
-例如，您可以找到名为“”的请求队列&#42;Workfront”&#42;Workfront”或“Workfront”。
+例如，您可以找到名为&#39;&#39;的请求队列&#42;Workfront通过键入“&#42;请求类型字段中的“Workfront”或“Workfront”。
 
 支持所有特殊字符。
 
 有关提交请求的信息，请参阅 [创建和提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## 新Workfront体验中嵌入式请求队列的新外观
+## 新Workfront Experience中嵌入请求队列的新外观
 
 >[!NOTE]
 >
->此功能仅在新的Adobe Workfront体验中可用。
+>此功能仅在新的Adobe Workfront Experience中可用。
 
-为了在新的Workfront体验中随时随地保持相同的提交请求外观，我们重新设计了用于向嵌入的请求队列添加请求的界面。 在进行此增强之前，用于从功能板添加请求的界面与Workfront Classic环境相匹配。
+为了在新的Workfront Experience中保持提交请求的外观不变，我们重新设计了用于将请求添加到嵌入式请求队列的界面。 在此增强功能之前，从功能板添加请求的界面与Workfront classic环境相匹配。
 
 有关信息，请参阅 [在功能板中嵌入请求队列](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 

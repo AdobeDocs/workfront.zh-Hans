@@ -1,23 +1,24 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2021年8月2日这一周
-description: Workfront Fusion版本活动：&nbsp;2021年8月2日这一周
+title: Workfront Fusion发行活动：&nbsp；2021年8月2日起一周
+description: Workfront Fusion发行活动：&nbsp；2021年8月2日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年8月2日起的一周
+# Workfront Fusion发行活动： 2021年8月2日开始的周
 
-本页介绍2021年8月2日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2021年8月2日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
@@ -44,22 +45,23 @@ ht-degree: 0%
 </div>
 -->
 
-## 映射面板中提供的新函数
+## 映射面板中可用的新函数
 
 映射面板中现在提供了两个新函数。
 
-* 新的日期和时间函数：dateDifference
+* 新的日期和时间函数： dateDifference
 
-   为了更便于在您的情景中计算时间跨度，我们添加了新的“dateDifference”日期和时间函数。 此函数采用两个日期或时间以及一个时间单位，并返回日期或时间之间的时间量（以所选的时间单位表示）。
+  为了更便于计算场景中的时间跨度，我们添加了新的“dateDifference”日期和时间函数。 此函数采用两个日期或时间和一个时间单位，并返回日期或时间之间的时间量，以所选的时间单位表示。
 
-   以前，日期和时间差只能通过用户输入的公式来计算。
+  以前，只能通过用户输入的公式计算日期和时间差。
 
-   有关更多信息，请参阅 [Adobe Workfront Fusion中的日期和时间函数](../../../workfront-fusion/functions/date-and-time-functions.md).
+  有关更多信息，请参阅 [Adobe Workfront Fusion中的日期和时间函数](../../../workfront-fusion/functions/date-and-time-functions.md).
 
-* 新的数组函数：arrayDifference
+* 新的数组函数： arrayDifference
 
-   此函数采用两个数组，并返回一个新数组。 您可以选择模块返回的新数组类型：
+  此函数接受两个数组，并返回一个新数组。 您可以选择模块返回的新数组类型：
 
-   * 一个数组中未包含在另一个数组中的元素数组
-   * 一个元素数组，包含在一个或另一个数组中，但不同时包含在两者中。
-   有关更多信息，请参阅 [Adobe Workfront Fusion中的数组函数](../../../workfront-fusion/functions/array-functions.md).
+   * 一个数组中未包含在其他数组中的元素数组
+   * 包含在一个数组或另一个数组中，但不能同时包含这两个数组的元素数组。
+
+  有关更多信息，请参阅 [Adobe Workfront Fusion中的数组函数](../../../workfront-fusion/functions/array-functions.md).

@@ -1,20 +1,21 @@
 ---
-title: 22.1资源管理增强
-description: 22.1资源管理增强
+title: 22.1资源管理增强功能
+description: 22.1资源管理增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# 22.1资源管理增强
+# 22.1资源管理增强功能
 
-本页介绍了在“预览”环境中22.1版本中所做的所有资源管理增强。 这些增强功能将在生产环境中提供
+本页介绍了22.1版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在“生产”环境中提供
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,30 +25,30 @@ in January 2022
 
 2022年1月17日这一周。
 
-有关22.1版本中可用的所有更改的列表，请参阅 [22.1版本概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+有关22.1版本可用的所有更改列表，请参阅 [22.1发行版概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## 改进了“设置”面板，以及在负载平衡器中对项目及其任务进行颜色代码的功能
+## 改进了设置面板以及在工作负载均衡器中对项目及其任务进行颜色编码的功能
 
-为了改善您在使用工作负载平衡器时的体验，我们引入了以下增强功能：
+为了改进在使用工作负载均衡器时的体验，我们引入以下增强功能：
 
-* 重新设计了“设置”面板，以包含以前位于工具栏中的选项。 这样可改进工具栏中空间的使用。
-* 添加了按项目自定义颜色主题的功能。 在按项目选择颜色代码时，每个项目及其工作项将以相同的颜色显示。 每个项目的颜色各不相同。 在进行此增强之前，您只能按项目状态进行颜色代码。
+* 重新设计了“设置”面板，以包含之前位于工具栏上的选项。 这改进了工具栏中空间的使用。
+* 添加了按项目自定义颜色主题的功能。 当选择按Project进行颜色编码时，每个项目及其工作项以相同的颜色显示。 每个项目的颜色都是唯一的。 在此增强功能之前，您只能按项目状态进行颜色编码。
 
-有关更多信息，请参阅 [导航工作负载平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关更多信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## 使用工作负载平衡器批量分配工作
+## 使用工作负载均衡器批量分配工作
 
-在我们继续努力弃用计划工具并用负载平衡器替换这些工具时，我们增加了批量管理分配的功能。 现在，您可以一次将多个工作项分配给多个用户，将多个工作项中的用户替换为其他用户，以及一次从多个项目中取消分配用户。 通过使用工作负载平衡器中新的批量分配功能，您可以通过一个操作来执行所有这些操作。
+为了继续弃用计划工具并使用工作负载均衡器替换它们，我们添加了批量管理分配的功能。 您现在可以一次性将多个工作项分配给多个用户，将多个工作项中的用户替换为其他用户，并一次性取消分配多个项目中的用户。 通过使用工作负载均衡器中的新批量分配功能，您可以通过一次操作执行所有这些操作。
 
-在此增强之前，您只能手动或通过拖放方式将一个用户分配给一个工作项。
+在此增强功能之前，您只能手动或通过拖放方式将一个用户分配给一个工作项目。
 
-除了“名称”之外，新的“批量分配”还包含按“项目”和“任务状态”划分的新筛选功能。
+除了名称之外，新的批量分配还包括按项目和任务状态进行筛选的新功能。
 
-有关更多信息，请参阅 [工作负载平衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有关更多信息，请参阅 [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-## 管理作业角色时覆盖货币
+## 在管理工作角色时覆盖货币
 
-为了帮助您轻松管理跨全球组织的成本和计费率，我们实施了凌驾于职务职位货币之上的政策。 使用此功能，您现在可以使用与职务角色位置匹配的币种设置职务角色的成本和开单费率。 这将覆盖任务角色的所有财务计算中的系统货币。
+为了帮助您轻松管理全球组织的成本和计费率，我们实施了工作角色币种覆盖。 使用此功能，您现在可以使用与工作角色位置匹配的货币设置工作角色的成本和计费率。 这将覆盖工作角色的所有财务计算中的系统货币。
 
-有关信息，请参阅 [创建和管理作业角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+有关信息，请参阅 [创建和管理职位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 

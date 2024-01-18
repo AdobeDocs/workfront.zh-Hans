@@ -5,10 +5,11 @@ title: R1预览3
 description: 本页介绍R1.3版本在“预览”环境中可用的所有更改。 此页面上的功能已于2017年2月1日在预览环境中提供。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1347'
 ht-degree: 2%
 
 ---
@@ -137,8 +138,8 @@ ht-degree: 2%
 以下字段已从Workfront中删除，无法再包含在报表中（这些字段提供了有关项目的信息，而不是有关审批本身的信息，并且经常被滥用）：
 
 * 计划审批开始日期
-* 预计批准开始日期
-* 估计批准开始日期
+* 审批预计开始日期
+* 审批估计开始日期
 
 ## “我已做的请求”的新电子邮件摘要选项
 

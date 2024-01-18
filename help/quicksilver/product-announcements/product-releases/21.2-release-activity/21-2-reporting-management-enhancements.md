@@ -1,51 +1,52 @@
 ---
 content-type: release-notes
-keywords: 注释，季度，更新，发行
+keywords: 注释，季度，更新，版本
 navigation-topic: 2021-2-release-activity
-title: 21. 2报表增强功能
-description: 本页介绍了在“预览”环境的21.2版本中所做的所有报表增强功能。 这些增强功能将于2021年5月10日这一周的生产环境中提供。 有关21.2版本中可用的所有更改的列表，请参阅21.2版本概述。
+title: 21. 2个报表增强功能
+description: 本页介绍了21.2版本对“预览”环境所做的所有报表增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本中可用的所有更改列表，请参阅21.2版本概述。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# 21. 2报表增强功能
+# 21. 2个报表增强功能
 
-本页介绍了在“预览”环境的21.2版本中所做的所有报表增强功能。 这些增强功能将于2021年5月10日这一周的生产环境中提供。 有关21.2版本中可用的所有更改的列表，请参阅 [21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有报表增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## 限制在项目和报表中进行小时编辑
+## 限制在项目和报告中编辑小时
 
-为了在项目和小时报表的“小时”选项卡上对小时编辑提供更多控制，我们添加了一个设置，允许Workfront管理员将小时编辑限制为小时所有者和系统管理员。
+为了在项目和小时报表的“小时”选项卡上提供对小时编辑的更多控制，我们添加了一个设置，允许Workfront管理员将小时编辑限制为小时所有者和系统管理员。
 
-以前，在访问级别启用工时单和工时的用户可以编辑工时。
+以前，在访问级别中启用时间表和小时数的用户可以编辑小时数。
 
-有关更多信息，请参阅 [配置工时单和工时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关更多信息，请参阅 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## 更新列表和报表中“工作总揽”字段的新外观
+## 更新列表和报告中“工作总揽”字段的新外观
 
 >[!NOTE]
 >
->此功能仅在新的Adobe Workfront体验中可用。
+>此功能仅在新的Adobe Workfront Experience中可用。
 
-为了与新Workfront体验中其他区域的现代外观相匹配，更新列表和报表中“工作总揽”字段的样式已发生更改。 这项重新设计包括：
+为了与新Workfront Experience中其他区域的现代外观匹配，已更改更新列表和报告中“工作总揽”字段的样式。 此重新设计包括：
 
-* 用户配置文件图片、工作角色和团队的四舍五入头像
-* 为没有个人资料图片的用户显示缩写
-* 新的“作业”角色图标
-* 高级分配的新“人员”图标
+* 用户个人资料图片、工作角色和团队的圆形头像
+* 没有配置文件图片的用户的首字母显示
+* 新建工作角色图标
+* 高级工作分配的新“人员”图标
 * 新的“受限访问”图标
 * 其他次要设计更改
 
-有关列表中分配的详细信息，请参阅 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [分配问题](../../../manage-work/issues/manage-issues/assign-issues.md).
+有关列表中的工作分配的更多信息，请参阅 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [分配问题](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
-## 更新的列表和报表中提前键入字段的新外观
+## 更新列表和报告中的预输入字段的新外观
 
 >[!NOTE]
 >
@@ -53,21 +54,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能仅在新的Adobe Workfront体验中可用。
+>此功能仅在新的Adobe Workfront Experience中可用。
 
-为了与新Workfront体验中其他区域的现代外观相匹配，更新列表和报表中的类型字段的样式已发生更改。 这些更改包括：
+为了与新Workfront Experience中其他区域的现代外观匹配，已更改更新列表和报告中的预输入字段的样式。 这些更改包括：
 
-* 已从字段中删除Typeahead图标。
-* 现在，当您单击提前键入字段时，会在输入文本之前显示建议菜单。
-* 建议菜单对值长度的响应更灵敏，现在，当满足字符限制时，这些值会在末尾被截断，而不是在值的中间。
+* 已从字段中移除预输入图标。
+* 现在，当您单击预输入字段时，建议菜单会在您输入文本之前显示。
+* 建议菜单对值的长度更有响应，现在，当满足字符限制时，这些值会在末尾被截断，而不是在值中间被截断。
 
-有关更新列表的信息，请参阅 [更新列表与旧版列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 章节 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关更新的列表的信息，请参见 [已更新列表与旧列表之间的区别](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 部分内容 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 
 ## 系统更新报告
 
-新的“日记帐分录”报表允许您深入查看系统更新，从而为您提供更强的可审计性，包括：
+新的日志条目报表允许您深入查看系统更新，从而为您提供了更好的可审核性，包括：
 
 * 项目、任务或问题的状态更改
 * 已删除的任务或问题
@@ -75,9 +76,9 @@ ht-degree: 0%
 * 计划完成日期
 * 项目所有者更改
 
-例如，您可以设置此报表来显示特定自定义字段周围的活动，包括自定义字段的项目、首次输入值时、该值是什么、字段更新时、上一个值是什么、新输入的值是什么、用户完成了这些操作等。
+例如，您可以设置此报告显示特定自定义字段周围的活动，包括自定义字段的项目、首次输入值时、该值是什么、字段更新时、以前的值是什么、新输入的值是什么、哪些用户完成了这些操作等。
 
 以前，您只能通过Workfront API报告系统更新。
 
-要进一步了解此报表以及可用于什么用途，请参阅 [报告更新区域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+要了解有关此报告及其用途的更多信息，请参阅 [报告更新区域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

@@ -1,58 +1,59 @@
 ---
-title: 22.4资源管理增强
-description: 22.4资源管理增强
+title: 22.4资源管理增强功能
+description: 22.4资源管理增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
-# 22.4资源管理增强
+# 22.4资源管理增强功能
 
-本页介绍了在“预览”环境中22.4版本中所做的所有资源管理增强。 这些增强功能将于2022年10月3日这一周发布。
+本页介绍了22.4版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在2022年10月3日这一周提供。
 
-有关22.4版本中可用的所有更改的列表，请参阅 [22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## 显示项目的负载平衡器的所有用户
+## 显示项目工作负载均衡器的所有用户
 
-为了让您能够在不离开项目的负载平衡器的情况下查看系统中的所有用户及其容量，我们添加了“显示所有用户”选项。 启用后，项目的工作负载平衡器会在“已分配的工作”区域显示系统中的所有用户。 通过此增强功能，您可以轻松识别需要为哪些人员分配工作，以便在“未分配的工作”区域中列出工作。
+为了让您能够在不离开项目的工作负载均衡器的情况下查看系统中的所有用户及其容量，我们添加了一个“显示所有用户”选项。 启用后，项目的工作负载均衡器在已分配的工作区域显示系统中的所有用户。 通过此增强功能，您可以轻松确定需要为“未分配工作”区域中列出的工作分配的人员。
 
-有关更多信息，请参阅 [通过拖放在工作负载平衡器中分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+有关更多信息，请参阅 [通过拖放在工作负载均衡器中分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
-## 批量分配工作时在负载平衡器中显示具有选定作业角色的所有用户
+## 批量分配工作时，在工作负载均衡器中显示具有选定工作角色的所有用户
 
-为了在批量使用负载平衡器中的用户替换作业角色时更轻松地找到合适的人员，我们改进了可用用户列表填充方式。 现在，您可以在同一用户列表中的两个不同区域查看系统中能够履行所选角色的所有用户：
+为了更便于在工作负载均衡器中使用用户批量替换工作角色时找到合适的人员，我们改进了可用用户列表的填充方式。 现在，您可以在同一个用户列表中的两个不同区域查看系统中可以履行所选角色的所有用户：
 
-* 第一个区域（建议的分配）显示由智能分配逻辑标识的用户。 有关更多信息，请参阅 [智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* 第一个区域（“建议分配”）显示由“智能分配”逻辑标识的用户。 有关更多信息，请参阅 [智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
-* 第二个区域（“其他分配”）显示可以履行选定职责的所有用户。
+* 第二个区域（“其他分配”）显示可以履行所选角色的所有用户。
 
-在此增强之前，您只能查看可根据智能分配逻辑分配的用户列表。
+在此增强功能之前，您只能查看可用于根据智能分配逻辑进行分配的用户列表。
 
-有关使用工作负载平衡器批量分配工作的信息，请参阅 [使用工作负载平衡器批量分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+有关使用工作负载均衡器批量分配工作的信息，请参见 [使用工作负载均衡器批量分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
-## 针对工作许可证用户和问题设置的工作负载平衡器增强功能
+## 针对工作许可证用户和问题设置的工作负载均衡器增强
 
-在工作负载平衡器中添加了以下增强功能，以便为弃用计划工具做准备：
+向工作负载均衡器添加了以下增强功能，为弃用计划工具做准备：
 
-* 工作许可证用户现在可以在使用项目的负载平衡器时调整分配
+* 使用项目的工作负载均衡器时，工作许可证用户现在可以调整分配
 
-* 启用“包含来自问题的小时数”设置时，“未分配的工作”区域中会显示问题
+* 启用“包括问题的小时数”设置时，问题显示在“未分配工作”区域中
 
-在进行这些增强之前，只有计划许可证用户才能调整用户分配和仅在“已分配的工作”区域中显示的问题。
+在这些增强功能之前，只有计划许可证用户可以调整仅显示在已分配工作区域中的用户分配和问题。
 
 有关更多信息，请参阅以下文章：
 
-* [导航工作负载平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [在工作负载平衡器中管理用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [管理工作负载均衡器中的用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

@@ -7,22 +7,23 @@ title: 'Workfront Fusion发布活动：2021年2月1日开始的周'
 description: 本页介绍了2021年2月1日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion发布活动： 2021年2月1日开始的周
+# Workfront Fusion发行活动： 2021年2月1日起的一周
 
 本页介绍了2021年2月1日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发行版活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-有关Workfront Fusion中近期的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查任何标记为Workfront Fusion维护更新的更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,10 +46,10 @@ ht-degree: 0%
 
 ## Marketo连接器和模块现已推出
 
-* 现在，您可以使用Workfront Fusion连接到您的Marketo帐户。 借助Marketo连接器，您可以
+* 现在，您可以使用Workfront Fusion连接到您的Marketo帐户。 使用Marketo连接器，您可以
 * 在创建或更新记录时触发方案。
 * 创建、读取或更新记录
-* 上传或下载文件
+* 上载或下载文件
 * 列出或搜索给定类型的记录
 * 在列表中添加潜在客户或从列表中删除潜在客户
 * 计划活动

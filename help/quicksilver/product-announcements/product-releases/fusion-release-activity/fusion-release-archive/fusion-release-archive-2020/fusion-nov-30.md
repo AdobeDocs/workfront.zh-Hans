@@ -4,42 +4,43 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: 融合
 navigation-topic: fusion-release-activity
-title: “Workfront Fusion版本活动：2020年11月30日一周
-description: 本页介绍在2020年11月30日这一周，Adobe Workfront Fusion中所做的所有增强功能。
+title: 'Workfront Fusion发布活动：2020年11月30日当周'
+description: 本页介绍了2020年11月30日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2020年11月30日开始的一周
+# Workfront Fusion发布活动： 2020年11月30日开始的周
 
-本页介绍在2020年11月30日这一周，Adobe Workfront Fusion中所做的所有增强功能。
+本页介绍了2020年11月30日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
 ## Workfront Fusion 2.0 Webhook的速率限制。
 
-我们为Workfront Fusion 2.0引入了新的性能护栏。现在，Webhook的速率限制为每秒100个请求。 达到此限制后，Workfront Fusion 2.0会发送429（请求过多）状态。
+我们为Workfront Fusion 2.0引入了新的性能护栏。现在，webhook具有每秒100个请求的速率限制。 达到此限制后，Workfront Fusion 2.0会发送429（请求过多）状态。
 
-以前，Webhook请求不受限制。
+以前，webhook请求不受限制。
 
 有关更多信息，请参阅 [Adobe Workfront Fusion性能护栏](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## 在Workfront Fusion 2.0中将自定义表单添加到Workfront对象
 
-为了允许您向对象添加自定义表单Workfront Fusion 2.0，我们向Workfront >杂项添加了AssignCategories操作。 操作模块。
+为了使您能够将自定义表单添加到Workfront Fusion 2.0中的对象，我们已在Workfront >杂项中添加了AssignCategories操作。 操作模块。
 
-以前，无法使用Workfront Fusion 2.0模块向Workfront中的对象添加自定义表单。
+以前，无法使用Workfront Fusion 2.0模块将自定义表单添加到Workfront中的对象。
 
-有关Workfront >杂项的详细信息。 操作模块，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关Workfront >其他内容的更多信息。 操作模块，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

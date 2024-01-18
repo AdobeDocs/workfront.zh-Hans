@@ -1,46 +1,47 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2021年8月30日的一周
-description: Workfront Fusion版本活动：&nbsp;2021年8月30日的一周
+title: Workfront Fusion发布活动：&nbsp；2021年8月30日开始的周
+description: Workfront Fusion发布活动：&nbsp；2021年8月30日开始的周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 988349f9-aa12-4017-9032-be4d0078959e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年8月30日这一周
+# Workfront Fusion发行活动： 2021年8月30日开始的周
 
-本页介绍2021年8月30日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2021年8月30日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
-## 过滤触发Workfront >监视事件模块的事件
+## 过滤触发Workfront >关注事件模块的事件
 
-1. 为触发Workfront >监视事件模块的事件设置自定义过滤器
+1. 为触发Workfront >关注事件模块的事件设置自定义过滤器
 
-   为了减少不必要的方案运行次数，我们更新了Workfront >监视记录模块以启用事件过滤。 现在，您可以在创建网页挂接时设置过滤器。 这允许方案仅在事件满足特定条件时才触发。
+   为了减少不必要的场景运行次数，我们已更新Workfront >关注记录模块以启用事件过滤。 现在，您可以在创建webhook时设置过滤器。 这允许场景仅在事件满足特定条件时触发。
 
    事件过滤器当前提供以下操作：
 
-   * 等于：仅当事件与过滤器的条件匹配时才会触发方案。 例如，您可以设置一个过滤器，该过滤器仅在特定项目中发生事件时才触发方案。
-   * 不等于：仅当事件与过滤器的条件不匹配时才会触发方案。 例如，您可以创建一个过滤器，该过滤器仅在发生事件的问题没有状态为“已关闭”时触发方案。
+   * 等于：仅当事件与过滤器的条件匹配时触发方案。 例如，您可以设置一个过滤器，仅在特定项目中发生事件时触发场景。
+   * 不等于：仅当事件与过滤器的条件不匹配时触发方案。 例如，您可以创建一个过滤器，仅在发生事件的问题状态不是“已关闭”时，触发方案。
 
-   以前，监视记录模块将检索所有记录。 用户只能在以后的方案中设置过滤器来过滤。
+   以前，Watch记录模块会检索所有记录。 用户只能通过在场景的后面设置过滤器来进行过滤。
 
-   要利用事件过滤，请在Watch事件模块中新建一个Webhook。 当前无法编辑现有Web挂接以包含此功能。 我们强烈建议您使用事件过滤器为现有方案创建新的Webhook。
+   要利用事件过滤功能，请在Watch事件模块中创建新的webhook。 当前无法编辑现有Webhook以包含此功能。 我们强烈建议您使用事件过滤器为现有方案创建新的Webhook。
 
-1. 过滤掉由当前连接触发的事件。
+1. 过滤掉当前连接触发的事件。
 
-   为了更便于为Workfront >监视事件模块设置Web挂接，我们提供了最常见的事件过滤器。 现在， Webhook具有一个选项，用于使用为Watch事件模块指定的连接过滤掉模块所做的任何更改。 换言之，启用此过滤器后，由与该连接关联的Workfront用户所做的任何更改都无法触发该方案。
+   为了更便于为Workfront >观看活动模块设置Webhook，我们添加了最常用的活动过滤器。 现在，webhook有一个选项，可以使用为Watch事件模块指定的连接过滤掉模块所做的任何更改。 换言之，启用此过滤器后，Workfront用户所做的任何与该连接关联的更改都将无法触发该方案。
 
-   以前，此过滤器不可用。 因此，在Workfront模块中所做的更改更容易触发包含这些模块的方案，这可能会导致方案在无限循环中触发自己。
+   以前，此过滤器不可用。 因此，在Workfront模块中所做的更改更容易触发包含这些模块的方案，这可能会导致方案无限期地触发自身。
 
-有关Workfront >监视事件模块中的事件过滤器的更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关“Workfront”>“关注事件”模块中事件过滤器的更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

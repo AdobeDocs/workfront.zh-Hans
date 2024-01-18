@@ -3,10 +3,11 @@ title: 2023年第四季度发行版概述
 description: 2023年第四季度发行版概述
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ API版本17于2023年10月12日发布。 对于API版本17，我们修改了一�
 
 请注意，Workfront移动设备应用程序要求先登录Workfront。 外部用户和访客可以继续使用验证应用程序进行验证工作；但是，23.10已不再支持该应用程序，并且它将变得不可用。
 
-#### 为不使用工作流的帐户删除工作流
+#### 已为不使用工作流的帐户删除了工作流
 
-对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍有权访问这些工作流。增强的Scrum功能将在未来版本中介绍。
+对于从未在Adobe Workfront展示板上创建工作流的帐户，工作流区域已从2023年10月11日的展示板功能板中删除。 使用工作流的帐户仍然可以访问工作流。 增强的Scrum功能将在未来版本中介绍。
 
 <!-- HTML you might need
 

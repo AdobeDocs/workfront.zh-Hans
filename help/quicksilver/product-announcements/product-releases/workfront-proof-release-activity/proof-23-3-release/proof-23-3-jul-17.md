@@ -3,9 +3,11 @@ title: 23.3校对增强功能
 description: 23.3校对增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+recommendations: noDisplay, noCatalog
+exl-id: ae82359b-563a-47bd-aefa-973da5daaf79
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2023年7月22日预览环境中Adobe Workfront验证的23.3版本所做的所有增强。
 
-除非另有说明，否则这些增强功能将在23.3版本的生产环境中提供。
+除非另有指定，否则这些增强功能将在23.3版本的生产环境中提供。
 
 ## 推迟桌面验证查看器的更新
 

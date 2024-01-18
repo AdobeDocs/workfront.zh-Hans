@@ -3,71 +3,72 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: “Workfront Fusion版本活动：2021年1月11日一周”
-description: 本页介绍2021年1月11日这一周Adobe Workfront Fusion中所做的所有增强功能。
+title: 'Workfront Fusion发布活动：2021年1月11日当周'
+description: 本页介绍了2021年1月11日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年1月11日开始的一周
+# Workfront Fusion发行活动： 2021年1月11日起的一周
 
-本页介绍2021年1月11日这一周Adobe Workfront Fusion中所做的所有增强功能。
+本页介绍了2021年1月11日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
-## 扩展连接器和模块现已可用
+## 现在提供加宽连接器和模块
 
-您现在可以使用Workfront Fusion连接到Widen帐户。 通过“扩展”模块，您可以：
+您现在可以使用Workfront Fusion连接到Widen帐户。 使用Widen模块，您可以：
 
-* 向收藏集添加资产或从收藏集中删除资产
+* 在收藏集中添加或删除资源
 * 下载或上传文件
-* 读取或更新资产元数据
-* 根据您指定的条件搜索资产
+* 读取或更新资源元数据
+* 根据您指定的条件搜索资源
 * 检索收藏集中的资产列表
 * 执行自定义API调用。
 
-有关详细信息，请参阅 [扩展模块](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+有关详细信息，请参阅 [加宽模块](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Datadog连接器和模块现已可用
 
-您现在可以使用Workfront Fusion连接到Data Cloud帐户。
+您现在可以使用Workfront Fusion连接到Datadog帐户。
 
-通过使用Data Cloud模块，您可以：
+使用Datadog模块，您可以：
 
-* 帖子时间点
+* 发布时间系列点数
 * 执行自定义API调用
 
-有关Data Cloud模块的信息，请参阅 [数据模块](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+有关Datadog模块的信息，请参见 [Datadog模块](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Cvent连接器和模块现已可用
 
-您现在可以使用Workfront Fusion 2.0连接到Cevent帐户。
+您现在可以使用Workfront Fusion 2.0连接到Cvent帐户。
 
-通过Cevent模块，您可以：
+使用Cvent模块，您可以：
 
 * 创建会议请求
-* 读取联系人、事件或被邀请者等记录
+* 读取记录，如联系人、活动或受邀者
 * 根据您指定的条件列出记录
-* 注册或向特定事件添加被邀请者
+* 在特定活动中注册或添加被邀请者
 * 更新或删除联系人
 * 进行自定义API调用
 
-有关可用Cvent模块的信息，请参阅 [事件模块](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+有关可用的Cvent模块的信息，请参见 [Cvent模块](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
-## Microsoft Dynamics 365连接器和模块现已可用
+## Microsoft Dynamics 365连接器和模块现已推出
 
-您现在可以使用Workfront Fusion 2.0连接到Microsoft Dynamics 365帐户。 通过Microsoft Dynamics 365模块，您可以：
+您现在可以使用Workfront Fusion 2.0连接到Microsoft Dynamics 365帐户。 使用Microsoft Dynamics 365模块，您可以：
 
-* 在Microsoft Dynamics 365中添加或更新记录时会触发方案
+* 在Microsoft Dynamics 365中添加或更新记录时触发方案
 * 创建、读取、更新或删除Microsoft Dynamics 365记录
 * 执行自定义API调用
 
@@ -75,68 +76,68 @@ ht-degree: 0%
 
 ## DocuSign连接器和模块现已可用
 
-您现在可以使用Workfront Fusion 2.0连接到您的Document帐户。 使用文档模块，您可以：
+您现在可以使用Workfront Fusion 2.0连接到Docusign帐户。 通过Docusign模块，您可以：
 
-* 当信封更改其状态时会触发情景
+* 在信封更改其状态时触发方案
 * 创建信封
-* 读取、发送或添加收件人到现有信封
-* 在文档中添加或修改自定义字段
-* 将文档下载为文档
-* 将文件上传到信封
+* 在现有信封中读取、发送或添加收件人
+* 添加或修改文档中的自定义字段
+* 将文档下载为已存档
+* 将文件上载到信封
 * 执行自定义API调用
 
 有关更多信息，请参阅 [DocuSign模块](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
-## 搜索方案执行历史记录
+## 搜索场景执行历史记录
 
-我们为您提供了更方便的方法，让您能够更轻松地从以前的方案执行中查找特定信息。 Fusion新的全文搜索功能使得可以搜索包中包含的任何数据的执行历史记录。 例如，要确定是哪个执行创建了特定任务，您可以使用全文搜索来搜索该任务ID。
+我们使您更容易地从以前的场景执行中查找特定信息。 Fusion的新全文搜索功能可用于搜索捆绑包中包含的任何数据的执行历史记录。 例如，要确定哪个执行创建了特定任务，您可以使用全文搜索来搜索该任务ID。
 
-以前，需要单独查看每个执行，才能找到特定的执行信息。
+以前，查找特定的执行信息需要分别查看每个执行。
 
-有关更多信息，请参阅 [在Adobe Workfront Fusion中查看方案的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+有关更多信息，请参阅 [在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Fusion 2.0数据存储的更新
 
-为了更便于您自定义数据存储，我们添加了一些新功能。 现在，当您查看数据存储时，可以：
+为了让您更轻松地自定义数据存储，我们添加了一些新功能。 现在，当您查看数据存储时，您可以：
 
 * 拖放以重新排序列
 * 编辑单个单元格
 * 添加多行
 
-有关数据存储的更多信息，请参阅 [数据存储模块](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+有关数据存储的详细信息，请参阅 [数据存储模块](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## 通过HTTP连接器发出API密钥授权请求
 
-为了增加访问API的方式的灵活性，我们向HTTP连接器中添加了新模块。 现在，当您访问的Web服务需要使用API密钥时，您可以使用HTTP连接器发出请求。
+为了提高访问API方式的灵活性，我们在HTTP连接器中添加了一个新模块。 现在，当您要访问的Web服务需要使用API密钥时，可以使用HTTP连接器发出请求。
 
 有关更多信息，请参阅 [HTTP模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-## 映射面板中提供的新函数
+## 映射面板中可用的新函数
 
 为了帮助您自定义和简化模块中的公式，我们添加了一些新函数。
 
 * 此
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   函数是一个常规函数，它忽略对象的给定键并返回其余键。
+  函数是一个常规函数，它省略了对象的给定键并返回其余键。
 * 此
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   函数是一个常规函数，仅从对象中选取给定的键。
+  function是一个常规函数，只从对象中选取给定的键。
 * 此
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   函数是一个字符串函数，可对文本中的所有Markdown标记进行转义。
+  函数是一个字符串函数，可转义文本中的所有Markdown标记。
 
-有关省略和选取函数的详细信息，请参阅 [Adobe Workfront Fusion中的一般函数](../../../workfront-fusion/functions/general-functions.md).
+有关omit和pick函数的更多信息，请参见 [Adobe Workfront Fusion中的常规函数](../../../workfront-fusion/functions/general-functions.md).
 
-有关escapeMarkdown函数的更多信息，请参阅 [Adobe Workfront Fusion中的字符串函数](../../../workfront-fusion/functions/string-functions.md).
+有关escapeMarkdown函数的更多信息，请参见 [Adobe Workfront Fusion中的字符串函数](../../../workfront-fusion/functions/string-functions.md).

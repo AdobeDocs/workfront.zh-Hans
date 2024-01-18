@@ -1,20 +1,22 @@
 ---
-title: 23.3集成增强
-description: 23.3集成增强
+title: 23.3集成增强功能
+description: 23.3集成增强功能
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
 
-# 23.3集成增强
+# 23.3集成增强功能
 
-本页介绍了23.3版本的所有集成增强。 2023年7月20日和21日发布的23.3版本在“生产”环境中提供了这些增强功能。
+本页介绍了随23.3版本一起进行的所有集成增强。 这些增强功能在2023年7月20日和21日发布的23.3版本的生产环境中提供。
 
-有关23.3版本周期此时可用所有更改的列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+有关23.3发行周期中此时可用的所有更改列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## 新的G Suite集成现已推出
 
@@ -24,13 +26,13 @@ Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAu
 
 有关如何安装新集成的说明，请参阅 [安装 [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-有关Workfront for G Suite的更多信息，请参阅 [适用于G Suite的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
+有关适用于G Suite的Workfront的更多信息，请参阅 [适用于G Suite的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
-## Adobe Creative Cloud集成现在支持多个分配的用户
+## Adobe Creative Cloud集成现在支持多个已分配用户
 
-Adobe Creative Cloud集成现在支持在任务或问题有多个分配用户时选择“完成我的部分”和“完成”（或“已解决”）。
+当任务或问题具有多个分配用户时，Adobe Creative Cloud集成现在支持在“完成我的部分”和“完成”（或“已解决”）之间进行选择。
 
-以前，集成允许用户将任务标记为完成，而无需指定“完成我的部分”或“完成”/“已解决”。
+以前，集成允许用户将任务标记为完成，而无需指定“我的部分已完成”或“已完成”/“已解决”。
 
 要利用此功能，请下载并安装最新的WorkfrontCreative Cloud插件。
 
@@ -38,7 +40,7 @@ Adobe Creative Cloud集成现在支持在任务或问题有多个分配用户时
 
 有关安装Workfront forCreative Cloud插件的信息，请参阅 [安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## 从Workfront查看和管理Workfront通知以用于Creative Cloud插件
+## 从Workfront查看和管理Workfront通知以了解Creative Cloud插件
 
 为了让您更轻松地接收所需的通知，我们让您能够在不离开Adobe Creative Cloud的情况下查看和管理Workfront通知。 现在，您可以直接从Creative Cloud应用程序的Workfront插件窗口中查看通知，以及访问与这些通知相关的工作项和注释。
 
@@ -64,17 +66,17 @@ For more information, see [Link documents from external applications](/help/quic
 
 ## 创建项目时自动创建链接文件夹到Adobe Experience Manager Assets
 
-借助适用于Adobe Experience Manager集成的新创建链接文件夹工作流，您可以通过Adobe Experience Manager Assets文件夹的路径来配置集成。 当集成添加到项目模板时，从该模板创建的任何项目都将自动在Experience Manager Assets的指定文件夹中创建链接的子文件夹。
+借助适用于Adobe Experience Manager集成的全新创建链接文件夹工作流，您可以配置集成以及指向Adobe Experience Manager Assets文件夹的路径。 当集成添加到项目模板时，从该模板创建的任何项目都会在Experience Manager Assets的指定文件夹中自动创建链接的子文件夹。
 
 以前，创建链接文件夹需要用户执行操作。
 
-此功能仅适用于Workfront中的Adobe Experience Manager as a Cloud Service集成。 这在Adobe Experience Manager增强型连接器中不可用。
+此功能只能与Workfront中的Adobe Experience Manager as a Cloud Service集成一起使用。 Adobe Experience Manager增强型连接器中不提供此功能。
 
 有关更多信息，请参阅 [在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 ## 将Workfront字段值映射到Experience Manager Assets中的标记
 
-现在，您可以根据Workfront中的数据分类并快速查找资源。 您可以在Workfront for Experience Manager Assets集成中将此数据映射为元数据配置的一部分。
+现在，您可以根据Workfront中的数据分类和快速查找资源。 您可以在Workfront for Experience Manager Assets集成中将此数据映射为元数据配置的一部分。
 
 以前，将Workfront数据映射到Experience Manager Assets标记不可用。
 
@@ -88,20 +90,20 @@ For more information, see [Link documents from external applications](/help/quic
 有关Experience Manager Assetsas a Cloud Service中此功能的更多信息，请参阅 [配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 有关Experience Manager Assets Essentials中此功能的更多信息，请参阅 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## 使用Adobe Workfront调整自动验证工作流模板设置以进行Creative Cloud
+## 使用用于Creative Cloud的Adobe Workfront调整自动验证工作流模板设置
 
 您现在可以直接在Creative Cloud中调整现有的自动工作流模板设置。 选择现有的自动化工作流模板后，您可以：
 
-* 禁用暂存
+* 禁用阶段
 * 添加其他收件人
-* 更改校对角色
+* 更改验证角色
 * 调整截止日期
 * 更新电子邮件通知
 * 等等！
 
-有关更多信息，请参阅 [上传文档和验证 [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+有关更多信息，请参阅 [使用上传文档和验证 [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 
-这些增强功能可用于以下Creative Cloud应用程序：
+这些增强功能适用于以下Creative Cloud应用程序：
 
 * Photoshop
 * XD

@@ -3,37 +3,38 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: “Workfront Fusion版本活动：2022年11月7日一周”
-description: 本页介绍2022年11月7日这一周在Adobe Workfront Fusion中所做的所有增强。
+title: 'Workfront Fusion发布活动：2022年11月7日当周'
+description: 本页介绍了2022年11月7日这一周在Adobe Workfront Fusion中所做的所有增强。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
-source-git-commit: 9aaba3062bc5d1166c37821a6a3216f7f1d965b1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动：2022年11月7日这一周
+# Workfront Fusion发行活动： 2022年11月7日开始的周
 
 **Webhook队列优化**
 
-Fusion的Webhook队列已在此版本中进行优化。 接受webhook的服务现在与排队和其他进程分开。 此更改使Fusion能够以更快、更一致的速率处理Webhook队列。
+Fusion的webhook队列已在此版本中进行了优化。 现在，接受webhook的服务与排队和其他进程是分开的。 此更改使Fusion能够以更快、更一致的速率处理webhook队列。
 
-在实施此更改期间，我们能够更好地了解排队Webhook事件的预期日志处理时间。 Fusion的Webhook查看器页面应不早于1分钟。
+在实施此更改期间，我们能够更好地了解已排队webhook事件的预期日志处理时间。 Fusion的webhook查看器页面不应超过1分钟。
 
-要查看当前排队的Webhook事件，请在左侧导航中导航到Webhook。 分子中带数字的卡车图标表示该网页钩的队列事件。 单击卡车图标可查看已排队的事件。
+要查看当前排队的webhook事件，请在左侧导航中导航到Webhook。 分子中具有数字的卡车图标表示该webhook的队列事件。 单击卡车图标以查看已排队的事件。
 
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
-**现在，将停用或删除未使用的Web挂接**
+**现在将停用或删除未使用的Webhook**
 
-我们对Workfront Fusion处理未使用网络挂接的方式进行了一些更改。 现在，如果出现以下任一情况，将自动停用wWebhooks:
+我们对Workfront Fusion处理未使用Webhook的方式进行了一些更改。 现在，如果以下任一情况适用，则会自动停用wWebhook：
 
-* 网页挂接已超过5天未连接到任何方案。
-* Webhook仅用于不活动情景（已处于非活动状态超过30天）。
+* webhook已超过5天未连接到任何场景。
+* webhook仅用于非活动场景，这些场景已非活动超过30天。
 
-如果已停用的Web挂接未连接到任何方案并且处于停用状态超过30天，则会自动删除和取消注册这些挂接。
+如果停用的Webhook未连接到任何场景并且已处于停用状态超过30天，则会自动删除和取消注册它们。

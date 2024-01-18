@@ -1,64 +1,65 @@
 ---
 content-type: release-notes
-keywords: 備註，每季，更新，發行
+keywords: 注释，季度，更新，版本
 navigation-topic: 2021-2-release-activity
-title: 21.2資源管理增強功能
-description: 本頁面說明21.2版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱21.2版總覽。
+title: 21.2资源管理增强功能
+description: 本页介绍了21.2版本对“预览”环境所做的所有资源管理增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本中可用的所有更改列表，请参阅21.2版本概述。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
-# 21.2資源管理增強功能
+# 21.2资源管理增强功能
 
-本頁面說明21.2版對「預覽」環境所做的所有資源管理增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版所有可用變更的清單，請參閱 [21.2版本總覽](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有资源管理增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## 工作負載平衡器中的月層級檢視
+## 工作负载均衡器中的月级别视图
 
-為協助您管理較長時間內的資源配置，我們現在已為工作負載平衡器實作月層級檢視。 您一次最多可以檢視三個月，並更新每月資源配置。 在此變更之前，您只能按天或周檢視工作負載平衡器。
+为了帮助您在更长的时段内管理资源分配，我们现在为工作负载均衡器实施了月级别视图。 您一次最多可以查看三个月，并更新每月资源分配。 在此更改之前，您只能按天或按周查看工作负载均衡器。
 
-如需詳細資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Scenario Planner、工作負載平衡器和任務清單之間的連線
+## 场景规划器、工作负载均衡器和任务列表之间的连接
 
 >[!NOTE]
 >
->僅於新的Adobe Workfront體驗中提供。
+>仅在新的Adobe Workfront Experience中可用。
 
-為了協助您進行專案的策略規劃，並確保它們與「情境規劃工具」的宏觀計劃一致，我們在專案上建立了一個新區域，顯示計畫的工作角色需求以及在專案工作專案上估計的計畫時數。 此區域適用於專案層級的工作負載平衡器以及新Workfront體驗中的任務清單。 在傳統體驗中，這僅適用於專案工作負載平衡器。
+为了帮助您制定项目的战略计划并确保它们与Scenario Planner的全局计划相符，我们在项目上创建一个新区域，该区域显示计划的工作角色要求以及在项目工作项上估计的计划小时数。 此区域适用于项目级别的工作负载均衡器以及新Workfront Experience中的任务列表。 在经典体验中，这仅适用于项目工作负载均衡器。
 
-如需詳細資訊，請參閱下列文章：
+有关信息，请参阅以下文章：
 
-* [協調專案與方案之間的資源配置概要](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
-* [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* [在项目和计划之间协调资源分配概述](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
 >
->所有使用者皆可檢視這項新功能，無論是新版還是傳統Workfront體驗。 未購買Workfront Scenario Planner授權的客戶也可看到此內容。
+>这项新功能对所有用户均可见，无论是在新版还是旧版Workfront Experience中。 对于未购买Workfront Scenario Planner许可证的客户也可看到此视图。
 
-## 在資源規劃工具中計算淨值時使用計畫時數
+## 在资源规划者中计算净值时使用计划小时数
 
-「資源規劃工具」中的新設定可讓您在計算淨值時使用計畫時數。
+资源规划程序中的新设置允许您在计算净值时使用已计划小时数。
 
-在此增強功能之前，Workfront僅使用預算時數來計算淨值。 淨值會顯示可用與預算或計畫時數、FTE或成本之間的差異。 計算淨值時，預算時數仍是預設設定。
+在此增强功能之前，Workfront仅使用预算小时数计算净值。 净值显示可用小时数和预算或计划小时数、FTE或成本之间的差异。 在计算净值时，预算小时数仍然是默认设置。
 
-如需詳細資訊，請參閱 [資源規劃工具的「專案」與「角色」檢視中的時數、約當全職人數及成本資訊概要](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+有关信息，请参阅 [资源规划者的“项目”和“角色”视图中的小时数、FTE和成本信息概览](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-## 工作負載平衡器中的12週檢視
+## 工作负载均衡器中的12周查看
 
-您現在可以在工作負載平衡器中檢視最多12週的資訊。 在此增強功能之前，您可以檢視2、4和6週的資訊。
+您现在可以在工作负载均衡器中查看长达12周的信息。 在此增强功能之前，您可以查看2、4和6周的信息。
 
-如需有關檢視工作負載平衡器的資訊，請參閱 [瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)瀏覽工作負載平衡器。
+有关查看工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)导航工作负载均衡器。
 
-## 工作角色篩選器在工作負載平衡器未指派區域中的工作方式變更
+## 更改工作角色过滤器在工作负载均衡器的未分配区域中的工作方式
 
-為了改善「工作角色」篩選器在工作負載平衡器中運作的方式並符合使用者的期望，我們修改了「未指派」區域中的篩選器功能。 您現在只能檢視指派給您在篩選條件中指定的工作角色的時數。
+为了改进工作角色过滤器在工作负载均衡器中的工作方式并满足用户的期望，我们修改了未分配区域中的过滤器的功能。 您现在只能查看分配给您在筛选器中指定的工作角色的小时数。
 
-在此增強功能之前，當將工作角色篩選器套用至未指派區域時，工作負載平衡器顯示與指派給工作角色的工作專案相關的所有時數。
+在此增强功能之前，当将工作角色过滤器应用于未分配区域时，工作负载均衡器显示与分配给工作角色的工作项关联的所有小时数。
 
-如需有關在工作負載平衡器中篩選資訊的資訊，請參閱 [管理工作負載平衡器中的篩選器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+有关在工作负载均衡器中过滤信息的信息，请参见 [在工作负载均衡器中管理过滤器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

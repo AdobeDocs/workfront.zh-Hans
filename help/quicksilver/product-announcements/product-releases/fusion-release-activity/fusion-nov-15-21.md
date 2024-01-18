@@ -1,33 +1,34 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2021年11月15日的一周
-description: Workfront Fusion版本活动：&nbsp;2021年11月15日的一周
+title: Workfront Fusion发行活动：&nbsp；2021年11月15日起一周
+description: Workfront Fusion发行活动：&nbsp；2021年11月15日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年11月15日开始的一周
+# Workfront Fusion发行活动： 2021年11月15日开始的周
 
-本页介绍2021年11月15日这一周Adobe Workfront Fusion中所做的所有增强功能。
+本页介绍了2021年11月15日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
 ## Adobe Workfront Fusion的新外观
 
-我们更新了Workfront Fusion的外观，以更仔细地反映其他Adobe产品的外观。 这种更简洁的外观在跨不同Adobe产品工作时提供了更一致的体验。
+我们更新了Workfront Fusion的外观，以更密切地反映其他Adobe产品的外观。 对更干净外观所做的此更改使工作在各种Adobe产品之间时体验更加一致。
 
-此升级还改进了性能，可加快导航速度。
+此升级还提供了性能改进，可加快导航。
 
-新外观不会影响Adobe Workfront Fusion的功能。 所有按钮、选项卡和其他工具都位于同一位置，因此您无需更改任何现有行为或工作流。
+新的外观和感觉不会影响Adobe Workfront Fusion的功能。 所有按钮、选项卡和其他工具都位于同一位置，因此您无需更改任何现有行为或工作流。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

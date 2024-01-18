@@ -1,37 +1,38 @@
 ---
-title: Workfront Fusion版本活动：&nbsp;2021年8月23日的一周
-description: Workfront Fusion版本活动：&nbsp;2021年8月23日的一周
+title: Workfront Fusion发布活动：&nbsp；2021年8月23日开始的周
+description: Workfront Fusion发布活动：&nbsp；2021年8月23日开始的周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion版本活动： 2021年8月23日开始的一周
+# Workfront Fusion发行活动： 2021年8月23日开始的周
 
-本页介绍2021年8月23日这一周Adobe Workfront Fusion中所有增强功能。
+本页介绍了2021年8月23日这一周在Adobe Workfront Fusion中所做的所有增强功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion版本活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
 
-## Typeahead字段现在在Workfront模块中可用
+## Workfront模块中现在提供预输入字段
 
-为了更便于使用模块，已将一些下拉列表替换为“typeahead”字段。 现在，您可以开始键入项目，然后在项目显示时单击该项目，而不是从长列表中选择项目。
+为了使模块更易于使用，将一些下拉列表替换为预输入字段。 现在，您可以开始键入项目，然后在项目出现时单击它，而不是从长列表中选择项目。
 
-以前，用户从下拉列表中选择了项目。 根据对象，这些列表可能会很长，并且滚动和查找项目可能会很麻烦。
+以前，用户从下拉列表中选择项目。 根据对象的不同，这些列表可能会很长，并且滚动和查找项目会很麻烦。
 
 有关Workfront模块的更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## 帐单记录对象现在在Workfront模块中可用
+## 账单记录对象现在可在Workfront模块中使用
 
-Billing记录对象位于以下模块的下拉对象选择列表中：
+计费记录对象在以下模块的下拉对象选择列表中可用：
 
 * 观看记录
 * 删除记录
@@ -40,7 +41,7 @@ Billing记录对象位于以下模块的下拉对象选择列表中：
 * 更新记录
 * 搜索记录
 
-以前，帐单记录对象只能通过映射使用。
+以前，计费记录对象只能通过映射使用。
 
 有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
