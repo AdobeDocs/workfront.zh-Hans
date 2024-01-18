@@ -1,47 +1,48 @@
 ---
-title: 20.4校样增强功能
-description: 20.4校样增强功能
+title: 20.4验证增强功能
+description: 20.4验证增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# 20.4校样增强功能
+# 20.4验证增强功能
 
-本页介绍了在“预览”环境中20.4版本所做的所有校样增强。 这些增强功能将于2020年11月9日这一周的生产环境中提供。
+本页介绍了20.4版本对“预览”环境所做的所有验证增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
-有关20.4版本中可用的所有更改的列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+有关20.4版本可用的所有更改列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## 在生成新版本时继续执行现有校样工作流
+## 生成新版本时结转现有验证工作流
 
 >[!NOTE]
 >
->此功能已在20.4版本的生产环境中删除。 它将在以后发布到生产环境。
+>此功能已从20.4版本的生产中删除。 它将在未来时间发布到“生产”环境。
 
-现在，无论生成现有校样工作流的方法如何，现有校样工作流都会传递到您创建的任何新版本。
+现在，现有的校样工作流会传递到您创建的任何新版本，无论这些版本是在什么方法中生成的。
 
-以前，验证工作流的传递方式会因您在Workfront中生成它们的位置而略有不同。
+以前，验证工作流的传送方式略有不同，具体取决于您在Workfront中生成它们的位置。
 
-有关更多信息，请参阅 [创建校样的新版本](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+有关更多信息，请参阅 [创建新版本的验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
 
-## 校对查看器中提供的文档批准按钮
+## 验证查看者中可用的文档审批按钮
 
-为了与Classic中的校对体验保持一致，新Adobe Workfront体验的校对查看器中现在提供了文档批准按钮。
+为了与Classic中的验证体验保持一致，文档审批按钮现在在新Adobe Workfront Experience的验证查看器中可用。
 
-以前，只能从“文档详细信息”区域批准文档。
+以前，您只能从文档详情区域批准文档。
 
-有关更多信息，请参阅 [在校对查看器中对校样做出决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+有关更多信息，请参阅 [在验证查看者中做出验证决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-## 在上传默认禁用的文档设置时自动生成校样
+## 上传默认禁用的文档设置时自动生成验证
 
-现在，对于新校样用户，默认情况下禁用了用户配置文件中用于在上传文档时自动生成校样的选项。 此更改不会影响当前用户。 如果启用了此设置，则此设置将保持不变。
+默认情况下，新验证用户将禁用用户配置文件中在上传文档时自动生成验证的选项。 此更改不会影响当前用户。 如果已启用此设置，则会保持启用状态。
 
-以前，默认情况下为新用户启用此设置。
+以前，默认为新用户启用此设置。
 
 有关此设置如何工作的更多信息，请参阅 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).

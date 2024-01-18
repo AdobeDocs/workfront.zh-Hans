@@ -6,10 +6,11 @@ title: 23.3版的Adobe Workfront Proof
 description: 本页介绍了在23.3版本中发布到“生产”环境的新Adobe Workfront Experience中有关Adobe Workfront Proof功能的信息。
 author: Nolan
 feature: Product Announcements, Workfront Proof
-exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
+recommendations: noDisplay, noCatalog
+exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
