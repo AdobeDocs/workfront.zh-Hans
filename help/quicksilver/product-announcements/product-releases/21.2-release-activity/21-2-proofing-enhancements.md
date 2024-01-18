@@ -5,10 +5,10 @@ navigation-topic: 2021-2-release-activity
 title: 21.2校对增强功能
 description: 本页介绍了21.2版本对“预览”环境所做的所有“验证”增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本中可用的所有更改列表，请参阅21.2版本概述。
 author: Luke
-feature: Product Announcements, Workfront Proof
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
