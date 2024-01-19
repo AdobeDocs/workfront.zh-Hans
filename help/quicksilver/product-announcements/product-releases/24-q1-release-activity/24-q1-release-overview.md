@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a></p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a></p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审阅和审批状态显示在文档标题中</a></p><p>为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审阅和审批状态显示在文档标题中</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新的待处理审批构件可用</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>

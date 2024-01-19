@@ -6,17 +6,14 @@ description: 列出并解释了文档审批状态
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # 文档审批状态
-
-<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
-
 
 您可以在文档的标题中找到文档的审批状态。
 
@@ -58,7 +55,7 @@ ht-degree: 4%
                 </tr>
                  <tr>
                     <td>
-                        已审查</p>
+                        已审阅</p>
                     </td>
                     <td>
                         <ul>
