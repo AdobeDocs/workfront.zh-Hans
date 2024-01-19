@@ -4,9 +4,9 @@ description: 在Adobe管理器中，您可以创建公式字段，这些字段�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Maestro公式字段支持Workfront计算字段中的所有表达式。 有关更
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>返回记录的ID。</p> <p>表达式的格式如下所示：
+   <td> <p>返回记录的ID。 每个记录都有一个唯一的ID。</p> <p>表达式的格式如下所示：
 
 <code>{ID}</code>
 </p>

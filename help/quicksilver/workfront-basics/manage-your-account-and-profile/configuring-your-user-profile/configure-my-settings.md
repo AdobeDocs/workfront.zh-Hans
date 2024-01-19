@@ -6,10 +6,10 @@ description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -240,7 +240,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL电子邮件地址]</strong></td> 
-   <td> 更新您的电子邮件地址。 这是必填字段. 请记住，您的电子邮件地址也是您的用户名 [!DNL Workfront].</td> 
+   <td> 更新您的电子邮件地址。 这是必填字段。 请记住，您的电子邮件地址也是您的用户名 [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL重置密码]</strong></td> 
@@ -315,7 +315,7 @@ ht-degree: 1%
     </tr>
 </table>
 
-### [!UICONTROL 首选项]
+### [!UICONTROL 偏好设置]
 
 指定您希望在 [!DNL Workfront] 界面中列出的所有变量。
 
@@ -340,7 +340,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL在更新状态上显示完成百分比]</strong> </td> 
-   <td>选中此复选框可在任务的[！UICONTROL更新状态]字段中显示百分比栏，以便在输入任务更新时更新任务的完成百分比。</td> 
+   <td>如果您希望在使用旧版注释体验时，在任务的更新区域显示完成百分比栏，请选中此选项。 有关信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL将分配给自己的工作发送到我的“正在处理”选项卡]</strong> </td> 
@@ -358,7 +360,7 @@ ht-degree: 1%
 
 指定您希望接收的通知 [!DNL Workfront]. 有关配置通知的更多信息，请参阅 [修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### [!UICONTROL 访问权限]
+### [!UICONTROL 访问]
 
 您的访问权限以及与之关联的其他组件由您配置。 [!DNL Workfront] 管理员（设置帐户时）。
 
@@ -475,7 +477,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（视情况而定）如果您选择了一个或多个其他角色，则会为每个角色显示[！UICONTROL FTE可用性百分比]字段。</strong></td> 
-   <td> <p>指定将计划时间的哪个百分比分配给每个工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]的默认值为0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注释:  
+   <td> <p>指定将计划时间的哪个百分比分配给每个工作角色。 [！UICONTROL其他角色]的[！UICONTROL FTE可用性百分比]的默认值为0%。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注意：  
      <ul> 
       <li>如果[！UICONTROL其他角色]具有0% FTE可用性，除非将用户分配给这些角色中的任务，否则它们不会显示在[！UICONTROL资源规划者]中。</li> 
       <li> <p>全部的总和 <strong>[！UICONTROL FTE可用性的百分比]</strong> 所有角色的均必须等于100%。 每个[！UICONTROL FTE可用性百分比]计算[！UICONTROL Resource Planner]中每个用户每个角色的[！UICONTROL Available Hours]。 </p> <p>每个用户每个角色的[！UICONTROL可用小时数]取决于用户的可用时间。 用户可用时间的计算方式为 [!DNL Workfront] 取决于所选的方法 [!DNL Workfront] 管理员以在[！UICONTROL资源管理首选项]中计算FTE。 有关计算用户可用性的详细信息，请参阅 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">计算资源规划者中用户和角色的小时数和FTE的概述</a>. 有关配置资源管理首选项的详细信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">配置资源管理首选项</a>.</p> </li> 
@@ -524,7 +526,7 @@ ht-degree: 1%
 
 您的 [!DNL Workfront] 管理员必须为用户对象配置自定义表单，以便您能够将自定义表单附加到用户配置文件。 有关创建自定义表单的详细信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-### [!UICONTROL 评论]
+### [!UICONTROL 注释]
 
 您可以在用户配置文件上记录评论，该评论存储在 [!UICONTROL 更新] 选项卡中。
 

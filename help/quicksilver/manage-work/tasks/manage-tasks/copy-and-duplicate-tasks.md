@@ -6,9 +6,9 @@ description: 您可以将任务从项目复制到另一个项目，也可以复�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 1. 通过搜索在Workfront系统中查找任务。
 1. 单击任务的名称以将其打开。
-1. 单击 **更多** 下拉菜单 ![](assets/qs-more-menu.png) 单击任务名称旁边的，然后单击 **复制** **到**.
+1. 单击 **更多** 下拉菜单 ![](assets/qs-more-menu.png) 单击任务名称旁边的，然后单击 **复制到**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

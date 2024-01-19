@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ ht-degree: 0%
 
 #### 在新的“主页”区域的工作项上记录时间
 
+可以使用“摘要”面板记录任何构件中任意对象的时间。 有关信息，请参见 [摘要面板](#summary-panel) 部分。
+
+此外，要在“我的工作”小部件中记录项目的时间，请执行以下操作：
+
 1. 已转到 **主页** 区域。
-1. 添加以下任意构件：
+1. 添加 **我的工作** 构件到您的主页。
+1. 在列表中选择任务、问题或请求，然后单击 **处理此项工作**
+1. 将鼠标悬停在要记录时间的任务或问题上，然后单击 **记录时间** 图标 ![](assets/log-time-icon-in-new-home.png) 任务信息的右侧。
 
-   * 我的任务
-   * 我的问题
-   * 我的工作
-   * 我的请求
-1. 在列表中选择任务、问题或请求，然后单击 **摘要**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   或
-
-   单击 **摘要** 图标 ![](assets/open-summary-icon-in-home.png) 来自我的工作小组件中的任务或问题。
-
-   右侧将打开“摘要”面板。
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. 继续在“摘要”面板中记录时间，如中所述 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. 单击 **记录时间**.
 
 #### 在旧版主页区域的工作项上记录时间
 

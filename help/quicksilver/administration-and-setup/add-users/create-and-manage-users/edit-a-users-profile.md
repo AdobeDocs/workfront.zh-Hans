@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3381'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
       <p>此选项仅在预览和沙盒环境中可用。 默认情况下，生产环境中启用了电子邮件通知。 </p>
       </li>
 
-   <li><b>显示更新状态的完成百分比</b>：如果要在此用户任务的更新区域中显示完成百分比栏，请选中此选项。</li> 
+   <li><b>显示更新状态的完成百分比</b>：如果您希望在使用旧版评论体验时在此用户任务的更新区域中显示完成百分比栏，请选中此选项。 有关信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.</li> 
        <li><b>将我分配给自己的工作发送到我的工作选项卡中</b>：如果您希望用户分配给自己的所有内容直接显示在“主页”区域的“处理中”列表中，请选中此选项。 默认情况下，在“主页”区域的“准备开始”或“未就绪”列表中列出分配给用户的所有内容。</li> 
        <li><b>上传文档时自动生成验证</b>：如果您希望用户上传的文档立即生成验证，请选中此选项。 </li>
        </ul> </td> 

@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # 新的评论体验
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ The new commenting experience will slowly become available for all the objects w
 * 向对象添加新注释时的实时指示器
 * 提交评论后进行编辑
 
-以下功能已从新Experience中删除：
+以下功能已从新Experience中删除或将被弃用：
 
 * 有关系统更新的注释
-* 在注释时编辑状态、条件和提交日期的功能
+* 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比
 * 编辑自定义表单
 * 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。
+* 编辑用户配置文件框时的“显示更新状态的完成百分比”设置将被删除。 已删除更新任务或问题的完成百分比的功能。
+* 更新区域中的项目所有者通知，任务或问题的任务接受者编辑了提交日期 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
