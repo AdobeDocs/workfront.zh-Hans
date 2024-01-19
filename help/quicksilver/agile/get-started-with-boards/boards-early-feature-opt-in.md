@@ -7,25 +7,20 @@ description: 阅读本文以了解有关 [!DNL Workfront Boards] 早期功能加
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # 适用于的早期功能加入 [!DNL Adobe Workfront] [!UICONTROL 讨论区]
 
-包含临时信息卡和已连接信息卡的展示板可供所有用户使用，我们很高兴能从2022年7月开始为早期功能选择加入打开其他展示板功能。
+适用于的早期功能选择加入 [!DNL Adobe Workfront] [!UICONTROL 讨论区] 发布于2022年7月。
 
 [!DNL Adobe Workfront] [!UICONTROL 讨论区] 是一款灵活的工具，通过为包含列和卡片的共享展示板提供访问权限，允许团队进行协作。
 
 有关展示板的一般信息，请参阅 [[!UICONTROL 讨论区] 概述](/help/quicksilver/agile/boards-overview.md).
-
-## 发布计划
-
-* 预览版中的早期功能选择加入启动： 2022年7月22日
-* 正式发布： 2022年7月28日
 
 ## 功能
 
@@ -138,8 +133,8 @@ ht-degree: 0%
    <td>已发布</td>
   </tr>
   <tr>
-   <td>将子任务作为清单项目导入信息卡中</td>
-   <td>计划</td>
+   <td>在信息卡上导入子任务</td>
+   <td>已发布</td>
   </tr>
   <tr>
    <td>自定义信息卡上的字段显示</td>
@@ -163,7 +158,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>将旧版Kanban卡迁移到展示板</td>
-   <td>此功能将于2023年5月18日在生产环境中提供，不是早期功能选择加入的一部分。</td>
+   <td>此功能于2023年5月18日在生产环境中提供，不是早期功能选择加入的一部分。</td>
   </tr>
   <tr>
    <td>创建动态展示板</td>
@@ -198,7 +193,8 @@ ht-degree: 0%
 
 仅 [!DNL Workfront] 管理员可以选择使用讨论区的早期功能。 当 [!DNL Workfront] 管理员启用早期功能，组织中的所有用户都选择加入。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+{{step1-to-boards}}
+
 1. 单击 ![早期功能加入](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期功能加入])。
 1. 单击 **[!UICONTROL 启用]**.
 1. 开始使用展示板的早期功能。
@@ -228,6 +224,7 @@ ht-degree: 0%
 
 仅 [!DNL Workfront] 管理员可以选择不接收早期功能。 如果 [!DNL Workfront] 管理员禁用早期功能，组织中的所有用户都选择退出。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+{{step1-to-boards}}
+
 1. 单击 ![已启用早期功能加入](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 已启用早期功能加入])。
 1. 单击 **[!UICONTROL 禁用]**.
