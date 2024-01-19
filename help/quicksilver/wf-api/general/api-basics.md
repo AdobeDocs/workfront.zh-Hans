@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 有关有效对象代码的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md).
 
-### 操作
+### 运营
 
 通过将HTTP请求发送到对象的唯一URI来控制对象。 要执行的操作由HTTP方法指定。
 
@@ -67,7 +67,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 为了解决客户端缺陷或协议长度限制，可以使用方法参数覆盖HTTP行为。 例如，可以通过发布以下URI来实现GET操作：
 <pre>GET/attask/api/v15.0/project？id=4c78...54d0&amp;method=get<br>GET/attask/api/v15.0/project/4c78...54d0？method=get</pre>
 
-### 个回应
+### 响应
 
 每个请求都会以JSON格式获得响应。 如果请求成功，响应将具有data属性；如果存在问题，则响应将具有error属性。 例如，请求
 
@@ -269,7 +269,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 下表列出了您可以与Workfront API一起使用的一些修饰符。
 
-| **修改者** | **描述** | **示例** |
+| **修饰符** | **描述** | **示例** |
 |---|---|---|
 | eq | 返回处于“已关闭”状态的结果 | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | 返回不处于“已关闭”状态的结果 | <pre>...status=cls&amp;status_Mod=ne...</pre> |
@@ -361,11 +361,11 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 某些对象类型具有通常执行的命名搜索，可以通过将查询名称附加到对象类型URI的末尾来提供。 例如，以下请求可检索用户当前已分配的工作项（任务和问题）：
 <pre>/attask/api/v15.0/work/myWork</pre>命名查询支持请求字段参数以检索其他字段。 一些命名查询也接受其他过滤器。 有关对象中允许的命名查询列表，请参阅[API Explorer](../../wf-api/general/api-explorer.md)中对象的“操作”选项卡。
 
-#### 使用计数过滤器
+#### 使用 `Count`
 
-您可以指定给定搜索要返回的结果数。 这使服务器能够更快地处理请求并节省带宽。 例如，请求
+您可以使用 `count` 以返回与查询匹配的结果数。 当您不需要结果中的数据时，这可能很有用。 通过只返回计数，服务器可以更快地处理请求并节省带宽。 例如，请求
 <pre>GET/attask/api/v15.0/project/count？status=CUR</pre>按以下格式返回结果数：
-<pre>{<br>    "count"： 3 <br>}</pre>与发送完整对象相比，此结果的下载量要小得多。 过滤器语法与search命令相同。
+<pre>{<br>    "count"： 3 <br>}</pre>返回计数的数据传输比返回完整对象的数据传输小得多。 语法与search命令相同。
 
 ### 请求报告
 
