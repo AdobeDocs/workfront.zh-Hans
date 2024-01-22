@@ -5,9 +5,9 @@ title: 中的项目、任务和问题日期概述 [!DNL Adobe Workfront]
 description: 中的项目、任务和问题日期概述 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 * 项目、任务或问题状态更改为 [!UICONTROL 完成]， [!UICONTROL 已关闭]，或 [!UICONTROL 已解决].
 * 任务或项目完成百分比为100%。
 
-此 [!UICONTROL 实际完成日期] 的日期与项目上第一个任务的完成日期重合。
+此 [!UICONTROL 实际完成日期] 的日期与您在项目上完成最后一个任务的日期一致。
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ ht-degree: 0%
 >
 >更改 [!UICONTROL 提交日期] 影响 [!UICONTROL 预计完成日期] 但不是 [!UICONTROL 计划完成日期] 任务或问题的一部分。 项目经理可以使用被分派人在以下项目中所做的更改： [!UICONTROL 提交日期] 更新 [!UICONTROL 计划完成日期] 任务或问题的一部分。
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL 预计开始日期]
 
 此 [!UICONTROL 预计开始日期] 是项目、任务或问题的实时日期，并考虑到所有延迟。 这是项目、任务或问题的开始日期比 [!UICONTROL 计划开始日期]. 此 [!UICONTROL 计划开始日期] 不考虑延迟或过去的日期。
@@ -132,7 +128,7 @@ ht-degree: 0%
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL 预计完成日期]
+## [!UICONTROL 预计完成日期]
 
 此 [!UICONTROL 预计完成日期] 是一个实时计算指示器，指示项目、任务或问题的完成时间。 当项目、任务或问题标记为“已完成”时， [!UICONTROL 预计完成日期] 对日期所做的更改 [!UICONTROL 实际完成日期].
 
@@ -146,24 +142,28 @@ ht-degree: 0%
 
 当您记录项目、任务和问题的时间以指示您在项目、任务或问题上花费的实际时间（以小时为单位）时，记录的时间将变为 [!UICONTROL 实际小时数] 项目、任务或问题的。
 
-记录时间的日期为 [!UICONTROL 小时输入日期] 小时条目上的字段。
+记录时间的日期为 [!UICONTROL 小时输入日期] 小时条目上的字段。 某些小时列表和报告将小时输入日期显示为日期。
 
 >[!TIP]
 >
 >此 [!UICONTROL 小时输入日期] 不同于 [!UICONTROL 输入日期] 这是因为该日期不是创建小时日志的日期，而是您希望与小时关联的日期。
 
-您可以将时间记录到 [!UICONTROL 项目]， [!UICONTROL 任务]，或 [!UICONTROL 问题更新] 部分或中的 [!UICONTROL 小时] 部分。 在中记录时间时 [!UICONTROL 小时] 部分，您可以手动指定小时输入日期和小时所属的用户。
+您可以在Workfront的以下区域中记录和查看时间：
 
-有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* 在中记录和查看时间 [!UICONTROL 项目]， [!UICONTROL 任务]，或 [!UICONTROL 问题更新] 部分或中的 [!UICONTROL 小时] 部分。 在中记录时间时 [!UICONTROL 小时] 部分，您可以手动指定小时输入日期和小时所属的用户。
 
->[!TIP]
->
->我们建议将登录时间用于工作任务和问题，而不是父级任务或项目。 工作任务的登录时间将累计至父任务和项目，如下所示 [!UICONTROL 实际小时数] 父任务和项目。 登录问题的时间累计到项目为 [!UICONTROL 实际小时数] 用于项目。
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >我们建议将登录时间用于工作任务和问题，而不是父级任务或项目。 工作任务的登录时间将累计至父任务和项目，如下所示 [!UICONTROL 实际小时数] 父任务和项目。 登录问题的时间累计到项目为 [!UICONTROL 实际小时数] 用于项目。
 
-您可以查看 [!UICONTROL 小时输入日期] 在小时报表和列表中。
+* 在任务或问题的更新流中记录时间。
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* 查看 [!UICONTROL 小时输入日期] 在小时报表和列表中。
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)
