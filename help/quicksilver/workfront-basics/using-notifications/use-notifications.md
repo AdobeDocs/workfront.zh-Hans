@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 使用通知
+title: “使用通知：文章索引”
 description: 阅读这些文章，了解如何在Adobe Workfront中使用通知。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 使用通知
+# 使用通知：文章索引
+
+[!DNL Adobe Workfront] 会发送电子邮件通知、应用程序内通知和移动通知，提醒您在中发生了活动 [!DNL Workfront].
+
+<!-- Audited: 01/2024 -->
 
 本节包含以下文章：
 
@@ -33,7 +37,7 @@ ht-degree: 1%
 * [通知：需要操作](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [通知：审批信息](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [通知：通信](../../workfront-basics/using-notifications/notifications-communication.md)
-* [通知: [!DNL Goals]](../../workfront-basics/using-notifications/notifications-goals.md)
+* [通知： [!DNL Goals]](../../workfront-basics/using-notifications/notifications-goals.md)
 * [通知：关于我拥有的项目的信息](../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
 * [通知：关于我赞助的项目的信息](../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
 * [通知：关于我参与的项目的信息](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)
