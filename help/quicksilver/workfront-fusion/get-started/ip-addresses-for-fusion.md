@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 用于访问Adobe Workfront Fusion的IP地址
-description: Adobe Workfront Fusion除了需要Adobe Workfront许可证之外，还需要Adobe Workfront Fusion许可证。
+description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: adb324323330f53108532cc7a7e68466fdb84273
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除 [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront license].
 
-如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须向其添加某些IP地址，以便允许在您的环允许列表境和 [!DNL Adobe Workfront Fusion].
+列入允许列表如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其IP地址，以便允许您的环境与 [!DNL Adobe Workfront Fusion].
 
-将以下IP地址添加到您的允许列表以启用 [!DNL Workfront Fusion] 来访问您的系统。
+将以下IP地址添加到允许列表以启用 [!DNL Workfront Fusion] 以访问您的系统。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,10 +47,19 @@ ht-degree: 3%
      <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 在Microsoft Azure群集上</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-此外，如果贵组织使用出站网络过滤，请将以下域添加到允许列表您的中，以启用系统访问Workfront Fusion。
+此外，如果贵组织使用出站网络过滤，请将以下域添加到您的以使您的允许列表能够访问Workfront Fusion。
 
 <table style="table-layout:auto">
  <col> 
@@ -64,11 +73,15 @@ ht-degree: 3%
    <td role="rowheader"> <p>[!DNL Adobe Workfront] 美国数据中心</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] 在Microsoft Azure群集上</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->出站网络过滤不常见。 请咨询网络管理员，以了解您是否需要更新允许列表以适应此情况。
+>出站网络过滤不常见。 请咨询网络管理员，了解是否需要更新允许列表以适应环境。
 
-有关设置贵组织的更多信允许列表息，请参阅 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+有关设置组织允许列表的详细信息，请参阅 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
