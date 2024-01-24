@@ -5,20 +5,24 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Marketo模块
-description: 在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Marketo]，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Marketo]，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2068'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo] 模块
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Marketo]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Marketo]，并将其连接到多个第三方应用程序和服务。
+
+有关Marketo连接器的视频介绍，请参阅：
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,34 +55,34 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
-使用 [!DNL Marketo] 模块，您必须具有 [!DNL Marketo] 帐户。
+使用 [!DNL Marketo] 模块，您必须拥有 [!DNL Marketo] 帐户。
 
-## Connect [!DNL Marketo] 到Workfront Fusion {#connect-marketo-to-workfront-fusion}
+## 连接 [!DNL Marketo] 到Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
-您可以创建与 [!DNL Marketo] 从内部直接获得帐户 [!DNL Marketo] 模块。
+您可以创建与 [!DNL Marketo] 直接从内部帐户 [!DNL Marketo] 模块。
 
-1. 在任意 [!DNL Marketo] 模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 字段。
-1. 输入您的 [!DNL Marketo] 帐户或 [!DNL Marketo] [!UICONTROL Munchkin] ID。 这是分配给您帐户的基本URL或端点的唯一部分，您使用它进行访问 [!DNL Marketo] 通过 [!UICONTROL REST] API。 有关查找此内容的说明，请参阅 [基本URL](https://developers.marketo.com/rest-api/base-url/) 在 [!DNL Marketo] 文档。
+1. 在任何 [!DNL Marketo] 模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 字段。
+1. 输入您的 [!DNL Marketo] 帐户或 [!DNL Marketo] [!UICONTROL 蒙奇金] 标识。 这是分配给您帐户的基本URL或端点的唯一部分，您使用它进行访问 [!DNL Marketo] 通过 [!UICONTROL REST] API。 有关查找此内容的说明，请参阅 [基本URL](https://developers.marketo.com/rest-api/base-url/) 在 [!DNL Marketo] 文档。
 1. 输入您的 [!UICONTROL 客户端ID] 和 [!UICONTROL 客户端密码]. 有关查找这些内容的说明，请参阅 [身份验证](https://developers.marketo.com/rest-api/authentication/) 在 [!DNL Marketo] 文档。
 1. 单击 **[!UICONTROL 继续]** 以创建连接并返回模块。
 
 ## [!DNL Marketo] 模块及其字段
 
-配置时 [!DNL Marketo] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Marketo] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Marketo] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Marketo] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -90,33 +94,33 @@ ht-degree: 0%
 
 ### 触发器
 
-* [[!UICONTROL 观看记录]](#watch-records)
+* [[!UICONTROL 观察记录]](#watch-records)
 * [[!UICONTROL 观看活动（即时）]](#watch-events-instant)
 
-#### [!UICONTROL 观看记录]
+#### [!UICONTROL 观察记录]
 
-此触发器模块在创建或更新记录时启动方案。
+此触发器模块会在创建或更新记录时启动方案。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择要创建的记录类型。</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL活动]</strong> </p> <p>选择要监视的活动类型。 </p> <p>模块仅监视新活动。<br></p> </li> 
-     <li> <p><strong>[！UICONTROL潜在客户]</strong> </p> <p>选择是否要监视新记录、更新的记录、新记录和更新的记录或特定字段更新。 如果选择监视特定字段更新，请选择您希望模块监视的字段。</p> </li> 
-     <li> <p><strong>[！UICONTROL程序]</strong> </p> <p>选择是要监视新记录、更新的记录，还是同时监视新记录和更新的记录。</p> </li> 
+     <li> <p><strong>[！UICONTROL潜在客户]</strong> </p> <p>选择是否要监视新记录、更新的记录、新记录和更新的记录或特定字段更新。 如果选择监视特定字段更新，请选择要模块监视的字段。</p> </li> 
+     <li> <p><strong>[！UICONTROL项目]</strong> </p> <p>选择是要监视新记录、更新的记录，还是同时监视新记录和更新的记录。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出]</td> 
-   <td> <p>选择要包含在此模块的输出包中的信息。</p> </td> 
+   <td> <p>选择要包含在此模块的输出捆绑包中的信息。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
@@ -127,7 +131,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 观看活动（即时）]
 
-此触发器模块在创建或更新记录时启动方案。
+此触发器模块会在创建或更新记录时启动方案。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,15 +163,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 自定义API调用]
 
-通过此操作模块，您可以对 [!DNL Marketo] API。 这样，您就可以创建一个其他人无法实现的数据流自动化 [!DNL Marketo] 模块。
+通过此操作模块，您可以对 [!DNL Marketo] API。 这样，您就可以创建另一个无法实现的数据流自动化 [!DNL Marketo] 模块。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
@@ -178,7 +182,7 @@ ht-degree: 0%
    <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -186,15 +190,15 @@ ht-degree: 0%
    <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期内使用的最大记录数。</p> </td> 
+   <td> <p>输入或映射每个方案执行周期中您希望模块使用的最大记录数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,22 +212,22 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择要创建的记录类型。</p> 
     <ul> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
+     <li> <p>[！UICONTROL Company]</p> </li> 
      <li> <p>[！UICONTROL文件夹]</p> </li> 
      <li> <p>[！UICONTROL潜在客户]</p> </li> 
-     <li> <p>[！UICONTROL程序]</p> </li> 
+     <li> <p>[！UICONTROL项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL选择要映射的字段]</td> 
-   <td>如果要创建公司或销售线索，请选择要在创建新记录时为其设置值的字段，然后为这些字段输入值。</td> 
+   <td>如果要创建公司或销售线索，请选择要在创建新记录时为其设置值的字段，然后输入这些字段的值。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL程序类型]</td> 
@@ -231,7 +235,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL计划渠道] </td> 
-   <td>如果您正在创建项目群，请选择要创建项目群的项目群渠道。</td> 
+   <td>如果要创建项目，请选择要创建项目的项目频道。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹] / [！UICONTROL项目名称]</td> 
@@ -239,7 +243,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL描述]</td> 
-   <td> <p>如果要创建文件夹或程序，请输入或映射新记录的描述。</p> </td> 
+   <td> <p>如果要创建文件夹或程序，请输入或映射新记录的说明。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL父文件夹ID]</td> 
@@ -258,32 +262,32 @@ ht-degree: 0%
 
 #### [!UICONTROL 更新记录]
 
-此操作模块使用其ID更新现有记录。
+此操作模块使用现有记录的ID更新该记录。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择要创建的记录类型。</p> 
     <ul> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
+     <li> <p>[！UICONTROL Company]</p> </li> 
      <li> <p>[！UICONTROL潜在客户]</p> </li> 
-     <li> <p>[！UICONTROL程序]</p> </li> 
+     <li> <p>[！UICONTROL项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL公司] / [！UICONTROL潜在客户] / [！UICONTROL项目ID]</td> 
+   <td role="rowheader">[！UICONTROL Company] / [！UICONTROL Lead] / [！UICONTROL项目ID]</td> 
    <td>输入或映射要更新的记录ID。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL选择要映射的字段]</td> 
-   <td>如果要更新“公司”或“销售线索”，请选择要更新值的字段，然后为这些字段输入值。</td> 
+   <td>如果要更新“公司”或“销售线索”，请选择要为其更新值的字段，然后输入这些字段的值。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL项目名称]</td> 
@@ -291,11 +295,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL描述]</td> 
-   <td> <p>如果要更新程序，请输入或映射程序的新描述。</p> </td> 
+   <td> <p>如果要更新程序，请输入或映射程序的新说明。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL开始日期]</td> 
-   <td>如果要更新程序，请输入或映射程序的新起始日期。</td> 
+   <td>如果要更新程序，请输入或映射程序的新开始日期。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL结束日期]</td> 
@@ -321,8 +325,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件ID]</td> 
@@ -340,50 +344,50 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL源文件]</td> 
-   <td>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</td> 
+   <td>从上一个模块中选择源文件，或映射源文件的名称和数据。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹ID]</td> 
-   <td>输入或映射希望新文件所在的文件夹的ID。</td> 
+   <td>输入或映射要放置新文件的文件夹的ID。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL描述]</td> 
-   <td>输入已上传文件的描述。</td> 
+   <td>输入已上载文件的说明。</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 读取记录]
 
-该操作模块使用记录的ID读取有关记录的信息。
+此操作模块使用记录的ID读取有关记录的信息。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择要创建的记录类型。</p> 
     <ul> 
      <li> <p>[！UICONTROL营销活动]</p> </li> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
+     <li> <p>[！UICONTROL Company]</p> </li> 
      <li> <p>[！UICONTROL潜在客户]</p> </li> 
      <li> <p>[！UICONTROL列表]</p> </li> 
-     <li> <p>[！UICONTROL程序]</p> </li> 
+     <li> <p>[！UICONTROL项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出]</td> 
-   <td>选择要包含在此模块的输出包中的信息。 根据您选择的[！UICONTROL记录类型]字段可用。</td> 
+   <td>选择要包含在此模块的输出捆绑包中的信息。 根据您选择的[！UICONTROL记录类型]，字段可用。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL &lt;object&gt; ID]</td> 
@@ -394,15 +398,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 将潜在客户添加到列表]
 
-此操作模块使用潜在客户ID向列表添加一个或多个潜在客户。
+此操作模块通过使用潜在客户ID向列表添加一个或多个潜在客户。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL列表ID]</td> 
@@ -424,8 +428,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL列表ID]</td> 
@@ -433,22 +437,22 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL潜在客户ID]</td> 
-   <td> <p>对于要从列表中删除的每个潜在客户，单击 <b>[！UICONTROL添加]</b>，然后输入或映射要删除的潜在客户的ID。 您最多可以添加300个潜在客户，以便模块从列表中删除。 </p> <p>单击映射切换可映射要从列表中删除的现有潜在客户集合。</p> </td> 
+   <td> <p>对于要从列表中删除的每个潜在客户，单击 <b>[！UICONTROL添加]</b>，然后输入或映射要删除的潜在客户的ID。 您最多可以为模块添加300个要从列表中删除的销售机会。 </p> <p>单击映射切换可映射要从列表中删除的现有潜在客户集合。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 计划活动]
 
-此操作模块为特定日期计划一个现有营销活动。
+此操作模块可计划特定日期的现有营销活动。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL营销活动ID]</td> 
@@ -463,27 +467,27 @@ ht-degree: 0%
 
 #### [!UICONTROL 复制项目]
 
-该操作模块使用现有程序的ID制作程序副本。
+此操作模块使用现有项目的ID制作项目副本。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL现有项目ID]</td> 
    <td>输入或映射要复制的程序的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL新项目名称]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL新程序名称]</p> </td> 
    <td> <p>输入或映射新项目的名称</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹ID]</td> 
-   <td>输入或映射您希望新程序所在的文件夹的ID。</td> 
+   <td>输入或映射要放置新程序的文件夹的ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -502,8 +506,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -516,11 +520,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL字段]</td> 
-   <td>如果已选择检索潜在客户，请选择是要从列表还是项目群中检索潜在客户。</td> 
+   <td>如果已选择检索潜在客户，请选择是要从列表还是从项目群检索潜在客户。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出]</td> 
-   <td>选择要包含在此模块的输出包中的信息。 根据您选择的[！UICONTROL记录类型]字段可用。</td> 
+   <td>选择要包含在此模块的输出捆绑包中的信息。 根据您选择的[！UICONTROL记录类型]，字段可用。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
@@ -531,15 +535,15 @@ ht-degree: 0%
 
 #### [!UICONTROL 搜索记录]
 
-此搜索模块检索符合特定搜索条件的记录列表。
+此搜索模块可检索符合特定搜索条件的记录列表。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Marketo] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Marketo] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">连接 [!DNL Marketo] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -555,12 +559,12 @@ ht-degree: 0%
    <td> <p>选择您要按名称、项目名称或工作区名称搜索。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL值]</td> 
+   <td role="rowheader">[！UICONTROL Values]</td> 
    <td>对于要搜索的每个值，单击 <b>[！UICONTROL添加项]</b> 并输入值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL输出]</td> 
-   <td> <p>选择要包含在此模块的输出包中的信息。</p> </td> 
+   <td role="rowheader">[！UICONTROL Output]</td> 
+   <td> <p>选择要包含在此模块的输出捆绑包中的信息。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 

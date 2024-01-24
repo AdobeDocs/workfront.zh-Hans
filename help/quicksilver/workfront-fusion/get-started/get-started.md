@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 4%
 
 ---
 
@@ -32,3 +32,4 @@ ht-degree: 0%
 * [用于访问的IP地址 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 * [中的操作 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
+* [Adobe Workfront Fusion视频概述](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)

@@ -4,22 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 数据存储位置 [!DNL Adobe Workfront Fusion]
-description: 数据存储类似于数据库或简单表，可以存储方案中的数据，从而可以在各个方案或方案运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
+description: 数据存储类似于数据库或简单表，可以存储场景中的数据，从而可以在单独的场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
 
 # 数据存储位置 [!DNL Adobe Workfront Fusion]
 
-数据存储类似于数据库或简单表，可以存储方案中的数据，从而可以在各个方案或方案运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
+数据存储类似于数据库或简单表，可以存储场景中的数据，从而可以在单独的场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
 
-通过数据存储模块，您可以对 [!DNL Adobe Workfront Fusion] 数据存储：
+通过数据存储模块，您可以对中的记录执行以下操作 [!DNL Adobe Workfront Fusion] 数据存储：
 
 * 添加
 * 替换
@@ -30,6 +30,10 @@ ht-degree: 1%
 * 计数
 
 有关使用数据存储模块的信息，请参阅 [[!UICONTROL 数据存储] 模块](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+有关Workfront Fusion中数据存储的视频介绍，请参阅：
+
+* [数据存储](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## 访问要求
 
@@ -58,17 +62,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 在中创建数据存储 [!DNL Workfront Fusion]
 
@@ -81,13 +85,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->贵组织的可用数据存储数量有限。 如果您尝试创建的数据存储区多于可用的数据存储区， [!DNL Workfront] 返回 [!UICONTROL 已达到最大存储量] 错误。
+>您的组织的可用数据存储数量有限。 如果您尝试创建的数据存储区多于可用的数据存储区， [!DNL Workfront] 返回 [!UICONTROL 已达到最大商店数] 错误。
 >
->有关更多信息，请参阅 [已达到最大存储区数错误](#maximum-stores-reached-error) 本文章中。
+>有关更多信息，请参阅 [已达到最大存储数错误](#maximum-stores-reached-error) 本文章中。
 
 1. 登录 [!DNL Workfront Fusion] 帐户。
-1. 单击 **[!UICONTROL 数据存储]** 左侧导航面板中。
-1. 单击 **[!UICONTROL 添加数据存储]** 在屏幕右上角。
+1. 单击 **[!UICONTROL 数据存储]** （在左侧导航面板中）。
+1. 单击 **[!UICONTROL 添加数据存储]** 屏幕右上角的。
 1. 输入新数据存储的设置。
 
    中的字段上的粗体标题 [!DNL Workfront Fusion] 模块指示所需的设置。
@@ -101,17 +105,17 @@ ht-degree: 1%
       <td> <p>输入数据存储的名称。 </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[！UICONTROL数据结构]</p> </td> 
+      <td> <p>[！UICONTROL Data Structure]</p> </td> 
       <td> <p>数据结构是表的列的列表。 此列表指示列名和数据类型。</p> <p>执行下列操作之一：</p> 
        <ul> 
         <li style="font-weight: bold;">选择已创建的数据结构</li> 
-        <li> <p style="font-weight: bold;">添加新数据结构</p> <p>单击 <strong>[！UICONTROL添加]</strong> 以创建新数据结构。</p> <p>欲了解更多信息，请参见 <a href="#set-up-the-data-structure" class="MCXref xref">设置数据结构</a> 章节。</p> </li> 
-        <li style="font-weight: bold;"> <p>将该字段留空</p> <p style="font-weight: normal;">如果不选择或添加数据结构，则数据库将仅包含主键。 如果您只想保存密钥，并且只想知道数据库中是否存在特定密钥，则此类数据库类型很有用。</p> </li> 
+        <li> <p style="font-weight: bold;">添加新数据结构</p> <p>单击 <strong>[！UICONTROL添加]</strong> 以创建新数据结构。</p> <p>欲了解更多信息，请参见 <a href="#set-up-the-data-structure" class="MCXref xref">设置数据结构</a> 部分。</p> </li> 
+        <li style="font-weight: bold;"> <p>将此字段留空</p> <p style="font-weight: normal;">如果不选择或添加数据结构，则数据库将仅包含主键。 如果您只想保存密钥，并且只想知道数据库中是否存在特定密钥，则此类数据库类型很有用。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td> <p>[！UICONTROL数据存储大小（以MB为单位）</p> </td> 
-      <td> <p>从总内部数据存储中分配数据存储的大小。</p> <p> 默认值为10 MB。 如果您从500 MB分配中拥有的未分配数据存储空间少于10 MB，则默认大小是未分配的存储量。  <p>注：保留金额可以随时更改。</p>  </td> 
+      <td> <p>[！UICONTROL数据存储大小(MB)</p> </td> 
+      <td> <p>从内部数据存储总量中分配数据存储的大小。</p> <p> 默认值为10 MB。 如果从500 MB分配中您未分配的数据存储空间少于10 MB，则默认大小是未分配的存储量。  <p>注：保留金额可以随时更改。</p>  </td> 
      </tr> 
     </tbody> 
    </table>
@@ -131,13 +135,13 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td> <p>[！UICONTROL规范]</p> </td> 
-      <td> <p>执行以下操作之一，设置数据存储中的列。</p> 
+      <td> <p>执行以下操作之一来设置数据存储列。</p> 
        <ul> 
         <li> <p>单击 <strong>[！UICONTROL添加项]</strong> 以手动指定一列的属性。</p> <p>输入 <strong>[！UICONTROL名称]</strong> 和 <strong>[！UICONTROL类型]</strong> 数据存储列并定义相应的属性。</p> </li> 
         <li> <p>单击 <strong>[！UICONTROL Generator]</strong> 以确定来自您提供的示例数据的列。</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
-          <span class="autonumber"><span><b>示例: </b></span></span> 
-          <p>例如，以下JSON示例数据创建三列：姓名、年龄和电话号码。 电话号码是移动和固定电话号码的集合。</p> 
+          <span class="autonumber"><span><b>示例： </b></span></span> 
+          <p>例如，以下JSON示例数据创建三列：姓名、年龄和电话号码。 电话号码是手机和固定电话号码的集合。</p> 
           <p><code>&lbrace;</code> </p> 
           <p><code>"name":"John",</code> </p> 
           <p><code>"age":30,</code> </p> 
@@ -185,16 +189,16 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL 数据存储]** 图标 ![](assets/data-store-icon.png) 在左侧导航面板中打开 [!UICONTROL 数据存储] 区域。
 1. 单击 **[!UICONTROL 浏览]**  ，位于要编辑的数据存储区旁边。
-1. （可选）通过将列拖动到所需位置来重新排序列。
+1. （可选）通过将列拖动到所需位置来重新排列列。
 1. （可选） [!UICONTROL 编辑] 通过单击 **[!UICONTROL 编辑]** 图标，然后输入所需的值。
-1. （可选）通过单击来向数据存储添加新项 **[!UICONTROL 添加]**，然后输入新项目的信息。
+1. （可选）通过单击向数据存储添加新项 **[!UICONTROL 添加]**，然后输入新项目的信息。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 故障排除
 
 * [从数据存储中恢复丢失的数据](#restoring-lost-data-from-a-data-store)
 * [空间不足错误](#out-of-space-error)
-* [已达到最大存储区数错误](#maximum-stores-reached-error)
+* [已达到最大存储数错误](#maximum-stores-reached-error)
 
 ### 从数据存储中恢复丢失的数据
 
@@ -204,7 +208,7 @@ ht-degree: 1%
 
 1. 检查将项目插入数据存储的所有方案的执行日志。
 
-   有关检查执行日志的详细信息，请参见 [在中查看场景的执行历史记录 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+   有关检查执行日志的详细信息，请参见 [在中查看方案的执行历史记录 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 1. 复制数据。
 1. 再次将数据插入数据存储。
@@ -213,7 +217,7 @@ ht-degree: 1%
 
 ### [!UICONTROL 空间不足] 错误
 
-An [!UICONTROL 空间不足] 由于之前创建的数据存储已分配给您分配的数据存储存储，因此发生了错误。
+An [!UICONTROL 空间不足] 发生此错误，因为之前创建的数据存储已分配给您分配的数据存储存储。
 
 #### 解决方法
 
@@ -225,15 +229,15 @@ An [!UICONTROL 空间不足] 由于之前创建的数据存储已分配给您分
 >
 >我们建议您不要将所有空间分配给单个数据存储，除非您确定不需要更多数据存储。
 
-### [!UICONTROL 已达到最大存储量] 错误
+### [!UICONTROL 已达到最大商店数] 错误
 
-A [!UICONTROL 已达到最大存储量] 发生错误是因为您的组织已使用其所有可用的数据存储。 一个组织的许多可用数据存储等于可用场景数量的两倍。 因此，可用数据存储的总数取决于您购买的计划。
+A [!UICONTROL 已达到最大商店数] 发生此错误是因为您的组织已使用其所有可用的数据存储。 组织有许多可用数据存储，其数量相当于可用场景数量的两倍。 因此，可用数据存储的总数取决于您购买的计划。
 
-例如，如果贵组织购买了一个包含15种方案的计划，则组织最多可以拥有30个数据存储区。
+例如，如果贵组织购买了包含15种方案的计划，则最多可以拥有30个数据存储。
 
 #### 解决方法
 
-要减少现有数据存储数量，请考虑执行以下操作之一：
+要减少现有数据存储的数量，请考虑执行以下操作之一：
 
 * 合并现有数据存储
 * 删除未使用的数据存储

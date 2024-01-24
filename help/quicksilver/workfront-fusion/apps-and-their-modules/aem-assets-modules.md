@@ -6,20 +6,24 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets模块
-description: 使用 [!DNL Adobe Experience Manager Assets] 连接器 [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] 帐户、创建、上传和更新资产，以及复制或移动文件夹和资产。
+description: 使用 [!DNL Adobe Experience Manager Assets] 连接器 [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] 帐户，创建、上传和更新资产，以及复制或移动文件夹和资产。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] 模块
 
-使用 [!DNL Adobe Experience Manager Assets] 连接器 [!DNL Adobe Workfront Fusion]，您可以根据中的事件启动方案 [!DNL Adobe Experience Manager Assets] 帐户、创建、上传和更新资产，以及复制或移动文件夹和资产。
+使用 [!DNL Adobe Experience Manager Assets] 连接器 [!DNL Adobe Workfront Fusion]，您可以根据中的事件启动方案 [!DNL Adobe Experience Manager Assets] 帐户，创建、上传和更新资产，以及复制或移动文件夹和资产。
+
+有关Adobe Experience Manager Assets连接器的介绍，请参阅：
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## 访问要求
 
@@ -48,17 +52,17 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
@@ -67,9 +71,9 @@ ht-degree: 0%
 
   有关设置的说明 [!UICONTROL 服务器到服务器] 中的流量 [!DNL Adobe Developer console]，请参见 [为服务器端API生成访问令牌](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-## Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
+## 连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-为创建连接 [!DNL Adobe Experience Manager Assets] 模块：
+要为创建连接，请执行以下操作 [!DNL Adobe Experience Manager Assets] 模块：
 
 1. 单击 [!UICONTROL 添加] 旁边的 [!UICONTROL 连接] 盒子。
 
@@ -113,7 +117,7 @@ ht-degree: 0%
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL实例URL，不带尾随斜杠]</td>
-                  <td>输入您的URL [!DNL Adobe Experience Manager] 实例。 不要包含斜杠 <code>/</code> 在URL末尾。</td>
+                  <td>输入您的URL [!DNL Adobe Experience Manager] 实例。 不要包含斜杠 <code>/</code> URL末尾。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL客户端ID]</td>
@@ -157,7 +161,7 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td role="rowheader">[！UICONTROL实例URL，不带尾随斜杠]</td>
-                <td>输入您的URL [!DNL Adobe Experience Manager] 实例。 不要包含斜杠 <code>/</code> 在URL末尾。</td>
+                <td>输入您的URL [!DNL Adobe Experience Manager] 实例。 不要包含斜杠 <code>/</code> URL末尾。</td>
             </tr>
             <tr>
                 <td role="rowheader">[！UICONTROL用户名]</td>
@@ -173,7 +177,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Experience Manager Assets] 模块及其字段
 
-配置时 [!DNL Adobe Experience Manager Essentials] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Experience Manager Essentials] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Adobe Experience Manager Essentials] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Experience Manager Essentials] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -188,12 +192,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
-   <td> <p>选择是要复制文件夹还是资产。</p> </td> 
+   <td> <p>选择您要复制文件夹还是资产。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹] / [！UICONTROL资产选择]</td> 
@@ -201,7 +205,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL目标路径]</td> 
-   <td>选择路径或将路径映射到新文件夹或资源的位置。</td> 
+   <td>选择路径，或将路径映射到新文件夹或资源的位置。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">已复制文件夹的[！UICONTROL名称] / [！UICONTROL资产]</td> 
@@ -209,30 +213,30 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL复制子项]</td> 
-   <td>启用此选项以复制文件夹中的任何子文件夹或资产。</td> 
+   <td>启用此选项以复制文件夹中的任何子文件夹或资源。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL覆盖]</td> 
-   <td>启用此选项以覆盖目标位置中与所复制的文件夹或资源同名的任意文件夹或资源。</td> 
+   <td>启用此选项以覆盖目标位置中与要复制的文件夹或资源同名的任意文件夹或资源。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL 创建记录]
 
-此操作模块创建文件夹或资产评论。
+此操作模块可创建文件夹或资产评论。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL对象类型]</td> 
-   <td> <p>选择想要创建文件夹还是对资源进行评论。</p> 
+   <td> <p>选择想要创建文件夹还是要在资源上创建评论。</p> 
     <ul> 
      <li> <p>[！UICONTROL文件夹]</p> <p>填写以下字段：</p> 
       <ul> 
@@ -241,8 +245,8 @@ ht-degree: 0%
       </ul> </li> 
      <li> <p>[！UICONTROL资产注释]</p> <p>填写以下字段：</p> 
       <ul> 
-       <li> <p>[！UICONTROL资源选择]</p> <p>选择或映射要添加评论的资产ID。</p> </li> 
-       <li> <p>[！UICONTROL注释]</p> <p>输入注释的文本。</p> </li> 
+       <li> <p>[！UICONTROL资源选择]</p> <p>选择或映射您要为其添加评论的资产ID。</p> </li> 
+       <li> <p>[！UICONTROL Comment]</p> <p>输入注释的文本。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -251,15 +255,15 @@ ht-degree: 0%
 
 ### [!UICONTROL 删除记录]
 
-此操作模块删除文件夹、资源或演绎版。
+此操作模块可删除文件夹、资源或演绎版。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -282,8 +286,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹]</td> 
@@ -294,15 +298,15 @@ ht-degree: 0%
 
 ### [!UICONTROL 进行自定义API调用]
 
-此操作模块对 [!DNL Adobe Experience Manager Assets] API。
+此操作模块对进行自定义API调用 [!DNL Adobe Experience Manager Assets] API。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
@@ -313,7 +317,7 @@ ht-degree: 0%
    <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 自动添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -321,8 +325,8 @@ ht-degree: 0%
    <td> <p>输入请求查询字符串。 对于每个键/值对，单击 <b>[！UICONTROL添加项]</b> 并输入[！UICONTROL键]和[！UICONTROL值]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -332,15 +336,15 @@ ht-degree: 0%
 
 ### [!UICONTROL 移动文件夹或资源]
 
-此操作模块会将给定路径下的资源或文件夹移动到新位置。
+此操作模块会将给定路径下的资产或文件夹移动到新位置。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
@@ -352,15 +356,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL目标路径]</td> 
-   <td>选择或将路径映射到要将文件夹或资源移动到的位置。</td> 
+   <td>选择路径，或将路径映射到要将文件夹或资源移动到的位置。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">已移动文件夹的[！UICONTROL名称] / [！UICONTROL资产]</td> 
-   <td>为移动的文件夹或资源输入新名称。 在中显示的文件夹名称 [!DNL Adobe Experience Manager Assets] 与原始名称相同。 此处输入的名称将显示在移动文件夹或资产的URL中。</td> 
+   <td>为移动的文件夹或资源输入新名称。 在中显示的文件夹名称 [!DNL Adobe Experience Manager Assets] 与原始名称相同。 此处输入的名称将显示在移动的文件夹或资产的URL中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL覆盖]</td> 
-   <td>启用此选项以覆盖目标位置中与所复制的文件夹或资源同名的任意文件夹或资源。</td> 
+   <td>启用此选项以覆盖目标位置中与要复制的文件夹或资源同名的任意文件夹或资源。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,14 +378,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
    <td> <p>选择您要删除资源元数据还是资源演绎版。</p> 
     <ul> 
-     <li> <p>[！UICONTROL资源元数据]</p> 
+     <li> <p>[！UICONTROL资产元数据]</p> 
       <ul> 
        <li> <p>选择要为其更新元数据的资源。</p> </li> 
        <li> <p>输入资源的新标题。</p> </li> 
@@ -389,7 +393,7 @@ ht-degree: 0%
      <li> <p>[！UICONTROL资产演绎版]</p> 
       <ul> 
        <li> <p>选择要为其更新演绎版的资源。</p> </li> 
-       <li> <p>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</p> </li> 
+       <li> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -405,8 +409,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Adobe Experience Manager Assets] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">连接 [!DNL Adobe Experience Manager Assets] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL目标]</td> 

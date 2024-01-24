@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '13862'
+source-wordcount: '13867'
 ht-degree: 1%
 
 ---
@@ -2057,6 +2057,7 @@ ht-degree: 1%
       * [用于访问Adobe Workfront Fusion的IP地址](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion许可证](workfront-fusion/get-started/license-automation-vs-integration.md)
       * [中的操作 [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+      * [Adobe Workfront Fusion视频概述](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
    * Adobe Workfront Fusion基础 {#workfront-fusion-basics}
       * [Adobe Workfront Fusion基础](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [在Adobe Workfront Fusion中更改配置文件设置](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
