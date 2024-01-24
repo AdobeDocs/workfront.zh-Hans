@@ -6,9 +6,9 @@ description: 项目群表示共享跨项目边界的共同策略、目标或目�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>新建：任何</p><p>或</p><p>当前： [！UICONTROL Business]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td> <p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
    <td> <p>新文档： [！UICONTROL Standard] </p><p>或 </p><p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>[！UICONTROL Edit]对Portfolio和程序的访问权限 </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL计划完成日期]</td> 
-   <td>您无法在标题中编辑项目的规划完成日期。  </td> 
+   <td>您无法在标题中编辑项目的规划完成日期。 将从项目群的项目中更新此信息。 项目群中最新项目的计划完成日期变为项目的计划完成日期。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL活动项目条件]</td> 
