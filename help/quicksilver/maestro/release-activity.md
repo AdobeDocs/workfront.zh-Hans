@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ ht-degree: 0%
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
 
-<!--
-## Week of January 22, 2024
+## 2024年1月22日起一周
 
-### New History section displays system activity for Maestro records (title) 
+### 新的历史记录部分显示Maestro记录的系统活动
 
-Production: < date > 
+生产： 2024年1月25日
 
-Preview: To be determined 
+预览：待定
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+为了提高审核能力，我们在记录的右侧面板中引入了新部分，您可以在其中查看对系统记录的记录所做的更改。
 
-Maestro records the following information in the new History section:  
+Maestro将在新的“历史记录”部分中记录以下信息：
 
-* Any field changes 
+* 任何字段更改
 
-* The full name of the user who made the change 
+* 字段的旧值和新值（当值更改时）
 
-* A date and time stamp of when the change occurred. 
+* 进行更改的用户的全名
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* 更改发生的日期和时间戳。
 
--->
+有关更多信息，请参阅 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### 新记录链接的新标签
+
+生产： 2024年1月25日
+
+预览：待定
+
+为了在创建记录时创建一致性，我们为用于创建记录的“+新建”链接重新添加了“+新记录”标签。  在此更新之前，链接包含记录类型的名称。 现在，在创建操作和分类记录时，可以使用新链接。 有关信息，请参阅 [创建记录](/help/quicksilver/maestro/records/create-records.md).
 
 ## 2024年1月8日起一周
 

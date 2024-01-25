@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Adobe大师”是Adobe Workfront推出的新产品。 Maestro的目的是全面�
 | 创意摘要 |                               |                                  | ✓ {\f13 } |
 | 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
 | 向记录添加注释 | ✓ {\f13 } |                                  |                 |
+| 查看记录更改的历史记录 | ✓ {\f13 } |                                  |                 |
 | 段落字段的富文本格式 | ✓ {\f13 } |                                  |                 |
 | 适用于Adobe Workfront Fusion的Maestro模块 | ✓ {\f13 } |                                  |                 |
 | 将信息从一个字段复制并粘贴到另一个字段 | ✓ {\f13 } |                                  |                 |

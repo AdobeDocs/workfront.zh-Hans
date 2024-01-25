@@ -1,13 +1,13 @@
 ---
 title: 创建记录
-description: 在Adobe大师，记录是记录类型的实例。 在创建单个记录之前，必须先创建记录类型。
+description: 在Adobe大师，记录是记录类型的实例。 在创建单个记录之前，必须先创建记录类型。 创建分类记录与创建操作记录相同。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * **操作记录**：它们表示与工作相关的对象。 例如，对于名为“Campaign”的运营记录，您可以拥有名为“Monthly Newsletter”或“Summer Sale”的记录。
 * **分类记录**：它们表示可与操作记录关联的属性。 例如，对于名为“渠道”的分类记录类型，您可以命名分类，如“电子邮件”、“社交媒体”或“广告”。
 
-创建操作记录与创建分类记录或分类相同。
+创建操作记录与创建分类记录相同。
 
 通过执行以下操作之一，可以在Maestro中创建记录：
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. （视情况而定）如果记录类型页面未在表视图中打开，请单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表格视图。
 
-1. 要添加新记录，请单击 **新建&lt;记录类型名称>** 在表的最后一行
+1. 要添加新记录，请单击 **新记录** 在表的最后一行
 
    或
 

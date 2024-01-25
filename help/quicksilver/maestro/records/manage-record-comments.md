@@ -1,12 +1,12 @@
 ---
 title: 管理记录注释
-description: 通过在记录的“注释”区域添加注释或回复，可以对AdobeMaestro记录进行协作。
+description: 通过在记录的右侧面板中添加注释或回复，您可以对AdobeMaestro记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # 管理记录注释
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-通过在记录的“注释”区域添加注释或回复，可以对AdobeMaestro记录进行协作。
+通过在记录的右侧面板中添加评论或回复，可以对AdobeMaestro记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+记录的右侧面板显示以下部分：
 
-The right panel of a record displays the following sections:
+* **评论**：显示用户添加到记录的评论和回复。
+* **历史记录**：显示用户对记录字段进行的系统记录更改。 有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>右侧面板显示操作记录和分类记录。
+
 
 ## 有关对记录进行注释的注意事项
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
 
-* 您可以从Maestro的以下区域向记录添加更新：
+* 您可以向记录添加更新，并复查Maestro以下区域的更改历史记录：
 
-   * 从“详细信息”页面。
+   * 从记录或分类的“详细信息”页面。
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ The right panel of a record displays the following sections:
 
    记录的 **详细信息** 页面将打开。 默认情况下，“注释”区域会在右侧面板中打开。
 
+1. （视情况而定）如果默认情况下未打开右侧面板，请单击 **显示评论** ![](assets/show-comments-icon.png) 图标，以打开“注释”部分。
+
 1. 开始在 **新建评论** 盒子。
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ The right panel of a record displays the following sections:
 1. （可选）单击 **更多** 图标 ![](assets/more-menu.png) 单击注释右上角的以下选项之一，从注释中复制信息：
 
    * **复制链接**：这会将指向评论的链接复制到剪贴板。
-   * **复制正文文本** t：这会将注释的文本复制到剪贴板。
+   * **复制正文文本**：这会将注释的文本复制到剪贴板。
    * **引用回复**：这会将您的评论内容复制到新回复中。 复制的回复中不包含图像。
 
    有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）单击 **更多** 图标 ![](assets/more-menu.png) 单击注释右上角的 **删除** 以删除注释。
+1. （可选）单击 **隐藏评论** 图标 ![](assets/hide-comments-icon.png) 以关闭右侧面板。
 
-<!--
-## History section overview
+## “历史记录”部分概述
 
-*********also update the screen shot above for the Comments section ******
+您可以在操作记录或分类右侧面板的“历史记录”部分中查看对记录所做的更改。
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->
