@@ -7,7 +7,7 @@ description: 燃尽可视化图表显示特定项目在一段时间内的燃尽�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看</p> </td> 
+   <td> <p>查看</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 了解燃尽可视化图表
 
@@ -152,7 +152,7 @@ ht-degree: 0%
    >如果实际速度是沿可视化图表的x轴运行的平面线（内联0小时或0天），则意味着没有向项目添加计划的小时数或天数。\
    >如果实际速度是x轴上方的平直线（与小时数或天数内联）且永远不会降低，则意味着在过滤的时间段内未完成任何任务。
 
-1. （可选）要导出可视化数据，请单击 **导出** 图标 ![“导出”图标](assets/export.png)并选取导出格式：
+1. （可选）要导出可视化数据，请单击 **导出** 图标 ![“导出”图标](assets/export.png) 并选取导出格式：
 
    * 图表 (PNG)
    * 数据表(XSLX)
