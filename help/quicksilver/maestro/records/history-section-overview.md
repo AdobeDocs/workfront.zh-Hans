@@ -4,10 +4,10 @@ description: 您可以在AdobeMaestro中记录的右侧面板中查看对记录�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ ht-degree: 2%
 
    * 多选
    * 链接的记录字段
-   * 链接（查找）字段
    * 人员
 
   如果更改仅向字段添加了值，则旧值不会显示，而仅显示新字段值。
@@ -80,5 +79,14 @@ ht-degree: 2%
 * 复选框类型的字段从不以删除线格式显示旧值。 如果字段已编辑，则仅显示进行更改时的当前状态。
 
   有关主字段的详细信息，请参阅 [创建字段](/help/quicksilver/maestro/fields/create-fields.md).
+
+* 对以下类型的字段所做的更改不会显示在“历史记录”部分中：
+
+   * 链接（查找）字段
+   * 公式
+   * 创建者
+   * 创建日期
+   * 上次修改者
+   * 上次修改日期
 
 * 如果从系统中删除某个字段，则对该字段所做的更新将保留在“历史记录”部分中。 没有迹象表明记录的History部分中已移除该字段。

@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: 创建验证
-description: 了解如何创建验证。
+description: 您可以在Adobe Workfront中创建文档的验证。 您可以在Adobe Workfront中创建文档的验证。 您可以为文档、交互式内容和网站创建验证。 请在以下文章中了解如何创建验证。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# 创建验证
+# 创建验证：文章索引
 
-本节包含以下文章：
+<!--Audited: 01/2024-->
+
+您可以在Adobe Workfront中创建文档的验证。 您可以为文档、交互式内容和网站创建验证。
+
+请在以下文章中了解如何创建验证：
 
 * [使用基本工作流创建高级验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [使用自动化工作流创建高级验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
