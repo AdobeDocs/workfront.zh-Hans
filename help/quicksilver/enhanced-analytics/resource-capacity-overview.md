@@ -3,20 +3,20 @@ title: 在Enhanced Analytics中查看资源产能可视化图表
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: “资源能力”可视化图表显示团队是超出、不足还是处于能力。
+description: 在查看Adobe Workfront中的增强型分析资源容量可视化图表时，您可以评估团队是超出、低于还是处于容量状态。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 0%
+source-wordcount: '815'
+ht-degree: 1%
 
 ---
 
 # 在Enhanced Analytics中查看资源产能可视化图表
 
-“资源能力”可视化图表显示团队是超出、不足还是处于能力。
+在查看Adobe Workfront中的增强型分析资源容量可视化图表时，您可以评估团队是超出、低于还是处于容量状态。
 
 ## 访问要求
 
@@ -27,33 +27,38 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
-   <td> <p>业务或更高</p> </td> 
+   <td>Adobe Workfront计划</a>*</td> 
+   <td> <p>当前：业务或更高</p>
+   或
+   <p>新建：任何</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td>Adobe Workfront许可证*</td> 
+   <td> <p>当前：审阅或更高版本</p>
+   或
+   <p>新增：标准</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。<br>有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对项目的访问权限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
 有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 了解资源产能可视化图表
+## 了解资源产能图表
 
-“资源能力”可视化图表显示团队是超出、不足还是处于能力。 此计算基于：
+资源能力图表显示团队是超出、不足还是处于能力状态。 此计算基于：
 
 * **可用产能**：主团队在过滤的时间段内可以工作的总小时数
 
@@ -87,7 +92,7 @@ ht-degree: 0%
 
 将鼠标悬停在一行上会显示计划容量和可用容量的确切小时数，以及主团队超出或低于容量的小时数。
 
-查看此信息可帮助您确定：
+查看此信息可以帮助您确定：
 
 * 主团队是否分配过多或分配不足。
 * 最大的项目是主团队所专注的。
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 1. （可选）要导出可视化数据，请单击 **“导出”图标** ![](assets/export.png) 然后选择导出格式：
 
-   * **图表 (PNG)**
+   * **图表(PNG)**
    * **数据表(XSLX)**
 
 1. 单击主团队名称可在团队容量可视化图表中查看更多信息。
