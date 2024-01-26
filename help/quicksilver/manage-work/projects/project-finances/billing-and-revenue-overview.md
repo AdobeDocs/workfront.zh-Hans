@@ -7,14 +7,16 @@ description: 作为项目经理，您可以使用记帐费率来获取项目收�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # 开单和收入概览
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 处理记帐费率时，请考虑以下事项：
 
-* 您需要具有财务数据编辑访问权限的计划许可证以管理记帐费率。\
+* 您需要具有财务数据编辑访问权限的计划或标准许可证以管理记帐费率。\
   有关授予对“财务数据”的访问权限的详细信息，请参见 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * 记帐费率是与工作角色或用户关联的每个工作单位的收入额。
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->计算收入的费率属于记录时间的用户或其工作角色。
+>计算收入的费率属于记录时间的用户，或属于其工作角色。
 
 * [用户记帐费率](#user-billing-rates)
 * [工作角色记帐费率](#job-role-billing-rates)
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 ### 用户记帐费率 {#user-billing-rates}
 
-作为用户管理员，在创建用户时，您可以通过指定每小时计费字段的值以及费率的日期，将它们与日期有效的计费率相关联。
+作为用户管理员，在创建用户时，您可以通过指定每小时计费字段的值以及费率的日期，将它们与日期有效的记帐费率相关联。
 
 有关创建用户的更多信息，请参阅文章 [添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -62,13 +64,13 @@ ht-degree: 0%
 
 ### 工作角色记帐费率 {#job-role-billing-rates}
 
-作为Adobe Workfront管理员，在创建工作角色时，您可以通过指定每小时开单字段的值以及费率的日期，将其与日期有效的开单费率关联。
+作为Adobe Workfront管理员，在创建工作角色时，您可以通过指定每小时开单字段的值和费率的日期，将其与日期有效的开单费率关联。
 
 您可以使用Workfront系统的基础货币或其他自定义货币来定义工作角色记帐费率的值。
 
 有关创建工作角色和覆盖其货币的更多信息，请参阅文章 [创建和管理职位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![编辑工作角色成本和记帐费率](assets/edit-job-role-multiple-billing-rates.png)
+![编辑工作角色成本和记帐费率](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### 项目或任务的固定记帐费率 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -108,23 +110,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">计划收入</td> 
-   <td> <p>对于任务，这是与任务的计划小时数关联的收入。 所有任务的计划小时数累计到项目的计划小时数，有助于项目计划小时数的计算。 </p> <p>有关Workfront中计划小时数的详细信息，请参阅 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">计划小时数概述</a>. </p> <p>Workfront使用此公式计算任务的计划收入：</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>注意</strong></br> 公式中的开单小时费率会考虑该费率的任何日期有效更改。</p> <p>Workfront使用以下公式计算项目的计划收入：</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td role="rowheader">规划收入</td> 
+   <td> <p>对于任务，这是与任务的计划小时数关联的收入。 所有任务的计划小时数累计到项目的计划小时数，有助于项目计划小时数的计算。 </p> <p>有关Workfront中计划小时数的详细信息，请参阅 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">计划小时数概述</a>. </p> <ul><li><p>Workfront使用此公式计算任务的计划收入：</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>注意</strong></br> 公式中的开单小时费率会考虑该费率在生效日期的任何更改。</p> </li><li><p>Workfront使用以下公式计算项目的计划收入：</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>注释</b>
 
-<p>在项目详细信息区域和项目报表中显示的项目计划收入与利用率报表中显示的计划收入不同。 </p> <p>项目详细信息区域中的计划收入反映与任务计划小时数以及项目的固定收入关联的任务收入。 利用率报表中的计划收入仅显示与项目任务分配的计划小时数关联的计划收入。 </p> 
+<p>在项目详细信息区域和项目报表中显示的项目计划收入与利用率报表中显示的计划收入不同。 </p></li></ul> <p>项目详细信息区域中的计划收入反映与任务计划小时数以及项目的固定收入关联的任务收入。 利用率报表中的计划收入仅显示与项目任务分配的计划小时数关联的计划收入。 </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>如果项目有1个时数为10的任务，分配给顾问时费率为$20，并且项目有$100的固定收入，则利用率报表显示计划收入$200（与任务小时数关联的计划收入）。 项目详细信息部分显示$300（任务的计划收入和项目的固定收入）。 </p> 
      </div> </p> <p>任务计划收入使用分配给任务的用户或工作角色的计费小时费率计算。 任务的收入类型会影响用于计算计划收入的比率（用户或角色）。 有关更多信息，请参阅本文中的以下部分：</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">任务收入类型概览</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">基于用户和角色分配的任务的收入计算</a> </p> </li> 
-    </ul> <p>有关利用率报表中计划收入计算的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用率信息 </a>. </p> </td> 
+    </ul> <p>有关利用率报表中计划收入计算的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用率信息</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">实际收入*</td> 
-   <td> <p>与任务、问题和项目的实际小时数关联。 </p> <p>通常，Workfront会使用以下公式计算实际收入：</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>注意</strong></br> 公式中的开单小时费率会考虑该费率的任何日期有效更改。</p> <p>有关利用率报表中实际收入计算的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用率信息 </a>. </p> <p><b>提示</b>
+   <td> <p>与任务、问题和项目的实际小时数关联的收入。 </p> <p>通常，Workfront会使用以下公式计算实际收入：</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>注意</strong></br> 公式中的开单小时费率会考虑该费率在生效日期的任何更改。</p> <p>有关利用率报表中实际收入计算的信息，请参阅 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">查看资源利用率信息</a>. </p> <p><b>提示</b>
 
 您不能查看问题层的实际收入，但与问题中的实际小时数关联的收入将计入项目的实际收入。 </p> </td>
 </tr> 
@@ -177,7 +179,7 @@ ht-degree: 0%
    <td> <p>此类型可用于项目和任务。 </p> <p>将模板附加到项目时，模板中的固定收入会添加到项目的固定收入。 有关信息，请参阅 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">将模板附加到项目的概述</a>. </p> <p>对于任务，无论任务分配如何，始终使用任务上指定的固定金额计算任务收入。 </p> <p>子任务的固定收入将累计至父任务的收入，然后累计至项目的收入。 如果在父任务和/或项目上定义了固定金额，则该金额会添加到从任何子任务累计的计划收入中。</p> <p>任务的固定收入金额可以包含在项目的记帐记录中。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>用户小时</p> </td> 
+   <td> <p>用户每小时</p> </td> 
    <td> <p>此类型只能用于任务。 </p> <p>您为特定用户设置的记帐费率乘以该任务的计划小时数，即成为该任务的计划收入额。 您为特定用户设置的记帐费率乘以用户针对任务记录的小时数，即为任务的实际收入金额。 <br>例如，如果您创建用户，并为其每小时计费字段设置$20，那么如果用户为时间表上的任务提交5小时，则该任务的实际计费金额为$100。</p>
    <p>一个用户配置文件可以包含多个具有有效日期的记帐费率。 例如，第一个用户记帐费率$20于2023年4月30日结束，第二个用户记帐费率$25于2023年5月1日开始。 如果用户在4月28日提交2小时，在5月2日提交3小时用于任务，则任务的实际开单金额为$40 + $75 = $115。</p>
    <p><b>提示</b>
@@ -185,7 +187,7 @@ ht-degree: 0%
 这是创建任务时的默认收入类型。</p> </td>
 </tr> 
   <tr> 
-   <td> <p>角色小时</p> </td> 
+   <td> <p>角色每小时</p> </td> 
    <td> <p>此类型只能用于任务。</p> <p>此类型类似于每小时用户数，但使用工作角色费率而不是用户费率。</p> <p><strong>注意</strong><br>工作角色还可以具有包含有效日期的多个记帐费率。</p></td> 
   </tr> 
   <tr> 
@@ -205,11 +207,11 @@ ht-degree: 0%
    <td> <p>此类型只能用于任务。 </p> <p>任务按照角色每小时计费一次，但有一个附加的固定金额，您可以将其添加至角色费率。 在任务上指定的固定金额可以包含在项目的记帐记录中。 固定数量不会乘以任务的小时数。 只有工作角色记帐费率有效。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>固定小时</p> </td> 
+   <td> <p>固定每小时</p> </td> 
    <td> <p>此类型只能用于任务。</p> <p>您为任务设置的上限或固定金额乘以针对任务输入的小时数（无论用户或其职位角色如何）即是计费金额。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>不可记帐</p> </td> 
+   <td> <p>不可计费</p> </td> 
    <td> <p>此类型只能用于任务。</p> <p>此收入类型对收入没有影响。 </p> <p>如果父对象具有此设置，则仍会正常应用具有计费类型的子任务。</p> <p>当对财务数据没有访问权限的用户或对模板没有财务权限的用户从该模板创建项目时，这是项目上任务的默认收入类型。</p> <p>有关访问财务数据的信息，请参阅文章 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>.<br>有关对象的财务权限的信息，请参阅文章 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象权限共享概述</a>.<br>有关从模板创建项目的信息，请参阅文章 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用模板创建项目</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +248,7 @@ ht-degree: 0%
 
 有一个基于任务分配的收入计算中使用的费率的层次结构。
 
-如果您的Workfront管理员启用了 **手动将工作角色分配给小时条目** 时间表和小时偏好设置区域中的设置，并且项目的用户记录时间选择不同的角色来与此时间关联，则任务或项目的实际收入始终根据与小时条目关联的角色进行计算。 有关为特定工作角色启用日志记录时间的信息，请参阅文章 [时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+如果您的Workfront管理员启用了 **手动将工作角色分配给小时条目** 时间表和小时偏好设置区域中的设置，并且项目的用户记录时间选择不同的角色来与此时间关联，则任务或项目的实际收入始终根据与小时条目关联的角色进行计算。 有关为特定工作角色启用日志记录时间的信息，请参阅文章 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 根据收入类型和任务分配的性质计算任务收入时，存在以下方案：
 
@@ -266,7 +268,7 @@ ht-degree: 0%
     </tr> 
     <tr> 
      <td role="rowheader">计划收入的每小时记帐费率</td> 
-     <td>$0.00</td> 
+     <td>0.00美元</td> 
      <td> 如果用户档案中有记帐费率，则该费率用于计算计划收入。 否则，将使用其主要工作角色的系统记帐费率。 <br><p><b>注意</b>  可以将用户与其辅助工作角色之一分配给任务，但此处改为使用主要工作角色的速率。</p><p>如果在分配期间用户的角色发生了变化，则在重新计算项目财务时将应用正确的费率。</p></td> 
      <td><p><span class="preview">如果已将费率卡附加到项目，则根据费率卡中的工作角色计算计划收入。</span></p> <p><span class="preview">可以在项目级别覆盖记帐费率。</span></p></td> 
     </tr> 
@@ -303,7 +305,7 @@ ht-degree: 0%
     </tr> 
     <tr> 
      <td role="rowheader">计划收入的每小时记帐费率</td> 
-     <td>$0.00</td> 
+     <td>0.00美元</td> 
      <td><p>Workfront查看用户在任务中履行的工作角色以计算计划收入。 <br>如果用户未与任务中的任何角色关联，则收入为$0.00。</p> <p><strong>注意</strong><br>如果在分配期间用户的角色发生了变化，则在重新计算项目财务时将应用正确的费率。</p> </td> 
      <td><p><span class="preview">如果已将费率卡附加到项目，则根据费率卡中的工作角色计算计划收入。</span></p> <p><span class="preview">可以在项目级别覆盖记帐费率。</span></p></td> 
     </tr> 

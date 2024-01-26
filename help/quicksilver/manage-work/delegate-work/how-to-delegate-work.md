@@ -6,19 +6,22 @@ description: 您可以在外出时临时委派分配给您的工作。 本文介
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # 管理任务和问题委派
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 您可以在外出时临时委派分配给您的工作。
@@ -35,10 +38,10 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >* 这些权限必须在其访问级别内工作，有时，其访问级别可能低于您的访问级别。
 >
 >   
->   例如，如果用户对其访问级别的任务只有“查看”访问权限，而您对您委派给他们的任务具有“管理”权限，则他们将获得您委派给他们的任务的“管理”权限。 但是，他们将无法对委派的任务执行与您相同的操作。 他们必须向系统管理员请求对任务的编辑访问权限，才能在您缺席时更新任务。
+>   例如，如果用户对其访问级别的任务只有“查看”访问权限，而您对您委派给他们的任务具有“管理”权限，则他们将获得您委派给他们的任务的“管理”权限。 但是，他们将无法对委派的任务执行与您相同的操作。 您不在时为了能够更新任务，必须向系统管理员请求对任务的编辑权限。
 >
 >   
->   有关如何修改访问级别的信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   有关系统管理员如何修改您的访问级别的信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* 对于在委派已开始之后分配的项目，在为其分配项目后可能最多需要一小时 [!DNL Workfront] 以与委派共享新分配的项目。
 
@@ -50,31 +53,32 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>审核或更高</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档：参与者或更高版本</p><p>或</p><p>当前：审阅或更高版本</p>
 
 >[!NOTE]
 >
->尽管您可以在拥有Request许可证时被分派到工作，但您不能将您的工作委派给其他人。 [!DNL Workfront] 不建议将工作分派给审阅或请求用户。
+>尽管您可以在拥有Request许可证时被分派到工作，但您不能将您的工作委派给其他人。 [!DNL Workfront] 不建议将工作分配给审阅、请求或参与者用户。
 
 </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对任务和问题的访问权限如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> 创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对任务和问题的访问权限 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>查看分配给您的任务或问题的权限或更高</p> 
-    <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 在将工作委派给他人之前，我们建议您联系他们，并通知他们将被指定为您工作项目的代表。 在委派工作之前请他们口头批准，以确保他们有必要的时间在您外出时完成工作。
 
-有关委派任务和问题的一般信息，请参阅 [委派任务和问题概述](delegate-work.md).
+有关委派任务和问题的一般信息，请参阅 [委派任务和问题概述](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 要将您的任务和问题委派给其他人，请执行以下操作：
 
@@ -102,9 +106,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 1. 在 [!UICONTROL **委派任务和问题**] 选项卡，更新以下内容：
 
-   * [!UICONTROL **将您的任务和问题委派给**]：开始键入要将您的任务和问题委派给某个用户的名称，然后在此名称显示在列表中时将其选定。 您只能选择一个用户。\
+   * [!UICONTROL **将您的任务和问题委派给**]：开始键入要将您的任务和问题委派给某个用户的名称，然后在此名称显示在列表中时将其选定。 您只能选择一个用户。
 
-     您选择作为代理的用户将获得与您委派给他们的任务和问题相关的权限相同的权限。 有关更多信息，请参阅 [委派任务和问题概述](delegate-work-overview.md).
+     您选择作为代理的用户将获得与您委派给他们的任务和问题相关的权限相同的权限。
 
    * [!UICONTROL **开始日期**]：从日历中选择开始委派工作项的日期。
 
@@ -118,7 +122,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
      >[!TIP]
      >
-     >不选择结束日期将仅启用当天的委派。
+     >如果将“结束日期”字段留空，并且未选择“无结束日期”选项，则仅为当天设置委派。
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 您的工作已委派给指定用户。 委派任何日期在您选择的时间范围内（包括在启用委派后新分配的任务或问题）的未完成任务或问题。
 
-   >[!TIP]
-   >
-   >   日期在委派时间范围内的已完成工作项不会被委派。
+     >[!TIP]
+     >
+     >   日期在委派时间范围内的已完成工作项不会被委派。
 
 
    * 您将在屏幕右上角收到一条消息，确认您已启用将您的工作委派给另一个用户。 委派用户的名称显示在确认消息中。
 
-   * 大多数区域都显示您的任务和问题被委派给其他用户的指示，您可以在其中查看分配 [!DNL Workfront]. 有关哪些区域不包含代理人名称的更多信息，请参见 [委派任务和问题概述](delegate-work-overview.md).
+   * 大多数区域都显示您的任务和问题被委派给其他用户的指示，您可以在其中查看分配 [!DNL Workfront]. 有关哪些区域不包含代理人名称的更多信息，请参见 [委派工作概述](delegate-work-overview.md).
 
    * 此 [!UICONTROL **委派**] 中的按钮 [!UICONTROL 主页] 区域更改为 [!UICONTROL **编辑委派**] 表示已委派用户。
    <!--
@@ -151,9 +155,6 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * 您选择作为委派的用户会收到一封有关委派的电子邮件（如果已启用其事件通知）。
 
      有关启用个人电子邮件通知的信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## 编辑或停止委派
 
@@ -201,9 +202,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * 任务或问题标题
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   此 [!UICONTROL 指定任务] 任务或问题标题中的字段更改为 [!UICONTROL 任务和委派].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * 此 [!UICONTROL 工作负载均衡器] 手动分配任务或问题时
 
@@ -232,8 +233,8 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
 1. 单击 [!UICONTROL 排序] 下拉菜单按以下条件对列表进行排序：
-   * [!UICONTROL 计划完成]. 这是默认排序选项。
-   * [!UICONTROL 计划开始]
+   * [!UICONTROL 已计划完成]. 这是默认排序选项。
+   * [!UICONTROL 已计划开始]
    * [!UICONTROL 提交日期]
    * [!UICONTROL 项目]
    * [!UICONTROL 我的优先级]

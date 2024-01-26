@@ -6,9 +6,9 @@ description: 项目群表示共享跨项目边界的共同策略、目标或目�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td>
+
+<td> <p>新建：任何</p><p>或</p><p>当前： [！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档： [！UICONTROL Standard] </p><p>或 </p><p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
