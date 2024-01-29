@@ -7,16 +7,20 @@ description: 在查看Adobe Workfront中的增强型分析资源容量可视化�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
 
 # 在Enhanced Analytics中查看资源产能可视化图表
 
+<!--Audited: 01/2024-->
+
 在查看Adobe Workfront中的增强型分析资源容量可视化图表时，您可以评估团队是超出、低于还是处于容量状态。
+
+资源可视化图表中说明的团队是指在指定时间段内分配给工作的用户的主团队。
 
 ## 访问要求
 
@@ -56,9 +60,9 @@ ht-degree: 1%
 
 有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 了解资源产能图表
+## 了解资源产能可视化图表
 
-资源能力图表显示团队是超出、不足还是处于能力状态。 此计算基于：
+“资源能力”可视化图表显示团队是超出、不足还是处于能力。 此计算基于：
 
 * **可用产能**：主团队在过滤的时间段内可以工作的总小时数
 
@@ -90,24 +94,25 @@ ht-degree: 1%
 
   ![](assets/resource-capacity-under-capacity.png)
 
-将鼠标悬停在一行上会显示计划容量和可用容量的确切小时数，以及主团队超出或低于容量的小时数。
+将鼠标悬停在团队的行上会显示计划容量和可用容量的确切小时数，以及主团队超出或低于容量的小时数。
 
 查看此信息可以帮助您确定：
 
-* 主团队是否分配过多或分配不足。
-* 最大的项目是主团队所专注的。
-* 哪些主团队可以工作。
+* 如果团队分配过多或不足。
+* 主团队关注的最大项目是什么。
+* 哪些团队可以工作。
 
 要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 查看资源产能可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **分析**.
+{{step1-to-analytics}}
+
 1. 在左侧面板中，选择 **人员**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
+1. （可选）要使用不同的日期范围，请从图表右上角的日期范围过滤器中选择新的开始日期和结束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ ht-degree: 1%
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. 将鼠标悬停在主团队线路上，查看还有多少小时可供安排，主团队计划完成的时数，以及标记为超出、不足或处于产能状态的总工作小时数。
+1. 将鼠标悬停在主团队行上可查看以下内容：
+
+   * 还有多少小时可供安排
+   * 主团队计划完成的小时数
+   * 工作小时总数。 工作总小时数可以具有以下标签：
+
+      * 超过
+      * 下
+      * 满负荷。
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
