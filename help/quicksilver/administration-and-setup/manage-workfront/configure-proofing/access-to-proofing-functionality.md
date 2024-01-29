@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **新的Workfront计划**：新Workfront计划中的所有许可证自动包含校对。
 * **当前的Workfront Pro+计划**：如果您拥有专业版、商业版或企业版Workfront计划，则工作和计划许可证会自动包含校对。
-* **Workfront Premium旧版计划**：此选项适用于旧版Workfront计划 — Select、Enterprise、Premium。 此计划中的许可证中不会自动包含校对。 您必须向特定用户在其用户配置文件中授予验证访问权限。
+* **旧版Workfront Premium计划**：此选项适用于旧版Workfront计划 — Select、Enterprise、Premium。 此计划中的许可证中不会自动包含校对。 您必须向特定用户在其用户配置文件中授予验证访问权限。
 
   如果您是Workfront管理员，则可以转到设置>系统>许可证来查看您的实例正在进行的计划。
 

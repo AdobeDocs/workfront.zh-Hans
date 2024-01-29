@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ Linked to Converting Issues.-->
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
-* [[!UICONTROL 访问权限]](#access)
+* [[!UICONTROL 访问]](#access)
 
 ### [!UICONTROL 新任务默认值] {#new-task-defaults}
 
@@ -82,7 +82,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL持续时间类型] </p> </td> 
-   <td> <p>确定资源数（及其分配百分比）与任务的持续时间或总工作量之间的关系。 有关更多信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型</a></p> </td> 
+   <td> <p>确定资源数（及其分配百分比）与任务的持续时间或总工作量之间的关系。 有关更多信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">任务持续时间和持续时间类型：文章索引</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL收入类型]</td> 
@@ -113,7 +113,7 @@ Linked to Converting Issues.-->
    <td role="rowheader" [!UICONTROL>将问题转化为任务时]</td> 
    <td> <p>此部分中的设置确定在从问题到任务的转换过程中发生的情况：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL保留原来的问题，并将其解决方案与任务绑定]</strong>：在转换问题时，在任务完成之前，它始终作为问题可见。 任务完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。</p> <p><b>注释</b>:  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 
+     <li> <p><strong>[！UICONTROL保留原来的问题，并将其解决方案与任务绑定]</strong>：在转换问题时，在任务完成之前，它始终作为问题可见。 任务完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。</p> <p><b>注意</b>：  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a> </p> </li> 
@@ -128,7 +128,7 @@ Linked to Converting Issues.-->
    <td role="rowheader">[！UICONTROL将问题转化为项目时]</td> 
    <td> <p>此部分中的设置确定在从问题到项目的转换过程中发生的情况：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL保留原来的问题，并将其解决方案与项目绑定]</strong>：在转换问题时，在项目完成之前，它始终作为问题可见。 项目完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。 </p> <p><b>注释</b>:  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 
+     <li> <p><strong>[！UICONTROL保留原来的问题，并将其解决方案与项目绑定]</strong>：在转换问题时，在项目完成之前，它始终作为问题可见。 项目完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。 </p> <p><b>注意</b>：  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a> </p> </li> 
@@ -224,7 +224,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-### [!UICONTROL 访问权限] {#access}
+### [!UICONTROL 访问] {#access}
 
 <table style="table-layout:auto"> 
  <col> 

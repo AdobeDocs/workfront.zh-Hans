@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 1%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 1%
          * [任务限制概览：尽可能迟](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [更新任务的任务限制](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * 任务持续时间和持续时间类型 {#task-duration-and-duration-types}
-         * [任务持续时间和持续时间类型](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [任务持续时间和持续时间类型：文章索引](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [任务工期和工期类型概览](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [持续时间类型概览：计算分配](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [持续时间类型概述：投入比导向](manage-work/tasks/taskdurtn/effort-driven.md)

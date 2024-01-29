@@ -6,11 +6,11 @@ keywords: 用户，计划
 navigation-topic: configure-timesheets-and-schedules
 title: 时间表概述
 description: 您可以使用计划定义工作周。 您可以将时间表与用户或项目关联。 这允许 [!DNL Adobe Workfront] 以计算时间线和用户可用性。 有关说明，请参阅创建计划。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # 时间表概述
 
+<!-- Audited: 1/2024 -->
+
 您可以使用计划定义工作周，并将计划与用户或项目关联。 这允许 [!DNL Adobe Workfront] 以计算时间线和用户可用性。 有关说明，请参阅 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 在Workfront中使用计划时，请考虑以下事项：
 
 * 此 [!DNL Workfront] 管理员在计划中标识组织的营业时间。
 
-  同样，组管理员可以确定由他们管理的组所管理的调度的运行小时数。
-
-  有关组管理员的详细信息，请参见 [组管理员](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  同样，组管理员可以确定由他们管理的组所管理的调度的运行小时数。 有关组管理员的详细信息，请参见 [组管理员](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   例如，时间表可以定义为：星期一到星期五，上午8点到下午5点，午餐时间休息一小时。
 

@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 访问，模型，漏斗，图表，级别，权限
 navigation-topic: access-levels
 description: Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 该访问级别定义用户能够查看的对象类型和系统中的区域以及可执行的操作。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 2%
 
 Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 该访问级别定义用户能够查看的对象类型和系统中的区域以及可执行的操作。
 
-此外，当其他用户共享并授予某些对象权限时，用户将获得对这些对象的访问权限。
+当其他用户共享并授予某些对象权限时，用户还可以访问这些对象。
 
-因此，用户可以针对对象执行的活动由其访问级别和针对该项目授予他们的权限组合来定义。
 
 ![](assets/security-model-hierachy.png)
 

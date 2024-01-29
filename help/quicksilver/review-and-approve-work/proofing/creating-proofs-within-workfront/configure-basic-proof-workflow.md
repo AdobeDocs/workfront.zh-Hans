@@ -6,7 +6,7 @@ description: 使用基本工作流，您可以让多个审阅人查看验证，�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 使用基本工作流创建高级验证
+
+<!-- Audited: 1/2024 -->
 
 使用基本工作流，您可以让多个审阅人查看验证，但他们不会归为多个阶段。 您添加的所有审阅人可以在您创建验证后立即访问该验证。
 
