@@ -7,14 +7,16 @@ description: 本文介绍了如何在用户配置文件中管理电子邮件通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # 修改您自己的电子邮件通知
+
+<!-- Audited: 1/2024 -->
 
 您的Adobe [!DNL Workfront] 管理员配置用户在Workfront中发生事件时收到的电子邮件通知（如中所述） [[!UICONTROL 配置事件] 系统中的每个人的通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))。
 
@@ -41,17 +43,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td>  <p>新增：</p> 
+   <ul><li>参与者或更高</li></ul>
+   <p>当前：</p>
+   <ul><li>请求或更高版本</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 查看和修改电子邮件通知设置
 

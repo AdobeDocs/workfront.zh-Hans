@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # 配置防火墙的允许列表
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -219,7 +221,7 @@ ht-degree: 13%
    <td role="rowheader">对于使用测试驱动时的SSO和文档webhook集成</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188:</p> <p>还必须将此地址添加到您的允许列表，以便您的用户接收来自Workfront的电子邮件。</p> </li> 
+     <li> <p>69.42.126.188：</p> <p>还必须将此地址添加到您的允许列表，以便您的用户接收来自Workfront的电子邮件。</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -501,7 +503,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
      <li>*.workfront.com — 需要在Workfront中查看验证</li> 
      <li>*.proofhq.com — 需要在Workfront Proof中查看验证</li> 
      <li>*.proofhq.eu — 需要在Workfront Proof中查看验证</li> 
-    </ul> <p><b>注释</b>:  <p>我们不支持向您的Workfront Proof允许列表添加IP地址。 在Workfront迁移到AWS后，这些指标一直处于动态状态。 为此，我们建议您仅允许Workfront Proof域。</p> <p>如果将这些域添加到允许列表时出现问题，您需要改用IP地址，请联系Workfront客户支持。</p> </p> </td> 
+    </ul> <p><b>注意</b>：  <p>我们不支持向您的Workfront Proof允许列表添加IP地址。 在Workfront迁移到AWS后，这些指标一直处于动态状态。 为此，我们建议您仅允许Workfront Proof域。</p> <p>如果将这些域添加到允许列表时出现问题，您需要改用IP地址，请联系Workfront客户支持。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,23 +2,25 @@
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-title: 在增强型分析中查看项目树状图可视化
-description: “项目树状图”可视化是在特定时间范围内与其他工作量相比，已在特定时间范围内工作的小时或天数视图。 这有助于您了解用户对项目的投入时间。
+title: 在增强型分析中查看项目树状图可视化图表
+description: 项目树状图可视化图表是在特定时间范围内工作的小时数或天数视图，与其他工作量的大小相比较。 这有助于您了解人员投入到项目中的时间。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 2%
 
 ---
 
-# 在增强型分析中查看项目树状图可视化
+# 在增强型分析中查看项目树状图可视化图表
 
-“项目树状图”可视化是在特定时间范围内与其他工作量相比，已在特定时间范围内工作的小时或天数视图。 这有助于您了解用户对项目的投入时间。
+<!-- Audited: 12/2023 -->
 
-![](assets/project-treemap-350x126.png)
+项目树状图可视化图表是在特定时间范围内工作的小时数或天数视图，与其他工作量的大小相比较。 这有助于您了解人员投入到项目中的时间。
+
+![](assets/project-treemap-350x126.png){width="700"}
 
 ## 访问要求
 
@@ -29,120 +31,123 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a>*</td> 
-   <td> <p>业务或更高版本</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a></td> 
+   <td> <p>业务或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>*</td> 
-   <td> <p>审阅或更高版本</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a></td> 
+   <td>   <p>新增：</p> 
+   <ul><li>浅色或更高</li></ul>
+   <p>当前：</p>
+   <ul><li>审阅或更高</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看项目访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。<br>有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对项目的访问权限</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
-有关使用Enhanced Analytics的先决条件，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 了解项目树状图可视化图表
+## 了解项目树形图可视化图表
 
-项目树状图可视化图表中的框表示项目，而框的大小则显示不同项目花费的时间对比。 框越大，在项目上花费的时间就越多。
+项目树形图可视化图表中的框表示项目，框的大小表示在不同项目上所花费时间的比较。 包装盒越大，花在项目上的时间就越多。
 
-项目树状图可视化由以下部分组成：
+项目树形图可视化图表包括：
 
-* **较小的浅蓝色框**:小时或天数较少的项目显示为具有浅蓝色的较小框。
+* **较小的浅蓝色框**：具有较少小时或天数的项目显示为浅蓝色的小框。
 
-   ![](assets/project-treemap-smaller-box.png)
+  ![](assets/project-treemap-smaller-box.png)
 
-* **更大的深蓝色框**:具有更多小时或天数的项目，会以深蓝色显示为较大的框。
+* **较大的深蓝色框**：具有较多小时或天数的项目显示为具有深蓝色的大框。
 
-   ![](assets/project-treemap-larger-box-350x205.png)
+  ![](assets/project-treemap-larger-box-350x205.png)
 
-* **中型蓝盒**:属于这两个类别的项目显示为中等大小的框，在深蓝色和浅蓝色之间具有蓝色阴影。 中型盒有3种可能的蓝色阴影。
+* **中等大小的蓝色盒子**：属于这两个类别的项目显示为中等大小的框，深蓝色和浅蓝色之间有蓝色阴影。 中型盒子有3种可能的蓝色色调。
 
-右侧的图例显示每个蓝色阴影的已完成小时数的划分。 此图例是动态的，会根据数据进行更新。
+右侧的图例显示每种蓝色阴影的完成小时数划分信息。 此图例是动态的，可根据数据更新。
 
 ![](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
->如果您按持续时间而不是按计划小时数查看项目树状图可视化图表，此图例将显示每个蓝色阴影的工作天数细目。\
+>如果您按持续时间而不是计划小时数查看项目树状图可视化图表，此图例显示每种蓝色阴影的已工作天数细分。\
 >![](assets/project-treemap-days-worked.png)>
 
-查看此信息可帮助您确定：
+查看此信息可以帮助您确定：
 
-* 在选定日期范围内处理的项目的优先级。
-* 哪些团队花时间。
-* 如果团队关注正确的事情。
-* 单击特定项目后，该时间段内项目的范围发生了多少更改。
+* 在选定的日期范围内所处理的事项的优先级。
+* 哪些团队在花费时间。
+* 如果团队关注正确的事。
+* 单击某个特定项目时，该项目范围在该时间段内发生了什么变化。
 
-要了解如何获取此可视化图表的最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 查看项目树状图可视化
+## 查看项目树状图可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **Analytics**.
-1. （可选）要使用其他日期范围，请从日期范围筛选器中选择新的开始日期和结束日期。
+1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **分析**.
+1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
    有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. （视情况而定）如果您需要限制项目数据集，请选择并应用您要使用的过滤器。
+1. （视情况而定）如果您需要限制项目数据集，请选择并应用要使用的过滤器。
 
-   有关在Enhanced Analytics中添加过滤器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   添加过滤器后，最多会显示50个项目的数据，并且即使您离开页面或注销Workfront后，这些过滤器仍保持活动状态。
+   添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
-1. （可选）要更改项目的排序方式，请单击 **排序依据** 菜单，然后选择新的排序选项：
+1. （可选）要更改项目的排序方式，请单击 **排序方式** 项目树状图可视化右上角的菜单，然后选择一个新的排序选项：
 
    * **A - Z**
    * **Z - A**
-   * **计划的完成日期**
-   * **计划的开始日期**
+   * **计划完成日期**
+   * **计划开始日期**
 
-   页面上的所有其他可视化图表将进行更新，以匹配您的排序选择。
+   页面上的所有其他可视化图表将更新以匹配您的排序选择。
 
-1. （视情况而定）如果数据集中有50个以上的项目，请使用可视化左下角的箭头从一组50个项目导航到下一个项目。
+1. （视情况而定）如果数据集中有超过50个项目，请使用可视化图表左下角的箭头，从包含50个项目的组导航到下一个项目。
 
-   页面上的所有其他可视化图表都会进行更新，以匹配您选择的页面。
+   页面上的所有其他可视化图表将更新以匹配您选择的页面。
 
    ![](assets/pagination-350x118.png)
 
-1. （可选）将视图从 **计划时间** to **持续时间**.
+1. （可选）更改视图 **计划小时数** 到 **持续时间**.
 
-   默认情况下，会选择计划小时数。
+   默认情况下选择已计划小时数。
 
-1. 将鼠标悬停在项目上可查看项目条件，以及总计划小时数、总完成小时数以及每天在项目上花费的平均小时数。
+1. 将鼠标悬停在项目上可查看项目完成情况、计划总小时数、已完成总小时数以及每天在项目上花费的平均小时数。
 
    ![](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
-   >如果您选择了 **持续时间** 查看，您将看到以下持续时间详细信息：
+   >如果您选择了 **持续时间** 视图，您将看到以下持续时间详细信息：
    >
-   >* **计划时间范围**:计划完成项目的天数。
-   >* **工作天数**:在顶部选定的日期范围内完成的每项任务的计划持续时间除以一天中的小时数。
-
+   >* **已计划时间框架**：计划完成项目的天数。
+   >* **已工作天数**：在顶部选定的日期范围内完成的每项任务的计划持续时间除以一天中的小时数。
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >有关持续时间的更多信息，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+   >有关持续时间的更多信息，请参阅中的“持续时间视图”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. （可选）要导出可视化数据，请单击 **导出图标** ![](assets/export.png) 在可视化的右上角，选择导出格式：
+1. （可选）要导出可视化数据，请单击 **“导出”图标** ![](assets/export.png) 然后选择导出格式：
 
-   * **图表 (PNG)**
+   * **图表(PNG)**
    * **数据表(XSLX)**
 
-1. 单击某个项目以打开飞行可视化中的“燃尽”和“任务”，以便更深入地了解任务和小时数（或天数）对项目大小的贡献。
+1. 单击某个项目可打开“燃尽”和“外部测试版中的任务”可视化图表，以更深入地了解任务和小时（或天数）对项目大小有何影响。
 
-有关“燃耗”可视化图表的详细信息，请参阅 [在Enhanced Analytics中查看燃耗可视化](../enhanced-analytics/burndown-overview.md). 有关“飞行可视化中的任务”的详细信息，请参阅 [在增强分析中查看“飞行”可视化中的任务](../enhanced-analytics/tasks-in-flight-overview.md).
+有关“燃尽”可视化图表的详细信息，请参阅 [在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md). 有关外部测试版中任务的更多信息，请参阅 [在Enhanced Analytics中查看外部测试版中的任务可视化图表](../enhanced-analytics/tasks-in-flight-overview.md).
 
