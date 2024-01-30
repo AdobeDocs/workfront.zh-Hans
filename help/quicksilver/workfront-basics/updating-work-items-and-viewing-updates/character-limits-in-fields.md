@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 字段中的字符限制
 description: Adobe Workfront中的某些字段会限制可包含在该字段中的字符数。 Workfront会对内容编制索引，以便以后可以搜索。 强制实施字符限制以确保Workfront系统的高质量性能。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 5%
 
 ---
