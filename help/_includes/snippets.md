@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,18 @@ ht-degree: 1%
 ## 步骤1 — 转到Maestro - {#step1-to-maestro}
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 大师]**.
+
+## 大师重要简介 —  {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
+>
+>目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
+>
+>有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
+>
+>有关Maestro的详细信息，请参见 [Adobe大师概述](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

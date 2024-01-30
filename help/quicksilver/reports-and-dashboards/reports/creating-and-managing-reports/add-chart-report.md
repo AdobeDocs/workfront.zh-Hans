@@ -6,22 +6,29 @@ description: 您可以通过添加图表来增强报表。 可以将图表添加
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # 向报表中添加图表
 
+<!--Audited: 01/2024-->
+
 您可以通过添加图表来增强报表。 可以将图表添加到现有报表或正在创建的报表。
 
-在将图表添加到报表之前，您应该为报表创建视图和分组。 除非将信息分组到报告中，否则无法添加大多数图表。 唯一可以在没有分组的情况下添加的图表是量规图。\
-有关如何创建视图的信息，请参见 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+在将图表添加到报表之前，您应该为报表创建视图和分组。
+
+除非您首先在报表中对信息进行分组，否则不能将图表添加到大多数报表中。 唯一可以在没有分组的情况下添加的图表是量规图。
+
+有关视图的信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 有关分组的详细信息，请参阅 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-如果报表显示的项目过多，则不会创建图表。 在这种情况下，您还必须向报表添加过滤器，以减少报表中的结果数。\
+如果报表显示的项目过多，则不会创建图表。 在这种情况下，您还必须向报表添加过滤器，以减少报表中的结果数。
+
 有关筛选器的详细信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 访问要求
@@ -33,33 +40,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>当前：计划 </p>
+   或
+   <p>新增：标准</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 向报表中添加图表
 
 1. 转到现有报告或创建新报告。 有关创建新报告的详细信息，请参见 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. （视情况而定）如果您转到现有报表，请单击 **报表操作** > **编辑**.
 
-1. 确保 **列（视图）** 选项卡已更新以满足报告的需求。\
-   有关如何创建或修改报表视图的信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. 确保 **列（视图）** 选项卡已更新，以在报告中显示要绘制图表的信息。
+
+   有关如何创建或修改报表视图的信息，请参阅 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. 单击 **分组** 制表符并添加分组。
 
@@ -67,15 +77,15 @@ ht-degree: 0%
    >
    >* 您只能在报告结果分组时向报告添加图表。
    >* 图表不支持文本模式分组。 有关文本模式分组的详细信息，请参见 [编辑分组中的文本模式](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* 如果添加表示一个度量的单个分组，则除饼图之外的所有图表都会将分组中的每个结果显示为相同的颜色。
+   >* 如果添加代表一个度量的单个分组，则除饼图之外的所有图表都会将分组中的每个结果显示为相同的颜色。
 
-   有关分组的详细信息，请参阅 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   有关创建分组的详细信息，请参见 [在Adobe Workfront中创建分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. 选择 **图表** 选项卡。
 1. 单击图表类型以将其选定。\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. 可以将以下类型的图表添加到Adobe Workfront报表中：
+1. 从以下图表类型中选择：
 
    * [柱状图](#column-chart)
    * [条形图](#bar-chart)
@@ -100,12 +110,13 @@ ht-degree: 0%
 1. （可选） **组列**：选择此选项可定义您希望如何对列进行分组。\
    从以下选项中选择：
 
-   * 单击以下选项之一以选择分组列的显示方式：\
-     **— 并排**
-     **— 栈叠**
-     **— 栈叠至100%**
+   * 单击以下选项之一以选择分组列的显示方式：
 
-   * 选择要包含在图表中的分组。
+      * **并排**
+      * **栈叠**
+      * **栈叠至100%**
+
+   * 从中选择要包含在图表中的分组 **数据分组依据** 下拉菜单。
    * （可选）选择 **自定颜色** 自定义列的颜色。\
      有关自定义图表颜色的详细信息，请参阅 [自定义图表颜色](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ ht-degree: 0%
    有关自定义图表颜色的详细信息，请参阅 [自定义图表颜色](#customize-chart-colors).
 
 1. （可选）选择 **三维显示** 在三维视图中显示图表。
-1. （可选）分组栏**：选择此选项可定义您希望如何对栏进行分组。\
+1. （可选）选择 **组条** 以定义条的分组方式。\
    从以下选项中选择：
 
-   * 单击以下选项之一，选择分组栏的显示方式：\
-     **— 并排**
-     **— 栈叠**
-     **— 栈叠至100%**
+   * 单击以下选项之一，选择分组栏的显示方式：
 
-   * 选择要包含在图表中的分组。
+      * **并排**
+      * **栈叠**
+      * **栈叠至100%**
+
+   * 从以下位置选择您希望对图表中的信息进行分组的方法： **数据分组依据** 下拉菜单。
    * （可选）选择 **自定颜色** 以自定义列的颜色。\
      有关自定义图表颜色的详细信息，请参阅 [自定义图表颜色](#customize-chart-colors).
 

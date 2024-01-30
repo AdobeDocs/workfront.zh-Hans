@@ -6,37 +6,14 @@ description: 您可以利用项目的Agile功能，而无需Agile实践通常伴
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # 在Agile视图中管理项目
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 
@@ -51,30 +28,31 @@ Required plans, license types, and access
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td> <p>当前：审阅或更高版本</p> 
+   <p>新文档：参与者或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对以下区域的访问权限：</p> 
     <ul> 
      <li> <p>项目</p> </li> 
      <li> <p>报告、功能板、日历</p> </li> 
      <li> <p>筛选器、视图、分组</p> </li> 
-    </ul> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 了解Agile项目
 
@@ -111,7 +89,9 @@ Required plans, license types, and access
 * 没有父任务和子任务的任务始终显示为故事板上的单个故事卡。\
   例如，这些任务在项目列表视图中如下所示：
 
-  ![Agile项目列表 — 无父任务或子任务的任务](assets/agile-project-single-list-nwe.png) 这些任务在项目Agile视图中如下所示：
+  ![Agile项目列表 — 无父任务或子任务的任务](assets/agile-project-single-list-nwe.png)
+
+  这些任务在项目Agile视图中如下所示：
 
   ![项目敏捷视图 — 无父任务或子任务的任务](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Required plans, license types, and access
 ## 在Agile视图中查看项目
 
 1. 转到任务列表或问题列表中的要在Agile视图中查看的项目。
-1. 单击 **展示板** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).
+1. 单击 **讨论区视图** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png).
 
    默认情况下，将显示项目的讨论区视图。
 
@@ -210,7 +190,9 @@ Required plans, license types, and access
 >
 >本节仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
-有关如何共享Agile视图的信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+您可以共享您创建的Agile视图，或者以共享任何其他视图、过滤器或分组的相同方式拥有对的权限。
+
+有关更多信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## 删除现有Agile视图
 
@@ -218,4 +200,6 @@ Required plans, license types, and access
 >
 >本节仅适用于旧版Agile视图，不适用于项目的展示板视图。
 
-有关如何删除视图的信息，请参阅文章中的“删除视图”部分 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+删除Agile视图的方式与删除任何其他视图、过滤器或分组的方式相同。
+
+欲了解更多信息，请参见 [删除筛选器、视图和分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

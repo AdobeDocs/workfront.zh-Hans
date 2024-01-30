@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -37,8 +37,10 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td><p>当前：计划</p>
+   或
+   <p>新增：标准</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -47,13 +49,15 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 创建新电子邮件模板 {#create-a-new-email-template}
+*有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+## 创建电子邮件模板 {#create-an-email-template}
 
-1. 在左侧的面板中，单击 **电子邮件** > **通知**> **电子邮件模板**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. 在左侧面板中，单击 **电子邮件** > **通知**> **电子邮件模板**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 单击 **新建电子邮件模板**.
 
@@ -65,24 +69,31 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td>电子邮件模板的标题（必需）。</td> 
+      <td>为电子邮件模板添加标题。 这是必填字段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">对象类型</td> 
-      <td>指定要与模板关联的对象类型（必需，默认设置为“问题”）。</td> 
-     </tr>
+      <td>指定要与模板关联的对象类型。 从以下对象中选择：
+      <ul>
+      <li>项目</li>
+      <li>任务</li>
+      <li>问题</li>
+      <li>时间表</li> </ul>
+
+   这是必填字段，默认设置为“项目”。</td>
+   </tr>
      <tr> 
       <td role="rowheader">描述</td> 
-      <td>模板的描述。</td> 
+      <td>添加有关电子邮件模板、其用途和目标受众的更多信息。</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">主题 </td> 
-      <td>发送电子邮件时显示的主题（必需）。</td> 
+      <td>在发送模板生成的电子邮件时，添加显示在电子邮件主题行中的文本。 这是必填字段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">正文 </td> 
-      <td> <p>发送电子邮件时显示的内容。</p> <p>您可以对电子邮件内容使用HTML格式，如中所述 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">将HTML格式添加到电子邮件模板</a> 本文章中。</p> </td> 
+      <td> <p>为电子邮件的内容添加文本。</p> <p>您可以对电子邮件内容使用HTML格式，如一节中所述 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">将HTML格式添加到电子邮件模板</a> 本文章中。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 要获取对象的“通配符”值，请执行以下操作之一：
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* 请参阅API资源管理器，并从任何对象的“字段”选项卡中选择对象名称。 有关API Explorer的详细信息，请参阅 [API资源管理器](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* 使用您在报表的文本模式视图中找到的“valuefield”值。 有关文本模式值的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 使用 `valuefield` 在报表的文本模式视图中找到的值。 有关文本模式值的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  “标题”值可以是对象名称，如您希望其在电子邮件正文中显示的那样。
+此 `heading` value可以是您希望在电子邮件正文中显示的对象名称。
 
 ### 链接到具有HTML的自定义字段 {#link-to-custom-fields-with-html}
 
-您可以使用包含指向用户和自定义字段的链接 **$$** 通配符，指示电子邮件生成器从与该对象关联的数据库中查找值。 它们必须位于数据库属性引用的两侧。
+您可以使用包含指向用户和自定义字段的链接 `$$` 通配符，指示电子邮件生成器从与该对象关联的数据库中查找值。 它们必须位于数据库属性引用的两侧。
 
 例如，将以下文本添加为HTML会将分配用户的名字添加到与任务关联的提醒通知中：
 
@@ -193,11 +204,11 @@ HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 替换 `<your domain>` (包含您公司的Workfront域)，无中括号。
 
-**主题:**
+**主题：**
 
 您管理的项目已延迟
 
-**内容:**
+**内容：**
 
 ```html
 <html>
@@ -231,11 +242,11 @@ HTML格式可以丰富您的电子邮件模板，如以下部分所示。
 
 要将其用于问题电子邮件，请更改 `/task/view.` 的工作项链接中的值 `/issue/view`.
 
-**主题:**
+**主题：**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**内容:**
+**内容：**
 
 ```html
 <html>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '396'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 共享工作区
+
+{{maestro-important-intro}}
 
 在Adobe Workfront Maestro中工作时，您可以与其他人共享工作区以确保协作。
 
@@ -104,6 +106,8 @@ ht-degree: 2%
    * 管理
 
      有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
+1. 单击 **复制链接** 以将指向工作区的链接复制到剪贴板。
+1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
 
 

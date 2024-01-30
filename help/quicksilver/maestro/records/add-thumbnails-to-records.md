@@ -4,7 +4,7 @@ description: 您可以在Adobe管理器中编辑记录信息，并将每个记�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>查看工作区或更高权限 </p>  
-   <p>查看表视图或更高权限 </p> 
+   <td> <p>为工作区提供或更高权限 </p>  
+   <p>表格视图的参与权限或更高权限 </p> 
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>

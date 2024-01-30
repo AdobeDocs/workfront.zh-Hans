@@ -4,9 +4,9 @@ description: 在Adobe Workfront Maestro中工作时，您可以与其他人共�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 共享视图
+
+{{maestro-important-intro}}
 
 在Adobe Workfront Maestro中工作时，您可以与其他人共享视图以确保协作。
 
@@ -107,6 +109,8 @@ ht-degree: 1%
    * 管理
 
      有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
+1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
+1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。
 
 

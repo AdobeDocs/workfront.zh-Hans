@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: 顶部导航栏概述
-description: 顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront] 体验 — 允许您轻松查找和导航到平台的其他区域。
+description: 顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront]  — 可让您轻松查找并导航到平台的其他区域。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # 顶部导航栏概述
 
-顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront] 可让您轻松查找并导航到该平台的其他区域。
+<!--Audited: 01/2024-->
+
+顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront]  — 可让您轻松查找并导航到平台的其他区域。
 
 ![顶部导航栏](assets/global-navigation-bar.png)
 
 ## [!UICONTROL 主页] 图标
 
-此 **[!UICONTROL 主页]** 图标 ![](assets/home-icon.png) 将您转到 [!UICONTROL 主页] 页面，默认登录页面。 要了解有关主页的更多信息，请参阅 [使用 [!UICONTROL 主页] 区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+此 **[!UICONTROL 主页]** 图标 ![](assets/home-icon.png) 将您转到 [!UICONTROL 主页] 页面，默认登录页面。
+
+默认情况下，“主页”图标会打开“主页”区域。 有关主目录的详细信息，请参见 [使用 [!UICONTROL 主页] 区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+您的Workfront管理员可以自定义“主页”图标，以便通过创建布局模板并将其分配给您来打开其他页面。 有关更多信息，请参阅 [使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## 固定页面
 
@@ -36,11 +42,17 @@ ht-degree: 0%
 
 蓝色编号框 ![](assets/notifications-icon.png) 屏幕右上角会打开一个通知列表。
 
-要了解有关通知的更多信息，请参阅 [查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+您可以从“通知”菜单访问以下内容：
+
+* **通知**：这些是Workfront在满足某些条件时生成的警报，旨在让您了解可能需要关注的信息。
+
+* **公告**：由Workfront管理员发送的有关重要主题的公告。
+
+要了解有关通知和公告的更多信息，请参阅 [查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL 收藏夹] 菜单
 
-此 **[!UICONTROL 收藏夹]** 图标 ![收藏夹](assets/favorites-icon-62x55.png) 在系统中打开已收藏页面的列表。 通过此菜单，您可以添加当前所在的页面。
+此 **[!UICONTROL 收藏夹]** 图标 ![收藏夹](assets/favorites-icon-62x55.png) 在系统中打开已标记为收藏的页面的列表。 通过此菜单，您可以添加当前所在的页面。
 
 要了解有关收藏夹的更多信息，请参阅 [查看和管理收藏夹](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ ht-degree: 0%
 >
 > 如果您的组织已载入 [!DNL Adobe Experience Cloud]，请参见 [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-此 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 打开 [!UICONTROL 主菜单]，可导航到Workfront的其他区域。
+此 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 打开 [!UICONTROL 主菜单]，您可以从中导航到Workfront的其他区域。
 
 中可用的选项 [!UICONTROL 主菜单] 取决于：
 
@@ -74,7 +86,9 @@ ht-degree: 0%
 
 ![主菜单选项](assets/main-menu-options-350x481.png)
 
-每个图标都会将您转到新的 [!DNL Adobe Workfront] 体验。 要了解有关每个区域的更多信息，请参阅：
+每个图标都会将您转到Workfront的其他区域。
+
+要了解有关每个区域的更多信息，请参阅：
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-在以下位置提供的这些选项： [!UICONTROL 主菜单]，您可以访问：
+在主菜单的下部，您可以访问以下内容：
 
 <table style="table-layout:auto"> 
  <col> 

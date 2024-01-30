@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 8%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 8%
 
 # 在Adobe大师中共享权限概述
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 Ypu必须是Workfront客户才能访问Maestro。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以共享或删除AdobeMaestro工作区或视图的权限。
 
@@ -63,6 +55,7 @@ ht-degree: 8%
    * 用户
    * 群组
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。
+* 您可以与其他人共享指向工作区或记录类型页面中的视图的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
 ## 共享Maestro对象的权限
 
