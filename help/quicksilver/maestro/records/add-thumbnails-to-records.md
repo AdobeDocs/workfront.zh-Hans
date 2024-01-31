@@ -4,9 +4,9 @@ description: 您可以在Adobe管理器中编辑记录信息，并将每个记�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>为工作区提供或更高权限 </p>  
-   <p>表格视图的参与权限或更高权限 </p> 
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td>  <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的Maestro区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/maestro/access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## 有关记录缩略图的注意事项
 
@@ -96,14 +94,14 @@ ht-degree: 0%
 请考虑以下事项：
 
 * 您只能添加图像文件作为缩略图。
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 可以将缩略图图像添加到表格视图中的各个记录。
+* 缩略图属于记录信息，它们显示在显示记录的视图中。 例如，缩略图与记录信息一起显示在以下区域中：
+
+   * 表视图中记录的主要字段
+   * 时间线视图中的记录栏。
 * 您无法从记录的“详细信息”页面或时间线视图中添加记录缩略图。
-* 缩略图图像始终显示在每个记录的主字段的左侧，无论字段类型如何。
-
-  单行文本、数字或公式字段可指定为主字段。
-有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* 缩略图不显示在记录的详细信息页面中。
 
 ## 向记录添加缩略图
 
@@ -131,10 +129,11 @@ ht-degree: 0%
 1. （可选）使用调整大小工具裁切图像并调整其大小。
 1. 单击 **使用图像** 将图像添加为缩略图。
 这将关闭 **录制缩略图** 盒子。
-1. 单击表格视图右上角的字段。
+1. （视情况而定）如果您至少具有表视图的Contribute权限，请单击 **字段** 表视图的右上角。
 1. 选择 **缩略图** 切换可显示缩略图。 默认情况下，该选项处于取消选中状态。
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    主字段值的左侧将显示缩略图。
+1. （可选且视情况而定）如果您没有Contribute或更高版本的视图权限，请从 **视图** 下拉菜单，或创建视图。
 1. （可选）要删除缩略图，请将鼠标悬停在主字段上，然后单击 **更多** 菜单 ![](assets/more-menu.png)> **缩略图** > **移除** 图标 ![](assets/remove-image-icon.png)，然后单击 **保存更改**.

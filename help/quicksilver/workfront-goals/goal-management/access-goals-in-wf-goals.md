@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 访问和打开Adobe Workfront目标中的目标
-description: 本文介绍了如何在Adobe Workfront中查找和管理目标。
+title: 在Adobe Workfront目标中访问和打开目标
+description: 本文介绍了如何在Adobe Workfront中找到和管理目标。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
-# 访问和打开Adobe Workfront目标中的目标
+# 在Adobe Workfront目标中访问和打开目标
 
-本文介绍了如何在Adobe Workfront中查找和管理战略目标。
+本文介绍了如何在Adobe Workfront中找到和管理战略目标。
 
 
 ## 访问要求
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -83,7 +90,7 @@ You must have the following to perform the activities described in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业或更高</p> </td> 
+   <td> <p>专业或专业以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -91,11 +98,11 @@ You must have the following to perform the activities described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td> <p>您必须为Adobe Workfront目标购买额外的许可证才能访问本文所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>. </p> </td> 
+   <td> <p>您必须为Adobe Workfront目标购买额外的许可证，才能访问本文中所述的功能。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对目标的访问权限</p> <p><b>注释</b><p>如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅：</p> 
+   <td> <p>编辑对目标的访问权限</p> <p><b>注释</b><p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅：</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予对Adobe Workfront目标的访问权限</a></span> </p> </li> 
@@ -105,41 +112,44 @@ You must have the following to perform the activities described in this article:
    <td role="rowheader">对象权限</td> 
    <td> 
     <div> 
-     <p>查看目标的更高权限以查看该目标</p> 
-     <p>管理目标权限以对其进行编辑</p> 
+     <p>查看目标的权限或更高以查看目标</p> 
+     <p>管理目标的权限以编辑它</p> 
      <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> 
+    <div> 
+     <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 先决条件
-
-在开始之前，您必须具备以下条件：
-
-* 包含主菜单中“目标”区域的布局模板。
-
 ## 访问Workfront目标
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) ，然后单击 **目标**.
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **目标**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   此时将显示目标列表。
+   此时将显示“目标列表”。
 
 
    >[!IMPORTANT]
    >
-   >   如果您有权正确访问Workfront目标，则您可以查看您或在目标列表中创建的任何其他人员的默认目标。
+   >   正确访问Workfront目标后，您可以查看自己或任何其他人在目标列表中创建的目标（默认情况下）。
 
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
-1. （可选）单击目标名称以将其打开或编辑。
+1. （可选）单击目标的名称以将其打开或编辑。
 
    或
 
@@ -147,20 +157,19 @@ You must have the following to perform the activities described in this article:
 
    有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
 
-## 打开并管理单个目标
+## 打开和管理各个目标
 
-在管理目标时，您必须访问单个目标才能执行以下操作：
+在管理目标时，必须访问单个目标才能执行以下操作：
 
-* 编辑
+* 编辑它
 * 向其添加结果或活动
 * 编辑与其关联的结果和活动
 * 激活它
-* 停用它
+* 取消激活它
 * 删除它
 * 使其与另一个目标保持一致
 * 将结果或活动转换为其他目标
-* 更新
-
+* 更新它
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -192,13 +201,13 @@ To access an individual goal in the Production environment:
 
 要访问单个目标，请执行以下操作：
 
-1. 单击 **主菜单** 图标，然后单击 **目标** .
-默认情况下，将显示目标列表。
+1. 单击 **主菜单** Workfront图标，然后单击 **目标** .
+默认情况下，将显示“目标列表”。
    ![](assets/goal-list-unshimmed.png)
-1. 在列表中单击目标的名称。
-此时会显示目标页面。
+1. 单击列表中目标的名称。
+此时将显示目标的页面。
    ![](assets/goal-page-unshimmed.png)
-1. 单击 **更多** 菜单 ![](assets/more-icon.png) ，以进一步编辑或共享目标。
-1. 单击 **目标详细信息** ，以编辑有关目标的信息。 有关更多信息，请参阅 [更新Adobe Workfront目标中“目标详细信息”部分中的目标](../goal-management/update-goals-in-goal-details-panel.md).
+1. 单击 **更多** 菜单 ![](assets/more-icon.png) 目标名称的右侧，以进一步编辑或共享目标。
+1. 单击 **目标详细信息** 以编辑有关目标的信息。 有关更多信息，请参阅 [在Adobe Workfront目标的“目标详细信息”部分中更新目标](../goal-management/update-goals-in-goal-details-panel.md).
 
 

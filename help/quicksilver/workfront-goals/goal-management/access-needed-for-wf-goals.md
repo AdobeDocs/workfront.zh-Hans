@@ -2,44 +2,48 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: 使用Workfront目标的要求
-description: 您的Adobe Workfront管理员必须确保满足某些条件，然后才能访问Adobe Workfront目标。
+title: 使用Workfront Goals的要求
+description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足某些条件。
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4298659c6eaf7c0370d8d88454e54aeba70f48cf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
-# 使用Workfront目标的要求
+# 使用Workfront Goals的要求
 
-在您访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足以下所有条件：
+在访问Adobe Workfront目标之前，您的Adobe Workfront管理员必须确保满足所有以下条件：
 
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 贵组织必须为Workfront Target购买正确的许可证。 有关信息，请参阅 [获取Workfront Target组织访问权限](#obtain-workfront-goals-organization-access)在本文中。
+* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅部分 [获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)本文章中。
 
-* 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅部分 [更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings) 在本文中。
+* 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅部分 [更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings) 本文章中。
 
 >[!NOTE]
 >
 >具有外部许可证类型的用户无法访问Workfront目标。
 
-* 在访问级别授予您对目标的访问权限。 有关信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* 授予您访问访问级别中目标的权限。 有关信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
-* 为您分配在主菜单中包含“目标”区域的布局模板。
+* 为您分配包含主菜单中的目标区域的布局模板。
 
-   有关信息，请参阅部分 [将Workfront目标添加到布局模板](#add-workfront-goals-to-a-layout-template) 在本文中。
+  >[!NOTE]
+  >
+  >必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。
 
-* 如果您必须修改您未自行创建的目标，则目标创建者必须与您共享这些目标，并为您授予这些目标的“管理”权限。
+  有关信息，请参阅部分 [将Workfront目标添加到布局模板](#add-workfront-goals-to-a-layout-template) 本文章中。
 
-   有关信息，请参阅 [与其他用户共享单个目标](#share-individual-goals-with-other-users) 在本文中。
+* 如果必须修改未自行创建的目标，则目标创建者必须与您共享目标并授予您管理权限。
 
-## 获取Workfront Target组织访问权限 {#obtain-workfront-goals-organization-access}
+  有关信息，请参阅部分 [与其他用户共享个人目标](#share-individual-goals-with-other-users) 本文章中。
+
+## 获取Workfront目标组织访问权限 {#obtain-workfront-goals-organization-access}
 
 <!--drafted for P&P release: 
 
@@ -52,7 +56,7 @@ If your company has a current Workfront plan, you must have one of the following
 
 If your company has a legacy Workfront plan, -->
 
-除了Workfront许可证之外，贵组织还必须购买其他许可证，才能让用户访问Workfront目标。 在贵组织购买其他许可证后，Workfront会为您的帐户启用Workfront目标。 有关为Workfront Target购买许可证的信息，请联系您的Workfront客户经理。
+除了Workfront许可证之外，您的组织还必须购买其他许可证，以便您的用户能够访问Workfront Goals。 在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
 
 ## 更新许可证类型和访问级别设置  {#update-license-types-and-access-level-settings}
 
@@ -66,44 +70,44 @@ If your company has the current access level model, your Workfront administrator
 <!--drafted for P&P release: add this to the first sentence: 
 If your company has the legacy access level model, -->
 
-您的Workfront管理员必须授予您以下Workfront许可类型之一才能访问Workfront目标：
+您的Workfront管理员必须授予您以下Workfront许可证类型之一，才能访问Workfront目标：
 
 * 计划
 * 工作
-* 复查
+* 评论
 * 请求
 
-在Workfront管理员授予您其中一种许可证类型后，他们还必须授予您访问级别中的“目标”的权限。 有关访问目标的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+在您的Workfront管理员向您授予这些许可证类型之一后，他们还必须授予您访问级别中目标的访问权限。 有关访问“目标”的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-作为Workfront管理员，您可以查看系统中的Workfront Target许可证数量，并了解当前已启用的许可证数量。 有关更多信息，请参阅 [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+作为Workfront管理员，您可以查看系统中Workfront目标许可证的数量，并了解当前启用的数量。 有关更多信息，请参阅 [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 >[!NOTE]
 >
->Workfront允许您分配已购买的更多Workfront Target许可证。 但是，如果您分配的许可证数量超过Workfront目标合同允许的数量，Workfront客户经理将联系您，以告知您您的合同编号已超出。
+>Workfront允许您分配更多已购买的Workfront Goals许可证。 但是，当您分配的许可证数超过Workfront目标合同允许的许可证数时，Workfront客户经理将会联系您，告知您超出合同数量限制。
 
 ## 将Workfront目标添加到布局模板 {#add-workfront-goals-to-a-layout-template}
 
-您的Workfront或组管理员必须为您分配一个布局模板，该模板在主菜单中包含目标区域，以便您能够访问Workfront目标。
+您的Workfront或组管理员必须为您分配一个布局模板，该模板包括主菜单中的目标区域，以便您能够访问Workfront目标。
 
 ![](assets/layout-template-align-highlighted-350x220.png)
 
-您的Workfront管理员或组管理员还可以将以下内容添加到布局模板中，以便轻松访问Workfront目标：
+您的Workfront管理员或组管理员还可以将以下内容添加到您的布局模板中，以便您能够轻松访问Workfront目标：
 
-* 固定的选项卡
-* 将“目标”区域设为登陆页面
+* 固定选项卡
+* 将目标区域设置为您的登陆页面
 
 有关更新布局模板的信息，请参阅以下文章：
 
 * [创建和管理布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
 * [使用布局模板自定义主菜单](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [使用布局模板自定义固定的页面](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [使用布局模板自定义固定页面](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [使用布局模板自定义登陆页面](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [将用户分配到布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* [将用户分配给布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-## 与其他用户共享单个目标 {#share-individual-goals-with-other-users}
+## 与其他用户共享个人目标 {#share-individual-goals-with-other-users}
 
-默认情况下，所有在其访问级别至少具有查看目标访问权限的用户，都可以在Workfront中查看所有目标。
+默认情况下，所有至少具有访问级别的“查看目标”访问权限的用户都可以在Workfront中查看所有目标。
 
-具有“编辑”目标访问权限的任何用户都可以创建目标，并且他们会自动获得对所创建目标的“管理”访问权限。 如果用户必须编辑其他用户的目标，则具有这些目标的“管理”权限的用户必须与他们共享他们未创建的目标。
+任何对目标具有“编辑”访问权限的用户都可以创建目标，并且他们会自动获得对其创建的目标的“管理”访问权限。 如果他们必须编辑其他用户的目标，则拥有这些目标管理权限的用户必须与他们共享他们未创建的目标。
 
-有关与用户共享目标并为其授予“管理”权限的信息，请参阅 [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+有关与用户共享目标并授予他们管理权限的信息，请参阅 [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
