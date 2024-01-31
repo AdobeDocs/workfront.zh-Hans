@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ ht-degree: 3%
 
 ### 添加外部查找字段
 
-外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。
+外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。 列表和报告中也提供了“外部查找”字段。
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ ht-degree: 3%
       <td role="rowheader">基本 API URL</td> 
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
       <ul><li>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
-      <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 （例如，用户可以使用基本URL“$$HOST/attask/api/task/search”搜索任务，它允许搜索任务并从返回的任务列表中选择值。）</li>
-      <li>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</li>
+      <li><p>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 (例如，用户可以使用基本URL搜索任务 <code>$$HOST/attask/api/task/search</code> 并允许搜索任务并从返回的任务列表中选择值。)<p>
+      <p>如果所引用的API允许这样做，则还可以在搜索查询中包含修饰符以标识搜索应如何工作。 例如，您可以使用以下内容作为基本API URL，以允许人员搜索包含特定文本的任何Workfront项目： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>要了解有关Workfront搜索修饰符的更多信息，请参阅 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a>.</p></li>
+      <li><p>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</p>
+      <p>对于依赖其他字段的外部查找字段(使用 {fieldName} 语法)，从API返回的选项仅限于匹配在其他字段中输入的任何字符串或值的选项。 （列表和报告不支持此功能。）</p></li>
       <li>{referenceObject}.{fieldName}  — 其中字段是对象的一部分。 此语法类似于自定义表达式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>注意：</strong> 查看有关您正在使用的API的文档，了解您可以定义的特定查询。</p></td>
      </tr>
@@ -585,12 +587,11 @@ ht-degree: 3%
 >
 >以下项目是对外部API调用的技术限制：
 >
->* 最大选项数：200（仅显示返回的JSON中的前200个选项）
+>* 最大选项数：2000（仅显示返回的JSON中的前2000个唯一选项）
 >* 超时： 3秒
 >* 重试次数：3
 >* 重试之间的等待持续时间：500毫秒
 >* 预期响应状态： 2xx
->* 用户可以在Workfront列表和报告中看到选定值（并编辑该值），但看不到包含来自外部API的选项的下拉列表。
 
 ### 添加图像、PDF和视频
 
