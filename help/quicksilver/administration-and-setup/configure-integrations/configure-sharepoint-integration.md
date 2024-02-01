@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >新 [!DNL SharePoint] 集成已在22.3版本（2022年7月）中发布到生产环境。 尽管您的用户仍然可以访问通过旧版链接的文档 [!DNL SharePoint] 集成，他们必须使用 [!DNL SharePoint] 集成以链接来自SharePoint的文档。
 >
->* 新的SharePoint集成不需要管理员进行配置，并且可以由个人用户进行设置。 但是，要确保顺利过渡到新的SharePoint集成，Workfront管理员必须在Workfront设置区域中进行一些细微的设置更改。
+>* 新的SharePoint集成可能不需要管理员进行配置，并且可以由个人用户进行设置。 但是，要确保顺利过渡到新的SharePoint集成，Workfront管理员必须在Workfront设置区域中进行一些细微的设置更改。
 >
 >    有关信息和说明，请参阅 [配置旧版SharePoint集成以继续访问文档](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 本文章中。
 >    
@@ -72,13 +72,15 @@ ht-degree: 0%
 
 个人用户可以通过新页面链接文档 [!DNL SharePoint] 集成。 集成不需要管理员配置。 相反，用户登录到他们的 [!DNL Microsoft] 关联文档时所用的帐户，这使集成能够访问用户界面中提供的文档 [!DNL SharePoint].
 
-用户第一次连接 [!DNL Workfront] [!DNL SharePoint] 集成到其 [!DNL SharePoint] 帐户，他们将看到并同意以下权限的所有项 [!DNL Workfront] 与以下对象交互时使用 [!UICONTROL SharePoint] 帐户。 读取权限允许 [!DNL Workfront] 查看并访问文件 [!DNL SharePoint]、和写入权限允许用户将文件上传到 [!DNL SharePoint].
+用户第一次连接 [!DNL Workfront] [!DNL SharePoint] 集成到其 [!DNL SharePoint] 帐户，则他们将看到并同意以下权限的所有项 [!DNL Workfront] 与以下对象交互时使用 [!UICONTROL SharePoint] 帐户，或者能够向其Microsoft管理员请求权限。 读取权限允许 [!DNL Workfront] 查看并访问文件 [!DNL SharePoint]、和写入权限允许用户将文件上传到 [!DNL SharePoint].
 
 ![Sharepoint权限](assets/sharepoint-permissions.png)
 
 有关通过新的链接文档的说明 [!DNL SharePoint] 集成，请参阅 [将外部文档链接到 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* 根据组织的Microsoft配置，用户可能会看到“需要批准”页面而不是“请求的权限”页面。 在这种情况下，用户可以使用此页面请求组织的Microsoft管理员授予Sharepoint集成的权限。
 >
 >* A [!DNL SharePoint] 集成可以连接到单个 [!DNL SharePoint] 实例。 因此，用户可以为其设置集成 [!DNL SharePoint]，但无法设置与秒的集成 [!DNL SharePoint]，即使他们有权访问和第二个页面上的和文档 [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ ht-degree: 0%
 
 ### 访问和权限
 
-用户首次将文档添加到时 [!DNL Workfront] 从 [!DNL SharePoint]时，会将用户定向到请求以下权限的屏幕：
+用户首次将文档添加到时 [!DNL Workfront] 从 [!DNL SharePoint]，用户将被定向到请求的权限页面，他们可以在其中授予对其SharePoint集成的权限。
+
+>[!NOTE]
+>
+>根据组织的Microsoft配置，用户可能会看到“需要批准”页面而不是“请求的权限”页面。 在这种情况下，用户可以使用此页面请求组织的Microsoft管理员授予Sharepoint集成的权限。
+
+请求以下权限：
 
 | 访问权限 | 原因 |
 |---|---|
