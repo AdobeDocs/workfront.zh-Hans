@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2847'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # 连接记录
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 您可以将AdobeMaestro记录连接到其他应用程序或对象。
 

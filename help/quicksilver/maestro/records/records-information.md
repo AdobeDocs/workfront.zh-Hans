@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # 记录：文章索引
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在AdobeMaestro中创建记录类型后，可以创建这些类型的单个记录。
 
 以下文章介绍如何在Adobe Maestro中创建和管理记录及其信息：
 
-* [创建记录](../records/create-records.md)
-* [编辑记录](../records/edit-records.md)
-* [删除记录](../records/delete-records.md)
-* [共享记录](../records/share-records.md)
-* [连接记录](../records/connect-records.md)
+* [创建记录](/help/quicksilver/maestro/records/create-records.md)
+* [编辑记录](/help/quicksilver/maestro/records/edit-records.md)
+* [删除记录](/help/quicksilver/maestro/records/delete-records.md)
+* [共享记录](/help/quicksilver/maestro/records/share-records.md)
+* [连接记录](/help/quicksilver/maestro/records/connect-records.md)
 * [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)

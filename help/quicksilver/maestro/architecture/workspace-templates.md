@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ role: User
 
 # 工作区模板列表
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在Adobe大师中，工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。
 
@@ -112,7 +104,7 @@ You must have the following:
       * **营销活动**：9个字段和7个链接字段
       * **项目**：9个字段和5个链接字段
       * **活动**：6个字段和5个链接字段
-   * 分类标准:
+   * 分类：
       * **受众**：3个字段和3个链接字段
       * **区段**：5个字段和1个链接字段
       * **客户历程**：4个字段
@@ -130,7 +122,7 @@ You must have the following:
       * **机会**：7个字段和4个链接字段
       * **活动**：4个字段和5个链接字段
       * **营销活动**：5个字段和3个链接字段
-   * 分类标准:
+   * 分类：
       * **帐户**：4个字段和3个链接字段
       * **商机**：12个字段和2个链接字段
       * **联系人**：10个字段和2个链接字段
@@ -149,7 +141,7 @@ You must have the following:
       * **Epic**：9个字段和3个链接字段
       * **用户故事**：9个字段和2个链接字段
 
-   * 分类标准:
+   * 分类：
 
       * **客户**：6个字段和1个链接字段
       * **冲刺**：7个字段和1个链接字段

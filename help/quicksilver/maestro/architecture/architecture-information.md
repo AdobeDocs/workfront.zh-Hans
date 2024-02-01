@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # 架构：文章索引
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 作为营销运营负责人，您可以使用AdobeMaestro为所有团队在营销生命周期中组织工作。
 

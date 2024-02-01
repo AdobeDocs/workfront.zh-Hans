@@ -4,7 +4,7 @@ description: 通过在记录的右侧面板中添加注释或回复，您可以�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 
 
 # 管理记录注释
+
+{{maestro-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 访问AdobeMaestro中的记录类型页面时，可以在时间轴视图中显示记录。
 
@@ -265,6 +257,12 @@ this is not possible right now; if this is the same functionality as the table v
 1. 单击 **条形图样式** 在左侧面板中，用于指示要在记录栏上显示的字段。
 
    默认情况下，“名称”字段处于选中状态。 <!--adjust this when the primary field is released??-->
+
+1. （可选且视情况而定）如果您将缩略图添加到记录，请选择“缩略图”选项以在记录栏中显示与记录关联的图像。
+
+   >[!NOTE]
+   >
+   >    必须先在表格视图中添加缩略图，然后才能在时间轴视图中显示它们。 有关更多信息，请参阅 [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. 单击 **添加字段** 最多向记录栏添加4个字段。
 1. 在 **搜索字段** 框中，然后单击要添加字段。

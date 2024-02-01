@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # 创建字段
 
->[!IMPORTANT]
->
->本文中的信息是指AdobeMaestro，它是Adobe Workfront提供的新产品。
->
->目前，AdobeMaestro是测试版计划的一部分，该计划对有限数量的客户开放。 您必须是Workfront客户才能使用Maestro功能。
->
->有关加入Maestro测试版计划的更多信息，请与您的客户代表联系。
->
->有关信息，请参阅 [Adobe大师概述](../maestro-overview.md).
+{{maestro-important-intro}}
 
 在Adobe管理器中，您可以为操作记录类型或分类创建自定义字段。 然后，可将这些字段与Maestro记录关联以增强记录信息。
 
