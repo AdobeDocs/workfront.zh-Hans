@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Workfront产品配置文件管理员(Workfront系统管理员)将：
 
 ### 迁移日期待完成的任务
 
-* **用户迁移将从客户托管Workfront数据中心的午夜开始。 **
+* **用户迁移将从客户托管的Workfront数据中心的午夜开始。**
 
 * **Adobe将首先自动迁移Workfront管理员。** 将Workfront管理员迁移到Adobe身份后，将为他们分配Adobe产品配置文件管理员(Workfront系统管理员)角色。 用户在迁移之前可能拥有的现有角色将不受影响。
 
