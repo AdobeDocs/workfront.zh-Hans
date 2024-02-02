@@ -7,9 +7,9 @@ description: 您可以使用时间表跟踪Adobe Workfront内外您花在工作�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 1. 单击 **日期范围** 以打开该时间表。
 
-   每个时间表都会显示您已记录时间的所有任务、问题和项目。 此外，时间表还显示最多45个分配给您的任务、问题或项目，其日期在时间表的时间范围内，但您可能尚未记录时间。
+   每个时间表都会显示您已记录时间的所有任务、问题和项目。 此外，时间表还显示最多为45个分配给您的任务和问题，这些任务和问题的日期在时间表的时间范围内，但您可能尚未记录时间。 已选择要在时间表中显示的45个最近更新的项目。
 
    有关更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

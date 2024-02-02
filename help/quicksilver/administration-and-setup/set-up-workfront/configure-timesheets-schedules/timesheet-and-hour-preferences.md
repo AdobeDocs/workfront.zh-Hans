@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 >* 固定到时间表的项目
 >* 您搜索并手动添加到时间表的项目。 默认情况下，手动添加的项目会被固定。
 >
->有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md) 和 [工时表概述](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 
