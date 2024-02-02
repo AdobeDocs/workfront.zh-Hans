@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ ht-degree: 1%
       所有对象都以连接的卡片形式显示在展示板上。
 
       此 [!UICONTROL **正在添加的卡片**] 计数器显示展示板上将包含多少张卡。 例如，如果选择具有100个任务和问题的项目，则计数器显示100。 如果添加用户分配并且该用户被分配到项目中的5个任务，则计数器显示5。
+
+      >[!NOTE]
+      >
+      >如果主板上有1,000多张卡，则主板性能会受到影响。
 
    1. （可选）选择 [!UICONTROL **不存档已完成的卡片**] 将已完成的任务和问题作为可见卡片带入展示板（位于已完成列中）。 如果未选择此选项，则创建展示板时完成的卡片将作为存档卡片放入展示板中。
 
