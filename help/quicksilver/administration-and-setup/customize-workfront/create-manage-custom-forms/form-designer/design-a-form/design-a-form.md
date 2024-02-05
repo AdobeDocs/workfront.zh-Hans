@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
+source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
 workflow-type: tm+mt
-source-wordcount: '5011'
+source-wordcount: '5096'
 ht-degree: 3%
 
 ---
@@ -391,7 +391,7 @@ ht-degree: 3%
 
 * **预输入**：允许用户键入Workfront中存在的对象的名称。 用户开始键入内容时，将显示建议列表。 此字段类型支持以下对象：
    * 用户
-   * 群组
+   * 组
    * 工作角色
    * 项目组合
    * 项目群
@@ -502,7 +502,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->外部查找功能在Document对象上不可用。
+>外部查找功能在“文档”或“用户”对象上不可用。
 
 要添加外部查找，请执行以下操作：
 
@@ -540,9 +540,11 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">基本 API URL</td> 
       <td><p>键入或粘贴API的URL。</p><p>API URL必须返回要在下拉列表中显示的选项的JSON内容。 您可以使用JSON路径字段从返回的JSON中选择特定值作为下拉选项。</p><p>输入API URL时，您可以选择在URL中传递以下值：</p>
-      <ul><li>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</li>
-      <li><p>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 (例如，用户可以使用基本URL搜索任务 <code>$$HOST/attask/api/task/search</code> 并允许搜索任务并从返回的任务列表中选择值。)<p>
-      <p>如果所引用的API允许这样做，则还可以在搜索查询中包含修饰符以标识搜索应如何工作。 例如，您可以使用以下内容作为基本API URL，以允许人员搜索包含特定文本的任何Workfront项目： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>要了解有关Workfront搜索修饰符的更多信息，请参阅 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a>.</p></li>
+      <ul>
+      <li>$$HOST — 表示当前Workfront主机，可用于对Workfront API进行/search API调用。 使用此通配符时，将处理身份验证，用户无需发送身份验证标头。 (例如，用户可以使用基本URL搜索任务 <code>$$HOST/attask/api/task/search</code> 并允许搜索任务并从返回的任务列表中选择值。)</li>
+      <li><p>$$QUERY — 这表示最终用户在字段中键入的搜索文本，并允许您为最终用户实施查询筛选。 （用户将在下拉列表中搜索值。）</p>
+      <p>如果所引用的API允许这样做，则还可以在搜索查询中包含修饰符以标识搜索应如何工作。 例如，您可以使用以下内容作为基本API URL，以允许人员搜索包含特定文本的任何Workfront项目： <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>要了解有关Workfront搜索修饰符的更多信息，请参阅 <a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a>.</p>
+      <p><strong>注意：</strong> 如果您未使用$$QUERY，并且用户在搜索框中键入文本，则将缩小已拥有的选择范围。 但是，如果您使用$$QUERY并且用户键入了任何内容，则会对您的API执行新的网络调用。 因此，如果您的API中有超过2000个值，并且该API支持查询，则您可以利用$$QUERY不仅从现有2000个值中进行搜索，还可以从具有缩小选项的原始API中进行搜索。</p></li>
       <li><p>{fieldName}  — 其中fieldName是Workfront中的任何自定义或本机字段。 这样，在将已选字段的值传递到外部查找字段以筛选下拉选项时，您可以实施级联下拉选项过滤器。 （例如，表单上已存在区域字段，并且您正在将国家/地区列表从API缩小到特定区域的国家/地区。）</p>
       <p>对于依赖其他字段的外部查找字段(使用 {fieldName} 语法)，从API返回的选项仅限于匹配在其他字段中输入的任何字符串或值的选项。 （列表和报告不支持此功能。）</p></li>
       <li>{referenceObject}.{fieldName}  — 其中字段是对象的一部分。 此语法类似于自定义表达式。 (例如，portfolioID={project}.{portfolioID})</li></ul>
