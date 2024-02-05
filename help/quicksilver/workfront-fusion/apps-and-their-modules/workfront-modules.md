@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5825'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ ht-degree: 2%
 配置时 [!DNL Workfront] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Workfront] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>如果您在Workfront模块中未看到最新字段，这可能是因为缓存问题。 等待一小时，然后重试。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -833,7 +837,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>批准流程</td> 
+   <td>审批流程</td> 
    <td> </td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
@@ -911,7 +915,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>群组</td> 
+   <td>组</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
@@ -1112,7 +1116,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>批准流程</td> 
+   <td>审批流程</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1212,7 +1216,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>群组</td> 
+   <td>组</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1491,7 +1495,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>批准流程</td> 
+   <td>审批流程</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
@@ -1541,7 +1545,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>群组</td> 
+   <td>组</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
