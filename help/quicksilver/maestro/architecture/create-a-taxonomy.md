@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-分类是记录类型，用于捕获AdobeMaestro中有关操作记录类型的属性。
+分类记录类型捕获有关AdobeMaestro中操作记录类型的属性。
 
 例如，Campaign可以是操作记录类型。 以下是捕获有关Campaign记录类型的属性的分类：地区、受众、国家/地区。
 
@@ -91,19 +91,14 @@ ht-degree: 0%
 
 ## 有关创建分类的注意事项
 
-* 必须先创建工作区，然后才能在该工作区中创建分类。
+* 必须先创建工作区，然后才能在工作区中创建分类记录类型。
 
   有关工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 * 通过执行以下操作之一，可以创建分类记录类型：
    * 在使用模板创建工作区时自动创建它们。 有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
    * 从头开始手动创建它们。
-   * 通过从外部列表中粘贴信息，手动创建它们。
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* 所有新创建的分类都包含以下字段：
+* 所有新创建的分类记录类型都包含以下字段：
 
    * 名称 <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >    使用工作区模板时创建的分类具有其他字段。
+  >    使用工作区模板时创建的分类记录类型具有其他字段。
 
-## 创建分类
+## 创建分类记录类型
 
-创建分类与从头开始或从工作区模板创建操作记录类型类似。
+创建分类记录类型与从头开始或从工作区模板创建操作记录类型类似。
 
 有关信息，请参阅文章中的“从头开始创建记录类型”部分 [创建记录类型](../architecture/create-record-types.md).
 

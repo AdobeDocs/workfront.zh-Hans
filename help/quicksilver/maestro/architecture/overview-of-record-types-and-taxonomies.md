@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Maestro对象类型称为“记录类型”。 记录类型是Maestro工作区�
 | 它们表示与工作相关的对象的属性 |                         | ✓ {\f13 } |
 | 您可以从头开始创建 | ✓ {\f13 } | ✓ {\f13 } |
 | 您可以通过导入Excel或CSV文件来创建 | ✓ {\f13 } |                      |
-| 您可以将记录类型连接到第三方应用程序中的对象 | ✓ {\f13 } |                      |
+| 您可以将记录类型连接到另一个应用程序中的对象 | ✓ {\f13 } |                      |
 | 您可以连接到其他主要记录类型 | ✓ {\f13 } |                    |
 | 您可以在表视图中查看其关联的记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 您可以在时间线视图中查看其关联的记录 | ✓ {\f13 } | ✓ {\f13 } |

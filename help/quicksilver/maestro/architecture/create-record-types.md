@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -98,16 +98,16 @@ ht-degree: 0%
 
 ## 有关创建记录类型的注意事项
 
-* 通过执行以下操作之一，可在工作区中创建记录类型：
+* 您可以通过以下方式在工作区中创建记录类型：
 
    * 自动：
       * 使用模板创建工作区时。
 
         有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
       * 当您使用Excel或CSV文件导入它们时。 这不适用于分类记录类型。
-      * 从另一个应用程序创建与对象类型的连接时，向记录类型添加字段时。 这会在Maestro中创建只读记录类型，该记录类型连接到原始应用程序中的对象类型。
-
-     有关连接对象类型与Maestro记录的信息，请参见 [连接记录](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手动：
 
       * 从头开始。
@@ -126,9 +126,9 @@ ht-degree: 0%
 
 有关分类的详细信息，请参阅 [创建分类](../architecture/create-a-taxonomy.md).
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
 1. 单击 **添加记录类型**.
@@ -138,14 +138,14 @@ ht-degree: 0%
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. 选择以下信息：
+1. 更新以下信息：
 
-   * **记录名称**：将“无标题的操作记录类型”替换为您未来记录类型的名称。 <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **记录类型名称**：将“无标题的操作记录类型”替换为您未来记录类型的名称。
    * **外观**：定义与记录类型关联的图标的颜色和形状。 执行以下操作：
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. 在 **添加记录类型** 框以保存记录。
+1. 在 **添加记录类型** 框，以保存记录类型。
 
    记录类型信息卡会添加到您选择的工作区。
 记录类型包含的信息卡上显示的字段数。
@@ -171,8 +171,11 @@ ht-degree: 0%
 
    单击 **更多** 图标 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **重命名** 以对其进行重命名。
 
-1. （可选）单击 **+新建&lt;记录类型名称>** 以添加所选记录类型的记录。 有关更多信息，请参阅 [创建记录](../records/create-records.md).
-1. （可选）单击 **+** 图标来添加更多字段到记录类型。 有关更多信息，请参阅 [创建字段](../fields/create-fields.md).
+1. （可选）单击 **+新记录** 以添加所选记录类型的记录。 有关更多信息，请参阅 [创建记录](../records/create-records.md).
+1. （可选）单击 **+** 图标来添加更多字段到记录类型。
+
+   有关创建字段的详细信息，请参阅 [创建字段](../fields/create-fields.md).
+
 1. （可选）单击记录类型名称左侧的左箭头，以返回选定的工作区。
 
    记录类型卡显示记录类型包含的字段数和连接数。
@@ -184,7 +187,7 @@ ht-degree: 0%
    * [创建记录](../records/create-records.md)
    * [删除记录类型](../architecture/delete-record-types.md)
    * [编辑记录类型](../architecture/edit-record-types.md)
-   * [在Adobe大师中管理记录视图](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [管理记录视图](../views/manage-record-views.md)
 
 ## 通过导入Excel或CSV文件创建记录类型
 
@@ -202,9 +205,9 @@ ht-degree: 0%
 
 要使用Excel文件导入记录类型，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 在Workfront的右上角， <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
 1. 单击 **添加记录类型**.
@@ -250,20 +253,21 @@ ht-degree: 0%
 
    有权访问Maestro的每个人都可以查看和编辑导入的记录类型及其信息。 <!--this will change with permissions-->
 
-## 将记录类型与其他应用程序的对象类型连接
+<!--## Connect record types with object types from another application
 
-在创建Maestro记录类型与另一个应用程序的对象类型之间的连接时，可以导入记录类型。 这会在Maestro中创建与第三方应用程序中的对象类型对应的只读记录类型。
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-例如，您可以通过将Maestro记录类型与Workfront项目连接来创建记录类型。 因此，Workfront项目对象类型会作为只读记录类型导入Maestro。 默认情况下，记录类型命名为“Workfront项目”。 <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-您可以从以下应用程序导入以下对象：
+* From Workfront:
 
-* 从Workfront：
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * 项目
-   * 项目组合
-   * 项目群
-   * 公司
-   * 群组
-
-有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

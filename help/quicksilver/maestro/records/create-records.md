@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 通过执行以下操作之一，可以在Maestro中创建记录：
 
 * 为Maestro记录类型手动创建它们
-* 将它们连接到来自第三方应用程序的Maestro记录。
+* 将它们连接到其他应用程序的Maestro记录。
 * 通过复制和粘贴外部列表中的信息创建记录。
 
 本文介绍了如何创建Maestro记录。 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -139,22 +139,21 @@ ht-degree: 0%
 
 ## 通过从其他应用程序连接记录来创建记录
 
-通过将Maestro链接记录链接到其他应用程序，您可以从这些应用程序中导入记录。 这会为第三方应用程序连接对象创建Maestro记录类型。 连接到原始Maestro记录的记录显示在第三方应用程序连接的对象Maestro记录类型表格视图中。
+通过将Maestro链接记录链接到其他应用程序，您可以从这些应用程序中导入记录。 这将为其他应用程序的连接对象创建Maestro记录类型。
 
 1. 创建Maestro记录类型，如 [创建记录类型](../architecture/create-record-types.md).
 
 1. 为上一步中创建的记录类型创建Maestro记录。 有关信息，请参阅部分 [通过手动将记录添加到记录类型来创建记录](#create-records-by-manually-adding-them-to-a-record-type) 本文章中。
 
-1. 从第三方应用程序为您创建的Maestro记录类型创建与对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+1. 从另一个应用程序为所创建的Maestro记录类型创建与对象类型的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
-1. 使用在上一步中创建的链接记录字段，将第三方应用程序中的记录添加到上面创建的Maestro记录中。 有关信息，请参阅 [连接记录](../records/connect-records.md).
+1. 使用在上一步中创建的链接记录字段，将来自另一个应用程序的记录添加到上面创建的Maestro记录中。 有关信息，请参阅 [连接记录](../records/connect-records.md).
 
    在Maestro中创建以下项目：
 
-   * 只读的Maestro记录类型，它引用您在连接的记录字段中链接到的第三方记录类型。
+   * 只读的Maestro记录类型，它引用您在连接的记录字段中链接到的另一个应用程序的记录类型。
 
-     例如，如果您将Maestro记录类型连接到Workfront项目，则会在同一工作区中创建名为“Workfront项目”的只读记录类型。
-   * 第三方记录类型页面中的只读记录。 从第三方应用程序导入的记录仍保持只读状态，并且只能在原始应用程序中更新。
+     例如，如果将Maestro记录类型连接到Workfront项目，则会在同一工作区中创建名为“Workfront项目”的只读记录类型。 您可以从要链接的Maestro记录的表视图中访问只读的Workfront记录类型。
 
 ## 通过复制和粘贴外部列表中的信息创建记录
 
@@ -178,7 +177,7 @@ ht-degree: 0%
    >
    > 确保已在Maestro中创建了所需的字段，并且工作表中的信息以与Maestro中每个字段信息匹配的正确格式显示。
 
-1. 从第三方应用程序中，选择多个行和列，然后将信息粘贴到记录类型表格视图中，从第一个新记录开始。
+1. 从另一个应用程序中，选择多个行和列，然后将信息粘贴到记录类型表格视图中，从第一个新记录开始。
 
    以下信息在Maestro中导入：
 
