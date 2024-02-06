@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,13 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以在Adobe大师中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
+您可以通过编辑与记录关联的字段值，在AdobeMaestro中编辑记录信息。
+
+必须先创建记录类型，然后才能开始创建和编辑记录。
+
 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
+
+有关创建记录的信息，请参见 [创建记录](/help/quicksilver/maestro/records/create-records.md).
 
 &lt;! — 在此提及，详细信息视图中的字段与表格视图中的字段相同 — 本文从“管理记录”视图链接，其中一个引用此信息 — >
 
@@ -52,9 +57,11 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：浅色或更高</p>
+   或
+   <p>当前：工作或更高</p> 
   </td>
   </tr>
 
@@ -78,21 +85,20 @@ ht-degree: 1%
 </tbody>
 </table>
 
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 有关编辑记录的注意事项
 
-* 您可以编辑您或其他用户创建的记录。 <!--will change with access levels-->
-* 您无法编辑从其他记录链接的字段或包含计算的字段。
+* 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
+* 您可以从记录的“详细信息”页面或记录类型的表格视图中编辑记录字段。
+* 无法从时间线视图中编辑记录信息。
+* 以下类型的字段会自动更新，您无法手动编辑其值：
+   * 来自其他记录的链接字段
+   * 公式类型字段
+   * 系统字段（“创建者”、“创建日期”、“上次修改者”、“上次修改日期”）
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
-* 编辑段落类型字段时，可以使用以下富文本格式选项：
-
-   * 粗体
-   * 斜体
-   * 下划线
-   * 添加链接
-   * 添加项目符号列表
-   * 添加编号列表
 
 ## 编辑记录
 
@@ -110,8 +116,8 @@ ht-degree: 1%
 1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
 1. 执行下列操作之一：
 
-   * 在“表”视图中，单击记录的名称。
-   * 在“表”视图中，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
+   * 从 **表** 视图，单击记录的名称。
+   * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
 
      ![](assets/contextual-menu-for-record-row.png)
    * 在“时间轴”视图中，单击记录栏。
@@ -144,7 +150,6 @@ ht-degree: 1%
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 “已保存”的指示器会短暂显示在表格视图的右上角，表示已保存更改。
 
    >[!NOTE]
    >
@@ -153,13 +158,31 @@ ht-degree: 1%
    >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
 
+1. （可选且视情况而定）编辑“段落”类型字段时，请使用以下内容 **富文本** 格式化选项：
 
-1. （可选）复制字段的一个或多个现有值，然后将它们粘贴到另一记录上的相同类型字段中，然后单击 **输入** 以保存更改。
+   * 粗体
+   * 斜体
+   * 下划线
+   * 添加链接
+   * 添加项目符号列表
+   * 添加编号列表
+
+   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 A **已保存** 指示器会短暂显示在表格视图的右上角，表示已保存更改。
+
+1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
+
+   * 复制字段的一个或多个现有值，然后将它们粘贴到另一记录上相同类型的字段中
+   * 单击某列的列标题以将其选中并复制，然后单击另一列的列标题并粘贴所复制列的内容。 列必须包含类似的字段类型。
+   * 按住Shift键，单击在表中选取几行，复制选定行中的信息，然后单击另一行，然后将选定信息粘贴到新行中，并在新行之后粘贴以下几行。
 
    >[!NOTE]
    >
    >请考虑以下事项：
    >
+   >* 使用以下键盘快捷键来复制和粘贴信息：
+   >   * 复制：CTRL + C(对于Mac，为⌘ + C)
+   >   * 粘贴：CTRL + V(对于Mac，为⌘ + V)
    >* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
    >
    >* 您不能在记录的详细信息区域中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
@@ -173,4 +196,9 @@ ht-degree: 1%
 
    * CTRL + Z(Mac为⌘ + Z)可撤消更改
    * 按CTRL + Shift + Z(对于Mac，按⌘ + Shift + Z)可重做更改
+
+   >[!TIP]
+   >
+   >    您可以在一行中多次使用键盘快捷键来撤消多项更改。
+
 1. （可选）向记录中添加缩略图。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

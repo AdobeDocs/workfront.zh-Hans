@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
    <p>任何</p>
-   要创建工作区，用户必须具有以下许可证： 
-   <ul><li><p>新增：标准</p> </li>
-   <li><p>当前：工作人员或更高版本</p> </li></ul>
+   <p>要创建工作区，您必须具有以下许可证：</p>
+   <ul>
+   <li>
+   新增：标准
+   </li>
+   <li>
+   当前：工作人员或更高版本
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>向未创建的工作区和视图分配或更高权限，以便编辑、删除和共享它们</p>
+   <p>为您未创建的工作区和视图分配或更高权限，以便编辑、删除和共享它们，以及创建、编辑或删除记录类型和记录。</p>
     <p>系统管理员可以管理他们未创建的工作区和视图 </p>
    <p>有关共享Maestro对象权限的信息，请参阅  
    <a href="../access/sharing-permissions-overview.md">在Adobe大师中共享权限概述</a> 
@@ -109,10 +115,16 @@ Maestro没有访问控制。
 
 拥有任何许可证类型的用户可以访问Maestro。
 
+有关在Workfront中授予访问权限的信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## 授予权限
 
 您必须向非系统管理员用户授予您创建的工作区和视图的权限，以便他们能够访问这些工作区和视图。
 
 有关更多信息，请参阅 [在Adobe大师中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
+
+有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

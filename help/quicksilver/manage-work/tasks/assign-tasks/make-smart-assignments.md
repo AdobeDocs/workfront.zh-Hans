@@ -6,7 +6,7 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。</span>
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 

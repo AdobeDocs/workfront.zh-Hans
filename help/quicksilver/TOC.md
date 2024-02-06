@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
+source-wordcount: '13894'
 ht-degree: 1%
 
 ---
@@ -704,7 +704,7 @@ ht-degree: 1%
       * 创建和管理组 {#create-manage-groups}
          * [创建和管理组](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [创建组](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-         * [管理群组](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
+         * [管理组](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
          * [组事件通知](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
          * [查看和管理组的详细信息](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
          * [查看和管理组的成员资格](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
@@ -716,7 +716,7 @@ ht-degree: 1%
          * [解锁时间表和小时首选项](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
          * [移动组](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
          * [停用或重新激活组](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
-         * [删除群组](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+         * [删除组](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [导出组列表](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * 创建和管理子组 {#create-manage-subgroups}
          * [创建和管理子组](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
@@ -1830,7 +1830,7 @@ ht-degree: 1%
             * [使用验证审批报告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [从Adobe Workfront访问Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 管理校对版本 {#manage-proof-versions}
-            * [管理校样版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [管理验证版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [创建新版本的验证](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [查看校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [查看和管理校对版本详细信息](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
@@ -2033,6 +2033,7 @@ ht-degree: 1%
       * [访问信息](maestro/access/access-information.md)
       * [访问概述](maestro/access/access-overview.md)
       * [在Adobe大师中共享权限概述](maestro/access/sharing-permissions-overview.md)
+      * [Adobe大师中的许可证类型概述](maestro/access/license-type-overview.md)
       * [共享工作区](maestro/access/share-workspaces.md)
       * [共享视图](maestro/access/share-views.md)
    * AdobeMaestro记录 {#adobe-maestro-records}
@@ -2532,7 +2533,7 @@ ht-degree: 1%
          * [使用Workfront Proof创建和管理自定义配置文件](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [使用Workfront Proof在帐户之间移动用户](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
       * 组 {#groups}
-         * [群组](workfront-proof/wp-mnguserscontacts/groups/groups.md)
+         * [组](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [将组添加到验证](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof创建验证组](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [使用Workfront Proof使组成为私有组](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)

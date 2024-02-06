@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,24 +42,28 @@ ht-degree: 8%
 
 ## 关于在Maestro中共享对象的注意事项
 
-* 您必须具有以下许可证才能在Maestro中创建工作区：
+* 您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
 
-   * 新的定价模式：标准许可证
-   * 当前定价模型：计划许可证。
-
-  有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系统管理员可以管理和共享其他用户创建的工作区。
 * 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
 * 您无法批量共享工作区。
 * 您可以与以下实体共享工作区：
    * 用户
-   * 群组
+   * 组
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。
 * 您可以与其他人共享指向工作区或从记录类型页面查看的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
 ## 共享Maestro对象的权限
 
 以下各节中的表说明了在共享Maestro工作区或视图时可以选择的权限级别，以及每个级别允许的功能。
+
+>[!IMPORTANT]
+>
+>并非所有用户都可以具有下述权限级别。 用户的个人许可证决定了他们可接收的Maestro对象的权限级别。
+>
+>有关信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### 工作区权限
 

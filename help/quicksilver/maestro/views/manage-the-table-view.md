@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
    >   * 更改表格视图中的主字段会影响所有表格视图。
    >
    >   * 不能删除或隐藏主字段。
+   >
+   >   * 主字段中列出的值始终通过超链接链接到记录的“详细信息”页面。
 
 1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 
@@ -214,7 +216,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 
    您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
 
-1. （可选）向每条记录添加缩略图，然后单击 **字段** 选择缩略图字段的切换按钮，以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
+1. （可选）向每条记录添加缩略图，然后单击 **字段** 选择表格右上角的切换开关， **缩略图** 字段以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
    有关信息，请参阅 [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
