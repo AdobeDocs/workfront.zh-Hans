@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ ht-degree: 0%
 
 当 [!DNL Workfront] 管理员将组分配给公司，组管理员将获得组增益 [!UICONTROL 管理] 在中访问公司 [!UICONTROL 设置]. 这包括访问 [!UICONTROL 公司] 页面位置 [!UICONTROL 设置]，用户可以在其中查看和管理与其组关联的公司。
 
-通过访问 [!UICONTROL 公司] 页面上，组管理员可以将组分配给公司，但是它必须是组管理员创建的公司。 如果组管理员的访问级别未配置为对公司的管理访问权限，则 [!UICONTROL 组] 组管理员创建公司时需要填写字段，其粗体标题指示如下：
+通过访问 [!UICONTROL 公司] 页面上，组管理员可以将组分配给公司，但是它必须是组管理员创建的公司。 如果组管理员的访问级别未配置为对公司的管理访问权限，则 [!UICONTROL 组] 当组管理员创建公司时，必填字段 — 其粗体标题指示如下：
 
-![](assets/manage-company-group-field-req.jpg)
+![编辑公司](assets/group-admin-add-company.png)
 
 有关用户如何获得其访问级别的公司管理访问权限的信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
