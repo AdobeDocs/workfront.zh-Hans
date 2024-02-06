@@ -6,9 +6,9 @@ description: 您可以将外部网页嵌入到功能板中，以提供对Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ ht-degree: 0%
         出于安全原因，Workfront管理员可能会通过不允许在外部页面中使用会话信息的方式配置您的系统首选项。 在这种情况下，外部页面不会在功能板上加载。\
         有关系统安全首选项的详细信息，请参阅 [配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >使用SessionID是不安全的，因此不建议使用。
+     >
 
    * **高度**：键入大于0的数字以定义外部页面在功能板上占用的空间。 默认高度为500。
 

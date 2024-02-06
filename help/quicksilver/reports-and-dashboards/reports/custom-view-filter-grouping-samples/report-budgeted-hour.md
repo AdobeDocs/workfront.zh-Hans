@@ -7,9 +7,9 @@ description: '报告：预算小时数'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # 报告：预算小时数
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 当您希望与无权访问资源规划者的其他用户共享预算小时数信息时，可以通过构建预算小时数报表来实现这一点。 然后，您可以与他们共享该报表。
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->预算小时数每小时在Adobe Workfront数据库中更新一次。 刷新报告不一定刷新其中的小时信息。 您可以在每个预算小时报表的右上角查看自上次更新以来经过的时间。 仅当自上次更新以来已超过一小时时，刷新报告才会刷新其中的信息。
+>预算小时数通常每小时在Adobe Workfront数据库中更新一次（在不常见情况下，最多可能需要三个小时）。 刷新报告不一定刷新其中的小时信息。 您可以在每个预算小时报表的右上角查看自上次更新以来经过的时间。 仅当自上次更新以来已超过一小时时，刷新报告才会刷新其中的信息。
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

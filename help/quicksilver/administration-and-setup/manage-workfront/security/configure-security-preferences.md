@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">创建外部页面URL时启用会话信息</td> 
-      <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>有关将外部页面添加到功能板的详细信息，请参阅 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在功能板中嵌入外部网页</a>.</p> </td> 
+      <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>此选项不安全，默认情况下处于关闭状态。 建议改用OAuth进行集成。</p> <p>有关将外部页面添加到功能板的详细信息，请参阅 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在功能板中嵌入外部网页</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">让人们使用Workfront的移动应用程序和 <strong>Workfront</strong> Outlook加载项</td> 

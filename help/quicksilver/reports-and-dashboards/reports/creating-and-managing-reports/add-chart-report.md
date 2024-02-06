@@ -6,9 +6,9 @@ description: 您可以通过添加图表来增强报表。 可以将图表添加
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
    ![](assets/qs-bar-chart-350x167.png)
 
 1. 单击 **保存+关闭** 以保存图表和报表。
+
+>[!IMPORTANT]
+>
+>将条形图限制为23个或更少的条形，因为包含超过23个条形的条形图无法正确显示所有条形标签。
 
 ### 饼图 {#pie-chart}
 
