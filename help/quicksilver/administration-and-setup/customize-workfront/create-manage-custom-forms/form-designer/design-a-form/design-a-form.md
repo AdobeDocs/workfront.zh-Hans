@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 3%
@@ -198,8 +198,8 @@ ht-degree: 3%
     <td>格式</td>
     <td><p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注意</b>：   
     <ul> 
-    <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
-    <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li> 
+    <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li> 
+    <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
      </ul></p></td> </td>
     <td><ul>
     <li>单行文本</li>
@@ -316,7 +316,7 @@ ht-degree: 3%
     <td> <p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注意</b>：   
      <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
-    <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li> 
+    <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
      </ul></p></td> 
      <td><ul>
     <li>单选按钮</li>
