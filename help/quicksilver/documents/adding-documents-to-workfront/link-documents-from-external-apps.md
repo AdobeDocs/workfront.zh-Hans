@@ -6,9 +6,9 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ ht-degree: 0%
 ## 将文档从Workfront上传并链接到外部云提供商
 
 您可以上传文档，并将其从Workfront链接到外部云提供商。 这会将文档的存储空间从Workfront移动到外部云提供商。 当文档在外部应用程序中更改时，会自动在Workfront中更新。
+
+>[!NOTE]
+>
+>将资产发送到外部文档提供商会创建资产的新版本。
 
 没有Workfront访问权限的用户可以在外部应用程序中查看文档（如果他们有权访问应用程序）。
 
