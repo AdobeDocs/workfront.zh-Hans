@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a7df266715acc1e1b054b625effbd777273021d3
+source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ ht-degree: 0%
 
 ## Adobe Workfront增强功能
 
-<!-- * [Administrator enhancements](#administrator-enhancements)-->
+* [管理员增强功能](#administrator-enhancements)
 * [项目增强功能](#project-enhancements)
 
-<!--
-### Administrator enhancements
+### 管理员增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -45,41 +44,32 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">功能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">发行日期</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
-
-Icons on a field in the form designer canvas indicate that logic is configured on that field, or that the field is used in logic rules configured on other fields.
-
-For more information, see [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器测试版中使用</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>现在，您可以在表单设计器测试版中编辑现有显示和跳过逻辑，并向自定义表单添加新逻辑。 易于使用的逻辑生成器可帮助您根据表单中的选择定义要显示或跳过的字段。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 25, 2024<br /></p>
+                                <p>预览版本： 2024年2月8日<br /></p>
                             </li>
                             <li>
-                                <p>Fast release to Production: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Quarterly release to Production: With the 24.4 release April 2024</p>
+                                <p><span class="preview">面向所有客户的生产：使用24.2版本（2024年2月15日）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-    -->
 
 ### 项目增强功能
 
@@ -110,11 +100,47 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
                             </li>
                             <li>
-                                <p>面向所有客户的生产：使用24.4版本（2024年4月）</p>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
                             </li>
                         </ul>
                     </td>
                     </tr>
+           </tbody>
+        </table>
+
+### 其他增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第二季度期间的外观更新</a></p><p>在2024年第二季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本：在整个2024年第二季度发布时间范围内</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">生产版本：查看特定日期的发行说明</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

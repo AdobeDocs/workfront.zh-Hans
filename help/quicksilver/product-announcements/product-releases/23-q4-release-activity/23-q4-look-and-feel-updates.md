@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年11月1日；适用于所有客户的生产版本： 11月1日
+>预览版本： 2023年11月1日；适用于所有客户的生产版本： 2023年11月1日
 
 文档审批通知的电子邮件模板已更新，以更好地匹配其他Adobe电子邮件模板，并提高清晰度和可用性。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年10月12日；面向所有客户的生产版本：待定
+>预览版本： 2023年10月12日；用于快速发布的生产：用于24.2版（2024年2月15日）；用于季度发布的生产：用于24.4版（2024年4月）
 
 为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
 
