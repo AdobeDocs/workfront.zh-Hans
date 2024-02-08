@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,8 @@ ht-degree: 1%
    * 添加编号列表
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 A **已保存** 指示器会短暂显示在表格视图的右上角，表示已保存更改。
 
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：

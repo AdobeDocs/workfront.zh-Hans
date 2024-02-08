@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ ht-degree: 0%
    >    链接的记录字段前面有关系图标 ![](assets/relationship-field-icon.png).
 
 1. 从 **营销活动** 记录类型表视图，通过在“促销活动”记录类型页面的表中添加新行来创建促销活动。
-1. 单击 **+** 中的图标  **产品信息** 列来显示新营销活动。 此 **连接对象** 框显示。 要链接到的记录类型（产品）的名称将显示在框的左上角。
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. 在  **产品信息** 列来显示新营销活动。
 
-1. 选择要与Campaign记录连接的产品记录，然后单击 **连接对象**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. 执行下列操作之一：
+
+   * 在列表中单击已连接产品的名称，以将其添加到所选记录。 产品会自动添加。
+   * 开始键入产品的名称，并在该名称显示在列表中时单击它。 产品会自动添加。
+   * 单击 **查看全部** 以显示所有产品。
+
+1. （视情况而定）如果您单击 **全选** 在上一步中， **连接对象** 框显示。
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. 在搜索框中开始键入产品名称，然后当它显示在列表中时将其选定
+
+   或
+
+   选择要与Campaign记录连接的产品记录，然后单击 **连接对象**.
+
+   >[!TIP]
+   >
+   >    您可以打开Campaign的“详细信息”页面，找到链接的记录字段，然后单击 **+** 图标，以添加来自连接的产品记录类型的产品。
 
    以下列在Campaign记录类型表中填充：
    * 此 **产品信息** 字段将填充所选产品的促销活动记录。
@@ -142,13 +161,32 @@ ht-degree: 0%
    >    链接对象字段前面有关系图标 ![](assets/relationship-field-icon.png).
 
 1. 从 **营销活动** 记录类型表视图，通过在表中添加新行来创建营销活动。
-1. 单击 **+** 中的图标  **项目信息** 列来显示新营销活动。 此 **连接对象** 框显示。 要链接到的对象类型(Workfront项目)的名称将显示在框的左上角。
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. 在  **项目信息** 列来显示新营销活动。
 
-1. 选择要与Campaign记录连接的一个或多个项目，然后单击 **连接对象**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   以下内容将添加到所选工作区：
+1. 执行下列操作之一：
+
+   * 单击列表中的项目名称以将其添加到所选记录。 项目将自动添加。
+   * 开始键入项目的名称，并在项目显示在列表中时单击该名称。 项目将自动添加。
+   * 单击 **查看全部** 以显示所有项目。
+
+1. （视情况而定）如果您单击 **全选** 在上一步中， **连接对象** 框显示。
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. 在搜索框中开始键入项目的名称，然后当该项目显示在列表中时将其选定
+
+   或
+
+   选择要与Campaign记录连接的项目记录，然后单击 **连接对象**.
+
+   >[!TIP]
+   >
+   >    您可以打开营销策划的详细信息页面，找到链接的项目字段，然后单击 **+** 图标，以从连接的产品记录类型添加项目。
+
+   这会将以下内容添加到所选工作区：
 
    * 在Campaign记录类型表中：
       * 此 **项目信息** 字段将填充所选项目的营销活动记录。
@@ -165,7 +203,7 @@ ht-degree: 0%
    这将打开只读的Maestro项目的 **详细信息** 页面。
 查看有关项目的信息。 “详细信息”页面中仅显示选定的项目字段。
 
-1. 如果至少具有项目的“查看”权限，请单击屏幕右上角的转至源以在Workfront中打开项目。
+1. 单击 **转到源** 如果您至少具有项目的查看权限，则可以在屏幕右上角的Workfront中打开项目。
 1. （可选）如果您有权限可以在Workfront中更新有关项目的信息。
 
 1. 在Campaign表格视图中，将鼠标悬停在 **项目信息** 字段标题，单击向下箭头，然后单击 **编辑查找字段。**

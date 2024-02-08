@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ ht-degree: 0%
 
 有关信息，请参阅  [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### 改进了编辑单选、多选、人员字段以及添加连接对象时的体验
 
-Production: February 8, 2024 
+生产日期： 2024年2月8日
 
-Preview: To be determined 
+预览：待定
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+我们重新设计和改进了为以下字段类型添加选项或对象的体验：
 
-The improvements are now available when updating fields in the table view of a record type.  
+* 单选
+* 多选
+* 人员
+* 连接的记录字段(在连接Maestro记录类型或Workfront对象时)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+根据新的改进，首先会显示一个更小、响应更快速的框。
 
--->
+对于连接的字段，您可以通过以下操作之一添加它们：
+
+* 通过内联编辑字段时从表格视图的列表中搜索和选择对象，将对象添加到连接的字段
+* 单击打开较大的“连接对象”框，可在其中查看所有项目名称以及有关项目的详细信息。
+
+现在，在记录类型的表视图中更新字段时，可以应用这些改进。
+
+有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024年1月29日起一周
 
