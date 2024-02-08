@@ -3,118 +3,116 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 项目完成百分比概述
-description: 项目的“完成百分比”值是根据项目中任务的“计划持续时间”或“计划小时数”计算的。 当Adobe Workfront管理员或组管理员在“项目首选项”区域中配置信息时，在计算系统中的完成百分比时，会考虑哪个值。 有关配置项目首选项的信息，请参阅配置系统范围的项目首选项。
+description: 项目的完成百分比值根据项目中任务的计划持续时间或计划小时数来计算。 您的Adobe Workfront管理员或组管理员定义在项目偏好设置区域中配置信息时，在您的系统中计算完成百分比时要考虑的值。 有关配置项目首选项的信息，请参阅配置系统范围项目首选项。
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 31533bd7ee1890a8343d32770d623d5d9a6007d2
+source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # 项目完成百分比概述
 
-项目的“完成百分比”值是根据项目中任务的持续时间或计划小时数计算的。 当Adobe Workfront管理员或组管理员在“项目首选项”区域中配置信息时，在计算系统中的完成百分比时，会考虑哪个值。
+<!-- Audited 01/2024 -->
+
+项目的完成百分比值根据项目中任务的持续时间或计划小时数来计算。 您的Adobe Workfront管理员或组管理员定义在项目偏好设置区域中配置信息时，在您的系统中计算完成百分比时要考虑的值。
 
 有关配置项目首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 父任务的完成百分比基于其每个子任务的持续时间或计划小时数。
 
-同样，项目完成百分比基于项目中每个主要任务的持续时间或计划小时数。
+同样，项目的完成百分比基于项目中每个主任务的持续时间或计划小时数。
 
-主要任务是父任务和没有子任务的独立任务。
+主要任务为父任务和没有子任务的独立任务。
 
 >[!TIP]
 >
->主任务不会缩进到项目计划中。
+>主任务未在项目计划中缩进。
 
 ## Workfront如何计算完成百分比
 
-* [更新任务的完成百分比](#update-the-percent-complete-on-a-task)
-* [Workfront如何计算父任务上的完成百分比](#how-workfront-calculates-percent-complete-on-a-parent-task)
-* [Workfront如何计算项目的完成百分比](#how-workfront-calculates-percent-complete-on-a-project)
-
 ### 更新任务的完成百分比 {#update-the-percent-complete-on-a-task}
 
-您可以手动修改任务的完成百分比。 这不是计算。
+您可以手动修改任务的完成百分比。 这不是算计。
 
 Workfront使用单个任务的完成百分比来计算其父任务的完成百分比或项目的完成百分比。
 
-有关更新任务完成百分比的信息，请参阅 [查看和更新任务完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+有关更新任务的完成百分比的信息，请参阅 [查看和更新任务的完成百分比](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
-### Workfront如何计算父任务上的完成百分比 {#how-workfront-calculates-percent-complete-on-a-parent-task}
+### Workfront如何计算父任务的完成百分比 {#how-workfront-calculates-percent-complete-on-a-parent-task}
 
-根据您的Workfront或组管理员在系统或组级别的项目首选项中选择的内容，父任务的完成百分比将根据任务的持续时间或计划时间计算。
+根据系统或组级别的Workfront或组管理员在项目首选项中选择的内容，父任务的完成百分比基于任务的持续时间或计划小时数计算。
 
 请考虑以下情况：
 
-* 如果系统根据计划小时计算完成百分比，则使用以下公式计算父任务完成百分比：
+* 如果系统根据计划小时数计算完成百分比，则父任务完成百分比使用以下公式计算：
 
-   `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
-   父代的总计划小时数表示每个子代的所有计划小时数的总和。
+  父级的总计划小时数表示每个子级的所有计划小时数的总和。
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-* 如果系统根据持续时间计算完成百分比，则使用以下公式计算父任务完成百分比：
+* 如果系统根据“持续时间”计算完成百分比，则父任务完成百分比使用以下公式计算：
 
-   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!IMPORTANT]
-   >
-   >父任务的总持续时间是子任务的所有持续时间的总和。 例如，父任务中的两个子项的“持续时间”分别为1天和2天，则“总持续时间”为3天，即使两个子项可以在同一天开始。
+  >[!IMPORTANT]
+  >
+  >父任务的总持续时间是子任务的所有持续时间的总和。 例如，如果父任务有两个子任务，其各自的“持续时间”为1天和2天，则“总持续时间”为3天，即使这两个子任务可以在同一天开始。
 
 
 ### Workfront如何计算项目的完成百分比 {#how-workfront-calculates-percent-complete-on-a-project}
 
-根据您的Workfront或组管理员在系统或组级别的项目首选项中选择的内容，项目的完成百分比将根据项目主要任务的持续时间或计划时间来计算。
+根据您的Workfront或组管理员在系统或组级别的项目首选项中选择的内容，项目的完成百分比基于项目上主要任务的持续时间或计划小时数来计算。
 
-* 如果系统根据计划小时计算完成百分比，则使用以下公式计算项目完成百分比：
+* 如果系统根据计划小时数计算完成百分比，则使用下列公式计算项目完成百分比：
 
-   `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
+  `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
 
-   项目的总计划时间是项目所有主要任务的计划时间之和。
+  项目的总计划小时数是项目中所有主要任务的计划小时数的总和。
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-   >[!NOTE]
-   >
-   >任务1或任务2只能是父任务或独立任务。 此计算中不使用子任务的计划小时数和完成百分比。
+  >[!NOTE]
+  >
+  >任务1或任务2只能是父任务或独立任务。 此计算中不使用子任务的计划小时数和完成百分比。
 
-* 如果系统根据持续时间计算完成百分比，则使用以下公式计算项目完成百分比：
+* 如果系统根据“持续时间”计算完成百分比，则使用以下公式计算项目完成百分比：
 
-   `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
+  `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 
-   >[!IMPORTANT]
-   >
-   >项目持续时间是显示完成百分比的主要任务的所有持续时间的总和。 例如，如果项目的独立任务持续时间为2天，而父任务的持续时间为5天，且已完成工作，则该项目的总持续时间将为7天，即使这两个任务可以在同一天开始。
+  >[!IMPORTANT]
+  >
+  >项目持续时间是显示完成百分比的所有主任务的总持续时间。 例如，对于工期为2天的独立任务和工期为5天的父任务，如果在其上已完成工作，则项目的总工期为7天，即使这两个任务可以在同一天开始。
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!NOTE]
-   >
-   >任务1或任务2只能是父任务或独立任务。 此计算中不使用子任务的持续时间和完成百分比。
+  >[!NOTE]
+  >
+  >任务1或任务2只能是父任务或独立任务。 此计算中不使用子任务的持续时间和完成百分比。
 
 ## 使用持续时间的项目完成百分比示例
 
-使用任务的持续时间计算项目完成百分比时，请考虑以下示例：
+使用任务的持续时间计算项目的完成百分比时，请考虑以下示例：
 
 ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-以下信息用于计算项目完成百分比
+以下信息用于计算项目的完成百分比
 
-* 独立任务完成百分比（任务1 - 20%）
-* 父任务完成百分比（任务2 - 25%）
-* 任务1（5天）的持续时间
+* 独立任务的完成百分比（任务1 - 20%）
+* 父任务的完成百分比（任务2 - 25%）
+* 任务1的持续时间（5天）
 * 任务2的持续时间（2天）
 * 项目持续时间（7天）
 
 
-要使用持续时间计算项目完成百分比，请执行以下操作：
+要使用持续时间计算项目的完成百分比，请执行以下操作：
 
 `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 

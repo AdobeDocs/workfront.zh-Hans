@@ -1,23 +1,25 @@
 ---
-title: 创建和管理用户
+title: "创建和管理用户：文章索引"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: 您可以通过从头开始创建单个用户或复制现有用户，在Adobe Workfront中添加用户。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
-# 创建和管理用户
+# 创建和管理用户：文章索引
+
+<!-- Audited: 2/2024 -->
 
 本节包含以下文章：
 

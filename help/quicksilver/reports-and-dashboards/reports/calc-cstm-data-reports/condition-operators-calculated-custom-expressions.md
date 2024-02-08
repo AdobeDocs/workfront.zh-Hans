@@ -7,7 +7,7 @@ description: 在使用文本模式时，在Adobe Workfront中构建计算的自�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 计算自定义字段中的条件运算符
 
-在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。
+<!-- Audited: 2/2024 -->
 
-有关在Workfront中使用文本模式的信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。 有关在Workfront中使用文本模式的信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 条件运算符或修饰符可通过连接语句中的现有Workfront字段并生成新字段来帮助构建条件语句。 条件运算符最常见的用法是构建“IF”语句的条件。
 
