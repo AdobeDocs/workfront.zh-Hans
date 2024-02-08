@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以配置自定义表单的访问权限，以控制谁可以查看、共享和编辑该表单 — 人员、角色、组、团队、公司。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # 共享自定义表单
+
+{{highlighted-preview}}
 
 您可以配置自定义表单的访问权限，以控制谁可以查看、共享和编辑该表单 — 人员、角色、组、团队、公司。
 
@@ -28,21 +30,24 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 访问自定义表单 {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ ht-degree: 1%
 
 而不是将自定义表单保留在默认共享状态（如所述） [访问自定义表单](#access-to-custom-forms) 在本篇文章中)，您可以为某些用户、工作角色、组、团队和公司配置对表单的特定访问级别。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **自定义Forms**.
-1. 选择自定义表单，然后单击 **共享**.
+1. 选择自定义表单，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
 1. 在显示的框中，在 **将自定义表单访问权限授予**，开始键入要与其共享自定义表单的用户、团队、工作角色、组或公司的名称，然后按键 **输入** 显示名称时。
 1. 要调整您刚刚添加的用户、团队、工作角色、组或公司的访问权限，请单击名称右侧的下拉菜单，然后配置以下任一可用选项及其任何高级设置：
 
@@ -106,10 +111,10 @@ ht-degree: 1%
 
 ## 删除对自定义表单的访问权限
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **自定义Forms**.
-1. 选择自定义表单，然后单击 **共享**.
+1. 选择自定义表单，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
 1. 在显示的框中，单击您不再希望对表单具有特殊访问权限的用户、团队、角色、组或公司名称右侧的X。
 1. （可选）对要删除的其他名称重复上一步骤。
 1. 单击&#x200B;**保存**。

@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 当在工作项中定义的工作变得过大时，您可以将其转换为较大的工作项。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # 转换对象时传输自定义表单数据
+
+{{highlighted-preview}}
 
 根据组织的业务需求，在任务或问题中定义的工作可能变得太大，无法在任务或问题中管理。 在这种情况下，您可以将它们转换为较大的工作项：
 
@@ -35,29 +37,33 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 第一：向自定义表单添加其他对象
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **自定义Forms**.
-1. 查找所需的表单，然后单击 **编辑**.
+1. 查找所需的表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
 1. 在表单顶部，添加您计划要将任务或问题转换到的对象。
+
    >[!INFO]
    >
    >**示例**：如果要将自定义表单数据传输到项目，请选择项目。

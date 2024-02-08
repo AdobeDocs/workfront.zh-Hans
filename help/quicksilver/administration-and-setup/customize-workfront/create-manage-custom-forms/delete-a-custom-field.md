@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 从系统中删除自定义字段或构件
 description: 为了提高系统性能并使表单更易于用户使用，您可能希望从系统中删除不再使用的自定义字段和小部件。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -36,28 +36,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 从系统中删除自定义字段或构件
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 单击 **自定义Forms。**
-1. 单击 **字段** 选项卡。
+1. 单击 **字段** 以打开“字段”区域。
 1. 选择自定义字段或构件，然后单击 **删除**.
 1. 如果您确实想要永久删除项目，并（对于自定义字段）删除所附加对象的全部关联数据，请单击 **是的，删除它**.
 

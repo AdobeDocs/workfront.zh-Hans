@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用旧版表单生成器配置自定义字段和小部件的共享
 description: 默认情况下，向自定义表单添加新的自定义字段或构件时，系统中有权访问自定义表单的任何人都可以编辑该项目的属性，例如其标签和名称。 您可以通过控制可与谁共享来更改此设置。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '942'
+ht-degree: 0%
 
 ---
 
 # 使用旧版表单生成器配置自定义字段和小部件的共享
+
+{{highlighted-preview}}
 
 默认情况下，向自定义表单添加新的自定义字段或构件时，系统中有权访问自定义表单的任何人都可以编辑该项目的属性，例如其标签和名称。 您可以通过控制可与谁共享来更改此设置。
 
@@ -30,35 +32,38 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 为自定义字段或小组件配置共享
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **自定义Forms**.
 1. 如果您在组织的Workfront实例中为自定义字段或构件配置共享，请执行以下操作：
 
-   1. 单击 **字段** 选项卡。
-   1. 选择要为其配置共享的项目，然后单击 **共享**.
+   1. 单击 **字段** 以打开“字段”区域。
+   1. 选择要为其配置共享的项目，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
 
    或者，如果您要为现有自定义表单中的自定义字段或构件配置共享，请执行以下操作：
 
-   1. 选择自定义表单，然后单击 **编辑**.
+   1. 选择自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
    1. 在右侧的表单编辑区域中，选择要为其配置共享的项目。
    1. 在左侧面板中，单击 **共享字段**.
 
@@ -96,11 +101,11 @@ ht-degree: 2%
 
      当您添加自定义字段或构件并且不限制其共享时，系统中有权访问自定义表单的每个人都可以查看并编辑其属性。
 
-   * **移除系统范围编辑权限**
+   * **删除系统范围编辑权限**
 
      仅限您添加到列表中的用户访问。
 
-   * **使其在系统范围内可见，以供 Workfront 中的每个用户查看**
+   * **使其在系统范围内可见，以便Workfront中的每个人都可以看到它**
 
 1. 单击 **保存** 或 **保存+关闭**.
 

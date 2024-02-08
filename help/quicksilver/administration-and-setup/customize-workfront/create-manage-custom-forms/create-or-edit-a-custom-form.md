@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 使用旧版表单生成器创建或编辑自定义表单
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 您可以创建或编辑新的自定义表单。 本文解释了这两项任务。
 
@@ -34,23 +36,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准</p>
+   <p>或</p>
    <p>当前：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 开始创建自定义表单
 
@@ -110,7 +112,7 @@ ht-degree: 0%
 
    自定义表单显示在列表中。 您可以查看为您的组织创建的所有自定义表单和自定义字段。 您还可以查看创建每个表单的人员、与其关联的对象以及表单是否处于活动状态。
 
-1. 选择要编辑的自定义表单，然后单击 **编辑**.
+1. 选择要编辑的自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
 1. （可选）要更改自定义表单的标题和描述，请单击 **表单设置** 选项卡，然后键入 **表单标题** 和 **描述**.
 
 1. （可选）如果要向表单中添加更多对象类型，以便将其附加到更多对象，请单击后面的加号+ **对象类型**，然后在显示的菜单中选择所需的类型。

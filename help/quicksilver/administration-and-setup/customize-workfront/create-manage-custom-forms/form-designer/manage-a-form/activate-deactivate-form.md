@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以重新激活或取消激活自定义表单。 我们建议停用自定义表单，而不是删除您不再用于保留历史数据的表单。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p></td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对自定义表单的管理访问权限</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 停用自定义表单
 
@@ -56,16 +59,18 @@ ht-degree: 0%
 
 要停用自定义表单，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. 在左侧面板中，选择 **自定义Forms**.
-1. 在 **Forms** 选项卡，选择要取消激活的自定义表单。
+1. 在 **Forms** 区域中，选择要取消激活的自定义表单。
 1. 在“为活动”列中，选择 **假** 然后单击退出列。 该表单不再处于活动状态。
 
 ## 重新激活自定义表单
 
 如果重新激活自定义表单，则它会保留之前具有的设置，用户可以像从未停用它一样与它进行交互。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. 在左侧面板中，选择 **自定义Forms**.
-1. 在 **Forms** 选项卡，选择要重新激活的自定义表单。
+1. 在 **Forms** 区域中，选择要重新激活的自定义表单。
 1. 在“为活动”列中，选择 **True** 然后单击退出列。 该表单现在处于活动状态。
