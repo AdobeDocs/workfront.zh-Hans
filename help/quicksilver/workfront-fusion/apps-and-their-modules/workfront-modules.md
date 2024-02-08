@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
+source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
 workflow-type: tm+mt
-source-wordcount: '5825'
+source-wordcount: '5824'
 ht-degree: 2%
 
 ---
@@ -442,7 +442,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
-   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Headers]</td> 
@@ -981,13 +981,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>项目组合</td> 
+   <td>Portfolio</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目群</td> 
+   <td>项目</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1326,7 +1326,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>项目组合</td> 
+   <td>Portfolio</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1336,7 +1336,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目群</td> 
+   <td>项目</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1600,12 +1600,12 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>项目组合</td> 
+   <td>Portfolio</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目群</td> 
+   <td>项目</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
