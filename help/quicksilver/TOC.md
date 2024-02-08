@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 080292085ebd94074c92963c2fc135dd228f4cf0
+source-git-commit: 777739c4803eb8edf6ece7356e29e121a157c4d4
 workflow-type: tm+mt
-source-wordcount: '13904'
+source-wordcount: '13914'
 ht-degree: 1%
 
 ---
@@ -146,6 +146,7 @@ ht-degree: 1%
          * [21.1移动设备增强功能](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动 {#fusion-release}
+         * [Workfront Fusion发行活动： 2024年2月5日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
          * [Workfront Fusion发行活动： 2023年11月27日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
            [Workfront Fusion发行活动： 2024年1月1日起的一周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
@@ -2166,6 +2167,7 @@ ht-degree: 1%
       * [应用程序及其模块](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Adobe Workfront模块](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Workfront Proof模块](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Adobe Authenticator模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Adobe Acrobat Sign模块](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud库模块](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic模块](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)

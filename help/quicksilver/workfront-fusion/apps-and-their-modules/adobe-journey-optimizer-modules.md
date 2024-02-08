@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -469,7 +469,6 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         <p>[！UICONTROL方法]</p>
       </td>
-      <td>
    <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
@@ -489,7 +488,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
