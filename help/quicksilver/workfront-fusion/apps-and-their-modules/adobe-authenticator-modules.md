@@ -8,9 +8,9 @@ title: Adobe Authenticator模块
 description: 借助Adobe Authenticator模块，您可以使用单个连接通过API连接到任何Adobe产品。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Adobe Authenticator模块允许您通过单个连接连接到任何AdobeAPI。 �
 
 与HTTP模块相比，其优点是您可以创建连接，就像在专用应用程序中一样。
 
-要查看可用AdobeAPI的列表，请参见X。您可能只能使用分配给您的API。
+要查看可用AdobeAPI的列表，请参阅 [ADOBEAPI](https://developer.adobe.com/apis). 您可能只能使用分配给您的API。
 
 ## 访问要求
 
