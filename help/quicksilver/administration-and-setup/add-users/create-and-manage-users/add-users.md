@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
+>如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console创建系统管理员。
+>
+>有关在Adobe Admin Console中创建系统管理员的说明，请参阅 [在Adobe Admin Console中管理用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >已载入Adobe Admin Console的组织中的组管理员可以使用此过程创建用户并提交用户以供管理员审批。
->
->有关在Adobe Admin Console中添加用户的说明：
->
->* 请参阅 [在Workfront中使用Adobe Admin Console创建用户](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* 请参阅文章中的“添加用户”部分 [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* 联系Adobe Admin Console管理员。
 >
 >有关因您的组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

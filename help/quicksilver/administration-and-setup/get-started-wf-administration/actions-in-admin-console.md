@@ -3,28 +3,34 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 基于平台的管理差异(Adobe Workfront/Adobe业务平台)
-description: 如果贵组织已载入Adobe业务平台，则用户可使用Adobe业务平台访问Adobe Workfront。 这意味着用户管理主要通过Adobe Admin Console完成，而单点登录(SSO)则通过Adobe业务平台而不是Workfront进行处理。 作为Adobe Workfront管理员，您的管理职责和程序因贵组织是否已载入Adobe业务平台而异。 本文列出了必须以不同方式处理的过程，以及指向Workfront和Adobe Admin Console说明的链接。
+description: 如果您的组织已载入到Adobe业务平台，则您的用户将使用Adobe业务平台来访问Adobe Workfront。 这意味着用户管理主要通过Adobe Admin Console完成，单点登录(SSO)通过Adobe业务平台而不是通过Workfront来处理。 作为Adobe Workfront管理员，您的管理职责和步骤因贵组织是否已载入到Adobe业务平台而异。 本文列出了必须以不同方式处理的过程，以及指向Workfront和Adobe Admin Console说明的链接。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
 
 # 基于平台的管理差异(Adobe Workfront/Adobe业务平台)
 
-如果贵组织已载入Adobe业务平台，则用户可使用Adobe业务平台访问Adobe Workfront。 这意味着：
+如果您的组织已载入到Adobe业务平台，则您的用户将使用Adobe业务平台来访问Adobe Workfront。 这意味着：
 
-* 用户管理主要通过Adobe Admin Console完成
-* 单点登录(SSO)通过Adobe业务平台进行处理，而不是通过Workfront进行处理
+* 系统管理员是通过Adobe Admin Console创建的
+* 单点登录(SSO)是通过Adobe业务平台处理，而不是通过Workfront处理
 
-作为Adobe Workfront管理员，您的管理职责和程序因贵组织是否已载入Adobe业务平台而异。 本文列出了必须以不同方式处理的过程，以及指向Workfront和Adobe Admin Console说明的链接。
+作为Adobe Workfront管理员，您的管理职责和步骤因贵组织是否已载入到Adobe业务平台而异。 本文列出了处理方式不同的过程，以及指向Workfront和Adobe Admin Console说明的链接。
 
 ## 用户
+
+
+
+>[!NOTE]
+>
+>我们建议直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +39,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th>操作</th> 
-   <th>有关Workfront中的说明，请参阅</th> 
+   <th>有关Workfront的说明，请参阅</th> 
    <th>有关Adobe管理控制台中的说明，请参阅</th> 
   </tr> 
  </thead> 
@@ -54,7 +60,7 @@ ht-degree: 1%
    <td role="rowheader">授予用户管理员访问权限</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -62,7 +68,7 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">将用户添加到Adobe Workfront</td> 
+   <td role="rowheader">向Adobe Workfront添加用户</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">添加用户</a> </p> </li> 
@@ -87,14 +93,14 @@ ht-degree: 1%
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">停用用户</td> 
+   <td role="rowheader">取消激活用户</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p>中的“删除用户”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -106,18 +112,18 @@ ht-degree: 1%
    <td> 
     <ul> 
      <li> <p>中的“永久删除用户”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">管理目录用户</a>
-     </p><p>注意：从 [!DNL Adobe Admin Console] 停用 [!DNL Workfront]，但不会从中删除它们 [!DNL Workfront].</p> </li> 
+     </p><p>注意：从删除用户 [!DNL Adobe Admin Console] 在中停用用户 [!DNL Workfront]，但不会从中删除它们 [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">编辑用户配置文件</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户的配置文件</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>在 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p>中的“编辑用户详细信息”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -143,7 +149,7 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">以其他用户身份登录</td> 
+   <td role="rowheader">以其他用户身份登录。</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">以其他用户身份登录</a> </p> </li> 
@@ -158,7 +164,7 @@ ht-degree: 1%
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>“SAML响应中的数字签名未验证……”部分 in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">疑难解答Federated ID</a></p> </li> 
+     <li> <p>中的“SAML响应中的数字签名未验证……”部分 <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">疑难解答Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,13 +172,13 @@ ht-degree: 1%
 
 ## SSO（单点登录）
 
-由于Adobe业务平台控制用户的单点登录(SSO)，因此以下操作和功能可通过Adobe业务平台自动处理。 如果贵组织尚未载入Adobe业务平台，则必须在Workfront中执行这些操作。
+由于Adobe业务平台为用户控制单点登录(SSO)，因此以下操作和功能通过Adobe业务平台自动处理。 如果贵组织尚未载入Adobe业务平台，则必须在Workfront中执行这些操作。
 
 
 * [使用SAML 2.0配置Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [使用ADFS使用SAML 2.0配置Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [停用Adobe Workfront中的单点登录](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [在您的身份提供程序中更新SAML 2.0元数据](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [更新用户以进行单点登录](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [配置密码策略以进行身份验证](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [在Adobe Workfront中取消激活单点登录](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [在身份提供程序中更新SAML 2.0元数据](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [更新单点登录的用户](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [配置用于身份验证的密码策略](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
