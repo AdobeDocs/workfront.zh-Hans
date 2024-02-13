@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  ><div>在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句是根据协调世界时(UTC)计算并保存的，而不是根据为组织的实例和用户配置文件设置的时区配置。 自定义表单中的计算根据每个用户的各个时区生成。</div>
+  >在附加到对象的自定义表单中，计算自定义字段中的日期和时间语句是根据协调世界时(UTC)计算并保存的，而不是根据为组织的实例和用户配置文件设置的时区配置。 但是，自定义表单中的计算会根据每个用户所在的时区显示。

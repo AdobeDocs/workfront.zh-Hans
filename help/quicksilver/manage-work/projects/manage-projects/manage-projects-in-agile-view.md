@@ -6,9 +6,9 @@ description: 您可以利用项目的Agile功能，而无需Agile实践通常伴
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ ht-degree: 0%
 
 ### 在项目上使用敏捷视图与在开发周期上使用敏捷视图时的差异 {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [任务和子任务遵循故事板上的不同显示规则](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [不使用积压工作和迭代](#backlogs-and-iterations-are-not-used)
+* [任务和子任务遵循项目“敏捷”视图和开发周期故事板上的不同显示规则](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [在Agile视图中不使用积压和迭代](#backlogs-and-iterations-are-not-used)
 * [任务顺序在Agile视图中维护，无法重新排序](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [任务仅按计划小时数测量](#tasks-are-measured-only-in-planned-hours)
-* [未使用Agile团队](#the-agile-team-is-not-used)
+* [任务仅在项目列表上的计划小时数中进行测量](#tasks-are-measured-only-in-planned-hours)
+* [Agile团队未在Agile视图中使用](#the-agile-team-is-not-used)
 * [项目中的每个用户都可以在不同的Agile视图中查看项目](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### 任务和子任务遵循故事板上的不同显示规则 {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### 任务和子任务遵循项目“敏捷”视图和开发周期故事板上的不同显示规则 {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* 没有父任务和子任务的任务始终显示为故事板上的单个故事卡。\
+* 没有父任务和子任务的任务始终在敏捷视图的故事板中显示为单个故事卡。\
   例如，这些任务在项目列表视图中如下所示：
 
   ![Agile项目列表 — 无父任务或子任务的任务](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ ht-degree: 0%
 
   ![项目敏捷视图 — 无父任务或子任务的任务](assets/agile-project-singlecard-nwe.png)
 
-* 具有子任务的父任务始终显示在 **故事** 故事板上的栏。 子任务显示在父任务的泳道中。\
+* 具有子任务的父任务始终显示在 **故事** 敏捷视图故事板上的列。 子任务显示在父任务的泳道中。\
   例如，这些任务在项目列表视图中如下所示：
 
   ![Agile项目列表 — 具有父任务和子任务的任务](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ ht-degree: 0%
   ![Agile项目视图 — 具有父任务和子任务的任务](assets/agile-project-parent-nwe.png)
 
 * 第二级子任务（子任务的子任务）在直接父任务中显示为悬挂的灰色卡片。
-* 第三级子任务（子任务的子任务）永远不会显示在故事板上。
+* Agile视图中永远不会显示第三级子任务（子任务的子任务）。
 
-#### 不使用积压工作和迭代 {#backlogs-and-iterations-are-not-used}
+#### 在Agile视图中不使用积压和迭代 {#backlogs-and-iterations-are-not-used}
 
 在Agile视图中查看项目时，不使用以下Agile组件：
 
@@ -119,13 +119,13 @@ ht-degree: 0%
 
 在Agile视图中查看项目时，无法对项目中的任务重新排序。 由于修改任务顺序可能会影响其他可能具有依赖关系的任务，因此必须在标准视图中查看项目才能修改任务顺序。
 
-#### 任务仅按计划小时数测量 {#tasks-are-measured-only-in-planned-hours}
+#### 任务仅在项目列表上的计划小时数中进行测量 {#tasks-are-measured-only-in-planned-hours}
 
 项目中的任务始终按计划小时数测量。
 
 在迭代中，任务（故事）可以用小时或点来测量。
 
-#### 未使用Agile团队 {#the-agile-team-is-not-used}
+#### Agile团队未在Agile视图中使用 {#the-agile-team-is-not-used}
 
 由于Agile团队完成分配给他们的迭代工作，因此Agile团队在Agile视图中查看项目时不使用。
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 在敏捷开发周期中，敏捷故事板上可用的信息（例如可用的状态列）由团队级别确定。
 
-有关如何自定义Agile视图的信息，请参阅 [创建或自定义敏捷视图](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 在 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+有关如何自定义Agile视图的信息，请参阅 [创建或自定义敏捷视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 在 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## 在Agile视图中查看项目
 

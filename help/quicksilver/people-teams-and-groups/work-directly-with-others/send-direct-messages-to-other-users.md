@@ -7,16 +7,16 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 向其他用户发送私信
 
-[!DNL Adobe Workfront] 使您能够快速、轻松地将与任何工作项目无关的消息直接发送给其他人 [!DNL Workfront] 用户。 按此部分所述发送的消息将显示在 [!UICONTROL 更新] 选项卡，所有用户都可以看到。 有关更新的更多信息，请参阅 [更新工作项并查看更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] 使您能够快速、轻松地将与任何工作项目无关的消息直接发送给其他人 [!DNL Workfront] 用户。 按此部分所述发送的消息将显示在 [!UICONTROL 更新] 选项卡，所有用户都可以看到。 有关更新的更多信息，请参阅 [更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 在发送消息时，要向其发送消息的用户会收到以下类型的通知，如本节所述：
 

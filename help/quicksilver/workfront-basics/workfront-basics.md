@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '82'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 17%
 * [Adobe Workfront支持的语言](../workfront-basics/supported-languages-in-workfront.md)
 * [导航Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [主页](../workfront-basics/using-home/home.md)
-* [更新工作项并查看更新](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [更新工作项并查看更新：文章索引](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [使用自定义表单](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [使用通知：文章索引](../workfront-basics/using-notifications/use-notifications.md)
 * [向对象授予权限并请求权限](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

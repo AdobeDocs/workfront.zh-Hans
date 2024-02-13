@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 1%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 1%
          * [查看主页日程表](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [使用“我的更新”区域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * 更新工作项并查看更新 {#update-work-items-view-updates}
-      * [更新工作项并查看更新](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [更新工作项并查看更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [更新工作](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [字段中的字符限制](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)

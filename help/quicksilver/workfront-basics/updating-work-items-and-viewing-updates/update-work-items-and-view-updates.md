@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 更新工作项并查看更新
-description: 您可以使用大多数对象的“更新”部分添加注释、回复，或跟踪有关对象上发生的更改的系统跟踪更新。
+title: “更新工作项并查看更新：文章索引”
+description: 您可以使用大多数对象的“更新”部分添加注释和回复，或者跟踪有关对象上发生的更改的系统跟踪更新。
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# 更新工作项并查看更新
+# 更新工作项并查看更新：文章索引
 
-您可以使用大多数对象的“更新”部分添加注释、回复，或跟踪有关对象上发生的更改的系统跟踪更新。
+<!-- Audited: 02/2024 -->
+
+您可以使用大多数对象的“更新”部分添加注释和回复，或者跟踪有关对象上发生的更改的系统跟踪更新。
 
 本节包含以下文章：
 
