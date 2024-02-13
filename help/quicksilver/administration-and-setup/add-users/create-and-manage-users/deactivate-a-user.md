@@ -8,36 +8,40 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 # 停用或重新激活用户
 
+<!--
+
 >[!IMPORTANT]
 >
->此页面中描述的过程仅适用于尚未载入Admin Console的组织。 如果贵组织已载入Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->有关在Adobe Admin Console中取消激活用户的说明，请参阅文章中的“删除用户”部分 [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 或联系Adobe Admin Console管理员。
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->有关根据贵组织是否已载入Adobe Admin Console而有所不同的步骤列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-您的用户可能会离开组织，您可能需要从Adobe Workfront中删除他们。 它们不应在系统中保持活动状态，因为这样会在将其他用户添加到更新或为他们分配工作时，给其他用户造成混淆。 当您停用某个用户时，其他用户在系统中搜索人员时，将不再看到其名称。
+-->
 
-管理员可以在“设置”区域中看到不活动的用户。
+您的用户可能会离开组织，并且您可能需要将其从Adobe Workfront中删除。 他们不应在系统中保持活动状态，因为这会给其他用户在将他们添加到更新或分配工作时，造成混淆。 当您停用某个用户时，其他用户在其搜索系统中的人员时不再看到其名称。
+
+管理员可以在“设置”区域看到非活动用户。
 
 您可以随时重新激活用户。
 
 >[!IMPORTANT]
 >
->我们建议您停用已离开组织的用户，而不是删除他们。 如果删除了某个用户，则与该用户关联的Workfront中的所有历史记录都将丢失。 这包括其工作分配、与注释、小时数、文档以及创建后的所有其他对象的关联。
+>我们建议您取消激活已离开组织的用户，而不是删除他们。 如果删除某个用户，则与该用户相关联的Workfront中的所有历史记录都将丢失。 这包括他们的工作分配、他们与注释、小时、文档以及他们曾经创建的所有其他对象的关联。
 >
->在Workfront中取消激活用户会同时删除该用户的Workfront许可证和数字校对许可证。 此外，无法再为用户分配工作。 停用用户后，该用户的Workfront许可证和校对许可证将可供其他用户使用；已停用用户配置文件中的所有其他信息将保持原样。
+>在Workfront中停用用户会移除用户对Workfront和数字校对的许可证。 此外，不能再为用户分配工作。 当用户被停用时，该用户的Workfront许可证和验证许可证将可供其他用户使用；被停用用户配置文件中的所有其他信息将保持不变。
 >
->有关删除和取消激活用户的影响的更多信息，请参阅 [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>有关删除和停用用户所产生的影响的更多信息，请参阅 [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## 访问要求
 
@@ -49,7 +53,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -57,93 +61,92 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须具有以下任一项：</p> 
+   <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>系统管理员访问级别。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>. </p> </li> 
-     <li> <p><b>用户</b> 在配置为 <b>编辑</b> 访问，使用 <b>创建</b> 至少两个中的一个 <b>用户管理员</b> 在 <b>优化设置</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>在这两个选项中，如果用户 <b>管理员（群组用户）</b> 启用后，您必须是用户所属的组的组管理员。</p> <p>有关 <b>用户</b> 在访问级别中设置，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </li> 
+     <li> <p>系统管理员访问级别。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>. </p> </li> 
+     <li> <p><b>用户</b> 将访问级别中的设置配置为 <b>编辑</b> 访问，使用 <b>创建</b> 而且至少两者 <b>用户管理员</b> 下启用的选项 <b>微调您的设置</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>这两个选项中的一个，如果用户 <b>管理员（组用户）</b> 启用，您必须是用户所属的组的组管理员。</p> <p>欲知关于 <b>用户</b> 在访问级别中设置，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 停用用户
+## 取消激活用户
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 
-1. 选择一个用户，单击更多图标 ![](assets/more-icon.png)，然后单击 **停用**.
+1. 选择一个用户，单击更多图标 ![](assets/more-icon.png)，然后单击 **取消激活**.
 
-1. 单击 **停用** 框中。
+1. 单击 **取消激活** 在出现的框中。
 
-## 计划用户停用
+## 安排用户停用
 
-作为经理，您可能希望在用户实际离开您的组织之前将其标记为停用。 例如，如果您与合同绑定的用户合作，则他们在您的系统中的时间会有限，并且您知道他们的终止日期。 您可以安排在该日期将其停用。
+作为经理，您可能希望在用户实际离开您的组织之前将其标记为停用。 例如，如果您正在与合同绑定的用户合作，则他们会在您的系统中停留一段有限的时间，并且您知道他们的终止日期。 您可以安排在当天将其停用。
 
-Workfront管理员和计划许可证用户可以在其用户配置文件中看到停用日期。
+Workfront管理员和计划许可证用户可在用户配置文件中查看停用日期。
 
 要计划用户停用，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 
 1. 选择用户的名称。
 
    或
 
-   （可选）选择多个用户，以计划批量停用这些用户。
+   （可选）选择多个用户以安排他们批量停用。
 
 1. 单击编辑图标 ![](assets/edit-icon.png).
-1. 在显示的“编辑用户”框中，单击 **资源计划** 去那个区域。
+1. 在显示的编辑用户框中，单击 **资源规划** 去那个地方。
 1. 启用 **计划停用** 选项。
 
-1. 在显示的日历中，指定 **计划停用日期**.
+1. 在显示的日历中，指定日期和时间 **计划的停用日期**.
 
    >[!NOTE]
    >
-   >* 在时间框中，您只能选择整小时增量，而不能选择分钟。
-   >* 如果您为当天（已过）选择时间，Workfront将安排在中午12:00停用次日。 所选时间与计划取消激活的用户的计算机时区匹配。
-
+   >* 在时间框中，您只能选择整小时增量，不能选择分钟。
+   >* 如果您选择已经过去的当天时间，Workfront会将停用时间安排在接下来的中午12:00。 所选时间与计划取消激活的用户的计算机时区匹配。
 
 1. 单击 **保存更改**.
 
-   有时，用户在选定的某天会在选定的时间后被停用。 如果您选择了多个要批量停用的用户，则有时在选定的时间之后，所有选定的用户都会在选定的日期被停用。
+   有时在选定时间后，会在选定日期取消激活用户。 如果您选择了多个用户批量停用，则在选定的日期停用所有选定用户，有时是在选定的时间之后。
 
-我们建议您为计划停用的用户构建报表，以便不断了解即将停用的用户。 无法确认在用户被停用后发生了停用。
+我们建议您为已计划取消激活的用户生成报告，以随时了解哪些用户即将被取消激活。 不确认一旦用户被停用，就会发生停用。
 
 ## 重新激活用户
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 
 1. 选择一个用户，单击更多图标 ![](assets/more-icon.png)，然后单击 **激活**.
 
-1. 分配新 **访问级别**&#x200B;中。
+1. 分配新 **访问级别**（在下拉菜单中）。
 
-### 重新激活用户时的校对影响
+### 重新激活用户时的验证影响
 
-已停用的用户将失去其分配的默认校样角色及其校样许可证(如果您在Workfront Premium旧版计划中)。 如果选择重新激活用户，则必须：
+已停用用户将失去为其分配的默认验证角色和验证许可证(如果您使用Workfront Premium旧版计划)。 如果选择重新激活用户，您必须：
 
-* 重新分配许可证(如果您在Workfront Premium旧版计划中)。 有关Workfront校对计划的更多信息，请参阅 [访问Workfront中的校对功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* 验证他们具有正确的校样角色。 重新激活的校样用户会被分配给新用户的任何指定作为默认校样角色的内容。 请参阅 [配置默认校对角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) 以了解更多信息。
+* 重新分配许可证(如果您使用Workfront Premium旧版计划)。 有关Workfront校对计划的详细信息，请参阅 [访问Workfront中的验证功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* 验证他们是否具有正确的验证角色。 重新激活的验证用户将分配给指定为新用户的默认验证角色的任何角色。 请参阅 [配置默认验证角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) 以了解更多信息。
 
-## 关于停用Workfront管理员和计划许可用户
+## 关于停用Workfront管理员和计划许可证用户
 
-在停用具有计划许可证的Workfront管理员或用户之前，请务必检查是否存在与该人员有关的Workfront对象和活动，然后根据需要将其与其他Workfront管理员或计划许可证用户关联。
+在停用Workfront管理员或拥有计划许可证的用户之前，请务必检查涉及该人员的Workfront对象和活动，然后根据需要将它们与其他Workfront管理员或计划许可证用户相关联。
 
 这些对象和活动可能包括以下内容：
 
 * 分配给用户的任务或问题
 * 用户拥有的项目
-* 设置为使用用户的访问权限运行的报表
+* 设置为使用用户的访问权限运行的报告
 * 用户拥有的模板
-* 将用户设置为资源管理器的项目和模板
-* 请求队列路由规则，其中Workfront管理员或计划许可证用户是默认代理人
-* 具有阶段（包括用户）的审批流程（尤其是当他们是阶段中唯一的审批者时）
-* 将用户列为审批者的时间表
-* 将用户列为审批者的时间表配置文件
-* 为包含用户的自动化工作流打样
+* 用户被设置为资源管理器的项目和模板
+* Workfront管理员或计划许可证用户是默认受分配人的请求队列路由规则
+* 具有包含用户的阶段的审批流程（尤其是当他们是阶段中的唯一审批者时）
+* 将用户列为批准者的时间表
+* 将用户列为批准者的时间表配置文件
+* 验证包括用户的自动化工作流
 
-## 在计划用户停用时，资源规划会产生影响
+## 在您计划用户停用时会影响资源计划
 
-计划用户停用时，资源计划器中不再显示用户可用于预算小时数。 如果它们仍是资源池的一部分，则它们会显示在资源计划器中，但它们的可用性将从其计划停用日期开始设置为零小时。
+当您计划停用用户时，它们不再出现在资源规划者中作为可用于预算小时数。 如果它们仍然是资源池的一部分，则它们会显示在资源规划者中，但它们的可用性将从计划取消激活的日期开始设置为零小时。
 
-资源计划员考虑用户的所有任务职责和任务的计划完成日期，并相应地计算资源。
+资源规划者考虑用户的所有工作角色和任务的计划完成日期，并相应地计算资源。
 
-有关资源计划员的详细信息，请参阅 [资源计划员概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关资源规划者的详细信息，请参阅 [资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

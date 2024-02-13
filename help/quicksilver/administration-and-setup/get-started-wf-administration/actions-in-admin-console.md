@@ -8,42 +8,44 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
 # 基于平台的管理差异(Adobe Workfront/Adobe业务平台)
 
+作为Adobe Workfront管理员，您的管理职责和程序可能会因贵组织是否已载入到Adobe业务平台而有所不同。 本文列出了处理方式不同的过程，以及指向Workfront和Adobe Admin Console说明的链接。
+
 如果您的组织已载入到Adobe业务平台，则您的用户将使用Adobe业务平台来访问Adobe Workfront。 这意味着：
 
 * 系统管理员是通过Adobe Admin Console创建的
-* 单点登录(SSO)是通过Adobe业务平台处理，而不是通过Workfront处理
+* SAML证书的续订通过Adobe Admin Console处理。
+* 单点登录(SSO)是通过Adobe业务平台而不是通过Workfront处理的
 
-作为Adobe Workfront管理员，您的管理职责和步骤因贵组织是否已载入到Adobe业务平台而异。 本文列出了处理方式不同的过程，以及指向Workfront和Adobe Admin Console说明的链接。
-
-## 用户
-
-
+## 在Adobe Admin Console中创建Workfront系统管理员
 
 >[!NOTE]
 >
 >我们建议直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
+有关创建Workfront系统管理员的说明，请参阅 [在Adobe Admin Console中管理系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>操作</th> 
-   <th>有关Workfront的说明，请参阅</th> 
-   <th>有关Adobe管理控制台中的说明，请参阅</th> 
+   <th>Action</th> 
+   <th>For instructions in Workfront, see</th> 
+   <th>For instructions in the Adobe Admin console, see</th> 
   </tr> 
  </thead> 
- <tbody> <!--
+ <tbody> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">View information about access levels and licenses for your users</td> 
     <td> 
@@ -55,30 +57,29 @@ ht-degree: 1%
       <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
-   <td role="rowheader">授予用户管理员访问权限</td> 
+   <td role="rowheader">Grant a user admin access</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的“编辑用户详细信息”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">向Adobe Workfront添加用户</td> 
+   <td role="rowheader">Add a user to Adobe Workfront</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">添加用户</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">在Adobe Admin Console中管理用户</a> </p> </li> 
-     <li> <p>中的“添加用户”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Add a user to Adobe Workfront Fusion</td> 
     <td> 
@@ -91,84 +92,93 @@ ht-degree: 1%
       <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
-   <td role="rowheader">取消激活用户</td> 
+   <td role="rowheader">Deactivate a user</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">停用或重新激活用户</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的“删除用户”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">删除用户</td> 
+   <td role="rowheader">Delete a user</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md" class="MCXref xref">删除用户</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md" class="MCXref xref">Delete users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的“永久删除用户”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">管理目录用户</a>
-     </p><p>注意：从删除用户 [!DNL Adobe Admin Console] 在中停用用户 [!DNL Workfront]，但不会从中删除它们 [!DNL Workfront].</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">编辑用户配置文件</td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p>中的“编辑用户详细信息”部分 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">单独管理用户</a></p> </li> 
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">批量编辑用户配置文件</td> 
+   <td role="rowheader">Edit a user profile</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">批量编辑用户配置文件</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的“编辑用户详细信息”部分 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">批量CSV上传</a></p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">导入用户 </td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">导入用户</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p>中的“添加用户”部分 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">批量CSV上传</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">以其他用户身份登录。</td> 
+   <td role="rowheader">Bulk edit user profiles</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">以其他用户身份登录</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Edit user profiles in bulk</a> </p> </li> 
     </ul> </td> 
-   <td>不可用</td> 
+   <td> 
+    <ul> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">续订SAML证书</td> 
+   <td role="rowheader">Import users </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">续订Adobe Workfront SAML 2.0元数据证书</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>中的“SAML响应中的数字签名未验证……”部分 <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">疑难解答Federated ID</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Log in as another user</td> 
+   <td> 
+    <ul> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">Log in as another user</a> </p> </li> 
+    </ul> </td> 
+   <td>Not available</td> 
+  </tr> 
+  <tr> 
+    -->
+
+## 续订SAML证书
+
+有关在Adobe Admin Console上续订SAML证书的说明，请参阅中的“SAML响应中的数字签名未验证……”部分 [疑难解答Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+
+<!--
+
+   <td role="rowheader">Renew SAML certificate</td> 
+   <td> 
+    <ul> 
+     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Renew the Adobe Workfront SAML 2.0 metadata certificate</a> </p> </li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ## SSO（单点登录）
 
