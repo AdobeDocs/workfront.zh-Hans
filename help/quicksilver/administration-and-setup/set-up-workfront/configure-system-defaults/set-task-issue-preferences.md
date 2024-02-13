@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Linked to Converting Issues.-->
 
 1. 在显示的页面上，继续执行以下列出的五部分之一来配置设置 [!UICONTROL 新任务默认值]， [!UICONTROL 问题]， [!UICONTROL 删除]， [!UICONTROL 实际日期]、和 [!UICONTROL 访问]：
 
-* [[!UICONTROL 新任务默认值]](#new-task-defaults)
-* [[!UICONTROL 问题]](#issues)
-* [[!UICONTROL 删除]](#deletion)
-* [[!UICONTROL 实际日期]](#actual-dates)
-* [[!UICONTROL 委派]](#delegation)
+   * [[!UICONTROL 新任务默认值]](#new-task-defaults)
+   * [[!UICONTROL 问题]](#issues)
+   * [[!UICONTROL 删除]](#deletion)
+   * [[!UICONTROL 实际日期]](#actual-dates)
+   * [[!UICONTROL 委派]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">处理此项工作</a> </li>
+  —&gt;
 
 * [[!UICONTROL 访问]](#access)
 
@@ -97,7 +97,7 @@ Linked to Converting Issues.-->
     <td> <p>计算任务的计划成本和实际成本预估。 当设置为 <strong>[！UICONTROL无成本]</strong>，计划小时数和实际记录小时数不会为任务生成计划或实际成本估计，并且任务上的工作不会计入项目级别的成本。</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 问题 {#issues}
 
@@ -181,7 +181,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 委派
 
@@ -192,7 +192,7 @@ Linked to Converting Issues.-->
 * 此 [!UICONTROL 委派] 链接其 [!UICONTROL 主页] 区域。 他们可以从此处委派审批，或任务和问题分配。
 * 指示任务或问题已委派给中的其他用户。 [!UICONTROL 任务和委派] 任务或问题标题中的区域。
 
-如果您禁用 [!UICONTROL 允许用户委派其任务和问题] 设置，当前计划的委派将停止，并且被委派的用户将收到委派已停止的电子邮件通知。
+  如果您禁用 [!UICONTROL 允许用户委派其任务和问题] 设置，当前计划的委派将停止，并且被委派的用户将收到委派已停止的电子邮件通知。
 
 有关将工作委派给其他人的信息，请参阅以下文章：
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
