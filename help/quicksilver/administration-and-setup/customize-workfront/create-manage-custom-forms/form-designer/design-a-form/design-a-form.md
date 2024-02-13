@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 3%
 
 ---
@@ -393,8 +393,8 @@ ht-degree: 3%
    * 用户
    * 组
    * 工作角色
-   * 项目组合
-   * 项目群
+   * Portfolio
+   * 项目
    * 项目
    * 团队
    * 模板
@@ -499,6 +499,8 @@ ht-degree: 3%
 ### 添加外部查找字段
 
 外部查找字段调用外部API，并在下拉字段中作为选项返回值。 使用自定义表单附加到的对象的用户可以从下拉菜单中选择一个或多个选项。 列表和报告中也提供了“外部查找”字段。
+
+有关使用外部查找字段调用同一Workfront实例或公共API的示例，请参阅 [自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
