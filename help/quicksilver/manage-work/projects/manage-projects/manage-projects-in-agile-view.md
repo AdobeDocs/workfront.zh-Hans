@@ -6,14 +6,16 @@ description: 您可以利用项目的Agile功能，而无需Agile实践通常伴
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # 在Agile视图中管理项目
+
+<!-- Audited: 2/2024 -->
 
 您可以利用项目的Agile功能，而无需Agile实践通常伴随的管理挑战（例如管理团队积压或创建迭代）。
 
@@ -32,7 +34,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>当前：审阅或更高版本</p> 
    <p>新文档：参与者或更高版本</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 了解Agile项目
 
@@ -162,7 +164,7 @@ ht-degree: 0%
 
    下次单击 **敏捷** 图标。
 
-   有关如何创建新的Agile视图的信息，请参阅 [创建和自定义Agile视图](#create-and-customize-agile-views).
+   有关如何创建新的Agile视图的信息，请参阅 [创建和自定义Agile视图](#create-and-customize-agile-views)，如下所示。
 
    项目显示在自定义Agile视图中。
 
@@ -170,7 +172,7 @@ ht-degree: 0%
 
    如果任务处于未显示在敏捷故事板上的状态，则任务本身未显示在敏捷故事板上（但是，这些任务的完成百分比仍然构成任何父任务的完成百分比和整个项目的完成百分比）。
 
-   要向Agile视图添加状态，请按照文章的“创建或自定义Agile视图”部分中的说明创建新的或“自定义现有Agile视图” [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   要向Agile视图添加状态，请创建新的Agile视图或自定义现有的Agile视图，如中所述 [创建和自定义Agile视图](#create-and-customize-agile-views)，如下所示。
 
 1. （可选）要返回到列表视图，请单击 **列表** 图标。
 
