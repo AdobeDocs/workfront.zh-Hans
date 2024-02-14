@@ -7,9 +7,9 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* 打开任务或问题时，在“工作总揽”区域的“主页”区域中列出的项目的“工作总揽”字段
+* <span class="preview">将任务添加到项目时，新任务框中的工作分配字段</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* 打开任务或问题时，在“主页”区域中列出的项目的“工作”字段
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅部分 [任务和问题的智能分配标准](#smart-assignments-criteria-for-tasks-and-issues) 本文章中。
 
-此阶段中确定的分配将列在 **结果** 字段的部分。 <!--update this to "Other assignments"-->
+此阶段中确定的分配将列在 **其他分配** 任务的“工作总揽”字段的部分。 <!--update this to "Other assignments"-->
 
 ### 任务和问题的智能分配标准
 

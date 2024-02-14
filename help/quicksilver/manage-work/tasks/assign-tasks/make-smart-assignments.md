@@ -2,20 +2,20 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 进行智能分配
-description: 您可以使用智能分配来确定谁是完成工作的最佳用户。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的用户建议。 有关智能分配的信息，请参阅智能分配概述。
+description: 您可以使用智能分配来确定谁是完成工作的最佳用户。 智能分配是指Adobe Workfront在您根据确定最适合工作的资源的算法将工作项分配给资源时向您提供的用户、角色或团队建议。 有关智能分配的信息，请参阅智能分配概述。
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # 进行智能分配
 
-<!--update "Results" to "Other assignments" with Prod-->
+<!--Audited: 02/2024-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。</span>
 
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 
-智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的用户建议。
+智能分配是指Adobe Workfront在将工作项分配给资源时向您显示的用户、角色或团队的建议。 Workfront的建议基于确定最适合作业的资源的算法。
 
 <span class="preview">Workfront中有两种单独的算法用于处理任务和问题。 </span>
-有关智能分配的信息，请参见 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+有关确定智能分配时使用的标准的更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## 访问要求
 
@@ -37,7 +38,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -47,19 +48,17 @@ ht-degree: 0%
       <p>当前：工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对任务和问题的访问权限</p> <p>查看项目或授予更高的项目访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对任务和问题的访问权限</p> <p>查看项目或授予更高的项目访问权限</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute或更高权限，能够分配任务和问题</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>Contribute或更高权限，能够分配任务和问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 进行智能分配
 
@@ -70,6 +69,7 @@ ht-degree: 0%
    * 任务、问题列表或报告
    * 任务或问题标题
    * 任务或问题摘要面板
+   * <span class="preview">“新任务”或“新问题”框</span>
    * “主页”区域中列出的项目的“工作总揽”字段
    * 工作负载均衡器中的任务或问题
 
@@ -88,11 +88,11 @@ ht-degree: 0%
    对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
 
    * **建议的分配**：在任务智能分配算法计算的第一阶段中识别的分配。
-   * <span class="preview">**结果**：在任务智能分配算法计算的第二阶段中识别的分配。 此部分不适用于问题。 </span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**其他分配**：在任务智能分配算法计算的第二阶段中识别的分配。 此部分不适用于问题。 </span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 
-   有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. 单击推荐列表中的用户的名称，以选择该用户。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    >
    >如果没有建议，则不会打开建议列表。
 
-1. （可选）如果不想使用智能分配列表中的推荐用户之一，请开始键入所需用户的名称，并在该名称出现在列表中时将其选定。
+1. （可选）如果不想使用智能分配列表中的推荐用户之一，请开始键入所需资源的名称，并在该名称出现在列表中时将其选定。
 1. 单击 **输入** 进行分配。
 
    选定的用户已分配给任务或问题。
