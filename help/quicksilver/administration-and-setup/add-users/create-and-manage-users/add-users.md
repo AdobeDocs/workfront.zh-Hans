@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 添加用户
 description: 作为Workfront管理员或具有完全管理访问权限的用户，您可以在Workfront中添加用户。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # 添加用户
+
+<!--Audited 2/2024-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>新增：标准</p><p>或</p><p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -62,6 +64,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
@@ -89,7 +93,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 从头开始创建用户
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 
 1. 单击 **新建用户>新建用户** 添加尚未添加到Workfront的用户。
 
@@ -110,21 +114,17 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员启用了与Workfront的SSO集成，则仅允许 &lt;sso configuration=&quot;&quot;> 如果禁用电子邮件邀请，则将隐藏身份验证字段。 Federation ID或 &lt;sso configuration=&quot;&quot;> 用户名字段保持可见。
-
-   >[!NOTE]
+   >* 如果您的Workfront管理员启用了与Workfront的SSO集成，则仅允许 &lt;sso configuration=&quot;&quot;> 如果禁用电子邮件邀请，则将隐藏身份验证字段。 Federation ID或 &lt;sso configuration=&quot;&quot;> 用户名字段保持可见。
    >
-   如果贵组织已登记到Admin Console，并通过Workfront添加用户，则无法发送电子邮件邀请。
-   >
-   新的Adobe用户将添加到Admin Console，Admin Console会发送电子邮件邀请他们完成注册流程。 所有用户都必须完成注册过程才能访问任何Adobe系统。
+   * 如果贵组织已登记到Admin Console，并通过Workfront添加用户，则无法发送电子邮件邀请。
    >
    对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
 
-1. 单击 **添加此用户**.
+1. 单击 **添加此人员**.
 
    或
 
-   单击 **添加人员用户并开始另一用户** 以保存新用户并添加另一个用户。
+   单击 **添加人员并开始另一人员** 以保存新用户并添加另一个用户。
 
    >[!NOTE]
    >
@@ -145,17 +145,17 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 要通过复制现有用户来创建新用户，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 1. 选择要复制的用户，然后单击复制图标 ![](assets/copy-icon.png).
-1. 在 **新用户** 框，编辑新用户可用的字段。
+1. 在 **复制用户** 框，编辑新用户可用的字段。
 
    有关与用户关联的所有字段的信息，请参见 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. 单击 **添加此用户**.
+1. 单击 **添加此人员**.
 
    或
 
-   单击 **添加人员用户并开始另一用户** 以保存新用户并添加另一个用户。
+   单击 **添加人员并开始另一人员** 以保存新用户并添加另一个用户。
 
 这会在Workfront中为用户创建一个新帐户。
 
@@ -164,7 +164,5 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 >[!NOTE]
 >
 如果贵组织已登记到Admin Console，并通过Workfront添加用户，则无法发送电子邮件邀请。
->
-新的Adobe用户将添加到Admin Console，Admin Console会发送电子邮件邀请他们完成注册流程。 所有用户都必须完成注册过程才能访问任何Adobe系统。
 >
 对于现有Adobe用户，用户可能会收到也可能不会收到有关Workfront可用性的电子邮件。 这是由Adobe管理员控制的产品首选项。
