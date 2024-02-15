@@ -6,9 +6,9 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
+source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-{{highlighted-preview}}
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 作为资源管理器，您可以将工作分配给用户，并通过工作负载均衡器管理用户的每日、每周或每月分配，以确保为他们分配的小时数符合其可用计划。
 
