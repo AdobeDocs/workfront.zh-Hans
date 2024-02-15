@@ -4,9 +4,9 @@ description: 2024年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->快速发布生产：使用24.2版（2024年2月）；面向所有客户的生产：使用24.4版（2024年4月）
+>预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月）；面向所有客户的生产：使用24.4版本（2024年4月）
 
 我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 

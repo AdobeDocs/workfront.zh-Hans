@@ -4,9 +4,9 @@ description: 在2024年第二季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 本页介绍了在2024年第二季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2024年第二季度版本中可用的所有更改列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 两个电子邮件模板的外观更新
+
+>[!NOTE]
+>
+>所有客户的版本：使用24.2版本（2024年2月15日）
+
+用于将审批者添加到资源和用于将用户添加到讨论区的电子邮件模板已更新，以更好地匹配其他Adobe电子邮件模板，并提高清晰度和可用性。
 
 ## 自定义Forms区域中选项卡的新外观更新
 

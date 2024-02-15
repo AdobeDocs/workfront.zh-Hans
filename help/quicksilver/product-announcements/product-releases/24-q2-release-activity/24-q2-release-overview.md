@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,43 @@ ht-degree: 0%
             </tbody>
         </table>
 
+### 主页增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页管理员控件的列选项</a></p><p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年1月2日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### 项目增强功能
 
 <table>
@@ -89,6 +126,24 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：通过24.3版本（2024年3月）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相关的智能分配</a></p><p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -97,7 +152,7 @@ ht-degree: 0%
                                 <p>预览版本： 2023年12月21日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
+                                <p>用于快速版本的生产：使用24.3版本（2024年3月）</p>
                             </li>
                             <li>
                                 <p>按季度发布的生产：24.4版（2024年4月）</p>

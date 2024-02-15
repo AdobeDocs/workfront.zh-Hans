@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ ht-degree: 0%
                                 <p>注意：在24.4版本发布之前，此功能将保留在“预览”中。</p>
                             </li>
                             <li>
-                                <p>快速发布生产：通过24.2版本（2024年2月）</p>
+                                <p>用于快速版本的生产：使用24.3版本（2024年3月）</p>
                             </li>
                             <li>
                                 <p>面向所有客户的生产：使用24.4版本（2024年4月）</p>
