@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >某些Workfront集成在启用允许列表时不起作用，因为它们不能使用静态IP地址进行配置。 列入允许列表若要使用以下集成，必须禁用。
 >
->* 适用于G Suite的Workfront
+>* Workfront for G Suite
 >* 适用于Outlook的Workfront
 >* 适用于Salesforce的Workfront
 
@@ -124,7 +124,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>有关以下IP地址的信息，请参见 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Adobe Workfront 21.1版本的电子邮件的新IP地址</a></p> 
+    </ul> <p>有关以下IP地址的信息，请参见 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本的电子邮件的新IP地址</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -158,7 +158,7 @@ ht-degree: 0%
 * 54.220.93.204
 * 34.254.76.122
 
-有关以下IP地址的信息，请参见 [Adobe Workfront 21.1版本的电子邮件的新IP地址](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+有关以下IP地址的信息，请参见 [Adobe Workfront 21.1版本的电子邮件的新IP地址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99

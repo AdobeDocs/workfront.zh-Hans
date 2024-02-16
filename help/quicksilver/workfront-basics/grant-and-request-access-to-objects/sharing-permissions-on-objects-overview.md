@@ -6,7 +6,7 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * **模板**：有关更多信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio**：有关更多信息，请参阅 [共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolio**：有关更多信息，请参阅 [共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **程序**：有关信息，请参阅 [共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 

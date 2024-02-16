@@ -3,12 +3,12 @@ title: 授予对项目组合的访问权限
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
-description: 作为Adobe Workfront管理员，您可以使用访问级别定义用户对Workfront中项目组合的访问权限。
+description: 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中项目组合的访问权限。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # 授予对项目组合的访问权限
 
-作为Adobe Workfront管理员，您可以使用访问级别定义用户对项目组合的访问权限，如 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+作为Adobe Workfront管理员，您可以使用访问级别来定义用户对项目组合的访问权限，如中所述 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -37,34 +37,34 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 使用自定义访问级别配置用户对组合的访问权限
+## 使用自定义访问级别配置用户对项目组合的访问权限
 
-1. 开始创建或编辑访问级别，如 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 单击齿轮图标 ![](assets/gear-icon-settings.png) 在 **查看** 或 **编辑** 按钮，然后选择要在下授予的功能 **优化设置**.
+1. 开始创建或编辑访问级别，如中所述 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. 单击齿轮图标 ![](assets/gear-icon-settings.png) 在 **视图** 或 **编辑** 按钮，然后在“Portfolio”下选择要授予的功能 **微调您的设置**.
 
    ![](assets/fine-tune-portfolios.png)
 
    >[!NOTE]
    >
-   >在为特定类型的对象配置访问级别设置时，该配置不会影响用户对级别较低的对象的访问。 例如，您可以限制用户删除其访问级别中的项目组合，但不会限制用户删除排名低于项目组合的项目。有关对象层次结构的详细信息，请参阅部分 [对象的相互依赖和层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 在文章中 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别的项目组合，但这不会限制他们删除排名低于项目组合的项目。有关对象层次结构的详细信息，请参阅部分 [对象的相互依赖性和层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 在文章中 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. （可选）要在您正在处理的访问级别中为其他对象和区域配置访问设置，请继续阅读 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行中列出的文章之一 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予任务访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. 完成后，单击 **保存**.
 
-   创建访问级别后，您可以将其分配给用户。 有关更多信息，请参阅 [编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   创建访问级别后，可将其分配给用户。 有关更多信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## 按许可证类型访问项目组合
 
-有关每个访问级别的用户可以使用项目组合执行的操作的信息，请参阅部分 [Portfolio](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#portfoli) 在文章中 [可用于每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+有关每个访问级别的用户可以对项目组合执行哪些操作的信息，请参阅部分 [Portfolio](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#portfoli) 在文章中 [可用于每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-## 访问共享项目组合
+## 访问共享的项目组合
 
-作为作品集的所有者或创建者，您可以通过授予其他用户对该作品集的权限与其共享，如 [共享资产组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+作为项目组合的所有者或创建者，您可以通过授予其他用户对其的权限来与其共享，如中所述 [共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,9 +75,9 @@ ht-degree: 0%
 </div>
 -->
 
-当您与其他用户共享任何对象时，收件人对该对象的权限取决于两件事的组合：
+当您与其他用户共享任何对象时，收件人在该对象上的权限由以下两项共同决定：
 
-* 您为收件人授予的对象权限
-* 对象类型的收件人访问级别设置
+* 您授予收件人对象的权限
+* 收件人针对对象类型的访问级别设置
 
-有关用户在共享组合时可以授予其权限的信息，请参阅 [共享资产组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+有关用户在共享项目组合时可以授予的权限的信息，请参阅 [共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).

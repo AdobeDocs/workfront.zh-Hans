@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了20.3版本对生产环境所做的所有验证增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 改进了“更新”选项卡和“验证”评论之间的可见性
 

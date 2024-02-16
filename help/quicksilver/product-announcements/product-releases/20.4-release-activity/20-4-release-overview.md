@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3694'
 ht-degree: 0%
@@ -290,7 +290,7 @@ ht-degree: 0%
 
 ## Workfront Scenario Planner增强
 
-Workfront Scenario Planner版本20.4中包含的大多数新增功能。 有关这些现在可在“预览”中使用的新功能的信息，请参阅 [Workfront Scenario Planner的20.4版本 — 2020年10月14日](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+Workfront Scenario Planner版本20.4中包含的大多数新增功能。 有关这些现在可在“预览”中使用的新功能的信息，请参阅 [Workfront Scenario Planner的20.4版本 — 2020年10月14日](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Workfront目标增强功能
 

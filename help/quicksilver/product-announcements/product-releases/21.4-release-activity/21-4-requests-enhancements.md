@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有请求增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 现在，改进的请求搜索包含特殊字符
 

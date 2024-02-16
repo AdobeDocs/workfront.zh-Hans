@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 * [Adobe Workfront中基于Flash的工具的替换](replace-flash-tools.md)
 * [新的Adobe Workfront托管系统使用21.1替换了请求队列的POP电子邮件](pop-removal-request-queue.md)
 * [新的Adobe Workfront托管系统使用21.1替换了请求队列的POP电子邮件](pop-removal-request-queue.md)
-* [Adobe Workfront 21.1版本的电子邮件的新IP地址](new-email-ip-21.1.md)
+* [Adobe Workfront 21.1版本的电子邮件的新IP地址](new-email-ip-21-1.md)
 * [电子邮件欺骗和POP回复](email-spoofing-pop-reply-message.md)
 * [列入允许列表群集1、2和3上的客户必须更新任何IP块，以防止阻塞Adobe Workfront服务](clusters-1-3-update-whitelist.md)
 * [删除自定义SMTP作为传出电子邮件选项](remove-custom-smtp.md)

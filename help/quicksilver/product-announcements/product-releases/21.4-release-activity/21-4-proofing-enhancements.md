@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有“验证”增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 改进了审阅者和请求者的验证功能
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了20.3版本对生产环境所做的所有资源管理增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 在工作负载均衡器的已分配工作区域包括问题的小时数
 

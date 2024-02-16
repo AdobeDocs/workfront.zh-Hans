@@ -6,7 +6,7 @@ description: 在项目组合中导航
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    * **[!UICONTROL 全部]**：包括您至少有权查看的所有项目组合。\
 
      有关访问Portfolio的详细信息，请参阅 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      有关Portfolio权限的更多信息，请参阅  [共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      有关Portfolio权限的更多信息，请参阅  [共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      要添加新项目组合，请参阅 [创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 

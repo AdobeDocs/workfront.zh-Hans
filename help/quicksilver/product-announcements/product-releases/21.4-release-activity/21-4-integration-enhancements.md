@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境的所有集成增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 从Dropbox业务链接文档
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了20.3版中在生产环境中进行的所有集成和移动设备增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0已推出！
 

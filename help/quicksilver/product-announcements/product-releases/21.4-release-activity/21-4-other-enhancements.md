@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在21.4版本中对“预览”环境进行的所有其他增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 用于在列表中缩进和缩进的新键盘快捷键
 

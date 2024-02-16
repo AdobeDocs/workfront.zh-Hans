@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了在20.3版本中对“生产”环境所做的所有Analytics增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 增强分析功能现已推出！
 

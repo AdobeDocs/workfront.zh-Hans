@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 为了提高电子邮件投放的成功率，我们在21.1 Production版本中添加了新的IP地址，以用于集群1、2、3、4和5。
 
-有关需要为群集添加哪些IP地址的详细信息，请参见 [Adobe Workfront 21.1版本的电子邮件的新IP地址](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+有关需要为群集添加哪些IP地址的详细信息，请参见 [Adobe Workfront 21.1版本的电子邮件的新IP地址](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 要了解您所在的群集，请转到“设置”>“系统”>“客户信息”。
 
