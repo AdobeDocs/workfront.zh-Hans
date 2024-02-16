@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器测试版中使用</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器测试版中使用</a></p>
                         <p>现在，您可以在表单设计器测试版中编辑现有显示和跳过逻辑，并向自定义表单添加新逻辑。 易于使用的逻辑生成器可帮助您根据表单中的选择定义要显示或跳过的字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年2月8日<br /></p>
+                                <p>预览版本： 2024年2月8日</p>
                             </li>
                             <li>
-                                <p><span class="preview">面向所有客户的生产：使用24.2版本（2024年2月15日）</span></p>
+                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
+                            </li>
+                            <li>
+                                <p>面向所有客户的生产：待定</p>
                             </li>
                         </ul>
                     </td>

@@ -7,16 +7,20 @@ description: 您可以根据用户在填写自定义表单时所做的选择，�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 2d46a047db8117983978f1411095bc8c022abbe2
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
 
 # 使用表单设计器添加显示逻辑和跳过逻辑
 
-{{highlighted-preview-article-level}}
+<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以根据用户在填写自定义表单时所做的选择，决定应显示或跳过自定义表单的哪些部分。
 
