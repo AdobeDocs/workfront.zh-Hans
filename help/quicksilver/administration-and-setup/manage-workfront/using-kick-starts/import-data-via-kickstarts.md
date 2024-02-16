@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：</p> 
-   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td>您必须是Workfront管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 限制
 
@@ -111,7 +112,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
      <tr> 
       <td scope="col"> <p>审批</p> </td> 
       <td scope="col"> <p>导出为Excel文件</p> </td> 
-      <td scope="col"> <p>阶段审批者</p> <p>审批阶段</p> <p>审批</p> <p>批准流程</p> <p>首选项</p> </td> 
+      <td scope="col"> <p>阶段审批者</p> <p>审批阶段</p> <p>审批</p> <p>审批流程</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>自定义数据</p> </td> 
@@ -174,9 +175,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 筛选</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>群组</td> 
+      <td>组</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 群组</p> <p>首选项 </p> </td> 
+      <td> <p> 组</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>分组</td> 
@@ -200,27 +201,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
      </tr>
 
    <tr> 
-      <td>传统资源池</td> 
-      <td>导出为Excel文件</td> 
-      <td> <p> 传统资源池</p> <p>首选项 </p> </td> 
-     </tr>
-
-   <tr> 
       <td>里程碑路径</td> 
       <td> 导出为Excel文件</td> 
       <td> <p> 里程碑</p> <p>里程碑路径</p> <p>首选项 </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>非人工资源</td> 
-      <td> 导出为Excel文件</td> 
-      <td> <p> 非人工资源</p> <p>首选项</p></td> 
-     </tr>
-
-   <tr> 
-      <td>非人工资源类别</td> 
-      <td> 导出为Excel文件</td> 
-      <td> <p> 非人工资源类别</p> <p>首选项</p></td> 
      </tr>
 
    <tr> 
@@ -229,9 +212,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 注释</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>项目组合</td> 
+      <td>Portfolio</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> 项目组合</p> <p>首选项 </p> </td> 
+      <td> <p> Portfolio</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>项目</td> 
@@ -471,7 +454,7 @@ Workfront还接受时间值作为日期的一部分。
 
 ## 将电子表格数据导入Workfront
 
-使用数据填充Excel模板后，可将其上传到Workfront。
+使用数据填充Excel模板后，可将其数据上传到Workfront。
 
 Kick-Start导入支持以下文件类型：
 
@@ -485,17 +468,17 @@ Kick-Start导入支持以下文件类型：
   >* 报告
   >* 文档
   >* 头像
-  >* 查看、筛选或分组属性文件。
+  >* 查看、筛选或分组属性文件
   >
   >使用压缩的导入文件时，.ZIP文件必须与.xlsx或.xls文件同名，并且所有文件都必须处于同一结构级别（没有文件夹）。
 
 要将模板电子表格数据导入Workfront，请执行以下操作：
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. 单击 **系统** >**导入数据(Kick-Start)**.
+{{step-1-to-setup}}
+
+1. 单击 **系统** > **导入数据(Kick-Start)**.
 
 1. 在 **使用快速启动电子表格上传数据** 部分，单击 **选择文件**，然后浏览并选择填充的电子表格。
 
