@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
                 <td>输入密码 [!DNL Workfront Proof] 帐户。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[！UICONTROL租户名称]</td>
+                <td  role="rowheader">[！UICONTROL租户ID]</td>
                 <td><strong>注意</strong>：不使用BYOK的客户必须将此字段留空。 <p>输入此帐户的租户ID。 如果您在查找租户ID时需要帮助，请联系Workfront客户支持。</p></td>
             </tr>
             <tr>
