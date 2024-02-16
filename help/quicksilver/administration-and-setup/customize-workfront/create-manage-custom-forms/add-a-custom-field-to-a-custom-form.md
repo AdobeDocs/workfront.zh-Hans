@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # 使用旧版表单生成器将自定义字段添加到自定义表单
+
+<!-- Audited: 02/2024 -->
 
 处理自定义表单时，您可以创建新的自定义字段并将其添加到自定义表单。
 
@@ -36,30 +38,33 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>对自定义表单的管理访问权限 </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 将自定义字段添加到自定义表单
+## 将自定义字段添加到自定义表单 {#add-custom-field-to-custom-form}
 
 1. 开始创建或编辑自定义表单，如中所述 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 打开 **添加字段** 选项卡。
+1. 选择 **添加字段** 选项卡。
 
-   ![](assets/add-a-field.jpg)
+   ![添加字段选项卡](assets/add-a-field.jpg)
 
-1. 替换为 **新建字段** ![](assets/new-field.jpg) 选中，选择下面列出的字段类型之一：
+1. 替换为 **新建字段** ![“新建字段”图标](assets/new-field.jpg) 选中，选择以下字段类型之一：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">带格式的文本字段</td> 
-      <td>允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 这在Workfront对象的主页、更新区域、列表和详细信息区域中可用。 15,000个字符的限制允许使用大量文本和格式。</p> <p>有关通过API访问此字段的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的富文本字段存储</a>.</p> <p><b>注意</b>：带格式的文本字段不适用于Workfront移动应用程序（在即将发布的版本中提供）。 </p> </td> 
+      <td>允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 这在Workfront对象的主页、更新区域、列表和详细信息区域中可用。 15,000个字符的限制允许使用大量文本和格式。</p> <p>有关通过API访问此字段的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的富文本字段存储</a>.</p> <p><b>注意</b>：带格式的文本字段不适用于Workfront移动设备应用程序。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下拉</td> 
@@ -150,7 +155,7 @@ ht-degree: 2%
       <li>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。 <p>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。</p> </li>
       <li> <p>我们建议您不要键入已用于内置Workfront字段的名称。</p> </li>
       <li><p>我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。</p></li>
-      </ul> <p>每个自定义字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。 有关更多信息，请参阅 <a href="#Add" class="MCXref xref">将自定义字段添加到自定义表单</a> 本文章中。</p> </td>
+      </ul> <p>每个自定义字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。 有关更多信息，请参阅 <a href="#add-a-custom-field-to-a-custom-form">将自定义字段添加到自定义表单</a> 本文章中。</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">说明</td> 
@@ -196,7 +201,8 @@ ht-degree: 2%
         <li>它们属于您指定的一个或多个组</li> 
         <li>它们与您指定的角色或职称相关联</li> 
         <li>他们与使用字段的人属于同一组</li> 
-       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅部分 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在筛选器中编辑文本模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文本模式概述</a>. </p> <p><b>注意</b>：   
+       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p>
+       <p><b>注意</b>：   
         <ul> 
          <li>如果您正在编辑现有的自定义表单，则将过滤器添加到“预输入”字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
          <li>此筛选器在移动设备上不可用。 如果您将过滤器用于“预输入”字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
@@ -220,15 +226,15 @@ ht-degree: 2%
       <p><b>注意</b>：此选项不适用于以下内容：</p> 
       <ul> 
       <li>与以下对象类型关联的自定义表单：费用、公司、迭代、记帐记录和组。</li> 
-      <li>以下字段类型：计算字段、描述性文本字段和分区界限</li> 
+      <li>以下字段类型：计算值、描述性文本和分节符</li> 
       </ul>
       <p><b>重要</b>：在此处选择或取消选择对象类型会影响与选定对象类型关联且包含此字段的所有自定义表单。 例如，如果在此取消选择某个对象类型并保存该自定义表单，则在包含该字段的任何自定义表单中，将不再跟踪该对象类型的字段值更改。</p>
        <p>在此处为字段选择对象类型并保存自定义表单后，该字段会显示在“设置”的“更新馈送”区域的“自定义字段”选项卡上。</p> 
        <p>反之，如果在“设置”的“更新源”区域中删除了此字段，则会在所有与该对象类型关联且包含此字段的自定义表单上取消选择此设置的对象类型。</p> 
-       <p>有关更多信息，请参阅部分 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">添加您希望Workfront跟踪的字段</a> 在文章中 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">配置系统更新</a>.</p> </td> 
+       <p>有关更多信息，请参阅部分 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">添加您希望Workfront跟踪的字段</a> 在文章中 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">配置系统更新</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">添加逻辑</td> 
+      <td role="rowheader">添加逻辑</td>
       <td>根据用户在现有字段中所做的选择，指定应在表单上显示的字段。 有关更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">向自定义表单添加显示逻辑和跳过逻辑</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ ht-degree: 2%
    >* 如果更改为单选按钮，Workfront会保留用户可能在字段中输入的任何多选值，直到用户更改并将数据保存到表单的任何部分为止。 此时，使用“多选类型”字段选择的任何值都将被选定的“单选按钮”值替换。
    >* 如果更改为单选下拉列表，Workfront会保留用户可能在字段中输入的任何多选值，直到用户更改并保存该字段中的值为止。 此时，使用多选类型字段选择的任何值都将被所选的下拉值替换。
 
-1. （可选）重复步骤2至6以添加其他自定义字段。
+1. （可选）重复步骤3至5以添加更多自定义字段。
 
    或
 
-   添加已为您的组织创建的字段，如中所述 [在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   添加已为您的组织创建的字段，如中所述 [在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
