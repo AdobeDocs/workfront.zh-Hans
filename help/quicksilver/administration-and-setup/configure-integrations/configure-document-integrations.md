@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -195,7 +195,7 @@ ht-degree: 1%
 
 有关用户如何使用的信息 [!DNL Workfront DAM]，请参见 [使用管理文档 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-有关用户如何使用验证的信息，请参阅 [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+有关用户如何使用验证的信息，请参阅 [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
 有关用户在配置第三方文档集成后如何使用第三方文档集成的信息，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

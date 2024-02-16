@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -678,7 +678,7 @@ ht-degree: 1%
          * [管理API密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 汇率 {#exchange-rates}
          * [汇率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 1%
          * [迭代完成状态概述](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [调整燃尽图的大小并折叠该图表](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [同步燃尽图中的数据](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [将备用组计划用于燃尽图](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [将备用组计划用于燃尽图](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * 迭代 {#iterations}
          * [迭代](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [迭代概述](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 1%
 * 文档 {#documents}
    * [文档：文章索引](documents/documents-overview.md)
    * 向Adobe Workfront添加新文档 {#add-new-documents-to-workfront}
-      * [向Adobe Workfront添加新文档](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [向Adobe Workfront添加新文档](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [将文档从您的文件系统添加到Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [链接来自外部应用程序的文档](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [删除Adobe Workfront和外部文档存储提供商之间的链接](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 1%
       * [启用Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [使用Adobe Workfront DAM管理文档](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Adobe Workfront许可角色类型与Adobe Workfront DAM角色类型](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [访问Adobe Workfront DAM的帮助](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [访问Adobe Workfront DAM的帮助](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront和Experience Manager Assets集成 {#wf-aem-integrations}
       * [Workfront和Experience Manager Assets集成](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * WorkfrontExperience Manager增强型连接器 {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 1%
          * [校对进度和状态概述](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web验证查看器和桌面验证查看器的区别概述](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * 创建验证 {#create-proofs}
-         * [创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [配置个人校对默认值](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [创建多页验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [为网站或其他Web内容创建交互式验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [在ZIP文件中为交互式内容创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [在ZIP文件中为交互式内容创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [为网站或其他Web内容创建静态验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [为文档创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [使用基本工作流创建高级验证](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [将Adobe Workfront Fusion连接到使用API令牌授权的Web服务](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [使用更新的安全措施将Adobe Workfront Fusion连接到Google服务](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [使用自定义OAuth客户端将Adobe Workfront Fusion连接到Google Services](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [通过Adobe Workfront Fusion HTTP >生成OAuth 2.0请求模块调用MS Graph REST API](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [通过Adobe Workfront Fusion HTTP >生成OAuth 2.0请求模块调用MS Graph REST API](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Adobe Workfront Fusion中的键](workfront-fusion/connections/keys.md)
       * [从Web服务接收Webhook](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Adobe Workfront Fusion错误 {#errors-in-fusion}

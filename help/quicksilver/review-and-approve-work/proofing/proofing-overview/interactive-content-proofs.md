@@ -6,7 +6,7 @@ description: 交互式内容提供了多种吸引观众的方法。 广告公司
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 准备ZIP压缩包文件后，创建交互式验证。
 
-有关更多信息，请参阅 [在ZIP文件中为交互式内容创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+有关更多信息，请参阅 [在ZIP文件中为交互式内容创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 或者，如果您使用的是Workfront Proof，请参阅部分 [为交互式内容生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 在文章中 [在Workfront Proof中生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

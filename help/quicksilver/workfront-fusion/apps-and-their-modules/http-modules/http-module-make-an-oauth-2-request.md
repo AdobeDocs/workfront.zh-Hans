@@ -9,7 +9,7 @@ description: 为了做一个 [!DNL Adobe Workfront Fusion] 对于需要OAuth 2.0
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '2236'
 ht-degree: 0%
@@ -289,7 +289,7 @@ ht-degree: 0%
 
 ### 连接说明 [!DNL Microsoft Graph API] 通过 [!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求] 模块
 
-有关说明 [!DNL Microsoft Graph API]，请参见 [调用 [!DNL MS Graph REST API] 通过 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求] 模块](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+有关说明 [!DNL Microsoft Graph API]，请参见 [调用 [!DNL MS Graph REST API] 通过 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求] 模块](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## OAuth 2.0请求模块设置
 

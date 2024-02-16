@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 有关授予和撤销用户在Workfront中创建和查看验证的访问权限的信息，请参阅 [配置用户的验证访问权限](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* 在面向外部的URL和文档上生成静态或交互式验证。 有关更多信息，请参阅 [创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* 在面向外部的URL和文档上生成静态或交互式验证。 有关更多信息，请参阅 [创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * 在验证中包含自动化工作流。 有关更多信息，请参阅 [自动化工作流概述](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * 设置校样的访问和订阅设置。 有关更多信息，请参阅 [配置验证的访问和订阅设置](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * 在Workfront中为用户启用验证功能时分配自定义验证权限配置文件。 有关更多信息，请参阅 [为用户启用和禁用验证（仅限旧版计划）](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) 在 [配置用户的验证访问权限](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

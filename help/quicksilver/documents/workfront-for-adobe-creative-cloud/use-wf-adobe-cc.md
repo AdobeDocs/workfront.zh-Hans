@@ -6,7 +6,7 @@ description: 您可以使用Workfront扩展将您在Adobe Illustrator和Adobe In
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ ht-degree: 0%
 
 ## 从Illustrator或InDesign生成验证 {#generate-a-proof-from-illustrator-or-indesign}
 
-如果贵组织使用自动工作流模板，则无需离开该应用程序，即可为在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅 [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). 有关自动工作流模板的信息，请参阅 [自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 在 [自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+如果贵组织使用自动工作流模板，则无需离开该应用程序，即可为在Adobe应用程序中创建的文档生成验证。 有关创建验证的信息，请参阅 [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). 有关自动工作流模板的信息，请参阅 [自动化工作流模板](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 在 [自动化工作流概述](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. 打开一个受支持的Adobe应用程序。
 1. 如果未显示Workfront扩展，请单击 **窗口** > **扩展** >Workfront。

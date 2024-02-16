@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: 0e6ffd54fdbe968d48d27dc7e0a5501579f50f8d
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本节包含以下子部分：
 
-* [向Adobe Workfront添加新文档](../documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+* [向Adobe Workfront添加新文档](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [管理文档](../documents/managing-documents/manage-documents.md)
 * [组织文档](../documents/organizing-documents/organize-documents.md)
 * [Adobe Workfront中的Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
