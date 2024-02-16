@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用旧版表单生成器将自定义字段添加到自定义表单
 description: 处理自定义表单时，您可以创建新的自定义字段并将其添加到自定义表单。 您还可以添加已添加到其他自定义表单的自定义字段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -90,8 +90,8 @@ ht-degree: 2%
       <ul><li>用户</li>
       <li>组</li>
       <li>工作角色</li>
-      <li>项目组合</li>
-      <li>项目群</li>
+      <li>Portfolio</li>
+      <li>项目</li>
       <li>项目</li>
       <li>团队</li>
       <li>模板</li>
@@ -165,6 +165,8 @@ ht-degree: 2%
    <p><strong>示例：</strong> 如果至少在一个对象上保存具有“文本”格式的字段的数值，以后又将该格式更改为“数字”或“货币”，则不会遇到错误。 </p>
       <p>但是，如果在至少一个对象上使用“文本”格式在字段中保存字母数字值，然后尝试将格式更改为“数字”或“货币”，则将遇到错误，因为保存的字母数字值与数字或货币格式不兼容。 </p>
 
+   <p><strong>注意：</strong> 数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">参考对象类型</td> 
-      <td> <p>（仅限预输入字段）选择要与字段关联的对象类型。</p> <p>单击“应用”或“保存+关闭”后，将无法更改该字段的对象类型。</p> <p><b>注释</b>:   
+      <td> <p>（仅限预输入字段）选择要与字段关联的对象类型。</p> <p>单击“应用”或“保存+关闭”后，将无法更改该字段的对象类型。</p> <p><b>注意</b>：   
         <ul> 
          <li>如果您的Workfront管理员在Workfront用户界面中为Portfolio、程序或项目自定义了名称，则该对象的默认Workfront名称将显示在此下拉列表中，而不是自定义名称中。 如果您需要此方面的帮助，请咨询您的Workfront管理员。<br></li> 
          <li>iOS和Android Workfront Mobile应用程序支持以下对象类型：用户、公司、组、工作角色、Portfolio、项目、项目和模板。</li> 
@@ -194,7 +196,7 @@ ht-degree: 2%
         <li>它们属于您指定的一个或多个组</li> 
         <li>它们与您指定的角色或职称相关联</li> 
         <li>他们与使用字段的人属于同一组</li> 
-       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅部分 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在筛选器中编辑文本模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文本模式概述</a>. </p> <p><b>注释</b>:   
+       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅部分 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">在筛选器中编辑文本模式</a> 在文章中 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文本模式概述</a>. </p> <p><b>注意</b>：   
         <ul> 
          <li>如果您正在编辑现有的自定义表单，则将过滤器添加到“预输入”字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
          <li>此筛选器在移动设备上不可用。 如果您将过滤器用于“预输入”字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 

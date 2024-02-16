@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 3%
     <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li> 
     <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
+    <li>数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</li>
      </ul></p></td> </td>
     <td><ul>
     <li>单行文本</li>
@@ -317,6 +318,7 @@ ht-degree: 3%
      <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
     <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
+    <li>数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</li>
      </ul></p></td> 
      <td><ul>
     <li>单选按钮</li>
@@ -537,7 +539,9 @@ ht-degree: 3%
       <td><p>选择将在自定义字段中捕获的数据类型。</p>
       <p><strong>注意：</strong></p>
       <ul><li>保存表单后，可以更改格式类型，但有一个限制：对象上的所有现有值都必须能够转换为新类型。 （例如，如果格式类型为“文本”，并且对象正在存储“abc”值，则您无法转换该字段，并且会收到一个错误，说明系统无法将“abc”转换为数字/货币。） 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li>
-      <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li></ul></td>
+      <li>选择“数字”或“货币”时，系统会自动截断以0开头的数字。</li>
+      <li>数字字段的字符限制为16。 您还可以使用文本字段输入数字并避免限制。</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">基本 API URL</td> 
