@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回复电子邮件通知
 description: 您可以响应根据对项目、任务、问题和其他对象的注释生成的Workfront电子邮件通知，将回复添加到在Adobe Workfront应用程序中所做的原始注释。
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 1%
 * 使用电子邮件中的“评论”按钮可导航回Workfront并回复更新区域的更新。
 * 回复您收到的电子邮件。 您的回复电子邮件将添加为Workfront对原始评论的回复。
 
+<!--
 >[!NOTE]
 >
->通过电子邮件回复更新不适用于群集6上的环境。
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 您可以响应根据对以下对象的注释生成的Workfront电子邮件：
 
@@ -33,8 +35,8 @@ ht-degree: 1%
 * 问题
 * 文档
 * 模板和模板任务
-* 项目组合
-* 项目群
+* Portfolio
+* 项目
 * 迭代
 * 时间表
 
