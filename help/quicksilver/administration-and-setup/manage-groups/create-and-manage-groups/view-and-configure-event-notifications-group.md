@@ -1,78 +1,77 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: 檢視，群組，事件，通知，設定，啟用，停用
+keywords: 视图，组，事件，通知，配置，启用，禁用
 navigation-topic: create-and-manage-groups
-title: 檢視和設定群組的事件通知
-description: 作為群組管理員，您可以檢視針對您管理的群組啟用的事件通知。 此外，如果Adobe Workfront管理員解除鎖定事件通知，您可以為您管理的最上層群組設定該通知。 事件通知的設定包含啟動或停用。
+title: 查看和配置组的事件通知
+description: 作为组管理员，您可以查看为您管理的组激活的事件通知。 此外，如果Adobe Workfront管理员解锁事件通知，则可以为您管理的顶级组配置该通知。 事件通知的配置包括激活或停用该通知。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-# 檢視和設定群組的事件通知
+# 查看和配置组的事件通知
 
-作為群組管理員，您可以檢視針對您管理的群組啟用的事件通知。
+作为组管理员，您可以查看为您管理的组激活的事件通知。
 
-此外，如果Adobe Workfront管理員解除鎖定事件通知，您可以為您管理的最上層群組設定該通知。 事件通知的設定包含啟動或停用。
+此外，如果Adobe Workfront管理员解锁事件通知，则可以为您管理的顶级组配置该通知。 事件通知的配置包括激活或停用该通知。
 
-Workfront管理員也可以為任何群組執行此操作。
+Workfront管理员还可以为任何组执行此操作。
 
-為群組設定事件通知會影響該群組或其子群組之一為其主群組的使用者。 在其使用者設定檔中，這些使用者會看到為其主群組啟用的事件通知，而不是在整個系統內啟用的事件通知。
+为组配置事件通知会影响用户，而该组或其子组之一是其主组。 在其用户配置文件中，这些用户会看到为其主组激活的事件通知，而不是在系统范围内激活的事件通知。
 
-如需Workfront管理員如何解鎖事件通知的詳細資訊，請參閱 [解鎖或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+有关Workfront管理员如何解锁事件通知的信息，请参阅 [解锁或锁定所有组的事件通知配置](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-如需事件預設通知設定的相關資訊，請參閱 [Adobe Workfront中可用的事件通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+有关事件的默认通知设置的信息，请参阅 [事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-## 存取需求
+## 访问要求
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>计划 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己擁有的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
 
-## 檢視和設定群組的事件通知
+## 查看和配置组的事件通知
 
-1. （條件式與選擇性）如果您是Workfront管理員，而且您已在「電子郵件通知」頁面（「設定>電子郵件>通知」），您可以執行下列動作，然後跳至步驟6：刪除 **系統事件通知** 在清單上方的方塊中，開始在方塊中輸入群組名稱，然後在其出現時按一下它。
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+1. （视情况而定，可选）如果您是Workfront管理员，并且已经位于电子邮件通知页面（“设置”>“电子邮件”>“通知”）上，则可以执行以下操作，然后跳至步骤6：删除 **系统事件通知** 在列表上方的框中，开始在框中键入组的名称，然后在该组出现时单击它。
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
-1. 在左側面板中，按一下 **群組** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击 **组** ![](assets/groups-icon.png).
 
-1. 按一下最上層群組的名稱。
-1. 在左側功能表中，按一下 **事件通知**.
+1. 单击顶级组的名称。
+1. 在左侧菜单中，单击 **事件通知**.
 
-   在顯示的清單中， **作用中** 左邊的欄顯示群組的作用中（藍色）和非作用中（灰色）通知。
+   在显示的列表中， **活动** 左侧的列显示了组的活动（蓝色）和非活动（灰色）通知。
 
-1. 若要啟用或停用已解除鎖定的事件通知：請按一下 <strong>作用中</strong> 要啟動的欄 <img src="assets/email-notification-enabled-unlocked.png"> 或停用 <img src="assets/email-notification-disabled-unlocked.png"> it.
+1. 要激活或取消激活已解锁的事件通知：请单击 <strong>活动</strong> 列激活 <img src="assets/email-notification-enabled-unlocked.png"> 或停用 <img src="assets/email-notification-disabled-unlocked.png"> 它。
 
    >[!INFO]
    >
-   >**範例：** 您可以設定下面顯示已為群組解鎖的前兩個行銷群組事件通知。</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* 如果按鈕位於 <strong>作用中</strong> 欄為灰色且灰色 <img src="assets/email-notification-disabled-locked.png">，則所有使用者的事件通知都會停用，且群組管理員無法啟用或編輯其電子郵件主旨行
-   >* 如果按鈕位於 <strong>作用中</strong> 欄是灰色的，而且不是灰色 <img src="assets/email-notification-disabled-unlocked.png">，事件通知為 <strong>已針對所有使用者停用，並且</strong> 群組管理員可以為其群組啟用它。
-   >* 如果按鈕位於 <strong>作用中</strong> 欄為藍色且變暗 <img src="assets/email-notification-enabled-locked.png">，事件通知已針對所有使用者啟用，且群組管理員無法停用或編輯其群組的電子郵件主旨行。
-   >* 如果按鈕位於 <strong>作用中</strong> 欄為藍色且未變暗 <img src="assets/email-notification-enabled-unlocked.png">，事件通知為 <strong>已針對所有使用者啟用</strong> 群組管理員可以為其群組停用它。
-
+   >**示例：** 您可以配置下面显示的、已为群组解锁的前两个营销群组事件通知。</p> <p> <img src="assets/configure-group-event-notifications.png">
+   >* 如果按钮位于 <strong>活动</strong> 列呈灰色并变暗 <img src="assets/email-notification-disabled-locked.png">，则对于所有用户和组管理员无法激活或编辑其电子邮件主题行的事件通知将被停用
+   >* 如果按钮位于 <strong>活动</strong> 列呈灰色且不变暗 <img src="assets/email-notification-disabled-unlocked.png">，事件通知为 <strong>已为所有用户取消激活，并且</strong> 组管理员可以为其组激活它。
+   >* 如果按钮位于 <strong>活动</strong> 列呈蓝色并变暗 <img src="assets/email-notification-enabled-locked.png">，则会为所有用户激活事件通知，并且组管理员无法取消激活它或编辑其组的电子邮件主题行。
+   >* 如果按钮位于 <strong>活动</strong> 列为蓝色且未变暗 <img src="assets/email-notification-enabled-unlocked.png">，事件通知为 <strong>已为所有用户激活并</strong> 组管理员可以为其组停用它。
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

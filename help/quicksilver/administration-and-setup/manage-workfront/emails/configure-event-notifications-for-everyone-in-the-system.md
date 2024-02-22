@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 在“设置”区域中激活通知并显示在用户的配置文件页面后，个人用户或具有“计划”许可证的其他用户还可以在用户配置文件中配置激活的通知，以控制特定用户接收哪些通知以及通知的频率。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-有关可激活和取消激活的所有事件通知的列表，请参阅 [Adobe Workfront中可用的事件通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+有关可激活和取消激活的所有事件通知的列表，请参阅 [事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 有关解锁事件通知以便组管理员为其组配置该通知的信息，请参见 [解锁或锁定所有组的事件通知配置](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 和 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
