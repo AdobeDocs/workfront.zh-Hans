@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 3%
 >新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
 >
 > * 主页
-> * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
 
@@ -50,7 +49,7 @@ ht-degree: 3%
 
 对象的“更新”部分显示系统更新，以及用户在过去90天内进行的最近200次更新。
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+![“更新”部分](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 根据您访问评论体验的对象，您可能会在更新部分找到以下体验：
 
@@ -78,8 +77,8 @@ ht-degree: 3%
    * 模板
    * 模板任务
    * 时间表
-   * 项目群
-   * 项目组合
+   * 项目
+   * Portfolio
    * 用户
 
 * 仅限以下对象的旧版注释体验：
@@ -90,7 +89,7 @@ ht-degree: 3%
 
 ### 新评论体验中“更新”部分的概述
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -102,6 +101,7 @@ ht-degree: 3%
 
    * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
 
 * 以下对象没有“系统活动”选项卡：
 
@@ -165,8 +165,8 @@ ht-degree: 3%
    <td>附加文档的对象，项目 </td> 
   </tr> 
   <tr> 
-   <td>项目群</td> 
-   <td>项目组合</td> 
+   <td>项目</td> 
+   <td>Portfolio</td> 
   </tr> 
   <tr> 
    <td>用户</td> 
