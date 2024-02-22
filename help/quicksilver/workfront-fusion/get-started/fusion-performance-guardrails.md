@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 工作自动化要求快速处理，因此 [!DNL Adobe Workfront Fusion] 专为高性能而设计。 由于长期运行情况会减慢您的工作速度，因此我们设计了 [!DNL Workfront Fusion] 带有可限制执行时间、数据大小和其他方案参数的保留性能的护栏。 [!DNL Workfront Fusion] 设计人员应该注意这些护栏，并将它们融入到其设计实践中。
 
-## 场景
+## 浏览器
+
+Workfront Fusion仅支持基于Chrome的浏览器。
+
+## 方案
 
 * 默认方案执行超时为 **40分钟**. 当执行达到此超时时， [!DNL Workfront Fusion] 中断下一个周期或操作之后的方案执行，具体取决于方案。 这将强制在达到40分钟限制后不久停止场景
 * 方案Blueprint的最大大小为 **5 MB**，但我们建议将方案大小保留在 **3 MB**.
@@ -35,7 +39,7 @@ ht-degree: 0%
 
 * 虽然场景中的模块数量没有上限，但超过150个模块的场景会对您的性能产生负面影响 [!DNL Workfront Fusion] 系统。 因此，我们不建议创建超过150个模块的场景。
 
-## 操作
+## 运营
 
 * 默认操作超时通常为 **40秒**.
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 
   许多因素（如大型文件或复杂模块）可能会以难以预测或控制的方式影响服务器内存的使用。 因此，即使场景遵循所有其他性能护栏，场景执行也可能超过1 GB内存限制。 超过内存限制会导致执行失败。
 
-## Webhooks
+## Webhook
 
 * 有效负载的默认最大大小为 **5 MB**.
 * Webhook仅限于 **每秒100个请求**. 当达到此限制时，Workfront Fusion发送429 ([!UICONTROL 请求过多])状态。
