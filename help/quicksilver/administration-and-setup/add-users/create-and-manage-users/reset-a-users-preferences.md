@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>用户首选项</td> 
-   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront中可用的事件通知</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>用户定义的自定义选项卡</td> 

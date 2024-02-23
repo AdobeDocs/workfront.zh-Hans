@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >为了高效地查找工作项并专注于您管理的用户或项，我们强烈建议您在工作负载均衡器中使用过滤器。 这允许您在开始管理资源分配之前显示正确的信息。
 >
->当您保存并应用新过滤器，然后导航离开工作负载均衡器时，即使您注销并重新登录，过滤器也会保留。
+>当保存并应用新过滤器，然后导航离开工作负载均衡器时，即使您注销并重新登录，过滤器也会保留。
 
 本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中过滤器的信息，请参阅 [过滤器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ ht-degree: 0%
       > 如果要显示特定项目组合中的工作对象，可以应用以下过滤器：“Portfolio名称包含营销。” 这会显示属于名称中包含“营销”的任意项目组合的工作项。
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >要排除处于“暂挂”状态的项目，必须应用以下过滤器：“项目：状态不等于“暂挂”。 这会阻止保留项目中的工作项显示在工作负载均衡器中。
 
    1. （可选）单击 **删除** 图标 ![](assets/delete.png) 以删除筛选条件。
 
@@ -394,7 +398,7 @@ ht-degree: 0%
    >
    >用户获得的权限不能高于其访问级别。 如果他们无权在其访问级别编辑“筛选器”，则他们将无权管理筛选器。 Workfront对这些用户禁用了“管理”选项，并且该选项呈灰显状态。
 
-1. 单击&#x200B;**共享**。该筛选器将与您指定的实体共享。
+1. 单击 **Share**。该筛选器将与您指定的实体共享。
 
    您共享的过滤器将显示在 **与我共享** 滤镜框的区域。
 
