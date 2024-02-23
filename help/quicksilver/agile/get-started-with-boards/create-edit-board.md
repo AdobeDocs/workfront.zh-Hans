@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >如果主板上有1,000多张卡，则主板性能会受到影响。
+      >动态展示板的卡数量限制为1,000个任务和1,000个问题，共2,000张卡。 主板上的卡数量过多可能会影响主板性能。
 
    1. （可选）选择 [!UICONTROL **不存档已完成的卡片**] 将已完成的任务和问题作为可见卡片带入展示板（位于已完成列中）。 如果未选择此选项，则创建展示板时完成的卡片将作为存档卡片放入展示板中。
 
