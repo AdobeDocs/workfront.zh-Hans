@@ -7,15 +7,17 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
 # 更新部分概述
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 3%
 >新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
 >
 > * 主页
+> * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
+>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
 
 ## “更新”部分的概述
 
 对象的“更新”部分显示系统更新，以及用户在过去90天内进行的最近200次更新。
 
+<div class="preview">
+
+预览环境中的更新部分示例：
 ![“更新”部分](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+生产环境中“更新”部分的示例：
+![“更新”部分](assets/updates-tab-after-unified-experience-for-issues.png)
 
 根据您访问评论体验的对象，您可能会在更新部分找到以下体验：
 
@@ -89,19 +102,25 @@ ht-degree: 3%
 
 ### 新评论体验中“更新”部分的概述
 
+<div class="preview">
+
+预览环境中的更新部分示例：
 ![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+生产环境中“更新”部分的示例：
+![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >新的评论体验不适用于迭代。
 
-
 * 更新部分显示新评论体验中以下选项卡中的信息：
-
 
    * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
    * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新新注释体验中的对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * 以下对象没有“系统活动”选项卡：
 

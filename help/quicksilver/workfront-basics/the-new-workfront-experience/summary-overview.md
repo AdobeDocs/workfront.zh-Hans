@@ -5,14 +5,16 @@ description: 您可以使用“摘要”面板直接从任务问题、文档的�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 摘要] 概述
+
+{{highlighted-preview}}
 
 您可以使用 [!UICONTROL 摘要] 面板，直接从任务问题、文档列表或从的其他区域查看和更新工作项信息 [!DNL Adobe Workfront] 显示任务和问题。
 
@@ -117,7 +119,15 @@ ht-degree: 1%
    >
    >您一次只能选择一个任务或一个问题，以在 [!UICONTROL 摘要] 面板。
 
+   <div class="preview">
+
+   预览环境中的摘要面板示例：
    ![摘要面板](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   生产环境中的摘要面板示例：
+   ![摘要面板](assets/summary-panel-for-task.png)
 
 1. （可选）关闭 [!UICONTROL 摘要] 面板，执行以下操作之一：
 
@@ -143,7 +153,15 @@ ht-degree: 1%
 
 使用 [!UICONTROL 更新] 的部分 [!UICONTROL 摘要] 查看最近的更新，并对您选择的任务或问题进行更新。 单击 **[!UICONTROL 查看全部]** 直接转到 [!UICONTROL 更新] 选项卡上。
 
+<div class="preview">
+
+预览环境中的更新示例：
 ![“摘要”面板中的“更新”部分](assets/summary-updates-section.png)
+
+</div>
+
+生产环境中的更新示例：
+![“摘要”面板中的“更新”部分](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL 文档]
 
