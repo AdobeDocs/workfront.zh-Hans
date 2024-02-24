@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [管理员增强功能](#administrator-enhancements)
 * [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
+* [更新流和通知增强功能](#update-stream-and-notification-enhancements)
 * [其他增强功能](#other-enhancements)
 
 ### 管理员增强功能
@@ -184,7 +185,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### 其他增强功能
+### 更新流和通知增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获注释和系统活动条目</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获注释和系统活动条目</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -220,7 +221,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在提供了新的评论流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在提供了新的评论流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -234,6 +235,25 @@ ht-degree: 0%
                                 <p>按季度发布的生产：24.4版（2024年4月）</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### 其他增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
