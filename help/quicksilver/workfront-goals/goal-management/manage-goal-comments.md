@@ -6,14 +6,16 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目标中管理目标注释
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ After the monthly releases to Production, the same features are also available i
 1. 单击  **更新** 在左侧面板中。
 1. （可选）要查找现有注释，请开始键入关键字 <!--or a user's name--> 在 **Search** 框（位于右上角） **评论** 选项卡。
 
+   <div class="preview">
+
+   预览环境中的示例：
+   ![搜索评论](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   生产环境中的示例：
    ![](assets/search-field-in-updates-tab-goals.png)
 
    关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
@@ -107,15 +117,22 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   必须搜索注释或回复中包含的单词。 您无法搜索已标记的用户或团队。
+   >必须搜索注释或回复中包含的单词。 您无法搜索已标记的用户或团队。
 
+   有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. 单击 **x** 图标，以清除搜索结果并返回至开始状态。
+1. 单击 **x** 图标以清除搜索结果并返回完整更新。
 1. 单击 **评论** 选项卡。
 1. 开始在 **新建评论** 盒子。
 
+   <div class="preview">
+
+   “预览”环境中的新注释框示例：
+   ![新建评论框](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   生产环境中的新注释框示例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ After the monthly releases to Production, the same features are also available i
    >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带“New”指示器的红线以通知您较新的评论，并且屏幕底部会显示一个蓝色通知，指示新评论的数量。
    >
    >指示符仅在提交项目的评论之后显示，而不在评论仍在撰写时显示。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 点按赞”图标右侧，然后单击 **编辑**.
 1. 编辑评论中的信息，添加或删除图像，或删除任何已标记用户。
@@ -172,4 +189,6 @@ After the monthly releases to Production, the same features are also available i
 1. （可选）单击 **点赞** 图标![](assets/like-icon.png) 喜欢其他人添加的评论。 图标会随喜欢的数量而更新。
 
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在System Activity选项卡中。 在将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。 <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">（可选）单击 **全部** 选项卡以在一个位置查看用户注释和系统活动注释。 要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
 

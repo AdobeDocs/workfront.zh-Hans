@@ -7,14 +7,16 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 工时表布局概述
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ ht-degree: 1%
 
 ## 更新左侧面板中的区域
 
+<div class="preview">
+
+预览环境中的示例：
+![更新左侧时间表面板中的区域](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+生产环境中的示例：
 ![更新左侧时间表面板中的区域](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 您可以在时间表上添加备注，以与时间表批准者或其他用户在时间表左侧面板的更新部分通信。

@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
    <li>用于记录项目、任务或问题的小时数的工作或更高</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑您记录时间的工作项类型的访问权限 </p> <p>例如，您需要对问题的编辑访问权限，以记录问题的时间</p> </td> 
   </tr> 
   <tr> 
