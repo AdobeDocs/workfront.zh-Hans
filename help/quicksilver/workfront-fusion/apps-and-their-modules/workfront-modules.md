@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
+source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5935'
 ht-degree: 2%
 
 ---
@@ -72,22 +72,72 @@ ht-degree: 2%
 
 您可以创建与 [!DNL Workfront] 直接从 [!DNL Workfront Fusion] 模块。
 
-1. 在任何 [!DNL Workfront] 应用程序模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 盒子。
-1. 在URL中输入实例的名称。 示例： `https://<your instance>.my.workfront.com`.
-1. 单击 **[!UICONTROL 下一个]**.
-1. 单击 **[!UICONTROL SAML登录]** 以创建连接并返回模块。
+1. 在任意Adobe Authenticator模块中，单击 **添加** ，位于连接字段旁。
+1. 填写以下字段：
 
-   或
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[！UICONTROL连接名称]</td>
+        <td>
+          <p>输入新连接的名称。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL环境]</td>
+        <td>
+          <p>选择是连接到生产环境还是非生产环境。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL连接类型]</td>
+        <td>
+          <p>选择您是要连接到服务帐户还是个人帐户。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL客户端ID]</td>
+        <td>输入您的 [!DNL Workfront] 客户端ID。 您可以在Workfront中“设置”区域的“OAuth2应用程序”区域找到此代码。 打开要连接的特定应用程序以查看客户端ID。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL客户端密钥]</td>
+        <td>输入您的 [!DNL Workfront] 客户端ID。 您可以在Workfront中“设置”区域的“OAuth2应用程序”区域找到此代码。 打开要连接的特定应用程序以查看客户端ID。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL身份验证URL]</td>
+        <td>这可以保留默认值，也可以输入Workfront实例的URL，然后输入 <code>/integrations/oauth2</code>. <p>示例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL主机前缀]</td>
+        <td>在大多数情况下，该值应为 <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
 
-   输入用户名和密码，然后单击 **[!UICONTROL 登录]** 以创建连接并返回模块。
+1. 单击 **[!UICONTROL 继续]** 以保存连接并返回到模块。
 
-   >[!NOTE]
-   >
-   >* 如果您没有看到SAML登录按钮，则表明贵组织未启用单点登录(SSO)。 您可以使用用户名和密码登录。
-   >   
-   >   有关SSO的详细信息，请参阅 [单点登录概述 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-   >   
-   >* 到以下对象的OAuth 2.0连接 [!DNL Workfront] API不再依赖API密钥。
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
+
+   Or
+
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
+
+>[!NOTE]
+>
+>* 如果您没有看到SAML登录按钮，则表明贵组织未启用单点登录(SSO)。 您可以使用用户名和密码登录。
+>   
+>   有关SSO的详细信息，请参阅 [单点登录概述 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+>   
+>* 到以下对象的OAuth 2.0连接 [!DNL Workfront] API不再依赖API密钥。
 
 ## [!DNL Workfront] 模块及其字段
 
