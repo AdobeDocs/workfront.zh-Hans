@@ -6,14 +6,16 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # 更新工作
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
+>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ After the monthly releases to Production, the same features are also available i
 1. （视情况而定）如果 **新建注释** 选项被禁用，单击以启用它。
 
    这将启用新的评论体验。 此 **评论** 选项卡默认处于选中状态。
+
 1. 开始在 **新建评论** 盒子。
 
+   <div class="preview">
+
+   “预览”环境中的新注释框示例：
+   ![新建评论框](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   生产环境中的新注释框示例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
-   有关详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   有关更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >您无法向系统更新添加注释。
+
+1. <span class="preview">（可选）单击 **全部** 选项卡以在一个位置查看用户注释和系统活动注释。 这是一个仅供查看的选项卡。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。</span>
 
 ## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   只能搜索属于评论或回复文本的单词。 您无法搜索在更新中标记的用户或团队的名称。
+   >只能搜索属于评论或回复文本的单词。 您无法搜索在更新中标记的用户或团队的名称。
 
+   <div class="preview">
+
+   在“预览”环境中搜索的示例：
+   ![搜索更新](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   在生产环境中搜索的示例：
    ![](assets/search-field-in-updates-tab.png)
 
    关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。

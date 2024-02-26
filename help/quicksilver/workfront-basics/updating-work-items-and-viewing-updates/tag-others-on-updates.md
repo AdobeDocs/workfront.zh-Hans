@@ -6,14 +6,16 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # 为其他人标记更新
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
+>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
 
 在更新对象时，如果想要吸引用户注意在其他情况下他们可能不会关注的对象，则可以标记用户。
 
@@ -127,6 +131,14 @@ ht-degree: 0%
    > 
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   “预览”环境中的标记示例：
+   ![标记用户](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   生产环境中的标记示例：
    ![](assets/tag-others-unified-commenting.png)
 
 1. （可选）要将更新设为私有，请启用 **我的公司私有** 在更新框的右下角。 这将使更新仅对您公司中的用户可见。 此 **我的公司私有** 仅当在Workfront配置文件中指定了公司时，选项才可用。

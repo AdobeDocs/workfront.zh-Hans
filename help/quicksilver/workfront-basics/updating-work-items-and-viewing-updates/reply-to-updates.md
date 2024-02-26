@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 回复更新
 description: 当有人添加或回复工作对象上的更新时，他们的回复会出现在对象更新部分的通信线程中。 您可以向更新添加回复，或者如果您对对象具有“查看”权限，则可以向更新添加“赞”回复。
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # 回复更新
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
+>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 
@@ -96,6 +100,11 @@ ht-degree: 0%
 
 1. 转到要向其添加回复的对象。
 1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
+
+>[!NOTE]
+>
+><span class="preview">要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
+
 1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击 **回复**.
 
