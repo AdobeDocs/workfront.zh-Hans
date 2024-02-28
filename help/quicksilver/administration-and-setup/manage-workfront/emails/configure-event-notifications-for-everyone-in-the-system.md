@@ -1,11 +1,11 @@
 ---
 title: 为系统中的每个人配置事件通知
 description: 当发生特定事件时，事件通知会触发向用户发送电子邮件。 作为Adobe Workfront管理员或具有Planner访问级别的用户，您可以为系统中的所有用户配置事件通知。 事件通知的配置包括激活或停用该通知。
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,9 @@ role: User
 1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
 1. 单击 **分组** 位于时间轴视图的右上角。
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 单击其中一个建议字段，或单击 **选择其他字段**，搜索其他字段，然后在列表中显示该字段时单击它。
-
-   >[!TIP]
-   >
-   >您无法选择链接的字段。
 
    分组将自动应用于时间轴，并且记录显示在分组框中。
 
