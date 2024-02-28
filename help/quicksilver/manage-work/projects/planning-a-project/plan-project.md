@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ ht-degree: 0%
    * 减少每个任务的计划小时数。
    * 向任务添加更多用户，以确保在分配给任务的时间内完成任务。
    * 将任务重新分配给没有其他限制的可用用户。\
-     有关计划项目资源的详细信息，请参阅文章 [Adobe Workfront中的资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     有关计划项目资源的详细信息，请参阅文章 [资源计划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      有关安排资源完成项目工作的详细信息，请参阅 [工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

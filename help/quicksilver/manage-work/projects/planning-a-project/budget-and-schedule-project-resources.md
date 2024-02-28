@@ -6,9 +6,9 @@ description: 预算和计划项目资源
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
   有关信息，请参阅以下文章：
 
-   * [Adobe Workfront中的资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [资源规划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Scenario Planner入门](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * 安排资源或将其分配给任务和问题。 在将资源分配给任务和问题时，您可以实际将用户、团队或角色关联到特定工作项目，使其负责完成这些项目。 有关信息，请参阅 [工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
+source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
 workflow-type: tm+mt
-source-wordcount: '13972'
+source-wordcount: '13971'
 ht-degree: 1%
 
 ---
@@ -1728,7 +1728,7 @@ ht-degree: 1%
       * [资源管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [资源管理入门](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront中的资源规划 {#resource-planning-in-adobe-workfront}
-      * [Adobe Workfront中的资源规划](resource-mgmt/resource-planning/resource-planning-overview.md)
+      * [资源计划：文章索引](resource-mgmt/resource-planning/resource-planning-overview.md)
       * 资源池 {#resource-pools}
          * [资源池](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [资源池概述](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)

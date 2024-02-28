@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Workfront中现在提供了基于当前标准的替换工具。 这些更改与A
    * 性能规划者
    * 资源评估
    * 资源网格\
-     有关更多信息，请参阅 [Adobe Workfront中的资源规划](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     有关更多信息，请参阅 [资源计划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * 项目业务案例中的旧版资源评估区域
 

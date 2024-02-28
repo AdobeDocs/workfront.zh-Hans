@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * 开发服务交付流程，并使用Workfront管理与任何日常或每周职责相关的任务。
 * 使用资源管理工具查看分配给任务的资源，以便更好地了解如何提高生产率和交付质量。\
-  有关资源计划的详细信息，请参阅 [Adobe Workfront中的资源规划](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  有关资源计划的详细信息，请参阅 [资源规划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 定义成功标准
 

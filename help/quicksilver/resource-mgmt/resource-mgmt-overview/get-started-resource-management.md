@@ -7,9 +7,9 @@ description: 资源管理允许您配置系统，以便根据资源的可用性�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
    * **资源规划者**：您可以使用资源管理第一阶段的资源规划者，根据资源的计划可用性来预算资源的项目时间。 在资源计划阶段，您可以在资源池中组织用户，并将多个资源池分配给一个项目。
 
-     有关资源计划的详细信息，请参阅 [Adobe Workfront中的资源规划](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     有关资源计划的详细信息，请参阅 [资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **场景规划器**：这是一个更高级别的资源规划，可让您跨多个计划管理这些资源，这些计划可以跨一个、三个或五年计划并包含多个项目。 您可以使用最佳方案以充分利用其可用性和预算。
 
@@ -118,7 +118,7 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 
   有关资源规划和分配工作的详细信息，请参阅以下部分：
 
-   * [Adobe Workfront中的资源规划](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
    * [工作负载均衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
