@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [在中计划方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [激活或停用中的方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [将筛选器添加到中的方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
+* [使用人工智能生成模块](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [使用调试方案 [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [方案模板](../../workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] 方案示例：连接电子邮件， [!UICONTROL 文本分析器]、和 [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
