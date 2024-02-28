@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 * 当您导航离开时，您创建的排序将保留。
 
 * 您可以按记录类型的表视图中显示的字段数进行排序。
+
+* 仅当链接的字段允许单个值，或者允许选择了汇总选项（总和、平均、最大值、最小值）的多选值时，它们才可排序。
 
 * 删除分类标准会将其从与您访问相同记录类型的任何人中移除，并使用与您使用的相同视图。
 
