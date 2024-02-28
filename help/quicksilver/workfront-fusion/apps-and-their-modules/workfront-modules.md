@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除由此连接产生的事件</td> 
-      <td>启用此选项可排除使用此触发器模块使用的同一连接器创建或更新的事件。 这可以防止场景触发自身，导致其在无休止循环中重复的情况。</td> 
+      <td>启用此选项可排除使用此触发器模块使用的同一连接器创建或更新的事件。 这可以防止场景触发自身，导致其在无休止循环中重复的情况。<p><b>注意</b>分配记录类型不包括此选项。</p></td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL记录源]</td> 
