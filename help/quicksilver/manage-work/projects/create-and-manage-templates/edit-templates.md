@@ -6,22 +6,18 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # 编辑项目模板
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 您可以编辑项目模板以反映项目流程和设置中的更改。 在模板上更新并保存更改后，当使用该模板创建项目时，新更改将在新项目中可见。 您对模板所做的更改不会反映在当前使用该模板的项目中。
 
@@ -34,16 +30,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+      <p>新增：标准</p>
+      <p>或</p>
+      <p>当前：计划</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对模板的访问权限</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问模板的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">授予对模板的访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>编辑对模板的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -51,12 +51,12 @@ ht-degree: 2%
     <ul> 
      <li> <p>在模板详细信息选项卡中编辑该模板的参与权限</p> </li> 
      <li> <p>管理在编辑模板框中编辑模板的权限</p> </li> 
-    </ul> <p> 有关模板权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">共享模板</a>. </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 编辑模板 {#edit-a-template}
 
@@ -653,11 +653,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>项目组合</strong></td> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
          <td><p>为从此模板创建的项目指定Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合 </a>.</p></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>项目群</strong></td> 
+         <td role="rowheader"><strong>项目</strong></td> 
          <td><p>如果为模板选择了Portfolio，请指定 <strong>项目</strong> 为将来的项目准备的。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 

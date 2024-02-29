@@ -6,14 +6,16 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # 在展示板上使用连接的信息卡
+
+<!-- Audited: 2/2024 -->
 
 您可以在展示板上添加一个连接到中现有任务和问题的信息卡 [!DNL Workfront].
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 * [!UICONTROL 描述]
 * [!UICONTROL 被分派人]
 * [!UICONTROL 状态]
-* [!UICONTROL 计划的完成日期]
+* [!UICONTROL 计划完成日期]
 * [!UICONTROL 估计] / [!UICONTROL 故事点]
 * [!UICONTROL 子任务]
 * [!UICONTROL 文档]
@@ -39,29 +41,33 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td>
+   <p>新文档：参与者或更高版本</p>
+   <p>或</p>
+   <p>当前：请求或更高版本</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>访问级别配置*</strong></td>
-   <td><p>[！UICONTROL视图]或更高权限访问任务和问题</p></td>
+   <td role="rowheader"><strong>访问级别配置</strong></td>
+   <td><p>查看或更高权限的任务和问题</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>对象权限</strong></td>
-   <td><p>[！UICONTROL View]或对Workfront任务或问题的更高权限</p></td>
+   <td><p>查看或更高权限的Workfront任务或问题</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 添加连接的卡片
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 讨论区]**.
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 单击 **[!UICONTROL 添加信息卡] > [!UICONTROL 已连接的信息卡]**.
 1. 选择一个项目，然后选择要作为信息卡添加到展示板上的任务或问题。
@@ -79,7 +85,7 @@ ht-degree: 0%
 
    卡片会添加到最左列的底部。 连接的 [!DNL Workfront] 对象及其任务负责人将显示在信息卡上。
 
-   ![连接的信息卡](assets/boards-connected-card-first-added.png)
+   ![已连接的信息卡](assets/boards-connected-card-first-added.png)
 
 1. 单击 ![未结任务或问题](assets/boards-launch-icon.png) 以打开 [!DNL Workfront] 新浏览器选项卡中的任务或问题。
 1. 要编辑信息卡的详细信息，请单击该信息卡（不在信息卡名称中）。
