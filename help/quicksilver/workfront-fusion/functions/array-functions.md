@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion映射面板中提供了以下数组函数。
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -44,19 +44,19 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add （数组；值1；值2； ...）]
+## [!UICONTROL 添加（数组；值1；值2； ...）]
 
 将参数中指定的值添加到数组中并返回该数组。
 
@@ -66,46 +66,46 @@ ht-degree: 0%
 
 ## [!UICONTROL distinct (array； [键])]
 
-删除数组中的重复项。 使用&quot;[!UICONTROL 键]”参数，用于访问复杂对象内的属性。 要访问嵌套属性，请使用点表示法。 数组中的第一项是索引1。
+删除数组中的重复项。 使用&quot;[!UICONTROL 键]”参数访问复杂对象中的属性。 要访问嵌套属性，请使用点表示法。 数组中的第一项是索引1。
 
 >[!INFO]
 >
 >**示例：** `distinct(Contacts[];name)`
 >
->通过比较“name”属性删除联系人数组中的重复项
+>通过比较“name”属性，删除联系人数组中的重复项
 
-## [!UICONTROL flatten（数组）]
+## [!UICONTROL 扁平化（数组）]
 
-创建一个新数组，其中所有子数组元素递归连接到该数组，直到达到指定的深度。
+创建一个新数组，其中所有子数组元素以递归方式连接到该数组，直至指定深度。
 
 
 ## [!UICONTROL 连接（数组；分隔符）]
 
-在每个项之间使用指定的分隔符将数组的所有项连接到字符串中。
+将数组的全部项串联到一个字符串中，在每个项之间使用指定的分隔符。
 
 ## [!UICONTROL 键（对象）]
 
 返回给定对象或数组的属性的数组。
 
-## [!UICONTROL length（数组）]
+## [!UICONTROL 长度（数组）]
 
 返回数组中的项数。
 
 ## [!UICONTROL 映射(复数组；键；[筛选键]；[筛选的可能值])]
 
-返回包含复杂数组的值的基元数组。 此函数允许筛选值。 对键使用原始变量名称。
+返回包含复杂数组的值的原始数组。 此函数允许过滤值。 对键使用原始变量名称。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `map(Emails[];email)`
 >
->  返回带有电子邮件的基元数组
+>  返回带有电子邮件的原始数组
 >
 >* `map(Emails[];email;label;work;home)`
 >
->  返回带有标签等于工作或主页的电子邮件的原始数组
+>  返回带有标签等于工作或主页的原始数组
 
 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 数组的第一个元素成为最后一个元素，第二个元素成为倒数第二个元素，依此类推。
 
-## [!UICONTROL 片(数组；开始； [结束])]
+## [!UICONTROL 片(数组；起始； [结束])]
 
 返回仅包含选定项目的新数组。
 
@@ -132,21 +132,21 @@ ht-degree: 0%
 
 * `asc`
 
-  （默认） — 升序： 1、2、3、...表示类型“数字”。 A， B， C， a， b， c， ...代表文字
+  （默认） — 升序：类型“数字”为1、2、3、...。 A， B， C， a， b， c， ...表示文字
 
 * `desc`
 
-  降序： ...， 3， 2， 1表示类型Number。...， c， b， a， C， B， A代表文字。
+  降序： ...， 3， 2， 1表示类型“数字”。...， c， b， a， C， B， A代表文字。
 
 * `asc ci`
 
-  不区分大小写的升序：A、a、B、b、C、c...用于类型“文本”。
+  不区分大小写的升序：A、a、B、b、C、c...表示文本类型。
 
 * `desc ci`
 
-  不区分大小写降序： ...， C， c， B， b， A，代表类型“文本”。
+  不区分大小写降序： ...， C， c， B， b， A，用于类型“文本”。
 
-使用 `key` 用于访问复杂对象内属性的参数。
+使用 `key` 用于访问复杂对象内部的属性的参数。
 
 对键使用原始变量名称。
 
@@ -156,11 +156,11 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `sort(Contacts[];name)`
 >
->    按“name”属性以默认升序对联系人数组进行排序
+>    按“name”属性以默认升序排序联系人数组
 >
 >* `sort(Contacts[];desc;name)`
 >
@@ -168,11 +168,11 @@ ht-degree: 0%
 >
 >* `sort(Contacts[];asc ci;name)`
 >
->    按“name”属性以不区分大小写的升序对联系人数组进行排序
+>    按“name”属性以不区分大小写的升序对联系人数组排序
 >
 >* `sort(Emails[];sender.name)`
 >
->    按“sender.name”属性对电子邮件数组进行排序
+>    按“sender.name”属性对电子邮件数组排序
 
 ## [!UICONTROL arrayDifference [阵列1，阵列2，模式]]
 
@@ -180,15 +180,15 @@ ht-degree: 0%
 
 输入以下值之一 `mode` 参数。
 
-* `classic`：返回一个新数组，其中包含的所有元素 `array1` 中不存在的 `array2`.
+* `classic`：返回包含的所有元素的新数组 `array1` 中不存在的 `array2`.
 
 * `symmetric`：返回两个数组不共用的元素数组。
 
-  换句话说，此函数返回一个数组，其中包含的所有元素 `array1` 中不存在的 `array2`，以及的所有元素 `array2` 中不存在的 `array1`.
+  换句话说，此函数返回一个数组，其中包含的所有元素。 `array1` 中不存在的 `array2`，以及的所有元素 `array2` 中不存在的 `array1`.
 
   >[!INFO]
   >
-  >**示例:**
+  >**示例：**
   >
   >给定以下数组：
   >
@@ -211,3 +211,23 @@ ht-degree: 0%
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    返回 `[1,2,6,7]`
+
+## toArray
+
+此函数将一个集合转换为键值对的数组。
+
+>[!INFO]
+>
+>**示例：**
+>
+>给定收藏集
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>函数
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>返回键值对的数组
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`

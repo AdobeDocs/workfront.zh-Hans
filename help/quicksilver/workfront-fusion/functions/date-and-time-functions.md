@@ -8,9 +8,9 @@ description: 以下日期和时间函数在Adobe Workfront Fusion映射面板中
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -44,21 +44,21 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL formatDate(日期；格式； [时区])]
 
-当您有日期值(例如 `12-10-2021 20:30`，并且想要格式化为文本值，例如 `Dec 10, 2021 8:30 PM`.
+当您具有Date值时（例如），使用此函数 `12-10-2021 20:30`，并且要将其格式化为文本值，例如 `Dec 10, 2021 8:30 PM`.
 
 例如，当您需要在同一场景中将一个应用程序或Web服务的日期格式更改为连接的应用程序或Web服务的日期格式时，这将很有用。
 
@@ -86,17 +86,17 @@ ht-degree: 1%
   <tr> 
    <td>[！UICONTROL格式] </td> 
    <td>文本 </td> 
-   <td> <p>允许您使用日期/时间格式令牌指定格式。 有关更多信息，请参阅 <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期和时间格式的令牌 [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>允许您使用日期/时间格式令牌指定格式。 有关更多信息，请参阅 <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期和时间格式的令牌 [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL时区] </td> 
    <td>文本 </td> 
-   <td> <p>（可选）用于指定用于转换的时区。 </p> <p>有关可识别的时区列表，请参阅维基百科中的“TZ数据库名称”列 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">tz数据库时区列表</a>. 只有此列中列出的值才会被函数识别为有效时区。 将忽略任何其他值，并改为使用配置文件中指定的方案时区。 有关更多信息，请参阅文章中的 <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">在中更改配置文件设置 [!DNL Adobe Workfront Fusion]</a>.</p> <p>如果忽略此参数，则会应用用户档案设置中指定的方案时区。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>（可选）用于指定用于转换的时区。 </p> <p>有关可识别时区的列表，请参阅维基百科中的“TZ数据库名称”列 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">tz数据库时区列表</a>. 函数仅将此列中列出的值识别为有效时区。 将忽略任何其他值，并改为使用配置文件中指定的方案时区。 有关更多信息，请参阅文章中的 <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">在中更改配置文件设置 [!DNL Adobe Workfront Fusion]</a>.</p> <p>如果忽略此参数，将应用用户档案设置中指定的方案时区。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果提供了不同的类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+如果提供了其他类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 ### 返回值和类型
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->**示例：** 场景和Web时区均设置为 `Europe/Prague` 在以下示例中。
+>**示例：** 场景和Web时区都设置为 `Europe/Prague` 在这些示例中。
 >
 >![](assets/date&time-functions-examples-350x61.png)
 >
@@ -126,11 +126,11 @@ ht-degree: 1%
 
 ## [!UICONTROL parseDate(文本；格式； [时区])]
 
-当具有表示日期的文本值(例如 `12-10-2019 20:30` 或 `Aug 18, 2019 10:00 AM`)，并且要将其转换（解析）为日期值（二进制计算机可读表示形式）。 有关更多信息，请参阅 [日期](../../workfront-fusion/mapping/item-data-types.md#date) 和 [文本](../../workfront-fusion/mapping/item-data-types.md#text) 在文章中 [中的项目数据类型 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+当您有代表日期的文本值(例如 `12-10-2019 20:30` 或 `Aug 18, 2019 10:00 AM`)，并且要将其转换（解析）为Date值（二进制计算机可读表示法）。 有关更多信息，请参阅 [日期](../../workfront-fusion/mapping/item-data-types.md#date) 和 [文本](../../workfront-fusion/mapping/item-data-types.md#text) 在文章中 [中的项目数据类型 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ### 参数
 
-第二列指示所需的类型。 如果提供了不同的类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+第二列指示预期类型。 如果提供了其他类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,17 +152,17 @@ ht-degree: 1%
   <tr> 
    <td>[！UICONTROL格式] </td> 
    <td>文本 </td> 
-   <td> <p>允许您使用日期/时间格式令牌指定格式。 有关更多信息，请参阅 <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Adobe Workfront Fusion中日期和时间格式的令牌</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>允许您使用日期/时间格式令牌指定格式。 有关更多信息，请参阅 <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Adobe Workfront Fusion中日期和时间格式的令牌</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL时区] </td> 
    <td>文本 </td> 
-   <td> <p>（可选）用于指定用于转换的时区。 </p> <p>有关可识别的时区列表，请参阅维基百科中的“TZ数据库名称”列 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">tz数据库时区列表</a>. 只有此列中列出的值才会被函数识别为有效时区。 将忽略任何其他值，并改为使用配置文件中指定的方案时区。 有关更多信息，请参阅文章中的 <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">更改Adobe Workfront Fusion中的配置文件设置</a>.</p> <p>如果忽略此参数，则会应用用户档案设置中指定的方案时区。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>（可选）用于指定用于转换的时区。 </p> <p>有关可识别时区的列表，请参阅维基百科中的“TZ数据库名称”列 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">tz数据库时区列表</a>. 函数仅将此列中列出的值识别为有效时区。 将忽略任何其他值，并改为使用配置文件中指定的方案时区。 有关更多信息，请参阅文章中的 <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">在Adobe Workfront Fusion中更改配置文件设置</a>.</p> <p>如果忽略此参数，将应用用户档案设置中指定的方案时区。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果提供了不同的类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+如果提供了其他类型，则应用类型强制。 有关更多信息，请参阅 [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 ### 返回值和类型
 
@@ -186,15 +186,15 @@ ht-degree: 1%
 >
 >* `parseDate(1482940986;X)`
 >
->  返回2016-12-28T16:03:06.000赫
+>   返回2016-12-28T16:03:06.000赫
 
-## [!UICONTROL addDays (date； number)] {#adddays-date-number}
+## [!UICONTROL addDays （日期；数字）] {#adddays-date-number}
 
-将给定的天数添加到日期后返回新日期。 要减去天数，请输入一个负数。
+将给定天数添加到日期后返回新日期。 要减去天数，请输入一个负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
 >
@@ -204,13 +204,13 @@ ht-degree: 1%
 >
 >    返回2016-12-6T15:55:57.536赫
 
-## [!UICONTROL addHours (date； number)] {#addhours-date-number}
+## [!UICONTROL addHours （日期；数字）] {#addhours-date-number}
 
 将给定小时数添加到日期后返回新日期。 要减去小时数，请输入负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
 >
@@ -220,13 +220,13 @@ ht-degree: 1%
 >
 >    返回2016-12-08T13:55:57.536赫
 
-## [!UICONTROL addMinutes (date； number)] {#addminutes-date-number}
+## [!UICONTROL addMinutes（日期；数字）] {#addminutes-date-number}
 
-将给定的分钟数添加到日期后返回新日期。 要减去分钟数，请输入一个负数。
+将给定分钟数添加到日期后返回新日期。 要减去分钟，请输入一个负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
 >
@@ -238,11 +238,11 @@ ht-degree: 1%
 
 ## [!UICONTROL addMonths（日期；数字）] {#addseconds-date-number}
 
-将给定的月数添加到日期后返回新日期。 要减去月份，请输入负数。
+向日期添加指定月份数后，返回新日期。 要减去月份，请输入负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
 >
@@ -254,11 +254,11 @@ ht-degree: 1%
 
 ## [!UICONTROL addSeconds (date； number)]
 
-将给定的秒数添加到日期后返回新日期。 要减去秒数，请输入一个负数。
+将给定秒数添加到日期后返回新日期。 要减去秒数，请输入一个负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
 >
@@ -268,13 +268,13 @@ ht-degree: 1%
 >
 >   返回2016-12-08T15:55:55.536赫
 
-## [!UICONTROL addYears (date； number)]
+## [!UICONTROL addYears （日期；数字）]
 
-通过将给定年数添加到日期而返回新日期。 要减去年数，请输入负数。
+将给定年数添加到日期后返回新日期。 要减去年数，请输入一个负数。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
 >
@@ -286,15 +286,15 @@ ht-degree: 1%
 
 ## [!UICONTROL setSecond（日期；数字）]
 
-此函数使用参数中指定的秒数返回一个新日期。
+此函数使用参数中指定的秒数返回新日期。
 
-指定从0到59的数字。 如果此数字超出该范围，则函数返回前一分钟（对于负数）或后续分钟（对于正数）的秒数。
+指定从0到59的数字。 如果数字超出该范围，则函数返回前一分钟（对于负数）或后续分钟（对于正数）的秒数。
 
-如果您需要指定超出此范围的数字，我们建议您使用[!UICONTROL  addSeconds]，如一节中所述 [addSeconds (date； number)](#addseconds-date-number).
+如果您需要指定超出此范围的编号，我们建议您使用[!UICONTROL  addSeconds]，如一节中所述 [addSeconds (date； number)](#addseconds-date-number).
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
 >
@@ -304,17 +304,17 @@ ht-degree: 1%
 >
 >    返回2015-10-07T11:37:01.138赫
 
-## [!UICONTROL setMinute (date； number)]
+## [!UICONTROL setMinute（日期；数字）]
 
 此函数使用参数中指定的分钟数返回一个新日期。
 
-指定从0到59的数字。 如果此数字超出该范围，此函数将返回前一小时（对于负数）或后续小时（对于正数）的分钟数。
+指定从0到59的数字。 如果数字超出该范围，此函数将返回上一小时（对于负数）或后续小时（对于正数）的分钟数。
 
-如果您需要指定超出此范围的数字，我们建议您使用addMinutes，如上文中所述 [addMinutes (date； number)](#addminutes-date-number).
+如果您需要指定超出范围的数字，我们建议您使用addMinutes，如上所述 [addMinutes（日期；数字）](#addminutes-date-number).
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
 >
@@ -328,13 +328,13 @@ ht-degree: 1%
 
 此函数使用参数中指定的小时数返回一个新日期。
 
-指定从0到23的数字。 如果数字超出此范围，此函数将返回前一天（对于负数）或后一天（对于正数）的一小时。
+指定从0到23的数字。 如果数字在此范围之外，此函数将返回前一日（对于负数）或后续日（对于正数）的小时数。
 
-如果您需要指定超出此范围的数字，我们建议您使用addHours，如上文中所述 [addHours (date； number)](#addhours-date-number).
+如果您需要指定超出此范围的数字，我们建议您使用addHours，如上所述 [addHours （日期；数字）](#addhours-date-number).
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
 >
@@ -344,17 +344,17 @@ ht-degree: 1%
 >
 >    返回2015-08-06T18:36:39.138赫
 
-## [!UICONTROL setDay （日期；英文日期的数字/名称）]
+## [!UICONTROL setDay （日期；英文日期编号/名称）]
 
 此函数使用参数中指定的日期返回一个新日期。
 
-您可以使用此函数将星期设置为星期几，星期日为1，星期六为7。 如果指定从1到7的数字，则结果日期在当前（星期日到星期六）周内。 如果此数字超出该范围，则此函数返回前一周（对于负数）或后续周（对于正数）中的一天。
+您可以使用此函数设置星期几，星期日为1，星期六为7。 如果指定从1到7的数字，则结果日期在当前（星期日到星期六）周内。 如果此数字超出该范围，则此函数返回上一周（对于负数）或后续周（对于正数）中的某天。
 
-如果您需要指定超出此范围的数字，我们建议您使用addDays，如上文中所述 [addDays (date； number)](#adddays-date-number).
+如果您需要指定超出此范围的数字，我们建议您使用addDays，如上所述 [addDays （日期；数字）](#adddays-date-number).
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
 >
@@ -368,15 +368,15 @@ ht-degree: 1%
 >
 >   返回2018-06-30T11:36:39.138赫
 
-## [!UICONTROL setDate (date； number)]
+## [!UICONTROL setDate （日期；数字）]
 
 此函数返回一个新日期，其中包含在参数中指定的月份日期。
 
-指定从1到31的数字。 如果数字超出此范围，此函数将返回上个月中的一天（对于负数）或之后的一个月（对于正数）。
+指定从1到31的数字。 如果数字在此范围之外，此函数将返回上个月中的一天（对于负数）或后续的月份（对于正数）。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
 >
@@ -386,15 +386,15 @@ ht-degree: 1%
 >
 >   返回2015-09-01T11:36:39.138赫
 
-## [!UICONTROL setMonth（日期；英文的月份编号/名称）]
+## [!UICONTROL setMonth （日期；英文月份编号/名称）]
 
 此函数使用参数中指定的月份返回一个新日期。
 
-指定从1到12的数字。 如果数字超出此范围，此函数将返回上一年中的月份（对于负数）或后续年份中的月份（对于正数）。
+指定从1到12的数字。 如果数字超出此范围，此函数返回上一年（对于负数）或后续年（对于正数）中的月。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
 >
@@ -410,11 +410,11 @@ ht-degree: 1%
 
 ## [!UICONTROL setYear（日期；数字）]
 
-使用参数中指定的年份返回新日期。
+返回具有参数中指定的年份的新日期。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
@@ -422,7 +422,7 @@ ht-degree: 1%
 
 ## [!UICONTROL dateDifference (Date1； Date2； Unit)]
 
-返回表示两个日期中差异的数字，以指定的单位表示。
+返回表示两个日期之差的数字，以指定的单位表示。
 
 从Date1减去Date2。
 
@@ -436,11 +436,11 @@ ht-degree: 1%
 * 星期
 * 月
 
-如果未指定单位，此函数将返回以毫秒为单位的差值。
+如果未指定单位，此函数将返回毫秒之差。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 >
@@ -458,9 +458,9 @@ ht-degree: 1%
 
 ### 如何计算月中每周的第n天
 
-此部分适用于 [!DNL Workfront Fusion] 从 [!DNL Exceljet] 说明如何获取一个月中每周第n天的网页。
+此部分适用于 [!DNL Workfront Fusion] 从 [!DNL Exceljet] 说明如何获取一个月中一周的第n天的网页。
 
-如果需要计算与当月某周n天对应的日期（例如，第一个星期二、第三个星期五等），可以使用以下公式：
+如果您需要计算与每月第n天对应的日期（例如，第一个星期二、第三个星期五等），可以使用以下公式：
 
 ![](assets/date&time-functions-calc-nth-day-350x31.png)
 
@@ -479,8 +479,8 @@ ht-degree: 1%
    <td> <p> 第n天：</p> 
     <ul> 
      <li><code>1</code> （第1个星期二）</li> 
-     <li><code>2</code> （第2个星期二）</li> 
-     <li><code>3</code> 第3个星期二，依此类推</li> 
+     <li><code>2</code> 第2个星期二</li> 
+     <li><code>3</code> 第3个星期二，以此类推</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -490,7 +490,7 @@ ht-degree: 1%
      <li><code>1</code> 表示星期一</li> 
      <li><code>2</code> 表示星期二</li> 
      <li><code>3</code> 表示星期三</li> 
-     <li><code>4</code> 表示星期四</li> 
+     <li><code>4</code> 表示周四</li> 
      <li><code>5</code> 表示星期五</li> 
      <li><code>6</code> 表示星期六</li> 
      <li><code>7</code> 表示星期日</li> 
@@ -498,12 +498,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> 日期决定月份。 要计算当月中每周的第n天，请使用 <code>now</code> 变量。</p> </td> 
+   <td> <p> 日期决定月份。 要计算当月每周的第n天，请使用 <code>now</code> 变量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果只想计算一个特定案例（例如，每逢星期三），则可以替换项目 `1.n` 和 `2.dow` 在公式中具有相应编号。 对于当月的第二个星期三，将使用以下值：
+如果您只想计算一个特定情况，例如，每逢星期三，则可以替换项目 `1.n` 和 `2.dow` 在公式中具有相应编号。 对于当月的第二个星期三，您将使用以下值：
 
 * `1.n` = `2`
 * `1.dow` = `3`
@@ -513,8 +513,8 @@ ht-degree: 1%
 
 ### 说明：
 
-* `setDate(now;1)` 返回当前月份的第一个
-* `formatDate(....;E)` 返回星期几(1、2、... 6)
+* `setDate(now;1)` 返回当月的第一个月
+* `formatDate(....;E)` 返回每周时间(1、2、... 6)
 
 ## 如何计算日期之间的天数
 
@@ -528,17 +528,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 值 `D1`和 `D2` 具有日期类型值。 如果它们是字符串类型的值（例如，20.10.2018），请使用 `parseDate()` 函数以将其转换为日期类型值。
+>* 值 `D1`和 `D2` 具有日期类型值。 如果它们是字符串类型的值（例如，20.10.2018），请使用 `parseDate()` 函数以将其转换为Date类型值。
 >
->* 此 `round()` 函数适用于某个日期在夏令时时间段内，而另一个日期不在夏令时时间段内的情况。 在这些情况下，小时数差等于或少一小时。 对于非整数结果，可以将其除以24。 你损失了一个小时的日光节约时间。 将其倒圆角扁平化以便没有百分比
+>* 此 `round()` 函数适用于某个日期在夏令时时间段内，而另一个日期不在夏令时时间段内的情况。 在这些情况下，小时数差等于或少于一小时。 对于非整数结果，可以将其除以24。 你损失了一个小时的夏令时。 将其扁平化以便没有百分比
 
 ### 如何计算每月的最后一天/毫秒
 
-例如，在搜索模块中指定日期范围时，如果范围跨越整个前一个月为一个已关闭的时间间隔（包含其两个限制点的时间间隔），则需要计算当月的最后一天。
+例如，当您在搜索模块中指定日期范围时，如果该范围跨越整个前一个月为一个关闭间隔（该间隔包含其两个限制点），则需要计算当月的最后一天。
 
 2019-09-01 ≤ D ≤ 2019-09-30
 
-下面的公式显示了一种如何计算上个月最后一天的方法：
+下面的公式显示了一种计算上个月最后一天的方法：
 
 ![](assets/last-day-prev-month.png)
 
@@ -546,11 +546,11 @@ ht-degree: 1%
 {{addDays(setDate(now; 1); -1)}}
 ```
 
-在某些情况下，您不仅需要计算一个月的最后一天，还需要计算其实际的最后一毫秒：
+在某些情况下，您不仅需要计算每月的最后一天，还需要计算每月的最后一毫秒：
 
 2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999赫
 
-此公式显示一种如何计算上个月的最后毫秒的方法：
+此公式显示了一种计算上个月最后一毫秒的方法：
 
 ![](assets/last-millisecond-prev-month-350x45.png)
 
@@ -564,7 +564,7 @@ ht-degree: 1%
 
 `{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
 
-但是，最好改用半开间隔（排除其限制点之一的间隔），指定下个月的第一天，然后将“小于或等于”运算符替换为“小于”，如下所示：
+但是，最好改用半开间隔（排除其限制点之一的间隔），指定下个月的第一天，并将“小于或等于”运算符替换为“小于”，如下所示：
 
 `2019-09-01 ≤ D < 2019-10-01`
 
