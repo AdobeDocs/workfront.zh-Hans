@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4adb7fa30f9c1c921727d1a5930318f59ed8af9e
+source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
 workflow-type: tm+mt
 source-wordcount: '13989'
 ht-degree: 1%
@@ -1797,7 +1797,7 @@ ht-degree: 1%
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [连接Workfront和Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
          * [将Frame.io资源添加到连接的Workfront项目](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * [批准文档]{#approve-documents}
+      * 批准文档 {#approve-documents}
          * [批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [创建文档审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [向文档添加其他审阅人或批准者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
