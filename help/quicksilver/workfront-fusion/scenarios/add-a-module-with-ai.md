@@ -6,9 +6,9 @@ title: 使用人工智能生成模块
 description: 您可以输入文本提示来创建针对该提示配置的HTTP模块。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
+source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 使用人工智能生成模块
 
 <!--DO NOT DELETE - linked through CSH-->
+
+>[!IMPORTANT]
+>
+>由于此功能仍处于早期开发阶段，因此仅供Workfront内部用户使用。
 
 您可以使用AI输入文本提示，描述您需要模块执行的操作。 然后，Fusion将生成一个HTTP模块，该模块将连接到所需API的正确端点。
 
