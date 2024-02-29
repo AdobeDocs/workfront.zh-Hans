@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '4226'
+source-wordcount: '4257'
 ht-degree: 1%
 
 ---
@@ -315,6 +315,7 @@ After the monthly releases to Production, the same features are also available i
    >
    >前两个已标记实体的名称显示在它们的头像旁边。 如果标记了两个以上的实体，则只显示第一个实体的名称，并显示附加实体的数量。
 
+1. <span class="preview"> （可选）单击评论者的姓名可在信息框中查看其姓名、角色和电子邮件地址。 在信息框中再次单击评论者的姓名以打开其用户配置文件。</span>
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
    有关更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).

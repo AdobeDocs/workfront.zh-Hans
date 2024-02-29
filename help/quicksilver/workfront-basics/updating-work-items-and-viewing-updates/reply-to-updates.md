@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -101,9 +101,9 @@ ht-degree: 0%
 1. 转到要向其添加回复的对象。
 1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
 
->[!NOTE]
->
-><span class="preview">要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
+   >[!NOTE]
+   >
+   ><span class="preview">要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
 
 1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击 **回复**.

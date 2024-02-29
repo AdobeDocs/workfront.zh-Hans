@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ ht-degree: 0%
    标记实体的名称显示在它们的头像旁边，最多两个实体。 如果标记了两个以上的实体，则除了显示标记了多少个其他实体外，还会显示第一个实体的名称。
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">当在注释文本中被标记时，您的用户名将在这些注释中突出显示。</span>
 
    有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
