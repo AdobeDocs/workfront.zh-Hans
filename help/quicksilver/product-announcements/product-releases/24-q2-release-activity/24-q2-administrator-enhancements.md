@@ -4,9 +4,9 @@ description: 2024年第二季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 表单设计器测试版中提供了Workfront原生字段
+
+>[!NOTE]
+>
+>预览版本： 2024年2月29日；用于快速发布的生产版本：使用24.3版本（2024年3月14日）；面向所有客户的生产版本：24.4（2024年4月）
+
+Workfront本机字段现在可供您添加到自定义表单中。 利用此新字段类型，可按逻辑方式整理数据并将其呈现给用户，而无需在自定义字段中重新创建现有数据。
+
+在自定义表单字段列表中选择本机字段以将该字段添加到表单设计器后，可以为表单对象选择任何本机字段。 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则您将能够选择项目的本机字段，但不能选择特定于任务的字段。
+
+将自定义表单附加到对象时，会从对象数据填充字段。 例如，附加到项目的自定义表单上的描述字段将拉入项目描述。 （如果没有可用数据，则字段可能显示“不适用”。）
+
+自定义表单中使用的本机字段在设计器的字段库中可供重复使用。此外，它们还可在设置>自定义Forms >字段区域中可见，以便您查看它们在哪些表单中使用。
+
+此功能仅在表单设计器测试版中可用，在旧版表单生成器中不可用。
+
+有关此功能的Experience League文章将于3月7日更新。
 
 ## 属性映射现在可用于已迁移到Adobe IMS的组织
 

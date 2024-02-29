@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表单设计器测试版中提供了Workfront原生字段</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>Workfront本机字段现在可供您添加到自定义表单中。 利用此新字段类型，可按逻辑方式整理数据并将其呈现给用户，而无需在自定义字段中重新创建现有数据。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月29日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">属性映射现在可用于已迁移到Adobe IMS的组织</a></p>
                         <p>[！BADGE In Production ]{type=Informational}</p><p>Workfront系统管理员现在可以为已迁移到Adobe IMS的组织设置用户属性映射。 这允许用户信息从组织的SSO（单点登录）提供商传递到Workfront，因此用户数据不必同时输入到Workfront和SSO提供商中。</p>
                     </td>
@@ -73,7 +92,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器测试版中使用</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">跳过逻辑和显示逻辑现在可在表单设计器测试版中使用</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>现在，您可以在表单设计器测试版中编辑现有显示和跳过逻辑，并向自定义表单添加新逻辑。 易于使用的逻辑生成器可帮助您根据表单中的选择定义要显示或跳过的字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -111,7 +130,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页管理员控件的列选项</a></p><p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页管理员控件的列选项</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p><p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -148,7 +167,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a></p><p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -203,7 +222,33 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获注释和系统活动条目</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验中提供的其他评论者信息</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>我们在新的评论体验中做出了以下改进：</p>
+                        <ul>
+                            <li>
+                                <p>您可以单击评论者的姓名，以在信息框中查看其姓名、角色和电子邮件地址。 如果您有多个同名用户，此信息可帮助您识别正确的用户。 在信息框中单击评论者的名称后，会打开其用户配置文件。</p>
+                            </li>
+                            <li>
+                                <p>当在注释文本中提到您时，您的用户名会在您被标记的注释中突出显示。</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月29日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获注释和系统活动条目</a></p><p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -221,7 +266,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在提供了新的评论流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">摘要面板中现在提供了新的评论流</a></p><p>我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
