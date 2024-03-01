@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
 workflow-type: tm+mt
-source-wordcount: '13992'
+source-wordcount: '13996'
 ht-degree: 1%
 
 ---
@@ -2018,8 +2018,8 @@ ht-degree: 1%
       * [启用Adobe Workfront Goals通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe经理 {#adobe-maestro}
    * [AdobeMaestro信息](maestro/maestro-information.md)
-   * [Adobe大师概述](maestro/maestro-overview.md)
-   * [AdobeMaestro发布活动](maestro/release-activity.md)
+   * [Adobe Workfront规划功能概述](maestro/maestro-overview.md)
+   * [Adobe Workfront规划功能发布活动](maestro/release-activity.md)
    * Adobe大师架构 {#adobe-maestro-architecture}
       * [架构：文章索引](maestro/architecture/architecture-information.md)
       * [创建工作区](maestro/architecture/create-workspaces.md)
