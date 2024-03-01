@@ -6,16 +6,16 @@ description: Portfolio是Adobe Workfront中的项目或项目群的集合。 如
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
 # 删除和停用项目组合
 
-<!--Audited: 01/2024-->
+<!--Audited: 2/2024-->
 
 Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现某个项目组合与您的系统无关，则可以将其删除或停用。
 
@@ -30,26 +30,26 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档： [！UICONTROL Standard] </p>
    <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p><b>注释</b></p> <p> 如果您没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 删除和停用项目组合概述
 
@@ -71,18 +71,16 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
 
 >[!NOTE]
 >
->根据贵机构的 [!DNL Workfront] 或组管理员配置布局模板， [!UICONTROL Portfolio] 区域可能不会显示在 [!UICONTROL 主菜单]. 有关更多信息，请参阅 [使用布局模板自定义主菜单](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+>根据贵机构的 [!DNL Workfront] 或组管理员配置布局模板， [!UICONTROL Portfolio] 区域可能不会显示在 [!UICONTROL 主菜单]. 有关更多信息，请参阅 [使用布局模板自定义主菜单](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront].
-
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
 1. 单击 **[!UICONTROL Portfolio]** .
 1. 单击项目组合的名称。
 1. 单击 **更多** 菜单 ![](assets/more-icon.png) 项目组合名称的右侧，然后单击 **[!UICONTROL 取消激活Portfolio]**.
 
 ## 删除项目组合
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
-
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
 1. 单击 **[!UICONTROL Portfolio]** .
 1. 选择项目组合，然后单击 **[!UICONTROL 删除]**&#x200B;此&#x200B;项 [!UICONTROL 删除] 图标 ![](assets/delete.png).
 1. 在出现的框中，单击 **[!UICONTROL 是的，删除它]** 以确认。
