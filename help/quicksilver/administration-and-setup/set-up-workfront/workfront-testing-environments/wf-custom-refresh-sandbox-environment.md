@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您不能计划当天的刷新。 例如，如果今天是6月1日，则您可以计划刷新的最早日期是6月2日。
->* 计划的刷新在给定日期的凌晨12:00进行，具体取决于提交请求的用户的时区。
+>* 根据用户的群集（美国的群集在夜间进行刷新），计划的刷新在夜间某个时间发生。 由于队列中的其他客户以及刷新了多少数据，因此特定时间不可预测。 如果队列有许多大客户，则刷新可能要到当天晚些时候或第二天才能运行。
 >* 您的自定义刷新沙盒始终具有与生产环境相同的产品功能。 但是，当您刷新自定义刷新沙盒时，它仅保留登录屏幕背景颜色的品牌。 登录屏幕和导航栏徽标将重置为 [!DNL Workfront] 默认值，以及在刷新之前修改的任何品牌策略图像都不会显示。
 >
 
