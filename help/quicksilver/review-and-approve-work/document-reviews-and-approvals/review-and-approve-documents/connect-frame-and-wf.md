@@ -5,9 +5,9 @@ title: 连接Workfront和Frame.io
 description: Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。 项目管理和批准流程在Workfront中进行管理，审查流程在Frame.io中完成。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,11 @@ Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。
 * [将Workfront组连接到Frame.io组](#connect-a-workfront-group-to-a-frameio-team)
 * [创建Workfront项目并添加连接的组](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## 访问要求
 
-* 您的组织必须手动载入才能使用本文中描述的功能。 有关更多信息，请参阅 [Adobe Workfront和Frame.io本机集成alpha：概述](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* 您的组织必须手动载入才能使用本文中描述的功能。 有关更多信息，请参阅 [Adobe Workfront和Frame.io本机集成alpha：概述](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## 将Workfront组连接到Frame.io组
@@ -48,7 +46,7 @@ Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。
    ![](assets/connect-frame-group.png)
 1. 输入API开发人员令牌。
 1. 单击 **启动连接**.
-1. （视情况而定）选择一个Frame.io帐户。
+1. （视情况而定）如果您是多个Frame.io帐户的管理员，请选择要使用的帐户。
 
 ## 创建Workfront项目并添加连接的组
 
@@ -81,7 +79,7 @@ Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。
 
 >[!NOTE]
 >
->当前不支持子任务。
+>连接的Frame.io项目当前不支持子任务。
 
 
 1. 创建需要在Frame.io中填充的任务
@@ -92,9 +90,10 @@ Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。
 
    >[!IMPORTANT]
    >
-   >必须添加Frame.io连接的组才能在任务中查看此自定义表单。
+   >必须在“项目详细信息”区域中分配连接的Frame.io组，才能显示此表单。 有关详细信息，请参阅 [创建Workfront项目并添加连接的组](#create-a-workfront-project-and-add-a-connected-group) 本文章中。
 
-1. 启用该复选框，然后选择 **活动**.
+
+1. 启用 **此任务的集成状态** 复选框，然后选择 **活动**.
    ![](assets/frame-custom-form.png)
 
 1. 单击 **保存更改**. 项目名称旁边会显示一个Frame.io图标。
@@ -111,6 +110,12 @@ Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。
 
 ### 在Frame.io中启用项目
 
-1. 更改状态，从 **规划** 到 **当前** 或等于当前值的自定义状态。 这样即可完成集成，并在Frame.io中生成项目、任务和任何文档。
+1. 更改项目状态从 **规划** 到 **当前** 或等于当前值的自定义状态。 这样即可完成集成，并在Frame.io中生成项目、任务和任何文档。
 
 项目名称旁边的Frame.io图标变为紫色，表示集成成功。 用户将收到一封邀请他们加入Frame.io项目的电子邮件。
+
+>[!IMPORTANT]
+>
+>为Frame.io连接项目后，对项目组所做的更改不会反映在Frame.io中。
+
+

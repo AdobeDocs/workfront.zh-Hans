@@ -5,9 +5,9 @@ title: 将Frame.io资源添加到连接的Workfront项目
 description: 创意人员可以将需要审核的资源添加到Frame.io中，并将它们发送到Workfront进行正式审核和批准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 ## 先决条件
 
 * 必须将Workfront组连接到Frame.io团队。
-* 您必须将一个Workfront项目连接到Frame.io项目，并作为用户添加到启用了框架的任务中。
+* 您必须将一个Workfront项目连接到Frame.io项目，并作为用户添加到为Frame.io启用的Workfront任务。
 
 有关更多信息，请参阅 [连接Workfront和Frame.io。](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
