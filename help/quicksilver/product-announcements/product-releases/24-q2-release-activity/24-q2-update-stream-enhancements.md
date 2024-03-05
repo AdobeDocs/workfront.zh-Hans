@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有更新流和通知增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新主页小组件的快速操作中现在提供了新的评论流
+
+>[!NOTE]
+>
+>预览版本： 2024年3月1日；用于快速发布的生产版本：使用24.3版本（2024年3月14日）；面向所有客户的生产版本：使用24.4版本（2024年4月）
+
+现在，我们已在以下页面中添加了新的commending功能 **添加新更新** 新主页上“我的工作”、“我的项目”、“我的任务”和“我的问题”小组件中的快速操作按钮。
+
+有关更多信息，请参阅 [新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 新评论体验中提供的其他评论者信息
 
@@ -34,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年2月22日；用于快速版本的生产：使用24.3版本（2024年3月）；面向所有客户的生产：使用24.4版本（2024年4月）
+>预览版本： 2024年2月22日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月）
 
 为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。
 

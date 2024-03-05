@@ -7,9 +7,9 @@ description: 您可以使用布局模板配置用户在打开新主页时看到�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ ht-degree: 1%
       <p>选择用户工作区中将显示哪些小部件、这些小部件的位置，并选择背景。 请注意，虽然用户无法删除选定的构件，但可以随意移动和调整其大小以及添加其他构件。</p>
       <p>此选项卡基本上可用作小型的新Home工作区；因此，可以根据中所述的步骤对其进行自定义 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">在新主页中添加、编辑或删除构件</a>. 选择小组件并根据用户需要安排工作区。</p>
       <p>要更改背景，请执行以下步骤 <b>后台自定义</b> 在 <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">新主页入门</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>只有在布局模板中移动小组件或调整其大小才会触发用户的新主页更新其布局。 但是，添加或删除构件将触发对用户页面的更新。
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">构件设置</td> 
@@ -93,18 +100,24 @@ ht-degree: 1%
       </ul>
       <p>选择想要编辑的小组件后，右侧将显示可用选项。 这些选项包括 <b>过滤器</b>， <b>列</b>、和 <b>组</b>. 您可以：</p>
       <ul>
-        <li><b>选择用户可用的筛选器、列或组：</b><p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。</li></p>
-        <li><b>为构件设置默认筛选器或组：</b><p>将鼠标悬停在某个选项上，将显示一个按钮，允许您将该选项设置为用户的默认选项。 当前的默认页面右侧将显示一个蓝色的“默认”标记。</li></p>
-        <li><b>将现有的筛选器、列或组添加到可用选项列表中：</b><p>单击每个列表底部的加号按钮，在该列表中添加一个选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</li></p>
+      <li><p><b>选择用户可用的筛选器、列或组：</b></p>
+      <p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。</li></p>
+      <li><p><b>为构件设置默认筛选器或组：</b></p>
+      <p>将鼠标悬停在某个选项上，将显示一个按钮，允许您将该选项设置为用户的默认选项。 当前的默认页面右侧将显示一个蓝色的“默认”标记。</li></p>
+      <li><p><b>将现有的筛选器、列或组添加到可用选项列表中：</b></p>
+      <p>单击每个列表底部的加号按钮，在该列表中添加一个选项。 请注意，只能通过这种方式添加现有筛选器、字段（用于列）或组。</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >如果使用布局模板为特定构件设置默认过滤器或分组，则由于现有用户偏好设置，该过滤器或分组可能不会立即生效。 要立即应用新过滤器或分组，您或用户可能需要通过在其URL的末尾附加“/resetUser”来重置其用户偏好设置。
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. 继续自定义布局模板。
 

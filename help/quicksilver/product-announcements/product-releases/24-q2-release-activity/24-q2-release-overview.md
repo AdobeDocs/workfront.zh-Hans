@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat集成现在可用于新包类型</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>现在，使用一种新包类型（即Select、Prime或Ultimate）的帐户可以使用现有的JumpSeat集成。 要启用集成，您必须仍然拥有有效的JumpSeat订阅。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月26日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新主页小组件的快速操作中现在提供了新的评论流</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>现在，我们已在以下页面中添加了新的commending功能 <b>添加新更新</b> 新主页上“我的工作”、“我的项目”、“我的任务”和“我的问题”小组件中的快速操作按钮。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年3月1日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验中提供的其他评论者信息</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p><p>我们在新的评论体验中做出了以下改进：</p>
