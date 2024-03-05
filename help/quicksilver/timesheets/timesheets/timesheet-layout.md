@@ -7,9 +7,9 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ ht-degree: 1%
 
 ## 摘要面板
 
+<div class="preview">
+
+预览环境中的示例：
+![摘要面板](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+生产环境中的示例：
 ![摘要面板](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 您可以访问“摘要”面板，查看时间表中显示的任务或问题。 从此处，您可以对任务和问题进行评论，或更新其信息。 有关更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
