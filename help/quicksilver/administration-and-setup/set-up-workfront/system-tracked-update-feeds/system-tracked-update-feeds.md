@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 6%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
 # 系统跟踪更新
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -51,15 +53,15 @@ ht-degree: 6%
    * [!UICONTROL 项目]
    * [!UICONTROL 任务]
    * [!UICONTROL 问题]
-   * [!UICONTROL 项目组合]
-   * [!UICONTROL 项目群]
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL 项目]
    * [!UICONTROL 用户]
    * [!UICONTROL 模板]
    * [!UICONTROL 模板任务]
    * [!UICONTROL 团队]
    * [!UICONTROL 文档]
-   * [!UICONTROL 时间表]
-   * [!UICONTROL 叙述]
+   * [!UICONTROL 工时表]
+   * [!UICONTROL Story]
 
      在 [!DNL Workfront]，故事是任务。
    * [!UICONTROL 迭代]
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      有关新评论体验的更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">使用新的评论体验时，用户无法将评论添加到系统更新。 但是，对旧版注释体验中的系统活动记录所做的任何回复，都会在新版注释体验中的“系统活动”选项卡中以只读形式填充。</span>
    * 使用旧版评论体验时，系统和用户更新显示在一个连续馈送中。
 
    * 使用旧版评论体验时，用户可以默认查看系统更新，也可以选择不显示这些更新。 使用新的注释体验时，无法禁用系统更新。
@@ -98,14 +101,14 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Workfront记录以下对象的系统跟踪更新，但没有选项可禁用显示这些对象：
 
-   * [!UICONTROL 项目组合]
-   * [!UICONTROL 项目群]
+   * [!UICONTROL Portfolio]
+   * [!UICONTROL 项目]
    * [!UICONTROL 迭代]
 
 * [!DNL Workfront] 管理员可以定义系统应跟踪的更改类型 [!UICONTROL 更新] 区域。 并非所有具有 [!UICONTROL 更新] 区域也可供配置 [!UICONTROL 更新] 信息源。 以下对象具有 [!UICONTROL 更新] 捕获系统跟踪的更新馈送，但没有可配置的更新馈送的区域：
 
    * [!UICONTROL 文档]
-   * [!UICONTROL 时间表]
+   * [!UICONTROL 工时表]
    * [!UICONTROL 迭代]
    * [!UICONTROL 目标]
 
