@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ ht-degree: 0%
 * 当在注释文本中提到您时，您的用户名会在您被标记的注释中突出显示。
 
 有关更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## 新评论体验中的“系统活动”选项卡支持只读评论
+
+>[!NOTE]
+>
+>预览版本： 2024年2月22日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月）
+
+对旧版注释体验中的系统活动记录所做的注释现在以只读形式填充到新注释体验的“系统活动”选项卡中。 您无法回复新评论体验中的系统活动记录。
+
+有关更多信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 新的更新流选项卡，用于捕获注释和系统活动条目
 

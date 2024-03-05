@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -284,6 +284,24 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验中的“系统活动”选项卡支持只读评论</a></p><p>对旧版注释体验中的系统活动记录所做的注释现在以只读形式填充到新注释体验的“系统活动”选项卡中。 您无法回复新评论体验中的系统活动记录。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>用于快速版本的生产：使用24.3版本（2024年3月）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的更新流选项卡，用于捕获注释和系统活动条目</a></p><p>为了让您按时间顺序查看注释和系统活动日志，我们将在所有对象的“更新”区域引入第三个选项卡。 “全部”选项卡在一个具有凝聚力的流中捕获用户评论和系统活动评论。</p>
