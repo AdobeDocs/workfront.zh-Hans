@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 3%
 
 ---
 
 # 使用表单设计器设计表单
+
+{{highlighted-preview}}
 
 您可以使用表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -80,7 +82,9 @@ ht-degree: 3%
    * [添加计算字段](#add-calculated-fields)
    * [添加单选按钮、复选框组和下拉列表](#add-radio-buttons-checkboxes-and-dropdowns)
    * [添加预输入和日期字段](#add-typeahead-and-date-fields)
+   * [添加外部查找字段](#add-external-lookup-fields)
    * [添加图像、PDF和视频](#add-images-pdfs-and-videos)
+   * [添加Workfront本机字段](#add-workfront-native-fields)
    * [添加Adobe XD文件](#add-adobe-xd-files)
 
 ## 向自定义表单中添加新字段或现有字段
@@ -645,7 +649,7 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识构件的方式。</p> <p>首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> <p><b>重要</b>：虽然可以这样做，但我们建议，在您或其他用户开始使用小部件中的自定义表单后，请勿更改此名称。 如果这样做，系统将不再识别该构件可能在Workfront的其他区域中被引用的构件。 </p> <p>每个构件名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。 </p> </td> 
+      <td> <p>（必需）此名称是系统标识构件的方式。</p> <p>首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> <p><b>重要</b>：虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再识别该构件可能在Workfront的其他区域中被引用的构件。 </p> <p>每个构件名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ The Workfront Mobile app -->
    或
 
    单击 **保存并关闭**.
+
+<div class="preview">
+
+### 添加Workfront本机字段
+
+您可以将Workfront原生字段添加到自定义表单。 将自定义表单附加到对象时，会从对象数据填充字段。 例如，附加到项目的自定义表单上的描述字段将拉入项目描述。 （如果没有可用数据，则字段可能显示“不适用”。）
+
+1. 在屏幕左侧，查找 **原生字段** 然后将其拖动到画布上的某个部分。
+1. 在屏幕右侧，配置自定义字段的选项：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">标签</td> 
+      <td> <p>（必需）键入要在该字段上方显示的描述性标签。 您可以随时更改标签。</p> <p><b>重要</b>：避免在此标签中使用特殊字符。 它们在报表中无法正确显示。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">名称</td> 
+      <td> <p>（必需）此名称是系统标识字段的方式。</p><p> 当您首次配置字段并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
+      <p><b>重要</b>：
+      <ul> 
+      <li>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再识别现在可能在Workfront其他区域引用它的字段。</p> </li>
+      <li> <p>每个字段名称在贵组织的Workfront实例中必须唯一。 这样，您就可以重复使用已经为其他自定义表单创建的表单。</p> </li>
+      <li><p>我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">说明</td> 
+      <td> <p>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">参考字段</td> 
+      <td><p>（必需）选择Workfront原生字段。<p><p>仅表单对象的本机字段可用。 例如，如果表单设计器顶部的“对象类型”列表显示“项目”，则您将能够选择项目的本机字段，但不能选择特定于任务的字段。</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">大小</td> 
+      <td>（可选）根据需要更改字段的显示大小。</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 要保存更改，请单击 **应用** 并转到另一个部分以继续构建您的表单。
+
+   或
+
+   单击 **保存并关闭**.
+
+</div>
 
 ### 添加Adobe XD文件
 
