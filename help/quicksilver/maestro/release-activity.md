@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ ht-degree: 0%
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
 
-<!--
-## Week of March 4, 2024
+## 2024年3月4日起一周
 
-### Change row height in the table view
+### 表格视图中显示的记录详细信息概览
 
-Production: March 7, 2024 
+生产： 2024年3月7日
 
-Preview: To be determined 
+预览：待定
 
-You now have an option to modify the height of a row when displaying records in the table view.
+为了在使用表格视图时更便于查看有关记录的附加信息，我们引入了一个新面板，该面板可快速查看记录的详细信息。 以下是此面板中包含的一些信息：
 
-You can update the row height to one of the following sizes:  
+* 相关记录详细信息概览
 
-* Short 
-* Medium
-* Tall.  
+* 能够修改记录信息
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* 用于打开记录的“详细信息”页面的链接
 
-### New tabbed design for record views 
+有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### 更改表格视图中的行高
 
-Preview: To be determined 
+生产： 2024年3月7日
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+预览：待定
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+现在，在表格视图中显示记录时，您可以选择修改行高度。
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+您可以将行高度更新为以下大小之一：
 
-### Dynamic design of a record view
+* 短
+* 中
+* 高。
 
-Production: March 7, 2024
-Preview: To be determined 
+有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### 记录视图的新的选项卡式设计
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+生产： 2024年3月7日
 
-### New calendar view for records
+预览：待定
 
-Production: March 7, 2024 
+为了提供更好的导航和易用性，我们重新设计了记录视图的显示方式。 现在，视图水平显示，作为记录类型页面上的选项卡，因此您可以轻松地浏览它们。 在此增强功能之前，视图显示在“视图”下拉菜单中。
 
-Preview: To be determined 
+视图按添加日期从左到右的顺序显示。 共享视图还按共享时间顺序列出。
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+有关更多信息，请参阅 [管理记录视图](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### 记录视图的动态设计
 
--->
+生产： 2024年3月7日预览：待定
+
+我们更新了记录类型页面中视图的外观。 新视图会动态响应，并快速调整以适合屏幕大小。 工具栏选项标签已隐藏，以便工具栏在较小的屏幕上更易于使用。
+
+有关更多信息，请参阅以下文章：
+* [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### 新的记录日历视图
+
+生产： 2024年3月7日
+
+预览：待定
+
+您现在可以在日历视图中显示记录。 记录类型中必须至少有两个日期字段才能创建日历视图。
+
+有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## 2024年2月26日起一周
 
