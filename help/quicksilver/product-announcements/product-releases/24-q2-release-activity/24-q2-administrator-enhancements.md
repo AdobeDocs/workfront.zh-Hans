@@ -4,9 +4,9 @@ description: 2024年第二季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Workfront本机字段现在可供您添加到自定义表单中。 利用此新�
 
 此功能仅在表单设计器测试版中可用，在旧版表单生成器中不可用。
 
-有关此功能的Experience League文章将于3月7日更新。
+有关更多信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## 属性映射现在可用于已迁移到Adobe IMS的组织
 
@@ -55,7 +57,7 @@ Workfront系统管理员现在可以为已迁移到Adobe IMS的组织设置用�
 
 以前，此功能仅适用于尚未载入Adobe IMS的组织。
 
-有关配置属性映射的说明，请参阅 **在Adobe统一体验中映射用户属性** 在文章中 [映射用户属性并自动配置新用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+有关配置属性映射的说明，请参阅 [在Adobe统一体验中映射用户属性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 在文章中 **映射用户属性并自动配置新用户**.
 
 ## 跳过逻辑和显示逻辑现在可在表单设计器测试版中使用
 

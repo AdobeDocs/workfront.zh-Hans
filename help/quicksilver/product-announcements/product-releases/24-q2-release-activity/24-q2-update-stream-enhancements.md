@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年2月22日；用于快速版本的生产：使用24.3版本（2024年3月）；面向所有客户的生产：使用24.4版本（2024年4月）
+>预览版本： 2024年2月22日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月）
 
 我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。
 

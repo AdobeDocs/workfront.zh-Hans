@@ -4,9 +4,9 @@ description: 在2024年第二季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年2月8日；用于快速发布的生产版本：用于24.3版本（2024年3月）；用于季度发布的生产版本：用于24.4版本（2024年4月）
+>预览版本： 2024年2月8日；用于快速发布的生产版本：用于24.3版本（2024年3月14日）；用于季度发布的生产版本：用于24.4版本（2024年4月）
 
 我们更新了“设置”>“自定义Forms”区域中适用于Forms、字段和部分的选项卡，使其设计更加现代化，与Workfront的其他区域一致。 现在，您可以从左侧导航菜单中访问三个区域。 过滤器、视图和分组仍可用于列表。 更新的设计适用于在新表单设计器和旧表单生成器中创建的自定义表单、字段和部分。
 
