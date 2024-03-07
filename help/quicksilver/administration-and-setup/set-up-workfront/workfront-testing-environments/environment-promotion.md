@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,7 @@ SessionID: abc1234
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -250,7 +250,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-#### 个回应
+#### 响应
 
 ```json
 200
@@ -294,7 +294,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -314,7 +314,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 _空_
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -359,7 +359,7 @@ _空_
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -379,7 +379,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 _空_
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -476,7 +476,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```
 
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -502,7 +502,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 }
 ```
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -560,7 +560,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -580,7 +580,7 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 _空_
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -621,11 +621,15 @@ Deleted
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING ，并且 <code>targetId</code> 在中捕获 <code>translationmap</code>.</p><p>当此操作在 <code>translationmap</code> 提供给 <code>/install</code> 终结点，安装服务将不会创建记录。 但是，它会使用 <code>targetId</code> 包括在可能引用此记录的其他对象的映射条目中。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注释:</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中构建包的沙盒中“默认组”的描述已更改，并且目标环境中的描述值不同，则在使用此项安装后，值将保持不变 <code>translationmap</code>.</li></ul></td> 
+   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING ，并且 <code>targetId</code> 在中捕获 <code>translationmap</code>.</p><p>当此操作在 <code>translationmap</code> 提供给 <code>/install</code> 终结点，安装服务将不会创建记录。 但是，它会使用 <code>targetId</code> 包括在可能引用此记录的其他对象的映射条目中。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注意：</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中构建包的沙盒中“默认组”的描述已更改，并且目标环境中的描述值不同，则在使用此项安装后，值将保持不变 <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>覆盖</td> 
+   <td><p>此操作不会自动设置。</p><p>此操作提供更新目标环境中存在的对象的功能。 它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。<ul><li>用户可以更新测试环境中的对象，然后使用OVERWRITING操作更新目标环境中的该对象。</p></li><li><p>如果用户最初安装了一个升级包，以后又有一个新的（或更新的）升级包包含对初始包中对象的更改，则用户可以使用“覆盖”来替换（覆盖）以前安装的对象。 </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>此操作不会自动设置。</p><p>它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。</p><p><b>注释: </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
+   <td><p>此操作不会自动设置。</p><p>它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。</p><p><b>注释： </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -638,7 +642,7 @@ Deleted
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -662,7 +666,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 {}
 ```
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -789,7 +793,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -814,7 +818,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 }
 ```
 
-#### 个回应
+#### 响应
 
 ```
 202
@@ -845,7 +849,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -865,7 +869,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 _空_
 
-#### 个回应
+#### 响应
 
 ```
 200
@@ -942,7 +946,7 @@ _空_
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}
 ```
 
-#### 标题
+#### 标头
 
 ```json
 {
@@ -962,7 +966,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 _空_
 
-#### 个回应
+#### 响应
 
 ```
 200
