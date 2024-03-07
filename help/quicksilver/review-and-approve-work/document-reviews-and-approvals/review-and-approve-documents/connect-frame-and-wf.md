@@ -5,7 +5,7 @@ title: 连接Workfront和Frame.io
 description: Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。 项目管理和批准流程在Workfront中进行管理，审查流程在Frame.io中完成。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # 连接Workfront和Frame.io
 
+>[!IMPORTANT]
+>
+>本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront在审核和批准流程中使用Frame.io来会见希望工作的人。 项目管理和批准流程在Workfront中进行管理，审查流程在Frame.io中完成。 您必须完成以下所有部分才能成功设置集成：
 
 * [将Workfront组连接到Frame.io组](#connect-a-workfront-group-to-a-frameio-team)
 * [创建Workfront项目并添加连接的组](#create-a-workfront-project-and-add-a-connected-group)
 
-本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## 访问要求
 
