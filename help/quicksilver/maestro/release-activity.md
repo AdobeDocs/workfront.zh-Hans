@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '4603'
+source-wordcount: '4316'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,6 @@ ht-degree: 0%
 
 ## 2024年3月4日起一周
 
-### 表格视图中显示的记录详细信息概览
-
-生产： 2024年3月7日
-
-预览：待定
-
-为了在使用表格视图时更便于查看有关记录的附加信息，我们引入了一个新面板，该面板可快速查看记录的详细信息。 以下是此面板中包含的一些信息：
-
-* 相关记录详细信息概览
-
-* 能够修改记录信息
-
-* 用于打开记录的“详细信息”页面的链接
-
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
-
 ### 更改表格视图中的行高
 
 生产： 2024年3月7日
@@ -66,37 +50,79 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-### 记录视图的新的选项卡式设计
+<!--
+## Week of March 11, 2024
 
-生产： 2024年3月7日
+### At-a-glance record details display in the table view
 
-预览：待定
+Production: March 14, 2024
 
-为了提供更好的导航和易用性，我们重新设计了记录视图的显示方式。 现在，视图水平显示，作为记录类型页面上的选项卡，因此您可以轻松地浏览它们。 在此增强功能之前，视图显示在“视图”下拉菜单中。
+Preview: To be determined 
 
-视图按添加日期从左到右的顺序显示。 共享视图还按共享时间顺序列出。
+To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
 
-有关更多信息，请参阅 [管理记录视图](/help/quicksilver/maestro/views/manage-record-views.md).
+* relevant record details at a glance 
 
-### 记录视图的动态设计
+* ability to modify record information 
 
-生产： 2024年3月7日预览：待定
+* a link to open the record's Details page 
 
-我们更新了记录类型页面中视图的外观。 新视图会动态响应，并快速调整以适合屏幕大小。 工具栏选项标签已隐藏，以便工具栏在较小的屏幕上更易于使用。
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
-有关更多信息，请参阅以下文章：
-* [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md)
-* [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+### New tabbed design for record views 
 
-### 新的记录日历视图
+Production: March 14, 2024 
 
-生产： 2024年3月7日
+Preview: To be determined 
 
-预览：待定
+For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
 
-您现在可以在日历视图中显示记录。 记录类型中必须至少有两个日期字段才能创建日历视图。
+Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
 
-有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+
+### Dynamic design of a record view
+
+Production: March 14, 2024
+Preview: To be determined 
+
+We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+
+For more information, see the following articles: 
+* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
+* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### New calendar view for records
+
+Production: March 14, 2024 
+
+Preview: To be determined 
+
+You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+
+For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+
+### Allow System Administrators to manage all shared views 
+
+Production: < date > 
+
+Preview: To be determined 
+
+To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
+
+For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+### Unauthorized page when sharing a view without permissions
+
+ Production: < date > 
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+-->
 
 ## 2024年2月26日起一周
 

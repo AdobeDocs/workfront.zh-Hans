@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ hide: yes
 1. 创建表格视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. （可选）单击 **行高**，然后从以下选项中进行选择以修改表行的高度：
+   * 短
+   * 中
+   * 高
 
 1. 更新以下视图元素，如以下子部分所述：
    * [列（或字段）](#add-columns-or-fields)

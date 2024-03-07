@@ -1,13 +1,13 @@
 ---
 title: 管理记录视图
-description: 使用Adobe管理器时，可以在表格或时间线视图中显示记录。
+description: 使用Adobe Workfront规划功能时，可在表、时间轴或日历视图中显示记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe管理器中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
+在Adobe Workfront规划功能区域中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
 
 * 表
 
   有关更多信息，请参阅 [管理表视图](../views/manage-the-table-view.md).
+
 * 时间线
 
   有关更多信息，请参阅 [管理时间线视图](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## 访问要求
 
@@ -46,7 +51,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Workfront规划功能没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ ht-degree: 0%
  </tbody>
 </table>
 
-## 使用Maestro视图时的注意事项
+## 使用记录视图时的注意事项
 
-* Maestro中的视图是特定于记录类型的。 不能将同一视图应用于两种不同的记录类型。
+* Workfront规划功能区域中的视图特定于记录类型。 不能将同一视图应用于两种不同的记录类型。
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 为操作记录类型构建视图与为分类记录类型构建视图相同。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
-* 以下元素对于Maestro中的每个视图都是唯一的：
+* 以下元素对于每个记录视图都是唯一的：
 
    * 筛选
    * 分组
@@ -100,7 +105,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  > 由于Maestro当前处于Beta状态，因此某些视图元素可能不可用于这两个视图。
+  > 由于Adobe Workfront规划功能当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
 
 本文介绍了有关Maestro视图的以下信息：
 
@@ -111,6 +116,8 @@ ht-degree: 0%
 * [共享视图](#share-a-view)
 
 ## 表格视图和时间线视图之间的异同
+
+<!-- should we include Calendar here or remove this section???-->
 
 下表显示了Maestro中的表和时间线视图之间的异同：
 
@@ -180,7 +187,7 @@ ht-degree: 0%
 
    或者，单击 **下一个**，创建时间线时 <!--or calendar--> 视图。
 
-   默认情况下，Maestro将视图命名为“Table &lt; number >”或“Timeline &lt; number >”。 该数字是自动生成的增量。
+   默认情况下，Workfront将视图命名为“Table &lt; number >”或“Timeline &lt; number >”， <!--or "Calendar < number >"-->. 该数字是自动生成的增量。
 
 1. （视情况而定）为将在时间轴中显示的记录选择开始日期和结束日期 <!--or calendar--> 视图，然后单击 **创建**.
 1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称。 <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ ht-degree: 0%
 1. 单击视图下拉菜单，将鼠标悬停在列表中的某个视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **删除**.
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 
-   该视图将为所有能够访问Maestro区域的用户删除，并且无法恢复。
+   所有有权访问记录区域的用户都将删除该视图，并且无法恢复它。
 
 ## 共享视图
 
