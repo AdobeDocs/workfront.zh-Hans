@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '5592'
+source-wordcount: '5620'
 ht-degree: 3%
 
 ---
@@ -399,8 +399,8 @@ ht-degree: 3%
    * 用户
    * 组
    * 工作角色
-   * Portfolio
-   * 项目
+   * 项目组合
+   * 项目群
    * 项目
    * 团队
    * 模板
@@ -511,6 +511,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >外部查找功能在“文档”或“用户”对象上不可用。
+>
+>仪表板当前不支持来自自定义表单的外部查找字段。 您无法内联编辑字段值，并且它可能在功能板中无法正常显示。
 
 要添加外部查找，请执行以下操作：
 
