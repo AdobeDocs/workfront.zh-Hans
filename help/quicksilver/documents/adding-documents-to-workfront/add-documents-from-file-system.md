@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中将文档添加到多个区域中的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Workfront站点通过以下方式防止病毒和其他恶意内容通过文档�
 
 ### 文件名限制 {#file-name-restrictions}
 
-上载到Workfront的文件不能包含文件名中的某些字符。 如果文件在文件名中包含以下任何字符，则在上传文件时，将从文件名中删除这些字符： `< > { }`.
+上载到Workfront的文件不能包含文件名中的某些字符。 如果文件在文件名中包含以下任何字符，则在上传文件时，将从文件名中删除这些字符： `! # % * \ | ' " / ? < > { } [ ]`.

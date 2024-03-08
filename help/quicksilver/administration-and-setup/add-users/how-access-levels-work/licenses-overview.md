@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-您的组织在购买Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供3种类型的Workfront许可证之一。
+您的组织在购买Adobe Workfront时购买了特定数量的许可证。 作为Workfront管理员，您在为每个用户分配访问级别时，可为该用户提供2种类型的Workfront许可证之一。
 
 ## 新的Workfront许可证和新访问级别如何绑定
 
-这3种新Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
+这两种类型的新Workfront许可证允许以不同级别访问Workfront。 每个访问级别都附加到其中一个许可证。
 
 您不可以为用户分配许可证，而是为其分配附加到该许可证的访问级别。
 
