@@ -1,13 +1,13 @@
 ---
 title: 管理表视图
-description: 访问AdobeMaestro中的记录类型页时，可以在表格视图中显示记录及其字段。
+description: 访问Adobe Workfront规划功能中的记录类型页面时，可在表格视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-访问AdobeMaestro中的记录类型页时，可以在表格视图中显示记录及其字段。
+访问Adobe Workfront规划功能中的记录类型页面时，可在表格视图中显示记录及其字段。
 
-有关Maestro视图以及如何管理这些视图的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
+有关记录视图以及如何管理它们的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
 
 ## 访问要求
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Maestro没有访问级别控制 </p>  
+   <td> <p>AdobeWorkfort规划功能没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ hide: yes
 
 ### 添加列（或字段） {#add-columns}
 
-Maestro表格视图的列标题显示与视图中的记录关联的字段。 表格视图中显示的相同字段也会显示在Maestro记录的“详细信息”部分中。 有关更多信息，请参阅 [编辑记录](../records/edit-records.md).
+表格视图的列标题显示与视图中记录关联的字段。 表格视图中显示的相同字段也会显示在记录的详细信息部分中。 有关更多信息，请参阅 [编辑记录](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 在一个表格视图中最多可添加500个字段（或列）。
 
 1. 转到记录类型页面并选择 **表** 从“视图”下拉菜单中查看。
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 开始添加字段（或列），如文章中所述 [创建字段](../fields/create-fields.md).
 
    您添加的列对访问记录类型的所有用户均可见，并且作为新字段添加到所选记录类型的记录的“详细信息”页面上。
@@ -212,11 +214,13 @@ Maestro表格视图的列标题显示与视图中的记录关联的字段。 表
 
 ### 添加行（或记录） {#add-rows}
 
-Maestro表格视图的行显示所选记录类型的单个记录。
+表格视图的行显示所选记录类型的单个记录。
 
-在Maestro中，一个记录类型最多可以有10,000条记录（或行）。
+对于记录类型，最多可以有50,000条记录（或行）。
 
 1. 转到记录类型页面并选择 **表** 从“视图”下拉菜单中查看。
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 开始添加记录（或行），如文章中所述 [创建记录](../records/create-records.md).
 
    您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
@@ -359,7 +363,7 @@ Maestro表格视图的行显示所选记录类型的单个记录。
 请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在Maestro视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
 &lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。

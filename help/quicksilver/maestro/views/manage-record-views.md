@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
   有关更多信息，请参阅 [管理时间线视图](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* 日历
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## 访问要求
 
@@ -107,7 +107,7 @@ ht-degree: 0%
   >
   > 由于Adobe Workfront规划功能当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
 
-本文介绍了有关Maestro视图的以下信息：
+本文介绍了有关记录视图的以下信息：
 
 * [创建和编辑视图](#create-or-edit-record-views)
 * [删除视图](#delete-views)
@@ -115,32 +115,32 @@ ht-degree: 0%
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [共享视图](#share-a-view)
 
-## 表格视图和时间线视图之间的异同
+## 记录视图之间的异同
 
-<!-- should we include Calendar here or remove this section???-->
-
-下表显示了Maestro中的表和时间线视图之间的异同：
+下表显示了表、时间轴和日历视图之间的异同：
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 功能 | 表格视图 | 时间线视图 |
-|-----------------------------------------------------------------------|------------|---------------|
-| 在列表或表中显示记录 | ✓ {\f13 } |              |
-| 默认情况下，将所有字段显示为表中的列 | ✓ {\f13 } |              |
-| 隐藏或显示字段（或列） | ✓ {\f13 } |               |
-| 编辑每个记录的字段值 | ✓ {\f13 } |               |
-| 将记录添加为视图中的新行 | ✓ {\f13 } |               |
-| 在视图中添加字段作为新列 | ✓ {\f13 } |               |
-| 从外部列表中复制行并将其粘贴到表中 | ✓ {\f13 } |               |
-| 在时间轴中显示记录 |            | ✓ {\f13 } |
-| 筛选记录 | ✓ {\f13 } | ✓ {\f13 } |
+| 功能 | 表格视图 | 时间线视图 | 日历视图 |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| 在列表或表中显示记录 | ✓ {\f13 } |              | |
+| 默认情况下，将所有字段显示为表中的列 | ✓ {\f13 } |              |    |
+| 隐藏或显示字段（或列） | ✓ {\f13 } |               |    |
+| 编辑每个记录的字段值 | ✓ {\f13 } |               |             |
+| 将记录添加为视图中的新行 | ✓ {\f13 } |               |        |
+| 在视图中添加字段作为新列 | ✓ {\f13 } |               |         |
+| 从外部列表中复制行并将其粘贴到表中 | ✓ {\f13 } |               |          |
+| 在时间轴中显示记录 |            | ✓ {\f13 } |             |
+| 筛选记录 | ✓ {\f13 } | ✓ {\f13 } |           |
+| 显示日历中的记录 |           |              | ✓ {\f13 } |
 | 组记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 排序记录 | ✓ {\f13 } |              |
-| 颜色代码记录 |           | ✓ {\f13 } |
+| 颜色代码记录 |           | ✓ {\f13 } | ✓ {\f13 } |
 | 颜色代码分组 |           | ✓ {\f13 } |
 | 搜索特定记录 | ✓ {\f13 } | ✓ {\f13 } |
-| 共享视图 | ✓ {\f13 } | ✓ {\f13 } |
-| 从视图中打开记录的“详细信息”页面 | ✓ {\f13 } | ✓ {\f13 } |
+| 共享视图 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 从视图中打开记录的“详细信息”页面 | ✓ {\f13 } | ✓ {\f13 } |    |
+
 
 ## 创建或编辑视图 {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ ht-degree: 0%
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. 单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表视图
 
    或
 
-   选择现有 **时间线视图** ![](assets/timeline-view-icon.png) 查看或单击 **“创建视图”>“时间线”** 创建时间线视图。
+   选择现有 **时间线视图** ![](assets/timeline-view-icon.png) 或单击 **“创建视图”>“时间线”** 创建时间线视图。
+
+   或
+
+   选择现有 **日历视图** ![](assets/calendar-view-icon.png) 或单击 **创建视图>日历** 创建日历视图。
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    要创建时间线视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”选项将灰显。
+   >    要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”或“日历”选项将灰显。
 
-1. （可选）更新视图的名称，然后单击 **创建** 保存表格视图
+1. （视情况而定）单击 **下一个**，在创建时间轴或日历视图时。
 
-   或者，单击 **下一个**，创建时间线时 <!--or calendar--> 视图。
+   默认情况下，Workfront会为视图提供以下名称之一：
 
-   默认情况下，Workfront将视图命名为“Table &lt; number >”或“Timeline &lt; number >”， <!--or "Calendar < number >"-->. 该数字是自动生成的增量。
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. （视情况而定）为将在时间轴中显示的记录选择开始日期和结束日期 <!--or calendar--> 视图，然后单击 **创建**.
+   该数字是自动生成的增量。
+
+1. （视情况而定）选择 **开始** 和 **结束日期** 时间轴或日历视图中显示的记录。
+1. 单击 **创建**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称。 <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. （可选）要管理特定类型的视图，请参阅以下文章：
 
    * [管理表视图](../views/manage-the-table-view.md)
    * [管理时间线视图](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## 删除视图
@@ -211,7 +224,7 @@ ht-degree: 0%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. 单击视图下拉菜单，将鼠标悬停在列表中的某个视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **删除**.
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 

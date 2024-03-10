@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Adobe Workfront规划功能是Adobe Workfront提供的一项新功能。 规划�
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **日历视图**：以日历格式显示至少具有两个日期类型字段的记录。
+     ![](assets/calendar-view-example.png)
 
 
 有关更多信息，请参阅 [管理记录视图](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Adobe Workfront规划功能是Adobe Workfront提供的一项新功能。 规划�
 
    1. 单击记录类型的名称以打开记录的页面。 默认情况下，记录页面会在“表”视图中打开。
 
-   1. 通过执行以下任一操作自定义“表”视图：
+      您还可以创建时间轴或日历视图。
 
-      * 通过单击 **+** 图标。 视图中的列是与记录类型关联的字段。
-      * 通过单击 **+** 图标。 视图中的行是所选记录类型的唯一记录。
-      * 单击 **过滤器** 以筛选在记录类型页面上显示的信息。
+   1. 在表视图中，通过添加行来开始添加记录
 
-   1. 单击记录名称可在记录的“详细信息”页面中查看详细信息。
+      或
 
-   1. 从创建时间线视图 **视图** 记录类型页面右上角的下拉菜单
-
-   1. 通过更新筛选器、分组或设置来自定义时间轴视图。
+      通过添加列开始添加记录字段。
 
 ## Adobe Workfront规划功能发布活动
 

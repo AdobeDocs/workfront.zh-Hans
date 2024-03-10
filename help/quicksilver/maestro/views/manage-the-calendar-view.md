@@ -4,9 +4,9 @@ description: 您可以在日历视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 您可以从记录类型页在日历视图中显示记录及其字段。
 
-有关Maestro视图以及如何管理这些视图的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
+有关Adobe Workfront规划功能视图以及如何管理这些视图的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
 
 ## 访问要求
 
@@ -50,7 +50,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Maestro没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront规划功能没有访问级别控制  </p>  
 </td>
   </tr>
 
@@ -94,11 +94,11 @@ hide: yes
 请考虑以下事项：
 
 * 仅当至少有两个日期字段与记录类型关联时，才能创建日历视图。 如果有一个或没有与记录类型关联的日期字段，则“日历”视图选项将灰显。
-* 以下方案：
+* 存在以下情况：
 
-   * 当开始日期和结束日期没有值时，记录不会显示在日历上
+   * 当“起始日期”和“终止日期”均没有值时，这些记录不会显示在日历中
    * 当“开始”或“结束”日期没有值时，记录显示为一天事件
-   * 当开始日期晚于结束日期时，记录不会显示在日历上。
+   * 当开始日期在结束日期之后时，该记录不会显示在日历上。
 
 要管理日历视图，请执行以下操作：
 
@@ -107,7 +107,7 @@ hide: yes
 
    ![](assets/calendar-view-example.png)
 
-   与您选择的记录类型关联的记录在日历中显示为条形。
+   与您选择的记录类型关联的记录在日历中显示为条形。 栏的颜色与记录图标的颜色匹配。
 
 1. 执行以下操作之一以浏览日历：
 

@@ -1,13 +1,13 @@
 ---
 title: 管理时间线视图
-description: 访问AdobeMaestro中的记录类型页面时，可以在时间轴视图中显示记录。
+description: 访问Adobe Workfront规划功能中的记录类型页面时，可在时间轴视图中显示记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-访问AdobeMaestro中的记录类型页面时，可以在时间轴视图中显示记录。
+访问Adobe Workfront规划功能中的记录类型页面时，可在时间轴视图中显示记录。
 
-有关主视图的信息，请参见 [在Adobe大师中管理记录视图](../views/manage-record-views.md).
+有关记录视图的信息，请参见 [管理记录视图](../views/manage-record-views.md).
 
 ## 访问要求
 
@@ -51,7 +51,7 @@ role: User
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ role: User
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Maestro没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront规划功能没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ role: User
    * 当开始日期和结束日期没有值时
    * 当“开始”或“结束”日期没有值时
    * 当开始日期在结束日期之后时
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 要管理时间线视图，请执行以下操作：
 
@@ -196,7 +185,7 @@ role: User
 在时间线视图中使用分组时，请考虑以下事项：
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
-* 您可以在Maestro视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
+* 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
 * 在使用API时，您最多可以应用4个级别的分组。
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的分组。 查看同一时间轴视图的两个用户会看到当前应用的相同分组。
 * 不能为时间线视图命名您构建的分组。
@@ -218,6 +207,8 @@ role: User
 1. （可选）重复上述步骤以添加最多3个分组。
 
    为分组选择的字段数将显示在分组图标旁边。
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

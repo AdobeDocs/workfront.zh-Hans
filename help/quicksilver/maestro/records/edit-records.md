@@ -1,13 +1,13 @@
 ---
 title: 编辑记录
-description: 您可以在Adobe大师中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
+description: 您可以在Adobe Workfront规划功能中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以通过编辑与记录关联的字段值，在AdobeMaestro中编辑记录信息。
+您可以通过编辑与记录关联的字段值，在Adobe Workfront规划功能中编辑记录信息。
 
 必须先创建记录类型，然后才能开始创建和编辑记录。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问控制 </p>  
+   <td> <p>Adobe Workfront规划功能没有访问控制 </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ ht-degree: 1%
 
 您可以从以下区域编辑记录：
 
-* [从记录的详细信息页面](#edit-a-record-from-the-records-details-page)
 * [从记录类型的表格视图中](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### 从记录的“详细信息”页面编辑记录
-
-{{step1-to-maestro}}
-
-您上次访问的工作区将打开。
-
-1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
-1. 执行下列操作之一：
-
-   * 从 **表** 视图，单击记录的名称。
-   * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * 在“时间轴”视图中，单击记录栏。
-
-   记录 **详细信息** 页面将打开。
-
-1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **编辑**
-
-   或
-
-   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. 单击 **保存更改**. <!--logged a bug for this - this needs to be "Save"-->
+* [从记录的详细信息页面](#edit-a-record-from-the-records-details-page)
 
 ### 从记录类型的表视图中编辑记录
 
@@ -144,7 +117,7 @@ ht-degree: 1%
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 下拉菜单（位于表的右上角），选择 **表** 视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）从 **视图** 下拉菜单 <!--tab--> 在表的右上角，选择 **表** 视图。 该视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
 1. 单击记录行内部以开始编辑有关内联记录的信息。
@@ -171,6 +144,16 @@ ht-degree: 1%
 
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 A **已保存** 指示器会短暂显示在表格视图的右上角，表示已保存更改。
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
 
@@ -204,3 +187,33 @@ ht-degree: 1%
    >    您可以在一行中多次使用键盘快捷键来撤消多项更改。
 
 1. （可选）向记录中添加缩略图。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### 从记录的“详细信息”页面编辑记录
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+您上次访问的工作区将打开。
+
+1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+1. 执行下列操作之一：
+
+   * 从 **表** 视图，单击记录的名称。
+   * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * 在“时间轴”视图中，单击记录栏。
+
+   记录 **详细信息** 页面将打开。
+
+1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **编辑**
+
+   或
+
+   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. 单击 **保存更改**. <!--logged a bug for this - this needs to be "Save"-->
