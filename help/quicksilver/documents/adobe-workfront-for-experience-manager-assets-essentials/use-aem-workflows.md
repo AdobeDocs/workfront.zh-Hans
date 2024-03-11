@@ -6,14 +6,16 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets集成中使用工作流
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 Workfront管理员可以在Workfront中配置工作流，然后将它们分配给项目模板。 使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
 
@@ -107,6 +109,10 @@ ht-degree: 0%
 
 ### 将工作流添加到现有项目
 
+>[!NOTE]
+>
+>创建项目时运行的工作流（例如链接文件夹创建）不会在模板附加到现有项目时运行。 它们仅在从模板创建项目时运行。
+
 1. 开始向项目中添加模板。
 
    有关说明，请参阅 [将模板附加到项目](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ ht-degree: 0%
 1. （可选）编辑项目的任何工作流值，如中所述 [编辑项目中的工作流值](#edit-workflow-values-in-a-project).
 
    只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
+
+
 
 ### 编辑项目中的工作流值
 
@@ -130,9 +138,17 @@ ht-degree: 0%
   >
   >如果这些区域不可见，则Workfront管理员尚未为您的组织启用工作流。
 
+
+
 #### 链接的文件夹
 
+>[!NOTE]
+>
+>由于链接文件夹是在创建项目时创建的，因此对现有项目上的链接文件夹工作流进行编辑将无效。 在创建项目时按预期编辑这些值。
+
 要编辑链接文件夹的工作流，请执行以下操作：
+
+在生产环境中：
 
 1. 切换 **[!UICONTROL 创建链接文件夹]** 根据需要打开或关闭。
 1. （视情况而定）如果您正在启用链接的文件夹，请选择一个文件夹路径以指示所有链接文件夹与此集成相关联的位置。
@@ -142,6 +158,31 @@ ht-degree: 0%
 
    如果您在 [!DNL Adobe Experience Manager area]，则您的更改会自动保存。 <!--Do they though?-->
 
+在预览Sandbox环境中：
+
+<div class="preview">
+
+1. 切换 **[!UICONTROL 创建链接文件夹]** 根据需要打开或关闭。 如果您将其打开，则可以编辑链接的文件夹配置。
+
+   有关链接文件夹配置的详细信息，请参阅 [创建Adobe Experience Manager链接文件夹](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 在文章中 [配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. （可选）如果您希望仅当附加到项目的自定义表单中存在某些值时才构建文件夹树，请单击 **应用筛选器** 对于该文件夹树，然后选择包含字段、字段和字段值的自定义表单。 如果附加到新项目的自定义表单上的字段包含所选值，则将创建文件夹树。
+1. （可选）配置文件夹名称时，您可以从以下选项中进行选择：
+
+   * **名称**：键入文件夹的名称。
+
+   * **对象数据**：选择文件夹名称的源，如项目名称。
+
+   * **自定义表单数据**：选择要用作文件夹名称的自定义表单数据。
+
+     对文件夹名称使用自定义表单数据仅在模板级别可用，无法在集成级别进行配置。
+
+     如果文件夹名称设置为自定义数据，该数据在附加到项目的自定义中不存在，则将随机分配ID作为文件夹名称。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+</div>
+
 
 #### 发布资产
 
@@ -149,10 +190,4 @@ ht-degree: 0%
 
 1. 切换 **自动发布资源** 根据需要打开或关闭。
 1. （视情况而定）如果您正在启用发布，请选择是要发布到发布服务还是Brand Portal或两者。
-1. 单击 **[!UICONTROL 保存]** 如果您使用 [!UICONTROL 创建项目] 或 [!UICONTROL 编辑项目] 窗口。
-
-   或
-
-   如果您在 [!DNL Adobe Experience Manager area]，则您的更改会自动保存。 <!--Do they though?-->
-
-
+1. 单击&#x200B;**[!UICONTROL 保存]**。

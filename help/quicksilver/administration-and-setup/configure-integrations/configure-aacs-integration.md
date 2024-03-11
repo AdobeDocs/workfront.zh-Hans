@@ -6,9 +6,9 @@ description: 您可以将工作与您的内容关联到 [!DNL Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 作为Workfront管理员，您可以在Workfront中配置工作流，然后将其分配给项目模板。 使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
 
-您可以在项目模板和项目级别覆盖在集成中设置的默认工作流值。
+可以为整个Adobe Experience Manager启用和配置工作流。 然后，可以将这些工作流应用于项目模板，并在模板或项目级别进行调整或自定义。
 
 Adobe Experience Manager集成中提供了以下工作流：
 
@@ -255,6 +257,46 @@ Adobe Experience Manager集成中提供了以下工作流：
    ![链接的文件夹导航](assets/select-folder-aem-integration.png)
 1. 启用 **[!UICONTROL 附加Portfolio和程序名称]** 选项，用于在链接文件夹名称的末尾自动包含Portfolio和项目名称。
 1. 单击 **[!UICONTROL 保存]** 或转到 [发布发送到Adobe Experience Manager Assets的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 部分。
+
+在预览Sandbox环境中
+
+<div class="preview">
+
+1. 切换 **[!UICONTROL 创建链接文件夹]** 打开。
+1. 输入正在创建的链接文件夹的名称。
+1. （视情况而定）启用 **默认文件夹树** 选项，适用于希望此链接文件夹成为使用使用此集成的模板创建的项目的默认文件夹。 您可以选择一个或多个默认文件夹。
+1. 选择文件夹路径以指示要将所有链接文件夹与此集成关联的位置。
+1. （视情况而定）要将文件夹树（嵌套文件夹）添加到此集成，请执行以下操作：
+
+   1. 单击 **添加文件夹** 图标 ![添加文件夹](assets/add-folder-aem.png).
+   1. 在 **名称类型** 字段中，选择命名文件夹的方式：
+
+      * **名称**：键入文件夹的名称。
+      * **对象数据**：选择文件夹名称的源，如项目名称。
+
+      >[!NOTE]
+      >
+      >* 文件夹名称必须少于100个字符。
+      >* 将从文件夹名称中删除以下字符：
+      >
+      >   `/`， `:`， `[`， `]`， `|`， `*`
+
+   1. 要将嵌套文件夹添加到文件夹树，请单击要在其中创建嵌套文件夹的文件夹旁边的三个点菜单，然后选择 **添加文件夹**. 按照上一步骤中的说明填写字段。
+   1. 要将文件夹链接到Workfront，请选择该文件夹，然后单击 **制作链接的文件夹**   图标 ![链接文件夹](assets/link-folder.png).
+   1. （可选）要编辑文件夹，请选择该文件夹并单击 **编辑文件夹** 图标 ![“编辑”图标](assets/edit-icon.png).
+   1. （可选）要删除文件夹，请选择该文件夹并单击 **删除文件夹** 图标 ![删除文件夹](assets/delete-folder.png).
+1. （视情况而定）要添加其他文件夹树，请单击 **+添加文件夹树** 并按照步骤5中的步骤执行操作。
+
+1. 单击 **[!UICONTROL 保存]**，或转到 [发布发送到Adobe Experience Manager Assets的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 部分。
+
+>[!NOTE]
+>
+>* 此集成创建的文件夹数不会超过100个，这与创建的文件夹树数量无关。 例如，与4个文件夹树集成最多可创建100个文件夹，而不是400个文件夹。
+>* 文件夹树中的第一个文件夹会自动标记为已链接到Workfront。 如果不希望链接此文件夹，可以取消其链接。
+>* 如果未提供文件夹树，则根文件夹将变为链接的文件夹。
+
+
+</div>
 
 ### 发布发送到Adobe Experience Manager Assets的资源
 

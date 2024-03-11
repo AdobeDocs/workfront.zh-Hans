@@ -6,7 +6,7 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -653,11 +653,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td role="rowheader"><strong>项目组合</strong></td> 
          <td><p>为从此模板创建的项目指定Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合 </a>.</p></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>项目</strong></td> 
+         <td role="rowheader"><strong>项目群</strong></td> 
          <td><p>如果为模板选择了Portfolio，请指定 <strong>项目</strong> 为将来的项目准备的。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -1116,3 +1116,4 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. （可选）要激活模板，请单击 **更多** ![](assets/qs-more-icon-on-an-object.png) 菜单，然后单击 **激活**.
 
    该模板现在处于活动状态，可附加到项目或用于创建项目。
+

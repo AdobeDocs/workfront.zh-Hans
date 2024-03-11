@@ -6,7 +6,7 @@ description: 您可以在“模板”区域中创建和删除模板。 在构建
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 2%
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 1. 在模板标题中指定新模板的名称，然后按 **输入。**
 1. 单击 **模板任务** 部分。
-1. 单击&#x200B;**开始添加模板任务**.
+1. 单击 **开始添加模板任务**.
 
    或
 
