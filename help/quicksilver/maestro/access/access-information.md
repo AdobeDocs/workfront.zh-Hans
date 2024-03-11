@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ ht-degree: 0%
 * [在Adobe大师中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
 * [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md)
 * [共享视图](/help/quicksilver/maestro/access/share-views.md)
-* [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md)
+* [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md)
 
 

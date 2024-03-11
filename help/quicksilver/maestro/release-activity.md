@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Preview: To be determined
 
 我们修改了权限级别，以考虑用户的许可证类型。 在此增强功能之前，根据用户的许可证类型，工作区权限没有区别。
 
-以下权限现在可与用户的许可证类型配合使用：
+以下是根据用户的许可证类型，用户可以接收的最高级别权限：
 
 * 拥有计划许可证（或新许可证模型中的标准许可证）的用户可以创建和管理工作区、记录类型和记录。
 
@@ -156,7 +156,7 @@ Preview: To be determined
 
 有关新许可证模型的信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-有关计划功能中许可证类型和权限之间的连接的信息，请参见 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 记录字段富文本工具栏的新外观

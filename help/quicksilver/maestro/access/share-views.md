@@ -4,10 +4,10 @@ description: 在使用Adobe Workfront规划功能时，您可以与他人共享�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ ht-degree: 1%
 1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。
+
+## 删除视图的权限
+
+{{step1-to-maestro}}
+
+1. 打开要共享其视图的工作区，然后单击记录类型卡片。 这将打开记录类型页面。
+1. 在视图下拉菜单中，将鼠标悬停在要共享的视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **共享**.
+1. 查找要删除的用户或组，然后单击 **移除** 用户或组名称右侧的“权限”下拉菜单中。
+1. 单击 **保存**.
+属于已删除组的用户或用户不再具有查看权限。 对于已从访问视图中删除的用户，不会有任何通知。

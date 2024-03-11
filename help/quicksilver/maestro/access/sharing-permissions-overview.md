@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 * 您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
 
-  有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+  有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系统管理员可以管理和共享其他用户创建的工作区。
 * 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
 * 您无法批量共享工作区。
@@ -62,7 +62,7 @@ ht-degree: 7%
 >
 >并非所有用户都可以具有下述权限级别。 用户的个人许可证决定了他们可接收的Maestro对象的权限级别。
 >
->有关信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+>有关信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 工作区权限

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,6 @@ Maestro没有访问控制。
 
 您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
 
-有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [Adobe大师中的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

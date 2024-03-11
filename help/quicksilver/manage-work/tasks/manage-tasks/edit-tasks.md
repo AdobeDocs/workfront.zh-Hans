@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -88,6 +88,8 @@ ht-degree: 4%
    * 记录时间
    * 编辑现有费用
    * 附加自定义表单
+
+* 其他用户必须先刷新其页面，然后才能查看您对任务所做的更新。
 
 ## 编辑列表中的任务
 
@@ -246,7 +248,7 @@ ht-degree: 4%
       <li> <p><span>尽快</span></p> </li> 
       <li> <p><span>尽可能迟</span></p> </li> 
       <li> <p><span>最早可用时间</span></p> </li> 
-      <li> <p> <span>最晚可用时间</span></p> </li> 
+      <li> <p> <span>最新可用时间</span></p> </li> 
       <li> <p><span>开始时间不晚于</span> </p> </li> 
       <li> <p>指定计划的开始日期</p> </li> 
       <li> <p><span>开始时间不早于</span> </p> <p>指定 <strong>计划开始日期</strong>. </p> </li> 
@@ -256,7 +258,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">提交日期和时间</td> 
-      <td> <p>这是分配给任务的用户承诺完成任务的日期。 这可能与计划的完成日期不同。 只有被分配者才能编辑此字段。有关Workfront中提交日期的信息，请参阅 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>. </p> </td> 
+      <td> <p>这是分配给任务的用户承诺完成任务的日期。 这可能与计划的完成日期不同。 只有被分配者才能编辑此字段。 有关Workfront中提交日期的信息，请参阅 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">计划开始日期和时间</td> 
@@ -362,7 +364,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">每次发生的持续时间</td> 
-      <td> <p>这仅在周期性任务的父级上显示。 它显示每个周期性任务的持续时间，如创建任务时定义。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>. </p> <p> <b>注释</b>
+      <td> <p>这仅在周期性任务的父级上显示。 它显示每个周期性任务的持续时间，如创建任务时定义。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>. </p> <p> <b>注意</b>
 
    在单个周期性任务中修改的持续时间不显示此字段中指示的值。 </p> </td>
    </tr> 
@@ -399,7 +401,7 @@ ht-degree: 4%
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>天数. 这是默认设置。 </td> 
+      <td>天。 这是默认设置。 </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -411,23 +413,23 @@ ht-degree: 4%
       <td>T</td> 
       </tr> 
       <tr> 
-      <td>占用分钟数</td> 
+      <td>经过的分钟数</td> 
       <td>EM</td> 
       </tr> 
       <tr> 
-      <td>占用小时数</td> 
+      <td>经过的小时数</td> 
       <td>EH</td> 
       </tr> 
       <tr> 
-      <td>占用天数</td> 
+      <td>经过的天数</td> 
       <td>ED</td> 
       </tr> 
       <tr> 
-      <td>占用周数</td> 
+      <td>经过的周数</td> 
       <td>EW</td> 
       </tr> 
       <tr> 
-      <td>占用月数</td> 
+      <td>经过的月数</td> 
       <td>ET</td> 
       </tr> 
       </tbody> 
@@ -442,9 +444,9 @@ ht-degree: 4%
    </div> </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">计划小时</td> 
+   <td role="rowheader">规划小时数</td> 
    <td> <p>指定任务的计划小时数（以小时为单位）。 这是任务被分派人完成任务所花费的实际时间。 您只能在“持续时间类型”设置为“计算分配”时指定任务的已计划小时数。 有关持续时间类型的详细信息，请参见 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">任务工期和工期类型概览</a>.</p> 
-   <b>注释</b>
+   <b>注意</b>
    <p>
    创建周期性任务时，计划小时数是每个事件的小时数。 父任务的计划小时数是所有发生的所有计划小时数的总和。 有关创建周期性任务的信息，请参阅 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>.
    </p>
@@ -510,19 +512,19 @@ ht-degree: 4%
       <td> <p>指定任务的成本类型。 这将根据任务的小时数确定如何计算任务成本。 </p> <p>从以下选项中选择： </p> 
        <ul> 
         <li> <p>无成本</p> </li> 
-        <li> <p>固定小时 </p> </li> 
-        <li> <p> 用户小时 </p> </li> 
-        <li> <p> 角色小时</p> </li> 
+        <li> <p>固定每小时 </p> </li> 
+        <li> <p> 用户每小时 </p> </li> 
+        <li> <p> 角色每小时</p> </li> 
        </ul> <p>有关跟踪成本的详细信息，请参阅 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">跟踪成本</a> . 您的Workfront管理员或组管理员为您的系统或组中的任务选择默认成本类型设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">收入类型</td> 
       <td> <p>指定任务的收入类型。 这将根据任务的小时数确定如何计算任务收入。 </p> <p>从以下选项中选择： </p> 
        <ul> 
-      <li> <p> 不可记帐 </p> </li> 
-      <li> <p>用户小时 </p> </li> 
-      <li> <p>角色小时 </p> </li> 
-      <li> <p>固定小时 </p> </li> 
+      <li> <p> 不可计费 </p> </li> 
+      <li> <p>用户每小时 </p> </li> 
+      <li> <p>角色每小时 </p> </li> 
+      <li> <p>固定每小时 </p> </li> 
       <li> <p>受限用户小时 </p> </li> 
       <li> <p>受限角色小时 </p> </li> 
       <li> <p>用户小时加固定 </p> </li> 
