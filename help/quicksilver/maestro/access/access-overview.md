@@ -1,13 +1,13 @@
 ---
 title: 访问概述
-description: 使用Adobe专家功能时，存在许可证和共享权限限制。
+description: 使用Adobe Workfront的规划功能时，存在许可证和共享权限限制。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-使用Adobe专家功能时，存在许可证和共享权限限制。
+使用Adobe Workfront规划功能时，存在许可证和共享权限限制。
 
 ## 访问要求
 
-您必须具有以下设置才能使用Adobe经理：
+要使用Adobe Workfront中的规划功能，您必须具有以下设置：
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ ht-degree: 0%
   </tr>
   <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro对象没有访问级别控制</p>  
+   <td> <p>规划权能对象没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
    <p>为您未创建的工作区和视图分配或更高权限，以便编辑、删除和共享它们，以及创建、编辑或删除记录类型和记录。</p>
-    <p>系统管理员可以管理他们未创建的工作区和视图 </p>
-   <p>有关共享Maestro对象权限的信息，请参阅  
-   <a href="../access/sharing-permissions-overview.md">在Adobe大师中共享权限概述</a> 
+    <p>系统管理员可以管理他们未创建的工作区。 </p>
+    <p>系统管理员无法管理他们未创建的视图。 </p>
+   <p>有关共享规划权能对象的权限的信息，请参见  
+   <a href="../access/sharing-permissions-overview.md">在Adobe Workfront规划功能中共享权限概述</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ ht-degree: 0%
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-贵组织在注册Maestro测试版计划后，可以使用版面模板将Maestro区域添加到所有用户的主菜单。
+贵组织在注册Workfront规划功能测试版计划后，可以使用版面模板将Maestro区域添加到所有用户的主菜单。
 
 1. 登录 **Workfront** Workfront管理员。
 
@@ -101,7 +102,7 @@ ht-degree: 0%
 
    有关信息，请参阅 [使用布局模板自定义主菜单](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. 将布局模板分配给要访问Maestro的用户。
+1. 将布局模板分配给要访问Workfront规划功能的用户。
 
    有关信息，请参阅 [将用户分配给布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ ht-degree: 0%
 
 ## 授予访问权限
 
-Maestro没有访问控制。
+Workfront中的规划功能没有访问控制。
 
-拥有任何许可证类型的用户可以访问Maestro。
+拥有任何类型许可证的用户都可以访问Workfront规划功能。
 
 有关在Workfront中授予访问权限的信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## 授予权限
 
-您必须向非系统管理员用户授予您创建的工作区和视图的权限，以便他们能够访问这些工作区和视图。
+您必须向用户授予您创建的工作区和视图的权限，用户才能访问它们。
 
-有关更多信息，请参阅 [在Adobe大师中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+有关更多信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
+您的Adobe Workfront许可证类型可与规划功能权限配合使用，以授予您查看、贡献或管理规划功能对象的权限。
 
-有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+有关许可证类型如何影响规划权能对象的权限级别的信息，请参见 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

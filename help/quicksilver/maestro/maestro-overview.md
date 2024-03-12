@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,7 @@ Adobe Workfront规划功能是Adobe Workfront提供的一项新功能。 规划�
 
    * 两种规划功能记录类型。
    * 计划功能记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
-   * 规划功能记录类型和Adobe Experience Manager资源、文件夹或集合。
+   * 规划功能记录类型和Adobe Experience Manager资源或文件夹。
 
      您必须拥有Adobe Experience Manager许可证才能将记录类型与Experience Manager对象链接到一起。
 

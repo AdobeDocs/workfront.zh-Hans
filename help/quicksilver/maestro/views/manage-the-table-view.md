@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ hide: yes
    * [行（或记录）](#add-rows-or-records)
    * [过滤器](#add-filters)
    * [分组](#add-groupings)
-   * [排序](#sort-information)
+   * [排序](#add-a-sort)
 
 
 ### 添加列（或字段） {#add-columns}
@@ -261,6 +261,8 @@ hide: yes
 
 * 向表格视图添加筛选器与向时间轴视图添加筛选器相同。
 
+* 您可以按连接的记录字段或查找字段进行筛选，但不能对允许链接到多个记录的字段进行筛选。
+
 要将过滤器添加到表格视图，请执行以下操作：
 
 1. 为记录类型页面创建表视图，如文章中所述 [管理记录视图](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ hide: yes
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
 * 您可以编辑分组下列出的记录。
+* 您可以按连接的记录字段或查找字段进行分组，但不能对允许链接到多个记录的字段进行分组。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ hide: yes
 * 仅当链接的字段允许单个值，或者允许选择了汇总选项（总和、平均、最大值、最小值）的多选值时，它们才可排序。
 
 * 删除分类标准会将其从与您访问相同记录类型的任何人中移除，并使用与您使用的相同视图。
+
+* 您可以按连接的记录字段或查找字段进行排序，但不能对允许链接到多个记录的字段进行排序。
 
 排序 <!--ungrouped (add this when sorting for groupings will be available--> 记录，请执行以下操作：
 

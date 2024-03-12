@@ -4,9 +4,9 @@ description: 除了对象权限之外，您对Adobe Workfront规划功能的访�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-有关Workfront规划功能中对象权限的信息，请参阅 [在Adobe大师中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+有关Workfront规划功能中对象权限的信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Workfront许可证类型与Workfront规划功能权限之间的关系
 

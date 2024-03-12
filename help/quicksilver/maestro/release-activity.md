@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Preview: To be determined
 预览：待定
 
 您现在可以按连接的记录或其查找字段进行过滤、排序和分组。 此增强功能将帮助您高效地组织和可视化表格和时间线视图中的数据。
+
+您无法过滤、排序或分组允许与多个记录连接的查找字段。
 
 有关信息，请参阅 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md) 和 [管理时间线视图](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Preview: To be determined
 * 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
 * 管理：用户可以编辑、共享和删除视图。
 
-有关更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe大师中共享权限概述](../maestro/access/sharing-permissions-overview.md).
+有关更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront规划功能中共享权限概述](../maestro/access/sharing-permissions-overview.md).
 
 ### 新建公式字段类型
 

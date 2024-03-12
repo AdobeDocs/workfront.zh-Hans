@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ role: User
 
   有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](../views/manage-the-table-view.md).
 
+* 您可以按连接的记录字段或查找字段进行筛选，但不能对允许链接到多个记录的字段进行筛选。
+
 ### 添加分组
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ role: User
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的分组。 查看同一时间轴视图的两个用户会看到当前应用的相同分组。
 * 不能为时间线视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
+* 您可以按连接的记录字段或查找字段进行分组，但不能对允许链接到多个记录的字段进行分组。
 
 要在时间轴视图中添加分组，请执行以下操作：
 

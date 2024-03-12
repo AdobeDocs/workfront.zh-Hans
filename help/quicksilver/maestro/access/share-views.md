@@ -4,9 +4,9 @@ description: 在使用Adobe Workfront规划功能时，您可以与他人共享�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
-   <td> <p>管理视图的权限</p>  
+   <td> <p>管理视图的权限</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 >
 >系统管理员无法查看或共享他们自己未创建的视图。 他们只能访问或共享与其共享的视图。
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ ht-degree: 0%
    * 查看
    * 管理
 
-     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
+     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](../access/sharing-permissions-overview.md).
 1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。

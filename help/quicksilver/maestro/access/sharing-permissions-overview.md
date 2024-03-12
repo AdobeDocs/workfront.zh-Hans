@@ -1,13 +1,13 @@
 ---
-title: 在Adobe大师中共享权限概述
+title: 在Adobe Workfront规划功能中共享权限概述
 description: 您可以共享或删除AdobeMaestro工作区或视图的权限。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# 在Adobe大师中共享权限概述
+# 在Adobe Workfront规划功能中共享权限概述
 
 {{maestro-important-intro}}
 
-您可以共享或删除AdobeMaestro工作区或视图的权限。
+使用Adobe Workfront中的规划功能时，您可以共享或删除对工作区或视图的权限。
 
-本文介绍Maestro对象的权限级别。
+本文介绍了规划权能对象的权限级别。
 
 有关如何共享工作区或视图的信息，请参阅以下文章：
 
@@ -30,9 +30,9 @@ ht-degree: 7%
 
 * [共享视图](/help/quicksilver/maestro/access/share-views.md)
 
-## 可以在Adobe大师中共享的对象
+## 可在Adobe Workfront规划功能中共享的对象
 
-您可以在Maestro中共享以下对象：
+您可以共享以下对象：
 
 * Workspace
 
@@ -40,27 +40,27 @@ ht-degree: 7%
 
 * 视图
 
-## 关于在Maestro中共享对象的注意事项
+## 关于在Adobe Workfront规划功能中共享对象的注意事项
 
-* 您的Adobe Workfront许可证类型与您的Maestro权限配合使用，授予您查看、贡献或管理Maestro对象的权限。
+* 您的Adobe Workfront许可证类型可与您的权限配合使用，授予您在使用Planning功能时查看、贡献或管理对象的权限。
 
-  有关许可证类型如何影响Maestro对象权限级别的信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+  有关许可证类型如何影响规划权能对象的权限级别的信息，请参见 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系统管理员可以管理和共享其他用户创建的工作区。
 * 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
 * 您无法批量共享工作区。
-* 您可以与以下实体共享工作区：
+* 您可以与以下实体共享工作区或视图：
    * 用户
    * 组
-* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。
+* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 <!--System administrators can only be given permissions to Manage a view.-->
 * 您可以与其他人共享指向工作区或从记录类型页面查看的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
-## 共享Maestro对象的权限
+## 共享Adobe Workfront规划功能对象的权限
 
-以下各节中的表说明了在共享Maestro工作区或视图时可以选择的权限级别，以及每个级别允许的功能。
+以下各节中的表说明了在共享工作区或视图时可以选择哪些权限级别，以及每个级别允许哪些功能。
 
 >[!IMPORTANT]
 >
->并非所有用户都可以具有下述权限级别。 用户的个人许可证决定了他们可接收的Maestro对象的权限级别。
+>并非所有用户都可以具有下述权限级别。 用户的单个许可证决定了他们可以接收规划权能对象的权限级别。
 >
 >有关信息，请参阅 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 

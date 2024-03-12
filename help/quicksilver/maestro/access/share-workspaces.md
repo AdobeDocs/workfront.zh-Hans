@@ -1,14 +1,14 @@
 ---
 title: 共享工作区
-description: 在Adobe Workfront Maestro中工作时，您可以与其他人共享工作区以确保协作。
+description: 在使用Adobe Workfront规划功能时，您可以与他人共享工作区以确保协作。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront Maestro中工作时，您可以与其他人共享工作区以确保协作。
+在使用Adobe Workfront规划功能时，您可以与他人共享工作区以确保协作。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -57,13 +57,15 @@ ht-degree: 1%
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：标准</p>
+   或
+   <p>当前：计划 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> Adobe大师没有访问控制</p>  
+   <td> Adobe Workfront规划功能没有访问控制</p>  
 </td>
   </tr>
 
@@ -105,7 +107,7 @@ ht-degree: 1%
    * 参与
    * 管理
 
-     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe大师中共享权限概述](../access/sharing-permissions-overview.md).
+     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](../access/sharing-permissions-overview.md).
 1. 单击 **复制链接** 以将指向工作区的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
