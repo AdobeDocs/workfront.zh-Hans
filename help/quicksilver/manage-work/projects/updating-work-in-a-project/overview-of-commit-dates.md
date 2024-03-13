@@ -7,14 +7,16 @@ description: 提交日期是指分配给任务或问题的用户承诺完成任�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
 
 # 提交日期概述
+
+<span class="preview">突出显示的信息仅在“预览”环境中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。 这与计划完成日期不同，因为它是仅由负责工作的用户提供的对完成日期的更现实的估计。 有关计划完成日期的信息，请参阅 [任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 * 提交日期将填充在任务或问题的更新流中。
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
 
   当Workfront管理员在“设置”的“更新源”区域中启用此更新时，提交日期的更改会显示在任务或问题的更新区域中。 有关信息，请参阅 [系统跟踪更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 

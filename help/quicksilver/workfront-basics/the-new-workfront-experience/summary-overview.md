@@ -5,16 +5,16 @@ description: 您可以使用“摘要”面板直接从任务问题、文档的�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 摘要] 概述
 
-{{highlighted-preview}}
+<span class="preview">突出显示的信息仅在“预览”环境中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 您可以使用 [!UICONTROL 摘要] 面板，直接从任务问题、文档列表或从的其他区域查看和更新工作项信息 [!DNL Adobe Workfront] 显示任务和问题。
 
@@ -121,13 +121,9 @@ ht-degree: 1%
 
    <div class="preview">
 
-   预览环境中的摘要面板示例：
    ![摘要面板](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   生产环境中的摘要面板示例：
-   ![摘要面板](assets/summary-panel-for-task.png)
 
 1. （可选）关闭 [!UICONTROL 摘要] 面板，执行以下操作之一：
 
@@ -147,7 +143,7 @@ ht-degree: 1%
 
 使用顶部的进度条 [!UICONTROL 摘要] 更新您选择的任务或问题的完成百分比。 输入一个数字或将栏拖到正确的百分比上。
 
-![摘要面板中的完成百分比](assets/summary-overview-percent-complete.png)
+<span class="preview">![摘要面板中的完成百分比](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL 更新]
 
@@ -155,13 +151,9 @@ ht-degree: 1%
 
 <div class="preview">
 
-预览环境中的更新示例：
 ![“摘要”面板中的“更新”部分](assets/summary-updates-section.png)
 
 </div>
-
-生产环境中的更新示例：
-![“摘要”面板中的“更新”部分](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL 文档]
 

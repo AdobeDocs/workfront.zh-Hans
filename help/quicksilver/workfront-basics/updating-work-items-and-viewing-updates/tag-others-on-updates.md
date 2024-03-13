@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
 >
-><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 在更新对象时，如果想要吸引用户注意在其他情况下他们可能不会关注的对象，则可以标记用户。
 
@@ -133,13 +133,9 @@ ht-degree: 0%
 
    <div class="preview">
 
-   “预览”环境中的标记示例：
    ![标记用户](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   生产环境中的标记示例：
-   ![](assets/tag-others-unified-commenting.png)
 
 1. （可选）要将更新设为私有，请启用 **我的公司私有** 在更新框的右下角。 这将使更新仅对您公司中的用户可见。 此 **我的公司私有** 仅当在Workfront配置文件中指定了公司时，选项才可用。
 
@@ -161,7 +157,7 @@ ht-degree: 0%
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">当在注释文本中被标记时，您的用户名将在这些注释中突出显示。</span>
+   <span class="preview">当在注释文本中被标记时，您的名称将在这些注释中突出显示。</span>
 
    有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-您可以删除Adobe大师中不再相关的记录。
+您可以删除Adobe Workfront规划功能中不再相关的记录。
 
 ## 访问要求
 
@@ -39,7 +39,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront规划功能没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ ht-degree: 1%
 * 如果删除的记录链接到其他记录，则不会删除链接的记录，但也会删除来自已删除记录的信息。
 * 不能批量删除记录。 <!--this will probably change-->
 * 您无法从时间线视图中删除记录。
-* 您无法删除从其他应用程序链接的记录类型。 例如，如果将Maestro记录链接到Workfront对象，则无法从Workfront对象记录页面中删除Workfront对象。
 
 ## 删除记录
 
@@ -132,12 +131,16 @@ ht-degree: 1%
 1. 单击记录类型。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）从 **视图** 在表左上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
-1. 右键单击记录行，然后单击 **删除**.
+1. 执行下列操作之一：
+
+   * 右键单击记录行，然后单击 **删除**.
+   * 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **删除**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    该记录已删除，无法恢复。
 

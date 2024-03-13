@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1292'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
 >
-><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## “更新”部分的概述
 
@@ -56,13 +56,9 @@ ht-degree: 3%
 
 <div class="preview">
 
-预览环境中的更新部分示例：
 ![“更新”部分](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-生产环境中“更新”部分的示例：
-![“更新”部分](assets/updates-tab-after-unified-experience-for-issues.png)
 
 根据您访问评论体验的对象，您可能会在更新部分找到以下体验：
 
@@ -90,8 +86,8 @@ ht-degree: 3%
    * 模板
    * 模板任务
    * 时间表
-   * 项目
-   * Portfolio
+   * 项目群
+   * 项目组合
    * 用户
 
 * 仅限以下对象的旧版注释体验：
@@ -104,13 +100,9 @@ ht-degree: 3%
 
 <div class="preview">
 
-预览环境中的更新部分示例：
 ![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-生产环境中“更新”部分的示例：
-![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -184,8 +176,8 @@ ht-degree: 3%
    <td>附加文档的对象，项目 </td> 
   </tr> 
   <tr> 
-   <td>项目</td> 
-   <td>Portfolio</td> 
+   <td>项目群</td> 
+   <td>项目组合</td> 
   </tr> 
   <tr> 
    <td>用户</td> 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -161,14 +161,17 @@ ht-degree: 1%
     * Timeline
     * Calendar
 
+    A new tab is created with the selected view. 
+
+    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+-->
+
 >[!TIP]
 >
->When you create a record type, the table view is also created by default. 
+>创建记录类型时，缺省情况下还会创建表格视图。
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”和“日历”选项将灰显。
 >
->(*********remove the step below and replace the screen shot when calendar view releases*********)
--->
 
 1. 单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表视图
 
@@ -224,7 +227,9 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
+<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
+First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+
 1. 单击视图下拉菜单，将鼠标悬停在列表中的某个视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **删除**.
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 

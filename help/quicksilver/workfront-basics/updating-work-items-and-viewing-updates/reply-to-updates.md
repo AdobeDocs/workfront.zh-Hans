@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
 >
-><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span>
+><span class="preview">新的评论体验在“摘要”面板的列表、时间表以及预览环境的工作负载均衡器中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 
@@ -99,11 +99,11 @@ ht-degree: 0%
 有关新的注释体验中可用的功能以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复。
+1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复
 
-   >[!NOTE]
-   >
-   ><span class="preview">要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
+   或
+
+   <span class="preview">单击 **全部** 选项卡，然后单击 **在评论中回复** 在“注释”选项卡中打开注释并回复注释。 您不能在“全部”选项卡中回复。</span>
 
 1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
 1. 单击 **回复**.

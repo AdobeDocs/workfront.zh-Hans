@@ -4,7 +4,7 @@ description: 在使用Adobe Workfront规划功能时，您可以与他人共享�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ ht-degree: 0%
    * 管理
 
      有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。

@@ -6,9 +6,9 @@ description: 您可以添加或回复文档的更新，以便与协作者沟通�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 1. 转到包含文档的对象，然后选择 **文档** 在左侧面板中。
 1. 找到所需的文档，然后执行以下操作之一：
 
-   * 单击列表中的文档，然后单击 **打开摘要** 图标 ![](assets/qs-summary-in-new-toolbar-small.png) 图标，然后单击 **开始新的更新** 或单击 **回复** 以向现有评论添加回复。 有关“摘要”的信息，请参见 [文档摘要概述](../../documents/managing-documents/summary-for-documents.md).
+   * 单击列表中的文档，然后单击 **打开摘要** 图标 ![](assets/qs-summary-in-new-toolbar-small.png) 然后，添加新注释，或单击 **回复** 以向现有评论添加回复。 有关“摘要”的信息，请参见 [文档摘要概述](../../documents/managing-documents/summary-for-documents.md).
    * 将鼠标悬停在文档上，单击 **文档详细信息**，则 **更新** 在左侧面板中。
 有关向对象添加更新的详细信息，请参见 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

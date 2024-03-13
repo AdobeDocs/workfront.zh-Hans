@@ -7,16 +7,16 @@ description: 利用“摘要”，可直接与文档列表中的重要信息交�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # 文档摘要概述
 
-{{highlighted-preview}}
+<span class="preview">此页面上突出显示的信息仅在“预览”环境中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 利用“摘要”，可直接与文档列表中的重要信息交互。
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 * [概述](#overview)
 * [自定义表单](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### 概述 {#overview}
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 使用自定义Forms部分添加、编辑或查看与文档关联的任何自定义表单。 开始键入自定义表单的名称以将其添加到文档。 有关更多信息，请参阅 [在文档中添加或编辑自定义表单](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## 更新
 
@@ -87,13 +87,10 @@ ht-degree: 2%
 
 <div class="preview">
 
-预览环境中的更新示例：
 ![“摘要”面板中的“更新”部分](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-生产环境中的更新示例：
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 审批
 
@@ -104,7 +101,7 @@ ht-degree: 2%
 * [审批工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [请求文件审批](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## 版本
 
@@ -116,4 +113,4 @@ ht-degree: 2%
 * 转到文档详细信息
 * 删除验证或文档
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ ht-degree: 0%
 
 1. （视情况而定）如果记录类型页面未在表视图中打开，请单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表格视图。
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. 要添加新记录，请单击 **新记录** 在表的最后一行
 
    或
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## 通过复制和粘贴外部列表中的信息创建记录
 
-1. 在Maestro中，开始在“表”视图中创建记录，如一节中所述 [通过手动将记录添加到记录类型来创建记录](#create-records-by-manually-adding-them-to-a-record-type) 本文章中。
+1. 开始在“表”视图中创建记录，如一节中所述 [通过手动将记录添加到记录类型来创建记录](#create-records-by-manually-adding-them-to-a-record-type) 本文章中。
 
-   确保Maestro表视图具有要用新记录信息填充的列（或字段）。
+   确保表视图具有要使用新记录信息填充的列（或字段）。
 
 1. 单击 **新建&lt;记录类型名称>** 在表的最后一行中，向表中添加所需数量的新行。
 
    例如，如果要粘贴来自其他应用程序的10条新记录的信息，请向表格视图添加10行。
 
-1. 在另一个应用程序中，创建要在Maestro中导入的记录列表。
+1. 在另一个应用程序中，创建要导入的记录列表。
 
    例如，您可以使用Excel电子表格来创建列表。
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > 列表的列应包含您在Maestro中拥有的现有字段的信息。
+   > 列表的列应包含有关您在Workfront中拥有的现有字段的信息。
    >
-   > 确保已在Maestro中创建了所需的字段，并且工作表中的信息以与Maestro中每个字段信息匹配的正确格式显示。
+   > 确保您已在Workfront中创建了所需的字段，并且工作表中的信息以与Workfront中每个字段信息匹配的正确格式显示。
 
 1. 从另一个应用程序中，选择多个行和列，然后将信息粘贴到记录类型表格视图中，从第一个新记录开始。
 
-   以下信息在Maestro中导入：
+   将在Workfront规划功能区域中导入以下信息：
 
    * 行包含新记录
    * 列填充记录字段的信息。

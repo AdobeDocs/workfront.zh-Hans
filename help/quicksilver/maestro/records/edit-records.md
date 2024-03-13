@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ ht-degree: 1%
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 下拉菜单 <!--tab--> 在表的右上角，选择 **表** 视图。 该视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
+1. （视情况而定）从 **视图** 下拉菜单选择 **表** 视图。 该视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
 
-   与所选记录类型关联的记录将显示在表格视图中。
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    与所选记录类型关联的记录将显示在表格视图中。
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ ht-degree: 1%
    >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
    >  
    >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
-   >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”
+   >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选且视情况而定）编辑“段落”类型字段时，请使用以下内容 **富文本** 格式化选项：
 
@@ -147,12 +149,12 @@ ht-degree: 1%
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
@@ -168,7 +170,7 @@ ht-degree: 1%
    >* 使用以下键盘快捷键来复制和粘贴信息：
    >   * 复制：CTRL + C(对于Mac，为⌘ + C)
    >   * 粘贴：CTRL + V(对于Mac，为⌘ + V)
-   >* 不能从其他源复制信息，不能从与粘贴信息的字段类型相同的Maestro字段复制。
+   >* 不能从其他来源复制信息，不能复制与粘贴信息的字段类型相同的记录字段以外的信息。
    >
    >* 您不能在记录的详细信息区域中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
@@ -191,7 +193,7 @@ ht-degree: 1%
 
 ### 从记录的“详细信息”页面编辑记录
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ ht-degree: 1%
 
    或
 
-   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。
+   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。 <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 单击 **保存更改**. <!--logged a bug for this - this needs to be "Save"-->
+1. 单击 **保存更改**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

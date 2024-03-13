@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # 系统跟踪更新
 
-{{highlighted-preview}}
+<span class="preview">此页面上突出显示的信息仅在“预览”环境中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * 以下是新评论体验和旧评论体验之间的差异：
 
-   * 使用新的备注体验时，用户更新显示在“备注”选项卡中，系统更新显示在“系统活动”选项卡中。
+   * 使用新的备注体验时，用户更新显示在“备注”选项卡中，系统更新显示在“系统活动”中 <span class="preview">和所有</span> 选项卡。
 
      有关新评论体验的更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">使用新的评论体验时，用户无法将评论添加到系统更新。 但是，对旧版注释体验中的系统活动记录所做的任何回复，都会在新版注释体验中的“系统活动”选项卡中以只读形式填充。</span>
+   * <span class="preview">使用新的评论体验时，无法向系统更新添加评论。 但是，对旧版注释体验中的系统活动记录所做的任何回复，都会在新版注释体验中的“系统活动”选项卡中以只读形式填充。</span>
    * 使用旧版评论体验时，系统和用户更新显示在一个连续馈送中。
 
    * 使用旧版评论体验时，用户可以默认查看系统更新，也可以选择不显示这些更新。 使用新的注释体验时，无法禁用系统更新。

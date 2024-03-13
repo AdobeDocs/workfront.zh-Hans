@@ -7,16 +7,16 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # 工时表布局概述
 
-{{highlighted-preview}}
+<span class="preview">突出显示的信息仅在“预览”环境中可用。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ ht-degree: 1%
 
 <div class="preview">
 
-预览环境中的示例：
 ![更新左侧时间表面板中的区域](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-生产环境中的示例：
-![更新左侧时间表面板中的区域](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 您可以在时间表上添加备注，以与时间表批准者或其他用户在时间表左侧面板的更新部分通信。
 
@@ -139,13 +135,9 @@ ht-degree: 1%
 
 <div class="preview">
 
-预览环境中的示例：
 ![摘要面板](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-生产环境中的示例：
-![摘要面板](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 您可以访问“摘要”面板，查看时间表中显示的任务或问题。 从此处，您可以对任务和问题进行评论，或更新其信息。 有关更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
