@@ -6,9 +6,9 @@ description: 您可以将工作与您的内容关联到 [!DNL Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Adobe Experience Manager集成中提供了以下工作流：
 ### 创建Adobe Experience Manager链接文件夹
 
 1. 切换 **[!UICONTROL 创建链接文件夹]** 打开。
-1. 选择文件夹路径以指示要将所有链接文件夹与此集成关联的位置。
-   ![链接的文件夹导航](assets/select-folder-aem-integration.png)
-1. 启用 **[!UICONTROL 附加Portfolio和程序名称]** 选项，用于在链接文件夹名称的末尾自动包含Portfolio和项目名称。
-1. 单击 **[!UICONTROL 保存]** 或转到 [发布发送到Adobe Experience Manager Assets的资源](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 部分。
-
-在预览Sandbox环境中
-
-<div class="preview">
-
-1. 切换 **[!UICONTROL 创建链接文件夹]** 打开。
 1. 输入正在创建的链接文件夹的名称。
 1. （视情况而定）启用 **默认文件夹树** 选项，适用于希望此链接文件夹成为使用使用此集成的模板创建的项目的默认文件夹。 您可以选择一个或多个默认文件夹。
 1. 选择文件夹路径以指示要将所有链接文件夹与此集成关联的位置。
@@ -295,8 +284,6 @@ Adobe Experience Manager集成中提供了以下工作流：
 >* 文件夹树中的第一个文件夹会自动标记为已链接到Workfront。 如果不希望链接此文件夹，可以取消其链接。
 >* 如果未提供文件夹树，则根文件夹将变为链接的文件夹。
 
-
-</div>
 
 ### 发布发送到Adobe Experience Manager Assets的资源
 

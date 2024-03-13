@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -245,21 +245,20 @@ ht-degree: 1%
          <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>群组</strong></td> 
+         <td role="rowheader"><strong>组</strong></td> 
          <td> <p> <p>指定与项目关联的组的名称。 </p>这是必填字段。 不能有与组不关联的项目。 </p> <p>您可以将鼠标悬停在正确的组上并单击信息图标，以确保选择正确的组 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 默认情况下，以下组之一在创建项目时自动与项目关联，除非您指定其他组：</p> 
          <ul> 
          <li> <p><span>从“项目”区域创建项目时，项目创建者的“主组”与项目相关联。</span> </p> <p>从项目组合或项目群的项目分区创建项目时，也是如此。</p> </li> 
          <li> <p>从设置区域中的组主页创建项目时，该组与项目相关联。</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>注释</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>如果项目或其任务或问题与组级自定义状态关联，则更改项目组可能会导致项目状态、任务或问题更改以与新组匹配。&lt;/p>&lt;/li>
-       &lt;li>&lt;p>如果项目或其任务或问题已使用组级自定义状态与组级审批流程关联，则更改组可能会导致上一个组的审批状态与系统级现有的审批状态之间发生冲突。&lt;/p>
-       &lt;p>在更新组之前，请考虑删除项目或其任务或问题的组级别审批流程。&lt;/p>
-       &lt;p>有关创建组级别审批流程的信息，请参阅&lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>组级别审批流程&lt;/a>。&lt;/p>
-       &lt;p>有关创建组级自定义状态的信息，请参阅&lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>创建或编辑组状态&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>如果项目或其任务或问题与组级自定义状态关联，则更改项目组可能会导致项目状态、任务或问题更改以与新组匹配。</p></li>
+         <li><p>如果项目或其任务或问题已使用组级自定义状态与组级审批流程关联，则更改组可能会导致上一个组的审批状态与系统级现有的审批状态之间发生冲突。</p>
+         <p>在更新组之前，请考虑删除项目或其任务或问题的组级别审批流程。</p>
+         <p>有关创建组级审批流程的信息，请参阅 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">组级别审批流程</a>.</p>
+         <p>有关创建组级自定义状态的信息，请参见 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">创建或编辑组状态</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>公司</strong> </td> 
          <td> <p>指定与项目关联的公司。 必须先创建公司，然后才能将其与项目关联。 只有活动的公司才能与项目关联。 有关创建公司的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">创建和编辑公司</a>.</p> </td> 
@@ -510,7 +509,7 @@ ht-degree: 1%
        <td> <p> <p>选择应与项目关联的提醒通知。 您必须为项目配置提醒通知，此字段才能在编辑项目期间显示。 有关配置提醒通知的更多信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">设置提醒通知</a> .</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
-       <td role="rowheader"><strong>批准流程</strong></td> 
+       <td role="rowheader"><strong>审批流程</strong></td> 
        <td> <p>选择要与项目关联的审批流程。 您的Workfront管理员必须定义系统级别的审批流程，然后才能将其与项目关联。 <span>对审批流程具有管理权限的用户也可以创建特定于组的审批流程。</span> 有关创建审批流程的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">创建工作项的审批流程</a>.</p> <p>添加审批流程时，请考虑以下事项： </p> 
        <ul> 
        <li>列表中仅显示有效的审批流程。 </li> 
@@ -653,6 +652,22 @@ ht-degree: 1%
    </table>
 
 1. 单击&#x200B;**保存**。
+
+### 链接的文件夹
+
+链接的文件夹功能会自动在Adobe Experience Manager Assets中创建文件夹，并将这些文件夹连接到Workfront。
+
+仅当满足以下所有条件时，才会显示此部分：
+
+* 您的组织已迁移到Adobe Admin Console
+* 贵组织已启用并配置与Adobe Experience Manager的集成
+* 用于创建此项目的模板已启用并配置了链接文件夹。
+
+有关编辑链接的文件夹的说明，请参阅 [编辑项目中的工作流值](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) 在文章中，在Experience Manager Assets集成中使用工作流。
+
+>[!NOTE]
+>
+>由于链接文件夹是在创建项目时创建的，因此对现有项目上的链接文件夹工作流进行编辑将无效。 在创建项目时按预期编辑这些值。
 
 ## 在项目标题中编辑项目（受限）
 

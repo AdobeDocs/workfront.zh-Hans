@@ -6,16 +6,14 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # 在Experience Manager Assets集成中使用工作流
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 Workfront管理员可以在Workfront中配置工作流，然后将它们分配给项目模板。 使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
 
@@ -130,7 +128,7 @@ ht-degree: 0%
 
 可以在以下位置找到所有工作流值：
 
-* 创建项目或编辑项目窗口的工作流部分。
+* “创建项目”或“编辑项目”窗口的“工作流”或“链接的文件夹”部分。
 * 左侧导航的Adobe Experience Manager部分。
 
 
@@ -148,19 +146,6 @@ ht-degree: 0%
 
 要编辑链接文件夹的工作流，请执行以下操作：
 
-在生产环境中：
-
-1. 切换 **[!UICONTROL 创建链接文件夹]** 根据需要打开或关闭。
-1. （视情况而定）如果您正在启用链接的文件夹，请选择一个文件夹路径以指示所有链接文件夹与此集成相关联的位置。
-1. 单击 **[!UICONTROL 保存]** 如果您使用 [!UICONTROL 创建项目] 或 [!UICONTROL 编辑项目] 窗口。
-
-   或
-
-   如果您在 [!DNL Adobe Experience Manager area]，则您的更改会自动保存。 <!--Do they though?-->
-
-在预览Sandbox环境中：
-
-<div class="preview">
 
 1. 切换 **[!UICONTROL 创建链接文件夹]** 根据需要打开或关闭。 如果您将其打开，则可以编辑链接的文件夹配置。
 
@@ -179,10 +164,8 @@ ht-degree: 0%
 
      如果文件夹名称设置为自定义数据，该数据在附加到项目的自定义中不存在，则将随机分配ID作为文件夹名称。
 
+1. 要查看文件夹树，请单击 **预览** ![“预览”图标](assets/preview-icon.png) 图标
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-</div>
-
 
 #### 发布资产
 
