@@ -6,7 +6,9 @@ title: 使用人工智能生成模块
 description: 您可以输入文本提示来创建针对该提示配置的HTTP模块。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
+hide: true
+hidefromtoc: true
+source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%
