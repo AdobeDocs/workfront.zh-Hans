@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 1%
          * [2024年第2季度主页增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [2024年第2季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024年第2季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [2024年第2季度资源管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024年第2季度更新流增强](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [在2024年第2季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * 2024年第一季度发行 {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 1%
    * 测试版计划 {#beta}
       * [测试版计划](product-announcements/betas/betas.md)
       * Canvas Dashboards测试版 {#canvas-dashboards-beta}
+         * [Canvas功能板测试版信息](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Canvas Dashboards测试版：发布活动](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新的评论体验测试版 {#new-commenting-experience-beta}

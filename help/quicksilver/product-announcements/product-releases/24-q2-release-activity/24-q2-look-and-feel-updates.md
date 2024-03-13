@@ -4,9 +4,9 @@ description: 在2024年第二季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ ht-degree: 0%
 
 有关信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 和 [使用旧版表单生成器创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## 工作负载均衡器中手动调整分配的指示器
 
->[!NOTE]
->
->预览版本： 2023年10月12日；用于快速发布的生产：用于24.2版（2024年2月15日）；用于季度发布的生产：用于24.4版（2024年4月）
-
-为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
-
-有关更多信息，请参阅 [管理工作负载均衡器中的用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

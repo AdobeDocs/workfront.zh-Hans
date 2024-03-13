@@ -4,9 +4,9 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [管理员增强功能](#administrator-enhancements)
 * [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
+* [资源管理增强功能](#resource-management-enhancements)
 * [更新流和通知增强功能](#update-stream-and-notification-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -186,21 +187,20 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中自动文件夹创建工作流的增强功能</a></p><span style="color: #ff0000;"> 预览中的新增内容！</span><p>为确保您的Adobe Experience Manager文件夹更准确地反映您的需求，我们已将嵌套文件夹树添加到Adobe Experience Manager链接文件夹工作流。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中自动文件夹创建工作流的增强功能</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为确保您的Adobe Experience Manager文件夹更准确地反映您的需求，我们已将嵌套文件夹树添加到Adobe Experience Manager链接文件夹工作流。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
                                 <p>预览版本： 2024年3月11日</p>
                             </li>
-                             <li> <p><span class="preview">季度发布至生产环境： 2024年3月14日</span></p>
+                             <li> <p><span class="preview">适用于所有客户的生产版本： 2024年3月14日</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### 项目增强功能
 
@@ -247,6 +247,43 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### 资源管理增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">工作负载均衡器中手动调整分配的指示器</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p><p>为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月12日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
                             </li>
                             <li>
                                 <p>按季度发布的生产：24.4版（2024年4月）</p>
