@@ -12,23 +12,21 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '1894'
 ht-degree: 2%
 
 ---
 
-# 将对象从其中移出 [!DNL Workfront] 环境到另一个环境
+# 在对象之间移动 [!DNL Workfront] 使用环境 [!DNL Workfront] 环境提升API
 
-<!-- 
-TO DO
+环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 您可以使用Workfront API移动这些对象，如本文所述。
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+有关使用Workfront应用程序在环境之间移动对象的说明，请参阅：
+
+* [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## 访问要求
 
@@ -65,66 +63,7 @@ Add to tocs
 
 环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 它不支持移动事务性对象的功能（只有有限的例外）。
 
-* [工作对象](#work-objects)
-* [报表对象](#reporting-objects)
-* [自定义数据对象](#custom-data-objects)
-* [组织对象](#organization-objects)
-* [其他配置对象](#other-configuration-objects)
-
-
-### 工作对象
-
-| 可提升的对象 | 包含的可升级子对象 |
-| --- | --- |
-| 项目（项目） | 项目<br>任务<br>指定任务<br>前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-| 模板（模板） | 模板<br>模板任务<br>模板任务分派<br>模板任务前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-
-### 报表对象
-
-| 可提升的对象 | 包含的可升级子对象 |
-| --- | --- |
-| 布局模板(UITMPL) | 布局模板<br>仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 仪表板(PTLTAB) | 仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 日历(CALEND) | 日历<br>日历部分 |
-| 外部页面(EXTSEC) | 外部页面 |
-| 报告(PTLSEC) | 报表<br>筛选<br>分组<br>视图<br>参数 |
-| 过滤器(UIFT) | 筛选<br>参数 |
-| 分组(UIGB) | 分组<br>参数 |
-| 视图(UIVW) | 视图<br>参数 |
-
-### 自定义数据对象
-
-| 可提升的对象 | 包含的可升级子对象 |
-| --- | --- |
-| 类别(CTGY) | 类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑<br>组 |
-| 参数（参数） | 参数<br>参数选项 |
-| 参数组(PGRP) | 参数组 |
-
-### 组织对象
-
-| 可提升的对象 | 包含的可升级子对象 |
-| --- | --- |
-| 组（组） | 组 <br>子组（最多5个级别）*<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-| 角色(ROLE) | 角色 |
-| 团队（团队） | 团队<br>组 |
-| 公司(CPY) | 公司<br>覆盖率<br>类别<br>类别参数<br>参数<br>参数组<br>参数 <br>类别显示逻辑<br>组 |
-| Portfolio（端口） | Portfolio<br>项目<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-| 计划(PRGM) | 项目<br>Portfolio<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-
-### 其他配置对象
-
-| 可提升的对象 | 包含的可升级子对象 |
-| --- | --- |
-| 批准流程(ARVPRC) | 批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>角色<br>团队<br>组 |
-| 时间表(SCHED) | 计划<br>非工作日<br>组 |
-| 里程碑路径(MPATH) | 里程碑路径<br>里程碑 |
-| 周期性时间表(TSPRO) | 周期性工时表<br>小时类型 |
-| 小时类型（小时） | 小时数类型 |
-| 费用类型(EXPTYP) | 费用类型 |
-| 风险类型(RSKTYP) | 风险类型 |
-| 资源池(RSPL) | 资源池 |
-
-\*当前不可用
+有关可升级对象及其包含的可升级子对象的列表，请参见 [环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 在文章中 [在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## 身份验证
 
@@ -435,38 +374,7 @@ _空_
 1. description（字符串）
 1. 状态（带值验证的字符串）
 
-状态选项包括：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>组装</td> 
-   <td><p>在组装对象时，将自动指定此状态。</p><p>客户无法直接设置此状态。</p></td> 
-  </tr> 
-  <tr> 
-   <td>草稿</td> 
-   <td><p>在装配过程结束时或创建空升级包时，会分配此状态。</p><p>客户可以将促销包移回此状态。</p><p>处于此状态时，无法在任何环境中安装升级包。</p></td> 
-  </tr> 
-  <tr> 
-   <td>测试</td> 
-   <td><p>此状态允许在任何“预览”或“自定义刷新”沙盒中安装升级包。 处于此状态时，无法在生产环境中安装软件包。</p></td> 
-  </tr> 
-  <tr> 
-   <td>活动</td> 
-   <td><p>此状态允许在任何环境（包括生产环境）中安装升级包。</p><p>当程序包状态设置为“活动”时， <code>publishedAt</code> 日期会自动设置为请求的当前时间戳。</p></td> 
-  </tr> 
-  <tr> 
-   <td>已禁用</td> 
-   <td><p>此状态将用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用<code>DELETE /package</code> 终结点，因为它可检索，并且使用此包进行的任何部署都将保留安装历史记录。</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将包返回到ASSEMBLY阶段，必须再次触发提取过程。</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+有关可用状态的详细说明，请参阅 [环境提升状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中 [在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL

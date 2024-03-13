@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '14010'
+source-wordcount: '14023'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,10 @@ ht-degree: 1%
          * [测试环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [预览Sandbox环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [自定义刷新沙盒环境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-         * [将对象从其中移出 [!DNL Workfront] 环境到另一个环境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [环境提升概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+         * [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+         * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [使用API提升环境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * 用户管理 {#add-users}
       * [用户管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 创建和管理用户 {#create-manage-users}
