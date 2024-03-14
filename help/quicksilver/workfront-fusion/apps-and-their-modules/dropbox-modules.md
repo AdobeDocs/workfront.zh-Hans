@@ -9,16 +9,16 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
+source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
 workflow-type: tm+mt
-source-wordcount: '3080'
+source-wordcount: '3208'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox] 模块
 
-在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!UICONTROL Dropbox]，并将其连接到多个第三方应用程序和服务。这使您能够自动执行各种活动，例如监控、搜索、检索、列出、创建和编辑您的中的文件和文件夹 [!UICONTROL Dropbox].
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!UICONTROL Dropbox] 或 [!DNL Dropbox Business]，并将其连接到多个第三方应用程序和服务。这使您能够自动执行各种活动，例如监控、搜索、检索、列出、创建和编辑您的中的文件和文件夹 [!UICONTROL Dropbox].
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -74,6 +74,50 @@ ht-degree: 0%
 >有关更多信息，请在Dropbox开发人员指南中搜索“生产批准”。
 
 
+## 创建与的连接 [!DNL Dropbox]
+
+要为创建连接，请执行以下操作 [!DNL Dropbox] 模块：
+
+1. 单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
+
+1. 填写以下字段：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[！UICONTROL连接名称]</td>
+        <td>
+          <p>输入此连接的名称。</p>
+        </td>
+        <tr>
+        <td role="rowheader">[！UICONTROL环境]</td>
+        <td>选择此连接是用于生产环境还是非生产环境。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL类型]</td>
+        <td>选择您是要连接到服务帐户还是个人帐户。</td>
+        </tr>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL客户端ID]</td>
+        <td>输入您的[！UICONTROLDropbox] [！UICONTROL客户端ID]。 </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL客户端密钥]</td>
+        <td>输入您的 [!DNL Dropbox] [！UICONTROL客户端密钥]。 </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL帐户类型]</td>
+        <td>选择您是要连接到个人Dropbox帐户还是企业(Dropbox企业)帐户。</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. 单击 **[!UICONTROL 继续]** 以保存连接并返回到模块。## [!DNL Dropbox] 模块及其字段
+
 ## [!DNL Dropbox] 模块及其字段
 
 配置时 [!DNL Dropbox] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Dropbox] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
@@ -99,7 +143,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件夹] </td> 
@@ -136,7 +180,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL搜索] </td> 
@@ -185,7 +229,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>选择文件的方法</td> 
@@ -214,7 +258,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>共享文件夹ID</td> 
@@ -239,7 +283,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>列表 </td> 
@@ -275,7 +319,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>选择文件的方法</td> 
@@ -319,7 +363,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件夹]</td> 
@@ -352,7 +396,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件夹名称] </td> 
@@ -385,7 +429,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL选择至]</td> 
@@ -418,7 +462,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL选择文件的方法]</td> 
@@ -459,7 +503,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL选择文件的方法]</td> 
@@ -492,7 +536,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL选择文件的方法] </td> 
@@ -537,7 +581,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>选择文件的方法</td> 
@@ -570,7 +614,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL选择文件的方法]</td> 
@@ -597,7 +641,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td> <p>有关连接 [!DNL Dropbox] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-dropbox" class="MCXref xref">创建与的连接 [!DNL Dropbox]</a> 本文章中。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL URL]</p> </td> 
