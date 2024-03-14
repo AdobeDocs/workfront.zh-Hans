@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # 创建和编辑公司
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -117,7 +119,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">[！UICONTROL自定义Forms]部分</td> 
-      <td> <p>如果存在您想添加到公司但在中不可用的字段 [!DNL Workfront]，您可以构建自定义表单并将其与您的公司关联。 </p> <p>您可以从下拉菜单中选择此表单，以将其附加到您的公司。</p> <p>下拉菜单中仅列出活动的自定义表单。</p> <p> 有关创建自定义Forms的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>. </p> </td> 
+      <td> <p>如果存在您想添加到公司但在中不可用的字段 [!DNL Workfront]，您可以构建自定义表单并将其与您的公司关联。 </p> <p>您可以从下拉菜单中选择此表单，以将其附加到您的公司。 菜单中仅列出活动的自定义表单。</p> <p><span class="preview"><strong>注意：</strong> 高级自定义表单功能(如外部查找字段和Workfront本地字段)仅在您于详细信息页面（而非编辑公司对话框）中打开公司记录时可用。 （在公司列表中，单击公司名称以打开详细信息。）</span></p> <p> 有关创建自定义表单的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
