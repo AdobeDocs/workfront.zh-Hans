@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. 单击 **+视图** 以添加新视图。
+1. 从以下视图类型中选择：
 
-    * Table
-    * Timeline
-    * Calendar
+   * 表
+   * 时间线
+   * 日历
 
-    A new tab is created with the selected view. 
+   将使用选定的视图创建新选项卡。
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   根据屏幕的宽度，其他视图可能会显示在 **更多** 菜单 ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ ht-degree: 1%
 >要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”和“日历”选项将灰显。
 >
 
-1. 单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表视图
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   或
-
-   选择现有 **时间线视图** ![](assets/timeline-view-icon.png) 或单击 **“创建视图”>“时间线”** 创建时间线视图。
-
-   或
-
-   选择现有 **日历视图** ![](assets/calendar-view-icon.png) 或单击 **创建视图>日历** 创建日历视图。
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”或“日历”选项将灰显。
+>[!NOTE]
+>
+>    要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”或“日历”选项将灰显。
 
 1. （视情况而定）单击 **下一个**，在创建时间轴或日历视图时。
 
@@ -202,12 +191,16 @@ ht-degree: 1%
 1. （视情况而定）选择 **开始** 和 **结束日期** 时间轴或日历视图中显示的记录。
 1. 单击 **创建**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   该视图将显示为新选项卡。 视图会按照其创建或与您共享时的时间顺序显示。
+1. （可选）单击 **更多** 菜单 ![](assets/more-caret-down-icon-views.png) 在最后一个视图旁边显示选定记录类型的所有视图。
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称。 <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   其他视图显示在 **更多** “上一视图”选项卡后面的菜单。 旁边的数字 **更多** 菜单显示其他视图的数量。
+1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称
+
+   或
+
+   双击视图名称并开始键入新名称。  <!--ensure there is not another saving step here?!-->
+
 1. （可选）要管理特定类型的视图，请参阅以下文章：
 
    * [管理表视图](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. 将鼠标悬停在视图选项卡中的视图名称上，然后单击 **更多** ![](assets/more-menu.png) 视图名称的左侧，然后单击 **删除**.
+首先，您可能需要单击 **更多** ，以查找要删除的视图。
 
-1. 单击视图下拉菜单，将鼠标悬停在列表中的某个视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **删除**.
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 
    所有有权访问记录区域的用户都将删除该视图，并且无法恢复它。

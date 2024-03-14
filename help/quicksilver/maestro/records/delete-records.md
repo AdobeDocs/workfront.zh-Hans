@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ ht-degree: 2%
    * 右键单击记录行，然后单击 **删除**.
    * 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **删除**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * 单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 打开“详细信息”框，然后单击 **更多** ![](assets/more-menu.png) 记录名称的右侧，然后 **删除**.
 
    该记录已删除，无法恢复。
 

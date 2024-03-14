@@ -4,9 +4,9 @@ description: 在使用Adobe Workfront规划功能时，您可以与他人共享�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >系统管理员无法查看或共享他们自己未创建的视图。 他们只能访问或共享与其共享的视图。
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>系统管理员只能拥有视图的管理权限。
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    这将打开记录类型页面。
 
-1. 从视图下拉菜单中 <!--tab-->，将鼠标悬停在要共享的视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **共享**.
+1. 在视图选项卡中，将鼠标悬停在要共享的视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **共享**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

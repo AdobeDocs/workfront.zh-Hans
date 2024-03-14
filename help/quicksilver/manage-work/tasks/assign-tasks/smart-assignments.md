@@ -7,9 +7,9 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ ht-degree: 0%
 # 智能分配概述
 
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。</span>
-
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
+{{preview-and-fast-release}}
 
 在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳资源。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。 智能分配可以是用户、工作角色或团队。
 

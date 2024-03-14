@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 7%
 * 您可以与以下实体共享工作区或视图：
    * 用户
    * 组
-* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 <!--System administrators can only be given permissions to Manage a view.-->
+* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
 * 您可以与其他人共享指向工作区或从记录类型页面查看的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
 ## 共享Adobe Workfront规划功能对象的权限

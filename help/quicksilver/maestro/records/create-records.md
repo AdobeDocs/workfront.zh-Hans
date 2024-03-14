@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ ht-degree: 0%
 {#step1-to-maestro}
 
 默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+
 1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 所选类型的所有记录都显示在表格视图中。
 
-1. （视情况而定）如果记录类型页面未在表视图中打开，请单击 **视图** 下拉菜单，然后选择现有的 **表格视图** ![](assets/table-view-icon.png) 或单击 **“创建视图”>“表”** 创建表格视图。
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. （视情况而定）如果记录类型页面未在表视图中打开，请单击表视图的选项卡，或单击 **+视图** 创建表格视图。
 
 1. 要添加新记录，请单击 **新记录** 在表的最后一行
 
@@ -135,17 +133,17 @@ ht-degree: 0%
 
 1. 继续添加每行的信息，然后单击 **输入** 以保存更改。
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   或
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 此 **详细信息** 框在表中打开。
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >当“名称”字段是主要字段时，您只能从记录的名称字段访问“详细信息”框。
+
+1. 开始在“详细信息”框中编辑记录的信息。 Workfront会自动保存您所做的更改。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开“详细信息”框以打开 **详细信息** 页面。 继续编辑详细信息页面上的记录。
+
 
 1. （可选）使用以下键盘快捷键可撤消或重做添加新记录：
 

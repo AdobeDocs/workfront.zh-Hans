@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ ht-degree: 1%
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 下拉菜单选择 **表** 视图。 该视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
+1. （视情况而定）单击表格视图的选项卡或单击 **+视图** 创建表格视图。 表格视图应为默认视图，除非您在上次访问记录类型时已在其他类型的视图中查看了该记录类型。
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    与所选记录类型关联的记录将显示在表格视图中。
+   与所选记录类型关联的记录将显示在表格视图中。
 1. 单击记录行内部以开始编辑有关内联记录的信息。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ ht-degree: 1%
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 A **已保存** 指示器会短暂显示在表格视图的右上角，表示已保存更改。
 
+1. （可选）单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧，或单击记录名称。 此 **详细信息** 框在表中打开。
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时记录的“名称”字段左侧的图标。
+
+1. 开始编辑中的字段信息 **详细信息** 盒子。 Workfront会自动保存您所做的更改。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。 继续编辑记录，如中所述 [从记录的“详细信息”页面编辑记录](#edit-a-record-from-the-records-details-page) 部分。
+
 
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
 
@@ -193,7 +191,9 @@ ht-degree: 1%
 
 ### 从记录的“详细信息”页面编辑记录
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+您可以从表格视图的“详细信息”框或“详细信息”页面编辑记录。
+
+有关在“详细信息”框中编辑记录的信息，请参见 [从记录类型的表视图中编辑记录](#edit-a-record-from-the-table-view-of-a-record-type) 部分。
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ ht-degree: 1%
 
    或
 
-   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。 <!--Your changes are saved automatically.-->
+   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 单击 **保存更改**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. 单击 **保存更改**.
