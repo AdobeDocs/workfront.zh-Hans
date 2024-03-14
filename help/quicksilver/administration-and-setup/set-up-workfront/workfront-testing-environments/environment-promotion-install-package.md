@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * 新建：对象在目标环境中
 * 使用existing：未安装包中的对象，并且目标环境中已存在的对象保持不变。
-* 覆盖现有对象：包中的对象将替换目标环境中的现有对象。
+* 覆盖现有对象： （当前不可用）包中的对象将替换目标环境中的现有对象。
 * 不使用：如果选择“不使用”，将出现一条错误消息，详细说明该选择将如何影响其他对象或字段。
 
 默认值为 `Create new` 如果目标环境中不存在该对象，并且 `Use existing` 如果目标环境中确实存在该对象。 您可以通过单击还原到默认映射 **重置为默认映射**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
