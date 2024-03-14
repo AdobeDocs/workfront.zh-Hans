@@ -4,9 +4,9 @@ description: 2024年第二季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 公司和用户现在支持高级自定义表单字段
+
+>[!NOTE]
+>
+>预览版本： 2024年3月14日；适用于所有客户的生产： 24.4（2024年4月）
+
+向公司或用户附加自定义表单时，现在可以使用高级自定义表单功能，例如外部查找字段和Workfront本机字段。 高级功能在“公司详细信息”和“用户详细信息”页面上可用，而在“编辑公司”和“编辑用户”对话框中不可用。 必须在新的表单设计器中创建自定义表单，才能利用这些字段类型。
+
+有关自定义表单字段的更多信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat集成现在可用于新包类型
 
