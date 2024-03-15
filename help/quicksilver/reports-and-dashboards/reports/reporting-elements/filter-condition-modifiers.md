@@ -6,9 +6,9 @@ description: 利用过滤器和条件修饰符，可构建过滤器并建立用�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>这是 <i>区分大小写</i> 选项 <strong>eq</strong>. 它仅返回与搜索值完全匹配的值。</p> <p>例如，当搜索具有特定名称的任务时， <code>task name cieq test</code> 查找名称为的任务 <code>Test</code>， <code>TEST</code>，或 <code>Test</code>，但未找到名为的任务 <code>test 123.</code></p> <p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> </td> 
+   <td> <p>这是 <i>区分大小写</i> 选项 <strong>eq</strong>. 它仅返回与搜索值完全匹配的值。</p> <p>例如，当搜索具有特定名称的任务时， <code>task name cieq test</code> 查找名称为的任务 <code>Test</code>， <code>TEST</code>，或 <code>Test</code>，但未找到名为的任务 <code>test 123.</code></p> <p>搜索状态时， <strong>cieq</strong> 不支持修饰符。 您应使用区分大小写的修饰符， <strong>eq</strong>，以搜索状态。</p> <p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

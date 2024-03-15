@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ ht-degree: 3%
 * **段落文本字段**：允许用户在字段中键入多行文本。
 * **带格式的文本字段**：允许用户在字段中键入多行文本，并使用粗体、斜体、下划线、项目符号、编号、超链接和块引号格式化文本。 15,000个字符的限制允许使用大量文本和格式。
 
-  有关通过API访问此字段的信息，请参阅API中的富文本字段存储。
+  列表和报告上的过滤器不支持此自定义字段类型。
+
+  有关通过API访问此字段的信息，请参阅 [API中的富文本字段存储](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >

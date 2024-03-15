@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">带格式的文本字段</td> 
-      <td>允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 这在Workfront对象的主页、更新区域、列表和详细信息区域中可用。 15,000个字符的限制允许使用大量文本和格式。</p> <p>有关通过API访问此字段的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的富文本字段存储</a>.</p> <p><b>注意</b>：带格式的文本字段不适用于Workfront移动设备应用程序。 </p> </td> 
+      <td>允许用户在字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 这在Workfront对象的主页、更新区域、列表和详细信息区域中可用。 15,000个字符的限制允许使用大量文本和格式。</p> <p>列表和报告上的过滤器不支持此自定义字段类型。</p> <p>有关通过API访问此字段的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API中的富文本字段存储</a>.</p> <p><b>注意</b>：带格式的文本字段不适用于Workfront移动设备应用程序。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下拉</td> 
@@ -95,8 +95,8 @@ ht-degree: 2%
       <ul><li>用户</li>
       <li>组</li>
       <li>工作角色</li>
-      <li>Portfolio</li>
-      <li>项目</li>
+      <li>项目组合</li>
+      <li>项目群</li>
       <li>项目</li>
       <li>团队</li>
       <li>模板</li>
@@ -225,7 +225,7 @@ ht-degree: 2%
       <td><p>单击下拉列表，然后选择要自动跟踪字段值更改的对象类型。</p> 
       <p><b>注意</b>：此选项不适用于以下内容：</p> 
       <ul> 
-      <li>与以下对象类型关联的自定义表单：费用、公司、迭代、记帐记录和组。</li> 
+      <li>与以下对象类型关联的自定义表单：费用、公司、迭代、记帐记录、文档和组。</li> 
       <li>以下字段类型：计算值、描述性文本和分节符</li> 
       </ul>
       <p><b>重要</b>：在此处选择或取消选择对象类型会影响与选定对象类型关联且包含此字段的所有自定义表单。 例如，如果在此取消选择某个对象类型并保存该自定义表单，则在包含该字段的任何自定义表单中，将不再跟踪该对象类型的字段值更改。</p>
