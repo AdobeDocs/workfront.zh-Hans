@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 56c56dca375e5f9f7f75aa6553ef02399ffc205d
+source-git-commit: 8c970d2fe8221f4cc578d4427bd5ea250bfbcbf2
 workflow-type: tm+mt
-source-wordcount: '14040'
+source-wordcount: '14043'
 ht-degree: 1%
 
 ---
@@ -2194,6 +2194,7 @@ ht-degree: 1%
       * [Adobe Experience Manager Assets模块](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms模块](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer模块](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [Adobe Lightroom模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [AdobeMaestro模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF Services模块](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop模块](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)

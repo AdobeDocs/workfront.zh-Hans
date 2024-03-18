@@ -9,7 +9,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 您可以创建与 [!DNL Workfront] 直接从 [!DNL Workfront Fusion] 模块。
 
-1. 在任意Adobe Authenticator模块中，单击 **添加** ，位于连接字段旁。
+1. 在任意Adobe Workfront模块中，单击 **添加** ，位于连接字段旁。
 1. 填写以下字段：
 
    <table style="table-layout:auto"> 
@@ -1031,13 +1031,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>项目组合</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目</td> 
+   <td>项目群</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1376,7 +1376,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>项目组合</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1386,7 +1386,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目</td> 
+   <td>项目群</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1650,12 +1650,12 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>项目组合</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>项目</td> 
+   <td>项目群</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 

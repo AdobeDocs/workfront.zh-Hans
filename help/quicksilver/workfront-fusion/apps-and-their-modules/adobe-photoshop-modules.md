@@ -8,16 +8,16 @@ title: Adobe Photoshop模块
 description: 借助Adobe Photoshop模块，您可以根据Adobe Photoshop帐户中的事件启动Adobe Workfront Fusion方案，创建、读取或更新协议和其他记录，使用您设置的标准搜索记录以及上传文档。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] 模块
 
-在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Photoshop]，并将其连接到多个第三方应用程序和服务。 [!DNL Adobe Photoshop] 通过模块，您可以创建、读取、更新或删除记录，列出给定类型的所有记录，根据您指定的条件搜索记录，或者对 [!DNL Adobe Photoshop] API。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Photoshop]，并将其连接到多个第三方应用程序和服务。
 
 
 如果您需要有关创建方案的说明，请参阅 [创建方案](../../workfront-fusion/scenarios/create-a-scenario.md).
