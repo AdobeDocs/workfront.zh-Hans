@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 新的表单设计器具有新的画布样式工作区，该工作区允许您同时查看字段、画布和字段设置。 它还允许您在设计表单时拖放部分中的字段。
 
-<!-- add screenshot when field settings empty state is ready -->
+![示例表单设计器](assets/form-designer-example.png)
 
 ## 如何访问新的表单设计器
 
@@ -41,17 +41,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >将表单附加到对象后，默认部分在对象中不可见。
-
-## 功能即将推出
-
-以下内容目前在表单设计器中不可用，但很快将会添加：
-
-* 筛选预输入字段
-
->[!IMPORTANT]
->
->使用新表单设计器时，预输入筛选器的现有配置不会受到影响。
+  >将表单附加到对象后，“默认”部分在对象中不可见。
 
 ## 从表单设计器中移除的功能
 

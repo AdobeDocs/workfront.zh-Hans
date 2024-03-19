@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ ht-degree: 3%
 
 +++
 
-要添加预输入日期字段，请执行以下操作：
+要添加预输入和日期字段，请执行以下操作：
 
 1. 在屏幕左侧，找到以下字段之一，并将其拖动到画布上的某个部分。
 
@@ -482,6 +482,25 @@ ht-degree: 3%
          <td><ul>
     <li>键盘缓冲</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">添加筛选器</td>
+      <td><p>为对象类型添加过滤器，以限制用户在使用该字段时可以选择的对象。 </p> <p>例如，您可以限制一个字段，这样只有当用户名满足以下条件时才可以选择用户名：</p> 
+       <ul> 
+        <li>它们属于您指定的一个或多个组</li> 
+        <li>它们与您指定的角色或职称相关联</li> 
+        <li>他们与使用字段的人属于同一组</li> 
+       </ul> <p>必须使用文本模式语法为所选对象类型定义过滤器。 有关使用文本模式创建过滤器的信息，请参阅 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文本模式编辑筛选器</a>.</p>
+       <p><b>注意</b>：
+       <ul> 
+        <li>如果您正在编辑现有的自定义表单，则将过滤器添加到“预输入”字段不会移除用户已使用该字段添加的任何对象（在过滤器的范围外）。</li> 
+        <li>此筛选器在移动设备上不可用。 如果您将过滤器用于“预输入”字段，则该字段将显示在不受过滤器影响的用户移动设备上。</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>键盘缓冲</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">制作一个必填字段</td> 
