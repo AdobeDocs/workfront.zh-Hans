@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfront规划功能是Adobe Workfront提供的一项新功能。 规划�
 | 创建分类 | ✓ {\f13 } |                                  |                  |
 | 创建单独的命名记录和分类 | ✓ {\f13 } |                                  |                  |
 | 创建记录自定义字段 | ✓ {\f13 } |                                  |                  |
-| 使用Excel或CSV文件导入记录类型和字段 | ✓ {\f13 } |                                  |                  |
+| 使用Excel或CSV文件导入记录类型和字段* | ✓ {\f13 } |                                  |                  |
 | 链接记录 | ✓ {\f13 } |                                  |                  |
 | 查看表中的记录 | ✓ {\f13 } |                                  |                  |
 | 在时间轴中查看记录 | ✓ {\f13 } |                                  |                  |
@@ -275,7 +275,12 @@ Adobe Workfront规划功能是Adobe Workfront提供的一项新功能。 规划�
 | 可粘贴到记录类型表中的文件大小 | 1MB |
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
-| 可在表中导入的Excel文件的CSV大小 | 5MB |
+| 可导入的Excel文件的CSV大小* | 5MB |
+
+>[!IMPORTANT]
+>
+>*此功能已被暂时禁用，并将在以后可用
+
 
 ## 找到Adobe Workfront规划功能
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 1%
 | 在视图中添加字段作为新列 | ✓ {\f13 } |               |         |
 | 从外部列表中复制行并将其粘贴到表中 | ✓ {\f13 } |               |          |
 | 在时间轴中显示记录 |            | ✓ {\f13 } |             |
-| 筛选记录 | ✓ {\f13 } | ✓ {\f13 } |           |
+| 筛选记录 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
 | 显示日历中的记录 |           |              | ✓ {\f13 } |
 | 组记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 排序记录 | ✓ {\f13 } |              |

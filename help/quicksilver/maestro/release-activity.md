@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
+
+## 2024年3月18日起一周
+
+### 日历视图中可用的筛选器
+
+生产： 2024年3月19日
+
+预览：待定
+
+您现在可以在日历视图中筛选信息。 有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### 添加到时间轴和日历视图的详细信息框
+
+生产： 2024年3月19日
+
+预览：待定
+
+您现在可以从时间轴和日历视图访问记录的详细信息框。 您可以在时间轴和日历视图内的“详细信息”框中编辑记录。
+
+从“详细信息”框中，可以打开记录的“详细信息”页面。
+
+有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
+
+### 记录类型Excel导入暂时被禁用
+
+生产： 2024年3月21日
+
+预览：待定
+
+我们暂时禁止使用Excel或CSV文件导入记录类型。 此功能将在以后提供。
 
 ## 2024年3月11日起一周
 

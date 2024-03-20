@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ ht-degree: 0%
 ## 有关编辑记录的注意事项
 
 * 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
-* 您可以从记录的“详细信息”页面或记录类型的表格视图中编辑记录字段。
-* 无法从时间线视图中编辑记录信息。
+* 您可以从以下区域编辑记录字段：
+
+   * 记录视图中记录的“详细信息”框。
+   * 记录的“详细信息”页面。
+   * 内联，在表格视图中。
+
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
    * 公式类型字段
@@ -107,7 +111,7 @@ ht-degree: 0%
 * [从记录类型的表格视图中](#edit-a-record-from-the-table-view-of-a-record-type)
 * [从记录的详细信息页面](#edit-a-record-from-the-records-details-page)
 
-### 从记录类型的表视图中编辑记录
+### 在记录类型的表视图中编辑内联记录
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ ht-degree: 0%
 1. （可选）双击连接的记录字段以将连接的记录或对象添加到另一记录。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 1. 按 **输入** 或单击行外以保存更改。 更改将自动保存。 A **已保存** 指示器会短暂显示在表格视图的右上角，表示已保存更改。
 
-1. （可选）单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧，或单击记录名称。 此 **详细信息** 框在表中打开。
-
-   >[!TIP]
-   >
-   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时记录的“名称”字段左侧的图标。
-
-1. 开始编辑中的字段信息 **详细信息** 盒子。 Workfront会自动保存您所做的更改。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。 继续编辑记录，如中所述 [从记录的“详细信息”页面编辑记录](#edit-a-record-from-the-records-details-page) 部分。
-
 
 1. （可选）要将信息从一个字段复制并粘贴到另一个字段，请执行下列操作之一：
 
@@ -188,27 +183,61 @@ ht-degree: 0%
 
 1. （可选）向记录中添加缩略图。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### 在视图中编辑记录的“详细信息”框中的记录
 
-### 从记录的“详细信息”页面编辑记录
-
-您可以从表格视图的“详细信息”框或“详细信息”页面编辑记录。
-
-有关在“详细信息”框中编辑记录的信息，请参见 [从记录类型的表视图中编辑记录](#edit-a-record-from-the-table-view-of-a-record-type) 部分。
+您可以从任何视图的“详细信息”框中编辑记录。
 
 {{step1-to-maestro}}
 
 您上次访问的工作区将打开。
 
 1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+
+1. 单击记录类型卡片。
+
+   此时将打开记录类型页面。
+
+1. 从任何类型的视图中，单击记录的名称
+
+   或
+
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧，或单击记录名称。 此 **详细信息** 将在视图中打开框。
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
+
+1. 开始编辑中的字段信息 **详细信息** 盒子。 Workfront会自动保存您所做的更改。
+
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。 继续编辑记录，如中所述 [从记录的“详细信息”页面编辑记录](#edit-a-record-from-the-records-details-page) 部分。
+
+### 从记录的“详细信息”页面编辑记录
+
+您可以从“详细信息”页面编辑记录。
+
+{{step1-to-maestro}}
+
+您上次访问的工作区将打开。
+
+1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+
+1. 单击记录类型卡片。
+
+   此时将打开记录类型页面。
+
 1. 执行下列操作之一：
 
-   * 从 **表** 视图，单击记录的名称。
+   * 从任何视图中访问“详细信息”框，如 [在视图中编辑记录的“详细信息”框中的记录](#edit-a-record-from-the-records-details-box-in-a-view)部分。 然后，单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。
+
    * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * 在“时间轴”视图中，单击记录栏。
 
-   记录 **详细信息** 页面将打开。
+     记录 **详细信息** 页面将打开。
+
+     ![](assets/details-page.png)
 
 1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **编辑**
 

@@ -1,13 +1,13 @@
 ---
 title: 创建运营记录类型
-description: 记录类型是AdobeMaestro的对象类型。 在Maestro中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作项。
+description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作项。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-记录类型是AdobeMaestro的对象类型。 在Maestro中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作相关项目。
+记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明了在组织的生命周期中所需的工作相关项。
 
 记录类型可以是以下任一类型：
 
 * **操作记录类型**
 * **分类**
 
-有关Maestro记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
+有关记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
 
 创建操作记录类型与创建分类记录类型类似。 本文介绍了如何创建操作记录类型。
 
@@ -45,12 +45,12 @@ ht-degree: 0%
 <tr>
 <td>
    <p> 产品</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
-   <p>任何</p> 
+   <p>当前：计划</p>
+   或
+   <p>新增：标准 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ ht-degree: 0%
 
         有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
       * 当您使用Excel或CSV文件导入它们时。 这不适用于分类记录类型。
+
+        >[!IMPORTANT]
+        >
+        >此功能自2024年3月21日起已暂时禁用。 之后将启用该功能。
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ ht-degree: 0%
 
 ## 使用工作区模板创建记录类型
 
-在使用模板创建工作区时，您可以自动创建记录类型。 每个Maestro模板都包含示例操作和分类记录类型。
+在使用Workfront规划模板创建工作区时，您可以自动创建记录类型。 每个模板都包含示例操作和分类记录类型。
 
 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ ht-degree: 0%
 
 ## 通过导入Excel或CSV文件创建记录类型
 
+>[!IMPORTANT]
+>
+>此功能自2024年3月21日起已暂时禁用。 之后将启用该功能。
+
+
 使用Excel或CSV文件导入记录类型时，请考虑以下事项：
 
-* 在Maestro中，Excel文件的每一页都成为记录类型。
+* Excel文件的每一页都变为记录类型。
 * 每个工作表的列将成为与每个记录类型关联的字段。
 * 字段对于其各自的记录类型是唯一的。
 * 每个工作表中的每一行都成为与其各自记录类型相关联的唯一记录。
 * Excel文件的每一页不应超过以下内容：
-   * 10,000行
+   * 50,000行
    * 500列
 * Excel文件不应大于5MB。
 * 不支持空工作表。
@@ -222,7 +234,7 @@ ht-degree: 0%
 
    预览和编辑框显示以下信息：
 
-   * 工作表或未来记录类型的名称显示在左侧面板中。 默认情况下，Maestro会为每个新记录类型选择一个图标和颜色。
+   * 工作表或未来记录类型的名称显示在左侧面板中。 默认情况下，Workfront planning会为每个新记录类型选择一个图标和一种颜色。
    * 选择第一个工作表或记录类型，并且与其关联的字段的名称显示为列标题。 默认情况下，会选择每个字段的类型。
    * 每一行表示一个新记录。 只有前10条记录会显示在“预览和编辑”框中。
 
@@ -243,7 +255,7 @@ ht-degree: 0%
 
 1. 单击 **导入** 准备导入文件时。
 
-   以下信息导入到Maestro中：
+   以下信息导入到Workfront planning中：
 
    * 新记录类型
    * 与每个记录类型关联的新字段
@@ -251,7 +263,7 @@ ht-degree: 0%
 
    您可以开始管理记录类型页面上的字段和记录。
 
-   有权访问Maestro的每个人都可以查看和编辑导入的记录类型及其信息。 <!--this will change with permissions-->
+   有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。 <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

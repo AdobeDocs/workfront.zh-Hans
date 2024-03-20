@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ role: User
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* 为时间轴视图创建的筛选器在应用于同一记录类型时独立于表格视图中的筛选器。
+* 您为时间轴视图创建的筛选器与应用于同一记录类型的任何其他视图中的筛选器独立工作。
 
-* 这些过滤器对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的筛选器。 查看同一时间轴视图的两个用户会看到当前应用的同一过滤器。
+* 这些过滤器对于您选择的视图是唯一的。 同一记录类型的两个时间轴视图可以应用不同的筛选器。
+
+* 查看同一时间轴视图的两个用户会看到当前应用的同一过滤器。
 
 * 您无法为时间线视图命名您构建的过滤器。
 

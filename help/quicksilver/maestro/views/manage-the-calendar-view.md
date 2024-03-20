@@ -4,9 +4,9 @@ description: 您可以在日历视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ hide: yes
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
 
       * 月
+1. 更新以下视图元素，如以下子部分所述：
+   * [过滤器](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### 添加过滤器
+
+您可以使用过滤器减少屏幕上显示的信息量。
+
+在日历视图中使用过滤器时，请考虑以下事项：
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* 您为日历视图创建的筛选器与应用于同一记录类型的任何其他视图中的筛选器是相互独立的。
+
+* 这些过滤器对于您选择的视图是唯一的。 同一记录类型的两个日历视图可以应用不同的筛选器。
+
+* 查看同一日历视图的两个用户会看到当前应用的同一筛选器。
+
+* 无法为日历视图命名您构建的过滤器。
+
+* 删除筛选器会将其从与您访问相同记录类型以及显示与您相同的视图的任何人中删除。
+
+* 在日历视图中添加筛选器与在表视图中添加筛选器相同。
+
+  有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* 您可以按连接的记录字段或查找字段进行筛选，但不能对允许链接到多个记录的字段进行筛选。
