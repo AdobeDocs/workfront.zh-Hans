@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 您可以使用表单设计器组织自定义表单。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # 使用表单设计器组织和预览表单
 
-您可以使用表单设计器组织自定义表单。
+您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
 ## 访问要求
 
