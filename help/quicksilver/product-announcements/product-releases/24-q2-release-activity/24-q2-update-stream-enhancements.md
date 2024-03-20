@@ -4,9 +4,9 @@ description: 2024年第二季度更新流和通知增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （关于此特定功能的讨论在2:47开始）
+
 ## 新评论体验中的“系统活动”选项卡支持只读评论
 
 >[!NOTE]
@@ -49,6 +51,8 @@ ht-degree: 0%
 对旧版注释体验中的系统活动记录所做的注释现在以只读形式填充到新注释体验的“系统活动”选项卡中。 您无法回复新评论体验中的系统活动记录。
 
 有关更多信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的讨论在视频的2:00分钟开始。）
 
 ## 新的更新流选项卡，用于捕获注释和系统活动条目
 
@@ -62,6 +66,8 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的讨论在视频的0:31开始。）
+
 ## 摘要面板中现在提供了新的评论流
 
 >[!NOTE]
@@ -71,3 +77,5 @@ ht-degree: 0%
 我们现在为任务和问题列表的“摘要”面板添加了新的注释功能。
 
 有关更多信息，请参阅 [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3427991/){target=_blank}

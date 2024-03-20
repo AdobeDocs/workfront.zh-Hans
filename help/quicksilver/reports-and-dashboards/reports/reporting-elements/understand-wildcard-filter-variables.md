@@ -7,9 +7,9 @@ description: 通过在过滤器中使用通配符，您可以引用通用用户�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ ht-degree: 1%
 
 | **限定符** | |
 |---|---|
-| **b** | 一周开始（星期日） |
-| **e** | 一周结束（星期六） |
+| **b** | 期间开始（没有指定属性，默认为一周的开始：星期日） |
+| **e** | 期间结束（没有指定属性，默认为一周的结束：星期六） |
 
 {style="table-layout:auto"}
 
