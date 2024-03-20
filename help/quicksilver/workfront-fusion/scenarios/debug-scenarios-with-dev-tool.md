@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool允许您了解场景并排除其故�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1831'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # 使用调试方案 [!DNL Adobe Workfront Fusion] Devtool
 
 此 [!DNL Adobe Workfront Fusion] 通过Devtool，您可以了解各种方案并排除其故障。 Devtool会添加一个额外的面板到 [!DNL Chrome Developer Tools]. 使用此调试器面板，您可以检查场景的所有手动运行，查看所有执行的操作，并查看每个执行的API调用的详细信息。 您可以查看导致错误的模块、操作或单个响应，并使用该知识来优化场景。
+
+>[!NOTE]
+>
+>对于机密场景、自动执行和成功操作，调试器面板中的记录将受限或不可用。
 
 有关Fusion Devtool的视频介绍和演练，请参见
 
@@ -448,6 +452,6 @@ Workfront Fusion Devtool分为3个主要部分。 您可以在Devtool窗口的�
 
 #### [!UICONTROL 迁移GS]
 
-此工具专为升级而设计 [!DNL Google Sheets] （旧版）模块到最新 [!DNL Google Sheets] 版本。 它在场景路由中的模块的旧版本之后添加了该模块的新版本。
+此工具专为升级而设计 [!DNL Google Sheets] （旧版）模块到最新 [!DNL Google Sheets] 版本。 它在场景路由中的模块的以前版本之后添加了该模块的新版本。
 
 此模块不需要您设置任何参数。
