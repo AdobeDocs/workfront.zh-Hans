@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 请注意，收藏集已重命名为工作流。 工作流可帮助您以不同的方式可视化数据。 可以在列表、展示板或开发周期中的信息卡上显示项目。 工作流中的信息卡还可以在多个展示板之间共享。 您可以在工作流中使用信息卡和展示板轻松简化工作流。
 
-有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)， [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、和 [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 第二两篇文章将在我发布分支之前无法在主页面中使用。
+有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)， [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、和 [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
