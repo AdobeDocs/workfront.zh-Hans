@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 0%
    或
 
    单击 **保存并汇编** 以保存和汇编包。
+
+   >[!NOTE]
+   >
+   >* 如果软件包的名称中包含五个或更多字符并且至少添加了一个对象，则“保存并关闭”和“保存并装配”按钮可用。
+   >* 您无法装配处于可安装状态（例如测试或活动）的软件包。
 
 ## 编辑或汇编现有包
 
