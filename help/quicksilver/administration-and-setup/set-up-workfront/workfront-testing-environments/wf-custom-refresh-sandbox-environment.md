@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## 预期用途和可用性
 
-[!DNL Workfront] 自定义刷新沙盒环境不适用于性能或负载测试。 相反，使用这些环境验证组织现有工作流的功能性。
+* [!DNL Workfront] 自定义刷新沙盒环境不适用于性能或负载测试。 相反，使用这些环境验证组织现有工作流的功能性。
 
-[!DNL Workfront] 自定义刷新沙盒环境旨在始终可用。 在解决任何生产问题（如果存在）之后，在常规工作时间内对Workfront自定义刷新沙盒环境的任何中断都将成为首要任务。 将解决周末（周六和周日）对Workfront自定义刷新沙盒环境的任何中断，以便该环境在星期一的营业时间运行。
+* [!DNL Workfront] 自定义刷新沙盒环境旨在始终可用。 在解决任何生产问题（如果存在）之后，在常规工作时间内对Workfront自定义刷新沙盒环境的任何中断都将成为首要任务。 将解决周末（周六和周日）对Workfront自定义刷新沙盒环境的任何中断，以便该环境在星期一的营业时间运行。
+
+* 验证在自定义刷新沙盒环境中不可用。
