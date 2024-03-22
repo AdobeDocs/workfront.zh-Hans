@@ -8,9 +8,9 @@ description: 通过Adobe Workfront Fusion的“组织”和“团队”功能，
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ ht-degree: 0%
 
 团队是共享对特定资源的访问权限的用户组。 这些资源可能包括：
 
-* 场景
+* 方案
 * 连接
-* Webhooks
+* Webhook
 * 键
 * 数据存储
 * 数据结构
@@ -174,6 +174,14 @@ ht-degree: 0%
 >有关更多信息，请参阅 [访问您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 在团队级别设置电子邮件通知选项。
+
+>[!NOTE]
+>
+>如果贵组织已移至Unified Shell，您将通过Adobe通知区域接收通知。 您必须使用Unified Shell体验才能在Adobe通知区域中查看通知。
+>
+>要使用Unified Shell Experience(包括“Adobe通知”区域)，请单击页面顶部附近的在Unified Experience中尝试使用新Fusion UI按钮。 仅当您的组织已移至Unified Shell时，此按钮才可用。
+>
+>有关在Unified Shell中查找通知的更多信息，请参阅 [访问您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. 在左侧导航面板中，单击 **[!UICONTROL 团队]**
 1. 选择 **[!UICONTROL 通知选项]** 选项卡。
