@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ ht-degree: 0%
    >除购买付费的Workfront Proof加载项以及他们的Workfront许可证外，验证许可证仅适用于这些客户。 有关此加载项的信息，请参阅 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
 
 1. （视情况而定）如果您看到消息 **要设置最大数，必须添加主组**，按照一节中的说明在系统中添加主组 [在“许可证”页面中添加或删除主组](#add-or-remove-a-home-group-to-the-licenses-page) 本文章中。
+
+   >[!NOTE]
+   >
+   >对于新计划，Select计划不允许管理员按主组查看许可证。 您只能看到已使用的许可证的总数。 Prime和Ultimate计划提供设置每个主组的最大许可证数量的功能。
 
 ## 查看有关Workfront加载项许可证的信息
 
