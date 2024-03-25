@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-您可以删除Adobe Workfront规划功能中不再相关的记录。
+您可以删除在Adobe Workfront规划中不再相关的记录。
 
 ## 访问要求
 
@@ -39,7 +39,7 @@ ht-degree: 2%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划功能没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront规划没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -70,7 +70,7 @@ ht-degree: 2%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 

@@ -1,14 +1,14 @@
 ---
 title: “记录：文章索引”
-description: 在AdobeMaestro中创建记录类型后，可以创建这些类型的单个记录。 以下文章介绍如何在Adobe Maestro中创建和管理记录及其信息。
+description: 在Adobe Workfront Planning中创建记录类型后，可以创建这些类型的单个记录。 以下文章介绍如何在Adobe Workfront Planning中创建和管理记录及其信息。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-在AdobeMaestro中创建记录类型后，可以创建这些类型的单个记录。
+在Adobe Workfront Planning中创建记录类型后，可以创建这些类型的单个记录。
 
-以下文章介绍如何在Adobe Maestro中创建和管理记录及其信息：
+以下文章介绍如何在Adobe Workfront Planning中创建和管理记录及其信息：
 
 * [创建记录](/help/quicksilver/maestro/records/create-records.md)
 * [编辑记录](/help/quicksilver/maestro/records/edit-records.md)

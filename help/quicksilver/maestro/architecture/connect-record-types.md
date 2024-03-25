@@ -1,20 +1,20 @@
 ---
 title: 连接记录类型
-description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Maestro记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
+description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Adobe Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将他们的焦点集中在一个应用程序中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包含组织所需的记录类型。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Maestro记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
+您可以使用Adobe Workfront Planning来设计包含组织所需记录类型的完全可自定义的工作区。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将他们的焦点集中在一个应用程序中。
 
-您可以将Maestro记录类型与其他应用程序中的对象类型连接起来，或者将Maestro记录类型与其他应用程序中的对象类型连接。
+您可以将记录类型相互连接或用其它应用程序的对象类型来记录类型。
 
-这样，您便可以在另一个Maestro记录中显示链接记录或对象类型中的字段。
+通过执行此操作，您可以在Workfront规划记录中显示链接记录或对象类型中的字段。
 
-本文介绍了如何将两个Maestro记录类型或Maestro记录类型与另一个应用程序中的对象连接起来。
+本文介绍了如何在Workfront planning中将两种记录类型或一种记录类型与来自另一个应用程序的对象连接起来。
 
 在记录或对象类型之间建立连接后，可以将各个记录相互连接。
 
-有关将Maestro记录连接到另一个应用程序的对象的信息，请参见 [连接记录](../records/connect-records.md).
+有关将Workfront Planning记录连接到另一个应用程序的对象的信息，请参阅 [连接记录](../records/connect-records.md).
 
 有关连接记录类型的示例，请参见 [连接记录类型和记录的示例](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>要将Adobe Workfront规划记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 ## 有关连接记录类型的注意事项
 
-* 可以在Maestro中连接以下实体：
+* 您可以在Adobe Workfront planning中连接以下实体：
 
-   * 两种操作记录类型
-   * 两种分类
-   * 操作记录类型和分类
-   * 操作记录类型或分类以及来自其他应用程序的对象类型。
+   * 两种记录类型
 
-  所有操作记录类型和分类必须属于同一工作区。
+     记录类型必须属于同一工作区。
+   * 来自另一个应用程序的记录类型和对象类型。
 
-* 您可以从具有Maestro记录类型的以下应用程序中连接以下对象类型：
+* 您可以将以下应用程序中的以下对象类型与Workfront规划记录类型连接起来：
 
    * Adobe Workfront：
 
@@ -140,7 +138,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
      >[!IMPORTANT]
      >
-     >您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Maestro记录连接到Adobe Experience Manager Assets。
+     >您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront规划记录连接到Adobe Experience Manager Assets。
      >
      >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
    * **将记录类型与另一个应用程序的对象类型连接时**：在您连接的记录类型上创建链接记录字段。 不会在其他应用程序的对象类型上自动创建链接记录字段。
 
-     仅当实际对象连接到Maestro记录时，才会为另一个应用程序的对象创建新的Maestro只读记录类型。
+     仅当实际对象连接到Workfront planning记录时，才会为另一个应用程序的对象创建新的Workfront planning只读记录类型。
 
      有关更多信息，请参阅 [连接记录](../records/connect-records.md).
 
-   * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Maestro记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
+   * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Workfront规划记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
 
-     例如，如果您将“Campaign”Maestro记录类型与Workfront项目连接，并选择将该项目的计划完成日期字段引入到Maestro记录中，则将自动为营销活动创建名为“计划完成日期”（来自项目）的链接字段。 您无法手动编辑此链接的字段。 计划完成日期（来自项目）字段显示链接项目的计划完成日期。
+     例如，如果您将“促销活动”记录类型与Workfront项目连接并选择将该项目的“计划完成日期”字段引入Workfront计划记录，则将自动为促销活动创建一个名为“计划完成日期”（来自项目）的链接字段。 您无法手动编辑此链接的字段。 计划完成日期（来自项目）字段显示链接项目的计划完成日期。
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
 1. 在 **记录类型** 字段，搜索记录类型，或选择以下选项之一：
 
-   * 来自所选工作区部分的另一个操作记录类型或分类
+   * 来自所选工作区部分的另一个记录类型
 
      >[!TIP]
      >
-     >只有所选工作区中的记录类型和分类可供连接。
+     >只有来自所选工作区的记录类型可供连接。
      > 
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
@@ -212,7 +210,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
    * **允许多条记录**：选择此选项以指示您允许用户在链接记录类型字段显示在原始记录上时添加多个记录。 默认情况下，该选项处于选中状态。
    * **选择查找字段**：选择此选项可从所选记录类型添加字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您从中链接的记录的信息。 默认情况下，该选项处于选中状态。
 
-1. （视情况而定，可选）如果您已选择连接Workfront对象，请选择 **自定义表单** 从 **仅链接符合这些条件的对象** 部分。 只有附加了选定自定义表单的对象才能链接到选定的Maestro记录类型。 您可以选择多个表单。
+1. （视情况而定，可选）如果您已选择连接Workfront对象，请选择 **自定义表单** 从 **仅链接符合这些条件的对象** 部分。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
      例如，如果您链接了某个“促销活动”记录类型与“项目”记录类型，并将该“项目”链接记录字段命名为“项目群信息”，然后选择还在“促销活动”表格视图中显示该“项目”的“预算”字段，则链接的字段将自动命名为 `Budget (from Program information)` 在营销活动的表格视图中。
 
-   * 当您将Maestro记录类型链接到彼此时，链接记录字段也会添加到要链接的记录类型上。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
+   * 当您将记录类型链接到另一个记录类型时，链接记录字段也会添加到要链接的记录类型上。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
 
      例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并将营销活动的连接字段命名为“链接的产品”，则会为“Product”记录类型创建“Campaign”链接记录字段。
 
      >[!TIP]
      >
-     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Maestro中链接的记录类型。
+     > 不会为对象创建链接记录字段，这些对象从另一个应用程序链接到您在Workfront Planning中链接的记录类型。
 
 1. （可选，视情况而定）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：
 
@@ -305,7 +303,7 @@ Adobe您可以使用Maestro来设计完全可自定义的工作区，其中包�
 
    >[!NOTE]
    >
-   > 不能添加属于从另一应用程序链接到对象类型的Maestro记录类型的查找字段。
+   > 不能添加属于从另一应用程序链接到对象类型的记录类型的查找字段。
    >
    > 例如，无法将“Campaign Status”的查找字段添加到要从营销活动链接到的Workfront项目。
 

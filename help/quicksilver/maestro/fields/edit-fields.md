@@ -1,13 +1,13 @@
 ---
 title: 编辑字段
-description: 在Adobe管理器中，您可以编辑已创建字段的字段设置。
+description: 在Adobe Workfront Planning中，您可以编辑已创建字段的字段设置。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以编辑已创建字段的字段设置。
+您可以编辑已在Adobe Workfront Planning中创建的字段的字段设置。
 
-有关创建Adobe生成器字段的信息，请参阅 [创建字段](../fields/create-fields.md).
+有关创建Adobe Workfront规划字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-本文介绍了如何编辑Maestro字段的设置。 有关编辑Maestro记录的字段值的信息，请参见 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
+本文介绍了如何编辑Workfront规划字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 有关编辑字段信息的注意事项
 
@@ -69,7 +69,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问控制</p>  
+   <td> <p>Workfront计划没有访问控制</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ recommendations: noDisplay, noCatalog
 
 ## 编辑字段
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-workfront.png) 位于Workfront的右上角，或者 **主菜单** 图标 ![](assets/main-menu-shell.png)  （如果可用），然后单击 **大师** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   默认情况下应打开上次访问的工作区。
+    默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
 
-   工作区将打开，并显示与其关联的记录类型和分类。
-1. 单击要编辑其字段的记录类型或分类卡。
+   工作区将打开，并显示与其关联的记录类型。
+1. 单击要编辑其字段的记录类型的卡片。
 
    这将打开记录类型的页面。
 1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单

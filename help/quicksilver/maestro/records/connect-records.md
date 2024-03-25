@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以将AdobeMaestro记录连接到其他应用程序或对象。
+您可以将Adobe Workfront Planning记录连接到其他应用程序或对象。
 
 必须首先将两个记录类型相互连接，或者将记录类型从另一个应用程序连接到对象类型。 这将创建链接的记录字段。 然后，可以使用链接的记录字段将记录彼此连接，或将记录与其他应用程序中的其他对象连接。
 
@@ -42,12 +42,10 @@ hide: yes
 
 您可以连接以下各项：
 
-* Maestro操作记录
-* 具有分类记录的大型运营记录
-* Maestro分类
-* 用其他应用程序中的对象生成主要操作记录或分类。
+* Adobe Workfront规划记录
+* Adobe Workfront计划记录包含来自其他应用程序的对象。
 
-  您可以将Maestro记录连接到下列应用程序中所列类型的对象：
+  您可以从以下应用程序将记录连接到下列类型的对象：
 
    * Adobe Workfront
 
@@ -79,12 +77,12 @@ hide: yes
 <td>产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要将Maestro记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p>
+   <p>要将Adobe Workfront规划记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到Adobe业务平台或Adobe Admin Console。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -102,7 +100,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -115,7 +113,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
@@ -136,14 +134,14 @@ hide: yes
 * 您可以将链接记录类型的字段添加到要链接的记录类型的表中。
 * 您无法手动更新正在链接的记录中链接字段的值。
 
-  链接记录的链接字段的值会填充您从原始记录或对象自动链接的Maestro记录。
+  链接记录的链接字段的值会自动从原始记录或对象中填充您正在链接的Workfront计划记录。
 
-* 每个有权访问Maestro和“查看”或者对工作区具有更高权限的人都可以看到您在Maestro记录之间或Maestro记录与其他应用程序对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
+* 有权访问Workfront规划和视图或者对工作区具有更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
-* 您可以将一个Maestro记录连接到另一个应用程序的一个或多个对象。
-* 要将Maestro记录与其他记录或对象链接，您必须具备以下各项：
+* 您可以将一个记录连接到另一个应用程序的一个或多个对象。
+* 要将记录与其他记录或对象链接，您必须具备以下各项：
 
-   * 至少有一个Maestro工作区、记录类型和记录。
+   * 至少一个工作区、记录类型和记录。
 
      有关更多信息，请参阅以下文章：
 
@@ -153,7 +151,7 @@ hide: yes
 
    * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 
-### 连接Maestro记录
+### 连接Adobe Workfront规划记录
 
 {{step1-to-maestro}}
 
@@ -200,7 +198,7 @@ hide: yes
    >
    >* 如果您已启用 **允许多条记录** 设置连接记录类型时，多个选定对象的字段值显示时用逗号分隔，或根据您选择的聚合器聚合。
 
-1. （可选）关闭Maestro记录类型页面，然后转到所选的工作区。
+1. （可选）关闭记录类型页面，然后转到您选择的工作区。
 1. 单击链接到的记录类型的卡。
 
    例如，如果您已连接 **营销活动** 包含产品记录的记录，单击 **产品** 卡片。
@@ -209,15 +207,15 @@ hide: yes
 
    请注意 **营销活动** 链接记录字段显示您在产品记录类型页面中链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
-### 将Maestro记录连接到Workfront对象
+### 将Adobe Workfront计划记录连接到Workfront对象
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
-在Maestro记录类型和Workfront对象类型之间创建连接后，可以将单个Maestro记录连接到Workfront中的对象。 您连接的Workfront字段会自动填充到链接对象的Maestro记录中。
+在记录类型和Workfront对象类型之间创建连接后，可以将单个记录连接到Workfront中的对象。 您连接的Workfront字段会自动填充到链接对象的记录中。
 
 >[!NOTE]
 >
->您无法将Workfront对象与Workfront中的Maestro记录连接。
+>您无法将Workfront对象与Workfront中的Workfront规划记录相关联。
 
 
 {{step1-to-maestro}}
@@ -266,9 +264,9 @@ hide: yes
 
    有关将记录类型与来自其他应用程序的对象连接的详细信息，请参见 [连接记录类型](../architecture/connect-record-types.md).
 
-1. （可选）单击表视图的链接字段或表的链接字段中连接到Maestro记录的Workfront对象的名称。 **详细信息** 大师”记录的页面。
+1. （可选）单击表视图的链接字段或表的链接字段中连接到Workfront计划记录的Workfront对象的名称。 **详细信息** 记录页。
 
-   这将打开只读的大师 **详细信息** 页面中显示的链接Workfront对象。 将记录类型与Workfront对象连接后，您选择用作查找字段的字段会显示在Workfront Maestro记录的“详细信息”页面中。
+   这将打开只读的Workfront规划 **详细信息** 页面中显示的链接Workfront对象。 将记录类型与Workfront对象连接后，您选择作为查找字段的字段会显示在Workfront计划记录的详细信息页面中。
 
    >[!TIP]
    >
@@ -282,7 +280,7 @@ hide: yes
 
    如果您至少具有查看对象的权限，这将打开Workfront对象页面。 如果您有相应的权限，则可以编辑有关Workfront对象的信息。
 
-1. （可选）在Maestro记录类型的表格视图中，将鼠标悬停在链接Workfront对象的列标题上，单击下拉菜单，然后单击 **编辑查找字段**.
+1. （可选）在记录类型的表格视图中，将鼠标悬停在链接Workfront对象的列标题上，单击下拉菜单，然后单击 **编辑查找字段**.
 
 1. 从添加Workfront对象字段 **未选择的字段** 区域
 
@@ -290,20 +288,20 @@ hide: yes
 
    从中删除Workfront对象字段 **选定的字段** 区域。
 
-   这会从Maestro记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
+   这会从Workfront规划记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
 
 
-### 将Maestro记录连接到Adobe Experience Manager对象
+### 将Workfront计划记录连接到Adobe Experience Manager对象
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Maestro记录连接到Adobe Experience Manager Assets。
+>您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront规划记录连接到Adobe Experience Manager Assets。
 >
 >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-在Maestro记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个Maestro记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的Maestro记录类型上。
+在记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的记录类型中。
 
 {{step1-to-maestro}}
 
@@ -318,7 +316,7 @@ hide: yes
 
    >[!TIP]
    >
-   >  您可以添加，然后单击 **+** 图标，以将资产连接到记录的Maestro记录的详细信息页面中的链接对象字段。
+   >  您可以添加，然后单击 **+** 图标将资产连接到记录的详细信息页面中的链接对象字段。
 
    此 **选择资源** 框显示。 <!--we might change this to Connect assets-->
 
@@ -333,7 +331,7 @@ hide: yes
 
    >[!IMPORTANT]
    >
-   > 您只能连接您有权在Experience Manager中查看的资源。 连接后，所有Maestro用户都可以在Maestro中查看资源，无论他们在Experience Manager Assets中如何访问。
+   > 您只能连接您有权在Experience Manager中查看的资源。 连接后，所有Workfront规划用户都可以在Workfront规划中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
 
 1. 单击 **选择**. <!-- we might change this to Connect-->
 
@@ -348,7 +346,7 @@ hide: yes
      >
      >* 如果启用了允许多条记录设置，则多个对象的值将以逗号分隔或根据您选择的聚合器聚合。
      >
-     >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Maestro链接记录的链接记录字段。
+     >* 没有在Experience Manager Assets应用程序中为链接的Experience Manager资源创建指向Workfront Planning链接记录的链接记录字段。
 
 1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。 <!--update screen shot with hi-rez picture-->
 
@@ -366,11 +364,11 @@ hide: yes
    * 创建日期
    * 修改日期
 
-1. （可选）要在Experience Manager中打开“Experience Manager资源记录详细信息”页面，请转到要链接到的记录的“Maestro记录类型”页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
+1. （可选）要在Experience Manager中打开“Experience Manager资源记录详细信息”页面，请转到要链接到的记录的记录类型页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
 
    这会在Adobe Experience Manager Assets中打开Experience Manager资源。
 
-1. （可选）在Maestro记录类型的表格视图中，将鼠标悬停在链接的Experience Manager资源的列标题上，单击下拉菜单，然后单击 **编辑查找字段**.
+1. （可选）在记录类型的表格视图中，将鼠标悬停在链接的Experience Manager资源的列标题上，单击下拉菜单，然后单击 **编辑查找字段**.
 
 1. 从添加Experience Manager Assets对象字段 **未选择的字段** 区域
 
@@ -378,4 +376,4 @@ hide: yes
 
    从中删除Workfront对象字段 **选定的字段** 区域。
 
-   这会从Maestro记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在AdobeExperience Assets中。
+   这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在AdobeExperience Assets中。

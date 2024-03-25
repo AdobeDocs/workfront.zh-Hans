@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront规划功能发布活动
+title: Adobe Workfront计划发布活动
 description: Adobe Workfront规划功能当前可用于选择Workfront客户。 经常阅读本文以了解最近发布的规划功能功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront规划功能发布活动
+# Adobe Workfront计划发布活动
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
+
+## 2024年3月25日起一周
+
+### 工作区的新灵活记录类型组织
+
+生产： 2024年3月25日
+
+预览：待定
+
+为了让您在设置工作区时提高效率，我们修改了您在工作区中组织记录类型的方式。 其中一些改进包括：
+
+* 在每个工作区中创建最多50个记录类型节。 现有的“操作记录类型”和“分类”部分保留在现有工作区中。
+
+* 完全自定义所有新工作区及其新部分，以反映您的流程和组织的需求。
+
+* 在工作区中通过拖放记录类型来动态移动记录类型，包括将其拖放到所需的位置（跨不同的部分）。
+
+有关更多信息，请参阅 [创建记录类型](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### 复制视图
+
+生产： 2024年3月25日
+
+预览：待定
+
+为了节省时间并保持一致性，您现在可以复制您有权访问的现有视图。
+
+复制视图会使用相同的筛选器、排序标准和分组创建相同的视图。 复制视图不会保留原始视图的权限。
+
+有关更多信息，请参阅 [管理记录视图](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### 已将主菜单中的Maestro区域重命名为Planning
+
+生产： 2024年3月28日
+
+预览：待定
+
+我们已将主菜单中的Maestro区域重命名为Planning。
+
+有关Adobe Workfront规划的概述，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
 
 ## 2024年3月18日起一周
 
@@ -207,7 +247,7 @@ ht-degree: 0%
 
 有关新许可证模型的信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront规划功能时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront规划时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 记录字段富文本工具栏的新外观

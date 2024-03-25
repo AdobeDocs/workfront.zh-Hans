@@ -1,13 +1,13 @@
 ---
 title: 创建记录
-description: 使用Adobe Workfront规划功能时，记录是记录类型的实例。 在创建单个记录之前，必须先创建记录类型。 创建分类记录与创建操作记录相同。
+description: 使用Adobe Workfront规划时，记录是记录类型的实例。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划功能中，记录是记录类型的实例。
-
-您可以具有以下类型的记录：
-
-* **操作记录**：它们表示与工作相关的对象。 例如，对于名为“Campaign”的运营记录，您可以拥有名为“Monthly Newsletter”或“Summer Sale”的记录。
-* **分类记录**：它们表示可与操作记录关联的属性。 例如，对于名为“渠道”的分类记录类型，您可以命名分类，如“电子邮件”、“社交媒体”或“广告”。
-
-创建操作记录与创建分类记录相同。
+在Adobe Workfront规划中，记录是记录类型的实例。
 
 您可以通过执行以下操作之一来创建记录：
 
 * 为记录类型手动创建它们
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * 通过复制和粘贴外部列表中的信息创建记录。
 
 本文介绍了如何创建记录。 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
@@ -57,7 +49,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划功能没有访问控制 </p>  
+   <td> <p>Adobe Workfront计划没有访问控制 </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 从另一个应用程序中，选择多个行和列，然后将信息粘贴到记录类型表格视图中，从第一个新记录开始。
 
-   将在Workfront规划功能区域中导入以下信息：
+   将在Workfront规划区域中导入以下信息：
 
    * 行包含新记录
    * 列填充记录字段的信息。

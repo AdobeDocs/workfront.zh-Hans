@@ -1,13 +1,13 @@
 ---
 title: 工作区模板列表
-description: 工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。 Maestro随附了一组模板，帮助您在构建工作区时开始使用基本记录类型、分类和字段。
+description: 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 Adobe Workfront规划附带一组模板，可在您构建工作区时帮助您开始使用基本记录类型和字段。
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-在Adobe大师中，工作区是团队使用的操作记录类型和分类的集合，表示团队的工作生命周期。
+在Adobe Workfront规划中，工作区是团队使用的记录类型集合，表示团队的工作生命周期。
 
-Maestro随附了一组模板，帮助您在构建工作区时开始使用基本记录类型、分类和字段。 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+Workfront规划附带一组模板，可在您构建工作区时帮助您开始使用基本记录类型和字段。 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 
-本文介绍Maestro中可用的工作区模板。
+本文介绍Adobe Workfront规划中可用的工作区模板。
 
-## 有关Maestro模板的注意事项
+## 关于Adobe Workfront规划模板的注意事项
 
-* 每个模板都附带一组操作记录类型和分类。 有关信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
-* 每个操作记录类型和分类都附带一组字段。 其中一些字段是与其他Maestro记录类型的连接。
-* 您可以自定义任何模板。
+* 每个模板都附带一组记录类型。 有关信息，请参阅 [记录类型概览](../architecture/overview-of-record-types-and-taxonomies.md).
+* 每个模板中的记录类型分为以下部分：
+
+   * 操作记录类型
+   * 分类标准
+* 每种记录类型都附带一组字段。 其中一些字段与其他Workfront规划记录类型相关联。
+* 您可以自定义任何模板并向现有模板添加更多记录类型和字段。
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Maestro工作区模板
+## Workfront规划工作区模板
 
-以下是Maestro中的工作区模板及其包含的字段数：
+以下是Workfront规划中的工作区模板及其包含的字段数：
 
 * **营销管理**：使用此模板时，您可以管理所有营销活动。 该模板附带以下内容：
 

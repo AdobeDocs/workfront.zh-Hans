@@ -1,16 +1,16 @@
 ---
 title: 公式字段概述
-description: 在Adobe管理器中，您可以创建公式字段，这些字段使用函数和现有字段计算新的自定义值。
+description: 在Adobe Workfront Planning中，您可以创建公式字段，这些字段使用函数和现有字段计算新的自定义值。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # 公式字段概述
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以在Adobe大师中创建自定义字段，方法是引用现有字段并通过公式连接它们。 您可以通过创建自定义公式类型字段来实现这一点。
+您可以通过引用现有字段并通过公式连接它们，在Adobe Workfront Planning中创建自定义字段。 您可以通过创建自定义公式类型字段来实现这一点。
 
 公式字段使用记录类型中其他字段的现有值以及指示应如何计算现有值的函数来生成新值。
 
@@ -56,7 +56,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问控制</p>  
+   <td> <p>Workfornt计划没有访问控制</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。 <!--is this still accurate??-->
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
-* 在Maestro界面中显示的公式中，必须添加引用的字段。
+* 您必须添加您在公式中引用的字段，这些字段在Workfront规划界面中显示。
 * 在公式中使用链接记录类型中的查找字段将在以后可用。
 
 ## 支持的公式
 
-Maestro公式字段支持Workfront计算字段中的所有表达式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront规划公式字段支持Workfront计算字段中的所有表达式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-此外，我们支持Maestro公式字段的以下表达式：
+此外，我们为Workfront规划公式字段支持以下表达式：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ Maestro公式字段支持Workfront计算字段中的所有表达式。 有关更
    </td></tr>
 
 </table>
-
-
-
-
-

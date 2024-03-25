@@ -1,13 +1,13 @@
 ---
 title: 管理表视图
-description: 访问Adobe Workfront规划功能中的记录类型页面时，可在表格视图中显示记录及其字段。
+description: 访问Adobe Workfront规划中的记录类型页面时，您可以在表格视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-访问Adobe Workfront规划功能中的记录类型页面时，可在表格视图中显示记录及其字段。
+访问Adobe Workfront规划中的记录类型页面时，您可以在表格视图中显示记录及其字段。
 
 有关记录视图以及如何管理它们的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>AdobeWorkfort规划功能没有访问级别控制 </p>  
+   <td> <p>AdobeWorkfort计划没有访问级别控制</p>  
 </td>
   </tr>
 

@@ -1,14 +1,14 @@
 ---
 title: 创建分类记录类型
-description: 分类是一种可重用的记录类型，可捕获Adobe Workfront Maestro中某个运营记录类型的相关属性。
+description: 使用模板创建工作区时，会在“操作记录类型”和“分类”部分中创建记录类型。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-分类记录类型捕获有关AdobeMaestro中操作记录类型的属性。
+使用模板创建工作区时，会在以下部分中创建记录类型：
+
+* 操作记录类型
+* 分类标准
+
+工作区的“分类”部分中的记录类型捕获了同一工作区的“操作记录类型”部分中有关记录类型的属性。
 
 例如，Campaign可以是操作记录类型。 以下是捕获有关Campaign记录类型的属性的分类：地区、受众、国家/地区。
 
-有关Maestro记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
+有关记录类型的详细信息，请参阅 [记录类型概览](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 访问要求
 
@@ -39,11 +44,11 @@ ht-degree: 0%
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Maestro记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>要将记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ ht-degree: 0%
 
 ## 有关创建分类的注意事项
 
-* 必须先创建工作区，然后才能在工作区中创建分类记录类型。
+* 必须先使用模板创建工作区，然后才能在工作区的“分类”部分中创建记录类型。
 
   有关工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
-* 通过执行以下操作之一，可以创建分类记录类型：
+* 通过执行以下操作之一，可在工作区的“分类”部分中创建记录类型：
    * 在使用模板创建工作区时自动创建它们。 有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
-   * 从头开始手动创建它们。
+   * 在工作区的“分类”部分中从头开始手动创建分类。
 
-* 所有新创建的分类记录类型都包含以下字段：
+* 默认情况下，所有新创建的分类都有以下字段：
 
-   * 名称 <!--if there won't be any more fields, consider rephrasing this-->
+   * 名称
+   * 描述
+   * 开始日期
+   * 结束日期
+   * 状态
 
   此外，您还可以将自定义字段添加到分类。 有关更多信息，请参阅 [创建字段](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ ht-degree: 0%
 
 ## 创建分类记录类型
 
-创建分类记录类型与从头开始或从工作区模板创建操作记录类型类似。
+创建分类记录类型与创建记录类型类似。
 
-有关信息，请参阅文章中的“从头开始创建记录类型”部分 [创建记录类型](../architecture/create-record-types.md).
-
-有关在从模板创建工作区时自动创建分类的信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
+有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).

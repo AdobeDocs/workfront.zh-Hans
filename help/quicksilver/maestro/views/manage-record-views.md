@@ -1,13 +1,13 @@
 ---
 title: 管理记录视图
-description: 使用Adobe Workfront规划功能时，可在表、时间轴或日历视图中显示记录。
+description: 使用Adobe Workfront规划时，您可以在表、时间轴或日历视图中显示记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划功能区域中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
+在Adobe Workfront规划区域中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
 
 * 表
 
@@ -51,7 +51,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Workfront规划功能没有访问级别控制</p>  
+   <td> <p>Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ ht-degree: 1%
 
 ## 使用记录视图时的注意事项
 
-* Workfront规划功能区域中的视图特定于记录类型。 不能将同一视图应用于两种不同的记录类型。
+* Workfront Planning中的视图特定于记录类型。 不能将同一视图应用于两种不同的记录类型。
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
-* 为操作记录类型构建视图与为分类记录类型构建视图相同。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
 * 以下元素对于每个记录视图都是唯一的：
 
@@ -101,19 +100,19 @@ ht-degree: 1%
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  例如，在表格视图中创建筛选器时，筛选器结果仅在选定视图中可见，而不在“视图”下拉菜单中列出的所有视图中可见。
+  例如，在表格视图中创建筛选器时，筛选器结果仅在选定视图中可见，而不在与记录类型关联的所有视图中可见。
 
   >[!NOTE]
   >
-  > 由于Adobe Workfront规划功能当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
+  > 由于Adobe Workfront规划当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
 
 本文介绍了有关记录视图的以下信息：
 
 * [创建和编辑视图](#create-or-edit-record-views)
 * [删除视图](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [复制视图](#duplicate-views)
 * [共享视图](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 记录视图之间的异同
 
@@ -233,20 +232,30 @@ ht-degree: 1%
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## 复制视图
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+如果要保留视图的多个版本，并在这些版本之间进行细微更改，则可以复制视图。
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+复制视图会创建现有视图的相同副本。
 
-    By default, all the records of the type selected display in the table view. 
+原始视图的共享权限不会转移到复制的视图。
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+默认情况下，将打开您上次访问的工作区。
+
+有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
+
+   默认情况下，所选类型的所有记录都会显示在表格视图中。
+
+1. 将鼠标悬停在要复制的视图的选项卡上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **复制**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`. 新的视图选项卡将显示在所有视图选项卡的末尾。
+

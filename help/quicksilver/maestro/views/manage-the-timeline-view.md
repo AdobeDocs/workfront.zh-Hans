@@ -1,13 +1,13 @@
 ---
 title: 管理时间线视图
-description: 访问Adobe Workfront规划功能中的记录类型页面时，可在时间轴视图中显示记录。
+description: 访问Adobe Workfront规划中的记录类型页面时，可在时间轴视图中显示记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-访问Adobe Workfront规划功能中的记录类型页面时，可在时间轴视图中显示记录。
+访问Adobe Workfront规划中的记录类型页面时，可在时间轴视图中显示记录。
 
 有关记录视图的信息，请参见 [管理记录视图](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ role: User
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ role: User
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Adobe Workfront规划功能没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront规划没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ role: User
 
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>

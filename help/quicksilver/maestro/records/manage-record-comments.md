@@ -1,16 +1,16 @@
 ---
 title: 管理记录注释
-description: 通过在记录的右侧面板中添加注释或回复，您可以对AdobeMaestro记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
+description: 通过在记录的右侧面板中添加评论或回复，您可以对Adobe Workfront Planning记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # 管理记录注释
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-通过在记录的右侧面板中添加评论或回复，可以对AdobeMaestro记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
+通过在记录的右侧面板中添加评论或回复，您可以对Adobe Workfront Planning记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
 
 记录的右侧面板显示以下部分：
 
 * **评论**：显示用户添加到记录的评论和回复。
 * **历史记录**：显示用户对记录字段进行的系统记录更改。 有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->右侧面板显示操作记录和分类记录。
-
-
 ## 有关对记录进行注释的注意事项
 
-* 您可以在Maestro中记录的Comments部分向操作记录和分类添加注释和回复。
+* 您可以在Workfront planning中记录的“注释”部分添加注释和回复。
 
-* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Maestro Product记录添加注释，则该注释仅显示在Maestro的Product记录中，而不会显示在您从中链接的Campaign记录中。
+* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Workfront计划产品记录添加注释，则该注释仅显示在Workfront计划的Product记录中，而不会显示在您从中链接的Campaign记录中。
 
-* 您可以向由于Maestro记录与来自其他应用程序的对象之间的连接而创建的Maestro记录添加注释。
+* 您可以将注释添加到由于某个记录与来自另一个应用程序的对象之间的连接而创建的Workfront Planning记录中。
 
-  例如，在将Workfront项目与Maestro记录连接后，您可以对Project Maestro记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
+  例如，在将Workfront项目与Workfront计划记录连接后，您可以对Workfront计划记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 
-* 添加到其他应用程序中链接对象的注释不会显示在Maestro中，而添加到Maestro中链接对象的注释不会显示在其他应用程序中。
+* 添加到其他应用程序中链接对象的注释不会显示在Workfront规划中，而添加到Workfront规划中的链接对象的注释不会显示在其他应用程序中。
 
-  例如，添加到Workfront中的项目的注释不会显示在链接到Maestro中的营销活动的同一项目中，并且添加到Maestro记录中的项目注释不会显示在Workfront中。
+  例如，添加到Workfront中的项目的注释不会显示在链接到Workfront规划中的营销活动的同一项目中，并且添加到Workfront规划记录中的项目注释不会显示在Workfront中。
 
 * 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
 
-* 您可以向记录添加更新，并复查Maestro以下区域的更改历史记录：
+* 您可以向记录添加更新，并复查Workfront计划的以下区域的更改历史记录：
 
-   * 从记录或分类的“详细信息”页面。
+   * 从记录的详细信息页面。
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro中没有访问级别控制。 </p>  
+   <td> <p>Workfront规划中没有访问级别控制。 </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ ht-degree: 0%
 
 ## “历史记录”部分概述
 
-您可以在操作记录或分类右侧面板的“历史记录”部分中查看对记录所做的更改。
+您可以在记录的右侧面板的“历史记录”部分中查看对记录所做的更改。
 
 有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md).
-

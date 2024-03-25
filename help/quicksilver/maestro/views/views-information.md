@@ -1,13 +1,13 @@
 ---
 title: “查看次数：文章索引”
-description: 可以在表格或时间线视图中显示AdobeMaestro记录。 以下文章介绍如何创建和管理AdobeMaestro记录视图。
+description: 您可以在表格、时间线或日历视图中显示Adobe Workfront计划记录。 以下文章介绍如何创建和管理Adobe Workfront Planning记录视图。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-可以在表格或时间线视图中显示AdobeMaestro记录。
+您可以在表格、时间线或日历视图中显示Adobe Workfront计划记录。
 
-以下文章介绍如何在Adobe Maestro中创建和管理记录视图：
+以下文章介绍如何在Adobe Workfront Planning中创建和管理记录视图：
 
 * [管理记录视图](../views/manage-record-views.md)
 * [管理表视图](../views/manage-the-table-view.md)

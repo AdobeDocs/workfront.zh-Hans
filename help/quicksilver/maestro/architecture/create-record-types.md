@@ -1,35 +1,27 @@
 ---
-title: 创建运营记录类型
+title: 创建记录类型
 description: 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，以说明在组织的生命周期中所需的工作项。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 创建运营记录类型
+# 创建记录类型
 
 {{maestro-important-intro}}
 
 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明了在组织的生命周期中所需的工作相关项。
-
 记录类型可以是以下任一类型：
 
-* **操作记录类型**
-* **分类**
-
-有关记录类型的详细信息，请参阅 [记录类型和分类概述](../architecture/overview-of-record-types-and-taxonomies.md).
-
-创建操作记录类型与创建分类记录类型类似。 本文介绍了如何创建操作记录类型。
-
-有关创建分类的信息，请参阅 [创建分类记录类型](../architecture/create-a-taxonomy.md).
+有关记录类型的详细信息，请参阅 [记录类型概览](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 访问要求
 
@@ -75,7 +67,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ ht-degree: 0%
       * 使用模板创建工作区时。
 
         有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
-      * 当您使用Excel或CSV文件导入它们时。 这不适用于分类记录类型。
+
+      * 当您使用Excel或CSV文件导入它们时。
 
         >[!IMPORTANT]
         >
         >此功能自2024年3月21日起已暂时禁用。 之后将启用该功能。
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手动：
 
       * 从头开始。
 
+        本文介绍了如何在从头开始创建的工作区中从头开始创建一般记录类型。
+
+* 您可以在分区内移动记录类型，也可以在工作区的一个分区之间移动记录类型。 不能将记录类型从一个工作区移动到另一个工作区。
+
 ## 使用工作区模板创建记录类型
 
-在使用Workfront规划模板创建工作区时，您可以自动创建记录类型。 每个模板都包含示例操作和分类记录类型。
+在使用Workfront规划模板创建工作区时，您可以自动创建记录类型。 每个模板都包含示例记录类型。
+
+从模板创建工作区时，记录类型将分组到以下部分：
+
+* 操作记录类型
+* 分类标准
+
+您可以在“操作记录类型”和“分类”部分中手动添加记录类型。
 
 有关创建工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ ht-degree: 0%
 
 ## 从头开始创建记录类型
 
-本文介绍了如何从头开始创建操作记录类型。 从头开始创建操作记录类型与创建分类类似。
-
-有关分类的详细信息，请参阅 [创建分类](../architecture/create-a-taxonomy.md).
+本文介绍了如何从头开始创建记录类型。
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
 1. 单击 **添加记录类型**.
-1. （视情况而定）如果要创建操作记录类型，请单击 **从头开始**. 创建分类时，此选项不可用。
+1. （视情况而定）如果要创建操作记录类型，请单击 **从头开始**.
 
    将打开“添加记录类型”框。
 
@@ -165,14 +167,12 @@ ht-degree: 0%
    默认情况下，以下字段显示在操作记录类型的表视图列中：
 
    * 名称
-
-     “名称”字段是唯一自动为分类创建的字段。
    * 描述
    * 开始日期
    * 结束日期
    * 状态
 
-1. （可选）更新页面标题中的记录类型名称
+1. （可选）在页面的标题中更新记录类型名称
 
    或
 
@@ -195,6 +195,10 @@ ht-degree: 0%
    * [删除记录类型](../architecture/delete-record-types.md)
    * [编辑记录类型](../architecture/edit-record-types.md)
    * [管理记录视图](../views/manage-record-views.md)
+
+1. （可选）在工作区中，单击以将记录类型拖放到所需位置，或将其移动到其他部分。
+
+   在您删除所选记录类型信息卡后，更改将自动保存。
 
 ## 通过导入Excel或CSV文件创建记录类型
 
@@ -223,12 +227,7 @@ ht-degree: 0%
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
 1. 单击 **添加记录类型**.
-1. （视情况而定）如果要创建操作记录类型，请单击 **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    创建分类记录类型时，此选项不可用。
-
+1. 单击 **Excel/CSV**.
 1. 拖放以前保存在计算机上的Excel或CSV文件，或单击 **选择CSV或Excel文件** 以浏览其中一个。
 1. 单击 **查看您的数据**.
 
@@ -267,9 +266,9 @@ ht-degree: 0%
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

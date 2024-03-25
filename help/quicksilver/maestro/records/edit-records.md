@@ -1,13 +1,13 @@
 ---
 title: 编辑记录
-description: 您可以在Adobe Workfront规划功能中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
+description: 您可以在Adobe Workfront Planning中编辑记录信息。 必须先创建记录类型，然后才能开始创建和编辑记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以通过编辑与记录关联的字段值，在Adobe Workfront规划功能中编辑记录信息。
+您可以通过编辑与记录关联的字段值，在Adobe Workfront Planning中编辑记录信息。
 
 必须先创建记录类型，然后才能开始创建和编辑记录。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划功能没有访问控制 </p>  
+   <td> <p>Adobe Workfront计划没有访问控制</p>  
 </td>
   </tr>
 <tr>
@@ -78,7 +78,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 

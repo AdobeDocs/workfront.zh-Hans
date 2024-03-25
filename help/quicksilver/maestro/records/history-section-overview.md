@@ -1,16 +1,16 @@
 ---
 title: “历史记录”部分概述
-description: 您可以在AdobeMaestro中记录的右侧面板中查看对记录所做的更改并由系统记录。
+description: 您可以在Adobe Workfront规划中记录的右侧面板中查看对记录所做的更改并由系统记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # “历史记录”部分概述
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-通过在记录的右侧面板中添加评论或回复，可以对AdobeMaestro记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
+通过在记录的右侧面板中添加评论或回复，您可以对Adobe Workfront Planning记录进行协作。 您还可以在此区域查看对记录所做的其他更改以及系统记录的更改。
 
 记录的右侧面板显示以下部分：
 
-* **评论**：显示用户添加到记录的评论和回复。 有关管理Maestro记录中的注释的详细信息，请参见 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **评论**：显示用户添加到记录的评论和回复。 有关管理Workfront规划记录中的注释的更多信息，请参阅 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **历史记录**：显示用户对记录字段进行的系统记录更改。
 
 ## 找到记录的“历史记录”部分
@@ -46,11 +46,11 @@ ht-degree: 4%
 
 ## 有关“历史记录”部分的注意事项
 
-您可以在操作记录或分类的“详细信息”页面右侧面板的“历史记录”部分中查看对记录字段所做的更改。
+您可以在记录的“详细信息”页面右侧面板的“历史记录”部分中查看对记录字段所做的更改。
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro会在“历史记录”部分中记录以下信息：
+* Workfront计划会在“历史记录”部分中记录以下信息：
 
    * 任何字段更改
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * 复选框类型的字段从不以删除线格式显示旧值。 如果字段已编辑，则仅显示进行更改时的当前状态。
 
-  有关主字段的详细信息，请参阅 [创建字段](/help/quicksilver/maestro/fields/create-fields.md).
+  有关Workfront规划字段的更多信息，请参阅 [创建字段](/help/quicksilver/maestro/fields/create-fields.md).
 
 * 对以下类型的字段所做的更改不会显示在“历史记录”部分中：
 

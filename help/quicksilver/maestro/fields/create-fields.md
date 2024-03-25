@@ -1,13 +1,13 @@
 ---
 title: 创建字段
-description: 在Adobe管理器中，您可以为每种操作记录类型或分类创建自定义字段。 然后，可将该字段与Maestro记录相关联。
+description: 在Adobe Workfront Planning中，您可以为每种记录类型创建自定义字段。 然后，可将该字段与Workfront计划记录关联。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-在Adobe管理器中，您可以为操作记录类型或分类创建自定义字段。 然后，可将这些字段与Maestro记录关联以增强记录信息。
+在Adobe Workfront Planning中，您可以为记录类型创建自定义字段。 然后，可将这些字段与Workfront计划记录关联以增强记录信息。
 
 在创建要与记录类型关联的字段之前，您必须先创建记录类型。 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问级别控制</p>  
+   <td> <p>Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ recommendations: noDisplay, noCatalog
 
    有关支持的表达式的详细信息，请参阅 [公式字段概述](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 添加在Maestro界面中显示的字段名称，以在公式中引用它们。
+1. 添加在Workfront规划界面中显示的字段名称，以在公式中引用它们。
 
    >[!NOTE]
    >
    > * 不能在公式中添加多选类型字段。
    >
-   > * 不能从公式中的链接记录添加字段。 此功能将在以后发布。 有关新版本的更多信息，请参阅 [Adobe Workfront规划功能发布活动](/help/quicksilver/maestro/release-activity.md).
+   > * 不能从公式中的链接记录添加字段。 此功能将在以后发布。 有关新版本的更多信息，请参阅 [Adobe Workfront计划发布活动](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 单击 **创建**.
@@ -513,7 +513,7 @@ recommendations: noDisplay, noCatalog
 
 在两个Maestro记录类型之间添加新的连接时，或者从其它应用程序添加记录类型和对象类型时，您可以创建链接记录字段。
 
-有关连接Maestro记录类型的信息，请参见 [连接记录类型](../architecture/connect-record-types.md)
+有关连接Workfront Planning记录类型的信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 
 ## 通过使用Excel和CSV文件导入记录类型来创建字段
 
@@ -521,10 +521,10 @@ recommendations: noDisplay, noCatalog
 
 ## 通过创建记录类型创建字段
 
-创建记录类型时，默认情况下还会创建与新记录类型关联的多个字段。 有关更多信息，请参阅 [创建运营记录类型](../architecture/create-record-types.md).
+创建记录类型时，默认情况下还会创建与新记录类型关联的多个字段。 有关更多信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
 ## 通过从模板创建工作区来创建字段
 
-从模板创建工作区时，Maestro会为操作记录类型和分类创建字段。
+从模板创建工作区时，Adobe Workfront规划会为记录类型创建字段。
 
-有关信息，请参阅 [创建运行工作区](../architecture/create-workspaces.md).
+有关信息，请参阅 [创建工作区](/help/quicksilver/maestro/architecture/create-workspaces.md).

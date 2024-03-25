@@ -1,16 +1,16 @@
 ---
 title: 共享视图
-description: 在使用Adobe Workfront规划功能时，您可以与他人共享视图以确保协作。
+description: 在使用Adobe Workfront规划时，您可以与他人共享视图以确保协作。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live-->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划功能中使用记录时，您可以与他人共享视图以确保协作。
+在Adobe Workfront Planning中使用记录时，您可以与其他人共享视图以确保协作。
 
 向工作区授予权限不会向其他用户授予对记录类型页面上的视图的权限。 您必须向记录类型页面中的各个视图授予权限才能与其他用户共享它们。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> Adobe Workfront规划功能没有访问控制</p>  
+   <td> Adobe Workfront计划没有访问控制 </p>  
 </td>
   </tr>
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的Maestro区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/maestro/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/maestro/access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,7 +106,7 @@ ht-degree: 0%
    * 查看
    * 管理
 
-     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront规划功能中共享权限概述](../access/sharing-permissions-overview.md).
+     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront Planning中共享权限概述](../access/sharing-permissions-overview.md).
 
      <!--System administrators always receive Manage permissions to views shared with them.-->
 

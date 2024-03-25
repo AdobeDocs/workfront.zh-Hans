@@ -4,9 +4,10 @@ description: 您可以在日历视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront规划功能封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Adobe Workfront规划功能没有访问级别控制  </p>  
+   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -80,7 +81,7 @@ hide: yes
 
 <tr>
    <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Maestro区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="../access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
  </tbody>

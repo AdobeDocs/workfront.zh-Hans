@@ -1,12 +1,13 @@
 ---
 title: 将缩略图添加到记录
-description: 您可以在Adobe管理器中编辑记录信息，并将每个记录与单个缩略图相关联，以使它们易于识别。
+description: 您可以在Adobe Workfront Planning中编辑记录信息，并将每个记录与单个缩略图相关联，以便轻松识别。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以在AdobeMaestro中将记录与唯一的缩略图相关联，以便轻松识别它们。
+您可以在Adobe Workfront Planning中将记录与唯一缩略图相关联，以便轻松识别。
 
 必须先创建记录类型，然后才能开始创建和编辑记录。
 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
@@ -43,7 +44,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵公司必须注册AdobeMaestro封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Maestro没有访问控制 </p>  
+   <td> <p>Workfront计划没有访问控制 </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td>  <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的Maestro区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/maestro/access/access-overview.md">访问概述</a>. </p>  
+   <td>  <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/maestro/access/access-overview.md">访问概述</a>. </p>  
 </td>
   </tr>
 
