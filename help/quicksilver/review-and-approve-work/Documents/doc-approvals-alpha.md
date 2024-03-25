@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ ht-degree: 0%
 
 ## 最新版本
 
+## Alpha第7版 — 2024年3月
+
+在此第7个Alpha版本中，我们具有：
+
+* 添加了用于为文档审批创建截止日期的功能。
+* 引入了批准模板，现在可以创建这些模板并将其应用于您的批准以节省设置时间。
+* 更新了审批构件，现在显示多个关键绩效指标，并带有详细列表以供您进一步细化。
+
+请查看下面的完整视频演练：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _过去的版本_
+
 ## Alpha第6版 — 2024年1月
 
 在此第6个Alpha版本中，我们具有：
@@ -37,8 +51,6 @@ ht-degree: 0%
 请查看下面的完整视频演练：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _过去的版本_
 
 ### Alpha版本5 - 2023年9月
 
