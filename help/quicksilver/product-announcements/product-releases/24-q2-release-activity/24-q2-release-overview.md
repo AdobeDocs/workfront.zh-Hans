@@ -4,7 +4,8 @@ description: 本页介绍了2024年第二季度版本中包含的功能。 这�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%

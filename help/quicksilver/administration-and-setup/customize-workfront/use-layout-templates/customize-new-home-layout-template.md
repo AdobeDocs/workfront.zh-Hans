@@ -7,9 +7,10 @@ description: 您可以使用布局模板配置用户在打开新主页时看到�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ ht-degree: 1%
       <p>选择想要编辑的小组件后，右侧将显示可用选项。 这些选项包括 <b>过滤器</b>， <b>列</b>、和 <b>组</b>. 您可以：</p>
       <ul>
       <li><p><b>选择用户可用的筛选器、列或组：</b></p>
-      <p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。</li></p>
+      <p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>用户必须具有视图的“创建”访问权限，才能将列配置正确应用于其小组件。
+
+</p>
       <li><p><b>为构件设置默认筛选器或组：</b></p>
       <p>将鼠标悬停在某个选项上，将显示一个按钮，允许您将该选项设置为用户的默认选项。 当前的默认页面右侧将显示一个蓝色的“默认”标记。</li></p>
       <li><p><b>将现有的筛选器、列或组添加到可用选项列表中：</b></p>
@@ -124,4 +132,3 @@ ht-degree: 1%
    或
 
    如果您已完成自定义，请单击 **保存** 左下角。
-
