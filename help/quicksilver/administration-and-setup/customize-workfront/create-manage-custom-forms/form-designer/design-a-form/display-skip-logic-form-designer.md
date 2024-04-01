@@ -7,9 +7,10 @@ description: 您可以根据用户在填写自定义表单时所做的选择，�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在表单设计器中预览表单时，显示逻辑暂时不可用。
+><span class="preview">仅当在“预览”环境中的表单设计器中预览表单时，显示逻辑才可用。</span>
 
 ## 将跳过逻辑添加到自定义表单
 
@@ -158,4 +159,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在表单设计器中预览表单时，跳过逻辑暂时不可用。
+><span class="preview">只有在“预览”环境中的表单设计器中预览表单时，跳过逻辑才可用。</span>
