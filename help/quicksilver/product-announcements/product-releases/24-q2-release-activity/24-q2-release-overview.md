@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 0%
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [文档管理增强功能](#document-management-enhancements)
 * [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
@@ -64,7 +65,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和用户现在支持高级自定义表单字段</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">显示逻辑和跳过逻辑现在可在表单设计器预览模式下使用</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>Beta版自定义表单设计器现在允许您在预览模式下测试显示逻辑和跳过逻辑。 以前，即使应用了逻辑，预览中也显示所有字段。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年3月28日</p>
+                            </li>
+                            <li>
+                                <p>客户生产：使用24.4版本（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">公司和用户现在支持高级自定义表单字段</a></p>
                         <p>向公司或用户附加自定义表单时，现在可以使用高级自定义表单功能，例如外部查找字段和Workfront本机字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -154,7 +171,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 主页增强功能
+### 文档管理增强功能
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ ht-degree: 0%
                         <p><span class="bold">发行日期</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页管理员控件的列选项</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p><p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">向文档审阅和审批添加截止日期</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>您现在可以为被分派审阅或审批文档的用户或团队指定截止日期。 查看者和批准者在指定截止日期前72小时和之后24小时收到电子邮件通知。 截止日期还反映在新“主页”区域的审批构件中。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年1月2日</p>
+                                <p>预览版本： 2024年3月28日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：24.4版（2024年4月）</p>
+                                <p>客户生产：使用24.4版本（2024年4月）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### 集成增强功能
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">功能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">创建和使用审批模板</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>您现在可以在“设置”区域创建批准模板，以简化审阅和批准流程。 批准模板允许您通过以下方式使审阅和批准流程更可重复
+                        <ul>
+                            <li>
+                                <p>添加审阅者和批准者</p>
+                            </li>
+                            <li>
+                                <p>设置时间范围</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中自动文件夹创建工作流的增强功能</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了确保您的Adobe Experience Manager文件夹更准确地反映您的需求，我们已将嵌套文件夹树添加到Adobe Experience Manager链接文件夹工作流。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年3月11日</p>
+                                <p>预览版本： 2024年3月28日</p>
                             </li>
-                             <li> <p><span class="preview">适用于所有客户的生产版本： 2024年3月14日</span></p>
-                             </li>
+                            <li>
+                                <p>客户生产：使用24.4版本（2024年4月）</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">一次性查看有关所有审批的信息</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>为帮助您管理和分析批准请求概览，我们在“所有批准”构件中添加了以下关键绩效指标：
+                        <ul>
+                            <li>
+                                <p>按决策审批</p>
+                            </li>
+                            <li>
+                                <p>平均审批时间</p>
+                            </li>
+                            <li>
+                                <p>待处理审批</p>
+                            </li>
+                            <li>
+                                <p>逾期审批</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年3月28日</p>
+                            </li>
+                            <li>
+                                <p>客户生产：使用24.4版本（2024年4月）</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">已删除对旧评论区域的访问权限</a><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>我们已在项目、任务、问题和文档的更新区域移除了“新注释”切换开关。 新注释现在是这些对象的默认和唯一选项。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年4月1日</p>
+                            </li>
+                            <li>
+                                <p>面向所有客户的生产：使用24.4版本（2024年4月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新主页小组件的快速操作中现在提供了新的评论流</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
@@ -514,3 +569,4 @@ Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一
 ### 培训更新
 
 浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [Workfront“Tutorials”页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
