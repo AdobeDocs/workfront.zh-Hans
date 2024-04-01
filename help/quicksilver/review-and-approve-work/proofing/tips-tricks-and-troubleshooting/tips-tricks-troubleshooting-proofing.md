@@ -6,9 +6,9 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -21,3 +21,4 @@ ht-degree: 0%
 * [批量编辑校对权限配置文件字段](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
 * [禁止通过公共URL或嵌入代码共享验证](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+* [上载后文档名称已更改并包含无效字符](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)

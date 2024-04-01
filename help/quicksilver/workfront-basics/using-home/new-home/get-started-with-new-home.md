@@ -6,14 +6,16 @@ description: 新主页是一个用于管理您的工作的强大新功能。 您
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # 新主页入门
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     显示所有待分配或委派的批准、一个委派批准的按钮以及可直接在构件内做出批准决策的按钮。
 
 * **所有审批**\
-    在具有可自定义列的表格中显示您组织的所有批准项，以及允许您搜索特定批准项的搜索栏。
+        <span class="preview"> 显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。</span> <span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span>
 
 * **未决批准**\
     显示分配给您拥有项目的文档的审批。 在这里，您可以查看审批状态并提醒用户未完成审阅和审批。 <span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span>

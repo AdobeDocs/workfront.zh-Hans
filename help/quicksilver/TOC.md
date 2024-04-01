@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
+source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
 workflow-type: tm+mt
-source-wordcount: '14047'
+source-wordcount: '14061'
 ht-degree: 1%
 
 ---
@@ -1810,6 +1810,7 @@ ht-degree: 1%
          * [创建文档审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [向文档添加其他审阅人或批准者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [从文档中删除批准者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [创建审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校对 {#proofing}
@@ -1923,6 +1924,7 @@ ht-degree: 1%
          * [批量编辑校对权限配置文件字段](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [禁止通过公共URL或嵌入代码共享验证](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+         * [上载后文档名称已更改并包含无效字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
    * 审批的提示、技巧和疑难解答 {#ttt-approvals}
       * [审批的提示、技巧和疑难解答](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

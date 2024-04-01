@@ -1,0 +1,68 @@
+---
+product-area: documents
+navigation-topic: approvals
+title: 创建审批模板
+description: 您可以创建批准模板以简化批准流程。
+author: Courtney
+feature: Work Management, Digital Content and Documents
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 2%
+
+---
+
+
+# 创建审批模板
+
+<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
+
+在Workfront设置区域中，具有Standard许可证的用户可以创建可靠的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
+
+>[!IMPORTANT]
+>
+>本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>标准</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## 创建审批模板
+
+{{step-1-to-setup}}
+
+1. 在左侧面板中，单击 **审阅和批准** > **审批模板**.
+1. 单击 **新建模板** 页面右侧的。
+1. 指定以下信息：
+
+   | 模板名称 | 开始键入此模板的名称。 |
+   |----------------------------|---|
+   | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，会从此字段计算审批截止日期。 |
+   | **添加审批者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
+1. 单击&#x200B;**保存**。
+
+
+
+
+
+
+<!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
+![](assets/assign-template.png)-->
+
