@@ -1,11 +1,11 @@
 ---
 title: “架构：文章索引”
-description: 以下文章介绍如何配置Adobe Workfront规划的架构。 在此配置中，您将了解如何创建工作区、记录类型和自定义字段以映射您要在Workfront规划中管理的工作流。
+description: 以下文章介绍如何配置Adobe Workfront Planning的架构。 作为此配置的一部分，您将了解如何创建工作区、记录类型和自定义字段以映射您要在Workfront Planning中管理的工作流。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,13 +30,13 @@ hide: yes
 
 {{maestro-important-intro}}
 
-作为营销运营负责人，您可以使用Adobe Workfront规划来组织所有团队在营销生命周期中的工作。
+作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。
 
-通过Workfront规划，您可以完全自定义您的工作流，从决定您的组织使用哪些对象类型（或记录类型）到配置这些对象如何彼此链接。
+使用Workfront Planning，您可以完全自定义工作流，从决定您的组织使用哪些对象类型（或记录类型）到配置这些对象如何相互链接。
 
-此外，Workfront规划可以链接到来自其他系统的对象类型，从而为所有流程创建一个一致的框架。
+此外，Workfront Planning可以链接到其他系统中的对象类型，为所有流程创建一个一致的框架。
 
-以下各节中的文章介绍如何配置Adobe Workfront计划工作区、定义作为这些工作区构建块的记录类型并开始使用其功能：
+以下各节中的文章介绍如何配置Adobe Workfront Planning工作区、定义作为这些工作区构建块的记录类型并开始使用其功能：
 
 * [创建工作区](../architecture/create-workspaces.md)
 * [工作区模板列表](../architecture/workspace-templates.md)

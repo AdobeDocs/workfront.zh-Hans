@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront计划中，工作区是团队计划工作的集中位置。
+在Adobe Workfront Planning中，工作区是团队计划工作的集中位置。
 
 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>
+   <td> <p>Workfront Planning没有访问级别控制</p>
 </td>
   </tr>
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 {{step1-to-maestro}}
 
-这将打开Workfront规划的“工作区”区域。
+这将打开Workfront Planning的“工作区”区域。
 
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按键 **输入**
 

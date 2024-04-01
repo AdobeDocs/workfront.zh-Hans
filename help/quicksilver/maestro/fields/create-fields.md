@@ -1,13 +1,13 @@
 ---
 title: 创建字段
-description: 在Adobe Workfront Planning中，您可以为每种记录类型创建自定义字段。 然后，可将该字段与Workfront计划记录关联。
+description: 在Adobe Workfront Planning中，您可以为每种记录类型创建自定义字段。 然后，您可以将该字段与Workfront Planning记录关联。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-在Adobe Workfront Planning中，您可以为记录类型创建自定义字段。 然后，可将这些字段与Workfront计划记录关联以增强记录信息。
+在Adobe Workfront Planning中，您可以为记录类型创建自定义字段。 然后，您可以将这些字段与Workfront Planning记录关联以增强记录信息。
 
 在创建要与记录类型关联的字段之前，您必须先创建记录类型。 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ recommendations: noDisplay, noCatalog
 
 
 1. 将以下信息添加到 **新建字段** 选项卡：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **日期格式**：要在此字段中显示的日期格式类型。 <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/number-field-type.png)
 1. 将以下信息添加到 **新建字段** 选项卡：
 
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **精度**：要为字段记录的小数位数。 您最多可以显示6个小数。
    * **允许负数**：如果要允许此字段中存在负数，请选择此选项。 默认情况下，此选项处于未选中状态。
@@ -300,7 +300,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/percentage-field-type.png)
 
 1. 将以下信息添加到 **新建字段** 选项卡：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **精度**：要为字段记录的小数位数。 您最多可以显示6个小数。
    * **允许负数**：如果您希望此字段允许负百分比值，请选择此选项。 默认情况下，此选项处于未选中状态。
@@ -322,7 +322,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/currency-field-type.png)
 
 1. 将以下信息添加到 **新建字段** 选项卡：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **货币**：要在此字段中显示的货币类型。 这是国际标准化组织(ISO)的货币列表。
    * **精度**：要为字段记录的小数位数。 您最多可以显示6个小数。
@@ -345,7 +345,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/checkbox-field-type.png)
 
 1. 将以下信息添加到 **新建字段** 选项卡：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 1. 单击 **创建**.
 
@@ -373,13 +373,13 @@ recommendations: noDisplay, noCatalog
 
    有关支持的表达式的详细信息，请参阅 [公式字段概述](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 添加在Workfront规划界面中显示的字段名称，以在公式中引用它们。
+1. 添加在Workfront Planning界面中显示的字段名称，以在公式中引用它们。
 
    >[!NOTE]
    >
    > * 不能在公式中添加多选类型字段。
    >
-   > * 不能从公式中的链接记录添加字段。 此功能将在以后发布。 有关新版本的更多信息，请参阅 [Adobe Workfront计划发布活动](/help/quicksilver/maestro/release-activity.md).
+   > * 不能从公式中的链接记录添加字段。 此功能将在以后发布。 有关新版本的更多信息，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 单击 **创建**.
@@ -396,7 +396,7 @@ recommendations: noDisplay, noCatalog
    ![](assets/people-field-type.png)
 
 1. 将以下信息添加到 **新建字段** 选项卡：
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **允许多个值**：如果要允许用户在此字段中添加多个用户，请选择此选项。 默认情况下，此选项处于未选中状态。
 
@@ -418,7 +418,7 @@ recommendations: noDisplay, noCatalog
 
 1. 将以下信息添加到 **新建字段** 选项卡：
 
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 
 1. 单击 **创建**.
@@ -438,7 +438,7 @@ recommendations: noDisplay, noCatalog
 
 1. 将以下信息添加到 **新建字段** 选项卡：
 
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
@@ -469,7 +469,7 @@ recommendations: noDisplay, noCatalog
 
 1. 将以下信息添加到 **新建字段** 选项卡：
 
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--this might change and they might prepopulate it with "Created by"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
 
 1. 单击 **创建**.
@@ -489,7 +489,7 @@ recommendations: noDisplay, noCatalog
 
 1. 将以下信息添加到 **新建字段** 选项卡：
 
-   * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名称**：字段类型的名称，它将显示在表或记录页面中。 <!--this might change and they might prepopulate it with "Created date"-->
    * **描述**：有关字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **日期格式**：从以下格式中选择：
 
@@ -525,6 +525,6 @@ recommendations: noDisplay, noCatalog
 
 ## 通过从模板创建工作区来创建字段
 
-从模板创建工作区时，Adobe Workfront规划会为记录类型创建字段。
+从模板创建工作区时，Adobe Workfront Planning会为记录类型创建字段。
 
 有关信息，请参阅 [创建工作区](/help/quicksilver/maestro/architecture/create-workspaces.md).

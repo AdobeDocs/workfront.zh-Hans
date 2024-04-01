@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront计划没有访问控制 </p>  
+   <td> <p>Workfront Planning没有访问控制 </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ ht-degree: 0%
 
    * 表视图中记录的主要字段
    * 时间线视图中的记录栏。
-* 您无法从记录的“详细信息”页面或时间线视图中添加记录缩略图。
-* 缩略图不显示在记录的详细信息页面中。
+* 不能从记录的页面或其他类型的视图添加记录缩略图。
+* 缩略图不显示在记录的页面上。
 
 ## 向记录添加缩略图
 

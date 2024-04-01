@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以将Adobe Workfront Planning记录连接到其他应用程序或对象。
+您可以将Adobe Workfront Planning记录相互连接或与其他应用程序中的对象连接。
 
 必须首先将两个记录类型相互连接，或者将记录类型从另一个应用程序连接到对象类型。 这将创建链接的记录字段。 然后，可以使用链接的记录字段将记录彼此连接，或将记录与其他应用程序中的其他对象连接。
 
@@ -42,8 +42,8 @@ hide: yes
 
 您可以连接以下各项：
 
-* Adobe Workfront规划记录
-* Adobe Workfront计划记录包含来自其他应用程序的对象。
+* Adobe Workfront Planning记录
+* Adobe Workfront Planning记录包含来自其他应用程序的对象。
 
   您可以从以下应用程序将记录连接到下列类型的对象：
 
@@ -77,7 +77,7 @@ hide: yes
 <td>产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要将Adobe Workfront规划记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到Adobe业务平台或Adobe Admin Console。</p>
+   <p>要将Adobe Workfront Planning记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
@@ -100,7 +100,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ hide: yes
 
 ### 有关连接记录的注意事项
 
-* 连接记录类型后，连接的记录类型会在链接它们的记录类型表格中以及链接它们的记录的“详细信息”页面中显示为链接记录字段。
+* 连接记录类型后，连接的记录类型在从中链接的记录类型表格中以及在记录页面上显示为链接记录字段。
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
 * 您可以将链接记录类型的字段添加到要链接的记录类型的表中。
 * 您无法手动更新正在链接的记录中链接字段的值。
 
-  链接记录的链接字段的值会自动从原始记录或对象中填充您正在链接的Workfront计划记录。
+  链接记录的链接字段的值会自动从原始记录或对象中填充您正在链接的Workfront Planning记录。
 
-* 有权访问Workfront规划和视图或者对工作区具有更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
+* 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。
 * 要将记录与其他记录或对象链接，您必须具备以下各项：
@@ -151,7 +151,7 @@ hide: yes
 
    * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 
-### 连接Adobe Workfront规划记录
+### 连接Adobe Workfront Planning记录
 
 {{step1-to-maestro}}
 
@@ -183,7 +183,7 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以打开记录的详细信息页面，找到链接的记录字段，然后单击 **+** 图标以添加来自连接的记录或对象类型的记录。
+   >    您可以打开记录的页面，找到链接的记录字段，然后单击 **+** 图标以添加来自连接的记录或对象类型的记录。
 
    添加了以下内容：
 
@@ -207,7 +207,7 @@ hide: yes
 
    请注意 **营销活动** 链接记录字段显示您在产品记录类型页面中链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
-### 将Adobe Workfront计划记录连接到Workfront对象
+### 将Adobe Workfront Planning记录连接到Workfront对象
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ hide: yes
 
 >[!NOTE]
 >
->您无法将Workfront对象与Workfront中的Workfront规划记录相关联。
+>您无法将Workfront对象与Workfront中的Workfront Planning记录相关联。
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ hide: yes
 
    >[!TIP]
    >
-   >您可以打开记录的详细信息页面，找到链接的记录字段，然后单击 **+** 图标，以从连接的对象类型添加对象。
+   >您可以打开记录的页面，找到链接的记录字段，然后单击 **+** 图标，以从连接的对象类型添加对象。
 
    有关将记录类型与来自其他应用程序的对象连接的详细信息，请参见 [连接记录类型](../architecture/connect-record-types.md).
 
-1. （可选）单击表视图的链接字段或表的链接字段中连接到Workfront计划记录的Workfront对象的名称。 **详细信息** 记录页。
+1. （可选）单击表视图的链接字段或记录页面中链接字段内连接到Workfront Planning记录的Workfront对象的名称。
 
-   这将打开只读的Workfront规划 **详细信息** 页面中显示的链接Workfront对象。 将记录类型与Workfront对象连接后，您选择作为查找字段的字段会显示在Workfront计划记录的详细信息页面中。
+   这将为链接的Workfront对象打开只读Workfront Planning记录页面。 将记录类型与Workfront对象连接后，您选择作为查找字段的字段会显示在Workfront Planning记录页面中。
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ hide: yes
    >
    >* 在Workfront中，不会为链接的Workfront对象创建链接记录字段。
 
-1. （可选）要在Workfront中打开链接的Workfront对象，请单击 **转到源** Workfront对象的“详细信息”页面的右上角。
+1. （可选）要在Workfront中打开链接的Workfront对象，请单击 **转到源** 在Workfront对象的记录页面的右上角。
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ hide: yes
 
    从中删除Workfront对象字段 **选定的字段** 区域。
 
-   这会从Workfront规划记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
+   这会从Workfront Planning记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
 
 
-### 将Workfront计划记录连接到Adobe Experience Manager对象
+### 将Workfront Planning记录连接到Adobe Experience Manager对象
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront规划记录连接到Adobe Experience Manager Assets。
+>您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront Planning记录连接到Adobe Experience Manager Assets。
 >
 >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ hide: yes
 
    >[!TIP]
    >
-   >  您可以添加，然后单击 **+** 图标将资产连接到记录的详细信息页面中的链接对象字段。
+   >  您可以添加，然后单击 **+** 图标将资产连接到记录。
 
    此 **选择资源** 框显示。 <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ hide: yes
 
    >[!IMPORTANT]
    >
-   > 您只能连接您有权在Experience Manager中查看的资源。 连接后，所有Workfront规划用户都可以在Workfront规划中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
+   > 您只能连接您有权在Experience Manager中查看的资源。 连接后，所有Workfront Planning用户都可以在Workfront Planning中查看资源，无论他们在Experience Manager Assets中是否具有访问权限。
 
 1. 单击 **选择**. <!-- we might change this to Connect-->
 
@@ -346,7 +346,7 @@ hide: yes
      >
      >* 如果启用了允许多条记录设置，则多个对象的值将以逗号分隔或根据您选择的聚合器聚合。
      >
-     >* 没有在Experience Manager Assets应用程序中为链接的Experience Manager资源创建指向Workfront Planning链接记录的链接记录字段。
+     >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Workfront Planning链接记录的链接记录字段。
 
 1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。 <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ hide: yes
    * 创建日期
    * 修改日期
 
-1. （可选）要在Experience Manager中打开“Experience Manager资源记录详细信息”页面，请转到要链接到的记录的记录类型页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
+1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
 
    这会在Adobe Experience Manager Assets中打开Experience Manager资源。
 

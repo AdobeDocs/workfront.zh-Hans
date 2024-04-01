@@ -1,11 +1,11 @@
 ---
 title: 删除字段
-description: 在Adobe Workfront规划中，您可以删除不再相关的自定义字段。
+description: 在Adobe Workfront Planning中，您可以删除不再相关的自定义字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -33,9 +33,9 @@ recommendations: noDisplay, noCatalog
 
 有关在Workfront Planning中创建自定义字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-您可以删除不再相关的Workfront规划字段。
+您可以删除不再相关的Workfront Planning字段。
 
-## 有关删除Workfront规划字段的注意事项：
+## 有关删除Workfront Planning字段的注意事项：
 
 * 只能删除记录类型表格视图中的字段。
 * 您无法删除记录的主字段。
@@ -65,7 +65,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-maestro}}
 
-这会打开Workfront规划中上次访问的工作区。
+这会打开Workfront Planning中上次访问的工作区。
 1. 单击要删除其字段的记录类型的卡片。
 1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
 1. 在列标题中查找要删除的字段，将鼠标悬停在列标题上，然后单击字段名称后的向下箭头。

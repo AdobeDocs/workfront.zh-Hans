@@ -1,13 +1,13 @@
 ---
 title: 字段概述
-description: 您可以在Adobe Workfront规划中添加反映组织生命周期的新字段。 字段是记录类型的属性。
+description: 您可以在Adobe Workfront Planning中添加反映组织生命周期的新字段。 字段是记录类型的属性。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront规划中添加反映组织生命周期的新字段。 字段是记录类型的属性。
+您可以在Adobe Workfront Planning中添加反映组织生命周期的新字段。 字段是记录类型的属性。
 
 
-## 关于Adobe Workfront规划字段的注意事项
+## 关于Adobe Workfront Planning字段的注意事项
 
-* 您只能从记录类型页面的表视图创建字段。 字段在表格视图中显示为列。 与记录类型关联的所有字段也会显示在该类型每个记录的“详细信息”页面中。
+* 您只能从记录类型页面的表视图创建字段。 字段在表格视图中显示为列。 与记录类型关联的所有字段也会显示在记录页面中。
 
   有关管理表列（或记录字段）的信息，请参见 [管理表视图](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ hide: yes
 
    * 手动：
 
-      * 通过在记录类型页面的表视图中添加列。 表的列是与记录类型关联的字段。 这些是在记录的“详细信息”页面上显示的相同字段。
+      * 通过在记录类型页面的表视图中添加列。 表的列是与记录类型关联的字段。 它们是显示在记录页面上的相同字段。
 
-        不能从记录的详细信息页面创建字段。
-
-        本文介绍了如何手动创建字段。
+        您无法从记录的页面创建字段。
 
       * 连接记录类型。 在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
 
@@ -81,11 +79,11 @@ hide: yes
 
         您可以添加更多值或重命名现有值。
 
-     从模板创建工作区时，Workfront规划会为记录类型创建字段。 有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
+     从模板创建工作区时，Workfront Planning会为记录类型创建字段。 有关信息，请参阅 [创建工作区](../architecture/create-workspaces.md).
 
-* 无法从Workfront访问Workfront规划字段。
+* 无法从Workfront访问Workfront Planning字段。
 
-* 仅当将记录类型与Workfront对象类型连接并从Workfront对象添加链接或查找字段时，才能从Workfront planning访问Workfront字段。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+* 只有在将记录类型与Workfront对象类型连接并从Workfront对象添加链接或查找字段时，才能从Workfront Planning访问Workfront字段。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
 
 * 如果您对字段所属的工作区具有“管理”权限，则可以查看和更新您或任何其他用户创建的字段的设置。
 

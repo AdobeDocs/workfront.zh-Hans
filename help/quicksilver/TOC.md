@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
 workflow-type: tm+mt
-source-wordcount: '14037'
+source-wordcount: '14047'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
       * 2024年第二季度发布 {#release-24-q2}
          * [2024年第二季度发行概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第2季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+         * [2024年第2季度文档管理增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
          * [2024年第2季度主页增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [2024年第2季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024年第2季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
@@ -2048,7 +2049,7 @@ ht-degree: 1%
       * [删除字段](maestro/fields/delete-fields.md)
       * [公式字段概述](maestro/fields/formula-fields.md)
    * Adobe大师访问 {#adobe-maestro-access}
-      * [访问信息](maestro/access/access-information.md)
+      * [Adobe Workfront Planning访问信息：文章索引](maestro/access/access-information.md)
       * [访问概述](maestro/access/access-overview.md)
       * [在Adobe Workfront规划功能中共享权限概述](maestro/access/sharing-permissions-overview.md)
       * [使用Adobe Workfront规划时的许可证类型概述](maestro/access/license-type-overview.md)

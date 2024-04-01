@@ -1,11 +1,11 @@
 ---
 title: 连接记录类型
-description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Adobe Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将他们的焦点集中在一个应用程序中。
+description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Adobe Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-您可以使用Adobe Workfront Planning来设计包含组织所需记录类型的完全可自定义的工作区。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将他们的焦点集中在一个应用程序中。
+您可以使用Adobe Workfront Planning来设计包含组织所需记录类型的完全可自定义的工作区。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
 
 您可以将记录类型相互连接或用其它应用程序的对象类型来记录类型。
 
-通过执行此操作，您可以在Workfront规划记录中显示链接记录或对象类型中的字段。
+这样，您就可以在Workfront Planning记录中显示链接记录或对象类型中的字段。
 
-本文介绍了如何在Workfront planning中将两种记录类型或一种记录类型与来自另一个应用程序的对象连接起来。
+本文介绍了如何在Workfront Planning中将两种记录类型或一种记录类型与来自另一个应用程序的对象连接起来。
 
 在记录或对象类型之间建立连接后，可以将各个记录相互连接。
 
-有关将Workfront Planning记录连接到另一个应用程序的对象的信息，请参阅 [连接记录](../records/connect-records.md).
+有关将Workfront Planning记录连接到另一个应用程序中的对象的信息，请参阅 [连接记录](../records/connect-records.md).
 
 有关连接记录类型的示例，请参见 [连接记录类型和记录的示例](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,7 +61,7 @@ author: Alina
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Adobe Workfront规划记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
+   <p> Adobe Workfront</p> <p>要将Adobe Workfront Planning记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -83,7 +83,7 @@ author: Alina
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -114,14 +114,14 @@ author: Alina
 
 ## 有关连接记录类型的注意事项
 
-* 您可以在Adobe Workfront planning中连接以下实体：
+* 您可以在Adobe Workfront Planning中连接以下实体：
 
    * 两种记录类型
 
      记录类型必须属于同一工作区。
    * 来自另一个应用程序的记录类型和对象类型。
 
-* 您可以将以下应用程序中的以下对象类型与Workfront规划记录类型连接起来：
+* 您可以将以下应用程序中的以下对象类型与Workfront Planning记录类型连接起来：
 
    * Adobe Workfront：
 
@@ -138,7 +138,7 @@ author: Alina
 
      >[!IMPORTANT]
      >
-     >您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront规划记录连接到Adobe Experience Manager Assets。
+     >您必须拥有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Workfront Planning记录连接到Adobe Experience Manager Assets。
      >
      >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -152,11 +152,11 @@ author: Alina
 
    * **将记录类型与另一个应用程序的对象类型连接时**：在您连接的记录类型上创建链接记录字段。 不会在其他应用程序的对象类型上自动创建链接记录字段。
 
-     仅当实际对象连接到Workfront planning记录时，才会为另一个应用程序的对象创建新的Workfront planning只读记录类型。
+     仅当实际对象连接到Workfront Planning记录时，才会为另一个应用程序的对象创建新的Workfront Planning只读记录类型。
 
      有关更多信息，请参阅 [连接记录](../records/connect-records.md).
 
-   * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Workfront规划记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
+   * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Workfront Planning记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
 
      例如，如果您将“促销活动”记录类型与Workfront项目连接并选择将该项目的“计划完成日期”字段引入Workfront计划记录，则将自动为促销活动创建一个名为“计划完成日期”（来自项目）的链接字段。 您无法手动编辑此链接的字段。 计划完成日期（来自项目）字段显示链接项目的计划完成日期。
 
@@ -200,7 +200,7 @@ author: Alina
 
 1. 更新以下信息：
 
-   * **名称**：已连接字段的名称，它将显示在原始记录类型的表视图或详细信息页面中。 这会在原始记录类型的表视图或原始记录的链接记录字段中创建链接记录列。
+   * **名称**：已连接字段的名称，它将显示在原始记录类型的表视图或记录页面中。 这会在原始记录类型的表视图或原始记录的链接记录字段中创建链接记录列。
 
    >[!TIP]
    >

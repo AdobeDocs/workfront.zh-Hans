@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # 编辑字段
 
 {{maestro-important-intro}}
 
 您可以编辑已在Adobe Workfront Planning中创建的字段的字段设置。
 
-有关创建Adobe Workfront规划字段的信息，请参阅 [创建字段](../fields/create-fields.md).
+有关创建Adobe Workfront Planning字段的信息，请参阅 [创建字段](../fields/create-fields.md).
 
-本文介绍了如何编辑Workfront规划字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
+本文介绍了如何编辑Workfront Planning字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 有关编辑字段信息的注意事项
 
 * 如果您对字段所属的工作区具有管理权限，则可以编辑您创建的字段或其他用户创建的字段。
 * 您可以在记录类型表中编辑字段。
-* 您无法在记录的详细信息页面或时间线视图中编辑字段。
+* 无法在记录页面或时间线视图中编辑字段。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront计划没有访问控制</p>  
+   <td> <p>Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 

@@ -1,11 +1,11 @@
 ---
 title: “查看次数：文章索引”
-description: 您可以在表格、时间线或日历视图中显示Adobe Workfront计划记录。 以下文章介绍如何创建和管理Adobe Workfront Planning记录视图。
+description: 您可以在表格、时间线或日历视图中显示Adobe Workfront Planning记录。 以下文章介绍如何创建和管理Adobe Workfront Planning记录视图。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-您可以在表格、时间线或日历视图中显示Adobe Workfront计划记录。
+您可以在表格、时间线或日历视图中显示Adobe Workfront Planning记录。
 
 以下文章介绍如何在Adobe Workfront Planning中创建和管理记录视图：
 

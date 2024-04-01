@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-您可以删除在Adobe Workfront规划中不再相关的记录。
+您可以删除Adobe Workfront Planning中不再相关的记录。
 
 ## 访问要求
 
@@ -39,7 +39,7 @@ ht-degree: 2%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划没有访问级别控制 </p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制 </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ ht-degree: 2%
 
 您可以从以下区域删除记录：
 
-* [从记录的详细信息页面](#delete-a-record-from-the-records-details-page)
+* [从记录的页面](#delete-a-record-from-the-records-page)
 * [从记录类型的表格视图中](#delete-a-record-from-the-record-type-table-view)
 
-### 从记录的“详细信息”页面中删除记录
+### 从记录的页面中删除记录
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ ht-degree: 2%
      ![](assets/contextual-menu-for-record-row.png)
    * 在“时间轴”视图中，单击记录栏。
 
-   记录 **详细信息** 页面将打开。
+   此时将打开记录页面。
 
 1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **删除**，则 **删除** 再次确认。
 
@@ -141,7 +141,7 @@ ht-degree: 2%
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 打开“详细信息”框，然后单击 **更多** ![](assets/more-menu.png) 记录名称的右侧，然后 **删除**.
+   * 单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 打开包含记录详细信息的框，然后单击 **更多** ![](assets/more-menu.png) 记录名称的右侧，然后 **删除**.
 
    该记录已删除，无法恢复。
 

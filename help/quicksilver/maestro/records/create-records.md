@@ -1,13 +1,13 @@
 ---
 title: 创建记录
-description: 使用Adobe Workfront规划时，记录是记录类型的实例。
+description: 使用Adobe Workfront Planning时，记录是记录类型的实例。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划中，记录是记录类型的实例。
+在Adobe Workfront Planning中，记录是记录类型的实例。
 
 您可以通过执行以下操作之一来创建记录：
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront计划没有访问控制 </p>  
+   <td> <p>Adobe Workfront Planning没有访问控制 </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ ht-degree: 0%
 
    或
 
-   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 此 **详细信息** 框在表中打开。
+   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 在表格中打开包含记录详细信息的框。
 
    >[!TIP]
    >
    >当“名称”字段是主要字段时，您只能从记录的名称字段访问“详细信息”框。
 
-1. 开始在“详细信息”框中编辑记录的信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开“详细信息”框以打开 **详细信息** 页面。 继续编辑详细信息页面上的记录。
+1. 开始编辑记录框中的记录信息。 Workfront会自动保存您所做的更改。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录框的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。
 
 
 1. （可选）使用以下键盘快捷键可撤消或重做添加新记录：
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 从另一个应用程序中，选择多个行和列，然后将信息粘贴到记录类型表格视图中，从第一个新记录开始。
 
-   将在Workfront规划区域中导入以下信息：
+   将在Workfront Planning区域中导入以下信息：
 
    * 行包含新记录
    * 列填充记录字段的信息。

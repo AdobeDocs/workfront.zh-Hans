@@ -1,11 +1,11 @@
 ---
 title: 共享工作区
-description: 在Adobe Workfront规划中工作时，您可以与其他人共享工作区以确保协作。
+description: 在Adobe Workfront Planning中工作时，您可以与其他人共享工作区以确保协作。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划中工作时，您可以与其他人共享工作区以确保协作。
+在Adobe Workfront Planning中工作时，您可以与其他人共享工作区以确保协作。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> Adobe Workfront计划没有访问控制</p>  
+   <td> Adobe Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 

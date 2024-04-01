@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 要与其他用户协作，您可以与他人共享记录。
 
-您可以通过以下方式共享Adobe Workfront计划记录：
+您可以通过以下方式共享Adobe Workfront Planning记录：
 
-* 打开记录页时，从浏览器复制该记录的详细信息页的链接。
+* 打开记录页面时，从浏览器复制该页面的链接。
 
-* 在记录类型的表视图中查看记录时，复制指向记录的“详细信息”页面的链接。
+* 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
 * 通过共享工作区，您可以与其他用户共享工作区中的所有记录。 有关更多信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md).
 
-本文介绍了如何从记录类型的表视图中复制指向记录的“详细信息”页面的链接。
+本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
 ## 访问要求
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ ht-degree: 0%
 
    该链接将会复制到您的剪贴板中。
 
-1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录的详细信息页面。
+1. 将链接粘贴到电子邮件或聊天窗口中，以便与其他用户共享。 当用户收到链接时，将打开记录页面。
 
    >[!TIP]
    >
-   >“详细信息”页面中记录的字段与记录的“表”视图中可用的字段相同。
+   >记录页面中的字段与记录的“表”视图中可用的字段相同。
 
 
    <!--add there when it will be available: if they have access to this record-->

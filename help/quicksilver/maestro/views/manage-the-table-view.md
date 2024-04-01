@@ -1,13 +1,13 @@
 ---
 title: 管理表视图
-description: 访问Adobe Workfront规划中的记录类型页面时，您可以在表格视图中显示记录及其字段。
+description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-访问Adobe Workfront规划中的记录类型页面时，您可以在表格视图中显示记录及其字段。
+访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。
 
 有关记录视图以及如何管理它们的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ hide: yes
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
    <p>任何</p> 
+   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ hide: yes
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 开始添加字段（或列），如文章中所述 [创建字段](../fields/create-fields.md).
 
-   您添加的列对访问记录类型的所有用户均可见，并且作为新字段添加到所选记录类型的记录的“详细信息”页面上。
+   您添加的列对访问记录类型的所有用户都可见，并且作为新字段添加到记录的页面上。
 
 1. 执行以下操作之一以重新排序表中的列：
 
@@ -174,7 +175,7 @@ hide: yes
    >
    >   * 不能删除或隐藏主字段。
    >
-   >   * 主字段中列出的值始终通过超链接链接到记录的“详细信息”页面。
+   >   * 主字段中列出的值始终以超链接方式链接到记录的页面。
 
 1. 单击并拖动列分隔线，然后将它们拖放到所需位置以增加列的宽度。
 

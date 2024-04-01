@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -253,9 +253,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront计划，它是Adobe Workfront的一个新产品。
+>本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->目前，Workfront计划是测试版计划的一部分，该测试版计划向有限数量的客户开放。 您必须是Workfront客户才能使用这些功能。
+>目前，Workfront计划是测试版计划的一部分，该测试版计划对有限数量的客户开放。 您必须是Workfront客户才能使用这些功能。
 >
 >有关加入Workfront计划测试版计划的更多信息，请与您的客户代表联系。
 >

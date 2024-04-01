@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront计划中，工作区是团队计划工作的集中位置。 有关更多信息，请参阅 [创建工作区](../architecture/delete-workspaces.md).
+在Adobe Workfront Planning中，工作区是团队计划工作的集中位置。 有关更多信息，请参阅 [创建工作区](../architecture/delete-workspaces.md).
 
 您可以删除不再相关的工作区。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 

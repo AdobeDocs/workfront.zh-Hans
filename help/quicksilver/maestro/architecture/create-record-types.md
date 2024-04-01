@@ -5,20 +5,21 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # 创建记录类型
 
 {{maestro-important-intro}}
 
-记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明了在组织的生命周期中所需的工作相关项。
+记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明在组织的生命周期中所需的工作相关项。
 记录类型可以是以下任一类型：
 
 有关记录类型的详细信息，请参阅 [记录类型概览](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ ht-degree: 0%
         >
         >此功能自2024年3月21日起已暂时禁用。 之后将启用该功能。
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手动：
 
       * 从头开始。
 
-        本文介绍了如何在从头开始创建的工作区中从头开始创建一般记录类型。
+        本文介绍了如何从头开始创建记录类型。
 
 * 您可以在分区内移动记录类型，也可以在工作区的一个分区之间移动记录类型。 不能将记录类型从一个工作区移动到另一个工作区。
 
 ## 使用工作区模板创建记录类型
 
-在使用Workfront规划模板创建工作区时，您可以自动创建记录类型。 每个模板都包含示例记录类型。
+在使用Workfront Planning模板创建工作区时，您可以自动创建记录类型。 每个模板都包含示例记录类型。
 
 从模板创建工作区时，记录类型将分组到以下部分：
 
@@ -133,17 +134,14 @@ ht-degree: 0%
 
 ## 从头开始创建记录类型
 
-本文介绍了如何从头开始创建记录类型。
-
 {{step1-to-maestro}}
 
 默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其创建记录类型的工作区。
+1. （可选）单击 **添加分区** 以向工作区中添加新分区。
 1. 单击 **添加记录类型**.
-1. （视情况而定）如果要创建操作记录类型，请单击 **从头开始**.
-
-   将打开“添加记录类型”框。
+1. （视情况而定）启用通过导入Excel或CSV文件创建记录类型时，单击 **从头开始**. 否则， **添加记录类型** 框打开。
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ ht-degree: 0%
 
 1. 在 **添加记录类型** 框，以保存记录类型。
 
-   记录类型信息卡会添加到您选择的工作区。
+   记录类型信息卡会添加到部分和您选择的工作区。
 记录类型包含的信息卡上显示的字段数。
 1. （可选）单击记录类型卡以打开记录类型页面。
 
    ![](assets/operational-record-type-blank.png)
 
-   默认情况下，记录类型页面显示在“表”视图中。 表的列是与新记录类型关联的字段。 每一行都是您必须添加的唯一记录。
+   默认情况下，记录类型页面显示在表视图中。 表的列是与新记录类型关联的字段。 每一行都是您必须添加的唯一记录。
+
+   >[!TIP]
+   >
+   >    如果从Excel或CSV文件导入记录类型，则也会导入记录。
 
    默认情况下，以下字段显示在操作记录类型的表视图列中：
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
    有关创建字段的详细信息，请参阅 [创建字段](../fields/create-fields.md).
 
-1. （可选）单击记录类型名称左侧的左箭头，以返回选定的工作区。
+1. （可选）单击标题中记录类型名称左侧的左箭头，以返回选定的工作区。
 
    记录类型卡显示记录类型包含的字段数和连接数。
 
@@ -196,16 +198,15 @@ ht-degree: 0%
    * [编辑记录类型](../architecture/edit-record-types.md)
    * [管理记录视图](../views/manage-record-views.md)
 
-1. （可选）在工作区中，单击以将记录类型拖放到所需位置，或将其移动到其他部分。
+1. （可选）在工作区中，单击并按住记录类型卡片，以将记录类型拖放到所需位置，或将其移动到其他部分。
 
-   在您删除所选记录类型信息卡后，更改将自动保存。
+   更改将自动保存。
 
 ## 通过导入Excel或CSV文件创建记录类型
 
 >[!IMPORTANT]
 >
 >此功能自2024年3月21日起已暂时禁用。 之后将启用该功能。
-
 
 使用Excel或CSV文件导入记录类型时，请考虑以下事项：
 
@@ -233,7 +234,7 @@ ht-degree: 0%
 
    预览和编辑框显示以下信息：
 
-   * 工作表或未来记录类型的名称显示在左侧面板中。 默认情况下，Workfront planning会为每个新记录类型选择一个图标和一种颜色。
+   * 工作表或未来记录类型的名称显示在左侧面板中。 默认情况下，Workfront Planning会为每个新记录类型选择一个图标和一种颜色。
    * 选择第一个工作表或记录类型，并且与其关联的字段的名称显示为列标题。 默认情况下，会选择每个字段的类型。
    * 每一行表示一个新记录。 只有前10条记录会显示在“预览和编辑”框中。
 
@@ -254,7 +255,7 @@ ht-degree: 0%
 
 1. 单击 **导入** 准备导入文件时。
 
-   以下信息导入到Workfront planning中：
+   以下信息导入到Workfront Planning中：
 
    * 新记录类型
    * 与每个记录类型关联的新字段
@@ -266,9 +267,9 @@ ht-degree: 0%
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

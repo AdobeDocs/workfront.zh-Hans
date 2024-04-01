@@ -1,13 +1,13 @@
 ---
 title: 管理记录视图
-description: 使用Adobe Workfront规划时，您可以在表、时间轴或日历视图中显示记录。
+description: 使用Adobe Workfront Planning时，您可以在表、时间轴或日历视图中显示记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront规划区域中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
+在Adobe Workfront Planning区域中选择记录类型后，您可以在以下视图中显示该类型的所有记录：
 
 * 表
 
@@ -64,12 +64,13 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
    <p>任何</p> 
+   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Workfront规划没有访问级别控制</p>  
+   <td> <p>Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -104,7 +105,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  > 由于Adobe Workfront规划当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
+  > 由于Adobe Workfront Planning当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
 
 本文介绍了有关记录视图的以下信息：
 
@@ -138,7 +139,7 @@ ht-degree: 1%
 | 颜色代码分组 |           | ✓ {\f13 } |
 | 搜索特定记录 | ✓ {\f13 } | ✓ {\f13 } |
 | 共享视图 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
-| 从视图中打开记录的“详细信息”页面 | ✓ {\f13 } | ✓ {\f13 } |    |
+| 从视图打开记录的页面 | ✓ {\f13 } | ✓ {\f13 } |    |
 
 
 ## 创建或编辑视图 {#create-or-edit-views}

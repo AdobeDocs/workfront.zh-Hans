@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 您可以从记录类型页在日历视图中显示记录及其字段。
 
-有关Adobe Workfront规划功能视图以及如何管理这些视图的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
+有关Adobe Workfront Planning功能视图以及如何管理这些视图的信息，请参阅 [管理记录视图](../views/manage-record-views.md).
 
 ## 访问要求
 
@@ -51,7 +51,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ hide: yes
    <td role="rowheader"><p>Adobe Workfront许可证</p></td>
    <td>
    <p>任何</p> 
+   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">访问级别配置</td>
-   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 

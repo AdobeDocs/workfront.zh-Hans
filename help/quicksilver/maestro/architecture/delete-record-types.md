@@ -1,13 +1,13 @@
 ---
 title: 删除记录类型
-description: 当记录类型不再相关时，您可以将其删除。
+description: 当记录类型不再相关时，您可以将其删除。 删除记录类型也会删除与记录类型关联的所有信息，如其记录、字段和视图。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划没有访问级别控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ hide: yes
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
 
-   工作区将打开，并显示与其关联的记录类型和分类。
+   此时会打开工作区，并显示记录类型。
 1. 单击要删除的记录类型的卡。
 
    这将打开记录类型的页面。
-1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**.
-1. 单击 **删除** 以确认。
+1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**. <!--add screen shot when they finalize the UI-->
+1. 类型 **删除** 在确认框中，然后单击 **永久删除**.
 
    所选的记录类型及其字段、关联的记录和视图将被删除。

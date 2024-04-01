@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -33,23 +33,23 @@ ht-degree: 0%
 
 ## 有关对记录进行注释的注意事项
 
-* 您可以在Workfront planning中记录的“注释”部分添加注释和回复。
+* 您可以在Workfront Planning的“注释”部分中为记录添加注释和回复。
 
-* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Workfront计划产品记录添加注释，则该注释仅显示在Workfront计划的Product记录中，而不会显示在您从中链接的Campaign记录中。
+* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Workfront Planning产品记录添加注释，则该注释仅在Workfront Planning的产品记录中显示，而不会在您链接的Campaign记录中显示。
 
 * 您可以将注释添加到由于某个记录与来自另一个应用程序的对象之间的连接而创建的Workfront Planning记录中。
 
-  例如，在将Workfront项目与Workfront计划记录连接后，您可以对Workfront计划记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
+  例如，在将Workfront项目与Workfront Planning记录连接后，您可以对Workfront Planning项目记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/maestro/records/connect-records.md).
 
-* 添加到其他应用程序中链接对象的注释不会显示在Workfront规划中，而添加到Workfront规划中的链接对象的注释不会显示在其他应用程序中。
+* 添加到其他应用程序中链接对象的注释不会显示在Workfront Planning中，而添加到Workfront Planning中链接对象的注释不会显示在其他应用程序中。
 
-  例如，添加到Workfront中的项目的注释不会显示在链接到Workfront规划中的营销活动的同一项目中，并且添加到Workfront规划记录中的项目注释不会显示在Workfront中。
+  例如，添加到Workfront中的项目的注释不会显示在链接到Workfront Planning中的营销活动的同一项目中，并且添加到Workfront Planning项目记录的注释不会显示在Workfront中。
 
 * 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
 
-* 您可以向记录添加更新，并复查Workfront计划的以下区域的更改历史记录：
+* 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
-   * 从记录的详细信息页面。
+   * 从记录页面。
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront规划中没有访问级别控制。 </p>  
+   <td> <p>Workfront Planning中没有访问级别控制。 </p>  
 </td>
   </tr>
 <tr>

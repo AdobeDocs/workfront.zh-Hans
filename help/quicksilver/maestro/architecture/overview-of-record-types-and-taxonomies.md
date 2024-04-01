@@ -1,11 +1,11 @@
 ---
 title: 记录类型概览
-description: 记录类型是Adobe Workfront规划工作区的构建块。
+description: 记录类型是Adobe Workfront Planning工作区的构建块。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 与Workfront中预定义的对象类型不同，在Adobe Workfront Planning中，您可以创建自己的对象类型。 例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。
 
-Workfront planning对象类型称为“记录类型”，您可以创建和自定义所有这些类型。 记录类型是Workfront规划工作区的构建块。 有关工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
+Workfront Planning对象类型称为“记录类型”，您可以创建和自定义所有这些类型。 记录类型是Workfront Planning工作区的构建块。 有关工作区的信息，请参见 [创建工作区](../architecture/create-workspaces.md).
 
 ## 记录类型概述
 

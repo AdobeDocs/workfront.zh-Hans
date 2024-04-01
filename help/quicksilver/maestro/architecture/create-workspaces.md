@@ -1,13 +1,13 @@
 ---
 title: 创建工作区
-description: 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 您可以在Adobe Workfront Planning中完全自定义工作区。
+description: 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 您可以在Adobe Workfront Planning中完全自定义工作区。 记录类型按工作区中的部分组织。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-在Adobe Workfront计划中，工作区是团队计划工作的集中位置。
+在Adobe Workfront Planning中，工作区是团队计划工作的集中位置。
 
 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront规划没有访问级别控制</p>
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ ht-degree: 0%
 * 您可以为组织内的特定组织单位创建工作区，以匹配每个单位独特的工作方式。
 * 工作区包含的记录类型应反映组织单位的工作生命周期。
 * 在创建工作区时，只有您才有权访问和管理工作区。 您必须与其他用户共享，他们才能在同一空间与您协作。 有关信息，请参阅 [共享工作区](/help/quicksilver/maestro/access/share-workspaces.md). 系统管理员可以管理所有工作区，甚至可以管理他们未创建的工作区。
-* 贵组织的Workfront实例中最多可以有1,000个工作区。
-* 工作区包含每个工作区特有的记录类型。 <!--this might change-->
+* 您可以执行以下操作：
+
+   * 一个工作区中最多可包含50个部分。
+   * 一个工作区中的所有节中总计可达1,000个记录类型。 所有记录类型对于每个工作区都是唯一的。 <!--this might change-->
+   * 组织的Workfront实例中最多1,000个工作区。
+
 
 ## 创建工作区
 
@@ -111,7 +115,7 @@ ht-degree: 0%
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   这将打开Workfront规划的“工作区”区域。
+   这将打开Workfront Planning的“工作区”区域。
 1. （可选且视情况而定）单击 **预览** 在以下任何预定义workspace模板中：
 
    * 营销管理
@@ -122,7 +126,7 @@ ht-degree: 0%
 
    ![](assets/previewing-a-workspace-template.png)
 
-   有关Workfront规划工作区模板的信息，请参阅 [工作区模板列表](../architecture/workspace-templates.md).
+   有关Workfront Planning工作区模板的信息，请参阅 [工作区模板列表](../architecture/workspace-templates.md).
 
 1. 单击 **使用模板** 以开始从所选模板创建工作区
 
@@ -140,8 +144,6 @@ ht-degree: 0%
    或
 
    单击 **更多** 菜单 ![](assets/more-menu.png)工作区名称右侧，然后单击 **重命名**.
-
-1. （可选且视情况而定）如果工作区已有部分，请单击 **添加分区** 向工作区中添加新分区。 一个部分可以包含多种记录类型。
 
 1. （可选且视情况而定）如果您是从模板创建工作区的，请在模板名称内单击 **操作记录类型** 或 **分类** 部分
 
@@ -163,8 +165,13 @@ ht-degree: 0%
    * 单击 **添加分区** 位于工作区的底部。
    * 将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **添加以上部分** 或 **在下面添加部分**.
 
-1. （可选）单击 **添加记录类型** 向工作区添加记录类型。
+1. （可选）单击 **添加记录类型** 将记录类型添加到任意部分中的工作区。
 
    有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
+1. （可选）要删除节，请执行以下操作：
 
+   1. 将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **删除**. <!--add screen shot when UI is final?-->
+   1. 选择新分区以将所有记录类型移动到该分区，然后单击 **删除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      所有记录类型都将移到选择部分，并删除该部分。

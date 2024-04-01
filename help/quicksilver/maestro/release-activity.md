@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront计划发布活动
+title: Adobe Workfront Planning发布活动
 description: Adobe Workfront规划功能当前可用于选择Workfront客户。 经常阅读本文以了解最近发布的规划功能功能。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront计划发布活动
+# Adobe Workfront Planning发布活动
 
 {{maestro-important-intro}}
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >在2023年5月至2023年12月期间，本文中的所有功能均已发布到“预览”和“生产”环境。 自2024年1月起，规划功能已暂时从预览和沙盒环境中移除。 此日期之后发布的所有功能当前都可在生产环境中使用。
 
-本文列出了在2023年5月22日Adobe Workfront规划功能封闭测试版计划启动后发布的功能和修补程序。
+本文列出了在2023年5月22日Adobe Workfront规划功能封闭测试版计划启动后发布的功能和补丁。
 
 这些功能每周发布一次，并按照其发布的顺序列出，最新的顺序列出。 参与规划功能封闭测试版计划的客户可以访问其“预览”和“生产”环境中的所有功能。
 
@@ -64,13 +64,23 @@ ht-degree: 0%
 
 ### 已将主菜单中的Maestro区域重命名为Planning
 
-生产： 2024年3月28日
+生产： 2024年3月27日
 
 预览：待定
 
 我们已将主菜单中的Maestro区域重命名为Planning。
 
-有关Adobe Workfront规划的概述，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+有关Adobe Workfront Planning的概述，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+
+### 删除记录类型时的新体验
+
+生产： 2024年3月27日
+
+预览：待定
+
+我们在删除记录类型时重新设计了确认框。 删除记录类型会产生影响，因为它也会删除所有记录、记录类型字段、字段中的信息以及与记录类型关联的视图。 无法恢复已删除的记录类型及其已删除的信息。
+
+因此，我们希望在删除记录类型时确保用户的意图准确，因此我们在确认删除时引入了一个额外的步骤。 有关更多信息，请参阅 [删除记录类型](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## 2024年3月18日起一周
 
@@ -82,15 +92,15 @@ ht-degree: 0%
 
 您现在可以在日历视图中筛选信息。 有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### 添加到时间轴和日历视图的详细信息框
+### 包含添加到时间轴和日历视图的记录详细信息的框
 
 生产： 2024年3月19日
 
 预览：待定
 
-您现在可以从时间轴和日历视图访问记录的详细信息框。 您可以在时间轴和日历视图内的“详细信息”框中编辑记录。
+您现在可以从时间轴和日历视图访问包含记录详细信息的框。 您可以在时间轴和日历视图内的记录框中编辑记录。
 
-从“详细信息”框中，可以打开记录的“详细信息”页面。
+在记录框中，您可以在新的浏览器选项卡中打开记录页面。
 
 有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ ht-degree: 0%
 
 * 能够修改记录信息
 
-* 用于打开记录的“详细信息”页面的链接
+* 用于打开记录页面的链接
 
 有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ ht-degree: 0%
 
 有关新许可证模型的信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront规划时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
+有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 记录字段富文本工具栏的新外观
@@ -387,7 +397,7 @@ ht-degree: 0%
 * 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
 * 管理：用户可以编辑、共享和删除视图。
 
-有关更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront规划功能中共享权限概述](../maestro/access/sharing-permissions-overview.md).
+有关更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md) 和 [在Adobe Workfront Planning功能中共享权限概述](../maestro/access/sharing-permissions-overview.md).
 
 ### 新建公式字段类型
 
@@ -439,7 +449,7 @@ ht-degree: 0%
 
 ## 2023年12月18日起一周
 
-### 从“详细信息”页面添加有关记录的注释
+### 在记录页面中的记录中添加评论
 
 适用于所有客户的预览和生产： 2023年12月18日
 
@@ -455,7 +465,7 @@ ht-degree: 0%
 >
 >有关更多信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-现在，您可以在详细信息页面中查看记录时，通过添加注释或回复他人来与他人协作处理单个记录。
+您现在可以通过添加注释或在查看记录页面时回复他人来与个人记录上的其他人协作。
 
 规划功能记录的注释体验与Workfront对象的新注释体验相匹配。
 
@@ -467,7 +477,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront规划功能建立连接。
+>贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
 >有关信息，请参阅 [Adobe Workfront Fusion概述](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Adobe Workfront规划功能记录连接到Adobe Experience Manager Assets。
+>贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Adobe Workfront Planning功能记录连接到Adobe Experience Manager Assets。
 >
 >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-您现在可以在Adobe Workfront规划功能记录类型与Adobe Experience Manager Assets之间建立连接。
+您现在可以在Adobe Workfront Planning功能记录类型与Adobe Experience Manager Assets之间建立连接。
 
 建立连接后，以下功能可用于此更新：
 
@@ -608,7 +618,7 @@ ht-degree: 0%
 
 预览和生产： 2023年10月30日
 
-我们为Adobe Workfront规划功能记录引入了以下字段类型：
+我们为Adobe Workfront Planning功能记录引入了以下字段类型：
 
 * 创建者
 
@@ -630,7 +640,7 @@ ht-degree: 0%
 
 * 只读链接Workfront对象记录表视图
 
-* 只读Workfront对象记录详细信息页面
+* 只读Workfront对象记录页面
 
 有关更多信息，请参阅 [连接记录](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ ht-degree: 0%
 
 预览和生产： 2023年10月16日
 
-我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图中或在记录的“详细信息”页中使用富文本设置段落字段的格式。 有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
+我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图或记录页面中使用富文本设置段落字段的格式。 有关更多信息，请参阅 [编辑记录](../maestro/records/edit-records.md).
 
 
 ### 时间轴视图的记录并分组颜色编码
@@ -752,7 +762,7 @@ ht-degree: 0%
 
 ## 2023年8月21日起一周
 
-### 将Adobe Workfront规划功能记录连接到项目和项目组合
+### 将Adobe Workfront Planning功能记录连接到程序和项目组合
 
 预览和生产： 2023年8月24日
 
@@ -839,7 +849,7 @@ ht-degree: 0%
 
 预览和生产： 2023年6月28日
 
-我们启用了在查看表视图或记录类型中的记录时，通过右键单击记录行中的任何位置来激活上下文菜单的功能。 现在，当您从记录类型的表视图中的任意位置访问上下文菜单时，可以快速查看、删除或复制指向记录的“详细信息”页面的链接。 在此增强功能之前，上下文菜单只能从记录的“名称”列中的更多菜单访问。
+我们启用了在查看表视图或记录类型中的记录时，通过右键单击记录行中的任何位置来激活上下文菜单的功能。 现在，当您从记录类型的表视图中的任意位置访问上下文菜单时，可以快速查看、删除或复制指向记录页面的链接。 在此增强功能之前，上下文菜单只能从记录的“名称”列中的更多菜单访问。
 
 ## 2023年6月19日起一周
 
@@ -849,7 +859,7 @@ ht-degree: 0%
 
 ## 2023年6月5日起一周
 
-### 将Adobe Workfront规划功能记录连接到Workfront项目
+### 将Adobe Workfront规划功能记录与Workfront项目连接起来
 
 预览和生产： 2023年6月5日
 

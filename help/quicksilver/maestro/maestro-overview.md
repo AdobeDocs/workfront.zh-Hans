@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront规划概述
-description: Adobe Workfront规划是Adobe Workfront提供的一项新服务。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
+description: Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 1%
+source-wordcount: '1790'
+ht-degree: 2%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文中的信息介绍了Adobe Workfront计划，它是Adobe Workfront的一个新产品。
+>本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->目前，Adobe Workfront计划是测试版计划的一部分，该测试版计划向有限数量的客户开放。 您必须是Workfront客户才能使用这些功能。
+>目前，Adobe Workfront计划是测试版计划的一部分，该测试版计划对有限数量的客户开放。 您必须是Workfront客户才能使用这些功能。
 >
 >有关加入Workfront计划测试版计划的更多信息，请与您的客户代表联系。
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-## Adobe Workfront规划简介
+## Adobe Workfront Planning简介
 
-Adobe Workfront规划是Adobe Workfront提供的一项新服务。 Workfront规划的目的是全面了解企业的运营详细信息，并回答工作管理生命周期各阶段的关键业务问题。
+Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront Planning的目的是全面了解企业的运营详细信息，并回答工作管理生命周期各阶段的关键业务问题。
 
 团队和领导力需要获得以下问题的明确答案：
 
@@ -51,9 +51,9 @@ Adobe Workfront规划是Adobe Workfront提供的一项新服务。 Workfront规�
 
 ## 当前可用的Adobe Workfront规划功能
 
-下表说明了Workfront规划中可用的主要功能及其可用时间线。 该列表不包括所有功能。
+下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
 
-有关新功能及其发布时间的信息，请参阅 [Adobe Workfront计划发布活动](/help/quicksilver/maestro/release-activity.md).
+有关新功能及其发布时间的信息，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md).
 
 | 功能 | 现在可用 | 即将推出 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -75,10 +75,10 @@ Adobe Workfront规划是Adobe Workfront提供的一项新服务。 Workfront规�
 | 连接工作区 |                               | ✓ {\f13 } |                  |
 | 在表视图中搜索记录 | ✓ {\f13 } |   |
 | 在时间轴视图中搜索记录 | ✓ {\f13 } |   |
-| 将Workfront计划记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
-| 将Workfront规划记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
-| 记录详细信息页面 | ✓ {\f13 } |                                  |                  |
-| 更新记录详细信息页面的布局 |                               | ✓ {\f13 } |                  |
+| 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
+| 将Workfront Planning记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
+| 记录包含详细信息的页面 | ✓ {\f13 } |                                  |                  |
+| 更新记录页面的布局 |                               | ✓ {\f13 } |                  |
 | 共享工作区 | ✓ {\f13 } | |  |
 | 共享视图 | ✓ {\f13 } | |  |
 | 复制视图 | ✓ {\f13 } | |  |
@@ -92,19 +92,19 @@ Adobe Workfront规划是Adobe Workfront提供的一项新服务。 Workfront规�
 | Adobe Workfront Fusion的Adobe Workfront规划模块 | ✓ {\f13 } |                                  |                 |
 | 将信息从一个字段复制并粘贴到另一个字段 | ✓ {\f13 } |                                  |                 |
 
-## 在Workfront实例中为用户启用Adobe Workfront规划
+## 为Workfront实例中的用户启用Adobe Workfront Planning
 
 贵组织必须注册Adobe Workfront计划封闭测试版计划，然后才能访问计划功能。 有关注册Beta版计划的信息，请联系您的客户代表。
 
-有关授予对的访问权限并使他人能够使用Workfront规划的详细信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
+有关授予他人访问权限并使他人能够使用Workfront Planning的更多信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
 
-## Adobe Workfront规划术语
+## Adobe Workfront Planning术语
 
-尽管Workfront规划是Workfront的一部分，但它附带有专有的概念和术语。 在开始为组织设置Workfront规划之前，请确保您熟悉新概念。
+虽然Workfront Planning是Workfront的一部分，但它附带了专有的概念和术语。 在开始为组织设置Workfront计划之前，请确保您熟悉新概念。
 
-Workfront规划框架是完全可自定义的。 您可以创建所有记录类型、其属性以及与其关联的任何字段，以满足贵组织的确切需求。
+Workfront Planning的框架是完全可自定义的。 您可以创建所有记录类型、其属性以及与其关联的任何字段，以满足贵组织的确切需求。
 
-以下是主要的Workfront规划对象和概念：
+以下是主要的Workfront Planning对象和概念：
 
 * **工作区**：定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。
 
@@ -114,9 +114,9 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 
   有关更多信息，请参阅 [创建工作区](../maestro/architecture/create-workspaces.md).
 
-* **记录类型**：对象类型或Workfront规划。
+* **记录类型**：对象类型或Workfront Planning。
 
-  与Workfront（其中的对象类型是预定义类型）不同，在Workfront规划中，您可以创建自己的对象类型。
+  与Workfront中预定义的对象类型不同，在Workfront Planning中，您可以创建自己的对象类型。
 
   例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。
 
@@ -138,7 +138,7 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront规划附带销售、营销和产品管理工作区模板。
+  Adobe Workfront计划附带销售、营销和产品管理工作区模板。
 
   有关更多信息，请参阅 [创建工作区](../maestro/architecture/create-workspaces.md).
 
@@ -150,11 +150,11 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 
    * 您为记录类型添加的字段会自动与该类型的所有记录相关联，并可用于捕获有关这些记录的数据。
 
-   * 字段在应用于记录类型页的“表”视图中显示为列。 它们还显示在记录的详细信息页面中。
+   * 字段在应用于记录类型页的“表”视图中显示为列。 它们也会显示在记录的页面中。
 
    * 字段对于记录类型是唯一的，不会从一种记录类型转移到另一种记录类型。
 
-   * 字段可完全自定义，并且仅可在Workfront规划中访问。 您无法从Workfront访问Workfront规划字段。
+   * 字段可完全自定义，并且只能在Workfront Planning中访问。 您无法从Workfront访问Workfront Planning字段。
 
   有关更多信息，请参阅 [创建字段](../maestro/fields/create-fields.md).
 
@@ -184,7 +184,7 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
    * 上次修改者
    * 上次修改日期
 
-* **链接的记录类型**， **链接的记录**、和 **链接的记录字段**：您可以在Workfront planning中的以下实体之间创建连接：
+* **链接的记录类型**， **链接的记录**、和 **链接的记录字段**：您可以在Workfront Planning中的以下实体之间创建连接：
 
    * 两种记录类型。
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
@@ -233,13 +233,14 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 有关更多信息，请参阅 [管理记录视图](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront规划对象限制
+## Adobe Workfront Planning对象限制
 
 下表显示了可在Workfront Planning中创建的对象数限制。 当我们进入开发的下一个阶段时，这些限制可能会发生变化。
 
-| Adobe Workfront规划对象 | 限制 |
+| Adobe Workfront Planning对象 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 一个Workfront实例的工作区数 | 1,000 |
+| 一个工作区的部分数 | 50 |
 | 一个工作区的记录类型数 | 1,000（这包括来自所有部分的记录类型以及在使用工作区模板时创建的记录类型） |
 | 一种记录类型的记录数 | 50,000 |
 | 一种记录类型或分类的字段数 | 500 |
@@ -254,11 +255,11 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 >*此功能已被暂时禁用，并将在以后可用。
 
 
-## 找到Adobe Workfront规划
+## 找到Adobe Workfront Planning
 
-确保您的组织已获得Workfront规划的访问权限，且您的系统或组管理员已将Planning区域添加到您的主菜单。 有关信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
+确保您的组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到您的主菜单。 有关信息，请参阅 [访问概述](/help/quicksilver/maestro/access/access-overview.md).
 
-要找到Workfront规划，请执行以下操作：
+要找到Workfront Planning，请执行以下操作：
 
 1. 登录到Adobe Workfront。
 
@@ -286,9 +287,9 @@ Workfront规划框架是完全可自定义的。 您可以创建所有记录类�
 
       通过添加列开始添加记录字段。
 
-## Adobe Workfront计划发布活动
+## Adobe Workfront Planning发布活动
 
-我们将定期为Workfront规划发布新功能。
+我们将定期为Workfront Planning发布新功能。
 
-有关已发布功能的最新列表，请参阅 [Adobe Workfront计划发布活动](../maestro/release-activity.md).
+有关已发布功能的最新列表，请参阅 [Adobe Workfront Planning发布活动](../maestro/release-activity.md).
 

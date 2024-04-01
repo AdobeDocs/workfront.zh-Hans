@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划Beta版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>贵组织必须注册Adobe Workfront Planning测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront计划没有访问控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ ht-degree: 0%
 * 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
 * 您可以从以下区域编辑记录字段：
 
-   * 记录视图中记录的“详细信息”框。
-   * 记录的“详细信息”页面。
+   * 记录视图中的记录框
+   * 记录的页面
    * 内联，在表格视图中。
 
 * 以下类型的字段会自动更新，您无法手动编辑其值：
@@ -109,7 +109,8 @@ ht-degree: 0%
 您可以从以下区域编辑记录：
 
 * [从记录类型的表格视图中](#edit-a-record-from-the-table-view-of-a-record-type)
-* [从记录的详细信息页面](#edit-a-record-from-the-records-details-page)
+* [从视图中的记录框](#edit-a-record-from-the-records-box-in-a-view)
+* [从记录的页面](#edit-a-record-from-the-records-page)
 
 ### 在记录类型的表视图中编辑内联记录
 
@@ -165,7 +166,7 @@ ht-degree: 0%
    >   * 粘贴：CTRL + V(对于Mac，为⌘ + V)
    >* 不能从其他来源复制信息，不能复制与粘贴信息的字段类型相同的记录字段以外的信息。
    >
-   >* 您不能在记录的详细信息区域中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
+   >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：
    >
    >
@@ -183,9 +184,7 @@ ht-degree: 0%
 
 1. （可选）向记录中添加缩略图。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 在视图中编辑记录的“详细信息”框中的记录
-
-您可以从任何视图的“详细信息”框中编辑记录。
+### 在视图中编辑记录框中的记录
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧，或单击记录名称。 此 **详细信息** 将在视图中打开框。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧，或单击记录名称。 记录的框在视图中打开。
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ ht-degree: 0%
    >
    >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
-1. 开始编辑中的字段信息 **详细信息** 盒子。 Workfront会自动保存您所做的更改。
+1. 开始编辑记录框中的字段信息。 Workfront会自动保存您所做的更改。
 
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。 继续编辑记录，如中所述 [从记录的“详细信息”页面编辑记录](#edit-a-record-from-the-records-details-page) 部分。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。 继续编辑记录，如中所述 [从记录的页面编辑记录](#edit-a-record-from-the-records-page) 部分。
 
-### 从记录的“详细信息”页面编辑记录
-
-您可以从“详细信息”页面编辑记录。
+### 从记录的页面编辑记录
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   * 从任何视图中访问“详细信息”框，如 [在视图中编辑记录的“详细信息”框中的记录](#edit-a-record-from-the-records-details-box-in-a-view)部分。 然后，单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 位于的右上角 **详细信息** 用于打开记录的 **详细信息** 页面。
+   * 从任何视图中访问记录的框，如 [在视图中编辑记录框中的记录](#edit-a-record-from-the-records-box-in-a-view) 部分。 然后，单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。
 
    * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     记录 **详细信息** 页面将打开。
+     此时将打开记录页面。
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ ht-degree: 0%
 
    或
 
-   在“详细信息”页面上的任何可编辑字段中单击以编辑信息。
+   在记录页面上的任何可编辑字段中单击以编辑信息。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
