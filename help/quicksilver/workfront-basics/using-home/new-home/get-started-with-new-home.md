@@ -6,10 +6,10 @@ description: 新主页是一个用于管理您的工作的强大新功能。 您
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 6%
 
 ---
 
@@ -58,9 +58,6 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 
 * **所有审批**\
         <span class="preview"> 显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。</span> <span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span>
-
-* **未决批准**\
-    显示分配给您拥有项目的文档的审批。 在这里，您可以查看审批状态并提醒用户未完成审阅和审批。 <span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span>
 
 * **提及**\
     显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
