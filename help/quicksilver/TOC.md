@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: 94618e0533716f004a5f3f26d9de73ae1955bd2d
 workflow-type: tm+mt
-source-wordcount: '14064'
+source-wordcount: '14068'
 ht-degree: 1%
 
 ---
@@ -1784,6 +1784,7 @@ ht-degree: 1%
 * 审查并审批工作 {#review-and-approve-work}
    * [审阅和批准工作](review-and-approve-work/review-and-approve-work.md)
    * [Alpha计划 — 文档审批](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha程序 — Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [非付费用户的有限文档和验证决策概述](review-and-approve-work/proof-doc-decision-limits.md)
    * 工作审批 {#work-approvals}
       * [工作审批](review-and-approve-work/manage-approvals/manage-approvals.md)
