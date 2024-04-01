@@ -6,12 +6,13 @@ description: 您可以手动更新任务或您分配到的问题的提交日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # 更新任务和问题的提交日期
 
@@ -88,8 +89,11 @@ ht-degree: 0%
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * 如果您使用旧版更新区域，项目所有者将收到通知，告知您为任务或问题建议了一个新的提交日期，并且可以在这一时候更新任务或问题的规划完成日期，以匹配您建议的提交日期。 新的评论体验不支持此功能。 有关信息，请参阅 [新的评论体验](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * 应用程序内通知会通知项目所有者，您已为任务或问题建议了新的提交日期。
+   * 在更新部分中通知项目所有者，您已建议新的提交日期，此时，他们可以更新任务或问题的规划完成日期，以匹配您建议的提交日期。 新的评论体验不支持此功能。 有关信息，请参阅 [新的评论体验](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     有关此更改触发的通知和更新的信息，请参阅部分 [通过更改提交日期触发的通知和更新](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) 在文章中 [提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     有关此更改触发的通知和更新的信息，请参阅文章中的“更改提交日期触发的通知和更新”部分 [提交日期概述](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

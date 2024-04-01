@@ -6,9 +6,9 @@ description: 计划完成日期和提交日期均指示应何时完成任务。 
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ this article has mostly information that is repeated from the articles linked fr
 
 被分派人更改提交日期不会自动更改规划完成日期。 反之亦然：更改规划完成日期不会更改提交日期。
 
-当提交日期更改为晚于计划完成日期的日期时，如果项目所有者使用旧版注释体验，则项目所有者会收到此更改已发生并且可能影响项目时间线的通知。 新的评论体验不支持此功能。 有关更多信息，请参阅 [新的评论体验](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+当提交日期更改为晚于计划完成日期的日期时，项目所有者将收到此更改已发生并且可能影响项目时间线的通知。
 
 如果项目责任人可接受受让人提供的提交日期，他们必须手动更新任务或问题的计划完成日期。 有关更多信息，请参阅以下文章：
 

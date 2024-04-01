@@ -7,18 +7,22 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
 
 # 工时表布局概述
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 本文介绍了时间表在Adobe Workfront中的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
 

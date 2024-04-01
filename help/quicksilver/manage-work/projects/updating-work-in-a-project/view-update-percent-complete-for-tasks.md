@@ -6,9 +6,9 @@ description: 您可以更新任务的完成百分比，以指明完成任务的�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ ht-degree: 0%
 * **在任务标题中**：您可以在任务标题中更新任务的完成百分比。 有关信息，请参阅 [编辑任务](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **在任务的摘要面板中**：在查看以下区域中的任务时，您可以更新摘要面板顶部的任务完成百分比：
+
+   * 任务列表或报告
+   * 时间表
+   * 工作负载均衡器
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  有关更多信息，请参阅 [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## 有关更新任务完成百分比的注意事项

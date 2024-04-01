@@ -6,9 +6,9 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ ht-degree: 0%
 
    您的评论会显示在 [!UICONTROL 更新] 时程表的部分，在评论选项卡中。
 
-1. （可选）单击 **系统活动** 选项卡以查看系统生成的更新。
+1. （可选）单击 **系统活动** 选项卡以查看系统生成的更新
+
+   或
+
+   单击 **全部** 选项卡，按时间顺序查看系统活动和用户评论。
+
+   >[!TIP]
+   >
+   >   “全部”选项卡是只读选项卡，不能从该选项卡回复注释。
+
 
    有关更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ ht-degree: 0%
 1. 单击 [!UICONTROL **时间表**].
 1. 转到要在其中发表评论的时间表，然后单击 [!UICONTROL **工时表**] 在左侧面板中。
 1. 单击任务或问题的行，然后单击 [!UICONTROL **打开摘要**].
-1. 在中开始键入更新 [!UICONTROL **更新**] 区域，然后单击 [!UICONTROL **更新**].
+1. 在中开始键入更新 [!UICONTROL **更新**] 区域，然后单击 [!UICONTROL **提交**].
 更新显示在任务和问题的更新部分中。
 1. （可选）单击 [!UICONTROL **关闭摘要**] 以关闭“摘要”面板。
 

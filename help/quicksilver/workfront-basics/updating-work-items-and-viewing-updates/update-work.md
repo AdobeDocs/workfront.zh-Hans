@@ -6,49 +6,23 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '4291'
+source-wordcount: '4341'
 ht-degree: 1%
 
 ---
 
 # 更新工作
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
-
->[!IMPORTANT]
->
->我们当前正在重新设计Adobe Workfront中的评论体验。
->
->根据您访问评论体验的对象，您可能会看到更新部分的以下功能：
->* 新体验
->* 旧版体验
->* 新体验和旧体验
->
->有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问更新时，该体验不可用：
->
-> * 主页
-> * 列表中的摘要面板
-> * 时间表中的“摘要”面板
-> * 工作负载均衡器中的“摘要”面板
->
-><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。 有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 有关当前发行计划的信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -81,6 +55,34 @@ After the monthly releases to Production, the same features are also available i
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 -->
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+>[!IMPORTANT]
+>
+>我们当前正在重新设计Adobe Workfront中的评论体验。
+>
+>根据您访问评论体验的对象，您可能会看到更新部分的以下功能：
+>* 新体验
+>* 旧版体验
+>* 新体验和旧体验
+>
+>有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+><Span class="preview"> 已从预览环境中的项目、任务、问题和文档中删除旧版评论体验。 </span>
+>
+>新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问更新时，该体验不可用：
+>
+> * 主页
+> * 列表中的摘要面板
+> * 时间表中的“摘要”面板
+> * 工作负载均衡器中的“摘要”面板
+>
+><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。 </span>
 
 ## 有关更新工作的注意事项
 

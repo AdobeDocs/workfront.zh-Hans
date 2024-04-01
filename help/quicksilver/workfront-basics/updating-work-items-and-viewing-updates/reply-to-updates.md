@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
 
 # 回复更新
-
-{{preview-and-fast-release}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -28,6 +26,12 @@ ht-degree: 0%
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
 -->
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -40,14 +44,16 @@ ht-degree: 0%
 >
 >有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问对象时，该体验不可用：
+><Span class="preview"> 已从预览环境中的项目、任务、问题和文档中删除旧版评论体验。 </span>
+>
+>新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问更新时，该体验不可用：
 >
 > * 主页
 > * 列表中的摘要面板
 > * 时间表中的“摘要”面板
 > * 工作负载均衡器中的“摘要”面板
 >
-><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。</span>
+><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。 </span>
 
 当有人回复工作对象的评论或系统更新时，他们的回复会出现在对象更新部分的通信线程中。
 

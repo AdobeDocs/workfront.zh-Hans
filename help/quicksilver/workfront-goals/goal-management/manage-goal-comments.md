@@ -6,16 +6,14 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront目标中管理目标注释
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ After the monthly releases to Production, the same features are also available i
 1. 单击  **更新** 在左侧面板中。
 1. （可选）要查找现有注释，请开始键入关键字 <!--or a user's name--> 在 **Search** 框（位于右上角） **评论** 选项卡。
 
-   <div class="preview">
-
-   预览环境中的示例：
-   ![搜索评论](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   生产环境中的示例：
    ![](assets/search-field-in-updates-tab-goals.png)
 
    关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
@@ -125,14 +115,6 @@ After the monthly releases to Production, the same features are also available i
 1. 单击 **评论** 选项卡。
 1. 开始在 **新建评论** 盒子。
 
-   <div class="preview">
-
-   “预览”环境中的新注释框示例：
-   ![新建评论框](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   生产环境中的新注释框示例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ After the monthly releases to Production, the same features are also available i
 
 1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在System Activity选项卡中。 在将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。 <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">（可选）单击 **全部** 选项卡以在一个位置查看用户注释和系统活动注释。 要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。 您不能在“全部”选项卡中回复。</span>
 

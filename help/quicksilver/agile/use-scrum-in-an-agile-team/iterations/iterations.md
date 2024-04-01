@@ -8,9 +8,9 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 4%
 * [将故事添加到现有迭代](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [查看迭代](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [删除迭代](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
+* [管理迭代更新](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 系统跟踪更新
 
-{{preview-and-fast-release}}
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      有关新评论体验的更多信息，请参阅 [新的评论体验](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">有关没有“系统活动”或“全部”选项卡的对象列表，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">使用新的评论体验时，无法向系统更新添加评论。 但是，对旧版注释体验中的系统活动记录所做的任何回复，都会在新版注释体验中的“系统活动”选项卡中以只读形式填充。</span>
    * 使用旧版评论体验时，系统和用户更新显示在一个连续馈送中。
 
    * 使用旧版评论体验时，用户可以默认查看系统更新，也可以选择不显示这些更新。 使用新的注释体验时，无法禁用系统更新。
 
      有关禁用系统更新显示的信息，请参阅部分 [启用或禁用系统更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 在文章中 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">已在“预览”环境中禁用旧版评论体验。 有关更多信息，请参阅 [2024年第二季度更新流和通知增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront记录以下对象的系统跟踪更新，但没有选项可禁用显示这些对象：
 
