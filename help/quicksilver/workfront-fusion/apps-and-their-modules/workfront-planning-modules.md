@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ ht-degree: 0%
       <td role="rowheader">[！UICONTROL对象类型]</td>
       <td>选择您要监视记录、记录类型还是工作区。</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[！UICONTROL事件过滤器]</p> </td> 
+      <td> <p>您可以设置过滤器，以仅监视符合您选择标准的记录。</p> <p>对于每个筛选器，输入希望筛选器计算的字段、运算符以及希望筛选器允许的值。 通过添加AND规则，您可以使用多个过滤器。</p> <p>注意：您无法编辑现有过滤器中的过滤器 [!DNL Workfront] 网络挂钩。 要为设置不同的过滤器 [!DNL Workfront] 事件预订，删除当前webhook并创建新预订。</p> <p>有关事件过滤器的更多信息，请参阅 <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">中的事件订阅过滤器 [!DNL Workfront] &gt; [！UICONTROL Watch Events]模块</a> Workfront modules一文中的。</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[！UICONTROL要监视的对象]</td>
       <td>选择是否要监视新的。 更新、新增和更新或删除的记录。</td>
