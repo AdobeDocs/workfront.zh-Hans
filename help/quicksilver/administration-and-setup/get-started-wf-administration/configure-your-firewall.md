@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1199551f9ffb802a5691f6986cd855064a921d08
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 0%
 * [IP地址允许增强型身份验证](#ip-addresses-to-allow-for-enhanced-authentication)
 * [要添加的用于访问Workfront Fusion的IP地址](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [要使用Workfront for Jira添加的IP地址](#ip-addresses-to-add-for-using-workfront-for-jira)
-* [要使用Workfront上升添加的IP地址](#ip-addresses-to-add-for-using-workfront-ascent)
 * [要为Workfront的所有群集添加的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允许群集1 、 2 、 3 、 5 、 7 、 8和9的IP地址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -431,38 +430,6 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 要使用Workfront上升添加的IP地址 {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">要通过Workfront Ascent访问Workfront培训资源</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">从Workfront Ascent接收电子邮件通知</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
