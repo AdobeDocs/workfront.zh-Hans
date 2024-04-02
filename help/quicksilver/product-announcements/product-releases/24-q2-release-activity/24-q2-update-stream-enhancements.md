@@ -4,9 +4,10 @@ description: 2024年第二季度更新流和通知增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有更新流和通知增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 已删除对旧评论区域的访问权限
+
+>[!NOTE]
+>
+>预览版本： 2024年4月1日；面向所有客户的生产：使用24.4版本（2024年4月）
+
+我们已在项目、任务、问题和文档的更新区域移除了“新注释”切换开关。 新注释现在是这些对象的默认和唯一选项。 进行此更改后，您将无法再恢复为旧版评论体验。
+
+有关更多信息，请参阅 [新的评论体验](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 新主页小组件的快速操作中现在提供了新的评论流
 

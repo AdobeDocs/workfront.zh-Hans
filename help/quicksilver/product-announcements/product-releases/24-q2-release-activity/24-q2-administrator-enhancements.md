@@ -4,9 +4,10 @@ description: 2024年第二季度管理员增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 本页介绍了在2024年第二季度版本中对“预览”环境做出的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 显示逻辑和跳过逻辑现在可在表单设计器预览模式下使用
+
+>[!NOTE]
+>
+>预览版本：2024年28马赫；适用于所有客户的生产：24.4（2024年4月）
+
+Beta版自定义表单设计器现在允许您在预览模式下测试显示逻辑和跳过逻辑。 以前，即使应用了逻辑，预览中也显示所有字段。
+
+有关在表单设计器中预览自定义表单的详细信息，请参阅 [使用表单设计器组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## 公司和用户现在支持高级自定义表单字段
 
