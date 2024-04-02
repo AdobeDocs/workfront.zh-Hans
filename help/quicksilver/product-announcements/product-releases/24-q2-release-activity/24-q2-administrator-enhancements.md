@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本：2024年28马赫；适用于所有客户的生产：24.4（2024年4月）
+>预览版本： 2024年3月28日；适用于所有客户的生产： 24.4（2024年4月）
 
 Beta版自定义表单设计器现在允许您在预览模式下测试显示逻辑和跳过逻辑。 以前，即使应用了逻辑，预览中也显示所有字段。
 
