@@ -6,9 +6,9 @@ description: 您可以将模板用作在Adobe Workfront中创建项目的框架�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ ht-degree: 0%
 
 ## 在项目区域的模板中创建项目
 
-您可以从主菜单的项目区域创建项目，也可以从项目组合或项目群的项目区域创建项目。
+您可以从主菜单的项目区域，或从项目组合或项目群的项目区域创建项目。
+
+>[!NOTE]
+>
+>您的系统或组管理员可以使用布局模板修改您的界面。 在这种情况下，以下步骤中引用的部分和区域名称在您的Workfront实例中可能有所不同。
 
 1. 执行下列操作之一：
 
