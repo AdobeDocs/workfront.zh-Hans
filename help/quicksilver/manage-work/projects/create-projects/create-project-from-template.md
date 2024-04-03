@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 使用模板创建项目
-description: 您可以将模板用作在Adobe Workfront中创建项目的框架。 如果您的项目经常重复，则使用模板作为新项目的常规时间线可让您避免重复构建相同的项目。
+description: 您可以将模板用作在Adobe Workfront中创建项目的框架。 如果您的项目经常重复，则在新项目中使用模板可让您避免重复构建相同的项目。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---

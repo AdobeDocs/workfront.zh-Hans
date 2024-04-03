@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 提交日期概述
-description: 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。 这与计划完成日期不同，因为它是仅由负责工作的用户提供的对完成日期的更现实的估计。 有关计划完成日期的信息，请参阅任务计划完成日期概览。
+description: 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。 这与计划完成日期不同，因为这是由直接负责工作的用户提供的对完成日期的更现实估计。
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

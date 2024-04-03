@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 删除项目模板
-description: 我们建议您停用不再使用的模板，而不是删除它们，以便您可以保留有关您项目随时间变化的历史信息。 有关停用模板的信息，请参阅编辑项目模板。
+description: 我们建议您停用不再使用的模板，而不是删除它们，以便您可以保留有关您项目随时间变化的历史信息。
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 请求项目
-description: 您可以在开始处理项目之前请求批准该项目。 我们建议为新项目构建业务案例，以便您概述希望通过完成项目而实现的一些要点，并向管理层展示您的人工和费用预算。 填写业务案例并提交项目审批完成项目的正式请求。 提交业务案例以供审批后，项目的状态变为“已请求”。
+description: 您可以在开始处理项目之前请求批准该项目。 我们建议为新项目构建业务案例，以便您概述希望通过完成项目而实现的一些要点，并向您的管理团队展示您的人工和费用预算。 填写业务案例并提交项目审批完成项目的正式请求。 提交业务案例以供审批后，项目的状态变为“已请求”。
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

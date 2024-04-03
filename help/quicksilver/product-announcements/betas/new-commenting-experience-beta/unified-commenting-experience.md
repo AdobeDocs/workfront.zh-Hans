@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中对所有客户可用。  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ The new commenting experience will slowly become available for all the objects w
 
 以下功能已从新Experience中删除或将被弃用：
 
-* 有关系统更新的注释
+* 有关系统更新的注释。 以前添加到系统更新的注释已在新的“系统活动”选项卡中作为只读注释导入。
 * 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比
-* 编辑自定义表单
+* 能够编辑自定义表单
 * 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。
 * 编辑用户配置文件框时的“显示更新状态的完成百分比”设置将被删除。 已删除更新任务或问题的完成百分比的功能。
-* 更新区域中的项目所有者通知，任务或问题的任务接受者编辑了提交日期 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* 当提交日期从更新部分更改时，项目所有者能够更改任务的规划完成日期。 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   >
   >    迭代将继续具有旧版评论体验。 新的评论体验将不可用于迭代。
 
-* 2024年第二季度（2024年4月）：
+* 在2024年第二季度版本（2024年4月11日）中：
 
    * 删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
 
 ## 找到新的评论体验
 
-&lt;! — 重要提示：当我们删除旧版体验时，请将此体验的一个版本移至“更新”工作文章或“更新”部分概述 — 也就是说，除了迭代之外，其他所有体验都不同 — >
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 新的评论体验目前向所有客户和所有环境提供。
 
@@ -563,25 +573,25 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    * 问题
    * 文档
 
-  >[!TIP]
-  >
-  >使用新注释选项可显示新的注释体验（在启用时）或旧版注释体验（在禁用时），如本节所述。 默认使用新的评论体验。
-
-   * 只有下面列出的对象的新注释体验。 没有选项可为这些对象启用旧版注释体验：
-
-      * 目标
-
      >[!NOTE]
      >
-     >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * 展示板上的信息卡
-      * 团队
-      * 模板
-      * 模板任务
-      * 时间表
-      * 项目群
-      * 项目组合
-      * 用户
+     ><span class="preview">自2024年4月1日起，已从预览环境中删除旧版评论体验。 </span>
+
+* 只有下面列出的对象的新注释体验。 没有选项可为这些对象启用旧版注释体验：
+
+   * 目标
+
+  >[!NOTE]
+  >
+  >您必须具有Adobe Workfront目标的其他许可证才能访问Workfront的此区域。 有关更多信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * 展示板上的信息卡
+   * 团队
+   * 模板
+   * 模板任务
+   * 时间表
+   * 项目群
+   * 项目组合
+   * 用户
 
 * 仅限以下对象的旧版注释体验：
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 要为项目、任务、问题和文档启用注释体验选项，请执行以下操作：
 
-1. 转到要为其激活新评论体验的对象，然后单击 **更新** 在左侧面板中。
+1. （视情况而定）在生产环境中，转到要为其激活新评论体验的对象，然后单击 **更新** 在左侧面板中。
 1. （视情况而定）如果已禁用，请启用 **新建注释** 选项启用该功能。 默认情况下，应该启用此功能。
+   <span class="preview">新注释选项已从“预览”环境中删除。</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

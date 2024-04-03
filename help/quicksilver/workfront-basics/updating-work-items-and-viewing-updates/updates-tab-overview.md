@@ -7,7 +7,7 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
 
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
@@ -31,6 +31,8 @@ ht-degree: 3%
 <span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the Important box-->
 
 >[!IMPORTANT]
 >
@@ -54,21 +56,6 @@ ht-degree: 3%
 >
 ><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## “更新”部分的概述
 
 对象的“更新”部分显示系统更新，以及用户在过去90天内进行的最近200次更新。
@@ -78,6 +65,27 @@ ht-degree: 3%
 ![“更新”部分](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
+
+<!--Info for April 11: Add the following right under the screen shot above:
+
+The following objects have an Updates section where you can add comments or review system updates: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
+
+<!--remove all the information below, all the way down to the following section: -->
 
 根据您访问评论体验的对象，您可能会在更新部分找到以下体验：
 
@@ -115,6 +123,8 @@ ht-degree: 3%
 
      没有选项可为迭代启用新的评论体验。 有关更多信息，请参阅 [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
+<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+
 ### 新评论体验中“更新”部分的概述
 
 <div class="preview">
@@ -122,6 +132,8 @@ ht-degree: 3%
 ![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
+
+<!--info for April 11: remove the NOTE below-->
 
 >[!NOTE]
 >
@@ -144,6 +156,7 @@ ht-degree: 3%
 
    * 目标
 
+<!-- info for April 11: hide the entire section below: -->
 
 ### 旧版更新部分的概述
 

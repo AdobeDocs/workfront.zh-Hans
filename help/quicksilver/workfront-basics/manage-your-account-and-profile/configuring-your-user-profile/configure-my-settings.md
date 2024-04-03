@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: a750d2707699e1d4783d950807138a74baf78715
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3320'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 配置我的设置
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -344,8 +346,8 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL在更新状态上显示完成百分比]</strong> </td> 
    <td>如果您希望在使用旧版注释体验时，在任务的更新区域显示完成百分比栏，请选择此选项。 有关信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.
-
-</td> 
+  <p><span class="preview">此选项已从“预览”环境中删除。</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL将分配给自己的工作发送到我的“正在处理”选项卡]</strong> </td> 
