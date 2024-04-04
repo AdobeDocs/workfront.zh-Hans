@@ -4,7 +4,7 @@ description: 您可以在Adobe Workfront Planning中编辑记录框和页面的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ ht-degree: 0%
 您上次访问的工作区将打开。
 
 1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
-
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
