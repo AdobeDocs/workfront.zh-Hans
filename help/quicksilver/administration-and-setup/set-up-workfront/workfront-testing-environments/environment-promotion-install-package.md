@@ -11,17 +11,21 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 610469811a937fde70a938af829b156e69cca391
+exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 # 安装环境升级包
 
+>[!NOTE]
+>
+>要安装软件包，您必须登录到要安装软件包的环境。 这是复制对象的环境 **到**.
 
-1. 转到要在其中安装包的环境。 这是复制对象的环境 **到**.
+1. 转到要在其中安装包的环境。
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
 1. 选择 **系统** 在左侧导航中，然后选择 **环境升级**.
 1. 从显示的列表中选择程序包。
