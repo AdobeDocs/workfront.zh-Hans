@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ The new commenting experience will slowly become available for all the objects w
 以下功能已从新Experience中删除或将被弃用：
 
 * 有关系统更新的注释。 以前添加到系统更新的注释已在新的“系统活动”选项卡中作为只读注释导入。
-* 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比
+* 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比。
+
+  作为替代方法，我们建议您在任务和问题的摘要面板中添加这些字段，以便轻松地从列表、报告、主页、Workfront均衡器或时间表访问它们。
 * 能够编辑自定义表单
 * 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。
 * 编辑用户配置文件框时的“显示更新状态的完成百分比”设置将被删除。 已删除更新任务或问题的完成百分比的功能。
-* 当提交日期从更新部分更改时，项目所有者能够更改任务的规划完成日期。 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>在注释时编辑状态、条件和提交日期的功能 
+   <td>能够在注释时编辑状态、条件和提交日期 
    </td>
    <td>✓ {\f13 } 
    </td>
@@ -499,6 +501,21 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>当提交日期从更新部分更改时，项目所有者能够更改任务的规划完成日期
+   </td>
+   <td> ✓ {\f13 }
+   </td>
+   <td> 以后可能会发布
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓ {\f13 }
    </td>
   </tr>
 </table>

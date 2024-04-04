@@ -7,7 +7,7 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -123,7 +123,7 @@ The following objects have an Updates section where you can add comments or revi
 
      没有选项可为迭代启用新的评论体验。 有关更多信息，请参阅 [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### 新评论体验中“更新”部分的概述
 
@@ -159,8 +159,6 @@ The following objects have an Updates section where you can add comments or revi
 <!-- info for April 11: hide the entire section below: -->
 
 ### 旧版更新部分的概述
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 

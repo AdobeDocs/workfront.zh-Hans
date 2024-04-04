@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -103,8 +103,7 @@ ht-degree: 0%
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
-<!--
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
+* 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关更多信息，请参阅 [管理记录页面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 编辑记录
 
