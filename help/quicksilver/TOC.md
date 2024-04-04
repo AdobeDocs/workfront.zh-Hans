@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '14080'
+source-wordcount: '14095'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 1%
       * [产品版本概述](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
+      * 2024年第三季度发行 {#release-24-q3}
+         * [2024年第三季度发行概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [在2024年第3季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024年第二季度发布 {#release-24-q2}
          * [2024年第二季度发行概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第2季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)

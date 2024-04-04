@@ -4,9 +4,10 @@ description: 2024年第二季度主页增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年1月2日；用于快速发布的生产版本：使用24.2版本（2024年2月15日）；面向所有客户的生产版本：使用24.4版本（2024年4月）
+>预览版本： 2024年1月2日；用于快速发布的生产版本：使用24.2版本（2024年2月15日）；面向所有客户的生产版本：使用24.4版本（2024年4月11日）
 
 管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。
 

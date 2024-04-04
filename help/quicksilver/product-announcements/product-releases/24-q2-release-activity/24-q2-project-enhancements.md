@@ -4,9 +4,10 @@ description: 2024年第二季度项目增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年2月13日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月）。
+>预览版本： 2024年2月13日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月11日）。
 
 <span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span>
 
@@ -38,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月）。
+>预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月11日）。
 
 <span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span>
 

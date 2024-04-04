@@ -4,9 +4,10 @@ description: 2024年第二季度资源管理增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年10月12日；用于快速发布的生产：用于24.2版（2024年2月15日）；用于季度发布的生产：用于24.4版（2024年4月）
+>预览版本： 2023年10月12日；用于快速发布的生产：用于24.2版（2024年2月15日）；用于季度发布的生产：用于24.4版（2024年4月11日）
 
 为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
 
