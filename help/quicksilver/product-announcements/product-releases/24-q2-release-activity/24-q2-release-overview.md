@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ ht-degree: 0%
                 </tr>
             </tbody>
 </table>
+
+### 主页增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">使用布局模板添加到新主页管理员控件的列选项</a></p><p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年1月2日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.2版本（2024年2月15日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：24.4版（2024年4月11日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### 项目增强功能
 
