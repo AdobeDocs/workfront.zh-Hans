@@ -2,89 +2,91 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: 使用“我的更新”区域
-description: 您可以使用 [!UICONTROL 我的更新] 快速审核等待您决策的批准或已包含在中的对话。
+description: 您可以使用 [!UICONTROL 我的更新] 区域以快速查看等待您决策的批准或您加入的对话。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
 
-# 使用 [!UICONTROL 我的更新] 面积
+# 使用 [!UICONTROL 我的更新] 区域
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 -->
 
-您可以使用 [!UICONTROL 我的更新] 快速审核等待您决策的批准或已包含在中的对话。
+您可以使用 [!UICONTROL 我的更新] 区域以快速查看等待您决策的批准或您加入的对话。
 
-作为 [!UICONTROL 审阅] 许可证，您可以找到 [!UICONTROL 我的更新] 区域 [!UICONTROL 主菜单] 默认情况下， [!UICONTROL 我的更新] 区域是您的默认登录页面。
+作为用户，具有 [!UICONTROL 审核] 许可证，您可以找到 [!UICONTROL 我的更新] 中的区域 [!UICONTROL 主菜单] 默认情况下，和 [!UICONTROL 我的更新] 区域是您的默认登陆页面。
 
-有关 [!DNL Adobe Workfront] 许可证，请参阅 [[!DNL Adobe Workfront] 许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+有关信息 [!DNL Adobe Workfront] 许可证，请参阅 [[!DNL Adobe Workfront] 许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-如果您的许可证类型与“审阅”不同，则 [!DNL Workfront] 或组管理员必须将 [!UICONTROL 我的更新] 显示在“主菜单”中的区域。 有关信息，请参阅 [自定义 [!UICONTROL 主菜单] 使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+如果您的许可证类型与“审阅”不同， [!DNL Workfront] 或组管理员必须添加 [!UICONTROL 我的更新] 区域到布局模板以在主菜单中显示。 有关信息，请参阅 [自定义 [!UICONTROL 主菜单] 使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL请求]或更高版本</p> </td> 
+   <td> <p>新文档：参与者或更高版本</p>
+   或   
+   <p>当前： [！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看您在对话中标记的或需要解决批准的任何对象（项目、任务、问题、文档）的访问权限或更高权限</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看对您在对话中被标记或需要解决审批的任何对象（项目、任务、问题、文档）的访问权限或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[!UICONTROL View]对项目、任务、问题、对话中标记的文档或需要解决审批问题的权限或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>[！UICONTROL查看]对项目、任务、问题和文档的权限或更高，在这些项目、任务、问题和文档中，您被标记在对话中或需要解决审批问题</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
-在开始之前，您必须具备以下各项：
+在开始之前，您必须具备以下条件：
 
-* 如果您有 [!DNL Workfront] 除 [!UICONTROL 审阅]，您的 [!DNL Workfront] 或组管理员必须将 [!UICONTROL 我的更新] 区域 [!UICONTROL 主菜单] 使用布局模板，并将您分配给该模板。
+* 如果您拥有 [!DNL Workfront] 许可证，而不是 [!UICONTROL 审核]，您的 [!DNL Workfront] 或组管理员必须添加 [!UICONTROL 我的更新] 区域到 [!UICONTROL 主菜单] 使用布局模板并将您分配到该模板。
 
-* 具有审阅许可证的用户可以查看 [!UICONTROL 我的更新] 区域 [!UICONTROL 主菜单] 默认情况下。
+* 审查许可证用户可以查看 [!UICONTROL 我的更新] 区域 [!UICONTROL 主菜单] 默认情况下。
 
-## 访问 [!UICONTROL 我的更新] 面积
+## 访问 [!UICONTROL 我的更新] 区域
 
 1. 单击 **[!UICONTROL 我的更新]** 在 **[!UICONTROL 主菜单]**.
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-   的 [!UICONTROL 我的更新] 区域。
+   此 [!UICONTROL 我的更新] 区域打开。
 
-   分配给您的访问权限的批准和请求将列在页面的上半部分的“我的更新”下。
+   分配给您的审批和访问请求列在页面前半部分的下方 **我的更新**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. （可选）滚动到 [!UICONTROL 我的更新] ，然后单击向右箭头以显示其他页面上显示的更多批准。
+1. （可选）滚动到 [!UICONTROL 我的更新] 区域并单击向右箭头以显示其他页面上显示的更多批准。
 
    >[!TIP]
    >
-   >默认情况下，前五个批准或访问请求会显示。 其余的批准将显示在其他页面上。 在 [!UICONTROL 我的更新] 的上界。
+   >默认情况下，将显示前五个审批或访问请求。 其余的审批将显示在其他页面上。 您最多可以在 [!UICONTROL 我的更新] 区域。
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （可选）将 **[!UICONTROL 过滤器]** 下拉菜单 ![](assets/filter-nwepng.png) 的右上角 **[!UICONTROL 我的更新]** ，然后从以下内容中选择：
+1. （可选）展开 **[!UICONTROL 筛选]** 下拉菜单 ![](assets/filter-nwepng.png) 位于的右上角 **[!UICONTROL 我的更新]** 部分，然后从以下内容中选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,23 +95,23 @@ ht-degree: 0%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td>其他用户提交给您或委派给您的批准。 有关委派审批的信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委派批准请求</a>. </td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
+      <td>提交给您或由其他用户委托给您的审批。 有关委托审批的信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委托审批请求</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
-      <td>其他用户委派给您的批准。 </td> 
+      <td role="rowheader"><strong>[！UICONTROL委托审批]</strong></td> 
+      <td>其他用户委托给您的审批。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
-      <td> <p>向您提交的批准。 </p> <p>有关批准项目的更多信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作 </a>.</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL我的审批]</strong></td> 
+      <td> <p>审批已提交给您。 </p> <p>有关批准项目的更多信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">审批工作 </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 要在批准前批准或拒绝项目或建议更改文档，请执行以下操作：
+1. 要在批准之前批准或拒绝项目或建议对文档的更改，请执行以下操作：
 
-   1. （可选）单击 **下拉列表** 图标 ![](assets/down-arrow-blue.png) 在您的批准决策旁(**[!UICONTROL 批准]**, **[!UICONTROL 更改]**,**[!UICONTROL 拒绝]**)并添加评论，然后单击 **[!UICONTROL 添加]**.
+   1. （可选）单击 **下拉面板** 图标 ![](assets/down-arrow-blue.png) 在批准决策旁边(**[!UICONTROL 批准]**， **[!UICONTROL 更改]**，**[!UICONTROL 拒绝]**)并添加评论，然后单击 **[!UICONTROL 添加]**.
 
       或
 
@@ -119,40 +121,40 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >的 [!UICONTROL 更改] 选项仅用于文档审批。
+      >此 [!UICONTROL 更改] 选项仅对文档审批显示。
 
-      根据您选择的下拉图标，项目将被批准、拒绝，或者（如果是文档批准）被批准并请求进行其他更改。
+      根据您选择的下拉图标，将批准、拒绝项目，或者，在文档审批的情况下，将批准带有进行其他更改的请求的项目。
 
       >[!TIP]
       >
-      >如果您不想在决策中添加评论，则可以单击 **[!UICONTROL 批准]**, **[!UICONTROL 拒绝]**&#x200B;或 **[!UICONTROL 更改]** 按钮，并立即授予批准决定。
+      >如果您不想向决策添加评论，可以单击 **[!UICONTROL 批准]**， **[!UICONTROL 拒绝]**，或 **[!UICONTROL 更改]** 按钮和批准决策会立即授予。
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >有关批准工作的更多信息，请参阅 [审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-      有关批准工作的更多信息，请参阅 [批准工作](../../../review-and-approve-work/manage-approvals/approving-work.md).
-
-1. 单击 **[!UICONTROL 授予访问权限]** 授予您提交的访问请求
+1. 单击 **[!UICONTROL 授予访问权限]** 以授予提交给您的访问请求
 
    或
 
-   展开 **[!UICONTROL 更改访问权限]** 下拉菜单，以在授予访问权限之前修改请求的访问权限。
+   展开 **[!UICONTROL 更改访问权限]** 下拉菜单，用于在授予访问权限之前修改所请求的访问权限。
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. （可选）单击 **[!UICONTROL 忽略]** 从批准列表中清除访问请求，而不授予该请求。
-1. 单击 **[!UICONTROL 委派我的批准]** 将提交的批准委派给您（如果您无法在一段时间内做出批准决策）。 有关委派批准的更多信息，请参阅 [委派批准请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
-1. 滚动到 **[!UICONTROL 提及次数]** 区域。 在此，您可以查看对话中包含的所有项目。
+1. （可选）单击 **[!UICONTROL 忽略]** 清除审批列表中的访问请求，而不授予权限。
+1. 单击 **[!UICONTROL 委托我的审批]** 以委托您提交的审批（如果在一段时间内无法做出审批决策）。 有关委托审批的详细信息，请参阅 [委托审批请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. 滚动到 **[!UICONTROL 提及]** 位于批准下方的区域。 在这里，您可以查看对话中包含的所有项目。
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >
-   >默认情况下，前50次提及会显示。
+   >默认情况下，将显示前50个提及。
 
-1. （可选）单击 **[!UICONTROL 显示更多更新]** 查看更多提及次数。
-1. （可选）单击 **[!UICONTROL 回复]** 要回复评论，请输入您的回复，然后单击 **[!UICONTROL 回复]** 再次。
+1. （可选）单击 **[!UICONTROL 显示更多更新]** 查看更多提及。
+1. （可选）单击 **[!UICONTROL 回复]** 要回复评论，请输入您的回复，然后单击 **[!UICONTROL 回复]** 再来一次。
 
-   有关更新项目的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   有关更新项目的详细信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （可选）单击 **[!UICONTROL 固定当前页面]** 来固定 [!UICONTROL 我的更新] 区域。
+1. （可选）单击 **[!UICONTROL 用pin钉住当前页]** 以固定 [!UICONTROL 我的更新] 区域到顶部导航。

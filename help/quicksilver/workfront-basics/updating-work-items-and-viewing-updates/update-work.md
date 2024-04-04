@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '4261'
+source-wordcount: '4288'
 ht-degree: 1%
 
 ---
@@ -17,44 +17,7 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
--->
-
-<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-<!--old message, before Auhust 17: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the commenting Beta experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
--->
+<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
 
@@ -62,7 +25,7 @@ After the monthly releases to Production, the same features are also available i
 
 <span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
-<!--info for April 11: take out the "Important" box below (or hide it)-->
+<!--info for April 11: hide the "Important" box below-->
 
 >[!IMPORTANT]
 >
@@ -86,42 +49,21 @@ After the monthly releases to Production, the same features are also available i
 >
 ><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。 </span>
 
-## 有关更新工作的注意事项
+您可以在Adobe Workfront对象中添加更新，以传达对象的进度。 有关可以在Workfront中将更新添加到哪些对象的更多信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+本文中的信息介绍了如何注释和更新项目、任务和问题的信息。 分配或订阅了对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
 
-* 您可以从与Workfront集成的其他应用程序或Workfront移动设备应用程序向Workfront对象添加注释。
+向其他对象添加注释与更新项目、任务和问题类似。 有关对信息卡、目标或小版本进行注释的其他信息，另请参阅以下文章：
 
-  并非所有与Workfront集成的应用程序都可以向Workfront对象添加注释。
+* [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-  从应用程序访问Workfront对象时，并非所有在Workfront对象的“更新”部分中可用的功能都可用于其他应用程序。 例如，在将评论从第三方应用程序添加到Workfront对象时，富文本功能或将评论设为某人的公司私密可能不可用。
+  您必须具有其他许可证才能访问Workfront目标。
 
-* 您可以在对Workfront对象（项目、任务或问题）进行注释时传达该对象的进度。 分配或订阅了对象的用户将收到有关您更新的通知。 拥有对象查看权限的任何人都可以查看您的更新。
+* [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md)
 
-* 您可以标记用户以引起他们对更新的注意。 标记的用户将收到应用程序内通知以及一封有关您更新的电子邮件。
+* [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
 
-  >[!TIP]
-  >
-  >   在新的注释体验中，会自动标记注释所有者。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
-
-* 您可以从Workfront的以下区域向项目、任务和问题添加更新：
-
-   * 从Workfront对象，在更新部分
-   * 从“主页”区域（针对任务和问题）
-   * 从对象、时间表列表的“摘要”面板或从工作负载均衡器（用于任务和问题）
-
-本页上的信息介绍如何对Workfront对象进行评论，以及在向项目、任务和问题添加评论时如何更新项目、任务和问题。
-
-<!--take this out (below) when we remove legacy out of the application-->
-
-有关对目标进行注释的信息，请参阅 [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md). 您必须具有其他许可证才能访问Workfront目标。
-
-有关在“展示板”区域中对信息卡进行批注的信息，请参阅 [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md).
-
-有关对迭代进行注释的信息，请参见 [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ## 访问要求
 
@@ -156,6 +98,40 @@ After the monthly releases to Production, the same features are also available i
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## 有关更新工作的注意事项
+
+* 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* 您可以从与Workfront集成的其他应用程序或Workfront移动设备应用程序向Workfront对象添加注释。
+
+  并非所有与Workfront集成的应用程序都可以向Workfront对象添加注释。
+
+  从应用程序访问Workfront对象时，并非所有在Workfront对象的“更新”部分中可用的功能都可用于其他应用程序。 例如，在将评论从第三方应用程序添加到Workfront对象时，富文本功能或将评论设为某人的公司私密可能不可用。
+
+* 您可以在对Workfront对象（项目、任务或问题）进行注释时传达该对象的进度。 分配或订阅了对象的用户将收到有关您更新的通知。 拥有对象查看权限的任何人都可以查看您的更新。
+
+* 您可以标记用户以引起他们对更新的注意。 标记的用户将收到应用程序内通知以及一封有关您更新的电子邮件。
+
+  >[!TIP]
+  >
+  >评论所有者将被自动标记。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+
+* 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* 您可以从Workfront的以下区域向项目、任务和问题添加更新：
+
+   * 从Workfront对象的“更新”部分（适用于项目、任务和问题）
+   * 从“主页”区域（针对任务和问题）
+   * 从“摘要”面板的以下区域（针对任务和问题）：
+
+      * 对象列表
+      * 时间表
+      * 主页
+      * 工作负载均衡器
+
+<!--info for April 11: hide the section below: add an update to a work item-->
 
 ## 向工作项添加更新
 
@@ -239,15 +215,22 @@ After the monthly releases to Production, the same features are also available i
 
 1. 要回复更新，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--info for April 11: reword the title of this section to: Add an update to a work item-->
+<!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
 ### 使用新的评论体验向工作项添加更新
 
 1. 找到要更新的对象（项目、任务或问题），然后单击其名称以打开该对象的页面。
 1. 单击  **更新** 在左侧面板中。
+此 **评论** 选项卡默认处于选中状态。
+
 1. （视情况而定）如果 **新建注释** 选项被禁用，单击以启用它。
 
-   这将启用新的评论体验。 此 **评论** 选项卡默认处于选中状态。
+   这将启用新的评论体验。
+
+   >[!TIP]
+   >
+   ><span class="preview">“新建注释”选项已在“预览”环境中删除。</span>
+
 
 1. 开始在 **新建评论** 盒子。
 
@@ -339,11 +322,6 @@ After the monthly releases to Production, the same features are also available i
 
 ## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
 
-<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
-
->[!NOTE]
->
->除非另有指定，否则以下信息介绍如何在新的评论体验中使用富文本。
 
 您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强更新。
 
@@ -351,8 +329,6 @@ After the monthly releases to Production, the same features are also available i
 1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏中。
 
    ![](assets/rich-text-toolbar.png)
-
-   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **属性** | **工具栏按钮** | **Mac快捷键** | **Windows快捷键** |
    |---|---|---|---|
@@ -436,10 +412,6 @@ After the monthly releases to Production, the same features are also available i
 
 ## 搜索更新
 
->[!NOTE]
->
->此功能仅适用于新注释体验中的“注释”选项卡。 这在“更新”部分的“系统活动”选项卡中不可用。
-
 您可以在对象的“更新”部分中搜索注释或回复。
 
 1. 转到 **更新** 对象的部分。
@@ -451,11 +423,7 @@ After the monthly releases to Production, the same features are also available i
    >
    >只能搜索属于评论或回复文本的单词。 您无法搜索在更新中标记的用户或团队的名称。
 
-   <div class="preview">
-
    ![搜索更新](assets/updates-all-tabs-with-search-field.png)
-
-   </div>
 
    关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
 
@@ -476,8 +444,6 @@ After the monthly releases to Production, the same features are also available i
 ### 在新的评论体验中复制更新
 
 有关哪些功能可用于新注释体验以及哪些对象的信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 通过执行以下操作之一，可以从现有注释中复制信息：
 
@@ -525,7 +491,7 @@ Quote reply选项将原始备注作为块备注复制到新回复中。
 
 1. 继续添加更新，然后单击 **提交** 以添加注释。
 
-<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
 ### 在旧版评论体验中复制更新
 
@@ -606,30 +572,6 @@ Quote Reply选项将原始备注作为块备注复制到新回复中。
 
    已删除的评论将立即从Workfront中删除。 使用更新分区的用户会看到评论被其他用户实时删除。
 
-   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
-
-<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
-
-## Add an update on a Timesheet
-
-1. Go to a Timesheet on which you want to make an update.
-1. Click the Timesheet to open it.
-1. At the bottom of the Timesheet, click **Include a comment**.
-1. In the box that displays at the bottom of the Timesheet, type an update.
-
-   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
-
-1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
-
-   Or
-
-   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
-
-   Or
-
-   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
-
--->
 
 ## 查看系统更新
 
@@ -650,7 +592,44 @@ Workfront对象的“更新”部分显示两种类型的信息：
    * 团队
    * 模板
    * 模板任务
+   * 临时信息卡
 
 有关“更新”部分中的系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
+
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
+<!--old message, before Auhust 17: 
+
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->

@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+对象的“更新”部分显示用户对对象所做的注释或跟踪对象更改的系统更新。
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 根据您访问评论体验的对象，您可能会在更新部分找到以下体验：
 
@@ -133,7 +132,7 @@ The following objects have an Updates section where you can add comments or revi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ The following objects have an Updates section where you can add comments or revi
    * 模板任务
    * 临时信息卡
 
+     有关信息卡更新的更多信息，请参阅 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * 以下对象没有 <span class="preview">“全部”选项卡：</span>
 
    * 目标
+
+     有关目标更新的更多信息，请参阅 [管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,7 +188,7 @@ The following objects have an Updates section where you can add comments or revi
 * 迭代
 
 
-## 也出现在较高排名对象上的更新
+## 也出现在较高级别对象上的更新
 
 某些对象的注释、回复或系统更新也会显示在较高级别对象的“更新”部分中。
 
@@ -189,7 +202,7 @@ The following objects have an Updates section where you can add comments or revi
  <thead> 
   <tr> 
    <th><strong>添加了原始更新的对象</strong> </th> 
-   <th> <p><strong>也会显示原始更新的更高排名对象</strong> </p> </th> 
+   <th> <p><strong>还会显示原始更新的更高层对象</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ The following objects have an Updates section where you can add comments or revi
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >添加到系统更新的回复不会汇总到父对象。 只有对子对象的直接回复和添加到现有更新的回复会汇总到父对象。
@@ -267,16 +282,14 @@ The following objects have an Updates section where you can add comments or revi
 
 * 您无法在团队的“更新”部分中添加新注释。
 
-* 您可以向在团队中查看的更新添加回复。 回复显示在团队的“更新”部分以及它所属对象的更新部分中。
-
 * 团队的“更新”部分由在以下对象上输入的更新填充：
 
    * 用户
-   * 时间表*
    * 故事
-   * 迭代*
+   * 工时表
+   * 迭代
 
-  *这些选项不适用于新的评论体验。
+* 您可以向在团队中查看的更新添加回复。 回复显示在团队的“更新”部分以及它所属对象的更新部分中。
 
 * 在用户和团队的更新部分中，您可以查看在过去90天内输入的更新。
 

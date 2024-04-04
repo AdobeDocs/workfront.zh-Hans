@@ -5,9 +5,9 @@ title: 跨时区工作
 description: 了解如何 [!DNL Adobe Workfront] 使用时区计算对象的时间字段和电子邮件等其他区域中的时间。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ ht-degree: 0%
 
 * 对象的时间字段
 * 其他时间 [!DNL Workfront] 区域，如自动Workfront电子邮件
+
+>[!WARNING]
+>
+>如果您在我们提供的列表中找不到确切的时区，请查找最接近您的时区并为您的实例更新该时区。
+>
+>此外，请考虑一下，类似的时区可能与您的时区不完全相同。
+>
+>例如，某些国家或地区可能会遵守夏令时，但您的国家可能不会。 如果需要，您可能需要根据这些更改调整系统的时区。
+
 
 ## 时区 [!DNL Workfront]
 

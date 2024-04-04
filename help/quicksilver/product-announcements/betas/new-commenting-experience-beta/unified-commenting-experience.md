@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ The new commenting experience will slowly become available for all the objects w
 * 有关系统更新的注释。 以前添加到系统更新的注释已在新的“系统活动”选项卡中作为只读注释导入。
 * 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比。
 
-  作为替代方法，我们建议您在任务和问题的摘要面板中添加这些字段，以便轻松地从列表、报告、主页、Workfront均衡器或时间表访问它们。
+  作为替代方法，我们建议您在任务和问题的摘要面板中添加这些字段，以便轻松地从列表、主页、Workfront均衡器或时间表访问它们。
 * 能够编辑自定义表单
 * 当Workfront或组管理员以其他用户身份登录并为其添加评论时，“代表&lt;用户名>”信息最初被删除。 它已于2023年10月19日恢复。
 * 在向文档添加评论时标记人员时的“请求审批”选项。

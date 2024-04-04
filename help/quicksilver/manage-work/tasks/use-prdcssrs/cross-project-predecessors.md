@@ -6,7 +6,7 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 1. 在 **任务** 字段中，开始键入要作为当前任务前置任务的名称。
 1. 指定以下信息来定义前置任务和从属任务之间的关系：
 
-   * **依赖关系类型：** 选择您希望前置任务与相关任务之间的关系。 默认关系为“完成 — 开始”，这意味着前置任务必须在相关任务开始之前完成。 有关各种依赖关系类型的详细信息，请参见 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **依赖关系类型：** 选择您希望前置任务与相关任务之间的关系。 默认关系为“完成 — 开始”，这意味着前置任务必须在相关任务开始之前完成。 有关各种依赖关系类型的详细信息，请参见 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **滞后时间：** 指定在强制前置任务完成后，在相关任务可以开始之前必须经过的时间量。 有关各种滞后类型的更多信息，请参阅 [滞后类型概述](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
