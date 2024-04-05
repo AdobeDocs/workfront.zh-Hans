@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 1%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 1%
       * [类别](wf-api/wf-objects/category.md)
    * Adobe Workfront API的提示、技巧和疑难解答 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的提示、技巧和疑难解答](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Adobe Workfront API调用的域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API错误：“远程服务器返回了一个错误：(400)错误请求”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分页搜索期间返回的重复项](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [在API中对查询结果进行排序](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

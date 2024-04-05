@@ -1,0 +1,35 @@
+---
+content-type: api;tips-tricks-troubleshooting
+navigation-topic: tips-tricks-and-troubleshooting-workfront-api
+title: Adobe Workfront API调用的域格式
+description: 找到要在Adobe Workfront API中使用的域
+author: Becky
+feature: Workfront API
+role: Developer
+source-git-commit: 8487f8d4b1651df268720806cfe07fa271a7b87d
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
+
+---
+
+
+# Adobe Workfront API调用的域格式
+
+当您对Workfront API进行API调用时，您在调用中使用组织的域。 此域URL的格式因您的组织是否已载入到AdobeUnified Shell而异。
+
+要了解您的组织是否位于Unified ShellAdobe上，请检查查看Workfront页面时显示的URL。
+
+| Workfront URL开头为： | API调用的URL： |
+|---|---|
+| `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
+| `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+要查找域，请执行以下操作：
+
+1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
+1. 选择 **系统**，然后选择 **客户信息**.
+
+   屏幕右侧列出了您的域。
+
+   ![域](assets/domain.png)
