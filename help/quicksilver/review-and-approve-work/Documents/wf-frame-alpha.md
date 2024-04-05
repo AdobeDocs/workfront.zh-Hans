@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 我们很高兴地宣布推出Workfront + Frame.ioAlpha计划。 在这里，您可以找到有关最新Alpha版本的信息以及简短的视频演练，帮助您入门。
 
-## 最新版本
+## Frame.io中的Alpha版本更新 — 2024年3月
 
-## Alpha发布 — 2024年3月
+在此Alpha版本中，我们具有：
+
+### 将多个资源从Frame.io添加到Workfront
+
+现在，您最多可以一次性将10个资源从Frame.io添加到Workfront。 您可以选择添加到Workfront项目文档或特定项目任务。
+
+### 改进了将Frame.io资源添加到Workfront时的体验
+
+更新了用于将资源添加到Workfront的菜单项，以便更轻松地查看分配给您的任务、任务层次结构和任务状态。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Workfront中的Alpha版本更新 — 2024年3月
 
 在此Alpha版本中，我们具有：
 
@@ -64,7 +76,7 @@ ht-degree: 2%
 
 上传新文档版本时，可以启动下一轮修订，同时保持锁定以前的修订。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## 发送反馈
