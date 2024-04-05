@@ -8,9 +8,10 @@ title: Adobe Workfront展示板模块
 description: 您可以使用Adobe Workfront展示板连接器自动执行Workfront展示板中的流程，并将其连接到第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ After the webhook is created, you can view the address of the endpoint that even
   <tr> 
    <td>[！UICONTROL标记颜色]</td> 
    <td>选择此标记的颜色。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 注释
+
+#### 创建评论
+
+此操作模块在指定的信息卡上创建评论。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用现有的Workfront连接连接到Workfront展示板，也可以使用特定的Workfront展示板连接。 </p><p>有关连接 [!DNL Workfront] 应用到 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">创建与Workfront展示板的连接</a> 本文章中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL卡ID]</td> 
+   <td>输入或映射要添加注释的卡的ID。<p>在Workfront中查看信息卡时，您可以在URL中找到该信息卡ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL Comment]</td> 
+   <td>输入或映射要添加注释的文本。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 阅读信息卡评论
+
+此操作模块从指定的信息卡中检索注释。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用现有的Workfront连接连接到Workfront展示板，也可以使用特定的Workfront展示板连接。 </p><p>有关连接 [!DNL Workfront] 应用到 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">创建与Workfront展示板的连接</a> 本文章中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL卡ID]</td> 
+   <td>输入或映射要为其检索注释的卡片ID。<p>在Workfront中查看信息卡时，您可以在URL中找到该信息卡ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL限制]</td> 
+   <td>输入您希望模块在一个执行周期内返回的最大注释数。</p></td> 
   </tr> 
  </tbody> 
 </table>
