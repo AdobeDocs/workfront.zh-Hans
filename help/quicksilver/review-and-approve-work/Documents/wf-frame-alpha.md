@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha程序 — Workfront + Frame.io
-description: 我们很高兴地宣布推出Workfront + Frame.ioAlpha计划。 在这里，您可以找到有关最新Alpha版本的信息以及简短的视频演练，帮助您入门。
+title: Beta计划 — Workfront + Frame.io
+description: 我们很高兴地宣布推出Workfront + Frame.io的Beta计划。 您将在此处找到有关最新Beta版本的信息，以及引导您入门的简短视频演练。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Alpha程序 — Workfront + Frame.io
+# Beta计划 — Workfront + Frame.io
 
-我们很高兴地宣布推出Workfront + Frame.ioAlpha计划。 在这里，您可以找到有关最新Alpha版本的信息以及简短的视频演练，帮助您入门。
+我们很高兴地宣布推出Workfront + Frame.io的Beta计划。 您将在此处找到有关最新Beta版本的信息，以及引导您入门的简短视频演练。
 
-## Frame.io中的Alpha版本更新 — 2024年3月
+## Frame.io中的Beta版更新 — 2024年3月
 
-在此Alpha版本中，我们具有：
+在此测试版中，我们具有：
 
 ### 将多个资源从Frame.io添加到Workfront
 
@@ -34,9 +34,9 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Workfront中的Alpha版本更新 — 2024年3月
+## Workfront中的Beta版更新 — 2024年3月
 
-在此Alpha版本中，我们具有：
+在此测试版中，我们具有：
 
 ### 向文档审阅和审批添加截止日期
 
