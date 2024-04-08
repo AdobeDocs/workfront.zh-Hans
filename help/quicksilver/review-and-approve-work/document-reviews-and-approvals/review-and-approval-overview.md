@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Workfront中的工作启动和规划
 
-Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然后在Workfront中指定Frame.io用户，来启用Workfront与Frame.io之间的集成。 这允许协调员使用Workfront项目进行规划和启动工作，并进行正式审查和批准。
+Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然后在Workfront中指定Frame.io用户，来启用Workfront与Frame.io之间的集成。 这允许协调员使用Workfront项目以及正式的审阅和批准工作流来计划和启动工作。
 
 ### 配置默认Frame.io帐户
 
-Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io帐户来启动Workfront和Frame.io集成。 设置默认的Frame.io帐户后，集成会在Workfront和Frame.io之间创建连接的项目。
+Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io帐户来启动Workfront和Frame.io集成。 设置默认的Frame.io帐户后，在Workfront中创建的任何项目都将在Frame.io中创建镜像项目。
 
 有关更多信息，请参阅 [].
 
@@ -42,11 +42,11 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 * 它们将作为协作者添加到Frame.io中
 * 他们可以将Frame.io中的资源发送到Workfront以进行正式审查和批准
+* 他们可以查看Workfront单向同步文件夹中的信息
 
 >[!TIP]
 >
 >我们建议使经常使用创意工具并上传资源的用户能够作为Frame.io用户进行审阅和批准。
-
 
 有关更多信息，请参阅 [].
 
@@ -86,26 +86,26 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 一旦创意人员将完成的资产从Frame.io发送到Workfront，项目协调员就可以在Workfront中启动正式的审核和批准流程。
 
-创建批准后，用户将返回到Frame.io以评论和标记资产。 他们还可以在Frame.io查看器中作出批准决定。
+创建批准后，用户将返回到Frame.io进行注释并标记资产。 他们还可以在Frame.io查看器中作出批准决定。
 
 ### 在Workfront中启动正式审查和批准
 
 项目协调员可以在Workfront的“设置”区域创建一次性审阅和审批或可恢复审批模板。 在Frame.io中进行的所有审阅和批准活动也会记录在Workfront中。
 
+#### 添加审阅者和批准者
+
 项目协调员可以选择分配审阅人、批准者或两者的组合：
 
 * **审阅者** 可以对资产进行注释和标记。 完成后，他们可以将其审阅标记为完成。 <!--example of when to add reviewers-->
-* **审批者** 可以对标记资产进行评论。 他们必须决定推进审批流程。
+* **审批者** 可以对资产进行注释和标记。 他们必须决定推进审批流程。
 
 
+#### 创建审阅和批准工作流
 
-在Frame.io中所做的任何注释都会反映在Workfront的“更新”选项卡中。 在Workfront中进行的回复不会反映在Frame.io中。
-
-标记为“仅限团队”的评论将不会显示在“Workfront更新”选项卡中。
-
-可以将审阅人和批准者添加到一次性使用或批准模板：
+可以将审阅人和批准者添加到一次性审批工作流或审批模板中：
 
 <!--can also assign teams and set deadline-->
+电子邮件 — 截止日期电子邮件72、24和截止日期。
 
 * **一次性审批**：设置审批截止日期
 
@@ -123,31 +123,34 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 ### 批准Frame.io中的资源
 
-Frame.io连接的资产利益相关者可以在Frame.io查看器中审阅和批准注释，这些注释将同步到Workfront更新流、决策等。
+利益相关者可以使用Frame.io查看器查看和批准连接的资源。
+
+#### 访问Frame.io查看器
+
+用户可以通过以下方式访问Frame.io查看器：
+
+* 新Workfront主页区域中的等待我审批构件
+* Workfront电子邮件通知。
+
+将要求外部Workfront用户创建一个Frame.io登录名来审阅和批准资源。
+
+#### 评论和标记资产
+
+在Frame.io查看器中所做的所有注释也会记录在Workfront的“更新”选项卡中。 在Workfront中进行的回复不会显示在Frame.io中。 标记为“仅限团队”的评论将不会显示在“Workfront更新”选项卡中。
+
+#### 做出决定
+
+批准者必须作出以下决策之一：
+
+* 批准：此
+* 批准（附加更改）
+* 需要工作
+
+审阅人可以在Frame.io查看器中将其审阅标记为完成。
 
 <!-- include screenshot from frame.io-->
 
-如果您只在Frame中工作，则可以通过电子邮件通知您有请求。
 
-如果您在Workfront中专门工作，则可以在主页使用批准构件。
-
-每次工作时，您都可以从访问Frame.io查看器
-
-**从Frame.io审批资源**
-通知方式
-
-做决定 — 批准、批准并更改、需要工作
-
-**批准来自Workfront的资源**
-通知方式
-
-主页等待我的审批构件
-
-电子邮件 — 截止日期电子邮件72、24和截止日期。
-
-将要求外部WF用户为框架创建登录
-
-如果资产未连接帧，则他们可以在WF中查看缩略图并使用评论流。 可以作出审阅和批准决定。
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
