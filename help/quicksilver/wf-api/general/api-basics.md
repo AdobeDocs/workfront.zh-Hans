@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 ### 免责声明
 
 对API的任何使用都应当在Workfront测试版环境中进行测试，然后再在生产环境中运行。 如果任何客户将API用于Workfront有理由认为对按需软件造成负担的流程（即，该流程会对其他客户的软件性能产生重大负面影响），Workfront将保留请求客户停止该流程的权利。 如果客户不遵守管理法规且问题仍然存在，Workfront将保留终止该流程的权利。
+
+## WORKFRONT API URL
+
+有关将用于调用Workfront API的URL的信息，请参阅 [Adobe Workfront API调用的域格式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## REST基础知识
 
@@ -124,22 +128,22 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 
 >[!IMPORTANT]
 >
-Workfront不再建议使用 `/login` 端点或API密钥。 请改用以下身份验证方法之一：
+>Workfront不再建议使用 `/login` 端点或API密钥。 请改用以下身份验证方法之一：
 >
-* 使用JWT进行服务器身份验证
-* 使用OAuth2进行用户身份验证
+>* 使用JWT进行服务器身份验证
+>* 使用OAuth2进行用户身份验证
 >
-有关设置这些身份验证方法的说明，请参阅 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>有关设置这些身份验证方法的说明，请参阅 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-有关在Workfront中使用服务器身份验证的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
+>有关在Workfront中使用服务器身份验证的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-有关在Workfront中使用用户身份验证的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
+>有关在Workfront中使用用户身份验证的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-本节中介绍的过程仅适用于尚未加入Adobe业务平台的组织。 如果您的组织已载入到Adobe业务平台，则无法通过Workfront API登录Workfront。
+>本节中介绍的过程仅适用于尚未加入Adobe业务平台的组织。 如果您的组织已载入到Adobe业务平台，则无法通过Workfront API登录Workfront。
 >
-有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 使用有效的用户名和密码，您可以使用以下请求获取会话ID：
 
@@ -151,7 +155,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 
 >[!NOTE]
 >
-如果您指定的API用户也是管理员，Workfront强烈建议您使用API密钥进行登录。
+>如果您指定的API用户也是管理员，Workfront强烈建议您使用API密钥进行登录。
 
 **生成API密钥**
 
@@ -284,7 +288,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 >[!NOTE]
 >
-搜索请求区分大小写。 如果收到错误，请确保  **修改(_M)** 和 **范围(_R)** 大小写正确。
+>搜索请求区分大小写。 如果收到错误，请确保  **修改(_M)** 和 **范围(_R)** 大小写正确。
 
 #### 使用OR语句
 
@@ -326,7 +330,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 >[!NOTE]
 >
-这些字段名称区分大小写。
+>这些字段名称区分大小写。
 
 有关可能的字段引用的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 
 >[!NOTE]
 >
-虽然对顶级所做的更新是稀疏的，但对集合或嵌套对象的更新将完全替换现有集合。 要在任务上编辑单个分配而不影响对象，请在分配上使用PUT，而不是在任务上使用。
+>虽然对顶级所做的更新是稀疏的，但对集合或嵌套对象的更新将完全替换现有集合。 要在任务上编辑单个分配而不影响对象，请在分配上使用PUT，而不是在任务上使用。
 
 以下示例将项目设为公共技术支持队列。 请注意，现有队列属性将被替换。
 <pre>PUT/attask/api/v15.0/project/4c7...？更新= <br>{ <br>    queueDef： { <br>        isPublic： 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ DELETE删除对象。 在每种情况下，URI都可以包含参数force=true �
 
 >[!NOTE]
 >
-原子批处理操作只能返回“success： true”或错误。
+>原子批处理操作只能返回“success： true”或错误。
