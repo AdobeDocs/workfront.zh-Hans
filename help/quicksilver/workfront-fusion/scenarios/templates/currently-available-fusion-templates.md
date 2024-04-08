@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 
 此模板将问题转化为项目。 您可以修改它以符合贵组织的标准。
 
-### [!BADGE 新!]{type=Informative}
+### Workfront — 将文档从问题/请求复制到已转换的项目或任务
 
 此灵活方案将问题或请求中的文档复制到以前转换的项目或任务中。
 
