@@ -9,10 +9,10 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: caaa704bb31b20f209552274aa9db261afea112c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 1%
 * [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
 * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
 * [使用PKCE流程配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API版本18中的新增功能](../../wf-api/api/new-api-version-18.md)
 * [API版本17中的新增功能](../../wf-api/api/new-api-version-17.md)
 * [API版本16中的新增功能](../../wf-api/api/new-api-version-16.md)
 * [API版本15中的新增功能](../../wf-api/api/new-api-version-15.md)
