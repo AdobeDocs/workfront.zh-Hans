@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击 [!UICONTROL **费率卡**].
-1. 单击 [!UICONTROL **新建费率卡**]，然后在中输入费率卡的名称 [!UICONTROL **费率卡**] 字段，以替换“无标题费率卡”。
-1. 在信息卡屏幕上，单击 [!UICONTROL **添加工作角色**].
+1. 单击 [!UICONTROL **新建费率卡**]，然后在中输入费率卡的名称 [!UICONTROL 新建费率卡] 框，以替换“无标题的费率卡”。
+1. （可选）在费率卡详细信息屏幕上，添加 [!UICONTROL **描述**].
+1. （可选）要将自定义表单附加到费率卡，请单击 [!UICONTROL **添加自定义表单**] 字段，并从显示的列表中选择自定义表单。
+
+   有关附加自定义表单的更多信息，请参阅 [向对象添加自定义表单](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. 单击 [!UICONTROL **职位角色和比率**] （在左侧导航面板中）。
+1. 在费率卡职位角色和费率屏幕上，单击 [!UICONTROL **添加工作角色**].
 1. 在对话框中，选择 [!UICONTROL **工作角色**] 以定义开单费率。
 
    默认开单费率显示此工作角色的系统层费率（如果已定义）。
@@ -82,7 +88,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;[!UICONTROL **保存**]。
 1. （可选）要为其他位置的同一工作角色或单独的工作角色添加其他记帐费率，请单击 [!UICONTROL **添加工作角色**].
-1. （可选）要编辑记帐费率，请在费率卡中选择该费率，然后单击 **编辑** 图标。
+1. （可选）要编辑费率卡，请在“设置”的“费率卡”列表中单击费率卡的名称。 要编辑记帐费率，请单击 [!UICONTROL **职位角色和比率**] 在费率卡的左侧导航面板中。 然后，选择费率并单击 **编辑** 图标 ![“编辑”图标](assets/edit-icon.png).
 
 ## 复制费率卡
 
@@ -90,8 +96,9 @@ ht-degree: 0%
 
 1. 在左侧面板中，单击 [!UICONTROL **费率卡**].
 1. 选中列表中费率卡旁边的复选框，然后单击 **复制** 图标 ![“复制”图标](assets/copy-icon.png).
+1. 在中键入费率卡的名称 [!UICONTROL 复制率卡] 框，以替换“无标题的费率卡”。 然后，单击 **保存**.
 
-   添加了重复速率卡片。 单击列表中的费率卡名称以更改其名称。
+   已保存新的费率卡。 根据需要编辑费率卡详细信息、工作角色和费率。
 
 ## 删除整个费率卡
 
