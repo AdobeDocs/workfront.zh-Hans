@@ -8,7 +8,7 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
+source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -76,3 +76,4 @@ Workfront Fusion仅支持基于Chrome的浏览器。
 ## 重试
 
 使用Break模块并指定Retry指令时，如果某个方案在2分钟的时间范围内连续失败10次，则将自动停用该方案。
+
