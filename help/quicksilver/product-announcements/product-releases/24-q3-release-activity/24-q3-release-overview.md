@@ -4,7 +4,8 @@ description: 本页介绍了2024年第三季度版本中包含的功能信息。
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
+source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -90,11 +91,11 @@ Workfront Fusion中的新增功能在2024年第三季度发布计划之外的“
 
 此版本中目前没有更新Workfront Goals。 在有可用更新时，将更新此区域。
 
-### API版本16
+### API版本18
 
-对于API版本16，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
+对于API版本18，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本16中的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+有关新增功能和更新内容的信息，请参阅 [API版本18中的新增功能](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -105,4 +106,3 @@ Workfront Fusion中的新增功能在2024年第三季度发布计划之外的“
 ### 培训更新
 
 浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [Workfront“Tutorials”页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-

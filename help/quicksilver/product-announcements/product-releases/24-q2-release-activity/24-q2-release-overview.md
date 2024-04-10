@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
+source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -297,6 +297,41 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>按季度发布的生产：24.4版（2024年4月11日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 集成增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中自动文件夹创建工作流的增强功能</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <p>为了确保您的Adobe Experience Manager文件夹更准确地反映您的需求，我们对Adobe Experience Manager链接文件夹工作流进行了一些更新。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年3月11日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产： 2024年3月14日</p>
                             </li>
                         </ul>
                     </td>
@@ -595,11 +630,11 @@ Workfront Fusion中的新增功能在2024年第二季度发布计划之外的“
 
 此版本中目前没有更新Workfront Goals。 在有可用更新时，将更新此区域。
 
-### API版本16
+### API版本18
 
-对于API版本16，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
+对于API版本18，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本16中的新增功能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+有关新增功能和更新内容的信息，请参阅 [API版本18中的新增功能](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
