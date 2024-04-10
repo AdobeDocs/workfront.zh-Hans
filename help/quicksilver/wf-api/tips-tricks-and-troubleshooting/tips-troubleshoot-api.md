@@ -9,7 +9,7 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [Adobe Workfront API调用的域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+* [Adobe Workfront API调用的域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
 * [API错误：“远程服务器返回了一个错误：(400)错误请求”](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [大型分页搜索期间返回的重复项](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [在API中对查询结果进行排序](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

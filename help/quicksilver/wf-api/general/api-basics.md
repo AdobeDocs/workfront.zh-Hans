@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '4386'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 ## WORKFRONT API URL
 
-有关将用于调用Workfront API的URL的信息，请参阅 [Adobe Workfront API调用的域格式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
+有关将用于调用Workfront API的URL的信息，请参阅 [Adobe Workfront API调用的域格式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## REST基础知识
 

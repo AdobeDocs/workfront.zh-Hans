@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 1%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 1%
       * [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程配置和使用贵组织的自定义OAuth 2应用程序](wf-api/api/oauth-app-pkce-flow.md)
       * [弃用API — 内部](wf-api/api/deprecation-api-internal.md)
+      * [API版本18中的新增功能](wf-api/api/new-api-version-18.md)
       * [API版本17中的新增功能](wf-api/api/new-api-version-17.md)
       * [API版本16中的新增功能](wf-api/api/new-api-version-16.md)
       * [API版本15中的新增功能](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 1%
       * [类别](wf-api/wf-objects/category.md)
    * Adobe Workfront API的提示、技巧和疑难解答 {#tips-troubleshooting-apis}
       * [Adobe Workfront API的提示、技巧和疑难解答](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Adobe Workfront API调用的域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Adobe Workfront API调用的域格式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API错误：“远程服务器返回了一个错误：(400)错误请求”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [大型分页搜索期间返回的重复项](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [在API中对查询结果进行排序](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
