@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # 使用表单设计器从副本设计表单
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以基于现有自定义表单设计新的自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -58,7 +52,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 单击 **自定义Forms。**
-1. 选择要用作新自定义表单基础的自定义表单，然后单击 **复制** <span class="preview">或 ![“复制”图标](assets/copy-icon.png).</span>
+1. 选择要用作新自定义表单基础的自定义表单，然后单击 ![“复制”图标](assets/copy-icon.png).
 1. 在 **自定义表单复制** 在出现的框中，键入以下信息：
 
    <table style="table-layout:auto"> 
@@ -72,20 +66,20 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"> <p role="rowheader">表单类型 </p> </td> 
       <td> <p>在 <b>表单类型</b> 框中，选择要使用自定义表单的对象类型，然后单击要删除的任何类型旁边的X。 列表中已禁用与表单关联的类型。</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>表单必须至少与一个对象类型关联。</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **复制表单**.
+1. 单击 **复制**.
 
    在原始表单中，如果计算字段引用与您添加到新表单的对象类型不兼容的字段，则会出现一条消息，提示您更改这些字段中的计算。
 
    同样，如果原始表单上分区界限的访问选项与您添加到新表单的对象类型不兼容，则会出现一条消息，提示您调整该选项。
 
-1. 选择您刚刚复制的表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+1. 选择您刚刚复制的表单，然后单击 ![“编辑”图标](assets/edit-icon.png).
 1. 对表单进行任何更改，如以下部分所述 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 文章：
 
    * [重用已在其他自定义表单中使用的现有字段或构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)

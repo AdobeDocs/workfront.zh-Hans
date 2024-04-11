@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # 共享自定义表单
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以配置自定义表单的访问权限，以控制谁可以查看、共享和编辑该表单 — 人员、角色、组、团队、公司。
 
@@ -69,7 +63,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **自定义Forms**.
-1. 选择自定义表单，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
+1. 选择自定义表单，然后单击 ![“共享”图标](assets/share-icon.png).
 1. 在显示的框中，在 **将自定义表单访问权限授予**，开始键入要与其共享自定义表单的用户、团队、工作角色、组或公司的名称，然后按键 **输入** 显示名称时。
 1. 要调整您刚刚添加的用户、团队、工作角色、组或公司的访问权限，请单击名称右侧的下拉菜单，然后配置以下任一可用选项及其任何高级设置：
 
@@ -118,7 +112,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **自定义Forms**.
-1. 选择自定义表单，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
+1. 选择自定义表单，然后单击 ![“共享”图标](assets/share-icon.png).
 1. 在显示的框中，单击您不再希望对表单具有特殊访问权限的用户、团队、角色、组或公司名称右侧的X。
 1. （可选）对要删除的其他名称重复上一步骤。
 1. 单击&#x200B;**保存**。

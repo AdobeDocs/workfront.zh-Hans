@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # 删除自定义表单上的对象类型
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 在现有的自定义表单上，您可以删除与该表单关联的对象类型。 执行此操作后，用户无法再将表单附加到该类型的对象。
 
@@ -68,7 +62,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 单击 **自定义Forms** 在左侧面板中。
-1. 选择要编辑的自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+1. 选择要编辑的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon.png).
 1. 单击任意 **对象类型** 要从表单中删除的项目，然后单击 **删除** 在显示的警告消息上。
 
    ![](assets/click-x-object-types.jpg)

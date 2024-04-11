@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # 使用表单设计器添加显示逻辑和跳过逻辑
-
-<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以根据用户在填写自定义表单时所做的选择，决定应显示或跳过自定义表单的哪些部分。
 
@@ -123,10 +117,6 @@ ht-degree: 0%
 
    显示逻辑图标将添加到表单设计器的目标字段和定义字段中。
 
->[!NOTE]
->
-><span class="preview">仅当在“预览”环境中的表单设计器中预览表单时，显示逻辑才可用。</span>
-
 ## 将跳过逻辑添加到自定义表单
 
 跳过逻辑定义用户在多选字段中选择特定值时跳过的自定义表单字段。 跳过的字段在表单上隐藏。 该逻辑将应用于在其中进行了选择的定义字段，而不是跳过的字段。
@@ -157,7 +147,4 @@ ht-degree: 0%
 
    跳过逻辑图标会添加到表单设计器的目标字段和定义字段中。
 
->[!NOTE]
->
-><span class="preview">只有在“预览”环境中的表单设计器中预览表单时，跳过逻辑才可用。</span>
 

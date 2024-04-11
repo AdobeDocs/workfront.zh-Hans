@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # 使用表单设计器从现有自定义表单添加或删除对象类型
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以使用表单设计器从现有自定义表单中添加或删除对象类型。
 
@@ -70,7 +64,7 @@ ht-degree: 0%
 
    在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
-1. 选择要向其添加其他对象类型的自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+1. 选择要向其添加其他对象类型的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
 
 1. 单击表单顶部的加号+之后 **对象类型**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
@@ -97,10 +91,10 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 单击 **自定义Forms** 在左侧面板中。
-1. 选择要编辑的自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+1. 选择要编辑的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
 1. 单击任意 **对象类型** 要从表单中删除的重复项。
 
    ![](assets/delete-object-types.png)
 
 1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
-1. 单击 **完成**，然后单击 **保存并关闭**.
+1. 单击 **应用**，然后单击 **保存并关闭**.

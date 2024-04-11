@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '3334'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 编辑用户配置文件
-
-{{highlighted-preview}}
 
 <!--
 
@@ -234,7 +232,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">自定义表单</td> 
-      <td><p>将现有用户自定义表单与此用户关联。 您必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 您无权编辑的字段不会显示在单独的自定义表单中。</p> <p><span class="preview"><strong>注意：</strong> 高级自定义表单功能(如外部查找字段和Workfront本地字段)仅在您于详细信息页面（而非“编辑用户”对话框）中打开用户记录时可用。 （在用户列表中，单击用户名以打开详细信息。）</span></p> <p>有关创建自定义表单的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>.</p></td> 
+      <td><p>将现有用户自定义表单与此用户关联。 您必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 您无权编辑的字段不会显示在单独的自定义表单中。</p> <p><strong>注意：</strong> 高级自定义表单功能(如外部查找字段和Workfront本地字段)仅在您于详细信息页面（而非“编辑用户”对话框）中打开用户记录时可用。 （在用户列表中，单击用户名以打开详细信息。）</p> <p>有关创建自定义表单的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">评论</td> 

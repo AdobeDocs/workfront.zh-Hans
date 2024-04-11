@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # 使用旧版表单生成器配置自定义字段和小部件的共享
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 默认情况下，向自定义表单添加新的自定义字段或构件时，系统中有权访问自定义表单的任何人都可以编辑该项目的属性，例如其标签和名称。 您可以通过控制可与谁共享来更改此设置。
 
@@ -63,11 +57,11 @@ ht-degree: 0%
 1. 如果您在组织的Workfront实例中为自定义字段或构件配置共享，请执行以下操作：
 
    1. 单击 **字段** 以打开“字段”区域。
-   1. 选择要为其配置共享的项目，然后单击 **共享** <span class="preview">或 ![“共享”图标](assets/share-icon.png).</span>
+   1. 选择要为其配置共享的项目，然后单击 ![“共享”图标](assets/share-icon.png).
 
    或者，如果您要为现有自定义表单中的自定义字段或构件配置共享，请执行以下操作：
 
-   1. 选择自定义表单，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+   1. 选择自定义表单，然后单击 ![“编辑”图标](assets/edit-icon.png).
    1. 在右侧的表单编辑区域中，选择要为其配置共享的项目。
    1. 在左侧面板中，单击 **共享字段**.
 
@@ -131,7 +125,7 @@ ht-degree: 0%
 1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
 1. 在左侧面板中，单击 **自定义Forms**.
-1. 单击 **字段** 选项卡，然后选择字段、图像或访问构件。
+1. 单击 **字段**，然后选择字段、图像或访问构件。
 1. 在显示的框中，单击 **继承的权限** 和查看显示的名称。
 1. 单击 **取消**.
 

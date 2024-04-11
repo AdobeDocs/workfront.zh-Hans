@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # 编辑自定义表单中自定义字段、分区界限或小部件的属性
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前版本的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 您可以在Adobe Workfront实例中编辑自定义表单中使用的自定义字段、分区界限或小部件的属性。 这些资源包括项目的标签、名称、说明等。
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
 1. 单击 **自定义Forms。**
 1. 单击 **字段** 以打开“字段”区域。
-1. 选择自定义字段、分区界限或小组件，然后单击 **编辑** <span class="preview">或 ![“编辑”图标](assets/edit-icon.png).</span>
+1. 选择自定义字段、分区界限或小组件，然后单击 ![“编辑”图标](assets/edit-icon.png).
 1. 在显示的框中，更改用于所编辑项目的任意选项。
 
    查看有关这些选项的详细信息
