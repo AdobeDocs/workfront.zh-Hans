@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
-1. 选择要重命名的自定义表单，然后单击或 ![“编辑”图标](assets/edit-icon2.png).
+1. 选择要重命名的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
 1. 要更改标题，请单击表单名称。
 1. 要更改说明，请单击说明文本框。
 
