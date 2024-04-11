@@ -7,7 +7,7 @@ title: JWT模块
 description: 此 [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] 应用程序提供了一个模块，用于根据提供的算法创建JWT令牌。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -111,4 +111,5 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
 
