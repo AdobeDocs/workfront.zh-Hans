@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ ht-degree: 2%
 +++
 
 +++ **[!UICONTROL 搜索]**
+
+此搜索模块查找对象中的记录 [!DNL Workfront] 匹配您指定的搜索查询的规则。
+
+您可以在场景的后续模块中映射此信息。
+
+配置此模块时，会显示以下字段。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>有关连接 [!DNL Workfront] 应用到 [!DNL Workfront Fusion]，请参见 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]</a> 本文章中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL记录类型]</td> 
+   <td> <p>选择类型 [!DNL Workfront] 您希望模块搜索的记录。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL结果集]</td> 
+   <td>选择一个选项，以指定您希望模块获得符合您的搜索条件的第一个结果还是所有符合该条件的结果。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL最大]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜索条件字段]</td> 
+   <td> <p>选择要用于搜索条件的字段。 随后，这些字段将显示在搜索条件下拉列表中。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜索条件]</td> 
+   <td> <p>输入搜索依据的字段、要在查询中使用的运算符以及要在字段中搜索的值。</p> <p>注意：请勿使用 <code>username </code>在您的搜索条件中。 包括 <code>username </code>在API查询中 [!DNL Workfront] 将用户记录到Workfront中，搜索将不会成功。</p> <p>注意： <code>In</code> 和 <code>NotIn</code>使用数组。 输入的格式应为数组。</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL输出]</td> 
+   <td> <p>选择要包含在此模块输出中的字段。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL引用]</td> 
+   <td>选择要包含在搜索中的任何引用字段。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL收藏集]</td> 
+   <td>选择要添加到搜索的任何收藏集。</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL 搜索（旧版）]**
 
 此搜索模块查找对象中的记录 [!DNL Workfront] 匹配您指定的搜索查询的规则。
 
