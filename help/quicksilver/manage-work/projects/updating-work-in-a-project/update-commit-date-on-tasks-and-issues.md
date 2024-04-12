@@ -6,9 +6,9 @@ description: 您可以手动更新任务或您分配到的问题的提交日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ ht-degree: 0%
 
 对于任务和问题，更新提交日期的步骤相同。
 
+>[!NOTE]
+>
+>您可以要求系统或组管理员将提交日期字段添加到摘要面板，使其更易于在Workfront的各个区域中进行更新。
+>
+>有关更多信息，请参阅以下文章：
+>
+>* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. 转到您分配为的任务或问题 **所有者**.
 
    有关确定问题或任务的任务负责人的更多信息，请参阅部分 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ ht-degree: 0%
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * 应用程序内通知会通知项目所有者，您已为任务或问题建议了新的提交日期。
-   * 在更新部分中通知项目所有者，您已建议新的提交日期，此时，他们可以更新任务或问题的规划完成日期，以匹配您建议的提交日期。 新的评论体验不支持此功能。 有关信息，请参阅 [新的评论体验](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * 在Workfront应用程序内通知中，项目所有者收到您为任务或问题建议了新的提交日期的通知。
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     有关此更改触发的通知和更新的信息，请参阅文章中的“更改提交日期触发的通知和更新”部分 [提交日期概述](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   有关此更改触发的通知和更新的信息，请参阅文章中的“更改提交日期触发的通知和更新”部分 [提交日期概述](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

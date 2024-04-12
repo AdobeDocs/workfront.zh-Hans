@@ -6,57 +6,44 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
 
 # 为其他人标记更新
 
-<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
+<!--Audited: April, 2024-->
 
 <!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
-
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
-
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 >[!IMPORTANT]
 >
->我们当前正在重新设计Adobe Workfront中的评论体验。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->根据您访问评论体验的对象，您可能会看到更新部分的以下功能：
->* 新体验
->* 旧版体验
->* 新体验和旧体验
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->有关新的评论体验及其可用性的更多信息，请参阅 [新的评论体验](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> 已从预览环境中的项目、任务、问题和文档中删除旧版评论体验。 </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->新评论体验仅适用于Workfront对象的“更新”部分，当您从以下区域访问更新时，该体验不可用：
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * 主页
-> * 列表中的摘要面板
-> * 时间表中的“摘要”面板
-> * 工作负载均衡器中的“摘要”面板
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">新的评论体验在“摘要”面板的“预览”环境中的列表、时间表和工作负载均衡器中提供，并可在生产环境中为选择快速发布过程的客户提供。 </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
+-->
 
 在更新对象时，如果想要吸引用户注意在其他情况下他们可能不会关注的对象，则可以标记用户。
 
-您可以在更新中标记这些用户以与他们共享，而不是通过将其分配给对象或使其订阅来将这些用户包含在对象中。 已标记的用户将收到有关您输入的更新的通知。
+您可以在更新中标记这些用户以与他们共享，而不是通过将其分配给对象或使其订阅来将这些用户包含在对象中。 标记的用户将收到有关您输入的更新的Workfront通知。 根据他们的通知设置，他们还会收到有关您输入的更新的电子邮件。
 
 ## 关于在更新中标记用户的注意事项
 
@@ -70,49 +57,37 @@ ht-degree: 0%
 
 您必须具有以下权限才能执行本文中的步骤：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>针对问题和文档的请求或更高请求；针对所有其他对象的查看或更高版本</p> </td> 
+   <td> <p>新文档：问题和文档的参与者或更高版本；所有其他对象的轻量级或更高版本</p>
+   <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>问题和文档的请求者或更高；所有其他对象的查看者或更高</p> 
-   <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看您要在其中发布回复的对象或对其拥有更高的访问权限</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看您想发布回复的对象或对其拥有更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 为其他人标记更新
 
-根据您选择的体验和对象，为更新中的其他人添加标签会有所不同。
-
-### 为其他人标记新评论体验中的更新
-
-您可以通过以下方式为新评论体验中的更新标记其他人：
+您可以通过以下方式为其他人标记更新：
 
 * **自动**：当用户启动跟帖、添加评论或添加回复时，会自动为其添加标记，并添加到评论框的标记人员或团队区域。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
-
-  >[!TIP]
-  >
-  >当线程在旧版评论体验中启动时，不会自动标记线程参与者。
 
 * **手动**：手动将用户添加到评论框的“标记人员”区域时。
 
@@ -138,11 +113,7 @@ ht-degree: 0%
    > 
    >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   <div class="preview">
-
    ![标记用户](assets/tag-others-unified-commenting-with-all-tab.png)
-
-   </div>
 
 1. （可选）要将更新设为私有，请启用 **我的公司私有** 在更新框的右下角。 这将使更新仅对您公司中的用户可见。 此 **我的公司私有** 仅当在Workfront配置文件中指定了公司时，选项才可用。
 
@@ -164,58 +135,66 @@ ht-degree: 0%
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">当在注释文本中被标记时，您的名称将在这些注释中突出显示。</span>
+   当在注释文本中被标记时，您的名称将在这些注释中突出显示。
 
    有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**. 删除所有已标记的用户，然后单击 **提交**. 只有在输入评论后15分钟内才能对其进行编辑。 您只能编辑添加的注释。
+1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**. 删除所有已标记的用户，然后单击 **提交**.
+
+   >[!IMPORTANT]
+   >
+   >只有在输入评论后15分钟内才能对其进行编辑。 您只能编辑添加的注释。
+
+
+<!--
+   >[!TIP]
+   >
+   >When using the legacy commenting experience to add comments and replies, comment owners that were not specifically tagged cannot be manually removed by people who use the new commenting experience.
+-->
+
+<!--
+### Tag others on updates in the legacy Updates section
+
+You can manually tag users in the legacy Updates section. 
+
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
+
+   Or
+
+   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
-   >使用旧版评论体验添加评论和回复时，未特别标记的评论所有者无法由使用新评论体验的用户手动删除。
-
-
-### 在旧版更新部分中为其他人标记更新
-
-您可以在旧版更新部分中手动标记用户。
-
-1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. 在 **通知** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
-
-   或
-
-   在中键入@符号 **开始新的更新** 区域，开始键入要包括在更新中的用户或团队的名称，然后在该名称出现在下拉列表中时单击该名称。
-
-   >[!TIP]
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
    >
-   >当存在名称相似或相同的用户时，要识别正确的用户，请注意头像、用户的主要角色或其电子邮件地址。
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
    >
-   >用户必须与至少一个工作角色关联，才能在更新中标记这些用户时查看这些角色。
-   >
-   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
-1. （可选）要将更新设为私有，请启用 **我的公司私有** 在更新框的右下角。 这将使更新仅对您公司中的用户可见。 此 **我的公司私有** 仅当在Workfront配置文件中指定了公司时，选项才可用。
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
-   >公司外部的已标记用户仍可能会收到应用程序内通知或电子邮件，即使他们不会在“更新”选项卡上看到私人评论。 如果不想与外部用户共享信息，我们建议不要在更新时标记这些用户。
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
-1. （可选）要添加多个用户和团队，请重复步骤2。
+1. (Optional) To add multiple users and teams, repeat step 2.
 
    >[!NOTE]
    >
-   >在“通知”字段中列出的所有用户和团队成员都会收到更新的应用程序内通知，并且可能会收到一封电子邮件，具体取决于其电子邮件通知设置的配置。 在评论或回复中标记自己的用户会收到该评论或回复的通知，并可以在会话剩余时间的通知字段中看到他们的姓名，但除非他们再次标记自己，否则不会收到其他通知。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >All users and team members listed in the Notify field receive an in-app notification for the update and might receive an email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in the Notify field for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. 单击 **更新**.\
-   更新中包含的用户会被自动授予对象的“查看”权限，并且可以查看和响应对对象所做的更新。
+1. Click **Update**.  
+   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   您可以在更新线程的顶部查看每个回复中标记了哪些人。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。
+   You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
    ![](assets/tagging-transparency-350x192.png)
+-->
 
-   有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 作为Adobe Workfront管理员，有时您可能需要代表其他用户访问Workfront。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # 以其他用户身份登录。
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>新增：标准</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
@@ -75,6 +77,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
  </tbody> 
 </table>
+
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 以其他用户身份登录并执行操作
 
@@ -146,7 +150,7 @@ Workfront提供多种机制，用于跟踪和审核管理员以其他用户身�
 
 当您以其他用户身份登录Workfront并执行某个操作时，Workfront明确指示您执行的任何操作都是由您代表您以身份登录的用户执行的。
 
-例如，如果您在以其他用户身份登录时对某个项目进行注释，则会显示一条语句，指示您代表该用户发表了注释。
+例如，如果您在以其他用户身份登录时对某个项目进行注释，则语句表示您在查看对象的Updates部分时代表该用户发表了注释。
 
 ### 查看审核信息 {#view-audit-information}
 

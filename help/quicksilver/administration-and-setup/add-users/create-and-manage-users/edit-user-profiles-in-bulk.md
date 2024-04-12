@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # 批量编辑用户配置文件
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ ht-degree: 0%
        <ul> 
         <li><b>时区：</b> 用户的时区。</li> 
         <li><b>区域设置</b>：用户的首选区域设置。 这会影响来自Workfront的电子邮件中数字和日期的格式。</li> 
-        <li><b>显示更新状态的完成百分比</b>：如果您希望在使用旧版评论体验时，在所有用户任务的更新区域中显示完成百分比栏，请选中此选项。 有关信息，请参阅 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新的评论体验</a>.
-        <p><span class="preview">此选项已从“预览”环境中删除。</span></p>
-
-   </li> 
         <li><b>将我分配给自己的工作发送到我的工作选项卡中</b>：如果您希望用户分配给自己的所有内容直接显示在其“正在处理”选项卡上，请选中此选项。 默认设置在用户的工作请求选项卡上列出分配给用户的所有内容。</li> 
        </ul> </td> 
      </tr> 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年2月13日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月11日）。
+>预览版本： 2024年2月13日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：待定。
 
 <span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span>
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：使用24.4版本（2024年4月11日）。
+>预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月14日）；面向所有客户的生产：待定。
 
 <span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span>
 

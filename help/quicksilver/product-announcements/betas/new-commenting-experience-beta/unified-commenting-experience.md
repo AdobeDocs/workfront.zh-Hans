@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >本文中的信息是指已发布到新评论体验的功能。
 >
->新评论体验测试版计划于2023年4月开始，于2023年10月结束。 新评论体验的Beta测试版计划已于2023年10月版结束。
+>新评论体验的Beta计划从2023年4月开始，到2023年10月结束，2023年10月发布。
 >
->从2023年10月开始，所有新评论体验的新功能均已发布给所有客户。 有关更多信息，请参阅每个版本的当前版本概述页面。
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>自2024年4月11日起，所有客户都可以在生产环境中使用新评论体验的所有功能。
 
 ## 功能
 
@@ -561,19 +551,20 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 在2024年第二季度版本（2024年4月11日）中：
 
-   * 删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
+  删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
 
 ## 找到新的评论体验
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+您可以在Workfront的以下区域中获得新的评论体验：
 
->[!IMPORTANT]
->
->新评论体验适用于所有对象上的所有Workfront环境（小版本除外）。
->
->旧版评论体验已从项目、任务、问题和文档的所有环境中删除。
+* 在所有对象的“更新”部分（小版本除外）。
 
-有关访问Workfront对象更新部分的信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  有关访问Workfront对象更新部分的信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* 在所有可用区域的任务、问题和文档的摘要面板中（列表、时间表、工作负载均衡器和主页）。
+* 在“主页”区域中，查看任务和问题。
+
+
 
 <!--
 

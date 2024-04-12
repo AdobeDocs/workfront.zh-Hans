@@ -6,9 +6,9 @@ description: 任务或问题的完成情况是指在任务或问题上放置一�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,15 @@ Adobe Workfront管理员可以为您的环境创建自定义条件，如中所�
 您必须已分配至任务或问题，或拥有任务或问题的管理权限才能为其设置条件。
 
 在视图中显示“条件”字段时，您可以在任务、问题报告或列表中手动更新任务或问题的条件。
+
+>[!NOTE]
+>
+>您可以要求系统或组管理员将条件字段添加到摘要面板，使其更易于在Workfront的各个区域中进行更新。
+>
+>有关更多信息，请参阅以下文章：
+>
+>* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

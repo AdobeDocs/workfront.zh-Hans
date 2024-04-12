@@ -6,14 +6,16 @@ description: 您可以响应根据对项目、任务、问题和其他对象的�
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # 回复电子邮件通知
+
+<!-- Audited: April 2024-->
 
 根据电子邮件通知的配置方式，当对您有权访问的特定对象进行更新时，您可能会收到电子邮件通知。
 
@@ -35,8 +37,8 @@ ht-degree: 1%
 * 问题
 * 文档
 * 模板和模板任务
-* Portfolio
-* 项目
+* 项目组合
+* 项目群
 * 迭代
 * 时间表
 
@@ -49,25 +51,26 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>针对问题和文档的请求或更高请求；针对所有其他对象的查看或更高版本</p> </td> 
+   <td> <p>新文档：问题和文档的参与者或更高版本；所有其他对象的轻量级或更高版本</p>
+   <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>问题和文档的请求者或更高；所有其他对象的查看者或更高</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>查看您要在其中发布回复的对象或对其拥有更高的访问权限</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看您想发布回复的对象或对其拥有更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 回复电子邮件通知的更新
 

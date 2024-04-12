@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 2%
+source-wordcount: '1867'
+ht-degree: 0%
 
 ---
 
@@ -29,31 +29,11 @@ ht-degree: 2%
 >
 >本文中的信息介绍的是新评论体验的测试阶段发布的功能。
 >
->新评论体验测试版计划于2023年4月开始，于2023年10月结束。
->
->从2023年第四季度版本（2023年10月）开始，测试版计划结束时，测试版期间发布的功能已可供所有客户使用。
+>新评论体验的Beta计划从2023年4月开始，到2023年10月结束，2023年10月发布。
 > 
-><br>有关更多信息，请参阅以下文章： </br>
+>有关更多信息，请参阅 [新的评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* 有关在新的Experience Beta测试期间发布的功能的信息，请参阅 [新的评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->* 有关在新的评论体验测试版计划结束后针对评论体验发布的功能的信息，请参阅当前的发布概述页面。
-
-<!--
- This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
-
-For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
-
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
->* Goals
->* Cards in the Boards area. 
-
--->
+>自2024年4月11日起，生产环境中的所有客户都可以使用新注释体验中包含的所有功能。
 
 ## 新增评论体验位置和发布时间表
 
@@ -69,6 +49,8 @@ For general information on the new commenting experience, including a list of fe
 此部分记录的功能现在可供所有客户在所有环境中使用。
 
 在23.2版本（2023年4月6日）和2023年第四季度版本（2023年10月26日）之间的测试阶段，向评论体验添加了以下功能。
+
+Beta版计划结束后发布的功能将在发布时的当前发行页面中显示消息。
 
 以下信息以每周一次的方式介绍发布活动，从最新更新开始。
 
@@ -333,19 +315,19 @@ For general information on the new commenting experience, including a list of fe
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-编辑评论时编辑附加图像. 有关更多信息，请参阅文章中的“4月27日维护更新”部分 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+编辑评论时编辑附加的图像 有关更多信息，请参阅文章中的“4月27日维护更新”部分 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ### 2023 年 4 月 20 日
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-在离开更新目标和评论测试版体验中出现的问题时，将图像保留为草稿. 有关更多信息，请参阅文章中的“4月20日维护更新”部分 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+离开注释测试版体验中的目标和问题的更新时，将图像保留为草稿。 有关更多信息，请参阅文章中的“4月20日维护更新”部分 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 ### 2023 年 4 月 17 日
 
 发布了以下维护更新，用于注释测试版的问题和目标：
 
-在问题的更新部分（新的评论测试版体验）和目标中，在屏幕可见区域之外显示新评论. 有关更多信息，请参阅文章中的“4月17日维护更新”部分  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
+在问题（新注释Beta版体验）和目标的“更新”部分中，在可见屏幕区域之外显示新注释。 有关更多信息，请参阅文章中的“4月17日维护更新”部分  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023年4月更新</a>.
 
 
 ### 2023年4月6日起一周
