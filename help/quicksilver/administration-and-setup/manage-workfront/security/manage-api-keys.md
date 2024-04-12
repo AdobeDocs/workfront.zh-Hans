@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
+source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 2%
@@ -82,7 +82,7 @@ Workfront管理员还有唯一的API密钥。 当应用程序使用管理员API�
    生成API密钥：在 **API密钥设置** 部分，单击 **生成API密钥**.
 
    或\
-   重置API密钥：在 **API密钥设置** 部分，单击 **重置**，则&#x200B;**重置。**
+   重置API密钥：在 **API密钥设置** 部分，单击 **重置**，则 **重置。**
 
    或
 
