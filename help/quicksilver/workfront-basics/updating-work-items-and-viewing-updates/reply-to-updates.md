@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-当有人回复工作对象的注释或系统更新时，他们的回复会出现在通信线程中，该线程位于对象的“更新”部分的“注释和全部”选项卡中。
+当有人回复工作对象的注释或系统更新时，他们的回复会出现在通信线程中，该线程位于对象的“更新”部分的“注释”和“全部”选项卡中。
 
 >[!IMPORTANT]
 >
 >无法在“System Activity（系统活动）”选项卡中回复系统更新。 在2024年4月11日之前的旧版评论体验中，对系统更新的任何回复均显示为只读。
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+本文介绍了如何回复Workfront中大多数对象的注释。 有关各种对象的“更新”部分之间的差异，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 访问要求
 
@@ -85,9 +85,9 @@ ht-degree: 1%
 
 您可以回复可查看的对象线程中的注释，也可以以Workfront或组管理员身份登录并代表其他用户回复注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-回复注释或回复会因您选择的体验和对象而异。
-
 ### 回复评论
+
+对于Workfront中的大多数对象，在对象的“更新”部分中回复注释的方式都类似。
 
 1. 转到要向其添加回复的对象。
 1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复

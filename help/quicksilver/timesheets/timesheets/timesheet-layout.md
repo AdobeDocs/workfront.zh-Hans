@@ -7,9 +7,9 @@ description: 本文介绍了时间表在Adobe Workfront中的布局，使您能�
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在“预览”环境中可供所有客户使用，或者在“生产”环境中可供启用了快速版本的客户使用。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">有关当前发行计划的信息，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 本文介绍了时间表在Adobe Workfront中的布局，使您能够更好地了解如何自定义和利用时间表来记录时间。
 
@@ -125,11 +125,7 @@ ht-degree: 1%
 
 ## 更新左侧面板中的区域
 
-<div class="preview">
-
 ![更新左侧时间表面板中的区域](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 您可以在时间表上添加备注，以与时间表批准者或其他用户在时间表左侧面板的更新部分通信。
 
@@ -137,11 +133,7 @@ ht-degree: 1%
 
 ## 摘要面板
 
-<div class="preview">
-
 ![摘要面板](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 您可以访问“摘要”面板，查看时间表中显示的任务或问题。 从此处，您可以对任务和问题进行评论，或更新其信息。 有关更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

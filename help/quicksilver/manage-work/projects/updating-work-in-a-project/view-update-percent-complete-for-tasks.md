@@ -6,9 +6,9 @@ description: 您可以更新任务的完成百分比，以指明完成任务的�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ ht-degree: 0%
 
   有关更多信息，请参阅 [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **主页**：您可以从“主页”区域的“摘要”面板或“我的工作”小组件更新任务或问题的完成百分比。
+
+有关信息，请参阅  [新主页快速入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 有关更新任务完成百分比的注意事项
 
@@ -104,7 +107,13 @@ ht-degree: 0%
    * 项目列表并应用里程碑视图
    * 通过访问任务页面执行任务
 1. 找到 **完成百分比** 要更新其完成百分比的任务的字段。
-1. 单击完成百分比字段，然后键入介于0和100之间的数字
+
+   >[!TIP]
+   >
+   >  完成百分比字段始终显示在摘要面板的顶部。
+
+
+1. 在 **完成百分比** 字段并键入一个介于0和100之间的数字
 
    或
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ ht-degree: 0%
 
 1. 已转到 **主页** 区域。
 1. 添加 **我的工作** 构件到您的主页。
-1. 在列表中选择任务、问题或请求，然后单击 **处理此项工作**
+1. （可选）在列表中选择任务、问题或请求，然后单击 **处理此项工作**
 1. 将鼠标悬停在要记录时间的任务或问题上，然后单击 **记录时间** 图标 ![](assets/log-time-icon-in-new-home.png) 任务信息的右侧。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

@@ -6,9 +6,9 @@ description: 您可以使用 [!UICONTROL 我的更新] 区域以快速查看等�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ ht-degree: 0%
    >默认情况下，将显示前50个提及。
 
 1. （可选）单击 **[!UICONTROL 显示更多更新]** 查看更多提及。
-1. （可选）单击 **[!UICONTROL 回复]** 要回复评论，请输入您的回复，然后单击 **[!UICONTROL 回复]** 再来一次。
+1. （可选）单击 **[!UICONTROL 回复]** 回复评论，并执行以下任一操作：
+   * 开始键入回复
+   * 使用富文本工具栏设置文本格式，向消息中添加链接、列表、表情符号、引号或图像
+   * 添加用户或团队以通知他们您的回复。
 
-   有关更新项目的详细信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     添加完回复后，单击 **[!UICONTROL 回复]** 再来一次。
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. （可选）单击 **[!UICONTROL 用pin钉住当前页]** 以固定 [!UICONTROL 我的更新] 区域到顶部导航。

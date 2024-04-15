@@ -6,9 +6,9 @@ description: 计划完成日期和提交日期均指示应何时完成任务。 
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ this article has mostly information that is repeated from the articles linked fr
 
 被分派人更改提交日期不会自动更改规划完成日期。 反之亦然：更改规划完成日期不会更改提交日期。
 
-当提交日期更改为晚于计划完成日期的日期时，项目所有者将收到此更改已发生并且可能影响项目时间线的通知。
+当提交日期发生更改时，项目所有者将通过Workfront应用程序内通知收到发生此更改的通知。
 
-如果项目责任人可接受受让人提供的提交日期，他们必须手动更新任务或问题的计划完成日期。 有关更多信息，请参阅以下文章：
+如果项目责任人可接受受让人提供的提交日期，他们必须手动更新任务的规划完成日期，以说明该日期可能对项目时间线的影响。 对问题的计划完成日期所做的更改不会影响项目的时间表。
+
+有关更多信息，请参阅以下文章：
 
 * [提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [更新任务和问题的提交日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

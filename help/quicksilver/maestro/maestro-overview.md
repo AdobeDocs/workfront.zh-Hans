@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    * 上次修改者
    * 上次修改日期
 
-* **链接的记录类型**， **链接的记录**、和 **链接的记录字段**：您可以在Workfront Planning中的以下实体之间创建连接：
+* **链接的记录类型**， **链接的记录**、和 **链接的记录字段** 或 **连接的记录类型**， **连接的记录**、和 **连接的字段**：您可以在Workfront Planning中的以下实体之间创建连接：
 
    * 两种记录类型。
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
