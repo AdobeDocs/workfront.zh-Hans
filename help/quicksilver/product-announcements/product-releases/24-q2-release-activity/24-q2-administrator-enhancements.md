@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Workfront系统管理员现在可以为已迁移到Adobe IMS的组织设置用�
 
 >[!NOTE]
 >
->预览版本： 2024年2月8日；用于快速发布的生产版本：使用24.2版本（2024年2月15日）；面向所有客户的生产版本：待定
+>预览版本： 2024年2月8日；用于快速发布的生产版本：使用24.2版本（2024年2月15日）；适用于所有客户的生产版本：24.4（2024年4月11日）
 
 现在，您可以在表单设计器测试版中编辑现有显示和跳过逻辑，并向自定义表单添加新逻辑。 易于使用的逻辑生成器可帮助您根据表单中的选择定义要显示或跳过的字段。
 

@@ -6,16 +6,22 @@ description: 从展示板中删除信息卡时，该信息卡会被永久删除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # 从展示板中删除或存档信息卡
 
-从展示板中删除信息卡时，该信息卡会被永久删除，并且无法恢复。 存档信息卡会将其发送到存档，您可以稍后将其还原到展示板。
+从展示板中删除临时信息卡时，该信息卡会被永久删除，并且无法恢复。 删除已连接的卡后，可以手动将其重新添加到展示板中。
+
+如果从动态展示板中删除已连接的信息卡，则在刷新展示板时，该信息卡会重新显示，因为该展示板类型从特定项目拉入所有任务和问题。 要删除卡，必须从Workfront项目中删除连接的任务或问题。
+
+从任何具有引入列的其他展示板类型中删除已连接信息卡时，如果尚未将已连接任务或问题标记为完成，则在刷新展示板时，该信息卡将重新出现在引入列中。 有关引入列的详细信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+存档信息卡会将其发送到存档，您可以稍后将其还原到展示板。
 
 ## 访问要求
 

@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 管理展示板列
+title: 管理展示板上的列
 description: 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-# 管理展示板列
+# 管理展示板上的列
 
 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
 
@@ -102,6 +102,10 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 隐藏配置]** 关闭 [!UICONTROL 配置] 面板。
 
 ## 定义列设置和策略
+
+>[!NOTE]
+>
+>动态展示板始终将信息卡放在与其状态匹配的列中，无论列策略是启用还是禁用。 当您刷新展示板时，信息卡将返回到其分配的列。
 
 1. 访问展示板。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![更多菜单](assets/more-icon-spectrum.png) 在列上，并选择 **[!UICONTROL 编辑]**.

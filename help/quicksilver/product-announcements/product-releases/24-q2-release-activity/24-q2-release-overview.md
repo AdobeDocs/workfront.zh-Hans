@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # 2024年第二季度发行版概述
 
-本页介绍了2024年第二季度版本中包含的功能。 这些增强功能计划本季度在“生产”环境中提供。
+本页介绍了2024年第二季度版本中包含的功能。 这些增强功能在2024年4月10日和11日发行的24.4版本的生产环境中面向所有客户提供。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 代替发布网络研讨会，我们邀请您 [注册Adobe Summit](https://summit.adobe.com/na/) 观看以下Workfront讲座：
@@ -22,6 +22,8 @@ ht-degree: 0%
 [Adobe Workfront的未来](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 2024年3月26日，开始偷窥战略规划和工作流的未来。 了解Workfront团队计划如何在整个营销生命周期中处理业务功能 — 所有这些功能都是通过人工智能优先的方法来自动化工作、简化用户体验并提高生产效率。
 
 [为端到端营销活动规划推出营销日历和工具](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) ，了解旨在使您的组织能够管理和可视化端到端操作生命周期的新产品功能。
+
+您还可以 [查看PDF文件](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} 重点介绍24.4版。
 
 <span class="preview">周期外功能（在2024年第二季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
