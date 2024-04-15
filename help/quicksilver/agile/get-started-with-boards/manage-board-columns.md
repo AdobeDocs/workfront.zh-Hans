@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >动态展示板始终将信息卡放在与其状态匹配的列中，无论列策略是启用还是禁用。 当您刷新展示板时，信息卡将返回到其分配的列。
+> 
+>此外，对于所有展示板类型，如果将信息卡从一列移动到另一列（状态相同），则当您刷新展示板时，信息卡将返回到原始列。
 
 1. 访问展示板。
 1. 单击 **[!UICONTROL 更多]** 菜单 ![更多菜单](assets/more-icon-spectrum.png) 在列上，并选择 **[!UICONTROL 编辑]**.
