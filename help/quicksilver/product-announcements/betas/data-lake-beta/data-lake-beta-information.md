@@ -4,10 +4,9 @@ title: Workfront Data Lake测试版信息
 description: 有关Workfront Data Lake测试版的一般信息
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -104,4 +103,3 @@ Workfront数据湖是当前开发中的一个新工具，它为组织提供了�
 
 * 在设置读取器帐户期间限制可用对象。
 * 将读者帐户与Workfront中的一个或多个特定组关联，以将记录的可见性限制为仅向组成员可见。
-

@@ -6,13 +6,12 @@ title: 数据湖数据字典
 description: 本页包含有关Workfront数据湖中数据的结构和内容的信息。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 8%
 
 <!-- Custom table -->
 
-## 实体关系表
+## 术语表
 
 下表将Workfront中的对象名称（以及它们在接口和API中的名称）与其在数据湖中的等效名称相关联。
 

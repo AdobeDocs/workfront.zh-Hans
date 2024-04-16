@@ -6,12 +6,11 @@ title: 创建用于Snowflake的Reader（服务）帐户
 description: 要访问Workfront数据湖中的数据，您必须首先为Snowflake创建读取器帐户。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>Ultimate</td> 
+   <td>待定</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -67,7 +66,7 @@ ht-degree: 0%
 
    ![重置Snowflake密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您现在可以使用用户名和新密码在Snowflake中访问Workfront数据湖。
+1. 您现在可以使用用户名和新密码访问Snowflake中的Workfront数据湖或您选择的业务可视化工具。
 
 ## 将IP添加到允许列表
 
@@ -77,9 +76,9 @@ ht-degree: 0%
 
 1. 单击 **允许的IP** 选项卡，然后单击 **将IP地址添加到允许列表** 按钮。
 
-   ![添加IP地址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. 在中输入IP地址的名称 **IP地址说明** 并输入要在其中使用的工具的IP地址 **IP地址**，然后单击 **将IP添加到允许列表**.
+
+   ![添加IP地址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## 撤销reader帐户或从允许列表中删除IP地址
 
