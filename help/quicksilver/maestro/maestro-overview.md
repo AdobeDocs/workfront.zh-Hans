@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -237,6 +237,8 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 下表显示了可在Workfront Planning中创建的对象数限制。 当我们进入开发的下一个阶段时，这些限制可能会发生变化。
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Adobe Workfront Planning对象 | 限制 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 一个Workfront实例的工作区数 | 1,000 |
@@ -249,6 +251,8 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
 | 可导入的Excel文件的CSV大小* | 5MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

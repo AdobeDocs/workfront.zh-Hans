@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## 2024年4月8日起一周
+
+### 复制一个单元格的内容并将其粘贴到多个选定单元格中
+
+生产： 2024年4月10日
+
+预览：待定
+
+您现在可以复制表视图中一个单元格的内容，并将其粘贴到多个选定单元格中。 您还可以从外部源复制信息并将其粘贴到表视图单元格中。
+
+除计算字段外，所有字段类型都支持此功能。
+
+有关更多信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 2024年4月1日起一周
 

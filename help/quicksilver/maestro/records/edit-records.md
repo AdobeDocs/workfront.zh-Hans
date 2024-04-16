@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ ht-degree: 0%
    >* 使用以下键盘快捷键来复制和粘贴信息：
    >   * 复制：CTRL + C(对于Mac，为⌘ + C)
    >   * 粘贴：CTRL + V(对于Mac，为⌘ + V)
-   >* 不能从其他来源复制信息，不能复制与粘贴信息的字段类型相同的记录字段以外的信息。
    >
    >* 您不能在记录页面中复制和粘贴字段值。 仅记录类型的表视图支持此功能。
    >* 不能复制和粘贴以下字段类型的字段值：

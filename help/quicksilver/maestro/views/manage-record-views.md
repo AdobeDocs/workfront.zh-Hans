@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -93,6 +93,7 @@ ht-degree: 1%
 * Workfront Planning中的视图特定于记录类型。 不能将同一视图应用于两种不同的记录类型。
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
+<!--* Each user can create a maximum of 100 views. -->
 * 以下元素对于每个记录视图都是唯一的：
 
    * 筛选
