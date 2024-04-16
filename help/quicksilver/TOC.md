@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5ce9e10d4191d3cd286c4708583f9a6466609603
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '14160'
+source-wordcount: '14157'
 ht-degree: 1%
 
 ---
@@ -1075,7 +1075,6 @@ ht-degree: 1%
          * [将故事添加到现有迭代](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [查看迭代](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [删除迭代](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [管理开发周期注释](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * Scrum展示板 {#scrum-board}
          * [Scrum展示板](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Scrum展示板概述](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

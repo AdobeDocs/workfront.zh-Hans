@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,6 @@ ht-degree: 0%
 您可以通过以下方式为其他人标记更新：
 
 * **自动**：当用户启动跟帖、添加评论或添加回复时，会自动为其添加标记，并添加到评论框的标记人员或团队区域。
-
-  >[!TIP]
-  >
-  >   在开发周期中添加评论时，无法自动标记用户。  有关信息，请参阅 [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >添加来自其他应用程序的评论时，无法自动标记用户。
-
-
 * **手动**：手动将用户添加到评论框的“标记人员”区域时。
 
 您还可以在编辑或回复评论时删除被错误地标记的用户。

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 在2024年第二季度版本（2024年4月11日）中：
 
-  删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验，迭代除外。
+  删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验。
 
 ## 找到新的评论体验
 
 您可以在Workfront的以下区域中获得新的评论体验：
 
-* 在所有对象的“更新”部分（小版本除外）。
+* 在所有对象的“更新”部分中。
 
   有关访问Workfront对象更新部分的信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

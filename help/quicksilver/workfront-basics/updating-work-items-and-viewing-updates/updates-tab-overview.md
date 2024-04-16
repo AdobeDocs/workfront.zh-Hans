@@ -7,9 +7,9 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * 模板任务
 
 * 以下对象没有“系统活动”选项卡或“全部”选项卡，并且“注释”选项卡中的体验与所有其他对象的体验不同：
+   * 迭代
    * 临时信息卡
 
      有关信息卡更新的更多信息，请参阅 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * 迭代
-
-     有关迭代更新的更多信息，请参阅 [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * 以下对象没有“全部”选项卡，“注释”选项卡中的体验与大多数对象的体验相匹配：
 

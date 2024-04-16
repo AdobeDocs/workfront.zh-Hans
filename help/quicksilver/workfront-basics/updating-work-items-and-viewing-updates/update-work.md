@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ ht-degree: 0%
 
 本文中的信息介绍了如何注释和更新项目、任务和问题的信息。 分配或订阅了对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
 
-向其他对象添加注释与更新项目、任务和问题类似。 有关对信息卡、目标或小版本进行注释的其他信息，另请参阅以下文章：
+向其他对象添加注释与更新项目、任务和问题类似。 有关对信息卡和目标进行注释的其他信息，另请参阅以下文章：
 
 * [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   您必须具有其他许可证才能访问Workfront目标。
 
 * [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [管理开发周期注释](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## 访问要求
 
