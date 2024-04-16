@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单、左侧面板以及视图、分组和筛选器的排列。
+description: 默认布局是主菜单、左侧面板以及视图、分组和筛选器的排列，Adobe Workfront管理员随后使用布局模板进行任何更改。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->用户可以通过编辑其用户配置文件首选项来更改自己的布局。 欲了解更多信息，请参见 [首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 中的部分 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>用户可以通过编辑用户配置文件首选项来更改自己的布局。 欲了解更多信息，请参见 [偏好设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 中的部分 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## 每个访问级别的默认布局
 
@@ -46,7 +46,7 @@ ht-degree: 14%
    <th>区域</th> 
    <th> 左侧面板项目 </th> 
    <th> <p>系统管理员</p> </th> 
-   <th> <p>计划人</p> </th> 
+   <th> <p>规划器</p> </th> 
    <th>员工</th> 
    <th>查看者</th> 
    <th>请求人</th> 
@@ -102,7 +102,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>人员</strong> (已重命名为 <strong>团队</strong> （适用于拥有工作许可证的用户）</td> 
+   <td rowspan="5"><strong>人员</strong> (重命名为 <strong>团队</strong> （适用于拥有工作许可证的用户）</td> 
    <td><strong>团队</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -131,7 +131,7 @@ ht-degree: 14%
    </tr>
   --> 
   <tr> 
-   <td><strong>计划</strong> </td> 
+   <td><strong>规划</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>正在调度</strong> </td> 
+   <td><strong>正在计划</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -177,7 +177,7 @@ ht-degree: 14%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>时间表</strong> </td> 
+   <td rowspan="3"><strong>工时表</strong> </td> 
    <td><strong>我的工时表</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
@@ -187,7 +187,7 @@ ht-degree: 14%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>我审批的工时表</strong> </td> 
+   <td><strong>我批准的工时表</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
