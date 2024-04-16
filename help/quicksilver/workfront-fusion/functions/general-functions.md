@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion映射面板中提供了以下常规函数。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -44,17 +44,17 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL get（对象或数组；路径）]
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `get( array ; 1 + 1 )`
 >* `get( array ; 5.raw_name )`
@@ -75,7 +75,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `if( 1 = 1 ; A ; B )`
 >
@@ -85,13 +85,13 @@ ht-degree: 3%
 >
 >   返回B
 
-## [!UICONTROL imfempty (value1； value2)]
+## [!UICONTROL imfempty （值1；值2）]
 
 返回 `value1` 如果此值不为空，则会返回 `value2`.
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `ifempty(` `A` `;` `B` )
 >
@@ -105,13 +105,13 @@ ht-degree: 3%
 >
 >   返回B
 
-## [!UICONTROL 开关(表达式；值1；结果1； [value2； result2； ...]； [else])]
+## [!UICONTROL 开关(表达式；值1；结果1； [值2；结果2； ...]； [否则])]
 
-根据值列表评估一个值（称为表达式）；返回与第一个匹配值对应的结果。
+根据值列表计算一个值（称为表达式）；返回与第一个匹配值对应的结果。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 >
@@ -125,25 +125,25 @@ ht-degree: 3%
 >
 >  返回4
 
-## [!UICONTROL omit(object； key1； [key2； ...])]
+## [!UICONTROL 省略(object； key1； [键2； ...])]
 
 省略对象的给定键并返回其余键。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >`omit(` 用户 `;` 密码 `)`
 >
->返回用户信息的集合，不包括密码。
+>返回用户信息（不包括密码）的集合。
 
-## [!UICONTROL pick(object； key1； [key2； ...])]
+## [!UICONTROL pick(object； key1； [键2； ...])]
 
 仅从对象中选取给定的键。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >`pick(` 用户 `;` 密码 `;` 电子邮件 `)`
 >

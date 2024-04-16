@@ -9,14 +9,16 @@ description: 连接必须遵循它所连接的应用程序或Web服务的API所�
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 1%
 
 ---
 
 # 在中创建连接 [!DNL Adobe Workfront Fusion]
+
+<!-- Audited: 3/2024-->
 
 连接必须遵循它所连接的应用程序或Web服务的API所设置的要求。 因此，设置连接的说明因应用程序或Web服务而异。 本文可帮助您识别和查找有关连接的说明 [!DNL Adobe Workfront Fusion] 到您选择的应用程序或Web服务。
 
@@ -24,46 +26,40 @@ ht-degree: 0%
 
 您必须具有以下权限才能使用本文中的功能：
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td>  
+   <td> <p>任何</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td>  
+   <td> <p>新文档： [！UICONTROL Standard]</p><p>或</p><p>当前： [！UICONTROL Work]或更高版本</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>  
+   <td> 
+   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p> 
+   <p>或</p> 
+   <p>旧版：任意 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">产品</td>  
+   <td> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul> 
+   <p>或</p> 
+   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
-   <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">产品</td> 
-   <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
-   <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
-   </td>
-
-</tbody> 
+ </tbody>  
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-
-## 连接 [!DNL Adobe Workfront] 到 [!DNL Workfront Fusion]
-
-Workfront和 [!DNL Workfront Fusion] 设计为可协同工作。 您创建的连接决定了 [!DNL Workfront Fusion] 使用在Workfront中执行操作。
-
-有关说明，请参阅 [连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] 模块](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## 连接到不需要配置的应用程序或Web服务
 

@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: 在中配置模块的设置 [!DNL Adobe Workfront Fusion]
+title: 在中配置模块设置 [!DNL Adobe Workfront Fusion]
 description: 您必须为创建的每个模块配置设置。
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
 
-# 在中配置模块的设置 [!DNL Adobe Workfront Fusion]
+# 在中配置模块设置 [!DNL Adobe Workfront Fusion]
 
 您必须为创建的每个模块配置设置。
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->除了模块设置之外，您还可以调整方案的设置。 您可以重命名方案、更改其计划和指定其他设置以及其他操作。
+>除了模块设置之外，您还可以调整方案的设置。 您可以重命名方案、更改其计划以及指定其他设置等操作。
 
 ## 访问要求
 
@@ -51,34 +51,34 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 配置模块的设置
 
-1. 向场景添加新模块。
+1. 向方案添加新模块。
 
    或
 
-   在场景编辑器中单击模块的图标，如中所述 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   在方案编辑器中单击模块的图标，如中所述 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. 如果模块需要，请创建 **[!UICONTROL 连接]** ，如中所述。 [关于连接 [!DNL Adobe Workfront Fusion] 至应用程序或服务](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. 如果模块需要，请创建 **[!UICONTROL 连接]** ，如中所述。 [连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. 在每个字段中，键入相应的文本。
 
    或
 
-   单击 **[!UICONTROL 映射]** 如果它显示在字段的右侧，则从场景中的另一个模块映射项目。
+   单击 **[!UICONTROL 地图]** 如果它显示在字段的右侧，则映射场景中另一个模块中的项目。
 
-   需要粗体参数。
+   粗体参数是必需的。
 
    有关不同项目数据类型的信息 [!DNL Workfront Fusion] 可以识别（如日期、数字和文本），请参阅 [中的项目数据类型 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
