@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ ht-degree: 1%
    该状态呈灰显状态，不再对该组中的所有用户可见。
 
 1. 重复步骤3至5，对不需要自定义状态的任何其他组隐藏自定义状态。
+

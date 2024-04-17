@@ -1,63 +1,63 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: 管理，群組，編輯，
+keywords: 管理，组，编辑，
 navigation-topic: create-and-manage-groups
-title: 管理群組
-description: 作為群組管理員，您可以從「設定」的「群組」區域管理群組。 如果您管理的群組上方有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。
-author: Caroline
+title: 管理组
+description: 作为组管理员，您可以从“设置”的“组”区域管理组。 如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
-# 管理群組
+# 管理组
 
 <!--
 Though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 -->
 
-作為群組管理員，您可以從「設定」的「群組」區域管理群組。 如果您管理的群組上方有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。
+作为组管理员，您可以从“设置”的“组”区域管理组。 如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
 
 >[!NOTE]
 >
->當您被指派為群組的管理員時，您將繼承其下任何子群組的群組管理員角色。 唯一可以管理子群組的使用者是上方最上層群組的群組管理員，以及任何指派給子群組的群組管理員。
+>当您被指定为组的管理员时，您将继承其下任何子组的组管理员角色。 唯一可以管理子组的用户是上面最上层组的组管理员以及分配给该子组的任何组管理员。
 
-## 存取需求
+## 访问要求
 
-您必須具備下列專案才能執行本文所述的步驟：
+您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront計畫*</td> 
+   <td role="rowheader">Workfront计划*</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>计划 </p> <p>您必須是群組的群組管理員或Workfront管理員。 如需詳細資訊，請參閱 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予使用者完全管理存取權</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要瞭解自己擁有的計畫或授權型別，請聯絡Workfront管理員。
+&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
 
-## 管理群組的成員資格
+## 管理组的成员资格
 
-您可以在管理的群組中新增及移除使用者和其他群組。 您也可以將群組成員指派為群組的管理員，並管理群組成員的使用者設定檔資訊。
+您可以在管理的组中添加和删除用户和其他组。 您还可以将组成员指定为组的管理员，并管理组成员的用户配置文件信息。
 
-如需指示，請參閱 [檢視和管理群組的成員資格](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+有关说明，请参阅 [查看和管理组的成员资格](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
-## 管理群組的詳細資訊
+## 管理组的详细信息
 
-您可以檢視並編輯您所管理的群組或子群組的「群組詳細資訊」頁面。 此頁面包含群組的說明、業務主管和群組管理員的姓名，以及可讓您將群組及其所有子群組設為公開或私人的選項。 此外，如果您的存取層級可讓您管理自訂表格，則可以將自訂表格附加至群組。
+您可以查看和编辑您管理的组或子组的“组详细信息”页面。 此页面包括组的说明、业务负责人和组管理员的姓名，以及允许您将组及其所有子组设为公共或私有组的选项。 此外，如果您的访问级别允许您管理自定义表单，则可以将自定义表单附加到组。
 
 <!--
 "and an option that allows you to deactivate or reactivate the group"
@@ -65,123 +65,107 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
-如需指示，請參閱 [檢視和管理群組的詳細資訊](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+有关说明，请参阅 [查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-## 編輯、複製或刪除群組
+## 编辑、复制或删除组
 
-您無需離開所檢視群組的首頁面，即可快速編輯、複製或刪除
+无需离开正在查看的组的主页，即可快速编辑、复制或删除该组。
 
-<!--
-DRAFTED IN FLARE:
-or deactivate
+1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
 
--->
+1. 单击 **组**.
 
-群組。
+   在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-<!--
-DRAFTED IN FLARE:
-Make this change when they add the </span>
-<b>Is active</b>
- option to the Details page!</span>
+1. 选择组，然后单击编辑 ![](assets/edit-icon.png)，复制 ![](assets/copy-icon.png)，或删除 ![](assets/delete.png) 图标。
 
--->
+   如果您需要有关使用显示的框的信息，请参阅以下内容之一：
 
-1. 按一下 **主要功能表** 圖示 ![](assets/main-menu-icon.png) Adobe Workfront右上角，然後按一下 **設定** ![](assets/gear-icon-settings.png).
+   * **编辑**： [查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-1. 按一下 **群組**.
+   * **复制**： [通过复制现有组或子组创建顶层组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) 在文章中 [创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
-   在顯示的清單中，您可以看到您管理的群組及其擁有的任何子群組。 Adobe Workfront管理員可以看到所有群組。
+   * **删除**： [删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
-1. 選取群組，然後按一下編輯 ![](assets/edit-icon.png)，複製 ![](assets/copy-icon.png)，或刪除 ![](assets/delete.png) 圖示。
+## 配置组的项目、任务和问题偏好设置
 
-   如果您需要有關使用顯示的方塊的資訊，請參閱下列其中一項：
+如果您是组管理员，并且您的组需要与系统级别上设置的项目、任务和问题首选项设置不同的设置，则可以请求Workfront管理员解锁整个组织中所有组的首选项。 解锁后，您（和所有其他组的组管理员）可以为您管理的组配置它。
 
-   * **編輯**： [檢視和管理群組的詳細資訊](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+有关说明，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和  [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   * **複製**： [複製現有群組或子群組以建立頂層群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) 在文章中 [建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+## 列出、添加和配置子组
 
-   * **刪除**： [刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+您可以在管理的组下创建、查看、编辑、复制、重命名、导出和删除子组。
 
-## 設定群組的專案、任務和問題偏好設定
+## 为组配置事件通知
 
-如果您是群組管理員，且您的群組需要與系統層級上設定的專案、任務和問題偏好設定不同，您可以要求Workfront管理員解鎖整個組織中所有群組的偏好設定。 解鎖後，您（以及所有其他群組的群組管理員）可以為您管理的群組設定它。
+如果Workfront管理员解锁为组织中的组配置事件通知的功能，则可以为管理的组配置这些通知。 有关说明，请参阅 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-如需指示，請參閱 [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和  [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+## 创建和自定义组的状态
 
-## 列出、新增和設定子群組
+作为组管理员，您可以为所管理的顶级组创建自定义状态。 这赋予了您的组自主权，并有助于消除对数十种公司范围的自定义状态的需要。 (Workfront管理员还可以为任何组执行此操作。)
 
-您可以建立、檢視、編輯、複製、重新命名、匯出及刪除您管理之群組下的子群組。
+您还可以自定义顶级组的系统状态(如果Workfront管理员将系统状态配置为允许自定义)。
 
-## 設定群組的事件通知
+有关说明，请参阅 [创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-如果Workfront管理員解除鎖定為您組織中的群組設定事件通知的功能，您可以為您管理的群組設定這些通知。 如需指示，請參閱 [檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+## 使用组的项目
 
-## 建立和自訂群組的狀態
+在“设置”的“组”区域中，当您查看所管理组的主页时，可以对项目执行以下操作：
 
-作為群組管理員，您可以為您管理的最上層群組建立自訂狀態。 這可讓您的群組擁有自主權，並有助於消除數十種全公司自訂狀態的需求。 (Workfront管理員也可以為任何群組執行此動作。)
+* 列出并处理（编辑、复制、删除和导出）与组及其子组关联并已与您共享的项目
+* 为组创建新项目
 
-如果Workfront管理員將頂層群組的系統狀態設定為允許自訂，您也可以自訂這些系統狀態。
+有关说明，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-如需指示，請參閱 [建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+## 查看和管理组的审批流程
 
-## 使用群組的專案
+当您查看在组区域管理的组时，您可以查看和处理组的管理员或其子组之一具有管理访问权限的审批流程。
 
-在「設定」的「群組」區域中，當您檢視所管理群組的主要頁面時，可以對專案執行下列作業：
+有关说明，请参阅 [组级别审批流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-* 列出並處理（編輯、複製、刪除和匯出）與群組及其子群組相關聯且已與您共用的專案
-* 為群組建立新專案
+## 查看和管理组的布局模板
 
-如需指示，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+在组区域查看您管理的组时，您可以查看和使用布局模板，组或其子组的管理员对此布局模板具有管理访问权限。
 
-## 檢視及管理群組的核准流程
+有关说明，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-當您檢視您在「群組」區域中管理的群組時，您可以檢視和處理群組的管理員或其子群組之一具有管理存取權的核准程式。
+## 查看和管理组成员的时间表
 
-如需指示，請參閱 [群組層級核准流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+组管理员为组创建调度时，必须指定由管理员管理调度的组。 通常，这是为其创建计划的组，但如果组管理员管理多个组并指定其他组之一，则它可能是不同的组。
 
-## 檢視和管理群組的版面配置範本
+在查看您管理的组的主页时，如果该组被指定为管理员可以编辑调度的组，则可以从组页面查看和管理调度。
 
-當您在「群組」區域中檢視您管理的群組時，您可以檢視並使用群組或其子群組的管理員具有管理存取權的版面配置範本。
+有关说明，请参阅 [创建和修改组的计划](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
-如需指示，請參閱 [建立和修改群組的版面配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+## 查看和管理组成员的周期性工时表
 
-## 檢視和管理群組成員的排程
+在查看您管理的组的主页时，您可以管理您和组的其他管理员（或其一个子组）有权编辑的时间表配置文件。 有关说明，请参阅 [创建和管理组的周期性工时表](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
-群組管理員建立群組的排程時，必須指定其管理員將管理排程的群組。 通常，這是為其建立排程的群組，但如果群組管理員管理多個群組並指定其他群組之一，則可能是不同的群組。
+## 查看和管理组的子组成员
 
-當您檢視您管理之群組的首頁時，如果群組被指定為其管理員可以編輯排程的群組，您可以從群組頁面檢視和管理排程。
+在查看您管理的组的主页时，您可以查看和管理该组子组中的所有用户。 有关说明，请参阅 [查看和管理子组成员](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
-如需指示，請參閱 [建立和修改群組的排程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+## 查看和管理组的团队
 
-## 檢視和管理群組成員的時程表設定檔
+在组区域查看您管理的组时，您可以查看和使用与该组或其任何子组关联的团队。
 
-當您檢視所管理群組的首頁時，您可以管理您和群組的其他管理員（或其子群組）有權編輯的時程表設定檔。 如需指示，請參閱 [建立和管理群組的時程表設定檔](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+有关说明，请参阅 [创建和修改组的团队](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 
-## 檢視和管理群組的子群組成員
+## 查看和管理组的公司
 
-當您檢視所管理群組的首頁時，可以檢視和管理群組子群組中的所有使用者。 如需指示，請參閱 [檢視和管理子群組成員](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+在组区域查看您管理的组时，您可以查看和使用与该组或其任何子组关联的公司。 有关说明，请参阅 [创建和修改组的公司](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
 
-## 檢視和管理群組的團隊
+## 查看和管理组的项目组合和程序
 
-當您在「群組」區域中檢視您管理的群組時，您可以檢視與群組或其任何子群組相關聯的專案團隊並與其合作。
+当您在组区域查看您管理的组时，如果符合以下两个条件，则可以查看和使用项目组合和程序：
 
-如需指示，請參閱 [建立和修改群組的團隊](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+* 它们与您正在查看的组或其任何子组相关联
+* 您有权查看这些区段，因为您已创建它们或与您共享它们
 
-## 檢視和管理群組的公司
+有关说明，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 和 [创建、修改和查看组的程序](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
-當您檢視您在「群組」區域中管理的群組時，您可以檢視與群組或其任何子群組相關聯的公司並與其合作。 如需指示，請參閱 [建立和修改群組的公司](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
-
-## 檢視和管理群組的投資組合和計畫
-
-當您在「群組」區域中檢視您管理的群組時，如果符合下列兩項條件，您就可以檢視及使用投資組合和計畫：
-
-* 它們與您正在檢視的群組或其任何子群組相關聯
-* 您擁有檢視這些專案的許可權，因為您已建立這些專案，或是這些專案已與您共用
-
-如需指示，請參閱 [建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 和 [建立、修改和檢視群組的程式](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
-
-## 停用或重新啟用群組
+## 停用或重新激活组
 
 <!--
 DRAFTED IN FLARE:
@@ -191,8 +175,8 @@ Delete this section when they add the </span>
 
 -->
 
-您可以將群組維持在預設作用中狀態或停用。
+您可以将组保持在其默认的活动状态或取消激活它。
 
-當群組目前不在使用中時，停用該群組會很有用，因為當使用者搜尋要與另一個物件建立關聯的群組時，他們不會再在預先輸入欄位中看到該群組。
+当某个组当前未使用时，停用该组可能很有用，因为当用户搜索要与另一对象关联的组时，不再在预输入字段中看到该组。
 
-如需讓群組非作用中或作用中的指示，請參閱 [停用或重新啟用群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+有关使组处于非活动或活动状态的说明，请参阅 [停用或重新激活组](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
