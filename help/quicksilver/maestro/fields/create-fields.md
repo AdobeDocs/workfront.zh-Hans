@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
+source-wordcount: '3277'
 ht-degree: 1%
 
 ---
@@ -377,9 +377,8 @@ recommendations: noDisplay, noCatalog
 
    >[!NOTE]
    >
-   > * 不能在公式中添加多选类型字段。
-   >
-   > * 不能从公式中的链接记录添加字段。 此功能将在以后发布。 有关新版本的更多信息，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md).
+   > 不能在公式中添加多选类型字段。
+
 
 
 1. 单击 **创建**.
