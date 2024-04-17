@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ Adobe提供了一个开源CLI，可用于帮助创建App Builder应用程序。 
 
 ## 其他帮助
 
-Adobe提供了有关如何开始为AppBuilder构建应用程序并进行部署的精彩文档。 下面是一些有用链接：
+Adobe提供了有关如何开始为AppBuilder构建应用程序并进行部署的精彩文档。
+
+下面是一些有用链接：
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
