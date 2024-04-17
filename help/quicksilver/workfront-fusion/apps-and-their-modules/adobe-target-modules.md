@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,16 @@ ht-degree: 0%
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[！UICONTROL环境]</td>
+        <td>选择您要连接到生产环境还是非生产环境。
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL类型]</td>
+        <td>选择您是要连接到服务帐户还是个人帐户。
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">[！UICONTROL客户端ID]</td>
         <td>输入您的 [!DNL Adobe] 客户端ID。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
       </tr>
@@ -105,12 +115,12 @@ ht-degree: 0%
         <td>输入您的 [!DNL Adobe] 客户端密码。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL组织ID]</td>
-        <td>输入您的 [!DNL Adobe] 组织ID。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
-      </tr>
-      <tr>
         <td role="rowheader">[！UICONTROL技术帐户ID]</td>
         <td>输入您的 [!DNL Adobe] 技术帐户ID。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL组织ID]</td>
+        <td>输入您的 [!DNL Adobe] 组织ID。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[！UICONTROL Tenant]</td>
@@ -191,25 +201,46 @@ ht-degree: 0%
     <td>有关创建与的连接 [!DNL Adobe Target]，请参见 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >创建与的连接 [!DNL Adobe Target]</a> 本文章中。</td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL记录类型]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[！UICONTROL记录类型]</td>
+    <td>
       <p>选择要创建的记录类型。</p>
       <ul>
         <li>
-          <p>[！UICONTROL AB活动]</p>
-          <p>继续 <a href="#ab-activity-fields" class="MCXref xref" >AB活动字段</a>.</p>
+        <b>属性</b><p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">创建资产</a> 在Adobe Target API文档中。</p>
         </li>
         <li>
-          <p>[！UICONTROL XT活动]</p>
-          <p>继续 <a href="#xt-activity-fields" class="MCXref xref" >XT活动字段</a>.</p>
+        <b>优惠推荐</b><p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">创建新的推荐选件</a> 在Adobe Target API文档中。</p>
         </li>
         <li>
-          <p>[！UICONTROL选件]</p>
+          <b>[！UICONTROL选件JSON]</b>
           <p>继续 <a href="#offer-fields" class="MCXref xref" >优惠字段</a>.</p>
         </li>
         <li>
-          <p>[！UICONTROL受众]</p>
-          <p>继续 <a href="#audience-fields" class="MCXref xref" >受众字段</a>.</p>
+          <b>[！UICONTROL选件内容]</b>
+          <p>继续 <a href="#offer-fields" class="MCXref xref" >优惠字段</a>.</p>
+        </li>
+        <li>
+        <b>环境</b><p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">创建环境</a> 在Adobe Target API文档中。</p>
+        </li>
+        <li>
+          <b>[！UICONTROL受众]</b>
+          <p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">创建受众</a> 在Adobe Target API文档中。</p>
+        </li>
+        <li>
+          <b>[！UICONTROL AB活动]</b>
+          <p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">创建AB活动</a> 在Adobe Target API文档中。</p>
+        </li>
+        <li>
+          <b>[！UICONTROL XT活动]</b>
+          <p>继续 <a href="#xt-activity-fields" class="MCXref xref" >XT活动字段</a>.</p>
+        </li>
+        <li>
+          <b>[！UICONTROL AP活动]</b>
+          <p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">创建AP活动</a> 在Adobe Target API文档中。</p>
+        </li>
+        <li>
+          <b>[！UICONTROL响应令牌]</b>
+          <p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">创建响应令牌</a> 在Adobe Target API文档中。</p>
         </li>
       </ul>
     </td>
@@ -217,179 +248,208 @@ ht-degree: 0%
 </tbody>
 </table>
 
-##### AB活动字段
+<!--
+
+##### AB Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名称]</td>
-      <td>输入或映射此活动的名称。 名称不能超过250个字符。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>Enter or map a name for this activity. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Options]</td>
+      <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>对于要添加到活动的每个选项，单击 <b>[！UICONTROL添加项]</b> 并填写以下字段：</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL选项本地ID]</b>
+            <p><b>[!UICONTROL Option local ID]</b>
             </p>
-            <p>输入或映射用于跨API请求跟踪选项的字符串。</p>
+            <p>Enter or map a string to be used to track the option across API requests.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL名称]</b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>输入或映射选项的名称。 名称不能超过250个字符。</p>
+            <p>Enter or map a name for the option. The name must be no more than 250 characters.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL选件ID]</b>
+            <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
-            <p>选择或映射与选项关联的选件。</p>
+            <p>Select or map the Offer associated with the option.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL位置]</td>
+      <td role="rowheader">[!UICONTROL Mboxes]</td>
       <td>
-        <p>对于要添加到活动的每个Mbox，单击 <b>[！UICONTROL添加项]</b> 并填写以下字段：</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
-            <p>[！UICONTROL受众ID]</p>
-            <p>对于要添加到Mbox的每个受众，请单击 <b>[！UICONTROL添加项]</b> 并选择受众ID。</p>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL位置本地ID]</b>
+            <p><b>[!UICONTROL Location local ID]</b>
             </p>
-            <p>输入或映射用于跨API请求跟踪位置的字符串。</p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL名称]</b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>输入或映射“位置”的名称。 名称不能超过250个字符。</p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL体验]</td>
+      <td role="rowheader">[!UICONTROL Selectors]</td>
       <td>
-        <p>页面上提供内容选件的位置的列表。 位置包含以下内容：
+        <p>For each selector that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Location local ID]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Selector]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Name]</b>
+            </p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Experiences]</td>
+      <td>
+        <p>A list of locations on the page where the content offer is served. A location contains the following:
 </p>
         <ul>
           <li>
-            <p><b>[！UICONTROL Experience本地ID]</b>
+            <p><b>[!UICONTROL Experience local ID]</b>
             </p>
-            <p>输入或映射体验的ID</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
-            <p><b>[！UICONTROL名称]</b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>输入或映射体验的名称
-
+            <p>Enter or map the name of the experience
 </p>
           </li>
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>对于要查看体验的每个受众，请单击 <b>[！UICONTROL添加项]</b> 并输入受众ID。
-
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 </p>
           </li>
           <li>
-            <p><b>[！UICONTROL访客百分比]</b>
+            <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
-            <p>输入或映射分配给体验的访客百分比</p>
+            <p>Enter or map the percentage of visitors that is allocated to the experience</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL量度]</td>
-      <td> </td>
+      <td role="rowheader">[!UICONTROL Metrics]</td>
+      <td><p>For details on metrics, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p> </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL第三方ID]</td>
-      <td>输入或映射ID以标识此活动。 您可以选择此ID。 此ID不得与其他活动相同，并且不得超过250个字符。</td>
+      <td role="rowheader">[!UICONTROL Third Party ID]</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL开始于]</td>
-      <td>以格式输入或映射开始活动的日期和时间 <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td role="rowheader">[!UICONTROL Starts at]</td>
+      <td>Enter or map the date and time to start the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL结束于]</td>
-      <td>输入或映射日期和时间，以采用格式结束活动 <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td role="rowheader">[!UICONTROL Ends at]</td>
+      <td>Enter or map the date and time to end the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL状态]</td>
+      <td role="rowheader">[!UICONTROL State]</td>
       <td>
-        <p>输入或映射活动的状态。</p>
+        <p>Enter or map the state of the activity.</p>
         <ul>
           <li>
-            <p>[！UICONTROL已批准]</p>
+            <p>[!UICONTROL Approved]</p>
           </li>
           <li>
-            <p>[！UICONTROL已停用]</p>
+            <p>[!UICONTROL Deactivated]</p>
           </li>
           <li>
-            <p>[！UICONTROL已暂停]</p>
+            <p>[!UICONTROL Paused]</p>
           </li>
           <li>
-            <p>[！UICONTROL已保存] </p>
+            <p>[!UICONTROL Saved] </p>
           </li>
           <li>
-            <p>[！UICONTROL已删除]</p>
+            <p>[!UICONTROL Deleted]</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL优先级]</td>
-      <td>输入一个用于定义活动优先级的数字。 数字越大，优先级越高。 此值必须介于0和999之间。 默认值为5。</td>
+      <td role="rowheader">[!UICONTROL Priority]</td>
+      <td>Enter a number that defines the priority of the activity. Higher numbers have higher priority. This value must be between 0 and 999. The default value is 5.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL自动分配流量]</td>
+      <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>启用此选项以自动分配流量。 自动分配会向更成功的体验发送更多流量。</p>
-        <p>选择或映射用于判断哪些体验更成功的评估标准。</p>
+        <p>Enable this option to auto-allocate traffic. Auto-allocating sends more traffic to the more successful experience.</p>
+        <p>Select or map the evaluation criteria by which to judge which experience is more successful.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL工作区]</td>
-      <td>输入或映射与活动关联的工作区</td>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>Enter or map the workspace that the activity is associated with</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL属性ID] </td>
-      <td>对于要添加到活动的每个资产，请单击 <b>[！UICONTROL添加项]</b> 并选择或映射该资产的ID。</td>
+      <td role="rowheader">[!UICONTROL Property IDs] </td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL报表受众]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>对于要添加到活动的每个报表受众，单击[！UICONTROL添加项目]并输入以下信息：</p>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL报表受众本地ID]</b>
+            <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
-            <p>输入或映射用于跨API请求跟踪报表受众的字符串。</p>
+            <p>Enter or map a string to be used to track the Reporting Audience across API requests.</p>
           </li>
           <li>
-            <p><b>[！UICONTROL受众ID]</b>
+            <p><b>[!UICONTROL Audience ID]</b>
             </p>
-            <p>输入或映射要在报表中使用的区段</p>
+            <p>Enter or map the Segment to be used in reporting</p>
           </li>
           <li>
-            <p><b>[！UICONTROL量度本地ID]</b>
+            <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>输入或映射用于跨API请求跟踪量度的字符串。</p>
+            <p>Enter or map a string to be used to track the metric across API requests.</p>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 ##### XT活动字段
 
@@ -540,8 +600,8 @@ ht-degree: 0%
       <td>对于要添加到活动的每个资产，请单击 <b>[！UICONTROL添加项]</b> 并选择或映射该资产的ID。</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL报表受众]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+      <td role="rowheader">[！UICONTROL报表受众]</td>
+      <td>
         <p>对于要添加到活动的每个报表受众，单击[！UICONTROL添加项目]并输入以下信息：</p>
         <ul>
           <li>
@@ -587,32 +647,50 @@ ht-degree: 0%
         <p>输入或映射与选件关联的工作区的ID。 如果留空，选件将与帐户的默认工作区关联。 此功能仅适用于 [!DNL Target] Premium帐户。</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL工作区]</td>
+      <td>
+        <p>输入或映射修改此选件的日期和时间。</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-##### 受众字段
+<!--
+
+##### Audience fields
+
+>[!NOTE]
+>
+>Audiences created through Workfront Fusion can only be edit in Fusion or through the API. They cannot be edited from within Target.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL名称]</td>
-      <td>输入或映射此受众的名称。 名称不能超过250个字符。</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>Enter or map a name for this audience. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL内容]</td>
+      <td role="rowheader">[!UICONTROL Description]</td>
       <td>
-        <p>输入或映射此受众的说明。</p>
+        <p>Enter or map a description of this audience.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Target Rule]</td>
+      <td role="rowheader">[!UICONTROL Origin]</td>
       <td>
-        <p>启用切换可使“与”规则生效，即必须应用所有规则。</p>
-        <p>对于要应用于受众的每个规则，单击 <b>[！UICONTROL添加项]</b> 并输入要应用的规则的JSON。 </p>
-        <div class="example"><span class="autonumber"><span><b>示例： </b></span></span>
-          <p>示例：</p>
+        <p>Select whether this audience's origin is from Target or from the cloud.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Target Rule]</td>
+      <td>
+        <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
+        <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
+          <p>Example 1:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -624,6 +702,7 @@ ht-degree: 0%
                     </p>
                     <p ><code>            &rbrace;,</code>
                     </p>
+                    <p>Example 2</p>
                     <p ><code>            &lbrace;</code>
                     </p>
                     <p><code>                "geo": "region",</code>
@@ -639,13 +718,15 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL工作区]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>输入或映射与受众关联的工作区的ID。 如果留空，选件将与帐户的默认工作区关联。 此功能仅适用于 [!DNL Target Premium] 帐户。</p>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 #### [!UICONTROL 进行自定义API调用]
 
@@ -748,7 +829,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 更新记录]
 
-此操作模块可更新活动、选件或受众。
+此操作模块更新Target中的记录。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -762,38 +843,13 @@ ht-degree: 0%
       <td role="rowheader">[！UICONTROL记录类型]</td>
       <td>
         <p>选择要更新的记录类型。</p>
-        <ul>
-          <li>
-            <p><b>[！UICONTROL AB活动]</b>
-            </p>
-            <p>请参阅中的字段描述 <a href="#ab-activity-fields" class="MCXref xref" >AB活动字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
-          </li>
-          <li>
-            <p><b>[！UICONTROL XT活动]</b>
-            </p>
-            <p>请参阅中的字段描述 <a href="#xt-activity-fields" class="MCXref xref" >XT活动字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
-          </li>
-          <li>
-            <p><b>[！UICONTROL其他活动]</b>
-            </p>
-            <p>选择要为其更新值的字段，然后为该字段输入新值。</p>
-          </li>
-          <li>
-            <p><b>[！UICONTROL选件]</b>
-            </p>
-            <p>请参阅中的字段描述 <a href="#offer-fields" class="MCXref xref" >优惠字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>请参阅中的字段描述 <a href="#audience-fields" class="MCXref xref" >受众字段</a> 下 <a href="#create-a-record" class="MCXref xref" >创建记录</a>.</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL记录ID]</td>
-      <td>输入或映射要更新的记录ID。</td>
+      <td role="rowheader">[！UICONTROL字段名称]</td>
+      <td>选择要更新的字段。 这些字段显示在下方。
+          <p>有关字段的详细信息，请参阅 <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API文档</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -874,8 +930,8 @@ ht-degree: 0%
     </td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[！UICONTROL返回结果的最大数目]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[！UICONTROL限制]</td>
+    <td>
       <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。 将此字段与[！UICONTROL Offset]字段结合使用可将响应分页。</p>
       <p>例如，要查看响应的第三页，当每个页面有十个响应时，请将[！UICONTROL Offset]设置为20，将[！UICONTROL Maximum number of returned]结果设置为10。</p>
     </td>
