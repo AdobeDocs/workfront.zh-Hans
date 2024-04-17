@@ -1,10 +1,9 @@
 ---
-title: 2024年第二季度项目增强功能
-description: 2024年第二季度项目增强功能
+title: 2024年第三季度项目增强功能
+description: 2024年第三季度项目增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
 workflow-type: tm+mt
 source-wordcount: '359'
@@ -12,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# 2024年第二季度项目增强功能
+# 2024年第三季度项目增强功能
 
-本页介绍了在2024年第二季度版本中对“预览”环境所做的所有项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
+本页介绍了在2024年第三季度版本中对“预览”环境所做的所有项目增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+有关2024年第三季度发布周期中此时所有可用更改的列表，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## 已将更相关的分配添加到“新建任务”工作流

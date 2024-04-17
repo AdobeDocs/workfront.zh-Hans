@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,68 @@ ht-degree: 1%
 ## Adobe Workfront增强功能
 
 * [其他增强功能](#other-enhancements)
+* [项目增强功能](#project-enhancements)
+
+### 项目增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                                <p><span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span></p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相关的智能分配</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.3版本（2024年3月14日）</p>
+                                <p><span style="color: #ff0000;">此功能已于2024年3月18日从为快速版本客户制作的产品中删除。</span></p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：待定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### 其他增强功能
 
@@ -72,6 +134,8 @@ ht-degree: 1%
         </table>   
            </tbody>
         </table>
+
+
 
 ## 公告
 
