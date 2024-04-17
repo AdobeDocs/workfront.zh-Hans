@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,27 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
 1. 选择 **系统** 在左侧导航中，然后选择 **环境升级**.
 1. 从显示的列表中选择程序包。
-1. 要安装包，请单击 **安装** 在屏幕的右上角。
-1. 将包中的每个对象映射到目标环境中的相应对象。
+1. 对于每个有冲突的对象，选择如何解决冲突。
 
-   有关更多信息，请参阅 [映射](#mapping) 本文内容
+   要解决冲突，请单击对象类型旁边的下拉箭头，然后选择要执行的操作。
 
+   有关更多信息，请参阅 [冲突](#collisions) 本文内容
+1. 要将包部署到新环境，请单击 **部署** 在屏幕的右上角。
 
-## 映射
+## 冲突
 
-每种对象类型都列在左侧导航和卡片中。 信息卡会显示该类型的对象以及这些对象是否存在于目标环境中。 您可以确定如何将这些对象移动到目标环境。
+当作为安装包的一部分的对象已存在于目标环境中时，会发生冲突。 发生这种情况时，可以选择如何解决冲突。 冲突将在对象级别上解决。
 
-* 新建：在目标环境中创建新对象。 如果对象存在于目标环境中，则可以使用新名称创建新对象。 如果目标环境中不存在该对象，则可以使用新名称或对象在包中的名称来创建对象。
-* 使用existing：未安装包中的对象，并且目标环境中已存在的对象保持不变。
-* 覆盖现有对象： （当前不可用）包中的对象将替换目标环境中的现有对象。
-* 不使用：包中的对象未安装在目标环境中。 如果选择“不使用”，则会出现一条错误消息，详细说明该选择将如何影响其他对象或字段。
+您可以通过单击每个对象类型旁边的下拉菜单来查看冲突。 冲突显示在“冲突”列中。
+
+要解决冲突，请在“部署操作”列中选择操作，或者使用已显示的默认操作。
+
+* **使用新名称创建**：在目标环境中创建新对象。 如果对象存在于目标环境中，则可以使用新名称创建新对象。 如果目标环境中不存在该对象，则可以使用新名称或对象在包中的名称来创建对象。
+* **使用现有**：未安装包中的对象，并且目标环境中已存在的对象保持不变。
+* **覆盖**：包中的对象替换目标环境中的现有对象。
+<!--
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+-->
 
 默认值为 `Create new` 如果目标环境中不存在该对象，并且 `Use existing` 如果目标环境中确实存在该对象。 您可以通过单击还原到默认映射 **重置为默认映射**.
 

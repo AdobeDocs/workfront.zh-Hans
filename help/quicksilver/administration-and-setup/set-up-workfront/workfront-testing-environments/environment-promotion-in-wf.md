@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
+source-git-commit: 1141131f57982bc9fec371dba78eb57136e33145
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 2%
+source-wordcount: '915'
+ht-degree: 1%
 
 ---
 
@@ -99,15 +99,18 @@ ht-degree: 2%
 
 \*当前不可用
 
+<!--
+
 >[!NOTE]
 >
->操作（忽略、选择现有和新建）在以下对象中可用：
+>Actions (ignore, select existing, and create new) are available on the following objects:
 >
->* 角色
->* 团队
->* 公司
->* 组
+>* Role
+>* Team
+>* Company
+>* Group
 
+-->
 
 ## 环境提升状态
 
