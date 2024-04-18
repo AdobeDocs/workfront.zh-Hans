@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>未装配</td> 
+   <td><p>此状态将自动指定，表示已保存但尚未装配的软件包。 </p><p>客户无法直接设置此状态。</p></td> 
+  </tr> 
   <tr> 
    <td>组装</td> 
    <td><p>在组装对象时，将自动指定此状态。 </p><p>组合是指自动识别要包含在包中的对象和子对象，并将这些对象及其数据添加到包中的过程。</p><p>客户无法直接设置此状态。</p></td> 
