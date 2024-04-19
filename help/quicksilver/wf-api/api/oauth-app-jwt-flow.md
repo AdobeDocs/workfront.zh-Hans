@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 ## 创建OAuth2应用程序
 
 有关创建OAuth2应用程序的说明，请参阅 [使用服务器身份验证（JWT流）创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) 在 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>您一次最多可以拥有10个OAuth2应用程序。
 
 ## 创建公钥证书
 
@@ -55,15 +59,15 @@ JWT必须经过签名并进行base-64编码以包含在访问请求中。 JWT库
  <tbody> 
   <tr> 
    <td role="rowheader">费用</td> 
-   <td> <p>必填. 到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。 您必须确保过期时间晚于问题发生时间。 之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
+   <td> <p>必需。 到期参数是测量自01/01/1970 GMT以来的绝对时间的必需参数。 您必须确保过期时间晚于问题发生时间。 之后，JWT不再有效。 </p> <p>注意：我们建议您拥有一个生命周期非常短的令牌（几分钟），以便该令牌在转换为访问令牌后不久过期。 每次需要新的访问令牌时，都会签署和交换一个JWT。 这是一种更安全的方法。 我们不建议根据需要重复用于获取访问令牌的长效令牌。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
-   <td>必填. 在OAuth2应用程序详细信息中，颁发者是您的客户ID。</td> 
+   <td>必需。 在OAuth2应用程序详细信息中，颁发者是您的客户ID。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">sub</td> 
-   <td>必填. 主题是在设置中创建公钥的用户ID。</td> 
+   <td>必需。 主题是在设置中创建公钥的用户ID。</td> 
   </tr> 
  </tbody> 
 </table>
