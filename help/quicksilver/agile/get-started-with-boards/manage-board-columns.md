@@ -6,9 +6,9 @@ description: 默认情况下，新展示板包含三列。 您可以添加更多
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 隐藏配置]** 关闭 [!UICONTROL 配置] 面板。
 
 ## 定义列设置和策略
+
+列策略包括自动更新字段值，以及设置进行中的工作限制。
+
+更新状态的策略将自动同时适用于卡和列：
+
+* 当信息卡移动到具有策略的列时，信息卡状态将更新为策略中定义的状态。 这同时适用于ad hoc卡和连接的卡。
+* 当信息卡上的临时或已连接信息卡状态更新以匹配策略中的列状态时，或Workfront中的其他位置更新已连接信息卡状态时，信息卡会自动移动到该列。 此外，如果信息卡上的自定义状态与分配给该列的系统状态匹配，则信息卡将被移动到该列。
+
+如果信息卡状态与任何现有列策略中设置的任何状态都不匹配，则该信息卡将保留在放置它的列中。
 
 >[!NOTE]
 >
