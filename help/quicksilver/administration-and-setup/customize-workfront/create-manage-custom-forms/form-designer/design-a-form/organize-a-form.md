@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 0%
        <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用它们，也是如此。</p> </li> 
        <li> <p>将多个对象类型与表单关联可以更改这些步骤中可用的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多个对象类型如何影响自定义表单中的分区界限权限</a> 本文章中。</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>添加逻辑</p></td> 
+      <td><p>根据用户在填写表单时在多选自定义字段中做出的选择，使用显示逻辑指定是否在表单上显示部分。</p><p><strong>注意：</strong> 如果分区界限下的所有单个字段应用了显示逻辑，并且它们都因该逻辑而隐藏，则整个分区将在自定义表单上隐藏。 即使未将显示逻辑应用于分区界限，也会发生这种情况。</p><p>有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">使用表单设计器添加显示逻辑和跳过逻辑</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

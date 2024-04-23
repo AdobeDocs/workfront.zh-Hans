@@ -7,10 +7,10 @@ description: 您可以选择向展示板添加引入列，以根据您定义的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 2%
 
 * 主要顺序：项目名称
 * 次要顺序：参考号
+
+>[!IMPORTANT]
+>
+>如果有多位用户同时使用讨论区，建议经常刷新讨论区。 刷新页面有助于使展示板上的视觉更改保持最新，并防止出现从摄取列将重复卡片移动到展示板的问题。
 
 有关列的详细信息，请参见 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 有关已连接卡的信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
