@@ -9,9 +9,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模块中使用双方TLS，�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
 >* **TLS**：当用户在浏览器中输入“MyGreatBank.com”时，他们希望确保自己将转到“我的伟大银行”，而不是可能滥用或出售其银行信息的网站。 他们还想确保自己的银行账户信息被加密。
 >
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 这些 [!DNL Workfront Fusion] 公共证书将于2024年6月9日到期。 您的证书过期后，您需要向Web服务上传新证书。 我们建议您：
+>* 这些 [!DNL Workfront Fusion] 公共证书将于2025年5月7日到期。 您的证书过期后，您需要向Web服务上传新证书。 我们建议您：
 >
 >   * 记下过期日期，并设置一个提醒，提醒您自己将证书上传到您的Web服务。
 >   * 将此页加入书签以轻松查找新证书。
