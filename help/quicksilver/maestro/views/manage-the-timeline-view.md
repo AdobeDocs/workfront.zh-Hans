@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!NOTE]
    >
-   >    必须先在表格视图中添加缩略图，然后才能在时间轴视图中显示它们。 有关更多信息，请参阅 [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   >    必须先在表格视图中添加缩略图，然后才能在时间轴视图中显示它们。 有关更多信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. 单击 **添加字段** 最多向记录栏添加4个字段。
 1. 在 **搜索字段** 框中，然后单击要添加字段。

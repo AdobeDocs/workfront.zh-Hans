@@ -1,20 +1,20 @@
 ---
-title: 将缩略图添加到记录
+title: 向记录添加缩略图
 description: 您可以在Adobe Workfront Planning中编辑记录信息，并将每个记录与单个缩略图相关联，以便轻松识别。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information-->
 
-# 将缩略图添加到记录
+# 向记录添加缩略图
 
 {{maestro-important-intro}}
 

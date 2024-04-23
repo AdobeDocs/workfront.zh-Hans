@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ hide: yes
 
 1. （可选）向每条记录添加缩略图，然后单击 **字段** 选择表格右上角的切换开关， **缩略图** 字段以将其显示在主字段的左侧。 默认情况下，该复选框处于取消选中状态。
 
-   有关信息，请参阅 [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. （可选）选择一行中的一个或多个记录，然后拖放 **句柄** 图标 ![](assets/handle-icon.png) 记录名称的左侧，用于对行重新排序。
 

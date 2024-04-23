@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ ht-degree: 0%
 
 ## 创建工作区
 
+您可以创建一个工作区并向其中添加记录类型，以便在Workfront Planning中组织对象。 有关编辑工作区的详细信息，请参阅 [编辑工作区](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+这将打开Workfront Planning的“工作区”区域。
 
 1. （视情况而定）如果您的环境中没有任何工作区，请单击 **创建工作区**
 
-   或者，从现有工作区中，单击工作区名称右侧的向下指向，然后单击 **创建工作区**.
+   或者，从现有工作区中，单击工作区名称右侧的向下箭头，然后单击 **创建工作区**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   这将打开Workfront Planning的“工作区”区域。
+
 1. （可选且视情况而定）单击 **预览** 在以下任何预定义workspace模板中：
 
    * 营销管理
@@ -136,14 +140,10 @@ ht-degree: 0%
 
    将创建以下工作区类型之一：
 
-   * 一个空的工作区，您可以从头开始创建工作区时开始手动添加记录类型。
-   * 工作区填充了示例记录类型，当您使用其中一个模板时，可以进一步自定义这些类型。
+   * 名为的空工作区 **无标题工作区** 从头开始创建工作区时，您可以开始手动添加记录类型。
+   * 以您选择的模板命名的工作区，该模板填充了示例记录类型。 您可以进一步自定义记录类型和工作区。
 
-1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键
-
-   或
-
-   单击 **更多** 菜单 ![](assets/more-menu.png)工作区名称右侧，然后单击 **重命名**.
+1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键。
 
 1. （可选且视情况而定）如果您是从模板创建工作区的，请在模板名称内单击 **操作记录类型** 或 **分类** 部分
 
@@ -153,25 +153,14 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以从任何工作区重命名任何分区，即使您创建了分区。
+   >您可以从任何工作区重命名任何分区，即使您未创建该分区也是如此。
 
-1. （可选）要更改节的位置，请执行下列操作之一：
-
-   * 将鼠标悬停在区域名称上，然后单击 **抓取** 图标 ![](assets/grab-icon.png)，然后将其拖放到右侧。
-   * 将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **上移** 或 **下移**. 部分在工作区中向上或向下移动。
-
-1. （可选）要添加新部分，请执行下列操作之一：
-
-   * 单击 **添加分区** 位于工作区的底部。
-   * 将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **添加以上部分** 或 **在下面添加部分**.
+   有关编辑工作区（包括编辑工作区部分）的详细信息，请参阅 [编辑工作区](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. （可选）单击 **添加记录类型** 将记录类型添加到任意部分中的工作区。
 
    有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
-1. （可选）要删除节，请执行以下操作：
+   有关在工作区中编辑和删除记录类型的更多信息，请参阅 [编辑工作区](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. 将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **删除**. <!--add screen shot when UI is final?-->
-   1. 选择新分区以将所有记录类型移动到该分区，然后单击 **删除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      所有记录类型都将移到选择部分，并删除该部分。

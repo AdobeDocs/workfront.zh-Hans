@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ hide: yes
 默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要编辑其记录类型的工作区。
-1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **更新外观**.
+1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **编辑**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. 在 **更新记录类型** 框中，更新以下信息：
+1. 在 **编辑记录类型** 框中，更新以下信息：
 
-   * **记录名称**：根据需要编辑记录类型名称。 <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **外观**：编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
+   * 根据需要编辑记录类型名称。 <!--did they add a field label for this? -->
+   * **描述**：编辑或添加记录类型的描述，其中包含有关该记录类型的更多信息。
+   * 编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
       * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
      ![](assets/update-record-type-box.png)
 
-1. 在 **更新记录类型** 框以保存更改。
+1. 单击&#x200B;**保存**。
 1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面。
-1. 单击 **更多** “记录类型名称”右侧的菜单，然后单击 **重命名** 重命名记录类型
+1. 单击 **更多** “记录类型名称”右侧的菜单，然后单击 **编辑** 更新有关记录类型的信息。
 
-   或
+   >[!TIP]
+   >
+   >   您可以重命名标题中的记录类型。
 
-   重命名标题中的记录类型。  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   您还可以在记录类型页面的标题中重命名记录类型。
 1. （可选）展开记录类型名称右侧的向下箭头，然后选择要编辑的其他记录类型。

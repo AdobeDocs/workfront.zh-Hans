@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 52cc4748daaadb78318f9dfd10ab27e22a0cd753
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '14162'
+source-wordcount: '14171'
 ht-degree: 1%
 
 ---
@@ -2083,7 +2083,8 @@ ht-degree: 1%
       * [共享记录](maestro/records/share-records.md)
       * [管理记录注释](maestro/records/manage-record-comments.md)
       * [“历史记录”部分概述](maestro/records/history-section-overview.md)
-      * [将缩略图添加到记录](maestro/records/add-thumbnails-to-records.md)
+      * [向记录添加缩略图](maestro/records/add-thumbnails-to-records.md)
+      * [将封面图像添加到记录](maestro/records/add-a-cover-image-to-a-record.md)
       * [管理记录页面](maestro/records/manage-the-record-page.md)
    * AdobeMaestro视图 {#adobe-maestro-views}
       * [视图：文章索引](maestro/views/views-information.md)

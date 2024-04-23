@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## 2024年4月22日起一周
+
+### 编辑工作区或记录类型时更新了工作流
+
+生产： 2024年4月23日
+
+预览：待定
+
+我们更新了“编辑工作区”和“编辑记录类型”框的外观。
+
+在编辑工作区或记录类型时，您现在可以定义名称、描述以及为它们分配颜色和图标。
+
+有关更多信息，请参阅以下文章：
+
+* [编辑工作区](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [编辑记录类型](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## 2024年4月8日起一周
 
@@ -373,7 +391,7 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 您现在可以向每个记录添加单个缩略图，以便在视图中区分它们。 在表格视图中，您可以添加以前保存在计算机上的图像文件作为缩略图。 缩略图对于每个记录可能是唯一的，并且会同时显示在记录类型页面的表格和时间线视图中。
 
-有关更多信息，请参阅 [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+有关更多信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### 删除连接的记录类型卡片
 

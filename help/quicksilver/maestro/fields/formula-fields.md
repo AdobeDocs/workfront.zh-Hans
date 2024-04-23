@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 公式字段使用记录类型中其他字段的现有值以及指示应如何计算现有值的函数来生成新值。
 
-有关信息，请参阅 [创建字段](../fields/create-fields.md).
+有关信息，请参阅文章中的“公式”部分 [创建字段](../fields/create-fields.md).
 
 ## 访问要求
 

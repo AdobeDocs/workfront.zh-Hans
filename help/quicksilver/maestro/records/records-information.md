@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,6 @@ hide: yes
 * [连接记录](/help/quicksilver/maestro/records/connect-records.md)
 * [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [“历史记录”部分概述](/help/quicksilver/maestro/records/history-section-overview.md)
-* [将缩略图添加到记录](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [将封面图像添加到记录](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [管理记录页面](/help/quicksilver/maestro/records/manage-the-record-page.md)

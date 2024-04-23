@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -147,15 +147,17 @@ ht-degree: 0%
 
 1. 更新以下信息：
 
-   * **记录类型名称**：将“无标题的操作记录类型”替换为您未来记录类型的名称。
-   * **外观**：定义与记录类型关联的图标的颜色和形状。 执行以下操作：
+   * 将“无标题的操作记录类型”替换为您未来记录类型的名称。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **描述**：添加有关记录类型的更多信息。
+   * 为与记录类型关联的图标选择颜色和形状。 执行以下操作：
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. 在 **添加记录类型** 框，以保存记录类型。
+1. 单击 **创建**.
 
    记录类型信息卡会添加到部分和您选择的工作区。
 记录类型包含的信息卡上显示的字段数。
+1. （可选）将鼠标悬停在记录类型卡片上，单击 **更多** 图标 ![](assets/more-menu.png) 图标，然后单击 **编辑** 编辑有关记录类型的信息。
 1. （可选）单击记录类型卡以打开记录类型页面。
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ ht-degree: 0%
 
    或
 
-   单击 **更多** 图标 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **重命名** 以对其进行重命名。
+   单击 **更多** 图标 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **编辑** 以重命名它或更改有关它的信息。 有关更多信息，请参阅 [编辑记录类型](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. （可选）单击 **+新记录** 以添加所选记录类型的记录。 有关更多信息，请参阅 [创建记录](../records/create-records.md).
 1. （可选）单击 **+** 图标来添加更多字段到记录类型。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 0%
 * 如果显示的记录链接到其他记录，则您正在编辑的记录的新信息将反映在链接的记录上。
 * 不能批量编辑记录。 <!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
+* 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。
 * 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关更多信息，请参阅 [管理记录页面](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 编辑记录
@@ -130,7 +131,7 @@ ht-degree: 0%
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
    >  
@@ -209,7 +210,18 @@ ht-degree: 0%
    >
    >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
-1. 开始编辑记录框中的字段信息。 Workfront会自动保存您所做的更改。
+1. 开始编辑记录框中的字段信息。
+
+   >[!TIP]
+   >
+   >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
+   >  
+   >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+   >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
+
+1. （可选）单击 **添加封面** 向记录中添加封面图像。 有关更多信息，请参阅 [将封面图像添加到记录](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront会自动保存您所做的更改。
 
 1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。 继续编辑记录，如中所述 [从记录的页面编辑记录](#edit-a-record-from-the-records-page) 部分。
 
@@ -227,7 +239,7 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   * 从任何视图中访问记录的框，如 [在视图中编辑记录框中的记录](#edit-a-record-from-the-records-box-in-a-view) 部分。 然后，单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。
+   * 从任何视图中访问记录的框，如 [在视图中编辑记录框中的记录](#edit-a-record-from-the-records-box-in-a-view) 部分，然后单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。
 
    * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
 
@@ -237,12 +249,16 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
-1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **编辑**
+1. 单击记录页面上的任何可编辑字段以编辑它。
 
-   或
+   >[!TIP]
+   >
+   >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
+   >  
+   >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](../architecture/connect-record-types.md).
+   >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
-   在记录页面上的任何可编辑字段中单击以编辑信息。
+1. （可选）单击 **添加封面** 向记录中添加封面图像。 有关更多信息，请参阅 [将封面图像添加到记录](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront会自动保存您所做的更改。
 
-1. 单击 **保存更改**.
