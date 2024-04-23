@@ -8,9 +8,9 @@ description: 数据存储类似于数据库或简单表，可以存储场景中�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -44,35 +44,56 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!DNL Pro] 或更高</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p><p>或</p><p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版：任意 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 可用数据空间
+
+如果贵组织使用的是新的Workfront计划模型（Select、Prime和Ultimate包），则贵组织的计划会影响Fusion实例可用的数据存储的大小和数量。
+
+### 最终计划
+
+Ultimate包上的Fusion实例将接收：
+
+* 500 MB空间
+* 50个数据存储
+
+### 选择并优化计划
+
+Select或Prime包上的Fusion实例将接收：
+
+* 第一个500K操作为100 MB。
+
+* 每个额外的100,000操作为10 MB。
+
+例如，拥有600K操作的组织接收110 MB。
 
 ## 在中创建数据存储 [!DNL Workfront Fusion]
 
