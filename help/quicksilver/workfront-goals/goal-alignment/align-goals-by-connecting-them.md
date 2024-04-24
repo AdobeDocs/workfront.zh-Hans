@@ -6,9 +6,9 @@ description: 如果您是具有个人目标的个人投稿人，则可能需要�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -90,12 +90,6 @@ ht-degree: 0%
 </table>
 
 *有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-## 先决条件
-
-在开始之前，您必须具备以下条件：
-
-* 在主菜单中包含目标区域的布局模板。
 
 ## 通过将目标相互连接来调整目标
 

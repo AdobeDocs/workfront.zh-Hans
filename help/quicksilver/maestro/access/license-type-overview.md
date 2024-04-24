@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**示例：** 请求者（或协作者，根据新的许可证模型）无法参与或管理工作区及其对象。
+>**示例：**
+>
+>请求者（或协作者，根据新的许可证模型）无法参与或管理工作区及其对象。
 >
 >共享框中有一个指示，即当用户拥有较低级别的许可证时，无法向其授予参与或管理工作区的权限。
 >
@@ -45,8 +47,10 @@ ht-degree: 0%
 向用户授予对工作区的权限也会授予他们记录类型、记录和字段的权限。
 
 
-| Adobe Workfront许可证类型 | Adobe Workfront Planning中允许的权限 |
+| Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 新增：标准 <br> 或 <br>当前：计划 | 用户可以创建和管理工作区、记录类型和记录。<br> 系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。 |
 | 新建：浅色 <br> 或 <br>当前：工作 | 用户可以贡献并查看与其共享的工作区，以及该工作区的记录类型和记录。 <br> 用户可以在具有Contribute权限的工作区中创建、编辑和删除记录。 |
 | 新：参与者 <br> 或 <br>当前：查看者或请求者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型和记录。 <br> 用户无法创建、编辑或删除记录类型或记录。 |
+
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

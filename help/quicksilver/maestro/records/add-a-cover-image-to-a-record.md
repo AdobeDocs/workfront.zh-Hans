@@ -1,15 +1,17 @@
 ---
 title: 将封面图像添加到记录
-description: 您可以在Adobe Workfront Planning中编辑记录信息，并将每个记录与封面图像相关联，以个性化记录的页面。
+description: 编辑记录时，您可以在Adobe Workfront Planning中将封面图像添加到记录页来个性化记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront Planning中编辑记录信息，并将每个记录与封面图像相关联，以个性化记录的页面。
+编辑记录时，您可以在Adobe Workfront Planning中将封面图像添加到记录页来个性化记录。
+
+有关编辑记录的信息，请参见 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 必须先创建记录类型，然后才能开始创建和编辑记录。
+
 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
 ## 访问要求
@@ -81,14 +86,15 @@ ht-degree: 0%
 
 ## 有关记录页封面图像的注意事项
 
-您可以通过向记录页添加封面图像对其进行个性化设置。 该图像对于每个记录都是唯一的，并且不适用于相同类型的所有记录。
+您可以通过向记录页添加封面图像对其进行个性化设置。
 
 请考虑以下事项：
 
+* 封面图像对于一个记录是唯一的，并且不适用于同一类型的所有记录。
 * 只能添加图像文件作为封面图像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 您可以从任何视图的记录框或记录页面将封面图像添加到单个记录。
-* 不能从表格视图内联添加封面图像。
+* 不能从任何记录视图内联添加封面图像。
 
 ## 将封面图像添加到记录
 

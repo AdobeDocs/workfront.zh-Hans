@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,11 @@ recommendations: noDisplay, noCatalog
 
 * 从头开始
 * 通过连接记录类型
-* 通过使用Excel和CSV文件导入记录类型
+* 通过使用Excel或CSV文件导入记录类型
 * 通过创建记录类型
 * 通过从模板创建工作区
 
-有关主字段的详细信息，请参阅 [字段概述](../fields/fields-overview.md)
+有关主字段的详细信息，请参阅 [字段概述](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## 访问要求
 
@@ -93,7 +93,7 @@ recommendations: noDisplay, noCatalog
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理工作区的权限</a> </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
+   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p>
 </td>
   </tr>
 <tr>
@@ -210,7 +210,7 @@ recommendations: noDisplay, noCatalog
 1. 单击 **添加选项** 根据需要添加任意数量的选项。 您可以向多选字段添加的选项数量没有限制。
 1. （可选）按所需顺序手动拖放每个选项，或选择
    **将选项按A-Z排序** 选项。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. 单击 **x** 图标以将其删除。
+1. （可选）要删除选项，请单击 **x** 图标（位于其右侧）。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
 1. 单击 **创建**.
 
@@ -232,7 +232,7 @@ recommendations: noDisplay, noCatalog
 
 1. 单击 **添加选项** 根据需要添加任意数量的选项。 您可以向单选字段添加的选项数量没有限制。
 1. （可选）按所需顺序手动拖放每个选项，或选择 **将选项按A-Z排序** 选项。 <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. 单击 **x** 图标以将其删除。
+1. （可选）要删除选项，请单击 **x** 图标（位于其右侧）。
 1. 单击某个选项左侧的颜色样本可展开颜色选择器并自定义每个选项的颜色。
 1. 单击 **创建**.
 
@@ -373,7 +373,7 @@ recommendations: noDisplay, noCatalog
 
    有关支持的表达式的详细信息，请参阅 [公式字段概述](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 添加在Workfront Planning界面中显示的字段名称，以在公式中引用它们。
+1. 添加在Workfront Planning中显示的字段名称，以在公式中引用它们。
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ recommendations: noDisplay, noCatalog
 
 ### 人员
 
-您可以使用“人员”字段类型添加用户 <!--, job role, or team--> 录音。 这是预先输入字段，您只能添加用户<!--, roles, or teams--> Workfront中已存在的受众。
+您可以使用“人员”字段类型添加用户 <!--, job role, or team--> 录音。 这是预先输入字段，您只能添加用户<!--, roles, or teams--> 您的Workfront实例中已存在的受众。
 
 1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **人员** 字段类型。
 
@@ -427,7 +427,7 @@ recommendations: noDisplay, noCatalog
 
 ### 创建日期
 
-您可以使用创建日期字段类型向记录添加记录的创建日期。 此字段为只读字段，并且会自动填充创建记录的日期(以及（可选）时间。
+您可以使用创建日期字段类型将记录的创建日期添加到记录。 此字段为只读字段，并且会自动填充创建记录的日期(以及（可选）时间。
 
 1. 开始创建字段，如一节所述 [从头开始创建字段](#create-fields-from-scratch) 在本文中，然后选择 **创建日期** 字段类型。
 
@@ -514,7 +514,7 @@ recommendations: noDisplay, noCatalog
 
 有关连接Workfront Planning记录类型的信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 
-## 通过使用Excel和CSV文件导入记录类型来创建字段
+## 通过使用Excel或CSV文件导入记录类型来创建字段
 
 有关更多信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 

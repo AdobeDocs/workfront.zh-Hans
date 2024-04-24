@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,11 @@ ht-degree: 7%
   有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/maestro/access/license-type-overview.md).
 * 系统管理员可以管理和共享其他用户创建的工作区。
 * 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
-* 您无法批量共享工作区。
+* 不能批量共享工作区或视图。
 * 您可以与以下实体共享工作区或视图：
    * 用户
    * 组
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
 * 您可以与其他人共享指向工作区或从记录类型页面查看的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
@@ -114,9 +115,28 @@ ht-degree: 7%
 
 您必须授予单独的权限以记录视图。 向工作区授予权限不会向工作区中的记录视图授予权限。
 
+<!--You can share views internally or publicly. -->
+
 |        | 管理 | 查看 |
 |--------|--------|-------|
 | 编辑 | ✓ {\f13 } |       |
 | 删除 | ✓ {\f13 } |       |
+| 共享 | ✓ {\f13 } |       |
 | 查看 | ✓ {\f13 } | ✓ {\f13 } |
 | 应用 | ✓ {\f13 } | ✓ {\f13 } |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->
