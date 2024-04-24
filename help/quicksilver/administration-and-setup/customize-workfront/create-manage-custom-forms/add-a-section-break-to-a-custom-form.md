@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,8 @@ ht-degree: 0%
        <p>有关对象权限的信息，请参见 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">对象权限共享概述</a>.</p> 
        <p><b>注意</b>：  
        <ul> 
-       <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用它们，也是如此。</p> </li> 
+       <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用它们，也是如此。</p> </li>
+       <li><p>对于请求/问题自定义表单：如果需要查看访问权限才能查看分区界限中的字段，但需要管理员访问权限才能编辑字段，则非管理员在填写表单时将看不到分区及其所有字段。 创建请求后，具有查看权限的用户可以查看部分中的字段。</p></li>
        <li> <p>将多个对象类型与表单关联可以更改这些步骤中可用的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多个对象类型如何影响自定义表单中的分区界限权限</a> 本文章中。</p> </li> 
         </ul> </p> </td> 
      </tr> 

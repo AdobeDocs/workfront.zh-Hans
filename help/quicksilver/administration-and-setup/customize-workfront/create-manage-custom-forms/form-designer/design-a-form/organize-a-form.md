@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ ht-degree: 0%
        <p><b>注意</b>：  
        <ul> 
        <li> <p>没有您在此处指定的权限的用户看不到部分中的自定义字段和小部件。 </p> <p>如果您在报表中显示字段的值，或在文本模式报表的计算字段中使用它们，也是如此。</p> </li> 
+       <li><p>对于请求/问题自定义表单：如果需要查看访问权限才能查看分区界限中的字段，但需要管理员访问权限才能编辑字段，则非管理员在填写表单时将看不到分区及其所有字段。 创建请求后，具有查看权限的用户可以查看部分中的字段。</p></li>
        <li> <p>将多个对象类型与表单关联可以更改这些步骤中可用的查看和编辑权限。 有关更多信息，请参阅 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">多个对象类型如何影响自定义表单中的分区界限权限</a> 本文章中。</p> </li> 
         </ul> </p> </td> 
      </tr> 
