@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>已禁用</td> 
-   <td><p>此状态将用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用<code>DELETE /package</code> 终结点，因为它可检索，并且使用此包进行的任何部署都将保留安装历史记录。</p></td> 
+   <td><p>此状态用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用<code>DELETE /package</code> 因为它是可检索的，所以将保留使用此包进行的任何部署的安装历史记录。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 

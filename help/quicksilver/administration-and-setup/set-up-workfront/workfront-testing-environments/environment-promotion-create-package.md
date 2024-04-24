@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. 选择 **系统** 在左侧导航中，然后选择 **环境升级**.
 1. 从显示的列表中选择程序包。
 1. （视情况而定）要查看已存档（已禁用）的包，请启用 **显示已弃用的包** 选项。
-1. 要查看内容（包括所有对象及其子对象），请单击中对象类型旁边的下拉箭头 **目录** 部分。
-1. 要查看此软件包以前的安装和安装尝试，请单击 **部署**.
-1. 要编辑包，请单击 **编辑包** 在屏幕的右上角。
+1. （可选）要查看内容（包括所有对象及其子对象），请单击中对象类型旁边的下拉箭头 **目录** 部分。
+1. （可选）要查看此软件包的先前安装和安装尝试，请单击 **部署**.
+1. （可选）要编辑包，请单击 **编辑包** 在屏幕的右上角。
 1. 要安装包，请单击 **安装** 在屏幕的右上角。
 
    有关安装软件包的说明，请参阅 [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-
