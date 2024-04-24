@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront展示板连接器自动执行Workfro
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL列ID]</td> 
-   <td>输入或映射要添加子任务的列的ID。<p>您可以从读取展示板模块返回的信息中找到标记ID。</p></td> 
+   <td>输入或映射要添加子任务的列的ID。<p>您可以从读取展示板模块返回的信息中找到列ID。</p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL名称]</td> 
@@ -292,7 +292,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL目标列ID]</td> 
-   <td>输入或映射要将卡片移动到的列的ID。<p>您可以从读取展示板模块返回的信息中找到标记ID。</p></td> 
+   <td>输入或映射要将卡片移动到的列的ID。<p>您可以从读取展示板模块返回的信息中找到列ID。</p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL到索引]</td> 
@@ -346,7 +346,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[！UICONTROL卡ID]</td> 
-   <td>输入或映射卡的新描述/\。</p></td> 
+   <td>输入或映射卡的新描述。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ After the webhook is created, you can view the address of the endpoint that even
 
 ### 列
 
+* [创建列](#create-a-column)
+* [搜索列](#search-for-a-column)
+* [更新列](#update-a-column)
+
 #### 创建列
 
 此操作模块在指定的展示板上创建新列。
@@ -417,8 +421,62 @@ After the webhook is created, you can view the address of the endpoint that even
    <td>输入或映射要添加列的展示板的ID。<p>在Workfront中查看展示板时，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
+   <td>[！UICONTROL列ID]</td> 
+   <td>输入或映射要更新的列的ID。<p>您可以从读取展示板模块返回的信息中找到列ID。</p></td> 
+  </tr> 
+  <tr> 
    <td>[！UICONTROL列名称]</td> 
-   <td>输入或映射新列的名称。</td> 
+   <td>输入或映射列的新名称。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL WIP限制]</td> 
+   <td>输入或映射列的新WIP限制。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 搜索列
+
+此搜索模块返回有关具有指定名称的列的信息。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用现有的Workfront连接连接到Workfront展示板，也可以使用特定的Workfront展示板连接。 </p><p>有关连接 [!DNL Workfront] 应用到 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">创建与Workfront展示板的连接</a> 本文章中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL展示板ID]</td> 
+   <td>输入或映射包含要检索的列的展示板的ID。<p>在Workfront中查看展示板时，您可以在URL中找到展示板ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL列名称]</td> 
+   <td>输入或映射要检索的列的名称。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 更新列
+
+此操作模块可更新指定列的名称或WIP限制。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+      <td> <p>您可以使用现有的Workfront连接连接到Workfront展示板，也可以使用特定的Workfront展示板连接。 </p><p>有关连接 [!DNL Workfront] 应用到 [!DNL Workfront Fusion]，请参见 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">创建与Workfront展示板的连接</a> 本文章中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL展示板ID]</td> 
+   <td>输入或映射包含要检索的列的展示板的ID。<p>在Workfront中查看展示板时，您可以在URL中找到展示板ID。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL列名称]</td> 
+   <td>输入或映射要检索的列的名称。</td> 
   </tr> 
  </tbody> 
 </table>
