@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ You can click
 >您将Portfolio对象类型添加到表单，这意味着有限编辑权限选项不再可用于表单中的分区界限。
 >
 >屏幕消息会提示您切换到“编辑”权限，这是与“受限编辑”最相似的选项，与“项目”对象类型和“Portfolio”对象类型都兼容。
+

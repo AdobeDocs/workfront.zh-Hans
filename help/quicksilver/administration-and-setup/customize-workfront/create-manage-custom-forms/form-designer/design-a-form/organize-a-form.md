@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 0%
@@ -176,3 +176,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. 开始创建或编辑自定义表单并添加字段，如中所述 [设计窗体](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. 单击 **预览** ，查看该表单在使用时的外观，然后单击 **结束预览** 以返回编辑表单。
+
