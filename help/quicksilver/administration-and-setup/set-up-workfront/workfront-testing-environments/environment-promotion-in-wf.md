@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ ht-degree: 1%
 
 ## 环境升级支持的对象
 
-环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 它不支持移动事务性对象的功能（只有有限的例外）。
+环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 这些是可配置的对象，如项目、团队或自定义表单。
+
+环境升级不支持移动事务性对象的功能（只有少数例外）。 无法配置事务性对象。 示例包括系统活动更新和验证决策。
 
 * [工作对象](#work-objects)
 * [报表对象](#reporting-objects)
@@ -124,15 +126,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>未装配</td> 
-   <td><p>此状态将自动指定，表示已保存但尚未装配的软件包。 </p><p>客户无法直接设置此状态。</p></td> 
+   <td><p>此状态将自动指定，表示已保存但尚未装配的软件包。 </p><p>用户无法直接设置此状态。</p></td> 
   </tr> 
   <tr> 
    <td>组装</td> 
-   <td><p>在组装对象时，将自动指定此状态。 </p><p>组合是指自动识别要包含在包中的对象和子对象，并将这些对象及其数据添加到包中的过程。</p><p>客户无法直接设置此状态。</p></td> 
+   <td><p>在组装对象时，将自动指定此状态。 </p><p>组合是指自动识别要包含在包中的对象和子对象，并将这些对象及其数据添加到包中的过程。</p><p>用户无法直接设置此状态。</p></td> 
   </tr> 
   <tr> 
    <td>草稿</td> 
-   <td><p>此状态在装配过程结束时或创建空升级包时指定。</p><p>客户可以将促销包移回此状态。</p><p>处于此状态时，无法在任何环境中安装升级包。</p></td> 
+   <td><p>此状态在装配过程结束时或创建空升级包时指定。</p><p>用户可以将促销活动包移回此状态。</p><p>处于此状态时，无法在任何环境中安装升级包。</p></td> 
   </tr> 
   <tr> 
    <td>测试</td> 
@@ -144,11 +146,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>已禁用</td> 
-   <td><p>此状态用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用<code>DELETE /package</code> 因为它是可检索的，所以将保留使用此包进行的任何部署的安装历史记录。</p></td> 
+   <td><p>此状态用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用 <code>DELETE /package</code> 因为它是可检索的，所以将保留使用此包进行的任何部署的安装历史记录。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将包返回到ASSEMBLY阶段，必须再次触发提取过程。</p></td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅部分 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a> 在创建或编辑环境升级包一文中。</td> 
   </tr> 
   </tbody> 
 </table>
