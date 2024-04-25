@@ -7,7 +7,7 @@ description: 您可以选择向展示板添加引入列，以根据您定义的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 1%
@@ -162,3 +162,4 @@ ht-degree: 1%
    单击 **[!UICONTROL 更多]** 菜单 ![“更多”菜单图标](assets/more-icon-spectrum.png) ，然后选择 **[!UICONTROL 移动]**. 然后，在 **[!UICONTROL 移动项目]** 框中，选择另一列，然后选择 **[!UICONTROL 移动]**.
 
 1. （可选）要删除引入列，请单击 **[!UICONTROL 更多]** 菜单 ![“更多”菜单图标](assets/more-icon-spectrum.png) 并选择 **[!UICONTROL 删除]**.
+

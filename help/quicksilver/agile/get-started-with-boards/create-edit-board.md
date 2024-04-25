@@ -6,7 +6,7 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -109,3 +109,4 @@ ht-degree: 1%
 1. 单击 **[!UICONTROL 所有讨论区]** 以返回到展示板仪表板。
 
    您还可以找到标有当前主板名称的下拉菜单，然后单击该菜单切换到另一个主板。
+
