@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 351e48315c2b977886fffc0d71c9ec11d4eb3c5f
+source-git-commit: c46ea3c15139b190187726eed5ddb49135052e16
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ ht-degree: 0%
 * [创建与Experience Manager Assets或Assets Essentials链接的文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [在Experience Manager Assets Essentials集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
 * [从Experience Manager Assets或Assets Essentials中取消链接或删除资源和文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+* [使用Workfront Fusion将Workfront问题转换为包含Adobe Experience Manager工作流的项目](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
 * [Adobe Experience Manager集成疑难解答](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)

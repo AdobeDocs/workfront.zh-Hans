@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
+source-git-commit: daa9aa361e58242754aee93b3db4e1499756f29c
 workflow-type: tm+mt
-source-wordcount: '14166'
+source-wordcount: '14183'
 ht-degree: 1%
 
 ---
@@ -1155,6 +1155,7 @@ ht-degree: 1%
          * [创建与Experience Manager Assets或Assets Essentials链接的文件夹](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [从Experience Manager Assets或Assets Essentials中取消链接或删除资源和文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [在Experience Manager Assets Essentials集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+         * [使用Workfront Fusion将Workfront问题转换为包含Adobe Experience Manager工作流的项目](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager集成疑难解答](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 从旧版或增强型连接器迁移 {#migrate-from-legacy-enhanced-connectors}
       * [从旧版或增强型连接器迁移](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
