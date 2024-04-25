@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1702'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,7 @@ Workfront具有5个新的内置访问级别：
 
 * 可以提出请求并更新这些请求
 * 可以上传和批准文档
+* 可以批准项目、任务和问题
 * 可以检查他们已提交问题的状态
 * 可以分配给工作项，但无法完成它们
 * 只能从主菜单访问请求。 有关请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
