@@ -6,9 +6,9 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ After the monthly releases to Production, the same features are also available i
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront许可证*</td>
+ <td role="rowheader">Adobe Workfront许可证</td>
  <td>
- <p>新许可证：参与者或更高版本</p>
- 或
- <p>当前许可证：请求或更高版本</p> </td>
+ <p>任何</td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -65,7 +63,7 @@ After the monthly releases to Production, the same features are also available i
  </tr>
  <tr>
  <td role="rowheader">访问级别配置</td>
- <td> <p>查看或更高的目标访问权限</p> <p><b>注释</b><p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关更多信息，请参阅 <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">授予对Adobe Workfront目标的访问权限</a></span></td>
+ <td> <p>查看或更高的目标访问权限</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">对象权限</td>
@@ -76,10 +74,15 @@ After the monthly releases to Production, the same features are also available i
  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。 </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 
