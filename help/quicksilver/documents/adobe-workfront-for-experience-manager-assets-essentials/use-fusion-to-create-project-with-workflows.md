@@ -5,7 +5,7 @@ title: 使用Workfront Fusion创建具有Adobe Experience Manager工作流的Wor
 description: 如果您通过Workfront Fusion创建项目并希望在项目上包含Adobe Experience Manager工作流，则必须使用特定的Fusion模块配置，如本文所述。
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: df8f99da107f50eb1302188aa544f45b7b451966
+source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -156,4 +156,7 @@ ht-degree: 0%
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
 有关创建连接的说明，请参见 [连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) Workfront模块一文中。
+
+
+
 
