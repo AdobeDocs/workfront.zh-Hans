@@ -6,10 +6,10 @@ description: 新主页是一个用于管理您的工作的强大新功能。 您
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 
   >[!NOTE]
   >
-  >您必须具有创建任务的权限，才能在待办事项构件中创建待办事项。
+  >您必须具有创建任务的权限，才能在待办事项构件中创建待办事项，并且只有由当前用户输入的个人任务才会显示在待办事项构件中。
 
 默认情况下，主页会根据您的许可证类型填充几个特定的构件。 下表概述了每种许可证类型的用户首次导航到“新主页”时看到的构件。
 

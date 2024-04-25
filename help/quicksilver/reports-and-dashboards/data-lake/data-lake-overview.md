@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Workfront数据湖利用Snowflake技术提供了对Workfront数据的空前访�
 有关Workfront数据湖的更多信息，请参阅以下文章：
 
 * [Workfront Data Lake测试版信息](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [创建读者帐户](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [创建用于Snowflake的Reader（服务）帐户](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [建立与Workfront数据湖的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront数据湖数据字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [与业务智能工具和外部数据仓库共享数据湖数据](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->

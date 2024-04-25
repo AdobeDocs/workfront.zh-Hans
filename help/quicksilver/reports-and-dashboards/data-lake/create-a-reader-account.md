@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
 # 创建用于Snowflake的Reader（服务）帐户
 
-要访问Workfront数据湖数据，您必须首先为Snowflake创建读取器帐户。 此外，您必须将IP添加到计划连接到数据的任何外部工具的允许列表。
+要访问Workfront数据湖数据，您必须首先为每个新连接创建一个Snowflake读取器（或服务）帐户。 创建连接后，您可以通过单击 **数据访问** 页面(**主菜单** > **设置** > **系统** > **数据访问**)下 **现有连接** 选项卡。
+
+有关将新创建的连接与外部产品配合使用的信息，请参阅 [建立与Workfront数据湖的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## 访问要求
 
@@ -68,28 +70,12 @@ ht-degree: 0%
 
 1. 您现在可以使用用户名和新密码访问Snowflake中的Workfront数据湖或您选择的业务可视化工具。
 
-## 将IP添加到允许列表
-
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **设置**.
-
-1. 在左侧面板中，单击 **系统** > **数据访问**.
-
-1. 单击 **允许的IP** 选项卡，然后单击 **将IP地址添加到允许列表** 按钮。
-
-1. 在中输入IP地址的名称 **IP地址说明** 并输入要在其中使用的工具的IP地址 **IP地址**，然后单击 **将IP添加到允许列表**.
-
-   ![添加IP地址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## 撤销reader帐户或从允许列表中删除IP地址
+## 撤销读取者帐户
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **设置**.
 
 1. 在左侧面板中，单击 **系统** > **数据访问**.
 
 1. 单击垃圾桶图标 ![“删除”图标](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 要撤销的帐户的右侧。
-
-   或
-
-   单击 **允许的IP** 选项卡，然后单击垃圾桶图标 ![“删除”图标](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 要移除的IP地址的右侧。
 
 1. 在出现的窗口中，选中确认框，然后单击 **删除**.
