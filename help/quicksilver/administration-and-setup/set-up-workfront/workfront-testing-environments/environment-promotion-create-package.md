@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 1. 从列表中选择一个或多个对象，或在搜索栏中键入名称，然后在对象出现在列表中时将其选定。 您可以在列表中选择多个对象。
 1. 单击 **添加（X个对象）** 将所选对象添加到包中。
 
-   例如，如果您选择了三个项目以添加到项目中，则该按钮显示 **添加3个项目**.
+   >[!INFO]
+   >
+   >**示例**
+   >
+   >如果您选择了三个项目添加到项目中，则该按钮显示 **添加3个项目**.
 
    已添加的对象将显示在页面右侧的“包内容”区域中。
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
 1. 选择 **系统** 在左侧导航中，然后选择 **环境升级**.
 1. 从显示的列表中选择程序包。
-1. （视情况而定）要查看已存档（已禁用）的包，请启用 **显示已弃用的包** 选项。
+1. （视情况而定）要查看禁用的包，请启用 **显示已弃用的包** 选项。
 1. （可选）要查看内容（包括所有对象及其子对象），请单击中对象类型旁边的下拉箭头 **目录** 部分。
 1. （可选）要查看此软件包的先前安装和安装尝试，请单击 **部署**.
 1. （可选）要编辑包，请单击 **编辑包** 在屏幕的右上角。
