@@ -6,9 +6,9 @@ description: 从 [!UICONTROL 展示板] 图标板，您可以创建新展示板�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -81,6 +81,8 @@ ht-degree: 1%
    1. （可选）单击 [!UICONTROL **使用高级过滤器**] 以显示其他筛选器选项。
 
       此过程与在引入列上创建过滤器的过程相同。 有关更多信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      如果在创建动态展示板后更新其上的筛选器，则未包含在Workfront任务或问题中的卡片设置（如标记）将被重置。
 
    1. 添加筛选器后，单击 [!UICONTROL **创建展示板**].
 
