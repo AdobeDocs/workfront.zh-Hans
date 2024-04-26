@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-您可以在Adobe Workfront Planning中创建自定义字段，方法是引用现有字段并通过公式连接它们。 您可以通过创建自定义公式类型字段来实现这一点。
+您可以在Adobe Workfront Planning中创建自定义字段，方法是引用现有字段并在公式类型字段中连接它们。
 
 公式字段使用记录类型中其他字段的现有值以及指示应如何计算现有值的函数来生成新值。
 
@@ -154,7 +154,7 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表�
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>返回一年中的周数。（可选）您可以指定星期的开始日期（使用1表示星期日，使用2表示星期一）。 如果忽略，默认情况下，周从星期日开始。</p> <p>表达式的格式如下所示：
+   <td> <p>返回一年中的周数。（可选）您可以指定一周从哪一天开始（使用 1 表示星期日，或使用 2 表示星期一）。如果省略，则默认为一周从星期日开始。</p> <p>表达式的格式如下所示：
 
 <code>WEEKOFYEAR（日期，2）</code>
 或
