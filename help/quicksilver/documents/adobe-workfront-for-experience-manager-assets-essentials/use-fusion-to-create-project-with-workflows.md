@@ -5,7 +5,8 @@ title: 使用Workfront Fusion创建具有Adobe Experience Manager工作流的Wor
 description: 如果您通过Workfront Fusion创建项目并希望在项目上包含Adobe Experience Manager工作流，则必须使用特定的Fusion模块配置，如本文所述。
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -41,8 +42,25 @@ ht-degree: 0%
   <tr>
    <td><strong>产品</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>：<ul><li><p>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。</p></li><li><p>您必须对Adobe Experience Manager中的存储库具有写入权限。</p></li></ul>
-  <b>Workfront Fusion</b>：<p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul>   <p>或</p>
+   <td><b>Adobe Experience Manager<b>：
+   <ul>
+   <li>
+   <p>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。</p>
+   </li
+   ><li>
+   <p>您必须对Adobe Experience Manager中的存储库具有写入权限。</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>：<p>新增：</p>
+   <ul>
+   <li>
+   <p>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</p>
+   </li>
+   </ul>
+   <p>或</p>
    <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ ht-degree: 0%
 在Fusion中配置模块的连接时，您将使用此客户端ID和客户端密钥。
 
 有关创建连接的说明，请参见 [连接 [!DNL Workfront] 到 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) Workfront模块一文中。
-
-
-
 
