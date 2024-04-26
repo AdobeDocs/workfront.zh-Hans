@@ -6,9 +6,9 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 将文档发送到Experience Manager Assets或Assets Essentials
 
 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的资源不计入总体存储空间。
+
+通过此集成发送到Experience Manager的资源大小限制为 **5 GB**.
 
 在将资源从Workfront发送到Experience Manager Assets或Assets Essentials时，首先映射元数据字段。 配置为映射父对象的任何元数据也会发送。 有关配置元数据映射的详细信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 单击&#x200B;**保存**。新版本将保存在与先前版本相同的位置。
+1. 单击 **保存**. 新版本将保存在与先前版本相同的位置。
 
 ## 在Experience Manager Assets中将文档移动到链接的文件夹
 
