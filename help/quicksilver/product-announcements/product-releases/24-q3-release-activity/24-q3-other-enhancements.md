@@ -4,7 +4,7 @@ description: 2024年第三季度发布时间框架内的其他增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -24,3 +24,5 @@ ht-degree: 0%
 团队和用户不包括在此更改中。 用户仍然可以查看团队和用户名。
 
 有关更多信息，请参阅部分 [限制访问对象](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) 在 [!DNL Adobe Workfront] 对象概述文章。
+
+
