@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Workfront数据湖允许您通过商业智能工具使用组织的Workfront数�
 
 1. 单击 **允许的IP** 选项卡，然后单击 **将IP地址添加到允许列表** 按钮。
 
-1. 在中输入IP地址的名称 **IP地址说明** 并输入要在其中使用的工具的IP地址 **IP地址**，然后单击 **将IP添加到允许列表**.
+1. 在中输入IP地址的名称 **IP地址说明** 并输入要在其中使用的工具的IP地址（或CIDR块） **IP地址**，然后单击 **将IP添加到允许列表**.
 
    ![添加IP地址](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
