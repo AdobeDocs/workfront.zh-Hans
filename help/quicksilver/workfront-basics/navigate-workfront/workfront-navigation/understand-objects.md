@@ -6,14 +6,16 @@ description: “您在中显示的信息 [!DNL Adobe Workfront] 由存储在文�
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2400'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] 对象概述
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 <!--Audited: 12/2023-->
 
@@ -205,6 +207,18 @@ ht-degree: 1%
 | [!UICONTROL 注释] (或 [!UICONTROL 更新]) | ✓ {\f13 } |  |
 
 有关在中运行基本搜索和高级搜索的详细信息 [!DNL Workfront]，请参见 [Search [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+
+## 限制访问对象
+
+<span class="preview">
+当用户无权访问对象时，用户将看到“无权访问”该对象名称显示在Workfront中的任何位置。
+
+可以在访问级别或特定对象的权限中限制对对象的访问。
+
+这适用于 [对象的相互依赖性和层次结构](#interdependency-and-hierarchy-of-objects) 部分。 这不适用于团队和用户对象。
+
+</span>
 
 ## 对象报表
 

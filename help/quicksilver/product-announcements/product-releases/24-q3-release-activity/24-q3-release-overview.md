@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: a1d43c76d4737960f926c07df86065a40b87d6ef
+source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -85,16 +85,6 @@ ht-degree: 0%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
-                    </td>
-                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a></p>
@@ -146,6 +136,46 @@ ht-degree: 0%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改进了对象访问权限有限的用户的UI体验</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>当用户无权访问对象时，该对象名称在Workfront中显示的任意位置用户都将看到“无权访问”。 这种改进的体验还适用于Workfront API。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年3月27日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
+                            </li>
+                            <li>
+                                <p>按季度发布的生产：使用24.7版本 </p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                 </tr>
                 <tr>
                     <td>
                         <p><span class="bold">功能</span>
