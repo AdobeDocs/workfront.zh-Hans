@@ -6,9 +6,9 @@ description: 当您开始处理某个目标时，如果它在您的组织中变�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,18 @@ ht-degree: 0%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>最终计划 </li>
+  或
+  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>

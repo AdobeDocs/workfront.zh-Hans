@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -18,38 +18,22 @@ ht-degree: 0%
 
 # Adobe Workfront目标中的结果和活动
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+您的组织必须具备以下条件才能使用本文中所述的功能：
 
-Your organization must have the following to use the functionality described in this article:
+* 对于新计划和许可证结构：
 
-* For the legacy plan and license structure: 
+   * 最终计划
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     或
 
-* For the current plan and license structure:
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 对于当前计划和许可证结构：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * Pro或更高版本
+   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->您的组织必须具备以下条件才能使用本文中所述的功能：
->
->* Pro或更高版本 [Adobe Workfront计划](https://www.workfront.com/plans).
->* 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
->
->  请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
->
->有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
 要记录有关Workfront目标的进度，您必须将进度指示器与目标相关联。 除了结果和活动之外，您还可以将项目或子目标关联到目标以记录进度。
 

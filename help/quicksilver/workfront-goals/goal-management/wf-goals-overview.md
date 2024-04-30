@@ -7,51 +7,31 @@ description: Workfront目标将战略与工作执行和交付联系起来，帮�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 2fd9b380ea3f10195bea9ce3fd76359f97b00505
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目标概述
 
-<!-- Audited: 1/2024 -->
+您的组织必须具备以下条件才能使用本文中所述的功能：
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+* 对于新计划和许可证结构：
 
-Your organization must have the following to use the functionality described in this article:
+   * 最终计划
 
-* For the legacy plan and license structure: 
+     或
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
 
-* For the current plan and license structure:
+* 对于当前计划和许可证结构：
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+   * Pro或更高版本
+   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->您的组织必须具备以下条件才能使用本文中所述的功能：
->
->* 新增：
->   * Ultimate，或
->   * 除Workfront许可证外，还应选择或Prime、一个Adobe目标许可证
->* 当前：除了Workfront许可证之外，还有Adobe目标许可证
->
->请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
->
->有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
 
 Workfront目标将战略与工作执行和交付联系起来，帮助您定义、传达和实现战略成果。 您可以将每个人的努力集中在真正重要的事情上，使进展可衡量，并使团队能够取得令人惊叹的结果。 人们可以尽最大努力工作，因为他们知道自己的贡献会产生有意义的影响。

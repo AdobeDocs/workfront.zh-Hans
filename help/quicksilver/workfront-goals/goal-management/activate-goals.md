@@ -6,9 +6,9 @@ description: 在创建目标时，Adobe Workfront目标会将其保存为草稿�
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -36,13 +36,18 @@ ht-degree: 1%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>最终计划 </li>
+  或
+  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>

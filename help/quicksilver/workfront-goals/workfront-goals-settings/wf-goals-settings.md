@@ -8,47 +8,33 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目标设置
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+您的组织必须具备以下条件才能使用本文中所述的功能：
 
-Your organization must have the following to use the functionality described in this article:
+* 对于新计划和许可证结构：
 
-* For the legacy plan and license structure: 
+   * 最终计划
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     或
 
-* For the current plan and license structure:
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 对于当前计划和许可证结构：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * Pro或更高版本
+   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
->[!NOTE]
->
->您的组织必须具备以下条件才能使用本文中所述的功能：
->
->* Pro或更高版本 [Adobe Workfront计划](https://www.workfront.com/plans).
->* 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
->
->  请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
->
->有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 本节包含以下文章：
 

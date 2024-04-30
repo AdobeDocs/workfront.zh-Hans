@@ -6,9 +6,9 @@ description: 无论您是CEO、经理还是个人投稿人，都可以在Adobe W
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '727'
 ht-degree: 5%
 
 ---
@@ -27,14 +27,19 @@ ht-degree: 5%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>最终计划 </li>
+  或
+  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>
  <p>新许可证：参与者或更高版本</p>
@@ -52,7 +57,7 @@ ht-degree: 5%
  <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
  </tr>
 <tr>
-<td role="rowheader">访问级别*</td>
+<td role="rowheader">访问级别</td>
 <td> <p>编辑对目标的访问权限</p> </td>
 </tr>
 <tr data-mc-conditions="">

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -95,6 +95,8 @@ ht-degree: 0%
    * 记录视图中的记录框
    * 记录的页面
    * 内联，在表格视图中。
+
+<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
 
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段

@@ -6,9 +6,9 @@ description: 您可以通过访问目标详细信息面板来更新各个目标�
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -37,12 +37,18 @@ ht-degree: 1%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p> 
- </td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>最终计划 </li>
+  或
+  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>

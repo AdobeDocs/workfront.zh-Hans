@@ -6,9 +6,9 @@ description: 您必须定期审查目标并更新其进度，以确保其不会�
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,18 @@ ht-degree: 0%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront计划</td>
- <td>
- <p>任何</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td> 
+   <p>对于新计划和许可证结构：
+  <ul><li>最终计划 </li>
+  或
+  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+<p>对于当前计划和许可证结构： 
+<ul><li> Pro或更高版本 </li>
+  <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>
