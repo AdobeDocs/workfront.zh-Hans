@@ -8,7 +8,7 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 浏览器
 
-Workfront Fusion仅支持基于Chrome的浏览器。
+* Workfront Fusion仅支持基于Chrome的浏览器。
 
 ## 方案
 
@@ -75,9 +75,9 @@ Workfront Fusion仅支持基于Chrome的浏览器。
 
 ## 未完成的执行
 
-未完成执行被限制为总大小 **500 MB**. 如果达到500 MB限制，则不会存储更多未完成的执行。
+* 未完成执行被限制为总大小 **500 MB**. 如果达到500 MB限制，则不会存储更多未完成的执行。
 
 ## 重试
 
-使用Break模块并指定Retry指令时，如果某个方案在2分钟的时间范围内连续失败10次，则将自动停用该方案。
+* 使用Break模块并指定Retry指令时，如果某个方案在2分钟的时间范围内连续失败10次，则将自动停用该方案。
 
