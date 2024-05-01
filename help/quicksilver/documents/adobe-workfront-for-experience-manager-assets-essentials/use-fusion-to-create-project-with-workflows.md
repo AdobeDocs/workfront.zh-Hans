@@ -6,7 +6,7 @@ description: 如果您通过Workfront Fusion创建项目并希望在项目上包
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront计划*</strong>
-   </td>
-   <td>任何
-   </td>
+    <td><strong>Adobe Workfront计划*</strong></td>
+    <td>任何</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront许可证*</strong>
-   </td>
-   <td>请求或更高版本
-   </td>
+   <td><strong>Adobe Workfront许可证*</strong></td>
+   <td>请求或更高版本</td>
   </tr>
   <tr>
-   <td><strong>产品</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>：
-   <ul>
-   <li>
-   <p>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。</p>
-   </li
-   ><li>
-   <p>您必须对Adobe Experience Manager中的存储库具有写入权限。</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>：<p>新增：</p>
-   <ul>
-   <li>
-   <p>选择或Prime Workfront计划：您的组织必须购买Adobe Workfront Fusion。</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront计划：包含Workfront Fusion。</p>
-   </li>
-   </ul>
-   <p>或</p>
-   <p>当前：您的组织必须购买Adobe Workfront Fusion。</p>
+   <td><strong>产品</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager：</b></p>
+     <ul>
+       <li>
+         <p>您必须具有Experience Manager Assetsas a Cloud Service或Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。</p>
+       </li>
+       <li>
+        <p>您必须对Adobe Experience Manager中的存储库具有写入权限。</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion：</b></p>
+     <p>新增：</p>
+     <ul>
+       <li>
+         <p>选择或Prime Workfront计划：您的组织必须购买Adobe Workfront Fusion。</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront计划：包含Workfront Fusion。</p>
+       </li>
+     </ul>
+     <p>或</p>
+     <p>当前：您的组织必须购买Adobe Workfront Fusion。</p>
    </td>
   </tr>
   <tr>
    <td><strong>访问级别配置*</strong>
    </td>
    <td>编辑对文档的访问权限
-   <p>
-   <strong>注意： </strong>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <strong>创建或修改自定义访问级别</strong>.
+     <p>
+       <strong>注意： </strong>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <strong>创建或修改自定义访问级别</strong>.
+     </p>
    </td>
   </tr>
 </table>
