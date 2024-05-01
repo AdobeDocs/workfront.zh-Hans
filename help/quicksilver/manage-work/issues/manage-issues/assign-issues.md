@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # 分配问题
+
+{{highlighted-preview}}
 
 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅 [修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ ht-degree: 0%
 
    如果问题已分配，单击当前分配的名称。
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![“分配给”按钮](assets/assign-to-button-in-header.png)
 
 1. 执行下列操作之一：
 
    * 开始键入要分配的用户、角色或团队的名称，然后当该名称出现在列表中时单击它。
 
+     生产环境中的示例图像：
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">“预览”环境中的示例图像：</span>
+     ![任务搜索](assets/assignments-expanded-in-task-issue-header.png)
 
    * （视情况而定）单击 **建议的工作分配** 列表
    * 单击 **分配给我** 以将其分配给您自己
@@ -161,7 +167,11 @@ ht-degree: 0%
 
    * 在 **指定任务** 字段中，开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后在列表中显示该问题时单击该名称。
 
+     生产环境中的示例图像：
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">“预览”环境中的示例图像：</span>
+     ![任务字段](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

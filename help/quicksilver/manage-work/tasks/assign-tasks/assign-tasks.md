@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    <td>如果将任务分配给团队并且还分配了用户，则该任务仍会分配给团队和用户，即使用户不是团队成员。</td>
   </tr>
   <tr>
-   <td>职位角色</td>
+   <td>工作角色</td>
    <td><p>如果将任务或问题分配给一个或多个角色，然后又分配了用户，则根据以下规则确定要与附加用户（如果有）关联的工作角色：</p>
      <ul>
       <li>如果只分配了一个工作角色，并且该工作角色与用户的主要角色（在其配置文件中配置）匹配，则任务或问题仅分配给该用户。</li>
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    如果任务或问题已分配，则单击分配的名称。
 
+   生产环境中的示例图像：
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">“预览”环境中的示例图像：</span>
+   ![分配](assets/assignments-box-in-task-header.png)
 
 1. 执行下列操作之一：
 
@@ -204,7 +208,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 | 字段 | 分配的实体 |
 |---|---|
 | **分配给** | 分配一个用户 |
-| **已分派** | 分配一个用户 |
+| **已指定** | 分配一个用户 |
 | **分配** | 分配用户、工作角色或团队 |
 
 要在列表中分配任务，请执行以下操作：
