@@ -6,7 +6,7 @@ title: 将模块更新到中的新版本 [!DNL Adobe Workfront Fusion] 方案
 description: 由于Workfront Fusion连接的应用程序可能会更新或发布新版本，因此Fusion有时需要为这些应用程序发布更新的模块。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ ht-degree: 0%
 1. 使用与现有模块相同的设置配置模块。
 1. 将新模块连接到与现有模块相同的场景中。
 1. 删除旧模块。
+
+
+
 
 
 
