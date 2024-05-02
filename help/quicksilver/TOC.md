@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '14154'
+source-wordcount: '14164'
 ht-degree: 1%
 
 ---
@@ -2180,6 +2180,7 @@ ht-degree: 1%
       * [在Adobe Workfront Fusion中查看场景的执行历史记录](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [在Adobe Workfront Fusion中查看和解决未完成的执行](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [在中查看和管理锁定的方案 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+      * [将模块更新到中的新版本 [!DNL Adobe Workfront Fusion] 方案](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [在Adobe Workfront Fusion中计划方案](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [在Adobe Workfront Fusion中激活或取消激活方案](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [将过滤器添加到Adobe Workfront Fusion中的方案](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)

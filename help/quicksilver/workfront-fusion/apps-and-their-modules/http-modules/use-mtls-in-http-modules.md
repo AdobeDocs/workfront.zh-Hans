@@ -9,7 +9,7 @@ description: 您可以在Adobe Workfront Fusion HTTP模块中使用双方TLS，�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 您可以使用以下链接下载Workfront Fusion公共证书：
 
-### 2023年5月25日至2024年6月9日的证书
+### 2023年4月23日至2024年5月7日证书
 
 >[!IMPORTANT]
 >
