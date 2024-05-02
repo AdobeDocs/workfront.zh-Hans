@@ -8,9 +8,9 @@ description: 本文包含有关中角色的访问权限的信息。 [!DNL Adobe]
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
+source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -89,66 +89,52 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>访问所有团队</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>为组织安装应用程序</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>删除组织</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>编辑组织</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>管理组织用户</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span></td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>查看组织</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> 
   <tr> 
    <td> <p>添加团队</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr>
@@ -159,7 +145,7 @@ ht-degree: 1%
 
 ## 团队角色
 
-### 场景
+### 方案
 
 <table style="table-layout:auto"> 
  <col> 
@@ -179,101 +165,101 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">管理未完成的执行</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出未完成的执行</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">添加方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">浏览方案执行历史记录</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">接收方案通知</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">重置统计信息</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑方案计划程序</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">开始方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">停止方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">手动执行方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">查看方案</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    </tr> 
  </tbody> 
 </table>
@@ -298,36 +284,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加连接</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除连接</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑连接</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出连接</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Webhooks
+### Webhook
 
 <table style="table-layout:auto"> 
  <col> 
@@ -347,31 +333,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出Webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,38 +382,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加数据存储</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除数据存储</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑数据存储</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出数据存储</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">浏览数据存储</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,80 +438,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加数据结构</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除数据结构</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑数据结构</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列出数据结构</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 设备
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL管理员]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL成员]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL监控]</p> </th> 
-   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p style="text-align: left;">添加设备</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">删除设备</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">编辑设备</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">列出设备</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,31 +487,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加键</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除键</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑键</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列表键</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
@@ -599,38 +536,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加模板</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除模板</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">编辑模板</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">列表模板</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">查看模板</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,31 +592,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">添加团队</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">删除团队</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">添加和编辑团队用户</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">查看团队</p> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
-   <td><span style="font-family: 'Wingdings'">u</span> </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
  </tbody> 
 </table>
