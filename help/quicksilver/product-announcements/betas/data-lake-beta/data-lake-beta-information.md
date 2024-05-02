@@ -6,7 +6,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -22,7 +22,7 @@ Workfront数据湖是当前开发中的一个新工具，它为组织提供了�
 **测试版计划：**
 
 * Beta开始日期 — 2024年4月15日
-* 计划GA版本 — TBA
+* 计划发行日期 — TBA
 
 ## 参与Beta
 

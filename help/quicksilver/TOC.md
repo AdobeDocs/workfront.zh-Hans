@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [用户名已被使用](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 报告 {#reporting}
    * [报告和仪表板：文章索引](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * 报告画布 {#reporting-canvas}
-      * [报告画布](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * 管理报告 {#manage-reports}
-         * [管理报表概述](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [在报告画布中构建报告](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [在报告画布中导出报告](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * 表块 {#table-blocks}
-         * [表块](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [在报告画布中添加或编辑表块](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [在报告画布中配置表列](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [在报告画布中构建公式字段](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [在报告画布中对表行进行分组](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [在报告画布中过滤表](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * 可视化图表块 {#visualization-blocks}
-         * [可视化图表块](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [在报表画布中添加或编辑可视化图表块](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [在报表画布中配置条形图可视化](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [在报告画布中配置列可视化](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [在报表画布中配置饼图可视化图表](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [在报告画布中配置KPI可视化图表](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * 其他块 {#other-blocks}
-         * [其他块](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [在报告画布中添加或编辑Web内容块](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * 画布功能板 {#canvas-dashboards}
+      * [画布仪表板](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * 管理画布功能板 {#manage-canvas-dashboards}
+         * [管理画布功能板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Canvas功能板入门](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [在画布功能板中添加、删除或排列报表](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [共享画布功能板](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * 画布功能板报表类型 {#report-types}
+         * [画布功能板报表类型概述](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [将现有报表添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [在画布功能板中构建KPI报告](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [在画布功能板中构建图表报告](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [在画布功能板中构建表报告](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [将待处理审批报告添加到画布功能板](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * 报告 {#reports}
       * [报告](reports-and-dashboards/reports/reports-overview.md)
       * 报告基础知识 {#report-basics}
