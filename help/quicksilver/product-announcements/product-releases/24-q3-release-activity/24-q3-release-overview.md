@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>24.5（2024年5月）</li><li>24.6（2024年6月）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5（2024年5月16日）</li><li>24.6（2024年6月）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
 >
 >有关快速发布流程的详细信息，请参阅 [启用或禁用快速发布流程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -136,7 +136,7 @@ ht-degree: 0%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">功能</span>
                         </p>
@@ -145,8 +145,8 @@ ht-degree: 0%
                         <p><span class="bold">发行日期</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改进了对象访问权限有限的用户的UI体验</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ ht-degree: 0%
                                 <p>按季度发布的生产：使用24.7版本 </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
