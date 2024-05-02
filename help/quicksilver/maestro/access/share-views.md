@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 在Adobe Workfront Planning中使用记录时，您可以与其他人共享视图以确保协作。
 
 向工作区授予权限不会向其他用户授予对记录类型页面上的视图的权限。 您必须向记录类型页面中的各个视图授予权限才能与其他用户共享它们。
+
+当您共享视图时，您会向他人授予访问视图所有元素的权限。 例如，当授予他们视图的管理权限时，他们可以修改分组、筛选器、排序或条形外观。
 
 <!--
 You can share a view with the following entities: 

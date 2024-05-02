@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ ht-degree: 0%
 
    或
 
-   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 在表格中打开包含记录详细信息的框。
+   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 在表中打开包含记录详细信息的预览。
 
    >[!TIP]
    >
-   >当“名称”字段是主要字段时，您只能从记录的名称字段访问“详细信息”框。
+   >您可以访问 **打开详细信息** 图标仅来自记录的名称字段（当“名称”字段是主字段时）。
 
-1. 开始编辑记录框中的记录信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录框的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。
+1. 开始编辑记录预览中的记录信息。 Workfront会自动保存您所做的更改。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。
 
 
 1. （可选）使用以下键盘快捷键可撤消或重做添加新记录：

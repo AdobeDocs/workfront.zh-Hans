@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ ht-degree: 0%
 * 如果您获得了工作区的权限，则可以编辑您创建的记录或由其他人创建的记录。
 * 您可以从以下区域编辑记录字段：
 
-   * 记录视图中的记录框
+   * 记录视图中的记录预览
    * 记录的页面
    * 内联，在表格视图中。
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* 当用户编辑视图中的记录时，更改会立即在所有视图中可见，并且记录页面对所有其他用户可见。
 
 * 以下类型的字段会自动更新，您无法手动编辑其值：
    * 来自其他记录的链接字段
@@ -113,7 +113,7 @@ ht-degree: 0%
 您可以从以下区域编辑记录：
 
 * [从记录类型的表格视图中](#edit-a-record-from-the-table-view-of-a-record-type)
-* [从视图中的记录框](#edit-a-record-from-the-records-box-in-a-view)
+* [从视图中的记录预览](#edit-a-record-from-the-records-box-in-a-view)
 * [从记录的页面](#edit-a-record-from-the-records-page)
 
 ### 在记录类型的表视图中编辑内联记录
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 1. （可选）向记录中添加缩略图。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 在视图中编辑记录框中的记录
+### 在视图中编辑记录预览中的记录
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 记录的框在视图中打开。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
-1. 开始编辑记录框中的字段信息。
+1. 开始编辑记录预览中的字段信息。
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ ht-degree: 0%
 
    Workfront会自动保存您所做的更改。
 
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。 继续编辑记录，如中所述 [从记录的页面编辑记录](#edit-a-record-from-the-records-page) 部分。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录预览的右上角，在新选项卡中打开记录页面。 继续编辑记录，如中所述 [从记录的页面编辑记录](#edit-a-record-from-the-records-page) 部分。
 
 ### 从记录的页面编辑记录
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 
 1. 执行下列操作之一：
 
-   * 从任何视图中访问记录的框，如 [在视图中编辑记录框中的记录](#edit-a-record-from-the-records-box-in-a-view) 部分，然后单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。
+   * 从任何视图中，访问记录的预览，如 [在视图中编辑记录预览中的记录](#edit-a-record-from-the-records-preview-in-a-view) 部分，然后单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录预览的右上角，在新选项卡中打开记录页面。
 
    * 从 **表** 查看，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
 

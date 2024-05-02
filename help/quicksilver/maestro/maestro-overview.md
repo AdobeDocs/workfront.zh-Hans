@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
 | 将Workfront Planning记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
 | 记录包含详细信息的页面 | ✓ {\f13 } |                                  |                  |
-| 更新记录页面的布局 |                               | ✓ {\f13 } |                  |
+| 更新记录页面的布局 | ✓ {\f13 } |                                 |                  |
 | 共享工作区 | ✓ {\f13 } | |  |
 | 共享视图 | ✓ {\f13 } | |  |
 | 复制视图 | ✓ {\f13 } | |  |

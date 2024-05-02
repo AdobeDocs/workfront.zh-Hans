@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明在组织的生命周期中所需的工作相关项。
-记录类型可以是以下任一类型：
 
 有关记录类型的详细信息，请参阅 [记录类型概览](../architecture/overview-of-record-types-and-taxonomies.md).
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ ht-degree: 0%
 * 封面图像对于一个记录是唯一的，并且不适用于同一类型的所有记录。
 * 只能添加图像文件作为封面图像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 您可以从任何视图的记录框或记录页面将封面图像添加到单个记录。
+* 您可以从任何视图的记录预览或记录页面将封面图像添加到单个记录。
 * 不能从任何记录视图内联添加封面图像。
 
 ## 将封面图像添加到记录
 
-您可以在记录框或页面顶部添加封面图像，以个性化记录。
+通过在记录预览或页面顶部添加封面图像，可以个性化记录。
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。
 
-   记录的框在视图中打开。
+   记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ ht-degree: 0%
    >
    >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录框的右上角，在新选项卡中打开记录页面。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录预览的右上角，在新选项卡中打开记录页面。
 
    此时将打开记录页面。
 
    ![](assets/details-page.png)
 
-1. 在记录框或页面中，单击 **添加封面**. <!--check the casing here; I logged a bug for this-->
+1. 在记录预览或页面中，单击 **添加封面**. <!--check the casing here; I logged a bug for this-->
 此 **记录封面** 框打开。
 
 1. 单击 **选择以上传** 并浏览计算机上的图片，以选择、添加图片，然后单击 **使用图像**.
 
-   图像将上传到记录框或页面的顶部，并且更改会自动保存。
+   图像会上载到记录预览或页面顶部，并且更改会自动保存。
 
    ![](assets/record-page-with-cover-image.png)
 

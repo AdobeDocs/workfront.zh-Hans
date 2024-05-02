@@ -1,18 +1,18 @@
 ---
 title: 编辑字段
-description: 在Adobe Workfront Planning中，您可以编辑已创建字段的字段设置。
+description: 在Adobe Workfront Planning中，您可以编辑已创建字段的字段设置。 本文介绍了如何编辑Workfront Planning字段的设置。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -35,18 +35,26 @@ recommendations: noDisplay, noCatalog
 
 本文介绍了如何编辑Workfront Planning字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
-## 有关编辑字段信息的注意事项
+## 有关编辑字段设置的注意事项
+
+在对字段配置进行更改之前，必须考虑以下事项：
 
 * 如果您对字段所属的工作区具有管理权限，则可以编辑您创建的字段或其他用户创建的字段。
 * 您可以在记录类型表中编辑字段。
-* 无法在记录页面或时间线视图中编辑字段。
+* 不能在记录页面或表格视图之外的任何其他视图中编辑字段。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
 ## 访问要求
@@ -110,7 +118,7 @@ recommendations: noDisplay, noCatalog
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 编辑字段
+## 编辑字段设置
 
 {{step1-to-maestro}}
 
@@ -122,7 +130,7 @@ recommendations: noDisplay, noCatalog
 1. 单击要编辑其字段的记录类型的卡片。
 
    这将打开记录类型的页面。
-1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
+1. （视情况而定）单击 **表格视图**.
 1. 将鼠标悬停在要编辑的字段的列标题上，单击字段名称后的向下箭头，然后单击 **编辑字段**
 
    或
@@ -138,6 +146,17 @@ recommendations: noDisplay, noCatalog
    >[!TIP]
    >
    >保存字段后无法更新字段类型。
+
+   字段信息会针对每个有权查看工作区的用户而更新。
+
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
+
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
 
 
 1. （视情况而定）对于链接的记录字段，单击 **编辑查找字段** 并从链接的记录类型中添加或删除任何字段。
