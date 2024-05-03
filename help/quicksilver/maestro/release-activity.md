@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 当用户更新表视图中记录的信息时，其他用户可以实时在记录的详细信息框（视图内）或页面中查看更新的信息。 这可确保所有用户同时查看更新信息，并与发生更改时保持同步。
 
 有关编辑记录的信息，请参见 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
+
+### 编辑记录后日历视图中的实时更新
+
+生产： 2024年5月3日
+
+预览：待定。
+
+当用户更新记录上的信息时，其他用户可以在记录的日历视图中实时查看更新的信息。 这可确保所有用户同时查看更新信息，并与发生更改时保持同步。
 
 <!--
 
