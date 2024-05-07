@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ ht-degree: 0%
 
 有关说明，请参阅 [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## 安装的软件包状态
+
+软件包必须处于ACTIVE状态才能安装在生产环境中。
+
+我们建议将包迁移到TESTING状态，并在另一个沙盒中安装以测试包。  如果此测试成功，并且没有错误，请将包移动到“活动”状态以在生产环境中安装包。
+
+要编辑资源包的状态，请执行以下操作：
+
+1. 选择包，如中所述  [编辑或汇编现有包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 在创建和编辑环境升级包一文中。
+1. 单击 **编辑包**.
+1. 单击 **状态**.
+1. 从下拉菜单中选择所需的状态。
+
+有关状态的更多信息，请参阅 [环境提升状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中，有关在Workfront环境之间移动对象的概述。
+
+## 安装包
+
 >[!NOTE]
 >
->要安装软件包，您必须登录到要安装软件包的环境。 这是复制对象的环境 **到**.
+>* 要安装软件包，您必须登录到要安装软件包的环境。 这是复制对象的环境 **到**.
 
 1. 转到要在其中安装包的环境。
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
