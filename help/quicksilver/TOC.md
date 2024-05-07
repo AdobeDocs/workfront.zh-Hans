@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
 workflow-type: tm+mt
-source-wordcount: '14164'
+source-wordcount: '14212'
 ht-degree: 1%
 
 ---
@@ -2092,6 +2092,13 @@ ht-degree: 1%
       * [Adobe Workfront Fusion入门](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion概述](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Adobe Workfront Fusion中的基本术语](workfront-fusion/get-started/basic-terms.md)
+      * 构建实践方案 {#practice-scenarios-in-workfront-fusion}
+         * [创建实践方案](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+         * [在中创建基本方案 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [将触发器模块添加到中的基本方案 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [在中使用函数更新简单方案中的项目 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [将过滤器添加到中的基本方案 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [将webhook添加到中的基本方案 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [在Adobe Workfront Fusion中创建实践自动化场景](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [在Adobe Workfront Fusion中创建实践集成场景](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Adobe Workfront Fusion性能护栏](workfront-fusion/get-started/fusion-performance-guardrails.md)
