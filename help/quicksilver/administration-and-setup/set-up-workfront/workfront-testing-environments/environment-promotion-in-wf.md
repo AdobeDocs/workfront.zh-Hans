@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a8608aa0db6a482570b02b8b22cac0c02f6d8a07
+source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -58,10 +58,10 @@ ht-degree: 1%
 
 | 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| 布局模板(UITMPL) | 布局模板<br>仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 仪表板(PTLTAB) | 仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 日历(CALEND) | 日历<br>日历部分 |
-| 外部页面(EXTSEC) | 外部页面 |
+| 布局模板(UITMPL) | 布局模板<br>仪表板<br>日历*<br>日历部分*<br>外部页面*<br>报表<br>筛选<br>分组<br>视图<br>参数 |
+| 仪表板(PTLTAB) | 仪表板<br>日历*<br>日历部分*<br>外部页面*<br>报表<br>筛选<br>分组<br>视图<br>参数 |
+| 日历* (CALEND) | 日历*<br>日历部分* |
+| 外部页面* (EXTSEC) | 外部页面* |
 | 报告(PTLSEC) | 报表<br>筛选<br>分组<br>视图<br>参数 |
 | 过滤器(UIFT) | 筛选<br>参数 |
 | 分组(UIGB) | 分组<br>参数 |
