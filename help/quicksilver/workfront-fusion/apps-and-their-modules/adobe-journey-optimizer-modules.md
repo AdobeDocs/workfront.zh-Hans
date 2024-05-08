@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: a61459db5174e8159b72293f0eed0162cc03f6d1
+source-git-commit: 35c4043c40a374006e0023be5a1e942e95a63863
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此连接器已弃用。
+>此连接器已被弃用，因为它基于现已弃用的Adobe Journey Optimizer API。
+>
+>我们目前正在开发基于新Adobe Journey Optimizer API的新连接器。
 
 <!--
 
