@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
 
 ## 转化问题时的注意事项
 
+* 将问题转化为任务或项目时，除非本文另有说明，否则问题中的大多数信息都会传输到任务或项目。
 * 您的Workfront管理员或组管理员已经为问题发生的首选项、问题的解决方法以及在将其转换为项目或任务时其主要联系人的访问权限进行了设置，如中所述 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront会删除在转化期间与问题关联的任何审批。
 * 当您将其转换为任务或项目时，Workfront会覆盖问题的解决对象。 在转换后，新任务或问题将成为问题的新解析对象。
@@ -76,7 +77,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>优先级</td> 
-   <td>从模板进行传输。 </td> 
+   <td><p>从问题中转移。</p>
+   <p>为已转换的项目使用模板时，您可以选择手动更改优先级。 如果您选择不对其进行更改，则问题的优先级将转移到项目。 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,14 +107,14 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>项目组合</td> 
-   <td>从模板进行传输。 否则，此字段为空。</td> 
+   <td>从模板进行传输。 否则，此字段为空。</td> 
   </tr> 
   <tr> 
    <td>项目群</td> 
-   <td>从模板进行传输。 否则，此字段为空。</td> 
+   <td>从模板进行传输。 否则，此字段为空。</td> 
   </tr> 
   <tr> 
-   <td>群组</td> 
+   <td>组</td> 
    <td><p> 存在以下情况：</p>
      <ul><li>如果在转换期间指定了组，则该组将成为项目的组</li>
      <li>如果您使用模板转换为项目，并且模板上有一个组，并且在转换过程中未指定组，则模板组将成为新项目的组</li>
@@ -157,7 +160,7 @@ ht-degree: 2%
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ ht-degree: 2%
 | 问题字段 | 项目或任务字段 | 项目列表或报告 | 项目详细信息区域 | 任务列表或报告 | 任务详细信息区域 |
 |---|---|---|---|---|---|
 | 问题名称 | 转换的问题名称 | ✔ | ✔ | ✔ | ✔ |
-| 主要联系人 | 转换的问题发起人姓名 | ✔ | `✔` | ✔ |   |
-| 输入日期 | 转换的问题输入日期 | ✔ |   | ✔ |   |
+| 主要联系人 | 转换的问题发起人姓名 | ✔ | `✔` | ✔ |  |
+| 输入日期 | 转换的问题输入日期 | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

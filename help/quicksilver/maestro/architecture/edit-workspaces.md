@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ ht-degree: 0%
 
    有关信息，请参阅 [删除记录类型](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. （可选）单击视图选项卡中的视图名称以编辑现有视图，或单击 **+视图** 创建视图。
+1. （可选）按一下记录类型卡以将其拖放到新位置。 您可以将记录类型从一个工作区区域拖放到另一个工作区区域。
 
-   有关信息，请参阅 [管理记录视图](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （可选）单击 **共享** （位于工作区的右上角）与他人共享工作区。
 

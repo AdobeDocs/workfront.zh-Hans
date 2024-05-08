@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 2%
+source-wordcount: '1807'
+ht-degree: 1%
 
 ---
 
@@ -86,6 +86,8 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 创意摘要 |                               |                                  | ✓ {\f13 } |
 | 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
 | 向记录添加注释 | ✓ {\f13 } |                                  |                 |
+| 接收应用程序内通知 | ✓ {\f13 } |                                  |                 |
+| 接收电子邮件通知 | ✓ {\f13 } |                                  |                 |
 | 将缩略图添加到记录 | ✓ {\f13 } |                                  |                 |
 | 查看记录更改的历史记录 | ✓ {\f13 } |                                  |                 |
 | 段落字段的富文本格式 | ✓ {\f13 } |                                  |                 |

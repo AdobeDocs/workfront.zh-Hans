@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ hide: yes
 <td>产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要将Adobe Workfront Planning记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console。</p>
+   <p>要将Adobe Workfront Planning记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到AdobeUnified Experience。 有关信息，请参阅 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的AdobeUnified Experience</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>

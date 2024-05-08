@@ -4,9 +4,9 @@ description: 当有人在记录评论中标记您时，您会收到该标记的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 当有人在记录评论中标记您时，您会收到该标记的电子邮件通知。
+
+>[!IMPORTANT]
+>
+>贵公司必须是AdobeUnified Experience客户才能接收来自Workfront Planning的通知。
+>
+>有关信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 有关在记录评论中标记其他人的信息，请参阅 [管理记录注释](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 0%
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>要从Workfront Planning接收通知并管理通知首选项，必须将贵组织的Workfront实例载入到AdobeUnified Experience。 有关信息，请参阅 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的AdobeUnified Experience</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 ## 管理电子邮件通知
 
-1. （视情况而定）当有人在记录上的评论中标记您后，转到通知您标记和评论的电子邮件通知。
+1. （视情况而定）当有人在记录上的评论中标记您后，转到通知您标记和评论的电子邮件通知。 电子邮件的发件人为Adobe Experience Cloud。
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ ht-degree: 0%
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
 1. （视情况而定）如果可用，请单击 **查看所有通知**. <!--check with Lilit - do non-IMS users have this button??-->
-此时将在Adobe Experience Cloud中打开“通知”页面。
+此 **通知** 页面将在Adobe Experience Cloud中打开。

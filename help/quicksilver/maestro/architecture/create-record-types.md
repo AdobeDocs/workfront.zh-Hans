@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 1. 更新以下信息：
 
-   * 将“无标题的操作记录类型”替换为您未来记录类型的名称。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * 将“无标题记录类型”替换为您未来记录类型的名称。 <!--did they bring back the field label here and did they rename it to "Name"-->
    * **描述**：添加有关记录类型的更多信息。
    * 为与记录类型关联的图标选择颜色和形状。 执行以下操作：
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
@@ -155,8 +155,11 @@ ht-degree: 0%
 1. 单击 **创建**.
 
    记录类型信息卡会添加到部分和您选择的工作区。
-记录类型包含的信息卡上显示的字段数。
-1. （可选）将鼠标悬停在记录类型卡片上，单击 **更多** 图标 ![](assets/more-menu.png) 图标，然后单击 **编辑** 编辑有关记录类型的信息。
+记录类型的描述将显示在信息卡上。
+
+   ![](assets/record-type-card-with-description.png)
+
+1. （可选）将鼠标悬停在记录类型卡片上，单击 **更多** 图标 ![](assets/more-menu.png) 图标，然后单击 **编辑** 修改有关记录类型的信息。
 1. （可选）单击记录类型卡以打开记录类型页面。
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ ht-degree: 0%
 
 1. （可选）单击标题中记录类型名称左侧的左箭头，以返回选定的工作区。
 
-   记录类型卡显示记录类型包含的字段数和连接数。
+1. （可选）在工作区中，单击并按住记录类型卡片，以将记录类型拖放到所需位置，或将其移动到其他部分。
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   更改将自动保存。
 
    有关在记录类型页面中添加记录、删除或编辑记录类型或更新视图的其他信息，请参阅以下文章：
 
@@ -198,10 +201,6 @@ ht-degree: 0%
    * [删除记录类型](../architecture/delete-record-types.md)
    * [编辑记录类型](../architecture/edit-record-types.md)
    * [管理记录视图](../views/manage-record-views.md)
-
-1. （可选）在工作区中，单击并按住记录类型卡片，以将记录类型拖放到所需位置，或将其移动到其他部分。
-
-   更改将自动保存。
 
 ## 通过导入Excel或CSV文件创建记录类型
 
