@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 配置系统安全首选项
-description: 作为Adobe Workfront管理员，您可以为Workfront系统配置安全首选项。
-author: Caroline
+title: 配置系统首选项
+description: 作为Adobe Workfront管理员，您可以为Workfront系统配置首选项，包括安全首选项。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 4%
+source-wordcount: '866'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 4%
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+<!--Audited: 05/2024-->
+
 {{important-admin-console-onboard}}
 
-作为Adobe Workfront管理员，您可以为Workfront系统配置首选项：
+作为Adobe Workfront管理员，您可以为Workfront系统配置首选项，包括：
 
 * 从移动应用程序和其他集成应用程序访问Workfront
 * 将Workfront嵌入到iframe的规则
@@ -46,18 +48,22 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td><p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 配置您的系统首选项
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击 **系统** > **偏好设置**.
 
@@ -68,11 +74,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>启用快速审查流程</p> </td> 
+      <td role="rowheader"> <p>启用快速发布过程</p> </td> 
       <td>允许您为组织启用每月的Workfront版本，而不是每季度的版本。</p><p>有关快速发布过程的详细信息，请参见 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">为您的组织启用或禁用快速发布</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>允许嵌入 <strong>Workfront</strong> 在iframe中</p> </td> 
+      <td role="rowheader"> <p>允许在iframe中嵌入Workfront</p> </td> 
       <td>允许在iframe中嵌入Workfront。<p>默认禁用此选项。</p><p><b>重要</b>：在iframe中显示基于Web的应用程序，会使该应用程序容易遭受点击劫持安全漏洞的攻击。</p></td> 
      </tr> 
      <tr> 
@@ -84,8 +90,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>此选项不安全，默认情况下处于关闭状态。 建议改用OAuth进行集成。</p> <p>有关将外部页面添加到功能板的详细信息，请参阅 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在功能板中嵌入外部网页</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">让人们使用Workfront的移动应用程序和 <strong>Workfront</strong> Outlook加载项</td> 
-      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>. 有关移动设备应用程序的更多信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动应用程序</a>.</p> <p>有关Outlook插件的详细信息，请参阅 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">设置适用于Outlook的Adobe Workfront</a>.</p> </td> 
+      <td role="rowheader">允许人员使用Workfront的移动应用程序和Workfront Outlook加载项</td> 
+      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>. 有关移动设备应用程序的更多信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>.</p> <p>有关Outlook插件的详细信息，请参阅 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">设置适用于Outlook的Adobe Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 
@@ -110,12 +116,19 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可让您指定用户在一段时间不活动后何时注销Workfront应用程序。 默认情况下，用户会在处于非活动状态7天后注销。 <p>此选项还会影响使用单点登录解决方案的Workfront客户。</p></td> 
      </tr> 
      <tr> 
+      <td role="rowheader">自定义帮助 URL</td> 
+      <td>允许您定义主菜单帮助图标要转到的内部自定义帮助站点。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">配置自定义帮助URL</a>.</p></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">系统中的用户将默认看到新主页体验 </td> 
       <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过手动输入导航到他们的新主页 <code>/home/workspaces</code> 实例URL末尾。 默认情况下，此设置处于启用状态。</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader">测试环境</td> 
+      <td>允许您访问Workfront测试环境。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront预览Sandbox环境</a>.</p></td> 
     </tbody> 
    </table>
 
 1. 单击&#x200B;**保存**。
 
-   您在此处保存的更改会影响Workfront中所有用户的体验，以及以外部用户身份与他们交互的任何用户的体验。
+   您在此处保存的更改会影响Workfront中所有用户的体验，以及作为外部用户与系统交互的任何用户的体验。
