@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。
-
 {{maestro-important-intro}}
 
 您可以使用此页面作为所有与Adobe Workfront Planning相关的文档的起点。
@@ -51,15 +49,17 @@ hide: yes
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront规划概述](maestro-overview.md)：Adobe Workfront规划的高级概述，包括此解决方案特有的术语和概念。 我们建议您在此处通过Workfront规划开始您的历程。
-* [Adobe Workfront Planning发布活动](../maestro/release-activity.md)：列出了自2023年5月22日Adobe Workfront计划结束测试版项目启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
+* [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md)：列出了自2023年5月22日Adobe Workfront计划结束测试版项目启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
 * [Workfront Fusion的Adobe大师模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront规划架构和功能
 
 以下部分包含详细介绍Workfront Planning当前可用功能的文章：
 
-* [Adobe Workfront Planning访问信息：文章索引](../maestro/access/access-information.md)：有关使用Workfront Planning所需的访问权限的信息。
-* [架构：文章索引](../maestro/architecture/architecture-information.md)：有关Workfront Planning架构的深入信息，其中包含有关如何创建和管理工作区和记录类型的分步说明。
-* [字段：文章索引](../maestro/fields/fields-information.md)：有关为记录类型创建自定义字段的深入信息和分步说明。
-* [记录：文章索引](../maestro/records/records-information.md)：有关如何创建和管理记录的深入信息和分步说明。
-* [视图：文章索引](../maestro/views/views-information.md)：有关记录查看的深入信息以及如何在查看记录类型页面时管理记录查看的信息。
+* [Adobe Workfront Planning访问信息：文章索引](/help/quicksilver/maestro/access/access-information.md)：有关使用Workfront Planning所需的访问权限的信息。
+* [架构：文章索引](/help/quicksilver/maestro/architecture/architecture-information.md)：有关Workfront Planning架构的深入信息，其中包含有关如何创建和管理工作区和记录类型的分步说明。
+* [字段：文章索引](/help/quicksilver/maestro/fields/fields-information.md)：有关为记录类型创建自定义字段的深入信息和分步说明。
+* [记录：文章索引](/help/quicksilver/maestro/records/records-information.md)：有关如何创建和管理记录的深入信息和分步说明。
+* [视图：文章索引](/help/quicksilver/maestro/views/views-information.md)：有关记录查看的深入信息以及如何在查看记录类型页面时管理记录查看的信息。
+* [Adobe Workfront计划通知：文章索引](/help/quicksilver/maestro/notifications/notifications-information.md)：有关Workfront Planning中事件生成的电子邮件和应用程序内通知的信息。
+
