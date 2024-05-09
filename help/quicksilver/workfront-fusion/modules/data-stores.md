@@ -8,9 +8,9 @@ description: 数据存储类似于数据库或简单表，可以存储场景中�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ ht-degree: 1%
 
 ## 可用数据空间
 
-如果贵组织使用的是新的Workfront计划模型（Select、Prime和Ultimate包），则贵组织的计划会影响Fusion实例可用的数据存储的大小和数量。
+如果您的组织采用新的Workfront计划模型（Select、Prime和Ultimate包），则您的数据存储总大小为：
 
-### 最终计划
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Ultimate包上的Fusion实例将接收：
+### Ultimate plan
 
-* 500 MB空间
-* 50个数据存储
+Fusion instances on the Ultimate package receive:
 
-### 选择并优化计划
+* 500 MB of space
+* 50 data stores 
 
-Select或Prime包上的Fusion实例将接收：
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 第一个500K操作为100 MB。
 
 * 每个额外的100,000操作为10 MB。
 
-例如，拥有600K操作的组织接收110 MB。
+  例如，拥有600K操作的组织接收110 MB。
+
+您的组织最多可以拥有50个数据存储。 这些数据存储的组合大小不能超过贵组织的数据存储总大小。
 
 ## 在中创建数据存储 [!DNL Workfront Fusion]
 
