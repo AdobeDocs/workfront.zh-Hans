@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 为了让您轻松测试Beta计划的新功能，我们创建了一个新的测试Frame.io帐户，并将其连接到一个名为的新组 `Frame.io testing` 在现有Workfront预览或沙盒环境中。
 
-+++展开以查看虚拟测试说明
++++展开以查看基本测试说明
 
 要测试该功能，请登录Workfront预览版或沙盒实例并执行以下步骤：
 
