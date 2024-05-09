@@ -6,9 +6,9 @@ description: 您可以从外部源将文档和文件夹链接到Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
+   >* 如果用于链接文档的下载URL超过2,048个字符，则文件无法链接。
+   >* 对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
 
 ### 添加链接文档的新版本 {#add-a-new-version-of-a-linked-document}
 
@@ -190,11 +191,11 @@ ht-degree: 0%
 
 有关添加从文件系统上传到Workfront的文档的新版本的信息，请参阅 [将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### 链接Workfront校对文档 {#link-workfront-proof-documents}
+### 链接Workfront Proof文档 {#link-workfront-proof-documents}
 
 您可以将验证链接到最初存在于Workfront Proof中的Workfront。 从Workfront Proof链接验证时，与验证关联的所有评论和其他元数据在Workfront中可用。
 
-您只能链接那些您在Workfront Proof中拥有查看权限的验证。
+您只能链接那些您在Workfront Proof中拥有查看权限的校样。
 
 1. 转到 **文档** Workfront中需要文档的区域。
 1. 单击 **新增**，然后单击 **来自Workfront Proof**.
@@ -203,7 +204,7 @@ ht-degree: 0%
    >
    >根据环境中配置的第三方提供商，此菜单中的选项可能有所不同。
 
-1. 在 **从Workfront Proof链接验证** 框中，开始键入要在Workfront中提供的校样名称。
+1. 在 **来自Workfront Proof的链接校样** 框中，开始键入要在Workfront中提供的校样名称。
 
    列表会在您键入内容时进行筛选。
 
