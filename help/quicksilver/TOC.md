@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
 workflow-type: tm+mt
-source-wordcount: '14226'
+source-wordcount: '14236'
 ht-degree: 1%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 1%
          * [21.1移动设备增强功能](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动 {#fusion-release}
+         * [Workfront Fusion发布活动： 2024年5月6日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Workfront Fusion发行活动： 2024年4月8日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Workfront Fusion发布活动： 2024年3月11日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Workfront Fusion发行活动： 2024年2月26日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -2220,6 +2221,7 @@ ht-degree: 1%
       * [Adobe Campaign Classic模块](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets模块](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms模块](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
+      * [Adobe Firefly模块](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe Journey Optimizer模块](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF Services模块](workfront-fusion/apps-and-their-modules/pdf-modules.md)
