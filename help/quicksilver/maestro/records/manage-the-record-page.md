@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 记录预览是记录类型视图中显示的记录页面的较小视图。
 
-当您更改记录预览和页面的布局时，更改会影响相同类型的所有记录的框和页面。
+当您更改记录预览和页面的布局时，更改会影响相同类型的所有记录的预览框和详细信息页面。
+
+本文介绍了如何更改记录预览框或记录页面的布局和外观。 有关编辑记录的信息，请参见 [编辑记录](/help/quicksilver/maestro/records/edit-records.md).
 
 必须先创建记录类型和记录，然后才能开始编辑记录页。
 
