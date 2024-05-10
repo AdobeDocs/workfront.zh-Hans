@@ -4,15 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
-title: SOAP模块
+title: SOAP 模块
 description: 您可以使用SOAP模块连接到Adobe Workfront Fusion中的SOAP API。
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 1%
 
 有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 使用 [!UICONTROL SOAP] 模块
+## 的限制 [!UICONTROL SOAP] 模块
+
+>[!NOTE]
+>
+>在WDSL加载期间禁用重定向。 这是一项安全功能，但可能意味着运行模块时会阻止未验证的重定向。
 
 此 [!UICONTROL SOAP] 模块当前为测试版，不支持：
 
@@ -72,7 +76,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >  
 >以下内容无法正确识别 [!UICONTROL Workfront Fusion]：
 >
@@ -86,8 +90,8 @@ ht-degree: 1%
 >     </complexContent>
 ></complexType>
 >```
-
-它包括 `soapenc:Array`， `soapenc:arrayType` 和 `wsdl:arrayType` 尚未支持的引用 [!UICONTROL Workfront Fusion].
+>
+>此示例包括 `soapenc:Array`， `soapenc:arrayType` 和 `wsdl:arrayType` 尚未支持的引用 [!UICONTROL Workfront Fusion].
 
 ## 解决方法
 
