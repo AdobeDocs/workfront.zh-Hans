@@ -6,9 +6,9 @@ description: 此 [!DNL Adobe Workfront] 术语表列出了以下术语的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL基线]</td> 
    <td>在敏捷环境中测量迭代的数据源。</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[！UICONTROL可记帐费用]</td> 
+   <td> <p>标记为对客户可记帐的费用。 这可以是计划费用或实际费用。</p> <p>“计划可开单费用成本”和“实际可开单费用成本”字段可供您添加到视图和报表中。 它们不会显示在项目或任务详细信息页面上。</p>
+   <p>您可以在下列类型的报表中找到这些字段：</p>
+   <ul>
+   <li>基线</li>
+   <li>模板</li>
+   <li>项目 (财务数据)</li>
+   </ul>
+   <p>有关将费用标记为可记帐的详细信息，请参阅 <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">管理项目支出</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1305,7 +1318,21 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>在[！UICONTROL Journal Entry]报表中，这将显示替换[！UICONTROL旧数字值]的字段的更新值。
    有关更多信息，请参阅本文中的“[！UICONTROL旧数字值]”。</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[！UICONTROL不可记帐费用]</td> 
+   <td> <p>客户未标记为可记帐的费用。 这可以是计划费用或实际费用。</p> <p>“计划不可开单费用成本”和“实际不可开单费用成本”字段可供您添加到视图和报表中。 它们不会显示在项目或任务详细信息页面上。</p>
+   <p>您可以在下列类型的报表中找到这些字段：</p>
+   <ul>
+   <li>基线</li>
+   <li>模板</li>
+   <li>项目 (财务数据)</li>
+   </ul>
+   <p>有关将费用标记为可记帐的详细信息，请参阅 <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">管理项目支出</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL非工作日]</td> 
    <td>未分配给完成任何分配的日期。 这通常是假日、假期或周末。 术语显示在API Explorer中。 </td> 
   </tr> 
