@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # Workfront中的AppBuilder文档详细信息
 
@@ -358,3 +358,12 @@ Adobe提供了有关如何开始为AppBuilder构建应用程序并进行部署�
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## 本地开发
+
+在为Workfront开发App Builder应用程序时，您可能会发现需要在Workfront中测试应用程序而不发布该应用程序。 幸运的是，我们有一个解决方案。
+
+在App Builder应用程序中，您可以启动 `aio app run` 用于本地发展。 这将为您提供一个URL，通常类似于 `https://localhost:9080`. 或者，您可以执行 `aio app deploy` 以获取静态Adobe域。 请务必记下这些URL以供将来使用。
+
+接下来，导航到您希望在浏览器中针对其开发的特定文档详细信息页面。 打开开发人员工具并访问workfront.com或workfront.adobe.com的本地存储。 在此，您需要添加一个条目。 使用 `appBuilderDocDetailsOverride` ，并将之前注明的app builder URL作为值。
+
+重新加载页面时，您会注意到显示了App Builder应用程序中的按钮。 单击这些按钮可查看正在运行的应用程序。
