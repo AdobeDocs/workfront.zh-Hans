@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 1%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 1%
    * 配置集成 {#configure-integrations}
       * [配置集成](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [使用Adobe Experience Manager旧版连接器配置Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [配置Experience Manager Assetsas a Cloud Service集成](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [配置Experience Manager Assets Essentials集成](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [使用Adobe Experience Manager旧版连接器配置Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [允许用户访问移动应用程序](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [启用Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [配置文档集成](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 1%
          * [使用模板创建项目](manage-work/projects/create-projects/create-project-from-template.md)
          * [从Microsoft项目导入项目](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [创建项目基线](manage-work/projects/create-projects/create-baselines.md)
+         * [创建与Frame.io连接的项目](manage-work/projects/create-projects/create-frame-connected-project.md)
       * 更新项目工作 {#update-work-on-a-project}
          * [更新项目工作：文章索引](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [将状态应用于与组关联的工作](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 1%
    * 文档审阅和批准 {#document-reviews-and-approvals}
       * [文档审阅和批准](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [文档审批概述](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [资产审查和批准概述](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [开始使用Frame.io进行资产审查和批准](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * 审阅文档 {#review-and-approve-documents}
          * [审阅文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 1%
          * [向文档添加其他审阅人或批准者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [从文档中删除批准者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [创建审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [文档审批状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [文档决策状态](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校对 {#proofing}
       * [验证：文章索引](review-and-approve-work/proofing/proofing.md)

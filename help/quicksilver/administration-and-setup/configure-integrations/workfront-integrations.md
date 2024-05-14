@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 1%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -21,10 +21,11 @@ ht-degree: 1%
 本节包含以下文章：
 
 * [[!DNL Adobe Workfront] 集成](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [配置 [!DNL Workfront] 替换为 [!DNL Adobe Experience Manager] 旧版连接器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [配置 [!DNL Experience Manager Assets as a Cloud Service] 集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [配置 [!DNL Experience Manager Assets Essentials] 集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] 集成](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] 和 [!DNL Experience Manager Assets] 集成](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [配置 [!DNL Workfront] 替换为 [!DNL Adobe Experience Manager] 旧版连接器](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [启用 [!UICONTROL 适用于Outlook的Adobe Workfront]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [禁用文档集成](../../administration-and-setup/configure-integrations/disable-document-integrations.md)

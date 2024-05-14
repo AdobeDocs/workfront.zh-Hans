@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ ht-degree: 0%
 >
 >要参与此测试版，您必须由产品团队启用。 联系您的客户成功案例或客户经理并请求添加。
 
+## 2024年5月： Workfront中的测试版更新
 
-## Frame.io中的Beta版更新 — 2024年3月
+此5月版本包括以下功能：  
 
-在此测试版中，我们具有：
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront项目会自动同步到Frame.io
+
+根据您的反馈，我们改进了体验，并减少了触发创建连接的Frame.io所需的步骤。  现在，在Workfront中创建项目时，将在Frame.io中自动创建相应的项目。 
+
+### 改进了向Frame.io项目分配创意的工作
+
+您现在可以轻松管理应该有权访问连接的Frame.io项目的人员。 您的创意用户可标记为“已启用Frame.io”，这会在分配给Workfront项目时自动授予他们访问连接的Frame.io项目的权限。   
+
+### Workfront项目名称更改时，将更新Frame.io项目名称
+
+作为我们改进Workfront与Frame.io之间项目同步的努力的一部分，Workfront项目名称更新现在也反映在Frame.io中。 
+
+### 文档列表中的审批状态
+
+直接在文档列表中轻松跟踪任何文件的审批状态。 只需单击总体状态，即可访问批准流程中涉及的所有参与者的详细细目及其个人状态。 此外，只需单击一下即可提醒任何优秀的批准者，从而简化您的工作流程，确保及时响应并高效管理文档。 
+
+
+## 2024年3月： Frame.io中的测试版更新
+
++++ 展开以查看2024年3月发布的功能
 
 ### 将多个资源从Frame.io添加到Workfront
 
@@ -39,7 +61,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Workfront中的Beta版更新 — 2024年3月
+## 2024年3月： Workfront中的Beta版更新
 
 在此测试版中，我们具有：
 
@@ -82,6 +104,8 @@ ht-degree: 0%
 上传新文档版本时，可以启动下一轮修订，同时保持锁定以前的修订。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## 功能测试
 
@@ -128,14 +152,12 @@ ht-degree: 0%
 
 +++ 展开以查看详细的测试说明
 
-对于希望测试附加功能的参与者，我们创建了一个更复杂的测试场景。 可在此处下载此详细测试方案的指南： [WF + Frame.io详细测试方案演练](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+对于希望测试附加功能的参与者，我们创建了一个更复杂的测试场景。 可在此处下载此详细测试方案的指南： [WF + Frame.io详细测试方案演练](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## 演示视频
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## 发送反馈
 

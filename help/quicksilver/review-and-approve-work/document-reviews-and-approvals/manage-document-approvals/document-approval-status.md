@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 文档审批状态
-description: 列出并解释了文档审批状态
+title: 文档决策状态
+description: 列出并解释文档决策状态
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 文档审批状态
+# 文档决策状态
 
-您可以在文档的标题中找到文档的审批状态。
+您可以直接在文档列表中查看文档状态：
+
+![](assets/status-in-doc-list.png)
 
 可以使用以下状态：
 

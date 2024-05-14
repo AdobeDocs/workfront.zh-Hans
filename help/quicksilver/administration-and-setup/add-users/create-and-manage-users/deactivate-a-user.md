@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ ht-degree: 0%
 
 ## 取消激活用户
 
+停用用户时，请注意以下事项：
+
+* 用户将无法访问系统。
+* 将从Frame.io查看链接、资产、项目和帐户中删除用户。
+   * 重新激活用户不会自动将其添加回Frame.io项目。 您必须手动将用户重新分配给需要Frame.io协作的Workfront项目、任务和资源。
+* 将保留与用户关联的所有数据。
+* 您可以将已停用用户的许可证分配给另一个用户。
+
+要停用用户，请执行以下操作：
+
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
 
 1. 选择一个用户，单击 **更多** 图标 ![](assets/more-icon.png)，然后单击 **取消激活**.
@@ -126,6 +136,10 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 1. 选择一个用户，单击更多图标 ![](assets/more-icon.png)，然后单击 **激活**.
 
 1. 分配新 **访问级别**&#x200B;在下拉菜单中，然后单击 **重新激活**.
+
+### 重新激活用户时产生的资产审查和批准影响
+
+已停用用户将无法访问其分配的Frame.io帐户以及分配的项目、资源和审阅链接。 如果选择重新激活用户，则必须手动将其重新分配给需要Frame.io协作的项目、任务和资源。
 
 ### 重新激活用户时的验证影响
 
