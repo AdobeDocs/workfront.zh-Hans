@@ -6,9 +6,9 @@ description: 访问 [!DNL Workfront] 通过Adobe Experience Cloud，您可以无
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 访问您的个人资料和首选项
 
-您可以通过单击顶部导航区域中的配置文件图片来访问配置文件和首选项选项。
+您可以通过单击顶部导航区域中的Adobe帐户菜单（您的配置文件图片），访问您的配置文件和首选项选项。
 
 ![配置文件菜单](assets/aec-profile-picture-menu.png)
 
