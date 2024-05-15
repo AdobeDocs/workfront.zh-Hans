@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ ht-degree: 0%
 
 ## 有关编辑记录页面的注意事项
 
-* 重新排列记录预览或页面中的字段会重新排列该类型所有记录和访问这些记录的所有用户的字段。
+* 默认情况下，记录的详细信息和预览页面显示与该记录关联的所有字段。
+
+* 您不能在预览或详细信息页面中为记录添加新字段。 您必须在表格视图中添加新字段，才能在预览和详细信息页面中显示它们。
+
+* 您可以将部分添加到记录预览或详细信息页面，以按通用标准组织信息并使其更易于查找。
+
+* 以下更改将影响同一类型的所有记录，并且访问这些记录的所有用户都可以看到这些更改：
+
+   * 重新排列字段
+   * 添加或删除部分
 
 * 显示在记录预览中所做的更改会立即显示在记录详细信息页面中。 在记录页面中所做的更改也会显示在记录预览框中。
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * 向记录添加封面图像不是记录预览或页面的整体布局的一部分。 您可以为每个记录添加唯一的封面图像。 有关信息，请参阅 [将封面图像添加到记录](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## 向记录预览或页面添加分区
 
-## Add sections to a record preview or page
+向记录页添加节时，请考虑以下事项：
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* 一个页面上可以具有的节数没有限制。
+* 分区不能为空。 在一个部分中，必须至少有一个字段。
+* 可以将字段从一个区域拖放到另一个区域。 有关更多信息，请参阅部分 [重新排列记录预览或详细信息页面中的字段](#rearrange-fields-in-the-record-preview-or-details-page) 本文章中。
+* 从分区中删除所有字段时，该分区将自动删除且无法恢复。
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+要将节添加到记录预览或页面，请执行以下操作：
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+您上次访问的工作区将打开。
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+1. 单击记录类型卡片。
 
-    The record type page opens. 
+   此时将打开记录类型页面。
 
-1. From a view of any type, click the name of a record 
+1. 从任何类型的视图中，单击记录的名称
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   或
 
-    ![](assets/details-box.png) 
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   记录的预览将在视图中打开。
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
-    ![](assets/details-page.png)
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   此时将打开记录页面。
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. 在记录预览或页面中，将鼠标悬停在字段左侧的空格上，然后单击 **添加分区** 图标 ![](assets/add-section-icon.png) 以添加分区。
+1. 在部分的名称内单击并替换 **无标题部分** 名称，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
+1. 开始将字段拖放到新部分，如部分所述 [重新排列记录预览或详细信息页面中的字段](#rearrange-fields-in-the-record-preview-or-details-page) 本文章中。
+
+1. （可选）将鼠标悬停在区域名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. （可选）执行以下操作之一以编辑部分：
 
-   * Click **Rename** to rename the section
+   * 单击 **重命名** 重命名分区
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > 通过单击名称，可以内联重命名截面。
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * 单击 **上移** 将节向上移动一个位置
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     或
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     单击 **下移** 将节向下移动一个位置。
+部分中的所有字段都会随部分一起移动。
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * 单击 **删除** 以删除部分。 该部分已被删除，无法恢复。 访问此类型记录的所有用户将不再查看已删除的分区。
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. 单击区域名称左侧的向下箭头可将其折叠，单击向右箭头可将其展开。
+默认情况下，所有部分都处于扩展状态。
 
-    All changes to sections and field order are saved automatically. 
+1. （可选）单击 **抓取** 图标 ![](assets/grab-icon.png) 区域名称的左侧，然后将其拖放到所需位置。
 
--->
+   对于查看记录的所有用户，相同类型的所有记录的预览和页面中的区段新位置都会更新。
 
-## 重新排列记录预览或页面中的字段
+   对部分和字段顺序的所有更改都将自动保存。
+
+## 重新排列记录预览或详细信息页面中的字段
 
 {{step1-to-maestro}}
 

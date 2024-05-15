@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ ht-degree: 0%
 
 
 ## 将Workfront Planning记录类型与Workfront项目对象类型连接并将记录与单个项目连接
+
+>[!IMPORTANT]
+>
+>    对工作区具有“查看”权限或更高权限的每个人可以查看链接字段中的信息，无论他们在Workfront中的权限或访问级别如何。
 
 例如，您有一个名为Campaign的记录类型作为原始记录类型。
 

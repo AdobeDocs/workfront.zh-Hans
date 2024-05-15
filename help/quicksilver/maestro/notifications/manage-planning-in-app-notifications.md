@@ -4,13 +4,13 @@ description: 当有人在记录评论中标记您时，您会收到该标记的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # 管理Adobe Workfront Planning应用程序内通知
 
