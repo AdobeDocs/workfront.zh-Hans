@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,19 +27,29 @@ ht-degree: 9%
 
 您可以使用许多表类型以最深入地查看Workfront数据。
 
-### 当前表
+* **当前表**
 
-当前表反映的数据与Workfront中的数据、每个对象及其当前状态类似。 但是，与Workfront相比，它可以以低得多的延迟进行导航。
+  当前表反映的数据与Workfront中的数据、每个对象及其当前状态类似。 但是，与Workfront相比，它可以以低得多的延迟进行导航。
 
-### 事件表
+* **事件表**
 
-“事件”表格将跟踪Workfront中的每个更改记录：即，每次对象更改状态时，都将创建一个记录以显示更改的时间、进行更改的人员以及更改的内容。 因此，此表对于时间点比较很有用。 此表仅包括过去三年的记录。
+  “事件”表格将跟踪Workfront中的每个更改记录：即，每次对象更改状态时，都将创建一个记录以显示更改的时间、进行更改的人员以及更改的内容。 因此，此表对于时间点比较很有用。 此表仅包括过去三年的记录。
 
-### “每日历史记录”表
+* **“每日历史记录”表**
 
-“每日历史记录”表提供了“事件”表的缩写版本，它以每日为基础显示每个对象的状态，而不是显示每个单独事件发生时的状态。 因此，此表可用于趋势分析。
+  “每日历史记录”表提供了“事件”表的缩写版本，它以每日为基础显示每个对象的状态，而不是显示每个单独事件发生时的状态。 因此，此表可用于趋势分析。
 
 <!-- Custom table -->
+
+## 实体关系图
+
+Workfront中的对象（因此也是数据湖中的对象）不仅由其单个值定义，而且还由其与其他对象的关系定义。 下面的实体关系图提供了Workfront数据湖中对象关系的高级映射。 可以使用以下链接查看和下载图表：
+
+[Workfront数据湖实体关系图](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>实体关系图是正在进行的工作 — 因此，它仅供参考，并且可能会发生更改。
 
 ## 术语表
 

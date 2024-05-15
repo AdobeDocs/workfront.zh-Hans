@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ ht-degree: 0%
 * 创建和处理Workfront请求
 * 在时间表上记录时间
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >此 [!DNL Adobe Workfront] 移动应用程序已取代 [!DNL Workfront Proof] 应用程序。 [!DNL Workfront] 客户现在应使用 [!DNL Adobe Workfront] 用于执行验证审查和审批的移动应用程序。
+
+>[!NOTE]
+>
+>Workfront移动设备应用程序不支持文本字段中的超链接。
 
 欲知关于 [!DNL Adobe Workfront] 请在移动应用程序上查看以下文章：
 

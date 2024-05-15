@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">使用AWS电子邮件服务</td> 
+   <td role="rowheader">使用电子邮件服务</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -202,6 +202,15 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">使用Mailgun电子邮件服务</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -507,7 +516,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
  </tbody> 
 </table>
 
-## 为访问Workfront Proof而添加的IP地址和URL
+## 要添加的用于访问Workfront Proof的IP地址和URL
 
 必须将以下IP地址添加到允许列表中，才能使用各种功能。
 
@@ -596,9 +605,9 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
  </tbody> 
 </table>
 
-## 打开端口以获得最佳的Workfront Proof性能
+## 打开端口以实现最佳的Workfront Proof性能
 
-如果您在加载验证时遇到问题或无法在Workfront Proof中工作，请打开以下端口：
+如果您在加载校样时遇到问题或无法在Workfront Proof中使用，请打开以下端口：
 
 * 5671
 * 5672
