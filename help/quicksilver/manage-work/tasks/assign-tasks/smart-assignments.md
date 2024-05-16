@@ -7,19 +7,20 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # 智能分配概述
 
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳资源。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。 智能分配可以是用户、工作角色或团队。
 
@@ -121,7 +122,7 @@ ht-degree: 0%
 
   例如，如果Rick今天早些时候被分派到一个类似的任务，而Jennifer两天前被分派到一个类似的任务，则Rick首先显示。
 
-* 此阶段中确定的分配将列在 **建议的分配** 字段的部分。
+* 此阶段中确定的分配将列在    **建议的分配**  字段的部分。
 
 * 如果没有匹配项使用此计算，则智能分配的第二阶段将开始（使用不同的算法计算）。
 
@@ -131,7 +132,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅部分 [任务和问题的智能分配标准](#smart-assignments-criteria-for-tasks-and-issues) 本文章中。
 
-此阶段中确定的分配将列在 **其他分配** 任务的“工作总揽”字段的部分。 <!--update this to "Other assignments"-->
+此阶段中确定的分配将列在   **其他分配** （或用户和团队，或工作角色分配）任务的“分配”字段部分。
 
 ### 任务和问题的智能分配标准
 

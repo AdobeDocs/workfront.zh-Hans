@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ recommendations: noDisplay, noCatalog
 * 不能在记录页面或表格视图之外的任何其他视图中编辑字段。
 * 保存字段后，您无法编辑字段类型。
 * 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
+* 保存字段后，可以编辑以下字段元素的配置：
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * 任何字段的名称或描述
+   * 单选或多选字段的选项。
+   * “公式”字段的表达式。
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >当公式表达式发生更改，或者在select-type字段中添加或删除选项时，如果记录中已存储信息且这些信息的字段修改了配置，则这些记录的数据将会丢失。
+  >
+  >在更改字段配置时，没有警告或指示可能发生此数据丢失。
+  >
+  >不会通知其他用户字段配置已更改。
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

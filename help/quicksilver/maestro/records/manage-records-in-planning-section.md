@@ -4,7 +4,7 @@ description: 您可以在左侧面板的Adobe Workfront对象的Planning部分�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ ht-degree: 1%
    * 连接到Planning记录的Workfront字段的值也会被删除。
 1. 单击 **连接** 连接更多记录。
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   “连接”按钮仅对您具有“管理”权限的工作区显示。
+   >   “连接”按钮仅显示您具有Contribute权限的工作区。
 
 1. 单击要连接的记录。 出现以下情况：
 

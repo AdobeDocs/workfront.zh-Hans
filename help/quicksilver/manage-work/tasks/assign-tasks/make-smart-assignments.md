@@ -6,20 +6,20 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 进行智能分配
 
-<!--Audited: 02/2024-->
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 
@@ -87,8 +87,8 @@ ht-degree: 0%
 
    对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
 
-   * **建议的分配**：在任务智能分配算法计算的第一阶段中识别的分配。
-   * <span class="preview">**其他分配**：在任务智能分配算法计算的第二阶段中识别的分配。 此部分不适用于问题。 </span> <!--replace this with the new UI: "Other assignments"-->
+   * **建议的分配**：在任务智能分配算法计算的第一阶段中识别的分配。 <span class="preview">此部分不适用于问题。</span>
+   * <span class="preview">**其他分配** (或 **用户和团队**，或 **职位角色**)：在任务智能分配算法计算的第二阶段中标识的分配。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 
