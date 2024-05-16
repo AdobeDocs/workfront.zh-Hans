@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3719'
 ht-degree: 0%
 
 ---
@@ -434,7 +434,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL JSON]</td> 
-   <td> <p>如果您的HTML引用JavaScript变量，则可以在此处包含这些变量。 </p> <p>对于每个变量，单击 <strong>[！UICONTROL添加项]</strong> 并包含变量的键和值。</p> <p>注释:   
+   <td> <p>如果您的HTML引用JavaScript变量，则可以在此处包含这些变量。 </p> <p>对于每个变量，单击 <strong>[！UICONTROL添加项]</strong> 并包含变量的键和值。</p> <p>注意：   
      <ul> 
       <li> <p>从ZIP文件创建PDF时，源宣传材料必须包括脚本元素，例如： <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>从URL创建PDF时，此JSON对象的内容将在呈现页面之前插入到浏览器VM中。 </p> </li> 
@@ -631,7 +631,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Pages]</td> 
-   <td> <p>对于每个要删除的页面范围，单击 <strong>[！UICONTROL添加]</strong> 然后输入页面范围的首页和最后一页。 </p> <p>注释:   
+   <td> <p>对于每个要删除的页面范围，单击 <strong>[！UICONTROL添加]</strong> 然后输入页面范围的首页和最后一页。 </p> <p>注意：   
      <ul> 
       <li> <p>您可以使用负数从文档结尾往回计数。 文档的最后一页为–1，最后一页的第二页为–2，依此类推。</p> </li> 
       <li> <p>要删除单个页面，请将起始页码和结束页码设置为相同的页码。</p> </li> 
@@ -801,6 +801,44 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
    <li><p><b>文件数</b></p><p>输入要分割文档的均匀大小的文件数。</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 进行自定义API调用
+
+此操作模块向PDF服务API发出自定义HTTP请求。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与的连接 [!DNL Adobe PDF Services]，请参见 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与的连接 [!DNL Adobe PDF Services]</a> 本文章中。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td> 输入相对路径或URL。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion会自动添加授权标头。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL查询字符串]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL字段]</td> 
+   <td> <p>对于要添加到API调用的每个字段，单击 <b>添加项目</b> 并输入字段的键和可选值。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
