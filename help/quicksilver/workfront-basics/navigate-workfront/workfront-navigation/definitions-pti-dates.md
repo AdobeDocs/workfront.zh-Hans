@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: 中的项目、任务和问题日期概述 [!DNL Adobe Workfront]
-description: 中的项目、任务和问题日期概述 [!DNL Adobe Workfront]
+title: 中的项目、任务和问题日期概述 [!DNL Workfront]
+description: 本文提供了与中的项目、任务和问题相关的最常见日期的定义。 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# 中的项目、任务和问题日期概述 [!DNL Adobe Workfront]
+# 中的项目、任务和问题日期概述 [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅 [项目概述 [!UICONTROL 计划开始日期]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 此 [!UICONTROL 输入日期] 不影响项目、任务或问题的时间线，但它对于跟踪和报告很重要。 [!DNL Workfront] 自动生成 [!UICONTROL 输入日期] 创建对象后，您无法手动编辑该对象。
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL 实际开始日期]
 
@@ -114,7 +117,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 预计开始日期]
 
-此 [!UICONTROL 预计开始日期] 是项目、任务或问题的实时日期，并考虑到所有延迟。 这是项目、任务或问题的开始日期比 [!UICONTROL 计划开始日期]. 此 [!UICONTROL 计划开始日期] 不考虑延迟或过去的日期。
+此 [!UICONTROL 预计开始日期] 是项目、任务或问题开始的实时日期，并考虑到所有延迟。 这是项目、任务或问题的开始日期比 [!UICONTROL 计划开始日期]. 此 [!UICONTROL 计划开始日期] 不考虑延迟或过去的日期。
 
 当您首次计划项目时， [!UICONTROL 计划开始日期] 和 [!UICONTROL 预计开始日期] 中的任务和项目中的任务相同。 由于可能会出现延迟或任务可能提前完成， [!UICONTROL 预计开始日期] 可能会变得不同于 [!UICONTROL 计划开始日期].
 
@@ -132,7 +135,7 @@ ht-degree: 0%
 
 此 [!UICONTROL 预计完成日期] 是一个实时计算指示器，指示项目、任务或问题的完成时间。 当项目、任务或问题标记为“已完成”时， [!UICONTROL 预计完成日期] 对日期所做的更改 [!UICONTROL 实际完成日期].
 
-如果一切顺利，按计划进行 [!UICONTROL 预计完成日期] 应匹配 [!UICONTROL 计划完成日期]. 否则，由于前置任务延迟， [!UICONTROL 预计完成日期] 可能会变得与 [!UICONTROL 计划完成日期].
+如果一切顺利，按计划进行， [!UICONTROL 预计完成日期] 应匹配 [!UICONTROL 计划完成日期]. 否则，由于前置任务延迟， [!UICONTROL 预计完成日期] 可能会变得与 [!UICONTROL 计划完成日期].
 
 有关更多信息，请参阅 [概述 [!UICONTROL 预计完成日期] 项目、任务和问题](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->此 [!UICONTROL 小时输入日期] 不同于 [!UICONTROL 输入日期] 这是因为该日期不是创建小时日志的日期，而是您希望与小时关联的日期。
+>此 [!UICONTROL 小时输入日期] 不同于 [!UICONTROL 输入日期] 这是因为该日期不是创建小时日志的日期，而是您希望小时数与其关联的日期。
 
 您可以在Workfront的以下区域中记录和查看时间：
 

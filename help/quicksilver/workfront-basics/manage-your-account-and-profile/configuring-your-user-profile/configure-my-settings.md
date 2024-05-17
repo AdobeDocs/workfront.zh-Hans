@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（视情况而定） [！UICONTROL仅允许 &lt;sso configuration=""&gt; 身份验证]</strong></td> 
-   <td> <p> 如果您的 [!DNL Workfront] 管理员启用了SSO集成 [!DNL Workfront] 并更新了SSO的用户，此字段默认处于选中状态。 为启用的SSO配置类型 [!DNL Workfront] 实例在此字段中可见。</p> <p>选择此字段后，您需要登录 [!DNL Workfront] 使用您的SSO凭据。 取消选中该复选框将允许您登录到 [!DNL Workfront] 与您的 [!DNL Workfront] 凭据。</p> <p>有关配置的更多信息 [!DNL Workfront] 使用SSO解决方案，请参见 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">单点登录 [!DNL Adobe Workfront]</a>. 有关为SSO更新用户的详细信息，请参见 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新单点登录的用户</a>.</p> </td> 
+   <td> <p> 如果您的 [!DNL Workfront] 管理员启用了SSO集成 [!DNL Workfront] 并更新了SSO的用户，此字段默认处于选中状态。 为启用的SSO配置类型 [!DNL Workfront] 实例在此字段中可见。</p> <p>选择此字段后，您需要登录 [!DNL Workfront] 使用您的SSO凭据。 取消选中该复选框将允许您登录到 [!DNL Workfront] 与您的 [!DNL Workfront] 凭据。</p> <p>有关配置的更多信息 [!DNL Workfront] 使用SSO解决方案，请参见 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">单点登录 [!DNL Workfront]：文章索引</a>. 有关为SSO更新用户的详细信息，请参见 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新单点登录的用户</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

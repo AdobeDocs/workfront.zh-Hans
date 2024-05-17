@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 1%
@@ -540,8 +540,8 @@ ht-degree: 1%
          * [授予对Scenario Planner的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [授予对资源管理的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [授予对Workfront目标的访问权限](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Adobe Workfront中的单点登录 {#sso}
-         * [单点登录](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Workfront中的单点登录 {#sso}
+         * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [更新单点登录的用户](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 1%
       * [[!DNL Adobe Workfront] 对象概述](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [了解工作许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [了解审阅许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Adobe Workfront中的项目、任务和问题日期概述](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Workfront中的项目、任务和问题日期概述](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
       * 新建主页 {#new-home}

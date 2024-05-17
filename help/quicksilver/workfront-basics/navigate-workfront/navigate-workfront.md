@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -37,6 +37,6 @@ ht-degree: 0%
 * [中的列表 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [创建自定义分区](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [访问 [!DNL Adobe Workfront] 帮助](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [中的项目、任务和问题日期概述 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [中的项目、任务和问题日期概述 [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [了解 [!UICONTROL 工作]-license用户](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [了解 [!UICONTROL 审核]-license用户](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

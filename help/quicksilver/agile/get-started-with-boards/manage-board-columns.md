@@ -2,11 +2,11 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 管理展示板上的列
-description: 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
+description: 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。 您还可以定义列策略。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 管理展示板上的列
+
+<!-- Audited: 05/2024 -->
 
 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。
 
@@ -32,21 +34,24 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档：参与者或更高版本 </p>
+        <p>或</p> 
+        <p>当前： [！UICONTROL Request]或更高版本 </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 向展示板添加列
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+{{step1-to-boards}}
+
 1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
 1. 单击 **[!UICONTROL 添加列]** 位于现有列的右侧。
 1. 在新列中，键入名称并单击 **[!UICONTROL 添加列]**.

@@ -7,9 +7,9 @@ description: 有多种类型的日期显示了任务从何时可以开始到何�
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 首次创建任务时，计划、预计和预计日期通常应该匹配。 存在一些例外。 
 
-有关Adobe Workfront中的项目、任务和问题日期的详细信息，请参阅 [Adobe Workfront中的项目、任务和问题日期概述](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+有关Adobe Workfront中的项目、任务和问题日期的详细信息，请参阅 [Workfront中的项目、任务和问题日期概述](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## 计划日期概览
 

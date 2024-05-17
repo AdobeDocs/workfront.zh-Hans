@@ -3,21 +3,25 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: Adobe Workfront中的单点登录
+title: “Workfront中的单点登录：文章索引”
 description: 您可以将Workfront与您现有的公司SSO解决方案集成。 此配置易于设置和管理，并适用于OnDemand和OnPremise Enterprise客户。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront中的单点登录
+# Workfront中的单点登录：文章索引
+
+<!-- Audited: 05/2024 -->
+
+您可以将Workfront与您现有的企业单点登录(SSO)解决方案集成。 此配置易于设置和管理，并适用于OnDemand和OnPremise Enterprise客户。
 
 本节包含以下文章：
 
