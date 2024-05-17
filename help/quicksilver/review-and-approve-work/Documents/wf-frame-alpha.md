@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -113,47 +113,10 @@ ht-degree: 0%
 
 为了让您轻松测试Beta计划的新功能，我们创建了一个新的测试Frame.io帐户，并将其连接到一个名为的新组 `Frame.io testing` 在现有Workfront预览或沙盒环境中。
 
-+++展开以查看基本测试说明
-
-要测试该功能，请登录Workfront预览版或沙盒实例并执行以下步骤：
-
-1. **协调员：** 在Workfront中，使用创建项目 `Frame.io testing` 组被指定为项目组。
-
-1. **协调员：** 在Workfront中，将需要创意工作的任务标记为已启用框架（在任务详细信息中），并将您的创意分配给该任务（如果您希望测试整个工作流，请一并分配）。
-
->[!NOTE]
->
->子任务不能标记为已启用框架。
->
-
-1. **协调员：** 上传您的创意简报并将项目状态更改为“当前”。
-
-1. **创意人员：** 检查您的电子邮件中是否有邀请加入新创建的Frame.io项目
-
-1. **创意人员：** 单击邀请电子邮件中的“加入项目”按钮，加入Frame.io项目，查看项目中的创意简报，然后在所选的Creative Cloud工具中开始创建内容。
-
-1. **创意人员：** 将您创建的资源上传到Frame.io，并通过选择其中一个分配的启用Frame的任务来将其添加到链接的Workfront项目。 选择选项以将任务标记为完成。
-
-1. **协调员：** 在Workfront中，在启用了frame的任务中找到链接的Frame.io资源，并检查该任务的状态是否更改为“完成”。
-
-1. **协调员：** 将审阅者/批准者分配给链接的Frame.io资产。 如果要测试整个工作流，请将您自己指定为批准者。 (有关分配审阅/批准者的详细信息，请参阅 [向文档添加其他批准者或审阅者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md))。
-
-1. **利益相关者：** 在Workfront的“主页”、“文档详细信息”或接收的电子邮件通知中查看您的审批请求。 在Frame.io查看器中打开资产，留下包含反馈的注释，然后做出决定。
-
-1. **协调员：** 在Workfront中，查看在Frame.io连接文档的更新部分中创建的利益相关者评论，以及审批部分或文档摘要窗格中的决策。
-
-1. **创意人员：** 在Frame.io中，请注意针对您的资源作出的整体批准决定。
-
-1. **创意人员：** 在Frame.io中，通过将更新版本添加到所连接资源的版本栈栈来应用请求的更改。
-
-1. **协调员：** 在Workfront中，将审批者/审阅者分配给新上传的版本，并监控进度，直到该版本实现注销。
-
-+++
-
-+++ 展开以查看详细的测试说明
+### 详细的测试说明
 
 对于希望测试附加功能的参与者，我们创建了一个更复杂的测试场景。 可在此处下载此详细测试方案的指南： [WF + Frame.io详细测试方案演练](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## 演示视频
 
