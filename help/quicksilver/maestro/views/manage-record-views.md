@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ ht-degree: 1%
 * 日历
 
   有关更多信息，请参阅 [管理日历视图](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+本文介绍了有关记录视图的以下信息：
+
+* [创建和编辑视图](#create-or-edit-record-views)
+* [删除视图](#delete-views)
+* [复制视图](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## 访问要求
 
@@ -93,7 +101,8 @@ ht-degree: 1%
 * Workfront Planning中的视图特定于记录类型。 不能将同一视图应用于两种不同的记录类型。
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
-<!--* Each user can create a maximum of 100 views. -->
+* 每个用户最多可创建100个视图。 您可以为记录类型显示100多个视图，但一个用户只能创建100个视图。
+* 您可以与其他人共享您创建的视图。 有关信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md).
 * 以下元素对于每个记录视图都是唯一的：
 
    * 筛选
@@ -108,14 +117,6 @@ ht-degree: 1%
   >[!NOTE]
   >
   > 由于Adobe Workfront Planning当前处于测试版状态，因此某些视图元素可能并非对所有视图都可用。
-
-本文介绍了有关记录视图的以下信息：
-
-* [创建和编辑视图](#create-or-edit-record-views)
-* [删除视图](#delete-views)
-* [复制视图](#duplicate-views)
-* [共享视图](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 记录视图之间的异同
 
@@ -228,10 +229,6 @@ ht-degree: 1%
 1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
 
    所有有权访问记录区域的用户都将删除该视图，并且无法恢复它。
-
-## 共享视图
-
-有关共享视图的信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

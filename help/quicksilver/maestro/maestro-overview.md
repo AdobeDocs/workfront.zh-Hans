@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 1%
+source-wordcount: '1838'
+ht-degree: 2%
 
 ---
 
 # Adobe Workfront规划概述
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |
 | 可导入的Excel文件的CSV大小* | 5MB |
+| 一个用户可以为一个记录类型创建的视图数 | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 
