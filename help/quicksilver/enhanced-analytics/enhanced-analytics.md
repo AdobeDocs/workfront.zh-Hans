@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
@@ -28,11 +28,12 @@ ht-degree: 3%
 * [在增强型分析中查看项目活动可视化](../enhanced-analytics/project-activity-overview.md)
 * [在增强型分析中查看项目树状图可视化图表](../enhanced-analytics/project-treemap-overview.md)
 * [在增强型分析中查看按团队分类的活动可视化图表](../enhanced-analytics/activity-by-team-overview.md)
-* [在Enhanced Analytics中查看资源产能可视化图表](../enhanced-analytics/resource-capacity-overview.md)
-* [在“增强分析”中查看“团队容量”可视化图表](../enhanced-analytics/team-capacity-overview.md)
-  <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
+<!--
+* [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
+* [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
+* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-  <!--
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -360,13 +360,16 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
                                 <p>预览版本： 2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
                                 <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
@@ -377,13 +380,16 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相关的智能分配</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
                                 <p>预览版本： 2023年12月21日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
                                 <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>

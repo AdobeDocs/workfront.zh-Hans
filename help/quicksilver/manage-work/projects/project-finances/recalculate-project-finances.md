@@ -6,9 +6,9 @@ description: 当项目记录的小时数或用于计算成本和收入的费率�
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >在手动重新计算给定项目的财务之前，您可能希望保留已按先前比率计算的任何财务数据。 我们建议仅在您确定不更改现有信息时或者仅在需要此类更改时才使用重新计算财务选项。
+>
+>请注意，运行项目（财务数据）报表会执行财务数据的重新计算，因此在运行报表之前，您应该考虑相同的因素。
 
 ## 保留具有现有小时数的任务的财务数据 {#preserve-financial-data-for-tasks-with-existing-hours}
 

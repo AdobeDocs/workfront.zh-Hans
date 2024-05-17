@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 1%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 1%
       * [在增强型分析中查看项目活动可视化](enhanced-analytics/project-activity-overview.md)
       * [在增强型分析中查看项目树状图可视化图表](enhanced-analytics/project-treemap-overview.md)
       * [在增强型分析中查看按团队分类的活动可视化图表](enhanced-analytics/activity-by-team-overview.md)
-      * [在Enhanced Analytics中查看资源产能可视化图表](enhanced-analytics/resource-capacity-overview.md)
-      * [在“增强分析”中查看“团队容量”可视化图表](enhanced-analytics/team-capacity-overview.md)
    * Workfront数据湖 {#data-lake}
       * [Workfront数据湖概述](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [创建读者帐户](reports-and-dashboards/data-lake/create-a-reader-account.md)

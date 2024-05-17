@@ -6,9 +6,9 @@ description: “您在中显示的信息 [!DNL Adobe Workfront] 由存储在文�
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ ht-degree: 1%
 * [!UICONTROL 参数组] (或 [!UICONTROL 分节符])
 * [!UICONTROL Portfolio]
 * [!UICONTROL 项目]
-* [!UICONTROL 项目] ([!UICONTROL 财务数据])
+* [!UICONTROL 项目（财务数据）]
+   * 财务信息填充于 [!UICONTROL 项目（财务数据）] 仅报告与其关联的数据存在时间小于5年的情况。 例如，如果某个工作角色在2015年1月分配给某个任务，而今天是2021年9月，则类似于 [!UICONTROL 分配日期] 因为工作角色不会填充到 [!UICONTROL 项目（财务数据）] 报告。
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >财务信息填充于 [!UICONTROL 项目] ([!UICONTROL 财务数据])仅当与其关联的数据的保留时间少于5年时才报告。 例如，如果某个工作角色在2015年1月分配给某个任务，而今天是2021年9月，则类似于 [!UICONTROL 分配日期] 因为工作角色不会填充到 [!UICONTROL 项目（财务数据）] 报告。
+  >运行项目（财务数据）报表会重新计算财务数据，这会覆盖先前的财务数据，并且可能需要相当长的时间。 有关财务数据重新计算的后果的更多信息，请参阅 [重新计算项目财务](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL 校对审批]
    * 允许您查看有关验证审批的各种信息，包括：提交以供审批的验证、关于 [!UICONTROL 审批者]，有关请求者的信息（如果请求者已获得许可） [!DNL Workfront] 用户)、版本信息、验证ID和验证创建日期。\
