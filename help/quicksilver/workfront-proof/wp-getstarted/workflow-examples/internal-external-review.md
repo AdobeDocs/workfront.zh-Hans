@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: 内部审查，然后外部审查 [!DNL Workfront Proof]
-description: 了解如何使用Workfront Proof在组织外部进行审阅。
+description: 了解如何使用Workfront Proof在组织外部进行审核。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 设计人员首先会与项目经理（以及任何其他同事）共享证明。 同事查看验证，如果批准，您可以使用共享功能与您的客户共享验证。 有关更多信息，请参阅 [在中共享验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **创建新验证**  — 设计人员在中创建新验证 [!DNL Workfront Proof] 并与内部评审员分享。 设计人员使项目经理成为验证的所有者。
 1. **内部审查**  — 项目经理和其他同事查看证明。
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 此选项说明了一个工作流，其中验证过程由项目经理管理，项目经理会创建任何新版本（根据需要）并与客户端共享验证。 设计者无需参与审阅过程。)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **创建新验证**  — 设计人员在中创建新验证 [!DNL Workfront Proof] 并与内部审阅人共享。 设计人员将项目经理设为证明的所有者，或者授予他以下角色 [!UICONTROL 作者] 在验证上(请参阅 [在中管理验证角色 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md))。
 
