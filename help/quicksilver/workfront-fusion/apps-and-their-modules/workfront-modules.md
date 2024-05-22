@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ ht-degree: 2%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL Options]</td> 
    <td> <p>在转换对象时启用所需的任意选项。 选项是否可用取决于您要转换到的对象或从哪个对象转换。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL复制本机字段]</td> 
+   <td> <p>启用此选项可将任何本地字段从原始对象复制到新对象。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL复制自定义表单]</td> 
+   <td> <p>启用此选项可将任何本地字段从原始对象复制到新对象。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1107,7 +1115,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>校对审批</td> 
+   <td>校样审批</td> 
    <td> </td> 
    <td> </td> 
    <td>✓ {\f13 }</td> 
@@ -1238,6 +1246,16 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
+   <td>基线</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td> </td> 
+   <td>✓ {\f13 }</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>开票记录</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1298,6 +1316,16 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
+   <td>汇率</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td> </td> 
+   <td>✓ {\f13 }</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>费用</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1316,6 +1344,16 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>外部文档</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>组</td> 
@@ -1522,7 +1560,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
-   <td>✓ {\f13 }</td> 
+   <td> </td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
