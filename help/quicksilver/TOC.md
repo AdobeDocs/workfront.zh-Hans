@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e4a265400b2ce4e6338d09477463a6a6c7cded84
+source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
 workflow-type: tm+mt
-source-wordcount: '14260'
+source-wordcount: '14263'
 ht-degree: 1%
 
 ---
@@ -2738,6 +2738,8 @@ ht-degree: 1%
       * [概述](proofhq-api/general/overview.md)
       * [代码示例](proofhq-api/general/code-samples.md)
       * [SOAP API常见问题解答](proofhq-api/general/soap-api-faqs.md)
+* [隐藏的测试文档](hidden-test.md)
+
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
