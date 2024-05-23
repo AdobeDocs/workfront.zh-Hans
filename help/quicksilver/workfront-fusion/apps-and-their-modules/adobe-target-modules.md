@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ ht-degree: 0%
 
 ## 创建与的连接 [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>2024年6月3日之后创建的连接需要Adobe Target服务器到服务器连接。
+>
+>* 现有的服务帐户连接将继续工作到2025年1月。 您必须在2024年1月之前将服务帐户连接替换为Adobe Target服务器到服务器连接。
+>* 您必须是组织的开发人员才能创建Adobe Target服务器到服务器连接。 开发人员角色在Adobe Admin Console中设置。
+
 要为创建连接，请执行以下操作 [!DNL Adobe Target] 模块：
 
 1. 单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
@@ -94,6 +101,11 @@ ht-degree: 0%
         <td role="rowheader">[！UICONTROL连接名称]</td>
         <td>
           <p>输入此连接的名称。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL连接类型]</td>
+        <td>选择是要创建服务帐户连接，还是要创建Adobe Target服务器到服务器连接。<p><b>重要</b>：2024年6月3日之后创建的连接需要Adobe Target服务器到服务器连接。 现有的服务帐户连接将继续工作到2025年1月。 您必须在2024年1月之前将服务帐户连接替换为Adobe Target服务器到服务器连接。
         </td>
       </tr>
       <tr>
