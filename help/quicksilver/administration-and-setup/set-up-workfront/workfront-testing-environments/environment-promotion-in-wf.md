@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 这些是可配置的对象，如项目、团队或自定义表单。
 
-环境升级不支持移动事务性对象的功能（只有少数例外）。 无法配置事务性对象。 示例包括系统活动更新和验证决策。
+由于环境升级涉及对象配置，因此不包括事务性对象（频繁更改或高度依赖于用例的对象）。 事务性对象的示例包括文档、问题、请求、更新和验证决策。
 
 * [工作对象](#work-objects)
 * [报表对象](#reporting-objects)
