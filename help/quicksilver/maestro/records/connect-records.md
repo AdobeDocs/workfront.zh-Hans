@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ hide: yes
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 连接记录
-
-### 有关连接记录的注意事项
+## 有关连接记录的注意事项
 
 * 连接记录类型后，连接的记录类型在从中链接的记录类型表格中以及在记录页面上显示为链接记录字段。
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
@@ -150,6 +148,11 @@ hide: yes
       * [创建记录](../records/create-records.md)
 
    * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
+* 您可以在以下区域将对象从Workfront连接到Workfront Planning记录：
+   * 来自Workfront Planning中的Planning记录。
+   * 从Workfront对象的“规划”部分。
+
+## 从Workfront Planning连接记录
 
 ### 连接Adobe Workfront Planning记录
 
@@ -379,3 +382,13 @@ hide: yes
    从中删除Workfront对象字段 **选定的字段** 区域。
 
    这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在AdobeExperience Assets中。
+
+## 从Workfront对象连接记录
+
+要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
+
+* 记录类型与Workfort对象类型之间的连接。
+* 记录和Workfront对象之间的至少一个连接。
+* 您的Workfront或组管理员必须将Planning部分添加到可以连接到Planning记录类型的Workfront对象类型。
+
+有关更多信息，请参阅 [管理Adobe Workfront对象“计划”部分中的记录](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

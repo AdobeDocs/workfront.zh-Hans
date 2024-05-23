@@ -4,18 +4,19 @@ description: 您可以在左侧面板的Adobe Workfront对象的Planning部分�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # 管理Adobe Workfront对象“计划”部分中的记录
@@ -101,7 +102,8 @@ ht-degree: 1%
    * [连接记录类型](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [连接记录](/help/quicksilver/maestro/records/connect-records.md)
 * 您可以查看Workfront对象中的Planning部分，即使没有与Workfront对象关联的记录也是如此。
-* 您可以在Planning部分将Planning记录与Workfront中的Workfront对象连接。
+* 当至少有一个记录连接到Workfront对象时，您可以在Planning部分中，将Planning记录与Workfront中的Workfront对象连接。
+* 您必须对工作区具有Contribute或更高权限才能从Workfront对象连接记录。
 
 ## 管理“计划”部分中的记录
 
@@ -132,17 +134,15 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
-1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开记录的详细信息页面。
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标 **-**，然后单击 **断开连接**.
 出现以下情况：
    * 记录不再连接到Workfront对象。
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
-   * 连接到Planning记录的Workfront字段的值也会被删除。
+   * 连接到Planning记录的Workfront查找字段的值也会被删除。
 1. 单击 **连接** 连接更多记录。
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
 
    * 记录会立即连接到Workfront对象，并显示在Planning部分中。
    * Workfront对象将添加到Workfront Planning记录的已连接字段中。
-   * 连接到Planning记录的Workfront字段的值会在Workfront Planning中填充。
+   * 连接到Planning记录的Workfront查找字段的值会在Workfront Planning中填充。
 
 <!--add more steps here for what happens after clicking Connect-->
 
