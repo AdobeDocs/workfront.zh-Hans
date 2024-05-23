@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ ht-degree: 0%
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>以下语句仅适用于新计划。
+>
+>对于Select计划：
+>
+>1. 系统管理员无法设置主组的限制。
+>2. 系统管理员只能看到所有主组使用的许可证总数。
+>3. 组管理员根本无法访问许可证页面。
+>
+>对于Prime和Ultimate计划：
+>
+>1. 系统管理员可以将主组添加到“许可证”页面以查看这些组中许可证的使用情况，还可以设置许可证限制。
+>2. 组管理员可以访问“许可证”页面，并查看他们管理的组中系统管理员添加到“许可证”页面中的许可证的使用情况。
+>3. 组管理员无法查看其他主组的信息或添加最大值。
+
 ## 查看您组织的许可证
 
 当您向添加到Workfront的用户分配访问级别时，会自动更新正在使用的许可证数量。 有关更多信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >除购买付费的Workfront Proof加载项以及他们的Workfront许可证外，验证许可证仅适用于这些客户。 有关此加载项的信息，请参阅 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
+   >验证许可证仅适用于除购买Workfront许可证外还购买付费Workfront Proof加载项的客户。 有关此加载项的信息，请参阅 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
 
 1. （视情况而定）如果您看到消息 **要设置最大数，必须添加主组**，按照一节中的说明在系统中添加主组 [在“许可证”页面中添加或删除主组](#add-or-remove-a-home-group-to-the-licenses-page) 本文章中。
 
@@ -73,7 +89,7 @@ ht-degree: 0%
 
 ## 查看有关Workfront加载项许可证的信息
 
-如果您的组织有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如， **10个验证许可证中的5个** 指示该组织当前正在使用他们购买的10个Workfront验证许可证中的5个。
+如果您的组织具有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如， **10个验证许可证中的5个** 表示该组织当前正在使用他们购买的10个Workfront Proof许可证中的5个。
 
 ![Workfront加载项许可证](assets/updated-licenses-page.png)
 

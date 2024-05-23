@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 不同类型管理员允许的操作
 description: 此表比较了Adobe Workfront管理员(管理Workfront系统)、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 2%
 
 ---
 
@@ -40,180 +40,186 @@ ht-degree: 0%
   <tr> 
    <td>重置用户密码</td> 
    <td>✓ {\f13 } </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td>创建和编辑用户配置文件</td> 
-   <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓ {\f13 }</td> 
+   <td> <p>✓韩亚航空*</p> </td> 
+   <td> <p>✓韩亚航空*</p> </td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理子组</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>锁定和解锁项目、任务和问题偏好设置</p> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>在系统级别配置项目、任务和问题首选项</p> </td> 
+   <td>✓ {\f13 }</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>配置项目、任务和问题首选项</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>激活和取消激活组和子组的项目、任务和问题偏好设置</p> </td> 
+   <td>✓ ***</td> 
+   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>锁定和解锁时间表和小时首选项</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>在系统级别配置时间表和小时首选项</p> </td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>配置时间表和小时首选项</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>激活和取消激活组和子组的工时表及小时首选项</p> </td> 
+   <td>✓ ***</td> 
+   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td>配置事件通知电子邮件</td> 
-   <td>✓ </td> 
-   <td>✓</td> 
+   <td>在系统级别配置事件通知电子邮件</td> 
+   <td>✓ {\f13 } </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>激活和停用组和子组的事件通知电子邮件</td> 
+   <td>✓ *** </td> 
+   <td>✓ ***</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理自定义表单</p> </td> 
-   <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理布局模板</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理审批流程</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>创建和管理组的审批流程</p> </td> 
+   <td>✓ *** </td> 
+   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理团队</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理汇率</p> </td> 
-   <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理小时类型</p> </td> 
-   <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理里程碑路径</p> </td> 
-   <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理计划</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理公司</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理周期性工时表</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>创建一次性工时表</td> 
-   <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td>创建和管理职位角色</td> 
-   <td>✓</td> 
+   <td>创建和管理工作角色</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p> 创建和管理优先级、严重性和条件</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>创建和管理风险类型</p> </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>创建和管理状态</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>以他人身份登录</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td>查看并恢复已删除的项目</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td>查看和管理已还原的项目</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td>查看当前许可证分配</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
+   <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
    <td>分配许可证的最大数量</td> 
-   <td>✓ </td> 
+   <td>✓ *** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>查看审核日志</td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>使用Kick-Start导入和导出数据</td> 
-   <td>✓ </td> 
+   <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -224,10 +230,12 @@ ht-degree: 0%
 
 &#42;&#42; 在组管理员的访问级别中，必须启用对此操作的访问权限。 有关更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-以下活动仅适用于组和子组管理员，前提是他们的组织位于Prime或Ultimate计划中。 这些特定的活动也可以称为“高级企业控制”。 请参阅 [Adobe Workfront定价和包装页面](https://business.adobe.com/products/workfront/pricing.html) 以了解有关计划的详细信息。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
+&#42;&#42;&#42; 以下活动是高级企业控制的一部分，不适用于Select计划。 只有购买了Prime或Ultimate计划的组织才能访问这些功能。  请参阅 [Adobe Workfront定价和包装页面](https://business.adobe.com/products/workfront/pricing.html) 以了解有关计划的详细信息。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
 
-* 配置项目、任务和问题首选项
-* 配置时间表和小时首选项
-* 配置事件通知电子邮件
-* 创建和管理审批流程
-* 创建和管理子组
+* 在组级别配置项目、任务和问题首选项
+* 在组级别配置时间表和小时首选项
+* 在组级别配置事件通知电子邮件
+* 创建和管理特定于组的批准流程
+* 按主组分配许可证限制并查看其利用率
+* 为子组分配组管理员
+* 允许组管理员创建子组
