@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ ht-degree: 2%
   <tr> 
    <td>创建和编辑用户配置文件</td> 
    <td>✓ {\f13 }</td> 
-   <td> <p>✓韩亚航空*</p> </td> 
-   <td> <p>✓韩亚航空*</p> </td> 
+   <td>✓韩亚航空*</td> 
+   <td>✓韩亚航空*</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理子组</p> </td> 
+   <td>创建和管理子组</td>
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>在系统级别配置项目、任务和问题首选项</p> </td> 
+   <td>在系统级别配置项目、任务和问题首选项</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>激活和取消激活组和子组的项目、任务和问题偏好设置</p> </td> 
+   <td>激活和取消激活组和子组的项目、任务和问题偏好设置</td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>在系统级别配置时间表和小时首选项</p> </td> 
+   <td>在系统级别配置时间表和小时首选项</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>激活和取消激活组和子组的工时表及小时首选项</p> </td> 
+   <td>激活和取消激活组和子组的工时表及小时首选项 </td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理自定义表单</p> </td> 
+   <td>创建和管理自定义表单</td> 
    <td>✓ {\f13 } </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理布局模板</p> </td> 
+   <td>创建和管理布局模板</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理组的审批流程</p> </td> 
+   <td>创建和管理组的审批流程</td> 
    <td>✓ *** </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理团队</p> </td> 
+   <td>创建和管理团队</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理汇率</p> </td> 
+   <td>创建和管理汇率</td> 
    <td>✓ {\f13 } </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理小时类型</p> </td> 
+   <td>创建和管理小时类型</td> 
    <td>✓ {\f13 } </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理里程碑路径</p> </td> 
+   <td>创建和管理里程碑路径</td> 
    <td>✓ {\f13 } </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理计划</p> </td> 
+   <td>创建和管理计划</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理公司</p> </td> 
+   <td>创建和管理公司</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理周期性工时表</p> </td> 
+   <td>创建和管理周期性工时表</td> 
    <td>✓ {\f13 } </td> 
-   <td> <p>✓ {\f13 }</p> </td> 
+   <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> 创建和管理优先级、严重性和条件</p> </td> 
+   <td>创建和管理优先级、严重性和条件</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>创建和管理风险类型</p> </td> 
+   <td>创建和管理风险类型</td> 
    <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
