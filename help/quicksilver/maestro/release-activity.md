@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 * 将Workfront Planning记录连接到Workfront对象
 
 * 断开记录连接
+
+* 打开详细信息预览框或页面，以查看有关连接的记录的更多信息
 
 有关信息，请参阅 [管理Adobe Workfront对象“计划”部分中的记录](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 

@@ -4,9 +4,9 @@ description: 您可以在左侧面板的Adobe Workfront对象的Planning部分�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -134,9 +134,9 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
+1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开记录的详细信息页面。
 1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标 **-**，然后单击 **断开连接**.
 出现以下情况：
    * 记录不再连接到Workfront对象。
