@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td>
    <p>新文档：参与者或更高版本</p>
    <p>或</p>
@@ -53,12 +53,13 @@ ht-degree: 0%
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>访问级别配置</strong></td>
+   <td role="rowheader">访问级别配置</td>
    <td><p>查看或更高权限的任务和问题</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>对象权限</strong></td>
-   <td><p>查看或更高权限的Workfront任务或问题</p></td>
+   <td role="rowheader">对象权限</td>
+   <td><p>查看或更高权限的Workfront任务或问题</p>
+   <p><strong>注意：</strong> 对任务或问题具有查看权限的用户无法对与其连接的信息卡执行任何操作，包括将信息卡移动到展示板上的另一列。 “查看”用户只能打开信息卡查看其属性，然后打开连接的任务或问题。 要请求附加访问权限，请打开任务或问题并在其中请求访问权限。</td>
   </tr>
  </tbody> 
 </table>

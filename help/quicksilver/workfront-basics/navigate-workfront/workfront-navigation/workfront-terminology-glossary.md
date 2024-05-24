@@ -6,7 +6,7 @@ description: 此 [!DNL Adobe Workfront] 术语表列出了以下术语的常用�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '20060'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL Agile团队]</td> 
-   <td>与传统团队不同，因为团队从积压工作中获取预期工作，并在称为[！UICONTROL迭代]的设置时间段内处理积压工作。</td> 
+   <td>与传统团队不同，因为此类团队从积压工作中取得预期成果，并在称为[！UICONTROL迭代]的设定时间段内对其进行处理。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL All Teams]</td> 
