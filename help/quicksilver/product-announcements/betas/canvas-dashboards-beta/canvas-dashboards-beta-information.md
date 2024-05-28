@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **测试版计划：**
 
-* 封闭测试版开始日期 — 2024年5月2日
+* 已结束的测试版开始日期 — TBA
 * 开放测试版开始日期 — TBA
 * 计划发行日期 — TBA
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **仪表板**.
 
 1. 单击 **加入Canvas Dashboards测试版** 页面右上角的beta按钮。
+
+   >[!NOTE]
+   >
+   >仅当您的组织已被接受进入封闭测试版时，此按钮才可用。 当开放Beta版开始时，这将适用于所有组织。
 
 1. 阅读术语，然后单击 **Accept**. 您现在已注册测试版；但请注意，您的Workfront数据需要几分钟才能在画布功能板中完全访问。
 
@@ -63,12 +67,13 @@ ht-degree: 0%
 
 ### 开发中的功能
 
-* 矩阵表报告
+* 用于过滤器的基于日期和基于用户的通配符
+* Workfront计划报表
+* 其他Workfront对象类型
+* 讨论区报告
+* 其他可用性增强
 * 工作表
 * 嵌入式Web内容
-* 讨论区报告
-* 功能板过滤器
-* 用于过滤器的基于日期和基于用户的通配符
 
 ### 未来路线图功能
 
