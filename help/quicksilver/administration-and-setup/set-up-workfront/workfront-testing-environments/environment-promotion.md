@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -28,32 +28,8 @@ ht-degree: 2%
 * [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## 访问要求
 
-您必须具备以下条件：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] 计划</td> 
-   <td> <p>Enterprise、Prime或Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 许可证</p> </td> 
-   <td> <p>[！UICONTROL计划] </p> <p>您必须是 [!DNL Workfront] 管理员。 有关的信息 [!DNL Workfront] 管理员，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">对象权限</p> </td> 
-   <td> <p>全部</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">支持包</td> 
-   <td> <p>[！UICONTROL Plus]、[！UICONTROL Preferred]或[！UICONTROL Enterprise]</p> <p>标准支持包无权访问自定义刷新沙盒，但有权访问预览沙盒。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## 先决条件
 
