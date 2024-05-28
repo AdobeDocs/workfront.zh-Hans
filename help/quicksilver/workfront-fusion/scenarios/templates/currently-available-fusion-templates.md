@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ## Workfront模板
 
 这些模板可自动化Workfront流程和工作流。
+
+### [!BADGE 最新！]{type=Informative}
+
+此Fusion模板为定时输入特定展示板上特定列的所有信息卡创建标准核对清单。
 
 ### Workfront — 从CSV创建项目
 
