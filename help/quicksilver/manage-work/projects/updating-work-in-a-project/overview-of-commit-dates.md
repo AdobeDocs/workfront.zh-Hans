@@ -7,14 +7,16 @@ description: 提交日期是指分配给任务或问题的用户承诺完成任�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # 提交日期概述
+
+<!--{{highlighted-preview}}-->
 
 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。
 
@@ -47,6 +49,15 @@ ht-degree: 0%
 >* 对任务具有权限的任何其他用户。
 >
 >有关任务所有者的详细信息，请参见 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## 找到任务和问题的提交日期
+
+您可以在Workfront的以下区域找到任务和问题的提交日期：
+
+* “详细信息”页面
+* 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅 [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## 通过更改提交日期触发的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

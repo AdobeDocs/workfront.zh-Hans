@@ -6,15 +6,17 @@ description: 您可以手动更新任务或您分配到的问题的提交日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # 更新任务和问题的提交日期
+
+{{highlighted-preview}}
 
 您可以手动更新任务或您分配到的问题的提交日期。 有关Adobe Workfront中提交日期的详细信息，请参阅 [提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ ht-degree: 0%
 
 ## 先决条件
 
-在开始之前，您必须被分配到需要更新提交日期的任务或问题。
+您必须被分配到需要更新其提交日期的任务或问题，然后才能编辑任务或问题的提交日期。
 
 ## 更新任务和问题的提交日期
+
+
+您可以在Workfront的以下区域中更新任务或问题的提交日期：
+
+* 任务或问题的详细信息部分
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 对于任务和问题，更新提交日期的步骤相同。
 
@@ -82,6 +93,10 @@ ht-degree: 0%
 1. 转到您分配为的任务或问题 **所有者**.
 
    有关确定问题或任务的任务负责人的更多信息，请参阅部分 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. 单击 **任务详细信息** 或 **问题详细信息** 在左侧面板中。
 1. 单击 **概述** 以将其展开。
