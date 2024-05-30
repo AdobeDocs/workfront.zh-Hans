@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront Planning测试版计划。 </p>
+<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-贵组织在注册Workfront Planning测试版计划后，可以使用版面模板将Planning区域添加到所有用户的主菜单。
+贵组织在注册Workfront Planning程序后，可以使用布局模板将Planning区域添加到所有用户的主菜单。
 
 1. 登录 **Workfront** Workfront管理员。
 

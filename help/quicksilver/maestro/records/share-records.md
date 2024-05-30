@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
-<p>贵组织必须注册Adobe Workfront计划封闭测试版计划。 请联系您的客户代表以查询此新产品/服务。 </p>
+<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
    </td>
   </tr>
   <tr>

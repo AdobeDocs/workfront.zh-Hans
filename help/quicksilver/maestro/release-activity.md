@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-我们更新了主菜单区域中Planning图标的外观。 有关信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+我们更新了主菜单中Planning区域图标的外观。 有关信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+
+### 重命名Workfront计划程序
+
+从2024年5月30日开始，Adobe Workfront计划项目正在从测试版阶段过渡到提前访问阶段。 您将在我们文档的术语中看到此更改。
+
+早期访问阶段也仅限一些Workfront客户。
+
+如果您有资格参与早期访问阶段，您的客户代表将通知您。
 
 ## 2024年5月20日起一周
 
