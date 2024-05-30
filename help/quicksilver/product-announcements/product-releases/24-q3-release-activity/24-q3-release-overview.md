@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 0%
 
 ---
 
@@ -139,6 +139,26 @@ ht-degree: 1%
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在标题或详细信息部分中编辑任务和问题提交日期和条件</a></p>
+                        <p><span style="color: #ff0000;"> 预览中的新增内容！</span></p>
+                        <p>为了让您更轻松地更新任务和问题，我们现在添加了提交日期和条件字段作为选项，以添加到布局模板中的任务和问题标题和详细信息部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。   </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年5月30日</p>
+                            </li>
+                            <li>
+                                <p>快速发布生产：使用24.6版本（2024年6月13日）</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">已将更相关的分配添加到“新建任务”工作流</a></p>
                         <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>

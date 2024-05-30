@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ ht-degree: 0%
 有关2024年第三季度发布周期中此时所有可用更改的列表，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## 已将更相关的分配添加到“新建任务”工作流
+## 在标题或详细信息部分中编辑任务和问题提交日期和条件
 
 >[!NOTE]
 >
->预览版本： 2024年2月13日；用于快速发布的生产版本：使用24.5版本（2024年5月16日）；适用于所有客户的生产版本：使用24.7版本（2024年7月）。
+>预览版本： 2024年5月30日；用于快速发布的生产版本：使用24.6版本（2024年6月13日）；面向所有客户的生产版本：使用24.7版本（2024年7月）。
 
-我们在以下区域的“工作总揽”字段中为更相关的智能分配添加了相同的功能：
+为了让您更轻松地更新任务和问题，我们现在添加了提交日期和条件字段作为选项，以添加到布局模板中的任务和问题标题和详细信息部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。 在此增强功能之前，在自定义标题时，您无法添加任务和问题的条件和提交日期。
 
-* 将任务添加到项目时的“新建任务”框
+有关更新提交日期和sCondition的信息，请参阅以下文章：
 
-* 在项目任务列表中
+* [任务和问题的更新条件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [更新任务和问题的提交日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-有关更多信息，请参阅 [智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[观看此功能的视频演示。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## 更相关的智能分配
 
