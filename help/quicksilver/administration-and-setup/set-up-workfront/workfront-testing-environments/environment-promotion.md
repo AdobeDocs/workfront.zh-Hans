@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 2%
 
 ---
@@ -509,7 +509,7 @@ Deleted
   </tr> 
   <tr> 
    <td>覆盖</td> 
-   <td><p>此操作不会自动设置。</p><p>此操作提供更新目标环境中存在的对象的功能。 它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。<ul><li>用户可以更新测试环境中的对象，然后使用OVERWRITING操作更新目标环境中的该对象。</p></li><li><p>如果用户最初安装了一个升级包，以后又有一个新的（或更新的）升级包包含对初始包中对象的更改，则用户可以使用“覆盖”来替换（覆盖）以前安装的对象。 </p></li><ul></td> 
+   <td><p>此操作不会自动设置。</p><p>此操作提供更新目标环境中存在的对象的功能。 它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。<ul><li>用户可以更新测试环境中的对象，然后使用OVERWRITING操作更新目标环境中的该对象。</p></li><li><p>如果用户最初安装了一个升级包，以后又有一个新的（或更新的）升级包包含对初始包中对象的更改，则用户可以使用“覆盖”来替换（覆盖）以前安装的对象。 </p><p>有关覆盖的更多信息，请参阅本文中的[覆盖](#overwriting)部分。</li><ul></td> 
   </tr> 
   <tr> 
    <td>忽略</td> 
@@ -891,7 +891,209 @@ _空_
 }
 ```
 
+## 覆盖
 
+这是一个三步过程。
+
+1. 创建翻译映射（这类似于“准备安装”阶段）
+1. 编辑生成的翻译映射，设置 `action` 和 `targetId` 要覆盖的任何对象的字段。 操作应为 `OVERWRITING`，和 `targetId` 应为应覆盖的对象的uuid
+1. 执行安装。
+
+* [步骤1 — 创建翻译图](#step-1---create-a-translation-map)
+* [步骤2 — 修改翻译图](#step-2---modify-the-translation-map)
+* [步骤3 — 安装](#step-3---install)
+
+### **步骤1 — 创建翻译图**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### 正文
+
+无
+
+#### 响应
+
+翻译图，带 `202 - OK` 状态
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### 示例
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### 步骤2 — 修改翻译图
+
+此步骤没有端点。
+
+1. 在返回的翻译映射中 [步骤1 — 创建翻译图](#step-1---create-a-translation-map)，检查将安装的对象列表。
+1. 将每个对象上的操作字段更新为所需的安装操作。
+1. 验证 `targetId` 在每个对象上。 如果设置的操作为 `USEEXISTING` 或 `OVERWRITING`， `targetId` 应设置为目标环境中目标对象的UUID。 对于任何其他操作，targetId都应为空字符串。
+
+   >[!NOTE]
+   >
+   >此 `targetId` 如果检测到冲突，则已填充。
+
+### **步骤3 — 安装**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### 正文
+
+这是一个具有单个字段的对象 `translationMap`，它应等于来自的修改后的翻译映射 [步骤2 — 修改翻译图](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### 示例
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### 响应
+
+响应包括 `{uuid of the created installation}` 和 `202 - ACCEPTED` 状态。
+
+示例： `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
