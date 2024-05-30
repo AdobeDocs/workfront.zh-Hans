@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 早期访问阶段也仅限一些Workfront客户。
 
 如果您有资格参与早期访问阶段，您的客户代表将通知您。
+
+### 删除工作区的新流程
+
+生产： 2024年5月30日
+
+预览：待定
+
+由于删除工作区可能会产生重大影响，因此我们在确认删除操作时添加了额外的步骤。 现在，用户需要键入“delete”，然后才能完成工作区的永久删除。
+
+已删除的工作区及其信息将无法恢复。
+
+有关更多信息，请参阅 [删除工作区](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## 2024年5月20日起一周
 
