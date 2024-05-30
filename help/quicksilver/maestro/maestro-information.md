@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以使用此页面作为所有与Adobe Workfront Planning相关的文档的起点。
 
@@ -49,7 +49,7 @@ hide: yes
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront规划概述](maestro-overview.md)：Adobe Workfront规划的高级概述，包括此解决方案特有的术语和概念。 我们建议您在此处通过Workfront规划开始您的历程。
-* [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md)：列出了自2023年5月22日Adobe Workfront计划结束测试版项目启动以来已发布的所有功能，提供了确切发布日期以及每项功能的简短概述。
+* [Adobe Workfront Planning发布活动](/help/quicksilver/maestro/release-activity.md)：列出了自2023年5月22日Adobe Workfront计划计划启动以来发布的所有功能，提供了确切的发布日期以及每项功能的简短概述。
 * [Workfront Fusion的Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront规划架构和功能

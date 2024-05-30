@@ -6,9 +6,9 @@ description: 您可以手动更新任务或您分配到的问题的提交日期�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ ht-degree: 0%
 您可以在Workfront的以下区域中更新任务或问题的提交日期：
 
 * 任务或问题的详细信息部分
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">任务或问题标题</span>
+
+  <span class="preview">您的Workfront或组管理员必须将提交日期添加到布局模板的任务或问题标题中，才能从任务或问题页面查看该日期。
+有关信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 对于任务和问题，更新提交日期的步骤相同。
 
@@ -94,9 +94,9 @@ ht-degree: 0%
 
    有关确定问题或任务的任务负责人的更多信息，请参阅部分 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 在文章中 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">（视情况而定，可选）如果您的Workfront或组管理员将提交日期添加到任务或问题标题，请单击 **提交日期** 字段，然后从日历中选择日期。 如果提交日期不在标题中，请继续执行以下步骤。 </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. 单击 **任务详细信息** 或 **问题详细信息** 在左侧面板中。
 1. 单击 **概述** 以将其展开。
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 单击 **保存更改**.
 
-   进行此更改后，会发生以下情况： 
+   进行此更改后，会发生以下情况：
 
    * 任务或问题的提交日期和计划完成日期不再相同。
 
@@ -115,10 +115,13 @@ ht-degree: 0%
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * 在Workfront应用程序内通知中，项目所有者收到您为任务或问题建议了新的提交日期的通知。
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * 在更新部分中通知项目所有者，您已建议新的提交日期，此时，他们可以更新任务或问题的规划完成日期，以匹配您建议的提交日期。
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   有关此更改触发的通知和更新的信息，请参阅文章中的“更改提交日期触发的通知和更新”部分 [提交日期概述](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     有关此更改触发的通知和更新的信息，请参阅文章中的“更改提交日期触发的通知和更新”部分 [提交日期概述](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

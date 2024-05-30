@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 删除工作区
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 在Adobe Workfront Planning中，工作区是团队计划工作的集中位置。 有关更多信息，请参阅 [创建工作区](../architecture/delete-workspaces.md).
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '3283'
 ht-degree: 1%
@@ -33,7 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # 创建字段
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 在Adobe Workfront Planning中，您可以为记录类型创建自定义字段。 然后，您可以将这些字段与Workfront Planning记录关联以增强记录信息。
 

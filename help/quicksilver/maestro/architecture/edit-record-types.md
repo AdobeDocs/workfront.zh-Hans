@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ hide: yes
 
 # 编辑记录类型
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 记录类型是Adobe Workfront Planning的对象类型。 您可以编辑您或其他人创建的记录类型的外观。 有关创建Workfront Planning记录类型的信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 将封面图像添加到记录
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 编辑记录时，您可以在Adobe Workfront Planning中将封面图像添加到记录页来个性化记录。
 

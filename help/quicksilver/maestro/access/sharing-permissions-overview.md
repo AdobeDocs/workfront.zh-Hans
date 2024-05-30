@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 在Adobe Workfront Planning中共享权限概述
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中共享或删除对工作区或视图的权限。
 
@@ -75,9 +75,9 @@ ht-degree: 7%
 * 记录类型
 * 记录
 * 字段
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* 视图*
+
+  *您可以允许对工作区具有“查看”或更高权限的所有用户也访问工作区中的视图。 这是共享视图时必须启用的附加权限。 有关信息，请参阅 [共享视图](/help/quicksilver/maestro/access/share-views.md).
 
 以下是工作区的权限级别：
 
@@ -147,17 +147,19 @@ ht-degree: 7%
 
 以下是视图和视图元素的权限级别：
 
-|        | 管理 | 查看 |
-|--------|--------|-------|
-| 编辑 | ✓ {\f13 } |       |
-| 删除 | ✓ {\f13 } |       |
-| 共享 | ✓ {\f13 } |       |
-| 查看 | ✓ {\f13 } | ✓ {\f13 } |
-| 应用 | ✓ {\f13 } | ✓ {\f13 } |
+|        | 管理（只有受邀人员才能访问） | 查看（只有受邀人员才能访问） | 工作区中的每个人都可以查看* |
+|--------|--------|-------|------------------------------|
+| 编辑 | ✓ {\f13 } |       |                            |
+| 删除 | ✓ {\f13 } |       |                            |
+| 共享 | ✓ {\f13 } |       |                           |
+| 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 应用 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
 
-<!--Replace the above with this when global sharing is released: 
+*用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ ht-degree: 7%
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

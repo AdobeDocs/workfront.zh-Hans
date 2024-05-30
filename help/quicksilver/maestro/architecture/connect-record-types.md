@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # 连接记录类型
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以使用Adobe Workfront Planning来设计包含组织所需记录类型的完全可自定义的工作区。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
 

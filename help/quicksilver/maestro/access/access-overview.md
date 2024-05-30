@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 访问概述
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 使用Adobe Workfront Planning时，存在许可证和共享权限限制。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 登录 **Workfront** Workfront管理员。
 
-1. 添加 **规划** 图标 ![](assets/maestro-icon.png) 到 **主菜单** 使用 **布局模板**.
+1. 添加 **规划** 图标 ![](assets/planning-icon.png) 到 **主菜单** 使用 **布局模板**.
 
    有关信息，请参阅 [使用布局模板自定义主菜单](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

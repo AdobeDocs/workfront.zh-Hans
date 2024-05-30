@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 共享视图
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 在Adobe Workfront Planning中使用记录时，您可以与其他人共享视图以确保协作。
 
@@ -24,12 +24,12 @@ ht-degree: 1%
 
 当您共享视图时，您会向他人授予访问视图所有元素的权限。 例如，当授予他们视图的管理权限时，他们可以修改分组、筛选器、排序或条形外观。
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+您可以与以下实体共享视图：
+
+* Workfront用户
+* Workfront组
+<!--* Publicly, with users outside Workfront
 -->
 
 ## 访问要求
@@ -110,14 +110,12 @@ You can share a view with the following entities:
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. （可选）从以下选项中进行选择以共享视图：
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户或组。 这是默认选项。
+   * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问视图。
 
-
-1. 在 **授予查看权限** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。  <!--***********replace screen shot below when global sharing is released***********-->
+1. 在 **授予查看权限** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

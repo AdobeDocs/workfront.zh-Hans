@@ -7,16 +7,16 @@ description: 提交日期是指分配给任务或问题的用户承诺完成任�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 提交日期概述
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。
 
@@ -56,8 +56,7 @@ ht-degree: 0%
 
 * “详细信息”页面
 * 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅 [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## 通过更改提交日期触发的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 * 提交日期更改将填充到任务或问题的“更新”部分的“系统活动”和“所有”选项卡中。
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   当Workfront管理员在“设置”的“更新源”区域中启用此更新时，提交日期的更改会显示在任务或问题的更新区域中。 有关信息，请参阅 [系统跟踪更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >您可以要求系统或组管理员将提交日期字段添加到摘要面板，使其更易于在显示摘要面板的Workfront的各个区域中进行更新。
+  >您可以要求系统或组管理员将提交日期字段添加到摘要面板或标题以便于更新。
   >
   >有关更多信息，请参阅以下文章：
   >
   >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

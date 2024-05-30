@@ -4,7 +4,7 @@ description: 您可以在左侧面板的Adobe Workfront对象的Planning部分�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 # 管理Adobe Workfront对象“计划”部分中的记录
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 您可以在左侧面板的Adobe Workfront对象的Planning部分中显示连接到Workfront对象的记录。
 

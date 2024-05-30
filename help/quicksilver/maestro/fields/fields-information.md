@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -26,7 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 作为营销运营负责人，您可以使用Adobe Workfront Planning为所有团队在营销生命周期中组织工作。 在Workfront Planning中，您可以完全自定义工作流的架构，包括为创建的所有自定义记录类型添加自定义字段。
 

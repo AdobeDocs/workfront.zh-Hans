@@ -6,24 +6,22 @@ description: 任务或问题的完成情况是指在任务或问题上放置一�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 0%
+source-wordcount: '1032'
+ht-degree: 1%
 
 ---
 
 # 任务和问题的更新条件
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 任务或问题的完成情况是指在任务或问题上放置一个指示其运行方式的标志。 这与工作项的状态不同，后者指示项目开发的当前阶段。
 
 您可以自动或手动设置任务或问题的条件。
 
 默认情况下，我们在此文章中引用的条件值在Workfront中可用。 Adobe Workfront管理员可以为您的环境创建自定义条件，如中所述 [创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-<!--You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.-->
 
 ## 访问要求 {#access-requirements}
 
@@ -74,12 +72,11 @@ ht-degree: 0%
 
 条件显示为与任务或问题关联的标记。 它们还可以与显示在报告中的数字相关联，而不是与标签关联。 有关将条件与数字关联的更多信息，请参见 [创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-您可以在Workfront的以下区域找到任务和问题的状况：
+您可以在Workfront的以下区域找到任务和问题的完成情况：
 
-<!--* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>-->
+* <span class="preview">在Workfront或组管理员将其添加到您的布局模板后，显示“详细信息”页面。 有关信息，请参阅 [使用布局模板自定义详细信息视图](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 * 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅 [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -123,7 +120,31 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-要手动更新任务或问题的完成情况，请执行以下操作：
+要手动更新任务或问题的完成情况，请执行以下操作之一：
+
+<div class="preview">
+
+1. 要在任务或问题标题中更新任务或问题的条件，请执行以下操作：
+
+   1. （视情况而定）如果您的Workfront或组管理员将条件字段添加到布局模板的任务或问题标题，请单击 **条件** 字段，并从以下选项中选择：
+      * 进展顺利
+      * 一些问题
+      * 主要障碍
+
+      ![](assets/condition-in-task-header.png)
+   1. 单击Enter以保存条件。
+
+1. 要在任务或问题详细信息部分中更新任务或问题的完成情况，请执行以下操作：
+
+   1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板中任务或问题的详情部分，请单击 **详细信息** 在左侧面板，然后单击 **条件** 字段并从以下选项中进行选择：
+      * 进展顺利
+      * 一些问题
+      * 主要障碍
+1. 单击 **保存更改**. 任务或问题的完成情况已更新。
+
+</div>
+
+要更新报告或列表中的任务或问题的条件，请执行以下操作：
 
 1. 转到您拥有管理权限的任务或问题列表。 确保 **条件** 字段在列表的视图中可见。
 
@@ -138,50 +159,8 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 按 **输入** ，或单击条件字段外部以保存新任务或问题条件。
 
-
-<!--
-Replace the above with the following when we release Condition to headers and Details page:
-
-To manually update the Condition of a task or an issue do one of the following:
-
-<div class="preview">
-
-1. To update the Condition of a task or issue in the task or issue header:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-
-          ![](assets/condition-in-task-header.png)
-     1. Click Enter to save the Condition. 
-
-1. To update the Condition of a task or issue in the task or issue Details section:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-1. Click **Save Changes**. The Condition of the task or issue is updated. 
-
-</div>
-
-To update the Condition of a task or issue in a report or list: 
-
-1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
-
-1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
-
-    ![](assets/condition-drop-down-values-in-task-list.png)
-
-     >[!NOTE]
-     >
-     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-
-1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
-
--->
 <!--   
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->
+
+
