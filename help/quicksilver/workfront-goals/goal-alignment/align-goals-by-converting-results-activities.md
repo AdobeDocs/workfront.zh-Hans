@@ -6,7 +6,7 @@ description: 您可以手动对齐两个目标，也可以将现有目标的结�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 16%
@@ -37,9 +37,9 @@ ht-degree: 16%
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>
- <p>当前许可证：参与者或更高版本</p>
+ <p>新许可证：参与者或更高版本</p>
  或
- <p>旧版许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>

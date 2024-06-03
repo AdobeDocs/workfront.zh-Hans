@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>
+>目前，Workfront Planning处于早期访问阶段，仅对有限数量的客户开放。
+>
+>您必须是Workfront客户才能使用这些功能。
+>
+>如果您属于此阶段，您的客户代表将会通知您。
+>
+>有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+>
+>在某些情况下，在所记录的功能发布到生产环境后，以下部分中引用的文档可能会可用。
 
 本文列出了自2023年5月22日Adobe Workfront计划启动以来发布的功能。
 
->[!NOTE]
->
->在2023年5月至2023年12月期间，本文中的所有功能均已发布到“预览”和“生产”环境。 自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 此日期之后发布的所有功能当前都可在生产环境中使用。
-
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
 
->[!IMPORTANT]
->
->在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
+在2023年5月至2023年12月期间，本文中的所有功能均已发布到“预览”和“生产”环境。
+
+自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 此日期之后发布的所有功能当前都可在生产环境中使用。
+
+
+
 
 <!--
 

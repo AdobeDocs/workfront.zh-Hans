@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ recommendations: noDisplay, noCatalog
 
 在创建要与记录类型关联的字段之前，您必须先创建记录类型。 有关信息，请参阅 [创建记录类型](../architecture/create-record-types.md).
 
-在Maestro中，您可以通过以下方式创建字段：
+在Workfront Planning中，您可以通过以下方式创建字段：
 
 * 从头开始
 * 通过连接记录类型
@@ -47,7 +47,7 @@ recommendations: noDisplay, noCatalog
 * 通过创建记录类型
 * 通过从模板创建工作区
 
-有关主字段的详细信息，请参阅 [字段概述](/help/quicksilver/maestro/fields/fields-overview.md).
+有关记录字段的详细信息，请参阅 [字段概述](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## 访问要求
 
@@ -106,7 +106,7 @@ recommendations: noDisplay, noCatalog
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ recommendations: noDisplay, noCatalog
 
 ## 通过连接记录类型创建字段
 
-在两个Maestro记录类型之间添加新的连接时，或者从其它应用程序添加记录类型和对象类型时，您可以创建链接记录字段。
+在两种记录类型之间添加新连接，或者从其它应用程序添加记录类型和对象类型时，可以创建链接记录字段。
 
 有关连接Workfront Planning记录类型的信息，请参阅 [连接记录类型](../architecture/connect-record-types.md)
 

@@ -7,9 +7,9 @@ description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅部分 [获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)本文章中。
+* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅部分 [获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access) 本文章中。
 
 * 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅部分 [更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings) 本文章中。
 
@@ -45,37 +45,36 @@ ht-degree: 0%
 
 ## 获取Workfront目标组织访问权限 {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+根据贵公司当前使用的Workfront计划，存在以下情况：
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* 如果贵公司有新的Workfront计划，您必须具备以下任一项：
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+   * 终极的Workfront计划。 Workfront目标包含在此计划中。
+   * 选择或更高版本Workfront计划和单独的Workfront Goals许可证。
 
-If your company has a legacy Workfront plan, -->
+* 如果贵公司当前采用Workfront计划，则除了Workfront许可证外，贵组织还必须购买其他许可证，以便您的用户能够访问Workfront目标。
 
-除了Workfront许可证之外，您的组织还必须购买其他许可证，以便您的用户能够访问Workfront Goals。 在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
+  在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
+
+有关Workfront访问要求的信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 更新许可证类型和访问级别设置  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+根据贵公司当前使用的Workfront计划，存在以下情况：
 
-* Contributor
-* Light
-* Standard-->
+* 如果贵公司具有新的访问级别模型，则Workfront管理员必须向您授予以下Workfront许可证类型之一才能访问Workfront目标：
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+   * 投稿人
+   * 轻量
+   * 标准
 
-您的Workfront管理员必须授予您以下Workfront许可证类型之一，才能访问Workfront目标：
+* 如果贵公司具有当前的访问级别模型，则Workfront管理员必须向您授予以下Workfront许可证类型之一才能访问Workfront目标：
 
-* 计划
-* 工作
-* 评论
-* 请求
+   * 计划
+   * 工作
+   * 评论
+   * 请求
 
 在您的Workfront管理员向您授予这些许可证类型之一后，他们还必须授予您访问级别中目标的访问权限。 有关访问“目标”的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 

@@ -6,7 +6,7 @@ description: 如果您是具有个人目标的个人投稿人，则可能需要�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -51,9 +51,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">Adobe Workfront许可证*</td>
  <td>
- <p>当前许可证：参与者或更高版本</p>
+ <p>新许可证：参与者或更高版本</p>
  或
- <p>旧版许可证：请求或更高版本</p> </td>
+ <p>当前许可证：请求或更高版本</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>

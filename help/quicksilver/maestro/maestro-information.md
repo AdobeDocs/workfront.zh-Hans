@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>
+>目前，Workfront Planning处于早期访问阶段，仅对有限数量的客户开放。
+>
+>您必须是Workfront客户才能使用这些功能。
+>
+>如果您属于此阶段，您的客户代表将会通知您。
+>
+>有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/maestro/maestro-overview.md).
+>
+>在某些情况下，在所记录的功能发布到生产环境后，以下部分中引用的文档可能会可用。
 
 您可以使用此页面作为所有与Adobe Workfront Planning相关的文档的起点。
 
 以下各节中的文章介绍了如何配置Workfront Planning并开始使用它。
 
->[!IMPORTANT]
->
->在将功能发布到生产环境后的某个时间，将可以使用以下部分中引用的文档。
 
 ## Adobe Workfront Planning概述
 
