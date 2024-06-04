@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool允许您了解场景并排除其故�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ ht-degree: 1%
 * [在中访问开发工具 [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [访问Classic中的Devtool [!DNL Fusion] 体验](#access-the-devtool-in-the-classic-fusion-experience)
 
-### 在中访问开发工具 [!DNL Adobe Unified Experience]
+### 在中访问开发工具 [!DNL Adobe Unified Experience] 或新的Fusion体验
 
-如果在AdobeUnified Shell中使用Fusion，则可以从场景编辑器访问开发工具。
+如果您在AdobeUnified Shell中使用Fusion，或者已更新到新的Fusion Experience，则可以从场景编辑器访问开发工具。
+
+1. 单击 **辅助工具** ![辅助工具](assets/debugger-icon.png) 图标（靠近屏幕底部）。
+
+或：
 
 1. 转到要调试的方案的方案编辑器。
 

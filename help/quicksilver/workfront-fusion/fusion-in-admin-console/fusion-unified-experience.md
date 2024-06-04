@@ -7,20 +7,20 @@ description: 通过Adobe Experience Cloud访问Workfront Fusion可为您提供�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Unified Experience] 用于 [!DNL Workfront Fusion]
+# [!DNL Adobe Unified Experience] 对象 [!DNL Workfront Fusion]
 
 访问 [!DNL Workfront Fusion] 到 [!DNL Adobe Experience Cloud] 为您提供无缝、统一的体验，管理您的所有 [!DNL Adobe] 应用程序。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
 有关描述中导航的视频 [!DNL Fusion] 在 [!DNL Adobe Experience Cloud]，请参见：
 
-[[!DNL Fusion] 上 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] 在 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## 访问要求
 
@@ -41,9 +41,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
-   <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> 
+   <p>任何</p> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
@@ -68,7 +66,7 @@ ht-degree: 1%
 
    ![登录 [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
-## 访问权限 [!DNL Workfront Fusion]
+## 访问 [!DNL Workfront Fusion]
 
 登录后 [!DNL Adobe Experience Cloud]，您可以查看所有 [!DNL Workfront Fusion] 通过单击顶部导航区域中的组织切换器，您可以访问的组织和环境。 选择 [!DNL Workfront Fusion] 要使用的组织或环境。
 
@@ -86,7 +84,7 @@ ht-degree: 1%
 
 使用 [!UICONTROL 主菜单] 图标 ![](assets/main-menu-icon-left-nav.png) 左侧的 [!DNL Adobe] 导航栏以打开 [!UICONTROL 组织] 和 [!UICONTROL 团队] 菜单。 如果您是 [!DNL Workfront Fusion] 管理员，您的 [!UICONTROL 管理] 菜单也会显示在此处。
 
-要切换团队，请单击页面顶部的团队名称，然后选择团队。 这仅显示在特定于团队的页面上，例如场景生成器或 [!UICONTROL 连接] 页面。
+要切换团队，请单击页面顶部的团队名称，然后选择团队。 团队选择器仅显示在特定于团队的页面上，例如场景生成器或 [!UICONTROL 连接] 页面。
 
 要切换组织，请单击屏幕右上方的组织名称，然后选择组织。
 
