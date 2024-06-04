@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 1%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 1%
       * [自定义Adobe Workfront目标术语](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [在Workfront目标中共享目标](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [启用Adobe Workfront Goals通知](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe经理 {#adobe-maestro}
-   * [AdobeMaestro信息](maestro/maestro-information.md)
-   * [Adobe Workfront规划概述](maestro/maestro-overview.md)
-   * [Adobe Workfront计划发布活动](maestro/release-activity.md)
-   * Adobe大师架构 {#adobe-maestro-architecture}
-      * [架构：文章索引](maestro/architecture/architecture-information.md)
-      * [创建工作区](maestro/architecture/create-workspaces.md)
-      * [记录类型概览](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [创建记录类型](maestro/architecture/create-record-types.md)
-      * [创建分类记录类型](maestro/architecture/create-a-taxonomy.md)
-      * [连接记录类型](maestro/architecture/connect-record-types.md)
-      * [编辑记录类型](maestro/architecture/edit-record-types.md)
-      * [删除工作区](maestro/architecture/delete-workspaces.md)
-      * [编辑工作区](maestro/architecture/edit-workspaces.md)
-      * [删除记录类型](maestro/architecture/delete-record-types.md)
-      * [连接记录类型和记录的示例](maestro/architecture/example-connect-record-types-and-records.md)
-      * [工作区模板列表](maestro/architecture/workspace-templates.md)
-   * AdobeMaestro字段 {#adobe-maestro-fields}
-      * [字段：文章索引](maestro/fields/fields-information.md)
-      * [字段概述](maestro/fields/fields-overview.md)
-      * [创建字段](maestro/fields/create-fields.md)
-      * [编辑字段](maestro/fields/edit-fields.md)
-      * [删除字段](maestro/fields/delete-fields.md)
-      * [公式字段概述](maestro/fields/formula-fields.md)
-   * Adobe大师访问 {#adobe-maestro-access}
-      * [Adobe Workfront Planning访问信息：文章索引](maestro/access/access-information.md)
-      * [访问概述](maestro/access/access-overview.md)
-      * [在Adobe Workfront规划功能中共享权限概述](maestro/access/sharing-permissions-overview.md)
-      * [使用Adobe Workfront规划时的许可证类型概述](maestro/access/license-type-overview.md)
-      * [共享工作区](maestro/access/share-workspaces.md)
-      * [共享视图](maestro/access/share-views.md)
-   * AdobeMaestro记录 {#adobe-maestro-records}
-      * [记录：文章索引](maestro/records/records-information.md)
-      * [创建记录](maestro/records/create-records.md)
-      * [连接记录](maestro/records/connect-records.md)
-      * [编辑记录](maestro/records/edit-records.md)
-      * [删除记录](maestro/records/delete-records.md)
-      * [共享记录](maestro/records/share-records.md)
-      * [管理记录注释](maestro/records/manage-record-comments.md)
-      * [“历史记录”部分概述](maestro/records/history-section-overview.md)
-      * [向记录添加缩略图](maestro/records/add-thumbnails-to-records.md)
-      * [将封面图像添加到记录](maestro/records/add-a-cover-image-to-a-record.md)
-      * [管理记录页面](maestro/records/manage-the-record-page.md)
-      * [管理Adobe Workfront对象“计划”部分中的记录](maestro/records/manage-records-in-planning-section.md)
-   * AdobeMaestro视图 {#adobe-maestro-views}
-      * [视图：文章索引](maestro/views/views-information.md)
-      * [管理记录视图](maestro/views/manage-record-views.md)
-      * [管理表视图](maestro/views/manage-the-table-view.md)
-      * [管理时间线视图](maestro/views/manage-the-timeline-view.md)
-      * [管理日历视图](maestro/views/manage-the-calendar-view.md)
-   * AdobeMaestro通知 {#adobe-maestro-notifications}
-      * [Adobe Workfront计划通知：文章索引](maestro/notifications/notifications-information.md)
-      * [管理Adobe Workfront Planning通知首选项](maestro/notifications/manage-notification-preferences.md)
-      * [管理Adobe Workfront Planning电子邮件通知](maestro/notifications/manage-planning-email-notifications.md)
-      * [管理Adobe Workfront Planning应用程序内通知](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfront规划 {#adobe-workfront-planning}
+   * [Adobe Workfront规划：文章索引](planning/planning-information.md)
+   * Adobe Workfront规划一般信息 {#adobe-workfront-planning-general-information}
+      * [Adobe Workfront规划一般信息：文章索引](planning/general/planning-general-article-index.md)
+      * [Adobe Workfront规划概述](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning发布活动](planning/general/release-activity.md)
+   * Adobe Workfront规划架构 {#adobe-workfront-planning-architecture}
+      * [架构：文章索引](planning/architecture/architecture-information.md)
+      * [创建工作区](planning/architecture/create-workspaces.md)
+      * [记录类型概述](planning/architecture/overview-of-record-types.md)
+      * [创建记录类型](planning/architecture/create-record-types.md)
+      * [连接记录类型](planning/architecture/connect-record-types.md)
+      * [编辑记录类型](planning/architecture/edit-record-types.md)
+      * [删除工作区](planning/architecture/delete-workspaces.md)
+      * [编辑工作区](planning/architecture/edit-workspaces.md)
+      * [删除记录类型](planning/architecture/delete-record-types.md)
+      * [连接记录类型和记录的示例](planning/architecture/example-connect-record-types-and-records.md)
+      * [工作区模板列表](planning/architecture/workspace-templates.md)
+   * Adobe Workfront规划字段 {#adobe-workfront-planning-fields}
+      * [字段：文章索引](planning/fields/fields-information.md)
+      * [字段概述](planning/fields/fields-overview.md)
+      * [创建字段](planning/fields/create-fields.md)
+      * [编辑字段](planning/fields/edit-fields.md)
+      * [删除字段](planning/fields/delete-fields.md)
+      * [公式字段概述](planning/fields/formula-fields.md)
+   * Adobe Workfront Planning访问权限 {#adobe-workfront-planning-access}
+      * [Adobe Workfront Planning访问信息：文章索引](planning/access/access-information.md)
+      * [访问概述](planning/access/access-overview.md)
+      * [在Adobe Workfront Planning中共享权限概述](planning/access/sharing-permissions-overview.md)
+      * [使用Adobe Workfront Planning时的许可证类型概述](planning/access/license-type-overview.md)
+      * [共享工作区](planning/access/share-workspaces.md)
+      * [共享视图](planning/access/share-views.md)
+   * Adobe Workfront Planning记录 {#adobe-workfront-planning-records}
+      * [记录：文章索引](planning/records/records-information.md)
+      * [创建记录](planning/records/create-records.md)
+      * [连接记录](planning/records/connect-records.md)
+      * [编辑记录](planning/records/edit-records.md)
+      * [删除记录](planning/records/delete-records.md)
+      * [共享记录](planning/records/share-records.md)
+      * [管理记录注释](planning/records/manage-record-comments.md)
+      * [“历史记录”部分概述](planning/records/history-section-overview.md)
+      * [向记录添加缩略图](planning/records/add-thumbnails-to-records.md)
+      * [将封面图像添加到记录](planning/records/add-a-cover-image-to-a-record.md)
+      * [管理记录页面](planning/records/manage-the-record-page.md)
+      * [管理Adobe Workfront对象“计划”部分中的记录](planning/records/manage-records-in-planning-section.md)
+   * Adobe Workfront Planning视图 {#adobe-workfront-planning-views}
+      * [视图：文章索引](planning/views/views-information.md)
+      * [管理记录视图](planning/views/manage-record-views.md)
+      * [管理表视图](planning/views/manage-the-table-view.md)
+      * [管理时间线视图](planning/views/manage-the-timeline-view.md)
+      * [管理日历视图](planning/views/manage-the-calendar-view.md)
+   * Adobe Workfront计划通知 {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront计划通知：文章索引](planning/notifications/notifications-information.md)
+      * [管理Adobe Workfront Planning通知首选项](planning/notifications/manage-notification-preferences.md)
+      * [管理Adobe Workfront Planning电子邮件通知](planning/notifications/manage-planning-email-notifications.md)
+      * [管理Adobe Workfront Planning应用程序内通知](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion访问表模板](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
