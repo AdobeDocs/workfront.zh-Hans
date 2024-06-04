@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ ht-degree: 1%
    该数字是自动生成的增量。
 
 1. （视情况而定）选择 **开始** 和 **结束日期** 时间轴或日历视图中显示的记录。
+
+   >[!TIP]
+   >
+   >    您可以从记录日期字段中选择，或从连接的记录或对象中选择查找日期字段。
+
 1. 单击 **创建**.
 
    该视图将显示为新选项卡。 视图会按照其创建或与您共享时的时间顺序显示。

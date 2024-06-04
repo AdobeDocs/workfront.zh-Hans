@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 已删除的工作区及其信息将无法恢复。
 
 有关更多信息，请参阅 [删除工作区](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### 查找日期字段现在在时间轴视图中可用
+
+现在，您可以将时间轴视图的“开始日期”和“结束日期”设置为来自连接的记录或对象类型的查找字段。
+
+有关创建视图的详细信息，请参阅 [管理记录视图](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## 2024年5月20日起一周
 

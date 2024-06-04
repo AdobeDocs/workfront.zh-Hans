@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >      
 >* 对于当前计划和许可证结构：
 >    
->   * Pro或更高版本 [Adobe Workfront计划]
+>   * Pro或更高版本Adobe Workfront计划
 >   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >    
 >请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
