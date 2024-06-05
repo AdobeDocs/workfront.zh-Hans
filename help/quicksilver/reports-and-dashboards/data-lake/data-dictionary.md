@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 7%
@@ -70,42 +70,42 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>任务</td>
     <td>任务</td>
     <td>分配 | 指定任务</td>
-    <td>ASSIGNATIONS_CURRENT<br>     ASSIGNMENTS_DAY_HISTORY<br>     ASSIGNMENTS_EVENT</td>
+    <td>ASSIGNATIONS_CURRENT<br>ASSIGNMENTS_DAY_HISTORY<br>ASSIGNMENTS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>CustomEnum</td>
     <td>条件、优先级、严重性、状态</td>
     <td>系统 | 自定义枚举</td>
-    <td>CUSTOMENUMS_CURRENT<br>     CUSTOMENUMS_DAILY_HISTORY<br>     CUSTOMENUMS_EVENT</td>
-    <td>记录类型通过“enumClass”属性标识。 以下是预期类型：<br>     CONDITION_OPTASK<br>     CONDITION_PROJ<br>     CONDITION_TASK<br>     PRIORITY_OPTASK<br>     PRIORITY_PROJ<br>     PRIORITY_TASK<br>     SEVERITY_OPTASK<br>     STATUS_OPTASK<br>     STATUS_PROJ<br>     STATUS_TASK</td>
+    <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+    <td>记录类型通过“enumClass”属性标识。 以下是预期类型：<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>文档</td>
     <td>文档</td>
     <td>DOCU | 文档</td>
-    <td>DOCUMENTS_CURRENT<br>     DOCUMENTS_DAILY_HISTORY<br>     DOCUMENTS_EVENT<br>     <br>     DOCUMENTS_CUSTOM_VALUE_CURRENT<br>     DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>     DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>文档版本</td>
     <td>文档版本</td>
     <td>DOCV | 文档版本</td>
-    <td>DOCUMENTVERSIONS_CURRENT<br>     DOCUMENTVERSIONS_DAILY_HISTORY<br>     DOCUMENTVERSIONS_EVENT</td>
+    <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>组</td>
     <td>组</td>
     <td>组 | 组</td>
-    <td>组_当前<br>     GROUPS_DAY_HISTORY<br>     GROUPS_EVENT</td>
+    <td>组_当前<br>GROUPS_DAY_HISTORY<br>GROUPS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>小时</td>
     <td>小时</td>
     <td>HOUR | 小时</td>
-    <td>HOURS_CURRENT<br>     HOURS_DAILY_HISTORY<br>     HOURS_EVENT</td>
+    <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -119,91 +119,91 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>里程碑</td>
     <td>里程碑</td>
     <td>英里 | 里程碑</td>
-    <td>MILESTONE_CURRENT<br>     MILESTONES_DAILY_HISTORY<br>     MILESTONE_EVENT</td>
+    <td>MILESTONE_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>里程碑路径</td>
     <td>里程碑路径</td>
     <td>MPATH | 里程碑路径</td>
-    <td>MILESTONEPATHS_CURRENT<br>     MILESTONEPATH_DAILY_HISTORY<br>     MILESTONEPATH_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATH_DAILY_HISTORY<br>MILESTONEPATH_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>注释</td>
     <td>注释</td>
     <td>注意 | 注意</td>
-    <td>注释_当前<br>     NOTES_DAILY_HISTORY<br>     注释事件</td>
+    <td>注释_当前<br>NOTES_DAILY_HISTORY<br>注释事件</td>
     <td></td>
   </tr>
   <tr>
     <td>Op 任务</td>
     <td>问题，请求</td>
     <td>OPTASK | 问题</td>
-    <td>OPTASKS_CURRENT<br>     OPTASKS_DAILY_HISTORY<br>     OPTASKS_EVENT<br>     <br>     OPTASKS_CUSTOM_VALUE_CURRENT<br>     OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     OPTASKS_CUSTOM_VALUE_EVENT</td>
+    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>项目组合</td>
     <td>项目组合</td>
     <td>端口 | Portfolio</td>
-    <td>Portfolio当前<br>     Portfolio_每日_历史记录<br>     Portfolio事件<br>     <br>     Portfolio_自定义_值_当前<br>     Portfolio_CUSTOM_VALUE_DAILY_HISTORY<br>     Portfolio_CUSTOM_VALUE_EVENT</td>
+    <td>Portfolio当前<br>Portfolio_每日_历史记录<br>Portfolio事件<br><br>Portfolio_自定义_值_当前<br>Portfolio_CUSTOM_VALUE_DAILY_HISTORY<br>Portfolio_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>项目群</td>
     <td>项目群</td>
     <td>PRGM | 项目</td>
-    <td>程序_当前<br>     PROGRAMS_DAY_HISTORY<br>     PROGRAMS_EVENT<br>     <br>     PROGRAMS_CUSTOM_VALUE_CURRENT<br>     PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>程序_当前<br>PROGRAMS_DAY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>项目</td>
     <td>项目</td>
     <td>项目 | 项目</td>
-    <td>项目当前<br>     PROJECTS_DAY_HISTORY<br>     项目事件<br>     <br>     PROJECTS_CUSTOM_VALUE_CURRENT<br>     PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>项目当前<br>PROJECTS_DAY_HISTORY<br>项目事件<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>角色</td>
     <td>工作角色</td>
     <td>角色 | 工作角色</td>
-    <td>ROLES_CURRENT<br>     ROLES_DAY_HISTORY<br>     ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>计划</td>
     <td>计划</td>
     <td>时间表 | 计划</td>
-    <td>SCHEDULES_CURRENT<br>     SCHEDULES_DAY_HISTORY<br>     SCHEDULES_EVENT</td>
+    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAY_HISTORY<br>SCHEDULES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>任务</td>
     <td>任务</td>
     <td>任务 | 任务</td>
-    <td>任务_当前<br>     TASKS_DAY_HISTORY<br>     TASKS_EVENT<br>     <br>     TASKS_CUSTOM_VALUE_CURRENT<br>     TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>任务_当前<br>TASKS_DAY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>团队</td>
     <td>团队</td>
     <td>TEAMOB | 团队</td>
-    <td>团队当前<br>     TEAMS_DAY_HISTORY<br>     团队事件</td>
+    <td>团队当前<br>TEAMS_DAY_HISTORY<br>团队事件</td>
     <td></td>
   </tr>
   <tr>
     <td>时间表</td>
     <td>时间表</td>
     <td>TSHET | 工时表</td>
-    <td>TIMESHEETS_CURRENT<br>     工时表_每日_历史记录<br>     TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>工时表_每日_历史记录<br>TIMESHEETS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>用户</td>
     <td>用户</td>
     <td>用户 | 用户</td>
-    <td>USERS_CURRENT<br>     USERS_DAILY_HISTORY<br>     USERS_EVENT<br>     <br>     USERS_CUSTOM_VALUE_CURRENT<br>     USERS_CUSTOM_VALUE_DAILY_HISTORY<br>     USERS_CUSTOM_VALUE_EVENT</td>
+    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
 </tbody>

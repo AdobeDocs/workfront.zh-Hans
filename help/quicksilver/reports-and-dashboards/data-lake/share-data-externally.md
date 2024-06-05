@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,9 @@ Workfront数据湖允许您通过商业智能工具使用组织的Workfront数�
 >[!IMPORTANT]
 >
 >将某个条目添加到IP允许列表后，将不再允许所有其他IP地址。 在尝试使用可视化工具之前，请确保已输入所有必需的IP地址 — 用于可视化工具的构建和读取体验。 否则，您可能会遇到有关无效凭据的错误。
+>
+>如果您的BI工具中未包含任何IP地址，但仍无法连接到BI允许列表，请检查BI工具的代理服务器配置。
+
 
 ## 将IP添加到允许列表
 
