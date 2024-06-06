@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,21 @@ ht-degree: 1%
 ## 步骤1 — 转到Maestro - {#step1-to-planning}
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 规划]**.
+
+   这将打开Workfront Planning的“工作区”区域。
+
+<!-- replace sentence above with this and following step:
+   The Workfront Planning landing page opens. 
+    
+1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+
+   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+
+   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
+ 
+-->
+
 
 ## Workfront Planning重要简介 —  {#planning-important-intro}
 

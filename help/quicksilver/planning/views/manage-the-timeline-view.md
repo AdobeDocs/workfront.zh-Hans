@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b3e4b056961543ea95c67c00f93d1fe13b280985
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ role: User
 请考虑以下事项：
 
 * 仅当至少有两个日期字段与记录类型关联时，才能创建时间轴视图。 当有一个或没有与记录类型关联的日期字段时，“时间轴”视图选项将灰显。
+
+  您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
 * 根据与记录关联的日期，在以下场景中，某些记录可能不会显示在时间轴视图中：
 
    * 当开始日期和结束日期没有值时

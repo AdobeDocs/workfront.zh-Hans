@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ ht-degree: 1%
 >
 >创建记录类型时，缺省情况下还会创建表格视图。
 >
->要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”和“日历”选项将灰显。
+>要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。
+>
+>否则，“时间轴”和“日历”选项将灰显。
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    要创建时间轴或日历视图，您为其构建视图的记录类型必须至少有两个日期字段。 否则，“时间轴”或“日历”选项将灰显。
 
 1. （视情况而定）单击 **下一个**，在创建时间轴或日历视图时。
 
@@ -195,7 +193,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    您可以从记录日期字段中选择，或从连接的记录或对象中选择查找日期字段。
+   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
 
 1. 单击 **创建**.
 

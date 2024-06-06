@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
    “工作区”区域打开。
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. （可选并推荐）继续执行以下某些操作以构建您的工作结构：
 
-   1. 从头开始或使用模板创建工作区。
+   1. 从头开始或使用模板创建工作区。 有关信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. 向新工作区中添加部分。
+   1. 向新工作区中添加部分。 有关信息，请参阅 [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. 重命名新工作区中的现有节。
-   1. 将记录类型添加到新工作区。
+   1. 将记录类型添加到新工作区。 有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. 单击记录类型的名称以打开记录类型的页面。 默认情况下，记录类型页面会在“表”视图中打开。
 
-      您还可以创建时间轴或日历视图。
+      您还可以创建时间轴或日历视图。 有关信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. 在表视图中，通过添加行来开始添加记录
 
       或
 
       通过添加列开始添加记录字段。
+
+      有关信息，请参阅以下文章：
+
+      * [创建记录](/help/quicksilver/planning/records/create-records.md)
+      * [创建字段](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning发布活动
 

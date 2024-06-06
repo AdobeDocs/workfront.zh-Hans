@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2432'
 ht-degree: 1%
 
 ---
@@ -158,8 +158,6 @@ hide: yes
 
 {{step1-to-planning}}
 
-默认情况下应打开上次访问的工作区。
-
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
@@ -224,8 +222,6 @@ hide: yes
 
 
 {{step1-to-planning}}
-
-默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
@@ -309,8 +305,6 @@ hide: yes
 在记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的记录类型中。
 
 {{step1-to-planning}}
-
-默认情况下应打开上次访问的工作区。
 
 1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
 1. 单击记录类型的卡以打开记录类型页面。

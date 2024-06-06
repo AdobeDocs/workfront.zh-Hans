@@ -1,13 +1,13 @@
 ---
 title: 设置提醒通知
-description: 设置提醒通知
+description: 提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知提醒用户需要对任务、问题、项目或时间表执行的操作。
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-提醒通知根据指定条件向收件人发送电子邮件。 您可以手动将提醒通知与工作项关联，如项目、任务、问题和时间表。
+作为Workfront管理员，您可以为用户创建提醒通知，并将这些通知与您希望用户特别注意的对象相关联。
+
+提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知提醒用户需要对任务、问题、项目或时间表执行的操作。
+
+创建提醒通知后，用户可以手动将其与工作项相关联，例如项目、任务、问题和时间表。 有关信息，请参阅 [将提醒通知附加到对象](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 自定义提醒电子邮件
 
@@ -126,7 +130,18 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">收件人</td> 
-      <td>选择要接收通知的用户类型。 从各种对象利益相关者中进行选择，例如所有者、批准者或任务接受者。</td> 
+      <td><p>根据提醒通知用于什么对象，从以下类型的用户中选择要接收通知的用户：</p>
+      <ul>
+      <li>任务负责人</li>
+      <li>输入者</li>
+      <li>项目团队（项目团队中的所有用户都会收到提醒）</li>
+      <li>依赖任务受分配人（分配给依赖任务的用户将收到提醒）</li>
+      <li>项目所有者</li>
+      <li>分配给（分配了任务或问题的用户将收到提醒）</li>
+      <li>时间表所有者</li>
+      <li>工时表批准者</li>
+      <li>时间表所有者的经理</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

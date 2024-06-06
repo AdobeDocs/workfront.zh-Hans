@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ hide: yes
 请考虑以下事项：
 
 * 仅当至少有两个日期字段与记录类型关联时，才能创建日历视图。 如果有一个或没有与记录类型关联的日期字段，则“日历”视图选项将灰显。
+
+  您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
 * 存在以下情况：
 
    * 当“起始日期”和“终止日期”均没有值时，这些记录不会显示在日历中
