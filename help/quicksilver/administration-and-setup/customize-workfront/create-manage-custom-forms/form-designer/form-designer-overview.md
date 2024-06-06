@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 1%
 
 ![示例表单设计器](assets/form-designer-example.png)
 
-## 如何访问新的表单设计器
+## 如何访问表单设计器
 
-新表单设计器和旧表单生成器的顶部均有一个新按钮。 您可以使用此按钮在旧版生成器和新设计器之间切换。
+通过新表单设计器和旧表单生成器顶部的按钮，您可以在版本之间切换。
 
 ![切换到新的窗体设计器](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ ht-degree: 1%
   >
   >将表单附加到对象后，“默认”部分在对象中不可见。
 
+* **使用外部查找字段**：此字段类型调用外部API，并在下拉字段中作为选项返回值。
+
 ## 从表单设计器中移除的功能
 
 我们从表单设计器中删除了以下功能：
 
-* 表单设置、表单共享、字段共享选项卡
-
-   * 表单设置现在位于画布顶部
-
-   * 表单共享主选项卡和字段共享子选项卡
-
-  >[!NOTE]
-  >
-  >您可以从设置>自定义Forms > Forms或字段区域控制表单和字段共享。
+* 表单设置现在位于画布顶部
 
 * 在更新提要中跟踪字段变化
 
   >[!NOTE]
   >
-  >您可以在设置>界面>更新馈送中找到此链接
+  >您可以在设置>界面>更新馈送中找到此选项
 
