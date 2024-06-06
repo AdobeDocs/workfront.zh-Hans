@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # 创建或编辑环境升级包
+
+您必须在要复制对象的环境中创建资源包 **从**. 例如，如果您在自定义刷新沙盒环境中配置项目并将其提升到生产环境，则必须在自定义刷新沙盒环境中创建包。
+
+>[!IMPORTANT]
+>
+>如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
 
 ## 创建资源包
 
