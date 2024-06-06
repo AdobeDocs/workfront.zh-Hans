@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 * [查看使用自定义字段或小部件的报表](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
 * [查看使用自定义字段或小部件的自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
 * [转换对象时传输自定义表单数据](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-* [编辑自定义字段、分区界限或小部件的属性](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+* [添加或编辑自定义字段、分区界限或小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
 * [从系统中删除自定义字段或构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 * [删除自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 * [API中的富文本字段存储](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)

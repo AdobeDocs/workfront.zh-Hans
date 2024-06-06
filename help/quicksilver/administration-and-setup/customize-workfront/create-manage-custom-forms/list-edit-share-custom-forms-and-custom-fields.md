@@ -4,9 +4,9 @@ description: 当您查看组织的自定义表单以及已添加到其中的自�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    有关在列表中选择项目时可执行的操作的信息，请参阅以下文章：
 
-   * [编辑自定义表单中自定义字段、分区界限或小部件的属性](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [添加或编辑自定义字段、分区界限或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [从系统中删除自定义字段或构件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
