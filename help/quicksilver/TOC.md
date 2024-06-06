@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
+source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
 workflow-type: tm+mt
-source-wordcount: '14329'
+source-wordcount: '14340'
 ht-degree: 1%
 
 ---
@@ -615,6 +615,7 @@ ht-degree: 1%
                * [管理表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [使用表单设计器从现有自定义表单添加或删除对象类型](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [使用表单设计器重命名自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+               * [使用表单设计器配置自定义字段和小部件的共享](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
          * 管理自定义表单 {#manage-custom-forms}
             * [管理自定义表单和字段](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [共享自定义表单](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
