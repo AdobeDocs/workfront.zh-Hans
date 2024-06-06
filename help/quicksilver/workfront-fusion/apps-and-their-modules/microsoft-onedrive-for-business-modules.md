@@ -5,20 +5,20 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive for Business模块
-description: 在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Microsoft OneDrive for Business]，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Microsoft OneDrive for Business]，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft OneDrive for Business] 模块
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Microsoft OneDrive for Business]，并将其连接到多个第三方应用程序和服务。
+在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Microsoft OneDrive for Business]，并将其连接到多个第三方应用程序和服务。
 
 如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,27 +51,39 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 先决条件
 
 使用 [!DNL Microsoft OneDrive for Business] 替换为 [!DNL Adobe Workfront Fusion]，您需要一个 [!DNL Microsoft] 帐户。
 
-有关连接 [!DNL OneDrive for Business] 目标帐户 [!DNL Workfront Fusion]，请参见 [创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+有关连接 [!DNL OneDrive for Business] 帐户至 [!DNL Workfront Fusion]，请参见 [创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+
+
+## 连接 [!DNL Microsoft OneDrive for Business] 服务对象 [!DNL Workfront Fusion]
+
+有关连接 [!DNL Microsoft OneDrive for Business] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>某些Microsoft应用程序使用相同的连接，该连接与单个用户权限相关联。 因此，在创建连接时，权限同意屏幕除了显示当前应用程序所需的任何新权限外，还会显示以前授予此用户连接的任何权限。
+>
+>例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
 
 ## [!DNL Microsoft OneDrive for Business] 模块及其字段
 
-配置时 [!DNL Microsoft OneDrive for Business] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Microsoft OneDrive for Business] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置时 [!DNL Microsoft OneDrive for Business] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Microsoft OneDrive for Business] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -82,10 +94,10 @@ ht-degree: 0%
 
 ### 触发器
 
-* [[!UICONTROL 关注文件]](#watch-files)
+* [[!UICONTROL 监视文件]](#watch-files)
 * [[!UICONTROL 监视文件夹]](#watch-folders)
 
-#### [!UICONTROL 关注文件]
+#### [!UICONTROL 监视文件]
 
 在被监视的文件夹中添加或更新新文件时，此触发器模块将激活。
 
@@ -94,8 +106,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL驱动器ID]</p> </td> 
@@ -111,22 +123,22 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL返回的最大行数]</td> 
-   <td> <p> 设置满足以下条件的最大结果数 [!DNL Workfront Fusion] 在一个周期内使用。</p> </td> 
+   <td> <p> 设置符合以下条件的最大结果数： [!DNL Workfront Fusion] 在一个周期内使用。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 监视文件夹]
 
-在将新文件夹添加到受监视的文件夹时，此触发器模块激活。
+在将新文件夹添加到受监视的文件夹时，此触发器模块将激活。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL连接]</p> </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL驱动器ID]</p> </td> 
@@ -142,7 +154,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL返回的最大行数]</td> 
-   <td> <p> 设置满足以下条件的最大结果数 [!DNL Workfront Fusion] 在一个周期内使用。</p> </td> 
+   <td> <p> 设置符合以下条件的最大结果数： [!DNL Workfront Fusion] 在一个周期内使用。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,8 +178,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -182,7 +194,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL源文件]</p> </td> 
-   <td> <p>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</p> </td> 
+   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -191,7 +203,7 @@ ht-degree: 0%
     <ul> 
      <li>[！UICONTROL替换现有文件]</li> 
      <li>[！UICONTROL重命名新文件]</li> 
-     <li>[！UICONTROL结束并出现错误]</li> 
+     <li>[！UICONTROL以错误结尾]</li> 
     </ul> </td> 
    <td> </td> 
   </tr> 
@@ -208,8 +220,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -235,8 +247,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -262,8 +274,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>[！UICONTROL连接]</strong> </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td><strong>[！UICONTROL Connection]</strong> </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -292,8 +304,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -311,7 +323,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 获取共享链接]
 
-此模块可检索可共享以授予对指定文件的访问权限的链接。
+此模块会检索可共享的链接，以授予对指定文件的访问权限。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -319,8 +331,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Office 365] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关连接 [!DNL Office 365] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">将模块的应用程序或Web服务连接到 [!DNL Workfront Fusion]</a> 在文章中 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在中创建方案 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -335,12 +347,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL权限类型]</p> </td> 
-   <td> <p>选择您希望接收链接的用户具有读/写权限还是只读权限。</p> </td> 
+   <td> <p>选择您希望接收链接的人员具有读/写权限还是只读权限。</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL作用域]</td> 
-   <td> <p> 选择您是否希望只有拥有链接的任何人才能访问文件，或者只有贵组织的成员才能访问。</p> </td> 
+   <td> <p> 选择您希望拥有链接的任何人都可以访问文件，还是希望只有贵组织的成员才能访问文件。</p> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

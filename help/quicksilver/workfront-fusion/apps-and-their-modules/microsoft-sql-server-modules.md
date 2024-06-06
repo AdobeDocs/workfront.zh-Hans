@@ -9,10 +9,10 @@ description: 您可以使用 [!DNL Adobe Workfront Fusion] 以连接到Microsoft
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 0%
 
 ---
 
@@ -47,21 +47,33 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+
+
+## 连接 [!DNL Microsoft SQL Server] 服务对象 [!DNL Workfront Fusion]
+
+有关连接 [!DNL Microsoft SQL Server] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>某些Microsoft应用程序使用相同的连接，该连接与单个用户权限相关联。 因此，在创建连接时，权限同意屏幕除了显示当前应用程序所需的任何新权限外，还会显示以前授予此用户连接的任何权限。
+>
+>例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
 
 ## 使用 [!DNL Microsoft SQL Server] 模块
 
-您可以通过存储过程直接在数据库服务器上执行自定义逻辑。 [!DNL Adobe Workfront Fusion] 动态加载输入/输出参数和记录集的接口，以便每个参数或值可以单独映射。 在开始配置方案之前，请确保用于连接到数据库的帐户具有读取权限 `INFORMATION_SCHEMA.ROUTINES` 和 `INFORMATION_SCHEMA.PARAMETERS` 视图。
+您可以通过存储过程直接在数据库服务器上执行自定义逻辑。 [!DNL Adobe Workfront Fusion] 动态加载输入/输出参数和记录集的接口，以便可以单独映射每个参数或值。 在开始配置方案之前，请确保用于连接到数据库的帐户具有读取权限 `INFORMATION_SCHEMA.ROUTINES` 和 `INFORMATION_SCHEMA.PARAMETERS` 视图。
 
 时间 [!DNL Fusion] 建立与 [!DNL SQL server] 目标， [!DNL Fusion] 用户标识主机（托管服务器的域名或IP地址）和端口。 [!DNL Fusion] 可以连接到任何可用的主机和端口。
 
@@ -75,11 +87,11 @@ ht-degree: 1%
 
 ## 错误疑难解答 [!UICONTROL ER_LOCK_WAIT_TIMEOUT：超过锁定等待超时；请尝试重新启动事务]
 
-使用多个模块修改相同数据时，会发生此错误。 它由SQL事务引起。
+使用多个模块修改相同的数据时，会发生此错误。 它由SQL事务引起。
 
 执行任何SQL模块时，都会启动一个事务。 事务在方案完全执行后完成。
 
-如果另一个模块尝试访问相同的数据，则必须等待上一个事务完成。 由于第一个事务将在方案完成后完成，因此第二个事务永远不能开始。
+如果另一个模块尝试访问相同的数据，则必须等到上一个事务完成。 由于第一个事务将在方案完成后完成，因此第二个事务永远不能开始。
 
 ### 解决方案：
 

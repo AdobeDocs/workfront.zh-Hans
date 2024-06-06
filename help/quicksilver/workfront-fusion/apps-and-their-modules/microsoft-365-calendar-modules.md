@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动使用Mic
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ ht-degree: 0%
 
 使用 [!DNL Microsoft Office 365 Calendar] 模块，您必须拥有 [!DNL Microsoft Office 365 Calendar] 帐户。
 
+## 连接 [!DNL Office 365 Calendar] 服务对象 [!DNL Workfront Fusion]
+
+有关连接 [!DNL Office 365 Calendar] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>某些Microsoft应用程序使用相同的连接，该连接与单个用户权限相关联。 因此，在创建连接时，权限同意屏幕除了显示当前应用程序所需的任何新权限外，还会显示以前授予此用户连接的任何权限。
+>
+>例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
+
 ## [!DNL Microsoft Office 365 Calendar] 模块及其字段
 
 配置时 [!DNL Microsoft Office 365 Calendar] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Microsoft Office 365 Calendar] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
@@ -77,11 +87,11 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [Event](#event)
+* [事件](#event)
 * [日历](#calendar)
 * [其他](#other)
 
-### Event
+### 事件
 
 * [[!UICONTROL 观看活动]](#watch-events)
 * [[!UICONTROL 搜索事件]](#search-events)
@@ -549,7 +559,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
-   <td> <p>输入相对路径 <code>https://graph.microsoft.com</code>. 示例:<code> /v1.0/me/events</code></p> </td> 
+   <td> <p>输入相对路径 <code>https://graph.microsoft.com</code>. 示例：<code> /v1.0/me/events</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
@@ -565,7 +575,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:   <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：   <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

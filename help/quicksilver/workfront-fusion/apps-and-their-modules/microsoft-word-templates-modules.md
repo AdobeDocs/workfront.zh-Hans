@@ -10,9 +10,9 @@ description: 在Adobe Workfront Fusion场景中，您可以自动使用Microsoft
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 0%
 
 要使用 [!DNL Miscrosoft Word Templates] 替换为 [!DNL Adobe Workfront Fusion]，则必须拥有 [!DNL Office 365] 帐户。 您可以在www.office.com创建一个。
 
+
+
+## 连接 [!DNL Office] 服务对象 [!DNL Workfront Fusion]
+
+有关连接 [!DNL Office] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>某些Microsoft应用程序使用相同的连接，该连接与单个用户权限相关联。 因此，在创建连接时，权限同意屏幕除了显示当前应用程序所需的任何新权限外，还会显示以前授予此用户连接的任何权限。
+>
+>例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
+
 ## 使用 [!DNL Microsoft Word Templates] 模块
 
 您可以使用 [!DNL Microsoft Word Template] 用于将多个Web服务中的数据合并到中的模块 [!DNL Microsoft Word] 文档。
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 简单值标记被简单地替换为相应的值。 标记的名称对应于 [!UICONTROL 键] 字段的值，放置在双大括号内；例如，
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 。
 
 **示例：** 要创建显示“嗨，彼得！”的文档，您可以使用 [!DNL Microsoft Word Template] 模块创建以下模板：
 
-<pre>&gt;您好 &#123;&#123;name&#125;&#125;！</pre>
+<pre>&gt;您好 {{name}}！</pre>
 
 为此，您需要按如下方式设置模块：
 
@@ -111,7 +123,7 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 您可以使用条件标记对文本进行换行，这些文本仅在满足某些条件时才应呈现。 要换行文本，请将文本置于开始和结束条件标记之间，例如“hasPhone”（如果条件为数据是否包含电话号码）。 开始标记的名称前面加有井号#，结束标记的名称前面加有斜杠/，如下面的示例所示。
 
 **示例：** 要生成包含客户电话号码的文档（如果输入数据包含电话号码但没有电子邮件地址），您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;电话： &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;电子邮件： &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>为此，您需要按如下方式设置模块：
+<pre>&gt; {{#hasPhone}}电话： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}电子邮件： {{email}} {{/hasEmail}}</pre>为此，您需要按如下方式设置模块：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 
 **示例：** 要生成列出客户列表中每个联系人的姓名和电话号码的文档，您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;， &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}， {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 为此，您需要按如下方式设置模块：
 
