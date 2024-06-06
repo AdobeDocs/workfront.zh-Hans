@@ -6,9 +6,9 @@ description: 作为资源管理器，您可以将工作分配给用户，并通�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 管理工作负载均衡器中的用户分配
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 作为资源管理器，您可以将工作分配给用户，并通过工作负载均衡器管理用户的每日、每周或每月分配，以确保为他们分配的小时数符合其可用计划。
 
@@ -111,11 +113,14 @@ ht-degree: 0%
 
 * 如果两个用户处于与分配用户处于不同时区的不同时区或计划，则会导致分配金额对于查看相同工作项目的两个用户显示得不同。
 
-* 当用户有计划的休息时间时，一天或一天中的部分时间以灰色背景显示。 如果Workfront管理员在设置区域中启用了用户休息时间设置以考虑用户的休息时间，则分配的小时数将移至时间轴中的下一个可用日期。 如果禁用该设置，则分配的小时数将保留在标记为休息日的当天，并且用户显示为过度分配。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 当用户有计划的休息时间时，一天或一天中的部分以灰色背景显示， <span class="preview">飞机图示表示休息时间</span>. 如果Workfront管理员在设置区域中启用了用户休息时间设置以考虑用户的休息时间，则分配的小时数将移至时间轴中的下一个可用日期。 如果禁用该设置，则分配的小时数将保留在标记为休息日的当天，并且用户显示为过度分配。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >如果在将用户分配给工作项后标记了空闲时间，则必须重新计算项目的时间表以显示移动的分配。 有关信息，请参阅 [重新计算项目时间表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">当多个用户被分配到任务并且主要被分配人已计划休息时间时，时间线会移动（如果日期不固定）并且所有被分配人的已计划小时数会在任务的新持续时间中重新分配。 如果任务有固定日期，则时间线不会因休息而更改，并且小时数会在剩余天数之间重新分配。</span>
+   * <span class="preview">如果手动进行分配，则在休息时间后不会重新分配计划小时数。</span>
 
 * 如果有多个用户分配到任务，则计划小时数首先平均分配给每个用户，然后平均分配给任务持续时间内的每一天。 此分配成为每个用户向任务的分配。
 
