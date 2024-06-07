@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
 >[!IMPORTANT]
 >
 >实体关系图是正在进行的工作 — 因此，它仅供参考，并且可能会发生更改。
+
+## 日期类型
+
+有许多日期对象提供有关特定事件发生时间的信息。
+
+* `DL_LOAD_TIMESTAMP`：此日期用于内部引用，并反映将数据加载到“当前历史记录”、“事件历史记录”或“每日历史记录”表中的时间。 此日期不应用于数据分析，计划在Workfront数据湖的测试阶段删除。
+* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录中指定每个日期在11:59 UTC时的数据外观 `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并记录记录的确切更改时间 _到_ 当前行中的值。
+* `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并记录记录的确切更改时间 _从_ 当前行中的值到其他行中的值。 要允许在查询之间 `BEGIN_EFFECTIVE_TIMESTAMP` 和 `END_EFFECTIVE_TIMESTAMP` 此值从不为空，即使没有新值也是如此。 如果记录仍然有效（即值未更改）， `END_EFFECTIVE_TIMESTAMP` 将具有值2300-01-01。
 
 ## 术语表
 
