@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 分配单个任务
 
 1. 转到要分配的任务。
-1. 单击 **分配给** 在 **指定任务** 任务或问题标题中的字段。
+1. 单击 **分配给** 在 **指定任务** 任务标题中的字段
 
    或
 
    如果任务或问题已分配，则单击分配的名称。
 
-   生产环境中的示例图像：
+   在生产环境中：
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">“预览”环境中的示例图像：</span>
+   <span class="preview">在“预览”环境中：</span>
    ![分配](assets/assignments-box-in-task-header.png)
 
 1. 执行下列操作之一：

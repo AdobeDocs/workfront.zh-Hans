@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次访问的工作区随即打开。
+1. 单击要编辑其记录的工作区
 
-1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+   工作区将打开，记录类型显示为卡片。
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
@@ -192,9 +192,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次访问的工作区将打开。
+1. 单击要编辑其记录的工作区
 
-1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+   工作区将打开，记录类型显示为卡片。
 
 1. 单击记录类型卡片。
 
@@ -231,9 +231,9 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次访问的工作区将打开。
+1. 单击要编辑其记录的工作区
 
-1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+   工作区将打开，记录类型显示为卡片。
 
 1. 单击记录类型卡片。
 

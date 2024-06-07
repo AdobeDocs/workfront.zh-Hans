@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-默认情况下，将打开上次访问的工作区。
+1. 单击工作区的卡片。
+
+   工作区将打开，记录类型显示为卡片。
 
 1. 单击连接到Workfront项目、项目组合或项目群的记录类型的卡。
 1. 从中选择表格视图 **视图** 下拉菜单。

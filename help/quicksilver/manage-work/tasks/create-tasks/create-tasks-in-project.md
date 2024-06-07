@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ ht-degree: 1%
 
    我们建议使用此选项，尤其是在将多个任务添加到列表时。
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. （视情况而定）执行以下操作之一：
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
          这使新任务成为上一个任务的子任务或子任务。
 
-         有关子任务的详细信息，请参阅 [任务概述](../../../manage-work/tasks/task-information/tasks-overview.md).
+         有关子任务的详细信息，请参阅 [创建子任务](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. （视情况而定）如果您已禁用 **自动保存** 选项（按下） **添加更多任务**，您可以执行以下操作：
 

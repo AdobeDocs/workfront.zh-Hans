@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ ht-degree: 1%
 {{step1-to-planning}}
 
 
-默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 单击工作区的卡片。
 
-1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。
+
+   此时将打开记录类型页面。
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
@@ -218,11 +222,13 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-默认情况下，将打开您上次访问的工作区。 有关创建工作区的信息，请参见 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 单击工作区的卡片。
+
+   工作区将打开，记录类型显示为卡片。
 
 1. 单击记录类型卡片。
 
-   有关创建记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+   此时将打开记录类型页面。
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
@@ -247,13 +253,14 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-默认情况下，将打开您上次访问的工作区。
+1. 单击工作区的卡片。
 
-有关创建工作区的信息，请参见 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+   工作区将打开，记录类型显示为卡片。
 
-1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 单击记录类型卡片。
 
-   默认情况下，所选类型的所有记录都会显示在表格视图中。
+   此时将打开记录类型页面。
+默认情况下，所选类型的所有记录都会显示在表格视图中。
 
 1. 将鼠标悬停在要复制的视图的选项卡上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **复制**.
 

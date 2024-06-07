@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-您上次访问的工作区将打开。
+1. 单击要删除其记录的工作区。
 
-1. 单击记录类型。
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
 1. 执行下列操作之一：
@@ -126,9 +128,11 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-您上次访问的工作区随即打开。
+1. 单击要删除其记录的工作区。
 
-1. 单击记录类型。
+   工作区将打开，记录类型显示为卡片。
+
+1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
 1. （视情况而定）从 **视图** 在表左上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。

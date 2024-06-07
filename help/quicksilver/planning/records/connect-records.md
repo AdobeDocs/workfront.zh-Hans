@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
+1. 单击要连接其记录的工作区
+
+   工作区将打开，记录类型显示为卡片。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
 1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
+1. 单击要连接其记录的工作区。
+
+   工作区将打开，记录类型显示为卡片。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 下拉菜单。
 
@@ -306,7 +310,9 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录的工作区。
+1. 单击要连接其记录的工作区。
+
+   此时会打开工作区，并显示记录类型。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 选择 **表** 从查看 **视图** 记录类型页面右上角的下拉菜单
 

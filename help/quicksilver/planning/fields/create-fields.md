@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-默认情况下应打开上次访问的工作区。
+1. 单击要为其创建字段的记录的工作区。
 
-1. （可选）展开现有工作区名称右侧的向下箭头，选择要为其创建字段的记录类型的工作区，然后单击记录类型。
+   此时会打开工作区，并显示记录类型。
+
+1. 单击记录类型的卡。
 
    与记录类型关联的所有现有记录都会显示在表格视图的行中。
 
@@ -127,8 +129,11 @@ recommendations: noDisplay, noCatalog
    >
    >    如果没有显示记录，则表示您可能还没有任何记录，或者您可能应用了过滤器来限制您在屏幕上看到的内容。
 
-   与记录类型关联的所有现有字段都会显示在表格视图的列中。 <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   与记录类型关联的所有现有字段都会显示在表格视图的列中。
 
+   >[!TIP]
+   >
+   >    某些字段可能已隐藏。 单击字段，然后启用在表格视图中作为列查看的字段的切换。
 
 1. 单击 **+** 图标来添加新字段。
 1. 在 **新建字段** 选项卡，在中搜索字段类型 **字段类型** 框，或从以下字段类型中选择：

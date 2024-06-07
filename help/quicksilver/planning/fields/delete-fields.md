@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-这会打开Workfront Planning中上次访问的工作区。
-1. 单击要删除其字段的记录类型的卡片。
-1. （视情况而定）选择 **表格视图** 从 **视图** 记录类型页面右上角的下拉菜单
+1. 单击要删除其记录字段的工作区。
+
+   此时会打开工作区，并显示记录类型。
+
+1. 单击记录类型的卡。
+
+1. （视情况而定）如果尚未选择，请单击 **表格视图** 在记录类型页面上。
+
+   与记录类型关联的所有现有记录都会显示在表格视图的行中。
+
 1. 在列标题中查找要删除的字段，将鼠标悬停在列标题上，然后单击字段名称后的向下箭头。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

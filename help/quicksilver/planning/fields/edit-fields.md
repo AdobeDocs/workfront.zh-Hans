@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ recommendations: noDisplay, noCatalog
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
+1. 单击要编辑其记录字段的工作区。
 
-   工作区将打开，并显示与其关联的记录类型。
-1. 单击要编辑其字段的记录类型的卡片。
+   工作区将打开，工作区中的所有记录类型都显示在信息卡上。
+
+1. 单击记录类型的卡。
 
    这将打开记录类型的页面。
+
 1. （视情况而定）单击 **表格视图**.
+
+   与记录类型关联的所有现有记录都会显示在表格视图的行中。
 1. 将鼠标悬停在要编辑的字段的列标题上，单击字段名称后的向下箭头，然后单击 **编辑字段**
 
    或
@@ -146,7 +150,9 @@ recommendations: noDisplay, noCatalog
 
    >[!TIP]
    >
-   >保存字段后无法更新字段类型。
+   >* 保存字段后无法更新字段类型。
+   >
+   >* 修改字段配置（字段选项或公式表达式）时，已修改字段中包含信息的记录将实时更新其值。 字段配置更改触发的值更改没有警告和审核日志。 所有查看字段的用户将立即看到经过修改的新值。
 
    字段信息会针对每个有权查看工作区的用户而更新。
 
@@ -154,9 +160,3 @@ recommendations: noDisplay, noCatalog
 
    有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

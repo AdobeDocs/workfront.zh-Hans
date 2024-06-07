@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-您上次访问的工作区将打开。
+1. 单击要对其记录进行个性化的工作区，
 
-1. （可选）单击工作区名称右侧的向下箭头，选择要更新其记录的工作区。
+   或
+
+   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要对其记录进行个性化的工作区。
+
+   此时会打开工作区，并显示记录类型。
 
 1. 单击记录类型卡片。
 

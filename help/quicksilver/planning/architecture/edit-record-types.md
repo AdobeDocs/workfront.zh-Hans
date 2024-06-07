@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,13 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要编辑其记录类型的工作区。
+1. 单击要编辑其记录类型的工作区，
+
+   或
+
+   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要编辑其记录类型的工作区。
+
+   此时会打开工作区，并显示记录类型。
 1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **编辑**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

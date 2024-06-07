@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
+1. 单击工作区信息卡以打开工作区。
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按键 **输入**.
 1. 单击 **更多** 菜单 ![](assets/more-menu.png)工作区名称右侧，然后单击 **编辑**.
 
@@ -130,7 +131,7 @@ ht-degree: 0%
 
 1. （可选）将鼠标悬停在记录类型卡片上，单击 **更多** 菜单 ![](assets/more-menu.png) 图标，然后单击 **删除** 删除记录类型。
 
-   有关信息，请参阅 [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md))。
+   有关信息，请参阅 [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. （可选）按一下记录类型卡以将其拖放到新位置。 您可以将记录类型从一个工作区区域拖放到另一个工作区区域。
 

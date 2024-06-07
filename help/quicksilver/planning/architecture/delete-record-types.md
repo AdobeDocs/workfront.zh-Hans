@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要为其删除记录类型的工作区。
+1. 单击要删除其记录类型的工作区，
+
+   或
+
+   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要从中删除记录类型的工作区。
 
    此时会打开工作区，并显示记录类型。
-1. 单击要删除的记录类型的卡。
+1. 执行下列操作之一：
 
-   这将打开记录类型的页面。
-1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**. <!--add screen shot when they finalize the UI-->
-1. 类型 **删除** 在确认框中，然后单击 **永久删除**.
+   * 将鼠标悬停在记录类型卡片上，单击“More（更多）”菜单，然后单击 **删除**.
+   * 单击要删除的记录类型的卡片，然后在记录类型页面中，单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. 类型 **删除** 在确认框中，然后单击 **永久删除**. 不区分大小写。
 
    所选的记录类型及其字段、关联的记录和视图将被删除。

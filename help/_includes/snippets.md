@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -249,20 +249,14 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 规划]**.
 
-   这将打开Workfront Planning的“工作区”区域。
+   Workfront Planning登录页面将打开。
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. （可选且视情况而定）如果您是Workfront管理员，请单击以下选项卡：
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **我的工作区**：显示您创建的工作区。
+   * **其他工作区**：显示Workfront Planning中的所有工作区，包括与您共享的工作区。
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   对于所有其他用户，他们创建或与他们共享的所有工作区都将显示在 **工作区** 区域。
 
 ## Workfront Planning重要简介 —  {#planning-important-intro}
 

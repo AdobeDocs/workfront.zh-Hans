@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,11 @@ author: Alina
 
 {{step1-to-planning}}
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录类型的工作区。
+1. 单击要连接其记录类型的工作区，
+
+   或
+
+   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录类型的工作区。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击 **+** 图标，然后单击 **新建连接** 选项卡。
 

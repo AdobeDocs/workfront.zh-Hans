@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-这将打开您上次访问的工作区。
+1. 单击要删除的工作区。
 
-1. （可选）展开现有工作区名称右侧的向下箭头，然后选择要删除的工作区。
+   此时将显示工作区页面。
+
 1. 单击 **更多** 菜单 ![](assets/more-menu.png) 在工作区名称旁边，然后单击 **删除**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Type &quot;**删除**&quot;，然后单击 **永久删除**.
+1. Type &quot;**删除**&quot;，然后单击 **永久删除**. 不区分大小写。
 
    工作区已被删除，无法恢复。 任何与其关联的记录类型、记录、字段和视图也会被删除。 <!--ensure this is right at or before GA-->
