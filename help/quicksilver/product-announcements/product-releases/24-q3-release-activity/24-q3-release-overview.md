@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.6版本（2024年6月20日）</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：24.7版（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">空闲时间现在反映在工作负载均衡器中</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">空闲时间现在反映在工作负载均衡器中</a></p>
                         [！BADGE New in Preview ]{type=Negative}
                         <p>为了在任务的主要被分配人已计划休息时间时无缝地调整工作，工作负载均衡器现在在重新计算项目时间表时重新分配小时数给主要用户和次要用户。</p>
                     </td>
@@ -274,10 +271,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.6版本（2024年6月20日）</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：24.7版（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
                             </li>
                         </ul>
                     </td>

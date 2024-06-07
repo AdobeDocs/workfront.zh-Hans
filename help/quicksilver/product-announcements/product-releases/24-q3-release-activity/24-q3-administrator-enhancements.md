@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年6月6日；用于快速发布的生产版本：用于24.6版本（2024年6月20日）；用于季度发布的生产版本：用于24.7版本（2024年7月）
+>预览版本： 2024年6月6日；适用于所有客户的生产版本：使用24.7版本（2024年7月）
 
 您现在可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。 这允许您快速创建可重用的自定义字段。
 
