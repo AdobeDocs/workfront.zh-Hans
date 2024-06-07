@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '357'
 ht-degree: 7%
 
 ---
@@ -72,10 +72,12 @@ Workfront为每种对象类型提供了许多内置字段。
 * 项目群
 * 项目组合
 * 费用
-* 群组
+* 组
 * 迭代
 * 开票记录
 
 有关将自定义表单附加到对象的详细信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+有关将问题转化为项目后自定义表单所发生情况的信息，请参阅 [将问题转化为项目](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 
