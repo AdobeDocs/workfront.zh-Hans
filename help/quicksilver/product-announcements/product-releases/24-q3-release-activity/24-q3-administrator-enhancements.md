@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 以前，对象需要在生产环境中与沙盒或预览环境分开配置。
 
 在24.6版本中启动环境升级后，将提供有关环境升级的更多信息和说明。
+
+[观看此功能的视频演示](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## 在自定义表单设计器中共享自定义表单和自定义字段
 
