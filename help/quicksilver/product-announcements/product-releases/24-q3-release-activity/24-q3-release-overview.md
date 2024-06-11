@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>24.5（2024年5月16日）</li><li>24.6（2024年6月20日）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5（2024年5月16日）</li><li>24.6（2024年6月13日）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
 >
 >有关快速发布流程的详细信息，请参阅 [启用或禁用快速发布流程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -64,7 +64,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.6版本（2024年6月20日）</p>
+                                <p>适用于所有客户的生产版本：使用24.6版本（2024年6月13日）</p>
                             </li>
                         </ul>
                     </td>
@@ -297,6 +297,24 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe统一体验现在可供更多Workfront组织使用</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>为了允许组织访问AdobeUnified Experience的优势，我们已经开始将其提供给现有的Workfront客户。 </p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年6月13日</p>
+                            </li>
+                            <li>
+                                <p>针对特定客户的生产：随24.7版（2024年7月）的发布</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">AdobeUnified Shell正在分阶段推出。 其他组织将登记到AdobeUnified Shell 24.10和25.1版本。 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">帮助按钮已从主导航栏中移除</a></p>
                         [！BADGE New in Preview ]{type=Negative}
                         <p>为了统一不在Unified Shell上的用户的体验，已删除主导航栏上的“帮助”按钮。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。</p>
@@ -307,7 +325,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.6版本（2024年6月20日）</p>
+                                <p>快速发布生产：使用24.6版本（2024年6月13日）</p>
                             </li>
                             <li>
                                 <p>按季度发布的生产：24.7版（2024年7月）</p>

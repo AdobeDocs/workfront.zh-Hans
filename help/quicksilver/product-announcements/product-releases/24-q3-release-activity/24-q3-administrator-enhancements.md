@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在24.6版本（2024年6月20日）中，环境升级将在沙盒、预览和生产环境中可用。
+>在24.6版本（2024年6月13日）中，环境升级将在沙盒、预览和生产环境中可用。
 
 环境升级允许您将对象从一个Workfront环境移动到另一个环境，例如从沙盒环境移动到生产环境。 您可以配置和测试对象，而不会对组织的数据和记录造成任何风险。 然后，您可以将这些对象移动到生产环境，而无需重新配置它们，从而节省时间和精力。
 
