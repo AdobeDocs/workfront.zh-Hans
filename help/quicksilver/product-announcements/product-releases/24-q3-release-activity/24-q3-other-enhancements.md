@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 本页介绍了在2024年第三季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第三季度发布周期中此时所有可用更改的列表，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-已发送消息 — NOLAN可以忽略
 
 ## Adobe统一体验现在可供更多Workfront组织使用
 
@@ -47,7 +45,7 @@ AdobeUnified Experience包括：
 
 >[!NOTE]
 >
->预览版本： 2024年6月6日；用于快速发布的生产版本：使用24.6版本（2024年6月13日）；用于季度发布的生产版本：使用24.7版本（2024年7月）
+>预览版本： 2024年6月6日；面向所有客户的生产：使用24.7版本（2024年7月）
 
 为了统一不在Unified Shell上的用户的体验，已删除主导航栏上的“帮助”按钮。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -325,10 +325,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>快速发布生产：使用24.6版本（2024年6月13日）</p>
-                            </li>
-                            <li>
-                                <p>按季度发布的生产：24.7版（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
                             </li>
                         </ul>
                     </td>
