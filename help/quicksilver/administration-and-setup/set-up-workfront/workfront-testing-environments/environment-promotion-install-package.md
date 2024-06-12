@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 计划</strong>
    </td>
-   <td> 贵组织必须采用新的定价模式，并拥有Prime或Ultimate计划。
+   <td> Prime或Ultimate（仅限新计划）
    </td>
   </tr>
   <tr>
