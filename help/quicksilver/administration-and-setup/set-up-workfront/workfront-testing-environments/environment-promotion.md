@@ -8,20 +8,18 @@ description: 环境升级功能旨在提供与配置相关的对象从一个环�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # 在对象之间移动 [!DNL Workfront] 使用环境 [!DNL Workfront] 环境提升API
 
-环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 您可以使用Workfront API移动这些对象，如本文所述。
+“环境升级”功能允许您将与配置相关的对象从一个环境移动到另一个环境。 您可以使用Workfront API移动这些对象，如本文所述。
 
 有关使用Workfront应用程序在环境之间移动对象的说明，请参阅：
 
@@ -29,7 +27,32 @@ ht-degree: 2%
 * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## 访问要求
+
+您必须具备以下条件：
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 计划</strong>
+   </td>
+   <td> 贵组织必须采用新的定价模式，并拥有Prime或Ultimate计划。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 许可证</strong>
+   </td>
+   <td> [！UICONTROL标准版]
+   </td>
+  </tr>
+   <tr>
+   <td>访问级别配置
+   </td>
+   <td>您必须是 [!DNL Workfront] 管理员。
+   </td>
+  </tr>
+</table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先决条件
 

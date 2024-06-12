@@ -8,20 +8,18 @@ description: 环境升级功能旨在提供与配置相关的对象从一个环�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # 在Workfront环境之间移动对象概述（环境升级）
 
-环境升级功能旨在提供将对象从一个Workfront环境移动到另一个环境的功能。 例如，您可以在沙盒环境中创建并配置模板，因为您知道任何测试都不会影响组织的实际数据。 配置和测试模板后，您可以将其移至生产环境，随时使用。
+利用环境升级功能，可将对象从一个Workfront环境移动到另一个环境。 例如，您可以在沙盒环境中创建并配置模板，因为您知道任何测试都不会影响组织的实际数据。 配置和测试模板后，您可以将其移至生产环境，随时使用。
 
 此过程称为“环境升级”。
 

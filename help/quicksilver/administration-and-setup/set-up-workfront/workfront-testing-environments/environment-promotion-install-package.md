@@ -8,13 +8,11 @@ description: 环境升级功能旨在提供与配置相关的对象从一个环�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -29,9 +27,36 @@ ht-degree: 0%
 >
 >如果在为环境升级配置对象时刷新了自定义刷新沙盒，则该配置将在刷新中丢失。 我们建议您不要刷新“自定义刷新沙盒”，除非所有未完成的环境升级对象和包都已成功升级。
 
+## 访问要求
+
+您必须具备以下条件：
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 计划</strong>
+   </td>
+   <td> 贵组织必须采用新的定价模式，并拥有Prime或Ultimate计划。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 许可证</strong>
+   </td>
+   <td> [！UICONTROL标准版]
+   </td>
+  </tr>
+   <tr>
+   <td>访问级别配置
+   </td>
+   <td>您必须是 [!DNL Workfront] 管理员。
+   </td>
+  </tr>
+</table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 先决条件
 
-必须先创建包，然后才能安装它。
+必须先创建环境升级包，然后才能安装它。
 
 有关说明，请参阅 [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
