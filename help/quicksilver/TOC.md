@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 1%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 1%
       * [OPTASK copyIssue的选项配置](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [在货币为null（未分配）时检索项目的货币信息](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [不支持使用API添加链接的文件夹](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [文档moveToFolder操作无效](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * 常规 {#general}
