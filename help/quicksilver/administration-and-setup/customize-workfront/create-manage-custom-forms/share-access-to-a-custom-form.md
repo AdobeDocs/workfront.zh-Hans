@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 共享自定义表单
-
-{{highlighted-preview}}
 
 您可以配置自定义表单的访问权限，以控制谁可以查看、共享和编辑该表单 — 人员、角色、组、团队、公司。
 
@@ -109,8 +107,6 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。
 
-<div class="preview">
-
 ## 从表单设计器共享自定义表单
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ ht-degree: 1%
    >如果您担心某个自定义表单，当该表单附加到某些对象时，用户可能会在该表单中输入敏感数据，因此限制了这些对象的共享 *对象* 与其限制对表单本身的访问，还不如这样做。
 
 1. 单击&#x200B;**保存**。
-
-</div>
 
 ## 从表单列表中删除对自定义表单的访问权限
 
