@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ ht-degree: 0%
 
 ## 冲突
 
-当作为安装软件包一部分的对象与目标环境中已存在的对象同名时，就会发生冲突。 发生这种情况时，可以选择如何解决冲突。 冲突将在对象级别上解决。
+冲突是在安装的目标环境中找到的对象，该对象与从源环境安装的某个对象相匹配。 通过比较源对象的名称和ID与目标环境中的对象来检测冲突。 还将源对象与先前安装的对象的记录进行比较，以检测冲突。
+
+发生冲突时，可以选择如何解决冲突。 冲突将在对象级别上解决。
 
 您可以通过单击每个对象类型旁边的下拉菜单来查看冲突。 冲突显示在“冲突”列中。
+
+>[!NOTE]
+>
+>检测到的冲突可能不是您要在安装中覆盖或使用的对象。 我们建议验证检测到的冲突，以确保安装目标正确。
 
 要解决冲突，请在“部署操作”列中选择操作，或者使用已显示的默认操作。
 
