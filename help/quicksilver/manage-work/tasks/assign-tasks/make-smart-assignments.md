@@ -6,9 +6,9 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ ht-degree: 0%
 
 1. 将光标置于任务字段中，并等待两秒钟。
 
-   <span class="preview">此 **建议的工作分配** 列表随即显示。</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   将显示以下一个或多个包含智能分配建议的部分：
 
-   >[!TIP]
-   >
-   >   此时将显示列表标题 **以下是一些建议** 而不是 **建议的工作分配** 在问题列表中。
+   * **建议的分配**：显示任务。
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   此时将显示列表标题 **以下是一些建议** 而不是 **建议的分配** 在生产环境中。
+     >
+   * **其他分配**：显示任务和问题。
+   * **用户和团队**：显示任务和问题。
+   * **职位角色**：显示任务和问题。
+   </div>
 
-   对于问题，智能分配建议显示在 **建议的分配** 区域。
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
 
    * **建议的分配**：在任务智能分配算法计算的第一阶段中识别的分配。 <span class="preview">此部分不适用于问题。</span>
-   * <span class="preview">**其他分配** (或 **用户和团队**，或 **职位角色**)：在任务智能分配算法计算的第二阶段中标识的分配。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**其他分配**， **用户和团队**，或 **职位角色**：在任务智能分配算法计算的第二阶段中识别的分配。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

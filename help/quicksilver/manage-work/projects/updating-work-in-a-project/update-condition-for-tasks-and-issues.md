@@ -6,16 +6,20 @@ description: 任务或问题的完成情况是指在任务或问题上放置一�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 任务和问题的更新条件
 
-{{highlighted-preview}}
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 任务或问题的完成情况是指在任务或问题上放置一个指示其运行方式的标志。 这与工作项的状态不同，后者指示项目开发的当前阶段。
 
@@ -136,7 +140,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 要在任务或问题详细信息部分中更新任务或问题的完成情况，请执行以下操作：
 
-   1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板中任务或问题的详情部分，请单击 **详细信息** 在左侧面板，然后单击 **条件** 字段并从以下选项中进行选择：
+   1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板中任务或问题的详情部分，请单击 **详细信息** ，然后单击 **任务完成情况** 或 **问题完成情况** 并从以下选项中进行选择：
       * 进展顺利
       * 一些问题
       * 主要障碍
