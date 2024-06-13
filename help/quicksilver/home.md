@@ -3,108 +3,100 @@ title: ’[!DNL Adobe Workfront] 文档
 description: 文档 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 02566b4ab08873fd45afb902ece3fedcecbaa9ee
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 2%
+source-wordcount: '335'
+ht-degree: 1%
 
 ---
 
 # [!DNL Workfront] 文档
 
-欢迎访问Adobe Workfront产品和技术文档主页。 Adobe Workfront是一款工作管理应用程序，帮助您在一个地方管理整个工作生命周期。
+欢迎访问Adobe Workfront产品和技术文档主页。 使用以下Adobe Workfront链接、帮助文章和其他资源，了解如何在组织中实施和有效使用Adobe Workfront。
 
-使用以下Adobe Workfront帮助文章和其他资源，了解如何在组织中实施和有效使用Adobe Workfront。
+## 新增功能
 
-以下部分将向您介绍本指南中的有用链接，这些链接按目标读者基于典型工作职能排列：
+>[!BEGINTABS]
 
-## 管理员
+>[!TAB 最新版本]
 
-### Workfront管理员入门
+* [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-开始了解Adobe Workfront管理。
+>[!TAB 2024版]
 
-请参阅 [Adobe Workfront管理快速入门](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
+* [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-### Adobe Workfront Fusion
+>[!TAB 贝塔斯]
 
-Workfront Fusion可将您的应用程序和Web服务无缝连接，以使您能够专注于新任务，而不是一次又一次地重复相同的任务。
+* [画布功能板概述](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Workfront与Frame.io集成](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
-请参阅 [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md).
+>[!TAB 已知问题]
 
-## 最终用户
-
-### 用户的基础知识
-
-掌握基础知识以开始使用Workfront。
-
-请参阅 [Adobe Workfront基础知识](/help/quicksilver/workfront-basics/workfront-basics.md).
-
-### 工作管理
-
-了解如何设置和使用Workfront强大的工作管理流程和工具。
-
-请参阅 [管理工作](/help/quicksilver/manage-work/manage-work.md)
+* [已知问题](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
-### Workfront中的Agile
+>[!ENDTABS]
 
-Workfront中的Agile功能使团队能够以一致的节奏完成少量可管理的工作量。
 
-请参阅 [Agile概述](/help/quicksilver/agile/agile-overview.md).
+## 浏览文档
 
-### 使用文档
+<table>
 
-通过将文档添加到工作流来增强您的体验。
+<tr tr style="border: 0;">
+    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 100px; height: 100px;"><p><b>管理员</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>用户</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>开发人员</b></p></td>
+  </tr>
+  <tr tr style="border: 0;">
+    <td>
+    <ul>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理快速入门</a></li>
+    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Workfront Fusion入门</li>
+    </ul>
+ </td>
+    <td>
+        <ul>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Workfront入门</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">开始管理工作</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">报告和仪表板入门</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">文本模式入门</a></li>
+        </ul>
+    </td>
+    <td><ul>
+        <li><a href="/help/quicksilver/agile/agile-overview.md">Agile入门</a></li>
+        <li><a href="/help/quicksilver/documents/documents-overview.md">文档入门</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">工作负载均衡器入门</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">开始审阅和批准</a></li>
+        </ul></td>
+    <td><ul>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API基础知识</a></li>
+        <li><a href="https://developer.adobe.com/workfront/api-explorer/">API 资源管理器</a></li>
+        <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront集成</a></li>
+        </ul></td>
+  </tr>
+</table>
 
-请参阅 [文档](/help/quicksilver/documents/documents-overview.md).
+## 在Experience League中查找内容的提示
 
-### 报告
+使用一些战略方法，可以更高效地搜索文档。 下面是一些帮助您有效找到所需内容的提示：
 
-要以易于阅读的格式显示现有信息并与所有利益相关者共享，请使用报告和仪表板。
+### 使用目录和搜索栏
 
-请参阅 [报告和仪表板：文章索引](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+* **目录**：从目录开始获取可用主题的概述，并按展开部分缩小到特定主题。
+* **搜索栏**：使用搜索栏查找文档。 输入与您的问题或主题相关的特定术语。 请使用“项目时间线设置”或“任务依赖关系”而不是“项目管理”等常规术语。
 
-#### 文本模式报告
+![](assets/exl-site-nav.png)
 
-如果您不知道如何在Workfront中创建所需的报告，则可能需要使用文本模式找到您所查找的解决方案。
+### 探索学习和培训部分
 
-请参阅 [文本模式资源：文章索引](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+* **培训材料**：导航到 [Workfront培训](https://experienceleague.adobe.com/en/browse/workfront) 页面，其中包含旨在帮助您更好地了解Workfront功能和设置的培训视频和文章。 您还可以通过以下网站获取付费培训材料： [learning.adobe.com](http://learning.adobe.com/).
+* **课程**：查找 [结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 该指南将指导您按逻辑顺序使用各种Workfront功能。
 
-### 工作负载均衡器
+### 在社区论坛中查找答案
 
-使用工作负载均衡器作为在Workfront中计划资源的替代方法。
-
-请参阅 [工作负载均衡器：文章索引](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
-
-### Adobe Workfront目标
-
-让您的战略与您的工作保持一致，以通过使用Adobe工作框架目标实现一致和成功。
-
-请参阅 [Adobe Workfront目标](/help/quicksilver/workfront-goals/workfront-goals.md).
-
-## 开发人员
-
-### API 基础知识
-
-了解Workfront API的基础知识。
-
-请参阅 [API基础知识](/help/quicksilver/wf-api/general/api-basics.md).
-
-### API 资源管理器
-
-您可以在API资源管理器中查看通过Adobe Workfront API提供的所有对象。
-
-请参阅 [developer.adobe.com上的Workfront API资源管理器](https://developer.adobe.com/workfront/api-explorer/).
-
-### Workfront集成
-
-通过将Workfront与其他系统集成，在一个位置访问所有应用程序。
-
-请参阅 [Adobe Workfront集成](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
-
-## Workfront发行信息
-
-了解有关Workfront新增功能的所有详细信息！
-
-请参阅 [Workfront产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+* **提出问题**：如果文档没有回答您的问题，请尝试在中发布 [Workfront社区论坛](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 其他用户和专家可以提供帮助的地方。
