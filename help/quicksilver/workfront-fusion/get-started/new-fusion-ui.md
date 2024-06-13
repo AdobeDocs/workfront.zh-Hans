@@ -7,9 +7,9 @@ description: Workfront Fusion已更新其UI，供不会通过Adobe Experience Cl
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->旧版Fusion体验将于2024年8月15日弃用。
+>* 旧版Fusion体验将于2024年8月15日弃用。
+>* 首次加载时，新的Fusion体验加载缓慢（30-60秒）。 首次加载后，Fusion将加载得更快。
 
 ## 访问要求
 
