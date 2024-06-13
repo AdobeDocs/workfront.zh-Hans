@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion映射面板中提供了以下字符串函数
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -56,121 +56,6 @@ ht-degree: 0%
 
 有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii(文本； [删除变音符号])]
-
-从文本字符串中删除所有非ascii字符。
-
->[!INFO]
->
->**示例：**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   返回： [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   返回： [!UICONTROL escrz]
-
-## [!UICONTROL base64（文本）]
-
-将文本转换为base64。
-
->[!INFO]
->
->**示例：**
->
->`base64( workfront )`
->
->返回：d29ya2Zyb250==
-
-## [!UICONTROL 大写（文本）]
-
-将文本字符串中的第一个字符转换为大写。
-
->[!INFO]
->
->**示例：**
->
->`capitalize( workfront )`
->
->返回： [!DNL Workfront]
-
-## 包含（文本；搜索字符串）
-
-验证文本是否包含搜索字符串。
-
->[!INFO]
->
->**示例：**
->
->* `contains( Hello World ; Hello )`
->
->   返回： [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   返回： [!UICONTROL false]
-
-## [!UICONTROL decodeURL（文本）]
-
-将URL中的特殊字符解码为文本。
-
->[!INFO]
->
->**示例：**
->`decodeURL( Automate%20your%20workflow )`
->
->返回： [!UICONTROL 自动化您的工作流]
-
-## [!UICONTROL encodeURL（文本）]
-
-将某些文本中的特殊字符编码为有效的URL地址。
-
-## [!UICONTROL escapeHTML（文本）]
-
-转义文本中的所有HTML标签。
-
->[!INFO]
->
->**示例：**
->
->`escapeHTML( <b>Hello</b> )`
->
-> 返回： `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(text)]
-
-转义文本中的所有Markdown标记。
-
->[!INFO]
->
->**示例：**
->
->`escapeMarkdown( # Header )`
->
->返回： `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-返回指定值在字符串中第一次出现的位置。 如果搜索的值不存在，则此方法将返回“–1”。 起始值表示搜索在字符串中的开始位置。
-
->[!INFO]
->
->**示例：**
->
->* `indexOf( Workfront ; o )`
->
->   返回： 1
->
->* `indexOf( Workfront ; x )`
->
->   返回： -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   返回：6
-
 ## [!UICONTROL 长度（文本或缓冲区）]
 
 返回文本字符串的长度（字符数）或二进制缓冲区的长度（缓冲区大小，以字节为单位）。
@@ -195,17 +80,46 @@ ht-degree: 0%
 >
 >返回： hello
 
-## [!UICONTROL md5（文本）]
+## [!UICONTROL 大写（文本）]
 
-计算字符串的md5哈希值。
+将文本字符串中的第一个字符转换为大写。
 
 >[!INFO]
 >
 >**示例：**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->返回： `1448bbbeaa7a9b8091d426999f1f666b`
+>返回： [!DNL Workfront]
+
+## [!UICONTROL startcase（文本）]
+
+每个单词的首字母使用大写，其他字母使用小写。
+
+>[!INFO]
+>
+>**示例：**
+>`startcase( hello WORLD )`
+>
+>返回： [!UICONTROL 《你好世界》]
+
+## [!UICONTROL ascii(文本； [删除变音符号])]
+
+从文本字符串中删除所有非ascii字符。
+
+>[!INFO]
+>
+>**示例：**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   返回： [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   返回： [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL 替换（文本；搜索字符串；替换字符串）]
 
@@ -251,6 +165,169 @@ ht-degree: 0%
 >不要使用指定的捕获组，例如 `/ is (?<number>\d+)/` 替换字符串参数中的。 这样做会导致错误。
 
 有关正则表达式的详细信息，请参阅 [文本分析器](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim（文本）]
+
+删除文本开头或结尾的空格字符。
+
+## [!UICONTROL upper（文本）]
+
+将文本字符串中的所有字母字符转换为大写。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`upper( Hello )`
+>
+>返回： [!UICONTROL 您好]
+
+## [!UICONTROL 子字符串（文本；开始；结束）]
+
+返回文本字符串在“开始”位置和“结束”位置之间的部分。
+
+>[!INFO]
+>
+>**示例：**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   返回：帮助
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   返回： el
+
+## [!DNL indexOf (string; value; [start])]
+
+返回指定值在字符串中第一次出现的位置。 如果搜索的值不存在，则此方法将返回“–1”。 起始值表示搜索在字符串中的开始位置。
+
+>[!INFO]
+>
+>**示例：**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   返回： 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   返回： -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   返回：6
+
+## [!UICONTROL toBinary（值）]
+
+将任意值转换为二进制数据。
+
+您还可以指定编码作为第二个参数，以将十六进制或base64的二进制转换应用于二进制数据。
+
+>[!INFO]
+>
+>**示例：**
+>
+>* `toBinary( Workfront )`
+>
+>   返回：57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   返回：57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString（值）]
+
+将任意值转换为字符串。
+
+## [!UICONTROL encodeURL（文本）]
+
+将某些文本中的特殊字符编码为有效的URL地址。
+
+## [!UICONTROL decodeURL（文本）]
+
+将URL中的特殊字符解码为文本。
+
+>[!INFO]
+>
+>**示例：**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>返回： [!UICONTROL 自动化您的工作流]
+
+## [!UICONTROL escapeHTML（文本）]
+
+转义文本中的所有HTML标签。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> 返回： `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(text)]
+
+转义文本中的所有Markdown标记。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`escapeMarkdown( # Header )`
+>
+>返回： `&#35; Header`
+
+## [!UICONTROL stripHTML（文本）]
+
+从文本中删除所有HTML标签。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>返回： Hello
+
+## 包含（文本；搜索字符串）
+
+验证文本是否包含搜索字符串。
+
+>[!INFO]
+>
+>**示例：**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   返回： [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   返回： [!UICONTROL false]
+
+## [!UICONTROL 拆分（文本；分隔符）]
+
+通过将字符串拆分为子字符串，将字符串拆分为字符串数组。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5（文本）]
+
+计算字符串的md5哈希值。
+
+>[!INFO]
+>
+>**示例：**
+>
+>`md5( Workfront )`
+>
+>返回： `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1(文本； [编码]； [键])]
 
@@ -302,89 +379,14 @@ ht-degree: 0%
 >
 >返回：789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL 拆分（文本；分隔符）]
+## [!UICONTROL base64（文本）]
 
-通过将字符串拆分为子字符串，将字符串拆分为字符串数组。
-
->[!INFO]
->
->**示例：**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase（文本）]
-
-每个单词的首字母使用大写，其他字母使用小写。
-
->[!INFO]
->
->**示例：**
->`startcase( hello WORLD )`
->
->返回： [!UICONTROL 《你好世界》]
-
-## [!UICONTROL stripHTML（文本）]
-
-从文本中删除所有HTML标签。
+将文本转换为base64。
 
 >[!INFO]
 >
 >**示例：**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->返回： Hello
-
-## [!UICONTROL 子字符串（文本；开始；结束）]
-
-返回文本字符串在“开始”位置和“结束”位置之间的部分。
-
->[!INFO]
->
->**示例：**
->
->* `substring( Hello ; 0 ; 3)`
->
->   返回：帮助
->
->* `substring( Hello ; 1 ; 3 )`
->
->   返回： el
-
-## [!UICONTROL toBinary（值）]
-
-将任意值转换为二进制数据。
-
-您还可以指定编码作为第二个参数，以将十六进制或base64的二进制转换应用于二进制数据。
-
->[!INFO]
->
->**示例：**
->
->* `toBinary( Workfront )`
->
->   返回：57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   返回：57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString（值）]
-
-将任意值转换为字符串。
-
-## [!UICONTROL trim（文本）]
-
-删除文本开头或结尾的空格字符。
-
-## [!UICONTROL upper（文本）]
-
-将文本字符串中的所有字母字符转换为大写。
-
->[!INFO]
->
->**示例：**
->
->`upper( Hello )`
->
->返回： [!UICONTROL 您好]
+>返回：d29ya2Zyb250==
