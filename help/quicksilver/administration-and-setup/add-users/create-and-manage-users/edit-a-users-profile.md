@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3298'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 作为Adobe Workfront管理员，您可以创建用户并管理现有用户的配置文件。 有关创建用户的信息，请参阅 [添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -63,8 +65,11 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
  </tbody> 
-</table> 
+</table>
+
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 编辑用户配置文件
 

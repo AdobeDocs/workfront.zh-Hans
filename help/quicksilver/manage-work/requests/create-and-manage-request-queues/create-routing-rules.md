@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 路由规则将问题发送给最适合解决已提交问题或请求的特定用户或工作角色。 路由规则通常与队列主题相关联，这些主题用于控制将哪个路由规则应用于问题或请求。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ ht-degree: 1%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 创建路由规则
 

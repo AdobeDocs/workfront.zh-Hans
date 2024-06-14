@@ -6,9 +6,9 @@ description: 您可以在外出时临时委派分配给您的工作。 本文介
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 有关委派工作的一般信息，请参阅 [委派工作概述](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 >[!IMPORTANT]
 >
@@ -79,6 +81,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>

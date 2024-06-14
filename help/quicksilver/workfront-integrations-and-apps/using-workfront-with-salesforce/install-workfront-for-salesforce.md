@@ -6,9 +6,9 @@ description: 在应用程序在中可用之前进行安装 [!DNL Salesforce] App
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: e823589247a2231e038142ae8d19f366769060e2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能使用本文中所述的功能：
 
 <table style="table-layout:auto"> 
@@ -47,6 +49,8 @@ ht-degree: 1%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 安装和使用的先决条件 [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

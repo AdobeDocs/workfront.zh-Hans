@@ -6,9 +6,9 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 有关创建和管理报告（包括课程、视频和教程）的更多信息，请参阅Adobe Experience League网站上的“了解”部分。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -57,6 +59,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 创建报告 {#create-a-report}
 

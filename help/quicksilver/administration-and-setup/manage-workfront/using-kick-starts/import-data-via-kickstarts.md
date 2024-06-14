@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2725'
+source-wordcount: '2736'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 本文按照适当的顺序概述了其中的每个过程。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -57,6 +59,8 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 限制
 
@@ -212,9 +216,9 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td> <p> 注释</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
-      <td>Portfolio</td> 
+      <td>项目组合</td> 
       <td>导出为Excel文件</td> 
-      <td> <p> Portfolio</p> <p>首选项 </p> </td> 
+      <td> <p> 项目组合</p> <p>首选项 </p> </td> 
      </tr> 
      <tr> 
       <td>项目</td> 

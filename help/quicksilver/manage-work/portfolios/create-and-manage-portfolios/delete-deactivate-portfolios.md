@@ -6,9 +6,9 @@ description: Portfolio是Adobe Workfront中的项目或项目群的集合。 如
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
 我们建议停用不再需要与未来项目关联的项目组合，而不是删除它，以保留有关当前与项目组合及其项目群关联的项目的历史信息。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -50,6 +52,8 @@ Portfolio是项目或项目群的集合 [!DNL Adobe Workfront]. 如果您发现�
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 删除和停用项目组合概述
 

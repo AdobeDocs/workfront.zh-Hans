@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '994'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 8%
 通过Kick-Starts导出数据还有助于了解与每个对象关联的字段、这些字段的编码方式以及这些字段的值在数据库中的格式设置。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -56,6 +58,8 @@ ht-degree: 8%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 使用快速启动导出数据的优缺点
 
@@ -255,7 +259,7 @@ ht-degree: 8%
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Portfolio</td> 
+      <td valign="top">项目组合</td> 
       <td valign="top"> Portfolio<br>偏好设置  </td> 
       <td valign="top">Excel</td> 
      </tr> 

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -46,6 +48,8 @@ Adobe管理员可以使用Adobe Admin Console创建Adobe Workfront系统管理�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 先决条件
 

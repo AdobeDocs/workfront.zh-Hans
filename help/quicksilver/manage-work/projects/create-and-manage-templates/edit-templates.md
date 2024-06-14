@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
+source-wordcount: '4721'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 您可以编辑项目模板以反映项目流程和设置中的更改。 在模板上更新并保存更改后，当使用该模板创建项目时，新更改将在新项目中可见。 您对模板所做的更改不会反映在当前使用该模板的项目中。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -57,6 +59,8 @@ ht-degree: 2%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 编辑模板 {#edit-a-template}
 
@@ -732,7 +736,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    有关绩效指数方法的详细信息，请参见 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a>. </p></td>
    </tr> 
          <tr> 
-         <td role="rowheader"><strong>计划收益</strong></td> 
+         <td role="rowheader"><strong>规划收益</strong></td> 
          <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio优化器。 </p><p>有关项目计划收益的更多信息，请参阅 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划收益概述</a>. 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化程序的详细信息，请参阅 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
        </tr> 
        <tr> 

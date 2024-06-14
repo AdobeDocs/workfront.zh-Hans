@@ -6,9 +6,9 @@ description: 您可以配置主页日历设置以与基于Web的Outlook版本集
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 本文介绍了如何配置主页日历设置以及如何将主页日历与外部Outlook日历集成。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -51,6 +53,8 @@ ht-degree: 1%
 </table>
 
 *要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 关于集成 [!DNL Microsoft Outlook] 日历
 

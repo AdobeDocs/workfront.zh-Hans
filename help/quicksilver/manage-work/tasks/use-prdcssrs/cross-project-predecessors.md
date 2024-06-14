@@ -6,9 +6,9 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 有关前置任务关系的详细信息，请参阅 [前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -64,6 +66,8 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 创建跨项目前置任务

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 6%
 >我们强烈建议您保持内置访问级别不变，以便在设置用户后可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 您可以对每个访问级别（系统管理员和外部用户除外）执行此操作。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -56,6 +58,8 @@ ht-degree: 6%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 创建或编辑自定义访问级别
 

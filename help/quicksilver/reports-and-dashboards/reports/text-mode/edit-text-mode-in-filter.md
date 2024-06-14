@@ -6,9 +6,9 @@ description: 您可以使用文本模式在列表或报告中编辑过滤器，�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 有关创建过滤器时的更多文本模式示例，另请参阅一节 [自定义筛选器的示例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 在文章中 [自定义视图、筛选器和分组示例：文章索引](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先决条件
 

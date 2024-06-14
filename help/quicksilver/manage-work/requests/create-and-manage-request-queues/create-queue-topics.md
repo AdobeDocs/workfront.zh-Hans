@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 可以分配给主题组或项目的队列主题的数量没有限制。 队列主题是可报告的对象类型。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--drafted - replace table with P&P:
 
@@ -81,6 +83,8 @@ ht-degree: 2%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 创建队列主题
 

@@ -6,9 +6,9 @@ description: 前置任务是指其他任务需要完成才能执行的任务。 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 如果前置任务被强制执行，则前置任务不能在前置任务完成之前开始。 例如，在任务A和任务B之间强制实施“完成 — 开始”关系意味着在任务A标记为完成之前，任务B无法开始（“状态”必须保持为“新”，“完成百分比”必须保持为0%）。 强制关系适用于所有前置任务类型。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -67,6 +69,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 在任务级别强制前置任务
 

@@ -7,9 +7,9 @@ description: 滞后是指在强制前置任务完成后，直到相关任务可�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 后续任务的计划、预计和预计日期的计算考虑到了前置任务的滞后时间和计划、预计和预计开始（完成）日期。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 指示任务的滞后和滞后类型
 

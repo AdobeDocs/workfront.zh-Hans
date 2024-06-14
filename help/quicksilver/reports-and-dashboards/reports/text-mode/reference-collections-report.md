@@ -6,9 +6,9 @@ description: 在报表中引用收藏集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 有关在Workfront中构建报表的更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 了解收藏集
 
@@ -102,7 +106,7 @@ Workfront中的对象之间存在以下两个关系：
 您可以在以下报表元素中引用收藏集中的对象：
 
 * 视图
-* 筛选器
+* 过滤器
 * 提示
 
 在以下报表元素中，不能引用收藏集中的对象：
@@ -419,7 +423,7 @@ Workfront中的对象之间存在以下两个关系：
 
    >[!NOTE]
    >
-   请注意，您必须使用 **问题** 收藏集对象名称的。 API Explorer目前没有为问题提供收藏集对象名称。
+   >请注意，您必须使用 **问题** 收藏集对象名称的。 API Explorer目前没有为问题提供收藏集对象名称。
 
 1. 单击 **完成**.
 1. （可选）继续编辑报表。

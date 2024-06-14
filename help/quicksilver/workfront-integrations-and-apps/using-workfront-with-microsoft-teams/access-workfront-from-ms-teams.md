@@ -6,9 +6,9 @@ description: 您可以访问 [!DNL Adobe Workfront] 从 [!DNL Microsoft Teams] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ ht-degree: 1%
 *要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
 *有关Workfront访问要求的更多信息，请参阅 [Workfront文档中的访问要求概述](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先决条件
 

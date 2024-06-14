@@ -7,9 +7,9 @@ description: 了解如何计算时间和日期差异。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 0%
 >这些计算显示了两个日期之间的天数。 结果以天为单位显示。 日期字段上的时间戳也会考虑在内，如果时间戳不匹配，天数可能会后跟小数。 如果任务延迟完成，则天数显示为负值。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -61,6 +63,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 计算同一对象中两个日期字段之间的时间和日期差异
 

@@ -6,9 +6,9 @@ description: 您可以将外部网页嵌入到功能板中，以提供对Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -79,6 +81,8 @@ ht-degree: 0%
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先决条件
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 2%
 >在包含大量自定义字段或在自定义字段中包含大量多选选项的自定义表单中，用户在添加或更改这些字段中的值时可能会遇到性能变慢的问题。 例如，包含100个自定义字段或具有超过200个选项的多选自定义字段的表单，在用户与其交互时速度可能会较慢。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -56,6 +58,8 @@ ht-degree: 2%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 将自定义字段添加到自定义表单 {#add-custom-field-to-custom-form}
 

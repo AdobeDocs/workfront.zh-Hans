@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 1%
 * 通过将任务从一个项目移动到另一个项目。 有关信息，请参阅 [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +59,8 @@ ht-degree: 1%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 在项目中创建任务
 

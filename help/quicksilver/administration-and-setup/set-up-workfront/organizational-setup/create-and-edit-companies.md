@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 公司是中的组织实体 [!DNL Adobe Workfront] 可以代表您的组织、组织内的部门或与您合作的客户。 您可以将公司添加到 [!DNL Workfront] 并将它们用于财务规划、报告、定义对象相关权限以及保密信息。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 要管理中的公司，您必须具备以下条件 [!DNL Workfront]：
 
@@ -62,6 +64,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有哪些计划、许可证类型或访问级别配置，请联系贵机构的 [!DNL Workfront] 管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 将用户添加到公司的好处 {#benefits-of-adding-users-to-a-company}
 

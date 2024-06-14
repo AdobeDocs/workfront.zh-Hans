@@ -7,10 +7,10 @@ description: 工作流是一组可配置的展示板和卡片，用于协作处�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 2%
 工作流，以及您有权访问的不属于工作流的各个展示板都会显示在仪表板上。 有关展示板仪表板的信息，请参阅 [使用展示板功能板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 您可以单击仪表板上的任何电路板名称来将其打开。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,6 +49,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
++++
+
 ## 创建工作流
 
 {{step1-to-boards}}
@@ -66,7 +70,7 @@ ht-degree: 2%
 |---------|----------|
 | 基本展示板 | 主板上有三个默认列。 您可以添加新列，并重命名或删除默认列。 <p>不应用任何列策略。 |
 | Kanban 展示板 | 以下列显示在展示板上：积压、新增、进行中、完成和搁置。 您可以添加新列，并重命名或删除默认列。<p>要使用积压，必须为引入列设置过滤器。 有关信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>要查看每列的默认策略，请单击 [!UICONTROL **更多** 菜单] 在列上并选择 [!UICONTROL **编辑**]. 您可以更改这些预设策略中的任何一个。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| 回顾展示板 | 讨论区上提供了以下各列：哪些方面进展顺利？ 有什么可以改进的? 我们应该为谁庆祝? 我们可以做些什么来加快步伐？? 您可以添加新列，并重命名或删除默认列。 <p>不应用任何列策略。 |
+| 回顾展示板 | 讨论区上提供了以下各列：哪些方面进展顺利？ 可以改进什么？ 我们应该为谁庆祝？ 我们可以做些什么来加快步伐？ 您可以添加新列，并重命名或删除默认列。 <p>不应用任何列策略。 |
 | 迭代过程 | 这是用于定义和运行迭代的展示板。 <p>以下列显示在展示板上：积压、新增、进行中、完成和搁置。 不能向展示板添加任何列。 <p>要查看每列的默认策略，请单击 [!UICONTROL **更多**] 列的菜单并选择 [!UICONTROL **编辑**]. 您可以更改这些预设策略中的任何一个。 有关信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 有关设置讨论区的详细信息，请参阅 [创建或编辑展示板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).

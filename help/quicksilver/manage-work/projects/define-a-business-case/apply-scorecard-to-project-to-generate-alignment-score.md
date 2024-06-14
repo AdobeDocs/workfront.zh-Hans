@@ -5,9 +5,9 @@ description: 您可以使用记分卡衡量项目与项目组合中先前建立�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 有关记分卡以及如何创建记分卡的更多信息，请参阅 [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 项目记分卡 {#project-scorecards}
 

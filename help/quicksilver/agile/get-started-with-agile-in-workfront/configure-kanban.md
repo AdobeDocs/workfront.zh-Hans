@@ -6,14 +6,16 @@ description: 您在中创建了Kanban或Scrum敏捷团队 [!DNL Adobe Workfront]
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
 
 # 配置 [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 您可以在中创建Agile团队 [!DNL Adobe Workfront] 如中所述 [创建Agile团队](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-<!--Audited: 12/2023-->
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -64,6 +66,8 @@ ht-degree: 0%
 </table>
 
 *要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+
++++
 
 ## 配置故事的估计单位为点还是小时
 

@@ -6,9 +6,9 @@ description: 您可以在将文档上传到Workfront时为其生成验证。 您
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ If a proof fails to generate after following the steps described in the followin
 -->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,7 +48,7 @@ If a proof fails to generate after following the steps described in the followin
    <p>当前：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
@@ -57,6 +59,8 @@ If a proof fails to generate after following the steps described in the followin
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 上传文档并创建验证
 

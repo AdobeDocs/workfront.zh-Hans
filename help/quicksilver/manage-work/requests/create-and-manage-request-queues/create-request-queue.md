@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 2%
 本文介绍了如何创建请求队列，以便用户提交请求。 有关如何向请求队列提交新请求的信息，请参阅 [复制并提交请求](../create-requests/copy-and-submit-requests.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员
+&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 
 <!--old access levels: 

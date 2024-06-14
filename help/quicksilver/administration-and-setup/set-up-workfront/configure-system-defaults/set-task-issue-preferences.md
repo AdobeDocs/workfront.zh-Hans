@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Linked to Converting Issues.-->
 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -54,6 +56,8 @@ Linked to Converting Issues.-->
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 为中的每个人配置任务和问题首选项 [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">处理此项工作</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL 访问]](#access)
 
@@ -114,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 将问题转化为任务时]</td> 
+    <td role="rowheader" [!UICONTROL>将问题转化为任务时]</td> 
     <td> <p>此部分中的设置确定在从问题到任务的转换过程中发生的情况：</p> 
       <ul> 
       <li> <p><strong>[！UICONTROL保留原来的问题，并将其解决方案与任务绑定]</strong>：在转换问题时，在任务完成之前，它始终作为问题可见。 任务完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。</p> <p><b>注意</b>：  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 

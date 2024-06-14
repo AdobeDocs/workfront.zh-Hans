@@ -6,9 +6,9 @@ description: 在与Adobe Workfront中的其他用户共享报表时，请考虑�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 2%
 您在报告视图中所做的更改仅在报告的详细信息选项卡中生效。 这些更改不会影响报告的“摘要”、“矩阵”或“图表”选项卡。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -70,6 +72,8 @@ ht-degree: 2%
 </table>
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 先决条件
 

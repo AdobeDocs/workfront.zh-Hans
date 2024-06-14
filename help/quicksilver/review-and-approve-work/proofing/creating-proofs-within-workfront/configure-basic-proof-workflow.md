@@ -6,9 +6,9 @@ description: 使用基本工作流，您可以让多个审阅人查看验证，�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 使用基本工作流，您可以让多个审阅人查看验证，但他们不会归为多个阶段。 您添加的所有审阅人可以在您创建验证后立即访问该验证。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -41,7 +43,7 @@ ht-degree: 1%
     <p>当前：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
@@ -52,6 +54,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 使用基本工作流创建高级验证
 
@@ -220,7 +224,7 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">通过标记共享证明</td> 
+      <td role="rowheader">通过标记共享校样</td> 
       <td> <p>允许查看者将任何Workfront用户添加到验证中，如中所述 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">标记要共享验证的用户</a>.</p> <p>注意：  <p>如果这两个选项不可用（灰显），则用户已有权限配置文件，该配置文件允许解析注释、将操作应用于注释以及标记任何用户。 </p> <p>如果选项未显示，则您添加的人不是Workfront许可证所有者。</p> </p> </td> 
      </tr> 
     </tbody> 

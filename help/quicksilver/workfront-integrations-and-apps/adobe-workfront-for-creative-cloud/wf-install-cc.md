@@ -6,9 +6,9 @@ description: 您可以安装 [!DNL Adobe Workfront for design and video] 从Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+
++++
 
 ## 先决条件
 
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 您可以安装 [!DNL Adobe Workfront for design and video] 您自己从 [!DNL Adobe Exchange].
 
-1. 转到 [Adobe Workfront for Design and Video安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) 在Adobe交换上。
+1. 转到 [Adobe Workfront for Design and Video安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) 在Adobe Exchange上。
 1. 在显示的对话框中，单击 **打开 [!DNL Adobe Creative Cloud] 桌面应用程序**.
 1. 一次 [!DNL Adobe Creative Cloud] 插件管理器打开，单击 **[!UICONTROL 安装]**.
 1. 读取对话框中的信息，然后单击 **[!UICONTROL 确定]**.
@@ -111,7 +115,7 @@ ht-degree: 1%
 ## 登录 [!DNL Adobe Workfront for design and video]
 
 1. 从 **[!UICONTROL 插件]** 菜单，选择 **[!UICONTROL 插件面板]**.
-1. 选择 **[!DNL Adobe Workfront for design and video]**.
+1. 选择 **[!DNL Adobe Workfront for design and video]**。
 1. 输入域，然后单击 **[!UICONTROL 登录]**. 此时将打开一个浏览器页面。
 
    >[!TIP]

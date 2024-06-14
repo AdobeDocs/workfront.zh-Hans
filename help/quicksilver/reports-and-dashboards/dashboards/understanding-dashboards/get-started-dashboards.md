@@ -7,9 +7,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以在
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 功能板的用途是提供对来自多个报表信息的快速访问。 首先，您可以收集报告中的信息，然后将多个报告放在功能板上，以便更轻松地访问信息。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -51,6 +53,8 @@ ht-degree: 0%
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 可添加到功能板的对象
 
 您可以在Adobe Workfront中使用以下项目填充功能板：
@@ -58,7 +62,7 @@ ht-degree: 0%
 * 报告\
   有关创建报告的详细信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* 日历\
+* 日程表\
   有关创建日历的详细信息，请参见 [日历报表概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * 外部页面\

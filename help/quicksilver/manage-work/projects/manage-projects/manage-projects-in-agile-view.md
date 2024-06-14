@@ -6,9 +6,9 @@ description: 您可以利用项目的Agile功能，而无需Agile实践通常伴
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 如果要在使用团队积压工作的Agile环境中工作，并允许您从积压工作上的任务创建迭代，请按照 [在敏捷环境中工作](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 了解Agile项目
 

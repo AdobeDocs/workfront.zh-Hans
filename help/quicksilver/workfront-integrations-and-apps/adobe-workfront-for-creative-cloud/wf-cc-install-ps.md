@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装适用于Photoshop的Adobe Workfront�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 1%
 * 朝鲜语
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -51,7 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+
++++
 
 ## 先决条件
 
@@ -69,7 +73,7 @@ ht-degree: 1%
 
 您可以安装 [!DNL Adobe Workfront for Photoshop] 插件 [!DNL Adobe Exchange].
 
-1. 转到 [适用于Photoshop的Adobe Workfront安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) 在Adobe交换上。
+1. 转到 [适用于Photoshop的Adobe Workfront安装页面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) 在Adobe Exchange上。
 1. 在显示的对话框中，单击 **打开 [!DNL Adobe Creative Cloud] 桌面应用程序**.
 1. 一次 [!DNL Adobe Photoshop] 插件管理器打开，单击 **[!UICONTROL 安装]**.
 1. 读取对话框中的信息，然后单击 **[!UICONTROL 确定]**.
@@ -97,7 +101,7 @@ ht-degree: 1%
 ## 登录 [!DNL Adobe Workfront for Photoshop]
 
 1. 从 **[!UICONTROL 插件]** 菜单，选择 **[!UICONTROL 插件面板]**.
-1. 选择 **[!DNL Adobe Workfront for Photoshop]**.
+1. 选择 **[!DNL Adobe Workfront for Photoshop]**。
 1. 输入域，然后单击 **[!UICONTROL 登录]**. 此时将打开一个浏览器页面。 您可能需要授予Photoshop权限才能打开浏览器。
 
    >[!TIP]

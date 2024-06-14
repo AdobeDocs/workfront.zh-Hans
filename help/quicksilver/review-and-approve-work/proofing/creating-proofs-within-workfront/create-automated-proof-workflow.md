@@ -6,9 +6,9 @@ description: 如果您的流程比较复杂，或者您定期将内容发送给�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 如果您的流程比较复杂，或者您定期将内容发送给同一人进行审阅，则使用自动工作流可以更轻松地管理审阅流程。 验证从一个阶段转移到另一个阶段，当每个用户需要审核时，Adobe Workfront会通知他们。 有关自动化工作流的详细信息，请参阅 [自动化工作流概述](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -36,7 +38,7 @@ ht-degree: 0%
    <td> <p>新增：标准</p><p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 使用自动化工作流创建高级验证
 

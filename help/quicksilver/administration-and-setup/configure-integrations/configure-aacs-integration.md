@@ -6,9 +6,9 @@ description: 您可以将工作与您的内容关联到 [!DNL Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 >您还可以连接多个 [!DNL Experience Manager Assets] 将存储库合并到一个 [!UICONTROL Workfront] 环境或多个 [!DNL Workfront] 环境到一个 [!DNL Experience Manager Assets] 跨组织ID的存储库 对于要设置的每个集成，请按照本文中的配置说明进行操作。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -74,6 +76,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 先决条件

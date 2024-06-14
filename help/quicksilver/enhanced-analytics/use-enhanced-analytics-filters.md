@@ -6,9 +6,9 @@ description: Adobe Workfront的“增强分析”区域中的过滤器可帮助�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 您可以根据需要添加和删除筛选器，Workfront会保留您应用的筛选器，即使您注销也是如此。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -60,6 +62,8 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 先决条件
 

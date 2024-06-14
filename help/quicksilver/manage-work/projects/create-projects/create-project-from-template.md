@@ -6,9 +6,9 @@ description: 您可以将模板用作在Adobe Workfront中创建项目的框架�
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
 * 从组区域的模板创建项目
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--drafted for P&P:
 
@@ -102,6 +104,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 在项目区域的模板中创建项目
 

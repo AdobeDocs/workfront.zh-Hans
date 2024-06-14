@@ -7,9 +7,9 @@ description: 从Workfront Proof生成的电子邮件通知会通知协作者最�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 电子邮件通知会通知协作者最近有关验证的活动，例如评论、回复或决策。
 
 您可以在以下区域为审阅人设置电子邮件通知：
-
-## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">产品</td> 
-   <td>Workfront校对独立</td> 
-  </tr> 
-</table>
 
 可以在新验证页面上设置查看者的电子邮件通知， [!UICONTROL 新版本] 页面，并在中管理 [!UICONTROL 工作流] 的部分 [!UICONTROL 校对详细信息] 页面。 有关更多信息，请参阅 [在中生成验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ ht-degree: 0%
 
 有关用户档案的信息，请参阅 [中的验证权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [在个人设置中配置验证默认值([!DNL Workfront Proof] 仅限用户)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [更改收件人的电子邮件警报](#change-email-alerts-for-a-recipient)
-* [为用户配置校对默认值](#configure-proof-defaults-for-a-user)
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">产品</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## 在个人设置中配置验证默认值([!DNL Workfront Proof] 仅限用户)
 

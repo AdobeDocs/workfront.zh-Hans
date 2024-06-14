@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2174'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ ht-degree: 1%
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 为工作项创建系统级或组级全局审批流程
 
@@ -101,7 +105,7 @@ ht-degree: 1%
       <td><p>键入审批流程的描述。 这显示在 <b>审批</b> 中的部分 <b>设置</b> 批准流程名称旁边的区域。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">活动</td> 
+      <td role="rowheader">为活动</td> 
       <td> <p>如果您希望其他用户能够将审批流程附加到他们创建的项目、任务和问题，请保持启用此选项。 </p> <p>此选项默认处于启用状态。</p> <p> 提示：当您的组织不再需要使用审批流程，但希望保留有关其使用的历史信息时，将审批流程标记为不活动会很有用。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

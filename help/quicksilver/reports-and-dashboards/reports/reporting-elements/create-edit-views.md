@@ -6,9 +6,9 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 本文介绍了如何创建和编辑列表和报告标准视图，以及如何创建Agile视图。 有关更多信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,6 +49,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 创建或自定义视图
 
@@ -80,7 +84,7 @@ ht-degree: 1%
         对于数字和币种字段，您可以按以下选项汇总值：
 
          * 计数
-         * Sum
+         * 总和
          * 平均
          * 最大
          * 最小

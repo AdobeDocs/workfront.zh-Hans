@@ -6,9 +6,9 @@ description: 基线是项目快照，表示初始项目计划中包含的关键�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 您可以使用基准线将那些信息段从当前计划与原始计划或任何其他时间点进行比较，以确定问题任务、范围变动和其他随时间变化的趋势。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ drafted for P&P:
 </table>
 
 有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 使用基线的注意事项
 
