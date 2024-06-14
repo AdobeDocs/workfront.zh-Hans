@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ ht-degree: 0%
 
 以前，对象需要在生产环境中与沙盒或预览环境分开配置。
 
-在24.6版本中启动环境升级后，将提供有关环境升级的更多信息和说明。
+有关环境升级的详细信息，请参阅 [在Workfront环境之间移动对象概述（环境升级）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>环境升级仅适用于拥有新Prime或Ultimate计划的组织。
+>
 
 ## 在自定义表单设计器中共享自定义表单和自定义字段
 
 >[!NOTE]
 >
->预览版本： 2024年6月6日；面向所有客户的生产版本：待定
+>预览版本： 2024年6月6日；适用于所有客户的生产版本： 6月13日
 
 现在，您可以在新的表单设计器中共享自定义表单和自定义字段。 这样可让用户在自定义表单上更好地协作。
 

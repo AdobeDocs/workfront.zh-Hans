@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2024年第三季度版本中包含的功能信息。 这些增强功能计划本季度在“生产”环境中提供。
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+24.7版本网络研讨会将于2024年6月27日举行。 您可以 [在此处登记网络研讨会](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">周期外功能（在2024年第三季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
@@ -59,6 +59,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">通过环境升级，在Workfront环境之间移动对象</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>环境升级允许您将对象从一个Workfront环境移动到另一个环境，例如从沙盒环境移动到生产环境。 您可以配置和测试对象，而不会对组织的数据和记录造成任何风险。 然后，您可以将这些对象移动到生产环境，而无需重新配置它们，从而节省时间和精力。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -72,7 +73,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在自定义表单设计器中共享自定义表单和自定义字段</a></p>
-                        [！BADGE New in Preview ]{type=Negative}
+                        [！BADGE In Production ]{type=Informational}
                         <p>现在，您可以在新的表单设计器中共享自定义表单和自定义字段。 这样可让用户在自定义表单上更好地协作。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -81,7 +82,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：待定</p>
+                                <p><span class="preview">适用于所有客户的生产版本：6月13日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">从字段区域添加新的自定义字段</a></p>
-                        [！BADGE New in Preview ]{type=Negative}
                         <p>您现在可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。 这允许您快速创建可重用的自定义字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -142,7 +142,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">可用于项目和任务的可记帐和不可记帐费用字段</a></p>
-                        <p>[！BADGE In Production ]{type=Informational}</p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>为了帮助您更轻松地查看费用类型，在项目和任务中将费用分为可记帐和不可记帐费用。 以下字段可供您添加到视图和报告中：</p>
                         <ul>
                             <li><p>规划可记帐费用成本</p></li>
@@ -184,7 +184,8 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在标题或详细信息部分中编辑任务和问题提交日期和条件</a></p>
-                        <p>为了让您更轻松地更新任务和问题，我们现在添加了提交日期和条件字段作为选项，以添加到布局模板中的任务和问题标题和详细信息部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。   </p>
+                        [！BADGE In Production for Fast Release ]{type=Positive}
+                        <p>为了让您更轻松地更新任务和问题，我们现在添加了提交日期和条件字段作为选项，以添加到布局模板中的任务和问题标题和详细信息部分。 当这些字段被分配给修改后的布局模板时，用户现在可以从页面的标题或详细信息部分更新这些字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -262,7 +263,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">空闲时间现在反映在工作负载均衡器中</a></p>
-                        [！BADGE New in Preview ]{type=Negative}
                         <p>为了在任务的主要被分配人已计划休息时间时无缝地调整工作，工作负载均衡器现在在重新计算项目时间表时重新分配小时数给主要用户和次要用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -298,7 +298,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe统一体验现在可供更多Workfront组织使用</a></p>
-                        [！BADGE New in Preview ]{type=Negative}
                         <p>为了允许组织访问AdobeUnified Experience的优势，我们已经开始将其提供给现有的Workfront客户。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -316,7 +315,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">帮助按钮已从主导航栏中移除</a></p>
-                        [！BADGE New in Preview ]{type=Negative}
                         <p>为了统一不在Unified Shell上的用户的体验，已删除主导航栏上的“帮助”按钮。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -333,7 +331,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改进了对象访问权限有限的用户的UI体验</a></p>
-                        <p>[！BADGE In Production for Fast Release ]{type=Positive}</p>
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>当用户无权访问对象时，该对象名称在Workfront中显示的任意位置用户都将看到“无权访问”。 这种改进的体验还适用于Workfront API。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
