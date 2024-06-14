@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
 
 # 分配问题
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
@@ -130,7 +132,7 @@ ht-degree: 0%
      <span class="preview">“预览”环境中的示例图像：</span>
      <span class="preview">![任务搜索](assets/smart-assignments-issue-header.png)</span>
 
-   * （视情况而定）单击 **建议的工作分配** 列表
+   * （视情况而定）单击可用列表中的名称、角色或团队之一
    * 单击 **分配给我** 以将其分配给您自己
    * 单击 **高级**.
 
@@ -143,6 +145,10 @@ ht-degree: 0%
      >用户必须与至少一个工作角色关联，才能在添加时查看工作角色。
      >
      >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. 单击 **保存** 以完成问题分配。

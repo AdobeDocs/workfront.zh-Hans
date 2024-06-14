@@ -7,14 +7,16 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # 智能分配概述
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
@@ -132,7 +134,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅部分 [任务和问题的智能分配标准](#smart-assignments-criteria-for-tasks-and-issues) 本文章中。
 
-此阶段中确定的分配将列在   **其他分配**， **用户和团队**，或 **工作角色分配**  任务的“工作总揽”字段的部分。
+此阶段中确定的分配将列在 **用户和团队**， **工作角色分配**、和 **对信息卡角色进行评级**  区段。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任务和问题的智能分配标准
 

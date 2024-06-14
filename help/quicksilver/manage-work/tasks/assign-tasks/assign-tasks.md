@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 1%
 
 ---
 
 # 分配任务
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
@@ -51,6 +53,8 @@ ht-degree: 1%
 * [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ ht-degree: 1%
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 向工作角色、团队和用户进行多个分配的注意事项
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 从“工作角色”列表中选择一个角色，以使用分配的默认开单费率，或从费率卡中选择一个费率卡工作角色，以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * （视情况而定）单击 **建议的分配** 列表（如果显示此列表）。 有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * （视情况而定）单击 <span class="preview">**建议的分配**， **用户和团队**，或 **职位角色**，或 **对信息卡角色进行评级**</span> 列出其显示时间。 有关更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     您可以开始键入要分配给任务的任何用户、团队或工作角色的名称，然后当该名称显示在列表中时将其选定。
 
    * 单击 **高级**
 

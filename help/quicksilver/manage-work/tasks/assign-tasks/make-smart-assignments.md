@@ -6,14 +6,16 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # 进行智能分配
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 智能分配是指Adobe Workfront在将工作项分配给资源时向您显示的用户、角色或团队的建议。 Workfront的建议基于确定最适合作业的资源的算法。
 
-<span class="preview">Workfront中有两种单独的算法用于处理任务和问题。 </span>
+<span class="preview">Workfront中有两个单独的算法可计算在任务和问题上工作方式不同的智能分配。 </span>
 
 有关确定智能分配时使用的标准的更多信息，请参阅 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ ht-degree: 0%
    * “主页”区域中列出的项目的“工作总揽”字段
    * 工作负载均衡器中的任务或问题
 
-1. 将光标置于任务字段中，并等待两秒钟。
+1. 将光标置于Assignments字段中，并等待两秒钟。
 
    <div class="preview">
    将显示以下一个或多个包含智能分配建议的部分：
 
-   * **建议的分配**：显示任务。
+   * **建议的分配**：显示任务。 <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   此时将显示列表标题 **以下是一些建议** 而不是 **建议的分配** 在生产环境中。
      >
-   * **其他分配**：显示任务和问题。
    * **用户和团队**：显示任务和问题。
    * **职位角色**：显示任务和问题。
+   * **对信息卡职位角色评级**：显示任务。 有关更多信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ ht-degree: 0%
    对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
 
    * **建议的分配**：在任务智能分配算法计算的第一阶段中识别的分配。 <span class="preview">此部分不适用于问题。</span>
-   * <span class="preview">**其他分配**， **用户和团队**，或 **职位角色**：在任务智能分配算法计算的第二阶段中识别的分配。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**用户和团队**， **职位角色**，或 **对信息卡职位角色评级**：在任务智能分配算法计算的第二阶段中识别的分配。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
