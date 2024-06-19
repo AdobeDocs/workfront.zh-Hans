@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ author: Alina
 
      例如，如果将“Campaign”记录类型与“Product”记录类型连接，则将在“Campaign”记录类型上创建名为“链接的产品”的链接记录字段，并在“Product”记录类型上创建自动名为“Campaign”的链接记录类型。
 
-   * **将记录类型与另一个应用程序的对象类型连接时**：在您连接的记录类型上创建链接记录字段。 不会在其他应用程序的对象类型上自动创建链接记录字段。
+   * **将记录类型与另一个应用程序的对象类型连接时**：
 
-     仅当实际对象连接到Workfront Planning记录时，才会为另一个应用程序的对象创建新的Workfront Planning只读记录类型。
+      * 链接记录字段是在您连接的记录类型上创建的。 不会在其他应用程序的对象类型上自动创建链接记录字段。
 
-     有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+      * 仅当实际对象连接到Workfront Planning记录时，才会为另一个应用程序的对象创建新的Workfront Planning只读记录类型。
+
+        有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+
+      * 无法从Workfront访问Planning记录或其字段。
+      * 当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Workfront Planning记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
 
@@ -167,7 +172,8 @@ author: Alina
 
 * 链接的记录字段前面有关系图标 ![](assets/relationship-field-icon.png).
 
-  链接的字段前面有标识该字段类型的图标。 例如，指示字段是数字、段落或日期的图标。
+  链接的字段前面有标识该字段类型的图标。 例如，链接（或查找）字段前面有图标，指示字段是数字、段落或日期。
+
 
 ## 连接记录类型
 
@@ -220,7 +226,7 @@ author: Alina
      >    * 人员
      >    * 创建者
      >    * 上次修改者
-     >    * Workfront预输入字段
+     >    * Workfront预输入字段（包括项目所有者或项目发起人等字段）
 
 1. （视情况而定，可选）如果您已选择连接Workfront对象，请选择 **自定义表单** 从 **仅链接符合这些条件的对象** 部分。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
 
@@ -235,6 +241,21 @@ author: Alina
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. 单击 **创建**.
 
@@ -258,6 +279,11 @@ author: Alina
 1. （可选）单击 **跳过** 并且不要从链接的记录或对象添加任何字段。 此 **名称** 在原始记录的表格视图中，链接记录的字段是唯一可见的字段。
 
 1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择聚合器值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或聚合的值。
+
+   >[!IMPORTANT]
+   >
+   >    如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加日期字段时必须选择一个聚合器值。
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

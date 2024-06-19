@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -58,9 +58,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>当前：工作或更高</p>
+   <p>新增：标准</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>为工作区提供或更高权限 </p>  
+   <td> <p>管理工作区的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 有关记录页封面图像的注意事项
 
 您可以通过向记录页添加封面图像对其进行个性化设置。
@@ -94,7 +97,8 @@ ht-degree: 0%
 * 只能添加图像文件作为封面图像。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 您可以从任何视图的记录预览或记录页面将封面图像添加到单个记录。
-* 不能从任何记录视图内联添加封面图像。
+* 无法从记录视图添加封面图像。
+* 每次创建记录时，Workfront都会自动上传封面图像。 您可以稍后修改此图像。
 
 ## 将封面图像添加到记录
 
@@ -114,19 +118,15 @@ ht-degree: 0%
 
    此时将打开记录类型页面。
 
-1. 从任何类型的视图中，单击记录的名称
+1. 从任何类型的视图中，单击记录
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 在第一列中。
 
    记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
 1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录预览的右上角，在新选项卡中打开记录页面。
 
@@ -134,10 +134,25 @@ ht-degree: 0%
 
    ![](assets/details-page.png)
 
-1. 在记录预览或页面中，单击 **添加封面**. <!--check the casing here; I logged a bug for this-->
-此 **记录封面** 框打开。
+1. 在记录预览或页面中，单击 **添加封面**
 
-1. 单击 **选择以上传** 并浏览计算机上的图片，以选择、添加图片，然后单击 **使用图像**.
+
+   或
+
+   将鼠标悬停在现有封面图像上，单击 **更多** 菜单 ![](assets/more-menu.png) ，然后单击 **上传**. <!--check the casing here; I logged a bug for this-->
+此 **记录封面** 框在 **上传** 选项卡。
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. 单击 **浏览图像** 并浏览计算机上的图片，以将其选中并添加。
+
+1. （可选）要在保存图像之前删除图像，请单击 **上传新图像** 图标 ![](assets/upload-new-image-icon.png) ，并上传新图像。
+
+1. （可选）单击 **图库** 选项卡，然后单击图像库中的图像。 无法修改图像库。
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. 单击 **使用图像**.
 
    图像会上载到记录预览或页面顶部，并且更改会自动保存。
 

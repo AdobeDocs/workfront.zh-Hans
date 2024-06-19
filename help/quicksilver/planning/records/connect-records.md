@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,8 @@ hide: yes
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理工作区权限以连接记录 </p>  
-   <p>查看工作区或更高权限以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <p>查看工作区或更高权限，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
    <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ hide: yes
 
 * 连接记录类型后，连接的记录类型在从中链接的记录类型表格中以及在记录页面上显示为链接记录字段。
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
-* 您可以将链接记录类型的字段添加到要链接的记录类型的表中。
-* 您无法手动更新正在链接的记录中链接字段的值。
+* 您可以在要链接的记录类型的表中添加链接记录类型的字段（查找字段）。
 
-  链接记录的链接字段的值会自动从原始记录或对象中填充您正在链接的Workfront Planning记录。
+  您可以在要链接的记录类型的表格中添加要链接的记录类型的字段（查找字段）。
+
+  例如，如果从“促销活动”记录类型链接产品记录类型，则可以显示促销活动的产品字段以及产品的促销活动字段。
+* 您无法手动更新链接来源记录中的查找字段值。
+
+  链接记录的查找字段的值会自动从原始记录或对象中填充您正在链接的Workfront Planning记录。
 
 * 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。
-* 要将记录与其他记录或对象链接，您必须具备以下各项：
 
-   * 至少一个工作区、记录类型和记录。
-
-     有关更多信息，请参阅以下文章：
-
-      * [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [创建记录](/help/quicksilver/planning/records/create-records.md)
-
-   * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
 * 您可以在以下区域将对象从Workfront连接到Workfront Planning记录：
    * 来自Workfront Planning中的Planning记录。
    * 从Workfront对象的“规划”部分。
+
+* 您可以在以下区域将Workfront Planning记录连接到Experience Manager Assets：
+
+   * 从Workfront Planning中的Planning记录
+
+
+## 链接记录的先决条件
+
+要将记录与其他记录或对象链接，您必须具备以下各项：
+
+* 至少一个工作区、记录类型和记录。
+
+  有关更多信息，请参阅以下文章：
+
+   * [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [创建记录](/help/quicksilver/planning/records/create-records.md)
+
+* 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## 从Workfront Planning连接记录
 
@@ -186,7 +200,7 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以打开记录的页面，找到链接的记录字段并单击 **连接记录** 在字段中以添加来自连接的记录或对象类型的记录。
+   >    您可以打开记录的页面，找到链接的记录字段，然后单击连接的字段（如果已经连接记录），或单击 **连接记录** （如果字段为空）以添加来自连接的记录或对象类型的记录。
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ hide: yes
 >如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 在记录类型与Adobe Experience Manager Assets之间创建连接后，可以将单个记录连接到Experience Manager资源。 创建连接后，您从Experience Manager Assets连接的资源字段会自动填充在您链接的记录类型中。
+
+>[!NOTE]
+>
+>当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 1%
    * **我的工作区**：显示您创建的工作区。
    * **其他工作区**：显示Workfront Planning中的所有工作区，包括与您共享的工作区。
 
-   对于所有其他用户，他们创建或与他们共享的所有工作区都将显示在 **工作区** 区域。
+   对于所有其他用户，您创建或与您共享的所有工作区都将显示在 **工作区** 区域。
 
 ## Workfront Planning重要简介 —  {#planning-important-intro}
 

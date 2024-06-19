@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ ht-degree: 0%
 1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。
+
+   >[!TIP]
+   >
+   >   与您共享的视图具有人员指示器 ![](assets/view-shared-with-others-people-icon.png) “视图”图标旁边。 没有人员指示器的视图是您创建的视图。
+
+
 
 <!--
 ## Share permissions to a view publicly

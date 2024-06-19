@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 
 我们更新了从“详细信息”页面向记录添加缩略图或封面图像的体验。 这些改进包括以下更新：
 
-* 在创建记录时，会随机将缩略图图像分配给该记录。 您可以稍后编辑此图像。
+* 创建记录时，缩略图和封面图像会自动分配给记录。 您可以稍后编辑这些图像。
 
 * 您可以从“详细信息”页面添加缩略图。 在此增强功能之前，您只能从表格视图添加缩略图。
 
@@ -129,7 +129,7 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 
 预览：待定
 
-当有记录显示在两个以上的行时，我们在连接的记录字段中添加了“显示更多/显示更少”链接。
+我们在连接的记录字段中添加了“显示更多/显示更少”链接，因为如果记录中存在记录，则在记录的“详细信息”页面中的两行以上将会显示这些记录。
 
 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 
 登陆页面上的某些信息包括：
 
-* 显示与您共享的工作区和工作区的区域。 每个工作区信息卡上都会列出工作区所有者。
+* 显示与您共享的工作区和工作区的区域。 工作区所有者显示在每个工作区信息卡上。
 
 * 如果您是Workfront管理员，则会显示以下选项卡：
 
@@ -324,7 +324,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 为了更好地组织记录页面上的信息以便更有效地阅读和导航，我们在记录页面中引入了部分。 章节标题用作标题，用于将字段整理到不同的类别中。 这些部分是完全可自定义的，如果需要，可以展开或折叠。
 
-有关信息，请参阅 [管理记录页面](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### 字段配置更改的实时更新
 
@@ -433,7 +433,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 作为工作区经理，您现在可以重新排序记录页面或预览中列出的字段。 更新字段顺序将更改所有相同类型记录的字段顺序，对于查看记录页面或记录预览的每个人。
 
-有关更多信息，请参阅 [管理记录页面](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关更多信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### 添加封面图像以记录页面
@@ -444,7 +444,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 在管理记录页面时，您现在可以在记录页面或预览上添加、重新定位和替换封面图像，以丰富记录的展示和利益相关者参与。 查看记录的所有用户都可以看到封面图像。
 
-有关更多信息，请参阅 [管理记录页面](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关更多信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 2024年3月25日起一周
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>当前：工作或更高</p>
+   <p>新增：标准</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>为工作区提供或更高权限 </p>  
+   <td> <p>管理工作区的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 有关记录缩略图的注意事项
 
 为了从视觉上区分表格视图中的记录，您可以将唯一的缩略图图像与每个记录相关联。
 
 请考虑以下事项：
 
+* 缩略图只显示一条记录，不适用于同一类型的所有记录。
 * 您只能添加图像文件作为缩略图。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 可以将缩略图图像添加到表格视图中的各个记录。
-* 缩略图属于记录信息，它们显示在显示记录的视图中。 例如，缩略图与记录信息一起显示在以下区域中：
+* 可以将缩略图图像添加到表格视图中的单个记录，也可以从记录的页面或预览框中添加缩略图图像。
+* 每次创建记录时，Workfront都会自动上传缩略图图像。 您可以稍后修改此图像。
+* 缩略图属于记录信息，并显示在记录显示的区域中。 例如，缩略图与记录信息一起显示在以下区域中：
 
    * 表视图中记录的主要字段
    * 时间线视图中的记录栏。
-* 不能从记录的页面或其他类型的视图添加记录缩略图。
-* 缩略图不显示在记录的页面上。
+   * 记录的详细信息预览和页面。
 
 ## 向记录添加缩略图
+
+您可以通过以下方式添加缩略图：
+
+* [从表视图向记录添加缩略图](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [从详细信息页面向记录添加缩略图](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### 从表视图向记录添加缩略图
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >   主字段是显示在表视图第一列中的字段。 主字段始终冻结，不能隐藏或重新定位。
+   >   主字段是显示在表视图第一列中的字段。 主字段始终冻结，不能隐藏或重新定位。 当主字段为公式字段时，“缩略图”选项在“更多”菜单中不可用。
 
-   此 **录制缩略图** 框打开。
+   此 **上传** 默认情况下，选项卡在 **录制缩略图** 盒子。
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. 在 **上传** 选项卡，拖放要作为缩略图添加的文件，或单击 **选择以上传**，然后浏览以添加图像文件。 文件必须保存在计算机上。
-1. （可选）使用调整大小工具裁切图像并调整其大小。
-1. 单击 **使用图像** 将图像添加为缩略图。
-这将关闭 **录制缩略图** 盒子。
-1. （视情况而定）如果您至少具有表视图的Contribute权限，请单击 **字段** 表视图的右上角。
-1. 选择 **缩略图** 切换可显示缩略图。 默认情况下，该选项处于取消选中状态。
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   主字段值的左侧将显示缩略图。
-1. （可选且视情况而定）如果您没有Contribute或更高版本的视图权限，请从 **视图** 下拉菜单，或创建视图。
-1. （可选）要删除缩略图，请将鼠标悬停在主字段上，然后单击 **更多** 菜单 ![](assets/more-menu.png)> **缩略图** > **移除** 图标 ![](assets/remove-image-icon.png)，然后单击 **保存更改**.
+   有关上传缩略图的更多信息，请参阅部分 [从详细信息页面向记录添加缩略图](#add-a-thumbnail-to-a-record-from-the-details-page) 在本文中，从步骤6开始。 <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### 从详细信息页面向记录添加缩略图
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. 单击要为其添加缩略图的记录的工作区，然后单击记录类型卡片。
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   这将打开记录类型页面。
+1. 从任何视图中，单击记录以将其打开。
 
-   ![](assets/record-more-menu-expanded.png)
+   将显示详细信息预览框。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在右上角。
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   此时将打开记录的详细信息页面。
+1. 将鼠标悬停在缩略图图像或图标上 ![](assets/record-thumbnail-icon-on-details-page.png)，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **编辑缩略图**.
 
-   The **Record thumbnail** box opens.
+   此 **上传** 默认情况下，选项卡在 **录制缩略图** 盒子。
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. 拖放要作为缩略图添加的文件
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   或
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   单击 **浏览图像**，然后浏览以添加图像文件。 文件必须保存在计算机上。
 
+1. （可选）图像上传之后，进入 **录制缩略图** 框中，使用调整大小工具裁切图像并调整其大小。
+1. （可选）单击 **上传新图像** 图标 ![](assets/upload-new-image-icon.png) 上传其他图像。
+1. （可选）单击 **图库** 选项卡，然后单击图像。 无法修改图像库。
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. （可选）要在保存缩略图之前删除缩略图，请单击 **移除** 图标 ![](assets/remove-image-icon.png) 图像右侧。
+
+1. 单击 **使用图像** 将图像添加为缩略图。
+这将关闭 **录制缩略图** 盒子。
+缩略图显示在Workfront Planning中记录所在的区域中。
+
+   >[!TIP]
+   >
+   >   必须启用表格视图中的缩略图字段才能在此视图中显示缩略图。 默认情况下处于禁用状态。
+
+1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击 **更多** 菜单 ![](assets/more-menu.png)> **移除** 图标 ![](assets/remove-image-icon.png). 缩略图图像将被删除。
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -198,7 +198,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
+   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。 当您选择查找字段作为时间轴和日历视图的开始和结束日期时，必须为日期字段(MAX或MIN)使用聚合器。 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. 单击 **创建**.
 

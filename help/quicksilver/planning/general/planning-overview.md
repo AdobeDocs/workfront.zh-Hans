@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | Adobe Workfront Fusion的Adobe Workfront规划模块 | ✓ {\f13 } |                                  |                 |
 | 将信息从一个字段复制并粘贴到另一个字段 | ✓ {\f13 } |                                  |                 |
 | 从Workfront对象访问Planning记录 | ✓ {\f13 } |                                  |                 |
+| 从Workfront对象连接Planning记录 | ✓ {\f13 } |                                  |                 |
 
 ## 为Workfront实例中的用户启用Adobe Workfront Planning
 
@@ -208,9 +209,18 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **链接的字段** （或查找字段）：在两个记录类型之间建立连接并将单个记录链接在一起后，您可以在要连接的记录中引用链接记录的字段。
 
-  例如，如果将Campaign记录类型与Workfront项目对象类型连接，则可以在营销活动记录中显示已连接项目的项目所有者字段。
+  例如，如果将Campaign记录类型与Workfront Project对象类型连接，则可以在营销活动记录中显示已连接项目的“预算”字段。
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > 不能添加以下字段类型作为查找字段：
+  >
+  >* 人员
+  >* 创建者
+  >* 上次修改者
+  >* Workfront预输入字段（包括项目所有者或项目发起人等字段）
 
   有关链接记录类型、记录和创建链接字段的信息，请参阅以下文章：
 
@@ -285,7 +295,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
+1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
    * **我的工作区**：显示您创建的工作区。
    * **其他工作区**：显示系统中的所有其他工作区，包括与您共享的工作区。
 
