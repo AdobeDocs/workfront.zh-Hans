@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ ht-degree: 0%
 
       * 单击 **新记录** 在页面的右上角。 记录预览框打开。
 
-1. 开始在新行中输入有关新记录的信息，或在预览框中看到的字段中键入信息。
+     Workfront会自动将缩略图和封面图像上传到每张新记录。 您可以稍后修改这些图像。 有关信息，请参阅以下文章：
+
+      * [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. 开始在您在预览框中看到的字段中键入有关新记录的信息。
 
    >[!NOTE]
    >
-   >  * 记录没有必填字段。 但是，我们建议您为记录添加名称，因为在将记录相互链接时，按名称标识记录会很有帮助。
+   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * 引用其他记录类型或计算字段的字段为只读字段。
 
@@ -140,7 +145,7 @@ ht-degree: 0%
    >您可以访问 **打开详细信息** 图标仅来自记录的名称字段（当“名称”字段是主字段时）。
 
 1. 开始编辑记录预览中的记录信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
 
 1. （可选）在将新记录或其信息添加到表视图时，使用以下键盘快捷键可撤消或重做添加新记录或其信息：
 

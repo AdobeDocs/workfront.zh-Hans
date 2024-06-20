@@ -1,20 +1,20 @@
 ---
-title: 管理记录页面
+title: 管理记录页面布局
 description: 您可以在Adobe Workfront Planning中编辑记录预览和页面的布局。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 管理记录页面
+# 管理记录页面布局
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 * 显示在记录预览中所做的更改会立即显示在记录详细信息页面中。 在记录页面中所做的更改也会显示在记录预览框中。
 
-* 向记录添加封面图像不是记录预览或页面的整体布局的一部分。 您可以为每个记录添加唯一的封面图像。 有关信息，请参阅 [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* 向记录添加封面图像或缩略图不是记录预览或页面整体布局的一部分。 您可以为每个记录添加唯一的封面图像或缩略图。 有关信息，请参阅 [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) 和 [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## 向记录预览或页面添加分区
 
@@ -135,15 +135,11 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 在第一列中。
 
    记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
 1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。
 
@@ -200,15 +196,11 @@ ht-degree: 0%
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 在第一列中。
 
    记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
 
 1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 在记录预览的右上角，在新选项卡中打开记录页面。
 

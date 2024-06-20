@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ ht-degree: 0%
 * 不能批量编辑记录。 <!--this will probably change-->
 * 只有当URL以以下内容开头时，才会被识别为单行文本字段类型中的链接： http://、https://、ftp://或www。.
 * 您可以向每张记录添加封面图像。 每个记录的图像都是唯一的，并且不适用于同一时间的所有记录。
-* 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关更多信息，请参阅 [管理记录页面](/help/quicksilver/planning/records/manage-the-record-page.md).
+* 您可以编辑记录页中的字段顺序并为记录添加封面图像。 有关更多信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 编辑记录
 
 您可以从以下区域编辑记录：
 
-* [从记录类型的表格视图中](#edit-a-record-from-the-table-view-of-a-record-type)
-* [从视图中的记录预览](#edit-a-record-from-the-records-box-in-a-view)
+* [从记录类型的表格视图中](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [从视图中的记录预览](#edit-a-record-from-the-records-preview-in-a-view)
 * [从记录的页面](#edit-a-record-from-the-records-page)
 
 ### 在记录类型的表视图中编辑内联记录
@@ -200,17 +200,17 @@ ht-degree: 0%
 
    此时将打开记录类型页面。
 
-1. 从任何类型的视图中，单击记录的名称
+1. 从任何类型的视图中，单击记录
 
    或
 
-   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 记录的预览将在视图中打开。
+   从表格视图中，单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 在第一列中。 记录的预览将在视图中打开。
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >您可以查看 **打开详细信息** 图标仅当“名称”字段是主字段时，才显示表格视图中记录的“名称”字段左侧的图标。
+1. （可选）单击 **更多** 记录标题右侧的菜单，然后单击 **重命名**. 这将更新显示为记录标题的字段。
+
+   记录的标题是在表格视图中查看记录时显示的主要字段。 有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. 开始编辑记录预览中的字段信息。
 
@@ -218,10 +218,12 @@ ht-degree: 0%
    >
    >  您无法编辑以下字段的信息，因为它们是只读的，Workfront会自动更新它们：
    >  
-   >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * 通过连接记录类型创建的其他记录的查找字段。 有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
 1. （可选）单击 **添加封面** 向记录中添加封面图像。 有关更多信息，请参阅 [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （可选）将鼠标悬停在缩略图图标上，然后单击 **更多** ![](assets/more-menu.png) > **编辑缩略图** 以添加缩略图图像。 有关信息，请参阅 [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront会自动保存您所做的更改。
 
@@ -251,6 +253,10 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
+1. （可选）单击 **更多** 记录标题右侧的菜单，然后单击 **重命名**. 这将更新显示为记录标题的字段。
+
+   记录的标题是在表格视图中查看记录时显示的主要字段。 有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. 单击记录页面上的任何可编辑字段以编辑它。
 
    >[!TIP]
@@ -260,7 +266,17 @@ ht-degree: 0%
    >  * 通过连接记录类型创建的链接字段。 有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 以下类型的字段：“创建者”、“创建日期”、“上次修改者”、“上次修改日期”和“公式”字段。
 
-1. （可选）单击 **添加封面** 向记录中添加封面图像。 有关更多信息，请参阅 [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. （可选）单击 **添加封面** 将封面图像添加到记录
+
+   或
+
+   将鼠标悬停在现有封面图像上，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **上传** 为记录添加新的封面图像。
+
+   有关更多信息，请参阅 [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （可选）将鼠标悬停在现有缩略图上，或者 **缩略图图标** ![](assets/record-thumbnail-icon-on-details-page.png)，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **编辑缩略图** 为记录添加缩略图。
+
+   有关更多信息，请参阅 [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront会自动保存您所做的更改。
 

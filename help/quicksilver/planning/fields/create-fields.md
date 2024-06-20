@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 1%
@@ -384,7 +384,7 @@ recommendations: noDisplay, noCatalog
    >
    >* 不能在公式中添加多选类型字段。
    >
-   >* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建公式字段，并且活动连接到产品记录类型，而产品记录类型连接到市场活动记录类型，而市场活动记录类型连接到Workfront项目，则可以在为活动记录类型创建的公式中引用项目责任人。
+   >* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建公式字段，并且活动连接到产品记录类型，而产品记录类型连接到市场活动记录类型，而市场活动记录类型连接到Workfront项目，则可以在为活动记录类型创建的公式中引用项目的预算。
 
 1. 单击 **创建**.
 

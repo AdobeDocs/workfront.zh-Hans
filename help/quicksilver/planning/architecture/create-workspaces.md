@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ ht-degree: 1%
 
 1. （可选且视情况而定）单击 **预览** 在以下任何预定义workspace模板中：
 
-   * 营销管理
+   * 基本：营销管理
+   * 高级：营销管理
+   * 企业：营销管理
    * 销售管理
    * 产品管理
 
@@ -133,7 +135,7 @@ ht-degree: 1%
 
    或
 
-   单击 **返回**，然后单击 **创建工作区** 从头开始创建工作区。
+   单击 **返回**，然后单击 **新工作区** 从头开始创建工作区。
 
    将创建以下工作区类型之一：
 

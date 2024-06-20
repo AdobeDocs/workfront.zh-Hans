@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 1%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [“历史记录”部分概述](planning/records/history-section-overview.md)
       * [向记录添加缩略图](planning/records/add-thumbnails-to-records.md)
       * [将封面图像添加到记录](planning/records/add-a-cover-image-to-a-record.md)
-      * [管理记录页面](planning/records/manage-the-record-page.md)
+      * [管理记录页面布局](planning/records/manage-the-record-page.md)
       * [管理Adobe Workfront对象“计划”部分中的记录](planning/records/manage-records-in-planning-section.md)
    * Adobe Workfront Planning视图 {#adobe-workfront-planning-views}
       * [视图：文章索引](planning/views/views-information.md)

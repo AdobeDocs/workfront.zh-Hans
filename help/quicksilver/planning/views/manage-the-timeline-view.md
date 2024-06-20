@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    * **默认（灰色）**：分组的颜色设置为灰色。 这是默认设置。
    * **字段值**：分组的颜色与您作为分组依据的字段的颜色匹配。
-您只能将分组的颜色与具有颜色编码选项的字段匹配。
+
+     >[!NOTE]
+     >
+     >    * 您只能将颜色与具有颜色编码选项的字段匹配。 例如，可以将颜色与“状态”字段匹配，或可与颜色关联的选项进行匹配。
+     >    
+     >    * 不能将颜色与链接记录或对象类型中的查找字段匹配。
+
 
    例如，多选或单选字段可以具有颜色编码选项。
 
