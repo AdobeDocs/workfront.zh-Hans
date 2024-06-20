@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -334,13 +334,13 @@ ht-degree: 8%
 
    无法导出矩阵报表。 有关矩阵报表的详细信息，请参阅 [创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
+   Kick-Starts不支持文本模式筛选器。 要成功导出，必须将报表过滤器切换到“标准模式”。
+
    在一次导出中，您最多可以选择100个功能板和100个报表。
 
    ![](assets/kickstart-export-350x381.png)
 
    您可以一次导出多个对象。
-
-
 
 1. （推荐）分析导出的数据，以确保已导出您期望看到的所有信息。
 

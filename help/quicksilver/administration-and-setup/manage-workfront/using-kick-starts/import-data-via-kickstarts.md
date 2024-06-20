@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2755'
 ht-degree: 6%
 
 ---
@@ -109,7 +109,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
       <td scope="col"> <p>参数</p> <p>说明文本</p><p>参数选项</p> <p>参数组</p> <p>类别参数</p> <p>类别</p> <p>报告</p> <p>门户选项卡部分</p> <p>仪表板</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> </td> 
+      <td scope="col"> <p>报告</p> <p>系统中的所有报告都可导出。 在单个导出中，最多可以选择100个特定报告。</p> <p>Kick-Starts不支持文本模式筛选器。 要成功导出，必须将报表过滤器切换到“标准模式”。</p> </td> 
       <td scope="col">导出为ZIP文件 </td> 
       <td scope="col"> <p scope="col">参数</p> <p scope="col">说明文本</p> <p scope="col">参数选项</p> <p scope="col">参数组</p> <p scope="col">类别参数</p> <p scope="col">类别</p> <p scope="col">报告</p> <p scope="col">首选项</p> </td> 
      </tr> 
