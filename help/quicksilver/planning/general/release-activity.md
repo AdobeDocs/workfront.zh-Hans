@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 我们在连接的记录字段中添加了“显示更多/显示更少”链接，因为如果记录中存在记录，则在记录的“详细信息”页面中的两行以上将会显示这些记录。
 
 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+
+### 在连接记录类型时，使用记录名称自动填充“名称”字段
+
+生产： 2024年6月20日
+
+预览：待定
+
+创建两个记录之间或记录与来自另一个应用程序的对象之间的连接时，连接字段的“名称”将自动填充所连接记录的名称。 在此增强功能之前，您必须手动添加连接字段的名称。
+
+有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### 定义已连接记录在已连接字段中的显示方式
+
+生产： 2024年6月20日
+
+预览：待定
+
+您现在可以决定已连接记录在已连接字段中的显示方式。 向记录类型添加新连接时，您现在可以选择显示所连接记录的标题及其缩略图，或者只显示缩略图。
+
+记录的标题是记录的名称或记录类型的表视图中设置为主字段的任何字段。
+
+此增强功能适用于从Workfront Planning连接的记录以及从Adobe Experience Manager连接的资源。
+
+有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## 2024年6月10日起一周
 
@@ -563,6 +587,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 我们更新了记录类型页面中视图的外观。 新视图会动态响应，并快速调整以适合屏幕大小。 工具栏选项标签会隐藏在较小的屏幕上，以便更加轻松地使用工具栏。
 
 有关更多信息，请参阅以下文章：
+
 * [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

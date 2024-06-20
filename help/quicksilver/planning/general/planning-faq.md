@@ -4,7 +4,7 @@ description: 作为营销运营负责人，您可以使用Adobe Workfront Planni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 
 
 # Adobe Workfront规划常见问题解答
+
+{{planning-important-intro}}
 
 <!-- add to TOC and mini TOC-->
 

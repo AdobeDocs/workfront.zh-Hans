@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md) 和 [主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * 引用其他记录类型或计算字段的字段为只读字段。
 

@@ -1,13 +1,13 @@
 ---
 title: 连接记录类型和记录的示例
-description: 本文介绍了如何在AdobeWorkfornt Planning记录类型与Workfront项目对象类型之间创建连接的示例。 它还介绍了如何将Workfront Planning记录与连接到单个项目。
+description: 本文介绍了如何在Adobe Workfront Planning记录类型与Workfront项目对象类型之间创建连接的示例。 它还介绍了如何将Workfront Planning记录与连接到单个项目。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ ht-degree: 0%
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. （视情况而定）如果您选择 **选择查找字段选项** 在上一步中，从与 **产品** 记录类型，请单击 **+** 图标 **预算** 字段，然后单击 **添加字段**. 这将创建一个名为的字段 **预算（来自产品信息）**，即链接字段的名称。 产品预算的任何信息都将显示在此字段中以供Campaign记录使用。
+1. （可选）取消选择 **标题** 切换到 **记录外观** 部分，以在连接的字段中仅显示记录的缩略图图像。 如果启用，记录会显示缩略图和标题。 默认情况下，该切换处于启用状态。
+1. （视情况而定）如果您选择 **选择查找字段选项** 在上一步中，从与 **产品** 记录类型，请单击 **+** 图标 **预算** 字段，然后单击 **添加字段**. 这将创建一个名为的字段 **预算（来自产品信息）**，即链接字段的名称。 此字段中将显示促销活动记录的“产品预算”相关信息。
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -57,7 +58,7 @@ ht-degree: 0%
    >
    >    如果要将所有选定产品的预算作为一个总数查看，请选择 **SUM** 字段名称右侧的下拉菜单中。 当用户在 **产品信息** 链接的记录字段， **预算（来自产品信息）** 字段将其所有预算值相加并显示总计。 <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > 如果您选择 **无**，而不是 **SUM**，则所选产品的各个预算将以逗号分隔。
+   > 如果您选择 **无**，而不是 **SUM**，则所选产品的各个预算以逗号分隔。
 
    这将生成以下字段：
 
@@ -78,7 +79,7 @@ ht-degree: 0%
 
 1. 从 **营销活动** 记录类型表视图，通过在“促销活动”记录类型页面的表中添加新行来创建促销活动。
 
-1. 在  **产品信息** 列来显示新营销活动。
+1. 在 **产品信息** 列来显示新营销活动。
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -157,7 +158,7 @@ ht-degree: 0%
 
    * 在Campaign记录表视图和Campaign记录页面中：
 
-      * **项目信息** （链接对象字段）：这将显示项目的名称或名称。
+      * **项目信息** （链接对象字段）：显示项目的名称或名称。
       * **计划收入（来自项目信息）** （链接的字段）：这将显示在项目信息字段中选择的项目计划收入。
 
    >[!TIP]
@@ -166,7 +167,7 @@ ht-degree: 0%
 
 1. 从 **营销活动** 记录类型表视图，通过在表中添加新行来创建营销活动。
 
-1. 在  **项目信息** 列来显示新营销活动。
+1. 在新营销活动的“项目信息**”列内双击。
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -204,14 +205,14 @@ ht-degree: 0%
 
 1. 在连接的记录字段中单击项目的名称。
 
-   这将打开只读Woekfront规划项目的页面。
+   此操作将打开只读Workfront规划项目的页面。
 查看有关项目的信息。 只有选定的项目字段会显示在记录的页面中。
 
 1. 单击 **转到源** 如果您至少具有项目的查看权限，则可以在屏幕右上角的Workfront中打开项目。
 1. （可选）如果您有权限可以在Workfront中更新有关项目的信息。
 
 1. （可选）在Campaign表格视图中，将鼠标悬停在 **项目信息** 字段标题，单击向下箭头，然后单击 **编辑查找字段。**
-1. 单击 **+** 图标，以记录您想要添加到项目的Workfront计划记录的任何项目字段。 **未选择的字段** 部分。
+1. 单击 **+** 图标，以标记要添加到项目的Workfront Planning记录中的任意项目字段。 **未选择的字段** 部分。
 1. 单击 **-** 图标，以标记要从Workfront项目计划记录中删除的任何项目字段。 **选定的字段** 部分。
 1. 单击&#x200B;**保存**。
 

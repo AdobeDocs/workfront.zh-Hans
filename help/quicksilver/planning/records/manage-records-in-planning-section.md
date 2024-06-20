@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
    * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 * 您可以查看Workfront对象中的Planning部分，即使没有与Workfront对象关联的记录也是如此。
 * 当至少有一个记录连接到Workfront对象时，您可以在Planning部分中，将Planning记录与Workfront中的Workfront对象连接。
-* 您必须对工作区具有Contribute或更高权限才能从Workfront对象连接记录。
+* 您必须具有工作区的管理权限才能从Workfront对象连接记录。
 
 ## 管理“计划”部分中的记录
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开记录的详细信息页面。
+1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
 1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标 **-**，然后单击 **断开连接**.
 出现以下情况：
    * 记录不再连接到Workfront对象。
@@ -148,7 +148,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   “连接”按钮仅显示您具有Contribute权限的工作区。
+   >   “连接”按钮仅显示您具有Contribute权限的工作区。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 单击要连接的记录。 出现以下情况：
 

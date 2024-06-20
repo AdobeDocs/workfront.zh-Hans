@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ ht-degree: 0%
 * [从记录类型的表格视图中](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [从视图中的记录预览](#edit-a-record-from-the-records-preview-in-a-view)
 * [从记录的页面](#edit-a-record-from-the-records-page)
+* [从“规划”部分的Workfront对象](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 在记录类型的表视图中编辑内联记录
 
@@ -210,7 +211,7 @@ ht-degree: 0%
 
 1. （可选）单击 **更多** 记录标题右侧的菜单，然后单击 **重命名**. 这将更新显示为记录标题的字段。
 
-   记录的标题是在表格视图中查看记录时显示的主要字段。 有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+   记录的标题是在表格视图中查看记录时显示的主要字段。 有关信息，请参阅 [主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. 开始编辑记录预览中的字段信息。
 
@@ -280,3 +281,8 @@ ht-degree: 0%
 
    Workfront会自动保存您所做的更改。
 
+## 在Planning部分中编辑来自Workfront对象的记录
+
+将记录与Workfront对象连接后，您可以在Workfront中编辑该对象的Planning部分的Workfront Planning记录。
+
+有关更多信息，请参阅 [管理Adobe Workfront对象“计划”部分中的记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

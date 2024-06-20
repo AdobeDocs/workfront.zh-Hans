@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2486'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,18 @@ author: Alina
 
 {{planning-important-intro}}
 
-您可以使用Adobe Workfront Planning来设计包含组织所需记录类型的完全可自定义的工作区。 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
+<!--
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 您可以将记录类型相互连接或用其它应用程序的对象类型来记录类型。
 
-这样，您就可以在Workfront Planning记录中显示链接记录或对象类型中的字段。
+本文介绍了如何将两个Workfront Planning记录类型(一个Workfront Planning记录类型)与另一个应用程序中的对象连接起来。
 
-本文介绍了如何在Workfront Planning中将两种记录类型或一种记录类型与来自另一个应用程序的对象连接起来。
-
-在记录或对象类型之间建立连接后，可以将各个记录相互连接。
+在记录或对象类型之间建立连接后，可以将各个记录相互连接，并在Workfront Planning记录上显示链接记录或对象类型中的字段。
 
 有关将Workfront Planning记录连接到另一个应用程序中的对象的信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
 
-有关连接记录类型的示例，请参见 [连接记录类型和记录的示例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+有关连接记录类型和记录的示例，请参见 [连接记录类型和记录的示例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -75,9 +74,10 @@ author: Alina
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：标准</p> 
+   <p>当前：计划</p>
   </td>
   </tr>
 
@@ -100,6 +100,7 @@ author: Alina
  </tbody>
 </table>
 
+*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -122,7 +123,7 @@ author: Alina
      记录类型必须属于同一工作区。
    * 来自另一个应用程序的记录类型和对象类型。
 
-* 您可以将以下应用程序中的以下对象类型与Workfront Planning记录类型连接起来：
+* 您可以将Workfront Planning记录类型与以下应用程序中的以下对象类型连接起来：
 
    * Adobe Workfront：
 
@@ -159,10 +160,10 @@ author: Alina
 
         有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
 
-      * 无法从Workfront访问Planning记录或其字段。
-      * 当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * 无法从Workfront对象访问Planning记录字段。
+      * 当Workfront管理员通过Workfront与Adobe Experience Manager Assets之间的集成配置Experience Manager映射时，可从Metadata Assets访问规划记录字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **添加您连接的记录或对象的查找字段时**：您可以将其他应用程序的对象中的字段连接到Workfront Planning记录类型。 这些是链接或查找字段。 链接字段会在您连接记录或对象时自动显示连接记录或对象中的信息。 链接的查找字段始终是只读的，并且会自动填充连接的记录或对象的值。
+   * **添加所连接的记录或对象的链接（或查找）字段时**：您可以将其他应用程序的对象中的字段连接到Workfront Planning记录类型。 链接字段是只读的，当您连接记录或对象时，它们会自动显示连接记录或对象中的信息。
 
      例如，如果您将“促销活动”记录类型与Workfront项目连接并选择将该项目的“计划完成日期”字段引入Workfront计划记录，则将自动为促销活动创建一个名为“计划完成日期”（来自项目）的链接字段。 您无法手动编辑此链接的字段。 计划完成日期（来自项目）字段显示链接项目的计划完成日期。
 
@@ -195,6 +196,8 @@ author: Alina
 
    * 来自所选工作区部分的另一个记录类型
 
+     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
+
      >[!TIP]
      >
      >只有来自所选工作区的记录类型可供连接。
@@ -202,18 +205,20 @@ author: Alina
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
    * A **项目、Portfolio、计划、公司**，或 **组** 从 **Workfront对象类型** 部分。
+
+     ![](assets/workfront-project-connection-selection.png)
+
    * **Experience Manager Assets** 从 **Adobe应用程序** 部分。
 
-   ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     ![](assets/aem-assets-connection-selection.png)
 
 1. 更新以下信息：
 
-   * **名称**：已连接字段的名称，它将显示在原始记录类型的表视图或记录页面中。 这会在原始记录类型的表视图或原始记录的链接记录字段中创建链接记录列。
+   * **名称**：已连接字段的名称，它将显示在原始记录类型的表视图或记录页面中。 这会在原始记录类型的表视图或原始记录的链接记录字段中创建链接记录列。 默认情况下，字段的名称是您连接到的记录或对象的名称。
 
    >[!TIP]
    >
-   >我们建议您在连接的记录字段的名称中包含要链接到的记录名称，以捕获新字段来自的记录类型。 链接的记录的名称在新链接的记录字段或其链接的字段中不可见。
+   >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
    * **描述**：有关连接的记录字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
    * **允许多条记录**：选择此选项以指示您允许用户在链接记录类型字段显示在原始记录上时添加多个记录。 默认情况下，该选项处于选中状态。
@@ -230,32 +235,23 @@ author: Alina
 
 1. （视情况而定，可选）如果您已选择连接Workfront对象，请选择 **自定义表单** 从 **仅链接符合这些条件的对象** 部分。 只有附加了所选自定义表单的对象才能链接到所选记录类型。 您可以选择多个表单。
 
-   ![](assets/workfront-project-connection-selection.png)
-
    >[!NOTE]
    >
    > 您必须先在Workfront中为选定对象创建自定义表单，然后它们才会显示在此列表中。
 
 1. （视情况而定）如果您已选择连接到Experience Manager Assets，请从以下位置选择一个存储库： **Experience Manager存储库** 中的下拉菜单 **链接以下存储库中的资产** 部分。 这是必填字段。 只有您在Experience Manager Assets中有权访问的存储库才会显示在此字段中。
 
-   <!--replace the screen shot below when they fix the permissions info icon bug-->
-
-   ![](assets/aem-assets-connection-selection.png)
-
    >[!NOTE]
    >
    >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+1. （视情况而定）如果您选择连接到Experience Manager Assets或Workfront Planning记录类型，请禁用 **标题** 切换到 **记录外观** 区域（如果不希望在链接的字段中显示连接的记录或资产的标题）。 禁用后，链接的字段中仅显示记录的缩略图。 没有缩略图图像的记录改为显示图像图标。 默认情况下，该切换处于启用状态。 有关连接的记录如何显示的示例，请参见 **记录外观** 区域。
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
-
-    >[!TIP]
-    >
-    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
-    >
-    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
--->
+   >[!TIP]
+   >
+   >    当允许链接多个记录时，仅显示缩略图可能会节省较小区域（如记录视图）的空间。
+   >
+   >记录的标题是记录的主字段。 有关更多信息，请参阅 [主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. 单击 **创建**.
 
@@ -276,14 +272,13 @@ author: Alina
    >    对工作区具有“查看”或更高权限的每个人都可以查看链接字段中的信息，无论其在链接对象类型应用程序中的权限或访问级别如何。
 
 
-1. （可选）单击 **跳过** 并且不要从链接的记录或对象添加任何字段。 此 **名称** 在原始记录的表格视图中，链接记录的字段是唯一可见的字段。
+1. （可选）单击 **跳过** 跳过添加来自链接记录或对象类型的字段。 此 **名称** 或 **标题** 链接记录的唯一可见字段是您连接到的记录类型的表视图。
 
 1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择聚合器值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或聚合的值。
 
    >[!IMPORTANT]
    >
-   >    如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加日期字段时必须选择一个聚合器值。
-
+   >    如果希望字段可用作时间轴和日历视图的开始日期和结束日期，则在添加查找日期字段时必须选择一个聚合器值。 例如，您可以为查找日期字段选择MAX或MIN汇总。
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
@@ -321,9 +316,9 @@ author: Alina
 
    添加了以下项目：
 
-   * 要链接的记录类型上的链接记录字段。 手动添加链接记录后，链接记录字段将显示来自链接记录类型的单个记录。 有关添加记录的信息，请参见 [连接记录](/help/quicksilver/planning/records/connect-records.md). 链接记录字段的名称是您在步骤6中选择的名称。 <!--accurate-->
+   * 要链接的记录类型上的链接记录字段。 手动添加链接记录后，链接记录字段将显示来自链接记录类型的单个记录。 有关添加记录的信息，请参见 [连接记录](/help/quicksilver/planning/records/connect-records.md). 链接记录字段的名称是您在步骤7中选择的名称。 <!--accurate-->
 
-   * 在链接记录字段中手动添加记录或对象后，显示链接记录或对象类型字段中的信息的链接字段（或字段）。 仅在以下情况下创建链接的字段： **选择查找字段** 创建连接时可选择“设置”。 链接的字段会根据以下模式自动命名：
+   * 链接（或查找）字段（或字段），在您手动添加链接记录字段中的记录或对象后，显示有关链接记录或对象类型的信息。 仅当 **选择查找字段** 创建连接时可选择“设置”。 查找字段会根据以下模式自动命名：
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -339,7 +334,7 @@ author: Alina
 
 1. （可选，视情况而定）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：
 
-   * **编辑字段**：您只能更新 **名称** 和 **描述** 字段的信息。
+   * **编辑字段**：您可以更新 **名称** 和 **描述** 字段的信息。
    * **编辑查找字段**：添加或删除任何链接记录的字段。
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

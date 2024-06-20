@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 单击 **条形图样式** 在左侧面板中，用于指示要在记录栏上显示的字段。
 
-   默认情况下，“名称”字段处于选中状态。 <!--adjust this when the primary field is released??-->
+   默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。 <!--adjust this when the primary field is released??-->
 
 1. （可选且视情况而定）如果您将缩略图添加到记录，请选择“缩略图”选项以在记录栏中显示与记录关联的图像。
 
