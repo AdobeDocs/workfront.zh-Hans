@@ -1,13 +1,13 @@
 ---
-title: 编辑字段
+title: 编辑字段设置
 description: 在Adobe Workfront Planning中，您可以编辑已创建字段的字段设置。 本文介绍了如何编辑Workfront Planning字段的设置。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# 编辑字段
+# 编辑字段设置
 
 {{planning-important-intro}}
 
@@ -34,33 +34,6 @@ recommendations: noDisplay, noCatalog
 有关创建Adobe Workfront Planning字段的信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
 
 本文介绍了如何编辑Workfront Planning字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
-
-## 有关编辑字段设置的注意事项
-
-在对字段配置进行更改之前，必须考虑以下事项：
-
-* 如果您对字段所属的工作区具有管理权限，则可以编辑您创建的字段或其他用户创建的字段。
-* 您可以在记录类型表中编辑字段。
-* 不能在记录页面或表格视图之外的任何其他视图中编辑字段。
-* 保存字段后，您无法编辑字段类型。
-* 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
-* 保存字段后，可以编辑以下字段元素的配置：
-
-   * 任何字段的名称或描述
-   * 单选或多选字段的选项。
-   * “公式”字段的表达式。
-
-  >[!WARNING]
-  >
-  >当公式表达式发生更改，或者在select-type字段中添加或删除选项时，如果记录中已存储信息且这些信息的字段修改了配置，则这些记录的数据将会丢失。
-  >
-  >在更改字段配置时，没有警告或指示可能发生此数据丢失。
-  >
-  >不会通知其他用户字段配置已更改。
-
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## 访问要求
 
@@ -91,9 +64,10 @@ recommendations: noDisplay, noCatalog
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
+   <p>新增：标准</p>
+   <p>当前：计划</p> 
   </td>
   </tr>
 
@@ -118,10 +92,39 @@ recommendations: noDisplay, noCatalog
 </tbody>
 </table>
 
+*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+## 有关编辑字段设置的注意事项
+
+在对字段配置进行更改之前，必须考虑以下事项：
+
+* 如果您对字段所属的工作区具有管理权限，则可以编辑您创建的字段或其他用户创建的字段。
+* 您可以在记录类型表中编辑字段。
+* 不能在记录页面或表格视图之外的任何其他视图中编辑字段。
+* 保存字段后，您无法编辑字段类型。
+* 如果附加到“数字”、“百分比”或“货币”字段的记录中已经存储了负值，则不能取消选择以前选择的“允许负数”设置。
+* 保存字段后，可以编辑以下字段元素的配置：
+
+   * 任何字段的名称或描述
+   * 单选或多选字段的选项。
+   * “公式”字段的表达式。
+
+  >[!WARNING]
+  >
+  >当公式表达式发生更改，或者在select-type字段中添加或删除选项时，如果记录中已存储信息且这些信息的字段修改了配置，则这些记录的数据将会丢失。
+  >
+  >在更改字段配置时，没有警告或指示可能发生此数据丢失。
+  >
+  >不会通知其他用户字段配置已更改。
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 
 ## 编辑字段设置
 

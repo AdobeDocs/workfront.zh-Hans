@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ For more information, see [Adobe Workfront Planning notifications: Article index
 此增强功能适用于从Workfront Planning连接的记录以及从Adobe Experience Manager连接的资源。
 
 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### 只有Standard或Plan许可的用户可以拥有工作区的“管理”权限（标题）
+
+生产日期： 2024年6月21日
+
+预览：待定
+
+我们已经更改了哪些类型的用户可以完全访问工作区。 现在，只有Standard或Plan许可的用户可以拥有工作区的“管理”权限。 记录类型、记录和字段的访问权限从工作区继承。 所有其他用户仅具有对工作区及其对象类型的查看访问权限。 在此更新之前，轻量级和工作级许可的用户可以接收工作区的Contribute权限。
+
+有关更多信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## 2024年6月10日起一周
 
@@ -366,7 +376,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 >
 >不会通知其他用户字段配置已更改。
 
-有关更多信息，请参阅 [编辑字段](/help/quicksilver/planning/fields/edit-fields.md).
+有关更多信息，请参阅 [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## 2024年5月6日起一周
 

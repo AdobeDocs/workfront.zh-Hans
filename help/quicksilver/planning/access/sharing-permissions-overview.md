@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -41,20 +41,25 @@ ht-degree: 6%
 
 * 视图
 
+  您必须向用户（包括系统管理员）授予单独访问视图的权限以及访问工作区的权限。 有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+
+您可以与以下实体共享工作区或视图：
+
+* 用户
+* 组
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## 关于在Adobe Workfront Planning中共享对象的注意事项
 
-* 您的Adobe Workfront许可证类型与Workfront Planning权限配合使用，可让您在使用Workfront Planning时查看、贡献或管理对象。
+* 您的Adobe Workfront许可证类型与Workfront Planning权限配合使用，允许您查看、贡献或管理工作区及其对象。
 
   有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
-* 系统管理员可以管理和共享其他用户创建的工作区。
-* 如果您不是系统管理员，则在他人创建的工作区与您共享时，您可以为其贡献内容。
-* 不能批量共享工作区或视图。
-* 您可以与以下实体共享工作区或视图：
-   * 用户
-   * 组
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 只能向系统管理员授予管理视图的权限。
-* 您可以与其他人共享指向工作区或从记录类型页面查看的链接。 接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
+* 系统管理员可以管理系统中的所有工作区，包括他们未创建的工作区。
+* 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 系统管理员只能获得管理视图的权限。
+* 您可以与他人共享指向工作区或视图的链接。
+
+  接收链接的用户必须是活动用户，并登录到Workfront才能访问所选视图中显示的工作区或记录类型页面。
 
 ## 共享Adobe Workfront Planning对象的权限
 
@@ -63,6 +68,8 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >并非所有用户都可以具有下述权限级别。 用户的个人许可证确定他们可针对Workfront Planning对象接收的权限级别。
+>
+>只有Standard（或Plan）许可证用户才能拥有对工作区的Contribute或“管理”权限。
 >
 >有关信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ ht-degree: 6%
 * 记录类型
 * 记录
 * 字段
-* 视图*
-
-  *您可以允许对工作区具有“查看”或更高权限的所有用户也访问工作区中的视图。 这是共享视图时必须启用的附加权限。 有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
 
 以下是工作区的权限级别：
 

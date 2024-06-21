@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>新增：浅色或更高</p>
+   <p>新增：标准</p>
    或
-   <p>当前：工作或更高</p> 
+   <p>当前：计划</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的或更高权限</a> </p>  
+   <td> <p>管理工作区的权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>

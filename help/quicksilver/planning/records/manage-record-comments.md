@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -30,38 +30,6 @@ ht-degree: 0%
 
 * **评论**：显示用户添加到记录的评论和回复。
 * **历史记录**：显示用户对记录字段进行的系统记录更改。 有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/planning/records/history-section-overview.md).
-
-## 有关对记录进行注释的注意事项
-
-* 您可以在Workfront Planning的“注释”部分中为记录添加注释和回复。
-
-* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Workfront Planning产品记录添加注释，则该注释仅在Workfront Planning的产品记录中显示，而不会在您链接的Campaign记录中显示。
-
-* 您可以将注释添加到由于某个记录与来自另一个应用程序的对象之间的连接而创建的Workfront Planning记录中。
-
-  例如，在将Workfront项目与Workfront Planning记录连接后，您可以对Workfront Planning项目记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
-
-* 添加到其他应用程序中链接对象的注释不会显示在Workfront Planning中，而添加到Workfront Planning中链接对象的注释不会显示在其他应用程序中。
-
-  例如，添加到Workfront中的项目的注释不会显示在链接到Workfront Planning中的营销活动的同一项目中，并且添加到Workfront Planning项目记录的注释不会显示在Workfront中。
-
-* 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
-
-   * 从记录详细信息页面。
-   * 从视图中，在记录详细信息框中。
 
 ## 访问要求
 
@@ -117,6 +85,39 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>
+
+
+## 有关对记录进行注释的注意事项
+
+* 您可以在Workfront Planning的“注释”部分中为记录添加注释和回复。
+
+* 添加到链接记录的评论不会显示在您链接到的记录中。 例如，如果您对链接到Campaign记录的Workfront Planning产品记录添加注释，则该注释仅在Workfront Planning的产品记录中显示，而不会在您链接的Campaign记录中显示。
+
+* 您可以将注释添加到由于某个记录与来自另一个应用程序的对象之间的连接而创建的Workfront Planning记录中。
+
+  例如，在将Workfront项目与Workfront Planning记录连接后，您可以对Workfront Planning项目记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+
+* 添加到其他应用程序中链接对象的注释不会显示在Workfront Planning中，而添加到Workfront Planning中链接对象的注释不会显示在其他应用程序中。
+
+  例如，添加到Workfront中的项目的注释不会显示在链接到Workfront Planning中的营销活动的同一项目中，并且添加到Workfront Planning项目记录的注释不会显示在Workfront中。
+
+* 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
+
+   * 从记录详细信息页面。
+   * 从视图中，在记录详细信息框中。
 
 ### 管理对记录的评论
 

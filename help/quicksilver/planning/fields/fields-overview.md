@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ hide: yes
 
   有关管理字段的信息，另请参阅以下文章：
 
-   * [编辑字段](/help/quicksilver/planning/fields/edit-fields.md)
+   * [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)
    * [删除字段](/help/quicksilver/planning/fields/delete-fields.md)
 
 * 与记录类型关联的字段可用于与该类型的所有记录相关联。 <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

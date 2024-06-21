@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，让您有权查看、贡献或管理工作区。 <!--add more objects here when we can grant other object-specific permissions-->
 
+Workfront Planning记录视图的权限独立于Workfront许可证类型。
+
 拥有所有许可证类型的用户可以查看、创建、编辑或管理Workfront Planning视图。
 
 本文介绍Workfront中所需的许可证类型，以及基于每种许可证类型向Workfront Planning中的工作区授予的权限。
@@ -33,7 +35,7 @@ ht-degree: 0%
 >
 >请求者（或协作者，根据新的许可证模型）无法参与或管理工作区及其对象。
 >
->共享框中有一个指示，即当用户拥有较低级别的许可证时，无法向其授予参与或管理工作区的权限。
+>共享框中有一个指示，当用户拥有较低级别的许可证时，无法向其授予参与工作区或管理工作区的权限，因为这些权限级别灰显。
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ ht-degree: 0%
 向用户授予对工作区的权限也会授予他们记录类型、记录和字段的权限。
 
 
-| Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的权限 |
+| Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 新增：标准 <br> 或 <br>当前：计划 | 用户可以创建和管理工作区、记录类型和记录。<br> 系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。 |
-| 新建：浅色 <br> 或 <br>当前：工作 | 用户可以贡献并查看与其共享的工作区，以及该工作区的记录类型和记录。 <br> 用户可以在具有Contribute权限的工作区中创建、编辑和删除记录。 |
-| 新：参与者 <br> 或 <br>当前：查看者或请求者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型和记录。 <br> 用户无法创建、编辑或删除记录类型或记录。 |
+| 新增：标准 <br> 或 <br>当前：计划 | 用户可以管理工作区。 他们可以创建、编辑或删除工作区、记录类型、记录和字段。 <br> 系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。 |
+| 新文档：轻量级，参与者 <br> 或 <br>当前：工作、请求者、查看者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。 <br> 用户无法创建、编辑或删除工作区、记录类型、记录或字段。 |
 
 *有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

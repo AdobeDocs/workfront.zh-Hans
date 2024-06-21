@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -135,4 +135,8 @@ ht-degree: 0%
 
 ## 通过共享工作区来共享工作区中的所有记录
 
-与他人共享工作区时，您可以共享工作区中的所有记录。 有关更多信息，请参阅 [共享工作区](/help/quicksilver/planning/access/share-workspaces.md).
+与他人共享工作区时，您可以共享工作区中的所有记录。
+
+只有对工作区具有管理权限的用户才能与他人共享该工作区。
+
+有关更多信息，请参阅 [共享工作区](/help/quicksilver/planning/access/share-workspaces.md).
