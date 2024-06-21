@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0411db95c2c4b85fdc09ec11ca90dec60deacbb7
+source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
 workflow-type: tm+mt
 source-wordcount: '14367'
 ht-degree: 1%
@@ -2239,9 +2239,9 @@ ht-degree: 1%
       * [Adobe Creative Cloud库模块](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic模块](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets模块](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-      * [Adobe I/O事件模块](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Experience Manager Forms模块](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Firefly模块](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Adobe I/O事件模块](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Journey Optimizer模块](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF Services模块](workfront-fusion/apps-and-their-modules/pdf-modules.md)
