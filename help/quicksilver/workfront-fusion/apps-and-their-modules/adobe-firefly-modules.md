@@ -8,9 +8,10 @@ title: Adobe Firefly模块
 description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Firefly]，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ ht-degree: 0%
    <td>输入或映射要用于展开图像的内容的提示。 如果未提供任何提示，则图像将展开，并且内容与原始图像匹配。</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[！UICONTROL变量数]</td> 
+   <td>输入一个介于1-4之间的数字。 模块将生成此数量的扩展图像变体。</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[！UICONTROL扩展图像格式]</td> 
    <td>选择将保存扩展图像的文件格式。</td> 
   </tr> 
@@ -212,6 +217,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Prompt]</td> 
    <td>输入或映射要用于填充图像的内容的提示。 如果未提供任何提示，则图像将填充与原始图像匹配的内容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL变量数]</td> 
+   <td>输入一个介于1-4之间的数字。 模块将生成此数量的已填充图像变体。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL填充图像格式]</td> 
@@ -253,6 +262,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Prompt]</td> 
    <td>为要创建的图像输入或映射提示。 在提示中显示更多详细信息，将允许您更好地控制映像中显示的内容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL变量数]</td> 
+   <td>输入一个介于1-4之间的数字。 模块将生成此数量的图像变体。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL生成的图像格式]</td> 
@@ -297,5 +310,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
-
