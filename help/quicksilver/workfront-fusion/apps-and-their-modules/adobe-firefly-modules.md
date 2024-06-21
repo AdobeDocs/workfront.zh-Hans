@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ ht-degree: 0%
    <td>选择希望填充图像的大小。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Seed]</td> 
-   <td>输入或映射整数。 您可以在另一个扩展图像模块中使用此相同的种子，以生成具有不同样式的相似图像。 </td> 
+   <td role="rowheader">[！UICONTROL种子]</td> 
+   <td>对于模块将生成的每个图像，单击 <b>添加项目<b> 并输入或映射一个整数。 您可以在另一个扩展图像模块中使用此相同的种子，以生成具有不同样式的相似图像。 添加的种子数必须等于变体数字段。</td> 
   </tr> 
  </tbody> 
 </table>
