@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 #### 使用命名查询
 
 某些对象类型具有通常执行的命名搜索，可以通过将查询名称附加到对象类型URI的末尾来提供。 例如，以下请求可检索用户当前已分配的工作项（任务和问题）：
-<pre>/attask/api/v15.0/work/myWork</pre>命名查询支持请求字段参数以检索其他字段。 一些命名查询也接受其他过滤器。 有关对象中允许的命名查询列表，请参阅[API Explorer](../../wf-api/general/api-explorer.md)中对象的“操作”选项卡。
+<pre>/attask/api/v15.0/work/myWork</pre>命名查询支持请求字段参数以检索其他字段。 一些命名查询也接受其他过滤器。 有关对象中允许的命名查询列表，请参阅[API Explorer](https://developer.adobe.com/workfront/api-explorer/)中对象的“操作”选项卡。
 
 #### 使用 `Count`
 
