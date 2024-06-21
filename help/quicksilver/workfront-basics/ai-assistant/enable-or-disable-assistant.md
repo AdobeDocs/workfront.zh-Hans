@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 1%
 # 启用或禁用AI助手
 
 作为Workfront管理员，您可以控制组织中哪些用户启用了AI助手。 这是通过访问级别管理的。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## 在Workfront中启用或禁用AI助手
 
 默认情况下，AI助手处于启用状态。
 
