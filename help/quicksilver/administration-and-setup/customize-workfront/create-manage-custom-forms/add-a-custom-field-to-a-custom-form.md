@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # 使用旧版表单生成器将自定义字段添加到自定义表单
 
 <!-- Audited: 02/2024 -->
+
+{{form-designer-default}}
 
 处理自定义表单时，您可以创建新的自定义字段并将其添加到自定义表单。
 

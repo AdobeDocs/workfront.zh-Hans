@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 7%
@@ -18,6 +18,8 @@ ht-degree: 7%
 # 自定义表单概述
 
 <!--Audited: 12/2023-->
+
+{{form-designer-default}}
 
 您可以构建自定义表单，以便用户将其附加到Adobe Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 
@@ -74,7 +76,7 @@ Workfront为每种对象类型提供了许多内置字段。
 * 费用
 * 组
 * 迭代
-* 开票记录
+* 账单记录
 
 有关将自定义表单附加到对象的详细信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

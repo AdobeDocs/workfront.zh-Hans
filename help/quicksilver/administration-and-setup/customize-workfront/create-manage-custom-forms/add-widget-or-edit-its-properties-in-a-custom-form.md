@@ -1,18 +1,20 @@
 ---
 title: 使用旧版表单生成器添加或编辑自定义表单中的图像或其他资源小组件
 description: 您可以在自定义表单中添加或编辑以下任何资源小部件的属性，如图像、视频、PDF文件和Adobe XD文件。 当您需要为要设计的应用程序包含可视内容（例如品牌推广图像、说明性视频或交互式原型）时，此功能非常有用。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # 使用旧版表单生成器添加或编辑自定义表单中的图像或其他资源小组件
+
+{{form-designer-default}}
 
 您可以在自定义表单中添加或编辑以下任何资源小部件的属性：
 

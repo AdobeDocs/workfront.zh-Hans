@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用旧版表单生成器重新使用自定义表单中现有的计算自定义字段
 description: 您可以在属于不同对象的自定义表单上使用相同的计算自定义字段。 例如，您可以使用为任务自定义表单上的项目自定义表单创建的“利润”计算字段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 使用旧版表单生成器重新使用自定义表单中现有的计算自定义字段
+
+{{form-designer-default}}
 
 您可以在属于不同对象的自定义表单上使用相同的计算自定义字段。 例如，您可以使用为任务自定义表单上的项目自定义表单创建的“利润”计算字段。
 

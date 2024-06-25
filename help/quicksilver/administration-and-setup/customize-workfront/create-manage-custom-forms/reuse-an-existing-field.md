@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 使用旧版表单生成器重新使用自定义表单中的自定义字段或资产小组件
 description: 创建或编辑自定义表单时，您可以添加已添加到其他自定义表单的自定义字段或小组件。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # 使用旧版表单生成器重新使用自定义表单中的自定义字段或资产小组件
+
+{{form-designer-default}}
 
 创建或编辑自定义表单时，您可以添加已添加到其他自定义表单的自定义字段或资源小部件。
 
