@@ -6,16 +6,14 @@ description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # 创建文档审阅或审批请求
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 您可以在Adobe Workfront中请求其他用户或团队批准文档，或请求他们审核文档而无需批准。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 1. 单击 **审批** 在左窗格中。
 
-1. <span class="preview">（可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。</span>
+1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
 1. 要添加批准者，请单击 **审批者** 并开始键入用户或团队名称。
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">（可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。</span>
+1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
 1. 要添加批准者，请单击 **审批者** 并开始键入用户或团队名称。
 
