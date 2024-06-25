@@ -8,9 +8,10 @@ title: Adobe Photoshop模块
 description: 借助Adobe Photoshop模块，您可以根据Adobe Photoshop帐户中的事件启动Adobe Workfront Fusion方案，创建、读取或更新协议和其他记录，使用您设置的标准搜索记录以及上传文档。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
+source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -157,7 +158,7 @@ ht-degree: 0%
 
 该操作模块会创建一个带有可选层的新PSD，并生成演绎版或另存为PSD。
 
-有关与此模块相关的字段，请参阅 [创建新PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) 请参阅Adobe Photoshop文档中的。
+有关与此模块相关的字段，请参阅 [创建新PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) 请参阅Adobe Photoshop文档。
 
 #### 编辑文本图层
 
@@ -535,4 +536,3 @@ ht-degree: 0%
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
