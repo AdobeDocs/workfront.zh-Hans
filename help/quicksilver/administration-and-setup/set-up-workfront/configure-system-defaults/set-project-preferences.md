@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL根据计算完成百分比]</td> 
-   <td> <p>项目或父任务的完成百分比基于任务的总体进度。 此信息可根据项目上任务的持续时间或计划小时数计算。</p> <p>如果选择[！UICONTROL持续时间]，项目中每个任务的持续时间将决定项目的整体完成百分比，每个子任务的持续时间将决定其父任务的整体完成百分比。</p> <p>如果选择[！UICONTROL Duration]，请确保在[！UICONTROL时间线]部分中指定[！UICONTROL每工作日典型小时数]和[！UICONTROL每周典型工作日数]。 [!DNL Workfront] 在基于持续时间计算任务的完成百分比时，将使用此信息。 </p> <p>如果您选择[！UICONTROL计划小时数]，请确保每个项目上的所有任务都定义了[！UICONTROL计划小时数]的数量，并且该数量不为零。</p> </td> 
+   <td> <p>Workfront使用项目中每个任务的完成百分比以及每个任务的持续时间或计划小时数来计算项目或父任务的完成百分比。</p><p>每个任务的完成百分比由任务分配者手动设置。</p><p>您可以在此处选择Workfront是使用任务的持续时间还是计划小时数来计算项目的完成百分比。</p> <p>如果选择[！UICONTROL持续时间]，项目中每个任务的持续时间将决定项目的整体完成百分比，每个子任务的持续时间将决定其父任务的整体完成百分比。</p> <p>如果选择[！UICONTROL Duration]，请确保在[！UICONTROL时间线]部分中指定[！UICONTROL每工作日典型小时数]和[！UICONTROL每周典型工作日数]。 [!DNL Workfront] 在基于持续时间计算任务的完成百分比时，将使用此信息。 </p> <p>如果您选择[！UICONTROL计划小时数]，请确保每个项目上的所有任务都定义了[！UICONTROL计划小时数]的数量，并且该数量不为零。</p><p>有关更多信息，请参阅 <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">项目完成百分比概述</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL根据进度状态自动设置项目条件]</td> 
