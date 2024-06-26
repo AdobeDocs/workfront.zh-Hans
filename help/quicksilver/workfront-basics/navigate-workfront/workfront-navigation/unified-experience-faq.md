@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: AdobeUnified Experience常见问题解答
+title: Adobe统一Experience常见问题解答
 description: 以下几项功能有所不同 [!DNL Workfront] 和Adobe Experience Cloud，您可能会有一些问题 [!DNL Workfront] 实例将迁移到统一体验。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---

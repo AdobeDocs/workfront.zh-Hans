@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* AdobeUnified Shell正在分阶段推出。 其他组织将登记到AdobeUnified Shell 24.10和25.1版本。
->* 预览版本： 2024年6月11日；针对特定客户的生产版本：随24.7版本（2024年7月）一起发布
+>* 预览版本： 2024年6月20日；针对特定客户的生产版本：随24.7版本（2024年7月）一起发布
 
 为了允许组织访问AdobeUnified Experience的优势，我们已经开始将其提供给现有的Workfront客户。
 
