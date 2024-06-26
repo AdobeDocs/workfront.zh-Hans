@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 7%
 
 ---
@@ -80,6 +80,6 @@ Workfront为每种对象类型提供了许多内置字段。
 
 有关将自定义表单附加到对象的详细信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-有关将问题转化为项目后自定义表单所发生情况的信息，请参阅 [将问题转化为项目](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关转化对象时自定义表单所发生情况的信息，请参阅 [转换对象时传输自定义表单数据](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 
