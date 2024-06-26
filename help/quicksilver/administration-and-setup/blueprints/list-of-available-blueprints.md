@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ ht-degree: 0%
 
 此Blueprint包含一个功能板，其中包含13个报告，可帮助您查找、重新分配或以其他方式管理与离开Workfront的用户相关的对象和分配。 您也可以将这些报告用于移动到新角色或组的用户以重新分配其工作。
 
-**[!UICONTROL 实施后：新用例转出]**
+[!BADGE 新建]{type=negative}**人员管理器功能板**
+
+此Blueprint包含一个包含12个报表的仪表板，使人员经理可以查看其直接下属的工作。
+
+**[!UICONTROL Post — 实施：新用例转出]**
 此Blueprint包含一个模板，用于组织 [!DNL Workfront] 客户将需要完成此项工作，以便在其初始实施后管理向后续流程的扩展。
 
 **[!UICONTROL 打印资产生产] （集成）**
@@ -133,6 +137,10 @@ ht-degree: 0%
 **价值实现 | 提供面向客户端的服务仪表板**
 
 此Blueprint包含一个包含8个报表的功能板，可帮助您实现Workfront的好处。 这些报告旨在帮助您将面向客户的服务转化为可衡量的价值，以便您能够随着时间的推移跟踪这些价值以实现更好的成果。
+
+[!BADGE 新建]{type=negative}**价值实现 | 管理合规性工作流信息板**
+
+此Blueprint包含一个包含7个报表的仪表板，可帮助您实现Workfront的价值。 对于日常使用或高度管控的行业，这些省时的报告通过帮助跟踪和管理工作流和法规遵从性需求，推动责任制并随时间改进成果。
 
 **价值实现 | 审阅和批准信息板**
 
