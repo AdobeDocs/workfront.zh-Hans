@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更�
 
 这些命令显示您可以向助理询问的不同内容的列表。
 
-有关现有命令的列表，请参见 [Adobe Workfront移动应用程序虚拟助手](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**注意：移动设备虚拟助手自2024年4月起已被弃用。**

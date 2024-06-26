@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 1%
 
 ---
@@ -273,8 +273,8 @@ ht-degree: 1%
             * [Adobe Workfront Proof 23.3发布活动： 2023年7月17日起的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年6月5日开始的这一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3发布活动： 2023年5月8日开始的一周](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
-         * [Workfront验证发布活动： 2021年5月17日开始的周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
-         * [Workfront验证发布活动： 2021年11月29日开始的周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+         * [Workfront Proof发布活动： 2021年5月17日开始的周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+         * [Workfront Proof发布活动： 2021年11月29日起的一周](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 每季发布存档 {#quarterly-release}
          * [每季发布存档](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4版本 {#release-20-4}
@@ -341,45 +341,45 @@ ht-degree: 1%
          * 2018.3发行版 {#release-18-3}
             * [2018.3版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [2018.3发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [2018.3 Beta 1发布活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [2018.3 Beta 2发布活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-            * [2018.3 Beta 3发布活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-            * [2018.3 Beta 4发布活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-            * [2018.3 Beta 5发布活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [2018.3 Beta最终版](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [2018.3 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [2018.3 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [2018.3 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+            * [2018.3 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+            * [2018.3 Beta 5发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+            * [2018.3Beta决赛](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * 2018.2发行版 {#release-18-2}
             * [2018.2版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-            * [2018.2 Beta 1发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
-            * [2018.2 Beta 2发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
-            * [2018.2 Beta 3发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-            * [2018.2 Beta 4发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [2018.2 Beta 5发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [2018.2 Beta最终发布活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [2018.2 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
+            * [2018.2 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+            * [2018.2 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+            * [2018.2 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+            * [2018.2 Beta 5发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [2018.2 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * 2018.1发行版 {#release-18-1}
             * [2018.1版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [2018.1发布活动概述](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [2018.1 Beta 1发布活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [2018.1 Beta 2发布活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-            * [2018.1 Beta 3发布活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [2018.1 Beta 4发布活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [2018.1 Beta最终发布活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [2018.1 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [2018.1 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [2018.1 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+            * [2018.1 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [2018.1 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * 2017.3发行版 {#release-17-3}
             * [2017.3版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [2017.3发布活动概述](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [2017.3 Beta 1发布活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [2017.3 Beta 2发布活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-            * [2017.3 Beta 3发布活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [2017.3 Beta 4发布活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [2017.3 Beta最终发布活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [2017.3 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [2017.3 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [2017.3 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+            * [2017.3 Beta 4发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [2017.3 Beta最终发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [2017.3版本网络研讨会](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * 2017.2发行版 {#release-17-2}
             * [2017.2版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [2017.2发布活动概述](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-            * [2017.2 Beta 1发布活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [2017.2 Beta 2发布活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [2017.2 Beta 3发布活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [2017.2测试版最终版](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [2017.2 Beta 1发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+            * [2017.2 Beta 2发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [2017.2 Beta 3发行版活动](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [2017.2Beta决赛](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [2017.2版网络研讨会](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Workfront R1版本 {#r1-release}
             * [Workfront R1版本](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -409,8 +409,8 @@ ht-degree: 1%
          * [电子邮件欺骗和POP回复删除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [列入允许列表群集1、2和3上的客户必须更新任何IP块，以防止阻塞Adobe Workfront服务](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [删除自定义SMTP作为传出电子邮件选项](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * 测试版计划 {#beta}
-      * [测试版计划](product-announcements/betas/betas.md)
+   * Beta项目 {#beta}
+      * [Beta项目](product-announcements/betas/betas.md)
       * Canvas Dashboards测试版 {#canvas-dashboards-beta}
          * [Canvas功能板测试版信息](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [报告画布测试版概述](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -982,7 +982,7 @@ ht-degree: 1%
       * 使用Adobe Workfront移动应用程序 {#use-workfront-mobile-app}
          * [使用Adobe Workfront移动应用程序](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [适用于Android的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [成为Android Beta测试者](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [成为Android Beta测试员](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [适用于iOS的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
          * [成为iOS Beta测试员](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [主页区域小组件](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
@@ -990,11 +990,10 @@ ht-degree: 1%
          * [适用于移动设备的Adobe Workfront展示板](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
          * [在Adobe Workfront移动应用程序中查看验证并做出决策](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
          * [在Adobe Workfront移动应用程序中共享和下载校样](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-         * [关于Android中验证的评论](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+         * [关于Android中校样的评论](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
          * [关于iOS中校样的评论](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [适用于移动设备管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [为MobileIron配置Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Adobe Workfront移动应用程序虚拟助手](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Adobe Workfront移动设备应用程序中的审批](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * 使用Adobe Workfront视图 {#use-workfront-view}
          * [使用Adobe Workfront视图](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1175,7 +1174,7 @@ ht-degree: 1%
          * [Adobe Experience Manager集成疑难解答](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 从旧版或增强型连接器迁移 {#migrate-from-legacy-enhanced-connectors}
       * [从旧版或增强型连接器迁移](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [从旧版或增强型连接器迁移到Workfront，以便进行AdobeExperience Manageras a Cloud Service集成](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [从旧版或增强型连接器迁移到Workfront，以便实现AdobeExperience Manageras a Cloud Service集成](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [从旧连接器迁移到增强连接器](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [使用Adobe Experience Manager旧版连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [使用Adobe Experience Manager增强型连接器卸载Workfront](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -2220,7 +2219,7 @@ ht-degree: 1%
          * [方案模板](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] 模板概述](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [在Adobe Workfront Fusion中创建新模板](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [发布和共享Adobe Workfront Fusion模板](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish和共享Adobe Workfront Fusion模板](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [使用Adobe Workfront Fusion模板创建场景](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [查看、编辑和删除Adobe Workfront Fusion模板](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Adobe Workfront Fusion Templates管理](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2421,7 +2420,7 @@ ht-degree: 1%
       * [从Slack中搜索Adobe Workfront项目](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [从Slack中的共享链接访问Adobe Workfront对象](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [从Slack访问Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [将Slack评论发布为更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [PostSlack注释作为更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [在Slack中接收Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront与Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront与Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2435,14 +2434,14 @@ ht-degree: 1%
       * [将Anaplan预算分配应用于Adobe Workfront活动请求或活动项目](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront 验证 {#workfront-proof}
    * [Workfront Proof：文章索引](workfront-proof/workfront-proof.md)
-   * 开始使用Workfront Proof {#get-started-wf-proof}
+   * Workfront Proof入门 {#get-started-wf-proof}
       * [Workfront Proof快速入门](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 工作流示例 {#workflow-examples}
          * [工作流示例](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-         * [Workfront Proof中的基本校对过程](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-         * [Workfront Proof中的内部审核和外部审核](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-         * [在Workfront Proof中与设计人员和项目经理合作](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-         * [在Workfront Proof中与自由职业者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+         * [Workfront Proof中的基本校对流程](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+         * [Workfront Proof中的内部审查，然后外部审查](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+         * [在Workfront Proof中使用设计人员和项目经理](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+         * [在Workfront Proof与自由职业者合作](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
       * Workfront Proof中的个人设置 {#personal-settings-in-wf-proof}
          * [Workfront Proof中的个人设置](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [在Workfront Proof中指定临时验证所有者](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
@@ -2463,12 +2462,12 @@ ht-degree: 1%
       * [在Workfront Proof中使用验证和文件](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
       * Workfront Proof中的自动工作流 {#automated-workflow-in-wf-proof}
          * [Workfront Proof中的自动工作流](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-         * [在Workfront Proof中设置具有自动工作流的验证](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+         * [在Workfront Proof中设置使用自动工作流的验证](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [在Workfront Proof中管理使用自动工作流配置的验证](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
       * Workfront Proof中的基本功能 {#basic-features-in-wf-proof}
          * [Workfront Proof中的基本功能](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-         * [Workfront Proof中的仪表板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-         * [Workfront Proof的“视图”选项卡上的“页面布局”](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+         * [Workfront Proof中的功能板](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+         * [Workfront Proof中的“视图”选项卡上的“页面布局”](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
          * [搜索Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
          * [了解Workfront Proof活动审核记录](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * 创建验证和文件 {#create-proofs-and-files}
@@ -2482,7 +2481,7 @@ ht-degree: 1%
          * [在Workfront Proof中管理文件](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [在Workfront Proof中管理“查看次数”页面上的项目](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [在Workfront Proof中管理验证版本](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
-         * [在Workfront Proof中配置验证设置](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
+         * [在Workfront Proof中配置校对设置](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
          * [在Workfront Proof Proof中创建和管理自定义视图](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
          * [下载存储在Workfront Proof中的文件](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
          * [在Workfront Proof中管理验证详细信息](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
@@ -2490,7 +2489,7 @@ ht-degree: 1%
          * [了解Workfront Proof中的验证状态](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [删除Workfront Proof中的验证](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [在Workfront Proof中还原并清空垃圾桶](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-         * [在Workfront Proof中运行报告](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+         * [在Workfront Proof中运行报表](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
       * 组织您的工作 {#organize-your-work}
          * [组织您的工作](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
          * [Workfront Proof中的文件夹](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
@@ -2500,9 +2499,9 @@ ht-degree: 1%
          * [在Workfront Proof中共享文件夹](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
          * [了解Workfront Proof中的文件夹权限](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
          * [在Workfront Proof中创建和管理标记](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
-         * [在Workfront Proof中存档](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-         * [备份Workfront验证数据](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
-         * [在Workfront Proof中打印和导出评论](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
+         * [Workfront Proof中的存档](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
+         * [备份Workfront Proof数据](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+         * [在Workfront Proof中打印和导出注释](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
       * 在桌面校对查看器中查看校对 {#review-proofs-in-viewer}
          * [在桌面校对查看器中查看校对](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [了解桌面校对查看器](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
@@ -2517,7 +2516,7 @@ ht-degree: 1%
          * [在验证查看器中比较验证](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [在Web验证查看器中查看以前的验证版本](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [在验证查看器中下载验证](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-         * [Workfront校对查看器中的键盘快捷键](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+         * [Workfront Proof验证查看器中的键盘快捷键](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [已删除旧版验证查看器](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * 共享验证和文件 {#share-proofs-and-files}
          * [共享验证和文件](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
@@ -2538,7 +2537,7 @@ ht-degree: 1%
          * [在Workfront Proof中配置用户的验证权限配置文件](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
          * [在Workfront Proof中配置自定义配置文件](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
          * [为Workfront Proof用户配置单点登录](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-         * [Workfront Proof中的单点登录： AD FS配置](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+         * [Workfront Proof中的单点登录：AD FS配置](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Workfront Proof中的验证权限配置文件](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
          * [在Workfront Proof中配置批准决策选项](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
          * [在Workfront Proof中创建和管理自定义字段](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
@@ -2546,22 +2545,22 @@ ht-degree: 1%
          * [Workfront Proof中集成的帐户设置](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
          * [在Workfront Proof中查看身份验证日志](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
          * [查看和编辑贵组织的Workfront Proof帐户详细信息](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
-         * [查看贵组织的Workfront验证管理员帐户历史记录](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
+         * [查看贵组织的Workfront Proof管理员帐户历史记录](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
          * [检查您的Workfront Proof存储](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [在Workfront Proof中请求新的数据备份](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
       * 品牌推广Workfront Proof {#branding-wf-proof}
          * [品牌推广Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
          * [品牌化Workfront Proof网站](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-         * [品牌化Workfront Proof网站 — 高级](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+         * [打造Workfront Proof网站 — 高级](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
       * 管理安全性 {#manage-security}
          * [管理安全性](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-         * [Workfront Proof中的证明安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+         * [Workfront Proof中的验证安全性](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Workfront Proof中的单点登录](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [了解Workfront Proof中的电子签名](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
       * Workfront Proof中的合作伙伴帐户 {#partner-accounts-in-wf-proof}
          * [Workfront Proof中的合作伙伴帐户](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-         * [管理Workfront Proof帐户之间的合作伙伴关系](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-         * [在Workfront Proof中与合作伙伴共享项目](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+         * [管理Workfront Proof帐户之间的合作关系](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+         * [与Workfront Proof中的合作伙伴共享项目](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
       * Workfront Proof中的附属帐户 {#satellite-accounts-in-wf-proof}
          * [Workfront Proof中的附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Workfront Proof中的附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
@@ -2569,15 +2568,15 @@ ht-degree: 1%
          * [在Workfront Proof中管理附属帐户](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
       * Workfront Proof帐户管理的提示、技巧和疑难解答 {#ttt-wf-proof-account-admin}
          * [Workfront Proof帐户管理的提示、技巧和疑难解答](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-         * [常见问题解答： Workfront Proof — 美国到EMEA的迁移](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+         * [常见问题解答： Workfront Proof — 美国迁移到EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
    * Workfront Proof计费设置 {#wf-proof-billing-settings}
       * [Workfront Proof计费设置](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * 管理您的帐单 {#manage-billing}
          * [管理您的帐单](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
          * [Workfront Proof账单页面](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-         * [在Workfront Proof中选择付款方式](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-         * [下载Workfront证明发票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-         * [关闭Workfront Proof帐户](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+         * [在Workfront Proof中选择支付方式](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+         * [下载Workfront Proof发票](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+         * [关闭您的Workfront Proof帐户](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
    * 校对通知和提醒 {#proof-notifications-and-reminders}
       * [校对通知和提醒](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * 避免垃圾邮件过滤器 {#avoid-spam-filters}
@@ -2587,7 +2586,7 @@ ht-degree: 1%
          * [Workfront Proof SPF记录](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
       * 向审阅人发送消息 {#send-messages-to-reviewers}
          * [向审阅人发送消息](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-         * [在Workfront Proof中提醒审阅人分配工作](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
+         * [提醒查看者有关Workfront Proof中的分配的信息](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [向验证上的审阅人发送提醒消息](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
       * 校对通知和提醒 {#proof-notifications-and-reminders}
          * [校对通知和提醒](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
@@ -2598,12 +2597,12 @@ ht-degree: 1%
    * 电子邮件警报 {#email-alerts}
       * [电子邮件警报](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [在Workfront Proof中配置电子邮件通知设置](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
-      * [更改Workfront Proof中验证的电子邮件警报设置](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+      * [在Workfront Proof中更改验证的电子邮件警报设置](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * 在Workfront Proof中管理用户和联系人 {#managing-users-in-wf-proof}
       * [在Workfront Proof中管理用户和联系人](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * 用户 {#users}
          * [用户](workfront-proof/wp-mnguserscontacts/users/users.md)
-         * [使用Workfront验证创建用户](workfront-proof/wp-mnguserscontacts/users/create-users.md)
+         * [使用Workfront Proof创建用户](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [使用Workfront Proof配置用户信息](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [使用Workfront Proof创建和管理自定义配置文件](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [使用Workfront Proof在帐户之间移动用户](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
@@ -2612,40 +2611,40 @@ ht-degree: 1%
          * [将组添加到验证](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [使用Workfront Proof创建验证组](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [使用Workfront Proof使组成为私有组](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-         * [使用Workfront Proof管理组](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+         * [使用Workfront Proof管理群组](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
       * 联系人 {#contacts}
          * [联系人](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-         * [将访客添加到Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+         * [向Workfront Proof添加访客](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [在Workfront Proof中管理您的联系人](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [了解Workfront Proof中的用户、成员和来宾](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
       * 面向Workfront Proof用户和联系人的提示、技巧和疑难解答 {#ttt-wf-proof-users-and-contacts}
          * [面向Workfront Proof用户和联系人的提示、技巧和疑难解答](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [批量编辑用户的其他组](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-   * Workfront Proof移动设备 {#wf-proof-mobile}
-      * [Workfront Proof移动设备](workfront-proof/wp-mobile/wp-mobile.md)
+   * Workfront Proof mobile {#wf-proof-mobile}
+      * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof移动应用程序 {#wf-proof-mobile-apps}
          * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * [适用于平板电脑的Workfront Proof移动应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+         * [适用于平板电脑的Workfront Proof移动设备应用程序](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof移动应用程序的提示、技巧和疑难解答 {#ttt-wf-proof-mobile-apps}
          * [Workfront Proof移动应用程序的提示、技巧和疑难解答](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [无法登录Workfront Proof移动应用程序](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront Proof技术角 {#wf-proof-tech-corner}
-      * [Workfront Proof技术角](workfront-proof/wp-tech-corner/tech-corner.md)
+   * Workfront Proof技术园地 {#wf-proof-tech-corner}
+      * [Workfront Proof技术园地](workfront-proof/wp-tech-corner/tech-corner.md)
       * 校对类型 {#proof-types}
          * [校对类型](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
-         * [使用Workfront Proof创建静态网站校对](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+         * [使用Workfront Proof创建静态网站验证](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
       * Workfront Proof中的故障排除 {#troubleshooting-wf-proof}
          * [Workfront Proof中的故障排除](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [疑难解答 — Mac上的验证查看器中的界面字体损坏](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [了解缓存和Cookie如何影响Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof中的速度问题](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [疑难解答 — Workfront校对查看器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+         * [疑难解答 — Workfront Proof验证查看器](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof集成 {#wf-proof-integrations}
       * [Workfront Proof集成](workfront-proof/wp-integrations/wp-integrations.md)
-      * Workfront Proof API {#wf-proof-api}
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+      * WORKFRONT PROOF API {#wf-proof-api}
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * 盒子 {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof与Box集成简介](workfront-proof/wp-integrations/box/introduction-to-box.md)

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -52,5 +52,5 @@ Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更�
 
 可以使用pin功能访问已保存的虚拟助理命令以及Web浏览器中的pin。
 
-有关这两项功能的详细信息，请参阅 [Adobe Workfront移动应用程序虚拟助手](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**注意：移动设备虚拟助手自2024年4月起已被弃用。**
 
