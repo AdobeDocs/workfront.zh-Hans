@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 单击工作区信息卡以打开工作区。
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按键 **输入**.
-1. 单击 **更多** 菜单 ![](assets/more-menu.png)工作区名称右侧，然后单击 **编辑**.
+1. 单击 **更多** 菜单 ![](assets/more-menu.png) 工作区名称右侧，然后单击 **编辑**.
 
    ![](assets/edit-workspace-box.png)
 

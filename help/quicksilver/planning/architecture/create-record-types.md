@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 1%
 
    或
 
-   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要创建记录类型的工作区。
+   从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. （可选）单击 **添加分区** 以向工作区中添加新分区。
 1. 单击 **添加记录类型**.
 1. （视情况而定）启用通过导入Excel或CSV文件创建记录类型时，单击 **从头开始**. 否则， **添加记录类型** 框打开。
@@ -230,7 +230,7 @@ ht-degree: 1%
 
    或
 
-   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要创建记录类型的工作区。
+   从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. 单击 **添加记录类型**.
 1. 单击 **Excel/CSV**.
 1. 拖放以前保存在计算机上的Excel或CSV文件，或单击 **选择CSV或Excel文件** 以浏览其中一个。

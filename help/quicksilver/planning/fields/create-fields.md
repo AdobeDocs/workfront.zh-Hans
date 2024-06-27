@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,11 @@ recommendations: noDisplay, noCatalog
    >
    >    某些字段可能已隐藏。 单击字段，然后启用在表格视图中作为列查看的字段的切换。
 
-1. 单击 **+** 图标来添加新字段。
+1. 单击 **+** 图标（位于表格视图的右上角）
+
+   或
+
+   将鼠标悬停在任何列的标题上，单击字段名称后面的向下箭头，然后单击 **在左侧插入** 或 **在右侧插入** 以添加新字段。
 1. 在 **新建字段** 选项卡，在中搜索字段类型 **字段类型** 框，或从以下字段类型中选择：
 
    * [单行文本](#single-line-text)

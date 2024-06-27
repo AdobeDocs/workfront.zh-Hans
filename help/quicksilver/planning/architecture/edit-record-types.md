@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ hide: yes
 
    或
 
-   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要编辑其记录类型的工作区。
+   从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 
    此时会打开工作区，并显示记录类型。
 1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **编辑**.
@@ -130,4 +130,4 @@ hide: yes
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. （可选）展开记录类型名称右侧的向下箭头，然后选择要编辑的其他记录类型。
+1. （可选）要编辑其他记录类型，请展开记录类型名称右侧的向下箭头，搜索记录类型，然后当该记录类型显示在列表中时将其选定。

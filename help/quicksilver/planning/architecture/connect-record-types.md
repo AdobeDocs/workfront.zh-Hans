@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2487'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    或
 
-   从工作区中，展开现有工作区名称右侧的向下箭头，然后选择要从中连接记录类型的工作区。
+   从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击 **+** 图标，然后单击 **新建连接** 选项卡。
 
