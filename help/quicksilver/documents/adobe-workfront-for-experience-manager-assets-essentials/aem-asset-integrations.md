@@ -6,14 +6,16 @@ description: Workfront与Experience Manager Assets或Assets Essentials之间的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Assets集成概述
+
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -37,7 +39,7 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 ## 先决条件
 
 * Workfront必须位于分配了组织ID的Admin Console中。
-* Workfront和Experience Manger资源或Assets Essentials必须作为产品分配给配置集成的用户。
+* Workfront和Experience Manger Assets或Assets Essentials必须作为产品分配给配置集成的用户。
 
 
 ## 支持的产品
@@ -45,8 +47,14 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 * Adobe Experience Manager Assetsas a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
+## 支持的云服务提供商
 
-## 开始使用
+* AWS (Amazon Web Services)
+* Azure
+* <span class="preview">GCP (Google Cloud Platform)</span>
+
+
+## 快速入门
 
 1. [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 1. 设置集成：

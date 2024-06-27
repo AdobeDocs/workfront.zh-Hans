@@ -3,7 +3,7 @@ title: ’[!DNL Adobe Workfront] 文档
 description: 文档 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 探索学习和培训部分
 
-* **培训材料**：导航到 [Workfront培训](https://experienceleague.adobe.com/en/browse/workfront) 页面，其中包含旨在帮助您更好地了解Workfront功能和设置的培训视频和文章。 您还可以通过以下网站获取付费培训材料： [learning.adobe.com](http://learning.adobe.com/).
+* **培训材料**：导航到 [Workfront培训](https://experienceleague.adobe.com/en/browse/workfront) 页面，其中包含旨在帮助您更好地了解Workfront功能和设置的培训视频和文章。 您还可以通过以下网站获取付费培训材料： [learning.adobe.com](https://learning.adobe.com/).
 * **课程**：查找 [结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 该指南将指导您按逻辑顺序使用各种Workfront功能。
 
 ### 在社区论坛中查找答案

@@ -2,22 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 将文档发送到Experience Manager Assets或Assets Essentials
-description: 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的资源不计入总体存储空间。
+description: 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的Assets不计入总体存储空间。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # 将文档发送到Experience Manager Assets或Assets Essentials
 
-您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的资源不计入总体存储空间。
+<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
-通过此集成发送到Experience Manager的资源大小限制为 **5 GB**.
+您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的Assets不计入总体存储空间。
+
+通过此集成发送到Experience Manager的Assets具有大小限制 **5 GB**.
+
+<span class="preview">在“预览”环境中，通过此集成发送到Experience Manager的Assets具有大小限制 **30 GB**.</span>
 
 在将资源从Workfront发送到Experience Manager Assets或Assets Essentials时，首先映射元数据字段。 配置为映射父对象的任何元数据也会发送。 有关配置元数据映射的详细信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -68,7 +72,7 @@ ht-degree: 0%
 
 ## 从Workfront发送文档
 
-当用户从Workfront向Experience Manager Assets或Assets Essentials发送文档时，映射的元数据会沿着文档传输。 发送文档后，在Workfront中对文档元数据所做的更改不会反映在资源或Assets Essentials中。 如果Workfront中的映射字段发生更改，您必须将包含更新后元数据的文档新版本发送到Assets或Assets Essentials。 要设置或编辑元数据，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+当用户从Workfront向Experience Manager Assets或Assets Essentials发送文档时，映射的元数据会沿着文档传输。 发送文档后，在Workfront中对文档元数据所做的更改不会反映在Assets或Assets Essentials中。 如果Workfront中的映射字段发生更改，您必须将文档的新版本与更新的元数据一起发送到Assets或Assets Essentials。 要设置或编辑元数据，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 要发送文档，请执行以下操作：
 
@@ -77,7 +81,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及资源或Assets Essentials。
+   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Assets或Assets Essentials。
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及资源或Assets Essentials。
+   >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Assets或Assets Essentials。
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
