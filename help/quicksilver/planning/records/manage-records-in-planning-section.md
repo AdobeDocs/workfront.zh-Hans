@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
-   <p>在Workfront Planning中，“查看”或更高的工作区权限</a> </p>  
+   <p>在Workfront Planning、Contribute或更高的工作区权限中</a> </p>  
    <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ ht-degree: 1%
    * [连接记录](/help/quicksilver/planning/records/connect-records.md)
 * 您可以查看Workfront对象中的Planning部分，即使没有与Workfront对象关联的记录也是如此。
 * 当至少有一个记录连接到Workfront对象时，您可以在Planning部分中，将Planning记录与Workfront中的Workfront对象连接。
-* 您必须具有工作区的管理权限才能从Workfront对象连接记录。
 
 ## 管理“计划”部分中的记录
 
@@ -114,8 +113,8 @@ ht-degree: 1%
    工作区将打开，记录类型显示为卡片。
 
 1. 单击连接到Workfront项目、项目组合或项目群的记录类型的卡。
-1. 从中选择表格视图 **视图** 下拉菜单。
-1. （视情况而定）转到表中连接的记录字段并添加Workfront对象，然后单击字段中Workfront对象的名称。 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+1. 在表格视图或记录的详细信息页面中，转到与Workfront对象有连接的已连接记录字段。 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+1. 在连接的记录字段中单击Workfront对象的名称。
 对象的页面将在Workfront Planning中打开。
 1. 单击 **转到源**，位于屏幕右上角。
 
@@ -148,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   “连接”按钮仅显示您具有Contribute权限的工作区。 <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   “连接”按钮仅显示您拥有Contribute权限的工作区。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 单击要连接的记录。 出现以下情况：
 
