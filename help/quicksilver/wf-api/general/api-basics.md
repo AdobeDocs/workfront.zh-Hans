@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 ## 限制和准则
 
-为确保一致的Workfront按需系统性能，每个客户最多有10个并发API线程。 沙盒环境也有着相同的限制，允许客户和合作伙伴在将代码发布到生产环境之前准确测试API调用。
+为了确保一致的Workfront按需系统性能，Workfront API限制并发API线程。 此护栏可防止由滥用API调用导致的系统问题。 沙盒环境已达到相同的并发API线程限制，允许客户和合作伙伴在将代码发布到生产环境之前准确测试API调用。
 
 对于生产、预览和测试驱动器环境，最终用户请求的最大URI长度为8892字节，因为它们是通过Workfront CDN (Akamai)路由的。 此限制仅适用于通过CDN路由的URI。
 
