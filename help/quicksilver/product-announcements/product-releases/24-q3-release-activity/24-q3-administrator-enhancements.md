@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 本页介绍了在2024年第三季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第三季度发布周期中此时所有可用更改的列表，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Adobe Workfront中通常提供自定义表单设计器
+
+>[!NOTE]
+>
+>预览版本： 2024年6月19日；适用于所有客户的生产版本：使用24.7版本（2024年7月18日）。
+
+自定义表单设计器于2023年4月发布到测试版（23.2版），自那以来已添加更多功能，例如外部查找字段和Workfront原生字段。 2024年，表单设计器与旧版表单生成器达到了功能对等。
+
+在24.7版本中，表单设计器将正式可用，并且将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 创建新自定义表单或打开现有表单时，您将看到表单设计器的画布样式工作区。
+
+在此版本之后，您将无法再选择还原到旧版表单生成器。
+
+有关表单设计器以及视频演示的详细信息，请参阅 [表单设计器测试版发行说明](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## 通过环境升级，在Workfront环境之间移动对象
 
@@ -51,7 +65,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年6月6日；适用于所有客户的生产版本：使用24.7版本（2024年7月）
+>预览版本： 2024年6月6日；适用于所有客户的生产版本：带有24.7版（2024年7月18日）
 
 您现在可以直接从Workfront中的字段区域添加新的自定义字段或构件，而无需打开自定义表单来创建字段。 这允许您快速创建可重用的自定义字段。
 

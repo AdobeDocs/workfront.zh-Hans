@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* AdobeUnified Shell正在分阶段推出。 其他组织将登记到AdobeUnified Shell 24.10和25.1版本。
->* 预览版本： 2024年6月20日；针对特定客户的生产版本：随24.7版本（2024年7月）一起发布
+>* 预览版本： 2024年6月20日；面向指定客户的生产版本：随24.7版本（2024年7月18日）一起发布
 
 为了允许组织访问AdobeUnified Experience的优势，我们已经开始将其提供给现有的Workfront客户。
 
@@ -45,7 +45,7 @@ AdobeUnified Experience包括：
 
 >[!NOTE]
 >
->预览版本： 2024年6月6日；面向所有客户的生产：使用24.7版本（2024年7月）
+>预览版本： 2024年6月6日；面向所有客户的生产：使用24.7版本（2024年7月18日）
 
 为了统一不在Unified Shell上的用户的体验，已删除主导航栏上的“帮助”按钮。 此按钮未向Unified Shell上的用户提供，已链接到Workfront文档，并且与主菜单中所有用户都可用的类似“帮助”按钮一起冗余。
 

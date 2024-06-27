@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2024年第三季度版本中包含的功能信息。 这些增强功能计划本季度在“生产”环境中提供。
 
-24.7版本网络研讨会将于2024年6月27日举行。 您可以 [在此处登记网络研讨会](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+24.7版本的实时网络研讨会已取消，但您仍可以 [在此处观看24.7功能的视频演示](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">周期外功能（在2024年第三季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>24.5（2024年5月16日）</li><li>24.6（2024年6月13日）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5（2024年5月16日）</li><li>24.6（2024年6月13日）</li><li>24.7（2024年7月18日）</li></ul> | <ul><li>24.7（2024年7月18日）</li></ul> |
 >
 >有关快速发布流程的详细信息，请参阅 [启用或禁用快速发布流程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ ht-degree: 0%
 
 * [管理员增强功能](#administrator-enhancements)
 * [财务管理增强功能](#financial-management-enhancements)
+* [集成增强功能](#integration-enhancements)
 * [项目增强功能](#project-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [其他增强功能](#other-enhancements)
@@ -54,6 +55,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adobe Workfront中通常提供自定义表单设计器</a></p>
+                        <p>在24.7版本中，表单设计器将正式可用，并且将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 创建新自定义表单或打开现有表单时，您将看到表单设计器的画布样式工作区。</p>
+                        <p>在此版本之后，您将无法再选择还原到旧版表单生成器。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年6月19日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 集成增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">适用于Experience Manager Assets的Workfront和Assets Essentials改进</a></p>
+                        [！BADGE New in Preview ]{type=Negative}
+                        <p>我们对Workfront进行了以下改进，以便实现Experience Manager Assets和Assets Essentials集成：</p>
+                        <ul>
+                            <li><p>该集成现在支持GCP作为云服务提供商。 以前支持AWS和Azure。</p></li>
+                            <li><p>通过集成发送到Experience Manager的文件的大小限制已增加到30 GB。 以前，限制为5 GB。</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年6月27日</p>
+                            </li>
+                            <li>
+                                <p>面向所有客户的生产：使用24.7版本（2024年7月18日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### 项目增强功能
 
 <table>
@@ -196,7 +254,7 @@ ht-degree: 0%
                                 <p>快速发布生产：使用24.6版本（2024年6月13日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月20日</p>
                             </li>
                             <li>
-                                <p>针对特定客户的生产：随24.7版（2024年7月）的发布</p>
+                                <p>针对特定客户的生产：随24.7版一起提供（2024年7月18日）</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">AdobeUnified Shell正在分阶段推出。 其他组织将登记到AdobeUnified Shell 24.10和25.1版本。 </p>
@@ -323,7 +381,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年6月6日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月）</p>
+                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>按季度发布的生产：使用24.7版本 </p>
+                                <p>按季度发布的生产：24.7版（2024年7月18日）</p>
                             </li>
                         </ul>
                     </td>
