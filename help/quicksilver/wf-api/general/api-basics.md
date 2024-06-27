@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
+source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
 workflow-type: tm+mt
 source-wordcount: '4395'
 ht-degree: 0%
@@ -551,3 +551,4 @@ DELETE删除对象。 在每种情况下，URI都可以包含参数force=true �
 >[!NOTE]
 >
 >原子批处理操作只能返回“success： true”或错误。
+
