@@ -7,14 +7,23 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
+source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
 # 启用或禁用AI助手
+
+>[!IMPORTANT]
+>
+>目前，AI助手仅面向有限数量的Workfront和Workfront Planning客户提供。
+>
+>* Workfront： AI Assistant测试版
+>* Workfront计划：提前访问
+>
+>您的客户代表可以通知您您是否属于这些组。
 
 作为Workfront管理员，您可以控制组织中哪些用户启用了AI助手。 这是通过访问级别管理的。
 
