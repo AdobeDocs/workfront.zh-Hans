@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
 
-有关新功能及其发布时间的信息，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/planning/general/release-activity.md).
+有关新功能及其发布时间的信息，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md).
 
 | 功能 | 现在可用 | 即将推出 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 以下是主要的Workfront Planning对象和概念：
 
-* **工作区**：定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。
+* **Workspace**：定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。
 
   一个Workfront实例最多可以具有1,000个工作区。
 
@@ -144,7 +144,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   有关更多信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
 
-* **工作区模板**：您可以使用预定义模板创建工作区。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
+* **Workspace模板**：您可以使用预定义模板创建工作区。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 我们将定期为Workfront Planning发布新功能。
 
-有关已发布功能的最新列表，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/planning/general/release-activity.md)
+有关已发布功能的最新列表，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md)
 

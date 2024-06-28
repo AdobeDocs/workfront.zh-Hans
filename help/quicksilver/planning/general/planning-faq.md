@@ -4,9 +4,9 @@ description: 作为营销运营负责人，您可以使用Adobe Workfront Planni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront规划模块是三个不同但相互关联的Workfront功能之一，�
 
 ## Workfront计划何时发布？
 
-正式发布的最新Workfront计划于2024年8月28日发布。 有关当前发布哪些功能的最新信息，请参阅 [Adobe Workfront Planning发布活动](/help/quicksilver/planning/general/release-activity.md).
+正式发布的最新Workfront计划于2024年8月28日发布。 有关当前发布哪些功能的最新信息，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md).
 
 ## Workfront规划的早期阶段结束后，会发生什么情况？
 
