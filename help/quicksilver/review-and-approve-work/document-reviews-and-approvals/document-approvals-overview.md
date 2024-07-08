@@ -6,10 +6,10 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,9 @@ ht-degree: 1%
 
 ## 发布计划
 
-我们正在多个版本中向用户提供New Document Approvals。 除了添加新功能外，我们还将增加每个版本中可用的新文档审批的帐户数量。 客户管理员在加入之前，将收到通知中心电子邮件，告知他们所做的更改。
+我们正在多个版本中向用户提供New Document Approvals。 除了添加新功能外，我们还将增加每个版本中可用的新文档审批的帐户数量。
 
 如果您想在生产环境中启用“新文档审批”，请联系您的客户成功经理或战略客户经理。
-
-**版本1**\
-    预览： 2023年5月31日\
-    生产： 2023年6月14日
 
 ## 使用新文档审批
 
