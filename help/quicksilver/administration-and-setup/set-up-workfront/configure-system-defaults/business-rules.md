@@ -7,17 +7,16 @@ description: 您可以选择按月还是按季度接收新的Workfront功能。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # 创建和编辑业务规则
+
+{{highlighted-preview-article-level}}
 
 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 当用户与对象交互时，访问级别和对象共享具有比业务规则更高的优先级。 例如，如果用户具有不允许编辑项目的访问级别或权限，则这些权限将优先于允许在特定条件下编辑项目的业务规则。
 
-将多个业务规则应用于对象时，也会存在层次结构。 例如，您有两个业务规则。 其中一项限制在2月份创建费用。 第二个阻止在项目状态为完成时编辑项目。 如果用户尝试在6月将费用添加到已完成的项目，则无法添加该费用，因为它触发了第二个规则。
+当多个业务规则应用于对象时，规则全部遵循，但不会按特定顺序应用。 例如，您有两个业务规则。 其中一项限制在2月份创建费用。 第二个阻止在项目状态为完成时编辑项目。 如果用户尝试在6月将费用添加到已完成的项目，则无法添加该费用，因为它触发了第二个规则。
 
 业务规则适用于通过API以及在Workfront界面中创建、编辑和删除对象。
 
@@ -64,18 +63,36 @@ ht-degree: 0%
 
 ## 业务规则方案
 
-一些简单的业务规则方案包括：
+业务规则的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
 
-* 用户无法在2月的最后一周添加新费用。 该公式可表述为： `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* 用户无法编辑处于完成状态的项目。 该公式可表述为： `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-构建业务规则的语法与在自定义表单中构建计算字段的语法相同。 有关语法的更多信息，请参见 [使用表单设计器添加计算字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+业务规则中属性和其他函数的语法与自定义表单中计算字段的语法相同。 有关语法的更多信息，请参见 [使用表单设计器添加计算字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 有关IF语句的信息，请参见 [“IF”语句概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 和 [计算自定义字段中的条件运算符](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 有关基于用户的通配符的信息，请参见 [使用基于用户的通配符对报告进行归纳](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 有关基于日期的通配符的信息，请参阅 [使用基于日期的通配符对报表进行泛化](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+业务规则中还提供了API通配符。 您可以使用 `$$ISAPI` 仅在UI中或仅在API中触发规则。
+
+一些简单的业务规则方案包括：
+
+* 用户无法在2月的最后一周添加新费用。 该公式可表述为： `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 用户无法编辑处于完成状态的项目。 该公式可表述为： `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+具有嵌套IF语句的情形是：
+
+用户无法编辑已完成的项目，也无法编辑计划完成日期为3月的项目。 该公式可表述为：
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## 添加新业务规则
 
