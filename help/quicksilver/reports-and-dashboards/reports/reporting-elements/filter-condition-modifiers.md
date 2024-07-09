@@ -6,9 +6,9 @@ description: 利用过滤器和条件修饰符，可构建过滤器并建立用�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ ht-degree: 0%
    <td> <p><strong>不等于</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>这是 <i>区分大小写</i> 反向 <strong>在</strong>. 它只返回不在指定列表中的结果。</p> <p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> <p>注意： <span>如果要过滤的字段有多个选项，则过滤掉包含指定选项、指定选项和任何其他选项的结果。</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>点赞</strong> </p> </td> 
+   <td> <p>此修饰符搜索 <i>区分大小写</i> 与类似的文本字符串 <strong>包含</strong>. 但是， <strong>点赞</strong> 提供插入通配符以分解文本的功能。</p> <p>例如，在搜索注释时，使用 <code>like %Current% %Dead%</code> 返回包含短语“Current to Dead”的任何注释。 它不包括任何包含“Dead to Current”的注释。 每个值都将按其列出的顺序进行搜索。 %表示用于替换文本字符或区段的通配符。 下划线也可以用于单个通配符，如 <code>like Project_</code> 返回“项目”和“项目”。 如果您打算使用 <strong>点赞</strong> 或 <strong>clike</strong> 修饰符在筛选中，我们建议避免在自定义数据字段名称、参数选项值或其他对象名称中使用%或_字符。</p><p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>这是 <i>区分大小写</i> 版本 <strong>点赞</strong>. 例如： <code>cilike %Current% %Dead%</code> 返回包含的任何注释 <code>Current to Dead</code> 或 <code>current to dead</code>.</p> <p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>点赞</strong> </p> </td> 
-   <td> <p>此修饰符搜索 <i>区分大小写</i> 与类似的文本字符串 <strong>包含</strong>. 但是， <strong>点赞</strong> 提供插入通配符以分解文本的功能。</p> <p>例如，在搜索注释时，使用 <code>like %Current% %Dead%</code> 返回包含短语“Current to Dead”的任何注释。 它不包括任何包含“Dead to Current”的注释。 每个值都将按其列出的顺序进行搜索。 %表示用于替换文本字符或区段的通配符。</p> <p>此修饰符只能在文本模式过滤器中使用。 有关过滤器中的文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">使用文本模式编辑筛选器</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>不存在</strong> </td> 

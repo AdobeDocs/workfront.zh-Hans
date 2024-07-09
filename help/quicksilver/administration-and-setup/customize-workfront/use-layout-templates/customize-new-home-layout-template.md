@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 开始使用布局模板，如中所述 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. 单击向下箭头 ![](assets/dropdown-arrow.png) 下 **自定义用户查看内容**，然后单击 **主页工作区**.
+1. 单击向下箭头 ![](assets/dropdown-arrow.png) 下 **自定义用户查看内容**，然后单击 **主页Workspace**.
 
 1. 在右侧显示的选项卡中，单击 **设计和布局** 选择并排列小部件和背景，或者 **构件设置** 用于管理单个小组件的设置，如可用过滤器和组。
 
@@ -132,3 +132,8 @@ ht-degree: 1%
    或
 
    如果您已完成自定义，请单击 **保存** 左下角。
+
+
+>[!NOTE]
+>
+>管理员自定义自己的布局模板时，需要刷新页面才能看到所做的更改。
