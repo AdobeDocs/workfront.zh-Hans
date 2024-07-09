@@ -7,10 +7,10 @@ description: 您可以选择向展示板添加引入列，以根据您定义的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
+source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: '1108'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 1%
 展示板上只允许有一个引入列，并且始终显示为最左侧的列。
 
 摄取列在动态展示板上不可用。 但是，您可以更新用于定义哪些卡片将引入动态展示板上的筛选器。 在动态展示板上更改这些筛选器时，未包含在Workfront任务或问题中的卡片设置（例如标记）将被重置。
+
+>[!NOTE]
+>
+>出于安全原因，只有展示板所有者才能更改“配置”面板中的展示板过滤器。
 
 引入列限制为300个任务和300个问题。 引入列中项目的默认排序如下：
 
