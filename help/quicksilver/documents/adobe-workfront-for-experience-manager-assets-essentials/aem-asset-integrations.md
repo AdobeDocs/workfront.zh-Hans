@@ -6,16 +6,14 @@ description: Workfront与Experience Manager Assets或Assets Essentials之间的�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
 # Adobe Experience Manager Assets集成概述
-
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -51,7 +49,7 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 
 * AWS (Amazon Web Services)
 * Azure
-* <span class="preview">GCP (Google Cloud Platform)</span>
+* GCP (Google Cloud Platform)
 
 
 ## 快速入门

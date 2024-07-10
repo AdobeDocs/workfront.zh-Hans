@@ -6,22 +6,20 @@ description: 您可以将文档从Workfront发送到Experience Manager Assets或
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # 将文档发送到Experience Manager Assets或Assets Essentials
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
-
 您可以将文档从Workfront发送到Experience Manager Assets或Assets Essentials。 从Workfront上传并发送到Assets Essentials的文档仍会计入您的总体文档存储中。 从Assets Essentials链接的Assets不计入总体存储空间。
 
 通过此集成发送到Experience Manager的Assets具有大小限制 **5 GB**.
 
-<span class="preview">在“预览”环境中，通过此集成发送到Experience Manager的Assets具有大小限制 **30 GB**.</span>
+在“预览”环境中，通过此集成发送到Experience Manager的Assets具有大小限制 **30 GB**.
 
 在将资源从Workfront发送到Experience Manager Assets或Assets Essentials时，首先映射元数据字段。 配置为映射父对象的任何元数据也会发送。 有关配置元数据映射的详细信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能完成本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 先决条件
 
