@@ -6,9 +6,9 @@ description: 您可以快速将临时信息卡添加到展示板并将其分配�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -106,9 +106,9 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL Comments]</strong></td>
-      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本格式，然后单击 <strong>添加附件</strong> 图标 <img src="assets/attachment-icon.png" alt="“附件”图标"> 将文件附加到注释。 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
+      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本的格式。 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
       </p><p>单击 <strong>[！UICONTROL提交]</strong> 以向卡片添加注释。</p>
-      <p><strong>注意：</strong> 信息卡上的评论区域使用新的Adobe Workfront评论体验。 有关更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
+      <p>有关注释的更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
     </tbody> 
    </table>
