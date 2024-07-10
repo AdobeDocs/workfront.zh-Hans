@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ ht-degree: 0%
 
 ## 多对象自定义表单中计算的自定义字段 {#calculated-custom-fields-in-multi-object-custom-forms}
 
-在多对象自定义表单中，所选对象类型必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。
+在多对象自定义表单中，所选对象类型必须与表单的计算自定义字段中引用的所有字段兼容。
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ ht-degree: 0%
 >
 >`{assignedTo}.{name}`
 >
->稍后，将Project对象类型添加到自定义表单。 出现一条警告消息，指明Project对象类型与计算的自定义字段不兼容。
+>之后，将Project对象类型添加到自定义表单，但Project对象类型与计算的自定义字段不兼容。
 
 发生这种情况时，您可以执行以下操作之一：
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-有关变量的更多信息，例如 `$$OBJCODE,` 请参阅 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+有关变量的更多信息，例如 `$$OBJCODE,` 请参阅 [通配符筛选器变量概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 已计算自定义字段的自动更新
 

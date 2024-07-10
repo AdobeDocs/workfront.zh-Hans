@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 0%
@@ -278,6 +278,7 @@ ht-degree: 0%
       如果键入左圆括号，则会自动添加右圆括号。
 
 +++ **展开以查看有用的提示**
+
       >[!TIP]
       >
       >您可以执行以下任一操作以获得有关计算的帮助：
