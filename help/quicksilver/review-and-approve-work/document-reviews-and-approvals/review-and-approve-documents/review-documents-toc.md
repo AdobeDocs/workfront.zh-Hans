@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: “审查文档：文章索引”
+title: “批准和审查文档：文章索引”
 description: 本节包含有关在Adobe Workfront中审阅文档的文章。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: 8949e61a92aa5899d6ed118c4dbe27d84a1d1e6d
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# 审阅文档：文章索引
+# 批准和审查文档：文章索引
 
 >[!IMPORTANT]
 >
@@ -24,5 +24,4 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [在Workfront中查看文档](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-* [连接Workfront和Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-* [将Frame.io资源添加到连接的项目](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [批准文档](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)

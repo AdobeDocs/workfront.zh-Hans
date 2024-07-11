@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 创建审批模板
+title: 创建资产和文档的审批模板
 description: 您可以创建批准模板以简化批准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
-# 创建审批模板
+# 创建资产和文档的审批模板
 
 <span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
 

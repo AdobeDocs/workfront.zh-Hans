@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 新建文档审批概述
+title: 新文档审批概述
 description: 您可以将附加批准者或审阅者添加到已具有待审批的文档。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
 
-# 新建文档审批概述
+# 新文档审批概述
 
-新建文档审批是对当前为Adobe Workfront开发的现有审批流程进行整体重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
+新文档审批是对当前为Adobe Workfront开发的现有审批流程的全面重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
 
 请继续阅读下文，以了解有关新文档审批的计划功能和版本的更多信息。
 
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 ## 使用新文档审批
 
-有关希望创建或管理文档审批的用户，请参阅中列出的文章 [批准文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+有关希望创建或管理文档审批的用户，请参阅中列出的文章 [设置和管理资产和文档审批：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-对于希望审阅或批准其收到请求的文档的用户，请参阅中列出的文章 [审阅文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+对于希望审阅或批准其收到请求的文档的用户，请参阅中列出的文章 [批准和审查文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

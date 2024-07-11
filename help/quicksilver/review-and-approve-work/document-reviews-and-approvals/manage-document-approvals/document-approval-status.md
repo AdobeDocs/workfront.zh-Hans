@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 文档决策状态
+title: 文档决策状态概述
 description: 列出并解释文档决策状态
-author: Becky
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
 
-# 文档决策状态
+# 文档决策状态概述
 
 您可以直接在文档列表中查看文档状态：
 
@@ -101,7 +101,7 @@ ht-degree: 5%
                     </td>
                 </tr>
                  <tr>
-                    <td>已批准</p>
+                    <td>已审批</p>
                     </td>
                     <td>
                         <ul>

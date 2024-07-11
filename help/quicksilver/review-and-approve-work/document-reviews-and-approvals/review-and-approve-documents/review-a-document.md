@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 审阅文档
+title: 在Workfront中查看文档
 description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# 审阅文档
+# 在Workfront中查看文档
 
 作为审阅人，您可以查看已提交您审阅的文档。 与批准不同，您无需做出决定。 而是要确认您已查看资产。
 

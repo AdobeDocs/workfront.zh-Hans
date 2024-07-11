@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td>  
    <td> <p>审核或更高</p> </td> 
   </tr> 
   <tr> 

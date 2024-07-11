@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 * **一次性审批**：在资产所在的项目或任务中，项目协调员可以分配审阅人和审批人，并设置完成截止日期。 截止日期前72和24小时，以及截止日期本身，通过电子邮件提醒查看者和审批者。
 
-  有关更多信息，请参阅 [创建文档审阅或审批请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  有关更多信息，请参阅* [为Frame.io资源创建审阅或批准请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **审批模板**：在Workfront设置区域，项目协调员可以创建可恢复的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。
 

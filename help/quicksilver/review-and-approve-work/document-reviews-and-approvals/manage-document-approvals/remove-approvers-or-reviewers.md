@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 从文档中删除批准者或审阅者
+title: 从资产或文档中删除审批者或审阅者
 description: 您可以从文档中删除单个批准者或审阅者。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# 从文档中删除批准者或审阅者
+# 从资产或文档中删除审批者或审阅者
 
-分配后，可以从文档中删除单个批准者或审阅者。
+分配资产或文档后，您可以从资产或文档中删除单个批准者或审阅者。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 从文档页面中删除审批者或审阅者
+## 从“文档详细信息”页面中移除批准者或审阅者
 
 1. 通过单击文档名称转到文档页面，然后在版本下拉菜单中选择要移除审批的文档版本。 默认情况下将选择最新版本。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 重复上一步骤以移除任何其他批准者或审阅者。
 
-## 从“文档摘要”窗格中删除批准者或审阅者
+## 从文档摘要中删除审批人或审阅人
 
 1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
 

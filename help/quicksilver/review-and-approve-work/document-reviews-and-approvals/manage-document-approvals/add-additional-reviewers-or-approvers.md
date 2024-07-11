@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 向文档添加其他批准者或审阅者
+title: 向资产或文档添加其他批准者或审阅者
 description: 您可以将附加批准者或审阅者添加到已具有待审批的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# 向文档添加其他批准者或审阅者
+# 向资产或文档添加其他批准者或审阅者
 
-您可以将附加批准者或审阅者添加到已具有待审批的文档。
+您可以将其他批准者或审阅者添加到已具有待审批的资产或文档中。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 从文档页面添加其他批准者或审阅者
+## 从“文档详细信息”页面添加其他批准者或审阅者
 
 1. 通过单击文档名称转到文档页面，然后在版本下拉菜单中选择要向其中添加审批者或审阅者的文档版本。 默认情况下将选择最新版本。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
-## 从“文档摘要”窗格添加其他批准者或审阅者
+## 从文档摘要添加其他批准者或审阅者
 
 1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
 
