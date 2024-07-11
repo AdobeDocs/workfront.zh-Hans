@@ -4,9 +4,9 @@ description: 此 [!DNL Adobe Workfront Fusion] HubSpot CRM模块允许您监视�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
 ## 连接 [!DNL Adobe Workfront Fusion] 到 [!DNL HubSpot CRM]
 
 有关连接 [!DNL HubSpot CRM] 帐户至 [!DNL Workfront Fusion]，请参见 [创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>配置连接时，选择 **HubSpot CRM** 连接类型。 HubSpot CRM（已弃用）类型支持现有连接，但我们不建议使用它来创建新连接。
 
 ## [!DNL HubSpot CRM] 模块及其字段
 
