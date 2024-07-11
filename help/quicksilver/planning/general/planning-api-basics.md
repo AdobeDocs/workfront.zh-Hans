@@ -4,9 +4,9 @@ description: Adobe Workfront Planning API的目标是通过引入通过HTTP运�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful�
 
 标准HTTP方法对应于以下操作：
 
-* **GET**  — 按ID检索对象、按查询搜索所有对象、运行报告或执行命名查询
+* **GET**  — 按ID检索对象，按查询搜索所有对象
 * **POST**  — 插入新对象
 * **PUT**  — 编辑现有对象
 * **DELETE**  — 删除对象
