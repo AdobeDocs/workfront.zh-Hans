@@ -8,9 +8,10 @@ title: Adobe Authenticator模块
 description: 借助Adobe Authenticator模块，您可以使用单个连接通过API连接到任何Adobe产品。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -63,19 +64,19 @@ Adobe Authenticator模块允许您通过单个连接连接到任何AdobeAPI。 �
 ## 先决条件
 
 * 您必须具有您希望模块连接到的Adobe产品的访问权限。
-* 您必须有权访问Adobe Developer控制台。
-* 您在Adobe Developer控制台上必须有一个项目，该项目包含希望模块连接到的API。 您可以：
+* 您必须具有Adobe Developer Console的访问权限。
+* 您在Adobe Developer Console上必须有一个项目，该项目包含您希望模块连接到的API。 您可以：
 
    * 使用API创建新项目。
 
      或
    * 将API添加到现有项目。
 
-  有关在Adobe Developer控制台中创建或向项目添加API的信息，请参阅 [创建项目](https://developer.adobe.com/dep/guides/dev-console/create-project/) 在Adobe文档中。
+  有关在Adobe Developer Console上创建API或将API添加到项目的信息，请参阅 [创建项目](https://developer.adobe.com/dep/guides/dev-console/create-project/) 在Adobe文档中。
 
 ## 创建连接
 
-Adobe Authenticator连接可连接到Adobe Developer控制台上的单个项目。 要对多个AdobeAPI使用相同的连接，请将API添加到同一项目，然后创建与该项目的连接。
+Adobe Authenticator连接可连接到Adobe Developer Console上的单个项目。 要对多个AdobeAPI使用相同的连接，请将API添加到同一项目，然后创建与该项目的连接。
 
 您可以为不同的项目创建单独的连接，但无法使用连接访问不在该连接中指定的项目上的API。
 
@@ -157,6 +158,14 @@ Adobe Authenticator连接可连接到Adobe Developer控制台上的单个项目�
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[！UICONTROL基本URL]</td>
+        <td>必须添加希望此验证器允许的基本URL。 在场景的后面部分使用进行自定义API调用模块时，您将添加选定URL的相对路径。 通过在此处输入URL，您可以控制发出自定义API调用模块可以连接到的内容，从而提高安全性。<p>对于要添加到验证器的每个基本URL，单击 <b>添加项目</b> 并输入基本URL。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL身份验证URL]</td>
+        <td>将此项留空将使用标准Adobe IMS身份验证URL <code>https://ims-na1.adobelogin.com</code>. 如果不使用Adobe IMS进行身份验证，请输入用于身份验证的URL。</td>
+      </tr>
+      <tr>
         <td role="rowheader">[！UICONTROL环境]</td>
         <td>选择您要连接到生产环境还是非生产环境。</td>
       </tr>
@@ -229,4 +238,3 @@ Adobe Authenticator连接可连接到Adobe Developer控制台上的单个项目�
     </tr>
   </tbody>
 </table>
-
