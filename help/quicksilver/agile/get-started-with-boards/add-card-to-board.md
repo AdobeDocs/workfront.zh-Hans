@@ -6,9 +6,9 @@ description: 您可以快速将临时信息卡添加到展示板并将其分配�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[！UICONTROL Comments]</strong></td>
-      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本的格式。 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
+      <td><p>单击 <strong>[！UICONTROL新注释]</strong> 字段并键入您的评论。 使用格式设置工具设置文本的格式。 （图像在临时信息卡上的评论中不可用。） 要标记人员或团队，请使用评论区域底部的搜索框。 用户不必是讨论区的成员。</p><p><strong>注意：</strong> 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
       </p><p>单击 <strong>[！UICONTROL提交]</strong> 以向卡片添加注释。</p>
       <p>有关注释的更多信息，请参阅 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">更新工作</a>.</p></td>
      </tr>
