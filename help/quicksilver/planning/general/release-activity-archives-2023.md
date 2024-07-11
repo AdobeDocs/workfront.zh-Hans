@@ -4,9 +4,9 @@ description: Adobe Workfront规划功能当前可用于选择Workfront客户。 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ ht-degree: 0%
 
 预览和生产： 2023年10月31日
 
-您现在可以从规划功能的以下区域打开Workfront对象页面：
+现在，您可以从Workfront Planning的以下区域打开Workfront对象页面：
 
 * 只读链接Workfront对象记录表视图
 

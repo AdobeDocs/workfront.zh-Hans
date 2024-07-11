@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 为此，请执行以下操作：
 
-1. 转到要将Campaign记录类型与Workfront项目连接的工作区。
+1. 转到要将Campaign记录类型与Workfront项目连接的Workspace。
 1. 在所选工作区中打开Campaign记录类型的表视图。
 1. 单击 **+** 图标来添加新字段，然后单击 **新建连接**，然后单击 **项目** 在 **Workfront对象类型** 部分。
 1. 添加以下信息，例如：
@@ -205,10 +205,7 @@ ht-degree: 0%
 
 1. 在连接的记录字段中单击项目的名称。
 
-   此操作将打开只读Workfront规划项目的页面。
-查看有关项目的信息。 只有选定的项目字段会显示在记录的页面中。
-
-1. 单击 **转到源** 如果您至少具有项目的查看权限，则可以在屏幕右上角的Workfront中打开项目。
+   如果您至少具有项目的“查看”权限，此操作将在Workfront中打开项目。
 1. （可选）如果您有权限可以在Workfront中更新有关项目的信息。
 
 1. （可选）在Campaign表格视图中，将鼠标悬停在 **项目信息** 字段标题，单击向下箭头，然后单击 **编辑查找字段。**

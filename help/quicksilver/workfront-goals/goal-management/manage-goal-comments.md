@@ -6,9 +6,9 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ After the monthly releases to Production, the same features are also available i
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上评论仍会以草稿模式保留。 添加到注释的任何图像也会保存在草稿中。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
+   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上评论仍会以草稿模式保留。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
 
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选）要向更新、超链接或图像添加富文本格式，请使用富文本工具栏上的任意选项或其旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）要将富文本格式添加到更新、超链接或表情符号中，请使用富文本工具栏上的任意选项或其旁边的图标。 有关更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此注释中的用户或团队的名称或电子邮件，然后当其显示在列表中时将其选定。
 1. 选择 **我的公司私有** 切换以使评论仅对您公司中的人员可见。
 
@@ -150,7 +150,7 @@ After the monthly releases to Production, the same features are also available i
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-icon.png) 点按赞”图标右侧，然后单击 **编辑**.
-1. 编辑评论中的信息，添加或删除图像，或删除任何已标记用户。
+1. 编辑评论中的信息或移除任何已标记的用户。
 您可以在提交评论后15分钟内对其进行编辑。 “已编辑”指标将添加到更新评论时显示的日期戳的左侧。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ hide: yes
 
 1. （可选）单击表视图的链接字段或记录页面中链接字段内连接到Workfront Planning记录的Workfront对象的名称。
 
-   这将为链接的Workfront对象打开只读Workfront Planning记录页面。 将记录类型与Workfront对象连接后，您选择作为查找字段的字段会显示在Workfront Planning记录页面中。
+   如果您至少具有对象的“查看”权限，此操作将在Workfront中打开Workfront对象。
 
    >[!TIP]
    >
    >* 启用“允许多条记录”设置时，查找字段的值显示时用逗号分隔，或者根据您选择的聚合器聚合。
    >
    >* 在Workfront中，不会为链接的Workfront对象创建链接记录字段。
-
-1. （可选）要在Workfront中打开链接的Workfront对象，请单击 **转到源** 在Workfront对象的记录页面的右上角。
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   如果您至少具有查看对象的权限，这将打开Workfront对象页面。 如果您有相应的权限，则可以编辑有关Workfront对象的信息。
 
 1. （可选）在记录类型的表格视图中，将鼠标悬停在链接Workfront对象的列标题上，单击下拉菜单，然后单击 **编辑查找字段**.
 
@@ -345,7 +339,7 @@ hide: yes
    >
    >  您可以添加，然后单击 **+** 图标将资产连接到记录。
 
-   此 **选择资源** 框显示。 <!--we might change this to Connect assets-->
+   此 **选择Assets** 框显示。 <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ hide: yes
    * 创建日期
    * 修改日期
 
-1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
+1. （可选）要在Experience Manager中打开Experience Manager资源记录页面，请转到要链接到的记录的记录类型页面，单击链接记录字段中的资源名称以打开弹出窗口，然后单击 **在AEM中打开** 图标 ![](assets/open-asset-icon.png) 以打开资产。
 
    这会在Adobe Experience Manager Assets中打开Experience Manager资源。
 

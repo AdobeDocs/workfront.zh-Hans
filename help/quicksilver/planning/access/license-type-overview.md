@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -19,26 +19,10 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，让您有权查看、贡献或管理工作区。 <!--add more objects here when we can grant other object-specific permissions-->
+您的Adobe Workfront许可证类型可与Adobe Workfront Planning权限配合使用，以提供以下访问权限：
 
-Workfront Planning记录视图的权限独立于Workfront许可证类型。
-
-拥有所有许可证类型的用户可以查看、创建、编辑或管理Workfront Planning视图。
-
-本文介绍Workfront中所需的许可证类型，以及基于每种许可证类型向Workfront Planning中的工作区授予的权限。
-
-使用Workfront Planning功能时，具有较低级许可证类型的用户访问工作区的权限受限。
-
->[!INFO]
->
->**示例：**
->
->请求者（或协作者，根据新的许可证模型）无法参与或管理工作区及其对象。
->
->共享框中有一个指示，当用户拥有较低级别的许可证时，无法向其授予参与工作区或管理工作区的权限，因为这些权限级别灰显。
->
->![](assets/permissions-grayed-out-for-requestor-user.png)
-
+* 查看、提供或管理工作区
+* 查看或管理视图。
 
 有关Workfront Planning中对象权限的信息，请参阅 [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -55,3 +39,52 @@ Workfront Planning记录视图的权限独立于Workfront许可证类型。
 | 新文档：轻量级，参与者 <br> 或 <br>当前：工作、请求者、查看者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。 <br> 用户无法创建、编辑或删除工作区、记录类型、记录或字段。 |
 
 *有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+### 许可证类型和工作区权限
+
+只有具有Standard（或Plan）许可证的用户才能拥有对工作区的Contribute或管理权限。 具有所有其他许可证类型的用户都可以拥有查看与其共享的工作区的权限。
+
+系统管理员可以查看系统中的所有工作区，甚至包括他们未创建的工作区。
+
+>[!INFO]
+>
+>**示例：**
+>
+>请求者（或协作者，根据新的许可证模型）无法参与或管理工作区及其对象。
+>
+>共享框中有一个指示，当用户拥有较低级别的许可证时，无法向其授予参与工作区或管理工作区的权限，因为这些权限级别灰显。
+>
+>![](assets/permissions-grayed-out-for-requestor-user.png)
+
+### 许可证类型和查看权限
+
+只有拥有标准（或计划）许可证的用户才能拥有视图的管理权限。 具有所有其他许可证类型的用户均可以拥有查看与其共享的视图的权限。
+
+>[!INFO]
+>
+>**示例：**
+>
+>协作者（或请求者和查看者）无法管理视图。 他们可以应用临时过滤器、排序或分组到他们可以访问的视图。
+>
+>共享框中有一个指示，当用户拥有较低级别的许可证时，无法授予用户管理视图的权限，因为这些权限级别灰显。
+>
+>![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above with this:
+
+The table below describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
+
+Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
+
+You must grant view permissions separately from workspace permissions. 
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|New: Standard <br> or <br>Current: Plan                    | <ul><li>Users can contribute to or manage workspaces and they can manage views. They can create, edit, or delete workspaces, record types, records, fields, and views.</li> <li> System administrators have Manage permissions to all workspaces, including the ones they did not create.</li> <li> System administrators can only access views they created.</li></ul>                                                                                                                     |
+|New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | <ul><li>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</li> <li>Users can access views shared with them and apply temporary filters, sorts, or groupings, but they cannot modify the views. </li><li> Users cannot create, edit, or delete workspaces, record types, records, fields, or views.</li></ul>|
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+-->

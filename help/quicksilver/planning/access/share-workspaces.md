@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
    <p>新增：标准</p>
    或
@@ -82,6 +82,8 @@ ht-degree: 2%
   </tr>
  </tbody>
 </table>
+
+*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 共享对工作区的权限
 

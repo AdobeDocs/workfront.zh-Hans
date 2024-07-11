@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,14 @@ ht-degree: 7%
 >
 >并非所有用户都可以具有下述权限级别。 用户的个人许可证确定他们可针对Workfront Planning对象接收的权限级别。
 >
->只有Standard（或Plan）许可证用户才能拥有对工作区的Contribute或“管理”权限。
+>只有Standard（或Plan）许可证用户可以拥有Contribute或工作区的“管理”权限以及视图的“管理”权限。
+> 
+>具有所有其他许可证类型的用户都可以拥有对工作区和视图的查看权限。
 >
 >有关信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### 工作区权限
+### Workspace权限
 
 您必须向用户授予工作区权限，以便他们能够访问以下实体：
 
@@ -157,7 +159,8 @@ ht-degree: 7%
 | 删除 | ✓ {\f13 } |       |                            |
 | 共享 | ✓ {\f13 } |       |                           |
 | 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
-| 应用 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 访问视图 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
+| 应用临时筛选器、分组、排序 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |
 
 *用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
 

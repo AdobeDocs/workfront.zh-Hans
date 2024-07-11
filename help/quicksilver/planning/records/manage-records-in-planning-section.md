@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,8 @@ ht-degree: 1%
 1. 单击连接到Workfront项目、项目组合或项目群的记录类型的卡。
 1. 在表格视图或记录的详细信息页面中，转到与Workfront对象有连接的已连接记录字段。 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
 1. 在连接的记录字段中单击Workfront对象的名称。
-对象的页面将在Workfront Planning中打开。
-1. 单击 **转到源**，位于屏幕右上角。
+对象的页面将在Workfront中打开。
 
-   对象的页面将在Workfront中打开。
 1. 单击 **规划** 在左侧面板中。
 
    >[!NOTE]

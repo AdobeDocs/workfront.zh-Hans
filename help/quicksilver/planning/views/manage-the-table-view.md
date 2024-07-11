@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ hide: yes
 
 您必须具有以下权限才能执行本文中的步骤：
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ hide: yes
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
+   <p>新增：标准</p>
+   或
+   <p>当前：计划 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别配置</td>
-   <td> <p>AdobeWorkfort计划没有访问级别控制</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> Adobe Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理视图的权限</p>  
+   <p>查看对视图的权限以临时更改视图设置</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 管理表视图 {#manage-a-table-view}
 
@@ -244,7 +250,9 @@ hide: yes
 
 * 向表格视图添加筛选器与向时间轴视图添加筛选器相同。
 
-* 您可以按连接的记录字段或查找字段进行筛选，但不能对允许链接到多个记录的字段进行筛选。
+* 您可以按连接的记录字段或查找字段进行筛选。
+
+* 您可以按显示多个值的查找字段进行筛选。
 
 * 您可以引用与当前记录类型相距最多4级的字段。 例如，如果您正在为“活动”记录类型创建过滤器，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则您可以在为活动记录类型创建的过滤器中引用项目的预算。
 
@@ -356,7 +364,8 @@ hide: yes
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
 * 您可以编辑分组下列出的记录。
-* 您可以按连接的记录字段或查找字段进行分组，但不能对允许链接到多个记录的字段进行分组。
+* 您可以按连接的记录字段或查找字段分组。
+* 当按查找字段对具有多个值（尚未由聚合器汇总）的字段进行分组时，记录将按字段值的每个唯一组合进行分组。
 * 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建分组，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则可以在为活动记录类型创建的分组中引用项目的状态。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ hide: yes
 
 * 您可以按记录类型的表视图中显示的字段数进行排序。
 
-* 仅当链接的字段允许单个值，或者允许选择了汇总选项（总和、平均、最大值、最小值）的多选值时，它们才可排序。
+* 您不能按连接的记录字段进行排序，但可以按连接的记录类型的查找字段进行排序。
+
+* 当按具有多个值（尚未由聚合器汇总）的查找字段进行排序时，将使用第一个值进行排序。
 
 * 删除分类标准会将其从与您访问相同记录类型的任何人中移除，并使用与您使用的相同视图。
-
-* 您可以按连接的记录字段或查找字段进行排序，但不能对允许链接到多个记录的字段进行排序。
 
 * 您可以引用与当前记录类型相距最多4级的字段。 例如，如果您正在为“活动”记录类型创建排序，并且活动连接到产品记录类型，而产品记录类型连接到营销活动记录类型，而营销活动记录类型又连接到Workfront项目，则您可以在为活动记录类型创建的排序中引用项目的“状态”。
 

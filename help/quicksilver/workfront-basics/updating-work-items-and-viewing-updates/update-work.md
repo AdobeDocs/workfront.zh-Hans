@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2984'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
@@ -61,7 +61,11 @@ ht-degree: 0%
 
   您必须具有其他许可证才能访问Workfront目标。
 
-* [向展示板添加临时信息卡](../../agile/get-started-with-boards/add-card-to-board.md)
+* [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
+
+* [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+
+<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
 
 ## 访问要求
 
@@ -386,6 +390,10 @@ You can add updates to the following objects:
 
 
    >[!NOTE]
+   >
+   >**重要**
+   >
+   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。

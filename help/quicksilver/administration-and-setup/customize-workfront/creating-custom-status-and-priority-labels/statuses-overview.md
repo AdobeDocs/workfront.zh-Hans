@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ ht-degree: 0%
 例如，在此项目中，状态“计划”表示项目经理当前正在计划项目的各个方面，如时间线、任务分配和批准。
 
 ![示例项目状态](assets/statuses-overview.png)
+
+您必须对项目、任务或问题具有以下访问权限才能查看其状态：
+
+* 查看项目、任务和问题的访问级别或更高的访问权限
+* 查看对象或更高权限
+
+您必须对项目、任务或问题具有以下访问和权限才能手动更改其状态：
+
+* 编辑您对项目、任务和问题的访问级别的访问权限
+* Contribute或任务或问题的更高权限
+* 管理项目的权限。
 
 更改项目、任务或问题的状态通常是手动过程。 但是，有时候，问题的状态会根据系统中发生的其他因素自动更改。
 

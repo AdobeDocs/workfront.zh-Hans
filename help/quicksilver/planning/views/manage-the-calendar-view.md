@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,9 @@ hide: yes
 
 您可以从记录类型页在日历视图中显示记录及其字段。
 
-有关Adobe Workfront Planning功能视图以及如何管理这些视图的信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关Adobe Workfront Planning视图以及如何管理这些视图的信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
 
-## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ hide: yes
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
+   <p>新增：标准</p>
+   或
+   <p>当前：计划 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别配置</td>
-   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> Adobe Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理视图的权限</p>  
+   <p>查看对视图的权限以临时更改视图设置</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 管理日历视图 {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ hide: yes
 
   有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* 您可以按连接的记录字段或查找字段进行筛选，但不能对允许链接到多个记录的字段进行筛选。
+* 您可以按连接的记录字段或查找字段进行筛选。
+
+* 您可以按显示多个值的查找字段进行筛选。

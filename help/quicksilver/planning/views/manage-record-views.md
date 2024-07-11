@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 1%
 
 您必须具有以下权限才能执行本文中的步骤：
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ ht-degree: 1%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证</p></td>
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p> 
-   <p>系统管理员只能访问他们创建的视图或与他们共享的视图。 </p>
+   <p>新增：标准</p>
+   或
+   <p>当前：计划 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">访问级别配置</td>
-   <td> <p>Workfront Planning没有访问级别控制</p>  
+   <td role="rowheader"><p>访问级别配置</p></td>
+   <td> Adobe Workfront Planning没有访问控制</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理视图的权限</p>  
+   <p>查看对视图的权限以临时更改视图设置</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">布局模板</td>
-   <td> <p>系统管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td role="rowheader"><p>布局模板</p></td>
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 使用记录视图时的注意事项
 

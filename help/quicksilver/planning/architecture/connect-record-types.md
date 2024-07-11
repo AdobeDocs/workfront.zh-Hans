@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
       * 链接记录字段是在您连接的记录类型上创建的。 不会在其他应用程序的对象类型上自动创建链接记录字段。
 
-      * 仅当实际对象连接到Workfront Planning记录时，才会为另一个应用程序的对象创建新的Workfront Planning只读记录类型。
-
-        有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
-
       * 无法从Workfront对象访问Planning记录字段。
       * 当Workfront管理员通过Workfront与Adobe Experience Manager Assets之间的集成配置Experience Manager映射时，可从Metadata Assets访问规划记录字段。 有关更多信息，请参阅 [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （可选）单击 **跳过** 跳过添加来自链接记录或对象类型的字段。 此 **名称** 或 **标题** 链接记录的唯一可见字段是您连接到的记录类型的表视图。
 
-1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择聚合器值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或聚合的值。
+1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择汇总值以汇总多个值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或汇总值。
+
+   如果查找字段包含多个未汇总的值，则在视图中对字段进行排序或分组时，请考虑以下事项：
+
+   * 排序由第一个值完成
+
+   * 记录按字段值的每个唯一组合进行分组
+
+   * 时间线视图基于第一个日期值构建。
 
    >[!IMPORTANT]
    >
