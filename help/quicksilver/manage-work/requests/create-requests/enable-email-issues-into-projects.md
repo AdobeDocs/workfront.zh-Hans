@@ -6,7 +6,7 @@ description: 允许用户通过电子邮件将问题发送到请求队列项目
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 转到要启用以通过电子邮件接收问题的项目。
 1. 单击 **队列详细信息** 在左侧面板中。 您可能需要单击 **显示更多** 首先。
-1. 在 **队列类型** 区域，选择 **作为帮助请求队列发布**.
+1. 在 **队列类型** 区域，选择 **Publish作为帮助请求队列**.
 
 1. 向下滚动到 **电子邮件队列设置** 区域，然后选择 **通过电子邮件启用请求接收**.
 
