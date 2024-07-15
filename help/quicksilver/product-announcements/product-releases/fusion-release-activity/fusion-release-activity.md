@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,14 @@ ht-degree: 0%
 
 Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使您能够专注于新任务，而不是一次又一次地重复相同的任务。
 
-有关如何使用Workfront Fusion的信息，请参阅 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+有关如何使用Workfront Fusion的信息，请参阅[Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md)。
 
 ## Fusion 2024年发行版
+
+### 2024年7月
+
+* [Workfront Fusion发行活动： 2024年7月8日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
 
 ### 2024年6月
 
@@ -124,28 +129,28 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 ### 2022年9月
 
 * [Workfront Fusion发布活动： 2022年9月26日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
-* [Workfront Fusion发布活动： 2022年9月19日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
+* [Workfront Fusion发布活动：2022年9月19日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
 
 ### 2022年7月
 
-* [Workfront Fusion发行活动： 2022年7月11日起的一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+* [Workfront Fusion发布活动：2022年7月11日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
 
 
 ### 2022年6
 
-* [Workfront Fusion发布活动： 2022年6月27日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
-* [Workfront Fusion发布活动： 2022年6月20日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
+* [Workfront Fusion发布活动：2022年6月27日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
+* [Workfront Fusion发布活动：2022年6月20日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
 
 
 ### 2022年5月
 
-* [Workfront Fusion发布活动： 2022年5月16日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+* [Workfront Fusion发布活动：2022年5月16日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
 * [Workfront Fusion发布活动： 2022年5月9日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
 
 
 ### 2022年4月
 
-* [Workfront Fusion发行活动： 2022年4月25日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
+* [Workfront Fusion发布活动：2022年4月25日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
 * [Workfront Fusion发行活动： 2022年4月18日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
 
 ### 2022年3月
@@ -154,9 +159,9 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2022年2月
 
-* [Workfront Fusion发行活动： 2022年2月28日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
-* [Workfront Fusion发行活动： 2022年2月21日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
-* [Workfront Fusion发行活动： 2022年2月14日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
+* [Workfront Fusion发布活动：2022年2月28日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
+* [Workfront Fusion发布活动：2022年2月21日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
+* [Workfront Fusion发布活动：2022年2月14日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
 * [Workfront Fusion发行活动： 2022年2月7日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
 
 ### 2022年1
@@ -171,8 +176,8 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2021年11月
 
-* [Workfront Fusion发行活动： 2021年11月29日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
-* [Workfront Fusion发行活动： 2021年11月15日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
+* [Workfront Fusion发布活动：2021年11月29日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
+* [Workfront Fusion发布活动：2021年11月15日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
 * [Workfront Fusion发行活动： 2021年11月8日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
 
 ### 2021年10
@@ -185,8 +190,8 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2021年8月
 
-* [Workfront Fusion发行活动： 2021年8月30日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
-* [Workfront Fusion发行活动： 2021年8月23日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
+* [Workfront Fusion发布活动：2021年8月30日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
+* [Workfront Fusion发布活动：2021年8月23日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
 * [Workfront Fusion发行活动： 2021年8月2日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
 
 ### 2021年7月
@@ -202,13 +207,13 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 ### 2021年5月
 
 * [Workfront Fusion发布活动： 2021年5月17日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
-* [Workfront Fusion发布活动： 2021年5月10日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
+* [Workfront Fusion发布活动：2021年5月10日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
 * [Workfront Fusion发布活动： 2021年5月3日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
 ### 2021年4月
 
-* [Workfront Fusion发行活动： 2021年4月26日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
-* [Workfront Fusion发行活动： 2021年4月19日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
+* [Workfront Fusion发布活动：2021年4月26日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
+* [Workfront Fusion发布活动：2021年4月19日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### 2021年3月
@@ -221,10 +226,10 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2021年1月
 
-* [Workfront Fusion发行活动： 2021年2月1日起的一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
-* [Workfront Fusion发行活动： 2021年1月25日起的一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
-* [Workfront Fusion发行活动： 2021年1月18日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
-* [Workfront Fusion发行活动： 2021年1月11日起的一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
+* [Workfront Fusion发布活动： 2021年2月1日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
+* [Workfront Fusion发布活动：2021年1月25日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
+* [Workfront Fusion发布活动：2021年1月18日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
+* [Workfront Fusion发布活动：2021年1月11日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion发行活动： 2021年1月4日起的一周](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
 +++
@@ -239,8 +244,8 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2020年11
 
-* [Workfront Fusion发布活动： 2020年11月30日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-* [Workfront Fusion发行活动： 2020年11月16日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
+* [Workfront Fusion发布活动：2020年11月30日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+* [Workfront Fusion发布活动：2020年11月16日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
 * [Workfront Fusion发布活动： 2020年11月2日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
 
 ### 2020年9月
@@ -249,7 +254,7 @@ Adobe Workfront Fusion可将您的应用程序和Web服务无缝连接，以使�
 
 ### 2020年8月
 
-* [Workfront Fusion发行活动： 2020年8月24日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
+* [Workfront Fusion发布活动：2020年8月24日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion发行活动： 2020年8月17日开始的周](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
 
 +++
