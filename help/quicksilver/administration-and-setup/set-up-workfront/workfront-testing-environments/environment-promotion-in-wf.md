@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
    * [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* 有关通过Workfront API执行此流程的说明，请参阅 [在对象之间移动 [!DNL Workfront] 使用环境 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* 有关通过Workfront API执行此过程的说明，请参阅[使用 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)在 [!DNL Workfront] 环境之间移动对象。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -51,21 +51,21 @@ ht-degree: 1%
 
 | 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| 项目（项目） | 项目<br>任务<br>指定任务<br>前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-| 模板（模板） | 模板<br>模板任务<br>模板任务分派<br>模板任务前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
+| 项目（项目） | 项目<br>任务<br>分配<br>前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>审批流程<br>审批路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
+| 模板（模板） | 模板<br>模板任务<br>模板任务分配<br>模板任务前置任务<br>公司<br>覆盖率<br>组<br>角色<br>团队<br>审批流程<br>审批路径<br>审批步骤<br>步骤审批者<br>计划<br>非工作日<br>队列定义<br>队列主题组<br>队列主题<br>路由规则<br>里程碑路径<br>里程碑<br>小时类型<br>资源池<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
 
 ### 报表对象
 
 | 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| 布局模板(UITMPL) | 布局模板<br>仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 仪表板(PTLTAB) | 仪表板<br>日历<br>日历部分<br>外部页面<br>报表<br>筛选<br>分组<br>视图<br>参数 |
-| 日历(CALEND) | 日历<br>日历部分 |
+| 布局模板(UITMPL) | 布局模板<br>仪表板<br>日历<br>日历节<br>外部页面<br>报告<br>筛选器<br>分组<br>视图<br>参数<br>组 |
+| 仪表板(PTLTAB) | 仪表板<br>日历<br>日历节<br>外部页面<br>报告<br>筛选器<br>分组<br>视图<br>参数 |
+| 日历(CALEND) | 日历<br>日历节 |
 | 外部页面(EXTSEC) | 外部页面 |
-| 报告(PTLSEC) | 报表<br>筛选<br>分组<br>视图<br>参数 |
-| 过滤器(UIFT) | 筛选<br>参数 |
+| 报告(PTLSEC) | 报告<br>筛选器<br>分组<br>视图<br>参数 |
+| 过滤器(UIFT) | 筛选器<br>参数 |
 | 分组(UIGB) | 分组<br>参数 |
-| 视图(UIVW) | 视图<br>参数 |
+| 视图(UIVW) | 查看<br>参数 |
 
 ### 自定义数据对象
 
@@ -79,21 +79,21 @@ ht-degree: 1%
 
 | 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| 组（组） | 组 <br>子组（最多5个级别）*<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
+| 组（组） | 组<br>子组（最多5个级别）*<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
 | 角色(ROLE) | 角色 |
 | 团队（团队） | 团队<br>组 |
-| 公司(CPY) | 公司<br>覆盖率<br>类别<br>类别参数<br>参数<br>参数组<br>参数 <br>类别显示逻辑<br>组 |
-| Portfolio（端口） | Portfolio<br>项目<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
-| 计划(PRGM) | 项目<br>Portfolio<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
+| 公司(CPY) | 公司<br>覆盖率<br>类别<br>类别参数<br>参数<br>参数组<br>参数<br>类别显示逻辑<br>组 |
+| Portfolio（端口） | Portfolio<br>程序<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
+| 计划(PRGM) | 程序<br>Portfolio<br>组<br>类别<br>类别参数<br>参数<br>参数组<br>参数选项<br>类别显示逻辑 |
 
 ### 其他配置对象
 
 | 可提升的对象 | 包含的可升级链接对象 |
 | --- | --- |
-| 批准流程(ARVPRC) | 批准流程<br>批准路径<br>审批步骤<br>步骤审批者<br>角色<br>团队<br>组 |
+| 批准流程(ARVPRC) | 审批流程<br>审批路径<br>审批步骤<br>步骤审批者<br>角色<br>团队<br>组 |
 | 时间表(SCHED) | 计划<br>非工作日<br>组 |
 | 里程碑路径(MPATH) | 里程碑路径<br>里程碑 |
-| 周期性时间表(TSPRO) | 周期性工时表<br>小时类型 |
+| 周期性时间表(TSPRO) | 周期性时间表<br>小时类型 |
 | 小时类型（小时） | 小时数类型 |
 | 费用类型(EXPTYP) | 费用类型 |
 | 风险类型(RSKTYP) | 风险类型 |
@@ -142,15 +142,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>活动</td> 
-   <td><p>此状态允许在任何环境（包括生产环境）中安装升级包。</p><p>当程序包状态设置为“活动”时， <code>publishedAt</code> 日期会自动设置为请求的当前时间戳。</p></td> 
+   <td><p>此状态允许在任何环境（包括生产环境）中安装升级包。</p><p>当程序包状态设置为ACTIVE时，<code>publishedAt</code>日期将自动设置为请求的当前时间戳。</p></td> 
   </tr> 
   <tr> 
    <td>已禁用</td> 
-   <td><p>此状态用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时， <code>retiredAt</code> 日期会自动设置为请求的当前时间戳。</p><p>建议使用此状态而不是使用 <code>DELETE /package</code> 因为它是可检索的，所以将保留使用此包进行的任何部署的安装历史记录。</p></td> 
+   <td><p>此状态用于隐藏以前使用的升级包，这些升级包将来不会安装到任何环境中。</p><p>当软件包处于此状态时，无法将其安装到任何环境中。</p><p>当程序包状态设置为DISABLED时，<code>retiredAt</code>日期将自动设置为请求的当前时间戳。</p><p>建议在使用<code>DELETE /package</code>终结点时使用该状态，因为它是可检索的，并且使用此包进行的任何部署都将保留安装历史记录。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅部分 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a> 在创建或编辑环境升级包一文中。</td> 
+   <td><p>如果ASSEMBLY阶段失败，则升级包会自动处于此状态。</p><p>要将软件包返回到ASSEMBLY阶段，必须再次触发装配过程。</p><p>有关汇编包的详细信息，请参阅创建或编辑环境升级包一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">编辑或汇编现有包</a>部分。</td> 
   </tr> 
   </tbody> 
 </table>
