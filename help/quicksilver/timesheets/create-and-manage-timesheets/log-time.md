@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 记录时间
-description: 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数(&N)。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
+description: 您可以在&amp；nbsp；Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3589'
+source-wordcount: '3581'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 您可以在Adobe Workfront中记录工作项的时间，以指示您处理这些工作项的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
-有关可登录Workfront的小时类型的更多信息，请参阅 [管理小时类型](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+有关可登录Workfront的小时类型的详细信息，请参阅[管理小时类型](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
 
 ## 访问要求
 
@@ -62,12 +62,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>在您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
+   <td> <p>您为其记录时间的工作项的Contribute或更高权限，包括“记录小时数”权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -75,21 +75,21 @@ ht-degree: 0%
 
 * 您可以为项目、任务或问题记录时间，也可以直接在时间表中记录时间。
 
-  有关创建时间表的信息，请参阅 [创建一次性时间表](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  有关创建时间表的信息，请参阅[创建一次性时间表](../../timesheets/create-and-manage-timesheets/create-tmshts.md)。
 
 * 通过非时间表工具记录的所有时间都会显示在相应时间段的时间表中。
 * 项目上非当前的任务和问题不会预填充到时间表中。
 * 工时表记录的时间会立即应用于任务、问题或项目。
-* 时间表包括所有已记录日期的总时间。 即使已将时间线计算配置为排除周末，也会始终包含周末（如中所述） [配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md))。
+* 时间表包括所有已记录日期的总时间。 始终包括周末，即使时间线计算已配置为排除它们（如[配置系统范围项目偏好设置](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)中所述）。
 * 时间表中显示的最大项目数为45。 如果超过45个项目的日期与时间表时间范围相匹配，则仅显示最近更新的项目。
-* 已记帐记帐记录中包含的小时条目将灰显，无法在时间表中编辑。 有关更多信息，请参阅 [创建开票记录](../../manage-work/projects/project-finances/create-billing-records.md).
-* 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关更多信息，请参阅 [从主页区域创建工作项](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* 已记帐记帐记录中包含的小时条目将灰显，无法在时间表中编辑。 有关详细信息，请参阅[创建开票记录](../../manage-work/projects/project-finances/create-billing-records.md)。
+* 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关详细信息，请参阅[从主页区域创建工作项](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 记录时间 {#log-time-section}
 
 您可以在Workfront的以下区域记录时间：
 
-* [工时表](#timesheet)
+* [时间表](#timesheet)
 * [主页](#home)
 * [项目、任务或问题](#project-task-or-issue)
 * [摘要面板](#summary-panel)
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 您可以将时间记录到时间表中的以下项目：
 
-* 预填充的任务、问题和项目，会根据Workfront管理员如何设置时间表首选项自动显示。 有关如何预填充时间表的信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* 预填充的任务、问题和项目，会根据Workfront管理员如何设置时间表首选项自动显示。 有关如何预填充时间表的信息，请参阅[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
   您的时间表中只预填充了分配给您的任务和问题。 分配给团队或工作角色的任务和问题不会自动填充您的时间表。
 
@@ -118,27 +118,27 @@ ht-degree: 0%
 
 要在时间表上记录时间，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
-1. 单击 [!UICONTROL **时间表**]. 默认情况下显示您当前的工时表。
-   ![工时表](assets/timesheet-redesigned-nwe.png)
+1. 单击&#x200B;[!UICONTROL **时间表**]。 默认情况下显示您当前的工时表。
+   ![时间表](assets/timesheet-redesigned-nwe.png)
 
 
-1. （可选）单击 **全屏** 图标 ![](assets/full-screen.png) 以全屏模式显示时间表，然后单击 **退出全屏** ![](assets/exit-full-screen.png) 图标以返回时间表。
+1. （可选）单击&#x200B;**全屏**&#x200B;图标![](assets/full-screen.png)以全屏模式显示时间表，然后单击&#x200B;**退出全屏** ![](assets/exit-full-screen.png)图标以返回时间表。
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
-1. （可选）要将项目、任务或问题添加到时间表，请单击 **添加项目** 下拉菜单，然后单击 **添加项目**， **添加任务**，或 **添加问题**.
+1. （可选）要将项目、任务或问题添加到时间表，请单击时间表左上角的&#x200B;**添加项**&#x200B;下拉菜单，然后单击&#x200B;**添加项目**、**添加任务**&#x200B;或&#x200B;**添加问题**。
 
    此时将显示项目、任务或问题的列表。
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. （可选）单击搜索图标 ![搜索项目](assets/search-icon.png) 使用关键字搜索特定项目以添加到时间表。
+1. （可选）单击搜索图标![搜索项](assets/search-icon.png)以使用要添加到时间表的关键字搜索特定项。
 
 1. （可选）展开过滤器、视图或分组下拉菜单以应用或自定义一个下拉菜单，并查看所需的项目信息。
 
-1. 在列表中选择一个或多个项目，然后单击 **添加**.
+1. 在列表中选择一个或多个项目，然后单击&#x200B;**添加**。
 
    如果一次添加的项目少于50个，则这些项目会添加到时间表中。 任务和问题列在项目的名称下。
 
@@ -149,7 +149,9 @@ ht-degree: 0%
 
 1. （视情况而定）如果一次添加50个或更多项目，则会显示一条确认消息，其中显示添加到时间表的项目数。
 
-   单击 **全部添加** 以添加所有项目，或单击 **取消** 停止添加选定的项目，然后 **取消** 以关闭项目列表。
+   单击&#x200B;**全部添加**以添加所有项
+或
+单击**取消**&#x200B;停止添加选定项，然后单击&#x200B;**取消**&#x200B;关闭项列表。
 
    任务和问题列在项目的名称下。
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
    <!--(ensure this stays accurate)-->
 
-1. （可选）单击 **折叠** ![](assets/collapse-icon.png) 或 **展开** ![](assets/expand-icon.png) 项目名称旁边的图标可显示或隐藏项目的任务和问题列表。
+1. （可选）单击项目名称旁边的&#x200B;**折叠** ![](assets/collapse-icon.png)或&#x200B;**展开** ![](assets/expand-icon.png)图标以显示或隐藏项目的任务和问题列表。
 
 
    >[!TIP]
@@ -173,7 +175,7 @@ ht-degree: 0%
    >     * 适用于Mac计算机的Shift + Option +向下箭头。
 
 
-1. （可选）要手动固定自动显示在时间表上的项目，请将鼠标悬停在项目名称上，然后单击 **固定** 图标 ![](assets/empty-pin-icon.png).
+1. （可选）要手动固定自动显示在时间表上的项，请将鼠标悬停在该项名称上，然后单击&#x200B;**固定**&#x200B;图标![](assets/empty-pin-icon.png)。
 
    >[!TIP]
    >
@@ -181,14 +183,14 @@ ht-degree: 0%
    >   * Windows和Mac计算机均使用Option + P。
 
 
-1. （可选）单击搜索图标 ![](assets/search-icon.png) 并开始键入关键字，以在时间表上查找项目、任务或问题。
+1. （可选）单击搜索图标![](assets/search-icon.png)并开始键入关键字以在时间表上查找项目、任务或问题。
 
-1. （视情况而定）如果您的Workfront或组管理员已启用 **手动将工作角色分配给小时条目** 设置时，从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的更多信息，请参阅文章 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. （视情况而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-   ![在时间表中记录多个角色的时间](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
+   ![在工时表中记录多个角色的时间](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
-1. （可选）单击 **+** 图标以添加另一行，然后从 [!UICONTROL 小时类型] 列来记录不同小时类型的时间。
+1. （可选）单击&#x200B;**+**&#x200B;图标以添加另一行，然后从[!UICONTROL 小时类型]列的下拉菜单中选择新的小时类型以记录不同小时类型的时间。
 
    ![小时类型下拉菜单](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
@@ -199,7 +201,7 @@ ht-degree: 0%
    >   * Ctrl + Option + +用于Windows计算机
    >   * 适用于Mac计算机的Cmd + Option + +
 
-   可用小时类型取决于在系统、项目和用户级别定义的内容，如中所述 [定义工时表的小时类型和可用性](define-hour-types-and-availability.md).
+   可用小时类型取决于在系统、项目和用户级别定义的内容，如[定义小时类型和可用性](define-hour-types-and-availability.md)中所述。
 
    在时间表关闭后无法更改小时类型。
 
@@ -209,7 +211,7 @@ ht-degree: 0%
    >
    >如果要保留与过去记录时间关联的停用小时类型，请考虑为要记录额外时间的工作项添加新行并选择新的小时类型。
 
-1. 单击 **删除** 图标  ![](assets/delete.png) ，以将其删除。 同时也会删除为角色记录的任何时间。
+1. 单击工作角色旁边的&#x200B;**删除**&#x200B;图标![](assets/delete.png)以将其删除。 同时也会删除为角色记录的任何时间。
 
    >[!TIP]
    >
@@ -219,19 +221,19 @@ ht-degree: 0%
 
 1. 在时间表的时间线部分中指定要在任何给定日期上登录的时间量，然后单击小时框外部以保存小时条目。 小时数会自动保存。 您记录时间的行以浅蓝色突出显示，小时条目框以深蓝色列出。
 
-   ![时间表中的记录时间框](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
+   ![在工时表中记录时间框](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
-   您以小时或天为单位记录时间。 此设置由拥有计划许可证的用户或系统管理员配置，如中所述 [配置时间是以小时还是天为单位记录](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+   您以小时或天为单位记录时间。 此设置由拥有计划许可证的用户或系统管理员配置，如[配置时间是按小时还是按天](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)记录中所述。
 
    >[!IMPORTANT]
    >
    >如果出现以下任何情况，则必须手动保存时间表：
    >
-   >* 与您之前记录的时间关联的工作角色已更改，并且 **手动将工作角色分配给小时条目** 已禁用设置。 新日期的记录时间会将其与不同的工作角色关联。
+   >* 与先前记录的时间关联的工作角色已更改，并且已禁用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置。 新日期的记录时间会将其与不同的工作角色关联。
    >   
-   >   如果角色已更改，并且 **手动将工作角色分配给小时条目** 设置已启用，您可以记录时间或更新角色，并且您的更改会自动保存。
+   >   如果角色已更改，并且启用了&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，则可以记录时间或更新角色，所做的更改将自动保存。
    >
-   >* 分配给任务或问题的工作角色与时间表所有者记录时间的工作角色不同 <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >* 分配给任务或问题的工作角色与时间表所有者使用<!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->记录时间的工作角色不同。
    >
    >当两个角色之间不再有冲突的条目时，时间表将自动节省时间。
    >
@@ -242,7 +244,7 @@ ht-degree: 0%
    >
    >您无法记录的加班小时数大于时间表上当前的总小时数。 例如，如果迄今为止您在时间表上记录了7小时，则无法记录8小时的加班时间。
 
-1. （可选）单击 **注释** 为小时条目添加评论。
+1. （可选）单击&#x200B;**评论**&#x200B;为您的小时条目添加评论。
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
@@ -251,7 +253,7 @@ ht-degree: 0%
    >   在单击小时输入框后使用标准QWERTY键盘时，请按以下一组键打开注释框：
    >   * Shift + F2，适用于Windows和Mac计算机。
 
-1. 单击 **完成** 以保存注释。
+1. 单击&#x200B;**完成**&#x200B;以保存评论。
 
    >[!TIP]
    >
@@ -260,15 +262,15 @@ ht-degree: 0%
    >   * Mac计算机的Cmd + Return。
 
 
-1. （可选）单击 **显示评论** 在工具栏中，在工作项下显示小时条目注释。
+1. （可选）单击工具栏中的&#x200B;**显示注释**&#x200B;以在工作项下显示小时条目注释。
 
-   ![在工时表项目下列出的备注](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![评论列在时间表](assets/comments-expanded-under-tasks-redesigned-timesheet.png)的项目下
 
    >[!TIP]
    >
    >   您对时间表所做的所有更改都会自动保存。
 
-1. （可选）单击任务或问题的行，然后单击 **打开摘要** ，以添加更新或更新有关任务或问题的信息。 右侧将打开“摘要”面板。
+1. （可选）单击任务或问题的行，然后单击时间表右上角的&#x200B;**打开摘要**&#x200B;以添加更新或更新有关任务或问题的信息。 右侧将打开“摘要”面板。
 
    ![summary-panel-for-task-open-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
@@ -278,21 +280,21 @@ ht-degree: 0%
    >
    >您无法评论项目或常规时间小时条目。
 
-1. 单击 [!UICONTROL **关闭摘要**] 以关闭“摘要”面板并返回到时间表。
+1. 单击&#x200B;[!UICONTROL **关闭摘要**]&#x200B;以关闭摘要面板并返回时间表。
 
-1. （可选）单击 [!UICONTROL **更新**] 然后，在左侧面板中为时间表添加更新。 有关Workfront更新的更多信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）单击左侧面板中的&#x200B;[!UICONTROL **更新**]，然后将更新添加到时间表。 有关Workfront更新的详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-1. （可选）返回到 **工时表** 区域以关闭或提交您的工时表。
+1. （可选）返回到&#x200B;**时间表**&#x200B;区域以关闭或提交您的时间表。
 
-   * **关闭**：完成更新后关闭时间表。 仅当您的时间表与批准者无关联时，此选项才可用。
+   * **关闭**：更新完时间表后将其关闭。 仅当您的时间表与批准者无关联时，此选项才可用。
 
-   * **提交以供审批：** 仅当时间表上有审批者时，此选项才可用。 保存更改并提交以供审批。 在关闭工时表后，您可以通过单击 **撤消**，如果尚未获得批准。 有关更多信息，请参阅 [提交工时表以供审批](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **提交以供审批：**&#x200B;仅当时间表上有审批者时，此选项才可用。 保存更改并提交以供审批。 如果尚未获得批准，您可以在关闭时间表后通过单击&#x200B;**撤消**&#x200B;将其打开。 有关详细信息，请参阅[提交时间表以供审批](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)。
 
-   * **拒绝**：当您是时间表批准者并且时间表已提交给您审批时，会显示此选项。 单击该选项会将时间表的状态更改为“已拒绝”，并且时间表保持打开状态。
+   * **拒绝**：当您是时间表批准者并且时间表已提交您进行批准时，会显示此选项。 单击该选项会将时间表的状态更改为“已拒绝”，并且时间表保持打开状态。
 
-   * **批准**：当您是时间表批准者并且时间表已提交给您审批时，会显示此选项。 单击该选项会将时间表状态更改为已批准，并关闭时间表。
+   * **批准**：当您是时间表批准者并且时间表已提交您进行批准时，会显示此选项。 单击该选项会将时间表状态更改为已批准，并关闭时间表。
 
    >[!TIP]
    >
@@ -300,8 +302,8 @@ ht-degree: 0%
 
 1. （视情况而定）如果您已关闭或已提交时间表以供审批，请单击以下选项之一：
 
-   * **重新打开**：此选项适用于您已关闭并且没有审批者的时间表，或者已审批的时间表。 重新打开时间表以修改小时条目。
-   * **撤消**：此选项适用于已提交审批但尚未批准或拒绝的时间表。 单击 **撤消** 以重新打开时间表并修改小时条目。
+   * **重新打开**：此选项适用于已关闭且没有批准者的时间表，或者已批准的时间表。 重新打开时间表以修改小时条目。
+   * **撤消**：此选项适用于已提交审批但尚未批准或拒绝的时间表。 单击&#x200B;**撤消**&#x200B;以重新打开时间表并修改小时条目。
 
 #### 从时间表删除项目
 
@@ -310,18 +312,20 @@ ht-degree: 0%
 要从时间表删除小时条目，请执行以下操作：
 
 1. 转到时间表，并查找要删除的小时条目。
-1. 将输入的小时数替换为0或移除小时数并将其替换为0，然后按Enter。
+1. 将输入的小时数替换为0
+或
+删除小时数并将其替换为0，然后按Enter。
 
    删除小时，并自动保存时间表。
 
-如果尚未记录项目（项目、任务或问题）的时间，并且手动添加了项目(如 [在时间表上记录时间](#log-time-on-a-timesheet) 部分)。 <!--ensure this stays accurate-->
+如果尚未记录项目（项目、任务或问题）的时间，并且已手动添加该项目（如本文中[在时间表上记录时间](#log-time-on-a-timesheet)分区中的步骤4-8中所述），则可以通过取消固定该项目（项目、任务或问题）从时间表中删除。<!--ensure this stays accurate-->
 
-您无法根据配置为预填充时间表的Workfront系统或组中的时间表偏好设置，自动删除时间表中包含的项目（如中所述） [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md))。 当项日期在时间表的时间范围之外时，项停止预填充时间表。
+您无法根据配置为预填充时间表的Workfront系统或组中的时间表首选项自动删除时间表中包含的项目（如[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)中所述）。 当项日期在时间表的时间范围之外时，项停止预填充时间表。
 
 要从时间表中删除手动添加的项，请执行以下操作：
 
 1. 确保未针对该项目记录任何时间。
-1. 单击 **取消固定** 图标 ![固定项目](assets/pin-icon.png) ，以从时间表中取消固定该项目。
+1. 单击该项旁边的&#x200B;**取消固定**&#x200B;图标![固定项](assets/pin-icon.png)以从时间表中取消固定该项。
 
    >[!TIP]
    >
@@ -336,37 +340,37 @@ ht-degree: 0%
 
 有关使用“主页”区域的一般信息，请参阅以下部分：
 
-* 有关使用旧版主页区域的信息，请参阅 [使用“主页”区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* 有关使用新的“主页”区域的信息，请参阅 [新主页入门](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* 有关使用旧版主页区域的信息，请参阅[使用主页区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
+* 有关使用新主页区域的信息，请参阅[开始使用新主页](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 #### 在新的“主页”区域的工作项上记录时间
 
-您可以使用“主页”区域中的“摘要”面板来记录任何构件中任务和问题的时间。 有关信息，请参见 [摘要面板](#summary-panel) 部分。
+您可以使用“主页”区域中的“摘要”面板来记录任何构件中任务和问题的时间。 有关信息，请参阅本文中的[摘要面板](#summary-panel)部分。
 
 此外，要在“我的工作”小部件中记录项目的时间，请执行以下操作：
 
-1. 已转到 **主页** 区域。
-1. 添加 **我的工作** 构件到您的主页。
-1. （可选）在列表中选择任务、问题或请求，然后单击 **处理此项工作**
-1. 将鼠标悬停在要记录时间的任务或问题上，然后单击 **记录时间** 图标 ![](assets/log-time-icon-in-new-home.png) 任务信息的右侧。
+1. 已转到&#x200B;**主页**&#x200B;区域。
+1. 将&#x200B;**我的工作**&#x200B;构件添加到您的主页。
+1. （可选）在列表中选择任务、问题或请求，然后单击&#x200B;**处理它**
+1. 将鼠标悬停在要为其记录时间的任务或问题上，然后单击任务信息右侧的&#x200B;**记录时间**&#x200B;图标![](assets/log-time-icon-in-new-home.png)。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
-1. 单击 **记录时间**.
+1. 单击&#x200B;**记录时间**。
 
    记录的时间显示在对象的“小时”部分中，并显示在您的时间表中。
 
 #### 在旧版主页区域的工作项上记录时间
 
-1. 在 **工作列表** 区域，选择要记录时间的项目。
-1. 在右侧面板中，单击 **记录时间**.
+1. 在&#x200B;**工作列表**&#x200B;区域，选择要记录时间的项。
+1. 在右侧面板中，单击&#x200B;**记录时间**。
 
    ![](assets/log-time-home-350x181.png)
 
-1. 在 **输入小时** 在下拉菜单中，选择相应的小时类型。\
-   可用小时类型取决于在系统、项目和用户级别定义的内容，如中所述 [定义工时表的小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. （视情况而定）如果您的Workfront或组管理员已启用 **手动将工作角色分配给小时条目** 设置时，从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的更多信息，请参阅文章 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. 指定要记录的时间，然后单击 **记录时间**.
+1. 在&#x200B;**输入小时数**&#x200B;下拉菜单中，选择相应的小时类型。\
+   可用小时类型取决于在系统、项目和用户级别定义的内容，如[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
+1. （视情况而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择工作角色。 默认情况下，将显示分配给工作项时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
+1. 指定要记录的时间，然后单击&#x200B;**记录时间**。
 
    记录的时间显示在对象的“小时”部分中，并显示在您的时间表中。
 
@@ -374,24 +378,24 @@ ht-degree: 0%
 
 您可以在以下部分中记录项目、任务或问题的项目特定时间：
 
-* [“更新”部分](#updates-section)
+* [更新分区](#updates-section)
 * [“小时”部分](#hours-section)
 
 #### “更新”部分{#updates-section}
 
 要在项目、任务或问题的更新部分中记录时间，您必须具备以下各项：
 
-* 正确的访问和权限，如 [访问要求](#access-requirements) 部分。
+* 正确的访问和权限，如本文的[访问要求](#access-requirements)部分中所述。
 
-* 您的Workfront管理员必须启用下的直接在项目上记录时间设置 [!UICONTROL **时间表和小时数**]> [!UICONTROL **偏好设置**] 如果要直接将时间记录到项目，请转到“系统”区域。
+* 如果要直接将时间记录到项目，您的Workfront管理员必须在系统区域的&#x200B;[!UICONTROL **时间表和小时数**]> [!UICONTROL **首选项**]&#x200B;下直接启用项目记录时间设置。
 
-  有关允许用户直接将小时数记录到项目的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  有关允许用户直接将小时数记录到项目的详细信息，请参阅[配置工时表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 要在项目、任务或问题的更新部分中记录时间，请执行以下操作：
 
 1. 转到项目、任务或问题。
-1. 在左侧面板中，选择 **更新**.
-1. 单击 **记录时间**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
+1. 在左侧面板中，选择&#x200B;**更新**。
+1. 单击&#x200B;**记录时间**。<!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
    此时将显示日志时间对话框。
 
@@ -405,15 +409,15 @@ ht-degree: 0%
 
 1. 指定以下信息：
 
-   * **小时类型**：如果小时类型与默认显示的类型不同，请从下拉菜单中选择小时类型。
+   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
 
-     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参见 [定义工时表的小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
-   * **工作角色**：（视情况而定）如果您的Workfront或组管理员已启用 **手动将工作角色分配给小时条目** 设置，选择 **工作角色** 从下拉菜单中。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的更多信息，请参阅文章 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-   * **小时**：输入项目、任务或问题的小时数。
+   * **小时数**：输入项目、任务或问题的小时数。
 
-1. 单击 **记录时间**.
+1. 单击&#x200B;**记录时间**。
 
    记录的时间显示在对象的“小时”部分中，并显示在您的时间表中。
 
@@ -425,47 +429,47 @@ ht-degree: 0%
 
 您必须具备以下所有条件：
 
-* 对时间表和小时数具有管理访问权限的计划许可证。 有关授予对时间表和小时数的管理访问权限的更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* 为项目分配或更高权限，并具有对记录小时数的访问权限。 有关授予项目权限的详细信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* 您的Workfront管理员必须在中启用直接在项目上记录时间设置 **时间表和小时数>首选项** 部分（如果要直接将时间记录到项目）。 有关允许用户直接将小时数记录到项目的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* 对时间表和小时数具有管理访问权限的计划许可证。 有关授予对时间表和小时数的管理访问权限的详细信息，请参阅[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+* 具有“记录小时数”访问权限的Contribute或更高项目权限。 有关授予项目权限的详细信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
+* 如果要直接将时间记录到项目，您的Workfront管理员必须在“设置”区域的&#x200B;**时间表和小时数>首选项**&#x200B;部分中启用直接在项目上记录时间设置。 有关允许用户直接将小时数记录到项目的详细信息，请参阅[配置工时表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 要在项目、任务或问题的小时数部分中记录时间，请执行以下操作：
 
 1. 转到项目、任务或问题。
-1. 在左侧面板中，单击 **小时**.
-1. 单击 **记录时间**.
+1. 在左侧面板中，单击&#x200B;**小时**。
+1. 单击&#x200B;**记录时间**。
 
    此时将显示记录小时数对话框。
 
 1. 指定以下信息：
 
-   * **所有者：** 默认情况下，您的姓名会显示在此字段中。\
+   * **所有者：**&#x200B;默认情况下，您的姓名将显示在此字段中。\
      如果要为其他用户记录小时数，请指定其名称。
 
-   * **小时类型**：如果小时类型与默认显示的类型不同，请从下拉菜单中选择小时类型。
+   * **小时类型**：从下拉菜单中选择小时类型（如果它与默认显示的类型不同）。
 
-     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参见 [定义工时表的小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     根据系统中配置的小时类型，此处提供的选项可能会有所不同。 有关配置小时类型的详细信息，请参阅[定义小时类型和可用性](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
 
-   * **工作角色**：（视情况而定）如果您的Workfront或组管理员已启用 **手动将工作角色分配给小时条目** 设置，选择 **工作角色** 从下拉菜单中。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的更多信息，请参阅文章 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **工作角色**： （视条件而定）如果您的Workfront或组管理员已启用&#x200B;**手动将工作角色分配给小时条目**&#x200B;设置，请从下拉菜单中选择&#x200B;**工作角色**。 默认情况下，系统将显示指定给对象时指定的角色。 如果您未在该对象上分配角色，则默认显示您的“主要角色”。 有关此设置的详细信息，请参阅文章[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
      ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **小时**：输入项目、任务或问题的小时数。
+   * **小时数**：输入项目、任务或问题的小时数。
 
-1. 单击 **记录时间**.
+1. 单击&#x200B;**记录时间**。
 
 ### 摘要面板
 
 您可以在“摘要”面板中记录任务和问题的时间。
-有关更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+有关详细信息，请参阅[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 ![](assets/summary-hour-log.png)
 
 ### 展示板 {#boards}
 
 您可以在Workfront展示板上的已连接信息卡上记录时间。 这与在任务或问题上记录时间是同一过程，卡片上记录的小时数将保存在连接的任务或问题上。
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ### 移动应用程序 {#mobile-app}
 
 您可以从Workfront移动设备应用程序记录时间。
-有关更多信息，请参阅 [适用于Android的Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 或 [适用于iOS的Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+有关详细信息，请参阅适用于Android的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或适用于iOS的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。

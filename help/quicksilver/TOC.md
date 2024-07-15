@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14439'
 ht-degree: 1%
 
 ---
@@ -1963,7 +1963,7 @@ ht-degree: 1%
    * 创建和管理工时表{#create-and-manage-timesheets-in-adobe-workfront}
       * [创建和管理时间表：文章索引](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [创建、编辑和分配时间表配置文件](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-      * [定义工时表的小时类型和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+      * [定义小时类型和可用性](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [创建一次性时间表](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [编辑工时表信息](timesheets/create-and-manage-timesheets/edit-timesheets.md)
       * [记录时间](timesheets/create-and-manage-timesheets/log-time.md)
@@ -2389,7 +2389,7 @@ ht-degree: 1%
       * [将Google Workspace电子邮件转换为Adobe Workfront对象和更新](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
       * [使用电子邮件内容在Google Workspace中创建Adobe Workfront任务](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [使用电子邮件内容在Google Workspace中创建Adobe Workfront问题](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [使用电子邮件内容从Google Workspace更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+      * [使用电子邮件内容从G Suite更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
