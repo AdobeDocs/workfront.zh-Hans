@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 本页介绍了随23.3版本一起进行的所有集成增强。 这些增强功能在2023年7月20日和21日发布的23.3版本的生产环境中提供。
 
-有关23.3发行周期中此时可用的所有更改列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+有关23.3发行周期中此时可用的所有更改列表，请参阅[23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
-## 新的G Suite集成现已推出
+## 新的Google Workspace集成现已可用
 
-Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAuth2进行身份验证，并替换以前的集成。
+Google Marketplace中现在提供了新的Google Workspace集成。 新的集成使用OAuth2进行身份验证，并替换以前的集成。
 
-以前的G Suite集成现已弃用，并将自动卸载。
+以前的Google Workspace集成现已弃用，并将自动卸载。
 
-有关如何安装新集成的说明，请参阅 [安装 [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+有关如何安装新集成的说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-有关适用于G Suite的Workfront的更多信息，请参阅 [适用于G Suite的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
+有关适用于Google Workspace的Workfront的更多信息，请参阅[适用于Google Workspace的Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)。
 
 ## Adobe Creative Cloud集成现在支持多个已分配用户
 
@@ -36,9 +36,9 @@ Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAu
 
 要利用此功能，请下载并安装最新的WorkfrontCreative Cloud插件。
 
-有关该功能的更多信息，请参阅 [使用Adobe Workfront插件将工作项标记为完成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
+有关功能的详细信息，请参阅[使用Adobe Workfront插件将工作项标记为完成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)。
 
-有关安装Workfront forCreative Cloud插件的信息，请参阅 [安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+有关安装适用于Creative Cloud插件的Workfront的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
 ## 从Workfront查看和管理Workfront通知以了解Creative Cloud插件
 
@@ -48,9 +48,9 @@ Google Marketplace中现在提供了新的G Suite集成。 新的集成使用OAu
 
 要利用此功能，请下载并安装最新的WorkfrontCreative Cloud插件。
 
-有关更多信息，请参阅 [查看和管理 [!DNL Adobe Workfront] 来自Adobe Creative Cloud的通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
+有关详细信息，请参阅[从Adobe Creative Cloud查看和管理 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)。
 
-有关安装Workfront forCreative Cloud插件的信息，请参阅 [安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+有关安装适用于Creative Cloud插件的Workfront的信息，请参阅[安装适用于Creative Cloud应用程序的Adobe Workfront插件](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
 <!--
 
@@ -72,7 +72,7 @@ For more information, see [Link documents from external applications](/help/quic
 
 此功能只能与Workfront中的Adobe Experience Manager as a Cloud Service集成一起使用。 Adobe Experience Manager增强型连接器中不提供此功能。
 
-有关更多信息，请参阅 [在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+有关详细信息，请参阅[在Experience Manager Assets集成中使用工作流](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)。
 
 ## 将Workfront字段值映射到Experience Manager Assets中的标记
 
@@ -80,15 +80,15 @@ For more information, see [Link documents from external applications](/help/quic
 
 以前，将Workfront数据映射到Experience Manager Assets标记不可用。
 
-有关Experience Manager Assetsas a Cloud Service中此功能的更多信息，请参阅 [配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-有关Experience Manager Assets Essentials中此功能的更多信息，请参阅 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+有关Experience Manager Assetsas a Cloud Service中此功能的详细信息，请参阅[配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关Experience Manager Assets Essentials中此功能的更多信息，请参阅[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 ## 将Workfront字段映射到自定义Experience Manager Assets元数据字段
 
 通过本机集成，您现在可以将本机字段和内置的Workfront字段映射到Experience Manager Assetsas a Cloud Service中的自定义元数据架构字段。
 
-有关Experience Manager Assetsas a Cloud Service中此功能的更多信息，请参阅 [配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-有关Experience Manager Assets Essentials中此功能的更多信息，请参阅 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+有关Experience Manager Assetsas a Cloud Service中此功能的详细信息，请参阅[配置[!UICONTROL Experience Manager Assetsas a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+有关Experience Manager Assets Essentials中此功能的更多信息，请参阅[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 ## 使用用于Creative Cloud的Adobe Workfront调整自动验证工作流模板设置
 
@@ -101,7 +101,7 @@ For more information, see [Link documents from external applications](/help/quic
 * 更新电子邮件通知
 * 等等！
 
-有关更多信息，请参阅 [使用上传文档和验证 [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+有关详细信息，请参阅[使用 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)的 [!DNL Adobe Workfront] 插件上载文档和校样。
 
 这些增强功能适用于以下Creative Cloud应用程序：
 

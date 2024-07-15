@@ -5,28 +5,28 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google Team Drive模块
-description: 此 [!DNL Adobe Workfront Fusion Google Team Drive] 通过模块，您可以监视、上传、更新、复制、删除或检索文件，以及在 [!DNL Google Shared] 开车。
+description: 通过 [!DNL Adobe Workfront Fusion Google Team Drive] 模块，您可以在 [!DNL Google Shared] 驱动器中监视、上传、更新、复制、删除或检索文件和创建文件夹。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Team Drive] 模块
+# [!DNL Google Team Drive]模块
 
-此 [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] 通过模块，您可以监视、上传、更新、复制、删除或检索文件，以及在 [!DNL Google Shared Drive].
+通过[!DNL Adobe Workfront Fusion] [!DNL Google Team Drive]模块，您可以在[!DNL Google Shared Drive]中监视、上传、更新、复制、删除或检索文件和创建文件夹。
 
-要使用 [!DNL Google Team Drive] 替换为 [!DNL Adobe Workfront Fusion]，则必须拥有 [!DNL G Suite] 帐户。 如果您没有虚拟报表包，则可以创建 [!DNL G Suite] 帐户位于 [[!DNL G Suite] 注册网站](https://gsuite.google.com/signup/businessstarter/welcome).
+要将[!DNL Google Team Drive]与[!DNL Adobe Workfront Fusion]一起使用，需要具有[!DNL Google Workspace]帐户。 如果您没有帐户，则可以在[[!DNL Google Workspace] 注册站点](https://workspace.google.com/business/signup/welcome)创建一个[!DNL Google Workspace]帐户。
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!DNL Google Team Drive]，并将其连接到多个第三方应用程序和服务。
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Google Team Drive]的工作流，并将其连接到多个第三方应用程序和服务。
 
-如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
-有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
 ## 访问要求
 
@@ -47,43 +47,43 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-使用 [!DNL Google Team Drive] 模块，您必须具有 [!DNL Google Team Drive].
+要使用[!DNL Google Team Drive]模块，您必须具有[!DNL Google Team Drive]。
 
-## [!DNL Google Team Drive] 模块及其字段
+## [!DNL Google Team Drive]模块及其字段
 
-配置时 [!DNL Google Team Drive] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Google Team Drive] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置[!DNL Google Team Drive]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Google Team Drive]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-显示的模块对话框字段 **粗体** (在 [!DNL Workfront Fusion] 场景， **非** （在此文档文章中）是必填项。
+以&#x200B;**bold**（在[!DNL Workfront Fusion]方案中，此文档文章中为&#x200B;**not**）显示的模块对话框字段是必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
 ### 触发器
 
-#### [!UICONTROL 关注文件]
+#### [!UICONTROL 监视文件]
 
 在指定的文件夹中添加和/或修改新文件时，返回文件详细信息。
 
@@ -92,8 +92,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -104,39 +104,39 @@ ht-degree: 0%
    <td> <p>选择共享驱动器中的文件夹。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL要监视哪些文件]</td> 
+   <td>[！UICONTROL要查看的文件]</td> 
    <td> <p> 选择要监视的文件类型。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Documents] 要格式化的文件] </td> 
-   <td> <p>选择您希望观察的格式 [!DNL Google Documents] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Documents]文件转换为格式] </td> 
+   <td> <p>选择要将观察的[!DNL Google Documents]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Sheets] 要格式化的文件] </td> 
-   <td> <p>选择您希望观察的格式 [!DNL Google Sheets] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Sheets]文件转换为格式] </td> 
+   <td> <p>选择要将观察的[!DNL Google Sheets]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Slides] 要格式化的文件] </td> 
-   <td> <p>选择您希望观察的格式 [!DNL Google Slides] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Slides]文件转换为格式] </td> 
+   <td> <p>选择要将观察的[!DNL Google Slides]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Drawings] 要格式化的文件] </td> 
-   <td> <p>选择您希望观察的格式 [!DNL Google Drawings] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Drawings]文件转换为格式] </td> 
+   <td> <p>选择要将观察的[!DNL Google Drawings]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL监视]</td> 
-   <td> <p> 选择是要监视文件夹以查找新文件和修改的文件，还是只监视新文件。</p> </td> 
+   <td> <p> 选择是要监视文件夹中是否有新的和修改的文件，还是只监视新文件。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL最大下载文件数]</td> 
-   <td> <p> 设置最大文件数 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
+   <td> <p> 设置在一个执行周期内将返回的最大文件数[!DNL Workfront Fusion]。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 操作
 
-* [[!UICONTROL 上传文件]](#upload-a-file)
+* [[!UICONTROL 上载文件]](#upload-a-file)
 * [[!UICONTROL 更新文件]](#update-a-file)
 * [[!UICONTROL 复制文件]](#copy-a-file)
 * [[!UICONTROL 删除文件]](#delete-a-file)
@@ -145,17 +145,17 @@ ht-degree: 0%
 * [[!UICONTROL 获取文件列表]](#get-a-file-list)
 * [[!UICONTROL 创建文件夹]](#create-a-folder)
 
-#### [!UICONTROL 上传文件]
+#### [!UICONTROL 上载文件]
 
-将文件上传到指定的共享驱动器。
+将文件上载到指定的共享驱动器。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道] </td> 
@@ -166,8 +166,8 @@ ht-degree: 0%
    <td> <p>选择共享驱动器中的文件夹。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL源文件]</p> </td> 
-   <td> <p>指定要上载到共享驱动器的文件。</p> <p>映射您要从上一个模块上传的文件(例如[！UICONTROL HTTP] &gt;[！UICONTROL获取文件]或[！UICONTROLDropbox] &gt;[！UICONTROL获取文件)]，或手动输入文件名和文件数据。</p> </td> 
+   <td> <p>[！UICONTROL Source File]</p> </td> 
+   <td> <p>指定要上载到共享驱动器的文件。</p> <p>映射您要从上一个模块上传的文件(例如，[！UICONTROL HTTP] &gt;[！UICONTROL获取文件]或[！UICONTROLDropbox] &gt;[！UICONTROL获取文件)]，或手动输入文件名和文件数据。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL标题]</td> 
@@ -175,7 +175,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL转换文件]</td> 
-   <td> <p> 启用此选项可将文件转换为共享文件夹中相应的Google格式。</p> </td> 
+   <td> <p> 启用此选项以将文件转换为共享文件夹中相应的Google格式。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,8 +189,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -205,8 +205,8 @@ ht-degree: 0%
    <td> <p> 输入（映射）要更新的文件ID。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL源文件]</p> </td> 
-   <td>从上一个模块中选择一个源文件，或映射源文件的名称和数据。</td> 
+   <td> <p>[！UICONTROL Source File]</p> </td> 
+   <td>从上一个模块中选择源文件，或映射源文件的名称和数据。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL标题] </td> 
@@ -214,7 +214,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL转换文件]</td> 
-   <td> <p> 启用此选项以将文件转换为相应的 [!DNL Google] 共享文件夹中的格式。</p> </td> 
+   <td> <p> 启用此选项以将文件转换为共享文件夹中相应的[!DNL Google]格式。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,8 +228,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -259,12 +259,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件ID]</td> 
-   <td> <p> 输入或映射要删除的文件的ID。</p> </td> 
+   <td> <p> 输入或映射要删除文件的ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -278,12 +278,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件ID]</td> 
-   <td> <p> 输入或映射要移动到垃圾桶的文件的ID。</p> </td> 
+   <td> <p> 输入要移动到垃圾桶的文件的ID，或将其映射到垃圾桶。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,24 +297,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Documents] 要格式化的文件] </td> 
-   <td> <p>选择所需的格式 [!DNL Google Documents] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Documents]文件转换为格式] </td> 
+   <td> <p>选择您希望将[!DNL Google Documents]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Sheets] 要格式化的文件] </td> 
-   <td> <p>选择所需的格式 [!DNL Google Sheets] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Sheets]文件转换为格式] </td> 
+   <td> <p>选择您希望将[!DNL Google Sheets]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Slides] 要格式化的文件] </td> 
-   <td> <p>选择所需的格式 [!DNL Google Slides] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Slides]文件转换为格式] </td> 
+   <td> <p>选择您希望将[!DNL Google Slides]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL转换 [!DNL Google Drawings] 要格式化的文件] </td> 
-   <td> <p>选择所需的格式 [!DNL Google Drawings] 文件已转换为。</p> </td> 
+   <td>[！UICONTROL将[!DNL Google Drawings]文件转换为格式] </td> 
+   <td> <p>选择您希望将[!DNL Google Drawings]文件转换为的格式。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件ID]</td> 
@@ -332,8 +332,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -348,12 +348,12 @@ ht-degree: 0%
    <td> <p>选择要执行的搜索类型 — 请参阅下文。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL查询]</p> </td> 
+   <td> <p>[！UICONTROL Query]</p> </td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>[！UICONTROL在文件名中搜索]</p> <p style="font-weight: normal;">在选择[！UICONTROL搜索精确搜索词]选项时输入文件名（包括文件扩展名），或在选择[！UICONTROL搜索包含搜索词的名称]选项时输入名称的一部分。</p> </li> 
      <li> <p style="font-weight: bold;">[！UICONTROL全文搜索]</p> <p>输入搜索词以搜索文件名、说明和内容。</p> </li> 
-     <li> <p style="font-weight: bold;">[！UICONTROL自定义搜索查询]</p> <p>输入 [!DNL Google] 搜索查询词。 欲知更多详情，请参阅 [!DNL Google]的 <a href="https://developers.google.com/drive/api/v2/ref-search-terms">搜索查询文档</a>. 示例: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li> <p style="font-weight: bold;">[！UICONTROL自定义搜索查询]</p> <p>输入[!DNL Google]搜索查询词。 有关详细信息，请参阅[!DNL Google]的<a href="https://developers.google.com/drive/api/v2/ref-search-terms">搜索查询文档</a>。 示例： <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -362,7 +362,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL返回结果的最大数目]</td> 
-   <td> <p> 设置文件或文件夹的最大数量 [!DNL Workfront Fusion] 将在一个执行周期内返回。</p> </td> 
+   <td> <p> 设置在一个执行周期内[!DNL Workfront Fusion]将返回的最大文件或文件夹数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -376,8 +376,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Team Drive] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 这可以通过允许列表实现，它实际上是“允许”通过防火墙发送或接收数据的站点的“列表”。 可以通过以下两种方式之一标识站点：
 
 * **IP地址**：一系列数字，如52.31.132.175
-* **域**：URL的一部分，如www.thisdomain.com中的“thisdomain”
+* **域**： URL的一部分，如www.thisdomain.com中的“thisdomain”
 
 Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件添加到您组织的允许列表中，然后才能在您的组织中使用Workfront。
 
@@ -49,19 +49,19 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
  <tbody> 
   <tr> 
    <td role="rowheader">允许的特定IP地址和域</td> 
-   <td> <p>文章 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">配置防火墙的允许列表</a> 列入允许列表包含贵组织必须添加到其的IP地址和域的列表。 </p> <p>您的网络管理员可能无权访问“配置防火墙的允许列表”文章。 在这种情况下，您必须将其提供给他们。 我们不建议打印硬（纸张）副本。 使用数字副本，网络管理员可以复制并粘贴地址，这比从硬拷贝中键入更快、更准确。</p> </td> 
+   <td> <p>文章<a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">配置防火墙的允许列表 列入允许列表</a>包含您的组织必须添加到其的IP地址和域的列表。 </p> <p>您的网络管理员可能无权访问“配置防火墙的允许列表”文章。 在这种情况下，您必须将其提供给他们。 我们不建议打印硬（纸张）副本。 使用数字副本，网络管理员可以复制并粘贴地址，这比从硬拷贝中键入更快、更准确。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的群集</td> 
-   <td>要查找组织的群集，请参阅 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看贵组织的集群和Workfront计划</a>.</td> 
+   <td>要找到组织的群集，请参阅<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看组织的群集和Workfront计划</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的Workfront计划</td> 
-   <td> <p>要查找贵组织的计划，请参阅 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看贵组织的集群和Workfront计划。</a></p> </td> 
+   <td> <p>要查找贵组织的计划，请参阅<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">查看贵组织的群集和Workfront计划。</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">您的域</td> 
-   <td> <p>要查找您的域，请查看用于连接到Workfront的网址。</p> <p>示例：在网址中 <code>greatcompany.my.workfront.com</code>，则域为“greatcompany”</p> </td> 
+   <td> <p>要查找您的域，请查看用于连接到Workfront的网址。</p> <p>示例：在网址<code>greatcompany.my.workfront.com</code>中，域为“greatcompany”</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他Adobe Workfront产品</td> 
@@ -76,7 +76,7 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
    <td>如果您使用以下任何一种方式，请通知网络管理员：
     <ul>
      <li><p>Workfront for Jira</p></li>
-     <li><p>Workfront for G Suite</p></li>
+     <li><p>适用于Google的Workfront Workspace</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>适用于Outlook的Workfront</p></li>
      <li><p>适用于Salesforce的Workfront</p></li>
@@ -98,16 +98,16 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
 
 ### 查看贵组织的集群和Workfront计划 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 
-1. 单击 **系统** 在左侧面板中
-1. 要查看群集，请选择 **客户信息**.
+1. 单击左侧面板中的&#x200B;**系统**
+1. 要查看您的群集，请选择&#x200B;**客户信息**。
 
-   您的集群显示在 **基本信息** 部分。
+   您的群集显示在&#x200B;**基本信息**&#x200B;部分的右上角附近。
 
    ![](assets/locate-cluster.png)
 
-1. 要查看您的Workfront计划，请选择 **许可证**.
+1. 要查看您的Workfront计划，请选择&#x200B;**许可证**。
 
    您的计划将在页面底部附近显示。
 

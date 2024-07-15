@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
->要在贵组织已登记到Adobe Admin Console的情况下配置允许列表，请参阅 [允许Adobe应用程序和服务使用的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>若要在贵组织已登记到Adobe Admin Console的情况下配置您的允许列表，请参阅[允许Adobe应用程序和服务的域](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)。
 >
->有关因您的组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 配置自定义文档集成时使用文档Webhook
 * 使用Workfront事件订阅
 
-  有关更多信息，请参阅 [事件订阅API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  有关详细信息，请参阅[事件订阅API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680)。
 
 您还需要打开某些端口，以便在发送电子邮件时对其进行加密。
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 
 如果您的组织拥有企业计划，您还可以配置两个Workfront 列入允许列表：
 
-* **电子邮件允许列表**：可让您控制用户通过电子邮件向Workfront中存储数据的位置。 有关更多信息，请参阅 [配置电子邮件允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP允许列表**：将对Workfront的访问限制为您指定的45个IP地址或IP地址范围，从而为Workfront应用程序提供额外的安全层。 有关更多信息，请参阅 [按IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **电子邮件允许列表**：可让您控制用户通过电子邮件发送存储在Workfront中的数据的位置。 有关详细信息，请参阅[配置电子邮件允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+* **IP 允许列表**：将对Workfront的访问限制为您指定的45个IP地址或IP地址范围，从而为Workfront应用程序提供额外的安全层。 有关详细信息，请参阅[通过IP地址限制对Adobe Workfront的访问](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)。
 
 ## 找到Workfront群集
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
 要查找组织的群集，请执行以下操作：
 
-1. 作为Workfront管理员，单击 **主菜单** 图标 ![主菜单](assets/main-menu-icon.png)，然后单击 **设置**.
-1. 在左侧导航中，单击 **系统**，然后选择 **客户信息**.
-1. 找到 **群集设置** 字段。 此处列出了您组织的群集。
+1. 作为Workfront管理员，请单击&#x200B;**主菜单**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**设置**。
+1. 在左侧导航中，单击&#x200B;**系统**，然后选择&#x200B;**客户信息**。
+1. 在页面的右上角找到&#x200B;**群集设置**&#x200B;字段。 此处列出了您组织的群集。
 
    CL01指的是Cluster 1，CL02指的是Cluster 2，依此类推。
 
-有关更多信息，请参阅部分 [查看贵组织的集群和Workfront计划](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 在文章中 [防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+有关详细信息，请参阅[防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)一文中的[查看组织的群集和Workfront计划](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan)部分。
 
 ## 要添加到允许列表的IP地址
 
@@ -73,18 +73,18 @@ ht-degree: 0%
 >
 >某些Workfront集成在启用允许列表时不起作用，因为它们不能使用静态IP地址进行配置。 列入允许列表若要使用以下集成，必须禁用。
 >
->* Workfront for G Suite
+>* 适用于Google的Workfront Workspace
 >* 适用于Outlook的Workfront
 >* 适用于Salesforce的Workfront
 
-* [允许群集1 、 2 、 3 、 5 、 7 、 8和9的IP地址](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [允许群集4使用的IP地址](#ip-addresses-to-allow-for-cluster-4)
-* [允许群集6的IP地址](#ip-addresses-to-allow-for-cluster-6)
-* [用于允许测试驱动器的IP地址](#IP%20Addre2)
-* [实施事件订阅时允许的IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [IP地址允许增强型身份验证](#ip-addresses-to-allow-for-enhanced-authentication)
-* [要添加的用于访问Workfront Fusion的IP地址](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [要使用Workfront for Jira添加的IP地址](#ip-addresses-to-add-for-using-workfront-for-jira)
+* 允许群集1、2、3、5、7、8和9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)的[IP地址
+* 允许群集4](#ip-addresses-to-allow-for-cluster-4)的[IP地址
+* 允许群集6](#ip-addresses-to-allow-for-cluster-6)的[IP地址
+* [允许使用测试驱动器的IP地址](#IP%20Addre2)
+* 实施事件订阅时允许的[IP地址](#ip-addresses-to-allow-when-implementing-event-subscriptions)
+* [允许增强身份验证的IP地址](#ip-addresses-to-allow-for-enhanced-authentication)
+* 要添加[个IP地址以访问Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* 要添加以供使用Workfront for Jira的[个IP地址](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [要为Workfront的所有群集添加的URL](#urls-to-add-for-all-clusters-workfront)
 
 ### 允许群集1 、 2 、 3 、 5 、 7 、 8和9的IP地址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>有关以下IP地址的信息，请参见 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本的电子邮件的新IP地址</a></p> 
+    </ul> <p>有关以下IP地址的信息，请参阅<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Adobe Workfront 21.1版本的电子邮件新IP地址</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -163,7 +163,7 @@ ht-degree: 0%
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-有关以下IP地址的信息，请参见 [Adobe Workfront 21.1版本的电子邮件的新IP地址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+有关以下IP地址的信息，请参阅[Adobe Workfront 21.1版本的电子邮件新IP地址](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99
@@ -511,7 +511,7 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
      <li>*.workfront.com — 需要在Workfront中查看验证</li> 
      <li>*.proofhq.com — 需要在Workfront Proof中查看验证</li> 
      <li>*.proofhq.eu — 需要在Workfront Proof中查看验证</li> 
-    </ul> <p><b>注意</b>：  <p>我们不支持向您的Workfront Proof允许列表添加IP地址。 在Workfront迁移到AWS后，这些指标一直处于动态状态。 为此，我们建议您仅允许Workfront Proof域。</p> <p>如果将这些域添加到允许列表时出现问题，您需要改用IP地址，请联系Workfront客户支持。</p> </p> </td> 
+    </ul> <p><b>注释</b>：  <p>我们不支持向您的Workfront Proof允许列表添加IP地址。 在Workfront迁移到AWS后，这些指标一直处于动态状态。 为此，我们建议您仅允许Workfront Proof域。</p> <p>如果将这些域添加到允许列表时出现问题，您需要改用IP地址，请联系Workfront客户支持。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

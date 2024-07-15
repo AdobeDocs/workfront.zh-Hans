@@ -2,29 +2,29 @@
 product-area: workfront-integrations
 keywords: google，doc，文档，工作表，幻灯片
 navigation-topic: workfront-for-g-suite
-title: 管理 [!DNL Adobe Workfront] 来自G Suite的通知详细信息
-description: 在G Suite中，当您打开通知电子邮件Adobe时 [!DNL Workfront] 已发送，您无需离开收件箱即可查看相关工作项详细信息并做出响应。 如果存在可用操作（如批准请求），则可以直接从Workfront for G Suite中执行这些操作。
+title: 从Google Workspace管理 [!DNL Adobe Workfront] 通知详细信息
+description: 在Google Workspace中，打开Adobe [!DNL Workfront] 已发送的通知电子邮件时，您可以查看相关工作项详细信息并在不离开收件箱的情况下做出回应。 如果可以使用操作（如批准请求），则可以直接从Workfront中为Google Workspace执行这些操作。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
-# 管理 [!DNL Adobe Workfront] 通知详细信息来源 [!DNL G Suite]
+# 管理来自[!DNL Google Workspace]的[!DNL Adobe Workfront]通知详细信息
 
 >[!NOTE]
 >
 >适用于Google的Adobe Workfront插件的最新版本于2023年6月26日发布。
 
-在 [!DNL G Suite]，当您打开通知电子邮件时 [!DNL Adobe Workfront] 已发送，您可以查看相关工作项详细信息并在无需离开您的工作项的情况下做出响应 [!UICONTROL 收件箱]. 如果操作可用（如批准请求），您可以直接从执行这些操作 [!DNL Workfront for G Suite].
+在[!DNL Google Workspace]中，当您打开已发送的通知电子邮件[!DNL Adobe Workfront]时，您可以查看相关工作项详细信息并在不离开[!UICONTROL 收件箱]的情况下做出回应。 如果操作可用（如批准请求），则可以直接从[!DNL Workfront for Google Workspace]执行这些操作。
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] 支持您收到的几乎每种类型的电子邮件通知 [!DNL Workfront] （大约120种不同的类型）。 [!UICONTROL 每日摘要] 电子邮件发送自 [!DNL Workfront] 不显示在 [!DNL Workfront for G Suite]. 欲知关于 [!DNL Workfront] 电子邮件通知类型，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for Google Workspace]支持您从[!DNL Workfront]收到的几乎每种类型的电子邮件通知（大约120种不同的类型）。 从[!DNL Workfront]发送的[!UICONTROL 每日摘要]电子邮件未出现在[!DNL Workfront for Google Workspace]中。 有关[!DNL Workfront]电子邮件通知类型的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 ## 访问要求
 
@@ -45,24 +45,24 @@ ht-degree: 1%
   </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-在从管理通知详细信息之前 [!DNL G Suite]，您必须
+在从[!DNL Google Workspace]管理通知详细信息之前，您必须
 
-* 安装 [!DNL Workfront for G suite]\
-   有关说明，请参阅 [安装 [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* 安装[!DNL Workfront for Google Workspace]\
+   有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-## 管理 [!DNL Adobe Workfront] 通知详细信息来源 [!DNL G Suite]
+## 管理来自[!DNL Google Workspace]的[!DNL Adobe Workfront]通知详细信息
 
-1. 如果 [!DNL Workfront for G Suite] 面板未显示，请单击 [!DNL Workfront] 图标 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 页面最右侧的附加组件侧栏。
-1. 在 [!DNL G Suite]，打开 [!DNL Workfront] 通知电子邮件。
-1. 单击 **[!UICONTROL 查看所有更新]** 如果它显示在面板顶部附近。
-1. 单击 **[!UICONTROL 详细信息]**.
+1. 如果未显示[!DNL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 在[!DNL Google Workspace]中，打开[!DNL Workfront]通知电子邮件。
+1. 如果显示在面板顶部附近，请单击&#x200B;**[!UICONTROL 查看所有更新]**。
+1. 单击&#x200B;**[!UICONTROL 详细信息]**。
 1. 单击任何可用选项。
 
-   可能显示的选项与已打开的电子邮件通知类型相关。 例如，如果是请求您批准任务的电子邮件通知，您会看到 **[!UICONTROL 批准]** 和 **[!UICONTROL 拒绝]** 而不是以下选项 **[!UICONTROL 处理此项工作]** 或 **[!UICONTROL 完成]**：
+   可能显示的选项与已打开的电子邮件通知类型相关。 例如，如果是要求您批准任务的电子邮件通知，您会看到&#x200B;**[!UICONTROL 批准]**&#x200B;和&#x200B;**[!UICONTROL 拒绝]**，而不是&#x200B;**[!UICONTROL 处理任务]**&#x200B;或&#x200B;**[!UICONTROL 完成]**&#x200B;等选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -76,23 +76,23 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>任务或问题</td> 
-      <td><strong>[！UICONTROL Approve]</strong> 它， <strong>[！UICONTROL拒绝]</strong> 它， <strong>[！UICONTROL授予]</strong> 访问它， <strong>[！UICONTROL忽略]</strong> 请求访问它， <strong>[！UICONTROL处理此工作]</strong>，或单击某个选项以指示您已 <strong>[！UICONTROL完成]</strong> 使用它</td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>访问权限，<strong>[！UICONTROL忽略]</strong>访问它的请求，<strong>[！UICONTROL处理它]</strong>，或单击某个选项以指示您使用它<strong>[！UICONTROL完成]</strong></td> 
      </tr> 
      <tr> 
       <td>项目</td> 
-      <td><strong>[！UICONTROL Approve]</strong> 它， <strong>[！UICONTROL拒绝]</strong> 它， <strong>[！UICONTROL授予]</strong> 访问它，或 <strong>[！UICONTROL忽略]</strong> 访问请求</td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>文档</td> 
-      <td><strong>[！UICONTROL Approve]</strong> 它， <strong>[！UICONTROL拒绝]</strong> 它， <strong>[！UICONTROL授予]</strong> 访问它，或 <strong>[！UICONTROL忽略]</strong> 访问请求</td> 
+      <td><strong>[！UICONTROL批准]</strong>它，<strong>[！UICONTROL拒绝]</strong>它，<strong>[！UICONTROL授予]</strong>对它的访问权限，或<strong>[！UICONTROL忽略]</strong>对它的访问请求</td> 
      </tr> 
      <tr> 
       <td>更新 </td> 
-      <td> <p>查看项目更新完整列表的任何部分，以便您拥有所需的上下文 <strong>[！UICONTROL帖子]</strong> 新的更新或 <strong>[！UICONTROL回复]</strong>. 您可以单击 <strong>[！UICONTROL Notify]</strong> 以提醒特定用户您的回复。 </p> <p>有关更多信息，请参阅 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复 [!DNL Adobe Workfront] 更新通知来源 [!DNL G Suite]</a>.</p> </td> 
+      <td> <p>查看项目更新完整列表的任何部分，以便您拥有<strong>[！UICONTROL Post]</strong>新更新或<strong>[！UICONTROL回复]</strong>所需的上下文。 您可以单击<strong>[！UICONTROL Notify]</strong>以提醒特定用户您的回复。 </p> <p>有关详细信息，请参阅<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">回复来自[!DNL Google Workspace]</a>的[!DNL Adobe Workfront]更新通知。</p> </td> 
      </tr> 
      <tr> 
       <td>审批请求</td> 
-      <td><strong>[！UICONTROL Approve]</strong> 或 <strong>[！UICONTROL拒绝]</strong> 它（您可以通过单击另一个选项来改变主意）、下载它、查看它的所有者或查看它的参考号</td> 
+      <td><strong>[！UICONTROL Approve]</strong>或<strong>[！UICONTROL Reject]</strong> （您可以通过单击其他选项改变主意）、下载、查看其所有者或查看其参考编号</td> 
      </tr> 
      <tr> 
       <td>项目状态的更改</td> 

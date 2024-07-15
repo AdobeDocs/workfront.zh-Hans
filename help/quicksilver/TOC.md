@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 39a6f46d811812ca70e7455fb4353b8d1841586a
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '14441'
 ht-degree: 1%
@@ -2374,22 +2374,22 @@ ht-degree: 1%
       * [Adobe Workfront和Jira之间的链接项目](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [更新Jira和Adobe Workfront之间的链接项](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [查看Jira活动日志](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * 适用于G Suite {#workfront-for-g-suite}的Adobe Workfront
-      * [适用于G Suite的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [安装 Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-      * [Workfront for G Suite中的隐私和权限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-      * [登录和注销Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
-      * [从G Suite访问Adobe Workfront主页内容](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-      * [从G Suite更新Adobe Workfront对象](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-      * [从G Suite查看和管理文档](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-      * [从G Suite查看和管理Adobe Workfront对象详细信息](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-      * [从G Suite查看Adobe Workfront对象更新](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
-      * [从G Suite管理Adobe Workfront通知详细信息](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-      * [回复来自G Suite的Adobe Workfront更新通知](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
-      * [将G Suite电子邮件转换为Adobe Workfront对象和更新](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-      * [使用电子邮件内容在G Suite中创建Adobe Workfront任务](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-      * [使用电子邮件内容在G Suite中创建Adobe Workfront问题](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [使用电子邮件内容从G Suite更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+   * 适用于Google的Adobe Workfront Workspace {#workfront-for-g-suite}
+      * [适用于Google的Adobe Workfront Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
+      * [安装适用于Google Workspace的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [适用于Google Workspace的Workfront中的隐私和权限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+      * [登录并退出Google Workspace的Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+      * [从Google Workspace访问Adobe Workfront主页内容](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+      * [从Google Workspace更新Adobe Workfront对象](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+      * [从Google Workspace查看和管理文档](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+      * [从Google Workspace查看和管理Adobe Workfront对象详细信息](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+      * [从Google Workspace查看Adobe Workfront对象更新](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+      * [从Google Workspace管理Adobe Workfront通知详细信息](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+      * [从Google Workspace回复Adobe Workfront更新通知](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+      * [将Google Workspace电子邮件转换为Adobe Workfront对象和更新](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+      * [使用电子邮件内容在Google Workspace中创建Adobe Workfront任务](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+      * [使用电子邮件内容在Google Workspace中创建Adobe Workfront问题](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+      * [使用电子邮件内容从Google Workspace更新Adobe Workfront项目](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * 适用于Outlook的Adobe Workfront {#workfront-for-outlook}
       * [适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [设置适用于Outlook的Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

@@ -2,29 +2,29 @@
 product-area: workfront-integrations;projects
 keywords: google，doc，文档，工作表，幻灯片
 navigation-topic: workfront-for-g-suite
-title: 创建 [!DNL Adobe Workfront] G Suite中使用电子邮件内容的问题
-description: 您可以转换外部电子邮件（不是由生成的） [!DNL Adobe Workfront)] 到 [!DNL Workfront] 问题。
+title: 使用电子邮件内容在Google Workspace中创建 [!DNL Adobe Workfront] 问题
+description: 您可以将 [!DNL Adobe Workfront)] 未生成的外部电子邮件转换为 [!DNL Workfront] 问题。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# 创建 [!DNL Adobe Workfront] 中的问题 [!DNL G Suite] 使用电子邮件内容
+# 使用电子邮件内容在[!DNL Google Workspace]中创建[!DNL Adobe Workfront]问题
 
 >[!NOTE]
 >
 >适用于Google的Adobe Workfront插件的最新版本于2023年6月26日发布。
 
-您可以转换外部电子邮件（不是由生成的） [!DNL Adobe Workfront])到 [!DNL Workfront] 问题。
+您可以将外部电子邮件（非[!DNL Adobe Workfront]生成）转换为[!DNL Workfront]问题。
 
-您还可以将外部电子邮件转换为现有问题的更新。 有关更多信息，请参阅 [更新 [!DNL Adobe Workfront] 使用电子邮件内容的[！DNL G Suite]中的项目](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
+您还可以将外部电子邮件转换为现有问题的更新。 有关详细信息，请参阅[使用电子邮件内容](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)更新 [!DNL Google Workspace] 中的 [!DNL Adobe Workfront] 项。
 
-有关使用的信息 [!DNL G Suite] 处理发送通知电子邮件的方式 [!DNL Workfront]，请参见 [管理 [!DNL Adobe Workfront] 来自[！DNL G Suite]的通知详细信息](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+有关使用[!DNL Google Workspace]处理[!DNL Workfront]发送的通知电子邮件的信息，请参阅[管理 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)中的 [!DNL Adobe Workfront] 通知详细信息。
 
 ## 访问要求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
@@ -45,23 +45,23 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-在从中创建问题之前 [!DNL G Suite]，您必须
+在从[!DNL Google Workspace]创建问题之前，您必须
 
-* 安装 [!DNL Workfront for G suite]\
-   有关说明，请参阅 [安装 [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* 安装[!DNL Workfront for Google Workspace]\
+   有关说明，请参阅[安装 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)。
 
-## 创建 [!DNL Adobe Workfront] 中的问题 [!DNL G Suite] 使用电子邮件内容
+## 使用电子邮件内容在[!DNL Google Workspace]中创建[!DNL Adobe Workfront]问题
 
-1. 如果 [!UICONTROL 适用于G Suite的Workfront] 面板未显示，请单击 [!DNL Workfront] 图标 ![](assets/wf-lion-icon.png) 在 [!DNL G Suite] 页面最右侧的附加组件侧栏。
-1. 在中打开电子邮件 [!DNL G Suite]中，单击某个选项 [!DNL Workfront for G Suite] 将电子邮件转换为新电子邮件 [!DNL Workfront] 问题。
+1. 如果未显示[!UICONTROL Workfront for Google Workspace]面板，请单击页面最右侧[!DNL Google Workspace]加载项侧边栏中的[!DNL Workfront]图标![](assets/wf-lion-icon.png)。
+1. 在[!DNL Google Workspace]中打开电子邮件后，单击[!DNL Workfront for Google Workspace]中的选项以将电子邮件转换为新的[!DNL Workfront]问题。
 
    ![](assets/convert-email-task-issue-update.png)
 
-1. 如果要将问题附加到父项目，请单击 **[!UICONTROL 项目名称]**，开始键入要问题的项目名称，然后单击项目名称使其显示在下面的列表中。
+1. 如果要将问题附加到父项目，请单击“**[!UICONTROL 项目名称]**”，开始键入要附加问题的项目名称，然后在该项目出现在以下列表中时单击该项目名称。
 1. 进行以下任何更改：
 
    <table style="table-layout:auto"> 
@@ -74,45 +74,45 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL描述]</td> 
-      <td>编辑此文本的任何部分，这些部分取自电子邮件的正文。</td> 
+      <td>编辑此文本的任何部分，这部分内容取自电子邮件的正文。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL分配给]</td> 
-      <td>单击 <strong>[！UICONTROL分配给]</strong>，单击 <strong>[！UICONTROL将此项分配给]</strong> 选项，然后开始键入人员姓名，并在姓名出现在以下列表中时单击该名称。 对要添加的每个人重复此操作，然后单击 <strong>[！UICONTROL保存]</strong>.</td> 
+      <td>单击<strong>[！UICONTROL分配给]</strong>，单击显示的<strong>[！UICONTROL将此分配给]</strong>选项，然后开始键入人员姓名，并在人员姓名出现在以下列表中时单击该姓名。 对要添加的每个人重复此操作，然后单击<strong>[！UICONTROL保存]</strong>。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL优先级]</td> 
-      <td>单击下拉箭头，然后单击问题所需的优先级。</td> 
+      <td>单击下拉箭头，然后单击问题的优先级。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL包含电子邮件附件]</td> 
-      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[！UICONTROL文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向中文档的链接 [!DNL Google Drive]，则它们会保存到您正在创建的问题的[！UICONTROL概述]选项卡中。 </p> <p>重要提示：为了让此功能发挥作用，请 [!DNL Workfront] 管理员必须授权 [!DNL Google Drive] 在中处理文档 [!DNL Workfront]，如一节中所述 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置集成以管理文档</a> 在文章中 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置文档集成</a>.</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，它仍保持启用状态。</p> </td> 
+      <td role="rowheader">[！UICONTROL Include e-mail attachments]</td> 
+      <td> <p>（仅当电子邮件至少包含一个附件时才可用。） 单击此选项可将电子邮件中的附件保存到问题的[！UICONTROL文档]区域。 </p> <p>如果不想保存附件，请单击附件名称右侧的X。 </p> <p>如果电子邮件包含指向[!DNL Google Drive]中文档的链接，则这些链接将保存到您正在创建的问题的[！UICONTROL概述]选项卡中。 </p> <p>重要提示：为了使其正常工作，您的[!DNL Workfront]管理员必须授权[!DNL Google Drive]使用[!DNL Workfront]中的文档，如<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">配置文档集成</a>中的<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">配置集成以管理文档</a>部分所述。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">包括电子邮件文件</td> 
-      <td> <p>单击此选项可将原始电子邮件另存为电子邮件(EML) （电子邮件）文件 <span>到[！UICONTROL文档]区域</span> 问题。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，它仍保持启用状态。</p> </td> 
+      <td> <p>单击此选项可将原始电子邮件作为电子邮件(EML) （电子邮件）文件<span>保存到问题的[！UICONTROL文档]区域</span>。 从该位置，您可以双击文件以在电子邮件应用程序中打开电子邮件。</p> <p>如果启用此选项，则对于您转换为任务、问题和更新的其他电子邮件，此选项将保持启用状态。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 创建问题]**.
+1. 单击&#x200B;**[!UICONTROL 创建问题]**。
 
-   此 **[!UICONTROL 详细信息]** 新问题的选项卡显示在 [!DNL Workfront for G Suite] 面板。 您可以单击 **[!UICONTROL 更新]** 并且立即开始与协作者通信，无需离开您的收件箱。
+   新问题的&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡显示在[!DNL Workfront for Google Workspace]面板中。 您可以单击&#x200B;**[!UICONTROL 更新]**&#x200B;并立即开始与协作者通信，而无需离开您的收件箱。
 
-   在底部 **[!UICONTROL 详细信息]** 选项卡，您还可以单击 **[!UICONTROL 在Workfront中查看]** 转到Workfront中的新问题。
+   在&#x200B;**[!UICONTROL 详细信息]**&#x200B;选项卡的底部，您还可以单击&#x200B;**[!UICONTROL 在Workfront中查看]**&#x200B;以转到Workfront中的新问题。
 
-   当您刷新浏览器时，会出现一条消息，其中底部有一个链接 [!UICONTROL 适用于G Suite的Workfront] 面板确认您已将电子邮件转换为问题：
+   当您刷新浏览器时，将显示一则消息，其中的[!UICONTROL Workfront for Google Workspace]面板底部有一个链接，用于确认您已将电子邮件转换为问题：
 
-   您可以单击链接以转到详细信息视图，该视图位于 [!DNL Workfront for G Suite] 面板，用于您已创建的问题。
+   您可以单击该链接以转到您已创建的问题在[!DNL Workfront for Google Workspace]面板中的“详细信息”视图。
 
-   您可以重复这些步骤，将同一电子邮件转换为多个问题。 当您刷新浏览器或在其他时间返回电子邮件时，您为该电子邮件创建的所有链接都列在 [!UICONTROL 适用于G Suite的Workfront] 面板。
+   您可以重复这些步骤，将同一电子邮件转换为多个问题。 当您刷新浏览器或在下次返回电子邮件时，您为该电子邮件创建的所有链接都列在[!UICONTROL Workfront for Google Workspace]面板的底部。
 
-1. （可选）继续处理中的问题 [!DNL Workfront for G Suite] 执行以下任一操作来创建panel ：
+1. （可选）通过执行以下任一操作继续处理[!DNL Workfront for Google Workspace]面板中的问题：
 
-   * 要在中添加更新，请执行以下操作 **[!UICONTROL 更新]** 选项卡，单击 **[!UICONTROL 开始新的更新]** 并键入更新。
+   * 若要在&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡中添加更新，请单击&#x200B;**[!UICONTROL 开始新的更新]**&#x200B;并键入更新。
 
-   * 回复 **[!UICONTROL 更新]** 选项卡，单击 **[!UICONTROL 回复]** 并键入您的回复。
+   * 若要回复&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上的更新，请单击&#x200B;**[!UICONTROL 回复]**，然后键入您的回复。
 
-     对于上述两个操作，您可以通知特定用户您的评论。 单击 **[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击 **[!UICONTROL Post]**.
+     对于上述两个操作，您可以通知特定用户您的评论。 单击&#x200B;**[!UICONTROL 通知]**，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。 对要通知的其他用户重复此过程，然后单击&#x200B;**[!UICONTROL Post]**。
 
-   * 单击 **[!UICONTROL 文档]** 选项卡，以查看与问题一起保存的任何文档。
+   * 单击&#x200B;**[!UICONTROL 文档]**&#x200B;选项卡以查看与问题一起保存的任何文档。
