@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 本页介绍了在2024年第三季度版本中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
-有关2024年第三季度发布周期中此时所有可用更改的列表，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+有关2024年第三季度发布周期中此时可用的所有更改列表，请参阅[2024年第三季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。
+
+## 对产品内指南的后端更改
+
+>[!NOTE]
+>
+>面向所有客户的生产：逐步延长至2024年8月中旬
+
+我们将在未来几周内为产品内指南实施技术变更。 在我们尝试将此过渡的影响降至最低的同时，一些用户可能会遇到他们之前看到的指南。
 
 ## Adobe统一体验现在可供更多Workfront组织使用
 
@@ -37,7 +45,7 @@ AdobeUnified Experience包括：
 
 以前，Adobe统一体验仅适用于新的Workfront客户。
 
-有关更多信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
@@ -55,4 +63,4 @@ AdobeUnified Experience包括：
 
 团队和用户不包括在此更改中。 用户仍然可以查看团队和用户名。
 
-有关更多信息，请参阅部分 [限制访问对象](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) 在 [!DNL Adobe Workfront] 对象概述文章。
+有关详细信息，请参阅[!DNL Adobe Workfront]对象概述文章中的[对对象的受限访问](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)部分。
