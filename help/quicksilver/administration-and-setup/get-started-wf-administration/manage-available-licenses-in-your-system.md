@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> </td> 
+   <td> <p>您必须是系统管理员或组管理员。 组管理员只能查看有限的许可证信息。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 >[!NOTE]
 >
@@ -71,21 +71,21 @@ ht-degree: 0%
 
 ## 查看您组织的许可证
 
-当您向添加到Workfront的用户分配访问级别时，会自动更新正在使用的许可证数量。 有关更多信息，请参阅 [添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+当您向添加到Workfront的用户分配访问级别时，会自动更新正在使用的许可证数量。 有关详细信息，请参阅[添加用户](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 要查看系统中的许可证信息，请执行以下操作：
 
 {{step-1-to-setup}}
 
-1. 在左侧面板底部，单击 **系统** > **许可证**.
+1. 在左面板底部，单击&#x200B;**系统** > **许可证**。
 
-   有关此页面上列出的许可证的详细信息，请参见 [许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   有关此页面上列出的许可证的详细信息，请参阅[许可证概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 
    >[!NOTE]
    >
-   >验证许可证仅适用于除购买Workfront许可证外还购买付费Workfront Proof加载项的客户。 有关此加载项的信息，请参阅 [Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md).
+   >验证许可证仅适用于除购买Workfront许可证外还购买付费Workfront Proof加载项的客户。 有关此加载项的信息，请参阅[Workfront Proof：文章索引](../../workfront-proof/workfront-proof.md)。
 
-1. （视情况而定）如果您看到消息 **要设置最大数，必须添加主组**，按照一节中的说明在系统中添加主组 [在“许可证”页面中添加或删除主组](#add-or-remove-a-home-group-to-the-licenses-page) 本文章中。
+1. （视情况而定）如果看到消息&#x200B;**要设置最大数，则必须添加主组**，按照本文中[在许可证页](#add-or-remove-a-home-group-to-the-licenses-page)中添加或删除主组部分中的说明在系统中添加主组。
 
    >[!NOTE]
    >
@@ -93,16 +93,16 @@ ht-degree: 0%
 
 ## 查看有关Workfront加载项许可证的信息
 
-如果您的组织具有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如， **10个验证许可证中的5个** 表示该组织当前正在使用他们购买的10个Workfront Proof许可证中的5个。
+如果您的组织具有付费的Workfront Proof加载项，则会显示已使用的许可证数量和可用的许可证数量。 例如，10个验证许可证中的&#x200B;**5个许可证**&#x200B;指示组织当前正在使用他们购买的10个Workfront Proof许可证中的5个。
 
-![Workfront加载项许可证](assets/updated-licenses-page.png)
+Workfront加载项的![许可证](assets/updated-licenses-page.png)
 
 如果您的组织已购买Workfront Goals，则此产品的许可证信息也会显示在此处。 在这种情况下，您可以查看以下信息：
 
 * 贵公司已购买的Workfront目标许可证总数
 * 与用户关联的Workfront目标许可证数量。 这是在其访问级别至少授予了目标查看访问权限的用户数量。
 
-有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md). 有关访问Workfront目标的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md)。 有关访问Workfront目标的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 >[!NOTE]
 >
@@ -120,19 +120,19 @@ If an organization has other paid add-on products, their license information als
 >* 许可证类型限制：工作人员限制
 >* 许可证类型限制：规划者限制
 >
->要了解有关创建报告的更多信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>要了解有关创建报告的详细信息，请参阅[创建自定义报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 查看有关每月验证和文档决策拨款的信息
 
 >[!IMPORTANT]
 >
->验证和文档决策限制仅适用于新许可证的用户。 有关更多信息，请参阅 [新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>验证和文档决策限制仅适用于新许可证的用户。 有关详细信息，请参阅[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
 所有非付费Workfront许可证的验证和文档决策都受到限制。 每月按用户重置限制。
 
 每个许可证的决定限制因您采用的计划而异。 您可以在“设置”>“许可证”中查看每月分配。
 
-有关验证和文档决策限制的更多信息，请参阅 [非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+有关验证和文档决策限制的更多信息，请参阅[非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)。
 
 ![每月决策分配](assets/monthly-decision-allotment.png)
 
@@ -142,11 +142,11 @@ If an organization has other paid add-on products, their license information als
 
 每个用户只能分配给一个主组。 Workfront通过计算每个主组中分配和当前使用的许可证数，提供了面向组的许可证计数。
 
-如果您看到消息 **要设置最大数，必须添加主组** 在许可证页面上，您需要将至少一个主组添加到许可证页面。
+如果看到消息&#x200B;**要设置最大数量，必须在“许可证”页面上添加主组**，则需要在“许可证”页面上至少添加一个主组。
 
 >[!IMPORTANT]
 >
->* 为了有效地管理主组的许可证，我们建议在更新最大许可证计数之前，为业务部门设置特定的主组。 有关更多信息，请参阅 [主组概述](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
+>* 为了有效地管理主组的许可证，我们建议在更新最大许可证计数之前，为业务部门设置特定的主组。 有关详细信息，请参阅[主组概述](../../administration-and-setup/manage-groups/groups-overview/home-groups.md)。
 >* 您只能将顶级组添加为主组，而不能添加子组。 如果用户将子组指定为主组，则其许可证将添加到该子组上方的顶级组的许可证计数中。
 >
 
@@ -154,10 +154,10 @@ If an organization has other paid add-on products, their license information als
 
 {{step-1-to-setup}}
 
-1. 在左侧面板底部，单击 **系统** > **许可证**.
+1. 在左面板底部，单击&#x200B;**系统** > **许可证**。
 
-1. 单击 **管理组列表**.
-1. 在“ ”中输入顶级组的名称 **主组** 盒子。
+1. 单击&#x200B;**管理组列表**。
+1. 在&#x200B;**主页组**&#x200B;框中开始键入顶级组的名称。
 1. 要添加组，请在组出现时单击其名称。
 
    或
@@ -166,7 +166,7 @@ If an organization has other paid add-on products, their license information als
 
 1. 单击&#x200B;**保存**。
 
-作为Workfront管理员，您可以设置主组的最大许可证计数，以防止业务部门使用为其他业务部门购买的Workfront许可证。 有关说明，请参阅 [设置主组的最大许可证计数](#set-the-maximum-license-count-for-a-home-group) 本文章中。
+作为Workfront管理员，您可以设置主组的最大许可证计数，以防止业务部门使用为其他业务部门购买的Workfront许可证。 有关说明，请参阅本文中的[设置主组](#set-the-maximum-license-count-for-a-home-group)的最大许可证计数。
 
 ## 设置主组的最大许可证计数 {#set-the-maximum-license-count-for-a-home-group}
 
@@ -174,16 +174,16 @@ If an organization has other paid add-on products, their license information als
 
 默认情况下，许可证最大数量设置为N/A，这意味着没有限制。
 
-组管理员可以查看他们管理的主组中分配和使用的许可证数量。 有关更多信息，请参阅 [查看组中已分配和使用许可证的数量](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+组管理员可以查看他们管理的主组中分配和使用的许可证数量。 有关详细信息，请参阅[查看群组中已分配和使用许可证的数量](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)。
 
 设置主组的最大许可证数：
 
 {{step-1-to-setup}}
 
-1. 在左侧面板底部，单击 **系统** > **许可证**.
+1. 在左面板底部，单击&#x200B;**系统** > **许可证**。
 
 1. 在列表中找到主组。
-1. 在 **Max** 列中，单击要为其设置最大值的值。
+1. 在组的&#x200B;**Max**&#x200B;列中，单击要为其设置最大值的值。
 1. 键入最大数字，然后按Enter键。
 
    ![](assets/updated-max.png)

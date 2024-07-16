@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
+source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
 workflow-type: tm+mt
-source-wordcount: '6081'
+source-wordcount: '6091'
 ht-degree: 4%
 
 ---
@@ -540,6 +540,7 @@ ht-degree: 4%
 >
 >* 文档自定义表单当前不支持外部查找功能。
 >* 仪表板当前不支持来自自定义表单的外部查找字段。 您无法内联编辑字段值，并且它可能在功能板中无法正常显示。 （画布功能板支持外部查找字段。）
+>* Outlook插件不支持外部查找字段。
 >* 外部查找字段在列表中可用，除非该字段依赖于另一个字段。
 
 要添加外部查找，请执行以下操作：
