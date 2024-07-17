@@ -4,12 +4,12 @@ content-type: overview
 navigation-topic: delegate-work
 title: 委派工作概述
 description: 如果您计划在短时间内不在办公室，您可以暂时将工作委派给其他用户，以确保您的缺席不会成为完成工作的障碍。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 例如，如果某些任务在您返回之前到期，但是您没有时间在离开之前完成它们，您可以将您的任务委派给另一个用户，这样他们就可以按时完成任务，而不会将项目的完成延迟到您返回之后。
 
-您可以在中委托以下对象 [!DNL Adobe Workfront]：
+您可以在[!DNL Adobe Workfront]中委托以下对象：
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Projects where you are designated as the Project Owner (not yet, not for the MVP)</p> </li>
@@ -32,36 +32,36 @@ ht-degree: 1%
 
 本文包含有关委派任务和问题的一般信息。
 
-有关委派项目、任务、问题和文档审批的信息，请参阅 [委托审批请求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+有关委托项目、任务、问题和文档审批的信息，请参阅[委托审批请求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 
-有关如何委派任务和问题的信息，请参阅 [委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md).
+有关如何委派任务和问题的信息，请参阅[委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
 ## 委派工作概述
 
 委派任务和问题时请考虑以下事项：
 
-* 您的 [!DNL Workfront] 或组管理员必须在以下位置启用委派首选项： [!UICONTROL 设置] 在将您的工作委派给他人之前的区域。
+* 您的[!DNL Workfront]或组管理员必须在[!UICONTROL 设置]区域启用“委派”首选项，然后才能将您的工作委派给其他人。
 
-  有关信息，请参阅 [配置系统范围的任务和问题首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* 您只能从委派任务和问题 [!UICONTROL 主页] 区域。
+  有关信息，请参阅[配置系统范围的任务和问题首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
+* 您只能从[!UICONTROL 主页]区域委派任务和问题。
 * 以下许可证类型存在例外：
 
-   * 您可以将工作委派给审阅者或请求者，但是 [!DNL Workfront] 不推荐。
-   * 审阅者可以将工作委派给其他人。 他们无法查看其中的工作项 [!UICONTROL 主页] 区域。 他们只能查看审批。
-   * 请求者无法将工作委派给其他人。 他们无法查看其中的工作项 [!UICONTROL 主页] 区域
+   * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
+   * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。
+   * 请求者无法将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项
 * 您只能委派分配给您的任务和问题。 您无法委派分配给其他用户、团队或工作角色的任务和问题。
 * 您只能委派在委派开始日期之前未完成的任务和问题。
-* 如果工作项目在委派时间范围内完成，该项目在委派人和被分配人的“主页”区域中保留2周 [!DNL Workfront] 会自动将其删除。
+* 如果工作项在委派时间范围内完成，则该项在委派人和被分配人的“主页”区域中保留2周，然后[!DNL Workfront]自动删除该项。
 * 您选择作为委派的用户将获得与您委派给他们的任务和问题的权限相同的权限。 这些权限必须在其访问级别内工作，有时，其访问级别可能低于您的访问级别。
 
 >[!NOTE]
 >
->  对于在委派已开始之后分配的项目，在为其分配项目后可能最多需要一小时 [!DNL Workfront] 以与委派共享新分配的项目。
+>  对于在委派已开始之后分配的项目，在为[!DNL Workfront]分配项目后最多可能需要一小时才能与委派共享新分配的项目。
 
 * 如果在您选择将您的工作委派给其他用户的时间段内向您分配了其他任务和问题，则在您选择的时间范围内如果任务或问题日期在该时间范围内，则会自动将新分配的工作委派给同一人。
 * 多个用户可以选择同一用户作为代理。
-* 委派的任务和问题未显示在资源管理工具中，例如 [!UICONTROL 工作负载均衡器] 或 [!UICONTROL 资源规划者] （对于已委派用户）。
-* 您可以在以下多个区域查看已委派的工作和代理人名称： [!DNL Workfront]. 有关更多信息，请参阅文章中的“找到委派的工作并委派信息”部分 [管理任务和问题委派](../delegate-work/how-to-delegate-work.md).
+* 委派的任务和问题未显示在资源管理工具中，如委派用户的[!UICONTROL 工作负载均衡器]或[!UICONTROL 资源规划者]。
+* 您可以在[!DNL Workfront]的多个区域中查看已委派的工作和代理人名称。 有关详细信息，请参阅文章[管理任务和问题委派](../delegate-work/how-to-delegate-work.md)中的“查找委派的工作和委派信息”部分。
 
 
   >[!IMPORTANT]
@@ -69,7 +69,7 @@ ht-degree: 1%
   >  如果用户对其访问级别的任务只有“查看”访问权限，而您对您委派给他们的任务具有“管理”权限，则他们将获得您委派给他们的任务的“管理”权限。 但是，他们将无法对委派的任务执行与您相同的操作。 他们必须向系统管理员请求对任务的编辑访问权限，才能在您缺席时更新任务。
 
 * 停止委派不会删除授予被委派用户的有关他们已委派的任务和问题的权限。
-* 如果系统或禁用 [!UICONTROL 允许用户委派其任务和问题] 在中设置 [!UICONTROL 设置] 区域，当前委派的用户将从先前委派给的任务和问题中删除。 未删除他们对任务或问题的权限。
+* 如果系统或禁用[!UICONTROL 设置]区域中的[!UICONTROL 允许用户委派其任务和问题]设置，则当前委派的用户将从先前委派给他们的任务和问题中删除。 未删除他们对任务或问题的权限。
 
 ## 任务和委托之间的区别和相似之处
 
@@ -81,5 +81,5 @@ ht-degree: 1%
 | 您可以从主页区域向用户分配或委派工作 | 是 | 是 |
 | 您可以使用将工作分派或委派给用户 | 是 | 否 |
 | 您可以将工作分配或委派给列表中的用户，也可以从工作项的标题进行分配 | 是 | 否 |
-| 任何用户都可以通过未关联的工作项来分配或委派其他用户 | 基于权限和访问级别 | 否. 只有被分派人可以委派自己的项目。 |
+| 任何用户都可以通过未关联的工作项来分配或委派其他用户 | 基于权限和访问级别 | 不可以。只有被分派人可以委派自己的项目。 |
 | 在资源管理工具中，显示该用户已分配或已委派工作的计划、实际或预算小时数 | 是 | 否 |

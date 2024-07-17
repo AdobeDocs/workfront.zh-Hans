@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 >
 >如果您属于这一阶段，您的客户代表会通知您。
 >
->有关记录Workfront Planning的所有章节和文章的完整列表，请参阅 [Adobe Workfront规划：文章索引](/help/quicksilver/planning/planning-information.md).
+>有关记录Workfront Planning的所有章节和文章的完整列表，请参阅[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
 
-有关新功能及其发布时间的信息，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md).
+有关新功能及其发布时间的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
 
 | 功能 | 现在可用 | 即将推出 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -106,7 +106,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 贵组织必须注册Adobe Workfront计划项目，然后才能访问其功能。 如果您符合条件，您的客户代表应该向您提供有关注册此计划的信息。
 
-有关授予他人访问权限并使他人能够使用Workfront Planning的更多信息，请参阅 [访问概述](/help/quicksilver/planning/access/access-overview.md).
+有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Adobe Workfront Planning术语
 
@@ -122,7 +122,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  有关更多信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+  有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 * **记录类型**：对象类型或Workfront Planning。
 
@@ -132,7 +132,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   在Workfront Planning中，您可以创建符合组织工作流程的任何记录类型。 稍后，您可以定义记录类型如何相互关联或表单从属关系。
 
-  有关更多信息，请参阅 [记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  有关详细信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
 * **记录**：记录类型的实例。
 
@@ -142,17 +142,17 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   例如，“Campaign”可以是记录类型，“Summer Campaign for EMEA”是Campaign记录类型的记录
 
-  有关更多信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
+  有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
-* **Workspace模板**：您可以使用预定义模板创建工作区。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
+* **Workspace模板**：您可以使用预定义的模板创建工作区。 您可以使用模板中的预定义记录类型和字段，也可以添加自己的类型和字段。
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront计划附带销售、营销和产品管理工作区模板。
 
-  有关更多信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+  有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **字段**：字段是可添加到记录类型的属性。 字段包含有关记录类型的信息。 <!--check the shot below, "Connection" needs to be in lowercase-->
+* **字段**：字段是可以添加到记录类型的属性。 字段包含有关记录类型的信息。<!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
@@ -166,7 +166,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
    * 字段可完全自定义，并且只能在Workfront Planning中访问。 您无法从Workfront访问Workfront Planning字段。
 
-  有关更多信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+  有关详细信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
   默认情况下，新记录类型与以下预定义字段相关联：
 
@@ -194,7 +194,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    * 上次修改者
    * 上次修改日期
 
-* **链接的记录类型**， **链接的记录**、和 **链接的记录字段** 或 **连接的记录类型**， **连接的记录**、和 **连接的字段**：您可以在Workfront Planning中的以下实体之间创建连接：
+* **链接的记录类型**、**链接的记录**&#x200B;和&#x200B;**链接的记录字段**&#x200B;或&#x200B;**连接的记录类型**、**连接的记录**&#x200B;和&#x200B;**连接的字段**：您可以在Workfront Planning中的以下实体之间创建连接：
 
    * 两种记录类型。
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
@@ -207,7 +207,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   在记录类型之间建立连接后，可以将这些类型的单个记录彼此连接。 记录之间的连接显示为链接记录字段。
 
-* **链接的字段** （或查找字段）：在两个记录类型之间建立连接并将单个记录链接在一起后，您可以在要连接的记录中引用链接记录的字段。
+* **链接的字段**（或查找字段）：在两个记录类型之间建立连接并将单个记录链接在一起后，可以在要连接的记录上引用链接的记录的字段。
 
   例如，如果将Campaign记录类型与Workfront Project对象类型连接，则可以在营销活动记录中显示已连接项目的“预算”字段。
 
@@ -229,7 +229,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **视图**：记录以不同类型的视图显示在各自的记录类型页面下。
+* **视图**：记录以不同类型的视图显示在各自记录类型页面下。
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -237,19 +237,19 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   以下是可应用于记录类型页面的视图类型：
 
-   * **表格视图**：以表格式显示记录及其字段。 表的行是单独的记录，列是记录字段。 这是默认视图。
+   * **表视图**：以表格式显示记录及其字段。 表的行是单独的记录，列是记录字段。 这是默认视图。
 
      ![](assets/table-view-example.png)
 
-   * **时间线视图**：按时间顺序显示时间轴中至少具有两个日期类型字段的记录。
+   * **时间线视图**：在时间线中显示至少有两个日期类型字段的记录。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-   * **日历视图**：以日历格式显示至少具有两个日期类型字段的记录。
+   * **日历视图**：以日历格式显示至少有两个日期类型字段的记录。
      ![](assets/calendar-view-example.png)
 
 
-有关更多信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 
 ## Adobe Workfront Planning对象限制
@@ -281,37 +281,42 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 ## 找到Adobe Workfront Planning
 
-确保您的组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到您的主菜单。 有关信息，请参阅 [访问概述](/help/quicksilver/planning/access/access-overview.md).
+确保您的组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到您的主菜单。 有关信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 要找到Workfront Planning，请执行以下操作：
 
 1. 登录到Adobe Workfront。
 
-1. 单击 **主菜单** ![](assets/main-menu-workfront.png) 图标，或单击 **主菜单** ![](assets/main-menu-shell.png) 左上角（如果可用）。
+{{step1-click-main-menu}}
 
-1. 单击 **规划** ![](assets/planning-icon.png).
+1. 单击&#x200B;**计划** ![](assets/planning-icon.png)。
 
    Workfront Planning登录页面将打开。
 
    ![](assets/planning-landing-page-admin.png)
 
+   >[!TIP]
+   >
+   >    您的Workfront管理员可以将Planning区域添加到布局模板中的“选择登陆页面”选项，以便您一登录到Workfront即可打开Planning。 有关信息，请参阅[使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
+
+
 1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
    * **我的工作区**：显示您创建的工作区。
-   * **其他工作区**：显示系统中的所有其他工作区，包括与您共享的工作区。
+   * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。
 
-   对于所有其他用户，他们创建或与他们共享的所有工作区都将显示在 **工作区** 区域。
+   对于所有其他用户，他们创建或与他们共享的所有工作区都显示在&#x200B;**工作区**&#x200B;区域中。
 
 1. （可选并推荐）继续执行以下某些操作以构建您的工作结构：
 
-   1. 从头开始或使用模板创建工作区。 有关信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. 从头开始或使用模板创建工作区。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-   1. 向新工作区中添加部分。 有关信息，请参阅 [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. 向新工作区中添加部分。 有关信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
    1. 重命名新工作区中的现有节。
-   1. 将记录类型添加到新工作区。 有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. 将记录类型添加到新工作区。 有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    1. 单击记录类型的名称以打开记录类型的页面。 默认情况下，记录类型页面会在“表”视图中打开。
 
-      您还可以创建时间轴或日历视图。 有关信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+      您还可以创建时间轴或日历视图。 有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
    1. 在表视图中，通过添加行来开始添加记录
 
@@ -322,11 +327,11 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
       有关信息，请参阅以下文章：
 
       * [创建记录](/help/quicksilver/planning/records/create-records.md)
-      * [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+      * [创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## Adobe Workfront Planning发布活动
 
 我们将定期为Workfront Planning发布新功能。
 
-有关已发布功能的最新列表，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md)
+有关已发布功能的最新列表，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)
 

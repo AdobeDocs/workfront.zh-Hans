@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
 
 # 删除项目
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 如果不再需要某个项目及其数据，您可以删除该项目。
 
@@ -40,9 +40,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront许可证*</p> </td> 
-   <td> <p>当前许可证：计划 </p> 
-   或
-   <p>新许可证： Standard </p>
+   <td> <p>新许可证： Standard </p>
+   <p>当前许可证：计划 </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -56,7 +55,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -69,11 +68,11 @@ ht-degree: 1%
 
 * 已删除的项目将移至回收站保留30天，只有Workfront管理员才能恢复。
 
-  有关恢复对象的更多信息，请参阅文章 [恢复已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  有关还原对象的详细信息，请参阅文章[还原已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 * 如果项目存在与记录小时数有关的任务或问题，Workfront或组管理员必须通过在Workfront实例中配置任务和问题首选项来允许删除这些任务，您才能删除包含这些任务的项目。
 
-  有关允许删除记录了小时数的任务、问题或项目的更多信息，请参阅中的“删除”部分 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  有关启用删除记录了小时数的任务、问题或项目的详细信息，请参阅[配置系统范围的任务和问题偏好设置](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中的“删除”部分。
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -87,7 +86,7 @@ ht-degree: 1%
 
    * 文档
 
-     您无法删除具有已签出的附加文档的项目。 有关检出文档的详细信息，请参阅 [签出文档](../../../documents/managing-documents/check-out-documents.md).
+     您无法删除具有已签出的附加文档的项目。 有关签出文档的更多信息，请参阅[签出文档](../../../documents/managing-documents/check-out-documents.md)。
 
    * 任务
    * 子任务
@@ -102,14 +101,14 @@ ht-degree: 1%
    * 记帐费率
    * 开票记录
 
-     您无法删除账单记录状态为“已记帐”的项目。 有关更多信息，请参阅 [创建开票记录](../../projects/project-finances/create-billing-records.md).
+     您无法删除账单记录状态为“已记帐”的项目。 有关详细信息，请参阅[创建开票记录](../../projects/project-finances/create-billing-records.md)。
 
 * 根据Workfront管理员在Workfront实例的时间表和小时首选项中配置项目、任务或问题删除首选项的方式，在删除项目时，以下列方式之一处理任务、问题或项目的记录小时：
 
    * 小时作为常规时间保留在时间表上。
    * 将删除小时数，如果项目恢复，则将恢复这些小时数。
 
-  有关为登录问题的小时数配置删除首选项的更多信息，请参阅 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  有关为登录问题的小时数配置删除首选项的详细信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 * 如果您删除的项目链接到Workfront Scenario Planner中的计划：
 
@@ -117,9 +116,9 @@ ht-degree: 1%
    * 如果您删除的项目链接到计划中唯一发布的计划，则也将会删除已发布计划的指示。
    * 如果恢复已删除的项目，则会恢复项目，但不会恢复其到计划的链接，并且方案规划器区域不再显示在项目详细信息中。
 
-     Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 [Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 
-     有关链接到Scenario Planner中计划的项目的信息，请参阅 [通过在场景规划程序中发布计划来更新或创建项目](../../../scenario-planner/publish-scenarios-update-projects.md).
+     有关链接到Scenario Planner中计划的项目的信息，请参阅[通过在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 
 * 如果项目也是“Workfront目标”中目标的活动：
 
@@ -127,32 +126,32 @@ ht-degree: 1%
 
    * 如果恢复已删除的项目，该项目还将恢复为目标的活动。
 
-     这需要额外的许可证。 有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     这需要额外的许可证。 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
-     有关将项目与目标关联的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     有关将项目与目标关联的信息，请参阅[将项目添加到Adobe Workfront目标中的目标](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 
 ## 删除列表中的项目
 
 您可以从项目列表中删除项目。
 
 1. 转到项目列表或项目报告。
-1. 选择要删除的一个或多个项目，然后单击 **删除** 图标 ![](assets/delete-icon.png) 位于列表顶部。
+1. 选择要删除的一个或多个项目，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)。
 
-1. 单击 **是的，删除它** 以确认删除。
+1. 单击&#x200B;**是，删除它**&#x200B;以确认删除。
 
    项目将被删除并存储在回收站中30天。 在此期间，您的Workfront管理员可以从回收站恢复已删除的项目。
 
 ## 在项目级别删除项目
 
 1. 转到要删除的项目。
-1. 单击 **更多** 图标 ![](assets/qs-more-menu.png) 项目名称的右侧，然后单击 **删除项目**.
+1. 单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)，然后单击&#x200B;**删除项目**。
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. 单击 **是的，删除**.
+1. 单击&#x200B;**是，将其删除**。
 
    该项目将被删除并存储在回收站中30天。 在此期间，您的Workfront管理员可以从回收站恢复它。
 
 ## 恢复已删除的项目
 
-系统或组管理员可以在删除项目后30天内恢复项目，如文章所述 [恢复已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+系统或组管理员可以在删除项目后30天内恢复项目，如[恢复已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)一文中所述。

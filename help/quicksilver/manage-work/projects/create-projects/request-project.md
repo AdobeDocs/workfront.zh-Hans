@@ -6,9 +6,9 @@ description: 您可以在开始处理项目之前请求批准该项目。 我们
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '521'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,23 +57,25 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>在创建项目请求时，您会自动接收项目的管理权限 </p> <p> 有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>在创建项目请求时，您会自动接收项目的管理权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 请求项目
 
 1. 执行下列操作之一：
 
-   * 单击 **主菜单** ![](assets/main-menu-icon.png) 位于右上角，或 **主菜单** ![](assets/lines-main-menu.png) 如果可用，请单击左上角的 **项目**，然后展开 **新建项目**.
-   * 转到项目组合，然后展开 **新建项目**.
-   * 转到项目，然后展开 **新建项目**.
-   * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关更多信息，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * 单击右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单** ![](assets/lines-main-menu.png)（如果可用），单击&#x200B;**项目**，然后展开&#x200B;**新建项目**。
+   * 转到项目组合，然后展开&#x200B;**新建项目**。
+   * 转到项目群，然后展开&#x200B;**新建项目**。
+   * 如果您是组管理员，则还可以在所管理组的项目部分中创建项目。 有关详细信息，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
-1. 单击 **请求项目**.
+1. 单击&#x200B;**请求项目**。
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -81,10 +83,10 @@ ht-degree: 2%
 
    * 遵循与定义业务案例时创建项目相同的步骤。 （推荐）
 
-     有关定义业务案例和请求项目的信息，请参阅 [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     有关定义业务案例和请求项目的信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-   * 从头开始或使用模板创建项目并将状态更改为 **已请求**.
+   * 从头开始或使用模板创建项目，并将状态更改为&#x200B;**已请求**。
 
-     有关创建项目的信息，请参见 [创建项目](../../../manage-work/projects/create-projects/create-project.md) 或 [使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     有关创建项目的信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)或[使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md)。
 
-   您请求的项目具有状态 **已请求** 并且它显示在 **请求的项目** Portfolio选项卡(如果已将其与Portfolio关联)。 项目组合经理现在可以对其进行审核，并批准或拒绝它，在这种情况下，项目状态将更改为以下任一项 **已批准** 或 **被拒绝**.
+   您请求的项目具有&#x200B;**已请求**&#x200B;状态，如果您将其与Portfolio关联，它将显示在Portfolio的&#x200B;**已请求项目**&#x200B;选项卡上。 项目组合经理现在可以审阅它并批准或拒绝它，在这种情况下，项目的状态将更改为&#x200B;**已批准**&#x200B;或&#x200B;**已拒绝**。

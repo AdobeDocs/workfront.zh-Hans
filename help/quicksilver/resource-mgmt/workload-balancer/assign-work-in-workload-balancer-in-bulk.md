@@ -2,66 +2,74 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 使用工作负载均衡器批量分配工作
-description: 您可以使用Adobe Workfront工作负载均衡器手动将工作项分配给用户。
+description: 您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 1%
+source-wordcount: '1499'
+ht-degree: 2%
 
 ---
 
 # 使用工作负载均衡器批量分配工作
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-您可以使用Adobe Workfront工作负载均衡器手动将工作项分配给用户。
+您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 
-有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅 [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅[在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在资源区域使用工作负载均衡器时进行规划</p>
-   <p>工作，使用团队或项目的工作负载均衡器时</p>
+   <td> 
+   <p>新增：标准</p>
+   <p>当前：</p>
+   <ul>
+   <li><p>在资源区域使用工作负载均衡器时进行规划</p></li>
+   <li><p>工作，使用团队或项目的工作负载均衡器时</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
+   <td role="rowheader">访问级别</td> 
    <td> <p>编辑对以下内容的访问权限：</p> 
     <ul> 
      <li> <p>资源管理</p> </li> 
      <li> <p>项目</p> </li> 
      <li> <p>任务</p> </li> 
      <li> <p>问题</p> </li> 
-    </ul> <p><b>注释</b>
+    </ul>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>Contribute对项目、任务和问题（包括制定工作）的权限或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在工作负载均衡器中进行批量分配的注意事项
 
@@ -77,22 +85,22 @@ ht-degree: 1%
 
 * 您负责为多个新项目分配用户。 项目最初从模板创建，并且工作角色已分配给项目中的各种任务。 您需要将特定用户Jackie Simms分配给当前分配给工作角色的所有任务。 您可以使用“分配”功能将这些任务分配给Jackie Simms。
 * 3个不同项目中的45个任务被分配给Jackie Simms。 Jackie离开了组织，现在您需要将其任务重新分配给另一个用户。 您可以使用“替换”功能将这些任务分配给新人员。
-* 2个不同项目中的10个任务被分配给另一个用户Rick Kuvec。 您意识到我们错误地将Rick分派到了这些任务中，但是您不确定此时需要向谁分派这些任务。 您需要同时取消将Rick分配到所有任务。 您可以使用“取消分配”功能将Rick从这些任务中删除。
+* 2个不同项目中的10个任务被分配给另一个用户Rick Kuvec。 您意识到我们错误地将Rick分派到了这些任务中，但是您不确定此时需要将其分派给谁。 您需要同时取消将Rick分配到所有任务。 您可以使用“取消分配”功能将Rick从这些任务中删除。
 
 ## 在工作负载均衡器中批量分配工作
 
 1. 转到要分配工作的工作负载均衡器。
 
-   您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 
-1. 单击 **批量分配** ![](assets/bulk-assignments-wb.png) 位于工作负载均衡器的顶部。
+1. 单击工作负载均衡器顶部的&#x200B;**批量分配** ![](assets/bulk-assignments-wb.png)。
 
    批量任务面板将在工作负载均衡器的右侧打开。
 
-1. （视情况而定）如果要从资源区域或团队访问工作负载均衡器，请展开 **项目：名称** 下拉菜单并使用筛选器修饰符选择要为其分配的一个或多个项目。 您可以按名称（这是默认选项）或状态选择项目。
+1. （视情况而定）如果您正在从资源区域或团队访问工作负载均衡器，请展开&#x200B;**项目：名称**&#x200B;下拉菜单，并使用筛选器修饰符选择要为其分配的一个或多个项目。 您可以按名称（这是默认选项）或状态选择项目。
 
-有关Workfront过滤器修饰符的信息，请参阅 [过滤器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
 >[!NOTE]
 >
@@ -100,9 +108,9 @@ ht-degree: 1%
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. （可选）单击 **选择项目任务** 选择要为其分配的一个或多个任务，然后在 **任务：名称** 下拉菜单，按名称（这是默认选项）或状态选择任务，并使用筛选器修饰符搜索特定任务。
+1. （可选）单击&#x200B;**选择项目任务**&#x200B;以选择要为其分配的一个或多个任务，然后在&#x200B;**任务：名称**&#x200B;下拉菜单中，按“名称”（这是默认选项）或“状态”选择任务，并使用筛选器修饰符搜索特定任务。
 
-有关Workfront过滤器修饰符的信息，请参阅 [过滤器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
 >[!NOTE]
 >
@@ -114,11 +122,11 @@ ht-degree: 1%
 >
 >如果要批量分配问题和任务，请将此选择留空。
 
-1. （可选）单击 **删除** 图标 ![](assets/delete.png) 在其中一个选定标准旁边
+1. （可选）单击其中一个选定条件旁边的&#x200B;**删除**&#x200B;图标![](assets/delete.png)
 
    或
 
-   单击 **全部清除** ，以删除所有选择。
+   单击“批量任务”面板右上角的&#x200B;**全部清除**&#x200B;可删除所有选择。
 
 1. 选择以下选项之一，然后继续执行以下所述的步骤：
 
@@ -144,18 +152,18 @@ ht-degree: 1%
 
 要将用户分配给先前分配给工作角色的工作项，请执行以下操作：
 
-1. 开始使用工作负载均衡器中的批量分配来分配工作项（如上所述），然后选择 **分配**.
+1. 开始使用工作负载均衡器中的批量分配来分配工作项（如上所述），然后选择&#x200B;**分配**。
 
-1. 在 **角色分配** 字段中，单击下拉箭头以从角色列表中进行选择。 仅显示指定项目中当前分配的角色。 这是必填字段。
+1. 在&#x200B;**角色分配**&#x200B;字段中，单击下拉箭头从角色列表中进行选择。 仅显示指定项目中当前分配的角色。 这是必填字段。
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. 在 **要分配的用户** 字段中，单击下拉箭头以从建议的用户列表中进行选择或键入其他用户名。
+1. 在&#x200B;**要分配的用户**&#x200B;字段中，单击下拉箭头从建议的用户列表中进行选择或键入其他用户的名称。
 
    从以下区域选择用户：
 
-   * **建议的工作分配**：可以履行所选角色且符合智能分配标准的用户。 有关更多信息，请参阅 [智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **其他工作**：系统中可以履行选定角色的所有用户。
+   * **建议分配**：满足所选角色且符合智能分配条件的用户。 有关详细信息，请参阅[智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * **其他分配**：系统中可以履行所选角色的所有用户。
 
      >[!TIP]
      >
@@ -169,7 +177,7 @@ ht-degree: 1%
    >用户的所有角色都显示在列表中，位于用户名的下方。
 
 
-1. 单击 **分配**.
+1. 单击&#x200B;**分配**。
 
    指定的角色将替换为您选择的用户。
 
@@ -190,18 +198,18 @@ ht-degree: 1%
 
 要用其他用户替换用户，请执行以下操作：
 
-1. 按如上所述开始在工作负载均衡器中分配工作项，然后选择 **替换**.
-1. 在 **当前分配的用户** 字段中，单击下拉箭头以从用户列表中进行选择。 仅显示指定项目中当前分配给未完成工作项的用户。 这是必填字段。
+1. 开始在工作负载均衡器中分配工作项（如上所述），然后选择&#x200B;**替换**。
+1. 在&#x200B;**当前分配的用户**&#x200B;字段中，单击下拉箭头从用户列表中进行选择。 仅显示指定项目中当前分配给未完成工作项的用户。 这是必填字段。
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. 在 **要分配的用户** 字段中，单击下拉箭头从建议的用户列表中进行选择或键入其他用户名。 默认情况下，列表中列出的用户与“智能分配”的条件相匹配。 有关更多信息，请参阅 [智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. 在&#x200B;**要分配的用户**&#x200B;字段中，单击下拉箭头从建议的用户列表中进行选择或键入其他用户名。 默认情况下，列表中列出的用户与“智能分配”的条件相匹配。 有关详细信息，请参阅[智能分配概述](../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
    Workfront会显示一个注释，说明当前分配的用户将替换第二个用户的项目数以及这些用户将替换哪些角色。
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. 单击 **替换**.
+1. 单击&#x200B;**替换**。
 
    所选项目的全部工作项中的第一个用户被第二个用户替换。
 
@@ -218,13 +226,13 @@ ht-degree: 1%
 
 * 如果将指定的用户分配给已完成的工作项，则该用户仍会分配给这些工作项。
 
-有关用户和工作角色分配的更多信息，请参阅 [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有关用户和工作角色分配的更多信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 
 要从选定项目中的工作项取消分配用户，或为其分配的选定任务或问题取消分配用户，请执行以下操作：
 
-1. 按如上所述开始在工作负载均衡器中分配工作项，然后选择 **取消分配**.
+1. 开始在工作负载均衡器中分配工作项（如上所述），然后选择&#x200B;**取消分配**。
 
-1. 在 **要取消分配的用户** 字段中，单击下拉箭头以从用户列表中进行选择。 只有当前分配给指定项目中未完成工作项的用户才会显示。 这是必填字段。
+1. 在&#x200B;**要取消分配的用户**&#x200B;字段中，单击下拉箭头从用户列表中进行选择。 只有当前分配给指定项目中未完成工作项的用户才会显示。 这是必填字段。
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -232,7 +240,7 @@ ht-degree: 1%
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. 单击 **取消分配**.\
+1. 单击&#x200B;**取消分配**。\
    您会收到有关已删除指定用户的工作项数的确认。
 
- 
+
