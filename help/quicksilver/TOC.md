@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 1%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 1%
          * [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [使用API提升环境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [环境提升常见问题解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [环境提升疑难解答](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * 用户管理{#add-users}
       * [用户管理：文章索引](administration-and-setup/add-users/add-users.md)
       * 创建和管理用户 {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 1%
       * [Adobe Workfront Fusion场景概述](workfront-fusion/scenarios/scenario-overview.md)
       * [在Adobe Workfront Fusion中创建方案](workfront-fusion/scenarios/create-a-scenario.md)
       * [Adobe Workfront Fusion中的场景编辑器](workfront-fusion/scenarios/scenario-editor.md)
-      * [Adobe Workfront Fusion中的基本场景设置](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Adobe Workfront Fusion中的“方案设置”面板](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Adobe Workfront Fusion中的场景详细信息](workfront-fusion/scenarios/scenario-detail.md)
       * [Adobe Workfront Fusion中的场景执行流程](workfront-fusion/scenarios/scenario-execution-flow.md)
