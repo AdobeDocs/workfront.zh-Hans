@@ -8,10 +8,10 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ ht-degree: 1%
 ## 执行历史记录
 
 * 执行历史记录日志的大小限制为&#x200B;**100 MB**。 如果执行历史记录超过此大小，则仅显示前100 MB。
+* 如果一个场景有多个并发执行。 在“场景详细信息”页面的执行区域中，只显示5个执行。 即使正在运行的执行超过5次，情况也是如此。
 
 ## 未完成的执行
 
