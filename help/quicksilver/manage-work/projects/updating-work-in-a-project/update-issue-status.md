@@ -49,14 +49,14 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 问题状态
 
 以下是Workfront中问题的默认状态：
 
-* 新
-* 进行中
+* 新建
+* 正在进行中
 * 等待反馈
 * 暂停
 * 不会解决
@@ -86,8 +86,8 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
 要在问题标题中手动更新问题状态，请执行以下操作：
 
 1. 转到要更新其状态的问题。
-1. 单击 **状态** 字段，然后选择新状态。
-1. 要提供问题完成的可视指示，请拖动或双击下的气泡 **完成百分比** （在问题的标题中）
+1. 单击问题标题中的&#x200B;**状态**&#x200B;字段并选择新状态。
+1. 要提供问题完成的可视指示，请拖动或双击问题标题中&#x200B;**完成百分比**&#x200B;下的气泡
 
    或
 
@@ -97,12 +97,12 @@ Adobe Workfront管理员可以为您的组织添加问题的自定义状态。 �
 
 1. （可选）执行以下任一操作以提供有关更新的其他信息：
 
-   * 要添加有关更新的注释，请转到 **更新** 部分并单击 **新建评论**，然后键入注释。
+   * 若要添加有关更新的注释，请转到&#x200B;**更新**&#x200B;部分，然后单击&#x200B;**新建注释**，然后键入注释。
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * 要通知特定用户有关更新，请在 **标记人员或团队** 键入评论时显示的字段。 有关更多信息，请参阅 [为其他人标记更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 要更新问题的提交日期，请单击 **问题详细信息**，然后编辑 **提交日期** 字段。 有关信息，请参阅 [编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * 若要将更新通知给某些用户，请在键入评论时显示的&#x200B;**标记人员或团队**&#x200B;字段中键入其名称。 有关详细信息，请参阅[为其他人标记更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
+   * 要更新问题的提交日期，请单击&#x200B;**问题详细信息**，然后编辑&#x200B;**提交日期**&#x200B;字段。 有关信息，请参阅[编辑问题](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)。
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ When you are updating an issue status, you can also add an explanation about the
 
 >[!NOTE]
 >
->下表中的状态是默认的系统状态。 您的Workfront管理员或组管理员可以重命名Workfront实例中的状态。 有关在Workfront中创建和管理状态的信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>下表中的状态是默认的系统状态。 您的Workfront管理员或组管理员可以重命名Workfront实例中的状态。 有关在Workfront中创建和管理状态的信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -156,17 +156,17 @@ When you are updating an issue status, you can also add an explanation about the
   <tr> 
    <td>将问题完成百分比从100%更新为较低数字</td> 
    <td>已关闭 </td> 
-   <td>进行中</td> 
+   <td>正在进行中</td> 
   </tr> 
   <tr> 
    <td>更新附加到问题的解析对象的状态</td> 
    <td>各种状态</td> 
-   <td> <p>各种状态</p> <p>有关解析对象以及它们如何影响问题状态的信息，请参阅文章中的“将可解析对象的状态与解析对象的状态同步”部分 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解析和可解析对象概述 </a>.</p> </td> 
+   <td> <p>各种状态</p> <p>有关解析对象以及它们如何影响问题状态的信息，请参阅解析和可解析对象概述</a>一文<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">中的“将可解析对象的状态与解析对象的状态同步”一节。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>单击“开始问题”按钮接受处理分配给您的问题</span> </td> 
    <td><span>新建</span> </td> 
-   <td> <p>与主团队设置中的开始问题按钮关联的任何状态。 </p> <p>有关将“处理此项工作”按钮替换为“开始问题”按钮的信息，请参阅 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span><span>.</span> </p> <p>提示：单击 <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">“撤消”按钮</span> 单击“开始问题”后，状态将恢复为“新建”。 </p> </td> 
+   <td> <p>与主团队设置中的开始问题按钮关联的任何状态。 </p> <p>有关将“处理此项工作”按钮替换为“开始问题”按钮的信息，请参阅<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span><span>。</span> </p> <p>提示：单击“开始问题”后单击<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">撤消按钮</span>会将状态还原为“新建”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

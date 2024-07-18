@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: 更新桌面校对查看器
-description: 有时，包含改进和错误修复的新软件更新会在桌面校样查看器中提供。 用户无需Adobe Workfront管理员的帮助即可运行这些更新。
+description: 有时，包含改进和错误修复的新软件更新会提供给桌面校对查看器。 用户可以无需Adobe Workfront管理员的帮助来运行这些更新。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 更新桌面校对查看器
 
-有时，包含改进和错误修复的新软件更新会在桌面校样查看器中提供。 用户无需Adobe Workfront管理员的帮助即可运行这些更新。
+有时，包含改进和错误修复的新软件更新会提供给桌面校对查看器。 用户可以无需Adobe Workfront管理员的帮助来运行这些更新。
 
 <!--
 >[!IMPORTANT]
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,11 +32,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td> <p>当前计划：Pro或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用不同计划校对访问权限的更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的校对功能</a>.</p> </td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>任意</p> <p>旧版计划：任意（必须为用户启用校样）</p> </td> 
+   <td> <p>任何</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,37 +45,37 @@ ht-degree: 0%
 
 ## 手动检查更新
 
-桌面校对查看器在启动时会自动检查是否有更新。 
+桌面验证查看器在启动时将自动检查更新。 
 
 要手动检查更新，请执行以下操作：
 
-1. 在Mac上，单击 **Workfront校样** > **关于Workfront校样** 在桌面校样查看器上方的Apple导航栏中。 
+1. 在Mac上，单击桌面校对查看器上方的Apple导航栏中的&#x200B;**Workfront Proof** > **关于Workfront Proof**。 
 
    或
 
-   在Windows中，单击 **窗口** > **关于Workfront校样** 在桌面校样查看器上方的菜单栏中。
+   在Windows中，单击桌面校对查看器上方菜单栏中的&#x200B;**窗口** > **关于Workfront Proof**。
 
-   桌面校对查看器会检查更新。
+   桌面校对查看器检查更新。
 
-1. 如果有更新，请按照屏幕上的提示更新桌面校样查看器。
+1. 如果更新可用，请按照屏幕提示更新桌面校对查看器。
 
 ## 标准更新
 
-桌面校样查看器无需进行非关键更新即可正常工作。 但是，为了获得最佳功能，我们建议您在可用时应用这些功能。 当 **应用程序更新** 按钮。
+桌面校对查看器可以在没有非关键更新的情况下工作。 但是，为获得最佳功能，我们建议您在可用时应用它们。 当桌面校对查看器左侧边栏中的&#x200B;**应用程序更新**&#x200B;按钮可用时，您会收到通知。
 
-1. 单击 **应用程序更新。**
+1. 单击&#x200B;**应用更新。**
 
-   更新下载。
+   将下载更新。
 
-1. 单击 **重新启动。**
+1. 单击&#x200B;**重新启动。**
 
-   的 **桌面校对查看器** 重新启动，您可以继续处理校样。
+   **桌面校对查看器**&#x200B;重新启动，您可以继续处理校对。
 
 ## 所需更新
 
-您必须为桌面校样查看器运行所需的更新。 之后，必须重新启动才能继续使用查看器。
+请务必对桌面校对查看器运行所需的更新。 之后，必须重新启动才能继续使用查看器。
 
 1. 打开桌面校对查看器。
-1. 在显示的框中，单击 **重新启动。**
+1. 在出现的框中，单击&#x200B;**重新启动。**
 
-   桌面校样查看器将重新启动，您可以恢复校样的工作。 
+   桌面校对查看器将重新启动，您可以继续处理校对。 

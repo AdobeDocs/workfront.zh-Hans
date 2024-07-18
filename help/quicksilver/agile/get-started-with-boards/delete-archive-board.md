@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 删除或存档展示板
 
-您可以在中删除或存档展示板 [!DNL Workfront]. 删除展示板会将其从 [!DNL Workfront]，而归档展示板时，会保留所有信息卡，并允许在以后进行恢复。
+您可以在[!DNL Workfront]中删除或存档讨论区。 删除展示板会将其从[!DNL Workfront]中永久删除，而存档展示板会保留所有信息卡，并允许稍后恢复它。
 
 ## 访问要求
 
@@ -39,15 +39,15 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 删除展示板
 
-删除展示板时，会将其从以下位置永久移除： [!DNL Workfront] 无法恢复。 展示板上的任何信息卡也会随展示板一起删除。
+当您删除展示板时，该展示板将从[!DNL Workfront]中永久移除，无法恢复。 展示板上的任何信息卡也会随展示板一起删除。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
 1. 在仪表板上，选择要打开的面板。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL 更多菜单]](assets/more-icon-spectrum.png) 位于展示板名称旁边，然后选择 **[!UICONTROL 删除]**. 然后，单击 **[!UICONTROL 删除展示板]** 确认消息上。
+1. 单击讨论区名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![[!UICONTROL 更多菜单]](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 删除]**。 然后，在确认消息上单击&#x200B;**[!UICONTROL 删除展示板]**。
 
    >[!NOTE]
    >
@@ -59,9 +59,9 @@ ht-degree: 0%
 
 已存档展示板会保留所有信息卡和工作分配。 任何用户都可以随时存档或恢复展示板。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
 1. 在仪表板上，选择要打开的面板。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![[!UICONTROL 更多菜单]](assets/more-icon-spectrum.png) 位于展示板名称旁边，然后选择 **[!UICONTROL 存档]**.
+1. 单击展示板名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![[!UICONTROL 更多菜单]](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 存档]**。
 
    ![展示板更多菜单](assets/boards-board-more-menu.png)
 
@@ -69,8 +69,8 @@ ht-degree: 0%
 
 已存档的展示板可以随时恢复。 任何用户都可以恢复已存档的展示板。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
-1. 在功能板上，单击过滤器图标 ![筛选](assets/filter-icon-spectrum-25x25.png) 并选择 **[!UICONTROL 已存档展示板]**.
-1. 找到要恢复的主板，单击 **[!UICONTROL 更多]** 菜单 ![更多菜单](assets/more-icon-spectrum.png) ，然后选择 **[!UICONTROL 恢复]**.
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+1. 在仪表板上，单击过滤器图标![过滤器](assets/filter-icon-spectrum-25x25.png)，然后选择&#x200B;**[!UICONTROL 已存档展示板]**。
+1. 找到要还原的讨论区，单击讨论区名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 还原]**。
 
-   ![恢复展示板](assets/boards-dashboard-restore.png)
+   ![还原展示板](assets/boards-dashboard-restore.png)

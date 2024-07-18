@@ -66,7 +66,7 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
             </ul>
           </li>
           <li>
-            <p><b>禁止操作</b>
+            <p><b>forbiddenActions</b>
             </p>
             <p>添加了以下可能值：</p>
             <ul>
@@ -202,7 +202,7 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
             </ul>
           </li>
           <li>
-            <p><b>禁止操作</b>
+            <p><b>forbiddenActions</b>
             </p>
             <p>添加了以下可能值：</p>
             <ul>
@@ -438,7 +438,7 @@ Category对象是自定义表单。
              </p>
           </li>
           <li>
-            <p><b>对象类型</b>：
+            <p><b>objTypes</b>：
             </p>
             <p>添加了以下可能值：
             <ul>
@@ -1039,7 +1039,7 @@ TemplateTask对象表示属于Template一部分的Task。 模板任务将成为�
             </p>
             <ul>
               <li>
-                <p><b>对象代码</b>
+                <p><b>objCode</b>
                 </p>
               </li>
              </ul>

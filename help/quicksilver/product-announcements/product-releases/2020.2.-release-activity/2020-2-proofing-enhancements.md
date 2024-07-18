@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2020.2版本中对生产环境所做的所有“验证”增强。 这些增强功能在2020年5月11日这一周的生产环境中提供。
 
-有关2020.2版本可用的所有更改列表，请参阅 [2020.2版概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+有关2020.2版本可用的所有更改列表，请参阅[2020.2版本概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 校对域正在从proofhq.com更改为workfront.com。
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 &#42;.workfront.com
 
-此 &#42;proofhq.com URL仍然是必需的。
+&#42;proofhq.com URL仍然是必需的。
 
-有关更新允许列表的详细信息，请参阅 [配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+有关更新允许列表的详细信息，请参阅[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-此更新仅适用于Workfront中的验证；在使用Workfront Proof独立应用程序时，此更新不适用。
+此更新仅适用于Workfront中的校对；在使用Workfront Proof独立应用程序时，此更新不适用。
 
 ## 来宾所做的校对注释会出现在“更新”区域中
 

@@ -25,8 +25,8 @@ Adobe Workfront产品的各种功能正在逐步淘汰。 以下是各项功能�
  <tbody> 
   <tr> 
    <td><b>功能或产品区域</b></td> 
-   <td><strong>最新版本的新增功能</strong> </td> 
-   <td> <p rowspan="2"><strong>关键日期</strong> </p> <p rowspan="2"> </p> </td> 
+   <td><strong>上一版本具有新功能</strong> </td> 
+   <td> <p rowspan="2"><strong>键日期</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">更多信息即将发布。</p> </td> 
@@ -34,22 +34,22 @@ Adobe Workfront产品的各种功能正在逐步淘汰。 以下是各项功能�
    <td> <p>上一版本，带有Classic 21.2版本中的新增功能增强</p> <p>2022年3月31日不再支持</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Internet Explorer支持</p> <p>由于不再支持Internet Explorer，Workfront现在正式支持Microsoft Edge。 </p> <p>有关支持的浏览器的更多信息，请参阅 <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront浏览器要求</a>.</p> </td> 
+   <td> <p>Internet Explorer支持</p> <p>由于不再支持Internet Explorer，Workfront现在正式支持Microsoft Edge。 </p> <p>有关支持的浏览器的更多信息，请参阅<a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront浏览器要求</a>。</p> </td> 
    <td>在21.1版本中</td> 
    <td>21.2版本不再支持</td> 
   </tr> 
   <tr> 
-   <td> <p>资源调度</p> <p>工作负载均衡器提供了在计划资源方面的改进体验。</p> <p>有关工作负载均衡器的更多详细信息，请参见 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">工作负载均衡器概述</a>.</p> </td> 
+   <td> <p>资源调度</p> <p>工作负载均衡器提供了在计划资源方面的改进体验。</p> <p>有关工作负载均衡器的更多详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">工作负载均衡器概述</a>。</p> </td> 
    <td> </td> 
    <td> <p>2020年11月9日不再受支持（从20.4版本开始）</p> <p>—</p> <p>2022年上半年之后从Workfront平台中删除</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的更多信息，请参阅 <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>旧版Workfront Fusion</p> <p>Workfront Fusion改进了旧版Workfront Fusion中的体验。</p> <p>有关Workfront Fusion的详细信息，请参阅<a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>。</p> </td> 
    <td> </td> 
    <td>2021年3月31日从Workfront平台删除</td> 
   </tr> 
   <tr> 
-   <td> <p>闪存</p> <p>Workfront中现在提供了各种工具来取代各种基于Flash的工具。 有关更多详细信息，请参阅 <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe Workfront中基于Flash的工具的替换</a>.</p> </td> 
+   <td> <p>闪存</p> <p>Workfront中现在提供了各种工具来取代各种基于Flash的工具。 有关详细信息，请参阅<a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">在Adobe Workfront中替换基于Flash的工具</a>。</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>2020年11月19日从Workfront平台移除</p> </td> 
   </tr> <!--

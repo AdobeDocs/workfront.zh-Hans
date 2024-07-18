@@ -1,47 +1,47 @@
 ---
-title: Adobe Workfront 21.3版本的方案规划器
-description: Adobe Workfront 21.3版本的方案规划器
+title: 带有21.3版本的Adobe Workfront Scenario Planner
+description: 带有21.3版本的Adobe Workfront Scenario Planner
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 21.3版本的方案规划器
+# 带有21.3版本的Adobe Workfront Scenario Planner
 
-Adobe Workfront方案规划器仅在新的Adobe Workfront体验中可用。
+Adobe Workfront Scenario Planner仅在新的Adobe Workfront Experience中可用。
 
 21.3版本中包含以下功能：
 
-## 使用方案计划员中的信息对业务案例中的项目资源进行预算
+## 使用方案规划程序中的信息来预算业务案例中的项目资源
 
 >[!NOTE]
 >
->此功能仅在新的Adobe Workfront体验中可用。
+>此功能仅在新的Adobe Workfront Experience中可用。
 
-为了在对项目的资源进行预算时为使用Adobe Workfront方案计划员的人员提供单个真相来源，我们在项目“业务案例”的“资源预算”区域中引入了一个设置，该设置允许您选择是使用资源计划员还是方案计划员来对项目的资源进行预算。 当您选择使用方案计划员时，链接到项目的方案中的任务职责信息将反映在“业务案例”的“资源预算”区域，并计算项目的预算人工成本。
+为了向使用Adobe Workfront Scenario Planner的用户提供项目资源预算编制时的单一真实来源，我们在项目业务案例的资源预算编制区域引入了一个设置，允许您选择使用资源规划者还是方案规划者来预算项目的资源。 当您选择使用Scenario Planner时，链接到项目的计划中的工作角色信息会反映在业务案例的资源预算区域，并计算项目的预算人工成本。
 
-此功能仅在新的Adobe Workfront体验中提供，适用于为Adobe Workfront方案规划器购买许可证的客户。
+这仅在新的Adobe Workfront Experience中提供，适用于已购买Adobe Workfront Scenario Planner许可证的客户。
 
-有关更多信息，请参阅 [使用方案计划员在业务案例中预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
 
-## 在布局模板中为方案规划器和目标创建针脚和登陆页面
+## 在布局模板中为场景规划者和目标创建图钉和登陆页面
 
 >[!NOTE]
 >
->此功能仅在新的Adobe Workfront体验中可用。
+>此功能仅在新的Adobe Workfront Experience中可用。
 
-为了在访问主菜单中列出的Adobe Workfront的所有区域时保持一致，我们添加了Workfront或组管理员在更新布局模板时为方案规划器和目标区域添加固定选项卡和登陆页面的功能。
+为了在访问主菜单中列出的Adobe Workfront所有区域时保持一致，我们为Workfront或组管理员添加了以下功能：当他们更新布局模板时，为“场景规划者”和“目标”区域添加固定选项卡和登陆页面。
 
-在此增强之前，您可以使用布局模板将方案规划器和目标区域仅添加到主菜单。
+在此增强功能之前，您可以使用布局模板仅将Scenario Planner和“目标”区域添加到主菜单。
 
 有关信息，请参阅以下文章：
 
 * [使用布局模板自定义登陆页面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [使用布局模板自定义固定的页面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [使用布局模板自定义固定页面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

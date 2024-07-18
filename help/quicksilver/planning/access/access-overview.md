@@ -72,7 +72,7 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>对象权限</p></td>
    <td>
-   <p>为您未创建的工作区和视图分配或更高权限，以便编辑、删除和共享它们，以及创建、编辑或删除记录类型和记录。</p>
+   <p>Contribute或未创建的工作区和视图的更高权限，可用于编辑、删除和共享这些工作区和视图，以及创建、编辑或删除记录类型和记录。</p>
     <p>系统管理员可以管理他们未创建的工作区。 </p>
     <p>系统管理员无法管理他们未创建的视图。 </p>
    <p>有关共享Workfront Planning对象权限的信息，请参阅  
@@ -81,13 +81,13 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用布局模板自定义主菜单</a> 和 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">将用户分配给布局模板</a>. </p>  
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用布局模板自定义主菜单</a>和<a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">将用户分配给布局模板</a>。 </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关Workfront访问要求的更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 与他人共享主菜单中的“规划”区域
@@ -96,15 +96,15 @@ ht-degree: 0%
 
 贵组织在注册Workfront Planning程序后，可以使用布局模板将Planning区域添加到所有用户的主菜单。
 
-1. 登录 **Workfront** Workfront管理员。
+1. 以Workfront管理员身份登录到&#x200B;**Workfront**。
 
-1. 添加 **规划** 图标 ![](assets/planning-icon.png) 到 **主菜单** 使用 **布局模板**.
+1. 使用&#x200B;**布局模板**&#x200B;将&#x200B;**Planning**&#x200B;图标![](assets/planning-icon.png)添加到&#x200B;**主菜单**。
 
-   有关信息，请参阅 [使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   有关信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 1. 将布局模板分配给要访问Workfront Planning的用户。
 
-   有关信息，请参阅 [将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   有关信息，请参阅[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
    现在，分配给模板的所有用户都可以在他们的主菜单中访问Workfront Planning。
 
@@ -116,16 +116,16 @@ Workfront Planning没有访问控制。
 
 拥有任何类型许可证的用户都可以访问Workfront Planning。
 
-有关在Workfront中授予访问权限的信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+有关在Workfront中授予访问权限的信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 授予权限
 
 您必须向用户授予您创建的工作区和视图的权限，用户才能访问它们。
 
-有关更多信息，请参阅 [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 您的Adobe Workfront许可证类型可与Workfront Planning权限配合使用，让您有权查看、贡献或管理Workfront Planning对象。
 
-有关许可证类型如何影响Workfront Planning对象权限级别的信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+有关许可证类型如何影响Workfront Planning对象权限级别的信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
 

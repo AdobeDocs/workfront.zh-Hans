@@ -24,7 +24,7 @@ ht-degree: 0%
 * 查看、提供或管理工作区
 * 查看或管理视图。
 
-有关Workfront Planning中对象权限的信息，请参阅 [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+有关Workfront Planning中对象权限的信息，请参阅[Adobe Workfront Planning中的权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ## Workfront许可证类型与Workfront Planning权限之间的关系
 
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 | Adobe Workfront许可证类型* | Adobe Workfront Planning中允许的最高权限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 新增：标准 <br> 或 <br>当前：计划 | 用户可以管理工作区。 他们可以创建、编辑或删除工作区、记录类型、记录和字段。 <br> 系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。 |
-| 新文档：轻量级，参与者 <br> 或 <br>当前：工作、请求者、查看者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。 <br> 用户无法创建、编辑或删除工作区、记录类型、记录或字段。 |
+| 新：标准<br>或<br>当前：计划 | 用户可以管理工作区。 他们可以创建、编辑或删除工作区、记录类型、记录和字段。 <br>系统管理员对所有工作区具有管理权限，包括他们未创建的工作区。 |
+| 新：轻量级，参与者<br>或<br>当前：工作，请求者，查看者 | 用户可以查看与其共享的工作区，以及这些工作区的记录类型、记录和字段。 <br>用户无法创建、编辑或删除工作区、记录类型、记录或字段。 |
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ### 许可证类型和工作区权限
 

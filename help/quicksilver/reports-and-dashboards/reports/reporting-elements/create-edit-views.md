@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以使用视图自定义在屏幕上显示的信息类型。 您可以在Adobe Workfront中使用多种类型的视图。
 
-本文介绍了如何创建和编辑列表和报告标准视图，以及如何创建Agile视图。 有关更多信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+本文介绍了如何创建和编辑列表和报告标准视图，以及如何创建Agile视图。 有关详细信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 访问要求
 
@@ -39,16 +39,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 +++
 
@@ -63,19 +63,19 @@ ht-degree: 1%
 
 您可以创建新的标准视图，也可以自定义之前创建的现有标准视图。
 
-1. 单击 **视图** 要创建或自定义视图的任何列表中的下拉菜单。
+1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
 1. （可选）要自定义现有视图，请选择要自定义的标准视图。\
    标准视图可在Workfront的任何类型的列表（如报告、项目列表或任务列表）中使用。
-1. 单击 **视图** 下拉菜单，然后单击 **自定义视图** 或 **新建视图**.\
-   此 **自定义视图** 对话框随即显示。
+1. 单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**自定义视图**&#x200B;或&#x200B;**新建视图**。\
+   将显示&#x200B;**自定义视图**&#x200B;对话框。
 
-1. 在 **列预览** 部分，执行以下任一操作：
+1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
    * 通过单击列标题并选择新字段来修改任何列的值。
-   * 通过单击添加列 **添加列**，开始键入要添加列的名称，然后在它出现在下拉列表中时单击它。
+   * 通过单击&#x200B;**添加列**&#x200B;来添加列，开始键入要添加的列的名称，然后在它出现在下拉列表中时单击它。
    * 通过将列标题拖动到新位置来调整列的显示顺序。
 
-      * （可选）在 **列设置** 区域，单击 **此列的汇总方式** 下拉列表，然后选择用于汇总信息的可用选项之一。 选择此选项时，列中的信息将按报表的分组进行汇总。\
+      * （可选）在&#x200B;**列设置**&#x200B;区域中，单击&#x200B;**按**&#x200B;汇总此列，然后选择用于汇总信息的可用选项之一。 选择此选项时，列中的信息将按报表的分组进行汇总。\
         对于日期字段，您可以通过以下选项汇总值：
 
          * 最大
@@ -99,9 +99,9 @@ ht-degree: 1%
         >   
         >
 
-        有关在报表中使用分组的更多信息，请参阅文章 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        有关在报表中使用分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 
-      * （可选）单击 **高级选项** 要为列指定以下信息：
+      * （可选）单击&#x200B;**高级选项**&#x200B;为列指定以下信息：
 
         <table style="table-layout:auto"> 
          <col> 
@@ -121,22 +121,22 @@ ht-degree: 1%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>列规则</strong></td> 
-           <td><p>单击 <strong>为此列添加规则</strong> 以定义列的规则。 添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 单击 <strong>添加规则</strong> 完成规则定义之后。</p></td> 
+           <td><p>单击<strong>添加此列的规则</strong>以定义此列的规则。 添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 完成规则定义后，单击<strong>添加规则</strong>。</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        有关在报表中有条件地设置视图格式的更多信息，请参阅文章 [在文本模式下使用条件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        有关报表中条件格式视图的详细信息，请参阅文章[在文本模式下使用条件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)。
 
-1. （视情况而定）如果您单击 **高级选项**，单击 **完成**.
+1. （视情况而定）如果您已单击&#x200B;**高级选项**，请单击&#x200B;**完成**。
 
-1. 单击 **保存视图** 创建新视图，或将当前视图替换为您所做的更改。\
+1. 单击&#x200B;**保存视图**&#x200B;以创建新视图，或使用更改替换当前视图。\
    或\
-   单击 **另存为新视图** 以将更改另存为新视图。
+   单击&#x200B;**另存为新视图**&#x200B;以将更改另存为新视图。
 
    >[!TIP]
    >
-   >此 **另存为新视图** 是自定义内置Workfront视图时唯一可用的选项。
+   >在自定义内置Workfront视图时，**另存为新视图**&#x200B;是唯一可用的选项。
 
    您的访问权限规定了视图的保存方式。 如果最初创建了该视图，则可以保存更改；否则，系统会提示您保存版本。 请记住，您对视图所做的更改会影响与其共享该视图的用户。
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 >
 >Agile视图仅在查看项目时可用。
 
-有关Agile视图的更多信息，请参阅文章 [在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+有关Agile视图的更多信息，请参阅文章[在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ ht-degree: 1%
 创建或自定义Agile视图：
 
 1. 转到项目中的任务列表。
-1. 单击 **展示板** 图标 ![讨论区图标](assets/board-icon-for-agile-view.png)，然后单击 **使用旧版Agile** 在展示板视图中。
+1. 单击&#x200B;**展示板**&#x200B;图标![展示板图标](assets/board-icon-for-agile-view.png)，然后单击&#x200B;**在展示板视图中使用旧版Agile**。
 
 1. （视情况而定）要自定义现有Agile视图，请执行以下操作：
 
-   1. 单击 **视图** 下拉菜单，然后选择要自定义的Agile视图。\
+   1. 单击&#x200B;**视图**&#x200B;下拉菜单，然后选择要自定义的敏捷视图。\
       您无法自定义默认的Agile视图。
 
-   1. 单击 **视图** 再次显示下拉菜单，然后单击 **自定义视图**.\
+   1. 再次单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**自定义视图**。\
       ![](assets/view-agile-customize.png)
 
-1. （视情况而定）要新建Agile视图，请单击 **新建视图**.\
-   此 **自定义Agile视图** 对话框随即显示。
+1. （视情况而定）要新建Agile视图，请单击&#x200B;**新建视图**。\
+   此时将显示&#x200B;**自定义Agile视图**&#x200B;对话框。
 
-1. 在 **自定义Agile视图** 对话框中，指定Agile视图的名称。\
+1. 在&#x200B;**自定义Agile视图**&#x200B;对话框中，指定Agile视图的名称。\
    我们建议您在视图名称中包含“Agile”一词，以便用户知道这是一个Agile视图。\
-   此名称显示在 **视图** 选择视图时显示的下拉菜单。
+   选择视图时，此名称显示在&#x200B;**视图**&#x200B;下拉菜单中。
 
-1. 定义要在敏捷视图的故事板上显示的状态列。 这些是由Workfront管理员定义的任务状态，如中所述 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. 定义要在敏捷视图的故事板上显示的状态列。 这些是Workfront管理员定义的任务状态，如[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中所述。
 
    只有系统状态可用于Agile故事板。 如果状态仅适用于您所属的单个组，则状态在敏捷故事板上不可用。 此外，在Agile视图中查看项目时，状态为仅对自定义组可用的任务不可见。
 
@@ -191,11 +191,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>删除状态列：</strong> </td> 
-      <td>单击要删除的列上的(x)图标。<br>除非已向视图添加自定义状态，并且该自定义状态等于“新建”，否则无法移除“新建”状态。<br>有关创建自定义状态的信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">创建或编辑状态</a>.</td> 
+      <td>单击要删除的列上的(x)图标。<br>除非已向视图添加自定义状态，并且该自定义状态等于“新建”，否则无法移除“新建”状态。<br>有关创建自定义状态的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">创建或编辑状态</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>添加状态列：</strong> </td> 
-      <td> <p>单击 <strong>加号</strong> 图标，然后选择要添加的状态。<br>将显示所有默认系统状态以及与您共享的任何自定义状态。<br>您最多可以配置10个要显示的状态。</p></td> 
+      <td> <p>单击<strong>加号</strong>图标，然后选择要添加的状态。<br>将显示所有默认系统状态以及与您共享的任何自定义状态。<br>您最多可以配置10个要显示的状态。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,7 +204,7 @@ ht-degree: 1%
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. 在 **将卡片颜色关联到** 区域，从以下选项中选择：
+1. 在&#x200B;**将卡片颜色与**&#x200B;区域关联中，从以下选项中选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -212,29 +212,29 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>故事：</strong> </td> 
-      <td>任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。<br>如果任务没有任何子任务或没有父任务，则颜色在创建时随机分配给任务。</td> 
+      <td>任何子任务均与父任务的颜色匹配，因此任何给定泳道中所有故事的颜色均相同。<br>如果任务没有任何子任务或没有父任务，则会在创建任务时随机将颜色分配给任务。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自由格式：</strong> </td> 
-      <td> 默认情况下，所有信息卡都会显示为蓝色，直到用户手动更改颜色为止，如文章中所述 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">在Scrum展示板上按颜色分类故事</a>. </td> 
+      <td> 所有信息卡默认显示为蓝色，直到用户手动更改颜色为止，如<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">在Scrum展示板上按颜色对故事进行分类</a>一文中所述。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>优先级：</strong> </td> 
       <td> <p> 颜色与文章优先级相关联，如下所示：</p> 
        <ul> 
         <li>高=红色</li> 
-        <li>中=黄色</li> 
-        <li>低=绿色<br>如果您的Workfront管理员已经为Workfront系统配置了自定义优先级，则最高优先级为红色，次高为黄色，其余为绿色。</li> 
+        <li>Medium =黄色</li> 
+        <li>低=绿色<br>如果Workfront管理员为Workfront系统配置了自定义优先级，则最高优先级为红色，次高为黄色，其余为绿色。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>任务所有者：</strong> </td> 
-      <td> 具有相同主要被分配人的所有故事都具有相同的颜色。<br>主要被分配者是首次分配至任务的用户。 </td> 
+      <td> 具有相同主要被分配人的所有故事都具有相同的颜色。<br>主要被分派人是首次被分派该任务的用户。 </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **敏捷** 部分，在 **其他字段** 区域，单击 **添加字段**，然后选择要添加到故事卡的字段。 （在创建自定义视图或创建报表列时，可以添加这些字段。）\
+1. 在&#x200B;**Agile**&#x200B;部分的&#x200B;**其他字段**&#x200B;区域，单击&#x200B;**添加字段**，然后选择要添加到故事卡的字段。 （在创建自定义视图或创建报表列时，可以添加这些字段。）\
    重复此过程以向故事卡添加最多三个其他字段。\
    将字段添加到故事卡时，字段为仅查看字段，并且仅在填充字段时才显示。
 
@@ -253,4 +253,4 @@ ht-degree: 1%
 1. 单击&#x200B;**保存**。\
    您的访问权限规定了视图的保存方式。 如果最初创建了该视图，则可以保存更改；否则，系统会提示您保存版本。 请记住，您对视图所做的更改会影响与其共享该视图的用户。
 
-1. （可选）单击 **列表** 图标，以返回任务列表。
+1. （可选）单击&#x200B;**列表**&#x200B;图标以返回任务列表。

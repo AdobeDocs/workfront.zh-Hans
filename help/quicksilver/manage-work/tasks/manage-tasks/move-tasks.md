@@ -47,11 +47,11 @@ ht-degree: 2%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对任务和项目的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务的权限</p> <p>为项目分配或更高权限，并能够添加任务</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理任务的权限</p> <p>具有Contribute或更高权限的项目，且能够添加任务</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,14 +79,14 @@ ht-degree: 2%
 ## 在列表中移动任务
 
 1. 转到包含要移动的一个或多个任务的项目。
-1. 单击 **任务** 在左侧面板中显示任务列表。
-1. 单击 **计划模式** 图标 ![](assets/plan-mode-icon.png) 并确保 **自动保存** 切换已启用，然后选择要移动的一个或多个任务。
+1. 单击左侧面板中的&#x200B;**任务**&#x200B;以显示任务列表。
+1. 单击&#x200B;**计划模式**&#x200B;图标![](assets/plan-mode-icon.png)并确保启用&#x200B;**自动保存**&#x200B;切换功能，然后选择要移动的一个或多个任务。
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >当出现以下情况时，您无法移动任务： **自动保存** 切换已禁用。
+   >禁用&#x200B;**自动保存**&#x200B;切换后，您无法移动任务。
 
 1. （可选，视情况而定）如果要在同一项目中移动选定任务，请单击选定任务，将其拖放到项目中要移动的位置。
 
@@ -94,15 +94,15 @@ ht-degree: 2%
 
 1. （视情况而定）选择要移动的一个或多个任务，然后执行以下操作之一：
 
-   * 单击 **更多** 菜单 ![](assets/qs-more-menu.png) 单击任务列表顶部的 **移动到**.
-   * 右键单击选定的任务，然后单击 **移动到**.
-   * 选择一项任务时，单击 **更多** 菜单 ![](assets/more-icon-task-list.png) 单击列表中的任务名称旁边的，然后单击 **移动到**.
+   * 单击任务列表顶部的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**移至**。
+   * 右键单击选定的任务，然后单击&#x200B;**移至**。
+   * 选择一个任务时，单击列表中任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-task-list.png)，然后单击&#x200B;**移至**。
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    此时将显示“移动任务”框
 
-1. 继续移动任务，如一节中所述 [在任务级别移动任务](#move-a-task-at-the-task-level) 在本文中，从步骤4开始。
+1. 继续移动任务，如本文中[在任务级别](#move-a-task-at-the-task-level)移动任务一节中所述，从步骤4开始。
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ ht-degree: 2%
 
 1. 通过搜索在Workfront系统中查找任务。
 1. 单击任务的名称以将其打开。
-1. 单击 **更多** 下拉菜单 ![](assets/qs-more-menu.png) 单击任务名称旁边的，然后单击 **移动到**. 此时将显示“移动任务”框。
+1. 单击任务名称旁边的&#x200B;**更多**&#x200B;下拉菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**移至**。 此时将显示“移动任务”框。
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. （可选）更新 **任务名称**. 该任务会以新名称移动到新位置。 Workfront不记录任务的原始名称。
+1. （可选）更新&#x200B;**任务名称**。 该任务会以新名称移动到新位置。 Workfront不记录任务的原始名称。
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ ht-degree: 2%
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. 键入的名称 **目标项目** 您希望任务移动到的位置 **选择目标项目** 字段。
+1. 在&#x200B;**选择目标项目**&#x200B;字段中键入要将任务移动到的&#x200B;**目标项目**&#x200B;的名称。
 
    如果要在同一项目中移动任务，请键入当前项目的名称。
 
@@ -137,20 +137,20 @@ ht-degree: 2%
    >* 您还可以开始键入参考号或输入项目的ID。 这可以帮助您区分具有相同名称的项目。
    >* 列表中仅显示100个项目。
 
-1. （视情况而定）单击 **请求访问** 以请求对项目的访问权限（如果您无权访问所选项目）。
+1. （视情况而定）如果您没有所选项目的访问权限，请单击&#x200B;**请求访问权限**&#x200B;以请求对该项目的访问权限。
 1. （视情况而定）如果您有权将任务添加到目标项目上的任务之一，请继续将任务移动到选定的目标项目，而不请求访问权限。
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止将任务添加到这些项目，则会显示类似消息。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止将任务添加到这些项目，则会显示类似消息。 有关详细信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-1. （可选）单击 **选项** 在左侧面板中
+1. （可选）单击左侧面板中的&#x200B;**选项**
 
    或
 
-   向下滚动到 **选项** 移任务框中的任意项，然后取消选择下表中列出的任何项，以将其从移动的任务中删除。 默认情况下，将选择所有选项。
+   向下滚动到“移动任务”框中的&#x200B;**选项**&#x200B;部分，然后取消选择下表中列出的任何项目，以将其从移动的任务中删除。 默认情况下，将选择所有选项。
 
    >[!IMPORTANT]
    >
@@ -179,14 +179,14 @@ ht-degree: 2%
       <li> 开始时间不晚于</li>
       </ul>
 
-   有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a> 并寻找特定的限制。</p> </td>
+   有关任务限制以及任务限制或项目日期如何受到影响的信息，请参阅<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任务限制概述</a>并查找特定限制。</p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader">任务详情</td> 
+      <td role="rowheader">分配</td> 
       <td> <p>将从任务中删除所有分配。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">批准流程</td> 
+      <td role="rowheader">审批流程</td> 
       <td>所有审批流程都将从任务中删除。</td> 
      </tr> 
      <tr> 
@@ -204,7 +204,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">文档</td> 
       <td> <p>附加到任务的文档不会转移到已移动的任务。 这包括版本、验证和链接文档。</p> <p>这不包括文档审批。 移动任务时绝不能移动文档审批。</p> 
-      <b>注意</b>
+      <b>注释</b>
 
    如果您选择不随任务移动文档，则文档将被删除并放入回收站30天。 管理员可以恢复它们，它们将在移动的任务上恢复。
 
@@ -229,11 +229,11 @@ ht-degree: 2%
 
 
 
-1. （可选）单击 **选择父级** 在左侧面板中
+1. （可选）单击左侧面板中的&#x200B;**选择父项**
 
    或
 
-   滚动到 **选择父级** 部分，然后在目标项目中选择要成为所移动任务的父级的任务。
+   滚动到&#x200B;**选择父项**&#x200B;部分，然后在目标项目中选择要成为所移动任务的父项的任务。
 
    >[!TIP]
    >
@@ -242,20 +242,20 @@ ht-degree: 2%
    通过执行以下操作之一选择父级：
 
    * 在任务列表中，选择项目计划中的父项之一。
-   * 单击搜索图标 ![“搜索”图标](assets/search-icon.png) 并按名称搜索父任务。
+   * 单击搜索图标![搜索图标](assets/search-icon.png)并按名称搜索父任务。
 
    任务将显示在列表中。
 
-   ![使用搜索功能移动任务时选择父任务 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![移动具有搜索功能的任务时选择父任务](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 找到父项后，选择该父项的单选按钮。
 
    如果不选择父任务，则任务将作为主任务而不是子任务移动，并放置在目标项目的任务列表的末尾。
 
-1. 单击 **移动任务**
+1. 单击&#x200B;**移动任务**
 
    或
 
-   单击 **移动任务** 在列表中选择多个任务时。
+   在列表中选择多个任务时，单击&#x200B;**移动任务**。
 
    所移动的任务现在位于指定项目中，并且为父任务的子任务或项目中的最后一个任务。

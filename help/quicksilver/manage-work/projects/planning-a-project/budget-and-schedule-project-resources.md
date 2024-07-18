@@ -30,4 +30,4 @@ ht-degree: 0%
    * [资源规划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Scenario Planner入门](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* 安排资源或将其分配给任务和问题。 在将资源分配给任务和问题时，您可以实际将用户、团队或角色关联到特定工作项目，使其负责完成这些项目。 有关信息，请参阅 [工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 安排资源或将其分配给任务和问题。 在将资源分配给任务和问题时，您可以实际将用户、团队或角色关联到特定工作项目，使其负责完成这些项目。 有关信息，请参阅[工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在23.2版本中对“预览”环境进行的所有其他增强。 这些增强功能将在23.2版本的生产环境中提供。
 
-有关23.2发行周期中此时可用的所有更改列表，请参阅 [23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+有关23.2发行周期此刻所有可用更改的列表，请参阅[23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 ## 刚开始使用Workfront的Creative Cloud插件
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * 现在，当任务具有前置任务时，插件会通知您
 * 韩语现在是受支持的语言
 
-## 问题Beta的新评论体验
+## Beta问题的新评论体验
 
 Adobe Workfront中的评论体验更新目前正在开发中。 此更新在某些对象的“更新”部分中包含新界面、新功能和改进的性能。
 
@@ -50,7 +50,7 @@ Adobe Workfront中的评论体验更新目前正在开发中。 此更新在某�
 
 在将来的版本中将添加更多功能，因为这些增强功能将继续添加到其他对象中。
 
-有关新的评论体验提供的内容的信息，请参阅 [新的评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+有关新评论体验提供的内容的信息，请参阅[新评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
@@ -60,8 +60,8 @@ Adobe Workfront中的评论体验更新目前正在开发中。 此更新在某�
 
 有关更多信息，请参阅以下文章：
 
-* [上传 [!DNL XD] 将画板作为文档显示到 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [上传 [!DNL XD] 艺术展示板作为验证 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [将 [!DNL XD] 艺术版作为文档上载到 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [将 [!DNL XD] 艺术展示板作为验证上载到 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## 加入AdobeUnified Experience的全新客户
 
@@ -75,7 +75,7 @@ AdobeUnified Experience包括：
 * 用于在Workfront组织和环境之间切换的“组织切换器”
 * 包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项导航
 
-有关更多信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 

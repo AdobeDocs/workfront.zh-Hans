@@ -22,7 +22,7 @@ ht-degree: 0%
 例如，您可以计算任务的计划完成日期与实际完成日期之间的工作日差异，并在列中显示结果。
 
 您可以在此计算中使用任何其它两个日期（实际起始日期、实际完成日期、预计起始日期、预计完成日期等）。\
-有关计算数据表达式的详细信息，请参阅 [计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+有关计算数据表达式的详细信息，请参阅[计算数据表达式的概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 ## 访问要求
 
@@ -45,29 +45,29 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 显示列中两个字段之间的计算结果
 
 要将此列添加到任务视图，请执行以下操作：
 
 1. 转到任务列表。
-1. 从 **视图** 下拉菜单，单击 **新建视图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
 
-1. 单击 **添加列**，则 **切换到文本模式**.
+1. 单击&#x200B;**添加列**，然后单击&#x200B;**切换到文本模式**。
 
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
-1. 删除您在中找到的文本 **文本模式** 框中，然后使用以下代码替换它：
-   <pre>displayname=周间差异<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate}，{actualCompletionDate})<br>valueformat=HTML</pre>
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 删除在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
+   <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate}，{actualCompletionDate})<br>valueformat=HTML</pre>
 
-1. （可选）要聚合分组中视图中显示的值，请按照中所述的步骤操作 [分组：显示分组中多个计算值的聚合结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. 单击 **保存**，则 **保存视图**.
+1. （可选）要聚合分组中视图中显示的值，请按照[分组中描述的步骤操作：显示聚合分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)中多个计算值的结果。
+1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。

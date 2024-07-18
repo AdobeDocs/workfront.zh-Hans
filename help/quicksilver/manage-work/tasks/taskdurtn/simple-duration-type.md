@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # 持续时间类型概述：简单
 
-简单持续时间类型是一种持续时间类型，您可以在Adobe Workfront中为任务设置此类型。 有关Workfront中持续时间类型的一般信息，请参阅 [任务工期和工期类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+简单持续时间类型是一种持续时间类型，您可以在Adobe Workfront中为任务设置此类型。 有关Workfront中持续时间类型的一般信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 ## 简单持续时间类型概述
 
-您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为简单。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+您的Workfront或组管理员可以将系统或组的默认持续时间类型设置为简单。 在这种情况下，将使用此持续时间类型创建所有新任务。 有关将任务和问题首选项作为系统级或组级项目首选项的一部分进行更改的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 当任务的持续时间类型为“简单”时，会发生以下情况：
 
 * 项目经理在修改任务工期和计划小时数在任务接受者之间的分配方式时，可以修改这些小时数。
 
-  有关信息，请参阅 [使用简单持续时间类型更新任务的已计划小时数和持续时间](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  有关信息，请参阅[更新具有简单持续时间类型的任务的计划小时数和持续时间](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)。
 
   >[!IMPORTANT]
   >
@@ -36,14 +36,14 @@ ht-degree: 0%
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >您的Workfront管理员定义 `Typical hours per work day` 在实例设置的“项目首选项”区域中。
+  >您的Workfront管理员在实例设置的项目偏好设置区域中定义`Typical hours per work day`。
 
 * 分配百分比已隐藏，并且分配小时数可供编辑。
 * 所有新客户的系统级别持续时间类型均设置为“简单”。
 
 ## 将任务的持续时间类型更改为简单
 
-有关更改任务的持续时间类型的信息，请参阅 [更新任务的持续时间类型](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+有关更改任务的持续时间类型的信息，请参阅[更新任务的持续时间类型](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

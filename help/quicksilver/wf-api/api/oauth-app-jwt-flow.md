@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 创建OAuth2应用程序
 
-有关创建OAuth2应用程序的说明，请参阅 [使用服务器身份验证（JWT流）创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) 在 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+有关创建OAuth2应用程序的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用服务器身份验证（JWT流）创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ JWT必须经过签名并进行base-64编码以包含在访问请求中。 JWT库
 
 使用的算法是RS256（使用SHA-256的RSA签名）。 这是一种非对称算法，使用公钥/私钥对。 身份提供者具有用于生成签名的私钥（密钥），并且JWT的消费者获得用于验证签名的公钥。
 
-要生成公钥，请执行 **一** ，如下所示。
+若要生成公钥，请执行以下操作中的&#x200B;**一个**。
 
-* 打开MacOS/Linux终端并执行以下命令，然后上传 `certificate_pub.crt` 使用 **添加公钥** 按钮(在Workfront中设置的OAuth2应用程序)。
+* 打开MacOS/Linux终端并执行以下命令，然后使用Workfront中OAuth2应用程序设置中的&#x200B;**添加公钥**&#x200B;按钮上传`certificate_pub.crt`。
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* 使用 **生成公钥/私钥对** Workfront按钮，用于生成RSA。
+* 在Workfront中的OAuth2应用程序设置中使用&#x200B;**生成公钥/私钥对**&#x200B;按钮来生成RSA。
 
 ## 创建JSON Web令牌
 

@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 如果您使用的是生产环境，请单击 [适用于桌面校对查看器的Mac生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * 如果您使用的是“预览”环境，请单击 [桌面验证查看器的Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * 如果您正在使用生产环境，请单击桌面验证查看器的[Mac生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
+   * 如果您使用的是“预览”环境，请单击桌面验证查看器的[Mac预览下载。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
 
 1. 打开您刚刚下载的文件以开始安装。
-1. 在出现的安装框中，单击 **继续**，然后单击 **安装**.
+1. 在出现的安装框中，单击“**继续**”，然后单击“**安装**”。
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果在打开交互式验证时桌面验证查看器未启动，则可能意味着您的Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如中所述 [用于在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>如果在打开交互式验证时桌面验证查看器未启动，这可能意味着您的Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如在桌面验证查看器中打开非交互式验证的[用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer)中所述。
 
 ## 在Windows上安装桌面校对查看器
 
@@ -83,20 +83,20 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您可以通过运行命令行来安装桌面校对查看器 `Workfront Proof Setup 2.1.34.exe" /S`
+>您可以使用命令行通过运行`Workfront Proof Setup 2.1.34.exe" /S`来安装桌面验证查看器
 
 1. 执行以下操作之一以下载应用程序：
 
-   * 在生产环境中，单击 [桌面校对查看器的Windows生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * 在“预览”环境中，单击 [桌面校对查看器的Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * 在生产环境中，单击桌面校对查看器的[Windows生产下载。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
+   * 在“预览”环境中，单击桌面验证查看器的[Windows预览下载](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
 
 1. 打开您刚刚下载的文件以开始安装。
 1. 在出现的安装框中，打开刚刚下载的文件以开始安装。
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. 在出现的安全警告框中，单击 **运行**. 桌面校对查看器会自动安装和运行。
+1. 在出现的安全警告框中，单击&#x200B;**运行**。 桌面校对查看器会自动安装和运行。
 1. （视情况而定）如果使用Internet Explorer安装应用程序，请在应用程序安装后刷新浏览器中的启动页面。
 1. 从文档区域打开交互式验证。
 
-安装桌面校对查看器后，所有交互式校对都会在桌面校对查看器中打开。 如果在打开交互式验证时桌面验证查看器未启动，则可能意味着您的Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如中所述 [用于在桌面验证查看器中打开非交互式验证的用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+安装桌面校对查看器后，所有交互式校对都会在桌面校对查看器中打开。 如果在打开交互式验证时桌面验证查看器未启动，这可能意味着您的Workfront或Workfront Proof管理员需要将桌面验证查看器配置为交互式验证的默认查看器，如在桌面验证查看器中打开非交互式验证的[用户设置](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)中所述。

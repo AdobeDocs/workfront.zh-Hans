@@ -9,8 +9,8 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 ## 访问API Explorer：
 
-1. 使用Web浏览器导航到 [API资源管理器](https://developer.adobe.com/workfront/api-explorer/)\
+1. 使用Web浏览器导航到[API资源管理器](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. 在API Explorer的右上角，选择所需的Workfront **API版本**，默认情况下会自动选择最新版本
-1. 此 **筛选** 字段，可用于筛选按名称列出的对象，并将截断相应显示的对象列表：
+1. 在API Explorer的右上角，选择所需的Workfront **API版本**，默认情况下自动选择最新版本
+1. **筛选器**&#x200B;字段可用于筛选按名称列出的对象，并将截断相应显示的对象列表：
 
    ![](assets/mceclip2-350x147.png)
 
    * **字段**：指定对象中的可用字段。
-   * **引用**：指定对象的可用参考变量。 引用是变量的别名。 初始化后，引用可以与变量名称互换使用。 引用使用初始化的内存。
-   * **收藏集**：对象的可用集合。 集合是表示对象和资源之间一对多关系的变量。
-   * **Search**：对象的可用搜索资源。 搜索结果基于API请求中搜索资源指定的查询参数。
+   * **引用**：指定对象的可用引用变量。 引用是变量的别名。 初始化后，引用可以与变量名称互换使用。 引用使用初始化的内存。
+   * **集合**：对象的可用集合。 集合是表示对象和资源之间一对多关系的变量。
+   * **搜索**：对象的可用搜索资源。 搜索结果基于API请求中搜索资源指定的查询参数。
    * **操作**：对象支持的操作。 操作可以是针对某个资源或一组资源执行的简单或复杂的过程。 给定的操作也可能影响相关资源。
 
 1. 打开选项卡，然后单击对象ID以查看适用的变量。\

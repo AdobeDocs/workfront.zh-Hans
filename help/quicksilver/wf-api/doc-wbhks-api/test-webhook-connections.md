@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. 选择文档并单击“打开”链接。
 1. 验证文档是否在新选项卡中打开。
 
-**测试4：导航到内容管理系统中的文档（登录）**
+**测试4：导航到内容管理系统（登录时）中的文档**
 
 测试以下端点： /metadata （尤其是viewLink）
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 测试以下端点： /thumbnail
 
 1. 将文档链接到Workfront。
-1. 在列表中选择文档。
+1. 选择列表中的文档。
 1. 验证缩略图是否显示在右侧面板中。
 
 **测试9：获取内容字节**

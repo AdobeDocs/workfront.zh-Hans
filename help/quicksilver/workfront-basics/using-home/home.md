@@ -19,4 +19,4 @@ ht-degree: 7%
 本节包含以下子部分：
 
 * [新建主页](../../workfront-basics/using-home/new-home/new-home.md)
-* [使用 [!UICONTROL 主页] 区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [使用[!UICONTROL 主页]区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

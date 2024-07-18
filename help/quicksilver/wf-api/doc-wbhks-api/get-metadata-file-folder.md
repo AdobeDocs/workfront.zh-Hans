@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 **URL**
 
-GET/metadata？id=[文档或文件夹ID]
+/metadata？id=[文档或文件夹ID]GET
 
 ## 查询参数
 
@@ -46,7 +46,7 @@ GET/metadata？id=[文档或文件夹ID]
 
  
 
-## 个回应
+## 响应
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ GET/metadata？id=[文档或文件夹ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>标题 </td> 
    <td>字符串 </td> 
    <td>文档或文件夹的名称</td> 
   </tr> 
@@ -109,7 +109,7 @@ GET/metadata？id=[文档或文件夹ID]
 </table>
 
 **示例：** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title："My Document"，<br>kind："file"<br>id"："12345"，<br>viewLink："https://www.acme.com/viewDocument?id=12345"，<br>downloadLink："https://www.acme.com/downloadDocument?id=12345"，<br>mimetype："image/png"，<br>dateModified："20140605T17:39:45.251Z英寸，<br>大小：“32554694”<br>}</pre>
+<pre>{<br>title："My Document"，<br>kind："file"<br>id"："12345"，<br>viewLink："https://www.acme.com/viewDocument?id=12345"，<br>downloadLink："https://www.acme.com/downloadDocument?id=12345"，<br>mimeType："image/png"，<br>dateModified："20140605T17:39:45.251Z"，<br>大小："32554694"<br>}</pre>
 
 >[!NOTE]
 >

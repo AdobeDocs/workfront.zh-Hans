@@ -19,11 +19,11 @@ ht-degree: 0%
 
 前置任务是指其他任务需要完成才能执行的任务。 前置任务关系影响任务的开始和完成日期，并最终影响项目的时间表。
 
-有关前置任务的信息，请参阅 [前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+有关前置任务的信息，请参阅[前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 
 通过设置任务之间的前置任务关系，可以定义相关任务的开始或完成如何取决于其前置任务的开始或完成。 这是通过使用不同的依赖关系类型来实现的。
 
-有关依赖关系类型的信息，请参见 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+有关依赖关系类型的信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
 ## 已强制实施的前置任务概述
 
@@ -68,31 +68,31 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 在任务级别强制前置任务
 
 1. 转至要强制其前置任务的后续任务。
-1. 单击 **前置任务** ，然后单击 **添加前置任务**. 您可能需要单击 **显示更多**，则 **前置任务**.
-1. （视情况而定）如果要添加跨项目前置任务，请在左侧导航中移除项目的名称， **父项目** 字段并将其替换为其他项目。
-1. 在中指定前置任务的名称 **任务** 字段。
-1. 指定 **依赖关系类型** 在这两项任务之间。
+1. 单击左侧面板中的&#x200B;**前置任务**，然后单击&#x200B;**添加前置任务**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
+1. （视情况而定）如果要添加跨项目前置任务，请在&#x200B;**父项目**&#x200B;字段中移除项目的名称，并将其替换为其他项目。
+1. 在&#x200B;**任务**&#x200B;字段中指定前置任务的名称。
+1. 指定这两个任务之间的&#x200B;**依赖关系类型**。
 
-   默认 **依赖关系类型** 是 **结束 — 开始**.
+   默认&#x200B;**依赖项类型**&#x200B;为&#x200B;**Finish-Start**。
 
-1. 选择 **强制** 用于强制实施前置任务的字段。
+1. 选择&#x200B;**强制**&#x200B;字段以强制前置任务。
 1. 单击&#x200B;**保存**。
 
 ## 在任务列表中强制前置任务
 
 1. 转到项目上的任务列表。
-1. 从 **视图** 下拉菜单，选择 **标准视图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中选择&#x200B;**标准视图**。
 
 1. 在脑海中记下要指定为前置任务的任务数。
 1. 查找要执行其前置任务的后续任务。
-1. 在 **前置任务** 列，开始输入前置任务的编号，然后输入“e”。 例如，键入“1e”将任务编号1作为前置任务添加到所选任务。
+1. 在&#x200B;**前置任务**&#x200B;列中，开始输入前置任务的编号，然后输入“e”。 例如，键入“1e”将任务编号1作为前置任务添加到所选任务。
 1. 单击Enter保存任务的前置任务信息。
 
    ![前置任务_强制_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

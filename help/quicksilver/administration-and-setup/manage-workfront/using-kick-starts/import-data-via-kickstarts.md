@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个可用于执行此操作的快速启动模板，如中所述 [Kick-Starts数据导入程序](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个快速启动模板，您可以使用它来执行此操作，如[快速启动数据导入器](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)中所述。
 
 此过程分为3个主要任务：
 
@@ -58,7 +58,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,11 +81,11 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. 单击 **系统** > **导入数据(Kick-Start)**.
+1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
 
 1. 选择要包括的信息类型。
 
-   您选择的每个选项都表示导出电子表格中多个选项卡的集合。 例如，如果您选择 **报表** 选项，用于创建报告的所有必要对象都将包含在电子表格中（视图、筛选器、分组、报告）。
+   您选择的每个选项都表示导出电子表格中多个选项卡的集合。 例如，如果选择&#x200B;**报表**&#x200B;选项，则创建报表所需的所有对象都将包含在电子表格中（视图、筛选器、分组、报表）。
 
    您可以使用下面列出的所有对象类型将数据导入Workfront。 (唯一的例外是访问级别选项。 导出中的“访问级别”数据表仅供参考 — 允许您按ID为新用户帐户分配访问级别。)
 
@@ -99,7 +99,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
      <tr> 
       <th> <p><strong>对象</strong> </p> </th> 
       <th> <p><strong>导出为</strong> </p> </th> 
-      <th> <p><strong>导出电子表格中的工作表</strong> </p> </th> 
+      <th> <p>导出电子表格中的<strong>工作表</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -140,7 +140,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
      </tr> 
      <tr> 
       <td> <p>用户</p> </td> 
-      <td> <p>导出为Excel文件。 要查看完整的选项列表，请单击 <strong>更多选项</strong>.</p> </td> 
+      <td> <p>导出为Excel文件。 要查看完整的选项列表，请单击<strong>更多选项</strong>。</p> </td> 
       <td> <p>用户</p> <p>首选项</p> </td> 
      </tr> 
      <tr> 
@@ -278,14 +278,14 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
     </tbody> 
    </table>
 
-1. 单击 **下载**.
-1. 继续 [使用您的数据填充电子表格模板](#populate-the-spreadsheet-template-with-your-data) 以使用您的信息填充空白模板电子表格。
+1. 单击&#x200B;**下载**。
+1. 继续[用您的数据填充电子表格模板](#populate-the-spreadsheet-template-with-your-data)，用您的信息填充空白模板电子表格。
 
 ## 使用您的数据填充电子表格模板 {#populate-the-spreadsheet-template-with-your-data}
 
 * [电子表格中包含的选项卡（数据表）概述](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [导入记录](#import-a-record)
-* [包括日期](#include-dates)
+* [包含日期](#include-dates)
 * [使用通配符](#use-wildcards)
 * [ID的属性名称替换](#attribute-name-substitution-for-ids)
 
@@ -293,7 +293,7 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
 >[!TIP]
 >
->要更好地了解在填充Kick-Start模板时如何需要格式化每列中的信息，请考虑执行一个练习，即在您尝试导入的对象上使用现有Workfront数据导出Kick-Start。 有关说明，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>要更好地了解在填充Kick-Start模板时如何需要格式化每列中的信息，请考虑执行一个练习，即在您尝试导入的对象上使用现有Workfront数据导出Kick-Start。 有关说明，请参阅[通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
 打开空白的快速启动模板时，许多选项卡（数据表）可用。 它们取决于您选择下载的对象。 每一个都表示应用程序中的一个对象，如项目、任务、小时、功能板和用户：
 
@@ -309,28 +309,28 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 >
 >     但是，如果必填字段包含系统首选项中设置的默认值，则无需填充该字段。
 >
->     例如，在 **项目项目** 选项卡， **setCondition** 和 **setConditionType** 字段可留空，但 **setGroupID** 和 **setName** 列不能。
+>     例如，在&#x200B;**PROJ项目**&#x200B;选项卡上，**setCondition**&#x200B;和&#x200B;**setConditionType**&#x200B;字段可以留空，但&#x200B;**setGroupID**&#x200B;和&#x200B;**setName**&#x200B;列不能留空。
 >
->* 某些字段，包括 **setResourceRe收入** 和 **setEnteredByID**，由系统自动生成。 如果在电子表格中输入这些字段的数据，则在上传电子表格时，快速启动过程将覆盖该数据。
+>* 系统会自动生成某些字段，包括&#x200B;**setResourceRevenue**&#x200B;和&#x200B;**setEnteredByID**。 如果在电子表格中输入这些字段的数据，则在上传电子表格时，快速启动过程将覆盖该数据。
 
 ### 导入记录  {#import-a-record}
 
 工作表的每一行对应于一个唯一对象。
 
-1. 在中添加信息 **isNew** 列：
+1. 在&#x200B;**isNew**&#x200B;列中添加信息：
 
-   * 如果要导入的对象是新对象，请键入 **TRUE** 以导入行中的数据。 此值区分大小写，且必须始终为全大写字母
-   * 如果对象已在Workfront中，请键入 **FALSE** 在 **isNew** 列以忽略行。 此值区分大小写，且必须始终为全大写字母
+   * 如果要导入的对象是新对象，请键入&#x200B;**TRUE**&#x200B;以导入行中的数据。 此值区分大小写，且必须始终为全大写字母
+   * 如果该对象已在Workfront中，请在&#x200B;**isNew**&#x200B;列中键入&#x200B;**FALSE**&#x200B;以忽略该行。 此值区分大小写，且必须始终为全大写字母
 
       * Workfront中已存在的记录不会更新。
-      * 如果您从Workfront下载了包含数据的模板，则现有对象已添加以下标记 **FALSE**.
+      * 如果您从Workfront下载了包含数据的模板，则现有对象已标记为&#x200B;**FALSE**。
       * 如果下载了空白模板，则不需要为现有对象添加新行。
 
-1. 在中添加信息 **ID** 列中，使用以下方式之一：
+1. 通过以下方式之一在&#x200B;**ID**&#x200B;列中添加信息：
 
-   * 如果您要导入的对象是新的(并且您键入了 **TRUE** 在 **isNew** 列)，为ID键入任意数字。 此数字在电子表格中必须是唯一的。 例如，如果导入三个对象，则可分别为其指定ID 1、2、3。
+   * 如果要导入的对象是新的（并且您在&#x200B;**isNew**&#x200B;列中键入了&#x200B;**TRUE**），请为ID键入任意数字。 此数字在电子表格中必须是唯一的。 例如，如果导入三个对象，则可分别为其指定ID 1、2、3。
 
-   * 如果对象已存在于Workfront中(并且 **FALSE** 位于 **isNew** 列)，并且要导入有关现有对象的新信息，则ID必须是该对象在Workfront中存在的字母数字GUID。
+   * 如果该对象在Workfront中已存在（且&#x200B;**FALSE**&#x200B;位于&#x200B;**isNew**&#x200B;列中），并且您正在导入有关现有对象的新信息，则ID必须是该对象在Workfront中存在的字母数字GUID。
 
    >[!TIP]
    >
@@ -338,29 +338,29 @@ Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Wo
 
    * Workfront中已存在的记录不会更新。
    * 如果您下载了包含数据的模板，则现有对象已包含GUID作为ID。
-   * 通过更改，您可以基于现有对象导入新对象 **FALSE** 到 **TRUE** 在 **isNew** 列，更改ID，并在导入之前进行必要的数据调整。
+   * 您可以基于现有对象导入新对象，方法是：在&#x200B;**isNew**&#x200B;列中将&#x200B;**FALSE**&#x200B;更改为&#x200B;**TRUE**，更改ID，并在导入之前进行必要的数据调整。
 
-   ![组的示例ID](assets/kick-start-group-example.png)
+   ![组ID示例](assets/kick-start-group-example.png)
 
    * 导入项目时，必须指明组ID。
 
-      * 如果该组已存在于Workfront中，则必须将其唯一ID添加到 **setGroupID** 字段输入正确的项目名称。
-      * 如果该组在Workfront中不存在，则可以添加 **组组** 工作表到导入文件，设置 **isNew** 字段至 **TRUE** 在组工作表上，并在组中指示新组的数字ID **ID** 列。 此 **setGroupID** 新项目的字段必须与数字匹配 **ID** 给新组的。
+      * 如果该组已存在于Workfront中，则必须将其唯一ID添加到项目的&#x200B;**setGroupID**&#x200B;字段中。
+      * 如果Workfront中不存在该组，您可以将&#x200B;**GROUP**&#x200B;工作表添加到导入文件，将“组”工作表中的&#x200B;**isNew**&#x200B;字段设置为&#x200B;**TRUE**，并在&#x200B;**ID**&#x200B;列中指明新组的数字ID。 新项目的&#x200B;**setGroupID**&#x200B;字段必须与新组的数字&#x200B;**ID**&#x200B;匹配。
 
-     **示例：** 对于项目，值显示在 **setGroupID** 列必须为以下项之一：
+     **示例：**&#x200B;对于项目，**setGroupID**&#x200B;列中显示的值必须是以下值之一：
 
       * Workfront实例中现有组的GUID
-      * 上的ID列中的值（数字） **组组** 表（如果在导入过程中创建新组）
+      * 导入期间创建新组时&#x200B;**组**&#x200B;工作表上ID列中的值（数字）
 
 1. 输入导入期间要填充的必填字段和任何其他字段的值。
 1. （可选）要添加自定义数据，请执行以下操作：
 
    * 为要包含在导入流程中的每个自定义字段创建新列。
-   * 按如下方式命名其相应自定义字段的每个新列： **DE：[显示在Workfront中的自定义字段的名称]**. 例如，您可以创建以下自定义字段：“DE： Departments”。
-   * 在列中 **setCategoryId**，键入此自定义字段所在的现有自定义表单的GUID。 导入自定义数据时需要此字段。
+   * 按如下方式命名其相应自定义字段的每个新列： **DE：[自定义字段在Workfront中显示的名称]**。 例如，您可以创建以下自定义字段：“DE： Departments”。
+   * 在列&#x200B;**setCategoryID**&#x200B;中，键入此自定义字段所在的现有自定义表单的GUID。 导入自定义数据时需要此字段。
    * 如果您需要在自定义字段中添加多个数据值（如单选按钮、复选框或列表），请使用首选项选项卡中列出的垂直条自定义数据分隔符“|”来分隔这些值。
 
-     **示例：** 在DE：Departments列下键入A|D以填充自定义表单中的部门A和部门D。
+     **示例：**&#x200B;在DE：Departments列下键入A|D以填充自定义表单中的部门A和部门D。
 
 ### 包括日期  {#include-dates}
 
@@ -403,36 +403,36 @@ Workfront还接受时间值作为日期的一部分。
  <tbody> 
   <tr> 
    <td> <p>$$今天</p> </td> 
-   <td> <p>当用于时 <strong>setDate</strong> 字段中，此通配符将日期设置为导入Kick-Start当天的午夜。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入当周的星期一开始，而不考虑实际执行导入的日期，则可以使用 <strong>$$TODAYbw</strong>. 这会将您项目的计划开始日期设置为星期日凌晨12:00。 由于当时项目时间表可能不允许工作，因此将于星期一上午9点开始。</p> </td> 
+   <td> <p>在<strong>setDate</strong>字段上使用时，此通配符将日期设置为导入Kick-Start当天的午夜。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入当周的星期一开始，而不考虑实际执行导入的日期，则可以使用<strong>$$TODAYbw</strong>。 这会将您项目的计划开始日期设置为星期日凌晨12:00。 由于当时项目时间表可能不允许工作，因此将于星期一上午9点开始。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>当用于时 <strong>setDate</strong> 字段，该通配符根据您在Kick-Start导入期间创建记录的时刻设置日期。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入后3小时开始，您可以使用 <strong>$$NOW+3h</strong>.</p> </td> 
+   <td> <p>在<strong>setDate</strong>字段上使用时，此通配符根据您在Kick-Start导入期间创建记录的时间设置日期。</p> <p>您可以使用过滤器上允许通配符使用的标准语法来修改通配符。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果希望项目在导入后3小时开始，则可以使用<strong>$$NOW+3h</strong>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>当用于时 <strong>setAssignedToID</strong> 或其他基于用户ID的字段，此通配符将分配工作或以其他方式将记录与执行导入的个人相关联。</p> </td> 
+   <td> <p>在<strong>setAssignedToID</strong>或其他基于用户ID的字段上使用时，此通配符将分配工作或以其他方式将记录与执行导入的个人相关联。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>此通配符是专门为快速启动用户导入添加的。 创建Workfront帐户后，将创建具有系统管理员访问权限级别的用户。 在帐户中创建其他用户时，分配给默认管理员的用户名可用作前缀。</p> <p>由于用户名在所有客户中必须是唯一的，因此，如果您有多个人的用户名非常常见，例如John Smith，他的用户名可能是“jsmith”，那么这个选项会很有用。 通过在默认管理员用户名前面添加用户名分配，可以保证每个用户名都是唯一的(例如： <strong>$$CUSTOMER.jsmith</strong>)。</p> <p>提示：要确保用户名在系统范围内是唯一的，一种更轻松的方式是在 <strong>设置用户名</strong> 字段。</p> </td> 
+   <td> <p>此通配符是专门为快速启动用户导入添加的。 创建Workfront帐户后，将创建具有系统管理员访问权限级别的用户。 在帐户中创建其他用户时，分配给默认管理员的用户名可用作前缀。</p> <p>由于用户名在所有客户中必须是唯一的，因此，如果您有多个人的用户名非常常见，例如John Smith，他的用户名可能是“jsmith”，那么这个选项会很有用。 通过在默认管理员用户名前面加上用户名分配，您可以保证每个用户名都是唯一的（例如：<strong>$$CUSTOMER.jsmith</strong>）。</p> <p>提示：要确保用户名在系统范围内是唯一的，一种更轻松的方式是在<strong>setUsername</strong>字段中输入个人的电子邮件地址。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### ID的属性名称替换  {#attribute-name-substitution-for-ids}
 
-尽管最佳做法是尽可能使用ID，但有时在设置 **setattributeid** 值。 只需更改列标题即可按名称引用值。
+尽管最佳做法是尽可能使用ID，但在设置&#x200B;**setAttributeID**&#x200B;值时，有时不便于将ID从一个工作表交叉引用到另一个工作表。 只需更改列标题即可按名称引用值。
 
 **示例：**
 
 * **项目导入**
 
-  在导入项目时，设置 **setGroupID** ，方法是转到 **组组** 工作表中，记下各自的组ID，并将它们粘贴到正确的单元格中(**setGroupID** 列) **项目项目** 工作表。
+  导入项目时，请转到&#x200B;**组组**&#x200B;工作表设置项目的&#x200B;**setGroupID**，记下各自的组ID，并将其粘贴到&#x200B;**项目项目**&#x200B;工作表的正确单元格（**setGroupID**&#x200B;列）中。
 
   当仅处理几个组和项目时，这是可行的，但如果您处理的是每个组和项目的多个组，则它是不实用的。
 
-  要执行上述示例的属性名称替换，请更改 **setGroupID** 列标题至 **#setGroupID组名称**. 然后，您可以按名称引用每个项目的组。
+  若要对上述示例进行属性名称替换，请将&#x200B;**setGroupID**&#x200B;列标题更改为&#x200B;**#setGroupID组名称**。 然后，您可以按名称引用每个项目的组。
 
   >[!NOTE]
   >
@@ -440,7 +440,7 @@ Workfront还接受时间值作为日期的一部分。
 
 * **用户导入**
 
-  导入用户时，填写 **setRoleID** 从 **角色角色** 选项卡。
+  导入用户时，从&#x200B;**ROLE Role**&#x200B;选项卡上的角色列表中填写&#x200B;**setRoleID**。
 
   一些角色ID用于帐户中已存在的记录，而其他角色ID则在导入期间创建。
 
@@ -448,9 +448,9 @@ Workfront还接受时间值作为日期的一部分。
 
   以下是在同一导入文件上使用这两种方法的方法：
 
-   * 在电子表格左侧添加一列 **setRoleID** 列。
-   * 命名新列 **#setRoleID角色名称**.
-   * 要向现有记录分配角色，请在以下位置输入角色名称： **#setRoleID角色名称** 列。
+   * 在电子表格中向&#x200B;**setRoleID**&#x200B;列的左侧添加一列。
+   * 为新列&#x200B;**命名#setRoleID角色名称**。
+   * 若要将角色分配给现有记录，请在&#x200B;**#setRoleID ROLE name**&#x200B;列中输入角色名称。
 
      对于新角色记录的角色分配，请在setRoleID中输入您在“角色角色”工作表中分配的ID。
 
@@ -482,11 +482,11 @@ Kick-Start导入支持以下文件类型：
 
 {{step-1-to-setup}}
 
-1. 单击 **系统** > **导入数据(Kick-Start)**.
+1. 单击&#x200B;**系统** > **导入数据(Kick-Start)**。
 
-1. 在 **使用快速启动电子表格上传数据** 部分，单击 **选择文件**，然后浏览并选择填充的电子表格。
+1. 在&#x200B;**使用快速启动电子表格上载数据**&#x200B;部分中，单击&#x200B;**选择文件**，然后浏览并选择填充的电子表格。
 
-1. 单击 **上传。**
+1. 单击&#x200B;**上传。**
 
    如果Excel文件上传到Workfront需要5分钟以上的时间，则应用程序会超时，并且Workfront无法上传该文件。
 

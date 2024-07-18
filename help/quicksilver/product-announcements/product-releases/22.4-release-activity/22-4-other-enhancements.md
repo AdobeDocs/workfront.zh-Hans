@@ -17,17 +17,17 @@ ht-degree: 0%
 
 本页介绍了在22.4版本中对“预览”环境进行的所有其他增强。 这些增强功能将在2022年10月3日这一周提供。
 
-有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 用于InDesign的Adobe Workfront
 
 此插件现在可以在InDesign中安装。 它允许您访问工作项详细信息，与更新区域中的同事协作，以及提交校样以供全部查看，而无需离开XD。 立即转到Adobe Creative Cloud Marketplace以下载插件。
 
-有关插件的更多信息，请参阅 [[!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+有关该插件的详细信息，请参阅 [!DNL Creative Cloud] 应用程序](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[[!DNL Adobe Workfront] 插件。
 
-[立即下载可在市场中InDesign的Adobe Workfront](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[立即下载Adobe Workfront以便在商城中进行InDesign](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 
-管理员还可以 [使用插件创建包](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 从Admin Console并以托管或自我管理方式部署到用户。
+管理员还可以从Admin Console中[使用插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)创建包，并以托管或自管理方式部署到用户。
 
 ## 将对象元数据与本机Experience Manager Assets集成同步
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 以前，只有项目字段会自动更新。
 
-有关更多信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 ## 项目和项目组合父对象的元数据推送
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 以前，只发送父项目数据。
 
-有关更多信息，请参阅 [将文档发送到Experience Manager Assets或Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+有关详细信息，请参阅[向Experience Manager Assets或Assets Essentials发送文档](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)。
 
 ## 扩展的团队描述
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 对描述的这种增强适用于敏捷和非敏捷团队。
 
-有关更多信息，请参阅 [创建团队](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+有关详细信息，请参阅[创建团队](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-## Workfront Campaigns （测试版） — 一种管理您的工作的新方法
+## Workfront Campaigns (Beta) — 一种管理您的工作的新方法
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * 名为Campaign的新Workfront对象
 
-* 主菜单中的新营销活动（测试版）区域
+* 主菜单中的新营销活动(Beta)区域
 
 * 营销活动区域中的营销活动列表
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 
 * 能够从布局模板重命名Campaign对象
 
-  Workfront系统和组管理员可以在布局模板的主菜单中添加Campaigns（测试版）区域。 这使得分配给模板的所有用户都可使用该模板。 在活动可用后，Workfront中的每个人都可以创建该活动。
+  Workfront系统和组管理员可以在布局模板的主菜单中添加营销活动(Beta)区域。 这使得分配给模板的所有用户都可使用该模板。 在活动可用后，Workfront中的每个人都可以创建该活动。
 
 

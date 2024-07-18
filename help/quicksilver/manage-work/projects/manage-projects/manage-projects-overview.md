@@ -11,7 +11,7 @@ exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 * [选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)
 * [项目需要批准时间](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
 * [在项目概述区域管理信息](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-* [项目完成情况和完成情况类型概览](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
+* [项目完成情况和完成情况类型概述](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)
 * [设置项目的完成情况类型](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)
 * [从项目中删除用户](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
-* [为项目计划资源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
-* [与项目团队成员沟通](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
+* [为项目安排资源](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
+* [与项目团队成员通信](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [在Agile视图中管理项目](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [项目限制概述](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [项目指标概述](../../../manage-work/projects/manage-projects/project-metrics.md)

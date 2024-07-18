@@ -37,11 +37,11 @@ ht-degree: 0%
 
 * 创建Workfront请求队列以管理组织内的特定请求。
 
-  有关请求队列的详细信息，请参见 [创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  有关请求队列的详细信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 * 创建一个报告以显示任何未在5天内关闭的未决问题。
 
-  有关创建报告的详细信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  有关创建报告的详细信息，请参阅[创建自定义报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 改善项目花费时间并改善来年的预算支出
 
@@ -49,22 +49,22 @@ ht-degree: 0%
 
 * 为您的组织开发标准项目方法。 这包括确定负责创建和管理项目的用户，以及授予任何批准。
 
-  有关创建项目的更多信息，请参阅 [创建项目](../../manage-work/projects/create-projects/create-project.md).
+  有关创建项目的详细信息，请参阅[创建项目](../../manage-work/projects/create-projects/create-project.md)。
 
-  有关创建审批流程的详细信息，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  有关创建审批流程的详细信息，请参阅[为工作项创建审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 * 确定是否应在项目组合和项目中组织项目，以实现更深入的预算和资源管理。
 
-  有关创建项目组合的详细信息，请参阅 [创建项目组合](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  有关创建项目组合的详细信息，请参阅[创建项目组合](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
 * 包括一种最佳实践方法，以在所有项目中交付质量。
 * 确定可用于创建模板的任何可重复项目。
 
-  有关创建模板的详细信息，请参阅 [创建项目模板](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  有关创建模板的详细信息，请参阅[创建项目模板](../../manage-work/projects/create-and-manage-templates/create-template.md)。
 
 * 创建一个显示今年项目组合进度的功能板。
 
-  有关创建功能板的详细信息，请参阅 [创建功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  有关创建仪表板的详细信息，请参阅[创建仪表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 通过更好地管理内部流程提高服务质量
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * 开发服务交付流程，并使用Workfront管理与任何日常或每周职责相关的任务。
 * 使用资源管理工具查看分配给任务的资源，以便更好地了解如何提高生产率和交付质量。\
-  有关资源计划的详细信息，请参阅 [资源规划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  有关资源计划的详细信息，请参阅[资源计划：文章索引](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 定义成功标准
 

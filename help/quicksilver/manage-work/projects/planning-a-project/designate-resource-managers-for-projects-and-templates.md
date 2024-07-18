@@ -92,7 +92,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对项目和模板的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -100,7 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 <p><b>注释</b>
 
-作为资源管理器添加到项目或模板的用户会立即获得对项目或模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td>
+作为资源管理器添加到项目或模板的用户会立即获得对项目或模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 * 在项目或模板中指定为资源管理员的用户不会自动成为项目团队的一部分。
 
-  有关项目团队的信息，请参阅 [管理项目团队](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  有关项目团队的信息，请参阅[管理项目团队](../../../manage-work/projects/planning-a-project/manage-project-team.md)。
 
 * 可以为项目或项目模板指定资源管理器。 在项目模板上指定资源管理器时，在该模板上指定为资源管理器的任何用户都会自动成为使用该模板创建的任何项目的资源管理器。
 * 您可以在以下区域查看Resource Manager字段：
 
    * 在编辑项目时，如本文所述。
    * 在编辑模板时，如本文所述。
-   * 构建项目或模板报表时。 有关生成报表的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * 创建或自定义列表的项目或模板视图时。 有关更多信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * 构建项目或模板报表时。 有关生成报表的信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+   * 创建或自定义列表的项目或模板视图时。 有关详细信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 * 通过将资源管理器字段添加到列表或项目的视图中，并使用内联编辑编辑编辑此字段，可以快速在多个项目或模板中添加或删除资源管理器。
 
@@ -148,42 +148,42 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 1. 执行以下任一操作：
 
-   * 要将资源管理器添加到单个项目，请转到要指定一个或多个资源管理器的项目，然后单击 **更多菜单** 在项目名称旁边，然后 **编辑。**
+   * 要将资源管理器添加到单个项目，请转到要指定一个或多个资源管理器的项目，然后单击项目名称旁边的&#x200B;**更多菜单**，然后&#x200B;**编辑。**
 
-   * 要将资源管理器同时添加到多个项目，请导航到项目列表，选择要指定一个或多个资源管理器的项目，然后单击 **编辑**.
+   * 要同时将资源管理器添加到多个项目，请导航到项目列表，选择要指定一个或多个资源管理器的项目，然后单击&#x200B;**编辑**。
 
      不会从正在编辑的项目中删除现有资源管理器；通过这种方式添加的任何用户都将添加为项目上的资源管理器，以及任何现有资源管理器。
 
    * 要向新项目添加资源管理器，请开始创建新项目。
 
-     有关创建项目的信息，请参见 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
+     有关创建项目的信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
-1. 在 **概述** 编辑项目对话框的部分中，单击 **资源管理器** 字段。
+1. 在“编辑项目”对话框的&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为项目资源管理器添加的用户名称，然后在列表中出现该名称时单击该名称。
 
    重复此步骤为该项目添加多个资源管理器。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
 ## 为模板指定资源管理器
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **模板**.
+1. 单击&#x200B;**模板**。
 
 1. 执行以下任一操作：
 
-   * 要将资源管理器添加到单个模板，请转到要指定一个或多个资源管理器的模板，然后单击 **更多菜单** 在模板名称旁边，然后 **编辑。**
+   * 要将资源管理器添加到单个模板，请转到要指定一个或多个资源管理器的模板，然后单击模板名称旁边的&#x200B;**更多菜单**，然后&#x200B;**编辑。**
 
-   * 要同时向多个模板添加资源管理器，请转到模板列表并选择要指定一个或多个资源管理器的模板，然后单击 **编辑**.
+   * 要同时向多个模板添加资源管理器，请转到模板列表并选择要指定一个或多个资源管理器的模板，然后单击&#x200B;**编辑**。
 
      不会从正在编辑的模板中删除现有资源管理器；通过这种方式添加的任何用户都将作为现有资源管理器之外的模板上的资源管理器。
 
-   * 要将资源管理器添加到新模板，请单击 **新建模板**，然后单击 **更多菜单** 在模板名称旁边，然后 **编辑。**
+   * 要将资源管理器添加到新模板，请单击“新建模板”****，再单击模板名称旁边的&#x200B;**“更多”菜单**，然后单击&#x200B;**“编辑”**。
 
-1. 在 **概述** 部分，单击 **资源管理器** 字段。
+1. 在&#x200B;**概述**&#x200B;部分中，单击&#x200B;**资源管理器**&#x200B;字段。
 1. 开始键入要作为模板的资源管理器添加的用户名，然后在名称出现在列表中时单击该名称。
 
    重复此步骤，向模板中添加多个资源管理器。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。

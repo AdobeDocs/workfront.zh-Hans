@@ -31,18 +31,18 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">旧版许可证概述</a>*</td> 
-   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 检查文档存储
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
-1. 在左侧面板中，单击 **系统** > **客户信息**.
-1. 在 **基本信息** 部分，查找 **存储配额**. 在这里，您可以查看您当前使用的存储空间量以及Workfront计划中包含的存储空间总量。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+1. 在左侧面板中，单击&#x200B;**系统** > **客户信息**。
+1. 在&#x200B;**基本信息**&#x200B;部分中，找到&#x200B;**存储配额**。 在这里，您可以查看您当前使用的存储空间量以及Workfront计划中包含的存储空间总量。
 
 存储配额每天刷新一次，以显示最新计数。
 

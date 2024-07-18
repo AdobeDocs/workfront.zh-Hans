@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了23.1版本对“预览”环境所做的所有Agile增强。 这些增强功能将在2023年1月16日这一周的“生产”环境中提供。
 
-有关23.1版本可用的所有更改列表，请参阅 [23.1发行版概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+有关23.1版本的所有可用更改列表，请参阅[23.1版本概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## Workfront展示板的Scrum规划
 
@@ -41,7 +41,7 @@ Workfront展示板中已连接信息卡的到期日期现在映射到关联Workf
 
 现在，所连接信息卡和临时信息卡上的到期日期也包含时间字段。
 
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
@@ -55,7 +55,7 @@ Workfront展示板中已连接信息卡的到期日期现在映射到关联Workf
 
 以前，清单项目和子任务未关联。 如果您想在展示板上包括子任务，则可以将其导入为单独的已连接信息卡，或手动将清单项目添加到信息卡。
 
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [管理信息卡上的清单项目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+有关详细信息，请参阅[在展示板上使用连接的展示卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)和[管理展示卡上的清单项目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
@@ -67,7 +67,7 @@ Workfront展示板中已连接信息卡的到期日期现在映射到关联Workf
 
 新的配置设置可用于为展示板上的所有列打开卡片计数器。 如果对列使用WIP限制，则不会添加单独的卡计数器。
 
-有关更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+有关详细信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
 ## 在展示板仪表板中搜索和排序
 
@@ -77,7 +77,7 @@ Workfront展示板中已连接信息卡的到期日期现在映射到关联Workf
 
 您现在可以按展示板名称或日期对展示板仪表板进行排序，并在列表中搜索特定展示板。
 
-有关更多信息，请参阅 [使用展示板功能板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+有关详细信息，请参阅[使用讨论区功能板](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md)。
 
 ## 状态显示在信息卡上
 
@@ -87,9 +87,9 @@ Workfront展示板中已连接信息卡的到期日期现在映射到关联Workf
 
 如果展示板上的信息卡被分配了状态，则状态现在将显示在信息卡上，因此您不必打开信息卡即可查看状态。 此增强功能同时适用于ad hoc卡和连接的卡。
 
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) 和 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+有关详细信息，请参阅[在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)和[向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
 
-![信息卡上的状态](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+信息卡上的![状态](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## 可链接卡现在可在展示板上使用
 
@@ -109,7 +109,7 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 以前，链接适用于展示板，但不适用于特定信息卡。
 
-有关信息卡，请参阅 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 和 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+有关信息卡的信息，请参阅[向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)和[在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ## 按展示板上的连接过滤
 
@@ -119,7 +119,7 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 展示板上的过滤器列表现在包含按连接过滤的选项，该选项显示特定项目的所有连接信息卡。 您还可以按未连接的信息卡进行过滤。
 
-有关更多信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+有关详细信息，请参阅[在讨论区中筛选和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
@@ -133,6 +133,6 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 如果您要在卡片从展示板跌落后再次显示卡，您可以将展示板过滤器设置为显示已存档的卡。
 
-有关更多信息，请参阅 [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+有关详细信息，请参阅[配置卡片减量](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412323/){target=_blank}

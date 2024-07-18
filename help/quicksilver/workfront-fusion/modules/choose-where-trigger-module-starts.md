@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 选择触发器模块在Adobe Workfront Fusion中的启动位置
-description: 某些触发器模块允许您选择希望开始检索捆绑的第一个捆绑包。
+description: 某些触发器模块允许您选择希望开始捆绑包检索的第一个捆绑包。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 ---
 
-# 选择触发器模块的开始位置 [!DNL Adobe Workfront Fusion]
+# 选择触发器模块在[!DNL Adobe Workfront Fusion]中的开始位置
 
-某些触发器模块允许您选择希望开始检索捆绑的第一个捆绑包。
+某些触发器模块允许您选择希望开始捆绑包检索的第一个捆绑包。
 
-您还可以指定是要检索所有捆绑包，还是只检索特定日期之后的捆绑包。
+您还可以指定是在特定日期之后检索所有捆绑包，还是仅检索捆绑包。
 
-有关触发器模块的更多信息，请参阅部分 [触发器模块](../../workfront-fusion/modules/module-types.md#triggers) 在文章中 [模块类型](../../workfront-fusion/modules/module-types.md).
+有关触发器模块的详细信息，请参阅文章[模块类型](../../workfront-fusion/modules/module-types.md)中的[触发器模块](../../workfront-fusion/modules/module-types.md#triggers)部分。
 
 ## 访问要求
 
@@ -41,25 +41,25 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 选择触发器模块的启动位置
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 
    或
 
-   按照中的说明更改触发器模块的设置 [在中配置模块的设置 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   按照[在[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)中配置模块设置中的说明更改触发器模块的设置。
 
    或
 
-   右键单击中触发器模块的图标 [!UICONTROL 场景编辑器]，如中所述 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   右键单击[!UICONTROL 方案编辑器]中触发器模块的图标，如[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案中所述。
 
-1. 在 **[!UICONTROL 选择开始位置]** 框。
+1. 在出现的&#x200B;**[!UICONTROL 选择开始位置]**&#x200B;框中选择一个选项。
 
    ![](assets/choose-where-to-start-350x346.jpg)
 
@@ -82,11 +82,11 @@ ht-degree: 1%
    <table style="table-layout:auto">
         <tr>
             <td>[！UICONTROL从现在开始]（默认）</td>
-            <td>从现在开始检索添加或更新的所有包（取决于设置）</td>
+            <td>从现在起检索添加或更新的所有包（取决于设置）</td>
         </tr>
         <tr>
-            <td>[！UICONTROL自特定日期之后]</td>
-            <td>检索在指定的日期/时间之后添加或更新的所有包（取决于设置）</td>
+            <td>[！UICONTROL From after a specific date]</td>
+            <td>检索在指定日期/时间之后添加或更新的所有包（取决于设置）</td>
         </tr>
         <tr>
             <td>[！UICONTROL ID大于或等于特定值]</td>
@@ -98,6 +98,6 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>[！UICONTROL选择第一个包]</td>
-            <td>允许您选择开始检索包的第一个包</td>
+            <td>允许您选择从中开始检索包的第一个包</td>
         </tr>
    </table>

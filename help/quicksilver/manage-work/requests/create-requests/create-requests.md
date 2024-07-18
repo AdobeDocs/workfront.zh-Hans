@@ -31,7 +31,7 @@ ht-degree: 0%
 
 有关如何在Workfront中创建、提交或通过电子邮件发送请求的更多信息，请参阅以下文章：
 
-* [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
 * [允许用户通过电子邮件将问题发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)

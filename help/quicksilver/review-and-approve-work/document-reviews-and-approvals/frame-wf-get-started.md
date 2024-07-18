@@ -18,13 +18,13 @@ ht-degree: 0%
 
 新的资源审查和批准工作流程是围绕Workfront与Frame.io之间的紧密集成构建的。 此集成充分利用了每个产品所具有的功能，并将它们组合在一起，创建出一种体验，使得参与内容创建的每个人都可以使用他们选择的工具进行工作，同时还可以访问评论、文件和状态更新 — 所有这些内容都实时跨两个系统同步。
 
-有关Frame.io的详细信息，请参见 [Frame.io快速入门](https://support.frame.io/en/collections/49298-getting-started).
+有关Frame.io的详细信息，请参阅[Frame.io快速入门](https://support.frame.io/en/collections/49298-getting-started)。
 
 ## Workfront中的工作启动和规划
 
 Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然后在Workfront中指定Frame.io用户，来启用Workfront与Frame.io之间的集成。 这允许协调员使用Workfront项目以及正式的审阅和批准工作流来计划和启动工作。
 
-### 配置默认Frame.io帐户 [!BADGE 即将推出]{type=Informative}
+### 配置默认Frame.io帐户[!BADGE 即将推出]{type=Informative}
 
 Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io帐户来启动Workfront和Frame.io集成。 设置默认的Frame.io帐户后，在Workfront中创建的任何项目都将在Frame.io中创建镜像项目。
 
@@ -50,7 +50,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 * 他们可以将Frame.io中的资源发送到Workfront以进行正式审查和批准。
 * 他们可以从Workfront的单向同步文件夹中查看信息。 [!BADGE 即将推出]{type=Informative}
 
-有关更多信息，请参阅 [配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+有关详细信息，请参阅[配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)。
 
 ![](assets/Frame-enabled-user.png)
 
@@ -59,12 +59,12 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 添加默认Frame.io帐户并指定Frame.io用户后，项目协调员可以创建与Frame.io连接的Workfront项目。 在创建连接的项目时，您可以
 
-* **将Frame.io用户分配给任务**：启用Frame.io的用户在分配到Workfront任务时会收到电子邮件通知，告知有工作要完成。
+* **将Frame.io用户分配给任务**：启用Frame.io的用户在分配给Workfront任务时会收到电子邮件通知，告知有工作要完成。
 * **与Frame.io用户共享项目**：与启用了Frame.io的用户共享项目时，用户可以访问Workfront和Frame.io中的项目。
-* **与Frame.io共享创意材料**：项目协调员可以使用单向同步项目文件夹，直接将Workfront中的说明和材料发送给Frame.io中的创意用户。 [!BADGE 即将推出]{type=Informative}
+* **与Frame.io共享创意资料**：项目协调员可以使用单向同步项目文件夹，直接从Workfront将说明和资料发送给Frame.io中的创意用户。 [!BADGE 即将推出]{type=Informative}
 * **跟踪任务进度**：创意人员可以发送完成的资源并将任务标记为完成 — 所有这些操作无需离开Frame.io。
 
-有关更多信息，请参阅 [创建与Frame.io连接的项目](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
+有关详细信息，请参阅[创建与Frame.io连接的项目](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md)。
 
 
 ## Frame.io中的内容创建和协作
@@ -77,9 +77,9 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 * 进行非正式同行审查
 * 将完成的资源发送到Workfront进行正式审查和批准
 * 更改任务的状态或将其标记为完成
-* 上传新版本，然后重新提交以供审批 <!--do they have to send to frame.io again?-->
+* 上载新版本，然后重新提交它们以供审批<!--do they have to send to frame.io again?-->
 
-有关Frame.io的详细信息，请参见 [已邀请我协作处理一个项目](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+有关Frame.io的详细信息，请参阅[我受邀对项目进行协作](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project)。
 
 ## 审阅和批准资源
 
@@ -93,23 +93,23 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 项目协调员可以选择分配审阅人、批准者或两者的组合：
 
-* **审阅者** 可以添加注释和标记资源。 完成后，他们可以将其审阅标记为完成。 资产无需在审批流程中继续前进，即可将审核标记为完成。
-* **审批者** 可以添加注释和标记资源。 他们必须决定推进审批流程。
+* **审阅人**&#x200B;可以添加评论和标记资源。 完成后，他们可以将其审阅标记为完成。 资产无需在审批流程中继续前进，即可将审核标记为完成。
+* **审批者**&#x200B;可以添加评论和标记资源。 他们必须决定推进审批流程。
 
 
 #### 创建审阅和批准工作流
 
 可以将审阅人和审批人添加到一次性审批工作流或可重复使用的审批模板中：
 
-* **一次性审批**：在资产所在的项目或任务中，项目协调员可以分配审阅人和审批人，并设置完成截止日期。 截止日期前72和24小时，以及截止日期本身，通过电子邮件提醒查看者和审批者。
+* **一次性审批**：在资产所在的项目或任务中，项目协调器可以分配审阅人和审批人并设置完成截止日期。 截止日期前72和24小时，以及截止日期本身，通过电子邮件提醒查看者和审批者。
 
-  有关更多信息，请参阅* [为Frame.io资源创建审阅或批准请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
+  有关详细信息，请参阅* [为Frame.io资源创建审阅或批准请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)。
 
 * **审批模板**：在Workfront设置区域，项目协调员可以创建可恢复的审批模板。 在模板中，用户可以添加审阅人和批准者，并指定完成时间范围。 将审批模板应用于资产时，截止日期从指定的时间范围中计算。
 
   创建模板后，可将其应用于从Frame.io发送的资源，以在Workfront中开始正式的审阅和批准流程。
 
-  有关更多信息，请参阅 [创建审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+  有关详细信息，请参阅[创建审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
 ![](assets/assign-template.png)
@@ -135,13 +135,13 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 
 完成所有审阅活动后，审批者必须作出以下决策之一：
 
-* **批准**：资产无需更改，随时可用。
-* **批准，但有更改**：资源需要更改，并且可在做出更改后使用。 不需要额外审批。
-* **需要工作**：资产需要更改，但还未准备就绪，无法使用。 完成指定的更改后，必须将资源上传为新版本，并经过另一轮批准。 <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **批准**：该资产不需要更改，可以随时使用。
+* **批准，但有更改**：资产需要更改，并且更改完成后即可使用。 不需要额外审批。
+* **需要工作**：该资产需要更改，并且未准备就绪。 完成指定的更改后，必须将资源上传为新版本，并经过另一轮批准。<!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 审阅人可以在Frame.io审阅人中将其审阅标记为完成，但资产在审批过程中无需进行此标记。
 
-有关Workfront中决策的更多信息，请参阅 [文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+有关Workfront中决策的详细信息，请参阅[文档决策状态概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
 ![](assets/frame-viewer-and-decision.png)
 
@@ -155,5 +155,5 @@ Reviewer/approver needs to go through email to get to frame vier
 
 项目协调员可以使用以下小组件在Workfront主页区域监控所有正在进行的审批的进度：
 
-* **所有审批**：显示2个图表，其中包含有关平均审批时间和决策的信息以及待定和超期审批的列表视图。
+* **所有审批**：显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。
   ![](assets/all-approvals.png)

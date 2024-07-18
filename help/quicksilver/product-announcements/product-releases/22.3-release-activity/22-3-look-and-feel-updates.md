@@ -17,7 +17,7 @@ ht-degree: 14%
 
 本页介绍在22.3版本发布时间范围内对Adobe Workfront应用程序各个区域的外观所做的细微更新。 这些增强功能在发布到“预览”环境后至少2周内可在“生产”环境中使用。
 
-有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 全局外观和感觉更新
 
@@ -43,6 +43,6 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->此更改已于2022年5月23日在生产环境中更新。 请参阅 [2022年5月26日维护更新，以了解更多信息](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>此更改已于2022年5月23日在生产环境中更新。 有关详细信息，请参阅2022年5月26日的[维护更新](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)。
 
 我们在所有可用痕迹导航的区域更新了痕迹导航分隔符。 现在，痕迹导航中的对象由竖线 (|) 分隔。在此更新之前，它们由正斜杠 (/) 分隔。

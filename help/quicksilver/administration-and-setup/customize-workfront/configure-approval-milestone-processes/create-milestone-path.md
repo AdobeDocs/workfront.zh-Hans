@@ -43,7 +43,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 构建里程碑路径的第一步是确定里程碑步骤并确定里程碑。 由于您可以将里程碑路径关联到多个项目，因此里程碑步骤必须是任何项目的常规阶段或阶段。
 
-有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅 [将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+有关如何将里程碑路径与项目关联以及里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。
 
 ## 创建里程碑路径
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **进程** > **里程碑路径**.
-1. 单击 **新建里程碑路径。**
-1. 请在页面的 **基本信息** 区域：
+1. 单击&#x200B;**进程** > **里程碑路径**。
+1. 单击&#x200B;**新建里程碑路径。**
+1. 在&#x200B;**基本信息**&#x200B;区域中指定以下信息：
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tr>
    </table>
 
-1. 请在页面的 **里程碑** 区域：
+1. 在&#x200B;**里程碑**&#x200B;区域中指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
     </tbody> 
    </table>
 
-1. 单击 **添加里程碑** 并根据需要继续添加里程碑，直到路径完成。
-1. 单击 **创建里程碑路径** 以保存更改。
+1. 单击&#x200B;**添加里程碑**&#x200B;并根据需要继续添加里程碑，直到路径完成。
+1. 单击&#x200B;**创建里程碑路径**&#x200B;以保存更改。
 
    您的里程碑路径已准备好与项目关联。
 
-   有关如何将里程碑路径与项目关联以及里程碑与任务的更多信息，请参阅 [将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   有关如何将里程碑路径与项目关联以及将里程碑与任务关联的更多信息，请参阅[将里程碑与任务关联](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)。

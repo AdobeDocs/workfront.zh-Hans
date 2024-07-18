@@ -18,13 +18,13 @@ ht-degree: 0%
 
 本页介绍了2020.2版本对生产环境的所有其他增强功能。 这些增强功能在2020年5月11日这一周的生产环境中提供。
 
-有关2020.2版本可用的所有更改列表，请参阅 [2020.2版概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+有关2020.2版本可用的所有更改列表，请参阅[2020.2版本概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 对于Workfront管理员：在Workfront Classic中创建的较新布局模板现在可在新的Workfront Experience中获取
 
 现在，新的Workfront Experience中提供了2019年秋季之后在Workfront Classic中创建的布局模板。 最好在新的Workfront Experience中更新这些布局模板，以便利用新功能，并尽可能让新功能对该环境中的用户有用。
 
-有关更多信息，请参阅 [布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+有关详细信息，请参阅[布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)。
 
 **在以下环境中可用：**
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 * 为对象（项目、任务或问题）创建一次性审批流程，并将其基于与处理该对象的组相关联的状态。 这包括与该组关联的任何自定义状态。
 * 创建一个全局审批流程，使其仅适用于该组或系统中的每个人。
 
-对于对批准流程具有管理访问权限的用户，有关配置批准流程的信息，请参阅 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [创建批准流程](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410))。
+对于具有审批流程管理访问权限的用户，有关配置审批流程的信息，请参阅[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[创建审批流程](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410))。
 
-对于用户，有关将审批流程与工作项关联的信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [将新的或现有的审批流程与工作相关联](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630))。
+对于用户，有关将审批流程与工作项关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[将新的或现有的审批流程与工作关联](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630))。
 
 **在以下环境中可用：**
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 现在，当您在“搜索”菜单中单击“高级搜索”或执行基本搜索时，页面幻灯片将从屏幕右侧打开。
 
-有关更多信息，请参阅 [搜索Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+有关详细信息，请参阅[搜索Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 **在以下环境中可用：**
 
@@ -84,4 +84,4 @@ ht-degree: 0%
 * 重新构建服务，减少复杂的依赖关系，从而更有效地扩展
 * 改进了监控和警报
 
-要了解更多信息，请参阅 [常见问题解答 — 活动订阅](../../../wf-api/general/event-subs-faq.md) 和 [事件订阅最佳实践](../../../wf-api/general/event-sub-best-practice.md).
+若要了解更多信息，请参阅[常见问题解答 — 活动订阅](../../../wf-api/general/event-subs-faq.md)和[活动订阅最佳实践](../../../wf-api/general/event-sub-best-practice.md)。

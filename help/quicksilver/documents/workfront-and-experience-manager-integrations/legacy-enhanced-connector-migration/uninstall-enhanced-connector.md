@@ -8,22 +8,22 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# 卸载具有Adobe Experience Manager增强型连接器的Workfront
+# 使用Adobe Experience Manager增强型连接器卸载Workfront
 
 您必须将Workfront with Adobe Experience Manager增强型连接器卸载到连接Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新本机集成。
 
 ## 先决条件
 
-* （可选）如有必要，请还原对Workfront防火墙配置和AEM Dispatcher设置所做的任何更改。
+* （可选）如有必要，还原对Workfront防火墙配置和AEM Dispatcher设置所做的任何更改。
 
 ## 卸载增强型连接器
 
-1. 从Cloud Manager访问和克隆AEMas a Cloud Service存储库。
+1. 从Cloud Manager访问和克隆AEM as a Cloud Service存储库。
 
 1. 在您选择的IDE中打开克隆的Git存储库。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >请确保上述代码块中引用的版本（即1.8.0）反映了从代码中卸载的版本。
+   >请确保上述代码块中引用的版本（即1.8.0）反映将从代码中卸载的版本。
 
-1. 从名为的项目子模块的pom.xml文件中删除以下依赖项 **所有**.
+1. 从名为&#x200B;**all**&#x200B;的项目子模块的pom.xml文件中删除以下依赖项。
 
    ```
    <!-- Workfront Tools -->
@@ -63,7 +63,7 @@ ht-degree: 0%
    </embedded>
    ```
 
-1. 从名为all的项目子模块的pom.xml文件中删除以下嵌入内容。
+1. 从项目名为all的子模块的pom.xml文件中删除以下嵌入内容。
 
    ```
    <!-- Workfront Tools -->
@@ -86,7 +86,7 @@ ht-degree: 0%
    </repository>
    ```
 
-1. （有条件）从settings.xml（位于以下路径中）中删除服务器配置。/cloudmanager/maven/settings.xml在项目根目录中。&#39;
+1. （有条件）从settings.xml中删除服务器配置，该配置位于以下路径中。项目根目录中的/cloudmanager/maven/settings.xml。&#39;
 
    ```
            <server>
@@ -104,4 +104,4 @@ ht-degree: 0%
 
 1. 提交更改，并将代码推送到Cloud Manager存储库
 
-1. 运行Cloud Manager管道以在Cloud Services实例上部署更改
+1. 运行Cloud Manager管道以在Cloud Service实例上部署更改

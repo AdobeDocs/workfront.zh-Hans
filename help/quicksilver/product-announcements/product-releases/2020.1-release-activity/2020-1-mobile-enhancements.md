@@ -19,16 +19,16 @@ ht-degree: 0%
 
 本页介绍了2020.1版本对Mobile的所有增强功能。
 
-有关2020.1版本可用的所有更改列表，请参阅 [2020.1版概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+有关2020.1版本可用的所有更改列表，请参阅[2020.1版本概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 移动应用程序和Web之间的无缝体验
 
 在移动设备应用程序和Web上使用Workfront时，为了使体验更加一致，在新的或现有的布局模板中对左侧面板辅助导航所做的任何自定义都会自动反映在移动设备应用程序中。
 
-要了解有关自定义左侧面板的更多信息，请参阅 [使用新Workfront Experience中的布局模板自定义左侧面板](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+要了解有关自定义左侧面板的更多信息，请参阅[在新的Workfront体验中使用布局模板自定义左侧面板](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188)。
 
 ## 为移动应用程序上的更新点赞
 
 使用“更新”选项卡上新的“赞”按钮来赞更新。
 
-有关更多信息，请参阅 [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 和 [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+有关详细信息，请参阅适用于iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)和适用于Android的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。

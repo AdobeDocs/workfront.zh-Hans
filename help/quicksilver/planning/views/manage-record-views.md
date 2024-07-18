@@ -22,15 +22,15 @@ ht-degree: 1%
 
 * 表
 
-  有关更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+  有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 * 时间线
 
-  有关更多信息，请参阅 [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 * 日历
 
-  有关更多信息，请参阅 [管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+  有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 本文介绍了有关记录视图的以下信息：
 
@@ -94,13 +94,13 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 使用记录视图时的注意事项
@@ -109,7 +109,7 @@ ht-degree: 1%
 * 您创建的视图仅对您以及与您共享这些视图的用户可见。
 * 当您修改或删除视图时，将会修改该视图，并删除具有该视图权限的所有用户。
 * 每个用户最多可创建100个视图。 您可以为记录类型显示100多个视图，但一个用户只能创建100个视图。
-* 您可以与其他人共享您创建的视图。 有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+* 您可以与其他人共享您创建的视图。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 * 以下元素对于每个记录视图都是唯一的：
 
    * 筛选
@@ -168,7 +168,7 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 单击 **+视图** 以添加新视图。
+1. 单击&#x200B;**+视图**&#x200B;以添加新视图。
 1. 从以下视图类型中选择：
 
    * 表
@@ -177,7 +177,7 @@ ht-degree: 1%
 
    将使用选定的视图创建新选项卡。
 
-   根据屏幕的宽度，其他视图可能会显示在 **更多** 菜单 ![](assets/more-menu.png).
+   根据屏幕的宽度，**更多**&#x200B;菜单![](assets/more-menu.png)中可能会显示其他视图。
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. （视情况而定）单击 **下一个**，在创建时间轴或日历视图时。
+1. （视情况而定）创建时间线或日历视图时，单击&#x200B;**下一步**。
 
    默认情况下，Workfront会为视图提供以下名称之一：
 
@@ -201,23 +201,23 @@ ht-degree: 1%
 
    该数字是自动生成的增量。
 
-1. （视情况而定）选择 **开始** 和 **结束日期** 时间轴或日历视图中显示的记录。
+1. （视情况而定）为将在时间轴或日历视图中显示的记录选择&#x200B;**开始**&#x200B;和&#x200B;**结束日期**。
 
    >[!TIP]
    >
-   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。 当您选择查找字段作为时间轴和日历视图的开始和结束日期时，必须为日期字段(MAX或MIN)使用聚合器。 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。 当您选择查找字段作为时间轴和日历视图的开始和结束日期时，必须为日期字段(MAX或MIN)使用聚合器。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-1. 单击 **创建**.
+1. 单击&#x200B;**创建**。
 
    该视图将显示为新选项卡。 视图会按照其创建或与您共享时的时间顺序显示。
-1. （可选）单击 **更多** 菜单 ![](assets/more-caret-down-icon-views.png) 在最后一个视图旁边显示选定记录类型的所有视图。
+1. （可选）单击最后一个视图旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-caret-down-icon-views.png)以显示所选记录类型的所有视图。
 
-   其他视图显示在 **更多** “上一视图”选项卡后面的菜单。 旁边的数字 **更多** 菜单显示其他视图的数量。
-1. （可选）要在创建视图后重命名视图，请单击视图下拉菜单，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **重命名** 更新视图名称
+   其他视图显示在最后一个视图选项卡之后的&#x200B;**更多**&#x200B;菜单下。 **更多**&#x200B;菜单旁边的数字显示其他视图的数量。
+1. （可选）要在创建视图后重命名视图，请单击“视图”下拉菜单，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **重命名**&#x200B;以更新视图名称
 
    或
 
-   双击视图名称并开始键入新名称。  <!--ensure there is not another saving step here?!-->
+   双击视图名称并开始键入新名称。 <!--ensure there is not another saving step here?!-->
 
 1. （可选）要管理特定类型的视图，请参阅以下文章：
 
@@ -240,10 +240,10 @@ ht-degree: 1%
 
    默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在视图选项卡中的视图名称上，然后单击 **更多** ![](assets/more-menu.png) 视图名称的左侧，然后单击 **删除**.
-首先，您可能需要单击 **更多** ，以查找要删除的视图。
+1. 将鼠标悬停在视图选项卡中的某个视图名称上，单击视图名称左侧的&#x200B;**更多** ![](assets/more-menu.png)，然后单击&#x200B;**删除**。
+首先，您可能需要单击最后一个选项卡左侧的**更多**&#x200B;以查找要删除的视图。
 
-1. 单击 **删除** 以确认。 <!--ensure there is not another saving step here?!-->
+1. 单击&#x200B;**删除**&#x200B;以确认。<!--ensure there is not another saving step here?!-->
 
    所有有权访问记录区域的用户都将删除该视图，并且无法恢复它。
 
@@ -270,10 +270,10 @@ ht-degree: 1%
    此时将打开记录类型页面。
 默认情况下，所选类型的所有记录都会显示在表格视图中。
 
-1. 将鼠标悬停在要复制的视图的选项卡上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **复制**.
+1. 将鼠标悬停在要复制的视图的选项卡上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**复制**。
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`. 新的视图选项卡将显示在所有视图选项卡的末尾。
+   视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`。 新的视图选项卡将显示在所有视图选项卡的末尾。
 

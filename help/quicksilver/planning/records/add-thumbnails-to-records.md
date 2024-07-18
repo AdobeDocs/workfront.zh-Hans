@@ -21,7 +21,7 @@ ht-degree: 0%
 您可以在Adobe Workfront Planning中将记录与唯一缩略图相关联，以便轻松识别。
 
 必须先创建记录类型，然后才能开始创建和编辑记录。
-有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 访问要求
 
@@ -75,14 +75,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td>  <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td>  <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfornt文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)中的[访问要求。
 
 ## 有关记录缩略图的注意事项
 
@@ -115,8 +115,8 @@ ht-degree: 0%
 1. 单击要为其添加缩略图的记录的工作区，然后单击记录类型卡片。
 
    这将打开记录类型页面。
-1. 从中选择表格视图 **视图** 下拉菜单。 所选类型的所有记录都会显示在表格中。
-1. 将鼠标悬停在主字段信息上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **缩略图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中选择一个表视图。 所选类型的所有记录都会显示在表格中。
+1. 将鼠标悬停在主字段信息上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**缩略图**。
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ ht-degree: 0%
    >
    >   主字段是显示在表视图第一列中的字段。 主字段始终冻结，不能隐藏或重新定位。 当主字段为公式字段时，“缩略图”选项在“更多”菜单中不可用。
 
-   此 **上传** 默认情况下，选项卡在 **录制缩略图** 盒子。
+   默认情况下，**上传**&#x200B;选项卡会在&#x200B;**记录缩略图**&#x200B;框中打开。
 
-   有关上传缩略图的更多信息，请参阅部分 [从详细信息页面向记录添加缩略图](#add-a-thumbnail-to-a-record-from-the-details-page) 在本文中，从步骤6开始。 <!--see if this is accurate-->
+   有关上载缩略图的更多信息，请参阅本文中从步骤6开始的[从详细信息页面](#add-a-thumbnail-to-a-record-from-the-details-page)将缩略图添加到记录部分。<!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ ht-degree: 0%
 1. 从任何视图中，单击记录以将其打开。
 
    将显示详细信息预览框。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在右上角。
+1. （可选）单击右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)。
 
    此时将打开记录的详细信息页面。
-1. 将鼠标悬停在缩略图图像或图标上 ![](assets/record-thumbnail-icon-on-details-page.png)，然后单击 **更多** 菜单 ![](assets/more-menu.png) > **编辑缩略图**.
+1. 将鼠标悬停在缩略图图像或图标![](assets/record-thumbnail-icon-on-details-page.png)上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png) > **编辑缩略图**。
 
-   此 **上传** 默认情况下，选项卡在 **录制缩略图** 盒子。
+   默认情况下，**上传**&#x200B;选项卡会在&#x200B;**记录缩略图**&#x200B;框中打开。
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ ht-degree: 0%
 
    或
 
-   单击 **浏览图像**，然后浏览以添加图像文件。 文件必须保存在计算机上。
+   单击&#x200B;**浏览图像**，然后浏览要添加的图像文件。 文件必须保存在计算机上。
 
-1. （可选）图像上传之后，进入 **录制缩略图** 框中，使用调整大小工具裁切图像并调整其大小。
-1. （可选）单击 **上传新图像** 图标 ![](assets/upload-new-image-icon.png) 上传其他图像。
-1. （可选）单击 **图库** 选项卡，然后单击图像。 无法修改图像库。
+1. （可选）在&#x200B;**记录缩略图**&#x200B;框中上传图像后，使用大小调整工具裁切图像并调整其大小。
+1. （可选）单击&#x200B;**上传新图像**&#x200B;图标![](assets/upload-new-image-icon.png)以上传其他图像。
+1. （可选）单击&#x200B;**图库**&#x200B;选项卡，然后单击图像。 无法修改图像库。
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. （可选）要在保存缩略图之前删除缩略图，请单击 **移除** 图标 ![](assets/remove-image-icon.png) 图像右侧。
+1. （可选）要在保存缩略图之前删除缩略图，请单击图像右侧的&#x200B;**删除**&#x200B;图标![](assets/remove-image-icon.png)。
 
-1. 单击 **使用图像** 将图像添加为缩略图。
-这将关闭 **录制缩略图** 盒子。
+1. 单击&#x200B;**使用图像**将图像添加为缩略图。
+这将关闭**录制缩略图**框。
 缩略图显示在Workfront Planning中记录所在的区域中。
 
    >[!TIP]
    >
    >   必须启用表格视图中的缩略图字段才能在此视图中显示缩略图。 默认情况下处于禁用状态。
 
-1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击 **更多** 菜单 ![](assets/more-menu.png)> **移除** 图标 ![](assets/remove-image-icon.png). 缩略图图像将被删除。
+1. （可选）要在保存缩略图后将其删除，请单击任意视图中的记录以打开详细信息页面，然后将鼠标悬停在缩略图图像上，然后单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)>**删除**&#x200B;图标![](assets/remove-image-icon.png)。 缩略图图像将被删除。
 
 
 

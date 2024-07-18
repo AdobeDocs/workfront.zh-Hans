@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: 项目计划开始日期概览
-description: 项目计划开始日期概览
+title: 项目计划开始日期概述
+description: 项目计划开始日期概述
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 项目计划开始日期概览
+# 项目计划开始日期概述
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,19 +25,19 @@ ht-degree: 0%
 </div>
 -->
 
-项目的计划开始日期和计划完成日期取决于项目中任务的日期。 本文介绍了项目的计划开始日期。 有关任务计划开始日期的信息，请参阅 [任务计划开始日期概览](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+项目的计划开始日期和计划完成日期取决于项目中任务的日期。 本文介绍了项目的计划开始日期。 有关任务计划开始日期的信息，请参阅[任务计划开始日期概览](../../../manage-work/tasks/task-information/task-planned-start-date.md)。
 
-您可以人工或自动设置项目的计划起始日期，具体取决于您是从起始日期还是从完成日期计划项目。
+您可以人工或自动设置项目的计划起始日期，具体取决于您是从“起始日期”还是从“完成日期”计划项目。
 
 ## 手动设置项目的计划开始日期
 
-在从“开始日期”安排项目时，您必须手动设置项目的计划开始日期。
+在从开始日期安排项目时，您必须手动设置项目的计划开始日期。
 
 >[!NOTE]
 >
->在手动设置项目的规划开始日期时，Workfront会根据所有任务的持续时间自动计算项目的规划完成日期。
+>在手动设置项目的计划开始日期时，Workfront会根据所有任务的持续时间自动计算项目的计划完成日期。
 
-有关设置项目的计划开始日期的信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+有关设置项目的计划开始日期的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -58,25 +58,25 @@ ht-degree: 0%
 
 在按以下方式创建项目时，将自动设置项目的计划开始日期：
 
-* 从头开始，并在从完成日期开始安排项目时。
+* 从头开始，当您从完成日期开始安排项目时。
 
   计划开始日期由Adobe Workfront根据您为完成日期选择的日期和项目上所有任务的持续时间自动计算。
 
-  有关从头开始创建项目的信息，请参见 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
+  有关从头开始创建项目的信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
 * 从Microsoft项目导入它。
 
   计划开始日期是Microsoft项目中项目的开始日期。
 
-  有关从Microsoft项目导入项目的信息，请参阅 [从Microsoft项目导入项目](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  有关从Microsoft项目导入项目的信息，请参阅[从Microsoft项目导入项目](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)。
 
 * 当您是Workfront管理员时，使用Workfront Kick-Starts导入它。
 
-  规划开始日期始终与计算机的时间和日期匹配，除非您在快速启动文件的“项目”工作表的setPlannedStartDate字段中另外指定。
+  规划开始日期始终与计算机的时间和日期匹配，除非您在快速启动文件项目表的setPlannedStartDate字段中另外指定。
 
-  有关使用kick-start导入数据的信息，请参见 [使用快速启动模板将数据导入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  有关使用Kick-Start导入数据的信息，请参阅[使用Kick-Start模板将数据导入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-  有关使用kick-start导入项目的信息，请参见 [Kick-Starts方案：简单的项目和任务导入准备](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  有关使用Kick-Starts导入项目的信息，请参阅[Kick-Starts方案：简单项目和任务导入准备](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 您可以指定任务的规划开始日期，也可以将其留给Workfront根据特定条件进行计算。
 
-有关任务的计划起始日期的信息，请参阅 [任务计划开始日期概览](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+有关任务计划开始日期的信息，请参阅[任务计划开始日期概览](../../../manage-work/tasks/task-information/task-planned-start-date.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -21,12 +21,12 @@ ht-degree: 0%
 
 本页介绍了2021年5月10日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 在Workfront >自定义API调用模块中选择Workfront API版本
 
 为了提高访问Workfront API的灵活性，我们让您能够选择您希望Workfront >自定义API调用模块使用的Workfront API版本。 这允许您使用以前可用的API功能，这些功能可能仍然与贵组织的需求相关。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。

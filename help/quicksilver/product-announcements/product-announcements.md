@@ -9,7 +9,7 @@ exl-id: 47325ca8-653b-47c9-b84e-e10f1a57cf6f
 source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 3%
 
 * [产品版本](../product-announcements/product-releases/product-releases.md)
 * [公告](../product-announcements/announcements/announcements.md)
-* [测试版计划](../product-announcements/betas/betas.md)
+* [Beta项目](../product-announcements/betas/betas.md)

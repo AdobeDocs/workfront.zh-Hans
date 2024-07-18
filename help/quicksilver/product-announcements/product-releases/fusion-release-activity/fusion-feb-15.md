@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年2月15日起一周
-description: Workfront Fusion发行活动：&nbsp；2021年2月15日起一周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年2月15日起一周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年2月15日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 本页介绍了2021年2月15日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
-此版本还包括一个或多个维护更新。 有关Workfront Fusion 2.0维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+此版本还包括一个或多个维护更新。 有关Workfront Fusion 2.0维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ## 团队现在共享电子邮件通知设置
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Fusion将组织通知设置应用于组织中每个团队的团队级别。 要确保您的团队正在利用新的通知功能，请在团队级别更新电子邮件通知设置。
 
-有关更多信息，请参阅 [Adobe Workfront Fusion组织和团队](../../../workfront-fusion/organizations/organizations-and-teams.md).
+有关详细信息，请参阅[Adobe Workfront Fusion组织和团队](../../../workfront-fusion/organizations/organizations-and-teams.md)。
 
 ## 在Workfront >自定义API调用模块中选择API版本
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 以前，您无法选择此模块的Workfront API版本。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。

@@ -23,12 +23,12 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [更新部分概述](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [更新节概述](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 * [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-* [字段中的字符限制](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+* [字段中的字符数限制](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [回复电子邮件通知](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [在备注报告中查看所有更新](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [标记其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [在笔记报告中查看所有更新](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [处理此项工作并完成按钮概述](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

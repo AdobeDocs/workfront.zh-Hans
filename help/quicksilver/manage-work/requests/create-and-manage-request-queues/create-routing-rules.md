@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-路由规则可控制Adobe Workfront在将问题提交到请求队列时对问题执行的操作。 有关创建请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+路由规则可控制Adobe Workfront在将问题提交到请求队列时对问题执行的操作。 有关创建请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 路由规则将问题发送给最适合解决已提交问题或请求的特定用户或工作角色。 路由规则通常与队列主题相关联，这些主题用于控制将哪个路由规则应用于问题或请求。
 
@@ -85,15 +85,15 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 创建路由规则
 
 1. 转到要在其中添加请求路由规则的项目。
-1. 单击 **路由规则** 在左侧面板中。 您可能需要单击 **显示更多**，则 **路由规则**.
-1. 单击 **新建路由规则** 以添加新规则。
+1. 单击左侧面板中的&#x200B;**路由规则**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**路由规则**。
+1. 单击&#x200B;**新建路由规则**&#x200B;以添加新规则。
 1. 为传送规则输入以下信息：
 
    <table style="table-layout:auto"> 
@@ -111,7 +111,7 @@ ht-degree: 1%
       <td>添加路由规则的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>默认代理人*</strong> </td> 
+      <td role="rowheader"><strong>默认被分派人*</strong> </td> 
       <td>添加应将新问题分配给的活动用户或活动工作角色。 此字段只能有一个默认被分配人。 </td> 
      </tr> 
      <tr> 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
    <p><b>注释</b></p>
 
-   提交问题后，可编辑其分配并分配其他用户、角色或团队。 有关信息，请参阅  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">分配问题</a>.
+   提交问题后，可编辑其分配并分配其他用户、角色或团队。 有关信息，请参阅<a href="../../../manage-work/issues/manage-issues/assign-issues.md">分配问题</a>。
 
    </td> 
      </tr> 
@@ -135,14 +135,14 @@ ht-degree: 1%
    >
    >*如果用户、工作角色或团队在与路由规则关联后停用，请求将继续路由到这些用户、工作角色或团队。 您必须定期清点所有路由选择规则，并将已停用的分配替换为有效分配。
 
-   将问题路由到项目时，拥有该问题权限的用户将获得在该项目上设置的权限。 有关设置项目权限的信息，请参阅 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   将问题路由到项目时，拥有该问题权限的用户将获得在该项目上设置的权限。 有关设置项目权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
-   ![新建路由规则框](assets/new-routing-rule-box.png)
+   ![新路由规则框](assets/new-routing-rule-box.png)
 
 1. 单击&#x200B;**保存**。
 
-   此过程仅定义路由规则。 为确保问题在提交到请求队列时得到路由，您必须在 **队列详细信息** 选项卡在 **默认路由**.
+   此过程仅定义路由规则。 为确保问题在提交到请求队列时得到路由，您必须在&#x200B;**默认路由**&#x200B;下的&#x200B;**队列详细信息**&#x200B;选项卡上选择路由规则。
 
-   有关将默认路由添加到请求队列的信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   有关将默认路由添加到请求队列的信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-   如果要将多个传送规则与请求队列关联，则必须创建多个队列主题，并将每个主题与单独的传送规则关联。 有关创建队列主题的详细信息，请参见 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   如果要将多个传送规则与请求队列关联，则必须创建多个队列主题，并将每个主题与单独的传送规则关联。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。

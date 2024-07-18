@@ -3,45 +3,45 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 在访问级别更新自动升级选项
-description: 您可以在访问级别更新自动升级选项。
+title: 更新访问级别中的自动升级选项
+description: 您可以在访问级别中更新自动升级选项。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d04b8e9ea2977ea1987bbf13d796e105eb8f0ab4
+exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
+# 更新访问级别中的自动升级选项
 
-# 在访问级别更新自动升级选项
+新许可证模型上的参与者必须分配有自动升级选项。 您可以在访问级别中更新自动升级选项。
 
-新许可证模型的参与者必须分配自动升级选项。 您可以在访问级别更新自动升级选项。
+## 添加到访问级别页面上的视图
 
-## 在“访问级别”页面上向视图添加
-
-要查看将哪些访问级别分配为自动升级选项，请执行以下操作：
+要查看哪些访问级别被指定为自动升级选项，请执行以下操作：
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
 
-1. 在右侧面板中，单击 **访问级别**.
+1. 在右侧面板中，单击&#x200B;**访问级别**。
 
-1. 打开 **视图** 的上界。
+1. 打开&#x200B;**视图**&#x200B;区域。
 
-1. 选择 **新建视图** 或选择现有视图，然后选择 **编辑** 图标。
+1. 选择&#x200B;**新建视图**&#x200B;或选择现有视图并选择&#x200B;**编辑**&#x200B;图标。
 
-1. 选择 **添加列** 和搜索 **升级到**.
+1. 选择&#x200B;**添加列**&#x200B;并搜索&#x200B;**升级到**。
 
-1. 单击 **保存视图**.
+1. 单击&#x200B;**保存视图**。
 
 ## 为访问级别分配新的升级选项
 
 要为访问级别分配新的自动升级选项，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在右侧面板中，单击 **访问级别**.
+1. 在右侧面板中，单击&#x200B;**访问级别**。

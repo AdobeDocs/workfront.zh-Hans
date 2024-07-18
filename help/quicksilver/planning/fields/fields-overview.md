@@ -35,16 +35,16 @@ hide: yes
 
 * 您只能从记录类型页面的表视图创建字段。 字段在表格视图中显示为列。 与记录类型关联的所有字段也会显示在记录页面中。
 
-  有关管理表列（或记录字段）的信息，请参见 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+  有关管理表列（或记录字段）的信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
   有关管理字段的信息，另请参阅以下文章：
 
    * [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)
    * [删除字段](/help/quicksilver/planning/fields/delete-fields.md)
 
-* 与记录类型关联的字段可用于与该类型的所有记录相关联。 <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
+* 与记录类型关联的字段可用于与该类型的所有记录相关联。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
-* 无法将与记录类型关联的字段添加到其他记录类型。 <!-- this will change when they open the Field library tab when creating a field-->
+* 无法将与记录类型关联的字段添加到其他记录类型。<!-- this will change when they open the Field library tab when creating a field-->
 
 * 您可以通过以下方式手动或自动创建字段：
 
@@ -58,9 +58,9 @@ hide: yes
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        有关连接记录类型的详细信息，请参见 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+        有关连接记录类型的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-      * 通过使用Excel或CSV文件导入记录类型。 有关更多信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+      * 通过使用Excel或CSV文件导入记录类型。 有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    * 自动：
 
@@ -79,11 +79,11 @@ hide: yes
 
         您可以添加更多值或重命名现有值。
 
-     从模板创建工作区时，Workfront Planning会为记录类型创建字段。 有关信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+     从模板创建工作区时，Workfront Planning会为记录类型创建字段。 有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 * 无法从Workfront访问Workfront Planning字段。
 
-* 只有在将记录类型与Workfront对象类型连接并从Workfront对象添加链接或查找字段时，才能从Workfront Planning访问Workfront字段。 有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+* 只有在将记录类型与Workfront对象类型连接并从Workfront对象添加链接或查找字段时，才能从Workfront Planning访问Workfront字段。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 * 如果您对字段所属的工作区具有“管理”权限，则可以查看和更新您或任何其他用户创建的字段的设置。
 
@@ -91,4 +91,4 @@ hide: yes
 
 * 字段名称最多可包含250个字符。
 
-* 删除记录类型或工作区时，与其关联的所有字段以及字段值也会被删除，并且无法恢复。 <!-- this might change with a possible recycle bin solution?!-->
+* 删除记录类型或工作区时，与其关联的所有字段以及字段值也会被删除，并且无法恢复。<!-- this might change with a possible recycle bin solution?!-->

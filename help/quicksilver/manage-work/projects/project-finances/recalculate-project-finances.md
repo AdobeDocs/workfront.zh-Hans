@@ -35,16 +35,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目和财务数据的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对项目和财务数据的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理具有管理财务权限的项目权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理具有管理财务权限的项目权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 在Adobe Workfront中计算财务的注意事项
 
@@ -75,25 +75,25 @@ ht-degree: 0%
 
 在项目的存留期内，收入率可能会发生变化。
 
-有关记帐费率和收入的更多信息，请参阅文章 [开单和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+有关记帐费率和收入的更多信息，请参阅文章[记帐和收入概览](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
 收入率可于以下层次变动：
 
 * 系统级别（针对工作角色）\
-  有关在系统级别使用计费率创建工作角色的更多信息，请参阅文章 [创建和管理职位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  有关在系统级别使用记帐费率创建工作角色的更多信息，请参阅文章[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 * 用户级别\
-  有关更改用户的计费率信息的更多信息，请参阅文章 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  有关更改用户记帐费率信息的详细信息，请参阅文章[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 公司级别（针对职位角色）\
-  有关更多信息，请参阅 [覆盖公司级别的工作角色记帐费率](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  有关详细信息，请参阅[覆盖公司级别的工作角色记帐费率](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
 
 * 项目级别（针对工作角色）\
-  有关在项目级别覆盖工作角色费率的更多信息，请参阅文章 [改写工作角色开单费率和计算项目收入概览](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  有关在项目级别覆盖工作角色费率的详细信息，请参阅文章[有关覆盖工作角色记帐费率和计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
 例如，用户的记帐费率在项目过程中从每小时50美元更改为75美元，您希望所有现有数据保持按旧费率（$50和小时）计算。 但是，在重新计算项目财务时，已有财务数据的任务将更新收入以反映新的计费率（每小时75美元）。
 
-* [通过创建开票记录保留项目收入](#preserve-project-revenue-by-creating-a-billing-record)
+* [通过创建记帐记录保留项目收入](#preserve-project-revenue-by-creating-a-billing-record)
 * [使用多个记帐费率覆盖保留项目收入](#preserve-project-revenue-by-using-multiple-billing-rate-overrides)
 
 #### 通过创建开票记录保留项目收入 {#preserve-project-revenue-by-creating-a-billing-record}
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 如果您不重新计算项目财务或锁定已记帐记帐记录的小时数，则在费率更改之后记录的小时数将使用新费率计算，并且在成本费率更改之前记录的小时数仍按旧费率计算。
 
-有关创建开票记录的更多信息，请参阅文章 [创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md).
+有关创建开票记录的更多信息，请参阅文章[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
 #### 使用多个记帐费率覆盖保留项目收入 {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 当项目级别工作角色的记帐费率更改时，您可以使用在指定时间范围内锁定的多个记帐费率覆盖来保留已在项目上计算的现有收入。
 
-有关使用多个记帐费率覆盖的更多信息，请参阅文章 [改写工作角色开单费率和计算项目收入概览](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+有关使用多个记帐费率覆盖的更多信息，请参阅文章[有关覆盖工作角色记帐费率并计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
 >[!NOTE]
 >
@@ -119,14 +119,14 @@ ht-degree: 0%
 成本率可在以下级别变动：
 
 * 系统级别（针对工作角色）\
-  有关在系统级别使用成本率创建工作角色的更多信息，请参阅文章 [创建和管理职位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  有关在系统级别创建具有成本费率的工作角色的更多信息，请参阅文章[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 * 用户级别\
-  有关更改用户的成本费率信息的详细信息，请参阅文章 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  有关更改用户成本费率信息的详细信息，请参阅文章[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-当上述任何级别的记帐费率发生更改时，您可以通过锁定项目上记录的时间并使用旧费率计算来将项目上已计算的现有成本保留到状态为“已记帐”的记帐记录中。 有关创建开票记录的更多信息，请参阅文章 [创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md).
+当上述任何级别的记帐费率发生更改时，您可以通过锁定项目上记录的时间并使用旧费率计算来将项目上已计算的现有成本保留到状态为“已记帐”的记帐记录中。 有关创建开票记录的更多信息，请参阅文章[创建开票记录](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
-如果您不想创建开票记录，也可以避免使用手动重新计算财务选项，如一节所述 [手动重新计算项目财务](#manually-recalculate-finances-for-a-project) 本文章中。
+如果您不想创建记帐记录，也可以避免使用手动重新计算财务选项，如本文中的[手动重新计算项目财务](#manually-recalculate-finances-for-a-project)部分所述。
 
 如果您不重新计算项目财务或锁定已记帐记帐记录的小时数，则在费率更改之后记录的小时数将使用新费率计算，并且在成本费率更改之前记录的小时数仍按旧费率计算。
 
@@ -136,19 +136,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在手动重新计算财务时，您可以按照一节中的步骤防止更新收入值以反映新费率 [保留具有现有小时数的任务的财务数据](#preserve-financial-data-for-tasks-with-existing-hours) 本文的。 在您手动重新计算项目财务时，始终会更新成本值以反映新费率。
+>在手动重新计算财务时，您可以按照[保留具有本文中现有小时数的任务的财务数据](#preserve-financial-data-for-tasks-with-existing-hours)一节中的步骤来阻止更新收入值以反映新费率。 在您手动重新计算项目财务时，始终会更新成本值以反映新费率。
 
 您可以从项目页面、项目列表或报表重新计算Workfront中的项目财务。
 
-您可以在批量编辑财务时重新计算它们。 有关信息，请参见 [手动批量重新计算财务](#manually-recalculate-finances-in-bulk) 部分。
+您可以在批量编辑财务时重新计算它们。 有关信息，请参阅本文中的[手动批量重新计算财务](#manually-recalculate-finances-in-bulk)部分。
 
-1. 转到要重新计算财务的项目，然后单击 **更多** 图标 ![](assets/qs-more-icon-on-an-object.png) 项目名称的右侧。
+1. 转到要重新计算财务的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报告，选择一个或多个项目，然后单击 **更多** 图标 ![](assets/qs-more-icon-on-an-object.png) 位于列表顶部。
+   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -156,7 +156,7 @@ ht-degree: 0%
    >
    >根据项目的复杂性，我们建议不要在批量重新计算其财务时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 
-1. 单击 **重新计算财务**.
+1. 单击&#x200B;**重新计算财务**。
 
    使用任何新信息重新计算项目的所有计划成本和收入。
 
@@ -169,12 +169,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在手动重新计算财务时，您可以按照一节中的步骤防止更新收入值以反映新费率 [保留具有现有小时数的任务的财务数据](#preserve-financial-data-for-tasks-with-existing-hours) 本文的。 在您手动重新计算项目财务时，成本值始终更新以反映新费率。
+>在手动重新计算财务时，您可以按照[保留具有本文中现有小时数的任务的财务数据](#preserve-financial-data-for-tasks-with-existing-hours)一节中的步骤来阻止更新收入值以反映新费率。 在您手动重新计算项目财务时，成本值始终更新以反映新费率。
 
 要手动重新计算多个项目的财务，请执行以下操作：
 
 1. 转到项目列表。
-1. 在列表中选择多个项目，然后单击 **更多** 图标 ![](assets/qs-more-icon-on-an-object.png) 位于列表顶部。
+1. 在列表中选择多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-icon-on-an-object.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -182,7 +182,7 @@ ht-degree: 0%
    >
    >根据项目的复杂性，我们建议不要在批量编辑项目时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 
-1. 单击 **重新计算财务**.
+1. 单击&#x200B;**重新计算财务**。
 
    使用任何新信息重新计算选定项目的所有计划成本和收入。
 
@@ -200,4 +200,4 @@ ht-degree: 0%
 >
 >当您更改项目状态时，只会重新计算计划值。
 
-您还可以手动重新计算下面的财务 **更多** 菜单 ![](assets/qs-more-menu.png) 在项目级别单击 **重新计算财务**.
+您还可以在项目级别的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)下手动重新计算财务，方法是单击&#x200B;**重新计算财务**。

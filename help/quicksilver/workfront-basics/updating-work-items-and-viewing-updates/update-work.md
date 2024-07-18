@@ -51,13 +51,13 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-您可以对Adobe Workfront对象添加更新，以便与他人沟通该对象的进度。 有关可以在Workfront中将更新添加到哪些对象的更多信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+您可以对Adobe Workfront对象添加更新，以便与他人沟通该对象的进度。 有关可以在Workfront中添加更新的对象的更多信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 本文中的信息介绍了如何注释和更新项目、任务和问题的信息。 分配或订阅了对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
 
 向其他对象添加注释与更新项目、任务和问题类似。 有关对信息卡和目标进行注释的其他信息，另请参阅以下文章：
 
-* [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md).
+* [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)。
 
   您必须具有其他许可证才能访问Workfront目标。
 
@@ -101,13 +101,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 有关更新工作的注意事项
 
-* 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的详细信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 * 您可以从与Workfront集成的其他应用程序或Workfront移动设备应用程序向Workfront对象添加注释。
 
@@ -121,10 +121,10 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >评论所有者将被自动标记。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >评论所有者将被自动标记。 有关详细信息，请参阅[为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 
-* 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 您可以向可查看的对象添加注释，也可以以Workfront或组管理员身份登录并代表其他用户添加注释。 有关详细信息，请参阅[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 * 您可以从Workfront的以下区域向项目、任务和问题添加更新：
 
@@ -232,8 +232,8 @@ You can add updates to the following objects:
 本文介绍了如何更新项目、任务或问题。 更新大多数其他对象的方法也类似。
 
 1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
-1. 单击  **更新** 在左侧面板中。
-此 **评论** 选项卡默认处于选中状态。
+1. 单击左侧面板中的&#x200B;**更新**。
+默认情况下已选中**评论**&#x200B;选项卡。
 
    <!--
    1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
@@ -245,9 +245,9 @@ You can add updates to the following objects:
          ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
    -->
 
-1. 开始在 **新建评论** 盒子。
+1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
-   ![新建评论框](assets/comment-box-all-tabs.png)
+   ![新评论框](assets/comment-box-all-tabs.png)
 
    >[!TIP]
    >
@@ -257,8 +257,8 @@ You can add updates to the following objects:
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
 
-1. （可选）在 **标记人员或团队** 区域，开始键入要包含在此注释中的用户或团队的名称或电子邮件，然后当其显示在列表中时将其选定。
-1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
+1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
+1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关详细信息，请参阅本文中的[在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update)部分。
 
    >[!TIP]
    >
@@ -269,8 +269,8 @@ You can add updates to the following objects:
    >“新”指示符仅在输入新更新的用户以及当前输入更新的用户都使用新注释体验时显示。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 单击 **提交** 将更新添加到Workfront对象。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**.
+1. 单击&#x200B;**提交**&#x200B;以将更新添加到Workfront对象。
+1. （可选）要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
 
    >[!IMPORTANT]
    >
@@ -290,15 +290,15 @@ You can add updates to the following objects:
    >* 评论旁边的日期戳是原始评论的日期，而不是上次编辑的日期。
    >* 当您代表其他用户添加评论时(以Workfront或组管理员身份以其他用户身份登录时)，如果您以其他用户身份登录，则无法编辑评论。 只有在以用户身份注销并以您自己身份重新登录之后，才能编辑注释。
 
-1. （可选）单击 **回复** 或开始在 **添加回复……** 区域，回复现有评论，然后执行上述步骤3-7。 <!--(**************insure this stays accurate***********)--> 有关回复更新的信息，请参阅 [回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （可选）单击&#x200B;**回复**&#x200B;或开始在&#x200B;**添加回复……**&#x200B;区域键入评论以回复现有评论，然后执行上述步骤3-7。 <!--(**************insure this stays accurate***********)-->有关回复更新的信息，请参阅[回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)。
 
-1. （视情况而定，可选）如果其他用户添加了注释，这些注释在您添加注释时显示在“更新”部分的可见区域之外，请单击 **视图** 蓝色内部 **新评论横幅** 在屏幕底部显示这些注释。
+1. （视情况而定，可选）如果您在添加评论时，其他用户在“更新”部分的可见区域之外添加了显示的评论，请单击屏幕底部的蓝色&#x200B;**新评论横幅**&#x200B;中的&#x200B;**查看**&#x200B;以显示这些评论。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    屏幕底部会显示其他注释。
 
-1. （可选）单击 **点赞** 图标![](assets/like-icon.png). 图标会随喜欢的数量而更新。
+1. （可选）单击&#x200B;**类似**&#x200B;图标![](assets/like-icon.png)。 图标会随喜欢的数量而更新。
 1. （有条件，可选）如果在注释中包括了其他人员，请单击更新中包括的成员数，以显示与所输入的注释共享的实体列表。
 
    ![](assets/members-icons-expanded-unshimmed.png)
@@ -308,26 +308,26 @@ You can add updates to the following objects:
    >前两个已标记实体的名称显示在它们的头像旁边。 如果标记了两个以上的实体，则只显示第一个实体的名称，并显示附加实体的数量。
 
 1. （可选）单击评论者的姓名可在信息框中查看其姓名、角色和电子邮件地址。 在信息框中再次单击评论者的姓名以打开其用户配置文件。
-1. （可选）单击 **系统活动** 选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
+1. （可选）单击&#x200B;**系统活动**&#x200B;选项卡以查看系统记录的更新。 更新对象或其任何子级时，Workfront会生成有关该更新的注释，并将其显示在“系统活动”选项卡中。
 
-   有关更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   有关详细信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
    >[!TIP]
    >
    >您无法向系统更新添加注释。 但是，对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式添加到“系统活动”选项卡中。 已于2024年4月11日从Workfront中删除旧版评论体验。
 
-1. （可选）单击 **全部** 选项卡以在一个位置查看用户注释和系统活动注释。 这是一个仅供查看的选项卡。
+1. （可选）单击“**全部**”选项卡以在一个位置查看用户注释和系统活动注释。 这是一个仅供查看的选项卡。
 
    >[!TIP]
    >
-   >您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要在“全部”选项卡中回复评论，请单击 **在评论中回复** 在“注释”选项卡中打开注释。
+   >您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 若要在“全部”选项卡中回复评论，请单击&#x200B;**在评论中回复**，以在“评论”选项卡中打开评论。
 
 ## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
 
 您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强更新。
 
-1. 转到 **更新** Workfront区域，并开始键入注释。
-1. （可选）要向更新添加富文本格式，请使用 **富文本** 工具栏中。
+1. 转到Workfront对象的&#x200B;**更新**&#x200B;区域并开始键入评论。
+1. （可选）要向更新添加富文本格式，请在键入时使用&#x200B;**富文本**&#x200B;工具栏上的任何属性。
 
    ![](assets/rich-text-toolbar.png)
 
@@ -336,14 +336,14 @@ You can add updates to the following objects:
    | 粗体 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下划线 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>要打开“添加链接”框，请执行以下操作：⌘+K</br> <br>要在所选文本上粘贴链接，请执行以下操作：⌘+V</br> | <br>打开“添加链接”框：Ctrl+K</br> <br>要在所选文本上粘贴链接，请执行以下操作：Ctrl+V</br> |
+   | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>要在所选文本上粘贴链接： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
-   要停止设置文本格式，请取消选择 **富文本** 工具栏。
+   要停止设置文本格式，请在&#x200B;**富文本**&#x200B;工具栏上取消选择该属性。
 
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
@@ -361,7 +361,7 @@ You can add updates to the following objects:
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. （可选）单击 **表情符号** 图标 ![](assets/emoji-icon.png) 以向更新中添加表情符号。
+1. （可选）单击&#x200B;**表情符号**&#x200B;图标![](assets/emoji-icon.png)以将表情符号添加到更新中。
 
    >[!NOTE]
    >
@@ -375,27 +375,27 @@ You can add updates to the following objects:
 1. （可选）要添加指向其他信息源的URL链接，请执行以下操作：
 
    1. 在更新中要插入链接的位置单击。
-   1. 在 **富文本** 工具栏，单击 **超链接** 图标 ![](assets/link-icon.png).
+   1. 在&#x200B;**富文本**&#x200B;工具栏上，单击&#x200B;**超链接**&#x200B;图标![](assets/link-icon.png)。
 
-   1. 在 **创建链接** 框，位于下 **URL**，键入或粘贴要链接到的源的URL。
+   1. 在出现的&#x200B;**创建链接**&#x200B;框中，在&#x200B;**URL**&#x200B;下，键入或粘贴要链接到的源的URL。
 
-   1. 下 **要显示的文本**，键入或粘贴链接文本。
+   1. 在&#x200B;**要显示的文本**&#x200B;下，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
 
 1. （可选）要将图像附加到更新，请执行下列操作之一：
 
    * 将图像保存在计算机上，然后将其拖放到新注释区域。
-   * 从计算机中复制屏幕快照，然后将其粘贴到评论中。<!-- This is not available in the legacy commenting experience.-->
-   * 单击 **添加图像** 图标 ![](assets/add-image-mountain-with-plus-icon.png) 并浏览到计算机上的图像。
+   * 从计算机复制屏幕快照，然后将其粘贴到评论中。<!-- This is not available in the legacy commenting experience.-->
+   * 单击&#x200B;**添加映像**&#x200B;图标![](assets/add-image-mountain-with-plus-icon.png)并浏览到计算机上的映像。
 
 
    >[!NOTE]
    >
-   >**重要**
+   >**重要信息**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
-   >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅 [配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅[配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
    >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
    >* 您可以右键单击新注释或在键盘上按Ctrl + V(对于Windows，或者按⌘ + V(对于Mac))来粘贴图像。
@@ -407,17 +407,17 @@ You can add updates to the following objects:
 
 1. （可选）要在现有更新中查看图像，请执行下列操作之一：
 
-   * 单击 **预览** 图标 ![](assets/previewimageicon-31x31.png) 在图像缩略图上，在新的浏览器选项卡中打开全尺寸图像。
-   * 单击 **下载** 图标 ![](assets/downloadimageicon.png) 在图像缩略图上下载图像。
+   * 单击图像缩略图上的&#x200B;**预览**&#x200B;图标![](assets/previewimageicon-31x31.png)以在新的浏览器选项卡中打开全尺寸图像。
+   * 单击图像缩略图上的&#x200B;**下载**&#x200B;图标![](assets/downloadimageicon.png)以下载图像。
 
-1. 单击 **提交** 以添加您的评论。
+1. 单击&#x200B;**提交**&#x200B;以添加您的评论。
 
 ## 搜索更新
 
 您可以在对象的“更新”部分中搜索注释或回复。
 
-1. 转到 **更新** 对象的部分。
-1. 开始键入关键字 <!--or a user's name --> 在 **Search** 框（位于右上角） **评论** 选项卡。
+1. 转到对象的&#x200B;**更新**&#x200B;部分。
+1. 在&#x200B;**注释**&#x200B;选项卡右上角的&#x200B;**搜索**&#x200B;框中开始键入关键字<!--or a user's name -->。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -427,11 +427,11 @@ You can add updates to the following objects:
 
    ![搜索更新](assets/updates-all-tabs-with-search-field.png)
 
-   关键字 <!--or user--> 所搜索的注释会突出显示，并且包含该注释的注释将显示在“更新”部分的顶部。
+   您搜索的关键字<!--or user-->已突出显示，包含该关键字的注释将显示在“更新”部分的顶部。
 
    Workfront会搜索对象的整个更新流，而不在屏幕上可见的注释。
 
-1. 单击 **x** 图标，以清除搜索结果并返回所有注释。
+1. 单击搜索字段中的&#x200B;**x**&#x200B;图标以清除搜索结果并返回所有注释。
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -445,7 +445,7 @@ You can add updates to the following objects:
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 复制更新 <!--in the new commenting experience-->
+### 复制更新<!--in the new commenting experience-->
 
 <!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
@@ -463,7 +463,7 @@ You can add updates to the following objects:
 
 1. 转到要复制其链接的更新。
 
-1. 单击 **更多** 菜单，然后单击 **复制链接**.
+1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制链接**。
 
 1. 将您在上一步中复制的链接粘贴到电子邮件或其他应用程序中以便与其他人共享。 共享链接会打开您从中共享该链接的评论。
 
@@ -478,21 +478,21 @@ You can add updates to the following objects:
 复制正文文本选项可将文本从特定更新复制到剪贴板。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **复制正文文本**.
+1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制正文文本**。
 
 #### 引用回复
 
 Quote reply选项将原始备注作为块备注复制到新回复中。
 
 1. 转到要复制的更新或回复。
-1. 单击 **更多** 菜单，然后单击 **引用回复**.
+1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。
 
    将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
 
-1. 继续添加更新，然后单击 **提交** 以添加注释。
+1. 继续添加更新，然后单击&#x200B;**提交**&#x200B;添加评论。
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -556,20 +556,20 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 ## 删除更新或回复
 
-根据Workfront管理员授予您的访问权限，您也许能够删除在对象的“更新”选项卡上添加的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 在文章中 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+根据Workfront管理员授予您的访问权限，您也许能够删除在对象的“更新”选项卡上添加的更新。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
 
-任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 和 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 1. 转到要删除的更新或回复。
-1. 单击 **更多** 要删除的更新或回复旁边的菜单，然后单击 **删除**.
+1. 单击要删除的更新或回复旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 在显示的消息中，单击 **删除**.
+1. 在显示的消息中，单击&#x200B;**删除**。
 
    >[!NOTE]
    >
-   >删除具有附加图像的更新会同时删除注释和图像。 欲了解更多信息，请参见 [在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update) 部分。
+   >删除具有附加图像的更新会同时删除注释和图像。 有关详细信息，请参阅本文中的[在Workfront更新中使用富文本](#use-rich-text-in-a-workfront-update)部分。
 
    当您删除的评论具有与其关联的回复时，将显示删除评论的指示以及删除评论的用户的名称。
 
@@ -582,15 +582,15 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 Workfront对象的“更新”部分显示两种类型的信息：
 
-* **用户更新：** 用户更新是您和系统中的其他用户输入的注释。 用户更新将显示在“更新”部分的“注释”和“所有”选项卡中。
+* **用户更新：**&#x200B;用户更新是您和您系统中的其他用户输入的评论。 用户更新将显示在“更新”部分的“注释”和“所有”选项卡中。
 
   ![](assets/user-update-cl-350x277.png)
 
-* **系统更新：** 系统更新记录删除任务或问题、添加或删除文档版本、附加或删除审批请求以及对对象所做的任何编辑或更改。 系统更新显示在“System Activity（系统活动）”和“Updates（更新）”部分的“All（所有）”选项卡中。
+* **系统更新：**&#x200B;系统更新记录删除任务或问题、添加或删除文档版本、附加或删除审批请求以及对对象所做的任何编辑或更改。 系统更新显示在“System Activity（系统活动）”和“Updates（更新）”部分的“All（所有）”选项卡中。
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Workfront管理员可以确定系统更新中跟踪的内容，如中所述 [系统跟踪更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 您还可以过滤掉系统更新或活动，以便只看到所有对象的用户更新。
+  Workfront管理员可以确定系统更新中跟踪的内容，如[系统跟踪更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)中所述。 您还可以过滤掉系统更新或活动，以便只看到所有对象的用户更新。
 
   以下对象没有系统生成的更新：
 
@@ -599,7 +599,7 @@ Workfront对象的“更新”部分显示两种类型的信息：
    * 模板任务
    * 临时信息卡
 
-有关“更新”部分中的系统更新的更多信息，请参阅 [更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+有关“更新”部分中的系统更新的详细信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 
 <!--

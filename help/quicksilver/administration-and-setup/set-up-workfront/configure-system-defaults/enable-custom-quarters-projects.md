@@ -3,27 +3,27 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: 为项目启用自定义季度
-description: 出于报告目的，如果贵组织的季度基于除日历日期（如工作日或购物日）以外的其他特定标准，则您可能需要创建自定义季度。
+description: 出于报告目的，如果贵组织的季度基于日历日期以外的特定标准（如工作日或购物日），则可能需要创建自定义季度。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # 为项目启用自定义季度
 
-出于报告目的，如果贵组织的季度基于除日历日期（如工作日或购物日）以外的其他特定标准，则您可能需要创建自定义季度。
+出于报告目的，如果贵组织的季度基于日历日期以外的特定标准（如工作日或购物日），则可能需要创建自定义季度。
 
-您最多可以为 [!DNL Adobe Workfront] 系统。
+您最多可以为您的[!DNL Adobe Workfront]系统配置八个自定义季度。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,41 +31,41 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL计划]</td> 
+   <td>[！UICONTROL计划]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>你必须是 [!DNL Workfront] 管理员。</p> <p><b>注意</b>:如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 为 [!DNL Workfront] 系统
+## 为您的[!DNL Workfront]系统设置自定义季度
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **[!UICONTROL 项目首选项]** > **[!UICONTROL 项目].**
+1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 项目].**
 
-1. 在 **[!UICONTROL 时间轴]** 选择 **[!UICONTROL 启用自定义季度]**.
+1. 在&#x200B;**[!UICONTROL 时间线]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 启用自定义季度]**。
 
-1. 键入自定义季度的名称，如“2021财季第1季度”。
+1. 键入自定义季度的名称，如“Fiscal Q1 2021”。
 1. 选择自定义季度的开始和结束日期。
 
    ![](assets/custom-quarters-nwe.png)
 
-1. （可选）单击 **[!UICONTROL 添加自定义季度]** 向系统添加其他自定义季度。
+1. （可选）单击&#x200B;**[!UICONTROL 添加自定义季度]**&#x200B;可向系统中添加其他自定义季度。
 1. （可选）创建引用会计季度的报表元素。
 
-   **示例：** 为 [!UICONTROL 项目] 列出并包含引用自定义季度的项目的计划完成日期。
+   **示例：**&#x200B;为[!UICONTROL 项目]列表创建过滤器，并包含引用自定义季度项目的计划完成日期。
 
    ![](assets/example-of-project-filter-with-custom-quarters.png)
 
-   对“This Quarter”、“Next Quarter”和“Last Quarter”的引用将替换为对自定义季度的新引用。
+   对“本季度”、“下一季度”和“上一季度”的引用将替换为对自定义季度的新引用。
 
-   有关报表元素的信息，请参阅 [报表元素：过滤器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   有关报表元素的信息，请参阅[报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
 
-   有关创建过滤器的信息，请参阅 [在中创建或编辑过滤器 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   有关创建筛选器的信息，请参阅[在 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)中创建或编辑筛选器。

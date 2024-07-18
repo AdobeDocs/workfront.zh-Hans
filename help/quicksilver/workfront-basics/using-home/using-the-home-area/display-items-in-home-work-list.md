@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 在中显示项目 [!UICONTROL 工作列表] 在“主页”区域
-description: 此 [!UICONTROL 工作列表] 在 [!UICONTROL 主页] 区域显示分配给您的所有工作项。 您可以控制哪些项目显示在 [!UICONTROL 工作列表]、使用筛选器以及对工作项进行分组和排序。
+title: 在主页区域显示[!UICONTROL 工作列表]中的项目
+description: '[!UICONTROL 主页]区域中的[!UICONTROL 工作列表]显示分配给您的所有工作项。 通过使用筛选器以及对工作项进行分组和排序，您可以控制[!UICONTROL 工作列表]中显示的项目。'
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ---
 
-# 在中显示项目 [!UICONTROL 工作列表] 在 [!UICONTROL 主页] 区域
+# 在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中显示项目
 
 <!-- Audited: 1/2024 -->
 
 
-此 [!UICONTROL 工作列表] 在 [!UICONTROL 主页] 区域显示分配给您的所有工作项。 您可以控制哪些项目显示在 [!UICONTROL 工作列表]、使用筛选器以及对工作项进行分组和排序。
+[!UICONTROL 主页]区域中的[!UICONTROL 工作列表]显示分配给您的所有工作项。 通过使用筛选器以及对工作项进行分组和排序，您可以控制[!UICONTROL 工作列表]中显示的项目。
 
 >[!NOTE]
 >
@@ -54,25 +54,25 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>Contribute权限或更高权限可为您需要处理的任务和问题提供内容</p>  </td> 
+   <td> <p>您需要处理的任务和问题的Contribute权限或更高版本</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 筛选 [!UICONTROL 工作列表]
+## 筛选[!UICONTROL 工作列表]
 
-您可以按以下项筛选项目： [!UICONTROL 工作列表] 以仅查看特定类型的项目。 例如，您可以过滤 [!UICONTROL 工作列表] 以仅显示问题或请求。
+您可以筛选[!UICONTROL 工作列表]中的项，以仅查看特定类型的项。 例如，您可以筛选[!UICONTROL 工作列表]以仅显示问题或请求。
 
 >[!NOTE]
 >
 >过滤器选项存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则所选筛选器不会更改。 如果切换浏览器或计算机，则筛选器将还原为默认选项，即取消选择所有筛选器。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
-1. 单击 **[!UICONTROL 筛选]** ![](assets/filter-nwepng.png) 下拉菜单。 如果您选择了任何过滤器，则会显示选定过滤器的数量来代替图标。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击&#x200B;**[!UICONTROL 筛选器]** ![](assets/filter-nwepng.png)下拉菜单。 如果您选择了任何过滤器，则会显示选定过滤器的数量来代替图标。
 1. 从以下筛选器选项中进行选择，以指定要显示的项目类型：
 
    <table style="table-layout:auto"> 
@@ -119,7 +119,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>个人的</strong></td> 
-      <td>仅显示个人任务。 这些是您创建为[！UICONTROL待办事项]任务的任务，如一节中所述 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">创建个人任务</a> 在文章中 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">从[！UICONTROL主页]区域创建工作项</a>.</td> 
+      <td>仅显示个人任务。 这些是您创建为[！UICONTROL待办事项]任务的任务，如文章<a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">从[！UICONTROL主页]区域创建工作项</a>中的<a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">创建个人任务</a>部分所述。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL审批]</strong></td> 
@@ -140,7 +140,7 @@ ht-degree: 0%
       <td> 
        <div> 
         <p>仅显示已委派给其他用户的工作项。</p> 
-        <p>有关委派任务的更多信息，请参阅 <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">将任务和问题委派给其他用户</a>.
+        <p>有关委派任务的更多信息，请参阅<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">将任务和问题委派给其他用户</a>。
        </div> </td> 
      </tr> 
      <tr> 
@@ -162,20 +162,20 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 过滤器选项基于对象（任务、问题、批准、个人任务）。
-   >* 任务和问题按其与我们已准备好处理它们的关系的状态进一步过滤([!UICONTROL 正在处理]， [!UICONTROL 准备开始]， [!UICONTROL 未就绪] 任务，以及 [!UICONTROL 正在处理] 和 [!UICONTROL 已请求] 问题)。 您可以选择显示处于特定状态的任务或问题，或者单击任务或问题以选择并显示所有状态。
-   >* 已完成项目有一个单独的过滤器，其中包括任务和问题。 这不包括审批。 此 [!UICONTROL 已完成] 过滤器包括个人任务。
-   >* 您可以选择一次只显示一个状态。 例如，您只能显示 [!UICONTROL 正在处理] 仅任务 [!UICONTROL 已请求] 问题。 您还可以一次选择多个状态。
+   >* 任务和问题按与我们的准备工作之间的关系状态进一步筛选（[!UICONTROL 正在处理]，[!UICONTROL 准备开始]，[!UICONTROL 未就绪]任务，以及[!UICONTROL 正在处理]和[!UICONTROL 已请求]问题）。 您可以选择显示处于特定状态的任务或问题，或者单击任务或问题以选择并显示所有状态。
+   >* 已完成项目有一个单独的过滤器，其中包括任务和问题。 这不包括审批。 [!UICONTROL 已完成]筛选器包含个人任务。
+   >* 您可以选择一次只显示一个状态。 例如，您只能显示[!UICONTROL 正在处理]个任务和[!UICONTROL 已请求的]个问题。 您还可以一次选择多个状态。
    >* 您不能对分配给您的某个团队的项目应用筛选器，并且团队分配未包含在直接分配给您的项目中。
 
 
-1. （可选）进一步组织 [!UICONTROL 工作列表]，如一节中所述 [按日期、项目和优先级进行分组和排序](#group-and-sort-by-date-project-and-priority) 本文章中。
+1. （可选）按照本文[分组一节中的说明进一步组织[!UICONTROL 工作列表]，并按日期、项目和优先级](#group-and-sort-by-date-project-and-priority)排序。
 
-## 分组和排序方式 [!UICONTROL 日期]， [!UICONTROL 项目]、和 [!UICONTROL 优先级]
+## 按[!UICONTROL 日期]、[!UICONTROL 项目]和[!UICONTROL 优先级]进行分组和排序
 
-您可以对 [!UICONTROL 工作列表] 按 [!UICONTROL 计划完成日期]， [!UICONTROL 提交日期]， [!UICONTROL 项目]，或 [!UICONTROL 我的优先级]. 您选择的选项决定了项目在 [!UICONTROL 工作列表].
+您可以按[!UICONTROL 计划完成日期]、[!UICONTROL 提交日期]、[!UICONTROL 项目]或[!UICONTROL 我的优先级]对[!UICONTROL 工作列表]进行分组和排序。 您选择的选项决定了项目在[!UICONTROL 工作列表]中的分组方式。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
-1. 单击 **[!UICONTROL 分组依据]** ![分组依据](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) 下拉菜单。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击&#x200B;**[!UICONTROL 分组依据]** ![分组依据](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png)下拉菜单。
 
    <!--
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
@@ -223,7 +223,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[！UICONTROL我的优先级]</strong></td> 
-      <td>项目按您选择的顺序显示。 有关更多信息，请参阅 <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">优先处理[！UICONTROL主页]区域中的工作</a>.</td> 
+      <td>项目按您选择的顺序显示。 有关详细信息，请参阅<a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">在[！UICONTROL主页]区域</a>中优先处理工作。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -234,50 +234,50 @@ ht-degree: 0%
 
 ## 查看延迟项目
 
-[!DNL Adobe Workfront] 使用以下日期来确定工作请求是否延迟：
+[!DNL Adobe Workfront]使用以下日期来确定工作请求是否延迟：
 
-* **任务**： [!UICONTROL 计划完成日期]
-* **问题**： [!UICONTROL 计划完成日期]
-* **文档**： [!UICONTROL 提交日期]
-* **时间表**： [!UICONTROL 提交日期]
-* **审批**： [!UICONTROL 提交日期]
-* **验证审批**： [!UICONTROL 验证截止日期]
+* **任务**：[!UICONTROL 计划完成日期]
+* **问题**：[!UICONTROL 计划完成日期]
+* **文档**：[!UICONTROL 提交日期]
+* **时间表**：[!UICONTROL 提交日期]
+* **审批**：[!UICONTROL 提交日期]
+* **校对审批**： [!UICONTROL 校对截止日期]
 
-## 搜索 [!UICONTROL 工作列表]
+## 搜索[!UICONTROL 工作列表]
 
-当您搜索 [!UICONTROL 工作列表]，则分配给您的任何项目都会在搜索中返回（甚至包括当前未加载到屏幕上的项目）。 如果 [!UICONTROL 显示完成] 选项，则也会返回您在过去两周内标记为完成的任何项目。
+当您搜索[!UICONTROL 工作列表]时，分配给您的任何项都会在搜索中返回（甚至包括当前未在屏幕上加载的项）。 如果选择了[!UICONTROL 显示完成]选项，还将返回您在过去两周内标记为完成的任何项目。
 
 此外，仅搜索工作项的名称（不搜索工作项中的信息，也不搜索工作项所在项目的名称）。
 
-要搜索 [!UICONTROL 工作列表]：
+要搜索[!UICONTROL 工作列表]：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
-1. （可选）筛选并分组 [!UICONTROL 工作列表]，如中所述 [筛选 [!UICONTROL 工作列表]](#filter-the-work-list) 和 [按日期、项目和优先级进行分组和排序](#group-and-sort-by-date-project-and-priority).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （可选）筛选和分组[!UICONTROL 工作列表]，如[筛选[!UICONTROL 工作列表]](#filter-the-work-list)和[组并按日期、项目和优先级](#group-and-sort-by-date-project-and-priority)排序。
 
-1. （可选）如果要搜索已完成的工作项，则必须配置 [!UICONTROL 工作列表] 以在搜索前显示已完成的项。
+1. （可选）如果要搜索已完成的工作项，则必须将[!UICONTROL 工作列表]配置为在搜索之前显示已完成的项。
 
-1. 单击搜索图标 ![Search](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png).
+1. 单击“搜索”图标![搜索](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png)。
 1. 开始键入要搜索的项目名称的名称。\
-   此 [!UICONTROL 工作列表] 自动过滤以包含具有匹配名称的项目。
+   [!UICONTROL 工作列表]自动过滤为包含具有匹配名称的项目。
 
 ## 更改工作列表的大小
 
-您可以更改 [!UICONTROL 工作列表] 因此它消耗的面积大约为家庭面积的四分之一到家庭面积的一半 [!UICONTROL 主页] 区域。
+您可以更改[!UICONTROL 工作列表]的大小，使其在大约为主页区域四分之一到[!UICONTROL 主页]区域一半之间的任何位置使用。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
-1. 将鼠标悬停在 [!UICONTROL 工作列表]，然后向左或向右拖动，直到工作列表达到所需大小。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 将鼠标悬停在[!UICONTROL 工作列表]的右边缘上，然后向左或向右拖动，直到工作列表达到所需大小。
 
 ## 折叠和展开分组
 
-中的项目 [!UICONTROL 工作列表] 在分组中显示。 您可以折叠和展开分组，以控制在给定时间页面上显示的信息量。
+[!UICONTROL 工作列表]中的项显示在分组中。 您可以折叠和展开分组，以控制在给定时间页面上显示的信息量。
 
-您可以折叠和展开以下项中的分组： [!UICONTROL 工作列表] 更好地控制哪些信息是可见的。\
-默认情况下， [!UICONTROL 本周] 展开分组，并折叠所有其他分组。 下次访问“主页”区域时，将会记住您所做的任何更改。
+您可以折叠和展开[!UICONTROL 工作列表]中的分组，以便更好地控制显示哪些信息。\
+默认情况下，[!UICONTROL 本周]分组已展开，所有其他分组已折叠。 下次访问“主页”区域时，将会记住您所做的任何更改。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
-1. 单击 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 要展开或折叠的任何分组旁边的箭头。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. 单击要展开或折叠的任何分组旁边的&#x200B;**[!UICONTROL 展开]**&#x200B;或&#x200B;**[!UICONTROL 折叠]**&#x200B;箭头。
 
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
 
    或\
-   要同时展开或折叠所有分组，请单击 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 按住任意分组旁边的箭头 [!UICONTROL Shift] 键。
+   要同时展开或折叠所有分组，请在按住[!UICONTROL Shift]键的同时单击任何分组旁边的&#x200B;**[!UICONTROL 展开]**&#x200B;或&#x200B;**[!UICONTROL 折叠]**&#x200B;箭头。

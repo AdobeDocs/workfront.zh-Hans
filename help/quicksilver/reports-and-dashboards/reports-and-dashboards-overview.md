@@ -26,5 +26,5 @@ ht-degree: 4%
 
 * [报告](../reports-and-dashboards/reports/reports-overview.md)
 * [仪表板](../reports-and-dashboards/dashboards/dashboards-overview.md)
-* [增强的分析](../enhanced-analytics/enhanced-analytics.md)
+* [增强分析](../enhanced-analytics/enhanced-analytics.md)
 * [画布仪表板](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

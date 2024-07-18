@@ -21,8 +21,8 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [为组织配置校样设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-* [Adobe Workfront和Workfront Proof之间的用户同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+* [为组织配置校对设置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+* [Adobe Workfront与Workfront Proof之间的用户同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
 * [访问Workfront中的验证功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
 * [为您的组织安装桌面验证查看器](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
 * [配置默认验证角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)

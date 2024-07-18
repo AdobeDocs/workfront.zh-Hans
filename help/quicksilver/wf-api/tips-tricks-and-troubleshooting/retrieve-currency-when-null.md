@@ -37,7 +37,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-如果未为项目设置货币，则此响应将包含具有值的货币 `null`：
+如果未为项目设置货币，则此响应将包含值为`null`的货币：
 
 ```
 {

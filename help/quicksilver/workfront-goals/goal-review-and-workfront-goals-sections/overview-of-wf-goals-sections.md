@@ -24,7 +24,7 @@ ht-degree: 2%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -41,7 +41,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 >[!TIP]
 >
->在一个部分中更新的过滤器会自动应用于“目标列表”、“图形”和“目标对齐方式”部分。 这样，您只能更新它们一次。 有关更多信息，请参阅 [在Adobe Workfront目标中过滤信息](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>在一个部分中更新的过滤器会自动应用于“目标列表”、“图形”和“目标对齐方式”部分。 这样，您只能更新它们一次。 有关详细信息，请参阅[在Adobe Workfront目标中过滤信息](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
 以下简要概述了Workfront目标的各个部分以及可用于管理目标的选项。 有关您可以在Workfront目标的每个部分内执行的其他操作的更多信息，我们还建议阅读以下文章：
 
@@ -54,7 +54,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 您可以使用“目标列表”来查看属于您、您的团队、组或您的组织的目标。 您可以查看任何状态和任何时间段的目标。
 
-有关导航目标列表和管理目标的信息，请参阅 [在Adobe Workfront目标的目标列表中管理目标](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+有关导航目标列表和管理目标的信息，请参阅Adobe Workfront目标目标列表中的[管理目标](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)。
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -64,11 +64,11 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 * 查看目标及其信息（例如，名称、所有者、进度或条件）。
 * 添加新目标。
 
-  有关更多信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+  有关详细信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
 * 访问目标的页面并编辑和更新目标、其结果或活动
 
-  有关更多信息，请参阅 [在Adobe Workfront目标中编辑目标](../../workfront-goals/goal-management/edit-goals.md).
+  有关详细信息，请参阅[在Adobe Workfront目标中编辑目标](../../workfront-goals/goal-management/edit-goals.md)。
 
 * 编辑目标。
 
@@ -76,7 +76,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 您可以使用图形部分全面查看属于您或您的组织的目标的运行状况。 您可以在此部分中查看任何时段中任何状态下的目标进度信息。
 
-有关使用“图形”部分的信息，请参见 [查看图表以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+有关使用图形部分的信息，请参阅[查看图形以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -90,7 +90,7 @@ Workfront管理员向您授予访问Workfront目标的权限后，您可以查�
 
 如果目标彼此对齐，则可使用“目标对齐方式”部分来显示和查看组织中的所有目标以及它们彼此的对齐方式。 对齐的目标显示在此处的连接卡片上，以说明它们彼此的对齐。 父目标最先显示，而子目标栈叠在其后面。 您可以在此部分中查看任何状态和任何时间段的目标。
 
-有关导航目标对齐部分以管理目标的信息，请参阅 [在Adobe Workfront目标中的目标对齐部分中进行导航](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+有关导航“目标对齐方式”部分以管理目标的信息，请参阅[导航Adobe Workfront目标中的“目标对齐方式”部分](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)。
 
 有关对齐目标的信息，请参阅以下文章：
 

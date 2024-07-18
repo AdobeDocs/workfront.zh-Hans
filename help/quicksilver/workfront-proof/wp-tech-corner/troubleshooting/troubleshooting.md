@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
-title: 疑难解答 [!DNL Workfront Proof]
+title: 在 [!DNL Workfront Proof]中进行故障排除
 description: 了解Workfront Proof疑难解答。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# 疑难解答 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中进行故障排除
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
 * [疑难解答 — Mac上的验证查看器中的界面字体损坏](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [了解缓存和Cookie如何影响 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [中的速度问题 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [故障排除 —  [!DNL Workfront Proof] 校对查看器](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+* [ [!DNL Workfront Proof]中的速度问题](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [疑难解答 —  [!DNL Workfront Proof] 校对查看器](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

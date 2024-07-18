@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Adobe Workfront目标随附了一组事件通知，您可以为帐户启用这些通知。 每次满足事件定义的条件时，这些事件通知都会触发电子邮件通信。
 
-有关可为Workfront目标启用的通知的信息，请参阅 [通知：目标](../../workfront-basics/using-notifications/notifications-goals.md).
+有关您可以为Workfront目标启用的通知的信息，请参阅[通知：目标](../../workfront-basics/using-notifications/notifications-goals.md)。
 
-有关在Adobe Workfront中管理通知的信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+有关在Adobe Workfront中管理通知的信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,24 +50,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
 ## 配置校对查看器设置
 
@@ -75,32 +75,32 @@ ht-degree: 0%
 
 1. 通过以下方式之一打开Web验证查看器或桌面验证查看器：
 
-   * 如果您在Adobe Workfront中校对，请转到包含要查看的校对的文档列表，将鼠标悬停在文档上，然后单击 **打开校对**.
-   * 如果您使用Workfront Proof，请单击 **前往校对** 仪表板或视图列表中的验证图标 ![](assets/go-to-proof-blue-icon.png).
+   * 如果您在Adobe Workfront中验证，请转到包含要查看的验证的文档列表，将鼠标悬停在文档上，然后单击&#x200B;**打开验证**。
+   * 如果使用Workfront Proof，请单击仪表板或视图列表![](assets/go-to-proof-blue-icon.png)中验证的&#x200B;**转到验证**&#x200B;图标。
 
-1. 如果未显示左侧工具栏，请单击 **菜单** 图标，位于Web验证查看器的左上角。
+1. 如果未显示左侧工具栏，请单击Web验证查看器左上角的&#x200B;**菜单**&#x200B;图标。
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 在左侧工具栏中，单击 **设置** 图标 ![](assets/settings-icon-in-pv.png).
+1. 在左侧工具栏中，单击&#x200B;**设置**&#x200B;图标![](assets/settings-icon-in-pv.png)。
 
-1. 配置以下任一项 **设置** 那个显示器。
+1. 配置以下任何显示的&#x200B;**设置**。
 
    可用的设置可能因您打开的校样类型而异。
 
-   * **显示标记** （在Web验证查看器和桌面验证查看器中始终可用）：这些是查看者在使用标记工具时添加到验证的注释标记。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
+   * **显示标记** （始终在Web验证查看器和桌面验证查看器中可用）：这些是查看者在使用标记工具时添加到验证的注释标记。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
 
      此设置会影响您打开的所有校样。
 
-   * **显示大头针** （在Web验证查看器和桌面验证查看器中始终可用）：这些是查看者在使用标记工具时添加到验证中的带编号的pin。 它们指示审阅人添加注释的位置和顺序。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
+   * **显示pin**（始终在Web验证查看器和桌面验证查看器中可用）：这些是查看者在使用标记工具时添加到验证中的编号的pin。 它们指示审阅人添加注释的位置和顺序。 如果禁用这些注释，则单击注释列表中的注释时，仍可以看到这些注释。
 
      此设置会影响您打开的所有校样。
 
-   * **使用扩展的标记工具** （始终在Web验证查看器和桌面验证查看器中可用）：默认情况下，标记工具选项显示在验证查看器的顶部。 您可以将它们配置为在垂直菜单中显示，此垂直菜单仅在单击时打开。
+   * **使用扩展的标记工具** （始终在Web验证查看器和桌面验证查看器中可用）：默认情况下，标记工具选项显示在验证查看器的顶部。 您可以将它们配置为在垂直菜单中显示，此垂直菜单仅在单击时打开。
 
      此设置对您打开的所有验证有效。
 
-   * **向我发送有关以下内容的电子邮件通知：** （始终在Web验证查看器和桌面验证查看器中可用）：单击以下选项之一。 此设置仅影响您已打开的校对。 有关更多信息，请参阅 [验证评论和决策通知概述](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **向我发送有关**&#x200B;的电子邮件通知（始终在Web验证查看器和桌面验证查看器中可用）：单击以下选项之一。 此设置仅影响您已打开的校对。 有关详细信息，请参阅[校对评论和决策概述](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)的通知。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ ht-degree: 0%
        </tr> 
        <tr> 
         <td role="rowheader">回复我的评论</td> 
-        <td>只有当某人明确回复其评论时，才会向审阅人发送电子邮件（这不包括他们自己对评论的回复）。 这意味着如果验证中的某人发表新评论，则不会通知查看者。<p>建议向验证上的客户使用此设置，以便他们不会收到有关验证的任何其他评论的通知，并且只会在回复他们自己的评论时收到通知。</p><p>虽然具有此电子邮件警报设置的查看者不会收到有关其他新评论的通知，但他们仍然可以在验证查看器中查看有关验证的所有评论。</p><p>有关注释的信息，请参见 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">查看并回复验证评论</a>.</p></td> 
+        <td>只有当某人明确回复其评论时，才会向审阅人发送电子邮件（这不包括他们自己对评论的回复）。 这意味着如果验证中的某人发表新评论，则不会通知查看者。<p>建议向验证上的客户使用此设置，以便他们不会收到有关验证的任何其他评论的通知，并且只会在回复他们自己的评论时收到通知。</p><p>虽然具有此电子邮件警报设置的查看者不会收到有关其他新评论的通知，但他们仍然可以在验证查看器中查看有关验证的所有评论。</p><p>有关评论的信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">查看和回复校对评论</a>。</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">决策</td> 
@@ -128,11 +128,11 @@ ht-degree: 0%
        </tr> 
        <tr> 
         <td role="rowheader">每日摘要</td> 
-        <td>Workfront会发送一封电子邮件，其中包含仅在有您自己的活动之外的活动时列出的所有评论、回复和决策。<p>此警报非常适合用于查看项目摘要，而不会在一天之内出现多次更新。</p><p>此摘要的示例用例是一个部门领导，他想要监控项目的整体进度。</p><p>有关更多信息，请参阅 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理验证评论和决策的通知</a>.</p></td> 
+        <td>Workfront会发送一封电子邮件，其中包含仅在有您自己的活动之外的活动时列出的所有评论、回复和决策。<p>此警报非常适合用于查看项目摘要，而不会在一天之内出现多次更新。</p><p>此摘要的示例用例是一个部门领导，他想要监控项目的整体进度。</p><p>有关详细信息，请参阅<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">管理证明评论和决策的通知</a>。</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">无电子邮件</td> 
-        <td>Workfront不发送任何电子邮件警报。<br>这对于仅出于参考目的添加到验证而无需通知任何更改的人员非常有用。<p>系统默认值为“Daily summary（每日摘要）”(也视为“Not Set（未设置）”)。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td> 
+        <td>Workfront不发送任何电子邮件警报。<br>这对于仅供参考而添加到验证中且不需要收到任何更改通知的人员非常有用。<p>系统默认值为“Daily summary（每日摘要）”(也视为“Not Set（未设置）”)。 如果您或您的审阅人没有进行任何其他更改，则您的所有验证均具有此设置。</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -141,7 +141,7 @@ ht-degree: 0%
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **单击验证中的超链接时** （仅在桌面验证查看器中可用）：选择一个选项，以指定当您单击设置为在新的浏览器选项卡或窗口中打开的链接时，在桌面验证查看器中发生的情况。
+   * **在验证中单击超链接时**（仅在桌面验证查看器中可用）：选择一个选项，以指定当您单击设置为在新浏览器选项卡或窗口中打开的链接时，在桌面验证查看器中发生的情况。
 
      此设置对您打开的所有交互式验证有效。
 

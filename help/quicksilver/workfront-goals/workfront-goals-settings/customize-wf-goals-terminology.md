@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * 对于当前计划和许可证结构：
 
-   * Pro或更高版本 [Adobe Workfront计划](https://www.workfront.com/plans).
+   * Pro或更高版本[Adobe Workfront计划](https://www.workfront.com/plans)。
    * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 
 * 对于新计划和许可证结构：
@@ -32,9 +32,9 @@ ht-degree: 1%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
-有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 Workfront或组管理员可以自定义Workfront目标中的对象名称，以更好地匹配您组织的术语。
 
@@ -48,4 +48,4 @@ Workfront或组管理员可以自定义Workfront目标中的对象名称，以�
 
 自定义Workfront目标术语与在Workfront中自定义术语相同。
 
-有关在Workfront中自定义术语的信息，请参阅 [使用布局模板自定义用户界面术语](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+有关在Workfront中自定义术语的信息，请参阅[使用布局模板自定义用户界面术语](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)。

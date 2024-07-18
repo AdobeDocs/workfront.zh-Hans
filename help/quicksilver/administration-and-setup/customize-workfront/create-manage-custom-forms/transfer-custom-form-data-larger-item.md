@@ -24,7 +24,7 @@ ht-degree: 0%
 
 要将自定义表单数据从问题传输到任务或项目，您必须按照以下顺序完成本文中的两个任务。
 
-有关更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md) 或 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+有关详细信息，请参阅[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)或[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 访问要求
 
@@ -52,34 +52,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 第一：向自定义表单添加其他对象
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms**.
-1. 查找所需的表单，然后单击 ![“编辑”图标](assets/edit-icon.png).
+1. 单击&#x200B;**自定义Forms**。
+1. 查找所需的表单，然后单击![编辑图标](assets/edit-icon.png)。
 1. 在表单顶部，添加您计划要将任务或问题转换到的对象。
 
    >[!INFO]
    >
-   >**示例**：如果要将自定义表单数据传输到项目，请选择项目。
+   >**示例**：如果要将自定义表单数据传输到项目，请选择“项目”。
 
-1. 单击 **应用** 在表单底部。
+1. 单击表单底部的&#x200B;**应用**。
 
-1. 继续到 [第二：转换问题或任务并传输自定义表单数据](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. 继续到[秒：转换问题或任务并传输自定义表单数据](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data)。
 
 ## 第二：转换问题或任务并传输自定义表单数据 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 将其他对象添加到要转换的问题或任务的自定义表单中，如一节中所述 [第一：向自定义表单添加其他对象](#first-add-additonal-objects-to-the-custom-form) 本文章中。
-1. 使用转换问题或任务 **自定义Forms** 选项，以选择所需的自定义表单。 有关说明，请参阅以下文章：
+1. 将其他对象添加到要转换的问题或任务的自定义表单中，如本文中[第一：将其他对象添加到自定义表单](#first-add-additonal-objects-to-the-custom-form)部分所述。
+1. 使用显示的框中的&#x200B;**自定义Forms**&#x200B;选项转换问题或任务，以选择所需的自定义表单。 有关说明，请参阅以下文章：
 
    * [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [在Adobe Workfront中将问题转化为任务](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [将任务转换为项目](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 在 **转换为（对象类型）** 对话框，单击 **添加Forms** 下拉菜单，然后选择在上一部分中复制的表单。
+1. 在显示的&#x200B;**转换为（对象类型）**&#x200B;对话框中，单击&#x200B;**添加Forms**&#x200B;下拉菜单，然后选择您在上一节中复制的表单。
 
    现在，在问题的自定义字段中捕获的信息已转移到任务上的自定义表单中。
 

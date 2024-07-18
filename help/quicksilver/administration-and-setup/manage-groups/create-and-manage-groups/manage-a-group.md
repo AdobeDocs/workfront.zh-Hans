@@ -42,18 +42,18 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
 ## 管理组的成员资格
 
 您可以在管理的组中添加和删除用户和其他组。 您还可以将组成员指定为组的管理员，并管理组成员的用户配置文件信息。
 
-有关说明，请参阅 [查看和管理组的成员资格](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+有关说明，请参阅[查看和管理组的成员资格](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)。
 
 ## 管理组的详细信息
 
@@ -65,25 +65,25 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
-有关说明，请参阅 [查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+有关说明，请参阅[查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)。
 
 ## 编辑、复制或删除组
 
 无需离开正在查看的组的主页，即可快速编辑、复制或删除该组。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **组**.
+1. 单击&#x200B;**组**。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 选择组，然后单击编辑 ![](assets/edit-icon.png)，复制 ![](assets/copy-icon.png)，或删除 ![](assets/delete.png) 图标。
+1. 选择组，然后单击“编辑![](assets/edit-icon.png)”、“复制![](assets/copy-icon.png)”或“删除![](assets/delete.png)”图标。
 
    如果您需要有关使用显示的框的信息，请参阅以下内容之一：
 
-   * **编辑**： [查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   * **编辑**：[查看和管理组的详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **复制**： [通过复制现有组或子组创建顶层组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) 在文章中 [创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **复制**： [通过复制项目[创建组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的现有组或子组](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)创建顶级组
 
    * **删除**： [删除组](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
@@ -91,7 +91,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 如果您是组管理员，并且您的组需要与系统级别上设置的项目、任务和问题首选项设置不同的设置，则可以请求Workfront管理员解锁整个组织中所有组的首选项。 解锁后，您（和所有其他组的组管理员）可以为您管理的组配置它。
 
-有关说明，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和  [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+有关说明，请参阅[配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
 ## 列出、添加和配置子组
 
@@ -99,7 +99,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 ## 为组配置事件通知
 
-如果Workfront管理员解锁为组织中的组配置事件通知的功能，则可以为管理的组配置这些通知。 有关说明，请参阅 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+如果Workfront管理员解锁为组织中的组配置事件通知的功能，则可以为管理的组配置这些通知。 有关说明，请参阅[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知。
 
 ## 创建和自定义组的状态
 
@@ -107,7 +107,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 您还可以自定义顶级组的系统状态(如果Workfront管理员将系统状态配置为允许自定义)。
 
-有关说明，请参阅 [创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+有关说明，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
 ## 使用组的项目
 
@@ -116,19 +116,19 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 * 列出并处理（编辑、复制、删除和导出）与组及其子组关联并已与您共享的项目
 * 为组创建新项目
 
-有关说明，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+有关说明，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。
 
 ## 查看和管理组的审批流程
 
 当您查看在组区域管理的组时，您可以查看和处理组的管理员或其子组之一具有管理访问权限的审批流程。
 
-有关说明，请参阅 [组级别审批流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+有关说明，请参阅[组级审批流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)。
 
 ## 查看和管理组的布局模板
 
 在组区域查看您管理的组时，您可以查看和使用布局模板，组或其子组的管理员对此布局模板具有管理访问权限。
 
-有关说明，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关说明，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ## 查看和管理组成员的时间表
 
@@ -136,25 +136,25 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 在查看您管理的组的主页时，如果该组被指定为管理员可以编辑调度的组，则可以从组页面查看和管理调度。
 
-有关说明，请参阅 [创建和修改组的计划](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+有关说明，请参阅[创建和修改组的计划](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)。
 
 ## 查看和管理组成员的周期性工时表
 
-在查看您管理的组的主页时，您可以管理您和组的其他管理员（或其一个子组）有权编辑的时间表配置文件。 有关说明，请参阅 [创建和管理组的周期性工时表](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+在查看您管理的组的主页时，您可以管理您和组的其他管理员（或其一个子组）有权编辑的时间表配置文件。 有关说明，请参阅[创建和管理组的时间表配置文件](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)。
 
 ## 查看和管理组的子组成员
 
-在查看您管理的组的主页时，您可以查看和管理该组子组中的所有用户。 有关说明，请参阅 [查看和管理子组成员](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+在查看您管理的组的主页时，您可以查看和管理该组子组中的所有用户。 有关说明，请参阅[查看和管理子组成员](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)。
 
 ## 查看和管理组的团队
 
 在组区域查看您管理的组时，您可以查看和使用与该组或其任何子组关联的团队。
 
-有关说明，请参阅 [创建和修改组的团队](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+有关说明，请参阅[创建和修改组的团队](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)。
 
 ## 查看和管理组的公司
 
-在组区域查看您管理的组时，您可以查看和使用与该组或其任何子组关联的公司。 有关说明，请参阅 [创建和修改组的公司](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
+在组区域查看您管理的组时，您可以查看和使用与该组或其任何子组关联的公司。 有关说明，请参阅[创建和修改组的公司](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)。
 
 ## 查看和管理组的项目组合和程序
 
@@ -163,7 +163,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 * 它们与您正在查看的组或其任何子组相关联
 * 您有权查看这些区段，因为您已创建它们或与您共享它们
 
-有关说明，请参阅 [创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 和 [创建、修改和查看组的程序](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+有关说明，请参阅[创建和修改组的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)和[创建、修改和查看组的程序](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)。
 
 ## 停用或重新激活组
 
@@ -179,4 +179,4 @@ Delete this section when they add the </span>
 
 当某个组当前未使用时，停用该组可能很有用，因为当用户搜索要与另一对象关联的组时，不再在预输入字段中看到该组。
 
-有关使组处于非活动或活动状态的说明，请参阅 [停用或重新激活组](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+有关使组处于非活动状态或活动状态的说明，请参阅[停用或重新激活组](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。

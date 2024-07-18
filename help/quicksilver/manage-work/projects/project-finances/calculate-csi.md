@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront使用以下公式计算项目或任务的成本绩效指数(CSI)：
 
 `CSI = CPI x SPI`
 
-有关CPI的信息，请参阅文章 [计算成本绩效指数(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+有关CPI的信息，请参阅文章[计算成本绩效指数(CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)。
 
-有关SPI的信息，请参阅文章 [计算计划绩效指数(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+有关SPI的信息，请参阅文章[计算计划绩效指数(SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)。
 
 CSI具有以下三个可能的值：
 

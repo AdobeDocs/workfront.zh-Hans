@@ -2,67 +2,67 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：前置任務詳細資訊」
-description: 此任務檢視使用集合檢視顯示任務的前置任務詳細資訊。 在集合檢視中，您可以顯示有關處於「一對多」關係的物件的資訊。 在這種情況下，每個任務（一個）都可以有多個前置任務（多個）。 檢視會顯示任務名稱，以及其前置任務名稱、前置任務專案名稱、前置任務計畫完成日期及前置任務狀態。
+title: '查看：前置任务详细信息'
+description: 此任务视图使用收藏集视图显示任务的前置任务的详细信息。 在收藏集视图中，您可以显示有关处于“一对多”关系中的对象的信息。 在这种情况下，每个任务（一个）可以有多个前置任务（多个）。 该视图显示任务名称，以及其前置任务名称、前置任务项目名称、前置任务计划完成日期和前置任务状态。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
-# 檢視：前置任務詳細資訊
+# 查看：前置任务详细信息
 
-此任務檢視使用集合檢視顯示任務的前置任務詳細資訊。 在集合檢視中，您可以顯示有關處於「一對多」關係的物件的資訊。 在這種情況下，每個任務（一個）都可以有多個前置任務（多個）。 檢視會顯示任務名稱，以及其前置任務名稱、前置任務專案名稱、前置任務計畫完成日期及前置任務狀態。
+此任务视图使用收藏集视图显示任务的前置任务的详细信息。 在收藏集视图中，您可以显示有关处于“一对多”关系中的对象的信息。 在这种情况下，每个任务（一个）可以有多个前置任务（多个）。 该视图显示任务名称，以及其前置任务名称、前置任务项目名称、前置任务计划完成日期和前置任务状态。
 
-如需在報表中參考集合的相關資訊，請參閱 [報表中的參考集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+有关在报表中引用集合的信息，请参阅[在报表中引用集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)。
 
-![前置任務詳細資訊_task_view.png](assets/predecessor-details-task-view-350x34.png)
+![前置任务详细信息_task_view.png](assets/predecessor-details-task-view-350x34.png)
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr>   
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 檢視前置任務詳細資訊
+## 查看前置任务详细信息
 
-1. 前往工作清單。
-1. 從 **檢視** 下拉式功能表，選取 **新增檢視**.
+1. 转到任务列表。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**新建视图**。
 
-1. 在&#x200B;**欄預覽** 區域，排除除一欄以外的所有欄。
-1. 按一下剩餘欄的標頭，然後按一下 **切換至文字模式**.
-1. 將滑鼠移到文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 移除您在「 」中找到的文字 **文字模式** 方塊，並以下列程式碼取代：
-   <pre>column.0.displayname=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.1.displayname=前置任務號碼和名稱<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(predecessors)。lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression=CONCAT({前置任務}。{taskNumber}，' - '，{前置任務}。{name})<br>column.1.valueformat=HTML<br>column.2.displayname=前置任務專案名稱<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(predecessors)。lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={前置任務}。{项目}.{name}<br>column.2.valueformat=HTML<br>column.3.displayname=前置任務完成日期<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(predecessors)。lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={前置任務}。{plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=前置任務狀態<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested(predecessors)。lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={前置任務}。{status}<br>column.4.valueformat=HTML</pre>
+1. 在&#x200B;**列预览**&#x200B;区域，除一个列外，请删除所有列。
+1. 单击其余列的标题，然后单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 删除在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
+   <pre>column.0.displayname=<br>column.0.linkedname=direct<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.1.displayname=前置任务编号和名称<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested（前置任务）。lists<br>column.1.textmode=true<br>column.1.type=iterate{1.1.valuterate<br>column.valustamin.valuuuuuustation.1 eexpression=CONCAT({predecessor}.{taskNumber}，' - '，{predecessor}。{name})<br>column.1.valueformat=HTML<br>column.2.displayname=前置任务项目名称<br>column.2.listdelimiter=<br><br>column.2.listmethod=nested(predecessors)。lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={predecessor}。{project}。{name}<br>column.2.valueformat=HTML<br>column.3.displayname=前置任务完成日期<br>column.3.listdelimiter=<br><br>column.3.listmethod=nested(predecessors)。lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={predecessor}。{plannedCompletionDate}<br>column.3.valueformat=HTML<br>column.4.displayname=前置任务状态<br>column.4.listdelimiter=<br><br>column.4.listmethod=nested（前置任务）。lists<br>column.4.textmode=true<br>column.4.type=iterate<br>column.4.valueexpression={predecessor}。{status}<br>column.4.valueformat=HTML</pre>
 
-1. 按一下 **儲存檢視**.
+1. 单击&#x200B;**保存视图**。

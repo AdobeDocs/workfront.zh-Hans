@@ -17,21 +17,21 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关更多信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑项目的权限。 有关详细信息，请参阅[授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看、贡献或管理您有权共享的特定项目的权限。
+除了授予用户的访问级别之外，您还可以授予他们查看、Contribute或管理您有权共享的特定项目的权限。
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
 ## 有关共享项目的注意事项
 
-除了下面的注意事项外，另请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 * 默认情况下，项目的创建者具有管理项目的权限，并被指定为项目所有者。 如果项目分配给其他所有者，则该用户也具有管理项目的权限。 当项目创建者（或所有者）与其他用户共享项目时，他们将特定权限授予这些用户，以控制他们在项目上工作时可以执行的操作。
 
-  但是，如果项目所有者没有Planner许可证，他们将没有管理项目的完全访问权限。 只有拥有计划许可证的用户才有权管理项目。 有关更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  但是，如果项目所有者没有Planner许可证，他们将没有管理项目的完全访问权限。 只有拥有计划许可证的用户才有权管理项目。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-* 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的更多信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* 您可以单独共享项目，也可以一次共享多个项目。 共享项目与共享其他对象相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向项目授予以下权限：
 
    * 查看
@@ -42,11 +42,11 @@ ht-degree: 2%
 
 * 共享项目时，除非另有指定，否则所有任务、问题和文档都将继承相同的权限。
 
-  有关根据用户对项目的权限管理对项目上任务和问题的访问权限的信息，请参阅 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 部分内容 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
+  有关基于用户对项目的权限管理项目上任务和问题的访问权限的信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)一文中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
-  Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档的继承权限的详细信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* 您可以从项目中删除继承的权限，以便子对象不会继承它们。 有关从对象中删除继承权限的详细信息，请参阅 [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 您可以从项目中删除继承的权限，以便子对象不会继承它们。 有关从对象中删除继承权限的详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 共享项目的方法 {#ways-to-share-a-project}
 
@@ -55,31 +55,31 @@ ht-degree: 2%
 * 通过执行以下操作之一来手动执行：
 
    * 正在将用户添加到项目团队。 将用户添加到项目团队时，他们将自动获得项目的“查看”权限。\
-     有关将用户添加到项目团队的更多信息，请参阅中的“将用户添加到项目团队”部分 [项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * 使用时单独或批量共享项目 **共享** 选项。
+     有关将用户添加到项目团队的更多信息，请参阅[项目团队概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的“将用户添加到项目团队”部分。
+   * 使用&#x200B;**共享**&#x200B;选项时单独或批量共享项目。
 
      共享项目与共享Adobe Workfront中的所有其他对象类似。
 
-     有关在Workfront中共享对象的信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     有关在Workfront中共享对象的信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
 * 通过执行以下操作之一，自动执行：
 
-   * 将项目放入 **Portfolio** 或 **项目** 已与其他人共享。 用户将获得与项目组合或项目群相同的项目权限。\
-     有关将项目添加到的信息 **Portfolio**，请参见 [将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     有关将项目添加到的信息 **项目**，请参见 [将项目添加到项目群](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * 将项目置于已与其他人共享的&#x200B;**Portfolio**&#x200B;或&#x200B;**计划**&#x200B;中。 用户将获得与项目组合或项目群相同的项目权限。\
+     有关将项目添加到&#x200B;**Portfolio**&#x200B;的信息，请参阅[将项目添加到项目组合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
+     有关将项目添加到&#x200B;**程序**&#x200B;的信息，请参阅[将项目添加到程序](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
 
-     有关查看对象的继承权限的信息，请参见 [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
-   * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅 [共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * 在用于创建项目的模板上向项目共享添加实体。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
    * 定义项目访问模板。
 
-     要定义项目访问模板，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     要定义项目访问模板，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
      >[!TIP]
      >
      >附加或保存模板时，您可以清除模板项目共享规则。
 
-   * 编辑项目并定义 **当授予某人此项目的访问权限时** 设置。 有关更多信息，请参阅 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
+   * 编辑项目并定义&#x200B;**当授予某人此项目的访问权限时**&#x200B;设置。 有关详细信息，请参阅[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 * 拥有工作人员许可证的用户无权管理项目。 对于工作人员，最高共享权限为Contribute。
 * 拥有请求许可证的用户可以查看项目信息，但他们具有有限的项目访问权限。
-* 当具有“查看”或“贡献”权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
+* 当具有查看或Contribute权限的用户也包含在审批流程中时，项目状态的更改会发生异常。 他们可以审批项目，这更改了项目的状态，但状态为要审批或拒绝的预定义状态。
 * 为了能够复制项目，用户还必须具有在其访问级别创建项目的权限。
 
 <!--
@@ -133,7 +133,7 @@ The
 
 ## 项目权限选项
 
-下表列出了用户在共享项目时可以授予的权限。 有关用户根据其许可证获得的访问权限的更多信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+下表列出了用户在共享项目时可以授予的权限。 有关用户根据其许可证获得的访问权限的详细信息，请参阅[授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -350,4 +350,4 @@ The
  </tbody> 
 </table>
 
-&#42;无权访问财务数据的用户无法管理项目的风险和财务，即使他们拥有项目的编辑权限也是如此。 有关访问财务数据的信息，请参阅 [授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;无权访问财务数据的用户无法管理项目的风险和财务，即使他们拥有项目的编辑权限。 有关访问财务数据的信息，请参阅[授予对财务数据的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。

@@ -30,12 +30,12 @@ ht-degree: 1%
 
 作为系统管理员，执行以下操作；
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 展开 **时间表和小时数**，然后单击 **偏好设置**.
+1. 展开&#x200B;**时间表和小时数**，然后单击&#x200B;**首选项**。
 
-1. 在 **常规首选项** 部分，选择 **记录未来日期的小时数**.
+1. 在&#x200B;**常规首选项**&#x200B;部分中，选择未来日期的&#x200B;**记录小时数**。
 
 1. 单击&#x200B;**保存**。
 
-有关此选项以及其他有关时间表和小时数的选项的更多信息，请参阅 [配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关此选项以及其他有关时间表和小时数的选项的更多信息，请参阅[配置时间表和小时首选项](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。

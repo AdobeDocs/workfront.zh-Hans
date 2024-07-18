@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ GET/files
 | 名称  | 描述 |
 |---|---|
 | parentId  | 文件夹ID。 要获取根目录的元数据，请使用值“/”。 |
-| 最大  | 要返回的最大项目数。 用于分页。 |
+| max  | 要返回的最大项目数。 用于分页。 |
 | offset  |  页面偏移，与“max”一起使用。 |
 
 
-## 个回应
+## 响应
 
 包含文件和文件夹列表的JSON。 每个项的元数据与/metadata端点返回的元数据相同。
 

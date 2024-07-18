@@ -35,11 +35,11 @@ ht-degree: 0%
 * Workfront中的报表特定于一个对象。 在构建报告之前，必须为报告定义主对象。 因此，所有报告元素都是特定于对象的。
 * 您的Workfront管理员必须授予您访问级别的筛选器、视图和分组的权限，才能在列表和报告中查看或编辑它们。
 
-  有关授予对筛选器、视图和分组的访问权限的信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  有关授予对筛选器、视图和组的访问权限的信息，请参阅[授予对筛选器、视图和组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
 * 您的Workfront管理员必须授予您访问级别的报告、功能板和日历的访问权限，才能查看或编辑报告。
 
-  有关授予对报表、功能板和日历的访问权限的信息，请参阅 [授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  有关授予对报告、仪表板和日历的访问权限的信息，请参阅[授予对报告、仪表板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 如果在报表或列表上选择一个筛选器、视图或分组，则即使您注销或关闭浏览器，Workfront也会为该对象的列表保留此选择。 例如，如果为任务报告选择特定视图，则该选择将出现在其他任务列表中，例如项目上的任务列表。
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 * 默认情况下，Workfront为各种对象提供了大量过滤器。
 * 您可以自定义自己拥有或管理的过滤器。
 
-  有关筛选器的更多信息，请参阅文章 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  有关筛选器的详细信息，请参阅文章[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-![过滤器图标](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![筛选器图标](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## 视图
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 * 运行报表后，您可以从“视图”下拉字段中应用其他视图。
 * 其他视图会暂时替换创建报告时定义的视图；但是，下次返回报告时将显示默认视图。
 
-  有关视图的详细信息，请参阅文章 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  有关视图的详细信息，请参阅文章[Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 分组
 
@@ -83,20 +83,20 @@ ht-degree: 0%
 * 分组在结果中显示聚合值&#x200B;。
 * 分组决定图表中的轴。
 * 分组可确定矩阵报表中的标题标识。\
-  有关矩阵报表的更多信息，请参阅文章 [创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  有关矩阵报表的详细信息，请参阅文章[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
 * 分组有助于构建报告的“摘要”选项卡，提供报告的汇总值。
 * 默认情况下，Workfront为不同的对象提供了大量分组。
 * 您可以自定义自己拥有或管理的分组。
 
-  有关分组的详细信息，请参阅 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  有关分组的详细信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
 ## 其他报表元素
 
 除了筛选器、视图和分组之外，您还可以将以下元素添加到报表中：
 
-* **提示**：打开过滤器，每次运行报表时，可以通过不同的方式对其进行自定义和应用。\
-  有关提示的详细信息，请参阅文章 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **提示**：打开筛选器，每次运行报表时都可以通过不同的方式进行自定义和应用。\
+  有关提示的详细信息，请参阅文章[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
-* **图表**：您可以通过向报表添加图表并以可视方式显示信息来增强报表。\
-  有关报表中图表的详细信息，请参阅文章 [向报表中添加图表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **图表**：您可以向报表中添加图表并以可视方式显示信息来增强报表。\
+  有关报表中图表的详细信息，请参阅文章[将图表添加到报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。

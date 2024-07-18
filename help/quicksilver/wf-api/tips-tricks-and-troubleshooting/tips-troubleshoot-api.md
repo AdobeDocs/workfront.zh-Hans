@@ -20,9 +20,9 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [Adobe Workfront API调用的域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
-* [API错误：“远程服务器返回了一个错误：(400)错误请求”](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-* [大型分页搜索期间返回的重复项](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+* Adobe Workfront API调用的[域格式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
+* [API错误：“远程服务器返回错误：(400)错误请求”](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* 在大型分页搜索期间返回了[重复项](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [在API中对查询结果进行排序](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [更新到emailAddr不会更新用户名](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
 * [通过Adobe Workfront API创建验证时添加高级验证选项](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)

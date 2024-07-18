@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >当保存并应用新过滤器，然后导航离开工作负载均衡器时，即使您注销并重新登录，过滤器也会保留。
 
-本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中过滤器的信息，请参阅 [过滤器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+本文包含有关工作负载均衡器中的过滤器的信息。 有关Workfront中筛选器的信息，请参阅[筛选器概述](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 ## 访问要求
 
@@ -63,13 +63,13 @@ ht-degree: 0%
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>筛选器、视图和分组</p> </li> 
     </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>在构建或编辑筛选器时编辑对筛选器、视图和分组的访问权限</span> </p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>查看或更高权限的项目、任务、问题</p>
    <p>管理要编辑或删除的筛选器的权限</p>
-     </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+     </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 在工作负载均衡器中使用过滤器时，请考虑以下事项：
 
-* 根据您从何处访问工作负载均衡器，Workfront可能已经在为您过滤信息。 有关预应用过滤器的信息，请参阅部分 [工作负载均衡器中预应用的过滤器](#pre-applied-filters-in-the-workload-balancer) 本文章中。
+* 根据您从何处访问工作负载均衡器，Workfront可能已经在为您过滤信息。 有关预应用的筛选器的信息，请参阅本文的工作负载均衡器](#pre-applied-filters-in-the-workload-balancer)中的[预应用的筛选器部分。
 * 您可以创建和应用筛选器而不保存它，也可以保存筛选器以供以后重复使用。
 * 应用筛选器而不保存它时，可以通过刷新页面还原为原始列表。
 * 您可以查看您创建的过滤器，或其他用户创建并与您共享的过滤器。
@@ -89,7 +89,7 @@ ht-degree: 0%
 
   例如，在资源区域中创建的过滤器在项目或团队的工作负载均衡器中不可用。
 
-  有关在何处查找工作负载均衡器的信息，请参见 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+  有关在何处查找工作负载均衡器的信息，请参阅[查找工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 * 您只能查看与所选过滤器匹配，且与工作负载均衡器屏幕上显示的时间线内的日期匹配的项目。
 
@@ -97,10 +97,10 @@ ht-degree: 0%
 
 工作负载均衡器在两个单独的区域中显示信息：
 
-* **未分配的工作区域**：尚未分配给用户的工作项。
-* **已分配的工作区域**：分配给用户的工作项。
+* **未分配的工作区**：尚未分配给用户的工作项。
+* **已分配的工作区**：已分配给用户的工作项。
 
-  有关每个区域中所显示内容的信息，请参阅 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  有关每个区域中所显示内容的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 >[!IMPORTANT]
 >
@@ -118,8 +118,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>您访问工作负载均衡器的Workfront区域</strong></td> 
-   <td><b>默认显示在“未分配工作”区域中的项目</b> </td> 
-   <td><b>默认显示在已分配工作区域中的项目</b> </td> 
+   <td>默认情况下，<b>项显示在“未分配的工作”区域中</b> </td> 
+   <td>默认情况下，<b>项显示在已分配的工作区域中</b> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">资源区域</td> 
@@ -134,12 +134,12 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">项目</td> 
    <td> <p>未分配的工作项或分配给选定项目中的团队或工作角色的项将显示在此区域中。</p> </td> 
-   <td> <p>当系统默认筛选条件为选定项目上至少分配了一个工作项的用户，及其该项目上的工作项 <b>该项目的工作项</b> 已选中。 </p>
+   <td> <p>当系统默认筛选器<b>此项目的工作项</b>被选中时，为选定项目及其工作项至少分配了一个工作项的用户。 </p>
 
-<p>当系统默认筛选器时 <b>该项目的工作项</b> 如果取消选中，则项目的已分配工作区域显示分配给选定项目中的至少一个项目的用户的所有工作项。  </p> 默认情况下，此筛选器处于取消选中状态。
+<p>取消选择系统默认筛选器<b>该项目的工作项</b>时，项目的“已分配工作”区域显示分配给选定项目上至少一个项的用户的所有工作项。  </p> 默认情况下，此筛选器处于取消选中状态。
 
-<b>注意</b>
-<p>您可以在项目的工作负载均衡器中启用显示所有用户选项以显示系统中的所有用户。 有关更多信息，请参阅 <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">导航工作负载均衡器</a></p>
+<b>注释</b>
+<p>您可以在项目的工作负载均衡器中启用显示所有用户选项以显示系统中的所有用户。 有关详细信息，请参阅<a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">导航工作负载均衡器</a></p>
 
 </td> 
   </tr> 
@@ -148,15 +148,15 @@ ht-degree: 0%
 
 ## 创建工作负载均衡器过滤器
 
-无论从何处访问工作负载均衡器，为工作负载均衡器中的未分配工作和分配的工作区域创建过滤器的过程都是相同的。 有关定位工作负载均衡器的信息，请参见 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+无论从何处访问工作负载均衡器，为工作负载均衡器中的未分配工作和分配的工作区域创建过滤器的过程都是相同的。 有关定位工作负载均衡器的信息，请参阅[定位工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅 [在工作负载均衡器中编辑现有过滤器](#edit-an-existing-filter-in-the-workload-balancer) 部分。
+您可以从头开始创建过滤器，或编辑某个预定义过滤器。 有关可编辑的现有筛选器的信息，请参阅本文的工作负载均衡器](#edit-an-existing-filter-in-the-workload-balancer)部分中的[编辑现有筛选器。
 
 1. 转到工作负载均衡器。
 
-   有关访问工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击 **筛选** 图标 ![](assets/filter-icon.png) 在任一个的右上角 **未分配的工作** 或 **已分派工作** 区域。
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-icon.png)。
 
    右侧将显示过滤器生成器框。 您为其创建过滤器的区域的名称将显示在框的标题中。
 
@@ -168,24 +168,24 @@ ht-degree: 0%
    >
    >默认筛选器显示属于您的任何团队的用户及其工作项。 您可以编辑此筛选器的副本。
 
-   如果您访问 [!UICONTROL 工作负载均衡器] 从项目“[!UICONTROL 该项目的工作项]可能已应用“ ”筛选器。 此项仅显示分配给此项目中的用户的工作项。 您可以复制并保存此筛选器的副本。
+   如果从项目访问[!UICONTROL 工作负载均衡器]，则可能已应用“[!UICONTROL 此项目的工作项]”筛选器。 此项仅显示分配给此项目中的用户的工作项。 您可以复制并保存此筛选器的副本。
 
-   默认情况下， [!UICONTROL 工作负载均衡器] 显示分配给项目中所有用户的所有工作项。
+   默认情况下，项目的[!UICONTROL 工作负载均衡器]显示分配给项目中所有用户的所有工作项。
 
 
-1. 单击 **新筛选器。**
+1. 单击&#x200B;**新建筛选器。**
 
    ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
 
 1. 要创建过滤器，请执行以下操作：
 
-   1. 在第一个下拉菜单中选择字段名称，或单击 **浏览字段** 开始键入默认不显示的字段的名称。
+   1. 在第一个下拉菜单中选择字段名称，或单击&#x200B;**浏览字段**&#x200B;开始键入默认不显示的字段名称。
 
       >[!IMPORTANT]
       >
-      >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关自定义字段的标签和名称之间差异的信息，请参阅 [创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+      >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关标签与自定义字段名称之间差异的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-   1. （视情况而定）如果您单击 **浏览字段**，在中键入字段名称 **Search** 字段，并在该字段显示在列表中时将其选定。
+   1. （视情况而定）如果您单击&#x200B;**浏览字段**，请在&#x200B;**搜索**&#x200B;字段中键入字段的名称，并在该字段显示在列表中时将其选定。
 
       ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
@@ -193,11 +193,11 @@ ht-degree: 0%
       >
       >您可以从以下部分中选择字段：
       >
-      >* **最近选择**：您最近过滤过的字段。
+      >* **最近选择**：您最近筛选的字段。
       >* **建议的字段**：最常用的字段。
 
 
-   1. 从第二个下拉菜单中选择一个修饰符。 有关Workfront过滤器修饰符的信息，请参阅 [过滤器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   1. 从第二个下拉菜单中选择一个修饰符。 有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
    1. 为要过滤的字段选择或键入值。
 
       >[!NOTE]
@@ -210,13 +210,13 @@ ht-degree: 0%
       >
       >要排除处于“暂挂”状态的项目，必须应用以下过滤器：“项目：状态不等于“暂挂”。 这会阻止保留项目中的工作项显示在工作负载均衡器中。
 
-   1. （可选）单击 **删除** 图标 ![](assets/delete.png) 以删除筛选条件。
+   1. （可选）单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)以删除筛选条件。
 
-1. （可选）单击 **添加筛选器** 要添加其他筛选条件，请重复步骤4中的操作。
+1. （可选）单击&#x200B;**添加筛选器**&#x200B;以添加其他筛选器条件，然后重复步骤4中的操作。
 
    <!--(NOTE: ensure this stays correct)-->
 
-1. 单击 **应用** 将过滤器的结果应用到所选的工作负载均衡器区域而不保存它。
+1. 单击&#x200B;**应用**&#x200B;以将过滤器的结果应用到所选的工作负载均衡器区域而不保存它。
 
    左侧的工作项列表将更新。
 
@@ -226,18 +226,18 @@ ht-degree: 0%
 
    该过滤器会一直保留，直到您刷新页面为止。
 
-   此 **应用** 按钮已替换为 **另存为新预设** 按钮。
+   **应用**&#x200B;按钮已替换为&#x200B;**另存为新按钮**。
 
-1. 单击 **另存为新预设** 以保存过滤器以供将来使用。
+1. 单击&#x200B;**另存为新筛选器**&#x200B;以保存筛选器以供将来使用。
 
    ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
-   >点击 **取消** 可随时将您带回过滤器构建区域。
+   >随时单击&#x200B;**取消**&#x200B;将带您返回过滤器构建区域。
 
-1. 选择 **无标题的筛选器** 并输入新筛选器的名称。
-1. 从中选择新过滤器的图标 **图标** 下拉菜单。
+1. 选择&#x200B;**无标题的筛选器**，然后输入新筛选器的名称。
+1. 从&#x200B;**图标**&#x200B;下拉菜单中选择新筛选器的图标。
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
@@ -246,9 +246,9 @@ ht-degree: 0%
 
    保存的筛选器显示在筛选器框的“我的筛选器”区域中。
 
-   有关应用已保存过滤器的信息，请参阅部分 [删除工作负载均衡器中保存的过滤器](#delete-a-saved-filter-in-the-workload-balancer) 本文章中。
+   有关应用已保存过滤器的信息，请参阅本文中的[删除工作负载均衡器中的已保存过滤器](#delete-a-saved-filter-in-the-workload-balancer)部分。
 
-1. （视情况而定）将鼠标悬停在 **过滤器图标** ![](assets/filter-icon.png) 位于的右上角 **未分配的工作** 或 **已分派工作** 区域以显示包含当前应用的过滤器名称或数量的“工具提示”。
+1. （视情况而定）将鼠标悬停在&#x200B;**未分配工作**&#x200B;或&#x200B;**已分配工作**&#x200B;区域的右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)上，以显示包含当前应用的过滤器名称或数量的工具提示。
 
    ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -258,19 +258,19 @@ ht-degree: 0%
 
 1. 转到工作负载均衡器。
 
-   有关访问工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击 **筛选** 图标 ![](assets/filter-icon.png) 在任一个的右上角 **未分配的工作** 或 **已分派工作** 区域。
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-icon.png)。
 
    右侧将显示过滤器生成器框。 您为其创建过滤器的区域的名称将显示在框的标题中。
 
-1. 将鼠标悬停在现有筛选器上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制**.
+1. 将鼠标悬停在现有筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**复制**。
 
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   > 编辑过滤器时，您可以单击 **更多** 菜单，然后单击 **复制**.
+   > 编辑筛选器时，您可以单击“编辑筛选器”框左下角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制**。
 
 1. 为复制的过滤器编辑以下信息：
 
@@ -282,8 +282,8 @@ ht-degree: 0%
    * 描述
    * 任何字段、修饰符或值。
 
-1. （可选）单击 **添加筛选器** 以将更多语句添加到重复过滤器。
-1. 单击 **保存** 将复制的过滤器保存在 **我的筛选器** 区域。
+1. （可选）单击&#x200B;**添加过滤器**&#x200B;以将更多语句添加到重复的过滤器。
+1. 单击“保存”****&#x200B;以将复制的筛选器保存在&#x200B;**我的筛选器**&#x200B;区域。
 
    原始筛选器保持不变，复制的筛选器另存为新筛选器。
 
@@ -297,26 +297,26 @@ ht-degree: 0%
 
 1. 转到工作负载均衡器。
 
-   有关访问工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   有关访问工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-1. 单击 **过滤器图标** ![](assets/filter-icon.png) 位于的右上角 **已取消分配** 或 **已分派工作** 区域。\
+1. 单击&#x200B;**未分配**&#x200B;或&#x200B;**已分配工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
    筛选器生成器将显示在右侧。
 
-1. 将鼠标悬停在要编辑的筛选器上，然后单击 **编辑** ![](assets/wb-edit-filter-icon.png).
+1. 将鼠标悬停在要编辑的筛选器上，然后单击&#x200B;**编辑** ![](assets/wb-edit-filter-icon.png)。
 
    ![](assets/filter-more-menu-options-wb.png)
 
 1. 执行下列操作之一：
 
    * 修改任何filter语句
-   * 单击 **添加筛选器** 添加新的筛选语句
-   * 单击 **删除** 图标 ![](assets/delete.png) 以删除现有的过滤器语句。
+   * 单击&#x200B;**添加筛选器**&#x200B;以添加新的筛选器语句
+   * 单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)可删除现有的筛选器语句。
 
-1. （可选）单击 **应用**.
+1. （可选）单击&#x200B;**应用**。
 
    结果将在左侧的工作负载均衡器中更新，以说明您对过滤器所做的更改。
 
-1. 单击 **保存。**
+1. 单击&#x200B;**保存。**
 
    结果在左侧的工作负载均衡器中更新，过滤器使用您选择的新信息更新。
 
@@ -335,18 +335,18 @@ ht-degree: 0%
 >当您删除与他人共享的过滤器时，该过滤器也会被其他人删除。
 
 1. 转到工作负载均衡器
-1. 单击 **过滤器图标** ![](assets/filter-icon.png) 位于的右上角 **未分配的工作** 或 **已分派工作** 区域。\
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
    右侧将显示过滤器生成器框。
 
-1. 将鼠标悬停在筛选器上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **删除**.
+1. 将鼠标悬停在筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   >编辑过滤器时，您可以单击 **更多** 菜单，然后单击 **删除**.
+   >编辑筛选器时，您可以单击“编辑筛选器”框左下角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
-1. （可选）单击 **取消** 以避免删除并返回过滤器列表。
-1. 单击 **删除** 以确认删除。
+1. （可选）单击&#x200B;**取消**&#x200B;以避免删除并返回筛选器列表。
+1. 单击&#x200B;**删除**&#x200B;以确认删除。
 
    该过滤器将为您以及拥有其权限的所有用户删除。
 
@@ -363,36 +363,36 @@ ht-degree: 0%
 要共享过滤器，请执行以下操作：
 
 1. 转到工作负载均衡器
-1. 单击 **过滤器图标** ![](assets/filter-icon.png) 位于的右上角 **未分配的工作** 或 **已分派工作** 区域。\
+1. 单击&#x200B;**未分配的工作**&#x200B;或&#x200B;**已分配的工作**&#x200B;区域右上角的&#x200B;**过滤器图标** ![](assets/filter-icon.png)。\
    右侧将显示过滤器生成器框。
 
-1. 将鼠标悬停在筛选器上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **共享。**
+1. 将鼠标悬停在筛选器上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享。**
 
    ![](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
-   > 编辑过滤器时，您可以单击 **更多** 菜单，然后单击 **共享**.
+   > 编辑筛选器时，您可以单击“编辑筛选器”框左下角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**共享**。
 
    此时将显示筛选器共享框。
 
-1. 启用 **查看系统范围** 设置。 这将授予Workfront中的任何人查看筛选器的权限。
+1. 启用&#x200B;**查看系统范围**&#x200B;设置。 这将授予Workfront中的任何人查看筛选器的权限。
 
    或
 
-   开始键入要在中与其共享该过滤器的用户、团队、角色、组或公司的名称 **将访问权限授予** 字段。
+   在&#x200B;**授予对**&#x200B;的访问权限字段中开始键入要与其共享筛选器的用户、团队、角色、组或公司的名称。
 
    ![](assets/new-filters-sharing-ui-wb-350x422.png)
 
-1. （可选）单击实体名称旁边的向右箭头以编辑其对筛选器的权限，然后启用 **视图** 或 **管理** 选项。
+1. （可选）单击实体名称旁边的右箭头以编辑其对筛选器的权限，然后启用&#x200B;**查看**&#x200B;或&#x200B;**管理**&#x200B;选项。
 
    ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. （可选）通过执行以下操作之一，启用或禁用实体的其他权限：
 
-   1. 单击 **视图** 并禁用 **共享** 选项。 默认情况下处于启用状态。
+   1. 单击&#x200B;**查看**&#x200B;并禁用&#x200B;**共享**&#x200B;选项。 默认情况下处于启用状态。
 
-   1. 单击 **管理** 并禁用 **共享** 或 **删除** 选项。 默认情况下启用它们。
+   1. 单击&#x200B;**管理**&#x200B;并禁用&#x200B;**共享**&#x200B;或&#x200B;**删除**&#x200B;选项。 默认情况下启用它们。
 
    >[!TIP]
    >
@@ -400,7 +400,7 @@ ht-degree: 0%
 
 1. 单击 **Share**。该筛选器将与您指定的实体共享。
 
-   您共享的过滤器将显示在 **与我共享** 滤镜框的区域。
+   您共享的筛选器显示在筛选器框的&#x200B;**与我共享**&#x200B;区域中。
 
    ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
 

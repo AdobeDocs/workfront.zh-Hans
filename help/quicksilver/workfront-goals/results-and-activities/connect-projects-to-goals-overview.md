@@ -27,7 +27,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 >[!IMPORTANT]
 >
->在项目的业务案例区域中创建的项目级别目标不与Workfront目标中创建的战略目标相关联。 有关业务案例项目目标的信息，请参阅 [创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>在项目的业务案例区域中创建的项目级别目标不与Workfront目标中创建的战略目标相关联。 有关业务案例项目目标的信息，请参阅[创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
 
 ## 访问要求
@@ -57,7 +57,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -67,7 +67,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -79,7 +79,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -90,7 +90,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有关将项目连接到目标的注意事项
 
@@ -125,19 +125,19 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 将项目添加到目标
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png) (为Shell绘制此：或单击 **主菜单** ![](assets/three-line-main-menu-icon.png) （如果可用） ，则 **目标**.
+1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)(为Shell绘制此菜单：或单击左上角的&#x200B;**主菜单** ![](assets/three-line-main-menu-icon.png)（如果可用）。)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
-1. 单击 **进度指示器** 在左侧面板中。
-1. 从 **新进度指示器** 下拉菜单，单击 **添加现有项目**.
+1. 单击左侧面板中的&#x200B;**进度指示器**。
+1. 从&#x200B;**新建进度指示器**&#x200B;下拉菜单中，单击&#x200B;**添加现有项目**。
 
    此时会显示将项目添加到目标框。
-1. （可选）更新 **视图**， **筛选**，或 **分组** 单击列表右上角的相应图标以修改项目列表的显示方式。
-1. （可选）单击 **Search** 图标 ![](assets/search-icon.png) 并开始键入项目的名称以便在列表中快速找到该项目。
-1. 选择要添加到目标的项目，然后单击 **添加**.
+1. （可选）通过单击列表右上角的相应图标来更新&#x200B;**视图**、**筛选器**&#x200B;或&#x200B;**分组**，以修改项目列表的显示方式。
+1. （可选）单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并开始键入项目名称以在列表中快速找到该项目。
+1. 选择要添加到目标的项目，然后单击&#x200B;**添加**。
 
-   所选的项目将添加到目标，并显示在目标页面的进度指示器部分，位于 **项目** 分组。
+   选定项目将添加到目标，并显示在目标页面的&#x200B;**项目**&#x200B;分组下的进度指示器部分。
 
-   激活目标后，当项目进度更新时，目标的进度会自动更新。 有关激活目标的信息，请参阅 [在Adobe Workfront目标中激活目标](../goal-management/activate-goals.md).
+   激活目标后，当项目进度更新时，目标的进度会自动更新。 有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../goal-management/activate-goals.md)。
 
 ## 找到目标的项目信息
 

@@ -30,12 +30,12 @@ ht-degree: 0%
 
 本文包含有关修改任务分配的影响的一般信息。 有关如何分配任务的信息，请参阅以下文章：
 
-* 有关分配任务的信息，请参见 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 和 [修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* 有关分配任务的信息，请参阅[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)和[修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
 * 有关在“计划”区域中修改多个任务分配的信息，请参阅“在计划区域中修改多个用户分配至任务”。
-* 有关使用工作负载均衡器分配任务的信息，请参见 [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 有关使用工作负载均衡器分配任务的信息，请参阅[在工作负载均衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
-本文中的某些信息也适用于问题的分配。 有关分配问题和其他注意事项的详细信息，请参阅 [修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+本文中的某些信息也适用于问题的分配。 有关分配问题和其他注意事项的详细信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 ## 何时修改任务的用户分配
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >在分配用户工作时，其根据时间表进行的可用性会影响任务的计划和预计日期。 有关时间表的信息，请参阅 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >在分配用户工作时，其根据时间表进行的可用性会影响任务的计划和预计日期。 有关计划的信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 特定角色或用户被设置为多个任务的被分配人，您希望快速修改要分配给不同用户或角色的所有项目
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 将多个资源分配给工作项时，请考虑以下事项：
 
-* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅[编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任务或问题通常首先分配给一个或多个工作角色或团队。 当项目准备好开始时，可能需要将它们也分配给用户。\
   如果已将任务或问题分配给一个或多个角色，并且您还分配了用户，则Adobe Workfront将根据以下规则确定要与其他用户（如果有）关联的工作角色：
@@ -67,25 +67,25 @@ ht-degree: 0%
 
 ## 移除被分配者如何影响任务小时数和分配百分比
 
-删除用户可能会影响任务小时数和分配百分比。 删除用户对任务的影响取决于为该任务选择的持续时间类型。 有关持续时间类型的信息，请参见 [任务工期和工期类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+删除用户可能会影响任务小时数和分配百分比。 删除用户对任务的影响取决于为该任务选择的持续时间类型。 有关持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 从具有以下持续时间类型的任务中删除用户时：
 
-* **简单：** 从任务的总计划小时数中减去分配给该用户的计划小时数。
+* **简单：**&#x200B;从任务的总计划小时数中减去分配给该用户的计划小时数。
 
   >[!IMPORTANT]
   >
   >这可能会对您的项目计划产生负面影响，因为它会更改任务和项目的总计划小时数。
 
-* **投入比导向：** 对于其他用户，分配百分比不会发生更改。
-* **计算分配：** 调整其他用户的分配百分比，使总数等于100%。
-* **计算的工作量：** 对于其他用户，分配百分比不会发生更改。
+* **投入比导向：**&#x200B;对于其他用户，分配百分比不会更改。
+* **计算分配：**&#x200B;已调整其他用户的分配百分比，使总计等于100%。
+* **计算的工作量：**&#x200B;其他用户的分配百分比不会更改。
 
 ## 有关取消分配任务的注意事项
 
 您可以一次从一个任务中删除分配，也可以批量从多个任务中删除分配。
 
-有关从任务中批量删除分配的详细信息，请参阅 [修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+有关从任务中批量删除分配的详细信息，请参阅[修改任务列表中的多个用户分配](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)。
 
 从任务中删除分配时，请考虑以下事项：
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2校对增强功能
 
-本页介绍了21.2版本对“预览”环境所做的所有“验证”增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有“验证”增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 验证决策现在显示在文档列表中
 
@@ -31,21 +31,21 @@ ht-degree: 0%
 
 以前，需要转到文档详细信息和验证工作流以查看整个验证决策，这需要单击多次。
 
-有关校对决策的详细信息，请参阅 [“文档”区域](../../../documents/managing-documents/documents-area.md).
+有关校对决定的详细信息，请参阅[文档区域](../../../documents/managing-documents/documents-area.md)。
 
-此功能现已包含在 [管理新版Workfront Experience中的验证和版本](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) Workfront One学习路径。
+此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)学习路径的[管理验证和版本中。
 
 ## 验证审批报告的新字段
 
 为了帮助显示有用的验证信息，我们在验证审批报告中添加了以下字段：
 
-* **决策日期：** 显示审批者对验证做出决定的日期。 您还可以在证明的打印摘要中找到此日期。
-* **审批阶段：** 显示当前阶段信息。
-* **工作流模板：** 显示附加到验证的任何工作流模板。 如果没有附加模板，则该列为空。
+* **决策日期：**&#x200B;显示审批者对验证做出决策的日期。 您还可以在证明的打印摘要中找到此日期。
+* **审批者阶段：**&#x200B;显示当前阶段信息。
+* **工作流模板：**&#x200B;显示附加到验证的任何工作流模板。 如果没有附加模板，则该列为空。
 
 这些字段不是默认报表的一部分。 如果您想查看这些幻灯片，则需要添加这些幻灯片。
 
-此功能现已包含在 [证明系统设置，第2部分：工作流管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Workfront One学习路径。
+此功能现已包含在Workfront One上的[验证系统设置第2部分：工作流管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA)学习路径中。
 
 ## 生成新版本时结转现有验证工作流
 
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 以前，验证工作流的传送方式略有不同，具体取决于您在Workfront中生成它们的位置。
 
-有关更多信息，请参阅 [创建新版本的验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+有关详细信息，请参阅[创建新版本的验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)。

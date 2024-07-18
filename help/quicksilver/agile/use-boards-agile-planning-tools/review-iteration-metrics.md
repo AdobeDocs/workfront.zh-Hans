@@ -47,13 +47,13 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 要打开工作流，请单击 [!UICONTROL **查看工作流**].
-1. 选择 [!UICONTROL 迭代过程] 展示板。
+1. 要打开工作流，请单击&#x200B;[!UICONTROL **查看工作流**]。
+1. 选择[!UICONTROL 迭代进程]展示板。
 1. 查看右上角展示板上方的量度区域。 单击向上和向下箭头可在小版本之间移动。
 
    显示以下量度：分配给迭代的点总数、迭代中尚未完成的剩余点以及迭代中完成的点数。
 
-1. （可选）单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png) 打开所选小版本的详细信息对话框。
+1. （可选）单击&#x200B;[!UICONTROL **迭代详细信息**]&#x200B;图标![迭代详细信息](assets/iteration-details-button.png)以打开所选迭代的详细信息对话框。
 
 ## 在仪表板上查看迭代量度
 

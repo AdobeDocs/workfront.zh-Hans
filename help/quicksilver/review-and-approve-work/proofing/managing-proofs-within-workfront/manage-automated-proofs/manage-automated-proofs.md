@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 管理自动验证
 
-* [在验证上查看自动化工作流暂存](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+* [在验证上查看自动工作流暂存](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
 * [查看验证上的活动阶段](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [为现有验证创建或编辑自动工作流](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-* [编辑校样阶段和审阅者](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+* [为现有校对创建或编辑自动工作流](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+* [编辑校对阶段和审阅者](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
 * [将基本工作流转换为验证上的自动工作流](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
 * [将阶段和用户添加到验证上的自动工作流](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

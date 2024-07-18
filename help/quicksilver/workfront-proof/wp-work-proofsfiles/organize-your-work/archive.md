@@ -2,38 +2,38 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 在Workfront校样中存档
-description: Workfront校样在60天不活动后存档验证。
+title: Workfront Proof中的存档
+description: Workfront Proof会在60天不活动后存档验证。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
 
-# 在中存档 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中存档
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-[!DNL Workfront Proof] 在60天不活动后存档校样。
+[!DNL Workfront Proof]在60天不活动后存档验证。
 
-如果您具有编辑权限，则可以随时手动存档校样。 有关编辑权限的信息，请参阅 [中的校样权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
 
-存档校样：
+存档的校样：
 
-* 仅显示在“视图”页面的“存档的校样”视图中（请参阅下面的“如何判断校样是否已存档”）
-* 无限期地保留在您的帐户中（除非将其删除）
-* 任何人（包括未存档的审阅人）可随时取消存档 [!DNL Workfront Proof] 用户)
-* 是否计入存储限制
-* 自动存档时自动锁定
-* 手动存档时，可以锁定或解锁
+* 仅显示在查看页面的存档验证视图中（请参阅下面的“如何判断验证是否已存档”）
+* 无限期保留在您的帐户中（除非将其删除）
+* 任何人都可以随时取消存档（包括不是[!DNL Workfront Proof]用户的审阅人）
+* 确实计入您的存储空间限制
+* 在自动存档时自动锁定
+* 可以在手动存档时锁定或解锁
 
-存档和取消存档记录在校样的活动部分中。 有关更多信息，请参阅 [在中管理校样详细信息 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+存档和取消存档记录在验证的活动部分中。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校对详细信息。
 
 >[!NOTE]
 >
@@ -41,41 +41,41 @@ ht-degree: 0%
 
 ## 手动存档校样
 
-如果您具有编辑权限，则可以随时手动存档校样。 有关编辑权限的信息，请参阅 [中的校样权限配置文件 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+如果您拥有编辑权限，则可以随时手动存档验证。 有关编辑权限的信息，请参阅 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[验证权限配置文件。
 
-完成归档过程可能需要长达24小时。
+归档过程最多可能需要24小时才能完成。
 
-1. 在功能板或列表视图中，选中要存档的每个校样对应的复选框(请参阅  [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) ，以了解有关列表视图的信息)。
+1. 在仪表板或列表视图中，选中要存档的每个校对的复选框（有关列表查看的信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)的查看页面上管理项目）。
 
-1. 选择 **[!UICONTROL 更多]** > **[!UICONTROL 存档]**.\
-   的 [!UICONTROL 存档校样] 消息框。
+1. 选择&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 存档]**。\
+   出现[!UICONTROL 存档校样]消息框。
 
-1. 单击选项可指定在存档校样时希望将其锁定还是解锁。\
-   [!DNL Workfront Proof] 使用您指定的锁定选项存档校样。
+1. 单击选项以指定在存档时是锁定还是解锁校样。\
+   [!DNL Workfront Proof]使用您指定的锁定选项存档验证。
 
-## 列出存档校样
+## 列出存档的校样
 
-已存档的校样仅在 **[!UICONTROL 存档校样]** 查看，校样名称右侧有已存档的图标。
+已存档的验证仅显示在&#x200B;**[!UICONTROL 已存档的验证]**&#x200B;视图中，且验证名称右侧显示有已存档的图标。
 
-要显示“存档的校样”视图，请执行以下操作：
+要显示存档的校样视图，请执行以下操作：
 
-1. 单击 **[!UICONTROL 视图]**，然后单击 **[!UICONTROL 所有项目]** > **[!UICONTROL 存档校样]**.
+1. 单击&#x200B;**[!UICONTROL 视图]**，然后单击&#x200B;**[!UICONTROL 所有项目]** > **[!UICONTROL 存档的校样]**。
 
-   单击此列表中存档校样的名称时， [!UICONTROL 校样详细信息] 页面，显示 **[!UICONTROL 取消存档]** 按钮。
+   当您单击此列表中已存档的验证名称时，会显示[!UICONTROL 验证详细信息]页面，并在该页面的顶部显示&#x200B;**[!UICONTROL 取消存档]**&#x200B;按钮。
 
-   此外，如果您将 **[!UICONTROL 活动]** 部分，您可以查看一个条目，告知您校样何时存档以及谁存档了。\
+   此外，如果您展开此页面上的&#x200B;**[!UICONTROL 活动]**&#x200B;部分，则可以查看一个条目，该条目会告知验证存档的时间和存档者。\
    ![Archived_proof_Activity_expanded.png](assets/archived-proof-activity-expanded-350x77.png)\
-   如果 **[!UICONTROL 活动]** 部分不会显示存档校样的用户名称，这意味着校样在处于不活动状态60天后自动存档。\
-   要查看存档校样的内容，您必须先取消存档它。
+   如果&#x200B;**[!UICONTROL 活动]**&#x200B;部分不显示存档验证的用户名称，这意味着验证在60天不活动后会自动存档。\
+   要查看已存档验证的内容，必须首先取消存档。
 
 ## 取消存档校样
 
-任何人都可以随时取消证据存档。 这包括非 [!DNL Workfront Proof] 用户。
+任何人都可以随时取消存档验证。 这包括不是[!DNL Workfront Proof]用户的审阅人。
 
-要从“已存档的校样”视图中取消存档校样，请执行以下操作：
+要从“存档的验证”视图中取消存档验证，请执行以下操作：
 
-1. 单击 **[!UICONTROL 视图]**，然后单击 **[!UICONTROL 所有项目]** > **[!UICONTROL 存档校样]**.
+1. 单击&#x200B;**[!UICONTROL 视图]**，然后单击&#x200B;**[!UICONTROL 所有项目]** > **[!UICONTROL 存档的校样]**。
 
-1. 单击要取消存档的任何校样或校样旁边的复选框。
-1. 单击 **[!UICONTROL 更多]**，然后单击 **[!UICONTROL 取消存档]** 菜单。\
-   页面顶部会显示一条消息，指示校样正在取消存档。
+1. 单击要取消存档的任何验证或验证旁边的复选框。
+1. 单击&#x200B;**[!UICONTROL 更多]**，然后在出现的菜单中单击&#x200B;**[!UICONTROL 取消存档]**。\
+   页面顶部会显示一条消息，指示正在取消存档您的校样。

@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日这一周。 有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022年4月4日这一周。 有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 配置自定义表单以使用多个对象类型
 
@@ -33,20 +33,20 @@ in January 2022
 
 此功能适用于之前在Workfront系统中创建的所有自定义表单。 例如，如果您已经拥有为Task对象类型创建的自定义表单，则现在可以将表单配置为同时使用其他对象类型，如“项目”和“问题”。
 
-有关更多信息，请参阅部分 [开始创建自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 在文章中 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关详细信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[开始创建自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start)部分。
 
 >[!NOTE]
 >
->* 在首次预览发布此功能时，我们暂时禁用了复制多对象自定义表单的功能。 该功能已于3月24日启用。 有关复制自定义表单的信息，请参阅 [复制自定义表单以创建新表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* 在计算自定义字段中，您引用的某些字段可能与为表单配置的对象类型不兼容。 我们的解决方案是一个通配符，允许计算根据表单附加到的对象输出不同的值。 我们在3月24日添加了通配符。 有关如何使用它的信息，请参阅部分 [多对象自定义表单中计算的自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 在文章中 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* 对于自定义表单中的分区界限，我们已创建了一组通用的查看和编辑权限，这些权限适用于可为表单配置的所有对象类型。 在一个方案中，我们发现这些权限之一“有限编辑”可能会导致表单上出现错误。 此问题已于3月24日修复。 有关分节符的详细信息，请参阅 [向自定义表单添加分区界限](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* 在首次预览发布此功能时，我们暂时禁用了复制多对象自定义表单的功能。 该功能已于3月24日启用。 有关复制自定义表单的信息，请参阅[复制自定义表单以创建新表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)。
+>* 在计算自定义字段中，您引用的某些字段可能与为表单配置的对象类型不兼容。 我们的解决方案是一个通配符，允许计算根据表单附加到的对象输出不同的值。 我们在3月24日添加了通配符。 有关如何使用它的信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的[多对象自定义表单中的计算自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat)部分。
+>* 对于自定义表单中的分区界限，我们已创建了一组通用的查看和编辑权限，这些权限适用于可为表单配置的所有对象类型。 在一个方案中，我们发现这些权限之一“有限编辑”可能会导致表单上出现错误。 此问题已于3月24日修复。 有关分区界限的更多信息，请参阅[将分区界限添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 >
 
 ## Blueprint目录可供所有用户使用，管理员可以允许请求
 
-所有Adobe Workfront用户现在都可以浏览可用Blueprint的目录。 有关更多信息，请参阅 [浏览Blueprint目录并请求安装Blueprint](../../../administration-and-setup/blueprints/browse-catalog.md).
+所有Adobe Workfront用户现在都可以浏览可用Blueprint的目录。 有关详细信息，请参阅[浏览Blueprint目录并请求安装Blueprint](../../../administration-and-setup/blueprints/browse-catalog.md)。
 
-此外，系统管理员可以为用户启用访问权限，以请求安装Blueprint。 通过分配请求队列来存储请求，用户可以从Blueprint目录发出请求。 有关更多信息，请参阅 [配置对Blueprint的访问权限](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+此外，系统管理员可以为用户启用访问权限，以请求安装Blueprint。 通过分配请求队列来存储请求，用户可以从Blueprint目录发出请求。 有关详细信息，请参阅[配置对Blueprint的访问权限](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md)。
 
 ## 将图像添加到自定义表单
 
@@ -60,11 +60,11 @@ in January 2022
 >
 >在新的Adobe Workfront体验区域（如批量编辑项目时显示的框）中，尚未进行现代化，自定义表单图像无法显示。 它们将在我们继续更新这些区域时显示。
 
-有关更多信息，请参阅 [在自定义表单中添加或编辑资源小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关详细信息，请参阅[在自定义表单中添加或编辑资源小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 新的默认访问级别配置
 
-为了更好地满足大多数创建新访问级别的管理员的需求，我们更改了下面列出的“微调您的设置”选项的默认配置。 单击齿轮图标时，将显示这些图标 ![](assets/gear-icon-in-access-levels.png) 在“编辑”按钮上。
+为了更好地满足大多数创建新访问级别的管理员的需求，我们更改了下面列出的“微调您的设置”选项的默认配置。 当您单击“编辑”按钮上的齿轮图标![](assets/gear-icon-in-access-levels.png)时，这些组件会显示。
 
 所有这些更改都会禁用以前默认启用的选项。 如果这不符合贵组织的需求，则可以在设置新访问级别时或稍后随时启用它们。
 
@@ -95,13 +95,13 @@ in January 2022
 
 以前，无法停用组。
 
-有关更多信息，请参阅 [停用或重新激活组](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+有关详细信息，请参阅[停用或重新激活组](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 ## Blueprint安装历史记录增强
 
 安装Blueprint时，现在会显示一条消息，其中显示已成功与Blueprint一起安装的特定对象（例如角色、团队或组）以及任何无法安装的对象。 您还可以通过单击安装历史记录表中特定安装旁边的查看详细信息，查看“Blueprint详细信息”页面上的已安装对象列表。
 
-有关更多信息，请参阅 [安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
+有关详细信息，请参阅[安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md)。
 
 ![](assets/blueprints-installation-history-350x95.png)
 
@@ -111,4 +111,4 @@ in January 2022
 
 如果您在生产环境、沙盒1或沙盒2中访问仅预览内容，则安装按钮无效，您可能会看到一条警告消息。
 
-有关更多信息，请参阅 [安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
+有关详细信息，请参阅[安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md)。

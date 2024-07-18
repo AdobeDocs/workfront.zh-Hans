@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 现在，您可以看到您作为资源经理的项目上的所有任务，这让您在做出计划决策时获得更多信息。
 
@@ -44,11 +44,12 @@ ht-degree: 0%
 
 以前，分配底纹默认显示且无法禁用。
 
-有关如何启用用户分配选项的更多信息，请参阅“在计划区域中管理用户分配”。
+有关如何启用用户分配选项的详细信息，请参阅
+“在计划区域管理用户分配”。
 
 ## 布局模板确定新日历还是旧日历显示在“我的工作区”中
 
-**预览沙盒：2016年12月7日；抢先体验：2016年12月14日** 
+**预览沙盒：2016年12月7日；抢先访问：2016年12月14日** 
 
 默认情况下，如果未应用布局模板，新日历会显示在“我的工作”区域中。
 
@@ -58,32 +59,32 @@ ht-degree: 0%
 
 要配置Workfront在应用布局模板时在“我的工作”区域显示新日历，请配置布局模板以显示任务和问题的规划完成日期，然后将该布局模板分配给适当的用户。
 
-有关配置布局模板的详细信息，请参阅 [创建和管理布局模板](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) 在 [创建和管理布局模板](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+有关配置布局模板的更多信息，请参阅[创建和管理布局模板](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中的[创建和管理布局模板](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)。
 
 ## Outlook 365 Beta
 
-**测试版：待定；公开发布：待定**
+**Beta：待定；公开可用性：待定**
 
 您可以从适用于Office 365的Outlook中使用Workfront，如以下部分所述：
 
-* [设置适用于Outlook的Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* [为Outlook设置Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * 使用Outlook 365从电子邮件更新现有项目
 
 ## 通过拖放操作对任何列表中的列重新排序
 
-**抢先体验：2016年2月20日**
+**提前访问：2016年2月20日**
 
 您可以更改任何列表中的列顺序，方法是：将列从一个位置拖放到另一个位置。
 
 当同时查看甘特图和列表视图，并且要查看的列未显示在页面左侧时，此功能特别有用。 
 
-有关更多信息，请参阅 [修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+有关详细信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## 更新了“功能板列表”中的外观
 
 现在，查看仪表板列表时，外观会更加新颖，而且可扩展性也更高。
 
-有关功能板的更多信息，请参阅 [创建功能板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+有关仪表板的详细信息，请参阅[创建仪表板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 
 ## 控制对自定义Forms的访问
 
@@ -93,10 +94,10 @@ ht-degree: 0%
 
 在此更改之前，您只能向组授予访问权限。
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+有关详细信息，请参阅[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## 与Adobe Creative Cloud集成
 
-**可供下载的加载项：2016年4月**
+**加载项可供下载： 2016年4月**
 
 适用于Adobe Creative Cloud的Workfront扩展可让您保存并在Creative Cloud中创建的资源并将其导出到Workfront，从而加快审批和审查过程。

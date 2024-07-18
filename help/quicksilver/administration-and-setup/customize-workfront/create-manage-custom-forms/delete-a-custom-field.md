@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >删除自定义字段也会在填写附加到对象的自定义表单时删除用户在该字段输入的所有自定义数据。 已删除的数据将无法恢复。
 >
->您可以查看所有使用要删除的自定义字段的自定义表单和报表，以评估可能会产生的影响。 有关更多信息，请参阅 [查看使用特定自定义字段或小部件的所有自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) 和 [查看使用特定自定义字段或小部件的所有报表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>您可以查看所有使用要删除的自定义字段的自定义表单和报表，以评估可能会产生的影响。 有关详细信息，请参阅[查看使用特定自定义字段或小部件的所有自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)和[查看使用特定自定义字段或小部件的所有报表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)。
 >
->或者，有关可用于避免丢失不再使用字段中数据的解决方法，请参阅 [删除自定义字段而不丢失用户输入的数据](#remove-a-custom-field-without-losing-data-that-users-have-entered) 本文章中。
+>或者，为避免丢失不再使用的字段中的数据，您可以使用的解决方法，请参阅[删除自定义字段而不丢失用户在此文章中输入的数据](#remove-a-custom-field-without-losing-data-that-users-have-entered)。
 
 ## 访问要求
 
@@ -53,16 +53,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 从系统中删除自定义字段或构件
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms。**
-1. 单击 **字段** 以打开“字段”区域。
-1. 选择自定义字段或构件，然后单击 **删除**.
-1. 如果您确实想要永久删除项目，并（对于自定义字段）删除所附加对象的全部关联数据，请单击 **是的，删除它**.
+1. 单击&#x200B;**自定义Forms。**
+1. 单击&#x200B;**字段**&#x200B;以打开“字段”区域。
+1. 选择自定义字段或构件，然后单击&#x200B;**删除**。
+1. 如果确实要永久删除该项以及（对于自定义字段）附加它的对象上的所有关联数据，请单击&#x200B;**是，删除它**。
 
 ## 删除自定义字段而不丢失用户输入的数据 {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,13 @@ ht-degree: 0%
 
    1. 将自定义字段添加到要从原始自定义表单中删除的新表单。
 
-      * 如果您使用的是自定义表单生成器，请参阅 [在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * 如果您使用的是表单设计器，请参阅 [向自定义表单中添加新字段或现有字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      * 如果使用自定义表单生成器，请参阅[在自定义表单中重用自定义字段或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)。
+      * 如果您使用的是表单设计器，请参阅[向自定义表单添加新字段或现有字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)。
 
    1. 保存新的自定义表单。
 
-1. 将自定义表单的访问权限限制为仅授予具有管理访问权限的用户，如中所述 [共享自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. 将新的自定义表单应用于已应用原始自定义表单的对象，如中所述 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. 将自定义表单的访问权限限制为仅具有管理访问权限的用户，如[共享自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)中所述。
+1. 将新的自定义表单应用于已应用原始自定义表单的对象，如[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中所述。
 
    将新的自定义表单应用于这些对象可确保历史报表数据不受影响。
 

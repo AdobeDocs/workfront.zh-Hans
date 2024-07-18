@@ -52,7 +52,7 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -62,7 +62,7 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>访问级别</p></td>
@@ -74,7 +74,7 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -85,7 +85,7 @@ Adobe Workfront管理员向您授予对Adobe Workfront目标的正确访问权�
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 编辑结果和活动时的注意事项
 
@@ -94,7 +94,7 @@ According to Vazgen, access levels will add more considerations.)
 -->
 
 * 您可以编辑属于您创建的目标或您有权管理的目标的结果和活动。
-* 您无法从Workfront目标中编辑作为活动连接到目标的项目进度。 当项目中的任务完成时，将更新项目进度。 您可以通过断开项目之间的连接将其从目标中删除。 有关更多信息，请参阅文章中的“断开项目连接”部分 [从Adobe Workfront目标中的目标删除结果、活动和项目](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* 您无法从Workfront目标中编辑作为活动连接到目标的项目进度。 当项目中的任务完成时，将更新项目进度。 您可以通过断开项目之间的连接将其从目标中删除。 有关详细信息，请参阅文章[从Adobe Workfront目标中的目标删除结果、活动和项目](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)中的“断开项目连接”部分。
 
   >[!NOTE]
   >
@@ -107,11 +107,11 @@ According to Vazgen, access levels will add more considerations.)
   >   * 项目完成百分比
   >   
   >   
-  >有关将项目连接到目标的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >有关将项目连接到目标的信息，请参阅[在Adobe Workfront目标中添加项目](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 
-* 当结果和活动不再与目标进度相关时，您可以从目标中删除它们。 无法恢复已删除的结果和活动。 有关删除结果和活动的信息，请参阅 [从Adobe Workfront目标中的目标删除结果、活动和项目](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* 当结果和活动不再与目标进度相关时，您可以从目标中删除它们。 无法恢复已删除的结果和活动。 有关删除结果和活动的信息，请参阅[从Adobe Workfront目标中的目标删除结果、活动和项目](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)。
 * 您可以编辑与任何时间段（包括过去）的目标关联的结果和活动。
-* 编辑结果和活动会更新其设置，而不会更新其进度。 您必须更新结果和活动的进度。 有关更新目标、结果和活动进度的信息，请参阅 [在Adobe Workfront目标中更新目标进度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* 编辑结果和活动会更新其设置，而不会更新其进度。 您必须更新结果和活动的进度。 有关更新目标、结果和活动进度的信息，请参阅[在Adobe Workfront目标中更新目标进度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)。
 
 ## 编辑结果
 
@@ -140,10 +140,10 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png)，则 **目标**.
+1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
-1. 单击 **进度指示器** 在左侧面板中。
-1. 在进度指示器列表中选择一个结果，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
+1. 单击左侧面板中的&#x200B;**进度指示器**。
+1. 在进度指示器列表中选择一个结果，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
    “编辑结果”框打开。
 
@@ -152,10 +152,10 @@ Editing results differs depending on which environment you use.
 1. 编辑以下信息：
    * **结果名称**：结果的名称。 使用说明性名称，说明完成目标需要获得的结果。
    * **结果所有者**：结果的所有者。 所有者必须是活动的Workfront用户。
-   * **值类型**：如何衡量结果的进度。
+   * **值类型**：如何度量结果的进度。
    * **初始值**：结果的原始值。
    * **目标值**：结果完成时所需的值。
-有关结果字段的更多信息，请参阅 [将结果添加到目标](../results-and-activities/add-results-to-goals.md).
+有关结果字段的详细信息，请参阅[将结果添加到目标](../results-and-activities/add-results-to-goals.md)。
 1. 单击&#x200B;**保存**。
 
 ## 编辑活动
@@ -185,10 +185,10 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png)，则 **目标**.
+1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标页面。
-1. 单击 **进度指示器** 在左侧面板中。
-1. 在进度指示器列表中选择活动，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
+1. 单击左侧面板中的&#x200B;**进度指示器**。
+1. 在进度指示器列表中选择活动，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
    将打开“编辑活动”框。
 
@@ -196,8 +196,8 @@ Editing activities differs depending on which environment you use.
 
 1. 编辑以下信息：
    * **活动名称**：活动的名称。 使用说明性名称，说明应该执行哪些活动以指示目标完成。
-   * **活动所有者：** 活动的所有者。 所有者必须是活动的Workfront用户。\
-     有关活动字段的更多信息，请参阅 [将活动添加到目标](../results-and-activities/add-activities-to-goals.md).
+   * **活动所有者：**&#x200B;该活动的所有者。 所有者必须是活动的Workfront用户。\
+     有关活动字段的详细信息，请参阅[将活动添加到目标](../results-and-activities/add-activities-to-goals.md)。
 1. 单击&#x200B;**保存**。
 
 

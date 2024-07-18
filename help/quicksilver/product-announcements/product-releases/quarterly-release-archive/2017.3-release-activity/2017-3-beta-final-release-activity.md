@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.3 Beta最终发布活动
-description: 本页介绍2017.3测试版最终版本在“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年9月12日在预览环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
+title: 2017.3 Beta最终发行版活动
+description: 本页介绍了2017.3 Beta Final版本在“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年9月12日在预览环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,49 +14,49 @@ ht-degree: 0%
 
 ---
 
-# 2017.3 Beta最终发布活动
+# 2017.3 Beta最终发行版活动
 
-本页介绍2017.3测试版最终版本在“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年9月12日在预览环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
+本页介绍了2017.3 Beta Final版本在“预览”环境中最近提供的所有更改。 此页面上的功能已于2017年9月12日在预览环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
-2017.3测试版最终版本包含面向Workfront管理员和其他用户的增强功能：
+2017.3 Beta最终版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
-* [用于在“审批设置”区域中撤消请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
+* [在审批设置区域重新调用请求的新配置](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [配置默认验证角色](#configure-default-proof-roles)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 
-* [更新了布局模板以支持主页区域](#updated-layout-template-to-support-the-home-area)
+* [已更新布局模板以支持主区域](#updated-layout-template-to-support-the-home-area)
 
-* [适用于敏捷的Kanban](#kanban-for-agile)
-* [包括有关Agile团队的Scrum积压的问题](#include-issues-on-the-scrum-backlog-for-an-agile-team)
-* [包含有关Scrum敏捷故事板的问题](#include-issues-on-the-scrum-agile-story-board)
-* [将分组和筛选器应用于Agile团队的积压](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
-* [预览环境中返回的@Tagging增强功能](#enhanced-tagging-functionality-returns-in-the-preview-environment)
-* [更新流中的过滤器系统更新现在可以跨对象持续进行](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* 适用于Agile的[Kanban](#kanban-for-agile)
+* [Agile团队的Scrum积压中包括问题](#include-issues-on-the-scrum-backlog-for-an-agile-team)
+* [在Scrum敏捷故事板上包含问题](#include-issues-on-the-scrum-agile-story-board)
+* [将分组和筛选器应用于Agile团队的积压工作](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
+* [在预览环境中返回增强的@Tagging功能](#enhanced-tagging-functionality-returns-in-the-preview-environment)
+* 更新流中的[筛选器系统更新现在跨对象持续存在](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
 * [在利用率报告中可视化数据](#visualize-data-in-the-utilization-report)
 * [利用率报告性能改进](#utilization-report-performance-improvement)
-* [文档增强：简化的界面](#document-enhancements-streamlined-interface)
-* [Workfront中的校对增强功能](#proofing-enhancements-within-workfront)
-* [Workfront Proof和Workfront中的校对增强功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* [更新和电子邮件的富文本格式](#rich-text-formatting-for-updates-and-emails)
-* [新的甘特图重新设计](#new-gantt-chart-redesign)
+* [文档增强：精简的界面](#document-enhancements-streamlined-interface)
+* Workfront中的[校对增强功能](#proofing-enhancements-within-workfront)
+* Workfront Proof和Workfront中的[校对增强功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
+* 更新和电子邮件的[富文本格式](#rich-text-formatting-for-updates-and-emails)
+* [新甘特图重新设计](#new-gantt-chart-redesign)
 * [内置报告包含更新的描述](#built-in-reports-contain-updated-descriptions)
-* [导出的报告、列表和功能板中的品牌化](#branding-in-exported-reports-lists-and-dashboards)
+* [在导出的报告、列表和功能板中品牌化](#branding-in-exported-reports-lists-and-dashboards)
 * [复制任务和移动任务或问题时的改进](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
-* [资源预算小时报表的新分组：分配日期](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
+* [资源预算小时报告的新分组：分配日期](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
 * [资源规划者改进](#resource-planner-improvements)
 * [移动改进](#mobile-improvements)
-* [Workfront与Slack集成](#workfront-integration-with-slack)
+* [Workfront与Slack的集成](#workfront-integration-with-slack)
 * [Outlook 365改进](#outlook-365-improvements)
 * [API更改](#api-changes)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 * 在项目中创建临时问题
 * 仅查看那些委托给您的审批
 
-有关使用新的“主页”区域的详细信息，请参阅 [使用“主页”区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+有关使用新主页区域的详细信息，请参阅[使用主页区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 ## 更新了布局模板以支持主页区域 {#updated-layout-template-to-support-the-home-area}
 
@@ -106,11 +106,11 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 * 配置积压中的物料，当其他物料移至等同于“完成”的状态时，这些物料自动添加到Kanban敏捷故事板。
 
-  有关更多信息，请参阅 [配置要从积压自动添加的故事](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 在 [配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)。
 
 * 配置要在Kanban敏捷故事板上显示的进行中的工作(WIP)限制。
 
-  有关更多信息，请参阅 [配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) 在 [配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  有关详细信息，请参阅[配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)。
 
 **在Workfront中使用Scrum的好处**
 
@@ -118,14 +118,14 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 * 将问题包含在Scrum故事板上。
 * 包括Agile团队积压的问题。
 
-  有关更多信息，请参阅 [配置将工作项添加到开发周期时应用日期的方式](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) 在 [配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+  有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[配置将工作项添加到开发周期](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)时如何应用日期。
 
 * 子任务可以显示在Scrum故事板上。
 * 查看燃尽图以查看迭代期间历程的进度。
 
-  有关更多信息，请参阅 [敏捷燃尽图概述](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+  有关详细信息，请参阅[敏捷燃尽图概述](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
-有关为Agile团队启用和配置Kanban的更多信息，请参阅 [确定敏捷方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 在 [创建Agile团队](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+有关为Agile团队启用和配置Kanban的更多信息，请参阅[创建Agile团队](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中的[确定Agile方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)。
 
 ## 包括有关Agile团队的Scrum积压的问题 {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -139,9 +139,9 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 由于您现在不仅可以访问积压中的任务，因此积压中之前可用的任何自定义任务视图都会复制并作为自定义积压工作项目视图添加到积压中。
 
-有关在积压中使用问题的信息，请参阅  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+有关在积压中使用问题的信息，请参阅  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-有关启用问题在Agile Scrum团队的积压中可用的信息，请参阅  [配置将工作项添加到开发周期时应用日期的方式](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) 在 [配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+有关启用问题在Agile Scrum团队的积压中可用的信息，请参阅  [在[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中配置将工作项添加到迭代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)时如何应用日期。
 
 ## 包含有关Scrum敏捷故事板的问题 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +151,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 在使用Scrum敏捷方法时，您现在可以在故事板上包含问题。
 
-有关更多信息，请参阅 [在敏捷故事板上配置状态列](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) 在 [配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+有关详细信息，请参阅[配置Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[在Agile故事板](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)上配置状态列。
 
 ## 将分组和筛选器应用于Agile团队的积压 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -163,7 +163,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 在此更改之前，您可以将视图应用于Agile积压。
 
-有关更多信息，请参阅  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 在  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+有关更多信息，请参阅  [管理Agile积压工作](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)，位于  [管理Agile积压](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ## 更新和电子邮件的富文本格式 {#rich-text-formatting-for-updates-and-emails}
 
@@ -175,11 +175,11 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 使用富文本工具，您可以将格式属性应用于文本，生成项目符号和编号列表，以及向其他资源添加超链接。
 
-应用于更新流中评论的格式也会显示在更新电子邮件通知中。 要了解有关设置评论格式的更多信息，请参阅 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+应用于更新流中评论的格式也会显示在更新电子邮件通知中。 若要了解有关设置评论格式的详细信息，请参阅[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 预览环境中返回的@Tagging增强功能 {#enhanced-tagging-functionality-returns-in-the-preview-environment}
 
-可以再次使用@符号在“预览”环境中所有对象的更新流中标记其他用户。 过去，@tagging将已标记用户的名字和姓氏放置在更新流中。 现在，增强的@tagging功能仅显示用户的名字。 要了解有关在更新中标记用户的更多信息，请参阅 [为其他人标记更新](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+可以再次使用@符号在“预览”环境中所有对象的更新流中标记其他用户。 过去，@tagging将已标记用户的名字和姓氏放置在更新流中。 现在，增强的@tagging功能仅显示用户的名字。 若要了解有关在更新中标记用户的更多信息，请参阅[在更新中标记其他用户](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 ## 更新流中的过滤器系统更新现在可以跨对象持续进行 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
@@ -187,23 +187,23 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 在此更改之前，您必须选择在浏览Workfront站点时筛选掉每个对象的系统更新。
 
-有关更多信息，请参阅 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 在利用率报告中可视化数据 {#visualize-data-in-the-utilization-report}
 
  您现在可以在图表视图中查看利用率信息。 
 
-有关更多信息，请参阅 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 利用率报告性能改进 {#utilization-report-performance-improvement}
 
 >[!NOTE]
 >
->该功能在Beta最终版本发布后的补丁中发布。
+>此功能在Beta最终版本发布后的修补程序中发布。
 
 现在，当运行利用率报告时，系统会提示您先应用过滤器，然后再运行报告。 此更改可确保尽快在利用率报告中生成最相关的信息。
 
-有关运行“利用率”报告的详细信息，请参见 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关运行利用率报告的详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 文档增强：简化的界面 {#document-enhancements-streamlined-interface}
 
@@ -223,8 +223,8 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 ## Workfront中的校对增强功能 {#proofing-enhancements-within-workfront}
 
-* [改进了用户体验和其他功能](#improved-user-experience-and-additional-functionality)
-* [直接从验证查看器共享](#share-directly-from-the-proofing-viewer)
+* [已改进的用户体验和附加功能](#improved-user-experience-and-additional-functionality)
+* [直接从验证查看者共享](#share-directly-from-the-proofing-viewer)
 * [配置默认验证角色](#configure-default-proof-roles)
 
 ### 改进了用户体验和其他功能 {#improved-user-experience-and-additional-functionality}
@@ -245,7 +245,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 >
 > 使用自动化工作流创建新验证时，不支持使用拖放操作将用户从一个阶段移动到另一个阶段。 取而代之的是，从一个步骤中删除用户，然后将其添加到另一个步骤。
 
-*2018.1版本中将重新引入使用拖放功能将用户从一个步骤移动到另一个步骤的选项。*
+*2018.1版本将重新引入使用拖放功能将用户从一个步骤移动到另一个步骤的选项。*
 
 ### 直接从验证查看器共享 {#share-directly-from-the-proofing-viewer}
 
@@ -253,11 +253,11 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 >[!NOTE]
 >
->此功能仅适用于新验证（在2017.3版本之后创建的验证），并且仅适用于与Workfront Proof Premium帐户集成的Workfront实例。
+>此功能仅适用于新验证（2017.3版本之后创建的验证），并且仅适用于与Workfront Proof Premium帐户集成的Workfront实例。
 
 在此更改之前，您只能通过创建链接并与用户共享该链接来进行共享。 
 
-有关更多信息，请参阅 [在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 在 [在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+有关详细信息，请参阅[在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)中的[在Adobe Workfront中共享验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
 ### 配置默认验证角色 {#configure-default-proof-roles}
 
@@ -274,7 +274,7 @@ Workfront中的Scrum和Kanban敏捷方法在以下方面有所不同：
 
 现在，视频的HTML5校对查看器中提供了键盘快捷键，可让您从视频开始重新开始并跳到视频结尾。
 
-有关可用键盘快捷键的更多信息，请参阅 [Workfront校对查看器中的键盘快捷键](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
+有关可用键盘快捷键的更多信息，请参阅Workfront Proof验证查看器中的[键盘快捷键](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)。
 
 ### HTML5验证查看器更新 {#html5-proofing-viewer-updates}
 
@@ -290,7 +290,7 @@ HTML查看器在校对静态内容时包括以下新功能：
 
 * 通过验证缩略图导航验证
 
-   * 轻松识别正在审阅的证明部分。 这一点很重要，尤其是当用户使用格式更大的验证和较长的网页时，或者在任何时候需要更大的缩放级别来查看详细信息时。
+   * 轻松识别正在审阅的证明部分。 这一点很重要，尤其是当用户使用格式更大的验证和较长的网页时，或者在任何时候  需要更大的缩放级别才能查看详细信息。
    * 更改缩放级别
    * 平移内容
 
@@ -320,7 +320,7 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 * 图表列表部分中的较小任务单元格
 * 重新设计了设置、打印和切换到预计日期的选项。
 
-有关在甘特图中配置选项的详细信息，请参阅 [配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+有关配置甘特图中的选项的详细信息，请参阅[配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。 
 
 ## 内置报告包含更新的描述 {#built-in-reports-contain-updated-descriptions}
 
@@ -328,7 +328,7 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 在此更改之前，我们的大多数内置报告没有描述，或者描述非常有限。
 
-有关内置报告的详细信息，请参阅 [使用Adobe Workfront内置报告](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+有关内置报告的详细信息，请参阅[使用Adobe Workfront内置报告](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)。
 
 ## 导出的报告、列表和功能板中的品牌化 {#branding-in-exported-reports-lists-and-dashboards}
 
@@ -344,17 +344,17 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 * 导出和传递的报表
 * 打印的功能板
 
-有关从Workfront导出数据的更多信息，请参阅 [导出数据](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+有关从Workfront导出数据的详细信息，请参阅[导出数据](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
 ## 复制任务和移动任务或问题时的改进 {#improvements-when-copying-tasks-and-moving-tasks-or-issues}
 
 我们改进了您复制任务或移动任务或问题的方式，使其更易于为复制或移动的任务或问题选择父级。 例如，在复制任务时选择父项时，您现在可以看到任务的层次结构及其父 — 子关系，以及在具有大量任务的项目中搜索父项。
 
-在此更改之前，中无搜索字段 **选择父级** 步骤中，任务的层次结构在任务列表中不可见。
+在此更改之前，**选择父项**&#x200B;步骤中没有搜索字段，任务列表中的任务层次结构不可见。
 
-有关复制任务的详细信息，请参阅 [复制和复制任务](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+有关复制任务的详细信息，请参阅[复制和复制任务](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
-有关移动问题的更多信息，请参阅 [移动问题](../../../../manage-work/issues/manage-issues/move-issues.md).
+有关移动问题的详细信息，请参阅[移动问题](../../../../manage-work/issues/manage-issues/move-issues.md)。
 
 ## 用于在“审批设置”区域中撤消请求的新配置 {#new-configuration-for-recalling-requests-in-the-approval-settings-area}
 
@@ -362,7 +362,7 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 在此更改之前，始终允许召回问题。 撤回批准后，批准被完全绕过，将问题置于其第一状态，不附批准。
 
-有关审批设置的详细信息，请参阅 [配置全局审批设置](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md). 
+有关审批设置的详细信息，请参阅[配置全局审批设置](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)。 
 
 >[!NOTE]
 >
@@ -374,9 +374,9 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 在此更改之前，您可以在报表视图中显示分配日期，并在筛选器中使用它，但不能在分组中使用此字段。
 
-有关分配日期的详细信息，请参阅 [Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+有关分配日期的详细信息，请参阅[Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-有关构建报表的更多信息，请参阅 [创建自定义报表](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关生成报告的详细信息，请参阅[创建自定义报告](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 资源规划者改进 {#resource-planner-improvements}
 
@@ -390,31 +390,31 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 
 您现在可以在资源规划程序中按FTE显示资源的分配和可用性。 在此更改之前，您只能以小时为单位显示值。
 
-有关使用资源规划者的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关使用资源规划者的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ### 资源规划者：按周和季度显示数据 {#resource-planner-show-data-by-week-and-quarter}
 
 您现在可以更改资源规划者的时间范围间隔，以按周或季度查看。 在此更改之前，您可以查看资源的分配和可用性，并仅按月份对其进行预算。
 
-有关使用资源规划者的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关使用资源规划者的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ### 资源规划者：按用户查看 {#resource-planner-view-by-user}
 
 现在，您可以在资源规划程序中按用户、先按项目、角色和任务显示信息。 您还可以为用户显示计划小时数和可用小时数或FTE之间的差异。 在此更改之前，您可以按项目和角色在资源规划者中显示信息。
 
-有关使用资源规划者的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关使用资源规划者的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ### 资源规划者：拖放项目以建立优先级 {#resource-planner-drag-and-drop-projects-to-establish-priority}
 
 您现在可以根据所需的优先级顺序拖放项目。 在此更改之前，您只能通过手动为项目分配一个编号来建立项目的优先级。
 
-有关使用资源规划者的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关使用资源规划者的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ### 资源规划者：将资源规划者中的数据导出到Excel {#resource-planner-export-the-data-in-the-resource-planner-to-excel}
 
 您现在可以将资源规划者中的信息导出到Excel文件。
 
-有关使用资源规划者的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关使用资源规划者的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
 ## 移动改进 {#mobile-improvements}
 
@@ -444,36 +444,36 @@ HTML5查看器尚不支持现有Flash查看器当前提供的所有功能。 以
 * 批准您的工作
 * 访问“收藏夹”和“最近项目”列表
 
-有关从Slack访问Workfront的更多信息，请参阅 [将Workfront与Slack结合使用。](https://support.workfront.com/hc/en-us/sections/115000458033)
+有关从Slack访问Workfront的更多信息，请参阅[在Slack中使用Workfront。](https://support.workfront.com/hc/en-us/sections/115000458033)
 
 ## Outlook 365改进 {#outlook-365-improvements}
 
-我们对Outlook 365的Workfront加载项进行了以下改进：
+我们已对的Workfront加载项进行了以下改进  Outlook 365：
 
 * 在Workfront中将任务或问题添加到项目：您现在可以使用Outlook 365加载项在Workfront中将电子邮件转换为任务或问题。 在此流程中，您可以指定要将任务或问题添加到的项目，以及被分派人和到期日期。 在此增强功能之前，您只能向请求队列提交请求，或向Outlook 365中的“正在处理”列表添加个人任务。 
 * 保留原始电子邮件中转换为任务、问题或请求的Workfront对象的链接：将来自Outlook 365的电子邮件转换为任务、问题或请求时，Outlook 365会保留原始电子邮件中从该电子邮件转换的任务或问题的链接。 在此更改之前，Outlook中没有任何指示电子邮件是否已转换为任务或作为请求提交。 
 
-  有关将电子邮件从Outlook 365转换为任务或问题的详细信息，请参阅 [将Outlook电子邮件作为任务或问题添加到项目](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
+  有关将电子邮件从Outlook 365转换为任务或问题的详细信息，请参阅[将Outlook电子邮件作为任务或问题添加到项目](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)。
 
 ## API更改 {#api-changes}
 
 * [API 8现已可用](#api-8-now-available)
 * [已移除和已弃用的API版本](#removed-and-deprecated-versions-of-the-api)
-* [2017.3 Beta最终发布活动](#updated-message-format-for-event-subscriptions)
+* [2017.3 Beta最终发行版活动](#updated-message-format-for-event-subscriptions)
 * [无法投放消息的事件订阅重试](#event-subscription-retries-for-undeliverable-messages)
 
 ### API 8现已可用 {#api-8-now-available}
 
 Workfront API版本8现已可用，并且可为您的Workfront集成为您提供新的和更新的资源。
 
-有关对Workfront API所做的更改列表，请参阅 [API版本8的更新](../../../../wf-api/api/new-api-version-8-updates.md).
+有关Workfront API更改列表，请参阅[API版本8](../../../../wf-api/api/new-api-version-8-updates.md)的更新。
 
 ### 已移除和已弃用的API版本 {#removed-and-deprecated-versions-of-the-api}
 
 ### 更新了活动订阅的消息格式
 
-为了向包含Workfront事件订阅API的集成提供更多有用信息，我们通过包含与这些资源关联的旧值和新值，更改了支持资源的出站消息格式。 为避免失败，您需要将使用Workfront事件订阅API的任何集成更新为新格式，如中所述 [事件订阅API](../../../../wf-api/general/event-subs-api.md).
+为了向包含Workfront事件订阅API的集成提供更多有用信息，我们通过包含与这些资源关联的旧值和新值，更改了支持资源的出站消息格式。 为避免失败，您需要将使用Workfront事件订阅API的任何集成更新为新格式，如[事件订阅API](../../../../wf-api/general/event-subs-api.md)中所述。
 
 ### 无法投放消息的事件订阅重试 {#event-subscription-retries-for-undeliverable-messages}
 
-Workfront事件订阅框架现在提供了一种机制，用于处理无法交付到客户端点的事件触发出站消息。 为确保报文持续投放，客户应确保正确设置任何使用事件订阅出站报文的端点。 有关更多信息，请参阅 [事件订阅重试](../../../../wf-api/api/event-sub-retries.md).
+Workfront事件订阅框架现在提供了一种机制，用于处理无法交付到客户端点的事件触发出站消息。 为确保报文持续投放，客户应确保正确设置任何使用事件订阅出站报文的端点。 有关详细信息，请参阅[事件订阅重试次数](../../../../wf-api/api/event-sub-retries.md)。

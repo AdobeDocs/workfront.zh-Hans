@@ -27,14 +27,14 @@ R1版本使用户、知识工人和管理员能够更好地管理他们的工作
 * [回收站](#recycle-bin)
 * [系统配置增强功能](#system-configuration-enhancements)
 * [资源计划增强功能](#resource-scheduling-enhancements)
-* [批准增强功能](#approvals-enhancements)
+* [审批增强功能](#approvals-enhancements)
 * [项目和文档增强功能](#project-and-document-enhancements)
 * [用户管理增强功能](#user-management-enhancements)
 * [电子邮件通知增强功能](#email-notification-enhancements)
 * [移动和Outlook增强功能](#mobile-and-outlook-enhancements)
 * [其他增强功能](#other-enhancements)
 * [校对增强功能](#proofing-enhancements)
-* [R1中未发布到生产环境的功能](#functionality-not-releasing-to-production-in-r1)
+* [功能未发布到R1](#functionality-not-releasing-to-production-in-r1)中的生产环境
 * [2017 R1预览版网络研讨会](#2017-r1-preview-release-webinars)
 * [维护更新](#maintenance-updates)
 
@@ -42,8 +42,8 @@ R1版本使用户、知识工人和管理员能够更好地管理他们的工作
 
 ## 回收站 {#recycle-bin}
 
-* [从回收站恢复项目、任务和问题](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#restore-projects-tasks-and-issues-with-recycle-bin)
-* [回收站改进：任务和子任务恢复为之前的顺序](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
+* [从回收站还原项目、任务和问题](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#restore-projects-tasks-and-issues-with-recycle-bin)
+* [回收站改进：任务和子任务已恢复为之前的顺序](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
 * [回收站改进：记录在更新流中并接收电子邮件通知](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
 
 ## 系统配置增强功能 {#system-configuration-enhancements}
@@ -54,16 +54,16 @@ R1版本使用户、知识工人和管理员能够更好地管理他们的工作
 
 ## 资源计划增强功能 {#resource-scheduling-enhancements}
 
-* [在计划时间线上管理用户分配](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
+* [在计划时间表上管理用户分配](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
 * [资源计划增强功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#resource-scheduling-enhancements)
 * [默认情况下禁用用户分配](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#user-allocations-are-disabled-by-default)
 
 ## 批准增强功能 {#approvals-enhancements}
 
-* [已更新项目、任务和问题审批](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#update-project-task-and-issue-approval)
+* [已更新项目、任务和问题的审批](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#update-project-task-and-issue-approval)
 * [修改单个对象的现有全局批准流程](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#modify-an-existing-global-approval-process-for-an-individual-object)
-* [在报告中包括批准开始日期和结束日期](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#include-approval-start-and-end-dates-in-reports)
-* [配置待审批的待更新对象](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#configure-objects-that-are-pending-approval-to-be-updated)
+* [在报告中包含审批开始日期和结束日期](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#include-approval-start-and-end-dates-in-reports)
+* [配置待审批要更新的对象](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#configure-objects-that-are-pending-approval-to-be-updated)
 * [审批流程图显示先前、当前和未来审批步骤的可视化表示形式](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#approval-diagram-shows-visual-representation-of-previous-current-and-future-approval-steps)
 
 ## 项目和文档增强功能 {#project-and-document-enhancements}
@@ -71,34 +71,34 @@ R1版本使用户、知识工人和管理员能够更好地管理他们的工作
 * [使用利用率报告跟踪项目进度](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#track-project-progress-with-a-utilization-report)
 * [直接从项目页面更改项目的状态](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#change-the-status-of-a-project-directly-from-the-project-page)
 * [里程碑视图改进](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#milestone-view-improvements)
-* [里程碑视图中的增强功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#enhancements-in-the-milestone-view)
+* 里程碑视图中的[增强功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#enhancements-in-the-milestone-view)
 * [链接外部文件的改进方法](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#improved-method-for-connecting-external-files)
 
 ## 用户管理增强功能 {#user-management-enhancements}
 
 * [安排用户停用](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#schedule-users-for-deactivation)
-* [更新了用于管理组成员资格的对话框](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#updated-dialog-box-for-managing-group-membership)
+* [已更新用于管理组成员资格的对话框](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#updated-dialog-box-for-managing-group-membership)
 * [将组设为公用](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#ability-to-make-a-group-public)
 * [将布局模板分配给组](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#assing-layout-templates-to-groups)
 * [已更新团队正在处理日历](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-team-working-on-calendar)
 
 ## 电子邮件通知增强功能 {#email-notification-enhancements}
 
-* [更新了多个电子邮件通知的外观](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#updated-look-and-feel-of-email-notifications)
-* [更新了文档审批电子邮件通知的外观](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-look-and-feel-of-email-notifications)
+* [已更新多个电子邮件通知的外观](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#updated-look-and-feel-of-email-notifications)
+* [文档审批电子邮件通知的外观已更新](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-look-and-feel-of-email-notifications)
 * [多个通知区域的新电子邮件摘要选项](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#new-email-digest-options-for-several-notification-areas)
-* [“我已做的请求”的新电子邮件摘要选项](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
-* [针对“所需操作”的新电子邮件摘要选项](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
-* [更新了“电子邮件设置”区域中的事件通知分组](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
+* [“我已提出的请求”的新电子邮件摘要选项](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
+* [“需要操作”的新电子邮件摘要选项](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
+* [已在电子邮件设置区域更新事件通知分组](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
 * [选择退出即时通知：上下文摘要配置](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
-* [各种电子邮件通知已从“需要操作”部分移至其他与项目相关的部分](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
+* [各种电子邮件通知已从“需要操作”部分移动到其他与项目相关的部分](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
 * [更改了批量编辑用户通知](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
 ## 移动和Outlook增强功能 {#mobile-and-outlook-enhancements}
 
-以下功能目前在“预览”或Beta版中不可用，但将在R1中发布到“生产”环境：
+以下功能目前在“预览”或Beta中不可用，但将在R1中发布到“生产”环境：
 
-* [在移动设备应用程序中复制文本](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#copy-text-in-the-mobile-app)
+* [在移动应用程序中复制文本](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#copy-text-in-the-mobile-app)
 * [共享移动应用程序中对象的URL](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#share-the-url-of-an-object-in-the-mobile-app)
 * [Outlook 365 Beta](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#outlook-365-beta) 
 * [在移动设备应用程序(Workfront)中搜索](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-the-mobile-app)
@@ -112,49 +112,49 @@ R1版本使用户、知识工人和管理员能够更好地管理他们的工作
 
 Workfront应用程序将随R1发布以下增强功能：
 
-* [从“我的工作区”(Workfront)为验证做出批准决策](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#make-approval-decisions-for-proofs-from-the-my-work-area)
-* [我的工作区域(Workfront)内的验证审批报告](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#report-on-proofing-approvals)
-* [使用拖放功能自动生成文档验证的新版本(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#automatically-generate-a-new-version-of-a-document-proof-using-drag-and-drop)
+* [从我的工作区(Workfront)为验证做出批准决策](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#make-approval-decisions-for-proofs-from-the-my-work-area)
+* [我的工作区(Workfront)中的验证审批报告](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#report-on-proofing-approvals)
+* [使用拖放(Workfront)自动生成文档校对的新版本](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#automatically-generate-a-new-version-of-a-document-proof-using-drag-and-drop)
 * [允许所有验证用户直接从Workfront界面(Workfront)访问ProofHQ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#enable-all-proofing-users-to-access-proofhq)
 
 ### ProofHQ增强
 
 针对R1的ProofHQ应用程序将发布以下增强功能：
 
-* [在PDF文档中搜索(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
-* [更新了全局导航栏(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar)：
+* [在PDF文档(ProofHQ)中搜索](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
+* [已更新全局导航栏(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar)：
 
    * 新建用户个人资料图片
    * 新增Workfront应用程序链接(当ProofHQ帐户与Workfront帐户集成时)
    * 更新外观
 
 * [在自定义视图(ProofHQ)中包含其他信息](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
-* [对验证报告（以前称为Analytics）的改进(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)
+* [对验证报告（以前称为Analytics） (ProofHQ)的改进](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)
 * [在预览环境中查看ProofHQ功能(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#view-proofhq-functionality-in-the-preview-environment)
 
 ## 其他增强功能 {#other-enhancements}
 
-* [配置报告以默认显示新的甘特图](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#configure-reports-to-show-the-new-gantt-chart-by-default)
+* [将报告配置为默认显示新的甘特图](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#configure-reports-to-show-the-new-gantt-chart-by-default)
 * [设置中的上下文相关帮助](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#context-sensitive-help)
 
 ## R1中未发布到生产环境的功能 {#functionality-not-releasing-to-production-in-r1}
 
 本节中介绍的功能在R1发布周期内可在“预览”环境中使用；但是，此功能不会发布到R1中的“生产”环境。 该功能将从“预览”环境中删除6周，直到R1发布到生产环境。 R1发布到生产环境后，将重新引入到“预览”环境。
 
-* [新的资源计划功能（在R1的生产中不可用）](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (在R1中不可用于生产；保留在 **预览**)
+* [新的资源计划功能（在R1的生产中不可用）](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) （在R1的生产中不可用；在&#x200B;**预览**&#x200B;中剩余）
 
-* [通过拖放操作对任何列表中的列重新排序](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (在R1中不可用于生产；保留在 **抢先体验**)
+* [使用拖放操作对任何列表中的列重新排序](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns)（在R1的生产中不可用；剩余时间在&#x200B;**早期访问**&#x200B;中）
 
-* [更新了“功能板列表”中的外观](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (在R1中不可用于生产；保留在 **抢先体验**)
+* [已更新仪表板列表的外观](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list)（在R1的生产中不可用；保留在&#x200B;**早期访问**&#x200B;中）
 
-* [2016年预览版中提供的功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (在R1中不可用于生产； **已从提前访问中删除** （2017年4月19日）
+* [在2016年预览版中提供的功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) （在R1的生产版中不可用；**从2017年4月19日的抢先访问中删除**）
 
 * [与Adobe Creative Cloud集成](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#adobe-creative-cloud)
-* [用于管理预览Sandbox环境中的电子邮件的新字段](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment) (无意在任何时候进入生产环境；仅适用于 **预览** 和&#x200B;**自定义刷新沙盒**)
+* [在预览Sandbox环境中管理电子邮件的新字段](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment) （不打算在任何时候进入生产；仅在&#x200B;**预览**&#x200B;和&#x200B;**自定义刷新Sandbox**&#x200B;中可用）
 
 ## 2017 R1预览版网络研讨会 {#2017-r1-preview-release-webinars}
 
-要查看R1版本的网络研讨会录像，请参阅 [R1发布网络研讨会](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
+要查看R1版本的网络研讨会录像，请参阅[R1版本网络研讨会](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)。   
 
 ## 维护更新 {#maintenance-updates}
 

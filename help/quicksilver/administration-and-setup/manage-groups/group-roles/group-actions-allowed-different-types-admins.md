@@ -226,11 +226,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42; 在组管理员的访问级别中， **编辑** 必须为以下项选择 **用户** 设置，使用 **用户管理员（组用户）** 选定于 **微调您的设置** ![](assets/gear-icon-in-access-levels.png). 有关更多信息，请参阅部分 [配置用户的访问权限以使用自定义访问级别编辑用户](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 在文章中 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42;在组管理员的访问级别中，必须为&#x200B;**用户**&#x200B;设置选择&#x200B;**编辑**，并在&#x200B;**微调您的设置** ![](assets/gear-icon-in-access-levels.png)下选择&#x200B;**用户管理员（组用户）**。 有关详细信息，请参阅[向用户授予访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)文章中的[配置用户的访问权限，以使用自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)编辑用户部分。
 
-&#42;&#42; 在组管理员的访问级别中，必须启用对此操作的访问权限。 有关更多信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42;在组管理员的访问级别中，必须启用对此操作的访问权限。 有关详细信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-&#42;&#42;&#42; 以下活动是高级企业控制的一部分，不适用于Select计划。 只有购买了Prime或Ultimate计划的组织才能访问这些功能。  请参阅 [Adobe Workfront定价和包装页面](https://business.adobe.com/products/workfront/pricing.html) 以了解有关计划的详细信息。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
+&#42;&#42;&#42;以下活动是高级企业控件的一部分，不适用于Select计划。 只有购买了Prime或Ultimate计划的组织才能访问这些功能。  有关计划的更多信息，请参阅[Adobe Workfront定价和打包页面](https://business.adobe.com/products/workfront/pricing.html)。 （对于使用旧版计划的组织，上表显示了组和子组管理员的活动。）
 
 * 在组级别配置项目、任务和问题首选项
 * 在组级别配置时间表和小时首选项

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 在工作负载均衡器中进行快速分配
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在此增强功能之前，您只能通过单击任务或问题的更多菜单，然后使用分配选项来分配项目。 现在，分配给用户的计划小时数在拖动任务时实时更新。
 
-有关在工作负载均衡器中分配工作项的信息，请参见 [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有关在工作负载均衡器中分配工作项的信息，请参阅在工作负载均衡器中分配工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作负载均衡器的新默认选项
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 * 复制过滤器的功能
 * 与其他用户共享筛选器
 
-有关更多信息，请参阅 [在工作负载均衡器中管理过滤器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+有关详细信息，请参阅[在工作负载均衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理过滤器。
 
 >[!NOTE]
 >
->通过过滤器更新，我们消除了 **所有工作项** 和 **该项目的工作项** 项目的工作负载均衡器中的内置过滤器。
+>通过筛选器更新，我们已消除项目的工作负载均衡器中的&#x200B;**所有工作项**&#x200B;和&#x200B;**此项目的工作项**&#x200B;内置筛选器。
 

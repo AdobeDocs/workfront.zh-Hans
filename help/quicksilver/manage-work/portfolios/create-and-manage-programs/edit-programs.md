@@ -1,27 +1,27 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: 编辑程序
-description: 您可以编辑关于您创建的项目的信息，或者关于其他用户已创建的项目（如果他们与您共享）的信息。
+title: 编辑项目群
+description: 您可以编辑已创建的程序的信息，或其他用户已创建程序的信息（如果他们与您共享这些程序）。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 1%
+source-wordcount: '1052'
+ht-degree: 0%
 
 ---
 
-# 编辑程序
+# 编辑项目群
 
-您可以编辑关于您创建的项目的信息，或者关于其他用户已创建的项目（如果他们与您共享）的信息。
+您可以编辑已创建的程序的信息，或其他用户已创建程序的信息（如果他们与您共享这些程序）。
 
-您可以在项目页面中编辑项目，也可以在列表中编辑项目。
+您可以在程序页面中编辑程序，也可以在列表中编辑程序。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,35 +29,35 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL计划] </p> </td> 
+   <td> <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>[!UICONTROL Edit]对程序的访问</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关在访问级别中访问程序的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">授予对程序的访问权限</a>. 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>[！UICONTROL Edit]对程序的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中程序的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">授予程序访问权限</a>。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL管理]程序的权限</p> <p> 有关授予程序权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">共享项目 </a>. </p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>[！UICONTROL Manage]程序权限</p> <p> 有关向程序授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">共享程序</a>。 </p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 编辑程序
+## 编辑项目群
 
-1. 转到 **[!UICONTROL 主菜单]**.
-1. 单击 **[!UICONTROL 程序]**，然后单击项目的名称以将其打开。
+1. 转到&#x200B;**[!UICONTROL 主菜单]**。
+1. 单击&#x200B;**[!UICONTROL 程序]**，然后单击程序的名称以将其打开。
 
    >[!TIP]
    >
-   >您可以从与其关联的项目组合中访问某个项目，方法是先转到项目组合，然后单击 **[!UICONTROL 程序]** 中。 有关更多信息，请参阅 [创建项目](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+   >您可以从关联的项目组合中访问项目，方法是先转到项目组合，然后单击左侧面板中的&#x200B;**[!UICONTROL 项目]**。 有关详细信息，请参阅[创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)。
 
-1. （可选）要编辑有关程序的有限信息，请单击 **[!UICONTROL 计划详细信息]** 中。
+1. （可选）要编辑有关程序的有限信息，请单击左侧面板中的&#x200B;**[!UICONTROL 程序详细信息]**。
 
    >[!TIP]
    >
@@ -67,21 +67,21 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >根据 [!DNL Workfront] 管理员或组管理员已修改布局模板， [!UICONTROL 计划详细信息] 区域可能会重新排列，或者不显示。 有关信息，请参阅 [自定义 [!UICONTROL 详细信息] 使用布局模板查看](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据[!DNL Workfront]管理员或组管理员如何修改布局模板，[!UICONTROL 程序详细信息]区域中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)自定义[!UICONTROL 详细信息]视图。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   编辑 [!UICONTROL 详细信息] ，请执行以下操作：
+   要编辑[!UICONTROL 详细信息]部分中的信息，请执行以下操作：
 
-   1. （可选）单击 **[!UICONTROL 全部折叠]** 图标来折叠所有区域。
-   1. （可选和视情况而定）折叠区域后，单击 **向右箭头** ![](assets/right-pointing-arrow.png) 展开要编辑的区域。
-   1. 有关 [!UICONTROL 计划详细信息] 部分，继续编辑 [!UICONTROL 编辑程序] 框中，选择“禁止使用URL”。
-   1. （可选）如果程序没有附加自定义表单，请在 **[!UICONTROL 添加自定义表单]** 字段中，当其显示在列表中时将其选中，然后单击 **[!UICONTROL 保存更改]**.
-   1. （可选）单击 **[!UICONTROL 导出]** 图标 ![](assets/export.png) 导出 [!UICONTROL 概述] 和自定义表单信息，然后单击 **[!UICONTROL 导出]**. 从以下选项中进行选择：
+   1. （可选）单击右上角的&#x200B;**[!UICONTROL 全部折叠]**&#x200B;图标以折叠所有区域。
+   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. 有关[!UICONTROL 程序详细信息]部分中可见字段的信息，请继续编辑[!UICONTROL 编辑程序]框中的程序，如下所述。
+   1. （可选）如果未将自定义表单附加到程序，请在&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;字段中开始键入表单的名称，将其在列表中显示时选择，然后单击&#x200B;**[!UICONTROL 保存更改]**。
+   1. （可选）单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![](assets/export.png)以将[!UICONTROL 概述]和自定义表单信息导出到PDF文件，然后单击&#x200B;**[!UICONTROL 导出]**。 从以下项中选择：
 
-      * 全选（仅当至少附加了一个自定义表单时才显示）
+      * 选择全部（仅在至少附加一个自定义表单时显示）
       * [!UICONTROL 概述]
       * 一个或多个自定义表单的名称
 
@@ -89,22 +89,21 @@ ht-degree: 1%
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      有关更多信息，请参阅 [导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 
+1. 要编辑有关一个或多个程序的所有信息，请执行下列操作之一：
 
-1. 要编辑有关一个或多个程序的所有信息，请执行以下操作之一：
+   * 单击项目名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-icon.png)，然后&#x200B;**[!UICONTROL 编辑]。**
+   * 转到程序列表，并选择要编辑的一个或多个程序，然后单击列表顶部的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![](assets/edit-icon.png)。
 
-   * 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-icon.png) 在项目名称旁边，&#x200B;**[!UICONTROL 编辑].**
-   * 转到项目列表，选择一个或多个要编辑的项目，然后单击 **[!UICONTROL 编辑]** 图标 ![](assets/edit-icon.png) 列表顶部。
-
-   的 **[!UICONTROL 编辑程序]** 对话框。
+   此时将显示&#x200B;**[!UICONTROL 编辑程序]**&#x200B;对话框。
 
    ![](assets/edit-program-box-nwe-350x236.png)
 
-   所有项目字段均位于 [!UICONTROL 编辑程序] 框中，并按左侧面板中列出的区域进行分组。
+   所有项目群字段在[!UICONTROL 编辑项目群]框中均可用，并且按左侧面板中列出的区域分组。
 
-1. 请考虑在以下任一部分中指定信息：
+1. 请考虑在以下任意部分中指定信息：
 
    * [[!UICONTROL 概述]](#overview)
    * [[!UICONTROL 自定义表单]](#Custom%C2%A0F)
@@ -113,7 +112,7 @@ ht-degree: 1%
 ### [!UICONTROL 概述] {#overview}
 
 1. 按如上所述开始编辑程序。
-1. 单击 **[!UICONTROL 概述]** 并指定以下字段：
+1. 单击&#x200B;**[!UICONTROL 概述]**&#x200B;并指定以下字段：
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
@@ -131,52 +130,52 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL名称]</td> 
-      <td> <p>更新项目的名称。 </p> <p>提示：当您选择多个项目时，此选项不可用。 </p> </td> 
+      <td role="rowheader">[！UICONTROL名称]</td> 
+      <td> <p>更新项目的名称。 </p> <p>提示：当您选择了多个项目时，此选项不可用。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL描述]</td> 
-      <td> <p>键入对Portfolio的描述，以指示其独特之处。 </p> </td> 
+      <td role="rowheader">[！UICONTROL描述]</td> 
+      <td> <p>键入Portfolio的描述以指示其独特之处。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>开始键入要作为程序管理器指示的用户名称，然后在列表中显示时选择该名称。 这是负责监督项目中定义的工作的人员。 </p> <p>重要信息：当您指定某人为项目群经理时，他们将自动获得该项目群和项目的[!UICONTROL管理]权限。 </p> <p>提示：您可以快速更新项目标题中的项目管理器。 </p> </td> 
+      <td role="rowheader">[！UICONTROL项目管理器]</td> 
+      <td> <p>开始键入要指定为项目经理的用户名，然后当名称出现在列表中时将其选定。 此人负责监督项目群项目中定义的工作。 </p> <p>重要信息：指定某个人员担任项目群管理员时，该人员会自动获得对项目和项目群中的[！UICONTROL管理]权限。 </p> <p>提示：您可以在项目标题中快速更新项目管理器。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL组]</td> 
-      <td> <p>如果某个组与项目相关联或有责任完成项目，请添加该组的名称。 </p> <p>提示：  <p>从[!UICONTROL程序详细信息]页面访问[!UICONTROL组]字段时，请执行以下操作： </p> <p>您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击[!UICONTROL信息]图标 <img src="assets/info-icon.png"> 显示在其旁边的。 此时会显示工具提示，其中列出了有关群组的信息，例如群组上的群组层次结构及其管理员。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[!UICONTROL Edit Program]框中不可用。 </p> </p> </td> 
+      <td role="rowheader">[！UICONTROL组]</td> 
+      <td> <p>添加单个组的名称（如果该组与项目群相关联或负责完成项目）。 </p> <p>提示：  <p>从[！UICONTROL程序详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此选项在[！UICONTROL编辑程序]框中不可用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL处于活动状态]</td> 
-      <td> <p> 如果希望程序处于活动状态，请选中此复选框。 其他用户可以找到活动项目并将其附加到项目或将其添加到项目组合。 不活动的项目不能附加到项目或项目组合中。 默认情况下，此设置处于启用状态。</p> </td> 
+      <td role="rowheader">[！UICONTROL处于活动状态]</td> 
+      <td> <p> 如果希望程序处于活动状态，请选中此复选框。 其他用户可以找到活动的项目群，并将它们附加到项目群或添加到项目组合。 无法将非活动项目群附加到项目或项目组合。 默认情况下启用此功能。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 保存更改]** 或继续编辑以下部分。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**&#x200B;或继续编辑以下部分。
 
 ### [!UICONTROL 自定义表单]
 
 1. 按如上所述开始编辑程序。
-1. 单击 **[!UICONTROL 添加Forms]** 下拉菜单，选择自定义表单并将其添加到程序中。
+1. 单击&#x200B;**[!UICONTROL 添加Forms]**&#x200B;下拉菜单以选择自定义表单并将其添加到程序中。
 
-   您必须先创建程序自定义表单，然后才能添加。
+   必须先创建程序自定义表单，然后才能添加这些表单。
 
    >[!NOTE]
    >
-   >根据 [!DNL Workfront] 管理员为自定义表单中的各个部分设置权限，而不是每个人都可以查看或编辑给定自定义表单中的相同字段。 在自定义表单的某个部分中编辑字段的权限取决于您对程序本身拥有的权限。 有关设置自定义表单各部分权限的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >根据[!DNL Workfront]管理员如何为自定义表单中的分区设置权限，并非所有人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对程序本身的权限。 有关设置自定义表单分区的权限的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-1. 更新自定义表单中的任何字段，然后单击 **[!UICONTROL 保存更改]** 或继续使用以下部分。
+1. 更新自定义表单中的任何字段，然后单击&#x200B;**[!UICONTROL 保存更改]**&#x200B;或继续下面的部分。
 
 ### [!UICONTROL 评论] {#comment}
 
 1. 按如上所述开始编辑程序。
-1. 单击 **[!UICONTROL 注释]**.
+1. 单击&#x200B;**[!UICONTROL 评论]**。
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. 在 **[!UICONTROL 发布程序更新]** 字段。
-1. （可选）单击 **[!UICONTROL 人员]** 图标，将用户或团队添加到评论。
-1. （可选）单击 **[!UICONTROL 锁]** 图标，以锁定评论并将其设为仅供贵公司中的用户使用。
+1. 在&#x200B;**[!UICONTROL Post中添加评论以更新程序]**&#x200B;字段。
+1. （可选）单击&#x200B;**[!UICONTROL 人员]**&#x200B;图标以向评论添加用户或团队。
+1. （可选）单击&#x200B;**[!UICONTROL 锁定]**&#x200B;图标以锁定评论，并使其仅对公司中的用户私有。
 
-   保存更改后，您添加的评论会显示在项目的 [!UICONTROL 更新] 选项卡，并向其中包含的用户发送电子邮件。
+   保存更改后，您添加的评论将显示在程序的[!UICONTROL 更新]选项卡中，并向其中所包含的用户发送电子邮件。

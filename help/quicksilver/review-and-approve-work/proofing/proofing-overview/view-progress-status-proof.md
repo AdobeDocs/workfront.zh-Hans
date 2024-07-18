@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 校样进度和状态概述
-description: 您可以查看有关验证在审阅过程中进展情况的信息，并从“文档”区域查看验证决策状态的总体摘要。
+title: 校对进度和状态概述
+description: 您可以查看有关验证如何在审核过程中进展的信息，并在文档区域查看验证决策状态的整体摘要。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
-# 校样进度和状态概述
+# 校对进度和状态概述
 
-您可以查看有关验证在审阅过程中进展情况的信息，并从“文档”区域查看验证决策状态的总体摘要。
+您可以查看有关验证如何在审核过程中进展的信息，并在文档区域查看验证决策状态的整体摘要。
 
-## 校样进度概述
+## 校对进度概述
 
-校样进度表示从您向收件人发送校样到他们决定校样时，对校样完成的工作。 进度图标（S、O、C和D）显示在校样名称旁边，并提供有关校样进度的信息。
+验证进度指示对验证完成的工作，从您向收件人发送验证到他们对验证做出决定为止。 进度图标S、O、C和D显示在验证名称旁边，并提供有关验证进度的信息。
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -28,36 +28,36 @@ ht-degree: 2%
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>“进度”图标</strong> </p> </td> 
+   <td> <p><strong>进度图标</strong> </p> </td> 
    <td> <p><strong>描述</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>已发送</strong> </p> </td> 
-   <td> <p>校样已发送给指定的收件人。</p> </td> 
+   <td> <p>校对已发送给分配的收件人。</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>已打开</strong> </p> </td> 
-   <td> <p>所有分配的收件人都会打开校样或校样详细信息页面。</p> </td> 
+   <td> <p>所有分配的收件人都会打开验证或验证详细信息页面。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>评论</strong> </p> </td> 
-   <td> <p>所有分配的收件人都至少对校样发表评论。</p> <p>如果没有为校样分配审阅人，则 <strong>C</strong> 图标不显示在进度栏中。</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>个评论</strong> </p> </td> 
+   <td> <p>所有分配的收件人至少对验证进行一项评论。</p> <p>如果没有审阅人分配到校对，则进度条中不会显示<strong>C</strong>图标。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>作出的决定</strong> </p> </td> 
-   <td> <p>所有分配的批准者都对校样做出决定，所有分配的批准者都对校样做出决定，除非校样创建者只指定一个决策是必需的。</p> <p>如没有指定批准人（决策者）作为证明，则 <strong>D</strong> 图标不显示在进度栏中。 </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>决策已做出</strong> </p> </td> 
+   <td> <p>所有分配的审批者对验证做出决定，所有分配的审批者对验证做出决定，除非验证创建者仅指定了一个决定。</p> <p>如果没有为验证指定的审批者（决策者），则进度条中不会显示<strong>D</strong>图标。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-进度图标可以以下列颜色显示，以指示有关校样进度的特定信息：
+进度图标可以以下列颜色显示，以指示有关校对进度的某些信息：
 
-* **绿色**:完成。
-* **白色**:未完成。
-* **橙色**：未完成，截止时间小于24小时。
-* **红色**:没有完成，而且已经过期。
+* **绿色**：完成。
+* **白色**：未完成。
+* **橙色**：未完成且截止日期不到24小时。
+* **红色**：未完成且已超过截止日期。
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -91,21 +91,21 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Similarly, if the Only One Decision Required setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.</p>
 -->
 
-## 校样状态概述
+## 校对状态概述
 
-校样状态显示校样所需决策的状态。 校样的状态由“最坏大小写”参与者驱动。 例如，假设有三项关于证据的决定：两个的状态为 **已接受** 一个的状态为 **被拒绝**. “最坏情况”决定 **被拒绝** 对其他决策进行过度规则，并且验证的整体状态显示为 **被拒绝**. 
+验证状态显示验证所需的决策的状态。 证明的状态由“最坏情况”参与者决定。 例如，假设对验证有三个决定：两个决定的状态为&#x200B;**已接受**，另一个决定的状态为&#x200B;**已拒绝**。 **已拒绝**&#x200B;的“最坏情况”决策优先于其他决策，证明的整体状态显示为&#x200B;**已拒绝**。 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
-标准状态选项如下所示：
+标准状态选项如下：
 
 * 待定
-* 已批准
-* 有更改的审批
-* 所需更改
+* 已审批
+* 已批准（附加更改）
+* 需要更改
 * 不相关
 
-如果您的帐户中配置了自定义决策，则状态选项将反映您的自定义决策设置。
+如果您在帐户中配置了自定义决策，则状态选项将反映您的自定义决策设置。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>

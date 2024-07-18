@@ -25,7 +25,7 @@ ht-degree: 0%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -34,21 +34,21 @@ ht-degree: 0%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 请查看以下文章，了解从何处开始使用Workfront目标、使用目标的重要性、如何创建、编辑、注释和管理目标以及如何过滤和打印目标信息：
 
 * [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md)
 * [Adobe Workfront Goals入门](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
-* [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
+* [使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
 * [在Adobe Workfront目标中访问和打开目标](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 * [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)
 * [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)
-* [在Adobe Workfront目标中复制目标](../../workfront-goals/goal-management/copy-goals.md)
-* [在Adobe Workfront目标中关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+* 在Adobe Workfront目标中[复制目标](../../workfront-goals/goal-management/copy-goals.md)
+* 在Adobe Workfront目标中[关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 * [在Adobe Workfront目标中编辑目标](../../workfront-goals/goal-management/edit-goals.md)
 * [删除和停用Adobe Workfront目标中的目标](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-* [Adobe Workfront目标中的目标状态概述](../../workfront-goals/goal-management/goal-status-overview.md)
+* Adobe Workfront目标中的[目标状态概述](../../workfront-goals/goal-management/goal-status-overview.md)
 * [Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [在Adobe Workfront目标中过滤信息](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 提醒通知会根据指定条件生成发送给用户的电子邮件。 提醒通知提醒用户需要对任务、问题、项目或时间表执行的操作。
 
-创建提醒通知后，用户可以手动将其与工作项相关联，例如项目、任务、问题和时间表。 有关信息，请参阅 [将提醒通知附加到对象](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+创建提醒通知后，用户可以手动将其与工作项相关联，例如项目、任务、问题和时间表。 有关信息，请参阅[将提醒通知附加到对象](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)。
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-*有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,23 +71,23 @@ An example of how this can be used would be helpful here and/or in the section <
 
 如果要自定义提醒电子邮件，则需要创建电子邮件模板并将其附加到提醒通知。
 
-有关如何创建电子邮件模板的信息，请参阅 [配置电子邮件模板](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+有关如何创建电子邮件模板的信息，请参阅[配置电子邮件模板](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)。
 
 ## 创建提醒通知
 
 {{step-1-to-setup}}
 
-1. 单击 **电子邮件** > **通知** > **提醒通知**.
+1. 单击&#x200B;**电子邮件** > **通知** > **提醒通知**。
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. 单击 **新建提醒通知**.
+1. 单击&#x200B;**新建提醒通知**。
 
 1. 在下拉列表中，单击要与提醒通知关联的对象类型。
 
-   例如，如果要将提醒通知附加到时间表，请单击 **工时表**.
+   例如，如果要将提醒通知附加到时间表，请单击&#x200B;**时间表**。
 
-1. 在 **新建提醒通知** 框中，指定以下信息。
+1. 在出现的&#x200B;**新建提醒通知**&#x200B;框中，指定以下信息。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">资格期限</td> 
-      <td> <p>在中指定日期之前或之后的小时数、工作日数、天数（日历日）、周数或月数 <strong>计时</strong> 字段。</p> <p><b>注意</b>：  
+      <td> <p>在<strong>计时</strong>字段中指定日期之前或之后的小时数、工作日数、天数（日历日）、周数或月数。</p> <p><b>注释</b>：  
         <ul> 
          <li> <p>满足所有条件后，在指定日期的24小时后开始提醒通知。</p> </li> 
          <li> <p>项目、任务和问题的提醒通知在山地时间的每晚午夜触发。 当天起所有符合提醒通知条件的对象都会在该时间过后不久触发通知给指定用户。</p> </li> 
@@ -122,14 +122,14 @@ An example of how this can be used would be helpful here and/or in the section <
       <td role="rowheader">标准</td> 
       <td> <p>选择条件以限定要计划的提醒通知。 除非满足标准选择，否则不会计划提醒通知。</p> <p>根据您在步骤4中选择的对象类型，可以使用以下标准选项：</p> 
        <ul> 
-        <li><strong>当前项目中未完成的项目：</strong> <i>（可用于任务和问题提醒）</i> 仅当与提醒通知关联的对象状态不是“完成”并且项目状态是“当前”时，才会计划发送提醒通知。</li> 
-        <li><strong>当前项目中的所有项目：</strong> <i>（可用于任务和问题提醒）</i> 提醒通知计划发送与对象状态无关，并且仅当与提醒通知关联的项目状态为“当前”时。</li> 
-        <li><strong>未完成的项目：</strong> <i>（可用于项目提醒）</i> 提醒通知计划于项目状态不是“完成”时发送。</li> 
-        <li><strong>所有项目：</strong> <i>（可用于项目提醒）</i> 无论项目状态如何，提醒通知都会按计划发送。</li> 
-        <li><strong>未结工时表：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“打开”时发送。</li> 
-        <li><strong>已提交的工时表：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“已提交”时发送。</li> 
-        <li><strong>未结时间表或每周少于40小时：</strong> <i>（可用于时间表提醒）</i> 提醒通知计划于时间表状态为“打开”或时间表记录时间少于40小时时发送。</li> 
-        <li><strong>电子邮件模板：</strong> 从下拉列表中，选择要附加到提醒的电子邮件模板。<br>有关如何构建电子邮件模板的信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">配置电子邮件模板</a>.</li> 
+        <li><strong>当前项目中未完成：</strong> <i>（可用于任务和问题提醒）</i>仅当与提醒通知关联的对象状态不是“完成”并且项目状态是“当前”时，才会计划发送提醒通知。</li> 
+        <li><strong>当前项目中的所有项目：</strong> <i>（可用于任务和问题提醒）</i>提醒通知已计划发送，不论对象状态如何，并且仅当与提醒通知关联的项目状态为“当前”时。</li> 
+        <li><strong>未完成项目：</strong> <i>（可用于项目提醒）</i>计划当项目状态不是“完成”时发送提醒通知。</li> 
+        <li><strong>所有项目：</strong> <i>（可用于项目提醒）</i>无论项目状态如何，都计划发送提醒通知。</li> 
+        <li><strong>未结时间表：</strong> <i>（可用于时间表提醒）</i>已计划在时间表状态为“未结”时发送提醒通知。</li> 
+        <li><strong>已提交的时间表：</strong> <i>（可用于时间表提醒）</i>已计划在已提交时间表状态时发送提醒通知。</li> 
+        <li><strong>未结时间表或每周少于40小时：</strong> <i>（可用于时间表提醒）</i>已计划在时间表状态为“未结”或时间表记录少于40小时时发送提醒通知。</li> 
+        <li><strong>电子邮件模板：</strong>从下拉列表中，选择要附加到提醒的电子邮件模板。<br>有关如何构建电子邮件模板的信息，请参阅<a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">配置电子邮件模板</a>。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -151,13 +151,13 @@ An example of how this can be used would be helpful here and/or in the section <
    </table>
 
 1. 单击&#x200B;**保存**。
-1. 将提醒通知附加到工作项，如中所述 [将提醒通知附加到对象](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. 将提醒通知附加到工作项，如[将提醒通知附加到对象](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)中所述。
 
 ## 接收提醒通知
 
 当附加了提醒通知的项目满足条件时，将向提醒通知中定义的用户触发电子邮件通知。
 
-有关接收提醒通知的更多信息，请参见 [提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) 中的部分 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md).
+有关接收提醒通知的更多信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)部分。
 
 ## 测试提醒通知投放
 
@@ -170,9 +170,9 @@ An example of how this can be used would be helpful here and/or in the section <
 
 {{step-1-to-setup}}
 
-1. 单击 **系统** > **诊断** 在Workfront的左下角。
+1. 单击Workfront左下角的&#x200B;**系统** > **诊断**。
 
-1. 单击 **发送提醒通知** 然后等待屏幕顶部确认它们已发送。
+1. 单击&#x200B;**发送提醒通知**，然后在屏幕顶部等待已发送提醒通知的确认。
 
    在提醒通知中指定的用户会收到一封电子邮件。
 

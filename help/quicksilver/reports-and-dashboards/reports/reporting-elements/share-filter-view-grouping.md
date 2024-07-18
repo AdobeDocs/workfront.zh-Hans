@@ -22,9 +22,9 @@ ht-degree: 1%
 </div>
 -->
 
-在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参见 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看或编辑您创建或有权共享的特定对象的权限。 有关访问级别和权限的更多信息，请参阅 [访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予用户的访问级别之外，您还可以授予他们查看或编辑您创建或有权共享的特定对象的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 您可以与其他用户共享您有权查看的筛选器、视图和分组。
 
@@ -32,8 +32,8 @@ ht-degree: 1%
 
 有关如何创建过滤器、视图或分组的信息，请参阅以下文章：
 
-* [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* 在Adobe Workfront中[查看概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## 访问要求
@@ -54,16 +54,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看权限或更高权限可共享到视图、筛选器或分组</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看权限或更高权限可共享到视图、筛选器或分组</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 共享筛选器、视图或分组
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-根据您从哪个界面共享筛选器，在选择列表中共享筛选器会有所不同：标准版或旧版。 有关过滤器构建界面的类型的信息，请参见 [在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+根据您从哪个界面共享筛选器，在选择列表中共享筛选器会有所不同：标准版或旧版。 有关筛选器生成界面类型的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 您只能在旧版界面中共享视图和分组。
 
@@ -82,9 +82,9 @@ ht-degree: 1%
 使用标准生成器界面共享过滤器：
 
 1. 转到项目、任务或问题的列表。
-1. 单击 **筛选** 图标 ![过滤器图标](assets/filter-nwepng.png).
+1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
 
-   ![标准过滤器生成器](assets/new-filters-all-filter-types.png)
+   ![标准筛选器生成器](assets/new-filters-all-filter-types.png)
 
 1. 查看以下筛选器列表：
 
@@ -111,24 +111,24 @@ ht-degree: 1%
    </tbody>
    </table>
 
-1. 将鼠标悬停在您至少有权查看和共享的过滤器上，然后单击 **更多** 菜单 ![更多菜单](assets/more-icon-spectrum.png)，然后单击 **共享**.
+1. 将鼠标悬停在您至少有权查看和共享的筛选器上，然后单击&#x200B;**更多**&#x200B;菜单![更多菜单](assets/more-icon-spectrum.png)，然后单击&#x200B;**共享**。
 
    ![更多菜单选项](assets/new-filters-more-menu-options-with-delete.png)
 
    此时将显示筛选器共享框。
 
-1. 开始键入要在中共享的用户、团队、角色、组或公司的名称 **将访问权限授予** 字段。
+1. 在&#x200B;**授予对**&#x200B;的访问权限字段中开始键入要与之共享的用户、团队、角色、组或公司的名称。
 
    ![筛选器共享框](assets/new-filters-share-filter.png)
 
-1. （可选）单击实体名称旁边的向右箭头以编辑其对筛选器的权限，然后启用 **视图** 或 **管理** 选项。 **视图** 是默认值。
+1. （可选）单击实体名称旁边的右箭头以编辑其对筛选器的权限，然后启用&#x200B;**查看**&#x200B;或&#x200B;**管理**&#x200B;选项。 **视图**&#x200B;是默认视图。
 
    ![共享权限](assets/new-filters-sharing-permissions.png)
 
 1. （可选）通过执行以下操作之一，启用或禁用实体的其他权限：
 
-   1. 单击 **视图** 并禁用 **共享** 选项。 默认情况下处于启用状态。
-   1. 单击 **管理** 并禁用 **共享** 或 **删除** 选项。 默认情况下启用它们。
+   1. 单击&#x200B;**查看**&#x200B;并禁用&#x200B;**共享**&#x200B;选项。 默认情况下处于启用状态。
+   1. 单击&#x200B;**管理**&#x200B;并禁用&#x200B;**共享**&#x200B;或&#x200B;**删除**&#x200B;选项。 默认情况下启用它们。
 
       >[!NOTE]
       >
@@ -144,35 +144,35 @@ ht-degree: 1%
    >
    >与组共享会将筛选器的权限授予该组的成员和所有子组的成员。
 
-   您共享的过滤器将显示在 **与我共享** 这些实体的过滤器面板的部分。
+   您共享的筛选器将显示在这些实体的筛选器面板的&#x200B;**与我共享**&#x200B;部分中。
 
-   ![与我共享的过滤器](assets/new-filters-shared-with-me.png)
+   ![与我共享的筛选器](assets/new-filters-shared-with-me.png)
 
 ### 使用旧版界面共享过滤器、视图和分组
 
 在旧版界面中共享筛选器、视图和分组的方式相同。
 
 1. 转到对象列表或报告。
-1. （视情况而定）在列表中，单击 **筛选**， **视图**，或 **分组** 图标，然后将鼠标悬停在要共享的过滤器、视图或分组上，单击 **更多** 图标 ![“更多”图标](assets/more-icon.png)，则 **共享**.
+1. （视情况而定）在列表中，单击&#x200B;**筛选器**、**视图**&#x200B;或&#x200B;**分组**&#x200B;图标，然后将鼠标悬停在要共享的筛选器、视图或分组上，单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**共享**。
 
-   在报表中，单击 **筛选**， **视图**，或 **分组** 下拉菜单，然后选择要共享的筛选器、视图或分组。
+   在报表中，单击&#x200B;**筛选器**、**视图**&#x200B;或&#x200B;**分组**&#x200B;下拉菜单，然后选择要共享的筛选器、视图或分组。
 
-1. （视情况而定）如果从报表进行共享，请单击 **筛选**， **视图**，或 **分组** 再次显示下拉菜单，然后单击 **共享筛选器**， **共享视图**，或 **共享分组**.\
-   此 **筛选器访问权限**， **查看访问权限**，或 **分组访问权限** 对话框随即显示。
+1. （视情况而定）如果从报表进行共享，请再次单击&#x200B;**筛选器**、**视图**&#x200B;或&#x200B;**分组**&#x200B;下拉菜单，然后单击&#x200B;**共享筛选器**、**共享视图**&#x200B;或&#x200B;**共享分组**。\
+   将显示&#x200B;**筛选器访问**、**查看访问**&#x200B;或&#x200B;**分组访问**&#x200B;对话框。
 
    ![共享筛选器](assets/share-filter-people-box-nwe-350x458.png)
 
 1. 根据要与谁共享，完成以下任一操作：
 
-   **要与个人用户、团队、角色、组或公司共享，请执行以下操作：** 在提供的字段中，开始键入要与之共享的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。\
+   **要与个人用户、团队、角色、组或公司共享：**&#x200B;在提供的字段中，开始键入要与其共享的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。\
    重复此过程可与多个用户、团队、角色、组或公司共享访问权限。
 
    >[!TIP]
    >
    >与组共享会将筛选器、视图或分组的权限授予该组的成员和所有子组的成员。
 
-   **要与系统中的所有用户共享，请执行以下操作：** 单击 **设置** 图标，然后单击 **使其在系统范围内可见**.\
-   管理员必须选择“共享系统范围”选项才能使用此选项。 有关更多信息，请参阅文章 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 和 [共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **要与系统中的所有用户共享：**&#x200B;请单击“设置”图标&#x200B;****，然后单击“在系统范围内可见”图标&#x200B;****。\
+   管理员必须选择“共享系统范围”选项才能使用此选项。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)和[共享报告、功能板和日历](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （视情况而定）如果要与个人用户、团队、角色、组或公司共享，请单击下拉菜单以定义要授予的访问权限级别。
 
@@ -192,13 +192,13 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>共享</strong></td> 
-      <td> <p>单击 <strong>高级设置</strong>，然后选择或清除 <strong>共享</strong> 选项，具体取决于您是否希望收件人能够与其他人共享。</p> </td> 
+      <td> <p>单击<strong>高级设置</strong>，然后选择或清除<strong>共享</strong>选项，具体取决于您是否希望收件人能够与其他人共享。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 单击&#x200B;**保存**。
 
-   与您共享该过滤器、视图或分组的用户可以通过单击 **筛选**， **视图**，或 **分组** 下拉菜单或图标，并向下滚动到 **与我共享** 部分。
+   与您共享该筛选器、视图或分组的用户可以通过以下方式访问该筛选器：单击&#x200B;**筛选器**、**视图**&#x200B;或&#x200B;**分组**&#x200B;下拉菜单或图标，然后向下滚动到&#x200B;**与我共享**&#x200B;部分。
 
 

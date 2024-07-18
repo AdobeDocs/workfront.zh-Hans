@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
-您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅 [修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 您可以在单个问题级别将问题分配给一个或多个资源，也可以一次性将多个资源分配给多个问题。
 
-在Adobe Workfront中，分配问题和任务非常类似。 有关分配任务的一般信息，请参见 [修改任务分配的概览](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+在Adobe Workfront中，分配问题和任务非常类似。 有关分配任务的一般信息，请参阅[修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 ## 访问要求
 
@@ -69,11 +69,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>向要复制问题的项目分配权限，并能够添加问题。</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>.</p> </td> 
+   <td> <p>管理问题的权限</p> <p>Contribute对要复制问题的项目的权限，以及添加问题的功能。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 将多个资源分配给工作项时，请考虑以下事项：
 
-* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅[编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任务或问题通常首先分配给一个或多个工作角色或团队。 当项目准备好开始时，可能需要将它们也分配给用户。
 
@@ -114,13 +114,13 @@ ht-degree: 0%
 ## 分配单个问题
 
 1. 转到要分配的问题。
-1. 单击 **分配给** 问题标题右上角的 **指定任务** 区域
+1. 单击问题标题右上角的&#x200B;**任务**&#x200B;区域中的&#x200B;**分配给**
 
    或
 
    如果问题已分配，单击当前分配的名称。
 
-   ![“分配给”按钮](assets/assign-to-button-in-header.png)
+   ![分配给按钮](assets/assign-to-button-in-header.png)
 
 1. 执行下列操作之一：
 
@@ -129,14 +129,14 @@ ht-degree: 0%
      生产环境中的示例图像：
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-     <span class="preview">“预览”环境中的示例图像：</span>
+     <span class="preview">预览环境中的示例图像：</span>
      <span class="preview">![任务搜索](assets/smart-assignments-issue-header.png)</span>
 
    * （视情况而定）单击可用列表中的名称、角色或团队之一
-   * 单击 **分配给我** 以将其分配给您自己
-   * 单击 **高级**.
+   * 单击&#x200B;**分配给我**&#x200B;以将其分配给您自己
+   * 单击&#x200B;**高级**。
 
-     创建高级工作分配的过程与任务和问题类似。 有关如何进行高级工作分配的信息，请参见 [创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     创建高级工作分配的过程与任务和问题类似。 有关如何进行高级分配的信息，请参阅[创建高级分配](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
      >[!TIP]
      >
@@ -144,15 +144,15 @@ ht-degree: 0%
      >
      >用户必须与至少一个工作角色关联，才能在添加时查看工作角色。
      >
-     >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. 单击 **保存** 以完成问题分配。
-1. （可选）单击 **X图标** ，位于问题标题上任务区域中的任务名称旁以移除任务。
+1. 单击&#x200B;**保存**&#x200B;以完成问题分配。
+1. （可选）单击问题标题上任务区域任务名称旁边的&#x200B;**X图标**&#x200B;以删除任务。
 
 ## 在列表中分配问题
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 | 选项 | 分配的实体 |
 |---|---|
 | **分配给** | 分配一个用户 |
-| **已指定** | 分配一个用户 |
+| **已分配** | 分配一个用户 |
 | **分配** | 分配用户、工作角色或团队。 |
 
 要在列表中分配问题，请执行以下操作：
@@ -171,16 +171,16 @@ ht-degree: 0%
 1. 转到问题列表，该列表中具有“任务负责人”、“任务负责人”或“工作总揽”字段。
 1. 要分配问题，请执行下列操作之一：
 
-   * 在 **分派给** 或 **已指定** 开始键入要分配给问题的活动用户的名称，然后在列表中显示该用户时单击该用户。
+   * 在&#x200B;**分配给**&#x200B;或&#x200B;**分配的**&#x200B;字段中单击，并开始键入要分配给问题的活动用户的名称，然后当该用户显示在列表中时单击它。
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * 在 **指定任务** 字段中，开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后在列表中显示该问题时单击该名称。
+   * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后当它显示在列表中时单击它。
 
      生产环境中的示例图像：
      ![](assets/assignments-field-task-list-nwe.png)
 
-     <span class="preview">“预览”环境中的示例图像：</span>
+     <span class="preview">预览环境中的示例图像：</span>
      ![任务字段](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -189,10 +189,10 @@ ht-degree: 0%
    >
    >用户必须与至少一个工作角色关联，才能在添加时查看工作角色。
    >
-   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. （视情况而定）在“工作总揽”字段中可见时，单击 **“人员”图标** ![](assets/teams.png) 打开“高级任务”框并创建高级任务。 有关更多信息，请参阅 [创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. （视情况而定）在“工作总揽”字段中可见时，单击工作总揽框右上角的&#x200B;**人员图标** ![](assets/teams.png)以打开“高级工作”框并创建高级工作。 有关详细信息，请参阅[创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
    >[!TIP]
    >
@@ -204,23 +204,23 @@ ht-degree: 0%
 
 1. 转到要批量分配的问题列表。
 1. 选择列表中的多个问题。
-1. 单击 **“编辑”图标** ![](assets/qs-edit-icon.png).
+1. 单击&#x200B;**编辑图标** ![](assets/qs-edit-icon.png)。
 
-   此 **编辑问题** 对话框打开。
+   将打开&#x200B;**编辑问题**&#x200B;对话框。
 
-1. 在 **指定任务** 区域，选择 **被分派人** 框中，然后开始键入要分配给所有问题的用户、工作角色或团队的名称。
+1. 在&#x200B;**分配**&#x200B;区域，选择&#x200B;**代理人**&#x200B;框，然后开始键入要分配给所有问题的用户、工作角色或团队的名称。
 
    >[!IMPORTANT]
    >
    >如果任何问题已分配，则您在此处指示的资源将添加到问题中，而不是替换问题中的现有资源。
 
-1. （可选）选择 **问题所有者** 列，指明在将多个资源分配给问题时哪个资源是问题的主要被分配人或所有者。 这不适用于团队。
-1. （可选）从中选择用户在问题中应履行的角色 **选择角色** 中的下拉菜单 **被分派人的角色** 列。 如果不选择角色，Workfront会自动选择用户的主要角色。
+1. （可选）当您为问题分配多个资源时，选择&#x200B;**问题所有者**&#x200B;列中的单选按钮以指示哪个资源是问题的主要被分配者或所有者。 这不适用于团队。
+1. （可选）在将用户分配给问题时，从&#x200B;**受分配人角色**&#x200B;列的&#x200B;**选择角色**&#x200B;下拉菜单中选择用户在问题中应履行的角色。 如果不选择角色，Workfront会自动选择用户的主要角色。
 
 1. （可选）如果要从所有问题中删除现有被分配人，请执行下列操作之一：
 
-   1. 开始键入要从问题中删除的用户、角色或团队的名称，然后当该名称出现在列表上时将其选中并单击 **移除被分派人** 以添加要删除的其他被分配人。
-   1. 单击 **移除所有现有被分配人** 以从所有已选问题中移除所有被分配人。
+   1. 开始键入要从问题中移除的用户、角色或团队的名称，然后当该名称出现在列表中时将其选中，然后单击&#x200B;**移除被分配人**&#x200B;以添加要移除的其他被分配人。
+   1. 单击&#x200B;**移除所有现有被分配人**&#x200B;可从所有已选问题中移除所有被分配人。
 
-1. 单击 **保存更改**.
-1. （可选，视情况而定）当问题列表中显示分配至或分配字段时，单击其中一列以查找问题，然后单击 **X图标** ，以将其从问题中删除。
+1. 单击&#x200B;**保存更改**。
+1. （可选，视情况而定）当问题列表中显示“分配给”或“工作总揽”字段时，单击其中一列以查找问题，然后单击被分配人名称旁边的&#x200B;**X图标**&#x200B;以将其从问题中删除。

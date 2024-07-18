@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
@@ -30,21 +31,16 @@ AI助手可以总结以下对象：
 >
 >AI助手汇总功能与汇总面板不同。
 >
->有关Workfront中“摘要”面板的信息，请参阅 [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>有关Workfront中摘要面板的信息，请参阅[摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 ## 总结对象
 
 要查看对象的摘要，请执行以下操作：
 
 1. 导航到要查看其摘要的对象。
-1. 单击 **AI助手** 图标 ![AI助手图标](assets/ai-assistant-icon.png) 靠近屏幕右上角。
-1. 在AI助手面板中，单击 **总结此内容**.
+1. 单击屏幕右上角附近的&#x200B;**AI助手**&#x200B;图标![AI助手图标](assets/ai-assistant-icon.png)。
+1. 在“AI助手”面板中，单击&#x200B;**汇总此**。
 
    根据对象的大小或复杂程度，AI Assistant可能需要一些时间来生成摘要。
 
 1. 在AI助手面板中查看AI摘要。
-
-
-
-
-

@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -65,7 +65,7 @@ ht-degree: 1%
  <td>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </td>
  </tr>
    <td role="rowheader"><p>布局模板</p></td>
@@ -75,7 +75,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. 访问 **目标** Workfront区域，然后单击目标的名称以打开目标的页面。
-1. 从父目标的页面，单击 **进度指示器** 在左侧面板中。
+1. 访问Workfront中的&#x200B;**目标**&#x200B;区域，然后单击目标的名称以打开目标的页面。
+1. 从父目标的页面，单击左侧面板中的&#x200B;**进度指示器**。
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. 在 **类型：目标** 分组，选择一个目标，然后单击 **断开连接** 图标 ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) 位于列表顶部。
+1. 在&#x200B;**类型：目标**&#x200B;分组中，选择一个目标，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)。
 
    出现“Disconnect（断开连接）”框。
 
-1. 单击 **断开连接** 断开选定目标与其父目标的连接。
+1. 单击&#x200B;**断开连接**&#x200B;将所选目标与其父目标断开连接。
 
    目标会变为独立目标，不再作为原始目标的进度指示器列出。 断开连接目标的进度不再影响原始目标的进度。
 

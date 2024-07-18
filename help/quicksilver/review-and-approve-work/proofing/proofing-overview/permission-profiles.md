@@ -21,11 +21,11 @@ ht-degree: 1%
 
 验证权限配置文件确定用户在您帐户的所有验证中拥有的整体权限。 验证权限配置文件会分配给其用户配置文件中的用户。
 
-验证权限配置文件与验证角色不同。 有关校对角色的更多信息，请参阅 [验证角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+验证权限配置文件与验证角色不同。 有关验证角色的更多信息，请参阅[验证角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)。
 
 >[!NOTE]
 >
->如果您是管理员，则可以为组织中的用户创建自定义配置文件。 有关更多信息，请参阅 [在Workfront Proof中配置自定义配置文件](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>如果您是管理员，则可以为组织中的用户创建自定义配置文件。 有关详细信息，请参阅[在Workfront Proof中配置自定义配置文件](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 ### 管理员
 
-管理员有权访问 [帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) 并具有以下权限：
+管理员有权访问[帐户设置](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)，并具有以下权限：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;仅在Workfront Proof独立产品中可用。
+&#42;仅在Workfront Proof独立版产品中可用。
 
 ### 监督人
 

@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: 测试版计划
+title: Beta项目
 description: 了解Adobe Workfront中的当前测试版。
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 测试版计划
+# Beta项目
 
 本页链接的各篇文章介绍了Adobe Workfront中当前提供的测试版计划。 Beta版中提供的功能可能并非对所有客户都可用。
 

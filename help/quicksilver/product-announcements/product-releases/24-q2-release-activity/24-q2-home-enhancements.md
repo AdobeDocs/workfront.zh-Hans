@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境进行的所有主页增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 使用布局模板添加到新主页管理员控件的列选项
 
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 管理员现在可以使用布局模板自定义在特定新主页小组件中用户可以使用的列。 选项包括隐藏或显示默认列以及将现有字段添加为新列。
 
-有关更多信息，请参阅 [使用布局模板自定义新主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+有关详细信息，请参阅[使用布局模板自定义新主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)。

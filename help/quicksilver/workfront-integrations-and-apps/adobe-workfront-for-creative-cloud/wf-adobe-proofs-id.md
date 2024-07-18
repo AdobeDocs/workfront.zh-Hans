@@ -2,24 +2,24 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 从InDesign上传校样
-description: 您可以将您的画板作为文档上传，以便快速审核和批准，或者只是存储在Adobe Workfront中。
+description: 您可以将艺术展示板上传为文档，以便快速审阅和批准，或只需将其存储在Adobe Workfront中。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# 从上传校样 [!DNL InDesign]
+# 从[!DNL InDesign]上传校样
 
-您可以将艺术展示板作为校样直接上传到 [!DNL Adobe Workfront] 进行彻底的审查和批准。
+您可以将艺术展示板作为验证直接上传到[!DNL Adobe Workfront]以进行彻底审阅和批准。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,111 +27,111 @@ ht-degree: 0%
  <tbody> 
  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>当前计划：[!UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划：[!UICONTROL Premium]</p> <p>有关使用不同计划校样访问权限的更多信息，请参阅。</p> </td> 
+   <td> <p>当前计划： [！UICONTROL Pro]或更高版本</p> <p>或</p> <p>旧版计划： [！UICONTROL Premium]</p> <p>有关验证不同规划的访问权限的更多信息，请参阅。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>当前计划：[!UICONTROL Work]或[!UICONTROL Proof]</p> <p>旧版计划：任意（必须为用户启用校样）</p> </td> 
+   <td> <p>当前计划： [！UICONTROL Work]或[！UICONTROL Proof]</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您必须具有 [!DNL Adobe Creative Cloud] 除 [!DNL Workfront] 许可证。</td> 
+   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td role="rowheader">校样权限配置文件 </td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[!UICONTROL Documents]的访问</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或校样权限配置文件，请联系您的 [!DNL Workfront] 或 [!DNL Workfront Proof] 管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的[!DNL Workfront]或[!DNL Workfront Proof]管理员。
 
 ## 先决条件
 
-* 您必须安装 [!DNL Adobe Workfront for design and video] 插件，然后才能从 [!DNL InDesign].
+* 您必须先安装[!DNL Adobe Workfront for design and video]插件，然后才能从[!DNL InDesign]上传校样。
 
-   有关说明，请参阅 [安装 [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  有关说明，请参阅[安装 [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)。
 
-## 上传基本校样
+## 上传基本校对
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 转到要上传校样的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 中。
-1. 单击 **[!UICONTROL 新建文件]** 在插件底部附近。
-1. 启用 **[!UICONTROL 创建校样]** 切换。
-1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
-1. 在 **[!UICONTROL 校样批准]** 选择 **[!UICONTROL 基本]**.
+1. 转到要上载校样的工作项。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
+1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
+1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 基本]**。
 1. （可选）添加批准者。
-1. （可选）在 **[!UICONTROL 更新]** 的上界。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
    ![](assets/add-comment.png)
 
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 
-1. （可选）选择 **[!UICONTROL 添加外部文件]** 从计算机添加文件。
-1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
+1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
 
    ![](assets/plugin-files-350x307.png)\
-   文档将显示在 [!UICONTROL 文档] 区域。
+   该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。
 
 
-## 上传自动校样
+## 上传自动验证
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 转到要上传校样的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 中。
+1. 转到要上载校样的工作项。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
 
-1. 单击 **[!UICONTROL 新建文件]** 在插件底部附近。
-1. 启用 **[!UICONTROL 创建校样]** 切换。
-1. （可选）在中键入校样的名称 **[!UICONTROL 校样名称]** 框中。
-1. 在 **[!UICONTROL 校样批准]** 选择 **[!UICONTROL 自动]**.
-1. （可选）在 **[!UICONTROL 工作流模板]** 框中，键入校样工作流模板的名称。
+1. 单击插件底部附近的&#x200B;**[!UICONTROL 新建文件]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
+1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
+1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 自动]**。
+1. （可选）在&#x200B;**[!UICONTROL 工作流模板]**&#x200B;框中，键入验证工作流模板的名称。
 
 {{adjust-proof-settings}}
 
 >[!NOTE]
 >
-> 如果工作流模板中存在任何空白必填字段，则会自动打开自动校样设置，您需要填充这些字段才能上传校样。
+> 如果工作流模板中有任何空白必填字段，则自动验证设置会自动打开，并且您需要填充这些字段才能上传验证。
 
 
-1. （可选）在 **[!UICONTROL 更新]** 的上界。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
    ![](assets/add-comment-automated-approval.png)
 
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-1. （可选）选择 **[!UICONTROL 添加外部文件]** 从计算机添加文件。
-1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
-文档将显示在 [!UICONTROL 文档] 区域。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
+1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
+该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。
 
-## 上传新校样版本
+## 上传新验证版本
 
-您可以上传校样的新版本。 该插件会记住在以前版本中设置的校对工作流，但您可以根据需要更改此工作流。
+您可以上传新版本的验证。 该插件会记住在以前的版本上设置的验证工作流，但您可以根据需要更改此设置。
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 转到将文档上传到所需的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png)中。
+1. 转到需要上载文档的工作项。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
 
-1. 单击 **[!UICONTROL 新版本]** 在插件底部附近。
-1. 启用 **[!UICONTROL 创建校样]** 切换。
+1. 单击插件底部附近的&#x200B;**[!UICONTROL 新版本]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在 *[!UICONTROL *校样批准]**部分，选择 **[!UICONTROL 基本]** 或 **[!UICONTROL 自动]**.
+1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
 
-1. 添加 **[!UICONTROL 审阅人]** 或 **[!UICONTROL 工作流模板]** 根据您在步骤7中选择的批准类型。
+1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 
-1. （可选）在 **[!UICONTROL 更新]** 的上界。
-1. 选择 **[!UICONTROL 资产类型]** 下拉菜单中。
-1. 单击 **[!UICONTROL 上传]**，然后根据上面选择的资产类型配置任何所需的导出选项。
-文档将显示在 [!UICONTROL 文档] 区域。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
+该文档显示在插件和桌面应用程序的[!UICONTROL 文档]区域中。

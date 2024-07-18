@@ -24,7 +24,7 @@ ht-degree: 4%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -57,9 +57,9 @@ ht-degree: 4%
 
 ## Workfront目标中的目标状态概述
 
-有关创建Workfront目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+有关创建Workfront目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
-有关激活目标的信息，请参阅 [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md).
+有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)。
 
 在Workfront目标中，目标可以具有以下状态之一：
 
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 ### 草稿 {#draft}
 
-* 这是新创建目标的默认状态。 有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+* 这是新创建目标的默认状态。 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 * Workfront目标不记录起草目标的进度。
 * 您无法更新起草目标的进度。
 * 您不能关闭或停用草稿目标，因为它们缺少进度信息。
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 ### 活动 {#active}
 
-* 仅当将草稿目标与结果、活动相关联或将其他目标与其对齐时，才能激活草稿目标。 激活目标会将其状态更改为活动。 有关激活目标的信息，请参阅 [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md).
+* 仅当将草稿目标与结果、活动相关联或将其他目标与其对齐时，才能激活草稿目标。 激活目标会将其状态更改为活动。 有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)。
 * Workfront目标记录活动目标的进度。
 * 活动目标有助于其他目标的进度计算，并且会在图形中考虑这些目标。
 * 活动目标显示在Workfront目标的以下区域中：
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 * 当所有者临时或永久停止处理某个活动目标时，您可以停用该活动目标。 您可以保存它以获取历史信息。 这会将目标的状态更新为非活动。
 
-  有关停用目标的信息，请参阅文章中的“停用目标”部分 [删除和停用Adobe Workfront目标中的目标](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  有关停用目标的信息，请参阅文章[在Adobe Workfront目标中删除和停用目标](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)中的“停用目标”部分。
 
 * 您不能停用草稿或已关闭的目标。
 * 您可以重新激活不活动的目标并继续处理该目标。
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 ### 已关闭 {#closed}
 
-* 如果您希望表明已实现某个目标，或者您不再致力于该目标，而且将来也不会致力于该目标，则可以关闭该目标。 有关结束目标的信息，请参阅 [在Adobe Workfront目标中关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* 如果您希望表明已实现某个目标，或者您不再致力于该目标，而且将来也不会致力于该目标，则可以关闭该目标。 有关关闭目标的信息，请参阅[在Adobe Workfront目标中关闭和重新打开目标](../../workfront-goals/goal-management/close-and-reopen-goals.md)。
 
   >[!TIP]
   >

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: get-started-with-workfront
 title: 移动应用程序
-description: 阅读这些领域的文章以了解如何使用 [!DNL Adobe Workfront] 移动应用程序。
+description: 请阅读这些领域的文章以了解如何使用 [!DNL Adobe Workfront] 移动应用程序。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -21,4 +21,4 @@ ht-degree: 0%
 
 * [使用 [!DNL Adobe Workfront] 移动应用程序](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
 * [使用 [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [的提示、技巧和疑难解答 [!DNL Adobe Workfront] 移动应用程序](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [针对 [!DNL Adobe Workfront] 移动应用程序的提示、技巧和疑难解答](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

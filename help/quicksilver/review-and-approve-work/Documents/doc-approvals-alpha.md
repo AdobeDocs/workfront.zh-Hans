@@ -62,31 +62,31 @@ ht-degree: 0%
 * 添加了添加外部批准者的功能
 * 改进了外部审批者预览、下载和评论文档的视图
 
-观看 [视频演练](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+观看[视频演练](https://video.tv.adobe.com/v/3424613/){target=_blank}。
 
 ### Alpha第4版 — 2023年5月
 
-在此第4个Alpha版本中，在仅向特定客户群启动到生产环境之前，我们已将通知纳入Workfront标题、更新流和电子邮件中。 请注意，电子邮件通知仅存在于生产环境中，不会显示在预览环境中。 <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
+在此第4个Alpha版本中，在仅向特定客户群启动到生产环境之前，我们已将通知纳入Workfront标题、更新流和电子邮件中。 请注意，电子邮件通知仅存在于生产环境中，不会显示在预览环境中。<!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
 
 我们对这一里程碑感到兴奋，并期待未来取得更多成就！
 
-观看 [视频演练](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+观看[视频演练](https://video.tv.adobe.com/v/3420094/){target=_blank}。
 
 ### Alpha版本3 - 2023年3月
 
 在此第三个Alpha版本中，我们引入了一些成功消息以纳入您的反馈，这些成功消息会在完成添加或删除批准者和审阅者等操作时显示。 此外，此版本增强了待审批的可见性，现在可以在“主页”和“我的更新”页面上查看，使用户能够轻松地直接从这些页面审批文档。
 
-观看 [视频演练](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+观看[视频演练](https://video.tv.adobe.com/v/3417854/){target=_blank}。
 
 ### Alpha版本2 - 2023年1月
 
 在此Alpha2版本中，您可以将个人和团队添加为审阅人或审批人，并直接从文档详情页面做出审批决策。
 
-观看 [视频演练](https://video.tv.adobe.com/v/3413941){target=_blank}.
+观看[视频演练](https://video.tv.adobe.com/v/3413941){target=_blank}。
 
 ### Alpha第1版 — 2022年11月
 
-观看我们的 [视频演练](https://video.tv.adobe.com/v/3412837){target=_blank} 如果你愿意的话，你可以跟着我！
+观看我们的[视频演练](https://video.tv.adobe.com/v/3412837){target=_blank}，如有需要，欢迎您随时关注！
 
 如果要观看视频，则需要在预览环境中设置以下内容：
 
@@ -102,4 +102,4 @@ ht-degree: 0%
 
 ## 发送反馈
 
-我们重视您的投入，并相信您的观点对于帮助我们创造尽可能最好的产品至关重要。 由于您对贵公司在生产环境中采用此解决方案所需条件有具体的反馈，请发送至 [jbarron@adobe.com](mailto:jbarron@adobe.com).
+我们重视您的投入，并相信您的观点对于帮助我们创造尽可能最好的产品至关重要。 由于您对贵公司在生产环境中采用此解决方案所需条件有具体的反馈，请将其发送至[jbarron@adobe.com](mailto:jbarron@adobe.com)。

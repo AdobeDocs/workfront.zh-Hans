@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本页介绍了2021年1月4日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Microsoft 365电子邮件连接器的更新
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 我们还删除了“迭代附件”模块。 您可以将“列表附件”模块与“迭代器”模块结合使用，以迭代附件。
 
-有关更多信息，请参阅 [Microsoft Office 365电子邮件](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).
+有关详细信息，请参阅[Microsoft Office 365电子邮件](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)。

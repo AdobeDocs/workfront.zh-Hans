@@ -35,26 +35,26 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 操作步骤
 
-1. 通过转到 **主菜单** > **报表**，然后选择报表的对象。
+1. 通过转到&#x200B;**主菜单** > **报告**&#x200B;开始创建报告，然后选择报告的对象。
 
    或
 
-   打开现有报表，然后单击 **报表操作** > **编辑**.
+   打开现有报表，然后单击&#x200B;**报表操作** > **编辑**。
 
-1. 单击 **报表设置** （位于report builder的右上角）。
+1. 单击Report Builder右上角的&#x200B;**报表设置**。
 1. 配置以下报表设置：
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">使用以下访问权限运行此报告：</td> 
-      <td>选择您希望此报告在为其他用户显示时用于其访问权限的用户。 有关使用其他用户的访问权限运行报告的更多信息，请参阅文章 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">运行并交付具有其他用户访问权限的报告</a>.</td> 
+      <td>选择您希望此报告在为其他用户显示时用于其访问权限的用户。 有关使用其他用户的访问权限运行报告的详细信息，请参阅文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">使用其他用户的访问权限运行并交付报告</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">加载报告时，显示</td> 
@@ -95,7 +95,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">默认情况下在甘特图中显示此报告</td> 
-      <td>（仅限项目报告和任务报告）选择此选项可在用户查看此报表中的“详细信息”选项卡时自动启用甘特图。<br>有关在项目报告和任务报告中查看甘特图的更多信息，请参阅文章中的“在项目列表甘特图中查看任务信息”部分 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">在甘特图中查看信息 </a>.</td> 
+      <td>（仅限项目报告和任务报告）选择此选项可在用户查看此报表中的“详细信息”选项卡时自动启用甘特图。<br>有关在项目报告和任务报告中查看甘特图的更多信息，请参阅<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">在甘特图</a>中查看信息一节中的“在项目列表甘特图中查看任务信息”。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">允许在报告中改变查看方式</td> 
@@ -112,16 +112,16 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 单击 **报告提示** 为报告设置任何提示。\
-   有关向报表添加提示的更多信息，请参阅文章 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. 单击&#x200B;**报告提示**&#x200B;为报告设置任何提示。\
+   有关向报表添加提示的详细信息，请参阅文章[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
-1. 单击&#x200B;**完成，** 然后单击 **保存+关闭**.
+1. 单击&#x200B;**完成，**，然后单击&#x200B;**保存+关闭**。
 
 ## 其他信息
 
 另请参阅：
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [开始使用报告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

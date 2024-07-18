@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: 更新看板板上文章的状态
-description: 您可以直接从看板板更改文章的状态，以反映文章的进展情况。
+title: 更新Kanban展示板上故事的状态
+description: 您可以直接从Kanban展示板更改故事的状态，以反映故事的进展情况。
 author: Lisa
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# 更新 [!UICONTROL 看板] 展示板
+# 更新[!UICONTROL Kanban]展示板上故事的状态
 
-您可以直接从 [!UICONTROL 看板] 以反映故事的进展情况。
+您可以直接从[!UICONTROL Kanban]展示板更改故事的状态，以反映故事的进度。
 
 >[!NOTE]
 >
->仅在 [!UICONTROL 文章展示板] 部分 [!UICONTROL 团队设置] 区域 [!UICONTROL 看板] 和状态下拉菜单中。 有关更多信息，请参阅 [配置看板](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+>只有在[!UICONTROL 团队设置]区域的[!UICONTROL 故事板]部分中选择的状态在[!UICONTROL Kanban]展示板和状态下拉菜单中可用。 有关详细信息，请参阅[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,28 +31,28 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]或更高版本</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 更新看板板上文章的状态
+## 更新Kanban展示板上故事的状态
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. （可选）单击 **[!UICONTROL 切换组]** 图标 ![切换团队图标](assets/switch-team-icon.png)，然后选择新 [!UICONTROL 看板] 团队，或在搜索栏中搜索团队。
+1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的[!UICONTROL Kanban]团队或在搜索栏中搜索团队。
 
-1. 转到 [!UICONTROL 看板] 要更新文章状态的展示板。
-1. 将文章从 [!UICONTROL 看板] 进入另一栏。\
-   故事还在 [!UICONTROL 完成] 列的次数。\
-   ![将文章移到另一列](assets/agile-storyboard-progress.png)
+1. 转到要更新故事状态的[!UICONTROL Kanban]展示板。
+1. 将故事从[!UICONTROL Kanban]展示板上的一个状态列拖到另一列中。\
+   故事添加后会在[!UICONTROL 完成]列中保留两周。\
+   ![将故事移动到另一列](assets/agile-storyboard-progress.png)

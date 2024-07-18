@@ -1,34 +1,34 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: 在看板板上的文章中使用标记
-description: 在 [!DNL Kanban] 展示板，标记提供了一个可视指示，指示文章何时准备好进入下一个状态。 这使看板团队在跨状态移动文章时能够使用“拉取”方法，而不是“推送”方法。
+title: 在Kanban展示板上的故事上使用标志
+description: 在 [!DNL Kanban] 展示板上，标记提供故事何时可以移动到下一个状态的可视指示。 这使得Kanban团队在跨状态移动故事时能够使用“拉取”方法而不是“推送”方法。
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
 source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
-# 在 [!UICONTROL 看板] 展示板
+# 在[!UICONTROL Kanban]展示板上的故事上使用标志
 
-在 [!DNL Kanban] 展示板，标记提供了一个可视指示，指示文章何时准备好进入下一个状态。 这将启用 [!UICONTROL 看板] 团队在跨状态移动文章时，会使用“拉取”方法，而不是“推送”方法。
+在[!DNL Kanban]展示板上，标记提供故事何时可以移动到下一个状态的可视指示。 这使得[!UICONTROL Kanban]团队在跨状态移动故事时能够使用“拉取”方法而不是“推送”方法。
 
-**示例：** 请考虑以下团队使用“拉取”方法的示例：小组的平面设计师奥利维亚完成了她的工作，然后将故事标志设置为“[!UICONTROL 准备拉].&quot; 此标记可以直观地指示团队的撰稿人Tony，该文章已经准备好进入下一个状态。 然后，当托尼准备好开始处理时，他将故事转到下一个状态。
+**示例：**&#x200B;考虑以下使用“拉取”方法的团队示例：团队中的图形设计师Olivia完成其工作，然后将故事标志设置为“[!UICONTROL 准备拉取]”。 这个旗帜向团队的文案撰稿人托尼提供了视觉暗示，表明故事已准备好让他进入下一个状态。 然后，当托尼准备开始编写故事时，他将故事转移到下一个状态。
 
-在文章中使用标记时，请考虑以下事项：
+在文章上使用标记时，请考虑以下事项：
 
-* 标记不是状态，而是一个可视指示，表示文章已准备好由团队的其他成员移至下一个状态。
-* 标记不会显示在 [!UICONTROL 积压] 列或 [!UICONTROL 完成] 列(或在列的状态等于 [!UICONTROL 完成])。
+* 标记不是状态，而是故事已准备好由团队其他成员移动到下一个状态的视觉指示。
+* 标记未出现在[!UICONTROL Backlog]列或[!UICONTROL Complete]列（或列状态等于[!UICONTROL Complete]的任何列）的任何故事卡上。
 
-   有关文章状态的更多信息，请参阅 [在看板板上的文章中使用标记](#updating-the-status-of-stories-and-subtasks)
+  有关故事状态的更多信息，请参阅[在Kanban展示板上的故事上使用标志](#updating-the-status-of-stories-and-subtasks)
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,45 +36,45 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[!UICONTROL Worker]或更高版本</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 在 [!UICONTROL 看板] 展示板
+## 在[!UICONTROL Kanban]展示板上的故事上使用标志
 
-要更改文章中的标记，请执行以下操作：
+要更改文章上的标志，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. （可选）单击 **[!UICONTROL 切换组]** 图标 ![切换团队图标](assets/switch-team-icon.png)，然后选择新 [!UICONTROL 看板] 团队，或在搜索栏中搜索团队。
+1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的[!UICONTROL Kanban]团队或在搜索栏中搜索团队。
 
-1. 转到 [!UICONTROL 看板] 要更改故事上的旗帜的展示板。
-1. 展开文章拼贴以查看标记。\
-   标记设置为 **[!UICONTROL 在轨]** 默认情况下，每个文章对应。\
+1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
+1. 展开故事拼贴以查看标志。\
+   默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。\
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
-1. 单击当前标记，然后从以下标记选项中选择：
+1. 单击当前标志，然后从以下标志选项中选择：
 
-   * **[!UICONTROL 在轨]:** 文章处于适当的状态，此时无需采取任何操作。\
+   * **[!UICONTROL 跟踪]：**&#x200B;故事处于相应的状态，此时无需执行任何操作。\
 
-      这是看板板上每个文章的默认标记。\
+     这是Kanban展示板上每个故事的默认标记。\
       ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL 被阻止]:** 文章无法继续进入下一个状态。 在文章上设置此标志时，文章不计入WIP限制。 (有关WIP限制的详细信息，请参阅文章 [配置看板](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).\
+   * **[!UICONTROL 被阻止]：**&#x200B;故事无法进入下一个状态。 当在文章上设置此标记时，文章不会计入WIP限制中。 (有关WIP限制的更多信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。\
 
-      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
+     ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 准备拉]:** 文章已准备好，可由团队的其他成员移至下一个状态。\
+   * **[!UICONTROL 准备提取]：**&#x200B;故事已准备好由团队的其他成员移动到下一个状态。\
 
-      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
+     ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

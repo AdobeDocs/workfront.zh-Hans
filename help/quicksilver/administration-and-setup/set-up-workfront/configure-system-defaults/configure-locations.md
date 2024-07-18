@@ -3,11 +3,12 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: 配置位置
-description: 作为Adobe Workfront管理员，您可以配置默认位置，以便在费率卡中分配给工作角色。
+description: 作为Adobe Workfront管理员，您可以配置默认位置以便在费率卡中分配给工作角色。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-费率卡允许贵组织轻松管理项目的计费费率。 有关更多信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). 作为 [!DNL Adobe] [!DNL Workfront] 管理员，您可以配置默认位置以分配给费率卡中的工作角色。 这可确保费率卡准确反映每个位置的市场费率。
+费率卡允许贵组织轻松管理项目的计费费率。 有关详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。 作为[!DNL Adobe] [!DNL Workfront]管理员，您可以配置默认位置以分配给费率卡中的工作角色。 这可确保费率卡准确反映每个位置的市场费率。
 
 ## 访问要求
 
@@ -30,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
@@ -39,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对[！UICONTROL财务数据]的访问权限</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对[！UICONTROL财务数据]的访问权限</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,16 +49,15 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 [!UICONTROL **位置**].
-1. 单击 [!UICONTROL **添加更多位置**].
+1. 在左侧面板中，单击&#x200B;[!UICONTROL **位置**]。
+1. 单击&#x200B;[!UICONTROL **添加更多位置**]。
 1. 输入地点名称和说明。
 
    位置名称必须以大写字母开头，并且位置不能重复。
 
 1. 单击输入区域外部以保存位置。
-1. 要删除某个位置，请在列表中选择该位置，然后单击 **删除** 图标 ![“删除”图标](assets/delete.png).
+1. 要删除某个位置，请在列表中选择该位置，然后单击&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
 
 >[!NOTE]
 >
 >无法删除与费率卡上的工作角色关联的位置。
-

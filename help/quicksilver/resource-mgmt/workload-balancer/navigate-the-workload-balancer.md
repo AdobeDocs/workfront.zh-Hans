@@ -19,7 +19,7 @@ ht-degree: 0%
 
 工作负载均衡器在Adobe Workfront的多个区域中可用。 在所有区域导航都类似。
 
-有关工作负载均衡器位置的更多信息，请参见 [找到工作负载均衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+有关工作负载均衡器位置的更多信息，请参阅[找到工作负载均衡器](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en)。
 
 
 ## 访问要求
@@ -87,11 +87,11 @@ ht-degree: 0%
      <li> <p>项目</p> </li> 
      <li> <p>任务</p> </li> 
      <li> <p>问题</p> </li> 
-    </ul> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+    </ul> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看或更高权限的项目、任务和问题 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看或更高权限的项目、任务和问题 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,8 +104,8 @@ ht-degree: 0%
 
 * 工作负载均衡器根据工作分配在两个单独的区域显示工作项。 工作项和用户显示在以下区域中：
 
-   * **未分配的工作**：没有分配或仅分配给工作角色或团队的项目。
-   * **已分派工作**：至少分配给一个用户的项目。 分配的项显示在分配的用户的名称下。
+   * **未分配的工作**：没有分配或仅分配给工作角色或团队的项。
+   * **已分配的工作**：至少分配给一个用户的项目。 分配的项显示在分配的用户的名称下。
 
   >[!NOTE]
   >
@@ -113,13 +113,13 @@ ht-degree: 0%
   >* 分配给用户的工作项和工作角色（其中工作角色被选为该项的主要被分配人）显示在“未分配的工作”区域中。
   >* 分配给多个用户的工作项显示在“已分配的工作”区域的所有已分配用户名下。
 
-  有关详细信息，请参阅中的“工作负载均衡器的工作区域” [在工作负载均衡器中分配工作概述](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  有关详细信息，请参阅工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中的分配工作的[概述中的“工作负载均衡器中的分配区域”。
 
 * 当项目在某个时间段内没有任务时，该项目级别的栏在该时间段为空白。
 
-  ![在一段时间内无任务的项目](assets/wb-no-tasks-in-time-period.png)
+  ![在某个时间段内没有任务的项目](assets/wb-no-tasks-in-time-period.png)
 
-* 如果您无权查看某些项目，则它们将显示为 **不可访问的工作项** 或 **不可访问的项目**.
+* 当您没有查看某些项的权限时，它们显示为&#x200B;**无法访问的工作项**&#x200B;或&#x200B;**无法访问的项目**。
 
   ![不可访问的工作项](assets/wb-inaccessible-work-items.png)
 
@@ -138,8 +138,8 @@ ht-degree: 0%
 
 有关使用工作负载均衡器管理资源的信息，另请参阅以下文章：
 
-* [在工作负载均衡器中分配工作概述](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [管理工作负载均衡器中的用户分配](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [在工作负载均衡器中分配工作的概述](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
+* [在工作负载均衡器中管理用户分配](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
 
 
 ## 在资源区域为多个项目导航工作负载均衡器
@@ -156,23 +156,23 @@ ht-degree: 0%
 
 要在多个项目的工作负载均衡器中导航，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Workfront的右上角)，然后单击 **资源**.
-1. 单击 **工作负载均衡器** 在左侧面板中。
+1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**资源**。
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
-   ![工作负载均衡器](assets/nwe-balancer-global.png)
+   ![工作负载平衡器](assets/nwe-balancer-global.png)
 
    工作负载均衡器在以下两个区域显示从本周开始的工作分配信息：
 
-   * 此 **未分配的工作** 区域显示以下工作项：
+   * **未分配的工作**&#x200B;区域显示以下工作项：
 
       * 应用过滤器后，会显示分配给角色、团队或未分配的工作项（任务和问题）。
 默认情况下，“未分配工作”区域不显示任何工作项。 我们建议使用过滤器来显示本区域为您提供的相关信息。
 
-        有关使用过滤器的信息，请参阅 [工作负载均衡器中的过滤器信息](../workload-balancer/filter-information-workload-balancer.md).
+        有关使用过滤器的信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
-      * 仅当您启用“按项目分组”设置时，才会显示项目。 有关信息，请参阅部分 [自定义视图](#customize-the-view) 本文章中。
+      * 仅当您启用“按项目分组”设置时，才会显示项目。 有关信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
-   * 此 **已分派工作** 区域显示以下工作项：
+   * **已分配的工作**&#x200B;区域显示以下工作项：
 
       * 默认情况下，系统中的所有活动用户都将显示在此区域中。 我们建议使用过滤器来限制此区域中的信息量。 如果将用户分配给项目，则工作项目也会显示在用户的名称下。
 
@@ -190,9 +190,9 @@ ht-degree: 0%
             >
             >* 仅当您启用“按项目分组”设置时，才会显示项目。
             > 
-            >有关自定义设置的信息，请参阅部分 [自定义视图](#customize-the-view) 本文章中。
+            >有关自定义设置的信息，请参阅本文中的[自定义视图](#customize-the-view)部分。
 
-1. （可选）单击 **筛选** 图标 ![过滤器图标](assets/filter-icon.png) 在 **已分派工作** 区域，然后选择 **默认筛选器** 在 **建议** 滤镜框的区域。
+1. （可选）单击&#x200B;**已分配工作**&#x200B;区域中的&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后在筛选器框的&#x200B;**建议**&#x200B;区域中选择&#x200B;**默认筛选器**。
 
    应用默认筛选器时，属于任何团队及其工作项的用户会显示。 您可以编辑此筛选器的副本。
 
@@ -209,13 +209,13 @@ ht-degree: 0%
 
 ### 在工作负载均衡器中选择时间范围
 
-1. 访问中的工作负载均衡器 **资源** 区域，如一节中所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
+1. 访问&#x200B;**资源**&#x200B;区域的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
 
    工作负载均衡器显示从本周开始的工作分配信息。
 
 1. 使用水平滚动查看超出屏幕限制的工作项的时间线。
-1. 单击 **返回或转发** 图标 ![“后退”和“前进”图标](assets/back-and-forward-icons.png) 导航到时间轴，然后单击 **今天** 以返回当前周。
-1. 单击 **时间范围下拉菜单** ，然后单击要显示的时段的开始日期。 默认情况下，在日历中选择的第一周是您导航到的周。
+1. 单击左上角的&#x200B;**后退或前进**&#x200B;图标![后退和前进图标](assets/back-and-forward-icons.png)以导航时间轴，然后单击&#x200B;**今天**&#x200B;以返回当前周。
+1. 单击工具栏上的&#x200B;**时间范围下拉菜单**，然后单击要显示的时段的开始日期。 默认情况下，在日历中选择的第一周是您导航到的周。
 
    ![日历选择](assets/calendar-date-picker-wb.png)
 
@@ -229,7 +229,7 @@ ht-degree: 0%
    ![选择周](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. 单击工具栏中的以下选项之一可按不同的时间范围显示信息：
-   * **天**：默认情况下，按天显示从今天日期开始的4周的信息。
+   * **天**：默认情况下，显示从今天日期开始的4周内按天显示信息。
    * **周**：按周显示四周的信息。
    * **月**：按月显示三个月的信息。
 
@@ -237,13 +237,13 @@ ht-degree: 0%
 
 ### 自定义视图
 
-1. 访问中的工作负载均衡器 **资源** 区域，如一节中所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
+1. 访问&#x200B;**资源**&#x200B;区域的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
 
    工作项的名称在左侧列出，由工作负载均衡器右侧的栏表示。 栏的长度表示工作项的时间线。
 
 1. （可选且推荐）使用“未分配”和“已分配的工作”区域中的筛选器以仅显示与您相关的工作项或用户。
 
-   有关更多信息，请参阅 [工作负载均衡器中的过滤器信息](../workload-balancer/filter-information-workload-balancer.md).
+   有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
    默认情况下，蓝色条表示项目和任务的时间线，栗色条表示问题。
 
@@ -254,30 +254,30 @@ ht-degree: 0%
    1. 计划完成日期（最早的在前）
    1. 按项目字母顺序（仅当前两个标准对于多个工作项相同时）
 
-1. 单击 **右指箭头** “未指定”或“已指定”区域的左侧，展开项目名称（在“未指定”区域中）和用户名（在“已指定”区域中）下的所有项。
+1. 单击“未分配”或“已分配”区域左侧的&#x200B;**向右箭头**&#x200B;可展开项目名称（在“未分配”区域）和用户名（在“已分配”区域）下的所有项。
 
    >[!TIP]
    >
    >仅在启用“按项目分组”设置时，工作项才会列在“未分配”区域的项目名称下。
 
-1. 单击 **向下箭头** “未指定”或“已指定”区域的左侧，以折叠项目名称（在“未指定”区域）和用户名（在“已指定”区域）下的所有项。
+1. 单击“未指定”或“已指定”区域左侧的&#x200B;**向下箭头**&#x200B;以折叠项目名称（在“未指定”区域）和用户名（在“已指定”区域）下的所有项。
 
-1. 拖放 **分离线** 在左侧面板和时间轴区域之间调整左侧面板的大小。
+1. 在左侧面板和时间轴区域之间拖放&#x200B;**分隔线**&#x200B;以调整左侧面板的大小。
 
-   ![分离线](assets/wb-adjust-panel-size.png)
+   ![分隔线](assets/wb-adjust-panel-size.png)
 
-1. 单击 **设置** 图标 ![“设置”图标](assets/settings-gear-icon.png).
+1. 单击&#x200B;**设置**&#x200B;图标![设置图标](assets/settings-gear-icon.png)。
 
    右侧将显示设置面板。
 
-   ![“设置”面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![设置面板](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
-   从下面列出的选项中进行选择，以更新在工作负载均衡器中查看的信息，然后单击 **X图标** 以将其关闭。
+   从下面列出的选项中进行选择，以更新在工作负载均衡器中查看的信息，然后单击“设置”框右上角的&#x200B;**X图标**&#x200B;以将其关闭。
 
-   * **按项目分组**：选择此选项时，未分配和已分配工作区域中的项将按项目分组。 默认情况下，该选项处于选中状态。
+   * **按项目分组**：选择该选项后，将按项目对“未分配”和“已分配”工作区域中的项进行分组。 默认情况下，该选项处于选中状态。
 
-   * **包括来自问题的小时数**：选择此选项后，分配给用户的问题会显示在“已分配工作”区域中的用户名下，而未分配给用户的问题会显示在“未分配工作”区域中。 从问题开始的已计划小时数计入项目和已分配工作区域中的用户的已计划小时数。
-   * **显示预计日期**：选择此选项时，除了计划时间线外，还会显示工作项的预计时间线。 请注意以下事项：
+   * **包括来自问题的小时数**：选择此项后，分配给用户的问题会显示在“已分配工作”区域中的用户名下，而未分配给用户的问题会显示在“未分配工作”区域中。 从问题开始的已计划小时数计入项目和已分配工作区域中的用户的已计划小时数。
+   * **显示预计日期**：选择此选项时，除计划时间线外，还会显示工作项的预计时间线。 请注意以下事项：
       * 项目、任务和问题的预计时间线在任务、问题和项目栏上方显示为深蓝线。
       * 在计划时间线之外的预计时间线以浅蓝色显示，即使您更新颜色主题也是如此，如下所述。
       * 您无权查看的项目的投影时间线以浅灰色显示，下面有一行。
@@ -287,30 +287,30 @@ ht-degree: 0%
      >
      >请注意，当工作项的计划或预计时间线（不一定同时发生）在所选时间范围内时，工作项会在工作负载均衡器中显示。
 
-   * **显示已完成工作**：启用后，已完成的任务和问题将显示在分配的工作区域中。 默认情况下启用此功能。
+   * **显示已完成的工作**：启用此项后，已完成的任务和问题将显示在“已分配的工作”区域中。 默认情况下启用此功能。
 
      任务或问题栏完成时，其右上角会显示一个绿色复选标记图标。 在项目的选定时间范围内的任务或问题完成时，为项目显示相同的图标。
-   * **显示剩余时间**：启用此选项后，Workfront会根据用户计划显示其每天可以工作的时间与在分配给用户的“已分配工作”区域中分配的小时数之间的差值。 默认情况下禁用此项，默认情况下显示分配时间。
-   * 在 **选择颜色主题** 部分，为项目和任务栏选择所需的颜色。
+   * **显示剩余时间**：启用此功能后，Workfront会根据用户计划显示其每天可以工作的时间与在分配给用户的“已分配的工作”区域中为其分配的小时数之间的差值。 默认情况下禁用此项，默认情况下显示分配时间。
+   * 在&#x200B;**选择颜色主题**&#x200B;部分中，为项目和任务栏选择所需的颜色。
 
      >[!TIP]
      >
      >选择颜色主题的设置不会影响问题栏的颜色。 问题始终显示在褐色栏中。
 
      从以下项中选择：
-      * **默认**：所有项目及其工作项的栏均以蓝色显示。
+      * **默认**：所有项目及其工作项的栏都以蓝色显示。
       * **项目**：与每个项目及其任务关联的栏会根据项目的名称而更改。 属于项目的所有任务都以与项目颜色匹配的条状显示。 项目栏以较浅的阴影显示，以将其与任务区分开。 当选择不显示分配时，项目栏还包括项目图标。
-      * **项目状态**：与每个项目及其工作项关联的栏会更改为项目状态的颜色。
+      * **项目状态**：与每个项目及其工作项关联的栏将更改为项目状态的颜色。
 
-        项目状态是与项目组关联的状态。 如果组没有特定于组的状态，则工作项栏的颜色为系统级别项目状态的颜色。 显示系统和自定义状态。 有关组状态的信息，请参见 [创建或编辑组状态](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        项目状态是与项目组关联的状态。 如果组没有特定于组的状态，则工作项栏的颜色为系统级别项目状态的颜色。 显示系统和自定义状态。 有关组状态的信息，请参阅[创建或编辑组状态](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
-   * 在 **在中显示用户分配** 部分，从以下选项中选择：
+   * 在&#x200B;**在**&#x200B;中显示用户分配部分中，从以下内容中选择：
       * **小时**：将分配的时间显示为小时。 这是默认设置。
       * **百分比**：显示已分配时间占总可用时间的百分比
-   * 在 **首选项排序** 部分，选择希望在工作负载均衡器中对项排序的方式。 从以下选项中选择：
-      * **按主要角色对用户排序**：用户按其在“已分配工作”区域中主要角色的字母顺序显示。
-      * **按字母顺序对用户排序**：用户在“已分配的工作”区域中按名字的字母顺序显示。
-      * **项目排序方式**：从下拉菜单中选择一个项目字段，以按未分配或分配的工作区域中的该字段的字母顺序对项目排序。
+   * 在&#x200B;**排序首选项**&#x200B;部分中，选择您希望在工作负载均衡器中对项排序的方式。 从以下选项中选择：
+      * **按主要角色对用户排序**：用户按其主要角色的字母顺序显示在分配的工作区域中。
+      * **按字母顺序对用户排序**：用户在“已分配的工作”区域中按其名字的字母顺序显示。
+      * **项目排序依据**：从下拉菜单中选择一个项目字段，以按该字段在“未分配”或“已分配”工作区域中按字母顺序对项目排序。
 
    >[!TIP]
    >
@@ -322,8 +322,8 @@ ht-degree: 0%
 
 ### 分配工作项并调整用户分配
 
-1. 在资源区域中访问工作负载均衡器，如部分所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
-1. 单击 **显示分派图标** ![显示分派图标](assets/show-allocations-icon-small.png) 查看工作项的每日或每周计划小时数。
+1. 访问资源区域中的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
+1. 单击&#x200B;**显示分派图标** ![显示分派图标](assets/show-allocations-icon-small.png)以查看工作项的每日或每周计划小时数。
 
    这将用未分配和已分配工作区域中的每日或每周计划小时数替换工作项栏中的名称。 默认情况下禁用此设置。
 
@@ -338,31 +338,31 @@ ht-degree: 0%
 
 1. （可选）将鼠标悬停在用户行中的已分配时间上以了解用户的容量和分配。 容量是用户根据其计划提供的可用性。
 
-   ![已分配时间详细信息](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+   ![分配的时间详细信息](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. （可选）单击 **隐藏分派图标** ![](assets/show-allocations-icon-small.png) 在工作项的栏中显示任务和问题的名称。
-1. 单击 **更多菜单** 图标 ![](assets/more-icon.png) 任务或问题名称的右侧，然后单击以下选项之一。
+1. （可选）单击&#x200B;**隐藏分派图标** ![](assets/show-allocations-icon-small.png)可在工作项的栏中显示任务和问题的名称。
+1. 单击任务或问题名称右侧的&#x200B;**更多菜单**&#x200B;图标![](assets/more-icon.png)，然后单击以下选项之一。
 
    ![更多菜单](assets/more-menu-right-of-task-350x104.png)
 
-   * **将此分派至**，然后开始键入要将该工作项分配给的用户、角色或团队的名称 **搜索人员、角色或团队** 字段。
+   * **将此工作项分配给**，然后在&#x200B;**搜索人员、角色或团队**&#x200B;字段中开始键入要将此工作项分配到的用户、角色或团队的名称。
 
      您还可以使用以下快捷方式分配任务或问题：
 
       * 在Windows中：按住CTRL并单击任务栏或问题栏。
       * 在Mac中：按住CMD单击任务栏或问题栏。
 
-     有关在工作负载均衡器中将工作项分配给用户的详细信息，请参见 [在工作负载均衡器中分配工作概述](../workload-balancer/assign-work-in-workload-balancer.md).
+     有关在工作负载均衡器中将工作项分配给用户的更多信息，请参阅[在工作负载均衡器中分配工作的概述](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!TIP]
      >
-     >如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 有关委托工作的信息，请参阅 [管理任务和问题委派](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 有关委派工作的信息，请参阅[管理任务和问题委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
-   * **编辑分派项**，然后编辑用户的每日或每周分配。 有关管理用户分配的信息，请参阅 [管理工作负载均衡器中的用户分配](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **编辑分配**，然后编辑用户的每日或每周分配。 有关管理用户分配的信息，请参阅[在工作负载均衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 
-   * **打开摘要**. 右侧将打开“摘要”面板，然后单击“工作”字段并开始键入用户、角色或团队的名称 **搜索人员、角色或团队** 用于分配物料的字段。 有关更多信息，请参阅部分 [显示有关任务和问题的更多信息](#display-more-information-about-tasks-and-issues) 本文章中。
+   * **打开摘要**。 “摘要”面板将在右侧打开，然后单击“工作总揽”字段，并开始在&#x200B;**搜索人员、角色或团队**&#x200B;字段中键入用户、角色或团队的名称以分配该项目。 有关详细信息，请参阅本文中的[显示有关任务和问题的更多信息](#display-more-information-about-tasks-and-issues)部分。
 
-1. （可选）双击工作项栏中用户的每日或每周分配以编辑分配的小时数，然后单击 **保存** 图标 ![保存图标](assets/save-allocations-wb.png) 以保存分派或 **取消** 图标 ![“取消”图标](assets/cancel-allocations-wb.png) 以删除已调整的分配。
+1. （可选）双击工作项栏中用户的每日或每周分配以编辑分配的小时数，然后单击&#x200B;**保存**&#x200B;图标![保存图标](assets/save-allocations-wb.png)以保存分配，或单击&#x200B;**取消**&#x200B;图标![取消图标](assets/cancel-allocations-wb.png)以删除您调整的分配。
 
    >[!TIP]
    >
@@ -370,40 +370,40 @@ ht-degree: 0%
    >
    >![保存或取消手动分配](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
-   有关管理用户分配的信息，请参阅 [管理工作负载均衡器中的用户分配](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   有关管理用户分配的信息，请参阅[在工作负载均衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 
-1. 单击 **批量分配** 以批量分配工作项。
+1. 单击&#x200B;**批量分配**&#x200B;以批量分配工作项。
 
-   有关更多信息，请参阅 [使用工作负载均衡器批量分配工作](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. 将项目从 **未分配的工作** 区域或来自用户的区段，并将它们放置到另一个用户上以进行分配。
+   有关详细信息，请参阅[使用工作负载均衡器批量分配工作](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md)。
+1. 从&#x200B;**未分配的工作**&#x200B;区域或用户拖动项目，并将它们拖放到其他用户上以进行分配。
 
-   有关更多信息，请参阅 [通过拖放在工作负载均衡器中分配工作](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   有关详细信息，请参阅[通过拖放在工作负载均衡器中分配工作](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)。
 
 ### 在图表中查看分配
 
 您可以在图表中查看分配，而不是按每日或每周数字查看分配。
 
-1. 在资源区域中访问工作负载均衡器，如部分所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
-1. 单击 **图表图标** ![图表图标](assets/user-allocation-chart-icon.png) 以图表格式显示用户分配。
+1. 访问资源区域中的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
+1. 单击&#x200B;**图表图标** ![图表图标](assets/user-allocation-chart-icon.png)以图表格式显示用户分配。
 
    用户过度分配的天数显示为红色块，而用户分配不足或容量不足的天数显示为蓝色块。
 
    块的大小表示分配的数量：框越大，用户分配到当天或本周工作项的时间就越多。
 
-   ![图表形式的用户分配](assets/wb-allocation-as-chart.png)
+   ![用户分配为图表](assets/wb-allocation-as-chart.png)
 
 ### 显示有关任务和问题的更多信息
 
 您可以在工作负载均衡器中查看有关任务和问题的更多信息。
 
-1. 在资源区域中访问工作负载均衡器，如部分所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
+1. 访问资源区域中的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
 1. 要在“摘要”面板中查看更多信息，请执行下列操作之一：
 
    * 单击任务或问题栏以打开右侧的“摘要”面板。
-   * 单击 **打开摘要** 图标 ![](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开“摘要”面板。
-   * 单击 **更多** 任务或问题右侧的菜单，然后单击 **打开摘要**.
+   * 单击&#x200B;**打开摘要**&#x200B;图标![](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开摘要面板。
+   * 单击任务或问题右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**打开摘要**。
 
-   有关在工作负载均衡器的摘要中更新任务信息的信息，请参见 [使用摘要更新工作负载均衡器中的工作项](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+   有关在工作负载均衡器的摘要中更新任务信息的信息，请参阅[使用摘要更新工作负载均衡器中的工作项](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)。
 
 1. 将鼠标悬停在任务或问题的名称上可查看有关该任务或问题的更多信息。 任务或问题上方会显示一个框，其中包含下列信息：
 
@@ -420,56 +420,56 @@ ht-degree: 0%
 
 ### 全屏显示工作负载均衡器
 
-1. 在资源区域中访问工作负载均衡器，如部分所述 [在资源区访问多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
+1. 访问资源区域中的工作负载均衡器，如本文中[访问资源区域中的多个项目的工作负载均衡器](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分所述。
 
-1. 单击 **全屏** 图标 ![全屏图标](assets/full-screen.png) 以全屏显示工作负载均衡器。
+1. 单击&#x200B;**全屏**&#x200B;图标![全屏图标](assets/full-screen.png)以全屏显示工作负载均衡器。
 
    工作负载均衡器占据整个屏幕。 浏览器窗口和选项卡将从视图中排除。
 
-1. 单击 **退出全屏** 图标 ![退出全屏图标](assets/exit-full-screen.png) 返回到默认屏幕并在浏览器选项卡中查看工作负载均衡器。
+1. 单击&#x200B;**退出全屏**&#x200B;图标![退出全屏图标](assets/exit-full-screen.png)以返回默认屏幕并在浏览器选项卡中查看工作负载均衡器。
 
 
 ## 导航团队的工作负载均衡器
 
-在团队的工作负载均衡器中导航类似于在多个项目的工作负载均衡器中导航。 有关信息，请参阅部分 [在多个项目的工作负载均衡器中导航](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 本文章中。
+在团队的工作负载均衡器中导航类似于在多个项目的工作负载均衡器中导航。 有关信息，请参阅本文中的[为多个项目导航工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分。
 
-1. 单击 **主菜单** 图标 ![主菜单](assets/main-menu-icon.png)，然后单击 **团队**.
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**团队**。
 默认情况下，将显示主团队的页面。
-1. 单击 **工作负载均衡器** 在左侧面板中。 默认情况下，团队的工作负载均衡器应显示。
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。 默认情况下，团队的工作负载均衡器应显示。
 
    ![团队的工作负载均衡器](assets/nwe-balancer-team-350x172.png)
 
    默认情况下，团队的工作负载均衡器显示以下信息：
 
-   * 在 **未分配的工作** 区域：分配给团队或团队和工作角色且未分配给用户的工作项。
-   * 在 **已分派工作** 区域：分配给用户的工作项显示在用户名下。
+   * 在&#x200B;**未分配的工作**&#x200B;区域：分配给团队或团队和工作角色且未分配给用户的工作项。
+   * 在&#x200B;**已分配工作**&#x200B;区域：分配给用户的工作项显示在用户名下。
 
-1. 继续导航团队的工作负载均衡器，如 [在资源区域为多个项目导航工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 章节。
+1. 继续导航团队的工作负载均衡器，如本文的资源区域](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中的[导航多个项目的工作负载均衡器中所述。
 
 ## 在单个项目的工作负载均衡器中导航
 
-1. 单击 **主菜单** 图标 ![主菜单](assets/main-menu-icon.png)，然后单击 **项目**.
+1. 单击&#x200B;**主菜单**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
 1. 单击项目名称以打开项目页面。
-1. 单击 **工作负载均衡器** 在左侧面板中。 您可能需要单击 **显示更多**，则 **工作负载均衡器**.
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**工作负载均衡器**。
 
    ![项目的工作负载均衡器](assets/nwe-balancer-project-350x152.png)
 
    默认情况下，项目的工作负载均衡器显示以下信息：
 
-   * 在 **未分配的工作** 区域：项目上分配给角色或团队且未分配给用户的工作项。
-   * 在 **已分派工作** 区域：项目中至少分配给一个用户的工作项。
+   * 在&#x200B;**未分配的工作**&#x200B;区域：项目上已分配给角色或团队但未分配给用户的工作项。
+   * 在&#x200B;**已分配工作**&#x200B;区域：项目中至少分配给一个用户的工作项。
 
    我们建议使用过滤器来仅显示对您重要的用户。
 
-   例如，您可以考虑仅显示属于您的团队或组的用户。 有关更多信息，请参阅 [工作负载均衡器中的过滤器信息](../workload-balancer/filter-information-workload-balancer.md).
+   例如，您可以考虑仅显示属于您的团队或组的用户。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
-1. （可选）单击 **筛选** 图标 ![过滤器图标](assets/filter-icon.png) 在已分配的工作区域中，选择 **该项目的工作项** 选项来自 **建议** 过滤器面板的区域。 默认情况下，此筛选器处于取消选中状态。
+1. （可选）在分配的工作区域中单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-icon.png)，然后从筛选器面板的&#x200B;**建议**&#x200B;区域中选择&#x200B;**此项目的工作项**&#x200B;选项。 默认情况下，此筛选器处于取消选中状态。
 
    选择此选项时，将仅显示分配给选定项目上用户的项。
 
    如果未选择该选项，则会显示项目上分配给用户的所有项，无论这些项属于哪个项目。
 
-1. （可选且推荐）在已分配的工作区域中应用过滤器以显示对您很重要但可能未分配到项目项的用户，然后单击 **显示所有用户** 图标 ![显示所有用户图标](assets/show-all-users-icon-project-workload-balancer.png).
+1. （可选且推荐）在已分配的工作区域中应用筛选器以显示对您很重要但可能未分配到项目中的项的用户，然后单击&#x200B;**显示所有用户**&#x200B;图标![显示所有用户图标](assets/show-all-users-icon-project-workload-balancer.png)。
 
    通过显示所有用户，您可以显示Workfront中尚未分配给项目工作或其他角色的所有用户。
 
@@ -477,26 +477,26 @@ ht-degree: 0%
 
    例如，您可能希望首先筛选属于您的团队或组的用户，然后显示所有这些用户。
 
-   有关如何构建过滤器的信息，请参阅 [工作负载均衡器中的过滤器信息](../workload-balancer/filter-information-workload-balancer.md).
+   有关如何构建过滤器的信息，请参阅工作负载均衡器中的[过滤器信息](../workload-balancer/filter-information-workload-balancer.md)。
 
    >[!NOTE]
    >
    > 显示所有用户选项仅适用于项目的工作负载均衡器。
 
-1. （可选）单击 **显示角色分配** 图标 ![显示角色分配图标](assets/show-role-allocation-icon.png).
+1. （可选）单击&#x200B;**显示角色分配**&#x200B;图标![显示角色分配图标](assets/show-role-allocation-icon.png)。
 
    此时将显示“角色分配”面板。
 
    您可以查看与项目中的工作角色以及从“方案规划者”链接到项目的计划相关联的工作角色的相关计划小时数信息。
 
-   有关更多信息，请参阅 [在项目和计划之间协调资源分配概述](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+   有关详细信息，请参阅[在项目和计划之间协调资源分配概述](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 
 
    >[!NOTE]
    >
-   >如果您的组织尚未购买Workfront Scenario Planner的许可证，则无法查看计划工作角色信息。 在这种情况下，您只能查看与项目中的工作角色关联的已计划小时数。 有关更多信息，请参阅 [使用Scenario Planner所需的访问权限](../../scenario-planner/access-needed-to-use-sp.md).
+   >如果您的组织尚未购买Workfront Scenario Planner的许可证，则无法查看计划工作角色信息。 在这种情况下，您只能查看与项目中的工作角色关联的已计划小时数。 有关详细信息，请参阅[使用Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
 
-1. 继续导航项目的工作负载均衡器，如 [在多个项目的工作负载均衡器中导航](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 章节。
+1. 继续导航项目的工作负载均衡器，如本文的[导航多个项目的工作负载均衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)部分中所述。
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

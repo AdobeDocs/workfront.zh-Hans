@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-记录类型是Adobe Workfront Planning的对象类型。 您可以编辑您或其他人创建的记录类型的外观。 有关创建Workfront Planning记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+记录类型是Adobe Workfront Planning的对象类型。 您可以编辑您或其他人创建的记录类型的外观。 有关创建Workfront Planning记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ## 访问要求
 
@@ -75,13 +75,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
@@ -104,14 +104,14 @@ hide: yes
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
 
    此时会打开工作区，并显示记录类型。
-1. 将鼠标悬停在记录类型的卡片上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型卡的右上角，然后单击 **编辑**.
+1. 将鼠标悬停在记录类型的卡片上，单击记录类型卡片右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. 在 **编辑记录类型** 框中，更新以下信息：
+1. 在&#x200B;**编辑记录类型**&#x200B;框中，更新以下信息：
 
-   * 根据需要编辑记录类型名称。 <!--did they add a field label for this? -->
-   * **描述**：编辑或添加记录类型的描述，其中包含有关该记录类型的更多信息。
+   * 根据需要编辑记录类型名称。<!--did they add a field label for this? -->
+   * **描述**：编辑或添加记录类型的描述，其中包含有关该记录类型的详细信息。
    * 编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
       * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
@@ -120,7 +120,7 @@ hide: yes
 
 1. 单击&#x200B;**保存**。
 1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面。
-1. 单击 **更多** “记录类型名称”右侧的菜单，然后单击 **编辑** 更新有关记录类型的信息。
+1. 单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**&#x200B;以更新有关记录类型的信息。
 
    >[!TIP]
    >

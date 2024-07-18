@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 资源规划者中的筛选信息
-description: '''(AL：*对此文章进行迭代：按自定义数据筛选。 其他增强功能？ 特殊字符注意事项可能会改变 — 请跟着故事以了解何时改变。 它最初是在Beta 3 17.3中推出的。'
+description: '''(AL：*对此文章进行迭代：按自定义数据筛选。 其他增强功能？ 特殊字符注意事项可能会改变 — 请跟着故事以了解何时改变。 它最初是在Beta 3 17.3中提供的。'
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
@@ -45,11 +45,11 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>查看或更高权限的项目、用户和资源管理 </p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目的权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,16 +58,16 @@ ht-degree: 0%
 
 ## 资源规划者筛选器概览
 
-为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅部分 [资源规划者中的默认筛选器概览](#overview-of-the-default-filter-in-the-resource-planner) 本文章中。
+为了最大程度地减少资源规划者中显示的信息量，Adobe Workfront提供了一个具有预配置标准的默认过滤器。 有关默认筛选器的信息，请参阅本文中的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中默认筛选器的概述[部分。
 
-您还可以构建自定义的过滤器。 有关在资源规划程序中自定义过滤器的信息，请参阅部分 [创建资源规划者筛选器](#create-resource-planner-filters) 本文章中。
+您还可以构建自定义的过滤器。 有关在资源规划者中自定义筛选器的信息，请参阅本文中的[创建资源规划者筛选器](#create-resource-planner-filters)部分。
 
 在资源规划者中使用过滤器时，请考虑以下事项：
 
 * 您创建的过滤器仅对您可见。 您可以共享过滤器，以供其他用户使用。
 * 作为Workfront管理员，您只能查看自己创建的或与您共享的过滤器。
 * 为资源规划者选择其他视图时，过滤的结果不会更改。\
-  有关更改资源规划者中视图的更多信息，请参阅中的“项目/角色/用户视图”选择部分 [资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  有关更改资源规划者中视图的更多信息，请参阅[资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“项目/角色/用户视图”选择部分。
 
 * 应用过滤器不会更改项目、角色或用户的资源规划者中的分配和可用性数据。 过滤器仅更改您在资源规划程序中看到的对象数。
 * 筛选条件适用于同时显示在资源规划程序中的所有对象。 例如，如果您筛选特定用户，则资源规划者仅显示以下结果：
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## 资源规划者中的默认筛选器概览 {#overview-of-the-default-filter-in-the-resource-planner}
 
-在首次打开资源规划者时，Workfront应用默认过滤器。 您可以编辑“默认”筛选器以仅筛选要显示的项目。 有关修改过滤器的信息，请参阅部分 [在资源规划程序中编辑过滤器](#edit-a-filter-in-the-resource-planner) 本文章中。
+在首次打开资源规划者时，Workfront应用默认过滤器。 您可以编辑“默认”筛选器以仅筛选要显示的项目。 有关修改筛选器的信息，请参阅本文中的[在资源规划者](#edit-a-filter-in-the-resource-planner)中编辑筛选器部分。
 
 使用默认筛选器时，请考虑以下事项：
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 在所有视图中，在资源规划者中创建过滤器的过程都是相同的。
 
 在创建过滤器之前，确保已具备在资源规划程序中查看正确信息的先决条件。\
-有关满足使用资源规划程序的必要先决条件的信息，请参阅 [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 文章。
+有关满足使用资源规划程序的必要先决条件的信息，请参阅[资源规划程序概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)文章中的“在资源规划程序中工作的先决条件”部分。
 
 创建过滤器时，请考虑以下事项：
 
@@ -117,55 +117,55 @@ ht-degree: 0%
 
 要在资源规划者中创建过滤器，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **资源**.
+1. 单击&#x200B;**资源**。
 
-   此 **规划者** 默认显示。
+   默认显示&#x200B;**规划者**。
 
-   默认情况下，首次访问资源规划者时， <strong>默认筛选器</strong> 中所有规则都适用的URL的区域。<br>有关默认筛选器的更多信息，请参见 <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">资源规划者中的默认筛选器概览</a> 部分。
+   默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
 
-1. 在的左上角，单击 **筛选** 图标。\
+1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。\
    ![filter_icon.png](assets/filter-icon.png)\
    或\
-   展开 **筛选** 下拉菜单，然后单击 **添加新筛选器**.\
+   展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。\
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：
 
-   * **Portfolio**：开始键入包含要包含在资源规划者中的信息的项目组合名称，然后单击该名称以将其显示在列表中。\
+   * **Portfolio**：开始键入包含要包含在资源规划者中的信息的项目组合的名称，然后当该名称出现在列表中时单击它。\
      重复此过程以包含来自多个项目组合的信息。
 
-   * **项目状态**：展开项目状态下拉菜单，然后选择列表中可用的一个或多个项目状态。
-   * **团队**：开始键入与分配给要查看项目中任务的用户关联的一个或多个团队的名称。
+   * **项目状态**：展开“项目状态”下拉菜单，然后选择列表中可用的一个或多个项目状态。
+   * **团队**：开始键入一个或多个团队的名称，这些团队与分配给您要查看项目中任务的用户相关联。
    * **工作角色**：开始键入与分配给您要查看项目中任务的用户关联的一个或多个工作角色的名称。
-   * **池**：开始键入一个或多个资源池的名称，这些资源池与项目（用于项目视图）、用户（用于用户视图）或与要查看的项目和用户（用于角色视图）相关联。
-   * **组**：开始键入与要查看的用户（在“用户”视图中）或项目（在“项目”和“角色”视图中）关联的一个或多个组的名称。
+   * **池**：开始键入一个或多个资源池的名称，这些资源池与项目（用于项目视图）、用户（用于用户视图）或与您要查看的项目和用户（用于角色视图）相关联。
+   * **组**：开始键入与您要查看的用户（在“用户”视图中）或项目（在“项目”和“角色”视图中）关联的一个或多个组的名称。
 
-1. 单击 **添加筛选器规则**，然后开始键入要作为筛选依据的字段名称 **用于筛选项目的类型** 盒子。 如果该字段可用，则会填充每个可关联该字段的对象。
+1. 单击&#x200B;**添加筛选规则**，然后在&#x200B;**键入以筛选项**&#x200B;框中开始键入要作为筛选依据的字段名称。 如果该字段可用，则会填充每个可关联该字段的对象。
 
    >[!IMPORTANT]
    >
-   >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关自定义字段的标签和名称之间差异的信息，请参阅  [创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+   >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关标签与自定义字段名称之间差异的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 。
 
 1. 单击字段名称，以将其添加到列表中显示的过滤器。\
-   有关您在列表中看到的字段的更多信息，请参阅 [Adobe Workfront术语表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   有关您在列表中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-1. （可选）为过滤器选择过滤器和条件修饰符。 有关可用修饰符的描述，请参见 [过滤器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. （可选）为过滤器选择过滤器和条件修饰符。 可用的修饰符在[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)中描述。
 
    您可以使用基于用户或基于日期的通配符来过滤与登录用户相关的信息。\
-   有关过滤器支持的通配符的信息，请参阅 [通配符筛选器变量概述](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   有关筛选器支持的通配符的信息，请参阅[通配符筛选器变量概述](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
-1. 单击 **保存**&#x200B;以保存筛选规则。
-1. （可选）单击 **添加筛选器规则** 为另一个对象或字段添加新规则。
-1. 单击 **应用** 以应用筛选器而不保存它。
+1. 单击&#x200B;**保存**&#x200B;以保存筛选规则。
+1. （可选）单击&#x200B;**添加筛选器规则**&#x200B;为其他对象或字段添加新规则。
+1. 单击&#x200B;**应用**&#x200B;以应用筛选器而不保存它。
 
    或
 
-   单击 **保存筛选器** 以保存过滤器。\
+   单击&#x200B;**保存筛选器**&#x200B;以保存筛选器。\
    ![RP_Apply_or_Save_buttons_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
-1. （视情况而定）单击之后 **保存**，在中指定过滤器的名称 **筛选器名称** 框内 **保存筛选器** 对话框。 这是必填字段。\
+1. （视情况而定）单击&#x200B;**保存**&#x200B;后，在&#x200B;**保存筛选器**&#x200B;对话框的&#x200B;**筛选器名称**&#x200B;框中指定筛选器的名称。 这是必填字段。\
    ![RP_new_save_filter_box__with_Save_button__without_apply.png](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
 
    >[!NOTE]
@@ -188,7 +188,7 @@ ht-degree: 0%
 要应用现有过滤器，请执行以下操作：
 
 1. 转到资源规划者。
-1. 在左上角，展开 **筛选** 下拉菜单。
+1. 在左上角，展开&#x200B;**筛选器**&#x200B;下拉菜单。
 
    您可以在此菜单中查看自己创建的过滤器或其他已创建并与您共享的过滤器。\
    ![RP_filter_drop_down.png](assets/rp-filter-drop-down-350x152.png)
@@ -210,13 +210,13 @@ ht-degree: 0%
 
 您可以更改过滤器的名称而不更改其条件。 我们建议让系统中的其他用户知道此更改，因为其他用户可看到过滤器。 此更改影响可以查看资源规划者的每个人的过滤器列表。
 
-1. 转到资源规划者并展开 **筛选** 下拉菜单以选择保存的过滤器。
-1. 展开 **筛选** 下拉菜单。 找到要重命名的过滤器，并将光标悬停在其名称上。
-1. 选择 **重命名筛选器** 图标（位于过滤器名称旁）。
+1. 转到资源规划者，并展开&#x200B;**筛选器**&#x200B;下拉菜单以选择已保存的筛选器。
+1. 展开&#x200B;**筛选器**&#x200B;下拉菜单。 找到要重命名的过滤器，并将光标悬停在其名称上。
+1. 选择筛选器名称旁边的&#x200B;**重命名筛选器**&#x200B;图标。
 
    ![](assets/rp-filter-options-edit-350x154.png)
 
-1. 在中指定过滤器的新名称 **筛选器名称** 盒子。
+1. 在&#x200B;**筛选器名称**&#x200B;框中为筛选器指定新名称。
 1. 单击&#x200B;**保存**。\
    过滤器中包含的信息是相同的，并且名称会更新。
 
@@ -224,42 +224,42 @@ ht-degree: 0%
 
 您可以更改包括在筛选器中的信息，而无需更改其名称。 我们建议让系统中的其他用户了解此更改，因为他们可以看到过滤器。 此更改影响可以查看资源规划者的每个人的过滤器列表。
 
-1. 转到资源规划者并展开 **筛选** 左上角的下拉菜单。
+1. 转到“资源规划者”，然后展开左上角的&#x200B;**筛选器**&#x200B;下拉菜单。
 1. 选择要编辑的现有筛选器。
-1. 单击 **筛选** 图标。\
+1. 单击&#x200B;**筛选器**&#x200B;图标。\
    ![filter_icon.png](assets/filter-icon.png)
 
 1. 向筛选器添加新字段。\
-   有关构建过滤器的信息，请参阅 [创建资源规划者筛选器](#create-resource-planner-filters).
+   有关生成筛选器的信息，请参阅[创建资源规划者筛选器](#create-resource-planner-filters)。
 
-1. 将鼠标悬停在为过滤器选择的现有字段上，然后单击 **编辑** 图标以选择其他字段，或 **删除** 图标以删除该字段。\
+1. 将鼠标悬停在为筛选器选择的现有字段上，然后单击&#x200B;**编辑**&#x200B;图标以选择其他字段，或单击&#x200B;**删除**&#x200B;图标以删除该字段。\
    ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
-1. （可选）单击 **添加筛选器规则** 以向过滤器添加新字段。\
-   有关定义筛选条件的详细信息，请参阅 [创建资源规划者筛选器](#create-resource-planner-filters).
+1. （可选）单击&#x200B;**添加筛选器规则**&#x200B;以向筛选器添加新字段。\
+   有关定义筛选条件的详细信息，请参阅[创建资源规划者筛选器](#create-resource-planner-filters)。
 
-1. 单击 **应用** 以应用筛选器而不保存它。
+1. 单击&#x200B;**应用**&#x200B;以应用筛选器而不保存它。
 
    或
 
-   单击 **保存** 以保存过滤器。\
+   单击&#x200B;**保存**&#x200B;以保存筛选器。\
    筛选器以相同的名称保存，但使用了新的筛选条件。
 
 ### 复制筛选器 {#duplicate-a-filter}
 
 您可以复制现有筛选器。 原始筛选条件在复制的筛选器中保持不变，您可以按新名称保存新筛选条件。
 
-1. 转到资源规划者并展开 **筛选** 左上角的下拉菜单。
+1. 转到“资源规划者”，然后展开左上角的&#x200B;**筛选器**&#x200B;下拉菜单。
 1. 将鼠标悬停在要复制的已保存过滤器的名称上。
-1. 单击 **复制** 图标。
+1. 单击&#x200B;**复制**&#x200B;图标。
 
    ![](assets/rp-filter-options---duplicate-350x154.png)\
    此时将显示“重复筛选器”框。
 
-1. 在 **筛选器名称** 字段中，为复制的过滤器指定新名称。\
-   新过滤器的默认名称为 *`<Original Filter Name>`（复制）*.
+1. 在&#x200B;**筛选器名称**&#x200B;字段中，为复制的筛选器指定新名称。\
+   新筛选器的默认名称为&#x200B;*`<Original Filter Name>`（副本）*。
 
-1. 单击 **保存**. 将创建一个与原始筛选器条件相同的新筛选器，并赋予新名称。
+1. 单击&#x200B;**保存**。 将创建一个与原始筛选器条件相同的新筛选器，并赋予新名称。
 
    >[!NOTE]
    >
@@ -269,20 +269,20 @@ ht-degree: 0%
 
 您可以删除不再需要的过滤器。 您不能删除默认筛选器。
 
-有关默认过滤器的信息，请参见 [资源规划者中的默认筛选器概览](#overview-of-the-default-filter-in-the-resource-planner) 部分。
+有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
 
 删除过滤器时，将删除所有有权访问资源规划者的Workfront用户的过滤器。 在删除过滤器之前，请确保您要删除的过滤器不再由在资源规划者中工作的任何其他人员使用。 无法恢复已删除的筛选器。
 
 要删除过滤器，请执行以下操作：
 
 1. 转到资源规划者。
-1. 展开 **筛选** 下拉菜单。
+1. 展开&#x200B;**筛选器**&#x200B;下拉菜单。
 1. 找到要删除的过滤器，并将鼠标悬停在其名称上。
-1. 选择 **删除筛选器** 图标（位于过滤器名称旁）。
+1. 选择筛选器名称旁边的&#x200B;**删除筛选器**&#x200B;图标。
 
    ![](assets/rp-filter-options---delete-350x154.png)
 
-1. 单击 **删除** 在 **删除筛选器** 对话框。
+1. 在&#x200B;**删除筛选器**&#x200B;对话框中单击&#x200B;**删除**。
 
 1. 该过滤器将从资源规划者中删除并删除。
 
@@ -294,37 +294,37 @@ ht-degree: 0%
 >
 >所有用户(包括Workfront管理员)都只能访问已构建或已与其共享的过滤器。 您可以与特定用户共享过滤器，以使过滤器可用于所有资源规划者用户。
 
-有关默认过滤器的信息，请参见 [资源规划者中的默认筛选器概览](#overview-of-the-default-filter-in-the-resource-planner) 部分。
+有关默认筛选器的信息，请参阅本文的资源规划者](#overview-of-the-default-filter-in-the-resource-planner)中的默认筛选器的[概述部分。
 
-有关复制过滤器的信息，请参见 [复制筛选器](#duplicate-a-filter) 部分。
+有关复制筛选器的信息，请参阅本文中的[复制筛选器](#duplicate-a-filter)部分。
 
 1. 转到资源规划者。
-1. 展开 **筛选** 下拉菜单。
+1. 展开&#x200B;**筛选器**&#x200B;下拉菜单。
 1. 找到要共享的过滤器，并将鼠标悬停在其名称上。
-1. 选择 **共享筛选器** 图标（位于过滤器名称旁）。
+1. 选择筛选器名称旁边的&#x200B;**共享筛选器**&#x200B;图标。
 
    ![](assets/rp-filter-options---share-350x154.png)
 
    此时将显示“筛选器访问”对话框。
 
-1. （可选）要使过滤器对所有资源规划者用户可用，请单击 **设置** 图标，然后选择 **使其在系统范围内可见**.
+1. （可选）要使筛选器对所有资源规划者用户可用，请单击&#x200B;**设置**&#x200B;图标，然后选择&#x200B;**在系统范围内可见**。
 
    ![](assets/make-this-visible-system-wide-350x119.png)
 
-1. 在 **将资源规划者筛选器访问权限授予：** 框中，开始键入要与其共享过滤器的用户、团队、角色、组或公司的名称。
+1. 在&#x200B;**授予资源规划者筛选器访问权限：**&#x200B;框中，开始键入要与其共享筛选器的用户、团队、角色、组或公司的名称。
 1. 从以下权限级别中选择：
 
    * 查看
    * 管理
 
-     有关Workfront中权限的信息，请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     有关Workfront中权限的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
-1. （可选）单击 **高级设置** s ，通过选择每个级别来添加权限，或通过取消选择每个级别来移除权限。
+1. （可选）单击&#x200B;**高级设置**&#x200B;以通过选择每个级别来添加权限，或通过取消选择每个级别来删除权限。
 
    ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. 单击&#x200B;**保存**。
 
-   该筛选器将与您选择的实体共享，并显示在 **与我共享** 区域。
+   该筛选器已与您选择的实体共享，并显示在&#x200B;**与我共享**&#x200B;区域。
 
    ![](assets/rp-shared-with-me-area.png)

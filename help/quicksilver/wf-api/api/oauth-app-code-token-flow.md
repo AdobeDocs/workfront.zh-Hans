@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 创建OAuth2应用程序
 
-有关创建OAuth2应用程序的说明，请参阅 [使用用户凭据创建OAuth2应用程序（授权代码流）](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) 在 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+有关创建OAuth2应用程序的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用用户凭据创建OAuth2应用程序（授权代码流）](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * `redirect_uri`：这是您在创建应用程序时输入的重定向URL。 您的用户在为其帐户授权应用程序后，将被定向到此页面。
 
-* `response_type`：必须具有值 `code`.
+* `response_type`：必须具有值`code`。
 
 因此，授权页面的URL为：
 
@@ -95,17 +95,17 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    ![](assets/consent-screen-350x227.png)
 
-1. 如果用户允许访问，页面将被重定向到 `redirect_url`. 重定向必须包含以下查询参数：
+1. 如果用户允许访问，页面将被重定向到`redirect_url`。 重定向必须包含以下查询参数：
 
 * `code`：获取访问/刷新令牌所需的授权代码。
-* `domain`：您组织的域。 示例：在 `myorganization.my.workfront.com`，域为 `myorganization`.
-* `lane`：请求的通道。 示例：在 `myorganization.preview.workfront.com`，该车道为 `preview`.
+* `domain`：您组织的域。 示例：在`myorganization.my.workfront.com`中，域是`myorganization`。
+* `lane`：请求的通道。 示例：在`myorganization.preview.workfront.com`中，车道是`preview`。
 
   >[!IMPORTANT]
   >
-  >此 `code` 仅在2分钟内有效。 因此，您必须在这段时间内获得刷新和访问令牌。
+  >`code`仅在2分钟内有效。 因此，您必须在这段时间内获得刷新和访问令牌。
 
-1. 如果您拥有代码，则可以通过将该代码连同客户端应用程序凭据一起发送至 `/integrations/oauth2/api/v1/token` 端点。
+1. 如果您拥有代码，则可以通过将该代码和客户端应用程序凭据一起发送到`/integrations/oauth2/api/v1/token`端点来请求刷新和访问令牌。
 
    完整的令牌请求URL为
 
@@ -113,7 +113,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **示例：**  对令牌端点的CURL调用示例：
+   **示例：**&#x200B;对令牌端点的CURL调用示例：
 
    示例1
 
@@ -157,7 +157,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    }
    ```
 
-   访问令牌与 ```sessionID```，并且过期时间与常规过期时间相同 ```sessionID```
+   访问令牌与```sessionID```相同，过期方式与常规```sessionID```相同
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/toke
 }
 ```
 
-同样，访问令牌是 `sessionID` 这可用于向Workfront发出API请求。
+访问令牌也是`sessionID`，可用于向Workfront发出API请求。

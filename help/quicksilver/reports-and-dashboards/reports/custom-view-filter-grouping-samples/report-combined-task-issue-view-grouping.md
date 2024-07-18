@@ -2,73 +2,73 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「報告：結合任務和問題檢視與群組」
-description: 此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂群組結合。
+title: '报告：合并的任务和问题视图和分组'
+description: 此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# 報告：合併任務和問題檢視與群組
+# 报告：合并的任务和问题查看和分组
 
-此工作專案報告顯示使用者已接受在一個報告中處理的任務和問題。 最好與自訂群組結合。
+此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
 
-此報告使用 `sharecol=true` 在檢視中，以組合相同欄標題下的多個欄位。 如需詳細資訊，請參閱 `sharecol` 標籤，請參閱 [檢視：合併一個共用欄中多個欄的資訊](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+此报表在视图中使用`sharecol=true`组合同一列标题下的多个字段。 有关`sharecol`标记的详细信息，请参阅[视图：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 >[!TIP]
 >
-> 「工作專案」檢視只會顯示指派給他們的使用者已接受的任務和問題。 此報告不顯示尚未從「工作請求」或「團隊請求」清單移動到使用者的「正在處理」清單中的工作專案。
+> 工作项视图仅显示分配给他们的用户已接受的任务和问题。 此报告不显示尚未从“工作请求”或“团队请求”列表移动到用户工作列表的工作项。
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯對報告、儀表板、行事曆的存取權</p> <p>編輯篩選器、檢視、群組的存取權</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 建立包含組合任務和問題的報告「檢視」和「群組」
+## 构建具有组合任务和问题视图和分组的报告
 
-若要使用此檢視建立報表：
+要使用此视图生成报表，请执行以下操作：
 
-1. 從 **主要功能表** ![](assets/main-menu-icon.png)，按一下 **報表**.
+1. 从&#x200B;**主菜单** ![](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
 
-1. 按一下 **新報告** 並選取物件 **工作專案** 從下拉式功能表。
+1. 单击&#x200B;**新建报告**，然后从下拉菜单中选择对象&#x200B;**工作项**。
 
-1. 在&#x200B;**欄預覽** 區域，按一下唯一顯示的欄標題。
-1. 按一下&#x200B;**切換至文字模式**.
-1. 將滑鼠移到文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 移除您在「 」中找到的文字 **文字模式** 方塊，並以下列程式碼取代：
+1. 在&#x200B;**列预览**&#x200B;区域，单击唯一显示的列的标题。
+1. 单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 删除在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
 
    ```
    column.0.description=Task or Issue 
@@ -259,9 +259,9 @@ ht-degree: 0%
    column.15.width=1
    ```
 
-1. （可選）按一下 **群組** 以新增群組至報表。
-1. （選用）如果您要新增群組，請按一下 **切換至文字模式**.
-1. （可選）將分組文字模式區域中的文字取代為下列程式碼：
+1. （可选）单击&#x200B;**分组**&#x200B;以向报表中添加分组。
+1. （可选）如果要添加分组，请单击&#x200B;**切换到文本模式**。
+1. （可选）将分组文本模式区域中的文本替换为以下代码：
 
    ```
    group.0.name=
@@ -270,6 +270,6 @@ ht-degree: 0%
    textmode=true
    ```
 
-   此分組會將所有任務和所有問題分組在一起。
+   此分组将所有任务和问题分组在一起。
 
-1. 按一下 **儲存+關閉**.
+1. 单击&#x200B;**保存+关闭**。

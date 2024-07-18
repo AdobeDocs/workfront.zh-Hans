@@ -27,7 +27,7 @@ ht-degree: 0%
 
 首次创建任务时，计划、预计和预计日期通常应该匹配。 存在一些例外。 
 
-有关Adobe Workfront中的项目、任务和问题日期的详细信息，请参阅 [Workfront中的项目、任务和问题日期概述](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+有关Adobe Workfront中项目、任务和问题日期的详细信息，请参阅[Workfront中的项目、任务和问题日期概述](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)。
 
 ## 计划日期概览
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 * 预计日期只考虑给定时间点内任务的实际进度。
 
-**示例：** 如果我们的任务的计划开始日期为9月20日，计划完成日期为9月24日，并且任务必须在限制时完成，则预计完成日期为9月24日。 此任务的工期为4天。
+**示例：**&#x200B;如果我们有一个任务的计划开始日期为9月20日，计划完成日期为9月24日，并且任务必须在限制时完成，即计划完成日期为9月24日。 此任务的工期为4天。
 
 预计完成日期是根据任务工作的当前进度计算的。 因此，如果今天是9月23日，而任务尚未开始，则预计完成日期为9月27日（假设工作已在今天开始，则应在4天后完成）。
 
@@ -79,23 +79,23 @@ ht-degree: 0%
 
 * 当任务具有实际开始日期时：
 
-  *预计起始日期=预计起始日期=实际起始日期*
+  *预计开始日期=预计开始日期=实际开始日期*
 
 * 当任务没有实际开始日期，但计划开始日期（必须开始于）具有未来强制限制时：
 
-  *预计起始日期=约束日期*
+  *预计开始日期=约束日期*
 
-  有关限制日期的信息，请参见 [Adobe Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  有关限制日期的信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * 当任务没有实际开始日期并且任务没有强制限制日期时：
 
-  *预计起始日期=工作计划中的下一个将来可用日期*
+  *预计开始日期=工作计划中的下一个将来可用日期*
 
 * 当被分派人更新提交日期时：
 
   *预计完成日期=提交日期*
 
-  有关提交日期的信息，请参见 [提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  有关提交日期的信息，请参阅[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 * 当任务没有更新的提交日期，并且任务的计划完成日期为未来的强制约束（必须完成日期）时：
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 * 当任务没有更新的提交日期、强制限制日期在将来或限制日期在过去时：
 
-  *预计完成日期=系统根据当前进度和未完成工作计算完成日期*
+  *预计完成日期=系统根据当前进度和未完成的工作计算完成日期*
 
 ### 了解任务的预计日期何时更新 {#understand-when-the-estimated-dates-update-on-tasks}
 

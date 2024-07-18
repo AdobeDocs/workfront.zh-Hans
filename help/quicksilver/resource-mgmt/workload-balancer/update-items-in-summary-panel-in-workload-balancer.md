@@ -47,16 +47,16 @@ ht-degree: 1%
      <li> <p>项目</p> </li> 
      <li> <p>任务</p> </li> 
      <li> <p>问题</p> </li> 
-    </ul> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+    </ul> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>参与项目、任务和问题的权限或更高版本 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>Contribute对项目、任务和问题的权限或更高版本 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 在工作负载均衡器摘要面板中更新任务和问题
 
@@ -64,21 +64,21 @@ ht-degree: 1%
 
    工作负载均衡器显示从本周开始的工作分配信息。
 
-1. 转到 **未分配的工作** 区域并查找工作项。
+1. 转到&#x200B;**未分配的工作**&#x200B;区域并查找工作项。
 
    或
 
-   转到 **已分派工作** 区域，展开用户，然后查找工作项。
+   转到&#x200B;**已分配的工作**&#x200B;区域，展开用户，然后查找工作项。
 
 1. 单击任务或问题栏以打开右侧的“摘要”面板。
 
    或
 
-   单击 **打开摘要** 图标 ![](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开“摘要”面板。
+   单击&#x200B;**打开摘要**&#x200B;图标![](assets/summary-panel-icon.png)，然后单击任务或问题栏以打开摘要面板。
 
    或
 
-   单击 **更多** 菜单 ![](assets/more-icon.png) 任务或问题的右侧，然后单击 **打开摘要**.
+   单击任务或问题右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**打开摘要**。
 
    右侧将打开“摘要”面板。
 
@@ -98,7 +98,7 @@ ht-degree: 1%
    >
    >从“摘要”导航到“子任务”部分以添加子任务会移除原始任务，因为父任务不会显示在工作负载均衡器中。
 
-   有关使用“摘要”更新信息的详细信息，请参见 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   有关使用摘要更新信息的详细信息，请参阅[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-1. （视情况而定）如果您打开了工作项的任何部分，请单击浏览器的 **“返回”按钮** 返回到工作负载均衡器。
-1. 单击 **“关闭”图标** ![](assets/close-icon.png) 要将其关闭，请在摘要的右上角单击。
+1. （视情况而定）如果您打开了工作项的任何部分，请单击浏览器的&#x200B;**返回按钮**&#x200B;以返回到工作负载均衡器。
+1. 单击“摘要”右上角的&#x200B;**关闭图标** ![](assets/close-icon.png)以将其关闭。

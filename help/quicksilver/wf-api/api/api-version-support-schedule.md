@@ -20,7 +20,7 @@ ht-degree: 8%
 
 Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本在发布后受支持3年。 不再支持3年以前的API版本。
 
-有关标识和使用API版本的更多信息，请参阅 [在您的集成中指定API版本](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+有关标识和使用API版本的更多信息，请参阅[在您的集成中指定API版本](/help/quicksilver/wf-api/api/specify-api-version-integrations.md)。
 
 下表显示了Workfront API的发布和支持计划。
 
@@ -98,7 +98,7 @@ Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本�
   <tr> 
    <td>6</td> 
    <td>2015</td> 
-   <td><strong>2019年十一月</strong> <p>（在2019.4版本中）</p> </td> 
+   <td><strong>2019年11月</strong> <p>（在2019.4版本中）</p> </td> 
   </tr> 
   <tr> 
    <td>5</td> 
@@ -140,6 +140,6 @@ Adobe Workfront会定期发布新的API版本，通常每年两次。 API版本�
 
 &#42;Workfront将无法解决与不支持的API版本相关的问题。
 
-&#42;&#42;日期可能会发生更改。
+&#42;&#42;日期可能更改。
 
-有关使用特定版本的API的信息，请参阅 [在您的集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md)
+有关使用特定版本的API的信息，请参阅[在您的集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md)

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * [管理校样](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
 * [管理校对版本](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
-* [管理校对查看者](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
-* [管理校对通知](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+* [管理校对审阅人](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+* [管理校样通知](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
 * [管理校对截止日期](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
 * [管理自动验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)

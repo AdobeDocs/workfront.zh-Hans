@@ -30,7 +30,7 @@ ht-degree: 13%
 * [时间表：文章索引](timesheets/timesheets-all.md)
 * [Adobe Workfront集成](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [Workfront 验证](workfront-proof/workfront-proof.md)
+* [Workfront 校样](workfront-proof/workfront-proof.md)
 * [产品公告](product-announcements/product-announcements.md)
 
 。

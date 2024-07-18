@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发布活动：&nbsp；2022年2月7日开始的周
-description: Workfront Fusion发布活动：&nbsp；2022年2月7日开始的周
+title: Workfront Fusion发行活动：&amp；nbsp；2022年2月7日开始的一周
+description: Workfront Fusion发行活动：&amp；nbsp；2022年2月7日开始的一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2022年2月7日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Anaplan连接器和模块现已可用
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 创建、读取、更新、删除或搜索Anaplan记录
 * 将记录批量导入Anaplan
 
-有关更多信息，请参阅 [Anaplan模块](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+有关详细信息，请参阅[Anaplan模块](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,4 +50,4 @@ ht-degree: 0%
 
 以前，您可以从应用程序选择页面以及列表中选择应用程序。
 
-有关为您的方案选择应用程序的更多信息，请参阅 [在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md).
+有关为方案选择应用的详细信息，请参阅[在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md)。

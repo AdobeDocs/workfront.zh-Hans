@@ -9,7 +9,7 @@ role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 如果您当前使用Workfront活动订阅，则需要在2017.3版本之前更新Workfront集成，才能解决这些更改。
 
-要了解有关事件订阅的更多信息，请参阅 [事件订阅API](../../wf-api/general/event-subs-api.md).
+若要了解有关事件订阅的更多信息，请参阅[事件订阅API](../../wf-api/general/event-subs-api.md)。
 
 ## 新旧报文格式示例
 

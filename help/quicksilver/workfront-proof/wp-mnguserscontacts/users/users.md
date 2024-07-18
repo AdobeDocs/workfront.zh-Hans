@@ -19,11 +19,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [创建用户，使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [配置用户信息，使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [创建和管理自定义配置文件，使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [使用以下方式在帐户之间移动用户 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [使用 [!DNL Workfront Proof]创建用户](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [使用 [!DNL Workfront Proof]配置用户信息](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [使用 [!DNL Workfront Proof]创建和管理自定义配置文件](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [使用 [!DNL Workfront Proof]在帐户之间移动用户](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

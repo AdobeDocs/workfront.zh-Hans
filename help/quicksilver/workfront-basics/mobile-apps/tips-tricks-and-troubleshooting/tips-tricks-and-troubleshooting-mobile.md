@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: 的提示、技巧和疑难解答 [!DNL Adobe Workfront] 移动应用程序
-description: 的提示、技巧和疑难解答 [!DNL Adobe Workfront] 移动应用程序
+title: 针对 [!DNL Adobe Workfront] 移动应用程序的提示、技巧和疑难解答
+description: 针对 [!DNL Adobe Workfront] 移动应用程序的提示、技巧和疑难解答
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# 的提示、技巧和疑难解答 [!DNL Adobe Workfront] 移动应用程序
+# 针对[!DNL Adobe Workfront]移动应用的提示、技巧和疑难解答
 
 本节包含以下文章：
 
-* [上的错误消息 [!DNL Adobe Workfront] 移动应用程序： ”[!UICONTROL 您的帐户未启用API。]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [ [!DNL Adobe Workfront] 移动应用程序上的错误消息：“[!UICONTROL 您的帐户未启用API。]”](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

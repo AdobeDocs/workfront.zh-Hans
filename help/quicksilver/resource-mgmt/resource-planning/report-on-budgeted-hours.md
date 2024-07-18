@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: 资源计划员预算工时报告
-description: 您可以使用资源计划器对项目的资源进行预算。 有关使用Adobe Workfront资源计划员对资源进行预算的信息，请参阅“资源计划员”中使用“项目”和“职责”视图的预算资源文章。
+title: 资源规划者预算小时数报告
+description: 您可以使用资源规划者为项目预算资源。 有关使用Adobe Workfront资源规划程序对资源进行预算的信息，请参阅使用项目和角色视图的资源规划程序中的预算资源一文。
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# 资源计划员预算工时报告
+# 资源规划者预算小时数报告
 
-您可以使用资源计划器对项目的资源进行预算。 有关使用Adobe Workfront资源计划员对资源进行预算的信息，请参阅文章 [使用“项目”和“职责”视图在资源计划员中预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+您可以使用资源规划者为项目预算资源。 有关使用Adobe Workfront资源规划程序对资源进行预算的信息，请参阅使用项目和角色视图的资源规划程序中的预算资源[一文](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-预算资源是指您定义（或预算）项目资源完成其项目工作所需的特定小时数。 要与可能无权访问资源计划员的其他用户共享在资源计划员中输入的预算小时信息，您可以生成“预算小时”报表。 有关信息，请参阅 [报表：预算小时数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+预算资源是指您定义（或预算）项目上的资源完成其在项目上的工作所需的特定小时数。 要将您在资源规划者中输入的预算小时数信息与可能无权访问资源规划者的其他用户共享，您可以构建预算小时数报表。 有关信息，请参阅[报告：预算小时数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了在2019.3版本中所做的所有更改。主页增强。 该版本在2019年8月19日当周的生产环境中提供。
 
-有关2019.3版中所做所有更改的列表，请参阅 [2019.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+有关2019.3中所做所有更改的列表，请参阅[2019.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)。
 
 ## 主页外观的更新
 

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2资源管理增强功能
 
-本页介绍了21.2版本对“预览”环境所做的所有资源管理增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有资源管理增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 工作负载均衡器中的月级别视图
 
 为了帮助您在更长的时段内管理资源分配，我们现在为工作负载均衡器实施了月级别视图。 您一次最多可以查看三个月，并更新每月资源分配。 在此更改之前，您只能按天或按周查看工作负载均衡器。
 
-有关信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关信息，请参阅[在工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)中导航。
 
 ## 场景规划器、工作负载均衡器和任务列表之间的连接
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 有关信息，请参阅以下文章：
 
-* [在项目和计划之间协调资源分配概述](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [项目和计划之间协调资源分配概述](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)。
 * [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 在此增强功能之前，Workfront仅使用预算小时数计算净值。 净值显示可用小时数和预算或计划小时数、FTE或成本之间的差异。 在计算净值时，预算小时数仍然是默认设置。
 
-有关信息，请参阅 [资源规划者的“项目”和“角色”视图中的小时数、FTE和成本信息概览](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+有关信息，请参阅资源规划者](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的项目和角色视图中的[小时概述、FTE和成本信息。
 
 ## 工作负载均衡器中的12周查看
 
 您现在可以在工作负载均衡器中查看长达12周的信息。 在此增强功能之前，您可以查看2、4和6周的信息。
 
-有关查看工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)导航工作负载均衡器。
+有关查看工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)导航工作负载均衡器。
 
 ## 更改工作角色过滤器在工作负载均衡器的未分配区域中的工作方式
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 在此增强功能之前，当将工作角色过滤器应用于未分配区域时，工作负载均衡器显示与分配给工作角色的工作项关联的所有小时数。
 
-有关在工作负载均衡器中过滤信息的信息，请参见 [在工作负载均衡器中管理过滤器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+有关在工作负载均衡器中过滤信息的信息，请参阅在工作负载均衡器中管理过滤器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

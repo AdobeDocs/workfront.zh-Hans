@@ -41,11 +41,11 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑任务访问权限</p> <p><b>注释</b>
 
-如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理任务的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 在将里程碑与任务关联之前，必须存在以下各项：
 
-* Workfront管理员必须创建里程碑路径，如中所述 [创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Workfront管理员必须创建里程碑路径，如[创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)中所述。
 
 * 您必须将里程碑路径关联到项目。
 
-  有关信息，请参阅 [编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+  有关信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 * 要将里程碑路径与项目关联，项目必须处于“计划”或“当前”状态。
 
@@ -74,18 +74,18 @@ ht-degree: 0%
 
 将里程碑路径与项目关联后，可以为任务分配里程碑。
 
-1. 转到任务，然后单击 **更多** 图标 ![](assets/more-icon.png) 任务名称的右侧，然后 **编辑**.
+1. 转到任务，然后单击任务名称右侧的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
    任务和里程碑之间有1:1的关系。 您不能将同一里程碑附加到多个任务。 每个任务都可以链接到单个里程碑，或者每个里程碑都可以映射到一项任务。
 
-1. 单击 **设置**，然后在中选择里程碑 **里程碑** 任务的字段。
+1. 单击&#x200B;**设置**，然后在&#x200B;**里程碑**&#x200B;字段中选择任务的里程碑。
 1. 单击&#x200B;**保存**。
-1. （可选）在任务列表中，添加 **状态图标** 列，用于标识哪些任务具有里程碑。 里程碑菱形指示符显示在状态图标列中。
+1. （可选）在任务列表中添加&#x200B;**状态图标**&#x200B;列，以标识哪些任务具有里程碑。 里程碑菱形指示符显示在状态图标列中。
 
-   有关信息，请参阅 [在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   有关信息，请参阅[在Adobe Workfront中创建或编辑视图](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
 
    ![](assets/amwt3.png)
 
-1. （可选）转到项目列表，选择 **里程碑** 视图以确定里程碑任务的进度。
+1. （可选）转到项目列表，选择&#x200B;**里程碑**&#x200B;视图以确定里程碑任务的进度。
 
    ![](assets/milestone-view-project-list.png)

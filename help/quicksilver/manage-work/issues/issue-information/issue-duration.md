@@ -21,6 +21,6 @@ ht-degree: 0%
 
 您可以在问题报告或问题列表的视图中显示问题的持续时间。
 
-有关构建报表的更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关生成报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

@@ -1,8 +1,8 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 篩選器按鈕未顯示在頁首中
-description: 閱讀本文章，疑難排解頁面標頭中未顯示的篩選按鈕。
+title: 过滤器按钮未显示在页眉中
+description: 阅读本文以解决页眉中不显示过滤器按钮的问题。
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 ---
 
-# 篩選器按鈕未顯示在頁首中
+# 过滤器按钮未显示在页眉中
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,68 +28,68 @@ ht-degree: 1%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] 授權</strong></td> 
-   <td> <p>[！UICONTROL計畫] </p> </td> 
+   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
+   <td> <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL系統管理員]</p> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong></td> 
+   <td> <p>[！UICONTROL系统管理员]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 問題
+## 问题
 
-下列篩選按鈕不會顯示在各自的區域中：
+以下筛选按钮不在其各自的区域显示：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>[!DNL Adobe Workfront] 區域</strong></td> 
-   <td><strong>篩選按鈕</strong></td> 
+   <td><strong>[!DNL Adobe Workfront] 区域</strong></td> 
+   <td><strong>筛选器按钮</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL專案] </p> </td> 
+   <td> <p>[！UICONTROL项目] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
-     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
+     <li> <p>[！UICONTROL我参与的项目]</p> </li> 
+     <li> <p>[！UICONTROL我拥有的项目]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL時間表]</span> </td> 
+   <td><span>[！UICONTROL时间表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的工时表批准]</span> </p> </li> 
+     <li> <p><span>[！UICONTROL我的时间表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 解決方案
+## 解决方案
 
-中的篩選按鈕 [!UICONTROL 專案和時程表] 區域未顯示，因為對應的篩選器未包含在套用至使用者的版面配置範本中。 此 [!DNL Workfront] 管理員必須指派包含篩選器的配置範本。
+[!UICONTROL 项目和时间表]区域中的筛选器按钮不显示，因为相应的筛选器未包含在应用于用户的布局模板中。 [!DNL Workfront]管理员必须分配包含筛选器的布局模板。
 
 >[!NOTE]
 >
->有時候，篩選器會從 [!UICONTROL 清單控制項] 區域於 [!UICONTROL 設定]. 此 [!DNL Workfront] 管理員必須將其包含在此區域的清單中，才能在版面配置範本中使用。
+>有时从[!UICONTROL 设置]中的[!UICONTROL 列表控件]区域移除筛选器。 [!DNL Workfront]管理员必须在此区域的列表中包含这些项，才能在布局模板中使用。
 
-1. 確認版面配置範本顯示下列篩選器：
+1. 验证布局模板是否显示以下过滤器：
 
-   * [!UICONTROL 我參與的專案] 和 [!UICONTROL 我擁有的專案] 在 [!UICONTROL 專案] 區域
-   * [!UICONTROL 我的時程表核准] 和 [!UICONTROL 我的時間表] 在 [!UICONTROL 時間表] 區域
+   * 在[!UICONTROL 项目]区域[!UICONTROL 我所在的项目]和[!UICONTROL 我拥有的项目]
+   * [!UICONTROL 我的工时表批准]和[!UICONTROL 我的工时表]（在[!UICONTROL 工时表]区域中）
 
-   若要這麼做：
+   为此，请执行以下操作：
 
-   1. 存取配置範本。
-   1. 選取 **[!UICONTROL 清單]** 在 **[!UICONTROL 自訂使用者看到的內容]**.
-   1. 選取 **[!UICONTROL 專案]** 或 **[!UICONTROL 時間表]** 在 **[!UICONTROL 選取要自訂的清單]**.
-   1. 在 **[!UICONTROL 篩選]** 區段，確認 **[!UICONTROL 我參與的專案]**， **[!UICONTROL 我擁有的專案]** （適用於專案）和 **[!UICONTROL 我的時程表核准]** 和 **[!UICONTROL 我的時間表]** （適用於時程表）已選取。
+   1. 访问布局模板。
+   1. 在&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下选择&#x200B;**[!UICONTROL 列表]**。
+   1. 在&#x200B;**[!UICONTROL 下选择**[!UICONTROL &#x200B;项目&#x200B;]**或**[!UICONTROL &#x200B;时间表&#x200B;]**选择要自定义的列表]**。
+   1. 在&#x200B;**[!UICONTROL 筛选器]**&#x200B;部分中，验证是否选择了我所在的&#x200B;**[!UICONTROL 项目]**、**[!UICONTROL 我拥有的项目]**（项目）和&#x200B;**[!UICONTROL 我的工时表批准]**&#x200B;和&#x200B;**[!UICONTROL 我的工时表]**（时间表）。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   如需詳細資訊，請參閱 [使用版面配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. 將版面配置範本指派給正確的使用者、職位角色、團隊或群組。 如需詳細資訊，請參閱 [將使用者指派至版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. 将布局模板分配给正确的用户、工作角色、团队或组。 有关信息，请参阅[将用户分配给布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。

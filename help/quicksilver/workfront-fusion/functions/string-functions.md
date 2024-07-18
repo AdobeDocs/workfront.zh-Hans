@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 中的字符串函数 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的字符串函数
 
 ## 访问要求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>  
    <td> 
-   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p> 
+   <p>当前：无[!DNL Workfront Fusion]许可证要求。</p> 
    <p>或</p> 
    <p>旧版：任意 </p> 
    </td>  
@@ -44,17 +44,17 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">产品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]计划：您的组织必须购买[!DNL Adobe Workfront Fusion]。</li><li>已包括[！UICONTROL Ultimate] [!DNL Workfront]计划： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p> 
+   <p>当前：您的组织必须购买[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## [!UICONTROL 长度（文本或缓冲区）]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >返回：5
 
-## [!UICONTROL lower（文本）]
+## [!UICONTROL 下移（文本）]
 
 将文本字符串中的所有字母字符转换为小写。
 
@@ -101,9 +101,9 @@ ht-degree: 0%
 >**示例：**
 >`startcase( hello WORLD )`
 >
->返回： [!UICONTROL 《你好世界》]
+>返回：[!UICONTROL Hello World]
 
-## [!UICONTROL ascii(文本； [删除变音符号])]
+## [!UICONTROL ascii （文本；[删除变音符]）]
 
 从文本字符串中删除所有非ascii字符。
 
@@ -131,9 +131,9 @@ ht-degree: 0%
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->返回： [!UICONTROL Hi World]
+>返回：[!UICONTROL World]
 
-正则表达式(包含在 `/.../`)可用作具有标记组合(例如 `g`， `i`， `m`)已附加：
+正则表达式（包含在`/.../`中）可用作附加了标志（如`g`、`i`、`m`）的组合的搜索字符串：
 
 >[!INFO]
 >
@@ -145,8 +145,8 @@ ht-degree: 0%
 
 替换字符串可以包含以下特殊替换模式：
 
-* `$&` 插入匹配的子字符串。
-* `$n` 其中n是小于100的正整数，插入带括号的n个子匹配字符串。 这是1索引。
+* `$&`插入匹配的子字符串。
+* `$n`其中n是小于100的正整数，插入带括号的n个子匹配字符串。 这是1索引。
 
 >[!INFO]
 >
@@ -154,7 +154,7 @@ ht-degree: 0%
 >
 >![](assets/variable-value-350x63.png)
 >
->返回：电话号码 `+420777111222`
+>返回：电话号码`+420777111222`
 >>
 >![](assets/variable-value---2-350x55.png)
 >
@@ -162,11 +162,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->不要使用指定的捕获组，例如 `/ is (?<number>\d+)/` 替换字符串参数中的。 这样做会导致错误。
+>请勿在替换字符串参数中使用命名捕获组，如`/ is (?<number>\d+)/`。 这样做会导致错误。
 
-有关正则表达式的详细信息，请参阅 [文本分析器](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+有关正则表达式的详细信息，请参阅[文本分析器](../../workfront-fusion/apps-and-their-modules/text-parser.md)。
 
-## [!UICONTROL trim（文本）]
+## [!UICONTROL 修剪（文本）]
 
 删除文本开头或结尾的空格字符。
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 >
 >`upper( Hello )`
 >
->返回： [!UICONTROL 您好]
+>返回： [!UICONTROL HELLO]
 
 ## [!UICONTROL 子字符串（文本；开始；结束）]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 >
 >   返回：6
 
-## [!UICONTROL toBinary（值）]
+## [!UICONTROL toBinary （值）]
 
 将任意值转换为二进制数据。
 
@@ -236,15 +236,15 @@ ht-degree: 0%
 >
 >   返回：57 6f 72 6b 66 72 6f 6e 74
 
-## [!UICONTROL toString（值）]
+## [!UICONTROL toString （值）]
 
 将任意值转换为字符串。
 
-## [!UICONTROL encodeURL（文本）]
+## [!UICONTROL encodeURL （文本）]
 
 将某些文本中的特殊字符编码为有效的URL地址。
 
-## [!UICONTROL decodeURL（文本）]
+## [!UICONTROL decodeURL （文本）]
 
 将URL中的特殊字符解码为文本。
 
@@ -253,7 +253,7 @@ ht-degree: 0%
 >**示例：**
 >`decodeURL( Automate%20your%20workflow )`
 >
->返回： [!UICONTROL 自动化您的工作流]
+>返回： [!UICONTROL 自动执行工作流]
 
 ## [!UICONTROL escapeHTML（文本）]
 
@@ -267,7 +267,7 @@ ht-degree: 0%
 >
 > 返回： `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(text)]
+## [!UICONTROL escapeMarkdown（文本）]
 
 转义文本中的所有Markdown标记。
 
@@ -329,7 +329,7 @@ ht-degree: 0%
 >
 >返回： `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1(文本； [编码]； [键])]
+## [!UICONTROL sha1 （文本；[编码]；[密钥]）]
 
 计算字符串的sha1哈希。 如果指定了键参数，则返回sha1 HMAC哈希。 支持的编码：“hex”（默认）、“base64”或“latin1”。
 
@@ -341,7 +341,7 @@ ht-degree: 0%
 >
 >返回：b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256(文本； [编码]； [键])]
+## [!UICONTROL sha256 （文本；[编码]；[密钥]）]
 
 计算字符串的sha256哈希。 如果指定了键参数，则返回sha256 HMAC哈希。 支持的编码：“hex”（默认）、“base64”或“latin1”。>
 
@@ -353,23 +353,23 @@ ht-degree: 0%
 >
 >返回：ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512(文本； [输出编码]； [键]； [密钥编码])]
+## [!UICONTROL sha512 （文本；[输出编码]；[密钥]；[密钥编码]）]
 
 计算字符串的sha512哈希。 如果指定了键参数，则返回sha512 HMAC哈希。
 
 支持的编码：
 
-* &quot;[!UICONTROL 十六进制]“（默认）
-* &quot;[!UICONTROL 基数64]&quot;
+* &quot;[!UICONTROL hex]&quot; （默认）
+* [!UICONTROL base64]
 * &quot;[!UICONTROL latin1]&quot;
 
 支持的密钥编码：
 
-* &quot;[!UICONTROL 文本]“（默认）
+* “[!UICONTROL 文本]”（默认）
 * &quot;[!UICONTROL 十六进制]&quot;
-* &quot;[!UICONTROL 基数64]”或“[!UICONTROL 二进制]&quot;
+* [!UICONTROL base64]”或[!UICONTROL binary]
 
-使用&quot;[!UICONTROL 二进制]“密钥编码，密钥必须是缓冲区，而不是字符串。
+使用“[!UICONTROL binary]”密钥编码时，密钥必须是缓冲区，而不是字符串。
 
 >[!INFO]
 >
@@ -379,7 +379,7 @@ ht-degree: 0%
 >
 >返回：789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL base64（文本）]
+## [!UICONTROL base64 （文本）]
 
 将文本转换为base64。
 

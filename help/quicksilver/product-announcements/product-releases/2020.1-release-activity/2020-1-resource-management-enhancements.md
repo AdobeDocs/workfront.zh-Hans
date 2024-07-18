@@ -18,13 +18,13 @@ ht-degree: 0%
 
 本页介绍了2020.1版本对资源管理功能的所有增强。 这些增强功能目前在“预览”环境中提供，并将于2020年3月底或4月初在“生产”环境中提供。
 
-有关2020.1版本可用的所有更改列表，请参阅 [2020.1版概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+有关2020.1版本可用的所有更改列表，请参阅[2020.1版本概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 在工作负载均衡器的已分配工作区域显示项目、任务和不可访问项的每日计划小时数
 
 为了帮助您了解各个项目、任务或不可访问项如何影响用户的工作量，以及为了能够在工作负载平衡器中做出正确的重新分配决策，我们引入了一个设置，允许您查看各个项目、任务和不可访问项的小时分布。
 
-有关在工作负载均衡器中管理小时数的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关在工作负载均衡器中管理小时数的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作负载均衡器的未分配工作区域显示任务的每日已计划小时数和不可访问项
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 在此更改之前，此设置仅更新均衡器的已分配工作区域中的信息。
 
-有关导航工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作负载均衡器中调整时间线持续时间
 
 您现在可以灵活地选择在工作负载均衡器中显示多少周：您可以从2、4或6周中进行选择。 以前，周数默认设置为4。
 
-有关导航工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关导航工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 显示从资源规划者删除的实际小时数设置
 
@@ -46,10 +46,10 @@ ht-degree: 0%
 
 在使用自定义视图功能查看用户视图中的资源规划者时，您仍可以显示实际小时数。
 
-有关导航资源规划程序的信息，请参阅 [资源规划者导航概述](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有关导航资源规划者的信息，请参阅[资源规划者导航概述](../../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
 ## 改进了工作负载均衡器中的导航
 
 现在，您可以在工作负载均衡器中一次导航一个时间段。 在此增强功能之前，当您单击后退和前进图标时，时间范围一次偏移四个时间段。
 
-有关使用工作负载均衡器的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关使用工作负载均衡器的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。

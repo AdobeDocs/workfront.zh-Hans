@@ -43,7 +43,7 @@ Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 �
 * 请求者（附在请求许可证上）
 * 外部用户（附加到外部电子邮件许可证）
 
-每个默认访问级别的Workfront许可证决定在访问级别中可用和可配置的内容。 有关Workfront许可证的信息，请参阅 [Adobe Workfront许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+每个默认访问级别的Workfront许可证决定在访问级别中可用和可配置的内容。 有关Workfront许可证的信息，请参阅[Adobe Workfront许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)。
 
 对于分配给它的用户，访问级别定义他们能够在Workfront中查看和使用以下对象类型和区域的内容：
 
@@ -67,9 +67,9 @@ Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 �
 >
 >我们强烈建议您保持内置访问级别不变，以便在设置用户后可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 (您可以对每个访问级别（系统管理员和外部用户除外）执行此操作。)
 
-有关每个默认访问级别的详细说明，请参阅 [内置访问级别](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+有关每个默认访问级别的详细说明，请参阅[内置访问级别](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)。
 
-有关为用户分配访问级别的说明，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+有关为用户分配访问级别的说明，请参阅[编辑用户的配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 权限
 
@@ -81,12 +81,12 @@ Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 �
    * 对于没有Workfront许可证的外部用户（不适用于所有对象）
    * 带有电子邮件地址（仅适用于文档）
 
-* **Contribute**：（并非对所有对象都可用）
-* **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限的组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。
+* **Contribute**： （不适用于所有对象）
+* **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。
 
   >[!INFO]
   >
-  >**示例：** 如果收件人的访问级别不允许编辑项目，则该用户无法编辑或删除项目，即使共享者授予了管理项目的权限也是如此。
+  >**示例：**&#x200B;如果收件人的访问级别不允许编辑项目，则该用户无法编辑或删除项目，即使共享者授予了管理项目的权限也是如此。
   >
   >或者，如果收件人的访问级别允许编辑项目，但共享者授予了项目的仅查看权限，则用户无法编辑或删除项目。
 

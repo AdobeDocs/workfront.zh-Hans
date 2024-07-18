@@ -51,26 +51,26 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>Planner或更高版本，具有提醒通知的管理访问权限</p> <p>有关授予计划用户管理访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td> <p>Planner或更高版本，具有提醒通知的管理访问权限</p> <p>有关授予计划用户管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 自定义事件通知的电子邮件主题行 {#customize-email-subject-lines-for-event-notifications}
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **电子邮件** > **通知**.
+1. 在左侧面板中，单击&#x200B;**电子邮件** > **通知**。
 
-1. 单击 **事件通知** 选项卡。
-1. 单击要自定义的事件通知的名称以打开 **事件通知** 盒子。
-1. 在 **电子邮件主题行** 框中，更改电子邮件主题中的文本和字段，包括自定义字段。
+1. 单击&#x200B;**事件通知**&#x200B;选项卡。
+1. 单击要自定义的事件通知的名称以打开&#x200B;**事件通知**&#x200B;框。
+1. 在&#x200B;**电子邮件主题行**&#x200B;框中，更改电子邮件主题中的文本和字段，包括自定义字段。
 
-   添加的字段名称必须与我们数据库结构的驼峰式大小写语法匹配。 <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+   添加的字段名称必须与我们数据库结构的驼峰式大小写语法匹配。<!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. 单击 **更新** 以保存您电子邮件中的新主题行。
+1. 单击&#x200B;**更新**&#x200B;以保存您电子邮件的新主题行。
 
 ## 自定义多对象电子邮件的电子邮件主题行
 
@@ -84,7 +84,7 @@ ht-degree: 4%
 
 如果添加到项目对话，将生成一封包含第二个主题的电子邮件。 在此处，主题行包含“topReferenceObject：name”，Workfront再次标识所引用的对象，并将返回该对象名称而不是主题中的“topReferenceObject：name”。 电子邮件主题行类似于：“对项目ABC的评论”。
 
-要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅 [自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications) 本文章中。
+要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅本文中的[自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications)。
 
 ## 自定义多操作电子邮件的电子邮件主题行
 
@@ -94,4 +94,4 @@ ht-degree: 4%
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅 [自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications) 本文章中。
+要编辑电子邮件主题行并向任一主题行添加其他字段，请参阅本文中的[自定义事件通知的电子邮件主题行](#customize-email-subject-lines-for-event-notifications)。

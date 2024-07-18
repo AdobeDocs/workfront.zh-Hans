@@ -20,11 +20,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
 * [将组添加到验证](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-* [创建验证组，使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [使用将组设为私有 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-* [使用管理组 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+* [使用 [!DNL Workfront Proof]创建验证组](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+* [使用 [!DNL Workfront Proof]将组设为私有](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [使用 [!DNL Workfront Proof]管理组](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

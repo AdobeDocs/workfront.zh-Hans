@@ -54,7 +54,7 @@ ht-degree: 1%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -64,7 +64,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别*</td>
@@ -76,7 +76,7 @@ ht-degree: 1%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 更新目标详细信息部分中的目标
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. 单击目标列表中目标的名称，然后单击目标的名称。
 
-   这将打开 **目标详细信息** 部分。
+   这将打开左侧的&#x200B;**目标详细信息**&#x200B;部分。
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 单击 **“编辑”图标** ![](assets/edit-icon.png) 图标，然后单击 **编辑全部** 或 **概述**
+1. 单击右上角的&#x200B;**编辑图标** ![](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**&#x200B;或&#x200B;**概述**
 
    或
 
@@ -198,11 +198,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **描述**：添加或更新有关目标的信息。
    * **进度**：指示到目前为止已完成目标的百分比。 您无法手动更新目标的进度。 目标进度是计算所有进度指标。
-   * **条件**：指示目标是新目标且尚未更新、目标是按时完成还是落后。 您无法更新目标的条件。 目标条件由Workfront自动计算。\
+   * **条件**：指示目标是新目标且尚未更新、目标是按时完成还是延迟。 您无法更新目标的条件。 目标条件由Workfront自动计算。\
      有关目标条件和进度的更多信息，请参阅
-     [Adobe Workfront目标中的目标进度和条件概述](../goal-management/calculate-goal-progress.md).
-   * **状态**：您无法手动更新目标的状态。 有关更多信息，请参阅 [Adobe Workfront目标中的目标状态概述](../goal-management/goal-status-overview.md).
-   * **目标所有者**：单击以更新目标所有者的名称。 开始键入用户、团队、组的名称或您的组织的名称，然后当它显示在列表中时将其选定。 一个目标只能有一个所有者。
+     [Adobe Workfront目标中的目标进度和条件概述](../goal-management/calculate-goal-progress.md)。
+   * **状态**：无法手动更新目标的状态。 有关详细信息，请参阅Adobe Workfront目标中的[目标状态概述](../goal-management/goal-status-overview.md)。
+   * **目标所有者**：单击可更新目标所有者的名称。 开始键入用户、团队、组的名称或您的组织的名称，然后当它显示在列表中时将其选定。 一个目标只能有一个所有者。
    * **父目标**：开始键入要设置为所选目标的父目标的名称。 所选目标的进度将自动更新父目标的进度。
 
      >[!TIP]
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >您必须更新有关父目标本身的此信息。
 
-   * **期间**：单击以更新目标的时间段\
+   * **时段**：单击以更新目标的时段\
      或\
-     选择 **启用自定义日期** 指定目标的日期 **开始** 和 **结束日期**.
+     选择&#x200B;**启用自定义日期**&#x200B;以指定目标的&#x200B;**开始**&#x200B;和&#x200B;**结束日期**&#x200B;的日期。
    * **关闭注释**：此字段仅对状态为“已关闭”的目标可见。 无法编辑已关闭的目标。 重新打开已关闭的目标会永久删除关闭注释。
 
 

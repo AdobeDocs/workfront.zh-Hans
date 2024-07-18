@@ -19,7 +19,7 @@ ht-degree: 2%
 
 本页介绍了21.1版本对“预览”环境所做的所有项目管理增强。 这些增强功能将在2021年2月15日这一周的“生产”环境中提供。
 
-有关21.1版本可用的所有更改列表，请参阅 [21.1发行版概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+有关21.1版本的所有可用更改列表，请参阅[21.1版本概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 默认情况下，现在显示增强的分析
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 在默认布局模板中，Analytics区域现在默认处于启用状态，这意味着分配到此布局模板的用户现在可以在Adobe Workfront Classic的全局导航栏中看到Analytics区域，并在新的Adobe Workfront Experience中看到主菜单。
 
-要了解有关增强型分析的更多信息，请参阅 [增强的分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
+要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 增强的分析适用于所有群集
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 以前，增强分析不可用于Google Cloud Platform，因此群集6上的客户无法访问分析区域。 现在，群集6上的商业和企业客户可以访问Analytics区域。
 
-要了解有关增强型分析的更多信息，请参阅 [增强的分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
+要了解有关增强型分析的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## “人员”页面现在可用于所有聚类
 
@@ -49,4 +49,4 @@ ht-degree: 2%
 
 此页面以前在Workfront Classic的20.3版本和所有其他群集的新Workfront Experience中均可用。
 
-要详细了解“人员”页面中提供的图表，请参阅 [增强的分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
+要了解有关“人员”页面中可用图表的更多信息，请参阅[增强型分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。

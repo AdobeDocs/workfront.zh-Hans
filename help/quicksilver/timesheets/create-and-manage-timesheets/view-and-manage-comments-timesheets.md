@@ -51,21 +51,21 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 在时间表上查看小时条目评论 {#view-hour-entry-comments-on-a-timesheet}
 
-您可以配置对要在时间表中显示的单个小时条目所做的注释。 显示和隐藏注释的选项不会影响对整个时间表所做的注释或单个项目所做的注释。 有关更多信息，请参阅  [在时间表上发表评论](#make-comments-on-a-timesheet).
+您可以配置对要在时间表中显示的单个小时条目所做的注释。 显示和隐藏注释的选项不会影响对整个时间表所做的注释或单个项目所做的注释。 有关更多信息，请参阅  [在时间表上发表评论](#make-comments-on-a-timesheet)。
 
 默认情况下，首次访问时间表时会隐藏评论。
 
 要在时间表上显示备注，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **时间表**.
+1. 单击&#x200B;**时间表**。
 1. 打开要显示备注的时间表。
-1. 单击 **显示评论** 在时间表的右上角。
+1. 单击时间表右上角的&#x200B;**显示评论**。
 注释显示在记录小时条目和注释的项目下。
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -73,46 +73,46 @@ ht-degree: 0%
 
 ## 在时间表上发表评论 {#make-comments-on-a-timesheet}
 
-* [评论整个工时表](#comment-on-the-overall-timesheet)
-* [对工时表中的单个小时条目进行评论](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [对整个时间表进行评论](#comment-on-the-overall-timesheet)
+* [在时间表中对单个小时条目进行评论](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [在时间表上评论工作项](#comment-on-a-work-item-in-a-timesheet)
 
 ### 评论整个工时表 {#comment-on-the-overall-timesheet}
 
 您可以对时间表进行一般性评论。 对整个时间表进行注释与对其他对象进行注释类似。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 位于右上角，或 **主菜单** 图标 ![](assets/lines-main-menu.png) 左上角或Workfront的位置（如果可用）。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)或Workfront（如果可用）。
 
-1. 单击 **时间表**.
+1. 单击&#x200B;**时间表**。
 1. 转到要在其中发表评论的时间表。
-1. 单击 **更新** 在左侧面板，然后单击 **评论** 选项卡。
-1. 开始添加新注释或回复现有注释，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可选）在中添加人员或团队 **标记人员或团队** 字段以包含您的更新中的其他人。 有关更多信息，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. （可选）选择 **我的公司私有** 选项。
-1. 键入您的评论，然后单击 **提交**.
+1. 单击左侧面板中的&#x200B;**更新**，然后单击&#x200B;**评论**&#x200B;选项卡。
+1. 开始添加新注释或回复现有注释，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
+1. （可选）在&#x200B;**标记人员或团队**&#x200B;字段中添加人员或团队以将其他人包含在您的更新中。 有关详细信息，请参阅[为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
+1. （可选）如果只想让公司的人员查看更新，请选择&#x200B;**我的公司私有**&#x200B;选项。
+1. 键入您的评论，然后单击&#x200B;**提交**。
 
-   您的评论会显示在 [!UICONTROL 更新] 时程表的部分，在评论选项卡中。
+   您的备注显示在时间表的[!UICONTROL 更新]部分的“备注”选项卡中。
 
-1. （可选）单击 **系统活动** 选项卡以查看系统生成的更新
+1. （可选）单击&#x200B;**系统活动**&#x200B;选项卡以查看系统生成的更新
 
    或
 
-   单击 **全部** 选项卡，按时间顺序查看系统活动和用户评论。
+   单击“**全部**”选项卡，按时间顺序查看系统活动和用户评论。
 
    >[!TIP]
    >
    >   “全部”选项卡是只读选项卡，不能从该选项卡回复注释。
 
 
-   有关更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ### 对工时表中的单个小时条目进行评论 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **时间表**.
-1. 转到要发表评论的时间表，然后单击 **工时表** 在左侧面板中。
-1. 在要注释的小时条目字段中单击，然后单击 **注释** 为小时条目添加评论。
+1. 单击&#x200B;**时间表**。
+1. 转到要在其中发表评论的时间表，然后单击左侧面板中的&#x200B;**时间表**。
+1. 在要发表评论的小时条目字段中单击，然后单击&#x200B;**评论**&#x200B;为您的小时条目添加评论。
 
    >[!TIP]
    >
@@ -121,9 +121,9 @@ ht-degree: 0%
 
    执行下列操作之一：
 
-   * 键入新注释并单击 **完成**.
-   * 编辑现有注释并单击 **完成**，或单击 **取消** 以放弃更改。
-   * 单击 **删除** 图标 ![](assets/delete.png) 删除已保存的注释。
+   * 键入新评论并单击&#x200B;**完成**。
+   * 编辑现有评论并单击&#x200B;**完成**，或单击&#x200B;**取消**&#x200B;以放弃更改。
+   * 单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)可删除已保存的评论。
 
      小时条目框的右上角出现一个蓝色标记，表示存在与时间条目一起记录的注释。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
    >   * Mac计算机的Cmd + Return。
 
 
-1. （可选）要配置要在时间表中显示的小时条目注释，请参阅部分 [在时间表上查看小时条目评论](#view-hour-entry-comments-on-a-timesheet) 本文章中。
+1. （可选）要将小时条目注释配置为显示在时间表中，请参阅本文中的[查看时间表上的小时条目注释](#view-hour-entry-comments-on-a-timesheet)部分。
 
 ### 在时间表上评论工作项 {#comment-on-a-work-item-in-a-timesheet}
 
@@ -147,12 +147,12 @@ ht-degree: 0%
 
 您只能对时间表中的任务和问题进行评论。 您无法评论项目或常规时间。
 
-1. 单击 [!UICONTROL **主菜单**] 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
-1. 单击 [!UICONTROL **时间表**].
-1. 转到要在其中发表评论的时间表，然后单击 [!UICONTROL **工时表**] 在左侧面板中。
-1. 单击任务或问题的行，然后单击 [!UICONTROL **打开摘要**].
-1. 在中开始键入更新 [!UICONTROL **更新**] 区域，然后单击 [!UICONTROL **提交**].
+1. 单击Adobe Workfront右上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击&#x200B;[!UICONTROL **时间表**]。
+1. 转到要在其中发表评论的时间表，然后在左侧面板中单击&#x200B;[!UICONTROL **时间表**]。
+1. 单击任务或问题的行，然后单击&#x200B;[!UICONTROL **打开摘要**]。
+1. 开始在“摘要”面板的&#x200B;[!UICONTROL **更新**]&#x200B;区域键入更新，然后单击&#x200B;[!UICONTROL **提交**]。
 更新显示在任务和问题的更新部分中。
-1. （可选）单击 [!UICONTROL **关闭摘要**] 以关闭“摘要”面板。
+1. （可选）单击&#x200B;[!UICONTROL **关闭摘要**]&#x200B;以关闭摘要面板。
 
-   有关在“摘要”面板中更新任务和问题的更多信息，请参阅 [摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   有关在“摘要”面板中更新任务和问题的详细信息，请参阅[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。

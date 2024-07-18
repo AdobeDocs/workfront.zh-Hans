@@ -21,7 +21,7 @@ ht-degree: 0%
 
 如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
 
-当管理员为组配置事件通知时，该配置将影响该组或其子组之一为其主组的用户。 在其用户配置文件中，这些用户会看到为其主组激活的事件通知，而不是在系统范围内激活的事件通知。 有关更多信息，请参阅 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+当管理员为组配置事件通知时，该配置将影响该组或其子组之一为其主组的用户。 在其用户配置文件中，这些用户会看到为其主组激活的事件通知，而不是在系统范围内激活的事件通知。 有关详细信息，请参阅[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知。
 
 >[!NOTE]
 >
@@ -58,19 +58,19 @@ ht-degree: 0%
 >
 >当您重新锁定通知时，系统中所有组都将完全按照您设置的规则继承通知。 此操作将覆盖组管理员可能已对其组进行的任何更改，因此最好先与他们协商。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **电子邮件** > **通知**.
+1. 单击&#x200B;**电子邮件** > **通知**。
 
-1. 确保 **事件通知** 选项卡处于打开状态。
-1. 单击通知右侧的图标可将其切换到“已锁定” ![“锁定”图标](assets/lock-toggle-button.png) 或已解锁 ![“解锁”图标](assets/unlock-toggle-button.png) 位置。
+1. 确保&#x200B;**事件通知**&#x200B;选项卡已打开。
+1. 单击通知右侧的图标可将其切换到锁定的![锁定图标](assets/lock-toggle-button.png)或解锁的![解锁图标](assets/unlock-toggle-button.png)位置。
 
    或
 
-   如果要一次解锁或锁定多个通知，请选择它们，然后单击解锁 ![“解锁”图标](assets/unlock-icon-toolbar.png) 或锁定 ![“锁定”图标](assets/lock-icon-locked-qs.png) 在列表上方的工具栏中显示的按钮。
+   如果要一次解锁或锁定多个通知，请选择它们，然后单击列表上方工具栏中显示的“解锁![解锁”图标](assets/unlock-icon-toolbar.png)或“锁定![锁定”图标](assets/lock-icon-locked-qs.png)按钮。
 
 1. 单击&#x200B;**保存**。
 1. （可选）如果要为顶级组配置事件通知，而不是将此任务留给组管理员，可以执行以下操作之一：
 
-   * 删除 **系统事件通知** 在通知列表上方的搜索框中，搜索并选择顶级组的名称以列出其通知，然后在显示的列表中激活或停用解锁的通知。
-   * 单击 **组** 在左侧菜单中，单击顶级组的名称。 单击 **事件通知** 然后，在左侧面板中配置已解锁的事件通知，如中所述 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * 在通知列表上方的搜索框中删除&#x200B;**系统事件通知**，搜索并选择顶级组的名称以列出其通知，然后在显示的列表中激活或停用解锁的通知。
+   * 单击左侧菜单中的&#x200B;**组**，然后单击顶级组的名称。 单击左侧面板中的&#x200B;**事件通知**，然后配置解锁的事件通知，如[查看和配置组](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知中所述。

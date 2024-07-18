@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 38%
 
 ### 资源管理器
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID | 客户 |   |   |   |   | 添加 |
 | 客户ID | 项目 |   |   |   |   | 计数 |
 | projectID | 资源管理器 |   |   |   |   | 删除 |
 | resourceManagerID | 模板 |   |   |   |   | Get |
-| templateID |   |   |   |   |   | 报告  |
-|   |   |   |   |   |   | 搜索  |
+| templateID |   |   |   |   |   | 报表  |
+|   |   |   |   |   |   | Search  |
 
 
 ### Ews
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 文件名 |   |   |   |   | 上传 |   |
 | 句柄 |   |   |   |   |   |   |
@@ -41,7 +41,7 @@ ht-degree: 38%
 
 ### 自定义标签
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabel | 添加 |
 |   |   |   |   | inUseByOtherLayoutTemplate | user自定义标签 | 计数 |
@@ -59,14 +59,14 @@ ht-degree: 38%
 
  
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
 |   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改
 
 <sup>2</sup> hasFilters属性已更改为true
 
@@ -74,25 +74,25 @@ ht-degree: 38%
 
 ### 审批
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | completedHours |   | 资源管理器 | resourceManagerIDs |   |   |   |
-| 约束日期<sup>1</sup> |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| 工作必需<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加日期验证
+已添加<sup>1</sup>日期验证
 
-<sup>2</sup> 已添加NOT_FILTERABLE标志
+已添加<sup>2</sup> NOT_FILTERABLE标志
 
  
 
-### 批准流程
+### 审批流程
 
-|   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+|   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|---|
 |   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
@@ -104,57 +104,57 @@ ht-degree: 38%
 
  
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改
 
  
 
-### 批准路径<sup>1</sup>
+### 审批路径<sup>1</sup>
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | 添加 |
 | approvedStatusLabs |   |   |   |   |   | 计数 |
-| 备注 |   |   |   |   |   | 删除 |
+| 注释 |   |   |   |   |   | 删除 |
 | enteredById |   |   |   |   |   | 编辑 |
 | entryDate |   |   |   |   |   | Get |
 | globalPathID |   |   |   |   |   | 报告 |
 | isPrivate |   |   |   |   |   | 搜索 |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name<sup>2</sup> |   |   |   |   |   |   |
+| 名称<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 更改为可报告
+<sup>1</sup>已更改为可报告
 
-<sup>2</sup> 添加了最大长度验证器
+<sup>2</sup>已添加最大长度验证器
 
  
 
 ### 工作服务对象
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 约束日期<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
-| 所需工作<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| 工作必需<sup>2</sup> |   |   |   | workitemstatusLabels  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加日期验证
+已添加<sup>1</sup>日期验证
 
-<sup>2</sup> 已添加Not_Filterable标志
+已添加<sup>2</sup> Not_Filterable标志
 
  
 
 ### 任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnProject |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
@@ -166,41 +166,41 @@ ht-degree: 38%
 
 ### 基线 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>1</sup> |   |   |   |   |   |   |
+| 工作必需<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加Not_Filterable标志
+已添加<sup>1</sup> Not_Filterable标志
 
  
 
 ### 基线任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>1</sup> |   |   |   |   |   |   |
+| 工作必需<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加Not_Filterable标志
+已添加<sup>1</sup> Not_Filterable标志
 
  
 
-### 开票记录
+### 账单记录
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | billingDate<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 添加了NO_TIME字段标志
+<sup>1</sup>添加了NO_TIME字段标志
 
 ### 燃尽事件 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
@@ -211,7 +211,7 @@ ht-degree: 38%
 
 ### 类别 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
@@ -222,7 +222,7 @@ ht-degree: 38%
 
 自定义枚举 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatures |   |
@@ -234,7 +234,7 @@ ht-degree: 38%
 
 文档 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
@@ -245,19 +245,19 @@ ht-degree: 38%
 
 汇率 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 费率<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 将PRECISION验证器更改为8到9
+<sup>1</sup>已将PRECISION验证器更改为8到9
 
  
 
 ### 集成
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
@@ -267,33 +267,33 @@ ht-degree: 38%
 
 ### 日志条目
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改
 
  
 
-### Optask（问题）<sup>1</sup> 
+### Optask （问题）<sup>1</sup> 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| 工作必需<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 标记为可恢复
+<sup>1</sup>标记为可恢复
 
-<sup>2</sup> 已添加Not_Filterable标志
+已添加<sup>2</sup> Not_Filterable标志
 
  
 
 ### 项目<sup>1</sup> 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | 资源管理器 | resourceManagerIDs  |   |   |   |
@@ -304,32 +304,32 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 标记为“可恢复”和“资源可管理”
+<sup>1</sup>标记为可恢复且资源可管理
 
-<sup>2</sup> 已添加Not_Filterable标志
+已添加<sup>2</sup> Not_Filterable标志
 
  
 
 ### 任务<sup>1</sup>
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 约束日期<sup>2</sup> |   |   |   |   |   |   |
-| 所需工作<sup>3</sup> |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| 工作必需<sup>3</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 标记为可恢复
+<sup>1</sup>标记为可恢复
 
-<sup>2</sup> 已添加AT_DATE_YEAR_BEFORE验证器
+<sup>2</sup> AT_DATE_YEAR_BEFORE验证器已添加
 
-<sup>3</sup> 已添加Not_Filterable标志
+已添加<sup>3</sup> Not_Filterable标志
 
  
 
 ### 团队
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
@@ -340,57 +340,57 @@ ht-degree: 38%
 
 ### 模板<sup>1</sup> 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   | 资源管理器 | resourceManagerIDs |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 标记为“可恢复”和“资源可管理”
+<sup>1</sup>标记为可恢复且资源可管理
 
 ### 模板任务<sup>1</sup> 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>2</sup> |   |   |   |   |   |   |
+| 工作必需<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 标记为可恢复
+<sup>1</sup>标记为可恢复
 
-<sup>2</sup> 已添加Not_Filterable标志
+已添加<sup>2</sup> Not_Filterable标志
 
  
 
 ### 用户
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | myInfo<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> MAX_LENGTH违规者
+<sup>1</sup>个MAX_LENGTH违规者
 
  
 
 ### 用户注释
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 事件类型<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能的值已更改
+<sup>1</sup>可能的值已更改
 
-<sup>2</sup> 已将筛选器更改为 `[true]`
+<sup>2</sup>的筛选器已更改为`[true]`
 
  
 
 ### 公告
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

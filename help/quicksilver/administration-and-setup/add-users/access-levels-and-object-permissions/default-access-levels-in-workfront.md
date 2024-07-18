@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->本文介绍Adobe Workfront中当前的内置访问级别。 有关新的内置访问级别的信息，请参见 [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>本文介绍Adobe Workfront中当前的内置访问级别。 有关新的内置访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 
 当前六个内置访问级别中的每一个都针对特定类型的用户而设计。 通过这些访问级别，您可以控制用户在系统中可以编辑和查看的内容。
@@ -60,13 +60,13 @@ ht-degree: 5%
 >
 >您无法修改系统管理员或外部用户访问级别。
 
-有关创建自定义访问级别或修改内置访问级别之一的信息，请参阅 [创建和修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+有关创建自定义访问级别或修改内置访问级别之一的信息，请参阅[创建和修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 >[!IMPORTANT]
 >
 >我们强烈建议您保持内置访问级别不变，以便在设置用户后可以参考这些级别。
 
-有关这些访问级别的一般信息，请参阅 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+有关这些访问级别的一般信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 ## 系统管理员访问级别
 
@@ -74,9 +74,9 @@ ht-degree: 5%
 
 具有系统管理员访问权限级别的用户可以在Workfront中执行所有操作。 他们可以查看和编辑所有其他用户在Workfront中输入的所有Workfront对象和信息。
 
-用户还可以完全访问“设置”区域，以便更改系统级别的任何设置。 并且他们可以访问主菜单中的所有区域 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用。
+用户还可以完全访问“设置”区域，以便更改系统级别的任何设置。 并且他们可以访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的所有区域（如果可用）。
 
-有关更多信息，请参阅 [授予用户完全管理权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ## Planner访问级别
 
@@ -86,9 +86,9 @@ ht-degree: 5%
 * 任何负责规划、创建和管理任务、项目、项目组合和项目群的人员
 * 负责将工作（任务和问题）分配给其他用户的任何人
 * 构建报告以及批准工时表、工作项和文档的用户
-* 需要访问主菜单中所有区域的用户 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用
+* 需要访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中所有区域的用户（如果可用）
 
-您可以创建Planner内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以创建Planner内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是可用于规划者访问级别中对象的最高访问设置：
 
@@ -122,10 +122,10 @@ ht-degree: 5%
 * 可以审批工作和文档，但不能审批工时表
 * 可以访问和共享报告
 * 可以与系统中的其他用户通信
-* 无法访问主菜单中的所有区域 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用，则其“用户”区域将命名为“团队”。 在团队区域中，具有此访问级别的用户只能查看他们所属的团队，以及分配给这些团队的工作。
+* 无法访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的所有区域（如果可用），并且其“用户”区域名为“团队”。 在团队区域中，具有此访问级别的用户只能查看他们所属的团队，以及分配给这些团队的工作。
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 
-您可以创建Worker内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以创建Worker内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是辅助进程访问级别中对象的最高访问设置：
 
@@ -142,7 +142,7 @@ ht-degree: 5%
 | 用户 |   |   | ✓ {\f13 } |
 | 团队 |   |   | ✓受限访问 |
 | 模板 | ✓ {\f13 } |   |   |
-| 财务数据 |   | ✓ (默认设置为“无访问权限”。 “查看”设置允许用户仅查看“项目详细信息”中的“财务”区域。) |   |
+| 财务数据 |   | ✓ (默认设置为“无访问权限”。 “查看”设置允许用户仅查看“财务”区域   在项目详细信息中。) |   |
 | 资源管理 |   | ✓ {\f13 } |   |
 | 场景计划器 |   |   | ✓ （默认设置为“无访问权限”。） |
 | Workfront Goals |   |   | ✓ （默认设置为“无访问权限”。） |
@@ -158,10 +158,10 @@ ht-degree: 5%
 具有审阅者访问级别的用户：
 
 * 不能分派工作项或批准工时表
-* 可以访问主菜单中的请求和文档区域 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用
+* 可以访问主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)中的请求和文档区域（如果可用）
 * 创建对象的能力有限 — 无法创建项目、项目组合、项目群或报告。
 
-您可以创建Reviewer内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以创建Reviewer内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 对于项目和任务，比工作人员访问级别的权限更为有限，以下是适用于审核者访问级别中对象的最高访问设置：
 
@@ -249,7 +249,7 @@ ht-degree: 5%
   <tr> 
    <td>财务数据</td> 
    <td> </td> 
-   <td> <p>✓ (默认设置为“无访问权限”。 “查看”设置允许用户仅查看“项目详细信息”中的“财务”区域。)</p> </td> 
+   <td> <p>✓ (默认设置为“无访问权限”。 “查看”设置允许用户仅查看“财务”区域   在项目详细信息中。)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,9 +285,9 @@ ht-degree: 5%
 * 可以上传和批准文档
 * 可以检查他们已提交问题的状态
 * 无法分派至工作项
-* 只能从主菜单中的请求区域访问请求 ![](assets/main-menu-icon.png) 或主菜单 ![](assets/lines-main-menu.png)，如果可用。 有关请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 只能从主菜单![](assets/main-menu-icon.png)中的请求区域或主菜单![](assets/lines-main-menu.png)访问请求（如果可用）。 有关请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-您可以创建请求者内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关更多信息，请参阅 [创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+您可以创建请求者内置访问级别的自定义版本，并确定它允许各种Workfront对象类型的访问量。 有关详细信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 以下是请求者访问级别中对象的最高访问设置：
 
@@ -327,7 +327,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->仅当在“设置”的“系统首选项”区域中启用了“使用没有Workfront帐户的人员的电子邮件地址与其协作”选项时，“外部用户”才可用。 有关更多信息，请参阅 [配置系统安全首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>仅当在“设置”的“系统首选项”区域中启用了“使用没有Workfront帐户的人员的电子邮件地址与其协作”选项时，“外部用户”才可用。 有关详细信息，请参阅[配置系统安全首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 虽然这些设置在“外部用户”访问级别的访问级别区域中不可见，但具有此访问权限的用户对Workfront对象类型具有下列最高访问权限：
 

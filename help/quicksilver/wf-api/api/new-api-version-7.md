@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 47%
 
 ### 校对Bean
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 搜索 |
 | 死线 |   |   |   |   |   |   |
@@ -46,7 +46,7 @@ ht-degree: 47%
    <th>搜索</th> 
    <th>操作</th> 
    <th>查询</th> 
-   <th>操作</th> 
+   <th>运营</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -93,7 +93,7 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>报告 </td> 
+   <td>报表 </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,14 +102,14 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>搜索 </td> 
+   <td>Search </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### DocMetadataLinkGroup
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 添加 |
 |   |   |   |   |   |   | 计数 |
@@ -122,7 +122,7 @@ ht-degree: 47%
 
 ### ProofApproval
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
 |   |   |   |   |   |   | Get |
@@ -135,7 +135,7 @@ ht-degree: 47%
 
 ### 资源分布
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 添加 |
 |   |   |   |   |   |   | 计数 |
@@ -151,7 +151,7 @@ ht-degree: 47%
 
 ### 用户组
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | groupID | 组 |   |   |   |   |   |
 | isOwner  | 用户  |   |   |   |   |   |
@@ -163,7 +163,7 @@ ht-degree: 47%
 
 ### 周期性工时表
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |  hourType |   |   |   | 添加 |
 | name |   |   |   |   |   | 复制 |
@@ -181,7 +181,7 @@ ht-degree: 47%
 
 ### RsrcPool
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID | 客户 | 用户 |   |   |   | 添加 |
 | 客户ID  | 输入者  |   |   |   |   | 计数 |
@@ -199,7 +199,7 @@ ht-degree: 47%
 
 ### DocMetadataLinkGroup
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 计数 |
 | 文章名称  |   |   |   |   |   | Get |
@@ -220,19 +220,19 @@ ht-degree: 47%
 
 ### UpdateBean
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改 
+<sup>1</sup>对可能值的更改 
 
  
 
 ### ApprovalServiceObject
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
@@ -244,13 +244,13 @@ ht-degree: 47%
 
 ### 访问规则<sup>1</sup>
 
-<sup>1</sup> 标记为可报告
+<sup>1</sup>已标记为可报告
 
  
 
-### 批准流程
+### 审批流程
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
@@ -258,9 +258,9 @@ ht-degree: 47%
 
   
 
-### 批准路径<sup>1</sup>
+### 审批路径<sup>1</sup>
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
@@ -268,13 +268,13 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已移除可报告标志
+已移除<sup>1</sup>可报告标志
 
  
 
 ### 工作服务对象
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -282,41 +282,41 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加日期验证
+已添加<sup>1</sup>日期验证
 
-<sup>2</sup> 已添加Not_Filterable标志
+已添加<sup>2</sup> Not_Filterable标志
 
  
 
 ### 任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProject<sup>1</sup> |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
-|   |   |   |   | unassignuserfromprojects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已添加字段includeIssues
+<sup>1</sup>已添加字段includeIssues
 
  
 
 ### 客户 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改 
+<sup>1</sup>对可能值的更改 
 
  
 
 ### 自定义枚举 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
@@ -326,7 +326,7 @@ ht-degree: 47%
 
 ### 文档 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
@@ -336,7 +336,7 @@ ht-degree: 47%
 
 ### 文档版本 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
@@ -346,20 +346,20 @@ ht-degree: 47%
 
 ### 组
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | isPublic |  布局模板 | 用户组  |   |   |   |   |
 | 布局模板标识 |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 将PRECISION验证器更改为8到9
+<sup>1</sup>已将PRECISION验证器更改为8到9
 
  
 
 ### 小时类型
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
@@ -373,19 +373,19 @@ ht-degree: 47%
 
 ### 日志条目
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改
 
  
 
 ### Optask（问题）
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |  assignmultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -398,7 +398,7 @@ ht-degree: 47%
 
 ### 项目
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -411,7 +411,7 @@ ht-degree: 47%
 
 ### QueueDef
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
@@ -421,7 +421,7 @@ ht-degree: 47%
 
 ### 队列主题
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
@@ -431,7 +431,7 @@ ht-degree: 47%
 
 ### 最新
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
@@ -441,7 +441,7 @@ ht-degree: 47%
 
 ### 任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   | assignmultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -453,13 +453,13 @@ ht-degree: 47%
 
 ### TemplateTask
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 所需工作<sup>1</sup> |   |   |   |   |   |   |
+| 工作必需<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 类型从Int更改为Double 
+<sup>1</sup>类型从Int更改为Double 
 
  
 
@@ -481,7 +481,7 @@ ht-degree: 47%
    <th>搜索</th> 
    <th>操作</th> 
    <th>查询</th> 
-   <th>操作</th> 
+   <th>运营</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -499,7 +499,7 @@ ht-degree: 47%
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetprofileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -546,7 +546,7 @@ ht-degree: 47%
 
 ### 用户注释
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | 确认日期 |   |   |   |   |   |   |
@@ -560,10 +560,10 @@ ht-degree: 47%
 
 ### CustomerPrefObject
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改

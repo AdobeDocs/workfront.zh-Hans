@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 1发布活动
-description: 本页介绍了2018.2 Beta 1版本预览环境中最近提供的所有更改。 2018年3月22日，该功能在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+title: 2018.2 Beta 1发行版活动
+description: 本页介绍了2018.2 Beta 1版本在“预览”环境中最近提供的所有更改。 2018年3月22日，该功能在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 1发布活动
+# 2018.2 Beta 1发行版活动
 
-本页介绍了2018.2 Beta 1版本预览环境中最近提供的所有更改。 2018年3月22日，该功能在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+本页介绍了2018.2 Beta 1版本在“预览”环境中最近提供的所有更改。 2018年3月22日，该功能在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 >此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅 [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+有关2018.2版中所做所有更改的列表，请参阅[2018.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2测试版1包含以下增强功能：
+2018.2 Beta 1版本包含以下增强功能：
 
 * [在甘特图中修改任务日期](#modify-task-dates-in-the-gantt-chart)
-* [从更新选项卡访问项目甘特图](#access-the-project-gantt-chart-from-the-updates-tab) （暂时删除）
+* [从“更新”选项卡](#access-the-project-gantt-chart-from-the-updates-tab)访问项目甘特图（暂时删除）
 
-* [重新引入到“文档列表”中文档的各种链接](#various-links-re-introduced-to-documents-on-the-document-list)
-* [资源规划者中的用户视图改进](#user-view-improvements-in-the-resource-planner)
-* [新建项目列表体验](#new-project-list-experience)
-* [“更新新外观”选项卡](#new-look-for-updates-tab)
+* [重新引入文档列表](#various-links-re-introduced-to-documents-on-the-document-list)上的文档的各种链接
+* 资源规划者中的[用户视图改进](#user-view-improvements-in-the-resource-planner)
+* [新项目列表体验](#new-project-list-experience)
+* [更新选项卡的新外观](#new-look-for-updates-tab)
 * [移动改进](#mobile-improvements)
 
 ## 在甘特图中修改任务日期 {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 在此更改之前，您只能在任务列表或任务级别更改任务日期。
 
-有关更多信息，请参阅 [更新任务列表甘特图中的信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+有关详细信息，请参阅任务列表甘特图](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)中的[更新信息。
 
 ## 从更新选项卡访问项目甘特图 {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 在此更改之前，项目时间线链接会打开旧版甘特图。
 
-有关更多信息，请参阅 [提交日期概述](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+有关详细信息，请参阅[提交日期概述](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-有关更多信息，请参阅 [Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+有关详细信息，请参阅[Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 重新引入到“文档列表”中文档的各种链接 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 在这些改进之前，您已经报告资源规划者加载缓慢，并且您已经注意到显示的数据中存在不一致的情况。 有了这些改进，这些应该取消。
 
-有关资源规划者区域的详细信息，请参阅 [资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有关资源规划者的区域的详细信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,12 +119,12 @@ ht-degree: 0%
 
 在指定的项目列表中已暂时禁用以下功能：
 
-* 列大小调整（此功能已在2018.2 Beta 5版本中重新引入）
+* 调整列大小(此功能在2018.2 Beta 5版本中重新引入)
 * 列重新排序
-* 状态图标字段显示为空白（2018.2 Beta 5版本中重新引入了此功能）
-* 甘特图无法访问（此功能在2018.2 Beta 3版本中重新引入。）
+* 状态图标字段显示为空白(2018.2 Beta 5版本中重新引入了此功能)
+* 甘特图无法访问(此功能在2018.2 Beta 3版本中重新引入。)
 
-有关在列表中工作的详细信息，请参阅 [开始使用Adobe Workfront中的列表](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关在列表中工作的更多信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## “更新新外观”选项卡 {#new-look-for-updates-tab}
 
@@ -145,7 +145,7 @@ ht-degree: 0%
   <tr> 
    <th> <p><strong>任务</strong> </p> </th> 
    <th> <p><strong>上一个用户操作</strong> </p> </th> 
-   <th> <p><strong>新建用户操作</strong> </p> </th> 
+   <th> <p><strong>新用户操作</strong> </p> </th> 
    <th> <p><strong>有关详细信息，请参阅……</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -178,19 +178,19 @@ ht-degree: 0%
    <td> <p>仅允许公司内的用户查看对象</p> </td> 
    <td> <p>单击锁定图标</p> </td> 
    <td> <p>启用“我的公司私有”切换开关</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">标记其他人的更新</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>允许公司外部的用户查看对象</p> </td> 
    <td> <p>单击锁定图标</p> </td> 
    <td> <p>禁用“我的公司私有”切换开关</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">标记其他人的更新</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>向评论或更新中添加回复或更新</p> </td> 
    <td> <p>单击“注释”按钮</p> </td> 
    <td> <p>单击回复或更新按钮</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">任务和问题的更新条件</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">向文档添加更新</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">更新任务状态</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">更新任务和问题的条件</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">向文档添加更新</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

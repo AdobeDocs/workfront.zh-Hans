@@ -21,9 +21,9 @@ ht-degree: 1%
 
 本页介绍了2022年6月20日这一周在Adobe Workfront Fusion中所做的所有增强功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## AdobeAEM Assets连接器和模块现已推出
 
@@ -42,4 +42,4 @@ ht-degree: 1%
 * 进行自定义API调用
 
 
-有关更多信息，请参阅 [Adobe Experience Manager Assets模块](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).
+有关详细信息，请参阅[Adobe Experience Manager Assets模块](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)。

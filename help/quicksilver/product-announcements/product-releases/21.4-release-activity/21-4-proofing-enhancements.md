@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有“验证”增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 改进了审阅者和请求者的验证功能
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 您可以将审阅人和请求人添加到需要登录或需要电子签名的验证。
 * 所有用户都将从Workfront与Proof之间改进的连接中受益。 现在，停用用户或更新用户的电子邮件地址时，在Workfront中进行更改时，您的更新将正确反映在验证中。
 
-有关更多信息，请参阅 [验证角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+有关详细信息，请参阅[校对角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)。

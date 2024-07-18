@@ -19,7 +19,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-您可以通过访问项目详细信息部分的财务区域来查看或编辑项目的财务信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑项目的所有信息的信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+您可以通过访问项目详细信息部分的财务区域来查看或编辑项目的财务信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑项目的所有信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 访问要求
 
@@ -40,16 +40,16 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>查看或更高权限的项目和财务数据</p> <p>编辑对项目和财务数据的访问权限以编辑项目的财务信息</p> <p><b>注释</b></p>
-   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看包含查看财务权限的项目或更高版本的权限</p> <p>管理包含管理财务的项目的权限以编辑项目的财务信息</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看包含查看财务权限的项目或更高版本的权限</p> <p>管理包含管理财务的项目的权限以编辑项目的财务信息</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 财务领域概览
 
@@ -62,14 +62,14 @@ ht-degree: 2%
 ## 查看项目的财务信息
 
 1. 转到项目。
-1. 单击 **项目详细信息** 在左侧面板中。
-1. 单击 **编辑** 图标 ![](assets/edit-icon.png) （在详细信息部分的右上角），然后单击 **财务**.
+1. 单击左侧面板中的&#x200B;**项目详细信息**。
+1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**财务**。
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >根据Workfront管理员配置布局模板的方式，概述部分可能不会列在首位，在这种情况下，它会折叠。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据Workfront管理员配置布局模板的方式，概述部分可能不会列在首位，在这种情况下，它会折叠。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
 1. 在项目的财务区域查看以下字段：
 
@@ -79,11 +79,11 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">绩效指数方法</td> 
-      <td> 控制Workfront用于计算“实现值”指标的方法。 它可以基于小时数，也可以基于成本。 <br>有关PIM的详细信息，请参阅文章 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a></td> 
+      <td> 控制Workfront用于计算“实现值”指标的方法。 它可以基于小时数，也可以基于成本。 <br>有关PIM的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">CPI / SPI / CSI</td> 
-      <td> <p>这些项目绩效指标可显示项目在给定时间的执行情况。 其值根据绩效指数法计算。<br>有关更多信息，请参阅以下文章： </p> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
+      <td> <p>这些项目绩效指标可显示项目在给定时间的执行情况。 其值根据绩效指数法计算。<br>有关详细信息，请参阅以下文章： </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">计算成本绩效指数(CPI)</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">计算计划绩效指数(SPI) </a> </p> </li> 
@@ -92,7 +92,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">完工估算</td> 
-      <td> 项目的预计总成本，如果绩效指数方法(PIM)基于小时，则以小时表示；如果绩效指数方法(PIM)基于成本，则以货币值表示。<br>有关计算完工估算的更多信息，请参阅文章 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">计算完工估算(EAC)</a></td> 
+      <td> 项目的预计总成本，如果绩效指数方法(PIM)基于小时，则以小时表示；如果绩效指数方法(PIM)基于成本，则以货币值表示。<br>有关计算完工估算的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">计算完工估算(EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">预算</td> 
@@ -103,7 +103,7 @@ ht-degree: 2%
       <td>这些是项目的固定成本，与项目上的其他活动无关。 它们由项目所有者手动输入。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">计划成本</td> 
+      <td role="rowheader">规划成本</td> 
       <td>项目的估计成本，基于计划小时数以及与任务受让人（工作角色或用户）关联的费率。</td> 
      </tr> 
      <tr> 
@@ -115,7 +115,7 @@ ht-degree: 2%
       <td>设置基于项目计划的预期收入。 固定收入由项目所有者手动指定。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">计划收入</td> 
+      <td role="rowheader">规划收入</td> 
       <td>基于计划小时数和与任务受让人（工作角色或用户）关联的费率的预计收入。</td> 
      </tr> 
      <tr> 
@@ -124,7 +124,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">已记帐收入</td> 
-      <td> <p>向客户或其他方记帐的收入，这些收入记录在帐单记录中。 有关开票记录的更多信息，请参阅文章 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">创建开票记录</a>. </p> </td> 
+      <td> <p>向客户或其他方记帐的收入，这些收入记录在帐单记录中。 有关开票记录的详细信息，请参阅文章<a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">创建开票记录</a>。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -149,9 +149,9 @@ ht-degree: 2%
    >
    >您需要具有项目管理权限才能执行以下步骤。 我们还建议仅项目所有者应对项目的财务子选项卡进行更改。
 
-1. 单击 **项目详细信息** 在左侧面板中。
-1. 单击 **编辑** 图标 ![](assets/edit-icon.png) （在详细信息部分的右上角），然后单击 **财务** . 这将打开“财务”区域以进行编辑。
-1. 通过单击字段或单击，编辑任何可编辑的字段 **+添加** 向空字段添加信息。
+1. 单击左侧面板中的&#x200B;**项目详细信息**。
+1. 单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**财务** 。 这将打开“财务”区域以进行编辑。
+1. 编辑任何可编辑的字段，方法是单击该字段或单击&#x200B;**+添加**&#x200B;将信息添加到空字段。
 
    >[!TIP]
    >
@@ -163,7 +163,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >根据Workfront管理员如何设置布局模板，您的环境中，项目详细信息部分中的字段可能不同。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据Workfront管理员如何设置布局模板，您的环境中，项目详细信息部分中的字段可能不同。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,15 +173,15 @@ ht-degree: 2%
       <td role="rowheader">绩效指数方法</td> 
       <td> <p>控制Workfront用于计算项目绩效指标的方法。 此操作由管理员在系统级别设置，但您也可以在项目级别进行编辑。 请考虑选择以下选项之一：</p> 
        <ul> 
-        <li><strong>基于小时：</strong>Workfront使用计划小时数来计算项目的CPI和EAC，并且项目的EAC显示为数字（以小时为单位）。 </li> 
-        <li><strong>基于成本：</strong>Workfront使用计划劳力成本计算项目的CPI和EAC，并且EAC显示为货币值。 选择此选项时，请确保您的任务受分配人（职位角色或用户）与成本费率相关联。</li> 
+        <li>基于<strong>小时：</strong>Workfront在计算项目的CPI和EAC时使用计划小时数，并且项目的EAC显示为小时数。 </li> 
+        <li><strong>基于成本：</strong>Workfront在计算项目的CPI和EAC时使用计划劳力成本，并且EAC显示为货币值。 选择此选项时，请确保您的任务受分配人（职位角色或用户）与成本费率相关联。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">完工估算</td> 
       <td> <p>表示项目或任务完成时的预计总成本。 此操作由管理员在系统级别设置，但您也可以在项目级别进行编辑。 请考虑选择以下选项之一：</p> 
        <ul> 
-        <li><strong>在项目级别计算</strong>：父任务和项目的EAC通过在EAC公式中输入实际小时数/实际人工成本来确定。 此计算包括直接添加到父任务或项目的实际小时数/成本和费用。</li> 
+        <li><strong>在项目级别计算</strong>：在EAC公式中输入实际小时数/实际劳力成本来确定父任务和项目的EAC。 此计算包括直接添加到父任务或项目的实际小时数/成本和费用。</li> 
         <li><strong>从任务/子任务汇总</strong>：父任务和项目的EAC通过汇总每个子任务的EAC来确定。 此计算不包括直接添加到父任务或项目的实际小时数/成本和费用。</li> 
        </ul> </td> 
      </tr> 
@@ -199,9 +199,9 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">项目货币</td> 
-      <td> <p>如果此项目不同于系统中的默认货币，请指定该项目的货币。 系统中的默认货币由Workfront管理员定义。 有关在Workfront中设置汇率的更多信息，请参阅文章 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>.</p> </td> 
+      <td> <p>如果此项目不同于系统中的默认货币，请指定该项目的货币。 系统中的默认货币由Workfront管理员定义。 有关在Workfront中设置汇率的更多信息，请参阅文章<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p> </td> 
      </tr>
     </tbody> 
    </table>
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。

@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [此 [!DNL Workfront Proof] 计费页面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [ [!DNL Workfront Proof] 帐单页面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
-* [选择您的付款方式 [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [正在下载 [!DNL Workfront Proof] 发票](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [关闭 [!DNL Workfront Proof] 帐户](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [在 [!DNL Workfront Proof]中选择付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+* [正在下载您的 [!DNL Workfront Proof] 发票](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [关闭您的 [!DNL Workfront Proof] 帐户](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

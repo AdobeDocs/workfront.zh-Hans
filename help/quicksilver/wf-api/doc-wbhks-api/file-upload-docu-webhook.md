@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 添加到此规范版本1.1中的文档ID和文档版本ID可用于从Workfront中检索额外信息。
 
-**示例：** 如果文档管理系统需要有关文档的额外信息，webhook实施代码可以使用文档ID使用Workfront的RESTful API检索该信息。 好的做法是，这些信息可能来自文档上的自定义数据字段，并且包含任务、问题或项目。
+**示例：**&#x200B;如果文档管理系统需要有关文档的额外信息，webhook实现代码可以使用文档ID使用Workfront的RESTful API检索该信息。 好的做法是，这些信息可能来自文档上的自定义数据字段，并且包含任务、问题或项目。
 
 ## POST方法
 
@@ -61,11 +61,11 @@ POST/uploadInit
  </tbody> 
 </table>
 
-## 个回应
+## 响应
 
 文件的元数据，由/metadata端点定义。 这包括提供商使用的文档ID。
 
-**示例:**
+**示例：**
 
 ```
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b

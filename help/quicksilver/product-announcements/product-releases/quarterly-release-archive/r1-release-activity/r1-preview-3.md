@@ -18,7 +18,7 @@ ht-degree: 2%
 
 本页介绍R1.3版本在“预览”环境中可用的所有更改。 此页面上的功能已于2017年2月1日在预览环境中提供。
 
-有关在R1中所做所有更改的列表，请参见 [R1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+有关R1中所做所有更改的列表，请参阅[R1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)。 
 
 ## 链接外部文件的改进方法
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 在这些更改之前，从外部源链接文件的选项位于“文档”区域的“添加文档”对话框中。 在首次从外部源链接文档之前，链接文档的用户必须在“设置”区域中授权该文档提供商。
 
-有关更多信息，请参阅  [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关更多信息，请参阅  [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 已更新团队正在处理日历
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 适用于团队的“正在处理”日历现在包含附加功能和更新的外观。 处理日历的团队现在的工作方式类似于项目的资源计划工具。
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 筛选器现在可用于控制在计划时间线上显示哪些用户，以及哪些任务和问题显示在“未分配”区域中。 在筛选器中选择用户后，仅显示您选择的用户，无论这些用户是否具有与“未分配”区域中任务的角色分配匹配的角色分配。 此时还会显示当前分配给该用户的所有任务。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 * 移动应用程序
 * Outlook加载项
 
-有关如何使用布局模板自定义Workfront术语的更多信息，请参阅创建和管理布局模板中的“自定义术语”部分和以下内容中的“了解自定义对象名称的含义”部分 [了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关如何使用布局模板自定义Workfront术语的更多信息，请参阅“创建和管理布局模板”中的“自定义术语”部分和[了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的“了解自定义对象名称的含义”部分。
 
 ## 在报告中包括批准开始日期和结束日期
 
@@ -131,9 +131,9 @@ ht-degree: 2%
 
 利用这些字段，可深入了解当前或最近审批路径的启动时间和标记为完成时间。
 
-有关这些字段的更多信息，请参阅 [Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+有关这些字段的更多信息，请参阅[Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-有关批准路径、创建和触发路径的方式以及路径在批准流程中使用的功能的更多信息，请参阅 [创建工作项的审批流程](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+有关审批路径、创建和触发它们的方式以及它们在审批流程中提供的功能的详细信息，请参阅[为工作项创建审批流程](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 以下字段已从Workfront中删除，无法再包含在报表中（这些字段提供了有关项目的信息，而不是有关审批本身的信息，并且经常被滥用）：
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 每日摘要投放选项已添加到通知设置的“我已提出的请求”区域。
 
-有关更多信息，请参阅 [修改您自己的电子邮件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+有关详细信息，请参阅[修改您自己的电子邮件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能。 这是必需的，因为预览沙盒会清除所有用户的电子邮件地址。
 
@@ -153,7 +153,7 @@ ht-degree: 2%
 
 “文档审批”通知的外观已通过新的UI更新：
 
-有关电子邮件通知的更多信息，请参阅 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).
+有关电子邮件通知的详细信息，请参阅[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
 
 请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能。 这是必需的，因为预览沙盒会清除所有用户的电子邮件地址。
 
@@ -166,4 +166,4 @@ ht-degree: 2%
 
 在此更改之前，为了编辑日期或查看完成百分比，您必须转到单个任务。
 
-有关更多信息，请参阅 [使用里程碑视图](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+有关详细信息，请参阅[使用里程碑视图](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。

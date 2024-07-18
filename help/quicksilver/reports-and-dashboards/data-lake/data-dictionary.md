@@ -35,7 +35,7 @@ ht-degree: 5%
 
   “事件”表格将跟踪Workfront中的每个更改记录：即，每次对象更改状态时，都将创建一个记录以显示更改的时间、进行更改的人员以及更改的内容。 因此，此表对于时间点比较很有用。 此表仅包括过去三年的记录。
 
-* **“每日历史记录”表**
+* **每日历史记录表**
 
   “每日历史记录”表提供了“事件”表的缩写版本，它以每日为基础显示每个对象的状态，而不是显示每个单独事件发生时的状态。 因此，此表可用于趋势分析。
 
@@ -55,10 +55,10 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
 
 有许多日期对象提供有关特定事件发生时间的信息。
 
-* `DL_LOAD_TIMESTAMP`：此日期用于内部引用，并反映将数据加载到“当前历史记录”、“事件历史记录”或“每日历史记录”表中的时间。 此日期不应用于数据分析，计划在Workfront数据湖的测试阶段删除。
-* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录中指定每个日期在11:59 UTC时的数据外观 `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并记录记录的确切更改时间 _到_ 当前行中的值。
-* `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并记录记录的确切更改时间 _从_ 当前行中的值到其他行中的值。 要允许在查询之间 `BEGIN_EFFECTIVE_TIMESTAMP` 和 `END_EFFECTIVE_TIMESTAMP` 此值从不为空，即使没有新值也是如此。 如果记录仍然有效（即值未更改）， `END_EFFECTIVE_TIMESTAMP` 将具有值2300-01-01。
+* `DL_LOAD_TIMESTAMP`：此日期用于内部引用，并反映数据加载到Current、Event或Daily History表中的时间。 此日期不应用于数据分析，计划在Workfront数据湖的测试阶段删除。
+* `CALENDAR_DATE`：此日期仅存在于“每日历史记录”表中。 此表记录了`CALENDAR_DATE`中指定的每个日期在11:59 UTC时的数据外观。
+* `BEGIN_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，并且记录记录记录何时将&#x200B;_更改为_&#x200B;其在当前行中的值。
+* `END_EFFECTIVE_TIMESTAMP`：此日期同时存在于“事件”和“每日历史记录”表中，记录某记录何时将&#x200B;_从_&#x200B;当前行中的值更改为其他行中的值。 为了在`BEGIN_EFFECTIVE_TIMESTAMP`和`END_EFFECTIVE_TIMESTAMP`上的查询之间允许，此值从不为null，即使没有新值也是如此。 如果记录仍然有效（即值未更改），`END_EFFECTIVE_TIMESTAMP`的值将为2300-01-01。
 
 ## 术语表
 
@@ -79,7 +79,7 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>任务</td>
     <td>任务</td>
     <td>分配 | 指定任务</td>
-    <td>ASSIGNATIONS_CURRENT<br>ASSIGNMENTS_DAY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+    <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>条件、优先级、严重性、状态</td>
     <td>系统 | 自定义枚举</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>记录类型通过“enumClass”属性标识。 以下是预期类型：<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
+    <td>记录类型通过“enumClass”属性标识。 以下是预期的类型：<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>文档</td>
@@ -107,7 +107,7 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>组</td>
     <td>组</td>
     <td>组 | 组</td>
-    <td>组_当前<br>GROUPS_DAY_HISTORY<br>GROUPS_EVENT</td>
+    <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -128,21 +128,21 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>里程碑</td>
     <td>里程碑</td>
     <td>英里 | 里程碑</td>
-    <td>MILESTONE_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONE_EVENT</td>
+    <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>里程碑路径</td>
     <td>里程碑路径</td>
     <td>MPATH | 里程碑路径</td>
-    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATH_DAILY_HISTORY<br>MILESTONEPATH_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>注释</td>
     <td>注释</td>
     <td>注意 | 注意</td>
-    <td>注释_当前<br>NOTES_DAILY_HISTORY<br>注释事件</td>
+    <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -156,56 +156,56 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
     <td>项目组合</td>
     <td>项目组合</td>
     <td>端口 | Portfolio</td>
-    <td>Portfolio当前<br>Portfolio_每日_历史记录<br>Portfolio事件<br><br>Portfolio_自定义_值_当前<br>Portfolio_CUSTOM_VALUE_DAILY_HISTORY<br>Portfolio_CUSTOM_VALUE_EVENT</td>
+    <td>Portfolio_CURRENT<br>PORTFOLIO_每日_历史记录<br>PORTFOLIO_事件<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>项目群</td>
     <td>项目群</td>
     <td>PRGM | 项目</td>
-    <td>程序_当前<br>PROGRAMS_DAY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>项目</td>
     <td>项目</td>
     <td>项目 | 项目</td>
-    <td>项目当前<br>PROJECTS_DAY_HISTORY<br>项目事件<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>角色</td>
     <td>工作角色</td>
     <td>角色 | 工作角色</td>
-    <td>ROLES_CURRENT<br>ROLES_DAY_HISTORY<br>ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>计划</td>
     <td>计划</td>
     <td>时间表 | 计划</td>
-    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAY_HISTORY<br>SCHEDULES_EVENT</td>
+    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>任务</td>
     <td>任务</td>
     <td>任务 | 任务</td>
-    <td>任务_当前<br>TASKS_DAY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>团队</td>
     <td>团队</td>
     <td>TEAMOB | 团队</td>
-    <td>团队当前<br>TEAMS_DAY_HISTORY<br>团队事件</td>
+    <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>时间表</td>
     <td>时间表</td>
     <td>TSHET | 工时表</td>
-    <td>TIMESHEETS_CURRENT<br>工时表_每日_历史记录<br>TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
     <td></td>
   </tr>
   <tr>

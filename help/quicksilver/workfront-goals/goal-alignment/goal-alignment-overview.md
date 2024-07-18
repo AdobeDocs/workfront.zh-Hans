@@ -27,27 +27,27 @@ ht-degree: 1%
 >     或
 >        
 >   * 适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。
->       有关更多信息，请参阅 [Adobe Workfront定价和打包](https://www.workfront.com/plans).
+>       有关详细信息，请参阅[Adobe Workfront定价和打包](https://www.workfront.com/plans)。
 >      
 >* 对于当前计划和许可证结构：
 >    
->   * Pro或更高版本 [Adobe Workfront计划]
+>   * Pro或更高版本[Adobe Workfront计划]
 >   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >    
 >请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 > 
->有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 
 目标调整是目标管理中的重要组成部分。您可以确保组织中的每个人对于推进战略所必须实现的目标都持相同观点，即通过将他们的目标相互协调并与团队、组和公司的组织目标保持一致。
 
 在顶级公司、团队或组目标建立并审核后，直接下属和团队成员必须创建从顶级级联的更集中的目标。 这些目标的范围应更加狭窄，并应考虑到被指定负责目标的人及其影响范围。 目标应回答以下问题：为实现目标所针对的父目标，他们及其团队必须实现什么？
 
-有关调整目标时最佳实践的更多信息，请参阅 [Adobe Workfront Goals入门](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+有关调整目标时最佳实践的更多信息，请参阅[Adobe Workfront目标入门](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)。
 
 ## 调整目标的注意事项
 
-* 一个目标无法同时为多个其他目标作出贡献。 尽管您可以让多个子目标与同一父目标校准，但子目标只能有一个父目标。 有关父目标和子目标的信息，请参阅 [了解父目标和子目标](#understand-parent-and-children-goals) 部分。
+* 一个目标无法同时为多个其他目标作出贡献。 尽管您可以让多个子目标与同一父目标校准，但子目标只能有一个父目标。 有关父目标和子目标的信息，请参阅本文中的[了解父目标和子目标](#understand-parent-and-children-goals)部分。
 * 一个目标可以具有多个一致的（或儿童）目标，以及多个活动和结果。 此外，每个子目标可以具有其他活动和结果，这些活动和结果会影响其进度和父目标的进度。
 
   >[!TIP]
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 调整目标有两种方法：
 
-* **自下而上的对齐**：您可以将子目标直接连接到父目标。 有关自下而上目标对齐的信息，请参阅 [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **自下而上的对齐方式**：您可以将子目标直接连接到父目标。 有关自下而上目标对齐的信息，请参阅[在Adobe Workfront目标中通过连接来对齐目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)。
 
-* **自上而下对齐**：您可以将目标的结果或活动转换为另一个目标。 新目标将成为原始目标的子目标，而原始目标将成为父目标。 有关自上而下目标对齐的信息，请参阅 [通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **自上而下的对齐方式**：您可以将目标的结果或活动转换为另一个目标。 新目标将成为原始目标的子目标，而原始目标将成为父目标。 有关自上而下目标对齐的信息，请参阅[通过将结果和活动转换为目标来对齐目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 
-有关父目标和子目标的信息，请参阅 [了解父目标和子目标](#understand-parent-and-children-goals) 部分。
+有关父目标和子目标的信息，请参阅本文中的[了解父目标和子目标](#understand-parent-and-children-goals)部分。
 
 ## 了解父目标和子目标 {#understand-parent-and-children-goals}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 * 儿童目标的进展如其成果和活动所示，会影响父目标的进展。 与父目标关联的其他活动或结果也会影响父目标的进度。
 * 您无法在父目标级别更新子目标的进度。 您必须更新子目标的活动和结果，这会自动更新子目标的进度和父目标的进度。
 
-  有关更新目标进度的信息，请参阅 [在Adobe Workfront目标中更新目标进度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  有关更新目标进度的信息，请参阅[在Adobe Workfront目标中更新目标进度](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)。
 
 ## 定位一致的目标
 

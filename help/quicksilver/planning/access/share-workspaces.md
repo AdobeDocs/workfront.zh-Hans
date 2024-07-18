@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->向工作区授予权限不会向其他用户授予对记录类型页面上的视图的权限。 您必须向记录类型页面中的各个视图授予权限才能与其他用户共享它们。 有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+>向工作区授予权限不会向其他用户授予对记录类型页面上的视图的权限。 您必须向记录类型页面中的各个视图授予权限才能与其他用户共享它们。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 
 ## 访问要求
@@ -77,13 +77,13 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 共享对工作区的权限
 
@@ -96,11 +96,11 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-1. 打开要共享的工作区，然后单击 **共享** 屏幕右上角的。
+1. 打开要共享的工作区，然后单击屏幕右上角的&#x200B;**共享**。
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. 在 **授予工作区访问权限至** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。
+1. 在&#x200B;**向**&#x200B;授予工作区访问权限字段中，开始键入用户或组的名称，然后当该名称或组显示在列表中时单击它。
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -109,8 +109,8 @@ ht-degree: 2%
    * 参与
    * 管理
 
-     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-1. 单击 **复制链接** 以将指向工作区的链接复制到剪贴板。
+     有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+1. 单击&#x200B;**复制链接**&#x200B;以将指向工作区的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
 
@@ -120,8 +120,8 @@ ht-degree: 2%
 
 {{step1-to-planning}}
 
-1. 打开要删除其权限的工作区，然后单击 **共享** 屏幕右上角的。
-1. 单击用户或组名右侧的下拉菜单，然后单击 **移除**.
+1. 打开要删除权限的工作区，然后单击屏幕右上角的&#x200B;**共享**。
+1. 单击用户或组名称右侧的下拉菜单，然后单击“**删除**”。
 1. 单击&#x200B;**保存**。
 
    属于已删除组的用户或用户无权再访问工作区或其对象。

@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 显示和跳过逻辑图标
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | ![目标字段的显示逻辑](assets/display-logic-bottom-left.png) | 左下 | 该字段是用于显示逻辑的目标字段。 如果对表单进行了特定选择，则会显示此字段。 |
 | ![定义显示逻辑图标](assets/display-logic-bottom-right.png) | 右下 | 字段定义显示逻辑。 此字段上的特定选择或值将显示目标字段。 |
-| ![目标字段的跳过逻辑](assets/skip-logic-bottom-left.png) | 左下 | 该字段是跳过逻辑的目标字段。 如果对表单进行了特定选择，则表单会跳过此字段并隐藏其中的字段。 |
+| ![跳过目标字段的逻辑](assets/skip-logic-bottom-left.png) | 左下 | 该字段是跳过逻辑的目标字段。 如果对表单进行了特定选择，则表单会跳过此字段并隐藏其中的字段。 |
 | ![定义跳过逻辑图标](assets/skip-logic-bottom-right.png) | 右下 | 字段定义跳过逻辑。 此字段上的特定选择或值会跳过其他字段并直接转到目标字段。 |
 
 ![逻辑图标](assets/logic-icons-3.png)
@@ -71,7 +71,7 @@ ht-degree: 0%
 ## 使用显示逻辑和跳过逻辑的注意事项
 
 * 要在自定义字段、小组件或分区界限中添加显示逻辑，必须在表单上至少一个多选字段（单选按钮、下拉列表或复选框）之前放置。
-有关自定义表单中的自定义字段和小部件的信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+有关自定义表单中的自定义字段和小部件的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 无法将跳过逻辑添加到构件或分区界限中。 您只能将其添加到多选字段（单选按钮、下拉列表或复选框）。
 * 如果自定义字段的以下情况全部属实，则您可以将显示逻辑和跳过逻辑添加到自定义字段中：
 
@@ -93,12 +93,12 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms**.
-1. 创建新的自定义表单或打开现有表单。 请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 以了解详细信息。
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[使用表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)设计表单。
 1. 根据需要向表单添加字段。 必须在要显示的目标字段之前放置至少一个多选字段（单选按钮、下拉列表或复选框）。
-1. 选择目标字段并单击 **添加逻辑** 在屏幕的左下角。
-1. 选择 **显示逻辑** 选项卡。
-1. 单击 **添加显示规则** 在逻辑生成器中。
+1. 选择目标字段并单击屏幕左下角的&#x200B;**添加逻辑**。
+1. 选择&#x200B;**显示逻辑**&#x200B;选项卡。
+1. 在逻辑生成器上单击&#x200B;**添加显示规则**。
 
    ![显示逻辑生成器](assets/custom-form-logic-builder-display-blank.png)
 
@@ -106,14 +106,14 @@ ht-degree: 0%
 
    1. 第一个选项是选择定义字段。 这是带有显示目标的选择值的字段。 必须为多选字段。
    1. 第二个选项是选择选择值。 只有已为该字段定义的值可用。
-   1. 第三个选项是 **已选择** 或 **未选择**. 选择 **已选择** 表示选择了值时，将显示目标字段。 选择 **未选择** 表示在定义字段中选择任何其他值时，将显示目标字段。
-   1. 添加 **和** 规则到逻辑语句，请单击 **添加规则** 直接位于您刚刚创建的规则下。 按照相同的提示构建规则。 必须满足所有和规则才能显示目标字段。
+   1. 第三个选项是&#x200B;**已选择**&#x200B;或&#x200B;**未选择**。 选择&#x200B;**已选定**&#x200B;表示在选择该值时，将显示目标字段。 选择&#x200B;**未选择**&#x200B;表示在定义字段中选择任何其他值时，将显示目标字段。
+   1. 要将&#x200B;**And**&#x200B;规则添加到逻辑语句中，请在刚刚创建的规则下单击&#x200B;**添加规则**。 按照相同的提示构建规则。 必须满足所有和规则才能显示目标字段。
 
       ![显示逻辑生成器](assets/custom-form-logic-builder-display1.png)
 
-   1. 添加 **或** 规则到逻辑语句，请单击 **添加规则** 在逻辑生成器的底部附近。 然后，单击 **添加规则** 在Or区域内，按照相同的提示构建规则。 满足一个Or规则时，将显示目标字段。
+   1. 要将&#x200B;**Or**&#x200B;规则添加到逻辑语句中，请单击逻辑生成器底部附近的&#x200B;**添加规则**。 然后，单击Or区域中的&#x200B;**添加规则**，并按照相同的提示生成规则。 满足一个Or规则时，将显示目标字段。
 
-1. 单击 **保存** 完成逻辑语句的生成操作后，发送电子邮件给用户。
+1. 完成生成逻辑语句后，单击&#x200B;**保存**。
 
    显示逻辑图标将添加到表单设计器的目标字段和定义字段中。
 
@@ -123,12 +123,12 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms**.
-1. 创建新的自定义表单或打开现有表单。 请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 以了解详细信息。
+1. 单击&#x200B;**自定义Forms**。
+1. 创建新的自定义表单或打开现有表单。 有关详细信息，请参阅[使用表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)设计表单。
 1. 根据需要向表单添加字段。 跳过逻辑的定义字段必须是多选字段（单选按钮、下拉列表或复选框）。
-1. 选择定义字段并单击 **添加逻辑** 在屏幕的左下角。
-1. 选择 **跳过逻辑** 选项卡。
-1. 单击 **添加跳过规则** 在逻辑生成器中。
+1. 选择定义字段，然后单击屏幕左下角的&#x200B;**添加逻辑**。
+1. 选择&#x200B;**跳过逻辑**&#x200B;选项卡。
+1. 在逻辑生成器上单击&#x200B;**添加跳过规则**。
 
    ![跳过逻辑生成器](assets/custom-form-logic-builder-skip-blank.png)
 
@@ -136,14 +136,14 @@ ht-degree: 0%
 
    1. 定义字段显示在生成器中。 这是您选择将跳过逻辑应用到的字段。
    1. 第一个选项是选择选择值。 只有已为该字段定义的值可用。
-   1. 第二个选项是 **已选择** 或 **未选择**. 选择 **已选择** 表示选择值时，将显示目标字段并跳过两者之间的字段。 选择 **未选择** 表示在定义字段中选择任何其他值时，将显示目标字段并跳过其中的字段。
-   1. 第三个选项是目标字段，或跳至的位置。 选择字段名称或 **表单结尾**. 您可能需要先单击“空”一词，然后再选择一个选项。
+   1. 第二个选项是&#x200B;**已选择**&#x200B;或&#x200B;**未选择**。 选择&#x200B;**选定**&#x200B;意味着在选择该值时，将显示目标字段并跳过其中的字段。 选择&#x200B;**未选择**&#x200B;表示在定义字段中选择任何其他值时，将显示目标字段并跳过其中的字段。
+   1. 第三个选项是目标字段，或跳至的位置。 选择字段名称或&#x200B;**表单**&#x200B;的结尾。 您可能需要先单击“空”一词，然后再选择一个选项。
 
       ![跳过逻辑生成器](assets/custom-form-logic-builder-skip1.png)
 
-   1. 添加 **或** 规则到逻辑语句，请单击 **添加规则** 在逻辑生成器的底部附近。 然后，根据相同的提示选择相应的选项来构建规则。 当一个 **或** 满足规则时，将显示目标字段。
+   1. 要将&#x200B;**Or**&#x200B;规则添加到逻辑语句中，请单击逻辑生成器底部附近的&#x200B;**添加规则**。 然后，根据相同的提示选择相应的选项来构建规则。 当满足一个&#x200B;**或**&#x200B;规则时，将显示目标字段。
 
-1. 单击 **保存** 完成逻辑语句的生成操作后，发送电子邮件给用户。
+1. 完成生成逻辑语句后，单击&#x200B;**保存**。
 
    跳过逻辑图标会添加到表单设计器的目标字段和定义字段中。
 

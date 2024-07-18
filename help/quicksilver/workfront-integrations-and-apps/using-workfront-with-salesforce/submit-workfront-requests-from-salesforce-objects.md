@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: 提交 [!DNL Adobe Workfront] 请求 [!DNL Salesforce] 对象
-description: 安装后 [!DNL Adobe Workfront] 表示 [!DNL Salesforce], you can submit [!DNL Workfront] 请求 [!DNL Salesforce] 机会和帐户。 经典和闪电体验框架中均存在此功能。
+title: 提交来自 [!DNL Salesforce] 对象的 [!DNL Adobe Workfront] 请求
+description: 安装来自 [!DNL Salesforce] 机会和帐户的 [!DNL Salesforce], you can submit [!DNL Workfront] 请求的 [!DNL Adobe Workfront] 后。 经典和Lightning Experience框架中均存在此功能。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 2%
 
 ---
 
-# 提交 [!DNL Adobe Workfront] 请求 [!DNL Salesforce] 对象
+# 提交来自[!DNL Salesforce]对象的[!DNL Adobe Workfront]请求
 
-安装后 [!DNL Adobe Workfront for Salesforce]，您可以提交 [!DNL Workfront] 请求 [!DNL Salesforce] 机会和帐户。 此功能同时存在于 [!DNL Classic] 和 [!DNL Lightning Experience] 框架。
+安装[!DNL Adobe Workfront for Salesforce]后，您可以提交来自[!DNL Salesforce]机会和帐户的[!DNL Workfront]请求。 此功能同时存在于[!DNL Classic]和[!DNL Lightning Experience]框架中。
 
 ## 访问要求
 
-您必须具有以下访问权限才能使用本文中描述的功能：
+您必须具有以下权限才能使用本文中所述的功能：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,89 +27,89 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 计划*</p></td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] 许可证*</p></td> 
-   <td> <p>[!UICONTROL计划]</p> </td> 
+   <td> <p>[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-提交 [!DNL Workfront] 来自 [!DNL Salesforce] 机会或帐户确保您在环境中具有以下功能：
+要提交来自[!DNL Salesforce]机会或帐户的[!DNL Workfront]请求，请确保您的环境中有以下各项：
 
-* 您的 [!DNL Workfront] 管理员已安装 [!DNL Workfront for Salesforce].\
-   有关安装的详细信息 [!DNL Workfront for Salesforce]，请参阅 [安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* 您的[!DNL Workfront]管理员已安装[!DNL Workfront for Salesforce]。\
+   有关安装[!DNL Workfront for Salesforce]的详细信息，请参阅[安装 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* 您的 [!DNL Workfront] 管理员已添加 [!DNL Workfront] 的 [!UICONTROL 机会] 和 [!UICONTROL 帐户] 页面布局。\
-   有关添加 [!DNL Workfront] 到页面布局的部分，请参阅 [配置 [!DNL Adobe Workfront] 部分 [!DNL Salesforce] 用户](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* 您的[!DNL Workfront]管理员已将[!DNL Workfront]部分添加到您的[!UICONTROL Opportunity]和[!UICONTROL Account]页面布局。\
+   有关将[!DNL Workfront]分区添加到页面布局的详细信息，请参阅[为 [!DNL Salesforce] 用户配置 [!DNL Adobe Workfront] 分区](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
 
-* 您拥有 [!DNL Workfront] 帐户，您可以从登录到该帐户 [!DNL Workfront] 部分。\
-   登录后，您可以看到 [!UICONTROL 新请求] 选项卡，您可以在此处开始输入请求。
+* 您拥有[!DNL Workfront]帐户，并且可以从您的机会或帐户中的[!DNL Workfront]部分登录到该帐户。\
+   登录后，您会看到[!UICONTROL 新请求]选项卡，您可以在其中开始输入请求。
 
-## 提交 [!DNL Workfront] 请求 [!DNL Salesforce]
+## 提交来自[!DNL Salesforce]的[!DNL Workfront]请求
 
-1. 在Salesforce中，转到Opportunity或Account 。
-1. 转到 [!DNL Workfront] 中。
-1. 在 **[!UICONTROL 新请求]** 选项卡，在 **[!UICONTROL 选择请求类型]** 下拉菜单。
+1. 转到Salesforce中的机会或帐户。
+1. 转到 [!DNL Workfront] 部分。
+1. 在&#x200B;**[!UICONTROL 新建请求]**&#x200B;选项卡中，在&#x200B;**[!UICONTROL 选择请求类型]**&#x200B;下拉菜单中选择请求类型。
 
-   您可以看到您有权在Workfront中查看的相同请求队列。
+   您可以看到在Workfront中有权查看的相同请求队列。
 
-1. 开始为您的请求填写可用字段。
+1. 开始填写您的请求的可用字段。
 
-   从提交请求 [!DNL Salesforce] 等同于在 [!DNL Workfront] Web应用程序。
-
-   >[!NOTE]
-   >
-   >使用 [!DNL Workfront] 插件 [!DNL Salesforce] 暂时不可用。
-
-   继续执行 [创建和提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md).
-
-1. 单击 **[!UICONTROL 提交]**.
-
-## 查看 [!DNL Workfront] 请求
-
-1. 转到 [!DNL Salesforce].
-1. 转到 **[!DNL Workfront]** 中。
+   从[!DNL Salesforce]提交请求与在[!DNL Workfront] Web应用程序中提交请求相同。
 
    >[!NOTE]
    >
-   >根据 [!DNL Workfront] 管理员配置了此部分，可能具有不同的名称。
+   >在[!DNL Salesforce]中使用[!DNL Workfront]插件上载文档暂时不可用。
 
-1. 选择 **[!UICONTROL 已提交的请求]** 选项卡。
+   继续执行[创建并提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md)中描述的步骤。
 
-   您可以在此选项卡中查看您或其他人从此机会或帐户提交的所有请求。在Web应用程序中提交到此请求队列的请求不会显示在 [!DNL Salesforce].
+1. 单击&#x200B;**[!UICONTROL 提交]**。
+
+## 查看[!DNL Workfront]请求
+
+1. 转到[!DNL Salesforce]中的机会或帐户。
+1. 转到 **[!DNL Workfront]** 部分。
 
    >[!NOTE]
    >
-   >在Web应用程序中，提交到此请求队列的请求不会显示在Salesforce的此列表中。
+   >根据[!DNL Workfront]管理员配置此部分的方式，它可能具有不同的名称。
+
+1. 选择&#x200B;**[!UICONTROL 已提交的请求]**&#x200B;选项卡。
+
+   您可以在此选项卡中查看您或其他人从此机会或帐户提交的所有请求。在Web应用程序中提交到此请求队列的请求不会显示在[!DNL Salesforce]的此列表中。
+
+   >[!NOTE]
+   >
+   >在Web应用程序中提交到此请求队列的请求不会显示在Salesforce的此列表中。
 
    ![salesforce_submitted_requests.png](assets/salesforce-submitted-requests-350x58.png)
 
-   您可以查看有关已提交请求的以下信息：
+   您可以查看关于已提交请求的以下信息：
 
-   * 请求名称(在 [!UICONTROL 主题] column)
+   * 请求名称（在[!UICONTROL 主题]列中）
    * 参考号
    * 请求类型
    * 状态
-   * 日期提交
+   * 提交日期
    * 按名称请求
-   * 分配给名称\
+   * 指定给名称\
 
-      此信息在 [!DNL Workfront]，则此列表中也会更新该内容。
+     当此信息在[!DNL Workfront]中更新时，它也会在此列表中更新。
 
-1. （可选）单击请求的名称以在中将其打开 [!DNL Workfront].
+1. （可选）单击请求的名称以在[!DNL Workfront]中将其打开。
 
-1. （可选）单击 **[!UICONTROL 转到[!DNL Salesforce]]** 访问问题源自Workfront以下区域的Opportunity或Account :
+1. （可选）单击&#x200B;**[!UICONTROL 转到[!DNL Salesforce]]**&#x200B;以访问问题源自于Workfront以下方面的Opportunity或Account：
 
-   * 在 [!UICONTROL 详细信息] 部分
-   * 单击 [!UICONTROL 打开摘要] ![](assets/summary-panel-icon.png) 中。
-   * 在问题标题中，当 [!UICONTROL 集成] 字段。 您的系统或组管理员必须将 [!UICONTROL 集成] 字段，以查看问题标题中的转到Salesforce链接。 有关更多信息，请参阅 [使用布局模板自定义对象标头](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+   * 在问题的[!UICONTROL 详细信息]部分中
+   * 在列表中选择问题时，在“摘要”面板中，在单击列表工具栏中的[!UICONTROL 打开摘要] ![](assets/summary-panel-icon.png)之后。
+   * 在问题标题中，当[!UICONTROL 集成]字段可用时。 您的系统或组管理员必须将[!UICONTROL 集成]字段添加到您的布局模板中，才能查看问题标题中的“转到Salesforce”链接。 有关详细信息，请参阅[使用布局模板自定义对象标头](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
    >[!NOTE]
    >
-   >的 [!UICONTROL 转到Salesforce] 链接对所有 [!DNL Workfront] 可以查看问题的用户。 您必须具有 [!DNL Salesforce] 帐户 [!DNL Salesforce] 记录问题的机会或帐户。
+   >[!UICONTROL 转到Salesforce]链接对可以查看问题的所有[!DNL Workfront]用户可见。 您必须拥有[!DNL Salesforce]帐户才能转到记录问题的[!DNL Salesforce]机会或帐户。

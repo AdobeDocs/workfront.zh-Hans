@@ -24,7 +24,7 @@ These enhancements will be included in the following releases:
 >|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 -->
 
-23.10发布网络研讨会于2023年10月5日举行。 您可以 [在此注册网络研讨会观看即时录像](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
+23.10发布网络研讨会于2023年10月5日举行。 您可以[在此处](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes)注册网络研讨会以观看即时录制。
 
 <span class="preview">周期外功能（在2023年第四季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
@@ -32,8 +32,8 @@ These enhancements will be included in the following releases:
 >
 >23.3版本包括将您的组织移至每月版本的选项。 因此，Workfront正在更改版本的编号方案，以便同时考虑每月和每季度的版本跟踪。
 >
->* 如果您在 **快速发布（每月）** 跟踪，23.3之后的版本为 **23.8**，2023年8月31日。
-> * 如果您在 **每季度** 版本跟踪，23.3之后的版本为 **23.10**，在2023年10月26日这一周。
+>* 如果您位于&#x200B;**快速发布（每月）**&#x200B;轨道，则23.3之后的发布是2023年8月31日的&#x200B;**23.8**。
+> * 如果您在&#x200B;**季度**&#x200B;发布跟踪中，则23.3之后的发布是&#x200B;**23.10**（2023年10月26日当周）。
 > 
 > 季度发行将包含三个月度发行版本的功能。 例如，23.10季度版本将包括23.8、23.9和23.10月度版本中发布的功能。
 >
@@ -44,7 +44,7 @@ These enhancements will be included in the following releases:
 >| <ul><li>23.8（2023年8月31日）</li><li>23.9（2023年9月28日）</li><li>23.10（2023年10月26日）</li></ul> | <ul><li>23.10（2023年10月26日起一周）</li></ul> |
 >| <ul><li>无版本（2023年11月）</li><li>无版本（2023年12月）</li><li>24.1（2024年1月）</li></ul> | <ul><li>24.1（2024年1月）</li></ul> |
 >
->有关快速发布流程的详细信息，请参阅 [启用或禁用快速发布流程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>有关快速发布过程的详细信息，请参阅[启用或禁用快速发布过程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 ## Adobe Workfront增强功能
 
@@ -74,7 +74,7 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">向旧版许可证模型客户提供的证明和文档决策</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">旧版许可证模型客户可用的校对和文档决策</a></p><p>[！BADGE In Production ]{type=Informational}</p>
                         <p>尚未过渡至新Adobe Workfront许可证模型的旧版客户现在可以在单个报告中查看每个用户每月验证/文档决策数的数据。 在运行“用户决策”报表时，此数据可用。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -111,7 +111,7 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">将外部API中的值选项添加到自定义表单</a></p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
-                        <p>新的字段类型， <strong>外部查找</strong>现在可在自定义表单设计器上使用。 当数据存储在外部系统上时，此字段类型允许您从外部API加载选项，并根据自定义表单中的其他字段值筛选。</p>
+                        <p>自定义表单设计器现在提供了新的字段类型<strong>外部查找</strong>。 当数据存储在外部系统上时，此字段类型允许您从外部API加载选项，并根据自定义表单中的其他字段值筛选。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -169,7 +169,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">增强展示板和信息卡上的用户分配</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">对展示板和信息卡上的用户工作分配的增强</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在提供了增强功能，可在将用户添加到Adobe Workfront展示板中的展示板和信息卡时增加灵活性。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -184,7 +184,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">在连接的信息卡上添加文档</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>您现在可以在Adobe Workfront展示板上连接的信息卡上附加文档。 您在信息卡上添加的任何文档都将在所连接任务或问题的文档选项卡上可用，并且这两个区域都支持相同的文件类型。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">添加已连接信息卡上的文档</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>您现在可以在Adobe Workfront展示板上连接的信息卡上附加文档。 您在信息卡上添加的任何文档都将在所连接任务或问题的文档选项卡上可用，并且这两个区域都支持相同的文件类型。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -205,7 +205,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上可用的仅查看文档</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>对于Adobe Workfront展示板上连接的信息卡，您现在可以查看文档，如图像和PDF。 您可以在浏览器中预览文档或将其下载到计算机。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">已连接信息卡上可用的文档仅供查看</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>对于Adobe Workfront展示板上连接的信息卡，您现在可以查看文档，如图像和PDF。 您可以在浏览器中预览文档或将其下载到计算机。 </p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -266,7 +266,7 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">日期有效成本和记帐费率</a></p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">有效成本和记帐费率</a></p><p>[！BADGE In Production ]{type=Informational}</p>
                         <p>在Workfront中，公司、用户和工作角色对象现在有日期有效成本和计费率可用。 在将日期有效费率应用于项目并且小时数记录到项目任务时，使用每个时间期的指定费率计算成本和收入。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题小组件的委托工作按钮</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">项目、任务和问题小组件的委派工作按钮</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
                         <p>作为旧主页的一项常用功能，我们现在为“我的工作”、“我的任务”和“我的问题”构件添加了一个委派按钮，以便在您外出时轻松委派工作。 请注意，必须在您的Workfront环境中启用工作委托，按钮才能显示。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -361,7 +361,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">对新主页中的工作跟踪的更改 </a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">更改了新主页中的工作跟踪</a> </p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
                         <p>根据用户反馈，我们删除了页面范围时间范围过滤器和摘要栏，用于统计到期和已完成的任务。 项目、任务和问题构件均具有内置的筛选功能，可让您逐个自定义其范围。</p>
                     </td>
@@ -421,7 +421,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新主页的自定义术语支持</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
+                        新主页的<a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">自定义术语支持</a> </p><p>[！BADGE In Production ]{type=Informational}</p>
                         <p>为了更好地满足组织的独特需求，“新主页”现在为实例布局模板中定义的对象使用自定义术语。 例如，如果“项目”对象在您的Workfront实例中被重新标记为“促销活动”，则“我的项目”小组件将在“新主页”中显示为“我的促销活动”。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -437,7 +437,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">为禁用了“新建主页”的帐户删除了“尝试新建主页”按钮</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">对于已禁用新主页帐户的尝试新主页按钮已删除</a> </p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
                         <p>对于已禁用“新建主页”的帐户，“尝试新建主页”按钮不再出现。 新主页必须由系统管理员重新启用，然后个人用户才能使用该按钮尝试新主页。</p>
                     </td>
@@ -457,7 +457,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">更改为新主页默认小部件集</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">更改为新主页默认构件集</a> </p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
                         <p>需要创建任务权限的To-dos构件现在仅存在于为具有标准、计划或工作许可证类型的用户设置的默认构件中。 此外，该构件已从具有所有其他许可证类型的用户的主页中自动移除。</p>
                     </td>
@@ -511,7 +511,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">文档集成的拖放升级功能</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">升级为拖放文档集成</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们执行了一些增强功能，以便在将文件拖放到链接文件夹中时更加清晰明了，并且删除了用户错误。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -565,7 +565,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">任务列表实时更新</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">任务列表的实时更新</a> </p>
                         <p>[！BADGE In Production]{type=Informative}</p>
                         <p>任务列表现在实时更新。 对任务所做的更改会在任务列表中更新，这样查看任务列表的用户就可以在不刷新页面的情况下查看更改。</p>
                     </td>
@@ -603,7 +603,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">表单上计算字段的动态重新计算</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">动态重新计算表单</a>中的计算字段</p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
                         <p>现在，当页面上任何表单上的依赖值被修改时，附加到对象的表单上的计算字段会被动态地实时重新计算。 这样，您无需保存表单即可查看更新后的结果。</p>
                     </td>
@@ -681,7 +681,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新增评论体验测试版增强功能</a> </p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新的评论体验测试版增强功能</a> </p>
                         <p>[！BADGE In Production ]{type=Informational}</p>
                         <p>对“更新”部分的增强功能将在2023年第四季度的“评论Experience Beta”发布时间范围内提供。 这些增强功能将在2023年第四季度版本（2023年10月）的“生产”环境中向所有客户提供。</p>
                     </td>
@@ -721,7 +721,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023年第四季度期间的外观更新</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>在2023年第四季度内，我们将对Adobe Workfront应用程序各个区域的外观和操作方式进行细微的更新。 查看各个发行说明以了解具体发行日期。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2023年第四季度期间的外观更新</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>在2023年第四季度内，我们将对Adobe Workfront应用程序各个区域的外观和操作方式进行细微的更新。 查看各个发行说明以了解具体发行日期。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -741,15 +741,15 @@ These enhancements will be included in the following releases:
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在2023年第四季度发布计划之外的“生产”环境中一次提供。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新增功能在2023年第四季度发布计划之外的“生产”环境中一次提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
 ### Workfront Scenario Planner增强
 
 此版本中目前没有Scenario Planner更新。 在有可用更新时，将更新此区域。
 
-### Workfront校对增强功能
+### Workfront Proof增强功能
 
-此版本中目前没有Workfront校对更新。 在有可用更新时，将更新此区域。
+此版本中目前没有Workfront Proof更新。 在有可用更新时，将更新此区域。
 
 ### Workfront目标增强功能
 
@@ -759,17 +759,17 @@ Workfront Fusion中的新增功能在2023年第四季度发布计划之外的“
 
 API版本17于2023年10月12日发布。 对于API版本17，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本17中的新增功能](/help/quicksilver/wf-api/api/new-api-version-17.md).
+有关新增功能和更新的信息，请参阅[API版本17](/help/quicksilver/wf-api/api/new-api-version-17.md)中的新增功能。
 
-有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 维护更新
 
-有关22.3版本中进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [Workfront“Tutorials”页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
 
 ### 即将从Workfront中删除的功能
 

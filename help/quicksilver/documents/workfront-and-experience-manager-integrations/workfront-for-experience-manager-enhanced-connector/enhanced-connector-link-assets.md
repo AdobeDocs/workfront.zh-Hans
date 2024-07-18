@@ -1,6 +1,6 @@
 ---
-title: 使用增强的连接器链接资产和文件夹
-description: 您可以将资产或文件夹从Experience Manager Assets链接到支持文档的任何Workfront对象。
+title: 使用增强型连接器链接资源和文件夹
+description: 您可以从Experience Manager Assets将资源或文件夹链接到任何支持文档的Workfront对象。
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# 使用增强的连接器链接资产和文件夹
+# 使用增强型连接器链接资源和文件夹
 
-您可以将资产或文件夹从Experience Manager Assets链接到支持文档的任何Workfront对象。 从Experience Manager Assets发送的资产不计入Workfront中的整个文档存储。 从Workfront上传并发送到Experience Manager Assets的文档确实会计入整体存储。
+您可以从Experience Manager Assets将资源或文件夹链接到任何支持文档的Workfront对象。 从Experience Manager Assets发送的Assets不计入Workfront中的整体文档存储。 从Workfront上传并发送到Experience Manager Assets的文档确实会计入总体存储中。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,7 +26,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -38,84 +38,84 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看文档的访问权限或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看文档访问权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
 在开始之前，您必须
 
-* 安装Workfront for Experience Manager增强连接器
+* 安装Workfront for Experience Manager增强型连接器
 
-## 从Experience Manager Assets链接资产
+## 从Experience Manager Assets链接资源
 
-您可以将资产从Experience Manager Assets链接到Workfront。 关联资产后，您可以
+您可以将资源从Experience Manager Assets链接到Workfront。 链接资产后，您可以
 
-* [为Experience Manager Assets校样链接的资产](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-* [上传文档的新版本](../../../documents/managing-documents/upload-new-document-version.md)
+* [校对Experience Manager Assets的链接资源](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [上载文档的新版本](../../../documents/managing-documents/upload-new-document-version.md)
 
-要将资产链接到Experience Manager Assets，请执行以下操作：
+要将资源链接到Experience Manager Assets，请执行以下操作：
 
-1. 转到 **文档** 中要添加文档的区域。
-1. 单击 **新增**，然后选择管理员设置的Experience Manager Assets集成。
+1. 转到Workfront中要添加文档的&#x200B;**文档**&#x200B;区域。
+1. 单击&#x200B;**新增**，然后选择管理员设置的Experience Manager Assets集成。
 
    >[!NOTE]
    >
-   >可以为此集成选择任何名称，因此不能特别提及Experience Manager Assets。
+   >可以为此集成选择任何名称，因此它可能没有特别提及Experience Manager Assets。
 
-1. 选择所需的资产。
+1. 选择所需的资源。
 
    ![](assets/select-an-asset.png)
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
 ## 从Experience Manager Assets链接文件夹
 
-查看文件夹内单个资产的权限取决于Experience Manager Assets权限。
+查看文件夹中各个资产的权限取决于Experience Manager Assets权限。
 
 要将文件夹链接到Experience Manager Assets，请执行以下操作：
 
-1. 转到 **文档** 中要添加文档的区域。
-1. 单击 **新增**，然后选择管理员设置的Experience Manager Assets集成。
+1. 转到Workfront中要添加文档的&#x200B;**文档**&#x200B;区域。
+1. 单击&#x200B;**新增**，然后选择管理员设置的Experience Manager Assets集成。
 
    >[!NOTE]
    >
-   >可以为此集成选择任何名称，因此不能特别提及Experience Manager Assets。
+   >可以为此集成选择任何名称，因此它可能没有特别提及Experience Manager Assets。
 
 1. 选择所需的文件夹。
 
    ![](assets/select-a-folder.png)
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
 ## 从Experience Manager Assets链接新版本
 
-您可以从Experience Manager Assets中提取新资产，并将其作为Workfront中的新版本添加到现有资产中。 如果文档已链接，并且在Experience Manager Assets中添加了新版本，则新版本会在Workfront中自动显示。
+您可以从Experience Manager Assets中提取新资源，并将其作为Workfront中的新版本添加到现有资源。 如果文档已链接，并且在Experience Manager Assets中添加了新版本，则新版本会自动显示在Workfront中。
 
 >[!TIP]
 >
->如果您转到 **文档详细信息** > **版本**.
+>如果您转到&#x200B;**文档详细信息** > **版本**，则可以查看资产的所有版本。
 
-要从Experience Manager Assets链接新版本，请执行以下操作：
+要链接来自Experience Manager Assets的新版本，请执行以下操作：
 
-1. 转到 **文档** 中要添加文档的区域。
-1. 选择要替换为新版本的资产。 无法在链接的文件夹中创建资产的新版本。
-1. 单击 **新增**，然后选择管理员设置的Experience Manager Assets集成。
+1. 转到Workfront中要添加文档的&#x200B;**文档**&#x200B;区域。
+1. 选择要替换为新版本的资产。 您无法在链接的文件夹中创建资产的新版本。
+1. 单击&#x200B;**新增**，然后选择管理员设置的Experience Manager Assets集成。
 
    >[!NOTE]
    >
-   >可以为此集成选择任何名称，因此不能特别提及Experience Manager Assets。
+   >可以为此集成选择任何名称，因此它可能没有特别提及Experience Manager Assets。
 
-1. 选择所需的资产。
+1. 选择所需的资源。
 
    ![](assets/select-an-asset.png)
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。

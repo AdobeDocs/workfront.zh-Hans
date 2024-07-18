@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->摄取列中的任何卡都不包含在组中，并且在应用组时摄取列是隐藏的。 有关引入列的信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>摄取列中的任何卡都不包含在组中，并且在应用组时摄取列是隐藏的。 有关引入列的信息，请参阅[将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
 ## 访问要求
 
@@ -43,29 +43,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 展示板上的组信息卡
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
-1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 单击 **[!UICONTROL 组]** 打开主板左侧的组面板。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+1. 访问展示板。 有关信息，请参阅[创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md)。
+1. 单击&#x200B;**[!UICONTROL 群组]**&#x200B;打开讨论区左侧的群组面板。
 
    >[!NOTE]
    >
-   >分组依据的默认设置为 **[!UICONTROL 无]**. 您可以随时选择此选项，以移除组并仅显示展示板上的列。
+   >分组依据的默认设置为&#x200B;**[!UICONTROL 无]**。 您可以随时选择此选项，以移除组并仅显示展示板上的列。
 
-1. 要将卡片分组，请选择 **[!UICONTROL 被分派人]** 或 **[!UICONTROL 标记]**.
+1. 要将卡片分组，请选择&#x200B;**[!UICONTROL 代理人]**&#x200B;或&#x200B;**[!UICONTROL 标记]**。
 
    卡片会自动分组。 单击组名旁边的箭头可折叠和展开该组。
 
-   ![将卡片分组到展示板上](assets/group-by-assignee.png)
+   ![展示板上已分组的卡片](assets/group-by-assignee.png)
 
 1. 选择将信息卡移动到其他组时发生的情况。
 
-   * **[!UICONTROL 添加被分派人] / [!UICONTROL 在标记上添加]：** 新组中的被分配人或标记将添加到信息卡上的现有被分配人或标记列表中。
-   * **[!UICONTROL 覆盖被分派人] / [!UICONTROL 覆盖标记]：** 新组中的被分配人或标签将覆盖所有其他被分配人或标签，并成为信息卡上的唯一被分配人或标签。
+   * **[!UICONTROL 添加至被分派人] / [!UICONTROL 添加至标记]：**&#x200B;新组中的被分派人或标记将添加至信息卡上的现有被分派人或标记列表中。
+   * **[!UICONTROL 覆盖被分配人] / [!UICONTROL 覆盖标记]：**&#x200B;新组中的被分配人或标记覆盖所有其他被分配人或标记，并成为信息卡上的唯一被分配人或标记。
 
-   ![[!UICONTROL 分组依据选项]](assets/group-by-rail.png)
+   ![[!UICONTROL 按选项分组]](assets/group-by-rail.png)
 
-1. 单击 **[!UICONTROL 隐藏组]** 隐藏组面板并显示整个板。
+1. 单击&#x200B;**[!UICONTROL 隐藏组]**&#x200B;可隐藏组面板并显示整个展示板。

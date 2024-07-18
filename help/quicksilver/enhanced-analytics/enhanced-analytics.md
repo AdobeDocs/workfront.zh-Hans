@@ -19,13 +19,13 @@ ht-degree: 4%
 
 本节包含以下文章：
 
-* [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md)
-* [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [了解优化的分析KPI](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)
+* [在增强型分析中应用筛选器](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [了解增强的分析KPI](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
 * [在增强型分析中查看外部测试版计划可视化图表](../enhanced-analytics/flight-plan-overview.md)
 * [在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md)
 * [在Enhanced Analytics中查看外部测试版中的任务可视化图表](../enhanced-analytics/tasks-in-flight-overview.md)
-* [在增强型分析中查看项目活动可视化](../enhanced-analytics/project-activity-overview.md)
+* [在增强型分析中查看项目活动可视化图表](../enhanced-analytics/project-activity-overview.md)
 * [在增强型分析中查看项目树状图可视化图表](../enhanced-analytics/project-treemap-overview.md)
 * [在增强型分析中查看按团队分类的活动可视化图表](../enhanced-analytics/activity-by-team-overview.md)
 <!--
@@ -37,4 +37,4 @@ ht-degree: 4%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-有关增强型分析的深入培训，请参阅 [增强的分析学习路径](https://one.workfront.com/s/enhanced-analytics-program).
+有关增强型分析的深入培训，请参阅[增强型分析学习路径](https://one.workfront.com/s/enhanced-analytics-program)。

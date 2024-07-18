@@ -54,7 +54,7 @@ ht-degree: 4%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -66,7 +66,7 @@ ht-degree: 4%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -77,7 +77,7 @@ ht-degree: 4%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有关共享目标的注意事项
 
@@ -118,7 +118,7 @@ ht-degree: 4%
 
 ## 共享目标
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 1. 单击列表中目标的名称。 此时将打开目标页面。
 
-1. 单击 **“更多”图标** 在目标名称旁边，然后单击 **共享**.
+1. 单击目标名称旁边的&#x200B;**更多图标**，然后单击&#x200B;**共享**。
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ ht-degree: 4%
 
 1. 执行下列操作之一：
 
-   * 选择 **管理整个系统** 设置，将管理权限授予系统中对其访问级别中的目标具有编辑访问权限的每个人。 默认情况下，所有新目标均会取消选择此选项。
-   * 开始键入要在中向授予管理权限的用户名 **将管理访问权限授予** 盒子。 当其名称出现在列表中时选择该名称。
+   * 选择&#x200B;**管理系统范围**&#x200B;设置，将管理权限授予系统中对其访问级别中的目标具有编辑访问权限的每个人。 默认情况下，所有新目标均会取消选择此选项。
+   * 开始在&#x200B;**将管理权限授予**&#x200B;框中键入要为其授予管理权限的用户名称。 当其名称出现在列表中时选择该名称。
 
      >[!TIP]
      >
      >您只能与其他用户共享目标。 您无法与组、团队或您的公司共享目标。
 
-1. 单击 **共享**.
+1. 单击&#x200B;**共享**。
 
    目标将与您指定的用户共享。 “系统范围”标签或具有目标管理权限的用户名称将显示在目标详细信息面板的访问管理字段中。
 
 ## 目标权限选项
 
-下表列出了在共享目标时可以授予的权限。 有关用户根据其许可证获得的访问权限的更多信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+下表列出了在共享目标时可以授予的权限。 有关用户根据其许可证获得的访问权限的详细信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -234,8 +234,8 @@ ht-degree: 4%
 
 **您必须具有查看项目的访问权限，以及对已添加或要添加到目标以查看项目的查看权限。
 
-有关项目访问级别的信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+有关项目访问级别的信息，请参阅[授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-有关项目权限的信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+有关项目权限的信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
  

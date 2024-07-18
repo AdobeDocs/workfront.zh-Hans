@@ -19,11 +19,11 @@ ht-degree: 0%
 
 本页介绍了2020.2版本中对生产环境的所有移动设备增强。 这些增强功能在2020年5月11日这一周的生产环境中提供。
 
-有关2020.2版本可用的所有更改列表，请参阅 [2020.2版概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+有关2020.2版本可用的所有更改列表，请参阅[2020.2版本概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 帮助我们测试新的移动虚拟助手（测试版）
 
-我们将为Android和iOS Beta测试人员发布适用于Workfront移动应用程序的新虚拟助手。
+我们将为Workfront移动应用程序发布一个新的虚拟助手，适用于Android和iOS Beta测试人员。
 
 以下是可用于与移动设备应用程序交互的语音命令示例：
 
@@ -33,5 +33,5 @@ ht-degree: 0%
 
 要加入Beta版，请参阅
 
-* [成为iOS Beta测试员](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-* [成为Android Beta测试者](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [成为iOS Beta测试者](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [成为Android Beta测试员](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

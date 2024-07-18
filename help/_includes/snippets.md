@@ -13,53 +13,53 @@ ht-degree: 1%
 
 ## 突出显示的预览 {#highlighted-preview}
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它仅在预览Sandbox环境中可用。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 ## 整篇文章的突出显示的预览 {#highlighted-preview-article-level}
 
-<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 ## 预览和快速发布2023年第4季度 {#preview-and-fast-release}
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">有关当前版本的信息，请参阅[2023年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
 
 ## 文章级别 — 2023年第四季度预览和快速发布 {#article-preview-and-fast-release}
 
-<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">有关当前版本的信息，请参阅[2023年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
 
 ## 不适用于AEC/shell的导航功能的重要说明 {#important-not-on-aec}
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入的组织 [!DNL Adobe Experience Cloud].
+>此页面上描述的过程仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果您的组织已载入 [!DNL Adobe Experience Cloud]，请参见 [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
 ## 第1步 — 仅单击主菜单 {#step1-click-main-menu}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
 ## 步骤1 — 单击主菜单，然后单击 —  {#step1-click-mm-then-click}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击
 
 ## 第1步 — 单击您的个人资料图片 —  {#step1-click-profile-pic}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击您的个人资料图片旁边的用户名。 或者（如果可用），在顶部导航区域中单击您的个人资料图片，然后单击 **[!UICONTROL Workfront配置文件]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，然后单击配置文件图片旁边的用户名。 或者（如果可用），单击顶部导航区域中的配置文件图片，然后单击&#x200B;**[!UICONTROL Workfront配置文件]**。
 
 <!-- Admin and Setup -->
 
 ## 步骤1 — 开始设置 {#step-1-to-setup}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 
 ## 窗体设计器到GA {#form-designer-default}
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 >
 >在即将到来的7月15日当周版本（24.7版本）中，表单设计器将正式可用，并将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 旧版表单生成器将不再可用。 我们建议您立即切换到表单设计器并利用其功能。
 >
->有关信息，请参阅 [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>有关信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 >
 >旧版表单生成器已于2024年6月19日从预览环境中删除，并将于7月发布24.7版本时从生产环境中删除。
 
 ## 将权限组与团队关联 {#right-group-team}
 
-您可以通过将鼠标悬停在该组上并单击信息图标，确保将正确的组与团队相关联 <img src="assets/info-icon.png"> 旁边显示的内容。 这将显示一个工具提示，其中列出了有关组的信息，如组上面的组的层次及其管理员的名称。
+您可以通过将鼠标悬停在该组上并单击信息图标，确保将正确的组与团队相关联 旁边显示的<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，如组上面的组的层次及其管理员的名称。
 
 
 ## Admin Console载入的重要说明 {#important-admin-console-onboard}
@@ -82,36 +82,36 @@ ht-degree: 1%
 >
 >本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。
 >
->如果您的组织已载入到Adobe Admin Console，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如果贵组织已登记到Adobe Admin Console，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 第1步 — 转至用户 {#step-1-to-users}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 用户]** ![“用户”图标](/help/_includes/assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![用户图标](/help/_includes/assets/users-icon-in-main-menu.png)。
 
 
 <!-- Agile -->
 
 ## 步骤1 — 进入讨论区 —  {#step1-to-boards}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 讨论区]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
 
 <!-- Blueprints -->
 
 ## 步骤1 — 访问Blueprint - {#step1-to-blueprints}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL Blueprint]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL Blueprints]**。
 
 <!-- Calendars -->
 
 ## 步骤1 — 转至日历 —  {#step1-to-calendars}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 日历]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 日历]**。
 
 <!-- Documents -->
 
 ## 步骤1 — 转到文档 —  {#step1-to-documents}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 文档]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 文档]**。
 
 ## 设置链接文件夹 {#setup-linked-folder}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 要设置链接的文件夹，请执行以下操作：
 
-1. 切换 **已启用链接文件夹** 打开。
+1. 将&#x200B;**启用的链接文件夹**&#x200B;切换为on。
 1. 选择文件夹路径，以指示您希望与此集成关联的所有链接文件夹的所在位置。
    ![链接文件夹设置屏幕](/help/_includes/assets/linked-folder-setup.png)
 
@@ -136,17 +136,17 @@ ht-degree: 1%
 
 ## 第1步 — 主页 —  {#step1-to-home}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 
 ## 单击主页图标 {#click-home}
 
-1. 单击 [!UICONTROL 主页] 图标 ![主页图标](/help/_includes/assets/home-icon-30x29.png) 在Adobe Workfront的左上角。
+1. 单击Adobe Workfront左上角的[!UICONTROL 主页]图标![主页图标](/help/_includes/assets/home-icon-30x29.png)。
 
 >[!NOTE]
->您的Workfront管理员可能会对 [!UICONTROL 主页] 图标：
+>您的Workfront管理员可以对您环境中的[!UICONTROL 主页]图标进行以下更改：
 >
 >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
->* 将链接到该页面的页面替换为其他页面。 在此例中，单击 **[!UICONTROL 主菜单]** ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击页面右上角的，或（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 主页]**.
+>* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**[!UICONTROL 主菜单]** ![主菜单](/help/_includes/assets/main-menu-icon.png)，或者（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
 >
 
 <!-- Integrations -->
@@ -154,9 +154,9 @@ ht-degree: 1%
 ## 先决条件 {#cc-install-prereq}
 
 您必须为您正在使用的 Adobe Creative Cloud 应用程序安装正确的插件：
-* 有关Photoshop的信息，请参阅 [安装适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* 对于XD，请参阅 [安装适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* 有关InDesign、Illustrator、Premiere Pro和After Effects的信息，请参阅 [安装Adobe Workfront以提供设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* 对于Photoshop，请参阅[安装适用于Photoshop的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* 对于XD，请参阅[安装适用于XD的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* 有关InDesign、Illustrator、Premiere Pro和After Effects的信息，请参阅[安装Adobe Workfront以进行设计和视频](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC应用程序列表 {#cc-app-list}
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 
    <table>
       <tr>
-         <td colspan="2" ><strong>验证阶段</strong>
+         <td colspan="2" ><strong>校对阶段</strong>
          </td>
       </tr>
       <tr>
@@ -256,7 +256,7 @@ ht-degree: 1%
 
 ## 步骤1 — 转到Maestro - {#step1-to-planning}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 规划]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 规划]**。
 
    Workfront Planning登录页面将打开。
 
@@ -265,7 +265,7 @@ ht-degree: 1%
    * **我的工作区**：显示您创建的工作区。
    * **其他工作区**：显示Workfront Planning中的所有工作区，包括与您共享的工作区。
 
-   对于所有其他用户，您创建或与您共享的所有工作区都将显示在 **工作区** 区域。
+   对于所有其他用户，您创建或与您共享的所有工作区都显示在&#x200B;**工作区**&#x200B;区域中。
 
 ## Workfront Planning重要简介 —  {#planning-important-intro}
 
@@ -279,41 +279,41 @@ ht-degree: 1%
 >
 >如果您属于此阶段，您的客户代表将会通知您。
 >
->有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+>有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 <!-- Manage Work -->
 
 ## 步骤1 — 转到Portfolio- {#step1-to-portfolios}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL Portfolio]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL Portfolio]**。
 
 ## 步骤1 — 转到程序 —  {#step1-to-programs}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 程序]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 程序]**。
 
 ## 步骤1 — 转到项目 —  {#step1-to-projects}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 项目]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 项目]**。
 
 ## 步骤1 — 转至请求 —  {#step1-to-requests}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 请求]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 请求]**。
 
 ## 步骤1 — 转到模板 —  {#step1-to-templates}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 模板]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 模板]**。
 
 <!-- Mobile -->
 
 ## 移动验证 — 更多菜单 {#mobile-proof-more-menu}
 
-1. 打开文档校对并选择 **[!UICONTROL 更多]** 菜单 ![更多菜单](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) 在文档的右上角。 然后，选择 **[!UICONTROL 更多]**.
+1. 打开文档校对，然后选择文档右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](/help/_includes/assets/mobile-verticalmoremenu-20x33.png)。 然后选择&#x200B;**[!UICONTROL 更多]**。
 
 <!-- My Updates -->
 
 ## 步骤1 — 转到我的更新 —  {#step1-to-my-updates}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 我的更新]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 我的更新]**。
 
 <!-- Notifications -->
 
@@ -323,7 +323,7 @@ ht-degree: 1%
 
 ## 步骤1 — 进入验证 —  {#step1-to-proofing}
 
-1. 在Workfront中，单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png)，或者（如果可用），单击 **[!UICONTROL 主菜单]** 图标（位于左上角） ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击 **[!UICONTROL 校对]** 以访问Workfront Proof。
+1. 在Workfront中，单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 验证]**&#x200B;以访问Workfront Proof。
 
 ## 最新DPV版本 {#latest-version}
 
@@ -335,25 +335,25 @@ ht-degree: 1%
 
 ## 步骤1 — 转到报表 —  {#step1-to-reports}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 报表]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 报表]**。
 
 ## 步骤1 — 转到功能板 —  {#step1-to-dashboards}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 仪表板]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 功能板]**。
 
 ## 步骤1 — 转到Analytics - {#step1-to-analytics}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 分析]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL Analytics]**。
 
 <!-- Resource Management -->
 
 ## 步骤1 — 开始使用资源 —  {#step1-to-resourcing}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 资源]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 资源]**。
 
 ## 步骤1 — 转到利用率报表 —  {#step1-to-utilization-report}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 资源]**，则 [!UICONTROL **利用**] 在左侧面板中。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击左面板中的&#x200B;**[!UICONTROL 资源]**，再单击&#x200B;[!UICONTROL **利用率**]。
 
 <!-- Review and approve work -->
 
@@ -361,23 +361,23 @@ ht-degree: 1%
 
 ## 步骤1 — 转到Scenario Planner - {#step1-to-scenario-planner}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 方案]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 方案]**。
 
 <!-- Teams -->
 
 ## 第1步 — 加入团队 —  {#step1-to-team}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 团队]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
 ## 一个或多个状态的“完成”按钮 {#configure-done-button}
 
 您可以使用“完成”按钮更改应用于工作项的状态。 您还可以设置多个状态，并允许用户选择合适的状态。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 团队]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. 单击 **[!UICONTROL 切换组]** 图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后单击 **[!UICONTROL 编辑]**.
-1. 查找 **[!UICONTROL 完成按钮]** 底部的部分 **[!UICONTROL 团队设置]** 页面。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 在&#x200B;**[!UICONTROL 团队设置]**&#x200B;页面的底部找到&#x200B;**[!UICONTROL 完成按钮]**&#x200B;部分。
 
 1. 为每个工作项类型选择一个状态或多个状态。
 
@@ -403,7 +403,7 @@ ht-degree: 1%
 
    如果任务或问题分配给多个用户，则除了为团队选择的多个状态外，您还会在下拉菜单中看到“完成我的部分”选项。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 将用户与主团队关联 {#associate-users-with-home-team}
 
@@ -411,15 +411,15 @@ ht-degree: 1%
 
 要将用户与主团队关联，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
-1. 单击 **[!UICONTROL 用户]**，然后选择要与主团队关联的一个或多个用户。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.\
+1. 单击&#x200B;**[!UICONTROL 用户]**，然后选择要与主团队关联的一个或多个用户。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
-1. 在 **[!UICONTROL 组织]** 部分，选择 **[!UICONTROL 主团队]** 字段。 开始键入要将其设置与用户关联的团队的名称。 在列表中看到团队时，单击该团队的名称。
+1. 在&#x200B;**[!UICONTROL 组织]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 主团队]**&#x200B;字段。 开始键入要将其设置与用户关联的团队的名称。 在列表中看到团队时，单击该团队的名称。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 您选择的用户现在与主团队相关联。
 这些用户现在可以看到任何团队设置，包括与“完成”按钮关联的状态。
 
@@ -427,13 +427,13 @@ ht-degree: 1%
 
 ## 步骤1 — 转到时间表 —  {#step1-to-timesheets}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 时间表]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 时间表]**。
 
 <!-- Workfront Goals -->
 
 ## 第1步 — 实现目标 —  {#step1-to-goals}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 目标]**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 目标]**。
 
 <!-- Workfront Fusion -->
 

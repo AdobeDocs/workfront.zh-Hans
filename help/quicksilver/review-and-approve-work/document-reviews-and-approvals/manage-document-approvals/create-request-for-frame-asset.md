@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文内容介绍更新的审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文内容介绍更新的审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 <!--
 ## Access requirements
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## 从文档摘要创建审阅或审批请求
 
-1. 转到包含连接的Frame.io的项目、任务或问题，然后选择 **文档**.
+1. 转到包含连接的Frame.io的项目、任务或问题，然后选择&#x200B;**文档**。
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. 单击需要打开“文档摘要”面板的Frame.io连接资产。
 
-1. （可选）在 **版本** 下拉菜单中，选择要为其创建批准的资源的版本。 默认情况下会选择最新版本。
+1. （可选）在&#x200B;**版本**&#x200B;下拉菜单中，选择要为其创建批准的资源的版本。 默认情况下会选择最新版本。
 
-1. 向下滚动到 **审批** 部分，然后单击 **添加**.
+1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
-1. 要添加批准者，请单击 **审批者** 并开始键入用户或团队名称。
+1. 要添加审批者，请单击&#x200B;**审批者**&#x200B;并开始键入用户或团队名称。
 
-1. 要添加审阅者，请单击 **查看者** 复选框，并开始键入用户或团队名称。
+1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,18 +79,18 @@ You must have the following access to perform the steps in this article:
 
 ## 从文档详情页面创建审阅或审批请求
 
-1. 将鼠标悬停在文档上，然后单击 **文档详细信息**.
+1. 将鼠标悬停在文档上，然后单击&#x200B;**文档详细信息**。
    ![](assets/doc-details.png)
 
 1. 在文档名称附近，选择要为其创建审批的文档版本。 默认情况下会选择最新版本。
 
-1. 在左侧面板中，单击 **审批**.
+1. 在左侧面板中，单击&#x200B;**审批**。
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
-1. 要添加批准者，请单击 **审批者** 并开始键入用户或团队名称。
+1. 要添加审批者，请单击&#x200B;**审批者**&#x200B;并开始键入用户或团队名称。
 
-1. 要添加审阅者，请单击 **查看者** 复选框，并开始键入用户或团队名称。
+1. 要添加审阅者，请单击&#x200B;**审阅者**&#x200B;复选框，然后开始键入用户或团队名称。
 
    ![](assets/add-approver-and-deadline.png)
 

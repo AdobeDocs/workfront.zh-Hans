@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront正在更改用户和密码的系统管理。 这些更改将在名为的分阶段版本中推出 **增强型身份验证** 体验。 增强的身份验证功能可在所有Workfront产品和服务中为用户提供更一致和更安全的登录体验。
+Adobe Workfront正在更改用户和密码的系统管理。 这些更改将在名为&#x200B;**增强型身份验证**&#x200B;体验的分阶段版本中推出。 增强的身份验证功能可在所有Workfront产品和服务中为用户提供更一致和更安全的登录体验。
 
 下表提供了有关当前和未来功能的详细信息：
 
@@ -31,7 +31,7 @@ Adobe Workfront正在更改用户和密码的系统管理。 这些更改将在�
  <thead> 
   <tr> 
    <th> <p><strong>功能</strong> </p> </th> 
-   <th><strong>旧版身份验证</strong> </th> 
+   <th><strong>旧身份验证</strong> </th> 
    <th><strong>增强型身份验证1.0</strong> </th> 
    <th> <p>增强型身份验证2.0</p> </th> 
   </tr> 

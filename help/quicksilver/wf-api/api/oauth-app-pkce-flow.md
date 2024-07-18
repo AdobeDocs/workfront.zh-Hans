@@ -22,21 +22,21 @@ PKCE是一种安全授权流，可与动态刷新应用程序（如移动应用�
 
 PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这些步骤，请参阅本文中的其他部分。
 
-1. 客户端创建 `code_challenge` 通过转换 `code_verifier` 使用 `S256` 加密。
+1. 客户端通过使用`S256`加密转换`code_verifier`来创建`code_challenge`。
 
-1. 客户端将浏览器以及生成的指向OAuth2登录页面 `code_challenge`. 您必须注册应用程序（客户端），以便OAuth2能够接受授权请求。 注册后，您的应用程序可以将浏览器重定向到OAuth2。
+1. 客户端将浏览器以及生成的`code_challenge`引导至OAuth2登录页面。 您必须注册应用程序（客户端），以便OAuth2能够接受授权请求。 注册后，您的应用程序可以将浏览器重定向到OAuth2。
 
 1. OAuth2授权服务器将身份验证提示重定向到用户。
 
 1. 用户使用其中一个配置的登录选项进行身份验证，并且可能会看到一个同意页面，该页面列出了OAuth2将授予应用程序的权限。
 
-1. OAuth2通过重定向回您的应用程序 `authorization code`.
+1. OAuth2使用`authorization code`重定向回您的应用程序。
 
-1. 您的应用程序发送此代码以及 `code_verifier`，重新命名为OAuth2。
+1. 您的应用程序将此代码与`code_verifier`一起发送到OAuth2。
 
-1. OAuth2授权服务器转换 `code_verifier` 使用 `code_challenge_method` 根据初始授权请求检查结果，并根据 `code_challenge`. 如果两个字符串的值匹配，则服务器已验证请求是否来自同一客户端，并将发出 `access token`.
+1. OAuth2授权服务器使用初始授权请求中的`code_challenge_method`转换`code_verifier`，并根据`code_challenge`检查结果。 如果两个字符串的值匹配，则服务器已验证请求是否来自同一客户端并将发出`access token`。
 
-1. OAuth2返回 `access token`和（可选） `refresh token`.
+1. OAuth2返回`access token`，还可以选择返回`refresh token`。
 
 1. 您的应用程序现在可以使用这些令牌代表用户调用资源服务器，例如API。
 
@@ -47,7 +47,7 @@ PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这�
 
 在实施授权之前，您需要通过从Workfront创建应用程序集成，在OAuth2中注册应用程序。
 
-有关创建OAuth2应用程序的说明，请参阅 [使用PKCE创建OAuth2单页Web应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) 在 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+有关创建OAuth2应用程序的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)中的[使用PKCE创建OAuth2单页Web应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce)
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ PKCE流程具有以下步骤。 本节中的步骤仅供参考。 要执行这�
 
 ## 创建用于代码交换的验证密钥
 
-与标准的授权代码流类似，应用程序启动时会通过将用户的浏览器重定向到授权服务器的 `/authorize` 端点。 但是，在此情况下，您还必须传递代码质询。
+与标准的授权代码流类似，应用程序启动时会通过将用户的浏览器重定向到授权服务器的`/authorize`端点。 但是，在此情况下，您还必须传递代码质询。
 
 您的第一步是生成代码验证器和质询。
 
@@ -95,7 +95,7 @@ PKCE生成器代码创建与以下内容类似的输出：
 >}
 >```
 
-您的应用程序保存 `code_verifier` 稍后发送 `code_challenge` 以及授权请求到授权服务器的 `/authorize` URL。
+您的应用程序稍后保存`code_verifier`，并将`code_challenge`与授权请求一起发送到授权服务器的`/authorize` URL。
 
 ## 请求授权码
 
@@ -113,22 +113,22 @@ PKCE生成器代码创建与以下内容类似的输出：
 
 请注意正在传递的参数：
 
-* `client_id` 与配置应用程序时在中创建的OAuth2应用程序的客户端ID匹配。
+* `client_id`与您配置应用程序时在中创建的OAuth2应用程序的客户端ID匹配。
 
   有关说明，请参阅为Workfront集成创建OAuth2应用程序中的使用PKCE创建OAuth2单页Web应用程序。
 
-* `response_type` 是 `code`，因为应用程序使用授权码授予类型。
+* `response_type`是`code`，因为应用程序使用授权代码授予类型。
 
-* `redirect_uri` 是用户代理所定向到的回调位置，以及 `code`. 此名称必须匹配您在创建OAuth2应用程序时指定的重定向URL之一。
+* `redirect_uri`是用户代理与`code`一起被定向到的回调位置。 此名称必须匹配您在创建OAuth2应用程序时指定的重定向URL之一。
 
-* `code_challenge_method` 用于生成质询的哈希方法，始终为 `S256` 适用于使用PKCE的Workfront Oauth2应用程序。
+* `code_challenge_method`是用于生成质询的哈希方法，对于使用PKCE的Workfront Oauth2应用程序，此方法始终为`S256`。
 
-* `code_challenge` 是用于PKCE的代码质询。
+* `code_challenge`是用于PKCE的代码质询。
 
 
 ## 交换令牌的代码
 
-要交换访问令牌的授权码，请将其传递到授权服务器的 `/token` 端点以及 `code_verifier`.
+要交换访问令牌的授权代码，请将其与`code_verifier`一起传递到授权服务器的`/token`端点。
 
 >[!INFO]
 >
@@ -148,15 +148,15 @@ PKCE生成器代码创建与以下内容类似的输出：
 
 请注意正在传递的参数：
 
-* `grant_type` 是 `authorization_code`，因为应用程序使用授权代码授予类型。
+* `grant_type`是`authorization_code`，因为应用程序使用授权代码授予类型。
 
-* `redirect_uri` 必须匹配用于获取授权代码的URI。
+* `redirect_uri`必须与用于获取授权代码的URI匹配。
 
-* `code` 是从/authorize端点收到的授权代码。
+* `code`是您从/authorize端点收到的授权码。
 
-* `code_verifier` 是应用程序在其中生成的PKCE代码验证器 [创建用于代码交换的验证密钥](#Create).
+* `code_verifier`是您的应用程序在[为代码交换创建验证密钥](#Create)中生成的PKCE代码验证器。
 
-* `client_id` 标识您的客户端，并且必须匹配在OAuth2中预注册的值。
+* `client_id`标识您的客户端，并且必须匹配在OAuth2中预注册的值。
 
 
 如果代码仍然有效，并且代码验证器匹配，则您的应用程序将接收访问令牌。

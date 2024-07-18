@@ -22,4 +22,4 @@ ht-degree: 0%
 
 根据用户反馈，我们将添加选项以推迟桌面验证查看器的更新。 现在，用户可以选择延迟更新并继续其工作，但是每当打开桌面验证查看器时，都会提醒有更新可用。
 
-有关更新桌面校对查看器的更多信息，请参阅 [更新桌面校对查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+有关更新桌面验证查看器的详细信息，请参阅[更新桌面验证查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。

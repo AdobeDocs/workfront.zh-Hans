@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: 中的最近访问和收藏夹 [!DNL Adobe Workfront]
+title: ' [!DNL Adobe Workfront]中的最近访问和收藏夹'
 description: 请查看以下文章以了解如何在Workfront中使用收藏夹和最新内容。
 feature: Get Started with Workfront
 author: Lisa
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 中的最近访问和收藏夹 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]中的最近访问和收藏夹
 
 本节包含以下文章：
 

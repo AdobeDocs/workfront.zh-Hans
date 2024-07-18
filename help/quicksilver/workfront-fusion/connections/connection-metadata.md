@@ -7,9 +7,10 @@ title: Adobe Workfront Fusion中的连接元数据
 description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront] 许可证。
+>除[!DNL Adobe Workfront]许可证外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 并非所有连接都相同。 了解连接之间的差异对于了解其业务环境非常重要。 Fusion使用元数据来标识连接的重要属性。
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 Fusion用户可以从“连接”区域查看和编辑连接。
 
-![连接区域中的连接元数据](assets/connections-area-metadata.png)
+连接区域中的![连接元数据](assets/connections-area-metadata.png)
 
 ## 环境类型
 
@@ -40,7 +41,4 @@ Fusion连接可用于服务帐户和个人帐户。 当场景自动变为Fusion�
 
 请注意，与其他连接元数据一样，类型仅用于提供信息。 用户仍然负责手动准确设置此属性。
 
-有关身份验证类型的更多信息，请参阅 [身份验证](https://developer.adobe.com/developer-console/docs/guides/authentication/) 《Adobe身份验证指南》中的。
-
-
-
+有关身份验证类型的详细信息，请参阅Adobe身份验证指南中的[身份验证](https://developer.adobe.com/developer-console/docs/guides/authentication/)。

@@ -59,13 +59,13 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 配置您的系统首选项
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **系统** > **偏好设置**.
+1. 在左侧面板中，单击&#x200B;**系统** > **首选项**。
 
 1. 选择以下任一字段来建立组织的设置：
 
@@ -75,23 +75,23 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>启用快速发布过程</p> </td> 
-      <td>允许您为组织启用每月的Workfront版本，而不是每季度的版本。</p><p>有关快速发布过程的详细信息，请参见 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">为您的组织启用或禁用快速发布</a>.</p></td> 
+      <td>允许您为组织启用每月的Workfront版本，而不是每季度的版本。</p><p>有关快速发布过程的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">为您的组织启用或禁用快速发布</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>允许在iframe中嵌入Workfront</p> </td> 
-      <td>允许在iframe中嵌入Workfront。<p>默认禁用此选项。</p><p><b>重要</b>：在iframe中显示基于Web的应用程序，会使该应用程序容易遭受点击劫持安全漏洞的攻击。</p></td> 
+      <td>允许在iframe中嵌入Workfront。<p>默认禁用此选项。</p><p><b>重要信息</b>：在iframe中显示基于Web的应用程序会使应用程序容易出现点击劫持安全漏洞。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">在 Office 365 加载项中允许进行 SAML 2.0 身份验证</td> 
-      <td> <p>当Workfront与SAML 2.0单点登录解决方案集成时，允许您仅将Workfront嵌入到iframe中，以用于Office 365加载项。 </p> <p>此选项默认处于启用状态。</p> <p><b>注意</b>：如果启用上述选项， <strong>允许在iframe中嵌入Workfront</strong>，选项 <strong>在Office 365加载项中允许进行SAML 2.0身份验证</strong> 已启用并灰显。</p> </td> 
+      <td> <p>当Workfront与SAML 2.0单点登录解决方案集成时，允许您仅将Workfront嵌入到iframe中，以用于Office 365加载项。 </p> <p>此选项默认处于启用状态。</p> <p><b>注意</b>：如果启用上述选项<strong>允许在iframe中嵌入Workfront</strong>，则选项<strong>在Office 365加载项中允许SAML 2.0身份验证</strong>已启用并灰显。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">创建外部页面URL时启用会话信息</td> 
-      <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>此选项不安全，默认情况下处于关闭状态。 建议改用OAuth进行集成。</p> <p>有关将外部页面添加到功能板的详细信息，请参阅 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在功能板中嵌入外部网页</a>.</p> </td> 
+      <td> <p>允许用户在将外部页面添加到功能板时使用站点的会话ID信息。</p> <p>此选项不安全，默认情况下处于关闭状态。 建议改用OAuth进行集成。</p> <p>有关将外部页面添加到仪表板的详细信息，请参阅<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">在仪表板中嵌入外部网页</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">允许人员使用Workfront的移动应用程序和Workfront Outlook加载项</td> 
-      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>. 有关移动设备应用程序的更多信息，请参阅 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>.</p> <p>有关Outlook插件的详细信息，请参阅 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">设置适用于Outlook的Adobe Workfront</a>.</p> </td> 
+      <td> <p>允许用户访问移动设备应用程序(适用于iPad和移动设备应用程序的Workfront View)和Workfront Outlook应用程序。</p> <p>此选项默认处于启用状态。 </p> <p>有关Workfront视图的信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront视图</a>。 有关移动设备应用程序的详细信息，请参阅<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront移动设备应用程序：文章索引</a>。</p> <p>有关Outlook插件的详细信息，请参阅<a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">为Outlook设置Adobe Workfront</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>使用电子邮件地址与没有Workfront帐户的人员协作</p> </td> 
@@ -101,7 +101,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>文档请求<br></li>
         <li>文档审批</li>
         <li>日历</li>
-       </ul><p>此选项默认处于启用状态。</p> <p><b>重要</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>.</p> </td> 
+       </ul><p>此选项默认处于启用状态。</p> <p><b>重要信息</b>：如果禁用此选项，则外部用户访问级别在Workfront实例中不可用。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">要求外部用户使用密码注册</td> 
@@ -117,15 +117,15 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">自定义帮助 URL</td> 
-      <td>允许您定义主菜单帮助图标要转到的内部自定义帮助站点。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">配置自定义帮助URL</a>.</p></td> 
+      <td>允许您定义主菜单帮助图标要转到的内部自定义帮助站点。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">配置自定义帮助URL</a>。</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">系统中的用户将默认看到新主页体验 </td> 
-      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过手动输入导航到他们的新主页 <code>/home/workspaces</code> 实例URL末尾。 默认情况下，此设置处于启用状态。</td> 
+      <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过在实例URL末尾手动输入<code>/home/workspaces</code>来导航到他们的新主页。 默认情况下，此设置处于启用状态。</td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 
-      <td>允许您访问Workfront测试环境。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront预览Sandbox环境</a>.</p></td> 
+      <td>允许您访问Workfront测试环境。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront预览沙盒环境</a>。</p></td> 
     </tbody> 
    </table>
 

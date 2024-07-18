@@ -50,7 +50,7 @@ ht-degree: 0%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -60,7 +60,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>访问级别</p></td>
@@ -72,7 +72,7 @@ ht-degree: 0%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -83,7 +83,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Workfront目标中的图形类型
 
@@ -99,7 +99,7 @@ ht-degree: 0%
     <ul> 
      <li>选定时间段的目标总数。 具有任何状态的目标都会被考虑。 </li> 
      <li>状态为“活动”和“已关闭”的目标进度状态。</li> 
-    </ul> <p>有关Workfront Goals如何计算进度状态的信息，请参阅 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目标中的目标进度和条件概述</a>.</p> </td> 
+    </ul> <p>有关Workfront目标如何计算进度状态的信息，请参阅<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront目标中的目标进度和条件概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">目标进度图</td> 
@@ -114,14 +114,14 @@ ht-degree: 0%
 
 ## 在图形中查看目标进度
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    这将打开Workfront目标区域。
 
-1. 单击 **图形** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**图形**。
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 1. （可选）通过更新“图形”部分右上角的过滤器，选择要显示的信息类型。
 
-   有关筛选目标的更多信息，请参阅 [在Adobe Workfront目标中过滤信息](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   有关筛选目标的更多信息，请参阅[在Adobe Workfront目标中筛选信息](../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ ht-degree: 0%
 
 1. 将鼠标悬停在目标进度图中的周节点上，并查看以下内容：
 
-   * **周日期**：所选周的月、日和年。
-   * **进度**：选定周内所有目标的平均实际完成百分比。
-   * **基线**：选定周内所有目标的预期完成百分比平均值。
+   * **周日期**：选定周的月、日和年。
+   * **进度**：所选周所有目标的实际完成百分比的平均值。
+   * **基线**：选定周内所有目标的预期完成百分比的平均值。
 
-1. （可选）单击 **进度** 在进度图底部删除实际总体进度线
+1. （可选）单击进度图底部的&#x200B;**进度**&#x200B;以删除实际的总体进度线
 
    或
 
-   单击 **基线** 在进度图底部删除预期进度。
+   单击进度图底部的&#x200B;**基线**&#x200B;以从图表中删除预期的进度。
 
  

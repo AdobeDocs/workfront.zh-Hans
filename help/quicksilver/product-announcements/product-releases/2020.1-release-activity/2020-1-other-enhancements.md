@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2020.1版本对Workfront常规区域所做的所有增强。 这些增强功能目前在“预览”环境中提供，并将于2020年3月底或4月初在“生产”环境中提供。
 
-有关2020.1版本可用的所有更改列表，请参阅 [2020.1版概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+有关2020.1版本可用的所有更改列表，请参阅[2020.1版本概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 列入允许列表向添加验证所需的更改
 
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 &#42;.workfront.com
 
-此 &#42;proofhq.com URL仍然是必需的。
+&#42;proofhq.com URL仍然是必需的。
 
-有关更新允许列表的详细信息，请参阅 [配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+有关更新允许列表的详细信息，请参阅[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 >[!NOTE]
 >
->此更新仅适用于Workfront中的验证；在使用Workfront Proof独立应用程序时，此更新不适用。
+>此更新仅适用于Workfront中的校对；在使用Workfront Proof独立应用程序时，此更新不适用。
 
 ## 更新了Workfront Cookie行为以保持与Chrome的兼容性
 
-为了与即将发布的Google Chrome更新(Chrome v80)保持兼容性，我们更新了Workfront平台以确保正确地随请求发送Cookie。
+为了与即将发布的Google Chrome更新(Chrome v80)保持兼容性，我们已更新Workfront平台以确保随请求正确发送Cookie。
 
 此Chrome更新将更改SameSite Cookie属性的默认值。 如果要测试Google Chrome更新后Workfront实例的行为方式，请调整Chrome中的标志，并启用以下选项：
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 以前，您可以将评论从Jira同步到Workfront，但不能将评论从Workfront同步到Jira。
 
-有关更多信息，请参阅 [为Jira配置Adobe Workfront](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+有关详细信息，请参阅[配置Adobe Workfront for Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 ## 删除了FlashPortfolio优化器
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
 有关项目组合优化器的信息，请参阅https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-有关在Workfront中弃用基于Flash的工具的信息，请参阅 [Adobe Workfront中基于Flash的工具的替换](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+有关在Workfront中弃用基于Flash的工具的信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。

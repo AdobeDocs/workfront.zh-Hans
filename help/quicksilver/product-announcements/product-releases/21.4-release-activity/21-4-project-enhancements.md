@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有项目增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 在更新中包含图像
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 以前，在Workfront中共享图像的唯一方法是将其作为文档附加到对象。 在“更新”选项卡中添加的图像仅在该选项卡上可用，在“文档”选项卡上不可用。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-在更新Workfront用户可以包含图像之前，必须首先由Adobe Workfront管理员启用此功能，如中所述 [配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+在Workfront用户可以在更新中包含图像之前，必须首先由Adobe Workfront管理员启用此功能，如[配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)中所述。
 
 ## 更新了智能分配的算法
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 在此增强功能之前，Workfront在建议用户时会考虑父级任务上的分配以及与这些分配相关的其他用户属性。
 
-有关智能分配的信息，请参见 [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+有关智能分配的信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 从模板创建项目时的新体验
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 当您从项目和模板区域创建项目时，我们更新了用于创建项目的界面。
 
-有关信息， [使用模板创建项目](../../../manage-work/projects/create-projects/create-project-from-template.md).
+有关信息，[使用模板](../../../manage-work/projects/create-projects/create-project-from-template.md)创建项目。
 
 ## 在将模板附加到项目时的新体验
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 在附件过程中将模板添加到收藏夹列表
 * 在一个连续的页面中查看用于管理模板和项目设置的所有选项
 
-有关信息，请参阅 [将模板附加到项目](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+有关信息，请参阅[将模板附加到项目](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
 ## 任务的统一持续时间和持续时间单位值
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 * 创建周期性任务时的频率字段（即将推出）
 * 添加前置任务时的“延迟”字段（即将推出）
 
-有关信息，请参阅 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+有关信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ![](assets/duration-combined-field-350x139.png)
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 >
 >此设置仅在新的Workfront Experience中可用。 使用Workfront Classic的用户仍可以向项目或其任务添加内联问题，即使新Workfront Experience中的用户已为该项目禁用此设置。
 
-有关更多信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+有关详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 复选框和单选按钮的自定义字段显示改进
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 这取决于在自定义表单中如何放置字段 — 如果将另一个字段与复选框或单选按钮字段放在同一行，则选项可能只有足够的水平空间来在一列中显示。
 
-有关填写自定义表单的信息，请参阅 [编辑自定义表单字段中的信息](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+有关填写自定义表单的信息，请参阅[编辑自定义表单字段中的信息](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
-有关在自定义表单中创建复选框或单选按钮字段的信息，请参阅部分 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 和 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) 在文章中 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关在自定义表单中创建复选框或单选按钮字段的信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)和[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur)部分。
 

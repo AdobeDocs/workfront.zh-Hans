@@ -10,8 +10,8 @@ feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 1%
+source-wordcount: '647'
+ht-degree: 0%
 
 ---
 
@@ -38,76 +38,76 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] （对于工作自动化和集成），[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 中继器
 
-您可以使用 [!UICONTROL 中继器] 模块重复执行给定次数的任务。 A [!UICONTROL 中继器] 模块逐个生成包。
+您可以使用[!UICONTROL 中继器]模块按指定次数重复执行任务。 [!UICONTROL 中继器]模块逐个生成包。
 
-例如，您可以使用 [!UICONTROL 中继器] 模块发送主题为“Hello 1”、“Hello 2”等的五封电子邮件，通过连接 **[!UICONTROL 电子邮件] >[!UICONTROL 向我发送电子邮件]** 模块到 [!UICONTROL 中继器] 模块。
+例如，您可以通过将&#x200B;**[!UICONTROL 电子邮件] >[!UICONTROL 向我发送电子邮件]**&#x200B;模块连接到[!UICONTROL 中继器]模块，使用[!UICONTROL 中继器]模块发送主题为“Hello 1”、“Hello 2”等的五封电子邮件。
 
-使用 [!UICONTROL 中继器] 模块：
+要使用[!UICONTROL 中继器]模块：
 
-1. 单击 [!UICONTROL 流量控制] 图标 ![](assets/flow-control-icon.gif) 单击屏幕底部，然后单击 **[!UICONTROL 中继器]** 在显示的菜单中。
-1. 单击 [!UICONTROL 中继器] 捆绑，然后单击 **[!UICONTROL 自动连接]** 在显示的框中。
-1. 在 [!UICONTROL 流量控制] 框中，键入所需的重复（输出包）数 **[!UICONTROL 重复]** 盒子。
+1. 单击屏幕底部的[!UICONTROL 流量控制]图标![](assets/flow-control-icon.gif)，然后在显示的菜单中单击&#x200B;**[!UICONTROL 中继器]**。
+1. 单击[!UICONTROL 中继器]包，然后在显示的框中单击&#x200B;**[!UICONTROL 自动连接]**。
+1. 在出现的[!UICONTROL 流量控制]框中，在&#x200B;**[!UICONTROL 重复]**&#x200B;框中键入所需的重复（输出包）数。
 
    在我们的电子邮件示例中，您将键入5。
 
    ![](assets/repeater-2-350x207.png)
 
-   每次重复时，项目的值都会增加到中指定的此值。 **[!UICONTROL 步骤]** 字段，您可以通过选择 **[!UICONTROL 显示高级设置]**. 默认情况下，此数字为1。
+   每次重复时，该项的值将增加在&#x200B;**[!UICONTROL 步骤]**&#x200B;字段中指定的值，您可以通过选择&#x200B;**[!UICONTROL 显示高级设置]**&#x200B;来查看该字段。 默认情况下，此数字为1。
 
-1. 单击 **[!UICONTROL 确定]** 关闭 **[!UICONTROL 流量控制]** 盒子。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;以关闭&#x200B;**[!UICONTROL 流量控制]**&#x200B;框。
 
-1. 单击连接到应用程序或服务模块的 [!UICONTROL 中继器] 模块。
+1. 单击连接到[!UICONTROL 中继器]模块的应用或服务模块。
 1. 在出现的框中，键入要重复的信息。
 
-   在我们的电子邮件示例中，您应键入Hello [!UICONTROL 主题] 框，然后映射 `i` 中继器模块。
+   在我们的电子邮件示例中，您可以在[!UICONTROL 主题]框中键入Hello，然后从中继器模块映射`i`。
 
    ![](assets/repeater-3-350x207.png)
 
 | 项 | 描述 |
 |---|---|
-| [!UICONTROL 初始值] | 输入或映射您希望模块设置为的数字 `i` 在第一个迭代中。 默认值为1。 |
-| [!UICONTROL 重复] | 输入或映射您希望模块重复的次数。 此数字必须大于或等于0，并且小于或等于10,000。 |
-| [!UICONTROL 步骤] | 这是模块增加值所依据的数字 `i`. 默认值为1。 |
+| [!UICONTROL 初始值] | 输入或映射您希望模块在第一个迭代中设置为`i`的数字。 默认值为1。 |
+| [!UICONTROL 重复] | 输入或映射您希望模块重复执行的次数。 此数字必须大于或等于0，并且小于或等于10,000。 |
+| [!UICONTROL 步骤] | 这是模块增加`i`值所依据的数字。 默认值为1。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->重复次数不由的值决定 `i`，因为它在编程中处于循环中。 模块将重复 [!UICONTROL 重复] 字段。 值 `i` 随的每次迭代更改 [!DNL repeater] 模块，并且可以映射到后续模块。 上面的示例映射了 `i` Hello消息，从而导致消息显示“Hello 1”、“Hello 2”等。
+>重复次数不是由`i`的值确定的，因为它在编程中处于循环中。 模块将重复[!UICONTROL 重复]字段中指示的次数。 值`i`随[!DNL repeater]模块的每个迭代而更改，可以映射到以后的模块。 上面的示例将`i`的值映射到Hello消息中，从而生成显示“Hello 1”、“Hello 2”等的消息。
 
 ## [!UICONTROL 迭代器]
 
-An [!UICONTROL 迭代器] 是一种特殊类型的模块，可将数组转换为一系列捆绑包。 每个数组项将作为 [!UICONTROL 迭代器] 模块输出。 有关更多信息，请参阅 [[!UICONTROL 迭代器] 中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+[!UICONTROL 迭代器]是一种将数组转换为一系列捆绑的特殊模块类型。 在[!UICONTROL 迭代器]模块输出中，每个数组项都将是一个单独的捆绑包。 有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)中的[[!UICONTROL 迭代器]模块。
 
 ## 数组汇总
 
-数组聚合器是一种特殊类型的模块，允许将多个捆绑包合并到一个捆绑包中。 有关更多信息，请参阅 [[!UICONTROL 汇总] Adobe Workfront Fusion中的模块](../../workfront-fusion/modules/aggregator-module.md).
+数组聚合器是一种特殊类型的模块，允许将多个捆绑合并为一个捆绑包。 有关详细信息，请参阅Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md)中的[[!UICONTROL 聚合器]模块。
 
 ## [!UICONTROL 路由器]
 
-此 [!UICONTROL 路由器] 模块允许您将流量分为多条路由，并在每条路由中以不同的方式处理数据。 一次 [!UICONTROL 路由器] 模块接收一个捆绑，然后按照将路由附加到的顺序将其转发到每个连接的路由。 [!UICONTROL 路由器] 模块。 有关更多信息，请参阅 [中的路由器模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+[!UICONTROL 路由器]模块允许您将流量分为多条路由，并以不同的方式处理每条路由中的数据。 一旦[!UICONTROL 路由器]模块收到捆绑包，它会按照路由连接到[!UICONTROL 路由器]模块的顺序将其转发到每个连接的路由。 有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md)中的[路由器模块。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -97,7 +97,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 小时（和小时ID）
 
-  是否将小时数还原到删除的项目取决于您在配置时间表和小时数的首选项时选择的设置。 有关更多信息，请参阅 [配置删除和还原对象时的影响（小时）](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  是否将小时数还原到删除的项目取决于您在配置时间表和小时数的首选项时选择的设置。 有关详细信息，请参阅[在删除并还原对象时配置影响时间](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)。
 
 * 项目的URL
 
@@ -131,20 +131,20 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 解析对象
 
-  解析对象是使用选项配置的转换问题 **保留原来的问题，并将其解决方案与此绑定** &lt;**项目** 或 **task)**>. 如果删除父项目或任务，则问题不再被标识为解析对象，因为不再有链接将其连接到项目或任务。 如果恢复父项，则不会恢复链接。
+  解析对象是使用选项&#x200B;**保留原始问题并将其解决方案绑定到此** &lt;**项目**&#x200B;或&#x200B;**任务)**>配置的转换问题。 如果删除父项目或任务，则问题不再被标识为解析对象，因为不再有链接将其连接到项目或任务。 如果恢复父项，则不会恢复链接。
 
-  有关Workfront管理员或组管理员如何在转换时配置问题以匹配解析对象的更多信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 和 [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  有关Workfront管理员或组管理员如何在转换时配置问题以匹配解决对象的详细信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)和[为组配置任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-  有关转换问题的更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+  有关转换问题的更多信息，请参阅[在Adobe Workfront中转换问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 还原项目
 
 {{step-1-to-setup}}
 
-1. 单击 **回收站** > **最近删除**.
-1. 单击 **项目**， **任务**， **问题**， **模板**，或 **文档** 选项卡，具体取决于要还原的项目类型。
+1. 单击&#x200B;**回收站** > **最近删除的**。
+1. 根据要还原的项类型，单击&#x200B;**项目**、**任务**、**问题**、**模板**&#x200B;或&#x200B;**文档**&#x200B;选项卡。
 
-   项目按 **删除日期** 列中。
+   默认情况下，项按&#x200B;**删除日期**&#x200B;列排序。
 
 1. 选择最多10个要恢复的项目。
 
@@ -152,10 +152,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
    如果删除父任务，则列表中只会显示父任务。 但是，当您恢复父任务时，所有子任务都会恢复。
 
-1. 单击 **恢复** 将所选项目还原到其原始位置。
-1. （可选）要快速查看已还原的项目，请按照中的步骤操作 [查看已还原的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. 单击&#x200B;**还原**&#x200B;以将所选项目还原到其原始位置。
+1. （可选）要快速查看已还原的项目，请按照[查看已还原的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)中的步骤操作。
 
-   有关恢复项目后所发生情况的更多信息，请参阅部分 [恢复项目后发生的情况](#what-happens-after-you-restore-items) 本文章中。
+   有关恢复项目后所发生情况的详细信息，请参阅本文中的[恢复项目后所发生的情况](#what-happens-after-you-restore-items)部分。
 
 ## 恢复项目后发生的情况 {#what-happens-after-you-restore-items}
 

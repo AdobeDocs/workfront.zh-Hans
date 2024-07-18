@@ -44,7 +44,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   </tr> 
   <tr> 
    <td><strong>用于特殊区域的临时或永久过滤器</strong></td> 
-   <td>由Workfront构建或由您或其他用户自定义。 您可以保存永久筛选器并使用多次，也可以临时应用它们以满足您的即时需求，而无需保存。 无法共享或删除未保存的过滤器。 它们可在特殊区域使用，如一节中所述 <a href="#workfront-filters-for-special-areas" class="MCXref xref">适用于特殊区域的Workfront过滤器</a> 本文章中。 </td> 
+   <td>由Workfront构建或由您或其他用户自定义。 您可以保存永久筛选器并使用多次，也可以临时应用它们以满足您的即时需求，而无需保存。 无法共享或删除未保存的过滤器。 它们适用于特殊区域，如本文中针对特殊区域的<a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront过滤器</a>部分所述。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,13 +53,13 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 快速筛选器允许您使用关键词在屏幕上搜索项目。 刷新页面后，将清除临时快速过滤器。 无法保存临时过滤器以重复使用。
 
-有关快速过滤器的信息，请参阅 [将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+有关快速筛选器的信息，请参阅[将快速筛选器应用到列表](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
 ## 列表和报告的Workfront永久过滤器
 
 您可以使用您、其他人或Workfront在对象列表或报表中创建的永久筛选器。
 
-有关Workfront中的对象以及可为哪些对象构建报表的信息，请参阅 [Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关Workfront中的对象以及可为哪些对象生成报表的信息，请参阅[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 有关列表和报告中的过滤器的更多信息，请参阅以下文章：
 
@@ -72,33 +72,33 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 您可以在Workfront的以下区域中使用内置过滤器或构建自定义过滤器：
 
 * 主页\
-  有关信息，请参见 [筛选工作列表](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) 部分内容 [在“主页”区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  有关信息，请参阅文章[主页区域工作列表显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)中的[筛选工作列表](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list)部分。
 * 请求区域。 您不能在请求区域中自定义筛选器。
 
-  有关信息，请参阅 [查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+  有关信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 * 资源规划程序\
-  有关信息，请参阅文章 [资源规划者中的筛选信息](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  有关信息，请参阅文章[资源规划者](../../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
 
 * 利用率报告
 
-  有关信息，请参阅部分 [筛选器利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) 在文章中 [查看资源利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  有关信息，请参阅文章[查看资源利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md)中的[筛选器利用率信息](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information)部分。
 
 * 工作负载均衡器
 
-  有关信息，请参阅 [工作负载均衡器中的过滤器信息](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  有关信息，请参阅工作负载均衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 * 分析区域
 
-  有关信息，请参阅 [在增强的分析中应用过滤器](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
+  有关信息，请参阅[在增强型分析中应用筛选器](../../../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
 * Blueprint区域
 
-  有关信息，请参阅 [安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
+  有关信息，请参阅[安装Blueprint](../../../administration-and-setup/blueprints/blueprints-install.md)。
 
 * 场景计划器
 
-  Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 [Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 
   >[!TIP]
   >
@@ -113,22 +113,22 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   有关信息，请参阅以下文章：
 
    * [在Scenario Planner中创建和编辑计划](../../../scenario-planner/create-and-edit-plans.md)
-   * [通过在场景规划程序中发布计划来更新或创建项目](../../../scenario-planner/publish-scenarios-update-projects.md)
+   * [通过在Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目
    * [将项目导入方案规划器中的计划](../../../scenario-planner/import-projects-to-plans.md)
 
 * 目标
 
-  目标需要额外的许可证。 有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  目标需要额外的许可证。 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
   您可以使用内置筛选条件，但无法构建自定义筛选条件以重复用于“目标”区域。
 
-  有关信息，请参阅 [在Adobe Workfront目标中过滤信息](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  有关信息，请参阅[在Adobe Workfront目标中过滤信息](../../../workfront-goals/goal-management/filter-information-wf-goals.md)。
 
 * 展示板
 
   您可以应用内置过滤器，但无法构建自定义过滤器以在展示板区域重复使用。
 
-  有关信息，请参阅 [在展示板中过滤和搜索](../../../agile/get-started-with-boards/filter-search-in-board.md).
+  有关信息，请参阅[在讨论区中筛选和搜索](../../../agile/get-started-with-boards/filter-search-in-board.md)。
 
 ## 列表和报告中的过滤器概述
 
@@ -142,11 +142,11 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 >[!IMPORTANT]
 >
 >在报表中创建或编辑过滤器时，必须编辑报表，以便新过滤器成为报表的默认过滤器。 仅编辑过滤器时，在Report Builder之外，报表的默认过滤器不会更新。\
->有关编辑报告的信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>有关编辑报告的信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-有关Workfront列表的信息，请参阅 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关Workfront列表的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
-有关Workfront报表的信息，请参阅 [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+有关Workfront报表的信息，请参阅[开始使用报表](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
 
 在列表或报告中使用过滤器时，请考虑以下事项：
 
@@ -154,7 +154,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 * 您的Workfront管理员必须授予您对筛选器、视图和分组的编辑权限，才能创建永久筛选器。
 
-  有关更多信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  有关详细信息，请参阅[授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
 * 您对筛选器的权限级别决定了筛选器的保存方式。 如果您最初创建的是过滤器，则可以保存更改。 否则，系统会提示您保存正在修改的过滤器的新版本。
 
@@ -162,7 +162,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   >
   >请记住，如果您对与其他人共享的过滤器进行更改，这些更改也会影响他们。
 
-* 仅当与您共享过滤器的用户授予您“管理”权限时，您才能自定义与您共享的过滤器。 有关共享过滤器的信息，请参阅 [共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* 仅当与您共享过滤器的用户授予您“管理”权限时，您才能自定义与您共享的过滤器。 有关共享筛选器的信息，请参阅[共享筛选器、视图或分组](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
 ## 过滤器的元素
 
@@ -170,11 +170,11 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 下面是标准过滤器生成器的示例：
 
-![标准过滤器生成器](assets/filter-sample-with-or.png)
+![标准筛选器生成器](assets/filter-sample-with-or.png)
 
 下面是旧版过滤器生成器的示例：
 
-![旧版过滤器生成器](assets/filter-statements-with-or-and-and-nwe.png)
+![旧版筛选器生成器](assets/filter-statements-with-or-and-and-nwe.png)
 
 过滤器包含以下元素：
 
@@ -184,7 +184,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
  <tbody> 
   <tr> 
    <td><strong>对象</strong></td> 
-   <td> <p>筛选器的Workfront数据库对象。 有关哪些对象可在Workfront中报告的信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront对象概述</a>. </p> <p>例如，项目、任务、问题、用户或文档可以是过滤器的对象。 </p> </td> 
+   <td> <p>筛选器的Workfront数据库对象。 有关哪些对象可在Workfront中报告的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront对象概述</a>。 </p> <p>例如，项目、任务、问题、用户或文档可以是过滤器的对象。 </p> </td> 
   </tr> 
   <tr> 
    <td><strong>字段</strong></td> 
@@ -196,11 +196,11 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   </tr> 
   <tr> 
    <td><strong>操作员</strong></td> 
-   <td>连接多个筛选器语句。 有关信息，请参阅部分 <a href="#filter-operators" class="MCXref xref">筛选器运算符</a> 本文章中。 </td> 
+   <td>连接多个筛选器语句。 有关信息，请参阅本文中的<a href="#filter-operators" class="MCXref xref">筛选器运算符</a>部分。 </td> 
   </tr> 
   <tr> 
    <td><strong>修改者</strong></td> 
-   <td>指示您希望数据匹配的信息类型。 有关信息，请参阅部分 <a href="#filter-modifiers" class="MCXref xref">筛选器修饰符</a> 本文章中。 </td> 
+   <td>指示您希望数据匹配的信息类型。 有关信息，请参阅本文中的<a href="#filter-modifiers" class="MCXref xref">筛选器修饰符</a>部分。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,11 +209,11 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 Workfront具有两个过滤器运算符来连接每个过滤器语句：
 
-* **和**：当通过AND运算符连接两个filter语句时，会指示希望同时满足两个filter语句。
+* **AND**：当您通过AND运算符连接两个筛选语句时，表明您希望同时满足这两个筛选语句。
 
   默认情况下，过滤器中的语句使用AND运算符连接。
 
-* **或者**：当通过OR运算符连接两个filter语句时，会指示您希望满足任一语句。
+* **OR**：当您通过OR运算符连接两个筛选语句时，表明您希望满足这两个语句。
 
   >[!TIP]
   >
@@ -230,7 +230,7 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
-有关过滤器修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+有关筛选器修饰符的详细信息，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
 ## 在生成器界面中创建过滤器
 
@@ -240,13 +240,13 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 * 修改现有筛选器
 * 复制现有筛选器
 
-有关使用标准或旧版生成器界面创建过滤器的信息，请参阅 [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+有关使用标准或旧版生成器界面创建筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 ## 使用文本模式界面创建筛选器
 
 您可以使用文本模式界面构建过滤器。 我们建议使用标准生成器或旧版生成器界面来生成大部分过滤器语句，并且仅作为最后一步编辑过滤器的代码。 不建议单独使用文本模式界面从头开始构建过滤器。
 
-有关使用文本模式界面创建过滤器的详细信息，请参阅 [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+有关使用文本模式界面创建过滤器的详细信息，请参阅[使用文本模式编辑过滤器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
 ## 为复杂字段创建过滤器
 
@@ -274,7 +274,7 @@ Workfront具有两个过滤器运算符来连接每个过滤器语句：
 
 此语法可确保将值作为一个选项一起读取。 如果省略斜杠，Workfront会将逗号读取为OR，在这种情况下，只会选择具有第一个或第二个选项的项目。
 
-此语法在构建提示时也适用。 有关使用提示的详细信息，请参阅 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+此语法在构建提示时也适用。 有关使用提示的详细信息，请参阅[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
 ### 创建其值是多选自定义字段的筛选器 {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 

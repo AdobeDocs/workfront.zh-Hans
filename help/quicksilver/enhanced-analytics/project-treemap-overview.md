@@ -53,11 +53,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
-有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的“先决条件”部分。
 
 ## 了解项目树形图可视化图表
 
@@ -69,11 +69,11 @@ ht-degree: 2%
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **较大的深蓝色框**：具有较多小时或天数的项目显示为具有深蓝色的大框。
+* **更大、深蓝色的框**：具有更多小时或天数的项目显示为具有深蓝色的大框。
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **中等大小的蓝色盒子**：属于这两个类别的项目显示为中等大小的框，深蓝色和浅蓝色之间有蓝色阴影。 中型盒子有3种可能的蓝色色调。
+* **Medium大小的蓝色框**：介于两个类别之间的项目显示为中等大小的框，深蓝色和浅蓝色之间带有蓝色阴影。 中型盒子有3种可能的蓝色色调。
 
 右侧的图例显示每种蓝色阴影的完成小时数划分信息。 此图例是动态的，可根据数据更新。
 
@@ -91,24 +91,24 @@ ht-degree: 2%
 * 如果团队关注正确的事。
 * 单击某个特定项目时，该项目范围在该时间段内发生了什么变化。
 
-要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 查看项目树状图可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **分析**.
+1. 单击主菜单图标![](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**Analytics**。
 1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关使用日期范围过滤器的信息，请参阅[在增强型分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
 1. （视情况而定）如果您需要限制项目数据集，请选择并应用要使用的过滤器。
 
-   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强分析中添加筛选器的详细信息，请参阅[在增强分析中应用筛选器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
-1. （可选）要更改项目的排序方式，请单击 **排序方式** 项目树状图可视化右上角的菜单，然后选择一个新的排序选项：
+1. （可选）要更改项目的排序方式，请单击项目树状图可视化右上角的&#x200B;**排序方式**&#x200B;菜单，然后选择新的排序选项：
 
    * **A - Z**
    * **Z - A**
@@ -123,7 +123,7 @@ ht-degree: 2%
 
    ![](assets/pagination-350x118.png)
 
-1. （可选）更改视图 **计划小时数** 到 **持续时间**.
+1. （可选）将视图从&#x200B;**计划小时数**&#x200B;更改为&#x200B;**持续时间**。
 
    默认情况下选择已计划小时数。
 
@@ -133,21 +133,21 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您选择了 **持续时间** 视图，您将看到以下持续时间详细信息：
+   >如果您选择了&#x200B;**持续时间**&#x200B;视图，您将看到以下持续时间详细信息：
    >
-   >* **已计划时间框架**：计划完成项目的天数。
+   >* **计划时间范围**：计划完成项目的天数。
    >* **已工作天数**：在顶部选定的日期范围内完成的每项任务的计划持续时间除以一天中的小时数。
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >有关持续时间的更多信息，请参阅中的“持续时间视图”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+   >有关持续时间的更多信息，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的“持续时间视图”部分。
 
-1. （可选）要导出可视化数据，请单击 **“导出”图标** ![](assets/export.png) 然后选择导出格式：
+1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出图标** ![](assets/export.png)，然后选择导出格式：
 
    * **图表(PNG)**
    * **数据表(XSLX)**
 
 1. 单击某个项目可打开“燃尽”和“外部测试版中的任务”可视化图表，以更深入地了解任务和小时（或天数）对项目大小有何影响。
 
-有关“燃尽”可视化图表的详细信息，请参阅 [在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md). 有关外部测试版中任务的更多信息，请参阅 [在Enhanced Analytics中查看外部测试版中的任务可视化图表](../enhanced-analytics/tasks-in-flight-overview.md).
+有关燃尽可视化图表的详细信息，请参阅[在增强型分析中查看燃尽可视化图表](../enhanced-analytics/burndown-overview.md)。 有关外部测试版中任务的更多信息，请参阅[在增强型分析中查看外部测试版中的任务](../enhanced-analytics/tasks-in-flight-overview.md)。
 

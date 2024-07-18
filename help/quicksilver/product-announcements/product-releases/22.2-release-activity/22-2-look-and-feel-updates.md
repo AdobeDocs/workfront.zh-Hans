@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍在22.2版本发布时间范围内对Adobe Workfront应用程序各个区域的外观所做的细微更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。
 
-有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 更新的审批页面
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-预览版本： 2022年2月24日；估计的生产版本：从3月9日开始分阶段推出，所有客户将于2022年3月18日前可用。
+>预览版本： 2022年2月24日；估计的生产版本：从3月9日开始分阶段推出，所有客户将于2022年3月18日前可用。
 
 我们改进了Workfront中文档区域的性能。 现在，文档页面的加载速度明显加快。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-功能板中这些相同报告的工具栏也在生产环境中每周更新 [维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 2022年3月3日。
+>功能板中这些相同报告的工具栏也在2022年3月3日通过每周[维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)在生产环境中更新。
 
 * 项目报表
 * 任务报告

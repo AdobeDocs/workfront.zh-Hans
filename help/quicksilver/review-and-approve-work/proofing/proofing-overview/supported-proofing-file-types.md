@@ -90,7 +90,7 @@ Workfront具有以下限制：
 * FLC - Flic Animation
 * FPX — 柯达闪光灯
 * GBR - GerberGIF- CompuServe
-* GIF — 图形交换格式(仅限新Workfront校对查看器中出现动画GIF)
+* GIF — 图形交换格式(仅新Workfront Proof查看器中的动画GIF)
 * GIFHDP - Windows HD照片
 * ICO - Windows图标
 * IFF — 交换文件格式
@@ -239,7 +239,7 @@ Workfront具有以下限制：
 
 ## Web捕获
 
-您可以创建静态网页校样。 有关更多信息，请参阅 [为网站或其他Web内容创建静态验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 和 [使用Workfront Proof创建静态网站校对](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+您可以创建静态网页校样。 有关详细信息，请参阅[为网站或其他Web内容创建静态校样](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)和[使用Workfront Proof创建静态网站校样](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)。
 
 ## Zip文件
 
@@ -247,7 +247,7 @@ Workfront具有以下限制：
 
 只有在压缩文件包含完整的交互式项目并且您的帐户启用了交互式功能（高级计划）时，您才可以提交压缩文件。
 
-有关更多信息，请参阅 [交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+有关详细信息，请参阅[交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)。
 
 ## InDesign和Quark文件
 

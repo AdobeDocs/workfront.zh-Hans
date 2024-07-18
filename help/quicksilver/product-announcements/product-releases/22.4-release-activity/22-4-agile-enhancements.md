@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了22.4版本对“预览”环境所做的所有Agile增强。 这些增强功能将在2022年10月3日这一周提供。
 
-有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 展示板上可用的引入列
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 一个展示板上只允许有一个引入列。
 
-有关更多信息，请参阅 [将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+有关详细信息，请参阅[将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 展示板上的过滤器和搜索图标已移至屏幕左侧。 单击过滤器图标后，左侧将打开一个面板，以显示所有过滤器选项。 以前，过滤器显示在展示板右侧的下拉菜单中。
 
-有关更多信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+有关详细信息，请参阅[在讨论区中筛选和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 摄取列中的任何信息卡都不会包含在组中。
 
-有关更多信息，请参阅 [在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+有关详细信息，请参阅[在展示板上使用组](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 现在，在信息卡上打开清单项目可让您添加有关该项目的更多详细信息，包括描述、截止日期、被分配人和估计。 您还可以复制以前不可用的清单项目。
 
-有关更多信息，请参阅 [管理信息卡上的清单项目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+有关详细信息，请参阅[管理信息卡上的清单项目](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)。
 
 ## 将团队添加到展示板或信息卡
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 将团队添加到展示板后，您可以将团队分配给信息卡。 在连接的卡片上，只允许一个团队分配。 在临时信息卡上，您可以分配多个团队。
 
-有关更多信息，请参阅 [在讨论区中添加或删除成员](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+有关详细信息，请参阅[添加或移除讨论区中的成员](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 您现在可以为展示板上的任何列设置进行中的工作(WIP)限制。 启用WIP限制后，列上会显示一个计数器，其中包含当前卡数和限制。 如果列包含的卡数超过限制，则计数器将变为红色。 这只是一个视觉警告，您不会停止添加超过限制的卡片。
 
-有关更多信息，请参阅 [管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+有关详细信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412871/){target=_blank}
 

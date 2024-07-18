@@ -53,8 +53,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
-有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -76,14 +76,14 @@ ht-degree: 1%
 >
 >我们建议您在标准模式下构建尽可能多的视图，然后将其转换为文本模式以进行编辑。
 
-有关生成视图的信息，请参阅 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+有关生成视图的信息，请参阅Adobe Workfront中的[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
-有关创建报告的信息，请参见 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 执行下列操作之一：
 
-   1. 要从报表访问视图，请转到报表，然后单击 **报表操作** > **编辑** > **列（视图）** 选项卡。
-   1. 要从列表访问该视图，请转至该列表，然后从 **视图** 下拉菜单，将鼠标悬停在要修改的视图上，然后单击 **编辑** 图标 ![](assets/edit-icon.png).
+   1. 要从报表访问视图，请转到报表，然后单击&#x200B;**报表操作** > **编辑** > **列（视图）**&#x200B;选项卡。
+   1. 要从列表中访问该视图，请转到该列表，然后从&#x200B;**视图**&#x200B;下拉菜单中，将鼠标悬停在要修改的视图上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
       此时将打开视图生成器。
 
@@ -91,17 +91,17 @@ ht-degree: 1%
 
    或
 
-   选择 **列（视图）** 选项卡，然后选择列。
+   选择Report Builder的&#x200B;**列（视图）**&#x200B;选项卡，然后选择一个列。
 
    >[!TIP]
    >
    >要使用文本模式编辑视图，必须一次编辑一列。
 
-1. 单击 **切换到文本模式** 生成器的右上角。
+1. 单击生成器右上角的&#x200B;**切换到文本模式**。
 
    >[!NOTE]
    >
-   >在文本模式下编辑列时，Workfront会添加 `textmode=true` 到列的代码行。 这表示在文本模式下修改了该列。
+   >在文本模式下编辑列时，Workfront会将`textmode=true`行代码添加到该列。 这表示在文本模式下修改了该列。
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ ht-degree: 1%
        </div>
 
    <div>
-      此 <code>aggregator. </code>行可以包含 <code>valuefield </code>或 <code>valueexpression</code>.
+      <code>aggregator. </code>行可能包含<code>valuefield </code>或<code>valueexpression</code>。
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **应用** 如果要保存更改并继续编辑视图。
-1. 单击 **保存+关闭** 以保存报告。
+1. 如果要保存更改并继续编辑视图，请单击&#x200B;**应用**。
+1. 单击&#x200B;**保存+关闭**&#x200B;以保存报告。
 
    或
 
-   单击 **保存视图** 在列表中保存视图。
+   单击&#x200B;**保存视图**&#x200B;以将该视图保存在列表中。

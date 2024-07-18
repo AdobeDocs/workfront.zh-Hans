@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 在Adobe Workfront目标中过滤信息
 
-您可以查看自己或其他人在Adobe Workfront目标中添加的目标。 有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md). 在查看目标时，您可以过滤Workfront目标中的信息以仅查看对您很重要的目标。
+您可以查看自己或其他人在Adobe Workfront目标中添加的目标。 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。 在查看目标时，您可以过滤Workfront目标中的信息以仅查看对您很重要的目标。
 
 ## 访问要求
 
@@ -44,7 +44,7 @@ ht-degree: 2%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -54,7 +54,7 @@ ht-degree: 2%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -66,7 +66,7 @@ ht-degree: 2%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## Workfront目标中的过滤器概述
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 * 图表
 * 目标对齐方式
 
-有关“目标”区域各个部分的信息，请参阅 [Adobe Workfront目标部分概述](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+有关“目标”区域的各个部分的信息，请参阅[Adobe Workfront目标部分的概述](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ ht-degree: 2%
 
 您可以在目标列表中使用快速过滤器，以帮助您仅查找对您很重要的项目。 无法保存快速过滤器，因此它们不是永久性的。 在刷新页面时，Workfront会清除快速过滤器的结果。
 
-有关更多信息，请参阅 [将快速筛选器应用到列表](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+有关详细信息，请参阅[将快速筛选器应用到列表](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
 ## 在Workfront目标中创建并应用过滤器
 
@@ -123,15 +123,15 @@ ht-degree: 2%
 
 1. 转到Workfront目标。
 
-   有关访问Workfront目标的信息，请参阅 [在Adobe Workfront目标中访问和打开目标](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   有关访问Workfront目标的信息，请参阅[在Adobe Workfront目标中访问和打开目标](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    默认情况下，将显示目标列表部分。
 
-1. 单击 **筛选** 在列表的右上角。
+1. 单击列表右上角的&#x200B;**筛选器**。
 
    ![](assets/filter-icon-and-label.png)
 
-   默认情况下，Workfront应用 **全部** 过滤器可显示系统中的所有目标。
+   默认情况下，Workfront应用&#x200B;**全部**&#x200B;筛选器，该筛选器显示您的系统中的所有目标。
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ ht-degree: 2%
       </tbody> 
      </table>
 
-   * 将鼠标悬停在筛选器的名称上，然后单击 **编辑** 图标 ![](assets/edit-icon.png) 在名称旁边，对其进行自定义并添加特定的用户、团队、组名称或您的组织名称，然后在用户出现在列表中时将其选定。
+   * 将鼠标悬停在筛选器名称上，然后单击筛选器名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以自定义筛选器并添加特定的用户、团队、组名或组织名称，然后在筛选器出现在列表上时选择筛选器。
 
-   * 单击 **新建筛选器** 要创建新筛选器，请从以下选项中进行选择以自定义新筛选器：
+   * 单击&#x200B;**新建筛选器**&#x200B;以创建新筛选器，然后从以下选项中进行选择以自定义新筛选器：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -209,17 +209,17 @@ ht-degree: 2%
         <td> <p>开始键入拥有者的名称，然后当该名称出现在列表中时将其选定。 </p> <p>您可以键入用户、团队、组的名称或组织的名称，也可以从预定义选项中进行选择。 </p> <p>以下预定义过滤器选项始终指当前登录的用户： </p> 
          <ul> 
           <li> <p><strong>我</strong>：显示您作为所有者的目标。</p> </li> 
-          <li> <p><strong>我的主团队</strong> 和 <strong>我的所有团队</strong>：显示您的主团队或任何团队被指定为负责人的目标。 </p> <p>提示：当您未分配到任何团队时，不会显示任何目标。 </p> </li> 
-          <li> <p><strong>我的主组</strong> 和 <strong>我的全部组</strong>：显示您的主组或任何组被指定为所有者的目标。</p> </li> 
+          <li> <p><strong>我的主团队</strong>和<strong>我的所有团队</strong>：显示您的主团队或任何团队被指定为所有者的目标。 </p> <p>提示：当您未分配到任何团队时，不会显示任何目标。 </p> </li> 
+          <li> <p><strong>我的主组</strong>和<strong>我的所有组</strong>：显示将主组或任何组指定为所有者的目标。</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. （可选）单击 **重置** ，清除您选择的所有字段，并从头开始构建过滤器。
-1. （可选）单击 **应用** 以应用筛选器而不保存。
+1. （可选）单击筛选器框右下角的&#x200B;**重置**&#x200B;以清除所有已选字段并从头开始构建筛选器。
+1. （可选）单击&#x200B;**应用**&#x200B;以应用筛选器而不保存。
 
-   该过滤器显示在 **未保存** 过滤器生成器的区域 **新建筛选器**.
+   筛选器在筛选器生成器的&#x200B;**未保存**&#x200B;区域显示为&#x200B;**新筛选器**。
 
    无法重命名未保存的筛选器。
 
@@ -229,26 +229,26 @@ ht-degree: 2%
    >
    >您一次只能有一个未保存的新筛选器。
 
-1. 单击 **保存** 要保存筛选器以稍后使用，请在中添加筛选器的名称， **添加筛选器名称** 字段并单击 **完成**.
+1. 单击&#x200B;**保存**&#x200B;保存筛选器以稍后使用，然后在&#x200B;**添加筛选器名称**&#x200B;字段中添加筛选器的名称，然后单击&#x200B;**完成**。
 
-   这会将过滤器保存在 **已保存** 过滤器生成器的部分。 您以后可以使用此过滤器。
+   这会将筛选器保存在筛选器生成器的&#x200B;**已保存**&#x200B;部分中。 您以后可以使用此过滤器。
 
    默认情况下，在您下次重新登录Workfront时会显示上次保存并应用的过滤器
 
-1. （可选）单击 **左指箭头** 旁边 **新建筛选器** 以退出过滤器生成器并返回到过滤器列表。
-1. （可选）将鼠标悬停在自定义过滤器的名称上，单击 **更多** 菜单，然后单击 **删除**，则 **删除**. 这将删除筛选器，您无法恢复它。
+1. （可选）单击&#x200B;**新筛选器**&#x200B;旁边的&#x200B;**左指箭头**&#x200B;以退出筛选器生成器并返回筛选器列表。
+1. （可选）将鼠标悬停在自定义筛选器的名称上，单击&#x200B;**更多**&#x200B;菜单，单击&#x200B;**删除**，然后单击&#x200B;**删除**。 这将删除筛选器，您无法恢复它。
 
    >[!TIP]
    >
    >您无法删除任何预定义过滤器。
 
-1. 单击 **X图标** ，以关闭过滤器生成器。
+1. 单击筛选器生成器右上角的&#x200B;**X图标**&#x200B;以关闭筛选器生成器。
 
    当前应用的筛选器的名称将显示在目标列表右上角的筛选器图标的右侧。
 
    目标列表按您的过滤条件过滤。
 
-1. （可选且视情况而定）在“目标对齐方式”部分中查看目标时，单击 **显示它们** （如果要查看过滤掉的目标）。
+1. （可选且有条件）在“目标对齐方式”部分中查看目标时，如果要查看过滤掉的目标，请单击&#x200B;**显示它们**。
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ ht-degree: 2%
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. （可选且视情况而定）单击 **重新应用筛选器** 以应用过滤器，并忽略上一步中显示的项目。
+1. （可选且有条件）单击&#x200B;**重新应用筛选器**&#x200B;以应用筛选器并忽略您在上一步中显示的项。
 
 

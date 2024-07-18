@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: 故障排除 —  [!DNL Workfront Proof] 校对查看器
+title: 疑难解答 —  [!DNL Workfront Proof] 校对查看器
 description: 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# 故障排除 —  [!DNL Workfront Proof] 校对查看器
+# 疑难解答 — [!DNL Workfront Proof]验证查看器
 
 <!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 如果未加载校对内容，并且您只能看到空的校对查看器，很可能是因为某些内容在本地阻止了此操作。 尝试以下可能的解决方案。
 
-## 确保您的浏览器 <!--and [!DNL Flash Player]--> 版本为最新
+## 确保您的浏览器<!--and [!DNL Flash Player]-->版本为最新
 
 所有开发人员都在不断开发应用程序，并且会定期发布产品的新增功能和修复。 这是为了改进用户体验并保持安全级别，因此最佳实践是仅使用最新版本。 这还有助于避免应用程序之间的冲突。
 
@@ -45,7 +45,7 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 通常，大多数浏览器会自动更新，但是如果您遇到任何问题，则值得检查您使用的版本并在需要时执行更新。
 
-在浏览器中，转到 [!UICONTROL 菜单] 并找到 [!UICONTROL 关于] 选项(在某些情况下，这可能在 [!UICONTROL 帮助] 菜单)。 在 [!UICONTROL 关于] 弹出窗口中，您可以找到有关当前浏览器版本的信息以及更新/检查更新的选项。
+在浏览器中，转到[!UICONTROL 菜单]并找到[!UICONTROL 关于]选项（在某些情况下，这可能显示在[!UICONTROL 帮助]菜单下）。 在[!UICONTROL 关于]弹出窗口中，您将找到有关当前浏览器版本的信息以及更新/检查更新的选项。
 
 例如，在Chrome中：
 
@@ -70,21 +70,21 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * 我们没有任何首选浏览器，但如果您当前浏览器出现任何性能问题，我们建议您切换到其他浏览器。
 * 验证是否会在您所在位置的其他计算机上打开？
 如果您的校对未在计算机上的任何浏览器中打开，请尝试在您所在位置和/或您所在位置之外的其他计算机上打开它。 这将允许您确定特定计算机上是否有问题，或者问题是否位于本地网络中。
-如果您的安全级别更高，则您与 [!DNL Workfront Proof] 可能被以下内容阻止：
+如果安全级别更高，则与[!DNL Workfront Proof]的连接可能被阻止：
 
    * 您的本地AV软件
    * 您的网络安全解决方案
    * DNS、防火墙或代理配置
-   * 这些设置超出了我们的控制范围。 有多种安全解决方案可供使用，我们无法分辨哪些解决方案在您的网络中实施，哪些解决方案可能会阻止到您的连接 [!DNL Workfront Proof]. 也不能 [!DNL Workfront Proof] 以决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您联系IT团队，以便他们检查网络设置并授权或添加 [!DNL Workfront Proof] 到允许列表（如果需要）。
+   * 这些设置超出了我们的控制范围。 有多种安全解决方案可用，我们无法分辨哪些解决方案在您的网络中已实现，哪些解决方案可能会阻止与[!DNL Workfront Proof]的连接。 也不能[!DNL Workfront Proof]决定您的内部安全配置。 如果在您所在位置/网络中的多台计算机上打开验证时遇到问题，我们建议您联系IT团队，以便他们检查网络设置并根据需要授权或将[!DNL Workfront Proof]添加到允许列表。
 
-* 是否与以下对象连接 [!DNL Workfront Proof] 是否允许进入您的网络？
-在验证查看器中，我们加载拼贴 — 页面的片段。 如果此内容在您的终端未正确加载，则可能是由于某些连接 [!DNL Workfront Proof] 在您的网络中被阻止。 您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。 您的IT团队应该能够帮助验证这一点。
+* 您的网络中是否允许连接到[!DNL Workfront Proof]？
+在验证查看器中，我们加载拼贴 — 页面的片段。 如果此内容在您的终端未正确加载，则可能是网络中与[!DNL Workfront Proof]的某些连接被阻止。 您需要确保将所有连接和来自*.proofhq.com的所有内容添加到允许列表中。 您的IT团队应该能够帮助验证这一点。
 
 ## 查看插件
 
-如果您的浏览器是最新的，并且网络未阻止与的连接 [!DNL Workfront Proof]，您的浏览器中可能会存在一些影响查看校样的问题。 您的浏览器中通常有多个可用的插件和扩展，其中一些插件和扩展可能会干扰其他插件和扩展，或者与其他插件和扩展发生冲突。
+如果您的浏览器是最新的，并且网络未阻止与[!DNL Workfront Proof]的连接，则浏览器中可能会存在影响查看校样的问题。 您的浏览器中通常有多个可用的插件和扩展，其中一些插件和扩展可能会干扰其他插件和扩展，或者与其他插件和扩展发生冲突。
 
-最佳实践是删除所有未知加载项，仅保留您使用且您信任的加载项。 每个浏览器都应为您提供用于检查/修改/删除插件和扩展的选项。 我们使用JavaScript加载 [!DNL Workfront Proof] 查看器，以便您特别查看可能会影响该查看器的插件。
+最佳实践是删除所有未知加载项，仅保留您使用且您信任的加载项。 每个浏览器都应为您提供用于检查/修改/删除插件和扩展的选项。 我们使用JavaScript来加载[!DNL Workfront Proof]查看器，因此您将需要特别查看可能会影响该情况的插件。
 
 如果加载验证时存在任何特定的加载项干扰，您可以尝试在浏览器的控制台中查看详细信息。
 
@@ -101,8 +101,8 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 
 ## 检查混合内容设置
 
-与的所有连接 [!DNL Workfront Proof] 通过HTTPS。 但是，在 [!DNL Workfront Proof] 查看器我们通过HTTP加载图块，并使用令牌保护数据。 这会创建一些浏览器或安全解决方案可能阻止的混合内容（默认情况下或通过手动配置）。
+所有与[!DNL Workfront Proof]的连接都通过HTTPS进行。 但是，在[!DNL Workfront Proof]查看器中，我们通过HTTP加载磁贴，并使用令牌保护数据。 这会创建一些浏览器或安全解决方案可能阻止的混合内容（默认情况下或通过手动配置）。
 
-如果这是校样未在计算机上打开的原因（您应该能够在浏览器的控制台中看到相关警报），请授权此类连接 [!DNL Workfront Proof] 或者修改您的设置以允许计算机上的被动混合内容。 您的浏览器、AV软件或网络配置可能会阻止混合内容，以确定确切原因。 您应该与IT团队/网络管理员取得联系。 他们还应该能够帮助在您的计算机上启用混合内容。
+如果这是校样未在计算机上打开的原因（您应该能够在浏览器的控制台中看到相关警报），请为[!DNL Workfront Proof]授权此类连接，或修改您的设置以允许计算机上的被动混合内容。 您的浏览器、AV软件或网络配置可能会阻止混合内容，以确定确切原因。 您应该与IT团队/网络管理员取得联系。 他们还应该能够帮助在您的计算机上启用混合内容。
 
 

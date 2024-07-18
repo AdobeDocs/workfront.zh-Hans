@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了20.4版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
-有关20.4版本可用的所有更改列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+有关20.4版本的所有可用更改列表，请参阅[20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 使用工作投入而不是计划小时数计划工作
 
@@ -30,21 +30,21 @@ ht-degree: 0%
 * 对于希望继续使用计划小时数的用户，使用布局模板禁用此设置。
 * 在任务列表或报告中显示此新字段的值。
 
-有关工作投入的信息，请参阅 [工作投入概述](../../../manage-work/tasks/task-information/work-effort.md).
+有关工作投入的信息，请参阅[工作投入概述](../../../manage-work/tasks/task-information/work-effort.md)。
 
-此功能现已包含在 [规划者基础知识，第2部分学习路径](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) 在Workfront一号。
+此功能现已包含在Workfront One上的[规划基础知识第2部分学习路径](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA)中。
 
 ## 工作负载均衡器中工作项的基于项目状态的颜色
 
 为了在工作负载均衡器中更好地显示和增强体验的自定义，您现在可以更改项目及其工作项的颜色，以匹配项目状态的状态。 颜色对应于组级别或系统级别的项目状态。 显示的颜色既可以对应于系统状态，也可以对应于自定义项目状态。
 
-有关在工作负载均衡器中自定义视图的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关在工作负载均衡器中自定义视图的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作负载均衡器中使用百分比值调整用户分配
 
 您现在可以在工作负载均衡器中使用百分比而不是小时管理用户的分配。
 
-有关管理工作负载均衡器中的分配的信息，请参见 [管理工作负载均衡器中的用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+有关管理工作负载均衡器中的分配的信息，请参阅[管理工作负载均衡器中的用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
 
 ## 在工作负载均衡器中显示或隐藏已完成的工作
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 在此增强功能之前，已完成的工作项始终显示在工作负载均衡器中。
 
-有关在工作负载均衡器中调整设置的更多信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关在工作负载均衡器中调整设置的详细信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 改进了工作负载均衡器的可用性
 
@@ -68,19 +68,19 @@ ht-degree: 0%
 * 可以使用键盘快捷键访问指定功能。 以前，只能通过“更多”菜单执行此操作。
 * 您可以通过单击“加载更多”，在用户名下加载所有剩余的项目，而不是仅加载以下20个项目。
 
-有关导航工作负载均衡器的更多信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关导航工作负载均衡器的更多信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作负载均衡器中的用户分配图表
 
 为了让您在给定的时间范围内拥有用户分配的高级别可视化表示形式，现在新增设置以启用图表视图，了解分配在工作负载均衡器中如何显示。 启用此设置会在折线图中显示用户的分配，以红色块表示过度分配，以蓝色表示过度分配。
 
-有关在工作负载均衡器中配置设置的详细信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关在工作负载均衡器中配置设置的详细信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作负载均衡器中可视化已完成的工作
 
 为了让您轻松识别已完成的工作以便正确管理用户分配，我们在工作负载均衡器中启用了一个视觉指示器，用于显示所选时间范围内的项目何时完成。 现在，您可以看到任务的绿色复选标记，即任务完成后出现的问题。 当有工作项在屏幕上显示的时间范围内完成时，项目还会显示绿色复选标记。
 
-有关在工作负载均衡器中查看信息的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关在工作负载均衡器中查看信息的信息，请参阅[在工作负载均衡器中导航](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 工作负载均衡器中已分配工作区域的新默认过滤器
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 在此增强功能之前，您有权查看的所有用户都将显示在此区域中。
 
-有关在工作负载均衡器中使用过滤器的信息，请参见 [在工作负载均衡器中管理过滤器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+有关在工作负载均衡器中使用过滤器的信息，请参阅[在工作负载均衡器中管理过滤器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
 
 ## 在工作负载均衡器中的小时值和百分比值或分配时间和剩余时间之间切换的新图标
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 这项改进消除了点击操作，并使工作负载均衡器导航更加简单高效。
 
-有关管理工作负载均衡器的设置的信息，请参见 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关管理工作负载均衡器的设置的信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 用于工作负载均衡器的全新内置过滤器：项目中的用户
 
 为了使您在工作负载均衡器中的过滤体验更有效，我们在已分配的工作区域中添加了一个新的内置过滤器。 您现在可以应用项目用户过滤器，该过滤器显示分配给您指定项目中的任务和问题的用户。
 
-有关在工作负载均衡器中使用过滤器的信息，请参见 [工作负载均衡器中的过滤器信息](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+有关在工作负载均衡器中使用过滤器的信息，请参阅工作负载均衡器中的[过滤器信息](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
 

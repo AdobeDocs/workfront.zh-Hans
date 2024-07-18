@@ -22,7 +22,7 @@ ht-degree: 0%
 
 任务可以分配给要完成的用户。 当项目中的所有任务都完成时，可以将项目状态标记为完成。
 
-有关Adobe Workfront中项目的更多信息，请参阅 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
+有关Adobe Workfront中项目的详细信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
 以下是项目中的任务类型：
 
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 根据项目上的摘要完成模式，您也许能够独立于其子任务完成父任务。 默认情况下，不能独立于父任务完成或更新其子任务。
 
-有关项目的摘要完成模式的详细信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+有关项目的摘要完成模式的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 子任务或子任务概览
 
 子任务或子任务是列在父任务下的任务。 它们通常会影响父任务的更新和解决。
 
-有关父任务的详细信息，请参阅 [父任务概述](#overview-of-parent-tasks) 本文章中。
+有关父任务的更多信息，请参阅本文中的[父任务概述](#overview-of-parent-tasks)。
 
-有关创建子任务的详细信息，请参见 [在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+有关创建子任务的更多信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 ## 顶级任务概述
 
@@ -62,4 +62,4 @@ ht-degree: 0%
 
 ## 周期性任务
 
-如果您的任务重复发生，则可以将其创建为具有多个重复实例的重复任务。 有关周期性任务的信息，请参阅 [周期性任务概述](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+如果您的任务重复发生，则可以将其创建为具有多个重复实例的重复任务。 有关周期性任务的信息，请参阅[周期性任务概述](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)。

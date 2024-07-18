@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: 固定页面以自定义工作区
-description: 您可以固定最重要的工作 [!DNL Adobe Workfront] 实现更高的可见性、更好的组织和更快的访问。 固定页面始终可从Workfront中任何页面的顶部访问。
+description: 您可以固定最重要的工作 [!DNL Adobe Workfront] 以提高可见性、改善组织并加快访问速度。 固定页面始终可从Workfront中任何页面的顶部访问。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # 固定页面以自定义工作区
 
-您可以将最重要的工作固定在 [!DNL Adobe Workfront] 实现更高的可见性、更好的组织和更快的访问。 固定页面始终可从Workfront中任何页面的顶部访问。
+您可以将最重要的工作固定在[!DNL Adobe Workfront]中，以提高可见性、改善组织并加快访问速度。 固定页面始终可从Workfront中任何页面的顶部访问。
 
-您可能会被分配到已固定页面的布局模板（如中所述） [使用布局模板自定义固定页面](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md))。 无法重命名或移除这些预定义的大头针。 任何页面都会显示在预定义图钉的右侧。
+您可能会被分配到已固定页面的布局模板（如[使用布局模板自定义固定页面](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)中所述）。 无法重命名或移除这些预定义的大头针。 任何页面都会显示在预定义图钉的右侧。
 
 ## 访问要求
 
@@ -39,7 +39,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
 ## 用 pin 钉住某一页
 
@@ -47,9 +47,9 @@ ht-degree: 1%
 
    这可以是任何工作项，如项目、任务、请求队列等。
 
-1. 单击 **[!UICONTROL 用pin钉住当前页]** 页面顶部的。
+1. 单击页面顶部的&#x200B;**[!UICONTROL 固定当前页面]**。
 
-   现在，可以从中任何页面的顶部访问固定页面 [!DNL Workfront].
+   现在可从[!DNL Workfront]中任何页面的顶部访问固定页面。
 
 ## 访问固定页面
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    或
 
-   如果您已固定多个页面，则可能需要单击 **[!UICONTROL 更多] 菜单** ![](assets/more-icon-spectrum.png) 以查看其他固定页面。
+   如果固定了多个页面，您可能需要单击&#x200B;**[!UICONTROL 更多]菜单** ![](assets/more-icon-spectrum.png)以查看其他固定页面。
 
    此时将显示固定页面。
 
@@ -69,14 +69,14 @@ ht-degree: 1%
 
 您可以更改固定页面的名称，使其对您更有意义。
 
-1. 将鼠标悬停在顶部导航中的固定页面上，或者 **[!UICONTROL 更多菜单]**.
-1. 单击大头针名称旁边的箭头并选择 **[!UICONTROL 重命名图钉]**.
+1. 将鼠标悬停在顶部导航中的固定页面或&#x200B;**[!UICONTROL 更多菜单]**&#x200B;上。
+1. 单击插针名称旁边的箭头，然后选择&#x200B;**[!UICONTROL 重命名插针]**。
 
-   ![重命名图钉](assets/rename-remove-pin.png)
+   ![重命名pin](assets/rename-remove-pin.png)
 
 1. 键入新的pin名称，然后单击复选标记图标或按Enter键。
 
-   ![单击复选标记可重命名图钉](assets/rename-pin-click-checkmark.png)
+   ![单击复选标记可重命名pin](assets/rename-pin-click-checkmark.png)
 
    单击复选标记或按Enter键后，会出现一个小弹出窗口，持续几秒钟，允许您在保存大头针名称之前撤消更改。
 
@@ -84,19 +84,19 @@ ht-degree: 1%
 
 您可以重新排列固定页面的显示顺序。
 
-1. 将鼠标悬停在顶部导航中的固定页面上，或者 **[!UICONTROL 更多菜单]**. 当看到手形光标时，单击并将固定拖动到所需的顺序。
+1. 将鼠标悬停在顶部导航中的固定页面或&#x200B;**[!UICONTROL 更多菜单]**&#x200B;上。 当看到手形光标时，单击并将固定拖动到所需的顺序。
 
    您的更改会自动保存，并在您下次访问Workfront时记住这些更改。
 
 ## 删除固定页面
 
 1. 单击要取消固定的固定页面。
-1. 单击 **[!UICONTROL 取消置顶当前页面]** 在屏幕顶部。
+1. 单击屏幕顶部的&#x200B;**[!UICONTROL 取消固定当前页面]**。
 
    或
 
-   单击大头针名称旁边的箭头并选择 **[!UICONTROL 移除图钉]**.
+   单击插针名称旁边的箭头，然后选择&#x200B;**[!UICONTROL 删除插针]**。
 
-   ![移除图钉](assets/rename-remove-pin.png)
+   ![移除pin](assets/rename-remove-pin.png)
 
-   无法再从中任何页面的顶部访问该页面 [!DNL Workfront].
+   无法再从[!DNL Workfront]中任何页面的顶部访问该页面。

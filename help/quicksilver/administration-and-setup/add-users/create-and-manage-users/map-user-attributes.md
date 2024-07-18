@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -77,13 +77,13 @@ ht-degree: 1%
 
 ### 在经典体验中映射用户属性
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **系统** > **单点登录(SSO)**.
+1. 单击&#x200B;**系统** > **单点登录(SSO)**。
 
-1. 在 **类型** 下拉列表，单击 **SAML 2.0**.
+1. 在&#x200B;**类型**&#x200B;下拉列表中，单击&#x200B;**SAML 2.0**。
 
-1. 单击 **映射用户属性**.
+1. 单击&#x200B;**映射用户属性**。
 
    ![](assets/map-user-attributes.png)
 
@@ -118,58 +118,58 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. （可选）单击 **规则** 将规则添加到属性中。
+1. （可选）单击&#x200B;**规则**&#x200B;将规则添加到该属性。
 
    1. 在下拉列表中，选择要使用的属性修饰符。
    1. 在右侧的2个字段中，键入目录属性值以及要替换它的值。
 
       ![](assets/rule-fields.png)
 
-   您可以单击 **添加规则** 以向属性添加更多规则。
+   您可以单击&#x200B;**添加规则**&#x200B;以向属性添加更多规则。
 
-1. （可选）要映射更多用户属性，请单击 **添加映射** 并重复步骤6至7。
+1. （可选）要映射更多用户属性，请单击&#x200B;**添加映射**&#x200B;并重复步骤6-7。
 1. 单击&#x200B;**保存**。
 
 ### 在Adobe统一体验中映射用户属性
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-left.png) (位于Adobe Workfront左上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront左上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-left.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **系统** > **单点登录(SSO)**.
+1. 单击&#x200B;**系统** > **单点登录(SSO)**。
 
-1. 选择 **Adobe** 选项卡。
+1. 选择&#x200B;**Adobe**&#x200B;选项卡。
 
-1. （可选且视情况而定）如果您的组织在经典Experience中配置了属性映射，并且您希望将该属性映射复制到Adobe统一体验，请单击 **迁移映射**. 然后，您可以放弃、删除或编辑这些映射。
+1. （可选且有条件）如果贵组织在经典Experience中配置了属性映射，并且您想要将该属性映射复制到Adobe统一体验，请单击&#x200B;**迁移映射**。 然后，您可以放弃、删除或编辑这些映射。
 
    >[!NOTE]
    >
    >我们建议您在首次在AdobeUnified Experience中配置映射时迁移映射。 以后再迁移它们没有坏处，但不需要多次迁移。
 
-1. 要创建新的属性映射，请单击 **添加映射**.
+1. 要创建新的属性映射，请单击&#x200B;**添加映射**。
 
-1. 单击Workfront字段名称旁边的箭头，然后选择 [!DNL Workfront] 要映射到的字段。
+1. 单击Workfront字段名称旁边的箭头，然后选择要映射到的[!DNL Workfront]字段。
 
-1. （可选）如果要为给定字段创建多个规则，请单击 **始终** 并选择您希望规则使用的运算符。
+1. （可选）如果要为给定字段创建多个规则，请单击&#x200B;**Always**&#x200B;旁边的箭头，然后选择您希望规则使用的运算符。
 
 1. （视情况而定）如果在始终之外选择了运算符，请选择该运算符适用的Workfront字段和值。
 
    >[!NOTE]
    >
-   >运算符 `Is Truthy` 和 `Is Falsy` 不需要值。
+   >运算符`Is Truthy`和`Is Falsy`不需要值。
 
 1. 选择是要将Identity Manager中的属性值应用到Workfront字段，还是要应用特定的常量值。
 
 1. 输入要应用的identity manager字段的名称，或输入要应用的常量值的文本。
 
-1. （可选）要为同一Workfront字段添加更多规则，请单击 **添加新规则**，并按照步骤4 - 9执行操作。
+1. （可选）要为同一Workfront字段添加更多规则，请单击&#x200B;**添加新规则**，然后执行步骤4-9。
 
    >[!IMPORTANT]
    >
    > * Always规则下的任何规则都将被忽略。 如果您有Always规则，则必须将其移动到规则列表的底部。 您可以通过单击规则右侧的三个点菜单来移动列表中的规则，并向上或向下移动规则。
-   > * 要在列表中间创建规则，请单击要位于新规则上方或下方的规则旁边的三个圆点菜单，然后选择 **添加以上规则** 或 **在下面添加规则**.
+   > * 要在列表中间创建规则，请单击要位于新规则上方或下方的规则旁边的三个圆点菜单，然后选择&#x200B;**添加上方规则**&#x200B;或&#x200B;**添加下方规则**。
 
-1. 要删除规则，请单击要删除的规则旁边的三个圆点菜单，然后选择 **删除**.
-1. 要删除映射，请单击 **删除** 卡上用于该映射的图标。
+1. 要删除规则，请单击要删除的规则旁边的三个圆点菜单，然后选择&#x200B;**删除**。
+1. 要删除映射，请单击该映射的卡片上的&#x200B;**删除**&#x200B;图标。
 
-1. 要保存，请滚动到页面顶部并单击 **保存**.
+1. 若要保存，请滚动到页面顶部，然后单击&#x200B;**保存**。
 
 

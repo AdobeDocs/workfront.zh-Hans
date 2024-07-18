@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 配置 [!UICONTROL Scrum]
+# 配置[!UICONTROL Scrum]
 
-您可以在中创建Agile团队 [!DNL Adobe Workfront] 如中所述 [创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
+您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
 
 * Scrum
 * Kanban
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 颜色指示器如何用于敏捷故事板上的故事
 * 将工作项添加到开发周期时如何应用日期
 
-有关配置Kanban团队的信息，请参阅 [配置Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
+有关配置Kanban团队的信息，请参阅[配置Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 ## 访问要求
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-*要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+*要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
 ## 配置故事的估计单位为点还是小时
 
@@ -72,20 +72,20 @@ ht-degree: 0%
 
 要配置如何为您的Agile团队估计故事：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!UICONTROL Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. 单击 **[!UICONTROL 切换组]** 图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。\
+   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。\
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，在 **[!UICONTROL 估计故事位于]** 区域，选择是使用点还是小时来估算文章的大小（工作负荷）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 估算]**&#x200B;中的故事区域，选择您是要使用点还是小时来估算故事的大小（工作负载）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
 
-   **示例：** 如果您已选择估计故事的点数，1点等于8小时，并且故事的估计点数为3，则系统会将24个已计划小时数添加到故事中。
+   **示例：**&#x200B;如果您已选择估计故事的点数，1点等于8小时，并且估计故事的点数为3，则系统会将24个已计划小时数添加到故事中。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 在敏捷故事板上配置状态列
 
@@ -100,20 +100,20 @@ ht-degree: 0%
 
 要定义可用于与Agile团队关联的故事板的状态，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. 单击 **[!UICONTROL 切换组]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
+   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，找到 **[!UICONTROL 故事板]** 区域。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，找到&#x200B;**[!UICONTROL 故事板]**&#x200B;区域。
 
-1. （可选）单击 **[!UICONTROL 添加列]** 向故事板添加其他状态列。
+1. （可选）单击&#x200B;**[!UICONTROL 添加列]**&#x200B;以向故事板添加其他状态列。
 1. （可选）使用拖放指示器拖动任意状态列，以重新排列故事板上的状态列。 无法移动第一列，也不能将另一列拖到第一列的前面。
 
    ![拖放](assets/agile-story-card-drag-and-drop.png)
@@ -122,19 +122,19 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >只能选择锁定的系统范围状态；不能选择组特定的状态。 此外，第一列的状态始终对应于 **[!UICONTROL 新建]**.
+   >只能选择锁定的系统范围状态；不能选择组特定的状态。 此外，第一列的状态始终对应于&#x200B;**[!UICONTROL New]**。
 
-   您可以添加自定义状态，如果 [!DNL Workfront] 管理员已配置它们；自定义状态可以配置，如中所述 [创建或编辑状态](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   如果[!DNL Workfront]管理员已配置自定义状态，则可以添加这些状态；自定义状态可按照[创建或编辑状态](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中的说明进行配置。
 
    >[!NOTE]
    >
-   >选择问题状态时，第三列始终默认为 [!UICONTROL 已关闭]. 如果拥有三个以上的列，请确保手动更新这些列以反映正确的状态。
+   >选择问题状态时，第三列始终默认为[!UICONTROL 已关闭]。 如果拥有三个以上的列，请确保手动更新这些列以反映正确的状态。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ### 配置项目的状态列 {#configure-status-columns-for-projects}
 
-有关如何为项目配置状态列的信息，请参阅部分 [创建或自定义 [!UICONTROL 敏捷] 视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 在文章中 [在中创建或编辑视图 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+有关如何配置项目状态列的信息，请参阅[在 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中创建或编辑视图一文中的[创建或自定义[!UICONTROL Agile]视图](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)部分。
 
 ## 配置要在敏捷故事板上的故事卡上显示的其他字段
 
@@ -158,23 +158,23 @@ ht-degree: 0%
 
 配置分配给敏捷团队的故事卡以显示其他字段：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!UICONTROL Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. 单击 **[!UICONTROL 切换组]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.\
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
+   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，键入字段名称以查找它。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，键入字段名称以找到它。
 
-   ![其他字段](assets/agile-additional-fields-scrum.png)
+   ![附加字段](assets/agile-additional-fields-scrum.png)
 
 1. 选择要添加的字段的名称。
-1. 键入 **[!UICONTROL 显示名称]** 以在故事或问题卡上显示的字段。
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 为要显示在文章或问题卡上的字段键入&#x200B;**[!UICONTROL 显示名称]**。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 配置颜色指示器如何用于敏捷故事板上的故事
 
@@ -182,50 +182,50 @@ ht-degree: 0%
 
 要更改将颜色分配给敏捷团队故事的行为：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Workfront]，然后单击 **[!UICONTROL 团队]**.
+1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
 
-1. 单击 **[!UICONTROL 切换组]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
+   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 [!UICONTROL 敏捷] 部分，在 [!UICONTROL 将卡片颜色关联到] 区域，从以下选项中选择：
+1. 在[!UICONTROL Agile]部分的[!UICONTROL 将卡片颜色关联到]区域，从以下选项中选择：
 
-   * **[!UICONTROL 项目]**：颜色与故事绑定的项目关联。 (创建文章时，必须将其与项目关联，如中所述 [创建Agile故事](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). 同一项目的所有任务以相同颜色显示。
-   * **[!UICONTROL 自由格式]**：所有信息卡默认显示为蓝色，直到用户手动更改颜色为止，如中所述 [[!UICONTROL 按颜色分类故事] 在Scrum展示板上](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
-   * **[!UICONTROL 优先级]**：颜色与文章优先级相关联，如下所示：
+   * **[!UICONTROL 项目]**：颜色与文章所关联的项目相关联。 (创建故事时，必须将其与项目关联，如[创建Agile故事](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md)中所述。 同一项目的所有任务以相同颜色显示。
+   * **[!UICONTROL 自由表单]**：所有信息卡默认显示为蓝色，直到用户手动更改颜色为止，如Scrum展示板上的[[!UICONTROL 按颜色对故事进行分类]中所述。](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md)
+   * **[!UICONTROL 优先级]**：颜色与文章优先级关联，如下所示：
 
       * 高=红色
-      * 中=黄色
+      * Medium =黄色
       * 低=绿色\
 
-        如果系统管理员已为配置自定义优先级 [!DNL Workfront] 系统优先级最高的是红色，第二高是黄色，第三高是绿色。
-   * **[!UICONTROL 任务所有者]**：具有相同主要被分配人的所有故事的颜色相同。 主要被分配者是首次分配至任务的用户。
+        如果系统管理员为[!DNL Workfront]系统配置了自定义优先级，则最高优先级为红色，第二高为黄色，第三高为绿色。
+   * **[!UICONTROL 任务所有者]**：具有相同主要被分配人的所有故事都是相同的颜色。 主要被分配者是首次分配至任务的用户。
 
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 配置将工作项添加到开发周期时应用日期的方式
 
 默认情况下，将工作项添加到Scrum迭代时，会修改该工作项的“计划开始日期”和“计划完成日期”，以匹配迭代的开始和结束日期。 您可以选择将原始日期保留在团队的所有工作项上。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe] Workfront，然后单击 **[!UICONTROL 团队]**.
-1. （可选）单击 **[!UICONTROL 切换组]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择一个新的Scrum团队或在搜索栏中搜索团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.\
-   仅团队成员具有任一个 [!UICONTROL 计划] 或 [!UICONTROL 工作] 许可证请参阅此选项。
-1. 在 [!UICONTROL 敏捷] 部分，在 [!UICONTROL 将工作项添加到开发周期时] 区域，从以下选项中选择：
+1. 单击[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
+   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+1. 在[!UICONTROL Agile]部分的[!UICONTROL 将工作项添加到开发周期]区域时，从以下选项中选择：
 
-   * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到开发周期时，工作项日期将更改为开发周期日期。\
+   * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项日期将更改为迭代日期。\
 
-     有关如何修改日期的更多信息，请参阅部分 [了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) 在文章中 [将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-   * **[!UICONTROL 请勿修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到开发周期时，工作项将保留其原始日期。
+     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa)部分。
+   * **[!UICONTROL 不修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项保留其原始日期。
 
    如果更改日期选项，则不会调整迭代中已存在的工作项的日期。
 
    这些选项会影响团队将工作项分配给彼此的迭代的日期。 例如，团队A将工作项日期修改为迭代日期，而团队B不修改工作项日期。 如果团队B将工作项分配给团队A的小版本，则将更改工作项日期。 但是，如果团队A将工作项分配给团队B的小版本，日期将不会更改。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。

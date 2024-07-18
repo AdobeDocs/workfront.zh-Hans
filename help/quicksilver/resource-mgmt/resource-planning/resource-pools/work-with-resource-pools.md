@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 资源池概述
-description: 作为资源管理器，您可以通过将用户添加到资源池来管理资源。
+description: 作为资源管理器，您可以通过向资源池添加用户来管理资源。
 author: Alina
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
@@ -19,11 +19,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-作为资源管理器，您可以通过将用户添加到资源池来管理资源。
+作为资源管理器，您可以通过向资源池添加用户来管理资源。
 
-如果不使用用户填充您的资源池并将其附加到项目，则无法进行高效的资源管理。 这是使用资源规划功能的先决条件。
+如果没有使用用户填充资源池并将用户附加到项目，则无法进行有效的资源管理。 这是使用“资源计划”功能的先决条件。
 
-有关开始使用资源计划之前需要的先决条件的详细信息，请参阅 [资源计划员概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关开始使用资源计划之前所需先决条件的更多信息，请参阅[资源计划程序概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的“在资源计划程序中工作的先决条件”部分。
 
 有关创建和管理资源池的信息，请参阅以下文章：
 
@@ -68,28 +68,28 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 ## 资源池概述
 
-* 资源池是项目完成时需要的用户集合。
-* 当资源池与项目和项目组合中的所有项目关联时，可以在多个项目、项目组或项目组合之间共享资源池。
-* 您可以创建资源池并在创建时使用现有用户填充该资源池，也可以创建资源池并将其与现有用户或在创建或编辑用户时与新用户相关联。
-* 在用户填充资源池后，您可以将它们与项目和模板关联，并更有效地管理用户对项目的分配。
-* 您可以根据需要将任意数量的资源池与项目、模板或用户关联。
+* 资源池是完成项目时同时需要的用户的集合。
+* 当资源池与项目和项目组合中的所有项目相关联时，可以跨多个项目、项目组合或项目组合共享该资源池。
+* 您可以创建一个资源池，并在创建时用现有用户填充该资源池，也可以创建资源池，并在创建或编辑用户时将其与现有用户或新用户相关联。
+* 使用用户填充资源池后，您可以将其与项目和模板关联，并更有效地管理分配给项目的用户。
+* 您可以根据需要将任意多个资源池与项目、模板或用户关联。
 
-## 将用户与资源池关联的条件
+## 将用户与资源池关联的标准
 
-有几种方法可以构建资源池。
+可通过多种方法来构建资源池。
 
 我们建议采用以下方法：
 
-* 您可以将同一资源池中的所有用户都属于同一团队。
+* 您可以将同一资源池中的所有用户都归属于同一团队。
 
-   例如，如果您希望营销团队的所有用户都可用于某个项目，则您需要一个营销资源池，您可以在其中添加该团队中的所有用户。 然后，您可以将营销资源池与该团队成员分配到的项目相关联。
+  例如，如果您希望某个营销团队的所有用户都可用于项目，则需要有一个营销资源池，您可以在其中添加该团队中的所有用户。 然后，您可以将营销资源池与该团队成员所分配到的项目相关联。
 
-* 您可以让同一资源池中的所有用户都履行类似的角色，尤其是当角色需求旺盛且必须单独编入预算时。
+* 您可以让同一资源池中的所有用户承担类似的角色，尤其是当角色需求量很大并且必须单独进行预算时。
 
-   例如，您可能有外部资源作为顾问工作，而您希望不时为项目提供这些资源。 您可以为顾问创建一个资源池，并将其附加到您的项目中，在该资源池中，您可以放置两个内部或外部顾问用户。
+  例如，您可能具有作为顾问工作的外部资源，您希望不时将这些资源用于项目。 您可以为顾问创建资源池，以将其附加到项目中，您可以在其中放置内部或外部顾问用户。
 
 * 您还可以按部门或成本中心创建资源池。
-* 如果您有大量用户，或者您一次管理大量项目的资源，我们建议不要将系统中的所有用户添加到一个资源池。
+* 如果您有大量用户，或者您一次管理大量项目的资源，我们不建议将系统中的所有用户添加到一个资源池。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

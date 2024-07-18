@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ---
 
-# 在对象之间移动 [!DNL Workfront] 使用环境 [!DNL Workfront] 环境提升API
+# 使用[!DNL Workfront]环境升级API在[!DNL Workfront]环境之间移动对象
 
 “环境升级”功能允许您将与配置相关的对象从一个环境移动到另一个环境。 您可以使用Workfront API移动这些对象，如本文所述。
 
@@ -33,13 +33,13 @@ ht-degree: 2%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 计划</strong>
+   <td><strong>[!DNL Adobe Workfront]计划</strong>
    </td>
    <td> Prime或Ultimate（仅限新计划）
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 许可证</strong>
+   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
    </td>
    <td> [！UICONTROL标准版]
    </td>
@@ -47,22 +47,22 @@ ht-degree: 2%
    <tr>
    <td>访问级别配置
    </td>
-   <td>您必须是 [!DNL Workfront] 管理员。
+   <td>您必须是[!DNL Workfront]管理员。
    </td>
   </tr>
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
-创建升级包端点假定您已配置源环境。 此API调用需要手动创建 [!DNL Workfront] 对象代码和对象GUID。 此地图的特定结构如下所述。
+创建升级包端点假定您已配置源环境。 此API调用需要手动创建[!DNL Workfront]对象代码和对象GUID的对象映射。 此地图的特定结构如下所述。
 
 ## 环境升级支持的对象
 
 环境升级功能旨在提供与配置相关的对象从一个环境移动到另一个环境的功能。 它不支持移动事务性对象的功能（只有有限的例外）。
 
-有关可升级对象及其包含的可升级子对象的列表，请参见 [环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 在文章中 [在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+有关可升级对象及其包含的可升级子对象的列表，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 身份验证
 
@@ -72,7 +72,7 @@ API对每个请求进行身份验证，以确保客户端有权查看或修改�
 
 ### 请求标头身份验证
 
-首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这有一个优势，就是可以安全抵御 [跨站点请求伪造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻击，并且不会出于缓存目的干扰URI。
+首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这样可以安全地抵御[跨站点请求伪造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)攻击，并且不会出于缓存目的干扰URI。
 
 以下是请求标头的示例：
 
@@ -108,18 +108,18 @@ SessionID: abc1234
 
 第一步会创建一个处于“ASSEMBLING”状态的空促销包。
 
-第二步使用 `objectCollections` 在POST正文中提供的数组，用于汇编来自Workfront的请求记录。 完成此步骤可能需要几分钟，具体取决于请求的记录数以及Workfront配置。 在此流程结束时，空的促销活动包将更新为 `packageEntities` 并且状态自动设置为“草稿”。
+第二步使用POST正文中提供的`objectCollections`数组从Workfront汇编所请求的记录。 完成此步骤可能需要几分钟，具体取决于请求的记录数以及Workfront配置。 在此流程结束时，空的促销活动包将使用`packageEntities`进行更新，并且状态会自动设置为“草稿”。
 
 
 >[!NOTE]
 >
->请注意的结构 `objectCollections`  数组。
+>注意`objectCollections`数组的结构。
 >
->数组中的每一项包含 `objCode` 与Workfront API Explorer中记录的目标代码对应的键。
+>数组中的每一项包含一个`objCode`密钥，该密钥与Workfront API资源管理器中记录的对象代码相对应。
 >
->每个项目还包含 `entities` 收藏集。 这需要 `ID` 字段。 它也可以接受一个可选的 `name` 属性以便于了解 `ID` 表示。
+>每个项目还包含一个`entities`集合。 这需要`ID`字段。 它还可以接受可选的`name`特性，以便于了解`ID`表示的内容。
 >
->对于在中请求的允许对象代码列表 `objectCollections` 列表，请参见 [环境升级支持的对象](#supported-objects-for-environment-promotion) 部分。
+>有关在`objectCollections`列表中请求的允许对象代码的列表，请参阅本文中的[环境升级支持的对象](#supported-objects-for-environment-promotion)部分。
 
 #### URL
 
@@ -274,7 +274,7 @@ _空_
 }
 ```
 
-&lt;! — 检查上面的“状态” — 它是否已添加？—>
+&lt;！ — 检查上面的“状态” — 它是否已添加？—>
 
 ### 按ID获取包
 
@@ -373,7 +373,7 @@ _空_
 1. description（字符串）
 1. 状态（带值验证的字符串）
 
-有关可用状态的详细说明，请参阅 [环境提升状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中 [在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+有关可用状态的详细说明，请参阅[在Workfront环境之间移动对象概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[环境升级状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
 
 
 #### URL
@@ -516,7 +516,7 @@ Deleted
 
 结果是一个JSON主体，用于标识是否在目标环境中找到升级对象。
 
-对于每个升级对象，请使用下列选项之一 `actions`  将设置：
+对于每个升级对象，将设置以下`actions`之一：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ Deleted
  <tbody> 
   <tr> 
    <td>创建</td> 
-   <td><p>当在目标环境中找不到相应的记录时，该操作将设置为CREATE。</p><p>当此操作在 <code>translationmap</code> 提供给 <code>/install</code> 终结点，安装服务将创建记录。</p></td> 
+   <td><p>当在目标环境中找不到相应的记录时，该操作将设置为CREATE。</p><p>当在提供给<code>/install</code>终结点的<code>translationmap</code>中设置此操作时，安装服务将创建记录。</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING ，并且 <code>targetId</code> 在中捕获 <code>translationmap</code>.</p><p>当此操作在 <code>translationmap</code> 提供给 <code>/install</code> 终结点，安装服务将不会创建记录。 但是，它会使用 <code>targetId</code> 包括在可能引用此记录的其他对象的映射条目中。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注意：</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中构建包的沙盒中“默认组”的描述已更改，并且目标环境中的描述值不同，则在使用此项安装后，值将保持不变 <code>translationmap</code>.</li></ul></td> 
+   <td><p>在目标环境中找到相应的记录时，该操作将设置为USEEXISTING，并且还会在<code>translationmap</code>中捕获<code>targetId</code>。</p><p>当在提供给<code>/install</code>终结点的<code>translationmap</code>中设置此操作时，安装服务将不会创建记录。 但是，它将使用映射项中包含的<code>targetId</code>来查找可能引用此记录的其他对象。</p><p>例如，在包将部署到的目标环境中可以找到“默认组”。 由于不可能有两个“默认组”记录，因此安装服务将在任何其他包含对“默认组”的引用的对象创建操作中使用现有组的GUID，如项目、表单或与此组相关的任何其他实体。</p><p><b>注释：</b> <ul><li><p>分配USEEXISTING操作后，将不会修改目标环境中的现有记录。 </p><p>例如，如果在从中生成包的沙盒中“默认组”的描述已更改，并且描述值在目标环境中不同，则在使用此<code>translationmap</code>安装后，该值将保持不变。</li></ul></td> 
   </tr> 
   <tr> 
    <td>覆盖</td> 
-   <td><p>此操作不会自动设置。</p><p>此操作提供更新目标环境中存在的对象的功能。 它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。<ul><li>用户可以更新测试环境中的对象，然后使用OVERWRITING操作更新目标环境中的该对象。</p></li><li><p>如果用户最初安装了一个升级包，以后又有一个新的（或更新的）升级包包含对初始包中对象的更改，则用户可以使用“覆盖”来替换（覆盖）以前安装的对象。 </p><p>有关覆盖的更多信息，请参阅本文中的[覆盖](#overwriting)部分。</li><ul></td> 
+   <td><p>此操作不会自动设置。</p><p>此操作提供更新目标环境中存在的对象的功能。 它能够在执行<code>/install</code>调用之前手动覆盖分配的CREATE或USEEXISTING操作。<ul><li>用户可以更新测试环境中的对象，然后使用OVERWRITING操作更新目标环境中的该对象。</p></li><li><p>如果用户最初安装了一个升级包，以后又有一个新的（或更新的）升级包包含对初始包中对象的更改，则用户可以使用“覆盖”来替换（覆盖）以前安装的对象。 </p><p>有关覆盖的更多信息，请参阅本文中的[覆盖](#overwriting)部分。</li><ul></td> 
   </tr> 
   <tr> 
    <td>忽略</td> 
-   <td><p>此操作不会自动设置。</p><p>它提供在执行之前手动覆盖分配的CREATE或USEEXISTING操作的能力 <code>/install</code> 呼叫。</p><p><b>注释： </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
+   <td><p>此操作不会自动设置。</p><p>它能够在执行<code>/install</code>调用之前手动覆盖分配的CREATE或USEEXISTING操作。</p><p><b>注释： </b><ul><li><p>如果最初设置为CREATE的记录设置为IGNORE，则任何子记录也应设置为IGNORE。</p><p>例如，如果模板记录已使用CREATE操作进行映射，并且安装用户希望将其从部署中排除，则他们可以将模板的操作设置为IGNORE。</p><p>在这种情况下，如果安装用户未将模板任务、模板任务分配、模板任务前置任务、队列定义、队列主题、路由规则等也设置为IGNORE，则部署将导致安装尝试失败。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为IGNORE，则安装过程中可能会产生一些不良影响。</p><p>例如，如果使用USEEXISTING操作映射了组记录，并且安装用户将操作更改为IGNORE，则对于需要组的对象（例如，如果没有分配组，项目不能存在），系统默认组将被分配给该项目。</p></li><li><p>如果最初设置为USEEXISTING的记录设置为CREATE，则安装过程中可能会产生一些不良影响，因为许多Workfront实体具有唯一名称约束。</p><p>例如，如果用USEEXISTING操作映射了“Default Group”记录，并且安装用户将操作更改为CREATE，因为已经有一个“Default Group”，安装尝试将无法完成所有步骤。 组名称必须是唯一的。</p><p>某些实体没有唯一名称约束。 对于这些对象，进行此更改将导致两个具有相同名称的记录。 例如，模板、项目、视图、筛选器、分组、报告和仪表板不需要唯一名称限制。 最佳做法是为这些记录指定唯一的名称，但不会强制执行。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-当前不支持更新 `action` 在此服务的alpha功能中。 允许进行更新的选项 `action` 是我们正在研究的东西。
+此服务的Alpha功能当前不支持UPDATE `action`。 允许更新`action`的选项是我们正在研究的内容。
 
 #### URL
 
@@ -671,7 +671,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 >[!NOTE]
 >
->执行安装所需的ID是 `id` 字段。 在此示例中， `id` 字段的顶部第三，其值以 `c0bc79bd`.
+>执行安装所需的ID是`id`字段。 在此示例中，`id`字段是自顶向下第三的，其值以`c0bc79bd`开头。
 
 ### 执行安装
 
@@ -681,7 +681,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 >
 >如果在执行预运行后对目标环境（包将部署到的环境）进行了任何更改，我们建议再次执行预运行。 如果不再次执行预运行，则可能无法准确完成执行，或者安装可能会失败。
 >
->有关执行预运行的说明，请参阅 [执行预运行](#execute-a-pre-run).
+>有关执行预运行的说明，请参阅[执行预运行](#execute-a-pre-run)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -837,15 +837,15 @@ _空_
   </tbody> 
 </table>
 
-此调用将返回最终 `translationMap` 安装服务为特定安装生成的。
+此调用将返回安装服务为特定安装生成的最终`translationMap`。
 
-每个记录将说明规定的内容 `action` 以及操作是否成功。
+每个记录将说明规定的`action`是什么，以及该操作是否成功。
 
-对于具有CREATE的记录 `action` 该 `targetId` 字段将在目标系统中使用新创建记录的值设置。 此外， `installationStatus` 字段将设置为INSTALLED。
+对于具有CREATE `action`的记录，`targetId`字段将设置为目标系统中新创建记录的值。 此外，`installationStatus`字段将设置为INSTALLED。
 
-对于具有USEEXISTING的记录 `action` 该 `targetId` 字段，并且 `installationStatus` 字段将设置为REGISTERED。 这表示映射过程已完成，并且安装服务确认已评估记录，并且没有要执行的任何操作。
+对于具有USEEXISTING `action`的记录，还将设置`targetId`字段，`installationStatus`字段将设置为REGISTERED。 这表示映射过程已完成，并且安装服务确认已评估记录，并且没有要执行的任何操作。
 
-如果记录具有CREATE `action` 但未能成功创建记录，然后 `installationStatus` 将设置为“失败”，并且还会提供失败的原因。
+如果记录具有CREATE `action`，但无法成功创建记录，则`installationStatus`将设置为FAILED，并且还会提供失败的原因。
 
 #### URL
 
@@ -919,7 +919,7 @@ _空_
 这是一个三步过程。
 
 1. 创建翻译映射（这类似于“准备安装”阶段）
-1. 编辑生成的翻译映射，设置 `action` 和 `targetId` 要覆盖的任何对象的字段。 操作应为 `OVERWRITING`，和 `targetId` 应为应覆盖的对象的uuid
+1. 编辑生成的翻译映射，为要覆盖的任何对象设置`action`和`targetId`字段。 操作应为`OVERWRITING`，`targetId`应为应覆盖的对象的uuid
 1. 执行安装。
 
 * [步骤1 — 创建翻译图](#step-1---create-a-translation-map)
@@ -940,7 +940,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 响应
 
-翻译图，带 `202 - OK` 状态
+具有`202 - OK`状态的翻译映射
 
 ```json
 {
@@ -1017,13 +1017,13 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 此步骤没有端点。
 
-1. 在返回的翻译映射中 [步骤1 — 创建翻译图](#step-1---create-a-translation-map)，检查将安装的对象列表。
+1. 在[第1步 — 创建翻译映射](#step-1---create-a-translation-map)中返回的翻译映射中，检查将安装的对象列表。
 1. 将每个对象上的操作字段更新为所需的安装操作。
-1. 验证 `targetId` 在每个对象上。 如果设置的操作为 `USEEXISTING` 或 `OVERWRITING`， `targetId` 应设置为目标环境中目标对象的UUID。 对于任何其他操作，targetId都应为空字符串。
+1. 验证每个对象上的`targetId`。 如果设置操作是`USEEXISTING`或`OVERWRITING`，则应将`targetId`设置为目标环境中目标对象的UUID。 对于任何其他操作，targetId都应为空字符串。
 
    >[!NOTE]
    >
-   >此 `targetId` 如果检测到冲突，则已填充。
+   >如果检测到冲突，则已填充`targetId`。
 
 ### **步骤3 — 安装**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 正文
 
-这是一个具有单个字段的对象 `translationMap`，它应等于来自的修改后的翻译映射 [步骤2 — 修改翻译图](#step-2---modify-the-translation-map).
+这是一个具有单个字段`translationMap`的对象，该字段应等于[步骤2 — 修改翻译映射](#step-2---modify-the-translation-map)中的修改翻译映射。
 
 ```json
 {
@@ -1114,7 +1114,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 响应
 
-响应包括 `{uuid of the created installation}` 和 `202 - ACCEPTED` 状态。
+响应包括`{uuid of the created installation}`和`202 - ACCEPTED`状态。
 
 示例： `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

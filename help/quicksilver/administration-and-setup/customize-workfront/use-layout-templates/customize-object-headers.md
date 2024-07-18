@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ![](assets/object-header-fields.png)
 
-有关创建布局模板的信息，请参阅 [创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md).
+有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
-有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关为用户分配布局模板的信息，请参阅 [将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md).
+配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 访问要求
 
@@ -58,21 +58,21 @@ ht-degree: 0%
   </tr>
 </table>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 [创建或修改自定义访问级别](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅[创建或修改自定义访问级别](../../add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 自定义对象标题
 
-1. 开始使用布局模板，如中所述 [创建和管理布局模板](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 在 **自定义用户查看内容** 下拉菜单，选择 **项目**， **任务**，或 **问题**.
+1. 开始处理布局模板，如[创建和管理布局模板](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
+1. 在&#x200B;**自定义用户看到的内容**&#x200B;下拉菜单中，选择&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**。
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 在 [!UICONTROL 标题字段] 部分，将鼠标悬停在显示的字段上并执行以下操作之一：
-   * 单击 **x** 图标以移除字段
+1. 在[!UICONTROL 标题字段]部分中，将鼠标悬停在显示的字段上并执行以下操作之一：
+   * 单击&#x200B;**x**&#x200B;图标可删除字段
 
      或
 
-   * 单击并按住 **抓取** 图标，以将字段拖放到新位置。
+   * 单击并按住&#x200B;**抓取**&#x200B;图标以将字段拖放到新位置。
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 一个对象的标题中最多可以有五个字段。
 如果已选择五个字段，则必须先移除一个字段，然后才能添加新字段。
-1. 在 **添加字段** 框中，开始输入要添加的不可编辑的Workfront字段的名称，然后当该字段显示在列表中时将其选定。 该字段即被添加到“添加字段”框的右侧，并将作为第一个字段显示在对象标题的左上角。
+1. 在&#x200B;**添加字段**&#x200B;框中，开始键入要添加的不可编辑的Workfront字段的名称，然后当该字段显示在列表中时将其选定。 该字段即被添加到“添加字段”框的右侧，并将作为第一个字段显示在对象标题的左上角。
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
    或
 
-   如果您已完成自定义，请单击 **保存**.
+   如果您已完成自定义，请单击&#x200B;**保存**。
 
    >[!TIP]
    >

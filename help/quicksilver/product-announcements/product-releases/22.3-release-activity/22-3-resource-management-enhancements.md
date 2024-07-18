@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3资源管理增强功能
 
-本页介绍了22.3版本对“预览”环境所做的所有资源管理增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本页介绍了22.3版本对“预览”环境所做的所有资源管理增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 在工作负载均衡器中排序首选项和可用性增强
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 * 适用于预计日期的更新的、更易于阅读的设计。
 
 
-有关更多信息，请参阅 [导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关详细信息，请参阅[导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 

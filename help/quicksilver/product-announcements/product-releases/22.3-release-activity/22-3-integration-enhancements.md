@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3集成增强功能
 
-本页介绍了22.3版本对“预览”环境的所有集成增强。 这些增强功能将于2022年1月（即2022年7月11日的一周）在“生产”环境中提供。 有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本页介绍了22.3版本对“预览”环境的所有集成增强。 这些增强功能将于2022年1月（即2022年7月11日的一周）在“生产”环境中提供。 有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 适用于Experience Manager Assets的Adobe Workfront集成
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 Workfront管理员可以根据其组织的需求，分别启用和禁用SharePoint和旧版SharePoint集成。
 
-有关详细信息，请参阅 [配置旧版SharePoint集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+有关详细信息，请参阅[配置旧版SharePoint集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)。
 
 ## 在Creative Cloud插件的单个验证中合并多个文件
 

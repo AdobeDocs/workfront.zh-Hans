@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了20.4版本对“预览”环境所做的所有移动设备增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
-有关20.4版本可用的所有更改列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+有关20.4版本的所有可用更改列表，请参阅[20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 在Microsoft Teams通知中添加了功能
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 * 我们使您能够在通知中查看工作项的自定义表单，并展开自定义表单以查看其字段。
 * 当您收到有关项目、任务或问题的通知时，您现在可以直接在通知中更改工作项的状态。
 
-有关更多信息，请参阅 [在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+有关详细信息，请参阅[在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 
 ## 适用于MobileIron的Workfront简介
 
 Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更加安全和可控的移动体验。
 
-使用Workfront for MobileIron，管理员可以限制复制/粘贴功能和屏幕捕获等内容。 您可以在以下位置下载适用于MobileIron的Workfront应用程序： [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+使用Workfront for MobileIron，管理员可以限制复制/粘贴功能和屏幕捕获等内容。 您可以在[https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)上下载适用于MobileIron应用程序的Workfront。
 
-有关配置应用程序的信息，请参阅 [为MobileIron配置Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+有关配置应用程序的信息，请参阅[配置Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)。
 
 ## 在Workfront移动设备应用程序中快速创建任务
 
@@ -50,7 +50,7 @@ Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更�
 
 有关更多信息，请参阅
 
-* [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 适用于iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## 获取有关Workfront mobile虚拟助理命令的帮助
@@ -62,4 +62,4 @@ Workfront与移动设备管理(MDM)平台MobileIron合作，为组织提供更�
 
 这些命令显示您可以向助理询问的不同内容的列表。
 
-**注意：移动设备虚拟助手自2024年4月起已被弃用。**
+**注意：自2024年4月起，已弃用Mobile虚拟助手。**

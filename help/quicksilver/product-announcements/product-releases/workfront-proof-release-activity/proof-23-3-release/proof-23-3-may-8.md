@@ -31,4 +31,4 @@ ht-degree: 0%
 * 现在，选中时可正确显示连接到注释的标记。
 * 验证角色和电子邮件警报的下拉列表现在按预期工作。
 
-有关下载更新的信息，请参阅 [更新桌面校对查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+有关下载更新的信息，请参阅[更新桌面校对查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。

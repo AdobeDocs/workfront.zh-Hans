@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] 组织和团队
+# [!DNL Adobe Workfront Fusion]组织和团队
 
-[!DNL Adobe Workfront Fusion]的“组织”和“团队”功能使企业能够控制对Fusion中场景和其他功能的访问。
+通过[!DNL Adobe Workfront Fusion]的“组织”和“团队”功能，企业可以控制对Fusion中场景和其他功能的访问。
 
 ## 访问要求
 
@@ -34,37 +34,37 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 对于工作自动化和集成]，[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
    <td> 
-     <p>您必须是 [!DNL Workfront Fusion] 组织管理员。</p>
-     <p>您必须是 [!DNL Workfront Fusion] 您的团队的管理员。</p>
+     <p>您必须是组织的[!DNL Workfront Fusion]管理员。</p>
+     <p>您必须是团队的[!DNL Workfront Fusion]管理员。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-<p>**有关以下内容的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 许可证</a></p>
+<p>**有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅<a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]许可证</a></p>
 
 
 ## 组织
 
-[!DNL Workfront Fusion] 用户属于一个组织。
+[!DNL Workfront Fusion]用户属于某个组织。
 
 * [组织角色](#organization-roles)
 * [邀请用户加入组织](#inviting-users-to-an-organization)
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 * **[!UICONTROL 所有者]**：所有者拥有组织中可用的所有权限。
 * **[!UICONTROL 管理员]**：管理员角色使用户能够为组织创建和管理团队和用户。
-* **[!UICONTROL 会员]**：成员可以使用 [!DNL Workfront Fusion] 但无法进行组织更改。
-* **[!UICONTROL 会计师]**：会计师角色仅允许用户在组织功能板上查看许可证信息。
+* **[!UICONTROL 成员]**：成员可以使用[!DNL Workfront Fusion]，但无法进行组织更改。
+* **[!UICONTROL 会计]**：会计师角色仅允许用户在组织信息板上查看许可证信息。
 * **[!UICONTROL 应用程序开发人员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
 
-有关每个组织角色中用户可以执行的特定操作的信息，请参阅 [组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+有关每个组织角色中用户可以执行的特定操作的信息，请参阅[组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)。
 
 ### 邀请用户加入组织
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 邀请用户加入组织：
 
-1. 单击 **[!UICONTROL 更改详细信息]** 屏幕右上角的。
-1. 选择 **[!UICONTROL 邀请新用户]**.
+1. 单击屏幕右上角的&#x200B;**[!UICONTROL 更改详细信息]**。
+1. 选择&#x200B;**[!UICONTROL 邀请新用户]**。
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
 1. 填写用户的电子邮件地址和名称。
-1. 为用户选择角色。 有关角色的详细信息，请参阅 [组织角色](#organization-roles) 在本文档中。
+1. 为用户选择角色。 有关角色的更多信息，请参阅本文档中的[组织角色](#organization-roles)。
 1. （可选）添加注释。 此注释会显示在用户收到的邀请电子邮件中。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-[!DNL Fusion] 向特定组织发送一封包含邀请的电子邮件，并且 [!UICONTROL 接受角色] 按钮。
+[!DNL Fusion]发送一封电子邮件，其中包含特定组织的邀请以及[!UICONTROL 接受角色]按钮。
 
 收件人单击按钮后，会被重定向到邀请页面，以便接受邀请。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果用户是新用户 [!DNL Fusion]， [!DNL Fusion] 自动为他们创建一个帐户，并发送一封包含临时密码的电子邮件，指导新用户登录并更改其密码。
+>如果用户是[!DNL Fusion]的新用户，[!DNL Fusion]会自动为其创建帐户，并发送一封包含临时密码的电子邮件，指导新用户登录并更改其密码。
 
 ### 在组织之间切换
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于团队控制对资源的访问，因此有时团队仅有一个成员会很有用。 例如，培训用户可创建与其个人的连接 [!DNL Google] 帐户。 任何团队成员也能够连接到个人 [!DNL Google] 帐户，因此在这种情况下，用户最好是培训团队的唯一成员。
+>由于团队控制对资源的访问，因此有时团队仅有一个成员会很有用。 例如，培训用户可能会创建与其个人[!DNL Google]帐户的连接。 任何团队成员也可以连接到个人[!DNL Google]帐户，因此在这种情况下，最好该用户是培训团队的唯一成员。
 
 组织可以拥有所需数量的团队，并且用户可能属于一个或多个团队。
 
@@ -143,11 +143,11 @@ ht-degree: 0%
 
 * **[!UICONTROL 团队管理员]**：除了其他团队角色的功能外，管理员角色还允许用户添加、删除或更改团队成员的角色。
 * **[!UICONTROL 团队成员]**：团队成员角色允许用户创建和执行方案。
-* **[!UICONTROL 团队监控]**：和 [!UICONTROL 监测] 角色允许用户访问方案的执行信息，但他们无法设计方案或更改其“活动”状态。
-* **[!UICONTROL 团队操作员]**：和 [!UICONTROL 运算符] 角色允许用户查看执行数据并更改方案的“活动”状态。
-* **[!UICONTROL 团队受限成员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
+* **[!UICONTROL 团队监控]**： [!UICONTROL 监控]角色允许用户访问方案的执行信息，但他们无法设计方案或更改其“活动”状态。
+* **[!UICONTROL 团队操作员]**： [!UICONTROL 操作员]角色允许用户查看执行数据并更改方案的“活动”状态。
+* **[!UICONTROL 团队限制成员]**：此角色的功能当前不可用，并且将在不久的将来可用。 我们建议目前不要将用户分配给此角色。
 
-有关每个团队角色中用户可以执行的特定操作的信息，请参阅 [组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+有关每个团队角色中用户可以执行的特定操作的信息，请参阅[组织和团队角色](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)。
 
 ### 团队管理
 
@@ -160,10 +160,10 @@ ht-degree: 0%
 
 要创建团队，请执行以下操作：
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 组织]**
-1. 选择 **[!UICONTROL 团队]** 选项卡。
-1. 单击 **[!UICONTROL 添加新团队]** 在团队列表中。
-1. 输入新团队的名称，然后单击 **添加**.
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 组织]**
+1. 选择&#x200B;**[!UICONTROL 团队]**&#x200B;选项卡。
+1. 单击团队列表下的&#x200B;**[!UICONTROL 添加新团队]**。
+1. 输入新团队的名称，然后单击&#x200B;**添加**。
 
 #### 设置团队通知选项
 
@@ -173,12 +173,12 @@ ht-degree: 0%
 >
 >要使用Unified Shell Experience(包括“Adobe通知”区域)，请单击页面顶部附近的在Unified Experience中尝试使用新Fusion UI按钮。 仅当您的组织已移至Unified Shell时，此按钮才可用。
 >
->有关更多信息，请参阅 [访问您的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 在 [!DNL Adobe Unified Experience] 对象 [!DNL Workfront Fusion].
+>有关详细信息，请参阅[在[!DNL Adobe Unified Experience]中访问[!DNL Workfront Fusion]的通知](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications)。
 
 在团队级别设置电子邮件通知选项。
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 团队]**
-1. 选择 **[!UICONTROL 通知选项]** 选项卡。
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 团队]**
+1. 选择&#x200B;**[!UICONTROL 通知选项]**&#x200B;选项卡。
 1. 启用您希望团队接收的通知。
 
    <table style="table-layout:auto"> 
@@ -195,7 +195,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[！UICONTROL方案停用]</p> </td> 
-      <td><p>在场景停用时收到电子邮件。</p><p><b>注意：</b> 仅当场景由于错误而被自动停用时，才会通知您场景停用。 您不会收到有关手动停用的方案的通知。</p><p>在某些情况下，场景可能会被停用 [!DNL Workfront Fusion] 工程团队，因为场景会导致性能或其他问题。 在这些情况下，您不会在中收到通知 [!DNL Workfront Fusion]. </p></td>
+      <td><p>在场景停用时收到电子邮件。</p><p><b>注意：</b>仅当方案因错误而自动停用时，才会通知您方案停用。 您不会收到有关手动停用的方案的通知。</p><p>在某些情况下，场景可能被[!DNL Workfront Fusion]工程团队停用，因为该场景导致性能或其他问题。 在这些情况下，您不会在[!DNL Workfront Fusion]中收到通知。 </p></td>
 
 </tr>
 </tbody>

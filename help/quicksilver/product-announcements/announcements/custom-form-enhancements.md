@@ -38,7 +38,7 @@ ht-degree: 0%
 * 对象的编辑框(如果它没有新的Adobe Workfront Experience外观)（例如，编辑费用框）
 * Workfront&#x200B;移动设备应用程序
 
-有关向自定义表单添加构件的更多信息，请参阅 [在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关将构件添加到自定义表单的更多信息，请参阅[在自定义表单中添加或编辑图像或其他资源构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 将自定义表单与多个对象类型关联
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >转换后，自定义表单必须已经与要转换到的对象类型关联。
 
-有关将资产小部件添加到自定义表单的说明，请参阅 [在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关将资源小组件添加到自定义表单的说明，请参阅[在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 创建或编辑多对象自定义表单时，请考虑以下事项：
 
@@ -90,19 +90,19 @@ ht-degree: 0%
 
 当您关联使用权限选项不同于自定义表单上现有其他对象类型的对象类型时，将会显示一条消息，允许您切换到用于表单的通用权限选项集。 此更改将应用于所有字段，即使它们不在分区界限下。
 
-有关更多信息，请参阅 [向自定义表单添加分区界限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+有关详细信息，请参阅[向自定义表单添加分区界限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 
 ### 计算的自定义字段兼容性
 
-在多对象自定义表单中，如果计算字段引用的字段可用于表单的所有关联对象类型(例如 {name}， {description}、和 {entryDate}，可用于多种对象类型)，无论您将数据附加到哪个对象，该数据的计算均正确。
+在多对象自定义表单中，如果计算字段引用了可用于表单的所有关联对象类型（例如{name}、{description}和{entryDate}，它们可用于多个对象类型）的字段，则无论您将数据附加到哪个对象，数据都会正确计算。
 
-例如，如果您有一个用于项目和问题的多对象表单，并且您添加了一个计算字段，其中包含 {name} 表达式，字段显示将表单添加到项目时的项目名称，以及将表单添加到任务的任务名称。
+例如，如果您有一个用于项目和问题的多对象表单，并且您添加了一个包含{name}表达式的计算字段，那么当您将表单添加到项目时，该字段将显示项目名称，而您将此表单添加到任务的任务名称。
 
 但是，如果表单中的计算字段引用的字段与表单的所有对象类型不兼容，则会出现一条消息，提醒您进行调整。
 
 >[!INFO]
 >
->**示例：** 在与Task对象类型关联的自定义表单中，您可以创建一个引用内置字段“分配给：姓名”的计算自定义字段，以便在将表单附加到任务时，显示负责的主要分配人的姓名：
+>**示例：**&#x200B;在与Task对象类型关联的自定义表单中，您创建一个计算自定义字段，该字段引用内置字段“分配给：姓名”，这样当表单附加到任务时，它就可以显示负责的主要分配人的姓名：
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ ht-degree: 0%
 发生这种情况时，您可以执行以下操作之一：
 
 * 从自定义表单中删除两个不兼容项目之一 — 对象类型或引用的字段。
-* 保留这两个项目并使用通配符筛选器变量 `$$OBJCODE` 作为IF表达式中的条件，以创建两个不同版本的In Charge字段。 这允许字段成功运行，无论表单附加到哪种类型的对象。
+* 保留这两个项目，并将通配符筛选器变量`$$OBJCODE`用作IF表达式中的条件，以创建两个不同版本的In Charge字段。 这允许字段成功运行，无论表单附加到哪种类型的对象。
 
-  使用上面的示例，尽管项目没有内置的“分配给：姓名”字段，但有一个内置的“所有者”字段（该字段自动填充项目创建者的姓名，除非有人手动更改此名称）。 因此，在自定义的“负责人”字段中，您可以使用 `$$OBJCODE` 如下所示，在自定义表单附加到项目时引用“所有者”字段，在表单附加到任务时引用“分配给：名称”字段：
+  使用上面的示例，尽管项目没有内置的“分配给：姓名”字段，但有一个内置的“所有者”字段（该字段自动填充项目创建者的姓名，除非有人手动更改此名称）。 因此，在您的自定义负责字段中，当自定义表单附加到项目时，您可以使用如下所示的`$$OBJCODE`来引用“所有者”字段，当表单附加到任务时，使用“分配给：姓名”字段：
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->  如果在字段名称前添加对象类型，则它会引用对象的父对象，因此您无法使用 `{project}.{name}` 用于项目，但您可以将其用于任务。
+>  如果在字段名称前添加对象类型，它将引用对象的父对象，因此您无法将`{project}.{name}`用于项目，但可以将其用于任务。
 
-有关将计算自定义字段添加到自定义表单的说明，请参阅 [将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关将计算自定义字段添加到自定义表单的说明，请参阅[将计算数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-有关变量的更多信息，例如 `$$OBJCODE`，请参见 [通配符筛选器变量概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+有关`$$OBJCODE`等变量的详细信息，请参阅[通配符筛选器变量概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ### 从自定义表单中删除对象类型时请小心
 
@@ -135,4 +135,4 @@ ht-degree: 0%
 
 此外，没有通知系统来提醒使用自定义表单的人该表单已被删除。
 
-有关更多信息，请参阅 [从系统中删除自定义字段或构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+有关详细信息，请参阅[从系统中删除自定义字段或构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)。

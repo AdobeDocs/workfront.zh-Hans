@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
-有关提交时间表的信息，请参阅 [提交工时表以供审批](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+有关提交时间表的信息，请参阅[提交时间表以供审批](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)。
 
 ## 访问要求
 
@@ -50,23 +50,23 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 创建时间表配置文件时，会定义时间表批准者。 您必须拥有计划许可证才能被指定为批准者。
 
-有关指定时间表批准者的更多信息，请参阅部分 [创建或编辑周期性工时表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) 在文章中 [创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+有关指定时间表批准者的详细信息，请参阅文章[创建、编辑和分配时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)中的[创建或编辑时间表配置文件](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)部分。
 
 ## 批准工时表
 
-您可以批准已提交且被指定为批准者的任何时间表。 在提交时间表以供审批时，该时间表将列在 **审批** 区域 **主页**  页面。 有关更多信息，请参阅 [审批工作](../../review-and-approve-work/manage-approvals/approving-work.md).
+您可以批准已提交且被指定为批准者的任何时间表。 在提交时间表以供审批时，该时间表将列在您&#x200B;**主页**&#x200B;的&#x200B;**审批**&#x200B;区域中  页面。 有关详细信息，请参阅[批准工作](../../review-and-approve-work/manage-approvals/approving-work.md)。
 
-如果Workfront管理员启用了“批准用户时间表”和“拒绝用户时间表事件处理程序”，则在批准或拒绝时间表后会通知您。 有关启用事件通知的信息，请参阅 [事件通知类型](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+如果Workfront管理员启用了“批准用户时间表”和“拒绝用户时间表事件处理程序”，则在批准或拒绝时间表后会通知您。 有关启用事件通知的信息，请参阅[事件通知类型](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
 要批准工时表，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
-1. 单击 **时间表**.
-1. 选择 **我的工时表批准** ，以仅查看您批准的时间表
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+1. 单击&#x200B;**时间表**。
+1. 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表
 
    或
 
-   选择 **我的工时表批准** 在时间表列表顶部筛选。
+   选择时间表列表顶部的&#x200B;**我的时间表审批**&#x200B;过滤器。
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -80,20 +80,20 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
    >   
    >
 
-1. （可选）单击 **搜索** 图标 ![](assets/search-icon.png) 在时间表列表的顶部，键入关键字以查找特定时间表。 您可以搜索时间范围，或所有者或审批者的姓名。
+1. （可选）单击时间表列表顶部的&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)，然后键入关键字以查找特定时间表。 您可以搜索时间范围，或所有者或审批者的姓名。
 1. 单击要批准的工时表的时间范围。 此时将打开时间表。
 
    >[!TIP]
    >
-   >等待批准的工时表的状态为 [!UICONTROL 已提交].
+   >等待批准的工时表的状态为[!UICONTROL 已提交]。
 
 
-1. 单击 **批准**
+1. 单击&#x200B;**批准**
 
    或
 
-   如果要拒绝时间表，请单击 **拒绝** 在时间表的左下角。
+   如果要拒绝时间表，请单击时间表左下角的&#x200B;**拒绝**。
 
-   如果批准，时间表状态将更改为 **已关闭**.
+   如果批准，时间表状态将更改为&#x200B;**已关闭**。
 
-   如果拒绝，时间表状态将更改为 **被拒绝**.
+   如果被拒绝，时间表状态将更改为&#x200B;**已拒绝**。

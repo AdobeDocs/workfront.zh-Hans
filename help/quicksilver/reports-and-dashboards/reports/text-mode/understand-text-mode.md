@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->您还可以通过使用自定义字段的文本模式版本来扩展计算自定义字段的功能。 用于创建计算自定义字段的语法和规则与您在报表和列表中使用的语法和规则不同。 有关添加计算自定义字段的信息，请参阅 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>您还可以通过使用自定义字段的文本模式版本来扩展计算自定义字段的功能。 用于创建计算自定义字段的语法和规则与您在报表和列表中使用的语法和规则不同。 有关添加计算自定义字段的信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
-* 在报表中开始使用文本模式之前，我们强烈建议您先参加有关高级报表的课程，以便更深入地了解我们的文本模式语言。 <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 在报表中开始使用文本模式之前，我们强烈建议您先参加有关高级报表的课程，以便更深入地了解我们的文本模式语言。<!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * 我们建议您使用标准模式，以确保在Workfront软件更新时您创建的报表保持不变。 虽然文本模式使您能够创建更复杂的视图、筛选器和分组，但维护起来也更加复杂，并且在Workfront软件更新时无法保证这一点。
 * 我们建议您始终尝试在标准界面中构建所有报表元素，并仅在进行少量调整时切换到文本模式生成器。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 要以文本模式成功构建报表和列表，您必须使用一组规则和唯一语法。 在开始之前，请确保您熟悉文本模式的Workfront语法。
 
-  有关使用文本模式的语法和规则的信息，请参阅 [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  有关使用文本模式的语法和规则的信息，请参阅[文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
 * 在文本模式下自定义报表元素后，可能无法切换回标准模式（在视图中），或者您创建的元素的代码可能会被删除（在筛选器和分组中）。 这是因为标准模式并非支持文本模式中支持的所有字段。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 有关标准模式界面的详细信息以及了解如何创建报告或列表，请参阅：
 
-* [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 * [报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## 文本模式界面
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 文本模式允许您使用标准模式界面中不可用的字段，从而创建更复杂的视图、筛选器、分组和提示。 在Workfront文本模式下，是编码语句的集合，用于指示您希望在报表或列表中显示的对象。
 
-有关所有可报告字段的完整列表，请参见 [API资源管理器](../../../wf-api/general/api-explorer.md).
+有关所有可报告字段的完整列表，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
 >[!NOTE]
 >
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 自定义提示只能在文本模式下编辑。 您只能从报表访问提示。
 
-有关访问自定义提示的文本模式界面的信息，请参见 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+有关访问自定义提示的文本模式界面的信息，请参阅[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
 ## 使用文本模式的常见原因 {#common-reasons-to-use-text-mode}
 
 除了创建只能使用文本模式配置的自定义提示之外，我们建议您使用Report Builder构建视图、筛选器和分组。 但是，在某些情况下，您可以使用文本模式来增强报告和列表。
 
-有关文本模式的常见用法的详细信息，请参见 [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+有关文本模式的常见用法的详细信息，请参阅[文本模式的常见用法概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
 
 <!--

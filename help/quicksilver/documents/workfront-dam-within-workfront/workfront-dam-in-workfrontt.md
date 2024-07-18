@@ -23,5 +23,5 @@ Adobe Workfront DAM是Adobe Workfront中的本机数字资源管理(DAM)系统�
 
 * [启用Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [使用Adobe Workfront DAM管理文档](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-* [Adobe Workfront许可角色类型与Adobe Workfront DAM角色类型](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+* [Adobe Workfront授权角色类型与Adobe Workfront DAM角色类型](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [访问Adobe Workfront DAM的帮助](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

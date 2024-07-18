@@ -20,6 +20,6 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [更正工时表的工作周开始日期](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [在利率变化时，防止“重新计算财务”操作影响历史小时数](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [使用Adobe Workfront API跟踪小时记录](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [当利率发生变化时，防止“重新计算财务”操作影响历史小时数](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* 使用Adobe Workfront API [跟踪小时记录](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [无法记录未来日期的时间](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

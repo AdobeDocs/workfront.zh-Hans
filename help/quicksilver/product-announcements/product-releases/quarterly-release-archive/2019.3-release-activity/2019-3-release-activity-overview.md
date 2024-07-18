@@ -22,7 +22,7 @@ ht-degree: 1%
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-要查看2019.3版之后发布的增强功能列表，请参阅 [产品版本](../../../../product-announcements/product-releases/product-releases.md).
+要查看2019.3版本之后发布的增强功能列表，请参阅[产品版本](../../../../product-announcements/product-releases/product-releases.md)。
 
 ## 针对所有用户的增强功能
 
@@ -152,7 +152,7 @@ ht-degree: 1%
 
   为了让您和您的公司更安全Workfront移动应用程序，用户将在处于不活动状态8分钟后自动注销。
 
-* [在移动应用程序中按停止的项目进行筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [在移动应用程序中按停止的项目进行筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [在移动应用程序中按无效项目筛选](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter)[在移动应用程序中按无效项目筛选](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   我们在移动应用程序的“项目”选项卡上添加了“停止的项目”作为过滤器选项。
 
@@ -358,9 +358,9 @@ ht-degree: 1%
 ## 公告
 
 * [新的Workfront Experience Beta版现已在“预览”中提供](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Workfront Library现已可用](#workfront-library-now-available)
-* [不再支持API版本3](#api-version-3-no-longer-supported)
-* [TLS 1.0和1.1支持即将终止](#tls-1-0-and-1-1-support-is-ending)
+* [Workfront库现已可用](#workfront-library-now-available)
+* 不再支持[API版本3](#api-version-3-no-longer-supported)
+* [TLS 1.0和1.1支持即将结束](#tls-1-0-and-1-1-support-is-ending)
 * [Flash应用程序移除](#flash-application-removal)
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
 * [第3季度产品路线图网络研讨会](#q3-product-roadmap-webinar)
@@ -375,7 +375,7 @@ Workfront Library是一个企业数字内容中心，可用于管理组织数字
 
 ### 不再支持API版本3 {#api-version-3-no-longer-supported}
 
-对API版本3的支持于2018年11月终止。 有关Workfront API版本支持计划的更多信息，请参阅 [API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)
+对API版本3的支持于2018年11月终止。 有关Workfront API版本支持计划的详细信息，请参阅[API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并用新解决方案替换了这些功能。
 
-有关旧版Flash工具及其替代产品的详细信息，请参阅 [Adobe Workfront中基于Flash的工具的替换](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ Replacement of Flash-based tools in Workfront
 
 * LDAP
 
-  有关将LDAP与Workfront结合使用的更多信息，请参阅 [使用LDAP配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  有关将LDAP与Workfront结合使用的详细信息，请参阅[使用LDAP配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ Replacement of Flash-based tools in Workfront
 
 * Active Directory
 
-  有关将Active Directory与Workfront结合使用的详细信息，请参阅 [使用Active Directory配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  有关将Active Directory与Workfront一起使用的详细信息，请参阅[使用Active Directory配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ Replacement of Flash-based tools in Workfront
 
 * SAML 1.1
 
-  有关将SAML 1.1与Workfront结合使用的更多信息，请参阅 [使用SAML 1.1配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  有关将SAML 1.1与Workfront一起使用的更多信息，请参阅[使用SAML 1.1配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季度产品路线图网络研讨会 {#q3-product-roadmap-webinar}
 
-了解更多有关期间的内容 [第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) 8月1日上午9点。 山地标准时间
+了解有关将于8月1日上午9:00举行的[第3季度路线图网络研讨会](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)的更多内容。 山地标准时间

@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign v7/v8模块
-description: 使用 [!DNL Adobe Campaign] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 基于您的事件的场景 [!DNL Adobe Campaign] 帐户，创建、读取或更新协议和其它记录，使用您设置的标准搜索记录，以及加载文档。
+description: 使用 [!DNL Adobe Campaign] 模块，您可以基于 [!DNL Adobe Campaign] 帐户中的事件启动 [!DNL Adobe Workfront Fusion] 方案，创建、读取或更新协议和其他记录，使用您设置的条件搜索记录以及上载文档。
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Campaign] 模块
+# [!DNL Adobe Campaign]模块
 
-使用 [!DNL Adobe Campaign] 模块，您可以启动 [!DNL Adobe Workfront Fusion] 基于您的事件的场景 [!DNL Adobe Campaign v7/v8] 帐户，创建、读取或更新记录，使用您设置的标准搜索记录，以及执行自定义API调用。
+通过[!DNL Adobe Campaign]模块，您可以基于[!DNL Adobe Campaign v7/v8]帐户中的事件启动[!DNL Adobe Workfront Fusion]方案，创建、读取或更新记录，使用您设置的条件搜索记录，以及执行自定义API调用。
 
 ## 访问要求
 
@@ -39,42 +39,42 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-必须将Fusion IP地址添加到 [!DNL Adobe Campaign].
+必须将Fusion IP地址添加到[!DNL Adobe Campaign]。
 
-* 有关将IP地址添加到Campaign允许列表的说明，请参阅 [将IP地址添加到允许列表](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) 请参阅Adobe Campaign文档。
-* 有关要添加到允许列表的IP地址的列表，请参见 [用于访问Adobe Workfront Fusion的IP地址](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+* 列入允许列表 列入允许列表有关将IP地址添加到Campaign的说明，请参阅Adobe Campaign文档中的[将IP地址添加到](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
+* 有关要添加到允许列表的IP地址列表，请参阅[用于访问Adobe Workfront Fusion的IP地址](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md)。
 
-## 连接 [!DNL Adobe Campaign] 到 [!DNL Adobe Workfront Fusion]
+## 将[!DNL Adobe Campaign]连接到[!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
->我们强烈建议创建服务器到服务器连接。 Adobe Campaign更新了其API，以仅接受服务器到服务器连接。 如果您要连接到Campaign版本8或更高版本，则 **必须** 创建服务器到服务器连接。
+>我们强烈建议创建服务器到服务器连接。 Adobe Campaign更新了其API，以仅接受服务器到服务器连接。 如果要连接到Campaign版本8或更高版本，则&#x200B;**必须**&#x200B;创建服务器到服务器连接。
 >
->有关Campaign新连接要求的更多信息，请参阅 [将Campaign技术操作员迁移到Adobe Developer控制台](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) 请参阅Campaign文档。
+>有关Campaign新连接要求的详细信息，请参阅Campaign文档中的[将Campaign技术操作员迁移到Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html)。
 
-1. 在任何 [!DNL Adobe Campaign] 模块，单击 **[!UICONTROL 添加]** 旁边的 [!UICONTROL 连接] 字段。
+1. 在任意[!DNL Adobe Campaign]模块中，单击[!UICONTROL 连接]字段旁边的&#x200B;**[!UICONTROL 添加]**。
 1. 填写以下字段：
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -96,7 +96,7 @@ ht-degree: 0%
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL基本URL]</td>
-          <td>输入用于连接到 [!DNL Adobe Campaign] 实例。</td>
+          <td>输入用于连接到[!DNL Adobe Campaign]实例的基本URL。</td>
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL用户名]</td>
@@ -108,11 +108,11 @@ ht-degree: 0%
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL客户端ID]</td>
-          <td>如果要创建服务器到服务器连接，请输入 [!DNL Adobe] [！UICONTROL客户端ID]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].</td>
+          <td>如果要创建服务器到服务器连接，请输入您的[!DNL Adobe] [！UICONTROL客户端ID]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL凭据详细信息]部分找到。</td>
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL客户端密钥]</td>
-          <td>如果要创建服务器到服务器连接，请输入 [!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL凭据详细信息]部分中找到此凭据。 [!DNL Adobe Developer Console].
+          <td>如果要创建服务器到服务器连接，请输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 这可以在[!DNL Adobe Developer Console]的[！UICONTROL凭据详细信息]部分找到。
         </tr>
         <tr>
           <td role="rowheader">[！UICONTROL环境]</td>
@@ -124,13 +124,13 @@ ht-degree: 0%
         </tr>
    </tbody>
     </table>
-1. 单击 **[!UICONTROL 继续]** 以创建连接并返回模块。
+1. 单击&#x200B;**[!UICONTROL 继续]**&#x200B;以创建连接并返回模块。
 
-## [!DNL Adobe Campaign] 模块及其字段
+## [!DNL Adobe Campaign]模块及其字段
 
-配置时 [!DNL Adobe Campaign] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Campaign] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置[!DNL Adobe Campaign]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Adobe Campaign]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ### 触发器
 
-#### [!UICONTROL 观察记录]
+#### [!UICONTROL 观看记录]
 
 此计划触发器模块在记录更改时启动方案。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL筛选器]</td> 
@@ -166,7 +166,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL要包含在输出中的自定义字段]</td> 
-   <td>对于每个要包含在输出中的自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
+   <td>对于要包含在输出中的每个自定义字段，请单击<b>[！UICONTROL添加]</b>并输入自定义字段的名称。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL返回结果的最大数目]</td> 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建记录]
 
-此操作模块在中创建新记录 [!DNL Adobe Campaign].
+此操作模块在[!DNL Adobe Campaign]中创建新记录。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -196,11 +196,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
-   <td>选择类型 [!DNL Adobe Campaign] 要创建的记录。</td> 
+   <td>选择要创建的[!DNL Adobe Campaign]记录的类型。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL字段] </td> 
@@ -208,14 +208,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL自定义字段]</td> 
-   <td> 对于要添加到新记录的每个自定义字段，单击 <b>[！UICONTROL添加项]</b> 并输入或映射字段的名称和值。 </td> 
+   <td> 对于要添加到新记录的每个自定义字段，单击<b>[！UICONTROL添加项]</b>并输入或映射字段的名称和值。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 进行自定义API调用]
 
-此模块对进行自定义API调用 [!DNL Adobe Campaign] API
+此模块对[!DNL Adobe Campaign] API进行自定义API调用
 
 <table style="table-layout:auto"> 
   <col/>
@@ -223,7 +223,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL操作]</td>
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 删除记录]
 
-此操作模块会从中删除单个记录 [!DNL Adobe Campaign].
+此操作模块从[!DNL Adobe Campaign]中删除单个记录。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -259,7 +259,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
@@ -275,9 +275,9 @@ ht-degree: 0%
 
 #### [!UICONTROL 执行操作]
 
-此操作模块对中的对象执行选定的操作 [!DNL Adobe Campaign] API。
+此操作模块对[!DNL Adobe Campaign] API中的对象执行选定的操作。
 
-有关特定操作和字段的信息，请参阅 [[!DNL Adobe Campaign] - API文档](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
+有关特定操作和字段的信息，请参阅[[!DNL Adobe Campaign] - API文档](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -285,17 +285,17 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL操作]</td> 
    <td><p>选择要对对象执行的操作。</p>
    <ul>
-   <li><p><b>[!DNL List]</b></p><p> 有关可用字段，请参阅 <a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a> 本文章中。 </p></li>
-     <li><p><b>[！UICONTROL Get]</b></p><p> 有关可用字段，请参阅 <a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a> 本文章中。 </p></li> 
-   <li><p><b>[！UICONTROL创建]</b></p><p> 有关可用字段，请参阅 <a href="#create-a-record" class="MCXref xref" >[！UICONTROL创建记录]</a> 本文章中。 </p></li>
-   <li><p><b>[！UICONTROL更新]</b></p><p> 有关可用字段，请参阅 <a href="#update-record" class="MCXref xref" >[！UICONTROL更新记录]</a> 本文章中。 </p></li>
-   <li><p><b>[！UICONTROL Delete]</b></p><p> 有关可用字段，请参阅 <a href="#delete-record" class="MCXref xref" >[！UICONTROL删除记录]</a> 本文章中。 </p></li>
+   <li><p><b>[!DNL List]</b></p><p> 有关可用字段，请参阅本文中的<a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a>。 </p></li>
+     <li><p><b>[！UICONTROL Get]</b></p><p> 有关可用字段，请参阅本文中的<a href="#search" class="MCXref xref" >[！UICONTROL搜索]</a>。 </p></li> 
+   <li><p><b>[！UICONTROL创建]</b></p><p> 有关可用字段，请参阅本文中的<a href="#create-a-record" class="MCXref xref" >[！UICONTROL创建记录]</a>。 </p></li>
+   <li><p><b>[！UICONTROL更新]</b></p><p> 有关可用字段，请参阅本文中的<a href="#update-record" class="MCXref xref" >[！UICONTROL更新记录]</a>。 </p></li>
+   <li><p><b>[！UICONTROL Delete]</b></p><p> 有关可用字段，请参阅本文中的<a href="#delete-record" class="MCXref xref" >[！UICONTROL删除记录]</a>。 </p></li>
    </ul>
    </td>
 </tr> 
@@ -304,7 +304,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 读取记录]
 
-此操作模块从读取记录 [!DNL Adobe Campaign].
+此操作模块从[!DNL Adobe Campaign]读取记录。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -312,11 +312,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
-   <td>选择类型 [!DNL Adobe Campaign] 要读取的记录。</td> 
+   <td>选择要读取的[!DNL Adobe Campaign]记录的类型。</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[！UICONTROL ID] </td> 
@@ -328,7 +328,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL要包含在输出中的自定义字段]</td> 
-   <td>对于每个要包含在输出中的自定义字段，请单击 <b>[！UICONTROL添加]</b> 并输入自定义字段的名称。</td> 
+   <td>对于要包含在输出中的每个自定义字段，请单击<b>[！UICONTROL添加]</b>并输入自定义字段的名称。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -344,7 +344,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL订阅或取消订阅]</td> 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 更新记录]
 
-此操作模块更新中的单个记录 [!DNL Adobe Campaign].
+此操作模块更新[!DNL Adobe Campaign]中的单个记录。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -371,11 +371,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
-   <td>选择类型 [!DNL Adobe Campaign] 要创建的记录。</td> 
+   <td>选择要创建的[!DNL Adobe Campaign]记录的类型。</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[！UICONTROL ID] </td> 
@@ -387,7 +387,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL自定义字段]</td> 
-   <td> 对于每个要更新的自定义字段，请单击 <b>[！UICONTROL添加项]</b> 并输入或映射字段的名称和值。 </td> 
+   <td> 对于每个要更新的自定义字段，请单击<b>[！UICONTROL添加项]</b>并输入或映射该字段的名称和值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -404,11 +404,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td>有关创建与的连接 [!DNL Adobe Campaign]，请参见 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与的连接 [!DNL Adobe Campaign]</a> 本文章中。</td> 
+   <td>有关创建与[!DNL Adobe Campaign]的连接的说明，请参阅本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >创建与[!DNL Adobe Campaign]</a>的连接。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL资源]</td> 
-   <td>选择类型 [!DNL Adobe Campaign] 要创建的记录。</td> 
+   <td>选择要创建的[!DNL Adobe Campaign]记录的类型。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 

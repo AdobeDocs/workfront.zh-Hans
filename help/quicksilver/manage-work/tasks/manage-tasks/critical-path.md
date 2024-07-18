@@ -2,121 +2,122 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-tasks
-title: 專案關鍵路徑概觀
-description: 決定專案的關鍵路徑是Adobe Workfront的一種自動方式，可標籤專案中可能影響專案時間表的一系列任務。 可能會影響專案時間表的工作會標示為「關鍵路徑」工作。
+title: 项目关键路径概述
+description: 确定项目的关键路径是Adobe Workfront的一种自动方式，它可标记项目中可能会影响项目时间线的任务序列。 可能会影响项目时间线的任务将标记为关键路径任务。
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
-# 專案關鍵路徑概觀
+# 项目关键路径概述
 
-決定專案的關鍵路徑是Adobe Workfront的一種自動方式，可標籤專案中可能影響專案時間表的一系列任務。 可能會影響專案時間表的工作會標示為「關鍵路徑」工作。
+确定项目的关键路径是Adobe Workfront的一种自动方式，它可标记项目中可能会影响项目时间线的任务序列。 可能会影响项目时间线的任务将标记为关键路径任务。
 
-下列功能可能會影響專案的關鍵路徑：
+以下功能可能会影响项目的关键路径：
 
-* 專案的工作劃分結構。
+* 项目的工作分解结构。
 
-   如需有關工作分解結構的詳細資訊，請參閱 [決定專案中的工作分解結構](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  有关工作分解结构的详细信息，请参阅[确定项目中的工作分解结构](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
 
-* 完成每項工作所需的時間（持續時間）。
-* 工作之間的相依性。
+* 完成每项任务所需的时间（持续时间）。
+* 任务之间的依赖关系。
 
-   請考量下列事項：
+  请考虑以下事项：
 
-   * 當「關鍵路徑」上的任務具有前置任務關係時，如果前置任務或後續任務的日期變更直接影響其相依項，則其前置任務或後續任務也會在「關鍵路徑」上。
+   * 当关键路径上的任务具有前置任务关系时，如果前置任务或后置任务的日期更改直接影响其依赖项，则其前置任务或后置任务也处于关键路径上。
 
-      >[!TIP]
-      >
-      >當任務的後續任務日期未直接影響其相依任務的日期，並且不影響專案日期時，後續任務不在「關鍵路徑」上。
-      >
-      >
-      >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >[!TIP]
+     >
+     >当任务的后续任务的日期不直接影响其依赖任务的日期并且不影响项目的日期时，后续任务不在“关键路径”上。
+     >
+     >
+     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >
 
-   * 當子任務被識別為「關鍵路徑」任務時，如果父任務的「預計開始日期」和時間與子任務的「預計開始日期」和時間相同，則父任務也會被識別為「關鍵路徑」任務。
+   * 当子任务被标识为“关键路径”任务时，如果父任务的预计起始日期和时间与子任务的预计起始日期和时间相同，则父任务也被标识为“关键路径”任务。
 
-考慮到這些特徵，系統會使用最早任務與決定專案結束的任務之間的最長路徑來計算「關鍵路徑」。 「關鍵路徑計算」會考量每個任務可以開始和完成的最早和最晚時間，而不需要延長專案。 此程式會判斷哪些任務為「關鍵」（且屬於最長路徑），以及哪些任務為「總浮點數」（可以延遲，不需讓專案更長）。
+考虑到这些特征，系统将使用最早任务与决定项目结束的任务之间的最长路径来计算关键路径。 关键路径计算会考虑在不延长项目时间的情况下，每个任务可以开始和完成的最早和最晚时间。 此过程可确定哪些任务是“关键”任务（属于最长路径），以及哪些任务具有“总浮动时间”（可以延迟，但不会延长项目时间）。
 
-關鍵路徑上任務活動的任何延遲會直接影響專案的預計完成日期（關鍵路徑上沒有浮點數）。
+关键路径上任务活动的任何延迟都会直接影响项目的预计完成日期（关键路径上没有浮点）。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>工作或以上</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>檢視或更高的任務存取權</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>查看任务或更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視任務或更高許可權 </p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>查看任务的权限或更高的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 檢視關鍵路徑
+## 查看关键路径
 
-您可以在Workfront應用程式的下列區域中檢視屬於關鍵路徑的任務：
+您可以在Workfront应用程序的以下区域中查看属于关键路径的任务：
 
-* [在甘特圖中檢視關鍵路徑](#view-the-critical-path-in-the-gantt-chart)
-* [在任務清單或報告中檢視關鍵路徑](#view-the-critical-path-in-a-task-list-or-report)
+* [在甘特图中查看关键路径](#view-the-critical-path-in-the-gantt-chart)
+* [在任务列表或报告中查看关键路径](#view-the-critical-path-in-a-task-list-or-report)
 
-### 在甘特圖中檢視關鍵路徑 {#view-the-critical-path-in-the-gantt-chart}
+### 在甘特图中查看关键路径 {#view-the-critical-path-in-the-gantt-chart}
 
-若要在甘特圖檢視關鍵路徑上的工作：
+要在甘特图中查看关键路径上的任务，请执行以下操作：
 
-1. 前往您要檢視其關鍵路徑的專案。
-1. 按一下 **任務** 在左側面板中。
-1. 按一下 **甘特圖** 圖示加以檢視。
+1. 转到要查看其关键路径的项目。
+1. 单击左侧面板中的&#x200B;**任务**。
+1. 单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标。
 
-   ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
+   ![甘特图图标__1_.png](assets/gantt-chart-icon--1-.png)
 
-1. 展開 **選項** 功能表，然後啟用 **關鍵路徑** 選項。
+1. 展开&#x200B;**选项**&#x200B;菜单，然后启用&#x200B;**关键路径**&#x200B;选项。
 
-   關鍵路徑上的任務在甘特圖中的時間軸上方有一條紅線。
+   在甘特图中，关键路径上的任务在时间线上方有一条红线。
 
    ![crtical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
-### 在任務清單或報告中檢視關鍵路徑 {#view-the-critical-path-in-a-task-list-or-report}
+### 在任务列表或报告中查看关键路径 {#view-the-critical-path-in-a-task-list-or-report}
 
-若要檢視任務清單中關鍵路徑上的任務：
+要查看哪些任务位于任务列表中的关键路径上：
 
-1. 前往您要檢視其關鍵路徑的專案。
-1. 按一下 **任務** 在左側面板中。
-1. 從 **檢視** 下拉式功能表，選取 **狀態**.
+1. 转到要查看其关键路径的项目。
+1. 单击左侧面板中的&#x200B;**任务**。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**状态**。
 
-   關鍵路徑上的任務具有 **關鍵路徑** 中的標幟 **標幟** 清單的欄。
+   关键路径上的任务在列表的&#x200B;**标志**&#x200B;列中具有&#x200B;**关键路径**&#x200B;标志。
 
-   您可以將相同的檢視套用至任務報告。
+   您可以将同一视图应用于任务报告。
 
-   如需建立報表的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
    或
 
-   從 **篩選** 下拉式功能表，選取 **新增篩選器**.
+   从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
 
-1. 按一下 **新增篩選規則** 並開始輸入 **重要** 在 **只顯示任務，其中……** 欄位。
+1. 单击&#x200B;**添加筛选器规则**，然后在&#x200B;**仅显示包含……**&#x200B;字段的“任务”中开始键入&#x200B;**Is Critical**。
 
-1. 當它出現在清單中時選取它。
-1. 按一下 **儲存篩選器**.
+1. 当它出现在列表中时将其选中。
+1. 单击&#x200B;**保存筛选器**。
 
-   清單應只顯示關鍵路徑上的任務。
+   该列表应仅显示关键路径上的任务。

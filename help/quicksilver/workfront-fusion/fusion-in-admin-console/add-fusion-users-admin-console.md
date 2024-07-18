@@ -4,30 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 通过Adobe Admin Console将用户添加到Adobe Workfront Fusion
-description: 您可以将用户添加到Adobe Admin Console并将其分配给Adobe Workfront Fusion，也可以将Adobe Admin Console中的现有用户分配给Workfront Fusion。
+description: 您可以将用户添加到Adobe Admin Console并将其分配给Adobe Workfront Fusion，或将Adobe Admin Console中的现有用户分配给Workfront Fusion。
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
 
-# 将用户添加到 [!DNL Adobe Workfront Fusion] 通过 [!DNL Adobe Admin Console]
+# 通过[!DNL Adobe Admin Console]将用户添加到[!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于已载入的组织。 [!DNL Adobe Admin Console].
+>此页面上描述的过程仅适用于已载入到[!DNL Adobe Admin Console]的组织。
 >
->如果您的组织尚未载入 [!DNL Adobe Admin Console]，请参见 [在中将用户添加到组织 [!DNL Adobe Workfront Fusion]](../organizations/add-user-to-an-organization.md).
+>如果贵组织尚未登记到[!DNL Adobe Admin Console]，请参阅[在 [!DNL Adobe Workfront Fusion]](../organizations/add-user-to-an-organization.md)中将用户添加到组织。
 >
->对于因贵组织是否已载入到以下版本而不同的过程，请参见 [!DNL Adobe Admin Console]，请参见 [基于平台的管理差异([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../fusion-in-admin-console/fusion-adobe-admin-console.md).
+>有关因贵组织是否已登记到[!DNL Adobe Admin Console]而不同的过程列表，请参阅[基于平台的管理差异([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../fusion-in-admin-console/fusion-adobe-admin-console.md)。
 
-您可以将用户添加到 [!DNL Adobe Admin Console] 并将它们分配给 [!DNL Adobe Workfront Fusion]，或在中分配现有用户 [!DNL Adobe Admin Console] 到 [!DNL Workfront Fusion].
+您可以将用户添加到[!DNL Adobe Admin Console]并将其分配给[!DNL Adobe Workfront Fusion]，或将[!DNL Adobe Admin Console]中的现有用户分配给[!DNL Workfront Fusion]。
 
-观看视频，了解 [!DNL Workfront Fusion] 在 [!DNL Adobe Admin Console]，包括如何添加用户，请参阅 [[!DNL Fusion] 在Adobe IMS上](https://video.tv.adobe.com/v/3412464/){target=_blank}.
+有关描述[!DNL Adobe Admin Console]中的[!DNL Workfront Fusion]的视频（包括如何添加用户），请参阅Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[[!DNL Fusion] 。
 
 ## 访问要求
 
@@ -48,68 +48,68 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr>
    <tr> 
    <td role="rowheader">[!DNL Adobe] 管理员权限</td> 
-   <td>您必须是以下项的[！UICONTROL产品配置管理员] [!DNL Adobe] 产品。</td> 
+   <td>您必须是组织的[!DNL Adobe]产品的[！UICONTROL产品配置管理员]。</td> 
   </tr>
   </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-&#42;&#42;有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 
 
 ## 先决条件
 
-使用之前 [!DNL Admin Console] 对象 [!DNL Workfront]，您应会收到一封邀请您使用控制台的电子邮件。
+在使用[!DNL Workfront]的[!DNL Admin Console]之前，您应该会收到一封邀请您加入控制台的电子邮件。
 
-1. 如果您是初次使用 [!DNL Adobe] 并且您已经收到一封电子邮件，告知您现在拥有管理权限 [!DNL Adobe] 软件和服务，请单击电子邮件中的按钮以创建 [!DNL Adobe] 帐户并打开 [!DNL Admin Console].
+1. 如果您是[!DNL Adobe]的新用户，并且已收到一封电子邮件，告知您现在拥有管理贵组织的[!DNL Adobe]软件和服务的管理权限，请单击电子邮件中的按钮以创建[!DNL Adobe]帐户并打开[!DNL Admin Console]。
 
    或
 
-   如果您已有Adobe帐户，请转到 [[!DNL Adobe Admin Console] 页面](https://adminconsole.adobe.com/).
+   如果您已有Adobe帐户，请转到[[!DNL Adobe Admin Console] 页面](https://adminconsole.adobe.com/)。
 
 
-## 将新用户添加到 [!DNL Adobe Admin Console] 和 [!DNL Workfront Fusion]
+## 向[!DNL Adobe Admin Console]和[!DNL Workfront Fusion]添加新用户
 
-1. 从 [[!DNL Adobe Admin Console] 页面](https://adminconsole.adobe.com/)，选择 **[!UICONTROL 产品]** 选项卡，然后选择 **[!DNL Workfront Fusion]** 产品拼贴。
+1. 从[[!DNL Adobe Admin Console] 页面](https://adminconsole.adobe.com/)中，选择顶部导航栏中的&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡，然后选择&#x200B;**[!DNL Workfront Fusion]**&#x200B;产品拼贴。
 
-   ![Admin Console中的融合](assets/fusion-product-admin-console.png)
+   Admin Console](assets/fusion-product-admin-console.png)中的![Fusion
 
 1. 在显示的列表中，选择要添加用户的组织。
 
-   ![Admin Console中的融合实例](assets/fusion-instances-admin-console.png)
+   Admin Console](assets/fusion-instances-admin-console.png)中的![Fusion实例
 
-1. 在显示的列表中，使用 **[!UICONTROL 产品配置文件]** 选项卡中，单击 [!DNL Workfront Fusion] [!UICONTROL 产品配置文件] 链接。
+1. 在显示的列表中，选择&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡，单击[!DNL Workfront Fusion] [!UICONTROL 产品配置文件]链接的名称。
 
    ![Workfront Fusion产品配置文件](../../administration-and-setup/add-users/create-and-manage-users/assets/prod-profile-1.png)
 
    >[!IMPORTANT]
    >
-   > 请勿对 [!UICONTROL 产品配置文件] 本身。
+   > 不要对[!UICONTROL 产品配置文件]本身进行任何更改。
 
-1. 使用 **[!UICONTROL 用户]** 选项卡上，单击 **[!UICONTROL 添加用户]**.
+1. 在列表上方选择&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，单击&#x200B;**[!UICONTROL 添加用户]**。
 
-1. 在 **[!UICONTROL 将用户添加到此产品配置文件]** 框中，输入要添加的用户的电子邮件地址或名称，然后在显示的列表中选择该用户。
+1. 在&#x200B;**[!UICONTROL 将用户添加到此产品配置文件]**&#x200B;框中，输入要添加的用户的电子邮件地址或名称，然后在显示的列表中选择该用户。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   用户创建于 [!DNL Workfront Fusion].
+   已在[!DNL Workfront Fusion]中创建用户。
 
    <!--
     >[!IMPORTANT]
@@ -117,32 +117,32 @@ ht-degree: 1%
     > Do not make any changes to the Product Profile itself.
     -->
 
-1. （可选）继续访问 [在中更改用户的访问级别 [!DNL Workfront Fusion]](#change-a-users-access-level-in-workfront-fusion)
+1. （可选）继续[在 [!DNL Workfront Fusion]](#change-a-users-access-level-in-workfront-fusion)中更改用户的访问级别
 
 ## 在Workfront Fusion中更改用户的访问级别
 
 ### 将用户的角色更改为管理员
 
-必须在以下位置为用户授予管理员角色： [!DNL Adobe Admin Console].
+必须在[!DNL Adobe Admin Console]中为用户分配管理员角色。
 
-1. 在 [!DNL Workfront Fusion] [!UICONTROL 产品配置文件] 添加用户的页面，选择 **[!UICONTROL 管理员]** 选项卡。
+1. 在您添加用户的[!DNL Workfront Fusion] [!UICONTROL 产品配置文件]页面上，选择&#x200B;**[!UICONTROL 管理员]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 添加管理员]**.
+1. 单击&#x200B;**[!UICONTROL 添加管理员]**。
 
-1. 在 **[!UICONTROL 添加产品配置文件管理员]** 框中，输入要添加的用户的电子邮件地址或名称，然后在显示的列表中选择该用户。
+1. 在&#x200B;**[!UICONTROL 添加产品配置文件管理员]**&#x200B;框中，输入要添加的用户的电子邮件地址或名称，然后在显示的列表中选择该用户。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   此用户现在是中的管理员 [!DNL Workfront Fusion].
+   此用户现在是[!DNL Workfront Fusion]中的管理员。
 
-### 将用户的角色更改为 [!UICONTROL 会员]， [!UICONTROL 会计师]，或 [!UICONTROL 应用程序开发人员].
+### 将用户的角色更改为[!UICONTROL 成员]、[!UICONTROL 会计师]或[!UICONTROL 应用开发人员]。
 
-[!UICONTROL 会员]， [!UICONTROL 会计师]、和 [!UICONTROL 应用程序开发人员] 在内部处理角色 [!DNL Workfront Fusion].
+[!UICONTROL 成员]、[!UICONTROL 会计师]和[!UICONTROL 应用程序开发人员]角色在[!DNL Workfront Fusion]内处理。
 
-有关说明，请参阅 [查看或编辑用户角色](../organizations/manage-fusion-users.md#view-or-edit-user-roles) 在文章中 [管理 [!DNL Adobe Workfront Fusion] 您组织中的用户](../organizations/manage-fusion-users.md)
+有关说明，请参阅文章[管理 [!DNL Adobe Workfront Fusion] 组织中的用户](../organizations/manage-fusion-users.md)中的[查看或编辑用户角色](../organizations/manage-fusion-users.md#view-or-edit-user-roles)
 
-## 在中分配现有用户 [!DNL Adobe Admin Console] 到 [!DNL Workfront Fusion]
+## 将[!DNL Adobe Admin Console]中的现有用户分配给[!DNL Workfront Fusion]
 
-1. 按照文章的“编辑用户详细信息”部分中所述，开始编辑用户 [单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 在 [!DNL Adobe Admin Console] 文档。
+1. 按照[!DNL Adobe Admin Console]文档中[单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)一文的“编辑用户详细信息”部分中的说明开始编辑用户。
 
-1. 添加 **[!DNL Adobe Workfront Fusion]** 分配给用户的产品。
+1. 将&#x200B;**[!DNL Adobe Workfront Fusion]**&#x200B;添加到分配给用户的产品。

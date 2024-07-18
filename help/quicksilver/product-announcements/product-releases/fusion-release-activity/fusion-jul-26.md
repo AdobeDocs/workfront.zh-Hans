@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年7月26日起一周
-description: Workfront Fusion发行活动：&nbsp；2021年7月26日起一周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年7月26日起一周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年7月26日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年7月26日这一周在Adobe Workfront Fusion中所做的所有增强功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Salesforce连接器中的简化模块
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 使用先前可用模块的现有方案的功能不会更改，但是这些模块在新方案中将不可用。
 
-有关更多信息，请参阅 [Salesforce模块](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+有关详细信息，请参阅[Salesforce模块](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)。
 
 ## 在同意Adobe Workfront Fusion连接器时，可以更清楚地查看帐户访问权限的详细信息
 
 现已更新连接到Adobe Workfront Fusion的同意屏幕。 现在，您可以看到连接有权访问的特定操作和区域，以便更好地了解允许应用程序访问的内容。
 
-欲了解更多信息，请参见 [将模块的应用程序或Web服务连接到Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) 中的部分 [在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md).
+有关详细信息，请参阅[在Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md)中的[将模块的应用或Web服务连接到Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect)部分。
 

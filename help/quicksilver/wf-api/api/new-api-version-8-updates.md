@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## 已更新的资源
 
-以下现有资源已使用此版本的Adobe Workfront API进行了更新。 要查看版本8的新资源，请参阅 [API版本8中的新增功能](../../wf-api/api/new-api-version-8.md). 对资源所做的更改按以下方式表示：
+以下现有资源已使用此版本的Adobe Workfront API进行了更新。 要查看版本8的新资源，请参阅[API版本8](../../wf-api/api/new-api-version-8.md)的新增功能。 对资源所做的更改按以下方式表示：
 
 * 添加内容只会列出
 * 删除以删除线文本指示
@@ -26,32 +26,32 @@ ht-degree: 34%
 
 ### Accessrequest
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 操作<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 对可能值的更改
+<sup>1</sup>对可能值的更改
 
 ### 访问规则<sup>1</sup> 
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | coreAction<sup>2</sup>  |   |   |   |   |   |   |
-| 禁止操作<sup>2</sup> |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
 | secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 已移除标记：可报告\
-<sup>2</sup> 对可能值的更改
+已移除<sup>1</sup>标记：可报告\
+<sup>2</sup>对可能值的更改
 
 ### 审批
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -59,11 +59,11 @@ ht-degree: 34%
 {style="table-layout:auto"}
 
 <sup>1</sup>对可能值的更改\
-<sup>2</sup>已添加标记：DYNAMIC、LAZY_READ和NOT_GROUPABLE
+<sup>2</sup>已添加标志：动态、LAZY_READ和NOT_GROUPABLE
 
 ### 任务
 
-|   |   |   |   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+|   |   |   |   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
@@ -73,7 +73,7 @@ ht-degree: 34%
 
 ### 客户
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   | Getpackagingoptionvalue |   |   |
 | proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
@@ -84,9 +84,9 @@ ht-degree: 34%
 
 ### 客户首选项
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| name<sup>1</sup> |   |   |   |   |   |   |
+| 名称<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -94,17 +94,17 @@ ht-degree: 34%
 
 ### 文档审批
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | ID<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>已添加标志：NOT_FILTERABLE
+已添加<sup>1</sup>标志： NOT_FILTERABLE
 
 ### 文档版本
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
@@ -112,7 +112,7 @@ ht-degree: 34%
 
 ### 组
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   | 所有者 |   |   |   |   |
 
@@ -120,25 +120,25 @@ ht-degree: 34%
 
 ### 小时类型
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>已添加标志：NOT_FILTERABLE
+已添加<sup>1</sup>标志： NOT_FILTERABLE
 
 ### 迭代
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | 移动故事 |   |   |
 
 {style="table-layout:auto"}
 
-### 喜欢
+### 类似
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
@@ -146,7 +146,7 @@ ht-degree: 34%
 
 ### 注释
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | auditType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -156,9 +156,9 @@ ht-degree: 34%
 
 ### Op 任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | 迭代 |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | 预估 |   |   |   |   |   |   |
@@ -170,9 +170,9 @@ ht-degree: 34%
 
 ### 项目组合
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -180,9 +180,9 @@ ht-degree: 34%
 
 ### 项目群
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -190,9 +190,9 @@ ht-degree: 34%
 
 ### 项目
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
@@ -200,7 +200,7 @@ ht-degree: 34%
 
 ### ProofApproval
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | approverID | 审批者 |   |   |   |   |   |
 | documentVersionID | 文档版本 |   |   |   |   |   |
@@ -209,11 +209,11 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>已添加标志：NOT_FILTERABLE
+已添加<sup>1</sup>标志： NOT_FILTERABLE
 
 ### QueueDef
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
 | requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
@@ -224,7 +224,7 @@ ht-degree: 34%
 
 ### 费率
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | endDate |   |   |   | setRatesForRole  |   |   |
 | name |   |   |   |   |   |   |
@@ -234,7 +234,7 @@ ht-degree: 34%
 
 ### 保留时间
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | extRefId |   |   |   |   |   |   |
 
@@ -242,7 +242,7 @@ ht-degree: 34%
 
 ### 资源管理器
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 项目优先级 |   |   |   |   |   |   |
 
@@ -250,9 +250,9 @@ ht-degree: 34%
 
 ### 任务
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
@@ -262,7 +262,7 @@ ht-degree: 34%
 
 ### 团队
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 敏捷方法 |   |   |   |   |   |   |
 | autoAddNextStory |   |   |   |   |   |   |
@@ -274,7 +274,7 @@ ht-degree: 34%
 
 ### 模板
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
@@ -282,9 +282,9 @@ ht-degree: 34%
 
 ### TemplateTask
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -292,7 +292,7 @@ ht-degree: 34%
 
 更新
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
@@ -302,7 +302,7 @@ ht-degree: 34%
 
 ### 用户
 
-|   |   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+|   |   | 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |   |   |
 |   |   | 用户组 |   |   |   |   |   |   |
@@ -312,11 +312,11 @@ ht-degree: 34%
 
 ### 用户注释
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| 事件类型<sup>1</sup> |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -324,9 +324,9 @@ ht-degree: 34%
 
 ### 工作
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
-| 审核类型<sup>1</sup> | agileWork  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -334,4 +334,4 @@ ht-degree: 34%
 {style="table-layout:auto"}
 
 <sup>1</sup>对可能值的更改\
-<sup>2</sup>已添加标记：DYNAMIC、LAZY_READ和NOT_GROUPABLE
+<sup>2</sup>已添加标志：动态、LAZY_READ和NOT_GROUPABLE

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 安装  [!DNL Adobe Workfront] 插件 [!DNL Creative Cloud] 应用程序
+# 为[!DNL Creative Cloud]应用程序安装[!DNL Adobe Workfront]插件
 
-本节包含以下文章。 有关安装 [!DNL Adobe Workfront] 插件，请参阅文章以了解要在其中安装插件的应用程序。
+本节包含以下文章。 有关安装[!DNL Adobe Workfront]插件的说明，请参阅要安装该插件的应用程序的文章。
 
 * [安装并打开 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [安装并打开 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)

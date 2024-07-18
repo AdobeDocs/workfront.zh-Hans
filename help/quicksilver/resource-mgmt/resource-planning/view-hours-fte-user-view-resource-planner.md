@@ -2,69 +2,69 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: 使用“用户”视图时，在资源计划器中查看可用、计划和实际工时或FTE
-description: 在RP中使用用户视图计划时，在资源计划器中查看可用、计划和实际小时数或FTE” — 可能是“RP中的预算资源”或“在RP中管理资源”。 等…… — 或可能需要从另一个视点重新调整其用途?!)
+title: 使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE
+description: 在RP中使用用户视图计划时，在资源计划员中查看可用小时数、计划小时数和实际小时数或FTE — 可能是“RP中的预算资源”或“RP中的管理资源”。 等等…… — 或者可能需要从其他POV重新调整用途?!)”
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
 
-# 使用“用户”视图时，在资源计划器中查看可用、计划和实际工时或FTE
+# 使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
 -->
 
-除了在“项目”和“角色”视图中编制资源预算外，您还可以使用“Adobe Workfront资源计划员”的“用户视图”来显示有关项目和资源的“计划”、“可用”和“实际小时数”或FTE值的信息。
+除了在“项目”和“角色”视图中预算资源外，您还可以使用Adobe Workfront资源规划者的“用户视图”来显示有关项目和资源的已计划、可用和实际小时数或FTE值的信息。
 
-## 资源计划员中的用户视图概览
+## 资源规划者中的用户视图概览
 
-在资源计划器中查看工时或FTE信息时，请考虑以下事项：
+在资源计划员中查看小时数或FTE信息时，请考虑以下事项：
 
-* 您可以在“资源计划器”的所有视图中查看用户、职务角色和项目的可用小时数和计划小时数或FTE信息。
+* 您可以在资源规划者的所有视图中查看用户、工作角色和项目的可用和已计划小时数或FTE信息。
 * 您只能在“用户视图”中查看以下信息：
 
-   * 计划小时数或FTE数量与可用小时数或FTE数量之差。 然后，您可以根据“项目”和“角色”视图中的此差异，对用户的分配进行预算。
+   * 计划小时数或FTE数量与可用小时数或FTE数量之间的差额。 然后，您可以根据项目视图和角色视图中的此差异来预算用户分配。
    * 实际小时数或FTE。
 
-* 您可以在“用户”视图中将“可用用户”与“计划小时数”或“FTE”的金额之差显示为数字或百分比值。
-* 您不能在“用户”视图中按成本显示信息。
-* Adobe Workfront根据与其计划中的用户关联的工作时间来填充可用小时数或FTE。\
-   未与计划关联的用户根据默认计划显示可用性。\
-   有关默认计划的信息，请参阅 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* 您可以在“用户”视图中将“可用用户”与“计划小时数”或“FTE”之间的差额显示为数字或百分比值。
+* 您不能在“按成本列出的用户”视图中显示此信息。
+* Adobe Workfront根据用户在其时间表中关联的工作时间填充可用小时数或FTE。\
+  未与计划关联的用户按照默认计划显示可用性。\
+  有关默认计划的信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-* Workfront从“计划小时数”信息中填充计划小时数或FTE，以了解项目中的任务和问题。
-* Workfront会使用分配给任务的用户记录任务和问题的实际时间来填充实际小时数。 这包括在项目上记录的时间。
+* Workfront根据项目任务和问题的计划小时数信息填充计划小时数或FTE。
+* Workfront使用分配给任务和问题的用户记录的实际时间填充实际小时数。 这包括项目的登录时间。
 * 在“用户”视图中，您可以执行以下操作：
 
-   * 展开每个用户，以显示为其分配该用户的项目列表。
+   * 展开每个用户以显示分配该用户的项目列表。
 
-      >[!NOTE]
-      >
-      >只能扩展与过滤器中包含的项目关联的用户。
+     >[!NOTE]
+     >
+     >只能展开与筛选器中包含的项目关联的用户。
 
-   * 展开每个项目，以显示用户可在这些项目上履行的作业角色列表。
-   * 展开每个角色，以显示用户在该角色中被分配的任务列表。
+   * 展开每个项目以显示用户可以在这些项目中完成的工作角色列表。
+   * 展开每个角色以显示该角色中的用户所分配到的任务的列表。
 
-   如果用户没有与他们关联的工作角色，则其“可用”、“计划”和“实际工时”或FTE将列在 **无角色** 中。\
-   有关在将用户视图应用到资源计划器时显示哪些字段和物料的信息，请参阅 [资源计划员导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  如果用户没有与其关联的工作角色，则其可用小时数、计划小时数和实际小时数或FTE将在&#x200B;**无角色**&#x200B;部分中列出。\
+  有关将用户视图应用于资源规划者时显示的字段和项的信息，请参阅[资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“项目/角色/用户视图选择”部分。
 
-## 资源计划员的“用户视图”中显示的字段概述
+## 资源规划者用户视图中可见的字段概述
 
-请参阅下表，了解在“资源计划器”的“用户”视图中显示的信息。 该信息以小时或FTE值显示。
+请参阅下表以了解资源规划者的“用户”视图中显示的信息。 该信息以小时或FTE值显示。
 
-* [AVL（可用）列](#the-avl-available-column)
-* [“PLN（已计划）”列](#the-pln-planned-column)
-* [ACT（实际）列](#The%C2%A0ACT)
+* [AVL （可用）列](#the-avl-available-column)
+* [计划（计划）列](#the-pln-planned-column)
+* [ACT （实际）列](#The%C2%A0ACT)
 * [DIF（差异）列](#the-dif-difference-column)
-* [“%（计划小时数分配百分比）”列](#the-planned-hours-allocation-percentage-column)
+* [百分比（计划小时数分配百分比）列](#the-planned-hours-allocation-percentage-column)
 
-### AVL（可用）列 {#the-avl-available-column}
+### AVL （可用）列 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,15 +76,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td>根据用户的计划，用户的可用小时数或FTE总数。 </td> 
+   <td>用户根据其计划可用的小时数或FTE总数。 </td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>在将“用户”视图应用到资源计划器时，此信息不适用于项目。 </td> 
+   <td>将用户视图应用于资源规划者时，此信息不可用于项目。 </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>根据用户和 <strong>FTE可用性百分比</strong> 这个角色。</p> </td> 
+   <td> <p>根据用户的计划以及角色的<strong>FTE可用性百分比</strong>，角色的可用小时数或FTE总数。</p> </td> 
   </tr> 
   <tr> 
    <td>任务或问题</td> 
@@ -93,9 +93,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关如何根据用户的计划和角色的FTE可用性百分比计算用户和角色可用性的详细信息，请参阅 [资源计划员中用户和角色的小时数和FTE计算概述](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+有关如何根据用户计划和角色的FTE可用性百分比计算用户和角色可用性的详细信息，请参阅[计算资源规划者中用户和角色的小时和FTE概览](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
-### “PLN（已计划）”列 {#the-pln-planned-column}
+### PLN （计划）列 {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,15 +107,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td> 所有项目上分配给用户的所有任务或问题中的计划小时数或FTE总数。<br><p>这包括分配给用户的任务和问题，但这些任务和问题与您有权“管理”的项目上没有的任何作业角色和任务或问题无关。</p><p>当使用工作负载平衡器修改了小时的用户分配时，如果所选日期仅包含部分任务或问题，则资源计划器中的数据可能会受到影响。 有关修改用户分配的信息，请参阅 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作负载平衡器中管理用户分配</a> . </p></td> 
+   <td> 从所有项目上分配给用户的所有任务或问题中的总计划小时数或FTE。<br><p>这包括已分配给用户但与任何工作角色无关联的任务和问题，以及您有权管理的项目上没有的任务或问题。</p><p>当使用工作负载均衡器修改用户小时分配时，如果所选日期仅包含任务或问题的一部分，则资源规划者中的数据可能会受到影响。 有关修改用户分配的信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">在工作负载均衡器中管理用户分配</a> 。 </p></td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td> 分配给项目上特定用户的所有任务和问题的计划小时数或FTE总数。<br><p>注意：这不包括未分配给任何用户的任务或问题中的计划小时数或FTE。 </p></td> 
+   <td> 分配给项目上特定用户的所有任务和问题的总计划小时数或FTE。<br><p>注意：这不包括未分配给任何用户的任务或问题中的计划小时数或FTE。 </p></td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>项目中分配给此角色中用户的所有任务和问题中的计划小时数或FTE总数。</p> <p> <p>注意：这不包括分配给此角色但未分配给此角色中此用户的任务或问题中的计划小时数或FTE。 </p> </p> </td> 
+   <td> <p>分配给项目中此角色的用户的所有任务和问题的总计划小时数或FTE。</p> <p> <p>注意：这不包括已分配给此角色但不分配给此角色中此用户的任务或问题的计划小时数或FTE。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>任务或问题</td> 
@@ -124,36 +124,36 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-查看计划时间时，请考虑以下事项：
+查看计划小时数时，请考虑以下事项：
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a snippet converted to text because there are difference from project/ role views and the user view (users with no pools DO show in user view)</p>
 -->
 
-* 在任务和问题的持续时间内，计划小时数平均分配给分配给它们的每个资源。 任务或发放持续时间基于计划起始日期和完成日期，并包含该时间段内的每个日历日。\
-   Workfront在向用户或项目分发计划时间时，会考虑用户或项目的计划。 在这种情况下，计划小时数在任务持续时间或问题（不包括周末、超时天数和计划例外）内平均分配给每天。
+* 对于分配给任务的每个资源，已计划的小时数平均分配给任务和问题持续时间内的每一天。 任务或问题持续时间基于其计划的开始和完成日期，包括该时间段内的每个日历日。\
+  在向用户或项目分配计划小时数时，Workfront会考虑用户或项目的计划。 在这种情况下，计划小时数平均分配到任务或问题持续时间内的每一天，不包括周末、休息日和计划例外。
 
-   例如，如果按周显示资源计划员，并且您有跨多个周的项目任务，则每周计划小时数取决于该周内有多少天是任务持续时间的一部分。 在按月或季度显示资源计划员以及任务跨越多个月或季度时，此功能的工作方式类似。\
-   此分发中不包括周末日、计划例外和休息日。
+  例如，如果按周显示资源规划者，并且您的任务在项目上跨越多周，则每周的计划小时数取决于该周内的多少天是任务持续时间的一部分。 在按月或季度显示资源规划者时以及任务跨越多个月或季度时，其工作方式类似。\
+  周末日、计划例外和休息日将从此分配中排除。
 
-* 在计算每个资源的计划时数时，包括以下各类任务：
+* 计算每个资源的计划小时数时，包括以下任务类别：
 
-   * 在项目的资源池、作业角色或团队中分配给用户的任务。
+   * 分配给资源池、工作角色或项目团队中用户的任务。
 
-      >[!TIP]
-      >
-      >如果任务被分配给团队，则其分配将显示在 **无角色** 和 **无用户** 中。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有角色或用户与任务关联。
+     >[!TIP]
+     >
+     >如果将任务分配给团队，则其分配将显示在&#x200B;**无角色**&#x200B;和&#x200B;**无用户**&#x200B;分区下。 您可以看到与团队关联的计划小时数，但无法预算小时数，因为没有任何角色或用户与任务关联。
 
-* 资源计划员中的计划小时数不包括与以下项目关联的计划小时数：
+* 资源规划者中的计划小时数不包括与以下项关联的计划小时数：
 
    * 父任务
-   * 未分配的任务
-   * 问题， **包含问题后的小时数** 设置处于禁用状态。
+   * 未分配任务
+   * 问题，当&#x200B;**包括来自问题的小时数**&#x200B;设置禁用时。
 
-* 如果任务或发放持续时间为零，则计划小时数不会显示在资源计划器中。
-* 与已停用用户关联的计划小时数不显示。
+* 如果任务或问题持续时间为零，则计划小时数未显示在资源规划者中。
+* 未显示与已停用用户关联的计划小时数。
 
-有关资源计划员中计划小时数和FTE的详细信息，请参阅 [资源计划员的“项目”和“职责”视图中的工时、FTE和成本信息概览](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+有关资源规划者中计划小时数和FTE的更多信息，请参阅资源规划者的项目和角色视图中的[小时数概述、FTE和成本信息](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)。
 
 ### ACT（实际）列
 
@@ -167,40 +167,40 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>用户 </td> 
-   <td> <p>用户在分配给他们的所有任务或问题上记录的时间。</p> <p>这包括：</p> 
+   <td> <p>用户在分配给他们的所有任务或问题上记录的时间。</p> <p>这包括以下内容：</p> 
     <ul> 
-     <li>已分配给用户但未与任何作业角色关联的任务和问题。</li> 
-     <li>您有权访问“管理”的项目上没有的任务和问题。 </li> 
-    </ul> <p>这包括仅当用户被分配到该项目的任务或问题时，才在项目上登录的时间。  </p> </td> 
+     <li>分配给用户但不与任何工作角色相关联的任务和问题。</li> 
+     <li>不在您有权管理的项目中的任务和问题。 </li> 
+    </ul> <p>这包括仅当将用户分配给项目中的任务或问题时登录项目的时间。  </p> </td> 
   </tr> 
   <tr> 
    <td>项目 </td> 
-   <td> <p>用户在项目中为他们分配的所有任务和问题上记录的时间。</p> <p>这包括他们直接登录项目的任何时间。</p> <p>这不包括以下内容：</p> 
+   <td> <p>用户在项目上分配给他们的所有任务和问题记录的时间。</p> <p>这包括用户直接登录项目的任何时间。</p> <p>这不包括以下内容：</p> 
     <ul> 
-     <li> <p>未分配给任何用户的任务和问题的记录时间。 </p> </li> 
-     <li> <p>在父任务上记录的时间。 </p> </li> 
+     <li> <p>未分配给任何用户的任务和问题的登录时间。 </p> </li> 
+     <li> <p>父任务登录时间。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>记录此角色中分配给用户的所有任务或问题的时间。 </p> <p>这不包括以下内容：</p> 
+   <td> <p>登录分配给此角色中用户的所有任务或问题的时间。 </p> <p>这不包括以下内容：</p> 
     <ul> 
-     <li>已记录分配给此角色但未分配给此用户的任务和问题的时间。</li> 
+     <li>登录分配给此角色但未分配给此角色中此用户的任务和问题的时间。</li> 
      <li>直接在项目或父任务上记录的时间。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>任务或问题 </td> 
-   <td> <p>分配给任务和问题的用户登录的时间。 </p> </td> 
+   <td> <p>由也分配给任务和问题的用户登录这些任务和问题的时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->记录的时间显示在与小时录入日期对应的时间范围内，而不考虑记录小时的任务、问题或项目的时间范围。
+>记录的时间显示在与小时条目的输入日期对应的时间范围内，而不管记录了小时数的任务、问题或项目的时间范围如何。
 
-有关实际小时数的详细信息，请参阅 [查看实际小时数](../../manage-work/tasks/task-information/actual-hours.md).
+有关实际小时数的详细信息，请参阅[查看实际小时数](../../manage-work/tasks/task-information/actual-hours.md)。
 
 ### DIF（差异）列 {#the-dif-difference-column}
 
@@ -214,7 +214,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td> <p>用户的可用小时数与计划小时数或FTE之间的差异。 </p> <p>小时或FTE差额使用以下公式计算：</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>注意：如果值以负红色数字显示，则用户会被过度分配。 </p> </p> </td> 
+   <td> <p>用户的可用小时数和计划小时数或FTE之间的差值。 </p> <p>小时或FTE差异使用以下公式计算：</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>注：如果值显示为负的红色数字，则表示用户分配过量。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>项目</td> 
@@ -222,7 +222,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> <p>职务角色的可用小时数和计划小时数或FTE之间的差值。 </p> <p>小时或FTE差额使用以下公式计算：</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>注意：如果值以负红色数字显示，则角色会被过度分配。 </p> </p> </td> 
+   <td> <p>工作角色的可用小时数与计划小时数或FTE之间的差异。 </p> <p>小时或FTE差异使用以下公式计算：</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>注：如果值显示为负的红色数字，则职责分配过量。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>任务或问题</td> 
@@ -231,7 +231,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-### “%（计划小时数分配百分比）”列 {#the-planned-hours-allocation-percentage-column}
+### 百分比（计划小时数分配百分比）列 {#the-planned-hours-allocation-percentage-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,15 +243,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>用户</td> 
-   <td> <p>计划小时数或FTE的分配，以占可用小时数的百分比表示。 使用以下公式计算计划小时数分配的百分比：</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>FTE值的计算方法相同。 </p> </td> 
+   <td> <p>计划小时数或FTE占可用小时数的百分比。 使用以下公式计算计划小时数分配的百分比：</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>FTE值使用相同的计算。 </p> </td> 
   </tr> 
   <tr> 
    <td>项目</td> 
-   <td>在应用 <strong>按用户查看</strong> 查看资源计划员。</td> 
+   <td>将<strong>按用户查看</strong>视图应用于资源规划者时，此信息不可用于项目。</td> 
   </tr> 
   <tr> 
    <td>角色</td> 
-   <td> 计划小时数或FTE的分配，以占可用小时数的百分比表示。 <p>使用以下公式计算计划小时数分配的百分比：</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>FTE值的计算方法相同。</p></td> 
+   <td> 计划小时数或FTE占可用小时数的百分比。 <p>使用以下公式计算计划小时数分配的百分比：</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>FTE值使用相同的计算。</p></td> 
   </tr> 
   <tr> 
    <td>任务或问题</td> 
@@ -262,7 +262,7 @@ ht-degree: 1%
 
 如果计划小时数或FTE的值为零，则百分比分配为0%。 如果可用小时数或FTE的值为零，则无法计算百分比分配。
 
-有关计划小时数和FTE以及它们在资源计划器中的显示方式的详细信息，请参阅 [使用“项目”和“职责”视图在资源计划员中预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+有关计划小时数和FTE以及它们如何在资源规划程序中显示的详细信息，请参阅使用项目和角色视图的资源规划程序中的[预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

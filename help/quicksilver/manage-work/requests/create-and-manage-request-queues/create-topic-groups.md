@@ -54,7 +54,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 例如，如果您有一个营销请求的请求队列，则可以有一个主题组“母亲节促销活动”、一个二级主题组“数字媒体”和一个额外的二级主题组“印刷媒体”。 然后，可以在每个主题组内有多个队列主题。 例如，“横幅广告”和“博客”可以是“数字媒体”主题组的队列主题。
 
-有关如何创建请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+有关如何创建请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 >[!TIP]
 >
@@ -73,24 +73,24 @@ ht-degree: 0%
 
 ## 创建主题组
 
-我们建议您在创建队列主题之前创建主题组。 但是，可以在队列主题生成器中创建主题组。 有关创建队列主题的详细信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+我们建议您在创建队列主题之前创建主题组。 但是，可以在队列主题生成器中创建主题组。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 创建主题组：
 
 1. 转到您作为帮助请求队列发布的项目。\
-   有关将项目发布为帮助请求队列的详细信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   有关将项目发布为帮助请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 单击 **主题组** 在左侧面板中。 您可能需要单击 **显示更多**，则 **主题组**.
-1. 单击 **新建主题组**.
+1. 单击左侧面板中的&#x200B;**主题组**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**主题组**。
+1. 单击&#x200B;**新建主题组**。
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
 1. 指定以下信息：
 
-   * **名称**：该名称对向此请求队列提交请求的用户可见。
-   * **描述**：当用户在提交新请求的过程中选择主题组时，将显示描述。
+   * **名称**：向此请求队列提交请求的用户可以看到该名称。
+   * **描述**：在提交新请求的过程中，当用户选择主题组时，将显示描述。
    * **添加到主题组**：您可以将新的主题组添加到现有主题组，也可以直接将其添加到作为帮助请求队列发布的项目。
 
 1. 单击&#x200B;**保存**。\
    这将在您的请求队列中创建一个新的主题组。 现在，您可以从请求队列下的第一个下拉菜单中选择其他类别。\
-   有关提交请求的更多信息，请参阅 [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   有关提交请求的更多信息，请参阅[创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。

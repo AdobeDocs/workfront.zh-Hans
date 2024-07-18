@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 关于在更新中标记用户的注意事项
 
-* 在更新中标记的用户必须在他们的配置文件中启用个人通知，以便他们接收电子邮件通知。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 在更新中标记的用户必须在他们的配置文件中启用个人通知，以便他们接收电子邮件通知。 有关详细信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-  有关向Workfront对象添加更新的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  有关向Workfront对象添加更新的信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 * 当问题转化为项目或任务时，更新将会复制到新项目或任务中，但标记的用户不会。 若要继续对话，必须再次标记参与者。
 
@@ -81,28 +81,28 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 为其他人标记更新
 
 您可以通过以下方式为其他人标记更新：
 
-* **自动**：当用户启动跟帖、添加评论或添加回复时，会自动为其添加标记，并添加到评论框的标记人员或团队区域。
-* **手动**：手动将用户添加到评论框的“标记人员”区域时。
+* **自动**：当用户启动会话、添加评论或添加回复时，将自动对其进行标记并将其添加到评论框的“标记人员”或“团队”区域。
+* **手动**：当您将用户手动添加到评论框的“标记人员”区域时。
 
 您还可以在编辑或回复评论时删除被错误地标记的用户。
 
-1. 开始更新工作项，如中所述 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 作为注释所有者，您会被自动标记并添加到注释框的“标记人员或团队”区域。
+1. 开始更新工作项，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。 作为注释所有者，您会被自动标记并添加到注释框的“标记人员或团队”区域。
 
    >[!TIP]
    >
    >评论所有者无法在评论框的“标记人员”或“团队”区域中看到自己的名称。
 
-1. 在 **标记人员或团队** 字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**为人员或团队添加标签**&#x200B;字段中，开始键入要包含的用户或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 
    或
 
-   在中键入@符号 **编写评论** 区域，开始键入要包括在更新中的用户或团队的名称，然后在该名称出现在下拉列表中时单击该名称。
+   在&#x200B;**编写评论**&#x200B;区域键入@符号，开始键入要包含在更新中的用户或团队的名称，然后当名称出现在下拉列表中时单击该名称。
 
    >[!TIP]
    > 
@@ -110,24 +110,24 @@ ht-degree: 0%
    > 
    >用户必须与至少一个工作角色关联，才能在更新中标记这些用户时查看这些角色。
    > 
-   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
    ![标记用户](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （可选）要将更新设为私有，请启用 **我的公司私有** 在更新框的右下角。 这将使更新仅对您公司中的用户可见。 此 **我的公司私有** 仅当在Workfront配置文件中指定了公司时，选项才可用。
+1. （可选）要将更新设为私有，请在更新框的右下角启用&#x200B;**我的公司私有**。 这将使更新仅对您公司中的用户可见。 **私有到我的公司**&#x200B;选项仅在您的Workfront配置文件中指定了公司时才可用。
 
    >[!NOTE]
    >
    >* 仅当用户与公司关联时，才会显示此选项。
    >* 公司外部的已标记用户仍可能会收到应用程序内通知或电子邮件，即使他们不会在“更新”选项卡上看到私人评论。 如果不想与外部用户共享信息，我们建议不要在更新时标记这些用户。
 
-1. （可选）要添加多个用户和团队，请重复步骤2。 <!--insure this stays accurate-->
+1. （可选）要添加多个用户和团队，请重复步骤2。<!--insure this stays accurate-->
 
    >[!NOTE]
    >
-   >“标记人员或团队”字段中列出的所有用户和团队成员都会收到更新的应用程序内通知，并且可能会收到电子邮件，具体取决于其电子邮件通知设置的配置。 在评论或回复中标记自己的用户会收到该评论或回复的通知，并且可以在中看到其名称作为会话剩余时间的成员列出，但除非他们再次标记自己，否则不会收到其他通知。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 和 [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >“标记人员或团队”字段中列出的所有用户和团队成员都会收到更新的应用程序内通知，并且可能会收到电子邮件，具体取决于其电子邮件通知设置的配置。 在评论或回复中标记自己的用户会收到该评论或回复的通知，并且可以在中看到其名称作为会话剩余时间的成员列出，但除非他们再次标记自己，否则不会收到其他通知。 有关详细信息，请参阅[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)和[为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
-1. 单击 **提交**.\
+1. 单击&#x200B;**提交**。\
    更新中包含的用户会被自动授予对象的“查看”权限，并且可以查看和响应对对象所做的更新。
 
    标记实体的名称显示在它们的头像旁边，最多两个实体。 如果标记了两个以上的实体，则除了显示标记了多少个其他实体外，还会显示第一个实体的名称。
@@ -136,9 +136,9 @@ ht-degree: 0%
 
    当在注释文本中被标记时，您的名称将在这些注释中突出显示。
 
-   有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   有关更新工作项时可用的附加功能的信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**. 删除所有已标记的用户，然后单击 **提交**.
+1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。 删除所有已标记的用户，然后单击&#x200B;**提交**。
 
    >[!IMPORTANT]
    >
@@ -193,7 +193,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-有关更新工作项时可用的附加功能的信息，请参阅 [更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关更新工作项时可用的附加功能的信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
 

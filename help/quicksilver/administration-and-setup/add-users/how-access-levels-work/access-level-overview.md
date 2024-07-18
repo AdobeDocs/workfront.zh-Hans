@@ -51,7 +51,7 @@ Workfront具有5个新的内置访问级别：
     </tr>
 </table>
 
-如果您需要自定义访问级别，则可以复制内置访问级别，并调整希望它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+如果您需要自定义访问级别，则可以复制内置访问级别，并调整希望它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Workfront具有5个新的内置访问级别：
 
 用户还可以访问完整的设置区域，可以在其中更改系统级别的任何设置，并且可以访问主菜单中的所有区域。
 
-有关更多信息，请参阅 [授予用户完全管理权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ### 标准访问级别
 
@@ -81,7 +81,7 @@ Workfront具有5个新的内置访问级别：
 
 >[!NOTE]
 >
->您可以创建标准内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以创建标准内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **访问详细信息**
 
@@ -127,7 +127,7 @@ Workfront具有5个新的内置访问级别：
 
 >[!NOTE]
 >
->您可以创建轻量级内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以创建轻量级内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **访问详细信息**
 
@@ -266,11 +266,11 @@ Workfront具有5个新的内置访问级别：
 * 可以批准项目、任务和问题
 * 可以检查他们已提交问题的状态
 * 可以分配给工作项，但无法完成它们
-* 只能从主菜单访问请求。 有关请求队列的详细信息，请参见 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 只能从主菜单访问请求。 有关请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 >[!NOTE]
 >
->您可以创建“参与者”内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>您可以创建“参与者”内置访问级别的自定义版本，并调整它允许各种Workfront对象类型的访问量。 有关创建自定义访问级别的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 #### **访问详细信息**
 
@@ -314,7 +314,7 @@ Workfront具有5个新的内置访问级别：
 
 >[!IMPORTANT]
 >
->仅当在“设置”的“系统首选项”区域中启用了“使用没有Workfront帐户的人员的电子邮件地址与其协作”选项时，“外部用户”才可用。 有关更多信息，请参阅 [配置系统安全首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>仅当在“设置”的“系统首选项”区域中启用了“使用没有Workfront帐户的人员的电子邮件地址与其协作”选项时，“外部用户”才可用。 有关详细信息，请参阅[配置系统安全首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 #### **访问详细信息**
 
@@ -399,18 +399,18 @@ Workfront具有5个新的内置访问级别：
    * 对于没有Workfront许可证的外部用户（不适用于所有对象）
    * 带有电子邮件地址（仅适用于文档和日历）
 
-* **Contribute**：（并非对所有对象都可用）
-* **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限的组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。
+* **Contribute**： （不适用于所有对象）
+* **管理**：当有人共享对象时，收件人对对象的权限由收件人的访问级别和共享者授予的对对象的权限组合决定。 该组合中可用的最低访问级别决定了收件人可以对对象执行的操作。
 
 ### 示例场景
 
-#### **场景1**
+#### **方案1**
 
 如果收件人的访问级别不允许编辑项目，则该用户无法编辑或删除项目，即使共享者授予了管理项目的权限也是如此。
 
 或者，如果收件人的访问级别允许编辑项目，但共享者授予了项目的仅查看权限，则用户无法编辑或删除项目。
 
-#### **场景2**
+#### **方案2**
 
 当奥利维亚与托尼共享一个Workfront项目时，托尼能否参与该项目取决于两件事：
 

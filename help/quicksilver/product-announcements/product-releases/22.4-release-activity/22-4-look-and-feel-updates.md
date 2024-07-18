@@ -17,13 +17,13 @@ ht-degree: 0%
 
 本页介绍在22.4版本发布时间范围内对Adobe Workfront应用程序各个区域的外观所做的细微更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。
 
-有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 许可证页面的外观和感觉更新
 
 我们已将重要的许可证信息移至页面的右上角，并更新了文本和按钮的外观以匹配Workfront的其他区域。
 
-有关更多信息，请参阅 [管理系统中的可用许可证](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+有关详细信息，请参阅[管理系统中的可用许可证](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 
 ## 更新了“自定义Forms”区域中的列表
 

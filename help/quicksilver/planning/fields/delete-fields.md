@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 在Adobe Workfront Planning中，您可以创建自定义字段以存储有关记录的信息。
 
-有关在Workfront Planning中创建自定义字段的信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+有关在Workfront Planning中创建自定义字段的信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 您可以删除不再相关的Workfront Planning字段。
 
@@ -42,7 +42,7 @@ recommendations: noDisplay, noCatalog
 * 存储在字段中的任何信息都将被删除并且无法恢复。
 * 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。
 
-  有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+  有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ recommendations: noDisplay, noCatalog
 
 1. 单击记录类型的卡。
 
-1. （视情况而定）如果尚未选择，请单击 **表格视图** 在记录类型页面上。
+1. （视情况而定）如果尚未选择，请单击记录类型页面上&#x200B;**表视图**&#x200B;的选项卡。
 
    与记录类型关联的所有现有记录都会显示在表格视图的行中。
 
@@ -127,10 +127,10 @@ recommendations: noDisplay, noCatalog
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 单击 **删除**. <!-- check this: they might replace it with **Delete field**-->
+1. 单击&#x200B;**删除**。<!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. 单击 **删除** 以确认。
+1. 单击&#x200B;**删除**&#x200B;以确认。
 
    该字段已删除，无法恢复，并且无法再与任何记录关联。

@@ -3,20 +3,20 @@ filename: configure-if-proofs-autogenerate
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: 配置是否自动生成校样
-description: 您可以配置当用户指定向Workfront添加文档时，系统是否自动生成校样。 默认情况下，此设置处于禁用状态。
+title: 配置是否自动生成验证
+description: 您可以配置在您指定的用户将文档添加到Workfront时，系统是否自动生成验证。 默认情况下禁用此设置。
 author: Courtney
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 
-# 配置是否自动生成校样
+# 配置是否自动生成验证
 
-您可以配置当用户指定向Workfront添加文档时，系统是否自动生成校样。 默认情况下，此设置处于禁用状态。
+您可以配置在您指定的用户将文档添加到Workfront时，系统是否自动生成验证。 默认情况下禁用此设置。
 
 ## 访问要求
 
@@ -28,7 +28,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a> </td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>*</td> 
@@ -36,35 +36,35 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问配置</td> 
-   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 配置是否为单个用户自动生成校样
+## 配置是否为单个用户自动生成验证
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **用户** ![](assets/users-icon-in-main-menu.png).
-1. 选择具有校样访问权限的用户，然后单击 **编辑**.
-1. 在 **首选项** 部分，启用或禁用 **上传文档时自动生成校样** 复选框。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+1. 选择具有验证访问权限的用户，然后单击&#x200B;**编辑**。
+1. 在&#x200B;**首选项**&#x200B;部分中，启用或禁用&#x200B;**上传文档时自动生成验证**&#x200B;复选框。
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
-## 配置是否为多个用户自动生成校样
+## 配置是否为多个用户自动生成验证
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **用户** ![](assets/users-icon-in-main-menu.png).
-1. 选择具有校样访问权限的用户，然后单击 **编辑**.
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+1. 选择具有验证访问权限的用户，然后单击&#x200B;**编辑**。
 
    >[!IMPORTANT]
    >
-   >如果所有用户没有校样访问权限，则不会显示“上传文档时自动生成校样”选项。
+   >如果所有用户都没有验证访问权限，则上传文档时自动生成验证选项不会显示。
 
-1. 在 **首选项** 部分，启用 **上传文档时自动生成校样** 复选框，然后选择 **是** 或 **否**.
+1. 在&#x200B;**首选项**&#x200B;部分中，启用&#x200B;**上传文档时自动生成验证**&#x200B;复选框，然后选择&#x200B;**是**&#x200B;或&#x200B;**否**。
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 

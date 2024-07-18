@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日这一周。
 
-有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 改进了主页工作列表中的筛选器
 
@@ -33,5 +33,5 @@ in January 2022
 
 在此体验之前，当您选择一个或多个筛选器时，主页区域中的筛选器未提供列表中工作项数量的准确计数，并且这些筛选器导致工作项状态混乱。
 
-有关更多信息，请参阅 [在“主页”区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+有关详细信息，请参阅[在主页区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 

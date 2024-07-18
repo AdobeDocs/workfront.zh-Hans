@@ -9,7 +9,7 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
@@ -208,7 +208,7 @@ ReportableBugedHour已作为报表资源添加到Adobe Workfront API。 它具�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>操作</td> 
+   <td>运营</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">计数</li> 
@@ -235,12 +235,12 @@ ReportableBugedHour已作为报表资源添加到Adobe Workfront API。 它具�
    <td> 
     <ul> 
      <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
-     <li><a href="#accessrequest" class="MCXref xref">Accessrequest</a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
      <li><a href="#accessrule" class="MCXref xref">访问规则</a> </li> 
      <li><a href="#approval" class="MCXref xref">审批</a> </li> 
      <li><a href="#approvalpath" class="MCXref xref">批准路径</a> </li> 
      <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignment" class="MCXref xref">任务</a> </li> 
+     <li><a href="#assignment" class="MCXref xref">工作</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">基线任务</a> </li> 
      <li><a href="#category" class="MCXref xref">类别</a> </li> 
      <li><a href="#company" class="MCXref xref">公司</a> </li> 
@@ -256,12 +256,12 @@ ReportableBugedHour已作为报表资源添加到Adobe Workfront API。 它具�
      <li><a href="#layout-template" class="MCXref xref">布局模板</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">里程碑路径</a> </li> 
      <li><a href="#note" class="MCXref xref">注释</a> </li> 
-     <li><a href="#optask" class="MCXref xref">Op 任务</a> </li> 
+     <li><a href="#optask" class="MCXref xref">Op任务</a> </li> 
      <li><a href="#parameter" class="MCXref xref">参数</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">项目组合</a> </li> 
-     <li><a href="#program" class="MCXref xref">项目群</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
+     <li><a href="#program" class="MCXref xref">计划</a> </li> 
      <li><a href="#project" class="MCXref xref">项目</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">校对审批</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">保留时间</a> </li> 
     </ul> </td> 
@@ -274,14 +274,14 @@ ReportableBugedHour已作为报表资源添加到Adobe Workfront API。 它具�
      <li><a href="#task" class="MCXref xref">任务</a> </li> 
      <li><a href="#team" class="MCXref xref">团队</a> </li> 
      <li><a href="#template" class="MCXref xref">模板</a> </li> 
-     <li><a href="#templateassignment" class="MCXref xref">模板分派</a> </li> 
-     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref">模板分配</a> </li> 
+     <li><a href="#templatetask" class="MCXref xref">模板任务</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">时间表</a> </li> 
      <li><a href="#update" class="MCXref xref">更新</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">用户注释</a> </li> 
-     <li><a href="#work" class="MCXref xref">工作 </a> </li> 
+     <li><a href="#work" class="MCXref xref">工作</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -832,7 +832,7 @@ Parameter对象是一个自定义字段。
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>显示类型</p> <p style="font-weight: normal;">添加的可能值TYAH（预输入）。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此字段已添加并引用引用引用对象的对象代码。 所有对象的对象代码均可在 <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此字段已添加并引用引用引用对象的对象代码。 可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有对象的对象代码。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -988,7 +988,7 @@ ReservedTime资源已添加标志REPORTABLE。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>操作</td> 
+   <td>运营</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>编辑</p> <p style="font-weight: normal;">已添加</p> </li> 

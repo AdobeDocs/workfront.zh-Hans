@@ -52,7 +52,7 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
   </tr>
   <tr> 
    <td>访问级别配置</td> 
-   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“Portfolio”和“用户”的“查看”权限才能查看特定项目字段筛选器选项。</p> <p>注意：如果在 <strong>设置其他限制</strong> 访问级别对话框的部分中，应用过滤器后，您可能无法看到过滤器或增强分析页面上的所有信息。</p> </td> 
+   <td> <p>查看对项目的访问权限</p> <p>您还必须具有“任务”、“Portfolio”和“用户”的“查看”权限才能查看特定项目字段筛选器选项。</p> <p>注意：如果在“编辑访问级别”对话框的<strong>设置其他限制</strong>部分中选择了限制，在应用筛选器后，您可能无法看到筛选器或“增强分析”页面上的所有信息。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>对象权限 </p> </td> 
@@ -61,13 +61,13 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-有关使用增强型分析的先决条件，请参阅 [先决条件](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) 在 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的[先决条件](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites)。
 
 ## 更改日期范围筛选器 {#change-the-date-range-filter}
 
@@ -76,7 +76,7 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 >[!TIP]
 >
 >您还可以使用键盘上的键导航、打开并从日历小组件中选择日期范围。\
->欲了解更多信息，请参见 [键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts) 部分内容 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+>有关详细信息，请参阅文章[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的[键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts)部分。
 
 要选择新的日期范围，请执行以下操作：
 
@@ -92,7 +92,7 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 
    屏幕上的所有可视化都会更新以匹配选定的时间范围，并且时间范围过滤器将显示在任何现有过滤器旁边。 如果您注销或离开增强型分析区域，则不会保留此过滤器。
 
-   ![时间范围过滤器](assets/timeframe-filter-350x220.png)
+   ![时间范围筛选器](assets/timeframe-filter-350x220.png)
 
 ## 添加筛选器
 
@@ -101,10 +101,10 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 >[!TIP]
 >
 >您还可以使用键盘上的键导航到并添加新筛选器。\
->欲了解更多信息，请参见 [键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 部分内容 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+>有关详细信息，请参阅文章[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的[键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard)部分。
 
 * [添加项目字段筛选器](#add-a-project-field-filter)
-* [添加项目自定义表单过滤器](#add-a-project-custom-form-filter)
+* [添加项目自定义表单筛选器](#add-a-project-custom-form-filter)
 * [添加团队筛选器](#add-a-team-filter)
 
 ### 添加项目字段筛选器 {#add-a-project-field-filter}
@@ -116,32 +116,32 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 | 字段 | 显示的数据 |
 |---|---|
 | **项目** | 仅显示选定项目的数据 |
-| **项目** | 仅显示选定项目群中的项目数据 |
+| **计划** | 仅显示选定项目群中的项目数据 |
 | **Portfolio** | 仅显示选定项目组合中的项目数据 |
 | **条件** | 仅显示最近具有选定完成情况（符合目标、存在风险或存在问题）的项目的数据 |
 | **状态** | 仅显示最近具有选定状态（完成、当前、暂挂、已取消等）的项目的数据 |
 | **发起人** | 仅显示具有选定赞助者的项目的数据 |
 | **项目所有者** | 仅显示具有选定项目所有者的项目的数据 |
 
-自定义表单过滤器的工作方式不同。 有关更多信息，请参阅 [添加项目自定义表单过滤器](#add-a-project-custom-form-filter).
+自定义表单过滤器的工作方式不同。 有关详细信息，请参阅[添加项目自定义表单筛选器](#add-a-project-custom-form-filter)。
 
 要添加项目字段筛选器，请执行以下操作：
 
 {{step1-to-analytics}}
 
-1. 在左上方，单击 **添加筛选器**，然后选择所需的过滤器类型。
+1. 单击左上角的&#x200B;**添加筛选器**，然后选择所需的筛选器类型。
 
    >[!NOTE]
    >
    >不同的过滤器类型显示不同的数据。 一个过滤器只能使用一个过滤器类型。 选择筛选器类型后，该筛选器类型将不可用于其他项目字段筛选器。
 
-1. 通过在“ ”中输入至少三个字符的文本，找到要查看其数据的值。 **Search** 字段中，然后选择要包含在过滤器中的每个值。
+1. 通过在&#x200B;**搜索**&#x200B;字段中输入至少三个字符的文本，找到要查看其数据的值，然后选择要包含在筛选器中的每个值。
 
-   要选择所有当前值，请单击 **全选**.
+   要选择所有当前值，请单击&#x200B;**全选**。
 
    ![选择筛选器值](assets/select-filter-value-350x251.png)
 
-1. 选择所有所需值后，单击 **应用筛选器**.
+1. 选择所有所需值后，单击&#x200B;**应用筛选器**。
 
    右上方的项目计数将更新，以反映应用的过滤器。
 
@@ -156,10 +156,10 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
    >   * 使用左下方的箭头可在该可视化图表中显示接下来的50个项目。\
    >     ![分页箭头](assets/pagination-350x118.png)
    >   
-   >   * 使用 **排序方式** 可视化上的下拉菜单，用于按不同顺序查看项目。\
+   >   * 使用可视化图表上的&#x200B;**排序方式**&#x200B;下拉菜单以不同顺序查看项目。\
    >     ![按菜单排序](assets/sort-by-menu-350x247.png)
 
-   要调整日期范围，请参阅 [更改日期范围筛选器](#change-the-date-range-filter).
+   要调整日期范围，请参阅[更改日期范围筛选器](#change-the-date-range-filter)。
 
 ### 添加项目自定义表单过滤器
 
@@ -169,30 +169,30 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 
 {{step1-to-analytics}}
 
-1. 在屏幕的左上角，单击 **添加筛选器**，然后选择 **自定义表单**.
+1. 单击屏幕左上角的&#x200B;**添加筛选器**，然后选择&#x200B;**自定义表单**。
 
    ![选择自定义表单筛选器](assets/select-custom-form-filter-350x271.png)
 
-1. 通过在表单中输入至少三个字符的文本，找到所需的自定义表单 **Search** 字段，然后选择自定义表单。
+1. 通过在&#x200B;**搜索**&#x200B;字段中输入至少三个字符的文本，找到所需的自定义表单，然后选择该自定义表单。
 1. 选择所需的字段，然后根据要添加到过滤器的字段类型完成以下操作之一：
 
    >[!NOTE]
    >
    >并非所有自定义corm字段类型都可以添加到过滤器。 目前，增强型分析仅支持下面列出的字段类型。
 
-   * **复选框**， **下拉面板**，或 **单选按钮**：选择要包含在过滤器中的字段中的每个值，或单击 **全选** 复选框。\
+   * **复选框**、**下拉列表**&#x200B;或&#x200B;**单选按钮**：选择筛选器要包含的字段中的每个值，或单击&#x200B;**全选**&#x200B;复选框。\
      ![复选框值](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **日期**：使用箭头导航到特定月份，然后在字段中选择要包含在过滤器中的日期。\
+   * **日期**：使用箭头导航到特定月份，然后在字段中选择要包含在筛选器中的日期。\
      ![日期值](assets/custom-form-filter-date-350x348.png)
 
-   * **文本**：在字段中输入要包含在过滤器中的文本。\
+   * **文本**：在要包含在筛选器中的字段中输入文本。\
      ![文本值](assets/custom-form-filter-text-350x90.png)
 
-   * **数字**：在字段中输入要包含在过滤器中的数字。\
+   * **数字**：在要包括在筛选器中的字段中输入数字。\
      ![数值](assets/custom-form-filter-number-350x93.png)
 
-1. 输入或选择要过滤的值后，单击 **应用筛选器**.
+1. 输入或选择要筛选的值后，单击&#x200B;**应用筛选器**。
 
    右上方的项目计数将更新，以反映应用的过滤器。
 
@@ -207,21 +207,21 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
    >   * 使用左下方的箭头可在该可视化图表中显示接下来的50个项目。\
    >     ![分页箭头](assets/pagination-350x118.png)
    >   
-   >   * 使用 **排序方式** 可视化上的下拉菜单，用于按不同顺序查看项目。\
+   >   * 使用可视化图表上的&#x200B;**排序方式**&#x200B;下拉菜单以不同顺序查看项目。\
    >     ![按菜单排序](assets/sort-by-menu-350x247.png)
 
-   要调整日期范围，请参阅 [更改日期范围筛选器](#change-the-date-range-filter).
+   要调整日期范围，请参阅[更改日期范围筛选器](#change-the-date-range-filter)。
 
 ### 添加团队筛选器 {#add-a-team-filter}
 
 {{step1-to-analytics}}
 
-1. 在左侧面板中，单击 **人员**.
+1. 在左侧面板中，单击&#x200B;**人员**。
 
    ![选择人员](assets/people-area-cropped-qs-350x276.png)
 
-1. 在屏幕左上方，单击 **添加筛选器**，然后选择 **团队** 筛选。
-1. 通过在“ ”中输入至少三个字符的文本，找到要查看其数据的团队 **Search** 字段中，然后选择要包含在过滤器中的各个团队。 要选择所有团队，请单击 **全选**.
+1. 在屏幕的左上方，单击&#x200B;**添加筛选器**，然后选择&#x200B;**团队**&#x200B;筛选器。
+1. 通过在&#x200B;**搜索**&#x200B;字段中输入至少三个字符的文本，找到要查看其数据的团队，然后选择要包含在筛选器中的各个团队。 要选择所有团队，请单击&#x200B;**全选**。
 
    ![选择团队](assets/select-team-value-350x253.png)
 
@@ -229,11 +229,11 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
    >
    >所有团队都作为过滤器选项包含在内，无论您的访问级别如何。
 
-1. 选择所有所需团队后，单击 **应用筛选器**.
+1. 选择所有所需团队后，单击&#x200B;**应用筛选器**。
 
    添加过滤器时，数据会显示在下面的可视化图表中。
 
-   要调整日期范围，请参阅 [更改日期范围筛选器](#change-the-date-range-filter).
+   要调整日期范围，请参阅[更改日期范围筛选器](#change-the-date-range-filter)。
 
 ## 删除筛选器
 
@@ -242,19 +242,19 @@ Adobe Workfront的“增强分析”区域中的过滤器可帮助您将注意�
 >[!TIP]
 >
 >您还可以使用键盘上的键导航到现有筛选器并将其删除。\
->欲了解更多信息，请参见 [键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 部分内容 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+>有关详细信息，请参阅文章[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的[键盘快捷键](../enhanced-analytics/enhanced-analytics-overview.md#keyboard)部分。
 
 要删除过滤器，请执行以下操作：
 
 {{step1-to-analytics}}
 
-1. 如果要删除项目字段或自定义表单筛选器，请保留在 **工作** 区域。
+1. 如果要删除项目字段或自定义表单筛选器，请保留在&#x200B;**工作**&#x200B;区域。
 
    或
 
-   如果要删除团队筛选器，请选择 **人员** 在左侧面板中。
+   如果要删除团队筛选器，请在左侧面板中选择&#x200B;**人员**。
 
-1. 找到所需的过滤器，然后单击 **X** 以删除它。
+1. 找到所需的筛选器并单击&#x200B;**X**&#x200B;将其删除。
 
    ![移除](assets/remove-filter-350x213.png)
 

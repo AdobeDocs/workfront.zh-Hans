@@ -17,13 +17,13 @@ ht-degree: 0%
 
 本页介绍了23.2版本对“预览”环境所做的所有敏捷增强。 这些增强功能将在23.2版本的生产环境中提供。
 
-有关23.2发行周期中此时可用的所有更改列表，请参阅 [23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+有关23.2发行周期此刻所有可用更改的列表，请参阅[23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 ## 将任务和问题从对象详细信息添加到Workfront展示板或工作流
 
 您现在可以直接从对象详细信息将现有任务或问题添加到Workfront展示板或工作流卡片列表。 您添加到展示板的任何项目都将成为连接的卡片，并且添加到工作流的任何项目将作为计划外卡片添加到卡片列表。
 
-有关更多信息，请参阅 [将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+有关详细信息，请参阅[将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)。
 
 ## Adobe Workfront展示板中可用的迭代功能
 
@@ -35,7 +35,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 请注意，收藏集已重命名为工作流。 工作流可帮助您以不同的方式可视化数据。 可以在列表、展示板或开发周期中的信息卡上显示项目。 工作流中的信息卡还可以在多个展示板之间共享。 您可以在工作流中使用信息卡和展示板轻松简化工作流。
 
-有关更多信息，请参阅 [管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)， [在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、和 [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+有关详细信息，请参阅[管理工作流](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)、[在工作流中创建迭代](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)和[使用卡片列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
@@ -43,7 +43,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 您现在可以直接从列表或报告视图将现有任务或问题添加到Workfront展示板中的工作流。 您添加到工作流的任意项目将作为计划外信息卡添加到信息卡列表。
 
-有关更多信息，请参阅 [将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+有关详细信息，请参阅[将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)。
 
 ## 将自定义字段添加到展示板上的信息卡
 
@@ -53,7 +53,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 来自卡片上的自定义字段的任何数据均为只读。
 
-有关更多信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+有关详细信息，请参阅[自定义卡片上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
 
 ## 将列表和报告中的任务和问题添加到Workfront展示板
 
@@ -61,7 +61,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 此外，面板字段现在可用于添加到任务或问题的列表和报告。 此字段显示任务或问题已添加到的所有讨论区。
 
-有关更多信息，请参阅 [将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+有关详细信息，请参阅[将现有任务或问题添加到讨论区](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)。
 
 
 ## 在展示板上的已连接信息卡上记录小时数
@@ -72,9 +72,9 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 您现在可以在连接的信息卡上记录小时数，就像在任务或问题上一样。 您必须对任务或问题具有正确的权限才能记录时间。
 
-默认情况下，已连接的信息卡上不显示时间日志记录字段。 您必须启用 **小时** 在“卡片”下的“配置”区域中。
+默认情况下，已连接的信息卡上不显示时间日志记录字段。 必须在“卡片”下的“配置”区域中启用&#x200B;**小时**。
 
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 
 ## 自定义信息卡上的字段显示
@@ -86,7 +86,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 自定义功能现在可用于配置在信息卡上显示的字段，包括在信息卡打开时的全视图以及展示板上的压缩信息卡视图中。 禁用时，字段不会显示在任一视图中。 您还可以在全视图中启用字段并在压缩视图中隐藏该字段。
 
-有关更多信息，请参阅 [自定义信息卡上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+有关详细信息，请参阅[自定义卡片上显示的字段](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
@@ -100,7 +100,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 以前，如果有多个状态可用，系统会提示您为移动到列中的每张卡片选择一个状态。
 
-有关更多信息，请参阅 [管理列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+有关详细信息，请参阅[管理列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
@@ -114,7 +114,7 @@ Workfront展示板中提供了几项新功能，使您能够使用敏捷Scrum功
 
 将成员添加到收藏集的工作方式与将成员添加到展示板的工作方式相同。 人员或团队必须是收藏集的成员，然后才能添加为收藏集中展示板的成员。
 
-有关更多信息，请参阅 [管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+有关详细信息，请参阅[管理收藏集](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
@@ -132,7 +132,7 @@ Workfront展示板中已连接信息卡上的估计字段现在映射到关联Wo
 
 此外，临时信息卡和连接信息卡上的估计字段不再具有字符限制。 以前，最大字符数为99。
 
-有关更多信息，请参阅 [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ## 在摄取列中预览卡片
 

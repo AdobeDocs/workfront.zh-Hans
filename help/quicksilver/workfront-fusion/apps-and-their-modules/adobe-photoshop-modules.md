@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Photoshop] 模块
+# [!DNL Adobe Photoshop]模块
 
-在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Adobe Photoshop]，并将其连接到多个第三方应用程序和服务。
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Adobe Photoshop]的工作流，并将其连接到多个第三方应用程序和服务。
 
 
-如果您需要有关创建方案的说明，请参阅 [创建方案](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[创建方案](../../workfront-fusion/scenarios/create-a-scenario.md)。
 
-有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
 ## 访问要求
 
@@ -53,28 +53,28 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">产品</td>
-      <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td>
+      <td>您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-&#42;&#42;有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 先决条件
 
-在使用 [!DNL Adobe Photoshop] 连接器时，必须确保满足以下先决条件：
+在使用[!DNL Adobe Photoshop]连接器之前，必须确保满足以下先决条件：
 
-* 您必须拥有有效的 [!DNL Adobe Photoshop] 帐户。
+* 您必须拥有有效的[!DNL Adobe Photoshop]帐户。
 
-## 创建与的连接 [!DNL Adobe Photoshop]
+## 创建与[!DNL Adobe Photoshop]的连接
 
-要为创建连接，请执行以下操作 [!DNL Adobe Photoshop] 模块：
+要为您的[!DNL Adobe Photoshop]模块创建连接：
 
-1. 单击 **[!UICONTROL 添加]** ，位于“Connection（连接）”框旁。
+1. 单击“连接”框旁边的&#x200B;**[!UICONTROL 添加]**。
 
 1. 填写以下字段：
 
@@ -96,24 +96,24 @@ ht-degree: 0%
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL客户端密钥]</td>
-        <td>输入您的 [!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL技术帐户ID]</td>
-        <td>输入您的 [!DNL Adobe] [！UICONTROL技术帐户ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL技术帐户ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL组织ID]</td>
-        <td>输入您的 [!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[！UICONTROL私钥]</td>
         <td>
-          <p>输入在中创建凭据时生成的私钥 [!DNL Adobe Developer Console]. </p>
+          <p>输入在[!DNL Adobe Developer Console]中创建凭据时生成的私钥。 </p>
           <p>要提取您的私钥或证书，请执行以下操作：</p>
           <ol>
             <li value="1">
-              <p>单击 <b>[！UICONTROL Extract]</b>.</p>
+              <p>单击<b>[！UICONTROL提取]</b>。</p>
             </li>
             <li value="2">
               <p>选择要提取的文件类型。</p>
@@ -125,7 +125,7 @@ ht-degree: 0%
               <p>输入文件的密码。</p>
             </li>
             <li value="5">
-              <p>单击 <b>保存</b> 以提取文件并返回到[！UICONTROL ]e连接设置。</p>
+              <p>单击<b>保存</b>以提取文件并返回到[！UICONTROL ]e连接设置。</p>
             </li>
           </ol>
         </td>
@@ -133,13 +133,13 @@ ht-degree: 0%
       </tbody>
     </table>
 
-1. 单击 **[!UICONTROL 继续]** 以保存连接并返回到模块。
+1. 单击&#x200B;**[!UICONTROL 继续]**&#x200B;保存连接并返回模块。
 
-## [!DNL Adobe Photoshop] 模块及其字段
+## [!DNL Adobe Photoshop]模块及其字段
 
-配置时 [!DNL Adobe Photoshop] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Adobe Photoshop] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置[!DNL Adobe Photoshop]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Adobe Photoshop]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 该操作模块会创建一个带有可选层的新PSD，并生成演绎版或另存为PSD。
 
-有关与此模块相关的字段，请参阅 [创建新PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) 请参阅Adobe Photoshop文档。
+有关此模块的字段，请参阅Adobe Photoshop文档中的[创建新PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate)。
 
 #### 编辑文本图层
 
@@ -170,7 +170,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入文件存储]</td>
@@ -198,7 +198,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL层]</td>
-   <td> <p>有关图层选项的详细信息，请参阅 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">编辑文本图层</a> 请参阅Adobe Photoshop文档。</p>  </td>     </tr>
+   <td> <p>有关图层选项的详细信息，请参阅Adobe Photoshop文档中的<a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">编辑文本图层</a>。</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输出文件存储]</td>
       <td>
@@ -242,7 +242,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入文件存储]</td>
@@ -277,7 +277,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL其他字段]</td>
       <td>
-        <p>有关其他“深度模糊”选项的详细信息，请参阅 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">执行深度模糊 </a>在Adobe Photoshop API文档中。</p>
+        <p>有关其他深度模糊选项的详细信息，请参阅Adobe Photoshop API文档中的<a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">执行深度模糊</a>。</p>
       </td>
     </tr>
     <tr>
@@ -305,7 +305,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入文件存储]</td>
@@ -392,7 +392,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入文件存储]</td>
@@ -467,7 +467,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输入文件存储]</td>
@@ -500,19 +500,19 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与的连接 [!DNL Adobe Photoshop]，请参见 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与的连接 [!DNL Adobe Photoshop]</a> 本文章中。</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL URL]</td>
       <td>
-        <p>输入相对路径 <code>https://image.adobe.io/pie/psdService</code>. 示例： <code>/photoshopActions</code></p>
+        <p>输入相对于<code>https://image.adobe.io/pie/psdService</code>的路径。 示例： <code>/photoshopActions</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL方法]</p>
       </td>
-   <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Headers]</td>
@@ -530,7 +530,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL Body]</td>
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

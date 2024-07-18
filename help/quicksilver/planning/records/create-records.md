@@ -73,31 +73,31 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>为工作区提供或更高权限</a> </p>  
+   <td> <p>Contribute或更高的工作区权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 通过手动将记录添加到记录类型来创建记录 <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## 通过手动将记录添加到记录类型<!--in a record type table (I don't think you can create them elsewhere right now)-->来创建记录
 
 您可以在记录类型页面的表格视图中创建记录。
 
-有关编辑记录信息的信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关编辑记录信息的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 {{step1-to-planning}}
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
    工作区将打开，记录类型显示为卡片。
 
-1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 单击记录类型卡片。 有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    记录类型页面将在您上次访问的视图中打开。 默认情况下，将在表格视图中打开记录类型页面。
 所选类型的所有记录都将显示在视图中。
@@ -114,15 +114,15 @@ ht-degree: 0%
 
    * 从表格视图中：
 
-      * 单击 **新记录** 在表的最后一行
+      * 在表的最后一行中单击&#x200B;**新建记录**
 
-      * 单击 **Shift + Enter** 从表格的任意列或行访问键盘。 这会添加一个空行。
+      * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会添加一个空行。
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
    * 从任何视图中：
 
-      * 单击 **新记录** 在页面的右上角。 记录预览框打开。
+      * 单击页面右上角的&#x200B;**新建记录**。 记录预览框打开。
 
      Workfront会自动将缩略图和封面图像上传到每张新记录。 您可以稍后修改这些图像。 有关信息，请参阅以下文章：
 
@@ -133,22 +133,22 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md) 和 [主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * 记录没有必填字段。 但是，我们建议您为记录的主要字段添加信息，因为在将记录相互链接时，识别记录会很有帮助。 有关主字段的详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)和[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
    >
    >  * 引用其他记录类型或计算字段的字段为只读字段。
 
-1. （视情况而定）在表中添加记录时，继续添加有关每一行的信息，然后单击 **输入** 以保存更改。
+1. （视情况而定）在表中添加记录时，继续添加每行的信息，然后在键盘上单击&#x200B;**Enter**&#x200B;以保存更改。
 
    或
 
-   单击新记录的名称或 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 记录名称的左侧。 在表中打开包含记录详细信息的预览。
+   单击新记录的名称或记录名称左侧的&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)。 在表中打开包含记录详细信息的预览。
 
    >[!TIP]
    >
-   >您可以访问 **打开详细信息** 图标仅来自记录的名称字段（当“名称”字段是主字段时）。
+   >当名称字段是主字段时，您只能从记录的名称字段访问&#x200B;**打开详细信息**&#x200B;图标。
 
 1. 开始编辑记录预览中的记录信息。 Workfront会自动保存您所做的更改。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 在记录预览的右上角，在新选项卡中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。 继续编辑记录页面上的记录。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 1. （可选）在将新记录或其信息添加到表视图时，使用以下键盘快捷键可撤消或重做添加新记录或其信息：
 
@@ -179,11 +179,11 @@ You can import records from other applications by linking them to existing recor
 
 ## 通过复制和粘贴外部列表中的信息创建记录
 
-1. 开始在“表”视图中创建记录，如一节中所述 [通过手动将记录添加到记录类型来创建记录](#create-records-by-manually-adding-them-to-a-record-type) 本文章中。
+1. 开始在“表”视图中创建记录，如[通过手动将记录添加到本文中的记录类型](#create-records-by-manually-adding-them-to-a-record-type)来创建记录一节中所述。
 
    确保表视图具有要使用新记录信息填充的列（或字段）。
 
-1. 单击 **新建&lt;记录类型名称>** 在表的最后一行中，向表中添加所需数量的新行。
+1. 在表的最后一行中单击&#x200B;**新建&lt;记录类型名称>**，以向表中添加您想要的新记录数量的新行。
 
    例如，如果要粘贴来自其他应用程序的10条新记录的信息，请向表格视图添加10行。
 

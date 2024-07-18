@@ -30,6 +30,6 @@ ht-degree: 0%
 
 ## 另请参阅
 
-* 有关如何创建访问级别的信息，请参阅 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* 有关用户如何彼此共享对象以及如何授予这些对象的“查看”和“编辑”权限的信息，请参阅 [向对象授予权限并请求权限](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
-* 有关文档文章中提供的访问要求表格的信息，请参阅 [Workfront文档中的访问级别要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* 有关如何创建访问级别的信息，请参阅[配置对Adobe Workfront的访问](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)。
+* 有关用户如何相互共享对象以及如何授予这些对象的“查看”和“编辑”权限的信息，请参阅[授予对象权限并请求权限](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)。
+* 有关文档文章中提供的访问要求表的信息，请参阅Workfront文档中的[访问级别要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

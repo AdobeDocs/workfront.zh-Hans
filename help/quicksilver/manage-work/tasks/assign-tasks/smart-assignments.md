@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳资源。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。 智能分配可以是用户、工作角色或团队。
 
 >[!NOTE]
 >
->建议用户时，智能分配不会考虑用户的可用性。 但是，当任务和问题被分配时，其根据其计划可用性会影响它们的计划和预计日期。 有关时间安排的信息，请参阅文章 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>建议用户时，智能分配不会考虑用户的可用性。 但是，当任务和问题被分配时，其根据其计划可用性会影响它们的计划和预计日期。 有关计划的信息，请参阅文章[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-本文包含有关智能分配的一般信息。 有关使用智能分配向用户分配任务和问题的信息，请参阅 [进行智能分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+本文包含有关智能分配的一般信息。 有关使用智能分配向用户分配任务和问题的信息，请参阅[进行智能分配](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ## 智能分配概述
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">“工作总揽”列中的任务列表或报告 </span>
+* <span class="preview">“工作总揽”列</span>中的任务列表或报告
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* <span class="preview">将任务添加到项目时，新任务框中的工作分配字段</span>
+* <span class="preview">将任务添加到项目时，“新建任务”框中的“工作总揽”字段</span>
 
   <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 任务智能分配计算分两个阶段进行，使用两个不同的算法。
 
-根据查找智能分配的算法，分配在“分配”字段的两个单独部分下列出。 有关信息，请参阅 [进行智能分配](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+根据查找智能分配的算法，分配在“分配”字段的两个单独部分下列出。 有关信息，请参阅[进行智能分配](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
   例如，如果Rick今天早些时候被分派到一个类似的任务，而Jennifer两天前被分派到一个类似的任务，则Rick首先显示。
 
-* 此阶段中确定的分配将列在    **建议的分配**  任务的“工作总揽”字段的部分。
+* 此阶段中确定的分配将列在    任务的“工作总揽”字段的&#x200B;**建议的工作总揽**&#x200B;部分。
 
 * 如果没有匹配项使用此计算，则智能分配的第二阶段将开始（使用不同的算法计算）。
 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 如果任务智能分配的第一步未找到匹配项，则Workfront会按照与计算问题智能分配相同的方式计算任务的智能分配。
 
-有关更多信息，请参阅部分 [任务和问题的智能分配标准](#smart-assignments-criteria-for-tasks-and-issues) 本文章中。
+有关详细信息，请参阅本文中的[任务和问题的智能分配条件](#smart-assignments-criteria-for-tasks-and-issues)部分。
 
-此阶段中确定的分配将列在 **用户和团队**， **工作角色分配**、和 **对信息卡角色进行评级**  区段。 有关费率卡的详细信息，请参阅 [管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+此阶段中标识的分配在“分配”字段的&#x200B;**用户和团队**、**工作角色分配**&#x200B;和&#x200B;**评级卡角色**&#x200B;部分中列出。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任务和问题的智能分配标准
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">仅当任务智能分配计算的第一阶段未找到任何匹配项时，以下标准才适用于任务。 有关信息，请参阅部分 [任务智能分配计算的第一阶段](#first-phase-of-smart-assignment-calculation-for-tasks) 本文章中。 默认情况下，以下标准始终适用于问题。 </span>
+><span class="preview">只有当任务智能分配计算的第一阶段找不到任何匹配项时，以下标准才适用于任务。 有关信息，请参阅本文中任务](#first-phase-of-smart-assignment-calculation-for-tasks)的智能分配计算的第一阶段[部分。 默认情况下，以下标准始终适用于问题。</span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

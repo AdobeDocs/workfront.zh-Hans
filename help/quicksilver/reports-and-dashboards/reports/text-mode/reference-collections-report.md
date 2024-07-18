@@ -17,7 +17,7 @@ ht-degree: 0%
 
 在Adobe Workfront中构建报表允许您以列表、网格或图表格式显示一组对象、其各自的字段或链接对象。
 
-有关在Workfront中构建报表的更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关在Workfront中生成报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 访问要求
 
@@ -39,11 +39,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>管理对视图、筛选器或分组的权限 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>管理对视图、筛选器或分组的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,22 +58,22 @@ ht-degree: 0%
 
 Workfront中的对象之间存在以下两个关系：
 
-* **一对一的关系**：一个对象一次只能链接到另一个对象。\
+* **一对一关系**：一个对象一次只能链接到另一个对象。\
   例如，一个项目一次只能链接到一个项目组合。
 
-* **一对多关系**：一个对象可以同时链接到多个其他对象。\
+* **一对多关系**：一个对象一次可以链接到多个其他对象。\
   例如，一个项目可以有多个任务。 在这种情况下，任务列表将构成项目的集合。
 
 >[!IMPORTANT]
 >
 >您可以使用标准Report Builder构建显示对象之间一对一关系的报表。 但是，您只能通过使用Report Builder中的文本模式界面来构建显示对象之间一对多关系的报表。
 
-有关在标准Report Builder中构建报表的更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关在标准Report Builder中生成报表的更多信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 有关使用文本模式界面构建报表的更多信息，请参阅：
 
 * [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+* [文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 * [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
 ## 在API Explorer中查找收藏集对象及其字段 {#find-collection-objects-and-their-fields-in-the-api-explorer}
@@ -81,13 +81,13 @@ Workfront中的对象之间存在以下两个关系：
 并非所有收藏集都可以报告。
 
 要了解哪些对象可以与其他对象的集合相关联，您必须使用API Explorer。\
-有关API Explorer表的详细信息，请参见 [API资源管理器](../../../wf-api/general/api-explorer.md).
+有关API Explorer表的详细信息，请参阅[API Explorer](../../../wf-api/general/api-explorer.md)。
 
 要了解可报告哪些收藏集，请执行以下操作：
 
-1. 转到 [API资源管理器](../../../wf-api/general/api-explorer.md).
+1. 转到[API资源管理器](../../../wf-api/general/api-explorer.md)。
 1. 查找报告的对象。
-1. 选择 **收藏集** 选项卡。
+1. 选择&#x200B;**收藏集**&#x200B;选项卡。
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Workfront中的对象之间存在以下两个关系：
 
 1. 单击收藏集的对象以将其展开。
 1. 单击显示的链接可转至收藏集的对象。\
-   这将打开 **字段** 选项卡中指定收藏集的对象。
+   这将打开集合对象的&#x200B;**字段**&#x200B;选项卡。
 
    >[!NOTE]
    >
@@ -116,8 +116,8 @@ Workfront中的对象之间存在以下两个关系：
 
 例如，您可以从项目报告中引用任务或问题集合，以在项目级别显示任务或问题信息。
 
-* [在报表视图中引用收藏集](#reference-a-collection-in-the-view-of-a-report)
-* [在报表的过滤器中引用集合](#reference-a-collection-in-the-filter-of-a-report)
+* [引用报表视图中的收藏集](#reference-a-collection-in-the-view-of-a-report)
+* [引用报告筛选器中的集合](#reference-a-collection-in-the-filter-of-a-report)
 * [在报表的自定义提示中引用集合](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
 ### 在报表视图中引用收藏集 {#reference-a-collection-in-the-view-of-a-report}
@@ -139,24 +139,24 @@ Workfront中的对象之间存在以下两个关系：
 
 要在报表视图中添加收藏集列，请执行以下操作：
 
-1. 单击 **主要** 菜单 ![](assets/main-menu-icon.png)，然后单击 **报表**.
-1. 单击 **新建报告**.
+1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
-1. 从您的报表导航离开，使用 [API资源管理器](../../../wf-api/general/api-explorer.md)，确定您为报表选择的对象可用的收藏集。
+1. 从报表中导航出来，使用[API Explorer](../../../wf-api/general/api-explorer.md)确定您为报表选择的对象有哪些收藏集可用。
 
-   有关选择收藏集对象的更多信息，请参阅部分 [在API Explorer中查找收藏集对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer) 本文章中。\
+   有关选择集合对象的更多信息，请参阅本文中的[在API资源管理器](#find-collection-objects-and-their-fields-in-the-api-explorer)中查找集合对象及其字段部分。\
    记下集合对象的名称。
 
-1. 使用 [API资源管理器](../../../wf-api/general/api-explorer.md)，转到要在集合中显示的对象的字段列表。
+1. 使用[API Explorer](../../../wf-api/general/api-explorer.md)，转到要显示在集合中的对象的字段列表。
 
-   有关查找集合对象的字段的更多信息，请参阅部分 [在API Explorer中查找收藏集对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer) 本文章中。
+   有关查找集合对象的字段的更多信息，请参阅本文中的[在API资源管理器中查找集合对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer)部分。
 
    记下要在集合中显示的字段名称。
 
-1. 导航回报表，然后在 **列（视图）** 选项卡，单击 **添加列**.
-1. 单击 **切换到文本模式**.
-1. 将鼠标悬停在该对话框上，然后单击 **单击以编辑文本**.
-1. 选择以下内容中的所有文本： **文本模式** 对话框并将其删除，然后粘贴以下代码（如果您引用的是集合对象的字段）：
+1. 导航回您的报告，在&#x200B;**列（视图）**&#x200B;选项卡中，单击&#x200B;**添加列**。
+1. 单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在该对话框上，然后单击&#x200B;**单击以编辑文本**。
+1. 在&#x200B;**文本模式**&#x200B;对话框中选择所有文本并将其删除，然后粘贴以下代码（如果您正在引用集合对象的字段）：
 
    ```
    valueformat=HTML
@@ -168,16 +168,16 @@ Workfront中的对象之间存在以下两个关系：
    valuefield=collection object field
    ```
 
-1. 替换 **列名称** ，列名位于 `displayname` 行。
-1. 替换 **收藏集对象名称**&#x200B;将您的收藏集对象的名称置于 `listmethod` 行，它显示在 [API资源管理器](../../../wf-api/general/api-explorer.md).
+1. 将&#x200B;**Column Name**&#x200B;替换为`displayname`行中的列名。
+1. 将&#x200B;**集合对象名称**&#x200B;替换为[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的集合对象名称（位于`listmethod`行）。
 
-1. 替换 **收藏集对象字段** 将集合对象的字段名称添加到 `valuefield` 行，它显示在 [API资源管理器](../../../wf-api/general/api-explorer.md).
+1. 将&#x200B;**集合对象字段**&#x200B;替换为[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的集合对象在`valuefield`行中的字段名称。
 
-   您可以替换 **valuefield** 替换为 **值表达式**，则适用于要在视图中创建自定义表达式的情况。
+   如果要在视图中创建自定义表达式，可以使用&#x200B;**valueexpression**&#x200B;替换&#x200B;**valuefield**。
 
-   有关计算的自定义表达式的详细信息，请参阅 [计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   有关计算自定义表达式的详细信息，请参阅[计算数据表达式的概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
-   例如，如果要在项目报告中显示任务列表。 此收藏集使用 `valuefield` 用于引用任务名称的行。
+   例如，如果要在项目报告中显示任务列表。 此集合使用`valuefield`行引用任务的名称。
 
    执行下列操作之一：
 
@@ -205,9 +205,9 @@ Workfront中的对象之间存在以下两个关系：
      valueformat=HTML
      ```
 
-     请注意，在收藏集中必须使用 **问题** 对于 **listmethod** 行，而不是 **op任务** 即问题的数据库名称。 有关何时使用的信息 **问题** 以及何时使用 **op任务** 在引用问题时，请参阅 [在引用问题时使用“opTask”和“issue”](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     请注意，在集合中，您必须对&#x200B;**listmethod**&#x200B;行使用&#x200B;**问题**，而不是使用&#x200B;**opTasks**（问题的数据库名称）。 有关何时使用&#x200B;**问题**&#x200B;以及何时在引用问题时使用&#x200B;**opTask**&#x200B;的信息，请参阅在引用问题时[使用“opTask”和“issue”](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)。
 
-   * 如果要在项目报告中显示任务的列表及其主要任务接受者，则应使用 **值表达式** 用于引用与其主要被分配者名称相邻的任务名称而非其名称的一行 **valuefield**.
+   * 如果要显示项目报告中任务的列表以及任务的主要被分配人，可使用&#x200B;**valueexpression**&#x200B;行引用与其主要被分配人名称相邻的任务名称，而不是&#x200B;**valuefield**。
 
      使用以下代码构建您的列：
 
@@ -230,7 +230,7 @@ Workfront中的对象之间存在以下两个关系：
 
    或
 
-   单击 **保存+关闭** 以保存报表。
+   单击&#x200B;**保存+关闭**&#x200B;以保存报告。
 
 #### 在文本模式下了解收藏集视图的行
 
@@ -248,7 +248,7 @@ Workfront中的对象之间存在以下两个关系：
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>您可以为此行使用各种值，但我们建议 <code style="font-weight: normal;">valueformat</code> （对于收藏集列表）应为 <strong>HTML。</strong></p>
+   <td> <p>您可以对此行使用各种值，但我们建议集合列表的<code style="font-weight: normal;">valueformat</code>HTML应为<strong>。</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -257,23 +257,23 @@ Workfront中的对象之间存在以下两个关系：
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
-   <td> <p>此 <code>type</code> 列表的URL始终为 <code>iterate</code>，则用于构建视图。</p> </td> 
+   <td> <p>生成视图时，列表的<code>type</code>始终为<code>iterate</code>。</p> </td> 
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用 <code>&lt;p&gt;</code> 在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&amp;zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 收藏集的值由逗号分隔，后跟空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加逗号，后跟空格。</p> </td> 
+   <td> <p>这是用于分隔列表中各个值的分隔符。<br>我们建议使用<code>&lt;p&gt;</code>，它在值之间添加换行符。</p> <p>您还可以使用以下命令：</p> <p><code>&amp;zwj;</code> （零宽度连接符）。 集合的值之间没有分隔符。<br><strong>，</strong> =逗号分隔符。 收藏集的值由逗号分隔，后跟空格。<br><strong>/</strong> =斜杠分隔符。 集合的值用斜杠分隔。<br><strong>-</strong> =短划线分隔符。 集合的值用短划线分隔。<br>默认情况下，将此行留空将在集合的值之间添加一个逗号，后跟一个空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>列名称</em> </td> 
-   <td> <p>替换 <strong>列名称</strong> 新列的实际名称。</p> </td> 
+   <td> <p>将<strong>列名称</strong>替换为您的新列的实际名称。</p> </td> 
   </tr> 
   <tr> 
    <td><code>listmethod=nested(collection object name).list</code> </td> 
-   <td> <p> 该行定义您正在引用的收藏集。</p> <p>替换 <strong>收藏集对象名称</strong> 与您在收藏集中引用的对象的名称一起使用，该名称显示在 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>. 此值通常是集合对象名称的多种形式。</p> </td> 
+   <td> <p> 该行定义您正在引用的收藏集。</p> <p>将<strong>收藏集对象名称</strong>替换为您在收藏集中引用的对象的名称，该名称显示在<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中。 此值通常是集合对象名称的多种形式。</p> </td> 
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>该行定义您从集合对象中引用哪个字段。</p> <p>替换 <strong>收藏集对象字段</strong> 与您在集合中引用的对象的字段名称一起使用，该名称显示在 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>.</p> <p>您可以将此行替换为：</p> <p><strong>值表达式</strong>=计算的集合对象字段/字段</p> <p>使用 <strong>值表达式</strong>中，您可以在列中显示计算的自定义表达式。</p> <p>有关如何设置格式的详细信息 <strong>值表达式</strong> 行，请参见 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文本模式语法概述</a>.</p> </td> 
+   <td> <p>该行定义您从集合对象中引用哪个字段。</p> <p>将<strong>收藏集对象字段</strong>替换为您在收藏集中引用的对象的字段名称，因为该字段显示在<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中。</p> <p>您可以将此行替换为：</p> <p><strong>valueexpression</strong>=计算的集合对象字段/字段</p> <p>使用<strong>valueexpression</strong>，您可以  在列中显示计算的自定义表达式。</p> <p>有关如何设置<strong>valueexpression</strong>行的格式的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文本模式语法概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,38 +296,38 @@ Workfront中的对象之间存在以下两个关系：
 
 要在报表过滤器中添加对收藏集的引用，请执行以下操作：
 
-1. 单击 **主要** 菜单 ![](assets/main-menu-icon.png)，然后单击 **报表**.
-1. 单击 **新建报告**.
+1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
-1. 从您的报表导航离开，使用 [API资源管理器](../../../wf-api/general/api-explorer.md)，确定您为报表选择的对象可用的收藏集。
+1. 从报表中导航出来，使用[API Explorer](../../../wf-api/general/api-explorer.md)确定您为报表选择的对象有哪些收藏集可用。
 
-   有关选择收藏集对象的更多信息，请参阅部分 [在API Explorer中查找收藏集对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer) 本文章中。
+   有关选择集合对象的更多信息，请参阅本文中的[在API资源管理器](#find-collection-objects-and-their-fields-in-the-api-explorer)中查找集合对象及其字段部分。
 
    记下集合对象的名称。
 
-1. 使用 [API资源管理器](../../../wf-api/general/api-explorer.md)，转到要在集合中显示的对象的字段列表。
+1. 使用[API Explorer](../../../wf-api/general/api-explorer.md)，转到要显示在集合中的对象的字段列表。
 
-   有关查找集合对象的字段的更多信息，请参阅部分 [在API Explorer中查找收藏集对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer) 本文章中。
+   有关查找集合对象的字段的更多信息，请参阅本文中的[在API资源管理器中查找集合对象及其字段](#find-collection-objects-and-their-fields-in-the-api-explorer)部分。
 
    记下要在收藏集中显示的字段。
 
-1. 导航回报表，然后在 **过滤器** 选项卡，单击 **切换到文本模式**.
+1. 导航回您的报告，在&#x200B;**筛选器**&#x200B;选项卡中，单击&#x200B;**切换到文本模式**。
 
-1. 在 **为报表设置筛选规则** 区域中，粘贴以下代码：
+1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，粘贴以下代码：
 
    ```
    collection object name:collection object field=collection object value
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. 替换 **收藏集对象名称** 收藏集对象的名称，它显示在 [API资源管理器](../../../wf-api/general/api-explorer.md). 此值通常是集合对象名称的多种形式。
+1. 将&#x200B;**收藏集对象名称**&#x200B;替换为您在[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的收藏集对象名称。 此值通常是集合对象名称的多种形式。
 
-1. 替换 **收藏集对象字段** ，其中包含集合对象的字段名称，该字段显示在 [API资源管理器](../../../wf-api/general/api-explorer.md).
+1. 将&#x200B;**收藏集对象字段**&#x200B;替换为您的收藏集对象在[API Explorer](../../../wf-api/general/api-explorer.md)中显示的字段名称。
 
-1. 替换 **集合对象值** 收集对象的值，该值显示在Workfront中。
-1. 替换 **修饰符的值** 具有有效的修饰符。
+1. 将&#x200B;**集合对象值**&#x200B;替换为该集合对象在Workfront中显示的值。
+1. 用有效的修饰符替换修饰符&#x200B;**的**&#x200B;值。
 
-   有关修饰符的列表，请参见 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
+   有关修饰符列表，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。\
    例如，要生成一个项目报告，其中仅显示名称中包含“营销”任务的项目，请使用以下代码：
 
    ```
@@ -348,14 +348,14 @@ Workfront中的对象之间存在以下两个关系：
 
    >[!TIP]
    >
-   >请注意，您必须使用 `issues` 收藏集对象名称的，而不是 `optask` 问题在API Explorer中的显示方式。
+   >请注意，您必须使用`issues`作为集合对象名称，而不是使用`optask`，后者是问题在API资源管理器中的显示方式。
 
-1. 单击 **完成**.
+1. 单击&#x200B;**完成**。
 1. （可选）继续编辑报表。
 
    或
 
-   单击 **保存+关闭** 以保存报表。
+   单击&#x200B;**保存+关闭**&#x200B;以保存报告。
 
 ### 在报表的自定义提示中引用集合 {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
@@ -369,39 +369,39 @@ Workfront中的对象之间存在以下两个关系：
 
 自定义提示是一种自定义过滤器，其中语句由&amp;符号连接。 我们建议您在筛选器中构建语句，首先使用&amp;符号连接语句行。
 
-有关使用收藏集引用构建过滤器语句的更多信息，请参阅部分 [在报表的过滤器中引用集合](#reference-a-collection-in-the-filter-of-a-report) 本文章中。
+有关使用集合引用构建过滤器语句的更多信息，请参阅本文中的[引用报表过滤器中的集合](#reference-a-collection-in-the-filter-of-a-report)部分。
 
 要在报表的自定义提示中添加对收藏集的引用，请执行以下操作：
 
-1. 单击 **主要** 菜单 ![](assets/main-menu-icon.png)，然后单击 **报表**.
-1. 单击 **新建报告**.
+1. 单击&#x200B;**主**&#x200B;菜单![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**新建报告**。
 1. 选择报表的对象。
-1. 使用收藏集引用构建过滤器，如部分所述 [在报表的过滤器中引用集合](#reference-a-collection-in-the-filter-of-a-report) 本文章中。
-1. 单击 **报表设置**.
-1. 单击 **报告提示**.
-1. 单击 **添加提示**.
-1. 单击 **自定义提示**.
-1. 在中指定提示的名称 **Field****name** 字段。
+1. 使用集合引用生成筛选器，如本文中报表](#reference-a-collection-in-the-filter-of-a-report)的筛选器中的[引用集合部分所述。
+1. 单击&#x200B;**报表设置**。
+1. 单击&#x200B;**报告提示**。
+1. 单击&#x200B;**添加提示**。
+1. 单击&#x200B;**自定义提示**。
+1. 在&#x200B;**字段{name****1}字段中指定提示的名称。**
 
-1. 指定 **下拉项目标签**.
-1. 在 **条件** 字段：
+1. 指定&#x200B;**下拉项目标签**。
+1. 在&#x200B;**条件**&#x200B;字段中指定以下内容：
 
    ```
    collection object name:collection object field_Mod=value of the modifier
    ```
 
 1. （可选）指定是否默认在提示中显示此选项。
-1. 替换 **收藏集对象名称** 收藏集对象的名称，它显示在 [API资源管理器](../../../wf-api/general/api-explorer.md). 此值通常是集合对象名称的多种形式。
-1. 替换 **收藏集对象字段** 与集合对象的字段名称一起使用，该字段显示在 [API资源管理器](../../../wf-api/general/api-explorer.md).
-1. 替换 **集合对象值** 收集对象的值，该值显示在Workfront中。
+1. 将&#x200B;**收藏集对象名称**&#x200B;替换为您在[API资源管理器](../../../wf-api/general/api-explorer.md)中显示的收藏集对象名称。 此值通常是集合对象名称的多种形式。
+1. 将&#x200B;**收藏集对象字段**&#x200B;替换为收藏集对象字段的名称，该字段显示在[API Explorer](../../../wf-api/general/api-explorer.md)中。
+1. 将&#x200B;**集合对象值**&#x200B;替换为该集合对象在Workfront中显示的值。
 
-   例如，如果您在筛选任务名称包含“Marketing”的项目，请将 **集合对象值** 替换为 **营销**.
+   例如，如果您正在筛选任务名称包含“营销”的项目，请将&#x200B;**集合对象值**&#x200B;替换为&#x200B;**营销**。
 
-1. 替换 **修饰符的值** 具有有效的修饰符。
+1. 用有效的修饰符替换修饰符&#x200B;**的**&#x200B;值。
 
-   有关修饰符的列表，请参见  [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   有关修饰符的列表，请参见  [筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
-   **示例：** 例如，要生成一个带有自定义提示的项目报告，其中您只想显示至少有一个任务分配给特定用户的项目，请使用以下代码：
+   **示例：**&#x200B;例如，要生成一个带有自定义提示的项目报告，其中您只想显示至少有一个任务分配给特定用户的项目，请使用以下代码：
 
    ```
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in
@@ -411,7 +411,7 @@ Workfront中的对象之间存在以下两个关系：
 
    >[!NOTE]
    >
-   >您不能引用任务的主要被分配人的姓名（“分配给”字段），根据 [API资源管理器](../../../wf-api/general/api-explorer.md). 您只能引用主要被分配人的ID。
+   >根据[API Explorer](../../../wf-api/general/api-explorer.md)，您无法引用任务的主要被分配人（“分配给”字段）的名称。 您只能引用主要被分配人的ID。
 
    例如，要筛选将任何项目问题分配给特定用户的任何项目，请使用以下代码进行自定义提示：
 
@@ -423,11 +423,11 @@ Workfront中的对象之间存在以下两个关系：
 
    >[!NOTE]
    >
-   >请注意，您必须使用 **问题** 收藏集对象名称的。 API Explorer目前没有为问题提供收藏集对象名称。
+   >请注意，您必须使用&#x200B;**问题**&#x200B;作为集合对象名称。 API资源管理器  目前不提供问题的收藏集对象名称。
 
-1. 单击 **完成**.
+1. 单击&#x200B;**完成**。
 1. （可选）继续编辑报表。
 
    或
 
-   单击 **保存+关闭** 以保存报表。
+   单击&#x200B;**保存+关闭**&#x200B;以保存报告。

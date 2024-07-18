@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [将验证添加到 [!DNL Basecamp] 项目](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [集成 [!DNL Workfront Proof] 替换为 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [在中查看验证 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [了解 [!DNL Basecamp] 与集成 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [向 [!DNL Basecamp] 项目添加校对](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [将 [!DNL Workfront Proof] 与 [!DNL Basecamp]集成](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [在 [!DNL Basecamp]中查看校对](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [了解 [!DNL Basecamp] 与 [!DNL Workfront Proof]的集成](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 您可以在Workfront的Github页面上下载这些示例：  [https://github.com/Workfront](https://github.com/Workfront)
 
-要在存储库中查找示例，请输入 `example` 到 **查找存储库……** 盒子。
+要在存储库中查找示例，请在&#x200B;**查找存储库……**&#x200B;框中输入`example`。
 
 >[!NOTE]
 >

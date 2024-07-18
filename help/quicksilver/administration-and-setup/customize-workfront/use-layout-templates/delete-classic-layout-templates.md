@@ -3,20 +3,21 @@ title: 删除经典布局模板
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: 经典Workfront Experience中的布局模板在Workfront界面中不再可用，但仍可能会影响Workfront数据。 这可能会导致报表或功能板中受布局模板（例如“共享对象”）影响的字段不一致。
+description: 经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 58%
 
 ---
 
 # 授予对布局模板的管理访问权限
 
-经典Workfront Experience中的布局模板在Workfront界面中不再可用，但仍可能会影响Workfront数据。 这可能会导致报表或功能板中受布局模板（例如“共享对象”）影响的字段不一致。
+经典 Workfront 体验中的布局模板在 Workfront 界面中不再可用，但仍可能会影响 Workfront 数据。这可能会导致报告或仪表板上受布局模板影响的字段（如“共享对象”）中出现不一致。
 
 您可以通过删除传统布局模板来解决这些不一致问题。 由于它们在Workfront界面中不可用，因此使用必须使用Workfront API来删除它们。
 
@@ -52,21 +53,18 @@ ht-degree: 0%
 >无法删除全局和系统布局模板。
 
 1. 登录到Workfront。
-1. 使用以下API调用找到要删除的布局模板：
+1. 使用以下 API 调用找到要删除的布局模板：
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL/search`
-1. 记下要删除的布局模板的ID。
-1. 使用以下API调用找到您的会话ID：
+1. 记下要删除的布局模板的 ID。
+1. 使用以下 API 调用找到您的会话 ID：
    `https://{yourDomain}.com/attask/api/v16.0/session`
 
    >[!IMPORTANT]
    >
-   >切勿与任何人共享您的会话ID。
+   >请勿与任何人分享您的会话 ID。
 
-1. 将布局模板ID和会话ID插入以下API调用：
+1. 将布局模板 ID 和会话 ID 插入到以下 API 调用中：
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL?ID={layoutTemplateID}&method=delete&sessionID={yourSessionID}`
-1. 将步骤4中的API调用粘贴到浏览器的URL栏中，然后按Enter。
+1. 将第 4 步中的 API 调用粘贴到浏览器的 URL 栏中，然后按 Enter。
 
-   这将删除布局模板。
-
-
-
+   这样将删除该布局模板。

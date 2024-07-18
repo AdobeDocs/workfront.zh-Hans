@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta 3发布活动
-description: 本页介绍2018.3 Beta 3版本预览环境中最近提供的所有更改。 该功能将于2018年8月16日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+title: 2018.3 Beta 3发行版活动
+description: 本页介绍了2018.3 Beta 3版本在“预览”环境中最近提供的所有更改。 该功能将于2018年8月16日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta 3发布活动
+# 2018.3 Beta 3发行版活动
 
-本页介绍2018.3 Beta 3版本预览环境中最近提供的所有更改。 该功能将于2018年8月16日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+本页介绍了2018.3 Beta 3版本在“预览”环境中最近提供的所有更改。 该功能将于2018年8月16日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 
 >[!NOTE]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 3版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
 * [以组管理员身份更新用户配置文件中的角色](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
-* [主页区域现在为默认设置](#home-area-is-now-the-default)
-* [优先安排您在家的工作](#prioritize-your-work-in-home)
-* [资源规划者用户视图的唯一URL](#unique-url-for-the-resource-planner-user-view)
-* [在Workfront移动设备应用程序中上传配置文件图片](#upload-profile-picture-in-the-workfront-mobile-app) 
-* [Workfront移动设备应用程序中的自定义表单改进](#custom-form-improvement-in-the-workfront-mobile-app)
-* [在Workfront移动设备应用程序中以横向记录时间](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
+* [主页区域现在为默认值](#home-area-is-now-the-default)
+* [优先处理您在家的工作](#prioritize-your-work-in-home)
+* 资源规划者用户视图的[唯一URL](#unique-url-for-the-resource-planner-user-view)
+* [在Workfront移动设备应用程序中上传个人资料图片](#upload-profile-picture-in-the-workfront-mobile-app) 
+* 在Workfront移动应用中[自定义表单改进](#custom-form-improvement-in-the-workfront-mobile-app)
+* [在Workfront移动设备应用程序中横向记录时间](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [重新排列Workfront移动设备应用程序底部导航栏中的图标](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## 主页区域现在为默认设置 {#home-area-is-now-the-default}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 以前，您只能在“我的工作”区域优先处理任务和问题。
 
-有关更多信息，请参阅 [排定主页区域工作的优先级](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+有关详细信息，请参阅[在主页区域排定工作优先级](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)。
 
 ## 以组管理员身份更新用户配置文件中的角色 {#update-roles-in-the-user-profile-as-a-group-administrator}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 以前，只有系统和用户管理员可以更新这些字段。 
 
-有关更多信息，请参阅 [组管理员](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+有关详细信息，请参阅[组管理员](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 资源规划者用户视图的唯一URL {#unique-url-for-the-resource-planner-user-view}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 以前，此功能不可用。
 
-有关更多信息，请参阅中的“用户视图的唯一URL”部分。 [资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有关详细信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“用户视图的唯一URL”部分。
 
 ## 在Workfront移动设备应用程序中上传配置文件图片  {#upload-profile-picture-in-the-workfront-mobile-app}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 重新排列Workfront移动设备应用程序底部导航栏中的图标 {#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app}
 
-现在，您可以在使用Android版Workfront测试版应用程序时自定义底部导航栏中区域的显示顺序。
+现在，当您使用适用于Android的Workfront测试版应用程序时，可以自定义底部导航栏中区域的显示顺序。
 
 以前，此功能仅在iOS平台上可用。
 

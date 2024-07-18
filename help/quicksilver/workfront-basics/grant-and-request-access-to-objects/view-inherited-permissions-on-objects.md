@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 查看对象的继承权限
-description: 在分配访问级别时，Adobe Workfront管理员可以授予您查看或编辑对象的访问权限。 有关更多信息，请参阅授予对项目的访问权限。
+description: 在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑对象的权限。 有关更多信息，请参阅授予对项目的访问权限。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 查看对象的继承权限
 
-在分配访问级别时，Adobe Workfront管理员可以授予您查看或编辑对象的访问权限。 有关更多信息，请参阅 [授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+在分配访问级别时，Adobe Workfront管理员可以向您授予查看或编辑对象的权限。 有关详细信息，请参阅[授予对项目的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们对您有权共享的特定对象的权限。 有关访问级别和权限的更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予用户的访问级别之外，您还可以授予他们对您有权共享的特定对象的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-对象继承Adobe Workfront中父对象的权限。
+对象从Adobe Workfront中的父对象继承权限。
 
-有关Workfront中对象层次结构的信息，请参阅 [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关Workfront中对象层次结构的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 ## 访问要求
 
@@ -63,7 +63,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -71,33 +71,33 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高访问要查看其权限的对象的权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看您想要查看其权限的对象或对其拥有更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看或更高权限查看要查看的对象</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看您想要查看其权限的对象的或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 查看对象的继承权限
 
-查看继承的权限与查看所有对象的权限相同。
+查看继承的权限对于所有对象都是相同的。
 
 要查看项目的继承权限，请执行以下操作：
 
 1. 转到要查看其共享权限的项目。
-1. 单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击 **共享**.
+1. 单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**共享**。
 
-1. 展开 **继承权限** 列表。
+1. 展开&#x200B;**继承权限**&#x200B;列表。
 
-   此列表显示有权访问项目组合或项目所属的项目群，并有权访问该项目的用户名。
+   此列表显示有权访问项目组合或项目所属项目群并且有权访问项目的用户的名称。
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. （可选）要从对象中删除继承的权限，请参阅 [从对象删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. （可选）要从对象中删除继承的权限，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
    >[!NOTE]
    >

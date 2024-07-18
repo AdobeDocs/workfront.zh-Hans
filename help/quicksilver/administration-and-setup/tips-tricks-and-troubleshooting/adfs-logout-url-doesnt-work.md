@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页中介绍的过程仅适用于尚未加入的组织。 [!UICONTROL Adobe Admin Console].
+>本页中介绍的过程仅适用于尚未加入[!UICONTROL Adobe Admin Console]的组织。
 >
->如果您的组织已载入 [!UICONTROL Adobe Admin Console]，请参见 [基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>如果您的组织已加入[!UICONTROL Adobe Admin Console]，请参阅[基于平台的管理差异([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 问题
 
@@ -47,28 +47,28 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 许可证</td> 
+   <td role="rowheader">Adobe[!DNL Workfront]许可证</td> 
    <td> 
    <p>新增：标准</p>
    <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p>  </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。 有关详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 解决方案
 
-1. 在ADFS管理器服务器中，转到 **[!UICONTROL 信任关系]** > **[!UICONTROL 信赖方信任]** > `<your party trust>` 属性。
+1. 在ADFS管理器服务器中，转到&#x200B;**[!UICONTROL 信任关系]** > **[!UICONTROL 信赖方信任]** > `<your party trust>`属性。
 
-1. 在 **[!UICONTROL 端点]** 选项卡，单击 **[!UICONTROL 添加]**.
+1. 在&#x200B;**[!UICONTROL 端点]**&#x200B;选项卡下，单击&#x200B;**[!UICONTROL 添加]**。
 
-1. **[!UICONTROL 端点类型]** = SAML注销，绑定=POST，URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL 终结点类型]** = SAML注销，绑定=POST，URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    如果希望将响应URL重定向到其他页面，则可以设置此响应URL。 但我们建议使用ADFS站点，因为它会警告您已注销，但您仍应关闭浏览器。

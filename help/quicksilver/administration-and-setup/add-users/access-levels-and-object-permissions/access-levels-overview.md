@@ -46,19 +46,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><p><strong>许可证</strong></p></td> 
-   <td> <p>附加到访问级别的许可证决定了如何配置访问级别。</p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>.</p> <p><strong>提示</strong>：通过查看用户列表或报告，您可以查看分配给每个用户的访问级别和许可证。 有关说明，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出用户的访问级别和许可证</a>.</p> </td> 
+   <td> <p>附加到访问级别的许可证决定了如何配置访问级别。</p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>。</p> <p><strong>提示</strong>：通过查看用户列表或报告，您可以查看分配给每个用户的访问级别和许可证。 有关说明，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">列出用户的访问级别和许可证</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>内置访问级别</strong></td> 
-   <td> <p>有关上图中显示的6个内置访问级别的更多信息，请参阅 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>.</p> </td> 
+   <td> <p>有关上图中显示的6个内置访问级别的更多信息，请参阅<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">内置访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>分配访问级别</strong></td> 
-   <td> <p>有关如何将访问级别分配给用户的说明，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>.</p> </td> 
+   <td> <p>有关如何将访问级别分配给用户的说明，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户的配置文件</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>访问级别标准、轻度、参与者</td> 
-   <td> <p>如果您在环境中看到这些访问级别，而不是“计划”、“工作”、“审阅”或“请求”，则您的组织将使用新的访问级别模型。 有关新模型的信息，请参见 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a>.</p> </td> 
+   <td> <p>如果您在环境中看到这些访问级别，而不是“计划”、“工作”、“审阅”或“请求”，则您的组织将使用新的访问级别模型。 有关新模型的信息，请参阅<a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a>。</p> </td> 
   </tr> 
   <!--
   <tr> 

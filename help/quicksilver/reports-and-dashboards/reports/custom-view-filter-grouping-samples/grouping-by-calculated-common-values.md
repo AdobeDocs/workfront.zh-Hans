@@ -2,63 +2,63 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：依照群組中所有物件通用的計算值來組織清單結果」
-description: 您可能想要在0-25、26-50、51-75、75-99和100的範圍內檢視按完成百分比分組的任務。 您可以使用文字模式來建立分組。
+title: '分组：按分组中所有对象通用的计算值组织列表结果'
+description: 您可能希望在0-25、26-50、51-75、75-99和100的范围内查看按完成百分比分组的任务。 您可以使用文本模式创建分组以执行此操作。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# 群組：依照群組中所有物件通用的計算值來組織清單結果
+# 分组：按分组中所有对象通用的计算值组织列表结果
 
-您可能想要在0-25、26-50、51-75、75-99和100的範圍內檢視按完成百分比分組的任務。 您可以使用文字模式來建立分組。
+您可能希望在0-25、26-50、51-75、75-99和100的范围内查看按完成百分比分组的任务。 您可以使用文本模式创建分组以执行此操作。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改群組 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改分组 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改分组</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr>   
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 依群組內所有物件通用的計算值組織清單結果
+## 按分组中所有对象通用的计算值组织列表结果
 
-若要將此群組套用至工作清單：
+要将此分组应用于任务列表，请执行以下操作：
 
-1. 前往工作清單。
-1. 從 **分組**&#x200B;下拉式功能表，選取 **新群組**.
+1. 转到任务列表。
+1. 从&#x200B;**分组**&#x200B;下拉菜单中，选择&#x200B;**新建分组**。
 
-1. 按一下 **切換至文字模式**.
-1. 在可用空間中，新增下列程式碼：
+1. 单击&#x200B;**切换到文本模式**。
+1. 在可用空间中，添加以下代码：
 
    ```
    textmode=true<br>group.0.valueexpression=IF({percentComplete}>=0&&{percentComplete}<=25,'0-25%',IF({
@@ -72,4 +72,4 @@ ht-degree: 0%
    }>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete
    ```
 
-1. 按一下 **完成**，則 **儲存群組**.
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存分组**。

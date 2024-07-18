@@ -49,42 +49,42 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 创建项目
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
 1. 执行以下操作之一。
 
-   * 从创建项目 [!UICONTROL 程序] 区域：
+   * 从[!UICONTROL 程序]区域创建程序：
 
-      1. 单击 **[!UICONTROL 程序]** 在主菜单中。
-      1. 单击 **[!UICONTROL 新建项目群]**.
-      1. 在显示的框中，键入现有Portfolio的名称， **[!UICONTROL 选择Portfolio]** 字段。
-      1. 在中键入新项目的名称 **[!UICONTROL 名称]** 字段。
+      1. 在主菜单中单击&#x200B;**[!UICONTROL 程序]**。
+      1. 单击&#x200B;**[!UICONTROL 新建项目]**。
+      1. 在显示的框中，在&#x200B;**[!UICONTROL 选择Portfolio]**&#x200B;字段中键入现有Portfolio的名称。
+      1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入新项目的名称。
       1. 单击&#x200B;**[!UICONTROL 保存]**。
-   * 从创建项目 [!UICONTROL Portfolio] 区域：
+   * 从[!UICONTROL Portfolio]区域创建程序：
 
-      1. 单击 **[!UICONTROL Portfolio]** 在 [!UICONTROL 主菜单]，然后打开一个项目组合。
-      1. 在左侧面板中，单击 **[!UICONTROL 程序]**.
-      1. 单击 **[!UICONTROL 新建项目群]** 下拉菜单，然后 **[!UICONTROL 新建项目群]**.
+      1. 在[!UICONTROL 主菜单]中单击&#x200B;**[!UICONTROL Portfolio]**，然后打开一个项目组合。
+      1. 在左侧面板中，单击&#x200B;**[!UICONTROL 程序]**。
+      1. 单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;下拉菜单，然后单击&#x200B;**[!UICONTROL 新建项目]**。
 
 
-1. （视情况而定）如果您是从项目组合创建项目群，请在 **[!UICONTROL 无标题项目群]** 字段。
+1. （视情况而定）如果您是从项目组合创建项目群，请在&#x200B;**[!UICONTROL 无标题项目群]**&#x200B;字段中指定项目群的名称。
 
    名称最多可包含255个字符。
 
-1. （可选）单击 **[!UICONTROL 项目经理]** 在程序标题中对其进行更新。
+1. （可选）单击程序标题中的&#x200B;**[!UICONTROL 程序管理器]**&#x200B;以更新程序。
 
    >[!TIP]
    >
    >作为项目的创建者，默认情况下您被设置为“项目管理员”。
 
-1. 单击 **[!UICONTROL 项目群详细信息]** 在左侧面板中。
-1. 双击任意字段以更新 **[!UICONTROL 概述]** 区域。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 项目详细信息]**。
+1. 双击任何字段以更新&#x200B;**[!UICONTROL 概述]**&#x200B;区域中的信息。
 
 您可以指定以下信息：
 
@@ -108,7 +108,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL组] </td> 
-      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以确保选择正确的组，方法是将鼠标悬停在该组上并单击[！UICONTROL信息]图标 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
+      <td> <p>添加单个组的名称（如果该组拥有项目或负责完成项目）。 </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,22 +116,22 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可选且视情况而定）单击 **[!UICONTROL 添加自定义表单]** 框，以便为项目组合选择自定义表单并更新自定义字段。
+1. （可选且有条件）单击&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;框中的，为项目组合选择自定义表单并更新自定义字段。
 
    >[!TIP]
    >
    >必须先创建程序自定义表单，然后才能将其附加到程序。
 
 1. （可选且视情况而定）如果要添加自定义表单，请单击自定义表单上的任意字段以更新该字段中的信息。
-1. 单击 **[!UICONTROL 保存更改]**.
-1. 单击 **[!UICONTROL 项目]** 在左侧面板中，然后 **[!UICONTROL 添加项目]** 将项目添加到项目群。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 项目]**，然后单击&#x200B;**[!UICONTROL 添加项目]**&#x200B;以将项目添加到程序。
 
-   有关将项目添加到项目群的信息，请参阅 [将项目添加到项目群](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   有关将项目添加到程序的信息，请参阅[将项目添加到程序](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
 
-1. 单击 **[!UICONTROL 保存更改]**.
-1. （可选）单击 **[!UICONTROL 更多菜单]** ![](assets/more-icon.png) 单击程序名称旁边的，然后单击 **[!UICONTROL 停用项目]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
+1. （可选）单击程序名称旁边的&#x200B;**[!UICONTROL 更多菜单]** ![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 停用程序]**。
 
-   停用项目群时，当用户尝试将项目群添加到项目时，项目群不再显示在项目群列表中。 您仍然可以从以下位置访问该程序： [!UICONTROL 程序] 区域。
+   停用项目群时，当用户尝试将项目群添加到项目时，项目群不再显示在项目群列表中。 您仍然可以从[!UICONTROL 程序]区域访问该程序。
 
 ## 项目标题概述
 
@@ -145,7 +145,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">标题信息</td> 
-   <td> <strong>注释</strong> </td> 
+   <td> <strong>备注</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">包含项目组合名称的痕迹导航</td> 
@@ -164,7 +164,7 @@ ht-degree: 0%
    <td> <p>单击以下任一选项以访问程序的更多信息或编辑选项：</p> 
     <ul> 
      <li>星形图标，用于将程序添加到收藏夹列表</li> 
-     <li> <p>[！UICONTROL更多]菜单 <img src="assets/qs-more-menu.png"> 执行以下操作之一： </p> 
+     <li> <p>[！UICONTROL More]菜单<img src="assets/qs-more-menu.png">用于执行以下操作之一： </p> 
       <ul> 
        <li>编辑项目</li> 
        <li>取消激活它。 停用项目群时，您无法再将其与项目级别的项目关联。 </li> 
@@ -196,4 +196,4 @@ ht-degree: 0%
 
 您可以将现有项目添加到项目组合。 由于程序不能存在于两个不同的项目组合中，因此添加现有程序会将其从一个项目组合永久移动到另一个项目组合。
 
-有关更多信息，请参阅 [将现有项目群添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md).
+有关详细信息，请参阅[将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)。

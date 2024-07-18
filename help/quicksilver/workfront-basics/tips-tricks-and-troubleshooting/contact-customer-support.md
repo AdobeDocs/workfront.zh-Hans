@@ -21,15 +21,15 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-作为 [!DNL Adobe Workfront] 客户，您可以联系 [!DNL Workfront] 客户支持团队通过电话或在线提交票证。
+作为[!DNL Adobe Workfront]客户，您可以通过电话或联机提交票证来联系[!DNL Workfront]客户支持团队。
 
 >[!NOTE]
 >
->对于严重问题，请联系 [!DNL Workfront] 客户支持电话。
+>如有严重问题，请通过电话联系[!DNL Workfront]客户支持。
 
 ## 电话
 
-您可以联系 [!DNL Workfront Customer Support] 一周7天，每天24小时，具体数据如下：
+您可以通过以下电话号码联系[!DNL Workfront Customer Support]，每周7天，每天24小时：
 
 * 美国：844-306-HELP(4357)
 * EMEA： +44 1256 274200
@@ -37,30 +37,30 @@ ht-degree: 0%
 
 ## Web
 
-您可以从自助服务提交支持工单 [!DNL Experience League] 门户。
+您可以从自助服务[!DNL Experience League]门户提交支持工单。
 
 >[!IMPORTANT]
 >
 >只有授权支持联系人（或授权支持用户）才能提交在线支持工单。
 
 
-1. 从 [[!DNL Experience League]](https://experienceleague.adobe.com) 网站，单击 **[!UICONTROL 支持]**  页面顶部的。
+1. 从[[!DNL Experience League]](https://experienceleague.adobe.com)网站，单击页面顶部的&#x200B;**[!UICONTROL 支持]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   此 [!UICONTROL 支持] 页面将打开。
+   [!UICONTROL 支持]页面打开。
 
-   从 [!UICONTROL 支持] 页面上，您可以导航到未结支持案例，记录新案例，查看顶部 [!UICONTROL 支持] 文章，或访问其他学习源。
+   从[!UICONTROL 支持]主页中，您可以导航到未结支持案例、记录新案例、查看热门的[!UICONTROL 支持]文章或访问其他学习来源。
 
-1. 要提交案例，请选择选项 **[!UICONTROL 打开支持案例]**，然后单击 **[!UICONTROL 签名] 在**.
+1. 若要提交案例，请选择选项&#x200B;**[!UICONTROL 打开支持案例]**，然后单击&#x200B;**[!UICONTROL 登录] In**。
 
-1. 单击 **[!UICONTROL 未结案例]** 在左侧边栏中。
+1. 单击左侧边栏中的&#x200B;**[!UICONTROL 打开大小写]**。
 
 <!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 -->
 
-此 [!UICONTROL 案例创建] 页面将打开，您可以在其中输入产品名称([!DNL Adobe Workfront]， [!DNL Adobe Workfront Fusion]、案例标题和案例描述。
+[!UICONTROL 案例创建]页面将打开，您可以在其中输入您的产品名称（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion]等）、案例标题和案例描述。
 
 >[!TIP]
 >
@@ -69,14 +69,14 @@ ht-degree: 0%
 
 1. 填写以下字段的信息，向我们提供更具体的详细信息：
 
-   * **[!UICONTROL 案例优先级]** ([!UICONTROL 低]， [!UICONTROL 中]， [!UICONTROL 高]， [!UICONTROL 关键])
-   * **[!UICONTROL 案例产品]** ([!UICONTROL DAM]， [!DNL Fusion]， [!DNL Goals]、等)
-   * **[!UICONTROL 环境]** ([!UICONTROL 生产]， [!UICONTROL 预览]， [!UICONTROL 沙盒]、等)
+   * **[!UICONTROL 案例优先级]** ([!UICONTROL 低]，[!UICONTROL Medium]，[!UICONTROL 高]，[!UICONTROL 关键])
+   * **[!UICONTROL 案例产品]** （[!UICONTROL DAM]、[!DNL Fusion]、[!DNL Goals]等）
+   * **[!UICONTROL 环境]** （[!UICONTROL 生产]、[!UICONTROL 预览]、[!UICONTROL 沙盒]等）
    * **[!UICONTROL 客户地区]** （美洲、EMEA、APAC）
 
-1. 上传所有相关文件，然后单击 **[!UICONTROL 提交案例]**.
+1. 上传所有相关文件，然后单击&#x200B;**[!UICONTROL 提交案例]**。
 
-   案件已提交，且 [!UICONTROL 我的案例] 页面显示。
+   案例已提交，并显示[!UICONTROL 我的案例]页面。
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,19 +87,19 @@ ht-degree: 0%
 
 ## 查看并管理您的支持案例
 
-1. 导航至 **[!UICONTROL 我的案例]** 页面。 提交案例时将打开此页面，也可以通过单击以将其打开 **[!UICONTROL 我的案例]** 在左侧导航中。
+1. 导航到&#x200B;**[!UICONTROL 我的案例]**&#x200B;页面。 当您提交案例时将会打开此页面，或者单击左侧导航栏中的&#x200B;**[!UICONTROL 我的案例]**&#x200B;以将其打开。
 
-1. （可选）使用页面顶部的选项进行过滤 **产品([!DNL Experience Cloud] solution)** 或大小写 **[!UICONTROL 状态]** ([!UICONTROL 打开] 或Closed)。 您也可以使用 [!UICONTROL 搜索] 框中，以搜索与您的支持案例相关的任何关键词。
+1. （可选）使用页面顶部的选项按&#x200B;**产品（[!DNL Experience Cloud]解决方案）**&#x200B;或大小写&#x200B;**[!UICONTROL 状态]** （[!UICONTROL Open]或Closed）进行筛选。 您还可以使用[!UICONTROL 搜索]框搜索与您的支持案例相关的任何关键字。
 
-1. （可选）要查看案例的更多详细信息，请单击 **案例编号** 以访问它。
+1. （可选）要查看案例的更多详细信息，请单击&#x200B;**案例编号**&#x200B;以访问它。
 
    案例视图打开。
 
 1. （可选）在案例视图中，与已分配案例所有者一起查看最新的注释并添加任何其他附件或响应。
 
-1. （可选）要升级案例，请单击 **[!UICONTROL 上报至管理层]** 页面右侧的**下[!UICONTROL 案例详细信息].
+1. （可选）若要呈报案例，请单击页面右侧[!UICONTROL 案例详细信息]下的**0}呈报给管理层&#x200B;]**。**[!UICONTROL 
 
-1. 单击 **[!UICONTROL 关闭案例]** 按钮以关闭机箱。
+1. 单击&#x200B;**[!UICONTROL 关闭案例]**&#x200B;按钮关闭案例。
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

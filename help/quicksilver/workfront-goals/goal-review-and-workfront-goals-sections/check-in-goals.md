@@ -46,7 +46,7 @@ ht-degree: 0%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -56,7 +56,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -68,7 +68,7 @@ ht-degree: 0%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -79,7 +79,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -99,16 +99,16 @@ ht-degree: 0%
 
   另请参阅以下文章：
 
-   * 有关将活动添加到目标的信息，请参阅 [将活动添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * 有关将结果添加到目标的信息，请参阅 [将结果添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * 有关Workfront目标如何计算目标进度的信息，请参阅 [Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * 有关将活动添加到目标的信息，请参阅[在Adobe Workfront目标中添加活动](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。
+   * 有关将结果添加到目标的信息，请参阅[在Adobe Workfront目标中添加结果](../../workfront-goals/results-and-activities/add-results-to-goals.md)。
+   * 有关Workfront目标如何计算目标进度的信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../../workfront-goals/goal-management/calculate-goal-progress.md)。
 
 * 您必须先创建并激活目标，然后才能更新其进度。
 
   另请参阅以下文章：
 
-   * 有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
-   * 有关激活目标的信息，请参阅 [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md).
+   * 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
+   * 有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)。
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 要更新目标的进度，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) > **目标** 在右上角。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png) > **目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ When you check in on a goal in the Check-in section, you can update the progress
    或者，您可以单击左侧面板中的“目标对齐方式”。
 
 1. 从目标列表中，单击目标的名称以打开目标页面。
-1. 单击 **进度指示器** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**进度指示器**。
 
    进度指示器列表会显示选定目标的所有进度指示器。
 
@@ -268,7 +268,7 @@ When you check in on a goal in the Check-in section, you can update the progress
    >    反过来，子目标的进度和项目的进度会驱动所选目标的进度。
 
 
-1. 要更新结果或活动的进度，请单击 **实际进度** 结果或活动的列，并键入一个数字以更新其值，然后按Enter。
+1. 要更新结果或活动的进度，请单击结果或活动的&#x200B;**实际进度**&#x200B;列中的值，并键入一个数字以更新其值，然后按Enter。
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

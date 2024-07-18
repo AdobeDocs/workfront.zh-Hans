@@ -31,13 +31,13 @@ ht-degree: 0%
 * 通过人工更新项目的状态：如果项目的“完成模式”设置为“人工”，并且您人工将项目的状态更改为“完成”，这会触发要更新为上次完成任务的日期和时间的项目的实际完成日期。
 * 当项目的最后一个任务完成时，系统会自动更新：如果项目的“完成模式”设置为“自动”，并且您已将最后一个任务标记为“完成”或更新最后一个任务的“实际完成日期”，则项目的“实际完成日期”也会更新为该日期。
 
-  有关设置项目完成模式的信息，请参阅文章 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+  有关设置项目完成模式的信息，请参阅文章[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
   >[!NOTE]
   >
   >Workfront使用上次完成的项目任务的实际完成日期作为整个项目的实际完成日期。
 
-当任务或问题的计划完成日期设置为“完成”或“关闭”时，Workfront或组管理员会确定Workfront使用的是当天日期还是使用这些日期。 有关设置任务和问题首选项的信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+当任务或问题的计划完成日期设置为“完成”或“关闭”时，Workfront或组管理员会确定Workfront使用的是当天日期还是使用这些日期。 有关设置任务和问题首选项的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 * 作为系统更新的“项目”、“任务”和“问题更新”区域。
 * 项目、任务或问题列表或报告。
 
-有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。

@@ -29,4 +29,4 @@ ht-degree: 0%
 * 重试生成或失败的管道作业
 * 编辑、修改或更新GitLab对象
 
-有关更多信息（包括可用操作的完整列表），请参阅 [GitLab模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).
+有关详细信息（包括可用操作的完整列表），请参阅[GitLab模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md)。

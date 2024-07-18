@@ -27,13 +27,13 @@ ht-degree: 0%
 >
 >如果您属于此阶段，您的客户代表将会通知您。
 >
->有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+>有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 >
 >在某些情况下，在所记录的功能发布到生产环境后，以下部分中引用的文档可能会可用。
 
 本文列出了在2024年发布到Workfront Planing的功能。
 
-Workfront规划方案自2023年5月22日开始。 有关2023年发布的所有功能的列表，请参阅 [Adobe Workfront Planning 2023版发布活动存档](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront规划方案自2023年5月22日开始。 有关2023年期间发布的所有功能的列表，请参阅[Adobe Workfront Planning 2023年发布活动存档](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
 
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
 
@@ -51,7 +51,7 @@ Workfront规划方案自2023年5月22日开始。 有关2023年发布的所有�
 
 现在，当您从连接到某个Workfront对象的Planning记录中单击该对象的名称时，即会打开Workfront对象页面。 在此增强功能之前，连接的Workfront对象的只读Workfront计划页面将会打开，您可以从其中进一步导航到Workfront对象页面。
 
-有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 只有Standard或Plan许可的用户可以创建视图
 
@@ -61,7 +61,7 @@ Workfront规划方案自2023年5月22日开始。 有关2023年发布的所有�
 
 我们已更改了哪些类型的用户可以创建视图。 现在，只有Standard或Plan许可的用户可以创建视图。 所有其他用户只能查看与其共享的视图。 在此更新之前，轻量级和工作级许可的用户可以创建视图。
 
-有关更多信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+有关详细信息，请参阅使用Adobe Workfront Planning时的[许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
 ### 按具有多个值的查找字段对记录进行排序和分组
 
@@ -82,7 +82,7 @@ Workfront规划方案自2023年5月22日开始。 有关2023年发布的所有�
 有关更多信息，请参阅以下文章：
 
 * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 
 ## 2024年6月24日起一周
@@ -95,7 +95,7 @@ AI助手在选定页面的上下文中工作，并使用您的访问和权限级
 
 AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您的客户代表以了解您是否符合参与此阶段的要求。
 
-有关信息，请参阅 [Adobe Workfront规划AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+有关信息，请参阅[Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
 ### 选择工作区或记录类型时的新搜索框
 
@@ -105,7 +105,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 为了更便于在工作区之间或记录类型之间导航，您现在可以在页眉中工作区或记录类型名称右侧的下拉菜单中搜索这些工作区或记录类型。
 
-有关信息，请参阅 [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md).
+有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ### 在表格视图中现有字段的右侧或左侧插入新字段
 
@@ -115,7 +115,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 为了改善并加快您在记录表视图中的体验，我们添加了可在两列之间添加新字段的功能，方法是将其插入现有列的右侧或左侧。
 
-有关信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## 2024年6月17日起一周
 
@@ -127,7 +127,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 我们更新了记录的“详细信息”页面的外观。 作为此更新的一部分，字段图标已被删除。
 
-有关信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 更新了工作区模板
 
@@ -169,9 +169,9 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 有关更多信息，请参阅以下文章：
 
-* [将封面图像添加到记录](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [向记录中添加封面图像](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [向记录中添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ### 在详细信息页面中更新记录标题
 
@@ -195,7 +195,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 我们在连接的记录字段中添加了“显示更多/显示更少”链接，因为如果记录中存在记录，则在记录的“详细信息”页面中的两行以上将会显示这些记录。
 
-有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 在连接记录类型时，使用记录名称自动填充“名称”字段
 
@@ -205,7 +205,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 创建两个记录之间或记录与来自另一个应用程序的对象之间的连接时，连接字段的“名称”将自动填充所连接记录的名称。 在此增强功能之前，您必须手动添加连接字段的名称。
 
-有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 定义已连接记录在已连接字段中的显示方式
 
@@ -219,7 +219,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 此增强功能适用于从Workfront Planning连接的记录以及从Adobe Experience Manager连接的资源。
 
-有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 只有Standard或Plan许可的用户可以拥有工作区的“管理”权限（标题）
 
@@ -229,7 +229,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 我们已经更改了哪些类型的用户可以完全访问工作区。 现在，只有Standard或Plan许可的用户可以拥有工作区的“管理”权限。 记录类型、记录和字段的访问权限从工作区继承。 所有其他用户仅具有对工作区及其对象类型的查看访问权限。 在此更新之前，轻量级和工作级许可的用户可以接收工作区的Contribute权限。
 
-有关更多信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+有关详细信息，请参阅使用Adobe Workfront Planning时的[许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
 ## 2024年6月10日起一周
 
@@ -279,7 +279,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 * Workfront Planning快速入门教程
 
-有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### Workfront Planning的新用户引导体验
 
@@ -309,7 +309,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 人员
 * 复选框字段
 
-有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 默认情况下，与工作区的所有成员共享视图
 
@@ -319,7 +319,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 现在，我们引入了一个选项，您可以通过该选项快速将查看权限授予工作区的所有成员。 在此增强功能之前，只有您专门与共享视图的用户才能访问该视图。 默认情况下不启用此选项。
 
-有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 ### 更新了主菜单中Planning图标的外观
 
@@ -327,7 +327,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-我们更新了主菜单中Planning区域图标的外观。 有关信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+我们更新了主菜单中Planning区域图标的外观。 有关信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 重命名Workfront计划程序
 
@@ -347,7 +347,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 已删除的工作区及其信息将无法恢复。
 
-有关更多信息，请参阅 [删除工作区](/help/quicksilver/planning/architecture/delete-workspaces.md).
+有关详细信息，请参阅[删除工作区](/help/quicksilver/planning/architecture/delete-workspaces.md)。
 
 ### 查找日期字段现在在时间轴视图中可用
 
@@ -357,7 +357,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 现在，您可以将时间轴视图的“开始日期”和“结束日期”设置为来自连接的记录或对象类型的查找字段。
 
-有关创建视图的详细信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关创建视图的详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 2024年5月20日起一周
 
@@ -379,7 +379,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 打开详细信息预览框或页面，以查看有关连接的记录的更多信息
 
-有关信息，请参阅 [管理Adobe Workfront对象“计划”部分中的记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+有关信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
 
 ## 2024年5月13日起一周
 
@@ -399,7 +399,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 我们在记录类型页面的标题上添加了“New record”按钮。 您现在可以从任何视图创建记录。 在此增强功能之前，您只能从表视图创建记录。
 
-有关更多信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
+有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
 
 ### 连接记录时关于对象可见性的新警告
@@ -412,7 +412,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 例如，如果您从Workfront计划营销活动中链接项目，则有权查看营销活动的每个人都将有权查看链接的项目及其查找字段中的信息，即使他们通常对链接的项目没有任何权限，或对项目的访问权限也是如此。 当您收到对工作区的权限时，可以获得对Planning记录的访问权限。
 
-有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ### 向记录的预览和详细信息页面添加部分
 
@@ -422,7 +422,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 为了更好地组织记录页面上的信息以便更有效地阅读和导航，我们在记录页面中引入了部分。 章节标题用作标题，用于将字段整理到不同的类别中。 这些部分是完全可自定义的，如果需要，可以展开或折叠。
 
-有关信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ### 字段配置更改的实时更新
 
@@ -440,7 +440,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 >
 >不会通知其他用户字段配置已更改。
 
-有关更多信息，请参阅 [编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md).
+有关详细信息，请参阅[编辑字段设置](/help/quicksilver/planning/fields/edit-fields.md)。
 
 ## 2024年5月6日起一周
 
@@ -456,7 +456,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 添加记录类型的描述
 
-有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ### 为Adobe Unified Experience客户启用Workfront规划通知
 
@@ -464,9 +464,9 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-如果您是Adobe统一体验客户，并且某人将您添加到记录页面上的评论中，您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关更多信息，请参阅 [帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+如果您是Adobe统一体验客户，并且某人将您添加到记录页面上的评论中，您会收到一个应用程序内通知和一个关于该评论的电子邮件通知。 您可以在Adobe Experience Cloud配置文件的首选项区域中管理通知首选项。 有关详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
-有关Workfront计划通知的更多信息，请参阅 [Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md).
+有关Workfront计划通知的更多信息，请参阅[Adobe Workfront计划通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
 
 ## 2029年4月29日起一周
@@ -479,7 +479,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 当用户更新表视图中记录的信息时，其他用户可以实时在记录的详细信息框（视图内）或页面中查看更新的信息。 这可确保所有用户同时查看更新信息，并与发生更改时保持同步。
 
-有关编辑记录的信息，请参见 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关编辑记录的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 编辑记录后日历视图中的实时更新
 
@@ -505,7 +505,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ## 2024年4月8日起一周
 
@@ -519,7 +519,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 除计算字段外，所有字段类型都支持此功能。
 
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 2024年4月1日起一周
 
@@ -531,7 +531,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 作为Workspace经理，您现在可以重新排序记录页面或预览中列出的字段。 更新字段顺序将更改所有相同类型记录的字段顺序，对于查看记录页面或记录预览的每个人。
 
-有关更多信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
 ### 添加封面图像以记录页面
@@ -542,7 +542,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 在管理记录页面时，您现在可以在记录页面或预览上添加、重新定位和替换封面图像，以丰富记录的展示和利益相关者参与。 查看记录的所有用户都可以看到封面图像。
 
-有关更多信息，请参阅 [管理记录页面布局](/help/quicksilver/planning/records/manage-the-record-page.md).
+有关详细信息，请参阅[管理记录页布局](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 ## 2024年3月25日起一周
 
@@ -560,7 +560,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 在工作区中通过拖放记录类型来动态移动记录类型，包括将其拖放到所需的位置（跨不同的部分）。
 
-有关更多信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+有关详细信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 ### 复制视图
 
@@ -572,7 +572,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 复制视图会使用相同的筛选器、排序标准和分组创建相同的视图。 复制视图不会保留原始视图的权限。
 
-有关更多信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ### 已将主菜单中的Maestro区域重命名为Planning
 
@@ -582,7 +582,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 我们已将主菜单中的Maestro区域重命名为Planning。
 
-有关Adobe Workfront Planning的概述，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+有关Adobe Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 ### 删除记录类型时的新体验
 
@@ -592,7 +592,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 我们在删除记录类型时重新设计了确认框。 删除记录类型会产生影响，因为它也会删除所有记录、记录类型字段、字段中的信息以及与记录类型关联的视图。 无法恢复已删除的记录类型及其已删除的信息。
 
-因此，我们希望在删除记录类型时确保用户的意图准确，因此我们在确认删除时引入了一个额外的步骤。 有关更多信息，请参阅 [删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md).
+因此，我们希望在删除记录类型时确保用户的意图准确，因此我们在确认删除时引入了一个额外的步骤。 有关详细信息，请参阅[删除记录类型](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
 ## 2024年3月18日起一周
 
@@ -602,7 +602,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-您现在可以在日历视图中筛选信息。 有关更多信息，请参阅 [管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+您现在可以在日历视图中筛选信息。 有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ### 使用添加到时间轴和日历视图的记录详细信息进行预览
 
@@ -614,7 +614,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 从记录的预览中，您可以在新的浏览器选项卡中打开记录页面。
 
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 记录类型Excel导入暂时被禁用
 
@@ -640,7 +640,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 用于打开记录页面的链接
 
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 记录视图的新的选项卡式设计
 
@@ -652,18 +652,19 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 视图按添加日期从左到右的顺序显示。 共享视图还按共享时间顺序列出。
 
-有关更多信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ### 记录视图的动态设计
 
-生产： 2024年3月14日预览：待定
+生产： 2024年3月14日
+预览：待定
 
 我们更新了记录类型页面中视图的外观。 新视图会动态响应，并快速调整以适合屏幕大小。 工具栏选项标签会隐藏在较小的屏幕上，以便更加轻松地使用工具栏。
 
 有关更多信息，请参阅以下文章：
 
 * [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ### 允许系统管理员管理所有共享视图
 
@@ -673,7 +674,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 为了与系统的所有其他区域保持一致，并能够维护和控制系统管理员可用的任何视图，您现在拥有对记录类型页面中与您共享的任何视图的管理权限。 在此增强功能之前，视图创建者可能已授予您查看或管理视图的权限。 现在，如果视图与您共享，并且您是系统管理员，则默认情况下您将拥有该视图的管理权限。
 
-有关更多信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 ### 无权限共享视图时未授权的页面
 
@@ -683,7 +684,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 当用户收到指向记录类型的链接并且他们有权访问工作区，但无权访问链接中共享的视图时，将显示一个页面，通知他们无权查看记录类型。
 
-有关更多信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 
 ### 共享对话框中的系统管理员的新标签
@@ -694,7 +695,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 现在，在共享视图或工作区时，我们会在共享对话框中的系统管理员名称旁边显示“管理员”标签。
 
-有关信息，请参阅 [共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+有关信息，请参阅[共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 无权限共享视图时未授权的页面
 
@@ -706,7 +707,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 除了共享工作区之外，您还必须共享视图，以供其他人访问您与链接共享的同一记录类型页面。
 
-有关更多信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 ## 2024年3月4日起一周
 
@@ -724,7 +725,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 中
 * 高。
 
-有关更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ### 新的记录日历视图
 
@@ -734,7 +735,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 您现在可以在日历视图中显示记录。 记录类型中必须至少有两个日期字段才能创建日历视图。
 
-有关更多信息，请参阅 [管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+有关详细信息，请参阅[管理日历视图](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ## 2024年2月26日起一周
 
@@ -748,7 +749,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 您无法过滤、排序或分组允许与多个记录连接的查找字段。
 
-有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md) 和 [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)和[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2024年2月5日起一周
 
@@ -768,9 +769,9 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 具有“审阅”或“请求者”许可证（在新许可证模型中为“参与者”）的用户只能查看与其共享的工作区，以及这些工作区的记录类型和记录。 他们无法创建、编辑或删除记录类型或记录。
 
-有关新许可证模型的信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关新许可证模型的信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关计划功能中许可证类型和权限之间的连接的信息，请参见 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+有关规划功能中许可证类型和权限之间关联的信息，请参阅使用Adobe Workfront规划时的[许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
 
 ### 记录字段富文本工具栏的新外观
@@ -781,7 +782,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 当您编辑段落类型字段时，我们更新了富文本工具栏的外观。
 
-有关信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ### 改进了编辑单选、多选、人员字段以及添加连接对象时的体验
 
@@ -805,7 +806,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 现在，在记录类型的表视图中更新字段时，可以应用这些改进。
 
-有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2024年1月29日起一周
 
@@ -834,7 +835,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 您现在可以向每个记录添加单个缩略图，以便在视图中区分它们。 在表格视图中，您可以添加以前保存在计算机上的图像文件作为缩略图。 缩略图对于每个记录可能是唯一的，并且会同时显示在记录类型页面的表格和时间线视图中。
 
-有关更多信息，请参阅 [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+有关详细信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
 ### 删除连接的记录类型卡片
 
@@ -844,7 +845,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 为避免混淆并简化工作区的管理，我们已从工作区中删除了已连接外部对象的自动生成的只读记录类型卡片。
 
-有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2024年1月22日起一周
 
@@ -866,7 +867,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 * 更改发生的日期和时间戳。
 
-有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/planning/records/history-section-overview.md).
+有关详细信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。
 
 ### 新记录链接的新标签
 
@@ -874,7 +875,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 预览：待定
 
-为了在创建记录时创建一致性，我们为用于创建记录的“+新建”链接重新添加了“+新记录”标签。  在此更新之前，链接包含记录类型的名称。 现在，在创建操作和分类记录时，可以使用新链接。 有关信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
+为了在创建记录时创建一致性，我们为用于创建记录的“+新建”链接重新添加了“+新记录”标签。  在此更新之前，链接包含记录类型的名称。 现在，在创建操作和分类记录时，可以使用新链接。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 
 ## 2024年1月8日起一周
 
@@ -909,7 +910,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
 * 管理：用户可以编辑、共享和删除视图。
 
-有关更多信息，请参阅 [访问概述](/help/quicksilver/planning/access/access-overview.md) 和 [在Adobe Workfront Planning功能中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+有关详细信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)和[在Adobe Workfront规划功能中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新建公式字段类型
 
@@ -923,7 +924,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 
 在公式计算中，不能使用来自链接记录类型的查找字段。 此功能将在以后提供。
 
-有关信息，请参阅 [公式字段概述](/help/quicksilver/planning/fields/formula-fields.md).
+有关信息，请参阅[公式字段概述](/help/quicksilver/planning/fields/formula-fields.md)。
 
 ### 在表视图中管理记录时撤消/重做操作
 

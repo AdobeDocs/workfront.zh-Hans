@@ -2,7 +2,7 @@
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: 在Portfolio优化器中优化项目
-description: 您可以使用 [!UICONTROL Portfolio优化程序] 根据项目的得分和其他值对项目优先排序。 Optimizer会考虑重要的项目信息，如成本、协调、风险和ROI，以便根据对您更重要的内容来优先安排项目。
+description: 您可以使用[!UICONTROL Portfolio优化器]根据项目的分数和其他值确定项目的优先级。 Optimizer会考虑重要的项目信息，如成本、一致性、风险和ROI，以根据对您更重要的内容安排项目的优先级。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# 优化 [!UICONTROL Portfolio优化程序]
+# 在[!UICONTROL Portfolio优化器]中优化项目
 
-您可以使用 [!UICONTROL Portfolio优化程序] 根据项目的得分和其他值对项目优先排序。 的 [!UICONTROL Optimizer] 考虑重要的项目信息（如成本、协调、风险和ROI），根据对您更重要的内容对项目进行优先级排序。
+您可以使用[!UICONTROL Portfolio优化器]根据项目的分数和其他值确定项目的优先级。 [!UICONTROL 优化器]会考虑重要的项目信息，如成本、一致性、风险和ROI，以根据对您更为重要的内容确定项目的优先级。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,55 +27,55 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>[!UICONTROL计划] </p> </td> 
+   <td> <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对项目和Portfolio的[!UICONTROL Edit]访问权限</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL管理]对产品组合的权限</p> <p>为项目提供或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 在Portfolio优化器中优化项目
 
-1. 打开Portfolio，然后单击 **[!UICONTROL Portfolio优化]** 中。
+1. 打开Portfolio，然后单击左侧面板中的&#x200B;**[!UICONTROL Portfolio优化]**。
 
-   的 [!UICONTROL Portfolio优化程序] 显示。
+   显示[!UICONTROL Portfolio优化器]。
 
-1. 单击 **[!UICONTROL 优化]** 图标。
+1. 单击&#x200B;**[!UICONTROL 优化]**&#x200B;图标。
 
    ![](assets/optimize-icon-portfolio-optimizer.png)\
-   项目的评分依据的类别显示在 [!UICONTROL 优化] 图标。
+   可对项目进行评分的类别显示在[!UICONTROL 优化]图标的左侧。
 
-1. 使用滑动圆，修改以下任意类别的优化：
+1. 使用滑动圆，修改以下任一类别的优化：
 
-   * **[!UICONTROL 低成本]**:将滑块向右移动，以查看级别最低的项目 [!UICONTROL 计划成本].
-   * **[!UICONTROL 高对齐度]**:将滑块向右移动，可查看基于 [!UICONTROL 记分卡].
-   * **[!UICONTROL 高价值]**:将滑块向右移动，以查看具有更高级别的项目 [!UICONTROL 净值] 得分。
-   * **[!UICONTROL 低收益风险]**:将滑块向右移动可查看风险与效益比率最低的项目。
-   * **[!UICONTROL 高ROI]**:将滑块向右移动可查看投资回报率(ROI)更高的项目。
+   * **[!UICONTROL 低成本]**：将滑块向右移动以查看计划成本最低[!UICONTROL 的项目]。
+   * **[!UICONTROL 高对齐方式]**：将滑块向右移动以查看根据[!UICONTROL 记分卡]具有最高对齐方式的项目。
+   * **[!UICONTROL 高值]**：将滑块向右移动以查看得分较高的[!UICONTROL 净值]项目。
+   * **[!UICONTROL 收益低风险]**：将滑块向右移动以查看收益比最低的项目。
+   * **[!UICONTROL 高ROI]**：将滑块向右移动以查看具有较高投资回报(ROI)的项目。
 
-1. 单击 **x图标** 来关闭优化类别。
+1. 单击&#x200B;**x图标**&#x200B;以关闭优化类别。
 
-   这会更新 [!UICONTROL 得分] 值 **[!UICONTROL 得分]** 列。
+   这会更新&#x200B;**[!UICONTROL 得分]**&#x200B;列中每个项目的[!UICONTROL 得分]值。
 
-   有关 [!UICONTROL Portfolio优化程序] 得分，请参阅 [概述 [!UICONTROL Portfolio优化程序] 得分](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   有关[!UICONTROL Portfolio优化器]得分的信息，请参阅[Portfolio优化器]得分](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)的概述。[!UICONTROL 
 
-1. 在为 **[!UICONTROL 得分]** 列中，单击 **[!UICONTROL 得分]** 列。 得分最高的项目将显示在列表顶部。
+1. 为&#x200B;**[!UICONTROL 得分]**&#x200B;列设置正确的权重后，单击&#x200B;**[!UICONTROL 得分]**&#x200B;列的标题可按此列排序。 得分最高的项目显示在列表顶部。
 
-1. （可选）按优先级顺序拖放项目。\
-   这将更改 [!UICONTROL Portfolio优化程序].
-1. （可选）单击 **[!UICONTROL 设置优先级]** 以保存项目的新优先级。\
-   有关对中的项目进行优先级排序的详细信息 [!UICONTROL Portfolio优化程序]，请参阅文章 [在 [!UICONTROL Portfolio优化程序]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+1. （可选）按优先级拖放项目。\
+   这将更改[!UICONTROL Portfolio优化器]中项目的顺序。
+1. （可选）单击&#x200B;**[!UICONTROL 设置优先级]**&#x200B;以保存项目的新优先级。\
+   有关在[!UICONTROL Portfolio优化器]中排定项目优先级的更多信息，请参阅文章[在[!UICONTROL Portfolio优化器]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)中排定项目优先级。
 
-1. 单击 **[!UICONTROL 保存]** 保存 [!UICONTROL Portfolio优化程序].
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存您的[!UICONTROL Portfolio优化器]。

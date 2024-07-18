@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft SQL Server模块
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 以连接到Microsoft SQL Server。
+description: 您可以使用 [!DNL Adobe Workfront Fusion] 连接到Microsoft SQL Server。
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft SQL Server] 模块
+# [!DNL Microsoft SQL Server]模块
 
-您可以使用 [!DNL Adobe Workfront Fusion] 以连接到 [!UICONTROL Microsoft SQL Server].
+您可以使用[!DNL Adobe Workfront Fusion]连接到[!UICONTROL Microsoft SQL Server]。
 
 ## 访问要求
 
@@ -39,31 +39,31 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 
 
-## 连接 [!DNL Microsoft SQL Server] 服务对象 [!DNL Workfront Fusion]
+## 正在将[!DNL Microsoft SQL Server]服务连接到[!DNL Workfront Fusion]
 
-有关连接 [!DNL Microsoft SQL Server] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+有关将[!DNL Microsoft SQL Server]帐户连接到[!UICONTROL Workfront Fusion]的说明，请参阅[创建与[!UICONTROL Adobe Workfront Fusion]的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -71,21 +71,21 @@ ht-degree: 0%
 >
 >例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
 
-## 使用 [!DNL Microsoft SQL Server] 模块
+## 使用[!DNL Microsoft SQL Server]模块
 
-您可以通过存储过程直接在数据库服务器上执行自定义逻辑。 [!DNL Adobe Workfront Fusion] 动态加载输入/输出参数和记录集的接口，以便可以单独映射每个参数或值。 在开始配置方案之前，请确保用于连接到数据库的帐户具有读取权限 `INFORMATION_SCHEMA.ROUTINES` 和 `INFORMATION_SCHEMA.PARAMETERS` 视图。
+您可以通过存储过程直接在数据库服务器上执行自定义逻辑。 [!DNL Adobe Workfront Fusion]动态加载输入/输出参数和记录集的接口，以便可以单独映射每个参数或值。 在开始配置方案之前，请确保用于连接到数据库的帐户具有对`INFORMATION_SCHEMA.ROUTINES`和`INFORMATION_SCHEMA.PARAMETERS`视图的读取权限。
 
-时间 [!DNL Fusion] 建立与 [!DNL SQL server] 目标， [!DNL Fusion] 用户标识主机（托管服务器的域名或IP地址）和端口。 [!DNL Fusion] 可以连接到任何可用的主机和端口。
+当[!DNL Fusion]建立与[!DNL SQL server]目标的连接时，[!DNL Fusion]用户将识别主机（承载服务器的域名或IP地址）和端口。 [!DNL Fusion]可以连接到任何可用的主机和端口。
 
-有关使用的特定IP地址的信息 [!DNL Workfront Fusion]，请参见 [用于访问的IP地址 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+有关[!DNL Workfront Fusion]使用的特定IP地址的信息，请参阅[用于访问的IP地址 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-要了解有关创建存储过程的更多信息，请参见 [!DNL Microsoft SQL Server] 文档。
+要了解有关创建存储过程的更多信息，请参阅[!DNL Microsoft SQL Server]文档。
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] 不支持多个记录集。 仅处理第一个实例。
+>[!DNL Workfront Fusion]不支持多个记录集。 仅处理第一个实例。
 
-## 错误疑难解答 [!UICONTROL ER_LOCK_WAIT_TIMEOUT：超过锁定等待超时；请尝试重新启动事务]
+## 疑难解答错误[!UICONTROL ER_LOCK_WAIT_TIMEOUT：超过锁定等待超时；请尝试重新启动事务]
 
 使用多个模块修改相同的数据时，会发生此错误。 它由SQL事务引起。
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 打开自动提交。 自动提交在模块执行完成后立即完成（提交）每个事务。
 
-1. 单击 [!UICONTROL 方案设置] 图标 ![](assets/scenario-settings-icon.png)在屏幕底部。
-1. 单击 **[!UICONTROL 自动提交]** 复选框。
-1. 单击 **[!UICONTROL 确定]** 以保存方案设置。
+1. 单击屏幕底部的[!UICONTROL 方案设置]图标![](assets/scenario-settings-icon.png)。
+1. 单击&#x200B;**[!UICONTROL 自动提交]**&#x200B;复选框。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;以保存方案设置。

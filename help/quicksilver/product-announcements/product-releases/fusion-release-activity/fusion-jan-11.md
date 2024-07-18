@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本页介绍了2021年1月11日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 现在提供加宽连接器和模块
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 * 检索收藏集中的资产列表
 * 执行自定义API调用。
 
-有关详细信息，请参阅 [加宽模块](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+有关详细信息，请参阅[加宽模块](../../../workfront-fusion/apps-and-their-modules/widen-modules.md)。
 
 ## Datadog连接器和模块现已可用
 
@@ -44,10 +44,10 @@ ht-degree: 0%
 
 使用Datadog模块，您可以：
 
-* 发布时间系列点数
+* Post时间系列点
 * 执行自定义API调用
 
-有关Datadog模块的信息，请参见 [Datadog模块](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+有关Datadog模块的信息，请参阅[Datadog模块](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md)。
 
 ## Cvent连接器和模块现已可用
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 更新或删除联系人
 * 进行自定义API调用
 
-有关可用的Cvent模块的信息，请参见 [Cvent模块](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+有关可用Cvent模块的信息，请参阅[Cvent模块](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md)。
 
 ## Microsoft Dynamics 365连接器和模块现已推出
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 * 创建、读取、更新或删除Microsoft Dynamics 365记录
 * 执行自定义API调用
 
-有关可用的Microsoft Dynamics 365模块的信息，请参阅 [Microsoft Dynamics 365模块](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+有关可用的Microsoft Dynamics 365模块的信息，请参阅[Microsoft Dynamics 365模块](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)。
 
 ## DocuSign连接器和模块现已可用
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 * 将文件上载到信封
 * 执行自定义API调用
 
-有关更多信息，请参阅 [DocuSign模块](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+有关详细信息，请参阅[DocuSign模块](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md)。
 
 ## 搜索场景执行历史记录
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 以前，查找特定的执行信息需要分别查看每个执行。
 
-有关更多信息，请参阅 [在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+有关详细信息，请参阅[在Adobe Workfront Fusion中查看方案的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## Fusion 2.0数据存储的更新
 
@@ -104,13 +104,13 @@ ht-degree: 0%
 * 编辑单个单元格
 * 添加多行
 
-有关数据存储的详细信息，请参阅 [数据存储模块](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+有关数据存储区的详细信息，请参阅[数据存储模块](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md)。
 
 ## 通过HTTP连接器发出API密钥授权请求
 
 为了提高访问API方式的灵活性，我们在HTTP连接器中添加了一个新模块。 现在，当您要访问的Web服务需要使用API密钥时，可以使用HTTP连接器发出请求。
 
-有关更多信息，请参阅 [HTTP模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+有关详细信息，请参阅[HTTP模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)。
 
 ## 映射面板中可用的新函数
 
@@ -138,6 +138,6 @@ ht-degree: 0%
 
   函数是一个字符串函数，可转义文本中的所有Markdown标记。
 
-有关omit和pick函数的更多信息，请参见 [Adobe Workfront Fusion中的常规函数](../../../workfront-fusion/functions/general-functions.md).
+有关omit和pick函数的更多信息，请参阅[Adobe Workfront Fusion中的常规函数](../../../workfront-fusion/functions/general-functions.md)。
 
-有关escapeMarkdown函数的更多信息，请参见 [Adobe Workfront Fusion中的字符串函数](../../../workfront-fusion/functions/string-functions.md).
+有关escapeMarkdown函数的详细信息，请参阅Adobe Workfront Fusion中的[字符串函数](../../../workfront-fusion/functions/string-functions.md)。

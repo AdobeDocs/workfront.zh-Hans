@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 22.3管理员增强功能
 
-本页介绍了在22.3版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能在2022年7月11日这一周提供。 有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本页介绍了在22.3版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能在2022年7月11日这一周提供。 有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 将Adobe Workfront与JumpSeat集成
 
 您现在可以将JumpSeat与Workfront集成，为用户创建自定义的产品内指南。 您必须拥有Adobe Workfront企业许可证和有效的JumpSeat订阅才能启用集成。
 
-有关更多信息，请参阅 [配置JumpSeat集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+有关详细信息，请参阅[配置JumpSeat集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)。
 
 ## 已将验证默认设置移动到Workfront
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 * 验证决策设置
 
-有关更多信息，请参阅 [配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+有关详细信息，请参阅[配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)。
 
 ## 在审批流程中使用解锁状态
 
-**注意：** 从22.3生产版本中删除。 此功能计划于2022年9月15日发布到生产环境。
+**注意：**&#x200B;已从22.3生产版本中删除。 此功能计划于2022年9月15日发布到生产环境。
 
 为了让您更好地控制系统中的审批流程和状态，我们让您能够根据已解锁的系统状态创建审批流程。 此外，您现在可以解锁已在审批流程中使用的任何状态。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 我们将继续帮助您通过可添加的新资产小组件（如图像和视频）使自定义表单更可视化、信息化。 现在，您可以将指向PDF文件的链接添加到自定义表单。 将表单附加到对象后，使用该对象的用户可以从表单中查看该PDF并与之交互。
 
-有关更多信息，请参阅 [在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关详细信息，请参阅[在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 自定义表单字段计算编辑器显示错误信息
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 现在，编辑自定义字段的计算更加容易，并可在计算中直接指示有用的错误信息。 在自定义表单中创建计算字段时，错误将以粉红色突出显示。 将鼠标悬停在突出显示的部分上时，将显示工具提示以描述问题所在。
 
-有关更多信息，请参阅 [将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关详细信息，请参阅[将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 项目标题自定义
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 在此版本之前，无法自定义对象标题中的字段。
 
-有关更多信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+有关详细信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 ## 控制创建空白项目
 
@@ -94,17 +94,17 @@ ht-degree: 0%
 
 新设置是“允许用户在不使用模板的情况下创建项目”，默认情况下启用该设置。
 
-**注意：** 用户仍然可以将任务转换为空白项目。
+**注意：**&#x200B;用户仍然可以将任务转换为空白项目。
 
-有关更多信息，请参阅 [配置系统范围的项目首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+有关详细信息，请参阅[配置系统范围的项目首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ## 从组页面取消激活组
 
-最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，可以选择“更多”菜单 ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) 在组名旁边，选择停用或重新激活。
+最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，您可以选择组名旁边的更多菜单![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)，然后选择停用或重新激活。
 
 以前，只能使用群组“详细信息”页面上的“处于活动状态”复选框来停用或重新激活群组。
 
-有关更多信息，请参阅 [停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+有关详细信息，请参阅[停用或重新激活组](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 ## 将视频添加到自定义表单
 
@@ -112,5 +112,5 @@ ht-degree: 0%
 
 以前，您只能将基于文本的字段和图像添加到自定义表单。
 
-有关更多信息，请参阅 [在自定义表单中添加或编辑图像或视频资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+有关详细信息，请参阅[在自定义表单中添加或编辑图像或视频资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 

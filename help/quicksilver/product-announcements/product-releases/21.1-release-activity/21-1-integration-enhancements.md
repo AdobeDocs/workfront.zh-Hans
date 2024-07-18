@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本页介绍了21.1版本对“预览”环境的所有集成增强。 这些增强功能将在2021年2月15日这一周的“生产”环境中提供。
 
-有关21.1版本可用的所有更改列表，请参阅 [21.1发行版概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+有关21.1版本的所有可用更改列表，请参阅[21.1版本概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## Microsoft Teams中的Adobe Workfront通知增强
 
@@ -31,5 +31,5 @@ ht-degree: 0%
 
 要利用此新功能，您必须再次登录到您的Microsoft Teams帐户。 您无需执行任何其他操作。
 
-有关更多信息，请参阅 [在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+有关详细信息，请参阅[在Microsoft Teams中管理Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 

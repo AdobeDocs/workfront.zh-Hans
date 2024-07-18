@@ -24,26 +24,26 @@ ht-degree: 1%
 
 有关2019.1版中所做所有更改的列表，请参阅“2019.1版活动概述”。
 
-**适用于管理员**
+管理员的&#x200B;****
 
-* [从回收站恢复模板](#restore-templates-from-the-recycle-bin)
-* [在主页中显示日期字段的时间戳](#show-timestamps-for-date-fields-in-home)
+* [从回收站还原模板](#restore-templates-from-the-recycle-bin)
+* [显示主页中日期字段的时间戳](#show-timestamps-for-date-fields-in-home)
 * [项目偏好设置下可用的所有持续时间类型](#all-duration-types-available-under-project-preferences)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
 * [Agile改进](#agile-improvements)
-* [将任务和问题从列表添加到开发周期](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [用于导出甘特图的新纸张大小](#new-paper-sizes-for-gantt-chart-export)
-* [在编辑模式下删除了对甘特图中对话框的访问权限](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [在项目列表甘特图中查看项目或Portfolio中的任务信息](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [将任务和问题从列表添加到迭代](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [甘特图导出的新纸张大小](#new-paper-sizes-for-gantt-chart-export)
+* [在编辑模式下删除了对甘特图对话框的访问权限](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [在程序或Portfolio的项目列表甘特图中查看任务信息](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
 * [访问模板上的任务列表甘特图](#access-the-task-list-gantt-chart-on-templates)
-* [重命名了甘特图上的项目视图](#renamed-the-project-view-on-the-gantt-chart)
+* [重命名甘特图上的项目视图](#renamed-the-project-view-on-the-gantt-chart)
 * [任务列表甘特图中的假设分析方案](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [任务列表改进](#task-list-improvements)
 * [全屏显示列表](#display-lists-in-full-screen)
 * [其他区域的新列表](#new-lists-in-additional-areas)
-* [以XLSX格式发送已传送的报表](#send-a-delivered-report-in-xlsx-format)
+* [以XLSX格式发送传递的报告](#send-a-delivered-report-in-xlsx-format)
 * [导出审核日志](#export-audit-logs)
 
 ## 从回收站恢复模板 {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ TSV
 
 ## 任务列表改进 {#task-list-improvements}
 
-[更新了18.3 Beta 4，从中删除了此设置]
+[更新已从]中删除的18.3 Beta 4
 
 新重新设计的任务列表在18.3 Beta 4版本中短暂删除后已重新启用。 我们还向任务列表引入了以下附加功能，这些功能不在原始版本中：
 

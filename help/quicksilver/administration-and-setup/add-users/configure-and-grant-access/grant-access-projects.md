@@ -23,7 +23,7 @@ ht-degree: 0%
 * [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
-有关使用自定义访问级别管理用户对Workfront中其他对象类型的访问的信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+有关使用自定义访问级别管理用户对Workfront中其他对象类型的访问的信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 访问要求
 
@@ -54,14 +54,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 使用自定义访问级别配置用户对项目的访问权限
 
-1. 开始创建或编辑访问级别，如中所述 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 单击齿轮图标 ![](assets/gear-icon-settings.png) 在 **视图** 或 **编辑** 按钮，然后在下选择要授予的功能 **微调您的设置**.
+1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
+1. 单击项目右侧&#x200B;**查看**&#x200B;或&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后在&#x200B;**微调设置**&#x200B;下选择要授予的功能。
 
    ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
@@ -69,10 +69,10 @@ ht-degree: 0%
    >
    >* 拥有工作许可证的用户具有有限的项目权限。 他们可以参与项目，但无法管理项目。
    >* 具有“审阅”许可证的用户对转化问题中的项目具有“查看”权限，但其“查看”权限受限。
-   >* 有关用户在与他人共享项目时可以授予的权限的信息，请参阅 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* 在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别的项目，但这不会限制他们删除比项目级别低的任务。有关对象层次结构的详细信息，请参阅部分 [对象的相互依赖性和层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 在文章中 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >* 有关用户在与他人共享项目时可以授予的权限的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
+   >* 在为特定类型的对象配置访问级别设置时，该配置不会影响用户对较低排名的对象的访问。 例如，您可以限制用户删除其访问级别中的项目，但这不会限制他们删除比项目级别低的任务。有关对象层次结构的详细信息，请参阅文章[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[相互依赖性和对象层次结构](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)部分。
 
-1. （可选）单击 **设置共享默认值** 创建选项的右侧，然后 **添加规则** ，为新项目添加共享规则。
+1. （可选）单击“创建”选项右侧的&#x200B;**设置共享默认值**，然后单击&#x200B;**添加规则**&#x200B;为新项目添加共享规则。
 
    当具有此访问级别的用户创建项目时，该项目将自动与您在左侧菜单中选择的用户共享。
 
@@ -84,23 +84,23 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果具有此访问级别的用户使用项目访问模板，则该模板将覆盖访问级别中的共享设置。 有关项目访问模板的信息，请参阅 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >如果具有此访问级别的用户使用项目访问模板，则该模板将覆盖访问级别中的共享设置。 有关项目访问模板的信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
    您可以重复此步骤，根据需要为访问级别添加任意数量的项目共享规则。
 
-1. 单击X关闭 **微调您的设置** 盒子。
-1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行中列出的文章之一 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予任务访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完成后，单击 **保存**.
+1. 单击X关闭&#x200B;**微调设置**&#x200B;框。
+1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行[配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，如[授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+1. 完成后，单击&#x200B;**保存**。
 
-   创建访问级别后，可将其分配给用户。 有关更多信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   创建访问级别后，可将其分配给用户。 有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 按许可证类型访问报告、功能板和日历
 
-有关每个访问级别的用户可处理问题的信息，请参阅部分 [项目](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) 在文章中 [可用于每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+有关每个访问级别中的用户可以如何处理问题的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[项目](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)部分。
 
 ## 访问共享项目
 
-作为问题的所有者或创建者，您可以通过授予其他用户对其的权限来与其共享，如中所述 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+作为问题的所有者或创建者，您可以通过授予其他用户对该问题的权限来与其共享，如[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)中所述。
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:

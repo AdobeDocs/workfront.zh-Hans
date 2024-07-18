@@ -1,31 +1,31 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: 创建 [!DNL Adobe Workfront] Outlook电子邮件中的请求
-description: 您可以创建 [!DNL Adobe Workfront] 来自Outlook电子邮件的请求。
+title: 从Outlook电子邮件创建 [!DNL Adobe Workfront] 请求
+description: 您可以在Outlook中通过电子邮件创建 [!DNL Adobe Workfront] 请求。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# 创建 [!DNL Adobe Workfront] 来自 [!UICONTROL Outlook] 电子邮件
+# 从[!UICONTROL Outlook]电子邮件创建[!DNL Adobe Workfront]请求
 
-您可以创建 [!DNL Adobe Workfront] 来自Outlook电子邮件的请求。
+您可以在Outlook中通过电子邮件创建[!DNL Adobe Workfront]请求。
 
-创建 [!DNL Workfront] 基于电子邮件的请求，默认情况下，电子邮件的内容（包括主题和正文）包含在请求中。
+基于电子邮件创建[!DNL Workfront]请求时，默认情况下请求中包含电子邮件的内容（包括主题和正文）。
 
 >[!NOTE]
 >
->您无法创建 [!DNL Workfront] 来自共享的请求 [!UICONTROL Outlook] 邮箱。
+>无法从共享[!UICONTROL Outlook]邮箱创建[!DNL Workfront]请求。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,45 +33,45 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td> <p>[！UICONTROL工作]，[！UICONTROL计划]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-您的 [!DNL Workfront] 管理员必须启用 [!DNL Outlook for Office] with [!DNL Workfront] ，以便您使用此集成。
+您的[!DNL Workfront]管理员必须使用[!DNL Workfront]启用[!DNL Outlook for Office]，然后才能使用此集成。
 
-## 从 [!DNL Outlook] 电子邮件
+## 通过[!DNL Outlook]电子邮件创建请求
 
-创建 [!DNL Workfront] 请求来源 [!DNL Outlook]:
+要从[!DNL Outlook]创建[!DNL Workfront]请求，请执行以下操作：
 
-1. 选择包含要包含在 [!DNL Workfront] 请求。
-1. 单击 **[!DNL Workfront]** 图标来显示Workfront加载项。\
-   您可能需要单击电子邮件右上角的向下箭头才能访问 [!DNL Workfront] 图标。
+1. 选择包含要包含在[!DNL Workfront]请求中的信息的电子邮件。
+1. 单击电子邮件右上角的&#x200B;**[!DNL Workfront]**&#x200B;图标以显示Workfront加载项。\
+   您可能需要单击电子邮件右上角的向下箭头才能访问[!DNL Workfront]图标。
 
-1. 单击 **[!UICONTROL 菜单]** 图标 ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) 显示可用列表 [!DNL Workfront] 选项。
+1. 单击&#x200B;**[!UICONTROL 菜单]**&#x200B;图标![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)以显示可用[!DNL Workfront]选项的列表。
 
-1. 单击 **[!UICONTROL 提交请求]**.
-1. 在 **[!UICONTROL 选择请求类型]** 字段中，选择要在其中提交请求的请求队列。
+1. 单击&#x200B;**[!UICONTROL 提交请求]**。
+1. 在&#x200B;**[!UICONTROL 选择请求类型]**&#x200B;字段中，选择要提交请求的请求队列。
 
 1. 指定以下信息：\
-   根据请求队列的设置方式，可用字段可能会有所不同。 有关可能字段的完整列表和说明，请参阅 [创建和提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md) 文章。
+   可用字段可能会因请求队列的设置方式而异。 有关可能字段的完整列表和说明，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md)文章。
 
-   * **[!UICONTROL 主题]:** 指定请求的主题。 默认情况下，会使用电子邮件主题。
-   * **[!UICONTROL 描述]:** 为请求指定描述。 默认情况下，会使用电子邮件正文。
-   * **[!UICONTROL 文档]:** 附加要包含在请求中的任何文档。 您可以通过拖放或单击 **[!UICONTROL 选择文件]** 浏览并选择文档。\
+   * **[!UICONTROL 主题]：**&#x200B;为请求指定主题。 默认情况下，使用电子邮件主题。
+   * **[!UICONTROL 描述]：**&#x200B;为请求指定描述。 默认情况下，会使用电子邮件正文。
+   * **[!UICONTROL 文档]：**&#x200B;附加要包含在请求中的任何文档。 您可以通过拖放或单击&#x200B;**[!UICONTROL 选择文件]**&#x200B;并浏览和选择文档来附加文档。\
 
-      默认情况下，附加到电子邮件的任何文档都会包含在请求中。
+     默认情况下，附加到电子邮件的任何文档都会包含在请求中。
 
-1. 单击 **[!UICONTROL 提交请求]**.\
-   请求已提交到 [!DNL Workfront]，位于指定的请求队列中。
+1. 单击&#x200B;**[!UICONTROL 提交请求]**。\
+   请求在指定的请求队列中提交到[!DNL Workfront]。
 
-1. （可选）导航回 [!DNL Outlook]，然后选择原始电子邮件。\
-   在 [!DNL Workfront] 加载项面板中，请注意带有链接的确认，即电子邮件已作为请求添加到Workfront。 该链接包括转换日期。\
+1. （可选）导航回[!DNL Outlook]，然后选择原始电子邮件。\
+   在[!DNL Workfront]加载项面板顶部，注意包含链接的确认，表明电子邮件已作为请求添加到Workfront。 该链接包含转换日期。\

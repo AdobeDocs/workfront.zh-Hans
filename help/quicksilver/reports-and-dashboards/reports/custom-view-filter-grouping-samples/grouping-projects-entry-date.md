@@ -2,72 +2,72 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「群組：依輸入日期區分的專案」
-description: 在此自訂專案分組中，您可以顯示按其輸入日期值分組的專案。
+title: '分组：按输入日期显示项目'
+description: 在此自定义项目分组中，您可以显示按项目输入日期值分组的项目。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# 群組：依輸入日期區分的專案
+# 分组：按输入日期显示项目
 
-在此自訂專案分組中，您可以顯示按其輸入日期值分組的專案。
+在此自定义项目分组中，您可以显示按项目输入日期值分组的项目。
 
-每個群組都會顯示「輸入日期」在下列範圍內的專案：
+每个分组都会显示其输入日期在以下范围内的项目：
 
-* 過去30天
+* 过去30天
 * 30-60天
-* 60天或更久
+* 60天或更早
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改群組 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改分组 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改群組</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改分组</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 依輸入日期群組專案
+## 按输入日期对项目分组
 
-若要套用此群組：
+要应用此分组，请执行以下操作：
 
-1. 前往現有的專案報告，或建立新的專案報告。\
-   如需建立報告的詳細資訊，請參閱文章 [建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. 转到现有项目报告，或创建新项目报告。\
+   有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 從 **分組** 標籤，按一下 **新增群組**.
+1. 在&#x200B;**分组**&#x200B;选项卡中，单击&#x200B;**添加分组**。
 
-1. 按一下 **切換至文字模式**.
-1. 移除 **將報表分組** 區域。
-1. 將文字取代為下列程式碼：
+1. 单击&#x200B;**切换到文本模式**。
+1. 删除&#x200B;**对您的报告分组**&#x200B;区域中的文本。
+1. 将文本替换为以下代码：
 
    ```
    group.0.linkedname=direct<br>
@@ -89,4 +89,4 @@ ht-degree: 0%
    textmode=true
    ```
 
-1. 按一下 **儲存+關閉**.
+1. 单击&#x200B;**保存+关闭**。

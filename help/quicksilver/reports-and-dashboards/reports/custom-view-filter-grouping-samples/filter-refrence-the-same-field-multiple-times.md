@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「篩選：建立參照相同欄位（「AND」陳述式）的多個篩選規則」
-description: 在標準模式介面中，當嘗試建立參照相同欄位的多個篩選器時（使用AND限定詞），當您儲存報表並退出Report Builder時會刪除其中一個篩選器。
+title: “过滤器：创建引用同一字段（'AND'语句）的多个过滤器规则”
+description: 在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
@@ -14,56 +14,56 @@ ht-degree: 0%
 
 ---
 
-# 篩選：建立參照相同欄位（「AND」陳述式）的多個篩選規則
+# 过滤器：创建引用同一字段（“AND”语句）的多个过滤器规则
 
-在標準模式介面中，當嘗試建立參照相同欄位的多個篩選器時（使用AND限定詞），當您儲存報表並退出Report Builder時會刪除其中一個篩選器。
+在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
 
-**範例：** 您可能只想檢視名稱中包含「綠色」字樣但不包含「紅色」字樣的工作。 Adobe Workfront不允許您使用標準模式介面儲存下列篩選規則，因為它參考相同的欄位（工作名稱），但使用不同的修飾元和參考不同的值：
+**示例：**&#x200B;您可能只想查看包含“绿色”一词但不包含“红色”一词的任务。 Adobe Workfront不允许您使用标准模式界面保存以下过滤器规则，因为它引用了相同的字段（任务名称），但使用了不同的修饰符并引用了不同的值：
 
-* 任務名稱>包含>綠色
-* 任務名稱>不包含>紅色
+* 任务名称>包含>绿色
+* 任务名称>不包含>红色
 
-不過，您可以使用文字模式建立此篩選器。
+但是，您可以使用文本模式创建此过滤器。
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改篩選器 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改筛选器 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改篩選器</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-## 建立參考相同欄位的多個篩選規則
+## 创建引用同一字段的多个筛选规则
 
-1. 前往工作清單。
-1. 從 **篩選** 下拉式功能表，選取 **新增篩選器**.
-1. 按一下 **切換至文字模式**.
-1. 暫留在文字模式區域上，然後按一下 **按一下以編輯文字**.
-1. 在設定報表的篩選規則區域中，新增下列程式碼：
+1. 转到任务列表。
+1. 从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
+1. 单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 在报表的“设置过滤规则”区域中，添加以下代码：
 
    ```
    name=green
@@ -74,21 +74,19 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >若要建置類似的篩選器，請先建置第一個陳述式。 例如：
+   >要构建类似的过滤器，请先构建第一条语句。 例如：
    >
-   >
-   ```
+   >```
    >name=green
    >name_Mod=cicontains
    >```
    >
-   >視需要多次複製並貼上陳述式。 然後，您可以視需要新增多個陳述式，以參考相同欄位（在此案例中為「name」），並對其他陳述式進行下列修改：
+   >根据需要多次复制并粘贴语句。 然后，您可以添加所需数量的语句，以引用同一字段（在本例中为“name”），并对其他语句进行以下修改：
    >
-   >1. 在兩個複製行的前面加上「AND」:1:「」、「和:2:「」、「和:3:「」等字元作為每個新欄位可能的值。
-   >1. 將欄位行替換為新的欄位值（在「=」符號之後）。
-   >1. 以新的修正因子取代修正因子明細行(_Mod)。
-
+   >1. 对于每个新字段可能值，在复制的两行前面加上“AND:1:”、“AND:2:”、“AND:3:”等。
+   >1. 将字段行替换为新的字段值（在“=”符号之后）。
+   >1. 将修改量行(_Mod)替换为新的修改量。
    >   
-   >這些陳述式會區分大小寫。
+   >这些语句区分大小写。
 
-1. 按一下 **完成**，則 **儲存篩選器**.
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存筛选器**。

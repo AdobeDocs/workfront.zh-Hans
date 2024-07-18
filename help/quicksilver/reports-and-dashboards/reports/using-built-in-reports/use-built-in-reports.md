@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [视图中的内置状态图标](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
+* 视图中的[内置状态图标](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [使用Adobe Workfront内置报告](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-* [资源利用率报表概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [面向新Workfront体验的基本报表创建计划](https://one.workfront.com/s/basic-report-creation-program)
+* [资源利用率报告概述](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+* 新Workfront体验的[基本报告创建计划](https://one.workfront.com/s/basic-report-creation-program)

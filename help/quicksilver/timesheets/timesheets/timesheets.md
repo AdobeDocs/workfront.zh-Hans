@@ -11,7 +11,7 @@ exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [工时表概述](../../timesheets/timesheets/timesheets-overview.md)
+* [时间表概述](../../timesheets/timesheets/timesheets-overview.md)
 * [工时表布局概述](../../timesheets/timesheets/timesheet-layout.md)

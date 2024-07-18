@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 使用增强型身份验证重置用户密码
-description: 为您的启用了增强型身份验证(eAuth)时 [!DNL Workfront] 环境， a [!DNL Workfront] 管理员无法重置其他用户的登录凭据。 这与 [!DNL Workfront] 没有eAuth的环境或启用了单点登录(SSO)的环境。
+description: 为您的 [!DNL Workfront] 环境启用增强身份验证(eAuth)后， [!DNL Workfront] 管理员无法重置其他用户的登录凭据。 这与没有eAuth的 [!DNL Workfront] 环境或启用了单点登录(SSO)的环境不同。
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-为您的启用了增强型身份验证(eAuth)时 [!DNL Workfront] 环境， a [!DNL Workfront] 管理员无法重置其他用户的登录凭据。 这与 [!DNL Workfront] 没有eAuth的环境或启用了单点登录(SSO)的环境。
+为您的[!DNL Workfront]环境启用增强身份验证(eAuth)后，[!DNL Workfront]管理员无法重置其他用户的登录凭据。 这与没有eAuth的[!DNL Workfront]环境或启用了单点登录(SSO)的环境不同。
 
 ## 访问要求
 
@@ -44,21 +44,21 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 在启用eAuth的环境中重置用户密码
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Workfront]，然后单击 **[!UICONTROL 用户]** ![](assets/users-icon-in-main-menu.png).
+1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![](assets/users-icon-in-main-menu.png)。
 
    ![](assets/main-menu-options-350x481.png)
 
-1. 选择 **[!UICONTROL 用户]** 需要重置密码。
+1. 选择需要重置密码的&#x200B;**[!UICONTROL 用户]**。
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. 单击 **[!UICONTROL 更多] 按钮** 在您选择所需的 **[!UICONTROL 用户]** 并选择 **[!UICONTROL 发送忘记密码电子邮件]** 选项。
+1. 单击选择所需的&#x200B;**[!UICONTROL 用户]**&#x200B;后显示的&#x200B;**[!UICONTROL 更多]按钮**，然后从下拉菜单中选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项。
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-选择 **[!UICONTROL 发送忘记密码电子邮件]** 选项，会向选定的用户发送一封电子邮件，其中包含有关用户更改自己密码的说明。
+选择&#x200B;**[!UICONTROL 发送忘记密码电子邮件]**&#x200B;选项后，会向选定的用户发送一封电子邮件，其中包含有关用户更改自己密码的说明。
 
 ![](assets/pwresetemail-resized-350x461.png)

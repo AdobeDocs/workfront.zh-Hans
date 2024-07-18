@@ -16,9 +16,9 @@ ht-degree: 0%
 
 本页介绍了2024年第一季度版本中包含的功能信息。 这些增强功能计划于2024年1月18日和19日在生产环境中提供给所有客户使用24.1版。
 
-24.1版本网络研讨会于2024年1月11日举行。 您可以 [在此注册网络研讨会观看即时录像](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+24.1版本网络研讨会于2024年1月11日举行。 您可以[在此处](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview)注册网络研讨会以观看即时录制。
 
-<span class="preview">非周期功能（在2024年第一季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
+<span class="preview">周期外功能（在2024年第一季度发布日期之前发布到生产环境的功能）以黄色突出显示。</span>
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >| <ul><li>无版本（2024年11月）</li><li>无版本（2024年12月）</li><li>24.1（2024年1月）</li></ul> | <ul><li>24.1（2024年1月）</li></ul> |
 >| <ul><li>24.2（2024年2月）</li><li>24.3（2024年3月）</li><li>24.4（2024年4月）</li></ul> | <ul><li>24.4（2024年4月）</li></ul> |
 >
->有关快速发布流程的详细信息，请参阅 [启用或禁用快速发布流程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>有关快速发布过程的详细信息，请参阅[启用或禁用快速发布过程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 
 
 ## Adobe Workfront增强功能
@@ -62,7 +62,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现在提供了过去12个月的校对/文档决策</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">现可提供之前12个月的校对/文档决策</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>现在，新许可证类型和旧许可证类型的“用户决策”报表会显示当月以及前12个月的决策数。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">已更新文档审批状态</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审批的状态已更新</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明文档审批状态，我们更新了可用的文档状态审批。 现在，审批状态考虑将其审阅标记为完成的审阅人，以及只有审阅人但不包含审批人的情况。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将审阅标记为完成</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明何时审阅了文档并准备好进入下一个批准阶段，我们创建了一个新的 <strong>完成我的审查</strong> 按钮。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">将评论标记为完成</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更清楚地说明何时已审阅文档并准备好进入下一个审批阶段，我们创建了一个新的<strong>完成我的审阅</strong>按钮。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审阅和审批状态显示在文档标题中</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">文档审阅和审批状态显示在文档标题</a>中</p><p>[！BADGE In Production ]{type=Informational}</p><p>为了使审阅和批准过程更加透明，我们在“文档详细信息”页面的标题中添加了状态。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -247,7 +247,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速操作按钮已更改为仅在鼠标悬停时显示</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">我的工作快速操作按钮已更改为仅在鼠标上方显示</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -281,7 +281,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用 <code>xcm:keywords</code> 而不是 <code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两种服务都使用 <code>xcm:keywords</code> 字段。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials中的映射元数据现在使用<code>xcm:keywords</code>，而不是<code>dc:subject</code></a></p><p>[！BADGE In Production ]{type=Informational}</p><p>我们更新了Experience Manager Assets Essentials集成，以匹配Experience Manager Assetsas a Cloud Service集成中的体验。 现在，当在Experience Manager Assets中将多个单行文本字段映射到单个字段时，两个服务都使用<code>xcm:keywords</code>字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -298,7 +298,7 @@ ht-degree: 0%
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager集成中现在提供预输入字段</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
+                        Adobe Experience Manager集成中现在提供了<a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">预输入字段</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了更便于在Workfront和Adobe Experience Manager之间链接字段，我们在元数据映射中添加了对预输入字段的支持。 现在，您可以将预输入字段映射到Adobe Experience Manager中的相应字段。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -348,7 +348,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更相关的智能分配</a></p><p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p><p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -386,7 +386,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">将图像拖放到更新部分的评论中</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分的评论中拖放图像</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>为了增强注释的内容，您现在可以将图像快速拖放到注释中，或回复对象的“更新”部分。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -404,7 +404,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新的评论体验可捕获项目、任务、问题和文档的所有信息</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>项目、任务、问题和文档会显示自Workfront实例启动以来在新评论体验区域中的所有更新。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新评论体验会捕获项目、任务、问题和文档的所有信息</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>项目、任务、问题和文档会显示自Workfront实例启动以来在新评论体验区域中的所有更新。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -419,7 +419,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在更新部分中搜索评论或用户</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">在“更新”部分搜索评论或用户</a></p><p>[！BADGE In Production ]{type=Informational}</p><p>要快速在对象的“更新”部分中查找信息，您现在可以从注释中搜索关键字，或者搜索与注释相关联的任何用户。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -460,15 +460,15 @@ ht-degree: 0%
 
 ### Workfront Fusion增强
 
-Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一定节奏在“生产”环境中提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
 ### Workfront Scenario Planner增强
 
 此版本中目前没有Scenario Planner更新。 在有可用更新时，将更新此区域。
 
-### Workfront校对增强功能
+### Workfront Proof增强功能
 
-此版本中目前没有Workfront校对更新。 在有可用更新时，将更新此区域。
+此版本中目前没有Workfront Proof更新。 在有可用更新时，将更新此区域。
 
 ### Workfront目标增强功能
 
@@ -478,14 +478,14 @@ Workfront Fusion中的新增功能在2023年第一季度发布计划之外以一
 
 对于API版本17，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本17中的新增功能](/help/quicksilver/wf-api/api/new-api-version-17.md).
+有关新增功能和更新的信息，请参阅[API版本17](/help/quicksilver/wf-api/api/new-api-version-17.md)中的新增功能。
 
-有关API版本的信息，请参阅 [API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 ### Workfront 维护更新
 
-有关2024年第一季度版本中所做维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+有关2024年第一季度发布的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关更多信息，请参阅 [Workfront“Tutorials”页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。

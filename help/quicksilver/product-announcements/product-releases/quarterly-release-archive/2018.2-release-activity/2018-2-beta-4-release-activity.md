@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 4发布活动
-description: 本页介绍了2018.2 Beta 4版本预览环境中最近提供的所有更改。 该功能将于2018年5月17日在预览环境中可用。 该版本将于2018年7月在生产环境中提供。
+title: 2018.2 Beta 4发行版活动
+description: 本页介绍了2018.2 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年5月17日在预览环境中可用。 该版本将于2018年7月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 4发布活动
+# 2018.2 Beta 4发行版活动
 
-本页介绍了2018.2 Beta 4版本预览环境中最近提供的所有更改。 该功能将于2018年5月17日在预览环境中可用。 该版本将于2018年7月在生产环境中提供。
+本页介绍了2018.2 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年5月17日在预览环境中可用。 该版本将于2018年7月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
+2018.2 Beta 4版本包含适用于Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
 * [系统设置：外部页面中的会话信息](#system-setting-session-information-in-external-pages)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
-* [Kanban展示板上的正在进行的工作(WIP)限制增强功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
-* [改进了用于为Agile团队配置状态的界面](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [主页区域已更新工作列表（左侧面板）](#updated-work-list-left-panel-in-the-home-area)
-* [用于对交互式（富媒体）内容进行校对的新桌面校对查看器](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* Kanban展示板上的[正在工作(WIP)限制增强功能](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [改进了配置Agile团队状态的界面](#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [主页区域已更新工作列表（左面板）](#updated-work-list-left-panel-in-the-home-area)
+* [新桌面验证查看者用于验证交互式（富媒体）内容](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [导出资源规划者中的用户视图](#export-the-user-view-in-the-resource-planner)
 * [支持Google团队驱动器](#support-for-google-team-drives)
 * [甘特图的新导出限制](#new-export-limit-for-the-gantt-chart)
-* [使用Internet Explorer或Safari时，“从剪贴板粘贴”选项现在显示为灰色](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [Android的新测试版环境以及新增功能](#new-beta-environment-for-android-along-with-new-features)
+* 使用Internet Explorer或Safari时，[从剪贴板粘贴选项现在显示为灰色](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [适用于Android的新Beta环境以及新功能](#new-beta-environment-for-android-along-with-new-features)
 * [事件订阅消息的过滤器示例](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Kanban展示板上的正在进行的工作(WIP)限制增强功能 {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在此更改之前，您只能配置一个应用于Kanban展示板上所有列的WIP限制。 
 
-有关更多信息，请参阅部分  [配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) 在文章中  [配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+有关更多信息，请参阅部分  在文章中[配置正在进行的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [配置Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 ### 直接从Kanban展示板更新正在进行的工作(WIP)限制
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 在此更改之前，只能从“团队设置”区域更新WIP限制。
 
-有关更多信息，请参阅文章中的。
+有关更多信息，请参阅  在文章中。
 
 ## 改进了用于为Agile团队配置状态的界面 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
   在“主页”区域之外查看的项目在“主页”区域仍显示为“未读”。
 
-  有关更多信息，请参阅 [在“主页”区域的工作列表中显示项目](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  有关详细信息，请参阅[在主页区域的工作列表中显示项目](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
 * 现在，通过问题旁边显示的问题图标来区分问题。
 * 现在按审批类型区分审批，并显示审批类型。 可能的审批类型包括任务、项目、问题、访问、文档、时间表和验证。
@@ -102,20 +102,20 @@ ht-degree: 0%
 
   此数字不可用于“已完成”分组。
 
-  有关更多信息，请参阅 [在“主页”区域的工作列表中显示项目](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  有关详细信息，请参阅[在主页区域的工作列表中显示项目](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
 
 * 通过拖放调整工作列表的大小。 您可以调整工作列表的大小，使其最多占用一半屏幕。 您设置的大小将在下次访问Home时保留。
 
   在此更改之前，无法更改工作列表的大小。
 
-* 对于请求，现在将显示发出请求的用户的用户头像，其中显示文本&#39;&#39;[Approver_name] 希望您能批准。”
+* 对于请求，现在会显示发出请求的用户的用户头像，其中显示文本“[Approver_name]”表示希望您审批。
 * 创建新的个人任务时，“待办事项”按钮现在标记为“个人”。
 
-  有关更多信息，请参阅 [从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 在文章中 [从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  有关详细信息，请参阅文章[从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)中的[从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 * 仅在计划完成日期后一小时内，延迟物料才会显示为“延迟”。
 
-有关“主页”区域的详细信息，请参阅 [使用“主页”区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+有关主页区域的详细信息，请参阅[使用主页区域](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
 ## 用于对交互式（富媒体）内容进行校对的新桌面校对查看器 {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -137,15 +137,15 @@ ht-degree: 0%
 
 有关下载、安装和使用桌面校对查看器的更多信息，请参阅。
 
-有关桌面校对查看器和基于浏览器的校对查看器之间的功能差异的信息，请参阅 [Web验证查看器和桌面验证查看器的区别概述](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+有关桌面验证查看器和基于浏览器的验证查看器之间的功能差异的信息，请参阅[Web验证查看器和桌面验证查看器之间的差异概述](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。
 
 ## 导出资源规划者中的用户视图 {#export-the-user-view-in-the-resource-planner}
 
 为了解决一些性能问题，我们在用户视图中显示数据时暂时禁止从资源规划者导出数据。 在此版本中，我们在用户视图中显示资源规划者时重新启用数据导出。
 
-有关将资源规划者数据导出到Excel的更多信息，请参阅中的“导出选项”部分。 [资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有关将资源规划者数据导出到Excel的更多信息，请参阅[资源规划者导航概述](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“导出选项”部分。
 
-要参与我们针对资源规划者的当前Beta计划，请参阅 [资源规划者性能测试版。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+要参与我们当前针对资源规划者的测试版计划，请参阅[资源规划者绩效Beta。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
 
 ## 系统设置：外部页面中的会话信息 {#system-setting-session-information-in-external-pages}
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 在此更改之前，可创建外部页面的用户在将其他网站嵌入到Workfront仪表板中时，可以使用任何会话信息。 
 
-有关在Workfront中配置系统首选项的更多信息，请参阅 [配置系统安全首选项](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+有关在Workfront中配置系统首选项的详细信息，请参阅[配置系统安全首选项](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## 支持Google团队驱动器 {#support-for-google-team-drives}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 在此增强功能之前，您可以链接仅位于Google我的驱动器上的文档或文件夹。
 
-有关将文档和文件夹从各种应用程序链接到Workfront的更多信息，请参阅 [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关将文档和文件夹从各种应用程序链接到Workfront的更多信息，请参阅[链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 甘特图的新导出限制 {#new-export-limit-for-the-gantt-chart}
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 以前，最多只能导出250个任务。
 
-有关更多信息，请参阅 [将甘特图导出到PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+有关详细信息，请参阅[将甘特图导出到PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 ## 使用Internet Explorer或Safari时，“从剪贴板粘贴”选项现在显示为灰色 {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,11 +177,11 @@ ht-degree: 0%
 
 在此更改之前，使用Internet Explorer或Safari时不显示此选项。 
 
-有关从剪贴板粘贴图像的详细信息，请参阅 [粘贴剪贴板中的图像](../../../../documents/managing-documents/paste-image-clipboard.md).
+有关从剪贴板粘贴图像的详细信息，请参阅[从剪贴板粘贴图像](../../../../documents/managing-documents/paste-image-clipboard.md)。
 
-## Android的新测试版环境以及新增功能 {#new-beta-environment-for-android-along-with-new-features}
+## 适用于Android的新Beta环境以及新增功能 {#new-beta-environment-for-android-along-with-new-features}
 
-现在，您可以通过注册成为测试版测试员，在面向公众发布移动应用程序的最新功能之前，体验我们的团队正在努力处理的最新功能。 Workfront移动设备应用程序当前仅支持Android手机支持此环境。
+现在，您可以通过注册成为测试版测试员，在面向公众发布移动应用程序的最新功能之前，体验我们的团队正在努力处理的最新功能。 目前，Workfront移动设备应用程序仅支持Android手机使用此环境。
 
 有关如何注册成为Workfront移动设备应用程序的测试版测试者的更多信息，请参阅。
 
@@ -215,4 +215,4 @@ ht-degree: 0%
 
 ## 事件订阅消息的过滤器示例 {#examples-of-filters-for-event-subscriptions-messages}
 
-为了演示如何过滤事件订阅以仅接收与您的组织相关的消息，现在提供了示例代码片段来过滤到达您端点的事件流。 要了解有关查看筛选示例的更多信息，请参阅 [过滤事件订阅消息](../../../../wf-api/api/filter-event-sub-messages.md).
+为了演示如何过滤事件订阅以仅接收与您的组织相关的消息，现在提供了示例代码片段来过滤到达您端点的事件流。 若要了解有关查看筛选示例的详细信息，请参阅[筛选事件订阅消息](../../../../wf-api/api/filter-event-sub-messages.md)。

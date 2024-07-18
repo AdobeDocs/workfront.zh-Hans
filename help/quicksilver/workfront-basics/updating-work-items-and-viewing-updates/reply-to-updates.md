@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >无法在“System Activity（系统活动）”选项卡中回复系统更新。 在2024年4月11日之前的旧版评论体验中，对系统更新的任何回复均显示为只读。
 
-本文介绍了如何回复Workfront中大多数对象的注释。 有关各种对象的“更新”部分之间的差异，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+本文介绍了如何回复Workfront中大多数对象的注释。 有关各种对象的“更新”部分之间的差异，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 ## 访问要求
 
@@ -79,39 +79,39 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 在Workfront中回复更新或回复
 
-您可以回复可查看的对象线程中的注释，也可以以Workfront或组管理员身份登录并代表其他用户回复注释。 有关更多信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+您可以回复可查看的对象线程中的注释，也可以以Workfront或组管理员身份登录并代表其他用户回复注释。 有关详细信息，请参阅[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 ### 回复评论
 
 对于Workfront中的大多数对象，在对象的“更新”部分中回复注释的方式都类似。
 
 1. 转到要向其添加回复的对象。
-1. 单击 **更新**，然后单击 **评论** 选项卡，并查找要回复的注释或回复
+1. 单击&#x200B;**更新**，然后单击对象的&#x200B;**注释**&#x200B;选项卡并查找要回复的注释或回复
 
    或
 
-   单击 **全部** 选项卡，然后单击 **在评论中回复** 在“注释”选项卡中打开注释并回复注释。 您不能在“全部”选项卡中回复。
+   单击“**全部**”选项卡，然后单击“**在评论中回复**”以在“评论”选项卡中打开评论并回复。 您不能在“全部”选项卡中回复。
 
-1. （可选）要在回复中包含来自先前更新的文本，请单击 **更多** 菜单，然后单击 **引用回复**. 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
-1. 单击 **回复**.
+1. （可选）若要在回复中包含来自上次更新的文本，请单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。 上次更新的文本会显示在输入区域中，以垂直灰色线标记。
+1. 单击&#x200B;**回复**。
 
    ![](assets/reply-to-update-empty-box.png)
 
-   您可以在页面底部看到积极参与对话的用户 **添加回复……** 框后，您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   您可以在&#x200B;**添加回复……**&#x200B;框的底部看到积极参与对话的用户，然后您可以添加更多内容，或删除不再相关的内容。 这些用户以及订阅了对象的任何用户将在对对象进行更新或回复时收到通知。 您还可以标记更多用户以将其包含在回复中。  若要标记更多用户，请参阅[标记其他用户的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
    >[!TIP]
    >
-   >   要向现有回复添加其他回复，您可以开始键入 **添加回复……** 框，或单击 **回复** 在原始注释上。 您的回复将添加到线程的末尾。
+   >   若要向现有回复添加其他回复，您可以开始在&#x200B;**添加回复……**&#x200B;框中键入，或单击原始评论上的&#x200B;**回复**。 您的回复将添加到线程的末尾。
 
-1. 开始键入回复，并使用富文本工具栏中的任何其他选项。 有关使用富文本或其他更新功能的信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+1. 开始键入回复，并使用富文本工具栏中的任何其他选项。 有关使用富文本或其他更新功能的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
-1. 单击 **提交** 以保存回复。
+1. 单击&#x200B;**提交**&#x200B;以保存回复。
 
-1. （可选）单击 **更多** 菜单 ![](assets/more-menu.png) 在要回复的评论的右上角，查看更多用于管理回复的选项。 有关更多信息，请参阅 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）单击要回复的评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)以了解更多用于管理回复的选项。 有关详细信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![email.png](assets/email-350x202.png)
 
-有关信息，请参阅 [回复电子邮件通知](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+有关信息，请参阅[回复电子邮件通知](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md)。
 
 
 

@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
-# 上传校样自 [!DNL Photoshop]
+# 从[!DNL Photoshop]上传校样
 
-您可以将艺术展示板作为校样直接上传到 [!DNL Adobe Workfront] 以进行彻底的审查和批准。
+您可以将艺术展示板作为验证直接上传到[!DNL Adobe Workfront]以进行彻底审阅和批准。
 
 ## 访问要求
 
@@ -35,67 +35,67 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您必须拥有 [!DNL Adobe Creative Cloud] 除了许可证之外， [!DNL Workfront] 许可证。</td> 
+   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p> </td> 
+   <td> <p>编辑对[！UICONTROL文档]的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
 ## 先决条件
 
-* 您必须安装 [!DNL Adobe Workfront for Photoshop] 上传校样之前 [!DNL Adobe Photoshop].
+* 您必须先安装[!DNL Adobe Workfront for Photoshop]，然后才能从[!DNL Adobe Photoshop]上载校样。
 
-  有关说明，请参阅 [安装 [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  有关说明，请参阅[安装 [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)。
 
 ## 上传基本校对
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载校样的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 在导航栏中。
-1. 单击 **[!UICONTROL 新建文件]** 接近底部 [!DNL Workfront] 面板。
-1. 启用 **[!UICONTROL 创建验证]** 切换。
-1. （可选）在中键入验证的名称 **[!UICONTROL 校对名称]** 文本框。
-1. 在 **[!UICONTROL 校对审批]** 部分，选择 **[!UICONTROL 基本]**.
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
+1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
+1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 基本]**。
 1. （可选）添加批准者。
-1. （可选）在 **[!UICONTROL 更新]** 区域。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
    ![](assets/add-comment.png)
 
-1. 选择 **[!UICONTROL 资源类型]** 从下拉菜单中。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
 
-1. （可选）选择 **[!UICONTROL 添加外部文件]** 以从计算机添加文件。
-1. 单击 **[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
+1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
 
    ![](assets/plugin-files-350x307.png)\
-   文档显示在 [!UICONTROL 文档] 中的区域 [!DNL Workfront] 面板位于 [!DNL Photoshop] 和 [!DNL Workfront] 桌面应用程序。
+   文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 
 ## 上传自动验证
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. 转到要上载校样的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png) 在导航栏中。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
 
-1. 单击 **[!UICONTROL 新建文件]** 接近底部 [!DNL Workfront] 面板。
-1. 启用 **[!UICONTROL 创建验证]** 切换。
-1. （可选）在中键入验证的名称 **[!UICONTROL 校对名称]** 文本框。
-1. 在 **[!UICONTROL 校对审批]** 部分，选择 **[!UICONTROL 自动]**.
-1. （可选）在 **[!UICONTROL 工作流模板]** 框中，键入验证工作流模板的名称。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新建文件]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
+1. （可选）在&#x200B;**[!UICONTROL 校对名称]**&#x200B;文本框中键入校对的名称。
+1. 在&#x200B;**[!UICONTROL 校对审批]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 自动]**。
+1. （可选）在&#x200B;**[!UICONTROL 工作流模板]**&#x200B;框中，键入验证工作流模板的名称。
 
 {{adjust-proof-settings}}
 
@@ -104,34 +104,34 @@ ht-degree: 0%
 > 如果工作流模板中有任何空白必填字段，则自动验证设置会自动打开，并且您需要填充这些字段才能上传验证。
 
 
-1. （可选）在 **[!UICONTROL 更新]** 区域。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
 
    ![](assets/add-comment-automated-approval.png)
 
-1. 选择 **[!UICONTROL 资源类型]** 从下拉菜单中。
-1. （可选）选择 **[!UICONTROL 添加外部文件]** 以从计算机添加文件。
-1. 单击 **[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档显示在 [!UICONTROL 文档] 中的区域 [!DNL Workfront] 面板位于 [!DNL Photoshop] 和 [!DNL Workfront] 桌面应用程序。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
+1. （可选）选择&#x200B;**[!UICONTROL 添加外部文件]**&#x200B;以从您的计算机添加文件。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
+文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。
 
 ## 上传新验证版本
 
 您可以上传新版本的验证。 该插件会记住在以前的版本上设置的验证工作流，但您可以根据需要更改此设置。
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. 转到需要上载文档的工作项。
-1. 单击 **[!UICONTROL 文档]** 图标 ![](assets/documents.png)在导航栏中。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 文档]**&#x200B;图标![](assets/documents.png)。
 
-1. 单击 **[!UICONTROL 新版本]** 接近底部 [!DNL Workfront] 面板。
-1. 启用 **[!UICONTROL 创建验证]** 切换。
+1. 单击[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
+1. 启用&#x200B;**[!UICONTROL 创建验证]**&#x200B;切换开关。
 
-1. 在 *[!UICONTROL *验证审批]**部分，选择 **[!UICONTROL 基本]** 或 **[!UICONTROL 自动]**.
+1. 在&#x200B;*[!UICONTROL *校对审批]**分区中，选择&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自动]**。
 
-1. 添加 **[!UICONTROL 审阅者]** 或 **[!UICONTROL 工作流模板]** 基于您在步骤7中选择的批准类型。
+1. 根据您在步骤7中选择的审批类型添加&#x200B;**[!UICONTROL 审阅者]**&#x200B;或&#x200B;**[!UICONTROL 工作流模板]**。
 
-1. （可选）在 **[!UICONTROL 更新]** 区域。
-1. 选择 **[!UICONTROL 资源类型]** 从下拉菜单中。
-1. 单击 **[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
-文档显示在 [!UICONTROL 文档] 中的区域 [!DNL Workfront] 面板位于 [!DNL Photoshop] 和 [!DNL Workfront] 桌面应用程序。
+1. （可选）在&#x200B;**[!UICONTROL 更新]**&#x200B;区域键入评论。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 资源类型]**。
+1. 单击&#x200B;**[!UICONTROL 上传]**，然后根据以上选择的资源类型配置任何所需的导出选项。
+文档出现在[!DNL Photoshop]的[!DNL Workfront]面板的[!UICONTROL 文档]区域和[!DNL Workfront]桌面应用程序中。

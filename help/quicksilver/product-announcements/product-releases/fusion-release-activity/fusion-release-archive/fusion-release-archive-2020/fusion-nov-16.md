@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本页介绍了2020年11月16日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Jira云连接器的更新
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 我们还更新了现有模块以支持“Sprint”对象类型。 以前，只能通过自定义API调用模块访问“Sprint”对象。
 
-有关更多信息，请参阅 [Jira软件模块](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+有关详细信息，请参阅[Jira软件模块](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)。
 
 ## 执行ID现在可用于场景中的映射
 
 现在，映射面板中提供了方案的执行ID。 此ID表示场景的特定执行，可用作元数据。 例如，执行ID可以与Fusion创建的记录一起保存，以便您稍后可以确定创建该记录的Fusion执行。 您可以在映射面板中的“常规函数”下找到执行ID。
 
-有关场景执行的详细信息，请参见 [Adobe Workfront Fusion中的场景执行、周期和阶段](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+有关场景执行的详细信息，请参阅[Adobe Workfront Fusion中的场景执行、周期和阶段](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)。
 
 ## Workfront Fusion 2.0方案的键盘快捷键
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 * Ctrl/Cmd+Shift+Enter：运行方案一次
 * Ctrl/Cmd + Shift + S：保存方案
 
-有关构建Workfront Fusion 2.0场景的更多信息，请参阅 [在Adobe Workfront Fusion中创建方案](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
+有关生成Workfront Fusion 2.0方案的详细信息，请参阅[在Adobe Workfront Fusion中创建方案](../../../../../workfront-fusion/scenarios/create-a-scenario.md)。
 
 ## Office 365 Excel连接器的更新
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 应用程序中仍存在以前可用的模块。
 
-有关更多信息，请参阅 [Microsoft Office 365 Excel模块](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
+有关详细信息，请参阅[Microsoft Office 365 Excel模块](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)。
 
 ## 在您的Workfront应用程序连接中使用OAuth 2.0
 
@@ -74,4 +74,4 @@ ht-degree: 0%
 
 现有连接此时不需要任何更改。 但是，如果您希望利用OAuth 2.0的好处，可以重新授权现有连接。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。

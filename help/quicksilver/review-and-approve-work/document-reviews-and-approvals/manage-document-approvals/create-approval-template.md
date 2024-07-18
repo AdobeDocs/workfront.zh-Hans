@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # 创建资产和文档的审批模板
 
-<span class="preview">本页上的信息介绍了尚未公开发布的功能。 它仅在预览Sandbox环境中可用。</span>
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 在Workfront设置区域中，具有Standard许可证的用户可以创建可靠的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
 
 >[!IMPORTANT]
 >
->本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
 
@@ -45,20 +45,20 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 创建审批模板
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **审阅和批准** > **审批模板**.
-1. 单击 **新建模板** 页面右侧的。
+1. 在左侧面板中，单击&#x200B;**审阅和批准** > **批准模板**。
+1. 单击页面右侧的&#x200B;**新建模板**。
 1. 指定以下信息：
 
    | 模板名称 | 开始键入此模板的名称。 |
    |----------------------------|---|
    | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，会从此字段计算审批截止日期。 |
-   | **添加审批者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
+   | **添加批准者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
 1. 单击&#x200B;**保存**。
 
 

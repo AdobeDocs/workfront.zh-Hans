@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2019.1版本中包含的所有资源管理增强功能。 该功能现已在“生产”环境中可用。
 
-有关2019.1版中所做所有更改的列表，请参阅 [2019.1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+有关2019.1版中所做所有更改的列表，请参阅[2019.1版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)。
 
 ## 更新了资源规划者中的默认筛选器
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 * 状态为“当前”或“计划”。
 * 与已登录用户的主组匹配的组。
 
-有关将过滤器应用于资源规划者的信息，请参阅 [资源规划者中的筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+有关将过滤器应用于资源规划者的信息，请参阅资源规划者中的[过滤器信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 ## 将通配符用于资源规划者筛选器
 
-现在，在资源规划者中构建过滤器时可以使用通配符。 例如，可以使用$$USER.ID筛选已登录的用户信息，或使用$$USER.companyID筛选与已登录用户属于同一公司的所有用户信息。 有关基于用户的变量的完整列表，请参阅 [基于用户的通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) 中的部分 [通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+现在，在资源规划者中构建过滤器时可以使用通配符。 例如，可以使用$$USER.ID筛选已登录的用户信息，或使用$$USER.companyID筛选与已登录用户属于同一公司的所有用户信息。 有关基于用户的变量的完整列表，请参阅[通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)中的[基于用户的通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables)部分。
 
 以前，通配符不可用于资源规划者过滤器。
 
-有关在资源规划程序中过滤的信息，请参阅 [资源规划者中的筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+有关在资源规划者中进行筛选的信息，请参阅资源规划者中的[筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
 <!--
 <iframe class="mt-media" src="assets/290697527?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 在此增强功能之前，您只能使用基于用户的通配符筛选器变量。
 
-有关在资源规划程序中过滤的信息，请参阅 [资源规划者中的筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+有关在资源规划者中进行筛选的信息，请参阅资源规划者中的[筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。
 
-有关通配符筛选器变量的信息，请参阅 [通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+有关通配符筛选器变量的信息，请参阅[通配符筛选器变量](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
 ## 资源规划者中角色视图的导出选项
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 在此增强功能之前，已在“角色”视图中导出所有级别的信息。 在以前的版本中，这些选项已引入到“项目”和“用户”视图中。
 
-有关从资源规划者导出信息的信息，请参见 [从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+有关从资源规划者导出信息的信息，请参阅[从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 用于导出资源规划者的数据格式选项
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 在此增强功能之前，导出的文件中的信息显示为Workfront中的信息。
 
-有关从资源规划者导出信息的信息，请参见 [从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+有关从资源规划者导出信息的信息，请参阅[从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 持续性计划时间表
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 现在，当您刷新时间线或导航离开页面时，计划时间线会保留您选择的时间范围。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 在此增强功能之前，默认情况下，所有级别的信息导出到资源规划者的所有视图中。
 
-有关从资源规划者导出信息的信息，请参见 [从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+有关从资源规划者导出信息的信息，请参阅[从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md)。
 
 ## 更新至资源规划者中的用户视图
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 
 您可以使用基于用户的筛选器来减少“用户视图”中显示的用户数，仅限分配给要显示的项目的用户。
 
-有关资源规划者中过滤器的信息，请参阅 [资源规划者中的筛选信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+有关资源规划者中过滤器的信息，请参阅资源规划者中的[过滤器信息](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)。

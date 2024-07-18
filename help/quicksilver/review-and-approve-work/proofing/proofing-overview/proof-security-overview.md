@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 需要登录
 
-需要登录以增强在您的帐户中创建的验证的安全性。 您可以为帐户级别的所有验证启用所需的登录，也可以根据需要为各个验证启用它。 有关启用帐户的详细信息，请参阅 [配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+需要登录以增强在您的帐户中创建的验证的安全性。 您可以为帐户级别的所有验证启用所需的登录，也可以根据需要为各个验证启用它。 有关为帐户启用的详细信息，请参阅[配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 电子签名
 
-电子签名使您能够增强验证的安全性并遵守行业安全标准，如ISO。 您可以为帐户级别的所有验证启用电子签名，也可以根据需要为各个验证启用电子签名。 有关更多信息，请参阅 [配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+电子签名使您能够增强验证的安全性并遵守行业安全标准，如ISO。 您可以为帐户级别的所有验证启用电子签名，也可以根据需要为各个验证启用电子签名。 有关详细信息，请参阅[配置默认校对设置](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)。
 
 ## 以电子方式签署证明
 

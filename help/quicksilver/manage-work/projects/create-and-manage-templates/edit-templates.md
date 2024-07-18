@@ -51,14 +51,14 @@ ht-degree: 2%
    <td role="rowheader">对象权限</td> 
    <td> 
     <ul> 
-     <li> <p>在模板详细信息选项卡中编辑该模板的参与权限</p> </li> 
+     <li> <p>Contribute有权在模板详细信息选项卡中编辑模板</p> </li> 
      <li> <p>管理在编辑模板框中编辑模板的权限</p> </li> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -564,8 +564,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 -->
 
 1. 转到要编辑的模板。
-1. （视情况而定）要编辑有关模板的有限信息，请单击 **模板详细信息** 在左侧面板中，然后转到左侧面板中列出的区域来编辑每个区域的信息。
-1. 要编辑“详细信息”部分中的信息，请单击 **编辑** 图标 ![](assets/edit-icon.png)，然后从以下任意区域选择，或单击 **编辑全部** 要编辑所有区域的信息，请执行以下操作：
+1. （视情况而定）要编辑有关模板的有限信息，请单击左侧面板中的&#x200B;**模板详细信息**，然后转到左侧面板中列出的区域以编辑每个区域的信息。
+1. 若要编辑“详细信息”部分中的信息，请单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后从以下任何区域进行选择，或单击&#x200B;**全部编辑**&#x200B;以编辑所有区域的信息：
 
    * 概述
    * 自定义表单
@@ -578,9 +578,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >有关详细信息区域中显示的所有字段的信息，请使用下面的编辑模板框继续编辑所有字段。
 
-1. （视情况而定）要编辑有关模板的所有信息，请单击 **更多** 菜单 ![](assets/qs-more-icon-on-an-object.png) 单击模板名称旁边的，然后单击 **编辑**.
+1. （视情况而定）要编辑有关模板的所有信息，请单击模板名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
 
-   此 **编辑模板** 框打开。 此框中的部分包含与“模板详细信息”部分相同的字段。
+   将打开&#x200B;**编辑模板**&#x200B;框。 此框中的部分包含与“模板详细信息”部分相同的字段。
 
 1. 请考虑编辑以下任意部分中的信息：
 
@@ -597,7 +597,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 模板名称{#template-name}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **模板名称**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**模板名称**。
 1. （可选）根据要修改的信息，继续编辑以下部分
 
    或
@@ -609,7 +609,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 概述 {#overview-preview}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **概述**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**概述**。
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -632,7 +632,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li><p><strong>正常</strong></p></li> 
          <li><p><strong>高</strong></p></li> 
          <li><p><strong>紧急</strong></p></li> 
-         </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>.</p></p></td> 
+         </ul><p><p>根据您的Workfront管理员选择的项目偏好设置，优先级名称可能有所不同。 有关编辑优先级的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">创建和自定义优先级</a>。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -642,31 +642,31 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td role="rowheader"><strong>完成情况类型</strong></td> 
        <td><p>在以下条件类型之间进行选择：</p> 
          <ul> 
-         <li><strong>手动：</strong> 项目所有者手动设置项目上的项目条件。 <strong></strong></li> 
-         <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置未来项目的条件。 有关了解进度状态的更多信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>.</li> 
+         <li><strong>手动：</strong>项目所有者手动设置项目条件。 <strong></strong></li> 
+         <li><strong>进度状态：</strong> Workfront会根据关键路径上任务的进度状态自动设置未来项目的条件。 有关了解进度状态的详细信息，请参阅<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">任务进度状态概述</a>。</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
          <td role="rowheader"><strong>排程模式</strong></td> 
-         <td><p>指定是否从计划使用此模板的项目 <strong>开始日期</strong>，或从 <strong>完成日期</strong>. 此选择确定使用此模板的项目中未来任务的计划日期。 </p><p>从以下项中选择： </p> 
+         <td><p>指定使用此模板的项目是从<strong>开始日期</strong>开始计划，还是从<strong>完成日期</strong>开始计划。 此选择确定使用此模板的项目中未来任务的计划日期。 </p><p>从以下项中选择： </p> 
        <ul> 
        <li><p><strong>从开始日期开始计划</strong>：模板的开始日期实际上是开始日期。 从开始日期开始计划模板时，Adobe Workfront会根据所有模板任务的持续时间计算模板的完成日期。 模板的开始日期将成为将来项目的计划开始日期。</p></li> 
        <li><p><strong>从完成日期开始计划</strong>：模板的完成日期实际上是完成日期。 从完成日期开始安排模板时，Workfront会根据所有模板任务的持续时间计算模板的开始日期。 模板的“完成日期”成为未来项目的计划完成日期。 </p></li> 
-       </ul><p>有关模板任务的开始和完成天数的详细信息，请参阅 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">模板中的开始天数和完成天数概览</a>. </p><p>模板的“计划自”设置与项目的设置类似。 您的Workfront管理员为系统中的项目选择默认的“计划自”设置。 有关设置项目默认值的信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>.</p></td> 
+       </ul><p>有关模板任务的开始日期和完成日期的详细信息，请参阅<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">模板中的开始日期和完成日期概述</a>。 </p><p>模板的“计划自”设置与项目的设置类似。 您的Workfront管理员为系统中的项目选择默认的“计划自”设置。 有关设置项目默认设置的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>项目组合</strong></td> 
-         <td><p>为从此模板创建的项目指定Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合 </a>.</p></td> 
+         <td><p>为从此模板创建的项目指定Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 </p><p>只有有效的项目组合会显示在列表中。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>项目群</strong></td> 
-         <td><p>如果为模板选择了Portfolio，请指定 <strong>项目</strong> 为将来的项目准备的。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参见 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建项目</a>.</p></td> 
+         <td><p>如果您为模板选择了Portfolio，请为将来的项目指定<strong>项目</strong>。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 列表中只显示活动程序。</p><p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>组</strong></td> 
-         <td><p>在下拉列表中，选择要与从模板创建的项目关联的组。 它可以是一组任何级别。 </p><p>您可以将鼠标悬停在正确的组上并单击信息图标，以确保选择正确的组 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注释</b>
+         <td><p>在下拉列表中，选择要与从模板创建的项目关联的组。 它可以是一组任何级别。 </p><p>您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击该组旁边显示的信息图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注释</b>
 
    <ul> 
        <li><p>在组页面的“项目”区域中，当有人使用未选择组的模板创建项目时，系统将当前打开的组与项目关联。</p><p>这不同于当用户使用未选择组的模板创建项目时，系统将用户的主组与项目关联的其他区域。</p></li> 
@@ -707,7 +707,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 财务 {#finance-preview}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **财务**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**财务**。
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -719,7 +719,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> 货币</strong></td> 
-         <td><p>如果将来项目的货币与系统的默认货币不同，请指定此货币。 如果系统中只有默认货币，则此字段不可见。<br>有关货币的详细信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>.</p></td> 
+         <td><p>如果将来项目的货币与系统的默认货币不同，请指定此货币。 如果系统中只有默认货币，则此字段不可见。<br>有关货币的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">设置汇率</a>。</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>预算</strong></td> 
@@ -733,11 +733,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>基于成本</li>
          </ul>
 
-   有关绩效指数方法的详细信息，请参见 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a>. </p></td>
+   有关绩效指数方法的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">设置绩效指数方法(PIM)</a>。 </p></td>
    </tr> 
          <tr> 
          <td role="rowheader"><strong>规划收益</strong></td> 
-         <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio优化器。 </p><p>有关项目计划收益的更多信息，请参阅 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划收益概述</a>. 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化程序的详细信息，请参阅 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
+         <td><p>指定从此模板创建的项目的计划收益。 计划收益用于项目的业务案例和Portfolio优化器。 </p><p>有关项目计划权益的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">项目计划权益概述</a>。 在计算项目净值时，将考虑项目的计划收益。 </p><p>有关使用Portfolio优化器的更多信息，请参阅<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">在Portfolio优化器中管理项目</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>固定成本</strong></td> 
@@ -749,7 +749,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
        <td role="rowheader"><strong>该项目需要批准时间</strong></td> 
-       <td><p>选择此选项可要求使用此模板创建的未来项目的项目所有者批准登录项目的时间。 如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 项目中的批准时间与批准时间表无关。 有关项目需要批准时间的更多信息，请参阅 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">项目需要批准时间</a>.</p></td> 
+       <td><p>选择此选项可要求使用此模板创建的未来项目的项目所有者批准登录项目的时间。 如果您使用开单记录并选择此选项，则只有项目中的已批准小时数显示为开单记录的可用开单小时数。 项目中的批准时间与批准时间表无关。 有关项目需要批准时间的详细信息，请参阅<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">项目需要批准时间</a>。</p></td> 
        </tr> 
        </tbody> 
       </table>
@@ -763,15 +763,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 自定义表单 {#custom-forms-preview}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **自定义Forms**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**自定义Forms**。
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
    已附加到模板的自定义表单的名称将显示在左侧面板中。
 
-1. 在 **添加自定义表单** 字段并选择一个或多个要与模板关联的自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。
+1. 单击&#x200B;**添加自定义表单**&#x200B;字段并选择您要与模板关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。
 
-   列表中仅显示活动的自定义表单。 有关构建自定义表单的更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
    您最多可以向一个模板添加十个自定义表单。
 
@@ -779,7 +779,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. （可选）更新自定义表单上任何字段中的信息。 该信息将传输到将从模板创建的项目。
 
-1. （可选）单击 **x** 图标，然后单击 **移除** 以将其从模板中删除。
+1. （可选）单击自定义表单名称右侧的&#x200B;**x**&#x200B;图标，然后单击&#x200B;**删除**&#x200B;以将其从模板中删除。
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -790,7 +790,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 项目设置 {#project-settings}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **项目设置**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**项目设置**。
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -802,28 +802,28 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>里程碑路径</strong> </td> 
-       <td> <p>选择模板的里程碑路径。 列表中只显示活动里程碑路径。<br>有关里程碑路径的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">创建里程碑路径</a>.</p> </td> 
+       <td> <p>选择模板的里程碑路径。 列表中只显示活动里程碑路径。<br>有关里程碑路径的更多信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">创建里程碑路径</a>。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>完成模式</strong> </td> 
          <td> <p>控制如何将未来的项目标记为完成。 <br>从以下选项中选择：</p> 
          <ul> 
-         <li> <p><strong>自动</strong>：当所有任务和问题都完成时，项目将标记为完成。</p> </li> 
-         <li> <p><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的完成状态。 </p> </li> 
+         <li> <p><strong>自动</strong>：在所有任务和问题都完成时，项目被标记为“完成”。</p> </li> 
+         <li> <p><strong>手动</strong>：当所有任务和问题都完成时，您必须手动选择项目的“完成”状态。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong> </td> 
        <td> <p>控制如何将未来项目上的父级任务标记为完成。 <br>从以下选项中选择：</p> 
        <ul> 
-       <li> <p><strong>自动</strong>：父任务被标记为“完成”，它们会自动更新完成百分比，因为子任务已完成，且子任务的完成百分比也会更新。 </p> </li> 
-       <li> <p><strong>手动</strong>：您必须手动更新完成百分比和父任务的状态，而不考虑对子任务进行的更改。 </p> </li> 
+       <li> <p><strong>自动</strong>：父任务标记为“完成”，当子任务完成且子任务的完成百分比更新时，父任务会自动更新其完成百分比。 </p> </li> 
+       <li> <p><strong>手动</strong>：您必须手动更新父任务的完成百分比和状态，而不考虑对子任务所做的更改。 </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>更新类型</strong> </td> 
          <td> <p>控制何时将您对未来项目时间线所做的更改保存到项目中。 </p> 
-         <b>示例 </b> 
+         <b>示例</b> 
          <p>对项目进行以下更改会触发项目时间线的更新：</p> 
          <ul> 
          <li> <p>更新任务日期</p> </li> 
@@ -833,68 +833,68 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> 
          </div> <p>从以下选项中选择：<br></p> 
          <ul> 
-         <li> <p><strong>更改时自动更新</strong> （默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间表也会每晚更新（自动）。<br>此字段是推荐的设置，因为它可确保项目时间线始终保持最新。<br>在触发时间表重新计算的任务或项目上执行操作时，所有可用日期都会立即显示，使您可以继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
+         <li> <p><strong>更改时自动更新</strong>（默认设置）：每次在项目或时间线所依赖的其他项目中发生更改时，将来的项目时间线都会更新（根据更改）。 项目时间表也会每晚更新（自动）。<br>此字段是推荐的设置，因为它可确保项目时间线始终保持最新。<br>当您对触发时间表重新计算的任务或项目执行操作时，所有可用日期都会立即显示，允许您继续工作。 在具有100个以上任务的项目中，需要更长时间重新计算的日期会短暂显示为问号（介于1和5秒之间，对于大型项目，最多会显示一分钟）。 这表示重新计算尚未完成，并且日期可能会发生更改。<br></p> </li> 
          </ul> 
          <ul> 
          <li> <p><strong>仅更改</strong>：每次在项目或时间线所依赖的其他项目中发生更改时，项目时间线都会更新。 如果项目或时间线所依赖的其他项目中很少发生更改，您可能需要选择此选项。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>仅限自动</strong>：项目时间线每晚更新一次；进行更改后不会立即更新。<br>如果项目或时间线所依赖的其他项目每天发生许多更改，您可能需要选择此选项。 但是，请注意，您选择了此设置，因为项目不会在进行更改的同时更新。<br></p> </li> 
+         <li> <p><strong>仅限自动</strong>：项目时间线每晚都会更新；更改后不会立即更新。<br>如果项目或时间线所依赖的其他项目中每天发生许多更改，您可能需要选择此选项。 但是，请注意，您选择了此设置，因为项目不会在进行更改的同时更新。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>仅手动</strong>：仅当您选择重新计算时间线的选项时，项目时间线才会更新，如中所述 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间表</a>.<br></p> </li> 
+         <li> <p><strong>仅手动</strong>：仅当您选择重新计算时间线的选项时，项目时间线才会更新，如<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">重新计算项目时间线</a>中所述。<br></p> </li> 
          </ul> <p>如果要一次对项目进行多项更改，并且希望在所有更改完成后（而不是在每次更改后）重新计算时间线，则可能需要选择此选项。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>计划</strong> </td> 
-         <td> <p>为您的模板选择计划。 这将成为从此模板创建的项目的计划。 该时间表应与分配给大多数参与项目工作的人员的时间表相同。 必须先创建计划，然后才能将其分配给模板。<br>有关创建调度的详细信息，请参见 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>. <br>如果尚未在系统中创建自定义计划，则选择“默认计划”。 </p> </td> 
+         <td> <p>为您的模板选择计划。 这将成为从此模板创建的项目的计划。 该时间表应与分配给大多数参与项目工作的人员的时间表相同。 必须先创建计划，然后才能将其分配给模板。<br>有关创建计划的详细信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。 <br>如果尚未在系统中创建自定义计划，则选择“默认计划”。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>用户空闲时间</strong> </td> 
-         <td> <p>确定任务的主要被分配人的休息时间是否调整任务计划日期。 当您将模板附加到现有项目，并且模板的此字段设置与项目不同时，项目上的设置保持不变。 新模板的此设置的默认选项与系统级别项目首选项相同。 </p> <p>有关系统级别的项目首选项的信息，请参见 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>. </p> <p>有关此设置如何影响项目任务日期的信息，请参阅 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>.<br>从以下选项中选择：<br></p> 
+         <td> <p>确定任务的主要被分配人的休息时间是否调整任务计划日期。 当您将模板附加到现有项目，并且模板的此字段设置与项目不同时，项目上的设置保持不变。 新模板的此设置的默认选项与系统级别项目首选项相同。 </p> <p>有关系统级别的项目首选项的信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">配置系统范围的项目首选项</a>。 </p> <p>有关此设置如何影响项目任务日期的信息，请参阅<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>。<br>从以下选项中选择：<br></p> 
          <ul> 
-         <li> <p><strong>考虑任务持续时间中的用户空闲时间</strong>：当选择此选项时，如果空闲时间发生在任务持续期间，则根据任务的主要被分配人的空闲时间，调整从此模板创建的项目上任务的计划日期。 </p> </li> 
-         <li> <p><strong>忽略任务持续时间中的用户空闲时间</strong>：当选择此选项时，根据此模板创建的项目上任务的计划日期将保持不变，即使任务的主要被分配人在任务持续时间里有空闲时间。 </p> </li> 
+         <li> <p><strong>考虑任务持续时间中的用户空闲时间</strong>：选择此选项时，如果空闲时间发生在任务持续时间内，则根据任务的主要被分配者的空闲时间，调整由此模板创建的项目上任务的计划日期。 </p> </li> 
+         <li> <p><strong>忽略任务持续时间中的用户空闲时间</strong>：选择此选项时，根据此模板创建的项目上任务的计划日期将保留为最初计划的日期，即使任务的主要被分配人在任务持续时间里有空闲时间。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>资源均衡模式</strong> </td> 
          <td> <p>从以下选项中选择：<br></p> 
          <ul> 
-         <li> <p><strong>手动</strong>：必须在从此模板创建的项目中手动调配资源（这是默认设置）</p> </li> 
-         <li> <p><strong>自动：</strong> Workfront为未来项目调配资源。 <br>有关资源均衡的详细信息，请参阅 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">甘特图中的均衡资源 </a>. </p> </li> 
+         <li> <p><strong>手动</strong>：您必须手动调配从此模板创建的项目上的资源（这是默认设置）</p> </li> 
+         <li> <p><strong>自动：</strong> Workfront为将来的项目调配资源。 <br>有关资源均衡的更多信息，请参阅甘特图</a>中的<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">均衡资源。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>风险</strong> </td> 
-         <td> <p>定义从此模板创建的项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。<br>考虑从以下风险级别中选择：<br></p> 
+         <td> <p>定义从此模板创建的项目的风险级别。 风险只是一个指示器，表明一个项目可能有多大的风险。 您可以根据风险级别安排项目执行的优先级。<br>考虑从以下风险级别选择：<br></p> 
          <ul> 
          <li> <p><strong>非常低</strong> </p> </li> 
          <li> <p><strong>低</strong> </p> </li> 
-         <li> <p><strong>中</strong> </p> </li> 
+         <li> <p><strong>Medium</strong> </p> </li> 
          <li> <p><strong>高</strong> </p> </li> 
          <li> <p><strong>非常高</strong> </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>资源池</strong> </td> 
-         <td> <p>指定与模板关联的资源池。 资源池是完成项目时同时需要的用户集合。 有关资源池的详细信息，请参见 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 资源池概述 </a>.</p> <p> <p><b>注释</b>
+         <td> <p>指定与模板关联的资源池。 资源池是完成项目时同时需要的用户集合。 有关资源池的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</p> <p> <p><b>注释</b>
 
    批量编辑模板时，此字段仅显示所有选定模板共有的资源池。 如果所选模板没有共享资源池，则此字段将为空。 您在此处指定的资源池将覆盖模板的单个资源池。</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>过滤小时类型</strong> </td> 
-         <td> <p>请考虑以下事项：</p> <p>选择 <strong>否</strong> 以使所有特定于项目的小时类型在将来项目中可用。 （这是默认选项）</p> <p>或</p> <p>选择 <strong>是</strong> 要使特定于项目的小时类型的子集仅在将来项目中可用，则选择要使其可用的小时类型。 （按住Shift键可选择多个小时类型。）</p> <p>如果选择此选项，则在记录项目（或项目中的任务和问题）的小时数时，只有您选择的小时类型才可供选择。 您必须至少选择一个小时类型；如果选择此选项，但未选择任何小时类型，则所有小时类型都将在项目上可用。</p> <p>必须在单个用户级别做出相同的小时类型选择，以便用户查看项目中的这些小时类型选项。 </p> <p>有关在用户级别定义小时类型的更多信息，请参阅部分 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">记录时间</a> 在 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">记录时间</a>.</p> </td> 
+         <td role="rowheader"><strong>筛选小时类型</strong> </td> 
+         <td> <p>请考虑以下事项：</p> <p>选择<strong>否</strong>以使所有项目特定的小时类型在将来项目中可用。 （这是默认选项）</p> <p>或</p> <p>选择<strong>是</strong>以仅使特定项目小时类型的子集可用于将来项目，然后选择要使其可用的小时类型。 （按住Shift键可选择多个小时类型。）</p> <p>如果选择此选项，则在记录项目（或项目中的任务和问题）的小时数时，只有您选择的小时类型才可供选择。 您必须至少选择一个小时类型；如果选择此选项，但未选择任何小时类型，则所有小时类型都将在项目上可用。</p> <p>必须在单个用户级别做出相同的小时类型选择，以便用户查看项目中的这些小时类型选项。 </p> <p>有关在用户级别定义小时类型的详细信息，请参阅<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">记录时间</a>中的<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">记录时间</a>部分。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>审批流程</strong> </td> 
-         <td> <p>选择要与模板关联的审批流程。 您的Workfront管理员或对审批流程具有管理访问权限的用户必须定义系统级别或组级别的项目审批流程，然后才能将他们与模板关联。 有关创建审批流程的详细信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">创建工作项的审批流程</a>.</p> <p>添加审批流程时，请考虑以下事项： </p> 
+         <td> <p>选择要与模板关联的审批流程。 您的Workfront管理员或对审批流程具有管理访问权限的用户必须定义系统级别或组级别的项目审批流程，然后才能将他们与模板关联。 有关创建审批流程的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">为工作项创建审批流程</a>。</p> <p>添加审批流程时，请考虑以下事项： </p> 
          <ul> 
          <li>列表中仅显示有效的审批流程。 </li> 
          <li> <p>系统范围及组特定的批准流程会显示在列表中。 与模板组以外的组关联的审批流程不会显示在列表中。</p> <p><b>重要</b>
 
-   如果与模板关联的组发生更改，则组特定的审批流程将变为一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">组和审批流程更改如何影响分配的审批流程</a>. </p> </li>
-   <li> <p>如果您添加了一次性审批流程，它在此字段显示为“自定义”。 有关信息，请参阅 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>. </p> 
+   如果与模板关联的组发生更改，则组特定的审批流程将变为一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">组和审批流程更改如何影响分配的审批流程</a>。 </p> </li>
+   <li> <p>如果您添加了一次性审批流程，它在此字段显示为“自定义”。 有关信息，请参阅<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">将新的或现有的审批流程与工作关联</a>。 </p> 
          </li> 
          <li> <p>批量编辑模板时，存在以下情况：</p> 
          <ul> 
@@ -906,7 +906,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>提醒通知</strong> </td> 
-         <td>选择应与将来项目关联的提醒通知。 您必须为项目配置提醒通知，该字段才能在编辑模板期间显示。 <br>有关配置提醒通知的更多信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">设置提醒通知</a>.</td> 
+         <td>选择应与将来项目关联的提醒通知。 您必须为项目配置提醒通知，该字段才能在编辑模板期间显示。 <br>有关配置提醒通知的详细信息，请参阅<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">设置提醒通知</a>。</td> 
        </tr> 
        </tbody> 
       </table>
@@ -919,16 +919,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 在将新任务添加到从模板创建的项目时，您可以定义与所有新任务关联的默认值。
 
-有关这些设置如何影响创建新任务的信息，请参阅 [创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+有关这些设置如何影响创建新任务的信息，请参阅[创建任务概述](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)。
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **任务设置**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**任务设置**。
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. 在 **任务默认审批流程** 框中，选择要与所有新任务关联的批准流程，然后将其添加到从此模板创建的项目。 您必须先为任务创建批准流程，然后才能将其与任务关联。 列表中仅显示有效的审批流程。 有关创建批准流程的详细信息，请参阅 [创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. 在 **任务默认自定义Forms** 框中选择一个或多个自定义表单，在将它们添加到从此模板创建的项目时，将这些表单与所有新任务关联。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关构建自定义表单的更多信息，请参阅 [创建自定义Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 您最多可以将十个自定义表单与一个任务关联。
-1. （可选）选择 **使用工作投入以自动计算任务已计划小时数** 如果要启用管理任务工作方式，方法是使用工作方式，而不是使用从模板创建的项目中的计划小时数。
+1. 在&#x200B;**任务默认审批流程**&#x200B;框中，选择将新任务添加到从此模板创建的项目时要与所有新任务关联的审批流程。 您必须先为任务创建批准流程，然后才能将其与任务关联。 列表中仅显示有效的审批流程。 有关创建批准流程的详细信息，请参阅[创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择当您将新任务添加到从此模板创建的项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 您最多可以将十个自定义表单与一个任务关联。
+1. （可选）如果要通过在从模板创建的项目中使用工作投入而不是计划小时数来管理任务投入，请选择&#x200B;**使用工作投入以自动计算任务计划小时数**。
 1. （视情况而定，可选）如果您选择了使用工作投入以自动计算任务已计划小时数，请单击下拉菜单以更新每个级别的工作投入的百分比。 以下百分比值为默认值：
 
    | 工作投入级别 | 百分比值 |
@@ -937,7 +937,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    | 中 | 50% |
    | 大 | 75% |
 
-   有关使用工作投入管理项目任务工作投入的信息，请参阅 [工作投入概述](../../../manage-work/tasks/task-information/work-effort.md).
+   有关使用工作投入管理项目任务的工作投入的信息，请参阅[工作投入概述](../../../manage-work/tasks/task-information/work-effort.md)。
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -950,11 +950,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 通过编辑问题设置，您可以阻止用户在使用该模板创建的未来项目中添加内联问题。
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **问题设置**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**问题设置**。
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. （可选）取消选择 **允许用户添加内联问题** 选项。 默认情况下处于启用状态。
+1. （可选）取消选择&#x200B;**允许用户添加内联问题**&#x200B;选项。 默认情况下处于启用状态。
 
    禁用此选项时，当从模板创建项目时，用户无法将内联问题添加到项目或问题分区中的任务。
 
@@ -964,9 +964,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    在禁用此选项时，具有将问题添加到从模板创建的项目的权限的用户可以使用“新建问题”按钮或与项目关联的请求队列来执行此操作。
 
-   有关在项目上配置问题设置的更多信息，请参阅 [问题设置](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 部分内容 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+   有关配置项目中的问题设置的更多信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)一文中的[问题设置](../../../manage-work/projects/manage-projects/edit-projects.md#issue)部分。
 
-   有关创建项目问题的信息，请参阅 [创建问题](../../../manage-work/issues/manage-issues/create-issues.md).
+   有关在项目中创建问题的信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)。
 
 1. （可选）根据要修改的信息，继续编辑以下部分。
 
@@ -977,13 +977,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 访问权限 {#access-preview}
 
 1. 如上所述，开始编辑模板。
-1. 在 **编辑模板** 框中，单击 **访问**.
+1. 在&#x200B;**编辑模板**&#x200B;框中，单击&#x200B;**访问**。
 
    ![](assets/edit-template-box-access-section.png)
 
    使用模板创建项目时，您为模板指定的访问权限将成为与项目关联的用户的访问权限。
 
-   指定以下内容 **访问** 模板的信息：
+   为模板指定以下&#x200B;**访问**&#x200B;信息：
 
    <table style="table-layout:auto"> 
        <col> 
@@ -991,31 +991,31 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>将某人分派到一个任务时</strong> </td> 
-         <td> <p>选择自 <strong>视图</strong>， <strong>参与，</strong> 或 <strong>管理</strong> 任务的访问权限。 分配给任务的用户会被自动授予该任务的此访问权限。 </p> </td> 
+         <td> <p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>任务访问权限中进行选择。 分配给任务的用户会被自动授予该任务的此访问权限。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>还授予对项目的访问权限</strong> </td> 
-         <td> <p> 选择自 <strong>视图</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 项目的访问权限。 此外，分配给任务的用户也被自动授予此项目访问权限。 </p> </td> 
+         <td role="rowheader"><strong>同时授予对项目的访问权限</strong> </td> 
+         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 此外，分配给任务的用户也被自动授予此项目访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>将某人分派到一个问题时</strong> </td> 
-         <td> <p>选择自 <strong>视图</strong>， <strong>参与，</strong> 或 <strong>管理</strong> 对问题的访问权限。 分配给问题的用户会被自动授予该问题的此访问权限。 </p> </td> 
+         <td> <p>从<strong>查看</strong>、<strong>Contribute、</strong>或<strong>管理</strong>问题访问权限中进行选择。 分配给问题的用户会被自动授予该问题的此访问权限。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>还授予对项目的访问权限</strong> </td> 
-         <td> <p> 选择自 <strong>视图</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 项目的访问权限。 分配给问题的用户也被自动授予此项目访问权限。 </p> </td> 
+         <td role="rowheader"><strong>同时授予对项目的访问权限</strong> </td> 
+         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>项目访问权限中进行选择。 分配给问题的用户也被自动授予此项目访问权限。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>当某人提交请求时：授予他们访问权限</strong> </td> 
-         <td> <p> 选择自 <strong>视图</strong>， <strong>Contribute</strong>，或 <strong>管理</strong> 请求的访问权限。 当他们向项目提交请求时，被授予对他们提交的请求的此访问权限。 有关更多信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a>.</p> </td> 
+         <td> <p> 从<strong>查看</strong>、<strong>Contribute</strong>或<strong>管理</strong>请求访问权限中进行选择。 当他们向项目提交请求时，被授予对他们提交的请求的此访问权限。 有关详细信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a>。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>来自同一公司的人员将针对所有请求继承相同的权限</strong> </td> 
+         <td role="rowheader"><strong>来自同一公司的人员将为所有请求继承相同的权限</strong> </td> 
          <td> <p>如果您希望来自同一公司的人员对项目中的所有请求（无论他们是否提交请求）具有相同的访问权限，请选择此字段。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>授予某人此项目的访问权限时：授予他们访问权限……</strong> </td> 
-         <td> <p>选择您希望用户在项目上拥有的访问选项（如果项目与其共享）。 如果指定为，则为其访问选择特定选项 <strong>查看器</strong>， <strong>参与者</strong>，或 <strong>经理</strong> 与他们共享项目时。 </p> </td> 
+         <td role="rowheader"><strong>当授予某人此项目的访问权限时：授予他们访问……</strong> </td> 
+         <td> <p>选择您希望用户在项目上拥有的访问选项（如果项目与其共享）。 如果在与他们共享项目时，他们被指定为<strong>查看者</strong>、<strong>参与者</strong>或<strong>经理</strong>，请选择他们访问的特定选项。 </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1037,21 +1037,21 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 要批量编辑模板，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **模板**.
+1. 单击&#x200B;**模板**。
 1. 在列表中选择多个模板。
-1. 单击 **编辑**.
+1. 单击&#x200B;**编辑**。
 
-   此 **编辑模板** 对话框打开。
+   将打开&#x200B;**编辑模板**&#x200B;对话框。
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 单击左侧的部分可编辑所有选定的模板。
 
-   有关编辑模板信息的更多信息，请参见 [编辑模板](#edit-a-template) 部分。
+   有关编辑模板信息的更多信息，请参阅本文中的[编辑模板](#edit-a-template)部分。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
    现在，您所做的所有更改在所有选定的模板中均可见。
 
@@ -1061,9 +1061,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 将任务添加到模板与将任务添加到项目类似。
 
-有关将任务添加到项目的详细信息，请参阅 [在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+有关将任务添加到项目的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
-将任务添加到模板时，模板的持续时间以及模板的开始和完成天数会相应地发生更改。 有关模板和模板任务的“开始日”和“完成日”的信息，请参阅 [模板中的开始天数和完成天数概览](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+将任务添加到模板时，模板的持续时间以及模板的开始和完成天数会相应地发生更改。 有关模板和模板任务的开始和完成天数的详细信息，请参阅[模板中开始和完成天数的概述](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)。
 
 ## 将其他项目添加到模板
 
@@ -1074,34 +1074,34 @@ By editing issue settings, you can prevent users from adding issues inline in th
 * 文档
 * 风险
 
-  有关创建风险的更多信息，请参见 [创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  部分内容 [创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  有关创建风险的更多信息，请参阅文章[创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)中的[创建和编辑项目风险](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)部分。
 
 * 审批流程
 
-  有关将审批流程与工作关联的信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  有关将审批流程与工作关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 * 记帐费率
 
-  有关覆盖项目记帐费率的详细信息，请参阅 [改写工作角色开单费率和计算项目收入概览](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  有关覆盖项目记帐费率的详细信息，请参阅[覆盖工作角色记帐费率和计算项目收入的概述](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
 * 费用
 
-  有关添加费用的详细信息，请参阅 [管理项目支出](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  有关添加费用的详细信息，请参阅[管理项目费用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
 
 * 主题组和队列主题
 
-  有关将主题组和队列主题添加到项目或模板的详细信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  有关将主题组和队列主题添加到项目或模板的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 您可以将以下项目添加到模板中的任务：
 
 * 文档
 * 费用
 
-  有关添加费用的详细信息，请参阅 [管理项目支出](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  有关添加费用的详细信息，请参阅[管理项目费用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
 
 * 审批
 
-  有关将审批与工作关联的详细信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  有关将审批与工作关联的详细信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 
 ## 激活或停用模板
@@ -1112,12 +1112,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 要停用模板，请执行以下操作：
 
-1. 转到活动模板，然后单击 **更多** ![](assets/qs-more-icon-on-an-object.png) 菜单，然后单击 **取消激活**.
+1. 转到活动模板，然后单击模板名称旁边的&#x200B;**更多** ![](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**停用**。
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
    该模板不再处于活动状态，用户无法再找到它来从中创建项目。
-1. （可选）要激活模板，请单击 **更多** ![](assets/qs-more-icon-on-an-object.png) 菜单，然后单击 **激活**.
+1. （可选）要激活模板，请单击模板名称旁边的&#x200B;**更多** ![](assets/qs-more-icon-on-an-object.png)菜单，然后单击&#x200B;**激活**。
 
    该模板现在处于活动状态，可附加到项目或用于创建项目。
 

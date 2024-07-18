@@ -53,8 +53,8 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>系统管理员访问级别。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>. </p> </li> 
-     <li> <p><b>用户</b> 将访问级别中的设置配置为 <b>编辑</b> 访问，使用 <b>创建</b> 而且至少两者 <b>用户管理员</b> 下启用的选项 <b>微调您的设置</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>这两个选项中的一个，如果用户 <b>管理员（组用户）</b> 启用，您必须是用户所属的组的组管理员。</p> <p>欲知关于 <b>用户</b> 在访问级别中设置，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </li> 
+     <li> <p>系统管理员访问级别。 有关信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> <p>有关访问级别中<b>用户</b>设置的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ## 使用电子表格导入文件导入用户
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
 
-1. 单击 **新用户** 下拉箭头，然后单击 **导入用户**.
+1. 单击&#x200B;**新用户**&#x200B;下拉箭头，然后单击&#x200B;**导入用户**。
 
-1. 在 **导入用户** 框，下载样例文件，然后更新样例文件以包含您自己的用户个人信息。
+1. 在显示的&#x200B;**导入用户**&#x200B;框中，下载样例文件，然后更新样例文件以包含您自己的用户个人信息。
 
    每一行都包含以下字段：
 
@@ -91,13 +91,13 @@ ht-degree: 0%
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. 将文件保存到工作站上的某个位置。
-1. 单击 **选择文件** 在 **导入用户** 盒子。
+1. 在&#x200B;**导入用户**&#x200B;框中单击&#x200B;**选择文件**。
 
 1. 导航到您保存的文件，并选择该文件。
-1. （可选）选择 **向此用户发送邀请电子邮件** 用于向用户发送电子邮件邀请的选项，通知他们已创建Workfront帐户并提示他们设置密码。
+1. （可选）选择&#x200B;**向此用户发送邀请电子邮件**&#x200B;选项，以向该用户发送电子邮件邀请，通知他们已创建Workfront帐户并提示他们设置密码。
 
    如果要为用户设置密码，请取消选择此选项。
 
-1. 单击 **导入**.
+1. 单击&#x200B;**导入**。
 
    屏幕顶部会显示一条确认消息，指出用户已成功导入。

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: 檢視您組織的 [!DNL Workfront Proof] 管理員帳戶記錄
-description: As a [!DNL Workfront Proof] 管理員，您可以檢視使用狀況統計資料，以及對貴組織檔案所做的變更記錄 [!DNL Workfront Proof] 帳戶。
+title: 查看组织的 [!DNL Workfront Proof] 管理员帐户历史记录
+description: 作为 [!DNL Workfront Proof] 管理员，您可以查看使用情况统计信息以及对组织的 [!DNL Workfront Proof] 帐户所做的更改日志。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b4bd3fe3-558c-4ef6-bc0c-ca1724fcfe8d
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# 檢視您組織的 [!DNL Workfront Proof] 管理員帳戶記錄
+# 查看组织的[!DNL Workfront Proof]管理员帐户历史记录
 
 >[!IMPORTANT]
 >
->本文章旨在說明獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-As a [!DNL Workfront Proof] 管理員，您可以檢視使用狀況統計資料，以及對貴組織檔案所做的變更記錄 [!DNL Workfront Proof] 帳戶。
+作为[!DNL Workfront Proof]管理员，您可以查看使用情况统计数据以及对您组织的[!DNL Workfront Proof]帐户所做的更改日志。
 
-1. 在的右上角 [!DNL Workfront Proof]，按一下 **[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**，然後按一下 **[!UICONTROL 歷史記錄]** 標籤。
+1. 单击[!DNL Workfront Proof]右上角的&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 帐户设置]**，然后单击&#x200B;**[!UICONTROL 历史记录]**&#x200B;选项卡。
 
-   * **使用狀況統計資料**：目前和最近計費期間的詳細資訊，包括計畫名稱、計費期間開始和結束日期、使用的校樣數量和使用的總儲存空間。
-   * **[!UICONTROL 帳戶變更] 記錄**：近期在您的帳戶中所做的變更，包括活動的日期和說明，以及執行動作的使用者。
+   * **使用情况统计信息**：当前和最近记帐期间的详细信息，包括计划名称、记帐期间的开始和结束日期、使用的验证数和使用的总存储空间。
+   * **[!UICONTROL 帐户更改]日志**：最近对帐户所做的更改，包括活动的日期和描述以及执行操作的用户。
 
-1. 若要檢視完整的帳戶變更清單，請按一下 **檢視完整清單** 在 **[!UICONTROL 使用狀況統計資料]** 區段。
-此時會顯示「活動日誌」頁面。 如需詳細資訊，請參閱 [瞭解 [!DNL Workfront Proof] 活動稽核軌跡](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+1. 要查看帐户更改的完整列表，请单击&#x200B;**[!UICONTROL 使用情况统计信息]**&#x200B;部分中的&#x200B;**查看完整列表**。
+此时将显示“活动日志”页。 有关详细信息，请参阅[了解 [!DNL Workfront Proof] 活动审核记录](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)。

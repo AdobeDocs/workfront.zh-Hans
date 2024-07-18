@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您可以使用记分卡衡量项目与项目组合中先前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
 
-有关记分卡以及如何创建记分卡的更多信息，请参阅 [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+有关记分卡以及如何创建记分卡的更多信息，请参阅[创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ## 访问要求
 
@@ -55,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,40 +68,40 @@ ht-degree: 0%
 
 通常，项目经理会完成记分卡信息，以便为项目生成介于0和100之间的对齐值。 项目组合经理稍后在项目组合优化器中查看项目以比较它们时，将使用生成的值。
 
-有关项目组合优化的更多信息，请参阅 [Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+有关项目组合优化的更多信息，请参阅[Portfolio优化器概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ### 将记分卡应用到项目
 
 作为具有Standard或Plan许可证以及项目的“管理”权限的用户，您可以为项目附加记分卡。
 
-有关项目权限的更多信息，请参阅 [在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+有关项目权限的详细信息，请参阅[在Adobe Workfront中共享项目](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
 您可以在构建项目的业务案例时向项目添加记分卡。
 
-有关构建业务案例的更多信息，请参阅 [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+有关构建业务案例的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-您的Adobe Workfront管理员或组管理员必须在项目的业务案例区域中启用“记分卡”部分，然后才能从业务案例访问记分卡。 有关设置项目首选项和启用业务案例区域的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+您的Adobe Workfront管理员或组管理员必须在项目的业务案例区域中启用“记分卡”部分，然后才能从业务案例访问记分卡。 有关设置项目首选项和启用Business Case区域的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 要将记分卡应用到项目，请执行以下操作：
 
 1. 转到要应用记分卡的项目。
-1. 单击 **商业论证** 在左侧面板中。
-1. 查找 **记分卡** 商业论证的部分。\
-   您必须先创建记分卡，然后再创建 **记分卡** 部分显示在业务案例中。
+1. 单击左侧面板中的&#x200B;**业务案例**。
+1. 查找业务案例的&#x200B;**记分卡**&#x200B;部分。\
+   您必须先创建记分卡，然后才能在业务案例中显示&#x200B;**记分卡**&#x200B;部分。
 
-   有关创建记分卡的信息，请参阅 [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   有关创建记分卡的信息，请参阅[创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 1. 从下拉菜单中选择一个记分卡。
 
-   ![新建记分卡](assets/new-scorecard.png)
+   ![新记分卡](assets/new-scorecard.png)
 
 1. 为记分卡中的所有问题输入答案。
 
    Workfront将分数应用于每个已回答的问题，并根据每个问题的单独分数计算项目整体分数。
 
-   有关生成项目总体一致性分数的更多信息，请参阅 [生成项目的对齐分数](#generate-an-alignment-score-for-a-project).
+   有关生成项目整体一致性分数的详细信息，请参阅[生成项目的一致性分数](#generate-an-alignment-score-for-a-project)。
 
-1. 单击 **保存** 以保存记分卡并对项目进行评分。
+1. 单击&#x200B;**保存**&#x200B;以保存记分卡并对项目评分。
 
    记分卡现在与项目关联，并对项目进行评分。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 `Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
-有关更多信息，请参阅 [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+有关详细信息，请参阅[创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 ### 生成项目组合的对齐分数 {#generate-an-alignment-score-for-a-portfolio}
 
@@ -153,42 +153,42 @@ ht-degree: 0%
 
 您可以在项目级别或Portfolio优化器中查看项目的对齐分数。
 
-* [查看项目中的一致性分数](#view-the-alignment-score-on-a-project)
+* [查看项目的对齐分数](#view-the-alignment-score-on-a-project)
 * [在Portfolio优化器中查看项目和项目组合的对齐分数](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### 查看项目中的一致性分数
 
-如果您拥有项目的“参与”权限，则可以在项目级别查看项目的对齐分数。
+如果您拥有项目的Contribute权限，则可以在项目级别查看项目的对齐分数。
 
 1. 转到要查看其一致性分数的项目。
-1. 单击 **商业论证** 在左侧面板中。
-1. 转到 **商业论证摘要** 在屏幕的右侧。
+1. 单击左侧面板中的&#x200B;**业务案例**。
+1. 转到屏幕右侧的&#x200B;**业务案例摘要**。
 
-   一致性得分位于业务案例摘要中，位于 **已对齐** 值。
+   一致性分数位于业务案例摘要中，位于&#x200B;**一致性**&#x200B;值中。
 
-   ![项目中的一致性分数](assets/alignment-score-on-a-project.png)
+   ![项目上的对齐分数](assets/alignment-score-on-a-project.png)
 
 ### 在Portfolio优化器中查看项目和项目组合的对齐分数
 
 如果您拥有项目组合的管理访问权限，则可以在Portfolio优化器中查看项目或项目组合的对齐分数。
 
-有关Portfolio优化程序中显示信息的详细信息，请参阅 [Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+有关Portfolio优化程序中显示信息的详细信息，请参阅[Portfolio优化程序概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
-* [在Portfolio优化器中找到项目的对齐分数](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [在Portfolio优化程序中找到项目的对齐分数](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [在Portfolio优化器中找到项目组合的对齐分数](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Portfolio优化器中的一致性分数](assets/alignment-score-in-portfolio-optimizer.png)
+  Portfolio优化器中的![一致性分数](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### 在Portfolio优化器中找到项目的对齐分数 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. 单击项目组合的名称。
-1. 单击 **Portfolio优化** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**Portfolio优化**。
 
    此时将显示Portfolio优化器。
 
-   项目的对齐分数以百分比形式显示在 **对齐方式** Portfolio优化程序的列。
+   项目的对齐分数在Portfolio优化程序的&#x200B;**对齐**&#x200B;列中以百分比显示。
 
    这是基于与项目关联的记分卡的项目的对齐分数。
 
@@ -197,12 +197,12 @@ ht-degree: 0%
 {{step1-to-portfolios}}
 
 1. 单击项目组合的名称。
-1. 单击 **Portfolio优化** 在左侧面板中。
-1. 在Portfolio优化器的顶部，查找 **已对齐** 值以及 **对齐方式** 量规，指示组合的对齐分数。
+1. 单击左侧面板中的&#x200B;**Portfolio优化**。
+1. 在Portfolio优化器顶部找到&#x200B;**对齐方式**&#x200B;值以及&#x200B;**对齐方式**&#x200B;量规，它们表示项目组合的对齐方式分数。
 
    这是项目组合的对齐分数。
 
-   有关如何生成项目组合的对齐分数的更多信息，请参阅 [生成项目组合的对齐分数](#generate-an-alignment-score-for-a-portfolio).
+   有关如何生成项目组合的对齐分数的详细信息，请参阅[生成项目组合的对齐分数](#generate-an-alignment-score-for-a-portfolio)。
 
 ## Portfolio优化器得分概述
 
@@ -210,10 +210,10 @@ ht-degree: 0%
 
 根据完成记分卡后获得的点数计算项目的对齐分数。 然后，将使用该得分确定项目组合匹配度分数。 一致性分数以百分比显示。
 
-项目的对齐分数显示在 **对齐方式** Portfolio优化程序的列。
+项目的对齐分数显示在Portfolio优化程序的&#x200B;**对齐**&#x200B;列中。
 
-项目组合优化器得分是在Portfolio优化器中自动计算的排名，通过它可以对项目进行优先排序。 项目组合优化器得分显示为指示器图标，附有一个数字，并显示在 **分数** Portfolio优化程序的列。 仅当完成业务案例的所有部分（目标除外）时，才会生成Portfolio优化器得分。
+项目组合优化器得分是在Portfolio优化器中自动计算的排名，通过它可以对项目进行优先排序。 项目组合优化程序得分显示为指示符图标，并带有数字，它显示在Portfolio优化程序的&#x200B;**得分**&#x200B;列中。 仅当完成业务案例的所有部分（目标除外）时，才会生成Portfolio优化器得分。
 
-有关为项目创建业务案例的更多信息，请参阅 [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+有关为项目创建业务案例的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
-有关计算项目的项目组合优化器分数的详细信息，请参阅 [Portfolio优化器得分概述](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+有关计算项目的项目组合优化器分数的详细信息，请参阅[Portfolio优化器得分概览](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)。

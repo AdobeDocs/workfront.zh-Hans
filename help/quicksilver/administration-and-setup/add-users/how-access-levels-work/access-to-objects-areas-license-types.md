@@ -22,12 +22,12 @@ ht-degree: 18%
 
 下表告诉您每个Adobe Workfront许可证对Workfront中的对象和区域允许的最高访问级别（编辑或查看）。
 
-* **视图**：用户可以查看和共享项目。
+* **查看**：用户可以查看和共享项目。
 * **编辑**：用户可以创建、编辑、删除和共享项目。
 
   >[!NOTE]
   >
-  >当其他用户共享对象时，共享者可以指定权限来限制他们编辑该对象的能力。 有关更多信息，请参阅 [对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >当其他用户共享对象时，共享者可以指定权限来限制他们编辑该对象的能力。 有关详细信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 <table style="table-layout:auto">
     <tr>
@@ -144,11 +144,11 @@ ht-degree: 18%
     </tr>
 </table>
 
-&#42; 具有“参与者”许可证的用户只能查看与其共享的报告、功能板和日历。
+&#42;拥有参与者许可证的用户只能查看与其共享的报告、功能板和日历。
 
 >[!NOTE]
 >
->拥有轻量级许可证或参与者许可证的用户共享功能有限。 有关更多信息，请参阅 [许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>拥有轻量级许可证或参与者许可证的用户共享功能有限。 有关详细信息，请参阅[许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 >
 >外部用户无法在Workfront中搜索项目。 他们可以查看专门与他们共享的文档和日历。 他们还可以查看与其共享项目的用户。
 
@@ -159,8 +159,8 @@ ht-degree: 18%
 * [授予对问题的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [授予对文档的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [授予对项目组合的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [授予对程序的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [授予程序访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [授予对报告、仪表板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [授予团队访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)

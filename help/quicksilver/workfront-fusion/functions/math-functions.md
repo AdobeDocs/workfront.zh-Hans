@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# 中的数学函数 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的数学函数
 
 <!--Audited: 4/2024-->
 
@@ -38,7 +38,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>  
    <td> 
-   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p> 
+   <p>当前：无[!DNL Workfront Fusion]许可证要求。</p> 
    <p>或</p> 
    <p>旧版：任意 </p> 
    </td>  
@@ -46,23 +46,23 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">产品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]计划：您的组织必须购买[!DNL Adobe Workfront Fusion]。</li><li>已包括[！UICONTROL Ultimate] [!DNL Workfront]计划： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p> 
+   <p>当前：您的组织必须购买[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL 平均([值数组]) average(value1； [value2]， ...)]
+## [!UICONTROL 平均值（[个值数组]）平均值(value1； [value2]， ...)]
 
 返回特定数组中数值的平均值，或单独输入的数值的平均值。
 
-## [!UICONTROL ceil（数字）]
+## [!UICONTROL ceil （数字）]
 
 返回大于或等于指定数字的最小整数。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 >
 >   返回4
 
-## [!UICONTROL floor（数字）]
+## [!UICONTROL 楼层（数字）]
 
 返回小于或等于指定数字的最大整数。
 
@@ -98,15 +98,15 @@ ht-degree: 1%
 >
 >   返回4
 
-## [!UICONTROL 最大([值数组])， max(value1；value2； ...)]
+## [!UICONTROL 最大值（[个值数组]），最大值(value1；value2； ...)]
 
 返回指定数组中的最大数或单独输入的数字中的最大数。
 
-## [!UICONTROL 分钟([值数组])， min（值1；值2； ...）]
+## [!UICONTROL 分钟（[个值数组]），最小值(value1； value2； ...)]
 
 返回指定数组中的最小数字或单独输入数字中的最小数字。
 
-## [!UICONTROL round（数字）]
+## [!UICONTROL 轮（数字）]
 
 将数值舍入到最接近的整数。
 
@@ -130,15 +130,15 @@ ht-degree: 1%
 >
 >   返回2
 
-## [!UICONTROL sum ([值数组])， sum（值1；值2； ...）]
+## [!UICONTROL sum （[个值数组]）， sum(value1； value2； ...)]
 
 返回指定数组中的值的总和或单独输入的数字的总和。
 
-## [!UICONTROL parseNumber（数字；小数分隔符）]
+## [!UICONTROL parseNumber （数字；小数分隔符）]
 
 解析带有数字的字符串并返回数字。 例如， parseNumber(1 756,456；，)
 
-## [!UICONTROL formatNumber (数字；decimalPOINTS； [decimalSeparator]； [千位分隔符])]
+## [!UICONTROL formatNumber (number； decimalPOINTS； [decimalSeparator]；[thousandsSeparator])]
 
 以请求的格式返回一个数字。 默认情况下，小数点为逗号(，)，千位分隔符为句点(.)。
 

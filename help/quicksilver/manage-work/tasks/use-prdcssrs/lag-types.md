@@ -83,7 +83,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -94,47 +94,47 @@ ht-degree: 0%
 ### 在任务的“前置任务”部分中指示滞后类型 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. 转到要为其定义前置任务和滞后类型的任务。
-1. 单击 **前置任务** 在左侧面板中。 您可能需要单击 **显示更多**，然后 **前置任务**.
-1. 单击 **添加前置任务**.
-1. （可选）如果要添加跨项目前置任务，请将 **父项目** 名称与另一个项目。
+1. 单击左侧面板中的&#x200B;**前置任务**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
+1. 单击&#x200B;**添加前置任务**。
+1. （可选）如果要添加跨项目前置任务，请将&#x200B;**父项目**&#x200B;名称替换为其他项目。
 1. 开始键入前置任务的名称，然后将其在列表中显示时选定。
-1. 选择 **依赖关系类型**.
+1. 选择&#x200B;**依赖关系类型**。
 
-   有关前置任务依赖关系类型的详细信息，请参阅 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   有关前置任务依赖关系类型的详细信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-1. 指定 **滞后时间** 使用数字值的数量。 您可以指定负数来指示负延迟。
+1. 使用数值指定&#x200B;**Lag**&#x200B;值。 您可以指定负数来指示负延迟。
 1. 从以下选项中进行选择，以确定要为前置任务指定的滞后类型：
 
    * **天**
    * **日历日**
    * **百分比**
-   * **星期几**
-   * **星期几（非零）**
+   * 一周中的&#x200B;**天**
+   * 每周的&#x200B;**天（非零）**
 
-     有关这些滞后类型及其计算方式的更多信息，请参阅部分 [滞后类型](#lag-types) 本文章中。
+     有关这些Lag类型及其计算方式的更多信息，请参阅本文中的[Lag类型](#lag-types)部分。
 
 1. 单击&#x200B;**保存**。
 
 ### 在任务列表中指示滞后类型  {#indicate-lag-types-in-a-task-list}
 
-1. 转到任务列表，然后选择 **标准** 视图。
+1. 转到任务列表，然后选择&#x200B;**标准**&#x200B;视图。
 
-1. 在 **前置任务** 与要为其指定前置任务和延迟量的任务对应的列。
+1. 单击与要为其指定前置任务和延迟量的任务对应的&#x200B;**前置任务**&#x200B;列。
 1. 输入以下内容（不含空格）：
 
    * 要指定为所选任务的前置任务的任务编号
    * 要在任务之间指示的依赖关系类型的缩写
 
-     有关依赖关系类型的缩写的详细信息，请参见 [任务相关性类型概览](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     有关依赖项类型缩写的详细信息，请参阅[任务依赖项类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
 
-   * 或者是 **+** 对于正滞后时间或 **-** 对于负滞后时间
+   * 正滞后为&#x200B;**+**&#x200B;或负滞后为&#x200B;**-**
 
    * 滞后时间
    * 要使用的Lag类型的缩写
 
-     有关Lag类型缩写的更多信息，请参阅部分 [滞后类型](#lag-types) 本文章中。
+     有关Lag类型的缩写的详细信息，请参阅本文中的[Lag类型](#lag-types)部分。
 
-   例如，要指示某个任务具有前置任务且正滞后时间为2天，您应输入 `1fs+2d` “前置任务”列中。
+   例如，要指示某个任务具有前置任务且正滞后时间为2天，您应在“前置任务”列中输入`1fs+2d`。
 
 1. 按键盘上的Enter键保存对任务所做的更改。
 

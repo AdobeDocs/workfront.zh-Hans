@@ -1,27 +1,27 @@
 ---
-title: Adobe Workfront 21.4版本的方案规划器
-description: Adobe Workfront 21.4版本的方案规划器
+title: 带有21.4版本的Adobe Workfront Scenario Planner
+description: 带有21.4版本的Adobe Workfront Scenario Planner
 author: Luke
 draft: Probably
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 21.4版本的方案规划器
+# 带有21.4版本的Adobe Workfront Scenario Planner
 
-Adobe Workfront方案规划器仅在新的Adobe Workfront体验中可用。
+Adobe Workfront Scenario Planner仅在新的Adobe Workfront Experience中可用。
 
 21.4版本中包含以下功能：
 
-## 在方案规划器中过滤计划和方案时改善了体验
+## 改进了在Scenario Planner中过滤计划和计划时的体验
 
-在您显示计划或发布方案时，我们更新了过滤体验。 我们已使用较小的下拉菜单替换了大型过滤器面板。
+当您显示计划或发布计划时，我们更新了筛选体验。 我们已将大型过滤器面板替换为较小的下拉菜单。
 
 有关信息，请参阅以下文章：
 
-* [在方案计划员中创建和编辑计划](../../../scenario-planner/create-and-edit-plans.md)
-* [通过在方案规划器中发布方案来更新或创建项目](../../../scenario-planner/publish-scenarios-update-projects.md)
+* [在Scenario Planner中创建和编辑计划](../../../scenario-planner/create-and-edit-plans.md)
+* [通过在场景规划程序中发布计划来更新或创建项目](../../../scenario-planner/publish-scenarios-update-projects.md)
 

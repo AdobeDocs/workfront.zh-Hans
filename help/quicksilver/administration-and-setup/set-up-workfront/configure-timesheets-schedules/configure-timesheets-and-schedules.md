@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: 配置时间表和工时表首选项
-description: 作为 [!DNL Workfront] 管理员，您可以使用计划定义工作周，并将计划与用户或项目关联。 这允许 [!DNL Adobe Workfront] 以计算时间线和用户可用性。 您还可以配置时间表和小时首选项。
+description: 作为 [!DNL Workfront] 管理员，您可以使用计划定义工作周，并将计划与用户或项目关联。 这允许 [!DNL Adobe Workfront] 计算时间表和用户可用性。 您还可以配置时间表和小时首选项。
 author: Caroline
 feature: System Setup and Administration
 role: Admin

@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 针对所有用户的增强功能
 
-某些功能是在2019.4版本之前发布的。 要查看2019.4版本之前发布的内容，请参阅 [2019.4年其他增强功能](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
+某些功能是在2019.4版本之前发布的。 要查看2019.4版本之前发布的内容，请参阅[2019.4其他增强功能](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)。
 
 2019.4版本包含以下增强功能：
 
@@ -56,19 +56,19 @@ ht-degree: 1%
    <td> <p><strong>发行日期</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新了新列表的外观</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">已更新新列表的外观</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
      --> <span style="color: #ff0000;"> — 已修改</span></p> <p>项目、任务和小时列表现在具有更新的外观。 计划在2019.4版本中更新的其他列表将使用未来版本进行更新。</p> </td> 
    <td> <p>预览版本： 2019年10月4日</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新设计已应用于报表、模板任务、Portfolio等的列表</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新设计已应用于报告、模板任务、Portfolio等列表</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;">  — 已从版本中删除</span> </p> <p>新的列表设计现在可用于许多其他列表类型。</p> </td> 
+     --><span style="color: #ff0000;"> — 已从版本中删除</span> </p> <p>新的列表设计现在可用于许多其他列表类型。</p> </td> 
    <td> <p>预览版本： 2019年10月11日</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">向快速筛选器添加了新工具提示</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新工具提示已添加到快速筛选器</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
      --> </p> <p> 您可以在重新设计的所有列表中使用快速过滤器，而不是使用浏览器的本机功能来查找列表中的项目。 </p> </td> 
    <td> <p>预览版本： 2019年10月11日</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
@@ -93,9 +93,9 @@ ht-degree: 1%
    <td> <p><strong>发行日期</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">适用于iPad的Workfront应用程序</a><!--
+   <td> <p>适用于iPad的<a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront应用程序</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
-     --> </p> <p>Workfront现在提供专门针对iPad设计和优化的新移动设备应用程序。 </p> <p>有关在iPad和iPhone上使用Workfront的更多信息，请参阅 <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">适用于iOS的Adobe Workfront</a>.</p> </td> 
+     --> </p> <p>Workfront现在提供专门针对iPad设计和优化的新移动设备应用程序。 </p> <p>有关在iPad和iPhone上使用Workfront的更多信息，请参阅<a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">适用于iOS的Adobe Workfront</a>。</p> </td> 
    <td> <p>预览版本：无预览可用性</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -105,19 +105,19 @@ ht-degree: 1%
    <td> <p>预览版本： 2019年10月4日</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">在Android上使用移动设备应用程序将任务、问题和请求转化为项目</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">在Android上使用移动应用程序将任务、问题和请求转化为项目</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
-     --> </p> <p>您现在可以在Android上的Workfront移动设备应用程序中将单个任务、问题和请求转化为项目。</p> </td> 
+     --> </p> <p>您现在可以在Android上的Workfront移动应用程序中，将单个任务、问题和请求转化为项目。</p> </td> 
    <td> <p>预览版本： 2019年10月4日</p> <p>生产版本： 2019年11月发布2019.4版</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">在移动设备上访问现有收藏夹并添加新收藏夹</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
-     --> </p> <p>现在，您可以在iOS和Android设备上访问Workfront移动设备应用程序上的收藏夹菜单。 您可以从“收藏夹”菜单访问现有项目，并将新项目添加到“收藏夹”菜单。</p> </td> 
+     --> </p> <p>现在，您可以在iOS和Android设备上访问Workfront移动设备应用程序上的“收藏夹”菜单。 您可以从“收藏夹”菜单访问现有项目，并将新项目添加到“收藏夹”菜单。</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新了Android上的导航</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">已更新Android上的导航</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
      --> </p> <p>Android移动设备应用程序中的导航与访问浏览器中的Workfront时的导航更加相似</p> </td> 
    <td> <p> </p> </td> 
@@ -205,13 +205,13 @@ ht-degree: 1%
 
 ## Workfront 维护更新
 
-有关2019.4版本中进行的维护更新的信息，请参阅 [Workfront维护更新](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+有关2019.4版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)。
 
 ## 公告
 
 * [要删除的各种单点登录选项](#various-single-sign-on-options-to-be-removed)
-* [不再支持API版本3](#api-version-3-no-longer-supported)
-* [TLS 1.0和1.1支持即将终止](#tls-1-0-and-1-1-support-is-ending)
+* 不再支持[API版本3](#api-version-3-no-longer-supported)
+* [TLS 1.0和1.1支持即将结束](#tls-1-0-and-1-1-support-is-ending)
 * [Flash应用程序移除](#flash-application-removal)
 * [第4季度产品路线图网络研讨会](#q4-product-roadmap-webinar)
 
@@ -221,7 +221,7 @@ ht-degree: 1%
 
 * LDAP
 
-  有关将LDAP与Workfront结合使用的更多信息，请参阅 [使用LDAP配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  有关将LDAP与Workfront一起使用的详细信息，请参阅[使用LDAP配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)。
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -233,7 +233,7 @@ ht-degree: 1%
 
 * Active Directory
 
-  有关将Active Directory与Workfront结合使用的详细信息，请参阅 [使用Active Directory配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  有关将Active Directory与Workfront一起使用的详细信息，请参阅[使用Active Directory配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -245,7 +245,7 @@ ht-degree: 1%
 
 * SAML 1.1
 
-  有关将SAML 1.1与Workfront结合使用的更多信息，请参阅 [使用SAML 1.1配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  有关将SAML 1.1与Workfront一起使用的更多信息，请参阅[使用SAML 1.1配置Adobe Workfront](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -270,7 +270,7 @@ ht-degree: 1%
 
 ### 不再支持API版本3 {#api-version-3-no-longer-supported}
 
-对API版本3的支持于2018年11月终止。 有关Workfront API版本支持计划的更多信息，请参阅 [API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)
+对API版本3的支持于2018年11月终止。 有关Workfront API版本支持计划的详细信息，请参阅[API版本控制和支持计划](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -298,7 +298,7 @@ TLS 1.2 to be required in Workfront
 
 自2018.3版发布以来，Workfront中删除了所有依赖于Flash技术的功能，并用新解决方案替换了这些功能。
 
-有关旧版Flash工具及其替代产品的详细信息，请参阅 [Adobe Workfront中基于Flash的工具的替换](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+有关旧版Flash工具及其替代的详细信息，请参阅[在Adobe Workfront中替换基于Flash的工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -309,4 +309,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第4季度产品路线图网络研讨会 {#q4-product-roadmap-webinar}
 
-了解更多有关期间的内容 [第4季度路线图网络研讨会](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). 该网络研讨会于2019年11月6日举行。 单击链接注册并观看按需录制。
+在[第4季度路线图网络研讨会](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter)期间了解更多相关信息。 该网络研讨会于2019年11月6日举行。 单击链接注册并观看按需录制。

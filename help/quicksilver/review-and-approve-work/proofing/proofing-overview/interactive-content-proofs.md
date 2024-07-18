@@ -48,7 +48,7 @@ ht-degree: 0%
 
 在ZIP文件中捆绑交互式内容以进行校对时，请确保它包括以下规范：
 
-* 捆绑包文件中应包含所有资产，如CSS、JavaScript、视频、声音和图像。
+* 捆绑包文件中应包含所有资源，如CSS、JavaScript、视频、声音和图像。
 * 交互式内容应包含主文件(index.html、index.htm)。 如果未将此文件放在根位置，则工具会自动搜索该文件夹以查找它。 主文件不需要命名为index.html/index.htm ，但是，主位置只能放置一个.html/.htm文件。
 * 文件必须至少包含一个静态文件网页。
 * 最大包大小为500 MB。
@@ -58,22 +58,22 @@ ht-degree: 0%
 
   使用“桌面校对查看器”时，这不是必需的。
 
-  有关更多信息，请参阅 [了解桌面校对查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  有关详细信息，请参阅[了解桌面校对查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
 
 * 必须允许在iframe中查看网站。
 
   使用“桌面校对查看器”时，这不是必需的。
 
-  有关更多信息，请参阅 [了解桌面校对查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  有关详细信息，请参阅[了解桌面校对查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
 
 ## 关于创建交互式验证
 
 准备ZIP压缩包文件后，创建交互式验证。
 
-有关更多信息，请参阅 [在ZIP文件中为交互式内容创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+有关详细信息，请参阅[在ZIP文件中为交互式内容创建验证](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)。
 
-或者，如果您使用的是Workfront Proof，请参阅部分 [为交互式内容生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 在文章中 [在Workfront Proof中生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+或者，如果您使用的是Workfront Proof，请参阅[在Workfront Proof中生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)一文中的[为交互式内容生成验证](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content)部分。
 
 ## 关于审阅交互式校样
 
-我们建议您使用独立的桌面校对查看器作为交互式校对的默认查看器。 但是，如果贵组织的策略不允许使用桌面验证查看器应用程序，则Workfront管理员可以配置您的系统，以便您可以在Web验证查看器中查看捆绑在ZIP存档文件中的交互式内容。 有关桌面校对查看器和Web校对查看器的比较信息，请参阅 [Web验证查看器和桌面验证查看器的区别概述](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+我们建议您使用独立的桌面校对查看器作为交互式校对的默认查看器。 但是，如果贵组织的策略不允许使用桌面验证查看器应用程序，则Workfront管理员可以配置您的系统，以便您可以在Web验证查看器中查看捆绑在ZIP存档文件中的交互式内容。 有关桌面验证查看器和Web验证查看器的比较信息，请参阅[Web验证查看器和桌面验证查看器之间的区别](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。

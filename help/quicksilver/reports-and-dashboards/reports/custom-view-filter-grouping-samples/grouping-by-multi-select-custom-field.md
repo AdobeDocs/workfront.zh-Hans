@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 * 复选框
 * 多选下拉菜单
 
-有关使用文本模式的信息，请参阅文章 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+有关使用文本模式的信息，请参阅文章[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 按多选自定义字段分组时的注意事项
 
 * 不能绘制使用文本模式分组的报表图表。 您需要创建一个参考多选自定义字段的附加计算字段，以便按照多选自定义字段的值绘制报表的图表。
 
-  有关更多信息，请参阅 [按多选自定义字段绘制报表图表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  有关详细信息，请参阅[按多选自定义字段绘制报表图表](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)。
 * 具有任何选定选项的项目仅被计数一次。
 
   例如，如果您有一个复选框自定义字段，其中选项1和选项2为选项，并且您将表单附加到任务，则同时选择了选项1和选项2的任务与仅选择了选项1或选项2的任务分开分组。
@@ -56,11 +56,11 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改分组</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ ht-degree: 0%
 要按多选自定义字段进行分组，您必须满足以下先决条件：
 
 * 在自定义表单中构建多选自定义字段。\
-  有关构建自定义表单以及向其中添加自定义字段的信息，请参阅文章 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 * 将自定义表单附加到对象。
 * 在每个对象上使用值填充多选自定义字段。 
@@ -80,19 +80,22 @@ ht-degree: 0%
 要在报表中按多选自定义字段分组，请执行以下操作：
 
 1. 创建一个报表或编辑一个现有的报表，您要在该报表中为多选自定义字段添加分组。\
-   有关创建报告的信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   有关创建报告的信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 选择 **分组** 选项卡。
-1. 单击 **切换到文本模式**.
+1. 选择&#x200B;**分组**&#x200B;选项卡。
+1. 单击&#x200B;**切换到文本模式**。
 
-1. 选择以下文件中的文本 **对您的报告进行分组** 框并将其替换为以下代码：
+1. 在&#x200B;**对您的报告分组**&#x200B;框中选择文本，然后将其替换为以下代码：
 
    <pre>
-   group.0.displayname=多选自定义字段名称group.0.valueexpression={DE：多选自定义字段名称} group.0.valueformat=HTML组。0.textmode=true
+   group.0.displayname=多选自定义字段名称
+   group.0.valueexpression={DE：多选自定义字段名称}
+   group.0.valueformat=HTML
+   group.0.textmode=true
    </pre>
 
 1. 将“多选自定义字段名称”替换为您在Workfront中显示的多选自定义字段的实际名称。
-1. 单击 **保存并关闭**.
+1. 单击&#x200B;**保存并关闭**。
 
    报告中的对象按多选自定义字段的值分组。
 

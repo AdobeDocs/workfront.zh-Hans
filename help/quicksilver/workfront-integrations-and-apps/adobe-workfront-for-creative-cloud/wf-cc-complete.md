@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 使用将工作项标记为完成 [!DNL Adobe Workfront] 插件
+# 使用[!DNL Adobe Workfront]插件标记工作项完成
 
-您可以留在以下位置 [!DNL Adobe Creative Cloud] 应用程序并顺畅地完成您的工作 [!DNL Adobe Workfront] 使用插件：
+您可以保留在以下[!DNL Adobe Creative Cloud]应用程序中，并使用插件在[!DNL Adobe Workfront]中无缝完成您的工作：
 
 {{cc-app-list}}
 
@@ -37,16 +37,16 @@ ht-degree: 0%
   </tr> --> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您必须拥有 [!DNL Adobe Creative Cloud] 除了许可证外， [!DNL Workfront] 许可证。</td> 
+   <td>除了[!DNL Workfront]许可证，您还必须具有[!DNL Adobe Creative Cloud]许可证。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Edit]对要完成的对象的访问权限。</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]对要完成的对象的访问权限。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
@@ -54,23 +54,23 @@ ht-degree: 0%
 
 ## 完成工作项
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 从 **[!UICONTROL 工作列表]**&#x200B;中，选择要标记为完成的任务或问题。
-1. 单击 **[!UICONTROL 完成]**.  如果您是分配给此任务或问题的唯一用户，则会标记项目 [!UICONTROL 完成] 或 [!UICONTROL 已解决] 在 [!DNL Workfront].
-1. （视情况而定）如果为此任务或问题分配了多个用户，请单击 [!UICONTROL 完成] 打开下拉菜单。 然后，您可以：
+1. 从&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，选择要标记为完成的任务或问题。
+1. 单击&#x200B;**[!UICONTROL 完成]**。  如果您是分配给此任务或问题的唯一用户，这将在[!DNL Workfront]中标记项目[!UICONTROL 完成]或[!UICONTROL 已解决]。
+1. （视情况而定）如果为该任务或问题分配了多个用户，则单击[!UICONTROL 完成]将打开一个下拉菜单。 然后，您可以：
 
-   单击 **[!UICONTROL 完成我的部分]** 其他用户也必须完成其任务或问题才能完成的情况。
+   如果其他用户也必须完成工作才能完成任务或问题，请单击&#x200B;**[!UICONTROL 完成我的部件]**。
 
    或
 
-   单击 **[!UICONTROL 完成]** （适用于任务）或 **[!UICONTROL 已解决]** （针对问题）无需对任务或问题做进一步工作。 这将标记项目 [!UICONTROL 完成] 或 [!UICONTROL 已解决] 在 [!DNL Workfront].
+   单击&#x200B;**[!UICONTROL 完成]**（对于任务），或者单击&#x200B;**[!UICONTROL 已解决]**（对于问题）（如果不需要对该任务或问题执行进一步的工作）。 这在[!DNL Workfront]中将项[!UICONTROL Complete]或[!UICONTROL Resolved]标记。
 
    >[!NOTE]
    >
-   >如果工作项目具有前置任务，则完成按钮为灰色，直到这些前置任务被标记为完成。 要在中查看前置任务，请执行以下操作 [!DNL Workfront]，单击任务名称。
+   >如果工作项具有前置任务，则完成按钮为灰色，直到这些前置任务被标记为完成。 若要查看[!DNL Workfront]内的前置任务，请单击任务名称。
    >![](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

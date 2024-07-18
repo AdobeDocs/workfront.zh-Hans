@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2019.2版本中包含的所有验证增强功能。 此功能计划于2019年5月20日这一周在“生产”环境中可用。
 
-有关2019.2版中所做所有更改的列表，请参阅 [2019.2发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 允许没有验证许可证的用户应用操作并解决评论
 
@@ -45,5 +45,5 @@ ht-degree: 0%
 
 这很有用，例如，当要求您批准具有多个版本的验证时。 当使用当前文档版本过滤器运行验证审批报告时，该报告仅列出等待您审批的每个验证的当前版本，并忽略您不再需要处理的早期版本。
 
-有关更多信息，请参阅 [过滤器：验证审批报告，以忽略以前的验证版本](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+有关详细信息，请参阅[筛选器：验证审批报告，以忽略以前的验证版本](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)。
 

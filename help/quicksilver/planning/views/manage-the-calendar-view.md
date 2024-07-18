@@ -30,7 +30,7 @@ hide: yes
 
 您可以从记录类型页在日历视图中显示记录及其字段。
 
-有关Adobe Workfront Planning视图以及如何管理这些视图的信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关Adobe Workfront Planning视图以及如何管理这些视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,13 +82,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 管理日历视图 {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ hide: yes
 要管理日历视图，请执行以下操作：
 
 1. 转到要查看其日历的记录类型页面。
-1. 创建日历视图，如文章所述 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+1. 创建日历视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ hide: yes
 1. 执行以下操作之一以浏览日历：
 
    * 单击左右图标或使用水平滚动条在日历中前后移动。
-   * 单击 **今天** 将日历居中到今天的日期。
+   * 单击&#x200B;**今天**&#x200B;可将日历居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
 
       * 月
@@ -147,7 +147,7 @@ hide: yes
 
 * 在日历视图中添加筛选器与在表视图中添加筛选器相同。
 
-  有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+  有关详细信息，请参阅文章[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)中的“添加筛选器”部分。
 
 * 您可以按连接的记录字段或查找字段进行筛选。
 

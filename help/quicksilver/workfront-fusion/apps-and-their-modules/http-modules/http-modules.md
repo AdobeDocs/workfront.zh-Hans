@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 连接器
 navigation-topic: apps-and-their-modules
-title: HTTP &gt；其他模块
-description: 此 [!DNL Adobe Workfront Fusion] HTTP应用程序为基于超文本传输协议(HTTP)协议的通信提供各种模块。 HTTP是万维网数据通信的基础。 您可以使用这些模块下载网页和文件、调用Webhook和API端点等。
+title: HTTP &amp；gt；其他模块
+description: ' [!DNL Adobe Workfront Fusion] HTTP应用为基于超文本传输协议(HTTP)协议的通信提供了各种模块。 HTTP是万维网数据通信的基础。 您可以使用这些模块下载网页和文件、调用Webhook和API端点等。'
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] 需要 [!UICONTROL Adobe Workfront Fusion] 除了许可证外， [!UICONTROL Adobe Workfront] 许可证。
+>[!UICONTROL Adobe Workfront Fusion]除了[!UICONTROL Adobe Workfront]许可证外，还需要[!UICONTROL Adobe Workfront Fusion]许可证。
 
-此 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 应用程序为基于超文本传输协议(HTTP)协议的通信提供各种模块。 HTTP是万维网数据通信的基础。 您可以使用这些模块下载网页和文件、调用Webhook和API端点等。
+[!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]应用为基于超文本传输协议(HTTP)协议的通信提供了各种模块。 HTTP是万维网数据通信的基础。 您可以使用这些模块下载网页和文件、调用Webhook和API端点等。
 
 模块的正确选择取决于您要访问的资源所采用的身份验证/授权机制。 以下是模块示例
 
 * 发出请求：通用模块主要用于未采用任何类型的身份验证/授权的资源
-* 提出基本身份验证请求：针对正在使用的资源 [!DNL HTTP] 基本身份验证(BA)
+* 发出基本身份验证请求：针对采用[!DNL HTTP]基本身份验证(BA)的资源
 * 发出OAuth 2.0请求：针对采用OAuth 2.0授权协议的资源
 * 发出客户端证书身份验证请求：对于采用需要客户端证书的授权协议的资源。
 * 发出API密钥授权请求：用于使用API密钥进行授权的资源。
@@ -36,16 +36,16 @@ ht-degree: 0%
 >
 >如果您要连接到的Adobe产品当前没有专用连接器，我们建议您使用Adobe Authenticator模块。
 >
->有关更多信息，请参阅 [Adobe Authenticator模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>有关详细信息，请参阅[Adobe Authenticator模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)。
 
 ## 请求模块
 
 有关特定请求模块说明，请参阅以下文章：
 
-* [[!UICONTROL HTTP] >[!UICONTROL 提出请求] 模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL 发出基本授权请求] 模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求] 模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL 发出客户端证书授权请求] 模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 发出请求]模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 发出基本授权请求]模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求]模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL 发出客户端证书授权请求]模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL 发出API密钥授权请求]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## 其他操作模块
@@ -78,7 +78,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL] </td> 
-   <td> <p>输入或映射要解析的URL，例如 [!DNL bit.ly] URL。</p> </td> 
+   <td> <p>输入或映射要解析的URL，如[!DNL bit.ly] URL。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法] </td> 
@@ -98,7 +98,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL源模块]</td> 
+   <td role="rowheader">[！UICONTROL Source Module]</td> 
    <td> <p> 选择要从中检索标头的模块。</p> </td> 
   </tr> 
  </tbody> 

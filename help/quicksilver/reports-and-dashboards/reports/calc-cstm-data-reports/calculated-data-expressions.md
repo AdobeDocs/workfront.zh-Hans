@@ -24,11 +24,11 @@ ht-degree: 0%
 
 * 自定义表单上的计算自定义字段
 
-  有关在Workfront中的自定义表单中创建计算自定义字段的更多信息，请参阅 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  有关在Workfront中的自定义表单中创建计算自定义字段的更多信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 * 使用文本模式时，报表或列表中的计算自定义列
 
-  有关在报表和视图中使用文本模式的详细信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  有关在报表和视图中使用文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 计算自定义字段与计算自定义列的语法
 
@@ -77,17 +77,17 @@ ht-degree: 0%
   >
   >相同的语法适用于使用计算表达式的所有文本模式报表元素：视图、筛选器、分组、提示。
 
-有关必须在计算自定义列中使用的语法的更多信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+有关计算自定义列中必须使用的语法的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 您可以使用的数据表达式
 
 以下列表定义了在Workfront中构建3种不同类型的计算自定义字段之一时可以使用的可用表达式：
 
-* [日期和时间计算的自定义字段](#date-time-calculated-custom-fields)
+* [已计算的日期和时间自定义字段](#date-time-calculated-custom-fields)
 * [数学计算的自定义字段](#mathematical-calculated-custom-fields)
 * [文本计算的自定义字段](#text-calculated-custom-fields)
 
-您可以使用下面列出的表达式来构建计算的自定义列。 但是，必须为计算的自定义列使用正确的语法，如一节中所述  [计算自定义字段与计算自定义列的语法](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 本文章中。
+您可以使用下面列出的表达式来构建计算的自定义列。 但是，必须对计算自定义列使用正确的语法，如本文中计算自定义字段与计算自定义列的语法[一节中所述](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)。
 
 ### 日期和时间计算的自定义字段 {#date-time-calculated-custom-fields}
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>每周添加日</strong> </td> 
+   <td><strong>ADDWEEKDAYS</strong> </td> 
    <td> <p>将工作日数添加到日期。 此表达式只将整整数值添加到日期，向下舍入。 </p> <p>表达式的格式如下所示：</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
@@ -186,13 +186,13 @@ ht-degree: 0%
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DMIN</strong> </td> 
+   <td><strong>分钟</strong> </td> 
    <td> <p>返回列表中最早的日期，格式如下：</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>HOUR</strong> </td> 
+   <td><strong>小时</strong> </td> 
    <td> <p>以0到23之间的数字返回日期的小时数。</p> <p>表达式的格式如下所示。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
@@ -204,13 +204,13 @@ ht-degree: 0%
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MONTH</strong> </td> 
+   <td><strong>个月</strong> </td> 
    <td> <p>按1到12之间的数字返回日期的月份，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SECOND</strong> </td> 
+   <td><strong>秒</strong> </td> 
    <td> <p>以0到60之间的数字返回日期的秒数，格式如下。 在本例中，日期是工作对象的“输入日期”。</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -257,7 +257,7 @@ ht-degree: 0%
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>AVERAGE</strong> </td> 
+   <td><strong>平均</strong> </td> 
    <td>返回数字的平均值，格式如下：
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
@@ -275,7 +275,7 @@ ht-degree: 0%
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>楼层</strong> </td> 
    <td>将数字下调到最接近的整数，格式如下。 此示例使用附加自定义表单的对象下的对象数。
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -299,7 +299,7 @@ ht-degree: 0%
 <p><code>MAX(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MIN</strong> </td> 
+   <td><strong>分钟</strong> </td> 
    <td>返回列表中的最小项目，格式如下：
 
 <p><code>MIN(item1, item2, ...)</code></p></td> 
@@ -309,13 +309,13 @@ ht-degree: 0%
    <td>将字符串转换为数字，格式如下：<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>幂</strong> </td> 
+   <td><strong>电源</strong> </td> 
    <td>返回提升为次幂的数字，格式如下：
 
 <p><code>POWER(number, power)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PROD</strong> </td> 
+   <td><strong>生产</strong> </td> 
    <td>将所有数字相乘，格式如下：
 
 <p><code>PROD(number1, number2, ....)</code></p>
@@ -325,7 +325,7 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROUND</strong> </td> 
+   <td><strong>轮</strong> </td> 
    <td>将数字四舍五入到指定的小数位精度，格式如下：
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -355,7 +355,7 @@ ht-degree: 0%
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>总和</strong> </td> 
    <td>将所有数字相加，格式如下：
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASE</strong> </td> 
+   <td><strong>案例</strong> </td> 
    <td> <p>与其他表达式一起使用，根据索引号从列表中选择值。 </p>
    <p>索引号是返回数值（通常在已知范围内）的字段或函数。</p> 
    <p>表达式的格式如下所示：</p>
@@ -414,7 +414,7 @@ ht-degree: 0%
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>如果</strong> </td> 
+   <td><strong>IF</strong> </td> 
    <td> <p>评估指定的条件，如果为true，则返回trueExpression的值；如果为false，则返回falseExpression的值。</p>
 
 <p>表达式的格式如下所示：</p>
@@ -434,7 +434,7 @@ ht-degree: 0%
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>有关构建“IF”语句的详细信息，请参见 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">“IF”语句概述</a>.</p> </td> 
+<p>有关生成“IF”语句的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">“IF”语句概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -452,7 +452,7 @@ ht-degree: 0%
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>在</strong> </td> 
+   <td><strong>位于</strong> </td> 
    <td> <p>如果值与提供的值之一相等，则返回true；否则，表达式返回false。</p> <p>表达式的格式如下所示：
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
@@ -464,7 +464,7 @@ ht-degree: 0%
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>左侧</strong> </td> 
+   <td><strong>已离开</strong> </td> 
    <td> <p>从字符串的左侧返回指定数目的字符，格式如下：</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
@@ -482,7 +482,7 @@ ht-degree: 0%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REPLACE</strong> </td> 
+   <td><strong>替换</strong> </td> 
    <td> <p>在string1中，将所有出现的string2替换为string3。</p> <p>表达式的格式如下所示：</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
@@ -494,7 +494,7 @@ ht-degree: 0%
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SEARCH</strong> </td> 
+   <td><strong>搜索</strong> </td> 
    <td> <p>返回字符串withinText中findText第一次出现的索引，从给定的起始位置开始；如果找不到文本，则返回–1。</p> <p>表达式的格式如下所示：</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
@@ -524,7 +524,7 @@ ht-degree: 0%
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>TRIM</strong> </td> 
+   <td><strong>修剪</strong> </td> 
    <td> <p>删除字符串开头和结尾的空格，格式如下：</p>
 
 <p><code>TRIM(string)</code></p> </td> 

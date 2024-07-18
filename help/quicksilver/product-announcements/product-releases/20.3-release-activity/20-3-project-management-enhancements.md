@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了在20.3版本中针对生产环境所做的所有项目管理增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+有关20.3版本的所有可用更改列表，请参阅[20.3版本概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 列表中的自定义字段格式
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 现在，当系统管理员创建针对格式配置的自定义表单字段时，您可以在您最常使用的字段中设置文本格式：在整个Workfront的列表中。 您可以在列表中单击某个字段并将粗体、斜体和下划线应用于其中的文本，而不是进入“详细信息”区域以设置自定义表单中的文本格式。
 
-请注意，此功能仅在更新的列表中可用。 有关已更新列表的详细信息，请参阅 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+请注意，此功能仅在更新的列表中可用。 有关更新的列表的详细信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
-有关Workfront管理员如何创建带格式的文本字段的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关Workfront管理员如何创建带格式的文本字段的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 更新了多个全局标头的外观
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-有关新的“编辑项目”框的信息，请参见 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+有关新的编辑项目框的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 新增了“摘要”面板，并改进了文档列表
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 某些操作当前不可用，但将在未来版本中添加。 这些操作包括验证工作流。
 
-有关更多信息，请参阅 [文档摘要概述](../../../documents/managing-documents/summary-for-documents.md).
+有关详细信息，请参阅[文档概述](../../../documents/managing-documents/summary-for-documents.md)的摘要。
 
 ## 文档详情改进
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 * 更大的预览缩略图，使您可以轻松识别文档
 * 添加了全局编辑图标，使您能够一次编辑多个字段。
 
-有关更多信息，请参阅 [文档详情概述](../../../documents/managing-documents/document-details-overview.md).
+有关详细信息，请参阅[文档详情概述](../../../documents/managing-documents/document-details-overview.md)。
 
 ## 对于管理员：在组级别设置项目偏好设置
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 所有项目首选项均可在组级别进行自定义，但时间线计算和自定义季度除外。
 
-有关组项目首选项的详细信息，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+有关组项目首选项的详细信息，请参阅[为组配置项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)。
 
 ## 管理员的新增功能：创建用户可设置文本格式的自定义表单字段
 
@@ -109,9 +109,9 @@ ht-degree: 0%
 
 ## 管理员的新增功能：为自定义表单字段创建内部名称和面向用户的标签
 
-为在自定义表单字段上添加标签和重新添加标签提供更大的灵活性，您现在可以创建一个 *name* 除面向用户的字段外， *标签* 你一直在使用。 这样，您就可以自由更改用户看到的字段标签，而无需更改系统看到的字段名称。
+为了在标签和重新标签自定义表单字段方面为您提供更大的灵活性，除了您一直在使用的面向用户的&#x200B;*标签*&#x200B;之外，您现在还可以为字段创建内部&#x200B;*名称*。 这样，您就可以自由更改用户看到的字段标签，而无需更改系统看到的字段名称。
 
 过去，标签既显示在字段的上方，供用户使用，也供系统用于标识字段。 所以更换标签使现场在任何地方都出现了故障，因为系统无法再识别它。
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

@@ -21,8 +21,8 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [创建项目](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [编辑项目群](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
-* [将现有项目群添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [编辑程序](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
+* [将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [将项目添加到项目群](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [从项目群中删除项目](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)

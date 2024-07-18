@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: 甘特图
-description: 查找关于 [!UICONTROL 甘特图] 以下子部分中的图表。
+description: 在以下子部分中查找有关[!UICONTROL 甘特图]的信息。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 此 [!UICONTROL 甘特图]
+# [!UICONTROL 甘特图]
 
 本节包含以下子部分：
 
-* [[!UICONTROL 甘特图] 概述](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+* [[!UICONTROL 甘特图]概述](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
 

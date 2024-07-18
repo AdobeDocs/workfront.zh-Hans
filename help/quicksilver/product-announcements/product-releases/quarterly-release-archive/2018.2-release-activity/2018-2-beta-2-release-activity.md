@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 2发布活动
-description: 本页介绍了2018.2 Beta 2版本预览环境中最近提供的所有更改。 该功能已于2018年4月5日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+title: 2018.2 Beta 2发行版活动
+description: 本页介绍了2018.2 Beta 2版本在“预览”环境中最近提供的所有更改。 该功能已于2018年4月5日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 2发布活动
+# 2018.2 Beta 2发行版活动
 
-本页介绍了2018.2 Beta 2版本预览环境中最近提供的所有更改。 该功能已于2018年4月5日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+本页介绍了2018.2 Beta 2版本在“预览”环境中最近提供的所有更改。 该功能已于2018年4月5日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2测试版2包含以下增强功能：
+2018.2 Beta 2版本包含以下增强功能：
 
 * [直接从主页区域编辑字段](#edit-fields-directly-from-the-home-area)
 * [以天为单位记录时间](#log-time-in-days)
-* [在项目列表的甘特图上查看跨项目前置任务关系](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
+* [在项目列表中的甘特图上查看跨项目前置任务关系](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
 * [使用Portfolio优化程序中的预算成本计算Portfolio财务](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [利用率报表：从新资源预算区域填充预算小时数](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) （仅预览）
+* [利用率报告：从新资源预算区域](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)填充预算小时数（仅预览）
 
-* [利用率报表：按用户在项目上查看预算小时数](#utilization-report-view-budgeted-hours-by-user-on-a-project) （仅预览）
+* [利用率报告：查看项目上按用户的预算小时数](#utilization-report-view-budgeted-hours-by-user-on-a-project)（仅预览）
 
 * [文档列表中的验证进度可供非验证用户使用](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [移动改进](#mobile-improvements)
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 在此更改之前，只能在“主页”区域查看信息，不能进行编辑。
 
-欲了解更多信息，请参见 [在主页区域更新或编辑工作项](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) 在文章中  [在主页区域更新或编辑工作项](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+有关详细信息，请参阅文章中的[在主页区域](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)更新或编辑工作项  [更新或编辑主页区域中的工作项](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)。
 
 ## 以天为单位记录时间 {#log-time-in-days}
 
@@ -51,9 +51,9 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 在此更改之前，用户只能以小时为单位记录时间。
 
-您可以通过编辑用户配置文件来配置此设置。 有关更多信息，请参阅 [配置时间是以小时还是天为单位记录](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+您可以通过编辑用户配置文件来配置此设置。 有关详细信息，请参阅[配置时间是以小时还是天数记录](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)。
 
-有关用户如何在此设置更新后几天内记录时间的信息，请参阅 [记录时间](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+有关用户如何在此设置更新后记录时间（以天为单位）的信息，请参阅[记录时间](../../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 在项目列表的甘特图上查看跨项目前置任务关系 {#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects}
 
@@ -64,7 +64,7 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 在此更改之前，您只能查看项目级别单个任务的跨项目前置任务关系。
 
-有关更多信息，请参阅 [配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+有关详细信息，请参阅[配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。 
 
 ## 使用Portfolio优化程序中的预算成本计算Portfolio财务 {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
@@ -78,7 +78,7 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 我们还在Portfolio财务字段中添加了两个新字段：旧版ROI和旧版净值，以便从新的资源管理工具中获取新的价值。
 
-有关更多信息，请参阅 [Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) 在文章中  [Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+有关详细信息，请参阅文章中的[Portfolio优化器概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)  [Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 利用率报表：从新资源预算区域填充预算小时数 {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 在此更改之前，使用旧版资源估算区域中的信息。
 
-有关更多信息，请参阅 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中  [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关详细信息，请参阅文章中的[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 利用率报表：按用户在项目上查看预算小时数 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -102,7 +102,7 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 在此更改之前，“利用率”报告仅按工作角色显示预算小时数。 
 
-有关更多信息，请参阅 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在文章中 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关详细信息，请参阅[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 文档列表中的验证进度可供非验证用户使用 {#proof-progress-from-the-document-list-available-to-non-proofing-users}
 
@@ -110,7 +110,7 @@ Workfront管理员现在可以配置其组织中的用户是记录时间（以�
 
 在此更改之前，验证进度指示器仅适用于可以生成验证的用户。
 
-有关更多信息，请参阅 [校对进度和状态概述](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+有关详细信息，请参阅[校对进度和状态概述](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)。
 
 ## 移动改进 {#mobile-improvements}
 

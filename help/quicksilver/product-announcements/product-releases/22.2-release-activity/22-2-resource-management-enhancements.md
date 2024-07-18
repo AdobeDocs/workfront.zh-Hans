@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日这一周。
 
-有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 改进了工作负载均衡器导航
 
@@ -37,23 +37,23 @@ in January 2022
 * 现在，左侧面板也可以调整大小。
 * 工作负载均衡器现在提供全屏模式。
 
-有关导航工作负载均衡器的更多信息，请参阅 [导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关导航工作负载均衡器的更多信息，请参阅[导航工作负载均衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 在工作负载均衡器中访问高级工作
 
 为了使分配工作项更容易、更准确，现在当在工作负载均衡器中手动分配工作项时，可以进行高级分配。 在此增强功能之前，您可以在编辑项目、项目标题或列表中访问高级工作。
 
-有关更多信息，请参阅 [使用工作负载均衡器手动分配工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+有关详细信息，请参阅[使用工作负载均衡器手动分配工作](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)。
 
 ## 选择“默认计划”首选项时用于计算用户可用性的新公式
 
 为了在资源管理工具中提供更准确的信息，我们更改了Workfront管理员在资源管理首选项中选择默认计划时Workfront用于计算用户可用性的公式。 通过新的更新，Workfront使用以下公式计算用户可用性：
 
-用户可用小时数= （默认计划小时数 — 例外） &#42; FTE — 休息时间（小时）
+用户可用小时数= （默认计划小时数 — 例外） &#42; FTE — 休息时间小时数
 
 在此更新之前，在选择了“默认计划”时，Workfront使用以下公式计算用户可用性：
 
-用户可用小时数=(默认计划小时数 — （计划例外+休息时间小时数）) &#42; 用户FTE值
+用户可用小时数= (默认计划小时数 — （计划例外+休息时间小时数）) &#42;用户FTE值
 
-有关更多信息，请参阅 [配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+有关详细信息，请参阅[配置资源管理首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

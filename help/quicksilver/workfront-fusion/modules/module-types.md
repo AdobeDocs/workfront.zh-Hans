@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 模块类型
 
-A[!UICONTROL Adobe Workfront Fusion] 区分五种类型的模块：操作模块、搜索模块、触发器模块、聚合器和迭代器。 聚合器和迭代器适用于高级方案。
+A[!UICONTROL Adobe Workfront Fusion]将模块分为五种类型：操作模块、搜索模块、触发器模块、聚合器和迭代器。 聚合器和迭代器适用于高级方案。
 
 ## 访问要求
 
@@ -38,145 +38,145 @@ A[!UICONTROL Adobe Workfront Fusion] 区分五种类型的模块：操作模块�
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买Adobe Workfront Fusion和Adobe Workfront才能使用本文中所述的功能。</td> 
+   <td>您的组织必须购买Adobe Workfront Fusion和Adobe Workfront，才能使用本文中所述的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系您的Workfront管理员。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 操作模块
 
-操作模块是最常见的模块类型。 典型操作模块会返回一个捆绑包，然后将该捆绑包传递到下一个模块进行处理。
+操作模块是最常见的模块类型。 典型操作模块会返回单个捆绑包，然后传递给下一个模块进行处理。
 
-与触发器模块不同，操作模块可以放置在场景的开始、中间或结尾。 场景可以包含无限数量的操作模块。
+与触发器模块不同，操作模块可以放置在方案的开头、中间或结尾。 方案可以包含无限数量的操作模块。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->* **[!DNL Workfront]> [!UICONTROL 上传文件]** 将文件发送至 [!DNL Workfront] 并返回其标识符。
->* **[!UICONTROL 图像] > [!UICONTROL 调整大小]** 接收图像，将其大小调整为指定的尺寸，然后将调整大小的图像传递到下一个操作。
+>* **[!DNL Workfront]> [!UICONTROL 上载文件]**&#x200B;将文件发送到[!DNL Workfront]并返回其标识符。
+>* **[!UICONTROL 图像] > [!UICONTROL 调整大小]**&#x200B;接收图像，将其大小调整为指定的尺寸，然后将调整大小的图像传递到下一个操作。
 
-“操作”类型有四个子类型：“创建”、“读取”、“更新”和“删除”。 Update子类型允许执行以下三项操作：
+“操作”类型有四个子类型：“创建”、“读取”、“更新”和“删除”。 Update子类型启用以下三个操作：
 
-* **擦除字段内容**. 当字段的内容被评估为擦除关键字（不要混淆）时，会发生此操作 *空*)。
+* **擦除字段**&#x200B;的内容。 当字段的内容被评估为擦除关键字（不要与&#x200B;*empty*&#x200B;混淆）时，将发生此操作。
 
   ![](assets/erase-content-of-field.png)
 
-* **字段的内容保持不变**. 当字段留空或字段内容评估为空时（在JSON中通过null表示），会发生此操作。
+* **字段的内容保持不变**。 当字段留空或字段内容计算为空（在JSON中通过null表示）时，会发生此操作。
 
   ![](assets/leave-content-field-unchanged-350x231.png)
 
-* **替换字段的内容**. 除上述两种情况外，此操作还会发生在所有其他情况下。
+* **替换字段**&#x200B;的内容。 除上述两种情况外，此操作还会发生在所有其他情况下。
 
 >[!NOTE]
 >
->* 如果您没有看到 `erase` 关键词：在映射面板中，模块不是更新模块，或者未更新到应用程序的最新规范。
->* ”[!UICONTROL 空]”不会更改字段内容。 如果需要拭除该字段，可使用以下公式：
+>* 如果您在映射面板中未看到`erase`关键字，则该模块不是更新模块，或者未更新为应用程序的最新规范。
+>* “[!UICONTROL Empty]”不会更改字段内容。 如果必须拭除该字段，可以使用以下公式：
 >
 >![](assets/formula-ifempty-name-erase.png)
 >
->在字段的内容被评估为空时，当前无法将字段保持不变。
+>在字段的内容被评估为空时，当前无法保持该字段不变。
 
 ## 搜索模块
 
-典型的搜索会返回零、一个或多个包，然后这些包会传递到下一个模块进行处理。
+典型的搜索会返回零、一个或多个包，然后这些包将传递到下一个模块进行处理。
 
-您可以将搜索放在方案的开头、中间或结尾。
+您可以将搜索放置在方案的开头、中间或结尾。
 
-场景可以包含无限数量的搜索。
+方案可以包含无限数量的搜索。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->**[!DNL Workfront]> [!UICONTROL 读取相关记录]**  读取在特定父对象中与指定的搜索查询匹配的记录
+>**[!DNL Workfront]> [!UICONTROL 读取相关记录]**&#x200B;读取在特定父对象中与指定的搜索查询匹配的记录
 
 ## 触发器模块
 
-当给定服务发生更改时，触发器会生成捆绑包。 更改可以是创建新记录、删除记录、更新记录等。
+当给定服务发生更改时，触发器将生成捆绑包。 更改可以是创建新记录、删除记录、更新记录等。
 
 每个触发器可以返回零、一个或多个包，这些包随后传递给下一个模块进行处理。
 
-触发器只能放在方案的开头。
+触发器只能在方案的开头放置。
 
 每个方案只能包含一个触发器。
 
-[!DNL Workfront Fusion] 区分两种类型的触发器：轮询触发器和即时触发器。
+[!DNL Workfront Fusion]区分两种类型的触发器：轮询触发器和即时触发器。
 
 ### 轮询触发器
 
-轮询触发器会定期轮询给定服务，即使自上次运行以来未发生更改也是如此。 我们建议您安排包含轮询触发器的方案定期运行。 如果存在 *更改*，触发器将返回包含有关更改信息的包。 如果没有 *更改*&#x200B;时，触发器不会输出任何捆绑包。 有关计划方案的说明，请参阅 [在中计划方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+轮询触发器会定期轮询给定服务，即使自上次运行以来未发生任何更改。 我们建议您安排包含轮询触发器的方案定期运行。 如果存在&#x200B;*更改*，则触发器将返回包含有关更改信息的包。 如果没有&#x200B;*change*，则触发器不会输出任何包。 有关计划方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)中计划方案。
 
-轮询触发器允许您选择它们应通过epoch面板输出的第一个包。 保存触发器或更改触发器设置后，面板会自动显示。 有关更多信息，请参阅 [选择触发器模块的开始位置 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+轮询触发器允许您选择它们应通过epoch面板输出的第一个包。 保存触发器或更改触发器设置后，面板会自动显示。 有关详细信息，请参阅[选择触发器模块在[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)中的开始位置。
 
 >[!NOTE]
 >
->在epoch面板中进行的设置仅影响模块的首次执行。 执行模块后，该模块会记住最后一个输出的包，并撤消通过epoch面板所做的设置。
+>在Epoch面板中进行的设置仅影响模块的首次执行。 执行模块后，该模块会记住最后输出的捆绑，并撤消通过epoch面板所做的设置。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->* **[!DNL Workfront]> [!UICONTROL 观看记录]** 返回自上次运行场景以来新添加的文件
+>* **[!DNL Workfront]> [!UICONTROL 监视记录]**&#x200B;返回自上次运行方案以来新添加的文件
 >
->* **[!DNL Google Sheets]> [!UICONTROL 监视行]** 返回自上次运行场景以来用户添加的新行
+>* **[!DNL Google Sheets]> [!UICONTROL 观察行]**&#x200B;返回自上次运行方案以来用户添加的新行
 
 ### 即时触发器
 
-即时触发器使服务能够通知 [!DNL Workfront Fusion] 关于 *更改* 立即。 我们建议您安排一个包含即时触发器的方案立即运行。 有关说明，请参阅 [在Adobe Workfront Fusion中计划场景](../../workfront-fusion/scenarios/schedule-a-scenario.md). 另请参阅 [中的即时触发器(Webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) 有关如何处理传入数据的详细信息。
+即时触发器使服务能够立即通知[!DNL Workfront Fusion]有关&#x200B;*更改*&#x200B;的信息。 我们建议您安排一个包含即时触发器的方案立即运行。 有关说明，请参阅[在Adobe Workfront Fusion中计划方案](../../workfront-fusion/scenarios/schedule-a-scenario.md)。 另请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)中的[即时触发器(webhook)，以了解如何处理传入数据的详细信息。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->* **[!DNL Workfront]> [!UICONTROL 观看活动]** 在Workfront中发生特定类型的事件（例如创建任务）时返回信息。
->* **[!DNL Google Sheets]> [!UICONTROL 观看更改]** 每当更新单元格时，都会返回信息。
+>* 在Workfront中发生特定类型的事件（如创建任务）时，**[!DNL Workfront]> [!UICONTROL 关注事件]**&#x200B;会返回信息。
+>* 每当更新单元格时，**[!DNL Google Sheets]> [!UICONTROL 监视更改]**&#x200B;将返回信息。
 
 ## 汇总
 
-聚合器是一种将多个捆绑包累积到单个捆绑包中的模块。
+聚合器是一种将多个捆绑累积到单个捆绑中的模块。
 
 每个聚合器仅返回一个捆绑包，该捆绑包随后传递到下一个模块以供进一步处理。
 
-只能将聚合放置在场景的中间。
+只能将聚合放置在场景的中间位置。
 
-场景可以包含无限数量的聚合器。
+方案可以包含无限数量的聚合器。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->* **[!UICONTROL 存档] > [!UICONTROL 创建存档]** 将接收的文件压缩到zip存档中
->* **[!UICONTROL CSV] > [!UICONTROL 聚合到CSV]** 将CSV文件中的多个字符串合并到一行中
->* **[!UICONTROL 工具] > [!UICONTROL 文本汇总]** 将多个字符串组合到一个字符串中
+>* **[!UICONTROL 存档] > [!UICONTROL 创建存档]**&#x200B;将接收的文件压缩为zip存档
+>* **[!UICONTROL CSV] > [!UICONTROL 聚合到CSV]**&#x200B;将CSV文件中的多个字符串合并到一行
+>* **[!UICONTROL 工具] > [!UICONTROL 文本聚合器]**&#x200B;将多个字符串组合为一个字符串
 
-有关更多信息，请参阅 [中的聚合器模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)中的[聚合器模块。
 
 ## 迭代器
 
 迭代器是一种将数组拆分为多个单独捆绑包的模块。
 
-每个迭代器都会返回一个或多个包，然后将这些包传递到下一个模块进行处理。
+每个迭代器都会返回一个或多个包，然后这些包将传递到下一个模块进行处理。
 
-只能将迭代器放置在场景的中间。
+只能将迭代器放置在场景的中间位置。
 
 方案可以包含无限数量的迭代器。
 
 >[!INFO]
 >
->**示例:**
+>**示例：**
 >
->**[!UICONTROL 电子邮件] > [!UICONTROL 检索附件]** 将附件数组分解为单独的包
+>**[!UICONTROL 电子邮件] > [!UICONTROL 检索附件]**&#x200B;将附件数组分成单独的包
 
-有关更多信息，请参阅 [中的迭代器模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) 和 [映射数组 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).
+有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)中的[迭代器模块和 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)中的[映射数组。

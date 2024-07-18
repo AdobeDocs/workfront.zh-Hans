@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL SOAP] 模块
+# [!UICONTROL SOAP]模块
 
-您可以使用 [!UICONTROL SOAP] 要连接的模块 [!UICONTROL SOAP] 中的API [!UICONTROL Adobe Workfront Fusion].
+您可以使用[!UICONTROL SOAP]模块连接到[!UICONTROL Adobe Workfront Fusion]中的[!UICONTROL SOAP] API。
 
 ## 访问要求
 
@@ -39,46 +39,46 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 的限制 [!UICONTROL SOAP] 模块
+## [!UICONTROL SOAP]模块的限制
 
 >[!NOTE]
 >
 >在WDSL加载期间禁用重定向。 这是一项安全功能，但可能意味着运行模块时会阻止未验证的重定向。
 
-此 [!UICONTROL SOAP] 模块当前为测试版，不支持：
+[!UICONTROL SOAP]模块当前为测试版，不支持：
 
 * 重新定义元素
 * 分数数字限制
 * 总数字限制
 * 空格限制
 * 输入和输出消息中有多个部分。 仅支持单部分消息
-* 在帮助下定义的自定义XML架构元素 [[!UICONTROL SOAP] 编码](https://schemas.xmlsoap.org) 架构和元素。
+* 在[[!UICONTROL SOAP]编码](https://schemas.xmlsoap.org)架构和元素的帮助下定义的自定义XML架构元素。
 
 >[!INFO]
 >
 >**示例：**
 >  
->以下内容无法正确识别 [!UICONTROL Workfront Fusion]：
+>[!UICONTROL Workfront Fusion]无法正确识别以下内容：
 >
 >```
 ><complexType name="ArrayOfFloat">
@@ -91,14 +91,14 @@ ht-degree: 0%
 ></complexType>
 >```
 >
->此示例包括 `soapenc:Array`， `soapenc:arrayType` 和 `wsdl:arrayType` 尚未支持的引用 [!UICONTROL Workfront Fusion].
+>此示例包括[!UICONTROL Workfront Fusion]中尚不支持的`soapenc:Array`、`soapenc:arrayType`和`wsdl:arrayType`引用。
 
 ## 解决方法
 
-如果 [!UICONTROL SOAP] 模块拒绝处理WSDL文件，或在模块配置中引发各种错误，您可以尝试使用通用的 **[!UICONTROL HTTP] > [!UICONTROL 提出请求]** 模块中：
+如果[!UICONTROL SOAP]模块拒绝处理WSDL文件或在该模块的配置中引发各种错误，您可以尝试改用通用&#x200B;**[!UICONTROL HTTP] > [!UICONTROL 发出请求]**&#x200B;模块：
 
-1. 在 [!DNL Workfront Fusion]，创建新方案。
-1. 插入 **[!UICONTROL HTTP] > [!UICONTROL 提出请求]** 场景中的模块。
+1. 在[!DNL Workfront Fusion]中，创建新方案。
+1. 在方案中插入&#x200B;**[!UICONTROL HTTP] > [!UICONTROL 发出请求]**&#x200B;模块。
 1. 打开模块的配置，并填写以下字段：
 
    <table style="table-layout:auto"> 
@@ -129,24 +129,24 @@ ht-degree: 0%
 1. 打开新的Web浏览器窗口或选项卡。
 1. 将WSDL URL粘贴到Web浏览器的地址栏并提取XML文件。
 
-   WSDL URL通常以 `?wsdl`，但不一定，例如 `http://voip.ms/api/v1/server.wsdl`.
+   WSDL URL通常以`?wsdl`结尾，但不一定以`http://voip.ms/api/v1/server.wsdl`结尾。
 
 1. 如果WSDL文件未直接显示在Web浏览器中，请在文本编辑器中打开下载的文件。
-1. 搜索 `<service>` 或 `<wsdl:service>` 标记：
+1. 搜索`<service>`或`<wsdl:service>`标记：
 
    ![](assets/service-350x65.png)
 
-1. 找到后，从 `location` 属性。
-1. 在 [!DNL Workfront Fusion]，将URL粘贴到HTTP模块的URL字段中。
-1. 打开 [在线 [!UICONTROL SOAP] 客户端](https://wsdlbrowser.com/) 在新的Web浏览器窗口/选项卡中。
+1. 找到后，从`location`属性复制URL。
+1. 在[!DNL Workfront Fusion]中，将URL粘贴到HTTP模块的URL字段中。
+1. 在新的Web浏览器窗口/选项卡中打开[联机[!UICONTROL SOAP]客户端](https://wsdlbrowser.com/)。
 1. 将WSDL URL粘贴到“WSDL URL”字段中。
-1. 单击 **[!UICONTROL 浏览]**.
-1. 从左侧的函数列表中进行选择，例如 `getLanguages`.
-1. 复制的内容 [!UICONTROL 请求XML] 文本区域。
-1. 在 [!UICONTROL Workfront Fusion]，将复制的内容粘贴到模块的URL字段。
+1. 单击&#x200B;**[!UICONTROL 浏览]**。
+1. 从左侧的函数列表中选取，例如`getLanguages`。
+1. 复制[!UICONTROL 请求XML]文本区域的内容。
+1. 在[!UICONTROL Workfront Fusion]中，将复制的内容粘贴到模块的URL字段。
 1. 通过将问号替换为实际值来为所选参数提供值：
 
    ![](assets/request-xml-350x172.png)
 
-1. 通过单击关闭模块的配置 **[!UICONTROL 确定]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;关闭模块的配置。
 1. 执行方案或模块。

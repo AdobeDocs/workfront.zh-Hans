@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 讨论区电子邮件通知和首选项
 
-[!DNL Adobe Workfront] [!UICONTROL 讨论区] 当您添加到展示板并分配给您卡片时，会向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择希望接收哪些电子邮件。
+[!DNL Adobe Workfront] [!UICONTROL 展示板]在您被添加到展示板时和向您分配信息卡时向您发送电子邮件。 默认情况下，通知处于打开状态，您可以在展示板首选项中选择希望接收哪些电子邮件。
 
-根据您的电子邮件通知设置，当您在已连接信息卡上的评论中被标记时，也会收到一封电子邮件。 有关更多信息，请参阅 [修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
+根据您的电子邮件通知设置，当您在已连接信息卡上的评论中被标记时，也会收到一封电子邮件。 有关详细信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。 目前，在临时信息卡上标记为评论的用户不会收到电子邮件通知。
 
 ## 访问要求
 
@@ -41,13 +41,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 设置讨论区电子邮件的首选项
 
 {{step1-to-boards}}
 
-1. 单击 [!UICONTROL **偏好设置**] 在展示板仪表板上。
+1. 在讨论区功能板上单击&#x200B;[!UICONTROL **首选项**]。
 1. 选择是否要接收添加到展示板并分配给信息卡的电子邮件。
 
    ![讨论区电子邮件首选项](assets/boards-email-preferences.png)

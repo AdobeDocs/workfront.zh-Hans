@@ -62,7 +62,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,16 +73,16 @@ ht-degree: 0%
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 转到任务列表。
-1. 从 **视图** 下拉菜单，单击 **新建视图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
 
-1. 单击 **添加列** ，并开始在 **显示在此列中** 字段，然后在列表中显示该字段时将其选定。
+1. 单击&#x200B;**添加列**&#x200B;并开始在&#x200B;**显示在此列**&#x200B;字段中键入“规划完成日期”，然后当它显示在列表中时将其选定。
 
-1. 单击 **添加列** 并开始在 **显示在此列中** 字段，然后在列表中显示该字段时将其选定。
+1. 单击&#x200B;**添加列**&#x200B;并开始在&#x200B;**显示在此列**&#x200B;字段中键入“实际完成日期”，然后当它显示在列表中时将其选定。
 
-1. 单击 **添加列**，然后单击 **切换到文本模式**.
+1. 单击&#x200B;**添加列**，然后单击&#x200B;**切换到文本模式**。
 
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
-1. 删除您在中找到的文本 **文本模式** 框中，然后使用以下代码替换它：
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 删除在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ ht-degree: 0%
     valueformat=HTML
    ```
 
-1. 单击 **保存**，则 **保存视图**.
+1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
 
 ## 计算对象上的字段和父对象上另一个字段之间的时间和日期差异
 
-有关对象及其父项的列表，请参阅中的“了解对象的相互依赖性和层次结构”一节 [了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+有关对象及其父项的列表，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的“了解对象的相互依赖性和层次结构”部分。\
 例如，您可以计算任务的计划完成日期与其父任务或任务所在项目的计划完成日期之间的差值。
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 转到任务列表。
-1. 从 **视图** 下拉菜单，单击 **新建视图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
 
-1. 单击 **添加列** 并开始键入“项目计划完成日期”或“父级完成日期” **显示在此列中** 字段，然后在列表中显示该字段时将其选定。
+1. 单击&#x200B;**添加列**&#x200B;并开始在&#x200B;**在此列显示**&#x200B;字段中键入“项目计划完成日期”或“父级完成日期”，然后当它显示在列表中时将其选中。
 
-1. 单击 **添加列** ，并开始在 **显示在此列中** 字段，然后在列表中显示该字段时将其选定。
+1. 单击&#x200B;**添加列**&#x200B;并开始在&#x200B;**显示在此列**&#x200B;字段中键入“规划完成日期”，然后当它显示在列表中时将其选定。
 
-1. 单击 **添加列**，然后单击 **切换到文本模式**.
+1. 单击&#x200B;**添加列**，然后单击&#x200B;**切换到文本模式**。
 
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
-1. 删除您在中找到的文本 **文本模式** 框中，然后使用以下代码之一替换它：
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 删除您在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码之一：
 
    * 要显示项目计划完成日期与任务计划完成日期之间的差异，请执行以下操作：
 
@@ -131,4 +131,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 单击 **保存**，则 **保存视图**.
+1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。

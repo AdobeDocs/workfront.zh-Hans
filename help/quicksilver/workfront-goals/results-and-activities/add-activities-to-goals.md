@@ -45,7 +45,7 @@ ht-degree: 1%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -55,7 +55,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别*</td>
@@ -67,7 +67,7 @@ ht-degree: 1%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -78,19 +78,19 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
 您必须具有现有目标才能向其添加活动。
 
-有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
 >[!IMPORTANT]
 >
 >一个目标最多只能包含1000个活动、结果或一致的目标。
 
-有关活动的更多信息，请参阅 [Adobe Workfront目标中的结果和活动入门](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+有关活动的更多信息，请参阅[Adobe Workfront目标中的结果和活动入门](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)。
 
 ## 将活动添加到目标
 
@@ -145,23 +145,23 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. 单击 **主菜单** ![](assets/main-menu-icon.png)，则 **目标**.
+1. 单击&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 1. 从目标列表中，单击目标的名称以打开目标的页面。
-1. 单击 **进度指示器** 在左侧面板中。
-1. 从新建进度指示器下拉菜单中，单击 **创建活动**.
+1. 单击左侧面板中的&#x200B;**进度指示器**。
+1. 从“新建进度指示器”下拉菜单中，单击&#x200B;**创建活动**。
 
    将打开“新建活动”框。
 
    ![](assets/new-activity-box-unshimmed.png)
 
 1. 在活动名称字段中输入活动的名称。 这是必填字段。
-1. （可选）将您的姓名从 **活动所有者** 字段。 默认情况下，您是所创建活动的所有者。
+1. （可选）如果要将活动分配给其他用户，请从&#x200B;**活动所有者**&#x200B;字段中移除您的名称。 默认情况下，您是所创建活动的所有者。
 
    >[!NOTE]
    >
    >您不能将团队、组或公司分配为活动所有者。
 
-1. 单击 **创建活动** 以保存它并将其添加到选定目标。
+1. 单击&#x200B;**创建活动**&#x200B;以保存该活动并将其添加到所选目标。
 
    活动显示在目标页面的进度指示器部分中的活动分组下。
 

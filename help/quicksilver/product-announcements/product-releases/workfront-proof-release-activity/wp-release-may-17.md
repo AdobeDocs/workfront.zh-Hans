@@ -2,7 +2,7 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 'Workfront验证发布活动：2021年5月17日当周'
+title: 'Workfront Proof发布活动：2021年5月17日当周'
 description: 本页介绍了对Workfront Proof（独立验证应用程序）所做的更改。 此处描述的更改不适用于Adobe Workfront应用程序中的验证功能。
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Workfront验证发布活动： 2021年5月17日开始的周
+# Workfront Proof发布活动： 2021年5月17日开始的周
 
 本页介绍了对Workfront Proof（独立验证应用程序）所做的更改。 此处描述的更改不适用于Adobe Workfront应用程序中的验证功能。
 
-## Workfront Proof中的用户配置文件菜单现在使用预输入字段搜索用户
+## Workfront Proof中的用户配置文件菜单现在使用预输入字段来搜索用户
 
 >[!NOTE]
 >

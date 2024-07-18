@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: 同时与多个审阅者审阅校样
-description: 多个审阅者可以同时查看校样。 当您查看校样时，您可以看到其他哪些人当前正在查看同一校样。
+title: 与多个审阅人同时审阅验证
+description: 多个审阅者可以同时审阅一个验证。 查看验证时，您可以看到其他谁当前正在查看同一验证。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# 同时与多个审阅者审阅校样
+# 与多个审阅人同时审阅验证
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-多个审阅者可以同时查看校样。 当您查看校样时，您可以看到其他哪些人当前正在查看同一校样。
+多个审阅者可以同时审阅一个验证。 查看验证时，您可以看到其他谁当前正在查看同一验证。
 
-当其他审阅人打开相同的校样时，无论他们是否向校样添加注释，您都可以看到存在指示器。 如果他们确实添加了注释，则在您审阅校样时会显示注释；您无需刷新校对查看器即可看到它们。
+当其他查看者打开相同的验证时，无论他们是否向验证添加评论，您都可以看到存在指示器。 如果他们添加注释，则评论会在您查看验证时显示；您无需刷新验证查看器即可查看它们。
 
-1. 在校对查看器的右上角查看存在指示器。
+1. 查看验证查看器右上角的显示状态指示器。
 
-   如果您使用 [!DNL Workfront Proof] (不是与 [!DNL Workfront])，存在指示器包含用户的 [!DNL Workfront Proof] 配置文件图片，或者，如果没有配置文件图片，则用户是第一个和最后一个初始图像。
+   如果您使用的是[!DNL Workfront Proof]（未与[!DNL Workfront]集成的验证功能），则状态指示器包含用户的[!DNL Workfront Proof]个人资料图片，如果没有个人资料图片，则包含用户的第一个和最后一个初始图片。
 
-   个人资料图片 [!DNL Workfront] 校对查看器中不显示。
+   [!DNL Workfront]中的配置文件图片未出现在验证查看器中。
 
 1. （可选）将鼠标悬停在状态指示器上可查看用户的名称。
 

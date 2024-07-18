@@ -25,7 +25,7 @@ ht-degree: 0%
 
 所有Workfront客户最终都将移至Adobe Admin Console。 贵组织迁移到Adobe Admin Console后，Workfront身份验证由控制台管理。 为这一转变做好准备并提早行动，为提高工作管理效率奠定基础，并使您的组织能够在未来更快创新
 
-有关Adobe Admin Console的概述，请参阅 [Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html).
+有关Adobe Admin Console的概述，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
 
 ## 迁移核对清单
 
@@ -45,11 +45,11 @@ ht-degree: 0%
    >
    >请准备好与Workfront支持人员和您的IT团队就身份验证首选项(例如单点登录(SSO)或非SSO)进行交谈。
 
-   Identity Management有关说明，请参阅 [Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   有关说明，请参阅[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management部分。
 
 1. （视情况而定）如果使用单点登录，请将新的Adobe Admin Console连接到您现有的SSO提供商。
 
-   有关更多信息和说明，请参阅 [设置身份](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   有关更多信息和说明，请参阅[设置标识](https://helpx.adobe.com/enterprise/using/set-up-identity.html)。
 
    >[!NOTE]
    >
@@ -59,9 +59,9 @@ ht-degree: 0%
 
    1. 从Workfront中删除重复的电子邮件。
 
-      有关说明，请参阅 [更新Workfront实例中现有用户的电子邮件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) 在 [防止重复用户](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      有关说明，请参阅[防止重复用户](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)中的[更新Workfront实例中现有用户的电子邮件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)。
 
-      如果您的组织中存在重复的电子邮件地址，则由电子邮件地址表示的用户具有最新的 `lastLoginDate` 将被移动到Adobe Admin Console组织。 将停用使用该电子邮件地址的任何其他用户。
+      如果您的组织中存在重复的电子邮件地址，则由电子邮件地址表示的最新`lastLoginDate`用户将被移动到Adobe Admin Console组织。 将停用使用该电子邮件地址的任何其他用户。
 
       >[!NOTE]
       >
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （可选）更新所有自定义集成以使用OAuth2。
 
-   有关设置OAuth2集成的说明，请参阅 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   有关设置OAuth2集成的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)。
 
    >[!NOTE]
    >
@@ -85,6 +85,6 @@ ht-degree: 0%
 
 使用Workfront配置Adobe Admin Console后，您可以用它来创建Workfront系统管理员。
 
-有关更多信息，请参阅 [在Adobe Admin Console中管理系统管理员](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+有关详细信息，请参阅[在Adobe Admin Console中管理系统管理员](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-有关根据您的组织是否已载入到Adobe Admin Console而不同的其他操作的列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+有关根据贵组织是否已登记到Adobe Admin Console而不同的其他操作的列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。

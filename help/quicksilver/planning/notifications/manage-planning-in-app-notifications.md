@@ -22,9 +22,9 @@ ht-degree: 1%
 >
 >贵公司必须是AdobeUnified Experience客户才能接收来自Workfront Planning的通知。
 >
->有关信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>有关信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-有关在记录评论中标记其他人的信息，请参阅 [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md).
+有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ## 访问要求
 
@@ -42,7 +42,7 @@ ht-degree: 1%
    <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要接收来自Workfront Planning的通知，必须将贵组织的Workfront实例载入到AdobeUnified Experience。 有关信息，请参阅 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的AdobeUnified Experience</a>.</p></td>
+   <p>要接收来自Workfront Planning的通知，必须将贵组织的Workfront实例载入到AdobeUnified Experience。 有关信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 管理应用程序内通知
 
-1. （视情况而定）当有人在记录上的评论中标记您后，转到应用程序内消息 **通知** 图标 ![](assets/experience-cloud-notifications-icon.png) 在Adobe Experience Cloud中。
+1. （视情况而定）当有人在记录中标记您后，转到Adobe Experience Cloud中的应用程序内&#x200B;**通知**&#x200B;图标![](assets/experience-cloud-notifications-icon.png)。
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ ht-degree: 1%
 
    此时将在Workfront Planning中打开记录详细信息页面。 您可以更新记录或回复评论。
 
-1. （可选）单击 **将所有提醒标记为已读** 表示您已读取所有通知。
-1. （可选）单击 **查看全部** 以转到 **通知** Adobe Experience Cloud页面。
+1. （可选）单击&#x200B;**全部标记为已读**&#x200B;以指示您已读取所有通知。
+1. （可选）单击&#x200B;**查看全部**&#x200B;以转到Adobe Experience Cloud中的&#x200B;**通知**&#x200B;页面。

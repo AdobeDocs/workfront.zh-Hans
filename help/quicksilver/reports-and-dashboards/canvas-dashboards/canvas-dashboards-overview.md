@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 画布功能板概述
 
-画布功能板允许您通过将各种报表类型添加到可自定义的画布上来轻松可视化您的Adobe Workfront数据。 有关使用画布功能板的基本说明，请从文章开始 [Canvas功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 否则，请参阅下面的文章索引以了解有关特定主题的更多信息。
+画布功能板允许您通过将各种报表类型添加到可自定义的画布上来轻松可视化您的Adobe Workfront数据。 有关使用画布功能板的基本说明，请从文章[开始使用画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)开始。 否则，请参阅下面的文章索引以了解有关特定主题的更多信息。
 
 ## 画布功能板：文章索引
 
@@ -26,7 +26,7 @@ ht-degree: 0%
    * [Canvas功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [在画布功能板中添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [共享画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [画布功能板报表类型](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [画布仪表板报告类型](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [将现有报表添加到画布功能板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [在画布功能板中构建KPI报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [在画布功能板中构建图表报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

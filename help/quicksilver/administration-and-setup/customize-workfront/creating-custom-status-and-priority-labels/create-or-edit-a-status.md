@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-作为Adobe Workfront管理员，您可以为项目、任务和问题创建自定义状态。 这些权限适用于整个Workfront系统内的用户，或者特定组或子组。 有关状态的更多信息，请参阅 [状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+作为Adobe Workfront管理员，您可以为项目、任务和问题创建自定义状态。 这些权限适用于整个Workfront系统内的用户，或者特定组或子组。 有关状态的详细信息，请参阅[状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 >[!NOTE]
 >
->组管理员还可以创建自己的组状态，仅供其组使用。 有关更多信息，请参阅 [创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>组管理员还可以创建自己的组状态，仅供其组使用。 有关详细信息，请参阅[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
 ## 访问要求
 
@@ -56,7 +56,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,13 +64,13 @@ ht-degree: 2%
 
 您可以添加自定义状态，以供整个组织或单个组使用。
 
-在为整个组织创建自定义状态时，您可以对其进行配置，以便系统中的所有组都可以使用它而无需对其进行编辑。 或者，您也可以对其进行配置，以便组管理员可以为其组修改它，如中所述 [创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+在为整个组织创建自定义状态时，您可以对其进行配置，以便系统中的所有组都可以使用它而无需对其进行编辑。 或者，您可以对其进行配置，以便组管理员可以为其组修改它，如[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)中所述。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 
-1. 在左侧面板中，单击 **项目首选项** > **状态**.
+1. 在左侧面板中，单击&#x200B;**项目首选项** > **状态**。
 
-1. （视情况而定）如果要创建或编辑状态以在系统范围内使用，请确保 **系统状态** 在右上角的框中选中。
+1. （视情况而定）如果要创建或编辑用于系统范围的状态，请确保在右上角的框中选择&#x200B;**系统状态**。
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ ht-degree: 2%
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. 选择对象类型的选项卡(**项目**， **任务**，或 **问题**)，以关联状态。
+1. 选择要与状态关联的对象类型（**项目**、**任务**&#x200B;或&#x200B;**问题**）的选项卡。
 
-1. 如果要创建新状态，请单击 **添加新状态**.
+1. 如果您正在创建新状态，请单击&#x200B;**添加新状态**。
 
    或
 
-   如果您正在编辑现有状态，请将鼠标悬停在该状态上，然后单击 **编辑** 显示在最右侧的图标。
+   如果您正在编辑现有状态，请将鼠标悬停在该状态上，然后单击最右侧显示的&#x200B;**编辑**&#x200B;图标。
 
    ![](assets/custom-status-edit.png)
 
@@ -113,7 +113,7 @@ ht-degree: 2%
       <td> <p>从列表中选择最能描述状态功能的选项之一。 例如，如果状态名称为Done，则其对应的选项应为Complete。</p> <p>每个状态都必须等同于这些选项之一，因为这决定了状态的运行方式。</p> <p>创建状态后无法修改此选项。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">密钥</td> 
+      <td role="rowheader">键</td> 
       <td> <p>如果要创建新状态，请键入该状态的代码或缩写，或使用为您生成的代码或缩写。 此键在Workfront中必须唯一，因为它可用于报表目的。 如果尝试指定系统中已使用的键，该字段将变为红色。</p> <p>使用将使用该缩写的用户可识别的缩写可能很有用。</p> <p>创建状态后无法修改此选项。</p> <p>您不能更改Planning、Current和Complete状态的键代码。 如果您以文本模式构建报表，这一点很重要。</p> </td> 
      </tr> 
      <tr> 
@@ -134,7 +134,7 @@ ht-degree: 2%
        <li>用户开始编辑使用解锁状态的审批流程。 一条消息会向用户发出有关已解锁状态的警报，以便他们能够评估重新锁定还是替换该消息是否合适。</li>
        <li>具有解锁状态的系统级审批流程被附加到对象上，并且分配给该对象的组的状态被删除。 当组成员转至对象的“批准”部分时，将显示一条消息，说明无法为该对象启动批准流程。</li>
        </ul>
-       <p>有关锁定状态的详细信息，请参见 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">锁定和未锁定的系统级别状态</a>.</p>
+       <p>有关锁定状态的详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">锁定和未锁定的系统级别状态</a>。</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ ht-degree: 2%
 
 1. 单击&#x200B;**保存**。
 
-   有关将此状态设置为默认状态的说明，请参阅 [使用自定义状态作为默认状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   有关将此状态设为默认状态的说明，请参阅[将自定义状态用作默认状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)。
 
-有关对组状态重新排序的信息，请参见 [重新排序系统级别和组状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+有关重新排序组状态的信息，请参阅[重新排序系统级别和组状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)。

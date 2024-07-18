@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # 文档审批和验证
 
-您可以要求用户批准您上传到Workfront的文档。 有关信息，请参阅 [请求文档审批](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+您可以要求用户批准您上传到Workfront的文档。 有关信息，请参阅[请求文档审批](../../review-and-approve-work/manage-approvals/request-document-approvals.md)。
 
-您还可以要求用户使用验证查看器在Adobe Workfront中将文档作为验证查看。 校对查看器包含用于标记内容和进行注释的工具。 有关信息，请参阅 [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+您还可以要求用户使用验证查看器在Adobe Workfront中将文档作为验证查看。 校对查看器包含用于标记内容和进行注释的工具。 有关信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。

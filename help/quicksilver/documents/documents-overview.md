@@ -24,5 +24,5 @@ ht-degree: 0%
 * [向Adobe Workfront添加新文档](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [管理文档](../documents/managing-documents/manage-documents.md)
 * [组织文档](../documents/organizing-documents/organize-documents.md)
-* [Adobe Workfront中的Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Adobe Workfront中的[Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * [Workfront和Experience Manager Assets集成](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

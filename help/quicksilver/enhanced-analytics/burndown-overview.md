@@ -56,33 +56,33 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
-有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的“先决条件”部分。
 
 ## 了解燃尽可视化图表
 
 实心蓝线显示从开始日期到计划完成日期的计划速率。 当工作被添加、移除或更新时，这条线会随之发生调整，当项目达到计划的完成日期时，它就会变成虚线。
 
-![计划周转率](assets/burndown-planned-line.png)
+![计划的周转率](assets/burndown-planned-line.png)
 
 实际行显示一段时间内在项目上花费的小时数或天数。 此行的颜色表示每天的项目完成情况：
 
-* **绿色**：项目达成目标。
+* **绿色**：项目符合目标。
 
-  ![准时](assets/burndown-green.png)
+  ![目标](assets/burndown-green.png)
 
-* **橙色**：项目存在风险。
+* **橙色**：项目有风险。
 
   ![处于风险中](assets/burndown-orange.png)
 
-* **红色**：项目遇到问题。
+* **红色**：项目存在问题。
 
   ![存在问题](assets/burndown-red.png)
 
-有关这些项目条件的更多信息，请参阅 [项目完成情况和完成情况类型概览](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+有关这些项目条件的详细信息，请参阅[项目条件和条件类型的概述](../manage-work/projects/manage-projects/project-condition-and-condition-type.md)。
 
 当实际线条垂直向上移动时，工作已添加到项目中。 当线条垂直向下移动时，项目的工作已移除或完成。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 * 进入（或计划外工作）的问题如何影响计划工作
 * 哪些事件使您的项目超过了原始完成日期
 
-要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 查看燃尽可视化图表
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
    ![选择日期](assets/filters-select-date-range-350x344.png)
 
-   有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关使用日期范围过滤器的信息，请参阅[在增强型分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
 1. （视情况而定）如果您需要限制项目数据集，请选择并应用要使用的过滤器。
 
-   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强分析中添加筛选器的详细信息，请参阅[在增强分析中应用筛选器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    所有其他可视化都会更新到同一日期范围，并自动创建时间范围过滤器。
 
-   ![时间范围过滤器](assets/timeframe-filter-350x220.png)
+   ![时间范围筛选器](assets/timeframe-filter-350x220.png)
 
 1. 在外部测试版计划或项目树状图可视化图表上，单击项目以查看更多信息。
 
@@ -131,15 +131,15 @@ ht-degree: 0%
    >   * [在Enhanced Analytics中查看外部测试版中的任务可视化图表](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
-1. （可选）将视图从计划小时数更改为 **持续时间**.
+1. （可选）将视图从计划小时数更改为&#x200B;**持续时间**。
 
    默认情况下选择已计划小时数。
 
    >[!NOTE]
    >
-   >选择 **持续时间** 将所有小时信息更改为天。\
+   >选择&#x200B;**持续时间**&#x200B;会将所有小时信息更改为天。\
    >![持续时间燃尽](assets/duration-burndown-350x112.png)\
-   >有关“增强分析”区域中持续时间的更多信息，请参阅中的“持续时间视图”部分。 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >有关增强分析区域中持续时间的详细信息，请参阅[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md#duration-view)中的“持续时间视图”部分。
 
 1. 单击折线图上的任意点。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
    >如果实际速度是沿可视化图表的x轴运行的平面线（内联0小时或0天），则意味着没有向项目添加计划的小时数或天数。\
    >如果实际速度是x轴上方的平直线（与小时数或天数内联）且永远不会降低，则意味着在过滤的时间段内未完成任何任务。
 
-1. （可选）要导出可视化数据，请单击 **导出** 图标 ![“导出”图标](assets/export.png) 并选取导出格式：
+1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出**&#x200B;图标![导出图标](assets/export.png)，然后选择导出格式：
 
    * 图表 (PNG)
    * 数据表(XSLX)
 
-1. （可选）要查看有关所选项目中任务进度的详细信息，请查看外部测试版中的任务可视化图表，该可视化图表显示在燃尽可视化图表下方。 有关更多信息，请参阅 [在Enhanced Analytics中查看外部测试版中的任务可视化图表](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
+1. （可选）要查看有关所选项目中任务进度的详细信息，请查看外部测试版中的任务可视化图表，该可视化图表显示在燃尽可视化图表下方。 有关详细信息，请参阅[在增强型分析中查看外部测试版中的任务可视化图表](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md)。

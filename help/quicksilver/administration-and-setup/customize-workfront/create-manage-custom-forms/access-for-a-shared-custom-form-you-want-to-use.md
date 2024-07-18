@@ -11,8 +11,8 @@ role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 当有人共享具有“查看”或“管理”访问权限的自定义字段时，他们可以配置多个其他设置以进一步定义该访问权限。 如果您是字段的接收者，这些设置会影响您可以使用该字段执行的操作。 在查看该字段时，您可能会看到以下内容。
 
-有关用户在共享自定义表单时如何配置共享设置的更多信息，请参阅 [配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+有关用户在共享自定义表单时如何配置共享设置的详细信息，请参阅[配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
 
 <table style="table-layout:auto"> 
  <col> 

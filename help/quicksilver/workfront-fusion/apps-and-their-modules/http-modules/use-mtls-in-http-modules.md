@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# 在的HTTP模块中使用双向TLS [!DNL Adobe Workfront Fusion]
+# 在[!DNL Adobe Workfront Fusion]的HTTP模块中使用双向TLS
 
 >[!NOTE]
 >
->Adobe Workfront Fusion需要 [!DNL Adobe Workfront Fusion] 除Adobe Workfront许可证外，还需要其他许可证。
+>除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要[!DNL Adobe Workfront Fusion]许可证。
 
 ## 双向TLS概述
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 >
 >**示例：**
 >
->* **TLS**：当用户在浏览器中输入“MyGreatBank.com”时，他们希望确保自己将转到“我的伟大银行”，而不是可能滥用或出售其银行信息的网站。 他们还想确保自己的银行账户信息被加密。
+>* **TLS**：当有人在浏览器中键入“MyGreatBank.com”时，他们希望确保自己将转到“我的伟大银行”，而不是一个可能滥用或出售其银行信息的网站。 他们还想确保自己的银行账户信息被加密。
 >
->   当浏览器（客户端）连接到MyGreatBank.com （服务器）时，TLS需要来自MyGreatBank.com的证书来验证其身份。 证书由证书颁发机构提供，例如 [!DNL DigiCert] 或 [!DNL Thawte]. 由于浏览器信任证书颁发机构，因此允许连接。
+>   当浏览器（客户端）连接到MyGreatBank.com （服务器）时，TLS需要来自MyGreatBank.com的证书来验证其身份。 证书由证书颁发机构（如[!DNL DigiCert]或[!DNL Thawte]）提供。 由于浏览器信任证书颁发机构，因此允许连接。
 >
->* **双向TLS**： MySoftware.com是一个软件客户端，需要从MyGreatBank.com API获取信息。 MyGreatBank仅允许受信任的客户连接到其服务器。 因此，除了常规TLS验证MyGreatBank.com的标识外，TLS/证书颁发机构进程还将验证MySoftware.com的请求。
+>* **双方TLS**： MySoftware.com是一个软件客户端，它需要来自MyGreatBank.com API的信息。 MyGreatBank仅允许受信任的客户连接到其服务器。 因此，除了常规TLS验证MyGreatBank.com的标识外，TLS/证书颁发机构进程还将验证MySoftware.com的请求。
 
 ## 访问要求
 
@@ -57,32 +57,32 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-&#42;&#42;有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## 提供 [!DNL Workfront Fusion] 公共证书
+## 提供您的[!DNL Workfront Fusion]公共证书
 
 
-当您使用HTTP请求连接到Web服务时，Web服务通常需要 [!DNL Workfront Fusion] 公开证书以供验证。 这允许Web服务将HTTP请求中提供的证书与文件上的证书进行比较，以确保证书位于Web服务的允许列表上。
+当您使用HTTP请求连接到Web服务时，Web服务通常需要[!DNL Workfront Fusion]公共证书才能进行验证。 这允许Web服务将HTTP请求中提供的证书与文件上的证书进行比较，以确保证书位于Web服务的允许列表上。
 
-有关上传 [!DNL Adobe Workfront Fusion] 将公共证书发布到Web服务，请参阅Web服务的文档。
+有关将[!DNL Adobe Workfront Fusion]公共证书上载到Web服务的说明，请参阅Web服务的文档。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 这些 [!DNL Workfront Fusion] 公共证书将于2025年5月7日到期。 您的证书过期后，您需要向Web服务上传新证书。 我们建议您：
+>* 这[!DNL Workfront Fusion]个公共证书将于2025年5月7日到期。 您的证书过期后，您需要向Web服务上传新证书。 我们建议您：
 >
 >   * 记下过期日期，并设置一个提醒，提醒您自己将证书上传到您的Web服务。
 >   * 将此页加入书签以轻松查找新证书。
@@ -102,7 +102,7 @@ ht-degree: 0%
 >* 这些是非通配符mTLS证书。
 
 * [下载 [!DNL Workfront Fusion] 证书2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
-* [下载 [!DNL Workfront Fusion] 2023年欧盟证书](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [下载 [!DNL Workfront Fusion] EU证书2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   在欧盟使用
 
@@ -122,16 +122,16 @@ ht-degree: 0%
 
    -->
 
-## 在中启用双向TLS [!DNL Workfront Fusion] HTTP模块
+## 在[!DNL Workfront Fusion] HTTP模块中启用双向TLS
 
-全部 [!DNL Workfront Fusion] [!UICONTROL HTTP] 请求模块可以选择启用双向TLS。
+所有[!DNL Workfront Fusion] [!UICONTROL HTTP]请求模块都可以选择启用双向TLS。
 
-在中启用双向TLS [!UICONTROL HTTP] 请求模块：
+要在[!UICONTROL HTTP]请求模块中启用双向TLS，请执行以下操作：
 
-1. 添加 [!UICONTROL HTTP] 向场景请求模块。
+1. 向方案添加[!UICONTROL HTTP]请求模块。
 1. 开始配置模块。
 
-   有关配置 [!UICONTROL HTTP] 请求模块，请参阅下的相应文章 [[!UICONTROL HTTP] 模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   有关配置[!UICONTROL HTTP]请求模块的说明，请参阅[[!UICONTROL HTTP]模块](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)下的相应文章。
 
-1. 启用 **[!UICONTROL 显示高级设置]** 靠近模块底部。
-1. 启用 **[!UICONTROL 使用双向TLS]**.
+1. 在模块底部附近启用&#x200B;**[!UICONTROL 显示高级设置]**。
+1. 启用&#x200B;**[!UICONTROL 使用双向TLS]**。

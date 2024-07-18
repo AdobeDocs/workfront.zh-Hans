@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-可通过拖放栏的边距以匹配所需宽度来临时修改栏的宽度。 有关更多信息，请参阅 [修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+可通过拖放栏的边距以匹配所需宽度来临时修改栏的宽度。 有关详细信息，请参阅[修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 要永久更改任何视图的任何列的宽度，编辑视图时必须在列中使用文本模式。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,21 +59,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果按照一节所述手动修改列的宽度 [临时修改列的宽度和顺序](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) 在文章中 [修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 永久修改列的宽度后，将根据手动调整大小保留列的宽度。 在这种情况下，将覆盖根据以下步骤更新的列宽。 清除缓存或从其他浏览器登录后，您可以根据以下步骤中定义的宽度查看列。
+>如果按照项目[修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)中第[节中所述手动修改列的宽度，并在永久修改列的宽度后暂时修改列的宽度和顺序](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)，则根据手动调整大小保留列的宽度。 在这种情况下，将覆盖根据以下步骤更新的列宽。 清除缓存或从其他浏览器登录后，您可以根据以下步骤中定义的宽度查看列。
 >
->有关在使用文本模式界面时自定义列宽的其他信息，请参阅 [Adobe Workfront术语表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>有关在使用文本模式界面时自定义列宽的其他信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的“宽度”和“延伸”定义。
 
 1. 转到对象列表。
-1. 从 **视图** 下拉菜单，单击 **新建视图**.
+1. 从&#x200B;**视图**&#x200B;下拉菜单中，单击&#x200B;**新建视图**。
 
-1. 单击 **添加列** 以添加新列。
+1. 单击&#x200B;**添加列**&#x200B;以添加新列。
 
    或
 
    单击任何现有列的列标题。
 
-1. 单击 **切换到文本模式**.
-1. 将鼠标悬停在文本模式区域上，然后单击 **单击以编辑文本**.
+1. 单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
 1. 将以下代码添加到列的文本模式中：
 
    ```
@@ -81,8 +81,8 @@ ht-degree: 0%
    usewidths=true
    ```
 
-   对于 **宽度** 行，指定任意数字（以像素为单位）来表示您希望列在视图中显示的宽度。
+   对于&#x200B;**宽度**&#x200B;行，请指定任意数字（以像素为单位），以表示您希望列在视图中显示的宽度。
 
-1. 单击 **保存**，则 **保存视图**.
+1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
 
 

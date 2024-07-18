@@ -21,15 +21,15 @@ ht-degree: 0%
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅部分 [获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access) 本文章中。
+* 您的组织必须购买Workfront Goals的正确许可证。 有关信息，请参阅本文中的[获取Workfront目标组织访问权限](#obtain-workfront-goals-organization-access)部分。
 
-* 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅部分 [更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings) 本文章中。
+* 为您分配正确类型的Workfront许可证。 有关分配许可证类型和访问级别的信息，请参阅本文中的[更新许可证类型和访问级别设置](#update-license-types-and-access-level-settings)部分。
 
 >[!NOTE]
 >
 >具有外部许可证类型的用户无法访问Workfront目标。
 
-* 授予您访问访问级别中目标的权限。 有关信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* 授予您访问访问级别中目标的权限。 有关信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 * 为您分配包含主菜单中的目标区域的布局模板。
 
@@ -37,11 +37,11 @@ ht-degree: 0%
   >
   >必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板应包括主菜单中的目标区域。
 
-  有关信息，请参阅部分 [将Workfront目标添加到布局模板](#add-workfront-goals-to-a-layout-template) 本文章中。
+  有关信息，请参阅本文中的[将Workfront目标添加到布局模板](#add-workfront-goals-to-a-layout-template)部分。
 
 * 如果必须修改未自行创建的目标，则目标创建者必须与您共享目标并授予您管理权限。
 
-  有关信息，请参阅部分 [与其他用户共享个人目标](#share-individual-goals-with-other-users) 本文章中。
+  有关信息，请参阅本文中的[与其他用户共享各个目标](#share-individual-goals-with-other-users)部分。
 
 ## 获取Workfront目标组织访问权限 {#obtain-workfront-goals-organization-access}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
   在您的组织购买附加许可证后，Workfront将为您的帐户启用Workfront目标。 有关为Workfront Goals购买许可证的信息，请联系您的Workfront客户经理。
 
-有关Workfront访问要求的信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关Workfront访问要求的信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 更新许可证类型和访问级别设置  {#update-license-types-and-access-level-settings}
 
@@ -76,9 +76,9 @@ ht-degree: 0%
    * 评论
    * 请求
 
-在您的Workfront管理员向您授予这些许可证类型之一后，他们还必须授予您访问级别中目标的访问权限。 有关访问“目标”的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+在您的Workfront管理员向您授予这些许可证类型之一后，他们还必须授予您访问级别中目标的访问权限。 有关访问目标的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
-作为Workfront管理员，您可以查看系统中Workfront目标许可证的数量，并了解当前启用的数量。 有关更多信息，请参阅 [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+作为Workfront管理员，您可以查看系统中Workfront目标许可证的数量，并了解当前启用的数量。 有关详细信息，请参阅[管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 
 >[!NOTE]
 >
@@ -109,4 +109,4 @@ ht-degree: 0%
 
 任何对目标具有“编辑”访问权限的用户都可以创建目标，并且他们会自动获得对其创建的目标的“管理”访问权限。 如果他们必须编辑其他用户的目标，则拥有这些目标管理权限的用户必须与他们共享他们未创建的目标。
 
-有关与用户共享目标并授予他们管理权限的信息，请参阅 [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+有关与用户共享目标以及授予用户管理权限的信息，请参阅[在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)。

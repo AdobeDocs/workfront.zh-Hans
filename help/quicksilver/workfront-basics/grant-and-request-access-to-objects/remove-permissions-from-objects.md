@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以删除其他用户对您有权共享的对象拥有的权限。 从对象中删除权限对于所有可共享的对象都是相同的。
 
-与共享对象类似的注意事项适用于从对象中删除权限。 有关更多信息，请参阅部分 [有关共享对象的注意事项](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 在文章中 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+与共享对象类似的注意事项适用于从对象中删除权限。 有关详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一文中的[有关共享对象的注意事项](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)部分
 
 ## 访问要求
 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 从对象的共享列表中删除实体 {#remove-entities-from-the-sharing-list-of-an-object}
 
@@ -66,28 +66,28 @@ ht-degree: 0%
 
 1. 转到要删除权限的对象。
 
-   有关哪些对象可以共享的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   有关哪些对象可以共享的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. （视情况而定）对于项目、项目组合和文档，执行以下操作：
 
-   1. 单击 **更多** 图标 ![](assets/more-icon.png)单击对象名称旁边的，然后单击 **共享** 或 **共享。**
+   1. 单击对象名称旁边的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**共享**&#x200B;或&#x200B;**共享。**
 
       ![](assets/share-a-document-350x160.png)
 
-   1. 单击 **x** 在对象访问框中，在用户、团队、组、公司、工作角色的名称旁移除它们。
+   1. 单击用户、团队、组、公司、工作角色名称旁边的&#x200B;**x**，在对象访问框中将其删除。
 
       ![](assets/remove-permissions-on-portfolio.png)
 
-   1. 在 **&lt;用户名>的Workfront访问权限将从此删除** 下拉菜单中，选择是希望仅从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
+   1. 在&#x200B;**&lt;用户名>的Workfront访问权限将从此**&#x200B;下拉菜单中移除，选择是希望仅从所选对象中移除其访问权限，还是从与其关联的所有子对象中移除其访问权限。
 
 1. （视情况而定）对于项目、任务和问题，执行以下操作：
 
-   1. 单击 **共享** 对象名称的右侧。
+   1. 单击对象名称右侧的&#x200B;**共享**。
 
       ![](assets/new-share-button.png)
    1. 查找要从对象中移除的用户、角色、团队、组或公司。
-   1. 单击 **移除**.
-在 **从删除&lt;用户名>** 下拉菜单中，选择是希望仅从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
+   1. 单击&#x200B;**删除**。
+在**从**&#x200B;中删除&lt;用户名>下拉菜单中，选择是希望从所选对象中删除其访问权限，还是从与其关联的所有子对象中删除其访问权限。
 
       ![](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -108,27 +108,27 @@ ht-degree: 0%
 
 1. 转到要共享的对象列表。
 
-   有关哪些对象可以共享的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   有关哪些对象可以共享的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. 在列表中选择多个对象，然后单击 **共享** 图标 ![](assets/share-icon.png)位于列表顶部。
-1. 在中键入要删除其访问权限的用户、角色、团队、组或公司的名称 **编辑 `<Object Name>` 访问** 字段。
-1. 从访问下拉菜单中，选择 **无权访问**.
+1. 选择列表中的多个对象，然后单击列表顶部的&#x200B;**共享**&#x200B;图标![](assets/share-icon.png)。
+1. 在&#x200B;**编辑`<Object Name>`对**&#x200B;字段的访问权限中键入要删除其访问权限的用户、角色、团队、组或公司的名称。
+1. 从访问下拉菜单中，选择&#x200B;**无访问**。
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. 在 `<User Name>`的Workfront访问权限将从此下拉菜单中删除，请选择是希望仅从所选对象中删除其访问权限，还是从与其关联的所有其他子对象中删除其访问权限。\
+1. 在`<User Name>`的Workfront访问权限将从此下拉菜单中移除，选择是希望仅从所选对象还是从与其关联的所有其他子对象中移除其访问权限。\
    存在以下情况：
 
    * 如果仅从对象中删除实体，则该实体会丢失其对对象的权限以及其对子对象的继承权限。 如果先前已单独向他们授予了子项目的权限，则在选择此选项时，他们将保留与它关联的所有子对象的相同权限。 
    * 如果从对象和所有子对象中移除实体，则该实体会丢失其对该对象以及所有子对象的权限，即使先前已授予了他们对每个子对象的单独权限。
 
-   **示例：** 选择是仅删除您在列表中选择的任务还是删除附加到任务的问题和文档的权限。
+   **示例：**&#x200B;选择是仅删除您在列表中选择的任务的权限，还是删除附加到任务的问题和文档的权限。
 
    ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
 1. （可选）要批量更改多个对象的权限，请为所选实体选择另一个共享级别。
 
-   例如，如果他们具有管理权限，请改为选择Contribute或View。
+   例如，如果他们具有管理权限，请改为选择Contribute或查看。
 
 1. 单击&#x200B;**保存**。
 
@@ -143,33 +143,33 @@ ht-degree: 0%
 要删除继承的权限，请执行以下操作：
 
 1. 转到您拥有管理权限的对象。 例如，转到任务。
-1. 转至对象访问框，如 [从对象的共享列表中删除实体](#remove-entities-from-the-sharing-list-of-an-object) 部分。
-1. 选择 **x** 旁边 **继承权限** ，以移除该处列出的所有用户。
+1. 按照本文中[从对象](#remove-entities-from-the-sharing-list-of-an-object)的共享列表中删除实体一节中的说明转到对象访问框。
+1. 选择共享框上&#x200B;**继承的权限**&#x200B;旁边的&#x200B;**x**&#x200B;以删除那里列出的任何人。
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   这可确保向父对象（例如项目）授予权限的任何人都不会默认拥有此任务的权限。 您必须在任务的共享列表中列出单个实体，以授予对任务的权限。
+   这可确保向父对象（例如项目）授予权限的任何人都不会默认拥有此任务的权限。 您必须列出  任务共享列表中的各个实体授予对任务的权限。
 
    >[!TIP]
    >
    >您无法从继承的权限列表中删除单个实体。 您只能对列出的所有实体禁用继承权限。
 
-1. 单击 **保存**. 
+1. 单击&#x200B;**保存**。 
 
 ## 将对象设为私有
 
 如果已在系统范围内共享对象，或者已通过将对象设为公共对象与外部用户共享对象，则可以通过删除系统范围或公共权限来再次将其设为私有对象。 
 
-有关使对象在系统范围内或公开可用的详细信息，请参见 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+有关使对象在系统范围内或公开可用的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
 要将对象设为私有：
 
 1. 转到要设为私有的对象。\
    例如，导航到报表。
-1. 单击 **报表操作**，则 **共享**.
+1. 单击&#x200B;**报告操作**，然后单击&#x200B;**共享**。
 
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. 单击 **删除公开访问权限** 删除外部用户查看报告的权限。
-1. 单击 **删除系统范围访问权限** 以停止与所有Workfront用户共享。 
+1. 单击&#x200B;**删除公共访问权限**&#x200B;可删除外部用户对查看报告的访问权限。
+1. 单击&#x200B;**删除系统范围访问权限**&#x200B;可停止与所有Workfront用户共享该权限。 
 1. 单击&#x200B;**保存**。

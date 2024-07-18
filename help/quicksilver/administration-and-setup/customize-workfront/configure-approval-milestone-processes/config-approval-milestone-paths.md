@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 * [编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
 * [配置全局审批设置](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 * [组和审批流程更改如何影响分配的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)

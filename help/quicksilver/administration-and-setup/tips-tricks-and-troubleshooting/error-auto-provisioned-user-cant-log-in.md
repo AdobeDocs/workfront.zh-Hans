@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。 有关详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 使用请求许可证创建基本访问级别：
 
-1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 访问级别]**.
+1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 访问级别]**。
 
-1. 单击 **[!UICONTROL 新建访问级别]**.
-1. 输入 **[!UICONTROL 名称]**.
-1. 在 **[!UICONTROL 许可证类型]** 在下拉菜单中，选择请求。
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 新建访问级别]**。
+1. 输入&#x200B;**[!UICONTROL 名称]**。
+1. 在&#x200B;**[!UICONTROL 许可证类型]**&#x200B;下拉菜单中，选择请求。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 使用请求许可证创建访问级别后，请让用户使用其SSO凭据登录。
 

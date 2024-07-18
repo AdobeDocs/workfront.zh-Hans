@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Word Template] 模块
+# [!DNL Microsoft Word Template]模块
 
-在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL Microsoft Word Templates]，并将其连接到多个第三方应用程序和服务。
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Microsoft Word Templates]的工作流，并将其连接到多个第三方应用程序和服务。
 
-如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
-有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
 ## 访问要求
 
@@ -43,11 +43,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> </td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
@@ -60,19 +60,19 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-要使用 [!DNL Miscrosoft Word Templates] 替换为 [!DNL Adobe Workfront Fusion]，则必须拥有 [!DNL Office 365] 帐户。 您可以在www.office.com创建一个。
+要将[!DNL Miscrosoft Word Templates]与[!DNL Adobe Workfront Fusion]一起使用，需要具有[!DNL Office 365]帐户。 您可以在www.office.com创建一个。
 
 
 
-## 连接 [!DNL Office] 服务对象 [!DNL Workfront Fusion]
+## 正在将[!DNL Office]服务连接到[!DNL Workfront Fusion]
 
-有关连接 [!DNL Office] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+有关将[!DNL Office]帐户连接到[!UICONTROL Workfront Fusion]的说明，请参阅[创建与[!UICONTROL Adobe Workfront Fusion]的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ ht-degree: 0%
 >
 >例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
 
-## 使用 [!DNL Microsoft Word Templates] 模块
+## 使用[!DNL Microsoft Word Templates]模块
 
-您可以使用 [!DNL Microsoft Word Template] 用于将多个Web服务中的数据合并到中的模块 [!DNL Microsoft Word] 文档。
+您可以使用[!DNL Microsoft Word Template]模块将多个Web服务中的数据合并到[!DNL Microsoft Word]文档中。
 
-例如，您可以使用此 [!DNL Microsoft Word] 模板：
+例如，您可以使用此[!DNL Microsoft Word]模板：
 
 ![](assets/word-template-before-filled-350x62.png)
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## 关于值标记
 
-A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.docx文件），其文本中包含特殊标记，这些标记可确定合并或填充数据的位置和方法。 有三种类型的标记：
+[!DNL Microsoft Word]模板是常规[!DNL Microsoft Word]文档（.docx文件），其文本中具有特殊标记，可确定合并或填充数据的位置和方法。 有三种类型的标记：
 
 * [简单值标记](#simple-value-tag)
 * [条件标记](#condition-tag)
@@ -102,17 +102,17 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 
 ### 简单值标记 {#simple-value-tag}
 
-简单值标记被简单地替换为相应的值。 标记的名称对应于 [!UICONTROL 键] 字段的值，放置在双大括号内；例如，
+简单值标记被简单地替换为相应的值。 标记的名称与[!UICONTROL 键]字段的值相对应，该字段的值放在双大括号内；例如，
 
 
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
+<pre>{{name}}</pre>
 
 
 。
 
-**示例：** 要创建显示“嗨，彼得！”的文档，您可以使用 [!DNL Microsoft Word Template] 模块创建以下模板：
+**示例：**&#x200B;要创建显示“Hi， Petr！”的文档，您可以使用[!DNL Microsoft Word Template]模块创建以下模板：
 
-<pre>&gt;您好 &lbrace;&lbrace;name&rbrace;&rbrace;！</pre>
+<pre>&gt; {{name}}，您好！</pre>
 
 为此，您需要按如下方式设置模块：
 
@@ -122,8 +122,8 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 
 您可以使用条件标记对文本进行换行，这些文本仅在满足某些条件时才应呈现。 要换行文本，请将文本置于开始和结束条件标记之间，例如“hasPhone”（如果条件为数据是否包含电话号码）。 开始标记的名称前面加有井号#，结束标记的名称前面加有斜杠/，如下面的示例所示。
 
-**示例：** 要生成包含客户电话号码的文档（如果输入数据包含电话号码但没有电子邮件地址），您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;电话： &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;电子邮件： &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>为此，您需要按如下方式设置模块：
+**示例：**&#x200B;若要在输入数据包含电话号码但没有电子邮件地址的情况下生成包含客户电话号码的文档，您可以使用[!DNL Microsoft Word Template]模块并创建以下模板：
+<pre>&gt; {{#hasPhone}}电话： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}电子邮件： {{email}} {{/hasEmail}}</pre>为此，您需要按如下方式设置模块：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -134,14 +134,14 @@ A [!DNL Microsoft Word] 模板是常规模板 [!DNL Microsoft Word] 文档（.do
 
 您可以使用循环标签（也称为节标签）来重复文本节。 通过将文本置于开始和结束循环标记之间来绕排文本。 开始标记的名称前面加有井号#；结束标记的名称前面加有斜杠/。
 
-* [使用填写文档模块循环标记](#loop-tag-with-fill-out-a-document-module)
+* 使用填写文档模块的[循环标记](#loop-tag-with-fill-out-a-document-module)
   <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### 使用填写文档模块循环标记 {#loop-tag-with-fill-out-a-document-module}
 
-**示例：** 要生成列出客户列表中每个联系人的姓名和电话号码的文档，您可以使用 [!DNL Microsoft Word Template] 模块并创建以下模板：
+**示例：**&#x200B;要生成列出客户列表中每个联系人的姓名和电话号码的文档，您可以使用[!DNL Microsoft Word Template]模块并创建以下模板：
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;， &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}，{{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 为此，您需要按如下方式设置模块：
 
@@ -178,7 +178,7 @@ The module would create the following document:
 ![](assets/word-template-batch-document-350x46.png)
 -->
 
-## [!DNL Microsoft Word Template] 模块
+## [!DNL Microsoft Word Template]模块
 
 这些模块不需要连接。
 
@@ -195,14 +195,14 @@ The module would create the following document:
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL要替换的文本的起始分隔符]</td> 
-   <td> <p>输入要标记替换文本开头的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>输入 <code>[[</code> 如果要替换类似于以下内容的文本： <code>[[replace_me]]</code></p> </td> 
+   <td> <p>输入要标记替换文本开头的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果要替换类似于以下内容的文本，请输入<code>[[</code>： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL要替换的文本的结束分隔符]</p> </td> 
-   <td> <p>输入要标记替换文本结尾的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>输入 <code>]]</code> 如果要替换类似于以下内容的文本： <code>[[replace_me]]</code></p> </td> 
+   <td> <p>输入要标记替换文本结尾的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果要替换类似于以下内容的文本，请输入<code>]]</code>： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL源文件]</td> 
+   <td role="rowheader">[！UICONTROL Source file]</td> 
    <td> <p> 映射您要从上一个模块上传的文件(例如，HTTP &gt;获取文件或Dropbox&gt;获取文件模块)。 或者手动输入数据文件。</p> </td> 
   </tr> 
   <tr> 
@@ -218,13 +218,13 @@ The module would create the following document:
    <td> <p>这必须是集合数组，其中：</p> 
     <ul> 
      <li>每个收藏集对应于一个数据条目并包含一个项目 <code>entry</code></li> 
-     <li>项目 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
-     <li>项目 <code>key </code>包含标记的名称</li> 
-     <li>项目 <code>value </code>包含标记的值</li> 
+     <li>项<code>entry </code>包含<code>key </code>的集合，并且 <code>value</code></li> 
+     <li>项目<code>key </code>包含标记的名称</li> 
+     <li>项目<code>value </code>包含标记的值</li> 
     </ul> 
     <p>要添加条目，请执行以下操作：</p>
     <ol> 
-     <li> 单击 <b>[！UICONTROL添加项]</b>. </li> 
+     <li> 单击<b>[！UICONTROL添加项]</b>。 </li> 
      <li>选择条目的值类型。</li> 
      <li>添加名称和值。 有关更多信息，请参阅本文所选值类型的示例。 
       <ul> 
@@ -237,11 +237,11 @@ The module would create the following document:
  </tbody> 
 </table>
 
-### [!UICONTROL 使用批量数据填充文档] {#fill-a-document-with-a-batch-of-data}
+### [!UICONTROL 使用批次数据填充文档] {#fill-a-document-with-a-batch-of-data}
 
 如果您的数据条目作为单独的捆绑包，此聚合器模块非常有用。 利用此模块，您可以轻松设置值字段所需的结构，并将其项映射到每个值项。 与填写文档模块相反，使用批量数据模块填写文档中的值字段仅允许包含变量的单个条目。
 
-如果数据条目以数组形式提供，则也可以使用此模块，方法是使用 *迭代器* 模块，用于将数组的内容转换为一系列捆绑包。
+如果数据条目以数组形式出现，您也可以使用此模块，方法是使用&#x200B;*迭代器*&#x200B;模块将数组的内容转换为一系列捆绑。
 
 为每个传入包创建和填充实际值。 处理完所有输入捆绑包后会生成模板。
 
@@ -252,16 +252,16 @@ The module would create the following document:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL源模块]</td> 
+   <td role="rowheader">[！UICONTROL Source Module]</td> 
    <td>选择作为文本源的模块。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL要替换的文本的起始分隔符]</td> 
-   <td> <p>输入要标记替换文本开头的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>输入 <code>[[</code> 如果要替换类似于以下内容的文本： <code>[[replace_me]]</code></p> </td> 
+   <td> <p>输入要标记替换文本开头的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果要替换类似于以下内容的文本，请输入<code>[[</code>： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL要替换的文本的结束分隔符]</p> </td> 
-   <td> <p>输入要标记替换文本结尾的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>输入 <code>]]</code> 如果要替换类似于以下内容的文本： <code>[[replace_me]]</code></p> </td> 
+   <td> <p>输入要标记替换文本结尾的字符。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>如果要替换类似于以下内容的文本，请输入<code>]]</code>： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL分组依据]</td> 
@@ -272,7 +272,7 @@ The module would create the following document:
    <td>启用此选项可在聚合不包含任何捆绑包时停止处理。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL源文件]</td> 
+   <td role="rowheader">[！UICONTROL Source file]</td> 
    <td> <p> 映射您要从上一个模块上传的文件(例如，HTTP &gt;获取文件或Dropbox&gt;获取文件模块)。 或者手动输入数据文件。</p> </td> 
   </tr> 
   <tr> 
@@ -288,13 +288,13 @@ The module would create the following document:
    <td> <p>这必须是集合数组，其中：</p> 
     <ul> 
      <li>每个收藏集对应于一个数据条目并包含一个项目 <code>entry</code></li> 
-     <li>项目 <code>entry </code>包含 <code>key </code>和 <code>value</code></li> 
-     <li>项目 <code>key </code>包含标记的名称</li> 
-     <li>项目 <code>value </code>包含标记的值</li> 
+     <li>项<code>entry </code>包含<code>key </code>的集合，并且 <code>value</code></li> 
+     <li>项目<code>key </code>包含标记的名称</li> 
+     <li>项目<code>value </code>包含标记的值</li> 
     </ul> 
     <p>要添加条目，请执行以下操作：</p>
     <ol> 
-     <li> 单击 <b>[！UICONTROL添加项]</b>. </li> 
+     <li> 单击<b>[！UICONTROL添加项]</b>。 </li> 
      <li>选择条目的值类型。</li> 
      <li>添加名称和值。 有关更多信息，请参阅本文所选值类型的示例。 
       <ul> 

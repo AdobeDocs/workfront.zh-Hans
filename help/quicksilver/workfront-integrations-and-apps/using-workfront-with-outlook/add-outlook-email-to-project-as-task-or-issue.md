@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
 source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
-# 添加 [!DNL Outlook] 通过电子邮件将任务或问题发送到项目
+# 将[!DNL Outlook]电子邮件作为任务或问题添加到项目
 
-您可以将电子邮件转换为 [!DNL Adobe Workfront] 任务或问题。 电子邮件转换后，任务或问题会显示在您转换电子邮件时选择的项目上。
+您可以将电子邮件转换为[!DNL Adobe Workfront]个任务或问题。 电子邮件转换后，任务或问题会显示在您转换电子邮件时选择的项目上。
 
 ## 访问要求
 
@@ -36,41 +36,41 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-您的 [!DNL Workfront] 管理员必须启用 [!DNL Outlook for Office] 替换为 [!DNL Workfront] 才能使用此集成。
+您的[!DNL Workfront]管理员必须使用[!DNL Workfront]启用[!DNL Outlook for Office]，然后才能使用此集成。
 
-## 添加 [!DNL Outlook] 通过电子邮件将任务或问题发送到项目
+## 将[!DNL Outlook]电子邮件作为任务或问题添加到项目
 
-1. 选择电子邮件范围 [!DNL Outlook] 任务或问题。
-1. 单击 **[!DNL Workfront]** 图标，以显示Workfront加载项。
+1. 选择[!DNL Outlook]中要转换为任务或问题的电子邮件。
+1. 单击电子邮件右上角的&#x200B;**[!DNL Workfront]**&#x200B;图标以显示Workfront加载项。
 
-   您可能需要单击电子邮件右上角的向下箭头才能访问 [!DNL Workfront] 图标。
+   您可能需要单击电子邮件右上角的向下箭头才能访问[!DNL Workfront]图标。
 
-1. 单击 **[!UICONTROL 菜单]** 图标 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 显示可用列表 [!DNL Workfront] 选项。
+1. 单击&#x200B;**[!UICONTROL 菜单]**&#x200B;图标![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)以显示可用[!DNL Workfront]选项的列表。
 
 
 
-1. 单击 **[!UICONTROL 添加到工作]**.
+1. 单击&#x200B;**[!UICONTROL 添加到工作]**。
 
-1. 选择 **[!UICONTROL 添加到项目]** 字段。
-1. 在中开始键入项目名称 **[!UICONTROL 项目]** 字段，然后当它出现在列表中时将其选中。
-1. 选择 **[!UICONTROL 任务]** 单选按钮。
+1. 选择&#x200B;**[!UICONTROL 添加到项目]**&#x200B;字段。
+1. 在&#x200B;**[!UICONTROL 项目]**&#x200B;字段中开始键入项目的名称，然后当它出现在列表中时将其选定。
+1. 如果要向所选项目添加任务，请选择&#x200B;**[!UICONTROL 任务]**&#x200B;单选按钮。
 
    或
 
-   选择 **[!UICONTROL 问题]** 单选按钮。
+   如果要向所选项目添加问题，请选择&#x200B;**[!UICONTROL 问题]**&#x200B;单选按钮。
 
-1. （可选）指定将此任务或问题分派到的用户 **[!UICONTROL 将此分派至]** 字段。
+1. （可选）在&#x200B;**[!UICONTROL 将此任务或问题分配给]**&#x200B;字段中指定此任务或问题的分配对象。
 
    >[!TIP]
    >
    >如果您希望让多个人员知道某个团队的情况，您可以将任务或问题分派给该团队。 如果团队成员启用了电子邮件通知，他们将收到有关分配给他们的新任务或问题的电子邮件。
 
 
-1. （可选）指定 **[!UICONTROL 按日期到期]**. 它变为 [!UICONTROL 计划完成日期] 任务或问题。
+1. （可选）指定&#x200B;**[!UICONTROL 截止日期]**。 该日期成为任务或问题的[!UICONTROL 规划完成日期]。
 1. （可选）在电子邮件另存为任务或问题之前更新电子邮件中的以下信息（必填字段前面加有星号）。
 
    <table style="table-layout:auto">
@@ -89,15 +89,15 @@ ht-degree: 0%
       </tr>
    </table>
 
-1. 单击 **[!UICONTROL 添加]**.
+1. 单击&#x200B;**[!UICONTROL 添加]**。
 
    任务或问题已添加到指定项目
 
-1. （可选）单击 **[!UICONTROL 在中查看[!DNL Workfront]]** 以在 [!DNL Workfront] 新选项卡中的应用程序。
+1. （可选）单击&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中查看以在新选项卡中显示[!DNL Workfront]应用程序中的任务。
 
-1. （可选）返回至 [!DNL Outlook]，然后选择转换后的电子邮件。
+1. （可选）返回到[!DNL Outlook]，然后选择转换后的电子邮件。
 
-   在顶部 [!DNL Workfront] 加载项面板，请注意带有电子邮件添加到的链接的确认 [!DNL Workfront] 作为任务或问题。 该链接包含其转换日期。
+   在[!DNL Workfront]加载项面板顶部，注意包含链接的确认，表明电子邮件已作为任务或问题添加到[!DNL Workfront]。 该链接包含其转换日期。
 
 
 

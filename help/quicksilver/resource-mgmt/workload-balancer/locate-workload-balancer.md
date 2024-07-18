@@ -34,8 +34,8 @@ ht-degree: 0%
 >
 >* [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 >* [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
->* [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
->* [管理工作负载均衡器中的用户分配](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>* [在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+>* [在工作负载均衡器中管理用户分配](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
 
 ## 访问要求
@@ -66,11 +66,11 @@ ht-degree: 0%
      <li> <p>问题</p> </li> 
     </ul> <p><b> 注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目、任务和问题的权限或更高版本 </p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目、任务和问题的权限或更高版本 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,21 +83,21 @@ ht-degree: 0%
 
 ### 在资源区访问多个项目的工作负载均衡器
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png)，然后单击 **资源**.
-1. 单击 **工作负载均衡器** 在左侧面板中。
+1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**资源**。
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
    ![](assets/nwe-balancer-global.png)
 
    默认情况下，工作负载均衡器按资源区域中的信息显示以下内容：
 
    * **未分配的工作**：没有未分配的工作项。
-   * **已分派工作**：系统中的所有活动用户。
+   * **已分配的工作**：系统中的所有活动用户。
 
-     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关更多信息，请参阅 [工作负载均衡器中的过滤器信息](../workload-balancer/filter-information-workload-balancer.md).
+     在“已分配的工作”区域显示用户时，我们建议使用过滤器。 有关详细信息，请参阅工作负载均衡器](../workload-balancer/filter-information-workload-balancer.md)中的[过滤器信息。
 
 ### 访问团队的工作负载均衡器
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png)，然后单击“团队”。
+1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击团队。
 此时将显示您的主团队的页面。
 
    默认情况下，将显示团队的工作负载均衡器。
@@ -106,8 +106,8 @@ ht-degree: 0%
 
    默认情况下，团队的工作负载均衡器显示以下信息：
 
-   * **未分配的工作**：分配给团队但未分配给用户的项目。
-   * **已分派工作**：团队的所有成员及其所有分配。
+   * **未分配的工作**：已分配给团队但未分配给用户的项目。
+   * **已分派的工作**：团队的所有成员及其所有分派的工作。
 
      >[!TIP]
      >
@@ -117,9 +117,9 @@ ht-degree: 0%
 
 ### 访问项目的工作负载均衡器
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png)，然后单击 **项目**.
+1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
 1. 单击项目名称以打开项目页面。
-1. 单击 **工作负载均衡器** 在左侧面板中。 您可能需要单击 **显示更多**，则 **工作负载均衡器**.
+1. 单击左侧面板中的&#x200B;**工作负载均衡器**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**工作负载均衡器**。
 
    此时将显示项目的工作负载均衡器。
 
@@ -128,11 +128,11 @@ ht-degree: 0%
    默认情况下，项目的工作负载均衡器按信息显示以下内容：
 
    * **未分配的工作**：项目中分配给工作角色或团队但未分配给用户的项。
-   * **已分派工作**：分配给项目项的用户。
+   * **已分配工作**：已分配给项目项的用户。
 
      >[!TIP]
      >
-     >通过启用“显示所有用户”选项，可以显示系统中的所有用户，而不仅仅是项目中的用户（在“已分配的工作”区域中）。 有关信息，请参阅 [导航工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md).
+     >通过启用“显示所有用户”选项，可以显示系统中的所有用户，而不仅仅是项目中的用户（在“已分配的工作”区域中）。 有关信息，请参阅[在工作负载均衡器](../workload-balancer/navigate-the-workload-balancer.md)中导航。
 
 
 ## 将工作负载均衡器添加到自定义分区
@@ -147,14 +147,14 @@ ht-degree: 0%
    * 团队
    * 项目
 
-1. 获取可共享链接并将其复制到剪贴板，如中所述 [使用链接共享工作负载均衡器](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. 创建包含外部页面的功能板，如中所述 [在功能板中嵌入外部网页](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). 将您在步骤2中获得的可共享链接用于外部页面。
+1. 获取可共享链接并将其复制到剪贴板，如[使用链接](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)共享工作负载均衡器中所述。
+1. 创建包含外部页面的仪表板，如[在仪表板中嵌入外部网页](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)中所述。 将您在步骤2中获得的可共享链接用于外部页面。
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. 创建自定义分区，如中所述 [创建自定义选项卡或分区](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) 将功能板放置在自定义选项卡上。
+1. 按照[创建自定义选项卡或分区](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)中的说明创建自定义分区，以将仪表板置于自定义选项卡上。
 
    从自定义部分访问工作负载均衡器时，您可以查看它，就像直接从步骤1中列出的其中一个原始区域访问它一样。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
       (NOTE: ensure this stays correct)
      -->
 
-1. （可选）在布局模板中共享自定义选项卡，如中所述  [使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. （可选）在布局模板中共享自定义选项卡，如[使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)中所述。
 
 
 <!--

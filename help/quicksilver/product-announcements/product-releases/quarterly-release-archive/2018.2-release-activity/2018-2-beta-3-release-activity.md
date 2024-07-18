@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 3发布活动
-description: 本页介绍2018.2 Beta 3版本预览环境中最近提供的所有更改。 该功能已于2018年4月19日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+title: 2018.2 Beta 3发行版活动
+description: 本页介绍了2018.2 Beta 3版本在“预览”环境中最近提供的所有更改。 该功能已于2018年4月19日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 3发布活动
+# 2018.2 Beta 3发行版活动
 
-本页介绍2018.2 Beta 3版本预览环境中最近提供的所有更改。 该功能已于2018年4月19日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
+本页介绍了2018.2 Beta 3版本在“预览”环境中最近提供的所有更改。 该功能已于2018年4月19日在预览环境中提供。 该版本将于2018年6月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+有关2018.2版中所做所有更改的列表，请参阅  [2018.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
-2018.2测试版3包含以下增强功能：
+2018.2 Beta 3版本包含以下增强功能：
 
 * [管理系统中的许可证](#manage-licenses-in-your-system)
-* [在Kanban展示板上设置故事标志](#set-flags-for-stories-on-the-kanban-board)
+* [在Kanban展示板上设置故事的标志](#set-flags-for-stories-on-the-kanban-board)
 * [直接在Agile故事卡上编辑字段](#edit-fields-directly-on-an-agile-story-card)
 * [改进了多个单词的搜索相关性](#improved-search-relevancy-for-multiple-words)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 在此更改之前，Workfront管理员只能在客户信息页面的“许可证”部分中查看许可证计数。
 
-有关更多信息，请参阅 [管理系统中的可用许可证](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+有关详细信息，请参阅[管理系统中的可用许可证](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## 在Kanban展示板上设置故事标志 {#set-flags-for-stories-on-the-kanban-board}
 
@@ -47,7 +47,7 @@ Kanban故事板上的每个故事拼贴现在都包含一个标记，团队成�
 
 有关在Kanban展示板上使用标记的信息，请参阅文章中的“在故事上使用标记”。
 
-有关在任务报告中包括标记的信息，请参见 [Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+有关在任务报表中包括标记的信息，请参阅[Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。  
 
 ## 直接在Agile故事卡上编辑字段 {#edit-fields-directly-on-an-agile-story-card}
 
@@ -66,4 +66,4 @@ Kanban故事板上的每个故事拼贴现在都包含一个标记，团队成�
 
 在此更改之前，一次搜索多个单词将查找包含短语中任意或全部单词的项目。 
 
-有关搜索的详细信息，请参阅 [搜索Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+有关搜索的详细信息，请参阅[搜索Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md)。

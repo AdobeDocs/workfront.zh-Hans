@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了随23.3版发布而增强的所有其他功能。 这些增强功能在2023年7月20日和21日发布的23.3版本的生产环境中提供。
 
-有关23.3发行周期中此时可用的所有更改列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+有关23.3发行周期中此时可用的所有更改列表，请参阅[23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 ## 新的主页体验
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 新主页在发布后将成为所有用户的默认体验。 但是，在我们继续开发其功能时，您可以选择恢复为现有的“主页”体验。
 
-有关更多信息，请参阅 [开始使用Adobe Workfront中的新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+有关详细信息，请参阅[Adobe Workfront中的新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
@@ -40,16 +40,16 @@ ht-degree: 0%
 
 这将是这些对象的唯一评论体验，因为已删除旧版评论体验。
 
-有关更多信息，请参阅 [新的评论体验发布活动](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关详细信息，请参阅[新注释体验发布活动](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)。
 
-## 新增对项目、任务和问题的测试版发表评论的体验
+## 新增对项目、任务和问题的Beta体验进行评论
 
-新的备注测试版体验现在可用于项目、任务和文档。 在此更新之前，评论Beta体验仅适用于问题和目标。
+新的评论Beta体验现在可用于项目、任务和文档。 在此更新之前，评论Beta体验仅适用于问题和目标。
 
-有关当前在评论Beta版体验中可用的功能的信息，请参阅 [新的评论Beta版体验发布活动](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+有关评论Beta体验中当前可用功能的信息，请参阅[新的评论测试版体验发布活动](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)。
 
 ## 没有头像的用户档案现在显示用户缩写
 
 为了更便于在大型列表中查找特定用户，现在没有自定义头像的用户档案会在列表和旧版报表的彩色背景中显示用户的首字母。 这是一个细微的外观更改，如果已在使用头像照片或用户已停用，则不适用。
 
-有关编辑用户配置文件的更多信息，请参阅 [编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+有关编辑用户配置文件的详细信息，请参阅[编辑用户配置文件](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。

@@ -45,7 +45,7 @@ ht-degree: 4%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -55,7 +55,7 @@ ht-degree: 4%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -67,7 +67,7 @@ ht-degree: 4%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -78,11 +78,11 @@ ht-degree: 4%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 复制目标的注意事项
 
-在复制目标之前，您必须拥有在访问级别中编辑目标的访问权限。 有关授予对“目标”的访问权限的信息，请参阅 [授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+在复制目标之前，您必须拥有在访问级别中编辑目标的访问权限。 有关授予目标访问权限的信息，请参阅[授予对Adobe Workfront目标的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)。
 
 您可能希望复制现有目标的一些原因包括：
 
@@ -92,7 +92,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->您可以复制处于任何状态的目标。 有关目标状态的信息，请参阅 [Adobe Workfront目标中的目标状态概述](../../workfront-goals/goal-management/goal-status-overview.md).
+>您可以复制处于任何状态的目标。 有关目标状态的信息，请参阅Adobe Workfront目标中的[目标状态概述](../../workfront-goals/goal-management/goal-status-overview.md)。
 
 复制目标时，请考虑以下事项：
 
@@ -178,17 +178,17 @@ To copy goals in the Production environment:
 -->
 
 
-1. 转到目标并单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击 **复制目标**.
+1. 转到目标并单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制目标**。
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. 为复制的目标更新以下信息：
-   * **目标名称**：新目标的名称。 复制目标的默认名称为“副本” &lt;original goal=&quot;&quot;>“。
-   * **期间**：您希望实现目标的时段。 从下拉菜单中选择一个时间段
+   * **目标名称**：新目标的名称。 复制目标的默认名称是“&lt;原始目标>的副本”。
+   * **时段**：您希望实现目标的时段。 从下拉菜单中选择一个时间段
 
      或
 
-     选择 **启用自定义日期** 指定目标的自定义日期 **开始** 和 **结束日期**. 默认情况下，“启用自定义日期”设置处于禁用状态。
+     选择&#x200B;**启用自定义日期**&#x200B;以指定目标的&#x200B;**开始**&#x200B;和&#x200B;**结束日期**&#x200B;的自定义日期。 默认情况下，“启用自定义日期”设置处于禁用状态。
 
      >[!TIP]
      >
@@ -203,7 +203,7 @@ To copy goals in the Production environment:
         >* 原始结果的进度不会转移到复制的目标。
         >* 如果从Workfront中删除或停用原始所有者，则会将新结果分配给登录用户。
 
-1. 单击 **复制目标**.
+1. 单击&#x200B;**复制目标**。
 
    将创建一个与原始目标相似的目标，且此目标处于“草稿”状态。
 
@@ -215,5 +215,5 @@ To copy goals in the Production environment:
    >* [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
    >* [通过在Adobe Workfront目标中连接目标来调整目标](../goal-alignment/align-goals-by-connecting-them.md)
    >
-   >有关激活目标的信息，请参阅 [激活目标](../goal-management/activate-goals.md).
+   >有关激活目标的信息，请参阅[激活目标](../goal-management/activate-goals.md)。
 

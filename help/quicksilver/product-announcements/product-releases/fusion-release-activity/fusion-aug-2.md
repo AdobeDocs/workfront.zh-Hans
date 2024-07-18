@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年8月2日起一周
-description: Workfront Fusion发行活动：&nbsp；2021年8月2日起一周
+title: Workfront Fusion发布活动：&amp；nbsp；2021年8月2日开始的周
+description: Workfront Fusion发布活动：&amp；nbsp；2021年8月2日开始的周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年8月2日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ ht-degree: 0%
 
   以前，只能通过用户输入的公式计算日期和时间差。
 
-  有关更多信息，请参阅 [Adobe Workfront Fusion中的日期和时间函数](../../../workfront-fusion/functions/date-and-time-functions.md).
+  有关详细信息，请参阅Adobe Workfront Fusion中的[日期和时间函数](../../../workfront-fusion/functions/date-and-time-functions.md)。
 
 * 新的数组函数： arrayDifference
 
@@ -64,4 +64,4 @@ ht-degree: 0%
    * 一个数组中未包含在其他数组中的元素数组
    * 包含在一个数组或另一个数组中，但不能同时包含这两个数组的元素数组。
 
-  有关更多信息，请参阅 [Adobe Workfront Fusion中的数组函数](../../../workfront-fusion/functions/array-functions.md).
+  有关详细信息，请参阅Adobe Workfront Fusion中的[数组函数](../../../workfront-fusion/functions/array-functions.md)。

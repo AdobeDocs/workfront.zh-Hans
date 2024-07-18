@@ -11,7 +11,7 @@ exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 5%
   -->
 
 * [在任务详细信息概述区域管理任务信息](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-* [在“任务详细信息”部分管理任务财务](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [在任务详细信息部分管理任务财务](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 * [删除任务](../../../manage-work/tasks/manage-tasks/delete-tasks.md)

@@ -25,12 +25,12 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [定义Adobe Workfront实施目标概述](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [定义Adobe Workfront实施目标的概述](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
 * [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [配置系统的基本信息](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [防火墙概述](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
 * [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 * [配置电子邮件允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [发送公告](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
-* [Workfront的浏览器要求](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
+* Workfront的[浏览器要求](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
 * [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # 提交日期概述
 
-<span class="preview">此页面上高亮显示的信息是指尚未普遍可用的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
-<span class="preview">有关快速版本的信息，请参阅 [为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅 [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。
 
 这与任务或问题的规划完成日期不同，因为它是仅由负责工作的用户提供的对完成日期的更现实的估计。
 
-有关计划完成日期的信息，请参阅 [任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+有关计划完成日期的信息，请参阅[任务计划完成日期概览](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
 ## 提交日期概述
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   创建任务或问题时，没有向任务或问题分配提交日期。
 * 如果分配给任务或问题，则可以通过执行以下操作之一来设置提交日期：
 
-   * 允许Workfront通过单击任务或问题中的工作、开始问题或开始任务，将提交日期设置为与任务或问题的现有规划完成日期匹配。 有关将“处理此项工作”按钮替换为“开始”按钮的信息，请参阅  [将“处理此项工作”按钮替换为“开始”按钮](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * 允许Workfront通过单击任务或问题中的工作、开始问题或开始任务，将提交日期设置为与任务或问题的现有规划完成日期匹配。 有关将“处理它”按钮替换为“开始”按钮的信息，请参阅[将“处理它”按钮替换为“开始”按钮](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)。
    * 根据您认为任务或问题可能完成的时间手动设置提交日期。 这是您作为工作负责人对项目经理的估计和承诺，即您将在特定日期前完成任务或问题。
-有关信息，请参阅 [更新任务和问题的提交日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+有关信息，请参阅[更新任务和问题的提交日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 >[!NOTE]
 >
@@ -52,15 +52,15 @@ ht-degree: 0%
 >* 任务上的任何其他被分配人
 >* 对任务具有权限的任何其他用户。
 >
->有关任务所有者的详细信息，请参见 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>有关任务所有者的详细信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 找到任务和问题的提交日期
 
 您可以在Workfront的以下区域找到任务和问题的提交日期：
 
 * “详细信息”页面
-* 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅 [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。</span>
 
 ## 通过更改提交日期触发的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  当Workfront管理员在“设置”的“更新源”区域中启用此更新时，提交日期的更改会显示在任务或问题的更新区域中。 有关信息，请参阅 [系统跟踪更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  当Workfront管理员在“设置”的“更新源”区域中启用此更新时，提交日期的更改会显示在任务或问题的更新区域中。 有关信息，请参阅[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
   如果项目所有者不想接受更改，我们建议他们使用“更新”部分中的“注释”选项卡回评为建议新日期的用户，要求他们将提交日期更改为原始计划日期，或选择新日期。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   >
   >* [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 * 任务或问题的预计完成日期被设置为相同的日期，因为任务现在可以更准确地指示可能何时完成。
 
-  有关预计完成日期的详细信息，请参阅 [项目、任务和问题的预计完成日期概述](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  有关预计完成日期的更多信息，请参阅[项目、任务和问题的预计完成日期概览](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >只有当Workfront管理员在“设置”的“更新源”区域启用显示“提交日期”时，才会将提交日期已更改通知发送给项目所有者。 有关信息，请参阅 [系统跟踪更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >只有当Workfront管理员在“设置”的“更新源”区域启用显示“提交日期”时，才会将提交日期已更改通知发送给项目所有者。 有关信息，请参阅[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
-有关更新工作项时可用的附加功能的信息，请参阅  [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关更新工作项时可用的附加功能的信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-有关更新任务和问题的提交日期的信息，请参阅 [更新任务和问题的提交日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+有关更新任务和问题的提交日期的信息，请参阅[更新任务和问题的提交日期](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -1,28 +1,28 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: kickstart，kickstart，kickstarts，kickstarts
+keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: ‘启动方案：公司、组、角色和用户启动准备’
-description: 在开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职务角色和用户信息，而不是手动输入数据。
+title: '快速启动方案：公司、组、角色和用户快速启动准备'
+description: 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 8%
+source-wordcount: '1104'
+ht-degree: 2%
 
 ---
 
-# 启动方案：公司、组、角色和用户启动准备
+# 快速启动方案：公司、组、角色和用户快速启动准备
 
-在开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职务角色和用户信息，而不是手动输入数据。
+开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -38,12 +38,12 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>:如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 可导入的内容
+## 您可以导入的内容
 
 下表显示了要导入的公司、组和角色：
 
@@ -60,25 +60,25 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ， Inc.</p> </td> 
+   <td valign="top"> <p>Acme， Co</p> <p>Workfront公司</p> <p><em>您的公司</em> </p> <p>XYZ公司</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">财务</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">营销 </p> <p valign="top" rowspan="7">销售</p> </td> 
-   <td valign="top"> <p valign="top">业务分析师</p> <p valign="top">控制者创意</p> <p valign="top">设计者</p> <p valign="top">资源管理器</p> <p valign="top">Scrum主控</p> <p valign="top">技术作家</p> <p valign="top">Web开发人员</p> </td> 
+   <td valign="top"> <p valign="top">业务分析师</p> <p valign="top">Controller Creative</p> <p valign="top">设计者</p> <p valign="top">资源管理器</p> <p valign="top">Scrum Master</p> <p valign="top">技术作者</p> <p valign="top">Web开发人员</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-角色名称必须唯一，无法导入现有作业角色。
+角色名称必须唯一，无法导入现有工作角色。
 
-下表显示了要导入的用户以及每个用户的多个用户属性：
+下表显示了要导入的用户以及每个用户的几个用户属性：
 
 ### 用户1
 
-| **姓** | 克里斯 |
+| **名字** | 克里斯 |
 |---|---|
-| **名** | 曼宁 |
+| **姓氏** | Manning |
 | **用户名/电子邮件** | mailto:cmanning@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 团队成员 |
+| **密码** | 更新我 |
+| **访问** | 团队成员 |
 | **公司** | &lt;*您的公司>* |
 | **主组** | 营销 |
 | **工作角色** | 业务分析师 |
@@ -87,12 +87,12 @@ ht-degree: 8%
 
 ### 用户2
 
-| **姓** | Jennifer |
+| **名字** | Jennifer |
 |---|---|
-| **名** | 坎贝尔 |
+| **姓氏** | 坎贝尔 |
 | **用户名/电子邮件** | jcampbell@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 项目经理 |
+| **密码** | 更新我 |
+| **访问** | 项目经理 |
 | **公司** | &lt;*您的公司>* |
 | **主组** | 营销 |
 | **工作角色** | 项目经理 |
@@ -101,12 +101,12 @@ ht-degree: 8%
 
 ### 用户3
 
-| **姓** | 吉尔 |
+| **名字** | 吉尔 |
 |---|---|
-| **名** | 沙利文 |
+| **姓氏** | 沙利文 |
 | **用户名/电子邮件** | jsullivan@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 技术支持 |
+| **密码** | 更新我 |
+| **访问** | 技术支持 |
 | **公司** | &lt;*您的公司>* |
 | **主组** | 销售 |
 | **工作角色** | 销售代表 |
@@ -115,12 +115,12 @@ ht-degree: 8%
 
 ### 用户4
 
-| **姓** | 马克 |
+| **名字** | 马克 |
 |---|---|
-| **名** | 刘易斯 |
+| **姓氏** | 刘易斯 |
 | **用户名/电子邮件** | mlewis@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 组合管理 |
+| **密码** | 更新我 |
+| **访问** | 组合管理 |
 | **公司** | &lt;*您的公司>* |
 | **主组** | 财务 |
 | **工作角色** | 控制器 |
@@ -129,12 +129,12 @@ ht-degree: 8%
 
 ### 用户5
 
-| **姓** | 帕姆 |
+| **名字** | Pam |
 |---|---|
-| **名** | 雷诺 |
+| **姓氏** | 雷诺 |
 | **用户名/电子邮件** | preynolds@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 项目经理 |
+| **密码** | 更新我 |
+| **访问** | 项目经理 |
 | **公司** | *您的公司>* |
 | **主组** | 营销 |
 | **工作角色** | IT |
@@ -143,116 +143,116 @@ ht-degree: 8%
 
 ### 用户6
 
-| **姓** | Ray |
+| **名字** | Ray |
 |---|---|
-| **名** | 安德鲁斯 |
+| **姓氏** | Andrews |
 | **用户名/电子邮件** | randrews@foo.com |
-| **密码** | updateMe |
-| **访问权限** | 管理员 |
+| **密码** | 更新我 |
+| **访问** | 管理员 |
 | **公司** | *您的公司>* |
 | **主组** | 资源管理器 |
 | **工作角色** | 无 |
 
 {style="table-layout:auto"}
 
-## 下载启动模板
+## 下载快速启动模板
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **系统** > **启动** > **导入数据。**
+1. 单击&#x200B;**系统** > **Kick-Starts** > **导入数据。**
 
-1. 单击 **更多选项** 查看导入选项的完整列表。
-1. 选择要导入的访问级别、公司、组、作业角色和用户对象。
+1. 单击&#x200B;**更多选项**&#x200B;查看导入选项的完整列表。
+1. 选择要导入的访问级别、公司、组、工作角色和用户对象。
 
 ## 输入公司信息
 
-1. 打开 **Workfront.xlsx** 文件。
+1. 打开您刚刚下载的&#x200B;**Workfront.xlsx**&#x200B;文件。
 
    >[!TIP]
    >
-   >使用非常宽的数据表时，您可能希望使用电子表格编辑器的冻结窗格（或等效的）工具来使电子表格更易于使用。
+   >在使用非常宽的数据表时，您可能希望使用电子表格编辑器的冻结窗格（或等效操作）工具，使电子表格更易于使用。
 
 1. 转到“CMPY公司”表。
 
-   除非公司已在系统中，否则此值应为空。 ![](assets/cmpysheet-350x16.png)
+   除非系统中已包含公司，否则它应该为空。![](assets/cmpysheet-350x16.png)
 
    ![](assets/companyid--1--350x78.png)
 
-1. 在中指定TRUE **isNew** 列。
-1. 对要添加的每个公司重复此操作。 （在此示例中，为第3-6行完成此操作，因为添加了四个公司。）
+1. 在&#x200B;**isNew**&#x200B;列中指定TRUE。
+1. 对每个要添加的公司重复此操作。 （在本例中，请为第3-6行完成此操作，因为将添加四个公司。）
 
    ![](assets/cmpyisnew-350x86.png)
 
 1. 指定唯一ID。
 
-   必须对ID列的每行执行此操作。 从1开始的整数在创建新记录时非常有效。
+   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
    ![](assets/cmpyisnew-350x86.png)
 
 1. 设置名称。
 
-   在 **setName** 列。
+   在&#x200B;**setName**&#x200B;列中指定每个客户的名称。
 
    ![](assets/companyid-350x78.png)
 
-1. 转到“组”(GROUP)“组”(Group)工作表。
+1. 转到“组”工作表。
 
-   除非您已在Workfront中创建组，否则此工作表应仅显示每个Workfront帐户都配置的默认组。
+   除非您已在Workfront中创建了组，否则此工作表应仅显示为Workfront的每个帐户配置的默认组。
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. 设置 **isNew** column.Conserion将根据情景导入4个组，因此在第4行到第7行中为“isNew”列指定TRUE。
+1. 设置&#x200B;**isNew**&#x200B;列。根据此方案，将导入4个组，因此请为“isNew”列在第4行到第7行中指定TRUE。
 1. 指定唯一ID。
 
-   必须对ID列的每行执行此操作。 从1开始的整数在创建新记录时非常有效。
+   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
    ![](assets/groupids-350x85.png)
 
 1. 设置名称。
 
-   指定 **setName** 列。
+   在&#x200B;**setName**&#x200B;列中指定每个部门的名称。
 
    ![](assets/groupnames-350x85.png)
 
    指定角色信息。 转到“角色”角色表。
 
-1. 除非您已在帐户中创建或删除了角色，否则此工作表应显示8个已与每个Workfront帐户一起配置的角色。
+1. 除非您已经在帐户中创建或删除了角色，否则此工作表应显示8个使用Workfront的每个帐户配置的角色。
 
    ![](assets/groupnames-350x85.png)
 
 1. 设置True语句。
 
-   正在导入7个作业角色，在“isNew”列的行12到18中输入TRUE。
+   正在导入七个工作角色，请在“isNew”列的行12到18中输入TRUE。
 
    ![](assets/roleisnew-350x104.png)
 
 1. 指定唯一ID。
 
-   必须对ID列的每行执行此操作。 从1开始的整数在创建新记录时非常有效。
+   必须为ID列的每一行执行此操作。 创建新记录时，从1开始的整数工作正常。
 
    ![](assets/usersheet-350x16.png)
 
    ![](assets/roleisnew--1--350x104.png)
 
-1. 通过在setName列中键入每个角色的名称来提供其名称。
+1. 通过在setName列中键入每个角色来提供其名称。
 
    ![](assets/roleisnew-350x104.png)
 
 1. 根据需要提供其他详细信息。
 
-   根据需要，包括您正在创建的角色的开单费率、成本费率和描述。
+   根据需要包括您要创建的角色的记帐费率、成本费率和描述。
 
-1. 转到“用户”用户工作表以输入“用户信息”。
+1. 转到“用户”工作表以输入用户信息。
 
-   除非您已在帐户中创建用户，否则此工作表应仅显示已配置了每个Workfront帐户的管理员用户。
+   除非您已在帐户中创建用户，否则此工作表应仅显示使用Workfront的每个帐户配置的管理员用户。
 
    ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
 
-1. 由于将导入6个用户，因此在“isNew”列的第4行到第9行中指定TRUE可设置True值。
+1. 由于正在导入6个用户，因此在“isNew”列的第4行到第9行中指定TRUE可设置True值。
 
    ![](assets/userisnew-350x52.png)
 
-1. 通过在ID列的每行中指定唯一ID来设置唯一ID。 通常，从1开始的整数很适合用于新记录。
+1. 通过在ID列的每行中指定唯一ID来设置唯一ID。 通常，从1开始的整数适用于新记录。
 
    ![](assets/userisnew-350x52.png)
 
@@ -266,21 +266,21 @@ ht-degree: 8%
 
 1. 指定访问级别值。
 
-   例如，Chris Manning（团队成员）在“ACSLVL访问级别”(ACSLVL Access Level)工作表上查找团队成员访问级别的ID。 将ID复制到剪贴板，然后在“用户”工作表中，将其粘贴到 **setAccessLevelID** Chris行的列。
+   例如，团队成员Chris Manning在“ACSLVL访问级别”表中查找团队成员访问级别的ID。 将ID复制到剪贴板，然后在“用户”用户工作表中将其粘贴到Chris&#39;行上的&#x200B;**setAccessLevelID**&#x200B;列中。
 
-   为每个用户和访问级别重复此步骤。
+   对每个用户和访问级别重复此步骤。
 
    ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
 
 1. 指定主组详细信息。
 
-   根据情景，克里斯·曼宁属于营销团队。 在“群组”工作表中，找到营销群组的ID，将其复制到剪贴板，然后在“用户”工作表中，将其粘贴到 **setHomeGroupID** Chris行的列。&#x200B;对每个用户和组分配重复此步骤。
+   根据场景，Chris Manning属于营销组。 在“组”工作表上，找到营销组的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的&#x200B;**setHomeGroupID**&#x200B;列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
 1. 指定公司详细信息。
 
-   此方案中的所有用户都属于同一公司。 在“CMPY公司”工作表中，找到*您自己的公司*公司的ID，将该ID复制到剪贴板，然后在“用户用户”选项卡中，将此值粘贴到“setCompanyID”列的每一行中&#x200B;。
+   此方案中的所有用户属于同一公司。 在CMPY公司工作表上，找到*您自己的公司*公司的ID，将ID复制到剪贴板，然后在“用户用户”选项卡上，将此值粘贴到“setCompanyID”列的每一行中&#x200B;。
 
    对每个用户和组分配重复此步骤。
 
@@ -288,9 +288,9 @@ ht-degree: 8%
 
    ![](assets/pastecompanyid-350x84.png)
 
-1. 指定作业角色详细信息。
+1. 指定工作角色详细信息。
 
-   根据情景，克里斯·曼宁将担任商业分析师。 在“角色”角色工作表中，找到Business Analyst角色的ID，将其复制到剪贴板，然后在“用户”工作表中，将其粘贴到Chris行的“setRoleID”列中。&#x200B;对每个用户和组分配重复此步骤。
+   根据设想，克里斯·曼宁将担任业务分析员。 在“角色”工作表上，找到Business Analyst角色的ID，将其复制到剪贴板中，然后在“用户”工作表上将其粘贴到Chris行上的“setRoleID”列中。&#x200B;AEM对每个用户和组分配重复此步骤。
 
    ![](assets/copyroleid-350x149.png)
 
@@ -299,4 +299,4 @@ ht-degree: 8%
 1. 根据需要填写其他用户详细信息，然后保存文件。
 1. 导入Excel文件。
 
-   按照 **导入Kick Start文件** 本文章的章节。
+   按照本文&#x200B;**导入Kick Start文件**&#x200B;部分提供的说明进行操作。

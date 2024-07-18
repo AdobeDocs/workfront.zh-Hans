@@ -1,9 +1,9 @@
 ---
-title: 创建OAuth2应用程序 [!DNL Workfront] 集成
+title: 为 [!DNL Workfront] 集成创建OAuth2应用程序
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 作为 [!DNL Adobe Workfront] 管理员，您可以为实例创建OAuth2应用程序 [!DNL Workfront]，允许其他应用程序访问Workfront。 然后，您的用户可以将权限授予这些其他应用程序，以访问其Workfront数据。 这样，您就可以将Workfront与您选择的应用程序（包括您自己的内部应用程序）集成。
+description: 作为 [!DNL Adobe Workfront] 管理员，您可以为 [!DNL Workfront]的实例创建OAuth2应用程序，这将允许其他应用程序访问Workfront。 然后，您的用户可以将权限授予这些其他应用程序，以访问其Workfront数据。 这样，您就可以将Workfront与您选择的应用程序（包括您自己的内部应用程序）集成。
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -15,19 +15,19 @@ ht-degree: 5%
 
 ---
 
-# 创建OAuth2应用程序 [!DNL Workfront] 集成
+# 为[!DNL Workfront]集成创建OAuth2应用程序
 
-作为 [!DNL Adobe Workfront] 管理员，您可以为实例创建OAuth2应用程序 [!DNL Workfront]，允许其他应用程序访问 [!DNL Workfront]. 然后，您的用户可以授予这些其他应用程序访问其 [!DNL Workfront] 数据。 这样，您就可以与您选择的应用程序（包括您自己的内部应用程序）集成。
+作为[!DNL Adobe Workfront]管理员，您可以为您的[!DNL Workfront]实例创建OAuth2应用程序，这将允许其他应用程序访问[!DNL Workfront]。 然后，您的用户可以授予这些其他应用程序访问其[!DNL Workfront]数据的权限。 通过这种方法，您可以集成   包括您自己的内部应用程序在内。
 
-当您创建 [!UICONTROL OAuth2] 应用程序，您将生成客户端ID和客户端密钥。 然后，您的用户便可以在API调用中使用客户端ID，将与您创建的应用程序集成。
+创建[!UICONTROL OAuth2]应用程序时，将生成客户端ID和客户端密钥。 然后，您的用户便可以在API调用中使用客户端ID，将与您创建的应用程序集成。
 
 >[!NOTE]
 >
->在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器之间创建此类访问链接的过程，例如 [!DNL Workfront].
+>在OAuth2的上下文中，“创建应用程序”是指在应用程序和服务器（如[!DNL Workfront]）之间创建此类访问链接的过程。
 
-* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md).
-* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md).
-* 有关使用PKCE配置和使用OAuth2应用程序的说明，请参阅 [使用PKCE流程配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-pkce-flow.md).
+* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
+* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
+* 有关使用PKCE配置和使用OAuth2应用程序的说明，请参阅[使用PKCE流程配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-pkce-flow.md)。
 
 ## 访问要求
 
@@ -51,20 +51,20 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> 您必须是 [!DNL Workfront] 管理员。 </td> 
+   <td> 您必须是[!DNL Workfront]管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 +++
 
 ## OAuth2概述
 
-假设应用程序必须从提取一些特定信息 [!DNL Workfront]. 请求信息的应用程序称为客户端。 在此示例中，客户端名称为ClientApp。 ClientApp需要访问特定用户的信息，因此必须访问 [!DNL Workfront] 作为该用户。 如果用户为ClientApp提供用户名和密码，则ClientApp可以访问用户可以访问的所有数据。 这会带来安全风险，因为ClientApp只需要一小部分特定信息。
+假设应用程序必须从[!DNL Workfront]中提取一些特定信息。 请求信息的应用程序称为客户端。 在此示例中，客户端名称为ClientApp。 ClientApp需要访问特定用户的信息，因此必须以该用户的身份访问[!DNL Workfront]。 如果用户为ClientApp提供用户名和密码，则ClientApp可以访问用户可以访问的所有数据。 这会带来安全风险，因为ClientApp只需要一小部分特定信息。
 
-在为ClientApp创建OAuth2应用程序时，您实际上在告诉 [!DNL Workfront] 允许ClientApp访问 [!DNL Workfront]，但前提是帐户ClientApp正在访问的用户授予了访问权限。
+在为ClientApp创建OAuth2应用程序时，实际上是在告知[!DNL Workfront] ClientApp允许访问[!DNL Workfront]，但前提是帐户为ClientApp所访问的用户授予了访问权限。
 
 ## 创建OAuth2应用程序
 
@@ -129,12 +129,12 @@ ht-degree: 5%
 
 {{step-1-to-setup}}
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 系统]**，然后选择 **[!UICONTROL OAuth2应用程序]**.
-1. 单击 **[!UICONTROL 创建应用程序集成]**.
-此 **新OAuth2应用程序** 框显示。
-1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL 机器对机器应用程序]**.
-1. 输入新应用程序的名称，如“[!DNL Workfront] 用于ClientApp。”
-1. 单击 **[!UICONTROL 创建]**.
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth2应用程序]**。
+1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
+将显示**新OAuth2应用程序**&#x200B;框。
+1. 在&#x200B;**新OAuth2应用程序**&#x200B;框中，选择&#x200B;**[!UICONTROL 计算机到计算机应用程序]**。
+1. 输入新应用程序的名称，如“[!DNL Workfront] for ClientApp”。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 1. 填写新应用程序的字段。
 
    <table style="table-layout:auto"> 
@@ -147,18 +147,18 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL客户端密码]</td> 
-      <td> <p>此字段是自动生成的</p> <p><b>重要</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
+      <td> <p>此字段是自动生成的</p> <p><b>重要信息</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
         <ol> 
-         <li value="1"> <p>单击 <b>[！UICONTROL Delete]</b> 图标 <img src="assets/delete.png"> 删除当前客户端密钥。</p> </li> 
-         <li value="2"> <p>单击 <b>[！UICONTROL添加客户端密码]</b> 生成新的客户端密钥。</p> </li> 
+         <li value="1"> <p>单击<b>[！UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
+         <li value="2"> <p>单击<b>[！UICONTROL添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL公钥]</td> 
       <td> <p>服务器到服务器应用程序使用公钥和私钥进行身份验证。 执行下列操作之一：</p> 
        <ul> 
-        <li> <p>单击 <b>[！UICONTROL Add a public key]</b> 并输入另一个应用程序的公钥。</p> </li> 
-        <li> <p>单击 <b>[！UICONTROL生成公钥/私钥对]</b>，然后与其他应用程序共享公钥。</p> </li> 
+        <li> <p>单击<b>[！UICONTROL Add a public key]</b>，然后输入另一个应用程序的公共密钥。</p> </li> 
+        <li> <p>单击<b>[！UICONTROL生成公钥/私钥对]</b>，然后与其他应用程序共享公钥。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -174,19 +174,19 @@ ht-degree: 5%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md).
+有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
 
 ### 使用用户凭据创建OAuth2应用程序（授权代码流） {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
 {{step-1-to-setup}}
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 系统]**，然后选择 **[!UICONTROL OAuth2应用程序]**.
-1. 单击 **[!UICONTROL 创建应用程序集成]**.
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth2应用程序]**。
+1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
 
-   此 **新OAuth2应用程序** 显示。
-1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL Web应用程序]**.
-1. 输入新OAuth2应用程序的名称，例如“[!DNL Workfront] 用于ClientApp。”
-1. 单击 **[!UICONTROL 创建]**.
+   显示&#x200B;**新OAuth2应用程序**。
+1. 在&#x200B;**新OAuth2应用程序**&#x200B;框中，选择&#x200B;**[!UICONTROL Web应用程序]**。
+1. 输入新OAuth2应用程序的名称，例如“[!DNL Workfront] for ClientApp”。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 1. 填写新应用程序的字段。
 
    <table style="table-layout:auto"> 
@@ -199,15 +199,15 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL客户端密码]</td> 
-      <td> <p>此字段是自动生成的</p> <p><b>重要</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
+      <td> <p>此字段是自动生成的</p> <p><b>重要信息</b>：  <p>在关闭此页之前，将此字段的内容复制到另一个安全文件。 您将无法再次看到此密钥。</p> <p>如果丢失此密钥，请删除它并创建客户端密钥。</p> 
         <ol> 
-         <li value="1"> <p>单击 <b>[！UICONTROL Delete]</b> 图标 <img src="assets/delete.png"> 删除当前客户端密钥。</p> </li> 
-         <li value="2"> <p>单击 <b>[！UICONTROL添加客户端密码]</b> 生成新的客户端密钥。</p> </li> 
+         <li value="1"> <p>单击<b>[！UICONTROL Delete]</b>图标<img src="assets/delete.png">可删除当前客户端密钥。</p> </li> 
+         <li value="2"> <p>单击<b>[！UICONTROL添加客户端密钥]</b>以生成新的客户端密钥。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL重定向URL]</td> 
-      <td>用户通过身份验证后，将会被重定向到此路径 [!DNL Workfront].</td> 
+      <td>用户使用[!DNL Workfront]进行身份验证后，会被重定向到此路径。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL刷新令牌轮换]</td> 
@@ -218,7 +218,7 @@ ht-degree: 5%
       <td> <p>选择刷新令牌过期前希望存在的时间。 过期后，您的用户必须再次登录该集成。 如果不希望刷新令牌过期，请选择“[！UICONTROL无过期]”。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">不活动刷新令牌过期</td> 
+      <td role="rowheader">不活动刷新令牌期限</td> 
       <td> <p>选择多长时间，如果用户在您的系统中未处于活动状态，则其刷新令牌将过期。 </p> <p>例如，如果非活动刷新令牌过期时间为6个月，而用户在6个月内未登录，则刷新令牌将过期，即使绝对刷新令牌过期时间可能设置为更长。</p> </td> 
      </tr> 
      <tr> 
@@ -242,19 +242,19 @@ ht-degree: 5%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md).
+有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
 
 ### 使用PKCE创建OAuth2单页Web应用程序 {#create-an-oauth2-single-page-web-application-using-pkce}
 
 {{step-1-to-setup}}
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 系统]**，然后选择 **[!UICONTROL OAuth2应用程序]**.
-1. 单击 **[!UICONTROL 创建应用程序集成]**.
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 系统]**，然后选择&#x200B;**[!UICONTROL OAuth2应用程序]**。
+1. 单击&#x200B;**[!UICONTROL 创建应用集成]**。
 
-   此 **新OAuth2应用程序** 框显示。
-1. 在 **新OAuth2应用程序** 框，选择 **[!UICONTROL 单页Web应用程序]**.
-1. 输入新的名称 [!UICONTROL OAuth2] 应用程序，如&quot;[!DNL Workfront] 用于ClientApp。”
-1. 单击 **[!UICONTROL 创建]**.
+   将显示&#x200B;**新OAuth2应用程序**&#x200B;框。
+1. 在&#x200B;**新OAuth2应用程序**&#x200B;框中，选择&#x200B;**[!UICONTROL 单页Web应用程序]**。
+1. 输入新[!UICONTROL OAuth2]应用程序的名称，例如“[!DNL Workfront] for ClientApp”。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 1. 填写新应用程序的字段。
 
    <table style="table-layout:auto"> 
@@ -320,34 +320,34 @@ ht-degree: 5%
 
 进一步配置和使用创建的OAuth2应用程序需要一些技术知识，包括API调用。
 
-* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md).
-* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md).
-* 有关使用PKCE配置和使用OAuth2应用程序的说明，请参阅 [使用PKCE流程配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-pkce-flow.md).
+* 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
+* 有关使用服务器身份验证（JWT流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
+* 有关使用PKCE配置和使用OAuth2应用程序的说明，请参阅[使用PKCE流程配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-pkce-flow.md)。
 
 ## 用于授权代码流的OAuth2进程
 
 >[!NOTE]
 >
->您的用户访问 [!UICONTROL OAuth2] 应用程序通过API。 本节将笼统地介绍这些功能，仅供参考。
+>您的用户通过API访问[!UICONTROL OAuth2]应用程序。 本节将笼统地介绍这些功能，仅供参考。
 >
->有关使用OAuth2应用程序（包括特定API调用）的特定说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md).
+>有关使用OAuth2应用程序（包括特定API调用）的特定说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)。
 
 ### 使用授权代码和访问令牌进行授权 {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp需要从获取一些信息 [!DNL Workfront]，因此会发送请求到 [!DNL Workfront] API `/authorize` 端点。 该请求包括 [!UICONTROL response_type] `code`，这表示请求应返回授权码。
-1. 此触发器 [!DNL Workfront] 以向用户发送身份验证提示。 用户可以在提示中输入其凭据，该提示会提供 [!DNL Workfront] 与ClientApp通信的权限。 如果用户已登录 [!DNL Workfront]，则可以跳过此步骤。
-1. 此 [!DNL Workfront] API向ClientApp发送授权代码。
-1. ClientApp在请求中将以下信息发送到 [!DNL Workfront] API `/token`   端点：
+1. ClientApp需要来自[!DNL Workfront]的一些信息，因此它向[!DNL Workfront] API `/authorize`终结点发送请求。 该请求包括[!UICONTROL response_type] `code`，这表示该请求应返回授权代码。
+1. 这会触发[!DNL Workfront]向用户发送身份验证提示。 用户可以在提示中输入其凭据，这将授予[!DNL Workfront]与ClientApp通信的权限。 如果用户已登录[!DNL Workfront]，则可以跳过此步骤。
+1. [!DNL Workfront] API向ClientApp发送授权代码。
+1. ClientApp在请求中将以下信息发送到[!DNL Workfront] API `/token`   端点：
 
    * 在步骤3中发送到ClientApp的授权代码。 这会标识用户权限的特定实例。
-   * 在中设置ClientApp OAuth2应用程序时生成的客户端密钥 [!DNL Workfront]. 这允许 [!DNL Workfront] 以确认请求来自ClientApp。
+   * 在[!DNL Workfront]中设置ClientApp OAuth2应用程序时生成的客户端密钥。 这允许[!DNL Workfront]知道请求来自ClientApp。
 
-1. 如果授权码和客户端密码正确， [!DNL Workfront] 将访问令牌发送到ClientApp。 此访问令牌直接从发送 [!DNL Workfront] 到ClientApp，不能由任何其他用户或客户端应用程序查看、复制或使用。
-1. ClientApp将访问令牌发送到 [!DNL Workfront] 以及特定的信息请求。
-1. 因为访问令牌正确， [!DNL Workfront] 将信息发送到ClientApp。
+1. 如果授权代码和客户端密钥正确，[!DNL Workfront]将访问令牌发送到ClientApp。 此访问令牌直接从[!DNL Workfront]发送到ClientApp，任何其他用户或客户端应用程序无法查看、复制或使用。
+1. ClientApp将访问令牌连同特定的信息请求一起发送到[!DNL Workfront]。
+1. 由于访问令牌正确，[!DNL Workfront]将信息发送到ClientApp。
 
 #### 刷新访问令牌
 
-为安全起见，访问令牌会在较短时间后过期。 要获取新的访问令牌，而无需每次输入凭据， [!DNL OAuth2] 使用刷新令牌。 刷新令牌由客户端存储。
+为安全起见，访问令牌会在较短时间后过期。 要获取新的访问令牌而无需每次都输入凭据，[!DNL OAuth2]使用刷新令牌。 刷新令牌由客户端存储。
 
-获取刷新令牌的过程与部分中讨论的过程相同 [使用授权代码和访问令牌进行授权](#authorizing-with-an-authorization-code-and-access-token). 对授权码的请求包含范围 `offline_access`，指示请求应返回请求令牌以及授权代码。
+获取刷新令牌的过程与[授权授权授权代码和访问令牌](#authorizing-with-an-authorization-code-and-access-token)一节中讨论的过程相同。 授权代码的请求包含范围`offline_access`，该范围指示请求应随授权代码一起返回请求令牌。

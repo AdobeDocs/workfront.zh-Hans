@@ -5,7 +5,8 @@ title: 将待处理审批报告添加到画布功能板
 description: 包括有关您的未决和过去审批决策的待决审批报告可以添加到画布仪表板。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 包括有关您的未决和过去审批决策的待决审批报告可以添加到画布仪表板。
 
-有关在画布功能板上添加和排列报表的一般信息，请参阅 [在画布功能板中添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+有关在画布功能板上添加和排列报表的一般信息，请参阅[在画布功能板上添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)。
 
 ## 访问要求
 
@@ -43,10 +44,10 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 将待处理审批报告添加到画布功能板
 
 >[!IMPORTANT]
 >
->本文尚未完成。 请参阅文章中有关将报告添加到画布功能板的一般说明 [在画布功能板中添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>本文尚未完成。 请参阅文章[在画布信息板中添加、删除或排列报告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)中有关将报告添加到画布信息板的一般说明。

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta 1发布活动
-description: 本页介绍了2018.1 Beta 1版本预览环境中最近提供的所有更改。 2017年12月1日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
+title: 2018.1 Beta 1发行版活动
+description: 本页介绍了2018.1 Beta 1版本在“预览”环境中最近提供的所有更改。 2017年12月1日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta 1发布活动
+# 2018.1 Beta 1发行版活动
 
-本页介绍了2018.1 Beta 1版本预览环境中最近提供的所有更改。 2017年12月1日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
+本页介绍了2018.1 Beta 1版本在“预览”环境中最近提供的所有更改。 2017年12月1日，预览环境中提供了此页面上的功能。 该版本将于2018年3月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.1版中所做所有更改的列表，请参阅  [2018.1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+有关2018.1版中所做所有更改的列表，请参阅  [2018.1版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 1版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
-* [更新了布局模板以支持主页区域](#updated-layout-template-to-support-the-home-area)
+* [已更新布局模板以支持主区域](#updated-layout-template-to-support-the-home-area)
 * [禁用从Workfront发送的校对电子邮件通知](#disable-proofing-email-notifications-sent-from-workfront)
 * [添加到事件订阅的新资源](#new-resources-added-to-event-subscriptions)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
 * [主页区域（已更新我的工作区）](#home-area-updated-my-work-area)
 * [在业务案例和更新的业务案例摘要下显示资源规划者数据](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 您现在可以配置在对验证进行评论时，Workfront实例中的用户是否从Workfront接收电子邮件通知。
 
-以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。 如果在Workfront Proof中还启用了通知，则会导致用户接收重复通知。 
+以前，当对验证进行评论时，始终从Workfront发送验证电子邮件。 如果还在Workfront Proof中启用了通知，则会导致用户收到重复通知。 
 
 对于现有Workfront客户，Workfront默认配置为在对验证进行评论时发送电子邮件。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 在此更改之前，您无法在项目的业务案例中看到资源规划者信息。 您只能查看在传统资源池的Capacity Planner中指定的资源估计信息。
 
-有关创建业务案例的详细信息，请参阅 [为项目创建业务案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+有关创建业务案例的详细信息，请参阅[为项目创建业务案例](../../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
 ## 在资源规划者中显示计划小时数分配的百分比 {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 在此更改之前，您只能在单独的列中查看用户和工作角色的已计划小时数和可用小时数总计。
 
-有关计划小时数分配百分比列的详细信息，请参阅中的“查看资源规划者中的可用小时数和计划小时数或FTE之间的差异”部分 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关计划小时数分配百分比列的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的“查看可用小时数和计划小时数或FTE之间在资源规划者中的差异”部分。
 
 ## “更改时自动更新”和“仅更改”更新类型会在更新任务的同时触发对父对象的更新 {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 在此更改之前，您必须刷新页面以确保父对象和项目时间线也会更新。
 
-有关项目的更新类型的详细信息，请参见 [选择项目更新类型](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+有关项目更新类型的详细信息，请参阅[选择项目更新类型](../../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 ## 甘特图中可用的时间线快照 {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -107,14 +107,14 @@ ht-degree: 0%
 
 在此更改之前，您必须在整个甘特图上水平滚动以找到特定时间点，或者必须缩小粒度视图。
 
-有关信息如何在甘特图中显示的详细信息，请参阅 [配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+有关信息如何在甘特图中显示的详细信息，请参阅[配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
 ## 添加到事件订阅的新资源 {#new-resources-added-to-event-subscriptions}
 
 现在，您可以为以下资源创建事件订阅：
 
-* **费用：** 在添加或修改费用时通知您。
-* **指定任务：** 在用户、工作角色或团队的任务或问题中添加或修改分配时通知您。
-* **时间表：** 在提交、拒绝或批准时间表时通知您。
+* **费用：**&#x200B;在添加或修改费用时通知您。
+* **工作分配：**&#x200B;在用户、工作角色或团队的任务或问题中添加或修改工作分配时通知您。
+* **时间表：**&#x200B;在提交、拒绝或批准时间表时通知您。
 
-要了解有关事件订阅的更多信息，请参阅 [事件订阅API](../../../../wf-api/general/event-subs-api.md).
+若要了解有关事件订阅的更多信息，请参阅[事件订阅API](../../../../wf-api/general/event-subs-api.md)。

@@ -85,19 +85,19 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 
-## 共享对视图的权限 <!--internally-->
+## 共享视图<!--internally-->的权限
 
-您可以共享您创建的视图或您拥有管理权限的视图 <!--with users or groups in Workfront-->.
+您可以共享您创建的视图或您对<!--with users or groups in Workfront-->具有管理权限的视图。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ ht-degree: 1%
 
    这将打开记录类型页面。
 
-1. 在视图选项卡中，将鼠标悬停在要共享的视图上，然后单击 **更多** 菜单 ![](assets/more-menu.png) 视图名称的右侧，然后单击 **共享**.
+1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -120,9 +120,9 @@ ht-degree: 1%
 1. （可选）从以下选项中进行选择以共享视图：
 
    * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户或组。 这是默认选项。
-   * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问视图。
+   * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
-1. 在 **授予查看权限** 字段中，开始键入用户或组的名称，然后在列表中显示该名称或组时单击该名称。  <!--***********replace screen shot below when public sharing is released***********-->
+1. 在&#x200B;**授予对**&#x200B;字段的查看访问权限，开始键入用户或组的名称，然后在列表中显示该名称或组时单击它。 <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ ht-degree: 1%
    * 查看
    * 管理
 
-     有关权限级别以及用户可以在每个级别执行的操作的信息，请参阅 [在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     有关权限级别以及用户可以针对每个级别执行的操作的信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
      系统管理员始终获得对与其共享的视图的管理权限。
 
-1. 单击 **复制链接** 以将指向视图的链接复制到剪贴板。
+1. 单击&#x200B;**复制链接**&#x200B;以将指向视图的链接复制到剪贴板。
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 1. 单击&#x200B;**保存**。
 
    >[!TIP]
    >
-   >   与您共享的视图具有人员指示器 ![](assets/view-shared-with-others-people-icon.png) “视图”图标旁边。 没有人员指示器的视图是您创建的视图。
+   >   与您共享的视图在视图图标旁有一个人员指示符![](assets/view-shared-with-others-people-icon.png)。 没有人员指示器的视图是您创建的视图。
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. 打开要停止共享其视图的工作区，然后单击记录类型卡片。 这将打开记录类型页面。
-1. 将鼠标悬停在要删除共享的视图的选项卡名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **共享**.
-1. 查找要删除的用户或组，然后单击 **移除** 用户或组名称右侧的“权限”下拉菜单中。
-1. 单击 **保存**.
+1. 将鼠标悬停在要删除共享的视图的选项卡名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
+1. 查找要删除的用户或组，然后在用户或组名称右侧的权限下拉菜单中单击&#x200B;**删除**。
+1. 单击&#x200B;**保存**。
 属于已删除组的用户或用户不再具有查看权限。 对于因访问视图而被移除的用户，不会通知他们已失去此访问权限。
 
 <!--Replace the above instructions with the following when public sharing is released: 

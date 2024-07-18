@@ -50,7 +50,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th><strong>首选项</strong> </th> 
-   <th><strong>重置后的状态</strong> </th> 
+   <th>重置后的<strong>状态</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,7 +90,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>用户首选项</td> 
-   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront中可用的事件通知</a>.</p> </td> 
+   <td> <p>已还原为系统默认值</p> <p>电子邮件通知将还原为系统默认值。 默认通知列在Adobe Workfront</a>中可用的<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">事件通知中。</p> </td> 
   </tr> 
   <tr> 
    <td>用户定义的自定义选项卡</td> 
@@ -107,10 +107,10 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 选择 **登录身份**.
+1. 选择&#x200B;**登录身份**。
 1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
-1. 选择  **登录**.
-1. 在Web浏览器顶部的URL字段中添加 `/resetUser` 之后 `workfront.com`.
+1. 选择&#x200B;**登录**。
+1. 在Web浏览器顶部的URL字段中，在`workfront.com`之后添加`/resetUser`。
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ ht-degree: 2%
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. 按 **输入**.
-1. 要重置所有用户首选项，请选择 **重置**.
+1. 按&#x200B;**Enter**。
+1. 要重置所有用户首选项，请选择&#x200B;**重置**。
 
    或
 
-   要仅重置自定义选项卡，请选择 **重置选项卡**.
+   要仅重置自定义选项卡，请选择&#x200B;**重置选项卡**。

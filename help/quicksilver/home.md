@@ -1,6 +1,6 @@
 ---
-title: ’[!DNL Adobe Workfront] 文档
-description: 文档 [!DNL Adobe Workfront].
+title: “[!DNL Adobe Workfront]文档”
+description: ' [!DNL Adobe Workfront]的文档。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Workfront] 文档
+# [!DNL Workfront]文档
 
 欢迎访问Adobe Workfront产品和技术文档主页。 使用以下Adobe Workfront链接、帮助文章和其他资源，了解如何在组织中实施和有效使用Adobe Workfront。
 
@@ -23,14 +23,14 @@ ht-degree: 1%
 * [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB 2024版]
+>[!TAB 2024版本]
 
 * [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB 贝塔斯]
+>[!TAB Betas]
 
 * [画布功能板概述](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [Workfront与Frame.io集成](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
@@ -94,9 +94,9 @@ ht-degree: 1%
 
 ### 探索学习和培训部分
 
-* **培训材料**：导航到 [Workfront培训](https://experienceleague.adobe.com/en/browse/workfront) 页面，其中包含旨在帮助您更好地了解Workfront功能和设置的培训视频和文章。 您还可以通过以下网站获取付费培训材料： [learning.adobe.com](https://learning.adobe.com/).
-* **课程**：查找 [结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 该指南将指导您按逻辑顺序使用各种Workfront功能。
+* **培训资料**：导航到[Workfront培训](https://experienceleague.adobe.com/en/browse/workfront)页面，查看旨在帮助您更好地了解Workfront功能和设置的培训视频和文章库。 您还可以在[learning.adobe.com](https://learning.adobe.com/)访问付费培训材料。
+* **课程**：查找[结构化学习课程](https://experienceleague.adobe.com/home?Solution=Workfront#courses)，这些课程可指导您按逻辑顺序使用各种Workfront功能。
 
 ### 在社区论坛中查找答案
 
-* **提出问题**：如果文档没有回答您的问题，请尝试在中发布 [Workfront社区论坛](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 其他用户和专家可以提供帮助的地方。
+* **提问**：如果文档不能回答您的问题，请尝试在[Workfront社区论坛](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en)中发帖，其他用户和专家可以在其中提供帮助。

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 授予对“主页”区域中对象的访问权限
 
-用户可以请求访问Adobe Workfront中的对象。 有关请求访问的详细信息，请参阅  [请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+用户可以请求访问Adobe Workfront中的对象。 有关请求访问的详细信息，请参阅  [请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)。
 
 如果您是对象的所有者，则可以授予或拒绝对“主页”区域中的项目的访问权限。
 
@@ -71,65 +71,65 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>查看对项目、任务、问题或文档的访问权限或更高版本</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目、任务、问题或文档的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目、任务、问题或文档的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 授予对“主页”区域中对象的访问权限
 
-1. 单击 **主页** 图标 ![](assets/home-icon-30x29.png) 在Adobe Workfront的左上角。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在此例中，单击 **主菜单** ![](assets/main-menu-icon.png) （位于页面的右上角），然后单击 **主页**.
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
 1. （视情况而定）在旧版主页区域中，执行以下操作：
 
-   1. 在 **工作列表**&#x200B;中，选择要管理的访问请求 **审批** 部分。
+   1. 在&#x200B;**工作列表**&#x200B;中，选择要在&#x200B;**审批**&#x200B;部分管理的访问请求。
 
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
    请求将显示在工作列表的右侧。
 
    1. 单击右上角的授予访问权限按钮。\
-      根据请求的访问类型，按钮名称会发生更改。 例如，如果请求者请求“查看”访问权限，则按钮会显示 **授予视图访问权限**.\
+      根据请求的访问类型，按钮名称会发生更改。 例如，如果请求者请求查看权限，则按钮显示&#x200B;**授予查看权限**。\
       ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
 
-   1. （可选）要授予不同于请求的访问级别，请单击授予访问权限按钮旁边的箭头，然后选择新访问权限，然后单击 **授予&lt;权限级别>访问权限>**.\
+   1. （可选）要授予不同于请求的访问级别，请单击“授予访问权限”按钮旁边的箭头并选择新的访问权限，然后单击&#x200B;**授予&lt;权限级别>访问权限>**。\
       将显示一条消息，确认已授予访问权限。
 
-   1. （可选）单击 **忽略** 以拒绝访问。\
+   1. （可选）单击&#x200B;**忽略**&#x200B;以拒绝访问。\
       出现一条消息，确认访问被忽略。
 
 1. （视情况而定）在新的“主页”区域中，执行以下操作：
 
-   1. 转到 **等待我的审批** 小组件并查找有关更多访问权限的请求，然后单击 **授予访问权限**.
+   1. 转到&#x200B;**等待我的审批**&#x200B;构件并查找有关更多访问权限的请求，然后单击&#x200B;**授予访问权限**。
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. （可选）要授予不同于请求的访问级别，请单击“授予访问权限”按钮左侧的下拉菜单，然后选择新访问权限，然后单击 **授予访问权限**.
+   1. （可选）要授予不同于请求的访问级别，请单击“授予访问权限”按钮左侧的下拉菜单，选择新的访问权限，然后单击&#x200B;**授予访问权限**。
 
       访问请求被授予并从批准请求列表中消失。
 
-   1. （可选）单击 **忽略** 以拒绝访问。 访问请求未被授予，并且该请求从批准请求列表中消失。
+   1. （可选）单击&#x200B;**忽略**&#x200B;以拒绝访问。 访问请求未被授予，并且该请求从批准请求列表中消失。
 
 ## 配置请求的电子邮件通知
 
-您可以配置是否接收访问请求的电子邮件通知。 您的Workfront管理员可以禁用此功能（如中所述） [为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))。
+您可以配置是否接收访问请求的电子邮件通知。 Workfront管理员可以禁用此功能（如[为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)中所述）。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **偏好设置**，或滚动到首选项部分。
-1. 在 **发送电子邮件时** 下拉列表，选择或取消选择 **有人向我请求访问权限**，具体取决于您是否希望在另一用户向您请求访问权限时收到电子邮件通知。
+1. 单击&#x200B;**首选项**，或滚动到“首选项”部分。
+1. 在&#x200B;**何时向我发送电子邮件**&#x200B;下拉列表中，选择或取消选择&#x200B;**某人向我请求访问权限**，具体取决于您是否希望在其他用户向您请求访问权限时接收电子邮件通知。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。

@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 0%
 >
 >如果您的组织当前正在使用默认API，则Workfront管理员已收到Announcement Center消息，该消息包含有关默认API的更多说明。
 
-要了解如何在API请求中指定版本，请参阅 [在您的集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md).
+要了解如何在API请求中指定版本，请参阅[在集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md)。
 
 ## 使用默认API时的注意事项
 
 使用Workfront默认API时，请考虑以下事项：
 
-* API的默认版本为最新版本。 任何未指定版本的API调用都将使用默认版本。 每当Workfront发布API的新版本时，默认版本都将更新为最新版本。 **因此，在发布Workfront API的新版本后，应该检查任何使用默认版本的API调用，以确保仍然支持该功能**.
+* API的默认版本为最新版本。 任何未指定版本的API调用都将使用默认版本。 每当Workfront发布API的新版本时，默认版本都将更新为最新版本。 **因此，在发布Workfront API的新版本后，应检查任何使用默认版本的API调用，以确保仍然支持该功能**。
 * 如果您的组织当前正在使用以前弃用的默认API，则Workfront管理员已收到一条公告中心消息，其中包含有关默认API的更多说明。
 
-要查看API的最新版本，请参阅 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
+若要查看API的最新版本，请参阅[API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md)。
 
 ## 将集成更新到支持的API版本
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-在更新Workfront API请求时，您可以指定我们的API的任何受支持版本。 要了解有关引用特定API的更多信息，请参阅 [在您的集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md).
+在更新Workfront API请求时，您可以指定我们的API的任何受支持版本。 要了解有关引用特定API的更多信息，请参阅[在您的集成中指定API版本](../../wf-api/api/specify-api-version-integrations.md)。
 
-要确保获得最大的支持窗口，应调用最新版本。 您可在中找到支持的API列表 [API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md).
+要确保获得最大的支持窗口，应调用最新版本。 您可以在[API版本控制和支持计划](../../wf-api/api/api-version-support-schedule.md)中找到支持的API列表。
 
 ## API默认版本的历史记录
 

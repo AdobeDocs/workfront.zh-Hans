@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了2023年第四季度版本与预览环境集成的所有增强功能。 这些增强功能在23.10版本的生产环境中提供。
 
-有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅 [2023年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+有关2023年第四季度发布周期中此时可用的所有更改列表，请参阅[ 2023年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。
 
 ## 增强将文档发送到SharePoint (GraphAPI)时的体验
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * “收件人”窗口现在最多可显示500个站点、文件夹和文档。
 * 现在，搜索结果会为SharePoint站点和文件夹显示不同的图标，以清楚地显示哪些结果为站点以及哪些结果为文件夹。 文件不显示图标。
 
-有关更多信息，请参阅 [通过新的SharePoint集成链接文档](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+有关详细信息，请参阅[通过新的SharePoint集成链接文档](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration)。
 
 ## 文档集成的拖放升级功能
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 这些更改会影响所有文档集成，包括Adobe Experience Manager和SharePoint。
 
-有关更多信息，请参阅 [在Experience Manager Assets中将文档移动到链接的文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md#move-a-document-to-a-linked-folder-in-experience-manager-assets).
+有关详细信息，请参阅[在Experience Manager Assets中将文档移动到链接的文件夹](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md#move-a-document-to-a-linked-folder-in-experience-manager-assets)。

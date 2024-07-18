@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日这一周。
 
-有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 移动应用程序中的验证文档的绘图和注释
 

@@ -31,13 +31,13 @@ ht-degree: 1%
 >
 >在保存对布局模板所做的更改后，该布局模板上的用户将会更改其新主页以匹配布局模板，并且其现有的构件选择将推送到页面底部。 虽然管理员选择的构件可以由用户重新定位并调整大小，但无法删除它们。
 
-有关新主页的信息，请参见 [新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+有关新主页的信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
-有关创建布局模板的信息，请参阅 [创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md).
+有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
-有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关为用户分配布局模板的信息，请参阅 [将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md).
+配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 访问要求
 
@@ -58,18 +58,18 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。
-要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 使用布局模板自定义新主页
 
-1. 开始使用布局模板，如中所述 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击向下箭头 ![](assets/dropdown-arrow.png) 下 **自定义用户查看内容**，然后单击 **主页Workspace**.
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**主页Workspace**。
 
-1. 在右侧显示的选项卡中，单击 **设计和布局** 选择并排列小部件和背景，或者 **构件设置** 用于管理单个小组件的设置，如可用过滤器和组。
+1. 在右侧显示的选项卡中，单击&#x200B;**设计和布局**&#x200B;以选择和排列小部件和背景，或单击&#x200B;**小部件设置**&#x200B;以管理单个小部件的设置，如可用的筛选器和组。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,8 +79,8 @@ ht-degree: 1%
       <td role="rowheader">设计和布局</td> 
       <td>
       <p>选择用户工作区中将显示哪些小部件、这些小部件的位置，并选择背景。 请注意，虽然用户无法删除选定的构件，但可以随意移动和调整其大小以及添加其他构件。</p>
-      <p>此选项卡基本上可用作小型的新Home工作区；因此，可以根据中所述的步骤对其进行自定义 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">在新主页中添加、编辑或删除构件</a>. 选择小组件并根据用户需要安排工作区。</p>
-      <p>要更改背景，请执行以下步骤 <b>后台自定义</b> 在 <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">新主页入门</a>.</p>
+      <p>此选项卡基本上可用作小型的新主页工作区；因此，可以根据<a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新主页中添加、编辑或删除小组件</a>中描述的步骤对其进行自定义。 选择小组件并根据用户需要安排工作区。</p>
+      <p>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">开始使用新主页</a>中的<b>背景自定义</b>下的步骤操作。</p>
       <p>
 
 >[!NOTE]
@@ -99,7 +99,7 @@ ht-degree: 1%
         <li>我的任务</li>
         <li>我的问题</li>
       </ul>
-      <p>选择想要编辑的小组件后，右侧将显示可用选项。 这些选项包括 <b>过滤器</b>， <b>列</b>、和 <b>组</b>. 您可以：</p>
+      <p>选择想要编辑的小组件后，右侧将显示可用选项。 这些选项包括<b>筛选器</b>、<b>列</b>和<b>组</b>。 您可以：</p>
       <ul>
       <li><p><b>选择并排序可供用户使用的筛选器、列或组：</b></p>
       <p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。 拖放列表中的选项以设置顺序。</li></p>
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    或
 
-   如果您已完成自定义，请单击 **保存** 左下角。
+   如果您已完成自定义，请单击左下角的&#x200B;**保存**。
 
 
 >[!NOTE]

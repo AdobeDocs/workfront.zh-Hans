@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 使用Adobe Workfront插件记录时间
-description: 您可以直接在Adobe Creative Cloud应用程序中记录正在处理的项目、任务和问题的时间。
+description: 您可以直接在Adobe Creative Cloud应用程序中记录您正在处理的项目、任务和问题的时间。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Adobe Workfront] 插件
+# 使用[!DNL Adobe Workfront]插件记录时间
 
-您可以通过以下任一方式直接记录正在处理的项目、任务和问题的时间 [!DNL Adobe Creative Cloud] 应用程序：
+您可以在以下[!DNL Adobe Creative Cloud]应用程序的任何一个中直接记录您正在处理的项目、任务和问题的时间：
 
 {{cc-app-list}}
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,16 +41,16 @@ ht-degree: 0%
   </tr> -->
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[!UICONTROL Edit]对任务或问题的访问权限</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]对任务或问题的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL日志小时数]权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>[！UICONTROL日志小时数]对任务或问题的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
@@ -58,22 +58,22 @@ ht-degree: 0%
 
 ## 使用Adobe Workfront插件记录时间
 
-的 [!DNL Workfront] 管理员确定哪些特定于项目的小时类型可用，如 [管理小时类型](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+[!DNL Workfront]管理员确定哪些项目特定的小时类型可用，如[管理小时类型](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)中所述。
 
 要使用Workfront插件记录时间，请执行以下操作：
 
-1. 单击 **[!UICONTROL 菜单]** 图标，然后选择 **[!UICONTROL 工作列表]**. 您还可以使用菜单导航到父对象。
+1. 单击右上角的&#x200B;**[!UICONTROL 菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 工作列表]**。 您还可以使用菜单导航到父对象。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 从 **[!UICONTROL 工作列表]**，选择您需要记录时间的工作项。
-1. 单击 **[!UICONTROL 时间]** 中。
+1. 从&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，选择需要记录时间的工作项。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 时间]**。
 
    ![](assets/log-time-350x337.png)
 
-1. （可选）选择 **[!UICONTROL 小时类型]** 下拉菜单中。
-1. 输入所需日期的时间（以小时为单位）。
+1. （可选）从下拉菜单中选择&#x200B;**[!UICONTROL 小时类型]**。
+1. 输入当天所需的时间（小时）。
 
    ![](assets/copy-of-log-hours-350x236.png)
 
-1. 单击 **[!UICONTROL 提交]**.
+1. 单击&#x200B;**[!UICONTROL 提交]**。

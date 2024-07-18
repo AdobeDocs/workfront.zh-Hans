@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关更多信息，请参阅 [报告更新区域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>您可以构建一个报表，以使用日记条目报表在预览中查看对象的更新。 有关详细信息，请参阅[更新区域报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 
 ## 访问要求
 
@@ -60,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*有关信息，请参阅 [Adobe Workfront中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Adobe Workfront中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 创建注释报告
 
@@ -68,26 +68,26 @@ ht-degree: 0%
 
 例如，要为项目中的所有注释创建注释报告：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **报表**.
-1. 单击 **新建报告**，然后选择 **注意**.
+1. 单击&#x200B;**报告**。
+1. 单击&#x200B;**新建报告**，然后选择&#x200B;**注释**。
 
-1. （可选）单击 **视图**，则 **添加列** 添加 **名称** 的 **项目** 从报告中可以看出。 
+1. （可选）单击&#x200B;**视图**，然后单击&#x200B;**添加列**&#x200B;以将&#x200B;**项目**&#x200B;的&#x200B;**名称**&#x200B;添加到报表的视图中。 
 
-1. （可选）单击 **分组**，则 **添加分组** 分组依据 **项目名称**，如果同时报告多个项目。\
+1. （可选）如果要同时报告多个项目，请单击&#x200B;**分组**，然后单击&#x200B;**将分组**&#x200B;按&#x200B;**项目名称**&#x200B;添加到分组。\
    这可确保按其各自的项目对注释进行分组，从而使报告更易于阅读。 
 
-1. （可选）单击 **筛选器，** 则 **添加筛选器规则**.
-1. 添加筛选条件 **注意** > **注释文本** > **不为空**.
+1. （可选）单击&#x200B;**筛选器，**，然后单击&#x200B;**添加筛选器规则**。
+1. 为&#x200B;**注释** > **注释文本** > **添加筛选器不是空白的**。
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   如果更新了项目字段，但在更新时没有添加注释，则 **注释文本** 的更新显示为 **（未向更新添加文本）**.
+   >   如果项目字段已更新，但在更新时未添加任何注释，则更新的&#x200B;**注释文本**&#x200B;将显示为&#x200B;**（未向更新添加文本）**。
 
 
-1. （可选）添加另一个过滤器 **项目** > **名称** > **等于** 并添加一个或多个要查看其注释的项目名称。
-1. 单击 **保存+关闭**.\
+1. （可选）为&#x200B;**项目** > **名称** > **等于**&#x200B;添加另一个筛选器，并添加一个或多个要查看其注释的项目名称。
+1. 单击&#x200B;**保存+关闭**。\
    所有至少具有查看权限的用户在项目中输入的所有更新都会显示在报表中。

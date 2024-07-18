@@ -30,11 +30,11 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
 
 * 删除的项目、任务和问题
 
-有关Workfront管理员如何解锁时间表和小时首选项的信息，请参阅部分 [解锁组的工时表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关Workfront管理员如何解锁时间表和小时首选项的信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)文章中的[解锁组的时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock)部分。
 
 >[!TIP]
 >
->对于项目首选项以及任务和问题首选项，也可以使用组级别配置。 有关信息，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>对于项目首选项以及任务和问题首选项，也可以使用组级别配置。 有关信息，请参阅[配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
 ## 访问要求
 
@@ -52,12 +52,12 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
 +++
 
@@ -73,7 +73,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
   Add example here?
   -->
 
-* Workfront管理员在系统级别解锁首选项并为您的组配置后，您随后可以锁定该首选项以确保您组下的每个用户都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关更多信息，请参阅 [锁定或解锁组时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Workfront管理员在系统级别解锁首选项并为您的组配置后，您随后可以锁定该首选项以确保您组下的每个用户都使用相同的配置。 此功能与Workfront管理员为系统中的每个人配置和锁定首选项的功能相同。 有关详细信息，请参阅[锁定或解锁组时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)。
 
 ## 为组配置未锁定的时间表或小时首选项
 
@@ -81,14 +81,14 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
 >
 >如果您是Workfront管理员，可以绕过步骤1-4，方法是转到设置>时间表和小时数>首选项，然后在页面顶部的框中搜索组的名称。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **组** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
 1. 单击要配置其时间表或小时首选项的组的名称。
-1. 在左侧面板中，单击 **时间表和小时数**.
+1. 在左侧面板中，单击&#x200B;**时间表和小时数**。
 
-1. 在显示的页面上，在 **常规首选项** 部分，配置以下任一选项：
+1. 在显示的页面上，在&#x200B;**常规首选项**&#x200B;部分中，配置以下任意选项：
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
        <li>他们的工时表作为常规时间</li>
        </ul> 
        <p>当用户计划离开办公室并希望提前记录时间时，这将很有用。</p> 
-       <p><b>注意</b>：您无法阻止用户记录已关闭或已取消的任务或问题的时间。 您只能阻止用户记录完成项目或停止项目的时间。 我们建议您在任务和问题列表中使用过滤器，以排除已完成或取消的任务和问题，以免用户看到它们。</p> </td> 
+       <p><b>注意</b>：您无法阻止用户登录已关闭或已取消的任务或问题。 您只能阻止用户记录完成项目或停止项目的时间。 我们建议您在任务和问题列表中使用过滤器，以排除已完成或取消的任务和问题，以免用户看到它们。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">从时间表添加费用</td> 
@@ -116,7 +116,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
      </tr> 
      <tr> 
       <td role="rowheader">手动将工作角色分配给小时条目</td> 
-      <td> <p>允许用户手动选择在其用户配置文件中分配或分配给对象的任意工作角色。</p> <p><b>重要</b>：  
+      <td> <p>允许用户手动选择在其用户配置文件中分配或分配给对象的任意工作角色。</p> <p><b>重要信息</b>：  
         <ul> 
          <li>如果在将工作角色分配给小时条目后禁用此设置，则用户必须在项目、任务或问题的小时选项卡上调整在各种角色下记录的小时数。</li> 
          <li>如果用户未在其配置文件中分配工作角色，并且在“高级分配”对话框中有任务被分配为任务所有者，则当用户登录该任务的时间时，将显示该工作角色。</li> 
@@ -138,7 +138,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
     </tbody> 
    </table>
 
-1. 在 **用户可以记录时间的位置** 部分，配置以下任一选项：
+1. 在&#x200B;**用户可以记录时间**&#x200B;部分中，配置以下任意选项：
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
    >
    >此首选项根据用户主组首选项的配置应用。 如果在用户的主组首选项中启用了这些设置，则无论项目的组首选项是否允许，他们都将能够直接将时间记录到项目（包括已完成或停止的项目）上。
 
-1. 在 **预填充工时表** 部分，配置以下任一选项：
+1. 在&#x200B;**预填充工时表**&#x200B;部分中，配置以下任一选项：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">工作范围 &lt;number of="" weeks=""&gt; 工时表的工作范围</td> 
+      <td role="rowheader">在时间表工作范围&lt;周数&gt;内的工作</td> 
       <td> <p>定义包含分配给用户的任务和问题日期的时间表日期范围之前和之后的周数。 默认设置为1周，您可以将此范围扩展到4周。 这意味着在为时间表日期范围选择4周后，在时间表日期范围之前的4周到时间表日期范围之后的4周之间的任何时间，都会预填充时间表的任务和问题。 </p> </td> 
      </tr> 
      <tr> 

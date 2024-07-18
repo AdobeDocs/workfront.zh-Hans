@@ -50,7 +50,7 @@ ht-degree: 0%
    </td>
    <td>编辑对文档的访问权限
 <p>
-<strong>注意： </strong>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <strong>创建或修改自定义访问级别</strong>.
+<strong>注意：</strong>如果您仍然没有访问权限，请询问Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<strong>创建或修改自定义访问级别</strong>。
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 0%
    </td>
    <td>管理项目中的访问权限或更高版本 
 <p>
-有关请求其他访问权限的信息，请参阅 <strong>请求访问对象 </strong>.
+有关请求其他访问权限的信息，请参阅<strong>请求访问对象</strong>。
    </td>
   </tr>
 </table>
@@ -67,27 +67,27 @@ ht-degree: 0%
 
 开始之前，
 
-* 您的Workfront管理员必须在Adobe Experience Manager集成中配置工作流。 有关更多信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* 您的Workfront管理员必须在Adobe Experience Manager集成中配置工作流。 有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)。
 
 ## 将工作流添加到模板
 
 您可以将工作流添加到项目模板。 该工作流将应用于从该模板创建的任何项目。
 
-1. 通过单击打开模板 **模板** 在主菜单中，然后从列表中选择模板。
-1. 单击 **Experience Manager Assets** （在左侧导航面板中）。
+1. 在主菜单中单击&#x200B;**模板**，然后从列表中选择模板以打开模板。
+1. 在左侧导航面板中单击&#x200B;**Experience Manager Assets**。
 
    >[!NOTE]
    >
-   >如果Experience Manager Assets部分在左侧导航中不可见，则表示Workfront管理员尚未为贵组织启用工作流。 <!--Is this right?-->
+   >如果Experience Manager Assets部分在左侧导航中不可见，则表示Workfront管理员尚未为贵组织启用工作流。<!--Is this right?-->
 
-1. 在 **为自动化工作流字段选择集成**，选择与要用于从此模板创建的项目的工作流的集成。
+1. 在&#x200B;**为自动化工作流选择集成**&#x200B;字段中，选择要用于从此模板创建的项目的工作流的集成。
 1. （可选）编辑要应用于从此模板创建的项目的任何工作流值。
 
-   有关特定工作流的说明，请参阅 [编辑项目中的工作流值](#edit-workflow-values-in-a-project) 本文章中。
+   有关特定工作流的说明，请参阅本文中的[编辑项目中的工作流值](#edit-workflow-values-in-a-project)。
 
    只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
 
-1. 您的更改会自动保存。 <!-- do they though??-->
+1. 您的更改会自动保存。<!-- do they though??-->
 
 ## 将工作流添加到项目
 
@@ -97,10 +97,10 @@ ht-degree: 0%
 
 1. 开始创建项目。
 
-   有关说明，请参阅 [使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   有关说明，请参阅[使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)。
 
 1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
-1. （可选）编辑项目的任何工作流值，如中所述 [编辑项目中的工作流值](#edit-workflow-values-in-a-project).
+1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
    只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 1. 开始向项目中添加模板。
 
-   有关说明，请参阅 [将模板附加到项目](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   有关说明，请参阅[将模板附加到项目](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
 
 1. 为项目选择模板时，请选择包含要用于此项目的工作流的模板。
-1. （可选）编辑项目的任何工作流值，如中所述 [编辑项目中的工作流值](#edit-workflow-values-in-a-project).
+1. （可选）编辑项目的任何工作流值，如[编辑项目中的工作流值](#edit-workflow-values-in-a-project)中所述。
 
    只有已在“设置”的“Experience Manager”区域中激活的工作流才能在模板或项目中使用。
 
@@ -147,11 +147,11 @@ ht-degree: 0%
 要编辑链接文件夹的工作流，请执行以下操作：
 
 
-1. 切换 **[!UICONTROL 创建链接文件夹]** 根据需要打开或关闭。 如果您将其打开，则可以编辑链接的文件夹配置。
+1. 根据需要打开或关闭&#x200B;**[!UICONTROL 创建链接文件夹]**。 如果您将其打开，则可以编辑链接的文件夹配置。
 
-   有关链接文件夹配置的详细信息，请参阅 [创建Adobe Experience Manager链接文件夹](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 在文章中 [配置 [!UICONTROL Experience Manager Assetsas a Cloud Service] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   有关链接文件夹配置的详细信息，请参阅[配置[!UICONTROL Adobe Experience Manageras a Cloud Service]集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)一文中的[创建Experience Manager Assets链接文件夹](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)。
 
-1. （可选）如果您希望仅当附加到项目的自定义表单中存在某些值时才构建文件夹树，请单击 **应用筛选器** 对于该文件夹树，然后选择包含字段、字段和字段值的自定义表单。 如果附加到新项目的自定义表单上的字段包含所选值，则将创建文件夹树。
+1. （可选）如果您希望仅当附加到项目的自定义表单中存在某些值时才构建文件夹树，请单击该文件夹树的&#x200B;**应用过滤器**，然后选择包含字段、字段和字段值的自定义表单。 如果附加到新项目的自定义表单上的字段包含所选值，则将创建文件夹树。
 1. （可选）配置文件夹名称时，您可以从以下选项中进行选择：
 
    * **名称**：键入文件夹的名称。
@@ -164,13 +164,13 @@ ht-degree: 0%
 
      如果文件夹名称设置为自定义数据，该数据在附加到项目的自定义中不存在，则将随机分配ID作为文件夹名称。
 
-1. 要查看文件夹树，请单击 **预览** ![“预览”图标](assets/preview-icon.png) 图标
+1. 要查看文件夹树，请单击&#x200B;**预览** ![预览图标](assets/preview-icon.png)图标
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 #### 发布资产
 
 要编辑用于发布资产的工作流，请执行以下操作：
 
-1. 切换 **自动发布资源** 根据需要打开或关闭。
+1. 根据需要自动打开或关闭&#x200B;**Publish资源**。
 1. （视情况而定）如果您正在启用发布，请选择是要发布到发布服务还是Brand Portal或两者。
 1. 单击&#x200B;**[!UICONTROL 保存]**。

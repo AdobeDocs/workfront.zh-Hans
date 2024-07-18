@@ -19,4 +19,4 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [组与中的团队 [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [ [!DNL Adobe Workfront]中的组与团队](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

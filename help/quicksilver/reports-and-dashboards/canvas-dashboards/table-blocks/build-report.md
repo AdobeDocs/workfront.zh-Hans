@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关详细信息，请参阅[报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 构建报告
 
@@ -25,17 +25,17 @@ ht-degree: 0%
 >
 >当您在报表中构建和编辑块时，会自动保存所有更改。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **报表**.
-1. 单击 **新报告**.
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**新建报告**。
 1. 在编辑画布的左上角，键入报表的名称。
 
-   您可以随时更改报表的名称，只需单击 **编辑** 图标 ![](assets/edit-icon.png) 在名称旁边。
+   您可以随时更改报表的名称，方法是单击报表名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
 1. 从屏幕右侧，将要添加的块拖动到画布上。
 
    >[!TIP]
    >
-   >在任何时候，单击 **预览** （位于右上角），以查看报表在编辑模式之外的外观。
+   >在任何时候，单击右上角的&#x200B;**预览**&#x200B;查看报表在编辑模式之外的外观。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -43,11 +43,11 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">表 <img src="assets/table-icon.png"></td> 
-      <td> <p>添加以列显示字段数据的表。</p> <p>有关更多信息，请参阅 <a href="../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md" class="MCXref xref">在报告画布中添加或编辑表块</a>.</p> </td> 
+      <td> <p>添加以列显示字段数据的表。</p> <p>有关详细信息，请参阅<a href="../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md" class="MCXref xref">在报告画布</a>中添加或编辑表块。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">可视化 <img src="assets/visualization-icon.png"></td> 
-      <td> <p>根据表块中的数据添加数据可视化。</p> <p>有关更多信息，请参阅 <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">在报表画布中添加或编辑可视化图表块</a>.</p> </td> 
+      <td> <p>根据表块中的数据添加数据可视化。</p> <p>有关详细信息，请参阅<a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">在报表画布</a>中添加或编辑可视化图表块。</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">叙述</td> 
@@ -55,7 +55,7 @@ ht-degree: 0%
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Web内容</td> 
-      <td> <p>在报表中添加外部源（如网页）。</p> <p>有关更多信息，请参阅 <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">在报告画布中添加或编辑Web内容块</a>.</p> </td> 
+      <td> <p>在报表中添加外部源（如网页）。</p> <p>有关详细信息，请参阅<a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">在报告画布中添加或编辑Web内容块</a>。</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">画布过滤器</td> 
@@ -72,19 +72,19 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">编辑块</td> 
-      <td> <p>单击 <strong>“编辑”图标</strong> 在街区上。</p> <p>有关配置特定类型的块的信息，请单击上表中的相关链接。</p> </td> 
+      <td> <p>单击块上的<strong>编辑图标</strong>。</p> <p>有关配置特定类型的块的信息，请单击上表中的相关链接。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">复制块</td> 
-      <td>单击 <strong>更多菜单</strong> 图标 <img src="assets/more-icon.png"> 在块的标题上，然后选择 <strong>复制块</strong>.</td> 
+      <td>单击块标题上的<strong>更多菜单</strong>图标<img src="assets/more-icon.png">，然后选择<strong>复制块</strong>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除块</td> 
-      <td>单击 <strong>更多菜单</strong> 图标 <img src="assets/more-icon.png"> 在块的标题上，然后选择 <strong>删除块</strong>.</td> 
+      <td>单击块标题上的<strong>更多菜单</strong>图标<img src="assets/more-icon.png">，然后选择<strong>删除块</strong>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">重新定位块</td> 
-      <td> 选择一个块，然后单击并拖动手柄 <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> 块左上角的可将其移动到其他块的上方、下方或旁边。</td> 
+      <td> 选择一个块，然后单击并拖动该块左上角的手柄<img src="assets/widget-drag-icon.png" style="max-width: 16px;">将其移动到另一个块的上方、下方或旁边。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -97,15 +97,15 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">在Workfront中共享</td> 
-      <td> <p>单击 <strong>共享</strong> 以授予特定用户访问报告的权限。</p> </td> 
+      <td> <p>单击右上角的<strong>共享</strong>，授予特定用户访问报告的权限。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">导出为文件</td> 
-      <td>离开编辑窗格后，单击 <strong>更多菜单</strong> 图标 <img src="assets/more-icon.png"> 在报表名称旁边，然后选择 <strong>导出</strong>.</td> 
+      <td>离开编辑窗格后，单击报表名称旁边的<strong>更多菜单</strong>图标<img src="assets/more-icon.png">，然后选择<strong>导出</strong>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">收藏报表</td> 
-      <td>离开编辑窗格后，单击 <strong>星形</strong> 图标（位于报表名称旁）以将其添加到收藏报表列表中。</td> 
+      <td>离开编辑窗格后，单击报表名称旁边的<strong>星形</strong>图标以将其添加到收藏报表列表中。</td> 
      </tr> 
     </tbody> 
    </table>

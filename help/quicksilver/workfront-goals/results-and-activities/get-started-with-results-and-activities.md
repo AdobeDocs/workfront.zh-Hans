@@ -24,7 +24,7 @@ ht-degree: 0%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-在创建目标时，目标的状态为“草稿”。 有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+在创建目标时，目标的状态为“草稿”。 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
 要开始记录目标的进度，必须激活目标。 要激活目标并将其状态更改为“活动”，您必须首先向其添加以下内容：
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 > 一个目标不能包含超过1000个活动、结果、项目或一致的目标。</span>
 
-本文概述了各项活动和成果。 有关对齐目标的信息，请参阅 [Adobe Workfront目标中的目标对齐方式](../../workfront-goals/goal-alignment/goal-alignment.md). 有关将项目连接到目标的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../results-and-activities/connect-projects-to-goals-overview.md).
+本文概述了各项活动和成果。 有关对齐目标的信息，请参阅Adobe Workfront目标中的[目标对齐方式](../../workfront-goals/goal-alignment/goal-alignment.md)。 有关将项目连接到目标的信息，请参阅[在Adobe Workfront目标中添加项目](../results-and-activities/connect-projects-to-goals-overview.md)。
 
 ## 结果概述
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 结果会衡量目标的进度或实现目标的接近度。 作为目标所有者，您还可以拥有结果。 目标的结果也可能分配给其他用户。
 
-有关将结果添加到目标的信息，请参阅 [将结果添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+有关将结果添加到目标的信息，请参阅[在Adobe Workfront目标中添加结果](../../workfront-goals/results-and-activities/add-results-to-goals.md)。
 
 您可以将结果添加到您自己的目标或属于组织中其他实体的目标中。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    * 数字
    * 百分比
 
-有关结果的更多信息，请参阅部分中的结果和活动之间的相似之处列表 [结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects) 本文章中。
+有关结果的更多信息，请参阅本文中[结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects)部分中的结果和活动之间的相似性列表。
 
 ## 活动概述
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 活动（如结果）是具体且可测量的，通常包括完成百分比指标。 作为目标所有者，您还可以拥有与该目标关联的活动。 目标上的活动也可能被分配给其他用户。
 
-有关将活动添加到目标的信息，请参阅 [将活动添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+有关将活动添加到目标的信息，请参阅[在Adobe Workfront目标中添加活动](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。
 
 将活动与您的目标关联时，请考虑以下事项：
 
@@ -115,15 +115,15 @@ This will have additional types in the future - add another section for types?
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-有关结果和活动的更多信息，请参阅部分中的结果和活动之间的相似性列表 [结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects) 本文章中。
+有关结果和活动的详细信息，请参阅本文中[结果、活动和项目之间的相似性](#similarities-between-results-activities-and-projects)部分中的结果和活动之间的相似性列表。
 
 ## 结果、活动和项目之间的相似性 {#similarities-between-results-activities-and-projects}
 
 成果、活动和项目都是目标进度指标。
 
-您管理项目的方式与管理结果和活动的方式有一些差异。 有关将项目添加到目标的信息，请参阅 [将活动添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 有关连接到目标的项目的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+您管理项目的方式与管理结果和活动的方式有一些差异。 有关将项目添加到目标的信息，请参阅[在Adobe Workfront目标中将活动添加到目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。 有关连接到目标的项目的信息，请参阅[在Adobe Workfront目标中添加项目](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 
-除了结果、活动和项目之外，您还可以将子目标关联到目标。 子目标也是目标的一种进度指示器。 有关信息，请参阅 [通过在Adobe Workfront目标中连接目标来调整目标](../goal-alignment/align-goals-by-connecting-them.md). 子目标的进度指示器的进度也会推动父目标的进度。
+除了结果、活动和项目之外，您还可以将子目标关联到目标。 子目标也是目标的一种进度指示器。 有关信息，请参阅[通过在Adobe Workfront目标中连接目标来调整目标](../goal-alignment/align-goals-by-connecting-them.md)。 子目标的进度指示器的进度也会推动父目标的进度。
 
 下表显示了结果、活动和项目之间的异同，作为目标指标：
 

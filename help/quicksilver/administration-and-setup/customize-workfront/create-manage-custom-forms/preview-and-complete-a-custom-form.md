@@ -39,30 +39,30 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>.</p> </td> 
+   <td> <p>对自定义表单的管理访问权限</p> <p>有关Workfront管理员如何授予此访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问级别配置，请与Workfront管理员联系。
+&#42;要了解您拥有什么计划、许可证类型或访问级别配置，请与Workfront管理员联系。
 
 ## 预览并完成自定义表单的创建
 
-1. 开始创建和配置自定义表单，如文章中所述 [使用旧版表单生成器创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)， [使用旧版表单生成器将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)， [使用旧版表单生成器添加或编辑自定义表单中的资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)和其他。
+1. 开始创建和配置自定义表单，如文章中所述，[使用旧版表单生成器创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)，[使用旧版表单生成器将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)，[使用旧版表单生成器添加或编辑自定义表单中的资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)等。
 
-1. （可选）单击 **预览** 查看表单在使用时的外观，然后单击 **结束预览** 以返回编辑表单。
+1. （可选）单击&#x200B;**预览**&#x200B;查看表单在使用时的外观，然后单击&#x200B;**结束预览**&#x200B;返回编辑表单。
 
-1. 单击 **保存+关闭** 以保存更改。
+1. 单击&#x200B;**保存+关闭**&#x200B;以保存更改。
 
    或
 
-   如果不想将更改保留在表单上，请单击 **取消**，然后单击 **继续并关闭**.
+   如果不想在表单上保留更改，请单击&#x200B;**取消**，然后单击&#x200B;**继续并关闭**。
 
    >[!NOTE]
    >
    >如果表单已附加到许多对象，则可能需要几分钟才能将更改应用到所有这些对象。 此过程在后台进行，因此您可以在等待时处理Workfront中的其他任务。
 
-1. （可选）将表单添加到要从中使用表单的Workfront对象，如中所述 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （可选）按照[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中的说明，将表单添加到要使用的Workfront对象中。
 
    如果常规用户拥有对象的管理权限，也可以执行此操作。
 

@@ -1,23 +1,23 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 搜索 [!DNL Adobe Workfront] 项目来源 [!DNL Slack]
-description: 您可以搜索 [!DNL Adobe Workfront] 项目来源 [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 应用程序安装。
+title: 搜索来自 [!DNL Slack]的 [!DNL Adobe Workfront] 项
+description: 您可以从已安装的 [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 应用搜索 [!DNL Adobe Workfront] 项目。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
 
-# 搜索 [!DNL Adobe Workfront] 项目来源 [!DNL Slack]
+# 从[!DNL Slack]搜索[!DNL Adobe Workfront]项
 
-您可以搜索 [!DNL Adobe Workfront] 项目来源 [!DNL Slack]，如果您的实例 [!DNL Slack] 已经 [!DNL Workfront] 应用程序安装。
+如果您的[!DNL Slack]实例安装了[!DNL Workfront]应用，则可以从[!DNL Slack]搜索[!DNL Adobe Workfront]项。
 
-有关配置的更多信息 [!DNL Workfront] with [!DNL Slack]，请参阅 [配置 [!DNL Adobe Workfront] 表示 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+有关使用[!DNL Slack]配置[!DNL Workfront]的详细信息，请参阅[为 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)配置 [!DNL Adobe Workfront] 。
 
 ## 访问要求
 
@@ -30,27 +30,27 @@ ht-degree: 6%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 计划]</a>*</td> 
-   <td> <p>[!UICONTROL Pro]或更高版本</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]计划]</a>*</td> 
+   <td> <p>[！UICONTROL Pro]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员\
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。\
 
 ## 先决条件
 
-在搜索之前 [!DNL Workfront] 项目来源 [!DNL Slack]，您必须
+在从[!DNL Slack]中搜索[!DNL Workfront]项之前，您必须
 
-* 配置 [!DNL Workfront] 表示 [!DNL Slack]\
-   有关配置的说明 [!DNL Workfront for Slack]，请参阅 [配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* 为[!DNL Slack]配置[!DNL Workfront]\
+   有关配置[!DNL Workfront for Slack]的说明，请参阅[配置 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-## 搜索 [!DNL Workfront] 项目来源 [!DNL Slack]:
+## 从[!DNL Slack]搜索[!DNL Workfront]项：
 
-1. 登录到 [!DNL Slack] 实例和登录到 [!DNL Workfront] 从 [!DNL Slack].\
-   有关登录的更多信息，请参阅 [!DNL Workfront] 从 [!DNL Slack]，请参阅“登录到” [!DNL Workfront] 从 [!DNL Slack]“ ”部分 [访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. 从[!DNL Slack]登录到[!DNL Slack]实例并登录到[!DNL Workfront]。\
+   有关从[!DNL Slack]登录到[!DNL Workfront]的详细信息，请参阅[访问 [!DNL Adobe Workfront] 从 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)中的“从[!DNL Slack]登录到[!DNL Workfront]”部分。
 
-1. 在任意渠道中，开始在消息字段中键入以下任一命令：
+1. 从任何渠道中，开始在消息字段中键入以下任一命令：
 
    `/workfront search <keyword>`
 
@@ -60,9 +60,9 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >命令区分大小写。 关键字不区分大小写，且必须输入时不带方括号或引号。
+   >命令区分大小写。 该关键字不区分大小写，并且输入时必须不含括号或引号。
 
-1. 在显示的字段中，从以下字段中选择对象类型：
+1. 在显示的字段中，从以下选项中选择一种对象类型：
 
    * 项目
    * 任务
@@ -77,7 +77,7 @@ ht-degree: 6%
    * 公司
    * 注释
 
-      一次只能选择一个对象类型。\
-      此时会显示与搜索条件匹配的项目列表。
+     一次只能选择一个对象类型。\
+      将显示与搜索条件匹配的项目列表。
 
-1. 单击项目的名称以在中将其打开 [!DNL Workfront] 的子菜单。
+1. 单击项目的名称，以在新浏览器选项卡的[!DNL Workfront]中将其打开。

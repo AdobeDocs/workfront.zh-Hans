@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -46,16 +46,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>将权限分配给要将问题复制到的项目，并具有“添加问题”功能。</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理问题的权限</p> <p>您要将问题复制到其中的项目的Contribute权限，并能够添加问题。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 复制问题时的注意事项
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 默认情况下，以下项目将复制到新问题：
 
 * 主要联系人
-* 自定义表单. 只有在复制过程中选择“自定义数据”时，自定义字段中的信息才会复制到新问题。
+* 自定义表单。 只有在复制过程中选择“自定义数据”时，自定义字段中的信息才会复制到新问题。
 * 审批
 * 计划开始日期和计划完成日期
 
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 在复制包含文档或与请求队列关联的问题时，请考虑以下事项：
 
-* **当问题与请求队列关联时：** 当您将问题复制到另一个对象并且该问题与请求队列关联时，复制的问题不再与第一个问题源自的原始队列关联。
-* **当文档附加到问题时：** 当您将问题复制到另一个对象并且该问题附加有文档时，该文档及其版本也将移动到新问题。 与文档关联的任何验证或审批都不会移动。
-* **将问题链接到文档或文件夹时：** 当您复制问题时，如果问题具有链接到Google Drive等第三方服务的文档或文件夹，则指向文档的链接将传输到复制的问题。
+* **当问题与请求队列关联时：**&#x200B;当您将问题复制到另一个对象并且该问题与请求队列关联时，复制的问题不再与第一个问题源自的原始队列关联。
+* **当文档附加到问题时：**&#x200B;当您将问题复制到另一个对象并且该问题具有附加的文档时，该文档及其版本也将移动到新问题。 与文档关联的任何验证或审批都不会移动。
+* **当问题链接到文档或文件夹时：**&#x200B;当您复制问题时，如果问题具有链接到Google Drive等第三方服务的文档或文件夹，则指向文档的链接将传输到复制的问题。
 
 ## 复制列表中的问题
 
@@ -92,12 +92,12 @@ ht-degree: 1%
 
    转到问题报告。
 
-1. 如果您已选择转到项目，请单击 **问题** 在左侧面板中。
-1. 选择要复制的一个或多个问题，然后单击 **更多菜单** ，然后单击 **复制到**.
+1. 如果您选择转到项目，请单击左侧面板中的&#x200B;**问题**。
+1. 选择要复制的一个或多个问题，然后单击问题列表顶部的&#x200B;**更多菜单**，然后单击&#x200B;**复制到**。
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. 如一节中所述，继续复制问题 [复制单个问题](#copy-a-single-issue) 从步骤2开始。
+1. 继续复制问题，如从步骤2开始的[复制单个问题](#copy-a-single-issue)部分中所述。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,30 +109,30 @@ ht-degree: 1%
 
 您可以在查看时复制一个问题。
 
-1. 转到要复制的问题，然后单击 **更多** 菜单 ![](assets/more-icon.png) 问题名称的右侧，然后 **复制** 到。
+1. 转到要复制的问题，然后单击问题名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制**。
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   此 **复制问题** 框显示。
+   显示&#x200B;**复制问题**&#x200B;框。
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. 在 **选择目标项目** 部分，指定要在其中复制问题的项目的名称。 默认显示当前项目的名称。
+1. 在&#x200B;**选择目标项目**&#x200B;部分中，指定要复制问题的项目的名称。 默认显示当前项目的名称。
 
    >[!TIP]
    >
    >列表中仅显示100个项目。
 
-1. （视情况而定）单击 **请求访问** 如果您无权将问题复制到项目。
+1. （视情况而定）如果您无权将问题复制到项目，请单击&#x200B;**请求访问权限**。
 1. （视情况而定）如果您有权将问题添加到目标项目上的任务之一，请继续将问题复制到选定的目标项目，而不请求访问权限。
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止向这些项目添加问题，则会显示类似消息。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >如果所选项目处于未决批准、已完成或终止状态，且Workfront管理员阻止向这些项目添加问题，则会显示类似消息。 有关详细信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-1. （可选）在 **选项** 部分，取消选择下表中列出的任何项目，以将其从新问题中删除。 默认情况下，将选择所有选项。
+1. （可选）在&#x200B;**选项**&#x200B;部分中，取消选择下表中列出的任何项以将其从新问题中删除。 默认情况下，将选择所有选项。
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">文档</td> 
-      <td><span style="line-height: 1.5;">删除文档选项卡中的所有内容，包括文档版本、链接的文档和文件夹。</span> <br>默认情况下，文档验证和审批无法复制到另一个问题。</td> 
+      <td><span style="line-height: 1.5;">删除文档选项卡中的所有内容，包括文档版本、链接文档和文件夹。</span> <br>默认情况下，无法将文档验证和审批复制到其他问题。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">权限</td> 
@@ -169,8 +169,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. （可选）在 **选择任务** 部分，选择要将问题移动到的任务。
-1. 单击 **复制问题** 或 **复制问题** 如果您在一个列表中选择了多个问题。
+1. （可选）在&#x200B;**选择任务**&#x200B;部分中，选择要将问题移动到的任务。
+1. 单击&#x200B;**复制问题**&#x200B;或&#x200B;**复制问题**（如果您在列表中选择了多个问题）。
 
    复制的问题将添加到指定项目。
 

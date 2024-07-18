@@ -20,17 +20,17 @@ ht-degree: 0%
 
 与Workfront中预定义的对象类型不同，在Adobe Workfront Planning中，您可以创建自己的对象类型。 例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。
 
-Workfront Planning对象类型称为“记录类型”，它们仅在用户创建时存在。 记录类型是Workfront Planning工作区的构建块。 有关工作区的信息，请参见 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning对象类型称为“记录类型”，它们仅在用户创建时存在。 记录类型是Workfront Planning工作区的构建块。 有关工作区的信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 ## 记录类型概述
 
 在Workfront Planning中，您可以创建符合组织需求的自定义记录类型。
 
-有关创建记录类型的信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+有关创建记录类型的信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * 从模板创建工作区时，会在以下工作区部分中创建记录类型：
 
-   * **操作记录类型**：记录表示战略计划、计划或计划工作的类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
+   * **操作记录类型**：表示战略计划、计划或计划工作的记录类型。 例如， Campaign 、 Activity 、 Tactics 、 Opportunity都是操作记录类型。
    * **分类**：捕获有关操作记录类型的属性的记录类型。 例如，区域、地址、受众是分类。
 
 * 在自头创建的工作区中创建记录类型时，可以将记录类型放置到工作区中创建的任何部分中。

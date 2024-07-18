@@ -26,13 +26,13 @@ ht-degree: 0%
 
 Workfront规划模块是三个不同但相互关联的Workfront功能之一，这些功能共同创建了营销记录系统。 这三项功能包括：
 
-* **规划**：Workfront Planning中包含的新高级功能。
+* **计划**： Workfront计划中包含的新高级功能。
 
 * **工作流**：您当前在Workfront中使用的协作工作管理功能（项目管理、资源管理等）
 
 * **自动化和集成**：由Workfront Fusion提供支持的全面集成和自动化功能。
 
-Workfront Planning是高度可自定义的。 有关Workfront Planning术语和关键概念的更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning是高度可自定义的。 有关Workfront Planning术语和关键概念的更多信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 ## 在设置Workfront Planning之前需回答的问题
 
@@ -40,7 +40,7 @@ Workfront Planning是高度可自定义的。 有关Workfront Planning术语和�
 
 在设置Planning时，您可能会问自己以下问题：
 
-* **是否要将工作区用于较大的组织组？ 还是应该鼓励人们建立个人的？**
+* **是否要将工作区用于较大的组织组？ 还是应该鼓励人们设置个人的？**
 
   您可能会发现两者都有很好的用途。 我们建议不要拥有太多工作区，因为它们可能会变得难以管理，并且您的工作流可能过于分散。
 
@@ -52,7 +52,7 @@ Workfront Planning是高度可自定义的。 有关Workfront Planning术语和�
 
   记录类型与Workfront的对象类型类似。 考虑您的工作流并决定哪些记录类型（工作对象、人员对象、分类等） 每个工作流可能都需要。
 
-  有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
+  有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
 
 * **如何创建我的记录？ 是否有外部列表或电子表格已包含我需要添加到Planning的记录，我可以使用这些记录？ 是否会根据需要逐步添加记录？ 还是将使用Fusion或自定义API集成导入它们？**
 
@@ -61,17 +61,17 @@ Workfront Planning是高度可自定义的。 有关Workfront Planning术语和�
    * [创建记录](/help/quicksilver/planning/records/create-records.md)
    * [Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
-* **需要为记录创建哪些字段？**
+* **我需要为记录创建哪些字段？**
 
-  有关信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+  有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 * **我需要使用哪些Workfront或AEM Assets对象类型连接到Workfront Planning记录类型，才能显示依赖关系并为我的组织创建无缝工作流程？**
 
-  有关信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
+  有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **我需要介绍哪些营销日历和视图来讲述营销活动的故事？ 我可以向哪些利益相关者提供这些观点以进行无缝协作？**
+* **我需要讲述哪些营销日历和视图来讲述我的营销活动？ 我可以向哪些利益相关者提供这些视图以进行无缝协作？**
 
-  有关信息，请参阅 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+  有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 
 ## Workfront规划最佳实践
@@ -149,7 +149,7 @@ Workfront Planning是高度可自定义的。 有关Workfront Planning术语和�
 
 创建并标记表示单个构造或名词的记录类型，如“营销活动”
 
-:no_entry_sign: 不要创建更好地表示为视图层的记录类型 — 例如，“日历”对于记录类型来说是一个糟糕的选择，因为它不是记录类型本身，而是记录的视图。
+:no_entry_sign:不要创建更好地表示为视图层的记录类型 — 例如，“日历”对于记录类型来说是一个糟糕的选择，因为它不是记录类型本身，而是记录的视图。
 
 ### 我应该创建多少层层次结构？
 

@@ -65,13 +65,13 @@ ht-degree: 2%
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>为工作区提供或更高权限</a> </p>  
+   <td> <p>Contribute或更高的工作区权限</a> </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
@@ -87,9 +87,9 @@ ht-degree: 2%
 ## 有关删除记录的注意事项
 
 * 您可以删除您或其他用户创建的记录。
-* 无法恢复已删除的记录。 <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* 无法恢复已删除的记录。<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
 * 如果删除的记录链接到其他记录，则不会删除链接的记录，但也会删除来自已删除记录的信息。
-* 不能批量删除记录。 <!--this will probably change-->
+* 不能批量删除记录。<!--this will probably change-->
 * 您无法从时间线视图中删除记录。
 
 ## 删除记录
@@ -97,7 +97,7 @@ ht-degree: 2%
 您可以从以下区域删除记录：
 
 * [从记录的页面](#delete-a-record-from-the-records-page)
-* [从记录类型的表格视图中](#delete-a-record-from-the-record-type-table-view)
+* [从记录类型的表视图中](#delete-a-record-from-the-record-type-table-view)
 
 ### 从记录的页面中删除记录
 
@@ -113,14 +113,14 @@ ht-degree: 2%
 1. 执行下列操作之一：
 
    * 在“表”视图中，单击记录的名称。
-   * 在“表”视图中，将鼠标悬停在记录名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **视图**
+   * 在“表”视图中，将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**查看**
 
      ![](assets/contextual-menu-for-record-row.png)
    * 在“时间轴”视图中，单击记录栏。
 
    此时将打开记录页面。
 
-1. 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **删除**，则 **删除** 再次确认。
+1. 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**，再次&#x200B;**删除**&#x200B;以进行确认。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 该记录已删除，无法恢复。
@@ -136,17 +136,17 @@ ht-degree: 2%
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表左上角的下拉菜单中，选择一个“表”视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）从表左上角的&#x200B;**视图**&#x200B;下拉菜单中，选择表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
 1. 执行下列操作之一：
 
-   * 右键单击记录行，然后单击 **删除**.
-   * 单击 **更多** 菜单 ![](assets/more-menu.png) 记录名称的右侧，然后单击 **删除**
+   * 右键单击记录行，然后单击&#x200B;**删除**。
+   * 单击记录名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 单击 **打开详细信息** 图标 ![](assets/open-details-icon-in-table-name-field.png) 打开包含记录详细信息的框，然后单击 **更多** ![](assets/more-menu.png) 记录名称的右侧，然后 **删除**.
+   * 单击&#x200B;**打开详细信息**&#x200B;图标![](assets/open-details-icon-in-table-name-field.png)打开包含记录详细信息的框，然后单击记录名称右侧的&#x200B;**更多** ![](assets/more-menu.png)，然后&#x200B;**删除**。
 
    该记录已删除，无法恢复。
 

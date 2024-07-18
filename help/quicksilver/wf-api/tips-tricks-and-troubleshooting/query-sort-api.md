@@ -23,6 +23,6 @@ ht-degree: 0%
 &entryDate_Sort=asc
 ```
 
-例如，如果要按任务计划开始日期排序，请删除 `entryDate` 并将其替换为 `plannedCompletionDate`.
+例如，如果要按任务计划开始日期排序，请删除`entryDate`并将其替换为`plannedCompletionDate`。
 
 这适用于Adobe Workfront中的大多数字段。

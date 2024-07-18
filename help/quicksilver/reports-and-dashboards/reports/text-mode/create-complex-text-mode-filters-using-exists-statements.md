@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文需要彻底了解Adobe Workfront API和文本模式报表界面。 有关Workfront API的信息，请参阅 [API基础知识](../../../wf-api/general/api-basics.md).\
->有关使用文本模式的信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>本文需要彻底了解Adobe Workfront API和文本模式报表界面。 有关Workfront API的信息，请参阅[API基础知识](../../../wf-api/general/api-basics.md)。\
+>有关使用文本模式的信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## Workfront中的对象关系概述
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 了解对象的层次和相互依赖关系有助于您了解哪些对象可以在报表中引用。
 
-有关Workfront中的对象及其层次结构和相互依赖性的信息，请参阅 [Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关Workfront中的对象及其层次结构和相互依赖性的信息，请参阅[Adobe Workfront对象概述](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 构建过滤器时，您可以使用标准报表界面在最多2个级别的关系中引用连接到过滤器对象的其他对象。
 
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 但是，您不能使用标准界面在问题过滤器中引用Portfolio所有者，以仅显示与所有者为特定用户的项目组合相关联的项目中的问题。 您必须使用文本模式来访问“Portfolio所有者名称”字段，该字段与问题相差三个级别。
 
-![“问题到项目组合所有者”图标](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![问题到项目组合所有者图标](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-有关Workfront中对象的完整列表，请参阅 [API资源管理器](../../../wf-api/general/api-explorer.md).
+有关Workfront中对象的完整列表，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
-有关如何导航API Explorer和查找对象的信息，请参阅 [使用API资源管理器](../../../wf-api/general/using-api-explorer.md).
+有关如何导航API资源管理器并查找对象的信息，请参阅[使用API资源管理器](../../../wf-api/general/using-api-explorer.md)。
 
 构建过滤器时，必须在文本模式界面中构建复杂的语句以引用这些类型的对象。
 
-有关构建复杂过滤器的信息，请参阅 [使用EXISTS语句的复杂文本模式过滤器概述](#overview-of-complex-text-mode-filters-that-use-exists-statements) 章节。
+有关生成复杂过滤器的信息，请参阅本文的[使用EXISTS语句的复杂文本模式过滤器概述](#overview-of-complex-text-mode-filters-that-use-exists-statements)部分。
 
 ## 使用EXISTS语句的复杂文本模式过滤器概述 {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 * 必须使用链接对象的对象代码来连接语句。\
   您可以在API Explorer中找到所有对象的对象代码。\
-  有关API Explorer的信息，请参见 [API资源管理器](../../../wf-api/general/api-explorer.md).
+  有关API Explorer的信息，请参阅[API Explorer](../../../wf-api/general/api-explorer.md)。
 
 * 当由于原始对象和目标对象直接连接而缺少链接对象时，您可以使用目标对象的对象代码而不是链接对象。
 * 您可以引用同一对象（目标对象）上的多个字段（目标字段），在这种情况下，必须通过AND连接引用这些字段的行。\
-  有关筛选多个属于目标对象的字段的示例，请参见 [示例4：按多个字段筛选：按Portfolio所有者名称和Portfolio对齐记分卡ID列出的任务](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) 部分。
+  有关筛选属于Target对象的多个字段的示例，请参阅本文中的[示例4：按多个字段筛选：按Portfolio所有者名称和Portfolio对齐记分卡ID筛选任务](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)部分。
 
 * EXISTS语句唯一支持的修饰符是NOTEXISTS。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 必须始终使用EXISTS语句和文本模式界面来构建此筛选器。
 
-有关过滤器的示例，请参见 [示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name) 部分。
+有关筛选器的示例，请参阅本文中的[示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name)部分。
 
 要创建跨越对象层次结构中多个级别的过滤器，请执行以下操作：
 
@@ -148,15 +148,15 @@ ht-degree: 0%
    例如，（项目） ID（原始对象上显示的链接字段）是从“问题”（原始对象）中引用的。 (Portfolio)ownerID（将字段链接到目标对象）显示在项目（链接对象）的“字段”选项卡中。 PortfolioownerID也是目标对象(Portfolio)中的字段。 链接对象上的链接字段与目标字段匹配。\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
-1. 使用API Explorer识别 **目标代码** 链接对象（项目）的。\
+1. 使用API资源管理器标识链接对象（项目）的&#x200B;**对象代码**。\
    例如，项目的对象代码为PROJ。\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
 1. 为原始对象创建滤镜。\
    例如，创建问题过滤器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
+1. 单击&#x200B;**切换到文本模式**。
 1. 将以下公式示例粘贴到新过滤器的文本模式界面中，并用正确的对象和字段替换示例文本：
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -165,9 +165,9 @@ ht-degree: 0%
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-   有关使用我们前面所标识的字段的示例，请参见 [示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name) 部分。
+   有关使用上面标识的字段的示例，请参阅本文中的[示例1：按Portfolio所有者名称筛选问题](#example-1-filter-for-issues-by-portfolio-owner-name)部分。
 
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。
 
 ## 为缺少的对象创建复杂文本模式筛选器
 
@@ -177,11 +177,11 @@ ht-degree: 0%
 
 您可以构建一个过滤器来引用缺少的对象。 例如，您可以构建一个用户过滤器，以显示哪些用户尚未在Workfront中记录小时数。
 
-您必须始终使用 *存在* 语句和文本模式界面来构建此过滤器。
+必须始终使用&#x200B;*EXISTS*&#x200B;语句和文本模式界面来构建此筛选器。
 
 有关缺少对象的筛选器的示例，请参阅本文中的以下部分：
 
-* [示例2：筛选缺少的对象：未在任何自定义表单中显示的自定义字段](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [示例2：筛选缺少的对象：未出现在任何自定义表单中的自定义字段](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [示例3：筛选缺少的对象：在特定时间段内未记录时间的用户](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 要创建引用缺少对象的筛选器：
@@ -196,24 +196,24 @@ ht-degree: 0%
 
    例如，类别参数（显示在原始对象上的链接字段）的ID是从参数（原始对象）中引用的。 parameterID（将字段链接到目标对象）显示在类别参数（链接对象）的“字段”选项卡中。 链接对象上显示的指向目标对象的链接字段与目标字段匹配。
 
-1. 使用API Explorer识别 **目标代码** 链接对象（类别参数）的。\
+1. 使用API资源管理器标识链接对象的&#x200B;**对象代码**（类别参数）。\
    例如，类别参数的对象代码为CTGYPA。\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
 1. 为原始对象创建滤镜。\
    例如，创建一个“参数”筛选器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
+1. 单击&#x200B;**切换到文本模式**。
 1. （视情况而定）如果要过滤缺少的对象，请将以下公式示例粘贴到新过滤器的文本模式界面中，并用正确的对象和字段替换示例文本：
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-   有关未与自定义Forms关联的自定义字段的报表示例，请参阅 [示例2：筛选缺少的对象：未在任何自定义表单中显示的自定义字段](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 部分。
+   有关未与自定义Forms关联的自定义字段的报表示例，请参阅本文中的[示例2：筛选缺少的对象：未出现在任何自定义表单中的自定义字段](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)部分。
 
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。
 
 ## 跨对象层次结构中多个级别的文本模式筛选器的示例
 
@@ -226,9 +226,9 @@ ht-degree: 0%
 要按Portfolio所有者名称筛选问题，请执行以下操作：
 
 1. 创建问题过滤器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
+1. 单击&#x200B;**切换到文本模式**。
 1. 请参阅以下通用代码：
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -237,7 +237,7 @@ ht-degree: 0%
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. 将以下代码粘贴到 **为报表设置筛选规则** 区域替换上面的通用代码：
+1. 将以下代码粘贴到&#x200B;**为报表**&#x200B;设置筛选规则区域以替换上面的通用代码：
 
    `EXISTS:A:$$OBJCODE=PROJ`
 
@@ -255,7 +255,7 @@ ht-degree: 0%
    >* 原始对象上显示的链接字段为projectID，链接字段为ID。
 
 1. 将上一语句中目标字段(ownerID)的值替换为您环境中的用户ID。
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。
 
 ### 示例2：筛选缺少的对象：未在任何自定义表单中显示的自定义字段 {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -268,16 +268,16 @@ ht-degree: 0%
 要筛选未与自定义表单关联的自定义字段，请执行以下操作：
 
 1. 创建参数或自定义字段过滤器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
+1. 单击&#x200B;**切换到文本模式**。
 1. 请参阅以下通用代码：
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. 将以下代码粘贴到 **为报表设置筛选规则** 区域替换上面的通用代码：
+1. 将以下代码粘贴到&#x200B;**为报表**&#x200B;设置筛选规则区域以替换上面的通用代码：
 
    `EXISTS:A:$$OBJCODE=CTGYPA`
 
@@ -294,7 +294,7 @@ ht-degree: 0%
    >* 与目标对象的链接字段为parameterID，因为parameterID同时存在于链接对象表和目标对象表中。
    >* 在原始对象上显示的链接字段是（类别参数的）ID。
 
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。
 
 ### 示例3：筛选缺少的对象：在特定时间段内未记录时间的用户 {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -303,16 +303,16 @@ ht-degree: 0%
 要筛选上周未记录时间的用户，请执行以下操作：
 
 1. 创建用户过滤器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
+1. 单击&#x200B;**切换到文本模式**。
 1. 请参阅以下通用代码：
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. 将以下代码粘贴到 **为报表设置筛选规则** 区域替换上面的通用代码：
+1. 将以下代码粘贴到&#x200B;**为报表**&#x200B;设置筛选规则区域以替换上面的通用代码：
 
    `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
@@ -324,10 +324,10 @@ ht-degree: 0%
    >* 由于没有链接对象，因此必须使用目标对象的对象代码：HOUR。
    >* 目标对象的链接字段是ownerID（显示在原始对象上；缺少链接对象）。
    >* 在原始对象上显示的链接字段是ID（小时）（显示在目标对象上；缺少链接对象）。
-   >* 已存在:A:entryDate语句是指定义Target对象(Hour)并使用与常规filter语句中相同的语法的字段。 这样可以确保只显示那些在特定时间段（在本例中是上一周）未记录时间的用户。
+   >* EXISTS:A:entryDate语句引用定义Target对象(Hour)的字段，并使用与常规筛选语句相同的语法。 这样可以确保只显示那些在特定时间段（在本例中是上一周）未记录时间的用户。
    >* NOTEXISTS修饰符指示我们正在查找报表对象（用户）不存在的项目（小时）。
 
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。
 
 ### 示例4：按多个字段筛选：按Portfolio所有者名称和Portfolio对齐记分卡ID列出的任务 {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -341,10 +341,10 @@ ht-degree: 0%
 要按Portfolio所有者名称和Portfolio对齐计分卡ID筛选任务，请执行以下操作：
 
 1. 创建任务过滤器。\
-   有关创建过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   有关创建筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-1. 单击 **切换到文本模式**.
-1. 将以下代码粘贴到 **为报表设置筛选规则** 区域：
+1. 单击&#x200B;**切换到文本模式**。
+1. 将以下代码粘贴到&#x200B;**为报表**&#x200B;设置筛选规则区域：
 
    `EXISTS:A:$$OBJCODE=PROJ`
    `EXISTS:A:ID=FIELD:projectID`
@@ -366,4 +366,4 @@ ht-degree: 0%
    >* 原始对象上显示的链接字段为projectID。
    >* 使用您环境中的用户ID替换ownerID。
 
-1. 单击 **保存筛选器**.
+1. 单击&#x200B;**保存筛选器**。

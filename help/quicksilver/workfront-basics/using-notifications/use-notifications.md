@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 使用通知：文章索引
 
-[!DNL Adobe Workfront] 会发送电子邮件通知、应用程序内通知和移动通知，提醒您在中发生了活动 [!DNL Workfront].
+[!DNL Adobe Workfront]发送电子邮件通知、应用程序内通知和移动通知，提醒您有关[!DNL Workfront]中的活动。
 
 <!-- Audited: 01/2024 -->
 
 本节包含以下文章：
 
-* [[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)
+* [[!DNL Adobe Workfront]个通知](../../workfront-basics/using-notifications/wf-notifications.md)
 * [修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [订阅中的项目 [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [订阅 [!DNL Adobe Workfront]中的项目](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [应用程序内通知概述](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [启用从预览Sandbox环境的电子邮件投放](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

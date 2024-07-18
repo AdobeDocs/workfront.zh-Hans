@@ -44,7 +44,7 @@ ht-degree: 1%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -66,7 +66,7 @@ ht-degree: 1%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有关编辑目标的注意事项
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png)，然后单击 **目标**.\
+1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。\
    随即会显示目标列表。
 1. 单击目标。\
    此时将显示目标页面。
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. 执行以下操作之一以编辑目标的信息：
    * 单击目标标题中显示的字段以更新它们。 标头中的所有字段并非都可以编辑。
-   * 单击 **“更多”图标** ![](assets/more-icon.png) 目标名称的右侧，然后单击 **编辑**.
-   * 单击 **目标详细信息** 在左侧面板中单击 **“编辑”图标** ![](assets/edit-icon.png) 图标，然后单击 **编辑全部**. 开始更新目标详细信息部分中的字段。
+   * 单击目标名称右侧的&#x200B;**更多图标** ![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
+   * 单击左面板中的&#x200B;**目标详细信息**，然后单击右上角的&#x200B;**编辑图标** ![](assets/edit-icon.png)，然后单击&#x200B;**全部编辑**。 开始更新目标详细信息部分中的字段。
 
      >[!IMPORTANT]
      >
@@ -165,27 +165,27 @@ Editing goals differs depending on what environment you use.
 
    * 更新目标标题中的以下信息，然后按Enter保存更改：
       * **目标名称**：单击目标的名称并开始键入新名称。
-      * **所有者**：单击所有者的名称，然后开始键入用户、团队、群组或公司的名称，然后在此名称显示在列表中时将其选定。 一个目标只能有一个所有者。
-   * 在“编辑目标”框中更新以下信息，然后单击 **保存**：
+      * **所有者**：单击所有者的名称，然后开始键入用户、团队、群组或公司的名称，然后在列表显示该名称时将其选定。 一个目标只能有一个所有者。
+   * 在“编辑目标”框中更新以下信息，然后单击&#x200B;**保存**：
       * **目标名称**
-      * **期间**：单击以更新目标的时间段\
+      * **时段**：单击以更新目标的时段\
         或\
-        选择 **启用自定义日期** 指定目标的日期 **开始** 和 **结束日期**.
+        选择&#x200B;**启用自定义日期**&#x200B;以指定目标的&#x200B;**开始**&#x200B;和&#x200B;**结束日期**&#x200B;的日期。
 
         >[!TIP]
         >
-        >取消选择 **启用自定义日期** 以返回到目标的原始时间段。
+        >取消选择&#x200B;**启用自定义日期**&#x200B;以返回到目标的原始时间段。
 
       * **目标所有者**
       * **描述**：添加或更新有关目标的信息。
-   * 更新或查看“目标详细信息”部分中的信息。 有关更多信息，请参阅 [在Adobe Workfront目标的“目标详细信息”部分中更新目标](../goal-management/update-goals-in-goal-details-panel.md).
+   * 更新或查看“目标详细信息”部分中的信息。 有关详细信息，请参阅Adobe Workfront目标](../goal-management/update-goals-in-goal-details-panel.md)的“目标详细信息”部分中的[更新目标。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （可选）单击 **进度指示器** 以向目标添加结果、活动或项目。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
+1. （可选）单击左侧面板中的&#x200B;**进度指示器**以将结果、活动或项目添加到目标。 通过添加进度指示器，您可以确保可以跟踪目标的进度。
 有关更多信息，请参阅以下文章：
    * [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)
-   * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md).
-   * [将项目添加到Adobe Workfront目标中的目标](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md)。
+   * [在Adobe Workfront目标中添加项目](../results-and-activities/connect-projects-to-goals-overview.md)。
 
 </div>

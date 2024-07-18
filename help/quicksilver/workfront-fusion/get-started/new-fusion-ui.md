@@ -47,20 +47,20 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront Fusion] 管理员。
+*要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront Fusion]管理员联系。
 
-## 导航 [!DNL Workfront Fusion]
+## 导航[!DNL Workfront Fusion]
 
-此 [!UICONTROL 组织] 和 [!UICONTROL 团队] 菜单位于Fusion的左侧导航面板中。 如果您是 [!DNL Workfront Fusion] 管理员，您的 [!UICONTROL 管理] 菜单也会显示在此处。
+[!UICONTROL 组织]和[!UICONTROL 团队]菜单位于Fusion的左侧导航面板中。 如果您是[!DNL Workfront Fusion]管理员，此处还会显示您的[!UICONTROL 管理]菜单。
 
-要切换团队，请单击页面顶部的团队名称，然后选择团队。 团队选择器仅显示在特定于团队的页面上，例如场景生成器或 [!UICONTROL 连接] 页面。
+要切换团队，请单击页面顶部的团队名称，然后选择团队。 团队选择器仅在特定于团队的页面上显示，如场景生成器或[!UICONTROL 连接]页面。
 
 要切换组织，请单击屏幕右上方的组织名称，然后选择组织。
 
@@ -71,10 +71,10 @@ ht-degree: 0%
 在您的配置文件下，可以查看以下选项卡：
 
 * **[!UICONTROL 组织]**：查看您所属的Fusion组织。
-* **[!UICONTROL 时区选项]**：在这里，您可以设置Fusion UI中使用的时区，以及用于各个场景的时区。
-* **[!UICONTROL API]**：在这里，您可以复制现有API令牌或创建新令牌。
+* **[!UICONTROL 时区选项]**：在此，您可以设置Fusion UI中使用的时区，以及各个场景使用的时区。
+* **[!UICONTROL API]**：您可以在此处复制现有API令牌或创建新令牌。
 
 
 ## 访问您的通知
 
-要查看您的通知，请单击通知图标 ![“通知”图标](assets/notifications-icon.png) 靠近屏幕右上角。 Notifications图标上的红点表示您有未读通知或公告。
+要查看您的通知，请单击屏幕右上角附近的通知图标![通知图标](assets/notifications-icon.png)。 Notifications图标上的红点表示您有未读通知或公告。

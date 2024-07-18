@@ -21,7 +21,7 @@ ht-degree: 1%
 
 记录类型是Adobe Workfront Planning的对象类型。 在Workfront Planning中，您可以创建自定义记录类型，这些记录类型说明在组织的生命周期中所需的工作相关项。
 
-有关记录类型的详细信息，请参阅 [记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+有关记录类型的详细信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
 ## 访问要求
 
@@ -67,12 +67,12 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区
 </td>
   </tr>
@@ -97,7 +97,7 @@ ht-degree: 1%
    * 自动：
       * 使用模板创建工作区时。
 
-        有关信息，请参阅 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+        有关信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
       * 当您使用Excel或CSV文件导入它们时。
 
@@ -127,9 +127,9 @@ ht-degree: 1%
 
 您可以在“操作记录类型”和“分类”部分中手动添加记录类型。
 
-有关创建工作区的信息，请参见 [创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md).
+有关创建工作区的信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-有关每个模板中包含的记录类型的信息，请参阅 [工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md).
+有关每个模板包含哪些记录类型的信息，请参阅[工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 ## 从头开始创建记录类型
 
@@ -140,28 +140,28 @@ ht-degree: 1%
    或
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
-1. （可选）单击 **添加分区** 以向工作区中添加新分区。
-1. 单击 **添加记录类型**.
-1. （视情况而定）启用通过导入Excel或CSV文件创建记录类型时，单击 **从头开始**. 否则， **添加记录类型** 框打开。
+1. （可选）单击&#x200B;**添加节**&#x200B;以向工作区添加新节。
+1. 单击&#x200B;**添加记录类型**。
+1. （视情况而定）启用通过导入Excel或CSV文件创建记录类型时，单击&#x200B;**从头开始**。 否则，将打开&#x200B;**添加记录类型**&#x200B;框。
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
 1. 更新以下信息：
 
-   * 将“无标题记录类型”替换为您未来记录类型的名称。 <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **描述**：添加有关记录类型的更多信息。
+   * 将“无标题记录类型”替换为您未来记录类型的名称。<!--did they bring back the field label here and did they rename it to "Name"-->
+   * **描述**：添加有关记录类型的详细信息。
    * 为与记录类型关联的图标选择颜色和形状。 执行以下操作：
       * 选择用于标识新记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-1. 单击 **创建**.
+1. 单击&#x200B;**创建**。
 
    记录类型信息卡会添加到部分和您选择的工作区。
 记录类型的描述将显示在信息卡上。
 
    ![](assets/record-type-card-with-description.png)
 
-1. （可选）将鼠标悬停在记录类型卡片上，单击 **更多** 图标 ![](assets/more-menu.png) 图标，然后单击 **编辑** 修改有关记录类型的信息。
+1. （可选）将鼠标悬停在记录类型卡片上，单击右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以修改有关记录类型的信息。
 1. （可选）单击记录类型卡以打开记录类型页面。
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ ht-degree: 1%
 
    或
 
-   单击 **更多** 图标 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **编辑** 以重命名它或更改有关它的信息。 有关更多信息，请参阅 [编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md).
+   单击记录类型名称右侧的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以重命名它或更改有关它的信息。 有关详细信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-1. （可选）单击 **+新记录** 以添加所选记录类型的记录。 有关更多信息，请参阅 [创建记录](/help/quicksilver/planning/records/create-records.md).
-1. （可选）单击 **+** 图标来添加更多字段到记录类型。
+1. （可选）单击&#x200B;**+新记录**&#x200B;以添加所选记录类型的记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+1. （可选）单击表右上角的&#x200B;**+**&#x200B;图标以向记录类型添加更多字段。
 
-   有关创建字段的详细信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+   有关创建字段的详细信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 1. （可选）单击标题中记录类型名称左侧的左箭头，以返回选定的工作区。
 
@@ -231,10 +231,10 @@ ht-degree: 1%
    或
 
    从工作区中，展开现有工作区名称右侧的向下箭头，搜索工作区，然后在工作区显示在列表中时将其选定。
-1. 单击 **添加记录类型**.
-1. 单击 **Excel/CSV**.
-1. 拖放以前保存在计算机上的Excel或CSV文件，或单击 **选择CSV或Excel文件** 以浏览其中一个。
-1. 单击 **查看您的数据**.
+1. 单击&#x200B;**添加记录类型**。
+1. 单击&#x200B;**Excel/CSV**。
+1. 拖放以前保存在您计算机上的Excel或CSV文件，或单击&#x200B;**选择CSV或Excel文件**&#x200B;以浏览一个。
+1. 单击&#x200B;**查看您的数据**。
 
    预览和编辑框显示以下信息：
 
@@ -251,13 +251,13 @@ ht-degree: 1%
    >    不支持空的页面，这些页面将呈灰显状态。
 
 
-1. （可选）单击 **选择要导入的工作表** 下拉菜单并取消选择不想导入的工作表。
+1. （可选）单击&#x200B;**选择要导入的工作表**&#x200B;下拉菜单，然后取消选择不想导入的工作表。
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    取消选择的工作表显示有灰色背景。
 
-1. 单击 **导入** 准备导入文件时。
+1. 准备导入文件时，请单击&#x200B;**导入**。
 
    以下信息导入到Workfront Planning中：
 
@@ -267,7 +267,7 @@ ht-degree: 1%
 
    您可以开始管理记录类型页面上的字段和记录。
 
-   有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。 <!--this will change with permissions-->
+   有权访问Workfront Planning的每个人现在可以查看和编辑导入的记录类型及其信息。<!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

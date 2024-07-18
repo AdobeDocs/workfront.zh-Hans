@@ -28,7 +28,7 @@ ht-degree: 3%
 
 记录的右侧面板显示以下部分：
 
-* **评论**：显示用户添加到记录的评论和回复。 有关管理Workfront Planning记录中的注释的更多信息，请参阅 [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md).
+* **个评论**：显示评论和用户添加到记录的回复。 有关管理Workfront Planning记录中的注释的更多信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
 * **历史记录**：显示用户对记录字段进行的系统记录更改。
 
 ## 找到记录的“历史记录”部分
@@ -42,12 +42,12 @@ ht-degree: 3%
 1. 单击记录类型卡片。
 此时将打开记录类型页面，并显示该类型的所有记录。
 
-1. 从中选择表格视图 **视图** 下拉菜单。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中选择一个表视图。
 1. 单击表视图中记录的名称。
 
    此时将打开记录的页面。 默认情况下，“注释”区域会在右侧面板中打开。
-1. 单击 **显示历史记录** 图标 ![](assets/show-history-icon.png). 对记录字段所做的所有更改都将显示在右侧面板中，从最近的更改开始。
-1. （可选）单击 **隐藏历史记录** 图标 ![](assets/hide-history-icon.png) 以关闭右侧面板。
+1. 单击&#x200B;**显示历史记录**&#x200B;图标![](assets/show-history-icon.png)。 对记录字段所做的所有更改都将显示在右侧面板中，从最近的更改开始。
+1. （可选）单击&#x200B;**隐藏历史记录**&#x200B;图标![](assets/hide-history-icon.png)以关闭右侧面板。
 
 ## 有关“历史记录”部分的注意事项
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 * 复选框类型的字段从不以删除线格式显示旧值。 如果字段已编辑，则仅显示进行更改时的当前状态。
 
-  有关Workfront Planning字段的更多信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+  有关Workfront Planning字段的更多信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 * 对以下类型的字段所做的更改不会显示在“历史记录”部分中：
 

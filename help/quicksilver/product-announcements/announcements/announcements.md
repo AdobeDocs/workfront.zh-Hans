@@ -25,4 +25,4 @@ ht-degree: 4%
 
 
 
-对于较早的公告，请参阅 [公告存档](announcement-archive/announcement-archive.md).
+有关早期公告，请参阅[公告存档](announcement-archive/announcement-archive.md)。

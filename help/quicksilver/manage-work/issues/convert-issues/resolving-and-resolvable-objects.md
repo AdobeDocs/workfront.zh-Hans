@@ -20,7 +20,7 @@ ht-degree: 1%
 
 将问题转换为任务或项目时，问题会成为任务或项目的可解析对象。
 
-您也可以手动将问题链接到解析对象，该对象可以是任务、项目或问题。 有关信息，请参阅 [手动将问题的解决绑定到其他问题、任务或项目](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+您也可以手动将问题链接到解析对象，该对象可以是任务、项目或问题。 有关信息，请参阅[将问题的解决手动绑定到其他问题、任务或项目](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)。
 
 在这种情况下，原始问题将成为任务、项目或问题的可解析对象。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 >
 >可解析对象始终是问题，其解析度和状态取决于与其关联的解析对象的解析度和状态。 解析对象可以是问题、任务或项目。
 
-有关设置处理可解析对象的首选项的信息，请参见 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有关设置处理可解析对象的首选项的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ The default status of the issue is controlled by the status of the project or ta
 
 存在以下情况：
 
-* 如果Workfront或组管理员拥有 **保留原来的问题，并将其解决方案与任务绑定** 和 **保留原来的问题，并将其解决方案与项目绑定** 选定且 **允许在转换期间更改这些设置** 未选中，在将问题转化为任务或项目时，您将无法更改这些设置。\
+* 如果Workfront或组管理员具有&#x200B;**保留原始问题并将其解决方案与任务绑定**、**保留原始问题并将其解决方案与项目绑定**&#x200B;已选中，且&#x200B;**允许在转换期间更改这些设置**&#x200B;未选中，则您将问题转换为任务或项目时无法更改这些设置。\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* 如果Workfront或组管理员拥有 **保留原来的问题，并将其解决方案与任务绑定** 和 **保留原来的问题，并将其解决方案与项目绑定** 已选择或未选择，并且 **允许在转换期间更改这些设置** 选中后，在将问题转化为任务或项目时，您将能够更改这些设置。\
+* 如果Workfront或组管理员具有&#x200B;**保留原始问题并将其解决方案与任务绑定**&#x200B;和&#x200B;**保留原始问题并将其解决方案与项目绑定**（已选中或未选中），并且&#x200B;**允许在转换期间更改这些设置**&#x200B;选定项，则您将能够在将问题转换为任务或项目时更改这些设置。\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-有关将问题转化为任务和项目的更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+有关将问题转化为任务和项目的更多信息，请参阅[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 将可解析对象的状态与解析对象的状态同步 {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [当解析对象为问题时同步状态](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* 当解析对象为问题时[同步状态](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [当解析对象是任务或项目时，同步状态](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### 当解析对象为问题时同步状态 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -137,19 +137,19 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 | **任务状态** | **问题状态** |
 |---|---|
-| 新 | 新 |
-| 进行中 | 进行中 |
+| 新建 | 新建 |
+| 正在进行中 | 正在进行中 |
 | 完成 | 已关闭 |
 
 将问题设置为项目的可解析对象时，项目的以下默认状态会触发问题的默认状态的以下更改。 某些项目状态不会触发对问题状态的更改。 问题仍然停留在项目变为以下状态之一之前的状态：
 
 | **项目状态** | **问题状态** |
 |---|---|
-| 规划中 | 新 |
-| 目前 | 进行中 |
+| 规划中 | 新建 |
+| 目前 | 正在进行中 |
 | 暂停 | 暂停 |
-| 请求时间 | 不会触发对问题状态的更改 |
-| 已批准 | 不会触发对问题状态的更改 |
+| 已请求 | 不会触发对问题状态的更改 |
+| 已审批 | 不会触发对问题状态的更改 |
 | 被拒绝 | 不会触发对问题状态的更改 |
 | 想法 | 不会触发对问题状态的更改 |
 | 已停止 | 已关闭 |
@@ -163,15 +163,16 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 将任务或项目的状态更改为自定义状态时，仅当满足以下两个条件时，问题状态才会更改为自定义问题状态：
 
-* 已选中“当解析对象状态更改时自动更新可解析问题状态”选项。 有关如何启用此设置的详细信息，请参阅 [设置Adobe Workfront以处理可解析对象](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* 已选中“当解析对象状态更改时自动更新可解析问题状态”选项。 有关如何启用此设置的详细信息，请参阅[设置Adobe Workfront以处理可解析对象](#set-up-adobe-workfront-to-handle-resolvable-objects)。
 
 * 项目或任务的自定义状态与问题的自定义状态具有相同的三个字母代码。
 
 您可以为问题和项目或任务创建具有相同键的自定义状态。 当项目或任务（作为解析对象）更改为自定义状态时，更改还会反映在问题的状态上。 问题和项目或任务状态的状态键必须相同。
 
-例如，使用三个字母代码“LCD”创建一个名为“已启动”的项目自定义状态，该代码等于“Current”。 此外，创建一个名为“已启动项目”的问题自定义状态，该状态中还有字母代码“LCD”，相当于“进行中”。 当您将项目标记为“已启动”时，问题会自动将状态更改为“已启动项目”。 如果未启用“当解析对象更改状态时自动更新可解析问题状态”设置，则问题状态将更改为“进行中”（默认状态）。
+例如，使用三个字母代码“LCD”创建一个名为“已启动”的项目自定义状态，该代码等于“Current”。 此外，创建一个名为“已启动项目”的问题自定义状态，该状态中还有字母代码“LCD”，相当于“进行中”。 当您将项目标记为“已启动”时，问题会自动将状态更改为“已启动项目”。 如果&quot;
+当未启用解析对象更改的状态时，自动更新可解析问题状态，问题状态将更改为“进行中”（默认状态）。
 
-有关创建自定义状态的详细信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+有关创建自定义状态的详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 将解析对象的完成百分比与可解析对象的完成百分比同步
 
@@ -187,9 +188,9 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 对于任务和项目，查找解析对象是相同的。
 
 1. 导航到通过将问题转换为项目或任务而创建的项目或任务。
-1. 单击 **项目详细信息** 或 **任务详细信息** 图标，然后单击以展开它。
-1. 单击 **概述**.
-1. 在选项卡底部，找到 **这个问题已经解决** 字段：此字段中列出了作为项目或任务的可解析对象的问题。
+1. 单击&#x200B;**项目详细信息**&#x200B;或&#x200B;**任务详细信息**&#x200B;图标，然后单击以展开它。
+1. 单击&#x200B;**概述**。
+1. 在选项卡的底部，找到&#x200B;**此已解决**&#x200B;字段：此字段中列出了项目或任务的可解决对象的问题。
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 识别列表中的解析对象的问题
 
-在问题列表中，您可以通过在中查找此图标，识别标记为通过状态图标解析对象的问题 **状态图标** 或 **标志** 列：
+在问题列表中，您可以通过在&#x200B;**状态图标**&#x200B;或&#x200B;**标志**&#x200B;列中查找此图标来识别标记为通过状态图标解析对象的问题：
 
 ![](assets/ro1.png)
 
@@ -221,43 +222,43 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>具有可解析项</strong>：显示 <strong>True</strong> 值（如果项目或任务具有与其关联的可解析问题），并且 <strong>假</strong> 如果它们没有价值。</td> 
+   <td><strong>具有可解析项</strong>：如果项目或任务具有与其关联的可解析问题，则显示<strong>True</strong>值；否则显示<strong>False</strong>值。</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td><strong>原始问题名称、原始问题输入日期、创建者姓名</strong>：显示原始问题的名称和输入日期，以及在文本模式自定义视图中创建问题的用户的名称。<br>有关为项目或任务报告或列表构建文本模式自定义视图以显示有关原始问题的信息的更多信息，请参阅 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">查看：显示任务和项目列表上的原始问题信息</a>.<br></td> 
+   <td><strong>原始问题名称、原始问题输入日期、创建者姓名</strong>：显示原始问题的名称和输入日期，以及在文本模式自定义视图中创建问题的用户的名称。<br>有关为项目、任务报告或列表构建文本模式自定义视图以显示有关原始问题的信息的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">视图：显示任务和项目列表上的原始问题信息</a>。<br></td> 
    <td> </td> 
    <td> ✓ {\f13 }</td> 
    <td> ✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>可解析：</strong> 以文本模式显示项目、任务报告或列表自定义视图中所有可解析对象的列表。</p> <p>有关构建此视图的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">视图：任务或项目报告中的可解析对象</a></p> </td> 
+   <td> <p><strong>可解析对象：</strong>以文本模式自定义视图为项目、任务报告或列表显示所有可解析对象的列表。</p> <p>有关生成此视图的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">视图：任务或项目报告中的可解析对象</a></p> </td> 
    <td> </td> 
    <td>✓ {\f13 }</td> 
    <td> ✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td><strong>转换的问题发起人</strong>：显示有关最初记录问题且后来转换为任务的用户的信息。 </td> 
+   <td><strong>转换的问题发起人</strong>：显示有关最初记录问题的用户的信息，该用户后来被转换为任务。 </td> 
    <td> </td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>解决项目</strong>：显示有关解决项目的信息，该信息已从原始问题转换为问题，或手动指定为问题的解决对象。</td> 
+   <td><strong>解决项目</strong>：显示有关解决项目的信息，该信息已从原始问题转换而来，或手动指定为问题的解决对象。</td> 
    <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>解决任务</strong>：显示有关解析任务的信息，该信息已从原始问题转换为问题，或手动指定为问题的解析对象。</td> 
+   <td><strong>解决任务</strong>：显示有关解决任务的信息，该任务已从原始问题转换而来，或手动指定为问题的解决对象。</td> 
    <td>✓ {\f13 } </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>解决问题</strong>：显示有关被手动指定为问题的解析对象的解析问题的信息。</td> 
+   <td><strong>解决问题</strong>：显示有关被手动指定为问题的解决对象的解决问题的信息。</td> 
    <td> ✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 

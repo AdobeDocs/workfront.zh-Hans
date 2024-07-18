@@ -24,6 +24,6 @@ ht-degree: 0%
 
 以下文章描述了您可能会收到的Workfront Planning通知类型以及如何管理您的首选项：
 
-* [管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。
 * [管理Adobe Workfront Planning电子邮件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [管理Adobe Workfront Planning应用程序内通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

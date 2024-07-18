@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ## 如何创建自定义表单
 
-可通过两个选项在中创建自定义表单 [!DNL Workfront]. 您可以使用旧版自定义表单生成器或新的表单设计器：
+有两个选项可在[!DNL Workfront]中创建自定义表单。 您可以使用旧版自定义表单生成器或新的表单设计器：
 
 * [旧版自定义表单生成器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -78,8 +78,8 @@ Workfront为每种对象类型提供了许多内置字段。
 * 迭代
 * 账单记录
 
-有关将自定义表单附加到对象的详细信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+有关将自定义表单附加到对象的详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
-有关转化对象时自定义表单所发生情况的信息，请参阅 [转换对象时传输自定义表单数据](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+有关转换对象时自定义表单发生什么情况的信息，请参阅[转换对象时传输自定义表单数据](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
 
 

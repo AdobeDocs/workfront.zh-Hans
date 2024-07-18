@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您可以使用资源计划程序来估计和预算分配给其所分配项目的资源，并预测其未来工作的可用性。
 
-有关Adobe Workfront中资源规划的一般概述，请参阅文章 [资源规划入门](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+有关Adobe Workfront中资源规划的一般概述，请参阅文章[资源规划入门](../../resource-mgmt/resource-planning/get-started-resource-planning.md)。
 
 ## 资源规划者概述
 
@@ -33,12 +33,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >您不能使用资源规划者将实际工作（任务和问题）分配给用户。 您只能估计用户或工作角色完成项目所需的时间，而不管他们被分配到什么任务和问题。\
->要将实际工作分配给用户，必须使用工作负载均衡器。 有关工作负载均衡器的详细信息，请参见 [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>要将实际工作分配给用户，必须使用工作负载均衡器。 有关工作负载均衡器的更多信息，请参阅[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 您可以使用三个不同的视图在资源规划程序中查看信息。 您可以使用每个视图来实现以下目的之一：
 
 * 为需要使用“项目”和“角色”视图完成的工作预算您的资源时间或成本。 这是资源规划者的主要用途。\
-  有关资源规划者中预算的更多信息，请参阅文章 [使用项目和角色视图的资源规划者中的预算资源](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  有关资源规划者中预算的更多信息，请参阅使用项目和角色视图的资源规划者中的预算资源[一文](../resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 * 要使用“用户”视图查看以下信息，请执行以下操作：
 
@@ -46,13 +46,13 @@ ht-degree: 0%
    * 按照项目计划完成工作所需的计划时间
    * 用户已登录实际工作项的时间
 
-  有关查看资源规划者中用户的可用小时、计划小时数和实际小时数或FTE的更多信息，请参阅文章 [使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  有关在资源规划程序中查看用户的可用小时、计划小时和实际小时数或FTE的详细信息，请参阅文章[：在使用用户视图](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using)时，在资源规划程序中查看可用小时、计划小时和实际小时数或FTE。
 
 ## 资源规划者注意事项
 
 * 您可以优先处理正在处理的项目，并根据优先顺序来预算资源分配，以确保先将资源分配给最重要的项目。
 
-  有关在资源规划程序中排列项目优先顺序的信息，请参阅 [在资源规划者中排定项目的优先级](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  有关在资源规划程序中排列项目优先顺序的信息，请参阅[在资源规划程序中排列项目优先顺序](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)。
 
 * 您可以显示来自项目任务和问题的小时、FTE和成本信息。
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 * 您无法在资源规划者中管理其具有任务或问题的项目上的团队分配。
 * 您可以使用资源规划程序一次为多个项目预算资源，或使用业务案例的资源预算区域为单个项目预算资源。 您为一个项目编制预算的信息也会显示在资源规划者中。
 
-  有关如何为单个项目预算资源的信息，请参阅文章 [业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  有关如何为单个项目预算资源的信息，请参阅商业案例中的文章[预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-  有关如何一次在资源规划者中为多个项目预算资源的信息，请参阅文章中的“资源规划者中的预算资源”部分 [使用项目和角色视图的资源规划者中的预算资源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  有关如何一次为多个项目在资源规划程序中预算资源的信息，请参阅使用项目和角色视图的资源规划程序中预算资源一节[中的“资源规划程序中的预算资源”](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ## 在资源规划者中工作的先决条件 {#prerequisites-for-working-in-the-resource-planner}
 
@@ -110,11 +110,11 @@ ht-degree: 0%
 
 * 您对预算资源具有正确的访问权限。
 
-  有关预算资源所需访问权限的信息，请参阅文章 [在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  有关预算资源所需的访问权限的信息，请参阅文章[在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
 * 分配给任务的用户将添加到与项目关联的资源池中。
 
-  有关将用户添加到资源池的信息，请参见 [将资源池与用户关联](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  有关将用户添加到资源池的信息，请参阅[将资源池与用户关联](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 
   >[!NOTE]
   >
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 * 分配到工作和资源池的用户必须具有与其配置文件关联的时间表和职位角色。
 
-  有关将时间表和职位角色与用户关联的信息，请参见 [编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  有关将时间表和工作角色与用户关联的信息，请参阅[编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
   >[!NOTE]
   >
@@ -142,19 +142,19 @@ ht-degree: 0%
   >
   >对于资源规划者而言，如果用户未与计划关联，则默认情况下Workfront系统的默认计划与该用户关联。
 
-  有关创建时间表的信息，请参阅文章 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  有关创建计划的信息，请参阅文章[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 如果要按“成本”预算资源，则必须将职务职责与成本/小时关联。 费率。 与分配给资源池中用户的工作角色关联的成本用于计算项目的预算劳力成本和预算成本。\
-  有关将工作角色与费率关联的信息，请参阅文章 [创建和管理职位角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-  有关计算预算劳力成本的信息，请参阅文章 [了解项目的预算劳力成本和预算小时数](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-  有关计算预算成本的信息，请参阅文章 [计算预算成本](../../manage-work/projects/project-finances/budgeted-cost.md).
+  有关将工作角色与费率关联的信息，请参阅文章[创建和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。\
+  有关计算预算劳力成本的信息，请参阅文章[了解项目的预算劳力成本和预算小时数](../../manage-work/projects/project-finances/budgeted-labor-cost.md)。\
+  有关计算预算成本的信息，请参阅文章[计算预算成本](../../manage-work/projects/project-finances/budgeted-cost.md)。
 
 ### 项目先决条件 {#project-prerequisites}
 
 在开始使用资源规划者之前，确保存在以下项目设置：
 
 * 您的项目与资源池相关联。\
-  有关将资源池添加到项目的详细信息，请参阅 [将资源池与项目和模板关联](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  有关将资源池添加到项目的详细信息，请参阅[将资源池与项目和模板关联](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)。
 
   >[!IMPORTANT]
   >
@@ -191,7 +191,7 @@ ht-degree: 0%
 
 Workfront管理员配置您的资源管理首选项。
 
-有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 ## 找到资源规划者
 
@@ -201,7 +201,7 @@ Workfront管理员配置您的资源管理首选项。
 
 您可以在Workfront的两个区域中找到资源规划者，具体取决于您是要为多个项目还是仅为一个项目预算资源。
 
-有关查找资源规划者的信息，请参见 [找到资源规划者](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+有关定位资源规划者的信息，请参阅[定位资源规划者](../../resource-mgmt/resource-planning/locate-resource-planner.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -241,21 +241,21 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 * 资源规划者中的资源过度分配或利用率不足。
 * 手动或自动为资源分配工作预算。
 
-有关资源规划者中显示哪些区域以及如何配置这些区域中显示哪些信息的更多信息，请参阅文章 [资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+有关哪些区域显示在资源规划者中以及如何配置这些区域中显示的信息的详细信息，请参阅文章[资源规划者导航概述](../../resource-mgmt/resource-planning/resource-planner-navigation.md)。
 
 ## 在资源规划者中显示信息时的限制
 
 为了提高性能，Workfront会限制您可在资源规划者中显示的项目数量。
 
-有关这些限制的更多信息，请参阅文章 [资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+有关这些限制的更多信息，请参阅文章[资源规划者显示限制](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) 。
 
 ## 在资源规划者中计算FTE
 
 您可以在资源计划程序中按小时数、FTE或成本显示可用性、分配和计划值。
 
-有关更改在资源规划者中显示的信息的信息，请参阅部分 [按小时、FTE或成本查看信息](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) 在文章中 [使用Adobe Workfront资源规划者审查资源可用性和分配](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+有关更改在资源规划者中显示的信息的详细信息，请参阅[使用Adobe Workfront资源规划者查看资源可用性和分配](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)一文中的[按小时、FTE或成本查看信息](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu)部分。
 
-有关如何在Workfront中计算用户和角色的小时数和FTE的更多信息，请参阅文章 [计算资源规划者中用户和角色的小时数和FTE的概述](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+有关如何在Workfront中计算用户和角色的小时和FTE的更多信息，请参阅文章[计算资源规划者中用户和角色的小时和FTE的概述](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
 ## 在资源规划者中计算成本
 
@@ -267,8 +267,8 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 >
 >您必须将用户和职位角色与每小时成本费率相关联，以便在资源规划者中按成本显示信息。
 
-有关将每小时成本费率与工作角色关联的更多信息，请参阅文章 [创建和管理职位角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-有关将每小时成本费率与用户关联的更多信息，请参阅文章 [编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+有关将每小时成本费率与工作角色关联的更多信息，请参阅文章[创建和管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。\
+有关将每小时成本费率与用户关联的详细信息，请参阅文章[编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 在资源计划员中按成本查看信息时，请考虑以下事项：
 
@@ -276,7 +276,7 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 * 计划成本受项目上任务的成本类型影响。
 * 在将用户视图应用于资源计划员时，您不能按成本显示分配和可用性信息。
 
-有关如何在“资源规划者”中为用户和角色计算成本的更多信息，请参阅文章 [在资源规划者中计算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+有关如何在资源规划者中为用户和角色计算成本的更多信息，请参阅文章[在资源规划者中计算成本](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -294,4 +294,4 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 ## 资源规划者中的筛选信息
 
 您可以通过创建过滤器来减少资源规划者中显示的项目、角色或用户数量。\
-有关更多信息，请参阅文章 [资源规划者中的筛选信息](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+有关详细信息，请参阅文章[资源规划者](../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。

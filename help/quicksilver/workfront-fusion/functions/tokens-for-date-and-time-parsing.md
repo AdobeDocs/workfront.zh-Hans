@@ -4,18 +4,18 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion中的日期和时间解析令牌
-description: 以下日期和时间解析令牌可在 [!DNL Adobe Workfront Fusion mapping] 面板。
+description: ' [!DNL Adobe Workfront Fusion mapping] 面板中提供了以下日期和时间解析令牌。'
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 6%
+source-wordcount: '288'
+ht-degree: 5%
 
 ---
 
-# 中的日期和时间解析令牌 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中用于日期和时间分析的令牌
 
 ## 访问要求
 
@@ -36,25 +36,25 @@ ht-degree: 6%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 年、月和日令牌
 
@@ -73,7 +73,7 @@ ht-degree: 6%
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>2014 </code> </td> 
-   <td> <p>4或2位数年份</p> </td> 
+   <td> <p>4或2位数年</p> </td> 
   </tr> 
   <tr> 
    <td><code>YY</code></td> 
@@ -88,12 +88,12 @@ ht-degree: 6%
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> 一年中的季度. 将月份设置为季度的第一个月。</p> </td> 
+   <td> <p> 季度。 将月份设置为季度的第一个月。</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> 月号</p> </td> 
+   <td> <p> 月份编号</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM MMMM</code> </td> 
@@ -192,7 +192,7 @@ ht-degree: 6%
   <tr> 
    <td><code>h hh</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> 小时（使用A时为12小时）</p> </td> 
+   <td> <p> 小时（与A.一起使用的12小时时间）</p> </td> 
   </tr> 
   <tr> 
    <td><code>k kk</code> </td> 
@@ -202,7 +202,7 @@ ht-degree: 6%
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> 后子午线或前子午线（请注意，一个字符a p也被视为有效）</p> </td> 
+   <td> <p> Post或前子午线（请注意，字符a p也被视为有效）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 

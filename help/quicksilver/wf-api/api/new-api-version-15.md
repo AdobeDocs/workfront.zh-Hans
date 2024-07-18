@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
 
 计划对象在Workfront Scenario Planner中为工作角色的类型和数量、固定成本和计划福利创建估计值。
 
-有关计划的详细信息，请参阅 [Scenario Planner中的计划概述](../../scenario-planner/initiatives-overview.md).
+有关计划的详细信息，请参阅Scenario Planner](../../scenario-planner/initiatives-overview.md)中的[计划概述。
 
 <table>
   <col/>
@@ -47,7 +47,7 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
       <td>
         <ul>
           <li>
-            <p><b>客户ID</b>
+            <p><b>customerID</b>
             </p>
             <p>这是一个内部对象。</p>
           </li>
@@ -62,7 +62,7 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
             <p>计划的计划完成日期。</p>
           </li>
           <li>
-            <p><b>enteredById</b>
+            <p><b>enteredByID</b>
             </p>
             <p>与提交请求的用户关联的ID。</p>
           </li>
@@ -72,7 +72,7 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
             <p>与操作关联的ID</p>
           </li>
           <li>
-            <p><b>initiativeID</b>
+            <p><b>计划ID</b>
             </p>
             <p>与计划关联的ID。</p>
           </li>
@@ -82,12 +82,12 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
             <p>上次在Workfront Scenario Planner中发布计划的日期。</p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>名称</b>
             </p>
             <p>计划的名称</p>
           </li>
           <li>
-            <p><b>planid</b>
+            <p><b>planID</b>
             </p>
             <p>与计划关联的计划的ID。</p>
           </li>
@@ -142,18 +142,18 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
             </p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>名称</b>
             </p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">操作</td>
+      <td role="rowheader">运营</td>
       <td>
         <ul>
           <li>
@@ -165,11 +165,11 @@ Adobe Workfront于2022年6月14日发布了API版本15。 API版本15具有对�
             </p>
           </li>
           <li>
-            <p><b>报告 </b>
+            <p><b>报告</b>
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>搜索</b>
             </p>
           </li>
         </ul>
@@ -195,7 +195,7 @@ IssueDef对象表示关于问题格式的一组数据。 此对象可以附加�
             </p>
           </li>
           <li>
-            <p><b>isinlineAddEnabled</b>
+            <p><b>isInlineAddEnabled</b>
             </p>
           </li>
         </ul>
@@ -210,7 +210,7 @@ IssueDef对象表示关于问题格式的一组数据。 此对象可以附加�
             </p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
@@ -232,7 +232,7 @@ IssueDef对象表示关于问题格式的一组数据。 此对象可以附加�
       <td>
         <ul>
           <li>
-            <p><b>客户ID</b>
+            <p><b>customerID</b>
             </p>
             <p>这是一个内部对象。</p>
           </li>
@@ -267,12 +267,12 @@ IssueDef对象表示关于问题格式的一组数据。 此对象可以附加�
             </p>
           </li>
           <li>
-            <p><b>对象ID</b>
+            <p><b>objID</b>
             </p>
             <p>Workfront中与ObjectIntegration关联的对象。</p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objObjCode</b>
             </p>
             <p>与ObjectIntegration关联的Workfront中对象的对象代码。</p>
           </li>
@@ -314,7 +314,7 @@ IssueDef对象表示关于问题格式的一组数据。 此对象可以附加�
             </p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
@@ -351,7 +351,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
       <td >
         <ul>
           <li>
-            <p><b>defaultProvalProcess </b>
+            <p><b>defaultApprovalProcess </b>
             </p>
           </li>
         </ul>
@@ -378,7 +378,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
@@ -402,7 +402,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>客户ID</b>
+            <p><b>customerID</b>
             </p>
           </li>
           <li>
@@ -410,7 +410,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>requesteddate</b>
+            <p><b>requestedDate</b>
             </p>
           </li>
           <li>
@@ -422,7 +422,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>用户ID</b>
             </p>
           </li>
         </ul>
@@ -460,7 +460,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
@@ -483,7 +483,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>用户ID</b>
             </p>
           </li>
         </ul>
@@ -505,7 +505,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
       </td>
     </tr>
     <tr>
-      <td role="rowheader">操作</td>
+      <td role="rowheader">运营</td>
       <td>
         <ul>
           <li>
@@ -529,7 +529,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>搜索</b>
             </p>
           </li>
         </ul>
@@ -604,7 +604,7 @@ TaskDef对象表示关于任务格式的一组数据。 此对象可以附加到
 
 AccessLevel对象与用户相关联，并描述确定用户可以访问的AccessLevelPermissions集。
 
-有关访问级别的详细信息，请参阅 [访问级别](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+有关访问级别的详细信息，请参阅[访问级别](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)。
 
 <table>
   <col/>
@@ -615,7 +615,7 @@ AccessLevel对象与用户相关联，并描述确定用户可以访问的Access
       <td>
         <ul>
           <li>
-            <p><b>fieldAccessPrivileges</b> (string[])</p>
+            <p><b>fieldAccessPrivileges</b> （字符串[]）</p>
             <p>添加了以下可能值：</p>
             <ul>
               <li>
@@ -657,7 +657,7 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
             </ul>
           </li>
           <li>
-            <p><b>禁止操作</b> (string[])</p>
+            <p><b>forbiddenActions</b> (string[])</p>
             <p>添加了以下可能值：</p>
             <ul>
               <li>
@@ -711,7 +711,7 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
             </ul>
           </li>
           <li>
-            <p><b>autoShareaction</b> （字符串）</p>
+            <p><b>autoShareAction</b>（字符串）</p>
             <p>添加了以下可能值：</p>
             <ul>
               <li>
@@ -750,7 +750,7 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
             </ul>
           </li>
           <li>
-            <p><b>禁止操作</b> (string[])</p>
+            <p><b>forbiddenActions</b> (string[])</p>
             <p>添加了以下可能值：</p>
             <ul>
               <li>
@@ -805,18 +805,18 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
           <li>
             <p><b>计划</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
             <p>计划对象在Workfront Scenario Planner中为工作角色的类型和数量、固定成本和计划福利创建估计值。 </p>
           </li>
           <li>
-            <p><b>issueDef</b>
+            <p><b>问题定义</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
           <li>
-            <p><b>taskdef</b>
+            <p><b>taskDef</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -829,7 +829,7 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
             <p style="font-weight: bold;"><b>对象集成
 </b>
             </p>
-            <p style="font-weight: normal;">已添加.</p>
+            <p style="font-weight: normal;">已添加。</p>
             <p>在某些情况下，可以将Workfront工作项直接链接到外部软件产品中的对象。 ObjectIntegration对象表示此链接。</p>
           </li>
         </ul>
@@ -860,8 +860,8 @@ Category对象是自定义表单。
             </ul>
           </li>
           <li>
-            <p><b>对象类型</b> (string[])</p>
-            <p>已添加.</p>
+            <p><b>objTypes</b> (string[])</p>
+            <p>已添加。</p>
             <p style="font-weight: normal;">此参数是可附加自定义表单的可能对象的数组。 添加了它以支持将自定义表单附加到多种对象类型的功能。</p>
             <p>可能的值： </p>
             <p>CMPY、端口、PRGM、项目、任务、OPTASK、用户、DOCU、EXPN、ITRN、帐单、组</p>
@@ -874,8 +874,8 @@ Category对象是自定义表单。
       <td>
         <ul>
           <li>
-            <p><b>对象类型</b> (string[])</p>
-            <p>已添加.</p>
+            <p><b>objTypes</b> (string[])</p>
+            <p>已添加。</p>
             <p style="font-weight: normal;">此参数是可附加自定义表单的可能对象的数组。 添加了它以支持将自定义表单附加到多种对象类型的功能。</p>
             <p>可能的值： </p>
             <p>CMPY、端口、PRGM、项目、任务、OPTASK、用户、DOCU、EXPN、ITRN、帐单、组</p>
@@ -899,17 +899,17 @@ Category对象是自定义表单。
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -930,16 +930,16 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>名称</b>
             </p>
             <p>添加了以下值：</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (已启用 SharePoint (Graph API) 集成)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API)集成已启用)</p>
                 <p>此值支持更新的Sharepoint集成。</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (允许用户在不使用模板的情况下创建项目)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> （允许用户在不使用模板的情况下创建项目）</p>
               </li>
               <li>
                 <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
@@ -956,13 +956,13 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
 
 可以将文档组织到文件夹中。 您可以在个人文档区域中创建个人文件夹。 DocumentFolder对象表示这些文件夹之一。
 
-DocumentFolder对象添加了标志 `SHARABLE`.
+DocumentFolder对象添加了标志`SHARABLE`。
 
 ### DocumentVersion (DOCV)
 
 DocumentVersion对象表示文件的特定版本（如书面材料、图像或其他形式的信息）。
 
-有关文档版本的详细信息，请参阅 [上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md).
+有关文档版本的详细信息，请参阅[上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 <table>
   <col/>
@@ -978,7 +978,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
             <p>添加了以下值： </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint （图形API）)</p>
                 <p>此值支持更新的Sharepoint集成。</p>
               </li>
             </ul>
@@ -995,7 +995,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
 
 有关组的更多信息，请参阅组与团队。
 
-Group对象添加了标志 `DATA_EXTENDIBLE`
+组对象添加了标志`DATA_EXTENDIBLE`
 
 <table>
   <col/>
@@ -1145,7 +1145,7 @@ LinkedFolder对象表示从外部文档提供商(如Google驱动器或Dropbox)�
             <p>添加了以下值： </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint （图形API）)</p>
                 <p>此值支持更新的Sharepoint集成。</p>
               </li>
             </ul>
@@ -1181,7 +1181,7 @@ OpTask对象通常称为“问题”。 问题是一个工作项，它通常表�
         <p>已修改以下操作：</p>
         <ul>
           <li>
-            <p><b>copyIssue</b>
+            <p><b>复制问题</b>
             </p>
             <p>已添加字段 <code>parentID</code></p>
           </li>
@@ -1214,13 +1214,13 @@ Parameter对象是一个自定义字段。
           <li>
             <p><b>数据类型</b>
             </p>
-            <p>添加了可能的值 <code>WIDGET </code>（构件） </p>
+            <p>已添加可能的值<code>WIDGET </code>（小组件） </p>
             <p>此值支持在自定义表单中使用图像。</p>
           </li>
           <li>
             <p><b>显示类型</b>
             </p>
-            <p>添加了可能的值 <code>WIDGET </code>（构件）</p>
+            <p>已添加可能的值<code>WIDGET </code>（小组件）</p>
             <p>此值支持在自定义表单中使用图像。</p>
           </li>
         </ul>
@@ -1332,11 +1332,11 @@ Portfolio对象是争夺相同资源（通常是资金或人员来完成这些�
             <p>计划对象在Workfront Scenario Planner中为工作角色的类型和数量、固定成本和计划福利创建估计值。 </p>
           </li>
           <li>
-            <p><b>issueDef</b>
+            <p><b>问题定义</b>
             </p>
           </li>
           <li>
-            <p><b>taskdef</b>
+            <p><b>taskDef</b>
             </p>
           </li>
         </ul>
@@ -1361,7 +1361,7 @@ Portfolio对象是争夺相同资源（通常是资金或人员来完成这些�
 
 QueueDef对象表示队列，这是一个已发布到技术支持区域以允许用户向其提交问题的项目。
 
-有关请求队列的详细信息，请参阅 [创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+有关请求队列的详细信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 <table>
   <col/>
@@ -1407,7 +1407,7 @@ QueueDef对象表示队列，这是一个已发布到技术支持区域以允许
 
 ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通常由Portfolio经理决定，这些问题的答案让经理能够了解项目与项目组合目标的符合程度。
 
-有关记分卡问题的更多信息，请参阅 [创建记分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+有关记分卡问题的详细信息，请参阅[创建记分卡](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)。
 
 <table>
   <col/>
@@ -1420,7 +1420,7 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
           <li>
             <p><b>显示类型</b>
             </p>
-            <p>添加了可能的值 <code>WIDGET </code>（构件）</p>
+            <p>已添加可能的值<code>WIDGET </code>（小组件）</p>
           </li>
         </ul>
       </td>
@@ -1464,11 +1464,11 @@ Template对象表示项目的模式。 可使用模板创建项目以节省时�
       <td>
         <ul>
           <li>
-            <p><b>issueDef</b>
+            <p><b>问题定义</b>
             </p>
           </li>
           <li>
-            <p><b>taskdef</b>
+            <p><b>taskDef</b>
             </p>
           </li>
         </ul>
@@ -1491,7 +1491,7 @@ Template对象表示项目的模式。 可使用模板创建项目以节省时�
         <p>已删除以下字段：</p>
         <ul>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
           </li>
         </ul>
@@ -1516,40 +1516,40 @@ Template对象表示项目的模式。 可使用模板创建项目以节省时�
             <p>已删除以下可能值：</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (四列式布局)</p>
+                <p><code>FOUR_COL</code> （四列式布局）</p>
               </li>
               <li>
-                <p><code>UPDATES</code> (更新)</p>
+                <p><code>UPDATES</code> （更新）</p>
               </li>
               <li>
-                <p><code>UPDATESTOOLBAR_FEED</code> (更新)</p>
+                <p><code>UPDATESTOOLBAR_FEED</code> （更新）</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (正在处理)</p>
+                <p><code>WORKINGON</code> （正在处理）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA</code> (自定义数据)</p>
+                <p><code>CUSTOMDATA</code> （自定义数据）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA_UPDATE</code> (编辑自定义表单)</p>
+                <p><code>CUSTOMDATA_UPDATE</code> （更新自定义数据）</p>
               </li>
               <li>
-                <p><code>STATUS_UPDATE</code> (状态更新)</p>
+                <p><code>STATUS_UPDATE</code> （状态更新）</p>
               </li>
               <li>
-                <p><code>OPTASK_STATUS_UPDATE</code> (状态更新)</p>
+                <p><code>OPTASK_STATUS_UPDATE</code> （状态更新）</p>
               </li>
               <li>
-                <p><code>PROJ_STATUS_UPDATE</code> (状态更新)</p>
+                <p><code>PROJ_STATUS_UPDATE</code> （状态更新）</p>
               </li>
               <li>
-                <p><code>PROJECT_TIMEENTRY</code> (状态更新)</p>
+                <p><code>PROJECT_TIMEENTRY</code> （状态更新）</p>
               </li>
               <li>
-                <p><code>DLIST</code> (详细信息列表)</p>
+                <p><code>DLIST</code> （详细信息列表）</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (详细列表部分)</p>
+                <p><code>DLIST_SECTION</code> （详细信息列表部分）</p>
               </li>
             </ul>
           </li>
@@ -1574,7 +1574,7 @@ Template对象表示项目的模式。 可使用模板创建项目以节省时�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>添加了可能的值 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>添加了可能的值<code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1632,7 +1632,7 @@ UserNote对象是通知。
       <td>
         <ul>
           <li>
-            <p><b>事件类型</b>
+            <p><b>eventType</b>
             </p>
             <p>添加了以下可能值：</p>
             <ul>

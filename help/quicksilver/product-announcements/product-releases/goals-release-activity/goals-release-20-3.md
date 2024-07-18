@@ -42,4 +42,4 @@ Workfront目标有助于将战略目标与您的工作保持关联。 无论您�
 * 我的KPI与目标相比的进度如何？
 * 哪些工作有风险、落后或即将实现我的目标？
 
-有关Workfront目标的更多信息，请参阅 [Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md).
+有关Workfront目标的更多信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。

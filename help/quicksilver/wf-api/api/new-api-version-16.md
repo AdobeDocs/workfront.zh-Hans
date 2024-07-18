@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为 <code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
+            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为<code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
           </li>
         </ul>
       </td>
@@ -118,7 +118,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为 <code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
+            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为<code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
           </li>
           <li>
             <p><b>isContured</b>
@@ -169,7 +169,7 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>名称</b>
             </p>
             <p>添加了以下可能值：</p>
             <ul>
@@ -213,7 +213,7 @@ ExternalSection对象是嵌入到Workfront报表中的外部网页。
             <p>添加此参数，并计算报表中嵌入的iFrame的URL。</p>
          </li>
           <li>
-            <p><b>calculateIframeURLS</b>
+            <p><b>calculateIframeURL</b>
             </p>
             <p>添加了此URL，并计算报表中嵌入的iFrame的URL。</p>
          </li>
@@ -235,9 +235,9 @@ Hour对象表示用户在时间表上记录的小时。
       <td>
         <ul>
           <li>
-            <p><b>timesheethouridentifier</b>
+            <p><b>工时表小时标识符</b>
             </p>
-            <p>已添加. 此参数用于标识创建的小时数 <code>batchSave</code>. </p>
+            <p>已添加。 此参数用于标识使用<code>batchSave</code>创建的小时数。 </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Note对象是对Workfront对象所做的注释或更新。
       <td>
         <ul>
           <li>
-            <p><b>attachedDocuments</b>
+            <p><b>附加文档</b>
             </p>
             <p>此字段已添加，表示附加到评论的文档列表。</p>
           </li>
@@ -314,7 +314,7 @@ OpTask对象通常称为“问题”。 问题是一个工作项，它通常表�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为 <code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
+            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为<code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
           </li>
         </ul>
       </td>
@@ -324,9 +324,9 @@ OpTask对象通常称为“问题”。 问题是一个工作项，它通常表�
       <td>
         <ul>
            <li>
-            <p><b>assignmultiple</b>
+            <p><b>assignMultiple</b>
             </p>
-            <p>此操作已添加字段 <code>teamIDs</code> 支持将多个团队分配给一个任务或问题的功能。</p>
+            <p>此操作添加了字段<code>teamIDs</code>以支持将多个团队分配给一个任务或问题的功能。</p>
          </li>
         </ul>
       </td>
@@ -400,11 +400,11 @@ Rate对象表示Workfront中的记帐费率。
 
 RichTextNote对象是对Workfront对象所做的注释或更新，包括富文本，例如粗体或斜体文本。
 
-RichTextNote对象删除了标志 `REPORTABLE`.
+RichTextNote对象删除了标志`REPORTABLE`。
 
 ### 角色/工作角色(ROLE)
 
-角色对象（工作角色）表示用户可能填充的功能能力或技能集，如设计人员或产品经理。
+角色对象（工作角色）表示用户可能填充的功能能力或技能集，如Designer或产品经理。
 
 <table>
   <col/>
@@ -439,7 +439,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为 <code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
+            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为<code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
           </li>
         </ul>
       </td>
@@ -449,9 +449,9 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
       <td>
         <ul>
            <li>
-            <p><b>assignmultiple</b>
+            <p><b>assignMultiple</b>
             </p>
-            <p>此操作已添加字段 <code>teamIDs</code> 支持将多个团队分配给一个任务或问题的功能。</p>
+            <p>此操作添加了字段<code>teamIDs</code>以支持将多个团队分配给一个任务或问题的功能。</p>
          </li>
         </ul>
       </td>
@@ -472,19 +472,19 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
       <td>
         <ul>
            <li>
-            <p><b>availableactions</b>
+            <p><b>availableActions</b>
             </p>
-            <p>此参数删除了标记 <code>READ_ONLY</code>.</p>
+            <p>此参数删除了标志<code>READ_ONLY</code>。</p>
          </li>
            <li>
-            <p><b>可编辑</b>
+            <p><b>isEditable</b>
             </p>
-            <p>此参数删除了标记 <code>READ_ONLY</code>.</p>
+            <p>此参数删除了标志<code>READ_ONLY</code>。</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>添加了此参数，并且不论对“完整Workday的等效小时数”有何更改，都以天为单位存储时间表持续时间。  例如，如果等效小时数设置为6，并记录一天，则等效小时数将更改为8小时， <code>totalDays</code> 仍具有值1。</p>
+            <p>添加了此参数，并且不论对“完整Workday的等效小时数”有何更改，都以天为单位存储时间表持续时间。  例如，如果等效小时数设置为6，并记录一天，则等效小时数更改为8小时，则<code>totalDays</code>仍具有值1。</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>此操作已添加，它采用过滤器查询映射并添加 <code>allowingnull</code> 为空字段加入。</p>
+            <p>此操作已添加，它采用过滤器查询映射并为可空字段添加<code>allowingnull</code>联接。</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使过滤器、视图或分组对所有用户可用</a>.</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使过滤器、视图或分组对所有用户可用</a>.</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -557,7 +557,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
       <td>
         <ul>
           <li>
-            <p><b>布局类型</b>
+            <p><b>layoutType</b>
             </p>
             <p>添加了以下可能值：</p>
             <ul>
@@ -579,7 +579,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使过滤器、视图或分组对所有用户可用</a>.</p>
+            <p>这些操作支持在系统范围内共享筛选器、视图和分组的功能。</p><p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">使筛选器、视图或分组对所有用户都可用</a>。</p>
          </li>
         </ul>
       </td>
@@ -650,7 +650,7 @@ Work对象是Task和OpTask都继承的公用接口，它们共享公用代码。
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为 <code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
+            <p>此字段已添加，并显示每天您需要完成的工作分钟数。 其格式为<code>YYYY-MM-DD: (number of minutes)</code>，并考虑时区。</p>
           </li>
         </ul>
       </td>

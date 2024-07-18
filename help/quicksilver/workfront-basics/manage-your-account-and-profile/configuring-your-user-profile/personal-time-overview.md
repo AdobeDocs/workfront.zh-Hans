@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront] 不是为了复制或替换您现有的系统，用于管理、积累和跟踪个人休息时间。
+[!DNL Adobe Workfront]的设计目的不是复制或替换现有系统，用于管理、应计和跟踪个人休息时间。
 
-但是，请务必指明何时发生批准的休息时间，因为这会同时影响您的计划和 [!UICONTROL 计划完成日期] 您分配到的所有任务。
+但是，指明何时批准休息时间很重要，因为这会影响您的计划以及您分配到任务的[!UICONTROL 规划完成日期]。
 
-例如，如果您被分配到一项计划为两周时间的任务，并计划在此期间休假3天， [!DNL Workfront] 向任务时间线添加三天以考虑空闲时间。
+例如，如果您被分配到一项计划休假2周的任务，并计划在休假3天，则[!DNL Workfront]会在任务时间表中添加三天以考虑休假。
 
 资源管理工具还会使用您的个人休息时间来指示您何时可以安排工作。
 
@@ -57,26 +57,26 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td>具有[！UICONTROL Edit User]访问权限的[！UICONTROL Manager] （更改其他用户的休息日日历）<br>
-   <strong>注意：</strong> 如果经理编辑另一个用户的个人休息时间日程表，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
+   <strong>注意：</strong>如果经理编辑另一个用户的个人休息时间日历，则所有条目都按用户的时区显示，而不是按经理的时区显示。</td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 在中配置个人休息时间 [!DNL Workfront]
+## 在[!DNL Workfront]中配置个人休息时间
 
 {{step1-click-profile-pic}}
 
-1. 在左侧面板中，单击 **[!UICONTROL 空闲时间]**.
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 空闲时间]**。
 1. 为您的个人休息时间选择所需的日期。
 
-   ![个人休息时间日程表](assets/personal-time-off-calendar.png)
+   ![个人休息时间日历](assets/personal-time-off-calendar.png)
 
-1. 选择 **[!UICONTROL 全天]**，请您休一整天的假。
+1. 如果您要休一整天的假，请选择&#x200B;**[!UICONTROL 全天]**。
 
    如果您休假的时间少于一整天，请保持此复选框的清除，并指明休假的开始和结束时间。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   您的空闲时间现在可以在以下位置看到： [!DNL Workfront] 系统中的资源管理工具，如资源规划者和工作负载均衡器。 在此期间为您分配了工作后，工具提示会告知用户您已计划休假。
+   您的休息时间现在可以在资源管理工具（如资源规划者和工作负载均衡器）的[!DNL Workfront]系统中看到。 在此期间为您分配了工作后，工具提示会告知用户您已计划休假。

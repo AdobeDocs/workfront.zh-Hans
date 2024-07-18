@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍R1.4版本在“预览”环境中可用的所有更改。 2017年2月15日，预览环境中提供了此页面上的功能。
 
-有关在R1中所做所有更改的列表，请参见 [Workfront R1版本](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
+有关R1中所做所有更改的列表，请参阅[Workfront R1版本](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)。
 
 ## 已更新项目、任务和问题审批
 
@@ -36,20 +36,20 @@ ht-degree: 0%
 
 * 更新了外观。
 
-有关创建审批流程的详细信息，请参阅 [创建工作项的审批流程](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+有关创建审批流程的详细信息，请参阅[为工作项创建审批流程](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 将审批流程与项目、任务或问题关联时，现在提供了以下增强功能和更改：
 
 * 更新了外观。
 * 审批图显示在审批选项卡上，以可视化形式显示以前、当前和未来的审批步骤。
 
-有关将审批与项目、任务和问题关联的更多信息，请参阅 [将新的或现有的审批流程与工作关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+有关将审批与项目、任务和问题关联的详细信息，请参阅[将新的或现有的审批流程与工作关联](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 ## 直接从项目页面更改项目的状态
 
 您不再需要编辑项目来更改项目状态。 您现在可以直接从项目主页更改项目的状态。
 
-有关更多信息，请参阅 [更改项目的状态](../../../../manage-work/projects/manage-projects/change-project-status.md).
+有关详细信息，请参阅[更改项目的状态](../../../../manage-work/projects/manage-projects/change-project-status.md)。
 
 ## 安排用户停用
 
@@ -61,13 +61,13 @@ ht-degree: 0%
 
 在批量编辑用户时，此功能也可用。 
 
-有关安排用户停用的更多信息，请参阅 [停用或重新激活用户](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) 和 [添加用户](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+有关计划停用用户的详细信息，请参阅[停用或重新激活用户](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)和[添加用户](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 ## 针对“所需操作”的新电子邮件摘要选项
 
 “每日摘要”传送选项现在可在“通知”设置的“所需操作”区域使用。
 
-有关更多信息，请参阅 [修改您自己的电子邮件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+有关详细信息，请参阅[修改您自己的电子邮件通知](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 请记住更新与您的帐户关联的电子邮件地址，以便能够测试此功能。 这是必需的，因为预览沙盒会清除所有用户的电子邮件地址。
 
@@ -77,12 +77,12 @@ ht-degree: 0%
 
 * 现在，您在恢复对象后会收到电子邮件通知。\
   作为Workfront管理员，现在，您在恢复之前删除的项目、任务或问题后会收到电子邮件通知。 电子邮件通知会告知您恢复过程的状态。\
-  有关在Workfront中恢复对象的更多信息，请参阅 [恢复已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  有关在Workfront中还原对象的详细信息，请参阅[还原已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 * 当对象被恢复时，对象的删除和恢复现在记录在对象本身的更新流和父对象的更新流中。\
   以前，仅在父对象的更新流中记录删除。\
   例如，当任务恢复时，将向项目和任务本身的更新流中添加一条消息，指示任务已恢复。 (子任务上不记录删除和恢复。 有关子任务的删除和恢复信息仅在父任务中可用。)\
-  有关更多信息，请参阅 [恢复已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  有关详细信息，请参阅[还原已删除的项](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
  
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 “组所有者”字段和“组成员”字段现在合并为一个字段，其中包含下面列出的组成员列表。 此外，您可以筛选组成员列表，并更改他们是所有者还是成员。 
 
-有关将子组添加到组以及将用户指定为组的成员或组所有者的详细信息，请参阅 [创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 和 [创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+有关将子组添加到组以及将用户指定为组的成员或组所有者的详细信息，请参阅[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[创建组](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 
 
  
 

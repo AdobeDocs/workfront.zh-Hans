@@ -19,7 +19,7 @@ ht-degree: 0%
 
 过滤器和提示相似，因为它们都会限制您在报告中显示的信息量。
 
-当您希望每次运行报告时，报告中显示的信息都按相同的标准进行过滤时，可以构建过滤器。 过滤器只构建一次，并在报表中进行硬编码。 有关构建过滤器的更多信息，请参阅文章 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+当您希望每次运行报告时，报告中显示的信息都按相同的标准进行过滤时，可以构建过滤器。 过滤器只构建一次，并在报表中进行硬编码。 有关生成筛选器的更多信息，请参阅文章[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 提示是打开的过滤器，每次运行报告时可以通过不同的方式对其进行自定义和应用。
 
@@ -53,37 +53,37 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
 必须先创建报告，然后才能向其添加提示。
 
-有关创建报告的说明，请参阅 [创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+有关创建报告的说明，请参阅[创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
 ## 创建提示
 
 1. 转到要添加提示的报告。
-1. 展开 **报表操作**，然后单击 **编辑**.
+1. 展开&#x200B;**报表操作**，然后单击&#x200B;**编辑**。
 
-1. 单击 **报表设置**.
-1. 在 **报告提示** 区域，单击 **添加提示**.\
+1. 单击&#x200B;**报表设置**。
+1. 在&#x200B;**报告提示**&#x200B;区域中，单击&#x200B;**添加提示**。\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. （视情况而定）选择提示所基于的字段。 开始键入字段的名称，并在该字段出现在列表中时单击以将其选定。\
    运行该报表的用户可用的选项将因您选择的字段而异。\
-   例如，如果您在任务报告中选择了一个日期字段，如实际完成日期，则“实际完成日期”是提示的名称。 在运行此报告时编辑此提示时，可以从一组修饰符中进行选择，以生成您的筛选语句。 此过程与构建过滤器相同。 有关修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   例如，如果您在任务报告中选择了一个日期字段，如实际完成日期，则“实际完成日期”是提示的名称。 在运行此报告时编辑此提示时，可以从一组修饰符中进行选择，以生成您的筛选语句。 此过程与构建过滤器相同。 有关修饰符的详细信息，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
-1. （视情况而定）单击 **自定义提示** 创建自定义提示。
+1. （视情况而定）单击&#x200B;**自定义提示**&#x200B;以创建自定义提示。
 
    自定义提示是预定义提示，可在运行报表之前对筛选条件进行硬编码。 从这个意义上说，自定义提示比提示更接近于过滤器。
 
@@ -91,13 +91,13 @@ ht-degree: 0%
 
    为自定义提示指定以下信息：自定义提示的条件只能使用文本模式进行编辑。 这允许在单个字段中应用多个条件。
 
-   * **字段名称：** 这是提示的名称，您在运行报告之前看到它。
-   * **标签：** 在运行报告之前，您会看到该提示中的一个选项，这是该选项的名称。
-   * **条件：** 输入定义提示的条件。
+   * **字段名：**&#x200B;这是提示的名称，您在运行报告之前看到它。
+   * **标签：**&#x200B;这是您在运行报告之前看到的提示中其中一个选项的名称。
+   * **条件：**&#x200B;输入定义提示的条件。
 
-   使用与输入文本模式过滤器时相同的语法，并通过“&amp;”连接语句。 有关在文本模式下编辑过滤器的更多信息，请参阅 [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   使用与输入文本模式过滤器时相同的语法，并通过“&amp;”连接语句。 有关在文本模式下编辑筛选器的详细信息，请参阅[使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)。
 
-   例如， **条件** 的自定义提示字段，适用于以下场景：
+   例如，以下方案的自定义提示的&#x200B;**Condition**&#x200B;字段可能如下所示：
 
    * 项目状态为“想法”、“已请求”、“已计划”和“当前”的未来项目中的所有任务：
 
@@ -111,14 +111,14 @@ ht-degree: 0%
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   有关文本模式修饰符的详细信息，请参阅 [过滤器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   有关文本模式修饰符的详细信息，请参阅[筛选器和条件修饰符](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
    >[!NOTE]
    >
    >运行报告时，不能像更改标准提示那样更改自定义提示的条件。 您可以根据需要为自定义提示设置任意数量的预定义条件。
 
 1. （可选）重复步骤4或步骤5，根据需要创建任意数量的提示。
-1. 单击 **完成**，然后单击 **保存+关闭** 以保存报表。
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存+关闭**&#x200B;以保存报告。
 
 ## 在报表中应用提示
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. 为显示在“ ”上的一个或多个提示选择条件 **提示** 选项卡。\
+1. 为&#x200B;**提示**&#x200B;选项卡上显示的一个或多个提示选择条件。\
    （可选）您可以将提示保留为空，而不按提示条件筛选报告。
 
 1. 单击&#x200B;**运行报告**。\
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 * 在公开共享报告时，用户无法通过应用提示来运行报告，除非他们具有Workfront凭据并先登录以在Workfront中查看报告。
 
-  有关共享报表的更多信息，请参阅文章 [在Adobe Workfront中共享报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  有关共享报表的更多信息，请参阅文章[在Adobe Workfront中共享报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)。
 * 当您计划发送提示报告时，电子邮件附件中的报告包含提示报告的数据。 当用户单击电子邮件中的链接以访问报告时，必须首先登录才能查看报告并自行运行提示。
 
-  有关计划传送报表的信息，请参阅 [计划自动报表提交](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  有关计划传送报表的信息，请参阅[计划自动报表传送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。

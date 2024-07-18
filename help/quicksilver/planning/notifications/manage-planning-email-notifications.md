@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >贵公司必须是AdobeUnified Experience客户才能接收来自Workfront Planning的通知。
 >
->有关信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>有关信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-有关在记录评论中标记其他人的信息，请参阅 [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md).
+有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ## 访问要求
 
@@ -42,7 +42,7 @@ ht-degree: 0%
    <p> 产品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要从Workfront Planning接收通知并管理通知首选项，必须将贵组织的Workfront实例载入到AdobeUnified Experience。 有关信息，请参阅 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">适用于Workfront的AdobeUnified Experience</a>.</p></td>
+   <p>要从Workfront Planning接收通知并管理通知首选项，必须将贵组织的Workfront实例载入到AdobeUnified Experience。 有关信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,9 @@ ht-degree: 0%
 
    ![](assets/email-notification-example.png)
 
-1. 单击以下文件中的消息： **Workfront** 盒子。
+1. 单击&#x200B;**Workfront**&#x200B;框中的消息。
 
    记录详细信息页面将在Workfront中打开。 您可以更新记录或回复评论。
 
-1. （视情况而定）如果可用，请单击 **查看所有通知**. <!--check with Lilit - do non-IMS users have this button??-->
-此 **通知** 页面将在Adobe Experience Cloud中打开。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
+1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
+将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。

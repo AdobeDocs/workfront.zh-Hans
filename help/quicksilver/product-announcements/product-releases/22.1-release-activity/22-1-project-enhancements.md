@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日这一周。
 
-有关22.1版本可用的所有更改列表，请参阅 [22.1发行版概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+有关22.1版本的所有可用更改列表，请参阅[22.1版本概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 在复制或移动任务时更改前置任务的默认选项
 
@@ -49,7 +49,7 @@ in January 2022
 * 我的报告面板列表
 * “共享报告面板”列表
 
-有关更多信息，请参阅 [创建和管理仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+有关详细信息，请参阅[创建和管理功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。
 
 ## 添加和编辑文档的自定义表单“摘要”面板
 
@@ -59,7 +59,7 @@ in January 2022
 
 以前，您必须转到文档详细信息中的自定义表单选项卡才能进行编辑或添加自定义表单。
 
-有关更多信息，请参阅 [文档摘要概述](../../../documents/managing-documents/summary-for-documents.md).
+有关详细信息，请参阅[文档概述](../../../documents/managing-documents/summary-for-documents.md)的摘要。
 
 ## 复制一个或多个任务时的新体验
 
@@ -71,13 +71,13 @@ in January 2022
 * Workfront会检查您是否有权在选择项目后立即访问目标项目。 在此增强功能之前，确认复制后会显示一则警告消息，指示您不具有正确的访问权限，这会导致额外的步骤，并且不允许复制操作。
 * 能够在不离开复制任务框的情况下请求对要复制任务的项目的访问权限。
 
-有关更多信息，请参阅 [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+有关详细信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 ## 从列表移动一个或多个任务时的新体验
 
 为了在执行同一任务时提供一致的体验，我们现在更新了用于从列表中移动一个或多个任务的界面，以在任务级别移动任务时匹配体验。 （在以前的预览版本中，我们更新了在任务级别移动任务的体验。）
 
-有关更多信息，请参阅 [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+有关详细信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
 ## 在任务级别移动任务时的新体验
 
@@ -89,13 +89,13 @@ in January 2022
 * Workfront将在选择目标项目后立即检查您是否可以访问该项目。 在作出此改进之前，Workfront警告您，确认移动后您不再具有正确的访问权限，这会导致额外的步骤，并且不允许移动。
 * 能够在不离开“移动任务”框的情况下请求对要移动任务的项目的访问权限。
 
-有关更多信息，请参阅 [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+有关详细信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
 
 ## 在问题级别使用模板将问题转化为项目时的新体验
 
 >[!NOTE]
 >
->此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。 (有关向生产环境发布此功能状态的最新更新，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。 （有关此功能发布到生产环境的最新状态更新，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。）
 
 为了让您在使用Workfront时与新的Workfront体验保持一致，我们重新设计了界面，在您从问题页面转换模板时将问题转换为项目时，使用该界面。
 
@@ -103,19 +103,19 @@ in January 2022
 
 重新设计的界面与我们最近更新的模板创建项目时的体验相匹配。
 
-有关更多信息，请参阅 [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 使用列表、报告和报告面板中的模板将问题转化为项目
 
 >[!NOTE]
 >
->此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。 (有关向生产环境发布此功能状态的最新更新，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。 （有关此功能发布到生产环境的最新状态更新，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。）
 
 为了提高您的工作效率并让您更轻松地在快节奏环境中转化问题，我们添加了使用列表、报告或功能板中的模板将问题转化为项目的功能。
 
 在此增强功能之前，仅当您从问题页面转换问题时，此功能才存在。
 
-有关更多信息，请参阅 [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 在敏捷展示板上按用户列表筛选，显示分配最多的用户排在首位
 
@@ -136,13 +136,13 @@ in January 2022
 
 有时候，人们会以为自己正在将文档添加到项目中，而将文档添加到项目模板中。 现在，您可以帮助防止出现这种情况 — 当您共享具有“查看”权限的模板时，可以禁用新的高级设置“添加文档”。 这将禁用收件人向模板添加文档的能力。
 
-有关共享模板的说明，请参阅 [共享项目模板](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+有关共享模板的说明，请参阅[共享项目模板](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-有关新的高级设置“添加文档”的信息，请参阅文章中的部分 [共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+有关新的高级设置“添加文档”的信息，请参阅文章[共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)中的部分。
 
 ## 共享文档文件夹
 
 现在，您可以从“文档”区域共享文档文件夹及其内容。 以前这样做是不可能的 — 您必须单独共享文件夹中的每个文档。
 
-有关更多信息，请参阅 [共享文档文件夹](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+有关详细信息，请参阅[共享文档文件夹](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 

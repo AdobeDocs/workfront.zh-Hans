@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta 4发布活动
-description: 本页介绍了2018.3 Beta 4版本预览环境中最近提供的所有更改。 该功能将于2018年8月30日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+title: 2018.3 Beta 4发行版活动
+description: 本页介绍了2018.3 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年8月30日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta 4发布活动
+# 2018.3 Beta 4发行版活动
 
-本页介绍了2018.3 Beta 4版本预览环境中最近提供的所有更改。 该功能将于2018年8月30日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+本页介绍了2018.3 Beta 4版本在“预览”环境中最近提供的所有更改。 该功能将于2018年8月30日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
 * [以组管理员身份更新用户配置文件中的报告结构](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**适用于所有用户**
+所有用户&#x200B;****
 
 * [从资源规划者导出更多信息](#export-more-information-from-the-resource-planner)
-* [任务列表改进](#task-list-improvements) 已从版本中删除
+* [任务列表改进](#task-list-improvements)已从版本中删除
 * [项目列表改进](#project-list-improvements)
-* [在甘特图编辑模式下编辑任务列表](#editing-the-task-list-in-gantt-chart-edit-mode) 已从版本中删除
+* [在甘特图编辑模式下编辑任务列表](#editing-the-task-list-in-gantt-chart-edit-mode)已从版本中删除
 * [测量工具颜色](#measurement-tool-colors)
-* [在新选项卡中打开的验证](#proofs-open-in-a-new-tab)  已从版本中删除
+* 在新标签页中打开的[验证](#proofs-open-in-a-new-tab)已从版本中删除
 
 * [打印摘要增强功能](#print-summary-enhancements)
 * [在Workfront移动设备应用程序中记录时间（以天为单位）](#log-time-in-days-in-the-workfront-mobile-app)
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 以前，只有Workfront管理员和具有用户管理访问权限的用户才有此功能。
 
-有关组管理员的信息，请参见 [组管理员](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+有关组管理员的信息，请参阅[组管理员](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 ## 从资源规划者导出更多信息 {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 以前，一次最多只能导出4周、月或季度。
 
-欲了解更多信息，请参见 [从资源规划者导出信息](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+有关详细信息，请参阅[从资源规划者](../../../../resource-mgmt/resource-planning/export-resource-planner.md)导出信息。
 
 ## 任务列表改进 {#task-list-improvements}
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
      所有更改在项目内的任务列表中可见，并在任务下的子任务选项卡中可见。
 
-有关在列表中工作的详细信息，请参阅 [开始使用Adobe Workfront中的列表](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关在列表中工作的更多信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
-有关在甘特图中链接任务的详细信息，请参阅 [通过链接任务创建前置任务关系](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+有关在甘特图中链接任务的详细信息，请参阅[通过链接任务创建前置任务关系](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)。
 
 ## 项目列表改进 {#project-list-improvements}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 2018.2版本中删除了此功能。
 
-有关在列表中工作的详细信息，请参阅 [开始使用Adobe Workfront中的列表](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关在列表中工作的更多信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 在甘特图编辑模式下编辑任务列表 {#editing-the-task-list-in-gantt-chart-edit-mode}
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 以前，当任务以甘特图的编辑模式显示时，您无法在任务上执行这些操作。 您可以在甘特图中未显示的任务列表中进行这些更改，但这些更改是立即进行的。
 
-有关在甘特图中编辑任务的信息，请参阅 [更新任务列表甘特图中的信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+有关在甘特图中编辑任务的信息，请参阅任务列表甘特图中的[更新信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 测量工具颜色 {#measurement-tool-colors}
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 >
 >* 此功能已从预览环境中删除，将不再包含在2018.3版本中。
 
-现在，当您在Workfront或Workfront Proof的任何位置打开验证时，验证查看器会在新的浏览器选项卡中启动，并且焦点将切换到该选项卡。 您可以在多个浏览器选项卡中工作，查看验证并继续在Workfront或Workfront Proof中处理项目、任务和问题。
+现在，当您在Workfront或Workfront Proof中的任意位置打开验证时，验证查看器会在新的浏览器选项卡中启动，并且焦点将切换到该选项卡。 您可以在多个浏览器选项卡中工作，查看验证并继续在Workfront或Workfront Proof中处理项目、任务和问题。
 
 以前，验证查看器在当前Workfront或Workfront Proof浏览器选项卡上方的框架中启动，导致该选项卡在关闭验证查看器之前无法访问。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
   以前，不包含阶段。
 
-有关更多信息，请参阅 [在Adobe Workfront中打印验证摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+有关详细信息，请参阅[在Adobe Workfront中打印校样摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ## 在Workfront移动设备应用程序中记录时间（以天为单位） {#log-time-in-days-in-the-workfront-mobile-app}
 
@@ -160,4 +160,4 @@ ht-degree: 0%
 
 有关在移动设备应用程序中记录时间的更多信息，请参阅。 
 
-此功能可立即在Android Beta版应用程序中测试。 
+可立即通过Android Beta应用程序测试此功能。 

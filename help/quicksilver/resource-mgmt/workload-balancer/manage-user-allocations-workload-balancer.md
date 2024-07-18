@@ -60,12 +60,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute权限或更高，包括“分配至要为其管理分配的任务和问题”。 </p> <p>或 </p> <p>管理要为其更新计划小时数和更新分配的任务的权限。 有关在工作负载均衡器中更新已计划小时数的信息，请参见 <a href="#update-task-planned-hours-when-managing-user-allocations">管理用户分派时更新任务已计划小时数</a> 部分。</p> </td> 
+   <td> <p>Contribute权限或更高，包括分配您要为其管理分配的任务和问题。 </p> <p>或 </p> <p>管理要为其更新计划小时数和更新分配的任务的权限。 有关在工作负载均衡器中更新已计划小时数的信息，请参阅本文中的<a href="#update-task-planned-hours-when-managing-user-allocations">管理用户分配时更新任务已计划小时数</a>部分。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 用户分配是指用小时数表示用户在某一给定的日期或工作日、周或月完成工作项目所花费的时间。 它们包含在工作项的计划小时数中。
 
-本文介绍了如何更新分配给任务或问题的用户的每日、每周或每月小时分配。 有关管理用户和任务职位角色的总体分配的信息，请参阅 [在任务中管理用户和角色分配小时数](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+本文介绍了如何更新分配给任务或问题的用户的每日、每周或每月小时分配。 有关管理用户和职位角色到任务的总体分配的信息，请参阅[管理用户和角色分配任务小时](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)。
 
 ### 用户分配概述 {#user-allocation-overview}
 
 可以在工作负载均衡器中将用户分配显示为小时数或百分比值。 您可以调整小时数或百分比。
 
-用户分配包含在工作项的已计划小时数中。 有关计划小时数的信息，请参阅 [计划小时数概述](../../manage-work/tasks/task-information/planned-hours.md).
+用户分配包含在工作项的已计划小时数中。 有关计划小时数的信息，请参阅[计划小时数概述](../../manage-work/tasks/task-information/planned-hours.md)。
 
 任务已计划小时数在任务持续时间内的所有天之间平均分配，分配给任务的用户。 例如，如果任务的工期为5天，计划小时总数为10小时，则任务的每日分配数为2小时。 每周分配时间为10小时。 这意味着用户会被分配每天工作2小时。 但是，您可以使用工作负载均衡器手动更改用户的每日分配。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 在工作负载均衡器中找到任务或问题的每日、每周或每月分配时，请考虑以下事项：
 
 * 您可以查看用户对其工作项的每日、每周和每月分配。 启用“周”或“月”视图以显示每周或每月分配。
-* 您可以使用工作负载均衡器修改每日、每周或每月将用户分配给任务或问题。 有关调整工作负载均衡器视图的信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 您可以使用工作负载均衡器修改每日、每周或每月将用户分配给任务或问题。 有关调整工作负载均衡器视图的信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
   >[!NOTE]
   >
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 * 如果两个用户处于与分配用户处于不同时区的不同时区或计划，则会导致分配金额对于查看相同工作项目的两个用户显示得不同。
 
-* 当用户有计划的休息时间时，一天或一天中的部分以灰色背景显示， <span class="preview">飞机图示表示休息时间</span>. 如果Workfront管理员在设置区域中启用了用户休息时间设置以考虑用户的休息时间，则分配的小时数将移至时间轴中的下一个可用日期。 如果禁用该设置，则分配的小时数将保留在标记为休息日的当天，并且用户显示为过度分配。 有关更多信息，请参阅 [配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 当用户已计划休息时间时，一天或一天的一部分以灰色背景显示，<span class="preview">并且飞机图标表示休息时间</span>。 如果Workfront管理员在设置区域中启用了用户休息时间设置以考虑用户的休息时间，则分配的小时数将移至时间轴中的下一个可用日期。 如果禁用该设置，则分配的小时数将保留在标记为休息日的当天，并且用户显示为过度分配。 有关详细信息，请参阅[配置系统范围的项目首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
   >[!TIP]
   >
-  >如果在将用户分配给工作项后标记了空闲时间，则必须重新计算项目的时间表以显示移动的分配。 有关信息，请参阅 [重新计算项目时间表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >如果在将用户分配给工作项后标记了空闲时间，则必须重新计算项目的时间表以显示移动的分配。 有关信息，请参阅[重新计算项目时间表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-   * <span class="preview">当多个用户被分配到任务并且主要被分配人已计划休息时间时，时间线会移动（如果日期不固定）并且所有被分配人的已计划小时数会在任务的新持续时间中重新分配。 如果任务有固定日期，则时间线不会因休息而更改，并且小时数会在剩余天数之间重新分配。</span>
+   * <span class="preview">当多个用户被分派到一个任务并且主要被分派人已计划休息时间时，时间线会移动（如果日期不固定）并且所有被分派人的计划小时数会在新的任务持续时间中重新分配。 如果任务具有固定日期，则时间线不会因休息而更改，并且小时数会在剩余天数中重新分配。</span>
    * <span class="preview">如果手动进行分配，则在休息时间后不会重新分配计划小时数。</span>
 
 * 如果有多个用户分配到任务，则计划小时数首先平均分配给每个用户，然后平均分配给任务持续时间内的每一天。 此分配成为每个用户向任务的分配。
@@ -133,13 +133,13 @@ ht-degree: 0%
    * 对于工期为2天且分配给一个用户的10个已计划小时数的任务，默认情况下，该用户的每日分配为每天5小时。
    * 对于工期2天且分配给两个用户10个已计划小时数的任务，默认情况下，每个用户的每日分配为2.5小时。
 
-* 如果任务或问题在计划完成日期之前完成，剩余天数的分配小时数将被清除，并且不计入用户的整体分配。 仅当同时启用显示分配图标和显示预计日期设置时，才会显示此字段。 有关启用工作负载均衡器中的设置的详细信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 如果任务或问题在计划完成日期之前完成，剩余天数的分配小时数将被清除，并且不计入用户的整体分配。 仅当同时启用显示分配图标和显示预计日期设置时，才会显示此字段。 有关在工作负载均衡器中启用设置的详细信息，请参阅[在工作负载均衡器中导航](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-  ![分配小时数](assets/allocations-struck-through-highlighted.png)
+  ![已分配小时数超过](assets/allocations-struck-through-highlighted.png)
 
 * 当用户分配过多时，其分配小时数在用户字段中以红色背景显示。
 * 当用户未充分分配或分配了相等数量的小时数到其计划的可用时间时，小时数将以蓝色背景显示。
-* 您可以在用户线中的图表视图中显示用户的分配。 有关为用户分配启用图表视图的信息，请参阅文章中的“导航工作负载均衡器”部分 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 您可以在用户线中的图表视图中显示用户的分配。 有关为用户分配启用图表视图的信息，请参阅文章[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)中的“导航工作负载均衡器”部分。
 
   ![用户分配图](assets/user-allocation-chart.png)
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 #### 重置已调整分配的操作 {#actions-that-reset-adjusted-allocations}
 
-在手动调整用户的每日、每周或每月分配后，以下操作会重置或修改这些分配，如 [修改用户分配](#modify-user-allocations) 部分：
+手动调整用户的每日、每周或每月分配后，以下操作会重置或修改这些分配，如本文中的[修改用户分配](#modify-user-allocations)部分所述：
 
 * 当缩短工作项的长度以缩短其持续时间中的天数时，来自丢失天的调整分配小时数将添加到该工作项最后一天的分配数量。
 * 当您更改分配或工作项上的计划小时数金额时，新的计划小时数会在工作项的整个持续时间中统一重新分配。
@@ -176,19 +176,19 @@ ht-degree: 0%
 * 任务或问题的总已计划小时数显示在工作负载均衡器的左侧任务或问题名称旁边。
 
 * 项目的总计划小时数显示在工作负载均衡器的左侧的项目名称旁边。 这表示工作负载均衡器中在项目下列出的所有任务和问题的计划小时数总数，而不是项目的所有计划小时数。
-* 仅当您手动启用“显示分配”设置时，才会显示所有任务和所有项目的每日或每周分配时间。 有关启用工作负载均衡器中的设置的信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* 仅当您手动启用“显示分配”设置时，才会显示所有任务和所有项目的每日或每周分配时间。 有关在工作负载均衡器中启用设置的信息，请参阅[在工作负载均衡器中导航](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 修改用户分配 {#modify-user-allocations}
 
-作为向用户分配工作的一部分，您可以修改工作负载均衡器中的用户分配，以确保不会过度分配用户分配，或确保资源之间的小时数准确平衡。 有关标识用户是否分配过量的信息，请参阅部分 [用户分配概述](#user-allocation-overview) 本文章中。
+作为向用户分配工作的一部分，您可以修改工作负载均衡器中的用户分配，以确保不会过度分配用户分配，或确保资源之间的小时数准确平衡。 有关识别用户是否过度分配的信息，请参阅本文中的[用户分配概述](#user-allocation-overview)部分。
 
-1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅 [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+1. 确保您已将任务和问题分配给用户。 有关在工作负载均衡器中将工作分配给用户的信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中分配工作的概述[。
 1. 转到工作负载均衡器。
-1. （可选）单击 **周** 或 **月** 管理用户的每周或每月分配。
+1. （可选）单击&#x200B;**周**&#x200B;或&#x200B;**月**&#x200B;以管理用户的每周或每月分配。
 
    ![选择周或月](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. 在 **已分派工作** 区域，找到要手动修改分配的用户，然后单击用户名左侧的右箭头展开该用户。
+1. 在&#x200B;**已分配的工作**&#x200B;区域中，找到要手动修改分配的用户，然后单击用户名左侧的右箭头以展开该用户。
 
    ![展开用户](assets/wb-highlight-on-name-caret2.png)
 
@@ -198,30 +198,30 @@ ht-degree: 0%
    >
    >您只能修改任务和问题的用户分配。 您无法修改项目的用户分配。
 
-1. （可选）单击 **显示分派项** 图标 ![](assets/show-allocations-icon-small.png) 以显示所有工作项的分配。
+1. （可选）单击&#x200B;**显示分派项**&#x200B;图标![](assets/show-allocations-icon-small.png)以显示所有工作项的分配。
 
    任务名称和项目名称会替换为任务或项目的用户分配。
 
-1. （可选）单击 **设置** 图标 ![](assets/gear-icon-settings.png) 并选择以下任一选项：
+1. （可选）单击&#x200B;**设置**&#x200B;图标![](assets/gear-icon-settings.png)并选择以下任一选项：
 
-   1. **包括来自问题的小时数**. 这样，除了任务分派之外，您还能管理问题分派。
-   1. **显示已完成工作**. 它显示在您管理分配的时间线内已完成并计划的项目。
-   1. **显示剩余时间**. 每个用户（在用户行中）的更改总小时数。 启用此设置后，工作负载均衡器显示每个用户可用于工作的小时数，而不是他们被分配的小时数。
+   1. **包括来自问题的小时数**。 这样，除了任务分派之外，您还能管理问题分派。
+   1. **显示已完成的工作**。 它显示在您管理分配的时间线内已完成并计划的项目。
+   1. **显示剩余时间**。 每个用户（在用户行中）的更改总小时数。 启用此设置后，工作负载均衡器显示每个用户可用于工作的小时数，而不是他们被分配的小时数。
 
       >[!TIP]
       >
       >启用此设置后修改分配会减少用户行中的总数。
 
-   1. **项目** 在 **选择颜色主题** 部分。 这将以独特的颜色显示每个项目及其各自的工作项，并使您更容易了解哪些项属于哪个项目。
-   1. **百分比** 在 **在中显示用户分配** 部分。 这会将分配显示为百分比值。 根据时间表，用户的容量被认为是100%。 例如，如果用户与每天8小时的时间表关联，则8小时等于100%的容量。 如果要将用户分配到每天工作4小时，则将其分配百分比更新为50%。
+   1. **选择颜色主题**&#x200B;部分中的&#x200B;**项目**。 这将以独特的颜色显示每个项目及其各自的工作项，并使您更容易了解哪些项属于哪个项目。
+   1. **百分比**&#x200B;在&#x200B;**显示**&#x200B;分区中的用户分配。 这会将分配显示为百分比值。 根据时间表，用户的容量被认为是100%。 例如，如果用户与每天8小时的时间表关联，则8小时等于100%的容量。 如果要将用户分配到每天工作4小时，则将其分配百分比更新为50%。
 
       >[!NOTE]
       >
-      >在“设置”的“资源管理”区域，Workfront管理员可决定在整个系统中使用哪个计划来计算用户的容量。 有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >在“设置”的“资源管理”区域，Workfront管理员可决定在整个系统中使用哪个计划来计算用户的容量。 有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-1. 单击 **更多** 菜单 ![](assets/qs-more-menu.png) 对于工作项，然后单击 **编辑分派项**.
+1. 单击工作项的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**编辑分配**。
 
-   ![工作项的更多菜单](assets/more-menu-on-task-wb-nwe.png)
+   工作项的![更多菜单](assets/more-menu-on-task-wb-nwe.png)
 
    或
 
@@ -229,11 +229,11 @@ ht-degree: 0%
 
    分配框变为可编辑。
 
-1. 单击每个每日、每周或每月分配的框，以手动更新希望为其分配用户的每天、每周或每月的小时数或百分比值，然后单击 **保存** 图标 ![](assets/checkmark-icon.png).
+1. 单击每个每日、每周或每月分配的框内，手动更新希望每天、每周或每月为用户分配的小时数或百分比值，然后单击&#x200B;**保存**&#x200B;图标![](assets/checkmark-icon.png)。
 
    >[!TIP]
    >
-   >单击 **取消** 图标 ![](assets/cancel-allocations-wb.png) 以删除已调整的分配。
+   >单击&#x200B;**取消**&#x200B;图标![](assets/cancel-allocations-wb.png)可删除已调整的分配。
 
    ![保存或取消已调整的分配](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >如果任务或问题在计划完成日期之前完成，剩余天数的分配小时数将被清除，并且不计入用户的整体分配。 仅当同时满足以下条件时，才会显示 **显示分派项** 图标和 **显示预计日期** 设置已启用。
+   >如果任务或问题在计划完成日期之前完成，剩余天数的分配小时数将被清除，并且不计入用户的整体分配。 仅当&#x200B;**显示分配**&#x200B;图标和&#x200B;**显示预计日期**&#x200B;设置都启用时，才会显示此选项。
 
    存在以下情况：
 
@@ -252,9 +252,9 @@ ht-degree: 0%
      >
      >当您开始调整分配时，任务名称的右侧将显示一个锁定图标，以指示该任务具有“简单持续时间类型”。
 
-     ![“锁定”图标](assets/lock-icon-on-simple-task-in-the-balancer.png)
+     ![锁定图标](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   有关在工作负载均衡器中更新已计划小时数需要满足的条件的更多信息，请参阅 [管理用户分派时更新任务已计划小时数](#update-task-planned-hours-when-managing-user-allocations) 部分。 有关任务持续时间类型的信息，请参阅 [任务工期和工期类型概览](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   有关在工作负载均衡器中更新计划小时数需要满足的条件的更多信息，请参阅本文中的“管理用户分配时更新任务计划小时数”[部分](#update-task-planned-hours-when-managing-user-allocations)。 有关任务持续时间类型的信息，请参阅[任务持续时间和持续时间类型概览](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 1. （视情况而定）如果任务被分配给多个用户，请对分配给任务的每个用户重复这些步骤，以更新每个用户的分配。
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 >
 >工作项名称的右侧将显示一个铅笔图标，指示已手动调整该工作项。
 
-![“手动调整小时数”图标](assets/icon-for-manually-adjusted-hours.png)
+![手动调整小时数图标](assets/icon-for-manually-adjusted-hours.png)
 
 ## 管理用户分派时更新任务已计划小时数 {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 更新任务的计划小时数可能会影响项目的进度。
->* 在将来的任务中移除分配时，通过更改每日分配来手动更新计划小时数可能会对计划小时数产生影响。 有关更多信息，请参阅 [计划小时数概述](../../manage-work/tasks/task-information/planned-hours.md).
+>* 在将来的任务中移除分配时，通过更改每日分配来手动更新计划小时数可能会对计划小时数产生影响。 有关详细信息，请参阅[计划小时数概述](../../manage-work/tasks/task-information/planned-hours.md)。
 >
 >* 无法通过更新工作负载均衡器中的分配来更新问题的规划小时数。
 
@@ -284,7 +284,7 @@ ht-degree: 0%
    * 管理任务的权限。
    * 在访问级别的资源管理区域的工作负载均衡器访问中更新已计划的小时数。
 
-  有关使用工作负载均衡器所需访问的更多信息，请参见 [访问要求](#access-requirements) 部分。
+  有关使用工作负载均衡器所需访问权限的更多信息，请参阅本文中的[访问要求](#access-requirements)部分。
 
 * 任务的持续时间类型为“简单”。
 

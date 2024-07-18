@@ -38,11 +38,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront 验证 </td> 
-   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</td> 
+   <td>您可以使最初在Workfront Proof中创建的验证在Workfront中可用。 对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://www.workfront.com/plans">Workfront计划</a>。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
-   <td>您可以从Experience Manager Assets Essentials将文档链接到Workfront。 有关更多信息，请参阅 <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> 适用于Experience Manager Assets Essentials的Adobe Workfront</a>.</td> 
+   <td>您可以从Experience Manager Assets Essentials将文档链接到Workfront。 有关详细信息，请参阅<a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">适用于Experience Manager Assets Essentials的Adobe Workfront</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
@@ -50,12 +50,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">其他文档提供程序（通过自定义文档集成）</td> 
-   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅 <a href="https://www.workfront.com/plans">Workfront计划</a>.</p> </td>
+   <td> <p class="workfront_plans">对于当前许可证，需要Pro Workfront计划或更高版本才能使用此功能。 对于新许可证，所有计划都包含此功能。 有关各种可用计划的详细信息，请参阅<a href="https://www.workfront.com/plans">Workfront计划</a>。</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-在链接文档或文件夹之前，Workfront管理员必须为每个文档提供商或自定义文档集成启用此功能，如中所述 [配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+在链接文档或文件夹之前，Workfront管理员必须为每个文档提供商或自定义文档集成启用此功能，如[配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
 您可以验证和批准链接到外部云提供商的文档，就像验证直接上传到Workfront的文档一样。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ### 先决条件 {#prerequisites}
 
-在链接文档或文件夹之前，Workfront管理员必须为每个文档提供商或自定义文档集成启用此功能，如中所述 [配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+在链接文档或文件夹之前，Workfront管理员必须为每个文档提供商或自定义文档集成启用此功能，如[配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
 ### 将外部文档链接到Workfront {#link-an-external-document-to-workfront}
 
@@ -115,19 +115,19 @@ ht-degree: 0%
 >
 >Dropbox根据文件路径存储文档。 因此，如果移动、重命名或删除了从Dropbox链接的文件，则该文件在Workfront中将变为无法访问状态。
 
-1. 转到 **文档** Workfront中需要文档的区域。
-1. 单击 **新增**，然后单击要将文档链接到Workfront的外部文档提供商。
+1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
+1. 单击“新建”****，然后单击要将文档链接到Workfront的外部文档提供商。
 
-   例如，要链接来自Dropbox的文档，请单击 **从Dropbox**.
+   例如，若要链接来自Dropbox的文档，请单击&#x200B;**来自Dropbox**。
 
    您已经授权的外部提供程序将显示在列表顶部。
 
-1. （视情况而定）如果系统提示您登录外部服务，请在显示的框中键入该服务的登录凭据，然后单击 **登录**.
-1. （视情况而定）如果系统提示您授权外部应用程序，请单击 **授权** 按钮。
+1. （视情况而定）如果系统提示您登录外部服务，请在显示的框中键入该服务的登录凭据，然后单击&#x200B;**登录**。
+1. （视情况而定）如果系统提示您授权外部应用程序，请单击&#x200B;**授权**&#x200B;按钮。
 
    您只需执行此操作一次。
 
-1. 在 **链接外部文件和文件夹** 在出现的框中，键入要搜索的项目名称，然后按 **输入** 以查看外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
+1. 在出现的&#x200B;**链接外部文件和文件夹**&#x200B;框的搜索框中，键入要搜索的项目名称，然后按&#x200B;**Enter**&#x200B;查看来自外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
 
    或
 
@@ -135,13 +135,13 @@ ht-degree: 0%
 
    虽然您可以选择多个文档，但仅链接在当前视图中选择的文档。 例如，如果您选择文档，然后进入文件夹，则最初选择的文档不会链接。
 
-1. （视情况而定）如果您是一位Workfront DAM客户，请单击 **缩略图** 图标，以将文件显示为缩略图。
+1. （视情况而定）如果您是Workfront DAM客户，请单击&#x200B;**缩略图**&#x200B;图标以将文件显示为缩略图。
 
    >[!NOTE]
    >
    >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和盒子)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
    在Workfront中，云提供商的图标显示在文档旁边。
 
@@ -154,24 +154,24 @@ ht-degree: 0%
 
 您可以添加从外部应用程序链接到Workfront的文档的新版本。
 
-1. 转到 **文档** 文档链接所在的区域，然后选择链接的文档。
+1. 转到链接文档的&#x200B;**文档**&#x200B;区域，然后选择链接的文档。
 
    >[!IMPORTANT]
    >
    >文档必须在链接的文件夹之外，才能创建新版本。
 
-1. 单击 **新增** > **版本**，然后单击外部文档提供商。
+1. 单击&#x200B;**新增** > **版本**，然后单击外部文档提供程序。
 
-   例如，要从Dropbox中链接文档的新版本，请单击 **从Dropbox**.
+   例如，若要从Dropbox链接文档的新版本，请单击&#x200B;**从Dropbox**。
 
    您已经授权的外部提供程序将显示在列表顶部。
 
-1. （视情况而定）如果系统提示您登录外部服务，请在显示的框中键入该服务的登录凭据，然后单击 **登录**.
-1. （视情况而定）如果系统提示您授权外部应用程序，请单击 **授权**.
+1. （视情况而定）如果系统提示您登录外部服务，请在显示的框中键入该服务的登录凭据，然后单击&#x200B;**登录**。
+1. （视情况而定）如果系统提示您授权外部应用程序，请单击&#x200B;**授权**。
 
    您只需执行此操作一次。
 
-1. 在 **链接外部文件和文件夹** 在出现的框中，键入要搜索的项目名称，然后按 **输入** 查看来自外部应用程序的所有结果，而不管这些结果存储在哪个文件夹中。
+1. 在出现的&#x200B;**链接外部文件和文件夹**&#x200B;框的搜索框中，键入要搜索的项目名称，然后按&#x200B;**Enter**&#x200B;查看来自外部应用程序的所有结果，无论这些结果存储在哪个文件夹中。
 
    或
 
@@ -179,13 +179,13 @@ ht-degree: 0%
 
    您可以选择多个文档；但是，只链接在当前视图中选择的文档。 例如，如果您选择文档，然后进入文件夹，则最初选择的文档不会链接。
 
-1. （视情况而定）如果您是一位Workfront DAM客户，请单击 **缩略图** 图标，以将文件显示为缩略图。
+1. （视情况而定）如果您是Workfront DAM客户，请单击&#x200B;**缩略图**&#x200B;图标以将文件显示为缩略图。
 
    >[!NOTE]
    >
    >从Workfront DAM链接文档时，Workfront DAM客户可以查看缩略图。 可能还会为Workfront DAM客户显示其他服务(如Dropbox和盒子)的缩略图。 但是，不支持在Workfront中查看Workfront DAM以外的服务的缩略图，并且在从SharePoint或Google Drive链接文档时从不显示缩略图。
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
    在Workfront中，云提供商的图标显示在文档旁边，指示它们已链接到外部云提供商。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    >
    >对于链接到Box的文档，在刷新页面之前，不会显示Box中文档的链接。
 
-有关添加从文件系统上传到Workfront的文档的新版本的信息，请参阅 [将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 在 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+有关将您从文件系统上传到Workfront的文档的新版本添加的信息，请参阅[将文档从文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)中的[将文档添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)。
 
 ### 链接Workfront Proof文档 {#link-workfront-proof-documents}
 
@@ -201,14 +201,14 @@ ht-degree: 0%
 
 您只能链接那些您在Workfront Proof中拥有查看权限的校样。
 
-1. 转到 **文档** Workfront中需要文档的区域。
-1. 单击 **新增**，然后单击 **来自Workfront Proof**.
+1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
+1. 单击&#x200B;**新增**，然后单击Workfront Proof中的&#x200B;****。
 
    >[!NOTE]
    >
    >根据环境中配置的第三方提供商，此菜单中的选项可能有所不同。
 
-1. 在 **来自Workfront Proof的链接校样** 框中，开始键入要在Workfront中提供的校样名称。
+1. 在出现的&#x200B;**从Workfront Proof链接校样**&#x200B;框中，开始键入要在Workfront中提供的校样名称。
 
    列表会在您键入内容时进行筛选。
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
    任何灰显的验证名称均不可链接，因为验证已与Workfront中的文档相关联。
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
    该验证的最新版本已链接到Workfront。 打开验证时，验证查看器中所有版本都可用。
 
@@ -224,11 +224,11 @@ ht-degree: 0%
 
 您可以在Workfront中创建新的Google文档。 您不能在Workfront中为其他云提供商创建新文档。
 
-1. 转到 **文档** Workfront中需要文档的区域。
-1. 单击 **新增** > **Google文件**，然后选择要创建的Google文档类型。
-1. 如果 **添加Google驱动器帐户** 框，单击 **授权Google Drive**.
+1. 转到Workfront中您想要获取文档的&#x200B;**文档**&#x200B;区域。
+1. 单击&#x200B;**新增** > **Google文件**，然后选择要创建的Google文档类型。
+1. 如果出现&#x200B;**添加Google驱动器帐户**&#x200B;框，请单击&#x200B;**授权Google驱动器**。
 
-   Google文档将添加到 **文档** 选项卡。
+   Google文档已添加到&#x200B;**文档**&#x200B;选项卡。
 
    >[!NOTE]
    >
@@ -245,9 +245,9 @@ ht-degree: 0%
 没有Workfront访问权限的用户可以在外部应用程序中查看文档（如果他们有权访问应用程序）。
 
 1. 选择在Workfront中上传的文档。
-1. 单击 **更多** >**发送至**，然后选择要存储链接文档的云提供商。
+1. 单击&#x200B;**更多** >**发送至**，然后选择要存储链接文档的云提供商。
 
-   您还可以使用更多菜单 ![](assets/more-icon.png) ，以执行此操作。
+   您还可以使用“文档详细信息”页面上的“更多”菜单![](assets/more-icon.png)来执行此操作。
 
 1. 在提供程序的应用程序中选择要存储文档的文件夹。
 
@@ -277,18 +277,18 @@ ht-degree: 0%
 
 ### 链接一个或多个外部文件夹 {#link-one-or-more-external-folders}
 
-1. 转到Workfront中要放置文件夹的区域，然后单击  **文档** ![](assets/document-icon.png) （在左侧面板中）。
+1. 转到Workfront中您希望文件夹所在的区域，然后单击左侧面板中的&#x200B;**文档** ![](assets/document-icon.png)。
 
-1. 单击 **新增**，然后单击要将文件夹链接到Workfront的外部文档提供商。
-1. （视情况而定）如果尚未授权外部服务，请为外部提供商指定登录凭据，然后单击 **登录**.
+1. 单击“新建”****，然后单击要将文件夹链接到Workfront的外部文档提供商。
+1. （视情况而定）如果尚未授权外部服务，请为外部提供程序指定登录凭据，然后单击&#x200B;**登录**。
 
    您已经授权的外部提供程序将显示在列表顶部。
 
-1. 在 **链接外部文件和文件夹** 框，浏览并选择要链接的文件夹。
+1. 在出现的&#x200B;**链接外部文件和文件夹**&#x200B;框中，浏览并选择要链接的文件夹。
 
    或
 
-   键入要搜索的文件夹的名称，然后按 **输入**.
+   键入要搜索的文件夹的名称，然后按&#x200B;**Enter**。
 
    您可以选择多个文件夹；但是，只链接在当前视图中选择的文件夹。 例如，如果您选择文件夹，然后进入文件夹，则不会链接您最初选择的文件夹。
 
@@ -296,11 +296,11 @@ ht-degree: 0%
    >
    >从Google驱动器链接文件夹时，只能链接位于个人驱动器（我的驱动器）和团队驱动器中的文件夹。 您无法从“与我共享”区域链接文件夹。
 
-1. 单击 **链接**.
+1. 单击&#x200B;**链接**。
 
    在Workfront中，云提供商的徽标显示在文件夹旁边，表示该文件夹已链接到外部云提供商。
 
-1. （可选）要重命名文件夹，以使Workfront中的文件夹名称不同于外部文档应用程序中的文件夹名称，请在 **文件夹** 部分，单击更多菜单 ![](assets/more-icon.png)  显示在文件夹名称旁边，然后单击 **重命名**.
+1. （可选）要重命名文件夹，以使Workfront中的文件夹名称不同于外部文档应用程序中的文件夹名称，请在&#x200B;**文件夹**&#x200B;分区中选择文件夹，单击文件夹名称旁边显示的“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**重命名**。
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
@@ -310,7 +310,7 @@ ht-degree: 0%
 
 您可以在现有的链接文件夹中创建新文件夹。 您还可以将另一个文件夹拖到现有的链接文件夹中。
 
-1. 要在现有的链接文件夹中创建新文件夹，请转到现有文件夹，然后按照中所述创建新文件夹 [创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md).
+1. 要在现有的链接文件夹中创建新文件夹，请转到现有文件夹，然后按照[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)中的说明创建新文件夹。
 
    或
 
@@ -329,11 +329,11 @@ ht-degree: 0%
 
 通过Workfront将文档添加到链接文件夹时，会自动添加为链接文档。
 
-1. 选择要在其中放置文档的链接文件夹，然后单击 **新增>文档**，然后浏览到文档并将其添加到文件夹。
+1. 选择要在其中插入文档的链接文件夹，单击&#x200B;**新增>文档**，然后浏览到文档并将其添加到文件夹中。
 
    或
 
-   在 **文档** 在需要文档的区域中，将文档拖到链接的文件夹中。
+   在您想要该文档的&#x200B;**文档**&#x200B;区域中，将该文档拖到链接的文件夹中。
 
    文档的新版本会自动在外部应用程序中创建，并链接到Workfront。
 
@@ -349,8 +349,8 @@ ht-degree: 0%
 
 从外部应用程序中删除链接的文档或文件夹时，该文档或文件夹将保留在Workfront系统中，直到您也从Workfront中删除它为止。
 
-1. 选择链接的文档或文件夹，然后单击 **删除**.
-1. 在显示的确认框中，单击 **是的，取消链接**.
+1. 选择链接的文档或文件夹，然后单击&#x200B;**删除**。
+1. 在出现的确认框中，单击&#x200B;**是，取消链接**。
 
    该文档将从Workfront网站取消链接。 它在外部应用程序中不受影响。
 

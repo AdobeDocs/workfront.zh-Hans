@@ -27,7 +27,7 @@ ht-degree: 7%
 
 作为Adobe Workfront管理员，您可以配置Workfront Web和移动应用程序以与用于单点登录(SSO)的安全断言标记语言(SAML) 2.0解决方案集成。
 
-在Workfront中配置SAML 2.0后（如以下部分所述），您可以维护配置，如中所述 [在身份提供程序中更新SAML 2.0元数据](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+在Workfront中配置SAML 2.0后，如以下部分所述，您可以维护配置，如在身份提供程序中[更新SAML 2.0元数据](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)中所述。
 
 ## 访问要求
 
@@ -57,7 +57,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,11 +65,11 @@ ht-degree: 7%
 
 {{step-1-to-setup}}
 
-1. 单击 **系统** > **单点登录(SSO)。**
+1. 单击&#x200B;**系统** > **单点登录(SSO)。**
 
-1. 在 **类型** 下拉列表，选择 **SAML 2.0。**
+1. 在&#x200B;**类型**&#x200B;下拉列表中，选择&#x200B;**SAML 2.0.**
 
-1. 在显示的选项顶部附近，单击 **下载SAML 2.0元数据** 以将该文件下载到您的计算机上。
+1. 在显示的选项顶部附近，单击&#x200B;**下载SAML 2.0元数据**&#x200B;以在计算机上下载文件。
 
    SAML 2.0身份提供程序需要一个XML文件，其中包含在Workfront实例中生成的信息。 下载文件后，您必须访问SAML 2.0身份提供程序服务器，并在该服务器上传Workfront SAML 2.0元数据XML文件。
 
@@ -81,7 +81,7 @@ ht-degree: 7%
     <tbody>
      <tr>
       <td role="rowheader">服务提供者标识 </td>
-      <td> 已为您填充的此URL将Workfront标识给您的身份提供程序。 例如： <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td> 已为您填充的此URL将Workfront标识给您的身份提供程序。 例如： <code>&lt;yourcompany&gt;.com/SAML2</code>。</td>
      </tr>
      <tr>
       <td role="rowheader">绑定类型</span> </td>
@@ -93,15 +93,15 @@ ht-degree: 7%
      </tr>
      <tr>
       <td role="rowheader">填充身份提供程序元数据中的字段 </td> 
-      <td>在SAML 2.0 Identity Provider解决方案中，导出服务提供程序元数据XML文件并将其保存到计算机上的临时位置。 选择 <strong>选择文件</strong>，然后查找并选择您保存的文件以将其添加到Workfront配置。</td> 
+      <td>在SAML 2.0 Identity Provider解决方案中，导出服务提供程序元数据XML文件并将其保存到计算机上的临时位置。 选择<strong>选择文件</strong>，然后查找并选择保存的文件以将其添加到Workfront配置。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">登录门户URL</span> </td> 
+      <td role="rowheader">登录入口URL</span> </td> 
       <td>输入贵组织的常用登录门户。 这是用户登录以访问Workfront和与SAML 2.0集成的所有其他应用程序的URL。</td> 
      </tr>
      <tr>
       <td role="rowheader">注销URL</span> </td> 
-      <td> <p>输入IDP服务器的注销URL。 Workfront在注销Workfront之前会向此URL发送HTTP请求。 当Workfront会话关闭时，这将关闭用户在远程服务器上的会话。</p> <p><b>注意</b>：只有在您有选项的情况下，才会将您重定向到注销URL <strong>仅允许SAML 2.0身份验证</strong> 在用户配置文件中启用。</p> </td>
+      <td> <p>输入IDP服务器的注销URL。 Workfront在注销Workfront之前会向此URL发送HTTP请求。 当Workfront会话关闭时，这将关闭用户在远程服务器上的会话。</p> <p><b>注意</b>：仅当您的用户配置文件中启用了<strong>仅允许SAML 2.0身份验证</strong>选项时，您才会被重定向到注销URL。</p> </td>
      </tr>
      <tr>
       <td role="rowheader">更改密码 URL </td> 
@@ -116,7 +116,7 @@ ht-degree: 7%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">自动配置用户</span> </td> 
+      <td role="rowheader">自动预配用户</span> </td> 
       <td> <p>当具有目录用户名和密码的新用户尝试首次登录Workfront时，此选项会自动在系统中创建用户。</p> <p>要在Workfront中创建用户，必须在目录提供程序中将Workfront数据属性映射到以下用户数据属性：</p> 
        <ul> 
        <li>名</li> 
@@ -126,9 +126,9 @@ ht-degree: 7%
        <p>选中该复选框后，将显示以下选项：</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>从下拉列表中选择要映射的Workfront用户属性，然后在用户目录中指定相应的目录属性。</p> 
-       <p>此 <strong>目录属性</strong> 字段应包含成功测试SAML 2.0配置时保存的“用户属性”表中的目录属性名称。</p> 
-       <p>您可以在中设置默认Workfront值 <strong>默认值</strong> 字段。 您还可以根据SAML 2.0身份提供程序的值设置规则。</p> 
-       <p><b>警告</b>：每次用户登录系统时，Workfront都会尝试映射下面列出的属性。 因此，我们不建议映射访问级别。 如果属性映射不正确，您可以轻松删除管理访问权限。 单击 <strong>添加映射</strong> 以添加其他规则。
+       <p><strong>Directory Attribute</strong>字段应包含成功测试SAML 2.0配置时保存的“用户属性”表中的目录属性名称。</p> 
+       <p>您可以在<strong>默认值</strong>字段中设置默认Workfront值。 您还可以根据SAML 2.0身份提供程序的值设置规则。</p> 
+       <p><b>警告</b>：每次用户登录系统时，Workfront都会尝试映射下列属性。 因此，我们不建议映射访问级别。 如果属性映射不正确，您可以轻松删除管理访问权限。 单击<strong>添加映射</strong>以添加其他规则。
        </p> 
        <p>您可以映射以下Workfront属性：</p> 
       <ul> 
@@ -156,7 +156,7 @@ ht-degree: 7%
       <li> <p>时间表配置文件</p> </li> 
       <li> <p>标题</p> </li> 
       </ul>
-      <p>单击 <strong>保存</strong> 完成用户属性的映射后。</p> </td> 
+      <p>完成映射用户属性后，单击<strong>保存</strong>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">证书 </td> 
@@ -170,19 +170,19 @@ ht-degree: 7%
      </tr> 
      <tr> 
       <td role="rowheader">启用 </td> 
-      <td> <p>在Workfront系统上激活SSO。 确保已向用户传达了登录说明。</p> <p>在Workfront中启用SSO配置后，您必须启用 <strong>仅允许SAML 2.0身份验证</strong> 为所有用户设置，以便他们可以使用SSO。</p> <p>有关为SSO更新用户的详细信息，请参见 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新单点登录的用户</a>.</p> <p>有关用户设置的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>.</p> </td> 
+      <td> <p>在Workfront系统上激活SSO。 确保已向用户传达了登录说明。</p> <p>在Workfront中启用SSO配置后，必须为所有用户启用<strong>仅允许SAML 2.0身份验证</strong>设置，以便他们可以使用SSO。</p> <p>有关更新SSO用户的详细信息，请参阅<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新单点登录的用户</a>。</p> <p>有关用户设置的详细信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户的配置文件</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">确认配置 </td> 
       <td> 
-      <p>单击 <strong>测试连接</strong> 验证Workfront和SAML 2.0身份提供程序是否可以相互通信。 仅当您交换XML文件时，此连接才成功。
+      <p>单击<strong>测试连接</strong>以验证Workfront和SAML 2.0身份提供程序是否可以相互通信。 仅当您交换XML文件时，此连接才成功。
       </p> 
       <p>成功测试SAML 2.0身份提供程序与Workfront之间的链接后，您会看到一个与下图类似的屏幕。</p>
-      <p><b>注意</b>：此屏幕以浏览器弹出窗口形式显示，因此请确保在浏览器中禁用弹出窗口阻止程序。</p>
+      <p><b>注意</b>：此屏幕显示在浏览器弹出窗口中，因此请确保禁用浏览器中的弹出窗口阻止程序。</p>
       <p>保存表中显示的信息以供以后使用。</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **保存** 以保存SAML 2.0配置。
+1. 单击&#x200B;**保存**&#x200B;以保存SAML 2.0配置。

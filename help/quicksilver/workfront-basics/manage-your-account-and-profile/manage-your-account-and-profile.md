@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: 管理您的帐户和配置文件
-description: 阅读本节中的文章，了解如何管理您的 [!DNL Workfront] 帐户和用户配置文件。
+description: 查看本节中的文章以了解如何管理 [!DNL Workfront] 帐户和用户配置文件。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog

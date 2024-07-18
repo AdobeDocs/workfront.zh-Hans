@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2019.2版本中包含的所有集成和移动设备增强功能。 此功能计划于2019年5月20日这一周在“生产”环境中可用。
 
-有关2019.2版中所做所有更改的列表，请参阅 [2019.2发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## WorkfrontMicrosoft Teams改进
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   在此增强功能之前，您无法在Microsoft Teams中禁用任何Workfront通知。
 
-  有关信息，请参阅 [在Microsoft Teams中管理Workfront通知和批准请求](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  有关信息，请参阅[在Microsoft Teams中管理Workfront通知和批准请求](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)。
 
 ## 更新了Workfront以实现Adobe Creative Cloud集成
 

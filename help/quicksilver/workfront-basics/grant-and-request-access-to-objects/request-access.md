@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文介绍了如何在Adobe Workfront Scenario Planner中请求对除计划之外的所有对象的权限。 有关请求访问计划的信息，请参阅 [在Scenario Planner中请求对计划的访问权限](../../scenario-planner/request-access-to-plan.md). 这需要额外的许可证。
+>本文介绍了如何在Adobe Workfront Scenario Planner中请求对除计划之外的所有对象的权限。 有关请求访问计划的信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求访问计划。 这需要额外的许可证。
 
-Workfront管理员会配置您对访问级别中某类对象的访问权限。 有关更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Workfront管理员会配置您对访问级别中某类对象的访问权限。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 如果您需要拥有Workfront中特定对象的权限，则可以请求对这些对象的访问权限。 您可以请求在Workfront中附加访问（或权限），而不是向Workfront管理员或对象所有者发送电子邮件来解释您的需求。
 
@@ -77,18 +77,18 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>查看您请求权限对象的访问权限或更高</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 了解标准共享规则
 
 以下标准共享规则在您的Workfront系统中设置为默认选项后，会自动生效。
 
-* 分配给任务或问题的用户具有任务或问题的Contribute访问权限。
+* 分配给任务或问题的用户具有其Contribute访问权限。
 * 项目、Portfolio和项目群经理对其拥有的对象具有管理访问权限。
 * 对话中包含的用户对对话发生的对象具有查看访问权限。
 * 分配为批准者的用户对等待批准的对象具有查看权限。
@@ -108,16 +108,16 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 要请求对对象的初始访问权限，请执行以下操作：
 
-1. 单击 **请求访问**.\
-   此 **请求访问** 对话框随即显示。
+1. 单击&#x200B;**请求访问**。\
+   显示&#x200B;**请求访问**&#x200B;对话框。
 
 1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。
 1. 从下拉列表中选择要接收访问请求的用户。\
    下拉列表中只显示10个用户。 该列表按字母顺序排序。\
-   有关此下拉菜单中列出的用户顺序的更多信息，请参阅  [“请求访问”和“请求更多访问”下拉菜单的层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 从下拉列表中，选择您请求的访问类型。
-1. （可选）在 **P.S.** 字段中，向用户指定有关您需要附加访问权限的注释。
+1. （可选）在&#x200B;**P.S.**&#x200B;字段中，为用户指定一个注释，说明您需要额外访问权限的原因。
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,18 +132,18 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 1. 转到要请求附加访问权限的对象。
 
-1. 单击 **更多** 菜单，然后单击 **请求更多访问权限**.
+1. 单击项目名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**请求更多访问权限**。
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. （视情况而定）如果多个用户具有授予您额外访问权限的相应访问权限，则用户名称旁边会显示一个下拉箭头。
 1. 从下拉列表中选择要接收访问请求的用户。\
    下拉列表中只显示10个用户。 该列表按字母顺序排序。\
-   有关此下拉菜单中列出的用户顺序的更多信息，请参阅  [“请求访问”和“请求更多访问”下拉菜单的层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   有关此下拉菜单中列出用户顺序的更多信息，请参阅“请求访问”和“请求更多访问”下拉菜单的[层次结构](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)。
 
 1. 从下拉列表中，选择您请求的访问级别。
-1. （可选）在 **P.S.** 字段中，指定有关为何需要附加访问权限的注释。
-1. 单击 **请求访问**.\
+1. （可选）在&#x200B;**P.S.**&#x200B;字段中，指定有关为何需要其他访问权限的注释。
+1. 单击&#x200B;**请求访问**。\
    ![](assets/request-access-dialog-350x314.png)
 
 ## “请求访问”和“请求更多访问”下拉菜单的层次结构 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront在“请求访问”和“请求更多访问”列表中最多显示10
 
 “请求访问”或“请求更多访问”下拉菜单中的用户顺序由以下规则指定：
 
-* 列表中的第一个用户是对象“所有者”，如中所述 [了解对象的所有者](#understand-the-owner-of-an-object).
+* 列表中的第一个用户是对象“所有者”，如[了解对象的所有者](#understand-the-owner-of-an-object)中所述。
 * 随后，该列表将填充单独共享该对象的用户。 它们按字母顺序列出。
 * 然后，该列表中进一步填充了通过与团队、组或公司共享而获得所需访问权限的用户。 它们按字母顺序列出。
 * 如果列表为空，则会添加Workfront管理员，以便始终有可向其请求访问权限的人员。 它们按字母顺序列出。
@@ -204,7 +204,7 @@ Workfront在“请求访问”和“请求更多访问”列表中最多显示10
    <td>所有者是创建者、报告或仪表板。 </td> 
   </tr> 
   <tr> 
-   <td>日历</td> 
+   <td>日程表</td> 
    <td>所有者是日历的创建者。 默认情况下，所有用户均有分配给他们的日历。 他们被视为该日历的所有者。 </td> 
   </tr> 
   <tr> 
@@ -213,11 +213,11 @@ Workfront在“请求访问”和“请求更多访问”列表中最多显示10
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>计划</span> </td> 
-   <td> <p><span>所有者是计划的创建者。</span> </p> <p>这需要额外的许可证。 </p> <p><span>有关Workfront Scenario Planner的信息，请参阅</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>.</p> </td> 
+   <td> <p><span>所有者是计划的创建者。</span> </p> <p>这需要额外的许可证。 </p> <p><span>有关Workfront Scenario Planner的信息，请参阅</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>目标</td> 
-   <td> <p>所有者是指定为所有者的用户。 他们可能与目标创建者不同。 </p> <p>这需要额外的许可证。 </p> <p>有关Workfront目标的信息，请参阅 <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront目标概述</a>. </p> </td> 
+   <td> <p>所有者是指定为所有者的用户。 他们可能与目标创建者不同。 </p> <p>这需要额外的许可证。 </p> <p>有关Workfront目标的信息，请参阅<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront目标概述</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

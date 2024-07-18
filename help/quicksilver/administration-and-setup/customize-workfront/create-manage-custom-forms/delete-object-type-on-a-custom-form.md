@@ -47,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 删除自定义表单上的对象类型
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms** 在左侧面板中。
-1. 选择要编辑的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon.png).
-1. 单击任意 **对象类型** 要从表单中删除的项目，然后单击 **删除** 在显示的警告消息上。
+1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 选择要编辑的自定义表单，然后单击![编辑图标](assets/edit-icon.png)。
+1. 单击要从表单中删除的任何&#x200B;**对象类型**&#x200B;上的X，然后在显示的警告消息上单击&#x200B;**删除**。
 
    ![](assets/click-x-object-types.jpg)
 
 1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
-1. 单击 **完成**，然后单击 **保存并关闭**.
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存并关闭**。

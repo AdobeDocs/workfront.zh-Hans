@@ -24,7 +24,7 @@ ht-degree: 0%
 * [审批工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [查看审批](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [提醒审批者已提交的审批](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
-* [将附加审批者添加到已提交的文档审批](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
+* [向提交的文档审批添加其他审批者](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
 * [查看提交的验证审批](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
 * [委托审批请求](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
 * [将新的或现有的审批流程与工作关联](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)

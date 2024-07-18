@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: 在中查看身份验证日志 [!DNL Workfront Proof]
-description: As a [!DNL Workfront Proof] 管理员，您可以查看已登录的每个用户的使用情况信息 [!DNL Workfront Proof].
+title: 查看 [!DNL Workfront Proof]中的身份验证日志
+description: 作为 [!DNL Workfront Proof] 管理员，您可以查看已登录 [!DNL Workfront Proof]的每个用户的使用情况信息。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d458989b-884f-4253-8dc9-9a545377cc63
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# 在中查看身份验证日志 [!DNL Workfront Proof]
+# 在[!DNL Workfront Proof]中查看身份验证日志
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-As a [!DNL Workfront Proof] 管理员，您可以查看已登录的每个用户的使用情况信息 [!DNL Workfront Proof].
+作为[!DNL Workfront Proof]管理员，您可以查看已登录[!DNL Workfront Proof]的每个用户的使用情况信息。
 
-1. 在左侧导航面板中，单击 **[!UICONTROL 活动]**.
-1. 在 **[!UICONTROL 校样和媒体日志]** 下拉菜单中，单击 **[!UICONTROL 身份验证日志]**.
-系统中将显示每个用户的登录历史记录。
+1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL 活动]**。
+1. 在&#x200B;**[!UICONTROL 验证和媒体日志]**&#x200B;下拉菜单中，单击&#x200B;**[!UICONTROL 身份验证日志]**。
+此时将显示系统中每个用户的登录历史记录。

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2020.2版本对生产环境的所有项目增强。 这些增强功能在2020年5月11日这一周的生产环境中提供。
 
-有关2020.2版本可用的所有更改列表，请参阅 [2020.2版概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+有关2020.2版本可用的所有更改列表，请参阅[2020.2版本概述](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)。
 
 ## 对于Workfront管理员：当新项目的项目状态为隐藏或解锁时，新增故障保护
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 为确保新项目始终具有状态，即使管理员隐藏或解锁为新项目配置的状态，系统现在也会将状态列表中的第一个状态分配给所有新项目，直到您再次为新项目配置新状态为止。
 
-有关为所有新项目的状态设置首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+有关设置所有新项目状态的首选项的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
 
 **在以下环境中可用：**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 如果为选项（如“每个工作日的典型小时数”）键入无效数字，则在单击“保存”后，将立即显示警告消息，而不是显示警告消息。
 * 选项标签与Workfront中其他位置的相应界面文本匹配，例如详细信息区域和报表。
 
-有关“项目首选项”区域的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
+有关“项目首选项”区域的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[设置项目首选项](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298))。
 
 **在以下环境中可用：**
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 在此更改之前，任务限制始终会尽快更改为。
 
-有关移动任务的信息，请参阅， [移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [移动任务](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
+有关移动任务的信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)(或者如果您使用的是Adobe Workfront Classic，请参阅[移动任务](https://one.workfront.com/s/article/Moving-Tasks-2081996259))。
 
-有关复制任务的信息，请参阅 [复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [复制和复制任务](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
+有关复制任务的信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)(或者，如果您使用的是Adobe Workfront Classic，请参阅[复制和复制任务](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605))。
 
-有关所有任务限制的概述，请参见 [任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅 [任务限制概述](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
+有关所有任务限制的概述，请参阅[任务限制概述](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您使用的是Adobe Workfront Classic，请参阅[任务限制概述](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848))。
 
 **在以下环境中可用：**
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 为了防止在手动保存更改时更新项目级别任务列表中的对象或任务的“详细信息”页面上的信息时丢失数据，现在会显示一条警告消息，在您尝试编辑标题中的信息之前通知您有未保存的更改。 在保存更改之前，只允许订阅对象或将对象添加到收藏夹。
 
-有关编辑列表中任务的信息，请参阅 [编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+有关编辑列表中的任务的信息，请参阅[编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
 **在以下环境中可用：**
 

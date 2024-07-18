@@ -84,14 +84,14 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须将主菜单中的规划区域和左侧面板中的规划部分添加到您的布局模板中。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须将主菜单中的规划区域和左侧面板中的规划部分添加到您的布局模板中。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 关于Workfront对象Planning部分的注意事项
 
@@ -113,11 +113,11 @@ ht-degree: 1%
    工作区将打开，记录类型显示为卡片。
 
 1. 单击连接到Workfront项目、项目组合或项目群的记录类型的卡。
-1. 在表格视图或记录的详细信息页面中，转到与Workfront对象有连接的已连接记录字段。 有关信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+1. 在表格视图或记录的详细信息页面中，转到与Workfront对象有连接的已连接记录字段。 有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 1. 在连接的记录字段中单击Workfront对象的名称。
 对象的页面将在Workfront中打开。
 
-1. 单击 **规划** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**Planning**。
 
    >[!NOTE]
    >
@@ -135,17 +135,17 @@ ht-degree: 1%
 
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
-1. （可选）单击 **在新选项卡中打开** 图标 ![](assets/open-details-in-a-new-tab-icon.png) 打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
-1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标 **-**，然后单击 **断开连接**.
+1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
+1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标&#x200B;**-**，然后单击&#x200B;**断开连接**。
 出现以下情况：
    * 记录不再连接到Workfront对象。
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
    * 连接到Planning记录的Workfront查找字段的值也会被删除。
-1. 单击 **连接** 连接更多记录。
+1. 单击&#x200B;**连接**&#x200B;以连接更多记录。
 
    >[!NOTE]
    >
-   >   “连接”按钮仅显示您拥有Contribute权限的工作区。 <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   “连接”按钮仅显示您拥有Contribute权限的工作区。<!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 单击要连接的记录。 出现以下情况：
 

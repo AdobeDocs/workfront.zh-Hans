@@ -4,7 +4,8 @@ description: 在Adobe Workfront Planning中记录类型的表视图中，可以�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-有关如何将字段指定为主字段的信息，请参见 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+有关如何将某个字段指定为主字段的信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 主要字段概述
 

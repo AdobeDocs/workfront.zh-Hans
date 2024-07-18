@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2020.1版的所有验证增强功能。 这些增强功能目前在“预览”环境中提供，并将于2020年3月底或4月初在“生产”环境中提供。
 
-有关2020.1版本可用的所有更改列表，请参阅 [2020.1版概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+有关2020.1版本可用的所有更改列表，请参阅[2020.1版本概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 验证查看者中测量工具的更新
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 此外，暂存设置的名称现在从一个自动工作流活动到另一个自动工作流活动是一致的。 以前，用于配置新验证的一些自动工作流暂存设置与现有验证的相应设置不同。
 
-有关更多信息，请参阅和 [为现有验证创建或编辑自动工作流](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+有关详细信息，请参见和[创建或编辑现有校对的自动工作流](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 
 ## 向自动工作流模板添加时区
 

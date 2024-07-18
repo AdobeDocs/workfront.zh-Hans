@@ -26,7 +26,7 @@ ht-degree: 2%
 
 您可以设置请求队列，用户可以在其中输入未在项目上计划的临时请求。 例如，可以设置技术支持请求队列来捕获到某个IT部门的所有用户请求。
 
-本文介绍了如何创建请求队列，以便用户提交请求。 有关如何向请求队列提交新请求的信息，请参阅 [复制并提交请求](../create-requests/copy-and-submit-requests.md).
+本文介绍了如何创建请求队列，以便用户提交请求。 有关如何向请求队列提交新请求的信息，请参阅[复制并提交请求](../create-requests/copy-and-submit-requests.md)。
 
 ## 访问要求
 
@@ -51,16 +51,16 @@ ht-degree: 2%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对项目的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p> 管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 +++
 
@@ -108,19 +108,19 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">队列详细信息</td> 
-   <td> <p>您必须在队列详细信息区域将项目设置为请求队列。 此步骤是强制性的。 </p> <p>欲了解更多信息，请参见 <a href="#create-a-request-queue" class="MCXref xref">创建请求队列</a> 部分。</p> </td> 
+   <td> <p>您必须在队列详细信息区域将项目设置为请求队列。 此步骤是强制性的。 </p> <p>有关详细信息，请参阅本文中的<a href="#create-a-request-queue" class="MCXref xref">创建请求队列</a>部分。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">主题组</td> 
-   <td> <p>它们是附加菜单，可根据常见功能对请求进行分类。 例如，对于IT请求队列，您可能需要“现场”和“远程”主题组。 </p> <p>有关更多信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">创建主题组</a>. </p> <p>这是可选的。</p> </td> 
+   <td> <p>它们是附加菜单，可根据常见功能对请求进行分类。 例如，对于IT请求队列，您可能需要“现场”和“远程”主题组。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">创建主题组</a>。 </p> <p>这是可选的。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">队列主题</td> 
-   <td> <p>它们是附加菜单，可根据常见功能对属于同一主题组的请求进行分类。 主题组可以包含多个队列主题。 </p> <p>例如，IT请求队列的“现场”主题组可能包含“硬件”、“软件”和“网络”队列主题。 </p> <p>有关更多信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">创建队列主题</a>. </p> <p>这是可选的。</p> </td> 
+   <td> <p>它们是附加菜单，可根据常见功能对属于同一主题组的请求进行分类。 主题组可以包含多个队列主题。 </p> <p>例如，IT请求队列的“现场”主题组可能包含“硬件”、“软件”和“网络”队列主题。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">创建队列主题</a>。 </p> <p>这是可选的。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">路由规则</td> 
-   <td> <p>利用它们，可将每个请求路由到用户、工作角色、团队或项目。 </p> <p>有关更多信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a>. </p> <p>这是可选的。</p> </td> 
+   <td> <p>利用它们，可将每个请求路由到用户、工作角色、团队或项目。 </p> <p>有关详细信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a>。 </p> <p>这是可选的。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,8 +137,8 @@ You must have the following access to perform the steps in this article:
 创建请求队列：
 
 1. 转到要设置为请求队列的项目。
-1. （可选）单击 **项目详细信息** 在左侧面板中并添加 **描述** 中的项目 **概述** 区域。 此信息将显示在所有新请求中。
-1. 单击 **队列详细信息** 在左侧面板中。 您可能需要单击 **显示更多**，则 **队列详细信息**.
+1. （可选）单击左侧面板中的&#x200B;**项目详细信息**，然后向&#x200B;**概述**&#x200B;区域中的项目添加&#x200B;**描述**。 此信息将显示在所有新请求中。
+1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**队列详细信息**。
 
    这将打开队列详细信息部分。
 
@@ -146,10 +146,10 @@ You must have the following access to perform the steps in this article:
 
 1. 指定以下信息：
 
-   * **作为帮助请求队列发布：** 选择此选项可将此项目标识为请求队列。 所有传入问题都被视为请求。\
+   * **Publish作为帮助请求队列：**&#x200B;选择此选项可将此项目标识为请求队列。 所有传入问题都被视为请求。\
      如果未选择此选项，则项目的行为与Workfront中的标准项目类似，并且所有传入问题都是问题。
 
-   * **可以将请求添加到此队列的人员：** 选择哪些用户有权向此队列添加请求。 您可以允许以下用户组在添加新请求时，在其全局导航栏的请求区域中查看请求队列：
+   * **可以将请求添加到此队列的人员：**&#x200B;选择哪些用户有权将请求添加到此队列。 您可以允许以下用户组在添加新请求时，在其全局导航栏的请求区域中查看请求队列：
 
      | 谁可以输入请求 | 描述 |
      |---|---|
@@ -160,7 +160,7 @@ You must have the following access to perform the steps in this article:
 
      {style="table-layout:auto"}
 
-   * **通过以下链接共享：** 通过以下选项，您可以向Workfront外部的用户或使用外部页面的Workfront用户提供对请求队列及其关联表单的直接访问。 有关将请求队列作为外部页面嵌入功能板的信息，请参阅 [在功能板中嵌入请求队列](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+   * **与这些链接共享：**&#x200B;通过下列选项，您可以向Workfront外部的用户或使用外部页面的Workfront用户提供对请求队列及其关联表单的直接访问。 有关将请求队列作为外部页面嵌入仪表板的信息，请参阅[将请求队列嵌入仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)。
 
      用户必须已具有请求队列的访问权限才能获得直接访问权限。 使用此处描述的任一选项都不会自动授予用户访问权限。
 
@@ -168,7 +168,7 @@ You must have the following access to perform the steps in this article:
      >
      >用户从其他应用程序访问“请求队列”页面时，必须先登录到Workfront，然后才能获得对请求队列的访问权限。
 
-      * **直接访问URL：** 当用户从浏览器访问此URL时，用户将被直接带到“请求”区域的“新建请求”部分，并且默认情况下会为他们选择该请求。
+      * **直接访问URL：**&#x200B;当用户从浏览器访问此URL时，用户将被直接带到“请求”区域的“新建请求”部分，并且默认情况下会为他们选择此请求。
 
         ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
@@ -176,14 +176,14 @@ You must have the following access to perform the steps in this article:
         >
         >您可以在功能板中将“请求队列”显示为外部页面。 在这种情况下，会预先选择请求队列，但您可以从请求类型字段中选择任何其他请求队列。 用户可以更改请求类型。 还会显示请求的导航组件。
 
-      * **嵌入代码：** 使用此HTML代码可将HTML队列表单作为iframe嵌入到任意请求页面中。\
+      * **嵌入代码：**&#x200B;使用此HTML代码将请求队列表单作为iframe嵌入到任何HTML页面中。\
         如果用户在查看嵌入了代码的页面时尚未通过Workfront的身份验证，则会显示“Workfront登录”对话框。 用户登录后，将显示“请求队列”表单。
 
         >[!NOTE]
         >
         >在iframe中显示请求队列时，仅显示请求表单，请求名称会预先选定并变暗。 用户无法更改请求类型。 请求区域的导航组件不显示。
 
-        为了在使用此嵌入代码时显示请求队列表单，您必须在系统设置中启用“允许在iframe中嵌入Workfront”设置。 有关在iframe中启用Workfront嵌入的更多信息，请参阅 [配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). 如果未启用此设置，则iframe将显示为空白。
+        为了在使用此嵌入代码时显示请求队列表单，您必须在系统设置中启用“允许在iframe中嵌入Workfront”设置。 有关在iframe中启用Workfront嵌入的详细信息，请参阅[配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。 如果未启用此设置，则iframe将显示为空白。
 
         您可以调整嵌入表单的显示方式的各个方面，如下所示：
 
@@ -207,18 +207,18 @@ You must have the following access to perform the steps in this article:
           </tr> 
           <tr> 
            <td> <p>显示并允许用户更改预配置的主题组下拉列表</p> </td> 
-           <td> <p>使用“path”参数，方法是添加 <code>showPreSelectedOptions=true</code> 参数到 <code>src URL</code>.</p> </td> 
+           <td> <p>通过将<code>showPreSelectedOptions=true</code>参数添加到<code>src URL</code>来使用“path”参数。</p> </td> 
           </tr> 
           <tr> 
            <td> <p>检测表单何时提交</p> </td> 
-           <td> <p>将“message”事件侦听器添加到网页窗口，并检查是否 <code>event.data.type</code> 是 <code>requestSubmitted</code>. <code>event.data.newIssueID</code> 将被设置为已创建问题的ID。</p> </td> 
+           <td> <p>将“message”事件侦听器添加到网页窗口，并检查<code>event.data.type</code>是否为<code>requestSubmitted</code>。 <code>event.data.newIssueID</code>将设置为已创建问题的ID。</p> </td> 
           </tr> 
          </tbody> 
         </table>
 
-   * **请求类型：** 从下面的默认选项中选择。
+   * **请求类型：**&#x200B;从以下默认选项中选择。
 
-     Workfront管理员可以重命名默认请求类型。 有关重命名请求类型的更多信息，请参阅 [自定义默认问题类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+     Workfront管理员可以重命名默认请求类型。 有关重命名请求类型的详细信息，请参阅[自定义默认问题类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)。
 
       * 错误报告
       * 更改顺序
@@ -229,31 +229,31 @@ You must have the following access to perform the steps in this article:
 
      >[!NOTE]
      >
-     >仅当在队列详细信息和队列主题页面中都选择了请求类型时，请求类型才会在请求区域显示为选择。 有关设置项目的队列详细信息区域的信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >仅当在队列详细信息和队列主题页面中都选择了请求类型时，请求类型才会在请求区域显示为选择。 有关设置项目的队列详细信息区域的信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
      此处选择的每种类型都可在表单上使用（您可以选择多种类型）。 选择多种类型可帮助组织传入的多个请求。\
      例如，如果您在IT项目的请求队列中使用表单，则队列中可能会包含以下请求类型：硬件、软件、错误修复和问题。
 
-   * **默认持续时间：** 默认持续时间是完成问题通常需要的时间。 这会成为所有传入问题的默认值，可以手动修改。 持续时间通常以小时、天或周设置。 问题的默认持续时间与问题的已计划小时数相同。 问题的计划完成日期根据此字段计算。\
-     问题持续时间的默认值为1天或8小时。 如果Workfront管理员将每个工作日的典型小时数设置为小于8小时，则问题的默认持续时间仍为8小时。 例如，如果“每个工作日的典型小时数”设置为7小时，则问题的默认持续时间为1.14天或8小时。 有关如何设置系统“每个工作日的典型小时数”的更多信息，请参阅文章中的“时间线计算”部分 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * **默认持续时间：**&#x200B;默认持续时间是完成问题通常需要的时间。 这会成为所有传入问题的默认值，可以手动修改。 持续时间通常以小时、天或周设置。 问题的默认持续时间与问题的已计划小时数相同。 问题的计划完成日期根据此字段计算。\
+     问题持续时间的默认值为1天或8小时。 如果Workfront管理员将每个工作日的典型小时数设置为小于8小时，则问题的默认持续时间仍为8小时。 例如，如果“每个工作日的典型小时数”设置为7小时，则问题的默认持续时间为1.14天或8小时。 有关如何设置系统每个工作日的典型小时数的详细信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)一文中的“时间线计算”部分。
 
-   * **来自同一公司的人员将针对所有请求继承相同的权限。：** 选中后，提交到队列的所有请求对同一公司的用户可见。 用户可以在位于请求区域的所有请求部分中查看这些请求。 启用或禁用此设置时，它会影响所有未来的请求；而不会对信息产生追溯性影响。
-   * **当有人提出请求时，自动授予：** 当用户向请求队列发出请求时，将自动授予用户您选择用于该请求的权限级别。 从以下权限级别中选择：
+   * **来自同一公司的人员将为所有请求继承相同的权限。：**&#x200B;在选中时，提交到队列的所有请求对同一公司的用户可见。 用户可以在位于请求区域的所有请求部分中查看这些请求。 启用或禁用此设置时，它会影响所有未来的请求；而不会对信息产生追溯性影响。
+   * **当有人发出请求时，自动授予：**&#x200B;当用户向请求队列发出请求时，将自动授予用户您选择用于该请求的权限级别。 从以下权限级别中选择：
 
       * **查看访问权限**
-      * **Contribute访问权限**. 这是默认选项。
+      * **Contribute访问权限**。 这是默认选项。
       * **管理访问权限**
 
-     有关Workfront权限模型的信息，请参阅 [对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
+     有关Workfront权限模型的信息，请参阅[对象权限共享概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。\
      在此处设置权限可节省时间，而不必为每个传入请求授予权限。 选择此选项将影响所有未来的请求，但不会追溯影响现有请求。
 
    * **默认审批**：将审批流程与此请求队列关联。 仅问题批准流程在此下拉菜单中可见。 提交到此队列的所有问题都将与此审批流程相关联。 您的Workfront管理员必须定义系统级别的批准流程，然后才能将它与请求队列相关联。 对批准流程具有管理权限的用户也可以创建特定于组的批准流程。
 
      >[!IMPORTANT]
      >
-     >如果项目组发生更改，则附加到现有问题的组特定审批流程会变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的更多信息，请参阅 [组和审批流程更改如何影响分配的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >如果项目组发生更改，则附加到现有问题的组特定审批流程会变成一次性审批流程。 有关对项目组的更改或审批流程中的更改如何影响审批设置的详细信息，请参阅[组和审批流程更改如何影响分配的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)。
 
-     如果您有多个与请求队列关联的队列主题，我们建议您将审批流程与队列主题关联。 有关创建队列主题的详细信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     如果您有多个与请求队列关联的队列主题，我们建议您将审批流程与队列主题关联。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
      将审批流程添加到请求队列时，请考虑以下事项：
 
@@ -261,13 +261,13 @@ You must have the following access to perform the steps in this article:
       * 系统范围及组特定的批准流程会显示在列表中。 与项目组以外的组关联的审批流程不会显示在列表中。
 
    * **默认路由**：将路由规则与此请求队列关联。 使用传送规则，可以将提交至请求队列的新问题自动分配给正确的资源（用户、工作角色或团队），并分配给正确的项目。 提交到此队列的所有问题都将与此路由规则关联。 必须先配置路由规则，然后路由规则才会显示在“队列详细信息”部分中，然后才能将其与请求队列关联。\
-     如果有一个请求队列与多个队列主题相关联，我们建议您改为将路由选择规则与队列主题相关联。 有关创建路由规则的更多信息，请参阅 [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+     如果有一个请求队列与多个队列主题相关联，我们建议您改为将路由选择规则与队列主题相关联。 有关创建路由规则的更多信息，请参阅[创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
-   * **新问题字段：** 在 **向所有用户显示以下所选字段** 部分，选择您希望对提交请求到项目或向项目或任务添加问题的所有用户可见的任何字段。
+   * **新问题字段：**&#x200B;在&#x200B;**向所有用户显示以下所选字段**&#x200B;分区中，选择您希望向项目提交请求或向项目或任务添加问题的所有用户可见的任何字段。
 
      >[!TIP]
      >
-     >在队列详细信息部分中选择的新问题字段也与添加到项目的任何新问题相关联 <!--this is confusing: or to the tasks in the Issues section-->.
+     >在队列详细信息部分中选择的新问题字段也与添加到项目<!--this is confusing: or to the tasks in the Issues section-->的任何新问题相关联。
 
      当您启用任何“分配至”、“工作角色”或“团队”字段时，它们始终会在请求表单中重命名为“分配”，但您只能指定此处选定的分配类型。
 
@@ -275,7 +275,7 @@ You must have the following access to perform the steps in this article:
      >
      >如果在“队列详细信息”区域中选择了“指定给”，则只能在“请求”表单的“工作总揽”字段中输入用户。 在这种情况下，您无法输入职位角色或团队。
 
-   * **文档**：如果选择在新请求表单中显示文档部分，请选择文档上传部分的放置位置。 从以下项中选择：
+   * **文档**：如果选择在新请求表单中显示“文档”分区，请选择文档上传分区的放置位置。 从以下项中选择：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -294,7 +294,7 @@ You must have the following access to perform the steps in this article:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **将所有选定和未选定的字段显示给：** 选择您希望哪些用户查看新请求表单上的所有字段。 以下选项控制对表单上字段的访问。
+   * **将所有选定和未选定的字段显示给：**&#x200B;选择您希望哪些用户查看新请求表单上的所有字段。 以下选项控制对表单上字段的访问。
 
      | 哪些用户可以查看请求表单上的所有字段 | 描述 |
      |---|---| 
@@ -303,24 +303,24 @@ You must have the following access to perform the steps in this article:
      | 无用户 | 没有用户可以看到未选择的字段。 所有能够向此项目提交请求的用户只能看到所选的字段。 |
 
    * **自定义Forms**：选择要与请求队列关联的自定义表单。 只有问题自定义Forms可以从此下拉菜单中选择。 提交至请求队列的所有问题都将具有与其关联的选定表单。 必须先创建问题自定义表单，然后才能看到它们在队列详细信息部分显示。
-如果您有多个与请求队列关联的队列主题，我们建议您将自定义表单与队列主题关联。 有关为“请求队列”创建子部分的更多信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+如果您有多个与请求队列关联的队列主题，我们建议您将自定义表单与队列主题关联。 有关为请求队列创建子部分的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
      ![](assets/custom-forms-on-queue-details.png)
 
-     如果您有多个与请求队列关联的自定义表单，请拖放这些表单，以按所需的顺序对表单进行排序，顺序如下： **对Forms重新排序** 部分。
+     如果您有多个与请求队列关联的自定义表单，请拖放这些表单，以在&#x200B;**对Forms重新排序**&#x200B;部分中按照所需的顺序对它们进行排序。
 
      >[!TIP]
      >
-     >添加到“队列详细信息”部分的自定义表单还与添加到项目中的任何新问题相关联 <!--this is confusiong: or the tasks in the Issues  section-->.
+     >添加到“队列详细信息”部分的自定义表单还与添加到项目<!--this is confusiong: or the tasks in the Issues  section-->的任何新问题相关联。
 
-1. 继续选择 **电子邮件队列设置** 区域，允许用户通过电子邮件将请求发送到请求队列项目。
+1. 继续选择&#x200B;**电子邮件队列设置**&#x200B;区域中的设置信息，以允许用户通过电子邮件将请求发送到请求队列项目。
 
-   有关更多信息，请参阅 [允许用户通过电子邮件将问题发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+   有关详细信息，请参阅[允许用户通过电子邮件将问题发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
 1. 单击&#x200B;**保存**。\
    您的项目现在已配置为请求队列，用户现在可以向其中添加请求。
 
 1. （可选）要增强请求队列功能，请为您的队列构建其他子部分，以及用于将传入请求路由到正确团队、被分派人或项目的规则。
 
-   * 有关为请求队列创建子部分的信息，请参阅文章 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) 和 [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
-   * 有关将请求路由到相应的被分配人、团队和相应的项目的信息，请参阅 [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * 有关为请求队列创建子部分的信息，请参阅文章[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)和[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
+   * 有关将请求路由到适当的被分配人、团队和适当项目的信息，请参阅[创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。

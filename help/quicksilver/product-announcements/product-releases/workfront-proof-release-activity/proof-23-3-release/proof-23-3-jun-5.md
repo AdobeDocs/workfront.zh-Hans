@@ -25,10 +25,12 @@ ht-degree: 0%
 
 为了维护强大且可扩展的验证处理解决方案，我们将更改受支持的Microsoft Office文件类型和文件大小限制。
 
-不再支持将以下Office文件类型作为验证：XLT、XLTX、DOT、DOTX、POT、POTX、PPS、PPSX
+不再支持将以下Office文件类型作为校样：
+XLT， XLTX， DOT， DOTX， POT， POTX， PPS， PPSX
 
-用户可以继续为以下Office文件类型创建验证：DOC、DOCX、PPT、PPTX、XLS、XLSX
+用户可以继续为以下Office文件类型创建验证：
+DOC， DOCX， PPT， PPTX， XLS， XLSX
 
 PowerPoint和Word文件大小限制现在为512MB。
 
-有关更多信息，请参阅 [支持的校对文件类型和大小限制概述](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+有关详细信息，请参阅[支持的校对文件类型和大小限制概述](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)。

@@ -22,11 +22,11 @@ ht-degree: 3%
 DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
-作为Adobe Workfront管理员，您可以创建组以整理用户和项目并在Workfront中分配访问权限。 有关更多信息，请参阅 [组概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+作为Adobe Workfront管理员，您可以创建组以整理用户和项目并在Workfront中分配访问权限。 有关详细信息，请参阅[组概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)。
 
 每个子组至少需要一个组管理员。 组管理员可以使用“组”页面在一个位置管理其组。
 
-如果您是组管理员或Workfront管理员，则还可以在组下创建子组。 有关说明，请参阅 [创建子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+如果您是组管理员或Workfront管理员，则还可以在组下创建子组。 有关说明，请参阅[创建子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
 ## 访问要求
 
@@ -42,30 +42,30 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
 ## 从头开始创建顶级组
 
-这些步骤说明了如何从头开始创建新组。 有关通过复制现有组或子组来创建组或子组的信息，请参见 [通过复制现有组或子组创建顶层组](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) 本文章中。
+这些步骤说明了如何从头开始创建新组。 有关通过复制现有组或子组来创建组或子组的信息，请参阅本文中的[通过复制现有组或子组来创建顶级组](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)。
 
 您必须是Workfront管理员才能创建顶级组。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **组** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
-1. 在组列表上方，单击 **新建组**.
+1. 在组列表上方，单击&#x200B;**新建组**。
 
    >[!TIP]
    >
-   >在组列表的底部，您还可以单击 **添加更多组** 以添加内联组，然后单击 **输入** 完成添加组信息后。
+   >在组列表的底部，您还可以单击&#x200B;**添加更多组**&#x200B;以内联添加组，然后在添加完组信息后单击&#x200B;**Enter**。
 
-1. 在 **新建组** 在显示的框中，键入组的名称。
+1. 在显示的&#x200B;**新建组**&#x200B;框中，键入组的名称。
 1. 指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -82,23 +82,23 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
      </tr> 
      <tr> 
       <td role="rowheader">为活动</td> 
-      <td> <p>（默认启用）在Workfront实例中激活组。</p> <p>在如下所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>要简化用户的这项操作，您可以对当前未使用的组禁用“处于活动状态”选项。</p> <p>使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">报表元素：筛选器、视图和分组</a>.</p> </td> 
+      <td> <p>（默认启用）在Workfront实例中激活组。</p> <p>在如下所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>要简化用户的这项操作，您可以对当前未使用的组禁用“处于活动状态”选项。</p> <p>使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">报告元素：筛选器、视图和分组</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">使该组和子组公开</td> 
-      <td> <p>(仅在查看顶级组（而非子组）的详细信息时可用。) 启用此选项可允许组中具有编辑用户访问权限的用户（不是组的管理员）将此组及其子组添加到其他用户的用户配置文件中。</p> <p>对于公共组，任何具有编辑用户访问权限的用户（在组中或组外）都可以将该组添加到其他用户的配置文件中。 他们无法为专用组执行此操作。</p> <p>您只能在具有多个级别的组的层次结构中的顶层父组上编辑此选项。 父组的所有子组将继承其设置。</p> <p><b>注意</b>：  
+      <td> <p>(仅在查看顶级组（而非子组）的详细信息时可用。) 启用此选项可允许组中具有编辑用户访问权限的用户（不是组的管理员）将此组及其子组添加到其他用户的用户配置文件中。</p> <p>对于公共组，任何具有编辑用户访问权限的用户（在组中或组外）都可以将该组添加到其他用户的配置文件中。 他们无法为专用组执行此操作。</p> <p>您只能在具有多个级别的组的层次结构中的顶层父组上编辑此选项。 父组的所有子组将继承其设置。</p> <p><b>注释</b>：  
         <ul> 
          <li>不能将子组本身设为公用，但可以将其顶级父组设为公用，这样也可以使父代的所有子组设为公用。</li> 
          <li>默认情况下，属于公共组的子组是公用的，因此任何具有编辑用户访问权限的用户都可以将该子组添加到其他用户。</li> 
-        </ul> </p> <p>如果您需要有关编辑用户所需的访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>. 有关编辑用户的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户配置文件</a>.</p> </td> 
+        </ul> </p> <p>如果您需要有关编辑用户所需访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。 有关编辑用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">编辑用户的配置文件</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">商业领导 </td> 
-      <td> <p>您可以将一个用户指定为您管理的组的业务负责人。 业务负责人是为组制定业务决策的人员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">业务负责人概述</a><span>.</span></p> <p>如果人员还不是组的成员，则向此字段添加人员的姓名也会将其添加到组中。</p> <p><b>注意</b>：  
+      <td> <p>您可以将一个用户指定为您管理的组的业务负责人。 业务负责人是为组制定业务决策的人员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">业务负责人概述</a><span>.</span></p> <p>如果人员还不是组的成员，则向此字段添加人员的姓名也会将其添加到组中。</p> <p><b>注释</b>：  
         <ul> 
          <li>您必须先从“业务领导者”字段中移除其名称，然后才能从组中移除“业务领导者”。</li> 
-         <li>如果从“业务领导者”字段中移除该名称，则该用户仍然是组的成员，除非将其从组中移除。 有关从组中删除人员的说明，请参阅部分 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">管理组的成员资格</a> 在文章中 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">管理组</a>.</li> 
-        </ul> </p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">业务负责人概述</a>.</p> </td> 
+         <li>如果从“业务领导者”字段中移除该名称，则该用户仍然是组的成员，除非将其从组中移除。 有关从组中删除某人的说明，请参阅<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">管理组</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">管理组成员资格</a>部分。</li> 
+        </ul> </p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">业务负责人概述</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">组成员和组管理员</td> 
@@ -114,7 +114,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
     </tbody> 
    </table>
 
-1. 单击 **创建组**.
+1. 单击&#x200B;**创建群组**。
 
 ## 通过复制现有组或子组创建顶层组 {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
@@ -127,14 +127,14 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 要通过复制组或子组来创建新的顶层组，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **组** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 选择要复制的组，然后单击复制图标 ![](assets/copy-icon.png).
-1. 在 **复制组** 在出现的框中，键入 **组名称** ，以作为复制的组的。
+1. 选择要复制的组，然后单击复制图标![](assets/copy-icon.png)。
+1. 在出现的&#x200B;**复制组**&#x200B;框中，为复制的组键入&#x200B;**组名称**。
 
 1. 指定以下信息：
 
@@ -152,23 +152,23 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
      </tr> 
      <tr> 
       <td role="rowheader">为活动</td> 
-      <td> <p>（默认启用）在Workfront实例中激活组。</p> <p>在如下所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>要简化用户的这项操作，您可以对当前未使用的组禁用“处于活动状态”选项。</p> <p>使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">报表元素：筛选器、视图和分组</a>.</p>  </td> 
+      <td> <p>（默认启用）在Workfront实例中激活组。</p> <p>在如下所示的预输入字段中，当常规用户搜索组以将其附加到对象或与其共享对象时，列表中只会显示活动组。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>要简化用户的这项操作，您可以对当前未使用的组禁用“处于活动状态”选项。</p> <p>使用此字段，您可以轻松地根据活动或非活动状态查看、筛选和分组组列表。 有关在列表中使用视图、筛选器和分组的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">报告元素：筛选器、视图和分组</a>。</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">使该组和子组公开</td> 
-      <td> <p>(仅在查看顶级组（而非子组）的详细信息时可用。) 启用此选项可允许组中具有编辑用户访问权限的用户（不是组的管理员）将此组及其子组添加到其他用户的用户配置文件中。</p> <p>对于公共组，任何具有编辑用户访问权限的用户（在组中或组外）都可以将该组添加到其他用户的配置文件中。 他们无法为专用组执行此操作。</p> <p>您只能在具有多个级别的组的层次结构中的顶层父组上编辑此选项。 父组的所有子组将继承其设置。</p> <p><b>注意</b>：  
+      <td> <p>(仅在查看顶级组（而非子组）的详细信息时可用。) 启用此选项可允许组中具有编辑用户访问权限的用户（不是组的管理员）将此组及其子组添加到其他用户的用户配置文件中。</p> <p>对于公共组，任何具有编辑用户访问权限的用户（在组中或组外）都可以将该组添加到其他用户的配置文件中。 他们无法为专用组执行此操作。</p> <p>您只能在具有多个级别的组的层次结构中的顶层父组上编辑此选项。 父组的所有子组将继承其设置。</p> <p><b>注释</b>：  
         <ul> 
          <li>不能将子组本身设为公用，但可以将其顶级父组设为公用，这样还可以将父代的所有子组设为公用。</li> 
          <li>默认情况下，属于公共组的子组是公用的，因此任何具有编辑用户访问权限的用户都可以将该子组添加到其他用户。</li> 
-        </ul> </p> <p>如果您需要有关编辑用户所需的访问权限的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">授予用户访问权限</a>. 有关编辑用户的信息，请参阅 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">编辑用户配置文件</a>.</p> </td> 
+        </ul> </p> <p>如果您需要有关编辑用户所需访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">授予用户访问权限</a>。 有关编辑用户的信息，请参阅<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">编辑用户的配置文件</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">商业领导 </td> 
-      <td> <p>您可以将一个用户指定为您管理的组的业务负责人。 业务负责人是为组制定业务决策的人员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a><span>.</span></p> <p>如果人员还不是组的成员，则向此字段添加人员的姓名也会将其添加到组中。</p> <p><b>注意</b>：  
+      <td> <p>您可以将一个用户指定为您管理的组的业务负责人。 业务负责人是为组制定业务决策的人员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a><span>.</span></p> <p>如果人员还不是组的成员，则向此字段添加人员的姓名也会将其添加到组中。</p> <p><b>注释</b>：  
         <ul> 
          <li>您必须先从“业务领导者”字段中移除其名称，然后才能从组中移除“业务领导者”。</li> 
-         <li>如果从“业务领导者”字段中移除该名称，则该用户仍然是组的成员，除非将其从组中移除。 有关从组中删除人员的说明，请参阅部分 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">管理组的成员资格</a> 在文章中 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">管理组</a>.</li> 
-        </ul> </p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a>.</p> </td> 
+         <li>如果从“业务领导者”字段中移除该名称，则该用户仍然是组的成员，除非将其从组中移除。 有关从组中删除某人的说明，请参阅<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">管理组</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">管理组成员资格</a>部分。</li> 
+        </ul> </p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">业务负责人概述</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">组成员和组管理员</td> 
@@ -190,4 +190,4 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
    >* 如果原始组具有子组，则子组将添加到新组中，并且其名称默认为“原始子组名称（复制）”。
    >* 通过单击用户或子组名称右侧的X ，可以将任何用户或子组从原始组中删除。
 
-1. 单击 **创建组**.
+1. 单击&#x200B;**创建群组**。

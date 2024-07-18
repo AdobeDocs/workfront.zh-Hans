@@ -18,6 +18,6 @@ ht-degree: 0%
 
 * [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 * [在报告画布中配置表列](../../../reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-* [在报告画布中构建公式字段](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-* [在报告画布中对表行进行分组](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
+* [在报告画布中生成公式字段](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
+* 在报告画布中[对表行进行分组](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
 * [在报告画布中过滤表](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)

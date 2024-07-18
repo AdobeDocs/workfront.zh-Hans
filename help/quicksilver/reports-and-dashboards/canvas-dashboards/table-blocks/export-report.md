@@ -22,12 +22,12 @@ ht-degree: 2%
 
 ## 先决条件
 
-在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关详细信息，请参阅[报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 导出报告
 
 1. 导航到要导出的报告。
-1. 在报告标题中，单击 **更多** 图标 ![](assets/more-icon-27x15.png)，单击 **导出**，然后选择要创建的文件格式。
+1. 在报表标题中，单击&#x200B;**更多**&#x200B;图标![](assets/more-icon-27x15.png)，单击&#x200B;**导出**，然后选择要创建的文件格式。
 
    >[!NOTE]
    >

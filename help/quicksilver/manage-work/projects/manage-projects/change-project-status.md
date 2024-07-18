@@ -23,7 +23,7 @@ ht-degree: 0%
 
 否则，Adobe Workfront会在项目的所有任务和问题完成并审批后将项目自动标记为完成。
 
-有关项目完成模式的详细信息，请参阅 [编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+有关项目的完成模式的详细信息，请参阅[编辑项目](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 访问要求
 
@@ -55,22 +55,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有关更新到特定状态的注意事项
 
-* **将项目更新为完成时：** 确保已完成项目中的所有任务和问题。 当项目中存在未完成的任务或问题时，您无法选择项目的“完成”状态或任何其他等于“完成”的状态。 这包括批准任何处于“完成 — 未决批准”状态的任务或问题。
-* **将项目从“完成”更新为“当前”时：** 如果项目中的所有任务和问题均已完成，请确保将项目的完成模式设置为手动。 如果项目的完成模式为自动，则项目的状态保持为完成。
+* **将项目更新为完成时：**&#x200B;请确保项目中的所有任务和问题都已完成。 当项目中存在未完成的任务或问题时，您无法选择项目的“完成”状态或任何其他等于“完成”的状态。 这包括批准任何处于“完成 — 未决批准”状态的任务或问题。
+* **将项目从“完成”更新为“当前”时：**&#x200B;如果项目中的所有任务和问题均已完成，请确保项目的“完成模式”设置为“手动”。 如果项目的完成模式为自动，则项目的状态保持为完成。
 
 ## 更改项目状态
 
 1. 转到要更新其状态的项目。
-1. 在项目标题中，单击以下位置中状态的名称： **状态** 字段，然后选择新状态。
+1. 在项目标题中，单击&#x200B;**状态**&#x200B;字段中的状态名称，然后选择新状态。
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    或
 
-   单击 **更多** 菜单 ![](assets/qs-more-menu.png) 单击项目名称旁边的，然后单击 **编辑** 并在 **状态** 字段，然后单击 **保存**.
+   单击项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-menu.png)，然后单击&#x200B;**编辑**&#x200B;并在&#x200B;**状态**&#x200B;字段中选择新状态，然后单击&#x200B;**保存**。
 
    项目状态将更新为您选择的状态。

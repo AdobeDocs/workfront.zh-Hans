@@ -8,7 +8,8 @@ description: Workfront文档操作方法文章包含一个表，其中说明了�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
+exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
 
 如果给定文章的“访问要求”表中没有行，则该操作没有此类型的要求。
 
-某些行包含标记为“新”和“当前”的信息。 这是因为Workfront正在过渡到一个新的定价和打包模式，一些组织在该新模式下运营，而其他组织则仍在使用当前模式。 要了解贵组织使用哪种模型，请与Workfront管理员联系。 欲知详情，请参阅以下网站上的链接： [访问要求表](#the-access-requirements-table) 章节。
+某些行包含标记为“新”和“当前”的信息。 这是因为Workfront正在过渡到一个新的定价和打包模式，一些组织在该新模式下运营，而其他组织则仍在使用当前模式。 要了解贵组织使用哪种模型，请与Workfront管理员联系。 您可以在本文的[访问要求表](#the-access-requirements-table)部分中找到详细信息和指向信息的链接。
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <td role="rowheader">Adobe Workfront计划</td> 
    <td> Adobe Workfront计划是指贵组织已购买的一组功能。 大多数Workfront功能在所有计划中均可用，只有少数例外，这些功能主要与战略规划和企业控制相关。 
    <ul><li>要了解您的组织使用哪种Adobe Workfront计划（包括您的组织使用的是新打包模型还是当前打包模型），请联系您的Workfront管理员。</li>
-   <li>有关Workfront管理员如何查找您组织的Workfront计划的说明，请参阅 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">查看贵组织的集群和Workfront计划</a>.</li></ul> </td> 
+   <li>有关Workfront管理员如何查找您组织的Workfront计划的说明，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">查看您组织的群集和Workfront计划</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
@@ -46,9 +47,9 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <li>要了解您分配的许可证，请与Workfront管理员联系。</li>
    <li>Adobe Workfront正在过渡到一个新的定价和打包模式。 有关许可证的信息，请参阅：
    <ul>
-   <li>新增： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a></li>
+   <li>新： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a></li>
    <li>当前： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a></li></ul></li>
-   <li>如果您拥有正确的访问级别，但仍没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">创建或修改自定义访问级别</a>.
+   <li>如果您拥有正确的访问级别，但仍没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">创建或修改自定义访问级别</a>。
    </ul>
       </p> </td> 
   </tr> 
@@ -60,7 +61,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <li>Adobe Experience Manager Assets或Assets Essentials </li>
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront 场景计划器</li>
    </ul>
    <p>要了解您的组织是否已购买这些附加产品之一，请联系您的Workfront管理员。</p></td> 
   </tr> 
@@ -70,22 +71,22 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <ul>
     <li>Adobe Workfront正在过渡到一个新的定价和打包模式。 有关每个模型的访问级别的信息，请参阅：
    <ul>
-   <li>新增： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a></li>
+   <li>新： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新访问级别概述</a></li>
    <li>当前： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">访问级别概述</a></li></ul></li>
     <li>要了解访问级别的详细信息，请与Workfront管理员联系</li>
-    <li>如果您是Workfront管理员，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">配置对Adobe Workfront的访问权限</a> 了解有关授予访问级别中特定对象的访问权限的详细信息。</li>  
-   <li>如果您拥有正确的访问级别，但仍没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</li>
+    <li>如果您是Workfront管理员，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">配置对Adobe Workfront的访问权限</a>，了解有关授予访问级别中特定对象的访问权限的详细信息。</li>  
+   <li>如果您拥有正确的访问级别，但仍没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td><p>对象权限是指在创建单个Workfront对象或与您共享这些对象时，您对它们拥有的访问权限。 例如，您必须对特定项目具有查看权限才能查看该项目，即使您的访问级别允许您查看项目。 “访问要求”表的此部分描述了在文章中执行操作所需的任何特定对象权限。</p>
-   <p>有关请求对对象的附加访问权限的信息，请参阅 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>.</p><p>有关共享对象的信息，请参见 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">共享对象</a>.</p></td> 
+   <p>有关请求对对象的附加访问权限的信息，请参阅<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问权限</a>。</p><p>有关共享对象的信息，请参阅<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">共享对象</a>。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">布局模板</td> 
    <td><p>布局模板控制您在主菜单中看到的内容，并由Workfront管理员配置。 本行说明了Workfront的所有特定区域，您必须将这些区域包含在主菜单中才能执行此操作。</p><p>通常，如果文章指示您单击主菜单中的某个区域，而该区域在主菜单中不可见，请联系您的Workfront管理员以确定是否可以将该区域提供给您使用。</p><p>
-   有关Workfront管理员如何配置主菜单的信息，请参阅 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">使用布局模板自定义主菜单</a>.</p>
+   有关Workfront管理员如何配置主菜单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">使用布局模板自定义主菜单</a>。</p>
    </td> 
   </tr> 
   <tr> 
@@ -94,10 +95,8 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <ul><li>当前：当前许可证模型基于执行的操作数，对组织可以执行的操作没有限制。 </li>
    <li>旧版：旧版许可证基于方案是否能够连接到第三方应用程序，或者方案是否仅用于Workfront自动化。 </li>
    </ul>
-   有关Fusion许可的信息，请参阅 <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion许可证</a>.
+   有关Fusion许可的信息，请参阅<a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion许可证</a>。
    </td> 
   </tr> 
  </tbody> 
 </table>
-
-

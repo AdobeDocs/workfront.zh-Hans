@@ -40,7 +40,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->外部许可证不是付费许可证。 它主要用于与不使用Workfront的人共享文档。 有关更多信息，请参阅 [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>外部许可证不是付费许可证。 它主要用于与不使用Workfront的人共享文档。 有关详细信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。
 
 ## 许可证如何定义访问级别
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 您可以复制默认访问级别，并根据需要为用户自定义副本。 在许可证允许用于复制的访问级别的功能范围内，您可以调整访问设置以满足用户的需求。
 
-有关更多信息，请参阅 [访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 和 [创建或修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+有关详细信息，请参阅[访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)和[创建或修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ## 许可证计数
 
@@ -56,6 +56,6 @@ ht-degree: 2%
 
 例如，如果将标准访问级别分配给用户，则可用标准许可证的数量将减少1。
 
-您可以查看分配给用户的许可证和访问级别。 有关更多信息，请参阅 [列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+您可以查看分配给用户的许可证和访问级别。 有关详细信息，请参阅[列出用户的访问级别和许可证](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)。
 
-有关管理许可证的信息，请参见 [管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+有关管理许可证的信息，请参阅[管理系统中的可用许可证](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。

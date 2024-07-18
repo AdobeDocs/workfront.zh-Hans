@@ -3,21 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion模板概述
-description: Workfront Fusion模板功能允许您创建并使用现有模板作为起点 [!DNL Workfront Fusion] 方案。
+description: Workfront Fusion模板功能允许您创建并使用现有模板作为 [!DNL Workfront Fusion] 方案的起点。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] 模板概述
+# [!DNL Adobe Workfront Fusion]模板概述
 
-[!DNL Workfront Fusion] 模板功能允许您创建和使用现有模板作为您的起点 [!DNL Workfront Fusion] 方案。 模板表示一些常见用例，您可以根据组织和特定用例的需要对这些用例进行配置和修改。
+[!DNL Workfront Fusion]模板功能允许您创建和使用现有模板作为您的[!DNL Workfront Fusion]方案的起点。 模板表示一些常见用例，您可以根据组织和特定用例的需要对这些用例进行配置和修改。
 
-有关当前可用的Fusion模板的列表，请参阅 [当前可用的Adobe Workfront Fusion模板](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+有关当前可用的Fusion模板的列表，请参阅[当前可用的Adobe Workfront Fusion模板](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)。
 
 ## 访问要求
 
@@ -38,7 +39,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>  
    <td> 
-   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p> 
+   <p>当前：无[!DNL Workfront Fusion]许可证要求。</p> 
    <p>或</p> 
    <p>旧版：任意 </p> 
    </td>  
@@ -46,23 +47,23 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">产品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]计划：您的组织必须购买[!DNL Adobe Workfront Fusion]。</li><li>已包括[！UICONTROL Ultimate] [!DNL Workfront]计划： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p> 
+   <p>当前：您的组织必须购买[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 查看和选择融合模板
 
 在“模板”区域中，可以查看可用的模板、它们包含的应用程序及其结构。 您还可以搜索特定的应用程序或名称，并根据用例进行过滤。
 
-1. 单击 **模板** ![“模板”图标](assets/fusion-template-icon.png) 在左侧导航中。
+1. 在左侧导航中单击&#x200B;**模板** ![模板图标](assets/fusion-template-icon.png)。
 1. 要查看公开可用的模板，请单击“公开模板”选项卡。
 
    或
@@ -79,6 +80,6 @@ ht-degree: 1%
 
    此时将显示模板图表。
 
-1. 要开始从模板创建方案，请单击 **从模板创建新方案** 左下角。
+1. 若要开始从模板创建方案，请单击左下角的&#x200B;**从模板**&#x200B;创建新方案。
 
-有关从模板创建方案的说明，请参阅 [创建方案 [!DNL Adobe Workfront Fusion] 模板](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+有关从模板创建方案的说明，请参阅[使用 [!DNL Adobe Workfront Fusion] 模板创建方案](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)。

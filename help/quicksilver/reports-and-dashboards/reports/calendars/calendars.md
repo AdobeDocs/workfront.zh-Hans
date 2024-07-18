@@ -23,11 +23,11 @@ ht-degree: 0%
 
 阅读以下文章，了解Adobe Workfront中的日历报表：
 
-* [日历报表概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+* [日历报告概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [在日历报告中使用自定义日期字段](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [使用 [!UICONTROL 计划日期] 在日历报表中](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [使用 [!UICONTROL 预计日期] 在日历报表中](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-* [查看日历报告和事件详细信息](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
+* [在日历报告中使用[!UICONTROL 计划日期]](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [在日历报告中使用[!UICONTROL 预计日期]](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [查看日历报告和活动详细信息](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
 * [共享日历报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [编辑现有日历报告](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
 * [删除日历报告](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)

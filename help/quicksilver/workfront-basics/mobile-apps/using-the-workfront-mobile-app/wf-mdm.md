@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 对象 [!DNL Mobile Device Management] (MDM)
+# [!DNL Mobile Device Management] (MDM)的[!DNL Adobe Workfront]
 
-Adobe [!DNL Workfront] 已与一些合作伙伴合作 [!DNL Mobile Device Management] (MDM)平台，为组织提供更加安全和可控的移动体验。 此 [!DNL Workfront] 移动设备应用程序在以下移动设备管理平台上可用：
+Adobe[!DNL Workfront]已与一些[!DNL Mobile Device Management] (MDM)平台合作，为组织提供更加安全和可控的移动体验。 [!DNL Workfront]移动设备应用程序在以下移动设备管理平台上可用：
 
 ## MobileIron
 
-请参阅 [!DNL MobileIron]的帮助文档来安装 [!DNL Workfront] 其平台中的移动设备应用程序：
+请参阅[!DNL MobileIron]的帮助文档，以从其平台安装[!DNL Workfront]移动应用：
 
 * iOS
 * Android
 
-有关配置的信息 [!DNL Workfront] 对象 [!DNL MobileIron]，请参见 [配置 [!DNL Adobe Workfront] 对象 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+有关为[!DNL MobileIron]配置[!DNL Workfront]的信息，请参阅[为 [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)配置 [!DNL Adobe Workfront] 。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>

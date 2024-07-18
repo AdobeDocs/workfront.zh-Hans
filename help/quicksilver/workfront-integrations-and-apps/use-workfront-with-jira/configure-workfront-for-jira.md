@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: 配置 [!DNL Adobe Workfront for Jira]
-description: 您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 和 [!DNL Workfront] 系统。
+description: 您可以使用 [!DNL Adobe Workfront for Jira] 来集成 [!DNL Jira] 和 [!DNL Workfront] 系统。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# 配置 [!DNL Adobe Workfront for Jira]
+# 配置[!DNL Adobe Workfront for Jira]
 
 <!-- Audited: 12/2023 -->
 
-您可以使用 [!DNL Adobe Workfront for Jira] 集成 [!DNL Jira] 和 [!DNL Workfront] 系统。
+您可以使用[!DNL Adobe Workfront for Jira]来集成[!DNL Jira]和[!DNL Workfront]系统。
 
-安装加载项后，您可以定义用于创建 [!DNL Jira] 出现以下情况时自动问题 [!DNL Workfront] 将创建工作项。 两个应用程序中的项目会相互链接，并且其中的一些信息会在两个系统中自动更新。
+安装加载项后，您可以定义在创建[!DNL Workfront]工作项时自动创建[!DNL Jira]问题的工作流。 两个应用程序中的项目会相互链接，并且其中的一些信息会在两个系统中自动更新。
 
-中的所有用户 [!DNL Workfront] 和 [!DNL Jira] 将受益于此集成。 他们只需要许可证就可以使用他们最常使用的系统，而不需要许可证就可以同时使用两个系统。
+[!DNL Workfront]和[!DNL Jira]中的所有用户都可从此集成中受益。 他们只需要许可证就可以使用他们最常使用的系统，而不需要许可证就可以同时使用两个系统。
 
-此加载项同时适用于 [!UICONTROL 服务器] 和 [!UICONTROL 按需] (或 [!UICONTROL 云])个版本 [!DNL Jira] 软件。
+此加载项可用于[!DNL Jira]软件的[!UICONTROL 服务器]和[!UICONTROL OnDemand] （或[!UICONTROL 云]）版本。
 
-对于 [!DNL Jira] 版本 [!DNL Workfront for Jira] 当前支持，请参阅 [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) 在 [!DNL Atlassian Marketplace].
+有关[!DNL Workfront for Jira]当前支持的[!DNL Jira]版本的列表，请参阅[!DNL Atlassian Marketplace]上的[[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)。
 
 ## 访问要求
 
@@ -53,157 +53,157 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] 访问</td> 
-   <td> <p>系统管理员访问权限</p> <p>重要信息：我们建议您在中创建单独的系统管理员帐户 [!DNL Jira] 和 [!DNL Workfront] 以专门用于此集成，而不使用可能附加到用户的现有集成。</p> </td> 
+   <td> <p>系统管理员访问权限</p> <p>重要提示：建议您在[!DNL Jira]和[!DNL Workfront]中创建单独的系统管理员帐户以专门用于此集成，而不是使用可能附加到用户的现有帐户。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 先决条件
 
-在配置之前 [!DNL Workfront for Jira]，您必须：
+在配置[!DNL Workfront for Jira]之前，您必须：
 
-* 安装 [!DNL Workfront for Jira].
-有关安装的说明 [!DNL Workfront for Jira]，请参见 [安装 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+* 安装[!DNL Workfront for Jira]。
+有关安装[!DNL Workfront for Jira]的说明，请参阅[安装 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)。
 
-## 配置 [!DNL Workfront for Jira]
+## 配置[!DNL Workfront for Jira]
 
-通过配置 [!DNL Workfront for Jira]，您可以：
+通过配置[!DNL Workfront for Jira]，您可以：
 
-* 定义将创建的触发器 [!DNL Jira] 项目时间 [!DNL Workfront] 将创建项目。
-* 指定哪些字段应在链接到的项目之间同步 [!DNL Jira] 和 [!DNL Workfront].
-
->[!NOTE]
->
->* 配置之后 [!DNL Workfront for Jira] 在您的 [!DNL Jira] 环境，全部 [!DNL Jira] 用户看到 [!DNL Workfront] 全部右面板 [!DNL Jira] 个项目。 面板包含有关可能链接到的项的信息 [!DNL Workfront] 或指定 [!DNL Workfront] 项链接到 [!DNL Jira] 个项目。
->* 使用时 [!DNL Jira Server] 安装时，只有与标识为Workfront集成触发器的项目关联的问题才会显示Workfront面板。 有关设置触发器的详细信息 [!DNL Workfront to Jira] 工作流，请参见 [配置触发器以自动链接以下项之间的项： [!DNL Jira] 和 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
->
-
-配置 [!DNL Workfront for Jira]：
-
-1. 登录 [!DNL Jira] as a [!DNL Jira] 管理员。
-1. 单击 **[!UICONTROL 设置]** 在主页中 [!DNL Jira] 菜单。
-1. 单击 **[!UICONTROL 加载项]**，然后单击 **[!UICONTROL 管理加载项]**.
-
-1. 展开 **[!DNL Workfront]** 加载项。
-1. 单击 **[!UICONTROL 配置]**.
-1. 按照提示登录 [!DNL Workfront].
-
-   >[!NOTE]
-   >
-   >用户必须具有有效的 `apiKey` 在 [!UICONTROL Workfront] 创建成功的连接。
-
-   您必须登录到 [!DNL Workfront] as a [!DNL Workfront] 管理员以继续配置。
-
-   >[!NOTE]
-   >
-   >* [!UICONTROL Workfront] 连接到 [!DNL Jira] 使用OAuth 2.0，大多数基于Web的集成使用这一标准对用户进行身份验证和授权。
-   >* 当提示您输入域时， [!DNL Workfront] 帐户，使用以下格式键入它： *yourCompany&#39;sDomain.my.workfront.com*. 您公司的域通常是您公司的名称。
-   >* 增强身份验证在 [!DNL Workfront] 管理员会为此集成启用它。
-
-1. 在Jira中，选择 **[!UICONTROL 触发器]** 选项卡以配置自动创建 [!DNL Jira] 项作为新 [!DNL Workfront] 将创建项目。
-
-   有关为Workfront设置触发器的更多信息，请 [!DNL Jira] 工作流，请参见 [配置触发器以自动链接以下项之间的项： [!DNL Jira] 和 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
-
-1. 选择 **[!UICONTROL 设置]** 选项卡，以配置链接之间的字段同步 [!DNL Jira] 和 [!DNL Workfront] 个项目。
-
-   有关设置以下对象之间的字段同步的详细信息 [!DNL Jira] 和 [!DNL Workfront]，请参见 [配置字段同步，介于 [!DNL Jira] 和 [!DNL Workfront] 项目](#configure-field-synchronization-between-jira-and-workfront-items).
-
-   >[!NOTE]
-   >
-   >定义触发器和两个应用程序之间的字段同步后， [!DNL Workfront] 可以创建任务或问题的用户可能会触发在中创建项目 [!DNL Jira]. 如果所创建项目的条件与中的触发器匹配，则用户可以创建项目 [!DNL Jira]，即使用户没有 [!DNL Jira] 许可证。 此外，任何 [!DNL Jira] 用户可以立即开始使用 [!DNL Jira] 项，并且其更新在中可见 [!DNL Workfront]，但没有一个 [!DNL Workfront] 许可证。 中的任何更新 [!DNL Workfront] 也可在 [!DNL Jira] 个项目。
-
-1. （可选）选择 **[!UICONTROL 活动日志]** 选项卡，以查看集成期间可能发生的任何错误。
-
-   欲知关于 [!UICONTROL 活动日志]，请参见 [查看 [!DNL Jira] [!UICONTROL 活动日志]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
-
-## 配置触发器以自动链接以下项之间的项： [!DNL Jira] 和 [!DNL Workfront]
-
-作为 [!DNL Jira] 系统管理员定义的触发器可自动在中创建问题 [!DNL Jira] 当项目位于 [!DNL Workfront] 符合特定标准。
+* 定义将在创建[!DNL Workfront]项时创建[!DNL Jira]项的触发器。
+* 指定在[!DNL Jira]和[!DNL Workfront]之间链接的项之间应同步的字段。
 
 >[!NOTE]
 >
->集成最多可能需要10分钟才能在中创建新问题 [!DNL Jira].
+>* 在您的[!DNL Jira]环境中配置[!DNL Workfront for Jira]后，所有[!DNL Jira]用户都会看到针对所有[!DNL Jira]项目的[!DNL Workfront]右侧面板。 该面板包含有关可能从[!DNL Workfront]链接的项的信息，或指定没有[!DNL Workfront]项链接到[!DNL Jira]项。
+>* 使用[!DNL Jira Server]安装时，只有与标识为Workfront集成触发器的项目关联的问题才会显示Workfront面板。 有关为[!DNL Workfront to Jira]工作流设置触发器的详细信息，请参阅[配置触发器以自动链接介于 [!DNL Jira] 和 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)之间的项目。
+>
 
-配置触发创建时，请考虑以下事项 [!DNL Jira] 项作为 [!DNL Workfront] 将创建以下项目：
+要配置[!DNL Workfront for Jira]：
 
-* 集成是单向的：您只能触发在中创建的项目 [!DNL Workfront] 将在中自动创建 [!DNL Jira]. 您无法触发在中创建的项目 [!DNL Jira] 将在中自动创建 [!DNL Workfront].
+1. 以[!DNL Jira]管理员身份登录[!DNL Jira]。
+1. 在主[!DNL Jira]菜单中单击&#x200B;**[!UICONTROL 设置]**。
+1. 单击&#x200B;**[!UICONTROL 加载项]**，然后单击&#x200B;**[!UICONTROL 管理加载项]**。
+
+1. 展开&#x200B;**[!DNL Workfront]**&#x200B;加载项。
+1. 单击&#x200B;**[!UICONTROL 配置]**。
+1. 按照提示登录[!DNL Workfront]。
+
+   >[!NOTE]
+   >
+   >用户必须在[!UICONTROL Workfront]中具有有效的`apiKey`才能创建成功的连接。
+
+   您必须以[!DNL Workfront]管理员身份登录到[!DNL Workfront]才能继续配置。
+
+   >[!NOTE]
+   >
+   >* [!UICONTROL Workfront]使用OAuth 2.0连接到[!DNL Jira]，该标准由大多数基于Web的集成用于用户身份验证和授权。
+   >* 当系统提示您输入[!DNL Workfront]帐户的域时，请使用此格式键入该域： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
+   >* 在[!DNL Workfront]管理员为此集成启用增强身份验证之前，该身份验证不可用。
+
+1. 在Jira中，选择&#x200B;**[!UICONTROL 触发器]**&#x200B;选项卡，以便在创建新[!DNL Workfront]项时配置自动创建[!DNL Jira]项。
+
+   有关将Workfront的触发器设置为[!DNL Jira]工作流的详细信息，请参阅[配置触发器以自动链接介于 [!DNL Jira] 和 [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)之间的项目。
+
+1. 选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡以配置链接的[!DNL Jira]和[!DNL Workfront]项之间的字段同步。
+
+   有关设置[!DNL Jira]和[!DNL Workfront]之间的字段同步的详细信息，请参阅[配置 [!DNL Jira] 和 [!DNL Workfront] 项之间的字段同步](#configure-field-synchronization-between-jira-and-workfront-items)。
+
+   >[!NOTE]
+   >
+   >定义两个应用程序之间的触发器和字段同步后，任何可以创建任务或问题的[!DNL Workfront]用户都可能会触发在[!DNL Jira]中创建项目。 如果所创建项目的条件与[!DNL Jira]中的触发器匹配，则用户可以创建项目，即使用户没有[!DNL Jira]许可证。 此外，任何[!DNL Jira]用户都可以立即开始处理[!DNL Jira]项目，并且他们的更新在[!DNL Workfront]中可见，而无需他们具有[!DNL Workfront]许可证。 [!DNL Workfront]中的任何更新也可在[!DNL Jira]项中看到。
+
+1. （可选）选择&#x200B;**[!UICONTROL 活动日志]**&#x200B;选项卡以查看集成期间可能发生的任何错误。
+
+   有关[!UICONTROL 活动日志]的详细信息，请参阅[查看 [!DNL Jira] [!UICONTROL 活动日志]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)。
+
+## 配置触发器以自动链接[!DNL Jira]和[!DNL Workfront]之间的项目
+
+作为[!DNL Jira]系统管理员，您可以定义在[!DNL Workfront]中的项满足特定条件时，在[!DNL Jira]中自动创建问题的触发器。
+
+>[!NOTE]
+>
+>集成最多可能需要10分钟才能在[!DNL Jira]中创建新问题。
+
+在创建[!DNL Workfront]项时配置触发创建[!DNL Jira]项时，请考虑以下事项：
+
+* 该集成是单向的：您只能触发您在[!DNL Workfront]中创建的项以便在[!DNL Jira]中自动创建。 您无法触发您在[!DNL Jira]中创建的项以在[!DNL Workfront]中自动创建。
 * 您可以触发的触发器数量没有限制。
-* 如果您在中创建的项目 [!DNL Workfront] 与多个触发器匹配，在中只创建一个项目 [!DNL Jira]. 项目创建于 [!DNL Jira] 根据第一个触发器(按照它们在 [!DNL Jira])。 所有其他触发器将被忽略。
-* 中只有一个项目 [!DNL Workfront] 可以链接到Jira中的一个项目。 您永远无法链接一个 [!DNL Workfront] 项目到多个 [!DNL Jira] 问题，或一个 [!DNL Jira] 问题到多个 [!DNL Workfront] 个项目。
+* 如果在[!DNL Workfront]中创建的项与多个触发器匹配，则在[!DNL Jira]中只创建一个项。 该项根据第一个触发器在[!DNL Jira]中创建（按照它们在[!DNL Jira]中定义的顺序）。 所有其他触发器将被忽略。
+* [!DNL Workfront]中只能有一个项目链接到Jira中的一个项目。 您永远不能将一个[!DNL Workfront]项目链接到多个[!DNL Jira]问题，或将一个[!DNL Jira]问题链接到多个[!DNL Workfront]项目。
 
-配置触发器以在中自动创建项目 [!DNL Jira]：
+要配置触发器以在[!DNL Jira]中自动创建项目，请执行以下操作：
 
-1. 登录 [!DNL Jira] 作为系统管理员。
-1. 单击 **[!UICONTROL 设置]** 在主页中 [!DNL Jira] 菜单。
-1. 单击 **[!UICONTROL 加载项]**，则 **[!UICONTROL 管理加载项]**.
-1. 展开 **[!DNL Workfront]** 加载项。
-1. 单击 **[!UICONTROL 配置]**.
-1. 登录 [!DNL Workfront] 作为系统管理员。
+1. 以系统管理员身份登录到[!DNL Jira]。
+1. 在主[!DNL Jira]菜单中单击&#x200B;**[!UICONTROL 设置]**。
+1. 单击&#x200B;**[!UICONTROL 插件]**，然后单击&#x200B;**[!UICONTROL 管理插件]**。
+1. 展开&#x200B;**[!DNL Workfront]**&#x200B;加载项。
+1. 单击&#x200B;**[!UICONTROL 配置]**。
+1. 以系统管理员身份登录到[!DNL Workfront]。
 
-   此 **[!UICONTROL 触发器]** 在Jira中，默认情况下会选中选项卡。
+   在Jira中，默认选择&#x200B;**[!UICONTROL 触发器]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 添加触发器]** 以添加新触发器。
-1. 在 **[!UICONTROL Workfront团队/用户/角色]** 字段，指定 [!DNL Workfront] 团队、用户或工作角色，然后单击以将其在列表中显示时选定。
+1. 单击&#x200B;**[!UICONTROL 添加触发器]**&#x200B;以添加新触发器。
+1. 在&#x200B;**[!UICONTROL Workfront团队/用户/角色]**&#x200B;字段中，指定[!DNL Workfront]团队、用户或工作角色的名称，然后单击以将其在列表中显示。
 
    >[!NOTE]
    >
    >同一团队、用户或角色不能有多个触发器。
 
-   当有人创建任务或问题并将其分配给其中一个实体时，问题会在[！DNL]中自动创建 [!DNL Jira]]。
+   当有人创建任务或问题并将其分配给其中一个实体时，问题会在[！DNL [!DNL Jira]]中自动创建。
 
-1. 在 **[!UICONTROL [!DNL Jira]项目]** 字段，开始键入 [!DNL Jira] 项目，然后单击以在列表中显示该项目时将其选中。
+1. 在&#x200B;**[!UICONTROL [!DNL Jira]项目]**&#x200B;字段中，开始输入[!DNL Jira]项目的名称，然后单击以将其在列表中显示。
 
-   当 [!DNL Jira] 创建的问题，并放置到您在此处选择的项目上。
+   创建[!DNL Jira]问题后，该问题将放置到您在此处选择的项目上。
 
-1. 选择 **I[!UICONTROL 问题类型]** 从下拉菜单中。
+1. 从下拉菜单中选择&#x200B;**I[!UICONTROL 问题类型]**。
 
-   这表示在中创建的问题类型 [!DNL Jira] 当满足此触发器的条件时，根据您在中的特定项目设置 [!DNL Jira].
+   此表示当满足此触发器的条件时，根据[!DNL Jira]中该特定项目的设置在[!DNL Jira]中创建的问题类型。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   使用此配置，每次 [!DNL Workfront] 用户创建与指定触发器匹配的项目，在中创建新问题 [!DNL Jira].
+   使用此配置，每次[!DNL Workfront]用户创建与指定触发器匹配的项时，[!DNL Jira]中都会创建一个新问题。
 
-## 配置字段同步，介于 [!DNL Jira] 和 [!DNL Workfront] 项目
+## 配置[!DNL Jira]和[!DNL Workfront]项之间的字段同步
 
-作为 [!DNL Jira] 管理员，您可以定义哪些字段应当对链接到的项自动同步 [!DNL Workfront] 和吉拉。 某些字段可以从 [!DNL Workfront] 到 [!DNL Jira] 项目和其他项目从Jira同步到Workfront。
+作为[!DNL Jira]管理员，您可以定义哪些字段应该自动同步在[!DNL Workfront]和Jira之间链接的项目。 某些字段可以从[!DNL Workfront]同步到[!DNL Jira]项，而其他字段可以从Jira同步到Workfront。
 
 要定义应在两个应用程序之间链接的项目上自动同步的字段，请执行以下操作：
 
-1. 登录 [!DNL Jira] 作为Jira管理员。
-1. 单击 **[!UICONTROL 设置]** 在主页中 [!DNL Jira] 菜单。
-1. 单击 **[!UICONTROL 加载项]**，则 **[!UICONTROL 管理加载项]**.
-1. 展开 **[!DNL Workfront]** 加载项。
-1. 单击 **[!UICONTROL 配置]**.
-1. 登录 [!DNL Workfront] Workfront管理员。
-1. 在Jira中，单击 **[!UICONTROL 设置]** 选项卡。
-1. 在 **[!UICONTROL 从Workfront同步到Jira]** 部分，选择要更新的字段 [!DNL Jira] 在Workfront中更新它们时。
+1. 以Jira管理员身份登录[!DNL Jira]。
+1. 在主[!DNL Jira]菜单中单击&#x200B;**[!UICONTROL 设置]**。
+1. 单击&#x200B;**[!UICONTROL 插件]**，然后单击&#x200B;**[!UICONTROL 管理插件]**。
+1. 展开&#x200B;**[!DNL Workfront]**&#x200B;加载项。
+1. 单击&#x200B;**[!UICONTROL 配置]**。
+1. 以Workfront管理员身份登录到[!DNL Workfront]。
+1. 在Jira中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 从Workfront同步到Jira]**&#x200B;部分中，选择在Workfront中更新时要在[!DNL Jira]中更新的字段。
 
    1. 选择以下任何与字段同步的频率：
 
       <table style="table-layout:auto">
          <tr>
               <td>[！UICONTROL On Creation]</td>
-              <td>您指定的字段将在链接的Workfront与之间同步 [!DNL Jira] 在Workfront中创建项目时的项目。</td>
+              <td>在Workfront中创建项时，您指定的字段会在链接的Workfront和[!DNL Jira]项之间同步。</td>
           </tr>
           <tr>
               <td>[！UICONTROL Always]</td>
-              <td>您指定的字段将在链接的Workfront与之间同步 [!DNL Jira] 在Workfront中更新字段时的项目。 </td>
+              <td>在Workfront中更新字段时，您指定的字段会在链接的Workfront和[!DNL Jira]项之间同步。 </td>
           </tr>
           <tr>
               <td>[！UICONTROL从不]</td>
-              <td>您指定的字段在链接之间从不同步 [!DNL Workfront] 和 [!DNL Jira] 个项目。 中没有任何提示 [!DNL Jira] 该字段更新于 [!DNL Workfront]. </td>
+              <td>您指定的字段从不在链接的[!DNL Workfront]和[!DNL Jira]项之间同步。 [!DNL Jira]中没有指示该字段已在[!DNL Workfront]中更新。 </td>
           </tr>
       </table>
 
-   1. 选择以下任一选项以同步以下项的字段： [!DNL Workfront] 到 [!DNL Jira]：
+   1. 选择以下任一选项以同步从[!DNL Workfront]到[!DNL Jira]的字段：
 
       <table style="table-layout:auto">
        <col>
@@ -211,29 +211,29 @@ ht-degree: 0%
        <tbody>
         <tr>
          <td role="rowheader">[！UICONTROL名称]</td>
-         <td><p>中任务或问题的名称 [!DNL Workfront] 将成为它所链接到的问题的名称 [!DNL Jira].</p><p>注意：在中创建新项目时 [!DNL Jira] 自动 [!DNL Workfront] 名称始终在 [!DNL Jira] 项，无论是否在此处启用此字段。 当 [!DNL Jira] 项目被手动链接到 [!DNL Workfront] 项目，此项目的名称 [!DNL Workfront] 仅项目更新 [!DNL Jira] 当您选择时 <strong>始终</strong> 同步此字段。 有关手动或自动链接项目的详细信息，请参阅 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">链接项目介于 [!DNL Adobe Workfront] 和 [!DNL Jira]</a>.</p></td>
+         <td><p>[!DNL Workfront]中任务或问题的名称将成为它在[!DNL Jira]中链接到的问题的名称。</p><p>注意：在[!DNL Jira]中自动创建新项目时，[!DNL Workfront]名称始终在[!DNL Jira]项目上更新，无论是否在此处启用此字段。 当[!DNL Jira]项手动链接到[!DNL Workfront]项时，当您选择<strong>始终</strong>同步此字段时，[!DNL Workfront]项的名称仅在[!DNL Jira]中更新。 有关手动或自动链接项目的详细信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">链接介于[!DNL Adobe Workfront]和[!DNL Jira]</a>之间的项目。</p></td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL描述]</td>
-         <td>中任务或问题的描述 [!DNL Workfront] 成为它所链接到的问题的描述 [!DNL Jira].</td>
+         <td>[!DNL Workfront]中任务或问题的描述将成为它在[!DNL Jira]中链接到的问题的描述。</td>
         </tr>
         <tr>
          <td role="rowheader">文档</td>
-         <td><p>附加到中任务或问题的文档 [!DNL Workfront] 也附在Jira中与它有关的问题上。 新文档版本 [!DNL Workfront] 作为单独的文件添加到Jira并附加 <i>_v&lt;version number=""&gt;</i> 指示Workfront中的编号版本。 </p><p>例如，如果文档的名称 [!DNL Workfront] 是 <strong>主广告</strong>，然后在中添加一个新版本 [!DNL Workfront]，则会将新版本传输到 [!DNL Jira] 作为名称为的新文档 <strong>主Ad_v2</strong>.</p><p>重要提示： <p>同步文档时，请考虑以下事项：</p>
+         <td><p>附加到[!DNL Workfront]中任务或问题的文档也附加到Jira中与之链接的问题。 来自[!DNL Workfront]的新文档版本将作为单独的文档添加到Jira中，并附加有<i>_v&lt;版本号&gt;</i>以指示Workfront中的编号版本。 </p><p>例如，如果[!DNL Workfront]中文档的名称为<strong>Main Ad</strong>，而您在[!DNL Workfront]中为其添加了新版本，则新版本将作为名称为<strong>Main Ad_v2</strong>的新文档传输到[!DNL Jira]。</p><p>重要提示： <p>同步文档时，请考虑以下事项：</p>
            <ul>
-            <li><p>大于5MB的文档不会同步。 如果文档同步因文档太大而失败，则活动日志中会记录一个错误。 </p><p>有关活动日志的详细信息，请参阅 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">查看Jira活动日志</a>.</p></li>
-            <li><p>链接到来自外部服务器的任务和问题的文档不会传输到 [!DNL Jira] 个项目。 仅直接在任务或问题中上传的文档 [!DNL Workfront] 已转移到中的链接问题 [!DNL Jira].</p></li>
-            <li><p>要从文档创建验证，您必须在中生成验证 [!DNL Workfront]. </p><p>有关生成校样的更多信息，请参阅 <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">为现有文档创建验证 </a>在 <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">为文档创建验证</a>.<br></p></li>
+            <li><p>大于5MB的文档不会同步。 如果文档同步因文档太大而失败，则活动日志中会记录一个错误。 </p><p>有关活动日志的详细信息，请参阅<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">查看Jira活动日志</a>。</p></li>
+            <li><p>链接到来自外部服务器的任务和问题的文档未传输到[!DNL Jira]项。 只有直接在任务中上传的文档或[!DNL Workfront]中的问题才会传输到[!DNL Jira]中的链接问题。</p></li>
+            <li><p>要从文档创建验证，必须在[!DNL Workfront]中生成验证。 </p><p>有关生成校对的更多信息，请参阅<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">为文档创建校对</a>中的<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">为现有文档创建校对</a>。<br></p></li>
            </ul></p></td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL计划完成日期]</td>
-         <td><p>中的任务或问题的[！UICONTROL规划完成日期] [!DNL Workfront] 将成为它所链接到的问题的[！UICONTROL截止日期] [!DNL Jira].</p><p>注意：确保显示 <strong>[！UICONTROL到期日期]</strong> 日期 [!DNL Jira] 问题，此值需要同步。</p></td>
+         <td><p>[!DNL Workfront]中任务或问题的[！UICONTROL规划完成日期]将变为[!DNL Jira]中链接到的问题的[！UICONTROL到期日期]。</p><p>注意：请确保在[!DNL Jira]个问题上显示<strong>[！UICONTROL到期日期]</strong>，以便同步该值。</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 在 **[!UICONTROL 同步自 [!DNL Jira] 到[!DNL Workfront]]** 部分，选择要更新的字段 [!DNL Workfront] 当它们在中更新时 [!DNL Jira].
+1. 在&#x200B;**[!UICONTROL 从[!DNL Jira]同步到[!DNL Workfront]]**&#x200B;分区中，选择在[!DNL Jira]中更新时要在[!DNL Workfront]中更新的字段。
 
    1. 选择以下任何与字段同步的频率：
 
@@ -243,16 +243,16 @@ ht-degree: 0%
        <tbody>
         <tr>
          <td role="rowheader">[！UICONTROL Always]</td>
-         <td>您指定的字段始终在链接的字段之间同步 [!DNL Workfront] 和 [!DNL Jira] 项更新字段时 [!DNL Jira]. </td>
+         <td>在[!DNL Jira]中更新字段时，您指定的字段始终在链接的[!DNL Workfront]和[!DNL Jira]项之间同步。 </td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL从不]</td>
-         <td><p>您指定的字段在链接之间从不同步 [!DNL Workfront] 和 [!DNL Jira] 个项目。 中没有任何提示 [!DNL Workfront] 该字段更新于 [!DNL Jira]. </p><p>注意：如果选择“从不”， [!DNL Workfront] 字段仍然可以从手动更新 [!DNL Jira] 在左侧 [!DNL Workfront] 面板 [!DNL Jira] 问题。 这些更新仅显示在 [!DNL Workfront] 中的项目 [!DNL Jira] 和 [!DNL Workfront] 并且不在 [!DNL Jira] 个项目。</p></td>
+         <td><p>您指定的字段从不在链接的[!DNL Workfront]和[!DNL Jira]项之间同步。 [!DNL Workfront]中没有指示该字段已在[!DNL Jira]中更新。 </p><p>注意：当您选择“从不”时，仍然可以从[!DNL Jira]问题左侧[!DNL Workfront]面板的[!DNL Jira]手动更新[!DNL Workfront]字段。 这些更新仅显示在[!DNL Jira]和[!DNL Workfront]中的[!DNL Workfront]项中，而不显示在[!DNL Jira]项中。</p></td>
         </tr>
        </tbody>
       </table>
 
-   1. 选择以同步以下任意字段，从 [!DNL Jira] 到 [!DNL Workfront]：
+   1. 选择以同步从[!DNL Jira]到[!DNL Workfront]的以下任何字段：
 
       <table style="table-layout:auto">
        <col>
@@ -260,26 +260,26 @@ ht-degree: 0%
        <tbody>
         <tr>
          <td role="rowheader">[！UICONTROL状态]</td>
-         <td>中问题的[！UICONTROL状态] [!DNL Jira] 将成为它所链接到的任务或问题的[！UICONTROL状态] [!DNL Workfront].<br>有关详情 [!DNL Workfront] 状态，请参见 <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">创建或编辑状态</a>.</td>
+         <td>[!DNL Jira]中问题的[！UICONTROL状态]将变为[!DNL Workfront]中链接到的任务或问题的[！UICONTROL状态]。<br>有关[!DNL Workfront]状态的详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">创建或编辑状态</a>。</td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL被分派人]</td>
-         <td><p>中问题的[！UICONTROL被分派人] [!DNL Jira] 成为与其链接的任务或问题的[！UICONTROL被分配人] [!DNL Workfront].</p><p>重要提示：在中分配项目时 [!DNL Jira] 发送给没有 [!DNL Workfront] 帐户，则集成将在中创建一个新的活动用户 [!DNL Workfront] 仅当 <strong>在中自动创建用户 [!DNL Workfront] 如果 [!DNL Jira] 用户没有 [!DNL Workfront] 帐户</strong> 设置为 <strong>[！UICONTROL Always]</strong>. 此用户未占用 [!DNL Workfront] 许可证。 可将活动用户分配到中的工作项 [!DNL Workfront]，但不能包含在更新中。 </p></td>
+         <td><p>[!DNL Jira]中问题的[！UICONTROL任务接受者]成为[!DNL Workfront]中链接到的任务或问题的[！UICONTROL任务接受者]。</p><p>重要提示：当您将[!DNL Jira]中的项分配给没有[!DNL Workfront]帐户的用户时，只有当[!DNL Jira]用户没有[!DNL Workfront]帐户</strong>的<strong>在[!DNL Workfront]中自动创建用户设置为<strong>[！UICONTROL Always]</strong>时，集成才会在[!DNL Workfront]中创建新的活动用户。 此用户未占用[!DNL Workfront]许可证。 可将活动用户分配给[!DNL Workfront]中的工作项，但不能将其包含在更新中。 </p></td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL附件]</td>
-         <td>中的问题附件 [!DNL Jira] 也会附加到与其链接的任务或问题 [!DNL Workfront]. </td>
+         <td>[!DNL Jira]中问题的附件也附加到[!DNL Workfront]中链接到的任务或问题。 </td>
         </tr>
         <tr>
          <td role="rowheader">[！UICONTROL Comments]</td>
-         <td><p>评论 [!DNL Jira] 问题也会发布在链接上 [!DNL Workfront] [！UICONTROL更新]区域中的项。 相反，在[！UICONTROL更新]区域张贴的注释用于 [!DNL Workfront] 任务或问题同步到 [!DNL Jira]的链接问题的本机注释流。 </p><p>此参数设置为 <strong>[！UICONTROL Always]</strong> 默认情况下。 如果您选择 <strong>[！UICONTROL从不]</strong> 在此，您仍然可以在以下任一位置对链接的项目手动发布评论： [!DNL Workfront] 或 [!DNL Jira].</p></td>
+         <td><p>有关[!DNL Jira]问题的注释也会发布在[！UICONTROL更新]区域的链接[!DNL Workfront]项上。 相反，[！UICONTROL更新]区域中针对[!DNL Workfront]任务或问题的注释同步到[!DNL Jira]的链接问题的本机注释流。 </p><p>默认情况下设置为<strong>[！UICONTROL Always]</strong>。 如果在此选择<strong>[！UICONTROL Never]</strong>，则仍可在[!DNL Workfront]或[!DNL Jira]中对链接项手动发布评论。</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 在 **[!UICONTROL 其他]** 部分，选择应在链接项之间更新的其他字段。
+1. 在&#x200B;**[!UICONTROL OTHER]**&#x200B;部分中，选择应在链接项之间更新的其他字段。
 
-   1. 选择一个选项以确定您指定的字段是否 **[!UICONTROL 始终]** 或 **[!UICONTROL 从不]** 更新位置 [!DNL Jira] 或 [!DNL Workfront] 修改它们时。
+   1. 选择一个选项，以确定您指定的字段&#x200B;**[!UICONTROL 始终]**&#x200B;还是&#x200B;**[!UICONTROL 从不]**&#x200B;在[!DNL Jira]或[!DNL Workfront]中进行更新（修改时）。
 
    1. 从以下字段和更新中进行选择：
 
@@ -288,30 +288,30 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[！UICONTROL副本 [!DNL Workfront] 中的右侧面板中的自定义数据 [!DNL Jira]]</td>
-         <td><p>显示 [!DNL Workfront] 中项目的自定义数据 [!DNL Workfront] 右侧面板。</p><p>注意：自定义表单部分显示在 [!DNL Workfront] 右侧面板，其访问级别为 [!DNL Workfront] 系统管理员。</p></td>
+         <td role="rowheader">[！UICONTROL在[!DNL Jira]的右侧面板中复制[!DNL Workfront]自定义数据</td>
+         <td><p>在[!DNL Workfront]右侧面板中显示项目的[!DNL Workfront]自定义数据。</p><p>注意：自定义表单分区显示在[!DNL Workfront]右侧面板中，其访问级别为[!DNL Workfront]系统管理员。</p></td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL副本 [!DNL Workfront] 中的右侧面板中的优先级 [!DNL Jira]]</td>
-         <td>显示 [!DNL Workfront] 中项目的优先级 [!DNL Workfront] 右侧面板。</td>
+         <td role="rowheader">[！UICONTROL复制[!DNL Jira]中右侧面板的[!DNL Workfront]优先级</td>
+         <td>在[!DNL Workfront]右侧面板中显示项目的[!DNL Workfront]优先级。</td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL在 [!DNL Workfront] 有关到期日期更改的“更新”选项卡 [!DNL Jira]]</td>
-         <td>在的[！UICONTROL Update]选项卡中添加注释 [!DNL Workfront] [！UICONTROL到期日期]在链接中更改时的项 [!DNL Jira] 项目。</td>
+         <td role="rowheader">[！UICONTROL在[!DNL Workfront]更新选项卡中添加有关[!DNL Jira]中到期日期更改的更新</td>
+         <td>当链接的[!DNL Jira]项中的[！UICONTROL截止日期]发生更改时，在[!DNL Workfront]项的[！UICONTROL更新]选项卡中添加注释。</td>
         </tr>
         <tr>
-         <td role="rowheader">[！UICONTROL在中自动创建用户 [!DNL Workfront] 如果 [!DNL Jira] 用户没有 [!DNL Workfront] 帐户]</td>
+         <td role="rowheader">[！UICONTROL如果[!DNL Jira]用户没有[!DNL Workfront]帐户，则在[!DNL Workfront]中自动创建用户]</td>
          <td><p>存在以下情况：</p>
           <ul>
-           <li>当您选择时 <strong>[！UICONTROL Always]</strong>Workfront ，则可启用该集成，以便在每次 [!DNL Jira] 用户没有 [!DNL Workfront] 帐户对链接执行以下操作 [!DNL Jira] 问题：
+           <li>当您选择<strong>[！UICONTROL Always]</strong>时，您可以启用集成，以便在每次没有[!DNL Workfront]帐户的[!DNL Jira]用户对链接的[!DNL Jira]问题执行以下操作，创建新的Workfront用户：
             <ul>
-             <li>已分配给 [!DNL Jira] 问题</li>
-             <li><p>将时间记录到 [!DNL Jira] 问题</p><p>此新用户未占用 [!DNL Workfront] 许可证。 默认设置为“始终”。 在中通过这种方式创建的用户 [!DNL Workfront] 已将“[！UICONTROL Jira]”添加到其名称中。</p></li>
+             <li>已分派到[!DNL Jira]问题</li>
+             <li><p>将时间记录到[!DNL Jira]问题</p><p>此新用户未占用[!DNL Workfront]许可证。 默认设置为“始终”。 在[!DNL Workfront]中通过这种方式创建的用户在名称中添加了“[！UICONTROL Jira]”。</p></li>
             </ul></li>
-           <li>当您选择时 <strong>[！UICONTROL从不]</strong>，会发生以下情况：
+           <li>选择<strong>[！UICONTROL Never]</strong>时，会发生以下情况：
             <ul>
-             <li>您看不到任何 [!DNL Jira] 分配： [!DNL Workfront] 个项目。 在这种情况下，仅分配在 [!DNL Workfront] 显示在 [!DNL Workfront] 个项目。</li>
-             <li>登录到链接的时间 [!DNL Jira] 由没有 [!DNL Workfront] 帐户不会自动转移到链接的 [!DNL Workfront] 项目。 您仍然可以在 [!DNL Workfront] 项 [!DNL Jira] 问题。</li>
+             <li>在[!DNL Workfront]项中看不到任何[!DNL Jira]分配。 在这种情况下，只有在[!DNL Workfront]中进行的分配会显示在[!DNL Workfront]项中。</li>
+             <li>没有[!DNL Workfront]帐户的用户登录到链接的[!DNL Jira]问题的时间不会自动传输到链接的[!DNL Workfront]项目。 您仍然可以在[!DNL Jira]问题的右侧面板中的[!DNL Workfront]项上记录时间。</li>
             </ul></li>
           </ul></td>
         </tr>
@@ -320,25 +320,25 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   现在，每次用户更新此配置中指定的任何字段时， [!DNL Jira] 或 [!DNL Workfront]，则其他应用程序中的链接项目也会更新。
+   现在，每次用户更新此配置中针对[!DNL Jira]或[!DNL Workfront]中的项指定的任何字段时，另一个应用程序中的链接项也会更新。
 
 ## 故障排除
 
-### 无法在中创建项目 [!DNL Jira] 因为触发器字段标记为“[!UICONTROL 找不到]&quot;
+### 无法在[!DNL Jira]中创建项目，因为未能找到标记为“[!UICONTROL ”的触发器字段]”
 
 #### 问题
 
-当出现错误时 [!DNL Workfront for Jira] 应用程序， [!DNL Workfront] 禁用触发器以防止出现进一步的复杂情况。 禁用这些触发器后，它们显示为“[!UICONTROL 找不到]“
+当[!DNL Workfront for Jira]应用程序发生错误时，[!DNL Workfront]将禁用触发器以防止进一步的复杂性。 禁用这些触发器后，它们显示为“[!UICONTROL 找不到]”。
 
 #### 解决方案
 
-找到禁用触发器的错误。 您可以在 [!DNL Workfront for Jira] [!UICONTROL 活动日志].
+找到禁用触发器的错误。 您可以在[!DNL Workfront for Jira] [!UICONTROL 活动日志]中找到该错误。
 
-导致此行为的最常见原因是错误“[!UICONTROL 无法设置字段“duedate”。 不在相应的屏幕上，或未知。]&quot;
+导致此行为的最常见原因是错误&#39;&#39;[!UICONTROL 无法设置字段&#39;duedate&#39;。 它不在相应的屏幕上，或者未知。]”
 
-此错误表示您正在尝试同步&#39;&#39;[!UICONTROL 计划完成日期]”从 [!DNL Workfront] 到 [!DNL Jira]. 为此，您必须确保 [!DNL Jira] 对象具有名为“”的字段[!UICONTROL 到期日期]“ 如果他们没有这个领域， [!DNL Workfront] 无法从同步计划完成日期 [!DNL Workfront] 并禁用您的触发器。
+此错误表示您正在尝试将&quot;[!UICONTROL 计划完成日期]&quot;从[!DNL Workfront]同步到[!DNL Jira]。 为此，您必须确保您的[!DNL Jira]对象具有一个名为“[!UICONTROL 到期日期]”的字段。 如果他们没有此字段，[!DNL Workfront]将无法从[!DNL Workfront]同步计划完成日期，并禁用您的触发器。
 
 要解决此错误，请尝试以下操作之一：
 
-* 询问您的 [!DNL Jira] 管理员更新受影响的 [!DNL Jira] 对象以确保它们具有到期日期字段。
-* 禁用同步 [!DNL Workfront]的Workfront中的计划完成日期 [!UICONTROL 设置] 页面。
+* 要求您的[!DNL Jira]管理员更新受影响的[!DNL Jira]对象，以确保它们具有到期日期字段。
+* 在Workfront [!UICONTROL 设置]页面中禁用[!DNL Workfront]计划完成日期的同步。

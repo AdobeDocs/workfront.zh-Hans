@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: announcements
-title: Outlook 365外接程序现已可用
-description: Outlook 365的Adobe Workfront加载项已于2017年5月16日发布。
+title: Outlook 365加载项现已可用
+description: 适用于Outlook 365的Adobe Workfront加载项已于2017年5月16日推出。
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 exl-id: abd5a4a2-0be5-46d7-bb66-47138c838063
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-# Outlook 365外接程序现已可用
+# Outlook 365加载项现已可用
 
-Outlook 365的Adobe Workfront加载项已于2017年5月16日发布。
+适用于Outlook 365的Adobe Workfront加载项已于2017年5月16日推出。
 
-该外接程序允许您直接从Outlook 365（在Web上）访问Workfront功能，以及在使用Office 365订阅中包含的Outlook的Windows和Mac桌面版时。
+通过此加载项，您可以直接从Web上的Outlook 365访问Workfront功能，以及使用Office 365订阅随附的Windows和Mac桌面版Outlook时。
 
-有关适用于Outlook 365的Workfront外接程序的更多信息，请参阅 [设置Adobe Workfront for Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+有关适用于Outlook 365的Workfront加载项的更多信息，请参阅[为Outlook设置Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)。

@@ -28,7 +28,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [文本模式的常见用法概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [使用文本模式编辑视图](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [使用文本模式编辑筛选器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 * [在文本模式下使用条件格式](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
 * [设置文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [设置文本模式报表中的数字、货币和百分比值的格式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [格式化文本模式报表中的数字、货币和百分比值](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
 * [比较条件格式中的字段](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
-* [在报表中引用收藏集](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [在文本模式过滤器中创建“OR”语句](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+* [引用报告中的收藏集](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [在文本模式筛选器中创建“OR”语句](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
 * [使用EXISTS语句创建复杂的文本模式筛选器](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

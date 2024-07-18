@@ -44,7 +44,7 @@ ht-degree: 5%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -54,7 +54,7 @@ ht-degree: 5%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
 <tr>
 <td role="rowheader">访问级别</td>
@@ -65,7 +65,7 @@ ht-degree: 5%
 <td>
 <p>查看目标的权限或更高以查看目标</p>
 <p>管理目标的权限以编辑它</p>
-<p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+<p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
 </td>
 </tr>
 <tr>
@@ -76,15 +76,15 @@ ht-degree: 5%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 创建目标的准则
 
-在开始使用Workfront目标之前，我们建议您阅读有关有效管理目标的最佳实践建议和指南。 有关创建和管理目标的准则的更多信息，请参阅 [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md).
+在开始使用Workfront目标之前，我们建议您阅读有关有效管理目标的最佳实践建议和指南。 有关创建和管理目标的准则的更多信息，请参阅[Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 ## 创建目标
 
-本文介绍了如何在Workfront目标中创建战略目标。 有关创建业务案例目标的信息，请参阅 [创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+本文介绍了如何在Workfront目标中创建战略目标。 有关创建业务案例目标的信息，请参阅[创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
 您可以通过以下方式之一创建战略目标：
 
@@ -171,13 +171,13 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **目标**.
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    此时将显示目标列表。
-1. 单击 **新目标**.
+1. 单击&#x200B;**新建目标**。
 
    此时将显示新建目标框。
 
@@ -185,45 +185,45 @@ Creating goals differs depending on what environment you use.
 
 1. 在以下字段中输入信息：
    * **目标名称**：输入目标的名称。 这是必填字段。
-   * **期间**：从中选择预定义的季度或年份 **期间** 下拉字段
+   * **期间**：从&#x200B;**期间**&#x200B;下拉列表中选择预定义的季度或年份
 
      或
 
-     选择 **启用自定义日期** 选项，然后选择 **开始** 和 **结束日期** 为了达到目标。
+     选择&#x200B;**启用自定义日期**&#x200B;选项，然后为目标选择&#x200B;**开始**&#x200B;和&#x200B;**结束日期**。
 
      以前、当前和随后年份及其各自的季度在期间下拉字段中作为预定义选项列出。
 
      目标的期间指示您预期目标完成的时间范围。
 
-   * **目标所有者**：开始键入用户、团队、群组或组织的名称以指示谁是目标的所有者。 默认情况下，您被选为目标的所有者。
+   * **目标所有者**：开始键入用户、团队、组或组织的名称，以指示目标的所有者是谁。 默认情况下，您被选为目标的所有者。
    * **描述**：输入有关目标的其他信息。
-1. 单击 **创建目标**.
+1. 单击&#x200B;**创建目标**。
 
-   新目标列在目标列表中，其状态为 **草稿**.
+   新目标列在目标列表中，其状态为&#x200B;**草稿**。
 
    您必须将目标与进度指示器关联才能激活它并开始处理它。
 
    执行以下至少一项操作以准备要激活的目标：
    * 添加结果
 
-     有关添加结果的信息，请参见 [将结果添加到Adobe Workfront目标中的目标](../results-and-activities/add-results-to-goals.md).
+     有关添加结果的信息，请参阅[在Adobe Workfront目标中添加结果](../results-and-activities/add-results-to-goals.md)。
    * 添加活动
 
-     有关添加活动的信息，请参阅 [将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md).
+     有关添加活动的信息，请参阅[将活动添加到Adobe Workfront目标中的目标](../results-and-activities/add-activities-to-goals.md)。
    * 使另一个目标与其保持一致
 
-     有关对齐目标的信息，请参阅 [通过在Adobe Workfront目标中连接目标来调整目标](../goal-alignment/align-goals-by-connecting-them.md).
+     有关对齐目标的信息，请参阅[在Adobe Workfront目标中通过连接来对齐目标](../goal-alignment/align-goals-by-connecting-them.md)。
 
 
 ### 复制现有目标 {#copy-an-existing-goal}
 
 您可以通过复制现有目标来创建目标。
 
-有关复制目标的信息，请参阅 [在Adobe Workfront目标中复制目标](../../workfront-goals/goal-management/copy-goals.md).
+有关复制目标的信息，请参阅[在Adobe Workfront目标中复制目标](../../workfront-goals/goal-management/copy-goals.md)。
 
 ### 将结果或活动转化为目标 {#convert-a-result-or-activity-to-a-goal}
 
 通过将现有目标的结果或活动转换为目标，可创建目标。 新目标与原始目标一致。
 
-有关将结果和活动转换为目标的信息，请参阅 [通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+有关将结果和活动转换为目标的信息，请参阅[通过将结果和活动转换为目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 

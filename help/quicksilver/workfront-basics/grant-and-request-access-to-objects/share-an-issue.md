@@ -2,79 +2,80 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 共享问题
-description: 您的Adobe Workfront管理员在用户分配访问级别时，会授予用户查看或编辑问题的权限。 有关授予对问题的访问权限的更多信息，请参阅授予对问题的访问权限。
+description: 在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑问题的访问权限。 有关授予对问题的访问权限的更多信息，请参阅授予对问题的访问权限。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
 # 共享问题
 
-您的Adobe Workfront管理员在用户分配访问级别时，会授予用户查看或编辑问题的权限。 有关授予对问题的访问权限的更多信息，请参阅 [授予对问题的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑问题的访问权限。 有关授予问题访问权限的详细信息，请参阅[授予问题访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看、贡献或管理您有权共享的特定问题的权限。 有关访问级别和权限的更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予用户的访问级别之外，您还可以授予他们查看、Contribute或管理您有权共享的特定问题的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
-权限特定于Workfront中的一个项目，并定义可以对该项目执行哪些操作。
+权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
-## 有关共享问题的注意事项
+## 关于共享问题的注意事项
 
-除了以下注意事项外，另请参阅 [对象共享权限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 >[!NOTE]
 >
->Workfront管理员可以添加或删除系统中所有用户的任何项目的权限，而不是这些项目的所有者。
+>Workfront管理员可以为系统中的任何项目为所有用户添加或删除权限，而无需成为这些项目的所有者。
 
-* 默认情况下，问题的创建者具有“管理”权限。
-* 您可以单独共享问题，也可以一次共享其中的几个问题。 共享问题与在Workfront中共享其他项目相同。 有关在Workfront中共享项目的更多信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* 您可以为问题授予以下权限： 
+* 默认情况下，问题的创建者具有管理权限。
+* 您可以单独共享问题，也可以一次共享多个问题。 共享问题与在Workfront中共享其他项目相同。 有关在Workfront中共享项目的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 您可以向问题授予以下权限： 
 
    * 查看
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![view_on_issue.png](assets/view-on-issue-221x216.png)
 
    * 管理
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
 
    * 参与\
-      ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
-* 当您共享问题时，附加到该问题的所有文档都将继承相同的权限。
+* 当您共享问题时，所有附加到问题的文档都会继承相同的权限。
 
-   Workfront管理员可以指定文档是否应继承用户访问级别中较高对象的权限。 有关限制文档继承权限的更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* 您可以从问题中删除继承的权限。 有关更多信息，请参阅 [从对象删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 您可以从问题中删除继承的权限。 有关详细信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
-## 共享问题的方法
+## 共享问题的方式
 
-* 手动，这与在Workfront中共享任何其他对象类似。 有关如何在Workfront中共享对象的更多信息，请参阅 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* 通过执行以下操作之一自动：
+* 手动，与在Workfront中共享任何其他对象类似。 有关如何在Workfront中共享对象的详细信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
+* 通过执行以下操作之一，自动执行：
 
-   * 指定问题任何父对象的权限：项目、项目群或项目组合。 问题从其父对象继承权限。 有关查看对象继承权限的信息，请参阅 [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * 在用于创建问题所在项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅 [共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * 指定问题的任何父对象的权限：项目、项目群或项目组合。 问题会从其父对象继承权限。 有关查看对象的继承权限的信息，请参阅[查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+   * 在用于创建问题所在项目的模板上将实体添加到项目共享。 有关从模板共享项目的信息，请参阅[共享模板](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 在编辑项目时，指定项目中所有问题的权限。 有关根据用户对项目的权限管理对项目问题或请求的访问权限的信息，请参阅 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 章节 [编辑项目](../../manage-work/projects/manage-projects/edit-projects.md).
+   * 在编辑项目时，指定项目中所有问题的权限。 有关基于用户对项目的权限管理对项目上问题或请求的访问权限的信息，请参阅文章[编辑项目](../../manage-work/projects/manage-projects/edit-projects.md)中的[](../../manage-work/projects/manage-projects/edit-projects.md#access)部分。
 
-      >[!TIP]
-      >
-      >如果您没有指定在将用户分配到项目问题时您希望用户拥有的问题权限，则他们会获得与他们在项目中拥有的权限相同的权限，默认情况下。
+     >[!TIP]
+     >
+     >如果您没有指定在将用户分配给项目问题时希望他们拥有的问题权限，则默认情况下，他们将在项目上获得相同的权限。
 
-   * 指定用户在创建请求队列时在请求队列中提交的问题时收到的权限。 有关信息，请参阅 [创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * 指定用户在创建请求队列时，对于在请求队列中提交的问题所接收的权限。 有关信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-      >[!IMPORTANT]
-      >
-      >根据项目是否作为请求队列发布，授予的权限会有所不同：
-      >
-      >   
-      >   
-      >   * 当用户向以请求队列形式发布的项目提交请求时，“主要联系人”和“输入者”用户将获得指定的权限。
-      >   * 当用户向未作为请求队列发布的项目提交请求时，将向主联系人（如果与“输入者”不同）授予指定的权限，并向“输入者”用户授予对问题的“管理”权限。
-
+     >[!IMPORTANT]
+     >
+     >根据项目是否作为请求队列发布，授予的权限会有所不同：
+     >
+     >   
+     >   
+     >   * 当用户将请求提交到作为请求队列发布的项目时，主要联系人和输入者用户将被授予指定的权限。
+     >   * 当用户将请求提交到未作为请求队列发布的项目时，主要联系人（如果与“输入者”用户不同）将被授予指定的权限，而“输入者”用户将获得该问题的管理权限。
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -133,7 +134,7 @@ ht-degree: 4%
 
 ## 问题权限
 
-下表显示了在允许用户查看、贡献或管理问题时，可以向其授予哪些权限：
+下表显示了在允许用户查看、Contribute或管理问题时您可以授予用户哪些权限：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,110 +145,110 @@ ht-degree: 4%
   <tr> 
    <td><strong>操作</strong> </td> 
    <td><strong>管理</strong> </td> 
-   <td><strong>参与</strong> </td> 
-   <td><strong>查看</strong> </td> 
+   <td><strong>Contribute</strong> </td> 
+   <td><strong>视图</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>添加问题</p> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>删除 </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>附上自定义表单</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>编辑自定义字段</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>批准问题</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>添加批准流程</td> 
-   <td>✓</td> 
+   <td>添加审批流程</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>添加文档</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>复制问题*</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>移动问题</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>记录小时数</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>转换至项目*</td> 
-   <td>✓</td> 
+   <td>转换为项目*</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>接受分配</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>更新/注释</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>更新/评论</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>修改计划日期</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>制定工作</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>共享</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>在系统范围内共享</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
  </tbody> 
 </table>

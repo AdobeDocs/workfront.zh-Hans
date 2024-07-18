@@ -19,15 +19,15 @@ ht-degree: 0%
 
 * 报告
 
-  有关创建报告的详细信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  有关创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-* 日历
+* 日程表
 
-  有关创建日历的详细信息，请参见 [日程表：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  有关创建日历的详细信息，请参阅[日历：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
 
 * 外部页面
 
-  有关创建外部页面的更多信息，请参阅 [在功能板中嵌入外部网页](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  有关创建外部页面的详细信息，请参阅[在仪表板中嵌入外部网页](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
 
 创建这些项目并将其添加到功能板后，可以编辑功能板以向其中添加更多项目、从其中删除现有项目或编辑功能板信息。
 
@@ -53,40 +53,40 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理仪表板的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理仪表板的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
 必须先创建功能板，然后才能对其进行编辑。
 
-有关创建功能板的信息，请参阅 [创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+有关创建功能板的信息，请参阅[创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 编辑功能板
 
 1. 转到要编辑的信息板。
-1. 单击 **仪表板操作**，然后单击 **编辑**.
+1. 单击&#x200B;**仪表板操作**，然后单击&#x200B;**编辑**。
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >要了解如何删除仪表板，请参阅 [删除仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >若要了解如何删除仪表板，请参阅[删除仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)。
 
 1. 请考虑编辑以下字段：
 
-   * **名称**：编辑功能板的名称。
-   * **描述**：指定功能板的描述。
+   * **名称**：编辑仪表板的名称。
+   * **描述**：指定仪表板的描述。
 
-1. 在 **可用报告和日历** 部分，开始键入报告、日历或外部页面的名称 **按名称或类型搜索……** 字段，然后将布局窗格中的报表或日历拖放到右侧。
+1. 在&#x200B;**可用报告和日历**&#x200B;部分中，开始在&#x200B;**按名称或类型搜索……**&#x200B;字段中键入报告、日历或外部页面的名称，然后将报告或日历拖放到布局窗格的右侧。
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ ht-degree: 0%
 1. （可选）单击与所需布局对应的单选按钮，为功能板选择新布局。
 1. （可选）将鼠标悬停在现有报表的名称上，然后单击垃圾桶图标以将其从功能板中删除。
 1. （可选）单击报表名称，将其拖放到布局窗格的所需位置，以更改报表在仪表板上的顺序。
-1. （可选）单击 **添加外部页面** 向功能板添加外部页面。\
+1. （可选）单击&#x200B;**添加外部页面**&#x200B;以将外部页面添加到仪表板。\
    或\
-   在功能板中找到现有的外部页面，然后将鼠标悬停在该页面上，然后单击 **编辑** 图标以编辑外部页面。\
-   有关在功能板中添加或编辑外部页面的更多信息，请参阅 [在功能板中嵌入外部网页](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   在功能板中找到现有的外部页面，然后将鼠标悬停在该页面上，并单击&#x200B;**编辑**&#x200B;图标以编辑外部页面。\
+   有关在仪表板中添加或编辑外部页面的详细信息，请参阅[在仪表板中嵌入外部网页](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
 
-1. 单击 **保存+关闭**.
+1. 单击&#x200B;**保存+关闭**。

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本页介绍了2021年6月28日这一周在Adobe Workfront Fusion中所做的所有增强功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Salesforce连接器中的新搜索模块
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 如果您希望自行输入查询，可以使用使用查询搜索模块中先前存在的功能。
 
-有关详细信息， [Salesforce模块](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+有关详细信息，[Salesforce模块](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)。
 
 ## 可在Workfront > Watch记录模块中过滤事件订阅
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 以前，Watch记录模块会检索所有记录。 用户只能通过在后续方案模块中设置过滤器来进行过滤。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。

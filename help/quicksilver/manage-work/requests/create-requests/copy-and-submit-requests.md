@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ ht-degree: 2%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对问题的访问权限</p> <p><b>注释</b>
 
-如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>. </p> </td> 
+   <td> <p>将请求添加到请求队列的权限</p> <p>查看现有请求或更高权限</p> <p>有关设置请求队列的信息，请参阅<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">创建请求队列</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 * 您只能复制并提交已提交的请求。 您不能复制草稿的请求。
 * 您可以复制并提交您最初提交的请求，或其他人提交的请求，并且您至少有权查看。
 * 您始终有权复制并提交您自己的请求副本，除非有人删除了您对这些请求的权限。
-* 当请求队列的创建者启用 **来自同一公司的人员将针对所有请求继承相同的权限** 在“队列详细信息”或“编辑项目”区域中。 禁用此设置将仅允许原始请求者查看自己的请求。
+* 当请求队列的创建者启用&#x200B;**来自同一公司的人员将为“队列详细信息”或“编辑项目”区域中的所有请求**&#x200B;继承相同权限时，可能会自动向同一公司中的人员授予对复制和提交最初由其他人提交的请求的访问权限。 禁用此设置将仅允许原始请求者查看自己的请求。
 
   有关更多信息，请参阅以下文章：
 
@@ -105,12 +105,12 @@ ht-degree: 2%
      >
      >如果队列主题是请求队列中的唯一主题，您仍然可以复制并提交请求，该主题将保存在请求队列本身下。
 
-   * 请求队列不再作为帮助请求队列发布。 有关信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * 请求队列不再作为帮助请求队列发布。 有关信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
    * 如果请求队列没有队列主题，则原始请求是在2022年1月之前提交的。
 
    * 与请求队列关联的项目的状态不再是当前。
 
-* 如果在转换过程中保留了已转换请求，则可以复制并提交该请求的副本。 有关更多信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+* 如果在转换过程中保留了已转换请求，则可以复制并提交该请求的副本。 有关详细信息，请参阅[在Adobe Workfront中转换问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
   >[!TIP]
   >
@@ -118,8 +118,8 @@ ht-degree: 2%
 
 ## 复制并提交请求
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **请求**.
-1. （视情况而定）如果默认情况下不显示“已提交”部分，请单击 **已提交** 在左侧面板中。
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**请求**。
+1. （视情况而定）如果“已提交”部分默认不显示，请单击左侧面板中的&#x200B;**已提交**。
 
    >[!TIP]
    >
@@ -127,17 +127,17 @@ ht-degree: 2%
 
 1. 找到要复制并作为新请求提交的请求，然后执行以下操作之一：
 
-   * 选择它，然后单击 **复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （位于已提交的请求列表的左上角）。
+   * 选择它，然后单击已提交请求列表左上角的&#x200B;**复制** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)。
 
    >[!TIP]
    >
    > 如果未先选择请求，则复制图标将灰显。
 
-   * 单击 **更多** 菜单 ![](assets/more-icon.png) 请求名称的右侧，然后单击 **复制并提交为新**
+   * 单击请求名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**复制并以新形式提交**
 
      或
 
-     右键单击选定的请求，然后单击 **复制并提交为新**.
+     右键单击所选请求，然后单击&#x200B;**复制并作为新请求提交**。
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -148,13 +148,13 @@ ht-degree: 2%
 1. （可选）如果需要，请更新以下信息：
 
    * **请求类型**：保存所复制请求的请求队列。 默认情况下，复制的请求将保存到原始请求的请求队列中。
-   * **主题组** 和 **队列主题**，如果选中了它们。 为您的环境自定义名称或主题组和队列主题。 默认情况下，复制的请求将保存到原始请求的主题组和队列主题中。
+   * **主题组**&#x200B;和&#x200B;**队列主题**（如果已选择）。 为您的环境自定义名称或主题组和队列主题。 默认情况下，复制的请求将保存到原始请求的主题组和队列主题中。
 
      >[!TIP]
      >
      >如果路径更改自原始请求的路径，则请求队列的创建者会修改该队列。
 
-1. （可选）更新复制请求中的任何信息。 根据请求队列创建者在 **新建问题字段** 的部分 **队列详细信息** 在该项目的子选项卡中，您可能会找到以下任意字段：
+1. （可选）更新复制请求中的任何信息。 根据请求队列创建者在项目的&#x200B;**队列详细信息**&#x200B;子选项卡的&#x200B;**新问题字段**&#x200B;部分中启用的字段，您可能会找到以下任意字段：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主题</strong> </td> 
-      <td>显示原始请求的名称。 如有必要，请更新它。 否则，Workfront会将复制的请求命名为 <b>副本 &lt;name of="" original="" request=""&gt;</b>. 这是必填字段。</td> 
+      <td>显示原始请求的名称。 如有必要，请更新它。 否则，Workfront会将复制的请求命名为<b>&lt;原始请求的名称&gt;</b>的副本。 这是必填字段。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>描述</strong> </td> 
@@ -184,7 +184,7 @@ ht-degree: 2%
        </ul> <p>您的Workfront管理员可以修改优先级的名称。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>严重程度</strong> </td> 
+      <td role="rowheader"><strong>严重性</strong> </td> 
       <td> <p>指定请求的严重性。 严重性应该定义如果不能及时解决此请求对您工作的影响。 默认选项为：</p> 
        <ul> 
         <li>轻微</li> 
@@ -210,7 +210,7 @@ ht-degree: 2%
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>计划小时</strong> </td> 
+      <td role="rowheader"><strong>计划小时数</strong> </td> 
       <td> <p>估计完成此请求需要多少小时。</p> </td> 
      </tr> 
      <tr> 
@@ -241,6 +241,6 @@ ht-degree: 2%
    >* 附加到原始请求的所有自定义表单以及自定义字段中包含的值都会转移到复制的请求。 这包括包含逻辑的字段。
    >* 您无法从复制的请求中删除自定义表单。
 
-1. 单击 **提交**.
+1. 单击&#x200B;**提交**。
 
    复制的请求将作为新请求提交到您指定的请求队列中。

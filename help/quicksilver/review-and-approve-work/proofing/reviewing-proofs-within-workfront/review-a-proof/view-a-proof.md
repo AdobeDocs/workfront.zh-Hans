@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,31 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
 ## 更改验证的视图
 
 您可以在单个视图、连续视图或杂志视图中查看包含多个页面的静态校对。
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的证明，然后单击 **打开校对**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
 1. 在校样查看器的左上角区域中，找到查看选项。\
    ![changing_the_view.png](assets/changing-the-view-350x213.png)
@@ -86,10 +86,10 @@ ht-degree: 0%
 
 默认情况下，将显示缩略图面板。 您可以隐藏或调整面板的大小。
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的证明，然后单击 **打开校对**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
-1. 单击 **缩略图** 图标（位于验证查看器的左上角）。\
+1. 单击验证查看器左上角的&#x200B;**缩略图**&#x200B;图标。\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. （可选）再次单击缩略图图标以显示缩略图面板。
@@ -104,8 +104,8 @@ ht-degree: 0%
 
 要在缩略图视图中缩放和平移：
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的证明，然后单击 **打开校对**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
 1. 在“缩略图”面板中找到当前缩放区域。\
    缩放区域在缩略图的边缘周围显示为蓝色框架。
@@ -119,37 +119,37 @@ ht-degree: 0%
 
 您可以在验证查看器中旋转验证。 旋转包含多个页面的验证时，将同时旋转所有页面。
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的证明，然后单击 **打开校对**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
-1. 单击 **旋转** 图标（位于验证查看器的底部）。
+1. 单击验证查看器底部的&#x200B;**旋转**&#x200B;图标。
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   每次单击 **旋转** 图标。
+   每次单击&#x200B;**旋转**&#x200B;图标时，校样都会旋转90度。
 
 ## 缩放和平移验证
 
 您可以在查看验证时调整缩放百分比。 当以较大的缩放百分比查看验证时，“平移”选项允许您使用光标导航到验证的不同区域。
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的证明，然后单击 **打开校对**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
 1. 执行以下任一操作可调整校样的缩放百分比：
 
-   * 单击 **缩放** 图标，然后单击验证以在更高的缩放级别查看验证，或者拖过验证的某个区域以仅查看该区域。
+   * 单击&#x200B;**缩放**&#x200B;图标，然后单击验证以在更高的缩放级别查看验证，或者拖过验证的某个区域以仅查看该区域。
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * 单击当前缩放百分比，单击新缩放百分比或单击 **适应宽度**， **适应高度**，或 **适应页面**.
+   * 单击当前缩放百分比，单击新的缩放百分比，或单击&#x200B;**适应宽度**、**适应高度**&#x200B;或&#x200B;**适应页面**。
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * 单击 **加号** 或 **减号** 用于增加或减少缩放百分比的图标。
+   * 单击&#x200B;**加**&#x200B;或&#x200B;**减**&#x200B;图标可增加或减少缩放百分比。
 
      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. 如果您需要平移到视频校对上的特定区域，请单击 **平移** 图标，然后根据需要拖动验证。
+1. 如果需要平移到视频验证上的某个区域，请单击&#x200B;**平移**&#x200B;图标，然后根据需要拖动验证。
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 

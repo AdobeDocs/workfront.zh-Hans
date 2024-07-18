@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2移动设备增强功能
 
-本页介绍了21.2版本对“预览”环境做出的所有移动设备增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境做出的所有移动设备增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 工时表备注
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 移动应用程序现在允许您在时间表上输入备注。
 
-有关更多信息，请参阅 [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 和 [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+有关详细信息，请参阅适用于iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)和适用于Android的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 ## 预输入支持的其他对象 — 仅适用于iOS用户
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 移动设备应用程序现在支持自定义表单预输入字段中的以下对象：
 
 * 公司
-* 群组
+* 组
 * 工作角色
 * 项目组合
 * 项目群
@@ -46,7 +46,7 @@ ht-degree: 3%
 * 团队
 * 模板
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 在Workfront移动设备应用程序中保存请求为草稿
 
@@ -56,4 +56,4 @@ ht-degree: 3%
 
 您现在可以在移动应用程序中保存部分已填充的请求作为草稿。 我们在请求区域新增了草稿部分，以便您轻松查找任何草稿。
 
-有关更多信息，请参阅 [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 或 [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+有关详细信息，请参阅[适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或[适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。

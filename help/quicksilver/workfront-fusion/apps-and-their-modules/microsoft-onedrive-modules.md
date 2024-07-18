@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用OneDrive的工作流，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用OneDrive的工作流，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft OneDrive] 模块
+# [!DNL Microsoft OneDrive]模块
 
-在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用 [!DNL OneDrive]，并将其连接到多个第三方应用程序和服务。
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL OneDrive]的工作流，并将其连接到多个第三方应用程序和服务。
 
-如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
-有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
 ## 访问要求
 
@@ -43,36 +43,36 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-使用 [!DNL OneDrive] 模块，您必须拥有 [!DNL Microsoft OneDrive] 帐户。
+要使用[!DNL OneDrive]模块，您必须具有[!DNL Microsoft OneDrive]帐户。
 
 
 
 
-## 连接 [!DNL OneDrive] 服务对象 [!DNL Workfront Fusion]
+## 正在将[!DNL OneDrive]服务连接到[!DNL Workfront Fusion]
 
-有关连接 [!DNL OneDrive] 帐户至 [!UICONTROL Workfront Fusion]，请参见 [创建与的连接 [!UICONTROL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+有关将[!DNL OneDrive]帐户连接到[!UICONTROL Workfront Fusion]的说明，请参阅[创建与[!UICONTROL Adobe Workfront Fusion]的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ ht-degree: 0%
 >
 >例如，如果用户拥有通过Excel Connector授予的“读取表”权限，然后在Outlook Connector中创建连接以读取电子邮件，则权限同意屏幕将显示已授予的“读取表”权限和新要求的“写入电子邮件”权限。
 
-## [!DNL Microsoft OneDrive] 模块及其字段
+## [!DNL Microsoft OneDrive]模块及其字段
 
-配置时 [!DNL OneDrive] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL OneDrive] 字段可能会显示，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置[!DNL OneDrive]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL OneDrive]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 * [[!UICONTROL 搜索文件/文件夹]](#search-filesfolders)
 * [[!UICONTROL 获取文件]](#get-a-file)
 * [[!UICONTROL 下载文件]](#download-a-file)
-* [[!UICONTROL 上传文件]](#upload-a-file)
+* [[!UICONTROL 上载文件]](#upload-a-file)
 * [[!UICONTROL 创建文件夹]](#create-a-folder)
 * [[!UICONTROL 获取共享链接]](#get-a-share-link)
 * [[!UICONTROL 移动文件/文件夹]](#move-a-filefolder)
@@ -114,28 +114,28 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL监视文件/文件夹]</td> 
    <td> <p>选择监视文件或文件夹的方式：</p> 
     <ul> 
-     <li> <p><b>[！UICONTROL按创建时间]</b> </p> <p>请注意新文件或文件夹。</p> </li> 
-     <li> <p><b>[！UICONTROL，更新时间]</b> </p> <p>请注意已更新的现有文件或文件夹。</p> </li> 
+     <li> <p><b>[！UICONTROL，按创建时间]</b> </p> <p>请注意新文件或文件夹。</p> </li> 
+     <li> <p><b>[！UICONTROL，按更新时间]</b> </p> <p>请注意已更新的现有文件或文件夹。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要监视的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入您希望模块监视的驱动器ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> <p>导航到您希望模块监视的文件夹。 您还可以输入查询以筛选返回的结果。</p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> <p>导航到您希望模块监视的文件夹。 您还可以输入查询以筛选返回的结果。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL与我共享]</b> </p> <p>模块会监视与驱动器所有者共享的文件。</p> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择要让模块关注的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择要让模块监视其驱动器的组。</p> </li> 
+     <li> <p><b>[！UICONTROL已与我共享]</b> </p> <p>模块会监视与驱动器所有者共享的文件。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择要让模块关注的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择要让模块监视其驱动器的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,20 +161,20 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要搜索的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入您希望模块搜索的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> <p>导航到您希望模块搜索的文件夹。 您还可以输入查询以筛选返回的结果。</p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> <p>导航到您希望模块搜索的文件夹。 您还可以输入查询以筛选返回的结果。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL与我共享]</b> </p> <p>模块将搜索与驱动器所有者共享的文件。</p> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 您希望模块搜索的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择要搜索模块的驱动器的组。</p> </li> 
+     <li> <p><b>[！UICONTROL已与我共享]</b> </p> <p>模块将搜索与驱动器所有者共享的文件。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择要模块搜索的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择要搜索模块的驱动器的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件ID和文件路径）]</td> 
@@ -213,16 +213,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要搜索的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要获取文件的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择包含要获取的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要获取文件的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要获取的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要获取文件的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件ID和文件路径）]</td> 
@@ -261,16 +261,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要包含要下载的文件的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要下载的文件的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择包含要下载的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要下载的文件的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要下载的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要下载的文件的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -324,7 +324,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 上传文件]
+#### [!UICONTROL 上载文件]
 
 此操作模块将文件上传到指定的文件夹。
 
@@ -334,23 +334,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">输入（文件夹位置ID和路径）</td> 
    <td>选择是要按ID还是按路径标识目标文件夹。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择上载文件的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>选择包含要获取文件的驱动器。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 包含要上载文件的文件夹的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要上载文件的文件夹的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要上载文件的文件夹的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要上载文件的文件夹的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ ht-degree: 0%
    <td> <p>选择包含要上载文件的文件夹的驱动器。 如果您在[！UICONTROL启用以输入驱动器ID]字段中选择了[！UICONTROL否]，则此字段不可用。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL源文件]</td> 
+   <td role="rowheader">[！UICONTROL Source file]</td> 
    <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
   </tr> 
   <tr> 
@@ -382,19 +382,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要创建文件夹的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>选择要创建文件夹的驱动器。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 要在其中创建文件夹的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择拥有要在其中创建文件夹的驱动器的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择要创建文件夹的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择拥有要在其中创建文件夹的驱动器的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -426,7 +426,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件ID和文件路径）]</td> 
@@ -441,16 +441,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要检索共享链接的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要检索共享链接文件的驱动器ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择包含要检索共享链接的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要检索共享链接文件的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要检索共享链接的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要检索共享链接文件的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -482,7 +482,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件ID和文件路径）]</td> 
@@ -497,16 +497,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择包含要移动的文件或文件夹的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要移动的文件或文件夹的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 包含要移动的文件或文件夹的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要移动的文件或文件夹的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要移动的文件或文件夹的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要移动的文件或文件夹的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -530,21 +530,21 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要移动文件或文件夹的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入要移动文件或文件夹的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 要移动文件或文件夹的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择要将文件或文件夹移动到其驱动器的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择要移动文件或文件夹的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择要将文件或文件夹移动到其驱动器的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL驱动器ID]</td> 
-   <td> <p>选择或映射包含要移动文件或文件夹的驱动器。 如果您在[！UICONTROL启用以输入驱动器ID]字段中选择了[！UICONTROL否]，则此字段不可用。</p> <p>如果将此项留空，则文件或文件夹只能在同一文件夹内移动 [!DNL OneDrive].</p> <p>您可以将文件和文件夹从[！UICONTROL我的驱动器]移动到[！UICONTROL站点的驱动器]或[！UICONTROL组的驱动器]。 </p> <p>您只能将文件从[！UICONTROL站点的驱动器]移动到同一站点中的同一驱动器。</p> <p>您只能将文件从[！UICONTROL组的驱动器]移动到同一组中的同一驱动器。</p> </td> 
+   <td> <p>选择或映射包含要移动文件或文件夹的驱动器。 如果您在[！UICONTROL启用以输入驱动器ID]字段中选择了[！UICONTROL否]，则此字段不可用。</p> <p>如果将此留空，则文件或文件夹只能在同一[!DNL OneDrive]中移动。</p> <p>您可以将文件和文件夹从[！UICONTROL我的驱动器]移动到[！UICONTROL站点的驱动器]或[！UICONTROL组的驱动器]。 </p> <p>您只能将文件从[！UICONTROL站点的驱动器]移动到同一站点中的同一驱动器。</p> <p>您只能将文件从[！UICONTROL组的驱动器]移动到同一组中的同一驱动器。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件夹]</td> 
@@ -563,7 +563,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件ID和文件路径）]</td> 
@@ -578,16 +578,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择包含要复制文件的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要复制的文件或文件夹的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择包含要移动的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要复制文件的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要移动的文件的SharePoint站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要复制文件的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -613,10 +613,10 @@ ht-degree: 0%
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入要复制文件的驱动器的ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 要复制文件的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择要将文件复制到其驱动器的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择要将文件复制到其中的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择要将文件复制到其驱动器的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -644,7 +644,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输入（文件/文件夹ID和路径）]</td> 
@@ -659,16 +659,16 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL选择您的 [!DNL OneDrive] 位置]</td> 
+   <td role="rowheader">[！UICONTROL选择您的[!DNL OneDrive]位置]</td> 
    <td> <p>选择要搜索的位置：</p> 
     <ul> 
      <li> <p><b>[！UICONTROL我的驱动器]</b> </p> <p>选择是否启用模块以输入驱动器ID。</p> 
       <ul> 
        <li> <p><b>[！UICONTROL是]</b> </p> <p>输入包含要删除的文件或文件夹的驱动器ID。</p> </li> 
-       <li> <p><b>[！UICONTROL否]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL编号]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[！UICONTROL站点驱动器]</b> </p> <p>选择 [!DNL SharePoint] 包含要删除的文件或文件夹的站点。 可用站点是后跟登录用户的站点。</p> </li> 
-     <li> <p><b>[！UICONTROL Group's Drive]</b> </p> <p>选择其驱动器包含要删除的文件或文件夹的组。</p> </li> 
+     <li> <p><b>[！UICONTROL站点的驱动器]</b> </p> <p>选择包含要删除的文件或文件夹的[!DNL SharePoint]站点。 可用站点是后跟登录用户的站点。</p> </li> 
+     <li> <p><b>[！UICONTROL组的驱动器]</b> </p> <p>选择其驱动器包含要删除的文件或文件夹的组。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -698,15 +698,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>有关连接 [!DNL OneDrive] 帐户至 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明</a></td> 
+   <td>有关将[!DNL OneDrive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL URL]</td> 
-   <td>输入相对路径 <code>https://graph.microsoft.com</code>. 示例：<code> /v1.0/me/drive/root/children</code></td> 
+   <td>输入相对于<code>https://graph.microsoft.com</code>的路径。 示例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
-   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Headers]</td> 
@@ -718,7 +718,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -732,6 +732,6 @@ ht-degree: 0%
 
 上传或更新文件失败时，可能会出现几个问题：
 
-* 上传的文件太大，超过了您的最大文件大小限制。 [!DNL OneDrive] 计划或您已使用所有 [!DNL OneDrive] 帐户的存储配额。 要获得更多存储空间，请从删除现有文件 [!DNL OneDrive] 或升级您的 [!DNL OneDrive] 帐户。
-* OneDrive不允许将两个同名文件上载到一个文件夹。 如果目标文件夹包含的文件与正在上传的文件同名，则场景运行将终止，并出现错误。 解决方案是简单地重命名要上传的文件。 如果您的目的是更新文件，请使用 [!UICONTROL 更新文件] 操作。
+* 上传的文件太大，超过了您[!DNL OneDrive]计划的最大文件大小限制，或者您已使用所有[!DNL OneDrive]帐户的存储配额。 若要获得更多存储空间，请从[!DNL OneDrive]中删除现有文件或升级您的[!DNL OneDrive]帐户。
+* OneDrive不允许将两个同名文件上载到一个文件夹。 如果目标文件夹包含的文件与正在上传的文件同名，则场景运行将终止，并出现错误。 解决方案是简单地重命名要上传的文件。 如果您的目的是更新文件，请使用[!UICONTROL 更新文件]操作。
 * 先前选择的文件夹（文件将上载到该文件夹）不再存在。 场景将停止，您将需要再次选择目标文件夹。

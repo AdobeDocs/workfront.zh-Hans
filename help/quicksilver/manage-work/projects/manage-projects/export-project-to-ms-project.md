@@ -20,10 +20,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >* 并非所有Workfront字段都在Microsoft项目文件中传输。\
-   >  有关Workfront与Microsoft项目之间字段兼容性的更多信息，请参阅文章 [将Microsoft项目字段映射到Adobe Workfront项目](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
->* 我们建议您限制将项目从一个应用程序转移到另一个应用程序的次数。 
+>  有关Workfront和Microsoft项目之间字段兼容性的更多信息，请参阅文章[将Microsoft项目字段映射到Adobe Workfront项目](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)。
+>* 我们建议您限制从一个应用程序向另一个应用程序转移项目的次数。 
 >
-
 
 ## 访问要求
 
@@ -56,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,41 +63,41 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审阅或更高版本</p> </td> 
+   <td> <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限访问项目</p> <p><b>注释</b>
+   <td> <p>查看项目或授予更高的项目访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关访问项目的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予对项目的访问权限</a>. 有关Workfront管理员如何更改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关项目访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">授予项目访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 查看项目的或更高权限</p> <p>有关项目权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>.</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p> 查看项目或更高权限</p> <p>有关项目权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 将项目从Workfront导出到Microsoft项目
 
-您可以从项目页面或项目列表或报表中从Workfront导出项目。
+您可以从项目页面、项目列表或报表中从Workfront导出项目。
 
-1. 转到要导出的项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 项目名称的权限
+1. 转到要导出的项目，然后单击项目名称右侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报表并选择一个项目，然后单击更多图标 ![](assets/qs-more-menu.png) 列表顶部。
+   转到项目列表或报告并选择项目，然后单击列表顶部的“更多”图标![](assets/qs-more-menu.png)。
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. 单击 **导出MS项目**.
+1. 单击&#x200B;**导出MS项目**。
 
-   项目将作为XML文件下载到您的计算机，并准备好导入到Microsoft项目中。 
+   该项目将作为XML文件下载到您的计算机，并且已准备好将其导入Microsoft项目。 

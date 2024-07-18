@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 适用于iOS的Adobe Workfront
-description: 此 [!DNL Adobe Workfront] 应用程序允许您在任何iOS设备上访问您的工作。 您可以安装和使用 [!DNL Workfront] 运行iOS 10或更高版本的手机和平板电脑上的移动设备应用程序。 专门的 [!DNL Workfront] 移动设备应用程序适用于iPhone和iPad。
+description: ' [!DNL Adobe Workfront] 应用程序允许您在任何iOS设备上访问您的工作。 您可以在运行iOS 10或更高版本的手机和平板电脑上安装并使用 [!DNL Workfront] 移动应用程序。 专用的 [!DNL Workfront] 移动应用程序可用于iPhone和iPad。'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] 对象 [!DNL iOS]
+# [!DNL iOS]的[!DNL Adobe Workfront]
 
-此 [!DNL Adobe Workfront] 应用程序允许您访问您对任意 [!DNL iOS] 设备。 您可以安装和使用 [!DNL Workfront] 运行iOS 10或更高版本的手机和平板电脑上的移动设备应用程序。 专门的 [!DNL Workfront] 移动设备应用程序同时适用于 [!DNL iPhone] 和 [!DNL iPad].
+[!DNL Adobe Workfront]应用允许您在任何[!DNL iOS]设备上访问您的工作。 您可以在运行iOS 10或更高版本的手机和平板电脑上安装并使用[!DNL Workfront]移动应用程序。 专用的[!DNL Workfront]移动应用可用于[!DNL iPhone]和[!DNL iPad]。
 
-有关登录到移动设备应用程序的信息，请参阅部分 [登录到 [!UICONTROL Workfront] 移动应用程序](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) 在文章中 [登录 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+有关登录到移动设备应用程序的信息，请参阅[登录到 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)一文中的[登录到[!UICONTROL Workfront]移动设备应用程序](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)部分。
 
 ## [!UICONTROL 主页]
 
-此 [!UICONTROL 主页] 区域允许您直接处理分配给您的任务、问题和批准。 从 [!UICONTROL 主页] 区域内，您可以：
+[!UICONTROL 主页]区域允许您直接处理分配给您的任务、问题和批准。 从应用程序的[!UICONTROL 主页]区域，您可以：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关更多信息，请参阅 [[!UICONTROL 主页] 区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) 和 [[!UICONTROL 我的工作] 部分来创建模型](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+有关详细信息，请参阅移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 主页]区域小组件](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[[!UICONTROL 我的工作]部分。
 
 ![主页区域](assets/mobile-home-area.png)
 
 ## [!UICONTROL 展示板]
 
-此 [!UICONTROL 讨论区] 区域，您可以访问 [!DNL Workfront] 展示板。
+[!UICONTROL 讨论区]区域允许您访问您的[!DNL Workfront]讨论区。
 
 ![讨论区区域](assets/mobile-all-boards-displayed.png)
 
-有关更多信息，请参阅 [[!DNL Adobe Workfront] [!UICONTROL 讨论区] 适用于移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+有关详细信息，请参阅移动设备](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 讨论区]。
 
 ## [!UICONTROL 项目]
 
-此 [!UICONTROL 项目] 区域允许您与交互和管理 [!UICONTROL 项目] 您拥有的项目和您参与的项目。 在应用程序的项目区域中，您可以：
+[!UICONTROL 项目]区域允许您与您拥有的[!UICONTROL 项目]以及您参与的项目进行交互和管理。 在应用程序的项目区域中，您可以：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 ## 审批
 
-此 [!UICONTROL 审批] 区域允许您查看和批准 [!UICONTROL 审批] 已分配给您或已委派给您。 从审批区域，您可以审批：
+[!UICONTROL 审批]区域允许您查看和审批分配给您或委托给您的[!UICONTROL 审批]。 从审批区域，您可以审批：
 
 <table style="table-layout:auto">
  <col>
@@ -113,15 +113,15 @@ ht-degree: 2%
  </tbody>
 </table>
 
-有关审批的详细信息，请参阅 [中的审批 [!DNL Adobe Workfront] 移动应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+有关审批的详细信息，请参阅 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的[审批。
 
-有关审阅和批准验证的信息，请参阅 [在中查看验证并做出决策 [!DNL Adobe Workfront] 移动应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+有关审阅和批准校样的信息，请参阅[在 [!DNL Adobe Workfront] 移动设备应用程序](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中审阅和作出校样决定。
 
-![移动应用程序中的审批列表](assets/mobile-approvals-adobe-350x574.png)
+移动应用中的![审批列表](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL 通知]
 
-此 [!UICONTROL 通知] 区域可查看和响应工作的应用程序内通知。
+[!UICONTROL 通知]区域允许您查看和响应工作的应用程序内通知。
 
 >[!NOTE]
 >除非注释的整个内容都是没有显示文本的超链接，否则超链接在更新通知中不可用。
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 ## [!UICONTROL 请求]
 
-此 [!UICONTROL 请求] 区域可查看有关请求的详细信息。 从 [!UICONTROL 请求] 区域内，您可以：
+[!UICONTROL 请求]区域允许您查看有关请求的详细信息。 从应用程序的[!UICONTROL 请求]区域，您可以：
 
 <table style="table-layout:auto">
  <col>
@@ -158,9 +158,9 @@ ht-degree: 2%
 
 ## 工时表
 
-此 [!UICONTROL 时间表] 区域可查看有关时间表的详细信息。 在 [!UICONTROL 时间表] 区域内，您可以：
+[!UICONTROL 时间表]区域允许您查看有关您的时间表的详细信息。 在应用的[!UICONTROL 时间表]区域中，您可以：
 
-* Post在 [!UICONTROL 更新] 区域
+* [!UICONTROL 更新]区域中的Post
 * 调整小时类型
 * 更改您登录的时间
 * 在时间表上输入备注
@@ -170,19 +170,19 @@ ht-degree: 2%
 
 ## [!UICONTROL 收藏夹]
 
-您可以从“收藏夹”菜单访问现有项目，并将新项目添加到 [!UICONTROL 收藏夹] 菜单。
+您可以从“收藏夹”菜单访问现有项目，并将新项目添加到[!UICONTROL 收藏夹]菜单。
 
 ![收藏夹区域](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL 联系人]
 
-此 [!UICONTROL 联系人] 区域可查看公司中所有用户的联系信息。
+[!UICONTROL 联系人]区域允许您查看公司中所有用户的联系信息。
 
 ![联系人区域](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL 配置]
 
-此 [!UICONTROL 配置] 区域允许您：
+[!UICONTROL 配置]区域允许您：
 
 * 管理您的设置
 * 查看分配的团队

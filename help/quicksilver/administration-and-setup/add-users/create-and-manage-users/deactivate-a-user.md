@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >在Workfront中停用用户会移除用户对Workfront和数字校对的许可证。 此外，不能再为用户分配工作。 当用户被停用时，该用户的Workfront许可证和验证许可证将可供其他用户使用。 已停用用户配置文件中的所有其他信息保持不变。
 >
->有关删除和停用用户所产生的影响的更多信息，请参阅 [删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>有关删除和停用用户的影响的更多信息，请参阅[删除用户](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
 ## 访问要求
 
@@ -65,8 +65,8 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置</td> 
    <td> <p>您必须具备以下任一项：</p> 
     <ul> 
-     <li> <p>系统管理员访问级别。 有关信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>. </p> </li> 
-     <li> <p><b>用户</b> 将访问级别中的设置配置为 <b>编辑</b> 访问，使用 <b>创建</b> 而且至少两者 <b>用户管理员</b> 下启用的选项 <b>微调您的设置</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>这两个选项中的一个，如果用户 <b>管理员（组用户）</b> 启用，您必须是用户所属的组的组管理员。</p> <p>欲知关于 <b>用户</b> 在访问级别中设置，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </li> 
+     <li> <p>系统管理员访问级别。 有关信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> </li> 
+     <li> <p>访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，其中<b>创建</b>以及<b>微调设置</b> <img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项之一。 </p> <p>在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，您必须是该用户所属组的组管理员。</p> <p>有关访问级别中<b>用户</b>设置的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 在停用Workfront管理员或Standard或Plan许可证用户之前，必须将其对象和活动与其他用户关联。
 
-有关更多信息，请参阅 [关于停用Workfront管理员和计划许可证用户](#about-deactivating-workfront-administrators-and-plan-license-users) 本文章中。
+有关详细信息，请参阅本文中的[关于停用Workfront管理员和计划许可证用户](#about-deactivating-workfront-administrators-and-plan-license-users)。
 
 ## 取消激活用户
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 要停用用户，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
 
-1. 选择一个用户，单击 **更多** 图标 ![](assets/more-icon.png)，然后单击 **取消激活**.
+1. 选择一个用户，单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**停用**。
 
-1. 单击 **取消激活** 在出现的框中。
+1. 在出现的框中单击&#x200B;**停用**。
 
 ## 安排用户停用
 
@@ -104,7 +104,7 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
 要计划用户停用，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
 
 1. 选择用户的名称。
 
@@ -112,18 +112,18 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
    （可选）选择多个用户以安排他们批量停用。
 
-1. 单击编辑图标 ![](assets/edit-icon.png).
-1. 在显示的编辑用户框中，单击 **资源规划** 去那个地方。
-1. 启用 **计划停用** 选项。
+1. 单击编辑图标![](assets/edit-icon.png)。
+1. 在显示的“编辑用户”框中，单击&#x200B;**资源规划**&#x200B;以转到该区域。
+1. 启用&#x200B;**计划停用**&#x200B;选项。
 
-1. 在显示的日历中，指定日期和时间 **计划的停用日期**.
+1. 在显示的日历中，指定&#x200B;**计划的停用日期**&#x200B;的日期和时间。
 
    >[!NOTE]
    >
    >* 在时间框中，您只能选择整小时增量，不能选择分钟。
    >* 如果您选择已经过去的当天时间，Workfront会将停用时间安排在接下来的中午12:00。 所选时间与计划取消激活的用户的计算机时区匹配。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
    在选定日期的选定时间后的某个时间取消激活用户。 如果您选择了多个用户批量停用，则在选定日期的选定时间之后的某个时间停用所有选定用户。
 
@@ -131,11 +131,11 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
 ## 重新激活用户
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
 
-1. 选择一个用户，单击更多图标 ![](assets/more-icon.png)，然后单击 **激活**.
+1. 选择一个用户，单击“更多”图标![](assets/more-icon.png)，然后单击&#x200B;**激活**。
 
-1. 分配新 **访问级别**&#x200B;在下拉菜单中，然后单击 **重新激活**.
+1. 在下拉菜单中分配新的&#x200B;**访问级别**，然后单击&#x200B;**重新激活**。
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 已停用用户将失去为其分配的默认验证角色和验证许可证(如果您使用Workfront Premium旧版计划)。 如果选择重新激活用户，您必须：
 
-* 重新分配许可证(如果您使用Workfront Premium旧版计划)。 有关Workfront校对计划的详细信息，请参阅 [访问Workfront中的验证功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* 验证他们是否具有正确的验证角色。 重新激活的验证用户将分配给指定为新用户的默认验证角色的任何角色。 请参阅 [配置默认验证角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) 以了解更多信息。
+* 重新分配许可证(如果您使用Workfront Premium旧版计划)。 有关Workfront验证计划的详细信息，请参阅[访问Workfront中的验证功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
+* 验证他们是否具有正确的验证角色。 重新激活的验证用户将分配给指定为新用户的默认验证角色的任何角色。 有关详细信息，请参阅[配置默认验证角色](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)。
 
 ## 关于停用Workfront管理员以及Standard或Plan许可用户
 
@@ -171,4 +171,4 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 资源规划者考虑用户的所有工作角色和任务的计划完成日期，并相应地计算资源。
 
-有关资源规划者的详细信息，请参阅 [资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+有关资源规划者的详细信息，请参阅[资源规划者概述](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。

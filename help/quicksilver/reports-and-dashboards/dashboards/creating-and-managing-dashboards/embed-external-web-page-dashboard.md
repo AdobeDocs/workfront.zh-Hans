@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >* 出于安全原因，某些网站不允许您将网页作为iframe嵌入。 如果要嵌入到仪表板中的网页不允许这样做，则该页面不会显示在仪表板中。 但是，您仍然可以通过单击功能板的名称来访问外部页面。\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->要允许嵌入您拥有的网站，请与Web管理员合作以调整 **X-Frame-Options** 设置。 有关更多信息，请参阅 [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>要允许嵌入您拥有的网站，请与Web管理员合作调整&#x200B;**X-Frame-Options**&#x200B;设置。 有关详细信息，请参阅[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)。
 >
 >
 >* 仪表板中不再支持将仪表板页面嵌入外部页面。 虽然不会自动修改现有功能板以删除这些外部页面，但在删除或更改引用之前，无法保存对包含此类引用的功能板所做的任何修改。
@@ -47,7 +47,7 @@ ht-degree: 0%
 >     * /group/：ID/content-dashboard__：dashboardID&#x200B;
 >     * /billingrecord/：ID/content-dashboard__：dashboardID
 >
->作为替代解决方案，请考虑在功能板中包含列表报表，如中所述 [将报表添加到功能板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>作为替代解决方案，请考虑在您的信息板中包含列表报告，如[将报告添加到信息板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)中所述
 
 ## 访问要求
 
@@ -80,7 +80,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -88,13 +88,13 @@ ht-degree: 0%
 
 必须先创建功能板，然后才能在其中嵌入外部页面。
 
-有关创建功能板的信息，请参阅 [创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+有关创建功能板的信息，请参阅[创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
 ## 在功能板中嵌入外部页面
 
 >[!IMPORTANT]
 >
->如果不再需要某个外部页面，您可以从功能板中删除该页面。 但是，在Workfront中创建外部页面后，您无法删除该页面。 您只能使用API删除外部页面。 有关更多信息，请参阅 [从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>如果不再需要某个外部页面，您可以从功能板中删除该页面。 但是，在Workfront中创建外部页面后，您无法删除该页面。 您只能使用API删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
 
 1. 找到要在Workfront中显示的页面的URL，并复制位于地址栏中的URL。
 
@@ -104,21 +104,21 @@ ht-degree: 0%
 
 {{step1-to-dashboards}}
 
-1. 要编辑现有功能板，请选择要嵌入网站页面的功能板，然后单击 **仪表板操作**，然后单击 **编辑**
+1. 要编辑现有仪表板，请选择要嵌入网站页面的仪表板，单击&#x200B;**仪表板操作**，然后单击&#x200B;**编辑**
 或\
-   要创建新仪表板，请单击 **新建仪表板**.\
-   有关创建功能板的详细信息，请参阅 [创建功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   要创建新仪表板，请单击&#x200B;**新建仪表板**。\
+   有关创建仪表板的详细信息，请参阅[创建仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 
-1. 单击 **添加外部页面** 在 **选择布局/添加报告/添加日历** 区域。
+1. 单击&#x200B;**选择布局/添加报告/添加日历**&#x200B;区域下的&#x200B;**添加外部页面**。
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   此 **添加外部页面** 框显示。
+   显示&#x200B;**添加外部页面**&#x200B;框。
 
 1. 指定有关外部页面的以下信息：
 
-   * **名称**：添加功能板的名称。
-   * **描述**：添加有关功能板的更多信息，以标识它包含的信息。 保存后，该描述将显示在仪表板上，供有权查看该描述的每个人查看。
+   * **名称**：为仪表板添加名称。
+   * **描述**：添加有关仪表板的详细信息，以识别它包含的信息。 保存后，该描述将显示在仪表板上，供有权查看该描述的每个人查看。
    * **URL**：将您之前复制的URL粘贴到此字段中。
 
      您可以指定以下类型的URL：
@@ -128,11 +128,11 @@ ht-degree: 0%
         ![](assets/add-external-page-dialog-qs-350x247.png)
 
       * 包含特定网站会话信息的模板URL。\
-        例如： *https://localhost/?session={！$$SESSION}*
+        例如：*https://localhost/?session={！$$SESSION}*
 您必须登录到指定的网站才能显示外部页面。\
-        有关如何从Workfront获取SessionID的信息，请参阅 [API基础知识](../../../wf-api/general/api-basics.md).\
+        有关如何从Workfront获取SessionID的信息，请参阅[API基础知识](../../../wf-api/general/api-basics.md)。\
         出于安全原因，Workfront管理员可能会通过不允许在外部页面中使用会话信息的方式配置您的系统首选项。 在这种情况下，外部页面不会在功能板上加载。\
-        有关系统安全首选项的详细信息，请参阅 [配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        有关系统安全首选项的详细信息，请参阅[配置系统安全首选项](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
@@ -140,7 +140,7 @@ ht-degree: 0%
      >使用SessionID是不安全的，因此不建议使用。
      >
 
-   * **高度**：键入大于0的数字以定义外部页面在功能板上占用的空间。 默认高度为500。
+   * **高度**：键入大于0的数字以定义外部页面在仪表板上占用的空间。 默认高度为500。
 
 1. 单击&#x200B;**保存**。
 
@@ -158,16 +158,16 @@ ht-degree: 0%
 
 {{step1-to-dashboards}}
 
-1. 单击要更新的仪表板名称以将其打开，然后单击 **仪表板操作**，则 **编辑**.
+1. 单击要更新的仪表板名称以将其打开，然后单击&#x200B;**仪表板操作**，然后单击&#x200B;**编辑**。
 
-   此 **仪表板详细信息** 框打开。
+   将打开&#x200B;**仪表板详细信息**&#x200B;框。
 
-1. 在 **选择布局/添加报告/添加日历** 区域 **仪表板详细信息** 框中，找到要更新的外部页面，将鼠标悬停在该页面上，然后单击 **编辑** 图标。\
+1. 在&#x200B;**仪表板详细信息**&#x200B;框的&#x200B;**选择布局/添加报告/添加日历**&#x200B;区域中，找到要更新的外部页面，将鼠标悬停在其上，然后单击&#x200B;**编辑**&#x200B;图标。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. 在 **编辑外部页面** 框中，更新要更改的字段，然后单击 **保存**.
-1. （可选）单击 **删除** 图标 ![](assets/delete.png) 以从功能板中删除外部页面。 有关更多信息，请参阅 [从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. 单击 **保存+关闭**.
+1. 在&#x200B;**编辑外部页面**&#x200B;框中，更新要更改的字段，然后单击&#x200B;**保存**。
+1. （可选）单击&#x200B;**删除**&#x200B;图标![](assets/delete.png)以从仪表板中删除外部页面。 有关详细信息，请参阅[从功能板中删除外部页面](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)。
+1. 单击&#x200B;**保存+关闭**。
 
 ## 在报表中查看外部页面
 
@@ -175,15 +175,15 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. 单击 **新建报告** >选择 **外部页面**.
+1. 单击&#x200B;**新建报表** >选择&#x200B;**外部页面**。
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （可选）更新报表的视图、过滤器或分组选项卡。
 
-   有关更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   有关详细信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 单击 **保存+关闭**.
+1. 单击&#x200B;**保存+关闭**。
 
    您可以在新的报告中查看与系统中外部页面关联的名称和URL。
 

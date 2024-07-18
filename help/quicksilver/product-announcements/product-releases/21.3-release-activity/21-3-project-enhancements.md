@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.3版本对“预览”环境所做的所有项目增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 将模板与组关联
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 为了帮助您简化项目创建过程，并帮助您更轻松地识别和报告哪些组拥有哪些项目模板，我们增加了将组分配给项目模板的功能。
 
-将组分配给项目模板时，从该模板创建的所有项目都会自动与模板的组相关联。 有关更多信息，请参阅 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+将组分配给项目模板时，从该模板创建的所有项目都会自动与模板的组相关联。 有关详细信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-此外，如果模板与您的组相关联，则可以将组审批流程附加到模板及其模板任务。 有关更多信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+此外，如果模板与您的组相关联，则可以将组审批流程附加到模板及其模板任务。 有关详细信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 ## 更轻松地编辑详细信息部分中的字段
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 现在，要确保始终为具有跨项目前置任务的任务提供准确的移交日期，必须重新计算后续任务的项目时间线。 在重新计算时间线后，任务的移交日期会在考虑任务的跨项目依赖性的情况下进行计算。
 
-有关移交日期的详细信息，请参阅 [任务移交日期概述](../../../manage-work/tasks/task-information/handoff-task-date.md).
+有关移交日期的详细信息，请参阅[任务移交日期概述](../../../manage-work/tasks/task-information/handoff-task-date.md)。
 
 ## 从Scrum展示板添加现有故事和问题
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 您现在可以直接从Scrum展示板添加现有故事或问题。 这样可以更轻松地向当前迭代添加现有故事，而无需转到积压事项页面。
 
-有关更多信息，请参阅 [从Scrum展示板添加故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+有关详细信息，请参阅[从Scrum展示板添加故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)。
 
 ## 从Scrum展示板添加新故事和问题
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 您现在可以直接从Scrum展示板创建新故事或问题。 这样可以更轻松地向当前迭代快速添加新故事。
 
-有关更多信息，请参阅 [从Scrum展示板添加故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+有关详细信息，请参阅[从Scrum展示板添加故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)。
 
 ## 从Kanban板中删除故事或问题
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 您现在可以通过单击文章或问题卡上的“更多”图标并选择删除，直接从Kanban展示板中删除文章或问题。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
 
-有关更多信息，请参阅 [从Kanban展示板中删除故事或问题](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+有关详细信息，请参阅[从Kanban展示板中删除故事或问题](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)。
 
 ## Agile信息卡页眉和故事板更新
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 * 每个信息卡的顶部都有一个标签，用于将其标识为父故事、子任务（与父故事关联）、故事（与父故事不关联）或问题。
 * 背景阴影以可视方式分隔列。
 
-有关更多信息，请参阅 [迭代概述](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+有关详细信息，请参阅[迭代概述](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)。
 
 ## 组项目、任务和问题偏好设置
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 以前，您只能在Workfront Classic中按电子邮件地址添加外部用户。
 
-有关更多信息，请参阅 [请求文档审批](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+有关详细信息，请参阅[请求文档审批](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)。
 
 ## 从项目组合或项目群的“详细信息”部分导出信息
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 您现在可以从项目组合和程序的详细信息部分导出到.pdf文件信息。 在此增强功能之前，您只能从项目、任务和问题导出详细信息部分中的信息。
 
-有关从对象导出自定义表单的信息，请参阅 [导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+有关从对象导出自定义表单的信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 ## 在对象标头中添加了“规划完成日期”时间戳
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 在此增强功能之前，当您更新对象的规划完成日期时，Workfront选择午夜作为默认时间。 现在，您可以自定义时间以及完成日期。
 
-有关新Workfront Experience中对象标题的信息，请参阅 [新建对象标题](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+有关新Workfront Experience中对象标头的信息，请参阅[新对象标头](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
 ## 将自定义表单添加到对象而不进行编辑
 
@@ -156,5 +156,5 @@ ht-degree: 0%
 
 以前，将自定义表单添加到对象时，页面进入编辑模式，您必须先填写表单上的任何必填字段，然后才能将其保存到对象中。 当表单要由其他用户填写时，或者您不知道在表单上需要填写什么字段时，都会造成不便。
 
-有关将自定义表单添加到对象的信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+有关将自定义表单添加到对象的信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

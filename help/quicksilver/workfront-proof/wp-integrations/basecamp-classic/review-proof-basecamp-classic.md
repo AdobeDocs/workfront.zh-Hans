@@ -2,114 +2,114 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Basecamp Classic的校样
-description: Basecamp是由37个信号开发的在线项目管理工具。 如果您使用Basecamp进行项目管理，则可以使用 [!DNL Workfront Proof].
+title: 在Basecamp Classic中查看验证
+description: Basecamp是由37signals开发的在线项目管理工具。 如果您将Basecamp用于项目管理，则可以使用 [!DNL Workfront Proof]为项目团队提供更丰富的审阅和批准工具。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
-# 在中查看验证 [!DNL Basecamp] Classic
+# 在[!DNL Basecamp] Classic中查看验证
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-[!DNL Basecamp] 是由 [!DNL 37signals]. 如果您使用 [!DNL Basecamp] 对于项目管理，您可以使用 [!DNL Workfront Proof].
+[!DNL Basecamp]是由[!DNL 37signals]开发的在线项目管理工具。 如果您将[!DNL Basecamp]用于项目管理，则可以使用[!DNL Workfront Proof]为项目团队提供更丰富的审阅和批准工具。
 
-## 了解中的校样审阅 [!DNL Basecamp Classic]
+## 了解[!DNL Basecamp Classic]中的验证评论
 
-与集成后 [!DNL Workfront Proof], [!DNL Basecamp] 允许用户通过校样执行以下操作：
+与[!DNL Workfront Proof]集成后，[!DNL Basecamp]允许用户对验证执行以下操作：
 
-* 用户可以在 [!DNL Basecamp Classic].
-* 用户可随时查看可用的工具。
-* 项目审阅团队会在 [!DNL Basecamp] 以小小的证据供审阅和批准。
-* 用户可以切换到全页校样以进行审阅和批准。
-* 用户可以向小型校样和全尺寸校样添加注释和标记。
-* 回复评论后，便无法编辑/删除该评论。 有关注释的信息，请参阅 [对校样的评论](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
-* 审阅人可以对其他审阅人创建的和标记做出响应。 有关注释的信息，请参阅 [对校样的评论](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
-* 当有新版本的校样可用时，用户会收到警报。
-* 非 [!DNL Workfront Proof] 用户可以在中处理校样 [!DNL Basecamp].
+* 用户可以在[!DNL Basecamp Classic]内查看和批准验证。
+* 用户可以随时使用审阅工具。
+* 项目审阅团队在[!DNL Basecamp]中收到一封邮件，其中包含用于审阅和批准的小型校对。
+* 用户可以切换到整页验证以供审阅和审批。
+* 用户可以在小型和全尺寸校样中添加注释和标记。
+* 评论回复后，便无法编辑/删除。 有关评论的信息，请参阅[对验证的评论](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
+* 审阅人可以对其他审阅人所做的和标记做出响应。 有关评论的信息，请参阅[对验证的评论](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
+* 当有新版本的验证可用时，用户会收到警报。
+* 非[!DNL Workfront Proof]用户的用户可以在[!DNL Basecamp]中处理验证。
 
-## 通过通知电子邮件查看校样
+## 通过通知电子邮件查看验证
 
-如果您将校样链接到 [!DNL Basecamp], [!DNL Workfront Proof] 向所有审阅人发送校样通知电子邮件(1)，其中包含以下信息：
+如果将校对链接到[!DNL Basecamp]，[!DNL Workfront Proof]会向所有审阅人发送校对通知电子邮件(1)，其中包含以下信息：
 
-* **校样详细信息** （二）：显示有关校样的信息。 显示的信息取决于您的Workfront管理员配置Basecamp的方式。
-* **[!UICONTROL 转到校样] 链接** （三）：在Workfront中打开校样。
-* **[!DNL Basecamp]URL** （四）：在Basecamp中打开校样。 如果将非Basecamp审阅者添加到校样中，则其电子邮件通知中不包含Basecamp链接。
-* **[!UICONTROL 验证进度]** （五）：列出批准的阶段并显示校样进度指标。
-* **[!UICONTROL 阶段]** （六）：列出审阅人及其个人进度。
+* **校对详细信息** (2)：显示有关校对的信息。 显示的信息取决于Workfront管理员配置Basecamp的方式。
+* **[!UICONTROL 前往校对]链接** (3)：在Workfront中打开校对。
+* **[!DNL Basecamp]URL** (4)：在Basecamp中打开校对。 如果将非Basecamp审阅人添加到验证中，则其电子邮件通知不包含Basecamp链接。
+* **[!UICONTROL 验证进度]** (5)：列出审批阶段并显示验证进度指示器。
+* **[!UICONTROL 阶段]** (6)：列出审阅人及其个人进度。
 
 ![Basecamp_ProofHQ_email_notification1__1_.png](assets/basecamp-proofhq-email-notification1--1--350x202.png)
 
-要从电子邮件通知中打开校样，请执行以下操作：
+要从电子邮件通知中打开验证，请执行以下操作：
 
-1. 在中打开校样 [!DNL Workfront Proof]，单击 **[!UICONTROL 转到校样]**.\
+1. 要在[!DNL Workfront Proof]中打开校对，请单击&#x200B;**[!UICONTROL 转到校对]**。\
    或\
-   在中打开校样 [!DNL Basecamp]，请单击 **[!UICONTROL [!DNL Basecamp]URL]** 字段。\
-   有关在中查看证明的信息 [!DNL Basecamp Classic]，请参阅 [在中查看证明 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) 在本文中。
+   要在[!DNL Basecamp]中打开校对，请单击&#x200B;**[!UICONTROL [!DNL Basecamp]URL]**&#x200B;字段中列出的URL。\
+   有关在[!DNL Basecamp Classic]中查看校对的信息，请参阅本文中的[在 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)中查看校对。
 
-## 通过 [!DNL Basecamp Classic] 消息
+## 通过[!DNL Basecamp Classic]消息查看验证
 
-您可以从 [!DNL Basecamp Classic] 消息。
+您可以通过[!DNL Basecamp Classic]消息访问校对。
 
-1. 在 [!DNL Basecamp]，转到项目页面(1)。\
+1. 在[!DNL Basecamp]中，转到您的项目页面(1)。\
    ![Basecamp_Classic_messages_1.png](assets/basecamp-classic-messages-1-350x120.png)
 
-1. 单击要打开的校样的消息。 (2)\
-   将打开校样消息，其中显示一个小校样。 校样的名称显示在消息窗口(3)的顶部。\
-   您可以在 [!DNL Basecamp Classic] 或 [!DNL Workfront Proof].\
+1. 单击要打开的校样消息。 (2)\
+   验证消息将打开，显示微型验证。 校对的名称显示在消息窗口(3)的顶部。\
+   您可以在[!DNL Basecamp Classic]中或在[!DNL Workfront Proof]中查看缩略图验证。\
    ![Basecamp_Classic_messages_2.png](assets/basecamp-classic-messages-2-350x501.png)
 
-1. 要在 [!DNL Workfront proof]，单击校样(4)上方列出的URL。
-1. （视情况而定）如果您未登录 [!DNL Workfront Proof] 帐户，请登录以查看校样：
+1. 要在[!DNL Workfront proof]中以全屏模式查看校对，请单击校对(4)上方列出的URL。
+1. （视情况而定）如果您未在其中一个浏览器窗口中登录到您的[!DNL Workfront Proof]帐户，请登录以查看验证：
 
-   1. 单击 **[!UICONTROL 登录]** （五）证据上方。
+   1. 单击校对上方的&#x200B;**[!UICONTROL 登录]** (5)。
    1. 键入您的电子邮件地址(6)。\
 
-      您必须使用添加到校样时所用的相同电子邮件地址。
-   1. 单击 **[!UICONTROL 下一个]**.
-   1. 键入 [!DNL Workfront Proof] 密码(7)。\
+      您必须使用添加到验证时使用的电子邮件地址。
+   1. 单击&#x200B;**[!UICONTROL 下一步]**。
+   1. 键入您的[!DNL Workfront Proof]密码(7)。\
 
       或\
-      如果您没有 [!DNL Workfront Proof] 帐户，键入要显示的公共名称。\
+      如果您没有[!DNL Workfront Proof]帐户，请键入要显示的公用名称。\
       您可以选择“[!UICONTROL 记住我]”，因此您只需输入一次详细信息。
 
-1. 要查看证明，请继续 [在中查看证明 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp).
+1. 要审阅校样，请继续[在 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)中审阅校样。
 
 >[!NOTE]
 >
-> 消息页面上的小型校样下面显示的评论框仅适用于消息本身。 要提交审阅注释，必须使用小校样或大校样顶部的注释图标按钮 [!UICONTROL 评论] 按钮。 有关更多信息，请参阅审核 [在中查看证明 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp).
+> 消息页面上微型验证下方显示的评论框仅适用于消息本身。 若要提交审核评论，必须使用小型校样顶部的评论图标按钮或整页校样顶部较大的[!UICONTROL 评论]按钮。 有关详细信息，请参阅查看[在 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)中查看验证。
 
-## 在中查看证明 [!DNL Basecamp]
+## 在[!DNL Basecamp]中查看验证
 
-小小的证明 [!DNL Basecamp] 为您提供添加和创建 [在校对查看器中对校样做出决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) 证据上。 分配给项目的所有用户都可以查看您的标记和评论，并且可以实时使用自己的评论做出响应。
+[!DNL Basecamp]中的迷你校对为您提供了添加和做出[在校对查看者中做出校对决策所需的工具](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。 分配给项目的所有用户都可以看到您的标记和注释，并且可以用自己的注释实时响应。
 
-打开校样时，校样会显示在 [!UICONTROL 校样] 窗口(1)，校样和版本号的名称显示在左上角(2)。
+打开验证时，验证显示在[!UICONTROL 验证]窗口(1)中，验证的名称和版本号显示在左上角(2)。
 
 ![Basecamp_Classic_miniproof.png](assets/basecamp-classic-miniproof-350x350.png)
 
-要查看证明，请执行以下操作：
+查看证明：
 
-1. 要添加评论，请单击 [!UICONTROL 注释] (3)在校样顶部键入您的注释。\
-   无需向 [!DNL Basecamp] 消息，作为评论和 [在校对查看器中对校样做出决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) 保存到校样(类似于在 [!DNL Workfront Proof])。
+1. 要添加评论，请单击验证顶部的[!UICONTROL 评论] (3)，然后键入您的评论。\
+   无需发送对[!DNL Basecamp]消息的响应，因为备注和[在验证查看者](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中对验证做出决定已保存到验证中（类似于在[!DNL Workfront Proof]中查看验证）。
 
-1. 要添加决策，请单击校样顶部的决策(3)，然后选择您的批准决策。\
-   有关根据验证做出决策的更多信息，请参阅 [在校对查看器中对校样做出决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
+1. 要添加决策，请单击验证顶部的决策(3)，然后选择您的审批决策。\
+   有关对校对做出决定的更多信息，请参阅[在校对查看者中对校对做出决定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof)。
 
-校样窗口中的其他功能包括：
+验证窗口上的其他功能包括：
 
-* **[!UICONTROL 操作菜单]** （四）：用于选择校样的设置。
-* **[!UICONTROL 全屏按钮]** （五）：允许您在全屏和迷你校样之间切换。
-* **[!UICONTROL 侧栏]** （六）：用于展开或收缩校样视图。
-* **[!UICONTROL 用户名]** （七）：如果您已登录Workfront，则显示您的用户名。
-* **[!UICONTROL 缩放工具]** （八）：用于放大校样的区域。
-* **[!UICONTROL 页面导航工具]** （九）：用于滚动到校样内的其他页面。
+* **[!UICONTROL 操作菜单]** (4)：允许您选择校对的设置。
+* **[!UICONTROL 全屏按钮]** (5)：允许您在全屏和迷你校对之间切换。
+* **[!UICONTROL 侧栏]** (6)：允许您展开或缩小验证视图。
+* **[!UICONTROL 用户名]** (7)：如果您已登录Workfront，则显示您的用户名。
+* **[!UICONTROL 缩放工具]** (8)：允许您放大校对的区域。
+* **[!UICONTROL 页面导航工具]** (9)：允许您滚动到验证中的其他页面。
 
 <!--For more information on reviewing proofs, see [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md).-->

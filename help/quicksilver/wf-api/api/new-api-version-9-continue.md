@@ -9,18 +9,18 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 25%
+source-wordcount: '153'
+ht-degree: 24%
 
 ---
 
 # API版本9中的新增功能（续）
 
-这份名单只是大名单的第二部分。 前半部分可以位于 [API版本9中的新增功能](../../wf-api/api/new-api-version-9.md). 您可以在以下位置找到版本9的更新列表： [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md).
+这份名单只是大名单的第二部分。 前半部分可以位于[API版本9](../../wf-api/api/new-api-version-9.md)中的新增功能。 您可以在[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新中找到版本9的更新列表。
 
 ## 门户部分
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -88,7 +88,7 @@ ht-degree: 25%
 
 ## PortalSectionLastViewer
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -100,7 +100,7 @@ ht-degree: 25%
 
 ## PortalSectionStatisticInfo
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -118,7 +118,7 @@ ht-degree: 25%
 
 ## 门户选项卡
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -140,7 +140,7 @@ ht-degree: 25%
 
 ## PortalTabSection
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -157,7 +157,7 @@ ht-degree: 25%
 
 ## 报告文件夹
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | 客户ID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
@@ -167,7 +167,7 @@ ht-degree: 25%
 
 ## 计划报表
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |

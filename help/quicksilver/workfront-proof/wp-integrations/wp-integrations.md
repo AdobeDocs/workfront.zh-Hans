@@ -12,15 +12,15 @@ exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] 集成
+# [!DNL Workfront Proof]集成
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下子部分：
 

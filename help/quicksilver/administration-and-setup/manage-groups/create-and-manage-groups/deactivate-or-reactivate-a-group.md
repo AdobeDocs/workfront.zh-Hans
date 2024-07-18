@@ -37,12 +37,12 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
 ## 停用或重新激活组
 
@@ -52,38 +52,38 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >
 >如果您需要重新激活其中一个，可以在执行以下操作之一之后重新激活：
 >
->* 将其从父组中移除。 有关更多信息，请参阅部分 [从父组中移除子组，并将其设为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 在文章中 [管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。
 >
->* 将其移动到活动组下。 有关更多信息，请参阅部分 [创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 在文章中 [管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)部分。
 >
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，选择 **组**.
+1. 在左侧面板中，选择&#x200B;**组**。
 
    在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
 1. 单击组的名称以打开其页面。
 
-1. 单击更多菜单 ![](assets/more-icon.png) 单击组名旁边的，然后单击 **取消激活** 或 **重新激活**.
+1. 单击组名旁边的“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**停用**&#x200B;或&#x200B;**重新激活**。
 
    >[!NOTE]
    >
    >如果组是已停用组的子组，则处于活动状态选项（预览中的重新激活选项）不可用。 在重新激活它之前，必须将其从父组中移除，或将其移动到活动组下，如上面的重要说明中所述。
 
-1. （视情况而定）如果要停用组，请单击 **取消激活** 在 **停用组** 框。
+1. （视情况而定）如果要停用组，请在显示的&#x200B;**停用组**&#x200B;框中单击&#x200B;**停用**。
 
 ## 有关不活动组的注意事项
 
-对于通过禁用一节中说明的“处于活动状态”选项而取消激活的组，请考虑以下事项 [停用或重新激活组](#View) 本文章中。
+请注意以下有关通过禁用[停用或重新激活组](#View)部分中说明的“处于活动状态”选项而取消激活的组的情况。
 
 * 停用组也会停用其下的所有子组。 这包括在停用子组后添加的子组。
 
-  有关在此情况下重新激活子组的信息，请参阅 [关于重新激活非活动父组下的子组](#about-reactivating-a-subgroup-below-an-inactive-parent-group) 本文章中。
+  有关在此情况下重新激活子组的信息，请参阅本文中的[关于重新激活不活动的父组](#about-reactivating-a-subgroup-below-an-inactive-parent-group)下的子组。
 
-* 当您转到“设置”中的“组”区域时，您只能在列表中看到活动组，因为“活动”是默认筛选器 ![](assets/filter-nwepng.png) 为了它。 如果要查看您管理的所有组（包括非活动组），可以使用“全部”筛选器。 或者使用非活动筛选器仅列出非活动筛选器。
+* 当您转到“设置”中的“组”区域时，您只能在列表中看到活动组，因为“活动”是它的默认筛选器![](assets/filter-nwepng.png)。 如果要查看您管理的所有组（包括非活动组），可以使用“全部”筛选器。 或者使用非活动筛选器仅列出非活动筛选器。
 
-  有关列表中过滤器的更多信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  有关列表中过滤器的详细信息，请参阅[过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 * 停用组不会更改以下内容：
 
@@ -102,10 +102,10 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 停用组也会停用其下的所有子组。 如果需要重新激活非活动组下的某个子组，可以执行以下两项操作之一：
 
-* 将子组移动到活动组下方。 然后为移动的组启用处于活动状态选项，如一节中所述 [停用或重新激活组](#View) 本文章中。
+* 将子组移动到活动组下方。 然后为移动的组启用“活动”选项，如本文中的[停用或重新激活组](#View)部分所述。
 
-  有关移动组的说明，请参见 [移动组](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  有关移动组的说明，请参阅[移动组](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)。
 
-* 从父组中移除子组（使子组成为顶级组）。 然后为移动的组启用处于活动状态选项，如一节中所述 [停用或重新激活组](#View) 本文章中。
+* 从父组中移除子组（使子组成为顶级组）。 然后为移动的组启用“活动”选项，如本文中的[停用或重新激活组](#View)部分所述。
 
-  有关从父组中删除子组的说明，请参阅部分 [从父组中移除子组，并将其设为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 在文章中 [管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  有关从父组中删除子组的说明，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。

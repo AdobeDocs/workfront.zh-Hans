@@ -17,35 +17,35 @@ ht-degree: 1%
 
 ## 先决条件
 
-在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关详细信息，请参阅[报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 添加或编辑Web内容块
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击&#x200B;**报表**.
-1. 单击 **新报告**.
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击&#x200B;**新建报告**。
 
    或
 
-   转到现有报表，单击 **更多** 图标 ![](assets/more-icon-27x15.png) 在报表标题中，然后单击 **编辑**.
+   转到现有报表，单击报表标题中的&#x200B;**更多**&#x200B;图标![](assets/more-icon-27x15.png)，然后单击&#x200B;**编辑**。
 
-1. 在屏幕右侧的下方 **添加块**，可以：
+1. 在屏幕右侧的&#x200B;**添加块**&#x200B;下：
 
-   拖动 **Web内容** 图标直接放到画布上所需的位置。
+   将&#x200B;**Web内容**&#x200B;图标直接拖到画布上所需的位置。
 
    或
 
-   双击 **Web内容** 图标，在画布顶部添加块。
+   双击&#x200B;**Web内容**&#x200B;图标以在画布顶部添加块。
 
    >[!TIP]
    >
    >可以通过拖动块拐角手柄来更改块放置后的大小。
 
-1. 单击 **无标题Web内容** 在块标题中，然后键入块的标题。
-1. 单击 **编辑** 图标 ![](assets/edit-icon.png) 在块标题中。
+1. 在块标题中单击&#x200B;**无标题的Web内容**，然后键入块的标题。
+1. 单击块标题中的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. 在 **设置** 在打开的面板中，输入要显示的页面的完整URL(包括“https://”) **URL** 字段。
+1. 在打开的&#x200B;**设置**&#x200B;面板中，输入要在&#x200B;**URL**&#x200B;字段中显示的页面的完整URL(包括“https://”)。
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. （可选）单击 **传递参数** 切换可打开可用传递参数的列表。
+1. （可选）单击&#x200B;**传递参数**&#x200B;切换可打开可用传递参数列表。
 
    >[!WARNING]
    >
    >传递参数当前已禁用。
 
-1. 单击 **嵌入URL** 以保存所做的选择并返回到报表。
+1. 单击&#x200B;**嵌入URL**&#x200B;以保存您的选择并返回报表。

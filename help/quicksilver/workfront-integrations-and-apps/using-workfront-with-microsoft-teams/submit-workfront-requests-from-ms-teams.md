@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 提交 [!DNL Adobe Workfront] 请求自 [!DNL Microsoft] 团队
+title: 提交来自 [!DNL Microsoft] 团队的 [!DNL Adobe Workfront] 请求
 description: 在团队所有者安装用于Microsoft Teams的Adobe Workfront后，您可以从您的Microsoft Teams帐户提交Workfront请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关为Microsoft Teams安装Workfront的信息，请参阅为Microsoft Teams安装Workfront 。
 author: Becky
 feature: Workfront Integrations and Apps
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# 提交 [!DNL Adobe Workfront] 请求自 [!DNL Microsoft] 团队
+# 提交来自[!DNL Microsoft]团队的[!DNL Adobe Workfront]请求
 
 >[!NOTE]
 >
 >Adobe WorkfrontMicrosoft Teams集成当前仅支持ClassicMicrosoft Teams体验。
 
-安装团队所有者后 [!DNL Adobe Workfront for Microsoft Teams]，您可以提交 [!DNL Workfront] 来自您的的请求 [!DNL Microsoft Teams] 帐户。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装的信息 [!DNL Workfront for Microsoft Teams]，请参见 [安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+在团队所有者安装[!DNL Adobe Workfront for Microsoft Teams]后，您可以从您的[!DNL Microsoft Teams]帐户提交[!DNL Workfront]请求。 为此，您必须拥有有权提交请求的Workfront帐户。 有关安装[!DNL Workfront for Microsoft Teams]的信息，请参阅[正在安装 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] 不再支持 [!DNL Internet Explorer]. 要使用 [!DNL Adobe Workfront for Microsoft Teams integration]，您必须使用Web浏览器，而不是 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams]不再支持[!DNL Internet Explorer]。 要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必须使用[!DNL Internet Explorer]以外的Web浏览器。
 
 
 ## 访问要求
@@ -45,24 +45,24 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-您的 [!DNL Microsoft Teams] 必须安装团队所有者 [!DNL Workfront] 对象 [!DNL Microsoft Teams] 才能使用。
+您的[!DNL Microsoft Teams]团队所有者必须先为[!DNL Microsoft Teams]安装[!DNL Workfront]，然后才能使用它。
 
-## 提交 [!DNL Workfront] 请求自 [!DNL Microsoft Teams]
+## 提交来自[!DNL Microsoft Teams]的[!DNL Workfront]请求
 
-1. 单击 **[!UICONTROL 更多添加的应用程序]** （三个点）图标中的左侧导航栏 [!DNL Microsoft Teams].
+1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
 
-1. 单击 **[!DNL Workfront]** 在显示的列表中。
-1. 单击 **[!UICONTROL 请求]** 选项卡。
-1. 单击 **[!UICONTROL 新建请求]**.
-1. 在 **[!UICONTROL 选择请求类型]** 框中，选择要提交请求的请求队列。
+1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
+1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 新建请求]**。
+1. 在&#x200B;**[!UICONTROL 选择请求类型]**&#x200B;框中，选择要提交请求的请求队列。
 1. （可选）选择主题组或队列主题（如果在请求队列中可用）。
 1. 指定以下信息：
 
-   (根据请求队列的设置方式，您看到的选项和框可能会有所不同。 有关可能字段的完整列表和说明，请参阅 [创建并提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (根据请求队列的设置方式，您看到的选项和框可能会有所不同。 有关可能字段的完整列表和说明，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../manage-work/requests/create-requests/create-submit-requests.md)。)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,28 +83,28 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可选）如果 [!DNL Workfront] 管理员将自定义表单附加到请求队列，在自定义表单上可用的字段中提供信息。
+1. （可选）如果[!DNL Workfront]管理员将自定义表单附加到请求队列，请在自定义表单上可用的字段中提供信息。
 1. 自定义表单将显示在新请求的底部。
-1. 单击 **[!UICONTROL 提交]**.
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-   请求将显示在 [!DNL Workfront]，在指定的请求队列中。 您将收到一条确认消息，确认请求已成功提交。
+   该请求显示在指定请求队列的[!DNL Workfront]中。 您将收到一条确认消息，确认请求已成功提交。
 
-## 视图 [!DNL Workfront] 您在中提交的请求 [!DNL Microsoft Teams]
+## 查看您在[!DNL Microsoft Teams]中提交的[!DNL Workfront]请求
 
-1. 单击 **[!UICONTROL 更多添加的应用程序]** （三个点）图标中的左侧导航栏 [!DNL Microsoft Teams].
+1. 单击[!DNL Microsoft Teams]左侧导航栏上的&#x200B;**[!UICONTROL 更多添加的应用]** （三个点）图标。
 
-1. 单击 **[!DNL Workfront]** 在显示的列表中。
-1. 单击 **[!UICONTROL 请求]** 选项卡。
+1. 在显示的列表中单击&#x200B;**[!DNL Workfront]**。
+1. 单击&#x200B;**[!UICONTROL 请求]**&#x200B;选项卡。
 
-   您提交的请求将列在 [!UICONTROL 我已提交的请求] 区域 [!UICONTROL 请求] 选项卡。 您无法配置此选项卡中显示的关于您提交的请求的信息。
+   您提交的请求列在[!UICONTROL 请求]选项卡的[!UICONTROL 我提交的请求]区域。 您无法配置此选项卡中显示的关于您提交的请求的信息。
 
-   您可以在中查看以下有关已提交请求的信息 [!UICONTROL 我已提交的请求] 区域 [!UICONTROL 请求] 选项卡：
+   您可以在[!UICONTROL 请求]选项卡的[!UICONTROL 我提交的请求]区域查看有关您提交的请求的以下信息：
 
    * **[!UICONTROL 主题]**：请求的名称
-   * **[!UICONTROL 参考号]**
+   * **[!UICONTROL 参考编号]**
    * **[!UICONTROL 请求类型]**：您在其中提交请求的请求队列的名称
    * **[!UICONTROL 状态]**
-   * **[!UICONTROL 提交日期]**：提交请求的日期
-   * **[!UICONTROL 分派给]**
+   * **[!UICONTROL 提交日期]**：您提交请求的日期
+   * **[!UICONTROL 分配给]**
 
-1. （可选）单击列表中任何列的标题，以按该列对列表进行排序。 默认情况下， [!DNL Workfront] 按对列表进行排序 [!UICONTROL 提交日期] 日期，从最近提交的请求开始。
+1. （可选）单击列表中任何列的标题，以按该列对列表进行排序。 默认情况下，[!DNL Workfront]按[!UICONTROL 提交日期]对列表进行排序，从最近提交的请求开始。

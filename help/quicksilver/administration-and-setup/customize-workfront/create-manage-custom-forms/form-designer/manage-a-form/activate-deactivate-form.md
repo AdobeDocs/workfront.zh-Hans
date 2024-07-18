@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 停用自定义表单
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，选择 **自定义Forms**.
-1. 在 **Forms** 区域中，选择要取消激活的自定义表单。
-1. 在“为活动”列中，选择 **假** 然后单击退出列。 该表单不再处于活动状态。
+1. 在左侧面板中，选择&#x200B;**自定义Forms**。
+1. 在&#x200B;**Forms**&#x200B;区域，选择要取消激活的自定义表单。
+1. 在“处于活动状态”列中，选择&#x200B;**False**&#x200B;并单击退出该列。 该表单不再处于活动状态。
 
 ## 重新激活自定义表单
 
@@ -71,6 +71,6 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，选择 **自定义Forms**.
-1. 在 **Forms** 区域中，选择要重新激活的自定义表单。
-1. 在“为活动”列中，选择 **True** 然后单击退出列。 该表单现在处于活动状态。
+1. 在左侧面板中，选择&#x200B;**自定义Forms**。
+1. 在&#x200B;**Forms**&#x200B;区域，选择要重新激活的自定义表单。
+1. 在“处于活动状态”列中，选择&#x200B;**True**&#x200B;并单击退出该列。 该表单现在处于活动状态。

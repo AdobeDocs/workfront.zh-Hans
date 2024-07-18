@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2019.1版本中包含的所有验证增强功能。 该功能现已在“生产”环境中可用。
 
-有关2019.1版中所做所有更改的列表，请参阅 [2019.1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+有关2019.1版中所做所有更改的列表，请参阅[2019.1版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)。
 
 ## 适用于管理员
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 * [在Web验证查看器中验证交互式内容](#proof-interactive-content-in-the-web-proofing-viewer)
 * [现在，校对查看器中注释的默认排序顺序是从“最旧到最新”](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [增强了在验证查看器中与一系列视频关联的评论的查看功能](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [在与视频范围关联的验证查看器中增强评论审核](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
 * [从验证通知或验证查看者链接到文档详细信息](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [在验证查看器中更改电子邮件通知](#change-your-email-notifications-in-the-proofing-viewer)
+* [在验证查看器中更改您的电子邮件通知](#change-your-email-notifications-in-the-proofing-viewer)
 * [在桌面校对查看器中更改背景颜色](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [在桌面验证查看器中从验证中清除缓存的浏览器数据](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -40,7 +40,7 @@ Workfront管理员现在可以为以下用户配置默认验证角色：在验�
 
 以前，当用户和访客有权访问验证而没有添加到其工作流时，他们的默认验证角色是查看者。
 
-此功能仅适用于在Workfront中创建的验证，而不适用于Workfront Proof。
+此功能仅适用于在Workfront中创建的校样，而不适用于Workfront Proof。
 
 ## 在Web验证查看器中验证交互式内容 {#proof-interactive-content-in-the-web-proofing-viewer}
 
@@ -88,7 +88,7 @@ Workfront管理员现在可以为以下用户配置默认验证角色：在验�
 
 这些设置不同于您可以在Workfront中配置的电子邮件警报设置。
 
-有关更多信息，请参阅 [管理验证评论和决策的通知](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+有关详细信息，请参阅[管理证明评论和决策的通知](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 视频
 
@@ -96,7 +96,7 @@ Workfront管理员现在可以为以下用户配置默认验证角色：在验�
 
 现在，您可以将桌面校对查看器的背景颜色从默认的近黑色更改为白色。 这使得查看具有透明背景的校对内容变得更容易。
 
-有关更多信息，请参阅 [配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+有关详细信息，请参阅[配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 视频
 
@@ -106,6 +106,6 @@ Workfront管理员现在可以为以下用户配置默认验证角色：在验�
 
 现在，您可以清除可能随验证一起保存的浏览器缓存数据，以便所有内容都显示在桌面验证查看器中，并且查看者可以在该查看器中查看和评论。
 
-有关更多信息，请参阅 [配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+有关详细信息，请参阅[配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 视频

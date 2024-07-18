@@ -26,13 +26,13 @@ ht-degree: 1%
 
 通过基本或简单的展示板，您可以快速开始使用展示板跟踪工作。 模板中包含默认列，您可以添加卡片并分配工作。
 
-[观看基础主板的视频演示。](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[观看基础展示板的视频演示。](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Kanban 展示板
 
 看板可以包含积压工作（或摄取列），该列配置了过滤器，以将任务和问题从Workfront带到看板。
 
-[观看看板的视频演示。](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[观看看板视频演示。](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
 ### 动态展示板
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 您可以使用引入列在一个位置查看分配给您的任务。 在Workfront中分配新任务后，这些任务会自动添加到引入列。
 
-[查看“我的任务”展示板的视频演示。](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[观看“我的任务”展示板的视频演示。](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
 ### 计划板
 

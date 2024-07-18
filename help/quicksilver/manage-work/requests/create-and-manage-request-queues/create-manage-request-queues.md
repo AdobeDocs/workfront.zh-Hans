@@ -22,7 +22,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [定义项目的请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+* [为项目定义请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
 * [提供对请求队列的访问权限](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)

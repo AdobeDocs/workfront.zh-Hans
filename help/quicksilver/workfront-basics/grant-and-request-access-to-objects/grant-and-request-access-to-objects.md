@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 * [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-* [授予对“主页”区域中对象的访问权限](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+* [授予对主页区域中对象的访问权限](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
 * [请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [查看对象的继承权限](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
@@ -32,17 +32,17 @@ ht-degree: 0%
 * [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [共享对象的财务权限](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
 * [共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
-* [共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
+* [共享程序](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [共享文档](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
 * [共享报告、功能板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
 * [共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [在Scenario Planner中共享计划](../../scenario-planner/share-a-plan.md)
 
-  这需要Workfront Scenario Planner的附加许可证。 有关信息，请参阅 [使用Scenario Planner所需的访问权限](../../scenario-planner/access-needed-to-use-sp.md).
+  这需要Workfront Scenario Planner的附加许可证。 有关信息，请参阅[使用Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
 
 * [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-  这需要Workfront Goals的附加许可证。 有关信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  这需要Workfront Goals的附加许可证。 有关信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
-* [配置对Adobe Workfront的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* [配置对Adobe Workfront的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)。

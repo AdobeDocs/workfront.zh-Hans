@@ -85,7 +85,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此情景中提供的说明没有中提供的分步说明那么明确 [快速启动方案：公司、组、角色和用户快速启动准备](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). 假设您已了解如何从公司和组表中查找和复制值，因此将提到这些步骤，但并未具体说明。
+>此方案中提供的说明没有在[Kick-Starts方案](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)中提供的分步说明那样明确：公司、组、角色和用户快速启动准备。 假设您已了解如何从公司和组表中查找和复制值，因此将提到这些步骤，但并未具体说明。
 
 1. 配置。
 1. 导入用户。
@@ -315,7 +315,7 @@ ht-degree: 9%
 
 在使用kick-starts导入项目时，您可以添加有关项目任务的信息。
 
-打开您刚刚下载的Workfront.xlsx文件。 **转到TASK任务表。**
+打开您刚刚下载的Workfront.xlsx文件。 **转到“任务”工作表。**
 
 除非您已在Workfront中创建任务，否则此工作表应为空。
 
@@ -333,11 +333,11 @@ ht-degree: 9%
 在ID列的每一行中输入一个唯一的ID。
 * **设置名称**
 将任务名称输入到setName列中。
-* **确认项目Id**
+* **确认项目ID**
 输入您为实施Workfront项目设置的ID；查看PROJ项目表以确保该ID正确无误。
 * **设置用户**
 转到“用户”工作表查找分配给每个任务的用户的ID，并在setAssignedToID列的相应单元格中输入这些值。
-* **确定任务关系**
+* **识别任务关系**
 对于任务2至5，在setParentID列中输入1。 对于任务9，在setParentID列中输入8。 在setPrecedousString列中，输入每个前置任务的任务编号。 如果一个任务有多个前置任务，例如此场景中的任务8，您需要使用逗号分隔每个前置任务ID。 通过使用创建前置任务关系一文中所述的简写，可以在非完成 — 开始关系上使用滞后来定义前置任务。
 * **设置持续时间**
 通过在setDuration字段中输入任务的小时数、天数、周数或月数来设置每个任务的持续时间。 然后在setDurationUnit字段中输入持续时间单位。
@@ -378,4 +378,4 @@ ht-degree: 9%
 
 * **导入Excel文件**
 
-  请按照 [使用快速启动模板将数据导入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  按照[使用快速启动模板](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)将数据导入Adobe Workfront中提供的说明进行操作。

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第二季度版本中对“预览”环境所做的所有资源管理增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 ## 工作负载均衡器中手动调整分配的指示器
 
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 为了在工作负载均衡器中更清楚地说明手动调整或分布，手动调整的小时分配现在显示一个铅笔图标。
 
-有关更多信息，请参阅 [管理工作负载均衡器中的用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+有关详细信息，请参阅[在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。

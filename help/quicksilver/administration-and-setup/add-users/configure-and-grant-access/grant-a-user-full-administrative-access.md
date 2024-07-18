@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >本页中介绍的过程仅适用于尚未加入该Admin Console的组织。 如果贵组织已载入到Adobe Admin Console，则必须通过Adobe Admin Console执行此操作。
 >
->有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅 [在Adobe Admin Console中管理系统管理员](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>有关在Adobe Admin Console中授予完全管理员访问权限的说明，请参阅[在Adobe Admin Console中管理系统管理员](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
->有关因您的组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员，您可以通过分配系统管理员访问级别来创建另一个Workfront管理员。 具有此访问级别的用户对Workfront中的所有内容（包括他们自己未创建的项目）具有完全管理访问权限。
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 >这与使用访问级别授予用户对系统特定区域的管理访问权限不同。 有关更多信息，请参阅以下内容：
 >
 >* [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Workfront管理员的访问权限与具有管理权限的计划用户的访问权限](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) 本文内容
+>* [Workfront管理员的访问权限与具有管理权限的计划用户的访问权限](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)（本文中）
 >
 
 ## 访问要求
@@ -50,25 +50,25 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。 有关更多信息，请参阅 <a href="#" class="MCXref xref selected">授予用户完全管理权限</a>.</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。 有关详细信息，请参阅<a href="#" class="MCXref xref selected">授予用户完全管理访问权限</a>。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 向单个用户授予系统管理员的完全访问权限
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **用户** ![](assets/users-icon-in-main-menu.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
 
 1. 单击要向其授予管理员权限的用户名。
-1. 单击更多菜单 ![](assets/more-icon.png)，然后单击 **编辑**.
+1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
-1. 在 **编辑人员** 框中，单击 **访问**.
+1. 在出现的&#x200B;**编辑人员**&#x200B;框中，单击&#x200B;**访问**。
 
-1. 在 **访问级别** 下拉列表，选择 **系统管理员** 访问级别。
+1. 在&#x200B;**访问级别**&#x200B;下拉列表中，选择&#x200B;**系统管理员**&#x200B;访问级别。
 
    根据系统中进行的更改，此访问级别的名称可能已更改。
 
-1. 单击 **保存更改。**
+1. 单击&#x200B;**保存更改。**
 
    用户现在在系统中具有完全系统管理员权限。
 
@@ -82,7 +82,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
 
 >[!NOTE]
 >
->具有计划许可证且被指定为组管理员的用户可以执行某些允许Workfront管理员执行的操作。 他们只能对其管理的组、其子组以及这些组和子组中的用户执行这些操作。 有关更多信息，请参阅 [组管理员](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>具有计划许可证且被指定为组管理员的用户可以执行某些允许Workfront管理员执行的操作。 他们只能对其管理的组、其子组以及这些组和子组中的用户执行这些操作。 有关详细信息，请参阅[组管理员](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)。
 
 * [访问“设置”区域](#access-to-the-setup-area)
 * [访问对象](#access-to-objects)
@@ -179,7 +179,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>登录身份</td> 
    <td>完全访问 </td> 
-   <td> <p>如果在他们的访问级别上启用了组管理访问权限，并且他们被指定为组管理员，则他们能够以他们所管理的组中的用户及其子组的身份登录。 他们无法以系统管理员身份登录。<br>有关为用户启用组管理访问权限的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </td> 
+   <td> <p>如果在他们的访问级别上启用了组管理访问权限，并且他们被指定为组管理员，则他们能够以他们所管理的组中的用户及其子组的身份登录。 他们无法以系统管理员身份登录。<br>有关为用户启用组管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>计划</td> 
@@ -354,7 +354,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
  </thead> 
  <tbody> 
   <tr> 
-   <td>日历</td> 
+   <td>日程表</td> 
    <td>完全访问</td> 
    <td>管理他们创建的日历以及与他们共享的日历。</td> 
   </tr> 
@@ -411,7 +411,7 @@ Workfront管理员可以查看系统中的所有对象（无论对象是由谁�
   <tr> 
    <td>用户</td> 
    <td>完全访问</td> 
-   <td> <p>有限访问</p> <p>他们无法将组分配给不是组管理员的用户或非公共组。</p> <p>他们无法将访问级别分配给高于其自身访问级别的用户。</p> <p>如果在他们的访问级别上启用了组管理访问权限，并且他们被指定为组的组管理员，则他们可以重置密码并以其管理的组及其子组中的用户身份登录。 他们无法重置密码或以系统管理员身份登录。<br>有关为用户启用组管理访问权限的详细信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </td> 
+   <td> <p>有限访问</p> <p>他们无法将组分配给不是组管理员的用户或非公共组。</p> <p>他们无法将访问级别分配给高于其自身访问级别的用户。</p> <p>如果在他们的访问级别上启用了组管理访问权限，并且他们被指定为组的组管理员，则他们可以重置密码并以其管理的组及其子组中的用户身份登录。 他们无法重置密码或以系统管理员身份登录。<br>有关为用户启用组管理访问权限的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>

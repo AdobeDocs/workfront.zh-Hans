@@ -9,8 +9,8 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 4%
+source-wordcount: '2147'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 列入允许列表要通过防火墙接收事件订阅负载，必须将以下IP地址添加到您的：
 
-**对于欧洲客户：**
+对于欧洲的客户：****
 
 * 52.30.133.50
 * 52.208.159.124
@@ -72,16 +72,16 @@ ht-degree: 4%
 * 用户
 * Workspace
 
-有关事件订阅对象支持的字段列表，请参阅 [事件订阅资源字段](../../wf-api/api/event-sub-resource-fields.md).
+有关事件订阅对象支持的字段列表，请参阅[事件订阅资源字段](../../wf-api/api/event-sub-resource-fields.md)。
 
 ## 事件订阅身份验证
 
 要创建、查询或删除事件订阅，您的Workfront用户需要满足以下条件：
 
 * 要使用事件订阅，需要具有“系统管理员”访问级别。
-* A `sessionID`  标头需要使用事件订阅API
+* 需要`sessionID`标头才能使用事件订阅API
 
-  有关更多信息，请参阅 [身份验证](api-basics.md#authentication) 在 [API基础知识](api-basics.md).
+  有关详细信息，请参阅[API基础知识](api-basics.md)中的[身份验证](api-basics.md#authentication)。
 
 ## 形成订阅资源
 
@@ -89,11 +89,11 @@ ht-degree: 4%
 
 * objId（可选）
 
-   * **字符串**  — 为其触发事件的指定对象代码的对象ID。 如果未指定此字段，则用户会收到指定类型的所有对象的事件。
+   * **字符串** — 为其触发事件的指定objCode的对象的ID。 如果未指定此字段，则用户会收到指定类型的所有对象的事件。
 
 * 对象代码（必需）
 
-   * **字符串**  — 订阅更改的对象的对象代码。 下表中列出了objCode的可能值。
+   * **字符串** — 订阅更改的对象的对象代码。 下表中列出了objCode的可能值。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -183,26 +183,26 @@ ht-degree: 4%
        </tr> 
        <tr> 
         <td scope="col">Workspace</td> 
-        <td scope="col">工作区</td> 
+        <td scope="col">Workspace</td> 
        </tr> 
       </tbody> 
      </table>
 
 * eventType（必需）
 
-   * **字符串**  — 一个值，表示对象订阅的事件类型。 可用的事件类型包括：
+   * **字符串** — 表示对象订阅的事件类型的值。 可用的事件类型包括：
 
       * 创建
-      * 删除 
+      * DELETE 
       * 更新
 
 * url（必需）
 
-   * **字符串**  — 通过HTTP向其发送订阅事件负载的端点的URL。
+   * **字符串** — 通过HTTP向其发送订阅事件负载的终结点的URL。
 
 * authToken（必需）
 
-   * **字符串** - OAuth2持有者令牌，用于使用“URL”字段中指定的URL进行身份验证。 
+   * **字符串** — 用于使用“URL”字段中指定的URL进行身份验证的OAuth2持有者令牌。 
 
 ## 创建事件订阅API请求
 
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401（未授权） | 提供的sessionID为空或被视为无效。 |
 | 403（禁止访问） | 与提供的sessionID匹配的用户没有管理员访问权限。 |
 
-将订阅资源作为请求正文传递（内容类型为“application/json”）会导致为指定的对象创建事件订阅。 响应代码201 （已创建）表示已创建订阅。 201以外的响应代码表示订阅 **NOT** 已创建。
+将订阅资源作为请求正文传递（内容类型为“application/json”）会导致为指定的对象创建事件订阅。 响应代码201 （已创建）表示已创建订阅。 201以外的响应代码表示已创建订阅&#x200B;**NOT**。
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 您可以查询客户的所有事件订阅，或使用以下各项管理响应。 您还可以使用以下选项管理响应：
 
-* **页面**：查询参数选项，用于指定要返回的页数。 默认值为1。
+* **page**：查询参数选项，用于指定要返回的页数。 默认值为1。
 * **limit**：查询参数选项，用于指定每页返回的结果数。 默认值为100，最大值为1000。
 
 列出特定客户的所有事件订阅的请求语法如下：
@@ -373,9 +373,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 位置
 
-* **页面** 和 **limit** 是请求中提供的值，如果未提供值，则使用默认值
-* **page_count** 是可查询的页面总数。
-* **total_count** 是符合查询的订阅总数。
+* **page**&#x200B;和&#x200B;**limit**&#x200B;是请求中提供的值，如果未提供值，则为默认值
+* **page_count**&#x200B;是可查询的页面总数。
+* **total_count**&#x200B;是与查询匹配的订阅总数。
 
 ### 按事件订阅ID查询
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 事件订阅筛选可用于确保您仅接收相关消息。 为您的订阅创建过滤器可能会显着减少您的端点需要使用的消息数。
 
-例如， **更新 — 任务** 事件订阅只能设置为在 **newState** 的事件有效负载定义 **任务状态** 作为 **当前**.
+例如，仅当事件有效负载的&#x200B;**newState**&#x200B;将&#x200B;**taskStatus**&#x200B;定义为&#x200B;**current**&#x200B;时，才能将&#x200B;**UPDATE - TASK**&#x200B;事件订阅设置为触发。
 
 >[!IMPORTANT]
 >
-以下属性适用于事件订阅筛选
+>以下属性适用于事件订阅筛选
 
-* 当过滤器字段的值为非空时，仅限包含 **newState** 包含过滤器键和值，以发送到订阅的URL
-* 您可以按中包含的自定义数据进行筛选 **newState** 和/或 **oldState**&#x200B;对象的
+* 当筛选器字段的值为非空时，只会将具有包含筛选器键和值的&#x200B;**newState**&#x200B;的消息发送到订阅的URL
+* 您可以按对象的&#x200B;**newState**&#x200B;和/或&#x200B;**oldState**&#x200B;中包含的自定义数据进行筛选
 * 仅根据过滤器是否等于特定值来评估过滤器
-* 如果您的筛选器语法不正确或与 **newState** 对于有效负载，将不会返回验证消息以指示发生了错误
+* 如果您的筛选器语法不正确或与有效负载的&#x200B;**newState**&#x200B;中包含的任何数据都不匹配，则不会返回验证消息以指示发生了错误
 * 无法在当前存在的订阅上更新筛选器；必须使用新的筛选器参数创建新订阅。
 * 多个筛选器可应用于单个订阅，并且仅在满足所有筛选器条件时才交付订阅。
-* 将多个过滤器应用于单个订阅是一种做法，相当于使用 **和** 逻辑运算符。
+* 将多个筛选器应用于单个订阅相当于使用&#x200B;**AND**&#x200B;逻辑运算符。
 * 只要每个事件订阅之间有一个或多个事件订阅字段参数不同，就可以将多个事件订阅应用于单个对象。
-* 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此做法可用作逻辑运算符的等效替代项 **或者** 无法使用筛选器参数进行设置的。
+* 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此实践可用作逻辑运算符&#x200B;**OR**&#x200B;的等效替代项，无法使用筛选器参数设置该运算符。
 
 ### 使用比较运算符
 
@@ -459,7 +459,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### eq： equal
 
-此过滤器允许在发生的更改匹配时传递消息 `fieldValue` 在筛选器中。 此 `fieldValue` 值区分大小写。
+如果发生的更改与筛选器中的`fieldValue`完全匹配，则此筛选器允许传递消息。 `fieldValue`值区分大小写。
 
 ```
 {
@@ -479,7 +479,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### ne：不等于
 
-此过滤器允许在发生的更改不匹配时发送消息 `fieldValue` 在筛选器中。 此 `fieldValue` 值区分大小写。
+如果发生的更改与筛选器中的`fieldValue`不完全匹配，则此筛选器允许传递消息。 `fieldValue`值区分大小写。
 
 ```
 {
@@ -499,7 +499,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gt：大于
 
-此过滤器允许在指定日期更新消息时传递消息 `fieldName` 大于的值 `fieldValue`.
+如果指定`fieldName`上的更新大于`fieldValue`的值，此筛选器允许邮件通过。
 
 ```
 {
@@ -519,7 +519,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gte：大于或等于
 
-此过滤器允许在指定日期更新消息时传递消息 `fieldName` 大于或等于 `fieldValue`.
+如果指定`fieldName`上的更新大于或等于`fieldValue`的值，则此筛选器允许消息通过。
 
 ```
 {
@@ -539,7 +539,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lt：小于
 
-此过滤器允许在指定日期更新消息时传递消息 `fieldName` 小于的值 `fieldValue`.
+如果指定`fieldName`上的更新小于`fieldValue`的值，此筛选器允许邮件通过。
 
 ```
 {
@@ -559,7 +559,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lte：小于或等于
 
-此过滤器允许在指定日期更新消息时传递消息 `fieldName` 小于或等于 `fieldValue`.
+如果指定`fieldName`上的更新小于或等于`fieldValue`的值，则此筛选器允许消息通过。
 
 ```
 {
@@ -579,7 +579,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 包含
 
-如果发生的更改包含 `fieldValue` 在过滤器中。 此 `fieldValue` 值区分大小写
+如果发生的更改在筛选器中包含`fieldValue`，则此筛选条件允许传递消息。 `fieldValue`值区分大小写
 
 ```
 {
@@ -599,11 +599,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 更改
 
-此过滤器仅允许在指定字段(`fieldName`)在oldstate和newstate中具有不同的值。 正在更新指定字段以外的其他字段(`fieldName`)将不会返回该更改。
+仅当指定的字段(`fieldName`)在oldstate和newstate中具有不同的值时，此过滤器才允许消息通过。 更新指定字段(`fieldName`)以外的其他字段将不会返回该更改。
 
 >[!NOTE]
 >
-`fieldValue` 在“滤镜”数组中，以下选项无效。
+>下面的筛选器数组中的未生效`fieldValue`。
 
 ```
 {
@@ -624,12 +624,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 #### state
 
 此连接器使过滤器应用于已创建或更新的对象的新状态或旧状态。 当您想知道在何处对某个对象进行了更改时，此功能非常有用。
-`oldState` 创建时不可能 `eventTypes`.
+无法在CREATE `eventTypes`上执行`oldState`。
 
 >[!NOTE]
 >
-下面带有给定过滤器的订阅将仅返回任务名称包含 `again` 在 `oldState`，对任务进行更新之前的状态。
-此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
+>下面带有给定过滤器的订阅将只返回任务名称在`oldState`上包含`again`的消息，该名称与更新任务之前所包含的内容相同。
+>此功能的用例是查找从一个对象更改到另一个对象的对象代码消息。 例如，查找从“Research Some name”更改为“Research TeamName Some name”的所有任务
 
 ```
 {
@@ -650,7 +650,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 使用连接器字段
 
-此 `filterConnector` 利用订阅有效负载上的字段，可选择应如何应用过滤器。 默认值为“AND”，其中所有过滤器都必须是 `true` 订阅消息才能通过。 如果指定了“OR”，则只有一个过滤器必须匹配订阅消息才能通过。
+订阅有效负载上的`filterConnector`字段允许您选择应如何应用过滤器。 默认值为“AND”，其中过滤器必须全部为`true`才能使订阅消息通过。 如果指定了“OR”，则只有一个过滤器必须匹配订阅消息才能通过。
 
 ```
 {
@@ -744,7 +744,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | 服务器 | `→Apache-Coyote/1.1` |
 
 
-**响应正文示例：** 不适用
+**响应正文示例：** N/A
 
 ## 事件有效负载示例
 
@@ -881,7 +881,7 @@ base64Encoding字段是一个可选字段，用于启用事件订阅负载的Bas
 
 ### 使用base64Encoding字段的请求示例
 
-如果使用设置为true的base64Encoding字段发出请求，则 **newState** 和 **oldState** 有效负载中的对象将作为base 64编码字符串交付。 如果base64Encoding字段设置为false、保留为空或未包含在请求中，则返回的有效负载将不会在base 64中进行编码。
+如果使用设置为true的base64Encoding字段发出请求，则有效负载中的&#x200B;**newState**&#x200B;和&#x200B;**oldState**&#x200B;对象将作为base 64编码字符串交付。 如果base64Encoding字段设置为false、保留为空或未包含在请求中，则返回的有效负载将不会在base 64中进行编码。
 
 以下是使用base64Encoding字段的请求示例：
 
@@ -917,7 +917,7 @@ base64Encoding字段是一个可选字段，用于启用事件订阅负载的Bas
 
 ## 用于查询所有事件订阅的已弃用方法
 
-以下API端点已弃用，不应用于新实施。 我们还建议将旧实施转换为 **查询事件订阅** 章节。
+以下API端点已弃用，不应用于新实施。 我们还建议将旧实施转换为上述&#x200B;**查询事件订阅**&#x200B;部分中的方法。
 
 您可以查询由sessionID值指定的客户的所有事件订阅。 列出特定客户的所有事件订阅的请求语法如下URL：
 

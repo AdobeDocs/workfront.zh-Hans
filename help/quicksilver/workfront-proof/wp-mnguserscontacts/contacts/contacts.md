@@ -20,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [将来宾添加到 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [在中管理您的联系人 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [了解中的用户、成员和来宾 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [向 [!DNL Workfront Proof]添加来宾](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [在 [!DNL Workfront Proof]中管理您的联系人](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [了解 [!DNL Workfront Proof]中的用户、成员和来宾](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

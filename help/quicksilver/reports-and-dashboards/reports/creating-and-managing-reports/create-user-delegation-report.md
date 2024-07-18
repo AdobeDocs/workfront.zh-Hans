@@ -1,33 +1,33 @@
 ---
 product-area: reporting
-keywords: 用户，委派，报表，委派，批准
+keywords: 用户，委派，报告，委派，批准
 navigation-topic: create-and-manage-reports
-title: 创建用户委派报表
-description: 创建用户委派报表
+title: 创建用户委派报告
+description: 创建用户委派报告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 1%
 
 ---
 
-# 创建用户委派报表
+# 创建用户委派报告
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-在Adobe Workfront中，用户可以将项目、任务和发布批准委派给其他用户，以确保在用户不在办公室时对其批准进行管理。 具有计划许可证的用户可以创建用户委派报告，以查看：
+在Adobe Workfront中，用户可以将项目、任务和问题审批委派给其他用户，以确保在外出时管理其审批。 拥有计划许可证的用户可以创建用户委派报告，以查看：
 
-* 已将其任务、问题和项目批准委派给其他用户的人员
-* 哪些用户已将委派的任务、问题和项目批准分配给他们
+* 已将其任务、问题和项目审批委托给其他用户的用户
+* 哪些用户已委派任务、问题和项目审批给他们
 
-* 代表团开始和结束的日期
+* 委派开始和结束的日期
 
-要了解有关委派批准的更多信息，请参阅 [委派批准请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+要了解有关委托审批的更多信息，请参阅[委托审批请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -55,46 +55,46 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报表、功能板、日历的访问</p> <p>编辑对过滤器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看授权项目和授权涉及的用户的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看被委派审批的项和委派中涉及的用户的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 创建用户委派报告
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **报表**.
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
 
-1. 单击 **新建报表**，然后选择 **用户委派**.\
+1. 单击&#x200B;**新建报告**，然后选择&#x200B;**用户委派**。\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
-   默认情况下，此报表中会显示以下字段：
+   默认情况下，此报表中显示以下字段：
 
    | 字段 | 描述 |
    |---|---|
-   | **来自用户** | 这是将其任务、问题和项目批准委派给其他用户的用户。 |
-   | **至用户** | 该用户具有委派给他们的任务、问题和项目批准。 |
-   | **开始** | 对于已进行委派的用户而言，这是外出时间的开始。 |
-   | **结束** | 对于已进行委派的用户而言，这是离职时间的结束。 |
+   | **来自用户** | 该用户正在将其任务、问题和项目审批委派给其他用户。 |
+   | **至用户** | 这是具有委托给他们的任务、问题和项目审批的用户。 |
+   | **开始** | 对于进行委派的用户来说，这是外出时间的开始。 |
+   | **结束** | 对于进行委派的用户而言，这是外出时间的结束。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. （可选）在报表生成器中，修改以下内容：
+1. （可选）在Report Builder中，修改以下内容：
 
    * 列
    * 分组
    * 过滤器
    * 图表
 
-   要进一步了解这些功能，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   若要了解有关这些功能的更多信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-1. 完成生成报告后，单击 **保存并关闭**.
+1. 完成报表生成后，单击&#x200B;**保存+关闭**。
 
-1. 在 **报表名称** 字段，然后单击 **保存报表**.
+1. 在&#x200B;**报告名称**&#x200B;字段中输入一个新名称，然后单击&#x200B;**保存报告**。
 
    此时将显示报表。

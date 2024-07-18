@@ -32,7 +32,7 @@ ht-degree: 0%
 
 在项目的初始阶段，您可能尚未确定是否实际应执行此项目。 这样做可能没有成本效益，或者您可能没有资源。 在此规划阶段，您可以在Workfront中创建项目而不添加任何任务，并将状态设置为planning。
 
-有关创建项目的更多信息，请参阅文章 [创建项目](../../../manage-work/projects/create-projects/create-project.md).
+有关创建项目的详细信息，请参阅文章[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
 在计划项目之前，请考虑以下问题：
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 利用项目的商业案例，您可以定义目标并确保项目与组织的策略保持一致。
 
-有关为项目定义业务案例的更多信息，请参阅文章 [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+有关为项目定义业务案例的更多信息，请参阅文章[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
 在定义了项目的总体范围之后，您可以确定是否要承担项目并开始对其进行规划。
 
 ## 初步项目规划
 
-* [定义项目的开始日期和完成日期](#define-the-start-and-completion-date-of-the-project)
+* [定义项目的开始和完成日期](#define-the-start-and-completion-date-of-the-project)
 * [定义项目计划](#define-the-project-schedule)
 * [管理规划项目所需的其他信息](#manage-additional-information-needed-for-planning-the-project)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 您可以创建多个项目计划并将默认计划应用于项目。 其他自定义计划可能会应用于不同的个人。
 
-有关时间表的详细信息，请参阅文章 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+有关计划的详细信息，请参阅文章[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 ### 管理规划项目所需的其他信息 {#manage-additional-information-needed-for-planning-the-project}
 
@@ -82,20 +82,20 @@ ht-degree: 0%
 
 * 是否有法规要求您保留事件和过程的记录？ 如果是这样的话，您需要跟踪哪些内容？\
   Workfront允许您记录编辑、范围更改、状态更改和操作，以便您能够遵守特定于您行业的法规。\
-  有关定义要在Workfront中跟踪的更新的更多信息，请参阅文章 [系统跟踪更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  有关定义要在Workfront中跟踪哪些更新的详细信息，请参阅文章[系统跟踪的更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)。
 
 * 是否有任何您需要跟踪的信息，但在Workfront中没有用于存储该信息的字段？ 如果是，请为可以存储此信息的项目或任务创建自定义Forms 。\
-  有关创建自定义表单的更多信息，请参阅文章 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  有关创建自定义表单的详细信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 * 在项目工作能够继续之前，是否必须授予任何批准检查点？ 如果是，请为可在构建项目时使用的项目或任务创建批准流程。\
-  有关批准流程的详细信息，请参阅文章 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  有关审批流程的详细信息，请参阅文章[为工作项创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 ## 构建项目时间线
 
 在确定项目的主要目标并决定该项目值得追求后，应计算每个目标的时间表。 每个目标都可以成为您项目中的一项任务。
 
 这有助于确定目标的优先级并相应地规划工作细分结构。 工作分解结构定义项目的时间表。\
-有关在项目中创建任务的更多信息，请参阅部分 [定义任务](#define-tasks).
+有关在项目中创建任务的更多信息，请参阅[定义任务](#define-tasks)部分。
 
 在构建项目的时间表时，请考虑以下事项：
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
   当您使用父任务来组织目标时，可以为每个主要目标创建一个任务，并在进入将主要目标分解为单独任务的阶段时添加子任务。 这样可以将属于目标一部分的任务保留在项目中组织。
 
-  有关前置任务的更多信息，请参阅 [前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  有关任务前置任务的详细信息，请参阅[任务前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 
 * 考虑项目中最重要的目标，并将其标记为里程碑任务。
 
   我们建议将父任务用作里程碑。
 
-  有关使用里程碑任务的更多信息，请参阅 [创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  有关使用里程碑任务的更多信息，请参阅[创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
 * 为每个目标定义一个时间线。 如果您使用父任务，则每个子任务必须具有已定义的开始日期和完成日期。 同一项目上任务的最早开始日期与任务的最晚完成日期之间的时间会导致项目时间线。
 
@@ -129,23 +129,23 @@ ht-degree: 0%
 
   模板任务成为项目的任务。
 
-  有关创建任务的更多信息，请参阅文章 [在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+  有关创建任务的更多信息，请参阅文章[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 定义任务时，请考虑以下事项：
 
 * 定义每个任务的时间表。 这在每个任务的持续时间字段中捕获。
 
-  有关任务持续时间的信息，请参阅文章 [任务工期和工期类型概览](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  有关任务持续时间的信息，请参阅文章[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
 * 定义任务之间的父子关系。
 * 定义任务之间的前置任务关系。
 * 将里程碑路径与项目关联，并将里程碑与其相应任务关联。
 
-  有关使用里程碑任务的更多信息，请参阅文章 [创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  有关使用里程碑任务的更多信息，请参阅文章[创建里程碑路径](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)。
 
 * 定义完成每项任务所需的工作量。 该任务在每个任务的计划小时数字段中捕获。
 
-  有关计划小时数的详细信息，请参阅文章 [计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md).
+  有关计划小时数的详细信息，请参阅文章[计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md)。
 
 * 将每项任务分配给负责完成该任务的用户或团队。
 * 检查分配给任务的用户的可用性。 确保他们能够自由工作且不会过度分配，以便他们能够完成分配的任务。 如果用户分配过度或他们的计划中有空闲时间，请考虑以下情况之一：
@@ -153,5 +153,5 @@ ht-degree: 0%
    * 减少每个任务的计划小时数。
    * 向任务添加更多用户，以确保在分配给任务的时间内完成任务。
    * 将任务重新分配给没有其他限制的可用用户。\
-     有关计划项目资源的详细信息，请参阅文章 [资源计划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-     有关安排资源完成项目工作的详细信息，请参阅 [工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     有关计划项目资源的详细信息，请参阅文章[资源计划：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)。\
+     有关安排资源完成项目工作的详细信息，请参阅[工作负载均衡器概述](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。

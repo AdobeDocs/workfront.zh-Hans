@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 您可以构建中介处理组件，以帮助您仅过滤和处理业务所需的事件订阅消息。
 
-要了解事件订阅，请参阅 [事件订阅API](../../wf-api/general/event-subs-api.md).
+要了解事件订阅，请参阅[事件订阅API](../../wf-api/general/event-subs-api.md)。
 
 ## 过滤事件消息
 
 此部分包含过滤的代码片段，您可以实施这些代码片段来减少事件订阅消息的负载。  为了帮助显示不同语言语法中的差异，这些代码片段说明了以下语言编写的同一组过滤器：
 
-您可以在以下位置查看筛选示例 [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples)，您可以从中查看每种语言的语法以及与AWS SDK交互的方式之间的差异。这些示例编写为AWS Lambdas，这是采用中间筛选和处理组件的常用方法。
+您可以在[https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples)中查看筛选示例，从中可以查看每种语言的语法差异以及与AWS SDK交互的方式。这些示例编写为AWS Lambdas，这是使用中间筛选和处理组件的常用方法。
 
 以下代码片段近乎于部署就绪，可用作帮助您编写自己的更复杂的过滤器以及处理组件的起点。
 
 ### Java
 
-以下Java示例显示了如何根据项目的组ID筛选项目负载，如中所示 [ProjectGroupFiltering.java：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+以下Java示例说明如何根据[ProjectGroupFiltering.java中完成的项目的组ID筛选项目负载：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. 建立您要查找的组ID，并将其创建为一个静态常量。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
    }
    ```
 
-   要了解newState格式，请参阅 [事件订阅的出站消息格式](../../wf-api/api/message-format-event-subs.md).
+   要了解newState格式，请参阅事件订阅的[出站消息格式](../../wf-api/api/message-format-event-subs.md)。
 
 3. 在从消息中解析“newState”映射后，请确保对象的组ID与您在第1步中标识的组ID匹配。
 
-4. （视情况而定）如果ID **不要** 匹配，删除消息以返回空响应。
+4. （视情况而定）如果ID **不匹配**，请删除消息以返回空响应。
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ ht-degree: 0%
 
    将消息投放给另一个Lambda的责任推掉是为了避免来自事件订阅服务的投放请求超时。 目前，允许的投放超时设置为5秒。 如果过滤器处理时间超过设置所允许的时间，则可以处理请求，但事件订阅服务将超时并进入重试循环，直到在超时时段内收到200级响应。
 
-   要了解有关管理消息投放的更多信息，请参阅 [改进报文传送，同时适应超时](#improving-message-delivery-while-accommodating-timeouts).
+   要了解有关管理消息传递的更多信息，请参阅[改进消息传递同时容纳超时](#improving-message-delivery-while-accommodating-timeouts)。
 
 ### Python
 
 Java示例和Python示例之间的主要区别在于，在Java示例中，接收事件订阅消息作为第一个参数，而在Python示例中，第一个参数是Lambda代理“事件”，其中包含事件订阅消息以及有关AWS Lambda代理请求的信息。
 
-以下Python示例显示了如何根据项目的组ID筛选项目负载，如中所示  [projectGroupFiltering.py：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+Python中的以下示例显示如何根据[projectGroupFiltering.py中完成的项目的组ID筛选项目负载：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. 建立您要查找的组ID，并将其创建为一个静态常量。
 
@@ -147,7 +147,7 @@ Java示例和Python示例之间的主要区别在于，在Java示例中，接收
    new_state = json.loads(event_subscription_message['newState'])
    ```
 
-   要了解newState格式，请参阅 [事件订阅的出站消息格式](../../wf-api/api/message-format-event-subs.md).
+   要了解newState格式，请参阅事件订阅的[出站消息格式](../../wf-api/api/message-format-event-subs.md)。
 
 1. 在从消息中解析“newState”映射后，请确保对象的组ID与您在第1步中标识的组ID匹配。
 
@@ -188,7 +188,7 @@ Java示例和Python示例之间的主要区别在于，在Java示例中，接收
 
 项目组ID筛选的Node.js示例与Java和Python示例类似。 与Python示例一样，第一个参数是Lambda代理事件，第二个参数是Lambda Context。
 
-Node.js中的以下示例显示如何根据项目的组ID筛选项目负载，如中所示  [projectGroupFiltering.js：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+Node.js中的以下示例显示如何根据项目的组ID筛选项目负载，如[projectGroupFiltering.js中所做：](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. 建立您要查找的组ID，并将其创建为一个静态常量。
 
@@ -218,7 +218,7 @@ Node.js中的以下示例显示如何根据项目的组ID筛选项目负载，�
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 
    ```
 
-   要了解newState格式，请参阅 [事件订阅的出站消息格式](../../wf-api/api/message-format-event-subs.md).
+   要了解newState格式，请参阅事件订阅的[出站消息格式](../../wf-api/api/message-format-event-subs.md)。
 
 4. （视情况而定）如果ID不匹配，请删除消息以返回空响应。\
    以下示例显示了匹配的组ID：
@@ -261,24 +261,24 @@ Node.js中的以下示例显示如何根据项目的组ID筛选项目负载，�
 
    AWS SDK用于调用另一个Lambda，后者负责将过滤的消息传递到我们的所需端点。\
    将消息投放给另一个Lambda的责任推掉是为了避免来自事件订阅服务的投放请求超时。 目前，投放超时设置为5秒。 如果过滤器处理时间超过设置所允许的时间，则可以处理请求，但事件订阅服务将超时并进入重试循环，直到在超时时段内收到200级响应。\
-   要了解如何管理消息投放，请参阅 [改进报文传送，同时适应超时](#improving-message-delivery-while-accommodating-timeouts).
+   要了解如何管理消息传递，请参阅[改进消息传递同时容纳超时](#improving-message-delivery-while-accommodating-timeouts)。
 
 ## 改进报文传送，同时适应超时
 
-事件订阅服务的严格超时为 **5秒** 用于所有投放请求。 如果消息的投放超过允许的时间，事件订阅服务将开始该消息的重试周期。
+对于所有投放请求，事件订阅服务的严格超时为&#x200B;**5秒**。 如果消息的投放超过允许的时间，事件订阅服务将开始该消息的重试周期。
 
-例如，您构建的项目组ID过滤器类似于中的示例之一 [过滤事件消息](#filtering-event-messages) 并包括数据库查找以确定是否需要该消息。 数据库查找以及所需的处理和Lambda冷启动所需的时间可能超过五秒，从而导致事件订阅服务重试传递消息。
+例如，您生成了一个项目组ID筛选器，该筛选器类似于[筛选事件消息](#filtering-event-messages)中的示例之一，并且您包含一个数据库查找来确定是否需要该消息。 数据库查找以及所需的处理和Lambda冷启动所需的时间可能超过五秒，从而导致事件订阅服务重试传递消息。
 
-您可以将流程中耗时的部分与负责确定消息是否是要处理和投放的逻辑分开，以避免重试。 这样，您就可以接受消息并向事件订阅服务发送200级响应，同时异步继续在后台处理或过滤消息（请参阅中的步骤5） [Java](#java) 例如)。
+您可以将流程中耗时的部分与负责确定消息是否是要处理和投放的逻辑分开，以避免重试。 这样，您就可以接受消息并向事件订阅服务发送回200级响应，同时可异步继续在后台处理或筛选消息（有关示例，请参阅[Java](#java)中的步骤5）。
 
 
 即使您的处理或筛选未超过五秒超时，将消息筛选或处理的第一个接触点与客户端上的其他处理或投放步骤分离出来仍然有好处。 这样，将消息从事件订阅服务切换到目标将对双方的时间和性能影响最小。
 
-要了解有关重试机制的更多信息，请参阅 [事件订阅重试](../../wf-api/api/event-sub-retries.md).
+若要了解有关重试机制的更多信息，请参阅[事件订阅重试](../../wf-api/api/event-sub-retries.md)。
 
 ## 在无云架构中实施托管过滤器
 
-如果您无法利用云架构进行事件订阅过滤，则仍可以使用中的示例 [过滤事件消息](#filtering-event-messages) 作为有关如何实施您自己的托管过滤器或处理组件的路线图。
+如果您无法利用云架构进行事件订阅过滤，您仍可以使用[过滤事件消息](#filtering-event-messages)中的示例作为有关如何实施自己的托管过滤器或处理组件的路线图。
 
 ### 调整独立服务的过滤示例
 
@@ -288,7 +288,7 @@ Node.js中的以下示例显示如何根据项目的组ID筛选项目负载，�
 
 * 更改示例中其他Lambda的调用，以便向其他过滤器发出额外的异步HTTP请求或处理您托管的组件。
 
-* 如果引用Python和Node.js示例，请将第一个事件参数替换为Java示例中显示的第一个有效负载参数。 请参阅中的步骤1 [Java](#java).
+* 如果引用Python和Node.js示例，请将第一个事件参数替换为Java示例中显示的第一个有效负载参数。 请参阅[Java](#java)中的步骤1。
 
 * 使用基于Web的API部署过滤器或处理器。
 
@@ -330,6 +330,6 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
 
 ### 在投放消息中实施异步处理
 
-中的所有示例 [过滤事件消息](#filtering-event-messages) 部分将过滤的邮件传递到另一个AWS Lambda。 这样做是为了避免超过投放请求中的五秒超时，该超时由发出请求的事件订阅服务强制执行。
+[过滤事件消息](#filtering-event-messages)部分中的所有示例都会将已过滤消息传递给另一个AWS Lambda。 这样做是为了避免超过投放请求中的五秒超时，该超时由发出请求的事件订阅服务强制执行。
 
 在无云架构中，您可能需要实施异步处理机制，该机制与AWS SDK允许对其他AWS Lambda进行异步调用的方式类似。 大多数现代编程语言都有处理异步处理的第三方或核心库，从而允许您利用在我们的示例中实现的异步样式处理。

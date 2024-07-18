@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: 中的自动化工作流 [!DNL Workfront Proof]
+title: ' [!DNL Workfront Proof]中的自动化工作流'
 description: 了解Workfront Proof中的自动工作流。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# 中的自动化工作流 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中的自动化工作流
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [在中使用自动工作流设置验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-* [在中管理使用自动工作流配置的验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+* [在 [!DNL Workfront Proof]中设置具有自动工作流的验证](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+* [在 [!DNL Workfront Proof]中管理使用自动化工作流配置的校对](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)

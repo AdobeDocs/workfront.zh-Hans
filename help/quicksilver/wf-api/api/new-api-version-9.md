@@ -9,8 +9,8 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 20%
+source-wordcount: '179'
+ht-degree: 19%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 20%
 
 ## 新资源
 
-这是API版本9的新资源列表，要查看对版本9的资源已进行的更新列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)
+这是API版本9的新资源列表，要查看对版本9的资源已更新的列表，请访问[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新
 
 ### 访问级别
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -45,7 +45,7 @@ ht-degree: 20%
 
 ### AccessLevelPermissions
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -58,7 +58,7 @@ ht-degree: 20%
 
 ### AccessRulePreference
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
@@ -66,7 +66,7 @@ ht-degree: 20%
 
 ### BudgetedHour
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -80,7 +80,7 @@ ht-degree: 20%
 
 ### CalendarPortalSection
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -95,7 +95,7 @@ ht-degree: 20%
 
 ### 日历节
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -112,7 +112,7 @@ ht-degree: 20%
 
 ### 外部部分
 
-| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 操作 |
+| 字段 | 引用 | 收藏集 | 搜索 | 操作 | 查询 | 运营 |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |
@@ -140,4 +140,4 @@ ht-degree: 20%
 
  
 
-这份名单已经分成两半。 要查看下半部分，请参见 [API版本9中的新增功能（续）](../../wf-api/api/new-api-version-9-continue.md). 要查看版本9更新的列表，请访问 [API版本9的更新](../../wf-api/api/new-api-version-9-updates.md)
+这份名单已经分成两半。 要查看下半部分，请参阅[API版本9的新增功能（续）](../../wf-api/api/new-api-version-9-continue.md)。 要查看版本9更新的列表，请访问[API版本9](../../wf-api/api/new-api-version-9-updates.md)的更新

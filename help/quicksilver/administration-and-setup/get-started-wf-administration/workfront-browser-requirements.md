@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Workfront的浏览器要求
-description: 本文中的信息已移动。 请参阅Adobe Workfront浏览器要求。
+description: 本文中的信息已发生移动。 请参阅Adobe Workfront浏览器要求。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文中的信息已移动。 请参阅 [Adobe Workfront浏览器要求](../../workfront-basics/workfront-browser-requirements.md).
+>本文中的信息已发生移动。 请参阅[Adobe Workfront浏览器要求](../../workfront-basics/workfront-browser-requirements.md)。

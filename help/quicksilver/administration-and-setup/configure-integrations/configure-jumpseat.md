@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: 配置JumpSeat集成
-description: 您可以集成 [!DNL JumpSeat] 替换为 [!DNL Workfront] 创建自定义的产品内指南。
+description: 您可以将 [!DNL JumpSeat] 与 [!DNL Workfront] 集成以创建自定义产品内指南。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 配置JumpSeat集成
 
-您可以集成 [!DNL JumpSeat] 替换为 [!DNL Workfront] 创建自定义的产品内指南。
+您可以将[!DNL JumpSeat]与[!DNL Workfront]集成以创建自定义产品内指南。
 
 ## 访问要求
 
@@ -36,45 +36,45 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>产品</strong></td> 
-   <td>您必须拥有有效的 [!DNL JumpSeat] 计划。</td> 
+   <td>您必须拥有有效的[!DNL JumpSeat]计划。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p> 您必须是 [!DNL Workfront] 管理员。 有关的信息 [!DNL Workfront] 管理员，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p> 您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
 在开始之前，您必须
 
-* 添加并激活 [!DNL Workfront] 作为应用程序 [!DNL JumpSeat]. 有关更多信息，请参阅 [如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/).
+* 在[!DNL JumpSeat]中添加并激活[!DNL Workfront]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
-## 配置 [!DNL JumpSeat] 集成
+## 配置[!DNL JumpSeat]集成
 
-我们建议设置 [!DNL JumpSeat] “预览”和“生产”环境中的集成。
+我们建议在您的预览环境和生产环境中设置[!DNL JumpSeat]集成。
 
 >[!TIP]
 >
->您需要添加和激活两个单独的 [!DNL Workfront] 中的应用程序 [!DNL JumpSeat] — 一个用于预览，一个用于生产。 请参阅 [如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/) 以了解更多信息。
+>您需要在[!DNL JumpSeat]中添加和激活两个单独的[!DNL Workfront]应用程序 — 一个用于预览，一个用于生产。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
-配置 [!DNL JumpSeat] 集成：
+要配置[!DNL JumpSeat]集成，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]**.
-1. 在左侧面板中，单击 **[!UICONTROL 系统]** > **[!UICONTROL [!DNL JumpSeat]集成]**.
-1. 输入您的 **[!UICONTROL [!DNL JumpSeat]URL]**，有关更多详细信息，请参阅扩展图标 [!DNL JumpSeat].
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**。
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 系统]** > **[!UICONTROL [!DNL JumpSeat]集成]**。
+1. 输入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可以在位于[!DNL JumpSeat]的扩展图标上找到该URL。
 
    **示例：** [!DNL https]：//{mycompanyname}.jumpseat.io
 
-1. 输入 **[!UICONTROL [!DNL JumpSeat]集成令牌]**. 您可以在 **[!UICONTROL 配置]** 页面位置 [!DNL JumpSeat].
+1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在[!DNL JumpSeat]中的&#x200B;**[!UICONTROL 配置]**&#x200B;页面上找到此项。
 
-   **示例：** 2到10美元BevsKeQ8....OYR.LurSg2U64O
+   **示例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
-1. 单击 **[!UICONTROL 测试配置]**.
-1. 选择您是否希望集成 **[!UICONTROL 活动]** 或 **[!UICONTROL 不活动]**.
+1. 单击&#x200B;**[!UICONTROL 测试配置]**。
+1. 选择您希望该集成是&#x200B;**[!UICONTROL 活动]**&#x200B;还是&#x200B;**[!UICONTROL 非活动]**。
 
    >[!IMPORTANT]
    >
@@ -86,4 +86,4 @@ ht-degree: 1%
 
 >[!TIP]
 >
->有关配置的详细信息 [!DNL JumpSeat] 集成，请参见 [!DNL JumpSeat] 文档 [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).
+>有关配置[!DNL JumpSeat]集成的更多信息，请参阅有关[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)的[!DNL JumpSeat]文档。

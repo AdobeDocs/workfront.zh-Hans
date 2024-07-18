@@ -21,7 +21,7 @@ ht-degree: 0%
 
 创建包后，可在其他环境中安装包。
 
-您必须在要复制对象的环境中安装软件包 **到**. 例如，如果您在自定义刷新沙盒环境中配置项目并将其提升到生产环境，则必须在生产环境中安装包。
+您必须在要将对象&#x200B;**复制到**&#x200B;的环境中安装包。 例如，如果您在自定义刷新沙盒环境中配置项目并将其提升到生产环境，则必须在生产环境中安装包。
 
 >[!IMPORTANT]
 >
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 计划</strong>
+   <td><strong>[!DNL Adobe Workfront]计划</strong>
    </td>
    <td> Prime或Ultimate（仅限新计划）
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 许可证</strong>
+   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
    </td>
    <td> [！UICONTROL标准版]
    </td>
@@ -47,18 +47,18 @@ ht-degree: 0%
    <tr>
    <td>访问级别配置
    </td>
-   <td>您必须是 [!DNL Workfront] 管理员。
+   <td>您必须是[!DNL Workfront]管理员。
    </td>
   </tr>
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
 必须先创建环境升级包，然后才能安装它。
 
-有关说明，请参阅 [创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+有关说明，请参阅[创建或编辑环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)。
 
 ## 安装的软件包状态
 
@@ -68,29 +68,29 @@ ht-degree: 0%
 
 要编辑资源包的状态，请执行以下操作：
 
-1. 选择包，如中所述  [编辑或汇编现有包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 在创建和编辑环境升级包一文中。
-1. 单击 **编辑包**.
-1. 单击 **状态**.
+1. 按照“创建和编辑环境提升包”一文中[编辑或汇编现有包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package)中的说明选择包。
+1. 单击&#x200B;**编辑包**。
+1. 单击&#x200B;**状态**。
 1. 从下拉菜单中选择所需的状态。
 
-有关状态的更多信息，请参阅 [环境提升状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 在文章中，有关在Workfront环境之间移动对象的概述。
+有关状态的更多信息，请参阅在Workfront环境之间移动对象概述一文中的[环境升级状态](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
 
 ## 安装包
 
 >[!NOTE]
 >
->* 要安装软件包，您必须登录到要安装软件包的环境。 这是复制对象的环境 **到**.
+>* 要安装软件包，您必须登录到要安装软件包的环境。 这是您正在将对象&#x200B;**复制到**&#x200B;的环境。
 
 1. 转到要在其中安装包的环境。
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
-1. 选择 **系统** 在左侧导航中，然后选择 **环境升级**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左侧导航中选择&#x200B;**系统**，然后选择&#x200B;**环境升级**。
 1. 从显示的列表中选择程序包。
 1. 对于每个有冲突的对象，选择如何解决冲突。
 
    要解决冲突，请单击对象类型旁边的下拉箭头，然后选择要执行的操作。
 
-   有关更多信息，请参阅 [冲突](#collisions) 本文内容
-1. 要将包部署到新环境，请单击 **部署** 在屏幕的右上角。
+   有关详细信息，请参阅本文中的[冲突](#collisions)
+1. 要将包部署到新环境中，请单击屏幕右上角的&#x200B;**部署**。
 
 ## 冲突
 
@@ -108,16 +108,16 @@ ht-degree: 0%
 
 * **使用新名称创建**：在目标环境中创建新对象。 如果对象存在于目标环境中，则可以使用新名称创建新对象。 如果目标环境中不存在该对象，则可以使用新名称或对象在包中的名称来创建对象。
 * **使用现有**：未安装包中的对象，并且目标环境中已存在的对象保持不变。
-* **覆盖**：包中的对象替换目标环境中的现有对象。
+* **覆盖**：包中的对象将替换目标环境中的现有对象。
 
   即使未检测到冲突，您也可以选择要覆盖的对象。
 
-  有关覆盖如何影响父对象和子对象的详细信息，请参见 [覆盖父对象和子对象](#overwriting-parent-and-child-objects) 本文章中。
+  有关覆盖如何影响父对象和子对象的详细信息，请参阅本文中的[覆盖父对象和子对象](#overwriting-parent-and-child-objects)。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-默认值为 `Create new` 如果目标环境中不存在该对象，并且 `Use existing` 如果目标环境中确实存在该对象。 您可以通过单击还原到默认映射 **重置为默认映射**.
+如果目标环境中不存在该对象，则默认值为`Create new`；如果目标环境中存在该对象，则默认值为`Use existing`。 您可以通过单击&#x200B;**重置为默认映射**&#x200B;还原为默认映射。
 
 ## 覆盖父对象和子对象
 
@@ -131,8 +131,8 @@ ht-degree: 0%
 
 | 父对象 | 子对象 |
 |---|---|
-| 项目 | 任务<br>QueueDef（队列定义）<br>路由规则 |
-| 模板 | TemplateTask<br>QueueDef（队列定义）<br>路由规则 |
+| 项目 | 任务<br>QueueDef（队列定义）<br>RoutingRule |
+| 模板 | TemplateTask<br>QueueDef（队列定义）<br>RoutingRule |
 | 参数（自定义表单字段） | ParameterOption（自定义表单字段选项） |
 | 日历信息 | 日历节 |
 | QueueDef（队列定义） | QueueTopicGroup<br>队列主题 |

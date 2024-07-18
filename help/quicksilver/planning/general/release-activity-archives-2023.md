@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >如果您属于此阶段，您的客户代表将会通知您。
 >
->有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+>有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
 本文列出了在2023年5月22日Adobe Workfront规划项目发布后的2023年功能。
 
-有关2024年发布的功能的信息，请参阅 [Adobe Workfront Planning当前发行活动](/help/quicksilver/planning/general/release-activity.md).
+有关2024年期间发布的功能的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
 
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 预览和生产： 2023年12月27日
 
-您现在可以搜索关键字，以便在时间轴视图中快速查找记录。 您可以使用屏幕上可见的任何字段中的关键字和特殊字符来查找记录。 有关信息，请参阅 [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+您现在可以搜索关键字，以便在时间轴视图中快速查找记录。 您可以使用屏幕上可见的任何字段中的关键字和特殊字符来查找记录。 有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2023年12月18日起一周
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 >
 >* 拖放图像
 >
->有关更多信息，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>有关详细信息，请参阅[2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 您现在可以通过添加注释或在查看记录页面时回复他人来与个人记录上的其他人协作。
 
 规划功能记录的注释体验与Workfront对象的新注释体验相匹配。
 
-有关更多信息，请参阅 [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md).
+有关详细信息，请参阅[管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ### 适用于Adobe Workfront Fusion的Workfront Planning连接器
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 >
 >贵组织必须购买Adobe Workfront Fusion才能与Adobe Workfront Planning功能建立连接。
 >
->有关信息，请参阅 [Adobe Workfront Fusion概述](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>有关信息，请参阅[Adobe Workfront Fusion概述](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)。
 
 现在，您可以使用Adobe Workfront Fusion连接到规划功能。 通过新的Fusion连接，您可以：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * 在规划功能中进行更改时触发方案
 
-有关更多信息，请参阅 [Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+有关详细信息，请参阅[Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。
 
 ## 2023年12月11日起一周
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * 记录类型的所有表视图都具有您选择的相同主字段。
 
-有关更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ### 将规划功能记录与Adobe Experience Manager Assets连接
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >贵组织的Workfront实例必须载入Adobe业务平台或Adobe Admin Console，才能将Adobe Workfront Planning功能记录连接到Adobe Experience Manager Assets。
 >
->如果您对入门Adobe Admin Console有任何疑问，请参阅 [Adobe统一Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>如果您对加入Adobe Admin Console有任何疑问，请参阅[AdobeUnified Experience常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
 您现在可以在Adobe Workfront Planning功能记录类型与Adobe Experience Manager Assets之间建立连接。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * 您可以从连接的记录字段中单击规划功能记录的表格视图中的资产名称，并查看包含资产缩略图和多个关键字段的弹出窗口。 从弹出窗口中，您可以导航到Experience Manager中的资源查看器，并查看有关该查看器的所有详细信息。
 
-有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 2023年12月4日起一周
 
@@ -174,9 +174,9 @@ ht-degree: 0%
 
 * 您无法复制和粘贴在记录的“详细信息”区域中显示的字段的字段值。
 
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
-有关链接字段的信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+有关链接字段的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 2023年11月27日起一周
 
@@ -200,7 +200,7 @@ ht-degree: 0%
 
    * 因连接记录而创建的链接字段
 
-有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 2023年11月6日起一周
 
@@ -208,9 +208,9 @@ ht-degree: 0%
 
 预览和生产： 2023年11月7日
 
-您现在可以在记录类型页面的表视图中分组记录。 您可以在计划功能界面中按三个唯一字段进行分组<!--checking into this for now: and by four fields when using the API-->.
+您现在可以在记录类型页面的表视图中分组记录。 您可以在规划功能界面<!--checking into this for now: and by four fields when using the API-->中按三个唯一字段分组。
 
-有关更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年10月30日起一周
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 根据这些字段类型创建的字段的字段值为只读，可捕获创建或上次修改记录的用户的名称，或创建或上次修改记录的日期。
 
-有关更多信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+有关详细信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 ### 从规划权能记录导航到Workfront对象
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 * 只读Workfront对象记录页面
 
-有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ### 改进了表视图中的导航
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 * 使用Shift + Enter键盘组合在表中添加新记录（或行）。
 
-有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 2023年10月16日起一周
 
@@ -266,13 +266,13 @@ ht-degree: 0%
 
 预览和生产： 2023年10月16日
 
-您现在可以将People-type字段添加到Planning权能记录类型。 您可以使用“人员”类型字段将现有用户与记录关联。 有关信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+您现在可以将People-type字段添加到Planning权能记录类型。 您可以使用“人员”类型字段将现有用户与记录关联。 有关信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
 ### 富文本 — 段落字段的格式
 
 预览和生产： 2023年10月16日
 
-我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图或记录页面中使用富文本设置段落字段的格式。 有关更多信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+我们为段落类型字段添加了富文本格式控件。 您可以在记录类型的“表”视图或记录页面中使用富文本设置段落字段的格式。 有关详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 
 ### 时间轴视图的记录并分组颜色编码
@@ -301,7 +301,7 @@ ht-degree: 0%
 
 将颜色与特定字段匹配时，您只能选择具有颜色编码选项的字段。
 
-有关更多信息，请参阅 [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+有关详细信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 2023年10月9日起一周
 
@@ -309,7 +309,7 @@ ht-degree: 0%
 
 预览和生产： 2023年10月9日
 
-您现在可以搜索关键字，以便在表格视图中快速查找记录。 您可以使用屏幕上可见的任何字段中的关键字和特殊字符来查找记录。 有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+您现在可以搜索关键字，以便在表格视图中快速查找记录。 您可以使用屏幕上可见的任何字段中的关键字和特殊字符来查找记录。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年9月18日起一周
 
@@ -317,7 +317,7 @@ ht-degree: 0%
 
 预览和生产： 2023年9月20日
 
-现在，您可以在记录类型页面的“表”视图中重新排列一个或多个行（或记录）。 有关信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+现在，您可以在记录类型页面的“表”视图中重新排列一个或多个行（或记录）。 有关信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年9月4日起一周
 
@@ -358,7 +358,7 @@ ht-degree: 0%
 
 您可以从字段列的每个标题中隐藏或显示单个字段，也可以从表格视图工具栏中的设置管理记录类型的所有字段。
 
-有关更多信息，请参阅 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+有关详细信息，请参阅[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 ## 2023年8月21日起一周
 

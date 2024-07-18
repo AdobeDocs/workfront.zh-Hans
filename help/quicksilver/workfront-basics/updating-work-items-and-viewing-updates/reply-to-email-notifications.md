@@ -70,7 +70,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 回复电子邮件通知的更新
 
@@ -79,15 +79,15 @@ ht-degree: 1%
 1. 在Workfront中打开更新生成的电子邮件通知。
 
    ![email.png](assets/email-350x202.png)
-1. 单击 **注释** 来自电子邮件通知。
+1. 单击电子邮件通知中的&#x200B;**评论**。
 
    此时，将在Workfront中打开对象的“详细信息”页面。
 
 1. 转到要向其添加回复的更新。
 
-   除了查看积极参与对话的用户外，您还可以在该更新会话的顶部查看每次回复中被标记的用户。 这些用户以及订阅了对象的任何用户会在对象上进行更新或回复时收到通知。 要标记更多用户，请参阅 [为其他人标记更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   除了查看积极参与对话的用户外，您还可以在该更新会话的顶部查看每次回复中被标记的用户。 这些用户以及订阅了对象的任何用户会在对象上进行更新或回复时收到通知。 若要标记更多用户，请参阅[标记其他用户的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
-1. 单击 **回复，** 输入您的回复，然后单击 **回复**.
+1. 单击&#x200B;**回复，**&#x200B;输入您的回复，然后单击&#x200B;**回复**。
 
    回复将作为新评论添加到评论会话中。
 
@@ -113,6 +113,6 @@ ht-degree: 1%
 1. 在电子邮件回复中键入您的更新。
 
    不允许使用附件，并且在“更新”选项卡中查看更新时，应用到电子邮件中更新的任何富文本格式都不会显示在更新中。
-1. 单击 **发送**.
+1. 单击&#x200B;**发送**。
 
    您的更新将作为对象通信线程的回复添加。

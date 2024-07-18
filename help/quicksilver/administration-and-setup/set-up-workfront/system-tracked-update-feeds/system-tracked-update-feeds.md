@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: 系统跟踪更新
-description: Adobe Workfront通过将状态信息记录在对象的 [!UICONTROL 更新] 区域。
+description: Adobe Workfront通过在对象的[!UICONTROL 更新]区域中记录状态信息，捕获发生在某些对象上的活动。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] 通过在对象的 [!UICONTROL 更新] 部分。
+[!DNL Adobe Workfront]通过在对象的[!UICONTROL 更新]部分中记录状态信息，捕获在某些对象上发生的活动。
 
-有关“更新”部分的信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+有关“更新”部分的信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-此 [!UICONTROL 更新] 区域包含以下类型的更新：
+[!UICONTROL 更新]区域包含以下类型的更新：
 
-* **用户更新：** 由用户手动输入。 也称为评论、回复和注释。 用户更新显示在对象的“更新”部分的“注释”和“所有”选项卡中。
+* **用户更新：**&#x200B;用户手动输入。 也称为评论、回复和注释。 用户更新显示在对象的“更新”部分的“注释”和“所有”选项卡中。
 
-  有关配置用户更新的更多信息，请参阅 [配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  有关配置用户更新的详细信息，请参阅[配置用户更新的首选项](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
 
   ![](assets/updates-qs-350x125.png)
 
-* **系统更新：** 由系统自动生成。 系统更新包括一个简要注释，描述该项发生了什么类型的更改。 系统更新显示在对象的“系统活动”和“更新”部分的“所有”选项卡中。
+* **系统更新：**&#x200B;由系统自动进行。 系统更新包括一个简要注释，描述该项发生了什么类型的更改。 系统更新显示在对象的“系统活动”和“更新”部分的“所有”选项卡中。
 
-  有关系统更新源以及如何启用它们的详细信息，请参阅 [配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  有关系统更新源以及如何启用它们的详细信息，请参阅[配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,36 +56,36 @@ ht-degree: 0%
 
 系统跟踪更新不适用于具有“更新”区域的所有对象。
 
-* 此 [!UICONTROL 更新] 区域可用于以下对象：
+* [!UICONTROL 更新]区域可用于以下对象：
 
    * [!UICONTROL 项目]
    * [!UICONTROL 任务]
    * [!UICONTROL 问题]
    * [!UICONTROL Portfolio]
-   * [!UICONTROL 项目]
+   * [!UICONTROL 计划]
    * [!UICONTROL 用户]
    * [!UICONTROL 模板]
    * [!UICONTROL 模板任务]
    * [!UICONTROL 团队]
    * [!UICONTROL 文档]
-   * [!UICONTROL 工时表]
-   * [!UICONTROL Story]
+   * [!UICONTROL 时间表]
+   * [!UICONTROL 故事]
 
-     在 [!DNL Workfront]，故事是任务。
+     在[!DNL Workfront]中，故事是任务。
    * [!UICONTROL 迭代]
    * [!UICONTROL 目标]
 
-     您必须拥有额外的许可证才能访问 [!UICONTROL 目标] 区域。 有关信息，请参阅 [使用Workfront Goals的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL 卡片] 在展示板上
+     您必须具有额外的许可证才能访问[!UICONTROL 目标]区域。 有关信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+   * 讨论区中的[!UICONTROL 卡片]
 
-     有关信息卡更新的更多信息，请参阅 [在展示板上使用连接的信息卡](../../../agile/get-started-with-boards/connected-cards.md).
+     有关信息卡更新的详细信息，请参阅[在展示板上使用连接的信息卡](../../../agile/get-started-with-boards/connected-cards.md)。
 
-* [!DNL Workfront] 不跟踪以下对象的系统更新：
+* [!DNL Workfront]不跟踪以下对象的系统更新：
 
    * [!UICONTROL 团队]
    * [!UICONTROL 模板]
    * [!UICONTROL 模板任务]
-   * 临时 [!UICONTROL 卡片]
+   * 临时[!UICONTROL 卡]
    * [!UICONTROL 迭代]
 
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * 用户更新显示在“注释”选项卡中，系统更新显示在“系统活动”和“全部”选项卡中。
 
-  有关没有“系统活动”或“全部”选项卡的对象列表，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  有关没有“系统活动”或“全部”选项卡的对象列表，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * 您无法向系统更新添加回复。 但是，对2024年4月11日之前旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。
 
@@ -119,10 +119,10 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] 管理员可以定义系统应跟踪的更改类型 [!UICONTROL 更新] 区域。 并非所有具有 [!UICONTROL 更新] 区域也可供配置 [!UICONTROL 更新] 信息源。 以下对象具有 [!UICONTROL 更新] 捕获系统跟踪的更新馈送，但没有可配置的更新馈送的区域：
+* [!DNL Workfront]管理员可以在[!UICONTROL 更新]区域定义系统应跟踪的更改类型。 并非所有具有[!UICONTROL 更新]区域的对象都具有可配置的[!UICONTROL 更新]源。 以下对象具有[!UICONTROL 更新]区域，该区域捕获了系统跟踪的更新馈送，但没有可配置的更新馈送：
 
    * [!UICONTROL 文档]
-   * [!UICONTROL 工时表]
+   * [!UICONTROL 时间表]
    * [!UICONTROL 迭代]
    * [!UICONTROL 目标]
 

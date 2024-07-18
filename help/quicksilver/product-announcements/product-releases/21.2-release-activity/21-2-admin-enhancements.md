@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2管理员增强功能
 
-本页介绍了在21.2版本中对“预览”环境所做的所有管理员增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了在21.2版本中对“预览”环境所做的所有管理员增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 对于管理员：查看有关Workfront中更多区域的审核日志信息
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 * 更改项目偏好设置或者创建或删除自定义季度
 * 更改任务和问题偏好设置
 
-有关更多信息，请参阅 [审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+有关详细信息，请参阅[审核日志](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
-此功能现已包含在 [新Workfront体验的管理基础知识，第2部分：项目设置](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One学习路径。
+此功能现已包含在新Workfront Experience的[管理员基础知识部分，第2部分：项目设置](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One学习路径中。
 
 ## 对于组管理员：改进了移动子组的控件并更新了工具栏
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 为了让您快速重组所管理的组，我们添加了一个“添加子组”工具栏按钮，通过它可创建新子组并移动现有子组。
 
-  有关更多信息，请参阅 [管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)。
 
 * 现在，子组区域中的工具栏使列表与新Workfront Experience中的其他现代化列表一致。 选择组时，图标表示工具栏中的可用功能。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 2个单选按钮选项的标签被拆分，因此它们不会太长 — 现在，每个标签的第二部分都是单独行上的信息消息。
 
-有关时间表和小时首选项的信息，请参阅 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关时间表和小时首选项的信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 对于组管理员：“组”区域中的列表改进
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 * 选择组时，图标表示工具栏中的可用功能。
 * 在组列表中，列、排序和层次结构具有您在其他列表中惯用的新外观。 此外，默认情况下，列表在单个页面上最多显示2,000个项目，而不是100个。
 
-有关整个Workfront中现代化列表的信息，请参阅 [修改列表的显示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+有关整个Workfront中现代化列表的信息，请参阅[修改列表的显示方式](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)。
 
-有关“组”区域的信息，请参见 [管理组](../../../administration-and-setup/manage-groups/manage-groups.md).
+有关组区域的信息，请参阅[管理组](../../../administration-and-setup/manage-groups/manage-groups.md)。
 
 ## 对于组管理员：从设置中的组区域创建和编辑程序
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 我们将继续让您更轻松地在一个位置管理您的组及其关联的对象。 现在，您可以从“设置”的“组”区域查看和使用组的程序。 这样，您就不必转至“程序”区域来管理组的程序。 它会将您正在使用的组程序列表与系统中的其他程序分开。
 
-有关更多信息，请参阅 [创建、修改和查看组的程序](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+有关详细信息，请参阅[创建、修改和查看组的程序](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)。
 
 ## 对于管理员：在设置区域中刷新了标头
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-有关“设置”区域的详细信息，请参阅 [管理和设置](../../../administration-and-setup/administration-and-setup.md).
+有关设置区域的详细信息，请参阅[管理和设置](../../../administration-and-setup/administration-and-setup.md)。
 
 ## 对于组管理员：从“组”页面查看和管理更多组对象
 
@@ -123,9 +123,9 @@ ht-degree: 0%
 
 在此之前，需要启用时间表和小时选项才能分配时间表配置文件。 但这可能不是每个组管理员的理想选择，因为它授予查看和编辑系统中所有时间表和小时信息的权限。 如果您不需要此级别的访问权限，现在您可以管理组的时间表配置信息。
 
-有关更多信息，请参阅 [创建、编辑和分配时间表配置文件](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+有关详细信息，请参阅[创建、编辑和分配时间表配置文件](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
-有关访问级别中的时间表和小时选项的信息，请参阅 [授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+有关访问级别中的时间表和小时选项的信息，请参阅[授予用户对特定区域的管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 ## 对于管理员：设置用户在对象列表中看到的筛选器、视图和分组
 
@@ -135,9 +135,9 @@ ht-degree: 0%
 
 以前，无法自定义这些默认值，因此对于筛选器，它们始终设置为“全部”；对于视图，它们设置为“标准”；对于分组，它们设置为“无”。 新功能的一个额外好处是，如果用户不需要这三个设置，可以向用户隐藏它们。
 
-有关更多信息，请参阅 [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-此功能现已包含在 [新Workfront Experience中的管理员基础知识，第3部分：控制和界面体验](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) Workfront One学习路径。
+此功能现已包含在Workfront One上的新Workfront Experience第3部分：控制和界面体验](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI)学习路径的[管理员基础知识中。
 
 ## 管理员的新增功能：轻松列出当前使用自定义字段的报告
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 以前，如果没有此列，您必须使用文本模式手动创建报告，或者使用其他解决方法来查找报告中使用了哪些自定义字段。 如果贵组织使用许多自定义字段，则此操作会既困难又繁琐。
 
-有关详细信息， [查看使用特定自定义字段或小部件的所有报表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+有关详细信息，[查看使用特定自定义字段或小部件的所有报告](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)。
 
 ## 对于组管理员：在一个位置查看和管理组及其对象
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 >
 >此功能仅在新的Adobe Workfront Experience中可用
 
-现在，当您在“设置”的“组”区域中查看组时，可以更轻松地管理组。 新的更多菜单可让您快速编辑、复制或删除组，而无需返回组页面。 有关更多信息，请参阅 [管理组](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+现在，当您在“设置”的“组”区域中查看组时，可以更轻松地管理组。 新的更多菜单可让您快速编辑、复制或删除组，而无需返回组页面。 有关详细信息，请参阅[管理组](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)。
 
 此外，您还可以从组的页面查看和使用组的布局模板、计划、时间表配置文件和子组成员。 这样，您就不必转至这些对象的各种“设置”页面，即可为您的组管理这些对象。 它使您的组对象列表与系统中其他组的对象列表分开。
 
@@ -167,12 +167,12 @@ ht-degree: 0%
 
 * [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
 * [创建和修改组的计划](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
-* [创建和管理组的周期性工时表](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+* [创建和管理组的时间表配置文件](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [查看和管理子组成员](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
 ## 管理员的新增功能：自定义表单字段中提供了更多文本格式选项
 
 当用户键入允许设置格式的自定义表单字段时，除了粗体、斜体和下划线外，他们现在还可以使用项目符号、编号、超链接和块引号来组织文本。
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

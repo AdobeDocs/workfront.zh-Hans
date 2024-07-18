@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了在20.3版本中对“生产”环境所做的所有Analytics增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+有关20.3版本的所有可用更改列表，请参阅[20.3版本概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 增强分析功能现已推出！
 
@@ -34,5 +34,5 @@ Workfront中现在提供了增强的分析功能。 此功能为您提供了所�
 
 除了可以获得的见解之外，您还可以完成针对任务的操作，例如更新状态、请求更新、将任务分配给某个人等。 — 直接从Enhanced Analytics区域。
 
-有关更多信息，请参阅 [增强的分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md).
+有关详细信息，请参阅[增强分析概述](../../../enhanced-analytics/enhanced-analytics-overview.md)。
 

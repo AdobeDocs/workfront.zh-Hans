@@ -3,8 +3,8 @@ content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
-title: 卫星帐户 [!DNL Workfront Proof]
-description: 卫星帐户是您在自己内部设置和管理的付费帐户 [!DNL Workfront Proof] 帐户。
+title: ' [!DNL Workfront Proof]中的附属帐户'
+description: 附属帐户是您从自己的 [!DNL Workfront Proof] 帐户中设置和管理的付费帐户。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
@@ -15,47 +15,47 @@ ht-degree: 0%
 
 ---
 
-# 卫星帐户 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中的附属帐户
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-卫星帐户是您在自己内部设置和管理的付费帐户 [!DNL Workfront Proof] 帐户。
+附属帐户是您通过自己的[!DNL Workfront Proof]帐户设置并管理的付费帐户。
 
-您的帐户将变为“[!UICONTROL 中心]，”用于管理与其关联的Satellite帐户。
+您的帐户将变为“[!UICONTROL 中心]”，用于管理与其关联的Satellite帐户。
 
-您可以设置的卫星帐户数量没有限制，因此，如果您需要，可以为每个客户创建一个单独的帐户。
+您可以设置的Satellite帐户数量没有限制，因此如果需要，您可以为每个客户创建单独的帐户。
 
-您可以将组织中的多个用户添加到Satellite帐户，并创建一个个性化的品牌帐户供他们使用。
+您可以将组织中的多个用户添加到卫星帐户，并为这些用户创建个性化的品牌帐户以便他们使用。
 
-## 我为什么要设置卫星帐户？
+## 为什么要设置卫星帐户？
 
-At [!DNL Workfront]，我们常常会问这些问题：
+在[!DNL Workfront]，我们经常会收到以下问题：
 
 * 我可以为每个客户创建登录名吗？
-* 客户如何在不看到私有数据的情况下登录？
-* 我该在我的 [!DNL Workfront Proof] 帐户？
+* 客户端如何登录而不看到专用数据？
+* 我是否应该向我的[!DNL Workfront Proof]帐户添加自由撰稿人？
 
-[!UICONTROL Workfront校样] 允许您与具有有效电子邮件地址的任何人轻松共享验证 — 他们甚至不需要自己的登录名即可 [!UICONTROL Workfront校样].
+[!UICONTROL Workfront Proof]允许您轻松地与具有有效电子邮件地址的任何人共享验证 — 他们甚至不需要自己登录[!UICONTROL Workfront Proof]。
 
-但是，有时您可能确实希望工作流中的参与者拥有自己的登录权限，以便他们拥有自己的功能板，并且可以在一个位置查看您与他们共享的所有校样。
+但是，有时您可能确实希望工作流中的参与者拥有自己的登录名，以便他们拥有自己的仪表板，并且在一个位置中查看您与他们共享的所有验证。
 
-您可能还希望使用 [!UICONTROL 需要登录] 设置，在这种情况下，审核人员将需要自己登录。 有关更多信息，请参阅 [中的验证安全性 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+您可能还希望使用[!UICONTROL 需要登录]设置来提高校样的安全性，在这种情况下，您的审阅人需要拥有自己的登录。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)中校对安全性。
 
-我们强烈建议您不要在 [!DNL Workfront Proof] 帐户，因为这样他们就可以访问您不希望他们看到的信息。
+我们强烈建议您不要将外部人员添加为您[!DNL Workfront Proof]帐户中的用户，因为这样可能会让他们访问您不希望他们看到的信息。
 
-那么，如何为其他组织中的人员设置登录？
+那么，如何为其他组织中的人员设置登录呢？
 
-为客户创建Satellite帐户。
+通过为您的客户创建Satellite帐户。
 
-## 卫星帐户的主要特性和优势
+## Satellite帐户的主要特性和优势
 
-| **功能** | **收益** |
+| **功能** | **福利** |
 |---|---|
-| 由您从“[!UICONTROL 中心]“帐户” | 从一个位置方便地管理多个卫星帐户 |
-| Satellite帐户中每个用户的个人登录 | 提供对校样的附加安全性（校样可以受密码保护）。 有关更多信息，请参阅  [中的验证安全性 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md))。 |
-| 为您的客户提供个性化品牌策略 | 您可以控制客户在中拥有的品牌推广体验 [!DNL Workfront Proof] |
-| 增强了客户端的工作流 | 您可以定制校样过程以满足特定客户的需求 |
-| 您的客户可以从Satellite帐户上传校样，并与您共享这些校样 | 您的客户可以启动自己的校样 |
-| 之前与您的客户共享的任何校样将自动显示在其帐户中 | 无需重新共享以前的校样 |
+| 由您在您的“[!UICONTROL 中心]”帐户中管理 | 从一个位置方便地管理多个卫星帐户 |
+| Satellite帐户中每个用户的个人登录 | 为验证提供额外的安全性（验证可以受密码保护）。 有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)中的证明安全性。 |
+| 为客户打造个性化品牌 | 您可以控制客户端在[!DNL Workfront Proof]中的品牌推广体验 |
+| 增强了您的客户端工作流程 | 您可以定制校对过程以满足特定客户的需求 |
+| 您的客户可以从卫星帐户上传校样并与您共享 | 您的客户可以启动他们自己的验证 |
+| 之前与您的客户共享的任何验证将自动显示在他们的帐户中 | 无需重新共享以前的校样 |

@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -114,7 +114,7 @@ ExternalDocument对象是位于Workfront外部的文档存储提供商中的文�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">操作</td>
+      <td role="rowheader">运营</td>
       <td>
         <ul>
           <li><p><b>SEARCH</b></p></li>
@@ -205,13 +205,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 基线是给定时刻项目性能的快照。 它们存储有关项目的关键信息，如关键日期、进度、成本和收入值。
 
-Baseline对象删除了标记 **INLINE_EDITABLE**.
+基线对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 记帐记录(BILL)
 
 BillingRecord对象记录可记帐的收入、小时数或费用。 此信息可用于在外部会计系统中创建发票。
 
-BillingRecord对象删除了标志 **INLINE_EDITABLE**.
+BillingRecord对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 <!--
 
@@ -234,7 +234,7 @@ Company对象表示由人员集合组成的组织。
       <td>
         <ul>
           <li>
-            <p><b>defaultinterface</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已删除</p>
           </li>
@@ -257,7 +257,7 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>名称</b>
             </p>
             <p>添加了可能的值“config.defaultToNewHomeDescription”(customer：config.defaultToNewHome)&gt;/p？<p>这允许组织将新的主页体验设置为用户的默认体验。</p>
           </li>
@@ -317,7 +317,7 @@ ExchangeRate对象表示在Workfront中设置的货币汇率。 ExchangeRate对�
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>已添加.</p>
+          <p>已添加。</p>
        </ul>
       </td>
     </tr>
@@ -328,7 +328,7 @@ ExchangeRate对象表示在Workfront中设置的货币汇率。 ExchangeRate对�
 
 费用代表在项目期限内可能产生的非人工成本。
 
-Expense对象删除了标记 **INLINE_EDITABLE**.
+Expense对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 组（组）
 
@@ -343,7 +343,7 @@ Expense对象删除了标记 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>defaultinterface</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已删除</p>
           </li>
@@ -357,13 +357,13 @@ Expense对象删除了标记 **INLINE_EDITABLE**.
 
 Hour对象表示用户在时间表上记录的小时。
 
-Hour对象删除了标志 **INLINE_EDITABLE**.
+Hour对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 迭代(ITRN)
 
 小版本对象表示单个敏捷小版本。 迭代是离散的时间段，用于规划和完成Agile故事。
 
-Iteration对象删除了标志 **INLINE_EDITABLE**.
+迭代对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 
 ### 日志条目(JRNLE)
@@ -395,7 +395,7 @@ JournalEntry对象可以设置为在修改特定对象字段时记录这些字�
               <li>审阅者已更改(ARC)</li>
               <li>审阅完成(RDC)</li>
               <li>审阅已撤销(RDR)</li>
-              <li>发布(PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ JournalEntry对象可以设置为在修改特定对象字段时记录这些字�
 
 Kanban展示板用于在Agile环境中跟踪任务。
 
-Kanban Board对象删除了标志 **INLINE_EDITABLE**.
+Kanban Board对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 
 ### LinkedFolder (LNKFDR)
@@ -438,13 +438,13 @@ LinkedFolder对象表示从外部文档提供商(如Google驱动器或Dropbox)�
 
 OpTask对象通常称为“问题”。 问题是一个工作项，它通常表示存在阻止任务或项目完成的问题。 问题也可以是技术支持请求。 变更单、请求和错误也是问题。
 
-Issue对象删除了标记 **INLINE_EDITABLE**.
+问题对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 项目（项目）
 
 项目是Workfront中的工作项，是Workfront帮助人们完成工作方式中的主要构建基块。 Project对象表示一组具有通用、特定目标的任务。
 
-Project对象删除了标志 **INLINE_EDITABLE**.
+项目对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 项目用户(PRTU)
 
@@ -461,7 +461,7 @@ ProjectUser对象表示与特定项目关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ ProjectUser对象表示与特定项目关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Rate对象表示Workfront中的记帐费率。
 
-Rate对象删除了标志 **INLINE_EDITABLE**.
+Rate对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ Rate对象删除了标志 **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>此 <b>setRatesForRole</b> 已修改操作以添加以下字段：
+        <p>已修改<b>setRatesForRole</b>操作以添加以下字段：
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,11 +523,11 @@ Rate对象删除了标志 **INLINE_EDITABLE**.
 
 风险对象表示可能会阻止项目按时完成或在预算内完成的可能事件。 在规划阶段的项目会增加风险，以在批准任何工作之前确定潜在的障碍。
 
-Risk对象删除了标记 **INLINE_EDITABLE**.
+Risk对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 角色/工作角色(ROLE)
 
-角色对象（工作角色）表示用户可能填充的功能能力或技能集，如设计人员或产品经理。
+角色对象（工作角色）表示用户可能填充的功能能力或技能集，如Designer或产品经理。
 
 <table>
   <col/>
@@ -538,7 +538,7 @@ Risk对象删除了标记 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>defaultinterface</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已删除</p>
           </li>
@@ -552,7 +552,7 @@ Risk对象删除了标记 **INLINE_EDITABLE**.
 
 Task对象表示作为实现最终目标（完成项目）的步骤而必须执行的工作项。
 
-Task对象删除了标志 **INLINE_EDITABLE**.
+Task对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 ### 团队(TEAMOB)
 
@@ -567,7 +567,7 @@ Task对象删除了标志 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>defaultinterface</b>
+            <p><b>defaultInterface</b>
             </p>
             <p>已删除</p>
           </li>
@@ -592,7 +592,7 @@ TeamMember对象是与特定团队关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ TeamMember对象是与特定团队关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -625,7 +625,7 @@ TeamMember对象是与特定团队关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ TeamMember对象是与特定团队关联的用户。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -658,7 +658,7 @@ TeamMember对象是与特定团队关联的用户。
       <td>
         <ul>
           <li>
-            <p><b>对象代码</b>
+            <p><b>objCode</b>
             </p>
             <p>已删除</p>
           </li>
@@ -712,7 +712,7 @@ TeamMember对象是与特定团队关联的用户。
 
 User对象表示在Workfront中拥有帐户的人员，该帐户可以登录并与系统交互。
 
-User对象删除了标记 **INLINE_EDITABLE**.
+用户对象删除了标志&#x200B;**INLINE_EDITABLE**。
 
 <table>
   <col/>
@@ -735,7 +735,7 @@ User对象删除了标记 **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>userLocations</b>
+            <p><b>用户位置</b>
             </p>
           </li>
         </ul>
@@ -757,7 +757,7 @@ User对象删除了标记 **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ User对象删除了标记 **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -805,14 +805,14 @@ UserNote对象是通知。
               <li>已批准文档(ADA)</li>
               <li>已审批但有更改的文档(ADC)</li>
               <li>文档需求工作(ADN)</li>
-              <li>（用户）已将（文档）标记为已批准。 不再需要您的审批. (AAN)</li>
-              <li>（用户）已将（文档）标记为已批准，但有更改。 不再需要您的审批. (ACN)</li>
-              <li>（用户）已将（文档）标记为需要工作。 不再需要您的审批. (AWN)</li>
+              <li>（用户）已将（文档）标记为已批准。 不再需要您的审批。 (AAN)</li>
+              <li>（用户）已将（文档）标记为已批准，但有更改。 不再需要您的审批。 (ACN)</li>
+              <li>（用户）已将（文档）标记为需要工作。 不再需要您的审批。 (AWN)</li>
               <li>文档需要您立即审核而不是批准(AAC)</li>
               <li>文档需要您立即批准而不是审阅(ADN)</li>
               <li>已审阅文档(RDC)</li>
               <li>已审阅文档(TRC)</li>
-              <li>（用户）已审阅（文档）为完成。 不再需要您审阅. (TRN)</li>
+              <li>（用户）已审阅（文档）为完成。 不再需要您的审核。 (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -834,7 +834,7 @@ UserNote对象是通知。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ UserNote对象是通知。
           <li>
             <p><b>ID</b>
             </p>
-            <p>已添加.</p>
+            <p>已添加。</p>
           </li>
         </ul>
       </td>

@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 删除校样
-description: 要从文档中删除校样，必须删除整个文档。 有关更多信息，请参阅删除文档。
+title: 删除验证
+description: 要从文档中删除验证，必须删除整个文档。 有关详细信息，请参阅删除文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5ba14f47-2b39-4f1c-a3b0-85b2bc19450e
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 ---
 
-# 删除校样
+# 删除验证
 
-要从文档中删除校样，必须删除整个文档。 有关更多信息，请参阅 [删除文档](../../../documents/managing-documents/delete-documents.md).
+要从文档中删除验证，必须删除整个文档。 有关详细信息，请参阅[删除文档](../../../documents/managing-documents/delete-documents.md)。

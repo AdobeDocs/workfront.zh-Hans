@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,24 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关验证不同计划的访问权限的详细信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>.</p> </td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
+   <td role="rowheader">校样权限配置文件 </td> 
    <td>经理或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
 ## 为网站或其他Web内容创建静态验证
 
@@ -54,20 +54,20 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于需要授权和受密码保护的页面的内部页面，我们建议使用交互式校对，而不是静态校对。 有关更多信息，请参阅 [交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>对于需要授权和受密码保护的页面的内部页面，我们建议使用交互式校对，而不是静态校对。 有关详细信息，请参阅[交互式内容校对概述](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)。
 
 1. 转到要创建新网站验证或现有网站验证的新版本的项目、任务或问题。
-1. 单击 **文档** （在左侧面板中）。
-1. （视情况而定）如果您要创建新验证，请单击 **新增**，然后单击 **校对** 在出现的菜单中。
+1. 单击左侧面板中的&#x200B;**文档**。
+1. （视情况而定）如果要创建新校对，请单击“新增”****，然后在出现的菜单中单击“校对”****。
 1. （视情况而定）如果您正在创建现有验证的新版本：
 
    1. 将鼠标悬停在要为其创建新版本的URL验证上，然后单击其周围的浅蓝色背景以将其选中。
 
       ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. 单击 **新增** > **版本** > **校对**.
+   1. 单击&#x200B;**新增** > **版本** > **校对**。
 
-1. 在中键入要验证的网站的URL **添加文件** 区域，然后按 **输入**.
+1. 在&#x200B;**添加文件**&#x200B;区域键入要验证的网站URL，然后按&#x200B;**Enter**。
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ ht-degree: 0%
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. （可选）如果要将验证名称从网站URL更改为其他名称，请键入 **校对名称。**
-1. 确保 **捕获屏幕快照** ，并使用以下任一选项：
+1. （可选）如果要将校对名称从网站URL更改为其他名称，请键入&#x200B;**校对名称。**
+1. 确保已选择&#x200B;**捕获屏幕快照**，并使用以下任一选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +101,15 @@ ht-degree: 0%
    >
    >您无法更改所创建校对的任何后续版本的捕获屏幕快照设置。
 
-1. 单击 **完成**.
+1. 单击&#x200B;**完成**。
 
-   如果在步骤8中选择了多个屏幕快照分辨率，则列表会包含每个分辨率的一组屏幕快照。 您可以生成这些屏幕截图作为单独的验证，也可以将它们合并到单个验证中（请参阅中的）。 我们建议您将它们组合在一起，尤其是当您要创建静态网站验证时。
+   如果在步骤8中选择了多个屏幕快照分辨率，则列表会包含每个分辨率的一组屏幕快照。 您可以生成这些屏幕截图作为单独的校样，或将其合并到单个校样中(请参阅  在。)。 我们建议您将它们组合在一起，尤其是当您要创建静态网站验证时。
 
    >[!NOTE]
    >
    >如果您向现有URL验证添加新版本，则在此版本中维护在原始验证或以前的版本上配置的任何选项。
 
-1. 单击 **创建校对** 创建简单校对，而无需审阅流程。\
+1. 单击&#x200B;**创建校对**&#x200B;以创建无审阅过程的简单校对。\
    或\
    配置高级校对以继续：
 

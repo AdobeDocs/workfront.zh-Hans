@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 授予用户访问权限
 
-作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中其他用户的访问权限，如中所述 [访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中其他用户的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 访问要求
 
@@ -35,7 +35,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,28 +46,28 @@ ht-degree: 1%
 
 * Workfront管理员。
 
-  有关更多信息，请参阅 [授予用户完全管理权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  有关详细信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 * 具有默认计划许可证的用户，也可以访问用户，如本文所述。
 
-  仅限于查看其公司或主要公司用户的用户有权仅编辑其能够查看的用户。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  仅限于查看其公司或主要公司用户的用户有权仅编辑其能够查看的用户。 有关详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 * 具有默认“计划”许可证的用户，该用户也被指定为另一个用户的经理。
 
-  如果用户被授予其访问级别的用户的“编辑”访问权限，则可以管理向其报告的用户。 有关管理用户的信息，请参见 [查看组织图](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  如果用户被授予其访问级别的用户的“编辑”访问权限，则可以管理向其报告的用户。 有关管理用户的信息，请参阅[查看组织结构图](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
-* 具有默认计划许可证的用户创建用户后，可以停用、删除或编辑他们创建的用户。 有关创建新用户的信息，请参阅 [添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* 具有默认计划许可证的用户创建用户后，可以停用、删除或编辑他们创建的用户。 有关创建新用户的信息，请参阅[添加用户](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
 ## 配置用户的访问权限以使用自定义访问级别编辑用户
 
-1. 开始创建或编辑访问级别，如中所述 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. 开始创建或编辑访问级别，如[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 要更改拥有计划或工作许可证的用户查看其他用户配置文件的能力，请执行以下操作：
 
-   1. 单击齿轮图标 ![](assets/gear-icon-settings.png) 在 **视图** 按钮右侧 **用户**.
+   1. 单击&#x200B;**用户**&#x200B;右侧的&#x200B;**查看**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)。
 
-   1. 禁用 **查看联系信息**，然后单击X以关闭 **微调您的设置** 盒子。
+   1. 禁用&#x200B;**查看联系信息**，然后单击X以关闭&#x200B;**微调设置**&#x200B;框。
 
-1. 要修改拥有计划许可证访问权限的用户编辑其他用户的能力，请单击齿轮图标 ![](assets/gear-icon-settings.png) 在 **编辑** 按钮右侧 **用户**，然后选择要授予的功能：
+1. 要修改具有计划许可证访问权限的用户编辑其他用户的能力，请单击&#x200B;**用户**&#x200B;右侧的&#x200B;**编辑**&#x200B;按钮上的齿轮图标![](assets/gear-icon-settings.png)，然后选择要授予的功能：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,16 +75,16 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>创建</strong> </td> 
-      <td> <p>允许用户创建用户。<br>此选项默认处于启用状态。</p> 
-      &lt;!—
+      <td> <p>允许用户创建用户。<br>默认启用此选项。</p> 
+      &lt;！—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">请确保在取消这2个注释的草稿之前进行此更改。 20月29日，请求文件说这取决于调查结果。</p>
 
        &lt;p>&lt;b>注意&lt;/b>：如果您的组织已载入Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。&lt;/p>
-       —>  &lt;/td>
+       —> &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>删除</strong> </td> 
-      <td> <p> 允许用户删除他们自己创建的用户。<br>此选项默认处于启用状态。</p> <p><b>注意</b>：如果您的组织已载入Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p> </td> 
+      <td> <p> 允许用户删除他们自己创建的用户。<br>默认启用此选项。</p> <p><b>注意</b>：如果您的组织已登记到Adobe Admin Console，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>用户管理员（所有用户）</strong> </td> 
@@ -111,9 +111,9 @@ ht-degree: 1%
    >
    >如果您不想向组管理员授予他们管理的组的所有成员的访问权限，请禁用上述两个“用户管理员”选项。 组管理员仍可以访问他们添加到Workfront的组成员或在Workfront中向他们报告的组成员。
 
-1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行中列出的文章之一 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予任务访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完成后，单击 **保存**.
+1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行[配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，如[授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
+1. 完成后，单击&#x200B;**保存**。
 
 ## 按许可证类型访问用户
 
-有关每个访问级别中的用户可以执行的用户操作的信息，请参阅部分 [用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) 在文章中 [可用于每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+有关每个访问级别中的用户可以对用户执行哪些操作的信息，请参阅[适用于每个对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一文中的[用户](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)部分。

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 管理資料夾於 [!DNL Workfront Proof]
-description: 您所有的資料夾都會配置在左側導覽側邊欄的 [!UICONTROL 資料夾] 標籤。 如果使用者來自不同的 [!DNL Workfront Proof] 帳戶會與您共用資料夾（或共用資料夾中的校樣），該資料夾也會列在 [!UICONTROL 資料夾] 標籤。
+title: 管理 [!DNL Workfront Proof]中的文件夹
+description: 您的所有文件夹都分配在[!UICONTROL 文件夹]选项卡的左侧导航侧边栏中。 如果来自其他 [!DNL Workfront Proof] 帐户的用户与您共享文件夹（或共享文件夹中的校样），则该文件夹也会列在[!UICONTROL 文件夹]选项卡上。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -14,118 +14,118 @@ ht-degree: 0%
 
 ---
 
-# 管理資料夾於 [!DNL Workfront Proof]
+# 管理[!DNL Workfront Proof]中的文件夹
 
 >[!IMPORTANT]
 >
->本文章旨在說明獨立版產品中的功能 [!DNL Workfront Proof]. 有關內部校訂的資訊 [!DNL Adobe Workfront]，請參閱 [校訂](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-您所有的資料夾都會配置在左側導覽側邊欄的 [!UICONTROL 資料夾] 標籤。 如果使用者來自不同的 [!DNL Workfront Proof] 帳戶會與您共用資料夾（或共用資料夾中的校樣），該資料夾也會列在 [!UICONTROL 資料夾] 標籤。
+您的所有文件夹都分配在[!UICONTROL 文件夹]选项卡的左侧导航侧边栏中。 如果来自其他[!DNL Workfront Proof]帐户的用户与您共享文件夹（或共享文件夹中的校样），则该文件夹也会列在[!UICONTROL 文件夹]选项卡上。
 
-## 從管理資料夾 [!UICONTROL 帳戶資料夾] 頁面
+## 从[!UICONTROL 帐户文件夹]页面管理文件夹
 
-此 [!UICONTROL 帳戶資料夾] 頁面會顯示您帳戶中的所有資料夾（包括其他使用者與您共用的資料夾） [!DNL Workfront Proof] 帳戶)，並可讓您輕鬆管理這些帳戶。
+[!UICONTROL 帐户文件夹]页面显示您帐户中的所有文件夹（包括其他[!DNL Workfront Proof]帐户中的用户与您共享的文件夹），并允许您轻松管理这些文件夹。
 
-1. 按一下 **[!UICONTROL [您的帳戶名稱] 資料夾]** 左側導覽側邊欄中。\
-   此頁面顯示每個資料夾的下列資訊：
+1. 单击左侧导航侧边栏中的&#x200B;**[!UICONTROL [您的帐户名称]文件夹]**。\
+   此页显示每个文件夹的以下信息：
 
    * 名称
-   * 型別 — 公開或私人
-   * 資料夾中的專案數
-   * 資料夾的擁有者
-   * 使用者端/專案
-   * 建立資料夾的日期
+   * 类型 — 公共或私有
+   * 文件夹中的项目数
+   * 文件夹的所有者
+   * 客户端/项目
+   * 创建文件夹的日期
 
-1. 以下列其中一種方式選取您要管理的資料夾：
+1. 通过下列方式之一选择要管理的文件夹：
 
-   * 選取資料夾旁的核取方塊，以選取資料夾。
-   * 選取清單上方的核取方塊，以選取所有資料夾。
+   * 通过选中文件夹旁边的复选框选择文件夹。
+   * 通过选中列表上方的复选框选择所有文件夹。
 
-      >[!NOTE]
-      >
-      >您只能選取您擁有編輯許可權的資料夾。
+     >[!NOTE]
+     >
+     >您只能选择您具有编辑权限的文件夹。
 
-      資料夾清單上方會顯示一個工具列。
+     文件夹列表上方将显示一个工具栏。
 
-1. 從工具列執行下列任一動作：
+1. 在工具栏中，执行以下任一操作：
 
-   * 將資料夾移至其他資料夾。
-   * 與其他使用者共用資料夾。
-   * 刪除資料夾。
-   * 從 **[!UICONTROL 更多]** 功能表，變更資料夾的擁有者。
+   * 将文件夹移动到其他文件夹。
+   * 与其他用户共享文件夹。
+   * 删除文件夹。
+   * 从&#x200B;**[!UICONTROL 更多]**&#x200B;菜单中，更改文件夹的所有者。
 
-1. 選取單一資料夾的核取方塊，然後按一下 **[!UICONTROL 更多]** （三個點）功能表右側，以檢視下列其他選項（視您的存取層級而定）：
+1. 选中单个文件夹的复选框，然后单击右侧的&#x200B;**[!UICONTROL 更多]**（三个点）菜单以查看以下其他选项（取决于您的访问级别）：
 
-   * **[!UICONTROL 檢視資料夾詳細資訊]**：顯示該資料夾的「資料夾詳細資訊」頁面。
-   * **[!UICONTROL 新校訂]**：顯示新校樣頁面，其中資料夾欄位會自動填入所選資料夾的名稱。
-   * **[!UICONTROL 上傳檔案]**：顯示新檔案頁面，資料夾欄位會自動填入所選資料夾的名稱。
-   * **[!UICONTROL 新增子資料夾]**：可讓您建立巢狀內嵌在選取資料夾中的資料夾。
-   * **[!UICONTROL 共用]**：可讓您新增人員至資料夾。
-   * **[!UICONTROL Excel摘要]**：可讓您下載資料夾中校訂的Excel摘要。
-   * **[!UICONTROL 刪除]**：將資料夾移至垃圾桶。
-
->[!NOTE]
->
->當您刪除父資料夾時，也會刪除資料夾中的所有子資料夾、校樣和檔案。
-
-## 從「資料夾詳細資訊」頁面管理資料夾
-
-1. 按一下 **[!UICONTROL 更多]** （三個點）功能表並點選，然後按一下 **[!UICONTROL 檢視資料夾詳細資訊]**.\
-   您也可以按一下 **[!UICONTROL 我的資料夾]** 在左側邊欄中清單以存取 **[!UICONTROL 資料夾詳細資料]** 頁面。
-
-1. 執行下列任一動作：
-
-   * 行動資料夾，使其位於不同的父資料夾下。\
-
-      按一下「 」，將資料夾移至頂層 **[!UICONTROL 未選取任何資料夾]** （在下拉式功能表中）。
-
-   * 與其他使用者共用資料夾。
-   * 建立新的子資料夾。
-   * 請求資料夾中校訂的Excel摘要。
-   * 刪除資料夾。
-
-## 重新命名資料夾
-
-1. 按一下 **[!UICONTROL 更多]** （三個點）功能表並點選，然後按一下 **[!UICONTROL 檢視資料夾詳細資訊]**.\
-   您也可以按一下 **[!UICONTROL 我的資料夾]** 在左側邊欄中清單以存取 **[!UICONTROL 資料夾詳細資料]** 頁面。
-
-1. 按一下頁面頂端的資料夾名稱。
-1. 編輯名稱，然後按一下方塊外部。\
-   Workfront Proof會自動儲存您的變更。
-
-## 將公用資料夾變更為私人資料夾
-
-1. 按一下 **[!UICONTROL 更多]** （三個點）功能表並點選，然後按一下 **[!UICONTROL 檢視資料夾詳細資訊]**.
-
-1. 按一下資料夾名稱旁的資料夾圖示。
-
-## 刪除資料夾
-
-您可以從下列位置刪除資料夾：
-
-* [從刪除資料夾 [!UICONTROL 帳戶資料夾] 頁面](#deleting-a-folder-from-the-account-folders-page)
-* [從刪除資料夾 [!UICONTROL 資料夾詳細資訊] 頁面](#deleting-a-folder-from-the-folder-details-page)
+   * **[!UICONTROL 查看文件夹详细信息]**：显示该文件夹的“文件夹详细信息”页面。
+   * **[!UICONTROL 新验证]**：显示新验证页面，其中文件夹字段自动填充了所选文件夹的名称。
+   * **[!UICONTROL 上载文件]**：显示新文件页，将使用所选文件夹名称自动填充文件夹字段。
+   * **[!UICONTROL 新建子文件夹]**：允许您创建嵌套在选定文件夹中的文件夹。
+   * **[!UICONTROL 共享]**：允许您向文件夹中添加新人员。
+   * **[!UICONTROL Excel摘要]**：允许您下载文件夹中校样的Excel摘要。
+   * **[!UICONTROL 删除]**：将文件夹移至垃圾桶。
 
 >[!NOTE]
 >
->當您刪除父資料夾時，該資料夾中的所有子資料夾、校樣和檔案都會移至 [還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>删除父文件夹时，该文件夹中的所有子文件夹、验证和文件也会被删除。
 
-### 從刪除資料夾 [!UICONTROL 帳戶資料夾] 頁面 {#deleting-a-folder-from-the-account-folders-page}
+## 从“文件夹详细信息”页面管理文件夹
 
-1. 按一下 **（您的帳戶名稱） [!UICONTROL 資料夾]** 以存取 [!UICONTROL 帳戶資料夾] 頁面。\
-   您也可以按一下 **[!UICONTROL 我的資料夾]** 在左側邊欄中清單以存取 **[!UICONTROL 資料夾詳細資料]** 頁面。
+1. 单击文件夹右侧的&#x200B;**[!UICONTROL 更多]**（三个点）菜单，然后单击&#x200B;**[!UICONTROL 查看文件夹详细信息]**。\
+   您还可以单击左侧边栏中&#x200B;**[!UICONTROL 我的文件夹]**&#x200B;列表中的文件夹名称，以访问&#x200B;**[!UICONTROL 文件夹详细信息]**&#x200B;页面。
 
-1. 選取一或多個資料夾的核取方塊。
-1. 按一下 **[!UICONTROL 刪除]** （垃圾桶）圖示。
+1. 执行以下任一操作：
+
+   * 将文件夹移动到其他父文件夹下。\
+
+     单击下拉菜单中的&#x200B;**[!UICONTROL 未选择文件夹]**，将文件夹移至顶层。
+
+   * 与其他用户共享文件夹。
+   * 创建新的子文件夹。
+   * 请求文件夹中校样的Excel摘要。
+   * 删除文件夹。
+
+## 重命名文件夹
+
+1. 单击文件夹右侧的&#x200B;**[!UICONTROL 更多]**（三个点）菜单，然后单击&#x200B;**[!UICONTROL 查看文件夹详细信息]**。\
+   您还可以单击左侧边栏中&#x200B;**[!UICONTROL 我的文件夹]**&#x200B;列表中的文件夹名称，以访问&#x200B;**[!UICONTROL 文件夹详细信息]**&#x200B;页面。
+
+1. 单击页面顶部的文件夹名称。
+1. 编辑名称，然后单击框外部。\
+   Workfront Proof会自动保存您所做的更改。
+
+## 将公用文件夹更改为专用文件夹
+
+1. 单击文件夹右侧的&#x200B;**[!UICONTROL 更多]**（三个点）菜单，然后单击&#x200B;**[!UICONTROL 查看文件夹详细信息]**。
+
+1. 单击文件夹名称旁边的文件夹图标。
+
+## 删除文件夹
+
+您可以从以下位置删除文件夹：
+
+* [从[!UICONTROL 帐户文件夹]页面中删除文件夹](#deleting-a-folder-from-the-account-folders-page)
+* [从[!UICONTROL 文件夹详细信息]页面中删除文件夹](#deleting-a-folder-from-the-folder-details-page)
+
+>[!NOTE]
+>
+>删除父文件夹时，该文件夹中的所有子文件夹、验证和文件将移至[还原并清空 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)中的垃圾桶。
+
+### 从[!UICONTROL 帐户文件夹]页面中删除文件夹 {#deleting-a-folder-from-the-account-folders-page}
+
+1. 单击左侧导航侧边栏中的&#x200B;**（您的帐户名称） [!UICONTROL 文件夹]**&#x200B;以访问[!UICONTROL 帐户文件夹]页面。\
+   您还可以单击左侧边栏中&#x200B;**[!UICONTROL 我的文件夹]**&#x200B;列表中的文件夹名称，以访问&#x200B;**[!UICONTROL 文件夹详细信息]**&#x200B;页面。
+
+1. 选中一个或多个文件夹的复选框。
+1. 单击&#x200B;**[!UICONTROL 删除]**（垃圾桶）图标。
 
    >[!NOTE]
    >
-   >刪除的專案會保留在垃圾桶資料夾中，直到垃圾桶清空（或資料夾恢復）為止。
+   >删除的项目会保留在垃圾桶文件夹中，直到垃圾桶清空（或文件夹恢复）为止。
 
-### 從資料夾詳細資訊頁面中刪除資料夾 {#deleting-a-folder-from-the-folder-details-page}
+### 从“文件夹详细信息”页面中删除文件夹 {#deleting-a-folder-from-the-folder-details-page}
 
-1. 按一下 **[!UICONTROL 更多]** （三個點）功能表並點選，然後按一下 **[!UICONTROL 檢視資料夾詳細資訊]**.\
-   您也可以按一下 **[!UICONTROL 我的資料夾]** 在左側邊欄中清單以存取 **[!UICONTROL 資料夾詳細資料]** 頁面。
+1. 单击文件夹右侧的&#x200B;**[!UICONTROL 更多]**（三个点）菜单，然后单击&#x200B;**[!UICONTROL 查看文件夹详细信息]**。\
+   您还可以单击左侧边栏中&#x200B;**[!UICONTROL 我的文件夹]**&#x200B;列表中的文件夹名称，以访问&#x200B;**[!UICONTROL 文件夹详细信息]**&#x200B;页面。
 
-1. 按一下 **[!UICONTROL 刪除]** （垃圾桶）圖示加以檢視。
-1. 按一下 **[!UICONTROL 確定]** 以確認刪除。
+1. 单击页面顶部的&#x200B;**[!UICONTROL 删除]**（垃圾桶）图标。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;以确认删除。

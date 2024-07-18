@@ -2,28 +2,28 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront Goals 23.2发布活动周2023年3月20日
-description: 本页介绍了在“预览”环境中对23.2版本的Adobe Workfront目标所做的所有增强。 这些增强功能将于2023年3月20日这一周的生产环境中提供。
+title: Adobe Workfront目标23.2发布活动2023年3月20日开始的一周
+description: 本页介绍了在Adobe Workfront目标的23.2版本中对“预览”环境所做的所有增强。 这些增强功能将在2023年3月20日这一周的“生产”环境中提供。
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 2397339a-7a78-41ee-8882-0606309e356c
 source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Goals 23.2发行活动：2023年3月20日一周
+# Adobe Workfront Goals 23.2发布活动：2023年3月20日起的一周
 
-本页介绍了2023年3月20日在“预览”环境中对Adobe Workfront目标23.2版本所做的所有增强。
+本页介绍了Adobe Workfront目标23.2版本于2023年3月20日发布到“预览”环境的所有增强功能。
 
-这些增强功能将在23.2版本的生产环境中提供，该版本计划于2023年4月3日这一周发布。
+这些增强功能将在23.2版本的生产环境中提供，该版本计划于2023年4月3日这一周发行。
 
-## 改进评论体验的目标
+## 对评论体验的目标改进
 
-从23.1版本开始，我们为Workfront Target引入了新的注释体验。 有关23.1 Workfront目标更新的信息，请参阅 [Adobe Workfront Goals与23.1版本](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+从23.1版本开始，我们为Workfront Goals引入了一种新的评论体验。 有关23.1 Workfront目标更新的信息，请参阅23.1版本的[Adobe Workfront目标](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)。
 
-从23.2版本开始，目标的注释体验将与针对问题发布的新注释体验测试版相匹配。 在2023年的所有版本中，我们将继续在此方面发布更新。
+从23.2版本开始，目标的注释体验将与针对问题发布的新注释体验Beta相匹配。 我们将继续在2023年发布的所有版本中发布此区域的更新。
 
-有关评论体验测试版中提供哪些功能的信息，请参阅 [新的注释体验](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+有关评论Beta中可用功能的信息，请参阅[新增评论体验](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。

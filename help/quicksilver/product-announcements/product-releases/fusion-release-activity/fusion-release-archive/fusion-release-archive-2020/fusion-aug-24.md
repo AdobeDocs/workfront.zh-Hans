@@ -21,9 +21,9 @@ ht-degree: 0%
 
 本页介绍了2020年8月17日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 在Workfront“其他操作”模块中更轻松地转换具有自定义数据的对象
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 现在有一个项目（或任务）标准字段的新列表，您可以填写或映射新对象。 以前，此模块需要高级设置。 如果您以前使用过此模块，则仍可在“Advanced settings（高级设置）”下使用高级配置。
 * 新参数：复制自定义数据。 如果启用，则任何在原始对象上具有值且存在于新对象上的自定义字段都会自动复制到新对象中。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 ## 将文档上传到Workfront上传文档模块中的特定文件夹。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 以前，无法直接上传到文件夹。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 ## Hubspot CRM和模块现已可用
 

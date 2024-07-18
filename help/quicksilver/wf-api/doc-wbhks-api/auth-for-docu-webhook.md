@@ -30,7 +30,7 @@ OAuth2允许Workfront代表用户向webhook提供程序发出授权的API调用�
 1. 用户开始将webhook集成连接到其帐户。 目前，可通过单击“添加文档”下拉列表>“添加服务”>自定义集成名称来完成此操作。
 1. Workfront会为用户导航身份验证URL，这可能会提示用户登录到外部文档提供商。 此页面由webhook提供程序或外部文档管理系统托管。 在执行此操作时，Workfront会向身份验证URL添加“state”参数。 必须在以下步骤中，通过将相同的值附加到Workfront返回URI，将此值传递回Workfront。
 1. 登录到外部系统后（或者如果用户已登录），用户将被带到“身份验证”页面，该页面解释Workfront正在请求访问权限以代表用户执行一组操作。
-1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并添加“code=`<code>`”到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有以下“state=`<sent_by_workfront>`“。
+1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并将“code=`<code>`”添加到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有以下“state=`<sent_by_workfront>`”。
 1. Workfront处理此请求，并使用授权代码对令牌端点URL进行API调用。
 1. 令牌端点URL返回刷新令牌和访问令牌。
 1. Workfront存储这些令牌并完全为此用户预配webhook集成。

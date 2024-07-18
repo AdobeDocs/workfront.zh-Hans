@@ -30,7 +30,7 @@ ht-degree: 0%
 
 目标也可以与父目标一致，成为子目标。 子目标也是父目标的进度指示器。
 
-您可以通过删除目标之间的连接来删除目标之间的对齐方式。 有关信息，请参阅 [在Adobe Workfront目标中移除目标对齐方式](../goal-alignment/remove-goal-alignment.md).
+您可以通过删除目标之间的连接来删除目标之间的对齐方式。 有关信息，请参阅[在Adobe Workfront目标中移除目标对齐方式](../goal-alignment/remove-goal-alignment.md)。
 
 ## 访问要求
 
@@ -59,7 +59,7 @@ ht-degree: 0%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -69,7 +69,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -81,7 +81,7 @@ ht-degree: 0%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 * 从目标中删除结果或活动时，删除的结果或活动的进度会影响目标的整体进度。
 * 您无法从目标中删除项目，但可以断开其与目标的连接。 通过将项目与目标断开连接，项目的完成百分比不再影响目标的进度。
 
-  有关项目如何影响目标进度的信息，请参阅 [将项目添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  有关项目如何影响目标进度的信息，请参阅[在Adobe Workfront目标中添加项目](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 
 * 您不能从目标中删除结果或活动，也不能断开子目标或项目的连接（如果它们是该目标的最后一个进度指示器）。
 * 如果从项目区域删除了某个项目，并且该项目是目标的最后一个进度指示器，则该目标将变为非活动。
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **目标**.
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    这将打开目标页面。
 
-1. 单击 **进度指示器** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**进度指示器**。
 
-1. 选择一个结果或活动，然后单击 **删除** 图标 ![](assets/delete-icon.png) 位于列表顶部。
+1. 选择结果或活动，然后单击列表顶部的&#x200B;**删除**&#x200B;图标![](assets/delete-icon.png)。
 
-1. 单击 **删除** 以确认删除。 结果或活动被删除，无法恢复。 目标的完成百分比将更新，以排除已删除的活动或结果。
+1. 单击&#x200B;**删除**&#x200B;以确认删除。 结果或活动被删除，无法恢复。 目标的完成百分比将更新，以排除已删除的活动或结果。
 
 
 ## 从目标中删除项目
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 单击 **主菜单** 图标，然后单击 **目标**.
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. 单击要从其中移除结果和活动的目标的名称。
 
    这将打开目标页面。
-1. 单击 **进度指示器** 在左侧面板中。
-1. 选择一个项目，然后单击 **断开连接** 图标 ![](assets/disconnect-icon.png) 位于列表顶部。
-1. 单击 **断开连接** 以确认。
+1. 单击左侧面板中的&#x200B;**进度指示器**。
+1. 选择一个项目，然后单击列表顶部的&#x200B;**断开连接**&#x200B;图标![](assets/disconnect-icon.png)。
+1. 单击&#x200B;**断开连接**&#x200B;以确认。
 
    项目不再连接到目标。 目标更新的完成百分比，用于排除断开连接的项目。
 

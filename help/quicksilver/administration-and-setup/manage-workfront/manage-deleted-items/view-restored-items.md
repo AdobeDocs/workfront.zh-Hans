@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 查看还原的项目
-description: 作为Adobe Workfront管理员或具有计划许可证的用户，您可以查看哪些项目、任务、问题和文档在过去7天内已恢复。
+title: 查看已还原的项目
+description: 作为Adobe Workfront管理员或具有Plan许可证的用户，您可以查看在过去7天内已恢复的项目、任务、问题和文档。
 feature: System Setup and Administration
 role: Admin
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
-# 查看还原的项目
+# 查看已还原的项目
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-作为Adobe Workfront管理员或具有计划许可证的用户，您可以查看哪些项目、任务、问题和文档在过去7天内已恢复。
+作为Adobe Workfront管理员或具有Plan许可证的用户，您可以查看在过去7天内已恢复的项目、任务、问题和文档。
 
-有关在删除项目、任务、问题或文档后如何恢复该项目、文档的信息，请参阅 [恢复已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+有关在删除项目、任务、问题或文档后如何恢复项目的信息，请参阅[恢复已删除的项](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ## 访问要求
 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -43,18 +43,18 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划或许可证类型，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划或许可证类型，请与Workfront管理员联系。
 
 ## 查看最近删除的项目
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 展开 **回收站**，然后单击 **最近已恢复**.
+1. 展开&#x200B;**回收站**，然后单击&#x200B;**最近还原的**。
 
-   默认情况下，项目按还原日期排序。
+   默认情况下，项目按恢复日期排序。
 
-1. 单击 **项目**, **任务**, **问题**&#x200B;或 **文档** 选项卡，具体取决于已还原的项目类型。
+1. 根据还原的项类型，单击&#x200B;**项目**、**任务**、**问题**&#x200B;或&#x200B;**文档**&#x200B;选项卡。
 
 1. 单击要查看的项目的链接名称。
 
-   将显示项目、任务、问题或文档。
+   显示项目、任务、问题或文档。

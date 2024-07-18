@@ -48,7 +48,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 在Workfront中启用或禁用AI助手
 
@@ -56,10 +56,10 @@ ht-degree: 1%
 
 要禁用给定访问级别的AI助手，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **[!UICONTROL 设置]** ![“设置”图标](/help/_includes/assets/gear-icon-setup.png).
-1. 选择 **访问级别** 在左侧导航中。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左侧导航中选择&#x200B;**访问级别**。
 1. 选择要禁用AI助理的访问级别。
-1. 在“编辑访问级别”窗口中，向下滚动到窗口底部，然后单击 **设置其他限制……**.
-1. 在设置其他限制区域，启用选项 **禁用Workfront AI助手**.
+1. 在“编辑访问级别”窗口中，向下滚动到窗口底部，然后单击&#x200B;**设置其他限制……**。
+1. 在设置其他限制区域，启用选项&#x200B;**禁用Workfront AI助手**。
 1. 单击&#x200B;**保存**。
 1. 对要禁用AI助理的每个访问级别重复步骤3-6。

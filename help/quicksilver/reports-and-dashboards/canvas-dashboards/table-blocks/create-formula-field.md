@@ -17,12 +17,12 @@ ht-degree: 7%
 
 ## 先决条件
 
-在开始之前，您必须注册报告画布测试版。 有关更多信息，请参阅 [报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+在开始之前，您必须注册报告画布测试版。 有关详细信息，请参阅[报告画布测试版：概述](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)。
 
 ## 创建公式字段
 
-1. 创建或导航到表块，如中所述 [在报告画布中添加或编辑表块](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. 在报表的表标题上，单击 **编辑** 图标 ![](assets/edit-icon.png).
+1. 创建或导航到表块，如[在报表画布](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)中添加或编辑表块中所述。
+1. 在报表的表标题上，单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ ht-degree: 7%
    >
    >如果您刚刚创建了表并且尚未添加任何字段，请改为单击表中心的“编辑”按钮。
 
-1. 单击 **新建+** 在顶部 **字段** 在右侧面板上列出。
-1. 在打开的新页面中，单击 **编辑** 图标 ![](assets/edit-icon.png) 左上角的字段名称旁边，可更改公式字段的名称。
-1. 拖动 **函数** 或 **字段** 从左侧面板到中间的字段生成器，以将其添加到您的公式字段中。
+1. 单击右侧面板上&#x200B;**字段**&#x200B;列表顶部的&#x200B;**新建+**。
+1. 在打开的新页面中，单击左上角的字段名称旁边的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以更改公式字段的名称。
+1. 从左侧面板将&#x200B;**函数**&#x200B;或&#x200B;**字段**&#x200B;拖动到中间的字段生成器，以将其添加到公式字段中。
 
 
    >[!TIP]
    >
-   >在构建公式字段时， **字段预览** 在右侧显示结果字段的示例。
+   >构建公式字段时，右侧的&#x200B;**字段预览**&#x200B;显示结果字段的示例。
 
    每个函数都包含许多空的点状矩形，这些点状矩形将在计算结果中用作参数。 可通过输入静态文本或数字、从左侧面板拖放字段（在计算中使用字段的值）或拖放另一个函数（创建嵌套函数）来填充这些字段。 可能的功能包括：
 
@@ -67,4 +67,4 @@ ht-degree: 7%
 
    {style="table-layout:auto"}
 
-1. 单击 **返回** 屏幕左上角的箭头，可返回到您的表格。
+1. 单击屏幕左上角的&#x200B;**返回**&#x200B;箭头以返回您的表格。

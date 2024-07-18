@@ -19,6 +19,6 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [报告入门](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [将默认报表另存为新报表](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+* [开始使用报告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [将默认报告另存为新报告](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

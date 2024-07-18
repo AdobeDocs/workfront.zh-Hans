@@ -23,7 +23,7 @@ ht-degree: 1%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront会根据其进度指示器的进度，自动计算目标进度。
 
@@ -68,15 +68,15 @@ Workfront目标根据目标进度指标的完成百分比平均数，自动计�
 
 * 结果
 
-  有关将结果添加到目标的信息，请参阅 [将结果添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  有关将结果添加到目标的信息，请参阅[在Adobe Workfront目标中添加结果](../../workfront-goals/results-and-activities/add-results-to-goals.md)。
 
 * 活动
 
-  有关将活动（包括项目到目标）的信息，请参阅 [将活动添加到Adobe Workfront目标中的目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  有关将活动（包括项目到目标）添加的信息，请参阅[在Adobe Workfront目标中将活动添加到目标](../../workfront-goals/results-and-activities/add-activities-to-goals.md)。
 
 * 调整后的子目标
 
-  有关父目标和子目标的信息，请参阅 [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  有关父目标和子目标的信息，请参阅[在Adobe Workfront目标中通过连接来对齐目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)。
 
   Workfront目标使用以下公式计算实际完成百分比：
 
@@ -137,20 +137,20 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
   </tr> 
   <tr> 
    <td>新建</td> 
-   <td> <p>目标是新创建的，尚未记录进度。 目标进度显示为新，直到有人首次更新其进度为止。 </p> <p>有关更新目标进度的信息，请参阅 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">在Adobe Workfront目标中更新目标进度</a>.</p> </td> 
+   <td> <p>目标是新创建的，尚未记录进度。 目标进度显示为新，直到有人首次更新其进度为止。 </p> <p>有关更新目标进度的信息，请参阅<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Adobe Workfront目标中的更新目标进度</a>。</p> </td> 
    <td>无百分比</td> 
    <td>无条形图</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>准时</span> </p> </td> 
+   <td> <p><span>位于目标</span> </p> </td> 
    <td>目标正在按预期执行，很有可能按时完成。 </td> 
    <td>90-100%</td> 
    <td>绿色</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>处于风险</span> </p> </td> 
+   <td> <p><span>处于风险中</span> </p> </td> 
    <td>目标有所滞后，但仍有可能按时完成。 </td> 
    <td>70-89.99%</td> 
    <td>黄色</td>

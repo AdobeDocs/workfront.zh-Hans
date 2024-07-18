@@ -33,11 +33,11 @@ this article has mostly information that is repeated from the articles linked fr
  <tbody> 
   <tr> 
    <td role="rowheader">承诺日期</td> 
-   <td> <p>提交日期是分配给任务或问题的人员手动估计其将完成任务或问题的日期。</p> <p>有关提交日期的信息，请参见 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>.</p> </td> 
+   <td> <p>提交日期是分配给任务或问题的人员手动估计其将完成任务或问题的日期。</p> <p>有关提交日期的信息，请参阅<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">提交日期概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">规划完成日期</td> 
-   <td> <p>计划完成日期显示项目所有者预计任务或问题何时完成。 它可以由项目所有者或拥有任务或问题的管理权限的任何人手动设置，也可以由Adobe Workfront自动计算。</p> <p>有关计划完成日期的详细信息，请参阅 <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">任务计划完成日期概览</a></p> </td> 
+   <td> <p>计划完成日期显示项目所有者预计任务或问题何时完成。 它可以由项目所有者或拥有任务或问题的管理权限的任何人手动设置，也可以由Adobe Workfront自动计算。</p> <p>有关计划完成日期的详细信息，请参阅<a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">任务计划完成日期概览</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

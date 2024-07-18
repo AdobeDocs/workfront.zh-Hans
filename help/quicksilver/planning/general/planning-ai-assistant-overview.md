@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >如果您属于此阶段，您的客户代表将会通知您。
 >
->有关更多信息，请参阅 [Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md).
+>有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 您可以使用AI Assistant根据当前页面上下文和记录结构生成、更新或删除记录。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 默认情况下，Workfront管理员可以使用AI助手。
 
-* Workfront管理员必须为所有其他用户启用AI助手。 有关更多信息，请参阅 [启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Workfront管理员必须为所有其他用户启用AI助手。 有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
 * AI助手在每个页面的上下文中工作。 您为AI助手提交的请求必须引用您打开的页面中可用的功能。
 
@@ -72,15 +72,15 @@ ht-degree: 0%
 
 ## 访问AI助手
 
-1. 登录到Workfront，然后转到 **规划** 区域。
+1. 登录到Workfront，然后转到&#x200B;**计划**&#x200B;区域。
 
-1. 单击 **工作区信息卡**.
+1. 单击&#x200B;**工作区信息卡**。
 
-1. （可选）单击 **记录类型卡片**.
+1. （可选）单击&#x200B;**记录类型卡片**。
 
-1. （可选）单击 **记录** 打开记录的 **详细信息** 页面。
+1. （可选）单击&#x200B;**记录**&#x200B;以打开记录的&#x200B;**详细信息**&#x200B;页面。
 
-1. 单击 **AI助手图标** 位于屏幕右上角的全局导航栏中。
+1. 单击全局导航栏中屏幕右上角的&#x200B;**AI助手图标**。
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

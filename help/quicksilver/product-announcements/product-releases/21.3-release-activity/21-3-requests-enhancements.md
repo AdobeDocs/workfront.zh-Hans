@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.3版本对“预览”环境所做的所有请求增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 按最近的路径或使用关键字搜索查找请求
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 路径包括请求队列以及提交请求之前选择的所有主题组和队列主题。
 
-有关更多信息，请参阅 [创建和提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+有关详细信息，请参阅[创建并提交Adobe Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 

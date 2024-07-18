@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # 关于默认Adobe Workfront布局
 
-默认布局是主菜单的排列 ![](assets/main-menu-icon.png)，以及Adobe Workfront管理员使用布局模板进行任何更改之前的视图、分组和筛选器。
+默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单![](assets/main-menu-icon.png)、左侧面板以及视图、分组和筛选器的排列。
 
-有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅 [将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
 >[!NOTE]
 >
->用户可以通过编辑用户配置文件首选项来更改自己的布局。 欲了解更多信息，请参见 [偏好设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 中的部分 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>用户可以通过编辑用户配置文件首选项来更改自己的布局。 有关详细信息，请参阅[配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)中的[首选项](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)部分。
 
 ## 每个访问级别的默认布局
 
@@ -102,7 +102,7 @@ ht-degree: 6%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>人员</strong> (重命名为 <strong>团队</strong> （适用于拥有工作许可证的用户）</td> 
+   <td rowspan="5"><strong>人员</strong> （对于拥有工作许可证的用户，已重命名为<strong>团队</strong>）</td> 
    <td><strong>团队</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -131,7 +131,7 @@ ht-degree: 6%
    </tr>
   --> 
   <tr> 
-   <td><strong>规划</strong> </td> 
+   <td><strong>计划</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ ht-degree: 6%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>正在计划</strong> </td> 
+   <td><strong>计划</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -150,7 +150,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td rowspan="3"><strong>请求</strong> </td> 
-   <td><strong>新建请求</strong> </td> 
+   <td><strong>新请求</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,7 +159,7 @@ ht-degree: 6%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>我已提交的请求</strong> </td> 
+   <td>我已提交的<strong>个请求</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -177,8 +177,8 @@ ht-degree: 6%
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>工时表</strong> </td> 
-   <td><strong>我的工时表</strong> </td> 
+   <td rowspan="3"><strong>时间表</strong> </td> 
+   <td><strong>我的时间表</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 

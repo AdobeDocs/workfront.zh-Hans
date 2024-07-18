@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,12 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 打开要添加小版本的工作流。 要打开工作流，请单击 [!UICONTROL **查看工作流**].
+1. 打开要添加小版本的工作流。 要打开工作流，请单击&#x200B;[!UICONTROL **查看工作流**]。
 1. 使用以下方法之一创建迭代：
 
-   * 在“信息卡列表”选项卡的迭代视图中，单击 [!UICONTROL **创建迭代**].
-   * 在卡片列表选项卡的列表视图中，单击 [!UICONTROL **创建迭代**].
-   * 在展示板选项卡上，单击 [!UICONTROL **添加展示板**] 并选择 [!UICONTROL **迭代过程**] 作为展示板模板。 然后，打开迭代板并单击 [!UICONTROL **配置迭代**].
+   * 在“卡片列表”选项卡的迭代视图中，单击&#x200B;[!UICONTROL **创建迭代**]。
+   * 在“卡片列表”选项卡的列表视图中，单击&#x200B;[!UICONTROL **创建迭代**]。
+   * 在“展示板”选项卡上，单击&#x200B;[!UICONTROL **添加展示板**]&#x200B;并选择&#x200B;[!UICONTROL **迭代进程**]&#x200B;作为展示板模板。 然后，打开迭代展示板并单击&#x200B;[!UICONTROL **配置迭代**]。
 
 1. 在“小版本详细信息”对话框中，添加以下信息：
 
@@ -77,18 +77,18 @@ ht-degree: 0%
 
    迭代现在显示在卡片列表的迭代视图中，并显示在迭代展示板的量度区域中。
 
-   要将信息卡添加到迭代，请参阅 [使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   要将信息卡添加到迭代，请参阅[使用信息卡列表](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)。
 
 ## 编辑现有迭代
 
-1. 要打开工作流，请单击 [!UICONTROL **查看工作流**].
+1. 要打开工作流，请单击&#x200B;[!UICONTROL **查看工作流**]。
 1. 使用以下方法之一打开迭代：
 
-   * 在“信息卡列表”选项卡的迭代视图中，单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png).
-   * 在迭代板上，单击 [!UICONTROL **迭代详细信息**] 图标 ![迭代详细信息](assets/iteration-details-button.png) 在右上角的量度区域中。
+   * 在“信息卡列表”选项卡的迭代视图中，单击&#x200B;[!UICONTROL **迭代详细信息**]&#x200B;图标![迭代详细信息](assets/iteration-details-button.png)。
+   * 在迭代展示板上，单击右上角量度区域中的&#x200B;[!UICONTROL **迭代详细信息**]&#x200B;图标![迭代详细信息](assets/iteration-details-button.png)。
 
-1. 在 [!UICONTROL 迭代配置] 面板，根据需要编辑迭代。
-1. 要更改迭代名称，请展开 [!UICONTROL **迭代详细信息**].
+1. 在[!UICONTROL 迭代配置]面板中，根据需要编辑迭代。
+1. 要更改迭代名称，请展开&#x200B;[!UICONTROL **迭代详细信息**]。
 
    一旦迭代开始，您只能更改迭代名称，而不能更改日期或迭代长度。
 
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## 删除迭代
 
-1. 单击 [!UICONTROL **信息卡列表**] 选项卡，并打开开发周期视图。
-1. 单击 **删除** 图标 ![“删除”图标](assets/delete.png) 在迭代旁边。
-1. 单击 [!UICONTROL **删除迭代**] 确认消息上。
+1. 单击工作流上的&#x200B;[!UICONTROL **卡片列表**]&#x200B;选项卡并打开迭代视图。
+1. 单击迭代旁边的&#x200B;**删除**&#x200B;图标![删除图标](assets/delete.png)。
+1. 单击确认消息上的&#x200B;[!UICONTROL **删除迭代**]。

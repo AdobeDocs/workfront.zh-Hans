@@ -21,6 +21,6 @@ ht-degree: 0%
 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 本节包含以下文章：
 
-* [在中更改配置文件设置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [删除中的用户数据 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-* [[!DNL Adobe Workfront Fusion] 常见问题解答](../../workfront-fusion/workfront-fusion-basics/faq.md)
+* [更改 [!DNL Adobe Workfront Fusion]中的配置文件设置](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [删除 [!DNL Adobe Workfront Fusion]中的用户数据](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [[!DNL Adobe Workfront Fusion]常见问题解答](../../workfront-fusion/workfront-fusion-basics/faq.md)

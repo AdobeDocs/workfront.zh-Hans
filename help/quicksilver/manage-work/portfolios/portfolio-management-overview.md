@@ -22,4 +22,4 @@ ht-degree: 14%
 * [项目组合](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
 * [创建和管理项目组合](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
 * [创建和管理程序](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-* [在中管理项目 [!UICONTROL Portfolio优化器]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+* [在[!UICONTROL Portfolio优化器]中管理项目](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

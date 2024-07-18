@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [在中打开验证 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [在 [!DNL Workfront Proof]中打开验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [在验证查看器中查看工作流](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [与多个审阅人同时审阅验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [在验证查看器中查看有关验证的活动](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ ht-degree: 0%
 * [在验证查看器中比较验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [在Web验证查看器中查看以前的验证版本](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [在验证查看器中下载验证](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [中的键盘快捷键 [!DNL Workfront Proof] 校对查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [ [!DNL Workfront Proof] 验证查看器中的键盘快捷键](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [已删除旧版验证查看器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

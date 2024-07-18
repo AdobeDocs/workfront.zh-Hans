@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本文包含有关新评论体验的最常见问题列表。
 
-有关新评论体验的更多信息，请参阅 [新的评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+有关新评论体验的更多信息，请参阅[新评论体验](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
 ## 除了图像之外，我是否还可以在注释中附加不同的文件类型？
 

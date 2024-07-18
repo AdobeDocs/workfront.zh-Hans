@@ -31,9 +31,9 @@ hide: yes
 
 当记录类型不再相关时，您可以将其删除。
 
-但是，删除记录类型也会删除与记录类型关联的所有信息。 欲了解更多信息，请参见 [删除记录类型时的注意事项](#considerations-when-deleting-record-types) 部分。
+但是，删除记录类型也会删除与记录类型关联的所有信息。 有关详细信息，请参阅本文中的[删除记录类型时的注意事项](#considerations-when-deleting-record-types)部分。
 
-有关记录类型的信息，请参阅 [记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+有关记录类型的信息，请参阅[记录类型概述](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ hide: yes
    此时会打开工作区，并显示记录类型。
 1. 执行下列操作之一：
 
-   * 将鼠标悬停在记录类型卡片上，单击“More（更多）”菜单，然后单击 **删除**.
-   * 单击要删除的记录类型的卡片，然后在记录类型页面中，单击 **更多** 菜单 ![](assets/more-menu.png) 记录类型名称的右侧，然后单击 **删除**.
+   * 将鼠标悬停在记录类型卡片上，单击“更多”菜单，然后单击&#x200B;**删除**。
+   * 单击要删除的记录类型的卡片，然后在记录类型页面中，单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**删除**。
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. 类型 **删除** 在确认框中，然后单击 **永久删除**. 不区分大小写。
+1. 在确认框中键入&#x200B;**删除**，然后单击&#x200B;**永久删除**。 不区分大小写。
 
    所选的记录类型及其字段、关联的记录和视图将被删除。

@@ -73,14 +73,14 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您必须将Planning区域添加到布局模板中。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您必须将Planning区域添加到布局模板中。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -97,25 +97,25 @@ ht-degree: 1%
 
 * 您可以为组织内的特定组织单位创建工作区，以匹配每个单位独特的工作方式。
 * 工作区包含的记录类型应反映组织单位的工作生命周期。
-* 在创建工作区时，只有您才有权访问和管理工作区。 您必须与其他用户共享，他们才能在同一空间与您协作。 有关信息，请参阅 [共享工作区](/help/quicksilver/planning/access/share-workspaces.md). 系统管理员可以管理所有工作区，甚至可以管理他们未创建的工作区。
+* 在创建工作区时，只有您才有权访问和管理工作区。 您必须与其他用户共享，他们才能在同一空间与您协作。 有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。 系统管理员可以管理所有工作区，甚至可以管理他们未创建的工作区。
 * 您可以执行以下操作：
 
    * 一个工作区中最多可包含50个部分。
-   * 一个工作区中的所有节中总计可达1,000个记录类型。 所有记录类型对于每个工作区都是唯一的。 <!--this might change-->
+   * 一个工作区中的所有节中总计可达1,000个记录类型。 所有记录类型对于每个工作区都是唯一的。<!--this might change-->
    * 组织的Workfront实例中最多1,000个工作区。
 
 
 ## 创建 Workspace
 
-您可以创建一个工作区并向其中添加记录类型，以便在Workfront Planning中组织对象。 有关编辑工作区的详细信息，请参阅 [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md).
+您可以创建一个工作区并向其中添加记录类型，以便在Workfront Planning中组织对象。 有关编辑工作区的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 
 {{step1-to-planning}}
 
-1. 单击 **创建工作区**
+1. 单击&#x200B;**创建工作区**
 
    此时会显示“创建工作区”框。 您可以从头开始创建工作区，也可以使用某个可用模板创建工作区。
 
-1. （可选且视情况而定）单击 **预览** 在以下任何预定义workspace模板中：
+1. （可选且有条件）单击以下任何预定义Workspace模板中的&#x200B;**预览**：
 
    * 基本：营销管理
    * 高级：营销管理
@@ -129,37 +129,37 @@ ht-degree: 1%
 
    ![](assets/previewing-a-workspace-template.png)
 
-   有关Workfront Planning工作区模板的信息，请参阅 [工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md).
+   有关Workfront Planning工作区模板的信息，请参阅[工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
-1. 在模板预览框中，单击 **使用模板** 以开始从所选模板创建工作区
+1. 在模板预览框中，单击&#x200B;**使用模板**&#x200B;以开始从所选模板创建工作区
 
    或
 
-   单击 **返回**，然后单击 **新工作区** 从头开始创建工作区。
+   单击&#x200B;**上一步**，然后单击&#x200B;**新建工作区**&#x200B;从头开始创建工作区。
 
    将创建以下工作区类型之一：
 
-   * 名为的空工作区 **无标题工作区** 从头开始创建工作区时，您可以开始手动添加记录类型。
+   * 一个名为&#x200B;**无标题Workspace**&#x200B;的空工作区，您可以在其中开始手动添加记录类型，以便从头开始创建工作区。
    * 以您选择的模板命名的工作区，该模板填充了示例记录类型。 您可以进一步自定义记录类型和工作区。
 
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键。
 
-1. （可选且视情况而定）如果您是从模板创建工作区的，请在模板名称内单击 **操作记录类型** 或 **分类** 部分
+1. （可选且有条件）如果是从模板创建工作区，请单击&#x200B;**操作记录类型**&#x200B;或&#x200B;**分类**&#x200B;部分的名称
 
    或
 
-   将鼠标悬停在部分的名称上，然后单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **重命名** 重命名节。
+   将鼠标悬停在节名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**重命名**&#x200B;以重命名节。
 
    >[!TIP]
    >
    >您可以从任何工作区重命名任何分区，即使您未创建该分区也是如此。
 
-   有关编辑工作区（包括编辑工作区部分）的详细信息，请参阅 [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   有关编辑工作区（包括编辑工作区节）的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 
-1. （可选）单击 **添加记录类型** 将记录类型添加到任意部分中的工作区。
+1. （可选）单击&#x200B;**添加记录类型**&#x200B;以将记录类型添加到任意节中的工作区。
 
-   有关信息，请参阅 [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md).
+   有关信息，请参阅[创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-   有关在工作区中编辑和删除记录类型的更多信息，请参阅 [编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   有关在工作区中编辑和删除记录类型的详细信息，请参阅[编辑工作区](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 
 

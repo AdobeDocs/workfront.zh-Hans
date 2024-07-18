@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日这一周。
 
-有关22.1版本可用的所有更改列表，请参阅 [22.1发行版概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+有关22.1版本的所有可用更改列表，请参阅[22.1版本概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 改进了没有权限创建请求的用户的界面
 
@@ -33,7 +33,7 @@ in January 2022
 
 在此增强功能之前，新请求按钮不显示在这些用户的请求区域中。 此外，复制请求并将其提交为新请求也受到限制。
 
-有关创建请求的更多信息，请参阅 [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+有关创建请求的更多信息，请参阅[创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 ## 复制并提交请求
 
@@ -45,7 +45,7 @@ in January 2022
 >
 >在发布此功能之前，您无法复制和重新提交提交提交到没有队列主题的请求队列的问题。
 
-有关更多信息，请参阅 [复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+有关详细信息，请参阅[复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
 ## 更新了请求区域已提交部分中的摘要面板体验
 
@@ -55,6 +55,6 @@ in January 2022
 
 为了改进可见性和与“摘要”面板的交互，我们在请求区域的已提交部分的打开摘要图标中添加了一个标签。 标签现在为动态标签，它会根据面板是打开还是关闭而更新。
 
-现在，当打开“摘要”面板而未首先选择请求时，会显示一个更加用户友好的图像，以明确指示用户在打开面板之前选择项目。 有关更多信息，请参阅 [查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+现在，当打开“摘要”面板而未首先选择请求时，会显示一个更加用户友好的图像，以明确指示用户在打开面板之前选择项目。 有关详细信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此外，根据这项变化，更新了任务、问题和文档的摘要面板。 有关“摘要”面板的信息，请参阅 [摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+此外，根据这项变化，更新了任务、问题和文档的摘要面板。 有关摘要面板的信息，请参阅[摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。

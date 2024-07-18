@@ -24,7 +24,7 @@ ht-degree: 0%
 
 项目发起人是项目的重要利益相关者，拥有项目资源投资。 项目的完成通常有益于项目发起人。
 
-有关如何更新项目的项目所有者或发起人的信息，请参阅 [更新项目所有者和发起人](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+有关如何更新项目的项目所有者或发起人的信息，请参阅[更新项目所有者和发起人](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)。
 
 ## 项目所有者
 
@@ -36,17 +36,17 @@ ht-degree: 0%
 
 * 您只能指定一个用户作为项目所有者。
 * 您可以指定项目所有者作为项目的小时批准者。
-* 在定义项目、任务或问题审批流程时，您可以将项目责任人指定为通用审批人。 有关审批的信息，请参阅 [编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 在定义项目、任务或问题审批流程时，您可以将项目责任人指定为通用审批人。 有关审批的信息，请参阅[编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)。
 
   >[!IMPORTANT]
   >
-  >当您将审批分配给项目责任人，并且没有指定任何人为项目责任人时，审批将重新分配给主要Workfront管理员，如设置区域的客户信息部分所述。 有关信息，请参阅 [配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >当您将审批分配给项目责任人，并且没有指定任何人为项目责任人时，审批将重新分配给主要Workfront管理员，如设置区域的客户信息部分所述。 有关信息，请参阅[配置系统的基本信息](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
   >
 
 
 * 您可以启用仅交付给项目所有者的某些通知。
 
-  有关电子邮件通知的更多信息，请参阅部分 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 在文章中 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  有关电子邮件通知的更多信息，请参阅[为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)一文中的[为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)部分。
 
 * 您可以在报告或列表中显示“项目所有者”字段。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   ownerID=$$USER.ID
   ```
 
-有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,10 +80,10 @@ ht-degree: 0%
 
 在分配项目发起人时，请考虑以下事项：
 
-* 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。 有关通知的信息，请参阅文章 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* 项目发起人不再获得对项目的任何其他访问权限，而是添加到项目的电子邮件通知中。 有关通知的信息，请参阅文章[为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 * 您只能指定一个项目发起人。
-* 在定义项目、任务或问题批准流程时，您可以将项目发起人指定为通用批准者。 有关审批的信息，请参阅 [编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* 在定义项目、任务或问题批准流程时，您可以将项目发起人指定为通用批准者。 有关审批的信息，请参阅[编辑审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)。
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ ht-degree: 0%
 
    
 
-  有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 本页介绍在23.2版本发布时间范围内对Adobe Workfront应用程序各个区域的外观所做的细微更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。
 
-有关23.2版本可用的所有更改列表，请参阅 [23.2发行版概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+有关23.2版本的所有可用更改列表，请参阅[23.2版本概述](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
 ## 更新请求区域中草稿列表的外观
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 * 当列表不包含任何请求时，从草稿列表中删除图像
 * 向列表添加了分页和列排序功能。
 
-有关更多信息，请参阅 [从草稿创建请求](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+有关详细信息，请参阅[从草稿创建请求](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)。
 
 ## Workfront的其他区域中提供了智能用户选择
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 现在，将用户添加到上面列出的区域时，除了用户的名称和头像外，也会显示其主要角色和电子邮件。 这有助于区分具有相似或相同名称的多个用户。
 
-有关更多信息并观看类似功能的视频演示，请参阅中的“编辑和详细信息区域中项目角色的智能用户选择” [22.4项目增强功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+有关详细信息，并观看类似功能的视频演示，请参阅[22.4项目增强功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)中的“编辑和详细信息区域中项目角色的智能用户选择”。
 
 ## 在文档详情中更新了文档版本图标
 
@@ -73,4 +73,4 @@ ht-degree: 2%
 * Workfront会在选择模板后检查您是否立即有权访问目标模板。 在此增强功能之前，在您确认复制或移动后，会显示一则警告消息，指出您没有正确的访问权限，这会导致额外的步骤，并且不允许执行该操作。
 * 能够在不离开“复制或移动模板任务”框的情况下请求对要复制或移动模板任务的模板的访问权限。
 
-有关更多信息，请参阅 [复制和移动模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
+有关详细信息，请参阅[复制和移动模板任务](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)。

@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则此操作不可用。
 >
->有关因您的组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员，有时您可能需要代表其他用户访问Workfront。
 
@@ -50,7 +50,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >由于文档集成可能会连接到个人专用文件，因此管理员在以其他用户身份登录时无法访问文档集成。
 >
->有关文档集成的详细信息，请参阅 [配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>有关文档集成的详细信息，请参阅[配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
 ## 访问要求
 
@@ -71,14 +71,14 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。 有关此访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理权限</a>. </p> <p>使用Planner访问级别，您可以作为较低许可证级别的用户登录，如果 <b>用户</b> 访问级别中的设置配置为 <b>编辑</b> 访问，使用 <b>创建</b> 而且至少两者 <b>用户管理员</b> 下启用的选项 <b>微调您的设置</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>注意</b>：如果用户，则为这两个选项中的一个 <b>管理员（组用户）</b> 启用，您必须是用户所属的组的组管理员。</p> 
-   <p>欲知关于 <b>用户</b> 在访问级别中设置，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>.</p> </td> 
+   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。 有关此级别访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> <p>如果访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，并且<b>创建</b>和在<b>微调设置</b><img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项中的一个，那么借助Planner访问级别，您可以以许可证级别较低的用户身份登录。 </p> 
+   <p><b>注意</b>：在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p> 
+   <p>有关访问级别中<b>用户</b>设置的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 以其他用户身份登录并执行操作
 
@@ -90,15 +90,15 @@ Some users, such as executives, need to be able to control which administrators 
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  默认情况下禁用此设置。 有关更多信息，请参阅 [创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  默认情况下禁用此设置。 有关详细信息，请参阅[创建或修改自定义访问级别](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
    >   
    >* 您无法重置Workfront管理员的密码。
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **登录身份**.
+1. 在左侧面板中，单击&#x200B;**登录身份**。
 
-1. 在 **用户** 上的框 **登录身份** 选项卡，开始键入用户的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**登录身份**&#x200B;选项卡的&#x200B;**用户**&#x200B;框中，开始键入用户的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    用户必须具有在Workfront中定义的访问级别。 您无法以无权登录的用户身份登录Workfront系统。
 
@@ -106,7 +106,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >组管理员只能以他们管理的组的成员用户身份登录。 他们无法以Workfront管理员身份登录。
 
-1. 单击 **登录。**
+1. 单击&#x200B;**登录。**
 
    <!--
    <p> Might come in a future story:</p>
@@ -135,7 +135,7 @@ Some users, such as executives, need to be able to control which administrators 
 
    当您以其他用户身份登录时，屏幕顶部会显示一条通知来指示此情况。
 
-1. 以用户身份执行必要的操作后，单击 **注销。**
+1. 以用户身份执行必要的操作后，单击&#x200B;**注销。**
 
 ## 在管理员以其他用户身份登录时跟踪和审核活动
 
@@ -155,9 +155,9 @@ Workfront提供多种机制，用于跟踪和审核管理员以其他用户身�
 ### 查看审核信息 {#view-audit-information}
 
 1. 以Workfront管理员或组管理员身份登录到Workfront。
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **登录身份，** 然后单击 **访问日志** 选项卡。
+1. 单击&#x200B;**登录身份，**，然后单击&#x200B;**访问日志**&#x200B;选项卡。
 
    每当系统或组管理员以其他用户身份登录到Workfront时，该事件即被记录到审核记录中。 此外，当管理员以其他用户身份登录时，发生的任何可审核操作都会记录到审核跟踪中。
 

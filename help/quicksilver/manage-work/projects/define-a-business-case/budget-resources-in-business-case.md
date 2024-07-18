@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: 业务案例中的预算资源
-description: 在资源规划中，您可以在构建业务案例时对完成项目中的工作所需的职务角色进行预算。 有关创建业务案例的更多信息，请参阅为项目创建业务案例。
+description: 作为资源计划的一部分，您可以在构建业务案例时为完成项目中的工作而预算所需的工作角色。 有关创建业务案例的更多信息，请参阅为项目创建业务案例。
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # 业务案例中的预算资源
 
-在资源规划中，您可以在构建业务案例时对完成项目中的工作所需的职务角色进行预算。 有关创建业务案例的详细信息，请参阅 [为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+作为资源计划的一部分，您可以在构建业务案例时为完成项目中的工作而预算所需的工作角色。 有关创建业务案例的详细信息，请参阅[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
 >[!NOTE]
 >
->预算资源与为项目计划资源不同。 在预算资源时，您可以估计完成项目工作所需的角色。 要实际计划或为用户分配项目工作，请参阅 [在工作负载平衡器中管理用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>预算资源与计划项目的资源不同。 在预算资源时，您可以估计完成项目工作所需的角色。 有关实际安排或分配用户参与项目工作的信息，请参阅[在工作负载均衡器中管理用户分配](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-必须先将作业角色与项目关联，然后才能对项目的资源进行预算。 以下是将作业角色分配给项目的方法：
+您必须先将工作角色与项目关联，然后才能为项目预算资源。 以下是将工作角色分配给项目的方法：
 
-* 使用资源计划器将资源池应用到项目和预算任务职责。
+* 使用资源规划者将资源池应用于项目和预算职位角色。
 
-   有关更多信息，请参阅 [使用资源计划员在业务案例中预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  有关详细信息，请参阅使用资源规划者](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的业务案例中的[预算资源。
 
-* 使用方案计划员创建具有所需任务职责的方案，并将它们链接到项目。 有关更多信息，请参阅 [使用方案计划员在业务案例中预算资源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* 使用Scenario Planner创建具有所需工作角色的计划，并将它们链接到项目。 有关详细信息，请参阅使用场景规划器](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的业务案例中的[预算资源。
 
-   >[!NOTE]
-   >
-   >方案规划器仅在新的Adobe Workfront体验中可用，并且需要额外的许可证。 有关Workfront方案规划器的信息，请参阅 [方案计划员概述](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >Scenario Planner仅在新的Adobe Workfront Experience中可用，并且需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

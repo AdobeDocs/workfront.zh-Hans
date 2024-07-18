@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # 在报表中引用自定义表单
 
-有关在报表中引用自定义表单的信息，请参阅 [在报表中引用自定义表单](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+有关在报告中引用自定义表单的信息，请参阅[在报告中引用自定义表单](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)。

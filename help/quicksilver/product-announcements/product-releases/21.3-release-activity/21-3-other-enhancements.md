@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在21.3版本中对“预览”环境进行的所有其他增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 针对移动应用程序重新设计主页区域
 
@@ -33,7 +33,7 @@ Adobe Workfront移动设备应用程序的“主页”区域添加了以下增�
 
 将应用程序发布到应用商店后，将更新以下文章：
 
-* [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* 适用于iOS的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## 事件订阅过滤器
@@ -44,4 +44,4 @@ Adobe Workfront移动设备应用程序的“主页”区域添加了以下增�
 
 预览环境中现在已启用事件订阅过滤器。 事件订阅筛选可用于确保您仅接收相关消息。 为您的订阅创建过滤器可能会显着减少您的端点需要使用的消息数。
 
-要了解有关事件订阅的更多信息，请参阅 [事件订阅API](../../../wf-api/general/event-subs-api.md) 和 [常见问题解答 — 活动订阅](../../../wf-api/general/event-subs-faq.md).
+若要了解有关事件订阅的更多信息，请参阅[事件订阅API](../../../wf-api/general/event-subs-api.md)和[常见问题解答 — 事件订阅](../../../wf-api/general/event-subs-faq.md)。

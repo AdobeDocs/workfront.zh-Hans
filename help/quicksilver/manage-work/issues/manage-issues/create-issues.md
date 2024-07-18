@@ -29,7 +29,7 @@ ht-degree: 0%
 
 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 具有适当访问权限的用户可以在项目或任务进展到完成时查看和监控问题的状态，而无需冗长的电子邮件链或状态会议。 与属于已计划事件的任务不同，问题表示Adobe Workfront中的未计划工作项。
 
-您还可以将问题作为请求添加到项目中。 有关信息，请参阅 [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+您还可以将问题作为请求添加到项目中。 有关信息，请参阅[创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
 >[!TIP]
 >
@@ -55,11 +55,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>. 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute或更高权限，能够将“问题”添加到您创建问题的任务或项目</p> <p> 有关向问题授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题 </a></p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>Contribute或更高权限，能够向任务或创建问题的项目添加问题</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,16 +76,16 @@ ht-degree: 0%
 
 当您拥有正确的访问权限时，您可以创建项目或任务的问题。 但是，在下列情况下，您可能无法创建问题：
 
-* 您的Workfront管理员或组管理员必须启用添加问题，才能在项目偏好设置区域中向处于“完成”或“终止”状态的项目添加问题。 有关设置项目首选项的信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* 您的Workfront管理员或组管理员必须启用添加问题，才能在项目偏好设置区域中向处于“完成”或“终止”状态的项目添加问题。 有关设置项目首选项的信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 * 您无法将问题添加到未决批准中的项目。
 
 ## 准备新问题表单
 
 您的组织应具有明确定义的流程，以便记录问题的时间和方式。 配置此流程时，第一步是创建提交问题所需的表单。 无论您允许将问题直接添加到任务和项目，还是允许将问题提交到的请求队列，您都可以定义哪些Workfront字段，以及在用户提交新问题且必须完成时可以使用哪些自定义字段。 新问题表单可包含有助于快速解决问题的重要信息。
 
-项目新问题的字段在项目的“队列详细信息”部分中定义，将记录问题。 有关配置项目的队列详细信息部分的信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+项目新问题的字段在项目的“队列详细信息”部分中定义，将记录问题。 有关配置项目“队列详细信息”部分的信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-有关通过将问题提交到请求队列来创建问题的信息，请参阅 [通过输入新请求创建问题](#create-issues-by-entering-a-new-request) 部分。
+有关通过将问题提交到请求队列来创建问题的信息，请参阅本文中的[通过输入新请求来创建问题](#create-issues-by-entering-a-new-request)部分。
 
 ## 使用“新建问题”按钮创建任务或项目的问题
 
@@ -155,25 +155,25 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 要在任务或项目中创建问题，请执行以下操作：
 
 1. 转到要创建问题的项目。
-1. （可选）如果要记录任务的问题，请转到 **任务** 区域，然后单击任务的名称。
-1. 单击 **问题** 部分。
+1. （可选）如果要记录任务的问题，请转到&#x200B;**任务**&#x200B;区域，然后单击任务名称。
+1. 单击&#x200B;**问题**&#x200B;部分。
 
    此时将显示项目问题列表
 
-1. 单击 **新建问题** 在问题列表的顶部。
+1. 单击问题列表顶部的&#x200B;**新建问题**。
 新问题框随即显示。
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. （视情况而定）如果项目创建者在项目中创建了“队列主题”或“主题组”，则它们将被添加到新问题表单中。 指定 **主题组** 或 **队列主题** 您的新问题。 “主题组”和“队列主题”的名称已根据您的环境定制。\
-   有关创建主题组的详细信息，请参见 [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 有关创建队列主题的详细信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. （视情况而定）如果项目创建者在项目中创建了“队列主题”或“主题组”，则它们将被添加到新问题表单中。 指定新问题的&#x200B;**主题组**&#x200B;或&#x200B;**队列主题**。 “主题组”和“队列主题”的名称已根据您的环境定制。\
+   有关创建主题组的详细信息，请参阅[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。 有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
    * 如果项目上只设置了一个队列主题，则会自动显示该主题。
    * 如果“主题组”下面没有任何“队列主题”或“主题组”，则“主题组”下拉列表中没有任何内容。
 
-1. 将问题名称添加到中 **主题** 字段，然后添加 **描述**.
+1. 在&#x200B;**主题**&#x200B;字段中添加问题名称，然后添加&#x200B;**描述**。
 
-1. （视情况而定）如果项目创建者允许 **请求类型** 要显示在新问题表单上的字段，请从以下选项中选择问题类型：
+1. （视情况而定）如果项目创建者允许在“新问题”表单中显示&#x200B;**请求类型**&#x200B;字段，请从以下选项中选择问题类型：
 
    * 错误报告
    * 更改顺序
@@ -187,29 +187,29 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
    >* [创建请求队列](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >  * [创建队列主题](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. 继续指定中可用的字段 **新建问题** 表单。 有关输入新问题时可用的字段的更多信息，请参阅 [编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. 继续指定&#x200B;**新问题**&#x200B;表单中可用的字段。 有关输入新问题时可用字段的更多信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 
    >[!IMPORTANT]
    >
-   >新问题表单中并非所有与问题相关的字段都可用。 项目创建者在定义项目的队列详细信息区域时，会启用创建问题时可用的字段。 有关更多信息，请参阅 [创建请求队列](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >新问题表单中并非所有与问题相关的字段都可用。 项目创建者在定义项目的队列详细信息区域时，会启用创建问题时可用的字段。 有关详细信息，请参阅[创建请求队列](../../requests/create-and-manage-request-queues/create-request-queue.md)。
 
 
-1. （视情况而定）如果队列主题与自定义表单关联，则该自定义表单将显示在 **新建问题** 表单。\
+1. （视情况而定）如果队列主题与自定义表单关联，则该自定义表单将显示在&#x200B;**新问题**&#x200B;表单中。\
    或\
-   如果项目通过队列详细信息区域与问题自定义表单相关联，则该表单会显示在 **新建问题** 表单，默认的Workfront字段之后。
+   如果项目通过“队列详细信息”区域与问题自定义表单相关联，则该表单在默认Workfront字段之后显示在&#x200B;**新建问题**&#x200B;表单中。
 
-   有关信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   有关信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 单击 **提交**.
+1. 单击&#x200B;**提交**。
 
-   问题可分配给多个用户、工作角色或团队。 有关分配和管理请求的更多信息，请参阅 [管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   问题可分配给多个用户、工作角色或团队。 有关分配和管理请求的更多信息，请参阅[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
 
 ## 在任务或项目中内联创建问题
 
 >[!IMPORTANT]
 >
->项目所有者必须启用 **允许用户添加内联问题** 在为项目定义问题设置时，您可以先将内联问题添加到项目或任务。 有关在项目上配置问题设置的信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+>在为项目定义问题设置时，项目所有者必须启用&#x200B;**允许用户添加内联问题**，然后才能将内联问题添加到项目或任务中。 有关配置项目的问题设置的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 >
 
 如果要快速添加多个问题，可以通过将任务或项目添加到问题列表，为任务或内联项目创建问题。
@@ -221,15 +221,15 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 要创建内联问题，请执行以下操作：
 
 1. 转到要创建问题的项目。
-1. （可选）如果要记录任务的问题，请转到 **任务** 部分，然后单击任务的名称。
-1. 单击 **问题** 部分。
-1. 单击 **添加更多问题** 在问题列表底部。
+1. （可选）如果要记录任务的问题，请转到&#x200B;**任务**&#x200B;部分，然后单击任务名称。
+1. 单击左侧面板中的&#x200B;**问题**&#x200B;部分。
+1. 单击问题列表底部的&#x200B;**添加更多问题**。
 
    在“问题”部分的问题列表中创建新行。
 
    >[!TIP]
    >
-   >如果在编辑项目框中取消选中允许用户添加问题内联设置，则此选项将灰显。 有关信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >如果在编辑项目框中取消选中允许用户添加问题内联设置，则此选项将灰显。 有关信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
    ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
@@ -253,4 +253,4 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 >
 >术语“问题”和“请求”在Workfront中可以互换。
 
-有关如何将项目设置为请求队列以接收问题的更多信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 有关提交请求的信息，请参阅 [创建和提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+有关如何将项目设置为请求队列以接收问题的更多信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。 有关提交请求的信息，请参阅[创建并提交Adobe Workfront请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。

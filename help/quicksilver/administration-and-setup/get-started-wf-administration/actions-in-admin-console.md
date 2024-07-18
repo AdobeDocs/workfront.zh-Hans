@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >我们建议直接在Workfront中添加非系统管理员用户。 您可以在Adobe Admin Console中添加用户，但通过在Workfront中添加用户，您可以在创建用户时设置其访问级别，这可以节省您的时间。
 
-有关创建Workfront系统管理员的说明，请参阅 [在Adobe Admin Console中管理系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+有关创建Workfront系统管理员的说明，请参阅[在Adobe Admin Console中管理系统管理员](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 ## 续订SAML证书
 
-有关在Adobe Admin Console上续订SAML证书的说明，请参阅中的“SAML响应中的数字签名未验证……”部分 [疑难解答Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+有关在Adobe Admin Console上续订SAML证书的说明，请参阅[疑难解答Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)中的“SAML响应中的数字签名未验证……”部分
 
 <!--
 
@@ -186,9 +186,9 @@ ht-degree: 0%
 
 
 * [使用SAML 2.0配置Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [使用ADFS使用SAML 2.0配置Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [在Adobe Workfront中取消激活单点登录](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [在身份提供程序中更新SAML 2.0元数据](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [使用ADFS在Adobe Workfront中配置SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [在Adobe Workfront中停用单点登录](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [更新您的身份提供程序中的SAML 2.0元数据](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [更新单点登录的用户](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [配置用于身份验证的密码策略](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [配置身份验证的密码策略](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.3版本对“预览”环境所做的所有资源管理增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 停用不再使用的角色
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 分配给已停用角色的任务和问题以及审批流程或路由规则将继续分配给这些角色。 如果尚未完成非活动角色，则必须更新这些对象，以将其替换为活动角色。
 
-有关更多信息，请参阅 [取消激活工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+有关详细信息，请参阅[停用工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
 

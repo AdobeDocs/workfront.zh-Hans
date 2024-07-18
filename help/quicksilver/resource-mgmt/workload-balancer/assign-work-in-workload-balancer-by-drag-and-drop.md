@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您可以通过将工作项拖放到正确用户，使用Adobe Workfront工作负载均衡器分配工作项。
 
-有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅 [在工作负载均衡器中分配工作概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+有关使用工作负载均衡器将工作分配给用户的一般信息，请参阅[在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 访问要求
 
@@ -49,16 +49,16 @@ ht-degree: 0%
      <li> <p>问题</p> </li> 
     </ul> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>包含制定工作分派的项目、任务和问题的Contribute权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>Contribute对项目、任务和问题（包括制定工作）的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 通过拖放方式分配项目
 
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 1. 转到要分配工作的工作负载均衡器。
 
-   您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
-1. （可选）转到 **未分配的工作** 区域并应用过滤器以查看未分配给用户的任务和问题
+1. （可选）转到&#x200B;**未分配的工作**&#x200B;区域并应用筛选器以查看未分配给用户的任务和问题
 
    或
 
-   转到 **已分派工作** 区域并展开用户的名称以查看分配给他们的工作项（如果要重新分配其项目）。
+   转到&#x200B;**已分配的工作**&#x200B;区域并展开用户的名称以查看分配给他们的工作项（如果要重新分配其项目）。
 
-1. （视情况而定）在项目的工作负载均衡器中，单击 **显示所有用户** 图标 ![](assets/show-all-users-icon-project-workload-balancer.png) 以显示所有Workfront用户。
+1. （视情况而定）在项目的工作负载均衡器中，单击&#x200B;**显示所有用户**&#x200B;图标![](assets/show-all-users-icon-project-workload-balancer.png)以显示所有Workfront用户。
 
    这会显示您有权查看的所有用户。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 
 
-1. 单击工作项指示计划或预计时间线的栏，然后将其拖动到中的用户名称上 **已指定** 区域。
+1. 单击工作项指示计划或预计时间线的栏，并将其拖动到&#x200B;**已分配**&#x200B;区域中的用户名称上。
 
    将鼠标悬停在其上以将工作项放置到的用户会突出显示。
 
@@ -109,14 +109,14 @@ ht-degree: 0%
    >* 如果在“设置”区域中启用了“按项目分组” ，则分配的任务将显示在相应的项目下。 如果禁用该设置，则分配的任务将显示在用户区域中。
    >
    >
-   >     此项根据工作负载均衡器标准显示以排序工作项。 有关更多信息，请参阅 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     此项根据工作负载均衡器标准显示以排序工作项。 有关详细信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
    >
    >
-   >* 如果启用了在项目的工作负载均衡器中显示所有用户，并将项目分配给之前未分配给项目项目的用户，则该用户将会添加到项目团队。 有关更多信息，请参阅 [管理项目团队](../../manage-work/projects/planning-a-project/manage-project-team.md).
+   >* 如果启用了在项目的工作负载均衡器中显示所有用户，并将项目分配给之前未分配给项目项目的用户，则该用户将会添加到项目团队。 有关详细信息，请参阅[管理项目团队](../../manage-work/projects/planning-a-project/manage-project-team.md)。
 
 
 1. （可选）单击已分配工作区域中的用户名称下的工作项栏，并将其拖放到未分配工作区域上以取消分配。 该项目已从用户取消分配，但仍可能分配给工作角色，在此情况下，该项目会显示在“未分配的工作”区域中。 如果将项目分配给另一个用户，该项目将保留在“已分配工作”区域中，且位于仍被分配的用户名下。
-1. （可选）单击 **显示分派图标** ![](assets/show-allocations-icon-small.png)，然后单击 **更多菜单** ![](assets/qs-more-menu.png) > **编辑分派项**.
+1. （可选）单击&#x200B;**显示分派图标** ![](assets/show-allocations-icon-small.png)，然后单击&#x200B;**更多菜单** ![](assets/qs-more-menu.png) > **编辑分派**。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    双击每日或每周分配，以修改将用户分配给工作项的时间量。
 
-   有关在工作负载均衡器中修改用户分配的信息，请参阅文章中的“修改用户分配”部分 [管理工作负载均衡器中的用户分配](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   有关在工作负载均衡器中修改用户分配的信息，请参阅在工作负载均衡器](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配一文[中的“修改用户分配”一节。
 
-   有关使用工作负载均衡器从工作项中删除分配的信息，请参阅 [在工作负载均衡器中取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   有关使用工作负载均衡器从工作项中删除分配的信息，请参阅工作负载均衡器中的[取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)。
 

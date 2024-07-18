@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,14 +52,14 @@ Fusion AI当前可以生成连接到以下应用程序的模块：
 
 ## 生成模块
 
-1. 添加模块并选择 **使用AI生成** 从应用程序列表中。
+1. 添加模块并从应用程序列表中选择&#x200B;**使用AI生成**。
 
    或
 
-   右键单击方案编辑器的空白区域，然后选择 **使用AI生成**.
+   右键单击方案编辑器的空白区域，然后选择&#x200B;**使用AI生成**。
 1. 在框中输入文本提示。
 
-   有关提示的信息，请参阅 [创建文本提示的提示](#tips-for-creating-text-prompts) 本文章中。
+   有关提示的提示，请参阅本文中的[创建文本提示的提示](#tips-for-creating-text-prompts)。
 1. 将应用程序的API令牌添加到模块中。
 1. 检查模块，确保看起来已针对相应的应用程序和操作对该模块进行了配置。
 1. （视情况而定）如果模块未附加到场景，请将其拖动到适当位置。
@@ -78,17 +79,14 @@ Fusion AI当前可以生成连接到以下应用程序的模块：
 >
 >* `Retrieve a list of my calendars from Google Calendar`
 >
->   这包括应用程序 `Google Calendar` 和操作 `Retrieve a list of my calendars`.
+>   这包括应用程序`Google Calendar`和操作`Retrieve a list of my calendars`。
 >
 >* `Retrieve popular songs from Spotify`
 >
->   这包括应用程序 `Spotify` 和操作 `Retrieve popular songs`.
+>   这包括应用程序`Spotify`和操作`Retrieve popular songs`。
 
 创建文本提示时，请考虑以下事项：
 
 * 由于每个Fusion模块只执行一项操作，因此您的文本提示应描述一项特定操作。
 * 使用直接、简单的语言。
 * 检查并测试您的模块。 如果它未按预期执行，请优化您的提示并重试。
-
-
-

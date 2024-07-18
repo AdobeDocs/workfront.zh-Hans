@@ -21,15 +21,15 @@ ht-degree: 0%
 
 本页介绍了2021年1月18日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 使用Workfront Fusion DevTool调试场景
 
 为了更便于您调试场景，我们创建了一个Workfront Fusion 2.0 DevTool Chrome扩展。 利用此扩展，您可以检查方案的手动运行，查看所有执行的操作，并查看每个API调用的详细信息。 DevTool还提供了一些工具，这些工具允许您修改场景，而无需逐个修改模块或过滤器。
 
-有关说明以及下载Workfront Fusion 2.0 Devtool的信息，请参阅 [使用Adobe Workfront Fusion DevTool调试场景](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+有关说明以及下载Workfront Fusion 2.0 Devtool的信息，请参阅[使用Adobe Workfront Fusion DevTool调试场景](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)。
 
 ## Azure Active Directory连接器和模块现已可用
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 根据您指定的条件搜索记录。
 * 执行自定义API调用。
 
-有关详细信息，请参阅 [Azure Active Directory模块](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+有关详细信息，请参阅[Azure Active Directory模块](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)。
 
 ## Azure DevOps连接器和模块现已可用
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 * 检索工作项列表。
 * 执行自定义API调用。
 
-有关详细信息，请参阅 [Azure DevOps模块](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+有关详细信息，请参阅[Azure DevOps模块](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)。
 
 ## Qualtrics连接器和模块现已可用
 
@@ -67,4 +67,4 @@ ht-degree: 0%
 * 通过电子邮件分发调查。
 * 执行自定义API调用。
 
-有关详细信息，请参阅 [Qualtrics模块](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).
+有关详细信息，请参阅[Qualtrics模块](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md)。

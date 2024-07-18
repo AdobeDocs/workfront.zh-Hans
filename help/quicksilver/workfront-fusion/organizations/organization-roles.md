@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: 中的组织角色 [!DNL Adobe Workfront Fusion]
-description: 本文包含有关中角色的访问权限的信息。 [!DNL Adobe] Workfront Fusion.
+title: ' [!DNL Adobe Workfront Fusion]中的组织角色'
+description: 本文包含有关 [!DNL Adobe] Workfront Fusion中角色的访问权限的信息。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# 中的组织和团队角色 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的组织和团队角色
 
-本文介绍了中针对不同团队和组织角色提供的访问和功能 [!DNL Workfront Fusion].
+本文介绍了[!DNL Workfront Fusion]中不同团队和组织角色可用的访问和功能。
 
 >[!NOTE]
 >
->在中，组织角色与团队角色是不同的 [!DNL Workfront Fusion]. 有关组织和团队角色的更多信息，请参阅 [组织和团队](../organizations/organizations-and-teams.md).
+>组织角色与[!DNL Workfront Fusion]中的团队角色不同。 有关组织和团队角色的更多信息，请参阅[组织和团队](../organizations/organizations-and-teams.md)。
 
 ## 访问要求
 
@@ -42,32 +42,32 @@ ht-degree: 1%
    <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 对于工作自动化和集成]，[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">访问级别配置*</td> 
    <td> 
-     <p>您必须是 [!DNL Workfront Fusion] 组织管理员。</p>
-     <p>您必须是 [!DNL Workfront Fusion] 您的团队的管理员。</p>
+     <p>您必须是组织的[!DNL Workfront Fusion]管理员。</p>
+     <p>您必须是团队的[!DNL Workfront Fusion]管理员。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 组织角色
 

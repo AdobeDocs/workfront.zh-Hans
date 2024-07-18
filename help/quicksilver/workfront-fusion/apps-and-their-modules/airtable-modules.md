@@ -9,18 +9,18 @@ title: 可飞行模块
 description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需要Adobe Workfront Fusion许可证。
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 2%
+source-wordcount: '1862'
+ht-degree: 1%
 
 ---
 
 # 可飞行模块
 
 
-使用 [!DNL Airtable] 连接器 [!DNL Adobe Workfront Fusion]，您可以根据中的事件启动方案 [!DNL Airtable] 帐户，创建、上传和更新记录、搜索记录，以及对Airtable API进行自定义API调用。
+使用[!DNL Adobe Workfront Fusion]的[!DNL Airtable]连接器，您可以基于[!DNL Airtable]帐户中的事件启动方案，创建、上载和更新记录、搜索记录以及对Airtable API进行自定义API调用。
 
 ## 访问要求
 
@@ -40,18 +40,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
-   <td> <p>[！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p> </td> 
+   <td> <p>[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
-   <td>您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</td> 
+   <td>您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
@@ -68,10 +68,10 @@ ht-degree: 2%
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. 打开Workfront Fusion和 **创建连接** 所需模块的对话框。
+1. 打开Workfront Fusion，然后打开所需模块的&#x200B;**创建连接**&#x200B;对话框。
 1. 输入连接的名称。
 1. （可选）单击显示高级设置，然后输入您的可传输客户端ID和客户端密钥。
-1. 单击 **继续** 按钮以创建连接并返回模块。
+1. 单击&#x200B;**继续**&#x200B;按钮以创建连接并返回模块。
 
 ## 可飞行模块及其领域
 
@@ -103,7 +103,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -163,7 +163,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -190,7 +190,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -221,7 +221,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -233,7 +233,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用于筛选记录的公式。 系统会为每个记录计算公式，如果结果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请在Airtable支持文档中搜索有关公式字段引用的信息。</p> </td> 
+   <td> <p>用于筛选记录的公式。 将针对每个记录计算公式，如果结果不是<code>0</code>、<code>false</code>、<code>""</code>、<code>NaN</code>、<code>[]</code>或<code>#Error!</code>，则响应中将包含该记录。</p> <p>如果与<code>view</code>组合，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请在Airtable支持文档中搜索有关公式字段引用的信息。</p> </td> 
   </tr> 
   <tr> 
    <td>排序 </td> 
@@ -266,7 +266,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -330,7 +330,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -392,7 +392,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>连接 </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>库 </td> 
@@ -404,7 +404,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>触发器配置</p> </td> 
-   <td> <p>触发器字段</p> <p>A <code>Created Time</code> 或 <code>Last Modified Time</code> 用于对记录进行排序的字段。 如果您没有 <code>Created Time</code> 或 <code>Last Modified Time</code> 字段中，您需要创建一个。 </p> <p>标签字段</p> <p>用作记录标签的字段，例如，在“选择开始位置”对话框中。</p> </td> 
+   <td> <p>触发器字段</p> <p>用于对记录进行排序的<code>Created Time</code>或<code>Last Modified Time</code>字段。 如果您的架构中没有<code>Created Time</code>或<code>Last Modified Time</code>字段，则需要创建一个。 </p> <p>标签字段</p> <p>用作记录标签的字段，例如，在“选择开始位置”对话框中。</p> </td> 
   </tr> 
   <tr> 
    <td>限制</td> 
@@ -416,7 +416,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>公式</p> </td> 
-   <td> <p>用于筛选记录的公式。 系统会为每个记录计算公式，如果结果不是 <code>0</code>， <code>false</code>， <code>""</code>， <code>NaN</code>， <code>[]</code>，或 <code>#Error!</code> 该记录包含在响应中。</p> <p>如果与 <code>view</code>，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请参阅Airtable支持文档中有关公式字段引用的信息。</p> </td> 
+   <td> <p>用于筛选记录的公式。 将针对每个记录计算公式，如果结果不是<code>0</code>、<code>false</code>、<code>""</code>、<code>NaN</code>、<code>[]</code>或<code>#Error!</code>，则响应中将包含该记录。</p> <p>如果与<code>view</code>组合，则仅返回该视图中满足公式的记录。</p> <p>例如，要仅包括Name不为空的记录，请传入：<code> NOT({Name} = '')</code></p> <p>要了解更多信息，请参阅Airtable支持文档中有关公式字段引用的信息。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -434,12 +434,12 @@ webhook URL需要在Workfront Fusion中生成，然后添加到Airtable中的表
 1. 将Watch New Responses模块添加到您的Workfront Fusion方案。
 1. 生成并复制webhook URL。
 
-   有关说明，请参阅 [Adobe Workfront Fusion中的即时触发器(Webhook)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   有关说明，请参阅Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)中的[即时触发器(webhook)。
 
 1. 登录到您的Airtable帐户。
 1. 打开要用于表单的“基础”和表，并创建“表单”视图。
 1. 根据需要设置表单，向下滚动表单，然后启用“提交表单后重定向到URL”选项。
-1. 将步骤2中生成的Webhook URL输入到显示的对话框中，并添加？record_id={record_id} 紧接在webhook URL后面以将“记录ID”包含在模块输出中，然后单击“保存”。 例如，生成的URL将如下所示：
+1. 将步骤2中生成的Webhook URL输入到显示的对话框中，并在webhook URL之后添加？record_id={record_id}以将记录ID包含在模块输出中，然后单击“保存”。 例如，生成的URL将如下所示：
 1. 返回到Workfront Fusion场景并运行观察响应模块，以仅从Airtable加载字段并能够将这些字段映射到其他模块。
 1. 在Airtable中提交表单，其中启用了提交表单后重定向到URL选项并添加了Webhook URL（上述步骤6）。
 
@@ -453,7 +453,7 @@ webhook URL需要在Workfront Fusion中生成，然后添加到Airtable中的表
 
 #### 自定义API调用
 
-通过此操作模块，您可以对 [!DNL Airtable] API。 这样，您就可以创建另一个无法实现的数据流自动化 [!DNL Airtable] 模块。
+此操作模块允许您对[!DNL Airtable] API进行经过身份验证的自定义调用。 这样，您可以创建其他[!DNL Airtable]模块无法实现的数据流自动化。
 
 该操作基于您指定的图元类型（Allocadia对象类型）。
 
@@ -465,18 +465,18 @@ webhook URL需要在Workfront Fusion中生成，然后添加到Airtable中的表
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>连接</p> </td> 
-   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a> 本文章中。</p> </td> 
+   <td> <p>有关将Airtable帐户连接到Workfront Fusion的说明，请参阅本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">将Airtable连接到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>输入相对路径 <code>https://api.airtable.com/}</code>. 示例: <code>v0/{base}/{table}</code> </td> 
+   <td>输入相对于<code>https://api.airtable.com/}</code>的路径。 示例： <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
-   <td> <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">标题</td> 
+   <td role="rowheader">标头</td> 
    <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
@@ -485,7 +485,7 @@ webhook URL需要在Workfront Fusion中生成，然后添加到Airtable中的表
   </tr> 
   <tr> 
    <td role="rowheader">正文</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:  <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

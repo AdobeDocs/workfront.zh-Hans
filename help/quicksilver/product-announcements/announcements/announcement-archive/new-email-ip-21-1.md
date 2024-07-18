@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Adobe Workfront 21.1版本的电子邮件的新IP地址
-description: 为了提高电子邮件投放的成功率，我们在21.1 Production版本中添加了新的IP地址，以用于下面列出的群集。 要确定您所在的群集，请转到“设置&gt；系统&gt；客户信息”。
+description: 为了提高电子邮件投放的成功率，我们在21.1 Production版本中添加了新的IP地址，以用于下面列出的群集。 要确定您所在的群集，请转到Setup &amp； System &amp； Gt； Customer Info。
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -26,14 +26,14 @@ ht-degree: 0%
 * 23.251.237.109
 * 23.251.237.106
 
-**集群4**
+**群集4**
 
 将以下IP地址添加到您的允许列表，以确保您的用户继续收到其电子邮件：
 
 * 23.251.239.98
 * 23.251.239.99
 
-列入允许列表 列入允许列表 (有关可能已添加到的IP地址和其他IP地址的其他上下文，请参阅 [配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(有关可能已添加到的允许列表和其他IP地址的其他上下文，请参阅[配置防火墙的允许列表 列入允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。)
 
 什么时候需要这样做？
 

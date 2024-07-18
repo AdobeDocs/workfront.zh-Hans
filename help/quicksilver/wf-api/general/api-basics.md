@@ -37,7 +37,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 ## WORKFRONT API URL
 
-有关将用于调用Workfront API的URL的信息，请参阅 [Adobe Workfront API调用的域格式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
+有关将用于调用Workfront API的URL的信息，请参阅Adobe Workfront API调用的[域格式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)。
 
 ## REST基础知识
 
@@ -55,7 +55,7 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 对象类型不区分大小写，可以是缩写的ObjCode（如proj）或替代对象名称(project)。
 
-有关有效对象代码的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md).
+有关有效对象代码的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md)。
 
 ### 运营
 
@@ -63,10 +63,10 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 标准HTTP方法对应于以下操作：
 
-* **GET**  — 按ID检索对象、按查询搜索所有对象、运行报告或执行命名查询
-* **POST**  — 插入新对象
-* **PUT**  — 编辑现有对象
-* **DELETE**  — 删除对象
+* **GET** — 按ID检索对象、按查询搜索所有对象、运行报告或执行命名查询
+* **POST** — 插入新对象
+* **PUT** — 编辑现有对象
+* **DELETE** — 删除对象
 
 为了解决客户端缺陷或协议长度限制，可以使用方法参数覆盖HTTP行为。 例如，可以通过发布以下URI来实现GET操作：
 <pre>GET/attask/api/v15.0/project？id=4c78...54d0&amp;method=get<br>GET/attask/api/v15.0/project/4c78...54d0？method=get</pre>
@@ -82,13 +82,13 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 返回类似于以下内容的JSON响应：
 
 
-<pre>{<br>    "data"： [<br>        {<br>            "percentComplete"：0，<br>            "status"： "CUR"，<br>            “优先级”：2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
+<pre>{<br>    "data"： [<br>        {<br>            "percentComplete"： 0，<br>            "status"： "CUR"，<br>            "priority"： 2，<br>            "name"： "Brand New Project"，<br>            "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >通过浏览器的地址栏执行GET请求时，不必将sessionID包含在请求中。
 
-已围绕PUT、POST和DELETE请求添加了特殊安全性。 仅当满足以下条件时，才能执行导致向数据库写入或从中删除的任何请求： **sessionID=abc123** 包含在URI中。 以下示例显示了如何查找DELETE请求：
+已围绕PUT、POST和DELETE请求添加了特殊安全性。 只有在URI中包含&#x200B;**sessionID=abc123**&#x200B;时，才能执行导致写入数据库或从数据库中删除的任何请求。 以下示例显示了如何查找DELETE请求：
 <pre>GET/attask/api/v15.0/project？id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET/attask/api/v15.0/project/4c78...54d0？method=delete&amp;sessionID=abc123</pre>
 
 ### 身份验证
@@ -99,7 +99,7 @@ API对每个请求进行身份验证，以确保客户端有权查看或修改�
 
 #### 请求标头身份验证
 
-首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这有一个优势，就是可以安全抵御 [跨站点请求伪造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻击，并且不会出于缓存目的干扰URI。
+首选的身份验证方法是传递包含会话令牌的名为SessionID的请求标头。 这样可以安全地抵御[跨站点请求伪造(CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery)攻击，并且不会出于缓存目的干扰URI。
 
 以下是请求标头的示例：
 
@@ -128,22 +128,22 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 
 >[!IMPORTANT]
 >
->Workfront不再建议使用 `/login` 端点或API密钥。 请改用以下身份验证方法之一：
+>Workfront不再建议使用`/login`端点或API密钥。 请改用以下身份验证方法之一：
 >
 >* 使用JWT进行服务器身份验证
 >* 使用OAuth2进行用户身份验证
 >
->有关设置这些身份验证方法的说明，请参阅 [为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>有关设置这些身份验证方法的说明，请参阅[为Workfront集成创建OAuth2应用程序](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->有关在Workfront中使用服务器身份验证的说明，请参阅 [使用JWT流配置和使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
+>有关在Workfront中使用服务器身份验证的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)
 >
->有关在Workfront中使用用户身份验证的说明，请参阅 [使用授权代码流配置并使用贵组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
+>有关在Workfront中使用用户身份验证的说明，请参阅[使用授权代码流配置和使用您组织的自定义OAuth 2应用程序](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
 >本节中介绍的过程仅适用于尚未加入Adobe业务平台的组织。 如果您的组织已载入到Adobe业务平台，则无法通过Workfront API登录Workfront。
 >
->有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅 [基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 使用有效的用户名和密码，您可以使用以下请求获取会话ID：
 
@@ -208,10 +208,10 @@ GET /attask/api/v15.0/logout?sessionID=abc1234
 1. 导航到登录屏幕，但不登录。
 1. 将URL更改为/attask/api/v15.0/project/search。\
    请注意，找不到该页面。
-1. 替换单词 *搜索* 使用login？username=admin&amp;password=user替换您的用户名和密码 *管理员* 和*用户\
+1. 将&#x200B;*搜索*&#x200B;一词替换为login？username=admin&amp;password=user，将您的用户名和密码替换为&#x200B;*admin*&#x200B;和*user\
    *此会话将作为Cookie存储在浏览器中，无需在每次后续GET请求中重述。
 
-1. 将URL更改回 **/attask/api/v15.0/project/search**.
+1. 将URL更改回&#x200B;**/attask/api/v15.0/project/search**。
 1. 请注意提供的响应。
 
 执行PUT、POST和DELETE请求时，必须始终包含登录后提供的sessionID。
@@ -234,7 +234,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 返回类似于以下内容的响应：
 
-<pre>{<br>    "percentComplete"：0，<br>    "status"： "CUR"，<br>    “优先级”：2，<br>    "name"： "Brand New Project"，<br>    "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
+<pre>{<br>    "percentComplete"： 0，<br>    "status"： "CUR"，<br>    "priority"： 2，<br>    "name"： "Brand New Project"，<br>    "ID"： "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
 
 
 您可以通过指定id请求参数并提供以逗号分隔的ID列表来检索同一请求中的多个对象，如以下示例所示：
@@ -244,7 +244,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-请注意， /attask/api/v15.0/project？id=...请求与 `/attask/api/v15.0/project/...` 请求。
+请注意/attask/api/v15.0/project？id=...请求与`/attask/api/v15.0/project/...`请求相同。
 
 #### 使用URI检索对象
 
@@ -288,7 +288,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 >[!NOTE]
 >
->搜索请求区分大小写。 如果收到错误，请确保  **修改(_M)** 和 **范围(_R)** 大小写正确。
+>搜索请求区分大小写。 如果收到错误，请确保  **_Mod**&#x200B;和&#x200B;**_Range**&#x200B;的大小写正确。
 
 #### 使用OR语句
 
@@ -303,7 +303,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 * 具有名为“最终任务”的父任务的任务
 
 然后，将以下API调用与其多个OR语句一起使用：
-<pre>GET/attask/api/v15.0/task/search？name=Planning<br>&amp;name_Mod=contains<br>或(&amp;O):1:portfolio：name=FixAssets<br>或(&amp;O):1:portfolio：name_Mod=eq<br>或(&amp;O):1:assignedTo：name=Steve<br>或(&amp;O):1:assignedTo：name_Mod=cicontains<br>或(&amp;O):2:parent：name=最终任务<br>或(&amp;O):2:parent：name_Mod=eq
+<pre>GET/attask/api/v15.0/task/search？name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio：name=FixedAssets<br>&amp;OR:1:portfolio：name_Mod=eq<br>&amp;OR:1:assignedTo：name=Steve<br>&amp;OR:1:assignedTo：name_Mod=cicontains<br>&amp;OR:2:parent：name=Final Task<br>&amp;OR:2:父项：name_Mod =eq
 </pre>
 
 #### 使用过滤器参数
@@ -318,7 +318,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 默认情况下，从搜索返回的数据是JSON数组。 根据您的用例，将结果作为JSON对象按ID索引可能会更有效。 可以使用map请求参数完成此操作。 例如，请求 
 <pre>/attask/api/v15.0/task/search？map=true</pre>返回按ID索引的响应，如下所示：
-<pre>{<br>    "data"： {<br>        “4c9a97db0000000f13ee4446b9aead9b”： {<br>            "percentComplete"：0，<br>            "status"： "NEW"，<br>            "name"： "first task"，<br>            "ID"： "4c9a97db0000000f13ee4446b9aead9b"，<br>            "taskNumber"：1 <br>        }，<br>        “4ca28ba600002024cd49e75bd43cf601”： {<br>            "percentComplete"：0，<br>            "status"： "INP：A"，<br>            "name"： "second task"，<br>            "ID"： "4ca28ba600002024cd49e75bd43cf601"，<br>            "taskNumber"：2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "data"： {<br>        “4c9a97db0000000f13ee4446b9aead9b”： {<br>            "percentComplete"： 0，<br>            "status"： "NEW"，<br>            "name"： "first task"，<br>            "ID"： "4c9a97db0000000f13ee4446b9aead9b"，<br>            "taskNumber"： 1 <br>        }，<br>        “4ca28ba600002024cd49e75bd43cf601”： {<br>            "percentComplete"： 0，<br>            "status"： "INP：A"，<br>            "name"： "second task"，<br>            "ID"： "4ca28ba600002024cd49e75bd43cf601"，<br>            "taskNumber"： 2 <br>        } <br>    } <br>}</pre>
 
 #### 使用字段请求参数
 
@@ -326,7 +326,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以使用字段请求参数指定返回的特定字段的逗号分隔列表。 例如，请求
 <pre>/attask/api/v15.0/task/search？fields=plannedStartDate，priority</pre>返回类似于以下内容的响应：
-<pre>{<br>    “优先级”：2，<br>    "name"： "first task"，<br>    "ID"："4c7c08fa0000002ff924e298ee148df4"，<br>    “plannedStartDate”：“2010-08-30T09:00:00:000-0600” <br>}</pre>
+<pre>{<br>    "priority"： 2，<br>    "name"： "first task"，<br>    "ID"： "4c7c08fa0000002ff924e298ee148df4"，<br>    "plannedStartDate"： "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
 >
@@ -339,7 +339,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 可以搜索嵌套对象。 默认情况下，返回嵌套对象时只包含名称和ID。 例如，要了解所有问题及其所有者，请使用以下请求：
 <pre>/attask/api/v15.0/issue/search？fields=owner</pre>如果需要更多信息，您可以使用冒号语法请求嵌套字段。 例如，以下请求搜索所有问题以及所有者的姓名、ID、职务和电话号码
 <pre>/attask/api/v15.0/issue/search？fields=owner：title，owner：phoneNumber</pre>并返回以下内容： 
-<pre>{<br>    "name"： "a important issue"，<br>    "ID"： "4c78285f00000908ea8cfd66e084939f"，<br>    "owner"： {<br>        "title"： "Operations Specialist"，<br>        “电话号码”：“555-1234”，<br>        "name"： "Admin User"，<br>        "ID"： "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "name"： "a important issue"，<br>    "ID"： "4c78285f00000908ea8cfd66e084939f"，<br>    “所有者”： {<br>        "title"： "Operations Specialist"，<br>        "phoneNumber"： "555-1234"，<br>        "name"： "Admin User"，<br>        "ID"： "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### 检索嵌套收藏集
 
@@ -356,18 +356,18 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以使用前缀“DE：”检索自定义数据字段。 例如，要请求具有名为“CustomText”的参数的项目，请使用以下请求：
 <pre>/attask/api/v15.0/project/search？fields=DE：CustomText</pre>会返回
-<pre>{<br>    "name"： "custom data project"，<br>    “ID”：“4c9a954f0000001afad0687d7b1b4e43”，<br>    "DE：CustomText"： "任务b" <br>}</pre>您还可以通过请求parameterValues字段来检索对象的所有自定义数据。 例如， 
+<pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    "DE：CustomText"： "任务b" <br>}</pre>您还可以通过请求parameterValues字段来检索对象的所有自定义数据。 例如， 
 <pre>/attask/api/v15.0/project/search？fields=parameterValues</pre>返回类似于以下内容的数据：
-<pre>{<br>    "name"： "custom data project"，<br>    “ID”：“4c9a954f0000001afad0687d7b1b4e43”，<br>    参数值： { <br>        "DE：CustomText"： "任务b"， <br>        “DE：CustomNumber”：1.4， <br>        "DE：CustomCheckBoxes"：["first"， "second"， "third"] <br>    } <br>}</pre>
+<pre>{<br>    "name"： "custom data project"，<br>    "ID"： "4c9a954f0000001afad0687d7b1b4e43"，<br>    parameterValues： { <br>        "DE：CustomText"： "任务b"， <br>        "DE：CustomNumber"： 1.4， <br>        "DE：CustomCheckBoxes"：["first"， "second"， "third"] <br>    } <br></pre>
 
 #### 使用命名查询
 
 某些对象类型具有通常执行的命名搜索，可以通过将查询名称附加到对象类型URI的末尾来提供。 例如，以下请求可检索用户当前已分配的工作项（任务和问题）：
-<pre>/attask/api/v15.0/work/myWork</pre>命名查询支持请求字段参数以检索其他字段。 一些命名查询也接受其他过滤器。 有关对象中允许的命名查询列表，请参阅[API Explorer](https://developer.adobe.com/workfront/api-explorer/)中对象的“操作”选项卡。
+<pre>/attask/api/v15.0/work/myWork</pre>命名查询支持请求字段参数以检索其他字段。 一些命名查询也接受其他过滤器。 有关对象中允许的命名查询列表，请参见  [API资源管理器](https://developer.adobe.com/workfront/api-explorer/)。
 
-#### 使用 `Count`
+#### 使用`Count`
 
-您可以使用 `count` 以返回与查询匹配的结果数。 当您不需要结果中的数据时，这可能很有用。 通过只返回计数，服务器可以更快地处理请求并节省带宽。 例如，请求
+您可以使用`count`返回与查询匹配的结果数。 当您不需要结果中的数据时，这可能很有用。 通过只返回计数，服务器可以更快地处理请求并节省带宽。 例如，请求
 <pre>GET/attask/api/v15.0/project/count？status=CUR</pre>按以下格式返回结果数：
 <pre>{<br>    "count"： 3 <br>}</pre>返回计数的数据传输比返回完整对象的数据传输小得多。 语法与search命令相同。
 
@@ -375,8 +375,8 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 您可以执行报表请求，其中只需要一个或多个分组的某些字段的汇总。 如以下示例所示，报表语法与SOAP API的语法相同：
 <pre>GET/attask/api/v15.0/hour/report？project：name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>将返回以下结果
-<pre>{<br>    “第一个项目”： { <br>        "sum_hours"：15个 <br>    }， <br>     “第二个项目”： { <br>        "sum_hours"：30 <br>    } <br>}</pre>添加$$ROLLUP=true参数将包含每个分组级别的总数：
-<pre>{<br>    “第一个项目”： { <br>        "sum_hours"：15个 <br>    }， <br>    “第二个项目”： { <br>        "sum_hours"：30 <br>    }， <br>    "$$ROLLUP"： { <br>        "sum_hours"：45个 <br>    } <br>}</pre>
+<pre>{<br>    “第一个项目”： { <br>        "sum_hours"： 15 <br>    }， <br>     “第二个项目”： { <br>        "sum_hours"： 30 <br>    } <br></pre>添加$$ROLLUP=true参数将包含每个分组级别的总数：
+<pre>{<br>    “第一个项目”： { <br>        "sum_hours"： 15 <br>    }， <br>    “第二个项目”： { <br>        "sum_hours"： 30 <br>    }， <br>    "$$ROLLUP"： { <br>        "sum_hours"： 45 <br>    } <br>}</pre>
 
 ### 在API中对查询结果进行排序
 
@@ -409,7 +409,7 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
   <tr> 
    <td width="200">默认结果数</td> 
    <td>100</td> 
-   <td> 如果在查询筛选器中未指定限制（即$$LIMIT），则结果最多可包含100个主对象。 <br>请参阅 <a href="#using-paginated-responses" class="MCXref xref">使用分页响应</a> 以获取有关如何覆盖此限制的说明。 </td> 
+   <td> 如果在查询筛选器中未指定限制（即$$LIMIT），则结果最多可包含100个主对象。 <br>有关如何覆盖此限制的说明，请参阅<a href="#using-paginated-responses" class="MCXref xref">使用分页响应</a>。 </td> 
   </tr> 
   <tr> 
    <td>最大结果数</td> 
@@ -441,17 +441,17 @@ OR语句仅返回API调用中符合OR语句筛选条件的记录。 OR语句级�
 
 ### 使用分页响应 {#using-paginated-responses}
 
-要覆盖“默认结果数”查询限制并允许200个结果，您可以包括 `$$LIMIT=200` 在查询中筛选，如以下示例所示：
+要覆盖“默认结果数”查询限制并允许200个结果，您可以在查询中包含`$$LIMIT=200`筛选器，如以下示例所示：
 <pre>GET/attask/api/v15.0/project/search？$$LIMIT=200</pre>
 
-为确保系统中其他租户的可靠性和性能，每个查询允许的最大结果限制为2000个对象。 尝试指定更大的限制将导致一个 `IllegalArgumentException` 错误消息。 
+为确保系统中其他租户的可靠性和性能，每个查询允许的最大结果限制为2000个对象。 尝试指定更大的限制将导致`IllegalArgumentException`错误消息。 
 
-因此，我们建议您考虑对大型数据集使用分页响应。 要指定应返回的第一个结果，请添加 `$$FIRST` 筛选。 例如，以下请求为查询返回结果201-250：
+因此，我们建议您考虑对大型数据集使用分页响应。 要指定应返回的第一个结果，请添加`$$FIRST`筛选器。 例如，以下请求为查询返回结果201-250：
 <pre>GET/attask/api/v15.0/project/search？$$FIRST=200&amp;$$LIMIT=50</pre>
 
-请注意，在上例中， `$$FIRST=200` 返回第201个结果。 `$$FIRST=0` 将返回第一个结果。 将$$FIRST值视为返回结果之前要跳过的结果数可能会有所帮助。
+请注意，在上例中，`$$FIRST=200`返回第201个结果。 `$$FIRST=0`将返回第一个结果。 将$$FIRST值视为返回结果之前要跳过的结果数可能会有所帮助。
 
-要确保结果正确分页，请使用排序参数。 这样可按相同顺序返回结果，以便分页不会重复或跳过结果。 例如，要使用对象ID进行排序，请使用 `ID_Sort=asc`.
+要确保结果正确分页，请使用排序参数。 这样可按相同顺序返回结果，以便分页不会重复或跳过结果。 例如，要使用对象ID进行排序，请使用`ID_Sort=asc`。
 
 ### 创建访问规则
 
@@ -484,7 +484,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 您可以通过以下API URL上传文档：
 <pre>POST/attask/api/v15.0/upload</pre>API要求内容类型是multipart/form-data。 文件的参数名称必须是uploadedFile。 服务器返回以下JSON数据：
 <pre>{<br>    "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>创建Workfront文档时，您可以使用句柄并发布到以下URL：
-<pre>POST/attask/api/v15.0/document？updates={<br>    名称：文件名，<br>    句柄： abc...123，（来自文件上载的句柄）<br>    docObjCode：项目（或TASK、OPTASK等）<br>    对象ID：abc...123，<br>    currentVersion：{version：v1.0，文件名：文件名}<br>}</pre>
+<pre>POST/attask/api/v15.0/document？updates={<br>}    名称： aFileName，<br>    句柄： abc...123，（来自文件上载的句柄）<br>    docObjCode： PROJ，（或TASK、OPTASK等）<br>    对象ID： abc...123，<br>    currentVersion：{version：v1.0，文件名：aFileName}<br></pre>
 
 ## PUT行为
 
@@ -495,17 +495,17 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 ### 编辑对象
 
 对象的更新始终使用对象的唯一URI通过ID完成。 要更新的字段被指定为请求参数。 例如，要更改项目的名称，您可以发送类似于以下内容的请求：
-<pre>PUT/attask/api/v15.0/project/4c7...？name=新项目名称 <br>PUT/attask/api/v15.0/project？id=4c7...&amp;name=新项目名称</pre>由于更新需要ID，因此如果服务器上不存在该对象，此操作将失败（不插入）。
+<pre>PUT/attask/api/v15.0/project/4c7...？name=新项目名称<br>PUT/attask/api/v15.0/project？id=4c7...&amp;name=新项目名称</pre>由于更新需要ID，因此如果服务器上不存在该对象，此操作将失败（不插入）。
 
 ### 指定JSON编辑
 
 如以下示例所示，您可以使用更新请求参数指定要使用JSON语法更新的字段：
-<pre>PUT/attask/api/v15.0/project/4c7...？更新= <br>{<br>     名称：“新项目名称”， <br>     状态：“CUR”、 <br>     ... <br>}</pre>
+<pre>PUT/attask/api/v15.0/project/4c7...？更新= <br>{<br>     名称：“新项目名称”，<br>     状态：“CUR”，<br>     ... <br>}</pre>
 
 ### 进行嵌套更新
 
 某些对象具有可以更新的私有集合。 例如，以下示例演示了如何覆盖给定任务的现有分配：
-<pre>PUT/attask/api/v15.0/task/4c7...？更新= <br>{<br>    指定任务：[ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT/attask/api/v15.0/task/4c7...？更新= <br>{<br>    工作： [ <br>        { <br>            assignedToID： "2222...54d0， <br>            assignmentPercent： 50.0 <br>        }，{ <br>            roleID： "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -517,13 +517,13 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 ### 使用操作请求参数
 
 除了简单的编辑之外，某些对象还支持可以执行的其他操作。 您可以使用操作请求参数指定这些操作。 例如，以下请求重新计算给定项目的时间线：
-<pre>PUT/attask/api/v15.0/project/4c7...？action=calculateTimel<br><br>或<br><br>PUT/attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT/attask/api/v15.0/project/4c7...？action=calculateTimeline<br><br>或<br><br>PUT/attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### 移动对象
 
 下面演示了将任务从一个项目移动到另一个项目的语法：
 <pre>PUT/attask/api/v15.0/task/4c7.../move？projectID=5d8...</pre>此处提供了每种操作类型的示例：(??)
-<pre>PUT/attask/api/v15.0/project/1234/approveApproval<br><br>PUT/attask/api/v15.0/project/1234/calculateFinance<br><br>PUT/attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT/attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT/attask/api/v15.0/project/1234/recallApproval<br><br>PUT/attask/api/v15.0/project/1234/rejectApproval<br><br>PUT/attask/api/v15.0/task/1234/move<br><br>PUT/attask/api/v15.0/workitem/1234/markViewed</pre>只有移动操作需要标识附加属性，以指定要移动工作项的项目。
+<pre>PUT/attask/api/v15.0/project/1234/approveApproval<br><br>PUT/attask/api/v15.0/project/1234/calculateFinance<br><br>PUT/attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT/attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT/attask 4/recallApproval<br><br>PUT/attask/api/v15.0/project/1234/rejectApproval<br><br>PUT/attask/api/v15.0/task/1234/move<br><br>PUT/attask/api/v15.0/workitem/1234/markViewed</pre>只有移动操作需要标识附加属性，以指定要移动工作项的项目。
 
 以下是每种操作类型的示例： 
 <pre>PUT/attask/api/v15.0/project/1234？method=put&amp;updates={accessRules：[{accessorID： 'abc123'， accessorObjCode： 'USER'， coreAction： 'VIEW'}]}</pre>
@@ -538,15 +538,15 @@ PUT的响应与GET相同。 在这两种情况下，服务器都会在更新后�
 ## DELETE行为
 
 DELETE删除对象。 在每种情况下，URI都可以包含参数force=true ，以促使服务器删除指定的数据及其依赖项。 在以下示例中，通过在URI上执行HTTPDELETE方法删除任务：
-<pre>DELETE/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task？id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0？force=true <br>DELETE/attask/api/v15.0/task？id=4c78821c0000d6fa8d5e52f07a1d54d0？force=true</pre>
+<pre>DELETE/attask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task？id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task/4c78821c0000d6fa 5e52f07a1d54d0？force=true <br>DELETE/attask/api/v15.0/task？id=4c78821c0000d6fa8d5e52f07a1d54d0？force=true</pre>
 
 ## 批量更新
 
 批量更新语句在单次API调用中同时更新多个对象。 批量创建API调用的构建方式与普通更新调用类似，如以下示例所示：
 <pre>PUT/attask/api/v15.0/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [{<br>    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名称：“Test_Project_1”，<br>    对象代码：“PROJ”、<br>    percentComplete： 0，<br>    计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>    计划开始日期：“2014-08-28T11:00:00:000-0400”，<br>    优先级：0，<br>    预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>    状态：“CUR”<br>}，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名称：“Test_Project_2”，<br>    对象代码：“PROJ”、<br>    percentComplete： 0usi，<br>    计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>    计划开始日期：“2014-08-28T11:00:00:000-0400”，<br>    优先级：0，<br>    预计完成日期：“2014-08-28T16:12:00:000-0400”，<br>    状态：“CUR”<br>}]</pre>您还可以执行与以下内容类似的批量更新：
+<pre>数据： [{<br>}    ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>    名称：“Test_Project_1”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态：“CUR”<br>}，<br>{<br>    ID： "53ff8d49003b43a2562aa34eea3b6b10"，<br>    名称：“Test_Project_2”，<br>    对象代码：“项目”，<br>    完成百分比： 0usi，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:12:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>您还可以执行与以下内容类似的批量更新：
 <pre>PUT/attask/api/v15.0/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>将导致返回类似于以下内容的内容：
-<pre>数据： [ {<br>     ID： "53ff8e15003b461d4560f7f65a440078"，<br>     名称：“Test_Project_1_Edit”、<br>     对象代码：“PROJ”、<br>     percentComplete： 0，<br>     计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>     计划开始日期：“2014-08-28T11:00:00:000-0400”，<br>     优先级：0，<br>     预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>     状态：“CUR”<br>}，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名称：“Test_Project_2_Edit”、<br>    对象代码：“PROJ”、<br>    percentComplete： 0，<br>    计划完成日期：“2014-08-28T11:00:00:000-0400”，<br>    计划开始日期：“2014-08-28T11:00:00:000-0400”，<br>    优先级：0，<br>    预计完成日期：“2014-08-28T16:16:00:000-0400”，<br>    状态：“CUR”<br>}]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
+<pre>数据： [ {<br>}     ID： "53ff8e15003b461d4560f7f65a440078"，<br>     名称：“Test_Project_1_Edit”，<br>     对象代码：“项目”，<br>     percentComplete： 0，<br>     plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>     plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>     优先级： 0，<br>     projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>     状态：“CUR”<br>}，<br>{<br>    ID： "53ff8e19003b46238a58d303608de502"，<br>    名称：“Test_Project_2_Edit”，<br>    对象代码：“项目”，<br>    percentComplete： 0，<br>    plannedCompletionDate： "2014-08-28T11:00:00:000-0400"，<br>    plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>    优先级： 0，<br>    projectedCompletionDate： "2014-08-28T16:16:00:000-0400"，<br>    状态： "CUR"<br>}]</pre>如果希望所有操作在同一事务中发生，请将“atomic=true”作为请求参数添加到批处理API调用中。 这样，如果有任何操作失败，则所有操作都将回退。
 
 >[!NOTE]
 >

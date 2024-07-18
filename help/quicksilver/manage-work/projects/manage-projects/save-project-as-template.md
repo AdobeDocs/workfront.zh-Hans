@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: 将项目另存为模板
-description: 将项目另存为模板另存为模板“另存为模板”，以便用户在UI中看到该内容；还有一篇文章介绍了此链接的更深入（分步）。 此功能需要同时保留在项目和模板区域中。)”
+description: 在项目级别将项目另存为模板另存为模板，以便用户在UI中看到该内容；还有一篇文章提供了更深入的链接（分步）。 此功能需要同时保留在项目和模板区域。)”
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
-如果您决定某个项目在未来的某个时候会再次发生，则可以从该现有项目创建模板。 然后，您可以再次使用模板来创建将来的项目，这些项目可能包含类似的信息或可能与现有项目共享相同的时间轴或分配。
+如果您决定某个项目在未来某个时间再次出现，则可以从现有项目创建模板。 然后，您可以再次使用该模板来创建未来项目，这些项目可能包含类似信息或可能与现有项目共享相同的时间表或工作分配。
 
 ## 访问要求
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 </table>
 -->
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -71,21 +71,21 @@ ht-degree: 1%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对模板的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的或更高权限 </p> <p>在将项目另存为模板后，您将获得对模板的“管理”权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看项目或更高权限 </p> <p>在将项目另存为模板后，您将获得对模板的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 将项目另存为模板
 
 1. 转到要另存为模板的项目。
-1. 单击 **更多** 菜单 ![](assets/qs-more-icon-on-an-object.png)，则 **另存为模板**.
+1. 单击&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**另存为模板**。
 1. 为模板指定以下信息：
 
    <table style="table-layout:auto"> 
@@ -101,34 +101,34 @@ ht-degree: 1%
       <td>提供模板的描述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">活动</td> 
-      <td> <p>从以下选项中进行选择：</p> 
+      <td role="rowheader">为活动</td> 
+      <td> <p>从以下选项中选择：</p> 
        <ul> 
-        <li> <p><strong>是</strong>:其他用户可以找到模板并将其附加到项目。</p> </li> 
-        <li><strong>否</strong>:其他用户找不到模板，无法将其附加到项目。</li> 
+        <li> <p><strong>是</strong>：其他用户可以找到模板并将其附加到项目。</p> </li> 
+        <li><strong>否</strong>：其他用户找不到该模板，也无法将其附加到项目。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">自定义表单</td> 
-      <td>使用下拉列表选择要附加到模板的任何自定义表单。 如果任何自定义表单已与项目关联，则会显示这些自定义表单中的所有数据字段。<br>您最多可以在一个模板中包含10个自定义表单。</td> 
+      <td>使用下拉列表选择要附加到模板的任何自定义表单。 如果有任何自定义表单已与项目关联，则会显示这些自定义表单中的所有数据字段。<br>在一个模板中最多可以包含10个自定义表单。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **管理Forms** 删除或重新排序表单。 有关如何在模板上删除和重新排序自定义表单的信息，请参阅 [自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. 单击&#x200B;**管理Forms**&#x200B;以删除或重新排序表单。 有关如何删除模板上的自定义表单并重新排序的信息，请参阅[自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. 单击 **下一步。**
-1. 在&#x200B;**选项** 选中要从模板中清除的任何信息旁边的复选框。
+1. 单击&#x200B;**下一步。**
+1. 在&#x200B;**选项**&#x200B;部分中，选中要从模板中清除的任何信息旁边的复选框。
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. 单击 **下一步。**
-1. 在 **排除** 选择要从项目中排除的任何任务。
+1. 单击&#x200B;**下一步。**
+1. 在&#x200B;**排除**&#x200B;部分中，选择要从项目中排除的任何任务。
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. 单击 **完成并保存模板。**
+1. 单击&#x200B;**完成并保存模板。**
 
-   您的模板现在会显示在可用模板列表中，并且可以附加到现有项目或用于创建新项目。
+   您的模板现在显示在可用模板的列表中，并可附加到现有项目或用于创建新项目。

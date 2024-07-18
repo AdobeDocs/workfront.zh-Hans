@@ -29,11 +29,11 @@ ht-degree: 0%
 
 本文包含有关修改问题分配的影响的一般信息。 有关如何分配问题的信息，请参阅以下文章：
 
-* 有关分配问题的信息，请参阅 [分配问题](../../../manage-work/issues/manage-issues/assign-issues.md) 和 [修改列表中多个问题的用户分配](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* 有关分配问题的信息，请参阅[分配问题](../../../manage-work/issues/manage-issues/assign-issues.md)和[修改列表中多个问题的用户分配](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
-* 有关使用工作负载均衡器分配问题的信息，请参阅 [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 有关使用工作负载均衡器分配问题的信息，请参阅[在工作负载均衡器中分配工作的概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
-本文中的某些信息也适用于任务的分配。 有关分配任务以及其他注意事项的详细信息，请参阅 [修改任务分配的概览](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+本文中的某些信息也适用于任务的分配。 有关分配任务以及其他注意事项的详细信息，请参阅[修改任务分配概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 
 ## 何时修改问题的用户分配
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 您可以一次从一个问题中删除分配，也可以批量从多个问题中删除分配。
 
-有关从问题中批量删除分配的更多信息，请参阅 [修改列表中多个问题的用户分配](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+有关从问题中批量删除分配的详细信息，请参阅[修改列表中多个问题的用户分配](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
 从问题中删除分配时，请考虑以下事项：
 

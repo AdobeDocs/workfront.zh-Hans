@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有报表增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 更新列表和报告中“工作总揽”字段的新外观
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 * 新的“受限访问”图标
 * 其他次要设计更改
 
-有关列表中的工作分配的更多信息，请参阅 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [分配问题](../../../manage-work/issues/manage-issues/assign-issues.md).
+有关列表中分配的更多信息，请参阅[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[分配问题](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -58,6 +58,6 @@ ht-degree: 0%
 * 现在，当您单击预输入字段时，建议菜单会在您输入文本之前显示。
 * 建议菜单对值的长度更有响应，现在，当满足字符限制时，这些值会在末尾被截断，而不是在值中间被截断。
 
-有关更新的列表的信息，请参见 [已更新列表与旧列表之间的区别](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 部分内容 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关更新的列表的信息，请参阅文章[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[更新列表与旧列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)部分。
 
 ![](assets/typeahead-updates-350x336.png)

@@ -45,7 +45,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 将对象类型添加到现有自定义表单
 
@@ -55,26 +55,26 @@ ht-degree: 0%
 >
 >分区界限权限可能受对象类型影响。 自定义表单分区界限的“有限编辑”权限仅适用于“项目”、“任务”、“问题”和“用户”对象类型。
 >
->有关更多信息，请参阅 [多个对象类型如何影响分区界限权限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>有关详细信息，请参阅[多个对象类型如何影响分区符权限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)。
 
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**自定义Forms**。
 
    在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
-1. 选择要向其添加其他对象类型的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
+1. 选择要向其添加其他对象类型的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
 
-1. 单击表单顶部的加号+之后 **对象类型**，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
+1. 在表单顶部，单击&#x200B;**对象类型**&#x200B;后面的加号+，然后在显示的菜单中选择所需的类型。 您可以重复此操作，以添加所需数量的对象类型。
 
    ![](assets/add-new-object.png)
 
-1. 单击 **保存并关闭**.
+1. 单击&#x200B;**保存并关闭**。
 
    >[!TIP]
    >
-   >您可以单击 **应用** 在创建自定义表单时，可随时保存更改并保持表单打开。
+   >在创建自定义表单时，您可以随时单击&#x200B;**应用**&#x200B;以保存更改并保持表单打开。
 
 ## 删除自定义表单上的对象类型
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms** 在左侧面板中。
-1. 选择要编辑的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
-1. 单击任意 **对象类型** 要从表单中删除的重复项。
+1. 单击左侧面板中的&#x200B;**自定义Forms**。
+1. 选择要编辑的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
+1. 单击要从表单中删除的任何&#x200B;**对象类型**&#x200B;上的X。
 
    ![](assets/delete-object-types.png)
 
 1. （可选）对要从表单中删除的任何其他对象类型重复上一步骤。
-1. 单击 **应用**，然后单击 **保存并关闭**.
+1. 单击&#x200B;**应用**，然后单击&#x200B;**保存并关闭**。

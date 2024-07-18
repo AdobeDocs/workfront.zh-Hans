@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在22.4版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能将在2022年10月3日这一周提供。
 
-有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 在审批流程中使用解锁状态
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 现有布局模板自动包含Blueprint图标，管理员可以从布局模板中删除该图标以限制Blueprint目录的可见性。 在22.4版本之后创建的新布局模板将在“活动项目”列表中包含Blueprint图标。
 
-有关更多信息，请参阅 [配置对Blueprint的访问权限](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+有关详细信息，请参阅[配置对Blueprint的访问权限](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 
 
-有关更多信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+有关详细信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 在此版本之前，只能自定义项目标头。
 
-有关更多信息，请参阅 [使用布局模板自定义对象标题](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+有关详细信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 只有Workfront管理员可以选择启用早期功能。 当管理员选择启用早期功能时，组织中的所有用户都选择启用，并且您的生产Workfront环境中启用了附加功能。
 
-有关更多信息，请参阅 [Adobe Workfront展示板的早期功能加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+有关详细信息，请参阅[Adobe Workfront展示板的早期功能加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 现在，编辑自定义字段的计算更加容易，并可在计算中直接指示有用的错误信息。 在自定义表单中创建计算字段时，错误将以粉红色突出显示。 将鼠标悬停在突出显示的部分上时，将显示工具提示以描述问题所在。
 
-有关更多信息，请参阅 [将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关详细信息，请参阅[将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
@@ -121,6 +121,6 @@ AdobeUnified Experience包括：
 
 * 包含Workfront页面、Adobe Experience Cloud首选项和Workfront配置文件的选项导航
 
-有关更多信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412388/){target=_blank}

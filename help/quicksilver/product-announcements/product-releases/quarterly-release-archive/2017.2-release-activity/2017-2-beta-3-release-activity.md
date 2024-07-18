@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 Beta 3发布活动
+title: 2017.2 Beta 3发行版活动
 description: 本页介绍了2017.2 Beta 2版本在“预览”环境中提供的所有更改。 2017年5月24日，预览环境中提供了此页面上的功能。 该版本将于2017年7月底至8月初在“生产”环境中提供。
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 Beta 3发布活动
+# 2017.2 Beta 3发行版活动
 
 本页介绍了2017.2 Beta 2版本在“预览”环境中提供的所有更改。 2017年5月24日，预览环境中提供了此页面上的功能。 该版本将于2017年7月底至8月初在“生产”环境中提供。
 
@@ -22,25 +22,25 @@ ht-degree: 0%
 >
 >此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.2版中所做所有更改的列表，请参阅 [2017.2发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+有关2017.2版中所做所有更改的列表，请参阅[2017.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)。
 
-2017.2测试版2包含面向Workfront管理员和其他用户的增强功能：
+2017.2 Beta 2版本包含面向Workfront管理员和其他用户的增强功能：
 
-**对于管理员：**
+管理员的&#x200B;**：**
 
-* [从回收站批量恢复项目](#restoring-items-in-bulk-from-the-recycle-bin)
+* [正在从回收站批量还原项目](#restoring-items-in-bulk-from-the-recycle-bin)
 * [用户信息从Workfront同步到ProofHQ(ProofHQ和Workfront)](#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront)
 
-**对于所有用户：** 
+所有用户&#x200B;**：** 
 
 * [查看订阅的用户](#view-subscribed-users)
 * [配置里程碑在甘特图上的显示方式](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [导出到PDF时包含甘特图图例](#include-the-gantt-chart-legend-when-exporting-to-pdf)
-* [在“我的工作区”(Workfront)中查看验证审批](#view-proof-approvals-in-the-my-work-area-workfront)
-* [从“我的工作区”(Workfront)处理验证审批请求时查看用户名](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
-* [改进了视频校样的校对查看器(ProofHQ和Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
-* [以备用分辨率查看富媒体校样(ProofHQ和Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [文档版本报告(Workfront)中的新“验证创建者”对象](#new-proof-creator-object-in-document-version-report-workfront)
+* 导出到PDF时[包含甘特图图例](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [在“我的工作区(Workfront)”中查看校对审批](#view-proof-approvals-in-the-my-work-area-workfront)
+* [从我的工作区(Workfront)处理验证审批请求时查看用户名](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
+* [改进了视频校对(ProofHQ和Workfront)的校对查看器](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
+* [以备用分辨率(ProofHQ和Workfront)查看富媒体校样](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
+* 文档版本报告(Workfront)中的[新“校对创建者”对象](#new-proof-creator-object-in-document-version-report-workfront)
 * [新资源池功能暂时从预览中删除](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## 从回收站批量恢复项目 {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 在此更改之前，一次只能恢复一个已删除的项目。
 
-有关恢复项目的详细信息，请参阅 [恢复已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+有关还原项目的详细信息，请参阅[还原已删除的项目](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。
 
 ## 查看订阅的用户 {#view-subscribed-users}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 在此增强功能之前，您不知道谁订阅了任何项目。
 
-有关订阅项目的详细信息，请参阅 [订阅Adobe Workfront中的项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md). 
+有关订阅项目的详细信息，请参阅[在Adobe Workfront中订阅项目](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)。 
 
 ## 配置里程碑在甘特图上的显示方式 {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 在此更改之前，只有一个选项允许里程碑显示在甘特图上，称为“里程碑”。 此选项同时启用了里程碑菱形图标和里程碑线。 无法分隔这些指示器。
 
-有关配置信息在甘特图中的显示方式的更多信息，请参阅 [配置信息在甘特图上的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+有关配置信息在甘特图中的显示方式的更多信息，请参阅[配置信息在甘特图中的显示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
 ## 导出到PDF时包含甘特图图例 {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 在此更改之前，无法从导出的PDF中排除图例，并且该图例包含甘特图的所有可能选项和标记，无论它们在UI中是已启用还是存在。
 
-有关导出甘特图的更多信息，请参见 [将甘特图导出到PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+有关导出甘特图的详细信息，请参阅[将甘特图导出到PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 ## 用户信息从Workfront同步到ProofHQ(ProofHQ和Workfront) {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -101,15 +101,15 @@ ht-degree: 0%
 >
 > 仅从首次将此功能引入相应的预览或生产环境开始，报告中才提供此信息；在引入此功能之前，报告中有关请求者对象的信息不可用。
 
-创建文档版本报告时，您可以访问校样创建者对象，如中所述 [创建自定义报表](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+创建文档版本报告时，您可以访问校样创建者对象，如[创建自定义报告](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
 
-有关“文档版本”对象报表的详细信息，请参见 [了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 中的部分 [了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关文档版本对象报表的更多信息，请参阅[了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[了解Adobe Workfront中的对象](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)部分。
 
 ## 在“我的工作区”(Workfront)中查看验证审批 {#view-proof-approvals-in-the-my-work-area-workfront}
 
-您提交以供审批的所有验证审批现在都显示在“我的工作”区域的 **我已经提交供审批的工作** 选项卡。
+现在，您已提交审批的所有验证审批都显示在“我的工作”区域的&#x200B;**我已提交审批的工作**&#x200B;选项卡中。
 
-在此更改之前， **我已经提交供审批的工作** 选项卡不包括验证审批。
+在此更改之前，我已提交审批的&#x200B;**工作**&#x200B;选项卡不包括验证审批。
 
 仅当满足以下条件时，才会显示验证审批：
 
@@ -117,13 +117,13 @@ ht-degree: 0%
 * 审批流程会分配给拥有许可的Workfront用户(不会显示分配给未获得许可的Workfront用户的审批流程)
 * 在发放此功能后启动审批流程（不显示发放此功能前启动的审批流程）
 
-有关更多信息，请参阅 [查看审批](../../../../review-and-approve-work/manage-approvals/view-approvals.md) 在 [查看审批](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+有关详细信息，请参阅[查看审批](../../../../review-and-approve-work/manage-approvals/view-approvals.md)中的[查看审批](../../../../review-and-approve-work/manage-approvals/view-approvals.md)。
 
 ## 从“我的工作区”(Workfront)处理验证审批请求时查看用户名 {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 现在，当从“我的工作”区域审批验证审批时，将显示请求审批的用户的名称。
 
-有关更多信息，请参阅 [审批工作](../../../../review-and-approve-work/manage-approvals/approving-work.md) 在 [审批工作](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+有关详细信息，请参阅[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。 
 
 ## 改进了视频校样的校对查看器(ProofHQ和Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -145,11 +145,11 @@ Workfront和ProofHQ中的校对查看器正在更新，其中包含新的外观�
 
 * proofhq预览环境
 
-  有关ProofHQ预览环境的更多信息，请参阅 [预览Sandbox测试环境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+  有关ProofHQ预览环境的更多信息，请参阅[预览Sandbox测试环境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)。
 
 * Workfront预览环境，当帐户已启用验证时
 
-  有关“Workfront预览”环境的更多信息，请参阅  [Adobe Workfront预览Sandbox环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  有关“Workfront预览”环境的更多信息，请参阅  [Adobe Workfront预览沙盒环境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 在此版本中，新的校对查看器仅支持视频校对。 这意味着所有视频校样都利用新的校样查看器，而所有静态和富媒体校样都继续利用现有的校样查看器。
 
@@ -167,7 +167,7 @@ Workfront和ProofHQ中的校对查看器正在更新，其中包含新的外观�
 
 您可以使用比较模式来比较不同的验证分辨率。
 
-有关更多信息，请参阅 [在桌面验证查看器中打开验证](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
+有关详细信息，请参阅[在桌面验证查看器中打开验证](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)。 
 
 ## 新资源池功能暂时从预览中删除 {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

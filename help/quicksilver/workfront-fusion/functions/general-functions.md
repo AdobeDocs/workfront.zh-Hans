@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 中的常规函数 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的常规函数
 
 ## 访问要求
 
@@ -36,27 +36,27 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL get（对象或数组；路径）]
+## [!UICONTROL get （对象或数组；路径）]
 
 返回对象或数组的值路径。 要访问嵌套对象，请使用点表示法。 数组中的第一项是索引1。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL if （表达式；值1；值2）]
 
-返回 `value1` 如果表达式的计算结果为true，则返回 `value2`.
+如果表达式计算为true，则返回`value1`；否则，返回`value2`。
 
 >[!INFO]
 >
@@ -85,27 +85,27 @@ ht-degree: 0%
 >
 >   返回B
 
-## [!UICONTROL imfempty （值1；值2）]
+## [!UICONTROL ifempty （值1；值2）]
 
-返回 `value1` 如果此值不为空，则会返回 `value2`.
+如果此值不为空，则返回`value1`；否则返回`value2`。
 
 >[!INFO]
 >
 >**示例：**
 >
->* `ifempty(` `A` `;` `B` )
+>* `ifempty(` `A` `;` `B`
 >
 >   返回
 >
->* `ifempty(` `unknown` `;` `B` )
+>* `ifempty(` `unknown` `;` `B`
 >
 >   返回B
 >
->* `ifempty(` `""` `;` `B` )
+>* `ifempty(` `""` `;` `B`
 >
 >   返回B
 
-## [!UICONTROL 开关(表达式；值1；结果1； [值2；结果2； ...]； [否则])]
+## [!UICONTROL switch （表达式；值1；结果1；[值2；结果2； ...]；[else]）]
 
 根据值列表计算一个值（称为表达式）；返回与第一个匹配值对应的结果。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 >
 >  返回4
 
-## [!UICONTROL 省略(object； key1； [键2； ...])]
+## [!UICONTROL 省略（对象；键1；[键2； ...]）]
 
 省略对象的给定键并返回其余键。
 
@@ -133,11 +133,11 @@ ht-degree: 0%
 >
 >**示例：**
 >
->`omit(` 用户 `;` 密码 `)`
+>`omit(`用户`;`密码`)`
 >
 >返回用户信息（不包括密码）的集合。
 
-## [!UICONTROL pick(object； key1； [键2； ...])]
+## [!UICONTROL pick(object； key1； [key2； ...])]
 
 仅从对象中选取给定的键。
 
@@ -145,6 +145,6 @@ ht-degree: 0%
 >
 >**示例：**
 >
->`pick(` 用户 `;` 密码 `;` 电子邮件 `)`
+>`pick(`用户`;`密码`;`电子邮件`)`
 >
 >仅返回用户的密码和电子邮件地址的集合。

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [修改任务分配的概览](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [修改任务分配的概述](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [创建高级工作](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)

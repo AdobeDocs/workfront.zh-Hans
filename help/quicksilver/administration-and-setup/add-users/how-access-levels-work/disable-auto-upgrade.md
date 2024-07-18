@@ -21,7 +21,7 @@ ht-degree: 1%
 
 对于新计划上的所有未付费Workfront许可证，验证和文档决策受到限制。 当用户达到其分配数量的决策时，默认情况下会升级到轻量级许可证。
 
-您可以从设置区域禁用自动升级选项。 要详细了解自动升级的工作方式，请参阅 [非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+您可以从设置区域禁用自动升级选项。 要了解有关自动升级工作方式的更多信息，请参阅[非付费用户的有限文档和验证决策概述](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)。
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 展开 [!UICONTROL **系统**] 在左侧导航中，然后单击 [!UICONTROL **偏好设置**].
-1. 在 [!UICONTROL **常规首选项**] 部分，检查 [!UICONTROL **在访问级别内禁用自动升级**] 盒子。
+1. 在左侧导航中展开&#x200B;[!UICONTROL **系统**]，然后单击&#x200B;[!UICONTROL **首选项**]。
+1. 在&#x200B;[!UICONTROL **常规首选项**]&#x200B;部分中，选中&#x200B;[!UICONTROL **禁用访问级别内的自动升级**]&#x200B;框。
 1. 单击&#x200B;[!UICONTROL **保存**]。

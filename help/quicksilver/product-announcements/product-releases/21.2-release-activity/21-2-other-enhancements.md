@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2其他增强功能
 
-本页介绍了在21.2版本中对“预览”环境进行的所有其他增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了在21.2版本中对“预览”环境进行的所有其他增强功能。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 我们现在正式命名为Adobe Workfront
 
@@ -25,11 +25,11 @@ Workfront已更名为Adobe Workfront。
 
 Adobe Workfront应用程序和面向客户的网站中最突出的领域现已更新。 其他区域将很快更新。
 
-**更新的区域**
+**已更新区域**
 
 * 登录屏幕、顶部导航、校对
 * 布局模板UI、主菜单、自定义Forms导出(仅在新的Adobe Workfront Experience中可用)
-* Workfront移动设备应用程序(iOS和Android)
+* Workfront移动应用程序(iOS和Android)
 
 区域即将更新
 
@@ -49,7 +49,7 @@ Adobe Workfront应用程序和面向客户的网站中最突出的领域现已�
 
 如果您使用电子邮件允许列表，则新用户和更新后的用户电子邮件地址现在将根据允许列表进行验证。 当添加新用户或编辑现有用户并输入不在允许列表上的电子邮件域时，将会出现一条消息，通知您该用户不会收到电子邮件。 您仍然可以保存用户配置文件，但您应该将域添加到允许列表，以便用户接收电子邮件。
 
-有关更多信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 对象标题的新外观
 
@@ -70,7 +70,7 @@ Adobe Workfront应用程序和面向客户的网站中最突出的领域现已�
 
 新Workfront体验中各个区域（例如增强型分析、资源管理等）的页面标题也具有这种更新的外观。
 
-要详细了解新Workfront Experience中的新对象标头，请参阅 [新建对象标题](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+若要了解有关新Workfront Experience中新对象标头的更多信息，请参阅[新对象标头](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Workfront现在以新的方式存储对象状态。
 
 这些更改不会影响发出状态搜索请求的方式。 但是，包含对象状态搜索的API请求将返回不完整的组状态列表。
 
-有关更多信息，请参阅 [核心API更改：状态搜索响应](../../../wf-api/api/api-changes-search.md) .
+有关详细信息，请参阅[核心API更改：状态搜索响应](../../../wf-api/api/api-changes-search.md) 。
 
 ## 更新了事件订阅有效负荷，以包含所有以ID结尾的字段
 
@@ -96,4 +96,4 @@ Workfront现在以新的方式存储对象状态。
 
 Blueprint提供了基本构建块，帮助您创建随增长而增长的工作管理系统。 系统管理员可以浏览Blueprint目录并安装现成的项目模板。
 
-有关更多信息，请参阅 [Blueprint](../../../administration-and-setup/blueprints/blueprints.md).
+有关详细信息，请参阅[蓝图](../../../administration-and-setup/blueprints/blueprints.md)。

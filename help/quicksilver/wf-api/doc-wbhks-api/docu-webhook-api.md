@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 3%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Workfront Document Webhooks定义了一组API端点，Workfront通过这�
 
 ## 参考实施
 
-为了帮助快速启动新的Webhooks实施的开发，Workfront提供了一个参考实施。 此功能的代码可在以下位置找到： [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 此实施基于Java，允许Workfront通过网络文件系统连接文档。
+为了帮助快速启动新的Webhooks实施的开发，Workfront提供了一个参考实施。 可以在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)中找到此代码。 此实施基于Java，允许Workfront通过网络文件系统连接文档。
 
 ## 注册Webhook集成
 
@@ -108,7 +108,7 @@ OAuth2允许Workfront代表用户向webhook提供程序发出授权的API调用�
 1. 用户开始将webhook集成连接到其帐户。 目前，可通过单击“添加文档”下拉列表>“添加服务”>自定义集成名称来完成此操作。
 1. Workfront会为用户导航身份验证URL，这可能会提示用户登录到外部文档提供商。 此页面由webhook提供程序或外部文档管理系统托管。 在执行此操作时，Workfront会向身份验证URL添加“state”参数。 必须在以下步骤中，通过将相同的值附加到Workfront返回URI，将此值传递回Workfront。
 1. 登录到外部系统后（或者如果用户已登录），用户将被带到“身份验证”页面，该页面解释Workfront正在请求访问权限以代表用户执行一组操作。
-1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并添加“code=`<code>`”到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有以下“state=`<sent_by_workfront>`“。
+1. 如果用户单击“允许”按钮，浏览器将重定向到Workfront重定向URI ，并将“code=`<code>`”添加到查询字符串。 根据OAuth2规范，此令牌的生命周期短。 查询字符串还必须具有以下“state=`<sent_by_workfront>`”。
 1. Workfront处理此请求，并使用授权代码对令牌端点URL进行API调用。
 1. 令牌端点URL返回刷新令牌和访问令牌。
 1. Workfront存储这些令牌并完全为此用户预配webhook集成。
@@ -277,7 +277,7 @@ client_secret=6asdf7a7a9a4af
 
 **URL**
 
-GET/metadata？id=[文档或文件夹ID]
+/metadata？id=[文档或文件夹ID]GET
 
 **查询参数**
 
@@ -315,7 +315,7 @@ GET/metadata？id=[文档或文件夹ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>标题 </td> 
    <td>字符串 </td> 
    <td>文档或文件夹的名称</td> 
   </tr> 
@@ -595,7 +595,7 @@ POST/uploadInit
 
 **响应**
 
-`[file_metadata]` 包含文档提供商使用的新文档ID。
+`[file_metadata]`包含文档提供程序使用的新文档ID。
 
 ### 上传文件 — 第2部分（共2部分）
 
@@ -634,7 +634,7 @@ PUT/upload
 }
 ```
 
-**示例：** `https://www.acme.com/api/upload?id=1234` *[更新流中包含的文档字节]*
+**示例：** `https://www.acme.com/api/upload?id=1234` *[文档字节包含在更新流中]*
 
 **响应**
 
@@ -654,7 +654,7 @@ GET/serviceInfo
 
 查询参数
 
-无. 此外，对此端点的调用不应需要身份验证。
+无。 此外，对此端点的调用不应需要身份验证。
 
 **响应**
 
@@ -819,11 +819,11 @@ PUT/rename
 
  
 
-个回应
+响应
 
 指示成功或失败的JSON字符串，如下面的错误处理部分中所述。
 
-**示例:**
+**示例：**
 
 `PUT https://www.acme.com/api/rename`
 
@@ -1007,7 +1007,7 @@ GET/customAction
 测试以下端点： /thumbnail
 
 1. 将文档链接到Workfront。
-1. 在列表中选择文档。
+1. 选择列表中的文档。
 1. 验证缩略图是否显示在右侧面板中。
 
 ### 测试9：获取内容字节

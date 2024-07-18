@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了23.1版本对“预览”环境做出的所有移动设备增强。 这些增强功能将在2023年1月16日这一周的“生产”环境中提供。
 
-有关23.1版本可用的所有更改列表，请参阅 [23.1发行版概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+有关23.1版本的所有可用更改列表，请参阅[23.1版本概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## 展示板现在可在移动应用程序中获取
 

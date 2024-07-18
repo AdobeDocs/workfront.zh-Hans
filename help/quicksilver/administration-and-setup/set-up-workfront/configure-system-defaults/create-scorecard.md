@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建记分卡
-description: 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映组织的使命、价值和战略目标。Portfolio经理通常定义记分卡问题和答案，以确保它们在项目优先级和选择期间具有意义和价值。 An [!DNL Adobe Workfront] 管理员根据项目组合经理的建议构建记分卡。
+description: 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映组织的使命、价值和战略目标。Portfolio经理通常定义记分卡问题和答案，以确保它们在项目优先级和选择期间具有意义和价值。  [!DNL Adobe Workfront] 管理员根据项目组合经理的建议构建记分卡。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 记分卡衡量项目与项目组合中以前建立的标准的匹配程度。 记分卡通常反映了组织的使命、价值观和战略目标。
 
-Portfolio经理通常会定义记分卡问题和答案，以确保它们在项目优先级和选择过程中具有意义和价值。 An [!DNL Adobe Workfront] 管理员根据项目组合经理的建议构建记分卡。
+Portfolio经理通常会定义记分卡问题和答案，以确保它们在项目优先级和选择过程中具有意义和价值。 [!DNL Adobe Workfront]管理员根据项目组合经理的建议构建记分卡。
 
 为记分卡选择的问题和答案必须可量化，以便提供用于比较不同项目的对齐值。
 
@@ -60,13 +60,13 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
 
 {{step-1-to-setup}}
 
-1. 单击 **[!UICONTROL 记分卡]**，然后单击 **[!UICONTROL 新建记分卡]** 启动记分卡生成器并创建记分卡。
+1. 单击&#x200B;**[!UICONTROL 记分卡]**，然后单击&#x200B;**[!UICONTROL 新建记分卡]**&#x200B;以启动记分卡生成器并创建记分卡。
 
-1. 指定 **[!UICONTROL 记分卡名称]** 和 **[!UICONTROL 描述]**.
+1. 指定&#x200B;**[!UICONTROL 记分卡名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    将记分卡与项目关联时，将显示名称。 描述显示在记分卡列表中的记分卡名称旁边。
 
-1. 单击 **[!UICONTROL 添加问题]** 下拉菜单打开 [!UICONTROL 记分卡问题] 部分，然后为问题指定以下信息：
+1. 单击&#x200B;**[!UICONTROL 添加问题]**&#x200B;下拉菜单以打开[!UICONTROL 记分卡问题]部分，然后为问题指定以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -82,30 +82,30 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL负点]</td> 
-      <td>选择此选项以指示 [!DNL Workfront] 应该减去总可能分数。 无法将负分添加到记分卡的最大可能点数。</td> 
+      <td>选择此选项以指示[!DNL Workfront]应减去总可能分数。 无法将负分添加到记分卡的最大可能点数。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL显示类型]</td> 
-      <td>选择 <strong>[！UICONTROL值(0-100)]</strong> 如果要在记分卡中显示数值字段，用户可以在其中指定0-100之间的任何值。<p>或者，选择 <strong>[！UICONTROL下拉列表]</strong> 或 <strong>[！UICONTROL单选按钮]</strong> 创建答案，用户可使用该控件指定。 单击 <strong>[！UICONTROL添加答案]</strong>，然后键入 <strong>[！UICONTROL值]</strong> 如果回答已完成，则以百分点表示。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
-      <p>选择 <strong>[！UICONTROL Default]</strong> 如果您指明此答案是默认答案。</strong></p>
+      <td>如果要显示记分卡中的数字字段，且用户可以指定介于0-100之间的任何值，请选择<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，选择<strong>[！UICONTROL下拉列表]</strong>或<strong>[！UICONTROL单选按钮]</strong>，以创建用户可以使用该控件指定的答案。 单击<strong>[！UICONTROL添加答案]</strong>，然后为该答案键入以百分比表示的<strong>[！UICONTROL值]</strong>（如果已完成）。 如果选择100%，则完全达到为该问题分配的点数。 如果要指明此答案仅包含分配给此问题的总点数的一部分，请选择一个较低的百分比值。 例如，如果问题的值是10点，而您希望此答案携带其中5点，则选择50%作为值。</p>
+      <p>如果要指定此答案为默认答案，请选择<strong>[！UICONTROL默认值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 添加问题]** 要向记分卡添加更多问题和答案，请执行以下步骤。
+1. 单击&#x200B;**[!UICONTROL 添加问题]**，按照相同的步骤向记分卡添加更多问题和答案。
 
    >[!NOTE]
    >
    >您可以按照正确的顺序拖放问题，对记分卡中的问题重新排序。
 
-1. 单击 **[!UICONTROL 保存]** 当您完成输入所有信息时。
+1. 输入完所有信息后，单击&#x200B;**[!UICONTROL 保存]**。
 
    这会创建记分卡，项目经理现在可以将其附加到他们的项目业务案例中。
 
 ## 将记分卡应用到项目
 
-用户具有 [!UICONTROL 管理] 项目的权限可在用户创建记分卡后将记分卡应用于项目 [!DNL Workfront] 管理员。
+对项目具有[!UICONTROL 管理]权限的用户可以在[!DNL Workfront]管理员创建记分卡后将记分卡应用到项目。
 
-记分卡会作为为项目创建业务案例的一部分添加到项目中。 有关将记分卡添加到项目的更多信息，请参阅 [将记分卡应用于项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+记分卡会作为为项目创建业务案例的一部分添加到项目中。 有关将记分卡添加到项目的详细信息，请参阅[将记分卡应用到项目并生成一致性分数](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)。
 
-有关项目权限的更多信息，请参阅 [在中共享项目 [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+有关项目权限的详细信息，请参阅[在 [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)中共享项目。

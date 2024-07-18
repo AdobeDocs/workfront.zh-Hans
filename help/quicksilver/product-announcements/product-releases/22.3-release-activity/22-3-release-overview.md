@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3发行版概述
 
-本页介绍了22.3版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中也提供了某些功能；但是， [Workfront Classic将于2022年3月停产](https://one.workfront.com/s/new-workfront-experience)，不久后将于2022年7月结束Workfront Classic的生命周期。
+本页介绍了22.3版本中包含的功能。 新增的Adobe Workfront Experience中提供了列出的所有功能。 Adobe Workfront Classic中还提供了某些功能；但是，[Workfront Classic将于2022年3月停产](https://one.workfront.com/s/new-workfront-experience)，此后不久将于2022年7月结束Workfront Classic的生命周期。
 
 这些增强功能已在2022年7月11日这一周的生产环境中提供。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [项目增强功能](#project-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
 * [报表增强功能](#reporting-enhancements)
-* [集成增强功能](#integration-enhancements)
+* [集成增强](#integration-enhancements)
 * [移动增强功能](#mobile-enhancements)
 * [其他增强功能](#other-enhancements)
 
@@ -139,7 +139,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">从组页面取消激活组</a> </p> <p>最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，可以选择“更多”菜单 <img src="assets/more-icon.png"> 在组名旁边，选择停用或重新激活。</p> <p>以前，只能使用群组“详细信息”页面上的“处于活动状态”复选框来停用或重新激活群组。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">从组页面</a>停用组 </p> <p>最近，我们添加了取消激活和重新激活组的功能。 为了更快、更轻松地执行该操作，我们将其添加到组的页面。 现在，在单击组名以转到其页面后，您可以选择组名旁边的更多菜单<img src="assets/more-icon.png">，然后选择停用或重新激活。</p> <p>以前，只能使用群组“详细信息”页面上的“处于活动状态”复选框来停用或重新激活群组。 </p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>预览版本： 2022年4月14日<br></p> </li> 
@@ -232,7 +232,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">在审批流程中涉及具有共同角色的两个用户时保留准确的信息</a> </p> <p>为了确保批准工作的数据的准确性，当多角色批准流程与项目关联时，我们对项目上记录批准信息的方式进行了更改。</p> <p>某些审批流程需要由两个不同的角色进行审批，而两个不同的审批者可能具有相同的其中一个角色。 现在，发生这种情况时，在做出批准决策后，Workfront会记录每个批准者及其与批准流程关联的角色。</p> <p>在此更改之前，已为第二个用户记录两个批准，因为它们与第一个批准者共享一个批准角色。 在这种情况下，第二个批准者将覆盖第一个批准者的信息。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">当审批流程涉及两个具有相同角色的用户时，请保留准确的信息</a> </p> <p>为了确保批准工作的数据的准确性，当多角色批准流程与项目关联时，我们对项目上记录批准信息的方式进行了更改。</p> <p>某些审批流程需要由两个不同的角色进行审批，而两个不同的审批者可能具有相同的其中一个角色。 现在，发生这种情况时，在做出批准决策后，Workfront会记录每个批准者及其与批准流程关联的角色。</p> <p>在此更改之前，已为第二个用户记录两个批准，因为它们与第一个批准者共享一个批准角色。 在这种情况下，第二个批准者将覆盖第一个批准者的信息。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>预览版本： 2022年4月21日<br></p> </li> 
@@ -240,15 +240,15 @@ ht-degree: 0%
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic已于2022年3月停产</a>，之后不久，Workfront Classic将于2022年7月终止生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">在问题级别使用模板将问题转化为项目时的新体验</a> </p> <p>为了让您在使用Workfront时与新的Workfront体验保持一致，我们重新设计了界面，在您从问题页面转换模板时将问题转换为项目时，使用该界面。</p> <p>现在，在选择转换问题后，您可以更轻松地立即访问收藏夹列表。</p> <p>重新设计的界面与我们最近更新的模板创建项目时的体验相匹配。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">使用问题级别的模板将问题转化为项目时的新体验</a> </p> <p>为了让您在使用Workfront时与新的Workfront体验保持一致，我们重新设计了界面，在您从问题页面转换模板时将问题转换为项目时，使用该界面。</p> <p>现在，在选择转换问题后，您可以更轻松地立即访问收藏夹列表。</p> <p>重新设计的界面与我们最近更新的模板创建项目时的体验相匹配。</p> </td> 
    <td><strong>在以下日期可用：</strong> 
     <ul> 
      <li> <p>预览版本： 2021年12月8日<br></p> </li> 
-     <li> <p>生产版本：从2022年4月28日开始分阶段推出 <span style="color: #ff0000; font-weight: bold;">此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。</span></p> </li> 
+     <li> <p>生产版本：从2022年4月28日开始分阶段推出<span style="color: #ff0000; font-weight: bold;">此功能已于2022年3月4日从生产环境中暂时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，所有客户都可以在预览和生产环境中使用它。</span></p> </li> 
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
@@ -259,14 +259,14 @@ ht-degree: 0%
    <td><strong>在以下日期可用：</strong> 
     <ul> 
      <li> <p>预览版本： 2021年12月8日<br></p> </li> 
-     <li> <p>生产版本：从2022年4月28日开始分阶段推出 <span style="color: #ff0000; font-weight: bold;">此功能已于2022年3月4日从生产环境中临时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，该功能在“预览”和“生产”版中可供所有客户使用。</span></p> </li> 
+     <li> <p>生产版本：从2022年4月28日开始分阶段推出<span style="color: #ff0000; font-weight: bold;">此功能已于2022年3月4日从生产环境中暂时删除。 该版本后来在2022年4月28日开始分阶段发布。 推广已于2022年5月5日完成。 现在，所有客户都可以在预览和生产环境中使用它。</span></p> </li> 
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">对分配进行更改时，不再删除分配小时数</a> </p> <p>为了确保数据的准确性，我们在更改任务的分配时，进行了相应更改，以保留分配小时数，并保留任务计划小时数不变。</p> <p>已对具有简单持续时间类型的任务进行了以下更改：</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">对分配进行更改时，分配小时数将不再删除</a> </p> <p>为了确保数据的准确性，我们在更改任务的分配时，进行了相应更改，以保留分配小时数，并保留任务计划小时数不变。</p> <p>已对具有简单持续时间类型的任务进行了以下更改：</p> 
     <ul> 
      <li> <p>替换用户和角色时，会保留单独的分配分配。</p> </li> 
      <li> <p>删除用户时，会保留角色上的各个分配分配。</p> </li> 
@@ -278,34 +278,34 @@ ht-degree: 0%
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic已于2022年3月停产</a>，之后不久，Workfront Classic将于2022年7月终止生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic于2022年3月停产</a>，随后于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">仅在文件夹层次结构的前五个级别中共享文件夹</a> （该链接指向20.2发行说明，该功能首次在“预览”中引入。）</p> <p>为确保用户共享文件夹获得最佳性能，我们当前将共享限制为对象上文件夹层次结构中的前五个级别。</p> <p>第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">仅在文件夹层次结构的前五个级别共享文件夹</a>（该链接指向20.2发行说明，当此功能首次在“预览”中引入时）。</p> <p>为确保用户共享文件夹获得最佳性能，我们当前将共享限制为对象上文件夹层次结构中的前五个级别。</p> <p>第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。</p> </td> 
    <td><strong>在以下日期可用：</strong> 
     <ul> 
      <li> <p>预览版本： 2022年2月10日<br></p> </li> 
-     <li> <p>生产版本：随22.2版一起提供 <span style="color: #ff0000; font-weight: bold;">此功能暂时不可用。 当此功能在生产环境中可用时，将更新此页面。</span></p> </li> 
+     <li> <p>生产版本：在22.2版本<span style="color: #ff0000; font-weight: bold;">中，此功能暂时不可用。 当此功能在生产环境中可用时，将更新此页面。</span></p> </li> 
     </ul> <p><strong>在以下环境中可用：</strong> </p> 
     <ul> 
      <li> <p>新的Adobe Workfront体验 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久，Workfront Classic将于2022年7月终止生命周期。)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic将于2022年3月停产</a>，之后不久将于2022年7月终止Workfront Classic的生命周期。)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns（测试版）</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront促销活动(Beta)</a> </p>
                         <p>我们将向Adobe Workfront引入一个新对象，该对象可能会改变您管理工作的方式。 </p>
                         <p>通过Workfront营销活动，可将不同项目组合和项目群中的项目整理到一个新的工作容器中。
-营销活动在22.3版本中于2022年7月发布到预览测试版。 有关更多信息，请参阅 <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3项目增强功能</a> </p>
+营销活动在22.3版本中于2022年7月发布到预览测试版。 有关详细信息，请参阅<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3项目增强功能</a> </p>
 <p>此新容器将在未来版本中改进，以连接当前在单独思洛存储器中管理的工作对象。</p>
 
 </td>
                     <td><span class="bold">在以下日期可用：</span>
                         <ul>
                             <li>
-                                <p>预览版本：在整个22.4版本发布时间范围内<br /><span style="color: #ff0000; font-weight: bold;">此功能计划于2023年1月9日从预览中删除。 欲了解更多信息，请参见 <a href="../23.1-release-activity/23-1-release-overview.md">23.1发行版概述页面。</a> </span></p>
+                                <p>预览版本：在整个22.4版本时间范围内<br /><span style="color: #ff0000; font-weight: bold;">此功能计划于2023年1月9日从预览中删除。 有关详细信息，请参阅<a href="../23.1-release-activity/23-1-release-overview.md">23.1版本概述页面。</a> </span></p>
                             </li>
                             <li>
                                 <p>生产版本：待定</p>
@@ -376,7 +376,7 @@ ht-degree: 0%
    <td> <p><strong>发布日期和环境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">适用于Experience Manager Assets的Adobe Workfront集成</a> </p> <p>我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可供Cloud Service。</p>
+   <td> <p>用于Experience Manager Assets的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront集成</a> </p> <p>我们很高兴地宣布，Adobe Workfront Experience Manager Assets集成现已可供Cloud Service。</p>
    <p>我们还为Cloud Service和Assets Essentials引入了新功能。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
@@ -388,7 +388,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">在Creative Cloud插件的单个验证中合并多个文件</a> </p> <p>您现在可以上传包含您在Adobe Workfront中为Creative Cloud插件创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">将多个文件合并到Creative Cloud插件的单个验证中</a> </p> <p>您现在可以上传包含您在Adobe Workfront中为Creative Cloud插件创建的内容的外部文件，以在Workfront中创建多文件校样。 外部文件在Workfront中显示为其他验证页面。 借助此增强功能，我们还更新了验证创建体验的外观。</p> </td> 
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>预览版本：不适用<br></p> </li> 
@@ -425,7 +425,7 @@ ht-degree: 0%
    <td> <p><strong>发布日期和环境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">移动应用程序中的校对增强功能</a> </p> <p>Adobe Workfront移动设备应用程序现在允许您查看有关校样注释的附件并添加新附件。 附件支持的文件类型包括图像、文档和视频。</p> </td>
+   <td> <p>移动应用中的<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">校对增强功能</a> </p> <p>Adobe Workfront移动设备应用程序现在允许您查看有关校样注释的附件并添加新附件。 附件支持的文件类型包括图像、文档和视频。</p> </td>
    <td> <p><b>在以下日期可用：</b> </p> 
    <p>您还可以在评论和回复中标记其他验证用户。 您标记的任何人都将收到电子邮件通知。</p>
     <ul> 
@@ -461,7 +461,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在22.3版本发布时间范围内的外观更新</a> </p> <p>在22.3版本发布时间范围内，对应用程序各个区域的外观进行了小幅更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。</p> </td>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在22.3发布时间范围内的外观更新</a> </p> <p>在22.3版本发布时间范围内，对应用程序各个区域的外观进行了小幅更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。</p> </td>
    <td> <p><b>在以下日期可用：</b> </p> 
     <ul> 
      <li> <p>预览版本：在整个22.3版本发布时间范围内<br></p> </li> 
@@ -498,7 +498,7 @@ ht-degree: 0%
 
 ## Workfront Fusion增强
 
-Workfront Fusion中的新增功能在22.3版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的更多信息，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion中的新增功能在22.3版本发行计划之外的生产环境中以一定节奏提供。 有关最新功能的详细信息，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
 ## WorkfrontScenario Planner增强功能
 
@@ -508,9 +508,9 @@ Workfront Fusion中的新增功能在22.3版本发行计划之外的生产环境
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Workfront校对增强功能
+## Workfront Proof增强功能
 
-此版本中目前没有Workfront校对更新。 在有可用更新时，将更新此区域。
+此版本中目前没有Workfront Proof更新。 在有可用更新时，将更新此区域。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features in Workfront Proof are now available. For more information, see <a href="../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md" class="MCXref xref" xrefformat="{para}">Workfront Proof release activity:&nbsp;Week of November 29, 2021</a>.</p>
@@ -528,17 +528,17 @@ Workfront Fusion中的新增功能在22.3版本发行计划之外的生产环境
 
 对于API版本14，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新内容的信息，请参阅 [API版本14中的新增功能](../../../wf-api/api/new-api-version-14.md).
+有关新增功能和更新的信息，请参阅[API版本14](../../../wf-api/api/new-api-version-14.md)中的新增功能。
 
-有关API版本的信息，请参阅 [API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md).
+有关API版本的信息，请参阅[API版本控制和支持计划](../../../wf-api/api/api-version-support-schedule.md)。
 
 ## Workfront 维护更新
 
-有关22.3版本中进行的维护更新的信息，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+有关22.3版本期间所做的维护更新的信息，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ## 22.3版本网络研讨会
 
-22.3版本网络研讨会已于2022年6月23日提交。 您可以查看录制 [此处](https://webinars.on24.com/adobe_workfront/whatsnew223?partnerref=WF1).
+22.3版本网络研讨会已于2022年6月23日提交。 您可以在[此处](https://webinars.on24.com/adobe_workfront/whatsnew223?partnerref=WF1)查看录制。
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 培训更新
 
-浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 欲了解更多信息，请参见 [培训版本更新页面](https://one.workfront.com/s/training-release-updates).
+浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[培训版本更新页面](https://one.workfront.com/s/training-release-updates)。
 
 ## 不再支持的功能
 
@@ -573,4 +573,4 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 由于不再支持Internet Explorer，Workfront现在正式支持Microsoft Edge。
 
-有关支持的浏览器的更多信息，请参阅 [Adobe Workfront浏览器要求](../../../workfront-basics/workfront-browser-requirements.md).
+有关支持的浏览器的更多信息，请参阅[Adobe Workfront浏览器要求](../../../workfront-basics/workfront-browser-requirements.md)。

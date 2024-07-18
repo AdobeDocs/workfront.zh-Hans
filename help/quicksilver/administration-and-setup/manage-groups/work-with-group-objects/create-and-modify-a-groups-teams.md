@@ -21,9 +21,9 @@ ht-degree: 3%
 
 如果您的组之上存在任何组，则其管理员还可以为您的组执行这些操作。 Workfront管理员也是如此（适用于任何组）。
 
-有关拥有Plan许可证的用户如何创建团队的信息，请参阅 [创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+有关拥有Plan许可证的用户如何创建团队的信息，请参阅[创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
-有关Workfront管理员如何创建团队的信息，请参阅 [从设置区域创建团队](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+有关Workfront管理员如何创建团队的信息，请参阅[从设置区域创建团队](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 
 ## 访问要求
 
@@ -39,25 +39,25 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授予用户完全管理权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
 ## 从组区域查看、处理和创建组团队
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **组** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
 1. 单击要为其创建或修改团队的组的名称。
-1. 在左侧面板中，单击 **团队** ![](assets/teams.png) 列出与组及其可能具有的任何子组关联的团队。
+1. 在左侧面板中，单击&#x200B;**团队** ![](assets/teams.png)列出与组及其可能具有的任何子组关联的团队。
 
 1. 执行以下任一操作：
 
-   * **添加团队**：单击 **新建团队**，然后使用以下选项进行配置：
+   * **添加团队**：单击&#x200B;**新建团队**，然后使用以下选项对其进行配置：
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">组</td> 
-       <td> <p> 系统将使用您正在查看的组填写新团队的“组”字段。 如果要将团队与其他组相关联，请开始键入组的名称，然后在该组出现时选择该名称。</p> <p>您可以通过将鼠标悬停在该组上并单击信息图标，确保将正确的组与团队相关联 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注意</b>：将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为其成员。 组管理员可以从主菜单转到团队区域，然后单击切换团队箭头 <img src="assets/switch-team-icon.png" alt="“切换团队”图标"> 列出分配给其管理组的所有团队。</p> </td> 
+       <td> <p> 系统将使用您正在查看的组填写新团队的“组”字段。 如果要将团队与其他组相关联，请开始键入组的名称，然后在该组出现时选择该名称。</p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的信息图标<img src="assets/info-icon.png">，来确保将正确的组与该团队相关联。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注意</b>：将团队分配给组或子组时，该组或子组的任何组管理员都可以管理团队，而无需成为其成员。 组管理员可以从主菜单转到团队区域，然后单击切换团队箭头<img src="assets/switch-team-icon.png" alt="“切换团队”图标">以列出分配给他们管理的组的所有团队。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">团队成员</td> 
@@ -96,7 +96,7 @@ ht-degree: 3%
       </tbody> 
      </table>
 
-   * **编辑团队**：至少选择一个团队，然后单击 **该** “编辑”图标 ![](assets/edit-icon.png)，然后使用以下选项进行配置：
+   * **编辑团队**：至少选择一个团队，单击&#x200B;****“编辑”图标![](assets/edit-icon.png)，然后使用以下选项对其进行配置：
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">组</td> 
-       <td> <p>将团队与组关联。 开始键入组的名称，然后在该组出现时选择该名称。</p> <p>您可以通过将鼠标悬停在该组上并单击信息图标，确保将正确的组与团队相关联 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注意</b>：将团队分配给组或子组后，该组或子组的任何组管理员都可以管理团队，而无需成为其成员。 组管理员可以从主菜单转到团队区域，然后单击切换团队箭头 <img src="assets/switch-team-icon.png" alt="“切换团队”图标"> 列出分配给其管理组的所有团队。</p> </td> 
+       <td> <p>将团队与组关联。 开始键入组的名称，然后在该组出现时选择该名称。</p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的信息图标<img src="assets/info-icon.png">，来确保将正确的组与该团队相关联。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p><b>注意</b>：将团队分配给组或子组时，该组或子组的任何组管理员都可以管理团队，而无需成为其成员。 组管理员可以从主菜单转到团队区域，然后单击切换团队箭头<img src="assets/switch-team-icon.png" alt="“切换团队”图标">以列出分配给他们管理的组的所有团队。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">所有者</td> 
@@ -128,22 +128,22 @@ ht-degree: 3%
        </tr> 
        <tr> 
        <td role="rowheader">敏捷</td> 
-       <td>指定这是否为Agile团队。 有关Agile团队以及如何管理其工作的信息，请参阅 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">创建Agile团队</a>.</td> 
+       <td>指定这是否为Agile团队。 有关Agile团队以及如何管理其工作的信息，请参阅<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">创建Agile团队</a>。</td> 
        </tr> 
        <tr> 
        <td role="rowheader">处理此项工作</td> 
-       <td> <p>将处理此项按钮更改为“开始”按钮。 当用户单击“开始”时，项目的状态会自动更新。</p> <p>有关如何配置“开始”按钮的详细信息，请参阅 <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a>.</p> </td> 
+       <td> <p>将处理此项按钮更改为“开始”按钮。 当用户单击“开始”时，项目的状态会自动更新。</p> <p>有关如何配置“开始”按钮的详细信息，请参阅<a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将处理它按钮替换为“开始”按钮</a>。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">完成按钮</td> 
        <td> <p>自定义完成按钮。 有关更多信息，请参阅：</p> 
        <ul> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">为任务配置完成按钮</a> </li> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">配置问题的完成按钮</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">配置任务的“完成”按钮</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">为问题配置“完成”按钮</a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **删除团队**：至少选择一个团队，然后单击“删除”图标 ![](assets/delete.png).
-   * **导出团队列表**：单击 **导出** ![](assets/export.png)，然后为导出的列表选择所需的文件格式。
+   * **删除团队**：至少选择一个团队，然后单击“删除”图标![](assets/delete.png)。
+   * **导出团队列表**：单击&#x200B;**导出**![](assets/export.png)，然后选择导出列表所需的文件格式。

@@ -54,9 +54,9 @@ Workfront与Experience Manager Assets或Assets Essentials之间的集成将工�
 
 ## 快速入门
 
-1. [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. [配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 1. 设置集成：
    1. [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 或
    1. [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. 使用集成：发送资源、创建链接文件夹、映射元数据等。 请参阅 [适用于Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) 以了解更多信息。
+1. 使用集成：发送资源、创建链接文件夹、映射元数据等。 有关详细信息，请参阅Experience Manager Assets和Assets Essentials的[Adobe Workfront：文章索引](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)。

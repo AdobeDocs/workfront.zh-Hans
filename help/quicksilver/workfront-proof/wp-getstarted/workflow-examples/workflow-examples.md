@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [中的基本校对过程 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [内部审查，然后外部审查 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-* [在中使用设计人员和项目经理 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-* [在中与自由职业者合作 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+* [ [!DNL Workfront Proof]中的基本校对过程](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [在 [!DNL Workfront Proof]中进行内部审核，然后再进行外部审核](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [在 [!DNL Workfront Proof]中与设计人员和项目经理合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+* [在 [!DNL Workfront Proof]中与自由翻译人员合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

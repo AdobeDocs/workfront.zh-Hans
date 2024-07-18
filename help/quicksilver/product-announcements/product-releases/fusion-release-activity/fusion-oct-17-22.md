@@ -25,6 +25,6 @@ ht-degree: 0%
 
 以前，此模块中的文件上传限制为5MB。
 
-有关Adobe Creative Cloud Libraries模块的更多信息，请参阅 [Adobe Creative Cloud库模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+有关Adobe Creative Cloud Libraries模块的详细信息，请参阅[Adobe Creative Cloud Libraries模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)。
 
-有关其他Workfront Fusion性能护栏（包括文件大小限制）的信息，请参阅 [Adobe Workfront Fusion性能护栏](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+有关其他Workfront Fusion性能护栏（包括文件大小限制）的信息，请参阅[Adobe Workfront Fusion性能护栏](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md)。

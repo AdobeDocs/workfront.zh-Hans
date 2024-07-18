@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta 4发布活动
-description: 本页介绍了2018.1 Beta 4版本预览环境中最近提供的所有更改。 2018年1月24日，该功能在“预览”环境中提供。 该版本将于2018年3月在生产环境中提供。
+title: 2018.1 Beta 4发行版活动
+description: 本页介绍了2018.1 Beta 4版本在“预览”环境中最近提供的所有更改。 2018年1月24日，该功能在“预览”环境中提供。 该版本将于2018年3月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,44 +14,44 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta 4发布活动
+# 2018.1 Beta 4发行版活动
 
-本页介绍了2018.1 Beta 4版本预览环境中最近提供的所有更改。 2018年1月24日，该功能在“预览”环境中提供。 该版本将于2018年3月在生产环境中提供。
+本页介绍了2018.1 Beta 4版本在“预览”环境中最近提供的所有更改。 2018年1月24日，该功能在“预览”环境中提供。 该版本将于2018年3月在生产环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.1版中所做所有更改的列表，请参阅  [2018.1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+有关2018.1版中所做所有更改的列表，请参阅  [2018.1版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
 * [由组管理员管理的计划](#schedules-managed-by-group-administrators)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
-* [Workfront中的验证改进](#proofing-improvements-within-workfront)
-* [在Workfront Proof中创建验证 — 改进了用户体验和其他功能](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Workfront和Workfront Proof中的验证改进](#proofing-improvements-within-workfront-and-workfront-proof)
+* Workfront中的[验证改进](#proofing-improvements-within-workfront)
+* 在Workfront Proof中创建[验证 — 改进了用户体验和其他功能](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* Workfront和Workfront Proof中的[校对改进](#proofing-improvements-within-workfront-and-workfront-proof)
 * [Workfront Proof中的Basecamp集成更新了外观](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
 * [将图片从剪贴板粘贴到Workfront](#paste-images-to-workfront-from-the-clipboard)
 * [利用率报告改进](#utilization-report-improvements)
 * [从Workfront中删除资源预算小时对象](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [报告使用情况统计数据](#report-usage-statistics)
 * [甘特图更新](#gantt-chart-updates)
-* [新的Portfolio优化器](#new-portfolio-optimizer)
-* [资源规划者中的预算日期调整选项](#budget-date-adjustment-option-in-the-resource-planner)
+* [新Portfolio优化器](#new-portfolio-optimizer)
+* 资源规划者中的[预算日期调整选项](#budget-date-adjustment-option-in-the-resource-planner)
 * [资源计划：根据组成员资格限制分配给用户](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [资源计划：允许分配给用户，而不管角色如何](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [资源计划：允许分配给用户，而不管角色是什么](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Emoji支持](#emoji-support)
 
 ## Workfront中的验证改进 {#proofing-improvements-within-workfront}
 
 对Workfront中的文档列表进行了以下改进： 
 
-* [从文档列表查看验证进度](#view-proof-progress-from-the-document-list)
+* [从文档列表查看校对进度](#view-proof-progress-from-the-document-list)
 * [从文档列表查看打印摘要的新选项](#new-option-to-view-the-print-summary-from-the-document-list)
 * [更新了从文档列表生成或打开验证的外观](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
 * [从文档列表上的文档中删除的各种链接](#various-links-removed-from-documents-on-the-document-list)
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 在此更改之前，您必须在文档列表中选择验证以在右侧面板中查看验证进度。 
 
-有关更多信息，请参阅 [校对进度和状态概述](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+有关详细信息，请参阅[校对进度和状态概述](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)。
 
 ### 从文档列表查看打印摘要的新选项 {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 在此更改之前，您只能从校对查看器中查看打印摘要。 
 
-有关从文档列表查看打印摘要的详细信息，请参阅 [在Adobe Workfront中打印验证摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+有关从文档列表查看打印摘要的详细信息，请参阅[在Adobe Workfront中打印校对摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
 ### 更新了从文档列表生成或打开验证的外观 {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -89,8 +89,8 @@ ht-degree: 0%
 
 以下操作不再作为文档列表中各个文档的链接提供：
 
-* 生成证明
-* 校对
+* 生成校样
+* 校样
 * 详细信息
 * 共享
 * 签出/签入
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 现在，在打开验证或生成验证按钮旁边的下拉菜单中可使用以下操作：
 
-* 校对详细信息
+* 校样详细信息
 * 文档详细信息
 * 打印摘要
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 现在，在文档列表中选择验证时，当前活动阶段显示在详细信息选项卡的右列。 
 
-有关更多信息，请参阅 [查看验证上的活动阶段](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+有关详细信息，请参阅[在校对上查看活动阶段](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)。  
 
 ## 在Workfront Proof中创建验证 — 改进了用户体验和其他功能 {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
@@ -139,14 +139,14 @@ ht-degree: 0%
 >
 >Workfront Proof中的这个新验证创建页面现在与最近在Workfront中创建验证时提供的验证创建页面匹配。 
 
-有关更多信息，请参阅  [在Workfront Proof中生成验证](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+有关更多信息，请参阅  [在Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中生成验证。
 
 ## Workfront和Workfront Proof中的验证改进 {#proofing-improvements-within-workfront-and-workfront-proof}
 
 将文档添加到Workfront和Workfront Proof时，以下更改适用：
 
 * [查看验证时调整评论列表大小](#resize-the-comment-list-when-reviewing-proofs)
-* [查看静态验证时，超链接处于活动状态](#hyperlinks-are-active-when-reviewing-static-proofs)
+* 审阅静态校样时，[超链接处于活动状态](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [添加验证时的改进](#improvements-when-adding-proofs)
 
 ### 查看验证时调整评论列表大小 {#resize-the-comment-list-when-reviewing-proofs}
@@ -188,7 +188,7 @@ ht-degree: 0%
    * 主要决策者
    * 只需要一个决策
 
-## Workfront Proof中的Basecamp集成更新了外观 {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
+## 通过Workfront Proof中的Basecamp集成更新了外观 {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
 Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
@@ -198,7 +198,7 @@ Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
 从剪贴板粘贴的功能已在以前的版本中从Workfront中删除；此版本正在重新引入此功能。 新方法更加简洁直观。
 
-有关更多信息，请参阅 [粘贴剪贴板中的图像](../../../../documents/managing-documents/paste-image-clipboard.md). 
+有关详细信息，请参阅[从剪贴板粘贴图像](../../../../documents/managing-documents/paste-image-clipboard.md)。 
 
 ## 利用率报告改进 {#utilization-report-improvements}
 
@@ -227,7 +227,7 @@ Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
 * 改进的性能
 
-有关“利用率”报告的详细信息，请参见 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关利用率报告的详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 从Workfront中删除资源预算小时对象 {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -235,7 +235,7 @@ Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
 提醒一下，资源预算小时数是您在资源规划者中为资源或项目预算的小时数。 目前，您无法再在Web应用程序中或通过API报告此字段。 当性能问题得到解决后，该字段将在未来版本中恢复。
 
-有关资源规划者中预算小时数的详细信息，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+有关资源规划者中预算小时数的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)。 
 
 ## 报告使用情况统计数据 {#report-usage-statistics}
 
@@ -250,13 +250,13 @@ Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
 在此更新之前，您在报表中看到的使用信息有限。
 
-有关报告用法的详细信息，请参阅 [查看报告使用情况](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+有关报告使用情况的详细信息，请参阅[查看报告使用情况](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## 由组管理员管理的计划 {#schedules-managed-by-group-administrators}
 
 作为组管理员，您可以创建和编辑与所管理组及其子组相关联的计划。 在此更改之前，只有Workfront管理员才能创建和编辑计划。
 
-有关管理时间表的详细信息，请参见 [创建计划](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+有关管理计划的详细信息，请参阅[创建计划](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 ## 甘特图更新 {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ Basecamp与Workfront Proof集成的外观现已更新。 功能保持不变。
 
 在此更改之前，您只能在甘特图中删除前置任务关系，并且只能在任务列表中编辑任务。
 
-有关甘特图的详细信息，请参阅 [更新任务列表甘特图中的信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+有关甘特图的详细信息，请参阅任务列表甘特图中的[更新信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## 新的Portfolio优化器 {#new-portfolio-optimizer}
 
 Workfront的Portfolio优化器区域现在更新了新外观。 功能没有改变。
 
-有关Portfolio优化程序的详细信息，请参阅 [Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+有关Portfolio优化程序的详细信息，请参阅[Portfolio优化程序概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## 资源规划者中的预算日期调整选项 {#budget-date-adjustment-option-in-the-resource-planner}
 
 我们新增了一个选项，可让您快速查看时间范围，而不会出现预算冲突。 查看时间范围发生无预算冲突的时间范围后，您可以手动将预算小时数移动到这些时间。 这还将调整小时的预算日期。 在此更新之前，无法一览项目的预算冲突。
 
-有关资源规划者中调整预算日期的详情，请参阅 [资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+有关资源规划者中调整预算日期的详细信息，请参阅[资源规划者概述](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)中的“调整预算日期”部分
 
 ## 资源计划：根据组成员资格限制分配给用户 {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 在“计划”区域中进行用户分配（如“在计划区域中手动分配未分配的任务和问题”中所述）时，您现在可以配置Workfront，以仅将任务和问题的分配限制为那些属于在任务或问题源自的项目上定义的组的成员的用户。 
 
@@ -339,4 +339,4 @@ Workfront的Portfolio优化器区域现在更新了新外观。 功能没有改�
 
 现在，您可以通过插入表情符号来为Workfront中的注释和更新设置基调。 在“更新”选项卡上发表的评论中添加的任何表情符号也会显示在更新电子邮件通知中。 
 
-有关详细信息，请参阅， [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

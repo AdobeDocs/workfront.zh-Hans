@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-lists
-title: 中的列表入门 [!DNL Adobe Workfront]
-description: 您可以在中查看对象列表 [!DNL Adobe Workfront] 以获取有关客户的信息，如开始日期和到期日期、分配给客户的用户以及与客户关联的其他对象。
+title: 开始使用 [!DNL Adobe Workfront]中的列表
+description: 您可以查看 [!DNL Adobe Workfront] 中的对象列表以获取有关这些对象的信息，如它们的开始日期和到期日期、分配给它们的用户以及与它们关联的其他对象。
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# 中的列表入门 [!DNL Adobe Workfront]
+# 开始使用[!DNL Adobe Workfront]中的列表
 
 <!--
 {{highlighted-preview}}
 -->
 
-您可以在中查看对象列表 [!DNL Adobe Workfront] 以获取有关客户的信息，如开始日期和到期日期、分配给客户的用户以及与客户关联的其他对象。
+您可以查看[!DNL Adobe Workfront]中的对象列表以获取有关这些对象的信息，例如它们的开始日期和到期日期、分配给它们的用户以及与它们关联的其他对象。
 
-以下是中列表的一些特征 [!DNL Workfront]：
+以下是[!DNL Workfront]中列表的一些特征：
 
 * 列表每5分钟自动刷新一次，以更新系统中其他用户在其他位置更新的信息。
-* 中的某些区域 [!DNL Workfront] 已预配置默认对象列表。
+* [!DNL Workfront]中的某些区域预配置了默认对象列表。
 
   您可以自定义这些预配置列表中的大多数列表。
 
-* A [!DNL Workfront] 管理员可以创建自定义列表以应用于的各个区域 [!DNL Workfront].
+* [!DNL Workfront]管理员可以创建自定义列表以应用于[!DNL Workfront]的各个区域。
 
-  有关创建系统级列表的详细信息，请参阅文章 [创建、编辑和共享默认筛选器、视图和分组](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  有关创建系统级列表的详细信息，请参阅文章[创建、编辑和共享默认筛选器、视图和分组](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)。
 
 ## 访问要求
 
@@ -49,20 +49,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL View]或更高权限访问筛选器、视图、分组</p> <P>对于[！UICONTROL设置]区域中的项目，您需要具有该项目或[！UICONTROL系统管理员]访问级别的管理访问权限。</P> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。<br>有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL View]或更高权限访问筛选器、视图、分组</p> <P>对于[！UICONTROL设置]区域中的项目，您需要具有该项目或[！UICONTROL系统管理员]访问级别的管理访问权限。</P> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。<br>有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL视图]或更高权限可访问“共享”</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td>
+   <td> <p>[！UICONTROL视图]或更高权限可访问“共享”</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 对象列表
 
-下面是您可以在其中找到的一些类型的对象列表 [!DNL Workfront] 以及当您有权查看对象时默认显示的一些区域。
+以下是您可以在[!DNL Workfront]中找到的一些类型的对象列表，以及当您有权查看对象时默认显示这些列表的一些区域。
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ ht-degree: 0%
     <ul> 
      <li class="preview"> <p>[！UICONTROL设置] &gt;[！UICONTROL自定义Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>注意</b>：这当前仅在“预览”环境中可用</p> </li> 
+     <p><b>注意</b>：当前仅在“预览”环境中可用</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-不能自定义指定区域上的列表。 A [!DNL Workfront] 管理员可以在系统级别构建自定义列表，或者，如果访问级别允许您编辑报告，则可以为此对象构建报告。
+不能自定义指定区域上的列表。 [!DNL Workfront]管理员可以在系统级别构建自定义列表，或者，如果访问级别允许您编辑报告，则可以为此对象构建报告。
 
 ## 列出元素
 
@@ -263,7 +263,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->当您从列表中选择新的筛选器、视图或分组时，即使您注销，该选择仍会保留 [!DNL Workfront] 或者关闭浏览器。
+>当您从列表中选择新的筛选器、视图或分组时，即使您注销[!DNL Workfront]或关闭浏览器，该选择仍会保留。
 
 以下是列表的元素：
 
@@ -279,15 +279,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>[！UICONTROL筛选器]</strong></td> 
-   <td> <p>根据您指定的条件，过滤器可将不必要的信息排除在列表之外。 </p> <p>有关更多信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">过滤器概述</a>.</p> </td> 
+   <td> <p>根据您指定的条件，过滤器可将不必要的信息排除在列表之外。 </p> <p>有关详细信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">筛选器概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[！UICONTROL视图]</strong></td> 
-   <td> <p>视图定义要在屏幕上显示的字段（列）。</p> <p>有关更多信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中的视图概述 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>视图定义要在屏幕上显示的字段（列）。</p> <p>有关详细信息，请参阅[!DNL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">视图概述。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[！UICONTROL分组]</strong></td> 
-   <td> <p>分组根据您指定的条件将列表中的对象划分为不同的区域。</p> <p>例如，列表中的问题可以按状态或优先级显示在部分中。</p> <p>在标准分组中最多可以有三层分组，如果是在文本模式下配置分组，则可以添加第四层。</p> <p>有关分组的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">中的分组概述 [!DNL Adobe Workfront]</a>.</p> <p>有关文本模式的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文本模式概述</a>.</p> </td> 
+   <td> <p>分组根据您指定的条件将列表中的对象划分为不同的区域。</p> <p>例如，列表中的问题可以按状态或优先级显示在部分中。</p> <p>在标准分组中最多可以有三层分组，如果是在文本模式下配置分组，则可以添加第四层。</p> <p>有关分组的详细信息，请参阅[!DNL Adobe Workfront]</a>中的<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">分组概述。</p> <p>有关文本模式的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">文本模式概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,12 +298,12 @@ ht-degree: 0%
 
 您可以自定义以下区域中的列表元素并将其与其他用户共享：
 
-* 在部分中找到任何系统默认列表 [中的列表入门 [!DNL Adobe Workfront]](#default-workfront-lists) 本文内容
+* 在[开始使用 [!DNL Adobe Workfront]](#default-workfront-lists)中的列表部分找到的任何系统默认列表
 * 与您共享的任何报告
 
 列表的构建元素与报表的构建元素相同。
 
-有关创建和自定义列表和报告构建元素的更多信息，请参阅 [报表元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+有关创建和自定义列表和报告生成元素的更多信息，请参阅[报告元素：筛选器、视图和分组](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)。
 
 ## 列出操作
 
@@ -321,23 +321,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>内联编辑</strong> </td> 
-   <td> <p>直接在列表中编辑对象及其信息。</p> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">中的列表内的内联编辑项目 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>直接在列表中编辑对象及其信息。</p> <p>有关详细信息，请参阅[!DNL Adobe Workfront]</a>中的列表中的<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">内联编辑项。</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>使用[！UICONTROL摘要]更新</strong> </td> 
-   <td> <p>使用[！UICONTROL摘要]面板更新项目级别的任务和问题。</p> <p>提示：“摘要”并不适用于所有对象，也不能在“任务”或“问题”报表中使用。</p> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>.</p> </td> 
+   <td><strong>更新为[！UICONTROL摘要]</strong> </td> 
+   <td> <p>使用[！UICONTROL摘要]面板更新项目级别的任务和问题。</p> <p>提示：“摘要”并不适用于所有对象，也不能在“任务”或“问题”报表中使用。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>自定义列表显示</strong> </td> 
-   <td> <p>自定义列表的外观、列排列、项目的排序顺序或显示的项目数。</p> <p>注意：注销时，对要在页面上显示的项目数所做的更改将撤销 [!DNL Workfront] 或者关闭浏览器。 更改也可能会在8小时后还原。</p> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改列表的显示方式</a>.</p> </td> 
+   <td> <p>自定义列表的外观、列排列、项目的排序顺序或显示的项目数。</p> <p>注意：当您注销[!DNL Workfront]或关闭浏览器时，将撤消您对要在页面上显示的项目数所做的更改。 更改也可能会在8小时后还原。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">修改列表的显示方式</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>快速筛选</strong> </td> 
-   <td> <p>应用快速筛选器以仅查找对您很重要的项目，以便您可以快速查看、更新或与他人共享这些项目。</p> <p>重要信息：您可以使用快速过滤器查找包含搜索词的项目，无论该项目在您的屏幕上是否可见，或者在您滚动到页面底部之后是否将显示。 使用浏览器的搜索功能时，您只能查找屏幕上已显示的项目。 如果您的列表有多个页面，则快速筛选器只会查找当前页面上的项目。</p> <p>有关更多信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>.</p> </td> 
+   <td><strong>快速筛选器</strong> </td> 
+   <td> <p>应用快速筛选器以仅查找对您很重要的项目，以便您可以快速查看、更新或与他人共享这些项目。</p> <p>重要信息：您可以使用快速过滤器查找包含搜索词的项目，无论该项目在您的屏幕上是否可见，或者在您滚动到页面底部之后是否将显示。 使用浏览器的搜索功能时，您只能查找屏幕上已显示的项目。 如果您的列表有多个页面，则快速筛选器只会查找当前页面上的项目。</p> <p>有关详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>导出</strong> </td> 
-   <td> <p>从导出对象列表 [!DNL Workfront]. 当列表包含2000多个项目时，导出列表是查看一个页面上所有项目的唯一方法。</p> <p>有关导出列表的详细信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">导出列表</a>. 有关导出格式和限制的详细信息，请参阅 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>.</p> </td> 
+   <td> <p>从[!DNL Workfront]导出对象列表。 当列表包含2000多个项目时，导出列表是查看一个页面上所有项目的唯一方法。</p> <p>有关导出列表的详细信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">导出列表</a>。 有关导出格式和限制的更多信息，请参阅<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">导出数据</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -444,17 +444,17 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
    <td> <p>[！UICONTROL计划模式]</p> </td> 
-   <td> <p>选择要自动还是手动保存您在任务列表中所做的更改。 </p> <p>有关编辑列表中任务的信息，请参阅 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">编辑列表中的任务</a>. </p> <p>这仅适用于任务。</p> </td> 
+   <td> <p>选择要自动还是手动保存您在任务列表中所做的更改。 </p> <p>有关编辑列表中的任务的信息，请参阅<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">编辑列表中的任务</a>。 </p> <p>这仅适用于任务。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[！UICONTROL摘要]</td> 
-   <td> <p>显示或隐藏选定项目的[！UICONTROL摘要]框。</p> <p>这仅适用于任务和问题。</p> <p>有关[！UICONTROL Summary]面板的信息，请参阅 [!DNL Adobe Workfront] 体验，请参阅 <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>.</p> </td> 
+   <td> <p>显示或隐藏选定项目的[！UICONTROL摘要]框。</p> <p>这仅适用于任务和问题。</p> <p>有关新[!DNL Adobe Workfront]体验中[！UICONTROL摘要]面板的信息，请参阅<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">摘要概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[！UICONTROL删除]</td> 
-   <td>从列表中删除某些内容。 例如，作为管理组或子组成员资格的组管理员，请按照中的说明删除组成员 <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">查看和管理组的成员资格</a>.</td> 
+   <td>从列表中删除某些内容。 例如，作为管理组或子组成员资格的组管理员，请按照<a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">查看和管理组成员资格</a>中的说明删除组成员。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -478,17 +478,17 @@ ht-degree: 0%
   <tr> 
    <th><strong>功能</strong> </th> 
    <th><strong>列表</strong> </th> 
-   <th><strong>报表</strong> </th> 
+   <th><strong>报告</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>任何人都可以创建它们</p> </td> 
-   <td><span>✓韩亚航空*</span> </td> 
+   <td>✓ <span>*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>仅a [!DNL Workfront] 管理员和具有[！UICONTROL计划]许可证的用户可以创建这些计划</p> </td> 
+   <td> <p>只有[!DNL Workfront]管理员和具有[！UICONTROL计划]许可证的用户才能创建它们</p> </td> 
    <td> </td> 
    <td>✓ **</td> 
   </tr> 
@@ -523,7 +523,7 @@ ht-degree: 0%
    <td>✓ {\f13 } </td> 
   </tr> 
   <tr> 
-   <td> <p>您可以导出为.pdf， [!DNL Excel]和制表符分隔格式</p> </td> 
+   <td> <p>您可以导出为.pdf、[!DNL Excel]和Tab分隔格式</p> </td> 
    <td>✓ {\f13 }</td> 
    <td> ✓ {\f13 } </td> 
   </tr> 
@@ -565,9 +565,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-您必须有权访问筛选器、视图和分组，才能创建它们。 有关更多信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+您必须有权访问筛选器、视图和分组，才能创建它们。 有关详细信息，请参阅[授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
-您必须有权访问筛选器、视图和分组以及报告、仪表板和日历，才能创建它们。 有关更多信息，请参阅 [授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+您必须有权访问筛选器、视图和分组以及报告、仪表板和日历，才能创建它们。 有关详细信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 仅当报表创建者将列表元素配置为在仪表板上可见时，才能自定义放置在仪表板上的报表的列表。
 
@@ -575,11 +575,11 @@ ht-degree: 0%
 >
 >如果不创建报告并将其首先添加到仪表板，则无法将列表添加到仪表板。
 
-有关构建报表的更多信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 有关创建自定义分区的信息，请参阅 [创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+有关生成报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 有关创建自定义分区的信息，请参阅[创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
 ## 已更新列表与旧列表之间的区别
 
-中提供了两种类型的列表 [!DNL Workfront]：
+[!DNL Workfront]中有两种类型的列表：
 
 * 旧版列表
 
@@ -589,14 +589,14 @@ ht-degree: 0%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-这两种类型的列表都显示在 [!DNL Adobe Workfront].
+这两种类型的列表都显示在[!DNL Adobe Workfront]中。
 
-中的所有列表和报告 [!DNL Adobe Workfront] 都是更新的列表，以下列表除外：
+[!DNL Adobe Workfront]中的所有列表和报告都已更新，以下列表除外：
 
-* 中的列表 [!UICONTROL 设置] 区域
-* 中的列表 [!UICONTROL 报表] 区域
+* [!UICONTROL 设置]区域中的列表
+* [!UICONTROL 报告]区域中的列表
 
-下表显示了中的旧版列表与更新的列表之间的一些差异 [!DNL Workfront]：
+下表显示了[!DNL Workfront]中旧版列表与更新列表之间的一些差异：
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -619,16 +619,16 @@ ht-degree: 0%
    <td> <p>更快的内联编辑</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>显示 <strong>100</strong> 默认项目</p> </td> 
-   <td> <p>显示 <strong>全部</strong> 或最多 <strong>2000</strong> 默认项目</p> </td> 
+   <td> <p>默认显示<strong>100</strong>项</p> </td> 
+   <td> <p>默认显示<strong>所有</strong>或最多<strong>2000</strong>个项目</p> </td> 
   </tr> 
   <tr> 
    <td> <p>使用CTRL+F在列表中查找项目</p> </td> 
-   <td> <p>使用快速筛选器快速查找大列表中的信息</p> <p>有关在列表中使用快速过滤器的信息，请参阅 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>.</p> </td> 
+   <td> <p>使用快速筛选器快速查找大列表中的信息</p> <p>有关在列表中使用快速筛选器的信息，请参阅<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">将快速筛选器应用到列表</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>无法使用富文本格式内联编辑自定义字段。</td> 
-   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关更多信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>.</p> </td> 
+   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>条件格式可以更改列表中链接的文本颜色</td> 

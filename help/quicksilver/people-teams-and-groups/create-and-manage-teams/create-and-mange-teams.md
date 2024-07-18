@@ -24,7 +24,7 @@ ht-degree: 0%
 * [创建和管理Agile团队](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
 * [编辑团队设置](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
 * [管理您的团队正在处理的工作](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-* [取消激活团队](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [配置 [!UICONTROL 完成] 任务按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [配置 [!UICONTROL 完成] 问题按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [替换 [!UICONTROL 处理此项工作] 带有以下内容的按钮 [!UICONTROL 开始] 按钮](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [停用团队](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+* [为任务配置[!UICONTROL 完成]按钮](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [为问题](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)配置[!UICONTROL 完成]按钮
+* [将[!UICONTROL 处理]按钮替换为[!UICONTROL 开始]按钮](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

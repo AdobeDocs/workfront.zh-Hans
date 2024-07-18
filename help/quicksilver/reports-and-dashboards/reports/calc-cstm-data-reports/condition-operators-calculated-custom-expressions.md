@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 2/2024 -->
 
-在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。 有关在Workfront中使用文本模式的信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+在使用文本模式时，在Adobe Workfront中构建计算的自定义数据时，您可以使用条件运算符或修饰符。 有关在Workfront中使用文本模式的信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 条件运算符或修饰符可通过连接语句中的现有Workfront字段并生成新字段来帮助构建条件语句。 条件运算符最常见的用法是构建“IF”语句的条件。
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 * 分组
 * 计算的自定义字段
 
-有关构建“IF”语句的详细信息，请参见 [“IF”语句概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+有关生成“IF”语句的详细信息，请参阅[“IF”语句概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)。
 
 本指南中的示例说明了如何在计算的自定义字段中使用条件运算符。 当遵循报表中计算自定义字段的正确语法时，您还可以在计算自定义列或分组中使用它们。
 
-有关报表中计算的自定义字段和计算的自定义数据之间的语法差异的信息，请参阅 [计算的自定义字段与计算的列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+有关报表中计算自定义字段与计算自定义数据之间语法差异的信息，请参阅[计算自定义字段与计算列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)。
 
-请参阅API资源管理器以查找要在计算的自定义表达式中引用的字段。 有关API Explorer的信息，请参阅 [API资源管理器](../../../wf-api/general/api-explorer.md).
+请参阅API资源管理器以查找要在计算的自定义表达式中引用的字段。 有关API浏览器的信息，请参阅[API浏览器](../../../wf-api/general/api-explorer.md)。
 
 您可以在Workfront中使用以下条件修饰符：
 
@@ -53,7 +53,7 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td>等于 (区分大小写)</td> 
+   <td>等于</td> 
    <td>= </td> 
    <td> <p>使用此运算符指示当对帐单的第一个字段等于第二个字段时，满足条件。</p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
@@ -70,12 +70,12 @@ ht-degree: 1%
   <tr> 
    <td>小于 </td> 
    <td>&lt; </td> 
-   <td>使用此运算符指示当对帐单的第一个字段小于第二个字段时，满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>使用此运算符指示满足条件的情况  语句的第一个字段小于第二个字段。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>小于或等于 </td> 
    <td>&lt;= </td> 
-   <td>使用此运算符指示当对帐单的第一个字段小于或等于第二个字段时满足条件。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>使用此运算符指示满足条件的情况  语句的第一个字段小于或等于第二个字段。 <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将任务的计划完成日期与预计完成日期进行比较： </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>不会 </td> 
@@ -90,17 +90,17 @@ ht-degree: 1%
      <li>位于‍ </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>有关这些数据表达式的信息以及完整列表，请参阅 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">计算数据表达式概述</a>. </p> </td> 
+    </ul> <p>有关这些数据表达式的信息以及完整列表，请参阅<a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">计算数据表达式概述</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td>或 </td> 
    <td>|| </td> 
-   <td> <p>使用此运算符指示当表达式找到语句的第一个值或第二个值时满足条件。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将处于“当前”或“计划”状态的项目标记为“活动”： </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>使用此运算符可指示当表达式满足条件时  查找语句的第一个值或第二个值。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，该语句将处于“当前”或“计划”状态的项目标记为“活动”： </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> 和 </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>使用此运算符可指示当表达式找到同时满足两个条件的项时，该条件是否满足。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，以查找处于当前状态且条件为“存在风险”的项目并将它们标记为“需要调解”。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>使用此运算符可指示当表达式满足条件时  查找同时满足两个条件的项目。 </p> <p>例如，在计算自定义字段中使用以下语句来构建“IF”语句，以查找处于当前状态且条件为“存在风险”的项目并将它们标记为“需要调解”。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

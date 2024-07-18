@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Workfront和Experience Manager Assets集成
 
-* [WorkfrontExperience Manager增强型连接器](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+* 用于Experience Manager增强型连接器的[Workfront](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [适用于Experience Manager Assets和Asset Essentials的Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 * [从旧版或增强型连接器迁移](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

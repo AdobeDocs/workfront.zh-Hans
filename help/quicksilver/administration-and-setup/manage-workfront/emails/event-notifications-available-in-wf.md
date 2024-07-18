@@ -19,14 +19,14 @@ ht-degree: 7%
 
 <!-- Audited: 1/2024 -->
 
-事件通知是由对象（如项目、任务和问题）上的各种类型事件触发的电子邮件，如中所述 [事件通知](../../../workfront-basics/using-notifications/event-notifications.md).
+事件通知是由对象（如项目、任务和问题）上的各种类型事件触发的电子邮件，如[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)中所述。
 
 可以在系统和组级别配置这些通知：
 
-* 有关在系统级别配置事件通知的信息，请参见 [为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* 有关在组级别配置事件通知的信息，请参见 [查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* 有关在系统级别配置事件通知的信息，请参阅[为系统中的每个人配置事件通知](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+* 有关在组级别配置事件通知的信息，请参阅[查看和配置组的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)。
 
-个人用户还可以在个人配置文件中激活和取消激活其个人事件通知。 有关更多信息，请参阅 [修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+个人用户还可以在个人配置文件中激活和取消激活其个人事件通知。 有关详细信息，请参阅[修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 下表列出了所有Adobe Workfront事件通知、事件的简短描述以及默认情况下事件是处于活动状态还是非活动状态。
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 ## 需要操作
 
-另请参阅 [通知：需要操作](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+另请参阅[通知：所需操作](../../../workfront-basics/using-notifications/notifications-action-needed.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 7%
    <td> <p>问题</p> </td> 
    <td> <p>未决批准的问题</p> </td> 
    <td> <p>审批者</p> </td> 
-   <td> <p>我需要批准一个问题。</p> <p>哪些用户会收到此事件的电子邮件通知取决于“不要求审批者加入项目团队（对于包括角色的审批流程）”设置是否已启用（如中所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>)。 </p> <p>如果已启用此选项</strong>，会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> <p>如果项目处于“计划”或“当前”状态，则会发送通知。 </p> </td> 
+   <td> <p>我需要批准一个问题。</p> <p>哪些用户会收到此事件的电子邮件通知，这取决于是否启用了“不需要项目团队中的审批者（对于包含角色的审批流程）”设置（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>中所述）。 </p> <p>如果启用了此选项</strong>，则会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> <p>如果项目处于“计划”或“当前”状态，则会发送通知。 </p> </td> 
    <td> <p>非活动</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ ht-degree: 7%
    <td> <p>项目</p> </td> 
    <td> <p>未决批准的项目</p> </td> 
    <td> <p>审批者</p> </td> 
-   <td> <p>我需要审批一个项目。</p> <p>哪些用户会收到此事件的电子邮件通知取决于“不要求审批者加入项目团队（对于包括工作角色的审批流程）”设置是否已启用（如所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>)。</p> <p>如果已启用此选项</strong>，会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> </td> 
+   <td> <p>我需要审批一个项目。</p> <p>哪些用户会收到此事件的电子邮件通知，这取决于是否启用了“不需要项目团队中的审批者（对于包含工作角色的审批流程）”设置（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>中所述）。</p> <p>如果启用了此选项</strong>，则会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> </td> 
    <td> <p>非活动</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ ht-degree: 7%
    <td> <p>任务</p> </td> 
    <td> <p>未决批准的任务</p> </td> 
    <td> <p>审批者</p> </td> 
-   <td> <p>我需要批准一项任务。</p> <p>哪些用户会收到此事件的电子邮件通知取决于“不要求审批者加入项目团队（对于包括角色的审批流程）”设置是否已启用（如中所述） <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>)。 </p> <p>如果已启用此选项</strong>，会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> <p>仅当请求时的项目状态为“当前”时，才会发送通知。</p> </td> 
+   <td> <p>我需要批准一项任务。</p> <p>哪些用户会收到此事件的电子邮件通知，这取决于是否启用了“不需要项目团队中的审批者（对于包含角色的审批流程）”设置（如<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">配置全局审批设置</a>中所述）。 </p> <p>如果启用了此选项</strong>，则会向系统中具有“审批者”工作角色的所有用户发送电子邮件通知。</p> <p>如果禁用此选项</strong>，则只有具有“审批者”工作角色的项目团队成员会收到电子邮件通知。</p> <p>仅当请求时的项目状态为“当前”时，才会发送通知。</p> </td> 
    <td> <p>非活动</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ ht-degree: 7%
 
 ## 我已提出的请求
 
-另请参阅 [通知：我已发出的请求](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+另请参阅[通知：我发出的请求](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ ht-degree: 7%
    <td> <p>文档</p> </td> 
    <td> <p>请求文档添加</p> </td> 
    <td> <p>问题创建者</p> </td> 
-   <td> <p>在我是主要联系人的问题上更改或上传文档。</p> <p>在上传或更改有关问题的文档时，问题的主要联系人会收到电子邮件通知，除非上传或更改文档的用户同时也是主要联系人。</p> <p>仅当项目状态为“当前”，且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。</p> </td> 
+   <td> <p>在我是主要联系人的问题上更改或上传文档。</p> <p>在上传或更改有关问题的文档时，问题的主要联系人会收到电子邮件通知，除非上传或更改文档的用户同时也是主要联系人。</p> <p>仅当项目状态为“当前”，且项目在“队列设置”选项卡上启用了“Publish作为帮助请求队列”时，才会发送通知。</p> </td> 
    <td> <p>活动（仅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ ht-degree: 7%
 
 ## 通信
 
-另请参阅 [通知：通信](../../../workfront-basics/using-notifications/notifications-communication.md).
+另请参阅[通知：通信](../../../workfront-basics/using-notifications/notifications-communication.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ ht-degree: 7%
    <td> <p>文档</p> </td> 
    <td> <p>文档评论</p> </td> 
    <td> <p>文档所有者</p> </td> 
-   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： <em>评论 &lt;request name=""&gt; 日期 &lt;project name=""&gt; (参考编号 &lt;request reference="" number=""&gt;)</em></p> <p> 每日摘要通知的主题是：<em> 通信的摘要 &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>在我的文档中添加了一个评论。</p> <p>Workfront中文档的所有者会在文档上发布评论时收到电子邮件通知，除非发布评论的用户同时也是文档所有者。</p> <p>任何直接包含在评论中的用户都会收到电子邮件通知。</p> <p>仅当项目状态为“当前”时，才会发送通知。 </p> <p>即时通知电子邮件的主题是： &lt;项目名称&gt;上&lt;请求名称&gt;的<em>评论（ref# &lt;请求参考编号&gt;）</em></p> <p> 每日摘要通知的主题是：<em>通信的摘要&lt;每日摘要的日期&gt;</em></p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ ht-degree: 7%
    <td> <p>用户</p> </td> 
    <td>定向更新</td> 
    <td>用户</td> 
-   <td> <p>有人将我列入定向更新。</p> <p>定向更新是指用户明确在更新中包含另一个用户的情况，如中所述 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a>.</p> <p>在这种情况下，定向更新中包含的用户会收到有关更新的电子邮件通知。</p> <p>仅当用户具有对象的访问权限并在其配置文件中将其保持启用时，才会发送电子邮件通知。  </p> <p>默认情况下，此事件通知处于激活状态，无法取消激活。</p> </td> 
+   <td> <p>有人将我列入定向更新。</p> <p>定向更新是指用户明确将另一个用户包含在更新中，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新上标记其他用户</a>中所述。</p> <p>在这种情况下，定向更新中包含的用户会收到有关更新的电子邮件通知。</p> <p>仅当用户具有对象的访问权限并在其配置文件中将其保持启用时，才会发送电子邮件通知。  </p> <p>默认情况下，此事件通知处于激活状态，无法取消激活。</p> </td> 
    <td> <p>活动</p> </td> 
   </tr> 
   <tr> 
    <td> <p>团队</p> </td> 
    <td> <p>定向更新</p> </td> 
    <td> <p>团队成员</p> </td> 
-   <td> <p>有人将我的团队列入定向更新。</p> <p>定向更新是指用户明确在更新中包含另一个用户的情况，如中所述 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a>.</p> <p>在这种情况下，定向更新中包括的团队的任何成员都会收到有关更新的电子邮件通知。</p> <p>电子邮件通知仅发送给对更新对象具有访问权限的用户。</p> <p>如果发送定向更新的用户是所包含的团队的成员，则发送更新的用户不会收到电子邮件通知。</p> </td> 
+   <td> <p>有人将我的团队列入定向更新。</p> <p>定向更新是指用户明确将另一个用户包含在更新中，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">在更新上标记其他用户</a>中所述。</p> <p>在这种情况下，定向更新中包括的团队的任何成员都会收到有关更新的电子邮件通知。</p> <p>电子邮件通知仅发送给对更新对象具有访问权限的用户。</p> <p>如果发送定向更新的用户是所包含的团队的成员，则发送更新的用户不会收到电子邮件通知。</p> </td> 
    <td> <p>活动（仅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ ht-degree: 7%
 
 ## 审批信息
 
-另请参阅 [通知：审批信息](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+另请参阅[通知：审批信息](../../../workfront-basics/using-notifications/notifications-approval-information.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ ht-degree: 7%
 
 ## 有关分派给我的工作的信息
 
-另请参阅 [通知：有关分配给我的工作的信息](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+另请参阅[通知：有关分配给我的工作的信息](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ ht-degree: 7%
    <td> <p>文档</p> </td> 
    <td> <p>请求文档添加</p> </td> 
    <td> <p>问题分派到的用户</p> </td> 
-   <td> <p>在我的请求下上传或更改文档。</p> <p>在上传或更改其添加问题的文档时，问题被分派人会收到电子邮件通知。</p> <p>如果输入问题的用户是问题受分配人，则不会发送电子邮件通知。</p> <p>仅当项目状态为“当前”，且项目在“队列设置”选项卡上启用了“作为帮助请求队列发布”时，才会发送通知。</p> </td> 
+   <td> <p>在我的请求下上传或更改文档。</p> <p>在上传或更改其添加问题的文档时，问题被分派人会收到电子邮件通知。</p> <p>如果输入问题的用户是问题受分配人，则不会发送电子邮件通知。</p> <p>仅当项目状态为“当前”，且项目在“队列设置”选项卡上启用了“Publish作为帮助请求队列”时，才会发送通知。</p> </td> 
    <td> <p>活动（仅限每日）</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ ht-degree: 7%
 
 ## 有关我参与的项目的信息
 
-另请参阅 [通知：关于我参与的项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+另请参阅[通知：关于我所在项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ ht-degree: 7%
 
 ## 有关我拥有的项目的信息
 
-另请参阅 [通知：关于我拥有的项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+另请参阅[通知：关于我拥有的项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -726,7 +726,7 @@ ht-degree: 7%
 
 ## 关于我赞助的项目的信息
 
-另请参阅 [通知：关于我赞助的项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+另请参阅[通知：关于我赞助的项目的信息](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ ht-degree: 7%
 
 ## 其他信息
 
-另请参阅 [通知：其他信息](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+另请参阅[通知：其他信息](../../../workfront-basics/using-notifications/notifications-misc-information.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ ht-degree: 7%
    <td> <p>用户</p> </td> 
    <td> <p>新建用户</p> </td> 
    <td> <p>用户</p> </td> 
-   <td> <p>在Workfront中创建新用户时，发送电子邮件给用户。</p> <p>创建新用户后，该用户会收到电子邮件邀请，通知他们已创建Workfront帐户，并提示他们设置密码。</p> <p>创建新用户时，用户可以选择“向此人发送邀请电子邮件”选项（如中所述） <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">添加用户</a><span style="font-weight: 400;">)。 但是，全局启用“新用户至用户”选项后，无论是否选择“向此人发送邀请电子邮件”选项，所有新用户都会收到电子邮件邀请。</span></p> </td> 
+   <td> <p>在Workfront中创建新用户时，发送电子邮件给用户。</p> <p>创建新用户后，该用户会收到电子邮件邀请，通知他们已创建Workfront帐户，并提示他们设置密码。</p> <p>创建新用户时，用户可以选择“向此人发送邀请电子邮件”选项（如<a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">添加用户</a><span style="font-weight: 400;">中所述）。 但是，全局启用“新用户至用户”选项后，无论是否选择“向此人发送邀请电子邮件”选项，所有新用户都会收到电子邮件邀请。</span></p> </td> 
    <td> 非活动 </td> 
   </tr> 
   <tr> 
@@ -900,10 +900,10 @@ ht-degree: 7%
    <td> <p>非活动</p> </td> 
   </tr> 
   <tr> 
-   <td> 项目 <br>任务 <br>问题</td> 
+   <td> 项目<br>任务<br>问题</td> 
    <td>新建更新</td> 
    <td>订阅者 </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">向我订阅的任务、问题或项目进行更新时会发送电子邮件。</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">向我订阅的任务、问题或项目进行更新时发送电子邮件。</span> </p> </td> 
    <td>活动（仅限即时）</td> 
   </tr> 
  </tbody> 
@@ -919,7 +919,7 @@ ht-degree: 7%
 
 ## 委派
 
-另请参阅 [通知：委派](../../../workfront-basics/using-notifications/notifications-delegation.md).
+另请参阅[通知：委派](../../../workfront-basics/using-notifications/notifications-delegation.md)。
 
 | 对象类型 | 事件 | 收件人 | 描述 | 默认状态 |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

@@ -32,4 +32,4 @@ ht-degree: 0%
 
 我们还添加了选择您希望将过滤器应用于字段的旧状态还是新状态的功能。 例如，如果您已选择监视字段的旧状态，并将过滤器设置为监视正在进行的状态，则当状态从正在进行更改为新状态时，模块将触发。
 
-有关Adobe Workfront模块的更多信息，请参阅 [Adobe Workfront模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关Adobe Workfront模块的详细信息，请参阅[Adobe Workfront模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md)。

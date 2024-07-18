@@ -16,7 +16,7 @@ ht-degree: 2%
 
 本页介绍了在2024年第二季度版本中对“预览”环境所做的所有文档管理增强。 这些增强功能将在2024年第二季度版本的生产环境中提供。
 
-有关2024年第二季度发行周期中此时所有可用更改的列表，请参阅 [2024年第二季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+有关2024年第二季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第二季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 您现在可以为被分派审阅或审批文档的用户或团队指定截止日期。 查看者和批准者在指定截止日期前72小时和之后24小时收到电子邮件通知。 截止日期还反映在新“主页”区域的审批构件中。
 
-有关更多信息，请参阅 [创建文档审阅或审批请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+有关详细信息，请参阅[创建文档审阅或审批请求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ## 创建和使用审批模板
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 在为文档创建审批流程时，您可以从“文档”区域应用审批模板。
 
-有关更多信息，请参阅 [创建审批模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+有关详细信息，请参阅[创建批准模板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 ## 一次性查看有关所有审批的信息
 
@@ -62,4 +62,4 @@ ht-degree: 2%
 
 您可以深入查看上面列出的类别，以获取更详细的视图。 “所有审批”小组件在新主页和画布功能板中提供。
 
-有关更多信息，请参阅 [新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+有关详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。

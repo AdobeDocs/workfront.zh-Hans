@@ -17,13 +17,13 @@ ht-degree: 0%
 
 本页介绍了22.4版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在2022年10月3日这一周提供。
 
-有关22.4版本可用的所有更改列表，请参阅 [22.4发行版概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+有关22.4版本的所有可用更改列表，请参阅[22.4版本概述](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)。
 
 ## 显示项目工作负载均衡器的所有用户
 
 为了让您能够在不离开项目的工作负载均衡器的情况下查看系统中的所有用户及其容量，我们添加了一个“显示所有用户”选项。 启用后，项目的工作负载均衡器在已分配的工作区域显示系统中的所有用户。 通过此增强功能，您可以轻松确定需要为“未分配工作”区域中列出的工作分配的人员。
 
-有关更多信息，请参阅 [通过拖放在工作负载均衡器中分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+有关详细信息，请参阅[通过拖放在工作负载均衡器中分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 为了更便于在工作负载均衡器中使用用户批量替换工作角色时找到合适的人员，我们改进了可用用户列表的填充方式。 现在，您可以在同一个用户列表中的两个不同区域查看系统中可以履行所选角色的所有用户：
 
-* 第一个区域（“建议分配”）显示由“智能分配”逻辑标识的用户。 有关更多信息，请参阅 [智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* 第一个区域（“建议分配”）显示由“智能分配”逻辑标识的用户。 有关详细信息，请参阅[智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 * 第二个区域（“其他分配”）显示可以履行所选角色的所有用户。
 
 在此增强功能之前，您只能查看可用于根据智能分配逻辑进行分配的用户列表。
 
-有关使用工作负载均衡器批量分配工作的信息，请参见 [使用工作负载均衡器批量分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+有关使用工作负载均衡器批量分配工作的信息，请参阅[使用工作负载均衡器批量分配工作](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 有关更多信息，请参阅以下文章：
 
-* [导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [导航工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-* [管理工作负载均衡器中的用户分配](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [在工作负载均衡器](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 

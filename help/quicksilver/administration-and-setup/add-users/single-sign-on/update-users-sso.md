@@ -25,7 +25,7 @@ ht-degree: 1%
 
 如果您现有的系统中已填充了与SSO凭据关联的用户，则可以通过将逗号分隔值(CSV)文件导入Workfront，将用户的ID导入Workfront。
 
-有关将Workfront与SSO系统集成的更多信息，请参阅 [Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+有关将Workfront与SSO系统集成的更多信息，请参阅[Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 
 ## 访问要求
@@ -53,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 在Workfront中构建用户报表。
 
-   有关在Workfront中构建用户报表的说明，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   有关在Workfront中构建用户报表的说明，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 在报表中选择以下字段：
 
@@ -95,18 +95,18 @@ ht-degree: 1%
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. 保存报表。
-1. 单击 **导出** ，并将报表导出到Excel。
+1. 单击报告顶部的&#x200B;**导出**&#x200B;并将报告导出到Excel。
 1. 打开导出的Excel文件，并在“SSO用户名”列中为报告中的每个用户添加SSO用户名。
 
    >[!IMPORTANT]
    >
    >SSO用户名区分大小写。
 
-1. 删除Excel文件中的所有列，但 **ID** 和 **SSO用户名** 列。
+1. 删除Excel文件中的所有列（**ID**&#x200B;和&#x200B;**SSO用户名**&#x200B;列除外）。
 
 1. 删除列标题并确保报表顶部没有空白行。
 
-   用于使用SSO用户名更新Workfront用户的文件 **必须** 仅包含2列，其顺序如下：
+   用于更新SSO用户名为&#x200B;**的Workfront用户的文件必须**&#x200B;只包含2列，顺序如下：
 
    * 第一列必须显示Workfront用户ID(即在Workfront中找到的用户GUID)。
    * 第二列必须包含SSO用户名，它显示在您的SSO系统中。
@@ -120,23 +120,23 @@ ht-degree: 1%
 
 更新SSO用户的过程要么将SSO用户名字段添加到您的Workfront用户（如果该字段不存在），要么更新该字段中的值（如果已存在与该用户关联的值）。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击， **系统** 然后选择 **更新SSO的用户**.
+1. 单击&#x200B;**系统**，然后选择&#x200B;**更新SSO的用户**。
 
-1. 单击 **选择文件** 以浏览您准备的文件。
+1. 单击&#x200B;**选择文件**&#x200B;浏览您准备的文件。
 
-   有关如何准备此文件的更多信息，请参阅 [准备导入文件](#prepare-the-import-file).
+   有关如何准备此文件的详细信息，请参阅[准备导入文件](#prepare-the-import-file)。
 
-1. 选择保存在计算机上的文件，然后单击 **打开**.
+1. 选择保存在计算机上的文件，然后单击&#x200B;**打开**。
 
    这会将SSO凭据插入Workfront，使所有用户都可以使用其SSO凭据登录到Workfront。
 
-   此 **仅允许 `<SSO Configuration>` 身份验证** 将为CSV中包含的所有用户启用设置。 这可确保用户必须通过SSO登录。
+   已为CSV中包含的所有用户启用&#x200B;**仅允许`<SSO Configuration>`身份验证**&#x200B;设置。 这可确保用户必须通过SSO登录。
 
 ## 根据用户的Workfront用户名验证SSO
 
-有关构建包含SSO用户名信息的用户报告的说明，请参见 [准备导入文件](#prepare-the-import-file).
+有关生成包含SSO用户名信息的用户报告的说明，请参阅[准备导入文件](#prepare-the-import-file)。
 
 1. 运行包含SSO用户名信息的用户报告。
 
@@ -147,4 +147,4 @@ ht-degree: 1%
 
    ![](assets/users-with-sso-field-updated.png)
 
-   有关为SSO更新用户的说明，请参阅 [更新用户以使用SSO](#update-your-users-for-sso).
+   有关更新SSO用户的说明，请参阅[更新SSO用户](#update-your-users-for-sso)。

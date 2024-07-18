@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 创建方案 [!DNL Adobe Workfront Fusion] 模板
-description: Adobe Workfront FusionTemplates功能允许您创建和使用现有模板，作为您的Workfront Fusion场景的起点。
+title: 使用 [!DNL Adobe Workfront Fusion] 模板创建方案
+description: Adobe Workfront FusionTemplates功能允许您创建和使用现有模板，作为您的Workfront Fusion方案的起点。
 author: Becky
 feature: Workfront Fusion
 exl-id: 43b30244-f4a5-4036-939c-aff7827c21b1
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 创建方案 [!DNL Adobe Workfront Fusion] 模板
+# 使用[!DNL Adobe Workfront Fusion]模板创建方案
 
-[!DNL Adobe Workfront Fusion] 模板允许您创建和使用现有模板，并将其作为您的项目的起点 [!DNL Workfront Fusion] 场景。
+[!DNL Adobe Workfront Fusion]模板允许您创建并使用现有模板作为您的[!DNL Workfront Fusion]方案的起点。
 
 ## 访问要求
 
@@ -37,25 +37,25 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
   <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] （对于工作自动化和集成），[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 先决条件
 
@@ -63,18 +63,18 @@ ht-degree: 0%
 
 ## 从模板创建方案
 
-1. 单击 **[!UICONTROL 模板]** 图标 ![](assets/fusion-template-icon.png) 左侧导航面板中。
-1. 单击包含要使用的模板的选项卡(**[!UICONTROL 公共模板]** 或 **[!UICONTROL 团队模板]**)。
+1. 单击左侧导航面板中的&#x200B;**[!UICONTROL 模板]**&#x200B;图标![](assets/fusion-template-icon.png)。
+1. 单击包含要使用的模板的选项卡（**[!UICONTROL 公共模板]**&#x200B;或&#x200B;**[!UICONTROL 团队模板]**）。
 1. 单击要用来开始创建方案的模板。 您可以使用搜索功能按模板名称或模板中包含的应用程序名称查找模板。
-1. （视情况而定）如果您是多个组织或团队的成员，请选择要为其创建方案的组织或团队，然后单击 **[!UICONTROL 继续]**.
-1. （视情况而定）如果模板配置有 [!UICONTROL 向导]，按照提示配置场景。 单击 **[!UICONTROL 继续]** 每个提示时进行确认。
+1. （视情况而定）如果您是多个组织或团队的成员，请选择要为其创建方案的组织或团队，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. （视情况而定）如果模板配置了[!UICONTROL 向导]，请按照提示配置方案。 在每次提示时单击&#x200B;**[!UICONTROL 继续]**&#x200B;以进行确认。
 
    >[!NOTE]
    >
-   >如果 **[!UICONTROL 用作默认值]** 选项在模板设置期间处于选中状态，某些字段可能会预先填充。
+   >如果在模板设置期间选中了&#x200B;**[!UICONTROL 用作默认值]**&#x200B;选项，则可能会为您预填某些字段。
 
-1. 配置模板所需的所有设置后，您将收到模板已准备就绪的通知，并且标准方案选项将显示在屏幕底部。 您现在可以继续构建场景。
+1. 配置模板所需的所有设置后，您将收到模板已准备就绪的通知，标准方案选项将显示在屏幕底部。 您现在可以继续构建场景。
 
-   有关构建场景的信息，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
+   有关生成方案的信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
-1. 单击 **[!UICONTROL 保存]** 图标 ![](assets/save-icon.png) 以保存场景。 场景将保存到Workfront Fusion的“场景”区域。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;图标![](assets/save-icon.png)以保存您的方案。 场景将保存到Workfront Fusion的“场景”区域。

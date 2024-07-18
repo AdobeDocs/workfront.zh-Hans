@@ -17,15 +17,15 @@ ht-degree: 0%
 
 本页介绍了在21.4版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 对于管理员：查看哪些组与审批流程关联
 
 为了帮助您找出哪些组与系统中的审批流程相关联，我们已在“设置”的“审批”页面的“标准”视图中添加了“组名称”列。 现在，您无需创建自定义视图即可查看此信息。
 
-有关批准流程的信息，请参阅 [审批流程概述](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+有关审批流程的信息，请参阅[审批流程概述](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)。
 
-有关管理组审批流程的信息，请参阅 [组级别审批流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+有关管理组审批流程的信息，请参阅[组级审批流程](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)。
 
 ## 管理员的新增功能：组可以配置自己的时间表和小时首选项
 
@@ -37,27 +37,27 @@ ht-degree: 0%
 
 最近还增加了用于项目首选项以及任务和问题首选项的功能。
 
-有关Workfront管理员如何解锁时间表和小时首选项的信息，请参阅部分 [解锁组的工时表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 在文章中 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关Workfront管理员如何解锁时间表和小时首选项的信息，请参阅[配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)文章中的[解锁组的时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock)部分。
 
-有关组管理员如何为组配置解锁的任务和问题首选项的信息，请参见 [配置组的工时表与小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+有关组管理员如何为组配置解锁的任务和问题首选项的信息，请参阅[为组配置时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 ## Workfront管理员的新增功能：在新的Workfront Experience中为自动配置的用户配置布局模板
 
 现在，您可以在新的Workfront Experience中为自动配置用户配置布局模板。 在用于映射用户属性的Workfront“用户属性”下拉菜单（“设置”>“系统”>“单点登录”）中，现在有新的“新布局模板”菜单项可用于进行此配置。 以前，您只能在Workfront Classic中为自动配置用户配置布局模板。
 
-有关映射用户属性的说明，请参阅 [映射用户属性并自动配置新用户](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+有关映射用户属性的说明，请参阅[映射用户属性和自动配置新用户](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)。
 
 ## 新字段显示您的用户所属的组
 
 现在，可以轻松确定您的用户属于哪些组。 在列出用户的报表或视图中，可以使用新的“其他组”字段创建列。 此字段列出每个用户所属的组。
 
-有关使用报告和视图的信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 和 [Adobe Workfront中的视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+有关使用报告和视图的信息，请参阅[在Adobe Workfront中创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)和[视图概述](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## Blueprint详细信息页面现在显示图像
 
 现在，每个Blueprint的详细信息页面会显示与Blueprint一起安装的项目模板的图像。 图像提供了Blueprint内容的预览，以便您了解将要安装的内容。 您可以选择在浏览器中预览完整图像或下载图像。
 
-有关更多信息，请参阅 [Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md).
+有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
 ![](assets/blueprint-detailspage.png)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 请注意，使用这些首选项不会将从模板创建的项目加入请求队列。
 
-有关更多信息，请参阅 [配置Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+有关详细信息，请参阅[配置Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 组管理员的新增功能：查看和管理组最近删除和还原的项目
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 我们将继续让您更轻松地在一个位置管理您的组及其关联的对象。 现在，您可以从“组”区域查看和使用组最近删除和还原的项目。 这样，您就不必转至“设置”中的“最近删除”或“最近恢复”区域来管理这些项目。 它会将您正在处理的组项目列表与系统中其他已删除和还原的项目分开。
 
-有关更多信息，请参阅 [查看和管理组最近删除的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 和 [查看和管理组最近恢复的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+有关详细信息，请参阅[查看和管理组最近删除的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)和[查看和管理组最近恢复的项目](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)。
 
 ## 组管理员的新增功能：组首选项现在会影响组模板
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 如果创建没有组的模板或模板任务（例如，从主“模板”页面），则上述设置继承自系统级别的项目和任务首选项。 但是，如果您稍后将组分配给模板或模板任务，则该组的首选项不会影响它。
 
-有关更多信息，请参阅文章中的首选项如何应用于模板和模板任务部分 [创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的“首选项如何应用于模板和模板任务”部分。
 
 ## 管理员的新增功能：了解哪些自定义表单正在使用自定义字段
 
 现在，更改自定义表单中的自定义字段变得更轻松。 只需在自定义表单中单击，即可了解同时使用该字段的任何其他自定义表单。 请务必评估这些表单是否需要调整，以便在您做出更改后继续正常工作。
 
-有关更多信息，请参阅 [查看使用特定自定义字段或小部件的所有自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+有关详细信息，请参阅[查看使用特定自定义字段或小部件的所有自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)。
 
 ## 组管理员的新增功能：锁定和解锁组的项目、任务和问题偏好设置
 
@@ -118,11 +118,11 @@ ht-degree: 0%
 
   反过来，您可以解锁组的首选项。 这允许子组管理员根据用户独特的项目、任务或问题工作流需求对其进行配置。
 
-  有关更多信息，请参阅 [锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  有关详细信息，请参阅[锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 
 * 如果您是Workfront管理员，则无需转至“组”区域来配置子组的首选项。 从主项目偏好设置、任务和问题偏好设置或时间表和小时偏好设置区域，您可以使用页面顶部的搜索框查找子组并配置其偏好设置。
 
-  有关更多信息，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  有关详细信息，请参阅[配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[配置组的任务和问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
 ## 组管理员的新增功能：从组区域创建和编辑模板
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 我们将继续让您更轻松地在一个位置管理您的组及其关联的对象。 现在，您可以从“设置”的“组”区域查看和使用组的模板。 这样，您就不必转至“模板”区域来管理组的模板。 而且它将您正在处理的组模板列表与整个系统中的其他组模板列表分开。
 
-有关更多信息，请参阅 [创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+有关详细信息，请参阅[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)。
 
 ## 一次在一个附加的自定义表单中输入并保存信息
 
@@ -162,7 +162,7 @@ Workfront管理员还可以执行以下操作（针对所有组）。
 
 以前，此功能仅适用于顶级组。
 
-有关更多信息，请参阅 [管理组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+有关详细信息，请参阅[管理组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。
 
 ## Workfront管理员的新增功能：自行将布局模板从Workfront Classic迁移到新的Workfront Experience
 
@@ -180,4 +180,4 @@ Workfront管理员还可以执行以下操作（针对所有组）。
 
 在21.3中，当我们添加了将组模板与组关联的功能时，您可以在模板中选择特定于组的批准流程，但无法在模板的“队列详细信息”或“队列主题”中选择该流程。
 
-有关更多信息，请参阅 [将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+有关详细信息，请参阅[将新的或现有的审批流程与工作关联](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。

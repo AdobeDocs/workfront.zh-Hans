@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront license].
+>除[!DNL Adobe Workfront license]外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 本节包含以下文章：
 
-* [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [关于映射文件 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [中的项目数据类型 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [将数组映射到 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [键入强制 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [在 [!DNL Adobe Workfront Fusion]中将信息从一个模块映射到另一个模块](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [关于在 [!DNL Adobe Workfront Fusion]中映射文件](../../workfront-fusion/mapping/about-mapping-files.md)
+* [ [!DNL Adobe Workfront Fusion]中的项数据类型](../../workfront-fusion/mapping/item-data-types.md)
+* [在 [!DNL Adobe Workfront Fusion]中映射数组](../../workfront-fusion/mapping/map-an-array.md)
+* [在 [!DNL Adobe Workfront Fusion]中键入强制](../../workfront-fusion/mapping/type-coercion.md)

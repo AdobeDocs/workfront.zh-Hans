@@ -18,9 +18,9 @@ ht-degree: 0%
 # 管理校样
 
 * [编辑校对设置](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [在Adobe Workfront中打印验证摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [删除验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-* [恢复已存档的验证](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [在Adobe Workfront中查看有关验证的活动](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [使用验证审批报告](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [在Adobe Workfront中打印校对摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [删除校对](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [还原存档的校对](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+* [在Adobe Workfront中查看有关校对的活动](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [使用校对审批报告](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
 * [从Adobe Workfront访问Workfront Proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

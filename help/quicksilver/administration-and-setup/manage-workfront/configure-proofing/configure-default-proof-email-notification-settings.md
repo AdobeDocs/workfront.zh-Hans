@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: 配置默认校样电子邮件通知设置
-description: 在对校样做出评论或决策时，Adobe Workfront中的校样用户可以从Workfront和Workfront校样接收电子邮件通知。 如果用户已经从Workfront Proof接收电子邮件通知，我们建议您禁用从Workfront发送的通知，以避免发送重复的通知电子邮件。
+title: 配置默认验证电子邮件通知设置
+description: 对验证做出评论或决策时，Adobe Workfront中的验证用户会收到来自Workfront和Workfront Proof的电子邮件通知。 如果用户已收到来自Workfront Proof的电子邮件通知，我们建议您禁用从Workfront发送的通知，以避免重复的通知电子邮件。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 ---
 
-# 配置默认校样电子邮件通知设置
+# 配置默认验证电子邮件通知设置
 
-在对校样做出评论或决策时，Adobe Workfront中的校样用户可以从Workfront和Workfront校样接收电子邮件通知。 如果用户已经从Workfront Proof接收电子邮件通知，我们建议您禁用从Workfront发送的通知，以避免发送重复的通知电子邮件。
+对验证做出评论或决策时，Adobe Workfront中的验证用户会收到来自Workfront和Workfront Proof的电子邮件通知。 如果用户已收到来自Workfront Proof的电子邮件通知，我们建议您禁用从Workfront发送的通知，以避免重复的通知电子邮件。
 
-有关配置从Workfront校样发送的通知设置的信息，请参阅 [在Workfront校样中配置电子邮件通知设置](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+有关配置从Workfront Proof发送的通知设置的信息，请参阅[在Workfront Proof中配置电子邮件通知设置](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -39,24 +39,24 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td> <p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 配置默认校样电子邮件通知设置
+## 配置默认验证电子邮件通知设置
 
-要配置从Workfront发送的校样电子邮件通知设置，请执行以下操作：
+配置从Workfront发送的验证电子邮件通知设置：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 展开 **电子邮件**，然后单击 **审核和批准**.
+1. 展开&#x200B;**电子邮件**，然后单击&#x200B;**审核和批准**。
 
-1. 在 **Workfront中的校样通知** 选项“在对校样发表评论时从Workfront发送电子邮件”。
+1. 在&#x200B;**Workfront中的验证通知**&#x200B;部分中，决定是启用还是禁用对验证进行评论时从Workfront发送电子邮件选项。
 
-   * 启用此设置后，当对校样发表评论时，用户将收到来自Workfront的电子邮件。
-   * 禁用此设置后，当对校样发表评论时，用户不会收到来自Workfront的电子邮件。
+   * 启用此设置后，当对验证进行评论时，用户会收到来自Workfront的电子邮件。
+   * 禁用此设置后，在对验证进行评论时，用户不会收到来自Workfront的电子邮件。
 
 1. 单击&#x200B;**保存**。

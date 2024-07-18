@@ -31,7 +31,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 
 构件是新家庭的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。
 
-有关添加、移动、调整或删除小部件的信息，请参阅 [在新主页中添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+有关添加、移动、调整或删除小部件的信息，请参阅新主页中的[添加、编辑或删除小部件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
 
 以下是目前可供选择的十个小组件及其显示的信息摘要：
 
@@ -57,7 +57,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     显示所有待分配或委派的批准、一个委派批准的按钮以及可直接在构件内做出批准决策的按钮。
 
 * **所有审批**\
-        <span class="preview"> 显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。</span> <span style="color: #ff0000;">此功能属于分阶段发布，目前仅适用于特定客户。</span>
+        <span class="preview">显示2个图表，其中包含平均审批时间和决策信息以及待审批和超期审批的列表视图。</span> <span style="color: #ff0000;">此功能属于分阶段发布，当前仅适用于特定客户。</span>
 
 * **提及**\
     显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
@@ -129,20 +129,20 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 
 通过选择页面顶部的彩色横幅，可以向主页添加一点个人光晕。
 
-**更改主页背景的颜色：**
+**更改家庭背景的颜色：**
 
 1. 通过执行以下操作之一，转到您的主页：
 
-   * 如果将“主页”设置为您的登陆页面，请单击 **Adobe Workfront** 图标 ![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png) 屏幕左上角的。
-   * 单击 **主菜单** 图标，或者 **主菜单** 图标 ![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png) （如果可用），然后单击 **主页**.
+   * 如果将“主页”设置为登录页面，请单击屏幕左上角的&#x200B;**Adobe Workfront**&#x200B;图标![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png)。
+   * 单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png)（如果可用），然后单击&#x200B;**主页**。
 
-1. 单击 **自定义** 在屏幕的右上角。
+1. 单击屏幕右上角的&#x200B;**自定义**。
 
-   ![“自定义”按钮](../new-home/assets/customize-button.png)
+   ![自定义按钮](../new-home/assets/customize-button.png)
 
    此时将打开“自定义”面板。
 
-1. 在 **背景** 的部分 **自定义** 面板，单击要为主页背景选择的颜色。 您还可以单击 **无** 以删除背景。
+1. 在&#x200B;**自定义**&#x200B;面板的&#x200B;**背景**&#x200B;部分中，单击要为主页背景选择的颜色。 您还可以单击&#x200B;**无**&#x200B;删除背景。
 
 ## 还原到当前主页体验
 
@@ -150,16 +150,16 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 
 要返回到当前主页体验，请执行以下操作：
 
-1. 通过单击 **Adobe Workfront** 图标 ![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png) （如果将主页设置为登录页面，请单击屏幕左上角的） **主菜单** 图标（位于右上角） ![](assets/dots-main-menu.png) 或 **主菜单** 图标 ![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png) （如果可用），然后单击 **主页**.
+1. 如果将“主页”设置为登录页面，请通过单击屏幕左上角的&#x200B;**Adobe Workfront**&#x200B;图标![Adobe Workfront图标](../new-home/assets/home-icon-30x29.png)转到您的主页；如果可用，请单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/dots-main-menu.png)或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](../new-home/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**主页**。
 
-1. 单击 **返回当前主页** 按钮进行标记。
+1. 单击页面右下角的&#x200B;**返回当前主页**&#x200B;按钮。
 
    ![返回当前主页按钮](../new-home/assets/go-back-to-current-home-button.png)
 
    此时将显示确认窗口。
 
-1. 简要调查您的新主页使用体验，或点击 **返回当前主页** 以恢复到当前主页体验。
+1. 简要调查您的新主页使用体验，或者单击&#x200B;**返回当前主页**&#x200B;以还原到当前主页使用体验。
 
 >[!NOTE]
 >
-> 系统管理员可以禁用新主页作为其用户的默认主页。 有关更改系统中用户的默认主页体验的信息，请参阅 [配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> 系统管理员可以禁用新主页作为其用户的默认主页。 有关更改系统中用户的默认主页体验的信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。

@@ -10,8 +10,8 @@ role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 4%
+source-wordcount: '1449'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-您可以通过访问项目详细信息部分的概述区域来查看或编辑项目信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑项目的所有信息的信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+您可以通过访问项目详细信息部分的概述区域来查看或编辑项目信息。 您可以在此区域中查看或编辑的字段数量有限。 有关编辑项目的所有信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 ## 访问要求
 
@@ -43,42 +43,42 @@ ht-degree: 4%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>查看项目访问权限或更高版本 </p>
 
-<p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+<p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
    <td> <p>查看对项目的访问权限以查看有关项目的有限信息</p> 
-   <p>管理对项目的访问权限以编辑有关项目的信息</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <p>管理对项目的访问权限以编辑有关项目的信息</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 访问概述部分
 
 1. 转到要查看其概述部分的项目。
-1. 单击 **项目详细信息** 在左侧面板中。
-1. 此 **概述** 部分应首先显示为项目详细信息的一部分，并且默认情况下应展开
+1. 单击左侧面板中的&#x200B;**项目详细信息**。
+1. **概述**&#x200B;部分应首先显示为项目详细信息的一部分，并且默认情况下应展开
 
    或
 
-   单击 **编辑** 图标 ![](assets/edit-icon.png) （在详细信息部分的右上角），然后单击 **概述**. 这将打开概述区域以进行编辑。
+   单击“详细信息”部分右上角的&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)，然后单击&#x200B;**概述**。 这将打开概述区域以进行编辑。
 
    >[!NOTE]
    >
-   >根据Workfront管理员配置布局模板的方式，概述部分可能不会列在首位，在这种情况下，它会折叠。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据Workfront管理员配置布局模板的方式，概述部分可能不会列在首位，在这种情况下，它会折叠。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-1. （视情况而定）如果某个特定字段需要在项目上更新但未显示在此部分中，请单击 **更多菜单** ![](assets/more-icon.png) 在项目名称旁边，然后 **编辑** 以查看更多项目字段。
+1. （视情况而定）如果某个项目上有特定字段需要更新，但未显示在此部分中，请单击项目名称旁边的&#x200B;**更多菜单** ![](assets/more-icon.png)，然后单击&#x200B;**编辑**&#x200B;以查看更多项目字段。
 
-   有关编辑项目的更多信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+   有关编辑项目的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
-1. 编辑或查看下表中显示在中的字段 **概述** 部分。\
-   要编辑任何可编辑的字段，请单击该字段或单击 **+添加** 向空字段添加信息。
+1. 编辑或查看下表中在&#x200B;**概述**&#x200B;部分中显示的字段。\
+   要编辑任何可编辑的字段，请单击该字段或单击&#x200B;**+添加**&#x200B;以将信息添加到空字段。
 
    >[!NOTE]
    >
-   >所有字段可能不会显示，具体取决于Workfront管理员配置布局模板的方式。 有关信息，请参阅 [使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >所有字段可能不会显示，具体取决于Workfront管理员配置布局模板的方式。 有关信息，请参阅[使用布局模板自定义详细信息视图](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,10 +106,10 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">完成情况类型</td> 
-      <td>确定经理是设置项目条件还是Workfront设置条件。 有关项目完成情况的信息，请参阅文章 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目完成情况和完成情况类型概览</a>.</td> 
+      <td>确定经理是设置项目条件还是Workfront设置条件。 有关项目条件的信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">项目条件和条件类型概述</a>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">时间表模式</td> 
+      <td role="rowheader">排程模式</td> 
       <td>设置项目的计划方式。 例如，从开始日期还是从完成日期开始计划项目。 </td> 
      </tr> 
      <tr> 
@@ -130,11 +130,11 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">组</td> 
-      <td> <p>与项目关联的组。</p> <p>您可以将鼠标悬停在正确的组上并单击信息图标，以确保选择正确的组 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+      <td> <p>与项目关联的组。</p> <p>您可以确保选择正确的组，方法是将鼠标悬停在该组上，然后单击该组旁边显示的信息图标<img src="assets/info-icon.png">。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
       默认情况下，以下组之一在创建项目时自动与项目关联，除非您指定其他组：
         <ul> 
-         <li> <p><span>从“项目”区域创建项目时，项目创建者的“主组”与项目相关联。</span> </p> </li> 
-         <li> <p><span>从设置区域中组的主页创建项目时，该组会自动与项目关联。</span> </p> </li> 
+         <li> <p><span>从“项目”区域创建项目时，项目创建者的主组与项目相关联。</span> </p> </li> 
+         <li> <p><span>从“设置”区域中的组主页创建项目时，该组会自动与项目关联。</span> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -151,7 +151,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">资源管理器</td> 
-      <td> <p>此人可管理项目中的用户资源。 </p> <p>有关资源管理器的信息，请参阅文章 <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">为项目或模板指定资源经理 </a>.</p> </td> 
+      <td> <p>此人可管理项目中的用户资源。 </p> <p>有关资源管理器的信息，请参阅文章<a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">为项目或模板指定资源管理器</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -162,7 +162,7 @@ ht-degree: 4%
    >
    >用户必须与至少一个工作角色关联，才能在添加时查看工作角色。
    > 
-   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
 1. 查看“概述”部分中的以下字段。 您无法编辑以下字段：
@@ -172,7 +172,7 @@ ht-degree: 4%
    | 参考号 | 这是自动生成的字段，并且每个项目始终具有唯一值。 |
    | 预计开始日期 | 这是根据已完成工作和剩余工作开始工作的“实时”日期。 |
    | 预计完成日期 | 这是根据已完成任务的进度以及处于“新建”或“进行中”状态的任务的进度更新完成项目的“实时”日期。 |
-   | 计划小时 | 项目计划的小时数。 这些小时数是每个任务的已计划小时数的总和。 |
+   | 规划小时数 | 项目计划的小时数。 这些小时数是每个任务的已计划小时数的总和。 |
    | 实际小时数 | 项目记录的小时数。 这些小时数是项目、任务或项目问题的已记录小时数的总和。 |
    | 计划持续时间 | 项目将持续的时间，基于任务的最早计划开始日期与项目上任务的最近计划完成日期之间的时间范围。 |
    | 实际持续时间 | 项目实际跨越的时间，基于任务的最早实际开始日期与项目中任务的最近实际完成日期之间的时间范围。 |
@@ -195,32 +195,32 @@ ht-degree: 4%
      </tr>
      <tr> 
       <td role="rowheader"><span>计划持续时间</span> </td> 
-      <td><span>项目链接到计划时相应计划的持续时间。 此字段不可编辑。</span> </td> 
+      <td><span>项目链接到计划时，相应计划的持续时间。 此字段不可编辑。</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>上次发布日期</span> </td> 
-      <td><span>上次从相应计划发布项目的日期。</span> </td> 
+      <td><span>上次从相应的计划发布项目的日期。</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>计划开始日期</span> </td> 
-      <td><span>当项目链接到计划时，计划开始月份的第一天。</span> </td> 
+      <td><span>项目链接到计划时，计划开始月份的第一天。</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>计划结束日期</span> </td> 
-      <td><span>计划结束月份的最后一天，即项目链接到计划时。 </span> </td> 
+      <td><span>当项目链接到计划时，计划结束月份的最后一天。 </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>FTE和小时数中的计划工作角色</span> </td> 
+      <td role="rowheader">FTE和小时数中的<span>计划工作角色</span> </td> 
       <td> <p>有关相关工作角色及其为计划分配的时间的信息。 这包括：</p> 
        <ul> 
         <li>工作角色名称</li> 
         <li>FTE数量</li> 
-        <li> <p>所有FTE的时数</p> <p>您可以使用小时数或FTE估计计划或计划所需的工作角色的数量。 </p> <p>有关更多信息，请参阅 <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner中创建和编辑计划</a>. </p> </li> 
+        <li> <p>所有FTE的时数</p> <p>您可以使用小时数或FTE估计计划或计划所需的工作角色的数量。 </p> <p>有关详细信息，请参阅<a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在Scenario Planner</a>中创建和编辑计划。 </p> </li> 
        </ul> <p>提示： <span>如果计划中的每个月工作角色的数量不同，则此字段显示计划所需的最大角色数量。 例如，如果您在1月需要1名顾问，在2月需要2名顾问，则列会显示2FTE以及所有月份中2个FTE的相应小时数。</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   有关将项目与计划关联的信息，请参阅 [通过在场景规划程序中发布计划来更新或创建项目](../../../scenario-planner/publish-scenarios-update-projects.md).
+   有关将项目与计划关联的信息，请参阅[通过在方案规划器](../../../scenario-planner/publish-scenarios-update-projects.md)中发布计划来更新或创建项目。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。

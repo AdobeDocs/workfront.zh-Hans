@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof技术角
-description: Workfront Proof技术角
+title: Workfront Proof技术园地
+description: Workfront Proof技术园地
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] 技术角落
+# [!DNL Workfront Proof]技术角
 
 本节包含以下子部分：
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../review-and-approve-work/proofing/proofing.md)。
 
 * [校对类型](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

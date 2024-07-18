@@ -64,7 +64,7 @@ ht-degree: 0%
 
 开始之前，
 
-* 您的Workfront管理员必须配置Experience Manager集成。 有关更多信息，请参阅 [配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 或 [配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* 您的Workfront管理员必须配置Experience Manager集成。 有关详细信息，请参阅[配置Experience Manager Assetsas a Cloud Service集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[配置Experience Manager Assets Essentials集成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 
 ## 创建链接文件夹
@@ -78,11 +78,11 @@ ht-degree: 0%
 
 
 1. 转到要在其中放置文件夹的项目。
-1. 选择 **新增**，然后转到管理员设置的Experience Manager集成。
+1. 选择&#x200B;**新增**，然后转到管理员设置的Experience Manager集成。
 
    >[!NOTE]
    >
    >Workfront管理员可以选择此集成的任何名称，因此可能没有特别提及Experience Manager Assets或Assets Essentials。
 
-1. 选择 **创建链接文件夹**. 系统会根据设置集成时指定的位置，在Experience Manager中自动创建文件夹。
+1. 选择&#x200B;**创建链接文件夹**。 系统会根据设置集成时指定的位置，在Experience Manager中自动创建文件夹。
    ![创建链接文件夹](assets/linked-folder.png)

@@ -30,7 +30,7 @@ Workfront或组管理员无法修改字段中的字符限制。
  <thead> 
   <tr> 
    <th> <p><strong>字段类型</strong> </p> </th> 
-   <th> <p><strong>字符数限制(</strong><strong>包括空间)</strong> </p> </th> 
+   <th> <p><strong>字符限制（</strong><strong>包括空格）</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

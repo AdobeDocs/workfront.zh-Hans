@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了20.4版本对“预览”环境所做的所有验证增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
-有关20.4版本可用的所有更改列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+有关20.4版本的所有可用更改列表，请参阅[20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 生成新版本时结转现有验证工作流
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 以前，验证工作流的传送方式略有不同，具体取决于您在Workfront中生成它们的位置。
 
-有关更多信息，请参阅 [创建新版本的验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+有关详细信息，请参阅[创建新版本的验证](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)。
 
 ## 验证查看者中可用的文档审批按钮
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 以前，您只能从文档详情区域批准文档。
 
-有关更多信息，请参阅 [在验证查看者中做出验证决策](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+有关详细信息，请参阅[在校对查看者中做出校对决定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 ## 上传默认禁用的文档设置时自动生成验证
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 以前，默认为新用户启用此设置。
 
-有关此设置如何工作的更多信息，请参阅 [配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+有关此设置如何工作的详细信息，请参阅[配置我的设置](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。

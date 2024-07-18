@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [简介 [!DNL Workfront Proof] 和 [!DNL Box] 集成](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [通过创建验证 [!DNL Box] 帐户](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [同步 [!DNL Box] 文件夹位置 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [在中查看校对的原始文件 [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [ [!DNL Workfront Proof] 和 [!DNL Box] 集成简介](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [通过您的 [!DNL Box] 帐户创建验证](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [将 [!DNL Box] 文件夹与 [!DNL Workfront Proof]同步](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [在 [!DNL Box]中查看校对的原始文件](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

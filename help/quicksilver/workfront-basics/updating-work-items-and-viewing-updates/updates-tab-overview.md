@@ -58,7 +58,7 @@ ht-degree: 5%
 
 对象的“更新”部分显示系统更新，以及用户在过去90天内进行的最近200次更新。
 
-![“更新”部分](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![更新分区](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
@@ -122,13 +122,13 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ### “更新”部分的概述
 
-![“更新”部分](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+![更新分区](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * “更新”部分在以下选项卡中显示信息：
 
-   * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
-   * **系统活动**：显示系统更新，这些是信息性消息，由Workfront创建，用于记录对象上的某些事件。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关更多信息，请参阅 [配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参见 [更新工作](../updating-work-items-and-viewing-updates/update-work.md).
+   * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+   * **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
+   * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
      >[!NOTE]
      >
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * 迭代
    * 临时信息卡
 
-     有关信息卡更新的更多信息，请参阅 [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     有关信息卡更新的详细信息，请参阅[将临时信息卡添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
 
 * 以下对象没有“全部”选项卡，“注释”选项卡中的体验与大多数对象的体验相匹配：
 
    * 目标
 
-     有关目标更新的更多信息，请参阅 [管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     有关目标更新的详细信息，请参阅[管理目标注释](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -197,7 +197,7 @@ The following objects don't record system updates:
  <thead> 
   <tr> 
    <th><strong>添加了原始更新的对象</strong> </th> 
-   <th> <p><strong>还会显示原始更新的更高层对象</strong> </p> </th> 
+   <th> <p><strong>原始更新也出现的较高级对象</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -290,13 +290,13 @@ The following objects don't record system updates:
 
 * 在用户和团队的更新部分中，您可以查看在过去90天内输入的更新。
 
-  如果想要在90天限制之外查看对用户或团队进行的所有更新，您可以构建注释报表。 报告不应具有显示针对用户或团队所做所有更新的时间过滤器。 有关更多信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  如果想要在90天限制之外查看对用户或团队进行的所有更新，您可以构建注释报表。 报告不应具有显示针对用户或团队所做所有更新的时间过滤器。 有关详细信息，请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 代表其他用户输入评论时的限制
 
 Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Workfront中执行操作，例如输入注释。
 
-有关信息，请参阅 [以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+有关信息，请参阅[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
 以其他用户身份登录并添加注释时，请考虑以下事项：
 
@@ -319,4 +319,4 @@ Adobe Workfront管理员和组管理员可以其他用户身份登录，并在Wo
 * 如果在项目过程中优先级发生了更改
 * 如果项目所有者已更改
 
-有关更多信息，请参阅 [报告更新区域](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+有关详细信息，请参阅[更新区域报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。

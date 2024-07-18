@@ -3,26 +3,26 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: account-settings-workfront-proof
-title: 中集成的帐户设置 [!DNL Workfront Proof]
-description: 作为Workfront Proof管理员，您可以配置Workfront Proof以与Basecamp、Basecamp Classic、 [!DNL NetSuite]和Workfront。
+title: ' [!DNL Workfront Proof]中集成的帐户设置'
+description: 作为Workfront Proof管理员，您可以配置Workfront Proof以与Basecamp、Basecamp Classic、 [!DNL NetSuite]和Workfront集成。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6210f20e-073a-45c8-9b71-212a124648e8
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-# 中集成的帐户设置 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中集成的帐户设置
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-As a [!DNL Workfront Proof] 管理员，您可以配置 [!DNL Workfront Proof] 与集成 [!DNL Basecamp], [!DNL Basecamp Classic], [!DNL NetSuite]和 [!DNL Workfront].
+作为[!DNL Workfront Proof]管理员，您可以将[!DNL Workfront Proof]配置为与[!DNL Basecamp]、[!DNL Basecamp Classic]、[!DNL NetSuite]和[!DNL Workfront]集成。
 
-在为集成建立常规连接后，每个用户都可以通过 [!UICONTROL 集成] 选项卡。
+建立用于集成的一般连接后，每个用户都可以通过“个人设置”页面上提供的[!UICONTROL 集成]选项卡来设置自己的个人连接。
 
-请参阅 [集成文章](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations) 以了解详细信息和说明。
+有关详细信息和说明，请参阅[集成文章](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations)。

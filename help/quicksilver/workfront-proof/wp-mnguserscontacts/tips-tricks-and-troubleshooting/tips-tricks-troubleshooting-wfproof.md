@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
-title: 提示、技巧和疑难解答 [!DNL Workfront Proof] 用户和联系人
+title: 针对 [!DNL Workfront Proof] 用户和联系人的提示、技巧和疑难解答
 description: 了解如何对Workfront Proof进行故障排除。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# 提示、技巧和疑难解答 [!DNL Workfront Proof] 用户和联系人
+# 针对[!DNL Workfront Proof]用户和联系人的提示、技巧和疑难解答
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 

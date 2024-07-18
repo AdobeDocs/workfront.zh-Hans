@@ -23,7 +23,7 @@ ht-degree: 0%
 
 在构建以下报表元素时，您可以使用基于日期的通配符：
 
-* 筛选器
+* 过滤器
 * 自定义提示
 * 添加列的规则时的视图
 
@@ -45,56 +45,56 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的报告元素</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以编辑报告中的报告元素</p> <p>管理视图或筛选器的权限以编辑它们</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的报告元素</p> <p>管理视图或筛选器的权限以编辑它们</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
 必须先创建报告，然后才能向其添加通配符变量。
 
-有关创建报告的信息，请参阅 [创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+有关创建报告的信息，请参阅[创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 操作步骤
 
 要在报表中插入基于日期的通配符，请执行以下操作：
 
 1. 转到要为其插入基于日期的通配符的报表。
-1. 单击 **报表操作**，则 **编辑**.
+1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
 
-1. 单击 **过滤器** 选项卡。
-1. 单击 **添加筛选器规则**.
+1. 单击&#x200B;**筛选器**&#x200B;选项卡。
+1. 单击&#x200B;**添加筛选器规则**。
 1. 开始键入要作为筛选依据的字段的名称。\
    您必须键入引用日期的字段。
-1. 选择 **等于** 过滤器变量的下拉菜单中。
+1. 在筛选器变量的下拉菜单中选择&#x200B;**等于**。
 
    >[!TIP]
    >
-   >您必须始终选择 **等于** 在Adobe Workfront中使用通配符时的筛选器变量。
+   >在Adobe Workfront中使用通配符时，必须始终选择&#x200B;**等于**&#x200B;筛选器变量。
 
-1. 在 **开始键入名称……** 框，键入： `$$TODAY` 如果您希望显示与运行报表的同一天发生的某些事件的相关信息，请执行以下操作。
+1. 在&#x200B;**开始键入名称……**&#x200B;框中，键入： `$$TODAY`（如果要显示与运行报告同一天发生的某些事件的信息）。
 
    或
 
-   类型 `$$NOW` 如果您希望显示与运行报表的日期和时间发生的事件有关的信息。
+   如果要显示与运行报表的日期和时间同时发生的某些事件的相关信息，请键入`$$NOW`。
 
    此日期始终不同，因为它会随着用户实际查看报告的日期而更改。 所以报告中的信息每天都是不同的。
 
-1. （可选）如果要显示运行报表的日期之后某个时间范围内出现的信息，请键入 `$$TODAY+1w` 显示下一周的信息，或者 `$$TODAY+2m` 显示未来两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
-1. （可选）如果要显示在运行报表的日期之前某个时间范围内发生的事件相关信息，请键入 `$$TODAY-1w` 显示前一周的信息，或 `$$TODAY-2m` 显示前两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
+1. （可选）如果要显示运行报告日期之后某个时间范围内发生的信息，请键入`$$TODAY+1w`以显示下一周的信息，或键入`$$TODAY+2m`以显示未来两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
+1. （可选）如果要显示运行报告日期之前某个时间范围内发生的事件的相关信息，请键入`$$TODAY-1w`以显示前一周的信息，或键入`$$TODAY-2m`以显示前两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
 
-   有关可在基于日期的通配符中使用的属性、限定符和运算符的完整列表，请参阅文章 [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   有关可在基于日期的通配符中使用的属性、限定符和运算符的完整列表，请参阅文章[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. 单击 **保存+关闭**.
+1. 单击&#x200B;**保存+关闭**。
 
 ## 其他信息
 
@@ -103,5 +103,5 @@ ht-degree: 0%
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [在Adobe Workfront中创建或编辑筛选器](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

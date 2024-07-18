@@ -22,10 +22,10 @@ ht-degree: 0%
 >
 >此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2019.2版中所做所有更改的列表，请参阅 [2019.2发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 在小时条目中指定工作角色
 
 现在，您可以在Workfront中记录时间时指定工作角色。 要使用此功能，您的Workfront管理员必须在时间表和小时数>首选项下启用设置。
 
-有关如何在记录时间时指定工作角色的更多信息，请参阅文章 [记录时间](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+有关如何在记录时间时指定工作角色的更多信息，请参阅文章[记录时间](../../../../timesheets/create-and-manage-timesheets/log-time.md)。

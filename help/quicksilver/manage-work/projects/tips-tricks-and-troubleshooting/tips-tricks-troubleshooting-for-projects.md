@@ -18,7 +18,7 @@ ht-degree: 0%
 本节包含以下文章：
 
 * [项目常见问题解答](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [项目状态不会从完成更改为当前](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+* [项目状态不会从“完成”更改为“当前”](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
 * [计算示例 — 在项目级别计算EAC](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [计算示例 — 以任务汇总的形式计算EAC](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 

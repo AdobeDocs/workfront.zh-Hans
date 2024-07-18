@@ -2,24 +2,24 @@
 product-area: projects
 navigation-topic: manage-projects
 title: 重新计算项目时间表
-description: 重新计算时间表允许经理查看与项目相关的不同因素如何影响项目的时间表。 项目的时间表是指计划日期和预计日期。
+description: 重新计算时间表使经理能够了解与项目相关的不同因素如何影响项目时间表。 项目的时间表是指计划和预计日期。
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # 重新计算项目时间表
 
-重新计算时间表允许经理查看与项目相关的不同因素如何影响项目的时间表。 项目的时间表是指计划日期和预计日期。
+重新计算时间表使经理能够了解与项目相关的不同因素如何影响项目时间表。 项目的时间表是指计划和预计日期。
 
-对项目范围之外的计划、人员休假时间和其他项目进行更改不会立即影响项目时间表。 重新计算时间轴时，项目时间轴会受到影响。 在重新计算之前，外部影响不会对您的项目生效。
+对计划、人员休息时间以及项目范围之外的其他项目进行更改不会立即影响项目时间线。 重新计算时间线时，项目时间线会受到影响。 在重新计算之前，外部影响不会对您的项目生效。
 
-本文介绍了时间轴重新计算的方法。
+本文介绍了时间线重新计算的方式。
 
 ## 访问要求
 
@@ -53,9 +53,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-自动时间轴重新计算会在没有参与项目工作的任何用户的特殊访问权限的情况下进行。
+如果没有参与项目工作的任何用户的特殊访问权限，则会自动重新计算时间线。
 
-但是，您必须具有以下访问权限才能手动重新计算项目的时间轴：
+但是，您必须具有以下权限才能手动重新计算项目的时间表：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +63,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
@@ -71,45 +71,45 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对项目的访问权限</p> <p>系统管理员为系统中的所有项目重新计算时间表</p> <p><b>注释</b>
+   <td> <p>编辑对项目的访问权限</p> <p>系统管理员重新计算系统中所有项目的时间表</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>管理项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 自动重新计算
 
-默认情况下，当项目范围发生更改时或每天晚上自动重新计算项目时间轴。 Workfront管理员通过管理“设置”的“项目首选项”区域中的“时间轴”设置，确定是每晚自动计算时间轴，还是每次更改范围时自动计算时间轴。 有关更多信息，请参阅 [为项目配置时间轴重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+默认情况下，当项目范围每天或每晚更改时，项目时间表会自动重新计算。 Workfront管理员通过管理“设置”的“项目首选项”区域中的“时间表”设置，确定是每晚自动计算时间表，还是每次范围更改时自动计算时间表。 有关详细信息，请参阅[配置项目的时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
 
 >[!NOTE]
 >
->如果项目的时间轴超过15年，则会禁用该项目的自动重新计算。 对于超过15年的项目，您只能选择“手动”更新类型。 如果将项目日期更改为少于15年，则必须在自动计算时间轴之前一次手动重新计算时间轴。
+>如果项目的时间表超过15年，则会禁用该项目的自动重新计算。 您只能为超过15年的项目选择“手动”更新类型。 如果将项目日期更改为少于15年，则必须先手动重新计算时间线，然后才能自动计算。
 
-* [自动重新计算项目时间表](#automatic-recalculation-of-project-timelines)
-* [触发项目时间轴自动重新计算的操作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+* [项目时间线的自动重新计算](#automatic-recalculation-of-project-timelines)
+* [触发自动重新计算项目时间线的操作](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### 自动重新计算项目时间表 {#automatic-recalculation-of-project-timelines}
+### 项目时间线的自动重新计算 {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront每天只对满足以下所有条件的项目重新计算时间表：
+Adobe Workfront仅对满足以下所有条件的项目每天重新计算时间线：
 
 * 状态为“当前”
-* 项目的“更新类型”设置为“自动”或“自动”，并且“更改时”
+* 项目的“更新类型”设置为“自动”或“自动”且“更改时”
 
-   有关项目更新类型类型的信息，请参阅 [项目更新类型概述](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  有关项目更新类型类型的信息，请参阅[项目更新类型概述](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
 
-* 在过去三个月内拥有上次更新日期\
-   Workfront管理员可以更改此默认功能，如 [为项目配置时间轴重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* 上次更新日期在过去三个月内\
+  Workfront管理员可以更改此默认功能，如[配置项目的时间表重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中所述。
 
-* 项目时间轴的上次计算日期不在当前日历日内。 这意味着项目时间线的最后一个计算日期在当天00:00之前。
+* 项目时间线的上次计算日期不在当前日历日期内。 这意味着项目时间轴的最后计算日期在当天的00:00之前。
 
-您可以配置更新项目时间轴的频率。 更新项目时间轴后，将根据对项目所做的更改重新计算时间轴。
+您可以配置项目时间线的更新频率。 更新项目时间表时，会根据对项目所做的更改重新计算时间表。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-有关信息，请参阅 [选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+有关信息，请参阅[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -145,71 +145,71 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### 触发项目时间轴自动重新计算的操作 {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+### 触发自动重新计算项目时间线的操作 {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
-项目生命周期中的各种范围更改会自动重新计算项目时间轴，包括以下操作：
+项目周期中的各种范围更改会自动重新计算项目时间线，包括以下操作：
 
 * 正在更新任务状态。
-* 将任务移到其他项目。
+* 将任务移动到其他项目。
 * 更新任务的计划日期或计划完成日期。
-* 更新任务的持续时间类型、任务约束或受分配者数量。
-* 更新任务前置关系。
-* 向任务添加批准，该批准还会向任务的计划完成日期添加时间。\
-   有关批准设置的更多信息，请参阅 [配置全局批准设置](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* 更新任务的持续时间类型、任务限制或任务受分配人数量。
+* 更新任务前置任务关系。
+* 将批准添加到任务，该任务还会将时间添加到任务的规划完成日期。\
+  有关审批设置的详细信息，请参阅[配置全局审批设置](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)。
 
 ## 手动重新计算 {#manual-recalculation}
 
-作为项目所有者，您可以人工重新计算单个项目的时间轴。 Workfront管理员可以在Workfront中手动重新计算所有时间轴。
+作为项目所有者，您可以手动重新计算各个项目的时间表。 Workfront管理员可以在Workfront中手动重新计算所有时间线。
 
 * [重新计算单个项目或批量项目的时间表](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [在“编辑项目”框中批量手动重新计算时间轴](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
-* [重新计算系统中所有项目的时间表(仅限Workfront管理员)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
+* [在“编辑项目”框中批量手动重新计算时间线](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [重新计算系统中所有项目的时间线(仅限Workfront管理员)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
 ### 重新计算单个项目或批量项目的时间表 {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
-您可以从项目页面或项目列表或报表重新计算Workfront中项目的时间轴。
+您可以在Workfront中从项目页面、项目列表或报表重新计算项目的时间表。
 
-1. 转到要重新计算时间轴的项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 项目名称的左侧
+1. 转到要重新计算时间线的项目，然后单击项目名称左侧的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    或
 
-   转到项目列表或报表，选择一个或多个项目，然后单击 **更多** 图标 ![](assets/qs-more-menu.png) 列表顶部。
+   转到项目列表或报告并选择一个或多个项目，然后单击列表顶部的&#x200B;**更多**&#x200B;图标![](assets/qs-more-menu.png)。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
-   >根据项目的复杂性，我们建议在批量重新计算项目时间轴时不要选择大量项目，以确保获得最佳性能。 某些可能导致项目过于复杂的因素可能是多个依赖关系或分配，或大量自定义字段。
+   >根据项目的复杂性，我们建议不要在批量重新计算时间表时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配，或者大量自定义字段。
 
-1. 单击 **重新计算时间轴**.
+1. 单击&#x200B;**重新计算时间线**。
 
-   重新计算时间轴后，您会看到一条消息，指示重新计算成功。
+   重新计算时间线后，您将看到一条消息，指示重新计算成功。
 
    >[!TIP]
    >
-   >在时间轴重新计算完成之前，某些计划日期或预计日期可能会显示为灰显。 这意味着重新计算尚未完成，并且日期可能会发生更改。
+   >在时间表重新计算完成之前，某些计划日期或预计日期可能显示为灰色。 这意味着重新计算尚未完成，并且日期可能会发生更改。
 
-### 在“编辑项目”框中批量手动重新计算时间轴 {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
+### 在编辑项目框中手动批量重新计算时间线 {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
-您可以通过批量编辑多个项目的时间轴来手动重新计算这些项目的时间轴。
+您可以通过批量编辑多个项目来手动重新计算这些项目的时间线。
 
 >[!TIP]
 >
->根据项目的复杂性，我们建议在批量编辑项目时不要选择大量项目，以确保获得最佳性能。 某些可能导致项目过于复杂的因素可能是多个依赖关系或分配或大量自定义字段。
+>根据项目的复杂性，我们建议不要在批量编辑项目时选择大量项目以确保最佳性能。 某些因素可能会使项目过于复杂，例如多个依赖项或分配或者大量自定义字段。
 
 1. 转到项目列表。
-1. 在列表中选择多个项目，然后单击 **编辑**.
-1. 单击 **设置**，然后选择 **重新计算时间轴**.
+1. 选择列表中的多个项目，然后单击&#x200B;**编辑**。
+1. 单击&#x200B;**设置**，然后选择&#x200B;**重新计算时间线**。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
-### 重新计算系统中所有项目的时间表(仅限Workfront管理员) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
+### 重新计算系统中所有项目的时间线(仅限Workfront管理员) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Workfront管理员可以运行重新计算时间轴诊断，以立即重新计算Workfront系统中的所有时间轴。 这允许所有项目经理立即查看外部更改对计划日期和预计日期的影响。
+Workfront管理员可以运行重新计算时间表诊断以立即重新计算Workfront系统中的所有时间表。 这使所有项目经理能够立即查看外部更改对计划和计划日期的影响。
 
-有关重新计算整个Workfront站点的时间轴的更多信息，请参阅 [为项目配置时间轴重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+有关重新计算整个Workfront站点时间线的更多信息，请参阅[配置项目的时间线重新计算](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)中的“重新计算整个Workfront实例的时间线”部分。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

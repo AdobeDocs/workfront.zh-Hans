@@ -21,16 +21,16 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅中列出的文章 [工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 新功能和设计目标
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **利益攸关方的包容性参与**\
+* **利益相关者包容性参与**\
     新文档批准允许在批准流程中包括单个参与者和整个团队。 促进这种更广泛的参与可确保利益攸关方的全面参与，并培养一个更知情和更具协作性的决策环境。
 
-* **区分的审核和批准角色**\
+* **区分的审阅和批准角色**\
     新文档批准旨在识别和尊重批准流程中各种不同的角色。 通过提供识别和指定审阅人的能力（即收到通知以提供反馈但没有决策权限的用户），提高了反馈的质量，同时保证了最终批准权限的明确性。
 
 * **特定于版本的审批**\
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 ## 使用新文档审批
 
-有关希望创建或管理文档审批的用户，请参阅中列出的文章 [设置和管理资产和文档审批：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+对于希望创建或管理文档审批的用户，请参阅[设置和管理资产和文档审批中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-对于希望审阅或批准其收到请求的文档的用户，请参阅中列出的文章 [批准和审查文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+对于希望审阅或批准其收到请求的文档的用户，请参阅[批准和审阅文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)中列出的文章。
 
 >[!IMPORTANT]
 >

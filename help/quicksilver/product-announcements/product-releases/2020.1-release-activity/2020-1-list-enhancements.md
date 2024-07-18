@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了2020.1版本对Lists的所有增强功能。 这些增强功能目前在“预览”环境中提供，并将于2020年3月底或4月初在“生产”环境中提供。
 
-有关2020.1版本可用的所有更改列表，请参阅 [2020.1版概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+有关2020.1版本可用的所有更改列表，请参阅[2020.1版本概述](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)。
 
 ## 在任务列表中进行更改时的新保存模式：时间线计划模式
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 提交每个更改比使用自动或手动保存模式更快。
 * 您可以在保存更改之前撤消更改。
 
-有关将更改保存到任务列表的详细信息，请参阅文章中的“使用时间线规划设置编辑任务”部分 [编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+有关将更改保存到任务列表的详细信息，请参阅[编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)一文中的“使用时间线规划设置编辑任务”一节。
 
 ## 更新了新列表的外观
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 项目、任务和小时列表现在具有更新的外观。
 
-有关查看列表中的项目的信息，请参阅 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关查看列表中的项的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 其中一些更新包括：
 
@@ -54,19 +54,19 @@ ht-degree: 0%
 
 现在，您可以更清楚地看到采用新配色方案的列表中若干层分组之间的区别。 在单独的框架中，还更清楚地概述了分组结果。 此更改已应用于所有新列表。
 
-有关创建和自定义分组的信息，请参见 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+有关创建和自定义分组的信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
 ## 使用快速筛选器时突出显示列表中的匹配项目
 
 现在，在列表中查找项目速度更快：使用快速过滤器搜索项目时，匹配字段在结果中以黄色突出显示，以便您清楚地看到哪个字段值与您的关键字匹配。 在独立字段、共享列和复杂字段中，这些字段以黄色突出显示。 复杂字段的一些示例包括“分配”、“分配和状态”、“完成百分比”、“前置任务”、“审批者和状态”、“资源管理器”、“类别”、“条件”、“条件更新”等。
 
-有关使用快速过滤器的信息，请参阅 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关使用快速筛选器的信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 限制用户编辑列表和报告上的筛选器、视图和分组控件的能力
 
 现在，您可以使用访问级别来限制用户编辑列表和报告上的筛选器、视图和分组控件的能力。 如果您希望自定义字段仅对特定访问级别的用户可见，则此功能非常有用。
 
-有关更多信息，请参阅 [授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+有关详细信息，请参阅[授予对筛选器、视图和分组的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)。
 
 ## 在更新区域新增更多菜单
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 * 将直接链接复制到更新线程或单个更新
 * 删除更新
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 更新区域的新进度条
 
 更新区域中的完成百分比进度条具有新外观。 单击并拖动以更新百分比，或双击以手动输入数字。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 以句子大小写显示列表和报告的列标题
 
@@ -100,4 +100,4 @@ ht-degree: 0%
 
 在此更改之前，结果始终显示在折叠的列表中。
 
-有关创建分组的信息，请参见 [Adobe Workfront中的分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+有关创建分组的信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。

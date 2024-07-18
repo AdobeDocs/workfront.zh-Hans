@@ -17,13 +17,13 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参见 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+在分配访问级别时，您的Adobe Workfront管理员会授予用户查看或编辑对象的权限。 有关授予对象访问权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-除了授予用户的访问级别之外，您还可以授予他们查看或编辑您创建或有权共享的特定对象的权限。 有关访问级别和权限的更多信息，请参阅 [访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+除了授予用户的访问级别之外，您还可以授予他们查看或编辑您创建或有权共享的特定对象的权限。 有关访问级别和权限的详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
-有关共享对象权限的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+有关共享对象权限的信息，请参阅[共享对象权限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 >[!NOTE]
 >
@@ -37,23 +37,23 @@ ht-degree: 0%
 
 有关如何在Workfront中共享所有其他对象的信息，另请参阅以下文章：
 
-* 有关模板，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
-* 有关校样，请参阅 [在Workfront Proof中共享验证](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+* 有关模板，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
+* 有关校样，请参阅[在Workfront Proof中共享校样](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)。
 * 有关报告、功能板和日历，请参阅以下文章：
 
    * [在Adobe Workfront中共享报表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [共享功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-  此外，请参阅 [共享报告、功能板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) 有关共享报告、功能板和日历的一般信息。
+  此外，有关共享报告、功能板和日历的一般信息，请参阅[共享报告、功能板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
-* 有关筛选器、视图和分组，请参阅 [共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-* 有关文档文件夹，请参阅 [共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-* 有关计划，请参阅 [在Scenario Planner中共享计划](../../scenario-planner/share-a-plan.md).
+* 有关筛选器、视图和分组，请参阅[共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
+* 有关文档文件夹，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
+* 有关计划，请参阅[在Scenario Planner](../../scenario-planner/share-a-plan.md)中共享计划。
 
   这需要额外的许可证。
 
-* 有关目标，请参阅 [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md). 这需要额外的许可证。
+* 有关目标，请参阅[在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)。 这需要额外的许可证。
 
 ## 访问要求
 
@@ -85,19 +85,19 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 从其页面共享项目、任务或问题
 
 1. 转到要共享的项目、任务或问题页面。
 
-   有关哪些对象可以共享的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   有关哪些对象可以共享的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. 单击 **共享** 按钮来指定对象名称。
+1. 单击对象名称旁边的&#x200B;**共享**&#x200B;按钮。
 
    ![](assets/new-share-button.png)
 
-1. 在 **将&lt;对象名称>访问权限授予** 框中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**授予&lt;对象名称>访问**&#x200B;框中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
 
    ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
 
@@ -116,13 +116,13 @@ ht-degree: 0%
 
    ![](assets/new-share-permissions-dropdown.png)
 
-   有关从对象中删除权限的信息，请参阅 [从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   要从对象中删除权限，请参阅[从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
    可以使用以下选项：
 
-   * **查看：** 用户可以查看和共享该项目。
-   * **Contribute**：用户可以进行更新、记录信息、进行次要编辑和共享，以及所有查看权限。
-   * **管理：** 用户具有对象的完全访问权限，但没有管理权限（在访问级别授予管理权限）。 此外，他们还具有所有“查看”和“贡献”权限。
+   * **查看：**&#x200B;用户可以查看和共享该项目。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享，以及所有查看权限。
+   * **管理：**&#x200B;用户拥有对象的完全访问权限，但没有管理权限（这些权限在访问级别被授予）。 此外，他们还具有所有“查看”和“Contribute”权限。
 
      >[!NOTE]
      >
@@ -132,30 +132,30 @@ ht-degree: 0%
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   “查看”、“管理”和“参与”都具有不同的高级选项，具体取决于所选对象。\
-   有关权限级别的详细信息，请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   “查看”、“管理”和“Contribute”都具有不同的高级选项，具体取决于所选对象。\
+   有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. （可选）要使此对象对系统中的所有用户都可用，请单击 **谁具有访问权限**，然后在下拉菜单中，单击 **系统中的每个人都可以查看**.
+1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**谁具有访问权限**&#x200B;下的下拉菜单，然后在下拉菜单中，单击&#x200B;**系统中的每个人都可以查看**。
 
    ![](assets/new-share-everyone-access.png)
 
    所有用户都可以根据您设置的权限查看对象。
 
-1. （可选，视情况而定）共享项目时，单击 **齿轮** 图标 ![](assets/gear-icon-settings.png)，然后选中旁边的框 **设置为我的项目访问模板** 将权限设置为模板。
+1. （可选且有条件）共享项目时，单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings.png)，然后选中&#x200B;**设置为我的项目访问模板**&#x200B;旁边的框以将权限设置为模板。
 
    为一个项目定义权限后，下次从头开始创建项目时，将自动应用这些相同的权限。
 
    >[!NOTE]
    >
    >项目访问模板将覆盖由访问级别的Workfront管理员授予您的共享默认值。\
-   >有关在访问级别中指定项目共享默认值的详细信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+   >有关在访问级别中指定项目共享默认值的详细信息，请参阅[授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
    >this note also appears in Understanding Project Permissions-->
 
-   您可以指定共享模板时将从模板创建的项目的权限。 有关更多信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   您可以指定共享模板时将从模板创建的项目的权限。 有关详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-1. （视情况而定）要与外部用户共享对象，请单击 **复制链接**，然后将链接分发给外部用户。
+1. （视情况而定）要与外部用户共享对象，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 
    任何具有链接的用户都可以查看该对象。
 
@@ -169,11 +169,11 @@ ht-degree: 0%
 
 1. 转到要共享的文档、项目组合或项目群页面。
 
-   有关哪些对象可以共享的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   有关哪些对象可以共享的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. 对于投资组合和计划：
 
-   单击 **共享** 按钮来指定对象名称。
+   单击对象名称旁边的&#x200B;**共享**&#x200B;按钮。
 
    ![](assets/new-share-button.png)
 
@@ -181,11 +181,11 @@ ht-degree: 0%
 
    对于文档：
 
-   单击 **更多** 图标 ![](assets/more-icon.png) 单击对象名称旁边的，然后单击 **共享**.
+   单击对象名称旁边的&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**共享**。
 
    ![](assets/share-a-document-350x160.png)
 
-1. 在 **授予&lt;对象名称>访问权限** 框中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**授予&lt;对象名称>访问**&#x200B;框中，开始输入要与其共享对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -204,12 +204,12 @@ ht-degree: 0%
 
 1. 通过单击下拉菜单，然后选择要授予的权限级别，指定您在步骤3中添加的每个用户、团队、角色、组或公司的权限。
 
-   有关从对象中删除权限的信息，请参阅 [从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   要从对象中删除权限，请参阅[从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
    可以使用以下选项：
 
-   * **查看：** 用户可以查看和共享该项目。
-   * **管理：** 用户具有对象的完全访问权限，但没有管理权限（在访问级别授予管理权限）。 此外，他们还具有所有“查看”和“贡献”权限。
+   * **查看：**&#x200B;用户可以查看和共享该项目。
+   * **管理：**&#x200B;用户拥有对象的完全访问权限，但没有管理权限（这些权限在访问级别被授予）。 此外，他们还具有所有“查看”和“Contribute”权限。
 
      >[!NOTE]
      >
@@ -217,18 +217,18 @@ ht-degree: 0%
 
      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
-1. （可选）单击 **高级设置** 配置对象的特定权限。
+1. （可选）单击&#x200B;**高级设置**&#x200B;配置对象的特定权限。
 
-   “查看”、“管理”和“参与”都具有不同的高级选项，具体取决于所选对象。\
-   有关权限级别的详细信息，请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   “查看”、“管理”和“Contribute”都具有不同的高级选项，具体取决于所选对象。\
+   有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. （可选）要使此对象对系统中的所有用户都可用，请单击 **齿轮** 图标 ![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中，单击 **使其在系统范围内可见**.
+1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中单击&#x200B;**使此对象在系统范围内可见**。
 
    所有用户都可以根据您设置的权限查看对象。
 
-1. （可选）要公开对象，请单击 **向外部用户公开**.
+1. （可选）要使对象公开，请单击&#x200B;**将此对象公开给外部用户**。
 
    >[!TIP]
    >
@@ -236,7 +236,7 @@ ht-degree: 0%
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. （视情况而定）如果将对象公开给外部用户，请单击 **复制链接**，然后将链接分发给外部用户。
+1. （视情况而定）如果将对象公开给外部用户，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 
    任何具有链接的用户都可以查看该对象。
 
@@ -250,13 +250,13 @@ ht-degree: 0%
 
 1. 转到包含要共享对象的列表。
 
-   有关哪些对象可以共享的信息，请参见 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   有关哪些对象可以共享的信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
-1. 单击要共享的对象旁边的复选框，然后单击 **“共享”图标** ![](assets/share-icon.png) 页面顶部的。
+1. 单击要共享的对象旁边的复选框，然后单击页面顶部的&#x200B;**共享图标** ![](assets/share-icon.png)。
 
    ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
 
-1. 在 **&lt;对象>访问** 窗口，开始键入 **编辑&lt;对象名称>访问权限** 方要与其共享对象的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
+1. 在出现的&#x200B;**&lt; Object > Access**&#x200B;窗口中，开始在&#x200B;**编辑&lt; Object Name > access for**&#x200B;框中输入要与其共享对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -273,14 +273,14 @@ ht-degree: 0%
 
 1. 通过单击用户名称右侧的下拉菜单，然后选择要授予的权限级别，指定您在步骤3中添加的每个用户、团队、角色、组或公司的权限。
 
-   有关从对象中删除权限的信息，请参阅 [从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   要从对象中删除权限，请参阅[从对象中删除权限](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
    ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    可以使用以下选项：
 
-   * **查看：** 用户可以查看和共享该项目。
-   * **Contribute**：用户可以进行更新、记录信息、进行次要编辑和共享，以及所有查看权限。
+   * **查看：**&#x200B;用户可以查看和共享该项目。
+   * **Contribute**：用户可以进行更新、记录信息、进行细微编辑和共享，以及所有查看权限。
 
      >[!TIP]
      >
@@ -291,38 +291,38 @@ ht-degree: 0%
      >   * 问题
      >  
 
-   * **管理：** 用户具有对象的完全访问权限，但没有管理权限（在访问级别授予管理权限）。 此外，他们还具有所有“查看”和“贡献”权限。
+   * **管理：**&#x200B;用户拥有对象的完全访问权限，但没有管理权限（这些权限在访问级别被授予）。 此外，他们还具有所有“查看”和“Contribute”权限。
 
      >[!NOTE]
      >
      >Workfront管理员或对象创建者可以从这些实体中删除权限。
 
-1. （可选）单击 **高级设置** 配置对象的特定权限。
+1. （可选）单击&#x200B;**高级设置**&#x200B;配置对象的特定权限。
 
-   “查看”、“管理”和“参与”都具有不同的高级选项，具体取决于所选对象。\
-   有关权限级别的详细信息，请参阅 [对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   “查看”、“管理”和“Contribute”都具有不同的高级选项，具体取决于所选对象。\
+   有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. （可选）要使此对象对系统中的所有用户都可用，请单击 **齿轮** 图标 ![](assets/gear-icon-settings-with-dn-arrow.jpg) ，然后在下拉菜单中，单击 **使其在系统范围内可见**.
+1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中单击&#x200B;**使此对象在系统范围内可见**。
 
    所有用户都可以根据您设置的权限查看对象。
 
-1. （可选，视情况而定）共享项目时，单击 **齿轮** 图标 ![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中，单击 **设置为我的项目访问模板** 将权限设置为模板。
+1. （可选且有条件）共享项目时，单击&#x200B;**齿轮**&#x200B;图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后在下拉菜单中，单击&#x200B;**设置为我的项目访问模板**&#x200B;以将权限设置为模板。
 
    为一个项目定义权限后，下次从头开始创建项目时，将自动应用这些相同的权限。
 
    >[!NOTE]
    >
    >项目访问模板将覆盖由访问级别的Workfront管理员授予您的共享默认值。\
-   >有关在访问级别中指定项目共享默认值的详细信息，请参阅 [授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+   >有关在访问级别中指定项目共享默认值的详细信息，请参阅[授予项目访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
    >this note also appears in Understanding Project Permissions-->
 
-   您可以指定共享模板时将从模板创建的项目的权限。 有关更多信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   您可以指定共享模板时将从模板创建的项目的权限。 有关详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-1. （可选）要将对象设为公用，请单击 **向外部用户公开**.
+1. （可选）要使对象公开，请单击&#x200B;**将此对象公开给外部用户**。
 
    >[!TIP]
    >
@@ -330,7 +330,7 @@ ht-degree: 0%
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. （视情况而定）如果将对象公开给外部用户，请单击 **复制链接**，然后将链接分发给外部用户。
+1. （视情况而定）如果将对象公开给外部用户，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 
    任何具有链接的用户都可以查看该对象。
 

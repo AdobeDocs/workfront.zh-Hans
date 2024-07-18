@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 创建 [!DNL Adobe Workfront] 任务来源 [!DNL Microsoft] 团队
-description: 您可以在Adobe中创建个人任务 [!DNL Workfront] 如果团队所有者已安装并配置了，则从Microsoft Teams [!DNL Workfront] 适用于您的团队的Microsoft Teams，并且您已从Microsoft Teams登录Workfront。
+title: 创建来自 [!DNL Microsoft] 团队的 [!DNL Adobe Workfront] 任务
+description: 如果团队所有者已为您的团队安装和配置了 [!DNL Workfront] 的Adobe，并且您是从Microsoft Teams登录Workfront，则您可以从Microsoft Teams [!DNL Workfront] 创建个人Microsoft Teams。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 创建 [!DNL Adobe Workfront] 任务来源 [!DNL Microsoft Teams]
+# 从[!DNL Microsoft Teams]创建[!DNL Adobe Workfront]任务
 
 >[!NOTE]
 >
@@ -38,50 +38,50 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 先决条件
 
-您可以在中创建个人任务 [!DNL Adobe Workfront] 从 [!DNL Microsoft Teams] 如果满足以下条件：
+如果满足以下条件，则可以从[!DNL Microsoft Teams]在[!DNL Adobe Workfront]中创建个人任务：
 
-* 已安装和配置团队所有者 [!DNL Workfront for Microsoft Teams] 为你的团队准备的。
-* 您已登录 [!DNL Workfront] 从 [!DNL Microsoft Teams].
+* 团队所有者已为您的团队安装和配置[!DNL Workfront for Microsoft Teams]。
+* 您已从[!DNL Microsoft Teams]登录[!DNL Workfront]。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] 不再支持 [!DNL Internet Explorer]. 要使用 [!DNL Adobe Workfront for Microsoft Teams] 集成，您必须使用Web浏览器，而不是 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams]不再支持[!DNL Internet Explorer]。 要使用[!DNL Adobe Workfront for Microsoft Teams]集成，您必须使用[!DNL Internet Explorer]以外的Web浏览器。
 
-有关安装的信息 [!DNL Workfront for Microsoft Teams] 并登录到 [!UICONTROL Workfront] 从 [!DNL Microsoft Teams]，请参见 [安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+有关安装[!DNL Workfront for Microsoft Teams]以及从[!DNL Microsoft Teams]登录到[!UICONTROL Workfront]的信息，请参阅[安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-## 创建个人任务 [!DNL Microsoft Teams]
+## 从[!DNL Microsoft Teams]创建个人任务
 
-1. 登录 [!DNL Workfront] 从 [!DNL Microsoft Teams].
+1. 从[!DNL Microsoft Teams]登录到[!DNL Workfront]。
 
-   有关登录的信息 [!DNL Workfront]，请参见 [安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+   有关登录到[!DNL Workfront]的信息，请参阅[安装 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
-1. 打开 **[!UICONTROL 新建任务]** 信息卡：
+1. 要打开&#x200B;**[!UICONTROL 新任务]**&#x200B;信息卡：
 
-   * 如果您在 [!DNL Workfront] 机器人聊天频道，类型 **[!UICONTROL 新建任务]** 在 [!UICONTROL 对话] 字段以创建新任务。
-   * 如果您在聊天渠道中 [!DNL Workfront] 机器人聊天频道：
+   * 如果您在[!DNL Workfront]机器人聊天频道，请在[!UICONTROL 对话]字段中键入&#x200B;**[!UICONTROL 新任务]**&#x200B;以创建新任务。
+   * 如果您在[!DNL Workfront]机器人聊天频道以外的聊天频道：
 
-      * 开始键入 **[!DNL @workfront]** 在 [!UICONTROL 对话] 字段，然后选择 [!DNL Workfront] 您希望使用的机器人渠道。
-      * 继续键入 **[!UICONTROL 新建任务]** 在 [!UICONTROL 对话] 字段以创建新任务。
+      * 开始在[!UICONTROL 对话]字段中键入&#x200B;**[!DNL @workfront]**，然后选择所需的[!DNL Workfront]机器人渠道。
+      * 继续在[!UICONTROL 对话]字段中键入&#x200B;**[!UICONTROL 新任务]**&#x200B;以创建新任务。
 
-        此 [!UICONTROL 新建任务] 信息卡显示在 [!DNL Workfront] 机器人渠道。
+        [!UICONTROL 新任务]信息卡显示在[!DNL Workfront]机器人渠道中。
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. 在 [!UICONTROL Workfront] 机器人渠道，请在页面页面的 [!UICONTROL 新建任务] 信息卡：
+1. 在[!UICONTROL Workfront]机器人渠道中，在[!UICONTROL 新建任务]信息卡上指定以下信息：
 
-   * 中的任务名称 **[!UICONTROL 编写任务的标题]** 字段。
-   * 中的任务描述 **[!UICONTROL 编写任务的描述]** 字段。
-   * 任务必须完成的日期，在 **[!UICONTROL 到期日期]** 字段。
+   * **[!UICONTROL 中的任务名称编写任务的标题]**&#x200B;字段。
+   * 在&#x200B;**[!UICONTROL 编写任务的描述]**&#x200B;字段中的任务描述。
+   * 任务必须在&#x200B;**[!UICONTROL 到期日期]**&#x200B;字段中完成的日期。
 
-1. 单击 **[!UICONTROL 保存].**
+1. 单击&#x200B;**[!UICONTROL 保存]。**
 
-   新的个人任务创建于 [!DNL Workfront]. A [!UICONTROL 参考号] 已分配给它并在以下位置可见： [!UICONTROL 新建任务] 卡片。
+   新的个人任务在[!DNL Workfront]中创建。 [!UICONTROL 参考编号]已分配给它并在[!UICONTROL 新任务]信息卡上可见。
 
-   有关参考号的信息，请参见 [[!UICONTROL 参考编号] 对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 中的部分 [了解中的对象 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 文章。
+   有关参考编号的信息，请参阅[了解 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)文章中的对象中的[[!UICONTROL 参考编号]对象部分](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)。
 
-1. （可选）单击 **[!UICONTROL 编辑]** 以进一步编辑任务信息。
-1. （可选）单击 **[!UICONTROL 在中查看[!DNL Workfront]]** 以在新选项卡中打开任务 [!DNL Workfront] 然后进一步编辑任务、将其移动到项目或将其分配给其他人。
+1. （可选）单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以进一步编辑任务信息。
+1. （可选）单击&#x200B;**[!UICONTROL 在[!DNL Workfront]]**&#x200B;中查看以在[!DNL Workfront]的新选项卡中打开该任务，然后进一步编辑该任务，将其移动到项目中，或将其分配给其他人。

@@ -51,12 +51,12 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 打开摘要视图
 
-1. 转到 **文档** 区域，然后在列表中选择一个项目。
-1. 单击 **“打开摘要”图标** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. 转到&#x200B;**文档**&#x200B;区域并在列表中选择一个项目。
+1. 单击&#x200B;**打开摘要图标** ![](assets/qs-summary-in-new-toolbar-small.png)。
 
    打开“摘要”后，在单击其它文档时，它保持打开状态，直到手动关闭它为止。
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 ## 详细信息
 
-使用“详细信息”部分可查看概要性概述信息并与自定义表单交互。 单击 **详细信息** 转到完整的文档详情页面。
+使用“详细信息”部分可查看概要性概述信息并与自定义表单交互。 单击该部分顶部的&#x200B;**详细信息**&#x200B;以转到完整的“文档详细信息”页面。
 
 * [概述](#overview)
 * [自定义表单](#custom-forms)
@@ -79,15 +79,15 @@ ht-degree: 3%
 
 ### 自定义表单 {#custom-forms}
 
-使用自定义Forms部分添加、编辑或查看与文档关联的任何自定义表单。 开始键入自定义表单的名称以将其添加到文档。 有关更多信息，请参阅 [在文档中添加或编辑自定义表单](../../documents/managing-documents/add-custom-form-documents.md).
+使用自定义Forms部分添加、编辑或查看与文档关联的任何自定义表单。 开始键入自定义表单的名称以将其添加到文档。 有关详细信息，请参阅[在文档中添加或编辑自定义表单](../../documents/managing-documents/add-custom-form-documents.md)。
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
-使用更新部分读取某人对文档或验证所做的更新。 此摘要显示前2条评论。 有关更新的更多信息，请参阅 [对验证进行评论](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+使用更新部分读取某人对文档或验证所做的更新。 此摘要显示前2条评论。 有关更新的详细信息，请参阅[对校对的评论](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
-![“摘要”面板中的“更新”部分](assets/summary-updates-section-new-comments.png)
+摘要面板中的![更新部分](assets/summary-updates-section-new-comments.png)
 
 ## 审批
 
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 ## 版本
 
-使用“版本”部分可查看为特定文档创建的版本数。 单击 **更多菜单** 到
+使用“版本”部分可查看为特定文档创建的版本数。 单击&#x200B;**更多菜单**&#x200B;以
 
 * 打开验证
 * 下载验证或文档

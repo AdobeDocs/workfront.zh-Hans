@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -445,9 +445,9 @@ ht-degree: 10%
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>文档版本</span> </td> 
-   <td><span>DOCV</span> </td> 
-   <td><span>accessourcides</span> </td> 
+   <td><span>DocumentVersion</span> </td> 
+   <td><span>文档</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -462,7 +462,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>文档ID</span> </td> 
+   <td><span>documentID</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -482,7 +482,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredById</span> </td> 
+   <td><span>enteredByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -497,7 +497,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>externalStorageId</span> </td> 
+   <td><span>externalStorageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -522,7 +522,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>对象代码</span> </td> 
+   <td><span>objCode</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1780,9 +1780,9 @@ ht-degree: 10%
    <td>Workflowautomationid</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>ProofApproval</span> </td> 
-   <td><span>PRFAPI</span> </td> 
-   <td><span>accessourcides</span> </td> 
+   <td><span>校对审批</span> </td> 
+   <td><span>PRFAPL</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1797,12 +1797,12 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>客户ID</span> </td> 
+   <td><span>customerID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>文档ID</span> </td> 
+   <td><span>documentID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1822,7 +1822,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>对象代码</span> </td> 
+   <td><span>objCode</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>标题</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2736,7 +2736,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>Workspace</td> 
-   <td>工作区</td> 
+   <td>Workspace</td> 
    <td>颜色</td> 
   </tr> 
   <tr> 

@@ -22,7 +22,7 @@ ht-degree: 1%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关更多信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关详细信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 每个组织都需要制定并传达明确的目标，以使团队保持高效、专注和参与。 真正了解工作如何与战略协调是成功的关键。 但是，如果没有将您的战略和目标与组织内的工作联系起来的记录体系，实现协调会非常困难。
 
@@ -40,7 +40,7 @@ Workfront目标将战略与工作执行和交付联系起来，帮助您定义�
 
 Workfront目标是核心Workfront工作管理平台的附加模块。 它旨在与Workfront平台配合使用，并利用许多平台设置和配置实体，如用户、团队、组和项目。
 
-有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md).
+有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 ## 为您的组织制定愿景和战略
 
@@ -48,7 +48,7 @@ Workfront目标是核心Workfront工作管理平台的附加模块。 它旨在�
 
 我们已确定以下步骤来定义贵组织的愿景和策略：
 
-* [定义并表达最终目标](#define-and-express-the-end-goal)
+* [定义并表达结束目标](#define-and-express-the-end-goal)
 * [围绕企业和组织目标进行协作](#collaborate-around-enterprise-and-organizational-goals)
 * [使组和团队与战略保持一致](#align-groups-and-teams-to-strategy)
 
@@ -134,11 +134,11 @@ Workfront目标是核心Workfront工作管理平台的附加模块。 它旨在�
 >
 >在确定主要所有者时，应考虑到您为企业成果而非个人发展目标设定战略目标。
 
-有关配置对Workfront目标的访问权限的信息，请参阅 [使用Workfront Goals的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关配置对Workfront目标的访问权限的信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 ## Workfront目标对象
 
-下表介绍了Workfront目标对象。 您可以通过修改布局模板并将其分配给用户、团队或组来自定义其名称。 有关使用版面模板自定义对象名称的信息，请参阅 [使用布局模板自定义用户界面术语](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+下表介绍了Workfront目标对象。 您可以通过修改布局模板并将其分配给用户、团队或组来自定义其名称。 有关使用布局模板自定义对象名称的信息，请参阅[使用布局模板自定义用户界面术语](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)。
 
 Workfront目标使用以下主要对象：
 

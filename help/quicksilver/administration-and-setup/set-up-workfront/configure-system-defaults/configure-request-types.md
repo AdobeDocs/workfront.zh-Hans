@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 配置请求类型
-description: 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您还可以提交请求，这些请求会被记录为指定为请求队列的项目中的问题。 问题和请求在Adobe Workfront中被视为可互换。
+description: 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您也可以提交请求，在指定为请求队列的项目中，这些请求将记录为问题。 在Adobe Workfront中，问题和请求被视为可互换的。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 配置请求类型
 
-在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您还可以提交请求，这些请求会被记录为指定为请求队列的项目中的问题。 问题和请求在Adobe Workfront中被视为可互换。
+在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您也可以提交请求，在指定为请求队列的项目中，这些请求将记录为问题。 在Adobe Workfront中，问题和请求被视为可互换的。
 
-有关在 [!DNL Workfront]，请参阅 [创建问题](../../../manage-work/issues/manage-issues/create-issues.md). 有关在中创建请求的信息 [!DNL Workfront]，请参阅 [创建和提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md). 有关将请求类型与项目关联的信息，请参阅 [为项目定义请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+有关在[!DNL Workfront]中创建问题的信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)。 有关在[!DNL Workfront]中创建请求的信息，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。 有关将请求类型与项目关联的信息，请参阅[为项目定义请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,15 +31,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[!UICONTROL计划]</td> 
+   <td>[！UICONTROL计划]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>你必须是 [!DNL Workfront] 管理员。</p> <p><b>注意</b>:如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,33 +63,33 @@ You must have at least one request type selected. You can select multiple reques
 
 ## 自定义请求类型的名称
 
-As a [!DNL Workfront] 管理员，您可以在系统中配置请求类型的名称。 新名称将显示在 [!DNL Workfront] 其中 **[!UICONTROL 问题类型]** 或 **[!UICONTROL 请求类型]** 字段显示：
+作为[!DNL Workfront]管理员，您可以在系统中配置请求类型的名称。 新名称显示在[!DNL Workfront]中显示&#x200B;**[!UICONTROL 问题类型]**&#x200B;或&#x200B;**[!UICONTROL 请求类型]**&#x200B;字段的任何区域：
 
-* 在 **[!UICONTROL 队列详细信息]** 接收问题或请求的项目区域。
-* 如果为请求队列选择了多个请求类型，则在 **[!UICONTROL 新问题] 表单** 在 **[!UICONTROL 问题类型]** 字段中，选择“新建问题”或“提交新请求”。
+* 在接收问题或请求的项目的&#x200B;**[!UICONTROL 队列详细信息]**&#x200B;区域中。
+* 如果您为请求队列选择了多个请求类型，则在创建新问题或提交新请求时，请在&#x200B;**[!UICONTROL 问题类型]**&#x200B;字段的&#x200B;**[!UICONTROL 新建问题]表单**&#x200B;中进行。
 
-   有关在 [!DNL Workfront]，请参阅  [创建问题](../../../manage-work/issues/manage-issues/create-issues.md)
+  有关在[!DNL Workfront]中创建问题的详细信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)
 
-   有关在 [!DNL Workfront]，请参阅  [创建和提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  有关在[!DNL Workfront]中创建请求的更多信息，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
 
-* 在 **[!UICONTROL 队列主题详细信息]** 表单。\
-   有关创建队列主题的更多信息，请参阅 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* 在&#x200B;**[!UICONTROL 队列主题详细信息]**&#x200B;表单上配置队列主题时。\
+   有关创建队列主题的详细信息，请参阅[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 要自定义请求类型的名称，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **[!UICONTROL 项目首选项]** > **[!UICONTROL 状态]**.
+1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 状态]**。
 
-1. 单击 **[!UICONTROL 问题]** 选项卡。
-1. 在 **[!UICONTROL 问题]** 选项卡，将鼠标悬停在请求类型的名称上，然后单击 **[!UICONTROL 编辑]** 图标。
+1. 单击&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 问题]**&#x200B;选项卡的顶部，将鼠标悬停在请求类型的名称上，然后单击显示的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. 在显示的框中，键入新名称，然后按 **[!UICONTROL 输入]**.
+1. 在出现的框中，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**。
 
-## 在不同请求类型中配置问题状态
+## 配置不同请求类型中的问题状态
 
-您可以将每个请求类型与不同的问题状态相关联。 您还可以根据问题的类型更改状态在问题上的显示顺序。
+您可以将每种请求类型与不同的问题状态相关联。 您还可以根据问题的类型更改问题状态显示的顺序。
 
-有关更改问题状态的默认顺序和配置问题状态的详细信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 部分 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+有关更改问题状态的默认顺序和配置问题状态的更多信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中的[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)部分。

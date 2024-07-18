@@ -1,47 +1,47 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 參考問題時使用「opTask」和「issue」
-description: 問題的名稱在Adobe Workfront資料庫中顯示為opTask。 雖然有時您需要使用問題欄位名稱來參考問題，但大多數時候您在參考問題時都必須使用opTask欄位名稱，而不是問題。
+title: 在引用问题时使用“opTask”和“issue”
+description: 问题的名称在Adobe Workfront数据库中显示为opTask。 尽管有时需要使用问题字段名称来引用问题，但大多数情况下，在引用问题时您必须使用opTask字段名称而不是issue。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# 參考問題時使用「opTask」和「issue」
+# 在引用问题时使用“opTask”和“issue”
 
-問題的名稱顯示為 `opTask` 在Adobe Workfront資料庫中。 雖然有時您需要使用 `issue` 欄位名稱是指問題，大部分時候您必須使用 `opTask` 欄位名稱而非 `issue` 引用問題時。
+问题的名称在Adobe Workfront数据库中显示为`opTask`。 尽管有时您需要使用`issue`字段名称来引用问题，但在大多数情况下，在引用问题时您必须使用`opTask`字段名称而不是`issue`。
 
-如需物件在Workfront資料庫中顯示的詳細資訊，請參閱 [API總管](https://developer.adobe.com/workfront/api-explorer/).
+有关对象如何在Workfront数据库中出现的详细信息，请参阅[API资源管理器](https://developer.adobe.com/workfront/api-explorer/)。
 
-## `opTask` 檔案名稱
+## `opTask`文件名
 
-使用 `opTask` 在下列內容中參考問題時的欄位名稱：
+引用以下上下文中的问题时使用`opTask`字段名称：
 
-* 當您建立問題的文字模式自訂報告時，並且您想在檢視、篩選器、分組或提示中參考問題。
+* 在创建问题的文本模式自定义报告时，并且希望在视图、筛选器、分组或提示中引用问题。
 
-   如需在報表中使用文字模式的詳細資訊，請參閱 [文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  有关在报表中使用文本模式的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
-* 當您更新Kick-Start資料匯入工具表中的問題欄位時。
+* 当您更新快速启动数据导入器工作表中的问题字段时。
 
-   如需使用Kick-Start在Workfront中匯入資料的詳細資訊，請參閱 [使用Kick-Start範本將資料匯入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  有关使用Kick-Start在Workfront中导入数据的详细信息，请参阅[使用Kick-Start模板将数据导入Adobe Workfront](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-## `issue` 欄位名稱
+## `issue`字段名称
 
-使用 `issue` 參考下列內容中問題的欄位名稱：
+使用`issue`字段名称引用以下上下文中的问题：
 
-* 當您在報告中使用文字模式來參考集合中的問題時。
-* 當您使用Workfront API參考問題集合時。
+* 当您在报告中使用文本模式引用收藏集中的问题时。
+* 当您使用Workfront API引用问题集合时。
 
-如需關於集合報表的資訊，請參閱 [報表中的參考集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+有关集合报表的信息，请参阅[报表中的引用集合](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)。
 
 <!--
 <note type="tip">

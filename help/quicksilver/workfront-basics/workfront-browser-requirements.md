@@ -23,7 +23,7 @@ Adobe Workfront和Workfront Proof都需要使用Internet浏览器。
 
 * **Web浏览器：** Workfront正式支持以下浏览器的当前浏览器版本和一个先前版本(以及至少占Workfront总流量5%的任何先前版本)：
 
-   * 铬黄
+   * Chrome
    * Firefox
    * Safari
    * Microsoft Edge(不是Microsoft Edge旧版)
@@ -34,12 +34,12 @@ Adobe Workfront和Workfront Proof都需要使用Internet浏览器。
 
 ## Workfront不支持的浏览器
 
-* **Internet Explorer 11** 自21.2版本（2021年5月）起不再支持。
+* 自21.2版本（2021年5月）起，不再支持&#x200B;**Internet Explorer 11**。
 
-* **Internat Explorer版本7、8、9和10**：Microsoft已于2016年1月12日停止对IE 7和IE 8的所有支持（包括严重安全漏洞）。 此外，IE 9和IE 10已在大多数情况下停用。 Microsoft做出这一决定背后的逻辑是，这些浏览器的架构存在严重的安全问题，可能会严重影响用户。
-  >欲了解更多信息，请参见 [生命周期常见问题解答 — Internet Explorer和Microsoft Edge](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer) 在Microsoft支持网站上。 <!--the title of this page changes; ensure accuracy-->
+* **Internat Explorer版本7、8、9和10**： Microsoft已于2016年1月12日停止对IE 7和IE 8的所有支持（包括严重安全漏洞）。 此外，IE 9和IE 10已在大多数情况下停用。 Microsoft做出这一决定背后的逻辑是，这些浏览器的架构存在严重的安全问题，可能会严重影响用户。
+  >有关详细信息，请参阅Microsoft支持网站上的[生命周期常见问题解答 — Internet Explorer和Microsoft Edge](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer)。<!--the title of this page changes; ensure accuracy-->
 
-* **移动设备上的浏览器：** Workfront不支持在移动设备上使用任何浏览器。 请改用iOS和Android均可用的Workfront移动设备应用程序。 有关更多信息，请参阅 [使用Adobe Workfront移动应用程序](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+* **移动设备上的浏览器：** Workfront不支持移动设备上的任何浏览器。 请改用Workfront移动设备应用程序，这些应用程序可用于iOS和Android。 有关详细信息，请参阅[使用Adobe Workfront移动应用](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)。
 
 
 

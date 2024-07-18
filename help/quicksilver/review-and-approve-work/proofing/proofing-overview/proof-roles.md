@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 验证角色概述
 
-利用验证角色，可授予对单个验证的权限。 验证角色与验证权限配置文件不同。 有关校对权限配置文件的更多信息，请参阅 [校对权限配置文件概述](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+利用验证角色，可授予对单个验证的权限。 验证角色与验证权限配置文件不同。 有关验证权限配置文件的详细信息，请参阅[验证权限配置文件概述](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)。
 
-## 验证角色
+## 校样角色
 
-在邀请用户查看验证时，会向个人验证用户授予验证角色。 如果您拥有Workfront Pro+计划，则可以将验证角色授予具有工作或计划许可证的用户。 如果您拥有Workfront Premium旧版计划，则可以将验证角色授予具有指定验证许可证的用户。 有关更多信息，请参阅 [访问Workfront中的验证功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+在邀请用户查看验证时，会向个人验证用户授予验证角色。 如果您拥有Workfront Pro+计划，则可以将验证角色授予具有工作或计划许可证的用户。 如果您拥有Workfront Premium旧版计划，则可以将验证角色授予具有指定验证许可证的用户。 有关详细信息，请参阅[访问Workfront中的校对功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 验证角色定义查看者可对该特定验证执行的操作。
 
-**示例：** 如果您被分配了查看者角色，则系统会要求您通过添加标记和注释来查看验证，但您无法选择批准或拒绝验证。
+**示例：**&#x200B;如果您被分配了审阅人角色，系统将要求您通过添加标记和注释来审阅验证，但您没有批准或拒绝验证的选项。
 
 某些验证角色为审阅人提供了对验证的编辑权限（即使其帐户配置文件没有），并允许他们使用某些附加功能，例如添加评论操作、创建新版本以及向验证添加更多审阅人。
 
@@ -50,7 +50,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>查看验证</strong> </p> </th> 
+   <th> <p><strong>查看校对</strong> </p> </th> 
    <th> <p><strong>添加标记</strong> </p> </th> 
    <th> <p><strong>添加评论</strong> </p> </th> 
    <th> <p><strong>如果没有回复，则编辑自己的评论</strong> </p> </th> 
@@ -61,7 +61,7 @@ ht-degree: 1%
    <th> <p><strong>编辑校对</strong> </p> </th> 
    <th>与他人共享证明</th> 
    <th>创建新版本</th> 
-   <th> <p><strong>在“主页”区域查看审批请求</strong> </p> </th> 
+   <th> <p><strong>在主页区域查看审批请求</strong> </p> </th> 
    <th>添加新审阅者</th> 
   </tr> 
  </thead> 
@@ -150,7 +150,7 @@ ht-degree: 1%
    <td> <p><strong>审阅人</strong> </p> </td> 
    <td> <p>✓ {\f13 }</p> </td> 
    <td> <p>✓ {\f13 }</p> </td> 
-   <td> <p><strong>✓ {\f13 }</strong> </p> </td> 
+   <td> <p>✓ <strong></strong> </p> </td> 
    <td> <p>✓ {\f13 }</p> </td> 
    <td> <p>✓ {\f13 }</p> </td> 
    <td> <p>✓ {\f13 }</p> <p> </p> </td> 

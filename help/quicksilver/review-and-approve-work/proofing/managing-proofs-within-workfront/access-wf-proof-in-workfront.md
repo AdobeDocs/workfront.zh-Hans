@@ -3,20 +3,20 @@ product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: 从Adobe Workfront访问Workfront Proof
-description: 您可以直接从Workfront界面快速访问您的Adobe Workfront Proof帐户，而无需登录Workfront Proof。
+description: 您可以直接从Adobe Workfront界面快速访问Workfront Proof帐户，而无需登录到Workfront Proof。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 从Adobe Workfront访问Workfront Proof
 
-当满足以下条件时，您可以直接从Workfront界面快速访问您的Adobe Workfront Proof帐户，而无需登录Workfront Proof：
+当满足以下条件时，您无需登录Workfront Proof，即可直接从Adobe Workfront界面快速访问您的Workfront Proof帐户：
 
 * 您的Workfront环境已与Workfront Proof Premium帐户集成。 有关哪些功能仅在Workfront Proof Premium帐户中可用的更多信息，请参阅。
 
@@ -28,20 +28,20 @@ ht-degree: 0%
 
   您可以联系Workfront客户支持，并请求系统中的所有验证用户获得此访问权限，而不管他们具有什么权限。
 
-  有关更多信息，请参阅 [允许所有验证用户在Workfront中访问Workfront Proof](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) 本文章中。
+  有关详细信息，请参阅本文中的[允许所有验证用户在Workfront中访问Workfront Proof](#enable-all-proofing-users-to-access-workfront-proof-within-workfront)。
 
-如果您无法按本节所述访问Workfront Proof，请与Workfront管理员联系。
+如果您无法按本节所述访问Workfront Proof，请联系Workfront管理员。
 
 ## 从Workfront访问Workfront Proof {#access-workfront-proof-from-workfront}
 
 默认情况下，只有在Workfront中拥有管理权限的用户才能访问Workfront Proof，如本节所述。 
 
-1. 点击校对 ![](assets/proofing-main-menu.png) 在主菜单中 ![](assets/main-menu-icon.png).
+1. 在主菜单![](assets/main-menu-icon.png)中单击校对![](assets/proofing-main-menu.png)。
 
-   您会自动登录Workfront Proof Premium帐户。
+   您将自动登录到您的Workfront Proof Premium帐户。
 
-有关登录Workfront Proof Premium帐户后可用功能的信息，请参阅 [Workfront帮助站点](https://support.workfront.com).
+有关登录Workfront Proof Premium帐户后可用功能的信息，请参阅[Workfront帮助网站](https://support.workfront.com)。
 
 ## 允许所有验证用户在Workfront中访问Workfront Proof {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-默认情况下，只有在Workfront中拥有管理权限的用户才能访问Workfront Proof，如中所述 [从Workfront访问Workfront Proof](#access-workfront-proof-from-workfront)
+默认情况下，只有在Workfront中拥有管理权限的用户才能访问Workfront Proof，如[从Workfront访问Workfront Proof](#access-workfront-proof-from-workfront)中所述

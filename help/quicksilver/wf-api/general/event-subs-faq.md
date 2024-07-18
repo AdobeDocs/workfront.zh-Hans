@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 我是否能够根据事件有效负载中的特定条件选择将哪些事件发送到端点？
 
-事件订阅过滤器是一种按指定条件对事件子进行排序的方法。 建议您将过滤器应用于事件订阅，因为它可能会显着减少端点需要使用的消息数。 有关详细信息，请参阅 [事件订阅筛选](../../wf-api/general/event-subs-api.md#event).
+事件订阅过滤器是一种按指定条件对事件子进行排序的方法。 建议您将过滤器应用于事件订阅，因为它可能会显着减少端点需要使用的消息数。 有关详细信息，请参阅[事件订阅筛选](../../wf-api/general/event-subs-api.md#event)。
 
 ## 为什么API返回409冲突响应代码？
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 查找以下方案并使用建议的解决方案：
 
-* 确保您的订阅端点 — 由 **url** 字段 — 返回2XX HTTP响应代码。 如果不是，请联系Workfront支持或参阅 [事件订阅提交要求](../../wf-api/general/setup-event-sub-endpoint.md).
+* 确保您的订阅端点（由&#x200B;**url**&#x200B;字段定义）返回2XX HTTP响应代码。 如果不是，请联系Workfront支持或查看[事件订阅提交要求](../../wf-api/general/setup-event-sub-endpoint.md)。
 
-* 事件投放请求可能在完成之前超时。 确保您的端点在5秒内持续响应。 这是为HTTP请求发送事件订阅消息设置的默认超时。 如果您的端点在5秒内未响应，请联系Workfront支持或参阅 [事件订阅提交要求](../../wf-api/general/setup-event-sub-endpoint.md).
+* 事件投放请求可能在完成之前超时。 确保您的端点在5秒内持续响应。 这是为HTTP请求发送事件订阅消息设置的默认超时。 如果您的端点在5秒内没有响应，请联系Workfront支持或参阅[事件订阅提交要求](../../wf-api/general/setup-event-sub-endpoint.md)。
 * 这些事件可能不会像您认为的那样产生。 确保您未对事件应该如何或何时触发以及何时触发做出假设。 例如，您可能认为更新任务中的文档会生成任务更新事件，而会生成文档创建或文档更新事件。
 * 您的订阅可能未按预期进行配置。 您可以在不同的环境中创建事件订阅，并期望它们像其他Workfront数据一样进行传输。 但是，事件订阅数据未配置为复制或提升到其他环境。 确保您向正确的环境发出API请求，并按照预期配置该环境中的订阅。
 * 未收到有效负载，因为未将必需的Workfront 列入允许列表 IP地址添加到防火墙上的。 事件订阅事件仅从少数IP地址发送。 确保目标网络具有从Workfront事件订阅接收负载所需的所有IP异常。
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 ## 如果在尝试调用事件订阅API时收到500响应状态，我应该怎么做？
 
-请联系Workfront支持。 要了解如何联系支持人员，请参阅 [联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+请联系Workfront支持。 要了解如何联系支持人员，请参阅[联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 
 ## 我可以对Workfront事件订阅使用哪些不同类型的身份验证？
 
-您可以使用任何使用持有者令牌的身份验证。 此 **authToken** 订阅的字段是一个字符串，它表示用于通过 **url** 字段。 理论上，此令牌值可以是任何值，只要目标端点知道如何处理其编码，即 **utf-8**.
+您可以使用任何使用持有者令牌的身份验证。 订阅的&#x200B;**authToken**&#x200B;字段是一个字符串，它表示用于通过&#x200B;**url**&#x200B;字段中指定的URL进行身份验证的OAuth2持有者令牌。 理论上，只要目标终结点知道如何处理其编码（即&#x200B;**utf-8**），此令牌值可以是任何值。
 
 ## 从“Workfront事件订阅”接收事件有效负载需要多长时间？
 
@@ -87,10 +87,10 @@ ht-degree: 0%
 
 * **API文档**： [事件订阅API](../../wf-api/general/event-subs-api.md)
 
-* **最佳实践**： [事件订阅最佳实践](../../wf-api/general/event-sub-best-practice.md)
+* **最佳实践**：[事件订阅最佳实践](../../wf-api/general/event-sub-best-practice.md)
 
 * **触发事件订阅负载的字段**： [事件订阅资源字段](../../wf-api/api/event-sub-resource-fields.md)
 
-* **了解事件订阅重试**： [事件订阅重试](../../wf-api/api/event-sub-retries.md)
+* **了解事件订阅重试次数**： [事件订阅重试次数](../../wf-api/api/event-sub-retries.md)
 
 * **为Workfront配置防火墙**： [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

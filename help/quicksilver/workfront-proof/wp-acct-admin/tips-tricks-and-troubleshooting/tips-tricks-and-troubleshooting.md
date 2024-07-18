@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: 提示、技巧和疑难解答 [!DNL Workfront] 证明帐户管理
+title: ' [!DNL Workfront] 验证帐户管理的提示、技巧和疑难解答'
 description: 了解如何对Workfront Proof帐户进行故障排除。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# 提示、技巧和疑难解答 [!DNL Workfront Proof] 帐户管理
+# 有关[!DNL Workfront Proof]帐户管理的提示、技巧和疑难解答
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [常见问题解答： [!DNL Workfront Proof]  — 美国到EMEA的迁移](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+* [常见问题解答： [!DNL Workfront Proof]  — 美国迁移到EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)

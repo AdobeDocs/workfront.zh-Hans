@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日这一周。
 
-有关22.1版本可用的所有更改列表，请参阅 [22.1发行版概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+有关22.1版本的所有可用更改列表，请参阅[22.1版本概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 改进了审阅者和请求者的验证功能
 
@@ -47,7 +47,7 @@ in January 2022
 
 有关更多信息，请参阅
 
-* [验证角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [校对角色概述](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## 校样的电子签名增强
@@ -56,11 +56,11 @@ in January 2022
 
 >[!IMPORTANT]
 >
->要使用SSO凭据以电子方式签署验证，您必须在Workfront Proof中设置SSO。 有关启用SSO的详细信息，请参阅 [为Workfront Proof用户配置单点登录](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>要使用SSO凭据以电子方式签署验证，您必须在Workfront Proof中设置SSO。 有关启用SSO的详细信息，请参阅[为Workfront Proof用户配置单点登录](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)。
 
 以前，用户必须使用Workfront Proof凭据，这些凭据与其Workfront凭据不同。
 
-有关更多信息，请参阅 [校对安全性概述](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+有关详细信息，请参阅[校对安全概述](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)。
 
 ## 桌面查看器升级
 
@@ -68,6 +68,6 @@ in January 2022
 
 >[!IMPORTANT]
 >
->Windows用户必须手动重新安装桌面查看器才能升级到最新版本。 之后，以后将自动更新桌面校对查看器。 有关重新安装帮助，请参阅 [安装桌面校对查看器](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows用户必须手动重新安装桌面查看器才能升级到最新版本。 之后，以后将自动更新桌面校对查看器。 有关重新安装帮助，请参阅[安装桌面校对查看器](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)。
 
 Mac用户会自动升级到最新版本。

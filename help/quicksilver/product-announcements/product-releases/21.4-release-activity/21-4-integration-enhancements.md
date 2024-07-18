@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境的所有集成增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## 从Dropbox业务链接文档
 
@@ -27,9 +27,9 @@ Dropbox业务允许您链接共享文档并将文档上传到共享文件夹。 
 
 您的Workfront管理员可以为贵组织启用此集成。
 
-有关详细信息，请参阅 [链接来自外部应用程序的文档](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关详细信息，请参阅[链接来自外部应用程序的文档](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
-有关Workfront管理员如何启用此选项的信息，请参阅 [配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+有关Workfront管理员如何启用此选项的信息，请参阅[配置文档集成](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 更新了用于Slack的Workfront
 
@@ -40,9 +40,9 @@ Dropbox业务允许您链接共享文档并将文档上传到共享文件夹。 
 
   例如，如果您被分配到某个任务，则会在分配后立即收到该通知。 以前，通知出现在Slack中之前可能会延迟。
 
-此更新要求您重新授权Workfront以进行Slack集成。 有关授权集成的信息，请参阅 [为Slack配置Adobe Workfront](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+此更新要求您重新授权Workfront以进行Slack集成。 有关授权集成的信息，请参阅[为Slack配置Adobe Workfront](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)。
 
-有关用于Slack通知的Workfront的更多信息，请参阅 [在Slack中接收Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+有关WorkfrontSlack通知的更多信息，请参阅[在Slack中接收Adobe Workfront通知](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)。
 
 ## 在同意Adobe Workfront集成时，可以更清楚地查看帐户访问的详细信息
 

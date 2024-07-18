@@ -58,11 +58,11 @@ ht-degree: 4%
 
 ## 设置自动提醒
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) (在Adobe Workfront的右上角)，然后单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **电子邮件** >**自动提醒**.
+1. 单击&#x200B;**电子邮件** >**自动提醒**。
 
-1. 在 **发送延迟通知到** 区域，选择以下任一选项：
+1. 在&#x200B;**将延迟通知发送到**&#x200B;区域，选择以下任一选项：
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>“分配给”用户</td>
-        <td>(在 <b>发送截止日期提醒至</b> 区域。) 如果您希望分配给任务或问题的用户收到关于其工作项临近到期日期的通知，请选择此选项。</td>
+        <td>（在<b>向</b>区域发送截止日期提醒中。） 如果您希望分配给任务或问题的用户收到关于其工作项临近到期日期的通知，请选择此选项。</td>
         <td></td>
     </tr>
 </table>
@@ -91,7 +91,7 @@ ht-degree: 4%
 
    从任务或问题的规划完成日期开始计算时间。
 
-   指定用于向任务或问题的计划完成日期添加时间的分钟数、小时数、天数、周数或月数。 选择 **经过的分钟数**， **经过小时数**， **经过的天数**，或 **经过的周数** 添加时间，包括计划中所指示的任何周末、节假日和非工作时间。
+   指定用于向任务或问题的计划完成日期添加时间的分钟数、小时数、天数、周数或月数。 选择&#x200B;**占用分钟数**、**占用小时数**、**占用天数数**&#x200B;或&#x200B;**占用周数**&#x200B;以添加包含计划中所指示的任何周末、节假日和非工作时间的时间。
 
    例如，如果任务在星期五分配，其持续时间为经过的3天，则任务完成日期将设置为星期一（假设星期六和星期日为周末）。 如果任务的持续时间为3天（未经过），则任务完成日期将设置为星期三。
 
@@ -105,10 +105,10 @@ ht-degree: 4%
 
 具有特定依赖关系类型的任务可能会在指定的开始日期之后交付，即使它们已过期。 例如，如果某个任务的前置任务具有完成 — 开始(fs)依赖关系，则即使该任务已超过指定的开始日期，它也不会包含在电子邮件中，因为在该前置任务完成之前，您无法启动该任务。
 
-有关接收自动提醒电子邮件的详细信息，请参阅 [自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) 中的部分 [Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md).
+有关接收自动提醒电子邮件的详细信息，请参阅[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自动提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)部分。
 
 ## 发送自动提醒
 
 在满足Workfront管理员选择的时间后，将立即发送自动提醒。
 
-如果要触发手动发送自动提醒电子邮件，可以使用诊断程序执行此操作。 有关在Workfront中访问和使用诊断的详细信息，请参阅 [使用诊断触发自动化流程](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+如果要触发手动发送自动提醒电子邮件，可以使用诊断程序执行此操作。 有关在Workfront中访问和使用诊断的详细信息，请参阅[使用诊断触发自动进程](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)。

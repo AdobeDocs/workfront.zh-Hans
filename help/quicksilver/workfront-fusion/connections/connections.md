@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront] 许可证。
+>除[!DNL Adobe Workfront]许可证外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 本节包含以下文章：
 
 * [连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
-* [在中创建连接 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
-* [创建与的连接 [!DNL Adobe Workfront Fusion]  — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
-* [连接 [!DNL Adobe Workfront Fusion] 到任何Web服务](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
-* [中的连接元数据 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
-* [连接 [!DNL Adobe Workfront Fusion] 到使用API令牌授权的Web服务](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
-* [连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] 更新了安全措施](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
-* [连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] 使用自定义OAuth客户端](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [调用 [!DNL MS Graph REST API] 通过 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求] 模块](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
-* [中的键 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
+* [在 [!DNL Adobe Workfront Fusion]中创建连接](../../workfront-fusion/connections/connection-instruction-toc.md)
+* [创建与 [!DNL Adobe Workfront Fusion] 的连接 — 基本说明](../../workfront-fusion/connections/connect-to-fusion-general.md)
+* [将 [!DNL Adobe Workfront Fusion] 连接到任何Web服务](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
+* [ [!DNL Adobe Workfront Fusion]中的连接元数据](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
+* [将 [!DNL Adobe Workfront Fusion] 连接到使用API令牌授权的Web服务](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
+* [使用更新的安全措施连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] ](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
+* [使用自定义OAuth客户端连接 [!DNL Adobe Workfront Fusion] 到 [!DNL Google Services] ](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
+* [通过 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL 发出OAuth 2.0请求]模块调用 [!DNL MS Graph REST API] ](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
+* [ [!DNL Adobe Workfront Fusion]中的键](../../workfront-fusion/connections/keys.md)
 * [从Web服务接收Webhook](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)

@@ -3,41 +3,41 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Workfront校訂管理員許可權疑難排解
-description: 中可用的許可權設定檔 [!DNL Adobe] 用於校訂使用者的Workfront為「管理員」、「主管」和「經理」。
+title: Workfront Proof Manager权限疑难解答
+description: 在 [!DNL Adobe] Workfront中可用于验证用户的权限配置文件是“管理员”、“主管”和“经理”。
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] 校訂管理員] 許可權疑難排解
+# [!UICONTROL [!DNL Workfront]验证管理器]权限疑难解答
 
-以下為中可用的許可權設定檔 [!DNL Adobe Workfront] 校訂使用者：
+以下是[!DNL Adobe Workfront]中可用于验证用户的权限配置文件：
 
 * [!UICONTROL 管理员]
-* [!UICONTROL 监督人]
+* [!UICONTROL 主管]
 * [!UICONTROL 经理]
 
 <!--For detailed information about these options and how to configure them, see .-->
 
-授與使用者時 [!UICONTROL 經理] 許可權，以下為可用的疑難排解資訊：
+在授予用户[!UICONTROL 经理]权限时，以下故障诊断信息可用：
 
-* **問題：** 使用者： [!UICONTROL 經理] 許可權無法檢視其他使用者建立的校樣。 相反地，他們看到 [!UICONTROL 存取遭拒] 畫面。
+* **问题：**&#x200B;具有[!UICONTROL 经理]权限的用户无法查看其他用户创建的验证。 他们反而会看到[!UICONTROL 访问被拒绝]屏幕。
 
-   ![](assets/access-denied-350x161.png)
+  ![](assets/access-denied-350x161.png)
 
-   **解決方案：** 使用者： [!UICONTROL 經理] 必須將許可權明確新增至校樣。 校訂應一律透過 [!UICONTROL 進階校訂選項] 視窗和使用者應一律透過此選項新增。
+  **解决方案：**&#x200B;具有[!UICONTROL 经理]权限的用户必须明确添加到验证中。 应始终通过[!UICONTROL 高级校对选项]窗口创建校对，并应始终通过此选项添加用户。
 
-* **問題：** 使用者： [!UICONTROL 經理] 許可權無法將校訂版本新增到其他使用者建立的校訂中（他們可能會在檔案集中提交校訂，但版本不會連線到其他使用者建立的原始集）。\
-   **解決方案：** 使用者： [!UICONTROL 經理] 許可權只有在使用者具有以下許可權時，才能將版本提交給其他使用者的校訂 [!UICONTROL 經理] 許可權，條件為以下兩項：
+* **问题：**&#x200B;具有[!UICONTROL 经理]权限的用户无法将验证版本添加到其他用户创建的验证中（他们可能会在文档集中提交验证，但这些版本不会连接到其他用户创建的原始集）。\
+   **解决方案：**&#x200B;具有[!UICONTROL 经理]权限的用户只有在同时具有[!UICONTROL 经理]权限的用户同时满足以下条件时，才能将版本提交到其他用户的验证：
 
-   * 明確新增至校樣
-   * 設定為 [!UICONTROL 作者] （校樣角色）在校樣上
+   * 明确添加到验证
+   * 在验证上设置为[!UICONTROL 作者] （验证角色）
 
-* **問題：** 使用者： [!UICONTROL 經理] 許可權無法編輯其他使用者對他們未擁有或未建立之校訂的評論。\
-   **解決方案：** 如果使用者具有 [!UICONTROL 經理] 許可權並不擁有校樣，但他們應該能夠編輯註解，並將它們新增為 [!UICONTROL 作者] (或 [!UICONTROL 版主])。\
-   以下提供三種型別的許可權： [!DNL Workfront] 的 [!UICONTROL 計畫者]， [!UICONTROL 背景工作]， [!UICONTROL 請求者]， [!UICONTROL 檢閱者] 輸入授權。 中的系統管理員或使用者管理員 [!DNL Workfront] 可以編輯使用者的設定檔並調整 [!DNL Workfront Proof] 許可權。
+* **问题：**&#x200B;具有[!UICONTROL 经理]权限的用户无法编辑其他用户对其不拥有或未创建的验证的评论。\
+   **解决方案：**&#x200B;如果具有[!UICONTROL 经理]权限的用户不拥有验证，但他们应该能够编辑评论，请将其添加为[!UICONTROL 作者] （或[!UICONTROL 审查方]）。\
+   在[!DNL Workfront]中为[!UICONTROL 规划者]、[!UICONTROL 工作人员]、[!UICONTROL 请求者]、[!UICONTROL 审阅者]类型许可证提供了这三种类型的权限。 [!DNL Workfront]中的系统管理员或用户管理员可以编辑用户的配置文件并从此处调整[!DNL Workfront Proof]权限。

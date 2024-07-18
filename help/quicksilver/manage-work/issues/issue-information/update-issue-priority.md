@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # 更新问题优先级
 
-您可以定义问题的优先级，以指示问题的重要性。
+您可以定义问题的优先级  以表明问题的重要性。
 
-您必须具有问题的管理权限才能修改问题的优先级。  [更新问题的优先级](#update-the-priority-of-an-issue).
+您必须具有问题的管理权限才能修改问题的优先级。  [更新问题的优先级](#update-the-priority-of-an-issue)。
 
 ## 访问要求
 
@@ -37,16 +37,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对问题的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理问题的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 问题优先级概述
 
@@ -57,7 +57,7 @@ Adobe Workfront管理员可以在Workfront中修改优先级标签，也可以�
 您应该熟悉组织中使用的优先级的编号顺序。\
 例如，如果优先级的标签被修改，您的组织可能会使用数字1来指紧急任务。
 
-有关自定义实例中优先级名称的详细信息，请参阅 [创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+有关自定义实例中优先级名称的更多信息，请参阅[创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
 请参阅下表以了解每个默认优先级标签及其对应的编号：
 
@@ -66,8 +66,8 @@ Adobe Workfront管理员可以在Workfront中修改优先级标签，也可以�
  <col> 
  <thead> 
   <tr> 
-   <th>优先级标签 <br>（可以修改） </th> 
-   <th>优先级编号 <br>（无法修改） </th> 
+   <th>优先级标签<br>（可以修改） </th> 
+   <th>优先级编号<br>（无法修改） </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,16 +97,16 @@ Adobe Workfront管理员可以在Workfront中修改优先级标签，也可以�
 ## 更新问题的优先级 {#update-the-priority-of-an-issue}
 
 1. 转到要修改其优先级的问题。
-1. 单击 **问题详细信息** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**问题详细信息**。
 
-   此 **概述** 部分默认应显示。
+   默认情况下应显示&#x200B;**概述**&#x200B;部分。
 
-1. 单击 **优先级** 中的字段 **基本信息** 区域。
+1. 单击&#x200B;**基本信息**&#x200B;区域中的&#x200B;**优先级**&#x200B;字段。
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. 选择值 **优先级** 字段。
+1. 为&#x200B;**优先级**&#x200B;字段选择一个值。
 
    根据Workfront管理员在系统中配置优先级的方式，选项可能会有所不同。
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。

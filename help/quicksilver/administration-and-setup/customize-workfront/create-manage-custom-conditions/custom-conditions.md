@@ -29,4 +29,4 @@ ht-degree: 0%
 * [将自定义条件设置为任务和问题的默认值](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [删除自定义完成情况](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-有关条件以及如何将其应用于项目、任务和问题的更多信息，请参阅 [项目完成情况和完成情况类型概览](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) 和 [任务和问题的更新条件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+有关条件以及如何将它们应用于项目、任务和问题的详细信息，请参阅[项目条件和条件类型概述](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)和[更新任务和问题的条件](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。

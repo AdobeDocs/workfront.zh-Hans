@@ -28,8 +28,8 @@ ht-degree: 0%
 
 记录的右侧面板显示以下部分：
 
-* **评论**：显示用户添加到记录的评论和回复。
-* **历史记录**：显示用户对记录字段进行的系统记录更改。 有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/planning/records/history-section-overview.md).
+* **个评论**：显示评论和用户添加到记录的回复。
+* **历史记录**：显示用户对记录字段进行的系统记录更改。 有关详细信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。
 
 ## 访问要求
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
  </tbody>
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 * 您可以将注释添加到由于某个记录与来自另一个应用程序的对象之间的连接而创建的Workfront Planning记录中。
 
-  例如，在将Workfront项目与Workfront Planning记录连接后，您可以对Workfront Planning项目记录进行评论。 有关更多信息，请参阅 [连接记录](/help/quicksilver/planning/records/connect-records.md).
+  例如，在将Workfront项目与Workfront Planning记录连接后，您可以对Workfront Planning项目记录进行评论。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 * 添加到其他应用程序中链接对象的注释不会显示在Workfront Planning中，而添加到Workfront Planning中链接对象的注释不会显示在其他应用程序中。
 
   例如，添加到Workfront中的项目的注释不会显示在链接到Workfront Planning中的营销活动的同一项目中，并且添加到Workfront Planning项目记录的注释不会显示在Workfront中。
 
-* 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。 <!--this might change??-->
+* 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。<!--this might change??-->
 
 <!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
    The following scenario exists:   
@@ -130,14 +130,14 @@ ht-degree: 0%
 1. 单击记录类型卡片。
 此时将打开记录类型页面，并显示该类型的所有记录。
 
-1. 从中选择表格视图 **视图** 下拉菜单。
+1. 从&#x200B;**视图**&#x200B;下拉菜单中选择一个表视图。
 1. 单击表视图中记录的名称。
 
-   记录的 **详细信息** 页面将打开。 默认情况下，“注释”区域会在右侧面板中打开。
+   记录的&#x200B;**详细信息**&#x200B;页面打开。 默认情况下，“注释”区域会在右侧面板中打开。
 
-1. （视情况而定）如果默认情况下未打开右侧面板，请单击 **显示评论** ![](assets/show-comments-icon.png) 图标，以打开“注释”部分。
+1. （视情况而定）如果默认情况下未打开右侧面板，请单击右上角的&#x200B;**显示评论** ![](assets/show-comments-icon.png)图标以打开“评论”部分。
 
-1. 开始在 **新建评论** 盒子。
+1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ ht-degree: 0%
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选）添加 **@** 后跟用于在更新中标记某人的用户的名称。
+1. （可选）添加&#x200B;**@**，后跟用户名称，以在更新中标记某人。
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关更多信息，请参阅文章中的“在Workfront更新中使用富文本”部分 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关详细信息，请参阅文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的“在Workfront更新中使用富文本”部分。
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ ht-degree: 0%
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. 单击 **提交** 将更新添加到记录。
-1. （可选）要编辑评论，请单击 **更多** 菜单 ![](assets/more-menu.png) 单击注释右上角的 **编辑**.
+1. 单击&#x200B;**提交**&#x200B;将更新添加到记录。
+1. （可选）要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ ht-degree: 0%
    >
    >当前年份的注释不会在日期戳中显示年份。 将鼠标悬停在时间戳上会显示完整日期，包括年份。
 
-1. （可选且有条件）要搜索现有注释，请在 **评论** 区域。
+1. （可选且有条件）要搜索现有评论，请在&#x200B;**评论**&#x200B;区域右上角的搜索框中开始键入关键字。
 
    ![](assets/search-box-for-comments-area.png)
 
-1. （可选）单击 **回复** 或开始在 **添加回复……** 区域，回复现有评论，然后执行上述步骤4-8。 <!--(**************accurate??***********)-->
+1. （可选）单击&#x200B;**回复**&#x200B;或开始在&#x200B;**添加回复……**&#x200B;区域键入评论以回复现有评论，然后执行上面的步骤4-8。<!--(**************accurate??***********)-->
 
-1. （视情况而定，可选）如果其他用户添加了在添加注释时显示在“注释”部分的可见区域之外的注释，请单击 **视图** 内部 **新评论横幅** 在屏幕底部显示这些注释。
+1. （视情况而定，可选）如果您在添加评论时，其他用户在“评论”部分的可见区域之外添加了显示的评论，请单击屏幕底部的&#x200B;**新评论横幅**&#x200B;中的&#x200B;**查看**&#x200B;以显示这些评论。
 
    ![](assets/new-comments-banner-on-record.png)
 
    屏幕底部会显示其他注释。
 
-1. （可选）单击 **点赞** 图标表示喜欢更新或确认您已阅读该更新。 图标会随喜欢的数量而更新。
+1. （可选）单击&#x200B;**类似**&#x200B;图标以喜欢更新或确认您已阅读该更新。 图标会随喜欢的数量而更新。
 1. （视情况而定，可选）如果在注释中包含其他人员，请单击更新中包含的用户的头像，以显示与注释共享的用户列表。
-1. （可选）单击 **更多** 图标 ![](assets/more-menu.png) 单击注释右上角的以下选项之一，从注释中复制信息：
+1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击以下选项之一，以从评论中复制信息：
 
    * **复制链接**：这会将指向评论的链接复制到剪贴板。
-   * **复制正文文本**：这会将注释的文本复制到剪贴板。
+   * **复制正文文本**：这会将评论的文本复制到剪贴板。
    * **引用回复**：这会将您的评论内容复制到新回复中。 复制的回复中不包含图像。
 
-   有关更多信息，请参阅 [更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （可选）单击 **更多** 图标 ![](assets/more-menu.png) 单击注释右上角的 **删除** 以删除注释。
-1. （可选）单击 **隐藏评论** 图标 ![](assets/hide-comments-icon.png) 以关闭右侧面板。
+   有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
+1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![](assets/hide-comments-icon.png)以关闭右侧面板。
 
 ## “历史记录”部分概述
 
 您可以在记录的右侧面板的“历史记录”部分中查看对记录所做的更改。
 
-有关更多信息，请参阅 [“历史记录”部分概述](/help/quicksilver/planning/records/history-section-overview.md).
+有关详细信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。

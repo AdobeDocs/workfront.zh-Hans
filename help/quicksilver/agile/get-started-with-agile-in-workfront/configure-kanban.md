@@ -2,7 +2,7 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 配置Kanban
-description: 您在中创建了Kanban或Scrum敏捷团队 [!DNL Adobe Workfront].
+description: 您在 [!DNL Adobe Workfront]中创建Kanban或Scrum Agile团队。
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# 配置 [!UICONTROL Kanban]
+# 配置[!UICONTROL Kanban]
 
 <!--Audited: 12/2023-->
 
-您可以在中创建Agile团队 [!DNL Adobe Workfront] 如中所述 [创建Agile团队](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
+您可以在[!DNL Adobe Workfront]中创建Agile团队，如[创建Agile团队](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 在创建Agile团队时，您可以选择团队用于完成其工作的方法。 您可以从以下选项中进行选择：
 
 * Scrum
 * Kanban
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 如何自动添加积压中的故事
 * 卡片在Kanban展示板上停留多长时间
 
-有关配置Scrum团队的信息，请参阅 [配置Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
+有关配置Scrum团队的信息，请参阅[配置Scrum](../get-started-with-agile-in-workfront/configure-scrum.md)。
 
 ## 访问要求
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-*要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+*要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
 +++
 
@@ -77,17 +77,17 @@ ht-degree: 0%
 
 {{step1-to-team}}
 
-1. 单击 **[!UICONTROL 切换团队]** 图标 ![](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索框中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索框中搜索团队。
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png) ，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-menu.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，在 **[!UICONTROL 估计故事位于]** 区域，选择是使用点还是小时来估算文章的大小（工作负荷）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 估算]**&#x200B;中的故事区域，选择您是要使用点还是小时来估算故事的大小（工作负载）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
 
-   **示例：** 如果您已选择估计故事的点数，1点等于8小时，并且故事的估计点数为3，则系统会将24个已计划小时数添加到故事中。
+   **示例：**&#x200B;如果您已选择估计故事的点数，1点等于8小时，并且估计故事的点数为3，则系统会将24个已计划小时数添加到故事中。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 在敏捷故事板上配置状态列
 
@@ -97,16 +97,16 @@ ht-degree: 0%
 
 {{step1-to-team}}
 
-1. 单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，找到 **[!UICONTROL 故事板]** 区域。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，找到&#x200B;**[!UICONTROL 故事板]**&#x200B;区域。
 
-1. （可选）单击 **[!UICONTROL 添加列]** 向故事板添加其他状态列。
+1. （可选）单击&#x200B;**[!UICONTROL 添加列]**&#x200B;以向故事板添加其他状态列。
 1. （可选）使用拖放指示器拖动任意状态列，以重新排列故事板上的状态列。 无法移动第一列，也不能将另一列拖到第一列的前面。
 
    ![拖放](assets/agile-story-card-drag-and-drop.png)
@@ -115,11 +115,11 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >只有锁定的系统范围状态可供选择。 您不能选择特定于组的状态。 第一列的状态始终对应于 **[!UICONTROL 新建]**.
+   >只有锁定的系统范围状态可供选择。 您不能选择特定于组的状态。 第一列的状态始终对应于&#x200B;**[!UICONTROL New]**。
 
-   您可以添加自定义状态，如果 [!DNL Workfront] 管理员已配置它们。 有关更多信息，请参阅 [创建或编辑状态](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   如果[!DNL Workfront]管理员已配置自定义状态，则可以添加这些状态。 有关详细信息，请参阅[创建或编辑状态](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 配置要在敏捷故事板上的故事卡上显示的其他字段
 
@@ -145,85 +145,85 @@ ht-degree: 0%
 
 {{step1-to-team}}
 
-1. 单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击 **[!UICONTROL 更多]** 菜单，然后选择 **[!UICONTROL 编辑]**.\
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，键入字段名称以查找它。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，键入字段名称以找到它。
 
-   ![其他字段](assets/agile-additional-fields-kanban.png)
+   ![附加字段](assets/agile-additional-fields-kanban.png)
 
 1. 选择要添加的字段的名称。
-1. 键入 **[!UICONTROL 显示名称]** 以在故事或问题卡上显示的字段。
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 为要显示在文章或问题卡上的字段键入&#x200B;**[!UICONTROL 显示名称]**。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 配置正在进行的工作(WIP)限制
 
-在定义Kanban团队的WIP限制时，可以通过限制该团队当前处理的项目数来控制该团队当前处理的项目数。 [!UICONTROL 新建] 或 [!UICONTROL 进行中] 上的列 [!UICONTROL Kanban] 展示板。
+定义Kanban团队的WIP限制时，可以通过限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]列中出现的任务数来控制团队当前正在处理的项目数。
 
-在配置Kanban小组的WIP限制后，您可以查看WIP限制并从以下位置对其进行更新： [!UICONTROL Kanban] 敏捷故事板，如中所述 [管理上的正在进行的工作(WIP)限制 [!UICONTROL Kanban] 展示板](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+配置Kanban团队的WIP限制后，您可以查看WIP限制并从[!UICONTROL Kanban]敏捷故事板更新它，如[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的[管理正在进行的工作(WIP)限制中所述。
 
 要限制Kanban团队的WIP，请执行以下操作：
 
 {{step1-to-team}}
 
-1. 单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Kanban团队。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png)，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-menu.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL 敏捷]** 部分，在 **[!UICONTROL 方法]** 部分，确保选中Kanban。
+1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，确保已选择Kanban。
 
-1. 在 **[!UICONTROL 故事板]** 部分，在 **[!UICONTROL WIP限制]** 字段，指定每个列中允许的最大项数 [!UICONTROL Kanban] 敏捷故事板。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。\
-   设置后，WIP限制会在 [!UICONTROL Kanban] 敏捷故事板任何时候超过故事板上任何列的限制。 此警告消息仅在第一次超出WIP限制时显示。 此警告消息不显示在任何具有相等状态的列上 [!UICONTROL 完成].\
+1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;部分的&#x200B;**[!UICONTROL WIP限制]**&#x200B;字段中，指定[!UICONTROL Kanban]敏捷故事板每列允许的最大项目数。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。\
+   设置后，每当超过故事板上任何列的限制，WIP限制会在[!UICONTROL Kanban]敏捷故事板上显示警告消息。 此警告消息仅在第一次超出WIP限制时显示。 此警告消息不显示在任何状态等于[!UICONTROL Complete]的列上。\
    WIP限制只是一个视觉上的警告，不会限制您的团队在一列中拥有超过您设置的限制数量的项目。
 
    ![WIP限制](assets/wip-limit-350x193.png)
 
-1. 单击 **保存更改**.
+1. 单击&#x200B;**保存更改**。
 
 ## 配置从积压自动添加故事
 
 <!-- this functionality needs to be verified-->
 
-您可以将积压中的故事配置为自动添加到 [!UICONTROL Kanban] 将项目从该列移动之后立即展示板。
+您可以将积压中的故事配置为在项目从列移动后立即自动添加到[!UICONTROL Kanban]展示板上的第一列。
 
 {{step1-to-team}}
 
-1. 单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Kanban团队。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png)，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-menu.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 选择 **[!UICONTROL 从积压自动添加下一个故事]** 配置积压中的下一个项自动添加到 **[!UICONTROL 新建]** 列(在将项目移出 **[!UICONTROL 进行中]** 列。
+1. 选择&#x200B;**[!UICONTROL 自动从积压工作]**&#x200B;添加下一个故事，以配置在项目移出&#x200B;**[!UICONTROL 进行中]**&#x200B;列时，积压工作中的下一个项目自动添加到&#x200B;**[!UICONTROL 新建]**&#x200B;列。
 
-   用户必须启用 **显示积压** 设置 [!UICONTROL Kanban] 板使此功能生效。 当用户启用 [!UICONTROL 显示积压] 设置 [!UICONTROL Kanban板]，将会执行以下功能：
+   用户必须在[!UICONTROL Kanban]展示板上启用&#x200B;**显示积压**&#x200B;设置，此功能才能生效。 当用户启用[!UICONTROL Kanban展示板]上的[!UICONTROL 显示积压]设置时，将执行以下功能：
 
-   每当故事从 [!UICONTROL 进行中] 栏插入故事板上的栏以表示 [!UICONTROL 完成] 状态（或等于以下内容的状态） [!UICONTROL 完成])，则积压栏中的故事会自动移至 [!UICONTROL 新建] 列 [!UICONTROL Kanban板].
+   每当故事从[!UICONTROL 进行中]列移动到故事板上代表[!UICONTROL 完成]状态（或相当于[!UICONTROL 完成]状态）的列时，积压列中的故事就会自动移动到[!UICONTROL Kanban展示板]的[!UICONTROL 新建]列。
 从积压中添加时，具有最高优先级的故事会添加到故事板。
 
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
-## 配置卡在上的停留时间 [!UICONTROL Kanban] 展示板
+## 配置信息卡在[!UICONTROL Kanban]展示板上停留的时长
 
-您可以选择已完成的卡片在 [!UICONTROL Kanban] 展示板。 流失的任务 [!UICONTROL Kanban] 仍然可以在原始项目中访问展示板。
+您可以选择已完成信息卡在[!UICONTROL Kanban]展示板上停留的时间。 从[!UICONTROL Kanban]展示板掉落的任务仍可在原始项目中访问。
 
 {{step1-to-team}}
 
-1. （可选）单击 **[!UICONTROL 切换团队]** 图标 ![“切换团队”图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Kanban团队或在搜索栏中搜索团队。
+1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Kanban团队或在搜索栏中搜索团队。
 1. 选择Kanban团队。
-1. 单击 **[!UICONTROL 更多]** 菜单 ![](assets/more-menu.png) ，然后选择 **[!UICONTROL 编辑]**.
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![](assets/more-menu.png)，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
-1. 在 **[!UICONTROL “已完成”卡片留在Kanban板上的天数]** 下拉菜单中，选择一个值。
+1. 在&#x200B;**[!UICONTROL 已完成天数信息卡停留在Kanban展示板]**&#x200B;下拉菜单中，选择一个值。
 
    您可以选择1到30天之间的数字。
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。

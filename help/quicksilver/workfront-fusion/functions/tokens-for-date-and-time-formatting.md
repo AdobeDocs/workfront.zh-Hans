@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: 日期和时间格式的令牌 [!DNL Adobe Workfront Fusion]
-description: 以下日期和时间格式令牌在以下位置可用： [!DNL Adobe Workfront Fusion mapping] 面板。
+title: ' [!DNL Adobe Workfront Fusion]中日期和时间格式的令牌'
+description: ' [!DNL Adobe Workfront Fusion mapping] 面板中提供了以下日期和时间格式令牌。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 5%
 
 ---
 
-# 日期和时间格式的令牌 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中日期和时间格式的令牌
 
 ## 访问要求
 
@@ -36,25 +36,25 @@ ht-degree: 6%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 年、月和日令牌
 
@@ -78,7 +78,7 @@ ht-degree: 6%
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>1970 1971 ... 2029 2030 </code> </td> 
-   <td> <p>4位数年份</p> </td> 
+   <td> <p>4位数年</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
@@ -98,17 +98,17 @@ ht-degree: 6%
   <tr> 
    <td><code>M</code> </td> 
    <td><code>1 2 ... 11 12</code></td> 
-   <td> <p>月号</p> </td> 
+   <td> <p>月份编号</p> </td> 
   </tr> 
   <tr> 
    <td><code>Mo </code> </td> 
    <td><code>1st 2nd ... 11th 12th</code> </td> 
-   <td> <p>带序数的[！UICONTROL Month]</p> </td> 
+   <td> <p>[！UICONTROL Month]，带序数</p> </td> 
   </tr> 
   <tr> 
    <td><code>MM</code> </td> 
    <td><code>01 02 ... 11 12 </code> </td> 
-   <td> <p> 开头为零的月份编号</p> </td> 
+   <td> <p> 开头为零的月份数字</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM</code> </td> 
@@ -133,7 +133,7 @@ ht-degree: 6%
   <tr> 
    <td><code>DD</code> </td> 
    <td><code>01 02 ... 30 31</code></td> 
-   <td> <p> 开头为零的月中日</p> </td> 
+   <td> <p> 以零开头的月中日</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD</code> </td> 
@@ -143,12 +143,12 @@ ht-degree: 6%
   <tr> 
    <td><code>DDDo</code> </td> 
    <td><code>1st 2nd ... 364th 365th</code> </td> 
-   <td> <p>带序数的[！UICONTROL年日]</p> </td> 
+   <td> <p>[！UICONTROL Day of year]，序数</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDD </code> </td> 
    <td><code>001 002 ... 364 365</code> </td> 
-   <td> <p> 前导为零的年中的第几天</p> </td> 
+   <td> <p> 以零开头的年中的日</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -175,7 +175,7 @@ ht-degree: 6%
   <tr> 
    <td><code>do</code> </td> 
    <td><code>0th 1st ... 5th 6th </code> </td> 
-   <td> <p>[！UICONTROL ordinal]的每周日期</p> </td> 
+   <td> <p>[！UICONTROL ordinal]每周日期</p> </td> 
   </tr> 
   <tr> 
    <td><code>dd </code> </td> 
@@ -205,12 +205,12 @@ ht-degree: 6%
   <tr> 
    <td><code>wo </code> </td> 
    <td><code>1st 2nd ... 52nd 53rd</code> </td> 
-   <td> <p>[！UICONTROL Week of Year with ordinal]</p> </td> 
+   <td> <p>[！UICONTROL包含序号的周数]</p> </td> 
   </tr> 
   <tr> 
    <td><code>ww </code> </td> 
    <td><code>01 02 ... 52 53 </code> </td> 
-   <td> <p>前导为零的年中的第几周</p> </td> 
+   <td> <p>以零开头的年周</p> </td> 
   </tr> 
   <tr> 
    <td><code>W</code></td> 
@@ -220,12 +220,12 @@ ht-degree: 6%
   <tr> 
    <td><code>Wo</code> </td> 
    <td><code>1st 2nd ... 52nd 53rd </code> </td> 
-   <td> <p> 具有序数的年中的周(ISO)</p> </td> 
+   <td> <p> 包含序数(ISO)的周数</p> </td> 
   </tr> 
   <tr> 
    <td><code>WW</code> </td> 
    <td><code>01 02 ... 52 53 </code> </td> 
-   <td> <p> 前导为零的年中的第几周(ISO)</p> </td> 
+   <td> <p> 零开头的一周中的第几周(ISO)</p> </td> 
   </tr> 
   <tr> 
    <td><code>gg</code></td> 
@@ -272,7 +272,7 @@ ht-degree: 6%
   <tr> 
    <td><code>HH</code> </td> 
    <td><code>00 01 ... 22 23</code></td> 
-   <td> <p> 前导为0的24小时时间</p> </td> 
+   <td> <p> 24小时制时间（前导为0）</p> </td> 
   </tr> 
   <tr> 
    <td><code>h</code> </td> 
@@ -292,17 +292,17 @@ ht-degree: 6%
   <tr> 
    <td><code>kk</code></td> 
    <td><code>01 02 ... 23 24</code> </td> 
-   <td> <p> 前导为0的24小时时间</p> </td> 
+   <td> <p> 24小时制时间（前导为0）</p> </td> 
   </tr> 
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>后子午线或前子午线（大写）</p> </td> 
+   <td> <p>Post或前子午线（大写）</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> 后子午线或前子午线（小写）</p> </td> 
+   <td> <p> Post或前子午线（小写）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 
@@ -312,7 +312,7 @@ ht-degree: 6%
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p>以0开头的[！UICONTROL分钟数</p> </td> 
+   <td> <p>[！UICONTROL Minutes with]前导零</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 

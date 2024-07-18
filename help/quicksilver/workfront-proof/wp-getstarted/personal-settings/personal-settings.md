@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
-title: 中的个人设置 [!DNL Workfront Proof]
+title: ' [!DNL Workfront Proof]中的个人设置'
 description: 了解Workfront Proof中的个人设置。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# 中的个人设置 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中的个人设置
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [指定临时证明所有者 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
+* [在 [!DNL Workfront Proof]中指定临时验证所有者](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
 * [集成 — 用户设置](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)

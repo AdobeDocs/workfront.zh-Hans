@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 公式字段使用记录类型中其他字段的现有值以及指示应如何计算现有值的函数来生成新值。
 
-有关信息，请参阅文章中的“公式”部分 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+有关信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 
 ## 访问要求
 
@@ -81,13 +81,13 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
@@ -101,14 +101,14 @@ recommendations: noDisplay, noCatalog
 
 ## 有关公式字段的注意事项
 
-* 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。 <!--is this still accurate??-->
+* 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。<!--is this still accurate??-->
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
 * 您必须添加您在公式中引用的字段，这些字段在Workfront Planning界面中显示。
 
 ## 支持的公式
 
-Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表达式。 有关更多信息，请参阅 [计算数据表达式概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表达式。 有关详细信息，请参阅[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 此外，我们为Workfront Planning公式字段支持以下表达式：
 
@@ -132,10 +132,10 @@ Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表�
    </td></tr>
 
 <tr> 
-   <td><strong>数组唯一</strong> </td> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>返回具有唯一值的数组。</p> <p>表达式的格式如下所示：
 
-<code>ARRAYUNIQUE(array)</code>
+<code>ARRAYUNIQUE（数组）</code>
 </p>
    </td></tr>
      <tr> 

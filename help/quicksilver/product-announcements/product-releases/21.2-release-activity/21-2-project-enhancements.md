@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2项目增强功能
 
-本页介绍了21.2版本对“预览”环境所做的所有项目增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有项目增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 用于创建和编辑周期性任务的新界面
 
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 作为重新设计“新建任务”和“编辑任务”框的一部分，我们添加了使新任务重复执行以及编辑重复执行任务父项的功能。 此功能未包含在之前发布的新增和编辑任务框重新设计中。
 
-有关更多信息，请参阅 [创建周期性任务](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+有关详细信息，请参阅[创建周期性任务](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
 
-此功能现已包含在 [新Workfront Experience的计划者基础知识，第2部分：计划项目](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Workfront One学习路径。
+此功能现已包含在新Workfront Experience的[规划者基础知识部分，第2部分：在Workfront One上规划项目](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)学习路径。
 
 ## 项目标题中可用的新按钮
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 为了让您快速筛选“项目”页面上的项目列表，标题中有两个新按钮，允许您快速应用我所在的项目或我拥有的项目过滤器。
 
-此功能现已包含在 [新Workfront体验的计划者基础知识，第1部分：创建项目](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Workfront One学习路径。
+此功能现已包含在新Workfront Experience的[规划者基础知识部分，第1部分：在Workfront One中创建项目](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)学习路径。
 
 ## 从Scrum展示板移动或删除故事或问题
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 您还可以选择通过单击卡片上的“更多”图标并选择“删除”，直接从Scrum展示板中删除文章或问题。 删除文章或问题后，该文章或问题将被移动到回收站保留30天，只有系统管理员才能恢复。
 
-有关更多信息，请参阅 [管理Scrum展示板上的故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+有关详细信息，请参阅[在Scrum展示板上管理故事和问题](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)。
 
 ## 新建编辑问题框
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 为了在填写自定义表单时获得更好的体验，我们改进了长自定义字段标签的显示方式。 当有足够的水平空间来完整显示它们时，这些标签将不再被截断。
 
-有关填写自定义表单的信息，请参阅 [编辑自定义表单字段中的信息](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+有关填写自定义表单的信息，请参阅[编辑自定义表单字段中的信息](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
 ## 问题的主要联系人现在可从项目详细信息区域看到
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 您必须在布局模板中启用此字段才能在新的Adobe Workfront Experience项目中查看它。
 
-有关转换问题的信息，请参阅 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+有关转换问题的信息，请参阅[在Adobe Workfront中转换问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 ## 查看有关要分配给项目组合、项目群或团队的组的信息
 
@@ -115,12 +115,12 @@ ht-degree: 1%
 
 当您将组分配给项目组合、项目群或团队时，我们让您更容易确保您拥有正确的组 — 您可以单击组名称旁边的信息图标，以显示工具提示，其中包含组上面的组层次结构，以及组的管理员。 根据为组配置的详细信息，您还可能会看到组的业务负责人和描述。
 
-此功能与最近发布的功能相同，旨在帮助您确定需要分配给项目的组，如中所述 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
+此功能与最近发布的功能相同，可帮助您识别需要分配给项目的组，如[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)中所述。
 
 有关更多信息，请参阅以下文章：
 
 * [创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [创建项目](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [创建团队](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## 自定义字段中的文本格式现在显示在所有Workfront Classic列表和报表中
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 以前，在Workfront Classic中，文本格式仅在项目、任务和小时列表中可见。
 
-有关在自定义字段中设置文本格式的信息，请参阅 [创建自定义表单](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+有关在自定义字段中设置文本格式的信息，请参阅[创建自定义表单](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html)。
 
-有关在列表中显示信息的信息，请参阅 [列表入门](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+有关在列表中显示信息的信息，请参阅[开始使用列表](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en)。
 
 ## 新建编辑任务框
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 * 我们在“工作总揽”部分中添加了“工期”、“工期类型”和“已计划小时数”字段，以便在更新各种工期类型的工作总揽以及他们花费在任务上的时间或工期时提供一致性。
 * 我们已从编辑任务屏幕中删除了注释功能，以消除更新部分的冗余。
 
-有关新的“编辑任务”框的信息，请参见 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+有关新的编辑任务框的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 ## 新建任务框
 
@@ -176,7 +176,7 @@ ht-degree: 1%
 * 您可以自定义布局模板一次，并在“详细信息”页面和“新建任务”框中反映这些自定义设置。
 * 我们在“工作总揽”部分中添加了“工期”、“工期类型”和“已计划小时数”字段，以便在更新工作总揽以及他们花费在任务上的时间或工期时提供一致性。
 
-有关新的“新建任务”框的信息，请参见 [在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+有关新任务框的信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
 ## 停用不再使用的团队
 
@@ -186,7 +186,7 @@ ht-degree: 1%
 
 您现在可以停用不再使用的团队。 停用团队后，该团队将不再出现在Workfront的大多数预输入、搜索字段或常用菜单中。 但是，会保留与团队关联的历史数据。
 
-有关更多信息，请参阅 [取消激活团队](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
+有关详细信息，请参阅[停用团队](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)。
 
 ## 更新设置，该设置允许用户删除有记录小时数的任务和问题
 
@@ -198,5 +198,5 @@ ht-degree: 1%
 
 在此更改之前，禁用设置会阻止用户仅删除任务或问题，而不删除项目。
 
-有关更多信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有关详细信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 

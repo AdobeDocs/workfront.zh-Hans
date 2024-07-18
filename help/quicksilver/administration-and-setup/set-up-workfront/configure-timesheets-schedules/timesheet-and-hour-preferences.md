@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 配置时间表和小时首选项
-description: 作为 [!DNL Adobe Workfront] 管理员，您可以在中指定时间表和小时数的首选项 [!DNL Workfront] 以定义时间表可预填充的项目以及用户可将时间记录到的项目。
+description: 作为 [!DNL Adobe Workfront] 管理员，您可以在 [!DNL Workfront] 中指定时间表和小时数的首选项，以定义时间表可以预填充的项目以及用户可以记录时间的项目。
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-作为 [!DNL Adobe Workfront] 管理员，您可以在中指定时间表和小时数的首选项 [!DNL Workfront] 以定义时间表可预填充的项目以及用户可将时间记录到的项目。
+作为[!DNL Adobe Workfront]管理员，您可以在[!DNL Workfront]中指定时间表和小时数的首选项，以定义时间表可以预填充的项目以及用户可以记录时间的项目。
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >* 固定到时间表的项目
 >* 您搜索并手动添加到时间表的项目。 默认情况下，手动添加的项目会被固定。
 >
->有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md) 和 [工时表概述](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>有关详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)和[时间表概述](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)。
 
 
 
@@ -58,28 +58,28 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。</p>  </td>
+   <td> <p>您必须是[!DNL Workfront]管理员。</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 设置时间表和小时首选项
 
 {{step-1-to-setup}}
 
-1. 单击 **[!UICONTROL 时间表和小时数]** > **[!UICONTROL 偏好设置]**.
+1. 单击&#x200B;**[!UICONTROL 时间表和小时数]** > **[!UICONTROL 首选项]**。
 
    此时将显示时间表和小时首选项页面。
 
-1. （可选）在 **系统时间表和小时首选项** 搜索框，开始键入组的名称，然后在组显示在列表中时将其选中。
+1. （可选）在&#x200B;**系统时间表和小时首选项**&#x200B;搜索框中，开始键入组的名称，然后当组显示在列表中时将其选定。
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   “时间表和小时首选项”页面会更新为您所选组的首选项。 必须解锁系统级别的首选项才能修改组级别的首选项。 有关更多信息，请参阅部分 [解锁组的工时表和小时首选项](#unlock-timesheet-and-hour-preferences-for-groups) 本文章中。
+   “时间表和小时首选项”页面会更新为您所选组的首选项。 必须解锁系统级别的首选项才能修改组级别的首选项。 有关详细信息，请参阅本文中[解锁组](#unlock-timesheet-and-hour-preferences-for-groups)的时间表和小时偏好设置。
 
-1. 在 **[!UICONTROL 常规首选项]** 部分，配置以下任一选项：
+1. 在&#x200B;**[!UICONTROL 常规首选项]**&#x200B;部分中，配置以下任意选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,13 +91,13 @@ ht-degree: 0%
        <ul> 
         <li>他们有权记录时间的任何项目、任务和问题</li> 
         <li>他们的工时表作为常规时间</li> 
-       </ul> <p>当用户计划离开办公室并希望提前记录时间时，这将很有用。</p> <p><b>注意</b>：</p> 
+       </ul> <p>当用户计划离开办公室并希望提前记录时间时，这将很有用。</p> <p><b>注释</b>：</p> 
        <p>您无法阻止用户记录已关闭或已取消的任务或问题的时间。 您只能阻止用户记录完成项目或停止项目的时间。 我们建议您在任务和问题列表中使用过滤器，以排除已完成或取消的任务和问题，以免用户看到它们。</p> </td> 
      </tr>
 
    <tr> 
       <td role="rowheader">[！UICONTROL手动将工作角色分配给小时条目]</td> 
-      <td> <p>允许用户手动选择在其用户配置文件中分配或分配给对象的任意工作角色。</p> <p><b>重要</b>：  
+      <td> <p>允许用户手动选择在其用户配置文件中分配或分配给对象的任意工作角色。</p> <p><b>重要信息</b>：  
         <ul> 
          <li>如果在将工作角色分配给小时条目后禁用此设置，则用户必须在项目、任务或问题的[！UICONTROL小时数]选项卡上调整在各种角色下记录的小时数。</li> 
          <li>如果用户在其配置文件中未分配工作角色，并且在[！UICONTROL高级分配]对话框中有任务被分配为[！UICONTROL任务所有者]，则当用户登录任务时间时，将显示该工作角色。</li> 
@@ -105,7 +105,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL限制对所有者和管理员编辑工时表]</td> 
-      <td> <p>限制仅对时间表所有者和进行编辑 [!DNL Workfront] 管理员。 禁用此选项后，还可以通过以下方式编辑时间表：</p> 
+      <td> <p>限制对时间表所有者和[!DNL Workfront]管理员进行编辑。 禁用此选项后，还可以通过以下方式编辑时间表：</p> 
        <ul> 
         <li> <p>对时间表和小时数的访问级别具有管理访问权限的用户</p> </li> 
         <li> <p>时间表批准者（如果在时间表上启用了“可以编辑小时数”）</p> </li> 
@@ -114,12 +114,12 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[！UICONTROL限制对所有者和管理员进行小时编辑]</td> 
-      <td>将编辑限制于输入小时数和小时数的用户 [!DNL Workfront] 管理员。 此设置适用于项目或小时报表中的[！UICONTROL小时]选项卡。</td> 
+      <td>将编辑限制为输入小时数的用户和[!DNL Workfront]管理员。 此设置适用于项目或小时报表中的[！UICONTROL小时]选项卡。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 用户可以记录时间的位置]** 部分，配置以下任一选项：
+1. 在&#x200B;**[!UICONTROL 用户可以记录时间]**&#x200B;部分中，配置以下任意选项：
 
    <table style="table-layout:auto">
     <tr>
@@ -136,14 +136,14 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. 在 **[!UICONTROL 预填充工时表]** 部分，配置以下任一选项：
+1. 在&#x200B;**[!UICONTROL 预填充工时表]**&#x200B;部分中，配置以下任一选项：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL内的工作] &lt;number of="" weeks=""&gt; [！UICONTROL工时表的工作范围]</td> 
+      <td role="rowheader">[！UICONTROL在时间表工作范围之内] &lt;周数&gt; [！UICONTROL的工作]</td> 
       <td> <p>定义包含分配给用户的任务和问题日期的时间表日期范围之前和之后的周数。</p> 
       <p>默认设置为1周，您可以将此范围扩展到4周。</p> 
       <p>这意味着在为时间表日期范围选择4周后，在时间表日期范围之前的4周到时间表日期范围之后的4周之间的任何时间，都会预填充时间表的任务和问题。 </p> </td> 
@@ -163,7 +163,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 在 **[!UICONTROL 已删除项目、任务和问题]** 部分，指定以下内容：
+1. 在&#x200B;**[!UICONTROL 已删除的项目、任务和问题]**&#x200B;部分中，指定以下内容：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ ht-degree: 0%
       <td role="rowheader"> 删除项目时</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL保留已作为常规时间添加到时间表的已记录时间]</strong>：如果此项目在稍后时间恢复，则时间会保留在时间表中。</li> 
-        <li><strong>[！UICONTROL Delete any logged time]</strong>：如果该项目在稍后时间恢复，则已记录的时间将恢复到项目中。</li> 
+        <li><strong>[！UICONTROL保留已作为常规时间添加到时间表的已记录时间]</strong>：如果该项目在稍后时间恢复，时间将保留在时间表中。</li> 
+        <li><strong>[！UICONTROL删除任意已记录的时间]</strong>：如果该项目在稍后时间恢复，则已记录的时间将恢复到项目中。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">删除任务或问题时</td> 
       <td> 
        <ul> 
-        <li><strong>[！UICONTROL将任意已记录的时间移动到项目]</strong> 任务或问题所在的位置：如果该任务或问题在稍后时间恢复，则时间会保留在项目中。<br></li> 
-        <li> <p><strong>[！UICONTROL Delete any logged time]</strong>：如果该任务或问题在稍后时间恢复，则日志记录时间将恢复到任务或问题中。</p> <p>有关这些选项的更多详细信息，请参阅 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">删除并恢复对象后的几小时内，[！UICONTROL配置会影响]</a>.</p> </li> 
+        <li><strong>[！UICONTROL将任意已记录的时间移动到任务或问题所在的项目]</strong>：如果该任务或问题在稍后时间恢复，则时间将保留在项目中。<br></li> 
+        <li> <p><strong>[！UICONTROL删除任何记录时间]</strong>：如果稍后还原此任务或问题，则记录时间将还原到该任务或问题。</p> <p>有关这些选项的更多详细信息，请参阅删除和还原对象时出现<a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[！UICONTROL配置影响]</a>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ ht-degree: 0%
 
 当某个首选项被解锁且组管理员修改时，如果该组是其主组，则它会影响时间表所有者。
 
-有关组管理员如何为组配置时间表和小时首选项的信息，请参见 [配置组的工时表与小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+有关组管理员如何为组配置时间表和小时首选项的信息，请参阅[为组配置时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)。
 
 >[!NOTE]
 >
->之后 [!DNL Workfront] 管理员在系统级别解锁首选项，任何组管理员都可以对其进行配置，然后将其锁定，以确保其组和以下子组中的每个人都使用相同的配置。 这与 [!DNL Workfront] 管理员必须为系统中的每个人配置和锁定首选项。 有关更多信息，请参阅 [锁定或解锁组时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>在[!DNL Workfront]管理员在系统级别解锁首选项后，任何组管理员都可以对其进行配置并锁定它，以确保其组中的每个人和下面的子组都使用相同的配置。 此功能与[!DNL Workfront]管理员为系统中的每个人配置和锁定首选项的能力并行。 有关详细信息，请参阅[锁定或解锁组时间表和小时首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)。
 
 要解锁项目首选项以便组可以对其进行配置，请执行以下操作：
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **[!UICONTROL 时间表和小时数]**，然后单击 **[!UICONTROL 偏好设置]**.
+1. 在左侧面板中，单击&#x200B;**[!UICONTROL 时间表和小时数]**，然后单击&#x200B;**[!UICONTROL 首选项]**。
 
 1. 执行以下任一操作：
 
-   * 如果您希望组管理员能够为其组配置首选项，请单击 **解锁** 切换 ![](assets/unlock-toggle-button.png) 以将其解锁。
-   * 如果您希望所有组都使用您的首选项配置，请确保该切换已锁定 ![](assets/locked-preference-toggle.png) （这是默认设置）。
+   * 如果您希望组管理员能够为其组配置首选项，请单击&#x200B;**解锁**&#x200B;切换![](assets/unlock-toggle-button.png)以将其解锁。
+   * 如果您希望所有组都使用您的首选项配置，请确保该切换开关已锁定![](assets/locked-preference-toggle.png)（这是默认设置）。
 
      >[!IMPORTANT]
      >

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 当用户离开您的组织时，您可以停用该用户，使其的Adobe Workfront许可证可供其他用户使用，并防止意外地为他们分配工作。 通过停用用户，您可以保留用户的工作历史记录，包括其工作分配以及与注释、小时和文档的关联。
 
-要了解有关停用用户的更多信息，请参阅&quot; [停用或重新激活用户](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+若要了解有关停用用户的详细信息，请参阅[停用或重新激活用户](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
-有关使用核心API的信息，请参阅 [API基础知识](../../wf-api/general/api-basics.md).
+有关使用核心API的信息，请参阅[API基础知识](../../wf-api/general/api-basics.md)。
 
 要通过API停用用户，请执行以下操作：
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 
 1. 找到要取消激活的用户的GUID。
 
-   1. 使用以下API请求检索系统中所有用户的GUID，请注意 **isActive** 字段显示 **true** 适用于当前处于活动状态且 **false** 对于已取消激活的用户：
+   1. 使用以下API请求检索系统中所有用户的GUID，请注意，**isActive**&#x200B;字段显示当前处于活动状态的用户为&#x200B;**true**，已停用用户为&#x200B;**false**：
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
-1. 找到要取消激活的用户的GUID，请使用以下内容 **PUT** 请求更改用户的 **isActive** 字段值至 **false**：
+1. 找到要取消激活的用户的GUID，使用以下&#x200B;**PUT**&#x200B;请求将用户的&#x200B;**isActive**&#x200B;字段值更改为&#x200B;**false**：
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
-1. 响应会显示 **isActive** 字段值已从 **true** 到 **false**&#x200B;指示用户已停用：
+1. 响应将显示&#x200B;**isActive**&#x200B;字段值已从&#x200B;**true**&#x200B;更改为&#x200B;**false**，表明用户已被停用：
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

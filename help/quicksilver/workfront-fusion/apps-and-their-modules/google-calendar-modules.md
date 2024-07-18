@@ -5,24 +5,24 @@ product-area: workfront-integrations;calendars
 keywords: 连接器
 navigation-topic: apps-and-their-modules
 title: Google日历模块
-description: 在 [!DNL Adobe Workfront Fusion] 方案，您可以自动执行使用Google Calendar的工作流，并将其连接到多个第三方应用程序和服务。
+description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行使用Google Calendar的工作流，并将其连接到多个第三方应用程序和服务。
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3817'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Calendar] 模块
+# [!DNL Google Calendar]模块
 
-在 [!DNL Adobe Workfront Fusion] 场景，您可以自动执行使用 [!UICONTROL Google日历]，并将其连接到多个第三方应用程序和服务。
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动执行使用[!UICONTROL Google Calendar]的工作流，并将其连接到多个第三方应用程序和服务。
 
-如果您需要有关创建方案的说明，请参阅 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案。
 
-有关模块的信息，请参见 [中的模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
 ## 访问要求
 
@@ -43,45 +43,45 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中所述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有什么计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关以下项的信息 [!DNL Adobe Workfront Fusion] 许可证，请参见 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-使用 [!DNL Google Calendar] 模块，您必须具有 [!DNL Google] 帐户。
+要使用[!DNL Google Calendar]模块，您必须具有[!DNL Google]帐户。
 
-## [!DNL Google Calendar] 模块及其字段
+## [!DNL Google Calendar]模块及其字段
 
-配置时 [!DNL Google Calendar] 模块， [!DNL Workfront Fusion] 显示下面列出的字段。 除此以外，还有 [!DNL Google Calendar] 可能会显示字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置[!DNL Google Calendar]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Google Calendar]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
-* [事件](#events)
-* [日历](#calendars)
+* [活动](#events)
+* [日程表](#calendars)
 * [访问控制规则](#access-control-rules)
 * [迭代器（已弃用）](#iterators-deprecated)
 * [其他](#other)
 
-### 事件
+### 活动
 
 * [[!UICONTROL 观看活动]](#watch-events)
 * [[!UICONTROL 搜索事件]](#search-events)
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 观看活动]
 
-此触发器模块执行在您指定的日历中添加、更新、删除、启动或结束新事件的场景。 该模块返回与一个或多个记录关联的所有标准字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+此触发器模块执行在您指定的日历中添加、更新、删除、启动或结束新事件的场景。 该模块返回与一个或多个记录关联的所有标准字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -102,28 +102,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历] </td> 
    <td> <p>选择您希望模块使用的日历。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL观看活动]</td> 
-   <td> <p>选择是否要按“创建日期”、“更新日期”、“开始日期”或“结束日期”监视事件。</p> </td> 
+   <td>[！UICONTROL监视活动]</td> 
+   <td> <p>选择要按“创建日期”、“更新日期”、“开始日期”或“结束日期”监视事件。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL显示已删除的事件]</td> 
    <td> <p>启用此选项可包含已删除的事件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL查询] </td> 
+   <td>[！UICONTROL Query] </td> 
    <td> <p>输入要搜索的文本。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
-   <td> <p> 设置符合以下条件的最大事件数： [!DNL Workfront Fusion] 在一个周期内使用（每个方案运行的重复次数）。 如果该值设置得过高，则可能会中断给定第三方服务端的连接（超时）。 [!DNL Workfront Fusion] 对此没有任何影响。 我们建议您设置较低的值，并为最大循环数定义较高的值，或者更频繁地运行该方案。</p> </td> 
+   <td> <p> 设置[!DNL Workfront Fusion]在一个周期内处理的最大事件数（每个方案运行的重复次数）。 如果该值设置得过高，则可能会中断与给定第三方服务的连接（超时）。 [!DNL Workfront Fusion]对此没有影响。 我们建议您设置较低的值，并为最大循环数定义较高的值，或者更频繁地运行方案。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 指定搜索的日历和参数。
 
-该模块返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -143,8 +143,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td>有关连接 [!DNL Google Calendar] Workfront Fusion的帐户，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td>有关将[!DNL Google Calendar]帐户连接到Workfront Fusion的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -152,31 +152,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL开始日期]</td> 
-   <td> <p> 输入或映射事件开始的日期。 此模块还会检索在此日期之前开始、在输入的开始日期仍然发生的事件。 </p> <p>有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 输入或映射事件开始的日期。 此模块还会检索在此日期之前开始的、在输入的开始日期仍然发生的事件。 </p> <p>有关支持的日期和时间格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL结束日期]</td> 
-   <td> <p> 输入或映射事件结束的日期。 </p> <p> 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 输入或映射事件结束的日期。 </p> <p> 有关支持的日期和时间格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL单事件]</td> 
-   <td> <p> 启用此选项可将定期事件视为单个实例。 例如，如果您有一个每周会议并且启用了此选项，则模块会将每周的会议作为单独事件返回。</p> </td> 
+   <td>[！UICONTROL单个事件]</td> 
+   <td> <p> 启用此选项可将定期事件视为单个实例。 例如，如果您有一个每周会议并且启用了此选项，模块会将每周的会议作为单独事件返回。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL查询]</td> 
+   <td>[！UICONTROL Query]</td> 
    <td> <p>输入或映射要作为搜索依据的搜索词。 </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Order by]</td> 
    <td> <p>选择结果中返回的事件的顺序。</p> 
     <ul> 
-     <li><strong>[！UICONTROL开始时间]</strong>：按开始日期和时间排序（升序）。 这仅在查询单个事件时可用。</li> 
-     <li><strong>[！UICONTROL更新时间]</strong>：按上次修改时间排序（升序）。</li> 
+     <li><strong>[！UICONTROL开始时间]</strong>：按开始日期和时间（升序）排序。 这仅在查询单个事件时可用。</li> 
+     <li><strong>[！UICONTROL更新时间]</strong>：按上次修改时间（升序）排序。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
-   <td> <p>设置最大事件数 [!DNL Workfront Fusion] 在一个执行周期内返回。</p> </td> 
+   <td> <p>设置在一个执行周期内返回的最大事件数[!DNL Workfront Fusion]。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,9 +185,9 @@ ht-degree: 0%
 
 此操作模块返回指定日历中单个事件的元数据。
 
-您可以指定日历和事件。
+指定日历和事件。
 
-该模块返回事件的ID和所有关联的字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+该模块会返回事件的ID和所有关联的字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -196,8 +196,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -205,7 +205,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL事件ID] </td> 
-   <td> <p>输入现有的事件ID [!DNL Google Calendar] 您希望获取的事件。</p> </td> 
+   <td> <p>输入要获取的现有[!DNL Google Calendar]事件的事件ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 您可以指定事件的日历和参数。
 
-该模块返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -225,15 +225,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td>有关连接 [!DNL Google Calendar] Workfront Fusion的帐户，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td>有关将[!DNL Google Calendar]帐户连接到Workfront Fusion的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL创建事件]</td> 
    <td> <p>选择您希望如何创建事件。</p> 
     <ul> 
      <li><b>[！UICONTROL详细信息]</b><p>利用此选项，可更详细地介绍该事件。<br></p></li> 
-     <li><b>[！UICONTROL快速]</b><p>您只需选择日历并输入事件名称即可。 您可以在名称中包含时间和地点的详细信息，以及 [!DNL Google Calendar] 将为该地点和时间安排活动。</p></li> 
+     <li><b>[！UICONTROL快速]</b><p>您只需选择日历并输入事件名称即可。 您可以在名称中包含时间和地点详细信息，然后[!DNL Google Calendar]将为该时间和地点安排该事件。</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL事件名称]</td> 
-   <td> <p> 输入或映射事件的名称。 </p> <p>注意：如果您在[！UICONTROL创建事件]字段中选择了[！UICONTROL快速添加]，则可以包含事件的日期和时间，以及 [!DNL Workfront Fusion] 为该日期和时间创建事件。 示例: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. 如果您选择了[！UICONTROL快速添加]，但未在事件名称中包含日期和时间，则事件将从当前时间创建，并持续一小时。</p> </td> 
+   <td> <p> 输入或映射事件的名称。 </p> <p>注意：如果您在[！UICONTROL创建事件]字段中选择了[！UICONTROL快速添加]，则可以包含事件的日期和时间，然后[!DNL Workfront Fusion]将针对该日期和时间创建该事件。 示例： <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>。 如果您选择了[！UICONTROL快速添加]，但未在事件名称中包含日期和时间，则事件将从当前时间创建，并持续一小时。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL全天事件]</td> 
@@ -254,11 +254,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL开始日期]</td> 
-   <td> <p>如果这是全天事件，请输入事件的起始日期。 </p> <p>有关支持的日期格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>如果这是全天事件，请输入事件的起始日期。 </p> <p>有关支持的日期格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制转换。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL结束日期]</td> 
-   <td> <p> 如果这是全天事件，请输入事件的结束日期。 </p> <p>有关支持的日期格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 如果这是全天事件，请输入事件的结束日期。 </p> <p>有关支持的日期格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制转换。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL描述]</td> 
@@ -266,36 +266,36 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL位置]</td> 
-   <td>以文本形式输入事件的位置。</td> 
+   <td>在文本表单中输入事件的位置。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL使用此事件的默认提醒设置]</td> 
+   <td>[！UICONTROL对此事件使用默认提醒设置]</td> 
    <td>启用此选项可使用默认提醒设置。 如果您在[！UICONTROL Reminder]字段中设置了自定义提醒，此值将设置为“否”。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL提醒] </td> 
-   <td> <p>添加事件提醒。 对于每个提醒，选择要用于提醒的方法，并定义要提醒的事件之前经过的时间（以分钟为单位）。</p> </td> 
+   <td> <p>添加事件提醒。 对于每个提醒，选择要用于提醒的方法，并定义要提醒的事件之前的时长（以分钟为单位）。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL与会者]</td> 
-   <td>将与会者添加到活动中。 为每位与会者输入或映射其姓名和电子邮件地址。</td> 
+   <td>将与会者添加到活动。 为每位与会者输入或映射其姓名和电子邮件地址。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL显示为]</td> 
-   <td>选择您希望查看您的日历的人员在此事件期间将您视为“忙碌”或“可用”。</td> 
+   <td>选择您希望查看您的日历的人员在此活动期间将您视为“忙碌”或“可用”。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL可见性] </td> 
    <td> <p>选择此事件的可见性。 </p> 
     <ul> 
-     <li> <p><b>[！UICONTROL默认]</b></p> <p>事件具有您在日历设置中设置的可见性。</p> </li> 
-     <li> <p><b>[！UICONTROL公共]</b></p> <p>共享日历的任何人都可以查看此事件。</p> </li> 
-     <li> <p><b>[！UICONTROL专用]</b></p> <p>只有与会者才能看到此活动。</p> </li> 
+     <li> <p><b>[！UICONTROL Default]</b></p> <p>该事件具有您在日历设置中设置的可见性。</p> </li> 
+     <li> <p><b>[！UICONTROL Public]</b></p> <p>与该日历共享的任何人都可以查看此事件。</p> </li> 
+     <li> <p><b>[！UICONTROL Private]</b></p> <p>只有与会者才能看到此活动。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL发送有关事件创建的通知]</td> 
-   <td> <p>选择是否向所有来宾发送有关创建新事件的通知，而不是[!DNL Google Calendar] 要么是客人，要么是没人。</p> <p>提示：我们建议仅在迁移用例中使用[！UICONTROL None]选项。</p> </td> 
+   <td> <p>选择是将有关创建新事件的通知发送给所有来宾、非[!DNL Google Calendar]来宾还是不发送给任何人。</p> <p>提示：我们建议仅在迁移用例中使用[！UICONTROL None]选项。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL来宾可以修改事件]</td> 
@@ -303,7 +303,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL循环]</td> 
-   <td>添加要应用于此事件的任何周期性规则。 每个规则都需要一个[！UICONTROL RRULE]、[！UICONTROL EXRULE]、[！UICONTROL RDATE]和[！UICONTROL EXDATE]行的列表才能处理定期事件。 请注意，此字段不允许有[！UICONTROL DTSTART]和[！UICONTROL DTEND]行；事件开始和结束时间在开始和结束字段中指定。 对于单个事件或定期事件的实例，将忽略此字段。 有关更多信息，请参阅 <a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>.</td> 
+   <td>添加要应用于此事件的任何周期性规则。 每个规则都需要一个[！UICONTROL RULE]、[！UICONTROL EXRULE]、[！UICONTROL RDATE]和[！UICONTROL EXDATE]行的列表才能处理定期事件。 请注意，此字段不允许出现[！UICONTROL DTSTART]和[！UICONTROL DTEND]行；事件的开始和结束时间在开始和结束字段中指定。 对于单个事件或定期事件的实例，将忽略此字段。 有关详细信息，请参阅<a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -312,9 +312,9 @@ ht-degree: 0%
 
 此操作模块更改现有事件。
 
-您可以指定日历和事件ID。
+请指定日历和事件ID。
 
-该模块返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -323,8 +323,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历] </td> 
@@ -332,20 +332,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL事件ID] </td> 
-   <td> <p>输入之前创建的事件ID [!DNL Google Calendar] 要更新的事件。</p> </td> 
+   <td> <p>输入先前创建的[!DNL Google Calendar]事件中要更新的事件ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以通过在所需字段中输入新值来更新事件信息。 有关各个字段的详细信息，请参阅 [[!UICONTROL 创建事件]](#create-an-event).
+您可以通过在所需字段中输入新值来更新事件信息。 有关各个字段的详细信息，请参阅[[!UICONTROL 创建事件]](#create-an-event)。
 
 #### [!UICONTROL 删除事件]
 
 此操作模块删除事件。
 
-您可以指定日历和事件ID。
+请指定日历和事件ID。
 
-该模块返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回事件的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -354,8 +354,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -363,29 +363,29 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL事件ID]</td> 
-   <td> <p> 输入之前创建的事件ID [!DNL Google Calendar] 要删除的事件。</p> </td> 
+   <td> <p> 输入您要删除的先前创建的[!DNL Google Calendar]事件的事件ID。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL发送有关事件删除的通知]</td> 
-   <td>选择是否要向所有来宾（未使用的来宾）发送有关事件删除的通知 [!DNL Google Calendar]或无人。</td> 
+   <td>选择您希望向所有来宾、未使用[!DNL Google Calendar]的来宾或任何人发送有关事件删除的通知。</td> 
   </tr> 
  </tbody> 
 </table>
 
-### 日历
+### 日程表
 
-* [[!UICONTROL 列表日历]](#list-calendars)
+* [[!UICONTROL 列出日历]](#list-calendars)
 * [[!UICONTROL 获取日历]](#get-a-calendar)
 * [[!UICONTROL 创建日历]](#create-a-calendar)
 * [[!UICONTROL 更新日历]](#update-a-calendar)
 * [[!UICONTROL 删除日历]](#delete-a-calendar)
 * [[!UICONTROL 清除日历]](#clear-a-calendar)
 
-#### [!UICONTROL 列表日历]
+#### [!UICONTROL 列出日历]
 
 此操作模块返回用户日历列表中的日历。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -394,14 +394,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL最低访问角色]</td> 
-   <td> <p>选择用户的最小访问角色。 模块会根据此最小访问角色返回日历。</p> 
+   <td> <p>选择用户的最低访问角色。 模块会根据此最小访问角色返回日历。</p> 
     <ul> 
-     <li><strong>[！UICONTROL空闲/忙碌Reader]</strong>：用户可以读取忙/闲信息。 </li> 
+     <li><strong>[！UICONTROL忙/闲信息Reader]</strong>：用户可以读取忙/闲信息。 </li> 
      <li><strong>[！UICONTROL所有者]</strong>：用户可以读取和修改事件，并且可以访问控制列表。 </li> 
      <li><strong>[！UICONTROLReader]</strong>：用户可以读取非私有事件。 </li> 
      <li><strong>[！UICONTROL Writer]</strong>：用户可以读取和修改事件。</li> 
@@ -413,7 +413,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>设置日历的最大数量 [!DNL Workfront Fusion] 在一个执行周期内返回。</td> 
+   <td>设置在一个执行周期内返回的最大日历数[!DNL Workfront Fusion]。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -424,7 +424,7 @@ ht-degree: 0%
 
 您可以指定要检索的日历ID。
 
-该模块返回记录的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+该模块返回记录ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -433,8 +433,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -445,11 +445,11 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建日历]
 
-该操作模块将创建一个新日历。
+此操作模块将创建新日历。
 
 指定日历的名称。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -458,8 +458,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历名称]</td> 
@@ -474,7 +474,7 @@ ht-degree: 0%
 
 您可以指定要更新的日历的ID。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -483,8 +483,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -501,9 +501,9 @@ ht-degree: 0%
 
 此操作模块删除日历。
 
-您可以指定要删除的日历的ID。
+指定要删除的日历的ID。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -512,8 +512,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -524,11 +524,11 @@ ht-degree: 0%
 
 #### [!UICONTROL 清除日历]
 
-此操作模块会从帐户的主日历中删除所有事件。
+此操作模块将从帐户的主日历中删除所有事件。
 
 您可以指定连接到包含要清除的日历的帐户的连接。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -537,8 +537,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -562,8 +562,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -571,7 +571,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL限制]</td> 
-   <td>设置结果的最大数量 [!DNL Workfront Fusion] 在一个执行周期内返回。</td> 
+   <td>设置在一个执行周期内返回的最大结果数[!DNL Workfront Fusion]。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -587,8 +587,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -603,11 +603,11 @@ ht-degree: 0%
 
 #### [!UICONTROL 创建访问控制规则]
 
-该操作模块创建新的访问控制规则。
+此操作模块将创建新的访问控制规则。
 
 指定日历的名称。
 
-该模块返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+该模块会返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -616,8 +616,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -627,7 +627,7 @@ ht-degree: 0%
    <td>[！UICONTROL角色]</td> 
    <td> <p>选择要分配给访问规则的角色。 </p> 
     <ul> 
-     <li><strong>[！UICONTROL空闲/忙碌Reader]</strong>：用户可以读取忙/闲信息。 </li> 
+     <li><strong>[！UICONTROL忙/闲信息Reader]</strong>：用户可以读取忙/闲信息。 </li> 
      <li><strong>[！UICONTROL所有者]</strong>：用户可以读取和修改事件，并且可以访问控制列表。 </li> 
      <li><strong>[！UICONTROLReader]</strong>：用户可以读取非私有事件。 </li> 
      <li><strong>[！UICONTROL Writer]</strong>：用户可以读取和修改事件。</li> 
@@ -637,15 +637,15 @@ ht-degree: 0%
    <td>[！UICONTROL类型]</td> 
    <td> <p>选择范围的类型。 </p> 
     <ul> 
-     <li><strong>[！UICONTROL默认]</strong>：公共范围。 这是默认值。 </li> 
+     <li><strong>[！UICONTROL默认值]</strong>：公共作用域。 这是默认值。 </li> 
      <li><strong>[！UICONTROL用户]</strong>：将范围限制为单个用户。 </li> 
      <li><strong>[！UICONTROL组]</strong>：将范围限制为组。 </li> 
      <li><strong>[！UICONTROL域]</strong>：将范围限制为域。 </li> 
-    </ul> <p>注意：授予[！UICONTROL Default]或公共范围的权限适用于任何经过身份验证或未经过身份验证的用户。</p> </td> 
+    </ul> <p>注意：授予[！UICONTROL Default]或公共范围的权限适用于未经身份验证或未经过身份验证的任何用户。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL值]</td> 
-   <td>根据作用域类型，输入用户或组的电子邮件地址，或域名。</td> 
+   <td>根据范围类型，输入用户或组的电子邮件地址，或域的名称。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL发送通知]</td> 
@@ -656,11 +656,11 @@ ht-degree: 0%
 
 #### [!UICONTROL 更新访问控制规则]
 
-此操作模块更新访问控制规则。
+此操作模块可更新访问控制规则。
 
 指定日历的名称。
 
-该模块返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+该模块会返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -669,8 +669,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -684,8 +684,8 @@ ht-degree: 0%
    <td>[！UICONTROL角色]</td> 
    <td> <p>选择要分配给访问规则的角色。 </p> 
     <ul> 
-     <li><strong>[！UICONTROL无]</strong>：此角色不提供访问权限。</li> 
-     <li><strong>[！UICONTROL空闲/忙碌Reader]</strong>：用户可以读取忙/闲信息。 </li> 
+     <li><strong>[！UICONTROL None]</strong>：此角色不提供访问权限。</li> 
+     <li><strong>[！UICONTROL忙/闲信息Reader]</strong>：用户可以读取忙/闲信息。 </li> 
      <li><strong>[！UICONTROL所有者]</strong>：用户可以读取和修改事件，并且可以访问控制列表。 </li> 
      <li><strong>[！UICONTROLReader]</strong>：用户可以读取非私有事件。 </li> 
      <li><strong>[！UICONTROL Writer]</strong>：用户可以读取和修改事件。</li> 
@@ -704,7 +704,7 @@ ht-degree: 0%
 
 指定日历的名称。
 
-该模块返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+该模块会返回访问控制规则的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -713,8 +713,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历ID]</td> 
@@ -729,7 +729,7 @@ ht-degree: 0%
 
 ### 迭代器（已弃用）
 
-此 [!UICONTROL 迭代附件] 和 [!UICONTROL 迭代与会者] 模块已被弃用。 要迭代附件或与会者，请使用 [!UICONTROL 流量控制] > [!UICONTROL 迭代器] 模块。 有关更多信息，请参阅 [中的迭代器模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)
+已弃用[!UICONTROL 迭代附件]和[!UICONTROL 迭代出席者]模块。 若要迭代附件或与会者，请使用[!UICONTROL 流控件] > [!UICONTROL 迭代器]模块。 有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)中的[迭代器模块
 
 ### 其他
 
@@ -745,28 +745,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL连接]</td> 
-   <td> <p>有关连接 [!DNL Google Calendar] 目标帐户 [!DNL Workfront Fusion]，请参见 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe的连接 [!DNL Workfront Fusion]  — 基本说明</a></p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关将[!DNL Google Calendar]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
-   <td>输入相对路径 <code>https://www.googleapis.com/calendar</code>. 示例: <code>/v3/users/me/calendarList</code></td> 
+   <td>输入相对于<code>https://www.googleapis.com/calendar</code>的路径。 示例： <code>/v3/users/me/calendarList</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
-   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关更多信息，请参阅 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">中的HTTP请求方法 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL标头]</td> 
-   <td> <p>以标准JSON对象的形式添加请求的标头。例如， <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 为您添加授权标头。</p> </td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以标准JSON对象的形式添加请求的标头。例如，<code>{"Content-type":"application/json"}</code>。 [!DNL Workfront Fusion]为您添加授权标头。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL查询字符串]</td> 
    <td> <p> 以标准JSON对象的形式添加API调用的查询。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主体]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注释:   <p>使用条件语句(例如 <code>if</code> 在JSON中，将引号放在条件语句之外。</p> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：   <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -778,7 +778,7 @@ ht-degree: 0%
 
 此操作模块返回一组日历的空闲和忙碌信息。
 
-该模块返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以将此信息映射到场景中的后续模块。
+模块会返回日历的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
 
 配置此模块时，会显示以下字段。
 
@@ -787,64 +787,64 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL连接] </td> 
-   <td>有关连接 [!DNL Google Calendar] Workfront Fusion的帐户，请参阅 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
+   <td>[！UICONTROL Connection] </td> 
+   <td>有关将[!DNL Google Calendar]帐户连接到Workfront Fusion的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe Workfront Fusion的连接 — 基本说明</a></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL最短时间]</td> 
-   <td> <p> 输入要检索其信息的间隔的起始值。</p> <p> 有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 输入要检索其信息的间隔的开始。</p> <p> 有关支持的日期和时间格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL最长时间]</td> 
-   <td> <p> 输入要检索其信息的间隔的结束。 </p> <p>有关支持的日期和时间格式的列表，请参阅 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">键入强制 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[！UICONTROL最大时间]</td> 
+   <td> <p> 输入要检索其信息的间隔的结束。 </p> <p>有关支持的日期和时间格式的列表，请参阅<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中键入强制。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL日历]</td> 
-   <td> <p>对于要从中检索信息的每个日历，单击 <strong>添加</strong> 并输入或映射日历ID。</p> </td> 
+   <td> <p>对于要从中检索信息的每个日历，单击<strong>添加</strong>并输入或映射日历ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 在事件之前触发方案
 
-借助standard，您可以在事件之前的指定时间触发方案 [!DNL Google Calendar] 电子邮件提醒和 [!UICONTROL Webhook] >[!UICONTROL Custom mailhook] 模块。
+借助标准[!DNL Google Calendar]电子邮件提醒和[!UICONTROL Webhook] >[!UICONTROL 自定义mailhook]模块，您可以在事件之前的指定时间触发方案。
 
-1. 使用 [!UICONTROL Google日历] >[!UICONTROL 更新事件] 模块向事件添加电子邮件提醒：
+1. 使用[!UICONTROL Google日历] >[!UICONTROL 更新活动]模块向活动添加电子邮件提醒：
 
    ![](assets/trigger-scen-before-event-350x209.png)
 
-1. 创建以开头的新方案 [!UICONTROL Webhook] >[!UICONTROL Custom mailhook] 模块。
+1. 创建以[!UICONTROL Webhook] >[!UICONTROL 自定义mailhook]模块开头的新方案。
 
-   1. 复制邮件挂钩的电子邮件地址。
+   1. 复制mailhook的电子邮件地址。
    1. 保存场景并执行它。
 
-1. In [!DNL Gmail]，重定向 [!DNL Google Calendar] 通过电子邮件将提醒发送到mailhook的电子邮件地址：
+1. 在[!DNL Gmail]中，将[!DNL Google Calendar]电子邮件提醒重定向到邮件挂接的电子邮件地址：
 
-   1. 打开您的 **[!UICONTROL [!DNL Gmail]设置]**.
-   1. 打开 **[!UICONTROL 转发和POP/IMAP]** 选项卡。
-   1. 单击 **[!UICONTROL 添加转发地址].**
-   1. 粘贴复制的邮件挂钩的电子邮件地址，单击&#x200B;。**[!UICONTROL 下一个]**，通过按确认 **[!UICONTROL 继续]** 在弹出窗口中，然后单击 **[!UICONTROL 确定]**.
+   1. 打开您的&#x200B;**[!UICONTROL [!DNL Gmail]设置]**。
+   1. 打开&#x200B;**[!UICONTROL 转发和POP/IMAP]**&#x200B;选项卡。
+   1. 单击&#x200B;**[!UICONTROL 添加转发地址]。**
+   1. 粘贴复制的邮件挂钩的电子邮件地址，单击&#x200B;**[!UICONTROL 下一步]**，在弹出窗口中按&#x200B;**[!UICONTROL 继续]**&#x200B;进行确认，然后单击&#x200B;**[!UICONTROL 确定]**。
 
-   1. In [!DNL Workfront Fusion]，切换到应通过接收确认电子邮件完成其执行的新方案。
+   1. 在[!DNL Workfront Fusion]中，切换到应通过接收确认电子邮件完成其执行的新方案。
    1. 单击模块上方的气泡以检查模块的输出。
-   1. 展开 `Text` 项目并复制确认代码：
+   1. 展开`Text`项目并复制确认代码：
 
       ![](assets/confirmation-code-350x252.png)
 
-   1. 在Gmail中，将确认代码粘贴到编辑框中，然后单击&#x200B;。**[!UICONTROL 验证]**：
+   1. 在Gmail中，将确认代码粘贴到编辑框中，然后单击&#x200B;**[!UICONTROL 验证]**：
 
       ![](assets/paste-code-350x46.png)
 
-   1. 打开 **[!UICONTROL 筛选器和阻止的地址]** 选项卡。
-   1. 单击 **[!UICONTROL 创建新筛选器]**.
-   1. 为来自的所有电子邮件设置过滤器 `     calendar-notification@google.com` 并单击&#x200B;。**[!UICONTROL 创建过滤器]**：
-   1. 选择 **[!UICONTROL 将其转发到]** 并从列表中选择邮件挂钩的电子邮件地址。
-   1. 单击 **[!UICONTROL 创建筛选器]** 以创建过滤器。
+   1. 打开&#x200B;**[!UICONTROL 筛选器和阻止的地址]**&#x200B;选项卡。
+   1. 单击&#x200B;**[!UICONTROL 创建新筛选器]**。
+   1. 为来自`     calendar-notification@google.com`的所有电子邮件设置一个过滤器，然后单击&#x200B;**[!UICONTROL 创建过滤器]**：
+   1. 选择&#x200B;**[!UICONTROL 将其转发到]**，然后从列表中选择邮件挂接的电子邮件地址。
+   1. 单击&#x200B;**[!UICONTROL 创建筛选器]**&#x200B;以创建筛选器。
 
-1. （可选）输入 [!DNL Workfront Fusion]，添加 [!UICONTROL 文本解析器] > [!UICONTROL 匹配模式] 模块位于 [!UICONTROL Webhook] >[!UICONTROL Custom mailhook] 模块，用于解析电子邮件的HTML代码以获取您需要的任何信息。
+1. （可选）在[!DNL Workfront Fusion]中，在[!UICONTROL Webhooks] >[!UICONTROL 自定义mailhook]模块之后添加[!UICONTROL 文本解析器] > [!UICONTROL 匹配模式]模块，以解析电子邮件的HTML代码以获取您需要的任何信息。
 
    例如，您可以按如下方式配置模块，以获取事件的ID：
 
-   *图案*： `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
+   *模式*： `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   *文本*：此 `HTML content` 从输出的项目 [!UICONTROL Webhook] >[!UICONTROL Custom mailhook] 模块。
+   *文本*：从[!UICONTROL Webhook] >[!UICONTROL 自定义mailhook]模块输出的`HTML content`项目。

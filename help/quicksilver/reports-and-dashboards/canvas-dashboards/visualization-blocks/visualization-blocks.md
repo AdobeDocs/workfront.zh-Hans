@@ -16,8 +16,8 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [在报表画布中添加或编辑可视化图表块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-* [在报表画布中配置条形图可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
+* [在报告画布中添加或编辑可视化图表块](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
+* [在报告画布中配置条形图可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [在报告画布中配置列可视化](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [在报表画布中配置饼图可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
 * [在报告画布中配置KPI可视化图表](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)

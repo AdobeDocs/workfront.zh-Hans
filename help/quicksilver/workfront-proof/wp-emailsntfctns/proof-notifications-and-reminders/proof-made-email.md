@@ -3,57 +3,57 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: 校样制作的电子邮件
-description: 只有当验证创建者创建了验证时，才会向验证创建者发送验证电子邮件。 如果某人创建了校样并让另一人成为所有者，则只有新所有者也会收到校样制作的电子邮件。 创建者和/或所有者将不会获得；他们只收到“校样制作”电子邮件。 有关New Proof电子邮件的更多信息，请参阅New proof电子邮件。
+title: 校对已发送电子邮件
+description: 仅当验证创建者创建了验证时，才会向验证创建者发送Proof Made电子邮件。 如果某人创建了验证并使另一个人成为所有者，则只有新所有者会收到由验证组成的电子邮件。 创建者和/或所有者不会收到校样；他们只会收到“校样”电子邮件。 有关“新验证”电子邮件的更多信息，请参阅“新验证”电子邮件。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# 的 [!UICONTROL 制作校样] 电子邮件
+# [!UICONTROL 校对已生成]电子邮件
 
 >[!IMPORTANT]
 >
->本文介绍独立产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参阅 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-A [!UICONTROL 制作校样] 仅当验证创建者创建了验证时，才会向验证创建者发送电子邮件。 如果人员创建了验证并让另一个人成为所有者，则只有新所有者也会收到 [!UICONTROL 制作的证明] 电子邮件。 创建者和/或所有者将不会获得；他们只能得到 [!UICONTROL 制作校样] 电子邮件。 有关 [!UICONTROL 新校样] 电子邮件，请参阅 [[!UICONTROL 新校样] 电子邮件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+仅当验证创建者创建了验证时，才会向验证创建者发送[!UICONTROL 校对制作]电子邮件。 如果某人已创建验证并使另一个人成为所有者，则只有新所有者也会收到[!UICONTROL 已创建验证]电子邮件。 创建者和/或所有者不会收到校样；他们只会收到[!UICONTROL 校样制作]电子邮件。 有关[!UICONTROL 新验证]电子邮件的详细信息，请参阅[[!UICONTROL 新验证]电子邮件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)。
 
-用户可以禁用 [!UICONTROL 制作校样] 电子邮件，如下所述。
+用户可以在个人资料设置中禁用[!UICONTROL 校对制作]电子邮件，如下所述。
 
 >[!NOTE]
 >
-> 如果校样的创建者或所有者 [!UICONTROL 制作校样] 电子邮件在其个人设置中默认处于禁用状态，他们将不会收到任何 [!UICONTROL 制作校样] 或 [!UICONTROL 新校样] 电子邮件，即使 [!UICONTROL 通过电子邮件通知用户] 框 [!UICONTROL 新校样] 页面。
+> 如果校对的创建者或所有者在其个人设置中默认禁用了[!UICONTROL 校对制作]电子邮件，则即使在[!UICONTROL 新校对]页面中选中了[!UICONTROL 通过电子邮件通知联系人]框，他们也不会收到任何[!UICONTROL 校对制作]或[!UICONTROL 新校对]电子邮件。
 
 ![Proof_Made_Email.png](assets/proof-made-email-350x214.png)
 
-A [!UICONTROL 制作校样] 电子邮件包含您的个人消息（如果您包含其中一个）和以下校样详细信息：
+[!UICONTROL 校对]电子邮件包含您的个人消息（如果您包含个人消息）以及以下校对详细信息：
 
-* 校对名称
+* 校样名称
 * 证明的个人链接
 * 版本号
-* 校样的缩略图
+* 验证的缩略图
 * 校对进度
-* 指向与他人共享校样的链接
-* 这允许您共享原始文件的校样URL和/或下载链接。
+* 与他人共享证明的链接
+* 这允许您共享原始文件的校对URL和/或下载链接。
 
 >[!NOTE]
 >
-> 共享校样链接不允许您向校样明确添加审阅者，您将只共享公共校样URL，收件人将收到对校样的只读访问权限。
+> 共享校对链接不允许您明确将审阅人添加到校对，您将只共享公共校对URL，并且收件人将获得对校对的只读访问权限。
 
-请参阅 [在中共享校样 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) 以了解更多信息。
+有关详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)中共享验证。
 
-如果您不希望此链接显示在收件人的电子邮件中，则应禁用 [!UICONTROL 公共共享] 校样设置([!UICONTROL 下载原始文件] 和 [!UICONTROL 公共URL])。
+如果不希望此链接显示在收件人的电子邮件中，则应该禁用验证上的[!UICONTROL 公共共享]设置（[!UICONTROL 下载原始文件]和[!UICONTROL 公共URL]）。
 
-## 禁用 [!UICONTROL 制作校样] 电子邮件
+## 正在禁用[!UICONTROL 校对]电子邮件
 
-1. 单击 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，打开 **[!UICONTROL 校对默认值]** ，然后单击 **[!UICONTROL 禁用]** 下一页 **[!UICONTROL 准备好校样时发送电子邮件确认]**.
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，打开&#x200B;**[!UICONTROL 验证默认值]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 验证就绪时电子邮件确认旁边的**[!UICONTROL &#x200B;禁用&#x200B;]**]**。
 
-1. ![Proof_Made_-_poofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
+1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 
-1. 请参阅 [在Workfront校样中配置电子邮件通知设置](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) 以了解更详细的说明。
-1. 如果在 [!UICONTROL 帐户设置]，校样的创建者或所有者将不会收到任何 [!UICONTROL 制作校样] 或 [!UICONTROL 新校样] 电子邮件，即使在其个人设置中启用此设置，并且 [!UICONTROL 通过电子邮件通知用户] 框 [!UICONTROL 新校样] 页面。
+1. 有关更多详细说明，请参阅[在Workfront Proof中配置电子邮件通知设置](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)。
+1. 如果在[!UICONTROL 帐户设置]中将电子邮件通知禁用为默认值，验证的创建者或所有者将不会收到任何[!UICONTROL 已制作验证]或[!UICONTROL 新验证]电子邮件，即使这已在他们的个人设置中启用并且已在[!UICONTROL 新验证]页面上选中[!UICONTROL 通过电子邮件通知人员]框。

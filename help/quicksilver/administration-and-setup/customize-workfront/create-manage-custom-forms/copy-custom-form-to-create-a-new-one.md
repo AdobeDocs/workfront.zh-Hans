@@ -48,15 +48,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 复制自定义表单以创建新表单
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms。**
-1. 选择要用作新自定义表单基础的自定义表单，然后单击 ![“复制”图标](assets/copy-icon.png).
-1. 在 **自定义表单复制** 在出现的框中，键入以下信息：
+1. 单击&#x200B;**自定义Forms。**
+1. 选择要用作新自定义表单基础的自定义表单，然后单击![复制图标](assets/copy-icon.png)。
+1. 在出现的&#x200B;**自定义表单副本**&#x200B;框中，键入以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -68,7 +68,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">表单类型 </p> </td> 
-      <td> <p>在 <b>表单类型</b> 框中，选择要使用自定义表单的对象类型，然后单击要删除的任何类型旁边的X。 列表中已禁用与表单关联的类型。</p> 
+      <td> <p>在<b>表单类型</b>框中，选择要使用自定义表单的对象类型，然后单击要删除的任何类型旁边的X。 列表中已禁用与表单关联的类型。</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>表单必须至少与一个对象类型关联。</p> 
       </td> 
@@ -76,21 +76,21 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 单击 **复制**.
+1. 单击&#x200B;**复制**。
 
    在原始表单中，如果计算字段引用与您添加到新表单的对象类型不兼容的字段，则会出现一条消息，提示您更改这些字段中的计算。
 
    同样，如果原始表单上分区界限的访问选项与您添加到新表单的对象类型不兼容，则会出现一条消息，提示您调整该选项。
 
-1. 选择您刚刚复制的表单，然后单击 **编辑**.
+1. 选择您刚刚复制的表单，然后单击&#x200B;**编辑**。
 1. 对表单进行任何更改，如以下文章所述：
 
-   * [复制自定义表单以使用旧版表单生成器创建新表单](#Add2)
-   * [使用旧版表单生成器将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [使用旧版表单生成器将自定义字段和小组件放置在自定义表单中](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [复制自定义表单以使用旧表单生成器创建新表单](#Add2)
+   * [使用旧版表单生成器将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [使用旧版表单生成器将自定义字段和小组件置于自定义表单中](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [使用旧版表单生成器添加或编辑自定义表单中的资产小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [使用旧版表单生成器重新使用自定义表单中现有的计算自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [使用旧版表单生成器向自定义表单添加显示逻辑和跳过逻辑](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [使用旧版表单生成器预览并完成自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
-1. （可选）单击之后 **保存+关闭**，将表单附加到要使用该表单的对象，如中所述 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （可选）单击&#x200B;**保存+关闭**&#x200B;后，将表单附加到要使用表单的对象，如[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)中所述。

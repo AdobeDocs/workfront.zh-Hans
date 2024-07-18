@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# 中的Webhook [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的Webhook
 
-[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除Adobe Workfront许可证外，还需要其他许可证。
+除Adobe Workfront许可证外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 本节包含以下文章：
 
-* [中的即时触发器(Webhook) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [ [!DNL Adobe Workfront Fusion]中的即时触发器(Webhook)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

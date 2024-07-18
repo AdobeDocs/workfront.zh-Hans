@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 配置用户更新的首选项
-description: 您可以配置首选项，以便在用户在对象的 [!UICONTROL 更新] 区域。
+description: 当用户在对象的[!UICONTROL 更新]区域中添加注释时，您可以配置用于访问某些功能的首选项。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 配置用户更新的首选项
 
-您可以配置首选项，使用户在对象的 [!UICONTROL 更新] 区域。
+您可以配置首选项，使用户在对象的[!UICONTROL 更新]区域中添加注释时能够访问某些功能。
 
 ## 访问要求
 
@@ -37,28 +37,28 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>要在系统级别执行这些步骤，您需要[！UICONTROL系统管理员]访问级别。</p><p>要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>要在系统级别执行这些步骤，您需要[！UICONTROL系统管理员]访问级别。</p><p>要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 允许用户在更新中添加图像
 
-默认情况下，用户无法在更新中添加图像。 启用此首选项后，用户将能够在更新中附加图像。 该首选项适用于您所有区域的所有更新 [!DNL Workfront] 实例。
+默认情况下，用户无法在更新中添加图像。 启用此首选项后，用户将能够在更新中附加图像。 该首选项适用于[!DNL Workfront]实例的所有区域中的所有更新。
 
 >[!NOTE]
 >
->* 更新中保存的图像计入文档存储限制。 有关信息，请参阅 [检查文档存储限制](../../../documents/managing-documents/check-document-storage.md).
->* 图像可通过以下方式访问： [!UICONTROL 更新] 选项卡上，并且也可在 [!UICONTROL 文档] 下的区域 [!UICONTROL 主菜单].
+>* 更新中保存的图像计入文档存储限制。 有关信息，请参阅[检查文档存储限制](../../../documents/managing-documents/check-document-storage.md)。
+>* 可通过对象上的[!UICONTROL 更新]选项卡访问图像，也可在[!UICONTROL 主菜单]下的[!UICONTROL 文档]区域访问图像。
 >
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
-1. 在左侧面板中，选择 **[!UICONTROL 界面]** > **[!UICONTROL 更新信息源]**.
-1. 选择 **[!UICONTROL 偏好设置]** 选项卡。
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL 界面]** > **[!UICONTROL 更新源]**。
+1. 选择&#x200B;**[!UICONTROL 首选项]**&#x200B;选项卡。
 
    ![更新源的用户首选项](assets/updatefeeds-preferences-350x137.png)
 
-1. 选择 **[!UICONTROL 允许用户在更新中添加图像]** 复选框。
-1. 选择 **[!UICONTROL 保存]**.
+1. 选中&#x200B;**[!UICONTROL 允许用户在更新中添加图像]**&#x200B;复选框。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-   启用此首选项后，您可以随时将其禁用。 任何已在更新中发布的图像将保留在 [!UICONTROL 更新] 对象上的区域。
+   启用此首选项后，您可以随时将其禁用。 任何已在更新中发布的图像将保留在对象的[!UICONTROL 更新]区域中。

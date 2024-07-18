@@ -45,22 +45,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 使用表单设计器重命名自定义表单
 
 {{step-1-to-setup}}
 
-1. 单击 **自定义Forms** 在左侧面板中。
+1. 单击左侧面板中的&#x200B;**自定义Forms**。
 
    在显示的视图中，您可以查看为组织创建的所有自定义表单。 您还可以查看每个表单的创建者、表单使用的对象类型以及表单是否处于活动状态。
 
-1. 选择要重命名的自定义表单，然后单击 ![“编辑”图标](assets/edit-icon2.png).
+1. 选择要重命名的自定义表单，然后单击![编辑图标](assets/edit-icon2.png)。
 1. 要更改标题，请单击表单名称。
 1. 要更改说明，请单击说明文本框。
 
-1. 单击 **保存并关闭**.
+1. 单击&#x200B;**保存并关闭**。
 
    >[!TIP]
    >
-   >您可以单击 **应用** 在创建自定义表单时，可随时保存更改并保持表单打开。
+   >在创建自定义表单时，您可以随时单击&#x200B;**应用**&#x200B;以保存更改并保持表单打开。

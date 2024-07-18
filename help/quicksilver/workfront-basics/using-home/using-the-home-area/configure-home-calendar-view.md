@@ -13,16 +13,16 @@ ht-degree: 1%
 
 ---
 
-# 配置您的 [!UICONTROL 主页日程表] 查看设置
+# 配置[!UICONTROL 主页日历]视图设置
 
 <!--Audited: 01/2024-->
 
-您可以配置 [!UICONTROL 主页日程表] 设置完成以下操作：
+您可以配置[!UICONTROL 主页日历]设置以执行以下操作：
 
-* 在云托管的 [!DNL Office 365] 或 [!DNL Outlook Live] 中与 [!DNL Outlook] 基于网络的版本集成。您可以显示Outlook日历中的所有事件以及在中选择的任何关联日历 [!UICONTROL 主页日程表] 在Adobe Workfront中。
-* 帮助您根据您在上可用的工作时间跟踪工作负载 [!UICONTROL 分配] 栏。
+* 在云托管的 [!DNL Office 365] 或 [!DNL Outlook Live] 中与 [!DNL Outlook] 基于网络的版本集成。在Adobe Workfront中，您可以显示Outlook日历的所有活动以及在[!UICONTROL 主页日历]中选择的任何关联日历。
+* 帮助您根据[!UICONTROL 分配]栏上的可用工作时间跟踪工作负载。
 
-要了解有关主页日程表的详细信息，请参阅 [[!UICONTROL 主页日程表] 视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+若要了解有关主页日历的更多信息，请参阅[[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
 
 本文介绍了如何配置主页日历设置以及如何将主页日历与外部Outlook日历集成。
 
@@ -52,73 +52,73 @@ ht-degree: 1%
    </tbody> 
 </table>
 
-*要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 关于集成 [!DNL Microsoft Outlook] 日历
+## 关于集成[!DNL Microsoft Outlook]日历
 
-在使用配置主页日程表时，请考虑以下事项 [!DNL Microsoft Outlook] 日历：
+在使用[!DNL Microsoft Outlook]日历配置主页日历时，请考虑以下事项：
 
-* 您只能集成基于Web的版本 [!DNL Outlook] 在云托管中 [!DNL Office 365] 或 [!DNL Outlook Live].
+* 您只能在云托管的[!DNL Office 365]或[!DNL Outlook Live]中集成基于Web的[!DNL Outlook]版本。
 
-  内部部署 [!DNL Outlook] 和 [!DNL Outlook] 基于云的企业 [!DNL Exchange] 服务器不受支持。
+  不支持基于云的企业[!DNL Exchange]服务器上的内部部署[!DNL Outlook]和[!DNL Outlook]。
 
-  如果您的组织使用单点登录，您需要 [!DNL Microsoft 365 E3] 或 [!DNL E5].
+  如果您的组织使用单点登录，则您需要[!DNL Microsoft 365 E3]或[!DNL E5]。
 
-* 与您的关联的附件 [!DNL Outlook] 事件未附加到 [!DNL Outlook] 您的主页日程表上的活动。
-* 与集成 [!DNL Outlook] 必须为每个用户分别完成日历。
-* 在中显示的事件 [!UICONTROL 到期] 栏未显示在您的 [!DNL Microsoft] 除非您从 [!UICONTROL 工作列表] 敬您的 [!DNL Adobe Workfront] 日历。 有关更多信息，请参阅 [[!UICONTROL 到期] 条形图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) 和 [上的工作列表 [!UICONTROL 主页日程表]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) 在 [[!UICONTROL 主页日程表] 视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+* 与您的[!DNL Outlook]活动关联的附件未附加到您的主页日历中的[!DNL Outlook]活动。
+* 必须为每个用户分别完成与[!DNL Outlook]日历的集成。
+* 出现在[!UICONTROL 到期]栏中的事件不会出现在您的[!DNL Microsoft]日历中，除非您将其从[!UICONTROL 工作列表]拖到[!DNL Adobe Workfront]日历中。 有关详细信息，请参阅[[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)中[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view)的[[!UICONTROL 到期]栏](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar)和[工作列表。
 
-* 当您启用与的集成时 [!DNL Outlook]，仅限拖动到上的工作项 [!UICONTROL 主页日程表] 从此刻开始，将进行同步。 在启用集成之前位于主页日历上的项目将不会显示，如果您希望这些项目在中显示，必须将其再次拖动到主页日历上 [!DNL Outlook].
-* 当您共享（或取消共享） [!DNL Outlook] 其他人共享的日历，或者当您更改与其他人共享的日历的权限级别时，此更改不会影响他们的日历，时间约为30分钟。 欲知更多信息，请参见 [!DNL Microsoft Outlook] 文档。\
-   因此，当您集成 [!DNL Workfront] 带有以下内容的日历 [!DNL Outlook] 您与其他用户共享的日历，他们将看不到您的 [!DNL Workfront] 日历项目约30分钟。
+* 启用与[!DNL Outlook]的集成时，只有从该时间点开始拖放到[!UICONTROL 主页日历]上的工作项才会同步。 在启用集成之前位于主页日历上的项目将不会显示，如果您希望这些项目在[!DNL Outlook]中显示，必须将其再次拖动到主页日历上。
+* 当您与其他人共享（或取消共享）一个[!DNL Outlook]日历，或者当您更改与其他人共享的日历的权限级别时，此更改不会影响他们的日历约30分钟。 有关详细信息，请参阅[!DNL Microsoft Outlook]文档。\
+   因此，当您将[!DNL Workfront]日历与您与其他用户共享的[!DNL Outlook]日历集成时，他们将在大约30分钟内看不到您的[!DNL Workfront]日历项目。
 
 >[!NOTE]
 >
->此 [!DNL Outlook] 日历配置与 [!DNL Outlook] 加载项([!UICONTROL [!DNL Outlook] 集成] 或 [!DNL Workfront Outlook])。 无需安装即可配置日历，但需要安装 [!DNL Outlook] 加载项。 欲知关于 [!DNL Outlook] 加载项请参阅 [设置 [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+>[!DNL Outlook]日历配置与[!DNL Outlook]加载项（[!UICONTROL [!DNL Outlook]集成]或[!DNL Workfront Outlook]）完全不同。 无需安装即可配置日历，但[!DNL Outlook]加载项需要安装。 有关[!DNL Outlook]加载项的更多信息，请参阅[设置 [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)。
 
-## 配置您的 [!UICONTROL 主页日程表] 查看设置并将其与Outlook日历集成
+## 配置[!UICONTROL 主页日历]视图设置并将其与Outlook日历集成
 
-1. 在 [!UICONTROL 主页日程表] 视图，单击 **[!UICONTROL 设置]** 齿轮图标 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) 在右上角打开 **[!UICONTROL 日历设置]** 在右边的面板中。
+1. 在[!UICONTROL 主页日历]视图中，单击右上角的&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)以打开右边的&#x200B;**[!UICONTROL 日历设置]**&#x200B;面板。
 
-   如果您需要有关访问 [!UICONTROL 主页日程表] 视图，请参阅 [查看 [!UICONTROL 主页日程表]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+   如果您需要有关访问[!UICONTROL 主页日历]视图的信息，请参阅[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)。
 
-1. （可选）要集成 [!DNL Microsoft Outlook] 日历，单击 **[!UICONTROL 添加帐户]** 位于的右上角 **[!UICONTROL 日历设置]** 面板。 然后，如果系统提示您这样做，请输入 [!DNL Microsoft Outlook] 登录信息。 您可以重复此步骤以添加多个 [!DNL Outlook] 帐户。
+1. （可选）要集成[!DNL Microsoft Outlook]日历，请单击&#x200B;**[!UICONTROL 日历设置]**&#x200B;面板右上角的&#x200B;**[!UICONTROL 添加帐户]**。 然后，如果系统提示您输入登录信息[!DNL Microsoft Outlook]。 您可以重复此步骤以添加多个[!DNL Outlook]帐户。
 
    >[!NOTE]
    >
-   >你必须给予 [!DNL Workfront] 访问 [!DNL Outlook] 日历。 授予权限允许 [!DNL Workfront] 要维护对日历数据的访问，请阅读 [!DNL outlook] 个人资料，并读取和更新 [!DNL Microsoft] 日历。
+   >您必须授予[!DNL Workfront]权限才能访问您的[!DNL Outlook]日历。 授予权限允许[!DNL Workfront]保持对日历数据的访问权限，读取您的[!DNL outlook]配置文件，以及读取和更新您的[!DNL Microsoft]日历。
 
-1. 刷新浏览器窗口查看来自您的的信息 [!DNL Outlook] 日历中的帐户和 [!UICONTROL 日历设置] 面板。
-1. 单击 **[!UICONTROL 设置]** 再次打开右上角的齿轮图标 **[!UICONTROL 日历设置]** 面板。 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)
+1. 刷新浏览器窗口，在日历和[!UICONTROL 日历设置]面板中查看[!DNL Outlook]帐户的信息。
+1. 再次单击右上角的&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标以打开&#x200B;**[!UICONTROL 日历设置]**&#x200B;面板。 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)
 
-1. （可选）在每个 [!DNL Microsoft] 在上一步中添加的帐户，选择 **[!UICONTROL 视图]** 或 **[!UICONTROL 同步]**：
+1. （可选）在上一步中添加的每个[!DNL Microsoft]帐户下，选择&#x200B;**[!UICONTROL 查看]**&#x200B;或&#x200B;**[!UICONTROL 同步]**：
 
-   * **[!UICONTROL 视图]**：这是一个只读选项，会显示 [!DNL Microsoft] 您的日历活动 [!UICONTROL 主页日程表].
-   * **[!UICONTROL 同步]**：此选项允许您的主机和服务器之间 [!DNL Microsoft] 和 [!UICONTROL 主页] 日历。 换句话说， [!DNL Workfront] [!UICONTROL 主页日程表] 导出到 [!DNL Microsoft] 日历和 [!DNL Microsoft] 将日历项目导入您的Workfront [!UICONTROL 主页日程表] 实时。
+   * **[!UICONTROL 查看]**：这是一个只读选项，在您的[!UICONTROL 主页日历]上显示[!DNL Microsoft]个日历事件。
+   * **[!UICONTROL 同步]**：此选项允许在[!DNL Microsoft]和[!UICONTROL Home]日历之间进行双向同步。 换句话说，[!DNL Workfront] [!UICONTROL 主页日历]项目将实时导出到您的[!DNL Microsoft]日历，而[!DNL Microsoft]日历项目将导入到您的Workfront [!UICONTROL 主页日历]。
 
      ![](assets/view-sync-checkboxes-qs.png)
 
-1. （可选）在您的下 [!DNL Workfront] 帐户或集成帐户，选择要在 [!UICONTROL 主页日程表] （例如您的PTO、生日或节假日日历），然后单击浏览器的 [!UICONTROL 刷新] 或 [!UICONTROL 重新加载] 按钮以查看您所做的更改。
+1. （可选）在您的[!DNL Workfront]帐户或集成帐户下，选择要在[!UICONTROL 主页日历]上查看的相关日历（如PTO、生日或节假日），然后单击浏览器的[!UICONTROL 刷新]或[!UICONTROL 重新加载]按钮查看更改。
 
-1. （可选）在 **[!UICONTROL 常规]** 部分在 **[!UICONTROL 每周开始于]**，选择要作为工作周的第一天在主页日历中显示的那一天。
+1. （可选）在&#x200B;**[!UICONTROL 开始周日期]**&#x200B;下的&#x200B;**[!UICONTROL 常规]**&#x200B;部分中，选择要作为工作周的第一天显示在主页日历中的日期。
 
    ![](assets/general-section-home-calendar-settings-panel.png)
 
 1. 配置以下选项：
 
-   * **[!UICONTROL 我的工作日]：** 选择您工作的日期。
-   * **[!UICONTROL 我的常用开始时间]：** 选择您开始工作日的时间。
-   * **[!UICONTROL 我的常用结束时间]：** 选择结束工作日的时间。
+   * **[!UICONTROL 我的工作日]：**&#x200B;选择您工作的日。
+   * **[!UICONTROL 我的常用开始时间]：**&#x200B;选择您开始工作日的时间。
+   * **[!UICONTROL 我的常用结束时间]：**&#x200B;选择您结束工作日的时间。
 
-   [!DNL Workfront] 使用这三个设置来计算您一周的工作小时数。 此数字会影响 [!UICONTROL 分配] 栏可帮助您根据可用工作时间跟踪工作负载。 有关更多信息，请参阅 [[!UICONTROL 分配] 条形图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) 在文章中 [[!UICONTROL 主页日程表] 视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+   [!DNL Workfront]使用这三个设置计算您一周的工作小时数。 此数字影响[!UICONTROL 分配]栏，这有助于您根据可用工作时间跟踪工作负载。 有关详细信息，请参阅文章[[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)中的[[!UICONTROL 分配]栏](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time)。
 
-1. 在 **[!UICONTROL 日历设置]** 区域将其关闭。
+1. 单击&#x200B;**[!UICONTROL 日历设置]**&#x200B;区域外部以将其关闭。
 
-   [!DNL Workfront] 自动保存更改。
+   [!DNL Workfront]自动保存您的更改。
 
-有关使用 [!UICONTROL 日历] 查看以管理您的工作分派和集成的日历事件，请参阅 [使用 [!UICONTROL 主页日程表] 视图](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+有关使用[!UICONTROL 日历]视图管理您的工作分派和集成日历事件的信息，请参阅[使用[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

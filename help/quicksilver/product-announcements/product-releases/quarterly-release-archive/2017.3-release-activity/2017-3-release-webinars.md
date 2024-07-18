@@ -20,12 +20,12 @@ ht-degree: 0%
 
 2017.3版本当前可在“预览”环境中测试；2017.3版本将于2017年11月在“生产”环境中可用。
 
-要查看关于网络研讨会中所涵盖功能的更多详细信息，请参见 [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) 页面。
+若要查看有关网络研讨会中所涵盖功能的更多详细信息，请参阅[2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)页面。
 
 提供了以下网络研讨会录像：
 
-* [2017.3版本网络研讨会](#2017-3-release-webinar)
-* [Workfront 2017.3 9月预览版](#workfront-2017-3-september-preview-releases)
+* [2017.3发行版网络研讨会](#2017-3-release-webinar)
+* [Workfront 2017.3 9月预览版本](#workfront-2017-3-september-preview-releases)
 * [Workfront 2017.3 Beta 1和Beta 2网络研讨会](#workfront-2017-3-beta-1-and-beta-2-webinar)
 * [8月Mobile发布网络研讨会](#august-mobile-release-webinar)
 
@@ -35,12 +35,12 @@ Workfront 2017.3版本网络研讨会由Workfront产品团队于10月11日主持
 
 为方便起见，该网络研讨会分为以下主题：
 
-* [介绍](#introduction)
+* [简介](#introduction)
 * [项目增强功能](#project-enhancements)
-* [报表增强功能](#reporting-enhancements)
+* [报告增强功能](#reporting-enhancements)
 * [Agile增强功能](#agile-enhancements)
 * [资源管理增强功能](#resource-management-enhancements)
-* [应用程序和集成](#apps-and-integrations)
+* [应用和集成](#apps-and-integrations)
 * [校对增强功能](#proofing-enhancements)
 * [API增强功能](#api-enhancements)
 * [结论](#conclusion)

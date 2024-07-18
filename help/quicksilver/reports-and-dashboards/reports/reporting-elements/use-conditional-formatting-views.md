@@ -21,7 +21,7 @@ ht-degree: 2%
 
 通过向报表视图添加特殊或条件格式，您可以自定义报表的详细信息选项卡。
 
-有关创建报告的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关创建报告的详细信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 通过有条件地设置报表视图中的列格式，您可以设置影响报表显示方式的规则。 当满足这些条件或规则时，将应用特殊格式。
 
@@ -62,16 +62,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p> <p><b>注释</b></p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p> <p><b>注释</b></p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 +++
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 必须先创建报表，然后才能将条件格式添加到其视图。
 
-有关创建报告的信息，请参阅 [创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+有关创建报告的信息，请参阅[创建报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)。
 
 ## 创建条件格式化视图
 
@@ -89,13 +89,13 @@ ht-degree: 2%
 
    或
 
-   单击 **新建报告**，然后选择对象类型以构建新报表。
+   单击&#x200B;**新建报告**，然后选择对象类型以生成新报告。
 
-1. （视情况而定）如果您编辑现有报表，请单击 **报表操作**，然后单击 **编辑**.
+1. （视情况而定）如果您编辑现有报表，请单击&#x200B;**报表操作**，然后单击&#x200B;**编辑**。
 
-1. 在 **列（视图）** 选项卡，单击以选择现有列，或单击 **添加列** 创建列。
-1. 在 **显示在此列中** 字段，选择要在新列中显示的字段。
-1. 单击 **高级选项**.
+1. 在&#x200B;**列（视图）**&#x200B;选项卡中，单击以选择现有列，或单击&#x200B;**添加列**&#x200B;以创建列。
+1. 在Report Builder左上角的&#x200B;**在此列显示**&#x200B;字段中，选择要在新列中显示的字段。
+1. 单击&#x200B;**高级选项**。
 
 1. 指定以下信息：
 
@@ -118,7 +118,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 单击 **为此列添加规则**.
+1. 单击&#x200B;**添加此列的规则**。
 
    <!--
    <note type="note">
@@ -126,10 +126,10 @@ ht-degree: 2%
    </note>
    -->
 
-1. 在 **当：** 部分，为列设置条件语句。
+1. 在&#x200B;**当：**&#x200B;部分中，为该列设置条件语句。
 
    例如：“当任务完成百分比等于（区分大小写）50时。”
-1. 在 **显示如下字段：** 部分指定当满足以上定义的条件时，此字段的外观。
+1. 在&#x200B;**显示这样的字段：**&#x200B;部分中，指定当满足以上定义的条件时，此字段的外观。
 
    指定以下信息：
 
@@ -159,7 +159,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>显示文本</strong></td> 
-      <td> <p>选择此选项以显示此列的自定义标签，而不是其实际值。 指定要显示的文本，而不是提供的字段中的值。</p> <p><b>重要</b></p> <p>选择 <strong>显示文本</strong> 禁用内联编辑此列中的文本的功能。<br>此外，无法更改“前置任务”列的值，因为它包含内置逻辑。</p> </td> 
+      <td> <p>选择此选项以显示此列的自定义标签，而不是其实际值。 指定要显示的文本，而不是提供的字段中的值。</p> <p><b>重要</b></p> <p>选择<strong>显示文本</strong>将禁用内联编辑此列中的文本的功能。<br>此外，无法更改“前置任务”列的值，因为它包含内置逻辑。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>应用于整行</strong></td> 
@@ -168,7 +168,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 单击 **添加规则**.\
+1. 单击&#x200B;**添加规则**。\
    您可以将其他规则添加到同一列，或将规则添加到其他列。
 
    规则的应用顺序与创建顺序相同。 它们会合并，但不会相互覆盖，不过同一单元格中的列规则优先于行规则。
@@ -189,6 +189,6 @@ ht-degree: 2%
    * 再次为延迟项目中的红色背景添加列规则。
    * 保存规则和视图时，红色背景不会应用于已取消的项目。
 
-1. 单击 **完成**.
-1. 单击 **保存+关闭**.\
+1. 单击&#x200B;**完成**。
+1. 单击&#x200B;**保存+关闭**。\
    在报告中，如果满足指定的条件，用户会看到格式更改。

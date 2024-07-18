@@ -68,11 +68,11 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对项目的访问权限</p> <p>查看或更高的用户访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看项目或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 将用户添加到项目团队
 
-将用户添加到项目团队时，他们将获得项目以及项目的任务、问题和文档的“查看”权限。 有关更多信息，请参阅文章 [项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+将用户添加到项目团队时，他们将获得项目以及项目的任务、问题和文档的“查看”权限。 有关详细信息，请参阅文章[项目团队概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
 >[!TIP]
 >
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 如果项目上不履行任何角色的用户希望在项目生命周期中收到有关某些更新或更改的通知，您可以手动将其添加到项目团队。
 
-有关可以为项目团队中的用户启用的通知的更多信息，请参阅 [事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+有关可以为项目团队中的用户启用哪些通知的更多信息，请参阅[事件通知类型](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ ht-degree: 0%
 
 1. 转到要添加用户的项目。
 
-1. 单击 **人员** 在左侧面板中。 您可能需要单击 **显示更多** 首先。
+1. 单击左侧面板中的&#x200B;**人员**。 您可能需要先单击&#x200B;**显示更多**。
 
-1. 单击 **添加用户**.
+1. 单击&#x200B;**添加用户**。
 
    此时将显示“将用户添加到项目团队”对话框。
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 在 **添加用户** 框中，开始键入要添加到项目团队中的活动Workfront用户的名称，然后在该名称出现在下拉列表中时单击该名称。
+1. 在&#x200B;**添加用户**&#x200B;框中，开始键入要添加到项目团队中的活动Workfront用户的名称，然后在该名称出现在下拉列表中时单击该名称。
 
    重复此步骤以将多个用户添加到项目团队。 用户必须属于与项目关联的组。
 
@@ -138,10 +138,10 @@ ht-degree: 0%
    >* 无法通过添加团队、组、公司或工作角色来添加用户。
    >* 添加用户时，请注意头像、用户的主要角色及其电子邮件地址，以区分具有相同名称的用户。 用户必须与至少一个工作角色关联，才能在添加时查看工作角色。
    >
-   >  您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅 [授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
 
-1. 单击 **添加**.
+1. 单击&#x200B;**添加**。
 
    用户将获得项目的“查看”权限，并作为项目团队的一部分接收有关项目的通知。
 
@@ -153,4 +153,4 @@ ht-degree: 0%
 
 即使您将用户从项目团队中删除，仍会为分配已完成的任务和问题的用户分配任务。
 
-有关从项目团队中删除用户的详细信息，请参阅 [从项目中删除用户](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+有关从项目团队中删除用户的详细信息，请参阅[从项目中删除用户](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)。

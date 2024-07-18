@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本页介绍了在23.3版本发布时间范围内发布到“生产”环境的Adobe Workfront Proof的功能。
 
-有关23.3发行周期中此时对Workfront的所有区域可用的所有更改列表，请参阅 [23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+有关23.3发行周期此刻对Workfront的所有区域可用的所有更改列表，请参阅[23.3发行版概述](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)。
 
 <table>
             <col style="width: 50%;" />
@@ -55,7 +55,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">更改对Microsoft Office验证的支持</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">更改对Microsoft Office校样的支持</a></p>
                         <p>为了维护强大且可扩展的验证处理解决方案，我们将更改受支持的Microsoft Office文件类型和文件大小限制。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -71,7 +71,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">桌面校对查看器更新</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">桌面验证查看器更新</a></p>
                         <p>桌面校对查看器已更新至版本2.1.24！ 此更新包括对审阅交互式验证的Chrome v100支持，以及许多问题修复。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>

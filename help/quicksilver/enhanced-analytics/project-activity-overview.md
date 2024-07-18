@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >“按团队分类的活动”可视化图表的行为与此可视化图表类似，但“按团队分类的活动”可视化图表显示所有项目的主团队活动。\
->有关“按团队列出的活动”可视化图表的信息，请参阅 [在增强型分析中查看按团队分类的活动可视化图表](../enhanced-analytics/activity-by-team-overview.md).
+>有关按团队分类的活动可视化图表的信息，请参阅[在增强型分析中查看按团队分类的活动](../enhanced-analytics/activity-by-team-overview.md)。
 
 ## 访问要求
 
@@ -56,25 +56,25 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
-有关使用增强型分析的先决条件，请参阅中的“先决条件”部分 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+有关使用增强型分析的先决条件，请参阅[增强型分析概述](../enhanced-analytics/enhanced-analytics-overview.md)中的“先决条件”部分。
 
 ## 了解项目活动可视化图表
 
 项目活动以不同的颜色显示，以总结一段时间内项目中的特定事件：
 
-* **用户已登录**：紫色框显示分配给项目的人员在当天登录。 颜色越深表示登录人数越多。
+* **用户登录**：紫色框显示分配给项目的人员在当天登录。 颜色越深表示登录人数越多。
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **任务状态更改**：粉色框显示人员当天更改了项目任务的状态。 阴影颜色越深表示任务状态变化的数量约多。
+* **任务状态更改**：粉色框显示人员在该日更改了项目的任务状态。 阴影颜色越深表示任务状态变化的数量越多。
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **任务已完成**：蓝色框显示人员已完成项目的任务。 阴影颜色越深表示完成的任务数量约多。
+* **已完成任务**：蓝色框显示人员已完成项目的任务。 阴影颜色越深表示完成的任务数量越多。
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -86,16 +86,16 @@ ht-degree: 8%
 * 与其他项目相比，一个项目的活动情况。
 * 哪些用户正在处理一个项目，频率是多少。
 
-要了解如何为此可视化获取最佳数据，请参阅 [增强的分析概述](../enhanced-analytics/enhanced-analytics-overview.md).
+要了解如何为此可视化获取最佳数据，请参阅[增强分析概述](../enhanced-analytics/enhanced-analytics-overview.md)。
 
 ## 查看项目活动可视化图表
 
-1. 单击主菜单图标 ![](assets/main-menu-icon-16x12.png)，然后选择 **分析**.
+1. 单击主菜单图标![](assets/main-menu-icon-16x12.png)，然后选择&#x200B;**Analytics**。
 1. （可选）要使用不同的日期范围，请从日期范围过滤器中选择新的开始日期和结束日期。
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   有关使用日期范围过滤器的信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关使用日期范围过滤器的信息，请参阅[在增强型分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ ht-degree: 8%
 
 1. （视情况而定）如果您需要限制项目数据集，请选择并应用要使用的过滤器。
 
-   有关在增强型分析中添加筛选器的更多信息，请参阅 [在增强的分析中应用过滤器](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   有关在增强分析中添加筛选器的详细信息，请参阅[在增强分析中应用筛选器](../enhanced-analytics/use-enhanced-analytics-filters.md)。
 
    添加过滤器后，会显示最多50个项目的数据，即使您离开页面或退出Workfront，过滤器也会保持活动状态。
 
@@ -113,7 +113,7 @@ ht-degree: 8%
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. （可选）要更改项目的排序方式，请单击 **排序方式** 菜单，然后选择新的排序选项：
+1. （可选）要更改项目的排序方式，请单击&#x200B;**排序依据**&#x200B;菜单，然后选择新的排序选项：
 
    * **A - Z**
    * **Z - A**
@@ -136,7 +136,7 @@ ht-degree: 8%
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. （可选）要导出可视化数据，请单击 **“导出”图标** ![](assets/export.png) 然后选择导出格式：
+1. （可选）要导出可视化数据，请单击可视化右上角的&#x200B;**导出图标** ![](assets/export.png)，然后选择导出格式：
 
    * **图表(PNG)**
    * **数据表(XSLX)**

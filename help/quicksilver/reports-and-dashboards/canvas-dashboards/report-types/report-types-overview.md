@@ -6,7 +6,8 @@ description: 您可以将许多不同的报表添加到画布功能板，以不�
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 * 表格报表
 * 待定审批报告
 
-有关在画布功能板上添加和排列报表的一般信息，请参阅 [在画布功能板中添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). 有关添加和格式化特定报表类型的更多详细信息，请参阅下面的文章索引。
+有关在画布功能板上添加和排列报表的一般信息，请参阅[在画布功能板上添加、删除或排列报表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)。 有关添加和格式化特定报表类型的更多详细信息，请参阅下面的文章索引。
 
 ## 画布功能板报表类型：文章索引
 

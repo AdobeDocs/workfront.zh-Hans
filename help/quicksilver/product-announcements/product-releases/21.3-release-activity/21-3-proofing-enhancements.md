@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了21.3版本对“预览”环境所做的所有“验证”增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 删除在链接的文件夹中创建新文档或验证版本的功能
 

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta最终版
-description: 本页介绍2018.3测试版最终版本在“预览”环境中最近提供的所有更改。 该功能将于2018年10月10日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+title: 2018.3Beta决赛
+description: 本页介绍了2018.3 Beta Final版本在“预览”环境中最近提供的所有更改。 该功能将于2018年10月10日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta最终版
+# 2018.3Beta决赛
 
-本页介绍2018.3测试版最终版本在“预览”环境中最近提供的所有更改。 该功能将于2018年10月10日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
+本页介绍了2018.3 Beta Final版本在“预览”环境中最近提供的所有更改。 该功能将于2018年10月10日在预览环境中可用。 该版本将于2018年11月在生产环境中提供。
 
 >[!NOTE]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+有关2018.3版中所做所有更改的列表，请参阅  [2018.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
-2018.3测试版最终版本包含以下增强功能：
+2018.3 Beta最终版本包含以下增强功能：
 
-* [主页日程表和Outlook日程表之间的双向同步](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [在主页中添加新任务的更新](#updates-for-adding-new-tasks-in-home)
-* [默认情况下，验证标记工具现在处于扩展状态](#proofing-markup-tools-now-expanded-by-default)
+* [主页日历与Outlook日历之间的双向同步](#two-way-sync-between-home-calendar-and-outlook-calendar)
+* 在主页中添加新任务的[更新](#updates-for-adding-new-tasks-in-home)
+* 默认情况下，[校对标记工具现在处于扩展状态](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive文档集成](#microsoft-onedrive-document-integration)
-* [用于Microsoft Teams集成的Workfront](#workfront-for-microsoft-teams-integration)
-* [更新了Workfront以实现Adobe Creative Cloud集成](#updated-workfront-for-adobe-creative-cloud-integration)
+* 用于Microsoft Teams集成的[Workfront](#workfront-for-microsoft-teams-integration)
+* [已为Adobe Creative Cloud集成更新Workfront](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Workfront移动应用程序改进](#workfront-mobile-app-improvements)
 
 ## 主页日程表和Outlook日程表之间的双向同步 {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ ht-degree: 0%
 
 以前，只能将Outlook日历中的项目同步到主页日历。
 
-有关将主页日历配置为与Outlook同步的信息，请参阅 [配置主页日程表视图设置](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+有关将主页日历配置为与Outlook同步的信息，请参阅[配置主页日历视图设置](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
 
 ## 在主页中添加新任务的更新 {#updates-for-adding-new-tasks-in-home}
 
 * 您现在可以更新个人任务的规划完成日期。
 * 您现在可以将团队和角色分配给在主页中创建的请求和项目任务。
 
-有关上述更新的更多信息，请参阅  [从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+有关上述更新的更多信息，请参阅  [从主页区域创建工作项](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 默认情况下，验证标记工具现在处于扩展状态 {#proofing-markup-tools-now-expanded-by-default}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 以前，必须单击才能在垂直菜单中展开这些工具。
 
-有关更多信息，请参阅  [配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+有关更多信息，请参阅  [配置校对查看器设置](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 ## Microsoft OneDrive文档集成 {#microsoft-onedrive-document-integration}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 * Dropbox
 * WebDAM
 
-有关文档集成的信息，请参阅 [配置文档集成](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+有关文档集成的信息，请参阅[配置文档集成](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 用于Microsoft Teams集成的Workfront {#workfront-for-microsoft-teams-integration}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 以下视频中概述的部分集成区域已被修改。 有关WorkfrontMicrosoft Teams版的最新信息，请参阅 [[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) 部分。
+> 以下视频中概述的部分集成区域已被修改。 有关Microsoft Teams的Workfront的最新信息，请参阅[[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)部分。
 
 ## 更新了Workfront以实现Adobe Creative Cloud集成 {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ## Workfront移动应用程序改进 {#workfront-mobile-app-improvements}
 
-在2018.3生产版本发布时，iOS和Android应用商店将发布以下新功能：
+以下新功能将在2018.3生产版本发布时发布到iOS和Android应用商店：
 
 * 首次用户体验
 

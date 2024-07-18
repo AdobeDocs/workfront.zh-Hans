@@ -4,23 +4,23 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 防止欺骗并添加 [!DNL Adobe Workfront] SPF记录
-description: 如果用户没有收到 [!DNL Adobe Workfront] 电子邮件通知，您需要添加 [!DNL Workfront] SPF记录到您的防火墙。 您必须与IT团队合作以添加SPF记录。
+description: 如果用户没有收到 [!DNL Adobe Workfront] 电子邮件通知，则需要将 [!DNL Workfront] SPF记录添加到防火墙。 您必须与IT团队合作以添加SPF记录。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# 防止欺骗并添加 [!DNL Adobe Workfront] SPF记录
+# 防止欺骗并添加[!DNL Adobe Workfront]个SPF记录
 
 ## 问题
 
-如果用户没有收到 [!DNL Adobe Workfront] 电子邮件通知，您需要添加 [!DNL Workfront] SPF记录到您的防火墙。 您必须与IT团队合作以添加SPF记录。
+如果用户没有收到[!DNL Adobe Workfront]电子邮件通知，则需要将[!DNL Workfront]个SPF记录添加到防火墙。 您必须与IT团队合作以添加SPF记录。
 
 ## 访问要求
 
@@ -32,7 +32,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
@@ -40,26 +40,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。 有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。 有关详细信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 解决方案
 
-允许列表如果已按照中的说明将IP地址添加到生产环境的 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 而用户仍然没有收到电子邮件：
+如果您已按照[配置防火墙的允许列表 列入允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)中的说明将IP地址添加到生产环境的，用户仍不会收到电子邮件：
 
 1. 将以下SPF记录添加到防火墙：
 
    *spf.workfront.com*
 
-   这会自动添加所有 [!DNL Workfront] IP地址在您的防火墙上允许列表，并允许所有垃圾邮件过滤器（使用SPF记录）进行验证 [!DNL Workfront] 服务器作为域的有效发件人。
+   列入允许列表这会自动将所有[!DNL Workfront]个IP地址添加到防火墙上的中，并允许所有垃圾邮件过滤器（使用SPF记录）将[!DNL Workfront]服务器验证为您的域的有效发件人。
 
    >[!NOTE]
    >
-   > SPF记录是属于DNS区域文件一部分的TXT记录。 我们不支持修改您的DNS区域文件。
+   > SPF记录是属于DNS区域文件一部分的TXT记录。 不支持修改您的DNS区域文件。
 
-1. 您必须指定需要配置的SPF记录类型。 以下是SPF记录的有效类型：
+1. 必须指定需要配置的SPF记录类型。 以下是SPF记录的有效类型：
 
    * 全部(https://dmarcian.com/spf-syntax-table/#all)
    * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
@@ -68,8 +68,8 @@ ht-degree: 0%
    * mx (https://dmarcian.com/spf-syntax-table/#mx)
    * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
    * 存在(https://dmarcian.com/spf-syntax-table/#exists)
-   * 包括(https://dmarcian.com/spf-syntax-table/#include)
+   * include (https://dmarcian.com/spf-syntax-table/#include)
 
    例如，“v=spf1 a mx include： spf.workfront.com -all”
 
-如果由于公司策略而无法将SPF记录添加到防火墙，请与您的 [!DNL Workfront] 支持代表。
+如果由于公司策略而无法将SPF记录添加到防火墙，请与您的[!DNL Workfront]支持代表合作。

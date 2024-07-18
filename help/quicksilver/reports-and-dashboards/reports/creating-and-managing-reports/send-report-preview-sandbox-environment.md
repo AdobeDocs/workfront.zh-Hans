@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以在测试环境中计划报表，但提交报表的方式与从生产环境中提交报表的方式有所不同。
 
-有关在生产环境中计划报表提交的信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+有关在生产环境中计划报表交付的信息，请参阅[报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 根据计划报表的位置，预览沙箱和自定义刷新沙箱中的交付功能有所不同。
 
@@ -49,16 +49,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 在预览环境中计划报表
 
@@ -66,28 +66,28 @@ ht-degree: 0%
 
 ### 在预览环境中计划报表
 
-是否在“预览”环境中生成交付的报表取决于是否 **接收来自此测试环境的电子邮件** 是否已启用。
+是否在“预览”环境中生成传递的报告取决于&#x200B;**是否启用从此测试环境接收电子邮件**。
 
-有关从沙盒环境启用电子邮件的信息，请参阅 [启用从预览Sandbox环境的电子邮件投放](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+有关从沙盒环境启用电子邮件的信息，请参阅[从预览沙盒环境启用电子邮件投放](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-在“预览”环境中计划报表交付的过程与在“生产”环境中计划报表的过程相同。 有关计划报表提交的信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+在“预览”环境中计划报表交付的过程与在“生产”环境中计划报表的过程相同。 有关计划报表提交的信息，请参阅[报表提交概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 在预览环境中计划报表交付时，存在以下情况：
 
-* 时间 **接收来自此测试环境的电子邮件** 对于接收报告的用户，此选项处于禁用状态，在计划提交报告时不会生成任何文件。
-* 时间 **接收来自此测试环境的电子邮件** 将为接收报告的用户启用，则在计划报告提交时生成的文件会添加到用户的文档选项卡中。
+* 当对接收报告的用户禁用&#x200B;**从此测试环境接收电子邮件**&#x200B;时，在计划提交报告时不会生成任何文件。
+* 为接收报告的用户启用&#x200B;**从此测试环境接收电子邮件**&#x200B;后，在计划报告提交时生成的文件将添加到用户的“文档”选项卡中。
 
 ## 在自定义刷新沙盒环境中计划报表
 
 是否在自定义刷新沙盒中生成交付的报表取决于是否启用从此测试环境接收电子邮件设置。
 
-有关从预览环境启用电子邮件的信息，请参阅部分 [查看和修改电子邮件通知设置](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 在文章中 [修改您自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+有关从预览环境启用电子邮件的信息，请参阅[修改自己的电子邮件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)一文中的[查看和修改电子邮件通知设置](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)部分。
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-在自定义刷新沙盒环境中计划报表的提交与在生产环境中计划报表相同。 有关计划报表提交的信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+在自定义刷新沙盒环境中计划报表的提交与在生产环境中计划报表相同。 有关计划报表提交的信息，请参阅[报表提交概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 在自定义刷新沙盒环境中计划报表交付时，存在以下情况：
 

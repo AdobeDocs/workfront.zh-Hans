@@ -18,7 +18,7 @@ ht-degree: 0%
 
 此页面介绍了在2019.3版本中进行的项目增强功能的所有更改。 该版本在2019年8月19日当周的生产环境中提供。
 
-有关2019.3版中所做所有更改的列表，请参阅 [2019.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+有关2019.3中所做所有更改的列表，请参阅[2019.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)。
 
 ## 更改自定义表单中字段的显示类型
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 以前，要更改自定义字段的显示类型，您必须创建新字段并删除旧字段。 这需要传输数据，而这通常非常耗时。
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 在文章中 [创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+有关详细信息，请参阅文章[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ ht-degree: 0%
 * 任务列表
 * 项目列表
 
-有关查看列表中的项目的信息，请参见 [开始使用Adobe Workfront中的列表](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关查看列表中的项目的信息，请参阅[Adobe Workfront中的列表入门](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 ## 在不启用特殊编辑模式的情况下编辑甘特图
 
 现在可以编辑任务列表甘特图（无论是否启用了自动保存）。 切换打开时无法撤消更改。 在这种情况下，将自动保存您对项目所做的更改。
 
-有关编辑任务列表甘特图的信息，请参阅 [更新任务列表甘特图中的信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+有关编辑任务列表甘特图的信息，请参阅任务列表甘特图中的[更新信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 从Kanban展示板中删除“问题”选项卡
 
@@ -95,8 +95,8 @@ ht-degree: 0%
 
 我们将从Agile迭代详细信息页面中删除“文档”和“问题”选项卡：
 
-* **文档：** 必须在生产版本之前移动存储在文档选项卡中的所有文档。 如果无法移动文档，您将无法再访问它们。
-* **问题：** 此选项卡通常位于更多下拉菜单下。 您仍然可以从开发周期的工作项选项卡访问“问题”子选项卡。
+* **文档：**&#x200B;存储在“文档”选项卡中的所有文档必须在生产版本之前移动。 如果无法移动文档，您将无法再访问它们。
+* **问题：**&#x200B;此选项卡通常位于“更多”下拉菜单下。 您仍然可以从开发周期的工作项选项卡访问“问题”子选项卡。
 
 ## 考虑或忽略任务日期中的用户休息时间
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 在此更改之前，如果任务限制允许修改日期，则主要被分配人的空闲时间始终调整任务的计划日期。
 
-有关系统级别的用户休息时间设置的信息，请参阅 [配置系统范围的项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+有关系统级用户休息时间设置的信息，请参阅[配置系统范围项目首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
-有关项目级别的用户休息时间设置的信息，请参阅 [编辑项目](../../../../manage-work/projects/manage-projects/edit-projects.md).
+有关项目级别的用户休息时间设置的信息，请参阅[编辑项目](../../../../manage-work/projects/manage-projects/edit-projects.md)。
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 以前，无法自定义或更改条件，并且只有分配了任务的用户，才能更改该任务或问题的条件。
 
-有关更多信息，请参阅 [自定义完成情况](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+有关详细信息，请参阅[自定义条件](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 以前，更新注释仅出现在文档的“更新”选项卡上。
 
-有关更多信息，请参阅部分 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) 在文章中 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅文章[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates)部分。
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ ht-degree: 0%
 
 当您将用户分配给任务或问题时，如果所选用户在任务或问题的计划日期之间计划了任意时间的休息时间，您现在可以看到内联警告。
 
-有关分配任务的信息，请参见 [分配任务](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+有关分配任务的信息，请参阅[分配任务](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-有关休息时间的信息，请参阅 [配置个人休息时间](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+有关休息时间的信息，请参阅[配置个人休息时间](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 以前，管理员必须在自定义表单下拉菜单中手动将用户作为单个选项进行维护。
 
-有关更多信息，请参阅 [创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关详细信息，请参阅[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ ht-degree: 0%
 
 在此更改之前，您需要在“主题”字段中输入请求的名称。
 
-有关创建请求的信息，请参阅 [创建和提交Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+有关创建请求的信息，请参阅[创建和提交Workfront请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 

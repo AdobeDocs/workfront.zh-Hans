@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: 更改视频校样中时间轴的测量单位
-description: 您可以调整视频时间轴中使用的测量单位。 您可以在“时间”、“帧”或“时间码”中查看时间轴。
+title: 更改视频验证中时间轴的测量单位
+description: 您可以调整视频时间轴中使用的测量单位。 您可以按“时间”、“帧”或“时间码”查看时间轴。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
 
-# 更改视频校样中时间轴的测量单位
+# 更改视频验证中时间轴的测量单位
 
-您可以调整视频时间轴中使用的测量单位。 您可以在“时间”、“帧”或“时间码”中查看时间轴。
+您可以调整视频时间轴中使用的测量单位。 您可以按“时间”、“帧”或“时间码”查看时间轴。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,35 +27,35 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>当前计划：Pro或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用不同计划校对访问权限的更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的校对功能</a>.</p> </td> 
+   <td> <p>当前计划：专业版或更高版本</p> <p>或</p> <p>旧版计划：选择或Premium</p> <p>有关使用其他计划进行验证访问的更多信息，请参阅<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">访问Workfront中的验证功能</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（必须为用户启用校样）</p> </td> 
+   <td> <p>当前计划：工作或计划</p> <p>旧版计划：任意（您必须为用户启用验证）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">校对权限配置文件 </td> 
-   <td>经理或更高级别</td> 
+   <td role="rowheader">校样权限配置文件 </td> 
+   <td>经理或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对文档的访问</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>编辑对文档的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、角色或校样权限配置文件，请联系您的Workfront或Workfront校样管理员。
+&#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
-## 更改时间轴的测量单位
+## 更改时间线的度量单位
 
-1. 转到包含文档的项目、任务或问题，然后选择 **文档**.
-1. 找到所需的校样，然后单击 **打开校样**.
+1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
+1. 找到所需的校对，然后单击&#x200B;**打开校对**。
 
-1. 在校样查看器的左下角，单击当前的测量单位。
+1. 在校样查看器的左下角，单击当前度量单位。
 
    ![](assets/phq-viewer-video-timeline.png)
 
-1. 从以下选项中进行选择：
+1. 从以下选项中选择：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -63,7 +63,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">时间</td> 
-      <td>以分钟/秒为单位显示视频时间轴。 默认情况下，此选项处于选中状态。</td> 
+      <td>以分钟/秒为单位显示视频时间轴。 默认情况下，该选项处于选中状态。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">框架</td> 
@@ -71,7 +71,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">时间码</td> 
-      <td>以时间码显示视频时间轴。 时间码的数字表示小时、分钟、秒和帧。 <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>时间码为1:48:36:18表示视频中有1小时48分、36秒和18帧。</p></td> 
+      <td>以时间代码显示视频时间轴。 时间码的数字表示小时、分钟、秒和帧。 <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>时间码1:48:36:18表示视频中有1小时、48分钟、36秒和18帧。</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: 系统跟踪的更新馈送
-description: Adobe Workfront在其中的某些对象上记录发生的活动。 [!UICONTROL 更新] 区域。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront] 管理员可以定义系统应跟踪的更改类型 [!UICONTROL 更新] 部分。
+description: Adobe Workfront将某些对象在其[!UICONTROL 更新]区域发生的活动记录下来。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront] 管理员可以在[!UICONTROL 更新]部分中定义系统应跟踪的更改类型。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront会自动记录在其中的某些对象上发生的活动。 [!UICONTROL 更新] 部分作为系统更新。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront] 管理员可以定义系统应跟踪的更改类型 [!UICONTROL 更新] 部分。
+Adobe Workfront会自动将某些对象上发生的活动作为系统更新记录在[!UICONTROL 更新]分区中。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront]管理员可以在[!UICONTROL 更新]部分中定义系统应跟踪的更改类型。
 
 本节包含以下文章：
 

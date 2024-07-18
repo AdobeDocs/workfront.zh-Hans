@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 在记录类型的表视图中查看记录时，复制指向记录页面的链接。
 
-* 通过共享工作区，您可以与其他用户共享工作区中的所有记录。 有关更多信息，请参阅 [共享工作区](/help/quicksilver/planning/access/share-workspaces.md).
+* 通过共享工作区，您可以与其他用户共享工作区中的所有记录。 有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。
 
 本文介绍了如何从记录类型的表视图中复制指向记录页面的链接。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ ht-degree: 0%
 1. 单击记录类型卡片。
 
    此时将打开记录类型页面。
-1. （视情况而定）从 **视图** 在表右上角的下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
+1. （视情况而定）从表右上角的&#x200B;**视图**&#x200B;下拉菜单中，选择一个表视图。 这应为默认视图，除非您在上次访问时查看了时间轴视图中的记录类型。
 
    与所选记录类型关联的记录将显示在表格视图中。
 1. 右键单击记录行
 
    或
 
-   将鼠标悬停在记录名称上，单击 **更多** 菜单 ![](assets/more-menu.png)，然后单击 **复制链接**.
+   将鼠标悬停在记录名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**复制链接**。
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -139,4 +139,4 @@ ht-degree: 0%
 
 只有对工作区具有管理权限的用户才能与他人共享该工作区。
 
-有关更多信息，请参阅 [共享工作区](/help/quicksilver/planning/access/share-workspaces.md).
+有关详细信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。

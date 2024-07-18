@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# 用于访问的IP地址 [!DNL Adobe Workfront Fusion]
+# 用于访问[!DNL Adobe Workfront Fusion]的IP地址
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront license].
+>除[!DNL Adobe Workfront license]外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
-列入允许列表如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其IP地址，以便允许您的环境与 [!DNL Adobe Workfront Fusion].
+列入允许列表如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其，以允许您的环境与[!DNL Adobe Workfront Fusion]之间的开放通信。
 
-将以下IP地址添加到允许列表以启用 [!DNL Workfront Fusion] 以访问您的系统。
+将以下IP地址添加到您的允许列表以使[!DNL Workfront Fusion]能够访问您的系统。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ ht-degree: 0%
 >
 >出站网络过滤不常见。 请咨询网络管理员，了解是否需要更新允许列表以适应环境。
 
-有关设置组织允许列表的详细信息，请参阅 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+列入允许列表 列入允许列表有关设置组织的详细信息，请参阅[配置防火墙的](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。

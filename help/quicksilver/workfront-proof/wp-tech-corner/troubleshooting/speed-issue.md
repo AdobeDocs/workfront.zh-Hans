@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: 中的速度问题 [!DNL Workfront Proof]
-description: 此帮助页面可帮助您确定在使用时是否可能会遇到任何速度问题 [!DNL Workfront Proof] 与您的ISP或 [!DNL Workfront Proof]的内容交付网络。
+title: ' [!DNL Workfront Proof]中的速度问题'
+description: 此帮助页可帮助您确定在使用 [!DNL Workfront Proof] 时可能遇到的任何速度问题是否与您的ISP或 [!DNL Workfront Proof]的内容交付网络有关。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# 中的速度问题 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]中的速度问题
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
-此帮助页面可帮助您确定在使用时是否可能会遇到任何速度问题 [!DNL Workfront Proof] 与您的ISP或 [!DNL Workfront Proof]的内容交付网络。
+此帮助页可帮助您确定在使用[!DNL Workfront Proof]时可能遇到的任何速度问题是否与您的ISP或[!DNL Workfront Proof]的内容交付网络有关。
 
-速度问题通常是由本地ISP连接或本地Internet访问设置（例如，使用代理服务器的位置）引起的，因此很遗憾，这些问题不在的控制范围之内。 [!DNL Workfront Proof].
+速度问题通常是由于本地ISP连接或本地Internet访问设置（例如，使用了代理服务器）造成的，因此很遗憾，这不在[!DNL Workfront Proof]的控制范围之内。
 
 也就是说，您可以执行一些步骤来检查连接速度，以确定您所遇到的问题的根本原因。 所有这些步骤对于故障排除过程同样重要，我们建议您花一些时间收集有关列出的所有步骤的信息，以确保对问题进行最准确的诊断。
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 确定系统的哪个部分速度较慢
 
-当您使用 [!DNL Workfront Proof]，则您可能正在使用功能板，例如管理文件夹内容和用户，或者使用 [!DNL Workfront Proof] 查看者：执行验证审查，检查已做出的评论等。
+当您使用[!DNL Workfront Proof]时，您可能会使用功能板，例如，管理文件夹内容和用户，或者使用[!DNL Workfront Proof]查看器：进行校样审核，检查已作出的评论等。
 
-确定系统哪个部分速度较慢是解决速度问题的第一步。 当您报告时 [!DNL Workfront Proof] 如果速度较慢，请确保描述以下内容：
+确定系统哪个部分速度较慢是解决速度问题的第一步。 当您报告[!DNL Workfront Proof]速度缓慢时，请确保描述以下内容：
 
 * 您是否在其他网页中遇到速度变慢的问题？
-* 问题是否在仪表板中出现，或者 [!DNL Workfront Proof] 查看器？
-* 系统的哪个部分速度较慢？ (例如，处理新验证或在中打开评论 [!DNL Workfront Proof] Viewer)
+* 问题是否在仪表板或[!DNL Workfront Proof]查看器中出现？
+* 系统的哪个部分速度较慢？ （例如，处理新验证或在[!DNL Workfront Proof]查看器中打开评论）
 
 ## 运行traceroute和ping测试
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    * Windows： **tracert app.proofhq.com**
    * Mac/Linux： **traceroute app.proofhq.com**
 
-1. （仅限Windows）类型 **ping app.proofhq.com**.
+1. （仅限Windows）类型&#x200B;**ping app.proofhq.com**。
 1. Ping完成后，在命令提示符下右键单击并选择“Select All（全选）”。
 1. 将结果复制并粘贴到您电子邮件的回复中。
 在将结果发送到支持团队之前，请确保允许traceroute和ping完成。

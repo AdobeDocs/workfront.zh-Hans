@@ -20,9 +20,9 @@ ht-degree: 3%
 
 本节包含以下子部分：
 
-* [Adobe Workfront中的自定义品牌策略](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
+* Adobe Workfront中的[自定义品牌](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [自定义表单：文章索引](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [状态和优先级标签](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
-* [批准流程和里程碑路径](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
+* [审批流程和里程碑路径](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [自定义完成情况](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

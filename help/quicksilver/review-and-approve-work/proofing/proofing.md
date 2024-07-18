@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * [校对概述](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
-* [在Adobe Workfront中管理验证](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-* [在Adobe Workfront中查看验证](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+* [在Adobe Workfront中管理校样](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+* [在Adobe Workfront中查看校样](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
 * [使用桌面校对查看器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
 * [Adobe Workfront中校对的提示、技巧和疑难解答](../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)

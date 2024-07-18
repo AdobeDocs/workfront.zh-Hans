@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过使用这些操作，您可以比Workfront API更准确地修改或配置验证。
 
-有关ProofHQ API的概述，请参阅 [PoofHQ概述](../../proofhq-api/general/overview.md). 您也可以参阅 [ProofHQ文档](https://api.proofhq.com/home.html).
+有关ProofHQ API的概述，请参阅[PoofHQ概述](../../proofhq-api/general/overview.md)。 您还可以参阅[ProofHQ文档](https://api.proofhq.com/home.html)。
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过�
 
 ### 使用高级校对选项创建校对
 
-1. 使用创建验证 `Document createProof` Workfront操作。
+1. 使用Workfront API中的`Document createProof`操作创建验证。
 
    >[!NOTE]
    >
-   创建验证时，设置 `{}` 作为的值 `advancedProofingOptions` 参数。
+   >创建验证时，将`{}`设置为`advancedProofingOptions`参数的值。
 
 1. 创建验证后，使用ProofHQ API添加任何高级选项。
 
@@ -53,15 +53,15 @@ ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过�
 
 此部分显示您可以使用ProofHQ API进行的一些示例更新。
 
-**示例:**
+**示例：**
 
-* [校样可以下载、包含消息并公开共享](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [更新阶段，使其不是私有的，也不是强制的，并且只需要一次批准](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [校对可以下载、有消息且已公开共享](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [更新阶段，使其不是私有的，不是强制的，并且只需要一次批准](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [将两个收件人添加到无主要决策者的验证](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**校样可以下载、包含消息并公开共享**
+**校对可以下载、有消息且已公开共享**
 
-此端点的文档可在 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) 页面。
+此端点的文档可在[ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html)页面上找到。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过�
 </soapenv:Envelope>
 ```
 
-**更新阶段，使其不是私有的，也不是强制的，并且只需要一次批准**
+**更新阶段，使其不是私有的，不是强制的，并且只需要一次批准**
 
-此端点的文档可在 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) 页面。
+此端点的文档可在[ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html)页面上找到。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -110,7 +110,7 @@ ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过�
 
 **将两个收件人添加到无主要决策者的验证**
 
-此端点的文档可在 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) 页面。
+此端点的文档可在[ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html)页面上找到。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,19 +149,19 @@ ProofHQ API包含各种对Workfront API中的验证不可用的操作。 通过�
 
 ### 使用高级校对选项创建校对
 
-您可以使用通过Workfront API创建验证。 `Document createProof` 操作。 此操作接受 `advancedProofingOptions` 参数，其值类型为 `string`. 要在中包含高级校对选项，请执行以下操作： `createProof` 操作，则必须在 `advancedProofingOptions` JSON格式的参数。
+您可以使用`Document createProof`操作通过Workfront API创建验证。 此操作接受`advancedProofingOptions`参数，该参数的值类型为`string`。 要在您的`createProof`操作中包含高级校对选项，必须在`advancedProofingOptions`参数中以JSON格式输入选项。
 
 >[!NOTE]
 >
-可能很难预测要包含在advancedProofingOptions JSON中的字段。 在Workfront中使用高级校对时，您可能想要检查组织的网络数据，并将JSON基于组织常用的字段和值。
+>可能很难预测要包含在advancedProofingOptions JSON中的字段。 在Workfront中使用高级校对时，您可能想要检查组织的网络数据，并将JSON基于组织常用的字段和值。
 >
-由于这些字段可能难以预测，因此我们建议使用Workfront API创建验证，然后使用ProofHQ API更新它。 有关更多信息，请参阅 [使用Workfront和ProofHQ API创建验证（推荐）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) 本文内容
+>由于这些字段可能难以预测，因此我们建议使用Workfront API创建验证，然后使用ProofHQ API更新它。 有关详细信息，请参阅本文中的[使用Workfront和ProofHQ API创建验证（推荐）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)
 
 ### 示例
 
-此示例显示了在为创建JSON时可以使用的字段和格式 `advancedProofingOptions` 参数。 您的 `advancedProofingOptions` JSON文件可以包含比此处显示更多或更少的字段。
+此示例显示了在为`advancedProofingOptions`参数创建JSON时可以使用的字段和格式。 您的`advancedProofingOptions` JSON文件可以包含比此处显示更多或更少的字段。
 
-**示例:**
+**示例：**
 
 <!-- [Copy](javascript:void(0);) -->
 

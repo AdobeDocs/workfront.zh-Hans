@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了20.4版本对“预览”环境所做的所有Analytics增强。 这些增强功能将在2020年11月9日这一周的“生产”环境中提供。
 
-有关20.4版本可用的所有更改列表，请参阅 [20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+有关20.4版本的所有可用更改列表，请参阅[20.4版本概述](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)。
 
 ## 已将分页和排序添加到增强型分析
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 以前，增强型分析区域将您可以查看的项目数量限制为50个。
 
-此功能现已包含在 [增强的Analytics，第1部分学习路径](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) 在Workfront一号。
+此功能现已包含在Workfront One的[Enhanced Analytics，第1部分学习路径](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)中。

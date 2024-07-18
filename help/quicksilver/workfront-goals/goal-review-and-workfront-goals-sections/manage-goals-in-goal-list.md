@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-在您或其他用户创建目标后，可以在“目标列表”中查看其进度和信息。 有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+在您或其他用户创建目标后，可以在“目标列表”中查看其进度和信息。 有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
 ## 访问要求
 
@@ -46,7 +46,7 @@ ht-degree: 2%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -56,7 +56,7 @@ ht-degree: 2%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -68,7 +68,7 @@ ht-degree: 2%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -79,7 +79,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 管理目标列表中的目标
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 每个部分以略微不同的格式显示目标。 使用哪个部分取决于您在使用目标时想要达到的目的。
 
-有关更多信息，请参阅 [Adobe Workfront目标部分概述](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+有关详细信息，请参阅[Adobe Workfront目标概述部分](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文介绍了如何查看目标列表中的目标。
 
@@ -196,7 +196,7 @@ ht-degree: 2%
 
 要管理“目标列表”中的目标，请执行以下操作：
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png)  图标，然后单击 **目标**.
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -207,18 +207,18 @@ ht-degree: 2%
 
    * **名称**：目标的名称。
    * **所有者**：目标所有者的名称。
-   * **期间**：计划目标的时间段。
+   * **期间**：计划目标的期间。
    * **状态**：目标的状态可以是以下状态之一：
       * 活动
       * 草稿
       * 非活动
       * 已关闭
 
-     有关目标状态的信息，请参阅 [Adobe Workfront目标中的目标状态概述](../goal-management/goal-status-overview.md).
+     有关目标状态的信息，请参阅Adobe Workfront目标中的[目标状态概述](../goal-management/goal-status-overview.md)。
 
-     对齐图标显示在与其他目标对齐的目标上。 有关对齐目标的信息，请参阅 [通过在Adobe Workfront目标中连接目标来调整目标](../goal-alignment/align-goals-by-connecting-them.md).
+     对齐图标显示在与其他目标对齐的目标上。 有关对齐目标的信息，请参阅[在Adobe Workfront目标中通过连接来对齐目标](../goal-alignment/align-goals-by-connecting-them.md)。
 
-   * **条件**：目标在为目标分配完成的时段内进度的可视化表示形式。
+   * **条件**：目标在分配给目标完成的时间段内的进度可视化表示形式。
 
      目标的条件可以是以下任一条件：
 
@@ -227,15 +227,15 @@ ht-degree: 2%
       * 处于风险中
       * 存在问题
 
-     有关目标条件的信息，请参阅 [Adobe Workfront目标中的目标进度和条件概述](../goal-management/calculate-goal-progress.md).
+     有关目标条件的信息，请参阅[Adobe Workfront目标中的目标进度和条件概述](../goal-management/calculate-goal-progress.md)。
 
-   * **进度**：目标的进度指示器，以百分比值表示。 进度指示器的颜色与目标条件的颜色相匹配。
+   * **进度**：目标的进度指示器（百分比值）。 进度指示器的颜色与目标条件的颜色相匹配。
 
-     有关信息，请参阅 [在Adobe Workfront目标中计算目标进度](../goal-management/calculate-goal-progress.md).
+     有关信息，请参阅[在Adobe Workfront目标中计算目标进度](../goal-management/calculate-goal-progress.md)。
 
-1. 单击过滤器图标 ![](assets/filter-icon.png) 位置设置筛选条件，以仅显示对您而言重要的目标。
+1. 单击目标列表右上角的过滤器图标![](assets/filter-icon.png)，并应用过滤器以仅显示对您很重要的目标。
 
-   有关在Workfront目标中使用过滤器的信息，请参阅 [在Adobe Workfront目标中过滤信息](../goal-management/filter-information-wf-goals.md).
+   有关在Workfront目标中使用过滤器的信息，请参阅[Adobe Workfront目标中的过滤信息](../goal-management/filter-information-wf-goals.md)。
 
 1. 单击列标题中的任何字段，以按该字段对列表进行排序。
 字段右侧显示一个箭头，按此箭头对列表进行排序。
@@ -243,10 +243,10 @@ ht-degree: 2%
 1. （可选）再次单击列中的字段以对同一列进行降序排序。
 1. 单击目标的名称以打开目标的页面。
 1. 在列表中选择一个目标，然后单击列表顶部的以下选项之一：
-   * **编辑** 图标 ![](assets/edit-icon.png) 以编辑有关目标的信息。 有关信息，请参阅 [在Adobe Workfront目标中编辑目标](../goal-management/edit-goals.md).
-   * **共享** 图标 ![](assets/share-icon.png) 与其他人共享目标。 有关信息，请参阅 [在Adobe Workfront目标中共享目标](../workfront-goals-settings/share-a-goal.md).
-   * **打开对齐方式** 图标 ![](assets/align-icon-unshimmed.png) 以打开“目标对齐方式”区域。 仅当所选目标与其他目标对齐时，才会显示此选项。
-   * **删除** 图标 ![](assets/delete-icon.png) 要删除目标，请单击 **删除** 以确认。  有关信息，请参阅 [删除和停用Adobe Workfront目标中的目标](../goal-management/delete-and-deactivate-goals.md).
+   * **编辑**&#x200B;图标![](assets/edit-icon.png)以编辑有关目标的信息。 有关信息，请参阅[在Adobe Workfront目标中编辑目标](../goal-management/edit-goals.md)。
+   * **共享**&#x200B;图标![](assets/share-icon.png)以与其他人共享目标。 有关信息，请参阅[在Adobe Workfront目标中共享目标](../workfront-goals-settings/share-a-goal.md)。
+   * **打开对齐方式**&#x200B;图标![](assets/align-icon-unshimmed.png)以打开目标对齐方式区域。 仅当所选目标与其他目标对齐时，才会显示此选项。
+   * **删除**&#x200B;图标![](assets/delete-icon.png)以删除目标，然后单击&#x200B;**删除**&#x200B;以确认。  有关信息，请参阅[删除和停用Adobe Workfront目标中的目标](../goal-management/delete-and-deactivate-goals.md)。
 
 
 

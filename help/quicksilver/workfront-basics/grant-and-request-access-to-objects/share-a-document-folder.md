@@ -2,32 +2,31 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 共享文档文件夹
-description: 您可以从“文档”区域共享文件夹及其内容。
+description: 您可以从文档区域共享文件夹及其内容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # 共享文档文件夹
 
-您可以从“文档”区域共享文件夹及其内容。
+您可以从文档区域共享文件夹及其内容。
 
 >[!NOTE]
 >
->* 文件夹必须位于对象上文件夹层次结构的前五级中。 第六级或以下级别的每个文件夹，都会从其正上方的文件夹继承其共享配置。
+>* 文件夹必须位于对象上文件夹层次结构的前五个级别中。 第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。
 >
->  有关添加子文件夹以创建文件夹层次结构的信息，请参阅部分 [创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders) 在文章中 [创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md).
+>  有关添加子文件夹以创建文件夹层次结构的信息，请参阅文章[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)中的[创建文件夹和子文件夹](../../documents/organizing-documents/create-documents-folder.md#creating-folders)部分。
 >
 >* 无法共享智能文件夹。
->* 如果为模板中的文档文件夹配置共享选项，然后有人从该模板创建项目，则您的共享配置不会传输到新项目中的文档文件夹。
+>* 如果为模板中的文档文件夹配置共享选项，然后有人从该模板创建项目，则共享配置不会传输到新项目中的文档文件夹。
 >* 如果为工作项中的文档文件夹配置共享选项，然后复制该工作项，则共享配置不会转移到新工作项中的文档文件夹。
 >
-
 
 ## 访问要求
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 </table>
 -->
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,39 +70,39 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审阅或更高版本</p> </td> 
+   <td> <p>审核或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看文档访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员，他们是否在您的访问级别设置了其他限制。 有关Workfront管理员如何修改访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看对文档的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看对对象的访问</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>查看对对象的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 共享文件夹
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **文档**.
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**文档**。
 
    或
 
-   打开Workfront对象后，单击 **文档** 中。
+   打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
-1. 选择文件夹，然后单击共享图标 ![](assets/share-icon.png) 中。
+1. 选择文件夹，然后单击工具栏中的共享图标![](assets/share-icon.png)。
 
-   文件夹必须位于对象上文件夹层次结构的前五级中，并且不能是智能文件夹。
+   文件夹必须位于对象上文件夹层次结构的前五个级别中，并且不能是智能文件夹。
 
-1. 在显示的框中，在 **授予文件夹访问权限**，开始键入要与其共享文件夹的用户、团队、作业角色、组或公司的名称，然后按 **输入** 显示名称时。
-1. 要调整您刚才添加的用户、团队、工作角色、组或公司的访问权限，请单击名称右侧的下拉菜单，然后配置以下可用选项之一及其任何高级设置：
+1. 在显示的框中，在&#x200B;**将文件夹访问权限授予**&#x200B;下，开始键入要与其共享文件夹的用户、团队、工作角色、组或公司的名称，然后在名称显示时按&#x200B;**Enter**。
+1. 要调整您刚刚添加的用户、团队、工作角色、组或公司的访问权限，请单击名称右侧的下拉菜单，然后配置以下任一可用选项及其任何高级设置：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -111,28 +110,28 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">查看它</td> 
-      <td> <p>能够查看文件夹及其内容。</p> <p>单击 <strong>高级设置</strong> 要指定是否允许执行以下操作：</p> 
+      <td> <p>能够查看文件夹及其内容。</p> <p>单击<strong>高级设置</strong>以指定是否允许以下设置：</p> 
        <ul> 
-        <li><strong>下载</strong>:能够将文件夹及其内容下载为ZIP文件</li> 
-        <li> <p><strong>共享</strong>:能够与系统中的其他人共享文件夹</p> </li> 
+        <li><strong>下载</strong>：能够将文件夹及其内容下载为ZIP文件</li> 
+        <li> <p><strong>共享</strong>：能够与系统中的其他人共享文件夹</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">管理它</td> 
-      <td> <p>能够查看和编辑文件夹及其内容</p> <p>单击 <strong>高级设置</strong> 要指定是否允许用户执行以下操作：</p> 
+      <td> <p>能够查看和编辑文件夹及其内容</p> <p>单击<strong>高级设置</strong>以指定是否允许用户执行以下操作：</p> 
        <ul> 
-        <li><strong>删除</strong>:从系统中删除文件夹及其内容</li> 
-        <li><b>下载</b>:将文件夹及其内容下载为ZIP文件</li> 
-        <li><strong>共享</strong>:与系统中的其他用户共享文件夹及其内容</li> 
+        <li><strong>删除</strong>：从系统中删除文件夹及其内容</li> 
+        <li><b>下载</b>：以ZIP文件格式下载文件夹及其内容</li> 
+        <li><strong>共享</strong>：与系统中的其他用户共享文件夹及其内容</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （可选）重复步骤3-4以向列表添加其他名称并配置其选项。
-1. （可选）如果您希望系统中的每个人都能够查看文件夹及其内容，请单击齿轮图标 ![](assets/gear-icon-settings-with-dn-arrow.jpg) ，然后单击 **在系统范围内显示此内容。**
+1. （可选）重复步骤3 - 4以向列表中添加其他名称并配置其选项。
+1. （可选）如果希望系统中的每个人都可以查看文件夹及其内容，请单击共享框右上角的齿轮图标![](assets/gear-icon-settings-with-dn-arrow.jpg)，然后单击&#x200B;**使其在系统范围内可见。**
 
-   如果您改变主意，可以单击 **删除系统范围的访问** （默认选项）。
+   如果您改变主意，可以单击&#x200B;**删除系统范围访问权限**（默认选项）。
 
 ## 用户如何访问与其共享的文件夹的内容
 
@@ -140,9 +139,9 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
-当前，当您共享文件夹时，收件人在其“文档”区域中看不到该文件夹。 但是，他们可以通过运行文档报告来访问其文档。
+目前，当您共享文件夹时，收件人在其“文档”区域中看不到该文件夹。 但是，他们可以通过运行文档报告来访问其文档。
 
-有关运行报表的信息，请参阅 [对象报告](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 在文章中 [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 另请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关运行报表的信息，请参阅[了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一文中的[对象报表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)部分。 另请参阅[创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -156,22 +155,22 @@ ht-degree: 0%
 </div>
 -->
 
-## 共享包含文件夹的对象时的继承权限
+## 共享包含文件夹的对象时继承的权限
 
-当您共享包含文档文件夹的对象时，收件人也可以访问该文件夹：
+当您共享具有文档文件夹的对象时，收件人还可以访问该文件夹：
 
-* 如果您向收件人授予对父对象的“查看”访问权限，则他们对文件夹具有“查看”访问权限。
-* 如果您向收件人授予对父对象的Contribute或Manage访问权限，则他们对文件夹具有Manage访问权限。
-* 如果您向父对象授予一种访问类型（“查看”、“贡献”或“管理”），而向文件夹授予另一种访问类型，则收件人对文件夹中文档的这两种访问类型中具有最高权限
+* 如果您授予收件人查看父对象的权限，则他们将拥有对文件夹的查看权限。
+* 如果您授予收件人Contribute或管理权限以访问父对象，则他们将拥有对文件夹的管理访问权限。
+* 如果您向父对象授予一种类型的访问权限(查看、Contribute或管理)，向文件夹授予另一种类型的访问权限，则收件人对该文件夹中的文档具有这两种类型中最高的访问权限
 
-   例如，如果您共享具有“查看”访问权限的父对象和具有“管理”访问权限的文件夹，则收件人对文件夹中的文档具有“管理”权限。
+  例如，如果您共享具有“查看”访问权限的父对象，而文件夹具有“管理”访问权限，则收件人对该文件夹中的文档具有“管理”权限。
 
-   >[!NOTE]
-   >
-   >附加的文档仅从其附加对象继承权限。 如果在对象上创建文件夹并将文档移动到该文件夹中，则会继承文件夹的权限。 但是，如果在父对象或父对象上创建文件夹，并将文档移入该文件夹，则它不会继承该文件夹的权限。
+  >[!NOTE]
+  >
+  >附加的文档仅从其附加的对象继承权限。 如果在对象上创建文件夹并将文档移动到该文件夹中，它会继承该文件夹的权限。 但是，如果您在父对象或祖父对象上创建文件夹，并将文档移动到该文件夹中，则它不会继承该文件夹的权限。
 
-* 如果在收件人的访问级别中启用了“从不从项目、任务、问题等继承文档访问权限”选项，则收件人将不会继承您与他们共享的文件夹中文档的权限。 要授予他们访问文件夹中文档的权限，必须共享该文档。
+* 如果在收件人的访问级别中启用了“从不从项目、任务、问题等继承文档访问权限”选项，则他们不会继承您与他们共享的文件夹中文档的权限。 要授予他们访问文件夹中文档的权限，您必须共享该文档。
 
-   有关“从不继承”选项的信息，请参阅 [配置对Adobe Workfront的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+  有关“从不继承”选项的信息，请参阅[配置对Adobe Workfront的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)。
 
-   有关共享文档的信息，请参阅 [共享文档](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+  有关共享文档的信息，请参阅[共享文档](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)。

@@ -23,13 +23,13 @@ ht-degree: 0%
 </div>
 -->
 
-您可以使用Adobe Workfront资源管理工具来预测资源的分配，以便准确了解项目是否按时、按预算交付。 有关Workfront中资源管理的概述，请参阅 [资源管理入门](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+您可以使用Adobe Workfront资源管理工具来预测资源的分配，以便准确了解项目是否按时、按预算交付。 有关Workfront中资源管理的概述，请参阅[资源管理入门](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)。
 
 您可以使用资源计划工具来管理您的工作角色、工作角色的可用性以及基于此可用性的项目常规分配。
 
 预算用户对项目的一般分配不会为他们分配实际工作（任务和问题）。 您必须使用工作负载均衡器分配要使用的资源。
 
-有关使用工作负载均衡器在Workfront中计划资源的更多信息，请参阅 [工作负载均衡器概述](../workload-balancer/overview-workload-balancer.md).
+有关使用工作负载均衡器在Workfront中计划资源的更多信息，请参阅[工作负载均衡器概述](../workload-balancer/overview-workload-balancer.md)。
 
 ## Workfront中的资源规划工具
 
@@ -39,19 +39,19 @@ ht-degree: 0%
 
   您可以通过转到资源区域中的Planner部分来访问资源规划者。
 
-  有关资源规划者的信息，请参见 [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  有关资源规划者的信息，请参阅[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-* 对于单个项目的预算分配：在项目的业务案例的资源预算区域中使用项目层资源规划者。 有关为一个项目编制资源预算的信息，请参阅文章 [业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* 对于单个项目的预算分配：在项目的业务案例的资源预算区域中使用项目层资源规划者。 有关为一个项目预算资源的信息，请参阅文章[商业案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-  要根据通用技能或部门结构管理用户并将他们组织到池中，然后管理他们分配给项目的分配，您必须创建资源池。 有关创建资源池的详细信息，请参见 [创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  要根据通用技能或部门结构管理用户并将他们组织到池中，然后管理他们分配给项目的分配，您必须创建资源池。 有关创建资源池的详细信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
   >[!TIP]
   >
   >项目的资源预算区域是项目层的资源规划者。 在项目的业务案例中预算资源时，该信息也会反映在系统级别资源规划者中。
 
-* 要在高级别跨多个计划管理资源，并使您的工作与贵组织的战略保持一致，请使用Adobe Workfront Scenario Planner。 Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 [Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md).
+* 要在高级别跨多个计划管理资源，并使您的工作与贵组织的战略保持一致，请使用Adobe Workfront Scenario Planner。 Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md)。
 
-  您可以在系统层、多个项目中使用资源规划者，也可以在业务案例的资源预算区域中为单个项目预算资源。 有关业务案例中项目预算资源的更多信息，请参阅 [业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  您可以在系统层、多个项目中使用资源规划者，也可以在业务案例的资源预算区域中为单个项目预算资源。 有关业务案例中项目预算资源的详细信息，请参阅业务案例中的[预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 ## 资源规划工具的用途
 
@@ -61,11 +61,11 @@ ht-degree: 0%
    * 根据用户计划了解资源的可用性。
    * 为资源（用户和职位角色）分配项目的预算小时、FTE或成本分配。
 
-  有关使用资源规划者的信息，请参阅文章 [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  有关使用资源规划者的信息，请参阅文章[资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-* 使用Scenario Planner，您可以跨多个计划构建企业级计划，这些计划概述公司的总体战略成果。 有关更多信息，请参阅 [Scenario Planner入门](../../scenario-planner/get-started-with-scenario-planning.md).
+* 使用Scenario Planner，您可以跨多个计划构建企业级计划，这些计划概述公司的总体战略成果。 有关详细信息，请参阅[Scenario Planner入门](../../scenario-planner/get-started-with-scenario-planning.md)。
 
-  Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 [Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

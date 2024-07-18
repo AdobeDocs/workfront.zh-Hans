@@ -2,71 +2,70 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視與分組：顯示依分組中平均值彙總的專案實際期間」
-description: 您可以在專案報告中新增下列欄，以顯示群組內彙總為平均值的實際持續時間。
+title: '查看和分组：显示按分组中的平均值汇总的项目实际持续时间'
+description: 您可以在项目报表中添加以下列，以显示作为分组中平均值聚合的实际持续时间。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# 檢視與分組：顯示依分組中平均值彙總的專案實際期間
+# 查看和分组：显示按分组中的平均值汇总的项目实际持续时间
 
-您可以在專案報告中新增下列欄，以顯示群組內彙總為平均值的實際持續時間。
+您可以在项目报表中添加以下列，以显示作为分组中平均值聚合的实际持续时间。
 
 ![project_with_aggregate_actual_duration_in_grouping_view.png](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 顯示依分組中平均值彙總的專案實際持續時間
+## 显示按分组中的平均值汇总的项目实际持续时间
 
-若要將此欄新增至專案檢視：
+要将此列添加到项目视图，请执行以下操作：
 
-1. （建議）為獲得最佳結果並檢視實際期間的總和平均值，您必須將分組新增到專案清單或報告中。\
-   如需有關建立群組的詳細資訊，請參閱文章 [Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+1. （推荐）为获得最佳结果并查看实际持续时间的汇总平均值，您必须将分组添加到项目列表或报表。\
+   有关创建分组的更多信息，请参阅Adobe Workfront中的[分组概述](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)一文。
 
-1. 前往現有的專案檢視。
-1. 展開「檢視」下拉式功能表，然後選取「 」 **自訂檢視**.
-1. 按一下 **新增欄**.
-1. 按一下 **切換至文字模式**.
-1. 將滑鼠移至 **顯示在此欄中** 區域，然後按一下 **按一下以編輯文字**.
+1. 转到现有项目视图。
+1. 展开“视图”下拉菜单，然后选择&#x200B;**自定义视图**。
+1. 单击&#x200B;**添加列**。
+1. 单击&#x200B;**切换到文本模式**。
+1. 将鼠标悬停在此列&#x200B;**区域中的**&#x200B;显示上，然后单击&#x200B;**单击以编辑文本**。
 
-1. 移除「文字模式」方塊中的所有文字，並以下列程式碼取代：
+1. 删除“文本模式”框中的所有文本，然后将其替换为以下代码：
+   <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=项目实际持续时间<br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualDuration <br>namication nameactualduration namicationNamouration nameargage=actualduration nameactual实际持续时间{1实际持续时间<br>querysortActual{1Actualquerysort{querysort DurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=compound#M：D <br>viewalias=actualduration</pre>
 
-   <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=專案實際持續時間 <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=compound#M：D <br>viewalias=actualduration</pre>
-
-1. 按一下 **儲存檢視**.
+1. 单击&#x200B;**保存视图**。

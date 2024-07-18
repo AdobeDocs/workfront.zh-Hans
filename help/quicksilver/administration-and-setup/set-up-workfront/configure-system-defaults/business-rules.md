@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,20 +65,20 @@ ht-degree: 0%
 
 业务规则的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
 
-业务规则中属性和其他函数的语法与自定义表单中计算字段的语法相同。 有关语法的更多信息，请参见 [使用表单设计器添加计算字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+业务规则中属性和其他函数的语法与自定义表单中计算字段的语法相同。 有关语法的详细信息，请参阅[使用表单设计器添加计算字段](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
-有关IF语句的信息，请参见 [“IF”语句概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 和 [计算自定义字段中的条件运算符](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+有关IF语句的信息，请参阅计算自定义字段中的[&quot;IF&quot;语句概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)和[条件运算符](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-有关基于用户的通配符的信息，请参见 [使用基于用户的通配符对报告进行归纳](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+有关基于用户的通配符的信息，请参阅[使用基于用户的通配符来泛化报表](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)。
 
-有关基于日期的通配符的信息，请参阅 [使用基于日期的通配符对报表进行泛化](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+有关基于日期的通配符的信息，请参阅[使用基于日期的通配符来泛化报表](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
 
-业务规则中还提供了API通配符。 您可以使用 `$$ISAPI` 仅在UI中或仅在API中触发规则。
+业务规则中还提供了API通配符。 您只能在UI或API中使用`$$ISAPI`来触发规则。
 
 一些简单的业务规则方案包括：
 
-* 用户无法在2月的最后一周添加新费用。 该公式可表述为： `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* 用户无法编辑处于完成状态的项目。 该公式可表述为： `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* 用户无法在2月的最后一周添加新费用。 此公式可以表示为：`IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 用户无法编辑处于完成状态的项目。 此公式可以表示为：`IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 具有嵌套IF语句的情形是：
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. 单击 **业务规则** 在左侧面板中。
-1. 单击 **新业务规则**.
-1. 选择要为其分配业务规则的对象类型，然后单击 **继续**.
+1. 单击左侧面板中的&#x200B;**业务规则**。
+1. 单击&#x200B;**新建业务规则**。
+1. 选择要为其分配业务规则的对象类型，然后单击&#x200B;**继续**。
 
    ![选择对象](assets/object-for-business-rule2.png)
 
-1. 键入 **名称** 用于业务规则。
-1. 在 **处于活动状态** 字段中，选择保存规则时该规则是否应处于活动状态。
+1. 键入业务规则的&#x200B;**名称**。
+1. 在&#x200B;**处于活动状态**&#x200B;字段中，选择保存规则时该规则是否应处于活动状态。
 
-   如果您选择 **否**，则规则将另存为不活动，您可以稍后激活它。
+   如果您选择&#x200B;**否**，则规则将保存为非活动，您可以稍后激活它。
 
-1. 选择 **触发器** 用于业务规则。 选项包括：
+1. 为业务规则选择&#x200B;**触发器**。 选项包括：
 
-   * **创建对象时：** 该规则在用户尝试创建对象时应用。
-   * **在对象编辑时：** 该规则在用户尝试编辑对象时应用。
-   * **对象删除时：** 该规则在用户尝试删除对象时应用。
+   * **创建对象时：**&#x200B;用户尝试创建对象时应用该规则。
+   * **在对象编辑时：**&#x200B;当用户尝试编辑对象时，将应用规则。
+   * **对象删除时：**&#x200B;用户尝试删除对象时应用该规则。
 
-1. （可选）输入 **描述** 以及应用时会发生什么情况。
+1. （可选）输入业务规则的&#x200B;**描述**&#x200B;以及应用时会发生什么情况。
 1. 在业务规则对话框中心的公式编辑器中构建公式。
 
    业务规则的格式为“如果满足定义的条件，则禁止用户对该对象执行操作，并显示消息。”
@@ -131,15 +131,15 @@ IF(
 
    此示例是费用的业务规则。 如果本月是六月，则不允许用户创建新费用，并且消息将对此进行说明。
 
-   有关业务规则的更多示例，请参阅 [业务规则方案](#scenarios-for-business-rules) 本文章中。
+   有关业务规则的更多示例，请参阅本文中的[业务规则的方案](#scenarios-for-business-rules)。
 
-1. （可选）使用公式 **表达式** 和 **字段** 帮助构建规则的右侧面板中。
+1. （可选）使用右侧面板中的公式&#x200B;**表达式**&#x200B;和&#x200B;**字段**&#x200B;帮助构建规则。
 
    搜索表达式或字段以缩小可用项列表。
 
    可用字段列表仅限于与业务规则对象类型相关的字段。
 
-1. 单击 **保存** 在您完成业务规则构建之后。
+1. 完成业务规则构建后，单击&#x200B;**保存**。
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ IF(
 要激活业务规则，请执行以下操作：
 
 1. 在规则列表中选择业务规则并单击编辑图标。
-1. 选择 **是** 对象 **处于活动状态** 在业务规则对话框中。
+1. 在业务规则对话框中，为&#x200B;**处于活动状态**&#x200B;选择&#x200B;**是**。
 1. 单击&#x200B;**保存**。

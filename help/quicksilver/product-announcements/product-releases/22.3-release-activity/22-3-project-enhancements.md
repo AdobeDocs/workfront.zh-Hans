@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3项目增强功能
 
-本页介绍了22.3版本对“预览”环境所做的所有项目增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本页介绍了22.3版本对“预览”环境所做的所有项目增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 休假工作委派
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >只有拥有“审阅”或更高许可证的用户才能将其工作委派给其他人。 可以将工作委派给任何用户，无论其访问级别如何。 委派的用户在委派项目上具有与被分派人相同的权限。 如果这些权限低于用户的访问级别配置，则委派的用户可能会无法在委派给他们的任务和问题上执行某些活动。
 
 
-有关更多信息，请参阅 [委派任务和问题概述](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+有关详细信息，请参阅[委派任务和问题概述](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md)。
 
 ## 将问题转化为任务时的新体验
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 * 在目标项目的“任务设置”区域中定义的默认自定义表单已添加到新任务。
 
 
-有关更多信息，请参阅 [在Adobe Workfront中将问题转化为任务](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+有关详细信息，请参阅[在Adobe Workfront中将问题转换为任务](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)。
 
 ## 在将问题转化为没有模板的项目时的新体验
 
@@ -62,19 +62,19 @@ ht-degree: 0%
 
 除了具有与新的Workfront体验其余部分相匹配的更新用户界面之外，我们还添加了将问题从列表或报告转换为空白项目的功能。
 
-有关更多信息，请参阅 [在Adobe Workfront中将问题转化为项目](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 更新流中的智能标记
 
 我们改进了您在创建新更新或回复现有更新时，在更新流中标记用户的功能。 现在，当您标记用户以将其包含在更新中时，除了其姓名和头像外，我们还显示了其主要角色和电子邮件。 这有助于区分具有相似或相同名称的多个用户。
 
-有关更多信息，请参阅 [为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+有关详细信息，请参阅[为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
 
 ## 自定义字段中计算的新语法
 
 为了准备可帮助您将计算添加到自定义表单的未来增强功能，我们已将您添加到计算的引用字段的语法标准化。 使用此新语法很容易，因为当您开始键入字段名称并选择它时，系统会为您输入此语法。
 
-有关更多信息，请参阅 [文章将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关详细信息，请参阅[将计算数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的“为计算自定义字段构建计算”部分。
 
 ## 在审批流程中涉及具有共同角色的两个用户时保留准确的信息
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 在此更改之前，已为第二个用户记录两个批准，因为它们与第一个批准者共享一个批准角色。 在这种情况下，第二个批准者将覆盖第一个批准者的信息。
 
-有关Workfront中审批流程的详细信息，请参阅 [审批流程概述](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+有关Workfront中审批流程的详细信息，请参阅[审批流程概述](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md)。
 
 ## 对分配进行更改时，不再删除分配小时数
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 * 删除用户时，会保留角色上的各个分配分配。 (已从版本中删除。 现在，计划小时数在删除所有被分配人后将设置为0。)
 
 
-有关计划小时数的详细信息，请参阅 [计划小时数概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+有关计划小时数的详细信息，请参阅[计划小时数概述](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)。
 
 ## 展示板增强功能
 
@@ -131,7 +131,7 @@ Adobe Workfront展示板中添加了以下增强功能：
 * 字段更新指示器 — 现在，当您保存信息卡时，会显示一个指示器，以确认您的更新已保存。
 
 
-有关更多信息，请参阅 [Adobe Workfront中的讨论区入门](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+有关详细信息，请参阅[Adobe Workfront中的讨论区入门](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md)。
 
 ## 仅在文件夹层次结构的前五个级别中共享文件夹
 
@@ -139,13 +139,13 @@ Adobe Workfront展示板中添加了以下增强功能：
 
 第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。
 
-有关共享文件夹的详细信息，请参阅 [共享顶级文档文件夹](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+有关共享文件夹的详细信息，请参阅[共享顶级文档文件夹](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-## Workfront Campaigns （测试版） — 一种管理您的工作的新方法
+## Workfront Campaigns (Beta) — 一种管理您的工作的新方法
 
 >[!NOTE]
 >
->此功能计划于2023年1月9日从预览中删除。 欲了解更多信息，请参见 [23.1发行版概述页面](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>此功能计划于2023年1月9日从预览中删除。 有关详细信息，请参阅[23.1版本概述页面](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Adobe Workfront展示板中添加了以下增强功能：
 
 * 名为Campaign的新Workfront对象
 
-* 主菜单中的新营销活动（测试版）区域
+* 主菜单中的新营销活动(Beta)区域
 
 * 营销活动区域中的营销活动列表
 
@@ -176,7 +176,7 @@ Adobe Workfront展示板中添加了以下增强功能：
 
 * 能够从布局模板重命名Campaign对象
 
-  Workfront系统和组管理员可以在布局模板的主菜单中添加Campaigns（测试版）区域。 这使得分配给模板的所有用户都可使用该模板。 在活动可用后，Workfront中的每个人都可以创建该活动。
+  Workfront系统和组管理员可以在布局模板的主菜单中添加营销活动(Beta)区域。 这使得分配给模板的所有用户都可使用该模板。 在活动可用后，Workfront中的每个人都可以创建该活动。
 
 
 

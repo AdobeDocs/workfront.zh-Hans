@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年10月4日开始的一周
-description: Workfront Fusion发行活动：&nbsp；2021年10月4日开始的一周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年10月4日开始的一周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年10月4日开始的一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年10月4日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 查看“Workfront”>“观看活动”模块中的现有活动过滤器
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 以前，用户在设置webhook时只能查看事件过滤器，并且在现有Workfront >关注事件模块中无法查看过滤器。
 
-有关更多信息，请参阅 [Workfront >关注活动模块中的活动订阅过滤器](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) 在 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)中的Adobe Workfront >观看活动模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event)中的[活动订阅筛选器。
 
 ## 使用Workfront >创建记录和更新记录模块将自定义表单附加到Workfront对象
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 以前，您可以在自定义表单的字段中输入值，但它们不是按表单组织的，并且可能很难找到。
 
-有关更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 ## 在Workfront Fusion创建的评论和自定义字段中使用富文本
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 以前，富文本只能通过Workfront本身或Workfront API添加到评论或自定义字段中。
 
-有关“创建记录”和“更新记录”模块的详细信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关创建记录和更新记录模块的详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
-有关评论或自定义字段中提供的富文本的详细信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关评论或自定义字段中可用富文本的详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

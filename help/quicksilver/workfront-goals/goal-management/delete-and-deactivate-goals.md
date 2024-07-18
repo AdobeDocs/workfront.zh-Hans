@@ -54,7 +54,7 @@ ht-degree: 0%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>访问级别</p></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 取消激活目标
 
@@ -90,14 +90,14 @@ ht-degree: 0%
 
 停用目标时，请记住以下事项：
 
-* 您只能停用处于活动状态的目标。 有关激活目标的信息，请参阅 [在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md).
+* 您只能停用处于活动状态的目标。 有关激活目标的信息，请参阅[在Adobe Workfront目标中激活目标](../../workfront-goals/goal-management/activate-goals.md)。
 
   >[!TIP]
   >
   >您无法取消激活处于草稿状态的目标。
 
 * Workfront停止计算已停用目标的进度。
-* 非活动目标不再显示于Workfront目标上，或者在“图形”部分中将考虑这些目标。 有关Workfront目标图形的信息，请参阅 [查看图表以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* 非活动目标不再显示于Workfront目标上，或者在“图形”部分中将考虑这些目标。 有关Workfront目标图形的信息，请参阅[查看图形以了解Adobe Workfront目标中的目标进度趋势](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)。
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 图标，然后单击 **目标**.
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    此时将显示目标列表。
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. （可选）修改筛选器以仅显示处于活动状态的目标。
 
-   有关在Workfront目标中过滤信息的信息，请参阅 [在Adobe Workfront目标中过滤信息](../goal-management/filter-information-wf-goals.md).
+   有关在Workfront目标中过滤信息的信息，请参阅[在Adobe Workfront目标中过滤信息](../goal-management/filter-information-wf-goals.md)。
 
 1. 单击活动目标。
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 单击 **更多** 菜单 ![](assets/more-icon.png) 目标名称的右侧，然后单击 **取消激活**.
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**停用**。
 
 1. 目标已停用，其状态变为不活动。
 
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 单击主菜单图标 ![](assets/main-menu-icon.png) 图标，然后单击 **目标**.
+1. 单击右上角的主菜单图标![](assets/main-menu-icon.png)，然后单击&#x200B;**目标**。
 
    此时将显示目标列表。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 单击目标的名称。 这将打开目标页面。
-1. 单击 **更多** 菜单 ![](assets/more-icon.png) 目标名称的右侧，然后单击 **删除目标**，则 **删除**.
+1. 单击目标名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**删除目标**，然后单击&#x200B;**删除**。
 
    目标及其活动和结果也会被删除并且无法恢复。 不会删除与一个或多个子目标关联的项目。
 

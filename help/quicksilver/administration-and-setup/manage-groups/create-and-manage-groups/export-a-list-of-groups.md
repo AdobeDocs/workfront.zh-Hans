@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 导出组列表
-description: 查看您管理的群组时，可以导出这些群组的列表。
+description: 查看您管理的组时，可以导出这些组的列表。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 导出组列表
 
-查看您管理的群组时，可以导出这些群组的列表。
+查看您管理的组时，可以导出这些组的列表。
 
-如果您管理的组上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员（对于任何组）也是如此。
+如果您管理的组之上有任何组，则其管理员也可以为您的组执行此操作。 Workfront管理员也是如此（适用于任何组）。
 
 ## 访问要求
 
@@ -31,27 +31,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront计划*</td> 
-   <td>任意</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关更多信息，请参阅 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a> 和 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>.</p> </td> 
+   <td> <p>计划 </p> <p>您必须是组的组管理员或Workfront管理员。 有关详细信息，请参阅<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">组管理员</a>和<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果您需要了解您拥有的计划或许可证类型，请联系您的Workfront管理员。
+&#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
-1. 单击 **主菜单** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角，单击 **设置** ![](assets/gear-icon-settings.png).
+1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
 
-1. 在左侧面板中，单击 **群组** ![](assets/groups-icon.png).
+1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
-   在显示的列表中，您可以看到您管理的群组，以及这些群组拥有的任何子组。 Adobe Workfront管理员可以查看所有组。
+   在显示的列表中，您可以看到您管理的组以及它们具有的任何子组。 Adobe Workfront管理员可以查看所有组。
 
-1. 如果要导出您管理的整个组，请单击导出图标 ![](assets/export.png).
+1. 如果要导出您管理的整个组组，请单击“导出”图标![](assets/export.png)。
 
    或
 
-   要导出您管理的某些组，请选择这些组，然后单击导出图标 ![](assets/export.png).
+   要导出您管理的某些组，请选择这些组，然后单击导出图标![](assets/export.png)。
 
 1. 为导出的列表选择所需的文件格式。

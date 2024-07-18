@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「檢視：在欄中顯示影像而非字串」
-description: 您可以使用文字模式將檢視中的物件名稱取代為影像。 您也可以將連結新增至影像，以開啟取代的物件。
+title: '视图：显示图像而不是列中的字符串'
+description: 您可以使用文本模式将视图中对象的名称替换为图像。 您还可以添加指向图像的链接，该链接可以打开它替换的对象。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
@@ -14,76 +14,75 @@ ht-degree: 0%
 
 ---
 
-# 檢視：在欄中顯示影像而非字串
+# 视图：在列中显示图像而不是字符串
 
-您可以使用文字模式將檢視中的物件名稱取代為影像。 您也可以將連結新增至影像，以開啟取代的物件。
+您可以使用文本模式将视图中对象的名称替换为图像。 您还可以添加指向图像的链接，该链接可以打开它替换的对象。
 
 >[!NOTE]
 >
->影像會以實際解析度顯示，因此請嘗試使用小型影像。
+>图像以实际分辨率显示，因此请尝试使用小图像。
 
 ![](assets/replace-project-name-with-image-and-link-350x125.png)
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront计划*</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>請求修改檢視 </p>
-   <p>計畫修改報告</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td> <p>请求修改视图 </p>
+   <p>计划修改报告</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>編輯報告、儀表板、行事曆的存取權以修改報告</p> <p>編輯對篩選器、檢視、群組的存取權以修改檢視</p> <p><b>注释</b>
+   <td role="rowheader">访问级别配置*</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改视图</p> <p><b>注释</b>
 
-如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需有關Workfront管理員如何修改您的存取層級的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">物件許可權</td> 
-   <td> <p>管理報表的許可權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td role="rowheader">对象权限</td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 範例：以影像取代專案檢視中的專案名稱：
+## 示例：将项目视图中项目的名称替换为图像：
 
-1. 將影像上傳至Adobe Workfront外部的網站或伺服器。 您必須能夠使用網頁瀏覽器存取影像。
+1. 将图像上传到Adobe Workfront外部的网站或服务器。 您必须能够使用Web浏览器访问图像。
 
    >[!TIP]
    >
-   >* 每種瀏覽器型別都不同，但都能顯示URL。
-   >* 避免使用上傳至Workfront的影像。 由於儲存在Workfront中的影像無法公開使用，且存取金鑰在一段時間後過期，因此這些影像會隨著時間停止顯示在檢視中。
-   >* 儲存在您電腦上的影像沒有固有的URL。 尋找提供影像託管的網站，並在該處託管您的影像。 您的組織可能已經擁有這類網站。
+   >* 每种浏览器类型各不相同，但都能够显示URL。
+   >* 避免使用上载到Workfront的图像。 由于存储在Workfront中的图像不是公开可用的，并且其访问密钥会在一段时间后过期，因此这些图像会随着时间的推移停止显示在视图中。
+   >* 保存在计算机上的图像没有固有URL。 查找提供图像托管的网站，并在该网站上托管您的图像。 您的组织可能已经拥有此类站点。
 
-
-1. 使用您的網頁瀏覽器，前往您儲存的影像。
-1. 執行下列操作來取得影像的URL：
+1. 使用Web浏览器，转到您保存的图像。
+1. 通过执行以下操作获取图像的URL：
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. 按一下右鍵並選取 **複製影像位置**，或 **取得連結**，視您的瀏覽器而定。 您現在擁有該特定影像的URL，並可從剪貼簿中貼上。
-   1. 確保具有該連結的每個人只要前往該連結，就能擁有檢視影像的許可權，而且他們不需要登入即可存取該連結。
+   1. 右键单击并选择&#x200B;**复制图像位置**&#x200B;或&#x200B;**获取链接**，具体取决于您的浏览器。 现在，您拥有该特定图像的URL，并且可以从剪贴板中粘贴该URL。
+   1. 确保具有该链接的所有人都有权查看图像，只需转到该链接即可，无需登录即可访问。
 
-1. 前往專案，按一下 **更多** 功能表 ![](assets/more-icon-45x33.png) 在專案名稱旁邊，然後按一下 **編輯**.
+1. 转到某个项目，单击该项目名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/more-icon-45x33.png)，然后单击&#x200B;**编辑**。
 
-1. 在 **URL** 欄位中，新增影像的連結。
-1. 導覽至清單或報表中的專案檢視，並自訂檢視。
-1. 按一下欄的標題 **專案名稱**，然後按一下 **切換至文字模式**.
+1. 在&#x200B;**URL**&#x200B;字段中，添加指向该图像的链接。
+1. 导航到列表或报表中的项目视图，并自定义该视图。
+1. 单击&#x200B;**项目名称**&#x200B;的列标题，然后单击&#x200B;**切换到文本模式**。
 
-1. 將下列程式碼新增至現有程式碼的欄中：
+1. 将以下代码添加到现有代码的列中：
 
    ```
    displayname=Link Project
@@ -133,6 +132,6 @@ ht-degree: 0%
    valueformat=
    ```
 
-   您選取的影像會取代專案檢視中的「專案名稱」，而且該影像是專案的連結。
+   您选择的图像将替换项目视图中的项目名称，并且该图像是项目的链接。
 
-1. 按一下 **儲存檢視**.
+1. 单击&#x200B;**保存视图**。

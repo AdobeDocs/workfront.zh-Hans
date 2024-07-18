@@ -17,7 +17,7 @@ ht-degree: 1%
 
 作为资源管理器，您可以使用Adobe Workfront工作负载均衡器查看尚未分配给用户的工作项，并将这些项目分配给用户。
 
-有关工作负载均衡器的常规信息，请参见 [工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+有关工作负载均衡器的常规信息，请参阅[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 您可以将工作项（任务和问题）分配给Workfront其他区域中的用户。 但是，通过使用工作负载均衡器，您可以轻松了解用户的可用性，并在为他们分配更多工作之前清楚地看到他们分配到的所有其他项目。
 
@@ -41,13 +41,13 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
 
      这会计算用户的每日和每周可用性。 所选计划的任何计划例外都会反映在工作负载均衡器的用户容量中。
 
-  有关更多信息，请参阅 [配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  有关详细信息，请参阅[配置资源管理首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-  有关时间表的信息，请参阅 [创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  有关计划的信息，请参阅[创建计划](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * 用户的休息时间。 这指示用户计划起飞的日期。
 
-  有关更多信息，请参阅 [配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  有关详细信息，请参阅[配置个人休息时间](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * 用户的工作时间。 这表示用户可用于执行实际项目相关工作（不包括间接费用）的FTE时间百分比。 将“工作时间”值设置为1，表示用户可用于其整个全职等效项目相关工作。
 
@@ -62,26 +62,26 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
 
   在手动分配项目时，您可以一次分配一个项目，以进行“高级分配”。
 
-  有关更多信息，请参阅 [使用工作负载均衡器手动分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  有关详细信息，请参阅[使用工作负载均衡器手动分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)。
 
 * 通过将工作项拖放到需要分配的用户，逐项检查。
 
-  有关更多信息，请参阅 [通过拖放在工作负载均衡器中分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  有关详细信息，请参阅[通过拖放在工作负载均衡器中分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)。
 
 * 使用“批量分配”选项，一次分配多个项目。 您可以定义规则，通过规则一次将项目分配给多个用户。
 
-  有关更多信息，请参阅 [使用工作负载均衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  有关详细信息，请参阅[使用工作负载均衡器批量分配工作](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)。
 
-有关取消分配工作的信息，请参阅 [在工作负载均衡器中取消分配工作](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+有关取消分配工作的信息，请参阅[在工作负载均衡器](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消分配工作。
 
 ## 工作负载均衡器中的任务区域
 
-您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅 [找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+您可以在项目或团队级别使用“资源”区域的工作负载均衡器将工作分配给用户。 有关工作负载均衡器在Workfront中的位置的更多信息，请参阅[找到工作负载均衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 在工作负载均衡器中有两个区域可以查看工作项：
 
 * **未分配的工作**：显示未分配给用户的项目。
-* **已分派工作**：显示分配给用户的项目。
+* **已分配的工作**：显示已分配给用户的项目。
 
 下表描述了哪些项会根据其分配显示在每个区域中：
 
@@ -91,7 +91,7 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>任务类型</strong> </td> 
+   <td><strong>工作类型</strong> </td> 
    <td colspan="2"><strong>任务可见的区域</strong> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
    <td>已分派工作 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span style="font-weight: normal;">未分配项目</span> </td> 
+   <td><span style="font-weight: normal;">未分配项</span> </td> 
    <td><span>✔</span> </td> 
    <td> </td> 
   </tr> 
@@ -142,17 +142,17 @@ Workfront使用以下信息在工作负载均衡器中计算用户的容量：
  </tbody> 
 </table>
 
-&#42;将工作项分配给用户和角色后，仅当该角色是主要被分配人时，它才会显示在“未分配的工作”区域中。
+&#42;将工作项分配给用户和角色时，仅当该角色是主要被分配人时，它才会显示在“未分配的工作”区域中。
 
-&#42;&#42;将工作项分配给用户和另一个实体时，仅当用户是主要被分配人时，它才会显示在已分配的工作区域中。
+&#42;&#42;将工作项分配给用户和另一个实体时，仅当用户是主要被分配人时，它才会显示在“已分配的工作”区域中。
 
-有关工作负载均衡器的未分配和已分配区域的详细信息，请参见 [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+有关工作负载均衡器的未分配和已分配区域的详细信息，请参阅[导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
 ## 向工作角色、团队和用户进行多个分配的注意事项
 
 将多个资源分配给工作项时，请考虑以下事项：
 
-* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅 [编辑用户配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 用户可以有多个与其配置文件关联的工作角色。 有关将用户与工作角色关联的信息，请参阅[编辑用户的配置文件](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 任务或问题通常首先分配给一个或多个工作角色或团队。 当项目准备好开始时，可能需要将它们也分配给用户。\
   如果已将任务或问题分配给一个或多个角色，并且您还分配了用户，则Adobe Workfront将根据以下规则确定要与其他用户（如果有）关联的工作角色：

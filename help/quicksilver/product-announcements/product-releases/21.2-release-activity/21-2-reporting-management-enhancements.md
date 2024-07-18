@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2个报表增强功能
 
-本页介绍了21.2版本对“预览”环境所做的所有报表增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本可用的所有更改列表，请参阅 [21.2发行版概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+本页介绍了21.2版本对“预览”环境所做的所有报表增强。 这些增强功能将在2021年5月10日这一周的“生产”环境中提供。 有关21.2版本的所有可用更改列表，请参阅[21.2版本概述](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
 ## 限制在项目和报告中编辑小时
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 以前，在访问级别中启用时间表和小时数的用户可以编辑小时数。
 
-有关更多信息，请参阅 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关详细信息，请参阅[配置工时表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 更新列表和报告中“工作总揽”字段的新外观
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 新的“受限访问”图标
 * 其他次要设计更改
 
-有关列表中的工作分配的更多信息，请参阅 [分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 或 [分配问题](../../../manage-work/issues/manage-issues/assign-issues.md).
+有关列表中分配的更多信息，请参阅[分配任务](../../../manage-work/tasks/assign-tasks/assign-tasks.md)或[分配问题](../../../manage-work/issues/manage-issues/assign-issues.md)。
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 现在，当您单击预输入字段时，建议菜单会在您输入文本之前显示。
 * 建议菜单对值的长度更有响应，现在，当满足字符限制时，这些值会在末尾被截断，而不是在值中间被截断。
 
-有关更新的列表的信息，请参见 [已更新列表与旧列表之间的区别](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 部分内容 [开始使用Adobe Workfront中的列表](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+有关更新的列表的信息，请参阅文章[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的[更新列表与旧列表之间的差异](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)部分。
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -80,5 +80,5 @@ ht-degree: 0%
 
 以前，您只能通过Workfront API报告系统更新。
 
-要了解有关此报告及其用途的更多信息，请参阅 [报告更新区域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+要了解有关此报告及其用途的更多信息，请参阅[更新区域的报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)。
 

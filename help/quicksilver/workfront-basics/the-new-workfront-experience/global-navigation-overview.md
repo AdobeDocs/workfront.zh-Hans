@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: 顶部导航栏概述
-description: 顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront]  — 可让您轻松查找并导航到平台的其他区域。
+description: 顶部导航栏（显示在 [!DNL Adobe Workfront] 中的屏幕顶部）允许您轻松查找并导航到平台的其他区域。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
@@ -16,73 +16,73 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-顶部导航栏 — 显示在屏幕顶部的 [!DNL Adobe Workfront]  — 可让您轻松查找并导航到平台的其他区域。
+顶部导航栏（显示在屏幕顶部的[!DNL Adobe Workfront]中）允许您轻松查找并导航到平台的其他区域。
 
 ![顶部导航栏](assets/global-navigation-bar.png)
 
-## [!UICONTROL 主页] 图标
+## [!UICONTROL 主页]图标
 
-此 **[!UICONTROL 主页]** 图标 ![](assets/home-icon.png) 将您转到 [!UICONTROL 主页] 页面，默认登录页面。
+**[!UICONTROL 主页]**&#x200B;图标![](assets/home-icon.png)将您转到默认登录页面[!UICONTROL 主页]。
 
-默认情况下，“主页”图标会打开“主页”区域。 有关主目录的详细信息，请参见 [使用 [!UICONTROL 主页] 区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+默认情况下，“主页”图标会打开“主页”区域。 有关家庭的详细信息，请参阅[使用[!UICONTROL 家庭]区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
-您的Workfront管理员可以自定义“主页”图标，以便通过创建布局模板并将其分配给您来打开其他页面。 有关更多信息，请参阅 [使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+您的Workfront管理员可以自定义“主页”图标，以便通过创建布局模板并将其分配给您来打开其他页面。 有关详细信息，请参阅[使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
 
 ## 固定页面
 
-您可以固定经常访问的页面，以便它们显示在顶部导航栏中。 要了解有关固定页面的更多信息，请参阅 [固定页面以自定义工作区](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+您可以固定经常访问的页面，以便它们显示在顶部导航栏中。 若要了解有关固定页面的更多信息，请参阅[固定页面以自定义您的工作区](../../workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
-## [!UICONTROL 帮助] 菜单
+## [!UICONTROL 帮助]菜单
 
-此 **[!UICONTROL 帮助]** 菜单允许您搜索特定任务的帮助，查找有关使用的更多信息 [!DNL Workfront]，查看与您当前所在页面相关的内容，或提交关于您体验的反馈。
+通过&#x200B;**[!UICONTROL 帮助]**&#x200B;菜单，您可以搜索特定任务的帮助、查找有关使用[!DNL Workfront]的更多信息、查看与您当前所在页面相关的内容或提交关于您体验的反馈。
 
-要了解有关“帮助”菜单的更多信息，请参阅 [访问 [!DNL Adobe Workfront] 帮助](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+若要了解有关“帮助”菜单的更多信息，请参阅[访问 [!DNL Adobe Workfront] 帮助](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
-## [!UICONTROL 通知] 菜单
+## [!UICONTROL 通知]菜单
 
-蓝色编号框 ![](assets/notifications-icon.png) 屏幕右上角会打开一个通知列表。
+屏幕右上角的蓝色编号框![](assets/notifications-icon.png)可打开通知列表。
 
 您可以从“通知”菜单访问以下内容：
 
 * **通知**：这些是Workfront在满足某些条件时生成的警报，旨在让您了解可能需要关注的信息。
 
-* **公告**：由Workfront管理员发送的有关重要主题的公告。
+* **公告**：您的Workfront管理员发出的有关重要主题的公告。
 
-要了解有关通知和公告的更多信息，请参阅 [查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+若要了解有关通知和公告的更多信息，请参阅[查看和管理应用程序内通知](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。
 
-## [!UICONTROL 收藏夹] 菜单
+## [!UICONTROL 收藏夹]菜单
 
-此 **[!UICONTROL 收藏夹]** 图标 ![收藏夹](assets/favorites-icon-62x55.png) 在系统中打开已标记为收藏的页面的列表。 通过此菜单，您可以添加当前所在的页面。
+**[!UICONTROL 收藏夹]**&#x200B;图标![收藏夹](assets/favorites-icon-62x55.png)会打开系统中已标记为收藏的页面的列表。 通过此菜单，您可以添加当前所在的页面。
 
-要了解有关收藏夹的更多信息，请参阅 [查看和管理收藏夹](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+要了解有关收藏夹的详细信息，请参阅[查看和管理收藏夹](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)。
 
-## [!UICONTROL 最近项目] 菜单
+## [!UICONTROL 最近访问]菜单
 
-此 **[!UICONTROL 最近项目]** 图标 ![[!UICONTROL 最近项目]](assets/recents-icon-40x43.png) 打开您最近访问的页面的列表。
+**[!UICONTROL 最近]**&#x200B;图标![[!UICONTROL 最近]](assets/recents-icon-40x43.png)打开了您最近访问的页面列表。
 
-要了解有关最近使用的详细信息，请参阅 [查看最近项目](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
+若要了解有关最近项目的详细信息，请参阅[查看最近项目](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)。
 
-## [!UICONTROL Search] 菜单
+## [!UICONTROL 搜索]菜单
 
-此 **[!UICONTROL Search]** 图标 ![](assets/search-icon.png) 在的右上角 [!DNL Workfront] 允许您执行基本搜索、将搜索限制到特定对象或使用 [!UICONTROL 高级搜索] 搜索特定对象的关键字，并使用筛选器将搜索限制到特定字段。
+[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 搜索]**&#x200B;图标![](assets/search-icon.png)允许您执行基本搜索，将搜索限制在特定对象中，或使用[!UICONTROL 高级搜索]搜索特定对象的关键字，并使用筛选器将搜索限制在特定字段中。
 
-要了解有关搜索的详细信息，请参阅 [Search [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
+若要了解有关搜索的详细信息，请参阅[搜索 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md)。
 
 ## [!UICONTROL 主菜单]
 
 >[!IMPORTANT]
 >
->本页中介绍的主菜单仅适用于尚未加入的组织 [!DNL Adobe Experience Cloud].
+>此页面上描述的主菜单仅适用于尚未载入[!DNL Adobe Experience Cloud]的组织。
 >
-> 如果您的组织已载入 [!DNL Adobe Experience Cloud]，请参见 [[!DNL Adobe Unified Experience] 对象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> 如果贵组织已登记到[!DNL Adobe Experience Cloud]，请参阅 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)的[[!DNL Adobe Unified Experience] 。
 
-此 **[!UICONTROL 主菜单]** 图标 ![主菜单](assets/main-menu-icon.png) 打开 [!UICONTROL 主菜单]，您可以从中导航到Workfront的其他区域。
+**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)打开[!UICONTROL 主菜单]，您可以从中导航到Workfront的其他区域。
 
-中可用的选项 [!UICONTROL 主菜单] 取决于：
+[!UICONTROL 主菜单]中可用的选项依赖于：
 
-* **布局模板配置**：了解如何 [!DNL Workfront] 管理员可以修改 [!UICONTROL 主菜单] 从布局模板中，请参阅 [自定义 [!UICONTROL 主菜单] 使用布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **布局模板配置**：要了解[!DNL Workfront]管理员如何从布局模板修改[!UICONTROL 主菜单]，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
-* **许可证类型**：要了解不同许可证类型的默认配置，请参阅 [了解审阅许可证用户的导航](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 或 [了解 [!UICONTROL 工作]-license用户](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **许可证类型**：要了解不同许可证类型的默认配置，请参阅[了解审阅许可证用户的导航](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[了解[!UICONTROL 工作]许可证用户的导航](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
 
 ![主菜单选项](assets/main-menu-options-350x481.png)
 
@@ -101,14 +101,14 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>[！UICONTROL主页]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[！UICONTROL Home]区域</a></li> 
+     <li>[！UICONTROL主页]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[！UICONTROL主页]区域</a></li> 
      <li>[！UICONTROLPortfolio]： <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
-     <li>[！UICONTROL程序]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">创建和管理程序 </a></li> 
-     <li>[！UICONTROL项目]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">项目：文章索引</a></li> 
-     <li>[！UICONTROL报表]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">报表</a></li> 
-     <li>[！UICONTROL功能板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">仪表板</a></li> 
-     <li>[！UICONTROL日历]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">日程表：文章索引</a></li> 
-     <li>[！UICONTROL资源]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">资源管理 </a></li> 
+     <li>[！UICONTROL程序]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">创建和管理程序</a></li> 
+     <li>[！UICONTROL项目]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">项目：项目索引</a></li> 
+     <li>[！UICONTROL报告]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">报告</a></li> 
+     <li>[！UICONTROL仪表板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">仪表板</a></li> 
+     <li>[！UICONTROL日历]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">日历：项目索引</a></li> 
+     <li>[！UICONTROL Resourcing]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">资源管理</a></li> 
      <li>[！UICONTROL团队]： <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">创建和管理团队</a></li> 
      <li>[！UICONTROL用户]： <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">创建和管理用户</a></li> 
     </ul> </td> 
@@ -117,11 +117,11 @@ ht-degree: 0%
      <li>[！UICONTROL请求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">创建请求</a></li> 
      <li>[！UICONTROL时间表]： <a href="../../timesheets/timesheets-all.md" class="MCXref xref">时间表：文章索引</a></li> 
      <li>[！UICONTROL文档]： <a href="../../documents/documents-overview.md" class="MCXref xref">文档</a></li> 
-     <li>[！UICONTROL模板]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">创建和管理项目模板：文章索引</a></li> 
-     <li>[！UICONTROL Analytics]： <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">增强的分析概述</a></li> 
-     <li>[！UICONTROL目标]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概述</a></li> 
-     <li>[！UICONTROL场景]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a></li> 
-     <li>[！UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] 验证：文章索引</a></li> 
+     <li>[！UICONTROL模板]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">创建和管理项目模板：项目索引</a></li> 
+     <li>[！UICONTROL Analytics]： <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">增强型分析概述</a></li> 
+     <li>[！UICONTROL目标]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]概述</a></li> 
+     <li>[！UICONTROL Scenarios]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Scenario Planner概述</a></li> 
+     <li>[！UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront]校对：文章索引</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -135,16 +135,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p class="bold">[！UICONTROL设置]</p> </td> 
-   <td> <p>点击 <b>[！UICONTROL设置]</b> 将您转到[！UICONTROL设置]区域，您可以在其中配置 [!DNL Workfront] 帐户。 根据您的访问设置，您可以配置的内容可能会受到限制。</p> <p>有关[！UICONTROL Setup]区域的详细信息，请参阅 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和设置：文章索引</a>.</p> </td> 
+   <td> <p>单击<b>[！UICONTROL设置]</b>将转到[！UICONTROL设置]区域，您可以在其中配置[!DNL Workfront]帐户的不同方面。 根据您的访问设置，您可以配置的内容可能会受到限制。</p> <p>有关[！UICONTROL设置]区域的详细信息，请参阅<a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理和设置：文章索引</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[！UICONTROL帮助]</p> </td> 
-   <td> <p>点击 <b>[！UICONTROL帮助]</b> 将您转到 [!DNL Adobe Experience League] 在这里，您可以访问帮助文章、查找培训、提交客户支持工单等。</p> <p>有关的详细信息 [!DNL Experience League] 或其他获取帮助的方法，请参阅 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">在Adobe Workfront中查找帮助的快速指南</a>.</p> </td> 
+   <td> <p>单击<b>[！UICONTROL帮助]</b>可转到[!DNL Adobe Experience League]，您可以在其中访问帮助文章、查找培训、提交客户支持票证等。</p> <p>有关[!DNL Experience League]或其他获取帮助方法的详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">在Adobe Workfront中查找帮助的快速指南</a>。</p> </td> 
   </tr>
 
 <tr> 
    <td> <p class="bold">[！UICONTROL注销]</p> </td> 
-   <td>点击 <b>[！UICONTROL注销]</b> 将您注销 [!DNL Workfront].</td> 
+   <td>单击<b>[！UICONTROL注销]</b>会将您注销[!DNL Workfront]。</td> 
   </tr> 
  </tbody> 
 </table>

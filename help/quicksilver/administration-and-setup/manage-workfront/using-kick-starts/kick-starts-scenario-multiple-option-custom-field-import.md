@@ -51,16 +51,16 @@ ht-degree: 0%
 
 要从Workfront导出现有数据，请执行以下操作：
 
-1. 单击 **主菜单>设置** (在Workfront界面的右上角)
-1. 展开 **系统** 菜单，然后单击 **导出数据(Kick-Start)**.
+1. 单击Workfront界面右上角的&#x200B;**主菜单>设置**。
+1. 向左展开&#x200B;**系统**&#x200B;菜单，然后单击&#x200B;**导出数据(Kick-Starts)**。
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. 选择 **自定义数据** 在 **要包含的内容** 部分。
+1. 在&#x200B;**要包含的内容**&#x200B;部分中选择&#x200B;**自定义数据**。
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. 选择 **.xlsx文件** 在 **下载格式** 部分。
+1. 在&#x200B;**下载格式**&#x200B;部分中选择&#x200B;**.xlsx文件**。
 
    >[!TIP]
    >
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![](assets/download-button-for-kick-starts.png)
 
-1. 单击 **下载**. 将.xlsx文件下载到您的计算机。 导航到并将其打开。
+1. 单击&#x200B;**下载**。 将.xlsx文件下载到您的计算机。 导航到并将其打开。
 
    ![](assets/existing-data-excel-parameter-sheet.png)
 
@@ -88,15 +88,15 @@ ht-degree: 0%
 
 在扫描系统中现有自定义字段的信息后，您可以下载新的快速启动模板用于导入。
 
-1. 单击 **主菜单>设置** (在Workfront界面的右上角)
+1. 单击Workfront界面右上角的&#x200B;**主菜单>设置**。
 
-1. 展开 **系统** 菜单左侧。
+1. 向左展开&#x200B;**系统**&#x200B;菜单。
 
-1. 单击 **导入数据(Kick-Start)**.
+1. 单击&#x200B;**导入数据(Kick-Starts)**。
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. 在 **下载一个空白的快速启动电子表格** 区域，选择 **自定义数据** 复选框，然后单击 **下载**.
+1. 在&#x200B;**下载空白的快速启动电子表格**&#x200B;区域，选择&#x200B;**自定义数据**&#x200B;复选框，然后单击&#x200B;**下载**。
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -120,13 +120,13 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >例如， **参数** （指自定义字段）， **参数选项**（指自定义字段选项）， **类别** （指自定义表单）。
+   >例如，**Parameter**（引用自定义字段）、**Parameter Option**（引用自定义字段选项）、**Category**（引用自定义表单）。
    >
    >必须使用Workfront数据库支持的格式编写对象名称及其属性。
    >
-   >有关这些对象含义的信息，请参见 [术语表 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >有关这些对象含义的信息，请参阅 [!DNL Adobe Workfront] 术语](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)的[术语表。
    >
-   >有关Workfront数据库中对象名称的信息，请参见 [API资源管理器](../../../wf-api/general/api-explorer.md).
+   >有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
@@ -142,97 +142,97 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >某些列虽然不是粗体的，但还是需要它们的。 例如， `isNew` 和 `ID` 列不以粗体显示，但它们是必填字段。
+     >某些列虽然不是粗体的，但还是需要它们的。 例如，`isNew`和`ID`列不是粗体，但它们是必填字段。
 
-1. 选择 `**PARAM Parameter`**表，并在以下必填列中添加有关新自定义字段的信息：
+1. 选择**0}工作表并在以下必填列中添加有关新自定义字段的信息：`**PARAM Parameter`
 
-   * **`isNew`** = enter **`TRUE`** 在此列中代表新自定义字段的每一行。 这表示该字段是新字段，在Workfront中不存在。
+   * **`isNew`** =在此列中为每个代表新自定义字段的行输入&#x200B;**`TRUE`**。 这表示该字段是新字段，在Workfront中不存在。
 
      >[!TIP]
      >
-     >    如果某行代表Workfront中已存在的字段，则应输入 **`isNew`** = **`FALSE`**.
+     >    如果某行代表Workfront中已存在的字段，则应输入&#x200B;**`isNew`** = **`FALSE`**。
 
-   * **`ID`** =必须为表示新字段的每行的唯一数字。 您可以使用以1开头的任意数字，但前提是每个新字段具有唯一数字。
+   * **`ID`** =对于表示新字段的每一行必须是唯一数字。 您可以使用以1开头的任意数字，但前提是每个新字段具有唯一数字。
    * **`setDataType`** =对于表示新字段的每一行，输入该字段支持的数据类型。 必须按数据库中显示的数据类型输入。 从以下数据类型中选择：
-      * **`NMBR`** 编号
-      * **`CURC`** （货币）
-      * **`TEXT`** 用于文本
-   * `**setDisplaySize**`=显示大小(&#39;**setDisplaySize**&#39;)对于任何多个选项，自定义字段始终为0。
+      * 数字&#x200B;**`NMBR`**
+      * **`CURC`**&#x200B;货币
+      * 文本的&#x200B;**`TEXT`**
+   * `**setDisplaySize**`=任意多个选项自定义字段的显示大小(&#39;**setDisplaySize**&#39;)始终为0。
    * **`setDisplayType`** =对于表示新字段的每一行，输入该字段的显示类型。 必须按数据库中显示的形式输入显示类型。
 
      对于多选项自定义字段，请从以下选项中选择：
 
-      * **`MULT`** （对于多选下拉菜单）
-      * **`SLCT`** 用于下拉列表
-      * **`RDIO`** 用于单选按钮
-      * **`CHCK`** 复选框
+      * 多选下拉列表的&#x200B;**`MULT`**
+      * 下拉列表的&#x200B;**`SLCT`**
+      * 单选按钮的&#x200B;**`RDIO`**
+      * 复选框的&#x200B;**`CHCK`**
 
      >[!TIP]
      >
-     >要查找数据类型和显示类型信息，请参阅 [API资源管理器](../../../wf-api/general/api-explorer.md)，展开 **参数** 对象，然后在 **字段** 选项卡。
+     >要查找数据类型和显示类型信息，请参阅[API Explorer](../../../wf-api/general/api-explorer.md)，展开&#x200B;**Parameter**&#x200B;对象，然后在&#x200B;**字段**&#x200B;选项卡下查找这些属性。
 
    * **`setName`** =输入您希望在Workfront中显示的自定义字段的名称。
 
      >[!INFO]
      >
-     >例如，我们可能会导入两个自定义字段，称为 _品牌_，复选框字段，以及 _媒体_，单选按钮字段。
+     >例如，我们可能会导入两个自定义字段，名为&#x200B;_Brand_（复选框字段）和&#x200B;_Media_（单选按钮字段）。
 
-   * 此 **`setName`** 和 **`setValue`** 列通常包含相同的信息，它们应该反映新字段的Workfront界面中所需的名称。
+   * **`setName`**&#x200B;和&#x200B;**`setValue`**&#x200B;列通常包含相同的信息，它们应该反映新字段的Workfront界面中所需的名称。
 
    字段的值是报表中显示的名称，例如，而名称显示在附加到对象的自定义表单中。
 
-   有关更多信息，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   有关详细信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. 选择 **`POPT Parameter Options`** 工作表并在以下必填列中添加有关每个自定义字段选项的信息：
+1. 选择&#x200B;**`POPT Parameter Options`**&#x200B;工作表并在以下必填列中添加有关每个自定义字段选项的信息：
 
-   * **`isNew`** = enter **`TRUE`** 在此列中代表新字段选项的每一行。
+   * **`isNew`** =在此列中为每个代表新字段选项的行输入&#x200B;**`TRUE`**。
 
      >[!TIP]
      >
-     >    如果某行表示一个现有选项，您应输入 **`isNew`** = **`FALSE`**.
+     >    如果某行表示现有选项，则应当输入&#x200B;**`isNew`** = **`FALSE`**。
 
-   * **`ID`** =必须为表示新选项的每一行的唯一数字。 您可以使用以1开头的任意数字，但前提是每个新选项具有唯一的数字。
-   * **`setIsDefault`** = enter `TRUE` （对于要默认显示的选项），并且 `FALSE` 用于所有其他选项，用于每个字段。  例如，我们希望 _耐克_ 成为的默认选项 _品牌_ 和 _打印_ 成为的默认选项 _媒体_.
+   * **`ID`** =表示新选项的每行必须是唯一数字。 您可以使用以1开头的任意数字，但前提是每个新选项具有唯一的数字。
+   * **`setIsDefault`** =为每个字段输入要默认显示的选项的`TRUE`，并为所有其他选项输入`FALSE`。  例如，我们希望&#x200B;_Nike_&#x200B;是&#x200B;_Brand_&#x200B;的默认选项，而&#x200B;_Print_&#x200B;是&#x200B;_Media_&#x200B;的默认选项。
 
      >[!TIP]
      >
      >每个字段只能有一个默认选项。
 
-   * **`setParameterID`** =与 _品牌_ 自定义字段具有 **`setParameterID`** ，则对应于表单上 _媒体_ 有**`setParameterID`**/2. 此 `PARAM` 和 `POPT` 工作表会相互交叉引用，以指示哪些选项属于哪个自定义字段。
+   * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的**`setParameterID`**为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
    * **`setDisplayOrder`**=显示顺序列指示选项在自定义字段中的显示顺序。 您可以从1开始并按升序继续所有选项，无论它们属于哪个字段。 这里的重要事项是为每个选项设置唯一的数字。
-   * 此 **`setLabel`** 和 `**setValue`**列通常包含相同的信息，并且它们应反映Workfront UI中所需的名称。 选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关更多信息，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** = enter `TRUE` 如果您希望隐藏任何选项。
+   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+   * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. （可选）如果您还想创建一个自定义表单，以便稍后在其中添加新字段，请选择  **`CTGY Category`** 工作表并更新自定义表单信息的以下必需列：
+1. （可选）如果您还想创建一个自定义表单，以便稍后在其中添加新字段，请选择&#x200B;**`CTGY Category`**&#x200B;工作表并更新自定义表单信息的以下必填列：
 
-   * **`isNew`** = enter **`TRUE`** 在此列中代表新自定义表单的每一行。
-   * **`ID`** =为表示新表单的每一行输入一个唯一编号。 您可以使用以1开头的任意数字，但前提是每个新选项或行具有唯一的数字。
-   * **`setGroupID`** =添加主组ID或系统中您希望其成员访问此表单的任何其他组。 这是必填字段。
+   * **`isNew`** =在此列中为每个代表新自定义表单的行输入&#x200B;**`TRUE`**。
+   * **`ID`** =为表示新表单的每一行输入一个唯一数字。 您可以使用以1开头的任意数字，但前提是每个新选项或行具有唯一的数字。
+   * **`setGroupID`** =添加主组，或系统中您希望其成员访问此表单的任何其他组的组ID。 这是必填字段。
 
-   要了解 `ID` ，您可以构建一个组报告并添加 `ID` 字段，或导航到组并查找组的URL。 组ID将位于组页面的URL中。 例如，如果组的URL为 `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，组ID为 `575b000800467a6f66e747932c807464`.
+   要查找组的`ID`，您可以生成组报告并在视图中添加`ID`字段，或者导航到组并查找组的URL。 组ID将位于组页面的URL中。 例如，如果组的URL是`https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，则组ID是`575b000800467a6f66e747932c807464`。
 
    * **`setCatObjCode` **=这是您希望为其创建表单的对象类型的对象代码。 从以下选项输入代码：
-      * **`CMPY`** 适用于公司
-      * **`TASK`** 表示任务
-      * **`PROJ`** 用于项目
-      * **`PORT`** 用于Portfolio
-      * **`PRGM`** （适用于项目）
-      * **`USER`** 针对用户
-      * **`DOCU`** 用于文档
-      * **`OPTASK`** 问题
-      * **`EXPNS`** 表示费用
-      * **`ITRN`** 用于迭代
-      * **`BILL`** 对于开票记录
-      * **`GROUP`** 适用于组
+      * 公司&#x200B;**`CMPY`**
+      * 任务&#x200B;**`TASK`**
+      * 项目&#x200B;**`PROJ`**
+      * 用于Portfolio的&#x200B;**`PORT`**
+      * 项目群&#x200B;**`PRGM`**
+      * 用户&#x200B;**`USER`**
+      * 文档&#x200B;**`DOCU`**
+      * 问题&#x200B;**`OPTASK`**
+      * 费用&#x200B;**`EXPNS`**
+      * 迭代的&#x200B;**`ITRN`**
+      * 用于开票记录的&#x200B;**`BILL`**
+      * 组&#x200B;**`GROUP`**
 
      >[!NOTE]
      >
-     >对于多对象表单，请输入在UI中创建表单时将选择的第一个对象。 例如，设置 `setCatObjCode` 到 `TASK`，如果您要在WorkfrontPortfolio界面中选择Task ，然后选择Issue、Task等，但不希望该表单可用于Projects。
+     >对于多对象表单，请输入在UI中创建表单时将选择的第一个对象。 例如，将`setCatObjCode`设置为`TASK`，如果您要在Workfront界面中选择“任务”，然后选择“问题”、“Portfolio”等，但不希望将表单用于“项目”。
 
    * **`setName`** =这是您希望在Workfront界面中显示的自定义表单的名称。
 
@@ -245,12 +245,12 @@ ht-degree: 0%
 
 执行前面部分中描述的步骤后，继续执行以下操作以将新字段和表单上传到Workfront：
 
-1. 单击 **导入数据** **(Kick-Starts) **在 **主菜单>设置>系统** 菜单。
+1. 单击&#x200B;**主菜单>设置>系统**&#x200B;菜单下的&#x200B;**导入数据****(Kick-Starts)**。
 
-1. 单击 **选择文件** 在部分下 **使用快速启动电子表格上传数据**.
+1. 单击&#x200B;**使用Kick-Start电子表格上载数据**&#x200B;部分下的&#x200B;**选择文件**。
 
 1. 在计算机上浏览您准备的Excel电子表格，并在找到时选择它。  当Workfront识别文件时，“上传”按钮将变为蓝色。
-1. 单击 **上传。**
+1. 单击&#x200B;**上传。**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
@@ -265,7 +265,7 @@ ht-degree: 0%
    >您导入的新表单和字段尚未连接。 表单导入时没有自定义字段。 您必须手动将字段添加到新自定义表单或其他现有自定义表单。
 
 
-   有关向自定义表单添加字段的信息，请参阅 [将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   有关将字段添加到自定义表单的信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
 
 1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定问题所在的字段、工作表和行号，并更正Excel文件中的信息，然后再次尝试导入文件。
 
@@ -275,4 +275,4 @@ ht-degree: 0%
 
    * 从自定义Forms区域删除成功从Workfront导入的信息，然后进行错误消息所指示的更正。
    * 指示系统中已经存在字段或表单，用于已导入的字段或表单，然后进行更正。
-要指示某个字段或自定义表单已在Workfront中，您必须确保 `inNew` 字段标记为 `FALSE` 在包含表单相关信息的工作表中(`CTGY`)或字段(`PARAM`)。
+要指示Workfront中已存在某个字段或自定义表单，您必须确保在包含有关表单(`CTGY`)或快速启动导入工作表中的字段(`PARAM`)的信息的工作表中将`inNew`字段标记为`FALSE`。

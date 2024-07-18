@@ -4,7 +4,8 @@ description: 2024年第一季度项目增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了在2024年第一季度版本中对“预览”环境所做的所有项目增强。 这些增强功能将在2024年第一季度发行版的“生产”环境中提供。
 
-有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅 [2024年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+有关2024年第一季度发布周期中此时可用的所有更改列表，请参阅[ 2024年第一季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)。
 
 ## 更相关的智能分配
 
@@ -39,4 +40,4 @@ ht-degree: 0%
 
 * 计算问题的智能分配的方式没有变化。 问题列表中的智能分配列表的名称为“以下是一些推荐”。
 
-有关更多信息，请参阅 [智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+有关详细信息，请参阅[智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。

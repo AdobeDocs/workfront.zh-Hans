@@ -11,7 +11,7 @@ exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,9 @@ GET/serviceInfo
 
 ## 查询参数
 
-无. 此外，对此端点的调用不应需要身份验证。
+无。 此外，对此端点的调用不应需要身份验证。
 
-## 个回应
+## 响应
 
 包含有关此服务的信息的JSON
 

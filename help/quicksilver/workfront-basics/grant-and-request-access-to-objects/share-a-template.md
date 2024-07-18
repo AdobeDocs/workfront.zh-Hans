@@ -2,64 +2,64 @@
 title: 共享模板
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: 作为Adobe Workfront管理员，您可以在分配用户的访问级别时，授予用户查看或编辑模板的访问权限。 用户必须具有计划许可证才能访问编辑模板。
+description: 作为Adobe Workfront管理员，您可以在分配其访问级别时授予用户查看或编辑模板的访问权限。 用户必须具有计划许可证才能访问编辑模板。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # 共享模板
 
-作为Adobe Workfront管理员，您可以在分配用户的访问级别时，授予用户查看或编辑模板的访问权限。 用户必须具有计划许可证才能访问编辑模板。
+作为Adobe Workfront管理员，您可以在分配其访问级别时授予用户查看或编辑模板的访问权限。 用户必须具有计划许可证才能访问编辑模板。
 
-有关授予对模板的访问权限的更多信息，请参阅 [授予对模板的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+有关授予对模板的访问权限的详细信息，请参阅[授予对模板的访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)。
 
-除了您授予的访问级别之外，用户还可以从共享特定模板的其他用户那里接收查看或管理特定模板的权限。
+除了您授予的访问级别之外，用户还可以从共享这些模板的其他用户那里获得查看或管理特定模板的权限。
 
 >[!NOTE]
 >
->权限级别在访问级别内工作。 例如，如果用户的访问级别仅允许其查看模板，则用户将无法接收“管理模板”的权限。
+>权限级别在访问级别中起作用。 例如，如果用户的访问级别仅允许他们查看模板，则他们将无法获得管理模板的权限。
 
-权限特定于Workfront中的一个项目，并定义可以对该项目执行哪些操作。
+权限特定于Workfront中的一个项目，并定义您可以对该项目执行的操作。
 
 ## 共享模板时的注意事项
 
-* 除了以下注意事项外，另请参阅 [对象共享权限概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* 默认情况下，模板的创建者以及模板所有者具有模板的“管理”权限。 有关将用户指定为模板所有者的信息，请参阅 [编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
-* 在共享模板时，您可以共享以下内容：
+* 除了下面的注意事项外，另请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+* 默认情况下，模板的创建者以及模板所有者具有模板的管理权限。 有关将用户指定为模板所有者的信息，请参阅[编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
+* 共享模板时，您可以共享以下内容：
 
    * 模板
 
-      有关如何共享模板的更多信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     有关如何共享模板的详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-      您可以向模板授予以下权限：
+     您可以向模板授予以下权限：
 
       * 查看
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
       * 管理
 
-         ![](assets/manage-on-template-225x280.png)
-   * 将来使用模板创建的项目。 您可以为基于模板创建的项目授予与单个项目相同级别的权限。 
+        ![](assets/manage-on-template-225x280.png)
 
-      有关如何从模板级别共享项目的信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   * 使用该模板创建的未来项目。 您可以为从模板创建的项目授予与对单个项目相同的权限级别。 
 
+     有关如何从模板级别共享项目的信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* 默认情况下，当您共享模板或从模板创建的项目时，用户将继承与模板或项目关联的所有子对象的相同权限。
+* 共享模板或使用该模板创建的项目时，默认情况下，用户将继承与模板或项目关联的所有子对象的相同权限。
 
-   有关Workfront中对象层次结构的更多信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  有关Workfront中对象层次结构的详细信息，请参阅  [了解Adobe Workfront中的对象](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
-* 在共享模板时，除非另有指定，否则所有模板任务和文档，以及从模板创建的未来项目上的问题都将继承相同的权限。
+* 在共享模板时，除非另有指定，否则所有模板任务和文档以及使用该模板创建的未来项目上的问题都将继承相同的权限。
 
-   有关根据用户对项目的权限管理对项目模板任务和问题的访问权限的信息，请参阅 [访问](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 章节 [编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  有关基于用户对项目的权限管理项目上模板任务和问题的访问权限的信息，请参阅[编辑项目模板](../../manage-work/projects/create-and-manage-templates/edit-templates.md)一文中的[访问](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)部分。
 
-* Workfront管理员可以指定文档是否应继承用户访问级别中较高对象的权限。 有关限制文档继承权限的更多信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Workfront管理员可以指定文档是否应从用户访问级别更高的对象继承权限。 有关限制文档继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ You can share an object only with active users, teams,
 
 ## 模板共享的高级设置
 
-下表显示了在允许用户查看或管理模板时可以授予他们哪些权限。 有关共享模板的说明，请参阅 [共享模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) 在文章中 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+下表显示了允许用户查看或管理模板时，您可以授予用户哪些权限。 有关共享模板的说明，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)一文中的[共享模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)部分。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,40 +122,40 @@ You can share an object only with active users, teams,
  <tbody> 
   <tr> 
    <td>复制</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>删除</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>编辑模板详细信息</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>查看模板</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>共享</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
    <td>在系统范围内共享</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>添加文档</p> <p>提示：有时，人们会将文档添加到项目模板，以为他们会将文档添加到项目中。 您可以通过禁用此设置来阻止收件人执行此操作。</p> </td> 
+   <td> <p>添加文档</p> <p>提示：有时候，人们在将文档添加到项目模板时以为自己正在将文档添加到项目中。 通过禁用此设置，可以为收件人阻止这种情况。</p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ {\f13 }</td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您向用户授予使用模板创建的项目的权限，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+要了解您授予用户使用模板创建的项目的权限，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。

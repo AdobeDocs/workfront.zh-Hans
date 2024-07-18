@@ -19,15 +19,15 @@ ht-degree: 0%
 
 此页面介绍了2019.3版本中所做的所有更改集成和移动设备增强。 该版本在2019年8月19日当周的生产环境中提供。
 
-有关2019.3版中所做所有更改的列表，请参阅 [2019.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+有关2019.3中所做所有更改的列表，请参阅[2019.3版本活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)。
 
 ## 在MS OneDrive集成中支持共享项目
 
 现在，您可以将共享的OneDrive文件和文件夹链接到Workfront对象。 反过来，您可以在Workfront中将文件上传到OneDrive中的共享文件夹。
 
-有关更多信息，请参阅部分 [将外部文档链接到Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents)， [链接一个或多个外部文件夹](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder)、和 [更新文档，并将其从Workfront链接到外部云提供商](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) 在文章中 [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关详细信息，请参阅[从外部应用程序链接文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)一文中的[将外部文档链接到Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents)、[链接一个或多个外部文件夹](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder)和[更新文档并将文档从Workfront链接到外部云提供商](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents)部分。
 
-有关信息，请参阅部分 [将外部文档链接到Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) 在文章中 [链接来自外部应用程序的文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关信息，请参阅文章[从外部应用程序链接文档](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)中的[将外部文档链接到Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents)部分。
 
 ## 所有Workfront登录均需要域规范
 
@@ -39,13 +39,13 @@ ht-degree: 0%
 
   如果您的公司域未包含在Workfront URL中，那么除了用户名和密码字段外，您现在还会在登录屏幕上看到一个新的域字段。
 
-  对于大多数客户，无需进行更改，因为域信息已包含在Workfront URL中。 例如，“*域*.my.workfront.com.”
+  对于大多数客户，无需进行更改，因为域信息已包含在Workfront URL中。 例如，“*域*.my.workfront.com”。
 
 * **API集成**
 
   如果您将任何API代码发送到不包含您的域名的地址，则该API代码将不再有效。
 
-有关更多信息，请参阅 [登录到Adobe Workfront](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+有关详细信息，请参阅[登录到Adobe Workfront](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)。
 
 ## 在iOS上使用移动应用程序将任务和问题转化为项目
 
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 根据您的设备，您可以选择使用指纹或面容ID技术登录到Workfront移动应用程序。 当您登录移动设备应用程序时，系统会询问您是否要使用手机支持的身份验证方法进行登录。
 
-有关如何管理此功能的详细信息，请参阅 [适用于iOS的Adobe Workfront](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 或 [适用于Android的Adobe Workfront](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+有关如何管理此功能的更多信息，请参阅[适用于iOS的Adobe Workfront](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或[适用于Android的Adobe Workfront](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 ## 用于在移动设备上自动注销用户的新设置
 
 为了让您和您的公司更加安全，Workfront移动应用程序会在15天不活动后自动注销。 Workfront管理员可以在Web应用程序中的“设置”>“系统”>“首选项”下自定义此时间限制。
 
-有关更多信息，请参阅 [配置系统安全首选项](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+有关详细信息，请参阅[配置系统安全首选项](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## 移动设备应用程序登录时需要域
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能将在2019年8月19日这一周在iOS和Android应用商店中提供。
+>此功能将在2019年8月19日这一周在iOS和Android的应用商店中提供。
 
 我们在移动应用程序的“项目”选项卡上添加了“停止的项目”作为过滤器选项。
 

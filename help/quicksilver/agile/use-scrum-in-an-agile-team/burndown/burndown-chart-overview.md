@@ -18,7 +18,7 @@ ht-degree: 0%
 
 燃尽图直观地显示了故事在迭代中的进度。 实际燃尽率是根据迭代时间线的理想燃尽率来测量的。
 
-燃尽图根据选定的日期进行调整。 默认值为当天。 选择前一天时，燃尽图中的所有数据以及 [!UICONTROL 完成状态] 燃尽图上方部分重新计算以表示选定日期结束时的数据。 （您可以选择过去日期或当前日期；但不能选择将来的日期。）
+燃尽图根据选定的日期进行调整。 默认值为当天。 当选择前一天时，将重新计算燃尽图中的所有数据以及燃尽图上方[!UICONTROL 完成状态]部分中的所有值，以表示选定日期结束时的数据。 （您可以选择过去日期或当前日期；但不能选择将来的日期。）
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>基于迭代开始时间的理想燃尽率。</p> <p>如果迭代的范围从不更改（小时或点从不添加或删除），则不显示此行。</p> <p>此线条在休息日完成工作时显示为平坦。 有关更多信息，请参阅 <a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日对燃尽图的影响</a>.</p> </td> 
+   <td> <p>基于迭代开始时间的理想燃尽率。</p> <p>如果迭代的范围从不更改（小时或点从不添加或删除），则不显示此行。</p> <p>此线条在休息日完成工作时显示为平坦。 有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>基于当前情景或任务的理想燃尽率。</p> <p>在迭代开始后，向迭代添加小时或点或从迭代中删除点时，当前理想燃尽率（实心蓝线）不同于原始理想燃尽率（虚蓝线）。</p> <p>此线条在休息日完成工作时显示为平坦。</p> <p>有关更多信息，请参阅 <a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日对燃尽图的影响</a>.</p> </td> 
+   <td> <p>基于当前情景或任务的理想燃尽率。</p> <p>在迭代开始后，向迭代添加小时或点或从迭代中删除点时，当前理想燃尽率（实心蓝线）不同于原始理想燃尽率（虚蓝线）。</p> <p>此线条在休息日完成工作时显示为平坦。</p> <p>有关详细信息，请参阅<a title="使用敏捷燃尽图" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休息日如何影响燃尽图</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ## 休息日对燃尽图的影响 {#how-days-off-affect-the-burndown-chart}
 
-中定义的默认计划 [!DNL Workfront] 通过从燃尽中排除休息日（周末和假日）而影响燃尽图。 燃尽图使用默认时间表来定义工作日（如中所述）  [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md))。
+[!DNL Workfront]中定义的默认计划通过从燃尽中排除休息日（周末和假日）而影响燃尽图。 燃尽图使用默认时间表来定义工作日（如中所述）  [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-Agile团队可以通过定义替代计划（如文章所述）来合并团队特定的非工作日 [将备用组计划用于燃尽图](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md))。 然后，此备用计划会反映在分配给团队的任何迭代的燃尽图中。 替代计划仅影响燃尽图。
+Agile团队可以通过定义替代计划来合并团队特定的非工作日（如文章[使用燃尽图的替代团队计划](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)中所述）。 然后，此备用计划会反映在分配给团队的任何迭代的燃尽图中。 替代计划仅影响燃尽图。
 
 只有符合以下条件时，燃尽图才会反映休息日：
 
@@ -88,8 +88,8 @@ Agile团队可以通过定义替代计划（如文章所述）来合并团队特
 * 您正在休息日查看燃尽图。 （您查看的日期显示在燃尽图上。）
 * 您在休息日完成迭代的总剩余工作。
 
-  当用户休息日完成迭代的总剩余工时时， [!UICONTROL 估计完成] 字段显示迭代的完成日期。
+  当用户休息日完成迭代的总剩余工作时，[!UICONTROL 预计完成]字段显示迭代完成的日期。
 
-  在计划迭代时，如果您为非工作日设置迭代结束日期，并且迭代正在跟踪以准时完成，则 [!UICONTROL 估计完成] 日期设置为您设置的迭代结束日期之前的最后一个工作日（因为未计划在非工作日烧录工作）。
+  在计划迭代时，如果您为非工作日设置迭代结束日期，并且迭代正在跟踪按时完成，则将[!UICONTROL 预计完成]日期设置为您设置的迭代结束日期之前的最后一个工作日（因为未计划在非工作日烧毁工作）。
 
-  当计划迭代时，会指定迭代的结束日期，如文章中所述 [创建迭代](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  在计划迭代时指定迭代的结束日期，如[创建迭代](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)一文中所述。

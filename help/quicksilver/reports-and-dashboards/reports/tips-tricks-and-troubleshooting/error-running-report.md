@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -36,21 +36,21 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 问题
 
 运行报表或在仪表板中显示报表时，会返回以下错误：\
-*让我们再试一次。 您当前未登录。*
+*让我们再试一次。您当前未登录。*
 
 报告中不显示任何结果。
 
@@ -64,12 +64,12 @@ ht-degree: 4%
 要调整报表并查看结果，请执行以下操作：
 
 1. 转到报告。
-1. 单击 **报表操作** > **编辑** > **报表设置**.
+1. 单击&#x200B;**报告操作** > **编辑** > **报告设置**。
 
-1. 在中指定活动用户的名称 **使用以下访问权限运行此报告：** 字段。\
+1. 在&#x200B;**运行此报告的“访问权限：**”字段中指定活动用户的名称。\
    或\
-   离开 **使用以下访问权限运行此报告：** 字段为空。
+   将&#x200B;**Run this report with the Access Rights of：**&#x200B;字段保留为空。
 
-1. 单击 **完成**.
-1. 单击 **保存+关闭**.\
+1. 单击&#x200B;**完成**。
+1. 单击&#x200B;**保存+关闭**。\
    运行此报告时，不应再次出现此错误。

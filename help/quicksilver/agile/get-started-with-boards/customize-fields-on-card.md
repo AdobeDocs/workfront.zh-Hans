@@ -51,21 +51,21 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 配置信息卡 {#configure-cards}
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 讨论区]**.
-1. 访问展示板。 有关信息，请参阅 [创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md).
-1. 单击 [!UICONTROL **配置**] ，打开“配置”面板。
-1. 展开 [!UICONTROL **卡片**].
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+1. 访问展示板。 有关信息，请参阅[创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md)。
+1. 单击展示板右侧的&#x200B;[!UICONTROL **配置**]&#x200B;以打开“配置”面板。
+1. 展开&#x200B;[!UICONTROL **卡片**]。
 
    默认情况下，大多数字段和部分处于启用状态。
 
 1. 关闭字段或部分以在这两个卡片视图中禁用它。
-1. 单击隐藏图标 ![“隐藏”图标](assets/eye-hide-icon.png) 显示在字段或区域旁边，以将其隐藏在精简视图中。
-1. 要显示两个视图中的所有字段和部分，请单击 [!UICONTROL **将所有字段恢复为默认值**].
-1. 单击 [!UICONTROL **隐藏配置**] 以关闭“配置”面板。
+1. 单击字段或区域旁边的“隐藏”图标![隐藏图标](assets/eye-hide-icon.png)以在压缩视图上隐藏它。
+1. 要显示两个视图中的所有字段和部分，请单击&#x200B;[!UICONTROL **将所有字段还原为默认值**]。
+1. 单击&#x200B;[!UICONTROL **隐藏配置**]&#x200B;以关闭配置面板。
 
 ## 将自定义字段添加到卡片
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 自定义字段中的数据可以在信息卡上编辑，但某些自定义元素可能只能在原始字段上编辑，不能在信息卡上编辑。
 
-1. 访问展示板并单击 [!UICONTROL **配置**] 以打开配置面板。
-1. 展开 [!UICONTROL **卡片**].
-1. 下 [!UICONTROL 卡片字段]，单击 [!UICONTROL **添加自定义字段**].
-1. 选择 [!UICONTROL **任务**] 或 [!UICONTROL **问题**].
+1. 访问展示板并单击&#x200B;[!UICONTROL **配置**]&#x200B;以打开“配置”面板。
+1. 展开&#x200B;[!UICONTROL **卡片**]。
+1. 在[!UICONTROL 卡片字段]下，单击&#x200B;[!UICONTROL **添加自定义字段**]。
+1. 选择&#x200B;[!UICONTROL **任务**]&#x200B;或&#x200B;[!UICONTROL **问题**]。
 
    出现任务或问题的可用字段类别。 展开类别以查看所有字段。 您还可以搜索字段。
 
@@ -87,13 +87,13 @@ ht-degree: 0%
    >以下字段类型无法添加到信息卡：Adobe XD、图像、PDF、视频。
 
 1. 选择字段名称。
-1. （可选）单击 **[!UICONTROL 字段值]** 字段以将此自定义字段更改为其他字段。
-1. （可选）更改 **[!UICONTROL 字段标签]** 到要在信息卡上显示的字段名称。
-1. 完成更改后，单击 [!UICONTROL **保存字段**].
+1. （可选）单击&#x200B;**[!UICONTROL 字段值]**&#x200B;字段以将此自定义字段更改为其他字段。
+1. （可选）将&#x200B;**[!UICONTROL 字段标签]**&#x200B;更改为要显示在卡片上的字段名称。
+1. 完成更改后，单击&#x200B;[!UICONTROL **保存字段**]。
 
    ![自定义字段值和标签](assets/save-custom-field-value-label.png)
 
-   该自定义字段将添加到可用字段列表，默认情况下处于启用状态。 您可以按照 [配置信息卡](customize-fields-on-card.md#configure-cards) 部分，编辑该字段或从所有信息卡中删除它。
+   该自定义字段将添加到可用字段列表，默认情况下处于启用状态。 您可以按照上面[配置信息卡](customize-fields-on-card.md#configure-cards)部分中的步骤禁用自定义字段，编辑该字段或从所有信息卡中删除它。
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ ht-degree: 0%
 
 您必须打开配置设置以在展示板上显示已存档的卡片。
 
-1. 访问展示板并单击 [!UICONTROL **配置**] 以打开配置面板。
-1. 展开 [!UICONTROL **卡片**].
-1. 打开 [!UICONTROL **在展示板上显示已存档的卡片**].
+1. 访问展示板并单击&#x200B;[!UICONTROL **配置**]&#x200B;以打开“配置”面板。
+1. 展开&#x200B;[!UICONTROL **卡片**]。
+1. 打开&#x200B;[!UICONTROL **在展示板上显示已存档的卡片**]。
 
-   现在，您可以筛选展示板以显示已存档的任何信息卡。 有关详细信息，请参阅 [在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   现在，您可以筛选展示板以显示已存档的任何信息卡。 有关详细信息，请参阅[在讨论区中筛选和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
-1. 单击 [!UICONTROL **隐藏配置**] 以关闭“配置”面板。
+1. 单击&#x200B;[!UICONTROL **隐藏配置**]&#x200B;以关闭配置面板。
 
 ## 配置信息卡减少
 
-要在一段时间后自动从展示板中移除信息卡，请参阅 [配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+要在一段时间后自动从展示板中删除信息卡，请参阅[配置信息卡减少](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)。

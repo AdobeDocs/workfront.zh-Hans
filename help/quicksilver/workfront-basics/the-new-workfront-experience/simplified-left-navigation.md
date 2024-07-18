@@ -1,8 +1,8 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: 左侧导航位置 [!DNL Adobe Workfront]
-description: 左侧导航面板位于 [!DNL Workfront] 使浏览系统更容易。
+title: ' [!DNL Adobe Workfront]中的左侧导航'
+description: ' [!DNL Workfront] 中的左侧导航面板可让您轻松导航系统。'
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
@@ -12,18 +12,18 @@ ht-degree: 1%
 
 ---
 
-# 左侧导航位置 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]中的左侧导航
 
-WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 左侧面板导航具有以下优点：
+WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 以下是左侧面板导航的优点：
 
 * 它允许更好地管理屏幕空间。
-* 您的 [!DNL Workfront] 管理员可以隐藏左侧面板中的任何部分，但使用布局模板显示对象的详细信息除外。
+* 您的[!DNL Workfront]管理员可以隐藏左侧面板中的任何部分，但使用布局模板显示对象的详细信息除外。
 
-   有关使用布局模板的信息，请参阅文章 [创建和管理布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  有关使用布局模板的信息，请参阅文章[创建和管理布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-* 您可以轻松地更改左侧导航中部分的顺序，而无需按所需的顺序拖放其他屏幕来打开它们。
+* 您可以轻松地更改左侧导航中部分的顺序，而无需通过按所需的顺序拖放来打开其他屏幕。
 
-   有关更多信息，请参阅本文中的以下部分： [使用左侧导航面板](#use-the-left-navigation-panel).
+  有关详细信息，请参阅本文中的以下部分： [使用左侧导航面板](#use-the-left-navigation-panel)。
 
 * 您可以通过添加仪表板来自定义左侧面板。
 
@@ -39,7 +39,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
@@ -48,7 +48,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
  </tbody> 
 </table>
 
-&#42;要了解您的计划或许可证类型，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
 ## 左侧导航面板中的默认部分
 
@@ -73,21 +73,21 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
 >[!IMPORTANT]
 >
->如果左侧面板默认只显示一个截面，例如 **[!UICONTROL 所有项目]** 在 **[!UICONTROL 项目]** 区域 — a [!DNL Workfront] 在构建布局模板时，管理员必须至少向此区域添加一个自定义分区，并将您分配给该模板，然后该区域才会显示左侧面板。\
->有关如何 [!DNL Workfront] 管理员在布局模板中自定义左侧面板，请参阅 [使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>如果左侧面板默认只显示一个分区，如&#x200B;**[!UICONTROL 项目]**&#x200B;区域中的&#x200B;**[!UICONTROL 所有项目]**，则在构建布局模板时，[!DNL Workfront]管理员必须向该区域添加至少一个自定义分区并将您分配给该模板，左侧面板才会显示在该区域中。\
+>有关[!DNL Workfront]管理员如何在布局模板中自定义左侧面板的信息，请参阅[使用布局模板自定义左侧面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
 左侧面板适用于以下区域：
 
-* [中的默认部分 [!UICONTROL 仪表板] 区域](#default-sections-in-the-dashboards-area)
-* [中的默认部分 [!UICONTROL 请求] 区域](#default-sections-in-the-requests-area)
-* [中的默认部分 [!UICONTROL 资源] 区域](#default-sections-in-the-resourcing-area)
-* [中的默认部分 [!UICONTROL 项目] 区域](#default-sections-in-the-projects-area)
-* [中的默认部分 [!UICONTROL 时间表] 区域](#default-sections-in-the-timesheets-area)
-* [中的默认部分 [!DNL Goals] 区域](#default-sections-in-the-goals-area)
+* [[!UICONTROL 功能板]区域中的默认分区](#default-sections-in-the-dashboards-area)
+* [[!UICONTROL 请求]区域中的默认节](#default-sections-in-the-requests-area)
+* [[!UICONTROL 资源]区域中的默认节](#default-sections-in-the-resourcing-area)
+* [[!UICONTROL 项目]区域中的默认分区](#default-sections-in-the-projects-area)
+* [[!UICONTROL 时间表]区域中的默认部分](#default-sections-in-the-timesheets-area)
+* [ [!DNL Goals] 区域中的默认节](#default-sections-in-the-goals-area)
 
-### 中的默认部分 [!UICONTROL 仪表板] 区域
+### [!UICONTROL 功能板]区域中的默认分区
 
-以下部分显示在的左侧面板中 **[!UICONTROL 仪表板]** 区域：
+以下部分显示在&#x200B;**[!UICONTROL 功能板]**&#x200B;区域的左侧面板中：
 
 <table style="table-layout:auto">
     <tr>
@@ -96,7 +96,7 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
     </tr>
     <tr>
         <td><strong>[！UICONTROL共享功能板]</strong></td>
-        <td>显示由其他用户创建并与您共享的仪表板。</td>
+        <td>显示其他用户已创建并与您共享的仪表板。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL所有仪表板]</strong></td>
@@ -104,57 +104,57 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
     </tr>
 </table>
 
-要了解如何使用仪表板区域中的左侧面板，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+要了解如何在仪表板区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
-### 中的默认部分 [!UICONTROL 请求] 区域
+### [!UICONTROL 请求]区域中的默认节
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>[！UICONTROL已提交]</strong></td>
-        <td>显示您或其他用户已提交的请求，并且您至少有权查看这些请求。 使用请求列表右上角的过滤器查看您的请求或他人已提交且您有权查看的请求。</td>
+        <td>显示您或其他用户已提交的请求，并且您至少有权查看这些请求。 使用请求列表右上角的过滤器查看您的请求或其他人已提交的请求，并且您有权查看。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL草稿]</strong></td>
-        <td>显示您已启动但尚未提交的请求。 [!DNL Workfront] 选择队列主题后，任何新请求都会自动保存到“草稿”文件夹中。</td>
+        <td>显示您已启动但尚未提交的请求。 选择队列主题后，[!DNL Workfront]会自动将任何新请求保存到“草稿”文件夹中。</td>
     </tr>
 </table>
 
-要了解如何使用 [!UICONTROL 请求] 区域，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+若要了解如何在[!UICONTROL 请求]区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
-### 中的默认部分 [!UICONTROL 资源] 区域
+### [!UICONTROL 资源]区域中的默认节
 
-以下部分显示在的左侧面板中 **[!UICONTROL 资源]** 区域：
+以下部分显示在&#x200B;**[!UICONTROL Resourcing]**&#x200B;区域的左侧面板中：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>计划人</strong></td> 
-   <td>显示资源规划者。 使用此区域可跨多个项目计划您的资源。 有关使用资源规划者的信息，请参阅 <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">资源规划入门</a>.</td> 
+   <td role="rowheader"><strong>规划器</strong></td> 
+   <td>显示资源规划者。 使用此区域在多个项目中计划您的资源。 有关使用资源规划程序的信息，请参阅<a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">开始使用资源规划</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL工作负载均衡器]</strong></td> 
-   <td>显示工作负载均衡器。 使用此区域为您的资源分配实际工作。 <br>
-   有关使用计划资源的信息，请参阅 <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">在工作负载均衡器中分配工作概述</a>.</td> 
+   <td>显示工作负载均衡器。 使用此区域将实际工作分配给您的资源。 <br>
+   有关使用计划资源的信息，请参阅<a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">在工作负载均衡器</a>中分配工作的概述。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>利用</strong></td> 
-   <td>显示利用率报告。 有关如何读取利用率报告的信息，请参见 <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">资源利用率报表概览</a>.</td> 
+   <td role="rowheader"><strong>利用情况</strong></td> 
+   <td>显示利用率报告。 有关如何读取利用率报告的信息，请参阅<a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">资源利用率报告概览</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>资源池</strong></td> 
-   <td>显示Workfront中的所有资源池。 有关资源池的信息，请参见 <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 资源池概述 </a>.</td>
+   <td>显示Workfront中的所有资源池。 有关资源池的信息，请参阅<a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</td>
   </tr> 
  </tbody> 
 </table>
 
 
-要了解如何使用 [!UICONTROL 资源] 区域，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+若要了解如何在[!UICONTROL 资源]区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
-### 中的默认部分 [!UICONTROL 项目] 区域
+### [!UICONTROL 项目]区域中的默认分区
 
-以下部分显示在的左侧面板中 **[!UICONTROL 项目]** 区域：
+以下部分显示在&#x200B;**[!UICONTROL 项目]**&#x200B;区域的左侧面板中：
 
 <table style="table-layout:auto">
     <tr>
@@ -163,20 +163,20 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
     </tr>
     <tr>
         <td><strong>[！UICONTROL自定义分区]</strong></td>
-        <td>您可以查看您的网站的所有自定义分区， [!DNL Workfront] 管理员已添加到布局模板中[！UICONTROL项目]区域的左侧面板。 自定义部分的名称已针对您的环境进行了自定义。</td>
+        <td>您可以查看您的[!DNL Workfront]管理员在布局模板中[！UICONTROL项目]区域添加到左侧面板的所有自定义分区。 自定义部分的名称已针对您的环境进行了自定义。</td>
     </tr>
 </table>
 
-要了解如何使用 [!UICONTROL 项目] 区域，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+若要了解如何在[!UICONTROL 项目]区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
-### 中的默认部分 [!UICONTROL 时间表] 区域
+### [!UICONTROL 时间表]区域中的默认部分
 
-以下部分显示在的左侧面板中 **[!UICONTROL 时间表]** 区域：
+以下部分显示在&#x200B;**[!UICONTROL 时间表]**&#x200B;区域的左侧面板中：
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL我的时间表]</strong></td>
-        <td>默认显示所有活动时间表。 要显示已提交或已关闭的工时表，请从[！UICONTROL过滤器]下拉菜单中选择[！UICONTROL已提交]或[！UICONTROL全部]。</td>
+        <td><strong>[！UICONTROL我的工时表]</strong></td>
+        <td>默认显示所有活动时间表。 要显示已提交或已关闭的工时表，请从[！UICONTROL过滤器]下拉菜单中选择[！UICONTROL已提交]或[！UICONTROL全部] 。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL我批准的时间表]</strong></td>
@@ -184,32 +184,32 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
     </tr>
     <tr>
         <td><strong>[！UICONTROL所有时间表]</strong></td>
-        <td>根据在左侧筛选条件区域中选择的筛选条件，显示您有权查看的所有时间表。</td>
+        <td>根据在左侧过滤器区域中选择的过滤器，显示您有权查看的所有时间表。</td>
     </tr>
 </table>
 
-要了解如何使用 [!UICONTROL 时间表] 区域，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+若要了解如何在[!UICONTROL 时间表]区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
-### 中的默认部分 [!DNL Goals] 区域
+### [!DNL Goals]区域中的默认分区
 
 >[!NOTE]
 >
->访问目标需要额外的许可证。 有关信息 [!DNL Workfront Goals]，请参见 [[!DNL Adobe Workfront Goals] 概述](../../workfront-goals/goal-management/wf-goals-overview.md).
+>访问目标需要额外的许可证。 有关[!DNL Workfront Goals]的信息，请参阅[[!DNL Adobe Workfront Goals] 概述](../../workfront-goals/goal-management/wf-goals-overview.md)。
 
-以下部分显示在的左侧面板中 **[!UICONTROL 目标]** 区域：
+以下部分显示在&#x200B;**[!UICONTROL 目标]**&#x200B;区域的左侧面板中：
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>[！UICONTROL目标列表]</strong></td>
-        <td>显示您有权查看的所有目标。 有关更多信息，请参阅 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">管理[！UICONTROL目标列表]中的目标 [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>显示您有权查看的所有目标。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>的[！UICONTROL目标列表]中的<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">管理目标。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL图形]</strong></td>
-        <td>在图表中显示目标的性能。 有关更多信息，请参阅 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">查看图表以了解中的目标进度趋势 [!DNL Adobe Workfront] 目标</a>.</td>
+        <td>在图表中显示目标的性能。 有关详细信息，请参阅<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">查看图表以了解[!DNL Adobe Workfront]目标</a>中的目标进度趋势。</td>
     </tr>
     <tr>
         <td><strong>[！UICONTROL目标对齐方式]</strong></td>
-        <td>在层次结构中显示目标彼此的对齐方式。 有关更多信息，请参阅 <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">中的目标对齐概述 [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>在层次结构中显示目标彼此的对齐方式。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">目标对齐概述。</td>
     </tr>
     </table>
 
@@ -230,22 +230,22 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
     </tr>
 </table>
 -->
-要了解如何使用 [!UICONTROL 目标] 区域，请参阅部分 [使用左侧导航面板](#use-the-left-navigation-panel) 本文章中。
+若要了解如何在[!UICONTROL 目标]区域中使用左侧面板，请参阅本文中的[使用左侧导航面板](#use-the-left-navigation-panel)部分。
 
 ## 使用左侧导航面板
 
-对于这些对象，在左侧面板中查找和编辑信息类似。 根据您访问的对象，左侧面板中可用的选项会有所不同。
+在左侧面板中查找和编辑信息与这些对象类似。 左侧面板中可用的选项因您访问的对象而异。
 
-要了解哪些部分适用于特定区域，请参阅 [[!UICONTROL 默认部分] 在左侧导航面板中](#default-sections-in-the-left-navigation-panel).
+要了解哪些部分可用于特定区域，请参阅左侧导航面板[[!UICONTROL 默认部分]](#default-sections-in-the-left-navigation-panel)。
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon-16x12.png)，然后单击对象的名称以访问它。
+1. 单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon-16x12.png)，然后单击对象的名称以访问它。
 
    此时将显示对象页。
 
-1. （视情况而定）如果选择了包含对象列表的区域，例如 **[!UICONTROL 项目]** 或 **[!UICONTROL Portfolio]** — 您必须执行以下操作才能访问左侧面板导航：
+1. （视情况而定）如果您选择的区域包含对象列表，如&#x200B;**[!UICONTROL 项目]**&#x200B;或&#x200B;**[!UICONTROL Portfolio]**，则必须执行以下操作才能访问左侧面板导航：
 
    1. 单击列表中的对象。
-   1. （可选）在左侧面板导航中，您可以选择其他对象，例如 **[!UICONTROL 任务]** 或 **[!UICONTROL 问题]** 在项目内 — 在左侧面板中访问对象列表，然后单击特定对象的名称。\
+   1. （可选）在左侧面板导航中，您可以选择左侧面板中的其他对象（如项目中的&#x200B;**[!UICONTROL 任务]**&#x200B;或&#x200B;**[!UICONTROL 问题]**）来访问对象列表，然后单击特定对象的名称。\
 
       此时将显示对象页。
 
@@ -255,31 +255,31 @@ WF中的大多数区域和对象都使用屏幕左侧的简单导航面板。 �
 
    ![左侧面板部分](assets/NWE-left-navigation-panel.png)
 
-1. （可选）单击 **[!UICONTROL 显示更多]** 左侧面板底部显示更多部分。
+1. （可选）单击左侧面板底部的&#x200B;**[!UICONTROL 显示更多]**&#x200B;以显示更多部分。
 
    >[!NOTE]
    >
    >如果所有部分默认显示在左侧面板中，则此选项不可用。
 
-1. （可选）要添加功能板快速链接，请单击 **[!UICONTROL 添加仪表板]** 然后，在左侧面板底部执行以下操作：
+1. （可选）要添加仪表板快速链接，请单击左侧面板底部的&#x200B;**[!UICONTROL 添加仪表板]**，然后执行以下操作：
 
-   1. 在中键入仪表板的名称 **[!UICONTROL 快速链接名称]** 字段。
-   1. 开始键入中现有仪表板的名称 **[!UICONTROL 选择功能板]** 字段，然后在仪表板显示在列表中时单击它。
+   1. 在&#x200B;**[!UICONTROL 快速链接名称]**&#x200B;字段中键入仪表板的名称。
+   1. 在&#x200B;**[!UICONTROL 选择仪表板]**&#x200B;字段中开始键入现有仪表板的名称，然后在仪表板显示在列表中时单击该仪表板。
 
       >[!TIP]
       >
       >必须先构建仪表板，然后才能将其显示在列表中。
 
-   1. 单击 **[!UICONTROL 添加]**.
+   1. 单击&#x200B;**[!UICONTROL 添加]**。
 
       仪表板链接显示在左侧面板的底部。
 
-1. （可选）要更改左侧面板中部分的顺序，请单击 **[!UICONTROL 拖动]** 图标 ![](assets/drag-icon.png) 向右拖动区域，然后向上或向下拖动该区域。
+1. （可选）要更改左侧面板中部分的顺序，请单击部分右侧的&#x200B;**[!UICONTROL 拖动]**&#x200B;图标![](assets/drag-icon.png)，然后将其向上或向下拖动。
 
    ![拖动分区](assets/drag-section-right.png)
 
-1. （可选）要关闭左侧面板，请单击 **[!UICONTROL 折叠]** 图标 ![](assets/left-panel-collapse-icon.png).
+1. （可选）要关闭左侧面板，请单击&#x200B;**[!UICONTROL 折叠]**&#x200B;图标![](assets/left-panel-collapse-icon.png)。
 
    >[!NOTE]
    >
-   >折叠左侧面板时， [!DNL Workfront] 即使您导航到其他页面，也会保留您的首选项 [!DNL Workfront] 对象。 要再次展开左侧面板，请单击 **[!UICONTROL 展开]** 图标 ![](assets/left-panel-expand-icon.png).
+   >折叠左侧面板时，[!DNL Workfront]会保留您的首选项，即使您导航到其他[!DNL Workfront]对象也是如此。 要再次展开左侧面板，请单击&#x200B;**[!UICONTROL 展开]**&#x200B;图标![](assets/left-panel-expand-icon.png)。

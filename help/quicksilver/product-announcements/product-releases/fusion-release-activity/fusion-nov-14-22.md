@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Workfront Fusion发行活动： 2022年11月14日开始的周
 
-**MicrosoftPower BI连接器和模块现已推出**
+**MicrosoftPower BI连接器和模块现已可用**
 
 现在，您可以将Adobe Workfront Fusion连接到您的MicrosoftPower BI帐户。
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 在数据集表中添加或删除行
 * 对MicrosoftPower BIAPI进行自定义API调用
 
-有关更多信息，请参阅 [MicrosoftPower BI模块](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+有关详细信息，请参阅[MicrosoftPower BI模块](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)。

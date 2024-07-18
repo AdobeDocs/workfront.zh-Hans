@@ -19,12 +19,12 @@ ht-degree: 0%
 要聚合Adobe Workfront中的多个字段并在新字段中显示该聚合值，您可以创建以下内容：
 
 * 自定义表单中的计算自定义字段\
-  有关将计算的自定义字段添加到自定义表单的更多信息，请参阅部分 [将计算字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 在文章中 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  有关将计算自定义字段添加到自定义表单的更多信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的[将计算字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form)部分。
 
 * 视图中的计算列\
-  有关在视图中使用计算的更多信息，请参阅部分 [在视图中使用文本模式](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 在文章中 [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  有关在视图中使用计算的更多信息，请参阅文章[文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在视图](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)中使用文本模式部分。
 
-虽然使用文本模式来构建计算字段和计算列，但构建它们的语法不同。 请参阅上面列出的文章，了解如何构建计算字段和计算列。 有关计算数据表达式中使用的不同语法（例如计算的自定义字段和列）的信息，请参阅部分 [计算自定义字段与计算自定义列的语法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 本文章中。
+虽然使用文本模式来构建计算字段和计算列，但构建它们的语法不同。 请参阅上面列出的文章，了解如何构建计算字段和计算列。 有关在计算数据表达式（如计算自定义字段和列）中使用的不同语法的信息，请参阅本文中的[计算自定义字段与计算自定义列的语法](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns)部分。
 
 您可以在计算字段和计算列中使用相同的计算。 但是，根据您用于这些计算的目的，您可能需要考虑构建一个报表包而不是另一个报表。
 
@@ -61,21 +61,21 @@ ht-degree: 0%
    <td><strong>计算的自定义报表元素</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>使用显示在Workfront界面中的字段的名称。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>计算自定义字段中使用的字段名称示例： <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>使用对象或字段在Workfront数据库中显示的名称。 如果对象和字段是复合名称，则其名称会以小写或驼峰式大小写拼写。 </p> <p>有关数据库中显示的所有Workfront对象和字段的清单，请参阅 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>计算自定义报表元素中使用的字段名称示例： <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>使用显示在Workfront界面中的字段的名称。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>计算自定义字段中使用的字段名称示例： <code>Planned Completion Date</code>。</p> </td> 
+   <td> <p>使用对象或字段在Workfront数据库中显示的名称。 如果对象和字段是复合名称，则其名称会以小写或驼峰式大小写拼写。 </p> <p>有关数据库中出现的所有Workfront对象和字段的清单，请参阅<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>示例： </b></span></span>计算自定义报表元素中使用的字段名称示例： <code>plannedCompletionDate</code>。</p> </td> 
   </tr> 
   <tr> 
    <td>用圆括号或大括号括住字段名称</td> 
-   <td> <p>在中使用字段名称时，请勿将其括在方括号或圆括号中 <code>valuefield </code>行。</p> <p>在中使用字段名称时，用大括号括住字段名称 <code>valueexpression</code> 行。</p> </td> 
+   <td> <p>在<code>valuefield </code>行中使用字段名称时，请勿用括号或圆括号括住字段名称。</p> <p>在<code>valueexpression</code>行中使用字段名称时，请用大括号括住字段名称。</p> </td> 
   </tr> 
   <tr> 
    <td>按句点分隔字段</td> 
-   <td> <p>在中使用字段时，请用冒号分隔这些字段 <code>valuefield</code>行。</p> <p>在中使用字段时，按句点分隔字段 <code>valueexpression</code>行。</p> </td> 
+   <td> <p>在<code>valuefield</code>行中使用字段时，请用冒号分隔这些字段。</p> <p>在<code>valueexpression</code>行中使用字段时按句点分隔字段。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关必须在计算自定义列中使用的语法的更多信息，请参阅 [文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+有关计算自定义列中必须使用的语法的详细信息，请参阅[文本模式概述](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
 ## 何时使用计算的自定义字段
 
@@ -85,10 +85,10 @@ ht-degree: 0%
 
 ## 触发计算自定义字段更新的操作
 
-* 在对象的主页上，单击更多图标 ![](assets/more-icon.png)，然后单击 **重新计算表达式**
+* 在对象的主页上单击“更多”图标![](assets/more-icon.png)，然后单击&#x200B;**重新计算表达式**
 
-* 在以下情况下批量编辑多个对象 **重新计算自定义表达式** 已启用
-* 编辑自定义表单时 **更新以前的计算** 为计算的自定义字段启用
+* 启用&#x200B;**重新计算自定义表达式**&#x200B;时批量编辑多个对象
+* 在为计算的自定义字段启用&#x200B;**更新以前的计算**&#x200B;时编辑自定义表单
 
 ## 何时在视图中使用计算列
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 ## 计算自定义字段和列的示例
 
-有关计算的自定义字段的示例，请参阅 [报表中计算的自定义数据](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+有关计算自定义字段的示例，请参阅[报表中的计算自定义数据](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)。
 
 有关视图中计算的自定义列的示例，请参阅以下文章：
 
-* [文本模式的常见用途概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [文本模式的常见用法概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [自定义视图、筛选器和分组示例：文章索引](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

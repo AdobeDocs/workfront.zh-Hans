@@ -57,7 +57,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -65,8 +65,8 @@ ht-degree: 6%
 
 {{step-1-to-setup}}
 
-1. 单击 **访问级别** 在左侧面板中。
-1. 选择要复制和自定义的访问级别，然后单击 **复制**.
+1. 单击左侧面板中的&#x200B;**访问级别**。
+1. 选择要复制和自定义的访问级别，然后单击&#x200B;**复制**。
 
    或
 
@@ -88,12 +88,12 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">许可证类型</td> 
-      <td>请确保此处选择的许可证与您创建或编辑的访问级别类型最相关。 所选许可证确定访问级别可用的设置。 有关更多信息，请参阅 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a> 或 <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">许可证概述</a>.</td> 
+      <td>请确保此处选择的许可证与您创建或编辑的访问级别类型最相关。 所选许可证确定访问级别可用的设置。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新许可证概述</a>或<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">许可证概述</a>。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （视情况而定）如果 **标准** 或 **计划** 在 **许可证类型** 框，滚动到部分 **允许管理访问权限** 并为将拥有此访问级别的用户选择管理访问权限。
+1. （视情况而定）如果在&#x200B;**许可证类型**&#x200B;框中选择了&#x200B;**标准**&#x200B;或&#x200B;**计划**，请滚动到&#x200B;**允许**&#x200B;的管理访问权限，并为将拥有此访问级别的用户选择管理访问权限。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ ht-degree: 6%
         <li>他们管理的项目、任务或问题的费用</li>
         <li>他们自己的费用</li>
         <li>他们下属的开支</li>
-       </ul><p><b>注意</b>：不允许用户创建新费用类型。</p></td> 
+       </ul><p><b>注意</b>：不允许用户创建新的费用类型。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">工作角色</td> 
@@ -132,7 +132,7 @@ ht-degree: 6%
         <li>添加新工作角色</li> 
         <li>编辑角色计费和成本率</li> 
        </ul> 
-       <p>有关对工作角色具有管理访问权限的Standard或Planner用户可用的财务数据访问权限的重要信息，请参阅 <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">对工作角色具有管理访问权限的标准或Planner用户</a>.</p>
+       <p>有关对工作角色具有管理访问权限的Standard或Planner用户可用以访问财务数据的重要信息，请参阅<a href="#standard-or-planner-users-with-administrative-access-to-job-roles">对工作角色具有管理访问权限的Standard或Planner用户</a>。</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 单击 **设置其他限制**，然后为访问级别设置以下任意限制。
+1. 单击&#x200B;**设置其他限制**，然后为访问级别设置以下任何限制。
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ ht-degree: 6%
     <tbody> 
      <tr> 
       <td role="rowheader">不要给分派任务或问题的整个项目授予访问权限</td> 
-      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目的权限的更多信息，请参阅部分 <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> 在文章中 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>.</p></td> 
+      <td> 阻止分配给任务或问题的用户也获得父项目的权限，即使项目权限允许这样做。<p>有关配置项目权限的详细信息，请参阅文章<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">编辑项目</a>中的部分<a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">不要从项目、任务、问题等...继承文档访问权限</td> 
@@ -176,7 +176,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">视图仅在已将他们包含在会话中的位置上更新</td> 
-      <td> 允许用户仅查看包含其名称或团队名称的注释。 <p> <p><b>注意</b>：这可防止用户订阅Workfront中的项目。 有关订阅项目的详细信息，请参阅 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">订阅Adobe Workfront中的项目</a>.</p> </p> </td> 
+      <td> 允许用户仅查看包含其名称或团队名称的注释。 <p> <p><b>注意</b>：这将阻止用户订阅Workfront中的项目。 有关订阅项目的详细信息，请参阅<a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">在Adobe Workfront中订阅项目</a>。</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">切勿允许用户删除评论 </td> 
@@ -184,7 +184,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">仅查看他们属于的公司、组和团队</td> 
-      <td>允许用户仅查看项目并与他们所属的公司、组和团队共享项目。<p><strong>注意</strong>：拥有请求者许可证的用户无法查看他们不属于的公司，即使选择了此选项也是如此。</td> 
+      <td>允许用户仅查看项目并与他们所属的公司、组和团队共享项目。<p><strong>注意</strong>：具有请求者许可证的用户无法查看他们不属于的公司，即使选择了此选项也是如此。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">绝不允许计划小时数或实际小时数可见</td> 
@@ -192,27 +192,27 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">不允许用户删除公告</td> 
-      <td>防止用户删除公告中心中的公告。 有关更多信息，请参阅 <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">发送公告</a>.</td> 
+      <td>防止用户删除公告中心中的公告。 有关详细信息，请参阅<a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">发送公告</a>。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （有条件，可选）如果为属于多个公司的用户设置了Workfront系统，则根据其他用户在部分中所属的公司来限制其他用户的可见性 **其他公司的人员应只能查看以下项的用户：**.
+1. （有条件，可选）如果您的Workfront系统设置为属于多个公司的用户，请根据其他用户在部分&#x200B;**中所属的公司来限制其他用户的可见性。其他公司的人员应仅查看来自**&#x200B;的用户。
 
-   您可以限制用户仅查看其公司或您指定为主要公司的公司的用户。 主要公司通常表示您的大多数用户工作的Workfront帐户。 有关主要公司的详细信息，请参阅 [创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   您可以限制用户仅查看其公司或您指定为主要公司的公司的用户。 主要公司通常表示您的大多数用户工作的Workfront帐户。 有关主要公司的详细信息，请参阅[创建和编辑公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)。
 
    >[!NOTE]
    >
    >如果两个用户属于两个不同的公司，但他们都可以看到来自主要公司的用户，则他们可以看到与主要公司关联的“更新”区域。
 
-1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行中列出的文章之一 [配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)，例如 [授予任务访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 和 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. （可选）要为您正在处理的访问级别中的其他对象和区域配置访问设置，请继续执行[配置对Adobe Workfront的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，如[授予对任务的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 单击&#x200B;**保存**。
 
    创建访问级别后，您可以将其分配给用户（除非是系统管理员访问级别）。
 
-   有关更多信息，请参阅 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   有关详细信息，请参阅[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-   有关Adobe管理员如何为用户分配系统管理员访问级别的信息，请参见 [授予用户完全管理权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   有关Adobe管理员如何为用户分配系统管理员访问权限级别的信息，请参阅[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
 
 ## 对工作角色具有管理访问权限的标准或Planner用户 {#planner-users}
 
@@ -220,4 +220,4 @@ ht-degree: 6%
 
 之后，如果您为用户禁用工作角色的管理访问权限，则用户仍可看到工作角色，因为编辑角色计费和成本费率设置仍处于启用状态。
 
-如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅 [授予对财务数据的访问权限](grant-access-financial.md).
+如果发生这种情况，并且您需要删除用户查看工作角色的访问权限，则需要禁用用户的“编辑角色计费和成本费率”权限设置。 有关说明，请参阅[授予对财务数据的访问权限](grant-access-financial.md)。

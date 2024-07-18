@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 「計算自訂欄位範例：在問題自訂表單上顯示問題建立者的經理」
-description: 使用計算出的自訂欄位，您可以在附加到問題的自訂表單上顯示問題建立者的經理姓名。 使用相同的陳述式，您可以為專案、問題和其他物件建立類似的計算欄位。
+title: “计算自定义字段示例：在问题自定义表单上显示问题创建者的经理”
+description: 使用计算自定义字段，您可以在附加到问题的自定义表单上显示问题创建者的经理姓名。 使用相同的语句，您可以为项目、问题和其他对象构建类似的计算字段。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員
+# 计算自定义字段示例：在问题自定义表单上显示问题创建者的经理
 
-使用計算出的自訂欄位，您可以在附加到問題的自訂表單上顯示問題建立者的經理姓名。 使用相同的陳述式，您可以為專案、問題和其他物件建立類似的計算欄位。
+使用计算自定义字段，您可以在附加到问题的自定义表单上显示问题创建者的经理姓名。 使用相同的语句，您可以为项目、问题和其他对象构建类似的计算字段。
 
 <!--outdated link: 
 >[!TIP]
@@ -24,47 +24,47 @@ ht-degree: 0%
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
 -->
 
-## 存取需求
+## 访问要求
 
-您必須具有下列存取權才能執行本文中的步驟：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront計畫*</p> </td> 
+   <td> <p>Adobe Workfront计划*</p> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront授權*</p> </td> 
+   <td> <p>Adobe Workfront许可证*</p> </td> 
    <td> <p>计划 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>存取層級設定*</td> 
-   <td> <p>管理自訂表單的存取權<br>如需有關從存取層級授予管理存取許可權的資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予使用者對特定區域的管理存取權</a>.</p> <p>注意：如果您仍然沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何變更存取層級的詳細資訊，請參閱 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>.</p> </td> 
+   <td>访问级别配置*</td> 
+   <td> <p>对自定义表单的管理访问权限<br>有关从访问级别授予管理访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>物件許可權</p> </td> 
-   <td> <p>為已附加表單的物件提供「編輯自訂表單」的存取權</p> <p>如需請求其他存取許可權的詳細資訊，請參閱 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">要求物件的存取權 </a>.</p> </td> 
+   <td> <p>对象权限</p> </td> 
+   <td> <p>Contribute对表单附加到的对象的访问权限，以及对编辑自定义表单的访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 在問題自訂表單上顯示問題建立者的經理
+## 在问题自定义表单上显示问题创建者的经理
 
-以下步驟顯示如何為問題自訂表單建立計算欄位，您可以在其中擷取建立問題的使用者經理姓名。 例如，當您想要擷取建立任務、專案和投資組合之使用者的經理姓名時，程式是相同的。
+以下步骤显示如何为问题自定义表单创建计算字段，您可以在其中捕获创建问题的用户经理的姓名。 当您要捕获创建任务（例如，项目、项目组合）的用户的经理姓名时，该过程是相同的。
 
-1. 建立問題自訂表單，並在其中新增計算欄位。
+1. 创建问题自定义表单并向其中添加计算字段。
 
-   如需建立自訂表單及新增計算欄位的詳細資訊，請參閱下列文章：
+   有关创建自定义表单并向其中添加计算字段的信息，请参阅以下文章：
 
-   * [建立或編輯自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [將計算資料新增至自訂表單](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. 將下列文字模式程式碼複製並貼到 **計算** 自訂表單的欄位：
+1. 将以下文本模式代码复制并粘贴到自定义表单的&#x200B;**计算**&#x200B;字段中：
 
    ```
    {owner}.{manager}.{name}
@@ -72,8 +72,8 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >自訂欄位計算區分大小寫。
+   >自定义字段计算区分大小写。
 
-1. 按一下 **完成**，則 **儲存+關閉**.
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存+关闭**。
 
-   當包含欄位的表單附加到問題時，建立問題的使用者的管理員顯示在計算欄位中。
+   将包含计算字段的表单附加到问题时，创建问题的用户的经理将显示在该字段中。

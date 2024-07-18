@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-您可以配置项目以允许用户通过电子邮件将问题添加到项目。 仅当项目被指定为请求队列时，您才可以允许通过电子邮件将问题发送到项目中。 有关创建“请求队列”项目的详细信息，请参阅 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+您可以配置项目以允许用户通过电子邮件将问题添加到项目。 仅当项目被指定为请求队列时，您才可以允许通过电子邮件将问题发送到项目中。 有关创建请求队列项目的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 ## 访问要求
 
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置*</td> 
    <td> <p>编辑对问题的访问权限</p> <p><b>注释</b>
 
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td>
+如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 先决条件
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 >我们建议，您设置为通过电子邮件接收请求的项目不应有多个队列主题。 如果提交的请求针对不同的资源或项目，则在提交请求后应手动路由或移动它们。
 
 1. 转到要启用以通过电子邮件接收问题的项目。
-1. 单击 **队列详细信息** 在左侧面板中。 您可能需要单击 **显示更多** 首先。
-1. 在 **队列类型** 区域，选择 **Publish作为帮助请求队列**.
+1. 单击左侧面板中的&#x200B;**队列详细信息**。 您可能需要先单击&#x200B;**显示更多**。
+1. 在&#x200B;**队列类型**&#x200B;区域，选择&#x200B;**Publish作为帮助请求队列**。
 
-1. 向下滚动到 **电子邮件队列设置** 区域，然后选择 **通过电子邮件启用请求接收**.
+1. 向下滚动到&#x200B;**电子邮件队列设置**&#x200B;区域，然后选择&#x200B;**启用通过电子邮件接收请求**。
 
-1. 在中输入电子邮件地址的开头 **接收电子邮件地址** 盒子。
+1. 在&#x200B;**接收电子邮件地址**&#x200B;框中输入电子邮件地址的开头。
 
    您必须创建一个唯一的电子邮件地址。 我们建议将您的公司名称用作接收电子邮件地址的一部分。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. （可选）选择 **通过电子邮件转发所有无法提交的问题**，然后在下面的框中输入转发电子邮件地址。
+1. （可选）选择&#x200B;**转发所有无法通过电子邮件提交的问题**，然后在以下框中输入转发电子邮件地址。
 
    此电子邮件地址会接收有关未能提交到项目的电子邮件的信息。
 
-1. 单击 **保存**. 现在，当具有活动Workfront帐户的用户向此电子邮件地址发送电子邮件时，会在Workfront项目中创建问题。
+1. 单击&#x200B;**保存**。 现在，当具有活动Workfront帐户的用户向此电子邮件地址发送电子邮件时，会在Workfront项目中创建问题。
 
    >[!NOTE]
    >

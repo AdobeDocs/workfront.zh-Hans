@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在21.3版本中对“预览”环境所做的所有“管理员”增强。 这些增强功能已在2021年7月21日这一周的生产环境中提供。
 
-有关21.3版本可用的所有更改列表，请参阅 [21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+有关21.3版本的所有可用更改列表，请参阅[21.3版本概述](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)。
 
 ## 21.3版本的生产中提供的Blueprint
 
@@ -25,9 +25,9 @@ Blueprint功能将在2021年6月21日当周的21.3生产版本中正式提供。
 
 Blueprint提供了基本构建块，帮助您创建随增长而增长的工作管理系统。 系统管理员可以浏览Blueprint目录并安装现成的项目模板。
 
-有关更多信息，请参阅 [Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md).
+有关详细信息，请参阅[Blueprint概述](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能现已包含在 [新版Workfront Experience中的项目模板](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Workfront One学习路径。
+此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4)学习路径的[项目模板中。
 
 ## 组管理员的新增功能：创建和管理任何级别组的状态
 
@@ -43,13 +43,13 @@ Workfront管理员还可以执行以下操作（针对所有组）。
 
 以前，此功能仅适用于顶级组。
 
-有关更多信息，请参阅 [管理组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+有关详细信息，请参阅[管理组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。
 
 ## 管理员的新增功能：创建开票记录自定义表单
 
 现在，您可以通过创建账单记录自定义表单，改进用户捕获账单信息的方式。 用户可以将自定义表单附加到账单记录中，填写并运行在表单中包含信息的报表。
 
-有关创建自定义表单的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关创建自定义表单的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-有关将账单记录自定义表单附加到项目的信息，请参阅 [向对象添加自定义表单](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+有关将记帐记录自定义表单附加到项目的信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 本页介绍了2019.2版本中包含的所有项目增强功能。 此功能计划于2019年5月20日这一周在“生产”环境中可用。
 
-有关2019.2版中所做所有更改的列表，请参阅 [2019.2发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 自定义状态时更快地查找组
 
@@ -26,13 +26,13 @@ ht-degree: 1%
 
 以前，下拉菜单显示的组数量有限。 如果未显示所需的组，则必须导航到“设置”>“组”并查找特定组，以自定义组的状态。
 
-有关更多信息，请参阅 [创建或编辑状态](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+有关详细信息，请参阅[创建或编辑状态](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 将默认自定义Forms和批准流程附加到任务
 
 您现在可以配置默认自定义表单和审批流程，以便在将任务添加到项目时附加到任务。 您可以在项目级别配置默认设置。
 
-有关在项目级别为任务配置默认自定义表单和批准流程的信息，请参阅 [编辑项目](../../../../manage-work/projects/manage-projects/edit-projects.md) 文章。
+有关在项目级别为任务配置默认自定义表单和审批流程的信息，请参阅[编辑项目](../../../../manage-work/projects/manage-projects/edit-projects.md)文章中的“任务”部分。
 
 ## 在任务列表中以粗体显示父任务的整行
 
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 在此增强功能之前，所有更改始终自动保存。
 
-有关在任务列表中编辑任务的信息，请参阅 [编辑任务](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+有关在任务列表中编辑任务的信息，请参阅[编辑任务](../../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
-有关在甘特图中编辑任务的信息，请参阅 [更新任务列表甘特图中的信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+有关在甘特图中编辑任务的信息，请参阅任务列表甘特图中的[更新信息](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)。
 
 ## 新列表中的新列宽默认值
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 在此改进之前，除非另有指定，否则新项目和任务视图中的列宽设置为100像素。
 
-有关列宽的信息，请参见 [修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+有关列宽的信息，请参阅[修改列宽和顺序](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
 ## 取消激活未使用的对象
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 虽然这些项目绩效指标以前在Workfront的财务计算中被使用，但在进行此增强之前它们在系统中不可见。
 
-有关计算BCWS的信息，请参见 [计算计划工作的预算成本(BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+有关计算BCWS的信息，请参阅[计算计划工作的预算成本(BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md)。
 
-有关计算BCWP的信息，请参见 [计算已执行工作的预算成本(BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+有关计算BCWP的信息，请参阅[计算已执行工作的预算成本(BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md)。
 

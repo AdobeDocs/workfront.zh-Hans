@@ -20,7 +20,7 @@ ht-degree: 17%
 
 * [Adobe Workfront术语表](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront浏览器要求](../workfront-basics/workfront-browser-requirements.md)
-* [Adobe Workfront支持的语言](../workfront-basics/supported-languages-in-workfront.md)
+* Adobe Workfront中的[支持的语言](../workfront-basics/supported-languages-in-workfront.md)
 * [导航Adobe Workfront：文章索引](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [主页](../workfront-basics/using-home/home.md)
 * [更新工作项并查看更新：文章索引](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -28,5 +28,5 @@ ht-degree: 17%
 * [使用通知：文章索引](../workfront-basics/using-notifications/use-notifications.md)
 * [向对象授予权限并请求权限](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [管理您的帐户和配置文件](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-* [移动应用程序](../workfront-basics/mobile-apps/mobile-apps.md)
+* [移动应用](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Adobe Workfront基础知识的提示、技巧和疑难解答](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

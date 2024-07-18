@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本页介绍了2022年5月9日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 
 ## 对方案执行历史记录搜索功能的增强
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 以前，用户只能搜索文本，并且只能在执行的完整列表上使用过滤器。
 
-有关更多信息，请参阅 [在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+有关详细信息，请参阅[在Adobe Workfront Fusion中查看方案的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。

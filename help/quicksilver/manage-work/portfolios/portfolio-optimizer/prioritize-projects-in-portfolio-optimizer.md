@@ -1,8 +1,8 @@
 ---
-title: 在Portfolio优化器中排定项目的优先级
+title: 在Portfolio优化器中排定项目优先级
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-description: 您可以在Portfolio优化器中对项目进行优先级排序，以确定项目应按此顺序完成。
+description: 您可以在Portfolio优化器中排定项目的优先级，以确立应按何种顺序完成项目。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# 在 [!UICONTROL Portfolio优化程序]
+# 在[!UICONTROL Portfolio优化器]中优先处理项目
 
-您可以在 [!UICONTROL Portfolio优化程序]，以确定完成这些任务的顺序。
+您可以在[!UICONTROL Portfolio优化器]中确定项目的优先顺序，以确立项目的完成顺序。
 
-使用 [!UICONTROL Portfolio优化程序]:
+使用[!UICONTROL Portfolio优化器]时，请考虑以下事项：
 
-* 顶部的项目 [!UICONTROL Portfolio优化程序] 被认为比下面所列的更重要。 您需要按照 [!UICONTROL Portfolio优化程序] Portfolio。
-* 项目在 [!UICONTROL Portfolio优化程序] 与 [!UICONTROL 优先级] 字段 [!UICONTROL 项目详细信息] 选项卡。
+* [!UICONTROL Portfolio优化器]顶部的项目被认为比底部列出的项目更重要。 您需要按照项目在[!UICONTROL Portfolio优化器]中的优先级完成项目才能优化Portfolio。
+* [!UICONTROL Portfolio优化器]中项目的优先级与项目的[!UICONTROL 项目详细信息]选项卡上的[!UICONTROL 优先级]字段无关。
 
-   的 [!UICONTROL 优先级] 字段 [!UICONTROL 项目详细信息] 选项卡是一个可视标记，您可以手动指定该标记来了解项目的重要性。
+  [!UICONTROL 项目详细信息]选项卡上的[!UICONTROL 优先级]字段是一个可视标志，您可以手动指定该标志以了解项目的重要性。
 
-* Portfolio优化器中项目的优先级显示在 [!DNL Resource Planner]，如果在此处启用。 在 [!DNL Resource Planner]，则项目会按其顺序接收资源 [!UICONTROL 资源计划员] 优先级，而不是 [!UICONTROL Portfolio优先级].
+* Portfolio优化器中的项目优先级在[!DNL Resource Planner]中可见（如果在那里启用）。 在[!DNL Resource Planner]中，项目接收资源的顺序是其[!UICONTROL 资源规划者]优先级，而不是[!UICONTROL Portfolio优先级]优先级。
 
-   有关对 [!UICONTROL 资源计划员]，请参阅文章 [在 [!UICONTROL 资源计划员]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  有关在[!UICONTROL 资源规划程序]中排列项目优先顺序的信息，请参阅文章[在[!UICONTROL 资源规划程序]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排列项目优先顺序。
 
-* 的 **[!UICONTROL 项目优先级]** 区域 [!UICONTROL Portfolio优化程序] 按顺序显示项目 [!UICONTROL 计划开始日期] 和 [!UICONTROL 净值]，默认情况下。
+* 默认情况下，[!UICONTROL Portfolio优化器]的&#x200B;**[!UICONTROL 项目优先顺序]**&#x200B;区域按[!UICONTROL 计划开始日期]和[!UICONTROL 净值]的顺序显示项目。
 
 ## 访问要求
 
-您必须具有以下访问权限才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,45 +40,45 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>[!UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对项目和Portfolio的[!UICONTROL Edit]访问权限</p> <p>注意：如果您仍无权访问，请咨询您的 [!DNL Workfront] 管理员。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[!UICONTROL管理]对产品组合的权限</p> <p>为项目提供或更高权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象的访问 </a>.</p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>Contribute或项目的更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可类型或访问权限，请联系您的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 更改 [!UICONTROL Portfolio优化程序]
+## 更改[!UICONTROL Portfolio优化器]中项目的优先级
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 在Adobe Workfront的右上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
 
-1. 单击 **[!UICONTROL Portfolio]**.
-1. （可选）在 **[!UICONTROL 过滤器]** 下拉菜单，以查看正确的项目组合列表。
-1. 单击组合的名称以将其打开。
-1. 单击 **[!UICONTROL Portfolio优化]** 中。
-1. 在 [!UICONTROL 项目光信化] ，可通过按项目优先级顺序拖动项目并将其拖放到所需的显示位置来更改项目的优先级。
+1. 单击&#x200B;**[!UICONTROL Portfolio]**。
+1. （可选）在&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中选择正确的筛选器，以查看项目组合的正确列表。
+1. 单击项目组合名称以将其打开。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL Portfolio优化]**。
+1. 在[!UICONTROL 项目优化]区域，更改项目的优先级，方法是按优先级的顺序拖动项目，然后将其放到所需的显示位置。
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   单击 **[!UICONTROL 设置优先级]** 在项目优化区域中重新排列项目时，您会看到此问题。 项目将根据新订单收到新编号。
+   完成项目重新排列后，在项目优化区域单击&#x200B;**[!UICONTROL 设置优先级]**。 项目将收到基于新订单的新编号。
 
-1. 单击 **[!UICONTROL 保存]** 要在 [!UICONTROL Portfolio优化程序]. 优先级在数字中列为数字 **#** 列。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以在[!UICONTROL Portfolio优化器]中保存新的项目优先级。 优先级在数字&#x200B;**#**&#x200B;列中列为数字。
 
    >[!TIP]
    >
-   >这不一定会更改 [!UICONTROL Portfolio优化程序]，因为项目列表可能按 **#** 列。 单击 **#** 列标题按项目优先级对列表进行排序。
+   >这不一定会更改[!UICONTROL Portfolio优化器]中项目的顺序，因为项目列表可能会按&#x200B;**#**&#x200B;列以外的列排序。 单击&#x200B;**#**&#x200B;列标题可按项目优先级对列表进行排序。
 
-   您可以在 [!UICONTROL Portfolio优化程序] 在资源计划器中启用 **[!UICONTROL 显示Portfolio优先级]** 设置。
+   通过启用资源规划者中的&#x200B;**[!UICONTROL 显示Portfolio优先级]**&#x200B;设置，您可以查看显示在资源规划者的[!UICONTROL Portfolio优化器]中的项目的优先级。
 
-   有关对 [!UICONTROL 资源计划员]，请参阅文章 [在 [!UICONTROL 资源计划员]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   有关在[!UICONTROL 资源规划程序]中排列项目优先顺序的信息，请参阅文章[在[!UICONTROL 资源规划程序]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排列项目优先顺序。

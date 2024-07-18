@@ -27,7 +27,7 @@ ht-degree: 1%
 
 如果任务的实际起始日期和实际完成日期不在项目、主要被分配人或默认计划的计划之内，则任务持续时间为零。
 
-**示例：** 如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
+**示例：**&#x200B;如果您的计划从上午9:00开始到中午12:00结束，并且任务计划从下午2:00开始到下午4:00结束，则任务的持续时间为零。
 
 以下是计算Adobe Workfront中的持续时间时存在的两种方案：
 
@@ -35,19 +35,19 @@ ht-degree: 1%
 
    1. Workfront会考虑用户的计划。
    1. 如果用户未与计划关联，则Workfront会考虑项目的计划。
-   1. 如果项目未与时间表关联，Workfront会考虑您的系统的默认时间表。 有关时间表的信息，请参阅 [创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   1. 如果项目未与时间表关联，Workfront会考虑您的系统的默认时间表。 有关计划的信息，请参阅[创建计划](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 * 如果任务分配给多个用户：
 
    1. Workfront会考虑项目或主要受让人的日程安排。
 
-  当任务分配给多个用户时，由Workfront管理员确定Workfront使用的计划。 有关信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  当任务分配给多个用户时，由Workfront管理员确定Workfront使用的计划。 有关信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
   这些步骤类似于了解Workfront使用哪个计划计算持续时间后的第一个方案。
 
 >[!NOTE]
 >
->当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅  [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+>当考虑到主要受让人在项目中的休息时间时，任务的计划日期可能会调整，但任务的持续时间保持不变。 有关在计划项目时考虑主要被分配人的空闲时间的信息，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ## 任务持续时间的时间单位
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-**示例：** 如果要指示任务的持续时间是3天经过的时间，应在任务列表的“持续时间”字段中键入“3 ED”。  在编辑任务时，您还可以从可用下拉菜单或任务详细信息部分中选择持续时间单位首选选项。 有关编辑任务的信息，请参阅 [编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+**示例：**&#x200B;如果您要指示任务的持续时间是3天，则应在任务列表的“持续时间”字段中键入“3 ED”。  在编辑任务时，您还可以从可用下拉菜单或任务详细信息部分中选择持续时间单位首选选项。 有关编辑任务的信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -108,28 +108,28 @@ ht-degree: 1%
   <tr> 
    <th scope="row"><p><strong>持续时间类型</strong></p></th> 
    <th scope="col"> <p><strong>函数</strong> </p> </th> 
-   <th scope="col"> <p><strong>资源如何影响It</strong> </p> </th> 
+   <th scope="col"> <p><strong>资源如何影响它</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <th scope="col"> <p><strong>计算的工作分配</strong> </p> </th> 
-   <td scope="col"> <p>计算任务中每个被分配人的分配百分比。 </p> <p>选择此持续时间类型时，可以为任务输入单个持续时间和已计划小时数。 Workfront将计划小时数除以任务持续时间内的小时数，再除以分配给任务的资源数，从而计算每个被分配人的分配。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">持续时间类型概览：计算分配</a>.</p> </td> 
+   <td scope="col"> <p>计算任务中每个被分配人的分配百分比。 </p> <p>选择此持续时间类型时，可以为任务输入单个持续时间和已计划小时数。 Workfront将计划小时数除以任务持续时间内的小时数，再除以分配给任务的资源数，从而计算每个被分配人的分配。</p> <p>有关更多详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">持续时间类型概述：计算的分配</a>。</p> </td> 
    <td scope="col">向任务添加或移除被分配者时，持续时间和已计划小时数未发生变化。 </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>计算的工作量</strong> </p> </th> 
-   <td scope="col"> <p>确定完成任务所需的计划小时数（工作量）。</p> <p>通常用于为任务的整个持续时间分配分配给任务的资源时。</p> <p>选择此持续时间类型后，您能够为任务输入单个持续时间。 Workfront计算该任务的已计划小时数，方法是用工期的天数乘以计划中的工作小时数并乘以该任务的被分配人数。 </p> <p>您可以手动将每个被分配人的分配百分比更改为任务，这将缩短计划小时数。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">持续时间类型概览：计算的工作量</a>.</p> </td> 
+   <td scope="col"> <p>确定完成任务所需的计划小时数（工作量）。</p> <p>通常用于为任务的整个持续时间分配分配给任务的资源时。</p> <p>选择此持续时间类型后，您能够为任务输入单个持续时间。 Workfront计算该任务的已计划小时数，方法是用工期的天数乘以计划中的工作小时数并乘以该任务的被分配人数。 </p> <p>您可以手动将每个被分配人的分配百分比更改为任务，这将缩短计划小时数。</p> <p>有关更多详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">持续时间类型概述：计算的工作量</a>。</p> </td> 
    <td scope="col"> <p>将受分配者添加到任务后，计划小时数增加。 </p> <p>从任务中删除被分配者时，计划小时数会减少。</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>投入比导向</strong></p> </th> 
-   <td scope="col"> <p>基于资源数确定计划小时数。</p> <p>选择此持续时间类型后，您能够为任务输入单个持续时间。 Workfront计算该任务的已计划小时数，方法是用工期中的天数乘以计划中的工作小时数，然后除以该任务的被分配人数。 </p> <p>您可以手动将每个被分配人的分配百分比更改为任务，但计划小时数保持不变。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">持续时间类型概述：投入比导向</a>.</p> </td> 
+   <td scope="col"> <p>基于资源数确定计划小时数。</p> <p>选择此持续时间类型后，您能够为任务输入单个持续时间。 Workfront计算该任务的已计划小时数，方法是用工期中的天数乘以计划中的工作小时数，然后除以该任务的被分配人数。 </p> <p>您可以手动将每个被分配人的分配百分比更改为任务，但计划小时数保持不变。</p> <p>有关详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">持续时间类型概述：投入比导向</a>。</p> </td> 
    <td scope="col"> <p>从任务中删除被分配者时，计划的小时数增加。</p> <p>将受分配者添加到任务后，计划小时数会减少。 </p> <p>无论被分配人数量或其时间表如何变化，持续时间都不会改变。 </p> <p>持续时间等于计划小时数。 计划持续时间等于计划小时数除以被分配人数量。</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>简单</strong> </p> </th> 
-   <td scope="col"> <p>根据每个被分配人分配的小时数确定计划小时数和持续时间（对于此持续时间类型是相同的）。 </p> <p>Workfront通过将每个被分配人的计划分配小时数相加来计算计划小时数。 </p> <p>您可以手动更改每个被分配人的分配小时数，计划小时数和持续时间量会相应地更改。 如果您为所有被分配人选择分配的总小时数，则该数字将平均分配给每个被分配人。</p> <p>有关更多详细信息，请参阅 <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">持续时间类型概述：简单</a>.</p> </td> 
+   <td scope="col"> <p>根据每个被分配人分配的小时数确定计划小时数和持续时间（对于此持续时间类型是相同的）。 </p> <p>Workfront通过将每个被分配人的计划分配小时数相加来计算计划小时数。 </p> <p>您可以手动更改每个被分配人的分配小时数，计划小时数和持续时间量会相应地更改。 如果您为所有被分配人选择分配的总小时数，则该数字将平均分配给每个被分配人。</p> <p>有关详细信息，请参阅<a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">持续时间类型概述：简单</a>。</p> </td> 
    <td scope="col"> <p>如果选择分配的总小时数，则小时数平均分配给被分派人。 但是，作为项目经理，您可以手动调整每个被分配人的小时数。 </p> <p>您可以内联或在任务级别编辑具有“简单持续时间类型”的任务的已计划小时数和持续时间。 </p> <p>如果将Agile团队分配给任务，则“持续时间类型”自动设置为“简单”，且无法更改。 Agile团队的任务持续时间必须大于0分钟。</p> </td> 
   </tr> 
  </tbody> 
@@ -137,8 +137,8 @@ ht-degree: 1%
 
 ## 新任务的持续时间类型
 
-新任务的持续时间类型与系统中设置的持续时间类型匹配。 默认持续时间类型为计算分配。 Workfront管理员或组管理员可以更新系统或与项目关联的组的默认持续时间类型。 有关信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+新任务的持续时间类型与系统中设置的持续时间类型匹配。 默认持续时间类型为计算分配。 Workfront管理员或组管理员可以更新系统或与项目关联的组的默认持续时间类型。 有关信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ## 更改任务的持续时间类型
 
-有关更改任务的持续时间类型的信息，请参阅 [更新任务的持续时间类型](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+有关更改任务的持续时间类型的信息，请参阅[更新任务的持续时间类型](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)。

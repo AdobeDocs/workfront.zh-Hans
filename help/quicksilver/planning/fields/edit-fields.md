@@ -31,9 +31,9 @@ recommendations: noDisplay, noCatalog
 
 您可以编辑已在Adobe Workfront Planning中创建的字段的字段设置。
 
-有关创建Adobe Workfront Planning字段的信息，请参阅 [创建字段](/help/quicksilver/planning/fields/create-fields.md).
+有关创建Adobe Workfront Planning字段的信息，请参阅[创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
-本文介绍了如何编辑Workfront Planning字段的设置。 有关编辑记录的字段值的信息，请参阅 [编辑记录](/help/quicksilver/planning/records/edit-records.md).
+本文介绍了如何编辑Workfront Planning字段的设置。 有关编辑记录的字段值的信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 访问要求
 
@@ -79,20 +79,20 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限</a> </p>  
+   <td> <p>管理工作区</a>的权限 </p>  
    <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p>  
+   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,10 +138,10 @@ recommendations: noDisplay, noCatalog
 
    这将打开记录类型的页面。
 
-1. （视情况而定）单击 **表格视图**.
+1. （视情况而定）单击&#x200B;**表视图**&#x200B;的选项卡。
 
    与记录类型关联的所有现有记录都会显示在表格视图的行中。
-1. 将鼠标悬停在要编辑的字段的列标题上，单击字段名称后的向下箭头，然后单击 **编辑字段**
+1. 将鼠标悬停在要编辑的字段的列标题上，单击字段名称后面的向下箭头，然后单击“**编辑字段**”
 
    或
 
@@ -149,7 +149,7 @@ recommendations: noDisplay, noCatalog
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 更新有关该字段的信息并单击 **保存**. <!--insert screen shot when finalized-->
+1. 更新有关该字段的信息并单击&#x200B;**保存**。<!--insert screen shot when finalized-->
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ recommendations: noDisplay, noCatalog
 
    字段信息会针对每个有权查看工作区的用户而更新。
 
-1. （视情况而定）对于链接的记录字段，单击 **编辑查找字段** 并从链接的记录类型中添加或删除任何字段。
+1. （视情况而定）对于链接的记录字段，单击&#x200B;**编辑查找字段**&#x200B;并从链接的记录类型中添加或删除任何字段。
 
-   有关更多信息，请参阅 [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md).
+   有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

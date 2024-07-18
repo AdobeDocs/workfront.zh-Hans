@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本页介绍了20.3版中对生产环境所做的所有Agile增强。 这些增强功能在2020年8月10日这一周的生产环境中提供。
 
-有关20.3版本可用的所有更改列表，请参阅 [20.3发行版概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+有关20.3版本的所有可用更改列表，请参阅[20.3版本概述](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)。
 
 ## 选择卡片在Kanban展示板上停留的时长
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 以前，信息卡会在14天后从Kanban展示板中流失。
 
-有关更多信息，请参阅 [配置Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+有关详细信息，请参阅[配置Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
 
 ## 敏捷展示板一次加载50个工作项
 

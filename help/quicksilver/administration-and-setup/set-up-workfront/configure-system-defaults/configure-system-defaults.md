@@ -27,7 +27,7 @@ ht-degree: 0%
 * [配置请求类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [自定义默认问题类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [创建、编辑和共享默认筛选器、视图和分组](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [配置 [!UICONTROL 资源管理] 偏好设置](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [配置[!UICONTROL 资源管理]首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [编辑和创建风险类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [创建自定义费用类型](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [创建记分卡](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

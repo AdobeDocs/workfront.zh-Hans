@@ -30,7 +30,7 @@ role: User
 
 访问Adobe Workfront Planning中的记录类型页面时，可在时间轴视图中显示记录。
 
-有关记录视图的信息，请参见 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+有关记录视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 访问要求
 
@@ -86,13 +86,13 @@ role: User
 
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅 <a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>. </p> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
 ## 管理时间线视图 {#manage-a-timeline-view}
@@ -115,7 +115,7 @@ role: User
 要管理时间线视图，请执行以下操作：
 
 1. 转到要查看其时间线的记录类型页面。
-1. 创建时间线视图，如文章所述 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
+1. 创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ role: User
 1. 执行以下操作之一可在时间轴中导航：
 
    * 单击左右图标或使用水平滚动条在时间轴中前后移动。
-   * 单击 **今天** 将时间线居中到今天的日期。
+   * 单击&#x200B;**今天**&#x200B;可将时间线居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
 
       * 年
       * 季度
       * 月
-1. 单击 **切换到标准** 以单独行显示记录的视图 <!--check to see if they updated the name of the setting here-->
+1. 单击&#x200B;**切换到标准**&#x200B;视图以单独行<!--check to see if they updated the name of the setting here-->显示记录
 
    或
 
-   单击 **切换到紧凑视图** 在同一行中显示其日期不相交的记录。 <!--check to see if they updated the name of the setting here-->
+   单击&#x200B;**切换到紧凑视图**&#x200B;可显示日期不相交的记录。<!--check to see if they updated the name of the setting here-->
 
    默认情况下，记录显示在“压缩”视图中。
 
 1. 执行以下操作可快速查找与关键字匹配的记录：
 
-   1. 单击 **Search** 图标 ![](assets/search-icon.png) 并开始键入与屏幕上所显示记录的任何字段关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
+   1. 单击&#x200B;**搜索**&#x200B;图标![](assets/search-icon.png)并开始键入与屏幕上显示的记录的任何字段相关联的关键字。 正确匹配的数量显示在搜索项目旁边，具有正确匹配的记录会高亮显示。
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ role: User
 
    1. 在键盘上按Enter键以转到下一个找到的字段。
    1. （可选）如果有多个匹配项，请单击搜索关键字右侧的向上箭头和向下箭头以查找表中的所有匹配项。
-   1. 单击 **x** 图标，以清除搜索关键词。
+   1. 单击搜索框中的&#x200B;**x**&#x200B;图标以清除搜索关键字。
 
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
@@ -183,7 +183,7 @@ role: User
 
 * 在时间轴视图中添加筛选器与在表视图中添加筛选器相同。
 
-  有关更多信息，请参阅文章中的“添加过滤器”部分 [管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md).
+  有关详细信息，请参阅文章[管理表视图](/help/quicksilver/planning/views/manage-the-table-view.md)中的“添加筛选器”部分。
 
 * 您可以按连接的记录字段或查找字段进行筛选。
 * 您可以按显示多个值的查找字段进行筛选。
@@ -201,7 +201,7 @@ role: User
 
 * 可以在表格视图和时间线视图中应用分组。 表格视图的分组独立于相同记录类型的时间线视图中的分组。
 * 您可以在视图中应用3个级别的分组。 这些记录按您选择的分组顺序分组。
-&lt;!—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
+&lt;！—*在使用API时，您最多可以应用4个级别的分组。  — 现在查看此项 — >
 * 这些分组对于您选择的视图是唯一的。 同一记录类型的两个表视图可以应用不同的分组。 查看同一表格视图的两个用户会看到当前应用的相同分组。
 * 不能为表视图命名您构建的分组。
 * 删除分组会将其从与您访问相同记录类型以及显示与您相同视图的任何人中删除。
@@ -214,12 +214,12 @@ role: User
 
 要在时间轴视图中添加分组，请执行以下操作：
 
-1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
-1. 单击 **分组** 位于时间轴视图的右上角。
+1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
+1. 单击时间轴视图右上角的&#x200B;**分组**。
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. 单击其中一个建议字段，或单击 **选择其他字段**，搜索其他字段，然后在列表中显示该字段时单击它。
+1. 单击其中一个建议的字段，或单击&#x200B;**选择其他字段**，搜索其他字段，然后在列表显示该字段时单击它。
 
    分组将自动应用于时间轴，并且记录显示在分组框中。
 
@@ -233,14 +233,14 @@ role: User
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （可选）内部 **记录分组条件** 框中，单击 **x** 图标为分组选择的字段的右侧，以删除分组
+1. （可选）在&#x200B;**按**&#x200B;对记录进行分组框中，单击为分组选择的字段右侧的&#x200B;**x**&#x200B;图标以删除该分组
 
    或
 
-   单击 **全部清除** 以删除所有字段。
+   单击&#x200B;**全部清除**&#x200B;可删除所有字段。
 
-1. 在 **记录分组条件** 方框关闭它。
-1. （可选）单击 **设置**，则 **颜色** 到颜色代码分组。 欲了解更多信息，请参见 [编辑时间线视图设置](#edit-the-timeline-view-settings) 部分。
+1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
+1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
 
 <!-- 
 
@@ -254,45 +254,45 @@ this is not possible right now; if this is the same functionality as the table v
 
 更新时间线视图设置，以指示信息在视图的时间线部分中显示什么及如何显示。
 
-1. 为记录类型创建时间线视图，如文章中所述 [管理记录视图](/help/quicksilver/planning/views/manage-record-views.md).
-1. 单击 **设置**.
-1. 单击 **日期和时间** 在左侧面板中，然后选择 **开始日期** 和 **结束日期** 以在时间轴上显示。 您可以选择默认的“开始”和“结束”日期，也可以选择任何可用的日期字段。 表示记录的条形图从您为开始日期指定的日期开始，结束日期对应于结束日期。
+1. 为记录类型创建时间线视图，如[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)一文中所述。
+1. 单击&#x200B;**设置**。
+1. 单击左侧面板中的&#x200B;**日期和时间**，然后选择要显示在时间轴上的&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 您可以选择默认的“开始”和“结束”日期，也可以选择任何可用的日期字段。 表示记录的条形图从您为开始日期指定的日期开始，结束日期对应于结束日期。
 
    >[!NOTE]
    >
    >对于开始日期或结束日期没有值或者开始日期晚于结束日期的记录，不会显示在时间轴视图中。
 
-1. 单击 **条形图样式** 在左侧面板中，用于指示要在记录栏上显示的字段。
+1. 单击左侧面板中的&#x200B;**栏样式**&#x200B;以指示要在记录栏上显示的字段。
 
-   默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。 <!--adjust this when the primary field is released??-->
+   默认情况下会选择记录的主字段（或标题），如在记录的表格视图中定义的那样。<!--adjust this when the primary field is released??-->
 
 1. （可选且视情况而定）如果您将缩略图添加到记录，请选择“缩略图”选项以在记录栏中显示与记录关联的图像。
 
    >[!NOTE]
    >
-   >    必须先在表格视图中添加缩略图，然后才能在时间轴视图中显示它们。 有关更多信息，请参阅 [向记录添加缩略图](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    必须先在表格视图中添加缩略图，然后才能在时间轴视图中显示它们。 有关详细信息，请参阅[将缩略图添加到记录](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. 单击 **添加字段** 最多向记录栏添加4个字段。
-1. 在 **搜索字段** 框中，然后单击要添加字段。
+1. 单击&#x200B;**添加字段**&#x200B;可向记录栏添加最多4个字段。
+1. 在&#x200B;**搜索字段**&#x200B;框中单击，然后单击要添加字段。
 
    >[!TIP]
    >
    >   * 必须先创建这些字段，然后才能将其添加到记录栏。
    > 
-   >   * 您必须至少选择一个字段。 **名称** 默认情况下处于选中状态。
+   >   * 您必须至少选择一个字段。 默认情况下已选择&#x200B;**名称**。
 
    右侧将显示时间轴上栏的外观。
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. 单击 **颜色** 在左侧面板中，自定义时间轴中记录和分组的颜色。
+1. 单击左侧面板中的&#x200B;**颜色**，以自定义时间轴中记录和分组的颜色。
 
    ![](assets/color-tab-timeline-view.png)
 
-1. （视情况而定，可选）如果将分组添加到时间轴视图，请从以下选项中进行选择，以在 **设置分组颜色** 部分：
+1. （视情况而定，可选）如果向时间轴视图添加了分组，请从以下选项中进行选择，以在&#x200B;**设置分组颜色**&#x200B;部分中设置分组的颜色：
 
    * **默认（灰色）**：分组的颜色设置为灰色。 这是默认设置。
-   * **字段值**：分组的颜色与您作为分组依据的字段的颜色匹配。
+   * **字段值**：分组的颜色与您分组依据的字段的颜色匹配。
 
      >[!NOTE]
      >
@@ -309,14 +309,14 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >如果未将分组添加到时间轴视图，则不会显示此部分。
 
-1. 在 **设置记录颜色** 部分，从以下选项中选择以设置记录的颜色：
+1. 在&#x200B;**设置记录颜色**&#x200B;部分中，从以下选项中进行选择以设置记录的颜色：
 
    * **记录类型**：记录的颜色与您选择的记录类型的颜色相匹配。 这是默认选项。
-   * **字段值**：记录的颜色与您指定的字段的颜色匹配。 继续执行步骤10。 <!--ensure this stays accurate-->
+   * **字段值**：记录的颜色与您指定的字段的颜色匹配。 继续执行步骤10。<!--ensure this stays accurate-->
    * **分组**：记录的颜色与您为分组指定的颜色相匹配。 当未将分组应用于时间轴视图时，此选项将灰显。
    * **无**：记录显示在白色栏中。
 
-1. （视情况而定）如果您选择 **字段值** 对于记录颜色，从 **将记录颜色与** 下拉菜单。
+1. （视情况而定）如果您为记录颜色选择了&#x200B;**字段值**，请从&#x200B;**将记录颜色与**&#x200B;下拉菜单中选择一个字段。
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 

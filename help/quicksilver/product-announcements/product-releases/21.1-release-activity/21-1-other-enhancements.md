@@ -19,7 +19,7 @@ ht-degree: 0%
 
 本页介绍了在21.1版本中对“预览”环境进行的所有其他增强。 这些增强功能将在2021年2月15日这一周的“生产”环境中提供。
 
-有关21.1版本可用的所有更改列表，请参阅 [21.1发行版概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+有关21.1版本的所有可用更改列表，请参阅[21.1版本概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 更新了事件订阅失败要求
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 此外，我们将从2021年2月起添加硬禁用要求。
 
-有关新的软禁用和硬禁用要求的更多信息，请参阅 [常见问题解答 — 活动订阅](../../../wf-api/general/event-subs-faq.md).
+有关新的软禁用和硬禁用要求的更多信息，请参阅[常见问题解答 — 事件订阅](../../../wf-api/general/event-subs-faq.md)。
 
 ## 可用于《每日摘要》的新团队字段
 
 我们已在“需要执行的操作每日摘要”电子邮件中添加了“团队批准”和“工作分配”字段。
 
-有关更多信息，请参阅 [通知：需要操作](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+有关详细信息，请参阅[通知：需要操作](../../../workfront-basics/using-notifications/notifications-action-needed.md)。
 
 ## 替换请求队列中的POP电子邮件选项
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 这些更改可在“预览”中测试。
 
-在所有预览环境中自动禁用电子邮件。 要启用电子邮件进行测试，请参阅 [启用从预览Sandbox环境的电子邮件投放](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+在所有预览环境中自动禁用电子邮件。 要启用电子邮件以进行测试，请参阅[从预览Sandbox环境启用电子邮件投放](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)。
 
-有关更多信息，请参阅 [允许用户通过电子邮件将问题发送到请求队列项目](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+有关详细信息，请参阅[允许用户通过电子邮件将问题发送到请求队列项目](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
-有关我们为什么要进行此更改的详细信息，请参阅 [新的Adobe Workfront托管系统使用21.1替换了请求队列的POP电子邮件](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+有关我们为什么要进行此更改的详细信息，请参阅[新的Adobe Workfront托管系统使用21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)替换请求队列的POP电子邮件。
 
-此功能现已包含在 [Workfront新体验中的队列管理](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) Workfront One学习路径。
+此功能现已包含在Workfront One上的新Workfront Experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)学习路径的[队列管理中。
 
 ## 限制工时表上的小时编辑
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 以前，在访问级别中启用了时间表和小时选项的用户可以编辑任何时间表上的小时。
 
-有关更多信息，请参阅 [配置时间表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+有关详细信息，请参阅[配置工时表和小时首选项](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
 ## 改进了时间表区域中的过滤器和视图
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 * 筛选器：我们为项目和问题添加了筛选器。 单击更多选项以查看这些过滤器。 以前，只有“任务”才有可用的筛选。
 * 视图：我们向搜索页面添加了视图和分组选项。
 
-有关更多信息，请参阅 [记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md).
+有关详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 隐藏工时表中的加班框
 
 现在，如果不跟踪Workfront中的加班情况，则可以隐藏加班框，以免造成用户混淆。 您可以为一次性使用的时间表或时间表配置文件隐藏超时框：
 
-* 一次性时间表：如果您选择隐藏单个时间表中的超时框，则它仅对该时间表隐藏。 有关更多信息，请参阅 [创建一次性时间表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* 时间表配置文件：如果您选择隐藏时间表配置文件中的超时框，则将来为分配给该配置文件的用户创建的所有时间表都将看不到超时框。 有关更多信息，请参阅 [创建、编辑和分配时间表配置文件](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* 一次性时间表：如果您选择隐藏单个时间表中的超时框，则它仅对该时间表隐藏。 有关详细信息，请参阅[创建一次性时间表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md)。
+* 时间表配置文件：如果您选择隐藏时间表配置文件中的超时框，则将来为分配给该配置文件的用户创建的所有时间表都将看不到超时框。 有关详细信息，请参阅[创建、编辑和分配时间表配置文件](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 以前，无法在时间表上隐藏超时框。
 

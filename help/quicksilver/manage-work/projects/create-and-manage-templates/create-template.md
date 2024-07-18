@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->模板及其任务没有实际日期，而是指示任务可能从哪天（从未来项目可能开始的时间）开始以及任务可能需要在哪一天完成。 使用模板创建未来项目时，项目将接收实际日期。 有关信息，请参阅 [创建项目](../create-projects/create-project.md).
+>模板及其任务没有实际日期，而是指示任务可能从哪天（从未来项目可能开始的时间）开始以及任务可能需要在哪一天完成。 使用模板创建未来项目时，项目将接收实际日期。 有关信息，请参阅[创建项目](../create-projects/create-project.md)。
 
 
 您可以通过以下方式创建新模板：
@@ -29,13 +29,13 @@ ht-degree: 2%
 * 从头开始，如本文所述。
 * 从现有项目中，通过将项目另存为模板。
 
-  有关从现有项目创建模板的详细信息，请参阅 [将项目另存为模板](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  有关从现有项目创建模板的详细信息，请参阅[将项目另存为模板](../../../manage-work/projects/manage-projects/save-project-as-template.md)。
 
 * 通过从另一个模板复制它。
 
-  有关复制现有模板的详细信息，请参阅 [复制项目模板](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  有关复制现有模板的详细信息，请参阅[复制项目模板](../../../manage-work/projects/create-and-manage-templates/copy-template.md)。
 
-* 通过导入Blueprint。 您必须是Workfront管理员才能导入Blueprint。 有关信息，请参阅 [配置Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+* 通过导入Blueprint。 您必须是Workfront管理员才能导入Blueprint。 有关信息，请参阅[配置Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
 ## 访问要求
 
@@ -66,49 +66,49 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 创建模板
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 图标，然后单击 **模板**.
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**模板**。
 
-1. 单击 **新建模板**.
+1. 单击&#x200B;**新建模板**。
 
    模板未命名。
 
-   ![新建模板](assets/create-template-nwe-2022-350x102.png)
+   ![新模板](assets/create-template-nwe-2022-350x102.png)
 
-1. 在模板标题中指定新模板的名称，然后按 **输入。**
-1. 单击 **模板任务** 部分。
-1. 单击 **开始添加模板任务**.
+1. 在模板标题中指定新模板的名称，然后按&#x200B;**Enter。**
+1. 单击左侧面板中的&#x200B;**模板任务**&#x200B;部分。
+1. 单击&#x200B;**开始添加模板任务**。
 
    或
 
-   单击 **新建模板任务** 以开始将任务添加到模板。
+   单击&#x200B;**新建模板任务**&#x200B;以开始向模板添加任务。
 
    将模板任务添加到模板与将任务添加到项目相同。
 
-   有关将任务添加到项目的详细信息，请参阅 [在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   有关将任务添加到项目的详细信息，请参阅[在项目中创建任务](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)。
 
    >[!NOTE]
    >
    >您无法将周期性任务添加到模板。
 
-1. （可选）单击 **甘特图** 图标，用于查看模板任务列表的可视表示形式。
+1. （可选）单击任务列表右上角的&#x200B;**甘特图**&#x200B;图标以查看模板任务列表的可视表示形式。
 
    >[!TIP]
    >
    >不能直接从该甘特图编辑任务。
 
-1. 要向新模板中添加信息，请单击 **更多** 菜单 ![](assets/more-icon.png)，然后单击 **编辑**.
+1. 若要向新模板添加信息，请单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
 
-   有关编辑模板的信息，请参阅 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   有关编辑模板的信息，请参阅[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
-1. 单击 **保存更改**.
-1. （可选）如果要向模板添加其他项，请参阅部分 [将其他项目添加到模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) 在文章中 [编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. 单击&#x200B;**保存更改**。
+1. （可选）如果要向模板添加其他项，请参阅文章[编辑项目模板](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[向模板添加其他项](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)部分。
 
 ## 由组关联确定的模板设置
 
-项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。 有关更多信息，请参阅部分 [创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) 在文章中 [创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+项目模板与组（或缺少组）的关联会影响项目、任务和问题首选项如何确定模板中的某些设置。 有关详细信息，请参阅文章[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的[创建和修改组的项目模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)部分。

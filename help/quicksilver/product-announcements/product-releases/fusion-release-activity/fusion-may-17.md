@@ -21,15 +21,15 @@ ht-degree: 0%
 
 本页介绍了2021年5月17日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 在Workfront Fusion场景中复制模块
 
 为了更便于使用Workfront Fusion场景，我们提供了复制和粘贴模块的功能。 现在，您可以复制一个模块或模块组，并将其粘贴到相同或不同的方案中。 复制模块会保留该模块中的字段值。
 
-有关更多信息，请参阅 [在Adobe Workfront Fusion中复制模块或场景](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
+有关详细信息，请参阅[复制Adobe Workfront Fusion中的模块或方案](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)。
 
 ## 在Workfront Fusion场景中选择多个模块
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 复制和移动模块会保留模块值以及连接模块的所有线。
 
-有关编辑方案的详细信息，请参阅 [在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md).
+有关编辑方案的详细信息，请参阅[在Adobe Workfront Fusion中创建方案](../../../workfront-fusion/scenarios/create-a-scenario.md)。
 
 ## 模块现在会保留未保存的信息
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 * 要监视新记录，您可以使用“监视记录”触发器模块。 此模块不再监视更新的记录。
 * 要获取更新的记录，您可以使用新的搜索用户/组增量模块。 此模块返回新的、更新的和删除的记录。
 
-有关更多信息，请参阅 [Azure Active Directory模块](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+有关详细信息，请参阅[Azure Active Directory模块](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)。

@@ -13,19 +13,19 @@ exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion]位于 [!DNL Adobe Admin Console]
+# [!DNL Adobe Admin Console]中的[!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront] 许可证。
+>除[!DNL Adobe Workfront]许可证外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 本节包含以下文章：
 
-* [将用户添加到 [!DNL Adobe Workfront Fusion] 通过 [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
-* [删除中的用户 [!DNL Adobe Workfront Fusion] 通过 [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+* [通过 [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)将用户添加到 [!DNL Adobe Workfront Fusion] 
+* [通过 [!DNL Adobe Admin Console]删除 [!DNL Adobe Workfront Fusion] 中的用户](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
 * [基于平台的管理差异([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
-* [[!DNL Adobe Workfront Fusion] 上 [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)
+* [ [!DNL Adobe Unified Experience]上的[!DNL Adobe Workfront Fusion]](../fusion-in-admin-console/fusion-unified-experience.md)

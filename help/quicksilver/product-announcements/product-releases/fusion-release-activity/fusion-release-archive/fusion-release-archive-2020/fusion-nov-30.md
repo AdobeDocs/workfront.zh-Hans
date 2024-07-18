@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本页介绍了2020年11月30日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Workfront Fusion 2.0 Webhook的速率限制。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 以前，webhook请求不受限制。
 
-有关更多信息，请参阅 [Adobe Workfront Fusion性能护栏](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+有关详细信息，请参阅[Adobe Workfront Fusion性能护栏](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md)。
 
 ## 在Workfront Fusion 2.0中将自定义表单添加到Workfront对象
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 以前，无法使用Workfront Fusion 2.0模块将自定义表单添加到Workfront中的对象。
 
-有关Workfront >其他内容的更多信息。 操作模块，请参阅 [Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关Workfront >其他内容的更多信息。 操作模块，请参阅[Adobe Workfront模块](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

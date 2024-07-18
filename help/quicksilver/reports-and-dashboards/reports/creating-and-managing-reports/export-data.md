@@ -26,21 +26,21 @@ ht-degree: 0%
 * 您要创建Workfront数据的外部备份。
 * 在Workfront Web应用程序中，有一个限制是在一个页面上仅显示2,000个结果。 如果您的报告生成超过2,000个，您可以将报告导出为任何可用格式，并在一个列表中查看报告中的所有结果。
 
-您可以从Workfront界面手动导出报表，也可以计划报表的交付，并稍后向您发送该报表。 有关计划传送报表的更多信息，请参阅 [报表交付概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+您可以从Workfront界面手动导出报表，也可以计划报表的交付，并稍后向您发送该报表。 有关计划传送报表的更多信息，请参阅[报表传送概述](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
 本文中的信息不适用于以下导出：
 
 * 从图表报表导出信息。
 
-  有关导出图表报表的更多信息，请参阅 [向报表中添加图表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  有关导出图表报表的详细信息，请参阅[将图表添加到报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 
 * 从甘特图导出信息。
 
-  有关导出甘特图的更多信息，请参见 [将甘特图导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  有关导出甘特图的详细信息，请参阅[将甘特图导出到PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)。
 
 * 从资源规划者导出信息。
 
-  有关从资源规划者导出信息的更多信息，请参阅中的“导出选项” [资源规划者导航概述](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  有关从资源规划者导出信息的更多信息，请参阅[资源规划者导航概述](../../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的“导出选项”。
 
 ## 访问要求
 
@@ -76,7 +76,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 必须先创建报表，然后才能导出其数据。
 
-有关创建报告的详细信息，请参阅 [创建自定义报表](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 或 [创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+有关创建报告的详细信息，请参阅[创建自定义报告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)或[创建报告副本](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
 ## 导出格式和限制
 
@@ -109,11 +109,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 关于报表在Workfront中的显示方式以及通过手动导出、已交付报表或通过API导出报表的方式，有一些限制。
 
-* **50,000个单元格：** Excel文件的报表导出中允许的最大单元格数。
-* **50,000行：** 报表导出中允许的.pdf和Tab分隔文件的数据行数。
+* **50,000个单元格：**&#x200B;报表导出中允许Excel文件的最大单元格数。
+* **50,000行：**&#x200B;报表导出中允许用于.pdf和Tab分隔文件的数据行数。
 
-   * 对于Excel .xls文件，此限制为 **65,000行**.
-   * 对于Excel .xlsx文件，此限制为 **100,000行**.
+   * 对于Excel .xls文件，此限制为&#x200B;**65,000行**。
+   * 对于Excel .xlsx文件，此限制为&#x200B;**100,000行**。
    * 这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
 
   >[!IMPORTANT]
@@ -127,9 +127,9 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
   如果报表的行数超过50,000/65,000/100,000，并且您想要导出所有数据，我们建议您使用过滤器或提示来获取较小的数据负载，并执行多次导出。
 
-  有关使用过滤器的信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  有关使用筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-  有关使用提示的信息，请参见 [向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  有关使用提示的信息，请参阅[向报表添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
 
 * 这些限制适用于：
 
@@ -138,7 +138,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
    * 通过API集成导出。
    * 通过快速启动导出的数据。
 
-     有关通过快速启动导出数据的更多信息，请参阅 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     有关通过Kick-Starts导出数据的更多信息，请参阅[通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
      >[!NOTE]
      >
@@ -146,10 +146,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    * 导出项目的利用率信息。
 
-     有关导出项目的利用率信息的详细信息，请参见 [资源利用率报表概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     有关导出项目的利用率信息的详细信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)。
 
-* **10MB文件大小：** 任何计划提交的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
-* **65,530个超链接：** 这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。 
+* **10MB文件大小：**&#x200B;任何计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
+* **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。 
 * **256列**：这是Excel对包含超过256列的文档施加的限制。 这些文档无法手动导出，也不能在已送达的报告中发送。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
 
 如果尝试导出超出限制的数据，则可能不会在导出中收到所有预期的数据。 而是在此限制内生成修改后的报表。
@@ -171,7 +171,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    取消选择所有项目以导出整个列表。
 
-1. 单击 **导出**，然后选择格式。
+1. 单击&#x200B;**导出**，然后选择格式。
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -183,7 +183,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
    或
 
-   单击 **导出** 图标 ![“导出”图标](assets/export-icon-nwe.png)，然后选择格式。
+   单击&#x200B;**导出**&#x200B;图标![导出图标](assets/export-icon-nwe.png)，然后选择格式。
 
    可用于导出PDF的选项取决于Workfront用户设置中的区域设置：
 
@@ -200,21 +200,21 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
      -->
 
 1. （视情况而定）根据您使用的操作系统，您可以选择打开或保存文件。 使用关联的应用程序打开文件，或将其保存到硬盘驱动器。
-1. 继续 [使用导出的文档](#use-the-exported-document).
+1. 继续[使用导出的文档](#use-the-exported-document)。
 
 ### 从功能板导出数据 {#export-data-from-a-dashboard}
 
 您可以从仪表板打印信息，也可以将其导出为.pdf文件。
 
-有关从功能板导出数据的更多信息，请参阅 [导出功能板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+有关从仪表板导出数据的详细信息，请参阅[导出仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 ## 使用导出的文档 {#use-the-exported-document}
 
 * [文件名](#file-names)
 * [标题](#titles)
 * [时间戳](#timestamps)
-* [格式化](#formatting)
-* [链接](#links)
+* [正在格式化](#formatting)
+* [个链接](#links)
 * [品牌化](#branding)
 
 ### 文件名 {#file-names}
@@ -225,29 +225,29 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 导出对象列表时，对象的类型会显示在导出文件的文件名以及列表标题中。
 
-当您导出任务或问题列表时， **文件名** 可以是以下任一类型：
+导出任务或问题列表时，**文件名**&#x200B;可以是以下之一：
 
 * 在项目中导出任务和问题列表时：
 
-   * *The_project_name_Exported_Tasks*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
-   * *The_project_name_Exported_Issues*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
+   * *The_project_name_Exported_Tasks*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * *The_project_name_Exported_Issues*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
 
 * 导出任务（子任务）中的任务和问题列表时：
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
-   * **The_project_name_the_task_name_Exported_Issues**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
+   * **The_project_name_the_task_name_Exported_Tasks**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
+   * **The_project_name_the_task_name_Exported_Issues**(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
 
 将项目中的任何其他对象列表导出到PDF文件时，所导出文档的文件名将指示所导出的对象类型。\
 例如，文件名可以是：
 
-* *Exported_Users*，在导出项目的“人员”选项卡时(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
-* *导出的风险*，在导出项目风险列表时(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
+* *Exported_Users*，在导出项目(*的PDF、Excel、Excel (.xlsx)或Tab分隔格式)的“人员”选项卡时*
+* *Exported_Risks*，在导出项目(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)的风险列表时*
 
 #### 导出报表的文件名 {#file-names-for-exported-reports}
 
 导出报告时，导出的报告的文件名为：
 
-*the_report_name*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式*
+*The_report_name*(*PDF、Excel、Excel (.xlsx)或Tab分隔格式)*
 
 ### 标题 {#titles}
 
@@ -258,18 +258,18 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 将项目中的任务和问题列表导出到PDF文件时，所导出文档的标题是以下标题之一：
 
 * *项目名称 — 导出的任务*
-* *项目名称 — 导出的问题*
+* *项目名称 — 导出问题*
 
 将任务中的任务和问题列表导出到PDF文件时，所导出文档的拼贴是以下拼贴之一：
 
 * *项目名称 — 任务名称 — 导出的任务*
-* *项目名称 — 任务名称 — 导出问题*
+* *项目名称 — 任务名称 — 已导出问题*
 
 将项目中的任何其他对象列表导出到PDF文件时，导出文档的标题指示您导出的对象类型。\
 例如，标题可以是：
 
-* *导出的用户*，导出项目的“人员”选项卡时。
-* *导出的风险*，在导出项目风险列表时。
+* 在导出项目的“人员”选项卡时，*已导出用户*。
+* 在导出项目风险列表时，*导出风险*。
 
 #### 导出报告的标题 {#titles-for-exported-reports}
 
@@ -291,8 +291,8 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 根据您导出的文档类型，时间戳会显示在不同的位置：
 
-* **PDF：** 时间戳显示在每个页面的页脚和文件名中。
-* **Excel：** 时间戳显示在文件名中。
+* **PDF：**&#x200B;时间戳显示在每页的页脚和文件名中。
+* **Excel：**&#x200B;时间戳显示在文件名中。
 
 ### 格式化 {#formatting}
 
@@ -306,7 +306,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 >
 >如果要导出的数据包含共享列，并且要导出为Excel或Tab分隔格式，则导出的文件中会分隔这些列。
 
-有关如何自定义报表中的格式的详细信息，请参阅 [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+有关如何自定义报表中的格式设置的详细信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ### 链接 {#links}
 
@@ -314,7 +314,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 >[!TIP]
 >
->如果行 `valueformat=HTML` 对于自定义字段列，如果以文本模式显示，并且链接值不显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
+>如果自定义字段列的行`valueformat=HTML`以文本模式显示，并且链接值未显示在导出的.pdf文件中，则需要在文本模式下向列输入其他代码行。
 >
 >例如，如果您有一个名为“打开第1季度项目”的包含链接的自定义字段，则需要添加以下代码：
 >
@@ -335,4 +335,4 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 以任何其他格式导出的数据无法用您的徽标进行个性化。
 
-有关品牌化Workfront实例和全局导航栏的更多信息，请参阅 [打造您的Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+有关品牌化Workfront实例和全局导航栏的更多信息，请参阅[品牌化Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。

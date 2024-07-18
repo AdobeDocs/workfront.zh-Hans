@@ -19,17 +19,17 @@ ht-degree: 0%
 
 本页介绍了21.1版本对“预览”环境所做的所有资源管理增强。 这些增强功能将在2021年2月15日这一周的“生产”环境中提供。
 
-有关21.1版本可用的所有更改列表，请参阅 [21.1发行版概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+有关21.1版本的所有可用更改列表，请参阅[21.1版本概述](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)。
 
 ## 项目的工作负载均衡器
 
 工作负载均衡器现在在项目中可用。 现在，您可以选择使用工作负载均衡器或计划工具管理项目资源。
 
-有关工作负载均衡器在Adobe Workfront中的位置的信息，请参阅 [找到工作负载均衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+有关工作负载均衡器在Adobe Workfront中的位置的信息，请参阅[找到工作负载均衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
 ## 适用于团队的Workfront均衡器
 
 工作负载均衡器现在可在团队中使用。 现在，您可以选择使用工作负载均衡器或计划工具管理团队资源。
 
-有关工作负载均衡器在Workfront中的位置的信息，请参阅 [找到工作负载均衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+有关工作负载均衡器在Workfront中的位置的信息，请参阅[找到工作负载均衡器](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 

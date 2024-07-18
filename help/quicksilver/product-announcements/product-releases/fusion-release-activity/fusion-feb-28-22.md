@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发布活动：&nbsp；2022年2月28日开始的周
-description: Workfront Fusion发布活动：&nbsp；2022年2月28日开始的周
+title: Workfront Fusion发行活动：&amp；nbsp；2022年2月28日开始的一周
+description: Workfront Fusion发行活动：&amp；nbsp；2022年2月28日开始的一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2022年2月28日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 在Azure DevOps >自定义API调用模块中选择API版本
 
@@ -28,4 +28,4 @@ ht-degree: 0%
 
 以前，您无法选择API版本。
 
-有关更多信息，请参阅 [Azure DevOps模块](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+有关详细信息，请参阅[Azure DevOps模块](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)。

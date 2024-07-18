@@ -25,7 +25,7 @@ in January 2022
 
 2022年4月4日这一周。
 
-有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## 顶部导航栏的增强功能
 
@@ -35,7 +35,7 @@ in January 2022
 * 针脚和主菜单的外观和感觉已更新为Adobe设计标准，包括色彩和字体。 在主菜单中添加和删除大头针以及您有权访问的区域的方式没有改变。
 * 顶部导航栏右侧的图标进行了重新排序，以便更加直观。 图标顺序为：帮助链接、通知、收藏夹、最近访问、搜索、主菜单。
 
-有关更多信息，请参阅 [顶部导航栏概述](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+有关详细信息，请参阅[顶部导航栏概述](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)。
 
 ## 重新设计的时间表列表
 
@@ -46,5 +46,5 @@ in January 2022
 * 时间表列表现在与Workfront所有其他列表中的体验相匹配。
 * 过滤器体验现在与所有其他列表中的过滤器相匹配。 您将可以更灵活地使用对您最有意义的字段和属性创建自己的过滤器，并将其与其他用户共享。
 
-有关使用新列表创建时间表的详细信息，请参阅 [创建一次性时间表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+有关使用新列表创建时间表的详细信息，请参阅[创建一次性时间表](../../../timesheets/create-and-manage-timesheets/create-tmshts.md)。
 

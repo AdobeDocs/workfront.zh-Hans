@@ -24,7 +24,7 @@ ht-degree: 1%
 在创建报表元素时，标准界面生成器提供了大量灵活性以满足贵组织的需求。
 
 您可以使用标准界面在视图中应用条件格式。\
-有关将条件格式应用于视图的详细信息，请参阅 [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+有关将条件格式应用于视图的详细信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ## 访问要求
 
@@ -58,7 +58,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,9 +67,9 @@ ht-degree: 1%
 
 文本模式允许您使用标准界面中不可用的字段，从而创建更复杂的视图、筛选器、分组和提示。
 
-有关所有可报告字段的完整列表，请参见  [API资源管理器](../../../wf-api/general/api-explorer.md).
+有关所有可报告字段的完整列表，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
 
-有关使用文本模式语法的详细信息，请参阅 [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+有关使用文本模式语法的详细信息，请参阅[文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
 也可以使用文本模式设置报告和列表中的视图格式。 使用条件格式，您可以通过更改报表中结果的字体类型和背景以及图标和标志来更改报表的视图。 我们建议您始终首先使用标准界面构建视图，并且仅在绝对必要时才切换到文本模式界面。
 
@@ -79,18 +79,18 @@ ht-degree: 1%
 
 ## 向视图添加条件格式
 
-有关在标准生成器界面中将条件格式应用于视图的更多信息，请参阅 [在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+有关在标准生成器界面中将条件格式应用于视图的详细信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 要在文本模式界面中为视图添加条件格式，请执行以下操作：
 
 1. 转到对象列表。
 1. 展开要向其添加条件格式化的视图的下拉菜单。
-1. 单击 **自定义视图**.
+1. 单击&#x200B;**自定义视图**。
 1. 单击要应用条件格式化的视图中的列。
-1. 单击 **切换到文本模式**.
-1. 在 **显示在此列中：** 区域，单击 **单击以编辑文本**.
-1. 添加中提供的代码示例 [使用文本模式设置视图格式](#format-views-using-text-mode) 位于所选列中的文本底部。
-1. 单击 **保存**，然后单击 **保存视图**.
+1. 单击&#x200B;**切换到文本模式**。
+1. 在&#x200B;**显示在此列：**&#x200B;区域中，单击&#x200B;**单击以编辑文本**。
+1. 在所选列的文本底部添加在[使用文本模式](#format-views-using-text-mode)设置视图格式中提供的代码示例。
+1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
 
 ## 使用文本模式设置视图格式 {#format-views-using-text-mode}
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 #### 列标题 {#column-headers}
 
-要更改显示的列标题，请将以下代码添加到列： `displayname= [Name of column]`. 例如，要将列命名为“项目所有者”，文本代码如下所示：
+要更改显示的列标题，请将以下代码添加到列： `displayname= [Name of column]`。 例如，要将列命名为“项目所有者”，文本代码如下所示：
 
 `displayname=Project Owner`
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 日期可以配置为以各种格式显示。
 
-有关更多信息，请参阅 [设置文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+有关详细信息，请参阅[文本模式报表中的日期格式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -183,7 +183,7 @@ ht-degree: 1%
 
 您可以设置数字值的格式，以显示最适合您的报告需求的信息。
 
-有关更多信息，请参阅 [设置文本模式报表中的数字、货币和百分比值的格式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+有关详细信息，请参阅[文本模式报表中的数字、货币和百分比值的格式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -260,7 +260,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >合并的列可能不支持条件格式。\
->有关将列与文本模式合并的详细信息，请参阅 [视图：合并来自一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>有关使用文本模式合并列的详细信息，请参阅[视图：合并一个共享列中多个列的信息](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)。
 
 在要添加条件格式的任何列中插入以下代码：
 
@@ -278,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->此 `styledef.case.0.comparison.icon` 除非使用图标，否则行始终为false。
+>除非使用图标，否则`styledef.case.0.comparison.icon`行始终为false。
 >
->此 `styledef.case.0.comparison.truetext` 行始终留空，直到处理覆盖文本为止。
+>在处理覆盖文本之前，`styledef.case.0.comparison.truetext`行始终留空。
 >
->此 `styledef.case.0.comparison.righttext` 当限定符不为空时，行为空白。
+>当限定符不为空时，`styledef.case.0.comparison.righttext`行为空。
 
 例如，如果我们想在项目报告中以绿色文本显示公司名称，您可以使用以下代码：
 
@@ -300,8 +300,8 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* 虽然此语句可以应用于“公司名称”列，但它也可以应用于报表上的任何其他列。 仅当项目具有关联的公司时，才会显示绿色文本。 记住 `[field name]`， `[value]`、和 `[qualifier]` 驱动条件是否最终显示在列上。
->* 在使用限定符时，我们建议使用 `cicontains` 而不是 `equal`. 默认情况下， `equal` 查找ID号。 使用 `cicontains` 限定符，您可以按其名称访问项目。
+>* 虽然此语句可以应用于“公司名称”列，但它也可以应用于报表上的任何其他列。 仅当项目具有关联的公司时，才会显示绿色文本。 请记住`[field name]`、`[value]`和`[qualifier]`驱动器，无论条件是否最终显示在列上。
+>* 在使用限定符时，我们建议使用`cicontains`而不是`equal`。 默认情况下，`equal`会查找ID号。 使用`cicontains`限定符，您可以按其名称访问项目。
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
@@ -339,7 +339,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-| 字体 | 行： ***字体样式=*** |
+| 字体 | 行： ***fontstyle=*** |
 |---|---|
 | 粗体 | `bold` |
 | 斜体 | `italic` |
@@ -408,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->以开头的行 `case.0.` 用例比较以标识文本的使用。 以开头的行 `styledef.case.0.` 是早期的条件格式语句，在此语句中我们通过 `truetext` 表达式。 确保设置 `truetext` 到值，而不是将其留空。
+>以`case.0.`开头的行用于标识文本的使用情况。 以`styledef.case.0.`开头的行是早期的条件格式语句，我们通过`truetext`表达式来标识文本的使用。 确保将`truetext`设置为值，而不是将其留空。
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -473,7 +473,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->请注意，语句使用 `icon=true` 表达式。 此语句与其他条件格式语句的不同之处还在于，它不使用 `style.def` 格式，而是一种唯一的图像格式。
+>请注意，语句使用`icon=true`表达式。 此语句与其他条件格式语句的不同之处在于，它不使用`style.def`格式，而是使用唯一的图像格式。
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -483,34 +483,34 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 | **图标** | **行： image.case.0.comparison.truetext=** |
 |---|---|
-| 皱眉 ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 快乐的脸 ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| 蓝色标志  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| 绿色标志  ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 红色标志  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| 黄色标志  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黑色圆形  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| 蓝色圆圈 ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| 灰色圆形 ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| 绿色圆圈 ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| 橙色圆圈 ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| 粉红色圆形 ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| 紫色圆圈 ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| 红色圆形 ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| 空心圆圈 ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| 黄色圆圈 ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| 皱眉脸![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 快乐的脸![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 蓝色标志![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| 绿色标志![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| 红色标志![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 黄色标志![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| 黑色圆圈![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 蓝色圆圈![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| 灰色圆圈![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| 绿色圆圈![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| 橙色圆圈![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| 粉红色圆圈![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 紫色圆圈![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| 红色圆圈![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| 空心圆圈![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| 黄色圆圈![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
-### 有条件地设置a格式 `valueexpression` {#conditionally-format-a-valueexpression}
+### 有条件地设置`valueexpression`的格式 {#conditionally-format-a-valueexpression}
 
-要在列中显示计算值，可以替换 `valuefield` 带有的列中的代码行 `valueexpression`. 计算值允许您根据同一对象上两个现有字段之间的计算来显示对象的新值。
+要在列中显示计算值，可将列中的`valuefield`行代码替换为`valueexpression`。 计算值允许您根据同一对象上两个现有字段之间的计算来显示对象的新值。
 
-有关如何设置格式的详细信息 `valueexpression line`，请参见 [文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+有关如何设置`valueexpression line`格式的更多信息，请参阅[文本模式语法概述](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)。
 
-不能有条件地格式化包含 `valueexpression` 代码行。 而是可以将计算自定义字段添加到自定义表单，并将其与报表中显示的对象相关联。 然后，您可以有条件地格式化显示此字段的列。
+不能有条件地格式化包含`valueexpression`行代码的列。 而是可以将计算自定义字段添加到自定义表单，并将其与报表中显示的对象相关联。 然后，您可以有条件地格式化显示此字段的列。
 
-有关计算的自定义字段的更多信息，请参阅 [将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+有关计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 在文本模式列中添加聚合器值
 
@@ -524,7 +524,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
    * 日期
    * 货币
 
-* 您可以将聚合器添加到显示计算的列中。 聚合的值显示在视图或报表的分组中。 有关更多信息，请参阅 [分组：显示分组中多个计算值的聚合结果](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* 您可以将聚合器添加到显示计算的列中。 聚合的值显示在视图或报表的分组中。 有关详细信息，请参阅[分组：显示分组](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)中多个计算值的聚合结果。
 * 用于定义列的代码行必须与引入聚合器的代码行相同，并且前面必须加上“聚合”。 例如，如果您有一列在项目中显示计划小时数，则该列主行的文本模式为：
 
 ```
@@ -534,10 +534,10 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 如果要聚合视图分组中所有行的值，我们可以添加以下代码来添加聚合器值：
 
-`aggregator.valuefield=workRequired` (此 `aggregator.valuefield` 行必须与 `valuefield` 描述列)
+`aggregator.valuefield=workRequired` （`aggregator.valuefield`行必须与描述该列的`valuefield`相同）
 
-`aggregator.valueformat=compound` (此 `aggregator.valueformat` 行的值必须与 `valueformat` 描述列)
+`aggregator.valueformat=compound` （`aggregator.valueformat`行必须具有与描述该列的`valueformat`相同的值）
 
-`aggregator.function=SUM` （这是指明如何聚合列的必需行，在本例中，您要将所有单个计划小时数添加到分组行中的一个数字）
+`aggregator.function=SUM` （这是指示您希望如何聚合列的强制行，在这种情况下，您希望将所有单独的计划小时数添加到分组行中的一个数字）
 
-`aggregator.displayformat=minutesAsHoursString` (由于小时数存储在几分钟的Workfront中，因此我们希望指示 `displayformat` （当它们以分钟为单位存储时，表示小时数）
+`aggregator.displayformat=minutesAsHoursString` (因为小时数在Workfront中以分钟为单位存储，所以我们希望在`displayformat`以分钟为单位存储时表示该小时数)

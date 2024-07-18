@@ -79,17 +79,17 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 <table>
   <tr>
-   <td><strong>功能 </strong>
+   <td><strong>功能</strong>
    </td>
-   <td><strong>存在于旧评论体验中 </strong>
+   <td><strong>存在于旧评论体验</strong>中
    </td>
-   <td><strong>存在于新的评论体验中 </strong>
+   <td><strong>存在于新的评论体验</strong>中
    </td>
-   <td><strong>将在新的评论体验中引入 </strong>
+   <td><strong>将被引入新的评论体验</strong>
    </td>
-   <td><strong>何时将在新的评论体验中引入 </strong>
+   <td><strong>何时将被引入新的评论体验</strong>
    </td>
-   <td><strong>正在研究 </strong>
+   <td><strong>正在研究</strong>
    </td>
   </tr>
   <tr>
@@ -514,9 +514,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 >[!IMPORTANT]
 >
->有关在Beta测试版时间范围内向新评论体验发布的功能的信息，请参阅 [新的评论Beta版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>有关在Beta测试版时间范围内向新评论体验发布的功能，请参阅[新评论测试版体验发布活动](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)。
 >
->有关管理Workfront对象更新的更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>有关管理Workfront对象更新的详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
 以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
@@ -526,14 +526,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 以下是发布新评论体验的计划时间表：
 
 * 在23.2版本（2023年4月6日）中：
-   * 针对问题启动评论体验Beta版
+   * 针对问题启动评论体验Beta
    * 发布新的目标评论体验（作为唯一体验）
 * 在23.3版本（2023年7月20日）中：
-   * 为项目、任务和文档启动评论体验测试版。
+   * 为项目、任务和文档启动评论体验Beta 。
    * 在展示板区域发布信息卡的新评论体验（作为唯一体验）
 * 在2023年第四季度版本（限量版本，仅向选择快速版本的客户提供）中：
    * 发布模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
-   * 更新项目、任务、问题和文档的评论体验测试版，使其成为默认选项。 移除“Beta”标签。
+   * 更新项目、任务、问题和文档的注释体验Beta以使其成为默认选项。 已移除“Beta”标签。
 * 在2023年第四季度(23.10)发布（2023年10月26日）
    * 向所有客户发布有关模板、模板任务、程序、项目组合、团队、用户和工时表的新注释体验（作为唯一体验）。
    * 将项目、任务、问题和文档的新注释体验设置为默认选项。
@@ -561,7 +561,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 在所有对象的“更新”部分中。
 
-  有关访问Workfront对象更新部分的信息，请参阅 [更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  有关访问Workfront对象更新部分的信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 * 在所有可用区域的任务、问题和文档的摘要面板中（列表、时间表、工作负载均衡器和主页）。
 * 在“主页”区域中，查看任务和问题。

@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 需要 [!DNL Adobe Workfront Fusion] 除了许可证外， [!DNL Adobe Workfront license].
+>除[!DNL Adobe Workfront license]外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 本节包含以下文章：
 
-* [在中处理时出错 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
-* [中的错误处理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
-* [中用于错误处理的指令 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [在中重试错误处理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
-* [在中引发错误处理 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
-* [中的高级错误处理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
+* [在 [!DNL Adobe Workfront Fusion]中处理时出错](../../workfront-fusion/errors/error-processing.md)
+* [在 [!DNL Adobe Workfront Fusion]中处理错误](../../workfront-fusion/errors/error-handling.md)
+* [ [!DNL Adobe Workfront Fusion]中用于错误处理的指令](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [在 [!DNL Adobe Workfront Fusion]中重试错误处理](../../workfront-fusion/errors/retry.md)
+* [在[!UICONTROL Adobe Workfront Fusion]中引发错误处理](../../workfront-fusion/errors/throw.md)
+* [ [!DNL Adobe Workfront Fusion]中的高级错误处理](../../workfront-fusion/errors/advanced-error-handling.md)

@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -41,25 +41,25 @@ Adobe Workfront于2021年4月22日发布了API版本13。 API版本13具有对�
      <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">燃尽事件</a> </p> </li> 
      <li> <p><a href="#customerpreferences" class="MCXref xref">客户首选项</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">文档版本</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">组 </a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref">组</a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">日志条目</a> </p> </li> 
      <li> <p><a href="#layouttemplate" class="MCXref xref">布局模板</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">链接文件夹</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">Op 任务</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">Op任务</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">项目</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">校对审批</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">任务</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">团队</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">时间表</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">周期性工时表</a> </p> </li> 
-     <li> <p><a href="#uitemplate" class="MCXref xref">UIT模板</a> </p> </li> 
-     <li> <p><a href="#userdelegation" class="MCXref xref">用户委托</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">工作 </a> </p> </li> 
+     <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref">用户委派</a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">工作</a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Adobe Workfront于2021年4月22日发布了API版本13。 API版本13具有对�
 
 AccessLevel对象与用户相关联，并描述确定用户可以访问的AccessLevelPermissions集。
 
-有关访问级别的详细信息，请参阅 [访问级别的工作方式](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+有关访问级别的详细信息，请参阅[访问级别的工作方式](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -89,7 +89,7 @@ AccessLevel对象与用户相关联，并描述确定用户可以访问的Access
 
 BreadCrumb对象表示Workfront工作项的父/子层次结构中的元素。 痕迹导航指示工作项如何适应Portfolio、项目、项目和任务的较大结构。
 
-有关痕迹导航的更多信息，请参阅 [新Adobe Workfront体验中的痕迹导航概述](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+有关痕迹导航的更多信息，请参阅新Adobe Workfront体验中的[痕迹导航概述](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ BreadCrumb对象表示Workfront工作项的父/子层次结构中的元素。 �
    <td> <p>直接字段</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>对象代码</b> </p> <p>目标代码可在以下位置找到： <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API资源管理器</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到对象代码。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ BreadCrumb对象表示Workfront工作项的父/子层次结构中的元素。 �
 
 BurndownEvent对象表示更改小版本限制的对象。
 
-有关燃尽的详细信息，请参阅 [燃尽](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+有关燃尽的详细信息，请参阅[燃尽](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -153,7 +153,7 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
    <td> <p>向CustomerPreferences资源添加了以下操作。</p> 
     <ul> 
      <li> <p><b>getTimesheetPreferences</b> </p> </li> 
-     <li> <p><b>setTimesheetPreferences</b> </p> <p>采用参数：</p> 
+     <li> <p><b>设置工时表首选项</b> </p> <p>采用参数：</p> 
       <ul> 
        <li> <p>首选项（映射）</p> </li> 
       </ul> </li> 
@@ -166,7 +166,7 @@ CustomerPreferences对象表示客户为其Workfront实例设置的首选项集�
 
 DocumentVersion对象表示文件的特定版本（如书面材料、图像或其他形式的信息）。
 
-有关文档版本的详细信息，请参阅 [上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md).
+有关文档版本的详细信息，请参阅[上载文档的新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -192,7 +192,7 @@ DocumentVersion对象表示文件的特定版本（如书面材料、图像或�
 
 组对象表示一组用户和团队。 组通常代表部门结构。
 
-有关组的详细信息，请参见 [Adobe Workfront中的组与团队](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+有关组的详细信息，请参阅Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)中的[组与团队。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -224,14 +224,14 @@ JournalEntry资源添加了标志REPORTABLE。
     <ul> 
      <li> <p><b>changeType</b> </p> </li> 
      <li> <p><b>entryDate</b> </p> </li> 
-     <li> <p><b>fieldName</b> </p> </li> 
-     <li> <p><b>对象代码</b> </p> </li> 
+     <li> <p><b>字段名称</b> </p> </li> 
+     <li> <p><b>objObjCode</b> </p> </li> 
     </ul> <p>以下字段添加了标记NOT_FILTERABLE：</p> 
     <ul> 
      <li> <p><b>subObjCode</b> </p> </li> 
-     <li> <p><b>Subobjid</b> </p> </li> 
+     <li> <p><b>subObjID</b> </p> </li> 
      <li> <p><b>topObjCode</b> </p> </li> 
-     <li> <p><b>顶对象ID</b> </p> </li> 
+     <li> <p><b>topObjID</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -241,7 +241,7 @@ JournalEntry资源添加了标志REPORTABLE。
 
 Adobe Workfront管理员或组管理员可创建模板以自定义Adobe Workfront中的布局元素。 LayoutTemplate对象特定于Adobe Workfront Classic。
 
-有关在新的Adobe Workfront Experience中表示布局模板的对象，请参阅 [UIT模板](#uitemplate)
+有关在新的Adobe Workfront Experience中表示布局模板的对象，请参阅[UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Adobe Workfront管理员或组管理员可创建模板以自定义Adobe Workfron
 
 LinkedFolder对象表示从外部文档提供商(如Google驱动器或Dropbox)链接的文件夹。
 
-有关链接文件夹的详细信息，请参阅 [链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+有关链接文件夹的详细信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -342,7 +342,7 @@ ProofApproval对象表示直接连接到验证的审批。
 
 QueueDef对象表示队列，这是一个已发布到技术支持区域以允许用户向其提交问题的项目。
 
-有关请求队列的详细信息，请参阅 [创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+有关请求队列的详细信息，请参阅[创建请求队列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -352,7 +352,7 @@ QueueDef对象表示队列，这是一个已发布到技术支持区域以允许
    <td role="rowheader">直接字段</td> 
    <td> 
     <ul> 
-     <li> <p><b>文档位置</b> </p> <p>已添加. 可能的值包括：</p> 
+     <li> <p><b>文档位置</b> </p> <p>已添加。 可能的值包括：</p> 
       <ul> 
        <li> <p>0（在自定义表单之后）</p> </li> 
        <li> <p>1（自定义表单前）</p> </li> 
@@ -424,7 +424,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
    <td>核心字段</td> 
    <td> 
     <ul> 
-     <li> <p><b>对象代码</b> </p> <p>已删除</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>已删除</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -459,7 +459,7 @@ Task对象表示作为实现最终目标（完成项目）的步骤而必须执�
 
 Adobe Workfront管理员或组管理员可创建模板以自定义Adobe Workfront中的布局元素。 UITemplate对象特定于新的Adobe Workfront体验。
 
-有关在Adobe Workfront Classic中表示布局模板的对象，请参阅 [布局模板](#layouttemplate).
+有关在Adobe Workfront Classic中表示布局模板的对象，请参阅[布局模板](#layouttemplate)。
 
 <table style="table-layout:auto"> 
  <col> 

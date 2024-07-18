@@ -11,7 +11,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [恢复已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+* [还原已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
 * [查看已还原的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-* [配置删除和还原对象时的影响（小时）](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+* [删除和还原对象时配置影响时间](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
 * [恢复单个子对象](../../../administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)

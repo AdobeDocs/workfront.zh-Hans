@@ -17,9 +17,9 @@ ht-degree: 0%
 
 批准流程提供了灵活性，可以为项目、任务和问题创建多步批准。 Adobe Workfront管理员定义审批流程，以在整个系统中提供一致性。
 
-有关创建审批流程的信息，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+有关创建审批流程的信息，请参阅[为工作项创建审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
-有关将审批与Workfront中的工作关联的信息，请参阅 [将新的或现有的审批流程与工作关联](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+有关将审批与Workfront中的工作关联的信息，请参阅[将新的或现有的审批流程与工作关联](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
 ## 访问要求
 
@@ -39,30 +39,30 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限访问与审批关联的对象</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>查看或更高权限访问与审批关联的对象</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看与审批关联的对象的权限或更高的权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>查看与审批关联的对象的权限或更高的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 在Adobe Workfront中查找批准
 
-您可以从Workfront的多个区域查看或管理审批。 有关如何管理各个领域的批准的信息，请参阅 [审批工作](../../review-and-approve-work/manage-approvals/approving-work.md).
+您可以从Workfront的多个区域查看或管理审批。 有关如何管理各个领域的审批的信息，请参阅[审批工作](../../review-and-approve-work/manage-approvals/approving-work.md)。
 
 您可以从以下区域查看或管理审批：
 
 * 在“主页”区域
 
    * 当您选择查看全部或审批时，所有等待您审批的项目、任务、问题、时间表、文档和访问权限都会显示在主页区域中。
-   * 您自己提交的审批也会显示在主页区域的工作列表的“我已提交的审批”部分。 欲了解更多信息，请参见 [在“主页”区域查看您提交以供审批的工作](#review-work-you-submit-for-approval-in-the-home-area) 部分。
+   * 您自己提交的审批也会显示在主页区域的工作列表的“我已提交的审批”部分。 有关详细信息，请参阅本文中“主页”区域](#review-work-you-submit-for-approval-in-the-home-area)部分中的[审核您提交供审批的工作。
    * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域删除。
 
-  有关使用主页的信息，请参见 [主页入门](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  有关使用主页的信息，请参阅[主页入门](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 * 在项目、任务、问题、文档或验证的标题中
 * 在项目、任务或问题的审批部分
@@ -74,21 +74,21 @@ ht-degree: 0%
 
   您可以创建包含批准信息的项目、任务、问题或文档批准报告。
 
-  有关创建报告的信息，请参阅 [创建自定义报表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  有关创建报告的信息，请参阅[创建自定义报告](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 在“主页”区域查看您提交以供审批的工作 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 单击 **主页** 图标 ![](assets/home-icon-30x29.png) 在Adobe Workfront的左上角。
+1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
    >您的Workfront管理员可以对环境中的主页图标进行以下更改：
    >
    >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在此例中，单击 **主菜单** ![](assets/main-menu-icon.png) （位于页面的右上角），然后单击 **主页**.
+   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
 
-1. 选择 **工作列表**，然后单击 **筛选** 下拉菜单并选择 **审批**.
-1. 展开 **我已提交的审批** 部分并查找您提交的审批。
+1. 选择&#x200B;**工作列表**，然后单击&#x200B;**筛选器**&#x200B;下拉菜单并选择&#x200B;**审批**。
+1. 展开&#x200B;**我已提交的审批**&#x200B;部分，并查找您提交的审批。
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">更新 </td> 
-   <td> <p>发生时显示所有审批状态。 审批状态与 <strong>更新</strong> 部分。</p> </td> 
+   <td> <p>发生时显示所有审批状态。 审批状态与<strong>更新</strong>部分中显示的其他状态一致。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">审批</td> 
@@ -111,12 +111,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-* [使用更新区域查看审批状态](#use-the-updates-area-to-view-an-approval-status)
+* [使用“更新”区域查看审批状态](#use-the-updates-area-to-view-an-approval-status)
 * [使用审批区域查看审批状态](#use-the-approvals-area-to-view-an-approval-status)
 
 ### 使用更新区域查看审批状态 {#use-the-updates-area-to-view-an-approval-status}
 
-对项目、任务或问题启动批准后， **更新** 选项卡中，指示审批状态。 每当对象通过审批流程过渡时，都会显示新状态。 这包括以下事件：
+对项目、任务或问题启动审批后，对象的&#x200B;**更新**&#x200B;选项卡中将显示一个状态，指示审批状态。 每当对象通过审批流程过渡时，都会显示新状态。 这包括以下事件：
 
 * 对对象启动批准流程。 当状态更改时，将启动审批流程。
 * 对象被拒绝
@@ -137,10 +137,10 @@ ht-degree: 0%
 要查看任务或问题在审批流程中的当前状态，请执行以下操作：
 
 1. 转到与审批关联的项目、任务或问题。
-1. 在左侧面板中，单击 **审批**. 您可能需要先单击 **显示更多**.
+1. 在左侧面板中，单击&#x200B;**审批**。 您可能需要先单击&#x200B;**显示更多**。
 
    “审批”选项卡显示所有过去审批路径和阶段的完整信息。 您可以准确地查看对批准做出决定的用户，或者是否为团队、工作角色或用户设置了批准。
 
    ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
-   有关创建批准流程的信息，请参阅 [创建工作项的审批流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+   有关创建批准流程的信息，请参阅[为工作项创建批准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

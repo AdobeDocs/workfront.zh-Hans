@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年4月26日起一周
-description: Workfront Fusion发行活动：&nbsp；2021年4月26日起一周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年4月26日起一周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年4月26日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年4月26日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## Microsoft OneDrive连接器和模块现已可用
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 * 获取文件或获取文件的共享链接
 * 进行自定义API调用
 
-有关更多信息，请参阅 [Microsoft OneDrive模块](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
+有关详细信息，请参阅[Microsoft OneDrive模块](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)。
 
 ## Split.io连接器和模块现已可用
 
@@ -47,4 +47,4 @@ ht-degree: 0%
 * 检索工作区、环境、拆分、拆分定义或流量类型的列表
 * 执行自定义API调用
 
-有关更多信息，请参阅 [Split.io模块](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md).
+有关详细信息，请参阅[Split.io模块](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md)。

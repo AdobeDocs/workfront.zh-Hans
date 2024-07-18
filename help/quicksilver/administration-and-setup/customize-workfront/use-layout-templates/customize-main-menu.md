@@ -25,13 +25,13 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->用户看到的主菜单选项取决于其许可证类型以及在访问级别中配置的设置。 某些将使用此布局模板的用户可能无法看到您在此处选择的所有选项。 有关详细信息，请参阅 [访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) 和 [可配置访问每种对象类型的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>用户看到的主菜单选项取决于其许可证类型以及在访问级别中配置的设置。 某些将使用此布局模板的用户可能无法看到您在此处选择的所有选项。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)和[可配置的每种对象类型功能访问权限](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-有关创建布局模板的信息，请参阅 [创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md).
+有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
-有关组布局模板的信息，请参阅 [创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
-配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关为用户分配布局模板的信息，请参阅 [将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md).
+配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 访问要求
 
@@ -62,14 +62,14 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*有关访问要求的详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
 ## 自定义主菜单
 
-1. 开始使用布局模板，如中所述 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 单击 **设置主菜单** 模板右上角的。
+1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
+1. 单击模板右上角的&#x200B;**设置主菜单**。
 
    主菜单框打开，您可以看到当前显示在模板的主菜单中的区域，以及可添加的项目。 以下是您可以添加的所有可能项目：
    * 主页
@@ -89,14 +89,14 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅 [Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md).
+     >Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
 
    * 团队
    * 用户
 
      >[!NOTE]
      >
-     >只有具有“计划”许可证的用户（在当前许可证模型中）或具有“标准”许可证的用户（在新许可证模型中）才能看到“用户”区域 ![](assets/users-icon-in-main-menu.png) 在主菜单中。
+     >只有具有Plan许可证的用户（在当前许可证模型中）或具有Standard许可证的用户（在新许可证模型中）才可以在主菜单中看到“用户”区域![](assets/users-icon-in-main-menu.png)。
 
    * 请求
    * 工时表
@@ -108,7 +108,7 @@ ht-degree: 4%
 
      >[!NOTE]
      >
-     >目标需要额外的许可证。 有关Workfront目标的信息，请参阅 [Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >目标需要额外的许可证。 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
    * 我的更新
    * 展示板
@@ -116,22 +116,22 @@ ht-degree: 4%
 
 1. 执行以下任一操作：
 
-   * 隐藏 ![](assets/remove-icon---x-in-circle.png) **活动项目** 您不想显示的内容
-   * 显示 ![](assets/add-icon-plus-in-circle.png) **可用项目** 您想在主菜单上显示的内容。
-   * 拖动 ![](assets/move-icon---dots.png) **活动项目** 更改主菜单上的显示顺序。
+   * 隐藏![](assets/remove-icon---x-in-circle.png)您不想显示的&#x200B;**活动项**
+   * 显示您想在主菜单上显示的![](assets/add-icon-plus-in-circle.png) **可用项**。
+   * 拖动![](assets/move-icon---dots.png) **活动项**&#x200B;以更改它们在主菜单上的显示顺序。
 
-1. 单击 **完成**.
+1. 单击&#x200B;**完成**。
 
-   您还可以单击 **取消** 随时放弃更改。
+   如果要放弃更改，还可以随时单击&#x200B;**取消**。
 
 1. 继续自定义布局模板。
 
    或
 
-   如果您已完成自定义，请单击 **保存**.
+   如果您已完成自定义，请单击&#x200B;**保存**。
 
    >[!TIP]
    >
    >您可以随时单击保存以保存进度，然后继续修改模板。
 
-有关布局模板的详细信息，请参阅 [创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+有关布局模板的更多信息，请参阅[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。

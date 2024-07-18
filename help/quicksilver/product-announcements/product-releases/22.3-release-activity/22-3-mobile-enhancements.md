@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3移动设备增强功能
 
-本页介绍了22.3版本对“预览”环境做出的所有移动设备增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本可用的所有更改列表，请参阅 [22.3发行版概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+本页介绍了22.3版本对“预览”环境做出的所有移动设备增强。 这些增强功能已在2022年7月11日这一周的生产环境中提供。 有关22.3版本的所有可用更改列表，请参阅[22.3版本概述](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。
 
 ## 移动应用程序中的校对增强功能
 
@@ -30,6 +30,6 @@ Adobe Workfront移动设备应用程序现在允许您查看有关校样注释�
 
 将应用程序发布到应用商店后，将更新以下文章：
 
-* [关于Android中验证的评论](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+* [关于Android中校样的评论](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 
 * [关于iOS中校样的评论](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)

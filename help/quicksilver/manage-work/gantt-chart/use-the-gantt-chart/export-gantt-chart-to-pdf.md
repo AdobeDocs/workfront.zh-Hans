@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 导出 [!UICONTROL 甘特图] 至PDF
+# 将[!UICONTROL 甘特图]导出到PDF
 
-您可以导出 [!UICONTROL 甘特图] PDF。
+您可以将[!UICONTROL 甘特图]导出到PDF。
 
-导出 [!UICONTROL 甘特图] 要PDF，您可以将其打印或附加到电子邮件中，以便与其他用户共享。
+将[!UICONTROL 甘特图]导出到PDF后，您可以将其打印或附加到电子邮件中，以便与其他用户共享。
 
 ## 访问要求
 
@@ -36,73 +36,73 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高权限访问项目和任务</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL视图]或更高版本的项目访问权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>[！UICONTROL视图]或更高版本的项目访问权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 导出 [!UICONTROL 甘特图]
+## 导出[!UICONTROL 甘特图]
 
-1. 访问 [!UICONTROL 甘特图] 要导出到PDF的内容，如中所述 [开始使用 [!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
-1. 确保您已配置 [!UICONTROL 甘特图] 以在导出之前显示相应的信息。
+1. 访问要导出到PDF的[!UICONTROL 甘特图]，如[甘特图[!UICONTROL 入门]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)中所述。
+1. 在导出[!UICONTROL 甘特图]之前，请确保已将其配置为显示相应的信息。
 
    >[!NOTE]
    >
-   >如果导出 [!UICONTROL 甘特图] 从项目列表中，PDF文件仅包含列表中的项目，而不包含每个项目上的任务。 如果要导出任务列表，可以从与任务关联的项目中导出任务列表，也可以通过构建任务报告并在中显示报告结果来导出任务列表。 [!UICONTROL 甘特视图].
+   >如果从项目列表中导出[!UICONTROL 甘特图]，则PDF文件仅包含列表中的项目，而不包含每个项目上的任务。 如果要导出任务列表，可以从与任务关联的项目中导出任务列表，也可以通过构建任务报告并在[!UICONTROL 甘特图]中显示报告结果来导出任务列表。
 
    您可以配置以下信息：
 
-   * 根据需要，在任务列表中添加“筛选器”、“视图”和“分组”。 在查看时，将维护在列表视图中选择的任何筛选器和分组 [!UICONTROL 甘特图]. 视图会反映在导出的上 [!UICONTROL 甘特图] 仅在旁边显示的列表中 [!UICONTROL 甘特图] 在第一页上。 视图不显示在 [!UICONTROL 甘特图] 本身。
+   * 根据需要，在任务列表中添加“筛选器”、“视图”和“分组”。 在查看[!UICONTROL 甘特图]时，将维护在列表视图中选择的任何筛选器和分组。 视图仅在第一页的[!UICONTROL 甘特图]旁边显示的列表中，反映在导出的[!UICONTROL 甘特图]上。 视图未显示在[!UICONTROL 甘特图]本身。
 
      >[!TIP]
      >
-     >为提供更多空间 [!UICONTROL 甘特图] 本身，应用包含尽可能少的列的视图。
+     >要为[!UICONTROL 甘特图]本身留出更多空间，请应用包含尽可能少的列的视图。
 
-   * 上的配置选项 [!UICONTROL 甘特图]. 例如，您可以启用里程碑、日期、 [!UICONTROL 基线]，或 [!UICONTROL 完成百分比] 以显示在 [!UICONTROL 甘特图].
+   * [!UICONTROL 甘特图]上的配置选项。 例如，您可以启用里程碑、日期、[!UICONTROL 基线]或完成百分比[!UICONTROL 在[!UICONTROL 甘特图]中显示。]
 
-     有关更多信息，请参阅   [配置信息在 [!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+     有关更多信息，请参阅   [配置信息在[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的显示方式。
 
      >[!NOTE]
      >
-     > 分配不会显示在 [!UICONTROL 甘特图] 当 [!UICONTROL 甘特图] 导出到PDF。 当 [!UICONTROL 甘特图] 导出到PDF时，分配仅显示在列表视图中。
+     > 将[!UICONTROL 甘特图]导出到PDF时，分配不会显示在[!UICONTROL 甘特图]中。 将[!UICONTROL 甘特图]导出到PDF时，分配仅显示在列表视图中。
 
-   * 在上显示的时间段 [!UICONTROL 甘特图].\
+   * 显示在[!UICONTROL 甘特图]中的时间段。\
 
-     有关更多信息，请参阅 [在中查看信息 [!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     有关详细信息，请参阅[查看[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)中的信息。
 
-     时间段在导出文件中的显示方式取决于您是否选择 **[!UICONTROL 我看到的内容]** 或 **[!UICONTROL 多页]** 在后续步骤中。
+     在导出文件中显示时间周期的方式取决于您是选择&#x200B;**[!UICONTROL 我看到的内容]**&#x200B;还是在后续步骤中选择&#x200B;**[!UICONTROL 多个页面]**。
 
 1. （可选）要仅包括导出PDF中的某些任务，请选择要包括的任务。
 
    如果未选择任何任务，则所有任务都将包含在导出的PDF中。
 
-   例如，如果您正在查看 [!UICONTROL 甘特图] 适用于包含50个任务，但希望导出项上仅显示10个任务的项目 [!UICONTROL 甘特图]，选择要显示的10个任务。
+   例如，如果您正在查看包含50个任务的项目的[!UICONTROL 甘特图]，但希望在导出的[!UICONTROL 甘特图]上仅显示10个任务，请选择要显示的10个任务。
 
 1. 单击打印机图标。\
-   此 **[!UICONTROL 导出到PDF]** 对话框随即显示。\
+   将显示&#x200B;**[!UICONTROL 导出到PDF]**&#x200B;对话框。\
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
-1. 选择是只导出您所看到的内容，还是导出整个 [!UICONTROL 甘特图]：
+1. 选择是只导出您所看到的内容，还是导出整个[!UICONTROL 甘特图]：
 
-   * **[!UICONTROL 我看到的内容]：** 导出在导出最多500个项目之前显示在屏幕上的所有任务（包括任何子任务）。 (这不是 **[!UICONTROL 预览]** 部分； [!UICONTROL 预览] 部分仅包含示例数据。)
+   * **[!UICONTROL 我所看到的内容]：**&#x200B;导出在导出最多500个项目之前屏幕上显示的所有任务（包括任何子任务）。 （这不是&#x200B;**[!UICONTROL 预览]**&#x200B;节中显示的内容；[!UICONTROL 预览]节仅包含示例数据。）
 
      即使父任务被折叠并且子任务不可见，子任务也会包含在导出的PDF中。 要仅包括父任务，请选择要包括的父任务，并保留任何子任务未选中。
 
-     您可以使用 **[!UICONTROL 缩放为]** 下拉菜单或滑块工具，仅显示 [!UICONTROL 甘特图]，如中所述 [在中查看信息 [!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) .
+     您可以使用&#x200B;**[!UICONTROL 缩放到]**&#x200B;下拉菜单或滑块工具来仅显示[!UICONTROL 甘特图]的一部分，如[查看[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)中的信息中所述。
 
-   * **[!UICONTROL 多页]：** 导出整个 [!UICONTROL 甘特图]，甚至那些未在当前屏幕上显示的内容，最多可显示500项。\
+   * **[!UICONTROL 多个页面]：**&#x200B;导出整个[!UICONTROL 甘特图]，即使它在当前屏幕上不可见，最多也导出了500个项目。\
 
-     您可以使用 **[!UICONTROL 缩放为]** 下拉菜单或滑块工具来确定每个页面上显示的信息量，如中所述 [配置信息在 [!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 选择更细粒度选项以显示更多要导出的页面，或选择更细粒度选项以显示更少要导出的页面。
+     您可以使用&#x200B;**[!UICONTROL 缩放到]**&#x200B;下拉菜单或滑块工具来确定每个页面上显示的信息量，如[配置信息在[!UICONTROL 甘特图]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的显示方式。 选择更细粒度选项以显示更多要导出的页面，或选择更细粒度选项以显示更少要导出的页面。
 
      >[!NOTE]
      >
-     >如果需要导出 [!UICONTROL 甘特图] 如果包含500多个项目，请在查看 [!UICONTROL 甘特图] 以便显示少于500项或250页。 有关如何应用过滤器的信息，请参阅  [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     >如果需要导出包含500个以上项目的[!UICONTROL 甘特图]，请在查看[!UICONTROL 甘特图]之前对列表应用筛选器，以便显示少于500个项目或250页。 有关如何应用筛选器的信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
      >
      >
      >在以下情况下，无法导出整个甘特图：
@@ -115,15 +115,15 @@ ht-degree: 0%
 
 
 
-1. 如果PDF在导出到PDF后打印，则在 **[!UICONTROL 页面大小]** 下拉菜单，选择要打印到的纸张大小。\
-   您可以选择 **[!UICONTROL 书信]**， **[!UICONTROL 法律]**， **[!UICONTROL 分类帐]**， **[!UICONTROL A1]**， **[!UICONTROL A2]**， **[!UICONTROL A3]** （仅适用于某些语言），或 **[!UICONTROL A4]**.
-1. 在 **[!UICONTROL 页面方向]** 部分，选择是希望以横向还是纵向导出PDF。
-1. 选择 **[!UICONTROL 显示图例]** 如果要在导出的PDF中包含图例。
-1. 单击 **[!UICONTROL 导出]**.
+1. 如果PDF在导出到PDF后要打印，请在&#x200B;**[!UICONTROL 页面大小]**&#x200B;下拉菜单中，选择要打印到的纸张大小。\
+   您可以选择&#x200B;**[!UICONTROL Letter]**、**[!UICONTROL Legal]**、**[!UICONTROL Ledger]**、**[!UICONTROL A1]**、**[!UICONTROL A2]**、**[!UICONTROL A3]**（仅适用于某些语言）或&#x200B;**[!UICONTROL A4]**。
+1. 在&#x200B;**[!UICONTROL 页面方向]**&#x200B;部分中，选择您希望以横向还是纵向导出PDF。
+1. 如果要在导出的PDF中包含图例，请选择&#x200B;**[!UICONTROL 显示图例]**。
+1. 单击&#x200B;**[!UICONTROL 导出]**。
 
-   的PDF [!UICONTROL 甘特图] 创建并下载到您的计算机。
+   [!UICONTROL 甘特图]的PDF已创建并下载到您的计算机。
 
-   请注意导出文件底部的图例。 它仅说明您已在 [!UICONTROL 甘特图] 以及任务列表中提供的内容。
+   请注意导出文件底部的图例。 它仅说明您在[!UICONTROL 甘特图]中启用的选项以及任务列表中可用的选项。
 
    例如，仅当至少有一个任务与里程碑关联时，里程碑才会显示在图例中。
 

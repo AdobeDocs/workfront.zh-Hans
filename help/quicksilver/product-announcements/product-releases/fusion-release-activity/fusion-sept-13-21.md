@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发行活动：&nbsp；2021年9月13日起一周
-description: Workfront Fusion发行活动：&nbsp；2021年9月13日起一周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年9月13日起一周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年9月13日起一周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年9月23日这一周在Adobe Workfront Fusion中所做的所有增强功能。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 对Workfront Fusion场景执行历史记录进行过滤和排序
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 操作数
 * 传输的数据量
 
-有关对执行历史记录进行筛选和排序的详细信息，请参阅 [在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+有关对执行历史记录进行筛选和排序的详细信息，请参阅[在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## Fusion中的帮助链接现在指向特定的文章
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 以前，所有执行都有一个详细信息按钮，有时，用户只会单击详细信息以发现没有可用的详细信息。
 
-有关更多信息，请参阅 [在Adobe Workfront Fusion中查看场景的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+有关详细信息，请参阅[在Adobe Workfront Fusion中查看方案的执行历史记录](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)。
 
 ## SDL托管翻译连接器超时增加到120秒
 

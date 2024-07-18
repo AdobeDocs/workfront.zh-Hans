@@ -25,7 +25,7 @@ ht-degree: 0%
 
      或
 
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅 [Adobe Workfront计划](https://www.workfront.com/plans).
+     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
 
 * 对于当前计划和许可证结构：
 
@@ -34,10 +34,10 @@ ht-degree: 0%
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
-有关访问Workfront目标的其他信息，请参阅 [使用Workfront Goals的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 本节包含以下文章：
 
-* [启用Adobe Workfront Goals通知](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [启用Adobe Workfront目标通知](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [自定义Adobe Workfront目标术语](../workfront-goals-settings/customize-wf-goals-terminology.md)

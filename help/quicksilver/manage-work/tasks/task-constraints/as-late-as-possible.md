@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: “任务约束概述：尽可能晚”
-description: 尽可能晚(ALAP)是Adobe Workfront任务约束，它将任务的完成时间放在尽可能靠近项目结束的位置。
+title: '任务限制概述：尽可能迟'
+description: 尽可能迟(ALAP)是一种Adobe Workfront任务限制，它使任务的完成时间尽可能接近项目的结尾。
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# 任务约束概述：尽可能晚
+# 任务限制概览：尽可能迟
 
-尽可能晚(ALAP)是Adobe Workfront任务约束，它将任务的完成时间放在尽可能靠近项目结束的位置。
+尽可能迟(ALAP)是一种Adobe Workfront任务限制，它使任务的完成时间尽可能接近项目的结尾。
 
-使用此约束可能会导致重新计划前置任务或从属任务。
+使用此约束可能导致前置任务或从属任务被重新计划。
 
-有关前身关系的更多信息，请参阅 [使用任务前置任务](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+有关前置任务关系的详细信息，请参阅[使用前置任务](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)。
 
-如果项目使用计划模式“从完成日期开始计划”，并且任务的起始日期默认为“基于项目计划日期”，则“尽可能晚”是默认约束。
+如果项目使用的计划模式为“从完成日期开始计划”，并且任务的“起始日期”的系统或组默认值基于项目计划日期，则“尽可能晚于”为默认约束。
 
-有关在何处为新任务设置默认约束的信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有关在何处为新任务设置默认约束的信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
-有关如何更新任务上的任务约束的信息，请参阅 [更新任务的任务约束](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+有关如何更新任务的任务限制的信息，请参阅[更新任务的任务限制](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,31 +43,31 @@ ht-degree: 0%
 </div>
 -->
 
-## 最新可用时间与尽可能晚一些的时间之差
+## 最新可用时间和尽可能晚之间的差异
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-当存在以下条件时，“最新可用时间”约束与“尽可能晚一些”约束不同：
+当存在以下条件时，“最新可用时间”约束与“尽可能晚到”约束不同：
 
-* 项目计划从开始日期开始
-* 项目中的任务具有前置关系
-* 后续任务具有灵活的任务约束
+* 项目计划自开始日期起执行
+* 项目中的任务具有前置任务关系
+* 后续任务具有灵活的任务限制
 
 在这种情况下：
 
-* **最新可用时间：** 在前置任务上使用“最新可用时间”(Latest Available Time)约束优先于后置任务的灵活约束。
+* **最新可用时间：**&#x200B;对前置任务使用最新可用时间约束会优先使用后置任务的灵活约束。
 
-   **示例：** 例如，任务A是任务B的前身。任务A具有最新的可用时间约束，任务B具有尽快约束。 在这种情况下，任务A将安排在尽可能靠近项目开始的位置。
+  **示例：**&#x200B;例如，任务A是任务B的前置任务。任务A具有最新可用时间限制，而任务B具有“尽快”限制。 在此情况下，任务A被安排在尽可能接近项目开始的时间。
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **尽可能晚：** 在此方案中，对前置任务使用“尽可能晚”(As Late Ap Possiby)约束将优先考虑前置任务。
+* **尽可能迟：**&#x200B;在此方案中，对前置任务使用尽可能晚的限制将优先处理前置任务。
 
-   **示例：** 例如，任务A是任务B的前身。任务A具有尽可能晚的约束，任务B具有尽可能快的约束。 在这种情况下，任务A将安排在尽可能靠近项目结束的位置。
+  **示例：**&#x200B;例如，任务A是任务B的前置任务。任务A具有尽可能晚的限制，而任务B具有尽可能早的限制。 在这种情况下，任务A被安排在尽可能接近项目结束的时间。
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

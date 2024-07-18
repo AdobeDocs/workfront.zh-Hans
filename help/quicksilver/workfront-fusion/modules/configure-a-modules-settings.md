@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: 在中配置模块设置 [!DNL Adobe Workfront Fusion]
+title: 在 [!DNL Adobe Workfront Fusion]中配置模块的设置
 description: 您必须为创建的每个模块配置设置。
 author: Becky
 feature: Workfront Fusion
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 在中配置模块设置 [!DNL Adobe Workfront Fusion]
+# 在[!DNL Adobe Workfront Fusion]中配置模块的设置
 
 您必须为创建的每个模块配置设置。
 
-例如， [[!DNL Dropbox] 模块](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) 模块要求您指定要上载文件的目标文件夹。 对于 [[!UICONTROL 电子邮件] 模块](../../workfront-fusion/apps-and-their-modules/email-modules.md) 模块中，您需要输入发送电子邮件的电子邮件地址。
+例如，[[!DNL Dropbox] 模块](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)要求您指定要上载文件的目标文件夹。 对于[[!UICONTROL 电子邮件]模块](../../workfront-fusion/apps-and-their-modules/email-modules.md)需要输入发送电子邮件的电子邮件地址。
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 配置模块的设置
 
@@ -69,17 +69,17 @@ ht-degree: 1%
 
    或
 
-   在方案编辑器中单击模块的图标，如中所述 [在中创建方案 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   单击方案编辑器中模块的图标，如[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)中创建方案中所述。
 
-1. 如果模块需要，请创建 **[!UICONTROL 连接]** ，如中所述。 [连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. 如果模块需要，请按照[连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)中的说明，为该给定服务创建与您的注册用户帐户的&#x200B;**[!UICONTROL 连接]**。
 1. 在每个字段中，键入相应的文本。
 
    或
 
-   单击 **[!UICONTROL 地图]** 如果它显示在字段的右侧，则映射场景中另一个模块中的项目。
+   单击&#x200B;**[!UICONTROL 映射]**（如果它出现在字段的右侧），然后映射方案中的另一个模块的项。
 
    粗体参数是必需的。
 
-   有关不同项目数据类型的信息 [!DNL Workfront Fusion] 可以识别（如日期、数字和文本），请参阅 [中的项目数据类型 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   有关[!DNL Workfront Fusion]可以识别的不同项数据类型（如日期、数字和文本）的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)中的[项数据类型。
 
-1. （视情况而定）如果模块具有要显示和使用的高级选项，请选择 **[!UICONTROL 显示高级设置]**.
+1. （视情况而定）如果模块具有要显示和使用的高级选项，请选择&#x200B;**[!UICONTROL 显示高级设置]**。

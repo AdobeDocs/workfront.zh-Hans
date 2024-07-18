@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion发布活动：&nbsp；2021年8月30日开始的周
-description: Workfront Fusion发布活动：&nbsp；2021年8月30日开始的周
+title: Workfront Fusion发行活动：&amp；nbsp；2021年8月30日当周
+description: Workfront Fusion发行活动：&amp；nbsp；2021年8月30日当周
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 本页介绍了2021年8月30日这一周在Adobe Workfront Fusion中所做的所有增强。
 
-有关所有最近更改的列表，请参阅 [Adobe Workfront Fusion发布活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+有关所有最近更改的列表，请参阅[Adobe Workfront Fusion发行活动](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)。
 
-有关Workfront Fusion中最近的错误修复列表，请参阅 [Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 页面，并检查标记为Workfront Fusion维护更新的任何更新。
+有关Workfront Fusion中最近的错误修复列表，请参阅[Workfront维护更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)页面，并检查任何标记为Workfront Fusion维护更新的更新。
 
 ## 过滤触发Workfront >关注事件模块的事件
 
@@ -43,5 +43,5 @@ ht-degree: 0%
 
    以前，此过滤器不可用。 因此，在Workfront模块中所做的更改更容易触发包含这些模块的方案，这可能会导致方案无限期地触发自身。
 
-有关“Workfront”>“关注事件”模块中事件过滤器的更多信息，请参阅 [Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+有关“Workfront”>“观看活动”模块中的活动过滤器的详细信息，请参阅[Adobe Workfront模块](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)。
 

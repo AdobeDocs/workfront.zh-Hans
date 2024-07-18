@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * [在Adobe Workfront中列出具有验证许可证的用户](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
 * [批量编辑校对权限配置文件字段](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-* [禁止通过公共URL或嵌入代码共享验证](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+* [禁用通过公共URL或嵌入代码共享校对](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [常见问题解答：Adobe Workfront中的验证 — 美国迁移到EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [上载后文档名称已更改并包含无效字符](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [校对带有嵌入视频的PowerPoint](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)

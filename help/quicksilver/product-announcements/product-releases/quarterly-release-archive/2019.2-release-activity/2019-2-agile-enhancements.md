@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2019.2版中所做所有更改的列表，请参阅 [2019.2发行活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+有关2019.2版中所做所有更改的列表，请参阅[2019.2版活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)。
 
 ## 在敏捷工具中跟踪问题的完成百分比进度
 

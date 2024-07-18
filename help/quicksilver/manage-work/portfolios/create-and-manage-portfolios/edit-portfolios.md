@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您可以编辑有关您创建的项目组合的信息，或其他用户已创建的信息（如果他们与您共享了这些信息）。
 
-您可以编辑 [!UICONTROL 作品集] 或者您可以在列表中编辑项目组合。
+您可以在项目组合页面中编辑[!UICONTROL 项目组合]，也可以在列表中编辑项目组合。
 
 ## 访问要求
 
@@ -32,27 +32,27 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 许可证概述*</td> 
+   <td role="rowheader">Adobe[!DNL Workfront]许可证概述*</td> 
    <td> <p>[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别*</td> 
-   <td> <p>[！UICONTROL Edit]对Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关访问您访问级别中的项目组合的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">授予对项目组合的访问权限</a>. 有关如何 [!DNL Workfront] 管理员可以更改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>. </p> </td> 
+   <td> <p>[！UICONTROL Edit]对Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关访问访问级别项目组合的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">授予项目组合访问权限</a>。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p> 有关向项目组合授予权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">共享项目组合 </a>. </p> <p>有关请求其他权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p> 有关向项目组合授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">共享项目组合</a>。 </p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 ## 编辑项目组合
 
-1. 转到 **[!UICONTROL 主菜单]**.
-1. 单击 **[!UICONTROL Portfolio]**，然后单击项目组合的名称以将其打开。
-1. （可选）要编辑有关项目组合的有限信息，请单击 **[!UICONTROL Portfolio详细信息]** 在左侧面板中。
+1. 转到&#x200B;**[!UICONTROL 主菜单]**。
+1. 单击&#x200B;**[!UICONTROL Portfolio]**，然后单击项目组合名称以将其打开。
+1. （可选）要编辑有关项目组合的有限信息，请单击左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**。
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
 
@@ -62,15 +62,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >根据贵机构的 [!DNL Workfront] 管理员或组管理员修改了您的布局模板， [!UICONTROL Portfolio详细信息] 区域可能会重新排列或无法显示。 有关信息，请参阅 [自定义 [!UICONTROL 详细信息] 使用布局模板查看](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >根据[!DNL Workfront]管理员或组管理员如何修改布局模板，[!UICONTROL Portfolio详细信息]区域中的字段可能会重新排列或不显示。 有关信息，请参阅[使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)自定义[!UICONTROL 详细信息]视图。
 
-   要编辑中的信息 [!UICONTROL 详细信息] 部分，执行以下操作：
+   要编辑[!UICONTROL 详细信息]部分中的信息，请执行以下操作：
 
-   1. （可选）单击 **[!UICONTROL 全部折叠]** 图标来折叠所有区域。
-   1. （可选且视情况而定）折叠区域后，单击 **右指箭头** ![](assets/right-pointing-arrow.png) ，展开要编辑的区域。
-   1. 有关 [!UICONTROL Portfolio详细信息] 部分，继续编辑中的项目组合 [!UICONTROL 编辑Portfolio] 框如下所示。
-   1. （可选）如果项目组合未附加自定义表单，请在 **[!UICONTROL 添加自定义表单]** 字段中，将其在列表中显示时选中，然后单击 **[!UICONTROL 保存更改]**.
-   1. （可选）单击 **[!UICONTROL 导出]** 图标 ![](assets/export.png) 导出 [!UICONTROL 概述] 和自定义表单信息添加到PDF文件，然后单击 **[!UICONTROL 导出]**. 从以下项中选择：
+   1. （可选）单击右上角的&#x200B;**[!UICONTROL 全部折叠]**&#x200B;图标以折叠所有区域。
+   1. （可选且有条件）折叠区域时，单击每个区域旁边的&#x200B;**向右箭头** ![](assets/right-pointing-arrow.png)以展开要编辑的区域。
+   1. 有关[!UICONTROL Portfolio详细信息]部分中可见字段的信息，请继续编辑[!UICONTROL 编辑Portfolio]框中的项目组合，如下所述。
+   1. （可选）如果没有自定义表单附加到项目组合，请在&#x200B;**[!UICONTROL 添加自定义表单]**&#x200B;字段中开始键入表单的名称，在表单显示在列表中时将其选定，然后单击&#x200B;**[!UICONTROL 保存更改]**。
+   1. （可选）单击&#x200B;**[!UICONTROL 导出]**&#x200B;图标![](assets/export.png)以将[!UICONTROL 概述]和自定义表单信息导出到PDF文件，然后单击&#x200B;**[!UICONTROL 导出]**。 从以下项中选择：
 
       * 选择全部（仅在至少附加一个自定义表单时显示）
       * 概述
@@ -80,7 +80,7 @@ ht-degree: 0%
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      有关更多信息，请参阅 [导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      有关详细信息，请参阅[导出自定义表单和对象详细信息](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)。
 
 
 1. 要编辑有关一个或多个项目组合的所有信息，请执行下列操作之一：
@@ -89,22 +89,22 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
 
-   * 单击 **[!UICONTROL 更多]** 项目组合名称旁边的菜单，然后 **[!UICONTROL 编辑].**
+   * 单击项目组合名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 编辑].**
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * 转到项目组合列表，并选择要编辑的一个或多个项目组合，然后单击 **[!UICONTROL 编辑]** 图标 ![](assets/edit-icon.png) 位于列表顶部。
+   * 转到项目组合列表，并选择要编辑的一个或多个项目组合，然后单击列表顶部的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标![](assets/edit-icon.png)。
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
-   此 **[!UICONTROL 编辑Portfolio]** 对话框随即显示。
+   将显示&#x200B;**[!UICONTROL 编辑Portfolio]**&#x200B;对话框。
 
    ![](assets/edit-portfolio-box-classic-350x224.png)
 
-   所有项目组合字段均可在 [!UICONTROL 编辑Portfolio] 框和按左侧面板中列出的区域分组。
+   所有组合字段在[!UICONTROL 编辑Portfolio]框中均可用，并且按左侧面板中列出的区域分组。
 
 1. 请考虑在以下任意部分中指定信息：
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 ### [!UICONTROL 概述] {#overview}
 
 1. 按如上所述开始编辑项目组合。
-1. 单击 **[!UICONTROL 概述]** 并指定以下字段：
+1. 单击&#x200B;**[!UICONTROL 概述]**&#x200B;并指定以下字段：
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below is drafted: drafted till they release new Edit Portfolio boxes)</p>
@@ -146,11 +146,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL组]</td> 
-      <td> <p>添加单个组的名称（如果该组与项目组合相关联或负责完成它）。 </p> <p>提示：  <p>从[！UICONTROLPortfolio详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作： </p> <p>您可以确保选择正确的组，方法是将鼠标悬停在该组上并单击[！UICONTROL信息]图标 <img src="assets/info-icon.png"> 显示在它旁边。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此选项在[！UICONTROL编辑Portfolio]框中不可用。 </p> </p> </td> 
+      <td> <p>添加单个组的名称（如果该组与项目组合相关联或负责完成它）。 </p> <p>提示：  <p>从[！UICONTROLPortfolio详细信息]页面访问[！UICONTROL组]字段时，请执行以下操作： </p> <p>您可以通过将鼠标悬停在该组上并单击其旁边显示的[！UICONTROL信息]图标<img src="assets/info-icon.png">来确保选择正确的组。 这将显示一个工具提示，其中列出了有关组的信息，例如组及其上各组的层次结构。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此选项在[！UICONTROL编辑Portfolio]框中不可用。 </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[！UICONTROL对齐记分卡]</p> </td> 
-      <td> <p>从下拉列表中选择要使用的对齐计分卡。 记分卡用于衡量项目与Portfolio既定标准的符合程度，通常反映组织的使命、价值和战略目标。 有关更多信息，请参阅 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">将记分卡应用于项目并生成一致性分数</a> 和 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">创建记分卡</a>.</p> </td> 
+      <td> <p>从下拉列表中选择要使用的对齐计分卡。 记分卡用于衡量项目与Portfolio既定标准的符合程度，通常反映组织的使命、价值和战略目标。 有关详细信息，请参阅<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">将记分卡应用于项目并生成一致性分数</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">创建记分卡</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL处于活动状态]</td> 
@@ -159,29 +159,29 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 单击 **[!UICONTROL 保存更改]** 或继续编辑以下部分。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**&#x200B;或继续编辑以下部分。
 
 ### 自定义表单
 
 1. 按如上所述开始编辑项目组合。
-1. 单击 **[!UICONTROL 添加Forms]** 下拉菜单，可选择自定义表单并将其添加到项目组合。
+1. 单击&#x200B;**[!UICONTROL 添加Forms]**&#x200B;下拉菜单以选择自定义表单并将其添加到项目组合。
 
    必须先创建项目组合自定义表单，然后才能添加这些表单。
 
    >[!NOTE]
    >
-   >根据贵机构的 [!DNL Workfront] 管理员为您的自定义表单中的分区设置权限，并非每个人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对项目组合本身的权限。 有关设置自定义表单各部分的权限的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >根据[!DNL Workfront]管理员如何为自定义表单中的分区设置权限，并非所有人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对项目组合本身的权限。 有关设置自定义表单分区的权限的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
-1. 更新自定义表单中的任何字段，然后单击 **[!UICONTROL 保存更改]** 或者继续下面的部分。
+1. 更新自定义表单中的任何字段，然后单击&#x200B;**[!UICONTROL 保存更改]**&#x200B;或继续下面的部分。
 
 ### 评论 {#comment}
 
 1. 按如上所述开始编辑项目组合。
-1. 单击 **[!UICONTROL 注释]**.
+1. 单击&#x200B;**[!UICONTROL 评论]**。
 
    ![](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. 在中添加评论 **[!UICONTROL 将更新发布到项目组合]** 字段。
-1. （可选）单击 **[!UICONTROL 人员]** 图标以将用户或团队添加到评论。
-1. （可选）单击 **[!UICONTROL 锁定]** 图标来锁定评论，并使其仅对公司中的用户为私有。
-1. 单击 **[!UICONTROL 保存更改]**.
+1. 在&#x200B;**[!UICONTROL Post中为项目组合]**&#x200B;字段添加评论和更新。
+1. （可选）单击&#x200B;**[!UICONTROL 人员]**&#x200B;图标以向评论添加用户或团队。
+1. （可选）单击&#x200B;**[!UICONTROL 锁定]**&#x200B;图标以锁定评论，并使其仅对公司中的用户私有。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。

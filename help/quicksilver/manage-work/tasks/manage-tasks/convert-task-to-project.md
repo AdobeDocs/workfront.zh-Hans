@@ -35,16 +35,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对任务和项目的访问权限</p> <p>使用模板转化为项目时，具有对模板的查看或更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>编辑对任务和项目的访问权限</p> <p>使用模板转化为项目时，具有对模板的查看或更高访问权限</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理任务的权限</p> <p>如果使用模板转换为项目，则查看模板权限</p> <p>创建项目后，您便拥有该项目的管理权限</p> <p>有关请求其他访问权限的信息，请参阅 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象 </a>.</p> </td> 
+   <td> <p>管理任务的权限</p> <p>如果使用模板转换为项目，则查看模板权限</p> <p>创建项目后，您便拥有该项目的管理权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
 ## 将任务转化为项目的注意事项
 
@@ -67,7 +67,7 @@ ht-degree: 2%
     </tr> 
     <tr> 
     <td>状态</td> 
-    <td> 为模板上的组选择的默认状态。 如果模板未与组关联，则项目状态将设置为Workfront管理员在“设置”的“项目偏好设置”区域中设置的默认状态。 有关信息，请参阅 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">配置系统范围的项目首选项</a>
+    <td> 为模板上的组选择的默认状态。 如果模板未与组关联，则项目状态将设置为Workfront管理员在“设置”的“项目偏好设置”区域中设置的默认状态。 有关信息，请参阅<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">配置系统范围的项目首选项</a>
 
   存在以下用于更新项目状态的方案：
   <ul>
@@ -91,7 +91,7 @@ ht-degree: 2%
     </tr> 
     <tr> 
     <td>项目完成情况</td> 
-    <td>与Workfront管理员在设置区域中确定的系统级默认首选项匹配。 有关信息，请参阅 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">将自定义条件设置为项目的默认值</a>
+    <td>与Workfront管理员在设置区域中确定的系统级默认首选项匹配。 有关信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">将自定义条件设置为项目的默认值</a>
     </td> 
     </tr> 
     <tr> 
@@ -102,8 +102,8 @@ ht-degree: 2%
     <td>项目日期</td> 
     <td> 
       <ul> 
-      <li> <p><b>计划开始日期</b>：根据模板计划的时区，应预先选择基于模板计划工作时间的最接近的工作时间。 如果“计划起始日期”字段设置为“完成日期”，则此字段将被禁用。 </p> </li> 
-      <li> <p><b>计划完成日期</b>：根据模板计划的时区，应预先选择基于模板计划工作时间的最接近的工作时间。 如果“计划起始日期”字段设置为“起始日期”，则此字段将被禁用。 </p> </li> 
+      <li> <p><b>计划开始日期</b>：应根据模板计划的时区，预先选择基于模板计划工作时间的最近工作时间。 如果“计划起始日期”字段设置为“完成日期”，则此字段将被禁用。 </p> </li> 
+      <li> <p><b>计划完成日期</b>：应根据模板计划的时区，预先选择基于模板计划工作时间的最近工作时间。 如果“计划起始日期”字段设置为“起始日期”，则此字段将被禁用。 </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ ht-degree: 2%
 ## 将任务转换为项目
 
 1. 转到要转换为项目的任务。
-1. 单击 **更多** 图标 ![](assets/more-icon.png)，则 **转换为项目**.
+1. 单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**转换为项目**。
 1. 选择以下任一选项：
 
    * **新项目**
-   * 中的模板 **从模板中选择** 部分
+   * **从模板中选择**&#x200B;部分中的模板
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. 单击 **继续** 在显示的通知上。
-1. 在 **转换为项目** 框中，指定以下内容：
+1. 在出现的通知上单击&#x200B;**继续**。
+1. 在&#x200B;**转换为项目**&#x200B;框中，指定以下内容：
 
    * **名称**：为您的项目命名。 默认名称是任务的名称。
-   * （可选） **描述**：描述此项目的目的。
-   * （可选且视情况而定）如果已选择从模板创建项目，请更新 **转换为项目** 对话框。
+   * （可选） **描述**：描述此项目的用途。
+   * （可选且有条件）如果已选择从模板创建项目，请更新&#x200B;**转换为项目**&#x200B;对话框中的可用字段。
 
-     有关编辑项目字段的更多信息，请参阅 [编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-     >[!TIP]
-     >
-     >要更新转换至项目框财务分区中的字段，您必须对您的访问级别的财务数据具有“编辑”权限。 如果您拥有访问级别的查看财务数据的权限，则模板中的所有财务信息都将传输到新项目，并且在转换问题时无法编辑它。 有关信息，请参阅 [授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 和 [共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-
-   * （可选）添加 **自定义Forms** 到新项目。
+     有关编辑项目字段的详细信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
      >[!TIP]
      >
-     如果将附加到任务的多对象自定义表单配置为与任务和项目一起使用，则在进行转换时，将保留表单中保存的所有信息。
-     >
-     >
-     如果您将模板用于转化，并且附加到模板的自定义表单包含自定义字段（也可在附加到任务的自定义表单中找到），则任务的字段值将用于新项目。 但是，如果任务中的自定义字段为空，则使用模板中的值。
+     >要更新转换至项目框财务分区中的字段，您必须对您的访问级别的财务数据具有“编辑”权限。 如果您拥有访问级别的查看财务数据的权限，则模板中的所有财务信息都将传输到新项目，并且在转换问题时无法编辑它。 有关信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共享模板](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-1. 单击 **保存更改**.
+   * （可选）将&#x200B;**自定义Forms**&#x200B;添加到新项目中。
+
+     >[!TIP]
+     >
+     >如果将附加到任务的多对象自定义表单配置为与任务和项目一起使用，则在进行转换时，将保留表单中保存的所有信息。
+     >
+     >
+     >如果您将模板用于转化，并且附加到模板的自定义表单包含自定义字段（也可在附加到任务的自定义表单中找到），则任务的字段值将用于新项目。 但是，如果任务中的自定义字段为空，则使用模板中的值。
+
+1. 单击&#x200B;**保存更改**。

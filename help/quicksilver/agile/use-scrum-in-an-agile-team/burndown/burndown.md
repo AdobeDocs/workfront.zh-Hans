@@ -19,8 +19,8 @@ ht-degree: 4%
 
 本节包含以下文章：
 
-* [敏捷燃尽图概述](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+* [Agile燃尽图概述](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
 * [迭代完成状态概述](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-* [调整燃尽图的大小并折叠该图表](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+* [调整燃尽图表的大小并折叠该图表](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
 * [同步燃尽图中的数据](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [将备用组计划用于燃尽图](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

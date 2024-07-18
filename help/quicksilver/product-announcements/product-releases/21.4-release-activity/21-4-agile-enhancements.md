@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本页介绍了21.4版本对“预览”环境所做的所有Agile增强。 这些增强功能将在2021年10月4日当周的生产环境中提供。
 
-有关21.4版本可用的所有更改列表，请参阅 [21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+有关21.4版本的所有可用更改列表，请参阅[21.4版本概述](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)。
 
 ## Kanban和Scrum展示板上的用户分配
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 此选项仅适用于Scrum团队，而不适用于Kanban团队。
 
-有关更多信息，请参阅 [配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+有关详细信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
 
 ## 对项目的Agile视图的更改
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >此功能于2021年9月16日发布到“预览”环境。
 
-在21.3版本中，我们对Agile卡页眉和故事板进行了改进(请参阅 [Agile信息卡页眉和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile))。 这些更新应用于迭代以及项目的敏捷视图。
+在21.3版本中，我们改进了敏捷信息卡标题和故事板（请参阅[敏捷信息卡标题和故事板更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)）。 这些更新应用于迭代以及项目的敏捷视图。
 
 在21.4版本中，我们将恢复这些增强功能，以用于“项目的敏捷视图”。 未对Agile迭代进行任何更改。
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 
 您现在可以直接从Kanban展示板创建新故事或问题。 这样可以更轻松地快速添加新故事，而无需转到项目、报表或仪表板来创建任务。
 
-有关更多信息，请参阅 [从Kanban展示板添加故事和问题](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+有关详细信息，请参阅[从Kanban展示板添加故事和问题](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)。
 

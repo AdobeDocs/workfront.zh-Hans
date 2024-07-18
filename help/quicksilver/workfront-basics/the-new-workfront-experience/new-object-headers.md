@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: 对象标题概述
-description: 您可以查看中对象的概览 [!DNL Adobe Workfront] 查看其页眉时。 标题中的信息可以包括对象的所有者、状态或完成百分比。
+description: 查看对象标题时，可以一目了然地查看 [!DNL Adobe Workfront] 中的对象信息。 标题中的信息可以包括对象的所有者、状态或完成百分比。
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 对象标题概述
 
-您可以查看中对象的概览 [!DNL Adobe Workfront] 查看其页眉时。
+查看对象标题时，可以一眼查看[!DNL Adobe Workfront]中的对象信息。
 
 除了对象名称之外，标题还可以包含对象的所有者、状态或完成百分比。
 
-[!DNL Workfront] 优先考虑对象的名称，在标题中为其分配尽可能多的空间。 当对象名称太长时，该对象名称会被截断。 要显示对象的全名，您可以将鼠标悬停在该对象上。
+[!DNL Workfront]为对象名称赋予优先权，在标题中为其分配尽可能多的空间。 当对象名称太长时，该对象名称会被截断。 要显示对象的全名，您可以将鼠标悬停在该对象上。
 
 ## 访问对象的标头
 
-访问中对象的标题 [!DNL Workfront] 对于所有具有它的对象都是相同的。
+访问[!DNL Workfront]中对象的标头对于具有该标头的所有对象都是相同的。
 
 例如，要访问项目的标头，请执行以下操作：
 
@@ -31,20 +31,20 @@ ht-degree: 0%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL 主页] 标题概述
+## [!UICONTROL 主页]标题概述
 
 主页中有以下标头：
 
-* 任务：有关如何使用此题头的详情，请参阅 [任务标题概述](#task-header-overview) 本文章中。
-* 问题：有关如何使用此标题的更多信息，请参阅 [问题标题概述](#issue-header-overview) 本文章中。
+* 任务：有关如何使用此标题的更多信息，请参阅本文中的[任务标题概述](#task-header-overview)。
+* 问题：有关如何使用此标题的更多信息，请参阅本文中的[问题标题概述](#issue-header-overview)。
 
 ## 可自定义的标题
 
-您的 [!DNL Workfront]  或组管理员可以使用布局模板来自定义项目、任务和问题的标题。
+您的[!DNL Workfront]或组管理员可以使用布局模板自定义项目、任务和问题的标题。
 
 本文介绍了所有对象的默认标头，包括项目、任务和问题。
 
-有关自定义对象标题的信息的信息，请参阅 [使用布局模板自定义对象标题](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+有关自定义对象标题的信息，请参阅[使用布局模板自定义对象标题](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 
 ## 项目标题概述
@@ -69,7 +69,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>紫色的[！UICONTROL项目]图标 <img src="assets/nwe-projects-icon.png"> 显示在项目名称的左侧。</p> </td> 
+   <td> <p>紫色的[！UICONTROL项目]图标<img src="assets/nwe-projects-icon.png">显示在项目名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目名称</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Approvals]区域</td> 
-   <td> <p>如果您是批准者之一，请使用以下图标管理项目的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL Recall]</p> <p>如果您不是批准者，请单击[！UICONTROL更多]图标 <img src="assets/more-icon-for-approvals-area.png"> 查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>.</p> </td> 
+   <td> <p>如果您是批准者之一，请使用以下图标管理项目的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL批准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL撤消]</p> <p>如果您不是审批者，请单击[！UICONTROL更多]图标<img src="assets/more-icon-for-approvals-area.png">查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,11 +128,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">具有父对象的痕迹导航</td> 
-   <td> <p>任务的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>任务的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>绿色的[！UICONTROL Task]图标 <img src="assets/nwe-tasks-icon.png"> 显示在任务名称的左侧。</p> </td> 
+   <td> <p>任务名称的左侧将显示绿色的[！UICONTROL任务]图标<img src="assets/nwe-tasks-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">任务名称</td> 
@@ -156,11 +156,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL Work on It]、[！UICONTROL Done]或[！UICONTROL Start Task]按钮</p> </td> 
-   <td> <p>如果任务分配给您，则可以单击[！UICONTROL处理该任务] <span>或[！UICONTROL开始任务]</span> 按钮指示您正在处理任务，或者[！UICONTROL完成]按钮指示您已完成任务。</p> <p><span>有关将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始任务]按钮的信息，请参阅 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始]按钮</a></span>.</p> </td> 
+   <td> <p>如果任务分配给您，则可以单击[！UICONTROL处理该任务] <span>或[！UICONTROL开始任务]</span>按钮指示您正在处理该任务，或单击[！UICONTROL完成]按钮指示您完成了任务。</p> <p><span>有关将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始任务]按钮的信息，请参阅<a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始]按钮</a></span>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL计划完成日期]</td> 
-   <td> <p>您可以编辑任务[！UICONTROL规划完成日期] <span>和时间</span> 在标题中。</p> <p>提示：请注意，[！UICONTROL提交日期]在标头中不可见。 您可以在[！UICONTROL详细信息]页面上查看它。</p> </td> 
+   <td> <p>您可以在标题中编辑任务[！UICONTROL规划完成日期] <span>和时间</span>。</p> <p>提示：请注意，[！UICONTROL提交日期]在标头中不可见。 您可以在[！UICONTROL详细信息]页面上查看它。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL状态]</td> 
@@ -168,7 +168,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Approvals]区域</td> 
-   <td> <p>如果您是批准者之一，请使用以下图标管理任务的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL Recall]</p> <p>如果您不是批准者，请单击[！UICONTROL更多]图标 <img src="assets/more-icon-for-approvals-area.png"> 查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>.</p> </td> 
+   <td> <p>如果您是批准者之一，请使用以下图标管理任务的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [！UICONTROL批准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [！UICONTROL撤消]</p> <p>如果您不是审批者，请单击[！UICONTROL更多]图标<img src="assets/more-icon-for-approvals-area.png">查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">具有父对象的痕迹导航</td> 
-   <td> <p>问题的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>问题的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>粉红色[！UICONTROL Issue]图标 <img src="assets/nwe-issues-icon.png"> 显示在问题名称的左侧。</p> </td> 
+   <td> <p>问题名称的左侧将显示粉红色[！UICONTROL问题]图标<img src="assets/nwe-issues-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">问题名称</td> 
@@ -218,12 +218,12 @@ ht-degree: 0%
    <td>您可以从标题中编辑问题的被分配人。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL处理此工作]，[！UICONTROL完成]， <span>或[！UICONTROL启动问题]按钮</span></td> 
-   <td>如果问题分配给您，您可以单击[！UICONTROL处理问题] <span>或[！UICONTROL开始问题]</span> 按钮指示您正在处理问题，或者[！UICONTROL完成]按钮指示您已完成问题。<span>有关将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始任务]按钮的信息，请参阅</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始]按钮</a></span><span>.</span></td> 
+   <td role="rowheader">[！UICONTROL处理它]、[！UICONTROL完成]、<span>或[！UICONTROL开始问题]按钮</span></td> 
+   <td>如果问题分配给您，则可以单击[！UICONTROL处理问题] <span>或[！UICONTROL开始问题]</span>按钮指示您正在处理问题，或单击[！UICONTROL完成]按钮指示您已完成问题。<span>有关将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始任务]按钮的信息，请参阅</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将[！UICONTROL处理此项工作]按钮替换为[！UICONTROL开始]按钮</a></span><span>。</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL计划完成日期]</td> 
-   <td> <p>您可以编辑问题[！UICONTROL规划完成日期] <span>和时间</span> 在标题中。</p> <p>提示：请注意，[！UICONTROL提交日期]在标头中不可见。 您可以在[！UICONTROL详细信息]页面上查看它。</p> </td> 
+   <td> <p>您可以在标题中编辑问题[！UICONTROL规划完成日期] <span>和时间</span>。</p> <p>提示：请注意，[！UICONTROL提交日期]在标头中不可见。 您可以在[！UICONTROL详细信息]页面上查看它。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL状态]</td> 
@@ -231,7 +231,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Approvals]区域</td> 
-   <td> <p>如果您是批准者之一，请使用以下图标管理问题的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL Recall]</p> <p>如果您不是批准者，请单击[！UICONTROL更多]图标 <img src="assets/more-icon-for-approvals-area.png"> 查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>.</p> </td> 
+   <td> <p>如果您是批准者之一，请使用以下图标管理问题的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL批准]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒绝]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL召回]</p> <p>如果您不是审批者，请单击[！UICONTROL更多]图标<img src="assets/more-icon-for-approvals-area.png">查看有关当前审批步骤的信息。</p> <p>要了解有关审批的更多信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">审批流程概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,11 +254,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">包含Portfolio名称的痕迹导航</td> 
-   <td> <p>您可以从[！UICONTROL Program]的标头访问[！UICONTROLPortfolio]。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>您可以从[！UICONTROL Program]的标头访问[！UICONTROLPortfolio]。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>橙色[！UICONTROL Program]图标 <img src="assets/nwe-programs-icon.png"> 显示在程序名称的左侧。</p> </td> 
+   <td> <p>橙色[！UICONTROL项目]图标<img src="assets/nwe-programs-icon.png">显示在项目名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目的名称</td> 
@@ -313,7 +313,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>蓝色的[！UICONTROLPortfolio]图标 <img src="assets/nwe-portfolios-icon.png">显示在项目组合名称的左侧。</p> </td> 
+   <td> <p>项目组合名称的左侧将显示蓝色的[！UICONTROLPortfolio]图标<img src="assets/nwe-portfolios-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">项目组合的名称</td> 
@@ -376,7 +376,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>绿色的[！UICONTROL模板]图标 <img src="assets/nwe-templates-icon.png">将显示在模板名称的左侧。</p> </td> 
+   <td> <p>绿色的[！UICONTROL模板]图标<img src="assets/nwe-templates-icon.png">将显示在模板名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">模板的名称</td> 
@@ -423,11 +423,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">到父对象的痕迹导航</td> 
-   <td> <p>模板任务的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>模板任务的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>绿色的[！UICONTROL Task]图标 <img src="assets/nwe-tasks-icon.png">显示在模板任务名称的左侧。</p> </td> 
+   <td> <p>绿色的[！UICONTROL任务]图标<img src="assets/nwe-tasks-icon.png">将显示在模板任务名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">模板任务的名称</td> 
@@ -470,11 +470,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">到父对象的痕迹导航</td> 
-   <td> <p>计费记录的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>计费记录的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>蓝色的[！UICONTROL Billing Record]图标 <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> 显示在开票记录名称的左侧。</p> </td> 
+   <td> <p>计费记录名称左侧显示蓝色的[！UICONTROL计费记录]图标<img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">开票记录的名称</td> 
@@ -486,7 +486,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">计费记录的操作区域</td> 
-   <td> <p>开票记录名称旁边的[！UICONTROL更多]菜单 <img src="assets/more-menu.png"> 显示，允许您选择以下选项：</p> 
+   <td> <p>在开票记录的名称旁边，将显示[！UICONTROL更多]菜单<img src="assets/more-menu.png">，该菜单允许您选择以下选项：</p> 
     <ul> 
      <li> <p>[！UICONTROL编辑]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>紫色[！UICONTROL Team]图标 <img src="assets/nwe-teams-icon.png"> 将显示在团队名称的左侧。</p> </td> 
+   <td> <p>紫色的[！UICONTROL团队]图标<img src="assets/nwe-teams-icon.png">显示在团队名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">团队名称</td> 
@@ -620,7 +620,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>橙色[！UICONTROL Iteration]图标 <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> 将显示在迭代名称的左侧。</p> </td> 
+   <td> <p>橙色[！UICONTROL迭代]图标<img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;">显示在迭代名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">迭代的名称</td> 
@@ -667,7 +667,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>橙色[！UICONTROL Group]图标 <img src="assets/nwe-group-icon.png"> 将显示在组名称的左侧。</p> </td> 
+   <td> <p>橙色[！UICONTROL组]图标<img src="assets/nwe-group-icon.png">显示在组名的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">组的名称</td> 
@@ -679,7 +679,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">组的[！UICONTROL actions]区域</td> 
-   <td> <p>在组名旁边的[！UICONTROL更多]菜单 <img src="assets/more-menu.png"> 显示，允许您选择以下选项：</p> 
+   <td> <p>在组名旁边，将显示[！UICONTROL更多]菜单<img src="assets/more-menu.png">，该菜单允许您选择以下选项：</p> 
     <ul> 
      <li> <p>[！UICONTROL编辑]</p> </li> 
      <li> <p>[！UICONTROL副本]</p> </li> 
@@ -692,7 +692,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL许可证正在使用中] </td> 
-   <td> <p>[！UICONTROL正在使用的许可证]框显示组及其子组中[！UICONTROL计划]和[！UICONTROL工作]许可证用户的数量。 您可以单击编号查看所有5种许可证类型的此信息。</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">在新建的组中查看已分配并已使用的许可证数 [!DNL Adobe Workfront] 体验</a>.</p> </td> 
+   <td> <p>[！UICONTROL正在使用的许可证]框显示组及其子组中[！UICONTROL计划]和[！UICONTROL工作]许可证用户的数量。 您可以单击编号查看所有5种许可证类型的此信息。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">查看新[!DNL Adobe Workfront]体验</a>中组内分配和使用许可证的数量。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL组管理员]</td> 
@@ -719,11 +719,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">具有父对象的痕迹导航</td> 
-   <td> <p>文档的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关更多信息，请参阅 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>.</p> </td> 
+   <td> <p>文档的父对象显示在痕迹导航中。 单击父对象的名称将打开该父对象。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">痕迹导航概述</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>蓝色的[！UICONTROL Document]图标 <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> 显示在文档名称的左侧。</p> </td> 
+   <td> <p>蓝色的[！UICONTROL Document]图标<img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;">将显示在文档名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">文档的名称</td> 
@@ -739,7 +739,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">审批[！UICONTROL决策]区域</td> 
-   <td> [！UICONTROL Decisions]区域显示在文档标题的右上角。此区域因审批阶段以及您是审批者、审阅者还是既非审批者而有所不同。 <ul><li> <p>如果您是批准者，则可以使用以下图标管理文档的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒绝]</p> <p>有关批准决策的详细信息，请参阅 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">审批工作</a>.</li><li><p>如果您是审阅人，则可以单击“完成我的审阅”按钮以指示您已审阅文档。</p><p>有关审阅文档的更多信息，请参阅 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">审阅文档</a>.</p></li><li>否则，此区域显示文档的当前审阅和审批状态。</li><ul></p> </td> 
+   <td> [！UICONTROL Decisions]区域显示在文档标题的右上角。此区域因审批阶段以及您是审批者、审阅者还是既非审批者而有所不同。 <ul><li> <p>如果您是批准者，则可以使用以下图标管理文档的批准：</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [！UICONTROL批准]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [！UICONTROL召回]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [！UICONTROL拒绝]</p> <p>有关批准决定的详细信息，请参阅<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">批准工作</a>。</li><li><p>如果您是审阅人，则可以单击“完成我的审阅”按钮以指示您已审阅文档。</p><p>有关审阅文档的更多信息，请参阅<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">审阅文档</a>。</p></li><li>否则，此区域显示文档的当前审阅和审批状态。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>蓝色的[！UICONTROL Company]图标 <img src="assets/nwe-company-icon.png"> 显示在公司名称的左侧。</p> </td> 
+   <td> <p>公司名称左侧显示蓝色的[！UICONTROL公司]图标<img src="assets/nwe-company-icon.png">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">公司名称</td> 
@@ -774,7 +774,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">公司的操作区域</td> 
-   <td> <p>公司名称旁边的[！UICONTROL更多]菜单 <img src="assets/more-menu.png"> 显示，允许您选择以下选项：</p> 
+   <td> <p>在公司名称旁边，将显示[！UICONTROL More]菜单<img src="assets/more-menu.png">，该菜单允许您选择以下选项：</p> 
     <ul> 
      <li> <p>[！UICONTROL编辑]</p> </li> 
      <li> <p>[！UICONTROL删除公司]</p> </li> 
@@ -787,7 +787,7 @@ ht-degree: 0%
 
 ![](assets/nwe-plan-header-350x34.png)
 
-计划是 [!DNL Workfront Scenario Planner]. 欲知关于 [!DNL Scenario Planner]，请参见 [此 [!DNL Scenario Planner] 概述](../../scenario-planner/scenario-planner-overview.md).
+计划是[!DNL Workfront Scenario Planner]的对象。 有关[!DNL Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../../scenario-planner/scenario-planner-overview.md)。
 
 计划题头显示以下信息：
 
@@ -807,7 +807,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>蓝色的[！UICONTROL计划]图标 <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">显示在计划名称的左侧。</p> </td> 
+   <td> <p>计划名称的左侧将显示蓝色的[！UICONTROL计划]图标<img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">计划的名称</td> 
@@ -826,8 +826,8 @@ ht-degree: 0%
    <td> <p>在计划名称和操作区域下，您可以完成以下操作：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL显示冲突]</strong>：单击此切换可显示或隐藏计划中的冲突。</p> </li> 
-     <li> <p><strong>[！UICONTROL比较方案]</strong>：单击此链接可并排比较您创建的方案。</p> </li> 
-     <li> <p><strong>[！UICONTROL方案选择]</strong>：在此下拉菜单中，您可以复制方案，或选择查看其他方案。</p> </li> 
+     <li> <p><strong>[！UICONTROL比较方案]</strong>：单击此链接可显示您已创建的方案的并排比较。</p> </li> 
+     <li> <p><strong>[！UICONTROL方案选择]</strong>：在此下拉菜单中，您可以复制方案或选择查看其他方案。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -847,8 +847,8 @@ ht-degree: 0%
    <td>有权查看或管理计划的用户显示在标题的右上角。 将鼠标悬停在个人资料图片上会显示他们的姓名。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL转至发布]</td> 
-   <td>单击[！UICONTROL转到发布]后，您可以在查看的方案中创建或更新链接到方案的项目。</td> 
+   <td role="rowheader">[！UICONTROL转到Publish]</td> 
+   <td>单击[！UICONTROL转到Publish]后，您可以在查看的方案中创建或更新链接到方案的项目。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ ht-degree: 0%
 
 ![](assets/goal-header.png)
 
-当您的公司有权访问Workfront目标时，您可以创建战略目标。 有关详情 [!DNL Workfront Goals]，请参见 [开始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+当您的公司有权访问Workfront目标时，您可以创建战略目标。 有关[!DNL Workfront Goals]的详细信息，请参阅[开始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)。
 
 目标标题显示以下信息：
 
@@ -874,7 +874,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">对象图标 </td> 
-   <td> <p>紫色[！UICONTROL Goal]图标 <img src="assets/goal-icon.png" > 将在目标名称的左侧显示。</p> </td> 
+   <td> <p>紫色[！UICONTROL目标]图标<img src="assets/goal-icon.png" >将显示在目标名称的左侧。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">目标的名称</td> 
@@ -914,7 +914,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL状态]</td> 
-   <td>指示目标处于活动状态、新建状态还是关闭状态。 您无法手动更新目标状态。 有关更多信息，请参阅 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">中的目标状态概述 [!DNL Adobe Workfront Goals]</a></td> 
+   <td>指示目标处于活动状态、新建状态还是关闭状态。 您无法手动更新目标状态。 有关详细信息，请参阅[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">目标状态概述</td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: 中的合作伙伴帐户 [!DNL Workfront Proof]
-description: 本节包含以下有关中的合作伙伴帐户的文章 [!DNL Workfront Proof].
+title: ' [!DNL Workfront Proof]中的合作伙伴帐户'
+description: 此部分包含有关 [!DNL Workfront Proof]中合作伙伴帐户的以下文章。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# 中的合作伙伴帐户 [!DNL Workfront] 校对
+# [!DNL Workfront]验证中的合作伙伴帐户
 
 >[!IMPORTANT]
 >
->本文介绍了独立版产品中的功能 [!DNL Workfront Proof]. 有关内部校对的信息 [!DNL Adobe Workfront]，请参见 [校对](../../../review-and-approve-work/proofing/proofing.md).
+>本文提及独立产品[!DNL Workfront Proof]中的功能。 有关[!DNL Adobe Workfront]内部校对的信息，请参阅[校对](../../../review-and-approve-work/proofing/proofing.md)。
 
 本节包含以下文章：
 
-* [管理以下项目之间的合作伙伴关系： [!DNL Workfront Proof ]帐户](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-* [与中的合作伙伴共享项目 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+* [管理 [!DNL Workfront Proof ]帐户之间的合作关系](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [与 [!DNL Workfront Proof]中的合作伙伴共享项目](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

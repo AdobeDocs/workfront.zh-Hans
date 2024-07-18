@@ -17,7 +17,7 @@ ht-degree: 1%
 
 您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）以及进展如何。
 
-默认状态为“新建”、“进行中”和“完成”。 Adobe Workfront管理员可以为您的组织添加自定义状态。 有关更多信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+默认状态为“新建”、“进行中”和“完成”。 Adobe Workfront管理员可以为您的组织添加自定义状态。 有关详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 您可以手动更新任务状态，也可以让Workfront在某些操作发生时自动更新任务状态。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关更多信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 有关更新任务状态的注意事项
 
@@ -60,7 +60,7 @@ ht-degree: 1%
    * 当项目的“摘要完成模式”设置为“自动”且子任务未完成时，不能将父任务的状态更新为“完成”。
    * 当项目的“摘要完成模式”设置为“手动”并且子任务已完成或未完成时，您可以将父任务的状态更新为“完成”。
 
-  有关更多信息，请参阅 [编辑项目](../manage-projects/edit-projects.md).
+  有关详细信息，请参阅[编辑项目](../manage-projects/edit-projects.md)。
 
 ## 手动更新任务状态
 
@@ -75,8 +75,8 @@ ht-degree: 1%
 要在任务标题中手动更新任务状态，请执行以下操作：
 
 1. 转到要更新其状态的任务。
-1. 单击 **状态** 字段并选择新状态。
-1. 要提供任务完成的可视指示，请拖动或双击下面的气泡 **完成百分比** 在任务的标题中
+1. 单击任务标题中的&#x200B;**状态**&#x200B;字段并选择新状态。
+1. 要提供任务完成的可视指示，请拖动或双击任务标题中&#x200B;**完成百分比**&#x200B;下的气泡
 
    或
 
@@ -86,12 +86,12 @@ ht-degree: 1%
 
 1. （可选）执行以下任一操作以提供有关更新的其他信息：
 
-   * 要添加有关更新的注释，请转到 **更新** 部分并单击 **新建评论**，然后键入注释。
+   * 若要添加有关更新的注释，请转到&#x200B;**更新**&#x200B;部分，然后单击&#x200B;**新建注释**，然后键入注释。
 
      ![](assets/add-update-to-task.png)
 
-   * 要通知特定用户有关更新，请在 **标记人员或团队** 键入评论时显示的字段。 有关更多信息，请参阅 [为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 要更新任务的提交日期，请单击 **任务详细信息**，然后编辑 **提交日期** 字段。 有关信息，请参阅 [编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * 若要将更新通知给某些用户，请在键入评论时显示的&#x200B;**标记人员或团队**&#x200B;字段中键入其名称。 有关详细信息，请参阅[为其他人标记更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
+   * 要更新任务的提交日期，请单击&#x200B;**任务详细信息**，然后编辑&#x200B;**提交日期**&#x200B;字段。 有关信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
 
 
    >[!IMPORTANT]
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->下表中的状态是默认的系统状态。 您的Workfront管理员或组管理员可以重命名Workfront实例中的状态。 有关在Workfront中创建和管理状态的信息，请参阅 [创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>下表中的状态是默认的系统状态。 您的Workfront管理员或组管理员可以重命名Workfront实例中的状态。 有关在Workfront中创建和管理状态的信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,12 +139,12 @@ ht-degree: 1%
   <tr> 
    <td>将任务完成百分比从100%更新为较低数字</td> 
    <td>完成</td> 
-   <td>进行中</td> 
+   <td>正在进行中</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>单击“开始任务”按钮接受处理分配给您的任务</span> </td> 
    <td><span>新建</span> </td> 
-   <td> <p>与“主团队”设置中的“开始任务”按钮关联的任何状态。</p> <p>有关将“处理此项工作”按钮替换为“开始任务”按钮的信息，请参阅 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span>.</p> <p>提示： <span>点击</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">“撤消”按钮</span>单击“开始任务”后，状态将恢复为“新建”。 </p> </td> 
+   <td> <p>与“主团队”设置中的“开始任务”按钮关联的任何状态。</p> <p>有关将“处理此项工作”按钮替换为“开始任务”按钮的信息，请参阅<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">将“处理此项工作”按钮替换为“开始”按钮</a></span>。</p> <p>提示：单击“开始任务”后，<span>单击</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">撤消按钮</span>会将状态还原为“新建”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

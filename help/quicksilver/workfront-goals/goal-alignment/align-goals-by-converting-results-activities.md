@@ -16,7 +16,7 @@ ht-degree: 16%
 # 通过将结果和活动转换为目标来调整目标
 
 您可以手动对齐两个目标，也可以将现有目标的结果和活动转换为另一个目标。 转换后的结果或活动成为原始目标的子目标。
-有关手动对齐两个目标的信息，请参见 [通过在Adobe Workfront目标中连接目标来调整目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+有关手动对齐两个目标的信息，请参阅[通过在Adobe Workfront目标中连接来对齐目标](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)。
 
 ## 访问要求
 
@@ -39,7 +39,7 @@ ht-degree: 16%
  <td>
  <p>新许可证：参与者或更高版本</p>
  或
- <p>当前许可证：请求或更高版本</p> <p>有关更多信息，请参阅 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>.</p> </td>
+ <p>当前许可证：请求或更高版本</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront许可证概述</a>。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">产品*</td>
@@ -49,7 +49,7 @@ ht-degree: 16%
 <li>Select或Prime Adobe Workfront计划和其他Adobe Workfront Goals许可证。</li>
 <li>默认包含Workfront目标的Ultimate Workfront计划。 </li></ul>
  <p>或</p>
- <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront Goals的要求</a>. </p> </td>
+ <p>当前产品要求： Workfront计划和Adobe Workfront Goals的附加许可证。 </p> <p>有关信息，请参阅<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">使用Workfront目标的要求</a>。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">访问级别</td>
@@ -61,7 +61,7 @@ ht-degree: 16%
   <div>
   <p>查看目标的权限或更高以查看目标</p>
   <p>管理目标的权限以编辑它</p>
-  <p>有关共享目标的信息，请参阅 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>. </p>
+  <p>有关共享目标的信息，请参阅<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">在Workfront目标中共享目标</a>。 </p>
   </div> </td>
  </tr>
 <tr>
@@ -72,7 +72,7 @@ ht-degree: 16%
 </tbody>
 </table>
 
-*有关详细信息，请参阅 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 ## 先决条件
 
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 * 包含现有结果和活动的现有目标。
 
-  有关创建目标的信息，请参阅 [在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md).
+  有关创建目标的信息，请参阅[在Adobe Workfront目标中创建目标](../../workfront-goals/goal-management/create-goals.md)。
 
 >[!IMPORTANT]
 >
@@ -119,16 +119,16 @@ ht-degree: 16%
 -->
 
 1. 转到具有结果的目标或要转换为目标的活动。
-1. 在目标页面中，单击 **进度指示器** 在左侧面板中。
-1. 在进度指示器列表中选择结果或活动，然后单击 **转换为目标** 图标 ![](assets/convert-to-goal-icon-unshimmed.png) 进度指示器列表的顶部。 “转换为目标”框打开。
+1. 从目标的页面，单击左侧面板中的&#x200B;**进度指示器**。
+1. 在进度指示器列表中选择一个结果或活动，然后单击进度指示器列表顶部的&#x200B;**转化为目标**&#x200B;图标![](assets/convert-to-goal-icon-unshimmed.png)。 “转换为目标”框打开。
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. 更新以下信息：
    * **目标名称**：默认情况下，新目标与原始结果或活动具有相同的名称。
-   * **期间**：默认情况下，新目标的时段为当前季度。 您可以选择 **启用自定义日期** 设置以为新目标定义自定义时间段。
+   * **期间**：默认情况下，新目标的期间为当前季度。 您可以选择&#x200B;**启用自定义日期**&#x200B;设置来为新目标定义自定义时间段。
    * **目标所有者**：默认情况下，新目标所有者是原始结果或活动的所有者。
    * **描述**：添加有关新目标的更多信息。
-1. 单击 **保存**
+1. 单击&#x200B;**保存**
 
    结果或活动现在转换为原始目标的子目标。 它在原始目标的进度指示器列表中列为目标。
 

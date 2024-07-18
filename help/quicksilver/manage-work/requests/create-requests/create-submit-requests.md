@@ -28,13 +28,13 @@ ht-degree: 1%
 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样一种环境中工作：随时都可能以请求形式进行非计划工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
 
 在请求队列中创建请求后，您可以将其分配给完成请求，也可以将其转换为任务或项目。\
-有关将问题转化为任务或项目的更多信息，请参阅文章 [在Adobe Workfront中转化问题概述](../../../manage-work/issues/convert-issues/convert-issues.md).
+有关将问题转化为任务或项目的更多信息，请参阅文章[在Adobe Workfront中转化问题的概述](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
 您可以通过以下方式创建请求：
 
 * 从头开始，如本文所述。
-* 来自草稿。 有关信息，请参阅 [从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* 从现有请求中，通过复制并提交副本。 有关信息，请参阅 [复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* 来自草稿。 有关信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
+* 从现有请求中，通过复制并提交副本。 有关信息，请参阅[复制并提交请求](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)。
 
 ## 访问要求
 
@@ -64,7 +64,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,25 +72,25 @@ ht-degree: 1%
 
 Workfront管理员必须先创建请求队列，并让用户可以使用它们，然后才能使用此功能。 具有Planner许可证以及项目编辑权限和特定项目管理权限的用户也可以创建请求队列。
 
-有关如何创建请求队列的信息，请参阅文章 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+有关如何创建请求队列的信息，请参阅文章[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
 Workfront管理员必须创建请求队列的以下组件：
 
 * 处于当前状态的项目，作为帮助请求队列发布。
 * 队列主题。\
-  有关更多信息，请参阅文章 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  有关详细信息，请参阅文章[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
 * 路由规则。\
-  有关更多信息，请参阅文章 [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  有关详细信息，请参阅文章[创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 * （可选）主题组。\
-  有关更多信息，请参阅文章 [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  有关详细信息，请参阅文章[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 * （可选）请求自定义表单。\
-  有关更多信息，请参阅文章 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  有关详细信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 * （可选）请求审批流程。\
-  有关更多信息，请参阅文章 [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  有关详细信息，请参阅文章[为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
 ## 在Workfront Web应用程序中创建请求并生成草稿
 
@@ -106,27 +106,27 @@ Workfront管理员必须创建请求队列的以下组件：
 >* 如果请求队列的结构发生更改，您将无法再访问现有草稿。 例如，如果删除了队列主题或添加了主题组，则无法再访问保存的草稿。
 >
 
-有关从现有草稿创建请求的信息，请参阅 [从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). 有关删除请求草稿的信息，另请参阅 [删除请求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md).
+有关从现有草稿创建请求的信息，请参阅[从草稿创建请求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。 有关删除请求草稿的信息，另请参阅[删除请求草稿](../../../manage-work/requests/create-requests/delete-request-draft.md)。
 
 要在Workfront Web应用程序中创建请求，请执行以下操作：
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon.png) 单击Adobe Workfront右上角的或者（如果可用）单击 **[!UICONTROL 主菜单]** 图标 ![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png) 左上角。
+1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. 单击  **请求**，然后单击 **新建请求** 在页面的右上角。
+1. 单击&#x200B;**请求**，然后单击页面右上角的&#x200B;**新建请求**。
 
    >[!TIP]
    >
    >* 您可以从请求区域的任何部分访问新请求选项。
    >* 当您无权创建问题时，新请求选项将灰显。
 
-1. （视情况而定）在 **请求类型** 字段，然后执行下列操作之一：
+1. （视情况而定）单击&#x200B;**请求类型**&#x200B;字段并执行以下操作之一：
 
-   * 从 **最近的路径** 部分，选择您最近用来打开请求队列的路径。 路径包括请求队列、主题组和最近提交的队列主题。 默认显示最后三条路径。
+   * 从&#x200B;**最近使用的路径**&#x200B;部分，选择您最近用来打开请求队列的路径。 路径包括请求队列、主题组和最近提交的队列主题。 默认显示最后三条路径。
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * 从 **请求队列** 部分，选择一个请求队列。
+   * 从&#x200B;**请求队列**&#x200B;部分，选择一个请求队列。
    * 输入属于先前访问路径的关键字，以搜索请求队列。
 
      例如，如果您有一个名为“技术支持”的请求队列，其主题组名为“位置”，队列主题名为“远程”，则可以键入“remote”，并在其路径显示的任意元素中包含“remote”的所有请求队列。
@@ -170,9 +170,9 @@ Workfront管理员必须创建请求队列的以下组件：
    >* 请求队列的名称是已作为帮助请求队列发布的项目的名称。
    >* 配置为选定请求队列的项目的说明显示在请求队列名称的右侧。
    >   
-   >有关如何将项目发布为帮助请求队列的更多信息，请参阅文章 [创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >有关如何将项目发布为帮助请求队列的更多信息，请参阅文章[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-1. 在 **新建请求** 表单，执行以下操作之一：
+1. 在&#x200B;**新请求**&#x200B;表单中，执行以下操作之一：
 
    * （视情况而定）从“请求类型”字段下显示的通知消息中选择可用的草稿。
 
@@ -197,13 +197,13 @@ Workfront管理员必须创建请求队列的以下组件：
    >
 
    您的请求队列中最多可以包含10层主题组。\
-   有关如何创建主题组的更多信息，请参阅文章 [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 有关创建队列主题的更多信息，请参阅文章 [创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   有关如何创建主题组的详细信息，请参阅文章[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。 有关创建队列主题的更多信息，请参阅文章[创建队列主题](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
 
    >[!TIP]
    >
    >如果选择了草稿或前一路径，则已经选择了主题组和队列主题。 如果需要，您可以选择其他选项。
 
-1. 根据Workfront管理员在 **新建问题字段** 的部分 **队列详细信息** 在提交新请求时，您可能会找到以下任何字段：
+1. 根据项目的&#x200B;**队列详细信息**&#x200B;子选项卡的&#x200B;**新问题字段**&#x200B;部分中启用的Workfront管理员字段，当您提交新请求时，可能会发现以下任何字段：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -233,7 +233,7 @@ Workfront管理员必须创建请求队列的以下组件：
        </ul> <p>系统管理员可以修改优先级的名称。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>严重程度</strong> </td> 
+      <td role="rowheader"><strong>严重性</strong> </td> 
       <td> <p>指定请求的严重程度。 严重性应该定义如果不能及时解决此请求对您工作的影响。 默认选项为：</p> 
        <ul> 
         <li>轻微</li> 
@@ -261,7 +261,7 @@ Workfront管理员必须创建请求队列的以下组件：
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">创建路由规则</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>我们建议对请求队列使用路由规则，以便它们可以自动路由到适当的资源。</span> </p> </td> 
+   <p><span>我们建议对您的请求队列使用路由规则，以便它们可以自动路由到适当的资源。</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -289,29 +289,29 @@ Workfront管理员必须创建请求队列的以下组件：
 
 1. （可选）如果您的Workfront管理员将自定义表单与请求队列或队列主题关联，请指定自定义表单中的字段。\
    自定义表单在每个Workfront实例中都不同。
-1. （可选且视情况而定）在输入请求期间，随时单击 [!UICONTROL **放弃草稿**] 如果要删除自动创建的草稿。 这将删除无法恢复的草稿。 此时将显示确认消息，确认您正在删除草稿。
+1. （可选且有条件）在输入请求期间，如果要删除自动创建的草稿，可随时单击&#x200B;[!UICONTROL **放弃草稿**]。 这将删除无法恢复的草稿。 此时将显示确认消息，确认您正在删除草稿。
 
-1. （可选）单击 [!UICONTROL **还原**] ，以便恢复操作并保留草稿。
+1. （可选）如果要还原操作并保留草稿，请单击确认消息上的&#x200B;[!UICONTROL **撤消**]。
 
 1. 执行下列操作之一：
 
-   * 单击 **提交** 如果您已准备好提交请求。 请求将保存在已提交部分中。 根据请求队列的路由规则，此请求可能会路由到指定为“请求队列”的不同项目。 有关路由规则的信息，请参见 [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * 如果您已准备好提交请求，请单击&#x200B;**提交**。 请求将保存在已提交部分中。 根据请求队列的路由规则，此请求可能会路由到指定为“请求队列”的不同项目。 有关路由规则的信息，请参阅[创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
      或
 
-     单击 **关闭** 如果您还没有完全准备好提交，稍后可能会返回并完成它。 您的请求将保存在草稿部分，下次您提交此请求队列的请求时，将可以使用该草稿。
+     如果您还没有完全准备好提交，请单击&#x200B;**关闭**，稍后可能会返回并完成提交。 您的请求将保存在草稿部分，下次您提交此请求队列的请求时，将可以使用该草稿。
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    提交请求时，草稿将自动删除且无法恢复。
 
-   有关处理传入请求的信息，请参阅文章 [管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   有关处理传入请求的信息，请参阅文章[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
-   有关查找已提交或草拟的请求的信息，另请参阅 [查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   有关查找已提交或草拟的请求的信息，另请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 ## 从Workfront外部创建请求
 
-提交新请求时，您可以共享请求队列的直接链接，并将其嵌入其他应用程序。 从Web或其他应用程序访问此链接的用户还必须使用活动的Workfront帐户登录，才能访问此队列并向其提交请求。 有关信息，请参阅 [共享请求队列的链接](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+提交新请求时，您可以共享请求队列的直接链接，并将其嵌入其他应用程序。 从Web或其他应用程序访问此链接的用户还必须使用活动的Workfront帐户登录，才能访问此队列并向其提交请求。 有关信息，请参阅[共享请求队列的链接](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)。
 
 ## 通过电子邮件发送到Workfront以创建请求
 
@@ -323,13 +323,13 @@ Workfront管理员必须创建请求队列的以下组件：
 >
 >请求进入Workfront时，HTML格式会被去除，但签名和现有的回复线程内容不会被去除，并会显示在请求描述中。
 
-有关如何启用请求队列以通过电子邮件接收请求的信息，请参阅 [允许用户通过电子邮件将问题发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+有关如何启用请求队列以通过电子邮件接收请求的信息，请参阅[启用用户将问题通过电子邮件发送到请求队列项目](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)。
 
 ## 使用Outlook客户端创建请求
 
 您可以使用Outlook客户端提交请求。 您可以创建新请求，也可以将电子邮件转换为请求。
 
-有关使用Outlook客户端提交请求的信息，请参阅文章 [通过Outlook电子邮件创建Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+有关使用Outlook客户端提交请求的信息，请参阅文章[从Outlook电子邮件创建Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)。
 
 ## 使用Workfront移动设备应用程序创建请求
 
@@ -337,7 +337,7 @@ Workfront管理员必须创建请求队列的以下组件：
 
 有关通过移动设备应用程序提交请求的信息，请参阅文章中的请求部分：
 
-* [适用于Android的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
+* 适用于Android的[Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
 * [适用于iOS的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## 从其他应用程序创建请求
@@ -345,11 +345,11 @@ Workfront管理员必须创建请求队列的以下组件：
 您可以使用与Workfront集成的任何应用程序提交请求：
 
 * 您可以在Workfront与其他应用程序之间构建自定义集成，从而允许您从其他应用程序向Workfront提交请求。\
-  有关自定义Workfront集成的更多信息，请参阅文章 [Adobe Workfront集成](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  有关自定义Workfront集成的更多信息，请参阅文章[Adobe Workfront集成](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)。
 
 * 如果您已经为Salesforce安装了Workfront应用程序，则可以从Salesforce提交请求。\
-  有关使用我们适用于Salesforce的Workfront应用程序从Salesforce提交请求的信息，请参阅文章 [从Salesforce对象提交Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  有关使用Salesforce的Workfront应用程序从Salesforce提交请求的信息，请参阅文章[从Salesforce对象提交Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
 
 ## 查找已提交的请求
 
-有关查找已提交或草拟的请求的信息，请参阅 [查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+有关查找已提交或草拟的请求的信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。

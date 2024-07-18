@@ -9,7 +9,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您不必是Adobe Workfront管理员，即可共享您有权访问的对象的权限，但您对对象的权限可在Workfront管理员设置的访问级别内使用。
 
-您可以共享或删除您创建的对象或与您共享对象的权限。 如果您不是对象的创建者，则除了要共享对象的权限之外，您还必须对要在访问级别中共享的对象具有“共享”访问权限。 有关访问级别的信息，请参阅 [新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 或 [访问级别概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+您可以共享或删除您创建的对象或与您共享对象的权限。 如果您不是对象的创建者，则除了要共享对象的权限之外，您还必须对要在访问级别中共享的对象具有“共享”访问权限。 有关访问级别的信息，请参阅[新访问级别概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)或[访问级别概述](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ ht-degree: 0%
 
 您可以在Workfront中与其他用户共享以下对象：
 
-* **项目**：有关更多信息，请参阅 [在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **项目**：有关详细信息，请参阅[在Adobe Workfront中共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
 
-* **模板**：有关更多信息，请参阅 [共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **模板**：有关详细信息，请参阅[共享项目模板](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-* **Portfolio**：有关更多信息，请参阅 [共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolio**：有关详细信息，请参阅[共享项目组合](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
-* **程序**：有关信息，请参阅 [共享项目](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **程序**：有关信息，请参阅[共享程序](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)。
 
-* **任务**：有关信息，请参阅 [共享任务](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **任务**：有关信息，请参阅[共享任务](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)。
 
-* **问题**：有关信息，请参阅 [共享问题](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **问题**：有关信息，请参阅[共享问题](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
 
-* **文档**：有关信息，请参阅 [共享文档](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **文档**：有关信息，请参阅[共享文档](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)。
 
-* **文档文件夹**：有关信息，请参阅 [共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **文档文件夹**：有关信息，请参阅[共享文档文件夹](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-* **验证**：有关信息，请参阅 [在Workfront中共享验证](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* **验证**：有关信息，请参阅[在Workfront中共享验证](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)。
 
-* **报告、功能板和日历**：有关信息，请参阅 [共享报告、功能板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). 此外，请参阅以下文章：
+* **报告、仪表板和日历**：有关信息，请参阅[共享报告、仪表板和日历](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。 此外，请参阅以下文章：
 
    * [在Adobe Workfront中共享报表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [共享功能板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [共享日历报告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **筛选器、视图和分组**：有关信息，请参阅 [共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **筛选器、视图和分组**：有关信息，请参阅[共享筛选器、视图或分组](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
-* **计划**：有关信息，请参阅 [在Scenario Planner中共享计划](../../scenario-planner/share-a-plan.md).
+* **计划**：有关信息，请参阅[在Scenario Planner](../../scenario-planner/share-a-plan.md)中共享计划。
 
   这需要额外的许可证。
 
-* **目标**：有关信息，请参阅 [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **目标**：有关信息，请参阅[在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)。
 
   这需要额外的许可证。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * 您只能共享您对对象的相同级别或更低级别的权限。
 
-  例如，如果您拥有对象的Contribute权限，则无法向其他用户授予该对象的“管理”权限。
+  例如，如果您拥有对象的Contribute权限，则无法向其他用户授予对该对象的“管理”权限。
 
 * 您无法共享权限级别高于用户访问级别的对象。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
   >
   >有关更多信息，请参阅：
   >
-  >* [在Scenario Planner中共享计划](../../scenario-planner/share-a-plan.md)
+  >* [在Scenario Planner](../../scenario-planner/share-a-plan.md)中共享计划
   >* [在Workfront目标中共享目标](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## 共享限制
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 共享对象的权限
 
-下表说明了共享对象时可以选择的权限级别。 并非所有对象都具有所有这些设置。 您可以向其他实体授予查看或管理对象的权限。 如果要共享项目、任务或问题，还可以向Contribute授予对它的权限。
+下表说明了共享对象时可以选择的权限级别。 并非所有对象都具有所有这些设置。 您可以向其他实体授予查看或管理对象的权限。 如果要共享项目、任务或问题，还可以向其授予Contribute的权限。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ ht-degree: 0%
    <td role="rowheader"><strong>管理</strong></td> 
    <td> <p>您可以对对象执行以下操作：</p> 
     <ul> 
-     <li>“查看”和“贡献”权限包含的所有操作</li> 
+     <li>查看和Contribute权限中包含的所有操作</li> 
      <li>删除它</li> 
      <li>管理其中的财务信息</li> 
     </ul> </td> 
@@ -151,15 +151,15 @@ ht-degree: 0%
 
 Workfront中的权限是分层继承的。 这意味着，如果您授予用户对父对象的权限，则默认情况下这些用户将获得与其关联的子对象的相同权限。
 
-例如，如果您为某个项目授予用户“参与”权限，则该用户将拥有与该项目关联的所有任务和问题（子对象）的“参与”权限。
+例如，如果您授予用户Contribute项目权限，则该用户拥有与该项目关联的所有任务和问题（子对象）的Contribute权限。
 
-继续上面的示例，您不能限制对子对象的权限。 如果您不希望用户拥有与项目关联的子对象的Contribute权限，则必须手动从对象中删除“继承的权限”，然后调整单个用户的权限，包括任何高级设置。 
+继续上面的示例，您不能限制对子对象的权限。 如果您不希望用户拥有与项目关联的子对象的Contribute权限，则必须手动从对象中删除继承的权限，然后调整单个用户的权限，包括任何高级设置。 
 
-有关Workfront中对象的层次和相互依赖关系的更多信息，请参阅部分 [对象的相互依赖性和层次结构](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 在文章中 [Adobe Workfront对象概述](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+有关Workfront中对象的层次和相互依赖关系的详细信息，请参阅文章[Adobe Workfront对象概述](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[对象相互依赖关系和层次](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)部分。
 
 >[!NOTE]
 >
->Workfront管理员可以禁用访问级别中文档的继承权限。 有关在访问级别中禁用文档的继承权限的详细信息，请参阅 [创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Workfront管理员可以禁用访问级别中文档的继承权限。 有关禁用访问级别中文档的继承权限的详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ### 通过组织成员资格获得的权限  {#permissions-acquired-through-organizational-memberships}
 
@@ -221,11 +221,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## 共享对象
 
-有关如何共享对象的信息，请参见 [共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+有关如何共享对象的信息，请参阅[共享对象](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 
 ## 从对象中删除权限
 
-有关如何从对象中删除权限的信息，请参阅 [从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+有关如何从对象中删除权限的信息，请参阅[从对象中删除权限](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)。
 
 ## 请求对象的权限
 
@@ -233,4 +233,4 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 您可以向拥有对象共享权限的任何人请求对对象的访问权限。 
 
-有关请求对象权限的详细信息，请参阅 [请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+有关请求对象权限的详细信息，请参阅[请求访问对象](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)。

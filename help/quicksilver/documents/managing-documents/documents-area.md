@@ -22,11 +22,11 @@ ht-degree: 0%
 
 文档区域有两种类型。 两者的特性和功能相同：
 
-* **项目、项目组合、项目、任务或问题中的文档区域：** 列出您有权访问特定项目、任务或问题的所有文档。 要访问此区域，请单击 **文档** ![](assets/document-icon-12x14.png) 查看项目、任务或问题时显示在左侧面板中。
+* **项目、项目组合、项目、任务或问题中的文档区域：**&#x200B;列出您有权访问特定项目、任务或问题的所有文档。 要访问此区域，请在查看项目、任务或问题时单击左侧面板中的&#x200B;**文档** ![](assets/document-icon-12x14.png)。
 
-* **全局文档区域：** 列出您在Workfront中有权访问的所有文档。 要访问此区域，请单击 **文档** ![](assets/document-icon.png) 在主菜单中 ![](assets/main-menu-icon.png).
+* **全局文档区域：**&#x200B;列出您在Workfront中有权访问的所有文档。 要访问此区域，请在主菜单![](assets/main-menu-icon.png)中单击&#x200B;**文档** ![](assets/document-icon.png)。
 
-有关将文档上传到Workfront的信息，请参阅 [将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+有关将文档上传到Workfront的信息，请参阅[将文档从您的文件系统添加到Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
 
 “单据”区域记录以下项目的计数：
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![](assets/documents-area-v2-350x199.png)
 
-有关“摘要”的信息，请参见 [文档摘要概述](../../documents/managing-documents/summary-for-documents.md).
+有关摘要的信息，请参阅[文档摘要概述](../../documents/managing-documents/summary-for-documents.md)。
 
 ## 校对决定
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ## 文件夹
 
-在上传文档的项目、任务或问题中，您可以设置文件夹来组织文档。 有关更多信息，请参阅 [创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md).
+在上传文档的项目、任务或问题中，您可以设置文件夹来组织文档。 有关详细信息，请参阅[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)。
 
 在全局文档区域中，可以设置两种类型的文件夹来组织您有权访问的文档：
 
-* **智能文件夹：** 仅显示要查看的文档。 有关更多信息，请参阅 [创建和管理智能文件夹](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **智能文件夹：**&#x200B;仅显示要查看的文档。 有关详细信息，请参阅[创建和管理智能文件夹](../../documents/organizing-documents/create-manage-smart-folders.md)。
 
-* **我的文件夹：** 按照您所需的方式组织文档。 有关更多信息，请参阅 [创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md).
+* **我的文件夹：**&#x200B;按照您想要的方式组织文档。 有关详细信息，请参阅[创建文档文件夹](../../documents/organizing-documents/create-documents-folder.md)。
 
 ## 已展开文档详细信息
 

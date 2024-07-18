@@ -19,8 +19,8 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [报表常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
+* [报告常见问题解答](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
 * [日历上的错误消息：“此日历具有已停用用户的查看权限。”](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-* [运行报告时的错误消息：“您当前未登录。”](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+* [运行报告时出现错误消息：“您当前未登录。”](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
 * [内联编辑日期班次日历显示在框外](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [共享列中的数据不会显示在功能板报表中](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

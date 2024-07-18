@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: 中的数学变量 [!DNL Adobe Workfront Fusion]
-description: 以下数学变量可在 [!DNL Adobe Workfront Fusion mapping] 面板。
+title: ' [!DNL Adobe Workfront Fusion]中的数学变量'
+description: 以下数学变量在 [!DNL Adobe Workfront Fusion mapping] 面板中可用。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# 中的数学变量 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]中的数学变量
 
 <!--Audited: 4/2024-->
 
@@ -38,7 +38,7 @@ ht-degree: 3%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>  
    <td> 
-   <p>当前：否 [!DNL Workfront Fusion] 许可证要求。</p> 
+   <p>当前：无[!DNL Workfront Fusion]许可证要求。</p> 
    <p>或</p> 
    <p>旧版：任意 </p> 
    </td>  
@@ -46,17 +46,17 @@ ht-degree: 3%
   <tr>  
    <td role="rowheader">产品</td>  
    <td> 
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront] 计划：您的组织必须购买 [!DNL Adobe Workfront Fusion].</li><li>[！UICONTROL Ultimate] [!DNL Workfront] 计划： [!DNL Workfront Fusion] 中包含。</li></ul> 
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]计划：您的组织必须购买[!DNL Adobe Workfront Fusion]。</li><li>已包括[！UICONTROL Ultimate] [!DNL Workfront]计划： [!DNL Workfront Fusion]。</li></ul> 
    <p>或</p> 
-   <p>当前：您的组织必须购买 [!DNL Adobe Workfront Fusion].</p> 
+   <p>当前：您的组织必须购买[!DNL Adobe Workfront Fusion]。</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-有关此表中信息的更多详细信息，请参见 [Workfront文档中的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## pi
 
@@ -64,9 +64,9 @@ ht-degree: 3%
 
 ## [!UICONTROL random]
 
-返回范围中的浮点伪随机数 [`0`，`1`] (包括 `0`，但不匹配 `1`)。
+返回范围[`0`，`1`]中的浮点伪随机数（包括`0`但不包括`1`）。
 
-使用以下公式可生成范围中的整数伪随机数 [`min`，`max`] (包括两者 `min` 和 `max`)：
+使用以下公式生成范围[`min`，`max`]中的整数伪随机数（包括`min`和`max`）：
 
 ![](assets/math-variable-random-350x61.png)
 

@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 数据存储模块
-description: An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似）可以存储场景中的数据，因此可以在各个场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
+description: ' [!DNL Adobe Workfront Fusion] 数据存储类似于数据库或简单表，可以存储方案中的数据，从而可以在各个方案或方案运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL 数据存储] 模块
+# [!UICONTROL 数据存储]模块
 
-An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似）可以存储场景中的数据，因此可以在各个场景或场景运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
+[!DNL Adobe Workfront Fusion]数据存储类似于数据库或简单表，可以存储方案中的数据，从而可以在各个方案或方案运行之间传输数据。 在同步过程中，您可以使用数据存储来存储来自不同系统的新数据。
 
-通过数据存储模块，您可以添加、替换、更新、检索、删除、搜索或计数您的记录。 [!DNL Adobe Workfront Fusion] 数据存储。
+数据存储模块允许您在[!DNL Adobe Workfront Fusion]数据存储中添加、替换、更新、检索、删除、搜索或计数记录。
 
-有关创建、编辑数据存储以及对其进行故障诊断的信息，请参阅 [数据存储位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+有关创建、编辑数据存储以及对其进行故障诊断的信息，请参阅[数据存储在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)中
 
 有关Workfront Fusion中数据存储的视频介绍，请参阅：
 
@@ -46,41 +46,41 @@ An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td> 
    <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
    <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 对于工作自动化和集成]，[！UICONTROL [!DNL Workfront Fusion] 工作自动化]</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
    <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
    <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
 ## 先决条件
 
-使用 [!UICONTROL 数据存储] 模块，必须先创建数据存储。
+要使用[!UICONTROL 数据存储]模块，您必须先创建数据存储。
 
-有关创建数据存储的信息，请参阅 [数据存储位置 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+有关创建数据存储的信息，请参阅[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)中的[数据存储
 
-## [!UICONTROL 数据存储] 模块及其字段
+## [!UICONTROL 数据存储]模块及其字段
 
-配置数据存储模块时， [!DNL Workfront Fusion] 显示下面列出的字段。 除此之外，还可能会显示其他数据存储字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+配置数据存储模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此之外，还可能会显示其他数据存储字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
 
-如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关更多信息，请参阅 [在中将信息从一个模块映射到另一个模块 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
-全部 [!UICONTROL 数据存储] 模块是操作类型模块。
+所有[!UICONTROL 数据存储]模块都是操作类型模块。
 
 * [添加/替换记录](#addreplace-a-record)
 * [更新记录](#update-a-record)
@@ -101,7 +101,7 @@ An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似�
 
 >[!NOTE]
 >
->当您尝试添加已存在于数据存储中的记录时，模块会引发错误，该记录以相同的名称和 [!UICONTROL 覆盖现有记录] 选项已禁用。
+>当您尝试添加数据存储中已存在相同名称的记录时，模块会引发错误，并且[!UICONTROL 覆盖现有记录]选项被禁用。
 
 配置此模块时，会显示以下字段。
 
@@ -271,7 +271,7 @@ An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似�
   </tr> 
   <tr> 
    <td>[！UICONTROL限制]</td> 
-   <td> <p> 设置搜索结果的最大数量 [!DNL Workfront Fusion] 在一个执行周期内返回。</p> </td> 
+   <td> <p> 设置在一个执行周期内返回的最大搜索结果数[!DNL Workfront Fusion]。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL即使模块未返回任何结果，仍继续执行路由]</td> 
@@ -280,7 +280,7 @@ An [!DNL Adobe Workfront Fusion] 数据存储（与数据库或简单表类似�
  </tbody> 
 </table>
 
-### [!UICONTROL 对记录计数]
+### [!UICONTROL 记录数]
 
 此操作模块对数据存储中的记录进行编号。
 

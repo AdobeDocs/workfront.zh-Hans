@@ -25,7 +25,7 @@ in January 2022
 
 2022年1月17日这一周。
 
-有关22.1版本可用的所有更改列表，请参阅 [22.1发行版概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+有关22.1版本的所有可用更改列表，请参阅[22.1版本概述](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)。
 
 ## 对移动应用程序中校对功能的增强
 

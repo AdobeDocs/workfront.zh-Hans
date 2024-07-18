@@ -20,7 +20,7 @@ ht-degree: 2%
 
 R1版本目前可在“预览”环境中测试；R1版本将于2017年4月26日发布到生产环境。
 
-要查看关于网络研讨会中所涵盖功能的更多详细信息，请参见 [R1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) 页面。
+要查看有关网络研讨会中所包含功能的详细信息，请参阅[R1发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)页面。
 
 提供了以下网络研讨会录像：
 
@@ -30,9 +30,9 @@ Workfront R1 2017版本网络研讨会由Workfront产品团队于3月29日介绍
 
 为方便起见，该网络研讨会分为以下主题：
 
-* [介绍](#introduction)
+* [简介](#introduction)
 * [项目](#projects)
-* [User Management](#user-management)
+* [用户管理](#user-management)
 * [配置](#configuration)
 * [Mobile和Outlook](#mobile-and-outlook)
 

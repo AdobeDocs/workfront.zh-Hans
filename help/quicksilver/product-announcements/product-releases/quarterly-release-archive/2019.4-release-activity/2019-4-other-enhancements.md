@@ -18,13 +18,13 @@ ht-degree: 0%
 
 本页介绍了2019.4版本中的各种增强功能。 它将在2019年11月11日这一周的生产环境中提供。
 
-有关2019.4版中所做所有更改的列表，请参阅 [2019.4发行版概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+有关2019.4中所做所有更改的列表，请参阅[2019.4版本概述](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)。
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>从AdobeCC文档启动自动验证工作流</strong> <p>无需离开Adobe抄送，即可为已创建的Adobe抄送文档启动自动验证工作流。 有关更多信息，请参阅部分 <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">从Illustrator或InDesign生成验证</a> 在文章中 <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用适用于Illustrator和InDesign的Workfront扩展</a>.</p> </td> 
+   <td> <strong>从AdobeCC文档启动自动验证工作流</strong> <p>无需离开Adobe抄送，即可为已创建的Adobe抄送文档启动自动验证工作流。 有关详细信息，请参阅<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用Illustrator和InDesign的Illustrator扩展</a>中的章节<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">从Workfront或InDesign生成校对</a>。</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -58,14 +58,14 @@ ht-degree: 0%
      <strong>自定义表单中预输入字段可用的其他对象类型</strong> 
      <p>现在，当您创建“预输入”自定义字段时，可以将以下对象类型与该字段相关联：用户、公司、组、工作角色、Portfolio、项目群和模板。</p> 
      <p>以前，您只能将用户对象类型与预输入自定义字段相关联。</p> 
-     <p>有关更多信息，请参阅部分 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a> 在文章中 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a>.</p> 
+     <p>有关详细信息，请参阅文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a>部分。</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>所显示文档最新版本的文件名</strong> <p>现在，当您上载文件名不同于现有版本的文档版本时，新文件名将显示在Workfront中。</p> <p>以前，当您添加具有不同文件名的新版本时，Workfront中将继续显示以前版本的文件名。</p> <p>有关更多信息，请参阅 <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">上载文档的新版本</a>.</p> </td> 
+   <td> <strong>显示的最新版本文档的文件名</strong> <p>现在，当您上载文件名不同于现有版本的文档版本时，新文件名将显示在Workfront中。</p> <p>以前，当您添加具有不同文件名的新版本时，Workfront中将继续显示以前版本的文件名。</p> <p>有关详细信息，请参阅<a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">上载文档的新版本</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <strong>将过滤器添加到自定义表单中的预输入字段</strong> <p>现在，当您向自定义表单添加预输入字段时，可以添加过滤器以限制有人使用该字段时可用的对象。 例如，您可以限制该字段，以便用户只能选择贵组织中的营销和销售团队的成员。</p> <p>有关更多信息，请参阅创建自定义Forms一文中的创建和添加新字段。</p> </td> 
+   <td> <strong>将筛选器添加到自定义表单中的预输入字段</strong> <p>现在，当您向自定义表单添加预输入字段时，可以添加过滤器以限制有人使用该字段时可用的对象。 例如，您可以限制该字段，以便用户只能选择贵组织中的营销和销售团队的成员。</p> <p>有关更多信息，请参阅创建自定义Forms一文中的创建和添加新字段。</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -75,7 +75,7 @@ ht-degree: 0%
      <p>例如，如果您已创建复选框字段，则可以将其更改为下拉列表字段或单选按钮字段。 这三种字段显示类型可以互换。</p> 
      <p>或者，如果您已创建单行文本字段，则可以将其更改为段落文本字段。 这两种字段显示类型可以互换。</p> 
      <p>以前，要更改自定义字段的显示类型，您必须创建新字段并删除旧字段。 这需要传输数据，而这通常非常耗时。</p> 
-     <p>有关更多信息，请参阅 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a> 在文章中 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a></p> 
+     <p>有关详细信息，请参阅文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

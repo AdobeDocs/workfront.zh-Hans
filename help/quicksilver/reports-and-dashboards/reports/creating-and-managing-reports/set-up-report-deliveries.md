@@ -21,10 +21,10 @@ ht-degree: 0%
 
 您可以安排报表按照定义的计划自动交付给用户，也可以手动发送一次性报表。 从Adobe Workfront发送报告时，用户会收到一封电子邮件，其中包含单独附件中的Workfront报告。
 
-有关设置报表以进行提交的信息，请参阅文章 [计划自动报表提交](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+有关设置报表交付的信息，请参阅文章[计划自动报表交付](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
 
-您不能计划报表提交，也不能在“预览沙盒”环境中手动提交报表。 有关预览沙盒的更多信息，请参阅文章 [Adobe Workfront预览Sandbox环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-有关在预览Sandbox环境中交付报告的更多信息，请参阅文章 [在“预览Sandbox”环境中发送报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+您不能计划报表提交，也不能在“预览沙盒”环境中手动提交报表。 有关预览沙盒的更多信息，请参阅文章[Adobe Workfront预览沙盒环境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。\
+有关在预览Sandbox环境中提交报告的更多信息，请参阅文章[在预览Sandbox环境中发送报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)。
 
 ## 报表投放限制
 
@@ -41,21 +41,21 @@ ht-degree: 0%
 
 存在几种大小限制，它们会影响报表在Workfront中的显示方式以及它们通过手动导出、已交付报表或通过API导出的方式：
 
-* **5MB文件大小：** 任何计划提交的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
+* **5MB文件大小：**&#x200B;任何已计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
 
   >[!NOTE]
   >
-  >大于5MB的Excel .xlsx文件不会生成电子邮件。 您可以手动将报告导出为此格式。 有关导出报告的信息，请参见 [导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >大于5MB的Excel .xlsx文件不会生成电子邮件。 您可以手动将报告导出为此格式。 有关导出报告的信息，请参阅[导出数据](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)。
 
-* **50,000行：** 报表导出中允许的.pdf和Tab分隔文件的数据行数。
+* **50,000行：**&#x200B;报表导出中允许用于.pdf和Tab分隔文件的数据行数。
 
-  对于Excel .xls文件，此限制为 **65,000行**.
+  对于Excel .xls文件，此限制为&#x200B;**65,000行**。
 
-  对于Excel .xlsx文件，此限制为 **100,000行**.
+  对于Excel .xlsx文件，此限制为&#x200B;**100,000行**。
 
   这些限制不包括列标题以及报告中分组的行。 例如，如果报表中有6个分组，且有50,000行数据，则导出的文件将有50,000行。
 
-  如果报表中的项目数超过这些限制，您将收到一个错误，指出报表导出和交付失败。 将您在屏幕上看到的项目数减少到一个小于或等于这些限制的数字，以便能够交付结果。 如果要导出所有数据，我们建议您使用过滤器来获取较小的数据负载，然后执行多次导出。 有关更多信息，请参阅 [过滤器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  如果报表中的项目数超过这些限制，您将收到一个错误，指出报表导出和交付失败。 将您在屏幕上看到的项目数减少到一个小于或等于这些限制的数字，以便能够交付结果。 如果要导出所有数据，我们建议您使用过滤器来获取较小的数据负载，然后执行多次导出。 有关详细信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
   这些限制适用于：
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    * 通过API集成导出。
    * 通过快速启动导出的数据。
 
-     有关通过快速启动导出数据的更多信息，请参阅文章 [通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     有关通过Kick-Starts导出数据的更多信息，请参阅文章[通过Kick-Starts从Adobe Workfront导出数据](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
      >[!NOTE]
      >
@@ -72,9 +72,9 @@ ht-degree: 0%
 
    * 导出项目的利用率信息。
 
-     有关导出项目的利用率信息的详细信息，请参见 [资源利用率报表概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     有关导出项目的利用率信息的详细信息，请参阅[资源利用率报告概览](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
-* **65,530个超链接：** 这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
+* **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
 * **256列**：这是Excel对包含超过256列的文档施加的限制。 这些文档无法手动导出，也不能在已送达的报告中发送。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
 
 如果尝试导出超出限制的数据，则可能不会在导出中收到所有预期的数据。 而是在此限制内生成修改后的报表。
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * 在浏览器中查看报告时，报告上的时间戳和格式与浏览器的区域设置和时区匹配，如浏览器的设置中所定义。
 * 通过电子邮件提交报表时，报表将带有时间戳，时间戳和格式与在Workfront配置文件中指定的用户区域设置和时区相匹配。\
-  有关Workfront中用户区域设置和时区的更多信息，请参阅文章 [编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  有关Workfront中用户区域设置和时区的详细信息，请参阅文章[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 ## 具有特殊视图的报告 {#reports-with-a-special-view}
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 >
 >如果除了具有特殊视图的默认选项卡之外，报表上还具有“矩阵”选项卡，则报表会按其显示在“矩阵”选项卡上的方式进行交付。
 
-有关如何将特殊视图应用于报表的更多信息，请参阅文章 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关如何将特殊视图应用于报表的更多信息，请参阅文章[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ## 使用交付的文件
 
@@ -121,19 +121,19 @@ ht-degree: 0%
 
 * [主题行、附件名称和报告标题](#subject-line-attachment-name-and-report-title)
 * [时间戳](#timestamps)
-* [品牌化](#branding)
-* [格式化](#formatting)
+* [品牌](#branding)
+* [正在格式化](#formatting)
 * [链接](#links)
 
 ### 主题行、附件名称和报告标题 {#subject-line-attachment-name-and-report-title}
 
-有关已送达报表电子邮件的主题行的更多信息，请参阅 [计划自动报表提交](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+有关已传送报表电子邮件的主题行的详细信息，请参阅[计划自动报表传送](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
 
-所附报告的名称是： *报表的名称(_Name)*&#x200B;后跟导出的文件格式。
+附加报告的名称是： *The_Name_Of_The_Report*，后面是导出的文件格式。
 
 如果您计划将传送的报表格式化为PDF或HTML文件，则报表的标题将为：
 
-*报表的名称。*
+*报告的名称。*
 
 计划以Excel、Excel (.xlsx)或TSV格式传送的报表没有标题。
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 以所有其他格式发送的报表不能使用您的徽标进行个性化。
 
-有关将Workfront实例品牌化的更多信息，请参阅文章 [打造您的Adobe Workfront实例](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+有关将Workfront实例品牌化的详细信息，请参阅文章[将Adobe Workfront实例品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
 
 ### 格式化 {#formatting}
 
@@ -167,8 +167,8 @@ ht-degree: 0%
 
 报告的过滤器、视图或分组不包含在传送的文件中。 仅当以PDF文件形式发送报告时，才会包含报告的描述。
 
-有关通过特殊视图接收报表的更多信息，请参阅文章 [具有特殊视图的报告](#reports-with-a-special-view).\
-有关选择报表的默认选项卡以及有关特殊格式设置的详细信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+有关以特殊视图接收报告的详细信息，请参阅文章[具有特殊视图的报告](#reports-with-a-special-view)。\
+有关选择报表的默认选项卡以及特殊格式设置的详细信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 链接 {#links}
 
@@ -180,15 +180,15 @@ ht-degree: 0%
 
 您可以通过创建以下内容来查看报表是否已配置为交付：
 
-* **视图** 对于报表的列表或报表中的报表对象：在报表的列表或报表中创建视图，并将以下列添加到视图中：\
+* 报表列表或报表中报表对象的&#x200B;**视图**：在报表列表或报表的报表中创建视图，并将以下列添加到视图中：\
   *计划报表名称。\
   *为该报告计划的所有投放的名称列在项目符号列表的列中。\
   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **过滤器** 对于Report对象：在报表列表或报表的报表中创建过滤器，并声明如下： *计划报表ID不为空*.\
+* 报表对象的&#x200B;**筛选器**：使用以下语句在报表列表或报表报表中创建筛选器： *计划报表ID不为空*。\
   这将仅显示在您的列表或报告中安排的报告。\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  有关创建报告的详细信息，请参阅 [创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 有关创建报告的信息，请参阅 [创建报告活动报告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  有关创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。 有关创建报告的信息，请参阅[创建报告活动报告](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

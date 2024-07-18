@@ -60,7 +60,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **系统** > **客户信息**.
+1. 在左侧面板中，单击&#x200B;**系统** > **客户信息**。
 
    根据您购买的Workfront计划，“客户信息”页面中可能缺少某些部分。 如果您需要了解贵组织使用哪个Workfront计划，请联系您的客户代表。
 
@@ -68,19 +68,19 @@ ht-degree: 1%
 
    * **基本信息**
 
-     有关在Workfront中配置基本信息的信息，请参阅 [配置基本信息](#configure-basic-info).
+     有关在Workfront中配置基本信息的信息，请参阅[配置基本信息](#configure-basic-info)。
 
    * **API密钥设置**
 
-     有关API密钥设置的信息，请参阅 [管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     有关API密钥设置的信息，请参阅[管理API密钥](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
 
-   * **IP允许列表**
+   * **IP 允许列表**
 
-     有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅 [配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     有关将IP地址添加到用户可访问Workfront的允许列表的信息，请参阅[配置防火墙的允许列表](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
    * **许可证**
 
-     有关许可证的信息，请参见 [管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     有关许可证的信息，请参阅[管理系统中的可用许可证](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)。
 
 ## 配置基本信息 {#configure-basic-info}
 
@@ -90,9 +90,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 在左侧面板中，单击 **系统** > **客户信息**.
+1. 在左侧面板中，单击&#x200B;**系统** > **客户信息**。
 
-1. 在 **基本信息** 顶部的 **客户信息** 页面中，查找有关您的Workfront实例的以下信息：
+1. 在&#x200B;**客户信息**&#x200B;页面顶部的&#x200B;**基本信息**&#x200B;部分中，查找有关您使用Workfront的实例的以下信息：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">管理员电子邮箱</td> 
-      <td> <p>Workfront管理员的电子邮件地址。 您可以编辑此字段以匹配其中一个Workfront管理员的电子邮件地址。 与此电子邮件地址关联的用户被视为您的Workfront系统的主要Workfront管理员。 来自Workfront的任何站点范围通信都会定向到此电子邮件地址，因此保持其最新状态很重要。</p> <p><b>注意</b>：您无法停用、删除或更改与管理员电子邮件关联的用户访问级别。</p> </td> 
+      <td> <p>Workfront管理员的电子邮件地址。 您可以编辑此字段以匹配其中一个Workfront管理员的电子邮件地址。 与此电子邮件地址关联的用户被视为您的Workfront系统的主要Workfront管理员。 来自Workfront的任何站点范围通信都会定向到此电子邮件地址，因此保持其最新状态很重要。</p> <p><b>注意</b>：您无法停用、删除或更改与管理员电子邮件关联的用户的访问级别。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">域</td> 
-      <td> <p>域在创建帐户时由Workfront设置。</p> <p>该域标识您用于访问Workfront的URL的唯一子域。<p>例如，如果您的组织分配了域“mycompany”，则用于访问Workfront的URL为 <i>https://mycompany.my.workfront.com.</i></p><p>您无法自己编辑域。 如果要更改域，请联系Workfront客户支持。 有关联系Workfront客户支持的更多信息，请参阅 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">联系客户支持</a>.</p> </td> 
+      <td> <p>域在创建帐户时由Workfront设置。</p> <p>该域标识您用于访问Workfront的URL的唯一子域。<p>例如，如果贵组织已被分配域“mycompany”，则用于访问Workfront的URL为<i>https://mycompany.my.workfront.com。</i></p><p>您无法自己编辑域。 如果要更改域，请联系Workfront客户支持。 有关联系Workfront客户支持的详细信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">联系客户支持</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">时区</td> 
@@ -120,11 +120,11 @@ ht-degree: 1%
        <ul> 
         <li>在传出电子邮件中显示的日期和时间</li> 
         <li>新用户在创建时的默认时区</li> 
-       </ul> <p>用户可以在个人资料下修改其Workfront实例的时区。 当用户修改其时区时，他们来自Workfront的电子邮件中的日期和时间与他们的配置文件首选项相匹配。 有关修改用户配置文件首选项的详细信息，请参阅 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>. 创建新计划时，该时区被选为默认时区。 有关创建调度的详细信息，请参见 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>.</p> <p>有关使用计划帮助用户在Workfront中跨时区进行协作的信息，请参阅 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>.</p> </td> 
+       </ul> <p>用户可以在个人资料下修改其Workfront实例的时区。 当用户修改其时区时，他们来自Workfront的电子邮件中的日期和时间与他们的配置文件首选项相匹配。 有关修改用户配置文件首选项的详细信息，请参阅<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>。 创建新计划时，该时区被选为默认时区。 有关创建计划的详细信息，请参阅<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">创建计划</a>。</p> <p>有关使用计划帮助用户在Workfront中跨时区进行协作的信息，请参阅<a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">区域设置</td> 
-      <td>控制传出电子邮件中使用的语言、日期和数字格式。 创建新用户时，此处选择的区域设置是默认的。 用户可以在用户配置文件中修改其区域设置。 当用户修改其区域设置时，其来自Workfront的电子邮件中的语言、日期和数字格式与他们的配置文件首选项匹配。 有关修改用户档案首选项的详细信息，请参阅 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>.</td> 
+      <td>控制传出电子邮件中使用的语言、日期和数字格式。 创建新用户时，此处选择的区域设置是默认的。 用户可以在用户配置文件中修改其区域设置。 当用户修改其区域设置时，其来自Workfront的电子邮件中的语言、日期和数字格式与他们的配置文件首选项匹配。 有关修改配置文件首选项的详细信息，请参阅<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">配置我的设置</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">存储配额</td> 
@@ -136,7 +136,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">产品版本</td> 
-      <td>这是分配给您的某种Workfront实例。 大多数Workfront客户的产品版本为 <strong>企业</strong>.</td> 
+      <td>这是分配给您的某种Workfront实例。 大多数Workfront客户的产品版本是<strong>企业</strong>。</td> 
      </tr> 
     </tbody> 
    </table>

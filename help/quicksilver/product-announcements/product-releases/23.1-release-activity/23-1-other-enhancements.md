@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本页介绍了在23.1版本中对“预览”环境进行的所有其他增强。 这些增强功能将在2023年1月16日这一周的“生产”环境中提供。
 
-有关23.1版本可用的所有更改列表，请参阅 [23.1发行版概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+有关23.1版本的所有可用更改列表，请参阅[23.1版本概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## 在Adobe Workfront中添加Illustrator以用于设计和视频插件
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。
 
-下载 [Adobe Workfront设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) 在市场中。
+立即在Marketplace中下载[Adobe Workfront的设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
-管理员还可以 [使用插件创建包](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 从Admin Console并以托管或自我管理方式部署到用户。
+管理员还可以从Admin Console中[使用插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)创建包，并以托管或自管理方式部署到用户。
 
 ## Adobe Workfront中通常提供的增强型过滤器体验
 
-2022年8月，已将过滤器体验的升级发布到有关项目、任务和问题列表的公开测试版。 现在，大多数列表都提供了增强的过滤器。 (要查看所有这些列表，请参见 [23.1外观更新发行说明](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+2022年8月，已将过滤器体验的升级发布到有关项目、任务和问题列表的公开测试版。 现在，大多数列表都提供了增强的过滤器。 （若要查看所有这些列表，请参阅[23.1外观更新发行说明](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)。）
 
 作为23.1版的“快速跟进”，增强型过滤器体验将正式提供，并在2023年2月/3月成为标准过滤器生成器。
 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 您仍然可以通过在过滤器面板中启用旧过滤器来访问列表中的旧过滤器。 将来，将从列表中弃用旧版过滤器，但由于增强型过滤器在报表中不可用，因此这些过滤器在报表中将保持可用。
 
-有关增强型过滤器和视频演示的详细信息，请参阅 [过滤器公共测试版发行说明](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+有关增强型筛选器和视频演示的详细信息，请参阅[筛选器公共测试版发行说明](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)。
 
 ## “界面”>“筛选器”>“视图”和“分组”中新增的列表控件功能
 
 我们已在“设置”区域的“筛选器”、“视图”和“分组”页面中添加了列表控制功能。 在那里，您可以为布局模板启用或禁用筛选器、视图和分组。
 
-有关更多信息，请参阅 [创建、编辑和共享默认筛选器、视图和分组](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+有关详细信息，请参阅[创建、编辑和共享默认筛选器、视图和分组](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
@@ -65,9 +65,9 @@ ht-degree: 0%
 
 此插件允许您访问工作项详细信息，与更新区域中的同事协作，以及无需离开喜爱的Creative Cloud应用程序即可全天记录。
 
-下载 [Adobe Workfront设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) 在市场上。
+立即在商城中下载[Adobe Workfront的设计和视频](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
-管理员还可以 [使用插件创建包](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 从Admin Console并以托管或自我管理方式部署到用户。
+管理员还可以从Admin Console中[使用插件](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)创建包，并以托管或自管理方式部署到用户。
 
 ## 如何访问面向AdobeUnified Experience客户的Workfront帮助
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 * Workfront导航栏左侧的主菜单在底部包含一个帮助链接
 * 顶部导航区域中的问号图标提供了帮助、支持和反馈的链接
 
-有关更多信息，请参阅 [适用于Workfront的AdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) 或 [访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)或[访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 重命名大头针以及在删除大头针时提供新体验
 
@@ -94,6 +94,6 @@ ht-degree: 0%
 
 当您将鼠标悬停在管脚上时，重命名管脚和删除管脚的选项会显示在下拉菜单中。
 
-有关更多信息，请参阅 [固定页面以自定义工作区](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+有关详细信息，请参阅[固定页面以自定义工作区](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3412389/){target=_blank}

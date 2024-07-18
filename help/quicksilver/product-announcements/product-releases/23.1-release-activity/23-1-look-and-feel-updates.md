@@ -17,7 +17,7 @@ ht-degree: 3%
 
 本页介绍在23.1版本发布时间范围内对Adobe Workfront应用程序各个区域的外观所做的细微更新。 这些增强功能将在发布到“预览”环境后至少2周内在“生产”环境中提供。
 
-有关23.1版本可用的所有更改列表，请参阅 [23.1发行版概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+有关23.1版本的所有可用更改列表，请参阅[23.1版本概述](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)。
 
 ## 更新了“设置”>“界面”区域中的列表
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 * 我们删除了“活动”复选框，以消除模板页面上更多菜单选项的冗余。
 * 我们删除了“注释”部分，以消除更新部分的冗余。
 
-有关更多信息，请参阅 [编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+有关详细信息，请参阅[编辑项目模板](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
 ## 用于Jira集成的Workfront的新外观
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 用于Jira集成的Workfront的功能没有更改。
 
-有关用于Jira集成的Workfront的更多信息，请参阅 [适用于Jira的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+有关用于Jira集成的Workfront的更多信息，请参阅[用于Jira的Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)。
 
 ## 更新用户字段时的智能用户选择
 
@@ -83,13 +83,13 @@ ht-degree: 3%
 
 现在，将用户添加到上面列出的用户字段时，除了用户的名称和头像外，也会显示其主要角色和电子邮件。 这有助于区分具有相似或相同名称的多个用户。
 
-有关更多信息并观看类似功能的视频演示，请参阅中的“编辑和详细信息区域中项目角色的智能用户选择” [22.4项目增强功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+有关详细信息，并观看类似功能的视频演示，请参阅[22.4项目增强功能](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)中的“编辑和详细信息区域中项目角色的智能用户选择”。
 
 ## “通知”页面的外观和感觉更新
 
 >[!NOTE]
 >
->预览版本： 2022年10月20日；计划发布的生产版本：待定 <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>预览版本： 2022年10月20日；计划生产版本：待定<!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 “通知”页面现在具有现代外观，与Workfront的其他区域一致。
 
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 本页记录新筛选器在23.1版本发布时间范围内添加到Adobe Workfront应用程序其他区域的时间。
 
-有关如何使用新过滤器的信息，请参阅 [在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+有关如何使用新筛选器的信息，请参阅[在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 ### 使用新筛选器更新的列表
 

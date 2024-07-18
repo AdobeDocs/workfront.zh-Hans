@@ -32,7 +32,7 @@ ht-degree: 0%
 1. 在Workfront中创建新文档或文档文件夹链接，通过新外部ID指向新位置的资源。
 
    1. **文档**：使用新的外部文档提供程序添加现有文档的新版本。
-   1. **文件夹**：在相同位置使用相同名称创建新文件夹。
+   1. **文件夹**：在同一位置创建具有相同名称的新文件夹。
 
 >[!CAUTION]
 >
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 ## 迁移链接的示例流程
 
-![简化链路流](assets/links-flow-simplified.png)
+![简化的链接流](assets/links-flow-simplified.png)
 
 ## API信息
 
-要获取有关Workfront API的更多信息，请参阅此部分 [开发人员文档：文档](https://developer.workfront.com/documents.html).
+在此部分中有关Workfront API的更多信息，请参阅[开发人员文档：文档](https://developer.workfront.com/documents.html)。
 
 ### 查找所有文档
 
-查找全部 **文档(DOCU)** 链接到 **文档提供商** 之 **providerType** 替换为 **documentProviderId**.
+查找链接到具有&#x200B;**documentProviderID**&#x200B;的&#x200B;**providerType**&#x200B;的&#x200B;**文档提供程序**&#x200B;的所有&#x200B;**文档(DOCU)**。
 
 ```
 Http Method: GET
@@ -57,11 +57,11 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[API文档参考](https://developer.workfront.com/documents.html#get-/docu/search)
+[API文档引用](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### 查找所有文件夹
 
-查找全部 **文档文件夹(DOCFDR)** 链接到文档提供程序 **providerType** 替换为 **documentProviderId**.
+查找链接到具有&#x200B;**documentProviderID**&#x200B;的&#x200B;**providerType**&#x200B;的文档提供程序的所有&#x200B;**文档文件夹(DOCFDR)**。
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ API文档： (文档文件夹端点当前未包含在developer.workfront.com中)
 
 ### 链接文档
 
-链接 **文档(DOCU)** 从 **外部文档提供商** 之 **providerType** 替换为 **documentProviderId**.
+从&#x200B;**providerType**&#x200B;的&#x200B;**外部文档提供程序**&#x200B;中使用&#x200B;**documentProviderID**&#x200B;链接&#x200B;**文档(DOCU)**。
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ API文档： (developer.workfront.com上当前未包含内部链接端点)
 
 ### 链接文件夹
 
-链接 **文档文件夹(DOCFDR)** 从 **外部文档提供商** 之 **providerType** 替换为 **documentProviderId**.
+从&#x200B;**providerType**&#x200B;的&#x200B;**外部文档提供程序**&#x200B;中使用&#x200B;**documentProviderID**&#x200B;链接&#x200B;**文档文件夹(DOCFDR)**。
 
 >[!IMPORTANT]
 >
@@ -116,21 +116,21 @@ API文档： (developer.workfront.com上当前未包含内部链接端点)
 
 ## 重要术语
 
-* **文档**：Workfront中的数字资源
+* **文档**： Workfront中的数字资源
 
-* **文档文件夹**：Workfront中用于数字资源的容器
+* **文档文件夹**： Workfront中的数字资源容器
 
-* **文档Id**：数字资源的Workfront内部ID
+* **文档ID**：数字资源的Workfront内部ID
 
 * **文档文件夹ID**：数字资源文件夹的Workfront内部ID
 
-* **文档提供商ID**：与特定文档提供商关联的ID
+* **文档提供程序ID**：与特定文档提供程序关联的ID
 
 >[!IMPORTANT]
 >
 > 对于任何给定的文档提供商类型，客户可以有多个连接的实例。 例如，它们可以链接多个AEM存储库。 或者链接了多个Google Drive实例。 文档提供程序ID指示我们要替换或切换到的连接类型的特定实例。
 
-* **文档存储提供程序类型（也称为“外部集成类型”）**：Workfront支持的文档存储提供程序集成的类型。 通过专用集成或“自定义集成”实现。
+* **文档存储提供程序类型（也称为“外部集成类型”）**： Workfront支持的文档存储提供程序集成的类型。 通过专用集成或“自定义集成”实现。
 
 * **当前文档存储提供程序类型( providerType)**：
 
@@ -152,9 +152,9 @@ API文档： (developer.workfront.com上当前未包含内部链接端点)
   MOCK
   ```
 
-* **链接的文档**：在外部文档存储提供商中托管的数字资产。 Workfront将拥有资源的内部“文档ID”，但字节存储在外部。 为了方便实现这一点，Workfront还存储了一个“外部文档ID”，以帮助在远程存储库或存储中定位外部引用的资源。
+* **链接的文档**：在外部文档存储提供程序中托管的数字资产。 Workfront将拥有资源的内部“文档ID”，但字节存储在外部。 为了方便实现这一点，Workfront还存储了一个“外部文档ID”，以帮助在远程存储库或存储中定位外部引用的资源。
 
-* **链接的文档文件夹**：在外部文档存储提供商中托管的数字资产的容器。 Workfront将拥有资产的内部“文档文件夹ID”，但字节存储在外部。 为了方便实现这一点，Workfront还存储了一个“外部文档ID”，以帮助在远程存储库或存储中定位外部引用的资源。
+* **链接的文档文件夹**：在外部文档存储提供程序中托管的数字资产的容器。 Workfront将拥有资产的内部“文档文件夹ID”，但字节存储在外部。 为了方便实现这一点，Workfront还存储了一个“外部文档ID”，以帮助在远程存储库或存储中定位外部引用的资源。
 
 * **外部文档ID**：将资源存储在Workfront外部时分配的ID。 Workfront通过此“外部文档标识符”字段将其内部标识符映射到用于在外部系统中查找资产的标识符。 因此，当从新的外部存储链接文档或文件夹时，必须以适当的格式构成新的外部文档标识符，以便外部文档提供者标识新存储库或存储中的文档。
 
@@ -165,4 +165,4 @@ API文档： (developer.workfront.com上当前未包含内部链接端点)
 
 * **对象类型**：对于本文档而言，这是一个仅用于API的术语。 它是Workfront中您希望与之交互的通用对象类型。 在这种情况下，您将分别与类型为“DOCU”和“DOCFDR”的文档和文件夹进行交互。
 
-* **对象Id**：要与交互的通用对象的内部Workfront标识符。 您将与文档和文件夹进行交互，因此这将是文档ID或文档文件夹ID。
+* **对象ID**：要与之交互的通用对象的内部Workfront标识符。 您将与文档和文件夹进行交互，因此这将是文档ID或文档文件夹ID。

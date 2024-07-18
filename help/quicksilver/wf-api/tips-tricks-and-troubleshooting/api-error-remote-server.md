@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 将正确的自定义表单添加到队列主题。
 
-要了解有关队列主题的更多信息，请参阅 [创建队列主题](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+要了解有关队列主题的更多信息，请参阅[创建队列主题](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。

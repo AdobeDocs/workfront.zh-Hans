@@ -30,9 +30,9 @@ Adobe Workfront Document Webhooks定义了一组API端点，Workfront通过这�
 * 将文件上载到外部文档提供商
 * 查看文档的缩略图
 
-**参考实施**
+**参考实现**
 
-为了帮助快速启动新的Webhooks实施的开发，Workfront提供了参考实施的示例。 这些示例可在以下网址找到： [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 这些示例基于Java，并允许Workfront在网络文件系统上连接文档。 
+为了帮助快速启动新的Webhooks实施的开发，Workfront提供了参考实施的示例。 这些示例可在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)中找到。 这些示例基于Java，并允许Workfront在网络文件系统上连接文档。 
 
 >[!NOTE]
 >

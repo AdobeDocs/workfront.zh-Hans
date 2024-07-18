@@ -11,7 +11,7 @@ exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
 source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [创建任务](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [分配任务](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [管理任务](../../manage-work/tasks/manage-tasks/manage-tasks.md)
-* [任务限制](../../manage-work/tasks/task-constraints/task-constraints.md)
+* [任务约束](../../manage-work/tasks/task-constraints/task-constraints.md)
 * [任务持续时间和持续时间类型：文章索引](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
 * [使用任务前置任务](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [任务的提示、技巧和疑难解答](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

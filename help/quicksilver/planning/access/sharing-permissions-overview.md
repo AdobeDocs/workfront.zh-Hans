@@ -41,7 +41,7 @@ ht-degree: 6%
 
 * 视图
 
-  您必须向用户（包括系统管理员）授予单独访问视图的权限以及访问工作区的权限。 有关信息，请参阅 [共享视图](/help/quicksilver/planning/access/share-views.md).
+  您必须向用户（包括系统管理员）授予单独访问视图的权限以及访问工作区的权限。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 您可以与以下实体共享工作区或视图：
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 
 * 您的Adobe Workfront许可证类型与Workfront Planning权限配合使用，允许您查看、贡献或管理工作区及其对象。
 
-  有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+  有关许可证类型如何影响Workfront Planning权限级别的信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 * 系统管理员可以管理系统中的所有工作区，包括他们未创建的工作区。
 * 其他用户（包括系统管理员）只能访问他们自己创建的或与他们共享的视图。 系统管理员只能获得管理视图的权限。
 * 您可以与他人共享指向工作区或视图的链接。
@@ -73,7 +73,7 @@ ht-degree: 6%
 > 
 >具有所有其他许可证类型的用户都可以拥有对工作区和视图的查看权限。
 >
->有关信息，请参阅 [使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md).
+>有关信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 
 
 ### Workspace权限

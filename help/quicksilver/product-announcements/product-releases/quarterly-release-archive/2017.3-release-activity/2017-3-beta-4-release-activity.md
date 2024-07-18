@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.3 Beta 4发布活动
-description: 本页介绍了2017.3 Beta 4版本预览环境中最近提供的所有更改。 此页面上的功能在2017年9月25日这一周的“预览”环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
+title: 2017.3 Beta 4发行版活动
+description: 本页介绍了2017.3 Beta 4版本在“预览”环境中最近提供的所有更改。 此页面上的功能在2017年9月25日这一周的“预览”环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# 2017.3 Beta 4发布活动
+# 2017.3 Beta 4发行版活动
 
-本页介绍了2017.3 Beta 4版本预览环境中最近提供的所有更改。 此页面上的功能在2017年9月25日这一周的“预览”环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
+本页介绍了2017.3 Beta 4版本在“预览”环境中最近提供的所有更改。 此页面上的功能在2017年9月25日这一周的“预览”环境中提供。 该版本将于2017年11月初在“生产”环境中提供。
 
 >[!IMPORTANT]
 >
 > 此页面上描述的功能在生产环境中可用之前可能会发生更改。
 
-有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+有关2017.3版中所做所有更改的列表，请参阅  [2017.3发布活动概述](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 4版本包含面向Workfront管理员和其他用户的增强功能：
 
-**适用于管理员**
+管理员的&#x200B;****
 
 * [在设置区域新建资源管理首选项区域](#new-resource-management-preferences-area-in-the-setup-area)
 
-**适用于所有用户**
+所有用户&#x200B;****
 
-* [复制任务](#duplicate-tasks)
-* [在计划资源时自动执行分配](#automate-assignments-when-scheduling-resources)
-* [在计划资源时修改多个任务的分配](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
+* [重复的任务](#duplicate-tasks)
+* 在计划资源时[自动执行分配](#automate-assignments-when-scheduling-resources)
+* 在计划资源时[修改多个任务的分配](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
 * [将FTE分配应用于资源规划者](#apply-fte-distribution-to-the-resource-planner)
-* [用户设置的“工作角色”部分包含FTE可用性的百分比](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
+* 用户设置的[工作角色部分包含FTE可用性的百分比](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [在项目的利用率报告中保存和管理筛选器](#save-and-manage-filters-in-the-utilization-report-on-a-project)
-* [利用率报告中的其他过滤选项](#additional-filtering-options-in-the-utilization-report)
-* [按项目或Portfolio查看利用率报告](#view-the-utilization-report-by-program-or-portfolio)
+* [利用率报告中的其他筛选选项](#additional-filtering-options-in-the-utilization-report)
+* [按项目或Portfolio查看使用情况报告](#view-the-utilization-report-by-program-or-portfolio)
 * [在项目和任务报告中显示原始问题信息](#show-original-issue-information-in-project-and-task-reports)
-* [更新流中的过滤器系统更新现在可以跨对象持续进行](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [报告Workfront中的主要验证阶段](#report-on-active-proof-stages-within-workfront)
-* [将自定义Workfront验证权限配置文件分配给Workfront中的用户](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* 更新流中的[筛选器系统更新现在跨对象持续存在](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* [报告Workfront中的活动验证阶段](#report-on-active-proof-stages-within-workfront)
+* [将自定义Workfront Proof权限配置文件分配给Workfront中的用户](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
 * [添加到事件订阅的小时资源](#hour-resource-added-to-event-subscriptions)
 
 ## 重复任务 {#duplicate-tasks}
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 在此更改之前，您可以将任务复制到新项目或现有项目，并在复制时修改某些信息。
 
-有关复制任务的详细信息，请参阅 [复制和复制任务](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+对象  有关复制任务的详细信息，请参阅[复制和复制任务](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
 ## 在计划资源时自动执行分配 {#automate-assignments-when-scheduling-resources}
 
 >[!NOTE]
 >
->在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器调度资源的信息，请参阅 [工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>在23.1版本中，资源计划工具已弃用并从Workfront中删除。 有关使用工作负载均衡器计划资源的信息，请参阅[工作负载均衡器概述](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 
 现在，在计划多个项目的资源时（从“计划”选项卡）或在计划单个项目的资源时（从“人员配备”选项卡），您可以允许Workfront自动为未分配的任务和问题建议分配。
 
@@ -86,7 +86,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，资源规划者中显示的用户的名称仅与主要角色相关联，并且用户的完全可用性根据其计划（100小时）仅与主要角色相关联。 仅当将用户分配给该角色中的任务，且其他角色中的用户的可用小时数为零时，才会在“资源规划者”中显示用户的“其他角色”。
 
-有关如何为资源规划者中的用户和角色计算可用小时数和可用FTE的更多信息，请参阅 [计算资源规划者中用户和角色的小时数和FTE的概述](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+有关如何为资源规划者中的用户和角色计算可用小时数和可用FTE的更多信息，请参阅资源规划者中计算用户和角色的小时数和可用FTE的[概述](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)。
 
 ## 用户设置的“工作角色”部分包含FTE可用性的百分比 {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
 
@@ -98,7 +98,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，您无法将特定数量的FTE分配给与该用户关联的任何工作角色。
 
-有关更新用户工作角色的FTE可用性百分比的详细信息，请参阅 [编辑用户配置文件](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 或 [配置我的设置](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+有关更新用户工作角色的FTE可用性百分比的详细信息，请参阅[编辑用户的配置文件](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)或[配置我的设置](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
 
 ## 在设置区域新建资源管理首选项区域 {#new-resource-management-preferences-area-in-the-setup-area}
 
@@ -107,7 +107,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 * 人工：除了用户的单个FTE之外，系统的默认计划还用于确定资源规划者中用户的小时可用性。 用户的计划将被忽略。
 * 自动：用户计划用于确定用户在资源规划者中的可用小时数。 FTE可用性是根据用户计划和默认计划计算的。 忽略用户FTE的值。 
 
-有关为系统配置资源管理首选项的详细信息，请参见 [配置资源管理首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+有关为系统配置资源管理首选项的详细信息，请参阅[配置资源管理首选项](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 ## 在项目的利用率报告中保存和管理筛选器 {#save-and-manage-filters-in-the-utilization-report-on-a-project}
 
@@ -115,7 +115,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 以前，每次过滤利用率报告时都必须指定单独的过滤器选项。
 
-有关在利用率报告中保存和管理过滤器的更多信息，请参阅 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关在利用率报告中保存和管理过滤器的详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 利用率报告中的其他过滤选项 {#additional-filtering-options-in-the-utilization-report}
 
@@ -123,7 +123,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，您只能通过添加新的筛选规则来按项目组合、项目和项目进行筛选。
 
-有关更多信息，请参阅 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 在 [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+有关详细信息，请参阅[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[资源利用率报告概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 按项目或Portfolio查看利用率报告 {#view-the-utilization-report-by-program-or-portfolio}
 
@@ -133,7 +133,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，只能在项目中访问利用率报告。
 
-有关更多信息，请参阅  [资源利用率报表概览](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+有关更多信息，请参阅  [资源利用率报告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。 
 
 ## 在项目和任务报告中显示原始问题信息 {#show-original-issue-information-in-project-and-task-reports}
 
@@ -151,29 +151,29 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，您无法报告此信息。
 
-有关构建自定义文本模式视图（可从原始问题中捕获信息）的更多信息，请参阅 [查看：显示任务和项目列表上的原始问题信息](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+有关构建自定义文本模式视图（从原始问题中捕获信息）的更多信息，请参阅[视图：在任务和项目列表上显示原始问题信息](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
 
 ## 更新流中的过滤器系统更新现在可以跨对象持续进行 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
 >[!NOTE]
 >
->此功能未通过Beta 4发布到“预览”环境。 它将在10月上半月的预览版中提供。
+>此功能未发布到Beta 4的“预览”环境。 它将在10月上半月的预览版中提供。
 
 过滤器系统更新选项现在可以跨整个Workfront站点的对象持续使用。 这允许您隐藏系统更新并仅查看某个对象更新流中的用户注释，并在浏览到其他对象时保留该设置。
 
 在此更改之前，您必须选择在浏览Workfront站点时筛选掉每个对象的系统更新。
 
-有关更多信息，请参阅 [更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 报告Workfront中的主要验证阶段 {#report-on-active-proof-stages-within-workfront}
 
 在Workfront中创建文档版本报告时，现在有名为“主要验证阶段”的列。 此列允许您查看报告中每个文档版本上当前处于活动状态的验证阶段。 阶段的名称显示在“主要验证阶段”列中。 如果文档版本上当前没有处于活动状态的阶段，则该列为空。
 
-有关视图和报告中可用字段的更多信息，请参阅 [Adobe Workfront术语表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+有关视图和报告中可用字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-## 将自定义Workfront验证权限配置文件分配给Workfront中的用户 {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
+## 将自定义Workfront Proof权限配置文件分配给Workfront中的用户 {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
 
-现在，在Workfront中为用户启用验证功能时，您可以分配自定义Workfront验证权限配置文件。 
+现在，在Workfront中为用户启用验证功能时，您可以分配自定义Workfront Proof权限配置文件。 
 
 在此更改之前，只有以下权限配置文件可用：主管、经理、管理员。
 
@@ -181,4 +181,4 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 使用新的小时资源，您现在可以创建事件订阅，以使您的计费应用程序与Workfront保持同步。
 
-要了解有关事件订阅的更多信息，请参阅 [事件订阅API](../../../../wf-api/general/event-subs-api.md).
+若要了解有关事件订阅的更多信息，请参阅[事件订阅API](../../../../wf-api/general/event-subs-api.md)。

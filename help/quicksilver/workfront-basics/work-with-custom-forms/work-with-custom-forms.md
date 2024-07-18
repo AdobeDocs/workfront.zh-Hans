@@ -18,7 +18,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [向对象添加自定义表单](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [编辑自定义表单字段中的信息](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [导出自定义表单和对象详细信息](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [管理附加到对象的自定义表单](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

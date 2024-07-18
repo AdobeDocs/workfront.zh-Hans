@@ -21,7 +21,7 @@ ht-degree: 3%
 
 作为Adobe Workfront管理员，您可以使用下述审核日志跟踪过去90天内系统中触发的用户更改。
 
-有关查看和筛选您希望在审核日志中看到的内容的说明，请参阅 [查看和导出审核日志](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+有关查看和筛选您想要在这些审核日志中查看内容的说明，请参阅[查看和导出审核日志](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
 
 ## 可在审核日志中找到的信息
 
@@ -56,7 +56,7 @@ ht-degree: 3%
    <td>有关操作的其他详细信息。 将鼠标悬停在文本上可阅读完整消息。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">IP地址</td> 
+   <td role="rowheader">IP 地址</td> 
    <td> <p>执行操作时执行操作的用户的IP地址。</p> <p>IP地址对于某些系统操作不可用。</p> </td> 
   </tr> 
  </tbody> 
@@ -71,12 +71,12 @@ ht-degree: 3%
 * [自定义表单](#custom-forms)
 * [自定义分区](#custom-section)
 * [汇率](#exchange-rate)
-* [群组](#group)
+* [组](#group)
 * [职位角色](#job-roles)
 * [登录尝试](#login-attempt)
 * [优先级](#priority)
-* [项目首选项](#project-preference)
-* [严重程度](#severity)
+* [项目偏好设置](#project-preference)
+* [严重性](#severity)
 * [状态](#status)
 * [任务和问题首选项](#tasks-issues-preferences)
 * [用户](#user)
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 * 删除公司
 
-有关状态的更多信息，请参阅 [状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+有关状态的详细信息，请参阅[状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 ### 完成情况 {#condition}
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 * 删除条件
 
-有关配置工作角色的详细信息，请参阅 [创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+有关配置工作角色的更多信息，请参阅[创建或编辑自定义条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)。
 
 ### 自定义字段 {#custom-field}
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 * 更改自定义分区的名称或描述
 * 删除自定义分区
 
-有关自定义表单中自定义部分的信息，请参阅 [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+有关自定义表单中自定义分区的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ### 汇率 {#exchange-rate}
 
@@ -207,9 +207,9 @@ ht-degree: 3%
 
 * 删除汇率
 
-有关配置汇率的详细信息，请参阅 [设置汇率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+有关配置汇率的详细信息，请参阅[设置汇率](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
 
-### 群组 {#group}
+### 组 {#group}
 
 当用户执行以下操作之一时，系统会生成一个组审核日志条目：
 
@@ -234,7 +234,7 @@ ht-degree: 3%
 
 * 删除工作角色
 
-有关配置工作角色的详细信息，请参阅 [创建和管理职位角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+有关配置工作角色的更多信息，请参阅[创建和管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 ### 登录尝试 {#login-attempt}
 
@@ -265,7 +265,7 @@ Workfront管理员使用“登录身份”功能时，不会记录登录尝试�
 
 * 删除优先级
 
-有关配置优先级的详细信息，请参阅 [创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+有关配置优先级的详细信息，请参阅[创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)。
 
 ### 项目偏好设置 {#project-preference}
 
@@ -281,7 +281,7 @@ Workfront管理员使用“登录身份”功能时，不会记录登录尝试�
 
 * 删除自定义季度
 
-有关项目首选项的详细信息，请参阅 [配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+有关项目首选项的详细信息，请参阅[配置系统范围项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ### 严重性 {#severity}
 
@@ -298,7 +298,7 @@ Workfront管理员使用“登录身份”功能时，不会记录登录尝试�
 
 * 删除问题严重程度
 
-有关配置工作角色的详细信息，请参阅 [创建或自定义问题严重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+有关配置工作角色的更多信息，请参阅[创建或自定义问题严重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)。
 
 ### 状态 {#status}
 
@@ -315,7 +315,7 @@ Workfront管理员使用“登录身份”功能时，不会记录登录尝试�
 
 * 删除系统或组级别上的状态
 
-有关状态的更多信息，请参阅 [状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+有关状态的详细信息，请参阅[状态概述](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)。
 
 ### 任务和问题首选项 {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Workfront管理员使用“登录身份”功能时，不会记录登录尝试�
 * 更改首选项的设置
 * 更改任务、问题或请求的访问设置
 
-有关任务和问题首选项的更多信息，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有关任务和问题首选项的详细信息，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 ### 用户 {#user}
 

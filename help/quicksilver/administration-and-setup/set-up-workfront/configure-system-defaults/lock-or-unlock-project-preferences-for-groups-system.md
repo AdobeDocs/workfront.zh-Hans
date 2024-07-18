@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是 [!DNL Workfront] 管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询 [!DNL Workfront] 管理员（如果他们在您的访问级别设置了其他限制）。 有关如何 [!DNL Workfront] 管理员可以修改您的访问级别，请参见 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>.</p> </td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 如果字段没有锁定/解锁切换，则组管理员无法解锁该字段，无法在组级别配置设置。 配置仅在系统级别可用。
 
-有关锁定或解锁系统级项目、任务或问题首选项的说明，请参阅 [配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+有关锁定或解锁系统级项目、任务或问题首选项的说明，请参阅[配置系统范围的任务和问题首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 >[!NOTE]
 >
->之后 [!DNL Workfront] 管理员在系统级别解锁首选项，任何组管理员都可以对其进行配置，然后将其锁定，以确保其组和以下子组中的每个人都使用相同的配置。 这与 [!DNL Workfront] 管理员必须为系统中的每个人配置和锁定首选项。 有关更多信息，请参阅 [配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 和 [锁定或解锁子组的项目、任务或问题偏好设置](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>在[!DNL Workfront]管理员在系统级别解锁首选项后，任何组管理员都可以对其进行配置并锁定它，以确保其组中的每个人和下面的子组都使用相同的配置。 此功能与[!DNL Workfront]管理员为系统中的每个人配置和锁定首选项的能力并行。 有关详细信息，请参阅[配置组的项目首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)和[锁定或解锁子组的项目、任务或问题首选项](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 
 ## 解锁项目首选项，以便组可以对其进行配置
 
-1. 单击 **[!UICONTROL 主菜单]** 图标 ![](assets/main-menu-icon.png) 位于的右上角 [!DNL Adobe Workfront]，然后单击 **[!UICONTROL 设置]** ![](assets/gear-icon-settings.png).
+1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
 
-1. 单击 **[!UICONTROL 项目首选项]**，然后单击 **[!UICONTROL 项目]**.
+1. 单击&#x200B;**[!UICONTROL 项目首选项]**，然后单击&#x200B;**[!UICONTROL 项目]**。
 
 1. 执行以下任一操作：
 
-   * 如果您希望组管理员能够为其组配置首选项，请将其解锁 ![](assets/unlock-toggle-button.png).
+   * 如果希望组管理员能够为其组配置首选项，请将其解锁![](assets/unlock-toggle-button.png)。
    * 如果您希望所有组都使用首选项的配置，请确保该首选项已锁定（这是默认设置）。
 
      >[!IMPORTANT]

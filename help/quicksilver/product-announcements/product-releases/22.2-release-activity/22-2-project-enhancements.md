@@ -1,6 +1,6 @@
 ---
-title: 22.2&nbsp；项目增强功能
-description: 22.2&nbsp；项目增强功能
+title: 22.2&amp；nbsp；项目增强功能
+description: 22.2&amp；nbsp；项目增强功能
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022年4月4日这一周。 有关22.2版本可用的所有更改列表，请参阅 [22.2发行版概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022年4月4日这一周。 有关22.2版本的所有可用更改列表，请参阅[22.2版本概述](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)。
 
 ## Adobe Workfront展示板现已可用！
 
@@ -40,7 +40,7 @@ in January 2022
 
 系统管理员必须在布局模板中启用展示板，以便该选项在主菜单中可供所有用户使用。
 
-有关更多信息，请参阅 [展示板概述](../../../agile/boards-overview.md).
+有关详细信息，请参阅[讨论区概述](../../../agile/boards-overview.md)。
 
 ## 对Workfront展示板的其他改进
 
@@ -65,13 +65,13 @@ Workfront展示板现在提供以下其他改进：
 
   您现在可以为展示板上的各个信息卡设置截止日期。
 
-有关更多信息，请参阅 [Adobe Workfront中的讨论区入门](../../../agile/get-started-with-boards/get-started-with-boards.md).
+有关详细信息，请参阅[Adobe Workfront中的讨论区入门](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 
 ## “更新帖子”的“还原”选项
 
 现在，在发布更新时更容易发现错误。 现在，在对象的“更新”选项卡中完成评论时，会创建一个弹出窗口，持续7秒，允许您在系统为其设置时间戳或发送任何电子邮件和应用程序内通知之前取消帖子并返回编辑。 如果关闭弹出窗口，离开页面，或等待窗口超时7秒，则正常开机自检。
 
-有关更多信息，请参阅 [更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+有关详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 更新了复制和移动问题时的体验
 
@@ -94,7 +94,7 @@ Workfront展示板现在提供以下其他改进：
 
 为了让您使用Workfront与新的Adobe Workfront体验保持一致，我们重新设计了用于复制项目的界面。 当前在从项目页面复制项目时，或者从列表或报表复制项目时，此功能可用。 在此更新之前，您只能从项目页面复制项目。
 
-有关更多信息，请参阅 [复制项目](../../../manage-work/projects/manage-projects/copy-project.md).
+有关详细信息，请参阅[复制项目](../../../manage-work/projects/manage-projects/copy-project.md)。
 
 ## 能够通过新的“更多”菜单从列表和报告管理项目
 
@@ -124,7 +124,7 @@ Workfront展示板现在提供以下其他改进：
 
 将问题转化为项目后，用户仍保留在列表、报表或功能板中，而不是被重定向到项目的页面。 转换完成后，将显示一个成功通知，其中包含指向项目的链接，以便您根据需要轻松导航到项目。
 
-有关更多信息，请参阅 [在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+有关详细信息，请参阅[在Adobe Workfront中将问题转化为项目](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)。
 
 ## 对分配进行更改时，不再删除分配小时数
 
@@ -140,7 +140,7 @@ Workfront展示板现在提供以下其他改进：
 * 替换用户和角色时，会保留单独的分配分配。
 * 删除用户时，会保留角色上的各个分配分配。 (已从版本中删除。 现在，计划小时数在删除所有被分配人后将设置为0。)
 
-有关计划小时数的详细信息，请参阅 [计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md).
+有关计划小时数的详细信息，请参阅[计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md)。
 
 ## 仅在文件夹层次结构的前五个级别中共享文件夹
 
@@ -152,5 +152,5 @@ Workfront展示板现在提供以下其他改进：
 
 第六级或更低级别的每个文件夹都从其正上方的文件夹继承其共享配置。
 
-有关共享文件夹的详细信息，请参阅 [共享文档文件夹](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+有关共享文件夹的详细信息，请参阅[共享文档文件夹](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
