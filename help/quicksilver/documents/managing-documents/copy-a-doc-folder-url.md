@@ -6,9 +6,9 @@ description: 您可以为任何Workfront对象中包含的任何文档文件夹�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以为以下任何[!DNL Workfront]对象中包含的任何文档文件夹复制直接链接： [!UICONTROL 项目]、[!UICONTROL Portfolio]、[!UICONTROL 项目]、[!UICONTROL 任务]或[!UICONTROL 问题]。 您无法从主菜单复制[!UICONTROL 文档]区域中包含的任何文件夹的链接，因为这些文件夹直接链接到您的用户配置文件，并且无法与他人共享。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 复制并共享指向文档文件夹的链接
 

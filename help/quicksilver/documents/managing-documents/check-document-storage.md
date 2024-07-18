@@ -6,9 +6,9 @@ description: 虽然用户可以上传到您的Workfront实例的单个文件的�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 虽然用户可以上传到您的Workfront实例的单个文件的类型和大小没有限制，但您的Workfront计划对Workfront实例使用的存储总量存在限制。 作为Adobe Workfront管理员，您可以从设置区域监控实例的文档存储。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -38,9 +40,12 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 检查文档存储
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**系统** > **客户信息**。
 1. 在&#x200B;**基本信息**&#x200B;部分中，找到&#x200B;**存储配额**。 在这里，您可以查看您当前使用的存储空间量以及Workfront计划中包含的存储空间总量。
 

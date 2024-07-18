@@ -6,9 +6,9 @@ description: 如果您通过Workfront Fusion创建项目并希望在项目上包
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -71,6 +73,8 @@ ht-degree: 0%
    </td>
   </tr>
 </table>
+
++++
 
 ## 先决条件
 

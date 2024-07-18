@@ -6,9 +6,9 @@ description: 您可以单独或批量从Adobe Workfront下载文档。 可从Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 您可以单独或批量从Adobe Workfront下载文档。 可从Workfront中包含文档的任何区域下载文档。 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 下载单个文档
 

@@ -6,9 +6,9 @@ description: 智能文件夹用于管理项目、任务或问题之外的文档�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 首次访问“文档”区域时，默认情况下可以使用两个智能文件夹：“所有文档”和“最近”。 您可以编辑、重命名或复制默认智能文件夹，但无法删除它们。 您可以创建其他智能文件夹以满足其他资产管理需求。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 显示智能文件夹 
 
@@ -88,7 +92,7 @@ ht-degree: 0%
 
 1. 进行更改，然后单击&#x200B;**保存文件夹**。
 
-## 删除智能文件夹 
+## 删除智能文件夹
 
 1. 转到包含要删除的智能文件夹的&#x200B;**文档**&#x200B;区域。
 1. 在&#x200B;**文件夹**&#x200B;列中，单击要删除的智能文件夹旁边的下拉箭头。

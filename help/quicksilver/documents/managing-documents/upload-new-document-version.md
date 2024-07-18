@@ -6,9 +6,9 @@ description: 您可以添加先前上载到Adobe Workfront的文档的新版本�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 有关从外部应用程序添加链接到Workfront的文档的新版本的信息，请参阅[链接来自外部应用程序的文档](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)中的[添加链接文档的新版本](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -53,6 +55,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 使用拖放操作添加新版本
 

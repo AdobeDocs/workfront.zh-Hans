@@ -6,9 +6,9 @@ description: 仅当您的Adobe Workfront环境与Workfront Proof Premium帐户�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 仅当您的Adobe Workfront环境与Workfront Proof Premium帐户集成时，验证审批才会显示在主页区域中。 如果您无法使用此处讨论的验证，请与Workfront管理员联系。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,7 +46,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 查看提交的验证审批
 

@@ -6,9 +6,9 @@ description: 对文档具有管理权限的用户可以将文档移动到另一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 * 文档审批
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 移动文档
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
@@ -66,4 +70,4 @@ ht-degree: 0%
 
 1. 单击&#x200B;**完成**。
 
-您还可以从“文档详细信息”页面移动文档。 有关更多信息，请参阅文章中的。
+您还可以从“文档详细信息”页面移动文档。

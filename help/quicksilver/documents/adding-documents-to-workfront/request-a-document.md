@@ -6,9 +6,9 @@ description: 您可以在支持“文档”的任何对象上请求文档。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 0%
 您可以在支持“文档”的任何对象上请求文档。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
 
 您必须具备以下条件：
 
@@ -41,6 +44,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 请求文档
 

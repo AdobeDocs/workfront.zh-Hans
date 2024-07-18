@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中请求经理或其他用户批准文�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 您可以在Adobe Workfront中请求经理或其他用户批准文档。 如果您的Workfront管理员启用了此功能，您还可以向没有Workfront帐户的人员请求文档审批，如[配置系统安全首选项](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中所述。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,7 +46,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 请求文档审批
 

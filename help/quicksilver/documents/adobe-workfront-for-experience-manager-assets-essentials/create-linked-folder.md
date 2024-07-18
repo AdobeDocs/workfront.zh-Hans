@@ -7,9 +7,9 @@ description: 在Workfront中，您可以创建与Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -59,6 +61,7 @@ ht-degree: 0%
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
 
++++
 
 ## 先决条件
 
@@ -74,8 +77,6 @@ ht-degree: 0%
 链接文件夹的名称会根据与其关联的Portfolio、项目群、项目自动创建，且无法更改。 如果项目未与Portfolio或项目群关联，则链接的文件夹将显示项目名称和创建日期。
 
 要创建链接文件夹，请执行以下操作：
-
-
 
 1. 转到要在其中放置文件夹的项目。
 1. 选择&#x200B;**新增**，然后转到管理员设置的Experience Manager集成。

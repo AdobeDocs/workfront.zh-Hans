@@ -6,9 +6,9 @@ description: 委托审批请求允许您分配另一个用户来审批您的请�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与Workfront管理员联系。
+要了解您拥有什么计划或许可证类型，请与Workfront管理员联系。
+
++++
 
 ## 了解委托审批的用户访问权限
 
@@ -79,9 +83,7 @@ ht-degree: 0%
 
 ## 委托主页区域中的审批请求
 
-* [将您的审批委派给其他用户](#delegate-your-approvals-to-another-user)
-* [更新或停止审批委托](#update-or-stop-an-approval-delegation)
-* [查看委托的审批](#view-delegated-approvals)
+您可以从主页区域委托审批请求。
 
 ### 将您的审批委派给其他用户 {#delegate-your-approvals-to-another-user}
 

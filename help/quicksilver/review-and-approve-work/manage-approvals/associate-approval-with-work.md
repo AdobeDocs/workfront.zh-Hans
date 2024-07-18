@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 65680d320a06cc96c7434d3efb91eb16e6e86e44
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -63,7 +65,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 有关将审批流程与工作项关联的注意事项
 

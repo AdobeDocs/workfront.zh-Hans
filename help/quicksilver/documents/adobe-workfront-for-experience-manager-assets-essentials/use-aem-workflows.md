@@ -6,9 +6,9 @@ description: 在Experience Manager Assets Essentials集成中使用工作流
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -62,6 +64,8 @@ ht-degree: 0%
    </td>
   </tr>
 </table>
+
++++
 
 ## 先决条件
 
@@ -145,7 +149,6 @@ ht-degree: 0%
 >由于链接文件夹是在创建项目时创建的，因此对现有项目上的链接文件夹工作流进行编辑将无效。 在创建项目时按预期编辑这些值。
 
 要编辑链接文件夹的工作流，请执行以下操作：
-
 
 1. 根据需要打开或关闭&#x200B;**[!UICONTROL 创建链接文件夹]**。 如果您将其打开，则可以编辑链接的文件夹配置。
 

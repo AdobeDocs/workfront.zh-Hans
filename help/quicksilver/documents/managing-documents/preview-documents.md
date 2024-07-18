@@ -6,9 +6,9 @@ description: 您可以从文档区域预览文档。 这对图像特别有用。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以从文档区域预览文档。 这对图像特别有用。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 预览文档
 

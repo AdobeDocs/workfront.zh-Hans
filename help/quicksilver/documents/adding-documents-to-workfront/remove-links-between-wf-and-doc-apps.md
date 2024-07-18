@@ -6,9 +6,9 @@ description: 首次从任何服务上传文档时，Adobe Workfront会请求用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 由于文档服务是允许链接到Workfront的权限服务，因此Workfront无法删除文档服务授予的权限。 您必须从文档服务应用程序中删除权限，或者必须致电我们的支持团队以从我们的服务器中删除此链接。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -45,6 +47,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 删除Workfront与Dropbox之间的链接
 

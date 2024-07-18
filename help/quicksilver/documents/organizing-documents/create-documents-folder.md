@@ -6,9 +6,9 @@ description: 可以将文档组织到文件夹中。 您可以在个人文档区
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >组织文档只是创建文档与关联它们的对象之间的链接。 它不会在系统中重新定位它们。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,15 +48,17 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 显示文件夹
 
 您可以在缩略图、标准或列表视图中显示文件夹。 要更改视图，请使用右上角的视图选项。
 
-1. 在主菜单中单击&#x200B;**文档**。![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   或
+或
 
-   打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
+打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
 1. 单击右侧面板上方的查看选项可更改文档的显示方式。
 
@@ -64,11 +68,11 @@ ht-degree: 0%
 
 创建文件夹以更好地组织您的文档。 在一个对象上最多可创建2,000个文件夹，在每个文件夹中最多可创建50个子文件夹。 子文件夹将计为最大文件夹2,000个。
 
-1. 在主菜单中单击&#x200B;**文档**。![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   或
+或
 
-   打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
+打开Workfront对象后，单击左侧面板中的&#x200B;**文档**。
 
 1. 要创建顶级文件夹，请确保未选择任何内容，然后单击&#x200B;**新增** > **文件夹**。
 

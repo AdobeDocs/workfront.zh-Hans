@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中查看或下载从Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以在Adobe Workfront中查看或下载从Experience Manager Assets或Assets Essentials链接的资源。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 先决条件
 

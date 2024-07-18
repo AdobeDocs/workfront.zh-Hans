@@ -6,9 +6,9 @@ description: 您可以通过复制图像文件并将其从系统剪贴板粘贴�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 * **Safari：**&#x200B;不支持此功能。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -56,6 +58,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 从剪贴板粘贴
 

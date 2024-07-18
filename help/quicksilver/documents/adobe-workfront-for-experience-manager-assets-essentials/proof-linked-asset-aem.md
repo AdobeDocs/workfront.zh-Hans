@@ -6,9 +6,9 @@ description: 从Experience Manager Assets Essentials链接资源后，您可以�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 从Experience Manager Assets Essentials链接资源后，您可以创建验证并分配用户以查看该资源并向其添加评论。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -50,7 +52,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+
++++
 
 ## 先决条件
 

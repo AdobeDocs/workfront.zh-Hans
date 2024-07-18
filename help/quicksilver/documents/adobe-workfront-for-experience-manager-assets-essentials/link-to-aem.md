@@ -6,9 +6,9 @@ description: 您可以将Experience Manager Assets或Assets Essentials中的资�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 在将资源从Workfront发送到Experience Manager Assets或Assets Essentials时，首先映射元数据字段。 如果您的Workfront管理员启用了对象元数据同步，则在任一应用程序中更改了某些字段后，这些字段将保持最新状态。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 先决条件
 

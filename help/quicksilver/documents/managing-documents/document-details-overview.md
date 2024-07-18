@@ -7,9 +7,9 @@ description: “文档详细信息”页面允许您查看、通信和管理附�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 打开“文档详细信息”页面
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**文档**。
+{{step1-to-documents}}
 
 1. 将鼠标悬停在文档上，然后单击&#x200B;**文档详细信息**。
 

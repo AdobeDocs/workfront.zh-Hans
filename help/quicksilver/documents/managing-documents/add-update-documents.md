@@ -6,9 +6,9 @@ description: 您可以添加或回复文档的更新，以便与协作者沟通�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以添加或回复文档的更新，以便与协作者沟通和创建审核跟踪。 有关向工作项添加更新的信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 添加或回复文档更新
 
