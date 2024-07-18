@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -162,6 +162,9 @@ ht-degree: 0%
    * 单击某列的列标题以将其选中并复制，然后单击另一列的列标题并粘贴所复制列的内容。 列必须包含类似的字段类型。
    * 按住Shift键，单击在表中选取几行，复制选定行中的信息，然后单击另一行，然后将选定信息粘贴到新行中，并在新行之后粘贴以下几行。
    * 复制一个单元格中的信息，然后选择多个单元格并将相同的信息粘贴到多个单元格中。 您可以选择多个单元格，并将相同的信息粘贴到相邻行和列的多个单元格中。
+   * 选择包含要复制信息的现有单元格的右下角，然后将其拖放到要粘贴相同信息的相邻单元格中。 所有单元格都必须包含相同类型的信息。
+
+     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    >[!NOTE]
    >

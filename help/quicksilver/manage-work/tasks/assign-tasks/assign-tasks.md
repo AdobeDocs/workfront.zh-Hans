@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    或
 
-   如果任务或问题已分配，则单击分配的名称。
+   如果任务已分配，则单击分配的名称。
 
-   在生产环境中：
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   在预览环境中<span class="preview">：</span>
    ![分配](assets/assignments-box-in-task-header.png)
 
 1. 执行下列操作之一：
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 从“工作角色”列表中选择一个角色，以使用分配的默认开单费率，或从费率卡中选择一个费率卡工作角色，以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
-   * （视情况而定）在显示&#x200B;<span class="preview">**建议分配**、**用户和团队**、**工作角色**&#x200B;或&#x200B;**评级卡角色**</span>&#x200B;列表时，单击其中的一个名称。 有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * （视情况而定）在显示&#x200B;**建议分配**、**用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡角色**</span>&#x200B;列表时，单击其中的一个名称。 有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以开始键入要分配给任务的任何用户、团队或工作角色的名称，然后当该名称显示在列表中时将其选定。
 
@@ -215,7 +211,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择“系统/默认工作角色”以使用分配的默认开单费率，或者选择“费率卡工作角色”以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
+     ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 选择一个工作角色以使用分配的默认开单费率，或者选择一个费率卡工作角色以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
 1. （视情况而定）在&#x200B;**工作**&#x200B;字段中可见时，单击工作分配框右上角的&#x200B;**人员**&#x200B;图标以打开&#x200B;**高级工作**&#x200B;框并创建高级工作。

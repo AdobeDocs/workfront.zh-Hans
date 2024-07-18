@@ -7,9 +7,9 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">“工作总揽”列</span>中的任务列表或报告
+* “工作总揽”列中的任务列表或报告
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">“工作总揽”字段中的任务标题</span>
+* “工作总揽”字段中的任务标题
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 任务字段中的问题标题
 
@@ -63,24 +63,24 @@ ht-degree: 0%
 
 * 任务或问题任务区域中的摘要面板
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">将任务添加到项目时，“新建任务”框中的“工作总揽”字段</span>
+* 将任务添加到项目时，新任务框中的工作分配字段
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* 打开任务或问题时，在“主页”区域中列出的项目的“工作”字段
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * 分配任务或问题时位于已分配此区域的工作负载均衡器
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智能分配条件
-
-<div class="preview">
 
 智能分配在任务中的工作方式与问题中的工作方式不同。
 
@@ -134,17 +134,16 @@ ht-degree: 0%
 
 有关详细信息，请参阅本文中的[任务和问题的智能分配条件](#smart-assignments-criteria-for-tasks-and-issues)部分。
 
-此阶段中标识的分配在“分配”字段的&#x200B;**用户和团队**、**工作角色分配**&#x200B;和&#x200B;**评级卡角色**&#x200B;部分中列出。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+此阶段中标识的分配在“分配”字段的&#x200B;**用户和团队**、**工作角色分配**&#x200B;和&#x200B;<span class="preview">**评级卡角色**</span>&#x200B;部分中列出。 <span class="preview">有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 任务和问题的智能分配标准
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">只有当任务智能分配计算的第一阶段找不到任何匹配项时，以下标准才适用于任务。 有关信息，请参阅本文中任务](#first-phase-of-smart-assignment-calculation-for-tasks)的智能分配计算的第一阶段[部分。 默认情况下，以下标准始终适用于问题。</span>
+>仅当任务智能分配计算的第一阶段未找到任何匹配项时，以下标准才适用于任务。 有关信息，请参阅本文中任务](#first-phase-of-smart-assignment-calculation-for-tasks)的智能分配计算的第一阶段[部分。 默认情况下，以下标准始终适用于问题。
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 根据以下条件的组合，在智能分配下拉列表中推荐用户（按照从高到低的顺序列出）：
 

@@ -7,20 +7,22 @@ description: 提交日期是指分配给任务或问题的用户承诺完成任�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 提交日期概述
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 提交日期是指分配给任务或问题的用户承诺完成任务或问题的日期。
 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 * “详细信息”页面
 * 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
-* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。</span>
+* Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 ## 通过更改提交日期触发的通知和更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

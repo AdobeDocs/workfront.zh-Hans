@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # 分配问题
 
-<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+<!--Audited: 07/2024-->
 
 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,25 +54,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td> <p>新文档：参与者或更高版本</p>
+   <p>当前：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中问题的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">授予对问题的访问权限</a>。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>编辑对问题的访问权限</p> <p>查看或更高权限的项目和任务以分配一个问题</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理问题的权限</p> <p>Contribute对要复制问题的项目的权限，以及添加问题的功能。</p> <p> 有关向问题授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">共享问题</a></p> <p>有关请求其他权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">授予用户访问权限</a>。</p> </td> 
+   <td> <p>管理问题的权限</p> <p> 查看问题所在项目或任务的权限或更高（在分配一个问题时）</p><p>Contribute对问题所在的项目或任务拥有或更高权限（在分配多个问题时）。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 向工作角色、团队和用户进行多个分配的注意事项
 
@@ -137,7 +140,7 @@ ht-degree: 0%
      >您必须在访问级别中启用“查看联系信息”设置，用户才能查看用户的电子邮件。 有关信息，请参阅[授予用户访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
-     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 

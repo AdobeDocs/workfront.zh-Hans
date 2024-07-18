@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2598'
 ht-degree: 3%
 
 ---
@@ -93,6 +93,12 @@ hide: yes
 </table>
 
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 使用表视图编辑记录
+
+只能在表格视图中编辑记录信息。
+
+有关编辑表视图中的记录的详细信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 
 ## 管理表视图 {#manage-a-table-view}
 

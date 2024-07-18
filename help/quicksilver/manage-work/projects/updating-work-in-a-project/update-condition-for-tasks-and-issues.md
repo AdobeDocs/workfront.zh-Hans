@@ -6,20 +6,22 @@ description: 任务或问题的完成情况是指在任务或问题上放置一�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 # 任务和问题的更新条件
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 任务或问题的完成情况是指在任务或问题上放置一个指示其运行方式的标志。 这与工作项的状态不同，后者指示项目开发的当前阶段。
 
@@ -29,7 +31,7 @@ ht-degree: 1%
 
 ## 访问要求 {#access-requirements}
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td>
-
-对于新许可证：
-<ul><li><p>任务标准</p></li>
+   <td> 
+   新增：
+   <ul><li><p>任务标准</p></li>
    <li><p>问题的投稿人或更高版本</p></li></ul>
-
-
-对于当前许可证：
-<ul><li><p>任务的工作或更高</p></li>
+   当前：
+   <ul><li><p>任务的工作或更高</p></li>
    <li><p>有问题的请求或更高版本</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -78,9 +79,9 @@ ht-degree: 1%
 
 您可以在Workfront的以下区域找到任务和问题的完成情况：
 
-* <span class="preview">在Workfront或组管理员将其添加到您的布局模板后，显示详细信息页面。 有关信息，请参阅[使用布局模板自定义详细信息视图](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。</span>
+* 在Workfront或组管理员将其添加到您的布局模板后，显示“详细信息”页面。 有关信息，请参阅[使用布局模板自定义详细信息视图](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-* <span class="preview">Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。</span>
+* Workfront或组管理员将任务或问题的标题添加到您的布局模板后。 有关信息，请参阅[使用布局模板自定义对象标头](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 * 在Workfront或组管理员将其添加到您的布局模板后，显示“摘要”面板。 有关信息，请参阅[使用布局模板自定义主页和摘要](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
@@ -110,7 +111,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以要求系统或组管理员将条件字段添加到摘要面板，使其更易于在Workfront的各个区域中进行更新。
+>您可以要求系统或组管理员将“条件”字段添加到“摘要”面板，或任务或问题标题或“详细信息”页面。
 >
 >有关更多信息，请参阅以下文章：
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-要手动更新任务或问题的完成情况，请执行以下操作之一：
+您可以在Workfront的各个区域中手动更新任务和问题的条件。 以下各节介绍如何手动更新任务和问题的条件。
 
-<div class="preview">
+### 在任务或问题标题中更新任务或问题的条件
 
-1. 要在任务或问题标题中更新任务或问题的条件，请执行以下操作：
+1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板的任务或问题标题中，请单击标题中的&#x200B;**条件**&#x200B;字段，然后从以下选项中进行选择：
+   * 进展顺利
+   * 一些问题
+   * 主要障碍
 
-   1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板的任务或问题标题中，请单击标题中的&#x200B;**条件**&#x200B;字段，然后从以下选项中进行选择：
-      * 进展顺利
-      * 一些问题
-      * 主要障碍
+   ![](assets/condition-in-task-header.png)
+1. 单击Enter以保存条件。
 
-      ![](assets/condition-in-task-header.png)
-   1. 单击Enter以保存条件。
+### 在任务或问题详细信息部分中更新任务或问题的条件
 
-1. 要在任务或问题详细信息部分中更新任务或问题的完成情况，请执行以下操作：
-
-   1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板中任务或问题的详细信息部分，请单击左侧面板中的&#x200B;**详细信息**，然后单击&#x200B;**任务条件**&#x200B;或&#x200B;**问题条件**，然后从以下选项中进行选择：
-      * 进展顺利
-      * 一些问题
-      * 主要障碍
+1. （视情况而定）如果您的Workfront或组管理员将“条件”字段添加到布局模板中任务或问题的详细信息部分，请单击左侧面板中的&#x200B;**详细信息**，然后单击&#x200B;**任务条件**&#x200B;或&#x200B;**问题条件**，然后从以下选项中进行选择：
+   * 进展顺利
+   * 一些问题
+   * 主要障碍
 1. 单击&#x200B;**保存更改**。 任务或问题的完成情况已更新。
 
-</div>
-
-要更新报告或列表中的任务或问题的条件，请执行以下操作：
+### 在报告或列表中更新任务或问题的条件
 
 1. 转到您拥有管理权限的任务或问题列表。 确保&#x200B;**条件**&#x200B;字段在列表视图中可见。
 
