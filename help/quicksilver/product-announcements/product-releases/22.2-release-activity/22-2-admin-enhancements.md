@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ in January 2022
 
 此功能适用于之前在Workfront系统中创建的所有自定义表单。 例如，如果您已经拥有为Task对象类型创建的自定义表单，则现在可以将表单配置为同时使用其他对象类型，如“项目”和“问题”。
 
-有关详细信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[开始创建自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start)部分。
-
 >[!NOTE]
 >
->* 在首次预览发布此功能时，我们暂时禁用了复制多对象自定义表单的功能。 该功能已于3月24日启用。 有关复制自定义表单的信息，请参阅[复制自定义表单以创建新表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)。
->* 在计算自定义字段中，您引用的某些字段可能与为表单配置的对象类型不兼容。 我们的解决方案是一个通配符，允许计算根据表单附加到的对象输出不同的值。 我们在3月24日添加了通配符。 有关如何使用它的信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的[多对象自定义表单中的计算自定义字段](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat)部分。
->* 对于自定义表单中的分区界限，我们已创建了一组通用的查看和编辑权限，这些权限适用于可为表单配置的所有对象类型。 在一个方案中，我们发现这些权限之一“有限编辑”可能会导致表单上出现错误。 此问题已于3月24日修复。 有关分区界限的更多信息，请参阅[将分区界限添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
+>* 在首次预览发布此功能时，我们暂时禁用了复制多对象自定义表单的功能。 该功能已于3月24日启用。
+>* 在计算自定义字段中，您引用的某些字段可能与为表单配置的对象类型不兼容。 我们的解决方案是一个通配符，允许计算根据表单附加到的对象输出不同的值。 我们在3月24日添加了通配符。
+>* 对于自定义表单中的分区界限，我们已创建了一组通用的查看和编辑权限，这些权限适用于可为表单配置的所有对象类型。 在一个方案中，我们发现这些权限之一“有限编辑”可能会导致表单上出现错误。 此问题已于3月24日修复。
 >
 
 ## Blueprint目录可供所有用户使用，管理员可以允许请求
@@ -60,7 +58,6 @@ in January 2022
 >
 >在新的Adobe Workfront体验区域（如批量编辑项目时显示的框）中，尚未进行现代化，自定义表单图像无法显示。 它们将在我们继续更新这些区域时显示。
 
-有关详细信息，请参阅[在自定义表单中添加或编辑资源小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 新的默认访问级别配置
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ ht-degree: 0%
 
 ### 将自定义数据分发到相关表单
 
-功能板Blueprint中包含的某些报表在报表的视图、过滤器或分组中具有自定义数据字段。 在某些情况下，Blueprint还将具有与这些字段关联的表单。 但是，自定义字段通常不会应用于自定义表单。 为了使列、筛选器或分组正常工作，这些字段必须与连接到用户、项目、任务或其他对象记录的表单相关联。 有关信息，请参阅[将自定义字段添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+功能板Blueprint中包含的某些报表在报表的视图、过滤器或分组中具有自定义数据字段。 在某些情况下，Blueprint还将具有与这些字段关联的表单。 但是，自定义字段通常不会应用于自定义表单。 为了使列、筛选器或分组正常工作，这些字段必须与连接到用户、项目、任务或其他对象记录的表单相关联。 有关信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。

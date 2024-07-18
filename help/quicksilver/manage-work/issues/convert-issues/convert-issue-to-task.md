@@ -6,9 +6,9 @@ description: 如果在提交问题后必须完成更多工作才能完成问题�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 如果将附加到问题的多对象自定义表单配置为同时与问题和任务一起使用，则在进行转换时，如果问题中以及任务的自定义表单中存在字段，则保留表单中保存的所有信息。
-   >* 如果将具有计算字段的多对象自定义表单附加到问题和任务，则问题和任务必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[使用旧版表单生成器将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的“多对象自定义表单中的计算自定义字段”部分。
+   >* 如果将具有计算字段的多对象自定义表单附加到问题和任务，则问题和任务必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
    >* 如果目标项目在编辑项目时在任务默认自定义Forms字段中定义了任何默认表单，则这些任务表单也会添加到新任务中。 原始问题和默认任务表单上的字段之间通用的任何自定义字段会预填充问题字段中的信息。
 
 

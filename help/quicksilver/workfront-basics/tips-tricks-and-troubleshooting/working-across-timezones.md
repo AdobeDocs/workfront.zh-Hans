@@ -5,9 +5,9 @@ title: 跨时区工作
 description: 了解 [!DNL Adobe Workfront] 如何使用时区计算对象的时间字段和其他区域（如电子邮件）中的时间可能很有帮助。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ ht-degree: 0%
 
 您可以在自定义表单中使用一系列计算出的自定义字段来显示组织中用户的当前时间，如显示多个城市中的时间的一行机场时钟。 您可以为用户工作的每个时区创建一个字段，每个字段都会计算其时区的时间。
 
-有关详细信息，请参阅[将计算数据添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)，以及文章[计算数据表达式概述](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中的[日期和时间计算自定义字段](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)部分。
+有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)，以及文章[计算数据表达式概述](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中的[日期和时间计算自定义字段](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)部分。
 
 ### 在自定义表单中使用文本字段而不是日期字段 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 如果不希望[!DNL Workfront]转换您为处于不同时区的用户在对象中配置的时间，则可以在附加到对象的自定义表单中使用文本字段，而不是日期字段。 这样，时间就显示了您为项目中的每个人键入的时间。
 
-为此，我们建议您提醒表单用户计算其时区与您的时区之间的差值，以便他们能够确定何时开始和结束工作。 您可以将此字典包含在为自定义表单键入的说明或该字段的工具提示中。 有关详细信息，请参阅[将自定义字段添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+为此，我们建议您提醒表单用户计算其时区与您的时区之间的差值，以便他们能够确定何时开始和结束工作。 您可以将此字典包含在为自定义表单键入的说明或该字段的工具提示中。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。

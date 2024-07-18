@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 此前，当您创建自定义字段时，系统中的每个人都可以编辑它。 这仍然是自定义字段的默认状态，但现在您可以将自定义字段共享限制为仅共享某些用户、角色、团队、组和公司。 并且您可以确定收件人是否可以管理或仅查看自定义字段。
 
 此外，为了让您熟悉这种体验，我们设计了用户界面，以便该功能与在Workfront中共享的其他对象区域类似。
-
-有关详细信息，请参阅[配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
 
 ## 管理员的新增功能：标准化的自定义表单共享
 

@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 1%
 
 ---
@@ -523,7 +523,7 @@ ht-degree: 1%
 
 所有用户都可以查看与其用户档案关联的自定义表单。
 
-[!DNL Workfront]管理员必须为用户对象配置自定义表单，以便能够将自定义表单附加到用户配置文件。 有关创建自定义表单的详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+[!DNL Workfront]管理员必须为用户对象配置自定义表单，以便能够将自定义表单附加到用户配置文件。 有关创建自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ### [!UICONTROL 评论]
 

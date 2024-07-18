@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2758'
 ht-degree: 3%
 
 ---
@@ -71,8 +71,6 @@ ht-degree: 3%
   要了解如何添加希望Workfront跟踪的字段，请参阅[配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
 * 您要报告的任何自定义字段都启用了设置&#x200B;**在更新馈送中显示字段更改**。
-
-  要了解如何为自定义字段启用此设置，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)。
 
 ## 日记帐分录报表概览
 

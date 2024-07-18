@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # 分配问题
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 您可以将问题分配给用户、角色和团队，以指示负责完成问题的人员。 有关分配问题的一般信息，请参阅[修改问题分配的概述](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
@@ -126,11 +120,7 @@ ht-degree: 0%
 
    * 开始键入要分配的用户、角色或团队的名称，然后当该名称出现在列表中时单击它。
 
-     生产环境中的示例图像：
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">预览环境中的示例图像：</span>
-     <span class="preview">![任务搜索](assets/smart-assignments-issue-header.png)</span>
+     ![任务搜索](assets/smart-assignments-issue-header.png)
 
    * （视情况而定）单击可用列表中的名称、角色或团队之一
    * 单击&#x200B;**分配给我**&#x200B;以将其分配给您自己
@@ -177,10 +167,6 @@ ht-degree: 0%
 
    * 单击&#x200B;**工作总揽**&#x200B;字段并开始键入要分配给问题的活跃用户、工作角色或活跃团队的名称，然后当它显示在列表中时单击它。
 
-     生产环境中的示例图像：
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">预览环境中的示例图像：</span>
      ![任务字段](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

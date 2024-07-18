@@ -6,20 +6,14 @@ description: 分配百分比表示已分配资源在一天内计划处理一项�
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
 # 管理任务的用户或角色分配百分比
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 分配百分比表示已分配资源在一天内计划处理一项任务的时间量。 它是任务整个持续时间中资源分配的工作日百分比（根据用户或项目计划）。
 
@@ -91,10 +85,6 @@ ht-degree: 1%
 
    您无法修改分配给任务的团队的分配百分比。
 
-   生产环境中的示例图像：
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview">预览环境中的示例图像：</span>
    ![修改分配百分比](assets/advanced-assignments-allocation-percentage.png)
 
 1. 单击&#x200B;**保存**。

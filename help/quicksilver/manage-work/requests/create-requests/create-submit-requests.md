@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2339'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Workfront管理员必须创建请求队列的以下组件：
   有关详细信息，请参阅文章[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 * （可选）请求自定义表单。\
-  有关详细信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+  有关详细信息，请参阅文章[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （可选）请求审批流程。\
   有关详细信息，请参阅文章[为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。

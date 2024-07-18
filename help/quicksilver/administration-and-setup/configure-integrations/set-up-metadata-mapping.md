@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 您可以将同一[!DNL Workfront]字段映射到[!DNL Workfront DAM]中的各种元数据字段，但是不能在其中任一应用程序中对多个[!DNL Workfront]元数据字段使用元数据字段。
 
-要将多个[!DNL Workfront]字段配置为导出到[!DNL Workfront]应用程序中的一个元数据字段，请先在[!DNL Workfront]中创建计算自定义字段以显示对象的所有单个自定义字段。 然后，将计算的[!DNL Workfront]字段映射到[!DNL Workfront]应用程序中的元数据字段。 有关计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+要将多个[!DNL Workfront]字段配置为导出到[!DNL Workfront]应用程序中的一个元数据字段，请先在[!DNL Workfront]中创建计算自定义字段以显示对象的所有单个自定义字段。 然后，将计算的[!DNL Workfront]字段映射到[!DNL Workfront]应用程序中的元数据字段。 有关计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 在为元数据映射进程映射字段之前，必须在[!DNL Workfront]中启用该应用程序。 有关详细信息，请参阅[配置文档集成](../../administration-and-setup/configure-integrations/configure-document-integrations.md)。
 

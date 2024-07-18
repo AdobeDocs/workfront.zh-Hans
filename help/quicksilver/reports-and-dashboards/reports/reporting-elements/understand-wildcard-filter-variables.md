@@ -7,9 +7,9 @@ description: 通过在过滤器中使用通配符，您可以引用通用用户�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 1%
      <p>$$OBJCODE变量是指对象的类型。 </p> 
      <p>在自定义表单中，如果表单的选定对象类型与计算自定义字段中引用的字段不兼容，则可以使用此通配符避免为这些对象类型创建重复表单的解决方法。</p> 
      <p>在计算自定义字段中，通过在IF表达式中包含通配符来实现这一点，以便计算可以为表单的每个对象类型输出不同的值。 </p> 
-     <p>有关更多信息和示例，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">将计算数据添加到自定义表单</a>文章中的<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">多对象自定义表单中的计算自定义字段</a>部分。</p> 
     </div> </td> 
   </tr> 
  </tbody> 

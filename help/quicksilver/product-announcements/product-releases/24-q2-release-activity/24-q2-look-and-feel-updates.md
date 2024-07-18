@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 我们更新了“设置”>“自定义Forms”区域中适用于Forms、字段和部分的选项卡，使其设计更加现代化，与Workfront的其他区域一致。 现在，您可以从左侧导航菜单中访问三个区域。 过滤器、视图和分组仍可用于列表。 更新的设计适用于在新表单设计器和旧表单生成器中创建的自定义表单、字段和部分。
 
-有关信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)和[使用旧版表单生成器创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+有关信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。

@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '750'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 您可以在编辑自定义表单时将自定义表单设置为活动状态。
 
-有关编辑自定义表单的信息以及可与其关联的对象列表，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+有关编辑自定义表单以及可与其关联的对象列表的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 公司
 

@@ -7,9 +7,9 @@ description: 通过报告，可查看用户和工作的最新动态。 使用报
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3294'
+source-wordcount: '3295'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
   </tr> 
   <tr> 
    <td>字段</td> 
-   <td> <p>指对象的属性。 例如，“状态”是项目、任务或问题的字段。 “Portfolio管理器”是Portfolio对象的字段。</p> <p>您还可以具有您自己创建并添加到自定义表单中的自定义字段。<br>有关创建自定义表单的信息，请参阅文章<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </td> 
+   <td> <p>指对象的属性。 例如，“状态”是项目、任务或问题的字段。 “Portfolio管理器”是Portfolio对象的字段。</p> <p>您还可以具有您自己创建并添加到自定义表单中的自定义字段。<br>有关创建自定义表单的信息，请参阅文章<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>字段名称 </td> 

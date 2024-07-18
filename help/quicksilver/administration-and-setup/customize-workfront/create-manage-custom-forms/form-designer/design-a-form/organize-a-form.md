@@ -1,5 +1,5 @@
 ---
-title: 使用表单Designer整理和预览表单
+title: 组织和预览表单
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
-# 使用表单设计器组织和预览表单
+# 组织和预览表单
 
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
@@ -79,10 +79,6 @@ ht-degree: 0%
       <td role="rowheader">描述</td> 
       <td>如果要向用户说明此部分的用途，请键入文本。 这会显示在自定义表单上部分的标签下方。</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>授予访问权限</p> </td> 
       <td> <p> 选择用户在附加自定义表单的对象上所需的权限，以便查看此分区并编辑其字段值。 
@@ -149,19 +145,10 @@ ht-degree: 0%
 
 1. 要将自定义字段和小组件放置在同一行，请将一个字段和小组件拖动到另一个字段和小组件之间，直到它们之间出现一行。
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* 您可以使用右上角的&#x200B;**预览**&#x200B;按钮了解自定义字段和小组件在表单中的显示方式。
->* 自定义字段和小组件在表单中的显示方式可能并不总是相同，具体取决于用户查看表单时可用的屏幕空间量。 例如，如果水平空间受限，一行字段中的第三个字段可能会换行到下一行字段。
+   >[!NOTE]
+   >
+   >* 您可以使用右上角的&#x200B;**预览**&#x200B;按钮了解自定义字段和小组件在表单中的显示方式。
+   >* 自定义字段和小组件在表单中的显示方式可能并不总是相同，具体取决于用户查看表单时可用的屏幕空间量。 例如，如果水平空间受限，一行字段中的第三个字段可能会换行到下一行字段。
 
 1. （可选）要将自定义字段或小组件放置在另一个字段或小组件的上方或下方，请将其拖动到上方或下方，直到项目之间出现一条水平蓝线。
 

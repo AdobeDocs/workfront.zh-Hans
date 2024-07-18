@@ -1,5 +1,5 @@
 ---
-title: 使用表单设计器添加计算字段
+title: 将计算字段添加到表单
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
+source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 
-# 使用表单设计器添加计算字段
+# 将计算字段添加到表单
 
 您可以添加计算自定义字段，在自定义表单附加到对象时，该字段使用现有数据生成新数据。
 

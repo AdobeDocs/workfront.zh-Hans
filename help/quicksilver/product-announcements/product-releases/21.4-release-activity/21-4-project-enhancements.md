@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ ht-degree: 0%
 这取决于在自定义表单中如何放置字段 — 如果将另一个字段与复选框或单选按钮字段放在同一行，则选项可能只有足够的水平空间来在一列中显示。
 
 有关填写自定义表单的信息，请参阅[编辑自定义表单字段中的信息](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
-
-有关在自定义表单中创建复选框或单选按钮字段的信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)和[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur)部分。
 

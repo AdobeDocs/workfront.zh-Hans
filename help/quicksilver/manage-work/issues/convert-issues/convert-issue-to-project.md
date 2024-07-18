@@ -6,9 +6,9 @@ description: 在Adobe Workfront中将问题转化为项目
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 1%
      >[!TIP]
      >
      >* 如果附加到问题的多对象自定义表单配置为同时用于问题和项目，那么当您进行转换时，如果问题中以及项目的自定义表单上存在字段，则该表单中保存的所有信息都会保留。
-     >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[使用旧版表单生成器将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的“多对象自定义表单中的计算自定义字段”部分。
+     >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)中的“多对象自定义表单中的计算自定义字段”部分。
 
 1. 单击&#x200B;[!UICONTROL **转换为项目**]。
 
@@ -237,7 +237,7 @@ ht-degree: 1%
         >[!TIP]
         >
         >* 如果附加到问题的多对象自定义表单配置为同时用于问题和项目，那么当您进行转换时，如果问题中以及项目的自定义表单上存在字段，则该表单中保存的所有信息都会保留。
-        >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[使用旧版表单生成器将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)中的“多对象自定义表单中的计算自定义字段”部分。
+        >* 如果将具有计算字段的多对象自定义表单附加到问题以及项目，则问题和项目必须与表单的计算自定义字段中引用的所有字段兼容。 如果存在不兼容的情况，则会显示一条消息，提醒您进行调整。 有关详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
         >* 如果附加到模板的自定义表单中包含的自定义字段也在附加到问题的自定义表单中找到，则问题中的字段值将用于新项目。 但是，如果问题的自定义字段为空，则使用模板中的值。
 
 1. （可选）根据需要设置任何其他项目详细信息&#x200B;（项目所有者、项目日期）和任务。

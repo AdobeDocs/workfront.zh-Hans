@@ -7,7 +7,7 @@ description: 您可以选择按月还是按季度接收新的Workfront功能。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 创建和编辑业务规则
-
-{{highlighted-preview-article-level}}
 
 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 

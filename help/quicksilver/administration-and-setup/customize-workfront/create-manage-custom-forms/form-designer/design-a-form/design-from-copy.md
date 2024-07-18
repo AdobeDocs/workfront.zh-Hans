@@ -1,5 +1,5 @@
 ---
-title: 使用表单设计器从副本设计表单
+title: 从副本设计表单
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
-# 使用表单设计器从副本设计表单
+# 从副本设计表单
 
 您可以基于现有自定义表单设计新的自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 

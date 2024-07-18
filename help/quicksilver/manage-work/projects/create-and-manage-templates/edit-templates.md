@@ -6,9 +6,9 @@ description: 您可以编辑项目模板以反映项目流程和设置中的更�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '4721'
+source-wordcount: '4726'
 ht-degree: 2%
 
 ---
@@ -467,7 +467,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field.
 
-   Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Only active custom forms display in the list. s
 
    You can add up to ten custom forms to a template.
 
@@ -491,7 +491,7 @@ For information about how these settings affect creating new tasks, see [Create 
    ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Creating Custom Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can associate up to ten custom forms with a task.
+1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
 1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. 单击&#x200B;**添加自定义表单**&#x200B;字段并选择您要与模板关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。
 
-   列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+   列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    您最多可以向一个模板添加十个自定义表单。
 
@@ -927,7 +927,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. 在&#x200B;**任务默认审批流程**&#x200B;框中，选择将新任务添加到从此模板创建的项目时要与所有新任务关联的审批流程。 您必须先为任务创建批准流程，然后才能将其与任务关联。 列表中仅显示有效的审批流程。 有关创建批准流程的详细信息，请参阅[创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
-1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择当您将新任务添加到从此模板创建的项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 您最多可以将十个自定义表单与一个任务关联。
+1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择当您将新任务添加到从此模板创建的项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以将十个自定义表单与一个任务关联。
 1. （可选）如果要通过在从模板创建的项目中使用工作投入而不是计划小时数来管理任务投入，请选择&#x200B;**使用工作投入以自动计算任务计划小时数**。
 1. （视情况而定，可选）如果您选择了使用工作投入以自动计算任务已计划小时数，请单击下拉菜单以更新每个级别的工作投入的百分比。 以下百分比值为默认值：
 

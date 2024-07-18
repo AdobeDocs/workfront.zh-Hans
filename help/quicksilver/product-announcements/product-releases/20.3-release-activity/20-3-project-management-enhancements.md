@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 现在，当系统管理员创建针对格式配置的自定义表单字段时，您可以在您最常使用的字段中设置文本格式：在整个Workfront的列表中。 您可以在列表中单击某个字段并将粗体、斜体和下划线应用于其中的文本，而不是进入“详细信息”区域以设置自定义表单中的文本格式。
 
 请注意，此功能仅在更新的列表中可用。 有关更新的列表的详细信息，请参阅[Adobe Workfront中的列表入门](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
-
-有关Workfront管理员如何创建带格式的文本字段的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 更新了多个全局标头的外观
 
@@ -113,5 +111,4 @@ ht-degree: 0%
 
 过去，标签既显示在字段的上方，供用户使用，也供系统用于标识字段。 所以更换标签使现场在任何地方都出现了故障，因为系统无法再识别它。
 
-有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

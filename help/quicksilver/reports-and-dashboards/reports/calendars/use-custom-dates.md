@@ -6,9 +6,9 @@ description: 日历报告是一种动态报告，提供工作的可视化表示�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-1. [!DNL Workfront]实例中必须具有自定义日期字段和字段内可用的值。 如果未设置包含自定义日期的自定义表单，请按照[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中前两节中的说明操作。
+1. [!DNL Workfront]实例中必须具有自定义日期字段和字段内可用的值。 如果未设置包含自定义日期的自定义表单，请按照[使用表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)设计表单中的说明操作。
 1. 将自定义表单附加到计划添加到日历的项目、任务或问题，并指定日期。 有关详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 ## 设置项目组

@@ -7,9 +7,9 @@ description: 您可以使用数据表达式在Adobe Workfront中定义计算的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 自定义表单上的计算自定义字段
 
-  有关在Workfront中的自定义表单中创建计算自定义字段的更多信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+  有关在Workfront中的自定义表单中创建计算自定义字段的更多信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 使用文本模式时，报表或列表中的计算自定义列
 

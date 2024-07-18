@@ -6,20 +6,14 @@ description: 将用户或角色分配给任务时，会为其分配特定小时�
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 在任务中管理用户和角色分配小时数
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 将用户或角色分配给任务时，会为其分配特定小时数的工作以完成任务。 当任务持续时间类型为简单时，您可以手动修改每个用户或工作角色分配给任务的小时数。
 
@@ -82,10 +76,6 @@ ht-degree: 0%
 1. 确保任务的&#x200B;**持续时间类型**&#x200B;是&#x200B;**简单**。
 1. 修改每个任务被分派人的&#x200B;**分派项**。 这些是整个任务持续时间内此任务的每个分配的总体分配。 这也可能更新任务的总体计划小时数。
 
-   生产环境中的示例图像：
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">预览环境中的示例图像：</span>
    ![修改分配](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 单击&#x200B;**保存**。

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 3%
      <p>例如，如果您已创建复选框字段，则可以将其更改为下拉列表字段或单选按钮字段。 这三种字段显示类型可以互换。</p> 
      <p>或者，如果您已创建单行文本字段，则可以将其更改为段落文本字段。 这两种字段显示类型可以互换。</p> 
      <p>以前，要更改自定义字段的显示类型，您必须创建新字段并删除旧字段。 这需要传输数据，而这通常非常耗时。</p> 
-     <p>有关详细信息，请参阅文章<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a>中的<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">创建或编辑自定义表单</a></p> 
      <div class="workfront_plans"> 
       <p><strong>在以下环境中可用：</strong> </p> 
       <ul> 

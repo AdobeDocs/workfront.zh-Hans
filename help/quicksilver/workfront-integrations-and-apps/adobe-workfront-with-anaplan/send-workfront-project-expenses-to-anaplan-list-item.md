@@ -6,9 +6,9 @@ description: 此集成方案共享来自具有 [!DNL Anaplan] 预算列表项的
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
   | [!UICONTROL 上次传输日期] | 日期 |
   | [!UICONTROL 集成注释] | 段落文本字段 |
 
-  有关创建自定义表单的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 预期[!DNL Anaplan]配置
 

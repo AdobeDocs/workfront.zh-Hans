@@ -7,9 +7,9 @@ description: 要聚合Adobe Workfront中的多个字段并在新字段中显示�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 要聚合Adobe Workfront中的多个字段并在新字段中显示该聚合值，您可以创建以下内容：
 
 * 自定义表单中的计算自定义字段\
-  有关将计算自定义字段添加到自定义表单的更多信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的[将计算字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form)部分。
+  有关将计算自定义字段添加到自定义表单的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 * 视图中的计算列\
   有关在视图中使用计算的更多信息，请参阅文章[文本模式的常见使用概述](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)中的[在视图](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)中使用文本模式部分。

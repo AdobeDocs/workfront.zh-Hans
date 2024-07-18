@@ -6,9 +6,9 @@ description: '''(AL：*对此文章进行迭代：按自定义数据筛选。 �
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2416'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关标签与自定义字段名称之间差异的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 。
+   >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关自定义字段的标签和名称之间的差异的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 单击字段名称，以将其添加到列表中显示的过滤器。\
    有关您在列表中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。

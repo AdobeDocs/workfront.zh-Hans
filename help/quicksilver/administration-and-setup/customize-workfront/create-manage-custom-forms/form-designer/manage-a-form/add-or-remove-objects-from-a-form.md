@@ -1,5 +1,5 @@
 ---
-title: 使用表单设计器从现有自定义表单添加或删除对象类型
+title: 在现有自定义表单中添加或删除对象类型
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# 使用表单设计器从现有自定义表单添加或删除对象类型
+# 在现有自定义表单中添加或删除对象类型
 
 您可以使用表单设计器从现有自定义表单中添加或删除对象类型。
 

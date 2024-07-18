@@ -4,9 +4,11 @@ description: 当您查看组织的自定义表单以及已添加到其中的自�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 当您查看组织的自定义表单以及已添加到其中的自定义字段和小部件的列表时，您可以使用工具栏中的选项编辑其属性、限制共享对象、复制它们以及删除它们。 您还可以在显示的列中查看其他信息，例如每个自定义表单与哪些对象类型相关联。
 
-有关自定义表单中的自定义字段和小部件的信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)和[在自定义表单中添加或编辑资源小部件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
+有关自定义表单中的自定义字段和小部件的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 访问要求
 
@@ -53,9 +55,9 @@ ht-degree: 0%
 
    有关在列表中选择自定义表单时可执行的操作的信息，请参阅以下文章：
 
-   * [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [共享自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [复制自定义表单以创建新表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [复制自定义表单以创建新表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [删除或停用自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. 单击&#x200B;**字段**&#x200B;选项卡。
@@ -76,12 +78,12 @@ ht-degree: 0%
    有关在列表中选择项目时可执行的操作的信息，请参阅以下文章：
 
    * [添加或编辑自定义字段、分区界限或小组件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [为表单中的自定义字段和小部件配置共享](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [从系统中删除自定义字段或构件](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. 选择&#x200B;**节**&#x200B;选项卡，然后确保选择&#x200B;**参数组**&#x200B;作为列表的&#x200B;**视图**。
 
    此视图中将显示所有分节符，以及包含每个分节符的自定义表单列表。
 
-   有关编辑您在列表中选择的自定义分区的信息，请参阅[将分区界限添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
+   有关编辑您在列表中选择的自定义分区的信息，请参阅[组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
 

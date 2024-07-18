@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # 创建高级工作
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
-
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
 
 您可以使用“高级工作”管理任务或问题工作。
 
@@ -97,10 +91,6 @@ ht-degree: 0%
 
 1. 单击&#x200B;**高级**。
 
-   生产环境中的示例图像：
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">预览环境中的示例图像：</span>
    ![单击高级](assets/assignments-box-in-task-header.png)
 
 1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在名称出现在下拉列表中时单击该名称。
@@ -159,10 +149,6 @@ ht-degree: 0%
 
    * **被分派人的角色：**&#x200B;选择用户在完成此分派时应使用的角色。  默认情况下，将显示用户的主要角色。 单击被分配人的角色框以选择另一个角色。  在将任务或问题首先分配给角色，然后添加可以履行该角色的用户作为第二次分配时，将为可以履行已分配给任务和问题的角色的用户过滤建议用户列表。
 
-     生产环境中的示例图像：
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">预览环境中的示例图像：</span>
      ![被分派人的角色](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ ht-degree: 0%
 
    * **计划小时数**：当持续时间类型为计算分配或简单时，更新计划小时数。 因此，每个资源的分配百分比或小时数会平均分配。 当持续时间类型为计算工作或投入比驱动时，Workfront会计算已计划小时数。 有关详细信息，请参阅[任务持续时间和持续时间类型概述](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
 
-     生产环境中的示例图像：
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     “预览”环境中的示例图像：
      ![高级工作](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. 单击&#x200B;**保存**。

@@ -4,9 +4,9 @@ description: 22.2版本中对管理自定义表单进行了以下重要增强。
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ ht-degree: 0%
 * 对象的编辑框(如果它没有新的Adobe Workfront Experience外观)（例如，编辑费用框）
 * Workfront&#x200B;移动设备应用程序
 
-有关将构件添加到自定义表单的更多信息，请参阅[在自定义表单中添加或编辑图像或其他资源构件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 ## 将自定义表单与多个对象类型关联
 
 您可以将多个对象类型与任何新的自定义表单关联：
@@ -68,8 +66,6 @@ ht-degree: 0%
 >
 >转换后，自定义表单必须已经与要转换到的对象类型关联。
 
-有关将资源小组件添加到自定义表单的说明，请参阅[在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 创建或编辑多对象自定义表单时，请考虑以下事项：
 
 * [分区界限的权限选项](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ ht-degree: 0%
 在与来自这两个组的对象类型相关联的自定义表单中，系统使用一组适用于所有对象类型的通用分区界限权限。 特别是，此公用集代替了“有限编辑”权限选项的“编辑”权限选项，而不是使用“有限编辑”权限选项。 “编辑”选项与所有对象类型兼容。
 
 当您关联使用权限选项不同于自定义表单上现有其他对象类型的对象类型时，将会显示一条消息，允许您切换到用于表单的通用权限选项集。 此更改将应用于所有字段，即使它们不在分区界限下。
-
-有关详细信息，请参阅[向自定义表单添加分区界限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)。
 
 ### 计算的自定义字段兼容性
 
@@ -125,7 +119,6 @@ ht-degree: 0%
 >
 >  如果在字段名称前添加对象类型，它将引用对象的父对象，因此您无法将`{project}.{name}`用于项目，但可以将其用于任务。
 
-有关将计算自定义字段添加到自定义表单的说明，请参阅[将计算数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 有关`$$OBJCODE`等变量的详细信息，请参阅[通配符筛选器变量概述](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 2%
 
 * 添加Adobe XD文件，使自定义表单更直观且信息更丰富。 将表单附加到对象后，使用该对象的用户可以从表单中查看和交互XD文件。
 
-  有关详细信息，请参阅[在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 * 使用快速筛选器轻松地在现代化自定义表单和字段列表中找到项目。 此外，在管理表单和字段时还可体验更佳的外观。
 

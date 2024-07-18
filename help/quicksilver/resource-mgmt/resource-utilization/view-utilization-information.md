@@ -6,9 +6,9 @@ description: 您可以在“利用率”报表中查看资源的利用率。
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '7254'
+source-wordcount: '7255'
 ht-degree: 0%
 
 ---
@@ -546,7 +546,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >您必须键入字段名称，而不是字段标签。 字段标签显示在附加到对象的自定义表单上。 有关标签与自定义字段名称之间差异的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+     >您必须键入字段名称，而不是字段标签。 字段标签显示在附加到对象的自定义表单上。 有关自定义字段的标签和名称之间的差异的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
      有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。\
      选择过滤器的过滤器和条件修饰符。 可用的修饰符在[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)中描述。

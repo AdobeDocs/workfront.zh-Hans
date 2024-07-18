@@ -6,9 +6,9 @@ description: 在文本模式下使用条件格式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -510,7 +510,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 不能有条件地格式化包含`valueexpression`行代码的列。 而是可以将计算自定义字段添加到自定义表单，并将其与报表中显示的对象相关联。 然后，您可以有条件地格式化显示此字段的列。
 
-有关计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+有关计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 ## 在文本模式列中添加聚合器值
 

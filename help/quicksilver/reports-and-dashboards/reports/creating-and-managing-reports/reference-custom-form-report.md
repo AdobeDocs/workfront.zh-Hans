@@ -6,9 +6,9 @@ description: 您可以在报表的视图、筛选器和分组中引用该对象�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 自定义表单必须存在，您才能在报表中引用它。
 
-有关创建自定义表单的详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+有关创建自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 引用自定义表单的内容
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >对于具有多个选项的字段，报表的过滤器和提示中会提供所有选项，包括隐藏的选项。\
->有关从具有多个选项的自定义字段中隐藏选项的更多信息，请参阅文章[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+>有关从具有多个选项的自定义字段中隐藏选项的更多信息，请参阅文章[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 创建报告时，只需使用表单的对象类型作为字段源，并使用自定义字段的名称作为字段名称即可。
 

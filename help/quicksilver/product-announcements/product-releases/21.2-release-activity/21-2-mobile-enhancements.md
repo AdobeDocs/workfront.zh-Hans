@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '272'
 ht-degree: 3%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 3%
 * 项目
 * 团队
 * 模板
-
-有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 ## 在Workfront移动设备应用程序中保存请求为草稿
 
