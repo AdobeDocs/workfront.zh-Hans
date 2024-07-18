@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Workfront具有5个新的内置访问级别：
 | 项目 |   | ✓ {\f13 } |   |
 | 任务 |   | ✓ {\f13 } |   |
 | 问题 |   |   | ✓ {\f13 } |
-| 项目组合 | ✓ {\f13 } |   |   |
-| 项目群 | ✓ {\f13 } |   |   |
+| 项目组合 |   | ✓ {\f13 } |   |
+| 项目群 |   | ✓ {\f13 } |   |
 | 报告（包括功能板和日历报告） |   | ✓ （仅限详细信息选项卡） |   |
 | 过滤器、视图和分组 |   |   | ✓ {\f13 } |
 | 文档 |   |   | ✓ {\f13 } |
@@ -297,6 +297,13 @@ Workfront具有5个新的内置访问级别：
 | 目标 |   |   | ✓ {\f13 } |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>从24.7版本开始，参与者在默认情况下拥有对项目和Portfolio的查看权限。
+>
+> 
+>默认情况下，在24.7版本之前载入的参与者将继续无权访问项目和Portfolio。 如果需要，您可以更新其访问权限以手动查看。
 
 ### 外部用户访问级别
 
