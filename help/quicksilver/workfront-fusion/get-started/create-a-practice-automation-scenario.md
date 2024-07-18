@@ -2,212 +2,200 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: 在中创建实践自动化方案 [!DNL Adobe Workfront Fusion]
+title: 在 [!DNL Adobe Workfront Fusion]中创建实践自动化方案
 description: 本文介绍了如何使用Adobe Workfront Fusion创建自动化场景。 自动化场景可自动执行Workfront流程，包括数据操作和转换。 本示例将引导您完成创建方案的过程，该方案会搜索项目，然后返回与该项目关联的所有任务。
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 8769ed5844e340e007f844370791e93393696819
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
 
-# 在中创建实践自动化方案 [!DNL Adobe Workfront Fusion]
+# 在[!DNL Adobe Workfront Fusion]中创建实践自动化方案
 
-本文介绍了如何使用Adobe Workfront Fusion创建自动化场景。 自动化场景可自动执行Workfront流程，包括数据操作和转换。 本示例将引导您完成创建方案的过程，该方案会搜索项目，然后返回与该项目关联的所有任务。
+自动化场景可自动执行Workfront流程，包括数据操作和转换。 本文将引导您完成创建方案的过程，该方案将搜索项目，然后返回与该项目关联的所有任务。
 
-有关构建连接单独应用程序的集成方案的说明，请参阅 [在Adobe Workfront Fusion中创建实践集成场景](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+<!-- not sure why these are here?
+For instructions on building an integration scenario that connects separate apps, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
-有关每个Workfront Fusion许可证可用功能的更多信息，请参阅 [Adobe Workfront Fusion许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For more information on functionality available with each Workfront Fusion license, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+-->
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能使用本文中的功能：
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[!DNL Pro] 或更高</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划]，[！UICONTROL工作]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]许可证**</td> 
-   <td>
-   <p>当前许可证要求：否 [!DNL Workfront Fusion] 许可证要求。</p>
-   <p>或</p>
-   <p>旧版许可证要求： [！UICONTROL [!DNL Workfront Fusion] 用于工作自动化和集成] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">产品</td> 
-   <td>
-   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront] 计划，您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。 [!DNL Workfront Fusion] 包含在[！UICONTROL Ultimate]中 [!DNL Workfront] 计划。</p>
-   <p>或</p>
-   <p>旧版产品要求：您的组织必须购买 [!DNL Adobe Workfront Fusion] 以及 [!DNL Adobe Workfront] 以使用本文中描述的功能。</p>
-   </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto"> 
+  <tbody>  
+    <tr>  
+      <td>Adobe Workfront计划</td>  
+      <td>任何</td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront许可证</td>  
+      <td>
+        新建： Standard<br>
+        或<br>
+        当前：工作或更高
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront Fusion许可证</td>  
+      <td> 
+        当前：无Workfront Fusion许可证要求。<br>
+        或<br>
+        旧版：任意
+      </td>  
+    </tr>  
+    <tr>  
+      <td>产品</td>  
+      <td> 
+        新文档：选择或Prime Workfront计划：您的组织必须购买Adobe Workfront Fusion。<br>
+        Ultimate Workfront计划：包含Workfront Fusion。<br>
+        或<br>
+        当前：您的组织必须购买Adobe Workfront Fusion。
+      </td>  
+    </tr> 
+  </tbody>  
 </table>
-要了解您拥有的计划、许可证类型或访问权限，请联系贵机构的 [!DNL Workfront] 管理员。
 
-有关的信息 [!DNL Adobe Workfront Fusion] 许可证，请参阅 [[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 创建实践场景
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-的作用 [!DNL Adobe Workfront Fusion] 是使您的流程自动化，以使您能够专注于新任务，而不是一次又一次地重复相同的任务。 它的工作方式是，关联应用程序和服务内外的操作，从而创建一个自动传输和转换数据的方案。 您创建的方案会监视应用程序或服务中的数据，并对这些数据进行处理以提供您想要的结果。
++++
 
-场景由一系列模块组成，这些模块指示应如何在应用程序内转换数据或在应用程序和Web服务之间传输数据。
-本示例将引导您完成创建场景的过程，该场景将搜索 [!DNL Workfront] 并返回项目中的任务。
+## 创建自动化实践方案
+
+[!DNL Adobe Workfront Fusion]通过自动执行重复任务，帮助您专注于重要任务。 它创建场景以自动管理各种应用程序和服务中的数据。
+
+每个方案都包含模块，用于指导如何在应用程序内处理数据或在不同的应用程序和服务之间传输数据。 例如，您可以在Fusion中创建方案以自动查找[!DNL Workfront]项目并列出其任务。 这样，Fusion就可以处理日常任务，从而为您节省时间和精力。
+
+此实践方案将引导您完成创建方案的过程，该方案将搜索[!DNL Workfront]项目并返回项目中的任务。
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
-创建方案由若干主要任务组成：
+### 开始之前
 
-## 选择应用程序并命名方案
+在Workfront中创建一个包含可用于本练习的任务的项目。 除了将任务添加到项目外，您无需执行任何其他配置。
 
-1. 登录您的 [!DNL Workfront Fusion] 帐户。
-1. 单击 **[!UICONTROL 方案]** ![](assets/scenarios-icon.png) 在左侧面板中。
+有关在Workfront中创建项目的信息，请参见xxx。
+
+### 1.创建方案并为其命名
+
+1. 登录您的[!DNL Workfront Fusion]帐户。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 方案]** ![](assets/scenarios-icon.png)。
 
    >[!NOTE]
    >
-   >如果您看不到左侧导航面板或其图标，请单击菜单 ![菜单](assets/main-menu-icon-left-nav.png) 图标。
+   >如果未看到左侧导航面板或其图标，请单击菜单![菜单](assets/main-menu-icon-left-nav.png)图标。
 
-   在灰色中 [!UICONTROL 文件夹] 在显示的面板中，您可以将方案整理到文件夹中。
+1. 在&#x200B;[!UICONTROL **文件夹**]&#x200B;面板中，单击&#x200B;**[!UICONTROL 添加文件夹]**&#x200B;图标![](assets/add-folder-icon.png)，然后为第一个文件夹键入诸如“实践场景”之类的名称。
 
-   在右侧的主区域顶部，您可以查看 **[!UICONTROL 全部]** 您已经构建的方案，您的 **[!UICONTROL 活动方案]**， **[!UICONTROL 非活动方案]**、和 **[!UICONTROL 概念]**. 概念是以前需要做更多工作的方案 [!DNL Workfront Fusion] 可将它们分类为活动或非活动。
+1. 打开文件夹，然后单击页面右上角的&#x200B;**[!UICONTROL 创建新方案]**。
 
-<!--
-   ![](assets/scenarios-left-panel-350x215.png)
--->
+1. 对于此练习，请选择&#x200B;**[!DNL Adobe Workfront]**&#x200B;应用，然后单击底部附近的&#x200B;**搜索**。
 
-1. 在 [!UICONTROL 文件夹] 面板上，单击 **[!UICONTROL 添加文件夹]** 图标 ![](assets/add-folder-icon.png)，然后为第一个文件夹键入名称，如“Practice scenarios”。
 
-1. 打开文件夹，然后单击 **[!UICONTROL 创建新方案]** 在页面的右上角。
+1. 选择左上角的&#x200B;**[!UICONTROL 新方案]**&#x200B;占位符名称，然后键入诸如“实践方案1”之类的名称。
 
-   显示的登陆页面允许您预加载要在要构建的场景中使用的任何应用程序。
+   ![](assets/name-the-scenario.png)
 
-1. 在本练习中，搜索并选择 **[!DNL Workfront]** 应用程序。
-1. 单击 **[!UICONTROL 继续]** 在右上角。
+1. 继续[连接下面的第一个模块](#2-connect-the-first-module)。
 
-   此时将显示方案编辑器，其中心包含一个空模块，其中 [!DNL Workfront] ，以及底部工具栏中的一些选项。
+### 2.连接第一个模块
 
-<!--
-   ![](assets/scenario-editor-350x235.png)
--->
+现在，您需要与您的[!DNL Workfront]帐户建立经过身份验证的连接。 您添加到方案的每个模块都必须与其应用程序建立连接。
 
-当您开始创建新方案时，最好从为其创建名称开始。
-
-1. 选择 **[!UICONTROL 新方案]** 左上角的占位符名称，然后键入诸如“Practice scenario 1”之类的名称。
-1. 继续 [添加并配置第一个模块](#add-and-configure-the-first-module) 下。
-
-## 添加并配置第一个模块
-
-带问号的空模块表示您需要添加的触发器模块。 此模块将在每次运行时启动方案。 空模块上的时钟图标表示是已计划的模块。
-
-![](assets/empty-module.png)
-
-此模块将包含您希望方案关注的数据。
-
-在本例中，我们未使用触发器模块。 相反，此方案从搜索开始。
-
-1. 单击空模块以选择要从中选择模块的应用程序。
-
-   之前预加载的应用程序显示在空模块旁边。 您可以使用 [!UICONTROL Search] 盒子。
-
-   ![](assets/pre-loaded-app-wf-350x172.png)
-
-1. 单击 **[!DNL Workfront]**。
-
-   列表将更改为全部显示 [!DNL Workfront] 可用作触发器模块的模块。
-
-1. 单击搜索模块 **[!UICONTROL Search]**.
-
-   现在，您需要建立与贵机构的 [!DNL Workfront] 帐户。 您添加到方案的每个模块都必须与其应用程序建立连接。
-
-1. 在 **[!DNL Workfront]** 框，下 **[!UICONTROL 连接]**，单击 **[!UICONTROL 添加]**，然后键入连接的名称，如“Olivia的Workfront帐户”，然后单击 **[!UICONTROL 继续]**.
+1. 在&#x200B;**[!DNL Workfront]**&#x200B;框的&#x200B;**[!UICONTROL 连接]**&#x200B;下，单击&#x200B;**[!UICONTROL 添加]**，然后键入连接的名称，如“Olivia的Workfront帐户”，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 在显示的窗口中验证连接。
 
-   对连接进行身份验证的过程在应用程序之间可能会有所不同。 以下流程特定于 [!DNL Workfront]，但其过程与许多应用程序类似。
+   对连接进行身份验证的过程在应用程序之间可能会有所不同。 以下进程特定于[!DNL Workfront]，但该进程与许多应用程序类似：
 
-   1. 输入您的 [!DNL Workfront] 域，然后单击 **[!UICONTROL 继续]**.
-   1. 登录 [!DNL Workfront].
-   1. 检查以下访问权限： [!DNL Workfront Fusion] 正在请求，然后单击 **[!UICONTROL 允许访问]**.
+   1. 输入您的[!DNL Workfront]域，然后单击&#x200B;**[!UICONTROL 继续]**。
+   1. 登录[!DNL Workfront]。
+   1. 检查[!DNL Workfront Fusion]请求的访问，然后单击&#x200B;**[!UICONTROL 允许访问]**。
 
-   如果您需要帮助，请参阅 [连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   如果需要帮助，请参阅[连接概述](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)。
 
-## 配置第一个模块
+### 3.配置第一个模块
 
-连接后 [!DNL Workfront Fusion] 敬您的 [!DNL Workfront] 帐户，您可以指定 [!DNL Workfront] 您有权访问的请求队列以及您希望第一个模块处理的数据。
+将[!DNL Workfront Fusion]连接到您的[!DNL Workfront]帐户后，您可以指定您有权访问的[!DNL Workfront]项目以及您希望第一个模块处理的数据。
 
-1. 在 [!UICONTROL 记录类型] 框，选择 **[!UICONTROL 项目]**. 这将模块设置为仅搜索项目。
-
-   >[!TIP]
-   >
-   >您可以找到 **[!UICONTROL 项目]** 在列表中(如果您开始键入“[!UICONTROL 项目]“
-
-1. 在 **[!UICONTROL 结果集]** 框，选择 **[!UICONTROL 第一个匹配记录]**. 这会将模块设置为仅返回它发现满足条件的第一个记录。 在本例中，我们只需要返回一个记录。
-1. 在 **[!UICONTROL 搜索条件]** 区域，我们将设置一个过滤器以返回特定项目。
-
-   1. 在下的第一个框中 [!UICONTROL 搜索条件]，选择要搜索其值的字段。 对于此示例，请选择 **[!UICONTROL 名称]**.
-   1. 对于运算符，选择 [!UICONTROL 包含（区分大小写）]. 这允许模块查找名称中包含您选定字词的项目，即使您未输入完整名称或输入大小写不正确（例如全部大写）的名称，也是如此。
-   1. 在下的最后一个字段中 [!UICONTROL 搜索条件]，输入您知道位于所搜索项目名称中的单词或短语。
-
-1. 在 **[!UICONTROL 输出]** 列表中，选择要模块输出的字段。 对于此示例，请选择 **[!UICONTROL ID]** 和 **[!UICONTROL 名称]** 字段。
+1. 在[!UICONTROL 记录类型]框中，选择&#x200B;**[!UICONTROL 项目]**。 这将模块设置为仅搜索项目。
 
    >[!TIP]
    >
-   >您可以使用 **Cmd+F** ([!DNL Mac] OS)或 **Ctrl-F** ([!DNL Windows] OS)来快速查找字段。
+   >如果您开始输入“[!UICONTROL 项目]”，则可以在列表中找到&#x200B;**[!UICONTROL 项目]**。
 
-1. 单击 **[!UICONTROL 确定]**.
+1. 在&#x200B;**[!UICONTROL 结果集]**&#x200B;框中，选择&#x200B;**[!UICONTROL 第一个匹配记录]**。 这会将模块设置为仅返回它发现满足条件的第一个记录。 在本例中，我们只需要返回一个记录。
+1. 在&#x200B;**[!UICONTROL 搜索条件]**&#x200B;区域，我们将设置过滤器以返回特定项目：
+
+   | 字段 | 操作 |
+   |--------|-------------|
+   | 搜索条件字段 | 选择要搜索其值的字段。 对于此示例，请选择&#x200B;**[!UICONTROL 名称]**。 |
+   | 搜索条件 | 在第一个下拉菜单中，选择&#x200B;**[!UICONTROL 名称]**。 |
+   | 基本运算符 | 在第二个下拉菜单中，选择[!UICONTROL 包含（不区分大小写）]。 这允许模块查找名称中包含您选定字词的项目，即使您未输入完整名称或输入大小写不正确（例如全部大写）的名称，也是如此。 |
+   | 文本框 | 输入您知道位于要搜索的项目名称中的单词或短语。 |
+
++++ 展开以查看屏幕上的示例。
+   ![](assets/search-name.png)
++++
+
+1. 在&#x200B;**[!UICONTROL 输出]**&#x200B;列表中，选择要模块输出的字段。 对于此示例，请选择&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Name]**&#x200B;字段。
+
+   >[!TIP]
+   >
+   >您可以使用&#x200B;**Cmd+F** （[!DNL Mac]操作系统）或&#x200B;**Ctrl-F** （[!DNL Windows]操作系统）快速查找字段。
+
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
    >[!NOTE]
    >
-   >（仅供参考）由于这不是触发器模块，因此您不会选择从何处启动它。 使用触发器模块时，您现在可以选择从何处启动它。
+   >由于这不是触发器模块，因此您不会选择从何处启动它。 使用触发器模块时，您现在可以选择从何处启动它。
    >
    >
-   >有关更多信息，请参阅 [选择触发器模块的开始位置 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+   >有关详细信息，请参阅[选择触发器模块在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)中的开始位置。
 
-1. 右键单击模块，然后单击 **[!UICONTROL 重命名]**，然后键入描述您希望模块执行的操作的名称（例如“搜索项目”），然后单击 **[!UICONTROL 确定]**.
+1. 右键单击该模块，单击“**[!UICONTROL 重命名]**”，键入描述您希望该模块执行的操作的名称（如“搜索项目”），然后单击“**[!UICONTROL 确定]**”。
 
-   该名称显示在模块正下方。 在那个下面， [!DNL Workfront Fusion] 简要说明模块执行的操作类型。
+   该名称显示在模块正下方。 在其下方，[!DNL Workfront Fusion]包含模块执行的操作类型的简要说明。
 
    ![](assets/module-renamed-wf.png)
 
-1. 继续 [添加并配置第二个模块](#add-and-configure-the-second-module).
+1. 继续[添加并配置第二个模块](#add-and-configure-the-second-module)。
 
-## 添加并配置第二个模块
+### 4.添加并配置第二个模块
 
-1. 单击模块右侧的部分圆圈可 **[!UICONTROL 添加另一个模块]**.
-1. 选择 [!DNL Workfront] 从应用程序列表中选择搜索模块 **[!UICONTROL 读取相关记录]**.
-1. 您已创建与的连接 [!DNL Workfront] 用于上一模块。 您无需在此处再次创建它，但必须确保此模块使用与上一个模块相同的连接。\
-   在 **[!UICONTROL 连接]** 框中，选择您为上一模块创建的连接。
-1. 单击 **[!UICONTROL 记录类型]**，然后选择 **[!UICONTROL 项目]**，因为我们希望读取与项目相关的记录。
+1. 单击模块右侧的部分圆圈以&#x200B;**[!UICONTROL 添加另一个模块]**。
+1. 从应用程序列表中选择[!DNL Workfront]，然后选择搜索模块&#x200B;**[!UICONTROL 读取相关记录]**。
+1. 在&#x200B;**[!UICONTROL 连接]**&#x200B;框中，选择您为上一个模块创建的连接。 您必须确保此模块使用的连接与上一个模块相同。
+1. 单击&#x200B;**[!UICONTROL 记录类型]**，然后选择&#x200B;**[!UICONTROL 项目]**，因为我们要读取与项目相关的记录。
 
    >[!TIP]
    >
-   >您可以找到 **[!UICONTROL 项目]** 在列表中输入“project”一词。
+   >如果您开始输入“项目”，则可以在列表中找到&#x200B;**[!UICONTROL 项目]**。
 
-1. 单击 **[!UICONTROL 父记录编号]** 字段。 此字段要求您想要从中返回任务的项目的Workfront ID。
+1. 单击&#x200B;**[!UICONTROL 父记录ID]**&#x200B;字段。 此字段要求您想要从中返回任务的项目的Workfront ID。
 
-   单击字段会打开可在以下位置使用的变量列表： **[!UICONTROL 父记录编号]** 用于标识Workfront中的项目的字段。
+   单击该字段将打开可在&#x200B;**[!UICONTROL 父记录ID]**&#x200B;字段中使用的变量列表，以标识Workfront中的项目。
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
-1. 单击变量 **[!UICONTROL ID]** 以将其添加到 **[!UICONTROL 父记录编号]** 字段。 这允许将从第一个模块返回的ID用作要在第二个模块中处理的项目的标识符，从而确保返回的任务将属于该项目。
-1. 在 **[!UICONTROL 收藏集]** 字段，选择 **[!UICONTROL 任务]**. 这表示模块将返回与所选项目关联的任务。
-1. 单击 **[!UICONTROL 确定]**
+1. 单击变量&#x200B;**[!UICONTROL ID]**&#x200B;以将其添加到&#x200B;**[!UICONTROL 父记录ID]**&#x200B;字段。 这允许将从第一个模块返回的ID用作要在第二个模块中处理的项目的标识符，从而确保返回的任务将属于该项目。
+1. 在&#x200B;**[!UICONTROL 收藏集]**&#x200B;字段中，选择&#x200B;**[!UICONTROL 任务]**。 这表示模块将返回与所选项目关联的任务。
+1. 在&#x200B;**[!UICONTROL 输出]**&#x200B;字段中，选择&#x200B;**[!UICONTROL Id]**&#x200B;和&#x200B;**[!UICONTROL Name]**。
+1. 单击&#x200B;**[!UICONTROL 确定]**
 
    现在您有一个可行的方案。
 
-1. 为第二个模块命名，如“返回与项目关联的任务”，然后继续 [测试场景](#test-the-scenario).
+1. 为第二个模块命名，例如“返回与项目关联的任务”，然后继续[测试方案](#test-the-scenario)。
 
 ## 测试场景
 
@@ -215,7 +203,7 @@ ht-degree: 0%
 
 我们选择返回1个项目，以及与该项目关联的任务。 如果您运行场景，则应该发生这种情况。
 
-1. 单击 **[!UICONTROL 运行一次]** 位于场景编辑器的左下角。
+1. 在方案编辑器的左下角单击&#x200B;**[!UICONTROL 运行一次]**。
 1. 方案运行完毕后，单击第一个模块上方的气泡。
 
    ![](assets/click-bubble.png)
@@ -230,10 +218,10 @@ ht-degree: 0%
 
    您可在以下文章中了解有关如何读取场景执行信息的更多信息：
 
-   * 有关一般信息，请参阅 [中的方案执行流程 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * 有关已处理捆绑包的信息，请参阅 [场景执行、周期和阶段 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * 有关一般信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)中的[方案执行流程。
+   * 有关已处理捆绑包的信息，请参阅[方案执行、周期和 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)中的阶段。
 
-1. 在 [!DNL Workfront Fusion]，单击 **[!UICONTROL 保存]** ![](assets/save-icon.png) 左下角附近，保存场景的进度。
+1. 在[!DNL Workfront Fusion]中，单击左下角附近的&#x200B;**[!UICONTROL 保存]** ![](assets/save-icon.png)以保存方案进度。
 
    >[!IMPORTANT]
    >
@@ -243,24 +231,22 @@ ht-degree: 0%
 >
 >我们建议您选择添加有关每个模块的注释这一有用但可选的实践。
 >
->1. 右键单击 [!DNL Workfront] 模块，然后单击 **[!UICONTROL 添加注释]**.
+>1. 右键单击[!DNL Workfront]模块，然后单击&#x200B;**[!UICONTROL 添加备注]**。
 >1. 在显示的注释中，键入模块的概述。
 >
 >    您可以为一个模块添加多个注释。
 >
->1. 关闭 **[!UICONTROL 注释]** 区域。
+>1. 关闭&#x200B;**[!UICONTROL 注释]**&#x200B;区域。
 >
->     向方案添加注释后， **[!UICONTROL 注释]** 图标 ![](assets/notes-icon-w-dot.png) 位于方案编辑器的底部。
+>     向方案添加注释后，方案编辑器底部的&#x200B;**[!UICONTROL 注释]**&#x200B;图标![](assets/notes-icon-w-dot.png)上会显示一个橙色点。
 >
->1. 单击 **[!UICONTROL 注释]** 图标 ![](assets/notes-icon-w-dot.png) 查看您的备注。
+>1. 单击&#x200B;**[!UICONTROL 备注]**&#x200B;图标![](assets/notes-icon-w-dot.png)查看您的备注。
 >
-
-
 
 ## 激活方案
 
 此示例方案没有触发器模块。 如果您将这种情况用于实际数据，则它将以触发模块开头，您的最后一个操作是激活它。 在激活方案后，默认情况下，它每15分钟运行一次。 您可以通过定义运行的时间和频率来更改此设置。
 
-有关激活方案的详细信息，请参阅 [激活或停用中的方案 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+有关激活方案的详细信息，请参阅[在[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)中激活或停用方案。
 
-有关时间表的信息，请参阅 [在中计划方案 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+有关计划的信息，请参阅[在[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)中计划方案。
