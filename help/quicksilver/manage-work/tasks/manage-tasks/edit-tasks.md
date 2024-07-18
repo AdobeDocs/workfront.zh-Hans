@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '3662'
+source-wordcount: '3663'
 ht-degree: 3%
 
 ---
@@ -487,7 +487,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**添加自定义表单**，然后选择要与任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。
 
-   有关生成自定义表单的详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。 您最多可以向一个任务添加十个自定义表单。
+   有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。您最多可以向一个任务添加十个自定义表单
 
 1. （视情况而定）如果您将自定义表单附加到任务，请编辑表单上的任何字段。 在保存任务之前，必须指定所有必填字段。
 

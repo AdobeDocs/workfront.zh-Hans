@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * **更改描述性文本的大小**：您现在可以为描述性文本字段分配小型、中型或大型。 您还可以在同一行与其他字段一起使用它们。 <span style="color: #ff0000;">更改描述性文本的大小已暂时延迟，但即将推出。</span></li>
 
-有关详细信息，请参阅[表单设计器概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)。
+有关详细信息，请参阅[自定义表单概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

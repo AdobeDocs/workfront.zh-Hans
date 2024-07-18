@@ -2,9 +2,9 @@
 title: 向自定义表单添加显示逻辑和跳过逻辑
 description: 向自定义表单添加显示逻辑和跳过逻辑
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 0%
   如果您添加了大量此用户不需要查看的与徽标、网站更新和小册子有关的其他字段，这会特别有用。
 跳过逻辑规则只能应用于自定义字段，而不能应用于小部件或部分。
 
-有关自定义表单中的自定义字段和小部件的信息，请参阅[将自定义字段添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)和[在自定义表单中添加或编辑资源小部件](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 
 ## 访问要求
 

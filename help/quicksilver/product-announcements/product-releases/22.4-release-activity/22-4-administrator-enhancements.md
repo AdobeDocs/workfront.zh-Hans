@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ ht-degree: 0%
 >此功能在22.3版本发布时间范围内首次引入到“预览”环境中。 它会随22.4版一起发布到生产环境。
 
 现在，编辑自定义字段的计算更加容易，并可在计算中直接指示有用的错误信息。 在自定义表单中创建计算字段时，错误将以粉红色突出显示。 将鼠标悬停在突出显示的部分上时，将显示工具提示以描述问题所在。
-
-有关详细信息，请参阅[将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

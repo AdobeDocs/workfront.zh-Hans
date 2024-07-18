@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在即将到来的7月15日当周版本（24.7版本）中，表单设计器将正式可用，并将成为在Adobe Workfront中创建和编辑自定义表单的默认体验。 旧版表单生成器将不再可用。 我们建议您立即切换到表单设计器并利用其功能。
+>自2024年7月18日发行的24.7版本起，旧版表单生成器将不再可用。 表单设计器现在是在Adobe Workfront中创建和编辑自定义表单的默认体验。
 >
 >有关信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
->
->旧版表单生成器已于2024年6月19日从预览环境中删除，并将于7月发布24.7版本时从生产环境中删除。
 
 ## 将权限组与团队关联 {#right-group-team}
 

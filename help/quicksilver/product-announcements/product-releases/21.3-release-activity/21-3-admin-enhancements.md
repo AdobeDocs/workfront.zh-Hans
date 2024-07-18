@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Workfront管理员还可以执行以下操作（针对所有组）。
 ## 管理员的新增功能：创建开票记录自定义表单
 
 现在，您可以通过创建账单记录自定义表单，改进用户捕获账单信息的方式。 用户可以将自定义表单附加到账单记录中，填写并运行在表单中包含信息的报表。
-
-有关创建自定义表单的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
-
-有关将记帐记录自定义表单附加到项目的信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
-

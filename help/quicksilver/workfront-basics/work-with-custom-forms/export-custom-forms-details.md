@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    具有附加自定义表单和编辑表单上信息的正确访问权限。
 
-有关创建自定义表单的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 有关将表单附加到对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
    >   * 当您的组或Workfront管理员取消选择概述区域中的所有字段并且对象附加了自定义表单时，概述部分不显示。
    >   * 当您的组或Workfront管理员取消选择概述区域中的所有字段，并且对象没有附加自定义表单时，导出下拉菜单不可见。
    >   * 当对象未附加自定义表单时，您只能导出概述区域。
-   >   * 逻辑落后且在表单上不可见的自定义字段不导出。 有关向自定义表单添加逻辑的信息，请参阅[向自定义表单添加显示逻辑和跳过逻辑](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)。
+   >   * 逻辑落后且在表单上不可见的自定义字段不导出。 有关向自定义表单添加逻辑的信息，请参阅[向表单添加显示逻辑和跳过逻辑](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
    >   
    >
 

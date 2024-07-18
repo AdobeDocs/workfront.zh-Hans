@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 4%
    >
    >删除自定义表单也会删除与表单关联的对象上的所有自定义数据。 无法恢复已删除的数据。 请考虑改为停用自定义表单 — 在停用不再使用的自定义表单时，将保留所有关联的历史数据。
    >
-   >有关详细信息，请参阅[删除自定义表单上的对象类型](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)。
+   >有关详细信息，请参阅[从现有自定义表单中添加或删除对象类型](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)和[停用或重新激活自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)。
 
 
 1. 接下来，您可以开始向自定义表单添加字段。 请参阅以下部分：

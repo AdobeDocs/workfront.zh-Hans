@@ -7,9 +7,9 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>要编辑自定义表单的对象的Contribute或更高权限</p> </li> 
-     <li>查看要编辑的字段的权限。 有关共享自定义字段权限的信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</li> 
+     <li>查看要编辑的字段的权限。 有关共享自定义字段权限的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</li> 
      <li> <p>编辑表单上要编辑的字段所在区域的权限</p> </li> 
     </ul> <p>有关请求对象的其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-* 您的Workfront管理员或对自定义表单具有管理访问权限的计划用户必须在您的环境中创建自定义表单。 有关详细信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+* 您的Workfront管理员或对自定义表单具有管理访问权限的计划用户必须在您的环境中创建自定义表单。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 您必须将自定义表单附加到对象。
 
   有关如何将自定义表单应用于对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
@@ -91,7 +91,7 @@ ht-degree: 0%
    * 仅当创建表单的用户将文本字段（粗体、斜体或下划线）设置为具有格式字段类型的文本字段时，您才可以设置文本字段的格式。 单行文本字段和段落文本字段无法格式化。
    * 仅当创建表单的用户在创建日期字段时包含该时间时，您才可以更新日期字段类型中的时间。
 
-   有关所有字段类型的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+   有关所有字段类型的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 单击&#x200B;**保存更改**。
 

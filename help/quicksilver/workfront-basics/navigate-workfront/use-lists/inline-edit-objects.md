@@ -6,9 +6,9 @@ description: 当对象显示在列表或报表中时，您可以内联编辑对�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果自定义字段已配置为允许设置格式，则在更新列表中内联编辑该字段时，您可以对文本使用粗体、斜体或下划线。\
-   >有关为自定义字段配置格式的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。\
+   >如果自定义字段已配置为允许设置格式，则在更新列表中内联编辑该字段时，您可以对文本使用粗体、斜体或下划线。
+   >有关为自定义字段配置格式的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    >有关更新列表的信息，请参阅[在 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中开始使用列表一文中的“更新列表与旧列表之间的差异”部分。
 
 1. 按[!UICONTROL Tab]移至下一个可编辑的单元格。

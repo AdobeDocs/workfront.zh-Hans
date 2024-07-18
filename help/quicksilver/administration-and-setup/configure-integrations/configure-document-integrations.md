@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 1%
 您可以将同一[!DNL Workfront]字段映射到各种[!DNL Workfront DAM]字段，但不能对多个[!DNL Workfront]字段使用同一[!DNL Workfront DAM]字段。
 
 如果您必须配置多个[!DNL Workfront]字段以导出到一个[!DNL Workfront DAM]字段，请先在[!DNL Workfront]中创建计算自定义字段以显示对象的所有单个自定义字段。 然后，将计算的[!DNL Workfront]字段映射到一个[!DNL Workfront DAM]字段。\
-有关计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+有关计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 该映射会影响任何用户从[!DNL Workfront]上传到[!UICONTROL Workfront] DAM的所有文档。
 

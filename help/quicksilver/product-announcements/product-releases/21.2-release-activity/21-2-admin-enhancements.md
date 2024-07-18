@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,4 @@ ht-degree: 0%
 ## 管理员的新增功能：自定义表单字段中提供了更多文本格式选项
 
 当用户键入允许设置格式的自定义表单字段时，除了粗体、斜体和下划线外，他们现在还可以使用项目符号、编号、超链接和块引号来组织文本。
-
-有关详细信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 

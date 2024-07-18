@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 1%
 
 ---
@@ -176,8 +176,8 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
      <li> <p><strong>coreAction</strong> </p> <p>添加了以下possibleValues：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>添加了以下possibleValues：</p> 
       <ul> 
@@ -247,8 +247,8 @@ AccessLevelPermissions对象表示访问、创建或修改Workfront对象的特�
      <li> <p style="font-weight: bold;">操作</p> <p>添加了以下possibleValues：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ AccessRule对象表示自定义访问级别中的规则集，该规则集确定�
      <li><strong>coreAction</strong> <p>添加了以下possibleValues：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">配置自定义字段和小部件的共享</a>。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>添加了以下possibleValues：</p> 
       <ul> 
@@ -618,7 +618,7 @@ Parameter对象是一个自定义字段。
 
 Parameter资源添加了标记SHARABLE。
 
-有关自定义字段的详细信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)。
+有关自定义字段的详细信息，请参阅[创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)中的[创建或编辑自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ QueueDef对象表示队列，这是一个已发布到技术支持区域以允许
      <li><strong>requestorCoreAction</strong> <p>添加了以下possibleValues：</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>具有包括此权限的访问级别的用户可以在工作负载均衡器中更新计划的小时数。</p> <p>有关详细信息，请参阅<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">管理工作负载均衡器</a>中的管理用户分配</a>中的<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">更新任务规划小时数。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>中的<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>。</p> </li> 
-       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> <p>有关详细信息，请参阅<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">配置自定义字段和小部件的共享</a></p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>添加了以下possibleValues：</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>具有包含此权限的访问级别的用户可以将字段添加到自定义表单。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">创建或编辑自定义表单</a>。</p> </li> 
+       <li> <p>EDIT_SYSTEM范围 </p> <p>具有包含此权限的访问级别的用户可以在系统范围内使用“删除”权限共享自定义字段。</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

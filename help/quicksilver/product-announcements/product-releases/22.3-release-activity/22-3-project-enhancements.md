@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ ht-degree: 0%
 ## 自定义字段中计算的新语法
 
 为了准备可帮助您将计算添加到自定义表单的未来增强功能，我们已将您添加到计算的引用字段的语法标准化。 使用此新语法很容易，因为当您开始键入字段名称并选择它时，系统会为您输入此语法。
-
-有关详细信息，请参阅[将计算数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)一文中的“为计算自定义字段构建计算”部分。
 
 ## 在审批流程中涉及具有共同角色的两个用户时保留准确的信息
 

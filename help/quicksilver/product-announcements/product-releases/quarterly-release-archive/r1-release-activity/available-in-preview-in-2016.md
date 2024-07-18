@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ ht-degree: 0%
 您现在可以通过授予个人用户、团队、角色、组或公司的访问权限来控制谁有权访问自定义表单。 
 
 在此更改之前，您只能向组授予访问权限。
-
-有关详细信息，请参阅[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## 与Adobe Creative Cloud集成
 

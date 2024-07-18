@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ht-degree: 0%
 
 我们将继续帮助您通过可添加的新资产小组件（如图像和视频）使自定义表单更可视化、信息化。 现在，您可以将指向PDF文件的链接添加到自定义表单。 将表单附加到对象后，使用该对象的用户可以从表单中查看该PDF并与之交互。
 
-有关详细信息，请参阅[在自定义表单中添加或编辑图像或其他资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
-
 ## 自定义表单字段计算编辑器显示错误信息
 
 >[!NOTE]
@@ -63,8 +61,6 @@ ht-degree: 0%
 >此功能暂时不可用。 当该功能可用时，将更新此页面。
 
 现在，编辑自定义字段的计算更加容易，并可在计算中直接指示有用的错误信息。 在自定义表单中创建计算字段时，错误将以粉红色突出显示。 将鼠标悬停在突出显示的部分上时，将显示工具提示以描述问题所在。
-
-有关详细信息，请参阅[将计算的数据添加到自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 项目标题自定义
 
@@ -111,6 +107,4 @@ ht-degree: 0%
 现在，您可以通过添加视频为自定义表单提供信息、视觉趣味和创意的新模式。 当表单附加到对象时，使用该对象的用户可以随时播放视频。
 
 以前，您只能将基于文本的字段和图像添加到自定义表单。
-
-有关详细信息，请参阅[在自定义表单中添加或编辑图像或视频资源小组件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)。
 

@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2131'
+source-wordcount: '2128'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 0%
 
    字段的值是报表中显示的名称，例如，而名称显示在附加到对象的自定义表单中。
 
-   有关详细信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+   有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
    * **`setParameterID`** =与&#x200B;_品牌_&#x200B;自定义字段对应的选项的&#x200B;**`setParameterID`**&#x200B;为1，与&#x200B;_媒体_&#x200B;对应的选项的**`setParameterID`**为2。 `PARAM`和`POPT`工作表相互交叉引用，以指示哪些选项属于哪个自定义字段。
    * **`setDisplayOrder`**=显示顺序列指示选项在自定义字段中的显示顺序。 您可以从1开始并按升序继续所有选项，无论它们属于哪个字段。 这里的重要事项是为每个选项设置唯一的数字。
-   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+   * **`setLabel`**&#x200B;和**1}列通常包含相同的信息，它们应反映Workfront UI中所需的名称。 `**setValue`选项的值是报表中显示的名称，例如，而标签在附加到对象时显示在自定义表单中。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =如果您希望隐藏任何选项，请输入`TRUE`。
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -265,7 +265,7 @@ ht-degree: 0%
    >您导入的新表单和字段尚未连接。 表单导入时没有自定义字段。 您必须手动将字段添加到新自定义表单或其他现有自定义表单。
 
 
-   有关将字段添加到自定义表单的信息，请参阅[将自定义字段添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)。
+   有关向自定义表单添加字段的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （视情况而定）如果导入失败，您将收到一条错误消息，说明问题所在。 尝试确定问题所在的字段、工作表和行号，并更正Excel文件中的信息，然后再次尝试导入文件。
 

@@ -6,9 +6,9 @@ description: 为了高效地查找工作项并专注于您管理的用户或项�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 0%
 
       >[!IMPORTANT]
       >
-      >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关标签与自定义字段名称之间差异的信息，请参阅[创建或编辑自定义表单](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+      >引用自定义字段时，必须键入字段名称而非字段标签。 字段标签显示在附加到对象的自定义表单上。 有关自定义字段的标签和名称之间的差异的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    1. （视情况而定）如果您单击&#x200B;**浏览字段**，请在&#x200B;**搜索**&#x200B;字段中键入字段的名称，并在该字段显示在列表中时将其选定。
 

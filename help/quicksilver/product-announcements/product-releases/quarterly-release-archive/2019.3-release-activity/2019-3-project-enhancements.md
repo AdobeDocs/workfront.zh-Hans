@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 或者，如果您已创建单行文本字段，则可以将其更改为段落文本字段。 这两种字段显示类型可以互换。
 
 以前，要更改自定义字段的显示类型，您必须创建新字段并删除旧字段。 这需要传输数据，而这通常非常耗时。
-
-有关详细信息，请参阅文章[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)中的[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ ht-degree: 0%
 我们在自定义表单生成器中创建了一种名为Typeahead的新字段类型。 此字段允许您向自定义表单添加表示对象的字段。 目前，User对象已启用Typeahead，而其他对象将在未来启用。
 
 以前，管理员必须在自定义表单下拉菜单中手动将用户作为单个选项进行维护。
-
-有关详细信息，请参阅[创建或编辑自定义表单](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
 
 >[!NOTE]
 >

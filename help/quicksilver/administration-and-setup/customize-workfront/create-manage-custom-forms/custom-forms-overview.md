@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ ht-degree: 7%
 
 ## 如何创建自定义表单
 
-有两个选项可在[!DNL Workfront]中创建自定义表单。 您可以使用旧版自定义表单生成器或新的表单设计器：
+表单设计器具有画布样式的工作区，允许您同时查看字段、画布和字段设置。 它还允许您在设计表单时拖放部分中的字段。
 
-* [旧版自定义表单生成器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [表单设计器](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+![示例表单设计器](assets/form-designer-example.png)
 
 ## 自定义字段和小部件
 
@@ -42,15 +43,17 @@ Workfront为每种对象类型提供了许多内置字段。
 
 您可以在Workfront中将以下类型的自定义字段添加到自定义表单：
 
-* 表单设计器中的单行文本字段或单行文本
-* 表单设计器中的段落文本字段或段落文本
-* 表单设计器中带格式的文本字段或带格式的文本
+* 单行文本
+* 段落文本
+* 带格式文本
 * 下拉
-* 外部查找 — 仅在表单设计器中可用
+* 多选下拉框
+* 外部查找
+* 原生字段
 * 键盘缓冲
 * 已计算
-* 表单设计器中的日期或日期字段
-* 复选框
+* 日期字段
+* 复选框组
 * 单选按钮
 * 说明文本
 * 分节符
@@ -58,6 +61,10 @@ Workfront为每种对象类型提供了许多内置字段。
 * 图像
 * PDF
 * 视频
+
+>[!NOTE]
+>
+>要跟踪更新馈送中的字段更改，请转到“设置”>“界面”>“更新馈送”。 有关详细信息，请参阅[配置系统更新](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 
 ## 用户可以附加自定义表单的对象
 
@@ -81,5 +88,4 @@ Workfront为每种对象类型提供了许多内置字段。
 有关将自定义表单附加到对象的详细信息，请参阅[将自定义表单添加到对象](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
 有关转换对象时自定义表单发生什么情况的信息，请参阅[转换对象时传输自定义表单数据](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
-
 

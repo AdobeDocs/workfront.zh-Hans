@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. 转到您选择启用为帮助请求队列的项目以及要创建新队列主题的位置。\
    有关如何将项目指定为帮助请求队列的详细信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自定义表单</strong> </td> 
-      <td>选择要与队列主题关联的任何自定义表单。 必须先创建问题的自定义表单，然后才能将问题与队列主题关联。 有关创建自定义表单的信息，请参阅<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">创建或编辑自定义表单</a>。</td> 
+      <td>选择要与队列主题关联的任何自定义表单。 必须先创建问题的自定义表单，然后才能将问题与队列主题关联。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>默认批准</strong></td> 

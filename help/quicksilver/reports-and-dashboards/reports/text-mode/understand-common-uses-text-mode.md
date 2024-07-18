@@ -6,7 +6,7 @@ description: 文本模式的常见用途概述
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ For additional real-life text mode examples that other Workfront customers might
 
 您可以使用文本模式将计算的自定义字段添加到自定义表单。
 
-有关将计算自定义字段添加到自定义表单的更多信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
+有关将计算自定义字段添加到自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-有关在文本模式下创建计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+有关在文本模式下创建计算自定义字段的详细信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 例如，您可以添加计算自定义字段，以显示项目被标记为“进行中”时的时间和日期戳。 您可以将此计算用于其他状态。
 

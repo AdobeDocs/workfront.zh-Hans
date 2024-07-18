@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 自定义Forms区域具有新外观，该区域与新Workfront Experience中的许多其他区域一起处于最新状态。
 
-有关创建自定义表单的信息，请参阅[创建或编辑自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)。
-
 ## 创建计算自定义字段的诸多增强功能
 
 现在，通过在新的计算编辑器中添加以下内容，可更轻松地创建计算自定义字段：
@@ -70,8 +68,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 您可以使用现有对象预览计算结果，而无需离开计算编辑器。
 
 此外，在可自定义的“说明”中，将计算自定义字段的文本悬停在上，您可以显示或隐藏该字段的公式。 如果您认为填写自定义表单的用户不需要该信息，这将很有用。
-
-有关创建计算自定义字段的详细信息，请参阅[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 查看有关状态和公司的审核日志信息
 
@@ -108,8 +104,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 我们将继续让您更轻松地在自定义表单中创建计算字段。 现在，当您单击“最大化”打开新的计算编辑器时，您可以查找并选择所需的表达式和字段。
 
-有关详细信息，请参阅[将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
-
 ## 组可以配置自己的时间表和小时首选项
 
 >[!NOTE]
@@ -144,8 +138,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 ## 用于创建计算字段的较大区域
 
 现在，在自定义表单中构建复杂的计算字段变得更加容易。 单击新的“最大化”按钮，打开一个用于构建计算的大型编辑窗口。 完成后，单击“最小化”以继续处理自定义表单。
-
-有关详细信息，请参阅[将计算的数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
 
 ## 将自定义表单添加到组
 

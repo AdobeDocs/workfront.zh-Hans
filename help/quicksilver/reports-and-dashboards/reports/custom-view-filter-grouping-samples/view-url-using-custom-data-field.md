@@ -7,9 +7,9 @@ description: 您可以使用任务视图中名为“自定义URL”的计算自�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 创建“自定义URL”计算自定义字段
 
-有关创建计算自定义字段的信息，请参阅文章[将计算数据添加到自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)。
+有关创建计算自定义字段的信息，请参阅[将计算字段添加到表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
 
 如果您有创建自定义表单的权限，则可以为名为“自定义URL”的任务创建计算自定义字段。 此字段直接链接到&#x200B;**任务详细信息**&#x200B;选项卡中的&#x200B;**概述**&#x200B;子选项卡。
 

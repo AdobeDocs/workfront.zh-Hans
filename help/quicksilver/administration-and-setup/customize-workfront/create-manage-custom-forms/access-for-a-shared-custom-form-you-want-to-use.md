@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: 访问，共享，自定义，表单
 navigation-topic: create-and-manage-custom-forms
-title: 访问要使用的共享自定义字段
+title: 访问共享的自定义字段
 description: 当有人共享具有“查看”或“管理”访问权限的自定义字段时，他们可以配置多个其他设置以进一步定义该访问权限。 如果您是字段的接收者，这些设置会影响您可以使用该字段执行的操作。 在查看该字段时，您可能会看到以下内容。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# 访问要使用的共享自定义字段
+# 访问共享的自定义字段
 
 当有人共享具有“查看”或“管理”访问权限的自定义字段时，他们可以配置多个其他设置以进一步定义该访问权限。 如果您是字段的接收者，这些设置会影响您可以使用该字段执行的操作。 在查看该字段时，您可能会看到以下内容。
 
-有关用户在共享自定义表单时如何配置共享设置的详细信息，请参阅[配置自定义字段和小部件的共享](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)。
+有关用户在共享自定义表单时如何配置共享设置的详细信息，请参阅[为表单中的自定义字段和小组件配置共享](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)。
 
 <table style="table-layout:auto"> 
  <col> 
