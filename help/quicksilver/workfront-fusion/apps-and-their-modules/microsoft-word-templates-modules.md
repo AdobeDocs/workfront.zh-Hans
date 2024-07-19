@@ -105,14 +105,14 @@ ht-degree: 0%
 简单值标记被简单地替换为相应的值。 标记的名称与[!UICONTROL 键]字段的值相对应，该字段的值放在双大括号内；例如，
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 。
 
 **示例：**&#x200B;要创建显示“Hi， Petr！”的文档，您可以使用[!DNL Microsoft Word Template]模块创建以下模板：
 
-<pre>&gt; {{name}}，您好！</pre>
+<pre>&gt; &lbrace;&lbrace;name&rbrace;&rbrace;，您好！</pre>
 
 为此，您需要按如下方式设置模块：
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 您可以使用条件标记对文本进行换行，这些文本仅在满足某些条件时才应呈现。 要换行文本，请将文本置于开始和结束条件标记之间，例如“hasPhone”（如果条件为数据是否包含电话号码）。 开始标记的名称前面加有井号#，结束标记的名称前面加有斜杠/，如下面的示例所示。
 
 **示例：**&#x200B;若要在输入数据包含电话号码但没有电子邮件地址的情况下生成包含客户电话号码的文档，您可以使用[!DNL Microsoft Word Template]模块并创建以下模板：
-<pre>&gt; {{#hasPhone}}电话： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}电子邮件： {{email}} {{/hasEmail}}</pre>为此，您需要按如下方式设置模块：
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;电话： &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;电子邮件： &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>为此，您需要按如下方式设置模块：
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **示例：**&#x200B;要生成列出客户列表中每个联系人的姓名和电话号码的文档，您可以使用[!DNL Microsoft Word Template]模块并创建以下模板：
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}，{{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;，&lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 为此，您需要按如下方式设置模块：
 
