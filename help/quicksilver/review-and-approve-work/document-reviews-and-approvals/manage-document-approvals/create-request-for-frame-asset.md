@@ -6,7 +6,7 @@ title: “为Frame.io资产创建审阅或批准请求”
 description: 您可以为Frame.io连接的资产创建审阅或批准请求。
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. 向下滚动到&#x200B;**审批**&#x200B;部分，然后单击&#x200B;**添加**。
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 

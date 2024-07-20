@@ -6,9 +6,9 @@ description: 创意人员可以将需要审核的资源添加到Frame.io中，�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 创意人员可以将需要审核的资源添加到Frame.io中，并将它们发送到Workfront进行正式审核和批准。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -52,6 +54,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

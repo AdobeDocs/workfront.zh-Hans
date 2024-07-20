@@ -6,9 +6,9 @@ description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ ht-degree: 0%
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 从文档页面创建文档审阅或审批请求
 

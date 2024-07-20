@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * 正在校对{#proofing}
       * [验证：文章索引](review-and-approve-work/proofing/proofing.md)
       * 校对概述{#proofing-overview}
-         * [校对概述](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [验证概述：文章索引](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [校对权限配置文件概述](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [验证角色概述](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自动化工作流概述](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [校对进度和状态概述](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web验证查看器和桌面验证查看器的区别概述](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * 创建验证{#create-proofs}
-         * [创建验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [创建验证：文章索引](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [配置个人校对默认值](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [创建多页验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [为网站或其他Web内容创建交互式验证](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [使用基本工作流创建高级验证](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [使用自动化工作流创建高级验证](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * 在Adobe Workfront {#manage-proofs-in-workfront}中管理校样
-         * [在Adobe Workfront中管理验证](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [在Adobe Workfront中管理验证：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * 管理校样{#manage-proofs}
-            * [管理校样](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [管理校样：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [编辑校对设置](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [在Adobe Workfront中打印验证摘要](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [删除验证](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [使用验证审批报告](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [从Adobe Workfront访问Workfront Proof](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 管理校对版本{#manage-proof-versions}
-            * [管理验证版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [管理校对版本：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [创建新版本的验证](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [查看校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [查看和管理校对版本详细信息](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [下载校对版本](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * 管理校对审阅人{#manage-proof-reviewers}
-            * [管理校对查看者](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [管理校对审阅人：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [配置验证的访问和订阅设置](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [在Adobe Workfront中共享验证](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [向审核者发送有关验证的电子邮件](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * 管理校对通知{#manage-proof-notifications}
-            * [管理校对通知](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [管理验证通知：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [管理验证评论和决策的通知](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * 管理校对截止日期{#manage-proof-deadlines}
-            * [管理校对截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [管理校对截止日期：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [设置现有基本验证的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [添加、编辑或删除阶段的截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [设置单个审阅人截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [删除单个审阅人截止日期](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * 管理自动验证{#manage-automated-proofs}
-            * [管理自动验证](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [管理自动验证：文章索引](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [在验证上查看自动化工作流暂存](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [查看验证上的活动阶段](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [为现有验证创建或编辑自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [将基本工作流转换为验证上的自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [将阶段和用户添加到验证上的自动工作流](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * 使用桌面校对查看器{#use-the-desktop-proofing-viewer}
-         * [使用桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [使用桌面校对查看器：文章索引](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [安装桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [更新桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [在桌面验证查看器中打开验证](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [在桌面校对查看器中查看非交互式内容](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [常见问题解答 — 桌面校对查看器](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * 在Adobe Workfront {#review-proofs-in-workfront}中查看校样
-         * [在Adobe Workfront中查看验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [在Adobe Workfront中查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * 查看校对{#review-a-proof}
-            * [审查验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [查看验证：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [在验证中查看内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [测量验证中的区域](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [更改视频验证中时间轴的测量单位](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [在验证查看器中更改交互式验证分辨率](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [配置校对查看器设置](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * 对校对的评论{#comment-on-a-proof}
-            * [对校样的评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [对验证的评论：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [对验证进行评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [查看并回复验证评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [搜索、过滤和排序校对评论](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [对验证评论使用操作](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [标记要共享验证的用户](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * 对验证{#make-decision-on-proof}做出决定
-            * [对验证做出决定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [对验证做出决定：文章索引](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [审批验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [在验证查看者中做出验证决策](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [更改有关验证的现有决策](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Adobe Workfront {#ttt-proofing-in-workfront}中校对的提示、技巧和疑难解答
-         * [Adobe Workfront中校对的提示、技巧和疑难解答](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Adobe Workfront中校对的提示、技巧和疑难解答：文章索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [在Adobe Workfront中列出具有验证许可证的用户](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [批量编辑校对权限配置文件字段](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [禁止通过公共URL或嵌入代码共享验证](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [上载后文档名称已更改并包含无效字符](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [校对带有嵌入视频的PowerPoint](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * 审批的提示、技巧和疑难解答{#ttt-approvals}
-      * [审批的提示、技巧和疑难解答](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [审批的提示、技巧和疑难解答：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [查看所有用户的验证和文档决策数](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 时间表{#timesheets}
    * [时间表：文章索引](timesheets/timesheets-all.md)

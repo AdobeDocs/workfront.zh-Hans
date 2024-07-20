@@ -6,9 +6,9 @@ description: 如果您被指定为文档的审批者，则可通过多种方式�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
+source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -51,6 +53,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 从主页审批文档
 

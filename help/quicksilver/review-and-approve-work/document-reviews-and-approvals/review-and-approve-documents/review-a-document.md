@@ -6,9 +6,9 @@ description: 作为审阅人，您可以预览已提交您审阅的文档。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
+source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 <!--
 ## Review a document from Home

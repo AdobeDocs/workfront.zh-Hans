@@ -6,16 +6,14 @@ description: 您可以创建批准模板以简化批准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
 
 # 创建资产和文档的审批模板
-
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 在Workfront设置区域中，具有Standard许可证的用户可以创建可靠的审批模板。 创建后，审批模板可应用于项目、任务或问题的文档区域中的资产。
 
@@ -24,6 +22,8 @@ ht-degree: 2%
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,6 +46,8 @@ ht-degree: 2%
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建审批模板
 

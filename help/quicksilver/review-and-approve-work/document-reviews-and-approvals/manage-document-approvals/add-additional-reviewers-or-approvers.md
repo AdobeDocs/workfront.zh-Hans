@@ -6,9 +6,9 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 从“文档详细信息”页面添加其他批准者或审阅者
 

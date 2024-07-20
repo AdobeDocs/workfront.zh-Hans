@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront中校对的提示、技巧和疑难解答
+title: “Adobe Workfront中校对的提示、技巧和疑难解答：文章索引”
 description: Adobe Workfront中校对的提示、技巧和疑难解答
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront中校对的提示、技巧和疑难解答
+# Adobe Workfront中校对的提示、技巧和疑难解答：文章索引
 
 本节包含以下文章：
 
