@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ 展开以查看Workfront Planning的访问要求。
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>任何</p>
+   <p>任意，用于查看Workfront规划信息</p>
    <p>要创建工作区，您必须具有以下许可证：</p>
    <ul>
    <li>
    新增：标准
    </li>
    <li>
-   当前：工作人员或更高版本
+   当前：计划
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Workfront Planning没有访问控制。
 
 拥有任何类型许可证的用户都可以访问Workfront Planning。
 
-有关在Workfront中授予访问权限的信息，请参阅[创建和修改自定义访问级别](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 授予权限
 

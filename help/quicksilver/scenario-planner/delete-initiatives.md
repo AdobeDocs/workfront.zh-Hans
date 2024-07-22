@@ -6,9 +6,9 @@ description: 您可以删除您创建的计划或他人与您共享的计划中�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 ### 批量删除计划 {#delete-initiatives-in-bulk}
 
-1. 单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击[!UICONTROL 方案]。
+{{step1-to-scenario-planner}}
 
-   此时将显示计划列表。
+此时将显示计划列表。
 
 1. 单击计划的名称以将其打开，然后找到要删除的方案。
 1. 选中要删除的方案左侧的框，然后在计划底部显示的菜单中单击&#x200B;**[!UICONTROL 删除]**，然后单击&#x200B;**[!UICONTROL 是，删除它们]**。

@@ -7,9 +7,9 @@ description: 滞后是指在强制前置任务完成后，直到相关任务可�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -26,36 +26,6 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ ht-degree: 0%
        <p>当前：计划 </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td role="rowheader">访问级别</td> 
    <td> <p>编辑对任务和项目的访问权限</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ ht-degree: 0%
 *有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-## 指示任务的滞后和滞后类型
-
-在定义任务的前置任务关系时，可以在任务上指示滞后类型。
-
-### 在任务的“前置任务”部分中指示滞后类型 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. 转到要为其定义前置任务和滞后类型的任务。
-1. 单击左侧面板中的&#x200B;**前置任务**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
-1. 单击&#x200B;**添加前置任务**。
-1. （可选）如果要添加跨项目前置任务，请将&#x200B;**父项目**&#x200B;名称替换为其他项目。
-1. 开始键入前置任务的名称，然后将其在列表中显示时选定。
-1. 选择&#x200B;**依赖关系类型**。
-
-   有关前置任务依赖关系类型的详细信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
-
-1. 使用数值指定&#x200B;**Lag**&#x200B;值。 您可以指定负数来指示负延迟。
-1. 从以下选项中进行选择，以确定要为前置任务指定的滞后类型：
-
-   * **天**
-   * **日历日**
-   * **百分比**
-   * 一周中的&#x200B;**天**
-   * 每周的&#x200B;**天（非零）**
-
-     有关这些Lag类型及其计算方式的更多信息，请参阅本文中的[Lag类型](#lag-types)部分。
-
-1. 单击&#x200B;**保存**。
-
-### 在任务列表中指示滞后类型  {#indicate-lag-types-in-a-task-list}
-
-1. 转到任务列表，然后选择&#x200B;**标准**&#x200B;视图。
-
-1. 单击与要为其指定前置任务和延迟量的任务对应的&#x200B;**前置任务**&#x200B;列。
-1. 输入以下内容（不含空格）：
-
-   * 要指定为所选任务的前置任务的任务编号
-   * 要在任务之间指示的依赖关系类型的缩写
-
-     有关依赖项类型缩写的详细信息，请参阅[任务依赖项类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
-
-   * 正滞后为&#x200B;**+**&#x200B;或负滞后为&#x200B;**-**
-
-   * 滞后时间
-   * 要使用的Lag类型的缩写
-
-     有关Lag类型的缩写的详细信息，请参阅本文中的[Lag类型](#lag-types)部分。
-
-   例如，要指示某个任务具有前置任务且正滞后时间为2天，您应在“前置任务”列中输入`1fs+2d`。
-
-1. 按键盘上的Enter键保存对任务所做的更改。
 
 ## 滞后类型 {#lag-types}
 
@@ -215,3 +134,54 @@ ht-degree: 0%
 
    * 在任务之间设置“完成 — 完成”前置任务关系。
    * 后续任务的持续时间应等于或超过任务之间预期滞后天数。
+
+## 指示任务的滞后和滞后类型
+
+在定义任务的前置任务关系时，可以在任务上指示滞后类型。
+
+### 在任务的“前置任务”部分中指示滞后类型 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. 转到要为其定义前置任务和滞后类型的任务。
+1. 单击左侧面板中的&#x200B;**前置任务**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**前置任务**。
+1. 单击&#x200B;**添加前置任务**。
+1. （可选）如果要添加跨项目前置任务，请将&#x200B;**父项目**&#x200B;名称替换为其他项目。
+1. 开始键入前置任务的名称，然后将其在列表中显示时选定。
+1. 选择&#x200B;**依赖关系类型**。
+
+   有关前置任务依赖关系类型的详细信息，请参阅[任务依赖关系类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
+
+1. 使用数值指定&#x200B;**Lag**&#x200B;值。 您可以指定负数来指示负延迟。
+1. 从以下选项中进行选择，以确定要为前置任务指定的滞后类型：
+
+   * **天**
+   * **日历日**
+   * **百分比**
+   * 一周中的&#x200B;**天**
+   * 每周的&#x200B;**天（非零）**
+
+     有关这些Lag类型及其计算方式的更多信息，请参阅本文中的[Lag类型](#lag-types)部分。
+
+1. 单击&#x200B;**保存**。
+
+### 在任务列表中指示滞后类型  {#indicate-lag-types-in-a-task-list}
+
+1. 转到任务列表，然后选择&#x200B;**标准**&#x200B;视图。
+
+1. 单击与要为其指定前置任务和延迟量的任务对应的&#x200B;**前置任务**&#x200B;列。
+1. 输入以下内容（不含空格）：
+
+   * 要指定为所选任务的前置任务的任务编号
+   * 要在任务之间指示的依赖关系类型的缩写
+
+     有关依赖项类型缩写的详细信息，请参阅[任务依赖项类型概述](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)。
+
+   * 正滞后为&#x200B;**+**&#x200B;或负滞后为&#x200B;**-**
+
+   * 滞后时间
+   * 要使用的Lag类型的缩写
+
+     有关Lag类型的缩写的详细信息，请参阅本文中的[Lag类型](#lag-types)部分。
+
+   例如，要指示某个任务具有前置任务且正滞后时间为2天，您应在“前置任务”列中输入`1fs+2d`。
+
+1. 按键盘上的Enter键保存对任务所做的更改。

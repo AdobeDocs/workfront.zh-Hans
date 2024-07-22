@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 管理小时类型
 description: 您可以将小时类型与小时条目关联。 小时类型是用于定义小时条目的标签。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '754'
+ht-degree: 1%
 
 ---
 
 # 管理小时类型
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL计划]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p>
+   <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 内置小时类型
 
@@ -85,7 +92,7 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑，也�
 
 要创建新小时类型，请执行以下操作：
 
-1. 单击[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 时间表和小时数]** > **[!UICONTROL 小时类型]**。
 
@@ -131,7 +138,7 @@ Workfront附带一组内置小时类型。 这些小时类型无法编辑，也�
 
 要停用小时类型，请执行以下操作：
 
-1. 单击全局导航栏上[!DNL Adobe Workfront]右上角附近的&#x200B;**[!UICONTROL 设置]**。
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**[!UICONTROL 工时表与小时首选项]**，然后单击&#x200B;**[!UICONTROL 小时类型]**。
 
