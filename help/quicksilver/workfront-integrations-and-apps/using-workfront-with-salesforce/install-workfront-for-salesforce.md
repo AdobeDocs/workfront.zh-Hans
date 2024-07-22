@@ -6,9 +6,9 @@ description: 若要在应用程序在 [!DNL Salesforce] AppExchange中可用之�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -197,3 +197,39 @@ ht-degree: 1%
 
    将[!DNL Workfront]部分添加到其[!UICONTROL Opportunity]或[!UICONTROL Account]页面布局后，[!UICONTROL Salesforce]用户可以使用[!DNL Workfront]应用。\
    有关为用户配置[!DNL Workfront]节的信息，请参阅[为 [!DNL Salesforce] 用户配置 [!DNL Adobe Workfront] 节](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)。
+
+## 为Workfront配置权限以进行Salesforce集成
+
+### `workfront_business`的权限
+
+1. 导航到&#x200B;**设置** > **安全性** > **受信任的URL**。
+1. 从列表中选择`workfront_business`。
+1. 单击&#x200B;**编辑**。
+1. 在CSP指令下，选中以下选项：
+
+   * connect-src（脚本）
+   * font-src（字体）
+   * frame-src（iframe内容）
+   * img-src（图像）
+   * media-src（音频和视频）
+   * style-src（样式表）
+
+1. 单击&#x200B;**保存**。
+
+
+### workfront_session的权限
+
+1. 导航到&#x200B;**设置** > **安全性** > **受信任的URL**。
+1. 从列表中选择`workfront_session`。
+1. 单击&#x200B;**编辑**。
+1. 在CSP指令下，选中以下选项：
+
+   * connect-src（脚本）
+   * font-src（字体）
+   * frame-src（iframe内容）
+   * img-src（图像）
+   * media-src（音频和视频）
+   * style-src（样式表）
+
+1. 单击&#x200B;**保存**。
+
