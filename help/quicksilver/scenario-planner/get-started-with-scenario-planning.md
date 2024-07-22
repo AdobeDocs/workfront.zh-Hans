@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 ## 在Workfront中找到[!DNL Workfront Scenario Planner]
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 方案]**。
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   将显示[!DNL Workfront Scenario Planner]。
+将显示[!DNL Workfront Scenario Planner]。
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner]包含您创建的计划。 如果您需要查看其他用户的计划，他们必须与您共享该计划的URL。
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner]包含您创建的计划。 如果您需要查看其他用户的计划，他们必须与您共享该计划的URL。
 
 1. （可选）单击计划的名称以将其打开并查看详细信息。
 

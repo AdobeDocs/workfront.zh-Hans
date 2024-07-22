@@ -7,16 +7,15 @@ description: Scenario Planner仅在新的Adobe Workfront Experience中可用，�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]中的计划概述
 
-[!DNL Scenario Planner]仅在新的[!DNL Adobe Workfront]体验中可用，并且需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
 作为业务经理，您可以在[!DNL Adobe Workfront Scenario Planner]中创建计划的计划。 有关创建计划的信息，请参阅文章[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)中创建和编辑计划。
 
 ## 计划概述

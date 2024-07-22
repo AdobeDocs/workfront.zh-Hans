@@ -7,9 +7,9 @@ description: 预计完成日期是一个实时计算指示器，指示项目、�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> 
    <p>新增： 
    <ul><li><p>参与者或更高版本以便在报告中查看预计完成日期</p></li> <li><p>用于创建报告的标准许可证</p></li> </ul>
@@ -47,7 +47,7 @@ ht-degree: 0%
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别</td> 
    <td> <p>查看项目或授予更高的项目访问权限</p> <p>您必须对报告、功能板和日历具有编辑权限才能创建报告</p> <p>您必须对筛选器、视图、分组具有编辑权限才能创建报告或修改列表视图</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## Adobe Workfront如何确定预计完成日期
 
@@ -85,7 +87,7 @@ ht-degree: 0%
   >当任务的前置任务具有实际完成日期时，相关任务将收到预计完成日期，如以下方案所述：
   >
   >
-  >如果项目具有任务A、任务B和任务C，并且任务B是任务A的后继任务，任务C是任务B的后继任务，并且任务A中添加了实际完成日期，则系统会自动为任务B重新计算预计完成日期（如果项目的&#x200B;**更新类型**&#x200B;设置为“自动”和“发生更改时”），但不会为任务C重新计算预计完成日期。目前，出于性能原因，Workfront会计算从更新任务中上移或下移一层的任务的预计完成日期。 
+  >如果项目具有任务A、任务B和任务C，并且任务B是任务A的后继任务，任务C是任务B的后继任务，并且任务A中添加了实际完成日期，则系统会自动为任务B重新计算预计完成日期（如果项目的&#x200B;**更新类型**&#x200B;设置为“自动”和“发生更改时”），但不会为任务C重新计算预计完成日期。目前，出于性能原因，Workfront会计算从更新任务中上移或下移一层的任务的预计完成日期。
 
 * **问题：**&#x200B;问题预计完成日期最初设置为与问题计划完成日期匹配。
 
@@ -119,9 +121,9 @@ ht-degree: 0%
 1. 选择&#x200B;**列（视图）**&#x200B;选项卡。
 1. 单击&#x200B;**添加列**，然后在&#x200B;**显示在此列：**&#x200B;字段中开始键入&#x200B;**预计完成日期**。
 
-1. 当它出现在列表中的&#x200B;**问题**&#x200B;对象下时，将其选中。 
+1. 当它出现在列表中的&#x200B;**问题**&#x200B;对象下时，将其选中。
 1. 单击&#x200B;**保存+关闭**。
 
-   已填充报表中的&#x200B;**预计完成日期**&#x200B;列。 
+   已填充报表中的&#x200B;**预计完成日期**&#x200B;列。
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

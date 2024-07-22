@@ -6,45 +6,58 @@ description: 您可以通过复制现有计划来创建计划。 您可以复制
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # 复制[!DNL Scenario Planner]中的计划
 
+<!--Audited: 07/2024-->
+
 您可以通过复制现有计划来创建计划。 您可以复制您创建的计划或他人与您共享的计划中的计划。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>计划*</b> </p> </td> 
-   <td>[！UICONTROL Business]或更高版本</td> 
+   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
+   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
+   <p>新增：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>许可证</b>*</p> </td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
+   <td> <p>新增：浅色或更高</p> 
+   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td><b>产品</b> </td> 
-   <td> <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关获取[!DNL Workfront Scenario Planner]的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td>产品* </td> 
+   <td> 
+   <p>对于当前Workfront计划： </p>
+   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>访问级别配置*</strong> </td> 
-   <td> <p>[！UICONTROL Edit]或更高版本对 [!DNL Scenario Planner]</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td>访问级别 </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>对象权限</strong> </p> </td> 
+   <td> <p>对象权限 </p> </td> 
    <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 复制计划
 
@@ -78,9 +91,9 @@ ht-degree: 0%
 
 ## 复制计划
 
-1. 单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击[!UICONTROL 方案]。
+{{step1-to-scenario-planner}}
 
-   此时将显示计划列表。
+此时将显示计划列表。
 
 1. 单击计划的名称以将其打开，然后找到要复制的计划。
 1. 选中要复制的一个或多个计划左侧的框，然后在计划底部显示的菜单中单击&#x200B;**[!UICONTROL 复制]**。

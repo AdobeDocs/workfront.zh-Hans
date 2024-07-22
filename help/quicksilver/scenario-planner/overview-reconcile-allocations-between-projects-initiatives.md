@@ -6,18 +6,14 @@ description: 在项目和计划之间协调资源分配概述
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # 在项目和计划之间协调资源分配概述
-
->[!IMPORTANT]
->
->您的组织必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证，以便您可以查看项目的计划信息。 有关获取[!DNL Workfront Scenario Planner]的信息，请参阅[使用Scenario Planner所需的访问权限](../scenario-planner/access-needed-to-use-sp.md) 。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>

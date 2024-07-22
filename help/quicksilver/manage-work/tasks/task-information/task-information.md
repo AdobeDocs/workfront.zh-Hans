@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [设置任务的跟踪模式](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [更新任务均衡延迟](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [更新任务成本类型](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [区分预计日期和预计日期](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [预计日期和预计日期概述](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [任务原始持续时间概述和原始计划小时数](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [任务计划持续时间和持续时间之间的差异](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

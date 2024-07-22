@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 1%
@@ -1316,7 +1316,7 @@ ht-degree: 1%
          * [为任务设置跟踪模式](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [更新任务均衡延迟](manage-work/tasks/task-information/task-leveling-delay.md)
          * [更新任务成本类型](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [区分预计日期和预计日期](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [预计日期和预计日期概览](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [任务原始持续时间和原始计划小时数概览](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [任务计划持续时间和持续时间之间的差异](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * 创建任务{#create-tasks}

@@ -7,9 +7,9 @@ description: 在访问Adobe Workfront目标之前，您的Adobe Workfront管理�
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ ht-degree: 0%
 
 根据贵公司当前使用的Workfront计划，存在以下情况：
 
-* 如果贵公司有新的Workfront计划，您必须具备以下任一项：
-
-   * 终极的Workfront计划。 Workfront目标包含在此计划中。
-   * 选择或更高版本Workfront计划和单独的Workfront Goals许可证。
+* 如果贵公司有新的Workfront计划，则必须有Ultimate Workfront计划。 Workfront目标仅包含在此计划中。
 
 * 如果贵公司当前采用Workfront计划，则除了Workfront许可证外，贵组织还必须购买其他许可证，以便您的用户能够访问Workfront目标。
 

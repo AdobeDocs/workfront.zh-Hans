@@ -7,33 +7,24 @@ description: Scenario Planner需要独立于Adobe Workfront的许可证和附加
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 使用[!DNL Scenario Planner]所需的访问权限
 
-[!DNL Scenario Planner]需要额外的许可证。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner]具有额外的许可证要求。 有关[!DNL Workfront Scenario Planner]的信息，请参阅[概述 [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 如果没有正确的访问权限或权限，您可能无法查看[!DNL  Adobe Workfront]的[!UICONTROL 方案]区域，也无法管理组织的计划或计划。 管理计划和计划包括创建、编辑和删除它们。
-
->[!IMPORTANT]
->
->访问[!UICONTROL 方案]时，您只能查看和管理您创建的计划。 如果要允许其他用户查看或管理您创建的计划，必须执行以下操作：
->
->* 向其他用户发送指向您的计划的链接
->* 与其他用户共享计划
->
->  有关共享计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共享计划。
->
->停用用户时，其计划没有所有者，除非之前与链接共享，否则无法访问。
 
 ## 查看和使用[!DNL Adobe Workfront Scenario Planner]所需的访问权限
 
@@ -43,13 +34,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    根据您使用的是新计划还是当前Workfront计划，您的组织必须具有以下任一项：
 
-   * 对于新计划，您的组织必须具有以下任一项：
-
-      * [!UICONTROL Ultimate] [!DNL Workfront]计划。 Scenario Planner包含在最终计划中。
-
-        或
-
-      * 除了购买单独的[!DNL Scenario Planner]许可证之外，还使用[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]计划。
+   * 对于新计划，您的组织必须具有[!UICONTROL Ultimate] [!DNL Workfront]计划。 Scenario Planner仅包含在[!UICONTROL Ultimate]计划中。
 
    * 对于当前的Workfront计划，您的组织必须同时具备以下两个条件：
 
@@ -133,7 +118,20 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 访问级别与[!DNL Workfront]中的权限配合使用，让您能够查看未创建的计划和计划。 除了具有访问[!DNL Scenario Planner]的正确访问级别之外，如果您不是计划的创建者，则还必须对要查看或管理的计划具有正确的权限。
 
-默认情况下，您只能访问您创建的计划。 要查看其他用户创建的计划，他们必须与您共享他们的计划。 有关共享计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共享计划。
+所有用户（包括系统管理员）只能访问他们创建的计划。
 
-如果用户共享指向计划的链接而没有共享该计划，则您可以请求对该计划的权限。 有关请求对计划的权限的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求对计划的访问权限。
+要查看其他用户创建的计划，他们必须通过以下方式与您共享他们的计划：
+
+* 与您共享计划
+
+  有关共享计划的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)中共享计划。
+
+* 发送指向他们创建的计划的链接
+
+  如果用户共享指向计划的链接而没有共享该计划，则您可以请求对该计划的权限。 有关请求对计划的权限的信息，请参阅[在 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)中请求对计划的访问权限。
+
+>[!NOTE]
+>
+>停用用户时，其计划没有所有者，除非之前与链接共享，否则无法访问。
+
 

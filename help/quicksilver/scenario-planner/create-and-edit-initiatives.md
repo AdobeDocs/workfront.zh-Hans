@@ -6,20 +6,22 @@ description: 使用Adobe Workfront Scenario Planner时，您可以在已创建�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Scenario Planner]中创建和编辑计划
 
+<!--Audited: 07/2024-->
+
 使用[!UICONTROL Adobe Workfront Scenario Planner]时，您可以在已创建或已与您共享的计划中创建计划。 通过创建计划，您可以显示较小的组织单位对计划完成的贡献。 例如，如果贵组织有计划在未来三年内向新市场扩展，则您可以在此计划内为每个部门创建计划，以估计每个部门完成此计划所需的人员和预算。
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td>[！UICONTROL Business]或更高版本</td> 
+   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
+   <p>新增：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 许可证* </p> </td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
+   <td> <p>新增：浅色或更高</p> 
+   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td>产品 </td> 
-   <td> <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。 </p> <p>有关获取[!DNL Workfront Scenario Planner]的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td>产品*</td> 
+   <td> 
+   <p>对于当前Workfront计划： </p>
+   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>访问级别配置* </td> 
-   <td> <p>[！UICONTROL Edit]或更高版本对 [!DNL Scenario Planner]</p> <p>如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td>访问级别 </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
@@ -48,7 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -71,7 +80,7 @@ ht-degree: 0%
 
 要从头开始创建计划，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击[!UICONTROL 方案]。
+{{step1-to-scenario-planner}}
 
 1. 单击要为其创建方案的计划的名称。
 1. 单击&#x200B;**[!UICONTROL 新计划]**&#x200B;左侧的&#x200B;**+图标**

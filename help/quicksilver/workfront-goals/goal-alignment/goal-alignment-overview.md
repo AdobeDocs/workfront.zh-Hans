@@ -7,33 +7,28 @@ description: 目标协调确保组织中的每个人在将目标相互协调并�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront目标中的目标对齐概述
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >您的组织必须具备以下条件才能使用本文中所述的功能：
-> 
+>
 >* 对于新计划和许可证结构：
+>
+>   * 最终Workfront计划
 >    
->   * 最终计划
->        
->     或
->        
->   * 适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。
->       有关详细信息，请参阅[Adobe Workfront定价和打包](https://www.workfront.com/plans)。
->      
 >* 对于当前计划和许可证结构：
->    
->   * Pro或更高版本[Adobe Workfront计划]
+>
+>   * Pro或更高版本Workfront计划
 >   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
->    
+>
 >请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 > 
 >有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。

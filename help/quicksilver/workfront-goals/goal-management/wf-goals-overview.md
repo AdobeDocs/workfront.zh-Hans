@@ -7,31 +7,29 @@ description: Workfront目标将战略与工作执行和交付联系起来，帮�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目标概述
 
-您的组织必须具备以下条件才能使用本文中所述的功能：
-
-* 对于新计划和许可证结构：
-
-   * 最终计划
-
-     或
-
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
-
-* 对于当前计划和许可证结构：
-
-   * Pro或更高版本
-   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
-
-请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+>[!IMPORTANT]
+>
+>您的组织必须具备以下条件才能使用本文中所述的功能：
+>
+>* 对于新计划和许可证结构：
+>
+>   * 最终Workfront计划
+>    
+>* 对于当前计划和许可证结构：
+>
+>   * Pro或更高版本Workfront计划
+>   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>
+>请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 
 
 Workfront目标将战略与工作执行和交付联系起来，帮助您定义、传达和实现战略成果。 您可以将每个人的努力集中在真正重要的事情上，使进展可衡量，并使团队能够取得令人惊叹的结果。 人们可以尽最大努力工作，因为他们知道自己的贡献会产生有意义的影响。

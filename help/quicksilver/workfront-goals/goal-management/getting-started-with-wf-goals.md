@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront Goals入门
 
-您的组织必须具备以下条件才能使用本文中所述的功能：
-
-* 对于新计划和许可证结构：
-
-   * 最终计划
-
-     或
-
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关详细信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
-
-* 对于当前计划和许可证结构：
-
-   * Pro或更高版本
-   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
-
-
-请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
-
-有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+>[!IMPORTANT]
+>
+>您的组织必须具备以下条件才能使用本文中所述的功能：
+>
+>* 对于新计划和许可证结构：
+>
+>   * 最终Workfront计划
+>    
+>* 对于当前计划和许可证结构：
+>
+>   * Pro或更高版本Workfront计划
+>   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>
+>请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
+> 
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 每个组织都需要制定并传达明确的目标，以使团队保持高效、专注和参与。 真正了解工作如何与战略协调是成功的关键。 但是，如果没有将您的战略和目标与组织内的工作联系起来的记录体系，实现协调会非常困难。
 

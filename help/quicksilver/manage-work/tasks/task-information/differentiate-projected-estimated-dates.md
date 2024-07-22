@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 区分预计日期和预计日期
+title: 预计日期和预计日期概览
 description: 有多种类型的日期显示了任务从何时可以开始到何时可以完成之间的时间线。
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# 区分预计日期和预计日期
+# 预计日期和预计日期概览
+
+<!--Audited: 07/2024-->
 
 有多种类型的日期显示了任务从何时可以开始到何时可以完成之间的时间线。 以下是显示任务时间线的一些日期：
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 本文介绍了项目的预计日期和预计日期之间的差异。
 
-首次创建任务时，计划、预计和预计日期通常应该匹配。 存在一些例外。 
+首次创建任务时，计划、预计和预计日期通常应该匹配。 存在一些例外。
 
 有关Adobe Workfront中项目、任务和问题日期的详细信息，请参阅[Workfront中的项目、任务和问题日期概述](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)。
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 * 您不能手动修改任务的预计日期和预计日期。 两者均由Adobe Workfront计算。
 * 在创建任务时，预计日期和预计日期应该相同，并且它们应该说明任务可以开始或结束的实际时间。\
-  您对任务进行的某些更新会直接影响“预计日期”和“预计日期”的值。 
+  您对任务进行的某些更新会直接影响“预计日期”和“预计日期”的值。
 
   例如，如果用户开始或完成任务，则任务将显示影响任务预计日期和预计日期的实际开始日期和完成日期。 此外，如果任务的被分配人修改了提交日期，则此日期会影响任务的预计日期。
 
@@ -75,35 +77,35 @@ ht-degree: 0%
 
 * 将任务标记为“完成”时：
 
-  *预计日期=预计日期=实际日期*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * 当任务具有实际开始日期时：
 
-  *预计开始日期=预计开始日期=实际开始日期*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * 当任务没有实际开始日期，但计划开始日期（必须开始于）具有未来强制限制时：
 
-  *预计开始日期=约束日期*
+  `Projected Start Date = Constraint Date`
 
   有关限制日期的信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * 当任务没有实际开始日期并且任务没有强制限制日期时：
 
-  *预计开始日期=工作计划中的下一个将来可用日期*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * 当被分派人更新提交日期时：
 
-  *预计完成日期=提交日期*
+  `Projected Completion Date = Commit Date`
 
   有关提交日期的信息，请参阅[提交日期概述](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
 * 当任务没有更新的提交日期，并且任务的计划完成日期为未来的强制约束（必须完成日期）时：
 
-  *预计完成日期=约束日期*
+  `Projected Completion Date = Constraint Date`
 
 * 当任务没有更新的提交日期、强制限制日期在将来或限制日期在过去时：
 
-  *预计完成日期=系统根据当前进度和未完成的工作计算完成日期*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### 了解任务的预计日期何时更新 {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ ht-degree: 0%
 
 ## 影响任务时间线的因素
 
-以下是一些可能影响任务真实时间线的示例： 
+以下是一些可能影响任务真实时间线的示例：
 
 * 与计划日期和当天相关的任务进度
 * 迄今为止任务的完成百分比

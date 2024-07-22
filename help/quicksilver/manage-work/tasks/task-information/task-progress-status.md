@@ -7,7 +7,7 @@ description: Adobe Workfront通过查看任务在时间线中的进度来确定�
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Adobe Workfront通过查看任务在时间线中的进度来确定任务的进�
   </tr> 
   <tr> 
    <td> <p><strong>滞后</strong> </p> </td> 
-   <td> <p>当预计完成日期晚于或等于计划完成日期且早于预计完成日期时，任务被视为<strong>晚于</strong>。</p> <p>预计完成日期是基于先前进度何时完成任务的实时视图。 虽然任务开始较晚，但由于计划和预计完成日期仍在未来，并且任务可能仍在按时完成，因此现在不认为任务会延迟。</p> <p>注意： <strong>落后</strong>和<strong>风险</strong>进度状态几乎相同。 但是，<strong>处于风险</strong>表示计划日期中的一个或两个计划日期上存在某些强制任务限制（必须完成日期、必须开始日期、固定日期）。 如果任务没有强制约束，则预计日期与预计日期相同，并反映系统根据任务的当前进度计算完成日期。 任务尚未考虑延迟，因为计划和预计完成日期仍在未来，任务可能仍在按时完成。<br>有关预计日期和预计日期的更多信息，请参阅<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">区分预计日期和预计日期</a>。</p> </td> 
+   <td> <p>当预计完成日期晚于或等于计划完成日期且早于预计完成日期时，任务被视为<strong>晚于</strong>。</p> <p>预计完成日期是基于先前进度何时完成任务的实时视图。 虽然任务开始较晚，但由于计划和预计完成日期仍在未来，并且任务可能仍在按时完成，因此现在不认为任务会延迟。</p> <p>注意： <strong>落后</strong>和<strong>风险</strong>进度状态几乎相同。 但是，<strong>处于风险</strong>表示计划日期中的一个或两个计划日期上存在某些强制任务限制（必须完成日期、必须开始日期、固定日期）。 如果任务没有强制约束，则预计日期与预计日期相同，并反映系统根据任务的当前进度计算完成日期。 任务尚未考虑延迟，因为计划和预计完成日期仍在未来，任务可能仍在按时完成。<br>有关预计日期和预计日期的更多信息，请参阅<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">预计日期和预计日期概述</a>。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>延迟</strong> </p> </td> 

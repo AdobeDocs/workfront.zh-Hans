@@ -6,9 +6,9 @@ description: 跨项目前置任务是指另一个项目中的另一个任务（�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>新增：标准 </p> 
    或
    <p>当前：计划 </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别</td> 
    <td> <p>编辑对任务和项目的访问权限</p> </td> 
   </tr> 
   <tr> 
@@ -65,10 +65,9 @@ Adobe Workfront允许任务依赖于其他项目中的任务，就像它允许�
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 创建跨项目前置任务
 

@@ -7,9 +7,9 @@ description: 您可以通过在Adobe Workfront方案规划程序中发布方案�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,40 +31,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td>[！UICONTROL Business]或更高版本</td> 
+   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
+   <p>新增：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>新增：浅色或更高</p> 
+   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td>产品 </td> 
-   <td> <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关获取[!DNL Workfront Scenario Planner]的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td>产品* </td> 
+   <td> 
+   <p>对于当前Workfront计划： </p>
+   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p></p> <p>访问级别*</p> </td> 
-   <td> 
-    <ul> 
-    <li>[!DNL Scenario Planner]和项目的[！UICONTROL Edit]访问权限</li></ul>
-
-<p><b>注释</b>
-
-如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td>访问级别 </td> 
+   <td> <p>对[!DNL Scenario Planner]和[！UICONTROL项目的[！UICONTROL Edit]访问权限</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>对象权限</p> </td> 
-   <td> 
-    <ul> 
+   <td> <p>对象权限 </p> </td> 
+   <td> <ul> 
      <li>计划的[！UICONTROL Manage]权限 </li> 
      <li>已发布项目的[！UICONTROL Manage]权限</li> 
-    </ul> <p>有关请求对项目的附加访问权限的信息，请参阅<a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求对对象</a>的访问权限。</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+    </ul> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-有关访问[!DNL Workfront Scenario Planner]的其他信息，请参阅[使用 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)所需的访问权限。
++++
 
 ## 先决条件
 
@@ -101,7 +99,8 @@ ht-degree: 0%
 >
 >如果您对计划上的计划进行任何更改，包括解决冲突，则必须重新发布计划，以使新信息在项目上可见。 仅当您发布相应的计划时，此信息才会显示在链接到计划的项目上。 有关解决计划之间冲突的信息，请参阅[解决 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)中的计划冲突
 
-1. 单击Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 方案]**
+{{step1-to-scenario-planner}}
+
 1. （可选且有条件）如果要从现有计划发布，请单击计划右上角的&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标![](assets/filter-nwepng.png)，然后选择以下选项之一：
 
    <table style="table-layout:auto"> 

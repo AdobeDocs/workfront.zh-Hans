@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-要使用Adobe Workfront Planning，您必须具有以下设置：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ ht-degree: 0%
 </table>
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 
 ## 与他人共享主菜单中的“规划”区域
