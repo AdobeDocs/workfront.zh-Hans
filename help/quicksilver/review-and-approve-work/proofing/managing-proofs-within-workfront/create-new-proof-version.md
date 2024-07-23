@@ -6,9 +6,9 @@ description: 跨工作项的多个版本或修订版本管理反馈可能是一�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 >如果在Adobe Workfront中创建验证，则还必须在Workfront中创建针对该验证创建的任何新版本。 如果校对是在Workfront Proof中创建的，则无法在Workfront中创建该校对的新版本。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -58,6 +60,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 在Workfront中创建验证的新版本
 
@@ -228,7 +232,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
   >[!NOTE]
   >
-  > 这不受您个人设置中保存的任何默认自定义主题/消息的影响。
+  >这不受您个人设置中保存的任何默认自定义主题/消息的影响。
 
 如果您在个人设置中保存了默认主题和消息，这将影响新版本页面上默认显示的消息：
 

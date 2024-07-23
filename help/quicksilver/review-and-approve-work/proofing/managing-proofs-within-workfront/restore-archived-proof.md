@@ -6,9 +6,9 @@ description: 如果验证连续60天未打开，则会自动将其存档。 存�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 如果验证连续60天未打开，则会自动将其存档。 存档的验证仍然像存档验证之前一样显示在文档列表中。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -38,6 +40,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划或验证访问权限，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 恢复已存档的验证
 

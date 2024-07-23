@@ -6,9 +6,9 @@ description: 在创建验证后，您可以随时编辑验证设置。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '633'
 ht-degree: 7%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 7%
 在创建验证后，您可以随时编辑验证设置。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,6 +51,8 @@ ht-degree: 7%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 编辑校对设置
 

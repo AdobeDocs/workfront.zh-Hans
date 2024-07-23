@@ -7,9 +7,9 @@ description: 您可以直接从Adobe Workfront界面快速访问Workfront Proof�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 从Workfront访问Workfront Proof {#access-workfront-proof-from-workfront}
 
-默认情况下，只有在Workfront中拥有管理权限的用户才能访问Workfront Proof，如本节所述。 
+默认情况下，只有在Workfront中拥有管理权限的用户才能访问Workfront Proof，如本节所述。
 
-1. 在主菜单![](assets/main-menu-icon.png)中单击校对![](assets/proofing-main-menu.png)。
+{{step1-to-proofing}}
 
-   您将自动登录到您的Workfront Proof Premium帐户。
+您将自动登录到您的Workfront Proof Premium帐户。
 
 有关登录Workfront Proof Premium帐户后可用功能的信息，请参阅[Workfront帮助网站](https://support.workfront.com)。
 

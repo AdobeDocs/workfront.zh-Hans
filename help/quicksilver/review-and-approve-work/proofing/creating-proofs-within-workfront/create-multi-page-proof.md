@@ -6,9 +6,9 @@ description: 您可以将多个文件合并到单个多页验证中。 查看者
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以将多个文件合并到单个多页验证中。 查看者可以使用验证查看者中的导航工具来浏览多页验证中的页面。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,6 +47,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有的计划、许可证或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 创建多页验证
 

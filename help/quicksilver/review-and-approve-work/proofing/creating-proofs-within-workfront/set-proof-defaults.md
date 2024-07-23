@@ -6,9 +6,9 @@ description: 您可以定义适用于您创建的验证的个人验证默认设�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以定义适用于您创建的验证的个人验证默认设置。 每次在Workfront中生成首次验证或上传新验证版本时，都会应用这些默认值。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,9 +44,11 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
++++
+
 ## 配置个人校对默认值
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**校对**。
+{{step1-to-proofing}}
 
 1. 单击右上角的头像，然后选择&#x200B;**个人设置**。
 1. 选择&#x200B;**校对默认值**&#x200B;选项卡，然后指定以下信息：

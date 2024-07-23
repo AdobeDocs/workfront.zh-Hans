@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 99299e2717b0603d53b394c123a86f4e56c4c1c5
+source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
 workflow-type: tm+mt
 source-wordcount: '14320'
 ht-degree: 1%
@@ -1820,8 +1820,8 @@ ht-degree: 1%
          * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [将Frame.io资源添加到连接的Workfront项目](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * 批准和审阅资源和文档{#review-and-approve-documents}
-         * [批准和审查文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+      * 审阅和批准资源和文档{#review-and-approve-documents}
+         * [审阅和批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [批准文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 正在校对{#proofing}
