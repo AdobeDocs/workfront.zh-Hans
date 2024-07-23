@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2023年12月21日；用于快速版本的生产：使用24.3版本（2024年3月）；面向所有客户的生产：使用24.4版本（2024年4月）
+>预览版本： 2023年12月21日；用于快速发布的生产版本：使用24.3版本（2024年3月）；面向所有客户的生产版本：使用24.10版本（2024年10月）
 
 我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。
 

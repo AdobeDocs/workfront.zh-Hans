@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 3%
 
 ---
@@ -66,11 +66,9 @@ ht-degree: 3%
 
 在执行本文中所述的操作之前，必须确保以下各项：
 
-* 您要报告的任何字段均在Workfront中进行跟踪。 您只能报告更新区域中被跟踪的数据。
+* 您要报告的任何字段（包括自定义字段）会在Workfront中进行跟踪。 您只能报告更新区域中被跟踪的数据。
 
   要了解如何添加希望Workfront跟踪的字段，请参阅[配置系统更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
-
-* 您要报告的任何自定义字段都启用了设置&#x200B;**在更新馈送中显示字段更改**。
 
 ## 日记帐分录报表概览
 

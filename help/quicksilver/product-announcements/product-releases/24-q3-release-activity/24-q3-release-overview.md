@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">业务规则现已可用</a></p>
                         [！BADGE In Production ]{type=Informational}
@@ -74,6 +74,7 @@ ht-degree: 0%
                                 <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
+                        <p><i>仅适用于具有新Ultimate计划的组织。</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ ht-degree: 0%
                                 <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
                             </li>
                         </ul>
-                        <p><span class="preview">对于不在快速发布计划中的客户，此功能已暂时从生产中删除。</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关工作分配已添加到新任务工作流</a></p>
-                        [！BADGE In Production ]{type=Informational}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>在将任务添加到项目和项目任务列表时，我们已在“新建任务”框的“工作总揽”字段中添加了相同的功能，用于更相关的智能分配。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -296,16 +296,15 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
                             </li>
                         </ul>
-                        <p><span class="preview">此功能已被暂时从生产环境中移除，客户不在快速发布计划之内。</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p>
-                        [！BADGE In Production ]{type=Informational}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -317,7 +316,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.7版本（2024年7月18日）</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
                             </li>
                         </ul>
                     </td>
