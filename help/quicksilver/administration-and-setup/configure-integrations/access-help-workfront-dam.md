@@ -7,9 +7,9 @@ description: Adobe Workfront DAM是Workfront中的本机数字资源管理(DAM)�
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,4 @@ ht-degree: 0%
 您可以在以下位置访问[!UICONTROL [!DNL Workfront] DAM]的支持文档：
 
 * 如果您使用的是独立的[!UICONTROL Workfront DAM]应用程序（在主[!DNL Workfront]应用程序之外），请参阅[!DNL Webdam]帮助站点。
-* 如果您在主[!DNL Workfront]应用程序中利用[!UICONTROL [!DNL Workfront] DAM]功能，请参阅 [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)中的[[!UICONTROL [！UICONTROL Adobe Workfront] DAM]
 * 注意：如果您需要提交功能请求或记录问题，请通过电话、电子邮件或[!DNL Workfront]帮助站点联系[!DNL Workfront]客户支持。 有关详细信息，请参阅[联系客户支持](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。

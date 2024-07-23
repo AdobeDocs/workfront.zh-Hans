@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
   对于当前计划，需要[!UICONTROL Pro] [!DNL Workfront]计划或更高版本才能使用此功能。 对于新计划，此功能可用于所有计划。 有关各种可用计划的详细信息，请参阅[Workfront计划](https://www.workfront.com/plans)。
 
-此外，您还可以通过本机数字资产管理(DAM)系统或第三方DAM集成来增强[!DNL Workfront]文档体验。 管理员必须启用这些功能，用户才能将服务链接到其[!DNL Workfront]帐户。 有关Workfront DAM的详细信息，请参阅[使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)管理文档。
+此外，您还可以通过第三方DAM集成来增强[!DNL Workfront]文档体验。 管理员必须启用这些功能，用户才能将服务链接到其[!DNL Workfront]帐户。
 
 ## 配置集成以管理文档
 
@@ -197,8 +197,6 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建集成。
 
 ## 使用文档集成
-
-有关用户如何使用[!DNL Workfront DAM]的信息，请参阅[使用 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)管理文档。
 
 有关用户如何使用验证的信息，请参阅[创建验证](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)。
 
