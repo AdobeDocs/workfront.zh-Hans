@@ -7,7 +7,7 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* “工作总揽”列中的任务列表或报告
+* <span class="preview">“工作总揽”列中的任务列表或报告</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* “工作总揽”字段中的任务标题
+* <span class="preview">“工作总揽”字段中的任务标题</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 任务字段中的问题标题
 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* 将任务添加到项目时，新任务框中的工作分配字段
+* <span class="preview">将任务添加到项目时，“新建任务”框中的“工作总揽”字段</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ ht-degree: 0%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* 分配任务或问题时位于已分配此区域的工作负载均衡器
+* 当您分配任务或问题时<span class="preview">在分配给区域的工作负载均衡器</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 智能分配条件
