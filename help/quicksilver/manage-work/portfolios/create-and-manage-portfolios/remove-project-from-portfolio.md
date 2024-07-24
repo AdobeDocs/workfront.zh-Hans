@@ -6,14 +6,16 @@ description: 您可以从项目组合中删除项目并将其与其他项目组�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # 从项目组合中删除项目
+
+<!--Audited: 7/2024-->
 
 您可以从项目组合中删除项目并将其与其他项目组合关联，也可以完全删除项目与项目组合之间的关联。
 
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,24 +31,29 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>新建：任何</p>
+   <p>当前： [！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>新增：标准</p>
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL View]对Portfolio或更高版本的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>[！UICONTROL Edit]对Portfolio的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Portfolio上的[！UICONTROL Manage]权限可删除项目<br>[！UICONTROL Manage]权限，以及使用项目[！UICONTROL Delete]权限从项目组合中删除项目</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>项目组合和项目的[！UICONTROL Manage]权限以移除项目</p>
+   <p>[！UICONTROL Manage]具有对项目的[！UICONTROL Delete]访问权限，可从项目组合中删除这些项目</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 从项目组合中删除项目
 

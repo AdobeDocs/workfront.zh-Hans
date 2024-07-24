@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
+source-wordcount: '7513'
 ht-degree: 1%
 
 ---
@@ -242,11 +242,17 @@ ht-degree: 1%
       </tr> 
       <tr> 
          <td role="rowheader"><strong>项目组合</strong></td> 
-         <td>指示项目所属的Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。</td> 
+         <td>指示项目所属的Portfolio。 必须先创建一个Portfolio，然后它才会显示在下拉列表中。 只有活动项目组合可以与项目关联。 有关创建项目组合的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">创建项目组合</a>。
+         <p><b>注释</b></p>
+         <p>您必须具有项目组合的管理权限才能将其添加到项目中或从中删除。</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>项目群</strong></td> 
-         <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p> </td> 
+         <td> <p>如果为项目选择了Portfolio，请为项目指定项目群。 某些Portfolio可能没有程序。 必须先创建项目，然后它才会显示在此下拉列表中。 只有活动的项目群才能与项目关联。 </p> <p>有关创建程序的详细信息，请参阅<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">创建程序</a>。</p> 
+      <p><b>注释</b></p>
+         <p>您必须具有项目的管理权限才能在项目中添加或删除项目。</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>组</strong></td> 

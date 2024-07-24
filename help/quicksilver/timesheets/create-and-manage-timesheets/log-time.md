@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ ht-degree: 0%
 
 您可以从Workfront移动设备应用程序记录时间。
 有关详细信息，请参阅适用于Android的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或适用于iOS的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。
+
+## 在列表和报告中编辑记录的小时数
+
+您可以在以下区域编辑记录的小时数：
+
+* 您在其中添加小时数的所有区域，包括未结时间表
+* 小时列表和报告。
+
+在列表或报告中编辑小时条目时，可以编辑小时条目的以下元素：
+
+* 小时数
+* 小时数类型
+* 与小时条目关联的工作角色
+
+根据您编辑的小时条目类型，可以编辑以下字段：
+
+* 编辑特定于项目的小时数时：
+
+   * 您可以编辑小时数。
+   * 您只能将小时类型更改为项目特定的类型。
+   * 只有在“设置”中启用了工作角色分配时，才能更改该小时。 有关信息，请参阅[配置工时表和小时首选项](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* 编辑常规小时数时：
+
+   * 您可以编辑小时数。
+   * 您只能将小时类型更改为常规类型。
+   * 您无法更改工作角色分配的小时数，因为常规小时数无法与角色关联。
+
+* 当您批量编辑常规和项目特定小时组合时：
+
+   * 您可以编辑小时数。
+   * 您不能更改小时类型，因为常规小时类型不能更改为项目特定的类型，并且项目特定的小时类型不能更改为常规类型。
+   * 您不能更改工作角色分配，因为常规小时数不能与角色关联。

@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,9 @@ ht-degree: 1%
   >
   >如果您在[!DNL Workfront]系统中启用了任何特定于项目的小时类型，则必须在系统中的每个项目上至少启用一种特定于项目的小时类型。 您无法在系统级别启用特定于项目的小时类型，并且在项目级别没有可用的特定于项目的小时类型。
 
-* **常规小时类型**：常规小时不能与项目、任务或问题相关联，并且直接登录到时间表。 有关记录时间的详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)。
+* **常规小时类型**：常规小时不能与项目、任务或问题相关联，并且直接登录到时间表。
+
+有关记录小时数并将其与小时类型关联的信息，请参阅[记录时间](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
 
 ## 访问要求
 

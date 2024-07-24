@@ -6,7 +6,7 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用智能分配来确定谁是完成工作的最佳用户。
 
 智能分配是指Adobe Workfront在将工作项分配给资源时向您显示的用户、角色或团队的建议。 Workfront的建议基于确定最适合作业的资源的算法。
 
-Workfront中有两个单独的算法可计算在任务和问题上工作方式不同的智能分配。
+<span class="preview">Workfront中有两个单独的算法可计算在任务和问题中工作方式不同的智能分配。</span>
 
-有关确定智能分配时使用的条件的详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+有关确定智能分配时使用的条件的详细信息，请参阅[智能分配概述](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)。
 
 ## 访问要求
 
@@ -75,7 +75,7 @@ Workfront中有两个单独的算法可计算在任务和问题上工作方式�
    * 任务、问题列表或报告
    * 任务或问题标题
    * 任务或问题摘要面板
-   * “新任务”或“新问题”框
+   * <span class="preview">新任务</span>或新问题框，因为您向项目中添加了<span class="preview">新任务</span>或问题
    * “主页”区域中列出的项目的“工作总揽”字段
    * 工作负载均衡器中的任务或问题
 
@@ -90,14 +90,14 @@ Workfront中有两个单独的算法可计算在任务和问题上工作方式�
 
    对于任务，智能分配会根据算法计算的哪个阶段标识了分配，显示在以下部分中：
 
-   * **建议的分配**：显示任务智能分配算法第一阶段中识别的分配。
+   * <span class="preview">**建议的分配**：显示任务智能分配算法第一阶段中识别的分配。</span>
    * **用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡片工作角色**</span>：在任务智能分配算法计算的第二阶段中识别的分配。
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
-1. 单击推荐列表中的用户的名称，以选择该用户。
+1. 在推荐列表中选择资源，方法是单击资源的名称。
 
 1. （可选）单击&#x200B;**分配给我**&#x200B;以将工作项分配给您自己。
 

@@ -6,14 +6,16 @@ description: 您可以通过将项目添加到项目组合中的项目来组织�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # 将项目添加到项目群
+
+<!--Audited: 7/2024-->
 
 您可以通过将项目添加到项目组合中的项目来组织项目。 一个项目群中可以有多个项目，但只能将一个项目群与一个项目群关联。
 
@@ -25,32 +27,35 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>[！UICONTROL Team]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td><p>新增：标准</p> 
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL View]对“程序”或更高版本的访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>[！UICONTROL Edit]对程序或更高版本的访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL View]对项目的权限</p> <p>[！UICONTROL Manage]项目权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[！UICONTROL Manage]程序权限</p> <p>[！UICONTROL Manage]项目权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将项目添加到现有项目群
 
@@ -96,4 +101,4 @@ ht-degree: 0%
 1. （视情况而定）如果您选择&#x200B;**[!UICONTROL 现有项目]**，请执行以下操作：
 
    1. 在&#x200B;**[!UICONTROL 添加项目]**&#x200B;对话框中，在提供的字段中键入项目的名称，然后当该项目出现在列表中时将其选定。 您可以一次添加多个项目。
-   1. 单击&#x200B;**[!UICONTROL 添加项目]**。**&#x200B;**&#x200B;该项目出现在项目群的&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡中，现在与项目和项目组合关联。 
+   1. 单击&#x200B;**[!UICONTROL 添加项目]**。**&#x200B;**&#x200B;该项目出现在项目群的&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡中，现在与项目和项目组合关联。

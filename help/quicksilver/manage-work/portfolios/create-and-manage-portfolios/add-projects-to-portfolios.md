@@ -6,9 +6,9 @@ description: 我们建议您在启动项目时将项目添加到项目组合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td> <p>新建：任何</p>
+   <p>当前：[！UICONTROL Business]或更高版本</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
@@ -42,12 +43,12 @@ ht-degree: 0%
    <p>当前：[！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
-   <td> <p>[！UICONTROL View]对Portfolio或更高版本的访问权限</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>[！UICONTROL Edit]访问Portfolio</p> <p>[！UICONTROL Edit]对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL View]权限</p> <p>[！UICONTROL Manage]项目权限</p>  </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>[！UICONTROL Manage]项目权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>

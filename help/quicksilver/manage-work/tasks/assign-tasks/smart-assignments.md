@@ -7,14 +7,16 @@ description: 在管理任务和问题分配时，您可以使用智能分配来�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 智能分配概述
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 在管理任务和问题分配时，您可以使用智能分配来确定谁是完成工作的最佳资源。 智能分配是在您根据确定最适合作业的资源的算法将工作项分配给资源时，Adobe Workfront向您提供的建议。 智能分配可以是用户、工作角色或团队。
 
@@ -36,10 +38,10 @@ ht-degree: 0%
 
 使用智能分配时，请考虑以下事项：
 
-* 算法可独立处理任务和问题。 这意味着，问题的建议用户列表可能与任务的建议用户列表不同，因为Workfront会根据与问题和任务分别相关的标准构建列表。
-* 智能分配不推荐工作角色或团队。 相反，它们是最适合完成任务或问题的用户的建议。
-* 建议的工作分配始终为活动用户。
-* 首先列出的用户应该是该任务的最佳匹配用户。
+* <span class="preview">算法独立处理任务和问题。 这意味着，问题的建议用户列表可能与任务的建议用户列表不同，因为Workfront会根据与问题和任务分别相关的标准构建列表。</span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* 建议分配始终为活动用户、工作角色或团队。
+* 首先列出的资源应该是该任务的最佳匹配项。
 
 ## 查找智能分配建议
 
@@ -51,11 +53,11 @@ ht-degree: 0%
 
 * “工作总揽”列中的任务列表或报告
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * “工作总揽”字段中的任务标题
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * 任务字段中的问题标题
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 * 将任务添加到项目时，新任务框中的工作分配字段
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 * 分配任务或问题时位于已分配此区域的工作负载均衡器
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## 智能分配条件
@@ -86,11 +88,13 @@ ht-degree: 0%
 
 ### 任务的智能分配条件
 
-任务智能分配计算分两个阶段进行，使用两个不同的算法。
+任务智能分配计算在<span class="preview">两个阶段中工作，这两个阶段使用两个不同的算法。</span>
 
-根据查找智能分配的算法，分配在“分配”字段的两个单独部分下列出。 有关信息，请参阅[进行智能分配](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
+<span class="preview">根据查找智能分配的算法，分配在“分配”字段的两个单独部分下列出。</span>有关信息，请参阅[进行智能分配](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)。
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### 任务智能分配计算的第一阶段
 
@@ -127,6 +131,8 @@ ht-degree: 0%
 * 此阶段中确定的分配将列在    任务的“工作总揽”字段的&#x200B;**建议的工作总揽**&#x200B;部分。
 
 * 如果没有匹配项使用此计算，则智能分配的第二阶段将开始（使用不同的算法计算）。
+
+</div>
 
 #### 任务智能分配计算的第二阶段
 

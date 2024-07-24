@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2024年第三季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)。</span>
+<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以将任务分配给用户、工作角色或团队，以指明负责完成任务的人员。 您可以一次将任务分配给多个资源。
 
@@ -55,6 +55,8 @@ ht-degree: 1%
 * [在工作负载均衡器中分配工作概述](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 访问要求
+
+<!-- Audited: 07/2024-->
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">添加工作角色分配时，您可以搜索工作角色或位置。 从“工作角色”列表中选择一个角色，以使用分配的默认开单费率，或从费率卡中选择一个费率卡工作角色，以使用费率卡中的开单费率。 有关费率卡的详细信息，请参阅[管理费率卡](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)。</span>
 
 
-   * （视情况而定）在显示&#x200B;**建议分配**、**用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡角色**</span>&#x200B;列表时，单击其中的一个名称。 有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
+   * （视情况而定）在显示&#x200B;<span class="preview">**建议分配**</span>、**用户和团队**、**工作角色**&#x200B;或&#x200B;<span class="preview">**评级卡角色**</span>&#x200B;列表时，单击其中的一个名称。 有关详细信息，请参阅[智能分配概述](../../../manage-work/tasks/assign-tasks/smart-assignments.md)。
 
      您可以开始键入要分配给任务的任何用户、团队或工作角色的名称，然后当该名称显示在列表中时将其选定。
 

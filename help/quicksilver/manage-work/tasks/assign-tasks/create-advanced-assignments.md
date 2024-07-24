@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 创建高级工作
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+<span class="preview">有关当前版本的信息，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。</span>
 
 您可以使用“高级工作”管理任务或问题工作。
 
@@ -92,7 +100,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**高级**。
 
-   ![单击高级](assets/assignments-box-in-task-header.png)
+   <span class="preview">![单击高级](assets/assignments-box-in-task-header.png)</span>
 
 1. 在&#x200B;**搜索人员、角色和团队**&#x200B;字段中，开始键入用户、角色或团队的名称，然后在名称出现在下拉列表中时单击该名称。
 
@@ -138,15 +146,10 @@ ht-degree: 0%
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * 在手动修改任务的分配分配后，任务的已计划小时数可能会相应地更新。 有关更多信息，请参阅文章[计划小时数概述](../../../manage-work/tasks/task-information/planned-hours.md)中的“管理用户分配时更新任务计划小时数”部分。
      >   * 您无法手动修改问题的分配分配。
      >   * 您无法手动修改分配给任务的团队的分配。
-     >   
-     >
 
    * **被分派人的角色：**&#x200B;选择用户在完成此分派时应使用的角色。  默认情况下，将显示用户的主要角色。 单击被分配人的角色框以选择另一个角色。  在将任务或问题首先分配给角色，然后添加可以履行该角色的用户作为第二次分配时，将为可以履行已分配给任务和问题的角色的用户过滤建议用户列表。
 
