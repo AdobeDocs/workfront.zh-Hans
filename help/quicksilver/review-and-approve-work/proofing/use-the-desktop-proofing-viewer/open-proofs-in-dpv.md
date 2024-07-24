@@ -6,9 +6,9 @@ description: 如果无法按如下所述打开验证，请联系Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 如果无法按如下所述打开验证，请联系Adobe Workfront管理员或Workfront Proof管理员。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 5%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

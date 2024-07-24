@@ -6,9 +6,9 @@ description: 在验证查看者中评论验证时，您可以标记其他用户�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * 如果您作为外部用户添加到验证，并且您是另一个具有不同验证帐户环境的成员，则只能标记原始环境中的这些用户。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## 访问要求 {#access-requirements}
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
++++
+
 ## 标记要共享验证的用户
 
 默认情况下，具有上面[访问要求](#access-requirements)部分中概述的验证权限配置文件或验证角色的用户可以标记用户以共享验证。 如果您是验证所有者或创建者，则还可以标记用户以共享验证，而不管验证权限配置文件或验证角色如何。 您可以允许具有较低验证权限配置文件或验证角色的用户在创建验证时标记用户以共享验证。 有关详细信息，请参阅[使用基本工作流创建高级校对](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)文章中的[配置工作流并添加审阅者](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur)部分。
@@ -76,7 +80,7 @@ ht-degree: 0%
    >如果要关闭下拉列表而不选择任何人，可以按&#x200B;**Esc**&#x200B;键或单击列表之外的任意位置。
 
 1. 对要在注释中标记的任何其他用户重复步骤1-2。
-1. 完成评论，然后单击&#x200B;**Post**。
+1. 完成评论，然后单击&#x200B;**帖子**。
 1. （视情况而定）如果您为尚未添加到验证的任何人添加标签，请为显示的框中列出的每个用户指定&#x200B;**验证角色**&#x200B;和&#x200B;**电子邮件提醒**&#x200B;设置，然后单击&#x200B;**添加联系人并发布评论**。
 
    ![](assets/add-people-to-proof-350x220.png)

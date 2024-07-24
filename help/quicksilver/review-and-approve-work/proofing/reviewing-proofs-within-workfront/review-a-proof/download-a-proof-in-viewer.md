@@ -6,9 +6,9 @@ description: 您可以从现有校对下载文件。 下载中不包含与验证
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 您可以从现有校对下载文件。 下载中不包含与验证相关的评论和其他信息。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 在验证查看器中下载验证
 

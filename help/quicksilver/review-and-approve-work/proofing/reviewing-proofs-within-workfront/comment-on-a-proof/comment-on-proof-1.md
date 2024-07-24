@@ -6,9 +6,9 @@ description: 通过评论，可在校对查看器中提供有关内容的反馈�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * 如果您作为外部用户添加到验证，并且您是另一个具有不同验证帐户环境的成员，则只能标记原始环境中的这些用户。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
++++
+
 ## 对验证进行评论
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
@@ -78,17 +82,17 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw手绘线</strong> </td> 
+      <td role="rowheader"><strong>绘制手绘线</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>允许您在选定区域上添加手绘线。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw一行</strong> </td> 
+      <td role="rowheader"><strong>绘制一条直线</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>允许您在选定区域上绘制一条直线。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw箭头</strong> </td> 
+      <td role="rowheader"><strong>绘制箭头</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>允许您向选定的区域添加箭头。</td> 
      </tr> 
@@ -98,7 +102,7 @@ ht-degree: 0%
       <td>突出显示您选择的区域。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw矩形</strong> </td> 
+      <td role="rowheader"><strong>绘制矩形</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>允许您在区域周围绘制矩形。</td> 
      </tr> 
@@ -128,4 +132,4 @@ ht-degree: 0%
    * 单击注释右下角的回形针图标，然后查找并选择要上传的文件。
    * 将文件从计算机上的某个位置拖放到注释区域中。
 
-1. 单击&#x200B;**Post**。
+1. 单击&#x200B;**帖子**。

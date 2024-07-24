@@ -6,9 +6,9 @@ description: 将回复添加到评论后无法编辑评论。 此限制可维护
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 将回复添加到评论后无法编辑评论。 此限制可维护注释线程的完整性。 编辑评论时，发表评论的时间不受影响。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -50,6 +52,8 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
++++
+
 ## 编辑校对评论
 
 您可以编辑对验证所做的任何评论。 此外，以下用户可以编辑其他用户所做的评论：
@@ -69,7 +73,7 @@ ht-degree: 1%
 
 1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. 在评论中进行任何更改，然后单击&#x200B;**Post**。
+1. 在评论中进行任何更改，然后单击&#x200B;**发布**。
 
    >[!NOTE]
    >

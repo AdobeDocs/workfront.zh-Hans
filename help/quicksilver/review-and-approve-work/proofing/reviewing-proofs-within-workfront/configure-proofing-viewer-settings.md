@@ -6,9 +6,9 @@ description: 您可以配置Web验证查看器和桌面验证查看器的设置�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 配置校对查看器设置
 

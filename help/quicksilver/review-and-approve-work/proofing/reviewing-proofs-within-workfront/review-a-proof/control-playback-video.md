@@ -6,9 +6,9 @@ description: 了解如何控制视频验证中的播放。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 控制视频验证中的播放
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 调整视频播放速度
 

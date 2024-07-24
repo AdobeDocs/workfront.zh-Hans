@@ -6,9 +6,9 @@ description: 您可以在审核过程中随时手动锁定和解锁验证。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 您可以在审核过程中随时手动锁定和解锁验证。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 锁定校对
 

@@ -7,9 +7,9 @@ description: 了解如何批量编辑验证权限配置文件。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # 批量编辑校对权限配置文件字段
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,9 +47,11 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
 
++++
+
 ## 批量编辑校对权限配置文件字段
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 按&#x200B;**访问级别**&#x200B;对用户进行排序。 我们建议按访问级别进行批量编辑，以确保显示&#x200B;**验证权限配置文件**&#x200B;字段。
 
