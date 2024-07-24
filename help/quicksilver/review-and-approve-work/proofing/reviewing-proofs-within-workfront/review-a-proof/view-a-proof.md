@@ -6,16 +6,25 @@ description: 了解如何在验证中查看内容。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # 在验证中查看内容
 
+您可以使用校对查看器在Workfront中查看和标记文件。
+
+>[!NOTE]
+>
+>如果您的Workfront实例位于Unified Experience上，则验证查看器将在新选项卡中打开。
+
+
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的Workfront或Workfront Proof管理员。
+
++++
 
 ## 更改验证的视图
 

@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 0%
 | “组织切换器”允许您在[!DNL Workfront]组织和环境之间移动 | “组织切换器”不可用 |
 | 导航除[!DNL Workfront]导航栏外，还包括[!DNL Adobe]产品、[!DNL Adobe]通知、帮助和您的用户配置文件的顶级导航区域 | 导航仅包括[!DNL Workfront]导航栏 |
 | 可通过[!UICONTROL 主菜单]和顶部导航区域访问帮助 | 可通过[!UICONTROL 主菜单]和[!DNL Workfront]导航栏访问帮助 |
+| 验证查看器将在新选项卡中打开 | 验证查看器在Workfront中打开 |
 
 {style="table-layout:auto"}
 
