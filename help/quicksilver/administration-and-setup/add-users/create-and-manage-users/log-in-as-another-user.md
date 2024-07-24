@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -24,12 +24,6 @@ ht-degree: 1%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
-
->[!IMPORTANT]
->
->本页中介绍的过程仅适用于尚未载入Adobe Admin Console的组织。 如果您的组织已载入到Adobe Admin Console，则此操作不可用。
->
->有关因贵组织是否已登记到Adobe Admin Console而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作为Adobe Workfront管理员，有时您可能需要代表其他用户访问Workfront。
 
