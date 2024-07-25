@@ -6,22 +6,47 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 新文档审批概述
 
-新文档审批是对当前为Adobe Workfront开发的现有审批流程的全面重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
-
-请继续阅读下文，以了解有关新文档审批的计划功能和版本的更多信息。
-
 >[!IMPORTANT]
 >
 >本文内容介绍更新的文档审批功能，该功能仅适用于特定帐户。 有关标准审批流程的信息，请参阅[工作审批](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
+
+新文档审批是对当前为Adobe Workfront开发的现有审批流程的全面重新设计。 目前，该解决方案限时发布，旨在为需要全面利益相关者参与和特定版本文档审批的企业提供实用而有效的解决方案。 其深思熟虑的设计和有针对性的新功能有助于在审批过程中实现协作、角色明确和版本控制，从而提高效率和问责制。
+
+## 与验证和旧文档审批的主要区别
+
+**校样**
+
+* 文档审批决策按钮在验证查看者中不可用。 可以在文档摘要、Workfront主页构件或文档详情页面中做出决策。
+* 文档审批参与者显示在文档摘要中，而不是验证工作流选项卡中。
+* 当前报告工具不支持新文档审批。 新主页和画布功能板中提供的所有审批构件提供了有关新文档审批的以下详细信息：
+
+   * 按决策审批
+   * 平均审批时间
+   * 待处理审批
+   * 逾期审批
+
+**旧文档审批**
+
+* 除了批准者之外，您还可以添加审阅者。
+* 您可以将整个Workfront团队指定为审阅者或批准者。
+* 您可以设置查看或审批的截止日期。
+* 您可以创建和重新使用审批模板。
+* 您可以在Workfront主页构件中查看多个关键的审批绩效指标。
+
+## 使用新文档审批
+
+对于希望创建或管理文档审批的用户，请参阅[设置和管理资产和文档审批中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+
+对于希望审阅或批准其收到请求的文档的用户，请参阅[批准和审阅文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)中列出的文章。
 
 ## 新功能和设计目标
 
@@ -45,17 +70,4 @@ ht-degree: 2%
 
 如果您想在生产环境中启用“新文档审批”，请联系您的客户成功经理或战略客户经理。
 
-## 使用新文档审批
 
-对于希望创建或管理文档审批的用户，请参阅[设置和管理资产和文档审批中列出的文章：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-
-对于希望审阅或批准其收到请求的文档的用户，请参阅[批准和审阅文档：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)中列出的文章。
-
->[!IMPORTANT]
->
->当前报告工具不支持新文档审批。 新主页和画布功能板中提供的所有审批构件提供了有关新文档审批的以下详细信息：
->
->* 按决策审批
->* 平均审批时间
->* 待处理审批
->* 逾期审批
