@@ -6,9 +6,9 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 与验证和旧文档审批的主要区别
 
-**校样**
+**与校对的差异**
 
 * 文档审批决策按钮在验证查看者中不可用。 可以在文档摘要、Workfront主页构件或文档详情页面中做出决策。
 * 文档审批参与者显示在文档摘要中，而不是验证工作流选项卡中。
@@ -34,13 +34,17 @@ ht-degree: 1%
    * 待处理审批
    * 逾期审批
 
-**旧文档审批**
+**与旧文档审批的差异**
 
-* 除了批准者之外，您还可以添加审阅者。
-* 您可以将整个Workfront团队指定为审阅者或批准者。
-* 您可以设置查看或审批的截止日期。
-* 您可以创建和重新使用审批模板。
-* 您可以在Workfront主页构件中查看多个关键的审批绩效指标。
+通过新文档审批，您可以
+
+* 除了批准者之外，还添加审阅者
+* 将整个Workfront团队指定为审阅者或批准者
+* 设置查看或审批的截止日期
+* 创建和重新使用审批模板
+* 利用新版本
+* 在Workfront主页构件中查看供您审批的多个关键绩效指标
+* 使用画布功能板查看有关新文档审批的报告详细信息
 
 ## 使用新文档审批
 
