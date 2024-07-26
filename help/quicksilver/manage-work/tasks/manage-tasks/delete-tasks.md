@@ -6,10 +6,10 @@ description: 您可以删除可能重复或创建有误的任务。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 1%
    1. （视情况而定）启用&#x200B;**自动保存**&#x200B;切换时：
 
       1. 选择要删除的任务，然后单击&#x200B;**更多**
-      1. 单击&#x200B;**删除**，然后单击&#x200B;**是，删除它**&#x200B;以确认删除。
+      1. 单击&#x200B;**删除**，然后单击&#x200B;**删除**&#x200B;以确认删除。
 
          已删除任务。
 
@@ -149,7 +149,7 @@ ht-degree: 1%
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 单击&#x200B;**删除任务**。
-1. 如果允许删除，请单击&#x200B;**是，删除**。
+1. 如果允许删除，请单击&#x200B;**删除**。
 
    您的Workfront管理员或组管理员可能不允许删除记录了小时数的任务。
 
