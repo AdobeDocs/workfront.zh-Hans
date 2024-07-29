@@ -6,9 +6,9 @@ description: 您可以将艺术展示板上传为文档，以便快速审阅和�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 您可以将艺术展示板作为验证直接上传到[!DNL Adobe Workfront]以进行彻底审阅和批准。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、角色或验证权限配置文件，请联系您的[!DNL Workfront]或[!DNL Workfront Proof]管理员。
+
++++
 
 ## 先决条件
 

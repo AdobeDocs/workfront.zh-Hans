@@ -6,9 +6,9 @@ description: 您可以使用Adobe Workfront插件更新您的工作。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 2%
 
 {{cc-app-list}}
 
-
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -51,11 +52,13 @@ ht-degree: 2%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
++++
+
 ## 先决条件
 
 {{cc-install-prereq}}
 
-## Post更新
+## 发布更新
 
 您可以从插件的以下任意区域更新您的工作：
 

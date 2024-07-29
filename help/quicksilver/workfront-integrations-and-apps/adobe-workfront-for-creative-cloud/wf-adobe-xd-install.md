@@ -6,9 +6,9 @@ description: 您可以从Adobe市场安装Adobe Workfront for XD插件。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 1%
 * 朝鲜语
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -54,6 +56,8 @@ ht-degree: 1%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+
++++
 
 ## 先决条件
 
