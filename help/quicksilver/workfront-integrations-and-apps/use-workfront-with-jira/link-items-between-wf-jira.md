@@ -6,9 +6,9 @@ description: 您可以自动或手动将 [!DNL Jira] 问题链接到 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ ht-degree: 0%
 要手动将[!DNL Jira]问题链接到[!DNL Workfront]项，请执行以下操作：
 
 1. （视情况而定）登录到[!DNL Workfront]并找到要链接到[!DNL Jira]问题的问题或任务。
-1. （视情况而定）从项的地址栏中，复制Workfront中项的&#x200B;**URL**。
+1. （视情况而定）从[!UICONTROL 详细信息]区域，复制Workfront中该项的&#x200B;**[!UICONTROL 参考编号]**。
 
    或
 
-   从[!UICONTROL 详细信息]区域，复制Workfront中该项的&#x200B;**[!UICONTROL 参考编号]**。
+   从项目的地址栏中，复制Workfront中项目的&#x200B;**URL**。
+
+   >[!IMPORTANT]
+   >
+   >如果您的组织已载入到AdobeUnified Experience，则必须使用&#x200B;**参考编号**&#x200B;将Workfront项目链接到Jira。 （URL选项可用，但如果您使用它，则将返回错误。） 有关Unified Experience的信息，请参阅[为WorkfrontAdobeUnified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >
+   >对于不在Unified ExperienceAdobe上的组织，不建议使用URL选项，因为URL可能会发生更改。
 
    >[!NOTE]
    >
    >您必须拥有[!DNL Workfront]许可证才能登录到[!DNL Workfront]。 否则，[!DNL Workfront]用户必须提供此信息给您。
 
 1. 在[!DNL Jira]中，导航到要手动链接到[!DNL Workfront]项目的问题。
-1. 在[!DNL Workfront]右侧面板中，粘贴要链接到它的[!DNL Workfront]项的&#x200B;**URL**&#x200B;或&#x200B;**[!UICONTROL 参考号]**。
+1. 在[!DNL Workfront]右侧面板中，粘贴要链接到它的[!DNL Workfront]项的&#x200B;**[!UICONTROL 引用编号]**&#x200B;或&#x200B;**URL**。
 
 1. 单击&#x200B;**[!UICONTROL 链接]**。
 
