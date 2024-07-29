@@ -8,9 +8,9 @@ description: 您可以将用户添加到Adobe Admin Console并将其分配给Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -143,6 +143,6 @@ ht-degree: 1%
 
 ## 将[!DNL Adobe Admin Console]中的现有用户分配给[!DNL Workfront Fusion]
 
-1. 按照[!DNL Adobe Admin Console]文档中[单独管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)一文的“编辑用户详细信息”部分中的说明开始编辑用户。
+您可以在Fusion中将现有用户添加到团队。 这在Fusion中处理。
 
-1. 将&#x200B;**[!DNL Adobe Workfront Fusion]**&#x200B;添加到分配给用户的产品。
+有关说明，请参阅“将用户添加到Adobe Workfront Fusion中的组织或团队”一文中的[将用户添加到团队](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team)。
