@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看Workfront Planning的访问要求。
 
 <table style="table-layout:auto">
  <col>
@@ -102,6 +102,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -115,6 +117,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 
 ## 有关连接记录类型的注意事项
+
+<!--move this to the Connect record types overview article (new)-->
 
 * 您可以在Adobe Workfront Planning中连接以下实体：
 

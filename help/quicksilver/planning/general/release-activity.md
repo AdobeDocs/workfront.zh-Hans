@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '5493'
+source-wordcount: '5528'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,39 @@ Workfront规划方案自2023年5月22日开始。 有关2023年期间发布的�
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
 
 自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 本文中记录的所有功能当前都可在生产环境中使用。
+
+## 2024年7月29日起一周
+
+### Adobe Workfront规划公共API现已可用
+
+生产日期： 2024年7月30日
+
+预览：待定
+
+Adobe Workfront规划公共API现已可用。
+
+有关信息，请参阅[Adobe Workfront规划API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)。
+
+<!--
+### Share Workfront Planning views publicly
+
+(***************ensure this is available for *********ALL************** the views and not just the table---***********)
+
+Production: July 31, 2024 
+
+Preview: To be determined 
+
+To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
+
+The following capabilities are included with this update: 
+
+* Share the view of a record type page with a public link that would expire on a specific date. 
+
+* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
+
+* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
+
+For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## 2024年7月8日起一周
 

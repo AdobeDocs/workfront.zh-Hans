@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 访问要求
 
-您必须具有以下权限才能执行本文中的步骤：
++++ 展开以查看Workfront Planning的访问要求。
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-
++++
 
 ## 共享视图<!--internally-->的权限
 
@@ -141,8 +141,6 @@ ht-degree: 1%
    >[!TIP]
    >
    >   与您共享的视图在视图图标旁有一个人员指示符![](assets/view-shared-with-others-people-icon.png)。 没有人员指示器的视图是您创建的视图。
-
-
 
 <!--
 ## Share permissions to a view publicly

@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ ht-degree: 0%
   <tr> 
    <td>[！UICONTROL预算完成日期]</td> 
    <td> <p>这是已弃用的字段。 此字段可能显示的任何信息都与[!DNL Workfront]已删除的功能相关。 无法更新此字段。 </p>
-   <p> 此字段在[！UICONTROL项目]和[！UICONTROL任务]报告和列表中仍然可见。</p>  </td> 
+   <p> 此字段在[！UICONTROL项目]报告和列表中仍然可见。</p>  </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL预算成本]</td>
@@ -443,7 +443,7 @@ ht-degree: 0%
    <td>[！UICONTROL预算开始日期]</td> 
   <td> <p>这是已弃用的字段。 此字段可能显示的任何信息都与[!DNL Workfront]已删除的功能相关。 无法更新此字段。</p>
   <p>这些区域已从[!DNL Workfront]中移除。 </p> 
-  <p>该字段在[！UICONTROL项目]和[！UICONTROL任务]报告和列表中仍然可见。</p>
+  <p>该字段在[！UICONTROL项目]报告和列表中仍然可见。</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL计划成本]</td> 
    <td> <p>项目的[！UICONTROL计划劳力成本]和[！UICONTROL计划费用成本]的总和。 这不包括项目中的[！UICONTROL计划风险成本]。  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[！UICONTROL计划日期对齐方式]</td> 
+   <td> <p>这是一个自动指示器，表示Workfront分配了项目、任务和问题，以显示相对于其计划完成日期何时完成项目。 </p>
+   <p>计划日期对齐指示器的可能值如下： </p>
+<ul>
+<li>将在计划的完成日期完成</li>
+<li>将在计划的完成日期前完成</li>
+<li>将在计划的完成日期后完成</li></ul>
+<p>计划日期对齐在项目、任务、问题列表和报告中可见。 </p></td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL计划持续时间]</td> 
@@ -2417,7 +2430,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>定义所有者和利益相关者来管理指定问题、任务、项目、项目群或项目组合的范围、执行和批准。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL工作管理SLA]</td> 
+   <td>[！UICONTROL Work Management SLA]</td> 
    <td>所有利益相关者商定的可量化的指标。</td> 
   </tr> 
   <tr> 

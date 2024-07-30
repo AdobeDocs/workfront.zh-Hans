@@ -4,9 +4,9 @@ description: 作为营销运营负责人，您可以使用Adobe Workfront Planni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,12 @@ AI助手当前为测试版，当您向客户经理提出特殊请求时，可以
 
 ## 我们是否也可以使用API拉取Planning数据？
 
-可以。我们有一个Planning API以及Fusion连接器。 有关信息，请参阅[Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。 Workfront规划API的相关文档将很快发布。
+可以。我们有一个Planning API以及Fusion连接器。
+
+有关信息，请参阅以下文章：
+
+* [Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront规划API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -197,4 +202,9 @@ Public views that are shared are visible  -->
 
 ## 是否有可自定义的API使用我们自己的DAM而不是Adobe的DAM？
 
-我们有一个Planning API以及Fusion连接器。 有关信息，请参阅[Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)。 Workfront规划API的相关文档将很快发布。 您可以使用API构建自定义集成。
+可以。提供了Workfront规划公共API以及Fusion连接器。 您可以使用API构建自定义集成。
+
+有关信息，请参阅以下文章：
+
+* [Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront规划API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)
