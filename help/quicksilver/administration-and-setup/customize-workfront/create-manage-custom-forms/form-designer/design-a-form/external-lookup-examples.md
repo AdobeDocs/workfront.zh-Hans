@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
 
 本文提供了使用外部查找字段调用Workfront或公共API的相同实例的示例。 您还可以使用外部查找与外部系统（如Jira、Salesforce或ServiceNow）通信。
 
-外部查找字段仅在新的表单设计器中可用，在旧版表单生成器中不可用。 有关将外部查找字段添加到自定义表单以及外部查找组件的其他定义的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关将外部查找字段添加到自定义表单以及外部查找组件的其他定义的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 为同一Workfront实例设置外部查找字段
 
 您可以使用外部查找将Workfront实例中的数据纳入自定义表单。
+
+### 在外部查找中使用本机Workfront字段值
 
 此示例说明如何调用Workfront API，并将现有“状态查询”字段中的数据引入外部查找字段。
 
@@ -69,6 +71,43 @@ ht-degree: 0%
    ![具有外部查找字段的自定义表单](assets/external-lookup-project-status-example1.png)
 
    ![基于状态的外部查找选项](assets/external-lookup-project-status-example2.png)
+
+### 在外部查找中使用自定义字段值
+
+此示例说明如何调用Workfront API，并将自定义字段中的数据引入外部查找字段。 该示例自定义字段称为“自定义颜色”。
+
+1. 打开自定义表单。
+1. 在屏幕左侧，找到&#x200B;**外部查找**&#x200B;并将其拖动到画布上的某个部分。
+1. 输入字段的&#x200B;**标签**&#x200B;和&#x200B;**名称**。
+1. 为字段选择&#x200B;**格式**。
+1. 在&#x200B;**基本API URL**&#x200B;字段中输入API URL调用。
+
+   **示例**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. 查看&#x200B;**依赖项**，了解此查找字段在API中引用的字段。
+
+   依赖项字段可以是对象详细信息页面中存在的任何自定义或本机字段。
+
+1. 选择&#x200B;**HTTP方法**。
+
+   这很可能是&#x200B;**Get**。
+
+1. 输入&#x200B;**JSON路径**&#x200B;以获取API调用结果。
+
+   **示例**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * “parameterValues”是指Workfront中您所在对象的任何自定义字段。
+   * 在本例中，“DE：组合颜色”是包含要检索的值的特定自定义字段。
+
+   >[!NOTE]
+   >
+   >调用同一Workfront实例不需要&#x200B;**标头**&#x200B;信息。
+
+1. 单击&#x200B;**应用**。
+
+   将自定义表单添加到Workfront对象后，“组合颜色”字段中的所有值都会显示在外部查找字段下拉列表中。
 
 ## 为公共API设置外部查找字段
 
