@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 0%
@@ -339,6 +339,7 @@ You can add updates to the following objects:
    | 超链接 | ![mceclip7.png](assets/mceclip7.png) | <br>打开“添加链接”框： ⌘+K</br> <br>要在所选文本上粘贴链接： ⌘+V</br> | <br>打开“添加链接”框： Ctrl+K</br> <br>要在所选文本上粘贴链接： Ctrl+V</br> |
    | 项目符号列表 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 编号列表 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->

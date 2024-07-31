@@ -6,7 +6,7 @@ description: 您可以创建批准模板以简化批准流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ ht-degree: 2%
    |----------------------------|---|
    | **（可选）时间范围** | 以天为单位输入时间范围。 将模板应用于资产后，会从此字段计算审批截止日期。 |
    | **添加批准者或审阅者** | 开始键入用户或团队的名称，然后将其指定为审阅者或审批者。 |
+
 1. 单击&#x200B;**保存**。
 
 
