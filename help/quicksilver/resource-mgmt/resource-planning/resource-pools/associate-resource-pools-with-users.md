@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: 将资源池与用户关联
-description: 将资源池与用户关联
-author: Alina
+description: 必须先创建资源池，然后才能将其与用户关联。 在创建资源池时，可以将用户与资源池相关联。
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---

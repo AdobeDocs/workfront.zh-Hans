@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: 从资源池中删除用户
 description: 虽然资源池中的用户可以数量没有限制，但用户列表仅显示前2000个用户（按字母顺序列出）。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
 
 # 从资源池中删除用户
+
+{{highlighted-preview}}
 
 虽然资源池中的用户可以数量没有限制，但用户列表仅显示前2000个用户（按字母顺序列出）。
 
@@ -22,6 +24,8 @@ ht-degree: 1%
 有关资源池的详细信息，请参阅[资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -51,23 +55,30 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 从资源池中删除用户
 
 当资源池中不再需要某些用户时，可以从资源池中删除这些用户。
 
 要从资源池中删除用户，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。
 1. 单击左侧面板中的&#x200B;**资源池**。
-1. 选择资源池并单击**编辑。**或\
+1. 选择资源池并单击&#x200B;**编辑**。
+或\
    单击资源池的名称。
 
 1. 在&#x200B;**在此资源池**&#x200B;中搜索字段中开始键入要删除的用户名。\
    或\
-   如果要删除与这些实体关联的所有用户，请开始键入公司、工作角色、团队或组的名称。\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   如果要删除与这些实体关联的所有用户，请开始键入公司、工作角色、团队或组的名称。
+
+   <span class="preview">预览环境中的示例图像：<span>
+   <span class="preview">![从资源池中删除用户](assets/remove-users-from-resource-pool.png)<span>
+
+   生产环境中的示例图像：
+   ![在资源池中搜索](assets/search-inside-new-resource-pool-350x314.png)
 
 1. 单击用户级别的“x”图标可从资源池中删除用户。 它们会从显示的所有列表中删除。\
    或\

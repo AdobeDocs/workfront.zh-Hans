@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
 title: 创建和编辑业务规则
-description: 您可以选择按月还是按季度接收新的Workfront功能。
+description: 业务规则允许您对Workfront对象应用验证，并阻止用户在满足某些条件时创建、编辑或删除对象。 业务规则通过防止可能会损害数据完整性的操作，帮助提高数据质量和运营效率。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
+source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
