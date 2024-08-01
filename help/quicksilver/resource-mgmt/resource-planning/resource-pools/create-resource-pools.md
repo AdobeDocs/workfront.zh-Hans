@@ -6,9 +6,9 @@ description: 资源池是用户集合，可帮助您更轻松地在Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ ht-degree: 1%
     </tbody>
    </table>
 
-1. （可选）使用&#x200B;**撤消**&#x200B;链接删除通过组、团队、公司或工作角色添加的用户。 <span class="preview">（撤消功能在预览环境中暂时不可用。）</span>
+1. （可选）使用&#x200B;**撤消**&#x200B;链接删除通过组、团队、公司或工作角色添加的用户。
 
    >[!NOTE]
    >
    >资源池中的用户数量没有限制。 但是，我们建议不要向资源池添加太多用户，否则资源管理可能会成为一个挑战。 用户列表仅显示资源池中的前2,000个用户，并且按字母顺序列出。
 
    <span class="preview">预览环境中的示例图像：</span>
-   <span class="preview">![个用户已添加到资源池](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![个用户已添加到资源池](assets/users-in-resource-pool2.png)</span>
 
    生产环境中的示例图像：
    ![个用户已添加到资源池](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
