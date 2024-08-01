@@ -6,16 +6,16 @@ description: 您可以通过调整浏览器上的语言首选项以及Adobe Work
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront支持的语言
 
-您可以通过调整浏览器上的语言首选项以及Adobe Workfront中的默认电子邮件区域设置，更改显示来自Workfront的Workfront和电子邮件的语言。
+您可以通过调整浏览器上的语言偏好设置（如果不是在IMS上）或Adobe Workfront配置文件语言偏好设置（如果是在IMS上）以及Workfront中的默认电子邮件区域设置，来更改显示来自Workfront的Adobe Experience Cloud和电子邮件的语言。
 
 每次Workfront更新时，Workfront术语都会针对支持的语言进行更新。
 

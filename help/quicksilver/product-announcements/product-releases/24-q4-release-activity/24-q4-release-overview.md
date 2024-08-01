@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Workfront Fusion中的新增功能在2024年第四季度发布计划之外的“
 ### 培训更新
 
 浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
+
+### 即将从Workfront中删除的功能
+
+以下功能即将从Workfront中删除：
+
+#### 在24.10中弃用旧版主页体验
+
+我们将正式在24.10版本中弃用旧版主页体验。 我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息（包括用户和管理员可做哪些准备工作），请参阅此处。

@@ -4,9 +4,10 @@ description: 2024年第四季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,37 @@ ht-degree: 0%
 本页介绍在2024年第四季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2024年第四季度版本的所有可用更改列表，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 删除用户和停用用户消息的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+
+删除用户和停用用户在删除或停用用户时看到的用户确认消息已更新为更加现代的设计，与Workfront的其他区域一致。
+
+有关删除和停用用户的信息，请参阅[删除用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)和[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+
+## 删除任务消息的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年7月26日；适用于所有客户的生产版本： 2024年8月8日
+
+用户在删除任务时看到的删除任务确认消息已更新为更新版设计，与Workfront的其他区域保持一致。
+
+有关删除任务的信息，请参阅[删除任务](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)。
+
+
+## “资源池”页的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年7月25日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+
+我们更新了“资源池”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
+
+有关信息，请参阅[创建资源池](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
 ## “通知”页面的外观更新
 
