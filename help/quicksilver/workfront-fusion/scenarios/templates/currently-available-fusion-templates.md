@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion中当前提供以下公共模板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Adobe Workfront Fusion中当前提供以下公共模板。
 ### [!BADGE 新！]{type=Informative}
 
 此Fusion模板为定时输入特定展示板上特定列的所有信息卡创建标准核对清单。
+
+### [!BADGE 新！]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+此方案由正在创建的新项目触发。 在此方案中，您可以创建以项目命名的展示板，根据需求重命名或创建列，创建自定义标记，并将引入列过滤器与原始项目关联。  还可以进行数千项其他更改，但从此处开始，您将看到为组织的董事会标准化创建起点的可能性。
 
 ### Workfront — 从CSV创建项目
 
