@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
 
 您可以通过执行以下操作之一来创建记录：
 
-* 为记录类型手动创建它们
-* 通过复制和粘贴外部列表中的信息创建记录。
+* 从记录类型页面添加它们
+* 从外部列表中复制并粘贴记录列表
+* 复制它们
 
 本文介绍了如何创建记录。 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
 
@@ -95,7 +96,7 @@ ht-degree: 0%
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 通过手动将记录添加到记录类型<!--in a record type table (I don't think you can create them elsewhere right now)-->来创建记录
+## 通过将记录添加到记录类型<!--in a record type table (I don't think you can create them elsewhere right now)-->来创建记录
 
 您可以在记录类型页面的表格视图中创建记录。
 
@@ -118,7 +119,8 @@ ht-degree: 0%
 
       * 在表的最后一行中单击&#x200B;**新建记录**
 
-      * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会添加一个空行。
+      * 在键盘上从表格的任意列或行单击&#x200B;**Shift + Enter**。 这会在您开始的记录下添加一个空行。
+      * 将鼠标悬停在记录的主字段上，单击该字段右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**在上方插入记录**&#x200B;或&#x200B;**在下方插入记录**。
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## 通过复制和粘贴外部列表中的信息创建记录
+## 通过从外部列表中复制和粘贴记录来创建记录
 
 1. 开始在“表”视图中创建记录，如[通过手动将记录添加到本文中的记录类型](#create-records-by-manually-adding-them-to-a-record-type)来创建记录一节中所述。
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * 行包含新记录
    * 列填充记录字段的信息。
+
+
+## 通过复制记录创建记录
+
+有关复制记录的信息，请参阅[复制记录](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。

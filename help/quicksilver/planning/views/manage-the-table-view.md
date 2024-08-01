@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ hide: yes
 
 在一个表格视图中最多可添加500个字段（或列）。
 
-1. 转到记录类型页面，然后从视图下拉菜单中选择&#x200B;**表**&#x200B;视图。
+1. 转到记录类型页面并单击表视图选项卡，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 开始添加字段（或列），如[创建字段](/help/quicksilver/planning/fields/create-fields.md)一文中所述。
 
    您添加的列对访问记录类型的所有用户都可见，并且作为新字段添加到记录的页面上。
@@ -213,9 +212,8 @@ hide: yes
 
 对于记录类型，最多可以有50,000条记录（或行）。
 
-1. 转到记录类型页面，然后从视图下拉菜单中选择&#x200B;**表**&#x200B;视图。
+1. 转到记录类型页面并单击表视图选项卡，或单击&#x200B;**+视图**&#x200B;以添加新视图，然后选择&#x200B;**表**。
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 开始添加记录（或行），如[创建记录](/help/quicksilver/planning/records/create-records.md)一文中所述。
 
    您在表视图中添加的记录会立即保存，并且所有对工作区具有“查看”或更高权限的用户都可以看到这些记录。
@@ -229,13 +227,8 @@ hide: yes
    >[!NOTE]
    >
    >如果对表视图至少应用一种排序，则无法对行重新排序。
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >您对行顺序所做的更改对访问记录类型的所有用户均可见
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ hide: yes
 过滤器可帮助您减少屏幕上显示的信息量。
 
 在表格视图中使用过滤器时，请考虑以下事项：
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 为表格视图创建的筛选器在应用于同一记录类型时独立于时间轴视图中的筛选器。
