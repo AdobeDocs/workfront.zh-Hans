@@ -11,87 +11,83 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 35c4043c40a374006e0023be5a1e942e95a63863
+source-git-commit: 5c80b8f7c8934500679d31fc15a06fe3789a6f2b
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '3659'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Journey Optimizer]模块
 
->[!IMPORTANT]
->
->此连接器已被弃用，因为它基于现已弃用的Adobe Journey Optimizer API。
->
->我们目前正在开发基于新Adobe Journey Optimizer API的新连接器。
-
-<!--
-
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
+在[!DNL Adobe Workfront Fusion]方案中，您可以自动使用[!DNL Adobe Journey Optimizer]的工作流，并将其连接到多个第三方应用程序和服务。 [!DNL Adobe Journey Optimizer]模块允许您创建、读取、更新或删除记录，或执行对[!DNL Adobe Journey Optimizer] API的自定义API调用。
 
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+如果需要有关创建方案的说明，请参阅[创建方案](../../workfront-fusion/scenarios/create-a-scenario.md)。
 
-For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
 
-## Access requirements
+## 访问要求
 
-You must have the following access to use the functionality in this article:
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能使用本文中的功能：
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] 计划*</td>
       <td>
-        <p>[!UICONTROL Pro] or higher</p>
+        <p>[！UICONTROL Pro]或更高版本</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td>
       <td>
-        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
+        <p>[！UICONTROL计划]，[！UICONTROL工作]</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
+      <td role="rowheader">[!DNL Adobe Workfront Fusion] 许可证**</td>
       <td>
-   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
-   <p>Or</p>
-   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>当前许可证要求：无[!DNL Workfront Fusion]许可证要求。</p>
+   <p>或</p>
+   <p>旧版许可证要求：[！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">产品</td>
       <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>Or</p>
-   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   <p>当前产品要求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]计划，则贵组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]才能使用本文中描述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]计划中。</p>
+   <p>或</p>
+   <p>旧版产品要求：您的组织必须购买[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文中介绍的功能。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## Prerequisites
++++
 
-Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
+## 先决条件
 
-* You must have an active [!DNL Adobe Journey Optimizer] account.
+在使用[!DNL Adobe Journey Optimizer]连接器之前，必须确保满足以下先决条件：
 
-## Create a connection to [!DNL Adobe Journey Optimizer]
+* 您必须拥有有效的[!DNL Adobe Journey Optimizer]帐户。
 
-To create a connection for your [!DNL Adobe Journey Optimizer] modules:
+## 创建与Adobe Journey Optimizer的连接
 
-1. In any [!DNL Adobe Journey Optimizer] module, click **[!UICONTROL Add]** next to the Connection box.
+您可以在任意Adobe Journey Optimizer模块中创建连接。
 
-1. Fill in the following fields:
+1. 单击“连接”框旁边的&#x200B;**[!UICONTROL 添加]**。
+
+1. 填写以下字段：
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -100,561 +96,1295 @@ To create a connection for your [!DNL Adobe Journey Optimizer] modules:
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL Connection name]</td>
-          <td>
-            <p>Enter a name for this connection.</p>
-          </td>
+        <td role="rowheader">[！UICONTROL连接名称]</td>
+        <td>
+          <p>输入此连接的名称。</p>
+        </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
+        <td role="rowheader">[！UICONTROL环境]</td>
+        <td>选择您要连接到生产环境还是非生产环境。</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        <td role="rowheader">[！UICONTROL类型]</td>
+        <td>选择您是要连接到服务帐户还是个人帐户。</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Technical account ID]</td>
-          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        <td role="rowheader">[！UICONTROL客户端ID]</td>
+        <td>输入您的[！UICONTROLAdobe] [！UICONTROL客户端ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Organization ID]</td>
-          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        <td role="rowheader">[！UICONTROL客户端密钥]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL客户端密钥]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Meta scopes]</td>
-          <td>
-            Enter any meta scopes needed for the connection.
-          </td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Private key]</td>
-          <td>
-            <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
-            <p>To extract your private key or certificate:</p>
-            <ol>
-              <li value="1">
-                <p>Click <b>[!UICONTROL Extract]</b>.</p>
-              </li>
-              <li value="2">
-                <p>Select the type of file you are extracting.</p>
-              </li>
-              <li value="3">
-                <p>Select the file that contains the private key or certificate.</p>
-              </li>
-              <li value="4">
-                <p>Enter the password for the file.</p>
-              </li>
-              <li value="5">
-                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
-              </li>
-            </ol>
-          </td>
+        <td role="rowheader">[！UICONTROL组织ID]</td>
+        <td>输入您的[!DNL Adobe] [！UICONTROL组织ID]。 可在[！UICONTROL Credentials]的 [!DNL Adobe Developer Console]</td>
         </tr>
       </tbody>
     </table>
-1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## [!DNL Adobe Journey Optimizer] modules and their fields
 
-When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+## [!DNL Adobe Journey Optimizer]模块及其字段
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+配置[!DNL Adobe Journey Optimizer]模块时，[!DNL Workfront Fusion]显示下面列出的字段。 除此以外，可能还会显示其他[!DNL Adobe Journey Optimizer]字段，具体取决于应用程序或服务中的访问级别等因素。 模块中的粗体标题表示必填字段。
+
+如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
 ![](assets/map-toggle-350x74.png)
 
-* [Actions](#actions)
-* [Searches](#searches)
+* [配置管理](#configuration-management)
+* [包管理](#package-management)
+* [记录管理](#record-management)
+* [消息管理](#message-management)
+* [状态检查](#status-checks)
+* [搜索](#searches)
+* [其他](#other)
 
-### Actions
 
-* [[!UICONTROL Create a record]](#create-a-record)
-* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
-* [[!UICONTROL Delete a record]](#delete-a-record)
-* [[!UICONTROL Update a record]](#update-a-record)
 
-#### [!UICONTROL Create a record]
 
-This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
+### 配置管理
 
-<table>
+* [创建配置](#create-a-configuration)
+* [部署配置](#deploy-a-configuration)
+* [更新配置](#update-a-configuration)
+* [取消部署配置](#undeploy-a-configuration)
+* [检查配置是否可以部署](#check-if-configuration-can-be-deployed)
+* [删除配置](#delete-a-configuration)
+* [获取配置](#get-a-configuration)
+
+#### 创建配置
+
+此操作模块创建上限端点或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是创建上限配置还是限制配置。<ul><li><p><b>上限</b></p>继续<a href="#capping-fields" class="MCXref xref" >设置字段上限</a>。</li><li><p><b>限制</b></p>继续<a href="#throttling-fields" class="MCXref xref" >限制字段</a>。</li></ul></td> 
+  </tr> 
+   </tbody> 
+</table>
+
+##### 字段上限
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td>输入或映射要配置的端点的URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL IMS组织ID]</td> 
+   <td>输入或映射组织的Adobe IMS ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td>选择要在此配置中使用的方法。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL服务]</td> 
+   <td>选择您是使用此配置的操作还是数据源。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL最大HTTP连接数]</td> 
+   <td>输入或映射与此端点的最大同时连接数。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL最大调用数]</td> 
+   <td>输入或映射“时间段”字段中指定的时间段内要执行的最大呼叫数。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL时段（毫秒）]</td> 
+   <td>输入或映射与最大调用数字段相关的毫秒数。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 限制字段
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[！UICONTROL名称]</td> 
+   <td>输入或映射此配置的名称。</td> 
+<tr> 
+   <td role="rowheader">[！UICONTROL描述]</td> 
+   <td>输入或映射此配置的描述。</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[！UICONTROL URL模式]</td> 
+   <td>输入或映射要限制的终结点的URL。</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td>选择要在此配置中使用的方法。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL最大吞吐量]</td> 
+   <td>选择您是使用此配置的操作还是数据源。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL最大HTTP连接数]</td> 
+   <td>输入或映射与此端点的最大同时连接数。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL最大调用数]</td> 
+   <td>输入或映射您要为此端点设置的最大吞吐量。 此值必须介于200和5000之间。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 部署配置
+
+此操作模块部署指定的上限或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是部署上限配置还是限制配置。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL配置ID]</td> 
+   <td>输入或映射要部署的配置的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 更新配置
+
+此操作模块可更新指定的上限或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是更新上限配置还是限制配置。<ul><li><p><b>上限</b></p>有关字段，请参阅本文创建配置部分中的<a href="#capping-fields" class="MCXref xref" >字段上限</a>。</li><li><p><b>限制</b></p>有关字段，请参阅本文创建配置部分中的<a href="#throttling-fields" class="MCXref xref" >限制字段</a>。</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### 取消部署配置
+
+此操作模块可取消部署上限或限制配置。 配置状态已更改回部署（`created`或`updated`）之前的状态。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是取消部署上限配置还是限制配置。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL配置ID]</td> 
+   <td>输入或映射要取消部署的配置的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 检查配置是否可以部署
+
+此操作模块验证是否可以部署上限或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择您是检查上限配置还是限制配置。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL配置ID]</td> 
+   <td>输入或映射要检查的配置的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 删除配置
+
+此操作模块删除上限端点或限制配置。
+
+如果已部署配置，则必须先取消部署该配置，然后才能将其删除。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是删除上限配置还是限制配置。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL配置ID]</td> 
+   <td>输入或映射要删除的配置的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 获取配置
+
+此操作模块返回由指定ID标识的上限或限制配置。 将返回最新的定义。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择是检索上限配置还是限制配置。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL配置ID]</td> 
+   <td>输入或映射要检索的配置的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+### 包管理
+
+* [创建资源包](#create-a-package)
+* [更新包](#update-a-package)
+* [删除资源包](#delete-a-package)
+* [查找包](#look-up-a-package)
+* [导入资源包](#import-a-package)
+* [Publish包](#publish-a-package)
+* [提交导入](#submit-an-import)
+
+
+
+#### 创建资源包
+
+此操作模块创建一个多工件包。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL名称]</td> 
+   <td>输入或映射包的名称。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL描述]</td> 
+   <td>输入或映射包的描述。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL过期日期]</td> 
+   <td>输入或映射定义包到期日期的时间戳。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包类型]</td> 
+   <td>选择要创建的包类型。<ul><li><p><b>完全</b></p>程序包将包含所有工件</p></li><li><p><b>部分</b></p><p>该资源包将仅包含您添加的工件。 </p></li><ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL工件]</td> 
+   <td>如果要创建部分包，请为每个要添加的项目单击<b>添加项目</b>并指定项目的ID、类型和标题。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source Sandbox]</td> 
+   <td>输入或映射沙盒的名称和IMS组织ID，该沙盒包含您希望包中包含的项目。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 更新包
+
+此操作模块从包中添加或删除工件，或者更新包元数据。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择操作]</td> 
+   <td>选择要执行的操作。<ul><li><p><b>添加工件</b></p><p>对于要添加的每个项目，单击<b>添加项目</b>并指定项目的ID、类型和标题，然后输入或映射包的到期日期。 </p></li><li><p><b>删除构件</b></p><p>对于要删除的每个项目，单击<b>添加项目</b>并指定项目的ID、类型和标题。 </p></li><li><p><b>更新元数据</b></p><p>为名称、描述或源沙盒的名称或IMS组织ID输入新值。</p></li></ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 删除资源包
+
+此操作模块删除多工件包。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要删除的程序包的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 查找包
+
+此操作模块可检索指定包的详细信息。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要为其返回详细信息的程序包的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 导入资源包
+
+此操作模块获取指定目标沙盒中的冲突对象。 冲突对象表示目标沙盒中已存在的类似对象。
+
+在导入包之前，您必须先发布包。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要导入的程序包的ID。</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[！UICONTROL Target沙盒]</td> 
+   <td>输入或映射要从中导入包的沙盒的名称。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Publish包
+
+在导入包之前，您必须先发布包。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要发布的包的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 提交导入
+
+该操作模块在您检查了冲突并提供替代之后，会提交资源包的导入。 结果作为有效负载提供，有效负载将启动在有效负载中指定的目标沙盒的导入作业。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要发布的包的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL名称]</td> 
+   <td>输入或映射导入作业的名称。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL描述]</td> 
+   <td>输入或映射导入作业的描述</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL（目标沙盒）名称]</td> 
+   <td>输入或映射要将导入提交到的沙盒的名称。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL（目标沙盒） IMS组织ID]</td> 
+   <td>输入或映射要将导入提交到的沙盒的Adobe IMS组织ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL (Source sandbox) ID]</td> 
+   <td>输入或映射包含要发布的包的沙盒的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL (Source sandbox)类型]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL (Source sandbox)链接]</td> 
+   <td>输入或映射要发布的包的链接。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+<!--
+
+### Artifact management
+
+* [Copy artifacts synchronously](#copy-artifacts-synchronously)
+* [Export artifacts asynchronously](#export-artifacts-asynchronously)
+* [Import artifacts asynchronously](#import-artifacts-asynchronously)
+
+#### Copy artifacts synchronously
+
+This action module copies artifacts from a source sandbox into a destination sandbox.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the new file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the new file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination sandbox]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>For each artifact you want to copy, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Artifact fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the artifact.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Version]</td> 
+   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Found]</td> 
+   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tasks]</td> 
+   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
+   <ul>
+   <li><p><b>Method</b></p></li>
+   <li><p><b>Action</b></p></li>
+   <li><p><b>Using</b></p></li>
+   <li><p><b>With</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Messages]</td> 
+   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
+   <ul>
+   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
+   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
+   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
+   <li><p><b>Object</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Export Artifacts asynchronously
+
+This action module exports artifacts from the specified sandbox.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>For each artifact you want to export, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Artifact fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the artifact.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Version]</td> 
+   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Found]</td> 
+   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tasks]</td> 
+   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
+   <ul>
+   <li><p><b>Method</b></p></li>
+   <li><p><b>Action</b></p></li>
+   <li><p><b>Using</b></p></li>
+   <li><p><b>With</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Messages]</td> 
+   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
+   <ul>
+   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
+   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
+   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
+   <li><p><b>Object</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+#### Import Artifacts asynchronously
+
+This action module imports a snapshot containing artifacts.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Snapshot ID]</td> 
+   <td>Enter or map the ID of the snapshot you want to import.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
+### 记录管理
+
+* [创建记录](#create-a-record)
+* [更新记录](#update-a-record)
+* [删除记录](#delete-a-record)
+* [修补记录](#patch-a-record)
+* [获取记录](#get-a-record)
+
+#### 创建记录
+
+此操作模块创建新的内容模板或内容片段。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择是创建内容模板还是内容片段。<ul><li><p><b>内容模板</b></p>继续<a href="#template-fields" class="MCXref xref" >模板字段</a>。</li><li><p><b>内容片段</b></p>继续<a href="#fragment-fields" class="MCXref xref" >片段字段</a>。</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+##### 模板字段
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[！UICONTROL名称]</td> 
+   <td>输入或映射此内容模板的名称。</td> 
+<tr> 
+   <td role="rowheader">[！UICONTROL描述]</td> 
+   <td>输入或映射此内容模板的描述。</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[！UICONTROL类型]</td> 
+   <td>选择要创建的模板类型。</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL通道]</td> 
+   <td>选择此模板中包含的渠道。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL内容模板来源]</td> 
+   <td>选择此模板的源。</td>  
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL元数据]</td> 
+   <td>要在新模板中包含自定义属性，请选择“添加元数据”，然后输入或映射元数据的键和值。 对每个要包含的自定义字段重复执行上述操作。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL电子邮件HTML]</td> 
+   <td>输入或映射此模板中包含的电子邮件HTML。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL编辑器上下文]</td> 
+   <td>要在电子邮件中包含自定义属性，请选择“添加编辑器上下文”，然后输入或映射上下文的键和值。 对每个要包含的自定义字段重复执行上述操作。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 片段字段
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[！UICONTROL名称]</td> 
+   <td>输入或映射此内容片段的名称。</td> 
+<tr> 
+   <td role="rowheader">[！UICONTROL描述]</td> 
+   <td>输入或映射此内容片段的描述。</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[！UICONTROL类型]</td> 
+   <td>选择要创建的模板类型。</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL通道]</td> 
+   <td>选择此模板中包含的渠道。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL内容片段来源]</td> 
+   <td>选择此片段的源。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL元数据]</td> 
+   <td>要在新模板中包含自定义属性，请选择“添加元数据”，然后输入或映射元数据的键和值。 对每个要包含的自定义字段重复执行上述操作。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL内容]</td> 
+   <td>输入或映射片段的内容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL编辑器上下文]</td> 
+   <td>要在电子邮件中包含自定义属性，请选择“添加编辑器上下文”，然后输入或映射上下文的键和值。 对每个要包含的自定义字段重复执行上述操作。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 更新记录
+
+此操作模块更新内容模板或片段。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择是更新上限配置还是限制配置。<ul><li><p><b>模板</b></p>有关字段，请参阅本文创建记录部分中的<a href="#template-fields" class="MCXref xref" >模板字段</a>。</li><li><p><b>片段</b></p>有关字段，请参阅本文创建记录一节中的<a href="#fragment-fields" class="MCXref xref" >片段字段</a>。</li></ul></td> 
+  </tr> 
+  </tbody> 
+  </table>
+
+#### 删除记录
+
+此操作模块可删除内容模板或内容片段。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择您要删除内容模板还是内容片段。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模板/片段ID]</td> 
+   <td>输入或映射要删除的模板或片段的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 修补记录
+
+此操作模块使用带JSON指针格式的PATCH更新记录
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择是要修补内容模板还是内容片段。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模板/片段ID]</td> 
+   <td>输入或映射要修补的模板或片段的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL有效负载数据]</td> 
+   <td>要将记录添加到此修补程序的负载中，请执行以下操作： <ol><li>单击<b>添加记录</b>。</li><li>选择操作：“添加”、“移除”或“替换”。</li><li>在“路径”字段中，选择要为名称或说明打补丁。</li><li> 在从字段中，输入或映射包含JSON指针值的字符串。</li><li>在“值”字段中，输入要在工序中使用的值。</li></ol></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 获取记录
+
+此操作模块返回由指定ID标识的内容模板或内容片段。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择是检索内容模板还是内容片段。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模板/片段ID]</td> 
+   <td>输入或映射要检索的模板或片段的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### 消息管理
+
+* [触发单一消息执行](#trigger-a-unitary-message-execution)
+* [触发基于受众的消息](#trigger-an-audience-based-message)
+* [检查基于受众的消息的状态](#check-the-status-for-audience-based-message)
+
+
+
+#### 触发单一消息执行
+
+此操作模块会向您指定的收件人触发一条单一消息。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL请求ID]</td> 
+   <td>输入或映射与此消息关联的请求的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL营销活动ID]</td> 
+   <td>输入或映射与此消息关联的营销活动的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL收件人]</td> 
+   <td>对于要接收此邮件的每个收件人，单击<b>添加收件人</b>并输入以下内容：
+   <ul>
+   <li><p><b>类型</b></p>选择 <code>aep</code>。</li>
+   <li><p><b>用户 ID</b></p>输入或映射收件人的Adobe Experience Platform配置文件标识符。</li>
+   <li><p><b>命名空间</b></p>输入或映射收件人的Adobe Experience Platform配置文件命名空间。</li>
+   <li><p><b>电子邮件地址</b></p></li>
+   <li><p><b>手机号码</b></p></li>
+   <li><p><b>名字</b></p></li>
+   <li><p><b>姓氏</b></p></li>
+   <li><p><b>产品</b></p>输入或映射与此消息关联的产品。 这用于消息内容中的动态变量替换。</li>
+   </ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 触发基于受众的消息
+
+此操作模块根据您指定的请求和活动，触发基于受众的消息的执行。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL请求ID]</td> 
+   <td>输入或映射与此消息关联的请求的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL营销活动ID]</td> 
+   <td>输入或映射与此消息关联的营销活动的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL产品]</td> 
+   <td>输入或映射与此消息关联的产品。 这用于消息内容中的动态变量替换。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 检查基于受众的消息的状态
+
+此操作模块检查基于受众的批量消息的状态。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL消息执行ID]</td> 
+   <td>输入或映射要检查的消息执行ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 状态检查
+
+<!--* [Check service health](#check-service-health)-->
+* [检查导入依赖关系](#check-the-import-dependencies)
+* [检查导入作业的状态](#check-the-status-of-an-import-job)
+
+<!--
+
+#### Check service health
+
+This action module checks that the service represented by the connection is running.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
+#### 检查导入依赖关系
+
+此操作模块检查包对象的依赖关系。 这允许您检查您是否具有导入包对象的权限。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要检查其权限的包ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Target沙盒]</td> 
+   <td>输入或映射要将包导入到的沙盒的名称。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 检查导入作业的状态
+
+此操作模块检查导入作业是成功还是失败。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL作业ID]</td> 
+   <td>输入或映射要为其检索数据的作业的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 搜索
+
+* [列出所有依赖对象](#list-all-dependent-objects)
+* [列出配置](#list-configurations)
+* [列出导出和导入作业](#list-export-and-import-jobs)
+* [列出包](#list-packages)
+* [列出记录](#list-records)
+
+#### 列出所有依赖对象
+
+此搜索模块列出指定程序包中对象的所有依赖对象
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包对象]</td> 
+   <td>对于包中要返回其依赖对象的每个对象，单击<b>添加对象</b>并输入对象的名称和类型。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL包ID]</td> 
+   <td>输入或映射要为其列出依赖对象的程序包的ID。</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[！UICONTROL Target沙盒]</td> 
+   <td>输入或映射沙盒的名称，该沙盒包含要为其列出依赖对象的包。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 列出配置
+
+此操作模块列出了所有上限或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择配置类型]</td> 
+   <td>选择您要列出上限配置还是限制配置。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 列出导出和导入作业
+
+此搜索模块列出了当前的导出和导入作业。 您可以使用查询参数来筛选列表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL开始]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL返回结果的最大数目]</td> 
+      <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Order by]</td> 
+      <td>选择是按创建日期还是按修改日期对结果进行排序。</td>
+  </tr> 
+    <tr> 
+   <td role="rowheader">[！UICONTROL查询参数]</td> 
+   <td>对于要作为筛选依据的每个查询参数，单击<b>添加查询参数</b>，然后选择字段和运算符，输入筛选器的字段值。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+#### 列出包
+
+此搜索模块列出了您组织中的所有资源包。 您可以使用查询参数来筛选列表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL开始]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL返回结果的最大数目]</td> 
+      <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Order by]</td> 
+      <td>选择是按创建日期还是按修改日期对结果进行排序。</td>
+  </tr> 
+    <tr> 
+   <td role="rowheader">[！UICONTROL查询参数]</td> 
+   <td>对于要作为筛选依据的每个查询参数，单击<b>添加查询参数</b>，然后选择字段和运算符，输入筛选器的字段值。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 列出记录
+
+此搜索模块列出了所有上限或限制配置。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL选择内容类型]</td> 
+   <td>选择是检索内容模板还是内容片段。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Order by]</td> 
+   <td>输入或映射要作为此列表排序依据的参数名称。 添加<code>-</code>或<code>+</code>以按降序或升序排序。 如果未指定符号，则列表将降序排序。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL开始]</td> 
+   <td>此字段用于分页。 根据排序依据字段中指定的属性，输入或映射下一页的条件。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Order by]</td> 
+   <td>输入或映射要作为此列表排序依据的参数名称。 添加<code>-</code>或<code>+</code>以按降序或升序排序。 如果未指定符号，则列表将降序排序。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL按属性筛选]</td> 
+   <td>对于要添加的每个属性筛选器，单击<b>添加项</b>并输入属性的键和值。 列表中包括为该属性指定的值的记录。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### 其他
+
+
+#### 进行自定义API调用
+
+此操作模块对Adobe Journey Optimizer API进行自定义API调用。
+
+<table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td>有关创建与[!DNL Adobe Journey Optimizer]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >创建与[!DNL Adobe Journey Optimizer]</a>的连接。</td> 
     </tr>
     <tr>
-      <td role="rowheader">
-        [!UICONTROL Record type]
-      </td>
+      <td role="rowheader">[！UICONTROL URL]</td>
       <td>
-        Select the type of record that you want to create
-        <ul>
-        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >[!UICONTROL Placement] fields</a>.</li>
-        <li><b>[!UICONTROL Decision rule]</b>: Continue to <a href="#decision-rule-fields" >[!UICONTROL Decision rule] fields</a>.</li>
-        <li><b>[!UICONTROL Decision]</b>: Continue to <a href="#decision-fields" >[!UICONTROL Decision] fields</a>.</li>
-        <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
-        <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
-        <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
-        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Placement] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the placement.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Description]
-      </td>
-      <td>Enter or map a description for the placement.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
-##### [!UICONTROL Decision rule] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the description rule.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Description]
-      </td>
-      <td>Enter or map a description for the decision rule.
+        <p>输入相对于基本URL的路径。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        [!UICONTROL Condition]
+        <p>[！UICONTROL方法]</p>
       </td>
-      <td>Enter or map the condition the decision rule.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Decision] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the description rule.</td>
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Select the status for the decision.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Placements]</td>
-      <td>Select the placements to add to this decision
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Collection]</td>
-      <td>Select the offer collection that contains the offers that this decision will consider.
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Fallback offer]</td>
-      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Tag] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the tag.</td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Collection] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the collection.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Filter Type]
-      </td>
+      <td role="rowheader">[！UICONTROL Headers]</td>
       <td>
+        <p>以标准JSON对象的形式添加请求的标头。</p>
+        <p>例如， <code>{"Content-type":"application/json"}</code></p>
+        <p>[!DNL Workfront Fusion] 自动添加授权、<code>x-api-key</code>和<code>x-gw-ims-org-id</code>标头。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">
-        [!UICONTROL Elements]
-      </td>
-      <td>Select the tags to include in the colelction.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Fallback offer] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the fallback offer.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Status]
-      </td>
-      <td> Select the status of the fallback offer.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Placement]
-      </td>
-      <td>Enter or map the placement for the fallback offer.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-##### [!UICONTROL Personalized offer] fields
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Enter or map a name for the description rule.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Select the status for the decision.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">Placement</td>
-      <td>Select the placement for the personalized offer.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Decision rules]</td>
-      <td>Select the decision rules to add to this personalized offer.
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
-      </td>
-    </tr>
-   <tr>
-      <td role="rowheader">[!UICONTROL Capping constraint]</td>
-      <td>Enter or map the number of times this offer will be presented.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Delete a record]
-
-This action module deletes a single record in [!DNL Adobe Journey Optimizer].
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Record type]
-      </td>
+      <td role="rowheader">[！UICONTROL查询字符串]  </td>
       <td>
-        Select the type of record that you want to delete
-        <ul>
-        <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Decision rule]</li>
-        <li>[!UICONTROL Decision]</li>
-        <li>[!UICONTROL Tag]</li>
-        <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Fallback offer]</li>
-        <li>[!UICONTROL Personalized offer]</li>
-        </ul>
+        <p>输入请求查询字符串。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
-      </td>
-      <td>
-        Select the record that you want to delete.
-      </td>
-    </tr>
-
-</tbody>
-</table>
-
-#### [!UICONTROL Make a custom API call]
-
-This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
-      </td>
-      <td>
-        <p>Enter a path relative to {baseURL} starting with<code>/</code></p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Method]</p>
-      </td>
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
-      <td>
-        <p>Add the headers of the request in the form of a standard JSON object.</p>
-        <p>For example, <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Query String]  </td>
-      <td>
-        <p>Enter the request query string.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+      <td role="rowheader">[！UICONTROL Body]</td>
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
-     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
-      </td>
-    </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Delete a Record]
-
-This action module deletes a single record in [!DNL Adobe Journey Optimizer].
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Record Type]
-      </td>
-      <td>
-        Select the type of record that you want to delete
-        <ul>
-        <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Decision rule]</li>
-        <li>[!UICONTROL Decision]</li>
-        <li>[!UICONTROL Tag]</li>
-        <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Fallback offer]</li>
-        <li>[!UICONTROL Personalized offer]</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
-      </td>
-      <td>
-        Select the record that you want to delete.
-      </td>
-    </tr>
-
-</tbody>
-</table>
-
-#### [!UICONTROL Update a record]
-
-This action module creates a placement, decision, decision rule, tag, personalized offer, collection, or fallback offer.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Record type]
-      </td>
-      <td>
-        Select the type of record that you want to update
-        <ul>
-        <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Decision rule]</li>
-        <li>[!UICONTROL Decision]</li>
-        <li>[!UICONTROL Tag]</li>
-        <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Fallback offer]</li>
-        <li>[!UICONTROL Personalized offer]</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
-      </td>
-      <td>
-        Select the record that you want to update.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Fields]
-      </td>
-      <td>For each field that you want to update:
-      <ol>
-      <li>Click <b>[!UICONTROL Add]</b>.</li>
-      <li>Select whether you want to add, replace, or remove values.</li>
-      <li>Enter the field that you want to update.</li>
-      <li>Enter the new value for the field.</li>
-      </td>
-    </tr>
-
-</tbody>
-</table>
 
 
-### Searches
 
-#### [!UICONTROL List records]
 
-This search module lists records of the selected type, returning results based on criteria you specify.
 
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Record type]</p>
-      </td>
-      <td>
-        <p>Select the type of record that you want to list.</p>
-        <ul>
-        <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Decision rule]</li>
-        <li>[!UICONTROL Decision]</li>
-        <li>[!UICONTROL Tag]</li>
-        <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Fallback offer]</li>
-        <li>[!UICONTROL Personalized offer]</li>
-       </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Query operator]</p>
-      </td>
-      <td>
-        <p>Select an operator to apply to parameters in the query</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fields]</td>
-      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Order by] </td>
-      <td>Enter or map the property by which you want to order results.
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Order direction]</td>
-   <td>Select whether you want to order results by ascending or descending direction.
-    </td>
-     </tr>
-  </tbody>
-</table>
+
+<!--
+
+* [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
+* [Check service health](#check-service-health)
+* [Check the import dependencies](#check-the-import-dependencies)
+* [Check the status for audience-based message](#status-for-audience-based-message)
+* [Copy artifacts synchronously](#copy-artifacts-synchronously)
+* [Create a configuration](#create-a-configuration)
+* [Create a package](#create-a-package)
+* [Create a record](#create-a-record)
+* [Delete a configuration](#delete-a-configuration)
+* [Delete a package](#delete-a-package)
+* [Delete a record](#delete-a-record)
+* [Deploy a configuration](#deploy-a-configuration)
+* [Export artifacts asynchronously](#export-artifacts-asynchronously)
+* [Get a configuration](#get-a-configuration)
+* [Get a record](#get-a-record)
+* [Import a package](#import-a-package)
+* [Import artifacts asynchronously](#import-artifacts-asynchronously)
+* [List all dependent objects](#list-all-dependent-objects)
+* [List export and import jobs](#list-import-and-export-jobs)
+* [Look up a package](#look-up-a-package)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Patch a record](#patch-a-record)
+* [Publish a package](#publish-a-package)
+* [Submit an import](#submit-an-import)
+* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
+* [Trigger an audience-based message](#trigger-an-audience-based-message)
+* [Undeploy a configuration](#undeploy-a-configuration)
+* [Update a configuration](#update-a-configuration)
+* [Update a package](#update-a-package)
+* [Update a record](#update-a-record)
+* [List configurations](#list-configurations)
+* [List packages](#list-packages)
+* [List records](#list-records)
 
 -->
