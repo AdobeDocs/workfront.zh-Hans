@@ -7,7 +7,7 @@ description: 本文介绍了活动方案或停用方案在不同情况下为何�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -76,6 +76,6 @@ ht-degree: 1%
 ## 激活或取消激活方案：
 
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 方案]** ![](assets/scenarios-icon.png)，然后单击方案以将其打开。
-1. 在窗口的右上角，单击&#x200B;**[!UICONTROL 打开/关闭]**&#x200B;切换开关。
+1. 在窗口的左下角，单击&#x200B;**[!UICONTROL 打开/关闭]**&#x200B;切换开关。
 
    ![](assets/on-off-switch.jpg)
