@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ Workfront规划方案自2023年5月22日开始。 有关2023年期间发布的�
 已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
 
 自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 本文中记录的所有功能当前都可在生产环境中使用。
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## 2024年7月29日起一周
 
@@ -91,6 +70,23 @@ Adobe Workfront规划公共API现已可用。
 
 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)
 
+### 公开共享Workfront Planning视图
+
+生产： 2024年8月2日
+
+预览：待定
+
+为了与外部利益相关者无缝合作，您现在可以与组织外部的其他人共享记录视图。 您可以共享指向您希望其他人有权访问的视图的公共链接。
+
+此更新包括以下功能：
+
+* 使用将在特定日期过期的公共链接共享记录类型页面的视图。
+
+* 在截止日期所指示的限定时间内，共享链接可供公司之外的任何人访问。 无需登录即可查看共享视图。
+
+* 从公共链接访问该视图的用户不能创建其他视图、编辑共享视图，也不能添加、删除或编辑记录信息。
+
+有关详细信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 
 ## 2024年7月8日起一周
 

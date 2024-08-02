@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,8 @@ ht-degree: 1%
 
 您可以与以下实体共享视图：
 
-* Workfront用户
-* Workfront组
-<!--* Publicly, with users outside Workfront
--->
+* 内部，包含Workfront用户和组
+* 公开，使用Workfront之外的用户
 
 ## 访问要求
 
@@ -95,9 +93,21 @@ ht-degree: 1%
 
 +++
 
-## 共享视图<!--internally-->的权限
+## 共享视图时的注意事项
 
-您可以共享您创建的视图或您对<!--with users or groups in Workfront-->具有管理权限的视图。
+* 您可以向内部Workfront用户授予查看或管理视图的权限。
+
+* 具有管理权限的用户可以修改视图设置、共享、复制或删除它。
+
+* 您可以通过公共链接与组织外部的人员共享视图。
+
+* 当您公开共享某个视图时，您公司以外的任何人都可以在限定时间内访问该链接，具体时间由到期日期指示。 无需登录即可查看共享表视图。
+
+* 组织外部有权访问视图的人员无法在表中创建其他视图、编辑共享视图或者添加、删除或编辑记录信息。
+
+## 在内部共享对视图的权限
+
+您可以在Workfront中将您创建的视图或您拥有管理权限的视图与用户或组共享。
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ ht-degree: 1%
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   默认情况下应选择&#x200B;**内部共享**&#x200B;选项卡。
 
-1. （可选）从以下选项中进行选择以共享视图：
+1. （可选）在&#x200B;**谁有权访问**&#x200B;区域，从以下选项中选择：
 
    * **只有受邀人员才能访问**：您必须指定要与其共享视图的用户或组。 这是默认选项。
    * **工作区中的每个人都可以查看**：所有对工作区具有“查看”或更高权限的用户都可以访问该视图。
 
-1. 在&#x200B;**授予对**&#x200B;字段的查看访问权限，开始键入用户或组的名称，然后在列表中显示该名称或组时单击它。 <!--***********replace screen shot below when public sharing is released***********-->
+1. 在&#x200B;**授予对**&#x200B;字段的查看访问权限，开始键入用户或组的名称，然后在列表中显示该名称或组时单击它。
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ ht-degree: 1%
    >
    >   与您共享的视图在视图图标旁有一个人员指示符![](assets/view-shared-with-others-people-icon.png)。 没有人员指示器的视图是您创建的视图。
 
-<!--
-## Share permissions to a view publicly
+## 公开共享视图的权限
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+您可以将创建的视图或您拥有管理权限的视图与没有Workfront许可证以及可能属于您组织外部的人员共享。
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+要在Workfront Planning中公开共享视图，请执行以下操作：
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. 打开要共享其视图的工作区，然后单击记录类型卡片。
 
-   This opens the record type page.
+   这将打开记录类型页面。
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. 在“视图”选项卡中，将鼠标悬停在要共享的视图上，单击视图名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. 单击&#x200B;**公共共享**。
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. 启用&#x200B;**创建公共链接**&#x200B;设置。
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   链接将变为可用。 这是一个公共链接。 共享后，拥有该链接的任何人（包括组织外部的人员）都可以访问记录类型页面，并查看该页面上的记录和字段。
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. 单击&#x200B;**复制链接**&#x200B;图标![](assets/copy-link-view.png)以将链接复制到剪贴板。
 
-1. Click **Save**.
+1. 手动输入日期，或使用&#x200B;**链接到期日期**&#x200B;字段中的日历为公共链接选择到期日期。 在选定日期后，将无法访问记录页面查看。
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. 单击&#x200B;**保存**。
 
--->
+   视图图标会更新以指示该视图是公开共享的。
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. （可选）将您复制的链接粘贴到电子邮件、聊天消息、文档或Workfront注释中，以便与其他人共享。
 
 ## 删除视图的权限
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. 打开要停止共享其视图的工作区，然后单击记录类型卡片。 这将打开记录类型页面。
 1. 将鼠标悬停在要删除共享的视图的选项卡名称上，单击&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**共享**。
-1. 查找要删除的用户或组，然后在用户或组名称右侧的权限下拉菜单中单击&#x200B;**删除**。
+1. 要删除视图的内部共享，请执行以下操作：
+
+   1. 确保选中&#x200B;**内部共享**&#x200B;选项卡。
+   1. 找到要删除的用户或组，展开该用户或组名称右侧的权限下拉菜单，然后单击&#x200B;**删除**。
+
+1. 要删除视图的公共共享，请执行以下操作：
+
+   1. 单击&#x200B;**公共共享**&#x200B;选项卡。
+   1. 取消选择&#x200B;**创建公共链接**&#x200B;选项。
+
 1. 单击&#x200B;**保存**。
-属于已删除组的用户或用户不再具有查看权限。 对于因访问视图而被移除的用户，不会通知他们已失去此访问权限。
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   用户不再具有查看权限。 对于已从访问视图中删除的用户，不会通知他们不再具有此访问权限。

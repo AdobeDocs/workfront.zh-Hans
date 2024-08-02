@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -87,6 +87,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 更新记录页面的布局 | ✓ {\f13 } |                                 |                  |
 | 共享工作区 | ✓ {\f13 } | |  |
 | 共享视图 | ✓ {\f13 } | |  |
+| 与外部资源公开共享视图 | ✓ {\f13 } | |  |
 | 复制视图 | ✓ {\f13 } | |  |
 | 提交请求 |                               |                                  | ✓ {\f13 } |
 | 创意摘要 |                               |                                  | ✓ {\f13 } |
