@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ ht-degree: 0%
 
 有关删除和停用用户的信息，请参阅[删除用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)和[停用或重新激活用户](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
 
+## “资源池”页的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+
+我们更新了“资源池”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
+
+有关信息，请参阅[创建资源池](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+
 ## 删除任务消息的外观更新
 
 >[!NOTE]
@@ -37,17 +47,6 @@ ht-degree: 0%
 用户在删除任务时看到的删除任务确认消息已更新为更新版设计，与Workfront的其他区域保持一致。
 
 有关删除任务的信息，请参阅[删除任务](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)。
-
-
-## “资源池”页的外观更新
-
->[!NOTE]
->
->预览版本： 2024年7月25日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
-
-我们更新了“资源池”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
-
-有关信息，请参阅[创建资源池](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
 ## “通知”页面的外观更新
 
