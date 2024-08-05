@@ -6,9 +6,9 @@ description: 您可以测量校样中的区域。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -80,3 +80,7 @@ ht-degree: 1%
 1. （可选）如果需要测量区域为精确大小，请键入&#x200B;**选择大小**&#x200B;值。
 1. （可选）如果需要测量某个区域内的特定百分比，请选中计算百分比框。 将出现一个新框，允许您对其进行调整\
    ![](assets/calculate-percentage-350x230.png)
+
+1. 单击验证查看器顶部的&#x200B;**测量区域**&#x200B;图标可在完成时关闭该工具。
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
