@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]加载项允许您直接从O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -140,12 +140,13 @@ Workfront支持[!DNL Outlook]的以下版本：
 ## 从[!DNL Outlook]登录到[!DNL Workfront]
 
 1. 在[!DNL Outlook]中，选择一个电子邮件，然后单击电子邮件标题中的&#x200B;**[!DNL Workfront]**&#x200B;图标。
-1. 按照提示使用增强型身份验证、OAuth 2.0或您的安全断言标记语言(SAML) URL登录[!DNL Workfront]。
+1. 在登录页面上，单击&#x200B;**登录Workfront**。
+1. 按照提示使用OAuth 2.0登录[!DNL Workfront]。<!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   在用户可以使用SAML登录到[!DNL Workfront]加载项之前，[!DNL Workfront]管理员必须首先启用[!DNL Office 365]加载项以使用SAML 2.0解决方案进行身份验证。 有关详细信息，请参阅[使用SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)配置 [!DNL Adobe Workfront] 一文中的[使用SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365)配置 [!DNL Adobe Workfront] 部分。
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
-   >* 当系统提示您输入[!DNL Workfront]帐户的域时，请使用此格式键入该域： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
-   >* 在[!DNL Workfront]管理员为此集成启用增强身份验证之前，该身份验证不可用。
+   >* 如果提示您输入[!DNL Workfront]帐户的域，请使用此格式键入该域： *您的公司&#39;sDomain.my.workfront.com*。 您公司的域通常是您公司的名称。
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
