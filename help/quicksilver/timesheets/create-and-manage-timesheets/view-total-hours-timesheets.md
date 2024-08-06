@@ -6,20 +6,24 @@ description: 您可以在时间表上查看总小时数。 工时表总小时数
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # 在时间表上查看总小时数
 
+<!--Audited: 8/2024-->
+
 您可以在时间表上查看总小时数。 工时表总小时数包括项目、任务、问题和所有常规小时记录的小时数。
 
 总小时数反映了通过时间表、更新区域或项目、任务或问题的小时数区域提交的小时数。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -28,25 +32,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>评论 </p> </td> 
+   <td> <p>新增：浅色或更高 </p>
+   <p>当前：审阅或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对任务和问题的访问权限或更高</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高权限的任务和问题</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看任务或问题的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看任务或问题的权限或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有什么计划或许可证类型，请与Workfront管理员联系。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在时间表标题中查看时间表的总小时数
 
@@ -56,9 +63,11 @@ ht-degree: 0%
 
 ## 在时间表列表中查看时间表上的总小时数
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**时间表**。 默认情况下已选择&#x200B;**所有**&#x200B;筛选器，该筛选器显示您有权查看的所有时间表。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+**时间表**&#x200B;区域打开。
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （可选）执行以下操作之一以更新时间表列表中的过滤器：
 
@@ -76,7 +85,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
+   >如果您的Workfront管理员或组管理员从“设置”区域的列表控件或布局模板中删除了“我的时间表审批”和“我的时间表”过滤器，则“我的时间表审批”和“我的时间表”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
    >
    >   
    >   
@@ -98,4 +107,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >对时间表列表使用标准视图时，如果时间表上项目的记录时间超过时间表时间范围内的小时数，则总小时数列以红色显示。 有关详细信息，请参阅[Adobe Workfront术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的“总小时数”字段。
+   >对时间表列表使用标准视图时，如果时间表上项目的记录时间超过时间表时间范围内的小时数，则总小时数列以红色显示。 有关详细信息，请参阅[Adobe Workfront术语词汇表](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的“总小时数”字段。

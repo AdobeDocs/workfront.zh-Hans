@@ -6,9 +6,9 @@ description: 您可以对时间表、时间表中包含的工作项以及您记�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 * 单个项目，如任务或问题
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>查看对任务和问题的访问权限或更高</p> </td> 
+   <td> <p>查看或更高权限的任务和问题</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
@@ -53,6 +55,8 @@ ht-degree: 0%
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 在时间表上查看小时条目评论 {#view-hour-entry-comments-on-a-timesheet}
 
 您可以配置对要在时间表中显示的单个小时条目所做的注释。 显示和隐藏注释的选项不会影响对整个时间表所做的注释或单个项目所做的注释。 有关更多信息，请参阅  [在时间表上发表评论](#make-comments-on-a-timesheet)。
@@ -61,9 +65,10 @@ ht-degree: 0%
 
 要在时间表上显示备注，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 单击&#x200B;**时间表**。
+**时间表**&#x200B;区域打开。
+
 1. 打开要显示备注的时间表。
 1. 单击时间表右上角的&#x200B;**显示评论**。
 注释显示在记录小时条目和注释的项目下。

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新增： 
-   <ul><li>在时间表中记录常规小时数的较轻或更高</li>
-   <li>用于记录项目、任务或问题的小时数的标准</li></ul>
-
-
-<p>当前： 
+   <td> <p>新增： </p>
+   <p>在时间表上记录项目、任务、问题或常规小时数的精简或更高</p>
+   <p>当前： 
    <ul><li>查看或更高版本以在时间表中记录常规小时数</li>
    <li>用于记录项目、任务或问题的小时数的工作或更高</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ ht-degree: 0%
 
 ## 在列表和报告中编辑记录的小时数
 
+>[!CAUTION]
+>
+>* 您无法修改属于已关闭时间表的小时条目。 必须首先重新打开时间表，然后更改小时条目信息。
+>* 当您将小时类型从不计为收入的类型更改为计为收入的其他类型时，项目的财务也会发生更改。 此外，将小时类型从计入收入的类型更改为不计入收入的类型也会更新项目的财务。
+>
+>有关信息，请参阅[管理小时类型](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)。
+>
 您可以在以下区域编辑记录的小时数：
 
 * 您在其中添加小时数的所有区域，包括未结时间表

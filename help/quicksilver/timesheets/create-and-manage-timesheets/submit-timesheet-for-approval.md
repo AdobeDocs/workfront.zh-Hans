@@ -6,18 +6,22 @@ description: 通过提交时间表以供审批，您的经理可以查看您的�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # 提交工时表以供审批
 
+<!--Audited: 8/2024-->
+
 通过提交时间表以供审批，您的经理可以查看您的工作时间。 批准者可以验证记录的所有时间是否分配到了正确的区域，以及期间是否记录了足够的小时数。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -26,25 +30,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td> <p>新增：浅色或更高 </p>
+   <p>当前：审阅或更高版本 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对任务和问题的访问权限或更高</p> <p>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看或更高权限的任务和问题 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看任务或问题的权限或更高</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看时间表或更高权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 提交工时表以供审批
 
@@ -68,7 +75,7 @@ ht-degree: 0%
    在提交您的时间表以供审批时，审批者会在&#x200B;**主页**&#x200B;页面的&#x200B;**审批**&#x200B;区域看到列出的时间表。 可能会出现以下情况：
 
    * 如果他们批准，**撤消**&#x200B;按钮将更改为&#x200B;**重新打开**，时间表状态将更新为&#x200B;**打开**。
-   * 如果他们拒绝它，**提交以供审批**&#x200B;按钮将替换&#x200B;**撤回**&#x200B;按钮，并且时间表状态更新为&#x200B;**已拒绝**。
+   * 如果他们拒绝它，则&#x200B;**提交以供审批**&#x200B;按钮将替换&#x200B;**撤回**&#x200B;按钮，并且时间表状态将更新为&#x200B;**已拒绝**。
 
 1. （可选）如果需要重新打开时间表并更新时间，请单击&#x200B;**撤消**。 有关信息，请参阅本文中的[撤回时间表](#recall-a-timesheet)部分。
 

@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-您可以在Adobe Workfront Planning中共享或删除对工作区或视图的权限。
+您可以共享或删除Adobe Workfront Planning工作区或视图的权限。
 
 本文介绍了Workfront Planning对象的权限级别。
 
@@ -38,11 +38,16 @@ ht-degree: 6%
 * Workspace
 
    * 您可以与组织内的人员共享工作区。
-   * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。 视图不共享。
+   * 共享工作区时，也将共享与工作区关联的所有记录类型、记录和字段。
+
+     共享工作区时，视图不共享。 视图将单独共享。
 
 * 视图
 
    * 您必须向用户（包括系统管理员）授予单独访问视图的权限以及访问工作区的权限。
+   * 共享视图时，将共享所有视图元素，包括筛选器、分组、排序或设置。
+
+     共享视图时，不会共享该视图中可见的记录。 必须通过共享工作区来共享记录。
    * 在为视图生成公共链接时，您可以与组织外部的人员公开共享视图。通过公共链接访问记录页面的人员可以查看所有记录及其字段，包括连接的记录和字段。
 
   有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
@@ -124,7 +129,7 @@ ht-degree: 6%
 
 |        | 管理 | 参与 | 查看 |
 |--------|--------|------------|-------|
-| 创建 | ✓ {\f13 } |            |       |
+| 创建 | ✓ {\f13 } | ✓ {\f13 } |       |
 | 删除 | ✓ {\f13 } | ✓ {\f13 } |       |
 | 编辑 | ✓ {\f13 } | ✓ {\f13 } |       |
 | 查看 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |

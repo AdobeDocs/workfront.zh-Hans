@@ -7,7 +7,7 @@ description: 时间表上每周的开始日期与时间表配置文件上配置�
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-Adobe Workfront中时间表一周的开始日期使用浏览器中的语言和区域设置来确定一周的哪一天。 因此，您需要更新浏览器的语言和区域设置。 
+Adobe Workfront中时间表一周的开始日期使用浏览器中的语言和区域设置来确定一周的哪一天。 因此，您需要更新浏览器的语言和区域设置。
 
 例如，如果将浏览器语言设置为“英语”，区域设置设置为“美国”，则一周从星期日开始。 此外，浏览器语言设置为英语，区域设置设置为英国，开始日期是星期一。
 
@@ -37,4 +37,4 @@ Adobe Workfront中时间表一周的开始日期使用浏览器中的语言和�
 * **IE 11：**&#x200B;工具 — > Internet选项 — >常规 — >语言
 * **Safari：**&#x200B;很遗憾，Safari不允许在不更改整个操作系统语言的情况下更改Web浏览语言。 直接安装其他浏览器(如Chrome或Firefox)可能更容易。
 
- 
+
