@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,9 @@ ht-degree: 0%
 * 必须在[!DNL Adobe Developer console]中设置[!UICONTROL 服务器到服务器]流。
 
   有关在[!DNL Adobe Developer console]中设置[!UICONTROL 服务器到服务器]流的说明，请参阅[为服务器端API生成访问令牌](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+* 您的Adobe Experience Manager技术帐户必须具有写入权限。
+
+  有关向Adobe Experience Manager技术帐户添加写入权限的说明，请参阅Adobe Experience Manager文档中的[服务凭据](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 ## 将[!DNL Adobe Experience Manager Assets]连接到[!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -100,9 +103,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些字段的信息是作为在[!DNL Adobe Developer Console]上设置[!UICONTROL 服务器到服务器]流的一部分生成的。 您可以在作为该设置的一部分生成的服务凭据JSON文件中找到这些值。
+>* 这些字段的信息是作为在[!DNL Adobe Developer Console]上设置[!UICONTROL 服务器到服务器]流的一部分生成的。 您可以在作为该设置的一部分生成的服务凭据JSON文件中找到这些值。
 >
->有关在[!UICONTROL Adobe Developer Console]上设置[!UICONTROL 服务器到服务器]流的说明，请参阅[为服务器端API生成访问令牌](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+>   有关在[!UICONTROL Adobe Developer Console]上设置[!UICONTROL 服务器到服务器]流的说明，请参阅[为服务器端API生成访问令牌](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+>
+>* 您的Adobe Experience Manager技术帐户必须具有写入权限。
+>
+>   有关向Adobe Experience Manager技术帐户添加写入权限的说明，请参阅Adobe Experience Manager文档中的[服务凭据](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 
 <table style="table-layout:auto"> 
