@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 库模块
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 0%
 如果需要有关创建方案的说明，请参阅[创建方案](../../workfront-fusion/scenarios/create-a-scenario.md)。
 
 有关模块的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)中的[模块。
+
+>[!IMPORTANT]
+>
+>当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。
 
 ## 访问要求
 
@@ -113,7 +117,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -136,7 +140,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -182,7 +186,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -236,7 +240,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -287,7 +291,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -311,7 +315,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL库ID]</td>
@@ -341,7 +345,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
@@ -360,7 +364,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关将[!DNL Adobe Creative Cloud]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明。</td>
+      <td>选择现有Creative Cloud Libraries连接。 当前无法在Creative Cloud Libraries连接器中创建连接。 现有连接按预期工作。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]</td>
