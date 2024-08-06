@@ -7,9 +7,9 @@ description: 某些触发器模块允许您选择希望开始捆绑包检索的�
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 有关触发器模块的详细信息，请参阅文章[模块类型](../../workfront-fusion/modules/module-types.md)中的[触发器模块](../../workfront-fusion/modules/module-types.md#triggers)部分。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能使用本文中的功能：
 
@@ -60,6 +62,8 @@ ht-degree: 1%
 要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
+
++++
 
 ## 选择触发器模块的启动位置
 

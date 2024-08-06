@@ -8,9 +8,9 @@ description: 聚合器模块是一种旨在将多捆数据合并到单个捆绑�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 有关模块类型的详细信息，请参阅[模块类型](../../workfront-fusion/modules/module-types.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能使用本文中的功能：
 
@@ -60,7 +62,9 @@ ht-degree: 0%
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## [!UICONTROL 汇总]模块
++++
+
+## [!UICONTROL 汇总]模块概述
 
 执行[!UICONTROL 汇总]模块时，它将执行以下操作：
 
@@ -77,16 +81,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[！UICONTROL Source Module]</p> </td> 
-   <td> <p>捆绑聚合将从中启动的模块。 源模块通常是输出一系列捆绑包的迭代器或搜索模块。 设置聚合器的源模块（并关闭聚合器的设置）时，源模块和聚合器模块之间的路由将封装在灰色区域中，以便您可以清楚地看到聚合的开始和结束。 
+   <td> <p>捆绑聚合开始的模块。 源模块通常是输出一系列捆绑包的迭代器或搜索模块。</p><p>设置聚合器的源模块（并关闭聚合器的设置）时，源模块和聚合器模块之间的路由将封装在灰色区域中，以便您可以清楚地看到聚合的开始和结束。 
    </p> <p>有关迭代器的详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[！UICONTROL迭代器]模块</p> <p>有关搜索模块的详细信息，请参阅<a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">模块类型</a>中的搜索模块。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL目标结构类型]</p> </td> 
-   <td> <p>（仅适用于[！UICONTROL数组汇总]模块。） 数据应汇总到的目标结构。 默认选项[！UICONTROL自定义]允许您选择应聚合到A[！UICONTROL数组聚合器]的输出捆绑包的<code>Array </code>项中的项：</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>在[！UICONTROL Array aggregator]模块之后连接多个模块并返回模块的设置后，[！UICONTROL Target]结构类型下拉列表将包含以下所有模块及其属于集合数组的字段，如[!DNL Slack] &gt;[！UICONTROL创建消息]模块的[！UICONTROL附件]字段所示：</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>（仅适用于[！UICONTROL数组汇总]模块。） 聚合数据的目标结构。 默认选项[！UICONTROL自定义]允许您选择应聚合到[！UICONTROL数组聚合器]的输出捆绑包的<code>Array </code>项中的项：</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>在[！UICONTROL Array aggregator]模块之后连接多个模块并返回模块的设置后，[！UICONTROL Target]结构类型下拉菜单将包含以下所有模块及其属于“集合数组”类型的字段，如[!DNL Slack] &gt;[！UICONTROL创建消息]模块的[！UICONTROL附件]字段所示：</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL聚合字段]</td> 
-   <td>选择要包含在聚合器模块输出中的字段。</td> 
+   <td>要包含在聚合器模块输出中的字段。</td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL分组依据]</p> </td> 
@@ -108,22 +112,24 @@ ht-degree: 0%
 >源模块与[!UICONTROL 聚合器]模块之间模块生成的捆绑包未由[!UICONTROL 聚合器]模块输出，因此流中的[!UICONTROL 聚合器]之后的模块无法访问这些捆绑包。 如果需要源模块和[!UICONTROL 聚合器]模块之间的模块输出的捆绑包中的任何数据，请确保在[!UICONTROL 聚合器]模块的设置中包含给定项（在[!UICONTROL 数组聚合器]模块设置的[!UICONTROL 聚合字段]字段中包含）。
 
 
->[!INFO]
->
->**示例：**&#x200B;用例：压缩所有电子邮件附件并将ZIP上载到[!DNL Dropbox]
->
->以下方案显示如何：
->
->* 查看邮箱中的传入电子邮件： [!UICONTROL 电子邮件] >[!UICONTROL 查看电子邮件]触发器将输出包含项目`Attachments[]`的捆绑包，该项目是一个包含所有电子邮件附件的数组。
->
->* 迭代电子邮件的附件： [!UICONTROL 电子邮件] >[!UICONTROL 迭代附件]迭代器从`Attachments[]`阵列中逐个获取项目，并将它们作为单独的捆绑包进一步发送。
->
->* 聚合[!UICONTROL 电子邮件] >[!UICONTROL 迭代附件]模块输出的包： [!UICONTROL 存档] >[!UICONTROL 创建存档聚合]聚合它收到的所有包，并输出包含ZIP文件的单个包。
->
->* 将生成的ZIP文件上载到[!DNL Dropbox]： [!DNL Dropbox] > [!UICONTROL 上载文件]从[!UICONTROL 存档] > [!UICONTROL 中获取ZIP文件创建存档]模块并将其上载到[!DNL Dropbox]。
->
->![](assets/dropbox-archive-350x87.png)
->
->以下是[!UICONTROL 存档] > [!UICONTROL 创建存档]聚合器的示例设置：
->
->![](assets/archive-create-an-archive-350x484.png)
+## 聚合器如何工作的示例场景
+
+此示例方案显示如何压缩所有电子邮件附件并将ZIP文件上传到[!DNL Dropbox]。
+
+![](assets/dropbox-archive-350x87.png)
+
+以下方案显示如何：
+
+* 第一个模块监视接收电子邮件的邮箱： [!UICONTROL 电子邮件] >[!UICONTROL 监视电子邮件]触发器将输出包含项目`Attachments[]`的包，该项目是一个包含所有电子邮件附件的数组。
+
+* 第二个模型迭代电子邮件的附件：[!UICONTROL 电子邮件] >[!UICONTROL 迭代附件]迭代器逐个从`Attachments[]`数组获取项目，然后作为单独的捆绑包进一步发送它们。
+
+* 第三个模块聚合[!UICONTROL 电子邮件] >[!UICONTROL 迭代附件]模块输出的包： [!UICONTROL 存档] >[!UICONTROL 创建存档聚合]聚合它收到的所有包，并输出包含ZIP文件的单个包。
+
+* 最后一个模块将生成的ZIP文件上载到[!DNL Dropbox]： [!DNL Dropbox] > [!UICONTROL 上载文件]从[!UICONTROL 存档] > [!UICONTROL 创建存档]模块获取ZIP文件并将其上载到[!DNL Dropbox]。
+
+
+
+以下是[!UICONTROL 存档] > [!UICONTROL 创建存档]聚合器的示例设置：
+
+![](assets/archive-create-an-archive-350x484.png)
