@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 4%
 
 ---
@@ -53,10 +53,6 @@ ht-degree: 4%
 
 1. 单击左侧面板中的&#x200B;**自定义Forms**。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. 单击&#x200B;**新建自定义表单。**
 1. 选择要将自定义表单附加到的对象类型，然后单击&#x200B;**继续**。
 
@@ -76,6 +72,7 @@ ht-degree: 4%
 
 1. 接下来，您可以开始向自定义表单添加字段。 请参阅以下部分：
    * [重用已在其他自定义表单中使用的现有字段或构件](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [有关字段名称和标签的说明](#notes-on-field-names-and-labels)
    * [添加文本字段](#add-text-fields)
    * [添加计算字段](#add-calculated-fields)
    * [添加单选按钮、复选框组和下拉列表](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ ht-degree: 4%
 
 在设计自定义表单时，您可以使用新的或现有的字段。
 
-## 重用已在其他自定义表单中使用的现有字段或构件
+### 重用已在其他自定义表单中使用的现有字段或构件
 
 1. 单击屏幕左上角的&#x200B;**字段库**。
 
@@ -108,6 +105,39 @@ ht-degree: 4%
    或
 
    单击&#x200B;**保存并关闭**。
+
+### 有关字段名称和标签的说明 {#notes-on-field-names-and-labels}
+
+**标签**&#x200B;可用于大多数字段。 它是一个描述性标签，显示在自定义表单上的字段或小部件的上方。 您可以随时更改标签。
+
+>[!NOTE]
+>
+>请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。
+
+每个字段都需要&#x200B;**名称**。 此名称是系统标识字段的方式。 首次配置字段或小组件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。
+
+>[!NOTE]
+>
+>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。
+>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。
+>
+>我们建议您不要键入已用于内置Workfront字段的名称。
+>
+>我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。
+
+自定义字段标签和名称不支持以下特殊字符。
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* ：
+* `{`
+* `}`
 
 ### 添加文本字段
 
@@ -158,13 +188,13 @@ ht-degree: 4%
     <li>单行文本</li>
     <li>段落文本</li>
     <li>带格式文本</li>
-    <li>描述性文本 — 即将推出</li>
+    <li>描述性文本</li>
     </ul></td>
     </tr>
     <tr>
     <td>标签</td>
     <td><p>键入要在小部件上方显示的描述性标签。 您可以随时更改标签。<p>
-    <p>重要提示：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。</p></td>
+    <p>重要提示：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td>
     <td><ul>
     <li>单行文本</li>
     <li>段落文本</li>
@@ -174,11 +204,7 @@ ht-degree: 4%
     <tr>
      <td>名称</td>
     <td><p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
-    <p><b>重要信息</b>：   
-      <ul> 
-      <li>虽然可以这样做，但我们建议，在您或其他用户开始使用Workfront中的自定义表单后，不要更改此名称。 如果这样做，系统将不再能够识别Workfront其他区域中现在可能引用该字段的自定义字段。 <p>例如，如果您将自定义字段添加到报表后更改其名称，Workfront将无法识别该字段在报表中的名称，并且除非您使用新名称将其重新添加到报表，否则该字段将在报表中停止正常工作。</p> </li>
-      <li> <p>我们建议您不要键入已用于内置Workfront字段的名称。</p> </li>
-      <li><p>我们建议您在自定义字段名称中不要使用句点/点字符，以防止在Workfront的不同区域使用字段时出错。</p></li>
+    <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p>
     </td>
     <td><ul>
     <li>单行文本</li>
@@ -189,7 +215,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>说明</td>
-    <td>键入有关构件的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
+    <td>键入有关该字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
