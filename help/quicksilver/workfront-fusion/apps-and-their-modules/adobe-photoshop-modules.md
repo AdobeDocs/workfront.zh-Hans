@@ -9,9 +9,9 @@ description: 借助Adobe Photoshop模块，您可以根据Adobe Photoshop帐户�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [应用Photoshop编辑](#apply-psd-edits)
+* [应用PSD编辑](#apply-psd-edits)
 * [自动颜色校正图像](#auto-color-correct-an-image)
 * [转换图像格式](#convert-image-format)
 * [创建蒙版](#create-a-mask)
@@ -263,14 +263,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储新文件的文件服务。</p>
+        <p>选择要存储新文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+   <td> 输入或映射将存储新文件的URL或路径。 仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储新文件的文件服务。</p>
+        <p>选择要存储新文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+   <td> 输入或映射将存储新文件的URL或路径。 仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储新文件的文件服务。</p>
+        <p>选择要存储新文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+   <td> 输入或映射将存储新文件的URL或路径。 仅当尚未为输出存储选择Fusion内部存储时才需要此操作。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储掩码文件的文件服务。</p>
+        <p>选择要存储掩码文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储掩码文件的URL或路径。 </td> 
+   <td> 输入或映射将存储掩码文件的URL或路径。 仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL覆盖]</td>
@@ -575,6 +575,119 @@ ht-degree: 0%
    <td> 选择输出文件的压缩级别。 </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### 执行Photoshop操作(JSON)
+
+此操作模块使用JSON命令执行Photoshop操作。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL（输入）存储]</td>
+      <td>
+        <p>选择存储要编辑文件的文件服务。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL（输入）文件位置]</p>
+      </td>
+   <td> 输入或映射要编辑的文件的URL或路径。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL操作JSON]</td>
+      <td>
+        <p>输入要执行的操作的JSON命令。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL字体/图案/画笔/其他图像]</td>
+      <td>
+        <p>对于要在此操作中使用的每种字体、图案、画笔或其他图像，单击“添加项目”并输入项目的存储和文件位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL字体/模式/画笔文件URL]</p>
+      </td>
+   <td> 输入或映射要使用的文件的URL或路径。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL输出文件存储]</td>
+      <td>
+        <p>选择要存储编辑文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL输出文件URL]</p>
+      </td>
+   <td> 输入或映射将存储编辑文件的URL或路径。  仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL输出文件类型]</p>
+      </td>
+   <td> 为编辑的文件选择文件类型。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL覆盖]</td>
+      <td>
+        <p>选择新编辑的文件是否会覆盖任何已存在的输出文件。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL压缩]</p>
+      </td>
+   <td> 选择输出文件的压缩级别。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL输出]</td>
+      <td>
+        <p>对于每个要创建的转换文件，单击“添加项目”，然后输入此表中所列的存储、位置和类型。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL（输出）存储]</td>
+      <td>
+        <p>选择要存储新文件的文件服务。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL（输出）文件位置]</p>
+      </td>
+   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL（输出）类型]</p>
+      </td>
+   <td>选择要将文件转换到的文件类型。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL（输出）覆盖]</td>
+      <td>
+        <p>选择新编辑的文件是否会覆盖任何已存在的输出文件。 这仅适用于Adobe存储中的文件。</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL返回结果的最大数目]</p>
+      </td>
+   <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### 执行深度模糊
@@ -725,117 +838,6 @@ ht-degree: 0%
    <td> 选择输出文件的压缩级别。 </td> 
     </tr>
   </tbody>
-</table>
-
-### 执行Photoshop操作(JSON)
-
-此操作模块使用JSON命令执行Photoshop操作。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-      <td>有关创建与[!DNL Adobe Photoshop]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >创建与[!DNL Adobe Photoshop]</a>的连接。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL（输入）存储]</td>
-      <td>
-        <p>选择存储要编辑文件的文件服务。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL（输入）文件位置]</p>
-      </td>
-   <td> 输入或映射要编辑的文件的URL或路径。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL操作JSON]</td>
-      <td>
-        <p>输入要执行的操作的JSON命令。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL字体/图案/画笔/其他图像]</td>
-      <td>
-        <p>对于要在此操作中使用的每种字体、图案、画笔或其他图像，单击“添加项目”并输入项目的存储和文件位置。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL字体/模式/画笔文件URL]</p>
-      </td>
-   <td> 输入或映射要使用的文件的URL或路径。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL输出文件存储]</td>
-      <td>
-        <p>选择要存储编辑文件的文件服务。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL输出文件URL]</p>
-      </td>
-   <td> 输入或映射将存储编辑文件的URL或路径。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL输出文件类型]</p>
-      </td>
-   <td> 为编辑的文件选择文件类型。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL覆盖]</td>
-      <td>
-        <p>选择新编辑的文件是否会覆盖任何已存在的输出文件。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL压缩]</p>
-      </td>
-   <td> 选择输出文件的压缩级别。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL输出]</td>
-      <td>
-        <p>对于每个要创建的转换文件，单击“添加项目”，然后输入此表中所列的存储、位置和类型。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL（输出）存储]</td>
-      <td>
-        <p>选择要存储新文件的文件服务。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL（输出）文件位置]</p>
-      </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL（输出）类型]</p>
-      </td>
-   <td>选择要将文件转换到的文件类型。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL（输出）覆盖]</td>
-      <td>
-        <p>选择新编辑的文件是否会覆盖任何已存在的输出文件。 这仅适用于Adobe存储中的文件。</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[！UICONTROL返回结果的最大数目]</p>
-      </td>
-   <td>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### 执行产品裁切
@@ -1020,14 +1022,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储新文件的文件服务。</p>
+        <p>选择要存储新文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+   <td> 输入或映射将存储新文件的URL或路径。  仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL覆盖]</td>
@@ -1115,14 +1117,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储新文件的文件服务。</p>
+        <p>选择要存储新文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储新文件的URL或路径。 </td> 
+   <td> 输入或映射将存储新文件的URL或路径。  仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL存储]</td>
       <td>
-        <p>选择存储要调整大小的文件所在的文件服务。</p>
+        <p>选择存储要调整大小的文件所在的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL文件位置]</p>
       </td>
-   <td> 输入或映射要调整大小的文件的URL或路径。 </td> 
+   <td> 输入或映射要调整大小的文件的URL或路径。  仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL输出]</td>
@@ -1269,18 +1271,17 @@ ht-degree: 0%
       </td>
    <td> 输入或映射以像素为单位的水印应该位于的图像顶部的距离。</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[！UICONTROL（输出）存储]</td>
       <td>
-        <p>选择要存储带水印文件的文件服务。</p>
+        <p>选择要存储带水印文件的文件服务。</p><p>选择Fusion内部存储可使文件可用于后续模块，但不会使文件在方案外部可用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[！UICONTROL（输出）文件位置]</p>
       </td>
-   <td> 输入或映射将存储带水印文件的URL或路径。 </td> 
+   <td> 输入或映射将存储带水印文件的URL或路径。 仅当尚未为输出存储选择Fusion内部存储时才需要此操作。</td> 
     </tr>
     <tr>
       <td role="rowheader">
