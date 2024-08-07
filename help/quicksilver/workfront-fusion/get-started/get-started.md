@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 811f38da4f91695ef0589dd10122b29d09e4e09c
+source-git-commit: 10ff6535447bb314f08bd159132057f85e12ef71
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 4%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 4%
 * [在 [!DNL Adobe Workfront Fusion]中创建简单的实践方案](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [在 [!DNL Adobe Workfront Fusion]中创建实践自动化方案](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [在 [!DNL Adobe Workfront Fusion]中创建实践集成方案](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [Workfront Fusion中的AI助手](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
 * [[!DNL Adobe Workfront Fusion]性能护栏](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [用于访问 [!DNL Adobe Workfront Fusion]的IP地址](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion]个许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)
