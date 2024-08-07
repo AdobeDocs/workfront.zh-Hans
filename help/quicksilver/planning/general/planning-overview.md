@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -293,7 +293,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 1. 单击&#x200B;**计划** ![](assets/planning-icon.png)。
 
-   Workfront Planning登录页面将打开。
+   Workfront Planning主页将打开。
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 
 1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
-   * **我的工作区**：显示您创建的工作区。
-   * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。
+   * **我的工作区**：显示您创建的工作区。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。<!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    对于所有其他用户，他们创建或与他们共享的所有工作区都显示在&#x200B;**工作区**&#x200B;区域中。
 

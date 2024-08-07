@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,15 @@ ht-degree: 1%
 ## 有关工作区的注意事项
 
 * 您可以为组织内的特定组织单位创建工作区，以匹配每个单位独特的工作方式。
+* 根据您的Workfront许可证，工作区显示在Planning区域的以下选项卡中：
+
+   * 对于系统管理员，工作区显示在以下选项卡中：
+
+      * **我的工作区**：显示您创建的工作区。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。 &lt;！ — 替换为：其他工作区：显示系统中的所有其他工作区。>
+
+   * 对于所有其他用户，他们创建的工作区以及与他们共享的工作区将显示在“工作区”区域中。
+
 * 工作区包含的记录类型应反映组织单位的工作生命周期。
 * 在创建工作区时，只有您才有权访问和管理工作区。 您必须与其他用户共享，他们才能在同一空间与您协作。 有关信息，请参阅[共享工作区](/help/quicksilver/planning/access/share-workspaces.md)。 系统管理员可以管理所有工作区，甚至可以管理他们未创建的工作区。
 * 您可以执行以下操作：
@@ -144,6 +153,7 @@ ht-degree: 1%
    * 一个名为&#x200B;**无标题Workspace**&#x200B;的空工作区，您可以在其中开始手动添加记录类型，以便从头开始创建工作区。
    * 以您选择的模板命名的工作区，该模板填充了示例记录类型。 您可以进一步自定义记录类型和工作区。
 
+   对于Workfront管理员，新工作区显示在&#x200B;**我的工作区**&#x200B;选项卡上。<!--replace this with: Workspaces I'm on tab-->
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键。
 
 1. （可选且有条件）如果是从模板创建工作区，请单击&#x200B;**操作记录类型**&#x200B;或&#x200B;**分类**&#x200B;部分的名称

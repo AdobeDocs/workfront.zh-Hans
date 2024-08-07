@@ -6,9 +6,9 @@ description: 批准时间表的过程使经理能够了解其直接下属的工�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
    <td> <p>新增：标准</p>
-   <p>当前：计划 </p> </td> 
+   <p>当前：计划 </p> 
+   <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>对时间表和小时数的管理访问权限 </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 ## 指定时间表批准者
 
-通常，时间表由职能经理或人力资源人员批准。 （项目经理通常不会批准时间表。）
+通常，时间表由职能经理或人力资源人员批准。 时间表通常不由项目经理批准。 项目经理可以批准登录项目的时间，但团队或人力资源经理应批准工时表。
 
 创建时间表配置文件时，会定义时间表批准者。 您必须拥有计划许可证才能被指定为批准者。
 
