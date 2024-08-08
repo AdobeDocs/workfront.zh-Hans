@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
+source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 本页介绍在2024年第四季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2024年第四季度版本的所有可用更改列表，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## “系统首选项”页面的外观更新
+
+>[!NOTE]
+>
+>预览版： 2024年7月18日；用于快速发布的生产版本：用于24.9版（2024年9月）；用于季度发布的生产版本：用于24.10版（2024年10月）
+
+我们已将设置>系统>首选项页面更新为更加现代的设计，以便与Workfront的其他区域一致。
+
+有关信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## 删除用户和停用用户消息的外观更新
 
