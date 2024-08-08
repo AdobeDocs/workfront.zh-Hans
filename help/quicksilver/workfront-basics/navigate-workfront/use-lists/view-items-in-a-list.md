@@ -5,18 +5,14 @@ description: 您可以查看 [!DNL Adobe Workfront] 中的对象列表以获取�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
 
 # 开始使用[!DNL Adobe Workfront]中的列表
-
-<!--
-{{highlighted-preview}}
--->
 
 您可以查看[!DNL Adobe Workfront]中的对象列表以获取有关这些对象的信息，例如它们的开始日期和到期日期、分配给它们的用户以及与它们关联的其他对象。
 
@@ -208,12 +204,10 @@ ht-degree: 0%
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">自定义表单列表</td> 
+   <td>自定义表单列表</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[！UICONTROL设置] &gt;[！UICONTROL自定义Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>注意</b>：当前仅在“预览”环境中可用</p> </li> 
+     <li>[！UICONTROL设置] &gt;[！UICONTROL自定义Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

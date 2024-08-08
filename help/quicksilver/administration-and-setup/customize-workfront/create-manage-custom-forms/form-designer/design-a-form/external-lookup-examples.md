@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -167,3 +167,23 @@ ht-degree: 0%
    ![具有外部查找字段的自定义表单](assets/external-lookup-countries-example1.png)
 
    根据地区![国家/地区的外部查找选项](assets/external-lookup-countries-example2.png)
+
+## 外部查找字段的其他用例
+
+创建外部查找还有许多其他用例。
+
+**用例：**替换预输入字段，因为它们可能导致报告问题。
+**解决方案：**&#x200B;使用对系统中现有对象的API调用。
+
+模板的基本API URL示例，用于替换预输入字段：
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**用例：**创建包含更多功能的下拉字段（例如，外部eokup字段中有换行符）。
+**解决方案：**&#x200B;使用对系统中现有对象的API调用，或者创建新对象并使用对此对象的API调用。
+
+**用例：**为用户定义在自定义表单区域外维护他们自己的字段的方法。 设置“外部查找”字段，您可以将用户提供给组成该字段的对象。 此选项适合高维护性字段和团队。
+**解决方案：**&#x200B;创建新对象并使用对此对象的API调用。
+
+**用例：**与Workfront之外的对象集成。 例如，访问另一个系统以获取每个用户的名称，而不是被限制在预输入字段中。
+**解决方案：** Webhook/Fusion自动化以连接到其他系统。
+

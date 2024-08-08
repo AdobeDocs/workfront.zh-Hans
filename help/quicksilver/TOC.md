@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2f11be5feac8ed94c2db52b6a1d329bd670702cd
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '14310'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -461,7 +461,7 @@ ht-degree: 1%
          * [资源管理首选项](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
          * [管理风险类型](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
          * [创建费用类型](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
-         * [创建记分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
+         * [创建新的记分卡](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [项目时间表重新计算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [项目的自定义季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [为您的组织启用或禁用快速发布](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
@@ -562,7 +562,7 @@ ht-degree: 1%
       * Workfront {#sso}中的单点登录
          * [单点登录：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [单点登录概述](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-         * [更新单点登录的用户](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+         * [更新用户以进行单点登录](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [使用SAML 2.0配置Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
          * [更新身份提供程序中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
          * [使用ADFS使用SAML 2.0配置Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
@@ -577,7 +577,7 @@ ht-degree: 1%
       * Adobe Workfront {#custom-branding}中的自定义品牌策略
          * [自定义品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [品牌化您的实例](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [配置自定义帮助URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [配置自定义帮助 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 布局模板 {#layout-templates}
          * [布局模板](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [默认Workfront布局](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -639,7 +639,7 @@ ht-degree: 1%
          * [将自定义状态设为默认状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [删除自定义状态](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [使用特定状态列出待处理对象](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [创建和自定义优先级](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [创建并自定义优先级](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [创建和自定义问题严重程度](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * 审批流程和里程碑页面{#approvals-milestones}
          * [批准流程和里程碑路径](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -649,7 +649,7 @@ ht-degree: 1%
          * [更改如何影响分配的审批流程](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [创建里程碑路径](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
       * 创建和管理自定义条件{#custom-conditions}
-         * [自定义完成情况](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+         * [自定义条件](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [创建或编辑条件](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [更改条件的显示顺序](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [将条件设置为项目的默认值](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
@@ -687,7 +687,7 @@ ht-degree: 1%
          * [向新用户发送电子邮件邀请](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * 安全性{#security}
          * [安全性](administration-and-setup/manage-workfront/security/security.md)
-         * [配置系统首选项](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [配置系统偏好设置](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [用于验证的密码](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [删除了单点登录选项](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [续订SAML 2.0元数据证书](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -695,7 +695,7 @@ ht-degree: 1%
          * [按IP地址限制Workfront访问](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
          * [文件加密](administration-and-setup/manage-workfront/security/file-encryption.md)
          * [更改Workfront域](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-         * [管理API密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
+         * [管理 API 密钥](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隐私政策](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [增强型身份验证概述](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [使用增强型身份验证时更新IDP中的SAML 2.0元数据](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
@@ -704,7 +704,7 @@ ht-degree: 1%
          * [设置汇率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
       * 管理已删除的项目 {#manage-deleted-items}
          * [管理已删除的项目](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-         * [恢复已删除的项目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+         * [还原已删除的项目](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [查看已还原的项目](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [已删除的对象如何影响对象](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [恢复单个子对象](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
@@ -784,7 +784,7 @@ ht-degree: 1%
       * [Adobe Workfront集成](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [配置Experience Manager Assetsas a Cloud Service集成](administration-and-setup/configure-integrations/configure-aacs-integration.md)
-      * [配置Experience Manager Assets Essentials集成](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [配置 Experience Manager Assets Essentials 集成](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [使用Adobe Experience Manager旧版连接器配置Workfront](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [允许用户访问移动应用程序](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [启用Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
@@ -795,7 +795,7 @@ ht-degree: 1%
       * [在Adobe Admin Console中为您的用户创建Adobe WorkfrontCreative Cloud包](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [为Workfront集成创建OAuth2应用程序](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [查看和管理自定义OAuth2应用程序](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [配置JumpSeat集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [配置 JumpSeat 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * Blueprint {#blueprints}
       * [Blueprint](administration-and-setup/blueprints/blueprints.md)
       * [Blueprint概述](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1756,7 +1756,7 @@ ht-degree: 1%
       * [在Adobe Workfront中预算资源所需的访问权限](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [资源规划者概述](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [找到资源规划者](resource-mgmt/resource-planning/locate-resource-planner.md)
-      * [资源规划者导航概述](resource-mgmt/resource-planning/resource-planner-navigation.md)
+      * [资源规划程序导航概述](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [使用Adobe Workfront资源规划者审查资源可用性和分配](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [资源规划者的“项目”和“角色”视图中的小时数、FTE和成本信息概览](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
       * [使用项目和角色视图的资源规划者中的预算资源](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
