@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 您可以将用户指定为直接报告给其他用户。 这允许您创建显示组织管理结构的组织结构图。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 您可以将用户指定为直接报告给其他用户。 这允许您创建显示组织管理结构的组织结构图。 有关详细信息，请参阅[查看组织结构图](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -46,6 +48,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 创建直接下属
 
 1. 按照[编辑用户配置文件](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中的说明开始编辑用户。
@@ -54,6 +58,5 @@ ht-degree: 0%
    此字段不能为空。
 
 1. 在&#x200B;**直接下属**&#x200B;字段中，指定向正在编辑的用户报告的任意用户。
-
 1. （可选）在&#x200B;**报告对象**&#x200B;字段中，指定此用户报告的用户的名称。
 1. 单击&#x200B;**保存更改**。

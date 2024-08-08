@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 0%
 -->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -59,6 +61,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 删除与停用用户
 
@@ -118,9 +122,8 @@ ht-degree: 0%
 
 ## 删除一个或多个用户
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step-1-to-users}}
 
-1. 单击&#x200B;**用户**。
 1. 至少选择一个要删除的用户，单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**删除**。
 1. 在出现的框中，单击&#x200B;**删除**&#x200B;以确认删除。
 

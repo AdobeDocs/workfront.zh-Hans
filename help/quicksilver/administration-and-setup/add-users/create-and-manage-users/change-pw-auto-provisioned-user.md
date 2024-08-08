@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 更改自动设置用户的密码
-description: 通常，当新用户尝试更改其临时密码时，他们会输入其电子邮件地址并收到用户名不正确的错误。 他们必须输入系统分配的用户名，即他们的全局唯一标识符(GUID)。 由于GUID难以记忆和使用，因此我们建议您将新用户的用户名更改为其Workfront邮件地址，然后允许他们更改密码。
-author: Caroline
+description: 建议您将新用户的用户名更改为其Workfront邮件地址，然后允许他们更改密码。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 更改自动设置用户的密码
 

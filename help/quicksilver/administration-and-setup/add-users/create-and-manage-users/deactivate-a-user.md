@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 先决条件
 
 在停用Workfront管理员或Standard或Plan许可证用户之前，必须将其对象和活动与其他用户关联。
@@ -90,7 +94,7 @@ ht-degree: 0%
 
 要停用用户，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 选择一个用户，单击&#x200B;**更多**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**停用**。
 
@@ -104,7 +108,7 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
 要计划用户停用，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 选择用户的名称。
 
@@ -131,7 +135,7 @@ Workfront管理员和计划许可证用户可在用户配置文件中查看停�
 
 ## 重新激活用户
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 选择一个用户，单击“更多”图标![](assets/more-icon.png)，然后单击&#x200B;**激活**。
 

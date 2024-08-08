@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -67,6 +69,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 先决条件
 
 在添加用户之前，请收集下面列出的用户的相关信息，并确定要与该用户关联的信息：
@@ -93,7 +97,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 从头开始创建用户
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 单击&#x200B;**新用户>新用户**&#x200B;以添加尚未添加到Workfront的用户。
 
@@ -145,7 +149,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 要通过复制现有用户来创建新用户，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 选择要复制的用户，然后单击复制图标![](assets/copy-icon.png)。
 1. 在显示的&#x200B;**复制用户**&#x200B;框中，编辑可用于新用户的字段。
 

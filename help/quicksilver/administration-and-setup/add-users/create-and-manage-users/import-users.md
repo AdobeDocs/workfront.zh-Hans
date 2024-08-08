@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 通过从网络目录服务（如Active Directory或其他LDAP目录）同步用户，您可以将用户导入Adobe Workfront站点，也可以使用电子表格导入文件导入用户。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 创建新用户之前，首先请确保已创建了要与该用户关联的所有对象。 例如，如果尚未创建计划，则无法将计划分配给新用户，并且用于关联计划与新用户的字段不会出现在“新用户”屏幕中。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -60,9 +62,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 使用电子表格导入文件导入用户
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 单击&#x200B;**新用户**&#x200B;下拉箭头，然后单击&#x200B;**导入用户**。
 
