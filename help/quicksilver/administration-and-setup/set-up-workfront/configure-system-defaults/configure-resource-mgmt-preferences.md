@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 配置资源管理首选项
 description: 作为 [!DNL Adobe Workfront] 管理员，您可以为系统配置资源管理首选项。 这些资源管理首选项决定如何为 [!DNL Workfront] 资源计划和计划工具计算用户可用性或容量和FTE。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 </table>
 -->
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  </tbody> 
 </table>
 
++++
+
 ## 计算用户容量时考虑的信息
 
 在计算用户的容量时，Workfront会考虑以下信息：
@@ -97,7 +101,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 >
 >由于这是全局设置，因此该选择将影响所有资源管理工具中整个系统、所有用户的所有计算。
 
-1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 单击&#x200B;**[!UICONTROL 资源管理]**。
 1. 选择下列方法之一以计算[!DNL Workfront]中用户的可用性：
 

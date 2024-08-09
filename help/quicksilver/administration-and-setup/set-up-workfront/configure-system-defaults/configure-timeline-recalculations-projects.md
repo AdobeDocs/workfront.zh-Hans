@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
-title: 配置项目的时间线重新计算
+title: 配置项目的时间表重新计算
 description: 重新计算时间表使经理能够了解项目之外的力量对项目时间表的影响。 项目时间线是指项目的计划和预计日期。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 本文介绍了作为[!DNL Workfront]管理员，如何通过在[!UICONTROL 设置]区域中配置项目首选项来确定[!DNL Workfront]自动计算项目时间线的方式和时间。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -46,11 +48,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 配置自动重新计算
 
 作为[!DNL Adobe Workfront]管理员，您可以配置[!DNL Workfront]何时自动重新计算项目时间表。 [!DNL Workfront]可以每晚或在项目范围更改时重新计算项目时间表，或同时重新计算两者。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)或[!DNL Workfront]左上角的&#x200B;[!UICONTROL **主菜单**]&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 项目].**
 

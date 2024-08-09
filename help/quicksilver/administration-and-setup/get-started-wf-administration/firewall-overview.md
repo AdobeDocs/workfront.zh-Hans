@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 防火墙概述
 description: 由于Adobe Workfront与贵组织的网络通信，因此贵组织的防火墙必须配置为允许该通信。 防火墙是一种高效的安全措施，通过将组织的网络与Internet分隔开来发挥作用。 它们可确保只有选定的数据和网络流量才能移入或移出组织的网络。 防火墙根据发送或接收数据的站点允许或阻止数据。 作为Adobe Workfront管理员，您必须确保发送到Workfront或从发送的数据可以通过贵组织的防火墙。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Workfront使用特定的IP地址和域进行Web通信。 必须将这些组件�
 
 ### 查看贵组织的集群和Workfront计划 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+{{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**系统**
 1. 要查看您的群集，请选择&#x200B;**客户信息**。

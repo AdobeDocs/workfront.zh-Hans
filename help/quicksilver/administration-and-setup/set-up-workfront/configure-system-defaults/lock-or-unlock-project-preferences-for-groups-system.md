@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 当首选项被解锁且组管理员修改时，与组关联的项目从组级别设置而不是系统级别设置获取该首选项的配置。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,6 +46,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 关于锁定和未锁定的首选项
 
 锁定已在系统级别配置的项目、任务或问题首选项可确保每个人都使用该首选项的相同设置。 虽然您仍然可以重新配置已锁定的首选项，但组管理员无法为其组重新配置它。
@@ -60,7 +64,7 @@ ht-degree: 0%
 
 ## 解锁项目首选项，以便组可以对其进行配置
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 项目首选项]**，然后单击&#x200B;**[!UICONTROL 项目]**。
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 配置防火墙的允许列表
 description: 列入允许列表如果您的防火墙或邮件服务器配置为仅允许某些供应商访问，则必须将某些IP地址添加到其。 这将打开环境与Adobe Workfront服务器之间的通信，并允许用户从Workfront发送消息，以及在Active Directory或LDAP中使用SSO。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ ht-degree: 0%
 
 要查找组织的群集，请执行以下操作：
 
-1. 作为Workfront管理员，请单击&#x200B;**主菜单**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 在左侧导航中，单击&#x200B;**系统**，然后选择&#x200B;**客户信息**。
 1. 在页面的右上角找到&#x200B;**群集设置**&#x200B;字段。 此处列出了您组织的群集。
 

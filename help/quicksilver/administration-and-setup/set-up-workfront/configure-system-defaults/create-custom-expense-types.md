@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建自定义费用类型
 description: 作为 [!DNL Adobe Workfront] 管理员，您可以创建自定义费用类型以定义和跟踪与任务和项目关联的费用。 费用是可与任务或项目关联的非人工成本。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 您可以编辑或删除您创建的任何费用类型。 您无法删除或编辑内置[!DNL Workfront]费用类型。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,6 +48,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 默认费用类型
 
 无法删除或编辑默认位于[!DNL Workfront]中的费用类型，包括以下内容：
@@ -59,7 +63,8 @@ ht-degree: 1%
 
 ## 创建自定义费用类型
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step-1-to-setup}}
+
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
 1. 单击&#x200B;**[!UICONTROL 新建费用类型]**。
 1. 在显示的&#x200B;**[!UICONTROL 新费用类型]**&#x200B;框中，指定以下信息：
@@ -101,7 +106,8 @@ ht-degree: 1%
 
 ## 修改自定义费用类型
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step-1-to-setup}}
+
 1. 单击&#x200B;**[!UICONTROL 费用类型]**。
 1. 选择要修改的支出类型，然后单击&#x200B;**[!UICONTROL 编辑]**。
 

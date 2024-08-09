@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 配置请求类型
 description: 在处理项目时，您可能会发现出现意外事件。 您可以将这些意外事件记录为特定项目或任务的问题。 您也可以提交请求，在指定为请求队列的项目中，这些请求将记录为问题。 在Adobe Workfront中，问题和请求被视为可互换的。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 有关在[!DNL Workfront]中创建问题的信息，请参阅[创建问题](../../../manage-work/issues/manage-issues/create-issues.md)。 有关在[!DNL Workfront]中创建请求的信息，请参阅[创建并提交 [!DNL Adobe Workfront] 请求](../../../manage-work/requests/create-requests/create-submit-requests.md)。 有关将请求类型与项目关联的信息，请参阅[为项目定义请求类型](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ You must have at least one request type selected. You can select multiple reques
 
 要自定义请求类型的名称，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 项目首选项]** > **[!UICONTROL 状态]**。
 

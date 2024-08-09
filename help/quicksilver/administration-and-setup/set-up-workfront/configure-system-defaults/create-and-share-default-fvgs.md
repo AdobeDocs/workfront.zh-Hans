@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 创建、编辑和共享默认筛选器、视图和分组
 description: 您可以创建默认筛选器、视图和分组，然后将它们提供给贵组织中的用户。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 1%
 
 ---
 
-# 创建、编辑和共享默认筛选器、视图和分组
+# 创建、编辑和共享默认过滤器、视图和分组
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -26,6 +26,8 @@ ht-degree: 0%
 在按照本文所述创建默认筛选器、视图和分组时，与您共享这些筛选器的用户能够在查看其列表时利用它们。 用户可以根据您创建的过滤器、视图和分组创建自己的过滤器、视图和分组，但无法直接更改您创建的那些过滤器、视图和分组。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 创建默认筛选器、视图或分组
 

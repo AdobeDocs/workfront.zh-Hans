@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 为您的组织启用或禁用快速发布
+title: 启用或禁用组织的快速发布
 description: 您可以选择按月还是按季度接收新的Workfront功能。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Adobe Workfront有两种发布新功能和更新的模型。 您可以选择按�
 
 要启用或禁用快速发布流程，请执行以下操作：
 
-1. 单击&#x200B;**主菜单图标**，然后单击&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 在左侧导航中展开&#x200B;**系统**，然后单击&#x200B;**首选项**。
 1. 要启用快速释放，请选中&#x200B;**允许快速释放进程**&#x200B;复选框。
 

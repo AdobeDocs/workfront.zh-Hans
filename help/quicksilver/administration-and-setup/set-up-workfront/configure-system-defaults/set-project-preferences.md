@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 配置系统范围的项目首选项
+title: 配置系统范围项目首选项
 description: 作为 [!DNL Adobe Workfront] 管理员，您可以为在整个系统中创建的所有项目配置默认首选项。 这些首选项影响项目、任务和问题行为。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 配置系统范围的项目首选项
+# 配置系统范围的项目偏好设置
 
 <!--Audited: 12/2023-->
 

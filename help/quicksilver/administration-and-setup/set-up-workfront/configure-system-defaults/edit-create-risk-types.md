@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 编辑和创建风险类型
 description: 您可以在计划阶段为项目添加风险，以在批准任何工作之前确定潜在障碍。 风险是可能会阻止项目按时完成或在预算内完成的事件。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 您可以在计划阶段为项目添加风险，以在批准任何工作之前确定潜在障碍。 风险是可能会阻止项目按时完成或在预算内完成的事件。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,6 +46,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 风险类型
 
 风险类型是用于风险分类的标签，用于对它们进行分类以用于报告目的。 它们由[!DNL Adobe Workfront]管理员在&#x200B;**[!UICONTROL 设置]**&#x200B;区域创建。 在您的&#x200B;**[!UICONTROL 设置]**&#x200B;区域建立风险类型后，它们对于您的系统具有普遍性。 所有项目所有者均可为他们的项目使用相同的风险类型。
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ### 编辑现有风险类型 {#edit-existing-risk-types}
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 风险类型]**。
 1. 选择要编辑的风险类型。
@@ -74,7 +78,7 @@ ht-degree: 0%
 
 要创建新的风险类型，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 风险类型]**。
 1. 单击&#x200B;**[!UICONTROL 新建风险类型]**。
