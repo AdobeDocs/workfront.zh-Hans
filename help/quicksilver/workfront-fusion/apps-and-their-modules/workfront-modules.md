@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
+source-wordcount: '6280'
 ht-degree: 2%
 
 ---
@@ -147,7 +147,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您在Workfront模块中未看到最新字段，这可能是因为缓存问题。 等待一小时，然后重试。
+>* 如果您在Workfront模块中未看到最新字段，这可能是因为缓存问题。 等待一小时，然后重试。
+>* 来自Adobe Workfront的HTTP 429状态代码不应导致停用，而是会在场景中触发短暂的执行暂停。
 
 ![](assets/map-toggle-350x74.png)
 
