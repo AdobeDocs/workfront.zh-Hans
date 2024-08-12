@@ -9,7 +9,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ ht-degree: 2%
 
 如果看到字段或函数上方的映射按钮，则可以使用该按钮设置该字段的变量和函数。 有关详细信息，请参阅[在 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)中将信息从一个模块映射到另一个模块。
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* 如果您在Workfront模块中未看到最新字段，这可能是因为缓存问题。 等待一小时，然后重试。
 >* 来自Adobe Workfront的HTTP 429状态代码不应导致停用，而是会在场景中触发短暂的执行暂停。
-
-![](assets/map-toggle-350x74.png)
 
 * [触发器](#triggers)
 * [操作](#actions)
