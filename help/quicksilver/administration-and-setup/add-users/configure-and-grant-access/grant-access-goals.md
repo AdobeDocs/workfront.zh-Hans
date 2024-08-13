@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront目标的访问权限。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Adobe Workfront目标的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 要授予用户访问Workfront Goals的权限，您必须具备以下条件：
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 &#42;要了解您拥有什么计划、许可证类型或访问级别，请与Workfront管理员联系。
 
 有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
+
++++
 
 ## 使用自定义访问级别授予用户访问Workfront目标的权限
 

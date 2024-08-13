@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。 这不会影响主菜单中的主帮助链接以及整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
-# 配置自定义帮助URL
+# 配置自定义帮助 URL
 
 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 有关用户如何访问您在Workfront中配置的自定义帮助URL和常规Workfront帮助网站的信息，请参阅[访问新Adobe Workfront Experience中的Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -50,9 +52,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 配置自定义帮助URL
 
-1. 单击Adobe Workfront右上角的主菜单图标![](assets/main-menu-icon.png)，然后单击“设置”。
+{{step-1-to-setup}}
+
 1. 单击&#x200B;**系统** > **首选项**。
 1. 在&#x200B;**常规首选项**&#x200B;部分的&#x200B;**自定义帮助URL**&#x200B;字段中，键入自定义帮助站点所在的URL。
 

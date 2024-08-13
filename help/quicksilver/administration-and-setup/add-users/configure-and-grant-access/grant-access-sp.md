@@ -1,13 +1,13 @@
 ---
 title: 授予对Scenario Planner的访问权限
 description: 作为Adobe Workfront管理员，您可以使用访问级别定义用户对Scenario Planner的访问权限。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 除了访问Scenario Planner之外，具有非系统管理员访问级别的用户还必须具有财务数据的访问权限，才能查看计划中包含的任何财务信息，如预算、成本和工作角色费率。 有关详细信息，请参阅[授予对财务数据的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+
++++
 
 ## 使用自定义访问级别配置用户对Scenario Planner的访问权限
 

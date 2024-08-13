@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: 使用ADFS使用SAML 2.0配置Adobe Workfront
 description: 您可以使用SAML 2.0启用对Workfront的身份验证。
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 本指南重点介绍如何在不使用自动配置或属性映射的情况下设置ADFS。 我们建议您在设置任何自动配置之前完成设置并测试它。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,6 +48,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 启用使用SAML 2.0对Workfront的身份验证
 
 要使用SAML 2.0启用对Workfront Web应用程序和Workfront移动应用程序的身份验证，请完成以下部分：
@@ -57,7 +61,8 @@ ht-degree: 0%
 
 ### 检索Workfront SSO元数据文件 {#retrieve-the-workfront-sso-metadata-file}
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**系统** > **单点登录(SSO)**。
 1. 在&#x200B;**类型**&#x200B;下拉菜单中，单击&#x200B;**SAML 2.0**&#x200B;以显示其他信息和选项。
 1. 复制&#x200B;**元数据URL**&#x200B;之后显示的URL。

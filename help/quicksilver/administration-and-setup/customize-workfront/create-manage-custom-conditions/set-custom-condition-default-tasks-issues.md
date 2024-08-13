@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 当用户单击处理它或向已分配他们的新任务添加更新注释（不手动设置任务的条件）时，Adobe Workfront显示任务的默认条件，在“设置”中配置。 同样的情况也适用于问题。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront使用内置条件“进展顺利”作为任务的默认条件，使用单独作为问题的默认条件。 作为Workfront管理员，您可以将这两种对象类型的默认条件更改为已创建的自定义条件。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,9 +46,11 @@ Workfront使用内置条件“进展顺利”作为任务的默认条件，使�
  </tbody> 
 </table>
 
++++
+
 ## 将自定义条件设置为任务或问题的默认条件：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**项目首选项** > **条件**。
 

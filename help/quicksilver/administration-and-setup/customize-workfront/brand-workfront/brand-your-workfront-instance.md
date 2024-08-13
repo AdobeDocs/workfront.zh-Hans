@@ -1,21 +1,21 @@
 ---
-title: 打造您的Adobe Workfront实例
+title: 品牌化Adobe Workfront实例
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: 作为Workfront管理员，您可以在Workfront的登录屏幕、顶部导航区域和主菜单中使用徽标进行标记。 您还可以更改登录屏幕的背景图像和颜色。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
 
-# 打造您的Adobe Workfront实例
+# 为您的 Adobe Workfront 实例打造品牌
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -57,6 +57,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 标记登录屏幕
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **品牌**。
 

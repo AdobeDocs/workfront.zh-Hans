@@ -8,7 +8,7 @@ description: Adobe Workfront从2011年12月31日起改用100%软件即服务模�
 feature: System Setup and Administration
 role: Admin
 exl-id: 37c65360-6587-43b3-8eaf-4f1a9b375c1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%

@@ -7,12 +7,13 @@ navigation-topic: administration-and-setup
 description: 作为Workfront管理员，您可以自定义布局模板、自定义表单和状态等元素，以满足组织中用户的需求。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -25,4 +26,4 @@ ht-degree: 3%
 * [自定义表单：文章索引](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [状态和优先级标签](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [审批流程和里程碑路径](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
-* [自定义完成情况](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+* [自定义条件](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

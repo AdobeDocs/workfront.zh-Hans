@@ -1,5 +1,5 @@
 ---
-title: Workfront文档中的访问要求
+title: Workfront中的访问要求文档
 content-type: reference
 product-area: system-administration
 keywords: 访问，级别，系统，管理员，规划者，工作人员，查看者，请求者，外部，用户
@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%

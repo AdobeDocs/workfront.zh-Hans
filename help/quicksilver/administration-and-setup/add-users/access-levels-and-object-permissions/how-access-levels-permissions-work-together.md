@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 访问，模型，漏斗，图表，级别，权限
 navigation-topic: access-levels
 description: Adobe Workfront管理员可确定每个用户应具有的访问权限级别。 该访问级别定义用户能够查看的对象类型和系统中的区域以及可执行的操作。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 2%

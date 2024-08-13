@@ -1,13 +1,13 @@
 ---
 title: 授予用户完全管理权限
 description: 您可以授予用户对Workfront的完全管理访问权限。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 向单个用户授予系统管理员的完全访问权限
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
 
 1. 单击要向其授予管理员权限的用户名。
 1. 单击“更多”菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。

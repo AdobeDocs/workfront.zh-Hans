@@ -6,11 +6,11 @@ keywords: 访问，模型，漏斗，图表，级别，权限
 navigation-topic: access-levels
 title: 内置访问级别
 description: 当前六个内置访问级别中的每一个都针对特定类型的用户而设计，这些用户包括系统管理员、规划者、工作人员、查看者、请求者和外部用户。 通过这些访问级别，您可以控制用户在系统中可以编辑和查看的内容。 如果您需要自定义访问级别，则可以复制内置访问级别，并根据您希望它允许各种Workfront对象类型的访问量对其进行修改。
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%

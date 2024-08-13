@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中资源管理的访问权限。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对资源管理的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -41,6 +43,8 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用自定义访问级别配置用户对资源管理工具的访问权限
 

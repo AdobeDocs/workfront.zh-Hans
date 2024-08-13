@@ -1,13 +1,13 @@
 ---
 title: 授予用户对特定区域的管理访问权限
 description: 作为Adobe Workfront管理员，您可以使用访问级别授予拥有计划许可证的用户对系统的某些区域的管理访问权限。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >这与授予用户对Workfront的完全管理访问权限不同，在[授予用户完全管理访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中对此进行了说明&#x200B;。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -45,13 +47,15 @@ ht-degree: 2%
  </tbody> 
 </table>
 
++++
+
 ## 授予计划用户对Workfront某些区域的管理访问权限
 
 >[!IMPORTANT]
 >
 >我们强烈建议您保持内置访问级别不变，以便在设置用户后可以参考这些级别。 要自定义访问级别，请复制默认访问级别并修改副本。 (您可以对每个访问级别（系统管理员和外部用户除外）执行此操作。)
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**访问级别**。
 1. 单击要用于授予用户对Workfront特定区域的管理访问权限的访问权限级别的名称。

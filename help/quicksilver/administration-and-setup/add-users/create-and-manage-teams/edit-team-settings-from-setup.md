@@ -1,13 +1,13 @@
 ---
-title: 从“设置”区域编辑团队设置
+title: 从设置区域编辑团队设置
 description: 作为Adobe Workfront管理员，您可以从设置区域编辑团队设置。 您可以将用户添加到团队、设置团队的布局模板以及设置当团队完成工作项时如何记录状态。
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 >
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,9 +49,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
++++
+
 ## 编辑团队的设置
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击左侧面板中的&#x200B;**团队**。
 1. 选择一个团队，然后单击&#x200B;**编辑** ![](assets/edit-icon.png)。

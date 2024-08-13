@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: 更新单点登录的用户
+title: 更新单点登录用户
 description: 您可以在Workfront中为单点登录更新用户。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
 
-# 更新单点登录的用户
+# 更新用户以进行单点登录
 
 <!-- Audited: 1/2024 -->
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 更新SSO用户的过程要么将SSO用户名字段添加到您的Workfront用户（如果该字段不存在），要么更新该字段中的值（如果已存在与该用户关联的值）。
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统**，然后选择&#x200B;**更新SSO的用户**。
 

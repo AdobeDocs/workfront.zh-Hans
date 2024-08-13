@@ -1,16 +1,16 @@
 ---
-title: 新访问级别概述
+title: 新建访问级别概述
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 访问，级别，系统，管理员，标准，轻量级，参与者
 navigation-topic: access-levels
 description: 每个用户都必须具有访问级别，才能在Workfront中登录和工作。 您可以使用访问级别来控制用户可以查看和处理某些Workfront对象和区域的内容。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 5%

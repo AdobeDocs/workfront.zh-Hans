@@ -1,13 +1,13 @@
 ---
 title: 授予团队访问权限
 description: 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中团队的访问权限
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 5%
 作为Adobe Workfront管理员，您可以使用访问级别来定义用户对Workfront中团队的访问权限，如[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -38,6 +40,8 @@ ht-degree: 5%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 配置用户的访问权限以使用自定义访问级别编辑用户
 

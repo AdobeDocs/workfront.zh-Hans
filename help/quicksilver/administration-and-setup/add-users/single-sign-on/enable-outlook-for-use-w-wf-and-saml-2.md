@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: 启用Outlook以用于Workfront和SAML 2.0
 description: 如果启用SAML 2.0身份验证，并且希望用户能够使用其SAML 2.0凭据从Microsoft Outlook登录到Workfront，则必须启用SAML 2.0以在Office加载项中进行身份验证。
-author: Caroline, Becky
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 >如果需要更多信息，请咨询您的网络或IT管理员。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -50,9 +52,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 启用Outlook以用于Workfront和SAML 2.0
 
-1. 单击全局导航栏上Adobe Workfront右上角附近的&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 单击&#x200B;**系统** > **首选项**。
 
 1. 在&#x200B;**安全性**&#x200B;部分中，确保在Office 365加载项中启用了&#x200B;**允许SAML 2.0身份验证**。

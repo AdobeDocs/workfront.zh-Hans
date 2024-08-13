@@ -1,18 +1,18 @@
 ---
-title: 对新许可计划上的非付费用户禁用自动升级选项
+title: 对新许可计划中的非付费用户禁用自动升级选项
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 访问，级别，系统，管理员，标准，轻量级，参与者
 navigation-topic: access-levels
 description: 每个用户都必须具有访问级别，才能在Workfront中登录和工作。 您可以使用访问级别来控制用户可以查看和处理某些Workfront对象和区域的内容。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 >禁用后，任何超出分配数量的决策的非付费用户都不会自动升级。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -51,6 +53,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 禁用非付费用户的自动升级
 

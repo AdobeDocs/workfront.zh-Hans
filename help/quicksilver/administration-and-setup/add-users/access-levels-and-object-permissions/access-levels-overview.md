@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 访问，级别，系统，管理员，规划者，工作人员，查看者，请求者，外部，用户
 navigation-topic: access-levels
 description: 每个用户都必须具有访问级别，才能在Workfront中登录和工作。 您可以使用访问级别来控制用户可以查看和处理某些Workfront对象和区域的内容。 六个内置访问级别中的每一个都附加到五个Workfront许可证之一，即计划、工作、审查、请求和外部许可证。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

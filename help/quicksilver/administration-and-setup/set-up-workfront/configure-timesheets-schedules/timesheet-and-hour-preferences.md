@@ -8,14 +8,14 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
-# 配置时间表和小时首选项
+# 配置工时表与小时首选项
 
 <!--Audited: 01/2024-->
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 >
 >有关详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)和[时间表概述](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)。
 
-
-
 您对时间表所做的任何更改都会影响将来创建的所有时间表。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -64,6 +64,8 @@ ht-degree: 0%
 </table>
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 设置时间表和小时首选项
 

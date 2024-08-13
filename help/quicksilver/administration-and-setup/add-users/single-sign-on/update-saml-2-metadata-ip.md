@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: 在身份提供程序中更新SAML 2.0元数据
 description: 您可以在身份提供程序中更新SAML 2.0元数据。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%

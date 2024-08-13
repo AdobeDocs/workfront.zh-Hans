@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 访问，级别，许可证
 navigation-topic: access-levels
 description: 您可以在用户列表或报告中查看分配给每个用户的访问级别和许可证。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 您可以在用户列表或报告中查看分配给每个用户的访问级别和许可证。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -46,11 +48,13 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 列出用户的访问级别和许可证
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户**。
+{{step-1-to-users}}
 
-   默认情况下，所有被设置为“活动”的用户都会显示在列表中。
+默认情况下，所有被设置为“活动”的用户都会显示在列表中。
 
 1. 在&#x200B;**视图**&#x200B;下拉菜单中，选择&#x200B;**许可证**。
 
