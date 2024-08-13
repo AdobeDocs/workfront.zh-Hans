@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -50,6 +52,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自定义筛选器、视图和分组列表控件：
 

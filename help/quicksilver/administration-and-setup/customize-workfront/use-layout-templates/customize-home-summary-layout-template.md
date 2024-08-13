@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用布局模板自定义主页和摘要
 

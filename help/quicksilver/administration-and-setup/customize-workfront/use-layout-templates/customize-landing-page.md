@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 0%
 >当请求设置为登录页时，分配给布局模板的参与者或请求者用户将改为将主页视为登录页。 除了针对投稿人或请求人用户的布局模板请求外，建议选择登陆页面。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -52,6 +54,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自定义登陆页面
 

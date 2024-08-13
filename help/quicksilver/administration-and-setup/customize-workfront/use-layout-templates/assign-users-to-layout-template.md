@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 0%
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -52,6 +54,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 将布局模板分配给用户
 

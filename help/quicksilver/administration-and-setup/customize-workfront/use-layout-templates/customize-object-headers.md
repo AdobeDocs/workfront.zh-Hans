@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 0%
 配置布局模板后，必须将其分配给用户，以使您所做的更改对其他人可见。 有关将布局模板分配给用户的信息，请参阅[将用户分配给布局模板](../use-layout-templates/assign-users-to-layout-template.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -59,6 +61,8 @@ ht-degree: 0%
 </table>
 
 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅[创建或修改自定义访问级别](../../add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
++++
 
 ## 自定义对象标题
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用布局模板自定义新主页
 

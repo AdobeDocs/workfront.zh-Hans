@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 58%
+source-wordcount: '292'
+ht-degree: 56%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 58%
 您可以通过删除传统布局模板来解决这些不一致问题。 由于它们在Workfront界面中不可用，因此使用必须使用Workfront API来删除它们。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 58%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用API调用删除经典布局模板
 

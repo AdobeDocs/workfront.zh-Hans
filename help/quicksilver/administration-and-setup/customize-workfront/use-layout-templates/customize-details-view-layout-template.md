@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,8 @@ or billing record
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ or billing record
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自定义用户在详细信息视图中看到的内容
 

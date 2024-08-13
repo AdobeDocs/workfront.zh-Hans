@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 有关组的布局模板的信息，请参阅[创建和修改组的布局模板](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,9 +49,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 复制布局模板
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**界面** > **布局模板**。
 
