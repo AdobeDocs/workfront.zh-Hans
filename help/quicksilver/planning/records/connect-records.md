@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,6 @@ hide: yes
 
    * 从Workfront Planning中的Planning记录
 
-
 ## 链接记录的先决条件
 
 要将记录与其他记录或对象链接，您必须具备以下各项：
@@ -181,7 +180,7 @@ hide: yes
 
    工作区将打开，记录类型显示为卡片。
 1. 单击记录类型的卡以打开记录类型页面。
-1. 从记录类型页面右上角的&#x200B;**视图**&#x200B;下拉菜单中选择&#x200B;**表**&#x200B;视图。
+1. 单击&#x200B;**表**&#x200B;视图的名称以将其打开。
 1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 1. （视情况而定）将所选记录类型与其他记录类型连接后，转到链接的记录列，并双击要与其他记录链接的记录对应的单元格。
 
@@ -191,9 +190,18 @@ hide: yes
 
    * 从列表中单击已连接记录的名称以将其添加到所选记录。 记录会自动添加。
    * 开始键入记录的名称，并在该记录显示在列表中时单击它。 记录会自动添加。
-   * 单击&#x200B;**查看全部**&#x200B;以显示所有记录。
 
-1. （视情况而定）如果您在上一步中单击了&#x200B;**全选**，则会显示&#x200B;**连接对象**&#x200B;框。
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    您可以打开记录的页面，方法是单击视图中的记录名称，找到链接的记录字段，然后双击该字段（如果已经连接记录），或单击&#x200B;**连接记录**（如果字段为空）以从连接的记录或对象类型添加记录。
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. （可选）单击&#x200B;**查看全部**&#x200B;以显示所有记录。
+
+1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ hide: yes
 
    或
 
-   在框中选择一个或多个记录的名称，然后单击“连接对象”框右上角的&#x200B;**连接对象**。
-
-   >[!TIP]
-   >
-   >    您可以打开记录的页面，找到链接的记录字段，然后单击连接的字段（如果已经连接记录），或单击&#x200B;**连接记录**（如果字段为空）以添加来自连接的记录或对象类型的记录。
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   在框中选择一个或多个记录的名称，然后单击&#x200B;**连接对象**。
 
    添加了以下内容：
 
-   * 链接记录显示在您在步骤6中选择的记录的链接记录字段中。<!--accurate?-->
+   * 链接记录显示在您在上一步中选择的记录的链接记录字段中。
    * 如果您在连接记录类型时添加了链接的查找字段，则链接字段会填充有链接记录中的信息。
 
    更新链接的记录会自动更新您正在链接的记录的链接字段。 您无法手动编辑链接的字段。
@@ -259,7 +261,12 @@ hide: yes
 
    * 单击列表中的对象以将其添加到所选记录。 对象按字母顺序列出。 对象将自动添加。
    * 开始键入对象的名称，并在该对象显示在列表中时单击它。 对象将自动添加。
-   * 单击&#x200B;**查看全部**&#x200B;以显示您至少具有查看权限的所有对象。
+
+   >[!TIP]
+   >
+   >您可以从视图中打开记录的页面，双击链接的记录字段，或单击字段中的&#x200B;**连接**&#x200B;以添加来自连接的对象类型的对象。
+
+1. （可选）单击&#x200B;**查看全部**&#x200B;以显示您至少具有查看权限的所有对象。
 
 1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
@@ -269,7 +276,7 @@ hide: yes
 
    或
 
-   在框中选择一个或多个对象的名称，然后单击“连接对象”框右上角的&#x200B;**连接对象**。
+   在框中选择一个或多个对象的名称，然后单击&#x200B;**连接对象**。
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ hide: yes
 
    * 选定的Workfront对象将添加到链接的记录字段。
    * 如果您在通过Workfront连接记录类型时添加了它们，则Workfront对象的链接字段（或查找字段）会自动填充Workfront中的信息。
-
-   >[!TIP]
-   >
-   >您可以打开记录的页面，找到链接的记录字段，然后单击字段中的&#x200B;**+**&#x200B;图标以添加来自连接对象类型的对象。
 
    有关将记录类型与来自其他应用程序的对象连接的详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

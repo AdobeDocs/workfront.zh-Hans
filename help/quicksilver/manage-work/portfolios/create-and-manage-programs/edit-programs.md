@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: 编辑项目群
-description: 您可以编辑已创建的程序的信息，或其他用户已创建程序的信息（如果他们与您共享这些程序）。
+description: 您可以编辑已创建的程序的信息，或其他用户已创建程序的信息（如果他们与您共享这些程序）。 本文介绍了如何搜索、查找和编辑项目（如果您有相应的权限）。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. 在&#x200B;**[!UICONTROL Post中添加评论以更新程序]**&#x200B;字段。
+1. 在&#x200B;**[!UICONTROL 发布更新到程序]**&#x200B;字段中添加评论。
 1. （可选）单击&#x200B;**[!UICONTROL 人员]**&#x200B;图标以向评论添加用户或团队。
 1. （可选）单击&#x200B;**[!UICONTROL 锁定]**&#x200B;图标以锁定评论，并使其仅对公司中的用户私有。
 

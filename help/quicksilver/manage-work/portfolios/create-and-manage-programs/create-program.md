@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: 创建项目
-description: 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。 项目不能存在于项目组合之外。
+description: 项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。 项目是项目组合的一个细分，它们不能存在于项目组合之外。 项目通常与同一项目组合中的其他项目共享相同的资源。 您可以创建项目群，以便在项目组合变得太大时对其进行整理。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。 项目不能存在于项目组合之外。
+项目群表示共享跨项目边界的共同策略、目标或目标的项目集合。
+项目是项目组合的一个细分，它们不能存在于项目组合之外。 项目通常与同一项目组合中的其他项目共享相同的资源。
+
+您可以创建项目群，以便在项目组合变得太大时对其进行整理。
+
+例如，您可以有一个包含营销部门所有项目的“营销财政年度2024”Portfolio。 您可能需要考虑进一步将项目整理到财务季度中，并在“2024年营销财政年度”Portfolio中添加“2024年营销财政季度1-4计划”。
 
 ## 访问要求
 

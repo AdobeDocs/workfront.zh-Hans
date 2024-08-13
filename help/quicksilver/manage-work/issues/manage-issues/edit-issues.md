@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 编辑问题
-description: 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。
+description: 您可以编辑有关您创建的问题或其他用户创建的问题（如果他们与您共享问题）的信息。 本文介绍了在有权搜索、查找和编辑问题时，可以如何进行此类操作。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2529'
 ht-degree: 2%
 
 ---

@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: 编辑项目
-description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理想情况下，当项目处于规划状态时，应编辑项目。
+description: 您可以根据需要经常在Adobe Workfront中编辑项目。 理想情况下，当项目处于规划状态时，应编辑项目。 本文介绍了在有权搜索、查找和编辑项目的情况下，如何对这些项目执行相应的操作。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '7513'
+source-wordcount: '7534'
 ht-degree: 1%
 
 ---
