@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,8 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 虽然Workfront Planning是Workfront的一部分，但它附带了专有的概念和术语。 在开始为组织设置Workfront计划之前，请确保您熟悉新概念。
 
 Workfront Planning的框架是完全可自定义的。 您可以创建所有记录类型、其属性以及与其关联的任何字段，以满足贵组织的确切需求。
+
+您可以创建的Workfront Planning对象数存在限制。 有关详细信息，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
 
 以下是主要的Workfront Planning对象和概念：
 
@@ -252,34 +254,6 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 
 有关详细信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
-
-
-## Adobe Workfront Planning对象限制
-
-下表显示了可在Workfront Planning中创建的对象数限制。 当我们进入开发的下一个阶段时，这些限制可能会发生变化。
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Adobe Workfront Planning对象 | 限制 |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| 一个Workfront实例的工作区数 | 1,000 |
-| 一个工作区的部分数 | 50 |
-| 一个工作区的记录类型数 | 1,000（这包括来自所有部分的记录类型以及在使用工作区模板时创建的记录类型） |
-| 一种记录类型的记录数 | 50,000 |
-| 一种记录类型或分类的字段数 | 500 |
-| 文本字段的字符数 | 1,000个字符 |
-| 可粘贴到记录类型表中的文件大小 | 1MB |
-| 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
-| 发出API请求的速率 | 每分钟200个请求 |
-| 可导入的Excel文件的CSV大小* | 5MB |
-| 一个用户可以为一个记录类型创建的视图数 | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*此功能已被暂时禁用，并将在以后可用。
-
 
 ## 找到Adobe Workfront Planning
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ role: User
 
 1. 执行以下操作之一可在时间轴中导航：
 
-   * 单击左右图标或使用水平滚动条在时间轴中前后移动。
+   * 单击左右图标或使用水平滚动条在时间轴中前后移动。 刷新页面将保留所选的时间范围。
    * 单击&#x200B;**今天**&#x200B;可将时间线居中到今天的日期。
    * 从时间范围下拉菜单中选择以下选项之一以更新时间增量：
 

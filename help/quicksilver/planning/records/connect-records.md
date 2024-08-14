@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -147,7 +147,6 @@ hide: yes
 * 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
 * 您可以将一个记录连接到另一个应用程序的一个或多个对象。
-
 * 您可以在以下区域将对象从Workfront连接到Workfront Planning记录：
    * 来自Workfront Planning中的Planning记录。
    * 从Workfront对象的“规划”部分。

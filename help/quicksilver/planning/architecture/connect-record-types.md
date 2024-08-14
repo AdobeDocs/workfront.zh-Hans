@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 本文介绍了如何将两个Workfront Planning记录类型(一个Workfront Planning记录类型)与另一个应用程序中的对象连接起来。
 
 在记录或对象类型之间建立连接后，可以将各个记录相互连接，并在Workfront Planning记录上显示链接记录或对象类型中的字段。
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 有关将Workfront Planning记录连接到其他应用程序中的对象的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -194,7 +196,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. 在&#x200B;**记录类型**&#x200B;字段中，搜索记录类型，或选择以下选项之一：
 
-   * 来自所选工作区部分的另一个记录类型
+   * 所选工作区中的其他记录类型
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      > 
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * 来自&#x200B;**Workfront对象类型**&#x200B;部分的&#x200B;**项目、Portfolio、项目群、公司**&#x200B;或&#x200B;**组**。
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
    * **描述**：有关连接的记录字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-   * **允许多条记录**：选择此选项可指示当链接记录类型字段显示在原始记录上时，允许用户添加多条记录。 默认情况下，该选项处于选中状态。
+   * **允许多条记录**：选择此选项可指示当链接记录类型字段显示在原始记录上时，允许用户添加多条记录。 默认情况下，该选项处于选中状态。<!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **选择查找字段**：选择此选项可从所选记录类型添加字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您从中链接的记录的信息。 默认情况下，该选项处于选中状态。
 
      >[!TIP]
@@ -245,7 +264,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-1. （视情况而定）如果您选择连接到Experience Manager Assets或Workfront Planning记录类型，如果不希望在链接的字段中显示连接的记录或资源的标题，请在&#x200B;**记录外观**&#x200B;区域中禁用&#x200B;**标题**&#x200B;切换开关。 禁用后，链接的字段中仅显示记录的缩略图。 没有缩略图图像的记录改为显示图像图标。 默认情况下，该切换处于启用状态。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
+1. （视情况而定）如果您已选择连接到Experience Manager Assets或Workfront Planning记录类型，并且不想在链接的字段中显示连接的记录或资源的标题，请取消选中&#x200B;**记录外观**&#x200B;区域中的&#x200B;**标题**&#x200B;切换开关。 取消选择后，链接的字段中仅显示记录的缩略图。 没有缩略图图像的记录改为显示图像图标。 默认情况下，该切换处于选中状态。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
 
    >[!TIP]
    >
