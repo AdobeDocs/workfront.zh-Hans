@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ ht-degree: 0%
 
 ## Adobe Workfront增强功能
 
+* [管理员增强功能]
 * [项目增强功能](#project-enhancements)
 * [集成增强功能](#integration-enhancements)
 * [其他增强功能](#other-enhancements)
+
+### 管理员增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        自定义表单设计器上的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">布局按钮允许两列或三列</a></p>
+                        <p>自定义表单设计器上的“布局”按钮允许您从两列或三列工作区中进行选择。 原始表单设计器使用三列，并且字段设置显示在最右侧的列中。 如果选择两列，则字段设置显示在最左列的字段库旁边。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年8月12日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：用于24.9版（2024年9月）</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：待定</p>
+                            </li>
+                        </ul>
+                        <p><i>此功能是分阶段发布的一部分，将在9月向有限数量的客户提供。</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### 项目增强功能
 
@@ -77,7 +117,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p>
-                        [！BADGE In Production for Fast Release ]{type=Positive}
+                        [！BADGE In Production ]{type=Informational}
                         <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -154,7 +194,29 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront中可用的AdobeAI助手</a></p>
+                        <p>为了更便于您完成工作，我们已在Workfront中添加Adobe的AI助手。 AI Assistant可帮助您：</p>
+                        <ul>
+                            <li>汇总工作项和文档，使您能够快速大致了解任务、项目和资产。</li>
+                            <li>提供来自Experience League文档的信息，将说明和参考资料引入Workfront，同时链接到更深入的文档。</li>
+                            <li>为已计算的自定义表单字段创建和优化公式，从文本提示生成公式，或在现有公式中查找错误。</li>
+                            </ul>
+                            <p>您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于Select、Prime和Ultimate计划的实例。</p>
+                        </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年8月28日</p>
+                            </li>
+                            <li>
+                                <p class="preview">生产版本： 2024年8月28日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 

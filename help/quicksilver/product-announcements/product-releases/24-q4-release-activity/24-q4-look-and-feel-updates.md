@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+>预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月15日）；用于季度发布的生产版本：用于24.10版本（2024年10月）
 
 删除用户和停用用户在删除或停用用户时看到的用户确认消息已更新为更加现代的设计，与Workfront的其他区域一致。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+>预览版本： 2024年8月1日；用于快速发布的生产版本：用于24.8版本（2024年8月15日）；用于季度发布的生产版本：用于24.10版本（2024年10月）
 
 我们更新了“资源池”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
 
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年7月17日；用于快速发布的生产版本：用于24.8版本（2024年8月）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+>预览版本： 2024年7月17日；用于快速发布的生产版本：用于24.8版本（2024年8月15日）；用于季度发布的生产版本：用于24.10版本（2024年10月）
 
 我们更新了“通知”页面（通过单击主工具栏上的通知图标，然后单击“所有通知”可访问），更新了与Workfront其他区域一致的更现代的设计。
 
-有关信息，请参阅[创建和管理职位角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+有关信息，请参阅[查看和管理应用程序内通知](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)。

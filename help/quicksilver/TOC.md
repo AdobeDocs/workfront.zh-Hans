@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: e97d4b7565370feaf23d73b17b97f88f4b8afa63
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14330'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 2%
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
       * 2024年第4季度版本{#release-24-q4}
          * [2024年第4季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+         * [2024年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024年第4季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024年第4季度集成增强](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024年第四季度发布时间框架内的其他增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [在2024年第4季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * 2024年第3季度版本{#release-24-q3}
          * [2024年第三季度发行概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
@@ -2411,7 +2413,7 @@ ht-degree: 2%
       * [从Slack中搜索Adobe Workfront项目](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [从Slack中的共享链接访问Adobe Workfront对象](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [从Slack访问Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [PostSlack注释作为更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [将Slack评论发布为更新](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [在Slack中接收Adobe Workfront通知](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * 带有Anaplan {#workfront-with-anaplan}的Adobe Workfront
       * [Adobe Workfront与Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
