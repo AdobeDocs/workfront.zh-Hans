@@ -6,7 +6,7 @@ description: 虽然资源池中的用户可以数量没有限制，但用户列�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 从资源池中删除用户
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 虽然资源池中的用户可以数量没有限制，但用户列表仅显示前2000个用户（按字母顺序列出）。
 
@@ -75,6 +75,7 @@ ht-degree: 1%
    如果要删除与这些实体关联的所有用户，请开始键入公司、工作角色、团队或组的名称。
 
    <span class="preview">预览环境中的示例图像：<span>
+
    ![从资源池中删除用户](assets/remove-users-from-resource-pool.png)
 
    生产环境中的示例图像：

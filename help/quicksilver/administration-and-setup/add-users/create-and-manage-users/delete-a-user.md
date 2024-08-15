@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # 删除用户
+
+>[!IMPORTANT]
+>
+>本页中介绍的过程仅适用于尚未登记到Adobe业务平台的组织。 如果您已登记到Adobe业务平台，则必须删除Adobe Admin Console中的用户。
+>
+>有关因贵组织是否已登记到Adobe业务平台而不同的过程列表，请参阅[基于平台的管理差异(Adobe Workfront/Adobe业务平台)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 当用户离开您的组织时，您可以从Adobe Workfront中删除该用户。
 
