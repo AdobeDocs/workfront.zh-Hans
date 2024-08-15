@@ -7,7 +7,7 @@ description: '[!UICONTROL 未完成的执行]文件夹存储由于错误未成�
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -65,9 +65,13 @@ ht-degree: 5%
 
 ## 查看未完成的执行
 
-如果模块在操作过程中遇到错误，则会将新的未完成执行添加到“未完成执行”文件夹。 每个不完整的执行都包含场景的Blueprint以及可以映射到失败模块的所有捆绑包。 通过单击场景详细信息页面上的[!UICONTROL 未完成执行]选项卡，可以打开未完成执行的列表：
+如果模块在操作过程中遇到错误，则会将新的未完成执行添加到“未完成执行”文件夹。 每个不完整的执行都包含场景的Blueprint以及可以映射到失败模块的所有捆绑包。 通过单击场景详细信息页面上的[!UICONTROL 未完成的执行]选项卡，可以打开未完成的执行列表。
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 有关详细信息，请参阅[导致执行不完整的错误](#errors-resulting-into-incomplete-executions)。
 

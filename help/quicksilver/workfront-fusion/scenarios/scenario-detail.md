@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront Fusion]中的方案详细信息'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -74,6 +74,10 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">[！UICONTROL模块图] </td> 
       <td>此选项卡显示方案的可视表示形式。 此图表与您在方案编辑器中看到的图表相同</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL报表] （选项卡） </td> 
+      <td> <p>打开此选项卡，查看此方案在过去30天内执行的操作数的图表。</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[！UICONTROL History] （选项卡） </td> 

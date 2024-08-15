@@ -7,7 +7,7 @@ description: 您可以显示某个方案的所有运行信息，也可以搜索�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ ht-degree: 0%
    如果您在方案编辑器中处理方案，请单击窗口左上角附近的左箭头![](assets/exit-editing-arrow.png)。
 
 1. 查看右侧列表中的信息。
-
-   ![](assets/open-history-tab-350x202.png)
 
    您还可以单击以查看此信息的全页视图。 全页视图允许您过滤历史记录以查看特定执行。
 

@@ -7,7 +7,7 @@ description: 本文介绍了在您的 [!DNL Adobe Workfront Fusion] 方案中的
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -132,10 +132,7 @@ ht-degree: 0%
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Dropbox] >[!UICONTROL 监视文件]模块中的[!UICONTROL 最大返回文件数]设置为`10`。
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL Workfront] >[!UICONTROL 监视记录]模块中的[!UICONTROL 返回文件的最大数量]设置为`10`。
 >如果向[!DNL Workfront]提交了100个请求，且[!UICONTROL 限制]字段设置为10，则运行一个方案后仍有90个文件未处理。 在下次计划场景执行中处理接下来的10个文件。
 >
 >### 最大循环数设置为10
