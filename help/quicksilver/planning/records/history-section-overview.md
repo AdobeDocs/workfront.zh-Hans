@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ ht-degree: 3%
 1. 单击记录类型卡片。
 此时将打开记录类型页面，并显示该类型的所有记录。
 
-1. 从&#x200B;**视图**&#x200B;下拉菜单中选择一个表视图。
-1. 单击表视图中记录的名称。
+1. 从任何视图中，单击记录的名称。
 
    此时将打开记录的页面。 默认情况下，“注释”区域会在右侧面板中打开。
 1. 单击&#x200B;**显示历史记录**&#x200B;图标![](assets/show-history-icon.png)。 对记录字段所做的所有更改都将显示在右侧面板中，从最近的更改开始。

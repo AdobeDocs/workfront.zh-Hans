@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 共享视图 | ✓ {\f13 } | |  |
 | 与外部资源公开共享视图 | ✓ {\f13 } | |  |
 | 复制视图 | ✓ {\f13 } | |  |
-| 提交请求 |                               |                                  | ✓ {\f13 } |
-| 创意摘要 |                               |                                  | ✓ {\f13 } |
+| 提交请求 |                               | ✓ {\f13 } |                 |
+| 将记录详细信息导出到Word |                               | ✓ {\f13 } |                 |
+| 将记录详细信息导出到PDF |                               |                                  | ✓ {\f13 } |
 | 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
 | 向记录添加注释 | ✓ {\f13 } |                                  |                 |
 | 接收应用程序内通知 | ✓ {\f13 } |                                  |                 |
@@ -104,8 +105,9 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 从Workfront对象连接Planning记录 | ✓ {\f13 } |                                  |                 |
 | Workfront规划公共API | ✓ {\f13 } |                                  |                 |
 | Workfront规划AI助手* | ✓ {\f13 } |                                  |                 |
+| 报告Workfront Planning信息（画布功能板） |                               | ✓ {\f13 } |                 |
 
-*AI助手已被暂时删除，并将在以后返回。
+*AI助手已暂时移除，并将在以后提供。
 
 ## 为Workfront实例中的用户启用Adobe Workfront Planning
 
