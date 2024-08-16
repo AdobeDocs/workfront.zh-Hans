@@ -1,10 +1,10 @@
 ---
-title: 连接记录类型概述
+title: 连接的记录类型概述
 description: 指示各个记录类型如何相互关联的一种方法是连接它们。 此外，您可以将Adobe Workfront Planning记录类型与其他应用程序中的对象类型连接起来，以增强用户体验并将它们的焦点集中在一个应用程序中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <!--update metadata at GA-->
 <!--add mini TOC when live, already added to big TOC to get the link-->
 
-# 连接记录类型概述
+# 连接的记录类型概述
 
 <!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 

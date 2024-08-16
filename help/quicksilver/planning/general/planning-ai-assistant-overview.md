@@ -1,23 +1,24 @@
 ---
-title: 'Adobe Workfront规划AI助手概述'
+title: Adobe Workfront规划AI助手概述
 description: 您可以使用AI助手根据当前页面上下文和记录结构生成、更新或删除记录。 用户的命令和AI执行这些命令共同工作，以确保AI所做的更改准确反映在您的环境中。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront规划AI助手概述
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">AI助手已被暂时删除，并将在以后返回。</span>
 >本文中的信息介绍Adobe Workfront规划和Workfront AI Assistant（测试版），它们是Adobe Workfront的新产品。
 >
 >目前，Workfront规划处于早期访问阶段，Workfront AI助手处于测试阶段。
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 ## 关于AI助理的注意事项
 
-* 默认情况下，Workfront管理员可以使用AI助手。
+* 默认情况下，主Workfront管理员可以使用AI助手。 有关信息，请参阅[配置系统的基本信息](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
 * Workfront管理员必须为所有其他用户启用AI助手。 有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 

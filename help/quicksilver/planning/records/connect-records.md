@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ec3c9668154cdfdd509d37e9621af717f1363d15
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2292'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,8 @@ hide: yes
 {{planning-important-intro}}
 
 您可以将Adobe Workfront Planning记录相互连接或与其他应用程序中的对象连接。
+
+本文介绍了如何连接记录。 有关连接记录的更多常规信息，请参阅[连接的记录概述](/help/quicksilver/planning/records/connected-records-overview.md)。
 
 必须首先将两个记录类型相互连接，或者将记录类型从另一个应用程序连接到对象类型。 这将创建链接的记录字段。 然后，可以使用链接的记录字段将记录彼此连接，或将记录与其他应用程序中的其他对象连接。
 
@@ -131,33 +133,9 @@ hide: yes
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 有关连接记录的注意事项
+## 连接记录的先决条件
 
-* 连接记录类型后，连接的记录类型在从中链接的记录类型表格中以及在记录页面上显示为链接记录字段。
-* 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
-* 您可以在要链接的记录类型的表中添加链接记录类型的字段（查找字段）。
-
-  您可以在要链接的记录类型的表格中添加要链接的记录类型的字段（查找字段）。
-
-  例如，如果从“促销活动”记录类型链接产品记录类型，则可以显示促销活动的产品字段以及产品的促销活动字段。
-* 您无法手动更新链接来源记录中的查找字段值。
-
-  链接记录的查找字段的值会自动从原始记录或对象中填充您正在链接的Workfront Planning记录。
-
-* 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
-* 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
-* 您可以将一个记录连接到另一个应用程序的一个或多个对象。
-* 您可以在以下区域将对象从Workfront连接到Workfront Planning记录：
-   * 来自Workfront Planning中的Planning记录。
-   * 从Workfront对象的“规划”部分。
-
-* 您可以在以下区域将Workfront Planning记录连接到Experience Manager Assets：
-
-   * 从Workfront Planning中的Planning记录
-
-## 链接记录的先决条件
-
-要将记录与其他记录或对象链接，您必须具备以下各项：
+要将记录与其他记录或对象连接，您必须具备以下条件：
 
 * 至少一个工作区、记录类型和记录。
 
@@ -171,7 +149,15 @@ hide: yes
 
 ## 从Workfront Planning连接记录
 
-### 连接Adobe Workfront Planning记录
+您可以从Workfront Planning在以下方面连接记录：
+
+* 从Workfront Planning中的Planning记录，在表视图的已连接字段中。
+* 从Workfront Planning中的Planning记录（记录预览或连接的记录字段中的页面）。
+  <!--
+  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
+  * From a Planning record in the record's preview or page on the Connections tab.  -->
+
+### 从表视图或<!--Details tab of the-->记录页面连接Adobe Workfront Planning记录
 
 {{step1-to-planning}}
 
@@ -232,7 +218,7 @@ hide: yes
 
    请注意，**Campaign**&#x200B;链接记录字段在产品记录类型页面中显示您链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
-### 将Adobe Workfront Planning记录连接到Workfront对象
+### 将Adobe Workfront Planning记录从表视图或<!--Details tab of the-->记录页面连接到Workfront对象
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -311,7 +297,7 @@ hide: yes
    这会从Workfront Planning记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
 
 
-### 将Workfront Planning记录连接到Adobe Experience Manager对象
+### 将Workfront Planning记录从表视图或<!--Details tab of the-->记录页面连接到Adobe Experience Manager对象
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -327,6 +313,7 @@ hide: yes
 >
 >当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
+要将记录与AEM Assets连接：
 
 {{step1-to-planning}}
 
@@ -403,12 +390,41 @@ hide: yes
 
    这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在AdobeExperience Assets中。
 
+<!--
+### Connect Workfront Planning records from the Connections tab of the record page
+
+1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click the **Connections** tab in the record's preview or page. 
+
+    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+
+1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
+    The Connect button does not display if there are no records currently connected to the selected record. 
+1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+    The records and objects are added immediately.
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+
+    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+
+    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
+
+-->
+
 ## 从Workfront对象连接记录
 
 要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
 
-* 记录类型与Workfort对象类型之间的连接。
+* 在Workfront Planning中建立的记录类型与Workfort对象类型之间的连接。
 * 记录和Workfront对象之间的至少一个连接。
-* 您的Workfront或组管理员必须将Planning部分添加到可以连接到Planning记录类型的Workfront对象类型。
+* Workfront或组管理员必须将Planning部分添加到可以连接到“布局模板”中的Planning记录类型的Workfront对象类型中。
 
 有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

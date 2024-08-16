@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1855'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,9 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 从Workfront对象访问Planning记录 | ✓ {\f13 } |                                  |                 |
 | 从Workfront对象连接Planning记录 | ✓ {\f13 } |                                  |                 |
 | Workfront规划公共API | ✓ {\f13 } |                                  |                 |
+| Workfront规划AI助手* | ✓ {\f13 } |                                  |                 |
+
+*AI助手已被暂时删除，并将在以后返回。
 
 ## 为Workfront实例中的用户启用Adobe Workfront Planning
 

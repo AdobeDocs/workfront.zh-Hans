@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ ht-degree: 0%
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
-   此时将打开记录页面。
+   此时将打开记录页面。<!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. 在记录预览或页面中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加分区**&#x200B;图标![](assets/add-section-icon.png)以添加分区。
+1. 在<!--**Details** tab of the-->记录预览或页面中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
 1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#rearrange-fields-in-the-record-preview-or-details-page)中的[重新排列字段部分所述。
 
@@ -182,7 +182,13 @@ ht-degree: 0%
 
    对部分和字段顺序的所有更改都将自动保存。
 
-## 重新排列记录预览或详细信息页面中的字段
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## 重新排列记录预览或页面中的字段
 
 {{step1-to-planning}}
 
