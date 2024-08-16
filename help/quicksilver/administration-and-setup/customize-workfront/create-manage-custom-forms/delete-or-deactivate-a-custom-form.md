@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >删除自定义表单也会删除与表单关联的对象上的所有自定义数据。 无法恢复已删除的数据。 请考虑改为停用自定义表单 — 在停用不再使用的自定义表单时，将保留所有关联的历史数据。 有关详细信息，请参阅[重新激活或停用自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -51,10 +53,12 @@ ht-degree: 0%
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
+
 ## 删除自定义表单
 
 {{step-1-to-setup}}
 
-1. 单击&#x200B;**自定义Forms。**
+1. 单击&#x200B;**自定义Forms**。
 1. 选择自定义表单，然后单击![删除图标](assets/delete-icon.png)。
 1. 如果您确定想要永久删除自定义表单及其附加对象的所有相关数据，请单击&#x200B;**是，删除它**。
