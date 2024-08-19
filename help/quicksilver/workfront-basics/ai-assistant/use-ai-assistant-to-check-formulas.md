@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# 使用AI助手修订计算字段公式
+# 使用AI助手生成或修订计算字段公式
 
-您可以使用AI Assistant解决计算字段中的无效自定义表达式中的错误。
+您可以使用AI Assistant根据提供的提示生成公式。 您还可以解决计算字段中的无效自定义表达式中的错误。
+
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新增：Prime或Ultimate</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+## 生成计算字段表达式
+
+## 修订计算字段表达式
 
 在自定义表单生成器中创建计算字段时，如果公式无效，则该字段下会显示错误消息。
 
 ![无效表达式错误](assets/invalid-expression.png)
 
 AI助手可以帮助您将公式修订为有效的计算字段表达式。
-
-## 修订计算字段表达式
 
 要修订无效的计算字段表达式，请执行以下操作：
 

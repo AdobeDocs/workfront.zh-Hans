@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,25 @@ ht-degree: 1%
 
 作为Workfront管理员，您可以控制组织中哪些用户启用了AI助手。 这是通过访问级别管理的。
 
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront计划</td> 
-   <td>任何</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准</p>
        <p>或</p>
-       <p>当前：计划</p></td>
+       <p>当前：不可用</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
