@@ -6,9 +6,9 @@ description: 您可以打印校样摘要，将其另存为PDF，或导出为针�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您无法同时打印文档列表中的多个校对摘要。
+>* 不支持大于1 GB的摘要。
+>* 您无法同时打印文档列表中的多个校对摘要。
 
 1. 在包含验证的文档列表中，将鼠标悬停在包含该文档的行上，然后单击&#x200B;**打印摘要**。
 
