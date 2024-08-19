@@ -1,17 +1,17 @@
 ---
-title: 访问系统任务状态的列表
+title: 访问系统任务状态列表
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 您可以使用任务的状态向用户显示任务在给定时间处于哪个开发阶段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 您可以使用任务的状态向用户显示任务在给定时间处于哪个开发阶段。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,11 +45,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 访问任务状态
 
 有关编辑系统状态或创建新自定义状态的信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**项目首选项** > **状态**。
 

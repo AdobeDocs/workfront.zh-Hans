@@ -1,17 +1,17 @@
 ---
-title: 访问系统项目状态的列表
+title: 访问系统项目状态列表
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 用户可以指定项目的状态，以便其他用户可以在给定时间查看项目的当前开发阶段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Workfront附带9个系统项目状态。 您可以更改这些状态的名称，
 作为Workfront管理员，您可以为系统中的所有新项目配置默认状态。 有关说明，请参阅[配置系统范围的项目首选项](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -49,13 +51,15 @@ Workfront附带9个系统项目状态。 您可以更改这些状态的名称，
  </tbody> 
 </table>
 
++++
+
 ## 访问项目状态
 
 作为Workfront管理员，您可以访问系统级别项目状态的列表。
 
 有关编辑系统状态和创建自定义状态的信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**项目首选项** > **状态**。
 

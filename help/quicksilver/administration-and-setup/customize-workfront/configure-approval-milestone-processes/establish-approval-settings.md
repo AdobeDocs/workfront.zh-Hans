@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 作为Adobe Workfront管理员，您可以在Workfront中确定批准流程的全局设置。 这些设置影响系统中的所有工作项批准流程。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 作为Adobe Workfront管理员，您可以在Workfront中确定批准流程的全局设置。 这些设置影响系统中的所有工作项批准流程。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,12 +46,13 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 配置全局审批设置
 
-1. 以Workfront管理员身份登录到Workfront 。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 单击&#x200B;**进程** > **审批** 。
+1. 单击&#x200B;**进程** > **审批**。
 
 1. 单击&#x200B;**审批**&#x200B;区域名称旁边的&#x200B;**设置**&#x200B;图标![](assets/gear-icon-settings.png)。
 

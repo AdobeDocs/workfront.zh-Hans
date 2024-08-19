@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 在为整个组织创建自定义状态时，您可以对其进行配置，以便系统中的所有组都可以使用它而无需对其进行编辑。 或者，您可以对其进行配置，以便组管理员可以为其组修改它，如[创建或编辑组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)中所述。
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **状态**。
 

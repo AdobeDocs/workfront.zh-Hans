@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: 编辑审批流程
+title: 编辑批准流程
 description: 如果您是Adobe Workfront管理员，或您对审批流程具有管理访问权限，则可以查看和编辑系统中的所有审批流程。
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件：
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,12 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 编辑现有审批流程
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. （视情况而定）如果您正在编辑系统级别的审批流程，请单击左侧面板中的&#x200B;**流程** > **审批**。
 
    或

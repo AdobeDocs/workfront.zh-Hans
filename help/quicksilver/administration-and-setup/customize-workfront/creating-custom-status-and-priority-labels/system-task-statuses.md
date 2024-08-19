@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 系统任务状态
 description: Workfront中需要使用三个内置的系统任务状态，这意味着您可以对这三个状态进行解锁、重命名和重新排序，但无法隐藏或删除它们。 您还可以添加新的系统任务状态以匹配组织中的需求。 更改任务的状态通常是手动过程，但有时任务状态会根据系统中发生的其他因素自动更改。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

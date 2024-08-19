@@ -1,18 +1,18 @@
 ---
 title: 创建和自定义优先级
 description: 您可以在Workfront的“设置”区域中控制项目、任务和问题的优先级。 优先级重视Adobe Workfront中的项目、任务或问题。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
 
-# 创建和自定义优先级
+# 创建并自定义优先级
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 您可以在Workfront的“设置”区域中控制项目、任务和问题的优先级。 优先级重视Adobe Workfront中的项目、任务或问题。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,6 +44,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自定义现有优先级
 
@@ -87,7 +91,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 除了Workfront中提供的默认优先级之外，您还可以添加自己的优先级以反映组织的需求。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **优先级**。
 

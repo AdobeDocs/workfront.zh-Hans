@@ -1,23 +1,23 @@
 ---
-title: 状态和优先级标签
+title: “创建自定义状态和优先级标签：文章索引”
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 作为Adobe Workfront管理员，您可以为项目、任务和问题创建自定义状态。 这些权限适用于整个Workfront系统或特定组或子组的用户。 工作项的状态表示其当前开发状态。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 3%
 
 ---
 
-# 创建自定义状态和优先级标签
+# 创建自定义状态和优先级标签：文章索引
 
 本节包含以下文章：
 
@@ -33,6 +33,6 @@ ht-degree: 0%
 * [删除自定义状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
 * [使用特定状态列出具有未决批准流程的对象](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
 * [创建和自定义优先级](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
-* [创建或自定义问题严重程度](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+* [创建或自定义问题严重性](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
 有关组级别状态的信息，请参阅[管理组状态](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)。

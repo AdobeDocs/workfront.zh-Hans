@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: 重新排序系统级别和组状态
+title: 重新排序系统层和组状态
 description: 作为Workfront管理员，您可以更改系统中每个人或单个组的项目、任务和问题状态的顺序。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 6%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ ht-degree: 6%
 </table>
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
+
++++
 
 ## 默认状态顺序
 
@@ -108,7 +112,7 @@ ht-degree: 6%
 
 ## 对全系统或组的任务和项目状态重新排序
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**项目首选项>状态**。
 1. （视情况而定）如果要对组的状态重新排序，请在右上角的框中开始键入组的名称，然后在组出现时单击该名称。

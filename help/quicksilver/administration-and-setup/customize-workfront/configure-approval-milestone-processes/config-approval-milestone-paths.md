@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: 您可以创建用户可以附加到工作项、文档或验证的审批流程。 您还可以创建可应用于系统中任何项目的里程碑路径。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 锁定和未锁定的系统级别状态
 description: 锁定自定义状态是一种方法，可确保整个组织内的人员在其工作流程中使用相同的流程。 当状态被锁定时，系统中的所有用户都可以使用该状态。 虽然您可以编辑或删除它，但组管理员无法为其组执行此操作。 相反，解锁自定义状态让组管理员可以更灵活地管理其组中使用的独特工作流。 他们可以更改已解锁状态的属性或为其组删除它。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c70a10a920d32ad00a2e833b331c92a598902d21
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 使用自定义状态作为默认状态
 description: 当自定义状态设置为默认状态时，新的默认状态将以各种方式在整个系统中使用。 其使用方式取决于其设置为默认的系统级状态，还是默认组级状态。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 当自定义状态设置为默认状态时，新的默认状态将以各种方式在整个系统中使用。 其使用方式取决于其设置为默认的系统级状态，还是默认组级状态。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -41,6 +43,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自定义默认系统级别状态
 
@@ -76,7 +80,8 @@ ht-degree: 0%
 
 ## 将自定义状态设置为默认状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**项目首选项** > **状态**。
 1. （视情况而定）如果要为组设置默认状态，请在右上角的菜单中开始键入组的名称，然后在该组出现时将其选定。
 1. 打开&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡，具体取决于要设置为默认状态的状态类型。

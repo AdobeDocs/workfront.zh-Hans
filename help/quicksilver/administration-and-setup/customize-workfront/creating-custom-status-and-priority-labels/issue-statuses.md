@@ -1,17 +1,17 @@
 ---
-title: 访问系统问题状态的列表
+title: 访问系统问题状态列表
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 您可以使用问题的状态向系统中的用户显示问题在给定时间处于哪个开发阶段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 您可以使用问题的状态向系统中的用户显示问题在给定时间处于哪个开发阶段。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,13 +45,15 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 访问问题状态
 
 您可以访问和修改系统级别的问题状态。 您可以编辑一些有关默认系统状态的信息，也可以创建新的自定义状态。 有关创建自定义状态或编辑系统状态的详细信息，请参阅[创建或编辑状态](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 要访问系统级问题状态，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**项目首选项** > **状态**。
 
