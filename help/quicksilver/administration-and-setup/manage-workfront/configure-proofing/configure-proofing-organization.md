@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: 为组织配置校样设置
+title: 为您的组织配置校对设置
 description: 作为Adobe Workfront管理员或Workfront Proof管理员，您可以自定义组织的默认校样设置。 这些设置包括默认共享选项、品牌等。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 作为Adobe Workfront管理员或Workfront Proof管理员，您可以自定义组织的默认校样设置。 这些设置包括默认共享选项、品牌等。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 配置操作
 
 有关在校对查看器中使用操作的信息，请参阅[对校对评论使用操作](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)。
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 ### 添加或重命名操作 {#add-or-rename-an-action}
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击Workfront Proof界面右上角的&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 
@@ -73,7 +77,7 @@ ht-degree: 0%
 
 ### 停用或重新激活操作 {#deactivate-or-reactivate-an-action}
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击Workfront Proof界面右上角的&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 
@@ -82,7 +86,7 @@ ht-degree: 0%
 
 ### 重新排序操作 {#reorder-actions}
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击Workfront Proof界面右上角的&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 
@@ -98,7 +102,7 @@ ht-degree: 0%
 
 要添加自定义设备，请执行以下操作：
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击Workfront Proof界面右上角的&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 

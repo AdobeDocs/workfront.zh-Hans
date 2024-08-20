@@ -6,11 +6,12 @@ title: 设置汇率
 description: 作为Adobe Workfront管理员，您可以在Workfront中设置货币汇率。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +42,8 @@ ht-degree: 3%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ ht-degree: 3%
  </tbody> 
 </table>
 
++++
+
 ## 设置汇率
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**项目首选项** > **汇率。**
 

@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: 管理Adobe Workfront
-description: 作为Workfront管理员，您可以配置校对Workfront功能、报告、电子邮件、安全性、汇率、已删除邮件、诊断。
+description: 作为Workfront管理员，您可以配置验证功能、报告、电子邮件、安全性、汇率、已删除项和诊断。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 0%
@@ -239,7 +239,7 @@ ht-degree: 0%
 
         **多对象自定义表单中计算的自定义字段**
 
-        在多对象自定义表单中，所选对象类型必须与表单的计算自定义字段中引用的至少一个字段兼容。 与对象不兼容的字段在表单上显示N/A。
+        在多对象自定义表单中，所选对象类型必须与表单的计算自定义字段中引用的至少一个字段兼容。 与对象不兼容的字段在表单上将显示不适用。
 
         为确保计算字段显示所有对象类型的正确结果，必须使用`$$OBJCODE`为每个对象类型定义计算。
 

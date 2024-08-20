@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 6%
 
 ## 配置新验证默认设置
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**验证** > **验证设置**。
 1. 在&#x200B;**新验证默认值**&#x200B;部分中，配置以下设置：
 
@@ -113,7 +114,8 @@ ht-degree: 6%
 
 要配置校对决策，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**验证** > **验证设置**。
 1. 在&#x200B;**决策**&#x200B;部分中，您可以
 

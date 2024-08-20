@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->删除自定义字段也会在填写附加到对象的自定义表单时删除用户在该字段输入的所有自定义数据。 已删除的数据将无法恢复。
+>删除自定义字段也会在填写附加到对象的自定义表单时删除用户在该字段输入的所有自定义数据。 已删除的数据将无法恢复。 此外，没有通知系统来提醒使用自定义表单的人该表单已被删除。
 >
 >您可以查看所有使用要删除的自定义字段的自定义表单和报表，以评估可能会产生的影响。 有关详细信息，请参阅[查看使用特定自定义字段或小部件的所有自定义表单](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)和[查看使用特定自定义字段或小部件的所有报表](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)。
 >

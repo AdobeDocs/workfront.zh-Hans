@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 设置自动提醒
-description: 设置自动提醒
+description: 您可以设置自动提醒，以在所有任务或问题到期、延迟或接近计划完成日期时触发电子邮件通知。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 4%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ ht-degree: 4%
  </tbody> 
 </table>
 
++++
+
 ## 设置自动提醒
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
-1. 单击&#x200B;**电子邮件** >**自动提醒**。
+1. 单击&#x200B;**电子邮件** > **自动提醒**。
 
 1. 在&#x200B;**将延迟通知发送到**&#x200B;区域，选择以下任一选项：
 
@@ -85,7 +89,7 @@ ht-degree: 4%
         <td>（在<b>向</b>区域发送截止日期提醒中。） 如果您希望分配给任务或问题的用户收到关于其工作项临近到期日期的通知，请选择此选项。</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. 通过选择工作项的到期日之前或之后的时间量，选择要发送自动提醒的时间。
 

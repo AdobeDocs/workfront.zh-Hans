@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 有关可用于基本和集成校对的校对功能的信息，请参阅[访问Workfront中的校对功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -46,6 +48,8 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 为用户启用和禁用验证（仅限旧版计划） {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 如果您的组织使用的是旧版Select或Premium Workfront计划，则作为Workfront管理员，您可以为用户启用和禁用验证功能。
@@ -63,7 +67,8 @@ ht-degree: 0%
 
 您选择的权限配置文件将授予用户用于您组织内存在的每个证明。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 选择一个或多个用户，然后单击&#x200B;**编辑**。
 
 1. 在&#x200B;**访问**&#x200B;部分中，单击&#x200B;**校对权限配置文件**&#x200B;下拉菜单中的以下Workfront Proof权限选项之一：

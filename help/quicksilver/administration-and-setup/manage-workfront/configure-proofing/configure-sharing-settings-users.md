@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 作为Adobe Workfront管理员或Workfront Proof管理员，您可以配置用于共享验证的用户帐户，配置用户是否可以查看验证的所有版本，以及配置用户获得共享项目访问权限的时间。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件：
 
@@ -44,9 +46,11 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
++++
+
 ## 配置与其他帐户的共享
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ## 配置共享验证所有版本的可见性
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 
@@ -75,7 +79,7 @@ ht-degree: 0%
 
 要配置用户何时可看到具有自动工作流的验证，请执行以下操作：
 
-1. 在Workfront中，单击主菜单![](assets/main-menu-icon.png)，然后单击验证![](assets/proofing-in-main-menu.png)以访问Workfront Proof。
+{{step1-to-proofing}}
 
 1. 单击&#x200B;**设置** > **帐户设置**，然后单击&#x200B;**设置**&#x200B;选项卡。
 

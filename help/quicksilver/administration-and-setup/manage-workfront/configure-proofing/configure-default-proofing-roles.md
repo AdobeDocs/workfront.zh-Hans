@@ -8,18 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# 配置默认验证角色
+# 配置默认校对角色
 
 作为Adobe Workfront管理员，您可以为访问在Workfront中创建的验证的用户和来宾用户配置默认验证角色。 将用户添加到验证的任何人都可以为其调整这些角色。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -44,11 +46,13 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
 
-## 配置默认验证角色
++++
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+## 配置默认校对角色
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

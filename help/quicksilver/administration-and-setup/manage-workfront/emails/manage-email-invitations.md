@@ -8,14 +8,14 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# 管理发送给新用户的电子邮件邀请
+# 管理对新用户的电子邮件邀请
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -44,6 +44,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 生成电子邮件邀请 {#generate-email-invitations}
 
 在以下情况下会生成电子邮件邀请：
@@ -80,7 +84,8 @@ ht-degree: 0%
 
 要手动生成发送给现有未注册用户的电子邮件邀请，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-users}}
+
 1. 选择在其名称后显示&#x200B;**已取消注册**&#x200B;标签的用户。
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ ht-degree: 0%
 
 作为Workfront管理员，您可以为新用户配置包含在新用户电子邮件邀请中的消息。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧的列表中，单击&#x200B;**电子邮件** > **邀请**。
 
