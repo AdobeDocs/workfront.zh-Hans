@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 0%
 有关使用画布功能板的基本信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 有关所有画布功能板文档的列表，请参阅[画布功能板概述](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
-**Beta计划：**
+**Beta状态**
 
-* 已结束的测试版开始日期 — TBA
-* 开放测试版开始日期 — TBA
-* 计划发行日期 — TBA
+Canvas功能板当前处于封闭的测试阶段，因此只有收到特定客户的邀请后才能使用。
 
 ## 参与Beta
 

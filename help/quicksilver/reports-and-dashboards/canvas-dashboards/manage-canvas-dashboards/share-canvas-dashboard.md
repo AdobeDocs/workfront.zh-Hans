@@ -6,14 +6,18 @@ description: 您可以与其他Adobe Workfront用户共享画布功能板，以�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # 共享画布功能板
+
+>[!IMPORTANT]
+>
+>本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 您可以与其他Adobe Workfront用户共享画布功能板，以便他们能够查看或编辑该功能板。
 

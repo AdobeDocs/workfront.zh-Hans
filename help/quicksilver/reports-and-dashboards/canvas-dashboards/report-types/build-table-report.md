@@ -6,14 +6,18 @@ description: 可以将数据显示为可配置表格的表格报告添加到画�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # 在画布功能板中构建表报告
+
+>[!IMPORTANT]
+>
+>本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 可以将数据显示为可配置表格的表格报告添加到画布功能板。
 

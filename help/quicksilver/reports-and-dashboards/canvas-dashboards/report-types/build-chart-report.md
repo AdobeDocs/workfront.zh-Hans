@@ -6,14 +6,18 @@ description: 可以将您的数据显示为条形图、柱状图、折线图或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # 在画布功能板中构建图表报告
+
+>[!IMPORTANT]
+>
+>本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 可以将您的数据显示为条形图、柱状图、折线图或饼图的图表报表可以添加到画布仪表板中。
 

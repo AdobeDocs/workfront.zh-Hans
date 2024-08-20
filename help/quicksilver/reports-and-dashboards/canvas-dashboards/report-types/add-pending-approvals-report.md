@@ -6,14 +6,18 @@ description: 包括有关您的未决和过去审批决策的待决审批报告�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # 将待处理审批报告添加到画布功能板
+
+>[!IMPORTANT]
+>
+>本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 包括有关您的未决和过去审批决策的待决审批报告可以添加到画布仪表板。
 

@@ -6,14 +6,18 @@ description: 创建画布功能板后，您可以向其添加报表，这些报�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # 在画布功能板中添加、删除或排列报表
+
+>[!IMPORTANT]
+>
+>本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 创建画布功能板后，您可以向其添加报表，这些报表将以各种格式显示您的Adobe Workfront数据。 您可以在画布上随意移动这些报表和调整其大小。 有关创建画布功能板的信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 
