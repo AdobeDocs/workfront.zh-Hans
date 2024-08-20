@@ -4,10 +4,10 @@ description: 指示各个记录类型如何相互关联的一种方法是连接�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 1%
+source-wordcount: '818'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,18 @@ ht-degree: 1%
 
 ## 有关连接记录类型的注意事项
 
+在Workfront Planning中连接需执行以下两个步骤：
+
+1. 首先，必须在两个记录类型或记录类型与来自另一个应用程序的对象类型之间建立连接。 有关如何连接记录类型的信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+1. 其次，在连接一种类型的单个记录与另一种类型的记录之后，可以连接这两种记录类型。 有关连接记录的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+有关连接记录类型，请考虑以下事项：
+
 * 您可以在Adobe Workfront Planning中连接以下实体：
 
    * 两种记录类型。
 
-     默认情况下，您可以从同一工作区连接两种记录类型。 您还可以设置记录类型以与其他工作区的记录类型连接。
+     默认情况下，您可以从同一工作区连接两种记录类型。 您还可以设置记录类型以与其他工作区的记录类型连接。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
    * 来自另一个应用程序的记录类型和对象类型。
 
 * 您可以将Workfront Planning记录类型与以下应用程序中的以下对象类型连接起来：
@@ -82,73 +89,79 @@ ht-degree: 1%
 
      >[!IMPORTANT]
      >
-     >对工作区具有“查看”权限或更高权限的所有人都可以查看查找字段中的信息，无论他们在链接对象类型<!--or their permissions in other workspaces-->的应用程序中的权限或访问级别如何。
+     >对工作区具有“查看”权限或更高权限的每个人都可以查看查找字段中的信息，无论他们在链接对象类型应用程序中的权限或访问级别，或者他们在其他工作区中的权限如何。
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     链接的记录字段前面有关系图标![](assets/relationship-field-icon.png)。
 
-* 链接的记录字段前面有关系图标![](assets/relationship-field-icon.png)。
+     链接的字段前面有标识该字段类型的图标。 例如，链接（或查找）字段前面有图标，指示字段是数字、段落或日期。
 
-  链接的字段前面有标识该字段类型的图标。 例如，链接（或查找）字段前面有图标，指示字段是数字、段落或日期。
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## 连接类型
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-在两个记录类型之间或在记录与来自另一个应用程序的对象类型之间建立连接后，可以在连接的记录字段中添加记录。
-
-根据可添加到已连接记录字段中的记录数，在连接记录类型时可以选择以下连接类型：
-
-* [一对多](#one-to-many-connection-type)
-* [一对一](#many-to-one-connection-type)
-* [多对一](#many-to-one-connection-type)
-* [多对多](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->在连接以下内容时，这些选项不可用：
->* 来自不同工作区的两个记录
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* 记录类型和AEM资源
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### 一对多连接类型
-
-![](assets/one-to-many-connection-picker.png)
-
-在记录类型之间选择一对多连接类型时，您可以稍后将一个记录与要连接的多个记录连接。
-
-例如，如果将营销活动与项目关联，则可以将一个营销活动与多个项目关联。 但一个项目只能连接到一个营销策划。
-
-选择此连接类型后，可以将其更改为多对多连接类型。
-
-### 一对一连接类型
-
-![](assets/one-to-one-connection-picker.png)
-
-在记录类型之间选择一对一的连接类型时，您以后可以将一个记录与您正在连接的其他记录连接。
-
-例如，如果将营销活动与项目关联，则可以将一个营销活动与一个项目关联。 一个项目只能连接到一个营销策划。
-
-选择此连接类型后，可将其更改为任何其他连接类型。
-
-### 多对一连接类型
-
-![](assets/many-to-one-connection-picker.png)
-
-在记录类型之间选择多对一连接类型时，以后可以只连接一条记录的多个记录。
-
-例如，如果将营销活动与项目关联，则可以将多个营销活动与一个项目关联。 一个项目可以连接到多个营销策划。
-
-选择此连接类型后，可以将其更改为多对多连接类型。
-
-### 多对多连接类型
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-在记录类型之间选择多对多连接类型时，您可以稍后将多个记录与要连接的多个记录连接起来。
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-例如，如果将营销活动与项目关联，则可以将多个营销活动与多个项目关联。 您还可以将多个项目连接到多个营销策划。
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-如果选择此连接类型，则在保存后无法更改连接类型。
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

@@ -4,9 +4,9 @@ description: 工作区是团队使用的记录类型的集合，表示团队的�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 0%
 
    * 对于系统管理员，工作区显示在以下选项卡中：
 
-      * **我的工作区**：显示您创建的工作区。<!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。<!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
+      * **其他工作区**：显示系统中的所有其他工作区。
 
    * 对于所有其他用户，他们创建的工作区以及与他们共享的工作区将显示在“工作区”区域中。
 
@@ -55,6 +55,7 @@ ht-degree: 0%
   系统管理员可以管理所有工作区，甚至可以管理他们未创建的工作区。
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * 在Workfront Planning的实例中，您可以创建的工作区对象数量存在限制。 有关信息，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
 
 

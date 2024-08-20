@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -98,8 +98,6 @@ ht-degree: 1%
 ## 关于Workfront对象Planning部分的注意事项
 
 * Workfront Planning记录类型必须连接到Workfront对象类型。
-
-* 必须至少有一个记录连接到一个Workfront对象，才能在Workfront中查看记录。
 
   有关信息，请参阅以下文章：
 

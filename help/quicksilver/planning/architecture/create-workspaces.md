@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ ht-degree: 1%
    * 一个名为&#x200B;**无标题Workspace**&#x200B;的空工作区，您可以在其中开始手动添加记录类型，以便从头开始创建工作区。
    * 以您选择的模板命名的工作区，该模板填充了示例记录类型。 您可以进一步自定义记录类型和工作区。
 
-   对于Workfront管理员，新工作区显示在&#x200B;**我的工作区**&#x200B;选项卡上。<!--replace this with: **Workspaces I'm on** tab-->
+   对于Workfront管理员，新工作区显示在我所在的&#x200B;**工作区的**&#x200B;选项卡上。
+
+   对于可以创建工作区的所有其他用户，新工作区显示在&#x200B;**工作区**&#x200B;区域中。
+
 1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按Enter键。
 
 1. （可选且有条件）如果是从模板创建工作区，请单击&#x200B;**操作记录类型**&#x200B;或&#x200B;**分类**&#x200B;部分的名称

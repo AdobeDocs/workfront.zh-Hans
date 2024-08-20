@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 1%
@@ -394,6 +394,24 @@ recommendations: noDisplay, noCatalog
    >
    >* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建公式字段，并且活动连接到产品记录类型，而产品记录类型连接到市场活动记录类型，而市场活动记录类型连接到Workfront项目，则可以在为活动记录类型创建的公式中引用项目的预算。
 
+<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    * **Date**: The result of the formula field displays as a date. 
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
+-->
 1. 单击&#x200B;**创建**。
 
    新的公式字段作为列添加到记录类型，其值可以与记录相关联。

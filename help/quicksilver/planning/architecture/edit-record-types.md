@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,6 @@ hide: yes
 ## 访问要求
 
 +++ 展开以查看Workfront Planning的访问要求。
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ hide: yes
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理工作区</a>的权限 </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
+   <p>只有系统管理员才能启用记录类型以从其他工作区连接</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ hide: yes
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. 在&#x200B;**编辑记录类型**&#x200B;框中，**外观**&#x200B;选项卡默认打开。
 
-1. 在&#x200B;**编辑记录类型**&#x200B;框中，更新以下信息：
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * 根据需要编辑记录类型名称。<!--did they add a field label for this? -->
+   在&#x200B;**外观**&#x200B;选项卡中更新以下信息：
+
+   * 根据需要编辑记录类型名称。<!--did they add a field label for this?-->
    * **描述**：编辑或添加记录类型的描述，其中包含有关该记录类型的详细信息。
    * 编辑与记录类型关联的图标的颜色和形状。 执行以下操作：
-      * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。 默认情况下选中“灰色”。
+      * 选择用于标识记录类型的颜色。 这是记录类型图标的颜色。
       * 从列表中选择一个图标，或开始键入图标的名称以描述其表示的内容，然后在显示时选择它。 这是记录类型的图标。 默认情况下，会选择一个文件图标。
 
-     ![](assets/update-record-type-box.png)
-
-1. 单击&#x200B;**保存**。
-1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面。
-1. 单击记录类型名称右侧的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**编辑**&#x200B;以更新有关记录类型的信息。
-
-   >[!TIP]
-   >
-   >   您可以重命名标题中的记录类型。
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. （可选）要编辑其他记录类型，请展开记录类型名称右侧的向下箭头，搜索记录类型，然后当该记录类型显示在列表中时将其选定。
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. （视情况而定）如果您是系统管理员，请单击&#x200B;**编辑记录类型**&#x200B;框中的&#x200B;**高级设置**&#x200B;选项卡。
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. （视情况而定）作为系统管理员，在&#x200B;**高级设置**&#x200B;选项卡中更新以下信息：
 
+   * **从其他工作区连接**：选择此切换可允许用户从其他工作区连接到此记录类型。 默认情况下，该选项处于取消选中状态。
+   * **系统范围**：选择此选项可允许用户从系统中的所有工作区连接到此记录。
+   * **特定工作区**：选择此选项可限制用户可以从中连接到此记录类型的工作区，然后展开下拉菜单并选择您希望用户从中连接到此记录类型的工作区。 您可以开始键入工作区的名称，并在工作区显示在列表中时将其选定。
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. 单击&#x200B;**保存**。
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   工作区上的记录类型卡片在右上角显示一个连接图标![](assets/connect-from-other-workspaces-icon.png)，表示现在可以从其他工作区访问该记录。
+
+1. （可选）单击工作区区域中的记录类型卡以打开记录类型的页面，然后重命名标题中的记录类型。
+
+1. （可选）要编辑其他记录类型，请从记录类型页面中，展开记录类型名称右侧的向下箭头，搜索记录类型，然后在记录类型显示在列表中时将其选定。
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**我的工作区**&#x200B;以访问您创建的工作区，或单击&#x200B;**其他工作区**&#x200B;以访问他人与您共享的工作区。<!--replace My workspaces with **Workspaces I'm on**-->
+1. （视情况而定）如果您是Workfront管理员，请单击&#x200B;**我所在的工作区**&#x200B;以访问您创建的工作区，或单击&#x200B;**其他工作区**&#x200B;以访问他人与您共享的工作区。
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. （可选）单击&#x200B;**显示全部**&#x200B;以显示其他工作区。 仅当您拥有两行以上的工作区信息卡时，才会显示&#x200B;**显示所有**&#x200B;链接。
+1. （可选） ClicK **显示更少**&#x200B;以限制屏幕上显示的工作区数。
+1. 要编辑工作区，请执行下列操作之一：
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * 将鼠标悬停在工作区信息卡上，然后单击该信息卡右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)
+或
+   * 单击工作区卡以打开工作区，然后单击工作区名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)。
+1. 单击&#x200B;**编辑**。
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. 单击工作区信息卡以打开工作区。
-
-   此时将打开Workspace页面。
-
-1. 单击新工作区标题中工作区的名称以对其进行重命名，然后按&#x200B;**Enter**。
-1. 单击标题中工作区名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+   此时会显示&#x200B;**编辑工作区**&#x200B;框。
 
    ![](assets/edit-workspace-box.png)
 

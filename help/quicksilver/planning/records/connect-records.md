@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -428,7 +428,6 @@ hide: yes
 要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
 
 * 在Workfront Planning中建立的记录类型与Workfort对象类型之间的连接。
-* 记录和Workfront对象之间的至少一个连接。
 * Workfront或组管理员必须将Planning部分添加到可以连接到“布局模板”中的Planning记录类型的Workfront对象类型中。
 
 有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

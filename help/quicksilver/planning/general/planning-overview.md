@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 在时间轴视图中排序记录 |                               | ✓ {\f13 } |                  |
 | 对表格视图中的分组进行排序 |                               | ✓ {\f13 } |                  |
 | 在时间轴视图中排序分组 |                               | ✓ {\f13 } |                  |
-| 连接工作区 |                               | ✓ {\f13 } |                  |
 | 在表视图中搜索记录 | ✓ {\f13 } |   |
 | 在时间轴视图中搜索记录 | ✓ {\f13 } |   |
 | 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
 | 将Workfront Planning记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
+| 连接来自不同工作区的Planning记录 | ✓ {\f13 } |                                  |                 |
 | 记录包含详细信息的页面 | ✓ {\f13 } |                                  |                  |
 | 更新记录页面的布局 | ✓ {\f13 } |                                 |                  |
 | 共享工作区 | ✓ {\f13 } | |  |
@@ -282,10 +282,10 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 
 1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
-   * **我的工作区**：显示您创建的工作区。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **其他工作区**：显示系统中所有其他工作区，包括与您共享的工作区。<!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。
+   * **其他工作区**：显示系统中的所有其他工作区。
 
-   对于所有其他用户，他们创建或与他们共享的所有工作区都显示在&#x200B;**工作区**&#x200B;区域中。
+   对于所有其他用户，他们创建或与他们共享的工作区都显示在&#x200B;**工作区**&#x200B;区域中。
 
 1. （可选并推荐）继续执行以下某些操作以构建您的工作结构：
 
