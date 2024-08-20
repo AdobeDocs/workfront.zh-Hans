@@ -6,7 +6,7 @@ description: 您可以为Web内容生成新的静态验证或现有静态验证�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > URL必须少于1,000个字符。
+   > URL必须少于2,000个字符。
 
 1. 单击已添加的URL。
 
