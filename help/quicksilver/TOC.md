@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 21ce33ccb09e4fd7d0cc8c31631ef66e3ce73211
+source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
 workflow-type: tm+mt
-source-wordcount: '14333'
+source-wordcount: '14334'
 ht-degree: 2%
 
 ---
@@ -2256,6 +2256,7 @@ ht-degree: 2%
       * [Datadog模块](workfront-fusion/apps-and-their-modules/datadog-modules.md)
       * [数据存储模块](workfront-fusion/apps-and-their-modules/data-store-modules.md)
       * [DocuSign模块](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+      * [[!DNL Draft.js]模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
       * [Dropbox模块](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
       * [电子邮件模块](workfront-fusion/apps-and-their-modules/email-modules.md)
       * [加密程序](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
