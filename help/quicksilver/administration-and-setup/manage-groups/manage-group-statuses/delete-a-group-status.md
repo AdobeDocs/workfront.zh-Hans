@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 删除组状态
 description: 作为组管理员，您可以删除您管理的组的状态（如果该组未在系统级别配置为必需或已锁定状态），或者删除层次结构中较高组的状态。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >* 与组或其子组相关联的至少一个对象处于待审批状态。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -49,9 +51,11 @@ ht-degree: 0%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 删除组状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组**。
 1. 单击顶级组的名称。

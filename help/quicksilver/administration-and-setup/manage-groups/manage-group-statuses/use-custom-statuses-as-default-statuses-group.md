@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 使用自定义状态作为组的默认状态
-description: 作为组管理员，您可以将自定义状态配置为您管理的组或子组的默认状态。 当系统需要自动将Workfront状态分配给项目、任务或问题时，这将很有用。 项目、任务或问题始终显示您设置为默认状态的自定义状态，而不是显示它相当于的Workfront状态。
-author: Caroline
+description: 作为组管理员，您可以将自定义状态配置为您管理的组或子组的默认状态。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ ht-degree: 0%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 问题状态
 
 如果自定义状态是问题状态，则必须为其启用所有四种问题类型（错误报告、更改顺序、问题和请求）。 例如，在下面显示的问题状态中，由于未选择“更改单”问题类型，因此不能将“重新打开”状态用作默认状态：
@@ -58,7 +62,8 @@ ht-degree: 0%
 
 ## 将自定义状态设置为组的默认状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)，然后单击要创建或自定义状态的组的名称。
 1. 在左侧面板中，单击&#x200B;**状态** ![](assets/gear-icon-settings.png)。
 1. 打开&#x200B;**项目**、**任务**&#x200B;或&#x200B;**问题**&#x200B;选项卡，具体取决于要设置为默认状态的状态类型。

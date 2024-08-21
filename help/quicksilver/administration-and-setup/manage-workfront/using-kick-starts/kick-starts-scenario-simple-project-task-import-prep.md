@@ -3,22 +3,22 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: Kick-Starts场景 — 简单的项目和任务导入准备
+title: “Kick-Starts方案：简单的项目和任务导入准备”
 description: 详细描述使用Kick Start方法导入基本项目和任务时可用的设置和控件。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # 快速启动方案：简单的项目和任务导入准备
 
-详细描述使用Kick Start方法导入基本项目和任务时可用的设置和控件。
+详细描述了使用Kick-Start方法导入基本项目和任务时可用的设置和控件。
 
 ## 方案
 
@@ -174,7 +174,7 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4 小时</td> 
+      <td>4小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -199,7 +199,7 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4 小时</td> 
+      <td>4小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -224,7 +224,7 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4 小时</td> 
+      <td>4小时</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 

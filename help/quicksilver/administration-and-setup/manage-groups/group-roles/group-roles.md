@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: 组角色
-description: Workfront管理员向组授予对需要工作和沟通的Workfront区域的访问权限。 然后，每个组可以将其Workfront信息（如用户、模板、自定义表单和项目）与其他部门的那些信息分开。 每个组至少需要一个组管理员。 一个组下可以存在多达14个级别的子组。
-author: Caroline
+description: Workfront管理员向组授予对需要工作和沟通的Workfront区域的访问权限。 然后，每个组可以将其Workfront信息（如用户、模板、自定义表单和项目）与其他部门的那些信息分开。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---

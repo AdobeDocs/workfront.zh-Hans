@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: 'Kick-Starts场景：将多个选项自定义字段导入Workfront'
+title: “Kick-Starts场景：将多个选项自定义字段导入Workfront”
 description: 您可以使用Kick-Start功能在Adobe Workfront中导入具有多个选项的自定义字段。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ ht-degree: 0%
 
 要从Workfront导出现有数据，请执行以下操作：
 
-1. 单击Workfront界面右上角的&#x200B;**主菜单>设置**。
-1. 向左展开&#x200B;**系统**&#x200B;菜单，然后单击&#x200B;**导出数据(Kick-Starts)**。
+{{step-1-to-setup}}
+
+1. 展开左侧菜单中的&#x200B;**系统**，然后单击&#x200B;**导出数据(Kick-Starts)**。
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ ht-degree: 0%
 
 在扫描系统中现有自定义字段的信息后，您可以下载新的快速启动模板用于导入。
 
-1. 单击Workfront界面右上角的&#x200B;**主菜单>设置**。
+{{step-1-to-setup}}
 
-1. 向左展开&#x200B;**系统**&#x200B;菜单。
+1. 在左侧菜单中展开&#x200B;**系统**。
 
 1. 单击&#x200B;**导入数据(Kick-Starts)**。
 
@@ -129,9 +130,6 @@ ht-degree: 0%
    >有关Workfront数据库中对象名称的信息，请参阅[API资源管理器](../../../wf-api/general/api-explorer.md)。
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. 确保以下信息的格式正确：
@@ -245,7 +243,9 @@ ht-degree: 0%
 
 执行前面部分中描述的步骤后，继续执行以下操作以将新字段和表单上传到Workfront：
 
-1. 单击&#x200B;**主菜单>设置>系统**&#x200B;菜单下的&#x200B;**导入数据****(Kick-Starts)**。
+{{step-1-to-setup}}
+
+1. 单击&#x200B;**系统>导入数据(Kick-Starts)**。
 
 1. 单击&#x200B;**使用Kick-Start电子表格上载数据**&#x200B;部分下的&#x200B;**选择文件**。
 

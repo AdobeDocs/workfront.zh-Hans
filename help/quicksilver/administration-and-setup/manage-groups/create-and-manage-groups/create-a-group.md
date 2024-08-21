@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 如果您是组管理员或Workfront管理员，则还可以在组下创建子组。 有关说明，请参阅[创建子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -49,13 +51,15 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 从头开始创建顶级组
 
 这些步骤说明了如何从头开始创建新组。 有关通过复制现有组或子组来创建组或子组的信息，请参阅本文中的[通过复制现有组或子组来创建顶级组](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)。
 
 您必须是Workfront管理员才能创建顶级组。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
@@ -127,7 +131,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 要通过复制组或子组来创建新的顶层组，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 

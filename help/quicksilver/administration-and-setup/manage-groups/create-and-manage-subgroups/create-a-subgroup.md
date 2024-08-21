@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: 创建子组
 description: 您可以在管理的组下创建子组，以组织用户和项目并在Adobe Workfront中分配访问权限。 通常，组管理员管理组和子组。 他们可以使用组页面在一个位置管理其组和子组。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 但是，通常组管理员管理组和子组。 他们可以使用组页面在一个位置管理其组和子组。 有关组和子组如何在Workfront中工作的信息，请参阅[组概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)和[子组概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -44,9 +46,11 @@ ht-degree: 3%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 添加子组
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**组**。
 

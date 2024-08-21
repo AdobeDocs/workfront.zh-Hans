@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: '快速启动方案：公司、组、角色和用户快速启动准备'
+title: “Kick-Starts场景：公司、组、角色和用户的Kick-Starts准备”
 description: 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 开始实施Adobe Workfront时，您可以导入客户列表、内部部门、职位角色和用户信息，而不是手动输入数据。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,6 +44,8 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 您可以导入的内容
 
@@ -67,7 +71,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-角色名称必须唯一，无法导入现有工作角色。
+角色名称必须是唯一的。 无法导入现有工作角色。
 
 下表显示了要导入的用户以及每个用户的几个用户属性：
 
@@ -157,7 +161,7 @@ ht-degree: 2%
 
 ## 下载快速启动模板
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **Kick-Starts** > **导入数据。**
 
@@ -299,4 +303,4 @@ ht-degree: 2%
 1. 根据需要填写其他用户详细信息，然后保存文件。
 1. 导入Excel文件。
 
-   按照本文&#x200B;**导入Kick Start文件**&#x200B;部分提供的说明进行操作。
+   按照[使用快速启动模板](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)将数据导入Adobe Workfront中提供的说明进行操作。

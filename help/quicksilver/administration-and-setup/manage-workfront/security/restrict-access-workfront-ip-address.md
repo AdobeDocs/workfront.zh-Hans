@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: 按IP地址限制对Adobe Workfront的访问
+title: 通过IP地址限制对Adobe Workfront的访问
 description: 您可以配置Adobe Workfront 列入允许列表 IP，将对Workfront的访问限制为您指定的45个IP地址或IP地址范围。 这为Workfront应用程序提供了额外的安全层。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 1%
 这些IP地址或IP地址范围应由网络管理员提供。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -44,6 +46,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 其他允许列表
 
 列入允许列表如果您的防火墙或邮件服务器配置为仅允许某些供应商访问，则必须将某些IP地址添加到其。 这将打开环境与Adobe Workfront服务器之间的通信。 有关信息，请参阅[配置防火墙的允许列表](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
@@ -54,7 +58,7 @@ ht-degree: 1%
 
 将IP地址添加到Workfront 列入允许列表后，只能使用这些IP地址来访问Workfront。 尝试从其他IP地址访问Workfront的用户会收到错误消息，指示其IP地址被阻止。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **客户信息。**
 

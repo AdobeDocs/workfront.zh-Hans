@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 锁定和未锁定的组状态
-description: 锁定组的自定义状态是一种方法，可确保组及其子组中的人员在其工作流程中使用相同的流程。 当组状态被锁定时，该组和较低组中的所有用户都可以使用该状态。 虽然您(或Workfront管理员)可以编辑或删除您锁定的状态，但以下子组的管理员无法对这些组执行此操作。 相反，解锁组的自定义状态使较低子组的管理员可以更灵活地管理其工作流。 他们可以更改已解锁状态的属性或为其组删除它。
-author: Caroline
+description: 锁定组的自定义状态是一种方法，可确保组及其子组中的人员在其工作流程中使用相同的流程。 当组状态被锁定时，该组和较低组中的所有用户都可以使用该状态。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

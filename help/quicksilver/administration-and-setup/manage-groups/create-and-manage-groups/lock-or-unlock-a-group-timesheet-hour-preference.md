@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 锁定或解锁组时间表和小时首选项
 description: 如果您是组管理员，则可以在Workfront管理员在系统级别解锁您的组的时间表和小时首选项后，对其进行配置，然后锁定该首选项。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* 如果在具有解锁首选项的组下移动组，则已移动的组不受该首选项的影响。
 >
 >  如果在移动时锁定了已移动组中的首选项，则该首选项会保持锁定状态，但组管理员现在可以将其解锁，因为已为父组解锁该首选项。
->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -66,13 +67,15 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 锁定或解锁组时间表和小时首选项
 
 >[!TIP]
 >
 >如果您是Workfront管理员，可以绕过步骤1-4，方法是转到设置>时间表和小时数>首选项，然后在页面顶部的框中搜索组的名称。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组**。
 1. 单击要锁定或解锁时间表和小时首选项的组的名称。

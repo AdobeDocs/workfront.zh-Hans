@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: 更改Adobe Workfront域
 description: 作为Adobe Workfront管理员和经授权的Workfront支持联系人，您可以向Workfront支持团队请求帮助，以更改贵组织的Workfront域。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 作为Adobe Workfront管理员和经授权的Workfront支持联系人，您可以向Workfront支持团队请求帮助，以更改贵组织的Workfront域。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -48,6 +50,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 请求域更改
 
 1. 在Experience League时开始创建支持工单。
@@ -64,7 +68,7 @@ ht-degree: 0%
 >
 >如果您组织的Workfront实例已启用Adobe IMS，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧边栏中，单击&#x200B;**系统** > **客户信息**，并确保您的域在“客户信息”页面上已更新。
 

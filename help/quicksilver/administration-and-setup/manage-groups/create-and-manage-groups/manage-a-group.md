@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >当您被指定为组的管理员时，您将继承其下任何子组的组管理员角色。 唯一可以管理子组的用户是上面最上层组的组管理员以及分配给该子组的任何组管理员。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -48,6 +50,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 </table>
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
+
++++
 
 ## 管理组的成员资格
 
@@ -71,7 +75,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 无需离开正在查看的组的主页，即可快速编辑、复制或删除该组。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**组**。
 

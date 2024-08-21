@@ -5,13 +5,13 @@ keywords: 管理，子组，编辑
 navigation-topic: create-and-manage-subgroups
 title: 管理子组
 description: 作为子组的组管理员，您可以创建、移动、查看、编辑、复制、重命名、导出和删除子组。 您还可以通过从子组的父组中将其删除来将该子组设置为顶级组。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 有关子组的详细信息，请参阅[子组概述](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -47,9 +49,11 @@ ht-degree: 1%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 创建、移动、查看、编辑、复制、重命名、导出或删除子组
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
@@ -125,9 +129,7 @@ ht-degree: 1%
 >
 >在Workfront中，该营销部门由一个称为营销的组表示，该组包含3个称为现场营销、产品营销和数字营销的子组。 要列出属于整个营销部门（全部4个组）的项目，您可以使用以下筛选规则为项目区域创建一个筛选器：
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >您还可以使用“顶级父代名称”字段来标识与顶级组关联的数据，但只能标识在视图中，而不能标识在筛选器或分组中。
 
@@ -141,7 +143,7 @@ ht-degree: 1%
 >
 >有关停用和重新激活组的说明，请参阅[查看和管理组详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)文章中的[查看和管理组详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view)和[查看和管理组详细信息](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive)部分。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 
@@ -159,8 +161,6 @@ ht-degree: 1%
 
 * 如果复制的子组有自己的子组，则它们会包含在副本中，其名称的格式如下所示：
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * 属于公共组的任何子组也是公共的，因此任何具有编辑用户访问权限的用户（在组内或组外）都可以向该子组添加用户。

@@ -3,19 +3,19 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 恢复已删除的项目
-description: 如果您是Workfront管理员，则可以在Adobe Workfront中恢复项目、任务、问题、文档和模板（如果它们在过去30天内被删除）。 30天后，这些项目将永久删除且无法恢复。 恢复对象时，也将恢复其所有子对象和字段。 例如，如果您恢复某个项目，则该项目中的所有任务、问题、文档、小时、注释、分配和自定义数据也会恢复。items
+description: 如果您是Workfront管理员，则可以在Adobe Workfront中恢复项目、任务、问题、文档和模板（如果它们在过去30天内被删除）。 30天后，这些项目将永久删除且无法恢复。
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
 
-# 恢复已删除的项目
+# 还原已删除的项目
 
 <!--Audited: 12/2023-->
 

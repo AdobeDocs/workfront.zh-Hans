@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: 管理组状态
 description: 作为组管理员，您可以为管理的组创建自定义状态。 这有助于消除对数十种公司范围的自定义状态的需要，并允许您的组层次结构具有更多自主权。 如果Workfront管理员已解锁您管理的组的状态，则您还可以编辑该组的系统级状态。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

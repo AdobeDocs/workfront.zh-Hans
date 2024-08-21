@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: run-diagnostics
-title: 使用诊断触发自动化流程
+title: 使用诊断来触发自动化流程
 description: 您可以使用诊断手动触发自动化流程，例如基于时间的脚本、重新计算或电子邮件通知。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '367'
+ht-degree: 9%
 
 ---
 
-# 使用诊断触发自动化流程
+# 使用诊断来触发自动化流程
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -24,22 +25,30 @@ ht-degree: 6%
 
 ## 访问要求
 
-您必须具备以下条件才能执行本文中的步骤：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront计划</a> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a> </td> 
-   <td> <p>计划 </p>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>计划</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>您必须是Workfront管理员。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 使用诊断功能触发自动化流程
 

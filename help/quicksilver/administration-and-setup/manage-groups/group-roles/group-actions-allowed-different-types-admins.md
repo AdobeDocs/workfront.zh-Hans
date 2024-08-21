@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: 不同类型管理员允许的操作
+title: 允许组管理员执行的操作
 description: 此表比较了Adobe Workfront管理员(管理Workfront系统)、组管理员（管理顶级组）和组管理员（管理子组）可以使用的管理活动。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 2%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 

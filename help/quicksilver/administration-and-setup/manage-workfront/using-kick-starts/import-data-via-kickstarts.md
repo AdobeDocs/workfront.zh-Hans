@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart，kick-start，kickstarts，kick-starts
 navigation-topic: use-kick-starts
-title: 使用快速启动模板将数据导入Adobe Workfront
+title: 使用快速启动模板将数据导入Workfront
 description: Kick-Start是经过特殊格式设置的Excel工作簿，您可以用要导入Workfront的数据填充这些工作簿。 Adobe Workfront提供了一个快速启动模板，您可以使用它来执行此操作，如Kick-Starts数据导入程序中所述。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# 使用快速启动模板将数据导入Adobe Workfront
+# 使用快速启动模板将数据导入Workfront
 
 <!--Audited: 12/2023-->
 

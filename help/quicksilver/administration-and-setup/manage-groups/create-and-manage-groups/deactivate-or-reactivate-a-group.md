@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 停用或重新激活组
 description: 您可以停用您管理的不再使用的组。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 您可以停用您管理的不再使用的组。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -44,6 +46,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 停用或重新激活组
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >* 将其从父组中移除。 有关详细信息，请参阅[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[从父组中删除子组并使其成为顶级组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)部分。
 >
 >* 将其移动到活动组下。 有关详细信息，请参阅文章[管理子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[创建、移动、查看、编辑、复制、重命名、导出或删除子组](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)部分。
->
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，选择&#x200B;**组**。
 

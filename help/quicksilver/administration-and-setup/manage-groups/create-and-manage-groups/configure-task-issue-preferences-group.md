@@ -5,13 +5,13 @@ product-area: system-administration;user-management;setup
 keywords: 组，首选项，任务，问题，解锁
 navigation-topic: create-and-manage-groups
 description: 如果贵组织中的组需要独立于系统级别配置任务或问题首选项的方式对其进行配置，Adobe Workfront管理员可以解锁首选项。 然后，作为组管理员，您可以为组配置首选项，这将影响与组关联的所有任务或问题。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1891'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ ht-degree: 2%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 为顶层组配置解锁的任务和问题偏好设置
 
 >[!TIP]
 >
 >如果您是Workfront管理员，可以绕过步骤1-4，方法是转到设置>项目偏好设置>任务和问题，然后在页面顶部的框中搜索组的名称。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: 防止重复用户
+title: 防止出现重复用户
 description: 在Adobe Workfront中创建新用户时，即使电子邮件地址因大小写而异(例如，JohnDoe@example.com和johndoe@example.com)，也不能再使用其他用户已在使用的电子邮件地址。 此外，为了准备未来的身份验证增强功能，请确保所有用户在Workfront实例中具有唯一的电子邮件地址。
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 在Adobe Workfront中创建新用户时，即使电子邮件地址因大小写而异(例如，JohnDoe@example.com和johndoe@example.com)，也不能再使用其他用户已在使用的电子邮件地址。 此外，为了准备未来的身份验证增强功能，请确保所有用户在Workfront实例中具有唯一的电子邮件地址。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -42,6 +44,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 创建具有唯一电子邮件地址的用户
 
 从2019.4版本开始，在Workfront中创建新用户时，即使电子邮件地址因大小写而异，也不能再使用其他用户已在使用的电子邮件地址。 例如，如果另一个用户的电子邮件地址为JohnDoe@example.com ，则不能创建另一个电子邮件地址为johndoe@example.com的用户。
@@ -53,7 +57,7 @@ ht-degree: 0%
 
 1. 检查任何重复用户，并确定不再需要哪个用户。
 
-   1. 单击Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**用户**。![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. 在&#x200B;**筛选器**&#x200B;菜单中，选择&#x200B;**全部**。
 

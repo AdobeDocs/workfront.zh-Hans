@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 配置用于身份验证的密码策略
+title: 配置身份验证的密码策略
 description: 作为Adobe Workfront管理员，您可以配置密码策略选项，以自定义对Workfront系统的身份验证体验。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
-# 配置用于身份验证的密码策略
+# 配置身份验证的密码策略
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ ht-degree: 1%
 改进的密码管理功能即将推出或可能已经提供给您的组织。 使用下列任一部分，具体取决于您的组织是否有权访问新的身份验证体验。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -48,13 +50,15 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 配置身份验证（适用于所有客户） {#configure-authentication-available-for-all-customers}
 
 将为所有客户显示身份验证选项。 改进的密码管理功能即将推出，或可能已经提供给您的组织，如本文中的[配置增强身份验证)](#configure-enhanced-authentication-coming-soon)部分所述。
 
 要配置身份验证首选项：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **身份验证**。
 
@@ -97,7 +101,7 @@ ht-degree: 1%
 
 要配置增强的身份验证首选项，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **增强型身份验证**。
 1. 在&#x200B;**密码长度**&#x200B;框中，输入有效密码所需的最小字符数。

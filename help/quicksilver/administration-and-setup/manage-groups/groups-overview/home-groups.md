@@ -3,14 +3,14 @@ title: 主组概述
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: 主组在用户配置文件中分配。 所有用户都必须有一个主组。 一个用户可以属于多个组，但他们只能有一个主组。 尽管系统中的任何现有组都可以指定为用户的主组，但我们建议创建和分配代表较大组织单位的新组。 建立主组时，请考虑您的组织如何划分Adobe Workfront用户。
-author: Caroline
+description: 主组在用户配置文件中分配。 所有用户都必须有一个主组。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

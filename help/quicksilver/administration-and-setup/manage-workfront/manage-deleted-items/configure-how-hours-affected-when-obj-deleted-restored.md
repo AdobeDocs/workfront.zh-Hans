@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 配置删除和还原对象时的影响（小时）
+title: 配置删除和还原对象时在小时数上生效
 description: 您可以配置当有人删除要记录小时数的项目、任务或问题时，小时数会发生什么情况。 您选择的选项还决定了稍后恢复项目、任务或问题时发生的小时数。 (有关在Workfront中恢复项目的更多信息，请参阅恢复已删除的项目。)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# 配置删除和还原对象时的影响（小时）
+# 配置在删除和还原对象后的小时数上生效
 
 您可以配置当有人删除要记录小时数的项目、任务或问题时，小时数会发生什么情况。 您选择的选项还决定了稍后恢复项目、任务或问题时发生的小时数。 (有关在Workfront中还原项目的详细信息，请参阅[还原已删除的项目](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)。)
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -41,9 +43,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 配置在删除和还原项目时如何管理小时数
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**时间表和小时数**，然后单击&#x200B;**首选项**。
 

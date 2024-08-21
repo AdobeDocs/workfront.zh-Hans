@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 重新排序组状态
 description: 作为组管理员，您可以更改所管理组的项目、任务和问题状态的顺序。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 </table>
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
+
++++
 
 ## 默认状态顺序
 
@@ -108,7 +112,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 重新排序您管理的组中任务和项目的状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组**，然后单击组的名称。
 1. 在左侧面板中，单击&#x200B;**状态**。
@@ -122,7 +126,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 重新排序问题的状态
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组**，然后单击组的名称。
 1. 在左侧面板中，单击&#x200B;**状态**。

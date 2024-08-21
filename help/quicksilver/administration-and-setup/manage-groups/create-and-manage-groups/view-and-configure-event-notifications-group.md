@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Workfront管理员还可以为任何组执行此操作。
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Workfront管理员还可以为任何组执行此操作。
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 查看和配置组的事件通知
 
-1. （视情况而定，可选）如果您是Workfront管理员，并且已在“电子邮件通知”页面（“设置”>“电子邮件”>“通知”）上，您可以执行以下操作，然后跳到步骤6：在列表上方的框中删除&#x200B;**系统事件通知**，开始在框中键入组的名称，然后在组出现时单击它。
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+>[!TIP]
+>
+>如果您是Workfront管理员，并且已在“电子邮件通知”页面（“设置”>“电子邮件”>“通知”）上，您可以执行以下操作，然后跳到步骤6：在列表上方的框中删除&#x200B;**系统事件通知**，在框中开始键入组的名称，然后在组出现时单击它。
+
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 

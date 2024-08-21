@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: 组，首选项，任务，组，问题，解锁
 navigation-topic: create-and-manage-groups
-title: 配置组的工时表与小时首选项
+title: 为组配置时间表和小时首选项
 description: 在系统级别，Adobe Workfront管理员可以使用解锁时间表和小时首选项部分“常规首选项”和“预填充时间表”。 这允许组管理员为自己的组独立配置这些部分中的选项。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Adobe Workfront管理员可以在系统级别解锁时间表和小时首选项�
 >
 >如果您是Workfront管理员，可以绕过步骤1-4，方法是转到设置>时间表和小时数>首选项，然后在页面顶部的框中搜索组的名称。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 

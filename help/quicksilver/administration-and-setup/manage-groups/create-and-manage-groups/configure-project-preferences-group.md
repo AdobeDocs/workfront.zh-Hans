@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: 如果您是组管理员并且Adobe Workfront管理员为系统中的所有组解锁了项目首选项，则可以为组配置该首选项，以影响您的组创建的所有后续项目。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2654'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具备以下条件才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -55,13 +57,15 @@ ht-degree: 2%
 
 &#42;如果需要了解您拥有的计划或许可证类型，请与Workfront管理员联系。
 
++++
+
 ## 为组配置已解锁的项目首选项
 
 >[!TIP]
 >
 >如果您是Workfront管理员，则可以绕过步骤1-4，方法是转到设置>项目偏好设置>项目，然后在页面顶部的框中搜索组的名称。
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**组** ![](assets/groups-icon.png)。
 

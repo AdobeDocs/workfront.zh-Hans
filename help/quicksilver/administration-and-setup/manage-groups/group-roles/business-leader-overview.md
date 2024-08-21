@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: 业务负责人概述
 description: 在组中，业务领导是为组制定目标、策略、预算和雇用等决策的人员。 例如，在设有首席营销官的组织中，该人员可能是营销的业务领导者。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

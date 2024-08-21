@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ You must take action to update the metadata in your identity provider with the i
 
 查看警告消息并确认您的身份提供程序中的SAML 2.0元数据的更新：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**设置** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**系统** > **单点登录**。
 
