@@ -1,13 +1,13 @@
 ---
 title: 管理时间线视图
-description: 访问Adobe Workfront Planning中的记录类型页面时，可在时间轴视图中显示记录。
+description: 在Adobe Workfront Planning记录类型页面的时间轴视图中访问和编辑记录。 使用筛选器、分组和设置自定义时间轴。 使用“划分”功能显示连接的记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,89 @@ role: User
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 
+<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
+## Access requirements
+
+You must have the following to be able to access Workfront Planning: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following new Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td>
+<p>Any of the following Workfront Planning plans:</p>
+<ul><li>Planning</li>
+<li>Planning Plus</li>
+</ul>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <ul><li><p>Any, to view Workfront Planning information</p></li>
+   <li><p>Standard, to create workspaces</p></li></ul>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
+  </td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
+*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
+
+-->
+
+
 ## 管理时间线视图 {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
@@ -105,7 +188,11 @@ role: User
 
 * 仅当至少有两个日期字段与记录类型关联时，才能创建时间轴视图。 当有一个或没有与记录类型关联的日期字段时，“时间轴”视图选项将灰显。
 
-  您可以从记录日期字段中选择，或从连接的记录或对象类型中选择查找日期字段。
+  构建时间线视图时，您可以从以下日期字段中选择：
+
+   * 记录日期
+   * 记录系统生成的字段：创建日期、上次修改日期
+   * 来自连接的记录或对象类型的查找日期。
 * 根据与记录关联的日期，在以下场景中，某些记录可能不会显示在时间轴视图中：
 
    * 当开始日期和结束日期没有值时
@@ -125,6 +212,7 @@ role: User
    >
    >    时间轴中记录的排序在压缩视图中不可见。
 
+1. （可选且有条件）记录名称被截断时，将鼠标悬停在记录栏上会显示记录的全名和其他信息。
 
 1. 执行以下操作之一可在时间轴中导航：
 
@@ -241,6 +329,7 @@ role: User
 
 1. 单击&#x200B;**按**&#x200B;分组记录框外部以将其关闭。
 1. （可选）单击&#x200B;**Settings**，然后单击&#x200B;**Color**&#x200B;进行颜色代码分组。 有关详细信息，请参阅本文中的[编辑时间线视图设置](#edit-the-timeline-view-settings)部分。
+   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -329,3 +418,61 @@ this is not possible right now; if this is the same functionality as the table v
 1. 单击&#x200B;**保存**。
 
    这些记录将按照您选择的规范显示在时间轴视图中。
+
+<!--
+### Use the Breakdown feature to display connected records in the timeline view
+
+You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+
+#### Considerations when using the Breakdown feature
+
+* You can display connected records or objects under the records of the selected record type in the timeline view. 
+* You can display the following in the timeline view, using the Breakdown feature:
+    * Workfront Planning records connected to the selected record type. 
+    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
+    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
+    
+        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+
+* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+
+    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+
+    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
+* You can only display record types that are associated with at least two date fields. 
+* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
+* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
+* There is a limit of 5 record types that you can include in a record's breakdown. 
+
+
+#### Break down connected records in the timeline view
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Breakdown**.
+1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+
+    ![](assets/breakdown-picker-and-button-on-timeline.png)
+
+    >[!TIP]
+    >
+    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+
+1. Choose a **Start date** and an **End date field**.
+
+    >[!TIP]
+    >
+    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+
+    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+
+    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+
+
+1. (Optional) Repeat the steps above to add more connected records. 
+
+    >[!TIP]
+    >
+    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+
+
+-->

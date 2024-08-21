@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -106,10 +106,12 @@ recommendations: noDisplay, noCatalog
 
 ## 有关公式字段的注意事项
 
-* 公式字段引用属于同一记录类型的字段。 创建公式字段时，不能引用其他记录类型的字段。<!--is this still accurate??-->
+* 公式字段引用属于同一记录类型的字段。
+* 仅当将其他记录类型连接到要为其创建公式字段的记录类型时，才能引用其他记录类型的字段。
 * 保存公式字段后，无法更改其字段类型。
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
 * 您必须添加您在公式中引用的字段，这些字段在Workfront Planning界面中显示。
+* 您只能引用在记录类型的表视图或记录详细信息页面中显示的字段。
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

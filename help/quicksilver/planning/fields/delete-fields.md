@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ recommendations: noDisplay, noCatalog
 * 只能删除记录类型表格视图中的字段。
 * 您无法删除记录的主字段。
 * 存储在字段中的任何信息都将被删除并且无法恢复。
-* 删除链接记录字段时，所有链接的查找字段也会从链接来源的记录类型中删除。 您链接到的记录类型的链接记录字段不会被删除。
+* 删除连接的记录字段时，所有连接的查找字段也会从您连接的记录类型中删除。 您连接到的记录类型的已连接记录字段也会从您连接的记录中删除。
+
+  例如，当您将营销活动连接到另一个记录类型“产品”，并从营销活动中删除“已连接产品”字段和“产品状态”查找字段时，将删除以下内容：
+
+   * 营销活动中的已连接产品字段
+   * 营销活动中的产品状态查找字段
+   * 产品中的“Campaign已连接”字段。
 
   有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

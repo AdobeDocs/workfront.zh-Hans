@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 您可以将记录类型相互连接或用其它应用程序的对象类型来记录类型。
 
-本文介绍了如何将两个Workfront Planning记录类型(一个Workfront Planning记录类型)与另一个应用程序中的对象连接起来。
+本文介绍了如何将两个Workfront Planning记录类型或Workfront Planning记录类型与另一个应用程序中的对象连接。
 
 在记录或对象类型之间建立连接后，可以将各个记录相互连接，并在Workfront Planning记录上显示链接记录或对象类型中的字段。
 
 有关连接类型的一般信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-有关将Workfront Planning记录连接到其他应用程序中的对象的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+有关将记录或记录与其他应用程序中的对象连接的信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
 有关连接记录类型和记录的示例，请参阅[连接记录类型和记录的示例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)。
 
@@ -62,7 +62,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>要将Adobe Workfront Planning记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到AdobeUnified Experience。 有关信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p> </td>
+   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront规划</p>
+   <p>要将Adobe Workfront Planning记录类型与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到AdobeUnified Experience。 有关信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront协议</p></td>
    <td>
@@ -96,7 +98,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <tr>
    <td role="rowheader"><p>权限</p></td>
    <td> <p>管理工作区</a>的权限 </p>  
-   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。
+   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p>
 </td>
   </tr>
  </tbody>
@@ -105,6 +107,86 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+
+<!-- replace the table above with the following table at Planning GA release: 
+
+## Access requirements
+
+You must have the following to be able to access Workfront Planning: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td>
+<p>Any of the following Workfront Planning plans:</p>
+<ul><li>Planning</li>
+<li>Planning Plus</li>
+</ul>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
+  </td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -143,9 +225,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      > 
      >如果所选工作区中没有其他记录类型，则不会显示工作区部分。
 
-     <!--remove the first sentence in the tip above at GA-->
 
-      * 另一个工作区中配置为从其他工作区连接的记录类型。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+   * 另一个工作区中配置为从其他工作区连接的记录类型。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
      >[!TIP]
      >

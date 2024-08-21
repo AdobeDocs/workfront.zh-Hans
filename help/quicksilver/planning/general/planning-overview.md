@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 2%
@@ -61,12 +61,12 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 有关新功能及其发布时间的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
 
-| 功能 | 现在可用 | 即将推出 | 正在研究 |
+| 功能 | 现在可用 | 即将出现 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | 创建工作区 | ✓ {\f13 } |                                  |                  |
 | 创建记录类型 | ✓ {\f13 } |                                  |                  |
 | 创建记录自定义字段 | ✓ {\f13 } |                                  |                  |
-| 使用Excel或CSV文件导入记录类型和字段* | ✓ {\f13 } |                                  |                  |
+| 使用Excel或CSV文件导入记录类型和字段 |                              | ✓ {\f13 } |                  |
 | 链接记录 | ✓ {\f13 } |                                  |                  |
 | 查看表中的记录 | ✓ {\f13 } |                                  |                  |
 | 在时间轴中查看记录 | ✓ {\f13 } |                                  |                  |

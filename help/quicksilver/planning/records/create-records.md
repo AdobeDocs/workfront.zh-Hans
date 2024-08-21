@@ -1,13 +1,13 @@
 ---
 title: 创建记录
-description: 使用Adobe Workfront Planning时，记录是记录类型的实例。
+description: 使用Adobe Workfront Planning时，记录是记录类型的实例。 您可以在Workfront Planning中为每个记录类型创建唯一记录，方法是：将记录手动添加到表视图中，从列表中导入记录，复制记录，或在将其连接到其他记录时创建记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 您可以通过执行以下操作之一来创建记录：
 
-* 从记录类型页面添加它们
+* 从表视图的记录类型页面添加它们
 * 从外部列表中复制并粘贴记录列表
 * 复制它们
-  <!--* Add them as you connect them from other records-->
+  <!--* Create them as you connect them from other records-->
 
 本文介绍了如何创建记录。 有关管理表或时间线视图中的记录的信息，请参阅以下文章：
 
@@ -92,10 +92,13 @@ ht-degree: 0%
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## 通过将记录添加到记录类型<!--in a record type table (I don't think you can create them elsewhere right now)-->来创建记录
 
@@ -219,12 +222,17 @@ You can import records from other applications by linking them to existing recor
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

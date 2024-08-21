@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ hide: yes
 
 您可以从Workfront Planning在以下方面连接记录：
 
-* 从Workfront Planning中的Planning记录，在表视图的已连接字段中。
+* 从Workfront Planning中的Planning记录，在表视图的连接的记录字段中。
 * 从Workfront Planning中的Planning记录（记录预览或连接的记录字段中的页面）。
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### 从表视图或<!--Details tab of the-->记录页面连接Adobe Workfront Planning记录
 
@@ -211,7 +211,7 @@ hide: yes
    >
    >* 我们交替使用“链接字段”和“查找字段”。
    >
-   >* 如果在连接记录类型时启用了&#x200B;**允许多条记录**&#x200B;设置，则多个选定对象的字段值要么以逗号分隔，要么根据您选择的聚合器聚合。
+   >* 当您选择在连接记录类型时连接多个记录时，来自多个对象的字段值显示时用逗号分隔，或者根据您选择的聚合器聚合。
 
 1. （可选）关闭记录类型页面，然后转到您选择的工作区。
 1. 单击链接到的记录类型的卡。
@@ -286,7 +286,7 @@ hide: yes
 
    >[!TIP]
    >
-   >* 启用“允许多条记录”设置时，查找字段的值显示时用逗号分隔，或者根据您选择的聚合器聚合。
+   >* 当您选择在连接记录类型时连接多个记录时，查找字段的值显示时用逗号分隔，或者根据您选择的聚合器聚合。
    >
    >* 在Workfront中，不会为链接的Workfront对象创建链接记录字段。
 
@@ -360,7 +360,7 @@ hide: yes
 
      >[!TIP]
      >
-     >* 如果启用了允许多条记录设置，则多个对象的值将以逗号分隔或根据您选择的聚合器聚合。
+     >* 当选择在连接记录类型时连接多个记录时，多个对象的值显示以逗号分隔或根据您选择的聚合器聚合。
      >
      >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Workfront Planning链接记录的链接记录字段。
 
@@ -408,6 +408,12 @@ hide: yes
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 
