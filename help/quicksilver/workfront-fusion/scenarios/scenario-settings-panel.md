@@ -7,9 +7,9 @@ description: 本文介绍了在您的 [!DNL Adobe Workfront Fusion] 方案中的
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ ht-degree: 0%
 
 ## [!UICONTROL 连续处理]
 
-此选项确定[!DNL Workfront Fusion]在发生错误并且场景的执行被移到[查看并解决 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)中的未完成执行时如何进行。 如果启用了[!UICONTROL 连续处理]选项，Workfront Fusion将完全停止处理任务序列，直到解决所有未完成的执行。 如果[!UICONTROL 连续处理]选项被禁用，则场景将根据其计划继续运行，同时会重复尝试重新运行未完成的执行。
+此选项强制按顺序执行所有执行，并且主要与Webhook和未完成执行相关。
+
+启用顺序处理时，将禁用方案的并行执行。
+
+### 即时Webhook
+
+如果webhook触发器配置为`instant`并启用了“顺序处理”，则所有即时webhook有效负载都将按到达的顺序排队和处理。 在以精确顺序处理来自外部系统的事件时，这可能很有用。
+
+>[!NOTE]
+>
+>在处理每个有效负载后，下次启动时将会出现自动处理延迟。
+
+### 未完成的执行
+
+如果还启用了“未完成执行”，则如果在执行场景期间发生错误，场景将暂停。 随后会发生以下情况之一：
+
+* 如果序列处理选项为&#x200B;**已启用**，Workfront Fusion将停止处理预先存在的序列，直到解决所有未完成的执行。
+* 如果顺序处理选项为&#x200B;**已禁用**，则场景将根据其计划继续运行，同时会重复尝试重新运行未完成的执行。
+
+有关未完成执行的详细信息，请参阅[在Adobe Workfront Fusion中查看和解决未完成的执行](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)。
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
