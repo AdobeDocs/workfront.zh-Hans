@@ -5,8 +5,10 @@ title: 将Frame.io资源添加到连接的Workfront项目
 description: 创意人员可以将需要审核的资源添加到Frame.io中，并将它们发送到Workfront进行正式审核和批准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: true
+hidefromtoc: true
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 4%
 本节包含以下文章：
 
 * [[!DNL Adobe Workfront] 集成](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [配置 [!DNL Workfront] 和 [!DNL Frame.io] 集成](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [配置 [!DNL Experience Manager Assets as a Cloud Service] 集成](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [配置 [!DNL Experience Manager Assets Essentials] 集成](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] 和 [!DNL Experience Manager Assets] 集成](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

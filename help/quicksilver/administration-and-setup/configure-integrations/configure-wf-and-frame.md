@@ -7,10 +7,12 @@ description: 作为 [!DNL Adobe Workfront] 管理员，您可以将 [!DNL Workfr
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+hide: true
+hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +28,23 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
 >
 >此功能仅适用于已载入[!DNL Adobe Admin Console]的组织。
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]计划</strong>
-   </td>
-   <td>任何
-   </td>
+   <td>[!DNL Adobe Workfront] 计划</td>
+   <td>任何</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
+   <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td>当前： [！UICONTROL计划] <br>
-   新文档： [！UICONTROL Standard]
-   </td>
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>新文档： [！UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>访问级别配置</strong>
+  <tr>
+   <td>访问级别配置
    </td>
    <td>您必须是[!DNL Workfront]管理员。
    </td>
@@ -54,6 +54,7 @@ Workfront管理员通过在“设置”区域中配置默认Frame.io帐户，然
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
++++
 
 ## 配置默认[!DNL Frame.io]帐户[!BADGE 即将推出]{type=Informative}
 
