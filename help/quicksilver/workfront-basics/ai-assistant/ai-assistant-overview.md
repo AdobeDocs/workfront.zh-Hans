@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Workfront的AI助手通过提供应用程序内信息和自然语言对话建议
 
   有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
+* Workfront Planning AI助手具有与Workfront AI助手不同的功能。
+
+  有关Workfront规划中的AI助手的详细信息，请参阅[Adobe Workfront规划AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
+
 
 ## AI助手中可用的功能
 
@@ -85,7 +89,7 @@ AI助手当前提供以下功能：
 
   有关详细信息，请参阅[使用AI助手生成或修订计算字段公式](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)。
 
-## ##访问AI助手
+## 访问AI助手
 
 1. 在任何Workfront页面顶部，单击AI助手图标![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
 1. 在屏幕右侧的面板中键入您的问题或提示。
