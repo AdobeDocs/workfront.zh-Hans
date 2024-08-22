@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 保存电子邮件头文件
 description: 有时， [!DNL Adobe Workfront] 支持人员会请求电子邮件标头文件。 每个电子邮件应用程序都有各自的获取此文件的方法。 以下是一些不同的电子邮件应用程序说明，用于查找和保存标头。 [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

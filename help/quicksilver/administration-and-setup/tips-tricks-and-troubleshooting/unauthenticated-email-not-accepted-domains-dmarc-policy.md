@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 由于域的DMARC策略而不接受经过身份验证的电子邮件时
+title: 由于域的DMARC策略，未接受未经身份验证的电子邮件
 description: 如果由于域的DMARC策略而无法接受从 [!DNL Workfront] 系统发送的电子邮件，则电子邮件管理员可以通过将您的电子邮件系统配置为允许来自workfront.com的所有电子邮件来修复此问题。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

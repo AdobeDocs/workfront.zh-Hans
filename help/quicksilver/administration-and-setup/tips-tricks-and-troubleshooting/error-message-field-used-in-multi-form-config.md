@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''错误消息：存在轻微问题。 该字段用于多表单配置'
+title: “错误消息：存在轻微问题。 该字段用于多表单配置”
 description: 在自定义表单的计算自定义字段中更改计算时，如果出现一则错误消息，告知您该字段已在多表单配置中使用，则需要将该字段替换为包含要使用的计算的新字段。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 查找附加自定义表单的对象 {#find-the-object-where-the-custom-forms-are-attached}
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 用户]** ![](assets/users-icon-in-main-menu.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 自定义Forms]** > **[!UICONTROL 字段]**。
 1. 应用&#x200B;**[!UICONTROL 字段列表]**&#x200B;视图以查找您尝试修改的计算字段，并记下使用它的每个自定义表单（例如，表单1、表单2、表单3）。

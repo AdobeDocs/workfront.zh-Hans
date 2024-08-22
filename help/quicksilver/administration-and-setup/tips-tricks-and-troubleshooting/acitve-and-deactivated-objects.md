@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 活动和已停用对象
 description: 作为 [!DNL Adobe Workfront] 管理员，您可以激活或停用系统中的对象。 我们建议您永远不要删除可以取消激活的对象。 您应该简单地取消激活对象以防止将来使用，并从其他对象的下拉菜单中将其删除。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%

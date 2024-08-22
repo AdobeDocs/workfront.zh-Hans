@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '错误消息：无效参数：转化值'
-description: “尝试更改现有自定义表单上的自定义字段格式时，收到以下错误消息：‘无效参数：转化值'&amp； lt；..&amp；gt；"
-author: Caroline
+title: “错误消息：无效参数：转化值”
+description: “尝试更改现有自定义表单中自定义字段的格式时，收到以下错误消息：‘无效参数：转化值'&amp；lt；..&amp；gt；"
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,41 @@ ht-degree: 0%
 
 例如，您有一个“自定义字段”，格式为“文本”。  现在，您需要将自定义字段的格式更改为货币。 在Adobe Workfront实例中的某个位置，此字段已附加到对象，并且其中包含已指定的信息。 至少一个此类字段中的现有信息已设置为文本格式。 因此，无法将字段的格式更改为货币。
 
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront计划</a>*</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">许可证概述</a>*</p> </td> 
-   <td>计划</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>访问级别*</strong> </td> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑以下项的访问权限：</p> 
     <ul> 
      <li> <p>创建报告、功能板和日历</p> </li> 
      <li> <p>创建筛选器、视图和分组</p> </li> 
-    </ul> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+    </ul>
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 解决方案
 

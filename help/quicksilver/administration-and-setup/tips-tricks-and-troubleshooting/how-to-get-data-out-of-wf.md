@@ -3,30 +3,32 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '从Adobe Workfront导出历史数据：优缺点'
+title: “从Adobe Workfront导出历史数据：优缺点”
 description: 本文介绍了可用于从Workfront导出历史数据的4个选项的优缺点。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # 从[!DNL Adobe Workfron]t导出历史数据：优缺点
 
-本文说明可用于从[!DNL Workfront]导出历史数据的4个选项的优缺点。
+本文说明了四个选项的利弊，您可以使用这些选项从[!DNL Workfront]导出历史数据。
 
 ## 使用我们的合作伙伴之一
 
-[!DNL AtAppStore]是[!DNL Workfront]认证合作伙伴，它有一个易于使用的应用程序，允许您下载数据。 此应用程序还包含一个查看器，可让您轻松查看数据。
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com))有一个易于使用的应用程序(其[Workfront快照](https://store.atappstore.com/product/workfront-snapshot/)解决方案)，允许您自行下载数据。 可选查看器(其[Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)解决方案)允许您轻松地脱机查看数据。
 
-* **优点：**&#x200B;已导出所有[!DNL Workfront]对象，包括自定义字段。 查看器的界面易于使用和读取，并且很容易导入到[!DNL MS Access]数据库中。
+* **优点：**&#x200B;导出您的所有核心[!DNL Workfront]对象，包括自定义字段和注释，然后所有这些内容都存储在易于访问的[!DNL MS Access]数据库中。 Viewer的界面易于使用和读取。 提取文档也作为服务单独提供，输出组织到映射到每个文档（也可以是其以前的版本）的逻辑文件夹结构中。
 
-* **缺点：**&#x200B;文档未导出。 您必须单独下载它们。 有关详细信息，请转到[http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx。](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **缺点：**&#x200B;技术限制为2GB数据，但AtAppStore允许您仅购买所需的数据。
+
+* **费用：**&#x200B;有关详细信息，请转到[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/)。
 
 ## 从我们的数据库团队请求[!DNL Postgres]数据转储文件
 
@@ -35,6 +37,7 @@ ht-degree: 0%
 * **优点**：获取整个数据加载，包括自定义字段以及存储在系统中的文档。
 
 * **缺点**：数据库文件很难读取：除非将其上载到[!DNL Postgres]数据库并重新建立表之间的关系，否则无法读取此文件。 文档存储在单独的文件服务器上，必须由AOS团队使用单独的进程单独提取。 这样做时，文档没有组织，并且它们都由其GUID引用。
+
 * **成本**：此下载会产生成本，具体取决于团队创建文件所需的时间。 请与您的AE/CAE联系，以了解详细信息或开始此流程。
 
 ## 通过[!UICONTROL Kick-Start]导出
