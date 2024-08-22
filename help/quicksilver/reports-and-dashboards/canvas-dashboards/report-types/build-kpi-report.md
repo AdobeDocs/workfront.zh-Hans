@@ -6,9 +6,9 @@ description: 可将显示单个汇总KPI的突出显示KPI报告添加到画布�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
+>本页介绍了作为画布功能板测试版的一部分提供的功能。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 可将显示单个汇总KPI的突出显示KPI报告添加到画布功能板。
 

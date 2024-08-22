@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **Beta状态**
 
-Canvas功能板当前处于封闭的测试阶段，因此只有收到特定客户的邀请后才能使用。
+画布功能板当前处于公共测试版测试阶段，因此可能会频繁更改。 有关如何注册Beta版的说明，请参阅下文。
 
 ## 参与Beta
 

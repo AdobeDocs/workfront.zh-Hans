@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->本页介绍的功能仅适用于已注册“画布功能板已关闭测试版”的用户。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
+>本页介绍了作为画布功能板测试版的一部分提供的功能。 请参阅[Canvas功能板测试版信息](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)以了解详情。
 
 您可以将许多不同的报表添加到画布功能板，以不同的方式可视化您的Workfront数据。 可以将以下类型的报表添加到画布功能板：
 
