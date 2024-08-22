@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -24,11 +24,7 @@ role: User, Admin
 hide: yes
 -->
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!-- update the title to "Article index" when we get out of early access and we inhide this article-->
-
-<!--remove the video at open early access or before-->
+<!--update the metadata with real information when making this available to GA-->
 
 {{planning-important-intro}}
 
@@ -43,10 +39,6 @@ hide: yes
 ## 有关Adobe Workfront Planning的一般信息
 
 访问以下文章，了解有关新Workfront规划的常规信息：
-
-<!--update the video when we have something better, especially after early access - remove it-->
-
-<!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront计划概述](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront计划高级概述，包括此解决方案特有的术语和概念。 我们建议您在此处通过Workfront规划开始您的历程。
 * [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中创建的对象数限制列表。

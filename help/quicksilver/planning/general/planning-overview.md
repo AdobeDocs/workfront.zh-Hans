@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 2%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 2%
 >
 >有关记录Workfront Planning的所有章节和文章的完整列表，请参阅[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Adobe Workfront Planning简介
 
@@ -56,6 +51,8 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 * 链接到来自其他系统的对象类型，为所有进程创建一致的框架。
 
 ## 当前可用的Adobe Workfront规划功能
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
 
@@ -90,7 +87,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 | 与外部资源公开共享视图 | ✓ {\f13 } | |  |
 | 复制视图 | ✓ {\f13 } | |  |
 | 提交请求 |                               | ✓ {\f13 } |                 |
-| 将记录详细信息导出到Word |                               | ✓ {\f13 } |                 |
+| 将记录详细信息导出到Word | ✓ {\f13 } |                                  |                 |
 | 将记录详细信息导出到PDF |                               |                                  | ✓ {\f13 } |
 | 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
 | 向记录添加注释 | ✓ {\f13 } |                                  |                 |
@@ -203,9 +200,9 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    * 上次修改者
    * 上次修改日期
 
-* **链接的记录类型**、**链接的记录**&#x200B;和&#x200B;**链接的记录字段**&#x200B;或&#x200B;**连接的记录类型**、**连接的记录**&#x200B;和&#x200B;**连接的字段**：您可以在Workfront Planning中的以下实体之间创建连接：
+* **连接的记录类型**、**连接的记录**&#x200B;和&#x200B;**连接的字段**：您可以在Workfront Planning中的以下实体之间创建连接：
 
-   * 两种记录类型。
+   * 两种Workfront Planning记录类型。
    * 记录类型和Workfront项目、项目群、项目组合、公司或组对象类型。
    * 记录类型和Adobe Experience Manager资源或文件夹。
 
@@ -224,7 +221,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   >[!TIP]
   >
-  > 不能添加以下字段类型作为查找字段：
+  > 不能将以下字段类型添加为已连接记录或对象类型中的查找字段：
   >
   >* 人员
   >* 创建者
@@ -246,11 +243,11 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   以下是可应用于记录类型页面的视图类型：
 
-   * **表视图**：以表格式显示记录及其字段。 表的行是单独的记录，列是记录字段。 这是默认视图。
+   * **表视图**：以表格式显示记录及其字段，包括连接和查找字段。 表的行是单独的记录，列是记录字段。 这是默认视图。
 
      ![](assets/table-view-example.png)
 
-   * **时间线视图**：在时间线中显示至少有两个日期类型字段的记录。
+   * **时间线视图**：在时间线中显示至少有两个日期类型字段的记录。 您最多可以在时间轴视图中显示5个连接的记录类型及其记录。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
    >[!TIP]
    >
    >    您的Workfront管理员可以将Planning区域添加到布局模板中的“选择登陆页面”选项，以便您一登录到Workfront即可打开Planning。 有关信息，请参阅[使用布局模板自定义登陆页面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)。
-
 
 1. （视情况而定，可选）如果您是Workfront管理员，请单击以下选项卡之一：
    * **我所在的工作区**：显示您创建的工作区或与您共享的工作区。

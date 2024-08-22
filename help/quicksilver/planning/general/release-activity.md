@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '6116'
+source-wordcount: '6694'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
-
-## Workfront Planning release timeline
-
-| Time               | Release                                 |
-|--------------------|-----------------------------------------|
-| 2023               | Workfront Planning beta release         |
-| First half of 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |
-
-The following articles describe the features released during the release for Workfront Planning: 
-
-* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
-* This article lists the features that were released to Workfront Planning during the early access period in 2024.
-* `[]()` lists features released after the general availability release on August 28, 2024. 
--->
+>-->
 
 >[!IMPORTANT]
 >
@@ -65,73 +50,29 @@ The following articles describe the features released during the release for Wor
 >
 >在某些情况下，在所记录的功能发布到生产环境后，以下部分中引用的文档可能会可用。
 
-本文列出了在2024年发布到Workfront Planing的功能。
+<!--Not sure if we should enable this - Richard: 
 
-Workfront规划方案自2023年5月22日开始。 有关2023年期间发布的所有功能的列表，请参阅[Adobe Workfront Planning 2023年发布活动存档](/help/quicksilver/planning/general/release-activity-archives-2023.md)。
+## Workfront Planning release timeline
 
-已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| August - December 2023               | Workfront Planning beta release         |
+| January - August 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |-->
+
+以下文章介绍了Workfront Planning在发行版本期间发布的功能：
+
+* [2023年Adobe Workfront Planning发布活动存档](/help/quicksilver/planning/general/release-activity-archives-2023.md)列出了2023年测试版发布期间发布的功能。
+* 本文列出了在2024年早期访问期间发布到Workfront Planning的功能。
+
+  已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
+
+<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
+-->
 
 自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 本文中记录的所有功能当前都可在生产环境中使用。
 
 <!--
-
-### Break down connected records in the timeline view
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
-
-For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
-
-This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
-
-This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
-
-You can display up to 5 levels of record types in the same timeline for one record.  
-
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
-
-### New Connections tab in the record details area
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
-
-* **Details**: Displays all record fields, thumbnail, and cover image. 
-
-* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
-
-For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
-
-### Create records, projects, and portfolios as you connect them
-
-Production: <date> 
-
-Preview: To be determined 
-
-You now have the capability to create records, projects, or portfolios as you connect them to existing records. For example, if you connect Workfront Planning campaigns with Workfront projects, and you determine that a particular project does not exist, you can add it as a new project in the connected record field. The project is then added to Workfront. Newly added records are added to their respective record type pages in the table view.   
-
-At this time, you can create the following when connecting records: 
-
-* Records 
-* Projects without a template 
-* Portfolios 
- 
-You cannot create other connected Workfront objects or AEM assets when connecting them to a record. 
-
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-
-## Export record details to Word
-
-Production: <date> 
-
-Preview: To be determined 
-
-You can now export a record's details to a Word document (.docx). For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -157,29 +98,6 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### Add connection type options
-
-Production: <date> 
-Preview: To be determined 
-
-Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
-
-For example, you can now choose from the following types of connections when you link two record types:  
-
-* Many to many. When you select this connection type, it is not possible to change it after you save it 
-* One to many 
-* One to one 
-* Many to one 
- 
-This allows you to define how many records of the connected record types users can connect after a connection is established.  
-
-The new connection types are not supported for the following record type connections: 
- 
-* When you connect record types with AEM assets 
-* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
-
-For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 -->
 
@@ -214,6 +132,91 @@ For information, see [Connect record types overview](/help/quicksilver/planning/
 在此增强功能之前，您只能连接属于同一工作区的记录类型以及其他应用程序的对象类型。
 
 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
+
+### 使用划分功能在时间轴视图中显示连接的记录
+
+生产日期： 2024年8月22日
+
+预览：待定
+
+作为时间线视图管理器，您现在可以在时间线视图中通过将记录细分为可视层次结构来查看连接的记录之间的关系。
+
+例如，当您在时间轴视图中查看链接到产品的促销活动，并且产品与项目具有关联时，您现在可以在促销活动下显示产品，并在项目各自的产品下显示项目。
+
+这允许您在同一时间线视图内无缝地浏览多个级别的关系。
+
+这不是实际的层次结构（没有对象比另一个对象更高）。 它是一个可视化层次结构，在一个时间线视图中显示连接的记录类型。
+
+在同一时间线中，最多可为一个记录显示5个级别的记录类型。
+
+有关信息，请参阅[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+
+### 在记录详细信息区域新建连接选项卡
+
+生产日期： 2024年8月22日
+
+预览：待定
+
+我们在记录的预览和页面区域中添加了一个新选项卡。 现在，当您单击视图中的记录名称时，记录的预览和记录的页面将显示以下选项卡：
+
+* **详细信息**：显示所有记录字段、缩略图和封面图像。 您可以在详细信息选项卡中编辑字段。
+
+* **连接**：显示所有记录或对象类型及其连接的记录或对象。 您可以从“连接”选项卡添加更多记录。
+
+有关信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+### 在连接记录、项目和项目组合时创建它们
+
+生产日期： 2024年8月22日
+
+预览：待定
+
+您现在可以在将记录、项目和项目组合连接到现有记录时创建它们。
+
+例如，如果您将Workfront Planning营销活动与Workfront项目连接起来，并且确定某个特定项目不存在，则可以将其添加为已连接记录字段中的新项目。 然后，将该项目添加到Workfront。 新添加的记录将添加到表格视图中其各自的记录类型页面。
+
+此时，您可以在连接记录时创建以下内容：
+
+* Workfront Planning记录
+* 没有模板的Workfront项目
+* WorkfrontPortfolio
+
+将其他连接的Workfront对象或Experience Manager资源连接到记录时，您无法创建这些对象。
+
+有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+
+## 将记录详细信息导出到Word
+
+生产日期： 2024年8月22日
+
+预览：待定
+
+您现在可以将记录的详细信息页面或预览导出到Word文档(.docx)。
+
+有关信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+
+### 添加连接类型选项
+
+生产日期： 2024年8月22日
+预览：待定
+
+现在，当您在两种记录类型之间配置连接时，可以定义用户是否可以在连接的每种记录类型中连接单个或多个记录。 这可确保您可以可靠地设计团队的工作流，并确保用户根据其流程仅选择预期的信息。
+
+现在，当您链接两种记录类型时，可以从以下类型的连接中进行选择：
+
+* 多对多。 如果选择此连接类型，则在保存后无法更改它。
+* 一对多
+* 一对一
+* 多对一。
+
+这允许您定义在建立连接时用户可以连接的记录类型的记录数。
+
+以下记录类型连接不支持新的连接类型：
+
+* 将记录类型与Experience Manager资源连接时
+* 当您连接不属于同一工作区的记录类型时
+
+有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 ## 2024年8月12日起一周
 
