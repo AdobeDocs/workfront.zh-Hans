@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 元数据是与文档关联的描述性信息。 您可以设置 [!DNL Adobe Workfront] 以包含发送至 [!DNL Workfront] 应用程序的文档的元数据。
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 元数据是与文档关联的描述性信息。 您可以设置[!DNL Adobe Workfront]以包含发送至[!DNL Workfront]应用程序的文档的元数据。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -41,6 +43,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 关于[!DNL Workfront]元数据
 
@@ -64,7 +68,7 @@ ht-degree: 1%
 
 ## 配置[!DNL Workfront]以发送元数据
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 元数据映射]**。
 
@@ -82,7 +86,8 @@ ht-degree: 1%
 ## 删除映射字段
 
 1. 以管理员身份登录到[!DNL Workfront]。
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 元数据映射]**。
 

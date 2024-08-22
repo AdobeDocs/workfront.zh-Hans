@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安装Blueprint
 description: 您可以在生产环境或沙盒环境中安装Blueprint。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td>[！UICONTROL计划]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL系统管理员]</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>您必须是[!DNL Workfront]管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 应在何处安装Blueprint？ {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ ht-degree: 0%
 
 ## 安装Blueprint
 
-1. 单击[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL Blueprints]**。
+{{step1-to-blueprints}}
+
 1. 查找要安装的Blueprint。 您可以按用例、成熟度级别、安装状态和右侧键入进行过滤。
 1. （可选）单击&#x200B;**[!UICONTROL 详细信息]**&#x200B;以了解Blueprint的工作方式。
 1. 单击&#x200B;**[!UICONTROL 安装]**。

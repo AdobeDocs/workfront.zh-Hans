@@ -2,23 +2,26 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: 配置JumpSeat集成
+title: 配置 JumpSeat 集成
 description: 您可以将 [!DNL JumpSeat] 与 [!DNL Workfront] 集成以创建自定义产品内指南。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
-# 配置JumpSeat集成
+# 配置 JumpSeat 集成
 
 您可以将[!DNL JumpSeat]与[!DNL Workfront]集成以创建自定义产品内指南。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -27,25 +30,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
    <td> <p>[！UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
    <td>[！UICONTROL计划]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>产品</strong></td> 
+   <td role="rowheader">产品</td> 
    <td>您必须拥有有效的[!DNL JumpSeat]计划。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
+   <td role="rowheader">访问级别配置*</td> 
    <td> <p> 您必须是[!DNL Workfront]管理员。 有关[!DNL Workfront]管理员的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+
++++
 
 ## 先决条件
 
@@ -63,7 +68,8 @@ ht-degree: 1%
 
 要配置[!DNL JumpSeat]集成，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**。
+{{step-1-to-setup}}
+
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 系统]** > **[!UICONTROL [!DNL JumpSeat]集成]**。
 1. 输入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可以在位于[!DNL JumpSeat]的扩展图标上找到该URL。
 

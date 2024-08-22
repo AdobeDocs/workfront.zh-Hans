@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]计划</strong>
+   <td>[!DNL Adobe Workfront] 计划
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]个许可证</strong>
+   <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td>当前： [！UICONTROL计划] <br>
-   新文档： [！UICONTROL Standard]
-   </td>
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>新文档： [！UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager]许可证</strong>
+   <td>[!DNL Experience Manager] 许可证
    </td>
    <td>[！UICONTROL标准版]
    </td>
   </tr>
   <tr>
-   <td><strong>产品</strong>
+   <td>产品
    </td>
    <td>您必须具有[!DNL Experience Manager Assets as a Cloud Service]，并且您必须作为用户添加到产品中。
    </td>
   </tr>
   <tr>
-   <td>访问级别配置*
+   <td>访问级别配置
    </td>
    <td>您必须是[!DNL Workfront]管理员。
    </td>
@@ -78,7 +77,6 @@ ht-degree: 0%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
 
 ## 先决条件
 

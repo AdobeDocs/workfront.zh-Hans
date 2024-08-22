@@ -5,13 +5,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 您可以启用或禁用对 [!DNL Adobe Workfront] 移动设备应用程序的访问。
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 您可以启用或禁用对[!DNL Adobe Workfront]移动应用的访问。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,9 +45,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 允许用户访问移动应用程序
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击位于页面右上角的&#x200B;**[!UICONTROL 设置]，**。
 

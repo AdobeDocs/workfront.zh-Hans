@@ -6,8 +6,9 @@ navigation-topic: administrator-integrations
 description: Adobe Admin Console管理员可以创建仅用于插件的轻量级包。 通过分发这些预配置的包，管理员可以确保用户拥有这些插件，而无需依赖用户自行查找插件。 我们建议使用这些轻量级插件将Adobe Workfront分发给Creative Cloud中的用户。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

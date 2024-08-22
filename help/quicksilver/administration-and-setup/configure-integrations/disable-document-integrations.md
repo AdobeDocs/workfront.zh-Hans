@@ -6,11 +6,12 @@ navigation-topic: administrator-integrations
 description: 作为 [!DNL anAdobe] [!DNL Workfront]管理员，您可以禁用Workfront与任何第三方文档提供商之间的连接。
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +22,8 @@ ht-degree: 0%
 当您禁用[!DNL Workfront]与文档提供程序之间的连接时，指向文档的链接从[!DNL Workfront]中消失。 用户无法再查看链接的文档，也无法通过[!DNL Workfront]链接对文档进行任何更改，也无法向该提供程序添加更多文档。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -45,12 +48,15 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
++++
+
 ## 禁用云提供程序集成
 
 要禁用[!UICONTROL Workfront DAM]、[!DNL Box]、[!DNL Dropbox]、[!DNL Google Drive]、[!DNL Microsoft OneDrive]、[!DNL WebDAM]的文档集成：
 
 1. 以[!DNL Workfront]管理员身份登录[!DNL Workfront]。
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 云提供商]**。
 
@@ -62,7 +68,8 @@ ht-degree: 0%
 ## 禁用[!DNL SharePoint]集成
 
 1. 以[!DNL Workfront]管理员身份登录[!DNL Workfront]。
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**[!UICONTROL 文档]**，然后单击&#x200B;**[!UICONTROL [!DNL SharePoint]集成]**。
 1. 选择要禁用的[!DNL SharePoint]集成。
@@ -72,7 +79,8 @@ ht-degree: 0%
 ## 禁用自定义集成
 
 1. 以管理员身份登录到[!DNL Workfront]。
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 文档]** > **[!UICONTROL 自定义集成]**。
 1. 选择要禁用的自定义集成。

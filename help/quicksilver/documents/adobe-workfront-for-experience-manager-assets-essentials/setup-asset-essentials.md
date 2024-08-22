@@ -6,14 +6,14 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
-# 配置Experience Manager Assets Essentials集成
+# 配置 Experience Manager Assets Essentials 集成
 
 将您的工作与Experience Manager Assets Essentials中的内容连接起来&#x200B;：
 
@@ -27,48 +27,51 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront计划*</strong>
+   <td>[!DNL Adobe Workfront] 计划
    </td>
    <td>任何
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront许可证*</strong>
+   <td>[!DNL Adobe Workfront] 许可证
    </td>
-   <td>计划
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>新文档： [！UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] 许可证
+   </td>
+   <td>[！UICONTROL标准版]
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager许可证</strong>
-   </td>
-   <td>标准
-   </td>
-  </tr>
-  <tr>
-   <td><strong>产品</strong>
+   <td>产品
    </td>
    <td>您必须具有Experience Manager Assets Essentials，并且您必须在Admin Console中作为用户添加到产品中。
    </td>
   </tr>
   <tr>
-   <td><strong>访问级别配置</strong>
+   <td>访问级别配置
    </td>
-   <td>您必须是Workfront管理员。 有关Workfront管理员的信息，请参阅<strong>授予用户完全管理访问权限</strong>。
+   <td>您必须是[!DNL Workfront]管理员。
    </td>
   </tr>
 </table>
 
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
-
++++
 
 ## 设置集成
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标，然后单击&#x200B;**设置**。
+{{step-1-to-setup}}
+
 1. 在左侧面板中选择&#x200B;**文档** ![文档图标](assets/document-icon.png)，然后选择&#x200B;**Experience Manager集成**。
 1. 选择&#x200B;**添加Experience Manager集成**。
 1. 指定以下内容：
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### 资源
 
 元数据在首次从Workfront推送资源时映射。 在首次将资源发送到Experience Manager Assets Essentials时，具有内置或自定义字段的文档会自动映射到指定字段。
 
 1. 在&#x200B;**Workfront字段**&#x200B;列中，选择一个内置或自定义Workfront字段。
+
    >[!NOTE]
    >
    >您可以将单个Workfront字段映射到多个Experience Manager Assets字段。 您无法将多个Workfront字段映射到一个Experience Manager Assets字段。
+
 1. 在&#x200B;**Experience Manager**&#x200B;字段中，选择一个Experience Manager Assets字段。
 
    要将Workfront字段映射到Experience Manager Assets标记，请选择`xcm:keywords`。
+
 1. 根据需要重复步骤1和2。
    ![启用元数据](assets/metadata-assets-essentials.png)
 1. 单击&#x200B;**保存**&#x200B;或转到本文中的[设置链接文件夹（可选）](#set-up-linked-folders-optional)部分。

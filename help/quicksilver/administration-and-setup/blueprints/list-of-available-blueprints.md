@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 可用Blueprint的列表
 description: 列出的 [!DNL Adobe Workfront] Blueprint可供系统管理员安装。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 此Blueprint包含一个包含12个报表的仪表板，使人员经理可以查看其直接下属的工作。
 
-**[!UICONTROL Post — 实施：新用例转出]**
+**[!UICONTROL 实施后：新用例转出]**
 此Blueprint包含一个模板，该模板组织了[!DNL Workfront]客户在初始实施后要管理到后续流程的扩展所需完成的工作。
 
 **[!UICONTROL 打印资产生产] （集成）**

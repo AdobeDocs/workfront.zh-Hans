@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 5%
 
 ---
@@ -40,23 +40,23 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td><p>新文档： [！UICONTROL Standard]</p>
    或
    <p>当前：[！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> 您必须是[!DNL Workfront]管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

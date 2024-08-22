@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 作为[!DNL Adobe Workfront]管理员，您可以将[!DNL Workfront]与[!UICONTROL Adobe Experience Manager (AEM) Assets]集成，并为您的组织提供用于在工作流中创建、共享和维护资源的全面内容管理解决方案。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -149,7 +153,8 @@ ht-degree: 0%
       要检索[!DNL Workfront] API密钥，请执行以下操作：
 
       1. 打开浏览器选项卡，并以[!DNL Workfront]管理员身份登录到您的[!DNL Workfront]帐户。
-      1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+      {{step-1-to-setup}}
 
       1. 单击&#x200B;**[!UICONTROL 系统]** >**[!UICONTROL 客户信息]**。
 
@@ -256,7 +261,7 @@ ht-degree: 0%
    >
    >[!UICONTROL Workfront]建议创建专门用于您的AEM集成的[!UICONTROL Workfront]管理员。 有关将[!UICONTROL Workfront]管理员访问权限级别分配给用户的详细信息，请参阅[授予用户对特定区域的管理访问权限](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 文档]**> **[!UICONTROL 自定义集成]。**
 

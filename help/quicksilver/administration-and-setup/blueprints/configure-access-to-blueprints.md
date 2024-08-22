@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 配置对Blueprint的访问权限
 description: 作为系统管理员，您可以通过设置请求队列来存储请求，从而为用户启用请求安装Blueprint的访问权限。 在那里，您只有一个位置可以跟踪和更新请求。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td>[！UICONTROL计划]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>[！UICONTROL系统管理员]</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>您必须是[!DNL Workfront]管理员。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件 {#prerequisites}
 
@@ -68,7 +77,8 @@ ht-degree: 0%
 
 在用户请求您为其安装Blueprint之前，您必须为这些请求选择请求队列。 在定义请求队列之前，用户只能浏览Blueprint目录。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL Blueprints]**。
+{{step1-to-blueprints}}
+
 1. 单击目录屏幕右上角的&#x200B;**[!UICONTROL 配置Blueprint请求]**。
 
    <!--

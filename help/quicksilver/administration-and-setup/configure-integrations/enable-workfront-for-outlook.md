@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 在用户可以开始使用 [!DNL Adobe Workfront] for Outlook之前，首先需要为您的系统启用它。
-author: Becky
+author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 有关启用后如何使用[!DNL Workfront for Outlook]的信息，请参阅[[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具备以下条件才能执行本文中的步骤：
 
@@ -46,10 +48,13 @@ ht-degree: 1%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
++++
+
 ## 启用[!DNL Workfront] [!DNL Outlook]加载项
 
 1. 以管理员身份登录到[!DNL Workfront]。
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+
+{{step-1-to-setup}}
 
 1. 展开&#x200B;**[!UICONTROL 系统]**，然后单击&#x200B;**[!UICONTROL 首选项]**。
 

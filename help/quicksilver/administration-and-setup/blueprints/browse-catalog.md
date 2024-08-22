@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: 浏览Blueprint目录并请求安装Blueprint
+title: 浏览Blueprint目录并请求Blueprint安装
 description: Blueprint提供基本的构建块，帮助您创建随增长而增长的工作管理系统。 所有 [!DNL Adobe Workfront] 用户都可以浏览Blueprint的目录。 此外，如果您的管理员启用了Blueprint请求，您还可以请求让 [!DNL Workfront] 管理员为您安装特定的Blueprint。
-author: Lisa
+author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Blueprint提供基本的构建块，帮助您创建随增长而增长的工作�
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -29,21 +31,29 @@ Blueprint提供基本的构建块，帮助您创建随增长而增长的工作�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]许可证</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新文档：参与者或更高版本</p>
+   <p>或</p>
+   <p>当前：请求或更高版本</p></td> 
   </tr>
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 浏览Blueprint目录
 
 目录将显示您的组织可用的所有Blueprint。 有关Blueprint的信息（如Blueprint类型和成熟度级别），请参阅[Blueprint概述](../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL Blueprints]**。
+{{step1-to-blueprints}}
+
 1. 浏览Blueprint目录。
 1. 使用右侧的过滤器面板，通过以下选项过滤目录：
 
@@ -62,7 +72,8 @@ Blueprint提供基本的构建块，帮助您创建随增长而增长的工作�
 
 当您请求安装Blueprint时，该请求将发送给系统管理员。 请求完成后，系统会根据您的通知首选项通知您。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL Blueprints]**。
+{{step1-to-blueprints}}
+
 1. 查找要安装的Blueprint。 您可以使用右侧面板中的过滤器，按用例、成熟度级别、安装状态和类型进行过滤。
 1. 在Blueprint上单击&#x200B;**[!UICONTROL 请求]**。
 
