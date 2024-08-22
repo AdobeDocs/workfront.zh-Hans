@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '14295'
+source-wordcount: '14299'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 2%
       * 2024年第4季度版本{#release-24-q4}
          * [2024年第4季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
+         * [2024年第4季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
          * [2024年第4季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
-         * [2024年第4季度集成增强](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024年第4季度校对功能增强](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024年第四季度发布时间框架内的其他增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [在2024年第4季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * 2024年第3季度版本{#release-24-q3}
