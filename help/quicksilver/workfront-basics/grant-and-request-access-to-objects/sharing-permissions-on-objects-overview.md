@@ -6,9 +6,9 @@ description: 您可以共享或删除您创建的对象或与您共享对象的�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>在系统范围内可见。</strong></td> 
-   <td> <p>该对象可在搜索中找到，并可由具有Workfront帐户的用户查看。</p><p><b>注意&gt;/b&gt;：具有“参与者”或“请求者”许可证的用户看不到项目，即使启用了此设置也是如此。 </td> 
+   <td> <p>该对象可在搜索中找到，并可由具有Workfront帐户的用户查看。</p><p><b>注意</b>：具有参与者或请求者许可证的用户无法查看项目，即使启用了此设置也是如此。 </td> 
   </tr> 
  </tbody> 
 </table>

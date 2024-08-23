@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,21 @@ AI助手当前提供以下功能：
 
 1. 如果AI助手未提供您所需的答案，请优化您的提示并重试。
 
+## 签署AdobeGen AI协议
 
+如果贵组织在文件中没有已签署的AdobeGen AI协议，则无法为贵组织启用AI助手。
 
+如果用户在AdobeGen AI协议尚未签署时尝试使用AI助手，他们会看到一条消息：
 
+* 用户：将通知用户尚未为其组织启用AI助手，用户可以联系Workfront管理员为其组织请求启用。
+* 管理员：通知管理员没有已签署的AdobeGen AI协议，可以请求发送协议副本以供签署。
+
+要请求AdobeGen AI协议，请执行以下操作：
+
+1. 作为Workfront管理员，单击AI助手图标![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)。
+1. 开始在AI助手面板中键入。
+1. 出现AdobeGen AI协议消息时，单击&#x200B;**审阅协议**。
+1. 输入贵公司中将签署AdobeGen AI协议的人员的姓名和电子邮件地址。
+
+   协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。
 
