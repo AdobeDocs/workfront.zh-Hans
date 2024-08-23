@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 管理记录页面布局
 
@@ -36,7 +36,11 @@ ht-degree: 0%
 
 ## 访问要求
 
+<!--Updated for GA-->
+
 +++ 展开以查看Workfront Planning的访问要求。
+
+您必须具备以下条件才能访问Workfront Planning：
 
 <table style="table-layout:auto">
  <col>
@@ -49,49 +53,63 @@ ht-degree: 0%
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront规划<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>以下任意Workfront计划：</p>
+<ul><li>选择</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning不适用于旧版Workfront计划</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
    <td>
 <p>任何</p>
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront平台</p></td>
+   <td>
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>新增：标准</p>
-   或
-   <p>当前：计划</p> 
+   <p>标准</p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p>
   </td>
   </tr>
-
-<tr>
+  <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront Planning没有访问控制</p>  
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区</a>的权限 </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
-</td>
+   <td role="rowheader"><p>对象权限</p></td>
+   <td>
+   <p>管理工作区</a>的权限 </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
+   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单的“规划”区域以及项目、项目组合和项目群的“规划”区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -145,11 +163,11 @@ ht-degree: 0%
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以在新标签中打开记录页面。
 
-   此时将打开记录页面。<!--The Details tab opens by default. -->
+   此时将打开记录页面。 默认情况下，将打开“详细信息”选项卡。
 
    ![](assets/details-page.png)
 
-1. 在<!--**Details** tab of the-->记录预览或页面中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![](assets/add-section-icon.png)以添加节。
+1. 在记录预览或页面的&#x200B;**详细信息**&#x200B;选项卡中，将鼠标悬停在字段左侧的空格上，然后单击&#x200B;**添加节**&#x200B;图标![](assets/add-section-icon.png)以添加节。
 1. 单击该节的名称并用名称替换&#x200B;**无标题节**，然后单击Enter。 在部分下显示的字段自动成为新部分的一部分。
 1. 开始将字段拖放到新部分，如本文中记录预览或详细信息页面](#rearrange-fields-in-the-record-preview-or-details-page)中的[重新排列字段部分所述。
 
@@ -182,11 +200,23 @@ ht-degree: 0%
 
    对部分和字段顺序的所有更改都将自动保存。
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. （可选）单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)以将“详细信息”选项卡导出到Word文件。 有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. （可选）单击&#x200B;**详细信息**&#x200B;选项卡旁边的&#x200B;**连接**&#x200B;选项卡。 在单击“**连接**”选项卡之前，您可能必须单击“**更多**”。
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   连接到选定记录的所有记录或对象都显示在记录类型或它们所属应用程序的名称下。
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. （可选）选择“连接”选项卡右上角的&#x200B;**显示所有记录**&#x200B;设置。 所有连接的记录类型都会显示，包括尚未连接任何记录的类型。 默认情况下，此切换处于取消选中状态，并且隐藏没有连接记录的记录类型。
+
+1. （可选）单击&#x200B;**连接**&#x200B;以将更多记录添加到连接的记录类型。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
+
+1. （可选）将鼠标悬停在记录卡片上，单击断开连接记录图标&#x200B;**-**，然后单击&#x200B;**断开连接**。 <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+出现以下情况：
+   * 记录不再连接到Workfront对象。
+   * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
+   * 连接到Planning记录的Workfront查找字段的值也会被删除。
 
 ## 重新排列记录预览或页面中的字段
 

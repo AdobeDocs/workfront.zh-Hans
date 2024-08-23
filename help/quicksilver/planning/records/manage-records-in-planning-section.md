@@ -1,13 +1,13 @@
 ---
 title: 管理Adobe Workfront对象“计划”部分中的记录
-description: 您可以在左侧面板的Adobe Workfront对象的Planning部分中显示连接到Workfront对象的记录。
+description: 您可以在左侧面板的Workfront对象的Planning部分中显示连接到Adobe Workfront对象的Workfront Planning记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-您可以在左侧面板的Adobe Workfront对象的Planning部分中显示连接到Workfront对象的记录。
+您可以在左侧面板的Workfront对象的Planning部分中显示连接到Adobe Workfront对象的Workfront Planning记录。
 
 “规划”部分适用于以下Workfront对象：
 
@@ -35,7 +35,11 @@ ht-degree: 1%
 
 ## 访问要求
 
+<!--Updated for GA-->
+
 +++ 展开以查看Workfront Planning的访问要求。
+
+您必须具备以下条件才能访问Workfront Planning：
 
 <table style="table-layout:auto">
  <col>
@@ -48,50 +52,64 @@ ht-degree: 1%
 <td>
    <p> 产品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront规划<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>以下任意Workfront计划：</p>
+<ul><li>选择</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning不适用于旧版Workfront计划</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
    <td>
 <p>任何</p>
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront平台</p></td>
+   <td>
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p>
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
    <td>
-   <p>新增：标准</p>
-   或
-   <p>当前：计划</p> 
+   <p>标准</p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p>
   </td>
   </tr>
-
-<tr>
+  <tr>
    <td role="rowheader"><p>访问级别配置</p></td>
    <td> <p>查看或更高权限的项目、项目群和Portfolio</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
+   <td role="rowheader"><p>对象权限</p></td>
+   <td>
+   <p>在Workfront中，查看项目、项目组合或项目群的权限或更高的权限</a> </p> 
    <p>在Workfront Planning、Contribute或更高的工作区权限中</a> </p>  
-   <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p>
-</td>
+   <p>系统管理员有权访问所有Workfront Planning工作区，包括他们未创建的工作区</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须将主菜单中的规划区域和左侧面板中的规划部分添加到您的布局模板中。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
+   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单的“规划”区域以及项目、项目组合和项目群的“规划”区域。 </p> 有关详细信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -135,6 +153,7 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。 默认情况下，不显示没有连接记录的记录类型。
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
@@ -143,16 +162,12 @@ ht-degree: 1%
    * 记录不再连接到Workfront对象。
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
    * 连接到Planning记录的Workfront查找字段的值也会被删除。
-1. 单击&#x200B;**连接**&#x200B;以连接更多记录。
+1. 单击&#x200B;**连接**&#x200B;为连接的记录类型连接更多记录。 有关详细信息，请参阅[连接记录](/help/quicksilver/planning/records/connect-records.md)。
 
-   >[!NOTE]
-   >
-   >   “连接”按钮仅显示您拥有Contribute权限的工作区。<!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. 单击要连接的记录。 出现以下情况：
+   出现以下情况：
 
    * 记录会立即连接到Workfront对象，并显示在Planning部分中。
    * Workfront对象将添加到Workfront Planning记录的已连接字段中。
    * 连接到Planning记录的Workfront查找字段的值会在Workfront Planning中填充。
 
-<!--add more steps here for what happens after clicking Connect-->
+

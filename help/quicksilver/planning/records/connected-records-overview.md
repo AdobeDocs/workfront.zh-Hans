@@ -4,9 +4,9 @@ description: 在记录类型之间创建连接后，可以将各个记录彼此�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ ht-degree: 0%
 
 * 有权访问Workfront Planning and View或拥有工作区更高权限的每个人，都可以查看您在记录之间或记录与其他应用程序的对象之间建立的连接。 他们可以查看连接的记录和对象，无论他们在您连接的应用程序中的权限如何。
 * 如果您对连接记录所在的工作区具有管理权限，则可以查看和编辑其他人的连接。
-* 您可以将一个记录连接到另一个应用程序的一个或多个对象。<!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* 您可以将一个记录连接到另一个应用程序的一个或多个对象。 有关详细信息，请参阅文章[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)中的“连接类型”部分。
 
 ## 可连接记录的区域
 
 在以下区域中，您可以将记录连接到其他记录或从其他应用程序连接到对象：
 
-* 您可以在以下区域将记录从Workfront Planning连接到Workfront对象：
-   * 从Workfront Planning中的Planning记录，在表视图的已连接字段中。
-   * 从Workfront Planning中的Planning记录（记录预览或连接的记录字段中的页面）。
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* 您可以将Workfront Planning中的记录连接到Planning记录的以下区域中的Workfront对象或Experience Manager Assets对象：
 
-* 您可以在以下区域将Workfront Planning记录连接到Experience Manager Assets：
-
-   * 从表视图中的Workfront Planning中的Planning记录。
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * Planning中记录类型的表视图中的已连接记录字段。
+   * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
+   * 记录在“连接”选项卡上的预览或页面。
 
 * 您可以在以下区域将Workfront对象连接到Workfront Planning记录：
 

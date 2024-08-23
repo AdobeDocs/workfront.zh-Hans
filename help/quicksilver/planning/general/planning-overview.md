@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1909'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 2%
 >
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->目前，Workfront Planning处于早期访问阶段，仅对有限数量的客户开放。
+>您必须是Workfront客户，并且您的组织必须购买Adobe Workfront计划以及Workfront计划，才能访问Workfront Planning的功能。<!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>有关获取Workfront Planning访问权限的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 >
->您必须是Workfront客户才能使用这些功能。
->
->如果您属于这一阶段，您的客户代表会通知您。
->
->有关记录Workfront Planning的所有章节和文章的完整列表，请参阅[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
+本文包含有关Workfront Planning的一般信息。
+
+有关包含Workfront Planning文档的文章的完整列表，请参阅[Adobe Workfront Planning：文章索引](/help/quicksilver/planning/planning-information.md)。
 
 ## Adobe Workfront Planning简介
 
@@ -52,11 +51,16 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 ## 当前可用的Adobe Workfront规划功能
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
 
+<!--at GA: update the link below to the new place for release notes-->
+
 有关新功能及其发布时间的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | 功能 | 现在可用 | 即将出现 | 正在研究 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|

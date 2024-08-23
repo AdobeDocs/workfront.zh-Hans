@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2710'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,6 @@ hide: yes
 -->
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # 连接记录
 
@@ -68,6 +67,74 @@ hide: yes
 
 +++ 展开以查看Workfront Planning的访问要求。
 
+您必须具备以下条件才能访问Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 产品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront规划<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> 
+<p>以下任意Workfront计划：</p> 
+<ul><li>选择</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning不适用于旧版Workfront计划</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td> 标准
+   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>管理工作区权限以连接记录 </p>  
+   <p>查看工作区或更高权限，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
+   <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
+   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+<!--OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -76,62 +143,57 @@ hide: yes
  <tbody>
     <tr>
 <tr>
-<td>产品</p> </td>
+<td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>要将Adobe Workfront Planning记录与Experience Manager Assets连接，您必须具有Adobe Experience Manager Assets许可证，并且贵组织的Workfront实例必须载入到AdobeUnified Experience。 有关信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p>
+   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：标准</p>
-   <p>当前：计划</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront Planning没有访问级别控制</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区权限以连接记录 </p>  
-   <p>查看工作区或更高权限，以查看与其他应用程序中的对象和字段的所有连接，无论您对其他应用程序的访问权限如何。 </p>
-   <p>查看要从Workfront或Experience Manager Assets链接的对象或授予对这些对象的更高权限。 </p>
-   <p>系统管理员有权访问所有工作区，包括他们未创建的工作区。</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace to connect records </p>  
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 连接记录的先决条件
 
@@ -149,15 +211,13 @@ hide: yes
 
 ## 从Workfront Planning连接记录
 
-您可以从Workfront Planning在以下方面连接记录：
+您可以在Workfront Planning记录的以下区域中连接记录：
 
-* 从Workfront Planning中的Planning记录，在表视图的连接的记录字段中。
-* 从Workfront Planning中的Planning记录（记录预览或连接的记录字段中的页面）。
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.-->
+* 表视图中的已连接记录字段。
+* 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
+* 记录在“连接”选项卡上的预览或页面。
 
-### 从表视图或<!--Details tab of the-->记录页面连接Adobe Workfront Planning记录
+### 从表视图或记录页的“详细信息”选项卡连接Adobe Workfront Planning记录
 
 {{step1-to-planning}}
 
@@ -176,15 +236,15 @@ hide: yes
    * 从列表中单击已连接记录的名称以将其添加到所选记录。 记录会自动添加。
    * 开始键入记录的名称，并在该记录显示在列表中时单击它。 记录会自动添加。
 
-   <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
-    
-    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
-    
-     -->
+1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”。
 
    >[!TIP]
    >
-   >    您可以打开记录的页面，方法是单击视图中的记录名称，找到链接的记录字段，然后双击该字段（如果已经连接记录），或单击&#x200B;**连接记录**（如果字段为空）以从连接的记录或对象类型添加记录。
+   >    您可以在表视图中执行以下操作来打开记录页面：
+   >1. 单击视图中的记录名称。
+   >1. 查找链接的记录字段，然后双击该字段（如果已经连接记录）
+   >或
+   >单击&#x200B;**连接记录**（如果字段为空）以从连接的记录或对象类型添加记录。
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -211,18 +271,18 @@ hide: yes
    >
    >* 我们交替使用“链接字段”和“查找字段”。
    >
-   >* 当您选择在连接记录类型时连接多个记录时，来自多个对象的字段值显示时用逗号分隔，或者根据您选择的聚合器聚合。
+   >* 当您选择在连接记录类型时连接多个记录时，来自多个对象的字段值或者以逗号分隔，或者根据您在连接记录类型时选择的聚合器聚合。
 
 1. （可选）关闭记录类型页面，然后转到您选择的工作区。
 1. 单击链接到的记录类型的卡。
 
    例如，如果您已将&#x200B;**Campaign**&#x200B;记录与产品记录连接，请单击&#x200B;**Product**&#x200B;卡。
 
-   记录类型卡片应在“表”视图中打开。 如果没有，请选择表格视图。
+   记录类型卡应在表视图中打开。 如果没有，请选择表格视图。
 
    请注意，**Campaign**&#x200B;链接记录字段在产品记录类型页面中显示您链接到产品的营销活动的名称。 更新促销活动信息会自动更新产品记录类型的促销活动链接记录字段。
 
-### 将Adobe Workfront Planning记录从表视图或<!--Details tab of the-->记录页面连接到Workfront对象
+### 将Adobe Workfront Planning记录从记录页面的表格视图或详细信息选项卡连接到Workfront对象
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -242,6 +302,7 @@ hide: yes
 1. 从&#x200B;**视图**&#x200B;下拉菜单中选择&#x200B;**表**&#x200B;视图。
 
 1. 单击&#x200B;**新建记录**&#x200B;以将单个记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
+
 1. （视情况而定）将选定的记录类型与Workfront对象类型连接后，转到链接对象列，并双击与要与Workfront对象链接的记录对应的单元格。
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -254,6 +315,10 @@ hide: yes
    >[!TIP]
    >
    >您可以从视图中打开记录的页面，双击链接的记录字段，或单击字段中的&#x200B;**连接**&#x200B;以添加来自连接的对象类型的对象。
+
+1. （可选）如果找不到要连接的对象并且要添加它，请单击&#x200B;**+添加**&#x200B;以创建和添加新项目或项目组合。
+
+   将没有模板或项目组合的项目连接到Planning记录时，您只能添加这些项目。 您无法添加新程序、用户或公司。
 
 1. （可选）单击&#x200B;**查看全部**&#x200B;以显示您至少具有查看权限的所有对象。
 
@@ -301,7 +366,7 @@ hide: yes
    这会从Workfront Planning记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在Workfront中。
 
 
-### 将Workfront Planning记录从表视图或<!--Details tab of the-->记录页面连接到Adobe Experience Manager对象
+### 将Workfront Planning记录从记录页面的表格视图或详细信息选项卡连接到Adobe Experience Manager对象
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -364,7 +429,7 @@ hide: yes
      >
      >* 在Experience Manager Assets应用程序中，不会为链接的Experience Manager资源创建指向Workfront Planning链接记录的链接记录字段。
 
-1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。<!--update screen shot with hi-rez picture-->
+1. （可选）转到您链接到Experience Manager Assets的记录类型，然后单击链接记录字段中的资源名称。 资源的Experience Manager详细信息将显示在弹出窗口中。
 
    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -394,46 +459,42 @@ hide: yes
 
    这会在记录中添加或删除链接字段。 与已删除字段关联的信息仍保留在AdobeExperience Assets中。
 
-<!--
-### Connect Workfront Planning records from the Connections tab of the record page
+### 从记录页面的“连接”选项卡将Workfront Planning记录与其他记录或对象连接
 
-1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
-1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
-1. Click the name of a record. 
+1. 转到已连接到其他Planning记录类型或来自其他应用程序的对象类型的任何记录类型视图。
+1. 按照前面各小节中描述的步骤，在视图中查找要与其他记录或对象连接的记录。
+1. 单击记录名称。
 
-    The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click the **Connections** tab in the record's preview or page. 
+   预览页面将打开。
+1. （可选）单击&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的页面。
+1. 单击记录预览或页面中的&#x200B;**连接**&#x200B;选项卡。
 
-    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
-    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+   链接到选定记录类型的所有记录或对象类型都显示为节。 连接的记录或对象显示在卡片上的记录或对象类型名称下。
 
-    >[!TIP]
-    >
-    >    Only connected records that have individual records connected display by default.
+   >[!TIP]
+   >
+   >    默认情况下，仅显示已连接单个记录的已连接记录。
 
-1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
+1. （可选）单击“显示所有连接”****&#x200B;可显示所有连接的记录类型，包括未连接记录的记录类型。
 
-1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+1. （可选）单击截面左侧的向下箭头以将其折叠。
 
-1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
-    The Connect button does not display if there are no records currently connected to the selected record. 
-1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
-    The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+1. （视情况而定）单击&#x200B;**连接**&#x200B;以添加更多相同类型的记录或对象。
+1. 按照前面部分中描述的步骤，连接来自Workfront Planning的记录或来自Workfront或Experience Manager Assets的对象。
+记录和对象会立即添加。
+1. （可选）将鼠标悬停在记录或对象的已连接卡片上，然后单击&#x200B;**断开记录**&#x200B;图标&#x200B;**-**&#x200B;以断开与选定记录的连接。
 
-    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
-    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
-
--->
+   该记录会立即与Workfront Planning的所有区域或其可能显示为已连接的其他应用程序断开连接。 所有查找字段值也会被删除。
 
 ## 从Workfront对象连接记录
 
 要从Workfront对象连接Workfront Planning记录，您必须具备以下条件：
 
-* 在Workfront Planning中建立的记录类型与Workfort对象类型之间的连接。
-* Workfront或组管理员必须将Planning部分添加到可以连接到“布局模板”中的Planning记录类型的Workfront对象类型中。
+* 在Workfront Planning中建立的记录类型与Workfront对象类型之间的连接。
+* 您的Workfront或组管理员必须将“规划”部分添加到您的布局模板中的Workfront项目、项目组合和程序。
 
 有关详细信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
