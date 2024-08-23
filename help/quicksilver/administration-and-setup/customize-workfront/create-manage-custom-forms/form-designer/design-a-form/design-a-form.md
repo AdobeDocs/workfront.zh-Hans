@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
 workflow-type: tm+mt
-source-wordcount: '5540'
+source-wordcount: '5546'
 ht-degree: 5%
 
 ---
@@ -903,4 +903,4 @@ The Workfront Mobile app -->
 
 ## 使用表单设计器组织和预览表单
 
-有关如何组织和查看表单预览的信息，请参阅[使用表单设计器组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
+有关如何组织带有分区界限的自定义表单并查看表单预览的信息，请参阅[使用表单设计器组织和预览表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。

@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 创建和提交Adobe Workfront请求
+title: 创建并提交请求
 description: 在Adobe Workfront中，计划工作由项目和任务表示。 但是，您可能是在这样的环境中工作：随时都可能收到以随机请求形式出现的计划外工作。 Workfront通过使用请求队列提供了一个工作流来适应这种类型的环境。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
 
-# 创建和提交Adobe Workfront请求
+# 创建并提交请求
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新文档：参与者或更高版本</p>
    或
    <p>当前：请求或更高版本</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对问题的访问权限</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Workfront管理员必须创建请求队列的以下组件：
 
 要在Workfront Web应用程序中创建请求，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)。
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. 单击&#x200B;**请求**，然后单击页面右上角的&#x200B;**新建请求**。
+1. 单击页面右上角的&#x200B;**新建请求**。
 
    >[!TIP]
    >

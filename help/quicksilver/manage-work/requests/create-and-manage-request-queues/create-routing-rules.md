@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 创建路由规则
 description: 路由规则可控制Adobe Workfront在将问题提交到请求队列时对问题执行的操作。 有关创建请求队列的详细信息，请参阅创建请求队列。
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -75,12 +75,12 @@ ht-degree: 1%
     <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置</td> 
+   <td role="rowheader">访问级别配置</td>
    <td> <p>编辑对项目的访问权限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p> 管理项目的权限</p> </td> 
+   <td> <p> 管理项目的权限</p> </td>
   </tr> 
  </tbody> 
 </table>
