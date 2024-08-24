@@ -5,9 +5,9 @@ title: 旧版主页弃用指南
 description: 本页包含有关即将弃用旧版主页的信息。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 ![](assets/legacy-home-worklist-view.png)
 
-此页面将在24.10版本（计划于2024年10月17日发布）期间被弃用。 届时，您将需要迁移到新的Home Experience。 如果您一直使用旧版主页来管理您的工作，请不要担心！ 除了不断改进新主页之外，我们还一直忙于构建称为“我的优先级”的简化工作管理体验。
+此页面将在24.10版本（计划于2024年10月17日发布）期间被弃用。 届时，您将需要迁移到新的Home Experience。 如果您一直使用旧版主页来管理您的工作，请不要担心！ 除了不断改进新主页之外，我们还一直忙于构建称为“优先级”的简化工作管理体验。
 但是，我们知道这样的更改可能会造成干扰，我们想尽一切可能帮助实现您的过渡。 本页包含有关到底将发生什么变化的信息、有关如何准备进行转换的建议以及对常见问题的一些回答。
 
 ## 弃用信息
@@ -35,7 +35,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 * 新主页已作为替代页面提供。 请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)，了解有关使用新主页的更多信息。 用户可以通过个性化选项自定义它，管理员可以通过布局模板自定义它。
 
-* 我的优先事项正在制定中，将作为Adobe Workfront简化工作管理体验的另一个要素。
+* 优先事项正在拟订中，并将作为Adobe Workfront简化工作管理体验的另一要素。
 
 ## 为弃用做准备
 
@@ -57,7 +57,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 ### 在开发时遵循主页体验
 
-此外，我们建议及时了解最新的发行说明（请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)），以便进一步了解对主页体验所做的任何更改，从而进一步了解弃用情况。 此外，请继续阅读“我的优先级”，以更好地了解我们对Adobe Workfront中工作管理的未来愿景（即将提供更多信息）。
+此外，我们建议及时了解最新的发行说明（请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)），以便进一步了解对主页体验所做的任何更改，从而进一步了解弃用情况。 此外，继续阅读优先事项以更好地了解我们对Adobe Workfront中工作管理的未来愿景（即将提供更多信息）。
 
 ### 寻求帮助
 
@@ -70,7 +70,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 不会，它将从应用程序中完全删除。
 +++
 
-+++ 旧版Home的所有功能是否都可以在新Home中使用（或最终在“我的优先级”中使用）？
++++ 旧版Home的所有功能是否都可以在新Home中使用（或者最终在Priorities中使用）？
 
 几乎，以下除外：
 
@@ -78,7 +78,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 * 显示对象到期日期的时间戳当前不可用。
 
-* 在更新馈送中显示提交日期当前不可用。 但是，有一个可用的解决方法：通过布局模板在标题自定义中显示提交日期。
+* 在更新馈送中显示提交日期当前不可用。 但是，有一个可用的解决方法：通过版面模板自定义在标题中显示提交日期。
 +++
 
 +++如何管理用户在新主页中有权访问的构件？
@@ -102,5 +102,5 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 +++我可以提交反馈吗？
 
-是！ 请在您的新主页上通过单击应用程序内&#x200B;**提供反馈**&#x200B;按钮、通过即将发布的“我的优先级”页面或通过[Workfront Ideas论坛](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)进行反馈。
+是！ 请在您的新主页上通过单击应用程序内&#x200B;**提供反馈**&#x200B;按钮、通过即将推出的“优先级”页或通过[Workfront Ideas论坛](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)进行反馈，以便执行此操作。
 +++

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -295,4 +295,4 @@ Workfront Fusion中的新增功能在2024年第四季度发布计划之外的“
 
 #### 在24.10中弃用旧版主页体验
 
-我们将正式在24.10版本中弃用旧版主页体验。 我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息（包括用户和管理员可做哪些准备工作），请参阅此处。
+我们将正式在24.10版本中弃用旧版主页体验。 我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息，包括有关用户和管理员可以做哪些准备的建议，请参阅[旧版主页弃用指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
