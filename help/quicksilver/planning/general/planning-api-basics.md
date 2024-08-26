@@ -1,18 +1,22 @@
 ---
 title: Adobe Workfront规划API基础知识
 description: Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构来简化与Planning的构建集成。 本文档假定您熟悉REST和JSON响应，并介绍了Planning API采用的方法。
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
 
+
 # Adobe Workfront规划API基础知识
+
+{{planning-important-intro}}
 
 Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构来简化与Planning的构建集成。 本文档假定您熟悉REST和JSON响应，并介绍了Planning API采用的方法。
 

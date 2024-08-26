@@ -1,7 +1,7 @@
 ---
-source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2544'
 ht-degree: 1%
 
 ---
@@ -279,31 +279,29 @@ ht-degree: 1%
 >
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->目前，Workfront Planning处于早期访问阶段，仅对有限数量的客户开放。
+>要访问Workfront Planning，您必须具备以下条件：
 >
->您必须是Workfront客户才能使用这些功能。
+>* 新的Workfront计划和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
+>* Workfront Planning的附加许可证。
+>* 您组织的Workfront实例必须载入到AdobeUnified Experience。
 >
->如果您属于此阶段，您的客户代表将会通知您。
->
->有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+> 有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
+>有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
-
-<!--At GA replace the intro with this:
-
+<!--OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses.
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>You must be a Workfront customer to use these capabilities. 
 >
-> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+>Your account representative will inform you if you are part of this stage.
 >
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
-
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
 <!-- Manage Work -->
 

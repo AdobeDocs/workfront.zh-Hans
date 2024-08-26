@@ -4,9 +4,9 @@ description: 您可以为每种记录类型创建一个请求表单，与用户�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 本节包含以下文章：
 
-* [在Adobe Workfront Planning中创建请求表单](/help/quicksilver/planning/requests/create-request-form.md)
+* [在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)
 * [提交Adobe Workfront规划请求](/help/quicksilver/planning/requests/submit-requests.md)

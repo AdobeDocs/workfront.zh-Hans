@@ -1,19 +1,18 @@
 ---
 title: 在Adobe Workfront Planning中共享权限概述
-description: 您可以共享或删除Adobe Workfront Planning工作区或视图的权限。
-hidefromtoc: true
-hide: true
+description: 并非组织中的所有用户都具有相同的访问权限和权限来使用Adobe Workfront Planning。 本文介绍了有关共享或删除Adobe Workfront Planning工作区或视图的权限的一般信息。
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -178,8 +177,6 @@ ht-degree: 6%
 | 应用 | ✓ {\f13 } |
 
 *用户必须具有工作区的“查看”或更高权限才能获得此查看访问权限。
-
-
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

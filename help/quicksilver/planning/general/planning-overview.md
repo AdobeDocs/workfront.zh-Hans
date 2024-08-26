@@ -1,14 +1,15 @@
 ---
 title: Adobe Workfront规划概述
 description: Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 2%
+source-wordcount: '1986'
+ht-degree: 1%
 
 ---
 
@@ -16,15 +17,20 @@ ht-degree: 2%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--do not use the snippet for IMPORTANT as it links to this article-->
 
 >[!IMPORTANT]
 >
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->您必须是Workfront客户，并且您的组织必须购买Adobe Workfront计划以及Workfront计划，才能访问Workfront Planning的功能。<!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
->有关获取Workfront Planning访问权限的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+>要访问Workfront Planning，您必须具备以下条件：
 >
+>* 新的Workfront计划和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
+>* Workfront Planning的附加许可证。
+>* 您组织的Workfront实例必须载入到AdobeUnified Experience。
+>
+> 有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 
 
 本文包含有关Workfront Planning的一般信息。
 
@@ -49,74 +55,114 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 * 全面自定义工作流，从决定组织使用哪些对象类型（或记录类型）到配置这些对象如何相互链接。
 * 链接到来自其他系统的对象类型，为所有进程创建一致的框架。
 
-## 当前可用的Adobe Workfront规划功能
+## 当前可用的Workfront规划功能
 
 <!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
-下表说明了Workfront Planning中可用的主要功能及其可用时间线。 该列表不包括所有功能。
-
 <!--at GA: update the link below to the new place for release notes-->
 
-有关新功能及其发布时间的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
+有关新功能及其发布时间的信息，请参阅[Adobe Workfront 2024年计划发布活动](/help/quicksilver/planning/general/release-activity.md)。
 
-<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+以下是Workfront Planning中当前可用的功能：
 
+* 创建工作区
+* 创建记录类型
+* 创建记录自定义字段\
+  <!--* Import record types and fields using an Excel or CSV file-->
 
-| 功能 | 现在可用 | 即将出现 | 正在研究 |
+* 在表格视图中显示记录
+* 在时间轴视图中显示记录
+* 在日历视图中显示记录
+* 在表视图中筛选、排序和分组记录
+* 时间轴视图中的筛选器、组和颜色代码记录
+* 在日历视图中过滤记录
+* 在表格和时间线视图中搜索记录
+* 连接属于同一工作区的记录
+* 连接属于不同工作区的记录
+* 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组
+* 将Workfront Planning记录连接到Adobe Experience Manager资源
+* 在“详细信息”选项卡中查看记录信息
+* 在“连接”选项卡中查看记录连接
+* 自定义记录页面的布局
+* 共享工作区
+* 共享视图
+* 与外部资源公开共享视图
+* 复制视图
+* 提交请求以创建记录
+* 将记录详细信息导出到Word\
+  <!--* Export record details to PDF-->
+* 向记录添加注释
+* 接收应用程序内通知
+* 接收电子邮件通知
+* 将缩略图和封面页添加到记录
+* 查看记录更改的历史记录
+* 段落字段的富文本格式
+* 从Workfront对象访问Planning记录
+* 从Workfront对象连接Planning记录
+* 通过提交请求表单创建Planning记录
+* Workfront规划公共API
+* Adobe Workfront Fusion的Adobe Workfront规划模块
+* Workfront规划AI助手
+* 报告Workfront Planning信息（画布功能板）
+
+<!--OLD: 
+
+|       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| 创建工作区 | ✓ {\f13 } |                                  |                  |
-| 创建记录类型 | ✓ {\f13 } |                                  |                  |
-| 创建记录自定义字段 | ✓ {\f13 } |                                  |                  |
-| 使用Excel或CSV文件导入记录类型和字段 |                              | ✓ {\f13 } |                  |
-| 链接记录 | ✓ {\f13 } |                                  |                  |
-| 查看表中的记录 | ✓ {\f13 } |                                  |                  |
-| 在时间轴中查看记录 | ✓ {\f13 } |                                  |                  |
-| 查看日历中的记录 | ✓ {\f13 } |                                  |                  |
-| 筛选记录 | ✓ {\f13 } |                                  |                  |
-| 在时间轴视图中分组记录 | ✓ {\f13 } |                                  |                  |
-| 在表视图中分组记录 | ✓ {\f13 } |                                 |                  |
-| 对表视图中的记录进行排序 | ✓ {\f13 } |                                 |                  |
-| 在时间轴视图中排序记录 |                               | ✓ {\f13 } |                  |
-| 对表格视图中的分组进行排序 |                               | ✓ {\f13 } |                  |
-| 在时间轴视图中排序分组 |                               | ✓ {\f13 } |                  |
-| 在表视图中搜索记录 | ✓ {\f13 } |   |
-| 在时间轴视图中搜索记录 | ✓ {\f13 } |   |
-| 将Workfront Planning记录连接到Workfront项目、计划、项目组合、公司、组 | ✓ {\f13 } |                                 |                  |
-| 将Workfront Planning记录连接到Adobe Experience Manager资源 | ✓ {\f13 } |                                  |                 |
-| 连接来自不同工作区的Planning记录 | ✓ {\f13 } |                                  |                 |
-| 记录包含详细信息的页面 | ✓ {\f13 } |                                  |                  |
-| 更新记录页面的布局 | ✓ {\f13 } |                                 |                  |
-| 共享工作区 | ✓ {\f13 } | |  |
-| 共享视图 | ✓ {\f13 } | |  |
-| 与外部资源公开共享视图 | ✓ {\f13 } | |  |
-| 复制视图 | ✓ {\f13 } | |  |
-| 提交请求 |                               | ✓ {\f13 } |                 |
-| 将记录详细信息导出到Word | ✓ {\f13 } |                                  |                 |
-| 将记录详细信息导出到PDF |                               |                                  | ✓ {\f13 } |
-| 自定义记录的颜色和图标 | ✓ {\f13 } |                                  |                 |
-| 向记录添加注释 | ✓ {\f13 } |                                  |                 |
-| 接收应用程序内通知 | ✓ {\f13 } |                                  |                 |
-| 接收电子邮件通知 | ✓ {\f13 } |                                  |                 |
-| 将缩略图添加到记录 | ✓ {\f13 } |                                  |                 |
-| 查看记录更改的历史记录 | ✓ {\f13 } |                                  |                 |
-| 段落字段的富文本格式 | ✓ {\f13 } |                                  |                 |
-| Adobe Workfront Fusion的Adobe Workfront规划模块 | ✓ {\f13 } |                                  |                 |
-| 将信息从一个字段复制并粘贴到另一个字段 | ✓ {\f13 } |                                  |                 |
-| 从Workfront对象访问Planning记录 | ✓ {\f13 } |                                  |                 |
-| 从Workfront对象连接Planning记录 | ✓ {\f13 } |                                  |                 |
-| Workfront规划公共API | ✓ {\f13 } |                                  |                 |
-| Workfront规划AI助手* | ✓ {\f13 } |                                  |                 |
-| 报告Workfront Planning信息（画布功能板） |                               | ✓ {\f13 } |                 |
+|     Create workspaces                              |   ✓                           |                                  |                  |
+|     Create record types                |   ✓                           |                                  |                  |
+|     Create record custom fields                    |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file                              |                              |           ✓                       |                  |
+|     Link records                                   |   ✓                           |                                  |                  |
+|     View records in a table                        |   ✓                           |                                  |                  |
+|     View records in a timeline                     |   ✓                           |                                  |                  |
+|     View records in a calendar                     |   ✓                           |                                  |                  |
+|     Filter records                                 |   ✓                           |                                  |                  |
+|     Group records in the timeline view             |   ✓                           |                                  |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
+|     Sort records in the table view                                 |  ✓                             |                                 |                  |
+|     Sort records in the timeline view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the table view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
+|   Search for records in the table view    | ✓    |   |
+|   Search for records in the timeline view    | ✓    |   |
+|     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Record page with detailed information                            |   ✓                           |                                  |                  |
+|     Update the layout of the record's page              |    ✓                           |                                 |                  |
+|  Share workspaces | ✓| |  |
+|  Share views |✓ | |  |
+|  Share views publicly with external resources |✓ | |  |
+|  Duplicate views |✓ | |  |
+|     Submit requests                                |                               |          ✓                        |                 |
+|     Export record details to Word                                 |    ✓                           |                                  |                 |
+|     Export record details to PDF                                 |                               |                                  |       ✓          |
+|     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+|     Add comments to records                                 | ✓                              |                                  |                 |
+|     Receive in-app notifications                                 | ✓                              |                                  |                 |
+|     Receive email notifications                                 | ✓                              |                                  |                 |
+|     Add thumbnails to records                                 | ✓                              |                                  |                 |
+|     View history of changes on a record                                 | ✓                              |                                  |                 |
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Workfront Planning public API                                 |      ✓                         |                                  |                 |
+|     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
+|     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+-->
 
-*AI助手已暂时移除，并将在以后提供。
 
-## 为Workfront实例中的用户启用Adobe Workfront Planning
+
+## 为Workfront实例中的用户启用Workfront Planning
 
 贵组织必须注册Adobe Workfront计划项目，然后才能访问其功能。 如果您符合条件，您的客户代表应该向您提供有关注册此计划的信息。
 
 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
-## Adobe Workfront Planning术语
+## Workfront Planning术语
 
 虽然Workfront Planning是Workfront的一部分，但它附带了专有的概念和术语。 在开始为组织设置Workfront计划之前，请确保您熟悉新概念。
 
@@ -310,9 +356,26 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
       * [创建记录](/help/quicksilver/planning/records/create-records.md)
       * [创建字段](/help/quicksilver/planning/fields/create-fields.md)。
 
-## Adobe Workfront Planning发布活动
+## Workfront Planning发布活动
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
 
 我们将定期为Workfront Planning发布新功能。
 
-有关已发布功能的最新列表，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)
+有关已发布功能的最新列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## Workfront Planning的其他资源
+
+* [Adobe Workfront计划：文章索引](/help/quicksilver/planning/planning-information.md)：包含所有文章的索引，这些文章包含有关Workfront计划的文档，并按关注区域分组。
+* [Adobe Workfront Planning AI助手概述](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令搜索记录，或者创建、更新和删除记录，并让助手为您完成工作。
+  <!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+
+* [适用于Workfront Fusion的Adobe Workfront规划模块](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)：使用Adobe Workfront规划模块，可以在Workfront规划中发生事件时触发方案。 您还可以创建、读取、更新和删除记录，或对Adobe Workfront Planning帐户执行自定义API调用。
+
+* [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
+
+* Workfront Planning报表功能：您现在可以使用Workfront Canvas Dashboard在Workfront的报表中查看Workfront Planning信息。 有关信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 

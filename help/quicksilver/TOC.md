@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 2%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 2%
          * [Workfront Fusion发行活动： 2020年11月16日开始的周](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Workfront Fusion发布活动： 2020年11月30日开始的周](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Workfront Fusion发布活动： 2020年9月21日开始的周](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Adobe Workfront Planning发布活动{#planning-release-activity}
+         * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront Scenario Planner发布活动{#scenario-planner-release}
          * [Adobe Workfront Scenario Planner发布活动](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [带有21.3版本的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 2%
       * [Adobe Workfront规划概述](planning/general/planning-overview.md)
       * [Adobe Workfront规划API基础知识](planning/general/planning-api-basics.md)
       * [Adobe Workfront规划AI助手概述](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfront Planning当前发行活动](planning/general/release-activity.md)
-      * [Adobe Workfront Planning 2023版发布活动存档](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront 2024年计划发布活动](planning/general/release-activity.md)
+      * [Adobe Workfront 2023年计划发布活动](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning对象限制概述](planning/general/limitations-overview.md)
    * Adobe Workfront规划架构{#adobe-workfront-planning-architecture}
       * [架构：文章索引](planning/architecture/architecture-information.md)

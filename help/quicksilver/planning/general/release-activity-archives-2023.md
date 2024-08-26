@@ -1,18 +1,20 @@
 ---
-title: Adobe Workfront Planning 2023版发布活动存档
+title: Adobe Workfront 2023年计划发布活动
 description: Adobe Workfront规划功能当前可用于选择Workfront客户。 经常阅读本文以了解最近发布的规划功能功能。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2950'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning 2023版发布活动存档
+# Adobe Workfront 2023年计划发布活动
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -20,24 +22,21 @@ ht-degree: 0%
 >
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->目前，Workfront Planning处于早期访问阶段，仅对有限数量的客户开放。
+>除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
 >
->您必须是Workfront客户才能使用这些功能。
->
->如果您属于此阶段，您的客户代表将会通知您。
->
->有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
+>有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+>有关Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
-本文列出了在2023年5月22日Adobe Workfront规划项目发布后的2023年功能。
+本文列出了在2023年5月22日Adobe Workfront计划启动后，2023年发布的功能。
 
-有关2024年期间发布的功能的信息，请参阅[Adobe Workfront Planning当前发布活动](/help/quicksilver/planning/general/release-activity.md)。
+有关发布活动的更多信息，另请参阅以下文章：
 
-已发布功能按其发布的顺序列出，最新的功能排在首位。 参与Workfront计划程序的客户可以访问其生产环境中的所有功能。
+* [Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)：有关Workfront Planning当前发布活动的信息。
 
-在2023年5月至2023年12月期间，本文中的所有功能均已发布到“预览”和“生产”环境。
+* [2024年Adobe Workfront计划发布活动](/help/quicksilver/planning/general/release-activity.md)：有关2024年期间发布的功能的信息，请见2024年8月28日正式发布。
 
-自2024年1月起，Workfront规划已暂时从预览和沙盒环境中移除。 本文中记录的所有功能当前都可在生产环境中使用。
+已发布功能按其发布的顺序列出，最新的功能排在首位。
 
 ## 2023年12月25日起一周
 

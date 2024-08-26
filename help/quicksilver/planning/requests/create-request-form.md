@@ -1,23 +1,25 @@
 ---
-title: 在Adobe Workfront Planning中创建请求表单
-description: 在Adobe Workfront Planning区域中选择记录类型后，您可以创建与该记录类型关联的请求表单，并与其他内部或外部用户共享指向该记录类型的链接。
+title: 在Adobe Workfront Planning中创建和管理申请表单
+description: 在Adobe Workfront Planning区域中选择记录类型后，您可以创建请求表单并将其与该记录类型关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。 具有表单链接的用户可以填写表单上的字段值，通过提交表单，他们可以为与表单关联的记录类型添加新记录。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# 在Adobe Workfront Planning中创建请求表单
+# 在Adobe Workfront Planning中创建和管理申请表单
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 在Adobe Workfront Planning区域中选择记录类型后，您可以创建请求表单并将其与该记录类型关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。<!--double-check on the external part of it-->
+
+具有表单链接的用户可以填写表单上的字段值，通过提交表单，他们可以为与表单关联的记录类型添加新记录。
 
 ## 访问要求
 
@@ -52,7 +54,8 @@ ht-degree: 2%
 <tr>
    <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
    <td>
-<p>任何 </p>   </td>
+<p>任何 </p>  
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
@@ -118,31 +121,76 @@ ht-degree: 2%
 
 1. 单击&#x200B;**创建**。此时将打开所选记录类型的请求表单。
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    默认情况下，请求表单包含以下信息：
 
+   * 所选记录类型的表视图中可用的所有记录字段。
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能尚不可用。
    * 与记录类型关联的所有字段。
 
    向此记录类型提交请求的每个人均可看到请求表单中包含的字段。
 
-1. （可选）删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this step when we connect intake with the Requests area in Workfront-->
-1. 将鼠标悬停在要删除的表单上的任何字段上。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
-1. 单击任意字段，然后使用表单右侧的控件定义有关这些字段的以下任意信息：
+1. （可选）将鼠标悬停在要删除的表单上的任何字段上，然后单击&#x200B;**x**&#x200B;图标以删除它们。 它们已添加到表单左侧的&#x200B;**字段**&#x200B;选项卡中。
+
+   例如，删除&#x200B;**主题**&#x200B;字段，因为此字段在Workfront Planning中不可见。<!--remove this step when we connect intake with the Requests area in Workfront-->
+1. 单击任意字段，然后使用表单右侧的控件定义其大小或以下任何有关字段的信息：
 
    * **标签**：这是显示在请求表单中的字段名称。 这不会更改记录字段的名称。
    * **说明**：添加有关该字段的更多信息。
    * **生成必填字段**：选定后，该字段必须具有值。 否则，无法提交表单。
    * **添加逻辑**：定义必须满足哪些条件才能显示或隐藏字段。
 
-1. 单击表单右侧的“内容元素”选项卡，然后添加以下任意元素：
+1. （可选）单击表单左侧的&#x200B;**内容元素**&#x200B;选项卡，然后添加以下任意元素：
 
-   * 描述性文本
-   * 分节符
+   * **描述性文本**
+   * **分节符**
 
    有关构建自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
+1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
+1. 单击&#x200B;**Publish**&#x200B;发布表单并获取其唯一链接。
 
+   出现以下情况：
+
+   * Publish按钮将被删除。
+   * **取消发布**&#x200B;按钮已添加到表单中。 单击此按钮将阻止访问表单。
+   * **共享**&#x200B;按钮已添加到表单。
+
+1. 单击&#x200B;**共享**&#x200B;以与他人共享表单。
+
+   ![](assets/share-box-for-request-form.png)
+
+1. 从以下选项中进行选择，以指示哪些类型的用户可以访问此表单：
+
+   * 任何对工作区具有查看或更高访问权限的人员
+   * 任何对工作区具有贡献或更高访问权限的人员
+   * 任何知道链接的人
+
+   >[!IMPORTANT]
+   >
+   >当您选择“具有此链接的任何人”时，任何人，甚至组织外部没有Workfront帐户的人员，都可以访问表单并提交新记录。
+
+1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期，然后才能再次访问表单。 <!--add info here about how long the expiration date should be; logged bug-->
+
+1. 单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。
+
+   表单共享选项已保存，并且链接已复制到您的剪贴板。 您现在可以与其他人共享。
+
+   有关使用请求表单链接创建记录的信息，请参阅[提交Adobe Workfront Planning请求](/help/quicksilver/planning/requests/submit-requests.md)。
+
+1. 单击屏幕右下角的&#x200B;**保存**&#x200B;以保存表单。
+1. 单击标题中表单名称左侧的向左箭头以关闭表单。
+
+   此时将打开记录类型页面。
+1. （可选）单击标题中记录类型名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后执行以下操作之一：
+   * 单击&#x200B;**更新请求表单**&#x200B;以更改请求表单。
+   * 单击&#x200B;**复制请求表单的链接**&#x200B;以与其他人共享该表单的链接。
+
+   >[!TIP]
+   >
+   >在这种情况下，会显示链接已公开共享。
 
 
 

@@ -1,20 +1,20 @@
 ---
 title: 管理记录视图
 description: 使用Adobe Workfront Planning时，您可以在表、时间轴或日历视图中显示记录。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# 管理记录视图
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# 管理记录视图
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ ht-degree: 1%
 
 
 ## 访问要求
-
-<!--Updated for GA-->
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -87,7 +85,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <ul><li><p>任意，用于查看Workfront规划信息</p></li>
+   <td> <ul><li><p>用于查看Workfront Planning信息的标准、浅色或参与者</p></li>
    <li><p>Standard，用于创建工作区</p></li></ul>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
