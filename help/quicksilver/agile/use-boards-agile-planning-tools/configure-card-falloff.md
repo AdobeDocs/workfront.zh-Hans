@@ -2,14 +2,14 @@
 filename: configure-card-falloff.md
 content-type: reference
 navigation-topic: boards
-title: 配置信息卡减少
+title: 配置卡片减少
 description: 您可以配置展示板，以便按计划存档信息卡或使其从展示板上脱落。
 author: Lisa
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -22,30 +22,37 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> 
+   <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>或</p>
+   <p>当前： [！UICONTROL Request]或更高版本</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 配置信息卡减少
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+{{step1-to-boards}}
+
 1. 访问展示板。 有关信息，请参阅[创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md)。
 1. 单击展示板右侧的&#x200B;**[!UICONTROL 配置]**&#x200B;以打开“配置”面板。
 1. 展开&#x200B;**[!UICONTROL 卡片]**。

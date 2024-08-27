@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: “展示板入门：文章索引”
+title: “讨论区入门：文章索引”
 description: 阅读这些文章，了解如何在Workfront中使用展示板。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%

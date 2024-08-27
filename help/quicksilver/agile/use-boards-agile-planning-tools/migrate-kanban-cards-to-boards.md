@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: 将敏捷团队Kanban卡迁移到Workfront展示板
+title: 将Agile团队Kanban卡迁移到Workfront展示板
 description: 您可以将工作项从Agile团队Kanban展示板迁移到新的或现有的Workfront展示板。
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,32 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td>
-   <td> <p>任何</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td>
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> 
+   <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>或</p>
+   <p>当前： [！UICONTROL Request]或更高版本</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将Kanban卡迁移到新展示板
 

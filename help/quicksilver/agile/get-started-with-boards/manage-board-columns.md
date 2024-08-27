@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 管理展示板上的列
+title: 管理展示板列
 description: 默认情况下，新展示板包含三列。 您可以添加更多列、更改列的顺序、重命名列以及删除任何不需要的列。 您还可以定义列策略。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 有关对列中的卡片进行排序的信息，请参阅[在展示板中过滤和搜索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 向展示板添加列
 

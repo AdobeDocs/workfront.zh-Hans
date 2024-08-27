@@ -9,10 +9,10 @@ description: 您可以使用Adobe Workfront展示板连接器自动执行Workfro
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此连接器当前位于Beta中。
+>板融合连接器处于Beta状态。 因此，对该连接器的支持有限，并且可能会由于主板未来的发展而发生更改。 此外，GraphQL API可能会有更改，恕不另行通知，这可能会影响您的Fusion连接器过程。
 
 Adobe Workfront展示板是一种灵活的工具，通过提供对包含列和卡片的共享展示板的访问，允许团队协作。
 

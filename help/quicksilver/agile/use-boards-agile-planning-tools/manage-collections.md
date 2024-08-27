@@ -7,9 +7,9 @@ description: 工作流是一组可配置的展示板和卡片，用于协作处�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -34,20 +34,24 @@ ht-degree: 1%
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> 
+   <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>或</p>
+   <p>当前： [！UICONTROL Request]或更高版本</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

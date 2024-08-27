@@ -6,9 +6,9 @@ description: '[!UICONTROL 展示板]仪表板显示您有权访问展示板的�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> 
    <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
    <p>或</p>

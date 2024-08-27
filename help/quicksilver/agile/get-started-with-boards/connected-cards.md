@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 在展示板上使用连接的信息卡
+title: 在展示板上使用连接的卡片
 description: 您可以在展示板上添加一张信息卡，该信息卡连接到Workfront中的现有任务和问题。
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ ht-degree: 0%
 
 ## 添加连接的卡片
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 展示板]**。
+{{step1-to-boards}}
+
 1. 访问展示板。 有关信息，请参阅[创建或编辑展示板](../../agile/get-started-with-boards/create-edit-board.md)。
 1. 单击&#x200B;**[!UICONTROL 添加卡片] > [!UICONTROL 连接的卡片]**。
 1. 选择一个项目，然后选择要作为信息卡添加到展示板上的任务或问题。

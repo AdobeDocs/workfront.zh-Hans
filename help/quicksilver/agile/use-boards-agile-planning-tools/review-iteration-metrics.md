@@ -7,9 +7,9 @@ description: 量度可用于工作流中迭代流程展示板上的每个迭代�
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,32 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> 
+   <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>或</p>
+   <p>当前： [！UICONTROL Request]或更高版本</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在迭代展示板上查看迭代量度
 
