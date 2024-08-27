@@ -224,9 +224,8 @@ This article describes how you can share a view with others. For information abo
 
    视图以人员图标![](assets/view-shared-with-others-people-icon.png)更新，表示该视图现在与其他用户共享。
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
 
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
@@ -268,8 +267,7 @@ This article describes how you can share a view with others. For information abo
 
    视图会以全局图标![](assets/public-shared-view-icon-highlighted.png)更新，以指示该视图已公开共享。
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
 
