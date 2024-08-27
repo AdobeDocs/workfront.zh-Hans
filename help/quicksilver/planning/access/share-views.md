@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -273,29 +273,27 @@ This article describes how you can share a view with others. For information abo
 
 1. （可选）将您复制的链接粘贴到电子邮件、聊天消息、文档或Workfront注释中，以便与其他人共享。
 
-<!--
-## Grant permissions to a view from a permission request
+## 通过权限请求向视图授予权限
 
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+如果用户访问指向没有权限的视图的链接，则可以请求该视图的权限。 所有对视图具有“管理”权限的用户都会收到权限请求，并且可以授予或拒绝权限。
 
-1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. （视情况而定）如果您是视图的管理者，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
-   The **Pending access requests** box displays. 
+   * 应用程序内通知
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * 电子邮件通知
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
+或
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   显示&#x200B;**待处理访问请求**&#x200B;框。
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 选择要批准或拒绝权限的用户，然后单击&#x200B;**全部批准**&#x200B;或&#x200B;**全部拒绝**。
+1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。
+
+   如果您批准了请求，用户将添加到视图的共享框中。 请求权限的用户会收到一封电子邮件，确认其请求已被批准。<!--will they also get an in-app notification??-->
 
 ## 删除视图的权限
 

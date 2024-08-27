@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 1%
@@ -377,5 +377,5 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * [Adobe Workfront Planning API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构，简化与Planning的生成集成。
 
-* Workfront Planning报表功能：您现在可以使用Workfront Canvas Dashboard在Workfront的报表中查看Workfront Planning信息。 有关信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
+* **Workfront Planning报告功能**：您现在可以使用Workfront Canvas Dashboard在Workfront的报告中查看Workfront Planning信息。 有关信息，请参阅[画布功能板入门](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)。
 

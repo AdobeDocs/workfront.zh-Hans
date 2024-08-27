@@ -1,19 +1,18 @@
 ---
 title: 提交Adobe Workfront规划请求
 description: 当有人从Adobe Workfront Planning中的记录类型页面与您共享指向请求表单的链接后，您可以添加请求以创建与请求表单关联的记录类型的记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # 提交Adobe Workfront Planning请求以创建记录
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 当有人从Adobe Workfront Planning中的记录类型页面与您共享指向请求表单的链接后，您可以添加请求以创建与请求表单关联的记录类型的记录。
 
 Workfront用户和外部用户可以向Planning记录类型提交请求并创建记录。<!--double check on the external users-->
+
+本文介绍了如何提交请求以将新记录添加到记录类型。
+
+有关工作区管理员如何创建请求表单并将其与记录类型关联的信息，请参阅[在Adobe Workfront规划中创建和管理请求表单](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## 访问要求
 
@@ -57,7 +60,6 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    <td>
 <p>任何 </p>  
 <p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>
@@ -110,7 +112,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 * 必须以您可以访问链接的方式与链接共享请求表单。 存在以下情况：
 
    * 如果您拥有Workfront帐户，则该链接仅与内部人员共享，并且您有权访问工作区。 Workfront外部的人员无法访问内部共享的链接。
-   * 如果您没有Workfront帐户，则该链接已与外部人员共享。 Workfront用户还可以使用与外部人员共享的链接。
+   * 如果您没有Workfront帐户，则该链接已与外部人员共享。 Workfront用户还可以访问与外部人员共享的链接。
 
 * 指向表单的链接不得过期。
 

@@ -1,11 +1,13 @@
 ---
 title: 请求访问视图或Workspace的权限
 description: 您可以请求对其他人向您发送了先前未与您共享的链接的视图或工作区的权限。
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ role: User, Admin
 
    * [共享视图](/help/quicksilver/planning/access/share-views.md)
    * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
-1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到一封电子邮件通知，用于确认权限已被授予或拒绝。<!--check this - I was not able to test this-->
+1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this-->
 
 

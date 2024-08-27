@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2786'
 ht-degree: 3%
 
 ---
@@ -180,6 +180,7 @@ OLD:
    * [过滤器](#add-filters)
    * [分组](#add-groupings)
    * [排序](#add-a-sort)
+   * [启用实时在线状态指示器](#enable-the-real-time-presence-indicator)
 
 
 ### 添加列（或字段） {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### 启用实时在线状态指示器
+
+默认情况下，与编辑记录信息的其他用户头像将显示在所有记录视图的右上角。
+
+显示表格视图时，还可以查看查看查看记录时其他用户正在编辑的字段。
+
+有关详细信息，请参阅文章[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)中的“启用实时显示状态指示器”部分。

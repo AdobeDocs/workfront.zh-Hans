@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -186,29 +186,27 @@ OLD:
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问工作区。
 1. 单击&#x200B;**保存**。
 
-<!--
-## Grant permissions to a workspace from a permission request
+## 通过权限请求向工作区授予权限
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+如果用户访问指向工作区的链接，但无权访问该工作区，则可以请求对该工作区的权限。 所有对工作区具有“管理”权限的用户都会收到权限请求，并且可以授予或拒绝权限。
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. （视情况而定）如果您是工作区的管理员，则可能会收到其他用户发出的访问以下区域中的视图的请求：
 
-   The **Pending access requests** box displays. 
+   * 应用程序内通知
+     ![](assets/in-app-notification-for-access-request.png)
+   * 电子邮件通知
+     ![](assets/email-notification-for-access-request.png)
+1. （视情况而定）在Workfront的通知区域中，单击应用程序内通知
+或
+在电子邮件通知中，单击**查看所有通知**，然后单击列表中的通知。
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   显示&#x200B;**待处理访问请求**&#x200B;框。
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 选择要批准或拒绝权限的用户，然后单击&#x200B;**全部批准**&#x200B;或&#x200B;**全部拒绝**。
+1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。
+
+   如果您批准了请求，则用户将添加到工作区的共享框中。 请求权限的用户会收到一封电子邮件，确认其请求已被批准。<!--will they also get an in-app notification??-->
 
 
 ## 删除对工作区的权限

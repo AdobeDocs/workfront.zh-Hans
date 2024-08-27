@@ -1,10 +1,11 @@
 ---
 title: “Adobe Workfront规划请求：文章索引”
 description: 您可以为每种记录类型创建一个请求表单，与用户共享，用户可以通过填写并提交表单来添加新记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 # Adobe Workfront规划请求：文章索引
 
 您可以为每种记录类型创建一个请求表单，与用户共享，用户可以通过填写并提交表单来添加新记录。
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 本节包含以下文章：
 

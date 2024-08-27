@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [使用Adobe Workfront Planning时的许可证类型概述](planning/access/license-type-overview.md)
       * [共享工作区](planning/access/share-workspaces.md)
       * [共享视图](planning/access/share-views.md)
+      * [请求对视图或工作区的权限](planning/access/request-permissions.md)
    * Adobe Workfront计划记录{#adobe-workfront-planning-records}
       * [记录：文章索引](planning/records/records-information.md)
       * [创建记录](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [管理记录页面布局](planning/records/manage-the-record-page.md)
       * [管理Adobe Workfront对象“计划”部分中的记录](planning/records/manage-records-in-planning-section.md)
       * [导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront计划请求{#adobe-workfront-planning-requests}
+      * [Adobe Workfront规划请求：文章索引](planning/requests/requests-article-index.md)
+      * [在Adobe Workfront Planning中创建和管理申请表单](planning/requests/create-request-form.md)
+      * [提交Adobe Workfront Planning请求以创建记录](planning/requests/submit-requests.md)
    * Adobe Workfront Planning视图{#adobe-workfront-planning-views}
       * [视图：文章索引](planning/views/views-information.md)
       * [管理记录视图](planning/views/manage-record-views.md)

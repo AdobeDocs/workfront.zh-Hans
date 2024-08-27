@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '6729'
+source-wordcount: '7338'
 ht-degree: 0%
 
 ---
@@ -63,85 +63,119 @@ ht-degree: 0%
 
 *测试版和早期发布阶段仅向部分客户提供。
 
-<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
+
+## 2024年8月26日起一周
+
+### Adobe Workfront Planning正式发布
+
+预览和生产版本： 2024年8月28日
+
+除了Workfront许可证外，所有购买了Workfront Planning许可证的客户都可使用Workfront Planning。 有关购买Workfront Planning的更多信息，请与您的客户代表联系。
+
+有关2024年8月28日之后发布到Workfront Planning的功能的信息，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+### Workfront Planning现已在“预览”中可用
+
+预览： 2024年8月28日
+
+随着Workfront Planning的正式发布，“预览”环境中现在包含了Workfront Planning功能。
+
+### 新的Adobe Workfront规划包和对象限制
+
+预览和生产： 2024年8月28日
+
+根据以下两个包，我们对Workfront Planning对象实施了新限制：
+
+* Workfront Planning允许您：
+
+   * Unlimited工作区
+
+   * 每个工作区25,000条记录
+
+   * 您的实例的总记录数为500,000
+
+* Workfront Planning Plus允许您：
+
+   * Unlimited工作区
+
+   * 每个工作区500,000条记录
+
+   * 您的实例总计有200万条记录。
+
+有关详细信息，请参阅[Adobe Workfront规划对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
+
+### 为访问请求启用Workfront Planning通知
+
+预览和生产： 2024年8月28日
+
+当您请求访问工作区或视图时，您请求访问的用户将收到有关该请求的电子邮件通知。 在请求被批准后，您将收到一封电子邮件通知，确认您的请求已被批准。
+
+授予权限后，您可以从电子邮件通知访问视图或工作区。 <!--see if they also get an in-app notification-->
+
+有关信息，请参阅[请求对视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
+
+### 定义公式字段值的格式
+
+预览和生产： 2024年8月28日
+
+作为工作区管理员，您现在可以为公式字段中显示的值定义格式。 您可以从以下格式中进行选择：
+
+* 单行文本
+* 数字
+* 百分比
+* 货币
+* 日期
+* 标记
+
+有关信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)的“公式”部分。
+
+### 为访问请求启用Workfront Planning通知
+
+预览和生产： 2024年8月28日
+
+当您请求访问工作区时，您请求访问的用户将收到有关该请求的电子邮件通知。 请求被批准后，您将收到一封电子邮件通知，其中包含确认或拒绝您的请求。 授予权限后，您可以从电子邮件通知访问视图或工作区。
+
+有关信息，请参阅[请求对视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
+
+### 记录视图中的实时状态指示器
+
+预览和生产： 2024年8月28日
+
+为了了解其他用户在使用视图时编辑了哪些信息，我们为Workfront规划的此领域引入了实时在线状态指示器。
+
+现在，由其他用户编辑的字段将在表视图中突出显示，并且您将在所有视图的右上角看到其他用户的头像。
+
+有关信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
+
+### 通过提交请求创建记录
+
+预览： 2024年8月21日
+
+生产日期： 2024年8月28日
+
+您现在可以通过向与记录类型关联的请求表单提交请求来创建记录。
+
+此更新中包含以下功能：
+
+* 作为工作区管理员，您可以创建请求表单并将其与记录类型关联。 您可以与其他人（包括外部用户）共享此表单的链接。
+
+* 当用户访问表单、填写表单并提交请求时，将会为与请求表单关联的记录类型创建记录。
+
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+### 可通过外部字段引用Workfront Planning记录
+
+预览和生产： 2024年8月28日
+
+随着Workfront Planning公共API的发布，您现在可以在Workfront自定义表单的外部字段中引用Planning记录。
+
+有关信息，请参阅以下文章：
+
+* [自定义表单中的外部查找字段示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [Adobe Workfront规划API基础知识](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--
-
-## Week of August 26, 2024
-
-### General availability of Adobe Workfront Planning
-
-Preview and Production release: August 28, 2024
-
-Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about purchasing Workfront Planning.
-
-For information about features released after August 28, 2024 to Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
-### New Adobe Workfront Planning packages and object limitations 
-
-Preview and Production: August 28, 2024 
-
-We have implemented new limitations for Workfront Planning objects, according to the following two packages:  
-
-* Workfront Planning allows you to have: 
-
-    * Unlimited workspaces 
-
-    * 25,000 records per workspace 
-
-    * 500,000 total records for your instance 
-
-* Workfront Planning Plus allows you to have: 
-
-    * Unlimited workspaces 
-
-    * 500,000 records per workspace 
-
-    * 2 million total records for your instance. 
-
-For more information, see [Adobe Workfront Planning object limitation overview](/help/quicksilver/planning/general/limitations-overview.md). 
-
-### Enable Workfront Planning notifications for access requests  
-
-Production and Preview: August 28, 2024 
-
-When you request access to a workspace or a view, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
-
-For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
-
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
-
-Production: August 28, 2024 
-
-Preview: To be determined 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
-### Define format for formula field values
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
-
-* Single-line text 
-* Number 
-* Percentage 
-* Currency 
-* Date
-* Tags
-
-For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### AI Assistant has been re-enabled
-
-Production and Preview: August 28, 2024
-
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
-
-For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
-
 ### New Settings menu in the Calendar view
 
 Preview and Production: August 28, 2024 
@@ -165,14 +199,23 @@ There is a new Settings option with which you can personalize the look and feel 
  When matching colors to a certain field, you can select only fields with color-coded options. 
 
  For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+
+### The AI Assistant has been re-enabled for Workfront Planning
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
  
-### Real-time presence indicators in the table view 
 
-Preview and Production: August, 2024
+### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
-To understand what information is edited by other users when working in the table view, we have introduced user real-time presence indicators for this area of Workfront planning. The field edited by another user will now be highlighted and the other user's avatar will be visible to you in the upper-right corner of the table view. 
+Production and Production: August 28, 2024 
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+
 -->
 
 ## 2024年8月19日起一周

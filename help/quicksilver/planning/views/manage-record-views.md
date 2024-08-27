@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 1%
 * [创建和编辑视图](#create-or-edit-record-views)
 * [删除视图](#delete-views)
 * [复制视图](#duplicate-views)
+* [在视图中启用实时状态指示器](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ ht-degree: 1%
 
    视图重复，新视图的名称遵循以下模式： `Original view's name (Copy)`。 新的视图选项卡将显示在所有视图选项卡的末尾。
 
+## 在视图中启用实时显示状态指示器
+
+默认情况下，与编辑记录信息的其他用户头像将显示在所有记录视图的右上角。
+
+显示表格视图时，还可以查看查看查看记录时其他用户正在编辑的字段。
+
+1. 转到记录类型页面并打开任意视图。
+1. （视情况而定）如果同时有其他用户编辑所选类型的记录，则其头像将显示在视图的右上角。
+1. 单击头像旁边的下拉菜单，然后选择&#x200B;**显示协作者**&#x200B;切换开关。 默认情况下，该切换处于选中状态。
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. （视情况而定）打开一个表格视图，另一个人正在编辑的字段会以与其在表格视图中头像的轮廓相对应的颜色列出。
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 已编辑的字段仅在表格视图中列出。

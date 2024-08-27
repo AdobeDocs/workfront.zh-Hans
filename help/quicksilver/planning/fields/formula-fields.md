@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 7%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * 保存公式字段后，您可以更新公式字段的计算，计算结果将自动更新相同类型的所有记录。
 * 您必须添加您在公式中引用的字段，这些字段在Workfront Planning界面中显示。
 * 您只能引用在记录类型的表视图或记录详细信息页面中显示的字段。
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* 通过从以下格式选项中进行选择，可以定义公式计算值的格式：
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * 文本
+   * 数字
+   * 百分比
+   * 货币
+   * 标记
+   * 日期
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  有关详细信息，请参阅文章[创建字段](/help/quicksilver/planning/fields/create-fields.md)中的“公式”部分。
 
 ## 支持的公式
 

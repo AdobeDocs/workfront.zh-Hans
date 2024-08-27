@@ -1,12 +1,13 @@
 ---
 title: 在Adobe Workfront Planning中创建和管理申请表单
 description: 在Adobe Workfront Planning区域中选择记录类型后，您可以创建请求表单并将其与该记录类型关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。 具有表单链接的用户可以填写表单上的字段值，通过提交表单，他们可以为与表单关联的记录类型添加新记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-在Adobe Workfront Planning区域中选择记录类型后，您可以创建请求表单并将其与该记录类型关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。<!--double-check on the external part of it-->
+您可以创建请求表单，并将其与Adobe Workfront Planning中的记录类型相关联。 然后，您可以与其他内部或外部用户共享指向该页面的链接。
 
-具有表单链接的用户可以填写表单上的字段值，通过提交表单，他们可以为与表单关联的记录类型添加新记录。
+具有表单链接的用户可以更新表单上的字段值，并通过提交来添加新记录。
+
+本文介绍了工作区管理员如何创建与记录类型关联的请求表单。
+
+有关向记录类型提交请求以创建记录的信息，请参阅[提交Adobe Workfront Planning请求以创建记录](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 访问要求
 
@@ -170,9 +175,11 @@ ht-degree: 2%
 
    >[!IMPORTANT]
    >
-   >当您选择“具有此链接的任何人”时，任何人，甚至组织外部没有Workfront帐户的人员，都可以访问表单并提交新记录。
+   >当您选择&#x200B;**具有链接**&#x200B;的任何人时，任何人都可以访问表单并提交新记录，甚至包括您组织外没有Workfront帐户的人员。
 
-1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期，然后才能再次访问表单。 <!--add info here about how long the expiration date should be; logged bug-->
+1. （视情况而定）如果您在上一步中选择了&#x200B;**具有链接**&#x200B;的任何人，请从可用日历中选择&#x200B;**链接到期日期**。 链接过期后，用户会收到错误消息，您必须更新链接日期，然后才能再次访问表单。
+
+   您可以选择自当前日期起180天内的将来日期。
 
 1. 单击&#x200B;**保存并复制链接**&#x200B;以保存表单的共享详细信息。
 
@@ -191,6 +198,7 @@ ht-degree: 2%
    >[!TIP]
    >
    >在这种情况下，会显示链接已公开共享。
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

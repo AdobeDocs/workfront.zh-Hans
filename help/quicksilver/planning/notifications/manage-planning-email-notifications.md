@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 1%
 当存在以下情况时，您可以从Workfront Planning接收电子邮件通知：
 
 * 有人在记录评论中标记您
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->贵公司必须是AdobeUnified Experience客户才能接收来自Workfront Planning的通知。
->
->有关信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
-有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
+  有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
+* 有人要求您授予访问视图或工作区的权限
+* 有人确认已授予您查看或工作区的访问权限<!--verify this-->
+* 有人已拒绝您访问视图或工作区。<!--verify this-->
 
 ## 访问要求
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## 管理电子邮件通知<!--when someone tags you in a comment-->
+## 当有人在评论中标记您时管理电子邮件通知
 
 1. （视情况而定）当有人在记录上的评论中标记您后，转到通知您标记和评论的电子邮件通知。 电子邮件的发件人为Adobe Experience Cloud。
 
@@ -173,8 +165,6 @@ OLD:
 1. （视情况而定）如果可用，请单击&#x200B;**查看所有通知**。 <!--check with Lilit - do non-IMS users have this button??-->
 将在Adobe Experience Cloud中打开**通知**&#x200B;页面。 将显示来自所有Adobe Experience Cloud应用程序的所有通知。
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## 在请求、授予或拒绝对视图或工作区的权限时管理电子邮件通知
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+有关请求、授予或拒绝视图或工作区的权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。

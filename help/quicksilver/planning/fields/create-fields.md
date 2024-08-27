@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 1%
 
 ---
@@ -449,34 +449,31 @@ OLD:
    >
    >* 您可以引用与当前记录类型相距最多4级的字段。 例如，如果要为活动记录类型创建公式字段，并且活动连接到产品记录类型，而产品记录类型连接到市场活动记录类型，而市场活动记录类型连接到Workfront项目，则可以在为活动记录类型创建的公式中引用项目的预算。
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. 在&#x200B;**格式**&#x200B;字段中，从以下选项中进行选择，以标识公式类型字段中显示的结果的格式：
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **文本**：公式字段的结果显示为纯文本。
+   * **数字**：公式字段的结果显示为数字。
+   * **百分比**：公式字段的结果显示为后跟百分比符号的数字。
+   * **货币**：公式字段的结果显示为前面或后面带有货币符号的数字。
+   * **标记**：公式字段的结果显示为带有对象名称的标记。
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >我们建议为显示数组的字段使用标记。 在这种情况下，每个数组成员都显示为单独的标记。
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **日期**：公式字段的结果显示为日期。
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     在&#x200B;**格式**&#x200B;字段下将显示结果预览。
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >如果公式的结果与所选格式不匹配，则字段将显示错误消息。
 
--->
 1. 单击&#x200B;**创建**。
 
    新的公式字段作为列添加到记录类型，其值可以与记录相关联。
-
 
 ### 人员
 
