@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 2%
 Adobe Workfront Planning API的目标是通过引入通过HTTP运行的REST-ful架构来简化与Planning的构建集成。 本文档假定您熟悉REST和JSON响应，并介绍了Planning API采用的方法。
 
 熟悉Workfront Planning架构将有助于了解可用于从Workfront Planning中提取数据以进行集成的数据库关系。
+
+您可以从Workfront自定义表单中的外部查找字段调用Planning API。
+
+有关外部查找字段的详细信息，请参阅自定义表单中外部查找字段的[示例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)。
 
 ## Workfront规划API URL
 
