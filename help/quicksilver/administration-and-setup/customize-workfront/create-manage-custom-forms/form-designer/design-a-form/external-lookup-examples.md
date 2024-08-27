@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ ht-degree: 0%
 1. 单击&#x200B;**应用**。
 
    将自定义表单添加到Workfront对象后，“组合颜色”字段中的所有值都会显示在外部查找字段下拉列表中。
+
+## 为Workfront计划API设置外部查找字段
+
+[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)中提供了一个终结点，用于通过Get方法按记录类型ID搜索记录。 您可以使用此端点在外部查找字段中引用Planning记录。
+
+* **基本API URL：** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **HTTP方法：** Get
+* **JSON路径：** `$.records[*].data.{fieldID}`
+
+  **{fieldID}**&#x200B;是要在最终用户自定义表单的外部查找搜索结果中显示的字段。
 
 ## 为公共API设置外部查找字段
 
