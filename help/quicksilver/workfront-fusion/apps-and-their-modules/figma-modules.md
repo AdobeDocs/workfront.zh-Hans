@@ -9,9 +9,9 @@ description: 使用 [!DNL Adobe Workfront Fusion] Figma模块，您可以检索�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * [列出注释](#list-comments)
 
-* [Post评论](#post-a-comment)
+* [发表评论](#post-a-comment)
 
 
 #### [!UICONTROL 删除评论]
@@ -156,7 +156,7 @@ ht-degree: 0%
 </table>
 
 
-#### [!UICONTROL Post评论]
+#### [!UICONTROL 发表评论]
 
 此操作模块向Figma文件发布评论。
 
@@ -363,7 +363,7 @@ ht-degree: 0%
       <td>选择要从中返回JSON的文件。</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>节点编号]</td>
+      <td role="rowheader">[！UICONTROL节点ID]</td>
       <td>
         <p>输入您希望模块呈现的节点。</p>
         <p>对于要渲染的每个节点，单击<b>[！UICONTROL添加]</b>并输入节点的文本。</p>

@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook]加载项允许您直接从O
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 Workfront支持[!DNL Outlook]的以下版本：
 
 * [!DNL Outlook 2013]或更高版本（在[!DNL Windows]）
-*[!DNL  Outlook 2016]或更高版本（在[!DNL Windows]）
+* [!DNL Outlook 2016]或更高版本（在[!DNL Windows]）
 * [!DNL Mac]上的[!DNL Outlook] ([!DNL Microsoft 365])
 * [!DNL Windows]上的[!DNL Outlook] ([!DNL Microsoft 365])
 * [!DNL Outlook]在Web上
@@ -90,7 +90,7 @@ Workfront支持[!DNL Outlook]的以下版本：
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]&#x200B; &#x200B;****&#x200B;如果客户端配置为连接POP3或IMAP，则无法加载[!DNL Workfront]加载项。
+* [!DNL Outlook.com]如果客户端配置为使用POP3或IMAP连接，则无法加载[!DNL Workfront]加载项。
 
 ### 邮件服务器要求 {#mail-server-requirements}
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 将问题转化为任务时]</td> 
+    <td role="rowheader">[！UICONTROL将问题转化为任务时]</td> 
     <td> <p>此部分中的设置确定在从问题到任务的转换过程中发生的情况：</p> 
       <ul> 
       <li> <p><strong>[！UICONTROL保留原始问题并将其解决方案与任务绑定]</strong>：在转换问题时，在任务完成之前，它始终被视为问题。 任务完成后，问题的状态自动更改为[！UICONTROL Closed]。 取消选择后，问题将被删除。</p> <p><b>注释</b>：  <p>无权删除问题的用户将无法删除问题，因为他们正在转换问题，无论此设置的状态如何。 有关对问题的访问和权限的信息，请参阅：</p> 

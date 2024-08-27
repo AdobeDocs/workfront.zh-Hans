@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ This article describes how you can share a view with others. For information abo
 
    >[!TIP]
    >
-   没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
+   >没有人员或全局图标的视图是您创建的视图，不会与他人共享。 非共享视图仅对您可见。
 
 1. 与他人共享复制的链接。 接收链接的用户必须是活动用户并登录到Workfront才能访问记录类型页面并在选定视图中显示该页面。
 
@@ -236,7 +236,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!IMPORTANT]
 >
-只有对工作区具有管理权限的用户才能公开共享工作区的视图。
+>只有对工作区具有管理权限的用户才能公开共享工作区的视图。
 
 
 要在Workfront Planning中公开共享视图，请执行以下操作：

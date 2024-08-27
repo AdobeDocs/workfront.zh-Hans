@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -176,11 +176,11 @@ ht-degree: 0%
 
 * 预算管理器将被新的资源规划者替换
 
-  有关详细信息，请参阅[Adobe Workfront中的资源规划](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) [.](https://support.workfront.com/hc/en-us/sections/115001049327)
+  有关详细信息，请参阅[Adobe Workfront中的资源规划](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)。
 
 * 资源网格将被新的资源规划者替换
 
-  有关详细信息，请参阅[[Adobe Workfront中的资源规划](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)。](https://support.workfront.com/hc/en-us/sections/115001049327)
+  有关详细信息，请参阅[Adobe Workfront中的资源规划](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 * 业务案例上的资源估计将由资源规划者中业务案例的新资源预算编制部分替换
 

@@ -6,9 +6,9 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**授予&lt;对象名称>访问**&#x200B;框中，开始键入要与其共享对象的用户、团队、角色、组或公司的名称，然后在名称出现在下拉列表中时单击该名称。
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ ht-degree: 0%
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   “查看”、“管理”和“Contribute”都具有不同的高级选项，具体取决于所选对象。\
+   “查看”、“管理”和“Contribute”都具有不同的高级选项，具体取决于所选对象。
+
    有关权限级别的详细信息，请参阅[对象权限共享概述](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. （可选）要使此对象对系统中的所有用户都可用，请单击&#x200B;**谁具有访问权限**&#x200B;下的下拉菜单，然后在下拉菜单中，单击&#x200B;**系统中的每个人都可以查看**。
@@ -187,7 +188,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**授予&lt;对象名称>访问**&#x200B;框中，开始输入要与其共享对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ ht-degree: 0%
    >
    >此选项并非对所有对象都可用。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （视情况而定）如果将对象公开给外部用户，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 
@@ -254,11 +255,11 @@ ht-degree: 0%
 
 1. 单击要共享的对象旁边的复选框，然后单击页面顶部的&#x200B;**共享图标** ![](assets/share-icon.png)。
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. 在出现的&#x200B;**&lt; Object > Access**&#x200B;窗口中，开始在&#x200B;**编辑&lt; Object Name > access for**&#x200B;框中输入要与其共享对象的用户、团队、角色、组或公司的名称，然后在该名称出现在下拉列表中时单击该名称。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ ht-degree: 0%
      >
      >您只能将Contribute权限授予以下对象：
      >
-     >   * 项目
-     >   * 任务
-     >   * 问题
-     >  
+     >* 项目
+     >* 任务
+     >* 问题
+     >
 
    * **管理：**&#x200B;用户拥有对象的完全访问权限，但没有管理权限（这些权限在访问级别被授予）。 此外，他们还具有所有“查看”和“Contribute”权限。
 
@@ -328,7 +329,7 @@ ht-degree: 0%
    >
    >此选项并非对所有对象都可用。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （视情况而定）如果将对象公开给外部用户，请单击&#x200B;**复制链接**，然后将该链接分发给外部用户。
 

@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ ht-degree: 0%
    >[!NOTE]
    >
    >**[!UICONTROL 自定义用户看到的内容]**&#x200B;下拉列表（[!UICONTROL 列表]、[!UICONTROL 主页和摘要]以及[!UICONTROL 品牌]）中的最后3个项目用于配置左侧面板以外的区域。 有关这些报表包的信息，请参阅以下文章：
->   >   
-* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [使用布局模板自定义[!UICONTROL 主页]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* 使用布局模板[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [使用布局模板自定义[!UICONTROL 主页]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* 使用布局模板[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （可选）如果要添加链接到贵组织某个功能板的左侧面板项，请单击&#x200B;**[!UICONTROL 添加自定义分区]**，为该项键入一个&#x200B;**[!UICONTROL 自定义分区标题]**，然后添加该功能板。
@@ -214,7 +214,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   用户可以将自定义功能板项目添加到他们自己的左侧面板。 在布局模板中添加自定义仪表板项目时，项目会与其合并，而不会覆盖或重置它们。 如果将用户分配给具有自定义仪表板项目的新布局模板，也是如此。 有关用户如何自定义左侧面板的信息，请参阅[创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
+   >用户可以将自定义功能板项目添加到他们自己的左侧面板。 在布局模板中添加自定义仪表板项目时，项目会与其合并，而不会覆盖或重置它们。 如果将用户分配给具有自定义仪表板项目的新布局模板，也是如此。 有关用户如何自定义左侧面板的信息，请参阅[创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
 
    有关功能板的信息，请参阅[功能板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
 
@@ -226,4 +226,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   您可以随时单击[!UICONTROL 保存]以保存进度，然后稍后继续修改模板。
+   >您可以随时单击[!UICONTROL 保存]以保存进度，然后稍后继续修改模板。
