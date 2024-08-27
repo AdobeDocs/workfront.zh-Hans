@@ -1,30 +1,19 @@
 ---
 title: 管理时间线视图
 description: 在Adobe Workfront Planning记录类型页面的时间轴视图中访问和编辑记录。 使用筛选器、分组和设置自定义时间轴。 使用“划分”功能显示连接的记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # 管理时间线视图
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ role: User
 
 ## 访问要求
 
-<!--Updated for GA-->
++++ 展开以查看Workfront Planning的访问要求。
 
-+++ 展开以查看本文中各项功能的访问要求。
-
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件才能访问Workfront Planning：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ role: User
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <ul><li><p>任意，用于查看Workfront规划信息</p></li>
-   <li><p>Standard，用于创建工作区</p></li></ul>
+   <td><p> 标准 </p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ role: User
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看或更高的视图权限以临时更改视图设置</p> </td> 
+   <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>布局模板</p></td> 
@@ -102,6 +88,8 @@ role: User
 </table>
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ role: User
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## 管理时间线视图 {#manage-a-timeline-view}
 

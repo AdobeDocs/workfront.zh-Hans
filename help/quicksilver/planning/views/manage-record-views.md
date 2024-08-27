@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 1%
 
 ## 访问要求
 
-+++ 展开以查看本文中各项功能的访问要求。
++++ 展开以查看Workfront Planning的访问要求。
 
-您必须具有以下权限才能执行本文中的步骤：
+您必须具备以下条件才能访问Workfront Planning：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
-   <td> <ul><li><p>用于查看Workfront Planning信息的标准、浅色或参与者</p></li>
-   <li><p>Standard，用于创建工作区</p></li></ul>
+   <td><p> 标准 </p>
    <p>Workfront计划不适用于旧版Workfront许可证</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
    <td>   <p>管理视图的权限</p>  
-   <p>查看或更高的视图权限以临时更改视图设置</p> </td> 
+   <p>查看对视图的权限以临时更改视图设置</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>布局模板</p></td> 

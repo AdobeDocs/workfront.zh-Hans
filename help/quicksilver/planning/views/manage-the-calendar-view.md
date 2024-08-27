@@ -1,30 +1,19 @@
 ---
 title: 管理日历视图
 description: 您可以在日历视图中显示记录及其字段。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
 
 # 管理日历视图
-
-<!--
-title: Manage the calendar view
-description: You can display records in a calendar view.
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -32,7 +21,77 @@ hide: yes
 
 有关Adobe Workfront Planning视图以及如何管理这些视图的信息，请参阅[管理记录视图](/help/quicksilver/planning/views/manage-record-views.md)。
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+## 访问要求
+
++++ 展开以查看Workfront Planning的访问要求。
+
+您必须具备以下条件才能访问Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 产品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront规划<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> 
+<p>以下任意Workfront计划：</p> 
+<ul><li>选择</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning不适用于旧版Workfront计划</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 标准 </p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>管理视图的权限</p>  
+   <p>查看对视图的权限以临时更改视图设置</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -43,52 +102,52 @@ hide: yes
     <tr>
 <tr>
 <td>
-   <p> 产品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：标准</p>
-   或
-   <p>当前：计划 </p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> Adobe Workfront Planning没有访问控制</p>  
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理视图的权限</p>  
-   <p>查看对视图的权限以临时更改视图设置</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p> 
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 管理日历视图 {#manage-a-calendar-view}
 
@@ -123,8 +182,8 @@ hide: yes
       * 月
 1. 更新以下视图元素，如以下子部分所述：
    * [过滤器](#add-filters)
+   * [设置](#edit-the-calendar-view-settings)
      <!--* [Grouping](#add-grouping)-->
-     <!--* [Settings](#edit-the-calendar-view-settings)-->
      <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
 ### 添加过滤器
@@ -152,3 +211,9 @@ hide: yes
 * 您可以按连接的记录字段或查找字段进行筛选。
 
 * 您可以按显示多个值的查找字段进行筛选。
+
+### 编辑日历视图设置
+
+编辑日历视图设置与编辑时间轴视图的设置相同。
+
+有关详细信息，请参阅文章[管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)中的“编辑时间线视图设置”部分。

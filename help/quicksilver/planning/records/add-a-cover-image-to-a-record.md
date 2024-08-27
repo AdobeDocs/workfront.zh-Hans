@@ -1,19 +1,18 @@
 ---
 title: 将封面图像添加到记录
 description: 编辑记录时，您可以在Adobe Workfront Planning中将封面图像添加到记录页来个性化记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 1%
 
 ---
 
-
-<!--update the metadata with real information-->
 
 # 将封面图像添加到记录
 
@@ -29,10 +28,78 @@ ht-degree: 0%
 
 ## 访问要求
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
-
 +++ 展开以查看Workfront Planning的访问要求。
 
+您必须具备以下条件才能访问Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 产品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront规划<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> 
+<p>以下任意Workfront计划：</p> 
+<ul><li>选择</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning不适用于旧版Workfront计划</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 标准</p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>管理工作区的权限 </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+
+<!--
+
+OLD: 
 <table style="table-layout:auto">
  <col>
  </col>
@@ -42,52 +109,52 @@ ht-degree: 0%
     <tr>
 <tr>
 <td>
-   <p> 产品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新增：标准</p>  
-   <p>当前：计划</p>   
+   <p>New: Standard</p>  
+   <p>Current: Plan</p>   
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Workfront Planning没有访问控制 </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>管理工作区的权限 </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>布局模板</p></td>
-   <td>  <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*有关详细信息，请参阅Workfornt文档](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)中的[访问要求。
+*For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
 ## 有关记录页封面图像的注意事项
 

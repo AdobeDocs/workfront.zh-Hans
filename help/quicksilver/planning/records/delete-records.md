@@ -1,18 +1,18 @@
 ---
 title: 删除记录
 description: 您可以删除您或其他用户创建的记录。 无法恢复已删除的记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 删除记录
 
@@ -24,6 +24,77 @@ ht-degree: 2%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
+您必须具备以下条件才能访问Workfront Planning：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 产品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront规划<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
+   <td> 
+<p>以下任意Workfront计划：</p> 
+<ul><li>选择</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning不适用于旧版Workfront计划</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
+   <td> 
+<p>任何 </p> 
+<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront平台</p></td> 
+   <td> 
+<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront许可证*</p></td> 
+   <td><p> 标准</p>
+   <p>Workfront计划不适用于旧版Workfront许可证</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>访问级别配置</p></td> 
+   <td> <p>Adobe Workfront Planning没有访问级别控制</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>对象权限</p></td> 
+   <td>   <p>Contribute或更高的工作区权限</a> </p>  
+   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>布局模板</p></td> 
+   <td> <p>必须为所有用户(包括Workfront管理员)分配一个布局模板，该模板应包括主菜单中的Planning区域。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
+
+
+<!--
+
+OLD
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -33,58 +104,54 @@ ht-degree: 2%
     <tr>
 <tr>
 <td>
-   <p> 产品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront协议</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>您的组织必须注册到Workfront Planning的早期访问阶段 </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront计划</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任何</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront许可证*</p>
+   <td role="rowheader"><p>Adobe Workfront license*</p>
    </td>
    <td>
-   <p>新增：标准</p>
-   <p>当前：计划</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>访问级别配置</p></td>
-   <td> <p>Adobe Workfront Planning没有访问级别控制 </p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 
-<tr>
-   <td role="rowheader"><p>权限</p></td>
-   <td> <p>Contribute或更高的工作区权限</a> </p>  
-   <p>系统管理员对所有工作区具有权限，包括他们未创建的工作区</p>
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>您的Workfront或组管理员必须在布局模板中添加Planning区域。 有关信息，请参阅<a href="/help/quicksilver/planning/access/access-overview.md">访问概述</a>。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+-->
 
 ## 有关删除记录的注意事项
 

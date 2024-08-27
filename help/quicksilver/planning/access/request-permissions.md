@@ -3,9 +3,9 @@ title: 请求访问视图或Workspace的权限
 description: 您可以请求对其他人向您发送了先前未与您共享的链接的视图或工作区的权限。
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # 请求对视图或工作区的权限
 
 您可以请求对其他人向您发送了先前未与您共享的链接的视图或工作区的权限。
+
+向视图请求权限与向工作区请求权限类似。
 
 ## 访问要求
 
@@ -86,8 +88,10 @@ role: User
   </tr> 
 <tr> 
    <td role="rowheader"><p>对象权限</p></td> 
-   <td>  <p>管理视图的权限</p>  
-   <p>只有对工作区具有管理权限的用户才能公开共享视图。</p></td> 
+   <td>  <p>在授予您的权限请求后，您将获得以下权限：</p>
+   <ul><li><p>查看或管理视图</p></li>
+   <li><p>“查看”、“Contribute”或“管理”工作区</p></li></ul>  
+   <p>只有对工作区和视图具有管理权限的用户才能公开共享视图。</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>布局模板</p></td> 
@@ -100,20 +104,32 @@ role: User
 
 +++
 
-## 请求和授予对视图或工作区的权限
+## 请求对视图或工作区的权限
 
-当有人与您共享指向工作区或您无权访问的视图的链接时，存在以下情况：
+向视图请求权限与向工作区请求权限类似。
+
+当有人与您共享指向您无权访问的工作区或视图的链接时：
 
 1. 单击与您共享的视图或工作区的链接。
 
    显示&#x200B;**您没有访问权限**&#x200B;页面，通知您无权访问视图或工作区。
 
+   ![](assets/request-access-to-view.png)
+
 1. （视情况而定）如果共享的链接用于您有权访问的工作区的视图，请单击&#x200B;**用现有视图打开**。 如果您有权访问工作区，则记录类型页面将在默认视图中打开。
 
-1. （可选）在可用框中添加个性化消息。
+1. （可选且有条件）如果您无权查看工作区，请在可用框中添加个性化消息，然后单击&#x200B;**请求访问**。
 
-1. 单击&#x200B;**请求访问**。
+   所有具有查看或工作区管理权限的用户都会收到以下访问请求通知：
+   * 应用程序内通知
+     ![](assets/in-app-notification-for-access-request.png)
+   * 电子邮件通知
+     ![](assets/email-notification-for-access-request.png)
 
-   所有具有查看或工作区管理权限的用户都会收到您请求的电子邮件通知。
-1. 收到访问请求的电子邮件通知的用户将转到视图或工作区并授予您权限。
-1. 您会收到电子邮件通知，通知您已获得视图或工作区的访问权限。 您可以从电子邮件通知访问视图或工作区。
+   有关向视图和工作区授予权限的信息，请参阅以下文章：
+
+   * [共享视图](/help/quicksilver/planning/access/share-views.md)
+   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到一封电子邮件通知，用于确认权限已被授予或拒绝。<!--check this - I was not able to test this-->
+
+

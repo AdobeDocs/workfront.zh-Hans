@@ -1,11 +1,12 @@
 ---
 title: 创建记录
 description: 使用Adobe Workfront Planning时，记录是记录类型的实例。 您可以在Workfront Planning中为每个记录类型创建唯一记录，方法是：将记录手动添加到表视图中，从列表中导入记录，复制记录，或在将其连接到其他记录时创建记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -36,8 +37,6 @@ ht-degree: 0%
 * [管理时间线视图](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## 访问要求
-
-<!--Updated for GA-->
 
 +++ 展开以查看Workfront Planning的访问要求。
 

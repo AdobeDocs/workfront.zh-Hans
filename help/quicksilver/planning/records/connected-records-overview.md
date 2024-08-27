@@ -1,18 +1,17 @@
 ---
 title: 连接的记录概述
 description: 在记录类型之间创建连接后，可以将各个记录彼此连接。 本文介绍了在Adobe Workfront Planning中连接记录时必须考虑的注意事项。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # 连接的记录概述
 

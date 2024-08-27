@@ -1,17 +1,16 @@
 ---
 title: 工作区概述
 description: 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 您可以在Adobe Workfront Planning中完全自定义工作区，以匹配组织单位的工作流。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 工作区概述
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 工作区是组织单位使用的记录类型的集合，它表示该单位的工作生命周期和流程。 您可以在Adobe Workfront Planning中完全自定义工作区。
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

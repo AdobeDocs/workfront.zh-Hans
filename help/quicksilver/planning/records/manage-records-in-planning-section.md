@@ -1,23 +1,20 @@
 ---
-title: 管理Adobe Workfront对象“计划”部分中的记录
+title: 管理Adobe Workfront对象的“计划”部分中的记录
 description: 您可以在左侧面板的Workfront对象的Planning部分中显示连接到Adobe Workfront对象的Workfront Planning记录。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # 管理Adobe Workfront对象“计划”部分中的记录
 
@@ -34,8 +31,6 @@ ht-degree: 1%
 * Company-->
 
 ## 访问要求
-
-<!--Updated for GA-->
 
 +++ 展开以查看Workfront Planning的访问要求。
 
