@@ -5,23 +5,14 @@ description: 您可以控制组织中哪些访问级别有权访问AI助手。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
 
 # 启用或禁用AI助手
-
->[!IMPORTANT]
->
->目前，AI助手仅面向有限数量的Workfront和Workfront Planning客户提供。
->
->* Workfront： AI Assistant测试版
->* Workfront计划：提前访问
->
->您的客户代表可以通知您您是否属于这些组。
 
 作为Workfront管理员，您可以控制组织中哪些用户启用了AI助手。 这是通过访问级别管理的。
 
@@ -62,7 +53,7 @@ ht-degree: 1%
 
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**访问级别**。
-1. 选择要禁用AI助理的访问级别。
+1. 选择要为其启用AI助理的访问级别。
 1. 在“编辑访问级别”窗口中，向下滚动到窗口底部，然后单击&#x200B;**设置其他限制……**。
 1. 在设置其他限制区域，启用选项&#x200B;**启用Workfront AI助手**。
 1. 单击&#x200B;**保存**。
