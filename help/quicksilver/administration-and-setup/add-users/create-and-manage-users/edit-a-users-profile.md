@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,10 @@ ht-degree: 0%
       <td role="rowheader">首选项 </td> 
       <td> 
        <ul> 
-      <li> <p><b>时区：</b>用户的时区。</p> <p>有关帮助用户在Workfront中跨时区进行协作的信息，请参阅<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>。</p> </li> 
-       <li><b>电子邮件区域设置</b>：用户首选的电子邮件区域设置。 这会影响从Workfront发往此用户的电子邮件中数字和日期的格式。</li>
+      <li> <p><b>时区：</b>用户的时区。</p> <p>有关帮助用户在Workfront中跨时区进行协作的信息，请参阅<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">跨时区工作</a>。</p> </li>
+
+   <li><p><b>电子邮件区域设置</b>：用户首选的电子邮件区域设置。 这会影响从Workfront发往此用户的电子邮件中数字和日期的格式。</p>
+      <p><b>注意：</b>当您的组织使用Unified ExperienceAdobe时，用户的语言首选项将存储在其Adobe配置文件中，并且不使用电子邮件区域设置。 有关访问这些首选项的信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。</p></li>
 
    <li><b>接收来自此测试环境的电子邮件</b>：如果要接收来自当前登录环境的电子邮件通知，请选中此选项。
       <p><b>注释</b></p>

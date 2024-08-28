@@ -6,9 +6,9 @@ description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3319'
 ht-degree: 1%
 
 ---
@@ -220,8 +220,8 @@ ht-degree: 1%
 本节包含以下小节：
 
 * [基本信息](#basic-info)
-* [作业信息](#job-info)
-* [联系人信息](#contact-info)
+* [职位信息](#job-info)
+* [联系信息](#contact-info)
 
 #### [!UICONTROL 基本信息]
 
@@ -339,7 +339,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[！UICONTROL电子邮件区域设置]</strong> </td> 
-   <td>在此处指定首选语言。 这会控制传出电子邮件中使用的语言、日期和数字格式。</td> 
+   <td><p>在此处指定首选语言。 这会控制传出电子邮件中使用的语言、日期和数字格式。</p>
+   <p><strong>注意：</strong>当您的组织位于Unified ExperienceAdobe中时，语言首选项存储在您的Adobe配置文件中，并且不使用电子邮件区域设置。 有关详细信息，请参阅文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支持的语言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">更改Adobe Experience Cloud语言</a>。</p></td> 
   </tr>
 
 <tr> 
