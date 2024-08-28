@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 0%
 >
 
 本文介绍了在2024年第四季度版本中为Workfront计划发布的功能。
+
+有关此版本中包含的功能的信息，请参阅[Adobe Workfront 2024年规划版本活动](/help/quicksilver/planning/general/release-activity.md)。
+
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after fourth quarter 2024 is released-->
@@ -53,4 +56,3 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
-有关在此启动之前发布到Workfront Planning的功能的信息，另请参阅[Adobe Workfront Planning 2024年发布活动](/help/quicksilver/planning/general/release-activity.md)。
