@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront Planning对象类型称为“记录类型”，它们仅在用户创�
 * 在自头创建的工作区中创建记录类型时，可以将记录类型放置到工作区中创建的任何部分中。
 * 在创建记录类型时，只有您和您授予工作区访问权限的用户才能查看记录类型。
 * 必须先创建工作区，然后才能为工作区创建记录类型。
-* 一个工作区中总共可以有1,000个记录类型，无论该工作区有多少节。 这包括从头开始创建的记录类型或使用模板创建的记录类型。
+* 有关在一个工作区或Workfront实例中可以有多少记录类型的限制，请参阅[Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)。
 
 
 <!--

@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -221,11 +221,11 @@ Workfront Planning没有Workfront访问控制。
 
 ## 授予权限
 
-您必须向用户授予您创建的Workfront Planning工作区和视图的权限，用户才能访问这些工作区和视图。
+您必须向用户授予Workfront Planning工作区和您为其创建的视图的权限才能访问它们。
 
 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
-您的Adobe Workfront许可证类型可与Workfront Planning权限配合使用，让您有权查看、贡献或管理Workfront Planning对象。
+您的Adobe Workfront许可证类型与Workfront Planning权限配合使用，可让您查看、贡献或管理Workfront Planning对象。
 
 有关许可证类型如何影响Workfront Planning对象权限级别的信息，请参阅[使用Adobe Workfront Planning时的许可证类型概述](/help/quicksilver/planning/access/license-type-overview.md)。
 

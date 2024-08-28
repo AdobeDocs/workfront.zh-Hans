@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ hide: yes
 
    工作区将打开，记录类型显示为卡片。
 1. 单击记录类型的卡以打开记录类型页面。
-1. 单击&#x200B;**表**&#x200B;视图的名称以将其打开。
+1. 单击表视图的名称以将其打开。
 1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 1. （视情况而定）将所选记录类型与其他记录类型连接后，转到链接的记录列，并双击要与其他记录链接的记录对应的单元格。
 
@@ -240,7 +240,7 @@ hide: yes
 
    >[!TIP]
    >
-   >    您可以在表视图中执行以下操作来打开记录页面：
+   >    通过在表视图中执行以下操作，可以打开记录的页面并连接其他记录：
    >1. 单击视图中的记录名称。
    >1. 查找链接的记录字段，然后双击该字段（如果已经连接记录）
    >或

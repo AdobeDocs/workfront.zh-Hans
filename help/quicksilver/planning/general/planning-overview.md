@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 * **Workspace**：定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。
 
-  一个Workfront实例最多可以具有1,000个工作区。
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
@@ -204,9 +202,15 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront计划附带销售、营销和产品管理工作区模板。
+  Adobe Workfront Planning包含以下模板：
 
-  有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
+   * 基本：营销管理
+   * 高级：营销管理
+   * 企业：营销管理
+   * 销售管理
+   * 产品管理
+
+  有关详细信息，请参阅[工作区模板列表](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 * **字段**：字段是可以添加到记录类型的属性。 字段包含有关记录类型的信息。<!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   以下是可应用于记录类型页面的视图类型：
 
-   * **表视图**：以表格式显示记录及其字段，包括连接和查找字段。 表的行是单独的记录，列是记录字段。 这是默认视图。
+   * **表视图**：以表格式显示记录及其字段，包括连接和查找字段。 表的行是单独的记录，列是记录字段。 表格视图是默认视图。
 
      ![](assets/table-view-example.png)
 
