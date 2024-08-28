@@ -8,10 +8,10 @@ description: 探索有关Workfront环境升级的常见问题。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ### 答案
 
-不可以。环境升级适用于启用了IMS的实例和非IMSorkfront的实例。
+不可以。环境升级适用于启用了IMS和非IMS的Workfront实例。
 
 ## 我们如何确定Workfront实例是在Prime还是Ultimate许可证上？
 
@@ -73,4 +73,3 @@ ht-degree: 3%
 * “使用现有”与“跳过”或忽略部署相同，因为它映射到目标环境中的现有对象，并且不进行任何更改。
 * 要跳过对象，我们建议删除
 不想从升级包或直接从源环境安装的任何对象。 移除对象后，重新装配包。
-
