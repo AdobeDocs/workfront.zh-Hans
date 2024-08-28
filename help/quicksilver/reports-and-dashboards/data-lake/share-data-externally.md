@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: 建立与Workfront数据湖的连接
 description: Workfront数据湖允许您通过常用的商业智能工具使用组织的Workfront数据，或将其存储在外部数据仓库中。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
 
 ---
 
-# 建立与Workfront数据湖的连接
+# 建立与Workfront数据连接的连接
 
-Workfront数据湖允许您通过商业智能工具使用组织的Workfront数据，或将其存储在外部数据仓库中。
+Workfront Data Connect允许您将组织的Workfront数据与商业智能工具结合使用，或将其存储在外部数据仓库中。
 
-为了将Workfront Data Lake数据与外部产品连接，您必须先将任何必需的IP添加到允许列表 列入允许列表，如以下[将IP添加到节点](#add-ips-to-the-allowlist)中所述。 此外，大多数产品都需要提供关于您的数据湖的其他信息才能建立连接：
+为了将Data Connect数据湖与外部产品连接，您必须先将任何必需的IP添加到允许列表 列入允许列表，如以下[将IP添加到](#add-ips-to-the-allowlist)中所述。 此外，大多数产品都需要提供关于您的数据湖的其他信息才能建立连接：
 
 | 字段名称 | 值 |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Workfront数据湖允许您通过商业智能工具使用组织的Workfront数�
 | 用户名 | 创建连接时选择的用户名(可在Workfront中的&#x200B;**数据访问**&#x200B;页面上找到*) |
 | 密码 | 首次Snowflake登录时选择的密码* |
 
-*有关在何处查找包含您的数据湖连接的&#x200B;**数据访问**&#x200B;页的信息，请参阅[为Snowflake创建读取器（服务）帐户](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)。
+*有关在何处查找包含Data Connect连接的&#x200B;**数据访问**&#x200B;页的信息，请参阅[为Snowflake创建读取器（服务）帐户](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)。
 
 >[!IMPORTANT]
 >
 >将某个条目添加到IP允许列表后，将不再允许所有其他IP地址。 在尝试使用可视化工具之前，请确保已输入所有必需的IP地址 — 用于可视化工具的构建和读取体验。 否则，您可能会遇到有关无效凭据的错误。
 >
 >如果您的BI工具中未包含任何IP地址，但仍无法连接到BI允许列表，请检查BI工具的代理服务器配置。
-
 
 ## 将IP添加到允许列表
 

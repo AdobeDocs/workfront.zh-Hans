@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: Workfront Data Lake测试版信息
-description: 有关Workfront Data Lake测试版的一般信息
+navigation-topic: data-connect-beta
+title: Workfront Data Connect测试版信息
+description: 有关Workfront Data Connect测试版的一般信息
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 12%
 
 ---
 
-# Workfront Data Lake测试版信息
+# Workfront Data Connect测试版信息
 
-Workfront数据湖是当前开发中的一个新工具，它为组织提供了一个专用界面来提取数据，以用于常见的业务分析工具或存储在外部数据仓库中，而无需复杂的API或Fusion解决方案。 本页包含的信息介绍了如何在我们持续进行的测试版中通过测试此工具并提供反馈来帮助我们。
+Workfront Data Connect是当前开发中的一个新工具，它提供了一个专用界面，供组织提取数据以用于常用的业务分析工具或存储在外部数据仓库中，而无需复杂的API或Fusion解决方案。 本页包含的信息介绍了如何在我们持续进行的测试版中通过测试此工具并提供反馈来帮助我们。
 
-有关使用Workfront数据湖的信息，请参阅[Workfront数据湖概述](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
+有关使用Workfront Data Connect的信息，请参阅[Workfront Data Connect概述](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
 **Beta计划：**
 
@@ -30,11 +30,11 @@ Workfront数据湖是当前开发中的一个新工具，它为组织提供了�
 
 >[!IMPORTANT]
 >
->您必须是Workfront系统管理员才能注册Workfront Data Lake测试版。
+>您必须是Workfront系统管理员才能注册Data Connect测试版。
 
 要注册贵组织参加测试版，请填写并提交表格（位于以下链接）：
 
-[Workfront Data Lake测试版注册](https://adobe.ly/workfrontdatalake)
+[Workfront Data Connect测试版注册](https://adobe.ly/workfrontdatalake)
 
 ### 提供反馈
 
@@ -48,7 +48,7 @@ Workfront数据湖是当前开发中的一个新工具，它为组织提供了�
 
 ## 计划功能
 
-以下列出了当前受测试版支持的对象、我们计划在测试版期间添加支持的对象，以及我们未来的Workfront数据湖路线图中包含的功能。
+以下列出了当前在Beta版中受支持的对象、我们计划在整个Beta版期间添加支持的对象，以及我们未来的Data Connect路线图中包含的功能。
 
 ### 当前可用的对象
 

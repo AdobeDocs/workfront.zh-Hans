@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: 数据湖数据字典
-description: 本页包含有关Workfront数据湖中数据的结构和内容的信息。
+navigation-topic: data connect
+title: Workfront Data Connect数据字典
+description: 本页包含有关Workfront Data Connect中数据的结构和内容的信息。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# Workfront数据湖数据字典
+# Workfront Data Connect数据字典
 
-本页包含有关Workfront数据湖中数据的结构和内容的信息。
+本页包含有关Workfront Data Connect中数据的结构和内容的信息。
 
 >[!NOTE]
 >
->Workfront数据湖中的数据每四小时刷新一次，因此可能不会立即反映最近的更改。
+>Data Connect中的数据每四小时刷新一次，因此最近的更改可能不会立即反映出来。
 
 ## 表类型
 
-您可以使用许多表类型以最深入地查看Workfront数据。
+您可以在Data Connect中使用多种表类型，以最深入地了解的方式查看Workfront数据。
 
 * **当前表**
 
@@ -43,9 +43,9 @@ ht-degree: 5%
 
 ## 实体关系图
 
-Workfront中的对象（因此也是数据湖中的对象）不仅由其单个值定义，而且还由其与其他对象的关系定义。 下面的实体关系图提供了Workfront数据湖中对象关系的高级映射。 可以使用以下链接查看和下载图表：
+Workfront中的对象（因此也就是Data Connect数据湖中的对象）不仅由其各个值定义，而且由其与其他对象的关系定义。 下面的实体关系图提供了数据连接中对象关系的高级映射。 可以使用以下链接查看和下载图表：
 
-[Workfront数据湖实体关系图](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Data Connect实体关系图](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Workfront中的对象（因此也是数据湖中的对象）不仅由其单个�
 
 ## 术语表
 
-下表将Workfront中的对象名称（以及它们在接口和API中的名称）与其在数据湖中的等效名称相关联。
+下表将Workfront中的对象名称（以及它们在接口和API中的名称）与它们在Data Connect中的等效名称相关联。
 
 <table>
 <thead>

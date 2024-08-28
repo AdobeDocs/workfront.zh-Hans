@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: 创建用于Snowflake的Reader（服务）帐户
-description: 要访问Workfront数据湖中的数据，您必须首先为Snowflake创建读取器帐户。
+description: 要访问Data Connect数据，您必须首先创建一个Snowflake读取器帐户。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # 创建用于Snowflake的Reader（服务）帐户
 
-要访问Workfront数据湖数据，您必须首先为每个新连接创建一个Snowflake读取器（或服务）帐户。 创建连接后，您可以在&#x200B;**现有连接**&#x200B;选项卡下的&#x200B;**数据访问**&#x200B;页面（**主菜单** > **设置** > **系统** > **数据访问**）上单击该连接，找到其关联的URL和用户名。
+要访问Data Connect数据，您必须首先为每个新连接创建一个Snowflake读取器（或服务）帐户。 创建连接后，您可以在&#x200B;**现有连接**&#x200B;选项卡下的&#x200B;**数据访问**&#x200B;页面（**主菜单** > **设置** > **系统** > **数据访问**）上单击该连接，找到其关联的URL和用户名。
 
-有关将新创建的连接与外部产品结合使用的信息，请参阅[建立与Workfront数据湖的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
+有关将新创建的连接与外部产品结合使用的信息，请参阅[建立与Workfront Data Connect的连接](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
 
 ## 访问要求
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![重置Snowflake密码](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 您现在可以使用用户名和新密码访问Snowflake中的Workfront数据湖或您选择的业务可视化工具。
+1. 您现在可以使用用户名和新密码在Snowflake或您选择的业务可视化工具中访问Data Connect数据湖。
 
 ## 撤销读取者帐户
 

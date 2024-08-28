@@ -1,38 +1,75 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: 基本数据湖查询示例
-description: 基本示例查询，您可以使用这些查询来熟悉自己的查询。
+navigation-topic: data connect
+title: Data Connect查询示例
+description: 您可以使用示例查询来熟悉特定类型查询的语法和结构。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: ede703bcc7fdc4047b44a22580d33fc7e01c5705
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# 基本Workfront数据湖查询示例
+# Workfront Data Connect查询示例
 
-为了帮助您开始使用Workfront数据湖数据，下面提供了一些基本示例查询，您可以使用这些查询来熟悉自己的查询。
+为了帮助您更好地利用Workfront Data Connect数据，本页包含一些基本的示例查询，您可以使用这些查询来熟悉特定类型查询的语法和结构。
 
-## 任务查询
+## 自定义数据查询
 
-将项目和(assignedTo)用户表联接到简单任务列表中。
+此示例演示如何在Workfront中构建查询以返回自定义数据，如自定义表单和自定义字段。
+
+### 方案：
+
+您的组织PeopleSoft利用了名为Finance Integration的自定义表单。 该表单附加到每个项目，并包含以下字段：
+
+* **PeopleSoft业务单元** — 包含字符串的自定义字段。
+* **PeopleSoft ProjectID** — 包含数字字符串的自定义字段。
+* **扩展的项目名称** — 一个计算自定义数据字段，将PeopleSoft Business Unit、PeopleSoft ProjectID和本机Workfront项目名称的值连接到单个字符串中。
+
+您需要将此信息包含在针对Data Connect的查询的响应中。 数据湖中记录的自定义数据值包含在标题为`parameterValues`的列中。 此列将存储为JSON对象。
+
+### 查询：
+
+```
+SELECT
+    projectid,
+    parametervalues,
+    name,
+    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
+    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
+FROM PROJECTS_CURRENT
+WHERE ExpandedProjectName is not null
+```
+
+### 响应
+
+上述查询返回以下数据：
+
+* `projectid` — 本机Workfront项目ID
+* `parametervalues` — 存储JSON对象的列
+* `name` — 本机Workfront项目名称
+* `PeopleSoft Business Unit` - `parametervalues`对象中包含的自定义数据值
+* `PeopleSoft Project ID` - `parametervalues`对象中包含的自定义数据值
+* `Expanded Project Name` - `parametervalues`对象中包含的自定义数据值
+
+<!--## Task query 
+
+Join the project and (assignedTo) users tables into a simple task list.
 
 
 
-## 小时查询
+## Hours query
 
-加入所有者（用户）、小时类型和项目组合表，按用户和项目组合提供当前年度的小时总和。
+Join owner (users), hour type, and portfolio tables to provide a sum of hours by user and portfolio for the current year.
 
 
 
-## 文档审批查询
+## Document approvals query
 
-测量每个资产的周期时间和平均审核周期数。
+Measure the cycle time and average number of review cycles per asset.-->
