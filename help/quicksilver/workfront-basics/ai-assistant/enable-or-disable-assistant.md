@@ -5,7 +5,7 @@ description: 您可以控制组织中哪些访问级别有权访问AI助手。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -58,3 +58,4 @@ ht-degree: 1%
 1. 在设置其他限制区域，启用选项&#x200B;**启用Workfront AI助手**。
 1. 单击&#x200B;**保存**。
 1. 对要启用AI助理的每个访问级别重复步骤3-6。
+

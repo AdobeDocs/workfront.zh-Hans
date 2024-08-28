@@ -4,7 +4,7 @@ content-type: reference
 description: AI Assistant概述
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -113,4 +113,5 @@ AI助手当前提供以下功能：
 1. 输入贵公司中将签署AdobeGen AI协议的人员的姓名和电子邮件地址。
 
    协议将发送给此人签署。 签名并返回后，将为您的组织启用AI助手。
+
 

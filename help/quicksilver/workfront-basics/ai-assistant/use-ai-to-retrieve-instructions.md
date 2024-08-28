@@ -5,7 +5,7 @@ description: 您可以使用“摘要”此功能快速摘要工作项和文档�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ AI助手可以从Workfront文档中找到信息，因此无需访问Adobe Experi
 1. 在AI助手面板中查看响应。
 1. （可选）如果响应不包含您需要的信息，请优化您的响应并重试。
 1. （可选且视情况而定）如果响应中包含指向Adobe Experience League文章的链接，请单击该链接以在新窗口中打开该文章。
+
