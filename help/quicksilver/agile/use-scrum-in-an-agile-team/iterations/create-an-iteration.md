@@ -6,9 +6,9 @@ description: 迭代是Scrum敏捷团队规划工作容量的关键组件。 [!DN
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Review]或更高版本</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Light]或更高版本</p> 
+   或
+   <p>当前： [！UICONTROL Review]或更高版本</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 添加迭代
 
 使用[!UICONTROL 添加迭代]功能可快速创建迭代，并在以后添加任务和问题。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 
-1. 在&#x200B;**[!UICONTROL 迭代]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加迭代]**。\
+1. 在&#x200B;**[!UICONTROL 迭代]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 添加迭代]**。
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. 指定以下内容：
@@ -90,7 +96,7 @@ ht-degree: 0%
 
 使用[!UICONTROL 计划迭代]功能，使用积压中的任务创建迭代。
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
 
@@ -129,10 +135,10 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. （可选）选择故事以立即将其添加到开发周期，或者您可以跳过此步骤并在以后将故事添加到开发周期。 积压工作顶部的故事优先级别更高。 当故事符合容量要求时，它们会以绿色突出显示；否则，它们会以红色突出显示。\
-   您可以将任务和问题添加到单个迭代：
+1. （可选）选择故事以立即将其添加到开发周期，或者您可以跳过此步骤并在以后将故事添加到开发周期。 积压工作顶部的故事优先级别更高。 当故事符合容量要求时，它们会以绿色突出显示；否则，它们会以红色突出显示。
+您可以将任务和问题添加到单个迭代：
 
-   * **要将任务添加到迭代：**&#x200B;在&#x200B;**[!UICONTROL 积压]**&#x200B;选项卡上，确保选中&#x200B;**[!UICONTROL 故事]**&#x200B;选项卡（查看积压时默认选择此选项卡）。 选择要添加到开发周期的故事。\
+   * **要将任务添加到迭代：**&#x200B;在&#x200B;**[!UICONTROL 积压]**&#x200B;选项卡上，确保选中&#x200B;**[!UICONTROL 故事]**&#x200B;选项卡（查看积压时默认选择此选项卡）。 选择要添加到开发周期的故事。
 
      将任务添加到迭代时，任务的开始日期将按照[[!UICONTROL 了解]中所述计算任务开始日期的方式添加到迭代](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)中。
 
@@ -151,4 +157,4 @@ ht-degree: 0%
 
 使用了[!UICONTROL 项目结束日期]，而不是   如果项目开始日期在迭代开始日期之后，而项目结束日期在迭代结束日期之后。
 
-您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)部分。
+您可以将单个Scrum团队配置为默认使用项目日期，而不是迭代日期。 有关信息，请参阅[配置Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[配置将工作项添加到迭代时应用日期的方式](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)部分。

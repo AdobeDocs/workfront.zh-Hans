@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 配置Kanban
-description: 您在 [!DNL Adobe Workfront]中创建Kanban或Scrum Agile团队。
+description: 在创建团队期间或之后，您可以为Kanban敏捷团队配置以下选项。
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -46,26 +46,26 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
    <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">访问级别</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑团队的访问权限</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，确保已选择Kanban。
 
-1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;部分的&#x200B;**[!UICONTROL WIP限制]**&#x200B;字段中，指定[!UICONTROL Kanban]敏捷故事板每列允许的最大项目数。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。\
-   设置后，每当超过故事板上任何列的限制，WIP限制会在[!UICONTROL Kanban]敏捷故事板上显示警告消息。 此警告消息仅在第一次超出WIP限制时显示。 此警告消息不显示在任何状态等于[!UICONTROL Complete]的列上。\
-   WIP限制只是一个视觉上的警告，不会限制您的团队在一列中拥有超过您设置的限制数量的项目。
+1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;部分的&#x200B;**[!UICONTROL WIP限制]**&#x200B;字段中，指定[!UICONTROL Kanban]敏捷故事板每列允许的最大项目数。 您可以为每个列设置不同的限制。 您可以为每个列设置的最大限制为100。
+设置后，每当超过故事板上任何列的限制，WIP限制会在[!UICONTROL Kanban]敏捷故事板上显示警告消息。 此警告消息仅在第一次超出WIP限制时显示。 此警告消息不显示在任何状态等于[!UICONTROL Complete]的列上。
+WIP限制只是一个视觉上的警告，不会限制您的团队在一列中拥有超过您设置的限制数量的项目。
 
    ![WIP限制](assets/wip-limit-350x193.png)
 

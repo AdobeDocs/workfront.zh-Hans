@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: 敏捷燃尽图概述
+title: Agile燃尽图概述
 description: 燃尽图以可视化形式呈现故事在迭代或项目中的进度。 实际燃尽率是根据迭代或项目时间线的理想燃尽率测量的。
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

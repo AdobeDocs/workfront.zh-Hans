@@ -6,9 +6,9 @@ description: 任务和问题可分配给Agile团队，并作为故事添加到�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证</strong></td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p><p>或</p><p>当前： [！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   或
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>访问级别配置</strong></td> 
-   <td> <p>新文档： [！UICONTROL Standard]</p><p>或</p><p>当前： [！UICONTROL Worker]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>[！UICONTROL Manage]对文章所在项目的访问权限</p>  </td> 
+   <td role="rowheader">对象权限</td> 
+   <td>[！UICONTROL Manage]对文章所在项目的访问权限 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ ht-degree: 0%
    >
    >如果任务或问题分配了Agile团队，且项目未处于与当前相同的状态，则它们不会显示在积压中。 但是，它们仍会影响“顺序”列中的积压计数。
 
-1. 选择一个或多个故事，然后将故事拖到您希望它们在积压中显示的顺序上。\
+1. 选择一个或多个故事，然后将故事拖到您希望它们在积压中显示的顺序上。
    ![拖放积压工作项](assets/agile-backlog-drag-and-drop.png)
 
 ### 分解故事 {#break-down-stories}
@@ -96,8 +94,8 @@ ht-degree: 0%
 要分解故事，请执行以下操作：
 
 1. 转到包含要细分的故事的积压。
-1. 选择要分解的故事，然后单击&#x200B;**[!UICONTROL 分解故事]**。\
-   显示[!UICONTROL 划分故事]对话框。\
+1. 选择要分解的故事，然后单击&#x200B;**[!UICONTROL 分解故事]**。
+显示[!UICONTROL 划分故事]对话框。
    ![分解故事对话框](assets/backlog-breakdown-dialog.png)
 
 1. 指定文章的名称和估计值，然后选择文章是否已准备就绪。
@@ -186,12 +184,10 @@ ht-degree: 0%
 1. （可选）删除任何现有的被分配人。
 1. 单击&#x200B;**[!UICONTROL 添加代理人]**。
 1. 开始键入要分配给任务或问题的Agile团队名称，然后单击出现在下拉列表中的团队名称。
-1. 单击&#x200B;**[!UICONTROL 保存更改]**。\
-   任务或问题现在可在团队积压中找到。
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
+任务或问题现在可在团队积压中找到。
 
 ## 将故事移入或移出积压
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [将故事从积压工作移动到迭代或+展示板](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [将现有故事移至积压](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ ht-degree: 0%
 ### 将故事从积压工作移动到迭代或+展示板
 
 1. 转到Agile团队的积压。
-1. 选择要移动到开发周期或Kanban展示板的故事，然后单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 移动到]**。\
-   如果将故事移动到[!UICONTROL Kanban]展示板，则会显示[!UICONTROL 将故事移动到Kanban]展示板。\
-   如果将文章移动到迭代，则显示[!UICONTROL 将文章移动到迭代]对话框。\
+1. 选择要移动到开发周期或Kanban展示板的故事，然后单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 移动到]**。
+如果将故事移动到[!UICONTROL Kanban]展示板，则会显示[!UICONTROL 将故事移动到Kanban]展示板。
+如果将文章移动到迭代，则显示[!UICONTROL 将文章移动到迭代]对话框。
    ![移动故事对话框](assets/agile-backlog-addtoiteration.png)
 
 1. 执行以下任一操作：

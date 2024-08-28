@@ -6,9 +6,9 @@ description: 在Kanban展示板上查看故事拼贴时，某些信息可用于�
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -71,32 +71,36 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   或
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 查看和编辑文章拼贴上的信息
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;*[!UICONTROL *主菜单]**图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Kanban团队或在搜索栏中搜索团队。
 
@@ -105,9 +109,9 @@ ht-degree: 0%
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. （可选）要编辑字段，请单击该字段，然后进行任何更改。\
-   您必须对任务或问题具有[!UICONTROL 编辑]权限才能编辑故事拼贴。\
-   有关每个字段及其是否可以编辑的详细信息，请参阅[了解可以查看和编辑哪些信息](#understand-what-information-can-be-viewed-and-edited)。
+1. （可选）要编辑字段，请单击该字段，然后进行任何更改。
+您必须对任务或问题具有[!UICONTROL 编辑]权限才能编辑故事拼贴。
+有关每个字段及其是否可以编辑的详细信息，请参阅[了解可以查看和编辑哪些信息](#understand-what-information-can-be-viewed-and-edited)。
 
 >[!NOTE]
 >

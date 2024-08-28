@@ -2,13 +2,13 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 敏捷团队中的Kanban
+title: Agile团队中的Kanban
 description: 查看这些文章了解有关在Agile团队中使用Kanban的更多信息。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: 在 [!DNL Kanban] 展示板上，标记提供故事何时可以移�
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   或
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在[!UICONTROL Kanban]展示板上的故事上使用标志
 
 要更改文章上的标志，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的[!UICONTROL Kanban]团队或在搜索栏中搜索团队。
 
 1. 转到[!UICONTROL Kanban]展示板，您要在该展示板上更改文章的标志。
-1. 展开故事拼贴以查看标志。\
-   默认情况下，每个文章的标志均设置为&#x200B;**[!UICONTROL 跟踪]**。\
+1. 展开故事拼贴以查看标志。
+默认情况下，每个文章的标志均设置为**[!UICONTROL 跟踪]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 单击当前标志，然后从以下标志选项中选择：
 
-   * **[!UICONTROL 跟踪]：**&#x200B;故事处于相应的状态，此时无需执行任何操作。\
+   * **[!UICONTROL 跟踪]：**&#x200B;故事处于适当的状态，此时无需执行任何操作。
 
-     这是Kanban展示板上每个故事的默认标记。\
-      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+     这是Kanban展示板上每个故事的默认标记。
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL 被阻止]：**&#x200B;故事无法进入下一个状态。 当在文章上设置此标记时，文章不会计入WIP限制中。 (有关WIP限制的更多信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。\
+   * **[!UICONTROL 被阻止]：**&#x200B;故事无法进入下一个状态。 当在文章上设置此标记时，文章不会计入WIP限制中。 （有关WIP限制的更多信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。）
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 准备提取]：**&#x200B;故事已准备好由团队的其他成员移动到下一个状态。\
+   * **[!UICONTROL 准备提取]：**&#x200B;故事已准备好由团队的其他成员移动到下一个状态。
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

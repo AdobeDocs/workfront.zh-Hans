@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: 创建敏捷团队
+title: 创建Agile团队
 description: Adobe Workfront使agile团队能够以递增、有条理的方式完成工作。
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 1%
+source-wordcount: '1001'
+ht-degree: 0%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新增：标准</p>
    当前： 
    <ul><li><p>[！UICONTROL计划]创建新的Agile团队</p></li> 
@@ -53,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,14 +71,14 @@ ht-degree: 1%
 
 以下功能支持此方法：
 
-* 在[!DNL Kanban]敏捷故事板上显示积压。\
-   有关详细信息，请参阅[将积压工作添加到[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
+* 在[!DNL Kanban]敏捷故事板上显示积压。
+有关详细信息，请参阅[将积压工作添加到[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
-* 配置当其他项目移至等同于“完成”的状态时，将积压中的项目自动添加到[!UICONTROL Kanban]敏捷故事板中。\
-   有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)部分。
+* 配置当其他项目移至等同于“完成”的状态时，将积压中的项目自动添加到[!UICONTROL Kanban]敏捷故事板中。
+有关详细信息，请参阅文章[配置Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[配置要自动从积压工作中添加的故事](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)部分。
 
-* 配置要在[!UICONTROL Kanban]敏捷故事板上显示的进行中的工作(WIP)限制。\
-   有关详细信息，请参阅[在Kanban展示板上管理正在进行的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
+* 配置要在[!UICONTROL Kanban]敏捷故事板上显示的进行中的工作(WIP)限制。
+有关详细信息，请参阅[在Kanban展示板上管理正在进行的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
 
 ### 在[!DNL Workfront]中使用Scrum的好处
 
@@ -89,8 +89,8 @@ ht-degree: 1%
 * 包含[!UICONTROL Scrum]故事板上的问题
 * 包括Agile团队积压的问题
 * 子任务可以显示在[!UICONTROL Scrum]故事板上
-* 查看燃尽图以查看迭代期间历程的进度\
-   有关详细信息，请参阅[敏捷燃尽图概述](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
+* 查看燃尽图以查看迭代期间历程的进度
+有关详细信息，请参阅[敏捷燃尽图概述](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
 ## 创建敏捷团队
 
@@ -150,19 +150,21 @@ ht-degree: 1%
 
 您可以将现有团队转换为Agile团队：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
+
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要转换为Agile团队的团队。
-1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。\
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
+
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
    ![](assets/edit-team-settings-350x205.png)
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 这是Agile团队]**。
 
 1. 在&#x200B;**[!UICONTROL 方法]**&#x200B;部分中，选择团队将使用&#x200B;**[!UICONTROL Scrum]**&#x200B;还是&#x200B;**[!UICONTROL Kanban]**&#x200B;敏捷方法。
 
-1. 单击&#x200B;**保存更改。**
+1. 单击&#x200B;**保存更改**。
 
    团队将另存为Agile团队。 在编辑团队时，您可以将新团队配置为Scrum或Kanban团队。
 

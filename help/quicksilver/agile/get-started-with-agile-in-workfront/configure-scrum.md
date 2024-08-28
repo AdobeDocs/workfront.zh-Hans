@@ -6,9 +6,9 @@ description: 在创建团队期间或之后，您可以为Scrum敏捷团队配�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档： [！UICONTROL Standard]</p> 
    或
    <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">访问级别</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑团队的访问权限</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 配置故事的估计单位为点还是小时
 
@@ -72,13 +76,13 @@ ht-degree: 0%
 
 要配置如何为您的Agile团队估计故事：
 
-1. 单击[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 1. 选择要管理的Agile团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。\
+   只有具有[!UICONTROL Standard]、[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
 1. 在&#x200B;**[!UICONTROL Agile]**&#x200B;部分的&#x200B;**[!UICONTROL 估算]**&#x200B;中的故事区域，选择您是要使用点还是小时来估算故事的大小（工作负载）。 如果选择“点”，请指定多少小时等于1点。 （默认值为1点= 8小时。） 这是添加到故事的计划小时数。
@@ -100,7 +104,7 @@ ht-degree: 0%
 
 要定义可用于与Agile团队关联的故事板的状态，请执行以下操作：
 
-1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
@@ -158,13 +162,13 @@ ht-degree: 0%
 
 配置分配给敏捷团队的故事卡以显示其他字段：
 
-1. 单击[!UICONTROL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
 1. 选择要管理的Agile团队。
-1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
+只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 
    ![编辑团队](assets/edit-team-settings-350x205.png)
 
@@ -182,7 +186,7 @@ ht-degree: 0%
 
 要更改将颜色分配给敏捷团队故事的行为：
 
-1. 单击[!DNL Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 
@@ -201,7 +205,7 @@ ht-degree: 0%
 
       * 高=红色
       * Medium =黄色
-      * 低=绿色\
+      * 低=绿色
 
         如果系统管理员为[!DNL Workfront]系统配置了自定义优先级，则最高优先级为红色，第二高为黄色，第三高为绿色。
    * **[!UICONTROL 任务所有者]**：具有相同主要被分配人的所有故事都是相同的颜色。 主要被分配者是首次分配至任务的用户。
@@ -213,15 +217,16 @@ ht-degree: 0%
 
 默认情况下，将工作项添加到Scrum迭代时，会修改该工作项的“计划开始日期”和“计划完成日期”，以匹配迭代的开始和结束日期。 您可以选择将原始日期保留在团队的所有工作项上。
 
-1. 单击[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
+
 1. （可选）单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后从下拉菜单中选择新的Scrum团队或在搜索栏中搜索团队。
-1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。\
-   只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
+只有拥有[!UICONTROL 计划]或[!UICONTROL 工作]许可证的团队成员才能看到此选项。
 1. 在[!UICONTROL Agile]部分的[!UICONTROL 将工作项添加到开发周期]区域时，从以下选项中选择：
 
-   * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项日期将更改为迭代日期。\
+   * **[!UICONTROL 修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项日期将更改为迭代日期。
 
-     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa)部分。
+     有关如何修改日期的更多信息，请参阅[将故事添加到现有迭代](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[了解添加故事如何影响任务日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)部分。
    * **[!UICONTROL 不修改规划开始日期和规划完成日期以匹配迭代开始日期和结束日期]**：将工作项添加到迭代时，工作项保留其原始日期。
 
    如果更改日期选项，则不会调整迭代中已存在的工作项的日期。

@@ -6,9 +6,9 @@ description: 如果您拥有项目的“管理”访问权限，则可以向Kanb
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,34 +22,38 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Worker]或更高版本</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td> <p>新文档： [！UICONTROL Standard]</p> 
+   或
+   <p>当前： [！UICONTROL Work]或更高版本</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将现有任务或问题添加到Kanban板
 
 要将任务或问题添加到[!UICONTROL Kanban]展示板，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-click-main-menu}}
 
 1. 选择以下选项之一： **[!UICONTROL 项目]**、**[!UICONTROL 报告]**&#x200B;或&#x200B;**[!UICONTROL 仪表板]**。
 
@@ -60,7 +64,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果添加多个团队，则任务或问题只能显示在一个团队的[!DNL kanban]讨论区中。 这是您在步骤5中选择的展示板。
+   >如果添加多个团队，则任务或问题只能显示在一个团队的[!DNL kanban]讨论区中。 这是您之前选择的展示板。
 
 1. 如果要添加任务，请单击&#x200B;**[!UICONTROL 添加故事]**。
 或
