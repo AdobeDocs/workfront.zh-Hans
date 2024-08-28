@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 2%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 2%
          * [新的评论体验](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新的评论体验发布活动](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新的评论体验常见问题解答](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront data lake beta {#data-lake-beta}
-         * [Workfront Data Lake测试版信息](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect Beta {#data-lake-beta}
+         * [Workfront Data Connect测试版信息](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理和设置 {#administration-and-setup}
    * [管理和设置：文章索引](administration-and-setup/administration-and-setup.md)
    * 管理{#get-started-administration}入门
@@ -1734,12 +1734,12 @@ ht-degree: 2%
       * [在增强型分析中查看项目活动可视化](enhanced-analytics/project-activity-overview.md)
       * [在增强型分析中查看项目树状图可视化图表](enhanced-analytics/project-treemap-overview.md)
       * [在增强型分析中查看按团队分类的活动可视化图表](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront数据湖{#data-lake}
-      * [Workfront数据湖概述](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront数据连接{#data-lake}
+      * [Workfront Data Connect概述](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [创建读者帐户](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [建立与Workfront数据湖的连接](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront数据湖数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [基本Workfront数据湖查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [建立与Workfront数据连接的连接](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Workfront Data Connect数据字典](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Workfront Data Connect查询示例](reports-and-dashboards/data-lake/basic-query-examples.md)
 * 管理资源 {#manage-resources}
    * [管理资源](resource-mgmt/manage-resources.md)
    * 资源管理 {#resource-management}

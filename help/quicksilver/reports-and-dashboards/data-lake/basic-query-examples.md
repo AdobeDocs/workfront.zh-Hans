@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ### 方案：
 
-您的组织PeopleSoft利用了名为Finance Integration的自定义表单。 该表单附加到每个项目，并包含以下字段：
+您的组织使用名为Finance Integration的自定义表单。 该表单附加到每个项目，并包含以下字段：
 
-* **PeopleSoft业务单元** — 包含字符串的自定义字段。
-* **PeopleSoft ProjectID** — 包含数字字符串的自定义字段。
-* **扩展的项目名称** — 一个计算自定义数据字段，将PeopleSoft Business Unit、PeopleSoft ProjectID和本机Workfront项目名称的值连接到单个字符串中。
+* **业务单元** — 包含字符串的自定义字段。
+* **ProjectID** — 包含数字字符串的自定义字段。
+* **扩展的项目名称** — 计算出的自定义数据字段，它将业务单元、项目ID和本机Workfront项目名称的值连接到单个字符串中。
 
 您需要将此信息包含在针对Data Connect的查询的响应中。 数据湖中记录的自定义数据值包含在标题为`parameterValues`的列中。 此列将存储为JSON对象。
 
@@ -40,8 +40,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -54,8 +54,8 @@ WHERE ExpandedProjectName is not null
 * `projectid` — 本机Workfront项目ID
 * `parametervalues` — 存储JSON对象的列
 * `name` — 本机Workfront项目名称
-* `PeopleSoft Business Unit` - `parametervalues`对象中包含的自定义数据值
-* `PeopleSoft Project ID` - `parametervalues`对象中包含的自定义数据值
+* `Business Unit` - `parametervalues`对象中包含的自定义数据值
+* `Project ID` - `parametervalues`对象中包含的自定义数据值
 * `Expanded Project Name` - `parametervalues`对象中包含的自定义数据值
 
 <!--## Task query 

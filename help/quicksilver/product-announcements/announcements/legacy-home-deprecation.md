@@ -5,9 +5,9 @@ title: 旧版主页弃用指南
 description: 本页包含有关即将弃用旧版主页的信息。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 1. 将其余用户重新分配到新的主页布局。
 
-然后，尽快这样做可为您的用户留出时间来适应新体验，并自定义其新主页，以最符合其个人需求。
+然后，尽快这样做可为您的用户留出时间来适应新体验，并自定义其新主页，以最符合其个人需求。 有关用户如何在自己的新主页上自定义小组件的信息，请参阅[在新主页中删除、添加和重新排列小组件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
 
 ### 在开发时遵循主页体验
 
@@ -74,7 +74,7 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 
 几乎，以下除外：
 
-* 日历，当前已列入我们的新主页路线图中。
+* 日历，当前已列在我们的“优先级”路线图上。
 
 * 显示对象到期日期的时间戳当前不可用。
 
