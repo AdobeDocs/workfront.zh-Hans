@@ -6,10 +6,10 @@ description: 目标进展受活动、结果或儿童目标等进度指标的驱�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ ht-degree: 1%
 有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Adobe Workfront会根据其进度指示器的进度，自动计算目标进度。
-
-## 先决条件
-
-在开始之前，您必须具备以下条件：
-
-* 在主菜单中包含目标区域的布局模板。
 
 ## 目标进度和阈值概述
 

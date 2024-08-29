@@ -3,9 +3,10 @@ title: 连接记录类型和记录的示例
 description: 本文介绍了如何在Adobe Workfront Planning记录类型与Workfront项目对象类型之间创建连接的示例。 它还介绍了如何将Workfront Planning记录与连接到单个项目。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%

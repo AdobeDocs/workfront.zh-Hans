@@ -1,14 +1,14 @@
 ---
 title: 'Adobe Workfront计划通知：文章索引'
-description: 当有人在记录注释中标记您时，您可能会收到该标记的电子邮件或应用程序内通知。 您收到的通知类型取决于贵公司是否为AdobeUnified Experience客户。 以下文章描述了您可能会收到的Workfront Planning通知类型以及如何管理您的首选项。
+description: 当有人在记录注释中标记您，或请求或授予您查看或工作区的权限时，您可能会收到电子邮件或应用程序内通知。 以下文章介绍可能会收到的Workfront Planning通知类型以及如何管理通知首选项。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-当有人在记录注释中标记您时，您可能会收到该标记的电子邮件或应用程序内通知。
-
-您收到的通知类型取决于贵公司是否为AdobeUnified Experience客户。
+当有人在记录注释中标记您，或请求或授予您查看或工作区的权限时，您可能会收到电子邮件或应用程序内通知。
 
 以下文章描述了您可能会收到的Workfront Planning通知类型以及如何管理您的首选项：
 

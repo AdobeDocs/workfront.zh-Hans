@@ -7,9 +7,9 @@ description: Workfront目标将战略与工作执行和交付联系起来，帮�
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
 >
 >请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
-
+> 
+>有关访问Workfront目标的更多信息，请参阅[使用Workfront目标的要求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 Workfront目标将战略与工作执行和交付联系起来，帮助您定义、传达和实现战略成果。 您可以将每个人的努力集中在真正重要的事情上，使进展可衡量，并使团队能够取得令人惊叹的结果。 人们可以尽最大努力工作，因为他们知道自己的贡献会产生有意义的影响。
 
@@ -42,9 +43,9 @@ Workfront目标是核心Workfront工作管理平台的附加模块。 它旨在�
 >
 >您使用Workfront目标管理的战略目标不应与作为项目业务案例一部分的项目级目标混淆。 有关项目级目标的信息，请参阅[创建业务案例目标](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)。
 
-## Workfront目标包含的功能
+## Workfront Goals功能
 
-Workfront目标目前包括以下功能：
+Workfront目标中包含以下功能：
 
 * 创建季度或年度目标，并将其分配给用户、团队、组或您的组织。 您还可以自定义目标时间线。
 

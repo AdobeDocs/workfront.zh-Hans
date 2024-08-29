@@ -3,11 +3,12 @@ title: 管理Adobe Workfront Planning应用程序内通知
 description: 当有人在记录评论中标记您时，您会收到该标记的电子邮件通知。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -23,8 +24,7 @@ ht-degree: 1%
 
   有关在记录评论中标记其他人的信息，请参阅[管理记录评论](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人要求您授予访问视图或工作区的权限
-* 有人确认已授予您查看或工作区的访问权限<!--verify this-->
-* 有人已拒绝您访问视图或工作区。<!--verify this-->
+* 有人确认已授予您查看或工作区的访问权限<!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## 访问要求
 
@@ -64,7 +64,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>您组织的Workfront实例必须载入到AdobeUnified Experience。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. （可选）单击&#x200B;**全部标记为已读**&#x200B;以指示您已读取所有通知。
 1. （可选）单击&#x200B;**查看全部**&#x200B;以转到Adobe Experience Cloud中的&#x200B;**通知**&#x200B;页面。
 
+## 在请求和授予权限时管理应用程序内通知
 
-## 在请求、授予或拒绝视图或工作区的权限时管理应用程序内通知
+当有人请求或授予您查看或工作区的权限时，您会收到应用程序内通知。
 
 有关请求、授予或拒绝视图或工作区的权限的信息，请参阅[请求视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
+
+有关管理Workfront Planning通知的信息，请参阅[管理Adobe Workfront Planning通知首选项](/help/quicksilver/planning/notifications/manage-notification-preferences.md)。

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 * 有人将您添加到记录页面上的评论中
 * 有人请求访问视图或工作区的权限
-* 有人授予或拒绝您访问视图或工作区<!--test this - could not test before GA-->的权限
+* 有人授予您访问视图或工作区<!--I could not test this but Isk confirmed-->的权限
 
 ## 访问要求
 
@@ -62,7 +62,7 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
-<p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>您组织的Workfront实例必须载入到AdobeUnified Experience。</p> 
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ OLD:
 1. Workfront提供以下通知：
 
    * **提及**：当有人在Workfront Planning的评论中为您添加标签时，您会收到通知
-   * **请求**：当有人请求Workfront计划对象的权限时，您会收到通知
+   * **请求**：当有人请求或授予您访问Workfront规划对象的权限时，您会收到通知
 
    有关管理通知的详细信息，请参阅[帐户首选项和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 

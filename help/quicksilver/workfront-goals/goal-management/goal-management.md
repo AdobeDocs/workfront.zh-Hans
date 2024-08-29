@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目标中的目标管理
 
-您的组织必须具备以下条件才能使用本文中所述的功能：
-
-* 对于新计划和许可证结构：
-
-   * 最终计划
-
-     或
-
-     适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 有关信息，请参阅[Adobe Workfront计划](https://www.workfront.com/plans)。
-
-* 对于当前计划和许可证结构：
-
-   * Pro或更高版本
-   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>[!IMPORTANT]
+>
+>您的组织必须具备以下条件才能使用本文中所述的功能：
+>
+>* 对于新计划和许可证结构*：
+>
+>   * 最终计划
+>    
+>* 对于当前计划和许可证结构：
+>
+>   * Pro或更高版本
+>   * 除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。
+>
+>*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+>
 
 请联系您的Workfront客户经理，了解有关Workfront Goals许可证的信息。
 

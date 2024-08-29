@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新的评论Experience测试版计划目前已关闭。
+>新的评论体验测试版计划目前已关闭，所有客户现在都可以使用这些评论功能。
 >
 >从2023年第四季度版本（2023年10月）开始，测试期间发布的功能已提供给所有客户。
 

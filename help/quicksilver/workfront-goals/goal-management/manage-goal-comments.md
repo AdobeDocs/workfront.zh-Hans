@@ -6,9 +6,9 @@ description: 您可以向可在Adobe Workfront目标中查看的所有目标添�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-您可以向可在Adobe Workfront目标中查看的所有目标添加注释。
+您可以向所有可以在Adobe Workfront目标中查看的目标添加注释。
 
 ## 访问要求
 
@@ -46,9 +46,8 @@ After the monthly releases to Production, the same features are also available i
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li>
-  或
-  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+  <ul><li>最终计划 </li></ul>
+   </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
   <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>
@@ -89,95 +88,90 @@ After the monthly releases to Production, the same features are also available i
 
 *有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 先决条件
-
-在开始之前，您必须具备以下条件：
-
-* 在主菜单中包含目标区域的布局模板。
-
 ## 管理目标注释
 
 您可以在目标页面的“更新”部分中向目标添加评论。
-
-您可以回复或喜欢您或其他人在此区域添加的评论。
 
 1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**目标**。
 这将打开目标列表。
 1. 找到要添加注释的目标，然后单击其名称以打开目标页面。
 1. 单击左侧面板中的&#x200B;**更新**。
-1. （可选）要查找现有评论，请在&#x200B;**评论**&#x200B;选项卡右上角的&#x200B;**搜索**&#x200B;框中开始键入关键字<!--or a user's name-->。
 
+   有关管理Workfront对象的注释的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   您搜索的关键字<!--or user-->已突出显示，包含该关键字的注释将显示在“更新”部分的顶部。
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >必须搜索注释或回复中包含的单词。 您无法搜索已标记的用户或团队。
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   有关详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-
-1. 单击搜索字段中的&#x200B;**x**&#x200B;图标以清除搜索结果并返回完整更新。
-1. 单击“更新”区域左上角的&#x200B;**注释**&#x200B;选项卡。
-1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >在完成键入和提交评论之前导航离开更新部分，即使注销并重新登录后，页面上评论仍会以草稿模式保留。 草稿会保存7天，之后将丢弃它们并且无法恢复。 草稿注释仅对输入它们的用户可见。
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. （可选）要撤消或重做更改，请使用以下快捷键：
-   * CTRL + Z(Mac为⌘ + z)可撤消更改
-   * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选）要将富文本格式添加到更新、超链接或表情符号中，请使用富文本工具栏上的任意选项或其旁边的图标。 有关详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-1. （可选）在&#x200B;**为人员或团队添加标签**&#x200B;区域，开始键入要包含在此评论中的用户或团队的名称或电子邮件，然后当该评论显示在列表中时将其选定。
-1. 选择&#x200B;**我的公司私有**&#x200B;切换开关以使评论仅对公司中的人员可见。
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >您必须在配置文件中指定公司，才能在更新区域提供此选项。
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. 单击&#x200B;**提交**。
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带“New”指示器的红线以通知您较新的评论，并且屏幕底部会显示一个蓝色通知，指示新评论的数量。
-   >
-   >指示符仅在提交项目的评论之后显示，而不在评论仍在撰写时显示。
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. （可选）要编辑评论，请单击“赞”图标右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**编辑**。
-1. 编辑评论中的信息或移除任何已标记的用户。
-您可以在提交评论后15分钟内对其进行编辑。 “已编辑”指标将添加到更新评论时显示的日期戳的左侧。
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * 仅当提交原始更新时，才会生成电子邮件通知用户您的更新。 编辑更新后不会生成电子邮件。
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * 日期戳是原始注释的日期，而不是最新更新的日期。
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. （可选）单击&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击以下任一选项以将信息从评论复制到剪贴板或复制到新回复中：
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **复制链接**&#x200B;以复制更新的链接，而不复制回复。
-   * **复制正文文本**&#x200B;以复制更新的文本。
-   * **引用回复**&#x200B;打开新评论框，其中原始评论被引用在新回复中并标记为块引用。
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     有关详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. （可选）单击评论右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-icon.png)，然后单击&#x200B;**删除**&#x200B;以删除您添加的评论。 有关详细信息，请参阅[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
-1. （可选）单击&#x200B;**回复**&#x200B;以回复现有评论，然后执行上述步骤5-9。 有关回复更新的详细信息，请参阅[回复更新](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)。<!--insure this stays accurate-->
-1. （有条件，可选）如果其他用户在“更新”部分的可见区域之外添加了注释，请单击屏幕底部的蓝色&#x200B;**新注释横幅**&#x200B;中的&#x200B;**查看**&#x200B;以显示这些注释。
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   屏幕底部会显示其他注释。
-1. （可选）单击&#x200B;**类似**&#x200B;图标![](assets/like-icon.png)可喜欢其他人添加的评论。 图标会随喜欢的数量而更新。
-
-1. （可选）单击&#x200B;**系统活动**&#x200B;选项卡以查看系统记录的更新。 更新目标后，Workfront会生成有关该更新的注释，并将其显示在System Activity选项卡中。 在将结果、活动或项目添加到目标或进行更新时，Workfront还会记录系统更新。<!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

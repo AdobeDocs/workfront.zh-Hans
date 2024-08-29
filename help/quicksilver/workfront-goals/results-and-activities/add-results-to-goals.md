@@ -7,9 +7,9 @@ description: 结果衡量目标的进度。 如果不将结果、活动或瞄准
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,8 @@ ht-degree: 3%
    <td role="rowheader">Adobe Workfront计划*</td> 
    <td> 
    <p>对于新计划和许可证结构：
-  <ul><li>最终计划 </li>
-  或
-  <li>适用于Prime或Select Adobe Workfront计划的Adobe Workfront目标的附加许可证。 </li></ul> </p>
+  <ul><li>最终计划 </li></ul>
+   </p>
 <p>对于当前计划和许可证结构： 
 <ul><li> Pro或更高版本 </li>
   <li>除了Adobe Workfront许可证之外，还提供了Workfront目标许可证。</li></ul></p>

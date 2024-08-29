@@ -1,42 +1,35 @@
 ---
 title: 请求访问视图或Workspace的权限
-description: 您可以请求对其他人向您发送了先前未与您共享的链接的视图或工作区的权限。
+description: 当某人共享指向您无权访问的视图或工作区的链接时，您可以请求权限以便能够打开该链接。 本文介绍了当您遇到无法打开的共享链接时，请求访问视图或工作区的步骤。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # 请求对视图或工作区的权限
 
-您可以请求对其他人向您发送了先前未与您共享的链接的视图或工作区的权限。
+当有人与您共享指向您无权访问的视图或工作区的链接时，您可以请求对视图或工作区的权限。
 
 向视图请求权限与向工作区请求权限类似。
+
+本文介绍当有人与您共享链接而您无法访问共享页面时，如何请求对视图或工作区的访问权限。
+
+有关向视图和工作区授予权限的信息，请参阅以下文章：
+
+* [共享视图](/help/quicksilver/planning/access/share-views.md)
+* [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## 访问要求
 
 +++ 展开以查看Workfront Planning的访问要求。
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 您必须具备以下条件才能访问Workfront Planning：
 
@@ -128,10 +121,6 @@ role: User, Admin
    * 电子邮件通知
      ![](assets/email-notification-for-access-request.png)
 
-   有关向视图和工作区授予权限的信息，请参阅以下文章：
-
-   * [共享视图](/help/quicksilver/planning/access/share-views.md)
-   * [共享工作区](/help/quicksilver/planning/access/share-workspaces.md)
-1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this-->
+1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this, but Isk confirmed.-->
 
 

@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ You can add updates to the following objects:
    1. 在更新中要插入链接的位置单击。
    1. 在&#x200B;**富文本**&#x200B;工具栏上，单击&#x200B;**超链接**&#x200B;图标![](assets/link-icon.png)。
 
-   1. 在出现的&#x200B;**创建链接**&#x200B;框中，在&#x200B;**URL**&#x200B;下，键入或粘贴要链接到的源的URL。
+   1. 在&#x200B;**创建链接**&#x200B;框的&#x200B;**URL**&#x200B;下，键入或粘贴要链接到的源的URL。
 
    1. 在&#x200B;**要显示的文本**&#x200B;下，键入或粘贴链接文本。
    1. 单击&#x200B;**保存**。
@@ -386,7 +386,7 @@ You can add updates to the following objects:
 1. （可选）要将图像附加到更新，请执行下列操作之一：
 
    * 将图像保存在计算机上，然后将其拖放到新注释区域。
-   * 从计算机复制屏幕快照，然后将其粘贴到评论中。<!-- This is not available in the legacy commenting experience.-->
+   * 从计算机中复制屏幕快照，然后将其粘贴到评论中。
    * 单击&#x200B;**添加映像**&#x200B;图标![](assets/add-image-mountain-with-plus-icon.png)并浏览到计算机上的映像。
 
 
@@ -399,7 +399,8 @@ You can add updates to the following objects:
    >* 您的Workfront管理员必须在Workfront界面区域的更新馈送首选项部分启用添加图像功能，然后才能看到图像或添加附件图标。 有关信息，请参阅[配置用户更新的首选项](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
    >* 最大图像文件大小为7 MB。 支持的图像文件类型为.jpg、.gif和.png。
    >* 可从对象的“更新”部分访问图像，也可从主菜单下的“文档”区域访问图像。
-   >* 您可以右键单击新注释或在键盘上按Ctrl + V(对于Windows，或者按⌘ + V(对于Mac))来粘贴图像。
+   >您可以使用键盘组合或Print Screen功能（在Windows计算机上）从计算机中复制屏幕快照。
+   >* 您可以粘贴图像，方法是：在新评论中右键单击，然后单击&#x200B;**粘贴**，或者按键盘上的Ctrl + V （对于Windows）或⌘ + V (对于Mac)。
    >* 您可以发送包含图像但不包含文本的更新。
    >* 删除包含图像的注释时，该图像会从“更新”部分和“文档”区域中删除。 编辑注释并删除图像时，也会从“文档”区域中删除图像。
    >* 当有人从“文档”区域删除附加到评论的图像时，该图像也会从评论中删除。

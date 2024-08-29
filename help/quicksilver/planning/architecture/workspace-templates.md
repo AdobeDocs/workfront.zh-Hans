@@ -3,9 +3,10 @@ title: 工作区模板列表
 description: 工作区是团队使用的记录类型的集合，表示团队的工作生命周期。 Adobe Workfront Planning随附了一组模板，帮助您在构建工作区时开始使用基本记录类型和字段。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

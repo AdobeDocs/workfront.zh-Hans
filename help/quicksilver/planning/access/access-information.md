@@ -1,14 +1,14 @@
 ---
 title: “Adobe Workfront计划访问信息：文章索引”
-description: 作为Workfront管理员，您必须向用户授予访问权限才能使用Adobe Workfront Planning。 以下文章包含有关使用Workfront Planning时用户需要具有的访问权限的信息。
+description: 作为Workfront管理员，您必须向用户授予访问权限才能使用Adobe Workfront Planning。 以下文章包含有关使用Workfront Planning时用户需要拥有哪些访问权限，以及在用户无权访问时如何请求和授予权限的信息。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
