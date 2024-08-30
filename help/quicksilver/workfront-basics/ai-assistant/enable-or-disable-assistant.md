@@ -5,7 +5,7 @@ description: 您可以控制组织中哪些访问级别有权访问AI助手。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 091e59dcdd2c3844bda08bb8ed9d22a5f0060e59
+source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -57,5 +57,5 @@ ht-degree: 1%
 1. 在“编辑访问级别”窗口中，向下滚动到窗口底部，然后单击&#x200B;**设置其他限制……**。
 1. 在设置其他限制区域，启用选项&#x200B;**禁用Workfront AI助手**。
 1. 单击&#x200B;**保存**。
-1. 对要启用AI助理的每个访问级别重复步骤3-6。
+1. 对要禁用AI助理的每个访问级别重复步骤3-6。
 
