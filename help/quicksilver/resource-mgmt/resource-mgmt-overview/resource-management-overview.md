@@ -2,16 +2,16 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 资源管理
+title: 资源管理概述
 description: 资源管理允许资源经理进行业务决策，确保当前可用的单个员工预算与最高优先级的工作预算一致。 虽然资源管理可能从工作角色级别开始，但最终它涉及到用户及其利用率不足或过度承诺的问题。
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 

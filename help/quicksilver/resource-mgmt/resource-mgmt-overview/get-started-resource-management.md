@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: 资源管理入门
 description: 资源管理允许您配置系统，以便根据资源的可用性准确预测资源的使用情况，从而按时和按预算完成必须完成的工作。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 您必须是以下用户之一，并且具有以下访问和权限才能访问资源管理工具：
 
 * 系统管理员。
-* 具有Plan许可证的用户。
+* 具有Standard或Plan许可证的用户。
 
   具有工作许可证的用户可以使用项目的工作负载均衡器并管理分配和分配。
 
-  除了拥有工作许可证或更高许可证之外，还必须具备以下内容才能使用特定的资源管理工具：
+  除了拥有工作许可证或更高许可证（或标准许可证）之外，还必须具备以下内容才能使用特定的资源管理工具：
 
    * 编辑对资源管理的访问权限（在工作负载均衡器中进行分配时不需要）
    * 编辑对财务数据的访问权限以在资源规划者中显示成本信息
@@ -168,7 +168,6 @@ Workfront有几组用于管理资源的工具。 每个工具都有一个单独�
 有关Workfront中每个资源管理工具的要求的信息，请参阅以下内容：
 
 * [资源规划者概述](../../resource-mgmt/resource-planning/get-started-resource-planner.md)文章中的[使用资源规划者的先决条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)部分。
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * 文章[工作负载均衡器概述](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)中的[使用工作负载均衡器的最佳实践](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)部分。
 * [在Adobe Workfront中预算资源所需的访问权限](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [在工作负载均衡器](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)中管理资源所需的访问权限。

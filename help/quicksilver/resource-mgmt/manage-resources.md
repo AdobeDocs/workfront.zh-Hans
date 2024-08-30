@@ -4,11 +4,11 @@ product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: 管理资源
 description: 资源管理对于正确管理您的工作和预测可用性非常重要。 请在以下文章中了解如何规划和安排您的工作资源。
-author: Alina
+author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 4%

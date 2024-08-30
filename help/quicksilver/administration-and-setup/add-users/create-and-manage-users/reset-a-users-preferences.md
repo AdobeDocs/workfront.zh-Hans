@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -110,13 +110,25 @@ ht-degree: 2%
 1. 选择&#x200B;**登录身份**。
 1. 开始键入要重置其首选项的用户名，然后在名称出现在下拉列表中时单击该名称。
 1. 选择&#x200B;**登录**。
-1. 在Web浏览器顶部的URL字段中，在`workfront.com`之后添加`/resetUser`。
+1. 如果贵组织尚未载入AdobeUnified Experience，请按照以下步骤操作：
 
-   >[!NOTE]
-   >
-   >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * 在Web浏览器顶部的URL字段中，在`workfront.com`之后添加`/resetUser`。
+
+     >[!NOTE]
+     >
+     >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. 如果您的组织已载入到AdobeUnified Experience，请按照以下步骤操作：
+
+   * 在Web浏览器顶部的URL字段中，在`workfront`之后添加`/resetUser`。
+
+     >[!NOTE]
+     >
+     >这区分大小写。 U必须大写，其余字符必须为小写。 例如：
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. 按&#x200B;**Enter**。
 1. 要重置所有用户首选项，请选择&#x200B;**重置**。
