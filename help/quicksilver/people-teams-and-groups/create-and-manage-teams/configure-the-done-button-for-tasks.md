@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: 为任务配置完成按钮
+title: 配置任务的完成按钮
 description: 完成按钮可自动设置任务或问题的状态。 默认情况下，当被分配人单击其工作项上的完成时，Adobe Workfront将任务标记为已完成。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,37 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] 计划*</strong></p></td> 
-   <td> <p>任何</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] 许可证*</strong></p></td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：标准</p>
+   <p>或</p>
+   <p>当前：计划</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为团队配置[!UICONTROL 完成]按钮
 
 您可以使用[!UICONTROL 完成]按钮更改应用于工作项的状态。 您还可以设置多个状态，并允许用户选择合适的状态。
 
-1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 团队]**。
+{{step1-to-team}}
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 编辑]**。

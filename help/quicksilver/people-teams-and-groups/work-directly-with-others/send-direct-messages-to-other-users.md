@@ -7,9 +7,9 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,34 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p>新增：浅色或更高</p>
+   <p>或</p>
+   <p>当前：审阅或更高版本</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 向其他用户发送与工作项无关的消息
 

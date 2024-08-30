@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 5%
@@ -304,7 +304,7 @@ ht-degree: 5%
    * 下拉
    * 多选下拉框
 
-   ![将字段拖到画布上](assets/drag-field-to-section-041524.png)
+   ![将字段拖到画布上](assets/drag-field-to-section.png)
 
 1. 在屏幕右侧，配置可用于要添加的自定义字段类型的选项：
 
@@ -579,7 +579,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">名称</td> 
-      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p> 
+      <td> <p>（必需）此名称是系统标识字段的方式。 首次配置构件并键入标签时，会自动填充名称字段以匹配它。 但是“标签”和“名称”字段不同步，这使您能够自由更改用户看到的标签，而无需更改系统看到的名称。</p>
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
      </tr> 
       <td role="rowheader">说明</td> 
