@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>24.8（2024年8月）</li><li>24.9（2024年9月）</li><li>24.10（2024年10月）</li></ul> | <ul><li>24.10（2024年10月）</li></ul> |
+>| <ul><li>24.8（2024年8月15日）</li><li>24.9（2024年9月12日）</li><li>24.10（2024年10月）</li></ul> | <ul><li>24.10（2024年10月）</li></ul> |
 >
 >请注意，对于每季度的最终版本（本季度24.10版），按照快速发布计划排程的用户将提前一天收到版本。
 >
@@ -58,6 +58,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">回滚环境升级包</a></p>
+                        <p>为了使环境升级更加灵活和易于使用，我们启用了回滚功能。 现在，您可以在24小时内回滚包，从而更轻松地恢复受环境升级包影响的先前配置。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年8月29日</p>
+                            </li>
+                            <li>
+                                <p>用于快速发布的生产：用于24.9版（2024年9月12日）</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         自定义表单设计器上的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">布局按钮允许两列或三列</a></p>
                         <p>自定义表单设计器上的“布局”按钮允许您从两列或三列工作区中进行选择。 原始表单设计器使用三列，并且字段设置显示在最右侧的列中。 如果选择两列，则字段设置显示在最左列的字段库旁边。</p>
                     </td>
@@ -67,7 +86,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年8月12日</p>
                             </li>
                             <li>
-                                <p>用于快速发布的生产：用于24.9版（2024年9月）</p>
+                                <p>用于快速发布的生产：用于24.9版（2024年9月12日）</p>
                             </li>
                             <li>
                                 <p>适用于所有客户的生产版本：待定</p>
@@ -192,6 +211,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         桌面校对查看器的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium更新</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>我们正在升级桌面验证查看器以支持Chromium 126.0.6478.127，该版本将解决交互式验证中的UI元素问题。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -217,6 +237,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning的正式发布</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>除了Workfront许可证外，所有购买了Workfront Planning许可证的客户都可使用Workfront Planning。 有关Workfront规划的更多信息，请与您的客户代表联系。</p>
                         <p>有关每季度最新的Workfront Planning发行信息，请参阅下面的<a href="#workfront-planning-enhancements">Workfront Planning增强功能</a>部分。</p>
                     </td>
@@ -231,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront中可用的AdobeAI助手</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>为了更便于您完成工作，我们已在Workfront中添加Adobe的AI助手。 AI Assistant可帮助您：</p>
                         <ul>
                             <li>汇总工作项和文档，使您能够快速大致了解任务、项目和资产。</li>
