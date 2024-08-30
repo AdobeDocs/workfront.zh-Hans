@@ -7,9 +7,9 @@ description: 您可以与审阅人共享和审阅各种类型的文件，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,11 +181,8 @@ Workfront具有以下限制：
 > * PPSX - Microsoft PowerPoint幻灯片
 > * XLT - Microsoft Excel模板
 > * XLTX - Microsoft Excel模板
-
->[!WARNING]
-> 由于安全问题，我们暂时不支持以下静态文件类型：
->
 > * EPS — 封装的PostScript
+
 
 * AI - Adobe Illustrator图稿
 * AIT - Adobe Illustrator模板
