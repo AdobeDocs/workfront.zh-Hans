@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # 请求对视图或工作区的权限
+
+>[!IMPORTANT]
+>
+>仅当您的组织已载入到AdobeUnified Experience时，本文中描述的功能才可用。
+>
+>有关详细信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+
 
 当有人与您共享指向您无权访问的视图或工作区的链接时，您可以请求对视图或工作区的权限。
 
@@ -66,6 +73,8 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p><b>重要</b></p>
+<p>只有当您的组织登记到AdobeUnified Experience时，您组织中的用户才能请求查看和工作区的权限。 </p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
    </td> 
    </tr> 

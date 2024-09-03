@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ ht-degree: 0%
 当您请求访问工作区或视图时，您请求访问的用户将收到有关该请求的电子邮件通知。 在请求被批准后，您将收到一封电子邮件通知，确认您的请求已被批准。
 
 授予权限后，您可以从电子邮件通知访问视图或工作区。 <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>您的组织必须登记到AdobeUnified Experience，用户才能通过权限请求向视图或工作区请求和授予权限。
+
 
 有关信息，请参阅[请求对视图或工作区的权限](/help/quicksilver/planning/access/request-permissions.md)。
 

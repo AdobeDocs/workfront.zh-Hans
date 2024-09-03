@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 可以在时间轴视图的选定记录类型的记录下显示连接的记录或对象。
 * 使用“划分”功能，可在时间轴视图中显示以下内容：
    * 连接到所选记录类型的Workfront Planning记录。
-   * 连接到所选记录类型的Workfront (*************&#x200B;或AEM Assets *************)对象类型。
+   * Workfront对象类型或连接到所选记录类型的Experience Manager资源。
    * Workfront Planning记录或其他应用程序中连接到连接到选定记录类型的记录的对象。
 
      例如，您可以将营销活动连接到项目组合。 此外，您还可以将另一个记录类型“产品”与项目以及营销活动相关联。 构建营销活动时间线视图时，您可以按项目组合、产品和项目细分营销活动。

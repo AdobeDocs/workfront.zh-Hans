@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,9 @@ Adobe Workfront Planning对实例中可创建的对象数量存在限制。 设�
 | 一个工作区的记录数 | 25,000（计划为<br>的客户）500,000（计划为Planning Plus的客户） |
 | Workfront Planning的一个实例的总记录数 | 500,000，适用于计划为<br>200,000的客户且适用于计划为Planning Plus的客户 |
 | 一种记录类型或分类的字段数 | 500 |
-| 文本字段的字符数 | 1,000个字符 |
+| 单行文本字段的字符数 | 1,000个字符 |
+| 段落字段的字符数 | 100,000个字符 |
+| 一种记录类型的段落字段数 | 20个段落字段 |
 | 可粘贴到记录类型表中的文件大小 | 1MB |
 | 可通过API为记录类型表导入的文件的大小 | 1.5兆字节 |
 | 发出API请求的速率 | 每分钟200个请求 |

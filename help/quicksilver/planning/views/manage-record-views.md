@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -356,10 +356,12 @@ ht-degree: 1%
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. （视情况而定）打开一个表格视图，另一个人正在编辑的字段会以与其在表格视图中头像的轮廓相对应的颜色列出。
+1. （视情况而定）打开表格视图，另一个人正在主动编辑的字段会以对应于表格视图中其头像轮廓的颜色突出显示。
+
+   如果头像的高亮颜色为灰色，则用户在30秒前停止了主动编辑记录。
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 已编辑的字段仅在表格视图中列出。
+   >您可以从任何视图中选择&#x200B;**显示协作者**&#x200B;切换开关。 他人当前编辑的字段仅在表格视图中列出。

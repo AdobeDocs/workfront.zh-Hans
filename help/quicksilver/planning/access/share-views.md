@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,7 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>贵组织的Workfront实例必须载入AdobeUnified Experience，才能访问Workfront Planning的所有功能。</p> 
+<p>您的组织必须载入到AdobeUnified Experience，用户才能从权限请求请求向视图请求和授予权限。 </p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
    </td> 
    </tr> 
@@ -290,6 +291,9 @@ This article describes how you can share a view with others. For information abo
    显示&#x200B;**待处理访问请求**&#x200B;框。
 
    ![](assets/notifications-list-approval-box.png)
+1. （可选）对于要批准其权限的用户，从用户名右侧的下拉菜单中选择以下选项之一：
+   * **视图**
+   * **管理**
 1. 选择要批准或拒绝权限的用户，然后单击&#x200B;**全部批准**&#x200B;或&#x200B;**全部拒绝**。
 1. 单击&#x200B;**待处理访问请求**&#x200B;左侧的左箭头，然后单击&#x200B;**保存**。
 

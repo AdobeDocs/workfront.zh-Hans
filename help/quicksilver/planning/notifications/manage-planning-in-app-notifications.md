@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
    <td> 
 <p>您组织的Workfront实例必须载入到AdobeUnified Experience。</p> 
+<p>仅当您的组织登记到AdobeUnified Experience后，您组织中的用户才会从Workfront Planning接收通知。 </p>
 <p>有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">AdobeWorkfront的Unified Experience</a>。 </p> 
    </td> 
    </tr> 

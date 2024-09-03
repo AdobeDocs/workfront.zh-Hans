@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2715'
 ht-degree: 1%
 
 ---
@@ -371,7 +371,7 @@ ht-degree: 1%
 >
 >当Workfront管理员通过Experience Manager Assets与Workfront之间的集成配置元数据映射时，可从Adobe Experience Manager Assets访问Planning记录及其字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-要将记录与AEM Assets连接：
+要将记录与Experience Manager资源连接，请执行以下操作：
 
 {{step1-to-planning}}
 

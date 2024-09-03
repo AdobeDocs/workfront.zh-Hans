@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### 单行文本 {#single-line-text}
 
-单行文本字段捕获有限的字母数字信息。 例如，您可以在一行文本字段中捕获“所有者”、“利益相关者”、“团队”或“组织”单位信息。 单行文本字段的内容最多可包含250个字符。<!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+单行文本字段捕获有限的字母数字信息。 例如，您可以在一行文本字段中捕获“所有者”、“利益相关者”、“团队”或“组织”单位信息。 单行文本字段的内容最多可包含1,000个字符。<!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**单行文本**&#x200B;字段类型。
 
@@ -245,9 +245,12 @@ OLD:
 
 >[!TIP]
 >
->* 段落字段的内容最多可包含1,000个字符。
+>* 一个记录类型最多可以有20个段落字段。
 >
+>* 段落字段的内容最多可包含100,000个字符。
 >* 当段落字段显示在记录的表视图或详细信息页面中时，您可以使用富文本格式来增强段落字段的内容。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+>
+
 
 1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**段落**&#x200B;字段类型。
 
