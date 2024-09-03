@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        桌面验证查看器Windows用户的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">空白屏幕修复</a></p>
+                        [！BADGE In Production ]{type=Informational}
+                        <p>我们修复了新的2.1.36桌面验证查看器版本的问题，该问题会导致某些Windows用户在打开查看器后看到空白屏幕。 </p>
+                        <p>Windows用户的新版本： 2.1.37</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年8月30日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产版本： 2024年8月30日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
