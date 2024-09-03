@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ or billing record
 1. 在&#x200B;**详细信息**&#x200B;部分中，执行以下任一操作以自定义用户在“详细信息”视图中看到的内容：
 
    * 拖动任何节标题![](assets/move-icon---dots.png)以更改其顺序。
-   * 启用或禁用&#x200B;**概述**&#x200B;和&#x200B;**自定义Forms**&#x200B;下的选项以显示或隐藏它们。
+   * 启用或禁用各种区域(如&#x200B;**概述**、**财务**&#x200B;和&#x200B;**自定义Forms**)下的选项以显示或隐藏它们。
 
      如果隐藏其中一个部分中的所有字段，则会隐藏整个部分。
 
-     所有字段默认处于启用状态。
+     所有字段默认处于启用状态。 您可以选中或清除某个区域中的&#x200B;**全选**&#x200B;复选框，以显示或隐藏该区域中的所有字段。
+
+   ![布局模板中的详细信息视图](assets/layout-template-details-view.png)
 
 1. 继续自定义布局模板。
 
