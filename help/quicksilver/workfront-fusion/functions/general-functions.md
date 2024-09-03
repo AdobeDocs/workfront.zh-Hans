@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion映射面板中提供了以下常规函数。
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ ht-degree: 0%
 
 如果表达式计算为true，则返回`value1`；否则，返回`value2`。
 
+若要创建if语句（仅当两个或更多表达式被计算为true时才返回值），请使用`and`关键字。
+
+要合并`if`语句，请使用`and`和`or`运算符。
+
+![和运算符](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**示例：**
@@ -81,9 +87,14 @@ ht-degree: 0%
 >
 >    返回
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   返回B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    返回B
+>   
 
 ## [!UICONTROL ifempty （值1；值2）]
 
@@ -107,7 +118,7 @@ ht-degree: 0%
 
 ## [!UICONTROL switch （表达式；值1；结果1；[值2；结果2； ...]；[else]）]
 
-根据值列表计算一个值（称为表达式）；返回与第一个匹配值对应的结果。
+根据值列表计算一个值（称为表达式）；返回与第一个匹配值对应的结果。 要包含`else`值，请将其添加到最终表达式或值之后。
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ ht-degree: 0%
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  返回4
+>   返回4
+>   
+>   在此函数中，4是在未应用表达式时要返回的值（`else`值）。
 
 ## [!UICONTROL 省略（对象；键1；[键2； ...]）]
 
