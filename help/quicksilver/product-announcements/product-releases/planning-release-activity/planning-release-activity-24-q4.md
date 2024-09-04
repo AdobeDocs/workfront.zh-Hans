@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,23 @@ ht-degree: 0%
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 将记录详细信息导出到PDF
+
+>[!NOTE]
+>
+>预览版本： 2024年9月3日；用于快速发布的生产版本：用于24.9版本（2024年9月12日）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+
+您现在可以将记录的详细信息页面或预览导出到PDF文档。
+
+在此增强功能之前，您只能将记录的详细信息选项卡导出到Word (.docx)文件。
+
+有关详细信息，请参阅[导出记录的详细信息](/help/quicksilver/planning/records/export-the-record-page.md)。
+
 ## Adobe Workfront Planning正式发布
 
 >[!NOTE]
 >
->预览和生产版本： 2024年8月28日
+>预览版本： 2024年8月28日；适用于所有客户的生产版本： 2024年8月28日
 
 Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront Planning的目的是全面了解企业的运营详细信息，并回答工作管理生命周期各阶段的关键业务问题。
 

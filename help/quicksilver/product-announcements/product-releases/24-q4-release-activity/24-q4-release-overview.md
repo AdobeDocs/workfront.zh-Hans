@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">布局模板中现在提供了“全选”选项</a></p>
+                        [！BADGE In Production ]{type=Informational}
+                        <p>为了帮助您更轻松地使用布局模板显示和隐藏字段，在布局模板的“详细信息”视图的“概述”和“财务”区域添加了“全选”复选框。 当您在“自定义用户查看内容”下选择了“项目”、“任务”、“问题”、“Portfolio”或“程序”时，此选项可用。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年8月29日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产版本： 2024年8月6日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook集成登录体验增强</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>Outlook集成的登录体验已得到简化，因此所有客户都可以看到相同的按钮来登录Workfront，无论他们是否启用了IMS。 IMS和非IMS实例的后续登录步骤仍然不同，但所有用户的初始页面都相同。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
