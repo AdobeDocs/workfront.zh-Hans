@@ -4,17 +4,17 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 资源规划者导航概述
 description: 通过使用Adobe Workfront资源规划者，您可以轻松了解资源的可用性以及完成项目工作所需的计划时间。 然后，您可以管理用户及其工作角色在分配给他们的项目中的分配。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 1%
 
 ---
 
-# 资源规划者导航概述
+# 资源规划程序导航概述
 
 通过使用Adobe Workfront资源规划者，您可以轻松了解资源的可用性以及完成项目工作所需的计划时间。 然后，您可以管理用户及其工作角色在分配给他们的项目中的分配。
 

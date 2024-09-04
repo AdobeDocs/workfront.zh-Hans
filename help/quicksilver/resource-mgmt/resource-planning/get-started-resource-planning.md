@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 资源规划入门
 description: 您可以使用资源计划工具来管理您的工作角色、工作角色的可用性以及基于此可用性的项目常规分配。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

@@ -3,14 +3,14 @@ title: 配置自定义帮助URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。 这不会影响主菜单中的主帮助链接以及整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
+description: 如果您创建自定义内部帮助站点，其中包含有关贵组织如何使用Workfront的信息，则可以配置主菜单帮助图标以转到该站点。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 2%
 
 ![](assets/custom-help-button.png)
 
-这不会影响主菜单中的主帮助链接以及整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
+这不会影响整个Workfront中的上下文相关帮助链接，这些链接会将用户转到Workfront帮助站点。
 
-![](assets/custom-help-url.png)
-
-有关用户如何访问您在Workfront中配置的自定义帮助URL和常规Workfront帮助网站的信息，请参阅[访问新Adobe Workfront Experience中的Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
+有关用户如何访问您在Workfront中配置的自定义帮助URL和常规Workfront帮助网站的信息，请参阅[访问Adobe Workfront帮助](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 访问要求
 
@@ -64,3 +62,5 @@ ht-degree: 2%
    如果您的自定义帮助位置需要登录凭据，则用户在从Workfront访问站点时需要这些凭据。 如果您未使用单点登录(SSO)，则可能需要将自定义帮助网站的凭据与Workfront凭据分开管理。
 
 1. 单击&#x200B;**保存**。
+
+   保存自定义帮助URL后，可以通过删除自定义URL并单击“保存”**返回到默认的Workfront帮助站点。**

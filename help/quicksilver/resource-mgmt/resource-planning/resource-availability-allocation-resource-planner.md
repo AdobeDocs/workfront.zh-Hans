@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 使用Adobe Workfront资源规划者审查资源可用性和分配
+title: 使用Adobe Workfront Resource Planner复查资源可用性和分配
 description: 您可以在资源规划者中查看资源的可用性以及项目的计划或预算工作量。 这些值以小时数、FTE（相当于全职）或成本金额显示，并按列组织。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 4%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：浅色或更高</p>
+       <p>或</p>
+       <p>当前：审阅或更高版本</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
      <li> <p>资源管理</p> </li> 
      <li> <p>财务数据</p> </li> 
      <li> <p>用户</p> </li> 
      <li> <p>项目</p> </li> 
-    </ul> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看您想在资源规划者中查看的项目或授予更高的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看您想在资源规划者中查看的项目或授予更高的权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## 先决条件
 
@@ -173,9 +173,7 @@ ht-degree: 4%
 
    当选择此选项时，Workfront使用以下公式计算净值：
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

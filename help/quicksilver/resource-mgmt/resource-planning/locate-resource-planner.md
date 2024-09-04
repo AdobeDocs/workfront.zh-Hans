@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 找到资源规划者
-description: '(本文脱颖而出：当本文上线时，在文章中草稿该内容：/Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
-author: Alina
+description: 您可以使用资源规划者管理资源到项目的分配。 您可以同时访问多个项目的资源规划者，也可以从项目的业务案例区域访问一个项目的资源规划者。
+author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,42 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> <p>计划或更高版本以在全局区域中找到资源规划者</p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新建：浅色或更高；</br>
+          在主菜单中查找资源规划者的标准</p>
+       <p>或</p>
+       <p>当前：审阅或更高；</br>
+       在主菜单中计划查找资源规划者</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看对资源管理的访问权限或更高版本</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对资源管理的访问权限或更高版本</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看对项目和用户的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看对项目和用户的权限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -79,14 +83,14 @@ ht-degree: 0%
 
 要访问“资源”区域中的“规划者”部分，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。 默认情况下，将显示Planner。  有关资源规划者中预算资源的信息，请参阅使用项目和角色视图的资源规划者中的预算资源[一文](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
+默认情况下，将显示Planner。  有关资源规划者中预算资源的信息，请参阅使用项目和角色视图的资源规划者中的预算资源[一文](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. 将鼠标悬停在左侧面板上，然后单击&#x200B;**资源池**。\
-   有关创建资源池的信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+1. 单击左侧面板中的&#x200B;**资源池**。
+有关创建资源池的信息，请参阅[创建资源池](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
 ### 将资源规划者用于一个项目 {#use-the-resource-planner-for-one-project}
 

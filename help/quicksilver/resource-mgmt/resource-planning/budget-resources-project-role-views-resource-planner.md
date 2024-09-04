@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 使用项目和角色视图的资源规划者中的预算资源
 description: 您可以使用“项目”和“角色”视图在Adobe Workfront资源规划程序中预算资源。 您不能使用资源规划者中的用户视图预算资源。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+    <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对资源管理的访问权限，包括访问资源规划者中的编辑优先级和预算小时数</p> <p>按Cost编辑对预算资源的财务数据的访问权限</p> <p>编辑对项目和用户的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对资源管理的访问权限，包括访问资源规划者中的编辑优先级和预算小时数</p> <p>按成本编辑对预算资源的财务数据的访问权限</p> <p>编辑对项目和用户的访问权限</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理要为其编制预算信息的项目的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理要为其编制预算信息的项目的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 资源规划者中的预算资源
 
@@ -74,9 +80,8 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。
 1. 默认显示&#x200B;**规划者**。
 1. （视情况而定）选择&#x200B;**按项目查看**&#x200B;视图。
 1. 展开项目和工作角色以管理项目、工作角色或用户的分配。
@@ -87,9 +92,7 @@ ht-degree: 0%
    * 单击用户工作角色的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将用户的计划小时数设置为预算**。\
      使用以下公式计算每个用户的预算小时数：
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 要分配工作角色的预算，请执行以下操作之一：
 
@@ -102,17 +105,13 @@ ht-degree: 0%
    * （视情况而定）如果您已为用户预算小时数，请单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击角色的&#x200B;**用户预算小时总数**。\
      使用以下公式计算每个角色的预算小时数：
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * 单击项目的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将角色的计划小时数设置为预算**。\
      使用以下公式计算每个角色的预算小时数：\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ ht-degree: 0%
    * 对项目下的角色进行预算，如步骤7中所述。\
      项目预算小时数按以下公式计算：
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * 在&#x200B;**BDG**&#x200B;列中，手动指定项目的预算小时数、FTE或成本。\
      这将更新角色预算小时数，如步骤7中所述。\
@@ -175,9 +172,7 @@ ht-degree: 0%
    * 单击项目的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将用户的计划小时数设置为预算**。\
      使用以下公式计算每个用户的预算小时数：
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 要分配工作角色的预算，请执行以下操作之一：
 
@@ -187,15 +182,11 @@ ht-degree: 0%
    * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击**将项目的计划小时数设置为已预算。**角色预算小时数使用以下公式计算：\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *项目预算小时数使用以下公式计算：
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * 在&#x200B;**BDG**&#x200B;列中，为工作角色下列出的项目手动指定预算小时数、FTE或成本。\
      这会将项目预算小时数添加到角色。
@@ -213,24 +204,20 @@ ht-degree: 0%
    * 单击工作角色的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**将项目的计划小时数设置为预算**。\
      项目预算小时数按以下公式计算：
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      项目预算小时数已添加到角色预算小时数。
 
    * （视情况而定）如果您已为用户预算小时数，请单击项目的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**项目的用户预算小时总数**。\
      项目预算小时数使用以下公式计算：
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. 单击&#x200B;**保存**。\
-   在资源规划者中预算资源后，资源的预算小时数以及与资源相关的任何成本将列在每个项目的业务案例中。\
-   有关了解业务案例的资源预算编制区域的详细信息，请参阅文章[业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
+   在资源规划者中预算资源后，资源的预算小时数以及与资源相关的任何成本将列在每个项目的业务案例中。
+有关了解业务案例的资源预算编制区域的详细信息，请参阅文章[业务案例中的预算资源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 1. （可选）选择&#x200B;**按用户查看**&#x200B;视图可注意到每个用户的可用小时数和计划小时数之间存在的任何用户过度分配或利用不足的情况。 预算小时数在“按用户查看”视图中不可见。
 

@@ -5,9 +5,9 @@ description: 顶部导航栏（显示在 [!DNL Adobe Workfront] 中的屏幕顶�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ ht-degree: 0%
 
 您可以固定经常访问的页面，以便它们显示在顶部导航栏中。 若要了解有关固定页面的更多信息，请参阅[固定页面以自定义您的工作区](../../workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
-## [!UICONTROL 帮助]菜单
+<!--
+## [!UICONTROL Help] menu
 
-通过&#x200B;**[!UICONTROL 帮助]**&#x200B;菜单，您可以搜索特定任务的帮助、查找有关使用[!DNL Workfront]的更多信息、查看与您当前所在页面相关的内容或提交关于您体验的反馈。
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-若要了解有关“帮助”菜单的更多信息，请参阅[访问 [!DNL Adobe Workfront] 帮助](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL 通知]菜单
 

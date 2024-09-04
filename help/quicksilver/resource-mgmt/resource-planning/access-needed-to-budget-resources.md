@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: 在Adobe Workfront中预算资源所需的访问权限
+title: 在Workfront中预算资源所需的访问权限
 description: 当您具有工作项、用户、工作角色和团队的特定访问级别设置和权限时，您可以查看和管理有关您有权查看的项目资源规划的信息。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Workfront中预算资源所需的访问权限
+# 在Workfront中预算资源所需的访问权限
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,15 +37,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业或专业以上</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td>
+  </tr>  
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> 
     <ul> 
      <li> <p>编辑访问级别中资源管理的访问权限，包括：</p> 
@@ -54,16 +58,13 @@ ht-degree: 0%
        <li> <p>管理资源池的权限（如果需要管理资源池）。</p> </li> 
       </ul> <p>有关资源管理访问级别的信息，请参阅文章<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">授予对资源管理的访问权限</a>。</p> </li> 
      <li> <p>编辑对项目和用户的访问权限。 </p> </li> 
-     <li> <p> 如果需要按成本查看或管理信息，请在访问级别编辑对财务数据的访问。</p> <p>有关财务数据访问级别的更多信息，请参阅文章<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</p> </li> 
-    </ul>
-
-<p><b>注释</b> </p>
-
-<p> 如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+     <li> <p> 如果需要按“成本”查看或管理信息，请在访问级别编辑对财务数据的访问。</p> <p>有关财务数据访问级别的更多信息，请参阅文章<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予对财务数据的访问权限</a>。</p> </li> 
+    </ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理项目权限，包括管理财务权限。</p> <p>有关项目权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关项目的财务权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共享对象的财务权限</a></a>。</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">请求访问对象</a>。</p>
+   <td> <p>管理项目权限，包括管理财务权限。</p> <p>有关项目权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">在Adobe Workfront中共享项目</a>。</p> <p>有关项目的财务权限的信息，请参阅文章<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">共享对象的财务权限</a></a>。</p>
 
 <p><b>注释</b>
 
@@ -72,4 +73,4 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。

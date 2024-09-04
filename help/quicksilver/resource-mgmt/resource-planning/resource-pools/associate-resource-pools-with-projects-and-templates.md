@@ -6,7 +6,7 @@ description: 资源池是用户集合，可帮助您管理Adobe Workfront中的�
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Also - take out all the references to Preview and Prod at prod final
    <td role="rowheader">Adobe Workfront计划</td> 
    <td><p>新建：任何</p>
        <p>或</p>
-       <p>当前：专业及更高版本</p> </td> 
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
