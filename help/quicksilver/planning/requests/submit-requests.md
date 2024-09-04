@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
    <td role="rowheader"><p>Adobe Workfront规划计划*</p></td>
    <td>
 <p>任何 </p>  
-<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </td>
+<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront平台</p></td>
    <td>

@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 1%
 
 # 导出记录的详细信息
 
-要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息导出到Word文档并与他们共享。
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息导出到文件并与他们共享。
 
 ## 访问要求
 
@@ -54,7 +50,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
    <td role="rowheader"><p>Adobe Workfront规划计划*</p></td> 
    <td> 
 <p>任何 </p> 
-<p>有关每个Workfront计划中包含的内容的更多信息，请参阅<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定价和打包</a>。 </p> 
+<p>有关每个Workfront计划中包括的内容的更多信息，请联系您的Workfront客户经理。 </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront平台</p></td> 
@@ -150,16 +146,12 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 ## 有关导出记录详细信息的注意事项：
 
-* 您可以将记录的详细信息导出到Word文档。
+* 您可以将记录的详细信息导出为以下文件格式：
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* 您可以导出记录页面的“详细信息”页面。 无法导出“连接”选项卡。
+* 您可以导出记录页面的详细信息选项卡。 无法导出“连接”选项卡。
 
 * 导出的文件保留记录页面的布局，包括缩略图和封面图像。
 
@@ -182,10 +174,15 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 1. 选择&#x200B;**详细信息**&#x200B;选项卡。 默认情况下，“详细信息”选项卡应处于打开状态。
 
-1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)。
+1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)，然后单击以下图标之一：
 
-   Word文件(.docx)将下载并保存到您的计算机。
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   下载Word (.docx)或PDf文件并将其保存到您的计算机。
+
+   导出的文件的名称是记录的“Primary”字段。
 
    ![](assets/exported-word-file.png)
 
-1. （可选）转到下载的文件，打开该文件并进行编辑或与其他人共享。
+1. （可选）转到下载的文件，打开它并编辑它（如果它是Word文件），或者与他人共享它。

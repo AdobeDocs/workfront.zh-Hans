@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2981'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">本文列出了在2023年Workfront计划的Beta版阶段发布的功能。</span>
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
 >除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
@@ -28,15 +29,25 @@ ht-degree: 0%
 >有关Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
-本文列出了在2023年5月22日Adobe Workfront计划测试版项目启动后，2023年发布的功能。
-
 有关发布活动的更多信息，另请参阅以下文章：
 
 * [Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)，了解Workfront Planning当前发布活动的相关信息。
 
 * [Adobe Workfront 2024年规划发布活动](/help/quicksilver/planning/general/release-activity.md)，了解有关2024年期间发布的功能（在2024年8月28日正式发布之前）的信息。
 
-已发布功能按其发布的顺序列出，最新的功能排在首位。
+## Workfront Planning发布时间表
+
+<!-- this section is also duplicated in the 2024 release notes article-->
+
+下表显示了Workfront Planning发布的时间表：
+
+| 时间 | 版本 |
+|--------------------|-----------------------------------------|
+| 2023年8月至12月 | Workfront计划测试版* |
+| 2024年1月至8月 | Workfront计划提前发布* |
+| 2024年8月28日 | Workfront Planning正式发布 |
+
+*测试版和早期发布阶段仅向部分客户提供。
 
 ## 2023年12月25日起一周
 
