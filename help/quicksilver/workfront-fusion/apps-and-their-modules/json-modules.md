@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion JSON应用程序提供了用于处理JSON格
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ ht-degree: 0%
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [聚合到JSON](#aggregate-to-json)
 * [将JSON转换为XML](#convert-json-to-xml)
 * [解析JSON](#parse-json)
 * [创建JSON](#create-json)
 * [转换JSON](#transform-json)
 
-### [!UICONTROL 聚合到JSON]
+### 汇总
+
+#### [!UICONTROL 聚合到JSON]
 
 此聚合器模块将上一个模块的输出聚合到JSON中。
 
@@ -162,7 +163,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 将JSON转换为XML]
+### 变压器
+
+* [将JSON转换为XML](#convert-json-to-xml)
+* [创建JSON](#create-json)
+* [解析JSON](#parse-json)
+* [转换JSON](#transform-json)
+
+#### [!UICONTROL 将JSON转换为XML]
 
 此操作模块将JSON字符串转换为XML。
 
@@ -177,7 +185,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 解析JSON]
+#### [!UICONTROL 创建JSON]
+
+此操作模块从数据结构创建JSON。
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">数据结构</td> 
+   <td> <p>选择要用于创建JSON的数据结构。 有关详细信息，请参阅本文中的<a href="#data-structure" class="MCXref xref">数据结构</a>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 解析JSON]
 
 此操作模块将JSON字符串解析为数据结构，允许您访问JSON字符串中的数据。
 
@@ -196,22 +219,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 创建JSON]
-
-此操作模块从数据结构创建JSON。
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">数据结构</td> 
-   <td> <p>选择要用于创建JSON的数据结构。 有关详细信息，请参阅本文中的<a href="#data-structure" class="MCXref xref">数据结构</a>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL 转换JSON]
+#### [!UICONTROL 转换JSON]
 
 此操作模块将对象转换为JSON字符串。
 
@@ -238,28 +246,27 @@ ht-degree: 0%
 >
 1. 在[!UICONTROL 数组聚合器]模块之后连接[!UICONTROL JSON] > [!UICONTROL 创建JSON]模块。 模块设置需要一个描述JSON格式的数据结构。 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以打开数据结构设置。 创建此数据结构的最简单方法是自动从JSON示例生成它。 单击&#x200B;**[!UICONTROL 生成器]**&#x200B;并将您的JSON示例粘贴到&#x200B;**[!UICONTROL 示例数据]**&#x200B;字段：
 >
->     **示例：**
+**示例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. 单击&#x200B;**[!UICONTROL 保存]**。 数据结构中的[!UICONTROL Specification]字段现在包含生成的结构。
 1. 将数据结构的名称更改为更具体的名称，然后单击&#x200B;**[!UICONTROL 保存]**。 与root数组属性对应的字段在JSON模块的设置中显示为可映射字段。

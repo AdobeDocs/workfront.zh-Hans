@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -637,8 +637,31 @@ ht-degree: 0%
 
 ### 搜索
 
-* [[!UICONTROL 搜索]](#search)
 * [[!UICONTROL 列出工作流模板]](#list-workflow-templates)
+* [[!UICONTROL 搜索]](#search)
+
+#### [!UICONTROL 列出工作流模板]
+
+此搜索模块列出了所有可用的工作流模板。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>有关将[!DNL Workfront Proof]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL输出]</td> 
+   <td> <p>选择要包含在此模块的输出捆绑包中的信息。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL限制]</td> 
+   <td> <p>输入或映射每个方案执行周期中您希望模块返回的最大模板数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 搜索]
 
@@ -677,29 +700,6 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL排序方向]</td> 
    <td> <p>选择要按升序或降序对结果进行排序。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 列出工作流模板]
-
-此搜索模块列出了所有可用的工作流模板。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>有关将[!DNL Workfront Proof]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[！UICONTROL输出]</td> 
-   <td> <p>选择要包含在此模块的输出捆绑包中的信息。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[！UICONTROL限制]</td> 
-   <td> <p>输入或映射每个方案执行周期中您希望模块返回的最大模板数。</p> </td> 
   </tr> 
  </tbody> 
 </table>

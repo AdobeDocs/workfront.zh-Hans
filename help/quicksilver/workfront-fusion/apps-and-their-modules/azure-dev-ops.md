@@ -9,9 +9,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,13 @@ ht-degree: 0%
 
 ### 操作
 
-* [自定义API调用](#custom-api-call)
-* [读取记录](#read-record)
 * [创建记录](#create-a-record)
+* [自定义API调用](#custom-api-call)
+* [下载附件](#download-an-attachment)
+* [链接工作项](#link-work-items)
+* [读取记录](#read-record)
 * [更新工作项](#update-a-work-item)
 * [[!UICONTROL 上载附件]](#upload-an-attachment)
-* [下载附件](#download-an-attachment)
-* [链接工作项]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL 自定义API调用]
 
@@ -183,43 +183,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 读取记录]
-
-此操作模块从[!DNL Azure DevOps]中的单个记录读取数据。
-
-您指定记录的ID。
-
-该模块返回记录ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
-
-配置此模块时，会显示以下字段。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL记录类型]</td> 
-   <td> <p>选择您要读取项目还是工作项</p> 
-    <ul> 
-     <li> <p><strong>[！UICONTROL项目]</strong>：选择要读取的项目……</p> </li> 
-     <li> <p><strong>[！UICONTROL工作项]</strong>：选择包含要读取的工作项的项目，然后选择该工作项类型。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL输出]</td> 
-   <td>选择要包含在此模块的输出捆绑包中的信息。 可用字段取决于工作项类型。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
-   <td>输入或映射要读取的记录的ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 创建记录]
 
 此操作模块创建新项目或工作项。
@@ -253,6 +216,99 @@ ht-degree: 0%
        <li> <p><strong>[！UICONTROL其他字段]</strong>：在这些字段中，输入您希望工作项具有的给定属性值。 可用字段取决于工作项类型。</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 下载附件]
+
+此操作模块下载附件。
+
+模块将返回附件的文件内容。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL附件URL]</td> 
+   <td> <p>输入或映射要下载的附件的URL。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 链接工作项]
+
+此操作模块链接两个工作项并定义它们之间的关系。
+
+模块返回主工作项和任何关联字段的ID，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
+
+配置此模块时，会显示以下字段。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL工作项ID]</td> 
+   <td>输入或映射要链接其他工作项的主工作项的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL链接的工作项ID]</td> 
+   <td>输入或映射要链接到主工作项的工作项的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL链接类型]</td> 
+   <td> <p>定义要链接的工作项之间的关系。</p> <p>有关详细信息，请参阅[！UICONTROL Azure DevOps]文档中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">链接类型引用</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Comment]</td> 
+   <td>输入或映射注释的文本。 这对于解释链接的推理或意图很有用。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 读取记录]
+
+此操作模块从[!DNL Azure DevOps]中的单个记录读取数据。
+
+您指定记录的ID。
+
+该模块返回记录ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
+
+配置此模块时，会显示以下字段。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL记录类型]</td> 
+   <td> <p>选择您要读取项目还是工作项</p> 
+    <ul> 
+     <li> <p><strong>[！UICONTROL项目]</strong>：选择要读取的项目……</p> </li> 
+     <li> <p><strong>[！UICONTROL工作项]</strong>：选择包含要读取的工作项的项目，然后选择该工作项类型。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL输出]</td> 
+   <td>选择要包含在此模块的输出捆绑包中的信息。 可用字段取决于工作项类型。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td>输入或映射要读取的记录的ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Source file] </td> 
    <td>从以前的模块中选择源文件，或者输入或映射源文件的名称和内容。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 下载附件]
-
-此操作模块下载附件。
-
-模块将返回附件的文件内容。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL附件URL]</td> 
-   <td> <p>输入或映射要下载的附件的URL。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 链接工作项]
-
-此操作模块链接两个工作项并定义它们之间的关系。
-
-模块返回主工作项和任何关联字段的ID，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
-
-配置此模块时，会显示以下字段。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Azure DevOps]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">将[!DNL Azure DevOps]连接到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL工作项ID]</td> 
-   <td>输入或映射要链接其他工作项的主工作项的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL链接的工作项ID]</td> 
-   <td>输入或映射要链接到主工作项的工作项的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL链接类型]</td> 
-   <td> <p>定义要链接的工作项之间的关系。</p> <p>有关详细信息，请参阅[！UICONTROL Azure DevOps]文档中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">链接类型引用</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Comment]</td> 
-   <td>输入或映射注释的文本。 这对于解释链接的推理或意图很有用。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3719'
 ht-degree: 0%
@@ -150,8 +150,6 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL 生成文档]](#generate-document)
-* [[!UICONTROL 提取文本/表]](#extract-text--table)
 * [[!UICONTROL 合并PDF文件]](#combine-pdf-files)
 * [[!UICONTROL 压缩PDF文件]](#compress-pdf-files)
 * [[!UICONTROL 将文档转换为PDF文件]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 * [[!UICONTROL 将图像转换为PDF文件]](#convert-image-to-pdf-file)
 * [[!UICONTROL 将PDF转换为文档]](#convert-pdf-to-document)
 * [[!UICONTROL 将PDF转换为图像]](#convert-pdf-to-image)
+* [[!UICONTROL 提取文本/表]](#extract-text--table)
+* [[!UICONTROL 生成文档]](#generate-document)
 * [[!UICONTROL 线性化PDF文件]](#linearize-a-pdf-file)
 * PDF文件]](#ocr-for-pdf-file)的[[!UICONTROL OCR
 * [[!UICONTROL 页面操作]](#page-manipulation)
@@ -167,127 +167,6 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 * [[!UICONTROL ProtectPDF文件]](#protect-pdf-file)
 * [[!UICONTROL 删除PDF文件的保护]](#remove-protection-of-a-pdf-file)
 * [拆分PDF文件](#split-a-pdf-file)
-
-### [!UICONTROL 生成文档]
-
-[!UICONTROL 生成PDF]模块是创建包含所选数据的文档的强大方法。 您可以使用[!DNL Microsoft Word]模板或以JSON格式提供数据来设置其格式。
-
-有关[!UICONTROL [!DNL Adobe PDF Services]生成文档]功能的详细信息，请参阅[!DNL Adobe Document Services]文档中的[文档生成概述](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)。
-
-* [使用 [!DNL Microsoft Word] 模板生成[!UICONTROL 文档]模块](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [使用JSON生成[!UICONTROL 文档]模块](#use-the-generate-document-module-with-json)
-
-#### 使用[!UICONTROL 生成文档]模块和[!DNL Microsoft Word]模板
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-若要将[!UICONTROL 生成文档]模块与[!UICONTROL Microsoft Word]模板一起使用，必须先创建该模板。 有关说明，请在[!DNL Microsoft Office]文档中搜索“创建模板”。
-
-按如下方式填写[!UICONTROL 生成文档]模块字段：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Source File]</td> 
-   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> <p>此源文件是模块用于生成新PDF的[!DNL Microsoft Word ]模板。</p> <p>我们建议在[!DNL Workfront]中为您在[!DNL Workfront Fusion]中使用的[!DNL Microsoft Word]模板创建项目。 然后，您可以使用[!DNL Workfront] &gt; [！UICONTROL下载文档]模块将相应的模板提取到方案中。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL输出格式]</td> 
-   <td> <p>选择所生成文档的格式。</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">用于合并的[！UICONTROL数据]</td> 
-   <td> <p>对于模板中要替换为文本的每个值标记，请填写以下内容：</p> 
-    <ul> 
-     <li> <p>[！UICONTROL Key]</p> <p>输入密钥。 在模板中，键是值标记中显示的文本。 例如，如果要将文本放置在值标记<code>&#123;&#123;name&#125;&#125;</code>中，请在键字段中输入<code>name </code>。</p> </li> 
-     <li> <p>值类型</p> <p>选择值字段中的数据是值、对象还是对象数组。</p> </li> 
-     <li> <p>[！UICONTROL值]</p> <p>输入或映射要在生成的文档中显示的文本以代替值标记。</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### 使用JSON生成[!UICONTROL 文档]模块
-
-要使用JSON的[!UICONTROL 生成文档]模块，请填写以下字段：
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Source File]</td> 
-   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL输出格式]</td> 
-   <td> <p>选择所生成文档的格式。</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">用于合并的[！UICONTROL数据]</td> 
-   <td> <p>要在此模块中使用JSON，必须在此字段上启用映射。</p> <p>输入或映射要从中生成文档的JSON。 </p> <p>您可以直接在此字段中键入JSON，或从JSON模块映射JSON输出。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL 提取文本/表]
-
-此操作模块允许您从PDF文件中提取数据。 模块输出单独的文本元素，如段落或表格单个单元格中的文本。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Source file]</td> 
-   <td>从上一个模块中选择源文件，或映射源文件的名称和数据。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">应该提取为JSON的[！UICONTROL元素]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[！UICONTROL Text]</p> </li> 
-     <li> <p>[！UICONTROL Tables]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL是否提取定界框？]</td> 
-   <td>启用此选项可提取有关文本定界框的数据。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL是否包含输出的样式信息？]</td> 
-   <td>启用此选项以将样式信息添加到输出JSON。</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL 合并PDF文件]
 
@@ -545,6 +424,127 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
      <li>PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL 提取文本/表]
+
+此操作模块允许您从PDF文件中提取数据。 模块输出单独的文本元素，如段落或表格单个单元格中的文本。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source file]</td> 
+   <td>从上一个模块中选择源文件，或映射源文件的名称和数据。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">应该提取为JSON的[！UICONTROL元素]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[！UICONTROL Text]</p> </li> 
+     <li> <p>[！UICONTROL Tables]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL是否提取定界框？]</td> 
+   <td>启用此选项可提取有关文本定界框的数据。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL是否包含输出的样式信息？]</td> 
+   <td>启用此选项以将样式信息添加到输出JSON。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL 生成文档]
+
+[!UICONTROL 生成PDF]模块是创建包含所选数据的文档的强大方法。 您可以使用[!DNL Microsoft Word]模板或以JSON格式提供数据来设置其格式。
+
+有关[!UICONTROL [!DNL Adobe PDF Services]生成文档]功能的详细信息，请参阅[!DNL Adobe Document Services]文档中的[文档生成概述](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)。
+
+* [使用 [!DNL Microsoft Word] 模板生成[!UICONTROL 文档]模块](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [使用JSON生成[!UICONTROL 文档]模块](#use-the-generate-document-module-with-json)
+
+#### 使用[!UICONTROL 生成文档]模块和[!DNL Microsoft Word]模板
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+若要将[!UICONTROL 生成文档]模块与[!UICONTROL Microsoft Word]模板一起使用，必须先创建该模板。 有关说明，请在[!DNL Microsoft Office]文档中搜索“创建模板”。
+
+按如下方式填写[!UICONTROL 生成文档]模块字段：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source File]</td> 
+   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> <p>此源文件是模块用于生成新PDF的[!DNL Microsoft Word ]模板。</p> <p>我们建议在[!DNL Workfront]中为您在[!DNL Workfront Fusion]中使用的[!DNL Microsoft Word]模板创建项目。 然后，您可以使用[!DNL Workfront] &gt; [！UICONTROL下载文档]模块将相应的模板提取到方案中。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL输出格式]</td> 
+   <td> <p>选择所生成文档的格式。</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">用于合并的[！UICONTROL数据]</td> 
+   <td> <p>对于模板中要替换为文本的每个值标记，请填写以下内容：</p> 
+    <ul> 
+     <li> <p>[！UICONTROL Key]</p> <p>输入密钥。 在模板中，键是值标记中显示的文本。 例如，如果要将文本放置在值标记<code>&#123;&#123;name&#125;&#125;</code>中，请在键字段中输入<code>name </code>。</p> </li> 
+     <li> <p>值类型</p> <p>选择值字段中的数据是值、对象还是对象数组。</p> </li> 
+     <li> <p>[！UICONTROL值]</p> <p>输入或映射要在生成的文档中显示的文本以代替值标记。</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 使用JSON生成[!UICONTROL 文档]模块
+
+要使用JSON的[!UICONTROL 生成文档]模块，请填写以下字段：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>选择要用于此模块的连接。</p> 有关创建与[!DNL Adobe PDF Services]的连接的说明，请参阅本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >创建与[!DNL Adobe PDF Services]</a>的连接。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source File]</td> 
+   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL输出格式]</td> 
+   <td> <p>选择所生成文档的格式。</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">用于合并的[！UICONTROL数据]</td> 
+   <td> <p>要在此模块中使用JSON，必须在此字段上启用映射。</p> <p>输入或映射要从中生成文档的JSON。 </p> <p>您可以直接在此字段中键入JSON，或从JSON模块映射JSON输出。</p> </td> 
   </tr> 
  </tbody> 
 </table>

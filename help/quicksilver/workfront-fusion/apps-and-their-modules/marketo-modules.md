@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -94,8 +94,27 @@ ht-degree: 0%
 
 ### 触发器
 
-* [[!UICONTROL 观看记录]](#watch-records)
 * [[!UICONTROL 观看活动（即时）]](#watch-events-instant)
+* [[!UICONTROL 观看记录]](#watch-records)
+
+#### [!UICONTROL 观看活动（即时）]
+
+此触发器模块会在创建或更新记录时启动方案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Webhook]</p> </td> 
+   <td> <p>输入您希望模块使用的webhook。</p> <p>有关webhook的详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">即时触发器(webhook)。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 观看记录]
 
@@ -129,41 +148,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 观看活动（即时）]
-
-此触发器模块会在创建或更新记录时启动方案。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Webhook]</p> </td> 
-   <td> <p>输入您希望模块使用的webhook。</p> <p>有关webhook的详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">即时触发器(webhook)。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### 操作
 
-* [[!UICONTROL 自定义API调用]](#custom-api-call)
-* [[!UICONTROL 创建记录]](#create-a-record)
-* [[!UICONTROL 更新记录]](#update-a-record)
-* [[!UICONTROL 下载文件]](#download-a-file)
-* [[!UICONTROL 上载文件]](#upload-a-file)
-* [[!UICONTROL 读取记录]](#read-a-record)
 * [[!UICONTROL 将潜在客户添加到列表]](#add-leads-to-a-list)
+* [[!UICONTROL 克隆程序]](#clone-a-program)
+* [[!UICONTROL 创建记录]](#create-a-record)
+* [[!UICONTROL 自定义API调用]](#custom-api-call)
+* [[!UICONTROL 下载文件]](#download-a-file)
+* [[!UICONTROL 读取记录]](#read-a-record)
 * [[!UICONTROL 从列表中删除潜在客户]](#remove-leads-from-a-list)
 * [[!UICONTROL 计划活动]](#schedule-a-campaign)
-* [[!UICONTROL 复制程序]](#copy-a-program)
+* [[!UICONTROL 更新记录]](#update-a-record)
+* [[!UICONTROL 上载文件]](#upload-a-file)
 
-#### [!UICONTROL 自定义API调用]
+#### [!UICONTROL 将潜在客户添加到列表]
 
-此操作模块允许您对[!DNL Marketo] API进行经过身份验证的自定义调用。 这样，您可以创建其他[!DNL Marketo]模块无法实现的数据流自动化。
+此操作模块通过使用潜在客户ID向列表添加一个或多个潜在客户。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,31 +174,39 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
-   <td>输入相对于<code>https://{your-base-url}.mktorest.com/</code>的路径。</td> 
+   <td role="rowheader">[！UICONTROL列表ID]</td> 
+   <td>输入或映射要添加潜在客户的列表的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
-   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP请求方法。</p> </td> 
+   <td role="rowheader">[！UICONTROL潜在客户ID]</td> 
+   <td> <p>对于要添加到列表中的每个潜在客户，单击<b>[！UICONTROL添加]</b>，然后输入或映射要添加的潜在客户的ID。 您最多可以为模块添加300个潜在客户以添加到列表中。</p> <p>单击映射切换可映射要添加到列表中的现有潜在客户集合。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 克隆程序]
+
+此操作模块使用现有项目的ID制作项目副本。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
-   <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
+   <td role="rowheader">[！UICONTROL现有项目ID]</td> 
+   <td>输入或映射要复制的程序的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查询字符串]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL新程序名称]</p> </td> 
+   <td> <p>输入或映射新项目的名称</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
-   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
-   <td> <p>输入或映射每个方案执行周期中您希望模块使用的最大记录数。</p> </td> 
+   <td role="rowheader">[！UICONTROL文件夹ID]</td> 
+   <td>输入或映射要放置新程序的文件夹的ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,6 +268,147 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 自定义API调用]
+
+此操作模块允许您对[!DNL Marketo] API进行经过身份验证的自定义调用。 这样，您可以创建其他[!DNL Marketo]模块无法实现的数据流自动化。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td>输入相对于<code>https://{your-base-url}.mktorest.com/</code>的路径。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP请求方法。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以标准JSON对象的形式添加请求的标头。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]会为您添加授权标头。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL查询字符串]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的查询。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td> <p>输入或映射每个方案执行周期中您希望模块使用的最大记录数。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 下载文件]
+
+此操作模块使用文件ID下载文件。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL文件ID]</td> 
+   <td>映射要下载的文件的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 读取记录]
+
+此操作模块使用记录的ID读取有关记录的信息。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL记录类型]</td> 
+   <td> <p>选择要创建的记录类型。</p> 
+    <ul> 
+     <li> <p>[！UICONTROL营销活动]</p> </li> 
+     <li> <p>[！UICONTROL Company]</p> </li> 
+     <li> <p>[！UICONTROL潜在客户]</p> </li> 
+     <li> <p>[！UICONTROL列表]</p> </li> 
+     <li> <p>[！UICONTROL项目]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL输出]</td> 
+   <td>选择要包含在此模块的输出捆绑包中的信息。 根据您选择的[！UICONTROL记录类型]，字段可用。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL &lt;对象&gt; ID]</td> 
+   <td>输入或映射要检索相关信息的对象的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 从列表中删除潜在客户]
+
+此操作模块使用潜在客户ID从列表中删除一个或多个潜在客户。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL列表ID]</td> 
+   <td>输入或映射要删除潜在客户的列表的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL潜在客户ID]</td> 
+   <td> <p>对于要从列表中删除的每个潜在客户，单击<b>[！UICONTROL添加]</b>，然后输入或映射要删除的潜在客户的ID。 您最多可以为模块添加300个要从列表中删除的销售机会。 </p> <p>单击映射切换可映射要从列表中删除的现有潜在客户集合。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 计划活动]
+
+此操作模块可计划特定日期的现有营销活动。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL营销活动ID]</td> 
+   <td>输入或映射要计划的营销活动的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL日期计划]</p> </td> 
+   <td>选择要运行营销活动的日期。 如果此字段留空，则营销活动将在方案开始后5分钟运行。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 更新记录]
 
 此操作模块使用现有记录的ID更新该记录。
@@ -316,25 +465,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 下载文件]
-
-此操作模块使用文件ID下载文件。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL文件ID]</td> 
-   <td>映射要下载的文件的ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 上载文件]
 
 此操作模块会将新文件上传到[!UICONTROL Marketo]。
@@ -358,136 +488,6 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL描述]</td> 
    <td>输入已上载文件的说明。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 读取记录]
-
-此操作模块使用记录的ID读取有关记录的信息。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL记录类型]</td> 
-   <td> <p>选择要创建的记录类型。</p> 
-    <ul> 
-     <li> <p>[！UICONTROL营销活动]</p> </li> 
-     <li> <p>[！UICONTROL Company]</p> </li> 
-     <li> <p>[！UICONTROL潜在客户]</p> </li> 
-     <li> <p>[！UICONTROL列表]</p> </li> 
-     <li> <p>[！UICONTROL项目]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL输出]</td> 
-   <td>选择要包含在此模块的输出捆绑包中的信息。 根据您选择的[！UICONTROL记录类型]，字段可用。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL &lt;对象&gt; ID]</td> 
-   <td>输入或映射要检索相关信息的对象的ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 将潜在客户添加到列表]
-
-此操作模块通过使用潜在客户ID向列表添加一个或多个潜在客户。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL列表ID]</td> 
-   <td>输入或映射要添加潜在客户的列表的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL潜在客户ID]</td> 
-   <td> <p>对于要添加到列表中的每个潜在客户，单击<b>[！UICONTROL添加]</b>，然后输入或映射要添加的潜在客户的ID。 您最多可以为模块添加300个潜在客户以添加到列表中。</p> <p>单击映射切换可映射要添加到列表中的现有潜在客户集合。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 从列表中删除潜在客户]
-
-此操作模块使用潜在客户ID从列表中删除一个或多个潜在客户。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL列表ID]</td> 
-   <td>输入或映射要删除潜在客户的列表的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL潜在客户ID]</td> 
-   <td> <p>对于要从列表中删除的每个潜在客户，单击<b>[！UICONTROL添加]</b>，然后输入或映射要删除的潜在客户的ID。 您最多可以为模块添加300个要从列表中删除的销售机会。 </p> <p>单击映射切换可映射要从列表中删除的现有潜在客户集合。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 计划活动]
-
-此操作模块可计划特定日期的现有营销活动。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL营销活动ID]</td> 
-   <td>输入或映射要计划的营销活动的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL日期计划]</p> </td> 
-   <td>选择要运行营销活动的日期。 如果此字段留空，则营销活动将在方案开始后5分钟运行。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 复制程序]
-
-此操作模块使用现有项目的ID制作项目副本。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>有关将[!DNL Marketo]帐户连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">将[!DNL Marketo]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL现有项目ID]</td> 
-   <td>输入或映射要复制的程序的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL新程序名称]</p> </td> 
-   <td> <p>输入或映射新项目的名称</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL文件夹ID]</td> 
-   <td>输入或映射要放置新程序的文件夹的ID。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,9 +8,9 @@ description: webhook是由事件触发的HTTP调用。 您可以使用Webhook激
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ webhook是由事件触发的HTTP调用。 您可以使用Webhook激活即时触�
 
    webhook的项目现在位于“映射”面板中，可用于场景中的后续模块。
 
-## 队列
+## webhook队列
 
 如果webhook收到数据，并且不存在需要该数据的活动场景，则数据存储在队列中。 激活场景后，它将按顺序处理队列中等待的所有包。
 

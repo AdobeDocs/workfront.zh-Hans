@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,9 +190,18 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [复制文件夹或资源](#copy-a-folder-or-asset)
+* [创建记录](#create-a-record)
+* [删除文件夹、资源或演绎版](#delete-a-folder-asset-or-rendition)
+* [获取文件夹列表](#get-a-folder-listing)
+* [进行自定义API调用](#make-a-custom-api-call)
+* [移动文件夹或资源](#move-a-folder-or-asset)
+* [更新记录](#update-a-record)
+* [上传资源](#upload-an-asset)
+
 ### [!UICONTROL 复制文件夹或资产]
 
-此操作模块会将文件夹或资源复制到Adobe Experience Manager Assets帐户中的其他位置。
+此操作模块会将文件夹或资产复制到Adobe Experience Manager Assets帐户中的其他位置。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL 删除记录]
+### [!UICONTROL 删除文件夹、资源或演绎版]
 
 此操作模块可删除文件夹、资源或演绎版。
 

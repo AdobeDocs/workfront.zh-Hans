@@ -10,9 +10,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,23 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [仪表板](#dashboards)
+* [报告](#reports)
+* [数据集](#dataset)
+* [应用程序](#apps)
+* [其他](#other)
+
 ### 仪表板
 
-#### [!UICONTROL 列出仪表板]
+* [创建功能板](#create-a-dashboard)
+* [获取功能板](#get-a-dashboard)
+* [获取功能板拼贴](#get-a-dashboard-tile)
+* [列出功能板磁贴](#list-dashboard-tiles)
+* [列出仪表板](#list-dashboards)
 
-此搜索模块可检索功能板列表。
+#### [!UICONTROL 创建仪表板]
+
+此操作模块将创建一个新仪表板。
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>
-        <p>选择或映射拥有要列出的功能板的组的ID。</p>
-      </td>
+      <td role="rowheader">[！UICONTROL名称]</td>
+      <td>输入或映射功能板的名称。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
-      <td>
-        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
-      </td>
+      <td role="rowheader">[！UICONTROL组ID]  </td>
+      <td>选择或映射将拥有新功能板的组的ID。</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL 列出仪表板磁贴]
-
-此搜索模块可检索功能板磁贴的列表。
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL输入功能板ID]</td>
-    <td>
-      <p>选择或映射选项以选择要列出其图块的仪表板。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL功能板ID]</td>
-    <td>
-      <p>输入或映射包含要列出的图块的仪表板的ID。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL组ID]  </td>
-    <td>选择或映射拥有包含要列出的图块的仪表板的组的ID。</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[！UICONTROL限制]  </td>
-    <td>
-      <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL 获取仪表板]
@@ -205,34 +176,46 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 创建仪表板]
+#### [!UICONTROL 列出仪表板磁贴]
 
-此操作模块将创建一个新仪表板。
+此搜索模块可检索功能板磁贴的列表。
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[！UICONTROL Connection]</td>
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL名称]</td>
-      <td>输入或映射功能板的名称。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射将拥有新功能板的组的ID。</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL输入功能板ID]</td>
+    <td>
+      <p>选择或映射选项以选择要列出其图块的仪表板。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL功能板ID]</td>
+    <td>
+      <p>输入或映射包含要列出的图块的仪表板的ID。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL组ID]  </td>
+    <td>选择或映射拥有包含要列出的图块的仪表板的组的ID。</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[！UICONTROL限制]  </td>
+    <td>
+      <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### 报告
+#### [!UICONTROL 列出仪表板]
 
-#### [!UICONTROL 列出报告]
-
-此搜索模块可检索报告列表。
+此搜索模块可检索功能板列表。
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
       <td>
-        <p>选择或映射拥有要列出的报告的组的ID。</p>
+        <p>选择或映射拥有要列出的功能板的组的ID。</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 获取报表]
+### 报告
 
-此操作模块检索指定报表的元数据。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL输入报表ID]</td>
-      <td>
-        <p>选择或映射选项以选择要为其检索元数据的报表。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL报表ID]</td>
-      <td>
-        <p>输入或映射要为其检索元数据的报表的ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
-    </tr>
-  </tbody>
-</table>
+* [复制报告](#copy-a-report)
+* [删除报告](#delete-a-report)
+* [获取报表](#get-a-report)
+* [列表报告](#list-reports)
 
 #### [!UICONTROL 复制报告]
 
@@ -354,36 +313,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 数据集
+#### [!UICONTROL 获取报表]
 
-#### [!UICONTROL 列出数据集]
-
-此搜索模块可检索数据集列表。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL限制]</td>
-      <td>
-        <p>在每个方案执行周期中，输入或映射您希望模块记录的最大数目，即[action]。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 获取数据集]
-
-此操作模块检索指定数据集的元数据。
+此操作模块检索指定报表的元数据。
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL报表ID]</td>
       <td>
-        <p>输入或映射要为其检索元数据的数据集的ID。</p>
+        <p>输入或映射要为其检索元数据的报表的ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有要为其检索元数据的数据集的组的ID。</td>
+      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 列出报告]
+
+此搜索模块可检索报告列表。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL组ID]  </td>
+      <td>
+        <p>选择或映射拥有要列出的报告的组的ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]  </td>
+      <td>
+        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 数据集
+
+* [在数据集表中添加/删除行](#add-or-delete-rows-in-a-dataset-table)
+* [创建数据集](#create-a-dataset)
+* [删除数据集](#delete-a-dataset)
+* [获取数据集](#get-a-dataset)
+* [列出数据集](#list-datasets)
+* [刷新数据集](#refresh-a-dataset)
+
+#### [!UICONTROL 在数据集表中添加或删除行]
+
+此操作模块添加或删除指定推送数据集表的行。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL输入表]</td>
+      <td>选择或映射选项以选择包含要调整的表的数据集。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL数据集ID]</td>
+      <td>输入或映射包含要添加或删除的行的数据集的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL表名称]  </td>
+      <td>
+        <p>输入或映射包含要添加或删除的行的表的名称。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL组ID]  </td>
+      <td>输入或映射拥有数据集的组的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL选择操作]</td>
+      <td>
+        <p>选择或映射要执行的操作。</p>
+        <ul>
+          <li>
+            <p>[！UICONTROL添加行]</p>
+          </li>
+          <li>
+            <p>[！UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL行]</td>
+      <td>
+        <p>添加行字段。</p>
+        <ul>
+          <li>
+            <p><b>[！UICONTROL键]</b>
+            </p>
+            <p>输入或映射密钥名称。</p>
+          </li>
+          <li>
+            <p><b>[！UICONTROL字段类型]</b>
+            </p>
+            <p>选择或映射字段类型：</p>
+            <ul>
+              <li>
+                <p>布尔型</p>
+              </li>
+              <li>
+                <p>日期</p>
+              </li>
+              <li>
+                <p>文本</p>
+              </li>
+              <li>
+                <p>数字</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[！UICONTROL值]</p>
+            <p>输入或映射键值。</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 在数据集表中添加或删除行]
+#### [!UICONTROL 删除数据集]
 
-此操作模块添加或删除指定推送数据集表的行。
+此操作模块删除数据集。
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL输入表]</td>
-      <td>选择或映射选项以选择包含要调整的表的数据集。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL数据集ID]</td>
-      <td>输入或映射包含要添加或删除的行的数据集的ID。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL表名称]  </td>
+      <td role="rowheader">[！UICONTROL输入报表ID]</td>
       <td>
-        <p>输入或映射包含要添加或删除的行的表的名称。</p>
+        <p>选择或映射选项以选择要删除的数据集。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL报表ID]</td>
+      <td>
+        <p>输入或映射要删除的数据集的ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>输入或映射拥有数据集的组的ID。</td>
+      <td>选择或映射拥有要删除的数据集的组的ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 获取数据集]
+
+此操作模块检索指定数据集的元数据。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL选择操作]</td>
+      <td role="rowheader">[！UICONTROL输入报表ID]</td>
       <td>
-        <p>选择或映射要执行的操作。</p>
-        <ul>
-          <li>
-            <p>[！UICONTROL添加行]</p>
-          </li>
-          <li>
-            <p>[！UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>选择或映射选项以选择要为其检索元数据的报表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL行]</td>
+      <td role="rowheader">[！UICONTROL报表ID]</td>
       <td>
-        <p>添加行字段。</p>
-        <ul>
-          <li>
-            <p><b>[！UICONTROL键]</b>
-            </p>
-            <p>输入或映射密钥名称。</p>
-          </li>
-          <li>
-            <p><b>[！UICONTROL字段类型]</b>
-            </p>
-            <p>选择或映射字段类型：</p>
-            <ul>
-              <li>
-                <p>布尔型</p>
-              </li>
-              <li>
-                <p>日期</p>
-              </li>
-              <li>
-                <p>文本</p>
-              </li>
-              <li>
-                <p>数字</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[！UICONTROL值]</p>
-            <p>输入或映射键值。</p>
-          </li>
-        </ul>
+        <p>输入或映射要为其检索元数据的数据集的ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL组ID]  </td>
+      <td>选择或映射拥有要为其检索元数据的数据集的组的ID。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 列出数据集]
+
+此搜索模块可检索数据集列表。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL组ID]  </td>
+      <td>选择或映射拥有您要为其检索元数据的报表的组的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]</td>
+      <td>
+        <p>在每个方案执行周期中，输入或映射您希望模块记录的最大数目，即[action]。</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 删除数据集]
+### 应用程序
 
-此操作模块删除数据集。
+* [获取应用程序](#get-an-app)
+* [获取应用程序仪表板](#get-an-apps-dashboard)
+* [获取应用程序的报表](#get-an-apps-report)
+* [列出应用程序的控制面板](#list-apps-dashboards)
+* [列出应用程序的报表](#list-apps-reports)
+* [列出应用程序](#list-apps)
+* [Watch应用程序](#watch-apps)
+
+#### [!UICONTROL 获取应用]
+
+此操作模块可检索指定应用程序的元数据。
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL输入报表ID]</td>
+      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
       <td>
-        <p>选择或映射选项以选择要删除的数据集。</p>
+        <p>选择或映射您要检索的应用程序的ID。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL 获取应用程序的仪表板]
+
+此操作模块可检索指定应用程序功能板的元数据。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[！UICONTROL Connection]</td>
+   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
+      <td>
+        <p>选择或映射包含要检索的功能板的应用程序的ID。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL报表ID]</td>
       <td>
-        <p>输入或映射要删除的数据集的ID。</p>
+        <p>  选择或映射要检索的仪表板ID。</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL组ID]  </td>
-      <td>选择或映射拥有要删除的数据集的组的ID。</td>
     </tr>
   </tbody>
 </table>
 
-### 应用程序
+#### [!UICONTROL 获取应用的报告]
 
-#### [!UICONTROL 观看应用]
-
-此触发器模块会在应用程序更新时启动方案。
+此操作模块检索指定应用程序报表的元数据。
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
+      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
       <td>
-        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
+        <p>选择或映射包含要检索的报表的应用程序ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL报表ID]</td>
+      <td>
+        <p>  选择或映射要检索的报表的ID。</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[！UICONTROL Connection]</td>
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL限制]  </td>
-      <td>
-        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 列出应用的报告]
-
-此搜索模块从指定的应用程序中检索所有报表的列表。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL应用程序ID]</td>
-      <td>选择或映射要从中列出报表的应用程序的ID。</td>
     </tr>
     <tr>
       <td role="rowheader">[！UICONTROL限制]  </td>
@@ -841,9 +903,9 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 获取应用]
+#### [!UICONTROL 列出应用的报告]
 
-此操作模块可检索指定应用程序的元数据。
+此搜索模块从指定的应用程序中检索所有报表的列表。
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
+      <td role="rowheader">[！UICONTROL应用程序ID]</td>
+      <td>选择或映射要从中列出报表的应用程序的ID。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL限制]  </td>
       <td>
-        <p>选择或映射您要检索的应用程序的ID。</p>
+        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 获取应用的报告]
+#### [!UICONTROL 观看应用]
 
-此操作模块检索指定应用程序报表的元数据。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
-      <td>
-        <p>选择或映射包含要检索的报表的应用程序ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL报表ID]</td>
-      <td>
-        <p>  选择或映射要检索的报表的ID。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL 获取应用程序的仪表板]
-
-此操作模块可检索指定应用程序功能板的元数据。
+此触发器模块会在应用程序更新时启动方案。
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ ht-degree: 0%
    <td> <p>有关将[!DNL Power BI]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与Adobe[!DNL Workfront Fusion]的连接 — 基本说明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL应用程序ID]  </td>
+      <td role="rowheader">[！UICONTROL限制]  </td>
       <td>
-        <p>选择或映射包含要检索的功能板的应用程序的ID。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[！UICONTROL报表ID]</td>
-      <td>
-        <p>  选择或映射要检索的仪表板ID。</p>
+        <p>输入或映射您希望模块在每个方案执行周期内返回的最大记录数。</p>
       </td>
     </tr>
   </tbody>
