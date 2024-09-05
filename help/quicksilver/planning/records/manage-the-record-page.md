@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 0%
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。
    * 连接到Planning记录的Workfront查找字段的值也会被删除。
 
-## 重新排列记录预览或页面中的字段
+## 重新排列记录详细信息选项卡中的字段
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 1. （可选）单击记录预览右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->以在新标签中打开记录页面。
 
-   此时将打开记录页面。
+   默认情况下将打开记录的&#x200B;**详细信息**&#x200B;选项卡。
 
    ![](assets/details-page.png)
 
-1. 在记录预览或页面中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![](assets/grab-icon.png)，然后将其拖放到所需位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 在记录&#x200B;**详细信息**&#x200B;选项卡中，单击字段名称左侧的&#x200B;**抓取**&#x200B;图标![](assets/grab-icon.png)，然后将其拖放到所需位置。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    对于查看记录的所有用户，字段的新位置会在相同类型的所有记录的预览和页面中更新。
 

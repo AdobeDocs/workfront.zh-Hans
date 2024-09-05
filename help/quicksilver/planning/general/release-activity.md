@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 |--------------------|-----------------------------------------|
 | 2023年8月至12月 | Workfront计划测试版* |
 | 2024年1月至8月 | Workfront计划提前发布* |
-| 2024年8月28日 | Workfront Planning正式发布 |
+| 2024 年 8 月 28 日 | Workfront Planning正式发布 |
 
 *测试版和早期发布阶段仅向部分客户提供。
 
@@ -144,6 +144,13 @@ ht-degree: 0%
 * 作为工作区管理员，您可以创建请求表单并将其与记录类型关联。 您可以与其他人（包括外部用户）共享此表单的链接。
 
 * 当用户访问表单、填写表单并提交请求时，将会为与请求表单关联的记录类型创建记录。
+
+* 根据配置方式，请求表单可能会显示记录类型的所有字段，但以下类型的字段除外：
+
+   * 人员
+   * 连接的字段(包括与Experience Manager资源的连接)
+   * 连接的查找字段
+   * 公式
 
 有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 2%
+source-wordcount: '2039'
+ht-degree: 1%
 
 ---
 
@@ -154,13 +154,13 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## 为Workfront实例中的用户启用Workfront Planning
 
-贵组织必须注册Adobe Workfront计划项目，然后才能访问其功能。 如果您符合条件，您的客户代表应该向您提供有关注册此计划的信息。
+您的组织购买了Workfront Planning的许可证后，在访问Workfront Planning之前，必须满足以下条件：
 
-有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+* 您的Workfront管理员必须将您分配到主菜单中包含Planning的布局模板。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
+
+* 您的Workfront管理员必须为您分配Workfront许可证和Workfront Planning权限，以便您在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront Planning术语
 

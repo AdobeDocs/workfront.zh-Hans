@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROL项目]</td> 
       <td>项目的名称</td> 
-      <td>[！UICONTROL任务]、[！UICONTROL项目详细信息]、[！UICONTROL业务案例]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题]、[！UICONTROL风险]、[！UICONTROL批准]、[！UICONTROL基线]、[！UICONTROL记帐费率]、[！UICONTROL记帐记录]、[！UICONTROL trol费用]、[！UICONTROL小时数]、[！UICONTROL工作负载均衡器]、[！UICONTROL人员]、[！UICONTROL利用率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL队列主题]、[！UICONTROL主题组]、[！UICONTROL量度]</td> 
+      <td>[！UICONTROL任务]、[！UICONTROL项目详细信息]、[！UICONTROL业务案例]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL问题]、[！UICONTROL风险]、[！UICONTROL批准]、[！UICONTROL基线]、[！UICONTROL记帐费率]、[！UICONTROL记帐记录]、[！UICONTROL trol支出]、[！UICONTROL小时数]、[！UICONTROL工作负载均衡器]、[！UICONTROL人员]、[！UICONTROL利用率]、[！UICONTROL队列详细信息]、[！UICONTROL路由规则]、[！UICONTROL队列主题]、[！UICONTROL主题组]、[！UICONTROL量度]、[！UICONTROL规划]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL任务]</td> 
@@ -104,12 +104,12 @@ ht-degree: 0%
      <tr> 
       <td>[！UICONTROLPortfolio]</td> 
       <td>项目组合的名称</td> 
-      <td>[！UICONTROL项目]、[！UICONTROL项目]、[！UICONTROLPortfolio详细信息]、[！UICONTROLPortfolio]、[！UICONTROL优化]、[！UICONTROL文档]、[！UICONTROL更新]</td> 
+      <td>[！UICONTROL项目]、[！UICONTROL项目]、[！UICONTROLPortfolio详细信息]、[！UICONTROLPortfolio]、[！UICONTROL优化]、[！UICONTROL文档]、[！UICONTROL更新]、[！UICONTROL规划]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL项目]</td> 
       <td>项目的名称</td> 
-      <td>[！UICONTROL项目]、[！UICONTROL项目详细信息]、[！UICONTROL更新]、[！UICONTROL文档]</td> 
+      <td>[！UICONTROL项目]、[！UICONTROL项目详细信息]、[！UICONTROL更新]、[！UICONTROL文档]、[！UICONTROL计划]*</td> 
      </tr> 
      <tr> 
       <td>[！UICONTROL模板]</td> 
@@ -198,6 +198,8 @@ ht-degree: 0%
      --> 
     </tbody> 
    </table>
+
+   *贵公司必须额外购买Workfront Planning的许可证，以便能够将此区域添加到项目、项目组合和程序的左侧面板。 有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
 
    >[!NOTE]
    >

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ ht-degree: 0%
 
 1. 在出现的下拉菜单中，执行以下任一操作：
 
-   * 单击主菜单项。
+   * 从以下区域中选择：
 
-     >[!IMPORTANT]
-     >
-     >要查看“场景和目标”区域，需要额外的许可证。 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)；有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
+      * 分析
+      * 日程表
+      * 仪表板
+      * 文档
+      * 目标
+      * 主页
+      * 我的更新
+      * 项目组合
+      * 项目群
+      * 项目
+      * 报告
+      * 请求
+      * 资源
+      * 方案
+      * 团队
+      * 模板
+      * 工时表
+      * 用户
+      * Blueprint
+      * 规划中
+
+   >[!IMPORTANT]
+   >
+   >要查看“方案”、“目标”和“规划”区域，需要额外的许可证。
+   >
+   >* 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+   >
+   >* 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
+   >
+   >* 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
    * 单击&#x200B;**添加仪表板**，然后键入描述性&#x200B;**自定义分区标题**&#x200B;并添加仪表板。
 

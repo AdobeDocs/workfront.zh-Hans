@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # 使用布局模板自定义登陆页面
 
 作为Adobe Workfront管理员，您可以使用布局模板指定用户每次登录到Workfront时要查看的区域。
+
+用户可以打开以下选项之一：
+
+* 指定的Workfront区域
+* 自定义仪表板。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -62,9 +67,38 @@ ht-degree: 0%
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 1. 在&#x200B;**顶部导航区域**&#x200B;中，单击&#x200B;**选择登陆页面**，然后选择用户登录时要查看的区域。
 
+   从以下区域进行选择，或添加自定义功能板：
+
+   * 分析
+   * 日程表
+   * 仪表板
+   * 文档
+   * 目标
+   * 主页
+   * 我的更新
+   * 项目组合
+   * 项目群
+   * 项目
+   * 报告
+   * 请求
+   * 资源
+   * 方案
+   * 团队
+   * 模板
+   * 工时表
+   * 用户
+   * Blueprint
+   * 规划中
+
    >[!IMPORTANT]
    >
-   >要查看“场景和目标”区域，需要额外的许可证。 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)；有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
+   >要查看“方案”、“目标”和“规划”区域，需要额外的许可证。
+   >
+   >* 有关Workfront目标的信息，请参阅[Adobe Workfront目标概述](../../../workfront-goals/goal-management/wf-goals-overview.md)。
+   >
+   >* 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。
+   >
+   >* 有关Workfront Planning的信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 1. 继续自定义布局模板。
 

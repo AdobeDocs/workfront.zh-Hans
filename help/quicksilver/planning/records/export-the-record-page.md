@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # 导出记录的详细信息
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息导出到文件并与他们共享。
 
@@ -149,7 +151,7 @@ ht-degree: 1%
 * 您可以将记录的详细信息导出为以下文件格式：
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * 您可以导出记录页面的详细信息选项卡。 无法导出“连接”选项卡。
 
@@ -177,12 +179,18 @@ ht-degree: 1%
 1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)，然后单击以下图标之一：
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   下载Word (.docx)或PDf文件并将其保存到您的计算机。
+   下载Word (.docx) <span class="preview">或PDF</span>文件，并将其保存到您的计算机。
 
    导出的文件的名称是记录的“Primary”字段。
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    不会显示在页面上，并且仅在单击“详细信息”选项卡上的“显示更多”后才会显示的其他信息不会显示在导出的PDF文件中。 只有页面上可见的信息才会显示在导出的文件中。
+
+
 1. （可选）转到下载的文件，打开它并编辑它（如果它是Word文件），或者与他人共享它。
+

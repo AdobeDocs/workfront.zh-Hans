@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ ht-degree: 2%
 
    默认情况下，请求表单包含以下信息：
 
-   * 所选记录类型的表视图中可用的所有记录字段。
+   * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   以下类型的字段不显示在请求表单中：
+     >
+     >    * 人员
+     >    * 连接的字段(包括与Experience Manager资源的连接)
+     >    * 连接的查找字段
+     >    * 公式
+
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
    * **主题**&#x200B;字段：将在Workfront中标识该请求的字段。 此功能尚不可用。
    * 与记录类型关联的所有字段。
@@ -199,6 +210,3 @@ ht-degree: 2%
    >
    >在这种情况下，会显示链接已公开共享。
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

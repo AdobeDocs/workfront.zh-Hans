@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 >
 >本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
 >
->要访问Workfront Planning，您必须具备以下条件：
+>贵公司必须购买Workfront Planning的附加许可证才能访问其功能。
 >
->* 新的Workfront计划和许可证。 Workfront Planning不适用于旧版Workfront计划或许可证。
->* Workfront Planning的附加许可证。
->* 您组织的Workfront实例必须载入到AdobeUnified Experience。
+>有关更多信息，请与您的客户经理联系
 >
 >有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
 
 使用Adobe Workfront Planning时，存在许可证和共享权限限制。
+
+本文介绍了使用Workfront Planning功能所需的访问和设置。
 
 ## 访问要求
 
@@ -112,7 +112,12 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>布局模板</p></td>
-   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该布局模板包括主菜单中的“规划”区域，以及可连接到Workfront Planning的对象（项目、项目组合和程序）的“规划”区域。 </p> <p>有关信息，请参阅<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">使用布局模板自定义主菜单</a>和<a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">将用户分配给布局模板</a>。 </p>  
+   <td> <p>必须为包括Workfront管理员在内的所有用户分配一个布局模板，该模板包括以下区域中的Planning选项：</p>
+   <ul><li>主菜单</li>
+   <li>项目、项目组合和程序的左侧面板</li>
+   <li>登陆页面</li>
+   <li>固定</li></ul>
+   <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">创建和管理布局模板</a>。</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## 与他人共享主菜单中的“规划”区域
+## 使用布局模板共享Planning区域
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-贵组织在注册Workfront Planning程序后，可以使用布局模板将Planning区域添加到所有用户的主菜单。
+在贵组织购买了其他Workfront Planning许可证后，系统管理员可以通过修改布局模板并将其分配给您，将Planning选项添加到以下区域：
+
+* 主菜单
+* 登陆页面
+* 项目、项目组合和项目的左侧面板
+* 固定
+
+要将Workfront规划区域添加到Workfront实例，请执行以下操作：
 
 1. 以Workfront管理员身份登录到&#x200B;**Workfront**。
 
-1. 使用&#x200B;**布局模板**&#x200B;将&#x200B;**Planning**&#x200B;图标![](assets/planning-icon.png)添加到&#x200B;**主菜单**。
+1. 转到&#x200B;**主菜单** > **设置** > **界面** > **布局模板**，然后打开或创建布局模板。
 
-   有关信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+   有关自定义布局模板的信息，请参阅[创建和管理布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
 1. 将布局模板分配给要访问Workfront Planning的用户。
 
