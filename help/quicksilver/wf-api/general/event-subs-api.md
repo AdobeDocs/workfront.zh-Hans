@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 * 将多个筛选器应用于单个订阅相当于使用&#x200B;**AND**&#x200B;逻辑运算符。
 * 只要每个事件订阅之间有一个或多个事件订阅字段参数不同，就可以将多个事件订阅应用于单个对象。
 * 将多个事件订阅分配给单个对象时，与该对象关联的所有事件订阅都可以返回到单个端点。 此实践可用作逻辑运算符&#x200B;**OR**&#x200B;的等效替代项，无法使用筛选器参数设置该运算符。
+* 以下字段不可过滤：
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE字段
 
 ### 使用比较运算符
 
