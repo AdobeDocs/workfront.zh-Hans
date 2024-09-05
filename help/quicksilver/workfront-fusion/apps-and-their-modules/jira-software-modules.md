@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
 1. 在[!DNL Workfront Fusion]中，将[!DNL Jira]模块添加到方案以打开&#x200B;**[!UICONTROL 创建连接]**&#x200B;框。
 1. 指定以下信息：
 
-   * **[!UICONTROL 服务URL]**
+   * **[!UICONTROL 服务URL]：**&#x200B;这是用于访问Jira帐户的基本URL。 示例： `yourorganization.atlassian.net`
    * **[!UICONTROL 用户名]**
    * **[!UICONTROL API令牌]：**&#x200B;这是您在[在此文章的 [!DNL Jira]](#create-an-api-token-in-jira)部分中创建API令牌的API令牌。
 
@@ -231,7 +231,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>输入您的[!DNL Jira]实例URL。 </td> 
+      <td>输入您的[!DNL Jira]实例URL。 示例： <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以标准JSON对象的形式添加API调用的正文内容。</p> <p>注意：  <p>在JSON中使用条件语句（如<code>if</code>）时，请将引号放在条件语句之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
