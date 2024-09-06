@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ ht-degree: 0%
 
 业务规则中还提供了API通配符。 您只能在UI或API中使用`$$ISAPI`来触发规则。
 
+表达式中使用了`$$BEFORE_STATE`和`$$AFTER_STATE`通配符，以在任何编辑之前和之后访问对象的字段值。
+
+* 这两个通配符均可用于编辑触发器。 编辑触发器的默认状态（如果表达式中未包含任何状态）为`$$AFTER_STATE`。
+* 对象创建触发器仅允许`$$AFTER_STATE`，因为before状态不存在。
+* 对象删除触发器仅允许`$$BEFORE_STATE`，因为after状态不存在。
+
+
 一些简单的业务规则方案包括：
 
 * 用户无法在2月的最后一周添加新费用。 此公式可以表示为：`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 用户无法编辑处于完成状态的项目。 此公式可以表示为：`IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* 用户无法编辑处于完成状态的项目的项目名称。 此公式可以表示为：`IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 具有嵌套IF语句的情形是：
 

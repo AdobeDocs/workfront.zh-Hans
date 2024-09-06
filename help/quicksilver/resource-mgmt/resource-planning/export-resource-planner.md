@@ -3,13 +3,13 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 从资源规划者导出信息
 description: 您可以将资源规划者的任何视图中的信息导出到计算机上保存的Excel (.xlsx)文件。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 4%
 
 ---
 
@@ -23,44 +23,46 @@ ht-degree: 3%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高 <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：浅色或更高</p>
+       <p>或</p>
+       <p>当前：审阅或更高版本</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限的项目、用户和资源管理</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对项目、用户和资源管理的访问权限或更高版本</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看项目的权限或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 从资源规划者导出信息
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。 默认显示&#x200B;**规划者**。
+默认显示&#x200B;**规划者**。
 
 1. 为规划者选择视图。 您可以选择以下选项之一：
 

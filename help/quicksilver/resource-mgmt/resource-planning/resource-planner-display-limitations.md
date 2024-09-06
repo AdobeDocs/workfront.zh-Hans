@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 资源规划者显示限制
 description: 为了提高性能，Adobe Workfront会限制您可以显示的信息量以及您可以从资源规划者导出的信息量。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%

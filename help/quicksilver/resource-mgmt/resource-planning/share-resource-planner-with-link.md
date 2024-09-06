@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 使用链接共享资源规划者用户视图
 description: Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您可将该URL作为外部页面嵌入到仪表板中，或者在新的浏览器选项卡中单独打开它。 在将资源规划者信息与可能无权直接访问资源区域的用户共享时，这非常有用。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,40 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+    <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看资源管理、项目和用户的或更高访问权限</p> <p>查看对财务数据的访问权限以查看成本信息 </p> <p><b>注意</b>如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看资源管理、项目和用户的或更高访问权限</p> <p>查看对财务数据的访问权限以查看成本信息</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看您想在资源规划者中显示的项目或授予更高的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看您想在资源规划者中显示的项目或授予更高的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 
 为资源规划者的用户视图生成唯一URL时，请考虑以下事项：
@@ -62,10 +70,9 @@ Adobe Workfront可以为资源规划者的用户视图生成唯一的URL，您�
 
 要在资源规划者的用户视图中获取唯一URL并与其他用户共享，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。
-1. 在中，选择&#x200B;**按用户查看**。
+1. 选择&#x200B;**按用户查看**。
 1. （可选）选择要在资源规划程序中查看信息所依据的时间范围。 从以下项中选择：
 
    * 周

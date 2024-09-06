@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: 资源规划者中的筛选信息
-description: '''(AL：*对此文章进行迭代：按自定义数据筛选。 其他增强功能？ 特殊字符注意事项可能会改变 — 请跟着故事以了解何时改变。 它最初是在Beta 3 17.3中提供的。'
-author: Alina
+title: 资源规划者中的过滤信息
+description: 通过使用过滤器，您可以从存储在系统中的所有信息修改在资源规划者中显示的信息。
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>专业及更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前： Pro或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>审核或更高<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：浅色或更高</p>
+       <p>或</p>
+       <p>当前：审阅或更高版本</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看或更高权限的项目、用户和资源管理 </p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看对项目、用户和资源管理的访问权限或更高版本</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目的权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>查看项目的权限或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 资源规划者筛选器概览
 
@@ -117,18 +119,16 @@ ht-degree: 0%
 
 要在资源规划者中创建过滤器，请执行以下操作：
 
-1. 单击Adobe Workfront右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)。
+{{step1-to-resourcing}}
 
-1. 单击&#x200B;**资源**。
+默认显示&#x200B;**规划者**。
 
-   默认显示&#x200B;**规划者**。
+默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
 
-   默认情况下，首次访问资源规划者时应用<strong>默认筛选器</strong>。<br>有关默认筛选器的更多信息，请参阅本文的资源规划者</a>中的默认筛选器的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">概述部分。
-
-1. 在的左上角，单击&#x200B;**筛选器**&#x200B;图标。\
-   ![filter_icon.png](assets/filter-icon.png)\
-   或\
-   展开&#x200B;**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。\
+1. 在的左上角，单击&#x200B;**筛选器**图标。
+   ![filter_icon.png](assets/filter-icon.png)
+或
+展开**筛选器**&#x200B;下拉菜单，然后单击&#x200B;**添加新筛选器**。
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 要使用内置标准构建过滤器，请指定以下任意字段：

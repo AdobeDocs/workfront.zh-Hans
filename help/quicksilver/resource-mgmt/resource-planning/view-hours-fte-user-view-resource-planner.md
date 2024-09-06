@@ -4,10 +4,10 @@ product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: 使用用户视图时查看资源规划者中的可用、计划和实际小时数或FTE
 description: 在RP中使用用户视图计划时，在资源计划员中查看可用小时数、计划小时数和实际小时数或FTE — 可能是“RP中的预算资源”或“RP中的管理资源”。 等等…… — 或者可能需要从其他POV重新调整用途?!)”
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
