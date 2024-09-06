@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
+source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 1%
@@ -210,6 +210,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >使用[!DNL Jira Server]应用连接到[!DNL Jira Server]或[!DNL Jira Data Center]。
+
 1. 在[!DNL Workfront Fusion]中的任何[!DNL Jira Server]模块中，单击[!UICONTROL 连接]字段旁边的&#x200B;**[!UICONTROL 添加]**。
 1. 在[!UICONTROL 创建连接]面板中，填写以下字段：
 
