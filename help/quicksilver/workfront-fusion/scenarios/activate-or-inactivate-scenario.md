@@ -7,9 +7,9 @@ description: 本文介绍了活动方案或停用方案在不同情况下为何�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * 非活动方案仅在手动运行时执行。
 
-  当您希望仅在特定时间运行场景时，这将很有用。
+  当您每次要手动运行场景时，这非常有用。
 
 您可以随时激活或取消激活方案，具体取决于您希望如何使用该方案。
 
