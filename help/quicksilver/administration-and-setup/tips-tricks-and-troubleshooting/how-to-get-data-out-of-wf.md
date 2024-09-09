@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# 从[!DNL Adobe Workfron]t导出历史数据：优缺点
+# 从[!DNL Adobe Workfront]导出历史数据：优缺点
 
 本文说明了四个选项的利弊，您可以使用这些选项从[!DNL Workfront]导出历史数据。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 从我们的数据库团队请求[!DNL Postgres]数据转储文件
 
-您的客户经理可以向我们的数据库团队提交请求，以导出包含您数据的数据库转储文件（.dmp [!DNL Postgres]文件）。 另外，我们的AOS团队将收到一个请求，要求您检索所有存储的文档。
+您必须向我们的客户支持团队提交请求，然后他们将向我们的数据库团队提交请求，以导出包含您的数据的数据库转储文件（.dmp [!DNL Postgres]文件）。 另外，还会向我们的NOC团队提出检索所有存储文档的请求。
 
 * **优点**：获取整个数据加载，包括自定义字段以及存储在系统中的文档。
 
-* **缺点**：数据库文件很难读取：除非将其上载到[!DNL Postgres]数据库并重新建立表之间的关系，否则无法读取此文件。 文档存储在单独的文件服务器上，必须由AOS团队使用单独的进程单独提取。 这样做时，文档没有组织，并且它们都由其GUID引用。
+* **缺点**：数据库文件很难读取：除非将其上载到[!DNL Postgres]数据库并重新建立表之间的关系，否则无法读取此文件。 文档存储在单独的文件服务器上，必须由NOC团队使用单独的进程单独提取。 这样做时，文档没有组织，并且它们都由其GUID引用。
 
 * **成本**：此下载会产生成本，具体取决于团队创建文件所需的时间。 请与您的AE/CAE联系，以了解详细信息或开始此流程。
 

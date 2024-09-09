@@ -6,10 +6,10 @@ description: 您可以与其他用户共享工作负载均衡器，其他用户�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 1%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -26,34 +28,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
-   <td> <p>任何计划</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在资源区域使用工作负载均衡器时进行规划</p>
-   <p>工作，使用团队或项目的工作负载均衡器时</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
+       工作，使用团队或项目的工作负载均衡器时</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
-     <li> <p>资源管理</p> </li> 
-     <li> <p>项目</p> </li> 
-     <li> <p>任务</p> </li> 
-     <li> <p>问题</p> </li> 
-    </ul> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+     <li>资源管理</li> 
+     <li>项目</li> 
+     <li>任务</li> 
+     <li>问题</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看或更高权限的项目、任务和问题 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td>查看或更高权限的项目、任务和问题</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 从共享链接查看工作负载均衡器中包含的信息
 

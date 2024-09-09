@@ -6,20 +6,16 @@ description: 您可以使用Adobe Workfront工作负载均衡器批量将资源�
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
 # 使用工作负载均衡器批量分配工作
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 您可以使用Adobe Workfront工作负载均衡器批量将资源分配给多个任务和问题。
 
@@ -28,6 +24,8 @@ ht-degree: 2%
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ ht-degree: 2%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> 
-   <p>新增：标准</p>
-   <p>当前：</p>
-   <ul>
-   <li><p>在资源区域使用工作负载均衡器时进行规划</p></li>
-   <li><p>工作，使用团队或项目的工作负载均衡器时</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
+       工作，使用团队或项目的工作负载均衡器时</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">访问级别</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>编辑对以下内容的访问权限：</p> 
     <ul> 
-     <li> <p>资源管理</p> </li> 
-     <li> <p>项目</p> </li> 
-     <li> <p>任务</p> </li> 
-     <li> <p>问题</p> </li> 
+     <li>资源管理</li> 
+     <li>项目</li> 
+     <li>任务</li> 
+     <li>问题</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>Contribute对项目、任务和问题（包括制定工作）的权限或更高</p> </td> 
+   <td>Contribute对项目、任务和问题（包括制定工作）的权限或更高</td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -100,27 +93,27 @@ ht-degree: 2%
 
 1. （视情况而定）如果您正在从资源区域或团队访问工作负载均衡器，请展开&#x200B;**项目：名称**&#x200B;下拉菜单，并使用筛选器修饰符选择要为其分配的一个或多个项目。 您可以按名称（这是默认选项）或状态选择项目。
 
-有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
->[!NOTE]
->
->在访问项目的工作负载均衡器时，默认情况下会选择项目名称。
+   >[!NOTE]
+   >
+   >在访问项目的工作负载均衡器时，默认情况下会选择项目名称。
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. （可选）单击&#x200B;**选择项目任务**&#x200B;以选择要为其分配的一个或多个任务，然后在&#x200B;**任务：名称**&#x200B;下拉菜单中，按“名称”（这是默认选项）或“状态”选择任务，并使用筛选器修饰符搜索特定任务。
 
-有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
+   有关Workfront筛选器修饰符的信息，请参阅[筛选器和条件修饰符](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。
 
->[!NOTE]
->
->您不能选择处于完成状态的任务。
+   >[!NOTE]
+   >
+   >您不能选择处于完成状态的任务。
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->如果要批量分配问题和任务，请将此选择留空。
+   >[!TIP]
+   >
+   >如果要批量分配问题和任务，请将此选择留空。
 
 1. （可选）单击其中一个选定条件旁边的&#x200B;**删除**&#x200B;图标![](assets/delete.png)
 

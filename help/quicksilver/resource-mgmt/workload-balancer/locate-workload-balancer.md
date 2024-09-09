@@ -7,15 +7,14 @@ description: 您可以使用工作负载均衡器来计划工作的资源，或�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # 找到工作负载均衡器
-
 
 您可以使用工作负载均衡器来计划工作的资源，或查看其可用性和当前分配。
 
@@ -36,9 +35,10 @@ ht-degree: 0%
 >* [导航工作负载均衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [在工作负载均衡器中分配工作的概述](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [在工作负载均衡器中管理用户分配](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -47,35 +47,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>在资源区域使用工作负载均衡器时进行规划</p>
-   <p>工作，使用团队或项目的工作负载均衡器时</p>
- </td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划，在资源区域使用工作负载均衡器时；</br>
+       工作，使用团队或项目的工作负载均衡器时</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">访问级别*</td> 
+   <td role="rowheader">访问级别配置</td> 
    <td> <p>查看以下内容或更高访问权限：</p> 
     <ul> 
-     <li> <p>资源管理</p> </li> 
-     <li> <p>项目</p> </li> 
-     <li> <p>任务</p> </li> 
-     <li> <p>问题</p> </li> 
-    </ul> <p><b> 注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何更改访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+     <li>资源管理</li> 
+     <li>项目</li> 
+     <li>任务</li> 
+     <li>问题</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>查看项目、任务和问题的权限或更高版本 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td>查看项目、任务和问题的权限或更高版本</td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在预定义区域访问工作负载均衡器
 
@@ -83,7 +83,8 @@ ht-degree: 0%
 
 ### 在资源区访问多个项目的工作负载均衡器
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**资源**。
+{{step1-to-resourcing}}
+
 1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ ht-degree: 0%
 
 ### 访问团队的工作负载均衡器
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击团队。
+{{step1-to-team}}
+
 此时将显示您的主团队的页面。
 
-   默认情况下，将显示团队的工作负载均衡器。
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   默认情况下，团队的工作负载均衡器显示以下信息：
-
-   * **未分配的工作**：已分配给团队但未分配给用户的项目。
-   * **已分派的工作**：团队的所有成员及其所有分派的工作。
-
-     >[!TIP]
-     >
-     >团队成员可能被分配到也分配给团队的工作，或被分配到其他团队或角色的工作。
-
-
+    单击左侧面板中的**工作负载均衡器**。
+    
+    ！[](assets/nwe-balancer-team-350x172.png)
+    
+    团队的工作负载均衡器默认显示以下信息：
+    
+    * **未分配的工作**：分配给团队且未分配给用户的项。
+    * **已分配的工作**：团队的所有成员及其所有分配。
+    
+    >[！TIP]
+    >
+    >团队成员可能被分派到也分派到该团队的工作或分派到其他团队或角色的工作。
 
 ### 访问项目的工作负载均衡器
 
-1. 单击&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**项目**。
+{{step1-to-projects}}
+
 1. 单击项目名称以打开项目页面。
 1. 单击左侧面板中的&#x200B;**工作负载均衡器**。 您可能需要单击&#x200B;**显示更多**，然后单击&#x200B;**工作负载均衡器**。
 
