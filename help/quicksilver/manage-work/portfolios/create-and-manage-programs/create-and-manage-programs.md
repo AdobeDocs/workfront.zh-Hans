@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 
 本节包含以下文章：
 
+* [ [!DNL Adobe Workfront]中的项目概述](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [创建程序](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [编辑程序](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [将现有项目添加到项目组合](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

@@ -7,16 +7,18 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 3%
 
 ---
 
 # 编辑模板任务
 
-创建模板后，可以编辑有关模板任务的信息。 在使用模板创建项目或将模板附加到项目后，您在模板任务上更新的信息将与项目任务相关联。
+<!--Audited: 09/2024-->
+
+创建模板后，可以编辑模板任务的信息。 在使用模板创建项目或将模板附加到项目后，您在模板任务上更新的信息将与项目任务相关联。
 
 有关创建模板的信息，请参阅[创建项目模板](../../../manage-work/projects/create-and-manage-templates/create-template.md)。
 
@@ -28,6 +30,8 @@ ht-degree: 3%
 
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -55,7 +59,9 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问级别，请与Workfront管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -88,7 +94,7 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >有关详细信息区域中显示的所有字段的信息，请使用下面的编辑模板任务框继续编辑所有字段。
+   >有关详细信息区域中显示的所有字段的信息，请继续使用“编辑模板任务”框编辑所有字段，如下所述。
 
 1. （视情况而定）要编辑有关模板任务的所有信息，请单击模板任务名称旁边的&#x200B;**更多**&#x200B;菜单![](assets/qs-more-icon-on-an-object.png)，然后单击&#x200B;**编辑**。
 
@@ -212,7 +218,7 @@ ht-degree: 3%
 
 ### 财务 {#finance}
 
-1. 按如上所述开始编辑任务。
+1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**财务**。
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ ht-degree: 3%
 
 ### 设置 {#settings}
 
-1. 按如上所述开始编辑任务。
+1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**设置**。
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ ht-degree: 3%
 
 ### 分配 {#assignments}
 
-1. 按如上所述开始编辑任务。
+1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**分配**。
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ ht-degree: 3%
 
 ### 自定义表单 {#custom-forms}
 
-可定义在将任务添加到项目时自动附加到任务的默认自定义表单。 有关设置项目以包含默认任务自定义表单的信息，请参阅文章[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)中的“任务”部分。
+您可以定义在任务添加到项目时，默认自动附加到任务的自定义表单。 有关设置项目以包含默认任务自定义表单的信息，请参阅[编辑项目](../../../manage-work/projects/manage-projects/edit-projects.md)一文中的“任务”一节。
 
-1. 按如上所述开始编辑任务。 测试
+在从模板创建项目时，您还可以通过向模板任务添加自定义表单来将自定义表单添加到项目的未来任务中。
+
+1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**自定义Forms**。
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 选择要与模板任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以向一个模板任务添加十个自定义表单。 表单会自动添加到从模板创建的任务中。
+1. 选择要与模板任务关联的一个或多个自定义表单。
+
+   您必须先构建自定义表单，然后才可在此字段中选择它们。
+列表中仅显示活动的自定义表单。
+有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您最多可以向一个模板任务添加十个自定义表单。
+表单会自动添加到从模板创建的任务中。
 1. （视情况而定，可选）如果将自定义表单附加到模板任务，请编辑表单上的任何字段。 在保存模板任务之前，必须指定所有必填字段。
 
    >[!NOTE]
@@ -368,14 +382,12 @@ ht-degree: 3%
 
 ### 评论 {#comment}
 
-1. 按如上所述开始编辑任务。
+1. 按如上所述开始编辑模板任务。
 1. 单击&#x200B;**评论**。
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. 在可用字段中指定要显示在模板任务的更新流中的注释。 此注释对具有查看模板和模板任务的权限以及查看注释访问权限的所有人可见。
 1. 单击&#x200B;**保存更改**。
-
-   您的更改将提交到此模板任务。
 
    当您或其他用户从此模板创建项目时，应用到模板任务的所有设置都将成为项目任务的设置。

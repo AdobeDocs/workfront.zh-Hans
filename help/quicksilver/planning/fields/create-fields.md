@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 1%
@@ -247,7 +247,7 @@ OLD:
 >
 >* 一个记录类型最多可以有20个段落字段。
 >
->* 段落字段的内容最多可包含100,000个字符。
+>* 段落字段的内容最多可包含10,000个字符。
 >* 当段落字段显示在记录的表视图或详细信息页面中时，您可以使用富文本格式来增强段落字段的内容。 有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
 >
 

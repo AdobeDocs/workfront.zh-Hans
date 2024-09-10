@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动{#fusion-release}
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion发行活动： 2024年8月19日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Workfront Fusion发行活动： 2024年8月5日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion发行活动： 2024年7月29日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion发行活动： 2024年7月22日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -1450,6 +1451,7 @@ ht-degree: 2%
          * [从项目组合中删除项目](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [审核请求的项目](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * 创建和管理程序{#create-and-manage-programs}
+         * [ [!DNL Adobe Workfront]中的项目概述](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [创建和管理程序](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [创建项目](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [编辑项目群](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
