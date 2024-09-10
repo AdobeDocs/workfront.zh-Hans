@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -23,44 +23,53 @@ ht-degree: 1%
 
 ## 访问要求
 
-您必须具备以下条件才能管理[!DNL Workfront]中的公司：
++++ 展开以查看本文中各项功能的访问要求。
 
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] 计划*</p> </td> 
-   <td>[！UICONTROL Team]或更高版本</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] 计划</p> </td> 
+   <td><p>当前： [！UICONTROL团队]或更高版本</p>
+   <p>或</p>
+   <p>新建：任何</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
-   <td>[！UICONTROL计划]</td> 
-  </tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
+   <td><p>当前： [！UICONTROL计划]</p>
+   <p>或</p>
+   <p>新文档： [！UICONTROL Standard]</p>
+   </td> 
+  </tr>
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>访问级别配置*</strong> </td> 
+   <td role="rowheader"><strong>访问级别配置</strong> </td> 
    <td> <p>下列选项之一：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> </li> 
-     <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">授予用户对特定区域的管理访问权限</a>。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系统管理员]访问级别。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。</p> </li> 
         <li> <p>在访问级别中，必须为[！UICONTROL用户]设置选择[！UICONTROL编辑] 。 此外，对于[！UICONTROL用户]设置，在[！UICONTROL微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[！UICONTROL创建]选项以及两个[！UICONTROL用户管理]选项中的至少一个。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[！UICONTROL用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</p> </li> 
-       </ul> <p>有关访问级别中的用户设置的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问级别配置，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 管理公司成员资格
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 公司]**。
 1. 单击公司名称。

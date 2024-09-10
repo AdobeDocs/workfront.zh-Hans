@@ -3,17 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: 系统跟踪的更新馈送
+title: 系统跟踪的更新信息源
 description: Adobe Workfront将某些对象在其[!UICONTROL 更新]区域发生的活动记录下来。 系统更新包括描述对象发生了何种变化的简短说明。 [!DNL Workfront] 管理员可以在[!UICONTROL 更新]部分中定义系统应跟踪的更改类型。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

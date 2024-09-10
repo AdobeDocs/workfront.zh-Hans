@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 创建和管理工作角色
+title: 创建和管理职位角色
 description: 作为 [!DNL Adobe Workfront] 管理员或对工作角色具有管理访问权限的用户，您可以创建可分配给用户的工作角色，并删除与您的组织无关的默认工作角色。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td>
-   <p>新增：标准</p>
+   <p>新文档： [！UICONTROL Standard]</p>
+   <p>或</p>
    <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>对工作角色的管理访问权限</p> </td> 
+   <td>对工作角色的管理访问权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

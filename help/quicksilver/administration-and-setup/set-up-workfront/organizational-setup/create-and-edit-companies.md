@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能管理[!DNL Workfront]中的公司：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -38,9 +38,9 @@ ht-degree: 0%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] 许可证</p> </td> 
    <td><p>当前： [！UICONTROL计划]</p>
-   或
+   <p>或</p>
    <p>新文档： [！UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -48,22 +48,23 @@ ht-degree: 0%
    <td role="rowheader">访问级别配置</td> 
    <td> <p>下列选项之一：</p> 
     <ul> 
-     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">授予用户完全管理访问权限</a>。 </p> </li> 
-     <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">授予用户对特定区域的管理访问权限</a>。</p> </li> 
+     <li> <p>[！UICONTROL系统管理员]访问级别，允许您编辑系统中的任何公司。</p> </li> 
+     <li> <p>管理公司的管理权限，允许您编辑系统中的任何公司。</p> </li> 
     </ul> <p><b>注释</b>：  
      <ul> 
       <li> <p>您还可以管理与您被分配为组管理员的任何组关联的公司。</p> </li> 
       <li> <p>若要在[!DNL Workfront]系统中添加和删除用户，您必须具备以下任一项：</p> 
        <ul> 
-        <li> <p>[！UICONTROL系统管理员]访问级别。 有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> </li> 
+        <li> <p>[！UICONTROL系统管理员]访问级别。 </p> </li> 
         <li> <p>在访问级别中，必须为[！UICONTROL用户]设置选择[！UICONTROL编辑] 。 此外，对于[！UICONTROL用户]设置，在[！UICONTROL微调设置] <img src="assets/gear-icon-in-access-levels.png">下，必须启用[！UICONTROL创建]选项以及两个[！UICONTROL用户管理]选项中的至少一个。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>如果您使用[！UICONTROL用户管理员（组用户）]选项，您必须是用户所属组的组管理员。</p> </li> 
-       </ul> <p>有关访问级别中的用户设置的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问级别配置，请与[!DNL Workfront]管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -91,11 +92,12 @@ ht-degree: 0%
 
 添加或编辑公司：
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 公司]**。
 
    此时将显示公司列表。
+
 1. 如果要添加公司，请单击&#x200B;**[!UICONTROL 新建公司]**。
 
    或

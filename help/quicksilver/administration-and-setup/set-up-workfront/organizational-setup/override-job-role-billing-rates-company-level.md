@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 覆盖公司级别的工作角色记帐费率
 description: 创建工作角色后，您可以选择为该角色选择每小时记帐费率。 您可以创建特定于公司的每小时记帐费率。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
@@ -23,32 +23,40 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td>计划</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新文档： [！UICONTROL Standard]</p>
+   <p>或</p>
+   <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>如果您不是系统管理员，则可以管理对公司的访问权限</p> <p>[！UICONTROL Edit]对财务数据的访问权限</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>如果您不是系统管理员，则可以管理对公司的访问权限</p>
+   <p>编辑对财务数据的访问权限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 覆盖或更改用于特定工作角色的已建立记帐费率
 
-1. 单击[!DNL Adobe] Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 公司]**。
 1. 找到分配工作角色的公司。

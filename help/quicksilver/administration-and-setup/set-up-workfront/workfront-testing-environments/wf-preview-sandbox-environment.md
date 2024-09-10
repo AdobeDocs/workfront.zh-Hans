@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] 预览沙盒环境'
 description: 预览Sandbox是一个测试环境，可用作实时环境的副本。 Workfront每周末都会更新。 在星期五添加到实时环境的数据会在下星期一之前显示在预览Sandbox中。 所有支持包都可以访问此沙盒。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 要访问预览沙盒，请执行以下操作：
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 单击&#x200B;**[!UICONTROL 系统]** > **[!UICONTROL 首选项]**。
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ ht-degree: 0%
 * 对象创建触发器仅允许`$$AFTER_STATE`，因为before状态不存在。
 * 对象删除触发器仅允许`$$BEFORE_STATE`，因为after状态不存在。
 
-
 一些简单的业务规则方案包括：
 
 * 用户无法在2月的最后一周添加新费用。 此公式可以表示为：`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ ht-degree: 0%
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

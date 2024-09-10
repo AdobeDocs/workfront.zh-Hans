@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
@@ -31,21 +31,21 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>当前： [！UICONTROL Business]或更高版本</p> 
    或
    <p>新文档： [！UICONTROL Prime]或更高版本</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td><p>当前： [！UICONTROL计划]</p>
    或
    <p>新文档： [！UICONTROL Standard]</p>
@@ -53,6 +53,8 @@ Portfolio经理通常会定义记分卡问题和答案，以确保它们在项�
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

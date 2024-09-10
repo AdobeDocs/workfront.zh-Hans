@@ -5,13 +5,13 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 管理小时类型
 description: 您可以将小时类型与小时条目关联。 小时类型是用于定义小时条目的标签。
-author: Alina
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
+您必须具有以下权限才能执行本文中的步骤：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,18 +62,18 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
    <td> <p>新文档： [！UICONTROL Standard]</p>
    <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别</td> 
-   <td> <p>您必须是[!DNL Workfront]管理员。</p> <p> </td> 
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
 
-*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

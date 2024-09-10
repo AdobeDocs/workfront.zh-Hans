@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 取消激活工作角色
+title: 取消激活职位角色
 description: 作为 [!DNL Adobe Workfront] 管理员或对工作角色具有管理访问权限的用户，您可以停用系统中已过时的工作角色。 当您停用而不是删除工作角色时，您可以保留与工作角色关联的任何历史信息。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 0%
+source-wordcount: '661'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,35 @@ ht-degree: 0%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]许可证*</td> 
-   <td>[！UICONTROL计划]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
+   <td>
+   <p>新文档： [！UICONTROL Standard]</p>
+   <p>或</p>
+   <p>当前： [！UICONTROL计划]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>对工作角色的管理访问权限</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>对工作角色的管理访问权限</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 停用工作角色的影响
 
@@ -95,12 +102,12 @@ ht-degree: 0%
 
   有关创建审批流程和传送规则的信息，请参阅以下文章：
 
-   * [创建工作项的审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [为工作项目创建审批流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
    * [创建路由规则](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 取消激活工作角色
 
-1. 单击[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 工作角色]。**
 1. （可选）在&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 活动]**&#x200B;以仅显示活动工作角色。

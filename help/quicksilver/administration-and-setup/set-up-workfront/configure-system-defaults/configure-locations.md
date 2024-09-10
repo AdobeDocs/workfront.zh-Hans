@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td><p>旧版计划： [！UICONTROL计划]</p>
-       <p>当前计划： [！UICONTROL Standard]</p></td> 
-  </tr> 
+   <td><p>新文档： [！UICONTROL Standard]</p>
+   或
+   <p>当前： [！UICONTROL计划]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>编辑对[！UICONTROL财务数据]的访问权限</p> <p><b>注意</b>：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

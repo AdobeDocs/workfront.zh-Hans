@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -68,16 +68,19 @@ Edit the first part, once they add more settings in the Res Management Preferenc
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证</td> 
-   <td>[！UICONTROL计划]</td> 
+   <td><p>新文档： [！UICONTROL Standard]</p>
+   或
+   <p>当前： [！UICONTROL计划]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>系统管理员访问级别</p> <p>有关详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。</p> <p><b>注释</b>：
-
-如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td>[！UICONTROL系统管理员]</td>
+  </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

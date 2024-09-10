@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: set-up-workfront
 title: Adobe Workfront测试环境
 description: 您可以使用两个 [!DNL Workfront] 测试环境来复制 [!DNL Workfront] 生产环境。 Workfront每周末都会刷新预览Sandbox。 在星期五添加到实时环境的数据会在下星期一之前显示在预览Sandbox中。 自定义刷新沙盒是一个单独的测试环境，由您手动刷新。 获取自定义刷新沙盒需要额外付费。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 84573688765f7e4d88c941ac8a4d95386bf202de
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

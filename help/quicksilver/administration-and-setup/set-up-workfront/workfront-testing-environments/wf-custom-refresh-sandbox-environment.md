@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] 自定义刷新沙盒环境'
 description: 自定义刷新沙盒是一种您可以使用生产环境中的数据进行测试和工作的环境。 此外，它还是运行培训和确定设置功能的理想选择。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ ht-degree: 0%
 >
 >  有关预览沙盒的更多信息，请参阅[预览Sandbox环境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-
 ## 访问要求
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

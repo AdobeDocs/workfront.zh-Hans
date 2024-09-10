@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -58,12 +58,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>您必须是[!DNL Workfront]管理员。</p>  </td>
+   <td>[！UICONTROL系统管理员]</td>
 </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
