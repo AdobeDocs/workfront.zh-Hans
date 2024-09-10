@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
-   <td> <p>新计划：标准 </p>
+   <td> <p>新增：标准 </p>
  <p>或</p> 
-<p>当前计划：计划 </p> 
+<p>当前：计划 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>如果您是Workfront管理员或者对审批流程具有管理访问权限，则可以为特定组创建系统级审批流程或组级审批流程。</p> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>如果您是系统管理员或者对审批流程具有管理访问权限，则可以为特定组创建系统级审批流程或组级审批流程。</p> 
    <p>如果您是组管理员，则可以为所管理的组创建组级批准流程。</p> </td> 
   </tr> 
  </tbody> 

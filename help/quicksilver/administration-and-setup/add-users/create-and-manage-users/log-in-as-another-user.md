@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -61,20 +61,20 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td> <p>新增：标准</p>
+   <p>或</p>
    <p>当前：计划</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。 有关此级别访问权限的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">授予用户完全管理访问权限</a>。 </p> <p>如果访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问，并且<b>创建</b>和在<b>微调设置</b><img src="assets/gear-icon-in-access-levels.png">下至少启用<b>用户管理员</b>选项中的一个，那么借助Planner访问级别，您可以以许可证级别较低的用户身份登录。 </p> 
-   <p><b>注意</b>：在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p> 
-   <p>有关访问级别中<b>用户</b>设置的详细信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">授予用户访问权限</a>。</p> </td> 
+   <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。</p> <p>如果访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问权限，并且在<b>微调设置</b><img src="assets/gear-icon-in-access-levels.png">下启用了<b>创建</b>和两个<b>用户管理员</b>选项中的至少一个，那么借助“标准”或“规划者”访问级别，您可以以许可证级别较低的用户身份登录。 </p> 
+   <p><b>注意</b>：在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
