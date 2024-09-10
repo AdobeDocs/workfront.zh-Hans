@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Some users, such as executives, need to be able to control which administrators 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>使用“系统管理员”访问级别，您可以作为任何人都登录。</p> <p>如果访问级别中的<b>用户</b>设置配置为<b>编辑</b>访问权限，并且在<b>微调设置</b><img src="assets/gear-icon-in-access-levels.png">下启用了<b>创建</b>和两个<b>用户管理员</b>选项中的至少一个，那么借助“标准”或“规划者”访问级别，您可以以许可证级别较低的用户身份登录。 </p> 
-   <p><b>注意</b>：在这两个选项中，如果启用了用户<b>管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p></td> 
+   <p><b>注意</b>：在这两个选项中，如果启用了<b>用户管理员（组用户）</b>，则您必须是该用户所属组的组管理员。</p></td>
   </tr> 
  </tbody> 
 </table>

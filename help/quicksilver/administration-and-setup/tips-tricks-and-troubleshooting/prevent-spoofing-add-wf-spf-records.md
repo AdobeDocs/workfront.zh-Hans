@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 如果用户没有收到[!DNL Adobe Workfront]电子邮件通知，则需要将[!DNL Workfront]个SPF记录添加到防火墙。 您必须与IT团队合作以添加SPF记录。
 
 ## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -47,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>您必须是[!DNL Workfront]管理员。 </td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>

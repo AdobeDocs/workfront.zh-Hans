@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,37 @@ ht-degree: 0%
 >1. 填充Excel Kick-Start电子表格
 >1. 将Excel电子表格上传到Workfront
 
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td>
+   <p> 新增：标准</p>
+   或
+   <p>当前：计划</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 从Workfront导出现有自定义数据（可选步骤）
 

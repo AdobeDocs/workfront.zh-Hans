@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ ht-degree: 0%
      <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">为[!DNL Creative Cloud]应用程序安装[!DNL Adobe Workfront]插件</a></p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets和Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>自动创建在Workfront和Adobe Experience Manager之间链接的文件夹 
+      <li>同步现有链接资源的元数据</p></li>
+      <li>在Workfront中更改项目组合、项目群、项目、任务、问题和文档元数据集时，自动更新这些元数据。</li>
+      <li>跨组织ID将多个Experience Manager Assets存储库顺利连接到一个Workfront环境，或将多个Workfront环境顺利连接到一个Experience Manager Assets存储库</li></ul>
+     <p>有关信息和说明，请参阅<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets集成概述</a></p> 
+     </td>
+   <td><ul><li>Workfront必须位于分配了组织ID的Admin Console中。</li><li>Workfront和Experience Manger Assets或Assets Essentials必须作为产品分配给配置集成的用户。</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

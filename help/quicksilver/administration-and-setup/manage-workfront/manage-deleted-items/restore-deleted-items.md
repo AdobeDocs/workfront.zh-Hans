@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -40,26 +40,32 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能执行本文中的步骤：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证*</td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
    <td><p>新增：标准</p>
-   或
-   <p>当前：计划</p></td> 
+       <p>或</p>
+       <p>当前：计划</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划或许可证类型，请与Workfront管理员联系。
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

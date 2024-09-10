@@ -7,9 +7,9 @@ description: 您可以将 [!DNL Adobe Workfront] 与第三方应用程序集成�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,17 @@ Workfront中目前提供以下内置集成。
      </ul>
      <li><p>从<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下载/安装。</p></li></ul>
      <p>有关信息和说明，请参阅<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">为[!DNL Creative Cloud]应用程序安装[!DNL Adobe Workfront]插件</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets和Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>自动创建在Workfront和Adobe Experience Manager之间链接的文件夹 
+      <li>同步现有链接资源的元数据</p></li>
+      <li>在Workfront中更改项目组合、项目群、项目、任务、问题和文档元数据集时，自动更新这些元数据。</li>
+      <li>跨组织ID将多个Experience Manager Assets存储库顺利连接到一个Workfront环境，或将多个Workfront环境顺利连接到一个Experience Manager Assets存储库</li></ul>
+     <p>有关信息和说明，请参阅<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets集成概述</a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ Workfront中目前提供以下内置集成。
      <li>在[!DNL Slack]中接收[!DNL Workfront]通知 </li> 
      <li>在Slack中管理审批 </li> 
      <li>从[!DNL Slack]创建[!DNL Workfront]任务和问题 </li> 
-     <li>Post对Slack中的项目或任务的注释</li> 
+     <li>从Slack将注释发布到项目或任务</li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 恢复单个子对象
-description: 本文档介绍如何获取恢复单个子对象的帮助，这些子对象是您在不到30天前从Adobe Workfront生产或预览环境中删除的。
+description: 本文介绍了如何获取有关恢复已从Adobe Workfront生产或预览环境中删除的单个子对象的帮助，这些环境在30天之前未删除。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # 恢复单个子对象
 
-本文档介绍如何获取恢复单个子对象的帮助，这些子对象是您在不到30天前从Adobe Workfront生产或预览环境中删除的。
+本文介绍了如何获取有关恢复已从Adobe Workfront生产或预览环境中删除的单个子对象的帮助，这些环境在30天之前未删除。
 
 Workfront管理员可以恢复每个Workfront实例中的项目、任务、问题和文档，如[恢复已删除的项](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)中所述。 但只有Workfront数据库团队可以恢复对象，例如任务、问题、文档、自定义表单、小时和注释，而不依赖于其父对象。
 
@@ -42,6 +42,39 @@ Workfront管理员可以恢复每个Workfront实例中的项目、任务、问�
 >[!IMPORTANT]
 >
 >文档是这些恢复方法的例外。 您可以从预览环境中手动下载它们，并将它们重新上传到生产环境中。 如果要批量下载和上传文档，您需要从Workfront请求数据恢复。
+
+## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td>任何</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：计划</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td>[！UICONTROL系统管理员]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 数据恢复所需的信息
 

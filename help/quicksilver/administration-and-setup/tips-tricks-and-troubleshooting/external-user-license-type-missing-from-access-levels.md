@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 1%
 我在“设置”中的访问级别下无法再看到外部用户许可证类型。
 
 ## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -47,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>您必须是[!DNL Workfront]管理员。 </td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>

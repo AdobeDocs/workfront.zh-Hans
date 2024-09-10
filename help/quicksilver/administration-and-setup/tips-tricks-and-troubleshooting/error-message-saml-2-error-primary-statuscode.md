@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 1%
 >如果成功建立了测试连接，但仍遇到问题，则属性映射可能不正确，或者联合ID出现问题。 如有疑问，请联系客户支持。
 
 ## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
 
 +++ 展开以查看本文中各项功能的访问要求。
 
@@ -53,7 +51,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td>您必须是[!DNL Workfront]管理员。 </td> 
+   <td>[！UICONTROL系统管理员]</td> 
   </tr> 
  </tbody> 
 </table>
