@@ -6,9 +6,9 @@ description: 在项目组合中导航
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 0%
 
 ## 访问要求
 
+
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -32,25 +35,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard] </p>
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>[！UICONTROL Edit]对项目和Portfolio的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>项目组合的[！UICONTROL Manage]权限</p> <p>查看项目或更高权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 在项目组合中导航
 
@@ -60,15 +66,15 @@ ht-degree: 0%
 1. 从&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单中，选择以下内容：
 
    * **[!UICONTROL 我拥有的Portfolio]**：包含您被指定为[!UICONTROL Portfolio经理]的项目组合列表。
-   * **[!UICONTROL 所有]**：包含您至少拥有查看权限的所有项目组合。\
+   * **[!UICONTROL 所有]**：包含您至少拥有查看权限的所有项目组合。
 
-     有关访问Portfolio的详细信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。\
-      有关Portfolio权限的详细信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
+     有关访问Portfolio的详细信息，请参阅[访问级别概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)。
+有关Portfolio权限的详细信息，请参阅[共享项目组合](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)。
 
      要添加新项目组合，请参阅[创建项目组合](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)。
 
-1. 单击项目组合名称以访问它。\
-   以下项目组合绩效指标显示在项目组合内的[!UICONTROL Portfolio详细信息]区域中：
+1. 单击项目组合名称以访问它。
+以下项目组合绩效指标显示在项目组合内的[!UICONTROL Portfolio详细信息]区域中：
 
    * 项目组合是否为[!UICONTROL 准时]
    * 项目组合是否为[!UICONTROL 预算]
@@ -96,8 +102,8 @@ ht-degree: 0%
      有关创建筛选器的更多信息，请参阅[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**&#x200B;可在项目组合中创建程序或管理现有程序。\
-   有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
+1. 单击左侧面板中的&#x200B;**[!UICONTROL 程序]**可在项目组合中创建程序或管理现有程序。
+有关程序的信息，请参阅[创建和管理程序](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)部分。
 
 1. （可选）展开左侧面板中的&#x200B;**[!UICONTROL Portfolio详细信息]**&#x200B;区域，然后单击&#x200B;**[!UICONTROL 概述]**&#x200B;或&#x200B;**[!UICONTROL 自定义Forms]**&#x200B;以编辑有关项目组合的信息。
 

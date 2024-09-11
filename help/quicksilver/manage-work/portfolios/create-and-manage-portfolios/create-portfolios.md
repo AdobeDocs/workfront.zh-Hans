@@ -6,9 +6,9 @@ description: Portfolio是争夺相同资源、预算和计划的项目集合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,7 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>新建：任何</p>
-   <p>当前：[！UICONTROL Business]或更高版本</p> </td> 
+   <td> <p>任何</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
@@ -53,6 +52,27 @@ Portfolio是争夺相同资源、预算和计划的项目集合。 Portfolio中�
 *有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 创建项目组合的方法
+
+您可以使用以下方法之一在Workfront中创建项目组合：
+
+* 从主菜单的Portfolio区域开始从头开始创建项目组合。 本文介绍了如何从头开始创建项目组合。
+
+* 使用kick-start导入项目组合。
+
+  作为Workfront管理员，您可以使用快速启动导入项目组合。
+
+  有关在Workfront中使用Kick-Start导入数据的信息，请参阅[使用Kick-Start模板将数据导入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
+
+* 在从Workfront Planning中的记录类型连接项目组合时添加项目组合。
+
+  您必须拥有新的Workfront许可证和附加的Workfront Planning许可证，才能使用Workfront Planning。
+
+  有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+
+  有关通过将项目组合添加到记录来创建项目组合的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
+
 
 ## 创建项目组合
 

@@ -6,9 +6,9 @@ description: 项目是Adobe Workfront中的一个大型工作单位。 您可以
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ ht-degree: 1%
 
   有关使用Kick-Starts导入项目的信息，请参阅[Kick-Starts方案：简单项目和任务导入准备](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)。
 
-* 从Adobe Workfront Scenario Planner中的场景Publish计划。 Scenario Planner需要额外的许可证。 有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。 有关通过发布计划创建项目的信息，请参阅[通过发布方案规划器](../../../scenario-planner/publish-scenarios-update-projects.md)中的计划来更新或创建项目。
+* 从Adobe Workfront Scenario Planner中的场景Publish计划。
+
+  Scenario Planner需要以下项之一：
+
+   * 当前Workfront许可证结构的附加许可证。
+   * 新Workfront许可证结构的最终许可证。
+
+  有关Workfront Scenario Planner的信息，请参阅[Scenario Planner概述](../../../scenario-planner/scenario-planner-overview.md)。 有关通过发布计划创建项目的信息，请参阅[通过发布方案规划器](../../../scenario-planner/publish-scenarios-update-projects.md)中的计划来更新或创建项目。
+
+* 在从Workfront Planning中的记录类型连接项目时添加项目。 您只能创建项目，而不能从Workfront Planning创建模板。
+
+  您必须拥有新的Workfront许可证和附加的Workfront Planning许可证，才能使用Workfront Planning。
+
+  有关访问Workfront Planning的信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+
+  有关通过将项目添加到记录来创建项目的信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”一节。
 
 ## 先决条件
 

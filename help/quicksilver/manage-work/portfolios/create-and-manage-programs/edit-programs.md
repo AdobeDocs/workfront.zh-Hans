@@ -6,9 +6,9 @@ description: 您可以编辑已创建的程序的信息，或其他用户已创�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,9 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -28,25 +31,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
-   <td> <p>[！UICONTROL计划] </p> </td> 
+   <td> <p>新文档： [！UICONTROL Standard] </p><p>或 </p><p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别*</td> 
-   <td> <p>[！UICONTROL Edit]对程序的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关访问访问级别中程序的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">授予程序访问权限</a>。 有关[!DNL Workfront]管理员如何更改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。 </p> </td> 
+   <td role="rowheader">访问级别</td> 
+   <td> <p>[！UICONTROL Edit]对程序的访问权限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>[！UICONTROL Manage]程序权限</p> <p> 有关向程序授予权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">共享程序</a>。 </p> <p>有关请求其他权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>[！UICONTROL Manage]程序权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 编辑项目群
 

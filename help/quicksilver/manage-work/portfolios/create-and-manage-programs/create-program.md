@@ -6,9 +6,9 @@ description: 项目群表示共享跨项目边界的共同策略、目标或目�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,18 @@ ht-degree: 0%
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+
+## 创建项目群的方法
+
+您可以使用以下方法之一在Workfront中创建程序：
+
+* 从头开始在主菜单的程序区域或项目组合的程序部分创建程序。 本文介绍了如何从头开始创建程序。
+
+* 使用kick-starts导入程序。
+
+  作为Workfront管理员，您可以使用快速启动导入程序。
+
+  有关在Workfront中使用Kick-Start导入数据的信息，请参阅[使用Kick-Start模板将数据导入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
 ## 创建项目
 

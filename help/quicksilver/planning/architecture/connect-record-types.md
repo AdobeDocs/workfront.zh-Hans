@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # 连接记录类型
+
+<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 所选工作区中的其他记录类型
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 另一个工作区中配置为从其他工作区连接的记录类型。 有关信息，请参阅[编辑记录类型](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 来自&#x200B;**Adobe应用程序**&#x200B;部分的&#x200B;**Experience Manager Assets**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. 更新以下信息：
 
@@ -221,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      仅当从两个不同的工作区连接记录或连接记录和Adobe Experience Manager资源对象时，此选项才可用。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **连接类型**：选择下列选项之一，以指示他们可以连接多少条记录，也可以连接多少条记录：
 
@@ -232,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      仅当连接来自同一工作区的记录或记录和Workfront对象类型时，此选项才可用。
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -259,13 +260,21 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >Workfront管理员可以通过Workfront中的元数据映射，将Workfront Planning字段映射到Experience Manager Assets字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
-1. （视情况而定）如果您已选择连接到Experience Manager Assets或Workfront Planning记录类型，并且不想在链接的字段中显示连接的记录或资源的标题，请取消选中&#x200B;**记录外观**&#x200B;区域中的&#x200B;**标题**&#x200B;切换开关。 取消选择后，链接的字段中仅显示记录的缩略图。 没有缩略图图像的记录改为显示图像图标。 默认情况下，该切换处于选中状态。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
+1. （视情况而定）如果您选择连接到Experience Manager Assets或Workfront Planning记录类型，请在&#x200B;**记录外观**&#x200B;区域中选择以下选项之一：
+
+   * <span class="preview">**名称和图像**：连接的记录的名称和缩略图或图标都会显示在连接的记录字段中。 这是默认选项。</span>
+   * <span class="preview">**名称**：只有连接的记录的名称才会显示在连接的记录字段中。</span>
+   * <span class="preview">**图像**：只有连接的记录的缩略图或图标将显示在连接的记录字段中。</span>
+
+   没有缩略图图像的记录改为显示记录类型图标。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
 
    >[!TIP]
    >
    >    当允许链接多个记录时，仅显示缩略图可能会节省较小区域（如记录视图）的空间。
    >
-   >记录的标题是记录的主字段。 有关详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >记录的名称是记录的主要字段。 有关详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >
+   >选择Workfront对象类型时，无法选择记录外观。
 
 1. 单击&#x200B;**创建**。
 
@@ -286,7 +295,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >    对工作区具有“查看”或更高权限的每个人都可以查看链接字段中的信息，无论其在链接对象类型应用程序中的权限或访问级别如何。
 
 
-1. （可选）单击&#x200B;**跳过**&#x200B;以跳过添加链接记录或对象类型的字段。 链接记录的&#x200B;**Name**&#x200B;或&#x200B;**Title**&#x200B;是您连接到的记录类型的表视图中唯一可见的字段。
+1. （可选）单击&#x200B;**跳过**&#x200B;以跳过添加链接记录或对象类型的字段。 链接记录的名称或主字段是您连接到的记录类型的表视图中唯一可见的字段。
 
 1. （可选且视情况而定）如果选择链接数字、货币、百分比或日期类型字段，则还应选择汇总值以汇总多个值。 当用户在链接的记录字段中选择多个链接记录时，链接字段的值会根据您选择的聚合器显示为逗号分隔的或汇总值。
 

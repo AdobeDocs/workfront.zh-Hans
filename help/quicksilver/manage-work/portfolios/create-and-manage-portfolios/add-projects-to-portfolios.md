@@ -6,9 +6,9 @@ description: 我们建议您在启动项目时将项目添加到项目组合。 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
-   <td> <p>新建：任何</p>
-   <p>当前：[！UICONTROL Business]或更高版本</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 计划</td> 
+   <td> <p>任何</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 

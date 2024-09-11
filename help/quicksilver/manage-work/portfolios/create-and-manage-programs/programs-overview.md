@@ -6,7 +6,7 @@ title: ' [!DNL Adobe Workfront]中的项目概述'
 description: 项目群是具有统一特性的项目的集合。 这些项目通常会争夺相同的资源、预算或时限。 项目是项目组合的子组。 在将项目添加到项目组合之前，您可以将项目与项目群关联。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -34,12 +34,12 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 计划*</td> 
    <td> <p>新建：任何</p>
-   <p>当前：[！UICONTROL Business]或更高版本</p> </td> 
+   <p>当前： [！UICONTROL Business]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 许可证*</td> 
    <td> <p>新文档： [！UICONTROL Standard]</p>
-   <p>当前：[！UICONTROL计划] </p> </td> 
+   <p>当前： [！UICONTROL计划] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

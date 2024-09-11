@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
-title: 组合管理
-description: 有关项目组合管理的信息，请参阅以下部分。
+title: “Portfolio管理：文章索引”
+description: Portfolio是具有统一特性的项目的集合。 有关项目组合管理的信息，请参阅以下部分。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
-# 组合管理
+# Portfolio管理：文章索引
 
 本节包含以下子部分：
 
