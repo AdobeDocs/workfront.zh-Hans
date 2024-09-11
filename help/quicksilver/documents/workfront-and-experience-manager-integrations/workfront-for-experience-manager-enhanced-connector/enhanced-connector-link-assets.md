@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # 使用增强型连接器链接资源和文件夹
 
 您可以从Experience Manager Assets将资源或文件夹链接到任何支持文档的Workfront对象。 从Experience Manager Assets发送的Assets不计入Workfront中的整体文档存储。 从Workfront上传并发送到Experience Manager Assets的文档确实会计入总体存储中。
 
+
+>[!NOTE]
+>
+>在Workfront中无法预览通过增强型连接器链接的Excel文件。 您必须下载文件才能访问它。
+
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -30,7 +38,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> </td> 
+   <td> <p>当前：请求或更高版本</p> 
+   或
+   <p>新文档：参与者或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">产品</td> 
@@ -48,6 +58,7 @@ ht-degree: 0%
 </table>
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
++++
 
 ## 先决条件
 
