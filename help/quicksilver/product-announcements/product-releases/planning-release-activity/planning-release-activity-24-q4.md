@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: “Adobe Workfront 24.10版的规划发布活动”
+title: Adobe Workfront 24.10版的规划发行活动
 description: 这是Adobe Workfront计划产品2024年第四季度的发布活动。
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning 2024年第四季度发布活动
 
@@ -37,6 +37,22 @@ ht-degree: 0%
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 显示已连接记录的选项
+
+>[!NOTE]
+>
+>预览版本： 2024年9月9日；适用于所有客户的生产版本：包含24.10版本（2024年10月）
+
+在连接记录类型时，我们重新设计了记录外观区域。 现在，在决定连接的记录在连接的字段中的显示方式时，您可以从以下选项中选择：
+
+* 名称
+* 名称和图像
+* 图像
+
+在此增强功能之前，您可以选择或取消选择标题切换开关以显示记录名称或仅显示图标或缩略图。 已删除标题切换。
+
+有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 ## 将记录详细信息导出到PDF
 
@@ -67,4 +83,3 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 * 从其他系统连接到对象类型，为所有进程创建一致的框架。
 
 有关Workfront Planning的更多信息，请参阅[Adobe Workfront Planning概述](/help/quicksilver/planning/general/planning-overview.md)。
-

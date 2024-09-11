@@ -4,9 +4,9 @@ description: 2024年第四季度报表和数据板增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 Workfront Data Connect将可供实施其中一个新Workfront计划的客户使用。 Data Connect允许组织将其数据作为安全且可扩展的数据湖进行访问，使用业务智能工具可分析和可视化数据，或者存储在外部。 此外，组织可以使用Data Connect查看以前不可用的数据分析，例如基于时间的趋势分析、变量映射以及外部系统数据与Workfront数据的分析。
 
-请联系您的客户代表，以获取有关您当前Adobe Workfront计划以及如何购买加载项的更多信息。 有关Workfront Data Connect的详细信息，请参阅[自定义表单概述](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
+请联系您的客户代表，以获取有关您当前Adobe Workfront计划以及如何购买加载项的更多信息。 有关Workfront Data Connect的详细信息，请参阅[Workfront Data Connect概述](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
