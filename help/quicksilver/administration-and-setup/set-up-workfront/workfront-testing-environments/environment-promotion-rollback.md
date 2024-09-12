@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # 回滚环境升级包
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+
 
 安装包后，可以将其回滚。 这将删除包在目标环境中所做的更改，并将受影响的对象恢复到其以前的配置。
 
@@ -86,10 +87,3 @@ ht-degree: 0%
 
 1. （可选）在“回滚预览”区域中，查看回滚部署时将发生的更改。
 1. 单击屏幕右上角的&#x200B;**回滚**。
-
-
-
-
-
-
-
