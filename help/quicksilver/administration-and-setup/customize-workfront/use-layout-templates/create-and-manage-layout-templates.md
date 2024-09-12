@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -52,20 +52,20 @@ ht-degree: 1%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td><p>新增：标准</p>
-   或
-   <p>当前：计划</p></td> 
+  <p> 当前：计划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。</p>
-<p>要为组执行这些操作，您必须是该组的经理。</p> <p><b>注释</b>：</p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。
-
-有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。
+要为组执行这些操作，您必须是该组的经理。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

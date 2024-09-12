@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '630'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 4%
 >[!NOTE]
 >
 >用户看到的主菜单选项取决于其许可证类型以及在访问级别中配置的设置。 某些将使用此布局模板的用户可能无法看到您在此处选择的所有选项。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)和[可配置的每种对象类型功能访问权限](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
+>
+>如果您的组织已载入Adobe Workfront Unified Experience，则您可能会在主菜单中看到其他选项。 有关信息，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 

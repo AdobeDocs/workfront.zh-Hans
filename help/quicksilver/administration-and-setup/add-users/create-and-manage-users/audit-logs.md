@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 作为Adobe Workfront管理员，您可以使用审核日志跟踪过去90天内系统中触发的用户更改。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 3%
 ## 审核日志类型和触发这些类型的操作
 
 * [访问级别](#access-level)
+* [业务规则](#business-rules)
 * [公司](#company)
 * [条件](#condition)
 * [自定义字段](#custom-field)
@@ -97,6 +98,21 @@ ht-degree: 3%
      >系统不会记录对“财务数据”或以下访问类型中的任何权限更改：“查看”和“编辑”。
      >
      >例如，如果用户将Planner访问类型从查看更改为编辑，系统不会显示微调设置下拉菜单中包含的信息。
+
+### 业务规则
+
+Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关详细信息，请参阅[创建和编辑业务规则](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+
+当用户执行以下操作之一时，系统会生成一个Business Rule审核日志条目：
+
+* 创建业务规则
+* 编辑业务规则：
+
+   * 重命名
+   * 添加或删除表达式
+   * 更改触发器
+
+* 删除业务规则
 
 ### 公司 {#company}
 
@@ -160,7 +176,7 @@ ht-degree: 3%
 * 删除自定义字段
 * 共享自定义字段
 
-### 自定义表单 {#custom-forms}
+### 自定义表单 {#custom-form}
 
 当用户执行以下操作之一时，系统会生成自定义Forms审核日志条目：
 

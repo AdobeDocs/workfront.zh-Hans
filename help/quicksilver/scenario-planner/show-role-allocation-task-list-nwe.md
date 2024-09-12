@@ -6,9 +6,9 @@ description: 连接项目和计划后，您可以并排管理其资源分配以�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront计划。 </p>
+   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>产品* </td> 
-   <td> 
-   <p>对于当前Workfront计划： </p>
-   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
+   <li><p>对于当前Workfront计划： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别 </td> 
-   <td> <p>[！UICONTROL View]或更高权限访问[！UICONTROL Projects]</p> </td> 
+   <td> <p>查看或更高权限的项目。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>项目的[！UICONTROL视图]权限</p> </td> 
+   <td> <p> 查看或更高权限的项目。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 如果贵公司已购买[!DNL Workfront Scenario Planner]许可证，则可以在项目的[!UICONTROL 任务]部分中协调计划与链接到该计划的项目之间的资源分配。
 
-1. （视情况而定）使用本文的任务列表](#Connect)中的[显示项目和计划的角色分配中所述的方法之一，将项目与计划连接起来。
+1. （视情况而定）项目必须使用本文的任务列表](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)中的[显示项目和计划的角色分配节中所述的方法之一连接到计划。
 
    >[!IMPORTANT]
    >

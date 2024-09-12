@@ -6,16 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
 
 # 导出记录的详细信息
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+<span class="preview">有关当前版本的信息，请参阅[2023年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
+
 
 要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息导出到文件并与他们共享。
 

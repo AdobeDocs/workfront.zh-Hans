@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 56%
+source-wordcount: '318'
+ht-degree: 51%
 
 ---
 
@@ -36,15 +36,20 @@ ht-degree: 56%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td><p>新增：标准</p>
+  <p> 当前：计划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
-   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。</p> </td> 
+   <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。
+要为组执行这些操作，您必须是该组的经理。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -6,9 +6,9 @@ description: 您可以将现有项目导入计划。 导入的项目将转换为
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,17 @@ ht-degree: 0%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
-   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront计划。 </p>
+   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -46,17 +49,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>产品* </td> 
-   <td> 
-   <p>对于当前Workfront计划： </p>
-   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
+   <li><p>对于当前Workfront计划： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别 </td> 
-   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]访问 [!DNL Scenario Planner]</p> <p>查看或更高权限的项目。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>对象权限 </p> </td> 
-   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
+   <td> <p>[！UICONTROL Manage]对计划的权限</p> <p>查看项目或授予项目更高的权限。</p><p>有关请求对计划的附加访问权限的信息，请参阅<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中请求对计划的访问权限。</p> </td> 
   </tr> 
  </tbody> 
 </table>

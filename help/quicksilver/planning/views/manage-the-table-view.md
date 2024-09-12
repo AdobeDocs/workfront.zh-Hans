@@ -1,14 +1,14 @@
 ---
 title: 管理表视图
-description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。
+description: 访问Adobe Workfront Planning中的记录类型页面时，您可以在表格视图中显示记录及其字段。 本文介绍了如何创建表视图，以及如何编辑或删除现有表视图。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2784'
+source-wordcount: '2801'
 ht-degree: 3%
 
 ---

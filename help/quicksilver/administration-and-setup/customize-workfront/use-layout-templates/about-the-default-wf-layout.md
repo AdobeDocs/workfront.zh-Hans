@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # 关于默认Adobe Workfront布局
 
-默认布局是Adobe Workfront管理员使用布局模板进行任何更改之前的主菜单![](assets/main-menu-icon.png)、左侧面板以及视图、分组和筛选器的排列。
+默认布局是主菜单![](assets/main-menu-icon.png)或主菜单![](assets/lines-main-menu.png)（如果可用）、左侧面板、视图、分组和筛选器的布局，Adobe Workfront管理员使用布局模板进行任何更改。
 
 有关Workfront管理员如何通过为用户分配布局模板来修改用户默认布局的信息，请参阅[将用户分配给布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 每个用户的默认布局取决于其访问级别。 某些用户可能无法看到主菜单中的某些区域或某些左侧面板项目，具体取决于分配给他们的访问级别。
 
-下表显示了默认情况下，每个访问级别显示的左侧面板项目。 还指示了每个访问级别的默认登陆区域：
+下表显示了默认登录区域，以及针对每个访问级别显示的左侧面板项目：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ ht-degree: 6%
   <tr> 
    <th>区域</th> 
    <th> 左侧面板项目 </th> 
-   <th> <p>系统管理员</p> </th> 
-   <th> <p>规划器</p> </th> 
+   <th> 系统管理员</th> 
+   <th> 规划器 </th> 
    <th>员工</th> 
    <th>查看者</th> 
    <th>请求人</th> 
@@ -150,7 +150,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td rowspan="3"><strong>请求</strong> </td> 
-   <td><strong>新请求</strong> </td> 
+   <td>新建请求 </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

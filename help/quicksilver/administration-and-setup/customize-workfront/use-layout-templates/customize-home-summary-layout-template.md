@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ ht-degree: 2%
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
-   <td>计划</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
+   <td><p>新增：标准</p>
+  <p> 当前：计划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 
    <td> <p>要在系统级别执行这些步骤，您需要系统管理员访问级别。
-要为组执行这些操作，您必须是该组的经理。</p> <p><b>注意</b>：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+要为组执行这些操作，您必须是该组的经理。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -68,7 +72,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**主页和摘要**。
 
-1. 在左侧显示的列表中，单击要在主页和摘要中自定义的对象类型（**任务**、**问题**、**项目**、**文档**&#x200B;或&#x200B;**文档版本**）。
+1. 在左侧的列表中，单击要在主页和摘要中自定义的对象类型（**任务**、**问题**、**项目**、**文档**&#x200B;或&#x200B;**文档版本**）。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ ht-degree: 2%
         <li>规划完成日期</li>
         <li>承诺日期</li>
         <li>提交日期</li>
-       </ul><p><b>注意</b>：启用此选项后，过期的工作项将仅基于日期而不是时间移动到主页工作列表中的“延迟”分组。</p></td> 
+       </ul><p><b>注释</b>：</p> <p> 启用此选项后，过期的工作项仅根据日期而不是时间移至主页工作列表中的“延迟”分组。</p></td> 
      </tr> 
     </tbody> 
    </table>

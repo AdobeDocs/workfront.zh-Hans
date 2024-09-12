@@ -7,10 +7,10 @@ description: 当您共享指向计划的链接时，您可以在Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p> [！UICONTROL Adobe Workfront]计划*</p> </td> 
-   <td> <p>当前： [！UICONTROL Business]或更高版本</p>
-   <p>新增：Ultimate </p>
+   <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
+   <td> <ul></li>
+   <li><p>新增：Ultimate </p></li>
+   <p>Scenario Planner不可用于新的Workfront Select或Workfront计划。 </p>
+   <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -39,15 +41,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>产品* </td> 
-   <td> 
-   <p>对于当前Workfront计划： </p>
-   <p>您必须为[!DNL Adobe Workfront Scenario Planner]购买额外的许可证才能访问本文中介绍的功能。</p> <p>有关[!DNL Workfront Scenario Planner]的访问权限的信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
+   <td> <ul><li><p>对于新的Workfront计划：</p><p> Adobe Workfront</li></p>
+   <li><p>对于当前Workfront计划： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>有关详细信息，请参阅<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">使用[!DNL Scenario Planner]</a>所需的访问权限。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>访问级别 </td> 
-   <td> <p>[！UICONTROL View]访问 [!DNL Scenario Planner]</p> </td> 
-  </tr> 
-   </tbody> 
+   <td>  <p>[！UICONTROL View]或更高权限访问 [!DNL Scenario Planner]</p>  </td> 
+  </tr>
+ </tbody> 
 </table>
 
 *有关信息，请参阅[Workfront文档的访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
