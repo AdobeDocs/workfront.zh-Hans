@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版： 2024年7月18日；用于快速发布的生产版本：用于24.9版（2024年9月）；用于季度发布的生产版本：用于24.10版（2024年10月）
+>预览版： 2024年7月18日；用于快速发布的生产版本：用于24.9版（2024年9月12日）；用于季度发布的生产版本：用于24.10版（2024年10月）
 
 我们已将设置>系统>首选项页面更新为更加现代的设计，以便与Workfront的其他区域一致。
 

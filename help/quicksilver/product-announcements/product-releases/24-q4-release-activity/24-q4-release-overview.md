@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 * [校对增强功能](#proofing-enhancements)
 * [报表和功能板增强功能](#report-and-dashboard-enhancements)
 * [其他增强功能](#other-enhancements)
-
+* [即将从Workfront中删除的功能](#functionality-soon-to-be-removed-from-workfront)
 
 ### 管理员增强功能
 
@@ -78,6 +78,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">回滚环境升级包</a></p>
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>为了使环境升级更加灵活和易于使用，我们启用了回滚功能。 现在，您可以在24小时内回滚包，从而更轻松地恢复受环境升级包影响的先前配置。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -192,7 +193,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相关的智能分配</a></p>
-                        [！BADGE In Production ]{type=Informational}
+                        [！BADGE In Production for Fast Release ]{type=Positive}
                         <p>我们更改了Workfront用于计算和建议智能任务分配的算法。 新算法适用于Workfront中分配任务的以下区域：任务列表、任务标题中的“任务”区域、“主页”和“摘要”面板。</p>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
@@ -362,6 +363,14 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 即将从Workfront中删除的功能
+
+以下功能即将从Workfront中删除：
+
+#### 在24.10中弃用旧版主页体验
+
+我们将正式在24.10版本中弃用旧版主页体验。 我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息，包括有关用户和管理员可以做哪些准备的建议，请参阅[旧版主页弃用指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
+
 ## 公告
 
 ### Workfront Fusion增强
@@ -399,11 +408,3 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 ### 培训更新
 
 浏览每个Adobe Workfront产品版本的学习计划、学习路径、视频和指南的最新更新。 有关详细信息，请参阅[WorkfrontTutorials页面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的“新增功能”部分。
-
-### 即将从Workfront中删除的功能
-
-以下功能即将从Workfront中删除：
-
-#### 在24.10中弃用旧版主页体验
-
-我们将正式在24.10版本中弃用旧版主页体验。 我们鼓励用户开始使用新的主页，在弃用之前，这些主页将继续通过附加功能进行增强。 有关过渡的更多信息，包括有关用户和管理员可以做哪些准备的建议，请参阅[旧版主页弃用指南](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)。
