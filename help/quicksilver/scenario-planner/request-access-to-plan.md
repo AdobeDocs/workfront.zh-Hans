@@ -7,9 +7,9 @@ description: 当您共享指向计划的链接时，您可以在Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: c6c806f5d4f2514c40065835a8d412f725d55a44
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 计划*</p> </td> 
    <td> <ul></li>
    <li><p>新增：Ultimate </p></li>
-   <p>Scenario Planner不可用于新的Workfront Select或Workfront计划。 </p>
+   <p>场景规划程序不可用于新的Workfront Select或Workfront Prime计划。 </p>
    <li><p>当前： [！UICONTROL Business]或更高版本</p></ul>
    </td> 
   </tr> 
