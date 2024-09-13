@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [Adobe Workfront计划概述](/help/quicksilver/planning/general/planning-overview.md)： Adobe Workfront计划高级概述，包括此解决方案特有的术语和概念。 我们建议您在此处通过Workfront规划开始您的历程。
 * [Adobe Workfront Planning对象限制概述](/help/quicksilver/planning/general/limitations-overview.md)：您可以在Workfront Planning中创建的对象数限制列表。
 * [2024年Adobe Workfront计划发布活动](/help/quicksilver/planning/general/release-activity.md)：包含在2024年Workfront计划早期阶段发布的所有功能的列表。 这包括指向自2023年5月22日Adobe Workfront计划测试版计划推出以来发布的先前版本的链接。
-* [Adobe Workfront Planning最佳实践](/help/quicksilver/planning/general/planning-best-practices.md)：一组关于Workfront Planning的使用和常见问题的最佳实践。
+* [Adobe Workfront Planning最佳实践](/help/quicksilver/planning/general/planning-best-practices.md)：有关使用Workfront Planning的常见问题和最佳实践的集合。
 
 ## 可用于Workfront Planning的其他功能
 
