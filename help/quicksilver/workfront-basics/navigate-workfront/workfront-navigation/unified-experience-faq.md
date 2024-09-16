@@ -6,7 +6,7 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 可通过[!UICONTROL 主菜单]和顶部导航区域访问帮助 | 可通过[!UICONTROL 主菜单]和[!DNL Workfront]导航栏访问帮助 |
 | 验证查看器将在新选项卡中打开 | 验证查看器在Workfront中打开 |
 | 用于访问Workfront的URL为`experience.adobe.com` | 用于访问Workfront的URL为`(CompanyName).my.workfront.com` |
-| 日期格式（如YYYY/MM/DD）基于浏览器首选项 | 日期格式（如YYYY/MM/DD）基于Unified Experience语言设置。 如果用户未更新其语言设置，则使用`en-US`设置。 |
+| 日期格式（如YYYY/MM/DD）基于Unified Experience语言设置。 如果用户未更新其语言设置，则使用`en-US`设置。 | 日期格式（如YYYY/MM/DD）基于浏览器首选项 |
 
 {style="table-layout:auto"}
 
