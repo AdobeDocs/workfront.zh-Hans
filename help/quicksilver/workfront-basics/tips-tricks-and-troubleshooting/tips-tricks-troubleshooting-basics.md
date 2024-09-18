@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7375a6ed1d0bdea3e6df3ef564c325e0cef65f98
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -27,3 +27,4 @@ ht-degree: 0%
 * [过滤器按钮未显示在页眉中](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [更改 [!DNL Adobe Workfront]中日期的格式](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [我在处理的项目过滤器包括意外结果](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+* [多个浏览器选项卡会导致Workfront注销](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
