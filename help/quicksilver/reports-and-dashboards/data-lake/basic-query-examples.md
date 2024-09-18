@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 * **ProjectID** — 包含数字字符串的自定义字段。
 * **扩展的项目名称** — 计算出的自定义数据字段，它将业务单元、项目ID和本机Workfront项目名称的值连接到单个字符串中。
 
-您需要将此信息包含在针对Data Connect的查询的响应中。 数据湖中记录的自定义数据值包含在标题为`parameterValues`的列中。 此列将存储为JSON对象。
+您需要将此信息包含在针对Data Connect的查询的响应中。 数据湖中记录的自定义数据值包含在标题为`parametervalues`的列中。 此列将存储为JSON对象。
 
 ### 查询：
 
@@ -40,14 +40,14 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
-    parametervalues:"DE:Project ID" :: int as ProjectID,
-    parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
+    parametervalues:"DE:Business Unit"::int as BusinessUnit,
+    parametervalues:"DE:Project ID"::int as ProjectID,
+    parametervalues:"DE:Expanded Project Name"::text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
 ```
 
-### 响应
+### 响应：
 
 上述查询返回以下数据：
 
@@ -57,6 +57,37 @@ WHERE ExpandedProjectName is not null
 * `Business Unit` - `parametervalues`对象中包含的自定义数据值
 * `Project ID` - `parametervalues`对象中包含的自定义数据值
 * `Expanded Project Name` - `parametervalues`对象中包含的自定义数据值
+
+### 说明：
+
+查询`parametervalues` JSON对象时，可以使用以下内容将每个自定义数据字段作为列进行访问：
+
+`<field_name>:"<parameter_name>"::<data_type> as <column_name>`
+
+* `<field_name>`是正在查询的表中的JSON对象的名称。 在自定义数据的情况下，此值始终为`parametervalues`。
+* `<parameter_name>`是在表单配置工具中找到的`parametername`字符串，尽管它可能并不总是与此值匹配。
+
+>[!NOTE]
+>
+>如果在Workfront表单配置工具中更改了参数的名称，则该名称将在JSON对象中表示为新列。 因此，我们建议在表单配置工具中创建列后不要更改其名称。 但是，标签可以更改，而不会影响JSON对象。
+>
+>如果参数名称的文本字符串不正确，则该列将返回NULL值，而不是错误。
+
+* `<data_type>`将从JSON对象返回的值转换为适用于该字段的数据类型。 为返回的值选择不兼容的数据类型将导致数据类型不匹配错误。 可能的数据类型包括：
+
+   * `text`
+   * `varchar`
+   * `int`
+   * `float`
+   * `number(len,precision)` （例如，`Number(32,4)`将返回1234.0987）
+   * `date`
+   * `timestamp`
+
+* `<column_name>`是您为每个自定义数据列创建的标签。
+
+>[!NOTE]
+>
+>只有表单中指定了值的参数才会包含在JSON对象中。 如果表单上的自定义数据字段为空，它将不会显示。
 
 <!--## Task query 
 

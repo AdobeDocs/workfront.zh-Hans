@@ -7,9 +7,9 @@ description: “按团队分类的活动”可视化图表显示在特定时间�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '701'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 7%
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,6 +62,8 @@ ht-degree: 7%
 </table>
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
