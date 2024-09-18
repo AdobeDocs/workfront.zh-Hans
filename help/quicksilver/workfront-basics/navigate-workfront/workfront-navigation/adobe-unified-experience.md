@@ -6,9 +6,9 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
+source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ ht-degree: 0%
 1. 在[!UICONTROL 登录]屏幕上，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 
    ![登录到[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+
+>[!NOTE]
+>
+>如果浏览器选项卡会话在您已打开Workfront的页面中过期，并且在另一个浏览器选项卡中处于活动状态Workfront会话，则您可以重新加载已过期的选项卡以重新打开Workfront页面。
 
 ## 访问[!DNL Workfront]
 
