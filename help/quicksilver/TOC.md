@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
+source-git-commit: fd60ba9ec0643748da48171a6f5a9f6849c71b47
 workflow-type: tm+mt
-source-wordcount: '14404'
+source-wordcount: '14412'
 ht-degree: 2%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 2%
          * [新主页入门](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
          * [新建主页小组件过滤器概述](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
+         * [使用“我的工作”小组件管理您的工作](workfront-basics/using-home/new-home/my-work-widget.md)
       * 使用主页区域{#use-home-area}
          * [使用“主页”区域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)

@@ -5,9 +5,10 @@ title: 新建主页小组件过滤器概述
 description: 您可以从许多小组件中进行选择，以自定义主页上显示的内容。 可以在您的主页上调整这些构件的大小并进行排列。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ ht-degree: 14%
 * [我的项目](#my-projects)
 * [我的任务](#my-tasks)
 * [我的问题](#my-issues)
+* [我的工作]
 
 ## 我的项目
 
@@ -229,4 +231,52 @@ ht-degree: 14%
     <td>我角色中的未分配</td>
     <td>显示所有未分配主用户但分配了角色的问题 </td>
   </tr>
+</table>
+
+## 我的工作
+
+您可以在“我的工作”小部件中使用以下过滤器：
+
+<table>
+  <tbody>
+    <tr>
+      <td>正在处理</td>
+      <td>显示您当前处理的项目</td>
+    </tr>
+    <tr>
+      <td>准备开始</td>
+      <td>显示项目和 
+      <ul>
+      <li>没有未完成的前置任务或任务限制</li>
+      <li>计划开始日期是过去的日期，或者最多在未来的两周内</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>未就绪</td>
+      <td>显示具有
+       <ul>
+      <li>未完成的前置任务或阻止处理项目的任务限制</li>
+      或
+      <li>超过两周后的计划开始日期</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>已请求</td>
+      <td>显示您尚未开始处理的问题</td>
+    </tr>
+    <tr>
+      <td>已由我委派</td>
+      <td>显示已委派给其他用户的项目</td>
+    </tr>
+    <tr>
+      <td>已委派给我</td>
+      <td>显示用户委派给您的项目</td>
+    </tr>
+    <tr>
+      <td>已完成</td>
+      <td>显示过去两周内完成的工作。 此筛选器选项不包括审批。</td>
+    </tr>
+  </tbody>
 </table>
