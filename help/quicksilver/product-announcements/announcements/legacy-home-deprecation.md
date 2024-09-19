@@ -5,9 +5,10 @@ title: 旧版主页弃用指南
 description: 本页包含有关即将弃用旧版主页的信息。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 * 显示对象到期日期的时间戳当前不可用。
 
 * 在更新馈送中显示提交日期当前不可用。 但是，有一个可用的解决方法：通过版面模板自定义在标题中显示提交日期。
+* 新主页当前不支持我提交的审批。 如果您需要此功能，请在此处的以下社区帖子中投票或发表评论：
+   * [将“我提交的审批”构件添加到新主页](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [将“我已提交的审批”添加到新主页](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++如何管理用户在新主页中有权访问的构件？
