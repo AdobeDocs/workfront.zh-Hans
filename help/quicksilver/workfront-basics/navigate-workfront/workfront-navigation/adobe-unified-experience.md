@@ -6,9 +6,9 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -113,4 +113,5 @@ ht-degree: 0%
 [请参阅这篇文章以更改您的Adobe密码。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 有关更改密码的详细信息，请与管理员联系。
+
 
