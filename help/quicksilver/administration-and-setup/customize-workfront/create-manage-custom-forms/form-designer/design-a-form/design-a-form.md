@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
+source-wordcount: '5541'
 ht-degree: 5%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 5%
 +++ **展开以查看可用文本字段的说明**
 
 * **单行文本字段**：允许用户在该字段中键入单行文本。
-* **段落文本字段**：允许用户在该字段中键入多行文本。
+* **段落字段**：允许用户在该字段中键入多行文本。
 * **带格式的文本字段**：允许用户在该字段中键入多行文本，并用粗体、斜体、下划线、项目符号、编号、超链接和块引号设置文本的格式。 15,000个字符的限制允许使用大量文本和格式。
 
   列表和报告上的过滤器不支持此自定义字段类型。
@@ -172,8 +172,8 @@ ht-degree: 5%
 1. 在屏幕左侧，找到以下文本字段之一，并将其拖动到画布上的部分：
 
    * 单行文本
-   * 段落文本
-   * 带格式的文本字段
+   * 段落
+   * 带格式文本
    * 描述性文本
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ ht-degree: 5%
    </td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     <li>带格式文本</li>
     <li>描述性文本</li>
     </ul></td>
@@ -203,7 +203,7 @@ ht-degree: 5%
     <p>重要提示：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p></td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     <li>带格式文本</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ ht-degree: 5%
     </td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     <li>带格式文本</li>
     <li>描述性文本</li>
     </ul></td>
@@ -226,7 +226,7 @@ ht-degree: 5%
     </td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     <li>带格式文本</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ ht-degree: 5%
      </ul></p></td> </td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ ht-degree: 5%
     <td>在单行文本字段和段落文本字段之间切换。</td>
     <td><ul>
     <li>单行文本</li>
-    <li>段落文本</li>
+    <li>段落</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ ht-degree: 5%
 
 * **单选按钮**：要求用户仅选择一个选项。
 * **复选框组**：允许用户选择多个选项。
-* **下拉列表**：提供下拉列表选项列表。
+* **单选下拉列表**：提供下拉列表选项列表。
 * **多选下拉列表**：允许用户从下拉列表中选择多个选项。
 
 +++
@@ -301,7 +301,7 @@ ht-degree: 5%
 
    * 单选按钮
    * 复选框组
-   * 下拉
+   * 单选下拉菜单
    * 多选下拉框
 
    ![将字段拖到画布上](assets/drag-field-to-section.png)
@@ -321,7 +321,7 @@ ht-degree: 5%
      <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
      </tr> 
@@ -332,7 +332,7 @@ ht-degree: 5%
      <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
@@ -344,7 +344,7 @@ ht-degree: 5%
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
@@ -359,17 +359,17 @@ ht-degree: 5%
      <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">显示类型</td> 
-    <td>在字段的单选按钮、复选框组、下拉列表或多选下拉列表之间切换。</td> 
+    <td>在字段的单选按钮、复选框组、单选下拉菜单或多选下拉菜单之间切换。</td> 
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
     </tr> 
@@ -379,7 +379,7 @@ ht-degree: 5%
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
      </tr> 
@@ -404,7 +404,7 @@ ht-degree: 5%
     <td><ul>
     <li>单选按钮</li>
     <li>复选框组</li>
-    <li>下拉</li>
+    <li>单选下拉菜单</li>
     <li>多选下拉框</li>
     </ul></td>
      </tr> 
@@ -441,7 +441,7 @@ ht-degree: 5%
    * 团队
    * 模板
    * 公司
-* **日期字段**：显示一个日历，用户可以在其中选择日期和时间。
+* **日期**：显示一个日历，用户可以在其中选择日期和时间。
 
 +++
 
@@ -450,7 +450,7 @@ ht-degree: 5%
 1. 在屏幕左侧，找到以下字段之一，并将其拖动到画布上的某个部分。
 
    * 键盘缓冲
-   * 日期字段
+   * 日期
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ ht-degree: 5%
       <td> <p>（必需）键入要显示在自定义字段上方的描述性标签。 您可以随时更改标签。</p> <p><b>重要提示</b>：请避免在此标签中使用特殊字符。 它们在报表中无法正确显示。 有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td> 
        <td><ul>
     <li>键盘缓冲</li>
-    <li>日期字段</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ ht-degree: 5%
       <p>有关详细信息，请参阅<a href="design-a-form.md#notes-on-field-names-and-labels">有关字段名称和标签的注释</a>。</p> </td>
     <td><ul>
     <li>键盘缓冲</li>
-    <li>日期字段</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ ht-degree: 5%
       </td> 
          <td><ul>
     <li>键盘缓冲</li>
-    <li>日期字段</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">显示当日时间</td> 
       <td>如果要在字段中显示一天中的时间和日期，请选择此选项。</td> 
          <td><ul>
-    <li>日期字段</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ ht-degree: 5%
       <td>如果希望该字段是用户完成自定义表单所必需的，请选择此选项。 </td> 
        <td><ul>
     <li>键盘缓冲</li>
-    <li>日期字段</li>
+    <li>日期</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ The Workfront Mobile app -->
 
 +++
 
-1. 在屏幕左侧，找到&#x200B;**本机字段**&#x200B;并将其拖动到画布上的区域。
+1. 在屏幕左侧，找到&#x200B;**本机字段引用**&#x200B;并将其拖动到画布上的某个部分。
 1. 在屏幕右侧，配置自定义字段的选项：
 
    <table style="table-layout:auto"> 
