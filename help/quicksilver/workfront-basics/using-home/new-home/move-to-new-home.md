@@ -5,9 +5,9 @@ title: 从旧主页移动到新主页
 description: 旧版主页将在2017年10月的第4季度版本中从Workfront删除。 本文提供有关新主页中可用的功能的信息，以及有关将用户迁移到“新主页”体验的建议。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### 查看可用于每种许可证类型的构件
 
@@ -262,3 +262,17 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 1. 将其余用户重新分配到新主页布局。
 
 然后，尽快执行此操作将为您的用户留出时间来适应新体验并自定义其新主页，以便最好地满足其个人需求。 有关用户如何在自己的新主页上自定义小组件的信息，请参阅[在新主页中删除、添加和重新排列小组件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
+
+### 面向最终用户的资源
+
+**帮助文章**
+
+* [使用“我的工作”小组件管理您的工作](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**培训**
+
+* Adobe Workfront中的[工作程序基础知识](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>这是免费课程，但您必须登录并注册才能访问它。
