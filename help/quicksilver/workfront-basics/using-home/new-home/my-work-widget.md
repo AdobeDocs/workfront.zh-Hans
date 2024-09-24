@@ -5,9 +5,9 @@ title: 使用“我的工作”小组件管理您的工作
 description: “我的工作”小组件将所有已分配的任务、问题和请求显示在一个位置。 在这里，您可以筛选和组织您的工作，记录时间，进行更新，并将工作项标记为完成。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 5%
       <td>显示项目和 
       <ul>
       <li>没有未完成的前置任务或任务限制</li>
+      <p>和</p>
       <li>计划开始日期是过去的日期，或者最多在未来的两周内</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ ht-degree: 5%
       <td>显示具有
        <ul>
       <li>未完成的前置任务或阻止处理项目的任务限制</li>
-      或
+      <p>或</p>
       <li>超过两周后的计划开始日期</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->要创建在“我的工作”小部件的顶部显示所有过期项目的列表，请按照“到期日期”排序，并且不应用组。
+>要创建在“我的工作”小部件的顶部显示所有过期项目的列表，请按照“到期日期”排序，并且不应用分组。
 
 
 ![](assets/sort-my-work-widget.png)
