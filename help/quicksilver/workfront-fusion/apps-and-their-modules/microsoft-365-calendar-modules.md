@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL监视事件]</td> 
@@ -156,7 +156,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历组ID]</td> 
@@ -203,7 +203,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
@@ -223,7 +223,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL主题]</td> 
@@ -318,7 +318,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
@@ -417,7 +417,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL事件ID]</td> 
@@ -445,7 +445,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历组ID]</td> 
@@ -469,7 +469,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -489,7 +489,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历名称]</td> 
@@ -509,7 +509,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -533,7 +533,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL日历ID]</td> 
@@ -555,7 +555,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
    <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Office 365]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 

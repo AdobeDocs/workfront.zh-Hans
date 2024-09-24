@@ -9,7 +9,7 @@ description: 在Adobe Workfront Fusion场景中，您可以自动使用Salesforc
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 0%
@@ -111,7 +111,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL类型] </td> 
@@ -191,7 +191,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL记录类型] </td> 
@@ -233,7 +233,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[！UICONTROL记录类型] </p> </td> 
@@ -262,7 +262,7 @@ ht-degree: 0%
  <tbody> 
   <tr>
     <td>[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr>
     <td>[！UICONTROL记录类型]</td>
@@ -295,7 +295,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL记录类型] </td> 
@@ -329,7 +329,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
@@ -392,7 +392,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL上载类型]</td> 
@@ -429,7 +429,7 @@ ht-degree: 0%
  <tbody> 
   <tr>
     <td>[！UICONTROL Connection]</td>
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr>
     <td>[！UICONTROL下载类型]</td>
@@ -464,7 +464,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL ID]</td> 
@@ -495,15 +495,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Salesforce]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL搜索类型]</td> 
    <td> <p>选择您希望模块执行的搜索类型：</p> 
     <ul> 
      <li> <p>[！UICONTROL Simple]</p> </li> 
-     <li> <p>[！UICONTROL使用SOSL（Salesforce对象搜索语言）]</p> </li> 
-     <li> <p>[！UICONTROL使用SOQL （Salesforce对象查询语言）]</p> </li> 
+     <li> <p>[！UICONTROL使用SOSL(Salesforce对象搜索语言)]</p> </li> 
+     <li> <p>[！UICONTROL使用SOQL(Salesforce对象查询语言)]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

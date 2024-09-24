@@ -9,7 +9,7 @@ description: 通过 [!DNL Adobe Workfront Fusion Google Team Drive] 模块，您
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 0%
@@ -93,7 +93,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -155,7 +155,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道] </td> 
@@ -190,7 +190,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -229,7 +229,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -260,7 +260,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件ID]</td> 
@@ -279,7 +279,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL文件ID]</td> 
@@ -298,7 +298,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL将[!DNL Google Documents]文件转换为格式] </td> 
@@ -333,7 +333,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 
@@ -377,7 +377,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[！UICONTROL Connection] </td> 
-   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Google Team Drive]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL团队通道]</td> 

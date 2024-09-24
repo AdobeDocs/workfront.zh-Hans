@@ -9,7 +9,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 方案中，您可以自动执行
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   <tr> 
    <td role="rowheader">观看</td> 
    <td> <p>选择要监视的文件类型。</p> 
@@ -145,7 +145,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Source file]</td> 
@@ -177,7 +177,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件ID]</td> 
    <td>输入或映射您希望模块更新的文件的唯一ID。</td> 
@@ -205,7 +205,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件ID]</td> 
    <td>输入或映射您希望模块更新的文件的唯一ID。</td> 
@@ -233,7 +233,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a></p> </td> 
+   <td> <p>有关将[!DNL Box]帐户连接到[!DNL Workfront Fusion]的说明，请参阅<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">创建与[!DNL Adobe Workfront Fusion]的连接 — 基本说明</a>。</p> </td> 
   <tr> 
    <td role="rowheader">[！UICONTROL文件ID]</td> 
    <td>输入或映射您希望模块更新的文件的唯一ID。</td> 
