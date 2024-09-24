@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 使用自动工作流模板时，请考虑以下事项：
 
 1. 自动工作流模板的设置确定您可以使用自动工作流执行哪些操作以进行验证。 例如，如果在模板中禁用了添加暂存按钮，则当您使用验证的自动工作流设置时，该按钮将不可见。
-1. 当有人在自动工作流模板中被添加到阶段，但也以审阅者身份出现在验证中时，应用模板会将审阅者从阶段中删除。 如果不将其他审阅人添加到阶段，则会显示一条消息，提示您添加审阅人。
+1. 当有人在自动工作流模板中被添加到阶段，但在验证中已经作为审阅人出现时，应用模板会将审阅人从阶段中删除。 如果不将其他审阅人添加到阶段，则会显示一条消息，提示您添加审阅人。
 1. 能否修改自动工作流模板取决于Workfront管理员配置的模板设置，如中所述。 如果禁用了修改模板的功能，则只有模板所有者可以修改模板。
 
 有关自动工作流程的信息，请参阅[自动工作流程概述](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。

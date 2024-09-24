@@ -5,7 +5,7 @@ title: 从旧主页移动到新主页
 description: 旧版主页将在2017年10月的第4季度版本中从Workfront删除。 本文提供有关新主页中可用的功能的信息，以及有关将用户迁移到“新主页”体验的建议。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 5%
