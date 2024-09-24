@@ -7,9 +7,9 @@ description: 您可以选择向展示板添加引入列，以根据您定义的�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >如果有多位用户同时使用讨论区，建议经常刷新讨论区。 刷新页面有助于使展示板上的视觉更改保持最新，并防止出现从摄取列将重复卡片移动到展示板的问题。
+>
+>若要与Workfront同步并将新任务和问题提交到展示板或引入列，请单击展示板名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 同步连接的项目]**。
 
 有关列的详细信息，请参阅[管理展示板列](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 有关连接的卡的信息，请参阅[在展示板上使用连接的卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 

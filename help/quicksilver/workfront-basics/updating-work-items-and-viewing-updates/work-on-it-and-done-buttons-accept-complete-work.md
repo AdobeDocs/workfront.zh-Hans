@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ ht-degree: 0%
 
 使用上下文按钮接受或完成工作项目，您可以让Adobe Workfront更新项目上的多个字段，而无需自己手动更新。
 
+处理此项和完成按钮对具有以下功能的用户可见：
+
+* 标准许可证（新）或计划或工作许可证（当前）
+* 任务或问题的编辑访问权限有限或更高
+
 ## 处理它和“完成”按钮名称
 
-根据您从哪个Workfront区域访问您的任务或问题，处理它或完成按钮可以更改名称，如以下方案所述： 
+根据您从哪个Workfront区域访问您的任务或问题，处理它或完成按钮可以更改名称，如以下方案所述：
 
 * 当任务或问题首次分配给您并且状态为新建时，按钮显示为处理它。
 
@@ -33,7 +38,7 @@ ht-degree: 0%
   >
   >您可以将“处理此项工作”按钮替换为“开始”按钮。 有关将“处理此项工作”按钮替换为“开始”按钮的信息，请参阅[将“处理此项工作”按钮替换为“开始”按钮](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) 。
 
-* 单击处理此项接受后，按钮更改为标记为完成或完成，具体取决于您在Workfront中访问任务或问题的位置。 有关您可以在何处访问“处理它”按钮的信息，请参阅本文中的[找到处理它并完成按钮](#locate-the-work-on-it-and-done-button)部分。
+* 单击处理此项接受后，按钮将更改为标记为完成或完成，具体取决于您在Workfront中访问任务或问题的位置。 有关您可以在何处访问“处理它”按钮的信息，请参阅本文中的[找到处理它并完成按钮](#locate-the-work-on-it-and-done-button)部分。
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
