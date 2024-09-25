@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1612'
 ht-degree: 11%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 11%
 | 更新自定义字段 | ✓ {\f13 } |   |   |   |
 | 添加审批流程 | ✓ {\f13 } |   |   |   |
 | 批准项目 | ✓ {\f13 } | ✓ {\f13 } |   |   |
-| 添加文档 | ✓ {\f13 } | ✓ {\f13 } |   |   |
-| 添加问题 | ✓ {\f13 } | ✓ {\f13 } |   |   |
+| 添加文档 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |   |
+| 添加问题 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |   |
 | 添加任务 | ✓ {\f13 } |   |   |   |
 | 提供更新/评论 | ✓ {\f13 } | ✓ {\f13 } | ✓ {\f13 } |   |
 | 更改状态 | ✓ {\f13 } |   |   |   |
