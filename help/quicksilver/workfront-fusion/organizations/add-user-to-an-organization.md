@@ -7,9 +7,9 @@ description: 您可以在Adobe Workfront Fusion中将用户添加到组织。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,9 @@ ht-degree: 0%
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>如果贵组织当前正在迁移到Adobe Admin Console，则您无法在Workfront中管理用户（添加或删除用户）。 迁移完成后，您可以在Adobe Admin Console中执行这些操作。
 
 要将用户添加到组织，您必须是要向其添加用户的组织的管理员。 有关角色的信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)中的[组织角色。
 

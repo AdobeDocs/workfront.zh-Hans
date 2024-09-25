@@ -8,9 +8,9 @@ description: 管理组织中的 [!DNL Adobe Workfront Fusion] 用户
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
 
 -->
+
+>[!NOTE]
+>
+>如果贵组织当前正在迁移到Adobe Admin Console，则您无法在Workfront中管理用户（添加或删除用户）。 迁移完成后，您可以在Adobe Admin Console中执行这些操作。
 
 ## 访问要求
 
