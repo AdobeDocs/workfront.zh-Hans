@@ -6,9 +6,9 @@ description: 计划自动报表提交
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>时间</p> </td> 
-      <td> <p>选择一天中投放的发送时间。</p> <p>提示：由于系统加载会影响报表提交时间，因此计划时间与实际提交时间之间可能会存在延迟。 如果您需要在特定时间之前提交报表，我们建议在所需时间之前安排提交。 例如，我们建议将投放安排在需要该投放的日期的前一天。</p> </td> 
+      <td> <p>选择一天中投放的发送时间。</p> <p>提示：由于系统加载可能会影响报表交付时间，因此计划时间与实际交付时间之间可能会有长达24小时的延迟。 如果您需要在特定时间之前提交报表，我们建议在所需时间之前安排提交。 通常，我们建议至少先在需要投放日期的前一天安排投放。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重复，在</p> </td> 

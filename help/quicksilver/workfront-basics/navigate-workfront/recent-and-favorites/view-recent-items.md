@@ -6,16 +6,16 @@ description: '[!UICONTROL 最近访问]菜单位于顶部导航栏上。 此菜�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # 查看最近项目
 
-[!UICONTROL 最近访问]菜单位于顶部导航栏上。 此菜单显示最近查看的项目、报告、功能板、任务、问题等。
+[!UICONTROL 最近访问]菜单位于顶部导航栏上。 此菜单显示最近查看的项目、报告、功能板、任务、问题等。 只包含过去两周内查看过的对象，每种对象类型最多二十个，并且按最近查看的顺序列出。
 
 ## 访问要求
 

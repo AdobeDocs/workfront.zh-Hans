@@ -6,9 +6,9 @@ description: 您可以直接从移动应用程序与内部和外部收件人共�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 下载证明
 
-您可以将证明文档的副本下载到移动设备。
+您可以将证明文档的副本下载到移动设备。 请注意，虽然您无法预览视频文件，但仍可以下载它们。
 
 1. 打开文档校对，然后选择文档右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/mobile-verticalmoremenu-20x33.png)。 然后选择&#x200B;**[!UICONTROL 更多]**。
 1. 选择&#x200B;**[!UICONTROL 下载]**。
