@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ ht-degree: 0%
 +++
 
    1. 单击大文本框，然后单击&#x200B;**表达式**&#x200B;和&#x200B;**字段**，它们可用于将其添加到计算中。
+
+      展开&#x200B;**字段**&#x200B;下的对象名称以查看该对象的所有可用字段。 此列表限制为200项。 如果您知道字段名称，则可以搜索它。
 
       您也可以在大文本框中开始键入表达式或字段，然后在显示时将其选定。 每个项目都以“F”（表示字段）或“E”（表示表达式）显示。
 
