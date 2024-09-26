@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p>预览版本： 2024年8月12日</p>
+                                <p><s>预览版本： 2024年8月12日</s></p>
                             </li>
                             <li>
-                                <p>用于快速发布的生产：用于24.9版（2024年9月12日）</p>
+                                <p>用于快速发布的生产：不适用</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：待定</p>
+                                <p>适用于所有客户的生产版本：不适用</p>
                             </li>
                         </ul>
-                        <p><i>此功能是分阶段发布的一部分，将在9月向有限数量的客户提供。</i></p>
+                        <p><i>此功能已从预览中删除，并且不会与任何未来版本一起发布。</i></p>
                     </td>
                 </tr>
            </tbody>
