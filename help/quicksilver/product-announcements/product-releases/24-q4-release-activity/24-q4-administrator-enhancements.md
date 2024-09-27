@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年8月12日；用于快速发布的生产：使用24.9版本（2024年9月12日）；用于季度发布的生产：待定
+>预览版本：~~2024年8月12日~~；快速版本的生产：不适用；季度版本的生产：不适用
 >
->_此功能是分阶段发布的一部分，将在9月向有限数量的客户提供。 在我们收集反馈时，它将在“预览”环境中保留较长时间。_
+>_此功能已从“预览”中删除，将不会随任何未来版本一起发布。_
 
 自定义表单设计器上的“布局”按钮允许您从两列或三列工作区中进行选择。 原始表单设计器使用三列，并且字段设置显示在最右侧的列中。 如果选择两列，则字段设置显示在最左列的字段库旁边。
 
