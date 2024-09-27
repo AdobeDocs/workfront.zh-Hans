@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1646'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 11%
 下表列出了各种访问级别中每种对象类型的可用功能。
 
 它还指示了Workfront管理员可以使用访问级别禁用或启用的操作。
+
+>[!NOTE]
+>
+>本文介绍了可用于访问当前Workfront计划模型中的级别的功能。 要查看新计划模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
+
 
 ## 项目
 
