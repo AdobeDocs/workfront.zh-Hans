@@ -4,9 +4,9 @@ description: 2024年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 通过优先级简化任务所有者的Workfront体验
 
-优先级简介：为任务所有者提供更简单、简化和直观的Workfront体验。
+优先级简介：为任务所有者提供更简单、简化且更直观的Workfront体验。
 
 优先事务增强了重点和生产力，以帮助客户在更短的时间内完成更多工作。
 

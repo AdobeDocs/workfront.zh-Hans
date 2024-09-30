@@ -5,9 +5,9 @@ description: 旧版主页将在2017年10月的第4季度版本中从Workfront删
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 3%
 
 #### 委派工作
 
-用户目前无法在优先级中委派或查看委派的工作。
-
-用户仍然可以在以下小组件中从新主页委派工作：
+用户目前无法在优先级中委派或查看委派的工作。 但是，用户仍然可以在以下小部件中从新主页委派工作：
 
 * 我的工作
 * 我的任务
