@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [2024年第4季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024年第4季度集成增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024年第4季度主页增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [2024年第4季度项目增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024年第4季度校对功能增强](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024年第4季度报告和功能板增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 2%
       * [了解工作许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [了解审阅许可证用户的导航](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfront中的项目、任务和问题日期概述](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * 优先级{#priorities}
+      * [优先级：文章索引](workfront-basics/priorities/priorities-toc.md)
+      * [优先级入门](workfront-basics/priorities/get-started-with-priorities.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
       * 新建主页{#new-home}
@@ -888,6 +892,7 @@ ht-degree: 2%
       * 使用主页区域{#use-home-area}
          * [使用“主页”区域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [从旧主页移动到新主页](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [从旧主页移至优先级](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [在“主页”区域的工作列表中显示项目](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [排定主页区域工作的优先级](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

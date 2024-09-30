@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 
 * [管理员增强功能](#administrator-enhancements)
 * [集成增强功能](#integration-enhancements)
+* [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
 * [校对增强功能](#proofing-enhancements)
 * [报表和功能板增强功能](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 主页增强功能
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">优先顺序简介：为任务所有者提供更简单、简化和直观的Workfront体验。</a></p>
+                        <p>优先事务增强了重点和生产力，以帮助客户在更短的时间内完成更多工作。</p>
+                        <p>使用“优先级”，您可以享受：</p>
+                        <ul>
+                        <li>管理和优先处理日常任务：通过整合的导航功能组织您的日常或一周的工作，提高清晰度</li>
+                        <li>更高的工作效率：访问项目上下文并更快速地执行任务，只需较少的点击次数</li>
+                        <li>个性化功能：从专为任务所有者设计的功能中获益</li>
+                        </ul>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本： 2024年10月17日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### 项目增强功能
 
 <table>
@@ -227,6 +270,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">桌面验证查看器的复制/粘贴问题修复</a></p>
+                        <p>我们修复了桌面验证查看器的更新部分中内容粘贴不正确的问题。</p>
+                        <p>新版本：2.1.39</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月2日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产版本： 2024年10月2日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
