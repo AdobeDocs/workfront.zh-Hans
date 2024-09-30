@@ -8,16 +8,23 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: d380f495c098e45897ca58627571dfc7dfdcb0f7
+source-git-commit: 630467ca64281df0b257dae8cc5c6edc55ae56ad
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中使用大文件
 
-Workfront和HTTP连接器当前支持大文件。
+某些Fusion连接器可以支持超过1 GB限制的文件。
+
+## 支持大文件的连接器
+
+当前为以下连接器提供大文件支持：
+
+* Workfront
+* HTTP
 
 ## 大文件大小对场景执行时间的影响
 
