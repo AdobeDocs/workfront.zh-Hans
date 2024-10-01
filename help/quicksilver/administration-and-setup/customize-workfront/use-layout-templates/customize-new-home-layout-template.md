@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # 使用布局模板自定义新主页
 
-您可以使用布局模板配置用户在打开新主页时看到的内容。
+您可以使用布局模板配置用户首次打开新主页时看到的内容。
 
 您可以配置：
 
-* 默认情况下，工作区中显示哪些构件，以及它们在页面上的布局
+* 默认情况下，工作区中显示哪些构件
 * 选择哪个背景
 * 特定构件设置，包括哪些筛选器和组可用于“我的项目”、“我的任务”和“我的问题”构件及其默认值
 
 >[!IMPORTANT]
 >
->本页中介绍的管理员布局模板选项将覆盖单个用户的自定义选项。
->
->在保存对布局模板所做的更改后，该布局模板上的用户将会更改其新主页以匹配布局模板，并且其现有的构件选择将推送到页面底部。 虽然管理员选择的构件可以由用户重新定位并调整大小，但无法删除它们。
+>应用布局模板后，最终用户能够更改其背景并在页面上重新排序小组件。 他们无法删除Workfront管理员包含的小部件。
+> <br>
+>管理员能够为用户添加新构件。 但是，如果最终用户已经自定义了其小组件顺序或后台选择，则这些特定自定义不会更改。
+
+
 
 有关新主页的信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
@@ -72,6 +74,8 @@ ht-degree: 1%
 +++
 
 ## 使用布局模板自定义新主页
+
+要使用布局模板自定义“新建主页”，请执行以下操作：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
