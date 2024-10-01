@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 9%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # 自定义表单概述
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 您可以构建自定义表单，以便用户将其附加到Adobe Workfront对象。 处理对象的用户可以填写自定义表单以提供有关对象的信息。
 
@@ -32,8 +28,6 @@ ht-degree: 9%
 ## 如何创建自定义表单
 
 表单设计器具有画布样式的工作区，允许您同时查看字段、画布和字段设置。 它还允许您在设计表单时拖放部分中的字段。 您可以调整屏幕右侧的大小，为字段选项提供更多空间。
-
-<span class="preview">“布局”按钮（此图中未显示）允许您从两列或三列工作区中进行选择。 按钮指示当前选择的布局。 三列式布局在最右侧的列中显示字段设置。 在双列布局中，字段设置显示在最左列的字段库旁边。</span>
 
 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
