@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 >[!NOTE]
 >
 >如果您组织的[!DNL Workfront]实例已在Adobe IMS中启用，则此项不可用。 如果需要更多信息，请咨询您的网络或IT管理员。
+
+## 项目时间线的自动重新计算
+
+重新计算时间表使经理能够了解项目之外的力量对项目时间表的影响。 项目时间线是指项目的计划和预计日期。
+
+作为Workfront管理员，您可以配置Workfront何时自动重新计算项目时间表。 Workfront可以每晚或在项目范围更改时重新计算项目时间线，或同时重新计算两者。
+
+有关信息，请参阅[配置项目的时间表重新计算](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
+
+对于自定义刷新沙盒环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算自定义刷新沙盒环境的项目时间线。 有关信息，请参阅[重新计算项目时间表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
 ## 预期用途和可用性
 

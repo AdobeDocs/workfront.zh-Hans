@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ Workfront禁用来自“预览Sandbox”环境的所有电子邮件通信。 如
 在预览沙盒中配置单点登录的步骤与在生产环境中配置单点登录的步骤类似。
 
 有关使用SSO配置[!DNL Workfront]的更多信息，请参阅[Adobe Workfront中的单点登录概述](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+
+## 项目时间线的自动重新计算
+
+重新计算时间表使经理能够了解项目之外的力量对项目时间表的影响。 项目时间线是指项目的计划和预计日期。
+
+作为Workfront管理员，您可以配置Workfront何时自动重新计算项目时间表。 Workfront可以每晚或在项目范围更改时重新计算项目时间线，或同时重新计算两者。
+
+有关信息，请参阅[配置项目的时间表重新计算](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)。
+
+对于预览环境，将禁用夜间重新计算，并且不会自动重新计算项目时间线。 您必须手动重新计算预览环境的项目时间线。 有关信息，请参阅[重新计算项目时间表](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
 ## 预览环境性能和可用性
 
