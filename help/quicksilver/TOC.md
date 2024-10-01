@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '14437'
+source-wordcount: '14438'
 ht-degree: 2%
 
 ---
@@ -2229,7 +2229,7 @@ ht-degree: 2%
       * [在Adobe Workfront Fusion中激活或取消激活方案](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [将过滤器添加到Adobe Workfront Fusion中的方案](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [使用Adobe Workfront Fusion DevTool调试场景](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-      * [使用人工智能生成模块](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [使用AI生成场景区段](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion场景模板{#fusion-scenario-templates}
          * [方案模板](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion]模板概述](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)

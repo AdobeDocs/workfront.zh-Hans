@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 使用人工智能生成模块
+title: 使用AI生成场景区段
 description: 您可以输入文本提示来创建针对该提示配置的HTTP模块。
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Fusion AI当前可以生成连接到以下应用程序的模块：
 >这包括应用程序`Workfront Planning`和操作`get field details`。
 >
 >以下示例不正确：
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    此示例不正确，因为它包含多个应用程序
