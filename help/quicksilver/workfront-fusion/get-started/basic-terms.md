@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
    <td> <p>通过您的方案传输的数据量。 有关详细信息，请参阅[！UICONTROL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">方案详细信息。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>筛选</p> </td> 
+   <td role="rowheader"> <p>过滤器</p> </td> 
    <td> <p>可在两个模块之间应用的附加功能。 过滤器允许您然后仅使用符合特定条件的包。 您可以应用许多不同的过滤器。 有关详细信息，请参阅<a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]</a>中将筛选器添加到方案。</p> </td> 
   </tr> 
   <tr> 
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>方案</p> </td> 
    <td> <p>用户创建的一系列自动化步骤，每个步骤均由模块表示和执行。 场景的目的是移动和处理数据。</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> 有关详细信息，请参阅<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">在[！UICONTROL Adobe Workfront Fusion]</a>中创建方案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>方案区段</p> </td> 
+   <td> <p> 由一系列全部连接到同一应用程序的模块组成的方案的一部分。 场景区段通常表示应用程序中的简短工作流。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>交易</p> </td> 
