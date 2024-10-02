@@ -10,9 +10,9 @@ description: 使用 [!DNL Adobe Workfront Fusion], you can start a scenario base
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ ht-degree: 0%
                   <td>输入[!DNL Adobe Experience Manager]实例的URL。 不要在URL末尾包含斜杠<code>/</code>。</td>
               </tr>
               <tr>
+                  <td role="rowheader">[！UICONTROL帐户详细信息填充选项]</td>
+                  <td>选择是要提供描述帐户详细信息的JSON，还是要手动输入详细信息。</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[！UICONTROL JSON格式的技术帐户详细信息]</td>
+                  <td>如果提供JSON，请输入或粘贴描述您帐户详细信息的JSON。</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[！UICONTROL客户端ID]</td>
-                  <td>输入在[！UICONTROL服务器到服务器]设置中生成的客户端ID。</td>
+                  <td>如果手动输入详细信息，请输入在[！UICONTROL服务器到服务器]设置中生成的客户端ID。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL客户端密钥]</td>
-                  <td>输入在[！UICONTROL服务器到服务器]设置中生成的客户端密钥。</td>
+                  <td>如果手动输入详细信息，请输入在[！UICONTROL服务器到服务器]设置中生成的客户端密钥。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL技术帐户ID]</td>
-                  <td>输入技术帐户的ID。 这是客户端凭据JSON文件中的“[！UICONTROL id]”字段。</td>
+                  <td>如果手动输入详细信息，请输入技术帐户的ID。 这是客户端凭据JSON文件中的“[！UICONTROL id]”字段。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL组织ID]</td>
-                  <td class="">输入组织的ID。 这是客户端凭据JSON文件中的“[！UICONTROL org]”字段。</td>
+                  <td class="">如果人工输入详细信息，请输入组织的ID。 这是客户端凭据JSON文件中的“[！UICONTROL org]”字段。</td>
               </tr>
               <tr>
                   <td role="rowheader">[！UICONTROL元范围]</td>
