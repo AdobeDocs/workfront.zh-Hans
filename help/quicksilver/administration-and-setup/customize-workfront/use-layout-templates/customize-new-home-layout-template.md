@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
       <p>选择想要编辑的小组件后，右侧将显示可用选项。 这些选项包括<b>筛选器</b>、<b>列</b>和<b>组</b>。 您可以：</p>
       <ul>
       <li><p><b>选择并排序可供用户使用的筛选器、列或组：</b></p>
-      <p>选中您希望用户能够使用的列表中所有选项旁边的框。 对于用户，不会显示未勾选的选项。 拖放列表中的选项以设置顺序。</li></p>
+      <p>选中您希望用户能够使用的列表中所有选项旁边的框。 这些选项不会扩展到“摘要”面板。 您必须在布局模板的“摘要”选项卡中配置该区域。 对于用户，不会显示未勾选的选项。 拖放列表中的选项以设置顺序。</li></p>
       <p>
 
 >[!IMPORTANT]
