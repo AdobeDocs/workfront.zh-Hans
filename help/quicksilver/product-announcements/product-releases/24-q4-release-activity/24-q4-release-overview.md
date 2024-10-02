@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >| 每月发布 | 季度发布 |
 >|----|----|
->| <ul><li>24.8（2024年8月15日）</li><li>24.9（2024年9月12日）</li><li>24.10（2024年10月）</li></ul> | <ul><li>24.10（2024年10月）</li></ul> |
+>| <ul><li>24.8（2024年8月15日）</li><li>24.9（2024年9月12日）</li><li>24.10（2024年10月17日）</li></ul> | <ul><li>24.10（2024年10月17日）</li></ul> |
 >
 >请注意，对于每季度的最终版本（本季度24.10版），按照快速发布计划排程的用户将提前一天收到版本。
 >
@@ -91,7 +91,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：用于24.9版（2024年9月12日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                     </td>
@@ -173,7 +173,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">优先顺序简介：为任务所有者提供更简单、简化和直观的Workfront体验。</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">优先顺序简介：为任务所有者提供更简单、简化和直观的Workfront体验</a></p>
                         <p>优先事务增强了重点和生产力，以帮助客户在更短的时间内完成更多工作。</p>
                         <p>使用“优先级”，您可以享受：</p>
                         <ul>
@@ -188,7 +188,7 @@ ht-degree: 0%
                                 <p>预览版本： 2024年10月3日</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本： 2024年10月17日</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                     </td>
@@ -228,7 +228,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                     </td>
@@ -248,7 +248,7 @@ ht-degree: 0%
                                 <p>用于快速发布的生产：使用24.5版本（2024年5月16日）</p>
                             </li>
                             <li>
-                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月）</p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                     </td>
@@ -351,7 +351,7 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">适用于所有客户的生产版本：使用24.10版本（2024年10月）</span></p>
+                                <p><span class="preview">适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</span></p>
                             </li>
                         </ul>
                         <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，或者可作为Prime和Select计划的附加产品购买。</i></p>

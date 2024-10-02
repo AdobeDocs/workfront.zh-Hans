@@ -5,9 +5,9 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 3%
 
 ## 注意事项
 
+* 目前，Workfront管理员无法通过布局模板自定义优先级。
 * 访问“优先级”中的任务是在多个选项卡中进行的。 我们计划在未来添加其他选项卡，如文档、子任务、批准等。 使用&#x200B;**提供反馈**&#x200B;按钮提交反馈时，告知我们需要这些项目。
 
 
