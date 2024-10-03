@@ -7,9 +7,9 @@ description: 日历报告是一种动态报告，提供工作的可视化表示�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ ht-degree: 4%
 >[!NOTE]
 >
 >如果您在运行日历报表时看到504错误，则可能是报表中的过滤器太多。 减少过滤器数量应该有助于报表运行。
-
-## 将日历添加到功能板
-
-通过在功能板上显示日历报表，您可以快速访问这些报表。 要了解如何将日历添加到仪表板，请参阅[编辑仪表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)。

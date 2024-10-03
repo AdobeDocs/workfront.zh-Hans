@@ -4,9 +4,9 @@ description: 2024年第四季度报表和数据板增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->适用于所有客户的生产版本：使用24.10版本（2024年10月）
+>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）
 >
 >_仅适用于新Adobe Workfront计划之一的组织。 Data Connect包含在Ultimate计划中，或者可以作为Prime和Select计划的附加组件购买。_
 

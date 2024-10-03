@@ -6,9 +6,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以向
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 0%
 
   有关创建报告的详细信息，请参阅[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
-* 日程表
-
-  有关创建日历的详细信息，请参阅[日历：文章索引](../../../reports-and-dashboards/reports/calendars/calendars.md)。
-
 * 外部页面
 
   有关创建外部页面的详细信息，请参阅[在仪表板中嵌入外部网页](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)。
@@ -33,7 +29,7 @@ ht-degree: 0%
 
 对功能板所做的任何更改都将影响有权访问该功能板的所有用户。
 
-当用户共享功能板时，所有报告、日历和外部页面也会与同一用户共享。
+与用户共享功能板时，所有报表和外部页面也将与同一用户共享。
 
 ## 访问要求
 
@@ -86,7 +82,7 @@ ht-degree: 0%
    * **名称**：编辑仪表板的名称。
    * **描述**：指定仪表板的描述。
 
-1. 在&#x200B;**可用报告和日历**&#x200B;部分中，开始在&#x200B;**按名称或类型搜索……**&#x200B;字段中键入报告、日历或外部页面的名称，然后将报告或日历拖放到布局窗格的右侧。
+1. 在&#x200B;**可用报表**&#x200B;部分中，开始在&#x200B;**按名称或类型搜索……**&#x200B;字段中键入报表或外部页面的名称，然后将报表拖放到布局窗格的右侧。
 
    >[!NOTE]
    >

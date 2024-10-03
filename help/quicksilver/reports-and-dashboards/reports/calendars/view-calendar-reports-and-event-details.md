@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中查看您创建或与您共享的日�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -54,14 +54,14 @@ ht-degree: 0%
 
    根据您的访问级别，您可能会看到列出以下日历：
 
-   * 您的默认[!DNL Adobe Workfront]日历\
+   * 您的默认[!DNL Adobe Workfront]日历
 
      Workfront会根据分配给您或分配给您所分配团队、组或角色的项目、任务和问题为您创建日历。
-   * 您已创建的日历\
+   * 您已创建的日历
 
      要了解有关创建日历的信息，请参阅[日历报告概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
 
-   * 其他用户与您共享的日历\
+   * 其他用户与您共享的日历
 
      要了解如何共享日历，请参阅[[!UICONTROL 共享日历]报告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 

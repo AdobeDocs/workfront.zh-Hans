@@ -4,9 +4,9 @@ description: 2024年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 有关2024年第四季度发布周期中此时可用的所有更改列表，请参阅[2024年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
 ## 通过优先级简化任务所有者的Workfront体验
+
+>[!NOTE]
+>
+>预览版本： 2024年10月3日；适用于所有客户的生产版本：包含24.10版本（2024年10月17日）。
 
 优先级简介：为任务所有者提供更简单、简化且更直观的Workfront体验。
 

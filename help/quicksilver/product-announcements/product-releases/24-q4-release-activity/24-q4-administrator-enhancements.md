@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年8月29日；用于快速发布的生产版本：用于24.9版本（2024年9月12日）；用于季度发布的生产版本：用于24.10版本（2024年10月）
+>预览版本： 2024年8月29日；用于快速发布的生产版本：用于24.9版本（2024年9月12日）；用于季度发布的生产版本：用于24.10版本（2024年10月17日）
 
 为了使环境升级更加灵活和易于使用，我们启用了回滚功能。 现在，您可以在24小时内回滚包，从而更轻松地恢复受环境升级包影响的先前配置。
 

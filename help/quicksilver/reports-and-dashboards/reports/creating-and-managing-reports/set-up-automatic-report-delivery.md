@@ -6,9 +6,9 @@ description: 计划自动报表提交
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ ht-degree: 2%
    报告显示在&#x200B;**重复传送**&#x200B;部分（在&#x200B;**发送报告**&#x200B;对话框中）中，将在计划时间发送。
 
    有关可能影响报表交付的大小限制的信息，请参阅[报表交付限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits)和[导出限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export)部分。
+
+>[!IMPORTANT]
+>
+>处理计划报表以进行提交时，计划报表受内部时间限制。 如果报告发送时间超过限制，您将收到通知，并且无论剩余任何计划提交，都将不再提交报告。 要继续发送报告，首先尝试通过过滤器和视图减小报告的大小，然后创建新的计划提交。
+>
+>如果您使用计划报表交付通过BI工具分析Workfront数据，我们建议您改用Workfront Data Connect 。 有关详细信息，请参阅[Workfront Data Connect概述](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
 1. （可选）要删除计划提交，请执行以下操作：
 
