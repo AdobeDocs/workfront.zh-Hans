@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -22,11 +22,28 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年9月19日；适用于所有客户的生产版本：带有24.10版本（2024年10月17日）
+>预览版本： 2024年9月26日；适用于所有客户的生产版本：使用24.10版本（2024年10月17日）
 
-我们已对功能板界面进行了各种更新，以匹配Workfront其他区域的设计。 这些更改包括：在打印仪表板时新增了“打印预览”屏幕，并且取消了将日历放入仪表板的功能。 功能板上的现有日历将显示指向该日历的链接。
+我们已对功能板界面进行了各种更新，以匹配Workfront其他区域的设计，包括改进打印功能板时的打印预览屏幕。
+
+由于这些更改，日历无法再放置到仪表板中。 功能板上的现有日历将显示指向该日历的链接。
 
 有关仪表板的详细信息，请参阅[创建和管理仪表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。 有关日历的详细信息，请参阅[日历报告概述](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## “系统首选项”页面的外观更新
 

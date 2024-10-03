@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 ## Adobe Workfront增强功能
 
 * [管理员增强功能](#administrator-enhancements)
+* [文档管理增强功能](#document-management-enhancements)
 * [集成增强功能](#integration-enhancements)
 * [主页增强功能](#home-enhancements)
 * [项目增强功能](#project-enhancements)
@@ -46,8 +47,8 @@ ht-degree: 0%
 ### 管理员增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">发行日期</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">自定义表单上的计数器显示字段数</a></p>
+                        <p>自定义表单限制为500个字段。 在长窗体中，可能很难知道窗体中有多少字段以及您是否接近限制。 在左下方的自定义表单中添加了计数器。 计数器显示表单上使用了多少字段，当您在表单设计器中滚动时，它始终可见。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月1日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### 文档管理增强功能
+
+>[!IMPORTANT]
+>
+>**文档管理增强功能**&#x200B;中列出的功能属于分阶段发布，仅适用于特定客户。
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">直接在文档列表中查看文档决策状态</a></p>
+                        <p>您现在可以直接在文档列表中查看文档的决策状态。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速将以前的审阅人和批准者添加到新文档版本</a></p>
+                        <p>您现在可以从以前的文档版本中快速添加审阅者和批准者。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### 集成增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 主页增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### 项目增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 校对增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">桌面验证查看器的复制/粘贴问题修复</a></p>
+                        [！BADGE In Production ]{type=Informational}
                         <p>我们修复了桌面验证查看器的更新部分中内容粘贴不正确的问题。</p>
                         <p>新版本：2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 报表和功能板增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</span></p>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
                             </li>
                         </ul>
                         <p><i>仅适用于具有其中一个新Adobe Workfront计划的组织。 Data Connect包含在Ultimate计划中，或者可作为Prime和Select计划的附加产品购买。</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 其他增强功能
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">一键单击即可摘要项目或更新</a></p>
+                        <p>为了更便于快速查看项目或更新流的突出显示内容，我们已在Workfront的这些区域中添加了“摘要”按钮。 现在，您可以单击按钮在AI助手中生成摘要。</p><p>以前，用户可以打开AI助手并键入提示以创建项目摘要或更新流。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月3日</p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning的正式发布</a></p>
@@ -421,7 +510,7 @@ ht-degree: 0%
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### 即将从Workfront中删除的功能
 

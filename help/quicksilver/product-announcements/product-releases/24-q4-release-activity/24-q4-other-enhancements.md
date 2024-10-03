@@ -4,9 +4,10 @@ description: 2024年第四季度发布时间框架内的其他增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 11a5d4d2e1c7ac5339aa880b494730d75e40a812
+exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,20 @@ ht-degree: 0%
 本页介绍了在2024年第四季度发行版中对“预览”环境所做的增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第四季度发布周期中此时可用的所有更改列表，请参阅[2024年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 单击即可摘要项目或更新
+
+>[!NOTE]
+>
+>预览版本： 2024年10月3日；适用于所有客户的生产版本：使用24.10版本（2024年10月17日）
+
+为了更便于快速查看项目或更新流的突出显示内容，我们已在Workfront的这些区域中添加了“摘要”按钮。 现在，您可以单击按钮在AI助手中生成摘要。
+
+以前，用户可以打开AI助手并键入提示以创建项目摘要或更新流。
+
+您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于Select、Prime和Ultimate计划的实例。
+
+有关详细信息，请参阅[使用AI助手汇总](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)。
 
 ## Workfront中提供的AdobeAI助手
 

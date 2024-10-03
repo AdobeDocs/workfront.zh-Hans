@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 本页介绍了在2024年第四季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第四季度发布周期中此时可用的所有更改列表，请参阅[2024年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 自定义表单上的计数器显示字段数
+
+>[!NOTE]
+>
+>预览版本： 2024年10月1日；适用于所有客户的生产版本：使用24.10版本（2024年10月17日）
+
+自定义表单限制为500个字段。 在长窗体中，可能很难知道窗体中有多少字段以及您是否接近限制。
+
+在左下方的自定义表单中添加了计数器。 计数器显示表单上使用了多少字段，当您在表单设计器中滚动时，它始终可见。
+
+有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## “全选”选项现在在布局模板中可用
 
