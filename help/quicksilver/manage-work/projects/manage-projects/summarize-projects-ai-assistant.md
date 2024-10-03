@@ -5,14 +5,14 @@ title: 使用AI助手汇总项目
 description: 项目标题包括一个使用AI助手汇总项目的按钮。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# 使用AI助手汇总更新
+# 使用AI助手汇总项目
 
 Workfront的AI Assistant可以汇总项目，从而让您快速了解项目目标和状态等项目信息，给出已完成和仍待执行的任务示例，并提供一些其他详细信息和注释。
 
