@@ -8,9 +8,9 @@ author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,5 @@ ht-degree: 0%
 * [标记其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [在笔记报告中查看所有更新](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [处理此项工作并完成按钮概述](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+* [使用AI助手汇总更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 

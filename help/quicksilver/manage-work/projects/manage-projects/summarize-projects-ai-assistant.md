@@ -1,31 +1,24 @@
 ---
-title: 使用AI助手汇总
-content-type: reference
-description: 您可以使用“摘要”此功能快速摘要工作项和文档。
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: 使用AI助手汇总项目
+description: 项目标题包括一个使用AI助手汇总项目的按钮。
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# 使用AI助手汇总
+# 使用AI助手汇总更新
+
+Workfront的AI Assistant可以汇总项目，从而让您快速了解项目目标和状态等项目信息，给出已完成和仍待执行的任务示例，并提供一些其他详细信息和注释。
+
+您可以使用“项目摘要”按钮生成摘要，也可以在AI助手中输入提示。
 
 <span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
-
-Workfront的AI助手可以汇总一些对象，让您高层次地了解对象的意图或详细信息。
-
-例如，如果要求AI助手总结项目，它会返回项目的用途和状态的简短描述，给出已完成和仍在等待中的任务的示例，并提供一些其他详细信息和注释。
-
-AI助手可以总结以下对象：
-
-* 项目
-* 任务
-* 问题
-* 文档
 
 >[!NOTE]
 >
@@ -53,6 +46,13 @@ AI助手可以总结以下对象：
        <p>或</p>
        <p>当前：不可用</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -67,27 +67,21 @@ AI助手可以总结以下对象：
 
   有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
+
+
 <div class="preview">
 
-## 使用“摘要”按钮进行摘要
+## 使用“项目摘要”按钮进行摘要
 
-以下区域具有使用AI Assistant生成摘要的按钮：
+1. 导航到要汇总的更新流。
+1. 单击&#x200B;**项目摘要**&#x200B;按钮。
 
-* 项目标题：项目摘要
-* 更新区域：摘要内容
-
-使用“项目摘要”或“摘要内容”按钮：
-
-1. 单击按钮。
-
-   AI助手将打开，并出现一条提示，提示您汇总项目或更新流上过去7天的评论。
+   AI助手将打开，并出现提示以总结项目。
 
    根据对象的大小或复杂程度，AI Assistant可能需要一些时间来生成摘要。
 
 1. 在AI助手面板中查看AI摘要。
 1. （可选）优化提示以确保它为您提供所需的信息。
-
-   例如，您可以优化“摘要内容”提示以摘要过去14天（而不是过去7天）的注释。
 
    </div>
 

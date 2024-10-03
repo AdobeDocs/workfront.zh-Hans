@@ -5,9 +5,9 @@ description: 您可以使用AI Assistant解决计算字段中的无效自定义�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ ht-degree: 0%
 
 有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 生成计算字段表达式
+## 先决条件
+
+* 您的Workfront管理员必须为贵组织启用AI助手。
+
+  有关详细信息，请参阅AI助手概述一文中的[AI助手先决条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+* 您的Workfront管理员必须已启用您访问级别的AI助手。
+
+  有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+
+<!--## Generate a calculated field expression-->
 
 ## 修订计算字段表达式
 
