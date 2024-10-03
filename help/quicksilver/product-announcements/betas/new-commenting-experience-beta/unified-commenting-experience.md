@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >新评论体验的Beta计划从2023年4月开始，到2023年10月结束，2023年10月发布。
 >
 >自2024年4月11日起，所有客户都可以在生产环境中使用新评论体验的所有功能。
+>
+> 之前的评论体验已从Workfront中删除。
 
 ## 功能
 
@@ -47,7 +49,7 @@ ht-degree: 1%
 * 向对象添加新注释时的实时指示器
 * 提交评论后进行编辑
 
-以下功能已从新Experience中删除或将被弃用：
+以下功能已从新Experience中删除：
 
 * 有关系统更新的注释。 以前添加到系统更新的注释已在新的“系统活动”选项卡中作为只读注释导入。
 * 在评论任务和问题时能够编辑状态、条件、提交日期和完成百分比。
@@ -85,13 +87,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td><strong>存在于新的评论体验</strong>中
    </td>
-   <td><strong>将被引入新的评论体验</strong>
+
+<td><strong>引入新评论体验</strong>
    </td>
-   <td><strong>何时将被引入新的评论体验</strong>
-   </td>
-   <td><strong>正在研究</strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>创建/读取/回复/删除评论 
    </td>
@@ -99,13 +98,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </td>
    <td>✓ {\f13 } 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>富文本（不包括引号和表情符号）
    </td>
@@ -113,12 +110,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ {\f13 }
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>富文本（块引号）
@@ -143,13 +135,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
+    <td> 2023年第二季度
    </td>
-   <td> 2023年第二季度
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> 报价注释
@@ -158,13 +147,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td> 2023年第二季度
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>对评论做出反应（类似） 
    </td>
@@ -174,11 +160,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>将图像附加到注释 
    </td>
@@ -186,13 +169,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ {\f13 } 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>在评论中标记人员 
    </td>
@@ -202,11 +182,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>删除线程参与者
    </td>
@@ -216,23 +193,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>自动标记所有线程参与者
    </td>
    <td> 
    </td>
    <td>✓ {\f13 }
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>撤消评论的过帐 
@@ -259,11 +222,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>替换为编辑注释 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>编辑评论 
    </td>
@@ -289,11 +244,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>在离开页面时保存评论草稿 
    </td>
@@ -303,21 +254,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>实时查看新评论（包括查看何时删除评论）
    </td>
    <td> 
    </td>
    <td>✓ {\f13 }
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>复制跟帖链接 
@@ -343,11 +282,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 替换为复制链接
    </td>
-   <td> 
-   </td>
    <td>2023年第二季度 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>引用注释文本 
    </td>
@@ -371,13 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ {\f13 }
    </td>
-   <td> 
+  <td>2023年第二季度 
    </td>
-   <td>2023年第二季度 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>复制正文文本 
    </td>
@@ -385,13 +312,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>在评论中搜索 
    </td>
@@ -399,13 +322,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td>2024年第一季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>在评论中复制并粘贴图像
@@ -414,13 +334,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td>2024年第一季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>在评论中拖放图像
@@ -429,22 +345,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td>2024年第一季度 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>编辑自定义表单 
    </td>
    <td>✓ {\f13 } 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>回复系统更新 
@@ -472,11 +376,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ {\f13 }
    </td>
-   <td> 以后可能会发布
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓ {\f13 }
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 >有关管理Workfront对象更新的详细信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 
-以下是向生产环境发布新评论体验的计划时间线，其中具有关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
+以下信息介绍了向生产环境发布新评论体验的时间表和关键里程碑。 除了下面的里程碑之外，我们将继续通过较小的增强功能改进评论体验。
 
-有关在Beta版结束之后为新评论体验发布的功能的信息，请参阅当前版本概述页面。
+有关在Beta版结束之后为新评论体验发布的功能的信息，请参阅当前版本概述页面。 有关详细信息，请参阅[产品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 以下是发布新评论体验的计划时间表：
 
 * 在23.2版本（2023年4月6日）中：
-   * 针对问题启动评论体验Beta
-   * 发布新的目标评论体验（作为唯一体验）
+   * 发布了关于问题的评论体验Beta
+   * 发布了针对目标的新评论体验（作为唯一体验）
 * 在23.3版本（2023年7月20日）中：
    * 为项目、任务和文档启动评论体验Beta 。
-   * 在展示板区域发布信息卡的新评论体验（作为唯一体验）
+   * 为展示板区域中的信息卡发布了新的评论体验（作为唯一体验）
 * 在2023年第四季度版本（限量版本，仅向选择快速版本的客户提供）中：
-   * 发布模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
-   * 更新项目、任务、问题和文档的注释体验Beta以使其成为默认选项。 已移除“Beta”标签。
+   * 发布了针对模板、模板任务、程序、项目组合、团队、用户和工时表的新评论体验（作为唯一体验）
+   * 更新了项目、任务、问题和文档的注释体验Beta ，以使其成为默认选项。 已删除“Beta”标签。
 * 在2023年第四季度(23.10)发布（2023年10月26日）
-   * 向所有客户发布有关模板、模板任务、程序、项目组合、团队、用户和工时表的新注释体验（作为唯一体验）。
+   * 向所有客户发布了有关模板、模板任务、程序、项目组合、团队、用户和工时表（作为唯一体验）的新注释体验。
    * 将项目、任务、问题和文档的新注释体验设置为默认选项。
 
   >[!IMPORTANT]
   >
-  >    这将结束新评论体验的Beta阶段。
+  >    这结束了新评论体验的Beta阶段。
 
-   * 从这一日期开始，将针对新评论体验发布的所有功能纳入当前的每月和季度定期发布中。
+   * 从这一日期开始，将针对新评论体验发布的所有功能纳入当前定期每月和季度发布中。
 * 2023年底：
    * 将旧版注释体验保留为以下对象的辅助选项：项目、任务、问题和文档。 新注释体验是这些对象的所有用户的默认选项。
    * 使新的注释体验成为所有其他对象的唯一体验。
 
-  >[!NOTE]
-  >
-  >    迭代将继续具有旧版评论体验。 新的评论体验将不可用于迭代。
-
 * 在2024年第二季度版本（2024年4月11日）中：
 
-  删除切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验。
+  删除了切换回旧版注释流的选项，并使新注释流成为所有对象的唯一体验。
+
+* 2024年10月3日：
+
+  删除了更新区域中的“留下反馈”按钮。
 
 ## 找到新的评论体验
 

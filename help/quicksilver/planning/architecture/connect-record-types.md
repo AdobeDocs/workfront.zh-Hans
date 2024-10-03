@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-您可以将记录类型相互连接或用其它应用程序的对象类型来记录类型。
+可以将记录类型相互连接或可以将记录类型与其他应用程序中的对象类型连接。
 
 本文介绍了如何将两个Workfront Planning记录类型或Workfront Planning记录类型与另一个应用程序中的对象连接。
 
@@ -183,7 +183,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. 在&#x200B;**记录类型**&#x200B;字段中，搜索记录类型，或选择以下选项之一：
 
-   * 所选工作区中的其他记录类型
+   * 当前工作区中的其他记录类型
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -218,7 +218,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >您可以有多个与同一记录或对象类型的连接。 如果不编辑已连接的字段名称，Workfront会在已连接记录的名称后添加一个数字，以指示使用相同名称连接的记录类型的数量。
 
    * **描述**：有关连接的记录字段的其他信息。 当您将鼠标悬停在表中的字段列上时，将显示字段的描述。
-   * **允许多条记录**：选择此选项可指示当链接记录类型字段显示在原始记录上时，允许用户添加多条记录。 默认情况下，该选项处于选中状态。
+   * **允许多条记录**：选择此选项可指示当链接记录类型字段显示在原始记录上时允许用户添加多条记录。 默认情况下，该选项处于选中状态。
 
      仅当从两个不同的工作区连接记录或连接记录和Adobe Experience Manager资源对象时，此选项才可用。
 
@@ -237,7 +237,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      有关连接类型的详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-   * **选择查找字段**：选择此选项可从所选记录类型添加字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您从中链接的记录的信息。 默认情况下，该选项处于选中状态。
+   * **选择查找字段**：选择此选项可从所选记录类型添加字段。 查找字段是与要链接到的记录或对象类型关联的字段。 链接它们将显示您链接到的记录或对象中的信息，以及您链接到的记录中的信息。 默认情况下，该选项处于选中状态。
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * 记录按字段值的每个唯一组合进行分组
 
-   * 时间线视图基于第一个日期值构建。
+   * 时间线视图基于第一个日期值构建
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >例如，您可以从Campaign记录（原始记录）中链接产品记录（链接记录），并将其命名为“产品字段”。 您还可以选择从营销活动记录中链接产品记录的“预算”字段，并将其称为“产品预算”。 如果您允许在“产品字段”中选择多个记录，则可以选择预算为$100,000的产品1和预算为$110,000的产品2，以及预算为$100,000的产品3。 您可以在链接字段中查看原始记录的以下预算信息，具体取决于您选择的汇总：
+   >例如，您可以从Campaign记录（原始记录）中链接产品记录（链接记录），并将其命名为“产品字段”。 您还可以选择从营销活动记录中链接产品记录的Budget字段，并将其称为“Product Budget”。 如果您允许在“产品字段”中选择多个记录，则可以选择预算为$100,000的产品1和预算为$110,000的产品2，以及预算为$100,000的产品3。 您可以在链接字段中查看原始记录的以下预算信息，具体取决于您选择的汇总：
    >
    >* **无**：$100,000，$110,000，$100,000
    >* **MAX**： $110,000
@@ -353,11 +353,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     例如，如果您链接了某个“促销活动”记录类型与“项目”记录类型，并将该“项目”链接记录字段命名为“项目群信息”，然后选择还在该促销活动的表格视图中显示该“项目”的“预算”字段，则该链接字段在该促销活动的表格视图中自动命名为`Budget (from Program information)`。
+     例如，如果您链接了促销活动记录类型与项目群记录类型，并将项目群链接记录字段命名为“项目群信息”，然后选择还在Campaign表格视图中显示项目群预算字段，则链接字段在促销活动表格视图中自动命名为`Budget (from Program information)`。
 
    * 当您将记录类型链接到另一个记录类型时，链接记录字段也会添加到要链接的记录类型上。 链接记录类型中链接的记录字段的名称是您链接来源的记录类型的名称。
 
-     例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并将营销活动的连接字段命名为“链接的产品”，则会为“Product”记录类型创建“Campaign”链接记录字段。
+     例如，如果您从“Campaign”记录类型中链接“Product”记录类型，并命名了Campaign“链接的产品”的已连接字段，则会为“Product”记录类型创建“Campaign”链接记录字段。
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 1. （可选，视情况而定）在原始记录类型或链接记录类型表格视图中，单击链接记录字段标题中的向下箭头，然后单击以下任一项：
 
-   * **编辑字段**：您可以更新该字段的&#x200B;**名称**&#x200B;和&#x200B;**描述**&#x200B;信息。
+   * **编辑字段**：更新该字段的&#x200B;**名称**&#x200B;和&#x200B;**描述**&#x200B;信息。
    * **编辑查找字段**：添加或删除链接记录的任何字段。
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

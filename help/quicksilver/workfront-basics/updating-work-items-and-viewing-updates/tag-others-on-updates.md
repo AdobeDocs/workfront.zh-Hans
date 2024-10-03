@@ -6,9 +6,9 @@ description: 在Adobe Workfront对象上提供更新注释时，项目中的所�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
@@ -82,6 +84,8 @@ ht-degree: 0%
 </table>
 
 *要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 为其他人标记更新
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ ht-degree: 1%
 
 ## 关于Workfront对象Planning部分的注意事项
 
-* Workfront Planning记录类型必须连接到Workfront对象类型。
+当您从Workfront对象的Planning部分中查看Workfront Planning记录时，请考虑以下事项：
+
+* Workfront Planning记录类型必须首先连接到Workfront对象类型。
 
   有关信息，请参阅以下文章：
 
    * [连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [连接记录](/help/quicksilver/planning/records/connect-records.md)
-* 您可以查看Workfront对象中的Planning部分，即使没有与Workfront对象关联的记录也是如此。
-* 当至少有一个记录连接到Workfront对象时，您可以在Planning部分中，将Planning记录与Workfront中的Workfront对象连接。
+* 您可以从Workfront对象查看Planning部分，即使没有与Workfront对象关联的记录也是如此。
+* 除了从Workfront的Planning区域连接Workfront对象之外，您还可以从Planning部分将Planning记录与Workfront的Workfront对象连接。
 
 ## 管理“计划”部分中的记录
 
@@ -132,11 +134,15 @@ ht-degree: 1%
 1. 在连接的记录字段中单击Workfront对象的名称。
 对象的页面将在Workfront中打开。
 
+   >[!NOTE]
+   >
+   >  如果您知道Workfront对象已连接到Planning记录，则可以从Workfront对象导航到Planning部分。
+
 1. 单击左侧面板中的&#x200B;**Planning**。
 
    >[!NOTE]
    >
-   >   您的Workfront或组管理员必须将“规划”部分添加到您的布局模板中，然后才能为Workfront项目、项目组合或项目群显示规划部分。
+   >   您的Workfront或组管理员必须先将“规划”部分添加到您的布局模板中，然后才能为Workfront项目、项目组合或项目群显示规划部分。
 
    此时将显示Planning部分，其中包含下列信息：
 
@@ -152,7 +158,7 @@ ht-degree: 1%
 1. 单击记录卡以显示有关记录的更多信息。 此时将显示记录预览框。
 1. （可选）开始修改记录预览框中的字段。 您的更改会自动保存。
 1. （可选）单击预览框右上角的&#x200B;**在新标签中打开**&#x200B;图标![](assets/open-details-in-a-new-tab-icon.png)以打开记录的详细信息页面。 此时将在Workfront Planning中打开记录的详细信息页面。
-1. 将鼠标悬停在记录卡上，然后单击断开连接记录图标&#x200B;**-**，然后单击&#x200B;**断开连接**。
+1. （可选）将鼠标悬停在记录卡片上，单击断开连接记录图标&#x200B;**-**，然后单击&#x200B;**断开连接**。
 出现以下情况：
    * 记录不再连接到Workfront对象。
    * Workfront对象也将从Workfront Planning中的记录的“已连接”字段中删除。

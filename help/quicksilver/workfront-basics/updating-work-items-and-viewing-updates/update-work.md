@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ ht-degree: 0%
 
    * 从Workfront对象的“更新”部分（适用于项目、任务和问题）
    * 从“主页”区域（针对任务和问题）
+
+     有关信息，请参阅[使用我的工作小组件](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)管理您的工作。
    * 从“摘要”面板的以下区域（任务、问题和文档）：
 
       * 对象列表
       * 时间表
       * 主页
       * 工作负载均衡器
+
+     有关更多信息，请参阅以下文章：
+
+      * [摘要概述](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [使用摘要更新工作负载均衡器中的工作项](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

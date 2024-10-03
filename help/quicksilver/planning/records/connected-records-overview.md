@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 连接的记录概述
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 * 您可以从链接的记录字段中浏览和添加链接记录的记录和对象以及对象类型。
 * 您可以在要链接的记录类型的表中添加链接记录类型的字段（查找字段）。
 
-  您可以在要链接的记录类型的表格中添加要链接的记录类型的字段（查找字段）。
+  此外，您还可以在要链接的记录类型的表格中添加要链接的记录类型的字段（查找字段）。
 
-  例如，如果从“促销活动”记录类型链接“产品”记录类型，则可以显示“促销活动”的“产品”字段以及“产品”的“促销活动”字段。
+  例如，如果从“促销活动”记录类型链接产品记录类型，则可以显示促销活动的产品字段以及产品的促销活动字段。
 * 您无法手动更新链接来源记录中的查找字段值。
 
   在原始记录或对象上更新查找字段的值后，会自动填充您要链接的Workfront Planning记录。
@@ -54,4 +54,3 @@ ht-degree: 0%
 * 您可以在以下区域将Workfront对象连接到Workfront Planning记录：
 
    * 从Workfront对象的“规划”部分。
-

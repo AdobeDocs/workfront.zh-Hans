@@ -6,10 +6,10 @@ description: 您可以更新问题的状态，以通知其他人该问题的位�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 您可以更新问题的状态，以通知其他人该问题的位置及其进展情况。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -33,9 +35,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新许可证：参与者或更高版本</p>
+   <td> <p>新文档：参与者或更高版本</p>
    或
-   <p>当前许可证：请求或更高版本</p>
+   <p>当前：请求或更高版本</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 问题状态
 

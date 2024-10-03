@@ -6,14 +6,16 @@ description: 您可以更新任务的状态，以告知其他人该任务在何�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # 更新任务状态
+
+<!--Audited: 10/2024-->
 
 您可以更新任务的状态，以告知其他人该任务在何处（以及整个项目）以及进展如何。
 
@@ -22,6 +24,8 @@ ht-degree: 1%
 您可以手动更新任务状态，也可以让Workfront在某些操作发生时自动更新任务状态。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能手动更新任务：
 
@@ -51,7 +55,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 有关更新任务状态的注意事项
 
