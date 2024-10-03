@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Fusion AI当前可以生成连接到以下应用程序的模块：
 
    单击方案编辑器页面底部附近的“使用AI生成”图标![使用AI生成](assets/generate-with-ai-icon-beta.png)。
 
-   此时将打开AI助手面板。
+   将打开AI助手面板。
 1. 在框中输入文本提示。
 
    有关提示的提示，请参阅本文中的[创建文本提示的提示](#tips-for-creating-text-prompts)。
 
-   生成模块或模块集。
+   AI Assistant生成模块或模块集。
 1. （视情况而定）如有必要，请将应用程序的API令牌添加到模块中。
-1. 检查模块以确保针对适当的应用程序和操作对它们进行配置。
+1. 检查模块，确保已针对相应的应用程序和操作配置它们。
 1. （视情况而定）如果生成的场景部分未附加到场景，请将其拖动到适当位置。
 
 我们建议测试这些模块以确保它们按预期执行。
