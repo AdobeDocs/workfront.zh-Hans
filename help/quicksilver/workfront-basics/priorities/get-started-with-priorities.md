@@ -5,17 +5,15 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # 优先级入门
-
-<span class="preview">优先级将于2024年3月10日在“预览”中可用</span>
 
 优先级是为任务所有者定制的简化、直观的体验。 优先事项将从工作清单开始分阶段推出。
 
@@ -118,6 +116,16 @@ ht-degree: 3%
 ## 处理任务和问题
 
 在“优先级”中，您可以更新工作项以使工作项详细信息保持最新，记录时间以准确跟踪您的工作时间，无需导航到项目即可上传资产，以及添加快速链接以轻松访问常用资源。
+
+>[!NOTE]
+>
+>轻量级、查看、投稿人和请求者许可证对优先级的访问有限。 有关这些许可证类型如何与任务和问题交互的更多信息，请参阅
+>
+>* [新许可证对对象和区域的访问权限](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [可用于新访问级别的每个对象类型的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [按许可证类型访问对象和区域](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [可用于每种对象类型的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### 添加和查看更新
 

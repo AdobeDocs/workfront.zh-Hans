@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # 使用布局模板自定义主页和摘要
+
+<span class="preview">在10月17日发布的第4季度版本中，从Workfront中删除旧版主页时，本文将被重命名为“使用布局模板自定义摘要面板”。 2024.</span>
 
 您可以使用布局模板配置用户在单击主页和摘要中的任务或问题时看到的内容。 您使用以下步骤进行的每个配置都会以相同的方式影响“主页”区域和“摘要”面板。 这些自定义不适用于“文档摘要”面板。
 

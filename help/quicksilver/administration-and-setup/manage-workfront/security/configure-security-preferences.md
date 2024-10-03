@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 5%
 
 ---
@@ -128,8 +128,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可让您指定默认情况下用户是否会看到新主页体验。 启用后，用户将默认看到新主页体验，但仍可以选择根据个人情况启用或禁用新主页。 禁用后，用户将不会看到允许他们切换到新主页的横幅，但是，他们仍然可以通过在实例URL末尾手动输入<code>/home/workspaces</code>来导航到他们的新主页。 默认情况下，此设置处于启用状态。</td> 
      </tr>
      <tr> 
+      <td role="rowheader">启用优先级工作列表 </td> 
+      <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.-->有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">测试环境</td> 
-      <td>允许您访问Workfront测试环境。 有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront预览沙盒环境</a>。</p></td> 
+      <td>允许您访问Workfront测试环境。 有关详细信息，请参阅<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront预览沙盒环境</a>。</p></td> 
     </tbody> 
    </table>
 

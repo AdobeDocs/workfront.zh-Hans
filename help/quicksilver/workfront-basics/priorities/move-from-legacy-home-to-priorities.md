@@ -5,17 +5,15 @@ description: 旧版主页将在2017年10月的第4季度版本中从Workfront删
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # 从旧主页移至优先级
-
-<span class="preview">优先级将于2024年3月10日在“预览”中可用</span>
 
 旧版主页将在2017年10月的第4季度版本中从Workfront删除。 本文提供了有关哪些功能将在优先级中可用的信息，以及对于Workfront管理员将用户移动到优先级的建议。
 
