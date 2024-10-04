@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 298411941cafb96ab2c3b7e611dc1fb9db8ec31f
+source-git-commit: 8a69b640d90471b042ed1ecfaa1c0eb6d7eb24a4
 workflow-type: tm+mt
-source-wordcount: '14460'
+source-wordcount: '14469'
 ht-degree: 2%
 
 ---
@@ -1834,6 +1834,7 @@ ht-degree: 2%
          * [从资产或文档中删除审批者或审阅者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [创建资产和文档的审批模板](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [一起使用新文档批准和校样](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [上传新文档版本并请求审批](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * 审阅和批准资源和文档{#review-and-approve-documents}
          * [审阅和批准文档：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [审阅文档](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

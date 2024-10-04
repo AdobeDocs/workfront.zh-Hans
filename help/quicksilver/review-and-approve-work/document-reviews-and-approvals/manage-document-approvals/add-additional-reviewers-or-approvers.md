@@ -6,9 +6,9 @@ description: 您可以将附加批准者或审阅者添加到已具有待审批�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ ht-degree: 0%
 1. 向下滚动到“文档摘要”窗格中的&#x200B;**批准**&#x200B;部分，其中列出了所有现有批准者和审阅者。 要添加审批者，请确保选中&#x200B;**审批者**&#x200B;复选框，然后开始在&#x200B;**审阅者**&#x200B;文本框中键入。 您可以按名称添加Workfront用户或团队。 如果要添加审阅者，只需在键入之前取消选中&#x200B;**审批者**&#x200B;复选框。
 
 1. 重复上一步骤以添加其他批准者或审阅者。
+
+## 从以前的版本添加额外的审阅和批准者
+
+如果您需要审批新文档版本，可以轻松添加
 
 <!--
 ## Add additional approvers or reviewers from Home

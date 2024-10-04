@@ -5,13 +5,13 @@ title: 一起使用新文档批准和校样
 description: 您可以将新文档审批与验证结合使用。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # 一起使用新文档批准和校样
 
@@ -85,9 +85,9 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
 
 1. （可选）设置审批的截止日期。 用户和团队将在指定截止日期前72小时（即24小时）通过电子邮件接收通知。
 
-1. 要添加审批者，请单击“审批者”按钮并开始键入用户或团队名称。
+1. 要添加审批者，请单击“审批者”按钮，然后开始键入用户或团队名称<span class="preview">或从以前的版本中选择审批者。</span>
 
-1. 要添加审阅者，请单击“审阅者”按钮并开始键入用户或团队名称。
+1. 要添加审阅者，请单击“审阅者”按钮，然后开始键入用户或团队名称<span class="preview">或从以前的版本中选择审阅者。</span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Workfront中的新文档批准引入了一组新功能，可帮助您审阅和�
    * **需要工作**：文档需要更改，并且尚未准备就绪。 完成指定的更改后，必须将文档作为新版本上传，并经过另一轮批准。 有关上载新版本的更多信息，请参阅本文中的[根据需要创建新版本](#create-a-new-version-as-needed)。
 
 作出决定后，将通过电子邮件通知文档所有者。
-

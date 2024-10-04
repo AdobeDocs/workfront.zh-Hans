@@ -6,7 +6,7 @@ description: 您可以在Adobe Workfront中请求其他用户批准文档。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 重复上一步骤以添加其他批准者或审阅者。
 
-## 从“文档摘要”窗格创建文档审阅或审批请求
+## 从文档摘要面板创建文档审阅或审批请求
 
 1. 转到包含文档的项目、任务或问题，然后选择&#x200B;**文档**。
 
@@ -96,6 +96,10 @@ ht-degree: 0%
    ![](assets/add-approver-and-deadline.png)
 
 1. 重复上一步骤以添加其他批准者或审阅者。
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version
