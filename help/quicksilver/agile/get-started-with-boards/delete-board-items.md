@@ -6,9 +6,9 @@ description: 从展示板中删除信息卡时，该信息卡会被永久删除�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 从任何具有引入列的其他展示板类型中删除已连接信息卡时，如果尚未将已连接任务或问题标记为完成，则在刷新展示板时，该信息卡将重新出现在引入列中。 有关引入列的详细信息，请参阅[将引入列添加到展示板](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)。
 
 存档信息卡会将其发送到存档，您可以稍后将其还原到展示板。
+
+已存档的信息卡不会同步到Workfront任务和问题。 如果恢复一张卡，它将再次同步。
 
 ## 访问要求
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 1. 若要还原已存档的卡，请单击卡上的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![更多](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 还原]**。
 
-## 筛选展示板以显示已存档的展示卡 {#filter-a-board-to-show-archived-cards}
+## 筛选展示板以显示已存档的展示卡
 
 默认情况下，展示板上仅显示活动信息卡。 您可以筛选展示板以显示任何已存档的信息卡。
 

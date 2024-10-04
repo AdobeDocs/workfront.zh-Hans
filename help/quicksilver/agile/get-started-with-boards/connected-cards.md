@@ -6,9 +6,9 @@ description: 您可以在展示板上添加一张信息卡，该信息卡连接�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 * [!UICONTROL 子任务]
 * [!UICONTROL 文档]
 
-若要将连接的卡与Workfront同步，请单击展示板名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 同步连接的项目]**。
+若要将连接的卡与Workfront同步，请单击展示板名称旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单![[!UICONTROL 更多]](assets/more-icon-spectrum.png)，然后选择&#x200B;**[!UICONTROL 同步连接的项目]**。 已存档的信息卡不会同步到Workfront任务和问题。 如果恢复一张卡，它将再次同步。
 
 >[!NOTE]
 >
