@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 在Adobe Workfront Fusion中查看场景的执行历史记录
+title: 在Adobe Workfront Fusion中查看方案的历史记录
 description: 您可以显示某个方案的所有运行信息，也可以搜索方案的所有执行以获取特定数据。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# 在[!DNL Adobe Workfront Fusion]中查看方案的执行历史记录
+# 在[!DNL Adobe Workfront Fusion]中查看方案的历史记录
 
-您可以显示某个方案的所有运行信息，也可以搜索方案的所有执行以获取特定数据。
+您可以显示有关场景的事件或执行的信息，也可以搜索场景的所有执行以获取特定数据。
 
-场景的执行历史记录显示过去30天的所有场景执行。
+场景执行表示场景的单次运行。
+
+场景事件是对场景的修改，如编辑、激活或停用场景。
+
+>[!NOTE]
+>
+>方案的历史记录会显示方案在过去30天内的所有事件和执行。
 
 ## 访问要求
 
@@ -59,9 +65,9 @@ ht-degree: 0%
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 查看场景的所有执行
+## 查看方案历史记录
 
-### 在[!UICONTROL 方案详细信息]页面上查看方案执行历史记录
+### 在[!UICONTROL 方案详细信息]页面上查看方案历史记录
 
 1. 单击左侧面板中的&#x200B;**[!UICONTROL 方案]**&#x200B;选项卡，然后单击方案。
 
@@ -69,9 +75,7 @@ ht-degree: 0%
 
    如果您在方案编辑器中处理方案，请单击窗口左上角附近的左箭头![](assets/exit-editing-arrow.png)。
 
-1. 查看右侧列表中的信息。
-
-   您还可以单击以查看此信息的全页视图。 全页视图允许您过滤历史记录以查看特定执行。
+1. 在右侧面板的&#x200B;**History**&#x200B;选项卡中查看执行历史记录。
 
    针对方案的每次执行都列出了以下详细信息：
 
@@ -80,13 +84,16 @@ ht-degree: 0%
    * 运行&#x200B;**[!UICONTROL 持续时间]**
    * **[!UICONTROL 操作数]**
    * **[!UICONTROL 数据传输的大小]**
-   * 链接到&#x200B;**[!UICONTROL 详细信息]**
 
->[!NOTE]
->
->方案历史记录会在最近执行的方案旁边显示一个&#x200B;**正在处理**&#x200B;标记，同时将执行详细信息写入存储。 在场景执行后立即进行处理。 并且持续时间不应超过几分钟。 处理执行时，场景执行的详细信息可能不可见。
+   >[!NOTE]
+   >
+   >方案历史记录会在最近执行的方案旁边显示一个&#x200B;**正在处理**&#x200B;标记，同时将执行详细信息写入存储。 在场景执行后立即进行处理。 并且持续时间不应超过几分钟。 处理执行时，场景执行的详细信息可能不可见。
 
-### 在[!UICONTROL 历史记录]选项卡上查看方案执行历史记录
+1. 要查看特定场景执行的详细信息，请单击右侧面板中的该执行。
+1. 要查看事件，请单击右侧面板的&#x200B;**事件**&#x200B;选项卡。
+
+
+### 在[!UICONTROL 历史记录]选项卡上查看方案历史记录
 
 [!UICONTROL 历史记录]选项卡显示的详细信息比[!UICONTROL 方案详细信息]页面上提供的多。 您还可以对[!UICONTROL 历史记录]选项卡上的执行进行过滤和排序。
 
@@ -97,7 +104,7 @@ ht-degree: 0%
    如果您在方案编辑器中处理方案，请单击窗口左上角附近的左箭头![](assets/exit-editing-arrow.png)。
 
 1. 单击页面左上角附近的&#x200B;**[!UICONTROL 历史记录]**&#x200B;选项卡
-1. （可选）有关选定方案运行的详细信息（包括已处理哪些捆绑包），请单击&#x200B;**[!UICONTROL 详细信息]**&#x200B;链接。
+1. （可选）有关所选方案运行的详细信息（包括已处理哪些捆绑包），请单击该行中用于该执行的&#x200B;**[!UICONTROL 详细信息]**&#x200B;按钮。
 
    有关处理捆绑包的更多信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)中的[方案执行流程。
 
@@ -106,6 +113,8 @@ ht-degree: 0%
    >* 仅当执行有详细信息时，[!UICONTROL 详细信息]链接才可见。
    >
    >* 方案历史记录会在最近执行的方案旁边显示一个&#x200B;**处理历史记录**&#x200B;标记，同时将执行详细信息写入存储。 在场景执行后立即进行处理。 并且持续时间不应超过几分钟。 处理执行时，场景执行的详细信息可能不可见。
+
+1. 要查看事件，请启用&#x200B;**显示事件**&#x200B;切换开关。
 
 ## 筛选场景执行历史记录
 
@@ -128,13 +137,7 @@ ht-degree: 0%
 
 ## 搜索场景的所有执行
 
-1. 单击左侧面板中的&#x200B;**[!UICONTROL 方案]**&#x200B;图标![](assets/scenarios-icon.png)，然后单击方案。
-
-   或
-
-   如果您在方案编辑器中处理方案，请单击窗口左上角附近的左箭头![](assets/exit-editing-arrow.png)。
-
-1. 单击屏幕左上角附近的&#x200B;**[!UICONTROL 历史记录]**&#x200B;选项卡。
+1. 打开方案的全页历史记录，如本文中[!UICONTROL 历史记录]选项卡](#view-scenario-execution-history-on-the-history-tab)上的[查看方案执行历史记录中所述。
 1. 单击执行列表顶部的&#x200B;**[!UICONTROL 全文搜索]**。
 
    或
