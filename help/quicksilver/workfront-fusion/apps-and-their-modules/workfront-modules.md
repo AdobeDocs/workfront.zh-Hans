@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ ht-degree: 2%
 
 +++ **[!UICONTROL 上载文档]**
 
-此操作模块将文档上传到[!DNL Workfront]对象，如项目、任务或问题。
+此操作模块将文档上传到[!DNL Workfront]对象，如项目、任务或问题。 此模块会以块形式上传文档，从而使Workfront的上传过程更加顺畅。
 
 您可以指定文档的位置、要上传的文件以及文件的新名称（可选）。
 
@@ -767,6 +767,51 @@ ht-degree: 2%
   <tr> 
    <td>[！UICONTROL相关记录类型]</td> 
    <td>选择您希望模块上传文档的[!DNL Workfront]记录类型。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL文件夹ID]</td> 
+   <td>根据相关记录的类型，您可能需要输入或映射文件夹ID。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL Source file]</td> 
+   <td> <p>从上一个模块中选择源文件，或映射源文件的名称和数据。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+查看可在每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module)可用的[[!DNL Workfront] 对象类型中使用此模块的[!DNL Workfront]对象类型列表。
+
++++
+
++++ **[!UICONTROL 上载文档（旧版）]**
+
+此操作模块将文档上传到[!DNL Workfront]对象，如项目、任务或问题。 它一次上载整个文档。
+
+您可以指定文档的位置、要上传的文件以及文件的新名称（可选）。
+
+模块会返回文档的ID和任何关联字段，以及连接访问的任何自定义字段和值。 您可以在场景的后续模块中映射此信息。
+
+配置此模块时，会显示以下字段。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>有关将[!DNL Workfront]应用连接到[!DNL Workfront Fusion]的说明，请参阅本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">将[!DNL Workfront]连接到[!DNL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL相关记录ID]</td> 
+   <td>输入要上载文档的记录的唯一[!DNL Workfront] ID。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL相关记录类型]</td> 
+   <td>选择您希望模块上传文档的[!DNL Workfront]记录类型。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL文件夹ID]</td> 
+   <td>根据相关记录的类型，您可能需要输入或映射文件夹ID。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL Source file]</td> 
