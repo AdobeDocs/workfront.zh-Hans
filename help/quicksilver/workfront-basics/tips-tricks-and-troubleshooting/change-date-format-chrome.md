@@ -6,7 +6,7 @@ title: 更改 [!DNL Adobe Workfront]中日期的格式
 description: 若要更改 [!DNL Adobe Workfront] 中日期的日期格式，必须更改浏览器中的语言设置。
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
   例如，如果浏览器的默认语言设置为&#x200B;*[!UICONTROL 英语（美国）]*，则日期将以下列格式显示：
 
    * MM/DD/YYYY
-   * YYYY年M月DD
+   * 月DD， YYYY
 
   要更改[!DNL Chrome]或任何其他浏览器中的语言设置，必须修改该浏览器的设置。 修改浏览器设置的步骤因浏览器而异。 请参阅浏览器的[!UICONTROL 帮助]、[!UICONTROL 首选项]或[!UICONTROL 设置]区域以了解如何修改其设置。
 

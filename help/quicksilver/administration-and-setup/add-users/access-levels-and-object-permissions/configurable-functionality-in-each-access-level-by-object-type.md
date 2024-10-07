@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
-ht-degree: 10%
+source-wordcount: '3485'
+ht-degree: 9%
 
 ---
 
 # 可配置访问每种对象类型的功能
 
-本文介绍了作为Adobe Workfront管理员，您可以对每个对象类型在每个访问级别允许什么。 它还说明了每种访问级别的默认配置。
+在为组织配置访问级别时，您可以确定哪些特定操作可用于访问级别。
+
+本文介绍Adobe Workfront管理员可以在每个访问级别为每种对象类型选择的选项。 它还说明了每种访问级别的默认配置。
+
+例如，如果Workfront管理员为给定访问级别的项目选择“查看”，则具有该访问级别的用户只能查看项目，不能编辑项目。
 
 有关每个访问级别中某个对象类型可用的所有功能的信息，请参阅[每个对象类型可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
 

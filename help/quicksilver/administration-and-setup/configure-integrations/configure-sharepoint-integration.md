@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新的[!DNL SharePoint]集成已在22.3版本（2022年7月）中发布到生产环境。 虽然您的用户仍可以访问通过旧版[!DNL SharePoint]集成链接的文档，但必须使用新的[!DNL SharePoint]集成来链接来自SharePoint的文档。
+>新的[!DNL SharePoint]集成已在22.3版本（2022年7月）中发布到生产环境。
+>
+>* 虽然您的用户仍然可以访问通过旧版[!DNL SharePoint]集成链接的文档，但他们无法通过该集成链接文档。 他们必须使用新的[!DNL SharePoint]集成来链接来自SharePoint的文档。
+>
+>* 如果您未配置旧版SharePoint集成，则无法添加该集成。 您必须使用新的SharePoint集成将文档链接到SharePoint。
 >
 >* 新的SharePoint集成可能不需要管理员进行配置，并且可以由个人用户进行设置。 但是，要确保顺利过渡到新的SharePoint集成，Workfront管理员必须在Workfront设置区域中进行一些细微的设置更改。
 >
