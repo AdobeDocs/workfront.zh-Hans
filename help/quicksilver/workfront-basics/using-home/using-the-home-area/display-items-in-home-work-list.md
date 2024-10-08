@@ -6,9 +6,9 @@ description: '[!UICONTROL 主页]区域中的[!UICONTROL 工作列表]显示分�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ ht-degree: 0%
         <p>仅显示已准备好开始的任务。 以下两个语句都必须为true：</p> 
         <ul> 
          <li> <p>这些任务及其父任务没有阻止它们进行处理的前置任务或任务限制。</p> </li> 
+         <li> <p>所有前置任务已完成。</p> </li> 
          <li> <p>任务的[！UICONTROL计划开始日期]是过去的日期，或者最多为两周后的日期。</p> </li> 
         </ul> 
        </div> </td> 
