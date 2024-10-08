@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-您可以对Adobe Workfront对象添加更新，以便与他人沟通该对象的进度。 有关可以在Workfront中添加更新的对象的更多信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
+您可以向Adobe Workfront对象添加注释来更新该对象，以通知其他人对象的状态或进度，或询问详细信息或其他资源。
 
-本文中的信息介绍了如何注释和更新项目、任务和问题的信息。 分配或订阅了对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
+有关可以在Workfront中添加更新的对象的更多信息，请参阅[更新部分概述](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-向其他对象添加注释与更新项目、任务和问题类似。 有关对信息卡和目标进行注释的其他信息，另请参阅以下文章：
+本文中的信息介绍了如何对项目、任务和问题进行评论。 分配给对象或订阅对象的用户可以查看您的更新。 您还可以标记用户，以引起他们对更新的注意。
+
+向其他Workfront对象添加注释与更新项目、任务和问题类似。
+
+有关在Workfront Planning中对信息卡、目标和记录进行注释的其他信息，另请参阅以下文章：
 
 * [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)。
 
@@ -65,7 +69,7 @@ ht-degree: 0%
 
 * [在展示板上使用连接的信息卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [管理记录注释](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## 访问要求
 
@@ -84,7 +88,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront许可证</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
    <td> 
    <p>当前：对问题和文档的请求或更高版本；对所有其他对象的审阅或更高版本</p>
    <p>新文档：问题和文档的参与者或更高版本：所有其他对象的轻量级或更高版本</p> 
@@ -101,11 +105,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
-## 有关更新工作的注意事项
+## 有关对对象进行注释的注意事项
 
 * 您可以在“更新”部分向Adobe Workfront中的大多数对象添加注释。 有关哪些对象显示“更新”部分的更多信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 向工作项添加更新
+## 向工作项添加评论
 
 本文介绍了如何更新项目、任务或问题。 更新大多数其他对象的方法也类似。
 
-1. 找到要更新的对象，然后单击其名称以打开该对象的页面。
+1. 找到要添加注释的对象，然后单击其名称以打开该对象的页面。
 1. 单击左侧面板中的&#x200B;**更新**。
 默认情况下已选中**评论**&#x200B;选项卡。
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. 开始在&#x200B;**新建评论**&#x200B;框中输入评论。
 
@@ -329,12 +323,12 @@ You can add updates to the following objects:
    >
    >您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 若要在“全部”选项卡中回复评论，请单击&#x200B;**在评论中回复**，以在“评论”选项卡中打开评论。
 
-## 在Workfront更新中使用富文本{#use-rich-text-in-a-workfront-update}
+## 在Workfront评论中使用富文本{#use-rich-text-in-a-workfront-comment}
 
-您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强更新。
+您可以使用富文本或向其中添加各种项目（如表情符号、链接或图像）来增强您的评论。
 
-1. 转到Workfront对象的&#x200B;**更新**&#x200B;区域并开始键入评论。
-1. （可选）要向更新添加富文本格式，请在键入时使用&#x200B;**富文本**&#x200B;工具栏上的任何属性。
+1. 转到Workfront对象的&#x200B;**更新**&#x200B;区域，打开&#x200B;**评论**&#x200B;选项卡并开始键入评论。
+1. （可选）若要向评论添加富文本格式，请在键入时使用&#x200B;**富文本**&#x200B;工具栏上的任何属性。
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 复制更新
+## 复制评论
 
-有几种方法可以复制更新。
+有几种方法可以复制评论。
 
-您可以复制更新的链接，或复制更新的内容以将其用于新更新。
+您可以复制指向评论的链接，或复制评论的内容以将其用于新更新。
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 复制更新<!--in the new commenting experience-->
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### 复制评论
 
 通过执行以下操作之一，可以从现有注释中复制信息：
 
@@ -466,11 +458,11 @@ You can add updates to the following objects:
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### 复制链接
+#### 复制指向评论的链接
 
 复制链接选项将注释或线程链接复制到剪贴板，以便您与其他用户共享注释或整个线程。
 
-1. 转到要复制其链接的更新。
+1. 转到要复制其链接的评论。
 
 1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制链接**。
 
@@ -484,16 +476,16 @@ You can add updates to the following objects:
 
 #### 复制正文文本
 
-复制正文文本选项可将文本从特定更新复制到剪贴板。
+复制正文文本选项可将文本从特定注释复制到剪贴板。
 
-1. 转到要复制的更新或回复。
+1. 转到要复制的评论或回复。
 1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**复制正文文本**。
 
 #### 引用回复
 
 Quote reply选项将原始备注作为块备注复制到新回复中。
 
-1. 转到要复制的更新或回复。
+1. 转到要复制的评论或回复。
 1. 单击&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**引用回复**。
 
    将打开一个新注释框，引用回复将包括在新注释中，并标记为块引用。
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## 删除更新或回复
+## 删除评论或回复
 
-根据Workfront管理员授予您的访问权限，您也许能够删除在对象的“更新”选项卡上添加的更新。 有关详细信息，请参阅文章[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
+根据Workfront管理员赋予您的访问权限，您可能会删除在对象的“更新”部分添加的注释。
+
+有关详细信息，请参阅文章[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中的[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)。
 
 任何Workfront用户(包括Workfront管理员)都不能删除其他用户所做的更新。 但是，如果用户的访问级别允许他们删除自己的更新，则Workfront管理员可以以该用户的身份登录并删除他们所做的更新。 有关详细信息，请参阅[创建或修改自定义访问级别](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)和[以其他用户身份登录](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)。
 
-1. 转到要删除的更新或回复。
-1. 单击要删除的更新或回复旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
+1. 转到要删除的评论或回复。
+1. 单击要删除的评论或回复旁边的&#x200B;**更多**&#x200B;菜单，然后单击&#x200B;**删除**。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ Workfront对象的“更新”部分显示两种类型的信息：
    * 模板任务
    * 临时信息卡
 
-有关“更新”部分中的系统更新的详细信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
+有关用户和系统更新以及它们在Workfront对象更新部分中的显示方式的更多信息，请参阅[更新部分概述](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
 
 <!--

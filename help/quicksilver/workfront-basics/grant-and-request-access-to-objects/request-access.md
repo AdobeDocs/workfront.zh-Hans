@@ -6,9 +6,9 @@ description: 您对Adobe Workfront中对象的可见性取决于您对该类型�
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文介绍了如何在Adobe Workfront Scenario Planner中请求对除计划之外的所有对象的权限。 有关请求访问计划的信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求访问计划。 这需要额外的许可证。
+>本文介绍了如何请求对所有对象的权限，以下对象除外：
+>
+>* Adobe Workfront Scenario Planner中的Scenario Planner计划。 有关详细信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求对计划的访问权限。 这需要额外的许可证。
+>
+>* Workfront Planning中的视图和工作区。 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+
 
 Workfront管理员会配置您对访问级别中某类对象的访问权限。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
@@ -31,33 +36,7 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
 
 ## 访问要求
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ 展开以查看本文中各项功能的访问要求。
 
 要共享对象，必须具备以下条件：
 
@@ -66,23 +45,25 @@ Workfront管理员会配置您对访问级别中某类对象的访问权限。 �
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>工作或更高</p> </td> 
+   <td> <p>新增：标准</p> 
+   <p>当前：工作或更高</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>查看您请求权限对象的访问权限或更高</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>查看您请求权限对象的访问权限或更高</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 了解标准共享规则
 

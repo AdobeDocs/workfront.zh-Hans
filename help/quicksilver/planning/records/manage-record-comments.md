@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -96,60 +96,6 @@ ht-degree: 0%
 
 +++
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
-
 ## 有关对记录进行注释的注意事项
 
 * 您可以在Workfront Planning的“注释”部分中为记录添加注释和回复。
@@ -166,16 +112,11 @@ ht-degree: 0%
 
 * 您可以标记用户以引起他们对更新的注意。 标记的用户不会收到应用程序内通知或有关您更新的电子邮件。<!--this might change??-->
 
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
+* 您可以标记用户以引起他们对更新的注意。 标记的用户将收到有关您更新的应用程序内通知或电子邮件通知。
 
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
+  >[!NOTE]
+  >
+  >   只有已登记使用Unified ExperienceAdobe的客户的用户才会同时收到应用程序内通知和电子邮件通知。 要确定您的公司是否正在使用AdobeUnified Experience，请参阅[AdobeWorkfront的Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以向记录添加更新，并复查Workfront Planning以下区域的更改历史记录：
 
@@ -211,54 +152,58 @@ ht-degree: 0%
 1. （可选）要撤消或重做更改，请使用以下快捷键：
    * CTRL + Z(Mac为⌘ + z)可撤消更改
    * 按CTRL + Y(对于Mac，按⌘ + y)可重做更改
-1. （可选）添加&#x200B;**@**，后跟用户名称，以在更新中标记某人。
+1. （可选且有条件）如果您的Workfront实例是AdobeUnified Experience的一部分，请添加&#x200B;**@**，后跟用户名，以在更新中标记某人。 有关详细信息，请参阅本文中关于评论记录](#considerations-about-commenting-on-a-record)的[注意事项部分。
 
-   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。
 
-1. （可选）使用富文本工具栏中的选项设置文本格式，在更新中添加表情符号、链接或图像，以增强内容。 有关详细信息，请参阅文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的“在Workfront更新中使用富文本”部分。
+1. 继续向记录中添加注释。
 
-   >[!TIP]
-   >
-   >如果另一用户向您正在更新的同一项目提交评论，则会显示一条带“新”指示器的红线，通知您较新的评论。
-   >
-   >指示符仅在提交项目的评论之后显示，而不会在评论仍在撰写时显示。
-   >
-   >![](assets/new-line-indicator-comments.png)
+   有关更新对象(包括Workfront Planning记录)的详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-1. 单击&#x200B;**提交**&#x200B;将更新添加到记录。
-1. （可选）要编辑评论，请单击评论右上角的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**。
+<!--
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
+      >
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >
+      >![](assets/new-line-indicator-comments.png)
+
+1. Click **Submit** to add the update to the record. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
-   >您只能在提交评论后15分钟内对其进行编辑。
+   >You can edit your comment only within 15 minutes from submitting it.  
 
-1. 编辑评论中的信息，添加或删除图像或删除任何已标记用户。 “已编辑”指示符将添加到评论的左侧。
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
+   
+      >[!TIP]
+      >
+      >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   >[!TIP]
-   >
-   >当前年份的注释不会在日期戳中显示年份。 将鼠标悬停在时间戳上会显示完整日期，包括年份。
-
-1. （可选且有条件）要搜索现有评论，请在&#x200B;**评论**&#x200B;区域右上角的搜索框中开始键入关键字。
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
    ![](assets/search-box-for-comments-area.png)
+     
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 
-1. （可选）单击&#x200B;**回复**&#x200B;或开始在&#x200B;**添加回复……**&#x200B;区域键入评论以回复现有评论，然后执行上面的步骤4-8。<!--(**************accurate??***********)-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
 
-1. （视情况而定，可选）如果您在添加评论时，其他用户在“评论”部分的可见区域之外添加了显示的评论，请单击屏幕底部的&#x200B;**新评论横幅**&#x200B;中的&#x200B;**查看**&#x200B;以显示这些评论。
+    ![](assets/new-comments-banner-on-record.png)
 
-   ![](assets/new-comments-banner-on-record.png)
+    Additional comments display at the bottom of the screen.
+  
+1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
+1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
-   屏幕底部会显示其他注释。
+    * **Copy link**: This copies a link to the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
+    * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-1. （可选）单击&#x200B;**类似**&#x200B;图标以喜欢更新或确认您已阅读该更新。 图标会随喜欢的数量而更新。
-1. （视情况而定，可选）如果在注释中包含其他人员，请单击更新中包含的用户的头像，以显示与注释共享的用户列表。
-1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击以下选项之一，以从评论中复制信息：
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-   * **复制链接**：这会将指向评论的链接复制到剪贴板。
-   * **复制正文文本**：这会将评论的文本复制到剪贴板。
-   * **引用回复**：这会将您的评论内容复制到新回复中。 复制的回复中不包含图像。
-
-   有关详细信息，请参阅[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （可选）单击评论右上角的&#x200B;**更多**&#x200B;图标![](assets/more-menu.png)，然后单击&#x200B;**删除**&#x200B;以删除评论。
 1. （可选）单击&#x200B;**隐藏评论**&#x200B;图标![](assets/hide-comments-icon.png)以关闭右侧面板。
 

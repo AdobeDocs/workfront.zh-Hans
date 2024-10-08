@@ -7,10 +7,10 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ ht-degree: 5%
 * 工时表
 * 团队
 * 目标
-* 展示板区域中的信息卡
 * 迭代
+
+以下对象具有可以添加注释和查看系统更新的区域：
+
+* 展示板上的信息卡
+* Workfront Planning中的记录
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,7 +124,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### “更新”部分的概述
+### 更新部分选项卡概述
 
 ![更新分区](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
@@ -132,8 +136,12 @@ Depending on what objects you access the commenting experience for, you might fi
 
      >[!NOTE]
      >
-     >“注释”和“系统活动”选项卡实时更新。 必须刷新“全部”选项卡才能查看最新更新。
+     >“注释”和“系统”活动选项卡实时更新。 必须刷新“全部”选项卡才能查看最新更新。
 
+
+### 不同对象的“更新”区域之间的异同
+
+不同对象的注释和更新显示方式存在差异。
 
 * 以下对象在更新部分的所有三个选项卡中具有相似的体验：
 
@@ -151,11 +159,24 @@ Depending on what objects you access the commenting experience for, you might fi
    * 模板
    * 模板任务
 
-* 以下对象没有“系统活动”选项卡或“全部”选项卡，并且“注释”选项卡中的体验与所有其他对象的体验不同：
+* 以下对象没有“系统活动”选项卡或“全部”选项卡，“注释”选项卡中的体验不同于所有其他对象的体验：
+
    * 迭代
-   * 临时信息卡
+   * 展示板区域中的临时信息卡
 
      有关信息卡更新的详细信息，请参阅[将临时信息卡添加到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
+
+* 以下对象具有“系统活动”选项卡，没有“全部”选项卡：
+
+   * 板区域中的已连接卡
+
+     有关信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
+
+* 以下对象具有替换系统活动选项卡的“历史记录”选项卡：
+
+   * Workfront Planning中的记录
+
+     有关信息，请参阅[历史记录部分概述](/help/quicksilver/planning/records/history-section-overview.md)。
 
 * 以下对象没有“全部”选项卡，“注释”选项卡中的体验与大多数对象的体验相匹配：
 
