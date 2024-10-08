@@ -6,14 +6,19 @@ description: 资源池是用户集合，可帮助您更轻松地在Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
 
-# 创建资源池
+# 创建资源池 {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="资源池"
+>abstract="资源池是完成项目时同时需要的用户的集合。 创建资源池后，可将其与项目和模板相关联。"
 
 {{preview-and-fast-release-Q424}}
 
