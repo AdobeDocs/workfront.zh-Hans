@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ ht-degree: 0%
 
 ## 编辑或汇编现有包
 
-1. 转到要在其中创建包的环境。 这是您要从&#x200B;**复制对象**&#x200B;的环境。
+包必须处于`DRAFT`状态才能编辑。
+
+1. 转到要在其中编辑包的环境。 这是最初创建包的环境。
 1. 单击Adobe Workfront右上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon.png)，或（如果可用）单击左上角的&#x200B;**[!UICONTROL 主菜单]**&#x200B;图标![主菜单](/help/_includes/assets/main-menu-icon-left-nav.png)，然后单击&#x200B;**[!UICONTROL 设置]** ![设置图标](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左侧导航中选择&#x200B;**系统**，然后选择&#x200B;**环境升级**。
 1. 从显示的列表中选择程序包。
@@ -99,6 +101,7 @@ ht-degree: 0%
 1. （可选）要查看内容（包括所有对象及其子对象），请单击&#x200B;**内容**&#x200B;部分中对象类型旁边的下拉箭头。
 1. （可选）要查看此包的先前安装和安装尝试，请单击&#x200B;**部署**。
 1. （可选）要编辑包，请单击屏幕右上角的&#x200B;**编辑包**。
+包必须处于`DRAFT`状态才能编辑。 要将包移动到`DRAFT`状态，请在&#x200B;**状态**&#x200B;字段中，选择`Draft`。 然后，您可以继续编辑包。
 1. 若要安装包，请单击屏幕右上角的&#x200B;**安装**。
 
    有关安装包的说明，请参阅[安装环境升级包](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。
