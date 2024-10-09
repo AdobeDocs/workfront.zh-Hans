@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>
      <tr> 
       <td role="rowheader">启用优先级工作列表 </td> 
-      <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.-->有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
+      <td>允许您选择为用户启用或禁用“优先级”工作列表体验。 用户仍然可以在Workfront中看到优先级图标，但是他们无权访问该功能。 有关优先级的详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">开始使用优先级</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">测试环境</td> 
