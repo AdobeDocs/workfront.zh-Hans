@@ -6,9 +6,9 @@ description: 您对Adobe Workfront中对象的可见性取决于您对该类型�
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* Adobe Workfront Scenario Planner中的Scenario Planner计划。 有关详细信息，请参阅[在Scenario Planner](../../scenario-planner/request-access-to-plan.md)中请求对计划的访问权限。 这需要额外的许可证。
 >
->* Workfront Planning中的视图和工作区。 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+>* Workfront Planning中的视图和工作区。 有关详细信息，请参阅[在Adobe Workfront Planning中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。 这需要额外的许可证。
 
 
 Workfront管理员会配置您对访问级别中某类对象的访问权限。 有关详细信息，请参阅[访问级别和权限如何协同工作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。

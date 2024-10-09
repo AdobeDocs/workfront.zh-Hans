@@ -7,7 +7,7 @@ description: 对象的“更新”部分显示用户对对象所做的注释或�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![更新分区](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* “更新”部分在以下选项卡中显示信息：
+“更新”部分在以下选项卡中显示信息：
 
-   * **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
-   * **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
-   * **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **评论**：显示用户发表的评论以及对这些评论的回复。 使用“注释”选项卡可添加新注释或回复现有注释。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **系统活动**：显示系统更新，这些更新是Workfront为记录对象上的特定事件而创建的信息性消息。 例如，状态、名称或自定义字段的更改通过系统更新来捕获。 您的Workfront或组管理员可以为您的对象启用系统更新。 对旧版注释体验中的系统活动记录所做的任何回复都将以只读形式填充到“系统活动”选项卡中。 有关详细信息，请参阅[配置系统更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
+* **全部（只读）**：在一个位置同时显示用户注释和系统活动注释。 这是一个仅供查看的选项卡。 您无法在“全部”选项卡的现有注释中回复注释或标记其他用户。 要回复特定注释，请使用“全部”选项卡中指向“注释”选项卡的链接。 有关更新对象的信息，请参阅[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
-     >[!NOTE]
-     >
-     >“注释”和“系统”活动选项卡实时更新。 必须刷新“全部”选项卡才能查看最新更新。
-
+  >[!NOTE]
+  >
+  >“注释”和“系统”活动选项卡实时更新。 必须刷新“全部”选项卡才能查看最新更新。
 
 ### 不同对象的“更新”区域之间的异同
 

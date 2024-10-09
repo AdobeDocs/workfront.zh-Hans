@@ -6,9 +6,9 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ ht-degree: 0%
 有关在Workfront Planning中对信息卡、目标和记录进行注释的其他信息，另请参阅以下文章：
 
 * [在Adobe Workfront目标中管理目标注释](../../workfront-goals/goal-management/manage-goal-comments.md)。
-
-  您必须具有其他许可证才能访问Workfront目标。
 
 * [向展示板添加临时信息卡](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **记录类型**：对象类型或Workfront Planning。
+* **记录类型**： Workfront Planning的对象类型。
 
   与Workfront中预定义的对象类型不同，在Workfront Planning中，您可以创建自己的对象类型。
 
@@ -199,7 +199,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   将记录类型添加到工作区后，您可以开始在该记录类型的页面上添加该类型的记录。
 
-  例如，“Campaign”可以是记录类型，“Summer Campaign for EMEA”是Campaign记录类型的记录
+  例如，“Campaign”可以是记录类型，“Summer Campaign for EMEA”是Campaign记录类型的记录。
 
   有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
 

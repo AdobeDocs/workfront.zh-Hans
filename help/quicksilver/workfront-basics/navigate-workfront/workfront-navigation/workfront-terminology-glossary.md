@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ ht-degree: 0%
   <tr> 
    <td>[！UICONTROL条件更新]</td> 
    <td> <p>此字段显示任务、项目或问题的当前状况。 此选项显示任务、项目或问题的所有者在[！UICONTROL更新状态]字段中提供的最新更新以及新条件。</p> <p>对条件更新所做的注释不会显示在[！UICONTROL Condition Update]列中；只会显示主更新。</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL连接的记录类型]</td> 
+   <td> <p>在Workfront Planning中，您可以在以下任一选项之间创建连接： </p>
+   <ul>
+   <li>两种记录类型</li>
+   <li>记录类型和Workfront对象类型</li>
+   <li>记录类型和Adobe Experience Manager资源</li></ul>
+   <p>连接记录类型允许您显示来自一个记录的信息或另一个记录类型上的对象类型的信息。</p>
+   <p>有关信息，请参阅<a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">连接的记录类型概述</a>  </p>
+  <p>Workfront Planning需要额外的许可证。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL连接的记录]</td> 
+   <td> <p>在Workfront Planning中，在连接两种记录类型之后，可以将这两种类型的两个单独记录相互连接。  </p>
+   <p>连接记录允许您显示来自一个记录的信息或来自另一个应用程序的其他记录上的对象。</p>
+   <p>有关信息，请参阅<a href="/help/quicksilver/planning/records/connected-records-overview.md">连接的记录概述</a>。 </p>
+
+<p>Workfront Planning需要额外的许可证。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL Connections]</td> 
+   <td> <p>在Workfront Planning中，连接可能指连接的记录类型或连接的记录。 Workfront Planning需要额外的许可证。</p> </td> 
+  </tr>
+
+<tr> 
    <td>[！UICONTROL约束日期]</td> 
    <td> <p>如果您使用的是绑定到特定日期的[！UICONTROL任务限制]，例如[！UICONTROL必须开始日期]，则该特定日期将成为任务的[！UICONTROL限制日期]。</p> <p>以下任务约束将更新[！UICONTROL约束日期]字段：</p> 
     <ul> 
@@ -882,11 +911,11 @@ ht-degree: 0%
 
 <p>有关详细信息，请参阅<a href="../../../wf-api/general/api-explorer.md">API资源管理器</a>和<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">文本模式概述</a>。</p>
 
-<p>默认情况下，Workfront附带一组定义对象及其信息的字段。 您也可以创建自定义字段来定义对象，但无法创建自定义对象。</p> 
-   </td> 
-  </tr>
+<p>默认情况下，Workfront附带一组定义对象及其信息的字段。 您也可以创建自定义字段来定义对象，但无法创建自定义对象。</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>在Workfront Planning中，您可以为所有记录类型创建自定义字段。 Workfront记录类型提供的字段数量非常有限。 您必须从头开始创建所有字段，并将它们与记录类型相关联。 有关信息，请参阅<a href="/help/quicksilver/planning/fields/fields-overview.md">字段概述</a>。 </p> <p>Workfront Planning需要额外的许可证。 </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[！UICONTROL筛选器]</td> 
    <td> <p>报告或列表元素的主要构建块之一，用于定义屏幕上显示的信息。 有关报告元素的更多信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">报告元素：筛选器、视图和分组</a>。</p> <p>该过滤器可确定在报表或[!DNL Workfront]面板列表上显示的结果，如项目、任务或问题。</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ The designated full time equivalency for users. A full-time user should have 100
    <li><b>已记帐和批准</b>：小时已记录，由项目所有者批准，且记帐记录状态已标记为已记帐。</li>
    </ul>
 
-
 <p>当小时是记帐记录的一部分时，小时状态指示小时是否已批准或者它们所属的记帐记录是否已记帐。 小时条目的小时状态仅在小时列表或报告中可见。 </p>
 
 <p>有关向开票记录添加小时数的详细信息，请参阅<a href="../../../manage-work/projects/project-finances/create-billing-records.md" >创建开票记录</a>一文中的“向开票记录添加小时数”一节。</p>
@@ -1043,8 +1071,6 @@ The designated full time equivalency for users. A full-time user should have 100
 
 <p>未直接在工作项上记录的常规小时数不显示小时状态。 </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[！UICONTROL小时类型]</td> 
@@ -1248,6 +1274,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL列表控件]</td> 
    <td> <p>[！UICONTROL界面设置]的一部分，允许将自定义筛选器、视图和分组链接到单个用户或全局链接到所有用户。</p> </td> 
+  </tr> 
+<tr> 
+   <td>[！UICONTROL查找字段]</td> 
+   <td> <p>在Workfront Planning中，在两个记录类型之间建立连接并将单个记录链接在一起后，便可以在要连接的记录上引用链接记录的字段。</p>
+   <p>例如，如果将Campaign记录类型与Workfront Project对象类型连接，则可以在营销活动记录中显示已连接项目的“预算”字段。 预算项目字段是来自营销策划中项目的查找字段。</p> <p>查找字段的值会自动填充到其连接的记录中。</p>
+   <p>有关信息，请参阅<a href="/help/quicksilver/planning/records/connected-records-overview.md">连接的记录概述</a>。</p>
+   <p>Workfront Planning需要额外的许可证。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL就绪]</td> 
    <td> <p>任务报告上的此字段指示是否在积压中将[！UICONTROL Agile]任务标记为[！UICONTROL Ready]。 此标记仅适用于[！UICONTROL Agile]任务，这些任务已分配给[！UICONTROL Agile]团队。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL记录]</td> 
+   <td> <p>在Workfront Planning中，记录是记录类型的唯一实例。</p>
+<p>将记录类型添加到工作区后，您可以开始在该记录类型的页面上添加该类型的记录。</p>
+<p>例如，“Campaign”可以是记录类型，“Summer Campaign for EMEA”是Campaign记录类型的记录。</p>
+<p>有关创建记录的信息，请参阅<a href="/help/quicksilver/planning/records/create-records.md">创建记录</a>。 </p> <p>Workfront Planning需要额外的许可证。 </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[！UICONTROL记录类型]</td> 
+   <td> <p>Workfront Planning的对象类型。</p>
+<p>与Workfront中预定义对象类型不同，在Workfront Planning中，您可以创建自己的对象类型。Workfront Planning对象类型称为记录类型。</p>
+<p>例如，在Workfront中，已创建Program、Portfolio、Project、Task或Issue的对象类型。</p>
+<p>在Workfront Planning中，您可以创建符合组织工作流程的任何记录类型。 稍后，您可以定义记录类型如何相互关联或表单从属关系。</p> 有关创建记录类型的信息，请参阅<a href="/help/quicksilver/planning/architecture/create-record-types.md">创建记录类型</a>。 </p> <p>Workfront Planning需要额外的许可证。 </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[！UICONTROL循环频率]</td> 
    <td> <p>显示在周期性任务父级的[！UICONTROL任务详细信息]或[！UICONTROL编辑任务]框中的字段。 这是周期性任务发生的频率。 有关创建周期性任务的信息，请参阅<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">创建周期性任务</a>。 </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[！UICONTROL视图]</td> 
    <td> <p>视图是指允许您修改报表或对象列表中的列的报表元素。</p> 
-   <p> “查看”还指用户根据其访问级别或对象权限共享级别，仅查看该对象信息的权利。</p> </td> 
+   <p> “查看”还指用户根据其访问级别或对象权限共享级别，仅查看该对象信息的权利。</p> 
+   <p>在Workfront Planning中，记录在“记录类型”页面上以以下视图类型之一显示：</p>
+   <ul><li>表</li>
+   <li>时间线</li>
+   <li>日历</li></ul>
+   <p>在Workfront Planning中，视图包括应用于屏幕上记录的筛选器、分组、排序和其他设置。</p> <p>有关信息，请参阅<a href="/help/quicksilver/planning/views/manage-record-views.md">管理记录视图</a>。</p>   
+   <p>Workfront Planning需要额外的许可证。</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL视图图标]</td> 
@@ -2481,6 +2540,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>valueformat=HTML</p>
    </code>
     <p>有关使用文本模式的信息，请参阅<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文本模式语法概述</a>。 </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[！UICONTROL Workspace] </td> 
+   <td> <p>在Workfront Planning中，工作区是定义特定组织的运营生命周期的记录类型集合。 工作区是组织单位的工作框架。</p>
+   <p>Workfront Planning需要额外的许可证。 </p>
+   <p>有关信息，请参阅<a href="/help/quicksilver/planning/architecture/create-workspaces.md">创建工作区</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
