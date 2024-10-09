@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: 建立与Workfront数据湖的连接
-description: Workfront数据湖允许您通过常用的商业智能工具使用组织的Workfront数据，或将其存储在外部数据仓库中。
+title: 建立与Workfront数据连接的连接
+description: Workfront Data Connect允许您将组织的Workfront数据与商业智能工具结合使用，或将其存储在外部数据仓库中。
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -103,16 +102,16 @@ Workfront Data Connect允许您将组织的Workfront数据与商业智能工具�
 
 ## 与商业智能工具共享数据
 
-下面列出了许多常见的业务智能工具；这些链接会将您转到服务的文档站点，了解有关连接到数据湖的更多信息。
+下面列出了许多常见的业务智能工具；请访问其文档站点以了解有关连接到数据湖的更多信息。
 
-* [表格](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [域](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* 表格
+* Power BI
+* 多莫
 * SAP HANA
 
 ## 将数据存储在外部数据仓库中
 
-下面列出了许多常见的数据仓库；这些链接会将您转到每个服务的文档站点，您可以在其中了解有关连接到数据湖的更多信息。
+下面列出了许多常见的数据仓库；请访问其文档站点以了解有关连接到数据湖的更多信息。
 
-* [数据库](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* 数据库
+* AWS Redshift

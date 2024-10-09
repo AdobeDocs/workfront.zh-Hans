@@ -6,9 +6,8 @@ title: 创建用于Snowflake的Reader（服务）帐户
 description: 要访问Data Connect数据，您必须首先创建一个Snowflake读取器帐户。
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%

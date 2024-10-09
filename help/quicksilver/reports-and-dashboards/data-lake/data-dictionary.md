@@ -6,9 +6,8 @@ title: Workfront Data Connect数据字典
 description: 本页包含有关Workfront Data Connect中数据的结构和内容的信息。
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '4294'
 ht-degree: 4%
@@ -670,7 +669,7 @@ Workfront中的对象（因此也就是Data Connect数据湖中的对象）不�
     </tr>
     <tr>
         <td>UI筛选器</td>
-        <td>筛选</td>
+        <td>过滤器</td>
         <td>UIFT | 筛选</td>
         <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
         <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIFILTERID (self)</td>
