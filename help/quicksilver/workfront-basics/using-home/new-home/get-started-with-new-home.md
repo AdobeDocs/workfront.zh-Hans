@@ -6,10 +6,10 @@ description: 新主页是一个用于管理您的工作的强大新功能。 您
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
 * **团队请求**\
     显示您所在团队的所有待处理请求（按团队排序），以及用于直接将请求分配给用户或自己处理请求的按钮。
 
-* **等待我的审批**\
-    显示所有待分配或委派的批准、一个委派批准的按钮以及可直接在构件内做出批准决策的按钮。
+* **我的审批**\
+    显示所有待处理、已分配、已委托和已提交的审批；一个用于委托审批的按钮；以及一个用于直接在小组件内做出审批决策的按钮。
 
 * **所有审批**\
         显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。 <span style="color: #ff0000;">此功能属于分阶段发布，当前仅适用于特定客户。</span>
@@ -85,15 +85,15 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     </tr>
     <tr>
         <td>轻量</td>
-        <td>我的工作，等待我的审批</td>
+        <td>我的工作，我的批准</td>
     </tr>
     <tr>
         <td>投稿人</td>
-        <td>我的请求，提及，等待我的审批，讨论区</td>
+        <td>我的请求、提及、我的批准、讨论区</td>
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的批准</td>
+        <td>我的审批</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     </tr>
     <tr>
         <td>请求</td>
-        <td>我的项目，等待我的审批</td>
+        <td>我的项目，我的审批</td>
     </tr>
     <tr>
         <td>参与</td>
@@ -124,7 +124,7 @@ Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体�
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的批准</td>
+        <td>我的审批</td>
     </tr>
 </table>
 

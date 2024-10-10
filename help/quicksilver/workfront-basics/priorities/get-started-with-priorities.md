@@ -5,9 +5,9 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 审核和批准资产的功能列在“优先级”路线图上。
 
-目前，我们建议在New Home中使用“等待我的审批”和“所有审批”构件。
+目前，我们建议在新主页中使用我的审批和所有审批构件。
 
 有关详细信息，请参阅[新主页中的添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
 

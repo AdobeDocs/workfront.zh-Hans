@@ -6,9 +6,9 @@ description: 用户可以请求访问Adobe Workfront中的对象。 有关请求
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. （视情况而定）在新的“主页”区域中，执行以下操作：
 
-   1. 转到&#x200B;**等待我的审批**&#x200B;构件并查找有关更多访问权限的请求，然后单击&#x200B;**授予访问权限**。
+   1. 转到&#x200B;**我的审批**&#x200B;构件并查找有关更多访问权限的请求，然后单击&#x200B;**授予访问权限**。
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

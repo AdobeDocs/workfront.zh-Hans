@@ -5,9 +5,9 @@ description: 旧版主页将在2017年10月的第4季度版本中从Workfront删
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ ht-degree: 3%
 
 #### 查看我已提交的审批
 
-用户无法查看他们在“优先级”中提交的审批。 作为解决方法，用户可以创建批准报告来查看此信息。
+用户无法查看他们在“优先级”中提交的审批。 作为解决方法，用户可以使用我已提交的审批过滤器选项在主页中的我的审批构件中查看此信息。
 
 ### 查看审批和团队请求
 
 用户无法与优先级中的批准和团队请求进行交互。 但是，他们可以使用以下小组件在“新主页”中管理批准和团队请求：
 
-* 正在等待我的审批
+* 我的审批
 * 所有审批
 * 团队请求
 

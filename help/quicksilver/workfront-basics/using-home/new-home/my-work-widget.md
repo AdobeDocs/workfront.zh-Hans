@@ -5,9 +5,9 @@ title: 使用“我的工作”小组件管理您的工作
 description: “我的工作”小组件将所有已分配的任务、问题和请求显示在一个位置。 在这里，您可以筛选和组织您的工作，记录时间，进行更新，并将工作项标记为完成。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Workfront管理员可以自定义哪些字段显示在布局模板的摘要中�
 
 审批和团队请求未显示在我的工作小部件中。 如果您定期处理审批和团队请求，我们建议您将以下构件添加到新主页：
 
-* 正在等待我的审批
+* 我的审批
 * 所有审批
 * 团队请求
 

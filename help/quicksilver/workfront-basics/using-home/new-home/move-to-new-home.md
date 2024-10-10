@@ -5,9 +5,9 @@ title: 从旧主页移动到新主页
 description: 旧版主页将在2017年10月的第4季度版本中从Workfront删除。 本文提供有关新主页中可用的功能的信息，以及有关将用户迁移到“新主页”体验的建议。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ ht-degree: 5%
 * 我的工作
 * 我的任务
 * 我的问题
-* 等待我的审批
+* 我的批准
 
 用户可在以下小组件中找到委派给他们的工作：
 
 * 我的工作小部件使用“委派给我”筛选器
-* 使用委托的审批过滤器等待我的审批
+* 使用委托的审批过滤器的我的审批
 
 | **旧主页** | **新主页** |
 |------------|-----------|
@@ -72,10 +72,7 @@ ht-degree: 5%
 
 #### 查看我已提交的审批
 
-用户无法在新主页中查看他们提交的审批。 如果贵组织中的用户需要此功能，您可以构建审批报告作为解决方法或投赞成票，或在此处的以下社区帖子中发布评论：
-
-* [将“我提交的审批”构件添加到新主页](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [将“我已提交的审批”添加到新主页](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+用户可以使用我已提交的审批过滤器，在我的审批小部件中查看他们在新主页提交的审批。
 
 #### 将项目添加到我的优先级
 
@@ -131,7 +128,7 @@ Workfront管理员可以自定义哪些字段显示在布局模板的摘要中�
 
 用户仍然可以使用以下小组件在“新主页”中管理批准和团队请求：
 
-* 正在等待我的审批
+* 我的审批
 * 所有审批
 * 团队请求
 
@@ -167,7 +164,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
 * **团队请求**\
     显示您所在团队的所有待处理请求（按团队排序），以及用于直接将请求分配给用户或自己处理请求的按钮。
 
-* **等待我的审批**\
+* **我的审批**\
     显示所有待分配或委派的批准、一个委派批准的按钮以及可直接在构件内做出批准决策的按钮。
 
 * **所有审批**\
@@ -202,15 +199,15 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
     </tr>
     <tr>
         <td>轻量</td>
-        <td>我的工作，等待我的审批</td>
+        <td>我的工作，我的批准</td>
     </tr>
     <tr>
         <td>投稿人</td>
-        <td>我的请求，提及，等待我的审批，讨论区</td>
+        <td>我的请求、提及、我的批准、讨论区</td>
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的批准</td>
+        <td>我的审批</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
     </tr>
     <tr>
         <td>请求</td>
-        <td>我的项目，等待我的审批</td>
+        <td>我的项目，我的审批</td>
     </tr>
     <tr>
         <td>参与</td>
@@ -241,7 +238,7 @@ Workfront管理员可以使用布局模板自定义“新建主页”中可用�
     </tr>
     <tr>
         <td>外部的</td>
-        <td>等待我的批准</td>
+        <td>我的审批</td>
     </tr>
 </table>
 

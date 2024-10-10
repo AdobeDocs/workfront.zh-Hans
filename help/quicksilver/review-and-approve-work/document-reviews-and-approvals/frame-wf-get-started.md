@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Workfront管理员通过在Workfront的“设置”区域添加默认的Frame.io
 用户可以通过以下方式访问Frame.io查看器：
 
 * Workfront电子邮件通知
-* 新Workfront主页区域中的等待我审批构件
+* 新Workfront主页区域中的我的审批小组件
   ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]
