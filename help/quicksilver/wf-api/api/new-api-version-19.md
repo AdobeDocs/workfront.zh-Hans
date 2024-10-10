@@ -6,9 +6,9 @@ description: Adobe Workfront于2022年4月6日发布了API版本19。 API版本1
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,7 @@ Parameter对象是一个自定义字段。
             </ul>
           </li>
           <li>
-            <p><b>显示类型</b></p><p>添加了以下可能值：
+            <p><b>显示类型</b></p><p>为了创建更便于用户使用且更灵活的系统，<b>小组件（小组件）</b>字段类型已被弃用，并被拆分为以下字段类型：
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>图像(IMAGE)</li>
@@ -444,7 +444,7 @@ ScoreCardQuestion对象表示已添加到记分卡的问题。 这些问题通�
     <tr>
       <td role="rowheader">直接字段</td>
       <td>
-            <p><b>显示类型</b></p><p>添加了以下可能值：
+            <p><b>显示类型</b></p><p>为了创建更便于用户使用且更灵活的系统，<b>小组件（小组件）</b>字段类型已被弃用，并被拆分为以下字段类型：
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>图像(IMAGE)</li>
