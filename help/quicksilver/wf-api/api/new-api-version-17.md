@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API版本17中的新增功能
-description: Adobe Workfront于2022年4月6日发布了API版本17。 API版本17具有来自版本15的以下更改。
+description: Adobe Workfront于2022年4月6日发布了API版本17。 API版本17具有来自版本16的以下更改。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%

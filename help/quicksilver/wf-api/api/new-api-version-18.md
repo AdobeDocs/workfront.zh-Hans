@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API版本18中的新增功能
-description: Adobe Workfront于2022年4月6日发布了API版本18。 API版本18具有对版本15的以下更改。
+description: Adobe Workfront于2022年4月6日发布了API版本18。 API版本18具有对版本17的以下更改。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # API版本18中的新增功能
 
-Adobe Workfront于2024年4月8日发布了API版本18。 API版本18具有对版本15的以下更改。
+Adobe Workfront于2024年4月8日发布了API版本18。 API版本18具有对版本17的以下更改。
 
 ## 已添加资源
 
