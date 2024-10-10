@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    没有缩略图图像的记录改为显示记录类型图标。 在&#x200B;**记录外观**&#x200B;区域中显示已连接记录的显示方式示例。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    当允许链接多个记录时，仅显示缩略图可能会节省较小区域（如记录视图）的空间。
+   >* 当允许链接多个记录时，仅显示缩略图可能会节省较小区域（如记录视图）的空间。
    >
-   >记录的名称是记录的主要字段。 有关详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+   >* 记录的名称是记录的主要字段。 有关详细信息，请参阅[主字段概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
    >
-   >选择Workfront对象类型时，无法选择记录外观。
+   >* 选择Workfront对象类型时，无法选择记录外观。
+   >
+   >* 在“记录”外观区域中选择的内容将决定记录在系统所有位置（包括所有视图和“详细信息”页面）的连接中的显示方式。
 
 1. 单击&#x200B;**创建**。
 

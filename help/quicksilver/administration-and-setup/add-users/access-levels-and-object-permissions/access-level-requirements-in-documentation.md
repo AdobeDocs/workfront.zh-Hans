@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -62,6 +62,7 @@ Workfront文档操作方法文章包含一个表，其中说明了此过程所�
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Workfront 场景计划器</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>要了解您的组织是否已购买这些附加产品之一，请联系您的Workfront管理员。</p></td> 
   </tr> 
