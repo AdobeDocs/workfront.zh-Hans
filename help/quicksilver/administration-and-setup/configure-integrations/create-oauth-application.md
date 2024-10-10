@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1981'
 ht-degree: 5%
 
 ---
@@ -177,6 +177,14 @@ ht-degree: 5%
 有关通过用户凭据（授权代码流）配置和使用OAuth2应用程序的说明，请参阅[使用JWT流配置和使用您组织的自定义OAuth2应用程序](../../wf-api/api/oauth-app-jwt-flow.md)。
 
 ### 使用用户凭据创建OAuth2应用程序（授权代码流） {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>如果要创建应用程序以连接到Workfront Fusion，请使用以下重定向URL之一：
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` （欧盟数据中心）
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` （Azure数据中心）
 
 {{step-1-to-setup}}
 
