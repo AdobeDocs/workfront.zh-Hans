@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # 配置电子邮件模板
+
+<!--Audited: 10/2024-->
+
 
 作为Adobe Workfront管理员，您可以配置电子邮件模板以支持提醒通知。
 
@@ -40,9 +44,10 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td><p>当前：计划</p>
+   <td><p>新增：标准</p>
    或
-   <p>新增：标准</p></td> 
+   <p>当前：计划</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

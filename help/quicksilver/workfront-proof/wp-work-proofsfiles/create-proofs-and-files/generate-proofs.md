@@ -7,9 +7,9 @@ description: Workfront Proof允许您从文档或网站创建验证，并与他�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
      有关共享校样的更多信息，请参阅[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内共享校样中的“将用户添加到校样”。
 
-   * **自动：**&#x200B;选择此选项可在您拥有复杂的审阅流程，或定期将内容发送给同一组人员审阅时，管理内容审阅和批准。 借助自动化工作流，验证会从一个阶段移动到另一个阶段，直到最终批准。 在要求相关用户进行审批时，他们随时都会收到通知。
+   * **自动：**&#x200B;选择此选项可在您拥有复杂的审阅流程，或定期将内容发送给同一组人员审阅时，管理内容审阅和批准。 借助自动化工作流，验证会从一个阶段移动到另一个阶段，直至最终批准。 相关用户可随时收到需要批准的通知。
 
      有关创建自动工作流的详细信息，请参阅[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2)中设置具有自动工作流的验证。
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-   如果您向现有URL校对添加新版本，则在此版本中维护在原始校对或以前版本中配置的任何选项。如果您向现有URL校对添加新版本，则在此版本中维护在原始校对或以前版本中配置的任何选项。
+   如果您向现有URL验证添加新版本，则在此版本中维护在原始验证或以前的版本上配置的任何选项。 如果您向现有URL验证添加新版本，则在此版本中维护在原始验证或以前的版本上配置的任何选项。
 
 1. 单击&#x200B;**[!UICONTROL 创建校对]**。
 

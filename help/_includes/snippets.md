@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2586'
 ht-degree: 1%
@@ -281,7 +281,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
 >要访问Workfront Planning，您必须具备以下条件：
 >

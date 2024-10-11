@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -122,66 +122,6 @@ ht-degree: 1%
 
 *有关Workfront访问要求的详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## 连接记录的先决条件
@@ -210,13 +150,13 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-1. 单击要连接其记录的工作区
+1. 单击要连接其记录的工作区。
 
    工作区将打开，记录类型显示为卡片。
 1. 单击记录类型的卡以打开记录类型页面。
 1. 单击表视图的名称以将其打开。
 1. （可选）通过向表中添加新行，将记录添加到您选择的记录类型。 有关信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)。
-1. （视情况而定）将所选记录类型与其他记录类型连接后，转到链接的记录列，并双击要与其他记录链接的记录对应的单元格。
+1. （视情况而定）将选定的记录类型与其他记录类型连接后，转到链接的记录列，并双击要与其他记录链接的记录对应的单元格。
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -225,7 +165,7 @@ ht-degree: 1%
    * 从列表中单击已连接记录的名称以将其添加到所选记录。 记录会自动添加。
    * 开始键入记录的名称，并在该记录显示在列表中时单击它。 记录会自动添加。
 
-1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅[创建记录](/help/quicksilver/planning/records/create-records.md)一文中的“连接时创建记录”。
+1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅文章[创建记录](/help/quicksilver/planning/records/create-records.md)中的“连接时创建记录”部分。
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ ht-degree: 1%
 
 1. （可选）如果找不到要连接的对象并且要添加它，请单击&#x200B;**+添加**&#x200B;以创建和添加新项目或项目组合。
 
-   将没有模板或项目组合的项目连接到Planning记录时，您只能添加这些项目。 您无法添加新程序、用户或公司。
+   将没有模板或项目组合的项目连接到Planning记录时，您只能添加这些项目。 您无法添加新程序、组或公司。
 
 1. （可选）单击&#x200B;**查看全部**&#x200B;以显示您至少具有查看权限的所有对象。
 
-1. （视情况而定）如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
+   如果您在上一步中单击了&#x200B;**查看所有**，则会显示&#x200B;**连接对象**&#x200B;框。
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -473,7 +413,7 @@ ht-degree: 1%
 1. （视情况而定）单击&#x200B;**连接**&#x200B;以添加更多相同类型的记录或对象。
 1. 按照前面部分中描述的步骤，连接来自Workfront Planning的记录或来自Workfront或Experience Manager Assets的对象。
 记录和对象会立即添加。
-1. （可选）将鼠标悬停在记录或对象的已连接卡片上，然后单击&#x200B;**断开记录**&#x200B;图标&#x200B;**-**&#x200B;以断开与选定记录的连接。
+1. （可选）将鼠标悬停在记录或对象的已连接卡片上，然后单击&#x200B;**断开记录**&#x200B;图标![](assets/disconnect-icon-with-tooltip.png)以将其与选定记录断开连接。
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

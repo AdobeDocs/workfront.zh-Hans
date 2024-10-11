@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '7484'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 ><span class="preview">本文列出了在2024年8月28日正式发布之前2024年Workfront规划的早期阶段发布的功能。</span>
 >
->本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
 >除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
 >
@@ -590,7 +590,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 现在，在创建以下字段之一时，您可以引用距记录最远4级的字段：
 
-* 筛选
+* 过滤器
 
 * 排序
 

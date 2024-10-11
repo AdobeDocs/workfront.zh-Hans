@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2981'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 ><span class="preview">本文列出了在2023年Workfront计划的Beta版阶段发布的功能。</span>
->本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
 >除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 |--------------------|-----------------------------------------|
 | 2023年8月至12月 | Workfront计划测试版* |
 | 2024年1月至8月 | Workfront计划提前发布* |
-| 2024年8月28日 | Workfront Planning正式发布 |
+| 2024 年 8 月 28 日 | Workfront Planning正式发布 |
 
 *测试版和早期发布阶段仅向部分客户提供。
 

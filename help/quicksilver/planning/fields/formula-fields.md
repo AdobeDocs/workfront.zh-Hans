@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 7%
 
 ---
@@ -175,7 +175,7 @@ OLD:
 
 ## 支持的公式
 
-Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表达式。 有关详细信息，请参阅[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+Adobe Workfront Planning公式字段支持Workfront计算字段中的所有表达式。 有关Workfront表达式的列表，请参阅[计算数据表达式的概述](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 此外，我们为Workfront Planning公式字段支持以下表达式：
 

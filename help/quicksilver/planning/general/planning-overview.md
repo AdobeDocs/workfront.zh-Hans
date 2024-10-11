@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront规划概述
-description: Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
+description: Adobe Workfront Planning是Adobe Workfront的一项附加功能。 您可以创建完全可自定义的工作区，以定义满足企业中每个组织单位需求的工作流。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->本文中的信息介绍Adobe Workfront Planning，它是Adobe Workfront的新产品。
+>本文中的信息介绍了Adobe Workfront Planning，它是Adobe Workfront的一项附加功能。
 >
 >要访问Workfront Planning，您必须具备以下条件：
 >
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 ## Adobe Workfront Planning简介
 
-Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront Planning的目的是全面了解企业的运营详细信息，并回答工作管理生命周期各阶段的关键业务问题。
+Adobe Workfront Planning是Adobe Workfront的一项附加功能。 Workfront Planning的目的是全面了解企业的运营详细信息，并回答工作管理生命周期各阶段的关键业务问题。
 
-团队和领导力需要获得以下问题的明确答案：
+Workfront Planning可以回答类似下面的问题：
 
 * 我们在欧洲、中东和非洲地区针对第4季度运行了多少营销活动？
 * 并行营销活动之间是否存在任何受众重叠？
@@ -69,7 +69,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 有关新功能及其发布时间的信息，请参阅[Adobe Workfront 2024年计划发布活动](/help/quicksilver/planning/general/release-activity.md)。
 
-以下是Workfront Planning中当前可用的功能：
+Workfront Planning中目前提供以下功能：
 
 * 创建工作区
 * 创建记录类型
@@ -92,7 +92,7 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 * 自定义记录页面的布局
 * 共享工作区
 * 共享视图
-* 与外部资源公开共享视图
+* 与任何外部资源公开共享视图，即使不是Workfront用户也是如此
 * 复制视图
 * 提交请求以创建记录
 * 将记录详细信息导出到Word <span class="preview">和PDF。</span>
@@ -161,11 +161,11 @@ Adobe Workfront Planning是Adobe Workfront提供的一项新服务。 Workfront 
 
 ## 为Workfront实例中的用户启用Workfront Planning
 
-您的组织购买了Workfront Planning的许可证后，在访问Workfront Planning之前，必须满足以下条件：
+贵组织为Workfront Planning购买许可证后，作为Workfront管理员，您必须确保满足以下要求才能访问Workfront Planning：
 
-* 您的Workfront管理员必须将您分配到主菜单中包含Planning的布局模板。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
+* 将需要访问Planning版面模板的用户分配到主菜单中，该模板包括Planning。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 您的Workfront管理员必须为您分配Workfront许可证和Workfront Planning权限，以便您在Workfront Planning中查看或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+* 为用户分配Workfront许可证和Workfront Planning权限，以便在Workfront Planning中按5554hview或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront Planning术语
 
@@ -183,7 +183,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   有关详细信息，请参阅[创建工作区](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-* **记录类型**： Workfront Planning的对象类型。
+* **记录类型**： Workfront Planning中对象类型的名称。
 
   与Workfront中预定义的对象类型不同，在Workfront Planning中，您可以创建自己的对象类型。
 
@@ -298,7 +298,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  视图包含特定视图类型的个性化设置，如字段列表（列）、记录列表（行）、它们的顺序（排序）、应用的或适用的过滤器和分组。
+  视图包含特定视图类型的个性化设置，如字段列表（列）、记录列表（行）、其顺序（排序）、应用或适用的过滤器和分组。
 
   以下是可应用于记录类型页面的视图类型：
 
@@ -318,7 +318,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 ## 找到Adobe Workfront Planning
 
-确保您的组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到您的主菜单。 有关信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+要找到Adobe计划，请确保贵组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到主菜单。 有关信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 要找到Workfront Planning，请执行以下操作：
 
