@@ -4,9 +4,9 @@ description: 2024年第四季度文档管理增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66180a048f47cb9d3daf67882d41084ad4873eef
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年10月3日；面向所有客户的生产：使用24.10版本（2024年10月17日）
+>~~预览版本： 2024年10月3日~~；适用于所有客户的生产： 24.10版本（2024年10月17日）
+>
+>_此功能已暂时从预览中删除。_
 
 您现在可以直接在文档列表中查看文档的决策状态。
 

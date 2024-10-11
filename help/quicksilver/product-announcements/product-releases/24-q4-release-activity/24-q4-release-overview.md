@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 0%
 
 * [管理员增强功能](#administrator-enhancements)
 * [文档管理增强功能](#document-management-enhancements)
-* [集成增强功能](#integration-enhancements)
 * [主页增强功能](#home-enhancements)
+* [集成增强功能](#integration-enhancements)
 * [项目增强功能](#project-enhancements)
 * [校对增强功能](#proofing-enhancements)
 * [报表和功能板增强功能](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ ht-degree: 0%
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
                             <li>
+                                <p><s>预览版本： 2024年10月3日</s></p>
+                            </li>
+                            <li>
+                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
+                            </li>
+                            <p><i>此功能已暂时从预览中删除。</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速将以前的审阅人和批准者添加到新文档版本</a></p>
+                        <p>您现在可以从以前的文档版本中快速添加审阅者和批准者。</p>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
                                 <p>预览版本： 2024年10月3日</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### 主页增强功能
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速将以前的审阅人和批准者添加到新文档版本</a></p>
-                        <p>您现在可以从以前的文档版本中快速添加审阅者和批准者。</p>
+                        <p><span class="bold">功能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">发行日期</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">新主页中等待我审批小组件的更新</a></p>
+                        [！BADGE In Production ]{type=Informational}
+                        <p>我们对等待我审批的小组件进行了以下更改：</p>
+                            <ul>
+                                <li>重命名了构件：此构件的名称现在为“我的审批”。</li>
+                                <li>已添加我已提交的审批作为过滤器选项：您现在可以使用此小组件查看您在新主页中提交的审批。</li>
+                            </ul>
+                    </td>
+                    <td><p><b>在以下日期可用：</b></p>
+                        <ul>
+                            <li>
+                                <p>预览版本： 2024年10月10日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">适用于所有客户的生产版本： 2024年10月10日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">优先顺序简介：为任务所有者提供更简单、简化和直观的Workfront体验</a></p>
+                        <p>优先事务增强了重点和生产力，以帮助客户在更短的时间内完成更多工作。</p>
+                        <p>使用“优先级”，您可以享受：</p>
+                            <ul>
+                                <li>管理和优先处理日常任务：通过整合的导航功能组织您的日常或周间，提高清晰度。</li>
+                                <li>更高的工作效率：访问项目上下文并更快速地执行任务，只需较少的点击次数。</li>
+                                <li>个性化功能：从专为任务所有者设计的功能中获益。</li>
+                            </ul>
                     </td>
                     <td><p><b>在以下日期可用：</b></p>
                         <ul>
@@ -226,48 +289,6 @@ ht-degree: 0%
                 </tr>
            </tbody>
 </table>
-
-### 主页增强功能
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">功能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">发行日期</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">优先顺序简介：为任务所有者提供更简单、简化和直观的Workfront体验</a></p>
-                        <p>优先事务增强了重点和生产力，以帮助客户在更短的时间内完成更多工作。</p>
-                        <p>使用“优先级”，您可以享受：</p>
-                        <ul>
-                        <li>管理和优先处理日常任务：通过整合的导航功能组织您的日常或一周的工作，提高清晰度</li>
-                        <li>更高的工作效率：访问项目上下文并更快速地执行任务，只需较少的点击次数</li>
-                        <li>个性化功能：从专为任务所有者设计的功能中获益</li>
-                        </ul>
-                    </td>
-                    <td><p><b>在以下日期可用：</b></p>
-                        <ul>
-                            <li>
-                                <p>预览版本： 2024年10月3日</p>
-                            </li>
-                            <li>
-                                <p>适用于所有客户的生产版本：使用24.10版本（2024年10月17日）</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### 项目增强功能
 
@@ -542,11 +563,11 @@ Workfront Planning中的新增功能已在生产环境中可用。 有关最新�
 
 此版本中目前没有更新Workfront Goals。 在有可用更新时，将更新此区域。
 
-### API版本18
+### API版本19
 
-对于API版本18，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
+对于API版本19，我们修改了一些资源和端点。 一些更改支持新功能，而其他更改使您能够更轻松地使用通过API获得的信息。
 
-有关新增功能和更新的信息，请参阅[API版本18](/help/quicksilver/wf-api/api/new-api-version-18.md)中的新增功能。
+有关新增功能和更新的信息，请参阅[API版本19](/help/quicksilver/wf-api/api/new-api-version-19.md)中的新增功能。
 
 有关API版本的信息，请参阅[API版本控制和支持计划](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

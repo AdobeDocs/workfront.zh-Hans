@@ -4,9 +4,9 @@ description: 2024年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 本页介绍了在2024年第四季度版本中对“预览”环境做出的所有主页增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第四季度发布周期中此时可用的所有更改列表，请参阅[2024年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 新主页中等待我审批小组件的更新
+
+>[!NOTE]
+>
+>预览版本： 2024年10月10日；适用于所有客户的生产版本： 2024年10月10日。
+
+我们对等待我审批的小组件进行了以下更改：
+
+* **已重命名构件**：此构件的名称现在为“我的审批”。
+* **已添加我已提交的审批作为筛选器选项**：您现在可以使用此小组件查看您在新主页中提交的审批。
+
+有关详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 通过优先级简化任务所有者的Workfront体验
 
