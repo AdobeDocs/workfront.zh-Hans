@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ ht-degree: 0%
 
 您可以在主页中记录特定于项目的时间。
 
-有关使用“主页”区域的一般信息，请参阅以下部分：
+有关使用主页区域的一般信息，请参阅[使用主页区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
 
-* 有关使用旧版主页区域的信息，请参阅[使用主页区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
-* 有关使用新主页区域的信息，请参阅[开始使用新主页](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 #### 在新的“主页”区域的工作项上记录时间
 

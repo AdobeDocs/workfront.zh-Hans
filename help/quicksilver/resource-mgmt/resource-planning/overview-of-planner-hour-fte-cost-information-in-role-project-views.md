@@ -7,7 +7,7 @@ description: 资源规划者的“项目”和“角色”视图中的小时数�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**当NET小时数、FTE或成本显示为红色时，没有足够的可用时间或预算来涵盖预算的**&#x200B;或与工作相关的计划时间或成本。 在这种情况下，资源会过度分配。
+>当“净小时数”、“约当全职人数”或“成本”显示为红色时，没有足够的“可用时间”或“预算”覆盖与工作相关的预算或计划时间或成本。 在这种情况下，资源会过度分配。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

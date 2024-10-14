@@ -6,7 +6,7 @@ description: 您可以与其他用户共享工作负载均衡器，其他用户�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ ht-degree: 1%
 
      >[!IMPORTANT]
      >
-     >将工作负载均衡器添加到对象的自定义部分时，工作负载均衡器中的信息不按对象进行过滤。 工作负载均衡器显示按最初应用的过滤器过滤的信息。
+     >将工作负载均衡器添加到对象的自定义部分时，工作负载均衡器中的信息不按对象进行过滤。 工作负载均衡器显示按最初应用的过滤器过滤的信息。

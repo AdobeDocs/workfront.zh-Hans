@@ -6,14 +6,16 @@ description: 通过Adobe Experience Cloud访问 [!DNL Workfront] 可为您提供
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront]的[!DNL Adobe Unified Experience]
+
+<!--Audited: 10/2024-->
 
 通过[!DNL Adobe Experience Cloud]访问[!DNL Workfront]可为您提供管理所有[!DNL Adobe]应用程序的无缝、统一的体验。 单一身份管理为您提供了一个登录位置，无需使用多个URL或登录ID。
 
@@ -25,6 +27,8 @@ ht-degree: 0%
 | experience.adobe.com | AdobeUnified Experience |
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -38,23 +42,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Request]或更高版本</p> </td> 
+   <td> <p>新文档： [！UICONTROL Contributor]或更高版本</p> 
+   <p>当前： [！UICONTROL Request]或更高版本</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
-您组织的[!DNL Workfront]实例必须载入[!DNL Adobe Business Platform] / [!DNL Adobe Admin Console]。
+您组织的[!DNL Workfront]实例必须载入[!DNL Adobe Business Platform]或[!DNL Adobe Admin Console]。
 
 如果您对加入[!DNL Adobe Admin Console]有任何疑问，请参阅[[!DNL Adobe Unified Experience] 常见问题解答](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/)。
 
 ## 登录到[!DNL Adobe Experience Cloud]
 
 1. 打开浏览器窗口并转到<https://experience.adobe.com>。
-1. 在[!UICONTROL 登录]屏幕上，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. 在&#x200B;[!UICONTROL **登录**]&#x200B;屏幕上，键入您的电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 
    ![登录到[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 

@@ -7,9 +7,9 @@ description: 可在Workfront Proof中访问“评论”摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ### 校对查看器 {#the-proof-viewer}
 
-您可以通过单击验证查看器中的&#x200B;**[!UICONTROL 打印]**&#x200B;图标，打印验证的评论摘要，包括验证的缩略图或全视图图像。 (1)
+您可以通过单击验证查看器中的&#x200B;**[!UICONTROL 打印]**&#x200B;图标，打印验证的评论摘要，包括验证的缩略图或全视图图像。
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### 校对详细信息页面 {#the-proof-details-page}
 
-您可以通过单击校对详细信息页面上的&#x200B;**[!UICONTROL 打印]**&#x200B;图标来打印校对的评论摘要。 (2)
+您可以通过单击校对详细信息页面上的&#x200B;**[!UICONTROL 打印]**&#x200B;图标来打印校对的评论摘要。
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ ht-degree: 0%
 
 要从列表视图访问[!UICONTROL 评论摘要]页面，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 操作]**&#x200B;菜单。 (3)
-1. 选择&#x200B;**[!UICONTROL 打印评论]**。 (4)
+1. 单击&#x200B;**[!UICONTROL 操作]**&#x200B;菜单。
+1. 选择&#x200B;**[!UICONTROL 打印评论]**。
 
-![List_view.png](assets/list-view-350x155.png)\
-在“注释”摘要页面上，您可以选择以下打印选项：
+   ![List_view.png](assets/list-view-350x155.png)
 
-* 缩略图视图(1)
-* 完整页面查看(2)
-* 打印页面(3)
-* 将包含注释的验证导出到PDF文件(4)
-* 将校对注释导出到[!DNL Excel]文件(5)
+   在“注释”摘要页面上，您可以选择以下打印选项：
+
+   * 缩略图视图(1)
+   * 完整页面查看(2)
+   * 打印页面(3)
+   * 将包含注释的验证导出到PDF文件(4)
+   * 将校对注释导出到[!DNL Excel]文件(5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ ht-degree: 0%
 要从校对详细信息页面下载[!DNL Excel]摘要，请执行以下操作：
 
 1. 单击“导出到&#x200B;**[!DNL Excel]**”图标。 (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## 导出到PDF
 
