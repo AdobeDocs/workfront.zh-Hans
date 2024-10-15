@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >除[!DNL Adobe Workfront license]外，[!DNL Adobe Workfront Fusion]还需要[!DNL Adobe Workfront Fusion]许可证。
 
 列入允许列表如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其，以允许您的环境与[!DNL Adobe Workfront Fusion]之间的开放通信。
+
+## 识别您的数据中心
+
+IP地址因存储数据的位置而异。
+
+如果通过URL访问Fusion，则可以检查该URL以查找数据中心。
+
+| URL | 数据中心 |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | 美国数据中心 |
+| `https://app-eu.workfrontfusion.com/` | 欧盟数据中心 |
+| `https://app-az.workfrontfusion.com/` | Azure数据中心 |
+
+如果您通过experience.adobe.com访问Fusion，则可以检查浏览器中的“网络”选项卡以识别数据中心。
+
+| URL | 数据中心 |
+| --- | --- |
+| 对`https://fusion.adobe.com`的调用 | 美国数据中心 |
+| 对`https://eu.fusion.adobe.com`的调用 | 欧盟数据中心 |
+| 对`https://az.fusion.adobe.com`的调用 | Azure数据中心 |
+
+## Workfront Fusion的IP地址
 
 将以下IP地址添加到您的允许列表以使[!DNL Workfront Fusion]能够访问您的系统。
 
