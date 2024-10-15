@@ -6,9 +6,9 @@ description: 您可以在 [!DNL Experience Manager Assets]中将您的工作与�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## 设置工作流（可选）
 
-工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 作为Workfront管理员，您可以在Workfront中配置工作流，然后将其分配给项目模板。 使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
+工作流是一组将Workfront连接到Adobe Experience Manager as a Cloud Service的操作。 作为Workfront管理员，您可以在Workfront中配置工作流，然后将其分配给项目模板。
 
-可以为整个Adobe Experience Manager启用和配置工作流。 然后，可以将这些工作流应用于项目模板，并在模板或项目级别进行调整或自定义。
+使用为其分配工作流的项目模板创建项目时，会触发工作流中定义的操作。
+
+可以为整个Adobe Experience Manager启用和配置工作流。 然后，可以将这些工作流应用于项目模板。 可在模板级别或在项目级别对其进行调整或自定义（当根据该模板创建项目时）。
 
 Adobe Experience Manager集成中提供了以下工作流：
 

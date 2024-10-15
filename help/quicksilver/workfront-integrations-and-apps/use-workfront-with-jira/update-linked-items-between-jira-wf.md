@@ -6,9 +6,9 @@ description: 当您将 [!DNL Jira] 问题链接到 [!DNL Adobe Workfront] 任务
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL Comments]</td> 
-   <td> <p>该评论已添加到[!DNL Jira]问题的<strong>[!DNL Workfront]</strong>选项卡。 它未添加到[!DNL Jira]问题的<strong>[！UICONTROL评论]</strong>选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Jira]之前添加到[!DNL Workfront]项的注释不会同步到[!DNL Jira]问题。 </p> </td> 
+   <td> <p>该评论已添加到[!DNL Jira]问题的<strong>[!DNL Workfront]</strong>选项卡。 它未添加到[!DNL Jira]问题的<strong>[！UICONTROL评论]</strong>选项卡中</p> <p>注意：当您手动链接两个现有项时，在将其链接到[!DNL Jira]之前添加到[!DNL Workfront]项的注释不会同步到[!DNL Jira]问题。 </p> <p>Jira注释与Workfront同步。</td> 
   </tr> 
  </tbody> 
 </table>
