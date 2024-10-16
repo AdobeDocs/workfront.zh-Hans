@@ -7,7 +7,7 @@ description: 您可以使用工作负载均衡器来计划工作的资源，或�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -104,16 +104,16 @@ ht-degree: 0%
 
 1. 单击左侧面板中的&#x200B;**工作负载均衡器**。
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-默认情况下，团队的工作负载均衡器显示以下信息：
+   默认情况下，团队的工作负载均衡器显示以下信息：
 
-* **未分配的工作**：已分配给团队但未分配给用户的项目。
-* **已分派的工作**：团队的所有成员及其所有分派的工作。
+   * **未分配的工作**：已分配给团队但未分配给用户的项目。
+   * **已分派的工作**：团队的所有成员及其所有分派的工作。
 
-  >[!TIP]
-  >
-  >团队成员可能被分配到也分配给团队的工作，或被分配到其他团队或角色的工作。
+     >[!TIP]
+     >
+     >团队成员可能被分配到也分配给团队的工作，或被分配到其他团队或角色的工作。
 
 ### 访问项目的工作负载均衡器
 

@@ -7,16 +7,16 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # 向其他用户发送私信
 
-通过[!DNL Adobe Workfront]，您可以快速、轻松地直接向其他[!DNL Workfront]用户发送与任何工作项无关的消息。 按此部分所述发送的消息会显示在用户主页的[!UICONTROL 更新]选项卡中，并且对所有用户都可见。 有关更新的更多信息，请参阅[更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
+通过[!DNL Adobe Workfront]，您可以快速、轻松地直接向其他[!DNL Workfront]用户发送与任何工作项无关的消息。 按此部分所述发送的消息将显示在用户配置文件页面的[!UICONTROL 更新]选项卡中，并且对所有用户可见。 有关更新的更多信息，请参阅[更新工作项并查看更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
 
 在发送消息时，要向其发送消息的用户会收到以下类型的通知，如本节所述：
 
@@ -24,29 +24,6 @@ ht-degree: 0%
 * 电子邮件通知
 
   这取决于用户配置为接收的电子邮件通知的类型。 有关详细信息，请参阅[为系统中的每个人配置事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)、[查看和配置群组的事件通知](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)和[修改您自己的电子邮件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
-
-## 访问要求
-
-您必须具有以下权限才能执行本文中的步骤：
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 计划*</strong></td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>审核或更高</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;要了解您拥有什么计划或许可证类型，请与[!DNL Workfront]管理员联系。
 
 ## 访问要求
 
@@ -59,7 +36,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -67,7 +44,8 @@ ht-degree: 0%
    <td>
    <p>新增：浅色或更高</p>
    <p>或</p>
-   <p>当前：审阅或更高版本</p></td>
+   <p>当前：审阅或更高版本</p>
+   </td>
   </tr> 
  </tbody> 
 </table>
@@ -76,16 +54,15 @@ ht-degree: 0%
 
 +++
 
-## 向其他用户发送与工作项无关的消息
+## 将消息从用户档案页面发送给另一个用户，该消息与工作项无关
 
-1. 转到要向其发送消息的用户的主页。\
-   您可以执行以下操作，以导航到用户的主页：
+1. 转到要向其发送消息的用户的配置文件页面。
 
-   * 单击链接的用户名，因为该名称出现在[!DNL Workfront]界面中的任何位置。 用户名显示在[!DNL Workfront]界面的许多区域中，例如用户所做的注释中。
+   要导航到某个用户的配置文件页面，请单击该用户的链接名称，因为该名称出现在[!DNL Workfront]界面中的任意位置。 用户名会显示在许多区域中，例如用户所做的注释中。
 
 1. 在&#x200B;**[!UICONTROL 更新]**&#x200B;选项卡上，单击文本框字段。
 
-   ![在[!UICONTROL 更新]选项卡上发送消息给用户](assets/message-user-NWE.png)
+   ![在[!UICONTROL 更新]选项卡上发送消息给用户](assets/send-message-to-user-on-updates-tab.png)
 
 1. 键入您的消息。
 1. （可选）单击&#x200B;**[!UICONTROL 通知]**&#x200B;字段，然后开始键入要包含在此消息中的其他用户的名称。
@@ -93,4 +70,19 @@ ht-degree: 0%
 1. （可选）选择&#x200B;**[!UICONTROL 我的公司私有]**，使此消息仅对您公司的其他用户可见。
 
 1. 单击&#x200B;**[!UICONTROL 更新]。**
-该消息发布在用户主页的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+该消息发布在用户个人资料页上的**[!UICONTROL 更新]**&#x200B;选项卡上的消息列表的顶部。
+
+<!--
+## Send a message to one or more users from the User list
+
+This option is only available if you have a Standard, Plan, or Work license.
+
+{{step-1-to-users}}
+
+1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
+1. Type your message in the [!UICONTROL Send update to user] window.
+1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
+1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
+1. Click [!UICONTROL **Send**].
+   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
+-->
