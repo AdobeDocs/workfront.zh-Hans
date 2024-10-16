@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 1. 在屏幕左侧，找到&#x200B;**外部查找**&#x200B;并将其拖动到画布上的某个部分。
 1. 输入字段的&#x200B;**标签**&#x200B;和&#x200B;**名称**。
 1. 为字段选择&#x200B;**格式**。
-1. 在&#x200B;**基本API URL**&#x200B;字段中输入API URL调用。
+1. 在&#x200B;**基本API URL**&#x200B;字段中输入API调用。
 
-   * 您可以添加$$HOST以引用同一实例。
-   * 可添加$$QUERY以根据查询其他字段来筛选结果。
+   * 要引用自定义表单所在的相同Workfront实例，请将$$HOST用于URL。
+   * 要根据查询其他字段来筛选结果，请添加$$QUERY。
 
    **示例**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`

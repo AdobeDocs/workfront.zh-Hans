@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Adobe Workfront API的目标是通过引入通过HTTP运行的REST-ful架构来�
 
 对象类型不区分大小写，可以是缩写的ObjCode（如proj）或替代对象名称(project)。
 
-有关有效对象代码的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md)。
+有关对象、有效ObjCode和对象字段的列表，请参见  [API资源管理器](../../wf-api/general/api-explorer.md)。
+
+>[!NOTE]
+>
+>在Workfront API的上下文中，自定义表单是`Category`对象，自定义字段是`Parameter`对象。
 
 ### 运营
 
