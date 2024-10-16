@@ -5,15 +5,15 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 3%
 
 ---
 
 
-# 优先级入门
+# 开始使用 [!DNL Priorities]
 
 优先级是为任务所有者定制的简化、直观的体验。 优先事项将从工作清单开始分阶段推出。
 
@@ -80,6 +80,10 @@ ht-degree: 3%
     <td>状态</td>
     <td>显示处于新、进行中和完成状态的任务或问题</td>
     </tr>
+     <tr>
+    <td>我的焦点</td>
+    <td>显示中已分配焦点级别的任务或问题。 焦点级别由个人用户分配和管理。</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ ht-degree: 3%
 在筛选完您的工作后，您可以根据以下条件对项目进行分组
 
 * 无
+* 我的焦点
 * 到期周数
 * 状态
 * 项目
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)中筛选您的工作并将其分组。
 
 ### 使用“我的焦点”安排重要工作项的优先级
 
@@ -105,7 +110,7 @@ ht-degree: 3%
 
 将焦点级别分配给工作项目后，您可以对列进行排序，以在工作列表顶部显示紧急项目。
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+有关详细信息，请参阅[优先处理重要工作项](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)。
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ ht-degree: 3%
 
 更新部分显示系统更新，以及用户在过去90天内进行的最近200次更新。
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)中添加和查看注释。
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ ht-degree: 3%
 
 您可以记录工作项的时间，以指示您在这些工作项上花费的小时数。 您还可以记录与工作无关的时间，如假期、病假或会议时间。 您的登录时间显示在您的时间表中。
 
-<!--For more information, see [Log time in Priorities]().-->
+有关详细信息，请参阅[在优先级中记录时间](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)。
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ ht-degree: 3%
 * 添加其他文件
 * 从连接的文档集成导入文件
 
-<!--For more information, see [Upload files in Priorities]().-->
+有关详细信息，请参阅[上载优先级中的文件](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)。
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ ht-degree: 3%
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+有关详细信息，请参阅[在优先级](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中添加和管理快速链接。
 
 ### 审阅并批准资源[!BADGE 即将推出]{type=Informative}
 
@@ -181,9 +186,9 @@ ht-degree: 3%
 有关详细信息，请参阅[新主页中的添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
 
 
-## 使用“赶上我”查看您错过了哪些内容[!BADGE 即将推出]{type=Informative}
+## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 即将推出]{type=Informative}
 
-使用“赶上我”功能查看您错过了哪些内容。 “赶上我们”将在以下时间范围内概述有关您项目的更新、上传的文档、批准和其他显着更改：24小时、3天、7天。
+使用[!DNL Catch me up]功能查看您错过了哪些内容。 “赶上我们”将在以下时间范围内概述有关您项目的更新、上传的文档、批准和其他显着更改：24小时、3天、7天。
 
 
 ![](assets/catch-me-up.png)

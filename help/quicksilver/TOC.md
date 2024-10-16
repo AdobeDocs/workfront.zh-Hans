@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '14488'
+source-wordcount: '14530'
 ht-degree: 2%
 
 ---
@@ -884,6 +884,14 @@ ht-degree: 2%
    * 优先级{#priorities}
       * [优先级：文章索引](workfront-basics/priorities/priorities-toc.md)
       * [优先级入门](workfront-basics/priorities/get-started-with-priorities.md)
+      * [在“优先级”中过滤和分组您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [自定义工作列表列](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [优先处理重要工作项目](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+      * [在优先级中创建任务和问题](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [在优先级中添加和查看更新](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+      * [在优先级中记录时间](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+      * [按优先级上传文件](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+      * [在优先级中添加和管理快速链接](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
       * 新建主页{#new-home}

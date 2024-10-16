@@ -5,9 +5,9 @@ description: 旧版主页将在2017年10月的第4季度版本中从Workfront删
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 | **筛选器** | **分组** |
 |------------|-----------|
-|  — 正在处理<br> — 准备开始<br> — 未就绪<br> — 已请求<br> — 已完成<br> — 项目<br> — 到期日期<br> — 状态 |  — 无<br> — 周到期<br> — 状态<br> — 项目 |
+|  — 正在处理<br> — 准备开始<br> — 未就绪<br> — 已请求<br> — 已完成<br> — 项目<br> — 到期日期<br> — 状态<br> — 我的焦点 |  — 无<br> — 我的焦点<br> — 周到期<br> — 状态<br> — 项目 |
 
 
 **旧主页筛选器和分组选项在优先级中不可用**
