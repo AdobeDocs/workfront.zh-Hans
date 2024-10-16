@@ -7,14 +7,16 @@ description: 创建用户委派报告
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # 创建用户委派报告
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ ht-degree: 1%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> <p>新增：标准 </p>
+   <p>当前：计划 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
@@ -64,7 +69,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
++++
 
 ## 创建用户委派报告
 
@@ -79,14 +85,14 @@ ht-degree: 1%
    |---|---|
    | **来自用户** | 该用户正在将其任务、问题和项目审批委派给其他用户。 |
    | **至用户** | 这是具有委托给他们的任务、问题和项目审批的用户。 |
-   | **开始** | 对于进行委派的用户来说，这是外出时间的开始。 |
-   | **结束** | 对于进行委派的用户而言，这是外出时间的结束。 |
+   | **开始日期** | 对于进行委派的用户来说，这是外出时间的开始。 |
+   | **结束日期** | 对于进行委派的用户而言，这是外出时间的结束。 |
 
    {style="table-layout:auto"}
 
 1. （可选）在Report Builder中，修改以下内容：
 
-   * 列
+   * 列（视图）
    * 分组
    * 过滤器
    * 图表
@@ -94,7 +100,5 @@ ht-degree: 1%
    若要了解有关这些功能的更多信息，请参阅[创建自定义报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 1. 完成报表生成后，单击&#x200B;**保存+关闭**。
-
-1. 在&#x200B;**报告名称**&#x200B;字段中输入一个新名称，然后单击&#x200B;**保存报告**。
 
    此时将显示报表。

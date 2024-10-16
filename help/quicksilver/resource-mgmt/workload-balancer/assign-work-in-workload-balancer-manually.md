@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   > 如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 使用“委派”选项卡可查看被委派给工作项目的用户。 有关委派工作的信息，请参阅[管理任务和问题委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+   > 如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 使用“委派”选项卡可查看被委派给工作项目的用户。 有关委派工作的信息，请参阅[委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
 
    这会将工作项指定或重新指定给指定的被分配人。

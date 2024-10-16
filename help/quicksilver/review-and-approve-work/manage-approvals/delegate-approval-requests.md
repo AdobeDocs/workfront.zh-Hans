@@ -6,16 +6,16 @@ description: 委托审批请求允许您分配另一个用户来审批您的请�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # 委托审批请求
 
-您可以在外出时临时委派分配给您的工作。 您可以委派任务和问题分配，也可以委派审批请求。 本文介绍了如何委托审批请求。 有关委派任务和问题分配的信息，请参阅[管理任务和问题委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+您可以在外出时临时委派分配给您的工作。 您可以委派任务和问题分配，也可以委派审批请求。 本文介绍了如何委托审批请求。 有关委派任务和问题分配的信息，请参阅[委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
 您可以委托以下类型的审批，而不管该审批是如何分配给您的（无论是直接分配给您，还是分配给您所属的团队或您的工作角色）：
 

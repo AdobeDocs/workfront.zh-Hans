@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Workfront用户和外部用户可以向Planning记录类型提交请求并创建
 1. 单击&#x200B;**提交**。
 
    您的表单已提交，并且新记录已添加到与表单关联的记录类型。
-
-
-
-
-

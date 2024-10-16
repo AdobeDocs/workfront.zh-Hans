@@ -6,9 +6,9 @@ description: 批准时间表的过程使经理能够了解其直接下属的工�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,20 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
 ## 批准工时表
 
-您可以批准已提交且被指定为批准者的任何时间表。 在提交时间表以供审批时，该时间表将列在您的&#x200B;**主页**&#x200B;页面上的&#x200B;**审批**&#x200B;区域。 有关详细信息，请参阅[批准工作](../../review-and-approve-work/manage-approvals/approving-work.md)。
+您可以批准已提交且被指定为批准者的任何时间表。 在提交时间表以供审批时，该时间表会列在您&#x200B;**主页**&#x200B;区域的&#x200B;**我的审批**&#x200B;小部件中。 有关详细信息，请参阅[批准工作](../../review-and-approve-work/manage-approvals/approving-work.md)。
 
-如果Workfront管理员启用了“批准用户时间表”和“拒绝用户时间表事件处理程序”，则在批准或拒绝时间表后会通知您。 有关启用事件通知的信息，请参阅[事件通知类型](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
+如果设置了以下通知设置，则提交时间表以供审批的用户会在时间表获得批准后收到一封电子邮件：
 
-要批准工时表，请执行以下操作：
+* Workfront管理员已向用户启用了时间表批准和向用户事件处理程序启用了时间表拒绝。 有关启用事件通知的信息，请参阅[事件通知类型](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
+* 在用户配置文件页面上启用了我的时间表已批准个人通知。 有关详细信息，请参阅[修改您自己的电子邮件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+
+### 从时间表区域批准时间表
 
 {{step1-to-timesheets}}
 
 **时间表**&#x200B;区域打开。
+
+1. （视情况而定）如果上次访问时打开，请单击屏幕左上角的&#x200B;**返回到时间表**。
 
 1. 选择页面右上角的&#x200B;**我的工时表批准**&#x200B;以仅查看您批准的时间表
 
@@ -87,11 +92,9 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理员或组管理员从设置区域的列表控件或布局模板中删除了“我的时间表批准”过滤器，则“我的时间表批准”选项不会显示在时间表列表顶部或过滤器列表中。 有关更多信息，请参阅以下文章：
+   >如果您的Workfront管理员或组管理员从设置区域的列表控件或布局模板中删除了“我的时间表批准”过滤器，则“我的时间表批准”选项不会显示在时间表列表顶部或过滤器列表中。
    >
-   >   
-   >   
-   >   * [使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >有关详细信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -112,3 +115,21 @@ Adobe Workfront提供将时间表批准配置为支持此区域的功能。
    如果批准，时间表状态将更改为&#x200B;**已关闭**。
 
    如果被拒绝，时间表状态将更改为&#x200B;**已拒绝**。
+
+### 批准主页区域中的工时表
+
+{{step1-to-home}}
+
+此时将打开“主页”区域。
+
+1. 确保已将&#x200B;**我的审批**&#x200B;构件添加到您的主页区域。 有关详细信息，请参阅[新主页中的添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
+1. 在“我的审批”构件中查找工时表审批。
+1. （可选）展开“批准”或“拒绝”按钮右侧的下拉菜单以添加有关您的决策的评论，然后单击“**添加**”。
+1. 单击以下按钮之一做出批准决定：
+
+   * 批准
+   * 拒绝
+
+   审批将从&#x200B;**我的审批**&#x200B;构件中删除。
+
+

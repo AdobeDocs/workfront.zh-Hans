@@ -6,9 +6,9 @@ description: 使用工作负载均衡器了解资源的可用性并将工作分�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 有关委派工作的信息，请参阅[管理任务和问题委派](../../manage-work/delegate-work/how-to-delegate-work.md)。
+     >如果您的Workfront或组管理员在环境中启用了委托，请使用“工作总揽”选项卡将用户分配给任务或问题。 有关委派工作的信息，请参阅[委派任务和问题](../../manage-work/delegate-work/how-to-delegate-work.md)。
 
    * **编辑分配**，然后编辑用户的每日或每周分配。 有关管理用户分配的信息，请参阅[在工作负载均衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理用户分配。
 

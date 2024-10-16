@@ -6,9 +6,9 @@ description: 通过提交时间表以供审批，您的经理可以查看您的�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td role="rowheader">Adobe Workfront许可证*</td> 
    <td> <p>新增：浅色或更高 </p>
    <p>当前：审阅或更高版本 </p>
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+*有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    **提交以供审批**&#x200B;按钮已由&#x200B;**批准**、**拒绝**&#x200B;和&#x200B;**撤消**&#x200B;按钮替换。 时间表状态更改为&#x200B;**已提交**。
 
-   在提交您的时间表以供审批时，审批者会在&#x200B;**主页**&#x200B;页面的&#x200B;**审批**&#x200B;区域看到列出的时间表。 可能会出现以下情况：
+   在提交您的时间表以供审批时，审批者会看到&#x200B;**主页**&#x200B;区域的&#x200B;**我的审批**&#x200B;构件中列出的时间表。 可能会出现以下情况：
 
    * 如果他们批准，**撤消**&#x200B;按钮将更改为&#x200B;**重新打开**，时间表状态将更新为&#x200B;**打开**。
    * 如果他们拒绝它，则&#x200B;**提交以供审批**&#x200B;按钮将替换&#x200B;**撤回**&#x200B;按钮，并且时间表状态将更新为&#x200B;**已拒绝**。

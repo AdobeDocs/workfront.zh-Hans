@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # 请求对视图或工作区的权限
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ ht-degree: 0%
      ![](assets/email-notification-for-access-request.png)
 
 1. （视情况而定）当视图或工作区经理授予您查看或工作区的权限时，您会收到电子邮件通知和应用程序内通知，其中包含已授予权限的确认。<!--check this - I was not able to test this, but Isk confirmed.-->
-
-

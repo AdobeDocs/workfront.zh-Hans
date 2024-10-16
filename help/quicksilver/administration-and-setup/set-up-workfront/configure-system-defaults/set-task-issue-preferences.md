@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ Linked to Converting Issues.-->
 
 启用此设置后，用户可以看到以下内容：
 
-* [!UICONTROL 代理]链接位于其[!UICONTROL 主页]区域。 他们可以从此处委派审批，或任务和问题分配。
+* [!UICONTROL 主页]区域中的[!UICONTROL 我的工作]、[!UICONTROL 我的任务]或[!UICONTROL 我的问题]小组件中的&#x200B;[!UICONTROL **代理**]&#x200B;链接。 他们可以从此处委派任务和问题分配。
+
+  >[!NOTE]
+  >
+  >  [!UICONTROL **委托审批**]&#x200B;链接始终在[!UICONTROL 主页]区域中启用。
+
 * 指示任务或问题已委派给任务或问题标题中[!UICONTROL 任务和委派]区域中的另一个用户。
+* 表示任务或问题已委派给位于[!UICONTROL 主页]中其[!UICONTROL 我的工作]小部件中的其他用户。
 
   如果禁用[!UICONTROL 允许用户委派其任务和问题]设置，则当前计划的委派将停止，并且委派的用户将收到一封电子邮件通知，告知委派已停止。
 
 有关将工作委派给其他人的信息，请参阅以下文章：
 
 * [委派工作概述](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [管理任务和问题委派](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [委派任务和问题](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

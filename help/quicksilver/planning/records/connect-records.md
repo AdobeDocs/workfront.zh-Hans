@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ ht-degree: 1%
    <p> 产品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront规划<p></li></ul></td> 
+   <li><p> Adobe Workfront规划<p></li>
+   <li><p>Adobe Experience Manager Assets(如果要将AEM资产与Planning记录连接)<p>
+   <p>您必须具有Adobe Experience Manager Assets许可证以及AEM Assets与Workfront之间的集成。
+    有关信息，请参阅适用于Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront：文章索引</a>。 </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront计划*</p></td> 
@@ -146,7 +151,7 @@ ht-degree: 1%
 * 在“详细信息”选项卡上的已连接记录字段中，记录的预览或页面。
 * 记录在“连接”选项卡上的预览或页面。
 
-### 从表视图或记录页的“详细信息”选项卡连接Adobe Workfront Planning记录
+### 从表格视图或“详细信息”区域连接Adobe Workfront Planning记录
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ ht-degree: 1%
 
    * 从列表中单击已连接记录的名称以将其添加到所选记录。 记录会自动添加。
    * 开始键入记录的名称，并在该记录显示在列表中时单击它。 记录会自动添加。
+
+   >[!TIP]
+   >
+   >    如果只选择在连接记录类型时显示记录的图像，则连接的字段中只会显示记录的缩略图或图标。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
 
 1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅文章[创建记录](/help/quicksilver/planning/records/create-records.md)中的“连接时创建记录”部分。
 

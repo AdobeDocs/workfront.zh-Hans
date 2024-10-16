@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 +++ 展开以查看本文中各项功能的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto">
  <col>

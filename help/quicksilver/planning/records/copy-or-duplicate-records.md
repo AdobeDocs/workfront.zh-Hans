@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
-
 
 # 重复记录
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 

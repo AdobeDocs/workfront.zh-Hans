@@ -6,9 +6,9 @@ description: '[!UICONTROL 主页]区域中的[!UICONTROL 工作列表]显示分�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
       <td> 
        <div> 
         <p>仅显示已委派给其他用户的工作项。</p> 
-        <p>有关委派任务的更多信息，请参阅<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">将任务和问题委派给其他用户</a>。
+        <p>有关委派任务的更多信息，请参阅<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">委派任务和问题</a>。
        </div> </td> 
      </tr> 
      <tr> 

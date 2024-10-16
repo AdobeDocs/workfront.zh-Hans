@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
 # 使用布局模板自定义左侧面板
+
+<!--Audited: 10/2024-->
 
 在布局模板中，您可以自定义用户在整个[!DNL Adobe Workfront]的左侧面板区域中看到的内容。
 
@@ -68,26 +70,19 @@ ht-degree: 0%
 ## 自定义[!DNL Workfront]中某个区域的左侧面板：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 单击&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击要自定义的左侧面板。
+1. 单击&#x200B;**[!UICONTROL 自定义用户看到的内容]**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击要自定义其左侧面板的对象类型或[!DNL Workfront]区域的名称。
 
-   >[!NOTE]
-   >
-   >有关此下拉列表中有关[!UICONTROL 主页]选项的信息，请参阅[使用布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)自定义[!UICONTROL 主页]和[!UICONTROL 摘要]。 有关“列表”选项的信息，请参阅[使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
+   下表列出了可自定义其左侧面板的对象类型和[!DNL Workfront]区域：
 
-1. 在&#x200B;**[!UICONTROL 左侧面板]**&#x200B;列表中，执行以下任一操作以确定用户在左侧面板中看到您选择的选项（[!DNL Workfront]区域或对象类型）的内容：
-
-   * 显示![](assets/add-secondary-nav-item.png)或隐藏![](assets/delete-secondary-nav-item.png)项。 无法隐藏任何没有![](assets/add-secondary-nav-item.png)或![](assets/delete-secondary-nav-item.png)的项目。
-
-   * 拖动项![](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>选项</th> 
+      <th>对象类型或[!DNL Workfront]区域</th> 
       <th>当用户单击以下内容时……</th> 
-      <th>他们看到您从以下面板中选择的左侧面板项目：</th> 
+      <th>在布局模板中显示左侧面板中用户可查看的部分：</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ ht-degree: 0%
 
    *贵公司必须额外购买Workfront Planning的许可证，以便能够将此区域添加到项目、项目组合和程序的左侧面板。 有关详细信息，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. 在&#x200B;**[!UICONTROL 左侧面板]**&#x200B;列表中，执行以下任一操作来确定在左侧面板中您选择的[!DNL Workfront]区域或对象类型将看到的用户：
+
+   * 单击&#x200B;**显示** ![](assets/add-secondary-nav-item.png)或&#x200B;**隐藏** ![](assets/delete-secondary-nav-item.png)图标以在左侧面板中显示或隐藏部分。 无法隐藏没有&#x200B;**显示**&#x200B;或&#x200B;**隐藏**&#x200B;图标的项目。
+
+   * 拖动项![](assets/move-icon---dots.png)以更改它们在左侧面板上的顺序。
+
    >[!NOTE]
    >
-   >**[!UICONTROL 自定义用户看到的内容]**&#x200B;下拉列表（[!UICONTROL 列表]、[!UICONTROL 主页和摘要]以及[!UICONTROL 品牌]）中的最后3个项目用于配置左侧面板以外的区域。 有关这些报表包的信息，请参阅以下文章：
+   >**[!UICONTROL 自定义用户看到的内容]**&#x200B;下拉列表中的以下项目引用了左侧面板以外的区域：
+   >* [!UICONTROL 列表]
+   >* [!UICONTROL 摘要面板]
+   >* [!UICONTROL 主页]
+   >* [!UICONTROL 品牌]
+   > 
+   >有关如何自定义其他区域的信息，请参阅以下文章：
    >
    >* [使用布局模板自定义筛选器、视图和分组](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [使用布局模板自定义[!UICONTROL 主页]和[!UICONTROL 摘要]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [使用布局模板自定义[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [使用布局模板自定义主页](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* 使用布局模板[品牌Adobe [!DNL Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （可选）如果要添加链接到贵组织某个功能板的左侧面板项，请单击&#x200B;**[!UICONTROL 添加自定义分区]**，为该项键入一个&#x200B;**[!UICONTROL 自定义分区标题]**，然后添加该功能板。
 
-   仪表板项目显示在左侧面板的底部。 当用户将鼠标悬停在左侧面板上时，将会看到您在功能板项目旁边键入的自定义分区标题。
+   仪表板项目显示在左侧面板的底部。 当用户将鼠标悬停在左侧面板中的仪表板项目旁边时，会看到您键入的自定义分区标题。
 
    >[!NOTE]
    >
-   >用户可以将自定义功能板项目添加到他们自己的左侧面板。 在布局模板中添加自定义仪表板项目时，项目会与其合并，而不会覆盖或重置它们。 如果将用户分配给具有自定义仪表板项目的新布局模板，也是如此。 有关用户如何自定义左侧面板的信息，请参阅[创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
-
-   有关功能板的信息，请参阅[功能板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
+   >用户可以将自定义功能板项目添加到他们自己的左侧面板。 在布局模板中添加自定义仪表板项目时，除了它们所添加的项目外，还会显示您的项目，而不会覆盖或重置这些项目。 如果将用户分配给具有自定义仪表板项目的新布局模板，也是如此。 有关用户如何自定义左侧面板的信息，请参阅[创建自定义选项卡或分区](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)。
+   >
+   >有关功能板的信息，请参阅[功能板](../../../reports-and-dashboards/dashboards/dashboards-overview.md)。
 
 1. 继续自定义布局模板。
 
@@ -233,4 +242,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >您可以随时单击[!UICONTROL 保存]以保存进度，然后稍后继续修改模板。
+   >您可以随时单击&#x200B;[!UICONTROL **保存**]&#x200B;以保存进度（这将关闭布局模板编辑器），然后继续修改模板。

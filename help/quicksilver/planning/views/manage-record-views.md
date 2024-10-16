@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -179,7 +179,7 @@ ht-degree: 1%
 * 您可以与其他人共享您创建的视图。 有关信息，请参阅[共享视图](/help/quicksilver/planning/access/share-views.md)。
 * 以下元素对于每个记录视图都是唯一的：
 
-   * 筛选
+   * 过滤器
    * 分组
    * 排序
    * 条形图外观（用于时间轴视图）

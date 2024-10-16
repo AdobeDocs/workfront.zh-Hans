@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
-
 
 # 共享工作区
 
@@ -31,7 +31,7 @@ This article describes how you can share a view with others. For information abo
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 

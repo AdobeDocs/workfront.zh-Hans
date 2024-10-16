@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
 # 导出记录的详细信息
 
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它只能在“预览”环境中用于所有客户，或者在“生产”环境中用于启用快速版本的客户。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">有关当前版本的信息，请参阅[2023年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)。</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 要更有效地与可能没有Workfront帐户的其他人协作，您可以将记录的详细信息导出到文件并与他们共享。
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 +++ 展开以查看Workfront Planning的访问要求。
 
-您必须具备以下条件才能访问Workfront Planning：
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ ht-degree: 1%
 * 您可以将记录的详细信息导出为以下文件格式：
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * 您可以导出记录页面的详细信息选项卡。 无法导出“连接”选项卡。
 
@@ -184,9 +184,9 @@ ht-degree: 1%
 1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)，然后单击以下图标之一：
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   下载Word (.docx) <span class="preview">或PDF</span>文件，并将其保存到您的计算机。
+   下载Word (.docx)或PDF文件并将其保存到您的计算机。
 
    导出的文件的名称是记录的“Primary”字段。
 
@@ -194,7 +194,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >    不会显示在页面上，并且仅在单击“详细信息”选项卡上的“显示更多”后才会显示的其他信息不会显示在导出的PDF文件中。 只有页面上可见的信息才会显示在导出的文件中。
+   >    未在页面上显示并且仅在记录详细信息区域中单击“显示更多”后可见的其他信息不会显示在导出的PDF文件中。 只有页面上可见的信息才会显示在导出的文件中。
 
 
 1. （可选）转到下载的文件，打开它并编辑它（如果它是Word文件），或者与他人共享它。
