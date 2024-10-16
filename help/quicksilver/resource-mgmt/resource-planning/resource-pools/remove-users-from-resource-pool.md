@@ -6,16 +6,14 @@ description: 虽然资源池中的用户可以数量没有限制，但用户列�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
 # 从资源池中删除用户
-
-{{preview-and-fast-release-Q424}}
 
 虽然资源池中的用户可以数量没有限制，但用户列表仅显示前2000个用户（按字母顺序列出）。
 
@@ -73,15 +71,10 @@ ht-degree: 1%
    或\
    如果要删除与这些实体关联的所有用户，请开始键入公司、工作角色、团队或组的名称。
 
-   <span class="preview">预览环境中的示例图像：<span>
-
    ![从资源池中删除用户](assets/remove-users-from-resource-pool.png)
 
-   生产环境中的示例图像：
-   ![在资源池中搜索](assets/search-inside-new-resource-pool-350x314.png)
-
-1. 单击用户级别的“x”图标可从资源池中删除用户。 它们会从显示的所有列表中删除。\
-   或\
-   要删除与工作角色、组、团队或公司关联的所有用户，请在工作角色、组、团队级别或公司级别单击&#x200B;**删除**。 这将从资源池中删除与该工作角色、组、团队或公司关联的所有用户。
+1. 单击用户级别的X图标可从资源池中删除用户。 它们会从显示的所有列表中删除。
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. 单击&#x200B;**保存**。

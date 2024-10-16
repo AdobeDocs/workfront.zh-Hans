@@ -6,9 +6,9 @@ description: 资源池是用户集合，可帮助您更轻松地在Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 1%
 >id="wf_resource_pools"
 >title="资源池"
 >abstract="资源池是完成项目时同时需要的用户的集合。 创建资源池后，可将其与项目和模板相关联。"
-
-{{preview-and-fast-release-Q424}}
 
 资源池是用户集合，可帮助您更轻松地在Adobe Workfront中管理资源。 有关资源池的详细信息，请参阅[资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
@@ -66,14 +64,10 @@ ht-degree: 1%
 {{step1-to-resourcing}}
 
 1. 单击左侧面板中的&#x200B;**资源池**。
-
-   <span class="preview">预览环境中的示例图像：</span>
-   <span class="preview">![资源池](assets/list-of-resource-pools.png)</span>
-
-   生产环境中的示例图像：
-   ![资源池](assets/resource-pools-tab-350x198.png)
-
 1. 单击&#x200B;**新建资源池**。
+
+   ![资源池](assets/list-of-resource-pools.png)
+
 1. 指定以下内容：
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ ht-degree: 1%
    >
    >资源池中的用户数量没有限制。 但是，我们建议不要向资源池添加太多用户，否则资源管理可能会成为一个挑战。 用户列表仅显示资源池中的前2,000个用户，并且按字母顺序列出。
 
-   <span class="preview">预览环境中的示例图像：</span>
-   <span class="preview">![个用户已添加到资源池](assets/users-in-resource-pool2.png)</span>
-
-   生产环境中的示例图像：
-   ![个用户已添加到资源池](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![个用户已添加到资源池](assets/users-in-resource-pool2.png)
 
 1. （可选）单击用户名右侧的X图标可删除用户。 有关从资源池中删除用户的详细信息，请参阅[从资源池中删除用户](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)。
 1. （可选）使用&#x200B;**搜索**&#x200B;选项在资源池中查找用户。

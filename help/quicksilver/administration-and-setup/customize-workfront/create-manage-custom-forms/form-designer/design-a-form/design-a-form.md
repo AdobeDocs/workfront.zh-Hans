@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '5575'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # 使用表单设计器设计表单
-
-{{highlighted-preview}}
 
 您可以使用表单设计器设计自定义表单。 您可以将自定义表单附加到不同的Workfront对象，以捕获有关这些对象的数据。
 
@@ -92,7 +90,7 @@ ht-degree: 5%
 
 在设计自定义表单时，您可以使用新的或现有的字段。
 
-<span class="preview">自定义表单限制为500个字段。 左下方的计数器显示表单上使用的字段数，当您在表单设计器中滚动时，它始终可见。</span>
+自定义表单限制为500个字段。 左下方的计数器显示表单上使用的字段数，当您在表单设计器中滚动时，它始终可见。
 
 ### 重用已在其他自定义表单中使用的现有字段或构件
 
@@ -235,7 +233,7 @@ ht-degree: 5%
     </ul></td>
     </tr>
     <tr>
-    <td>格式</td>
+    <td>格式化</td>
     <td><p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注释</b>：   
     <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li> 
@@ -353,7 +351,7 @@ ht-degree: 5%
     </ul></td>
     </tr> 
     <tr> 
-    <td role="rowheader">格式</td> 
+    <td role="rowheader">格式化</td> 
     <td> <p>选择将在自定义字段中捕获的数据类型。</p> <p><b>注释</b>：   
      <ul> 
     <li>保存表单后无法编辑此字段。 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。<br></li> 
@@ -590,7 +588,7 @@ ht-degree: 5%
       <td> <p>键入有关自定义字段的任何其他信息。 当用户填写自定义表单时，可以将光标悬停在问号图标上，以查看包含您在此处键入的信息的工具提示。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">格式</td>
+      <td role="rowheader">格式化</td>
       <td><p>选择将在自定义字段中捕获的数据类型。</p>
       <p><strong>注意：</strong></p>
       <ul><li>保存表单后，可以更改格式类型，但有一个限制：对象上的所有现有值都必须能够转换为新类型。 （例如，如果格式类型为“文本”，并且对象正在存储“abc”值，则您无法转换该字段，并且会收到一个错误，说明系统无法将“abc”转换为数字/货币。） 如果要在数学计算中使用字段，请确保选择“数字”或“货币”格式。</li>
