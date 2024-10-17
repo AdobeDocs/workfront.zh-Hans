@@ -5,16 +5,14 @@ description: 您可以使用“摘要”此功能快速摘要工作项和文档�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # 使用AI助手汇总
-
-<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 Workfront的AI助手可以汇总一些对象，让您高层次地了解对象的意图或详细信息。
 
@@ -67,8 +65,6 @@ AI助手可以总结以下对象：
 
   有关详细信息，请参阅[启用或禁用AI助手](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
-<div class="preview">
-
 ## 使用“摘要”按钮进行摘要
 
 以下区域具有使用AI Assistant生成摘要的按钮：
@@ -88,8 +84,6 @@ AI助手可以总结以下对象：
 1. （可选）优化提示以确保它为您提供所需的信息。
 
    例如，您可以优化“摘要内容”提示以摘要过去14天（而不是过去7天）的注释。
-
-   </div>
 
 ## 总结AI助手中的对象
 
