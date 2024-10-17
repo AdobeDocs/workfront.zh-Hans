@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -175,11 +175,12 @@ ht-degree: 2%
    有关构建自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. （可选）单击&#x200B;**预览**&#x200B;以查看当其他用户使用表单提交新记录时，该表单将如何显示给其他用户。
+1. （可选）单击标题中表单名称右侧的&#x200B;**更多**&#x200B;菜单![](assets/more-menu.png)，然后单击&#x200B;**编辑**&#x200B;以更新表单名称。
 1. 单击&#x200B;**Publish**&#x200B;发布表单并获取其唯一链接。
 
    出现以下情况：
 
-   * Publish按钮将被删除。
+   * 已删除&#x200B;**Publish**&#x200B;按钮。
    * **取消发布**&#x200B;按钮已添加到表单中。 单击此按钮将阻止访问表单。
    * **共享**&#x200B;按钮已添加到表单。
 

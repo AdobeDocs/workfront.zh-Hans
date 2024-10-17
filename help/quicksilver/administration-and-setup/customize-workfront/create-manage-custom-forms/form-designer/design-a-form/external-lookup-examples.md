@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ ht-degree: 0%
 
 ## 为Workfront计划API设置外部查找字段
 
-[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)中提供了一个终结点，用于通过Get方法按记录类型ID搜索记录。 您可以使用此端点在外部查找字段中引用Planning记录。
+Workfront Planning API中提供了一个端点，用于通过Get方法按记录类型ID搜索记录。 您可以使用此端点在外部查找字段中引用Planning记录。
 
 * **基本API URL：** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP方法：** Get
 * **JSON路径：** `$.records[*].data.{fieldID}`
 
   **{fieldID}**&#x200B;是要在最终用户自定义表单的外部查找搜索结果中显示的字段。
+
+有关详细信息，请参阅[Workfront计划API](/help/quicksilver/planning/general/planning-api-basics.md)。
 
 ## 为公共API设置外部查找字段
 

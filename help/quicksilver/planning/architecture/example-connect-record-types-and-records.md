@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ ht-degree: 0%
      >
      >从其他工作区连接记录或连接Experience Manager资源时，**连接类型**&#x200B;选项不可用。 有关详细信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
-   * **录制外观**：如果不想在将其添加到促销活动的产品信息字段时显示产品名称，请取消选择&#x200B;**标题**&#x200B;切换开关。 如果启用，记录会显示缩略图和标题。 默认情况下，该切换处于启用状态。
+   * **记录外观**：从以下选项中选择：
+      * **名称和图像**：显示已连接记录的名称和缩略图或图标。 默认情况下，该选项处于选中状态。
+      * **名称**：仅显示已连接记录的名称。
+      * **图像**：仅显示已连接记录的缩略图或图标。
    * **选择查找字段**：如果您保留选中此选项，则下一步将打开&#x200B;**添加查找字段**&#x200B;框，允许您链接产品字段和促销活动记录类型。 您可以单击&#x200B;**跳过**&#x200B;跳过此步骤并稍后添加产品字段。
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. （视情况而定）如果您在上一步中选择了&#x200B;**选择查找字段选项**，请从与&#x200B;**产品**&#x200B;记录类型关联的字段列表中单击&#x200B;**预算**&#x200B;字段的&#x200B;**+**&#x200B;图标，然后单击&#x200B;**添加字段**。 这将创建一个名为&#x200B;**Budget（来自产品信息）**&#x200B;的字段，该字段是链接字段的名称。 此字段中将显示促销活动记录的“产品预算”相关信息。
 

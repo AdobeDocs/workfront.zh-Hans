@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -94,63 +94,6 @@ ht-degree: 1%
 
 +++
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## 有关导出记录详细信息的注意事项：
 
 * 您可以将记录的详细信息导出为以下文件格式：
@@ -158,7 +101,7 @@ ht-degree: 1%
    * .docx Word
    * .pdf
 
-* 您可以导出记录页面的详细信息选项卡。 无法导出“连接”选项卡。
+* 您可以导出记录页面的详细信息选项卡。
 
 * 导出的文件保留记录页面的布局，包括缩略图和封面图像。
 
@@ -181,7 +124,7 @@ ht-degree: 1%
 
 1. 选择&#x200B;**详细信息**&#x200B;选项卡。 默认情况下，“详细信息”选项卡应处于打开状态。
 
-1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;图标![](assets/export-icon-in-record-details-page.png)，然后单击以下图标之一：
+1. 在预览或记录页面中单击&#x200B;**导出**&#x200B;菜单![](assets/export-icon-in-record-details-page.png)，然后单击以下任一项：
 
    * **Microsoft Word**
    * **Adobe PDF**
