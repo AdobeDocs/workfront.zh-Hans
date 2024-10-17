@@ -6,9 +6,9 @@ description: 在与Adobe Workfront中的其他用户共享报表时，请考虑�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>文本颜色</strong></td> 
-      <td> <p>选择显示文本的颜色。 有8种颜色可供选择。</p> <p><b>注释</b></p> <p> 如果该字段包含超链接，则文本颜色选择不会应用于该字段。</p> </td> 
+      <td> <p>使用颜色选择器选择文本显示的颜色。</p> <p><b>注释</b></p> <p> 如果该字段包含超链接，则文本颜色选择不会应用于该字段。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>文本格式</strong></td> 
@@ -151,7 +151,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>背景</strong></td> 
-      <td>选择文本背景的颜色。 有8种颜色可供选择。</td> 
+      <td>使用颜色选择器选择文本的背景颜色。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>显示图标</strong></td> 
@@ -189,6 +189,6 @@ ht-degree: 2%
    * 再次为延迟项目中的红色背景添加列规则。
    * 保存规则和视图时，红色背景不会应用于已取消的项目。
 
-1. 单击&#x200B;**完成**。
+1. 单击&#x200B;**保存**。
 1. 单击&#x200B;**保存+关闭**。\
    在报告中，如果满足指定的条件，用户会看到格式更改。

@@ -6,7 +6,7 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ ht-degree: 1%
      >
      >当通过多个OR语句连接一组AND语句时，必须为每个语句组重复在OR语句之间没有更改的字段。
      >
-     >![连接的筛选器语句](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![连接的筛选器语句](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >在为包含“营销”一词、且处于当前或Planning状态的项目中的任务构建过滤器时，您必须具有以下过滤器规则：
      >

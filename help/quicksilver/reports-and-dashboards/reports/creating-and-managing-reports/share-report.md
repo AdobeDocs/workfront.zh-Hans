@@ -6,9 +6,9 @@ description: 在分配访问级别时，您的Adobe Workfront管理员会授予�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >如果报告有提示并公开共享，则运行该报告的用户必须登录到Workfront，才能使用提示运行报告。 如果他们无法登录Workfront，将看到未应用提示的报告。 有关共享带有提示的报告限制的更多信息，请参阅文章[向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共享提示报告的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)部分。
+     >如果报告具有提示并且您公开共享它，则通过公共共享链接运行报告的用户将无法使用提示运行报告。 除非他们登录到Workfront并访问报表，然后不使用公共共享链接，否则他们将会看到报表，但不显示应用到的提示。 有关共享带有提示的报告限制的更多信息，请参阅文章[向报告添加提示](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)中的[共享提示报告的限制](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)部分。
 
    * **使其在系统范围内可见：**&#x200B;选择此选项以便Workfront中有权访问报告的所有人都可以查看报告。
 

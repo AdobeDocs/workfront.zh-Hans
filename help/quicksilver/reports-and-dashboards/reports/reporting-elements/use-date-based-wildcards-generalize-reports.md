@@ -6,9 +6,9 @@ description: 在构建某些报表元素时，您可以使用通配符而不是�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 0%
 
 1. 转到要为其插入基于日期的通配符的报表。
 1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
-
 1. 单击&#x200B;**筛选器**&#x200B;选项卡。
 1. 单击&#x200B;**添加筛选器规则**。
 1. 开始键入要作为筛选依据的字段的名称。\
@@ -79,7 +78,7 @@ ht-degree: 0%
    >
    >在Adobe Workfront中使用通配符时，必须始终选择&#x200B;**等于**&#x200B;筛选器变量。
 
-1. 在&#x200B;**开始键入名称……**&#x200B;框中，键入： `$$TODAY`（如果要显示与运行报告同一天发生的某些事件的信息）。
+1. 单击&#x200B;**设置相对日期**&#x200B;切换开关，然后在显示的文本框中键入： `$$TODAY`（如果要显示与运行报告同一天发生的某些事件的相关信息）。
 
    或
 
@@ -91,8 +90,6 @@ ht-degree: 0%
 1. （可选）如果要显示运行报告日期之前某个时间范围内发生的事件的相关信息，请键入`$$TODAY-1w`以显示前一周的信息，或键入`$$TODAY-2m`以显示前两个月的信息。 您还可以指定季度、小时、天或年的时间范围。
 
    有关可在基于日期的通配符中使用的属性、限定符和运算符的完整列表，请参阅文章[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. 单击&#x200B;**保存+关闭**。
 

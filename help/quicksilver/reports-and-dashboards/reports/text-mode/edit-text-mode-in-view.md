@@ -6,9 +6,9 @@ description: '注意：在文章中添加章节：/Content/Reports and Dashboard
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ ht-degree: 1%
    >
    >要使用文本模式编辑视图，必须一次编辑一列。
 
-1. 单击生成器右上角的&#x200B;**切换到文本模式**。
+1. 单击生成器右上角的&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本模式**。
 
    >[!NOTE]
    >
    >在文本模式下编辑列时，Workfront会将`textmode=true`行代码添加到该列。 这表示在文本模式下修改了该列。
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    下表概述了文本模式视图中的关键行：
 

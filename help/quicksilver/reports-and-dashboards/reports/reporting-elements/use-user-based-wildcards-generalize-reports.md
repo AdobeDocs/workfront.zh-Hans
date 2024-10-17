@@ -6,7 +6,7 @@ description: 在构建某些报表元素时，您可以使用通配符而不是�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -78,8 +78,6 @@ ht-degree: 1%
 1. 在&#x200B;**开始键入名称……**&#x200B;框中，键入： `$$USER.ID`或`$$USER.name`（如果希望报告显示有关登录用户的信息，基于其名称）。 您可以插入引用登录用户的组、团队、公司或其他信息的其他通配符。
 
    有关基于用户的通配符的完整列表，请参阅[通配符筛选器变量概述](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. 单击&#x200B;**保存+关闭**。
 

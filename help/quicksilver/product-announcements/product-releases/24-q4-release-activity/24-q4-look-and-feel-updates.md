@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,51 @@ ht-degree: 0%
 
 有关2024年第四季度版本的所有可用更改列表，请参阅[2024年第四季度版本概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
 
-## 功能板的外观更新
-
->[!NOTE]
->
->预览版本： 10月15日；面向所有客户的生产版本：随24.10版一起发布（2024年10月17日）
-
-我们已对功能板界面进行了各种更新，以匹配Workfront其他区域的设计，包括改进打印功能板时的打印预览屏幕。
-
-有关仪表板的详细信息，请参阅[创建和管理仪表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。 有关日历的详细信息，请参阅[日历报告概述](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
-
 ## 报表的外观和感觉更新
 
 >[!NOTE]
 >
->预览版本：从2024年9月12日开始；适用于所有客户的生产版本：各不相同，所有更新将于2024年11月8日之前可用
+>适用于所有客户的生产版本：从24.10版本（2024年10月17日）开始逐步推出，到2024年11月8日完全可用
 
 我们对报表界面进行了各种更新，以匹配Workfront其他领域的设计。 这些更新包括对各种报告功能的一些其他更改，包括：
 
-* 编辑报表列时用于进入文本模式的新按钮
-* 对相对日期通配符和通配符快捷键的功能进行了细微更改
-* 条件规则不再需要单击“完成”按钮即可创建
-* 用于报表中条件格式规则的扩展调色板
-* 更改了现有报表，以改进画布功能板中的使用
+* 为报表中的条件格式规则添加了扩展的调色板。 有关条件格式化的详细信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+* 在Report Builder中编辑列时，添加了新的“编辑文本模式”按钮以进入文本模式。 有关在文本模式下编辑报表视图的详细信息，请参阅[使用文本模式编辑视图](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* 在报告过滤器界面中添加了新切换开关，以按日期字段过滤时，在日历日期选择器和相对日期通配符文本字段之间切换。 此外，在报告筛选器界面中选择相对日期通配符快捷键，现在会根据您的选择自动填充关联的通配符字段。 有关在报告筛选器中使用相对日期通配符的更多信息，请参阅[使用基于日期的通配符来泛化报告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
+* 报告过滤器中的基于用户的通配符现在会根据您选择的字段类型建议自动完成的相关通配符。 有关报告筛选器中的基于用户的通配符的更多信息，请参阅[使用基于用户的通配符来泛化报告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)。
+* 现在，显示带有公开共享提示的报告时，不会为通过公共共享链接访问报告的所有用户应用提示。 直接访问报告的已登录用户仍然能够应用提示。 有关报告提示的信息，请参阅[向报告添加提示](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
+* 对现有报表进行了更改，从而提高了与画布功能板的兼容性。
 
-从2024年9月12日开始，这些更新将在预览版和生产版中单独实施。 所有更新将于2024年11月8日前在生产中完全针对所有客户实施。
+_从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实施。 最初，只有少数客户可以使用更改，并且这些更改会随着时间推移逐渐变得可用，直到在2024年11月8日之前完全向所有客户提供。_
 
-有关Workfront中报表的更多信息，请参阅[开始使用报表](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)。
+## 功能板的外观更新
+
+>[!NOTE]
+>
+>适用于所有客户的生产版本：从24.10版本（2024年10月17日）开始逐步推出，到2024年11月8日完全可用
+
+我们已对功能板界面进行了各种更新，以匹配Workfront其他区域的设计。 这些更新包括对各种仪表板功能的一些其他更改，包括：
+
+* 打印仪表板时的打印预览屏幕已得到改进。 有关打印功能板的信息，请参阅[]
+
+有关仪表板的一般信息，请参阅[创建和管理仪表板](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)。
+
+_从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实施。 最初，只有少数客户可以使用更改，并且这些更改会随着时间推移逐渐变得可用，直到在2024年11月8日之前完全向所有客户提供。_
+
+## 过滤器和视图的外观更新
+
+>[!NOTE]
+>
+>适用于所有客户的生产版本：从24.10版本（2024年10月17日）开始逐步推出，到2024年11月8日完全可用
+
+我们已对筛选器和视图界面进行了各种更新，以匹配Workfront其他区域的设计。 这些更新包括对视图和旧版过滤器界面的一些其他更改，包括：
+
+* 为报表中的条件格式规则添加了扩展的调色板。 有关条件格式化的详细信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+* 已添加新的“编辑文本模式”按钮，以在创建新视图时编辑列时进入文本模式。 有关在文本模式下编辑视图的详细信息，请参阅[使用文本模式编辑视图](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)。
+* 在旧版过滤器界面中添加了一个新的切换开关，在按日期字段过滤时，可在日历日期选择器和相对日期通配符文本字段之间切换。 此外，在报告筛选器界面中选择相对日期通配符快捷键，现在会根据您的选择自动填充关联的通配符字段。
+* 旧版过滤器中，基于用户的通配符现在会根据您选择的字段类型，建议自动完成的相关通配符。 有关使用旧版筛选器的更多信息，请参阅[在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+
+_从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实施。 最初，只有少数客户可以使用更改，并且这些更改会随着时间推移逐渐变得可用，直到在2024年11月8日之前完全向所有客户提供。_
 
 ## “系统首选项”页面的外观更新
 

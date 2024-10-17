@@ -6,9 +6,9 @@ description: 您可以从各种列表、报表、功能板和搜索中导出Adob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
   >导出列中包含收藏集引用的报告可能会导致错误，即使该报告在列出的导出限制内也是如此。 如果引用的集合过大，导出过程会超时并随后导致错误。
   >
   >要避免此错误，请在导出之前排除引用大型集合的列或减小引用集合的大小。
-  >
 
   如果报表中的项目数超过这些限制，您将收到导出失败错误。 将您在屏幕上看到的项目数减少到小于或等于这些限制的数字，以便能够导出结果。
 
@@ -151,6 +150,14 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 * **10MB文件大小：**&#x200B;任何计划传送的导出报告的文件大小限制。 如果附加到电子邮件的导出文件大于5MB，则会通过电子邮件发送可下载文件的链接，而不是附加的导出报告。
 * **65,530个超链接：**&#x200B;这是Excel对包含65,530个以上超链接的文档施加的限制。 手动导出这些文档或在送达报表中发送它们时，无法打开它们。 请注意，一个Excel文档可能只有200行数据，但如果文档中有超过65,530个链接，则该文档不会打开。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。 
 * **256列**：这是Excel对包含超过256列的文档施加的限制。 这些文档无法手动导出，也不能在已送达的报告中发送。 此限制仅存在于Excel文件中，而不存在于其他支持的格式中。
+
+  >[!IMPORTANT]
+  >
+  >导出包含“报告”列的报告可能会导致错误，即使该报告不在列出的导出限制之内。
+  >
+  >如果您使用导出功能与其他人共享包含“报表”列的报表，请考虑改为通过公开该报表来共享该报表。 有关公开报告的详细信息，请参阅[在Adobe Workfront中共享报告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)。
+  >
+  >如果您使用导出功能从外部评估数据，我们建议您改用Workfront Data Connect 。 有关详细信息，请参阅[Workfront Data Connect概述](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)。
 
 如果尝试导出超出限制的数据，则可能不会在导出中收到所有预期的数据。 而是在此限制内生成修改后的报表。
 

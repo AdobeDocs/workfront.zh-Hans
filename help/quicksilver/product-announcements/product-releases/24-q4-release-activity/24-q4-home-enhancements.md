@@ -4,9 +4,9 @@ description: 2024年第四季度主页增强功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
 
 * **已重命名构件**：此构件的名称现在为“我的审批”。
 * **已添加我已提交的审批作为筛选器选项**：您现在可以使用此小组件查看您在新主页中提交的审批。
+* **截止日期**：现在，如果已设置验证截止日期，则可以查看该截止日期。 如果未设置截止日期，则截止日期默认为创建日期。
 
 有关详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 

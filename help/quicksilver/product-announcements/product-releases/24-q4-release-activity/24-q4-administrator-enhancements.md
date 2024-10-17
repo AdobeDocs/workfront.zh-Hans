@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 本页介绍了在2024年第四季度版本中对“预览”环境所做的所有管理员增强。 如上所述，这些增强功能将在“生产”环境中提供。
 
 有关2024年第四季度发布周期中此时可用的所有更改列表，请参阅[2024年第四季度发布概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)。
+
+## 环境提升中现在提供了访问级别
+
+>[!NOTE]
+>
+>预览版本： 2024年10月17日；适用于所有客户的生产版本：使用24.10版本（2024年10月17日）
+
+为了扩展环境提升功能的功能，我们添加了包含访问级别的功能。 现在，您可以在沙盒环境中配置访问级别，然后将该访问级别提升到生产环境。
+
+以前，访问级别不可用于环境提升。
+
+有关可用于环境升级对象的详细信息，请参阅环境升级概述一文中的[环境升级支持的对象](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## 自定义表单上的计数器显示字段数
 
