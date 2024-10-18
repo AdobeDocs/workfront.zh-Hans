@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 使用“我的更新”区域
 description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您决策的审批或您已经包含的对话。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # 使用[!UICONTROL 我的更新]区域
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 您可以使用[!UICONTROL 我的更新]区域快速查看等待您决策的审批或您已经包含的对话。
 
@@ -28,6 +25,8 @@ ht-degree: 0%
 如果您的许可证类型与“审阅”不同，[!DNL Workfront]或组管理员必须将[!UICONTROL 我的更新]区域添加到您的布局模板中，才能在主菜单中显示该区域。 有关信息，请参阅[使用布局模板自定义[!UICONTROL 主菜单]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -57,6 +56,8 @@ ht-degree: 0%
 </table>
 
 *要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。 有关详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 

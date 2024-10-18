@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 2%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 2%
       * [在优先级中添加和管理快速链接](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * 主页 {#home}
       * [主页](workfront-basics/using-home/home.md)
-      * 新建主页{#new-home}
-         * [新建主页](workfront-basics/using-home/new-home/new-home.md)
-         * [新主页入门](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [新建主页小组件过滤器概述](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [使用“我的工作”小组件管理您的工作](workfront-basics/using-home/new-home/my-work-widget.md)
       * 使用主页区域{#use-home-area}
          * [使用“主页”区域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [从旧主页移动到新主页](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [从旧主页移至优先级](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [在“主页”区域的工作列表中显示项目](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [主页小组件过滤器概述](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [使用“我的工作”小组件管理您的工作](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [排定主页区域工作的优先级](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [在“主页”区域管理工作和团队请求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [在主页区域更新或编辑工作项](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [从主页区域创建工作项](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [从主页区域创建工作项和项目](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [在主页区域的工作项上记录时间](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在“主页”区域将项目标记为“完成”](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [主页日程表视图](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 从主页区域创建工作项
-description: 您可以从[!UICONTROL 主页]区域创建工作项。 您可以为自己创建个人任务、向其他用户请求工作或向特定项目添加任务。
-author: Nolan
+title: 从主页区域创建工作项和项目
+description: 您可以从[!UICONTROL 主页]区域创建工作项和项目。
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 
-# 从主页区域创建工作项
+# 从主页区域创建工作项和项目
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+您可以从[!UICONTROL 主页]区域创建工作项和项目。 在家中，您可以
 
-您可以从[!UICONTROL 主页]区域创建工作项。 您可以为自己创建个人任务、向其他用户请求工作或向特定项目添加任务。
+* 为自己创建个人待办事项
+* 提交请求
+* 将任务和问题添加到特定项目
+* 从模板、空白项目创建项目或导入MS项目。
 
 ## 访问要求
 
@@ -51,71 +52,117 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 创建个人任务
+## 创建个人待办事项
 
-您可以在[!UICONTROL 主页]区域创建仅供您使用的个人任务：
-
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 单击&#x200B;**[!UICONTROL 新建任务]** > **[!UICONTROL 个人]**。
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中，指定任务的名称。
-1. （可选）单击&#x200B;**[!UICONTROL 选择日期]**，然后选择任务到期的日期。 这会设置任务的[!UICONTROL 计划完成日期]。\
-   您可以通过单击右侧面板中的日期或编辑&#x200B;**[!UICONTROL 直接在任务中完成]**&#x200B;日期来更改&#x200B;**[!UICONTROL 规划完成日期]**。
-
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存任务。\
-   该任务已分配给您，并且在[!UICONTROL 主页]区域可用。
-
->[!NOTE]
->
->* 创建个人任务时，该任务存储在[!UICONTROL Workfront]中不可搜索的“隐藏”项目中。 该项目名为“&lt;用户名>‘的任务>”。 “用户名”是创建任务的用户的全名。 仅当从任务的痕迹导航单击[!UICONTROL 主页]区域中的个人任务时，才能访问此项目，例如。
->
->* 与常规项目任务不同，个人任务在Workfront界面中可见的字段集有限，并且不会影响任何项目的时间线或进度。 将个人任务重新分配给另一个用户会将所有任务字段添加至个人任务，但该任务仍保留在创建该任务的用户的个人项目中。
->
->
->* 仅当个人任务记录了小时数或将它们固定到时间表时，才会显示在时间表上。 仅当为任务记录了小时数时，您才可以将个人任务固定到时间表。 有关详细信息，请参阅[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)。
-> 
->* 如果要将个人任务变成常规工作流的一部分，我们建议您创建项目并将任何个人任务移动到项目中。
->
-> 个人任务的![[!UICONTROL 项目]](assets/createworkitems-personal--project-350x105.png)
-
-## 请求另一个用户的工作
-
-您可以直接从“主页”区域向其他用户请求工作。 如本节所述，当您向其他用户请求工作时，该任务将作为请求显示在用户的“主页”区域中，直到用户单击&#x200B;**[!UICONTROL 处理该任务]**&#x200B;为止。
-
-要从[!UICONTROL 主页]区域向其他用户请求工作，请执行以下操作：
+您可以在[!UICONTROL 主页]区域创建仅供您使用的个人待办事项：
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 单击&#x200B;**[!UICONTROL 新建任务]**，然后选择&#x200B;**[!UICONTROL 请求]**。
+1. （视情况而定）将待办事项小组件添加到您的主屏幕。 单击&#x200B;**自定义**，然后找到&#x200B;**待办事项**。
+1. 转到&#x200B;**待办事项**&#x200B;小组件，然后单击&#x200B;**添加待办事项**。
+1. 键入
+1. （可选）单击&#x200B;**日期**&#x200B;图标![](assets/date-icon.png)以添加项的截止日期。
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中，指定任务的名称。
-1. 在&#x200B;**[!UICONTROL 分配给]**&#x200B;字段中，开始键入要分配的用户、团队或角色的名称，然后在名称出现在下拉菜单中时单击该名称。
-1. 在[!UICONTROL 添加为]下拉菜单中，选择添加任务还是问题。
-1. 单击&#x200B;**[!UICONTROL 选择日期]**，然后选择任务到期的日期和时间。
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存任务。\
-   该任务将作为工作请求显示在指定用户的[!UICONTROL 主页]区域中。
 
-## 将任务或问题添加到项目
+## 将任务添加到项目
 
-您可以直接从主页区域将任务或问题添加到现有项目：
+您可以直接从主页区域将任务添加到现有项目：
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
-1. 单击&#x200B;**[!UICONTROL 新建任务]**，然后选择&#x200B;**[!UICONTROL 项目任务]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）将&#x200B;**我的任务**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，然后找到&#x200B;**我的任务**。
+1. 转到&#x200B;**我的任务**&#x200B;小组件，然后单击&#x200B;**新建**。
+   ![](assets/create-new-task.png)
+1. 在&#x200B;**新建任务**&#x200B;对话框中，输入任务名称。
+1. 开始键入项目名称，然后从列表中选择该名称。
+1. （可选）在以下字段中输入信息：
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | 字段 | 说明 |
+   |----------|----------|
+   | **描述** | 输入说明。 |
+   | **分配** | 分配用户。 |
+   | **持续时间** | 输入持续时间。 |
+   | **计划完成日期** | 选择计划的完成日期。 |
+   | **更多选项** | 选择更多选项以配置任务的更多设置。 有关创建任务的详细信息，请参阅[编辑任务](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。 |
 
-1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中，指定任务或问题的名称。
-1. 在&#x200B;**[!UICONTROL 分配给]**&#x200B;字段中，开始键入要分配的用户、团队或角色的名称，然后在名称出现在下拉菜单中时单击该名称。
-1. 开始键入要在其中创建任务或问题的项目名称，然后在名称出现在下拉菜单中时单击该名称。
+1. 单击&#x200B;**创建任务**。
 
-   >[!IMPORTANT]
-   >
-   >仅当项目[!UICONTROL 状态]设置为[!UICONTROL 当前]时，任务或问题才会出现在[!UICONTROL 工作列表]中。
 
-1. （视情况而定）要创建问题，请从&#x200B;**[!UICONTROL 添加为]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL 问题]**。 默认情况下，已选择&#x200B;**[!UICONTROL 任务]**。
+## 将问题添加到项目
 
-1. 单击&#x200B;**[!UICONTROL 选择日期]**，然后选择任务到期的日期和时间。
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以保存任务。
+您可以直接从主页区域将问题添加到现有项目：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）将&#x200B;**我的问题**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，然后找到&#x200B;**我的问题**。
+1. 转到&#x200B;**我的问题**&#x200B;小组件，然后单击&#x200B;**新建**。
+   ![](assets/create-new-issue.png)
+1. 在&#x200B;**新问题对话框**&#x200B;框中，开始键入项目名称，然后从列表中选择该名称。
+1. 输入问题名称。
+1. （可选）在以下字段中输入信息：
+
+   | 字段 | 说明 |
+   |----------|----------|
+   | **描述** | 输入说明。 |
+   | **分配** | 分配用户。 |
+   | **优先级** | 选择优先级。 |
+   | **文档** | 上载文档。 |
+
+1. 单击&#x200B;**保存新问题**。
+
+## 创建请求
+
+您可以直接从“主页”区域创建请求：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）将&#x200B;**我的请求**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，查找&#x200B;**我的请求**。
+1. 转到&#x200B;**我的请求**&#x200B;构件，然后单击&#x200B;**新建**。
+   ![](assets/create-new-request.png)
+
+1. 在&#x200B;**新建请求**&#x200B;对话框中，开始键入请求队列的名称。
+1. 填写相关字段。
+1. 单击&#x200B;**提交**。
+
+有关提交请求的更多信息，请参阅[创建并提交请求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+## 创建项目
+
+您可以直接从“主页”区域创建项目：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）将&#x200B;**我的项目**&#x200B;构件添加到您的主屏幕。 单击&#x200B;**自定义**，然后查找&#x200B;**我的项目**。
+1. 转到&#x200B;**我的项目**&#x200B;小组件，然后单击&#x200B;**新建**。
+   ![](assets/create-new-project.png)
+1. 选择下列选项之一：
+
+   | 字段 | 说明 |
+   |----------|----------|
+   | 从模板 | 转到[使用模板创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)，了解有关从模板创建项目的详细说明。 |
+   | 空白项目 | 转到[从头开始创建项目](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch)，了解有关创建空白项目的详细说明。 |
+   | 导入 MS 项目 | 转到[从Microsoft项目导入项目](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md)，了解有关导入MS项目的详细说明。 |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

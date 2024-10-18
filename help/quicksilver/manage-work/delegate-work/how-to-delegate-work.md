@@ -6,7 +6,7 @@ description: 您可以在外出时临时委派分配给您的工作。 本文介
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 0%
@@ -107,7 +107,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 1. 转到&#x200B;[!UICONTROL **主页**]&#x200B;区域。
 1. 请确保已将&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任务**]&#x200B;或&#x200B;[!UICONTROL **我的问题**]&#x200B;构件添加到您的&#x200B;[!UICONTROL **主页**]。
 
-   有关信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   有关信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. 单击&#x200B;[!UICONTROL **我的工作**]、[!UICONTROL **我的任务**]&#x200B;或&#x200B;[!UICONTROL **我的问题**]&#x200B;小组件的左上角的&#x200B;[!UICONTROL **代理**]。
 

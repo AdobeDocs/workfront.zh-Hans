@@ -6,9 +6,9 @@ description: 以下通知告知您已在Adobe Workfront中发出的请求。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
    <td><strong>即时</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我已分配给其他人的个人任务已完成</strong> </p> <p>当某个临时任务完成时，会向将该任务分配给其他人的用户发送通知。 </p> <p>有关临时任务的详细信息，请参阅<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">从[！UICONTROL主页]区域创建工作项</a>。</p> <p>即时通知电子邮件的主题是： <em>任务完成： &lt;任务名称&gt;</em></p> <p> <p>注意：您无法为每日摘要电子邮件配置此通知。</p> </p> </td> 
+   <td> <p><strong>我已分配给其他人的个人任务已完成</strong> </p> <p>当某个临时任务完成时，会向将该任务分配给其他人的用户发送通知。 </p> <p>有关临时任务的详细信息，请参阅<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">从[！UICONTROL主页]区域创建工作项和项目</a>。</p> <p>即时通知电子邮件的主题是： <em>任务完成： &lt;任务名称&gt;</em></p> <p> <p>注意：您无法为每日摘要电子邮件配置此通知。</p> </p> </td> 
    <td> 任务名称<br>默认项目名称（接收个人任务的用户的个人项目）<br>任务参考编号<br>任务所有者名称<br>新任务状态<br>完成任务的日期和时间<br>上一任务状态<br><strong>[！UICONTROL查看更多详细信息]</strong>按钮<br><br><br></td> 
    <td><strong>即时</strong> </td> 
   </tr> 

@@ -6,29 +6,35 @@ description: 您可以使用[!UICONTROL 主页]区域中的“日历”视图来
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # 使用[!UICONTROL 主页日历]视图
 
-您可以使用[!UICONTROL 主页]区域中的“日历”视图来管理您的工作日和工作分派。 只有您可以查看和管理您的[!UICONTROL 主页日历]。
+>[!IMPORTANT]
+>
+>此功能已于2014年10月17日弃用旧版主目录时移除。
+
+<!--
+
+You can use the Calendar view in the [!UICONTROL Home] area to manage your work day and work assignments. Only you can view and manage your [!UICONTROL Home Calendar].
 
 >[!NOTE]
 >
->[!UICONTROL 主页]区域中的[!UICONTROL 日历]视图与[!DNL Adobe Workfront] [!UICONTROL 日历]报告不同，该报告是一个动态报告，提供了您工作的可视化呈现。 有关[!DNL Workfront] [!UICONTROL 日历]报告的信息，请参阅[日历报告概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+>The [!UICONTROL Calendar] view in the [!UICONTROL Home] area is different from a [!DNL Adobe Workfront] [!UICONTROL Calendar] report, which is a dynamic report that provides a visual representation of your work. For information about the [!DNL Workfront] [!UICONTROL Calendar] report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future. (NOTE: From Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
->  -->
+>  
 
 
-## 访问要求
+## Access requirements
 
-您必须具有以下权限才能执行本文中的步骤：
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,239 +44,241 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 许可证*</strong></td> 
-   <td> <p>[！UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>[！UICONTROL Edit]对任务和问题的访问权限</p> <p>注意：如果您仍然没有访问权限，请询问您的[!DNL Workfront]管理员是否对您的访问级别设置了其他限制。 有关[!DNL Workfront]管理员如何修改访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>您想要添加到日历中的任务和问题的[！UICONTROL Contribute]权限或更高版本</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL Contribute] permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## 在[!UICONTROL 主页日历]中计划工作项
+## Schedule work items in your [!UICONTROL Home Calendar]
 
-您可以使用[!UICONTROL 主页日历]安排您一周的工作项目。
+You can use the [!UICONTROL Home Calendar] to schedule work items for your week.
 
 >[!NOTE]
 >
->将工作项放在[!UICONTROL 主页日历]上不会更改与该工作项关联的现有日期。
+>Placing a work item on your [!UICONTROL Home Calendar] does not change the existing dates associated with the work item.
 
-要将[!DNL Workfront]工作项添加到您的日历，请执行以下操作：
+To add a [!DNL Workfront] work item to your calendar:
 
-1. 转到[!UICONTROL 主页日历]视图，如[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)中所述。
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-   分配给您或您的组、团队或工作角色的所有工作项都将显示在左侧面板中。 您可以对列表进行排序和筛选，以仅显示某些项目。
+   All the work items assigned to you or your groups, teams, or job roles display in the left panel. You can sort the list and filter it to display only certain items.
 
-   有关详细信息，请参阅本文后面的[筛选和排序工作项](#filter-and-sort-work-items)。
+   For more information, see [Filter and sort work items](#filter-and-sort-work-items) later in this article.
 
-1. 从左侧面板中，将工作项拖动到要处理该工作的日期和时间。
+1. From the left panel, drag the work item to the day and time when you want to work on it.
 
-   如果您安排自己在某个项目的计划完成日期之后处理该项目，或者处理时间超过该项目的计划小时数，则该工作项目将显示为红色，并会显示警告。
+   If you schedule yourself to work on an item after its planned completion date or for more time than the number of hours it's planned for, the work item displays in red and a warning appears.
 
-   要了解工作项到期日期以及它们如何影响[!UICONTROL 主页日历]中的分配时间，请参阅[[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
+   To learn about work item due dates and how they affect allocated time in the [!UICONTROL Home Calendar], see  [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. 执行以下任一操作：
+1. Do any of the following:
 
-   * **要计划多天的工作项：**&#x200B;重复步骤2以在您想要处理该项的每一天和时间添加该项。
-   * **要修改日历项目的持续时间：**&#x200B;将光标悬停在项目的下边缘上，直到光标变为双箭头，然后将下边缘拖动到所需的结束时间。
-   * **要删除日历项目：**&#x200B;将鼠标悬停在该项目上，然后单击显示的[!UICONTROL 垃圾桶]图标。
+   * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
+   * **To modify the duration of a calendar item:** Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
+   * **To delete a calendar item:** Hover over the item, then click the [!UICONTROL trashcan] icon that is displayed.
 
-## 更新[!UICONTROL 主页日历]上的工作项
+## Update a work item on your [!UICONTROL Home Calendar]
 
-您可以更新显示在[!UICONTROL 主页日历]视图中的工作项。 您的更新也会显示在实际工作项的[!UICONTROL 更新]选项卡上。
+You can make updates to work items that display in [!UICONTROL Home Calendar] view. Your updates also appear on the [!UICONTROL Updates] tab of the actual work item.
 
-1. 转到[!UICONTROL 主页日历]视图，如[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)中所述。
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. 打开要更新的工作项的[!UICONTROL 详细信息]面板：
+1. Open the [!UICONTROL Details] panel for the work item you want to update:
 
-   * 从左侧面板：选择工作项，然后单击&#x200B;**[!UICONTROL 详细信息]**。
-   * 在日历中：单击计划的日历事件。
+   * From the left panel: Select the work item, then click **[!UICONTROL Details]**.
+   * From the calendar: Click the scheduled calendar event.
 
-   工作项的详细信息将显示在窗口右侧显示的面板中。
+   Details for the work item display in a panel that appears on the right of the window.
 
    ![](assets/click-cal-item-to-see-details-350x217.png)
 
-1. 执行以下任一操作以更新工作项：
+1. Do any of the following to update the work item:
 
-   * 在&#x200B;**[!UICONTROL 开始新的更新]**&#x200B;框中，键入您的更新，指定以下任何信息，然后单击&#x200B;**[!UICONTROL 更新]**。
+   * In the **[!UICONTROL Start a new update]** box, type your update, specify any of the following information, then click **[!UICONTROL Update]**.
 
-     <table style="table-layout:auto">
+      <table style="table-layout:auto">
       <col>
       <col>
       <tbody>
        <tr>
-        <td role="rowheader"><strong>[！UICONTROL Notify]</strong></td>
-        <td><p> 标记要通知您的更新的用户。 有关详细信息，请参阅<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">为其他人标记更新</a>。</p><p> </p></td>
+        <td role="rowheader"><strong>[!UICONTROL Notify]</strong></td>
+        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p> </p></td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[！UICONTROL提交日期]</strong></td>
-        <td>在下拉日历中，选择提交完成工作项的日期。 有关设置[！UICONTROL提交日期]的信息，请参阅<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[！UICONTROL提交日期]概述</a>。</td>
+        <td role="rowheader"><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the [!UICONTROL Commit Date], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] overview</a>.</td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[！UICONTROL进展如何？]</strong></td>
-        <td>为任务或问题选择新条件。 有关任务和问题条件的信息，请参阅<a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">任务和问题的更新条件</a>。</td>
+        <td role="rowheader"><strong>[!UICONTROL How's this going?]</strong></td>
+        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
        </tr>
        <tr>
-        <td role="rowheader"><strong>[！UICONTROL私有于]我的公司</strong></td>
-        <td>禁用以防止公司外部的用户查看此更新。</td>
+        <td role="rowheader"><strong>[!UICONTROL Private to] my company</strong></td>
+        <td>Disable to prevent users outside your company from being able to view this update.</td>
        </tr>
       </tbody>
      </table>
 
-   * 单击项目的当前&#x200B;**[!UICONTROL 状态]**，然后在显示的列表中单击新状态。 有关详细信息，请参阅[审批流程概述](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)。
+   * Click the current **[!UICONTROL Status]** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-     >[!NOTE]
-     >
-     >如果您将分配给您的工作项标记为[!UICONTROL 完成 — 未决批准]，您可能会注意到它不再出现在您的日历中。 这是因为在设置为批准该项的用户将其标记为[!UICONTROL 已批准]之前，不需要您执行任何进一步的操作。 如果发生这种情况，您将能够在日历中看到该项目作为[!UICONTROL 已批准]项目。
+      >[!NOTE]
+      >
+      >If you mark a work item assigned to you as [!UICONTROL Complete - Pending Approval], you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as [!UICONTROL Approved]. When this occurs, you will be able to see the item on your calendar as an [!UICONTROL Approved] item.
 
-   * （可选）要回复现有评论或更新，请单击&#x200B;**[!UICONTROL 回复]**，在&#x200B;**[!UICONTROL 通知]**&#x200B;框中指定任意收件人，键入您的回复，然后单击&#x200B;**[!UICONTROL 回复]**。\
+   * (Optional) To reply to an existing comment or update, click **[!UICONTROL Reply]**, specify any recipients in the **[!UICONTROL Notify]** box, type your reply, then click **[!UICONTROL Reply]**.\
 
-     如果您需要有关指定收件人的信息，请参阅[标记其他人的更新](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
+      If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. （可选）要关闭&#x200B;**[!UICONTROL 详细信息]**&#x200B;面板，请单击该面板之外的任意位置。
+1. (Optional) To close the **[!UICONTROL Details]** panel, click anywhere outside it.
 
-## 更新集成日历中的事件
+## Update events from integrated calendars
 
-要更新[!UICONTROL 主页日历]中的集成日历事件，请执行以下操作：
+To update the integrated calendar events in your [!UICONTROL Home Calendar]:
 
-1. 转到[!UICONTROL 主页日历]视图，如[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)中所述。
-1. 单击[!UICONTROL 主页日历]右上角的&#x200B;**[!UICONTROL 刷新日历]**。
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click **[!UICONTROL Refresh calendars]** in the upper right corner of the [!UICONTROL Home Calendar].
 
    ![](assets/refresh-qs-350x360.png)
 
-   当您打开[!UICONTROL 主页日历]视图或刷新[!UICONTROL 主页日历]时，集成日历事件会自动更新。
+   Integrated calendar events update automatically when you open your [!UICONTROL Home Calendar] view or when you refresh your [!UICONTROL Home Calendar].
 
-## 筛选和排序工作项
+## Filter and sort work items
 
-1. 转到[!UICONTROL 主页日历]视图，如[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)中所述。
-1. 单击&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单。
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click the **[!UICONTROL Filter]** drop-down menu.
 
    >[!NOTE]
    >
-   >某些筛选器选项基于对象（任务、请求、问题、审批、验证和个人），而其他筛选器选项则基于状态（[!UICONTROL 正在处理]、[!UICONTROL 准备开始]、[!UICONTROL 未就绪]和[!UICONTROL 已完成]）。 如果未选择任何状态，[!UICONTROL 主页日历]将显示任何状态的所有选定对象。 同样，如果未选择任何对象，则会显示任何选定状态的所有对象。
+   >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state ([!UICONTROL Working On], [!UICONTROL Ready to Start], [!UICONTROL Not Ready], and [!UICONTROL Completed]). If no state is selected, the [!UICONTROL Home Calendar] displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. 从以下筛选器选项中进行选择，以指定要显示的项目类型：
+1. Select from the following filter options to specify the types of items you want to display::
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
-      <td><span>显示并选择所有项目。 这包括任务、</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">问题</span><span>、审批、个人任务和已完成的任务和问题。</span></td> 
+      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td><span>Displays and selects all items. This includes tasks,</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span>, approvals, personal tasks and completed tasks and issues.</span></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL正在处理的任务]</strong></td> 
-      <td> <p><span>仅显示您正在处理的任务。 这些是分配给您的任务，您已为其单击[！UICONTROL处理此项工作]按钮。</span> </p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Working On]</strong></td> 
+      <td> <p><span>Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the [!UICONTROL Work On It] button.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL任务准备开始]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Ready to Start]</strong></td> 
       <td> 
        <div> 
-        <p>仅显示已准备好开始的任务。 以下两个语句都必须为true：</p> 
+        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
         <ul style="list-style-type: square;"> 
-         <li> <p>这些任务及其父任务没有阻止它们进行处理的前置任务或任务限制。</p> </li> 
-         <li> <p>任务的[！UICONTROL计划开始日期]是过去的日期，或者最多为两周后的日期。</p> </li> 
+         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
+         <li> <p>The [!UICONTROL Planned Start Date] of the tasks is in the past or up to two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL任务未就绪]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Not Ready]</strong></td> 
       <td> 
        <div> 
-        <p>仅显示尚未准备就绪的任务。 以下任一语句必须为true：</p> 
+        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
         <ul> 
-         <li> <p>这些任务及其父任务可能具有阻止它们进行处理的前置任务或任务限制。</p> </li> 
-         <li> <p>这些任务的[！UICONTROL计划开始日期]在未来的两周以上。</p> </li> 
+         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
+         <li> <p>The tasks have a [!UICONTROL Planned Start Date] that is more than two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL处理的问题]</strong></td> 
-      <td> <p>仅显示您正在处理的问题。 这些是分配给您的问题，您已针对这些问题单击[！UICONTROL处理此项工作]按钮。</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Working On]</strong></td> 
+      <td> <p>Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the [!UICONTROL Work On It] button.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>已请求[！UICONTROL问题]</strong></td> 
-      <td><span>仅显示已分配给您但尚未单击[！UICONTROL Work On It]按钮的问题。</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Requested]</strong></td> 
+      <td><span>Displays only issues that you are assigned to but for which you have not clicked the [!UICONTROL Work On It] button.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL Personal]</strong></td> 
-      <td>仅显示个人任务。 这些是您创建为[！UICONTROL待办事项的任务，如文章<a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">从[！UICONTROL主页]区域创建工作项</a>中的<a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[！UICONTROL创建个人任务]</a>节中所述。</td> 
+      <td role="rowheader"><strong>[!UICONTROL Personal]</strong></td> 
+      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[!UICONTROL Create a personal task]</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items from the [!UICONTROL Home] area</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL审批]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 
       <td> 
        <div> 
-        <p>仅显示分配给您或委托的审批以及您已提交的审批。 审批包括审批工作项（项目、任务和问题），以及审批文档、验证、访问请求和工时表。 有关审批的更多信息，请参阅以下文章：</p> 
+        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
         <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">查看审批</a> </li> 
+         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a> </li> 
         </ul> 
         <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">管理审批</a> </p> </li> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
         </ul> 
-        <p>注意：您提交的批准以及您也是批准者之一的批准将被计算两次。 </p> 
+        <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice. </p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已完成]</strong></td> 
-      <td><span>仅显示已完成的任务、问题和个人任务。 系统将显示前两周的已完成工作，并会按照周分组到“工作列表”中。 不包括审批。</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Completed]</strong></td> 
+      <td><span>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/calendar-filters-nwe-350x392.png)
 
-1. 要对您的工作列表进行分组和排序，请单击&#x200B;**[!UICONTROL 分组依据]**&#x200B;下拉菜单，然后选择要使用的条件。
+1. To group and sort your list of work, click the **[!UICONTROL Group by]** drop-down menu, then select the criteria you want to use.
 
-   项目会按照您指定的标准和顺序在日历的左侧列出。
+   The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
    ![](assets/home-calendar-sort-group-nwe-350x288.png)
 
-   从以下选项中进行选择：
+   Choose from the following options:
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL计划完成]</strong></td>
-        <td>任务和问题按[！UICONTROL计划完成日期]的顺序排序。 要了解有关[！UICONTROL计划完成日期]的更多信息，请参阅<a href="../../../manage-work/tasks/task-information/planned-hours.md">计划小时数概述</a>。</td>
+        <td><strong>[!UICONTROL Planned Completion]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Completion dates]. To learn more about [!UICONTROL Planned Completion dates], see <a href="../../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.</td>
         <td></td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL计划开始]</strong></td>
-        <td>任务和问题按[！UICONTROL计划开始日期]的顺序排序。 有关任务[！UICONTROL计划开始日期]的更多信息，请参阅<a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">任务[！UICONTROL计划开始日期]的概述</a>。</td>
+        <td><strong>[!UICONTROL Planned Start]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Start dates]. For more information about task [!UICONTROL Planned Start Dates], see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">Overview of the task [!UICONTROL Planned Start Date]</a>.</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL提交日期]</strong></td>
-        <td>任务和问题按[！UICONTROL提交日期]的顺序排序。 要了解有关[！UICONTROL提交日期]的更多信息，请参阅<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[！UICONTROL提交日期]概述</a>。</td>
+        <td><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Commit dates]. To learn more about [!UICONTROL Commit dates], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[!UICONTROL Commit Date] overview</a>.</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL项目]</strong></td>
-        <td>工作项按项目排序。</td>
+        <td><strong>[!UICONTROL Project]</strong></td>
+        <td>Work items sort by project.</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL我的优先级]</strong></td>
-        <td>项目按您选择的顺序显示。 有关详细信息，请参阅<a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">在[！UICONTROL主页]区域</a>中优先处理工作。</td>
+        <td><strong>[!UICONTROL My Priority]</strong></td>
+        <td>Items display in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">Prioritize work in the [!UICONTROL Home] area</a>.</td>
     </tr>
    </table>
 
-## 导航到其他周
+## Navigate to a different week
 
-1. 按照[查看[!UICONTROL 主页日历]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)中的说明，转到您的[!UICONTROL 主页日历]视图。
-1. 在&#x200B;**[!UICONTROL 日历工具栏]**&#x200B;上，单击日期指示器的左箭头将日历视图移回一周，或者单击右箭头将日历视图移回一周。
+1. Go to your [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. On the **[!UICONTROL Calendar toolbar]**, click the left arrow of the date indicator to move the calendar view back one week or the right arrow to move forward one week.
 
    ![](assets/week-arrows-350x206.png)
 
-   您可以单击&#x200B;**[!UICONTROL 今天]**&#x200B;以返回当前周。
+   You can click **[!UICONTROL Today]** to return to the current week.
 
-## 指定查看的日历
+## Specify which calendars you view
 
-您可以指定要在[!UICONTROL 主页日历]上查看的集成日历，如PTO、生日或节假日日历。 有关说明，请参阅[配置您的[!UICONTROL 主页日历]视图设置](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
+You can specify which integrated calendars, such as your PTO, Birthdays, or Holidays calendar, you want to view on your [!UICONTROL Home Calendar]. For instructions, see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

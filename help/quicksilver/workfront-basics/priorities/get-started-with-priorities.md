@@ -5,9 +5,9 @@ description: 优先级是为任务所有者定制的简化、直观的体验。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 3%
 <table>
   <tbody>
    <tr>
-   <th>过滤器</th>
+   <th>筛选条件</th>
    <th>描述</th>
    </tr>
     <tr>
@@ -183,7 +183,7 @@ ht-degree: 3%
 
 目前，我们建议在新主页中使用我的审批和所有审批构件。
 
-有关详细信息，请参阅[新主页中的添加、编辑或删除构件](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)。
+有关详细信息，请参阅[添加、编辑或删除主页中的小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 
 ## 使用[!DNL Catch me up]查看您错过了什么[!BADGE 即将推出]{type=Informative}

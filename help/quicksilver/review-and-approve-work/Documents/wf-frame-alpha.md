@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ ht-degree: 1%
 
 您可以深入查看上面列出的类别，以获取更详细的视图。 “所有审批”小组件在新主页和画布功能板中提供。
 
-有关详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ### 做出总体决策后锁定您的审阅和批准
 

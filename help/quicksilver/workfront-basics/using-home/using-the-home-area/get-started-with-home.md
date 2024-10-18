@@ -2,176 +2,225 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: 开始使用[!UICONTROL 主页]
-description: '[!UICONTROL 主页]区域是您的一站式商店，可查找分配给您的任务、问题和审批。 有两种方式可以在[!UICONTROL 主页]区域查看您的工作，一种是从[!UICONTROL 工作列表]查看，另一种是从[!UICONTROL 日历]查看。'
-author: Nolan
+description: 主页可帮助您管理工作。 您可以自定义此灵活空间以突出显示您最重要的工作并简化任务、问题、请求和审批管理。
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 0%
+source-wordcount: '1190'
+ht-degree: 3%
 
 ---
 
-# 开始使用[!UICONTROL 主页]
+# 主页入门
 
 <!--Audited: 12/2023-->
 
-本文介绍[!DNL Adobe Workfront]中当前[!UICONTROL Home]区域的概述。 有关使用新[!UICONTROL 主页]的信息，请参阅[开始使用新主页](../new-home/get-started-with-new-home.md)。
-
-可通过两种方式查看您在当前[!UICONTROL 主页]区域中的工作：
-
-* 从[!UICONTROL 工作列表]
-* 从[!UICONTROL 日历]。
-
-## [!UICONTROL 工作列表]
-
-您可以在[!UICONTROL 工作列表]中的一个位置查看所有已分配的工作：
-
-![[!UICONTROL 工作列表]面板](assets/worklist-and-right-panel-home.png)
-
-查看当前[!UICONTROL 主页]区域中的以下部分，如上图突出显示的那样：
-
-* **A**：使用左侧面板筛选、排序和选择分配给您的工作。
-
-* **B**：在左侧面板中选择工作项后，使用右侧面板与自定义字段交互、进行更新并记录时间。
-
-有关使用[!UICONTROL 主页工作列表]的详细信息，请参阅以下文章：
-
-* [在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [从[!UICONTROL 主页]区域创建工作项](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-
-## [!UICONTROL 日历]
-
-您可以通过显示工作项的到期时间来显示您的工作，还可以通过在[!UICONTROL 主页]区域的[!UICONTROL 日历]中查看您的工作来阻止完成这些工作：
-
-![](assets/calendar-home-nwe-350x114.png)
-
-查看当前[!UICONTROL 主页]区域中的以下部分，如上图突出显示的那样：
-
-* **A**：使用[!UICONTROL 日历]视图创建需要完成的工作的可视地图。 只需单击[!UICONTROL 工作列表]上的工作项并将其拖到[!UICONTROL 日历]上即可阻止工作超时。
-
-* **B**：使用[!UICONTROL 日历]的同步选项与您的[!DNL Outlook]日历同步。 在一个地方管理会议和工作。
-
-* **C**：使用[!UICONTROL 详细信息]按钮打开新的右侧面板，您可以在其中查看有关工作项的更多信息。
-
-* **D**：使用到期栏跟踪分配给您的工作到期时间。
-
-有关如何使用主页日历的详细信息，请参阅[使用[!UICONTROL 主页日历]视图](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)。
-
-## 找到您的工作
-
-[!UICONTROL 主页]区域是您的一站式商店，可查找分配给您的任务、问题和审批。 筛选器、分组和排序选项可协同工作，支持您以所需的方式组织工作项目。 您可以使用分组将项目分组在一起，使用筛选器重点关注需要完成的工作，最后使用排序按分组的升序或降序列出项目。
-
->[!NOTE]
+>[!IMPORTANT]
 >
->过滤器和排序选项存储在浏览器中。 如果您始终在同一台计算机上使用同一浏览器（并且不清除网站数据），则筛选器和排序不会更改，但如果您切换浏览器或计算机，则筛选器和排序将不同。
+>本文中的内容已被新主页入门文章中的内容替换。 新主页现在将称为主页。
 
-### 将相似的工作项与分组一起分组
+Adobe Workfront中的新“主页”体验旨在改进当前的“主页”体验，同时为您提供更灵活的方式以专注于正确的工作。
 
-您可以使用分组在工作列表的通用标题下显示类似项目。 您可以按以下方式分组项目：
+新主页是一个用于管理您的工作的强大新功能。 您可以自定义此灵活空间以突出显示您最重要的工作并简化任务、问题、请求和审批管理。
 
-* [!UICONTROL 计划完成]
-* [!UICONTROL 计划开始时间]
-* [!UICONTROL 提交日期]
-* [!UICONTROL 项目]
-* [!UICONTROL 我的优先级]
+## 自定义新主页
 
-有关如何使用分组的详细信息，请参阅[!UICONTROL 主页]区域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的[显示项。
+新主页设计为高度可自定义，允许您选择用于跟踪您最重要的工作的小组件，根据工作到期时间筛选工作范围，甚至可以添加颜色闪烁。
 
-![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+### 构件
 
-### 使用筛选器缩小您的关注范围
+构件是新家庭的基础。 通过将小组件添加到主页，您可以选择显示的信息类型，以便最好地满足您的工作需求。 某些构件仅适用于特定许可证类型，因为它们跟踪的对象仅适用于这些许可证。
 
-[!UICONTROL 工作列表]筛选器允许您将焦点缩小到特定工作项。
+有关添加、移动、调整或删除小部件的信息，请参阅新主页中的[添加、编辑或删除小部件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
-以下示例介绍了如何过滤在主页中查看的项目：
+以下是目前可供选择的11个小组件，以及它们显示的信息摘要：
 
-* 按项目类型和状态筛选。
+* **我的工作**\
+    此构件非常适合开始管理各种工作，它可以在一个位置显示您分配的所有任务、问题和请求。 您可以单击“处理此项工作”按钮开始处理项目，或单击“完成”按钮将其标记为完成。 您还可以从“我的工作”小组件更新有关任务和问题的信息（状态、条件、完成百分比）、记录时间并添加更新。
 
-  例如，如果要显示所有任务，可以选择[!UICONTROL 任务]筛选器。 如果您希望比这更具体并且只显示已准备好开始处理的任务，请在[!UICONTROL 任务]筛选器下选择[!UICONTROL 已准备好开始]筛选器。
+* **展示板**\
+    显示您已创建或受邀使用的任何讨论区。 您还可以基于以下模板创建新展示板：基本展示板、Kanban展示板、回顾展示板、动态展示板
 
-* 仅按项目类型筛选。
+* **我的项目**\
+    在列表中显示您拥有的项目或您所在的项目。 您可以使用现有的筛选器、视图或分组来自定义列表，也可以直接从小组件创建项目。
 
-  例如，您可以选择[!UICONTROL 问题]以查看所有状态的所有问题（[!UICONTROL 正在处理]或[!UICONTROL 已请求]），或选择[!UICONTROL 审批]以查看所有工作项、访问请求、时间表、文档和验证审批。
+* **我的任务**\
+    在列表中显示分配给您的任务。 您可以使用现有的筛选器、视图或分组来自定义列表，也可以直接从小组件创建任务。 您还可以在外出时委派任务。
 
-有关如何使用筛选器的详细信息，请参阅[!UICONTROL 主页]区域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的[显示项。
+* **我的问题**\
+    在列表中显示分配给您的问题。 您可以使用现有的过滤器、视图或分组来自定义列表，也可以直接从小组件创建问题。 此构件仅包含其关联项目设置为当前的问题，不包括已完成的项目。 您还可以在外出时委派问题。
 
-![](assets/displaying-work-items-filters-nwe-350x401.png)
+* **我的请求**\
+    显示您已提交的所有请求，一个过滤器用于仅显示打开的请求，以及一个用于打开请求的摘要面板的按钮。
 
-### 访问分配给您团队的工作
+* **团队请求**\
+    显示您所在团队的所有待处理请求（按团队排序），以及用于直接将请求分配给用户或自己处理请求的按钮。
 
-[!UICONTROL 主页]区域具有永久分组（[!UICONTROL 团队请求]），该分组显示分配给您团队的任务和问题。 团队将显示在此部分中。 单击团队名称将打开该团队的“团队请求”页面。
+* **我的审批**\
+    显示所有待处理、已分配、已委托和已提交的审批；一个用于委托审批的按钮；以及一个用于直接在小组件内做出审批决策的按钮。
 
->[!NOTE]
->
->筛选和排序选项不会影响[!UICONTROL 团队请求]分组。 只要您已将工作分配给团队，就可以显示此分组。
+* **所有审批**\
+        显示2个图表，其中包含有关平均审批时间和决策的信息，以及未决和超期审批的列表视图。 <span style="color: #ff0000;">此功能属于分阶段发布，当前仅适用于特定客户。</span>
 
-有关访问团队请求的更多信息，请参阅[!UICONTROL 主页]区域](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)中的文章[[!UICONTROL 管理]工作和团队请求。
+* **提及**\
+    显示来自Workfront的最近评论线程，类似于“我的更新”页面。 您可以使用回复按钮在小组件中撰写回复。 只要任务或问题在过去30天内已更新，此构件还显示有关您分配到的任务或问题、您分配给另一个用户、您拥有、您是其主要联系人或您创建的任务或问题的评论。
 
-![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-### 监测您提交的工作
-
-跟踪您直接从[!UICONTROL 工作列表]提交以供审批的工作。 当您选择查看[!UICONTROL 工作列表]中的[!UICONTROL 审批]时，我已提交的[!UICONTROL 审批有一个永久分组]。 您可以提醒批准者需要批准的工作。 如果需要，您还可以撤消批准。
-
->[!NOTE]
->
->筛选和排序不会影响我已提交的[!UICONTROL 审批]分组。 只要您有工作等待批准，此分组即可显示。
->
->[!UICONTROL 审批]筛选器中的审批数未显示您提交审批的项数。 [!UICONTROL 审批]筛选器仅显示等待您审批的项目。
-
-![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
-
-## 优先处理对您而言重要的事项
-
-[!UICONTROL 工作列表]允许您通过[!UICONTROL 我的优先级]分组显示和优先处理对您而言重要的工作。 您最多可以将20个项目添加到您的[!UICONTROL 我的优先级]列表。
-
->[!NOTE]
->
->添加到[!UICONTROL 我的优先级]的任何工作项仅对您可见，没有人可以为您设置工作优先级。
-
-有关如何使用[!UICONTROL 我的优先级]的详细信息，请参阅[在[!UICONTROL 主页]区域排定工作优先级](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)。
-
-![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
-
-## 完成它
-
-单击[!UICONTROL 工作列表]中项目的名称后，使用[!UICONTROL 主页]中的右侧面板更新并完成您的工作。
-
-### 在为您自定义的空间中工作
-
-您的[!DNL Workfront]管理员可以向[!UICONTROL 工作列表]中的项添加最多16个自定义字段，以便更轻松地查找和更新您需要的信息。 大多数字段都是可编辑的，因此您不必导航到工作项。
-
-要更新此区域中的任意字段，只需单击一个字段。 如果该字段可编辑，则可以在右侧面板中修改它。
-
->[!NOTE]
->
->如果此字段是从布局模板添加到工作项，则无法更新[!UICONTROL 提交日期]。
-
-![](assets/16-fields-home-350x137.png)
-
-### 用重要信息更新其他人
-
-与[!UICONTROL 主页]区域的其他人快速高效地通信。 使用工作项的评论区域，您可以从[!UICONTROL 主页]区域提出问题、通知他人最近更新或回复直接评论。 此外，您还可以通过以下方式向其他人更新您正在取得的进展：
-
-* 正在注释区域中更新[!UICONTROL 提交日期]
+* **待办事项**\
+    这个独特的构件允许您向个人清单添加项目，以便您自由编辑。 会将待办事项作为个人项目中的任务进行跟踪，并在完成后保留长达两周。
 
   >[!NOTE]
   >
-  >   这是可在主页中更新提交日期的唯一位置。
+  >您必须具有创建任务的权限，才能在待办事项构件中创建待办事项，并且只有由当前用户输入的个人任务才会显示在待办事项构件中。
 
-* 通过添加评论或更新项目的[!UICONTROL 条件]来报告您的感受
-* 更新完成百分比栏
+默认情况下，主页会根据您的许可证类型填充几个特定的构件。 下表概述了每种许可证类型的用户首次导航到“新主页”时看到的构件。
 
-有关在[!UICONTROL 主页]区域中进行通信的更多信息，请参阅[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>新许可证类型</b></td>
+        <td><b>默认构件</b></td>
+    </tr>
+    <tr>
+        <td>标准</td>
+        <td>我的项目、我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>轻量</td>
+        <td>我的工作，我的批准</td>
+    </tr>
+    <tr>
+        <td>投稿人</td>
+        <td>我的请求、提及、我的批准、讨论区</td>
+    </tr>
+    <tr>
+        <td>外部的</td>
+        <td>我的审批</td>
+    </tr>
+</table>
 
-![](assets/updates-home-350x198.png)
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>当前许可证类型</b></td>
+        <td><b>默认构件</b></td>
+    </tr>
+    <tr>
+        <td>计划</td>
+        <td>我的项目、提及内容、待办事项</td>
+    </tr>
+    <tr>
+        <td>工作</td>
+        <td>我的工作、提及、待办事项</td>
+    </tr>
+    <tr>
+        <td>评论</td>
+        <td>我的工作，提及</td>
+    </tr>
+    <tr>
+        <td>请求</td>
+        <td>我的项目，我的审批</td>
+    </tr>
+    <tr>
+        <td>参与</td>
+        <td>我的工作，提及</td>
+    </tr>
+    <tr>
+        <td>外部的</td>
+        <td>我的审批</td>
+    </tr>
+</table>
 
-### 记录您的时间
+### 后台自定义
 
-跟踪您在单个工作项上工作的小时数。 您可以选择常规小时类型，如[!UICONTROL 任务时间]，也可以选择由[!DNL Workfront]管理员设置的特定于项目的小时类型。
+通过选择页面顶部的彩色横幅，可以向主页添加一点个人光晕。
 
-有关如何在[!UICONTROL 主页]区域记录时间的详细信息，请参阅文章[记录时间](../../../timesheets/create-and-manage-timesheets/log-time.md)中的[主页](../../../timesheets/create-and-manage-timesheets/log-time.md#home)部分。
+**更改家庭背景的颜色：**
 
-![](assets/log-time-home-350x181.png)
+1. 通过执行以下操作之一，转到您的主页：
+
+   * 如果将“主页”设置为登录页面，请单击屏幕左上角的&#x200B;**Adobe Workfront**&#x200B;图标![Adobe Workfront图标](assets/home-icon-30x29.png)。
+   * 单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**主页**。
+
+1. 单击屏幕右上角的&#x200B;**自定义**。
+
+   ![自定义按钮](assets/customize-button.png)
+
+   此时将打开“自定义”面板。
+
+1. 在&#x200B;**自定义**&#x200B;面板的&#x200B;**背景**&#x200B;部分中，单击要为主页背景选择的颜色。 您还可以单击&#x200B;**无**&#x200B;删除背景。
+
+## 还原到当前主页体验
+
+如果您更喜欢现有的主页体验，则可以切换新的主页体验。
+
+要返回到当前主页体验，请执行以下操作：
+
+1. 通过执行以下操作之一，转到您的主页：
+
+   * 如果将“主页”设置为登录页面，请单击屏幕左上角的&#x200B;**Adobe Workfront**&#x200B;图标![Adobe Workfront图标](assets/home-icon-30x29.png)。
+   * 单击屏幕右上角的&#x200B;**主菜单**&#x200B;图标或左上角的&#x200B;**主菜单**&#x200B;图标![主菜单图标](assets/main-menu-icon.png)（如果可用），然后单击&#x200B;**主页**。
+
+1. 单击页面右下角的&#x200B;**返回当前主页**&#x200B;按钮。
+
+   ![返回当前主页按钮](assets/customize-button.png)
+
+   此时将显示确认窗口。
+
+1. 简要调查您的新主页使用体验，或者单击&#x200B;**返回当前主页**&#x200B;以还原到当前主页使用体验。
+
+>[!NOTE]
+>
+> 系统管理员可以禁用新主页作为其用户的默认主页。 有关更改系统中用户的默认主页体验的信息，请参阅[配置系统首选项](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+
+## Customize Home
+
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
+
+### Background customization
+
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
+
+**To change the color of your Home background:**
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
+
+    ![Customize Button](../new-home/assets/customize-button.png)
+
+    The Customize panel opens. 
+
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Manage you work
+
+### Add Widgets
+
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+-->

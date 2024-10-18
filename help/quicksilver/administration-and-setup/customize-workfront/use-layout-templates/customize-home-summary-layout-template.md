@@ -1,25 +1,24 @@
 ---
-title: 使用布局模板自定义主页和摘要
+title: 使用布局模板自定义摘要面板
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 您可以使用布局模板配置用户在单击主页和摘要中的任务或问题时看到的内容。 您使用以下步骤进行的每个配置都会以相同的方式影响“主页”区域和“摘要”面板。 这些自定义不适用于“文档摘要”面板。
+description: 您可以使用布局模板配置用户单击摘要中的任务或问题时看到的内容。 您使用以下步骤进行的每项配置都会影响摘要面板。 这些自定义不适用于“文档摘要”面板。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
 
-# 使用布局模板自定义主页和摘要
+# 使用布局模板自定义摘要面板
 
-<span class="preview">在10月17日发布的第4季度版本中，从Workfront中删除旧版主页时，本文将被重命名为“使用布局模板自定义摘要面板”。 2024.</span>
 
-您可以使用布局模板配置用户在单击主页和摘要中的任务或问题时看到的内容。 您使用以下步骤进行的每个配置都会以相同的方式影响“主页”区域和“摘要”面板。 这些自定义不适用于“文档摘要”面板。
+您可以使用布局模板配置用户单击摘要中的任务或问题时看到的内容。 您使用以下步骤进行的每项配置都会影响摘要面板。 这些自定义不适用于“文档摘要”面板。
 
 您可以配置：
 
@@ -28,7 +27,7 @@ ht-degree: 2%
 
 您还可以自定义当用户单击分配给他们的项目审批、文档审批或文档版本审批时，用户在“主页”区域看到的字段。
 
-有关主页区域的信息，请参阅[使用主页区域](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。 有关摘要面板的信息，请参阅[摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
+有关摘要面板的信息，请参阅[摘要概述](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -68,11 +67,11 @@ ht-degree: 2%
 
 +++
 
-## 使用布局模板自定义主页和摘要
+## 使用布局模板自定义摘要面板
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**主页和摘要**。
+1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**摘要面板**。
 
 1. 在左侧的列表中，单击要在主页和摘要中自定义的对象类型（**任务**、**问题**、**项目**、**文档**&#x200B;或&#x200B;**文档版本**）。
 
@@ -82,23 +81,28 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">任务</td> 
-      <td> <p>在主页中，您对此设置的配置会影响用户单击任务时任务右侧的区域。 在任务列表中，当用户选择任务，然后单击打开摘要图标<img src="assets/summary-panel-icon.png">时，它会影响页面右侧显示的“摘要”面板。</p> <p>例如，当用户在主页中选择任务时，您可以确定用户在详细信息区域查看哪些字段：</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>当他们在摘要中选择任务时：</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">问题</td> 
-      <td> <p>在主页中，您针对此设置的配置会影响用户单击问题时问题右侧的区域。</p> <p>在问题列表中，此设置会影响用户选择问题，然后单击打开摘要图标<img src="assets/summary-panel-icon.png">时显示在页面右侧的“摘要”面板。</p> </td> 
+      <td><p>在问题列表中，此设置会影响用户选择问题，然后单击打开摘要图标<img src="assets/summary-panel-icon.png">时显示在页面右侧的“摘要”面板。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">项目</td> 
-      <td>在主页中，当用户单击分配给他们的项目审批时，您对此设置的配置会影响审批右侧的区域。</td> 
+      <td><p>在主页中，当用户单击分配给他们的项目审批时，您对此设置的配置会影响审批右侧的区域。</p>
+      <p>重要信息：此功能已弃用。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">文档</td> 
-      <td>在主页中，当用户单击分配给他们的文档审批时，您对此设置的配置会影响审批右侧的区域。</td> 
+      <td><p>在主页中，当用户单击分配给他们的文档审批时，您对此设置的配置会影响审批右侧的区域。</p>
+      <p>重要信息：此功能已弃用。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">文档版本</td> 
-      <td>在主页中，当用户单击针对文档的特定版本分配给他们的批准时，您对此设置的配置会影响批准右侧的区域。</td> 
+      <td><p>在主页中，当用户单击针对文档的特定版本分配给他们的批准时，您对此设置的配置会影响批准右侧的区域。</p>
+      <p>重要信息：此功能已弃用。 您对此区域所做的任何更改都与Workfront已移除的功能相关。 此选项将在以后的维护更新中从Workfront删除。</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ ht-degree: 2%
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. 重复步骤3 - 6以自定义任何其他对象类型的“主页”区域和“摘要”面板。
+1. 重复步骤3 - 6以针对任何其他对象类型自定义“摘要”面板。
 1. 单击左下角附近的&#x200B;**全局设置**，然后在主页和摘要中启用或禁用以下任何与Adobe Workfront对象相关的选项：
 
    <table style="table-layout:auto"> 

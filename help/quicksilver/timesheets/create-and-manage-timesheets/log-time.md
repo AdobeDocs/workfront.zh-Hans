@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3652'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 * 时间表包括所有已记录日期的总时间。 始终包括周末，即使时间线计算已配置为排除它们（如[配置系统范围项目偏好设置](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)中所述）。
 * 时间表中显示的最大项目数为45。 如果超过45个项目的日期与时间表时间范围相匹配，则仅显示最近更新的项目。
 * 已记帐记帐记录中包含的小时条目将灰显，无法在时间表中编辑。 有关详细信息，请参阅[创建开票记录](../../manage-work/projects/project-finances/create-billing-records.md)。
-* 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关详细信息，请参阅[从主页区域创建工作项](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+* 默认情况下，个人任务未显示在时间表中。 仅当个人任务已记录时，才会显示在时间表中。 在个人任务上记录时间后，您可以将任务固定到时间表，如果仍然固定，该任务将保留在时间表上。 有关详细信息，请参阅[从主页区域创建工作项和项目](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 记录时间 {#log-time-section}
 
@@ -335,7 +335,6 @@ ht-degree: 0%
 您可以在主页中记录特定于项目的时间。
 
 有关使用主页区域的一般信息，请参阅[使用主页区域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)。
-
 
 <!--#### Log time on a work item from the new Home area-->
 

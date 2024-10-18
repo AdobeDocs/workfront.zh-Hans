@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 0%
 
 新主页在发布后将成为所有用户的默认体验。 但是，在我们继续开发其功能时，您可以选择恢复为现有的“主页”体验。
 
-有关详细信息，请参阅[Adobe Workfront中的新主页入门](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

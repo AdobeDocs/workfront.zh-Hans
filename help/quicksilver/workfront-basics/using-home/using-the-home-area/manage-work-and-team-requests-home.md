@@ -2,20 +2,23 @@
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: 在“主页”区域管理工作和团队请求
-description: 当工作任务和问题分配给您时，它们会列在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中。 您可以查看、重新分配、回复、处理或删除请求。 [!UICONTROL 主页]区域的工作请求不限于与请求队列关联的问题。
-author: Lisa
+description: 当工作任务和问题分配给您时，它们会列在我的工作小组件、我的任务小部件和我的问题小部件中。  您可以查看、处理或移除工作项和请求。
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
 
-# 在[!UICONTROL 主页]区域管理工作和团队请求
 
-当工作任务和问题分配给您时，它们会列在[!UICONTROL 主页]区域的[!UICONTROL 工作列表]中。 您可以查看、重新分配、回复、处理或删除请求。 [!UICONTROL 主页]区域的工作请求不限于与请求队列关联的问题。
+# 在[!UICONTROL 主页]区域管理工作项和团队请求
+
+当工作任务和问题分配给您时，它们会列在我的工作小组件、我的任务小部件和我的问题小部件中。  您可以查看、处理或移除工作项和请求。
+
++++ 展开以查看本文中各项功能的访问要求。
 
 ## 访问要求
 
@@ -48,18 +51,22 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 查看工作请求
++++
 
-分配给您的工作请求将显示在[!UICONTROL 主页]的左侧面板中。 您可以使用[!UICONTROL 工作列表]顶部的筛选器配置[!UICONTROL 主页]中显示哪些请求。
+## 在“我的工作”小部件中查看工作项
+
+分配给您的工作项显示在[!UICONTROL 主页]的“我的工作”小部件中。 您可以使用小组件[!UICONTROL 工作列表]顶部的筛选器配置哪些工作项显示在“我的工作”小部件中。
 
 您可以选择显示准备好处理的项目或您当前处理的项目的筛选器。
 
-本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关[!UICONTROL 主页]区域中的所有筛选器的信息，请参阅[在[!UICONTROL 主页]区域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的工作列表中显示项目。
+本文介绍如何使用[!UICONTROL 主页]区域中的筛选器查看您当前正在处理或可能考虑开始处理的项目。 有关如何在[!UICONTROL 主页]区域中使用筛选器的信息，请参阅[!UICONTROL 主页]区域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作列表]中的[显示项。
+
+要查看我的工作小部件中的工作项，请执行以下操作：
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 单击&#x200B;**[!UICONTROL 筛选器]**&#x200B;下拉菜单。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
+1. 单击小组件工作列表左上角的&#x200B;**筛选器**&#x200B;图标![](assets/filter-nwepng.png)。
 
 1. 单击以下任一选项或两个选项执行任务：
 
@@ -73,86 +80,86 @@ ht-degree: 0%
    * 这些任务及其父任务可能具有阻止它们进行处理的前置任务或任务限制。
    * 任务或问题的计划开始日期[!UICONTROL 为超过两周的未来]。
 
-
 1. 单击[!UICONTROL 任务]或[!UICONTROL 问题]下的&#x200B;**[!UICONTROL 处理]**&#x200B;以显示您当前处理的任务和问题。
 1. 单击“[!UICONTROL 问题]”下的“**[!UICONTROL 已请求]**”可显示已向您请求（您已被分派给他们）但尚未接受处理的问题。
 
-## 访问团队请求
+## 访问团队请求小组件中的团队请求
 
-您可以直接从[!UICONTROL 主页]区域访问分配给您团队的请求。 有关团队请求的更多信息，请参阅[团队请求概述](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)。
+您可以直接从[!UICONTROL 主页]区域的团队请求小组件访问分配给您团队的请求。 有关团队请求的更多信息，请参阅[团队请求概述](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域中，单击以展开&#x200B;**[!UICONTROL 团队请求]**&#x200B;分组。
-
-   如果没有分配给团队的请求，则不会显示分组。
-
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-1. 单击团队名称。\
-   **[!UICONTROL 团队请求]**&#x200B;部分显示并显示分配给您团队的所有请求。 有关处理团队请求的更多信息，请参阅[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
-
-## 重新分配请求
+要访问团队请求，请执行以下操作：
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域，选择要重新分配的请求。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**团队请求**&#x200B;小组件。
 
-1. 单击&#x200B;**[!UICONTROL 工作总揽]**&#x200B;构件并将您自己从请求中移除，然后键入要将该请求重新分配到的用户的名称。
+   该构件在团队分组下显示团队请求。 **[!UICONTROL 团队请求]**&#x200B;构件显示并显示分配给您所在任何团队的所有请求。 有关处理团队请求的更多信息，请参阅[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
+
+   ![](assets/team-request-widget.png)
+
+## 在我的工作小部件中处理工作项
+
+当您单击[!UICONTROL 处理它]按钮时，您将向提交工作项的用户以及可能分配到您即将开始工作的工作项的任何其他用户指示。
+
+处理工作项：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
+
+1. 在小部件的&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域中，选择要处理的请求，然后单击&#x200B;**[!UICONTROL 处理该请求]**。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**&#x200B;图标以查看有关该工作项的信息。
+
+   ![](assets/open-summary-new-home.png)
+
+
+## 删除工作项
+
+如果您决定不处理该工作项，则可以将它从列表中删除。
+
+要删除工作项，请执行以下操作：
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
+
+1. 在小部件工作列表中，将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标以查看有关该工作项的信息。
+   ![](assets/open-summary-new-home.png)
+1. 在&#x200B;**工作**分区中，删除您的姓名。
+   ![](assets/remove-assignment.png)
+
+
+
+<!--
+## Reassign a request
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
+
+1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
 
    >[!TIP]
    >
-   >如果工作请求仍然处于“准备开始”或“未就绪”状态，您可以使用[!UICONTROL 工作列表]的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单中的&#x200B;**[!UICONTROL 重新分配]**&#x200B;按钮。\
-   >![重新分配按钮](assets/reassign-in-left-panel-350x204.png)
+   >If the work request is still in the Ready to Start or Not Ready state, you can use the **[!UICONTROL Reassign]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![Reassign button](assets/reassign-in-left-panel-350x204.png)
 
-1. 如果任务的状态在完成后更改为[!UICONTROL 新建]或[!UICONTROL 进行中]，您必须取消分配用户，保存任务，然后重新分配用户，任务才能重新出现在其“主页工作列表”中。
+1. If a task's status is changed to [!UICONTROL New] or [!UICONTROL In Progress] after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
-## 回复请求
 
-您可以回复进一步澄清请求或建议一个新日期的请求。
 
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域，选择要回复的请求。
-1. 找到为您分配请求的个人。
+## Reply to a request
 
-   您可以在任务的[!UICONTROL 更新]选项卡上找到此信息。 确保启用了&#x200B;**[!UICONTROL 显示系统更新]**&#x200B;选项。
+You can reply to a request to further clarify the request or to propose a new date.
 
-1. 单击&#x200B;**[!UICONTROL 开始新更新]**&#x200B;并开始键入您的回复。
-1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;框中输入收件人的名称，然后单击&#x200B;**[!UICONTROL 更新]**。
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
+1. Locate the individual who assigned the request to you.
+
+   You can find this information on the [!UICONTROL Updates] tab of the task. Make sure the option to **[!UICONTROL Show System Updates]** is enabled.
+
+1. Click **[!UICONTROL Start new update]** and begin typing your reply.
+1. Enter the name of the recipient in the **[!UICONTROL Notify]** box, then click **[!UICONTROL Update]**.
 
    >[!TIP]
    >
-   >如果工作请求仍然处于“准备开始”或[!UICONTROL 未就绪]状态，您可以使用[!UICONTROL 工作列表]的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单中的&#x200B;**[!UICONTROL 回复]**&#x200B;按钮。\
-   >![[!UICONTROL 回复按钮]](assets/reassign-in-left-panel-350x204.png)   >
+   >If the work request is still in the Ready to Start or [!UICONTROL Not Ready] state, you can use the **[!UICONTROL Reply]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   
 
-## 处理请求
-
-单击[!UICONTROL 处理]按钮时，您将向提交请求的用户以及可能分配到请求的任何其他用户指示您将开始处理该请求。 有关处理请求的更多信息，请参阅[管理工作和团队请求](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
-
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;区域，选择要处理的请求，然后单击&#x200B;**[!UICONTROL 处理该请求]**。\
-   右侧面板中将显示有关问题的信息。
-
-## 删除请求
-
-如果您决定不处理该请求，您可以将任务或问题转换回请求或将其从列表中移除。
-
-1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，指向等待处理的项。
-1. 单击&#x200B;**[!UICONTROL 工作总揽]**&#x200B;构件并自行删除。 这会从您的工作列表中移除该工作项。 如果请求未分配给任何其他团队或工作角色，则请求将保留未分配。
-
-   或
-
-   单击[!UICONTROL 主页工作]列表中任务或问题名称右侧的&#x200B;**[!UICONTROL 更多]**&#x200B;菜单图标![](assets/more-icon.png)。
-
-   ![](assets/more-menu-in-home-work-list-convert-to-request-remove-add-to-priority-options-nwe-350x160.png)
-
-1. 从以下选项中选择：
-
-   * **[!UICONTROL 转换为工作请求]：**&#x200B;选择此选项以将工作项转换回工作请求。\
-
-     工作项将转换回请求，并且您仍然会分配到请求。\
-      您稍后可以通过再次单击&#x200B;**[!UICONTROL 处理该请求]**&#x200B;来接受请求。
-
-   * **[!UICONTROL 删除]：**&#x200B;选择此选项可从[!UICONTROL 工作列表]中删除请求。\
-
-     您已从请求中取消分配，该请求不再与[!DNL Adobe Workfront]中的您的名称相关联。\
-      如果请求未分配给任何其他团队或工作角色，则请求将保留未分配。
+   -->

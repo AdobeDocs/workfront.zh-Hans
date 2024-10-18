@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 
 
-有关新主页的信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
+有关新主页的信息，请参阅[主页入门](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -91,8 +91,8 @@ ht-degree: 1%
       <td role="rowheader">设计和布局</td> 
       <td>
       <p>选择用户工作区中将显示哪些小部件、这些小部件的位置，并选择背景。 请注意，虽然用户无法删除选定的构件，但可以随意移动和调整其大小以及添加其他构件。</p>
-      <p>此选项卡基本上可用作小型的新主页工作区；因此，可以根据<a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新主页中添加、编辑或删除小组件</a>中描述的步骤对其进行自定义。 选择小组件并根据用户需要安排工作区。</p>
-      <p>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">开始使用新主页</a>中的<b>背景自定义</b>下的步骤操作。</p>
+      <p>此选项卡基本上可用作小型的新主页工作区；因此，可以根据<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">添加、编辑或删除主页中的小组件</a>中描述的步骤对其进行自定义。 选择小组件并根据用户需要安排工作区。</p>
+      <p>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">开始使用主页</a>中的<b>背景自定义</b>下的步骤操作。</p>
       <p>
 
 >[!NOTE]

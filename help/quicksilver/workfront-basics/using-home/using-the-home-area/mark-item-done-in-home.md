@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 在“主页”区域将项目标记为“完成”
 description: 如果您是任务或问题受分配人，则可以将任务或问题标记为“已完成”。 将任务或问题标记为“完成”时，任务或问题的状态将更改为“完成”。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >除非您是分配给任务或问题的资源之一，否则不会看到[!UICONTROL 完成]按钮。
+
++++ 展开以查看本文中各项功能的访问要求。
 
 ## 访问要求
 
@@ -52,18 +54,27 @@ ht-degree: 0%
 
 &#42;要了解您拥有什么计划、许可证类型或访问权限，请与[!DNL Workfront]管理员联系。
 
-## 将任务或问题标记为[!UICONTROL 完成]
++++
 
-只有分配给任务或问题的用户可以将其标记为[!UICONTROL 完成]。
+## 在我的工作小部件中将工作项标记为“已完成”
 
 1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
-1. 在&#x200B;**[!UICONTROL 工作列表]**&#x200B;中，找到任何等待处理的项目。
-1. 执行以下任一操作：
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的工作**&#x200B;小组件。
+1. 找到工作项，然后在工作项上单击&#x200B;**[!UICONTROL 标记为完成]**。
+有关此按钮可能如何显示的更多详细信息，请参阅[了解[!UICONTROL 完成]按钮的选项](#understand-the-options-of-the-done-button)。
+   ![](assets/my-work-done.png)
 
-* 在工作项上单击&#x200B;**[!UICONTROL 完成]**。\
-   有关此按钮可能如何显示的更多详细信息，请参阅[了解[!UICONTROL 完成]按钮的选项](#understand-the-options-of-the-done-button)。
 
-* 选择要标记为完成的项，然后在右侧面板中单击&#x200B;**[!UICONTROL 更新状态]**，然后将项的状态更改为等于[!UICONTROL 完成]或[!UICONTROL 已关闭]的状态。
+## 在“摘要”面板中将工作项标记为“完成”
+
+您可以使用摘要面板，在我的任务和我的问题小组件中将工作项标记为已完成。
+
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的任务**&#x200B;或&#x200B;**我的问题**&#x200B;小组件。
+1. 将鼠标悬停在工作项上，然后单击&#x200B;**摘要**图标。
+   ![](assets/open-summary-new-home.png)
+1. 单击摘要面板顶部的&#x200B;**标记为完成**。
+
 
 ## 了解[!UICONTROL 完成]按钮的选项
 
@@ -81,7 +92,7 @@ ht-degree: 0%
 
 当[!UICONTROL Done]按钮与一个状态关联并且工作项仅分配给您时，该按钮显示为&#x200B;**[!UICONTROL Done]**。 单击该按钮后，任务或问题的状态将更改为与[!UICONTROL 完成]按钮关联的状态。
 
-![完成按钮](assets/Done.png)
+![完成按钮](assets/done-button-status.png)
 
 要了解哪个状态与[!UICONTROL 完成]按钮关联，请按照[编辑团队设置](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)中的说明，查看[!UICONTROL 完成按钮]部分的主团队[!UICONTROL 团队设置]。
 
@@ -93,17 +104,14 @@ ht-degree: 0%
 
 要了解如何将多个状态与[!UICONTROL Done]按钮相关联，请参阅[为任务配置[!UICONTROL Done]按钮](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)和[为问题配置[!UICONTROL Done]按钮](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)。
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### [!UICONTROL 完成]按钮（针对分配给多个资源的项）
 
-将任务或问题分配给多个资源时，按钮显示&#x200B;**[!UICONTROL 完成]**&#x200B;一词，其后是下拉菜单。 在下拉菜单中，您可以选择在&#x200B;**[!UICONTROL 完成我的部分]**（使团队成员知道您已完成您任务的一部分）或与[!UICONTROL 完成]按钮（完成项目）相关的状态之间选择。 选择&#x200B;**[!UICONTROL 完成我的部件]**&#x200B;后，该工作项将从您的工作列表中删除，但仍保留在那些仍分派给该工作项的工作列表内。\
+将任务或问题分配给多个资源时，按钮显示&#x200B;**[!UICONTROL 完成]**&#x200B;一词，其后是下拉菜单。 在下拉菜单中，您可以选择在&#x200B;**[!UICONTROL 完成我的部分]**（使团队成员知道您已完成您任务的一部分）或与[!UICONTROL 完成]按钮（完成项目）关联的状态之间选择。 选择&#x200B;**[!UICONTROL 完成我的部件]**&#x200B;后，该工作项将从您的工作列表中删除，但仍保留在那些仍分派给该工作项的工作列表内。\
 如果“完成”按钮与多个状态关联，则它们列在&#x200B;**完成我的部件**&#x200B;下。
 
 >[!NOTE]
 >
 >在具有多个受分配人的任务或问题上，每个用户负责指示其在任务或问题上的分配实际上已完成。 因此，每个被分配人都必须单击[!UICONTROL 完成]才能显示已完成分配给他们在项中的工作。
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

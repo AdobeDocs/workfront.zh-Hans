@@ -4,9 +4,9 @@ description: 2024年第一季度主页增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 
 为了让您更轻松地查看您拥有的项目上的审批和审阅状态，我们向主页添加了一个新的待审批构件。 在此，您可以查看分配用于批准或审阅您拥有的项目文档的用户的列表，查看其审阅或审批的状态，并提醒审阅者和审批者完成其审阅或审批。
 
-有关主页小组件的详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 使用布局模板的新主页的管理员控件
 
@@ -34,5 +33,3 @@ ht-degree: 0%
 ## 我的工作快速操作按钮已更改为仅在鼠标悬停时显示
 
 为了提高性能，现在仅当工作项悬停在鼠标上时，才会显示我的工作小部件中可用的快速操作按钮。
-
-有关“我的工作”小组件中可用的快速操作按钮的详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。

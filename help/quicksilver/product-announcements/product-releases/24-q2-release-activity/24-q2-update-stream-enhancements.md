@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 现在，我们在新主页的“我的工作”、“我的项目”、“我的任务”和“我的问题”小组件中的&#x200B;**添加新更新**&#x200B;快速操作按钮中添加了新评论功能。
 
-有关详细信息，请参阅[开始使用新主页](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)。
 
 ## 新评论体验中提供的其他评论者信息
 

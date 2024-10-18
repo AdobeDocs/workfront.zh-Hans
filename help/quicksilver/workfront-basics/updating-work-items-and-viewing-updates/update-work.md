@@ -6,7 +6,7 @@ description: 您可以对Adobe Workfront对象（项目、任务或问题）添�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ ht-degree: 0%
    * 从Workfront对象的“更新”部分（适用于项目、任务和问题）
    * 从“主页”区域（针对任务和问题）
 
-     有关信息，请参阅[使用我的工作小组件](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)管理您的工作。
+     有关信息，请参阅[使用我的工作小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
    * 从“摘要”面板的以下区域（任务、问题和文档）：
 
       * 对象列表
