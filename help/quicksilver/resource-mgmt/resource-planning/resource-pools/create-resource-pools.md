@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="资源池"
->abstract="资源池是完成项目时同时需要的用户的集合。 创建资源池后，可将其与项目和模板相关联。"
+>abstract="资源池是为了完成项目而同时需要的用户的集合。创建资源池后，可以将其与项目和模板关联。"
 
 资源池是用户集合，可帮助您更轻松地在Adobe Workfront中管理资源。 有关资源池的详细信息，请参阅[资源池概述](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)。
 
