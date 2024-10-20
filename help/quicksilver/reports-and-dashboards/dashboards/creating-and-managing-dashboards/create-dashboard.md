@@ -6,10 +6,10 @@ description: 您可以创建功能板以快速访问Adobe Workfront中的信息�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 0%
+source-wordcount: '496'
+ht-degree: 1%
 
 ---
 
@@ -102,13 +102,13 @@ ht-degree: 0%
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. 在&#x200B;**按名称或类型搜索……**&#x200B;字段中搜索报告、日历或外部页面，然后将它们拖到布局窗格中（当它们出现在列表中时）。
+1. 在&#x200B;**可用报告和日历**&#x200B;部分中，开始在搜索栏中输入报告、日历或外部页面的名称，然后将布局窗格中的报告、日历或外部页面拖放到右侧。
 
    >[!NOTE]
    >
    >在搜索项目时，搜索将返回最近创建的2,000个报表中的任意一个。 搜索结果中不会返回包含Unicode字符的报表名称。 作为最佳实践，在Workfront中通过键入名称来命名对象时避免包含Unicode字符，而不是从其他源复制和粘贴名称。
 
-   ![搜索报告](assets/qs-new-dashboard-ui-0722.png)
+   ![搜索报告](assets/unshimmed-dashboard-ui.png)
 
 1. （可选）单击&#x200B;**添加外部页面**&#x200B;以向仪表板添加新的外部页面。
 

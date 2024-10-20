@@ -6,9 +6,9 @@ description: 功能板的用途是提供对信息的快速访问。 您可以向
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
    * **名称**：编辑仪表板的名称。
    * **描述**：指定仪表板的描述。
 
-1. 在&#x200B;**可用报表**&#x200B;部分中，开始在&#x200B;**按名称或类型搜索……**&#x200B;字段中键入报表或外部页面的名称，然后将报表拖放到布局窗格的右侧。
+1. 在&#x200B;**可用报告和日历**&#x200B;部分中，开始在搜索栏中输入报告、日历或外部页面的名称，然后将布局窗格中的报告、日历或外部页面拖放到右侧。
 
    >[!NOTE]
    >
