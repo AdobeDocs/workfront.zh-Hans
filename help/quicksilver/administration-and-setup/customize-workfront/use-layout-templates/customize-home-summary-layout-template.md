@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**自定义用户看到的内容**&#x200B;下的向下箭头![](assets/dropdown-arrow.png)，然后单击&#x200B;**摘要面板**。
 
-1. 在左侧的列表中，单击要在主页和摘要中自定义的对象类型（**任务**、**问题**、**项目**、**文档**&#x200B;或&#x200B;**文档版本**）。
+1. 在左侧的列表中，单击要在摘要面板中自定义的对象类型（**任务**、**问题**、**项目**、**文档**&#x200B;或&#x200B;**文档版本**）。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ ht-degree: 2%
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. （视情况而定）如果出现&#x200B;**设置主要操作按钮**&#x200B;下拉菜单（如果您在左侧的列表中选择&#x200B;**任务**&#x200B;或&#x200B;**问题**），请单击“主页”区域和“摘要”面板中用户查看任务或问题时希望可用的主要操作（**完成**&#x200B;或&#x200B;**状态**）。
+1. （视情况而定）如果出现&#x200B;**设置主要操作按钮**&#x200B;下拉菜单（如果您在左侧的列表中选择&#x200B;**任务**&#x200B;或&#x200B;**问题**），请单击“摘要”面板中您希望用户在查看任务或问题时可用的主要操作（**完成**&#x200B;或&#x200B;**状态**）。
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ ht-degree: 2%
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 重复步骤3 - 6以针对任何其他对象类型自定义“摘要”面板。
-1. 单击左下角附近的&#x200B;**全局设置**，然后在主页和摘要中启用或禁用以下任何与Adobe Workfront对象相关的选项：
+1. 单击左下角附近的&#x200B;**全局设置**，然后启用或禁用与“摘要”中的Adobe Workfront对象相关的以下任何选项：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">显示工作更新</td> 
-      <td>在主页或摘要中显示对选定任务或问题所做的任何更新。 这包括系统更新和用户进行的更新。 用户仍然可以过滤掉系统更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">启用或禁用系统更新</a>中所述。</td> 
+      <td>在摘要面板中显示对选定任务或问题所做的任何更新。 这包括系统更新和用户进行的更新。 用户仍然可以过滤掉系统更新，如<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">更新工作</a>中的<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">启用或禁用系统更新</a>中所述。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">工作时的记录时间</td> 
@@ -140,16 +140,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">查看与工作关联的文档</td> 
-      <td>选择任务或问题时在“主页”和“摘要”中显示“文档”区域，列出附加到任务或问题的任何文档。 用户可以单击文档以在预览窗口中查看文档。</td> 
+      <td>选择任务或问题后，在“摘要”面板中显示“文档”区域，列出附加到任务或问题的任何文档。 用户可以单击文档以在预览窗口中查看文档。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">隐藏时间戳</td> 
-      <td>在“主页”和“摘要”中隐藏以下日期字段的时间戳：
+      <td>在“摘要”面板中隐藏以下日期字段的时间戳：
        <ul>
         <li>规划完成日期</li>
         <li>承诺日期</li>
         <li>提交日期</li>
-       </ul><p><b>注释</b>：</p> <p> 启用此选项后，过期的工作项仅根据日期而不是时间移至主页工作列表中的“延迟”分组。</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

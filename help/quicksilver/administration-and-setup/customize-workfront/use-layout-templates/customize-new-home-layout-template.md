@@ -3,21 +3,21 @@ title: 使用布局模板自定义新主页
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 您可以使用布局模板配置用户在打开新主页时看到的内容。
+description: 您可以使用布局模板配置用户在打开主页时看到的内容。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
 
-# 使用布局模板自定义新主页
+# 使用布局模板自定义主页
 
-您可以使用布局模板配置用户首次打开新主页时看到的内容。
+您可以使用布局模板配置用户首次打开主页时看到的内容。
 
 您可以配置：
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 
 
-有关新主页的信息，请参阅[主页入门](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
+有关主页的信息，请参阅[主页入门](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
 有关创建布局模板的信息，请参阅[创建和管理布局模板](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 +++
 
-## 使用布局模板自定义新主页
+## 使用布局模板自定义主页
 
-要使用布局模板自定义“新建主页”，请执行以下操作：
+要使用布局模板自定义主页，请执行以下操作：
 
 1. 开始处理布局模板，如[创建和管理布局模板](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
@@ -91,13 +91,13 @@ ht-degree: 1%
       <td role="rowheader">设计和布局</td> 
       <td>
       <p>选择用户工作区中将显示哪些小部件、这些小部件的位置，并选择背景。 请注意，虽然用户无法删除选定的构件，但可以随意移动和调整其大小以及添加其他构件。</p>
-      <p>此选项卡基本上可用作小型的新主页工作区；因此，可以根据<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">添加、编辑或删除主页中的小组件</a>中描述的步骤对其进行自定义。 选择小组件并根据用户需要安排工作区。</p>
+      <p>此选项卡主要用作小型主页工作区；因此，可以根据<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">添加、编辑或删除主页中的小组件</a>中描述的步骤对其进行自定义。 选择小组件并根据用户需要安排工作区。</p>
       <p>要更改背景，请按照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">开始使用主页</a>中的<b>背景自定义</b>下的步骤操作。</p>
       <p>
 
 >[!NOTE]
 >
->只有在布局模板中移动小组件或调整其大小才会触发用户的新主页更新其布局。 但是，添加或删除构件将触发对用户页面的更新。
+>只有在布局模板中移动小组件或调整其大小才会触发用户的主页更新其布局。 但是，添加或删除构件将触发对用户页面的更新。
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->用户必须至少具有视图的“创建”访问权限，管理员列配置才能正确应用于其新主页。
+>* 筛选器、列和组选项链接到布局模板中的列表自定义选项。 此处所做的更改也将应用于这些设置。
+>* 用户必须至少具有视图的“创建”访问权限，管理员列配置才能正确应用于其主页。
 
 </p>
       <li><p><b>为构件设置默认筛选器或组：</b></p>
@@ -147,4 +148,4 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->必须刷新新主页才能查看布局模板中的自定义项。
+>必须刷新主页才能查看布局模板中的自定义项。
