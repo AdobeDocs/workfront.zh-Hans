@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 3%
 
      >[!TIP]
      >
-     >默认情况下，主菜单中的主页图标会为Review-license用户（在当前许可证计划中）显示My Updates区域，除非他们有一个与其配置文件关联的布局模板，除了主页区域外，该模板还包括主菜单中的我的更新区域。
+     >默认情况下，主菜单中的“主页”图标会为Review-license用户（在当前许可证计划中）显示“我的更新”区域，除非他们有一个与其配置文件关联的布局模板，该模板除了“主页”区域外，还包括主菜单中的“我的更新”区域。
 
    * 项目组合
    * 项目群

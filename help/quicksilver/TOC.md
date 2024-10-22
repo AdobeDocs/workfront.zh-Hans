@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 2%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 2%
          * [任务原始持续时间和原始计划小时数概览](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [任务计划持续时间和持续时间之间的差异](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * 创建任务{#create-tasks}
-         * [创建任务](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [创建任务：文章索引](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [创建任务概述](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [在项目中创建任务](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [创建子任务](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 2%
       * [主字段概述](planning/fields/primary-field-overview.md)
    * Adobe Workfront计划访问权限{#adobe-workfront-planning-access}
       * [Adobe Workfront Planning访问信息：文章索引](planning/access/access-information.md)
-      * [访问概述](planning/access/access-overview.md)
+      * [Adobe Workfront Planning访问概述](planning/access/access-overview.md)
       * [在Adobe Workfront Planning中共享权限概述](planning/access/sharing-permissions-overview.md)
       * [使用Adobe Workfront Planning时的许可证类型概述](planning/access/license-type-overview.md)
       * [共享工作区](planning/access/share-workspaces.md)

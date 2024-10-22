@@ -7,9 +7,9 @@ description: 任务的计划完成日期是任务设置为完成的日期。
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 任务的计划完成日期是任务设置为完成的日期。
 
-您可以指定任务的规划完成日期，也可以将其留给Adobe Workfront根据特定条件进行计算。 
+您可以指定任务的规划完成日期，也可以将其留给Adobe Workfront根据特定条件进行计算。
 
-当项目计划于开始日期时，项目上任务的计划完成日期确定项目的计划完成日期。 有关项目计划完成日期的详细信息，请参阅[设置项目计划完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
+当项目计划于开始日期时，项目上任务的计划完成日期确定项目的计划完成日期。 有关项目计划完成日期的详细信息，请参阅[设置项目计划完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ ht-degree: 1%
 
 您必须具有任务的“编辑”访问权限和任务的“管理”权限才能更新任务的规划完成日期。
 
-设置任务的计划完成日期取决于您分配给任务的任务限制类型。 
+设置任务的计划完成日期取决于您分配给任务的任务限制类型。
 
 您可以在Workfront的以下区域中手动设置规划完成日期：
 
-* 在编辑任务框中，创建或编辑任务时。 有关信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
+* 在编辑任务框中，创建或编辑任务时。 有关信息，请参阅[编辑任务](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。
 * 在“任务详细信息”区域。 有关信息，请参阅[在任务详细信息概述区域](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中管理任务信息。
-* 如果在查看任务时显示计划完成日期，则位于主页区域。 有关信息，请参阅[在主页区域](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)更新或编辑工作项。
+* 如果在摘要面板中查看任务时显示规划完成日期，则位于主页区域。 有关信息，请参阅[在主页区域](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)更新或编辑工作项。
 * 在任务标题中。 有关信息，请参阅[新对象标头](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 * 在视图中显示“规划完成日期”字段时在任务列表或报告中。
 
   有关信息，请参阅[编辑列表中的任务](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)。
 
-选择以下任何任务约束时，您可以人工指定计划完成日期： 
+选择以下任何任务约束时，您可以人工指定计划完成日期：
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 * 如果任务与批准关联，则为与批准设置关联的时间量。 有关详细信息，请参阅[配置全局批准设置](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)。
 
-在自动设置时，计划完成日期将根据以下计算确定： 
+在自动设置时，计划完成日期将根据以下计算确定：
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Planned Completion Date = Planned Start Date + Duration
 
 >[!NOTE]
 >
-> 项目的更新类型必须设置为自动和更改时或自动以使计划小时数和持续时间自动调整。\
+> 项目的更新类型必须设置为自动和更改时或自动以使计划小时数和持续时间自动调整。\
 >有关更新类型的详细信息，请参阅文章[选择项目更新类型](../../../manage-work/projects/manage-projects/select-project-update-type.md)。

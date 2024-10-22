@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >除了Workfront计划之外，您必须购买Workfront计划才能访问和使用Workfront计划功能。
 >
->有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+>有关访问Workfront Planning的完整要求列表，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 >有关Workfront规划的概述，请参阅[Adobe Workfront规划概述](/help/quicksilver/planning/general/planning-overview.md)。
 >
 
@@ -590,7 +590,7 @@ AI Assistant当前处于测试阶段，可供某些客户使用。 请联系您�
 
 现在，在创建以下字段之一时，您可以引用距记录最远4级的字段：
 
-* 过滤器
+* 筛选条件
 
 * 排序
 
@@ -1259,7 +1259,7 @@ UNIQUE运算符适用于除以下字段之外的所有字段类型：
 * 视图：用户可以从记录类型页面的“视图”下拉菜单中选择视图。
 * 管理：用户可以编辑、共享和删除视图。
 
-有关详细信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)和[在Adobe Workfront规划功能中共享权限概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+有关详细信息，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)和[Adobe Workfront计划功能中权限共享概述](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 
 ### 新建公式字段类型
 

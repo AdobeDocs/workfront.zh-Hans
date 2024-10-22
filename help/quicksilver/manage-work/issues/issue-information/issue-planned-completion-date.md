@@ -6,7 +6,7 @@ description: 问题的计划完成日期是预期问题完成的日期。
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 问题的计划完成日期是预期问题完成的日期。
 
-您可以指定问题的规划完成日期，也可以将其留给Adobe Workfront根据特定条件进行计算。 
+您可以指定问题的规划完成日期，也可以将其留给Adobe Workfront根据特定条件进行计算。
 
-问题的计划完成日期不会影响项目的计划完成日期。 只有任务的计划完成日期会影响项目的计划完成日期。 有关项目计划完成日期的详细信息，请参阅[设置项目计划完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
+问题的计划完成日期不会影响项目的计划完成日期。 只有任务的计划完成日期会影响项目的计划完成日期。 有关项目计划完成日期的详细信息，请参阅[设置项目计划完成日期](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 您可以在Workfront的以下区域中手动设置问题的规划完成日期：
 
-* 在编辑问题框中或在创建或编辑问题时位于问题详细信息区域中。 有关信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
+* 在编辑问题框中或在创建或编辑问题时位于问题详细信息区域中。 有关信息，请参阅[编辑问题](../../../manage-work/issues/manage-issues/edit-issues.md)。
 * 如果在查看问题时显示规划完成日期，则位于主页区域。 有关信息，请参阅[在主页区域](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)更新或编辑工作项。
 * 在问题标题中。 有关信息，请参阅[新对象标头](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 * 当规划完成日期字段显示在视图中时，显示在问题列表或报告中。
@@ -54,13 +54,13 @@ ht-degree: 0%
 
   首次创建问题时，问题的输入日期和计划开始日期应该匹配。
 
-* 默认持续时间，如项目的“队列详细信息”部分中所配置。 有关信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+* 默认持续时间，如项目的“队列详细信息”部分中所配置。 有关信息，请参阅[创建请求队列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
   如果默认持续时间为0天，则计划完成日期与问题的计划开始日期匹配。
 
 * 项目计划
 
-在自动设置时，计划完成日期将根据以下计算确定： 
+在自动设置时，计划完成日期将根据以下计算确定：
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 >
 >在计算“计划完成日期”时，Workfront会考虑计划例外，如假日和周末。
 
- 
+

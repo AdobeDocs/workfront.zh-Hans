@@ -7,9 +7,9 @@ description: 如果您计划在短时间内不在办公室，您可以暂时将�
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   有关信息，请参阅[配置系统范围的任务和问题首选项](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
 * 您只能从[!UICONTROL 主页]区域委派任务和问题。
-* 以下许可证类型存在例外：
+* 委托工作时，以下许可证类型会出现例外：
 
    * 您可以将工作委派给审阅者或请求者，但[!DNL Workfront]不建议这样做。
    * 审阅者可以将工作委派给其他人。 他们无法在[!UICONTROL 主页]区域查看工作项。 他们只能查看审批。

@@ -7,9 +7,9 @@ description: 当任务准备开始时，Adobe Workfront会向任务添加一个�
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ ht-degree: 0%
 
 Workfront会先检查以下内容，然后再在“可以开始”字段中将任务标记为“真”：
 
-* 如果任务有父任务，它会检查父任务的“可以启动”值是否设置为True。 如果父任务的值为False，则所有子任务的值为Can Start也会设置为False。 
-* 它还会检查任务的前置任务及其父项的前置任务是否完整。 如果任务完成，任务的“可以开始”值将设置为True。 如果任何任务前置任务或其父项的前置任务未完成，或状态为“完成 — 未决批准”，则任务的“可以开始”值将设置为False。 
+* 如果任务有父任务，其父任务的“可以启动”值是否设置为True。 如果父任务的值为False，则所有子任务的值为Can Start也会设置为False。
+* 任务的前置任务及其父项的前置任务是否完整。 如果任务完成，任务的“可以开始”值将设置为True。 如果任何任务前置任务或其父项的前置任务未完成，或状态为“完成 — 未决批准”，则任务的“可以开始”值将设置为False。
+* 任务依赖性类型是“开始 — 开始”还是“开始 — 完成”。 如果依赖性类型为“开始 — 开始”或“开始 — 完成”，则父任务正在进行后（或父任务的完成百分比大于1%），依赖任务的“可以开始”标志将设置为True。<!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   有关前置任务的信息，请参阅[前置任务概述](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)。
 

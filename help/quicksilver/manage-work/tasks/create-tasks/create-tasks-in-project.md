@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 例如，在创建项目后，您可能需要添加任务并修改这些任务以组织项目计划。 有关创建项目的详细信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
-有关创建不在项目中的个人任务的信息，请参阅文章[从主页区域创建工作项和项目](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)中的[创建个人任务](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task)部分。
+<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
 
 本文介绍了如何从头开始创建任务。 您还可以通过以下方式创建任务：
 

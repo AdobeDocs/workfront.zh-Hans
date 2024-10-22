@@ -6,9 +6,9 @@ description: 您可以使用智能分配来确定谁是完成工作的最佳用�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ ht-degree: 0%
    * 任务或问题标题
    * 任务或问题摘要面板
    * <span class="preview">新任务</span>或新问题框，因为您向项目中添加了<span class="preview">新任务</span>或问题
-   * “主页”区域中列出的项目的“工作总揽”字段
    * 工作负载均衡器中的任务或问题
 
 1. 将光标置于Assignments字段中，并等待两秒钟。

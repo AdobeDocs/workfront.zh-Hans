@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: 创建任务
-description: 您可以在特定项目中创建任务，也可以从“主页”区域创建任务。
+title: “创建任务：文章索引”
+description: 您可以在特定项目中创建任务。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# 创建任务
+# 创建任务：文章索引
 
-您可以在特定项目中创建任务，也可以从“主页”区域创建任务。
+<!--Audited: 10/2024-->
+
+您可以在Adobe Workfront中的特定项目中创建任务。
 
 本节包含以下文章：
 

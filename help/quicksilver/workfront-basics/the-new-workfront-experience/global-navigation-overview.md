@@ -3,9 +3,9 @@ content-type: overview
 title: 顶部导航栏概述
 description: 顶部导航栏（显示在 [!DNL Adobe Workfront] 中的屏幕顶部）允许您轻松查找并导航到平台的其他区域。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 >* Workfront Planning的附加许可证。
 >* 您组织的Workfront实例必须载入到AdobeUnified Experience。
 >
-> 有关访问Workfront Planning的完整要求列表，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+> 有关访问Workfront Planning的完整要求列表，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 > 
 
 本文包含有关Workfront Planning的一般信息。
@@ -168,7 +168,7 @@ Workfront Planning中目前提供以下功能：
 
 * 将需要访问Planning版面模板的用户分配到主菜单中，该模板包括Planning。 有关详细信息，请参阅[使用布局模板自定义主菜单](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[将用户分配给布局模板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)。
 
-* 为用户分配Workfront许可证和Workfront Planning权限，以便在Workfront Planning中按5554hview或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+* 为用户分配Workfront许可证和Workfront Planning权限，以便在Workfront Planning中按5554hview或创建对象。 有关授予他人访问权限以及允许他人使用Workfront Planning的更多信息，请参阅[Adobe计划访问权限概述](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Workfront Planning术语
 
@@ -321,7 +321,7 @@ Workfront Planning的框架是完全可自定义的。 您可以创建所有记�
 
 ## 找到Adobe Workfront Planning
 
-要找到Adobe计划，请确保贵组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到主菜单。 有关信息，请参阅[访问概述](/help/quicksilver/planning/access/access-overview.md)。
+要找到Adobe计划，请确保贵组织已获得Workfront Planning的访问权限，且您的系统或组管理员已将Planning区域添加到主菜单。 有关信息，请参阅[Adobe计划访问概述](/help/quicksilver/planning/access/access-overview.md)。
 
 要找到Workfront Planning，请执行以下操作：
 

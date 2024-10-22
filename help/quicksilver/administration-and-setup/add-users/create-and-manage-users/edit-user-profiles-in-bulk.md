@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
        <ul> 
         <li><b>时区：</b>用户的时区。</li> 
         <li><b>区域设置</b>：用户首选的区域设置。 这会影响来自Workfront的电子邮件中数字和日期的格式。</li> 
-        <li><b>将我分配给自己的工作发送到我的“正在处理”选项卡</b>：如果您希望用户分配给自己的所有内容直接显示在其“正在处理”选项卡上，请选中此选项。 默认设置在用户的工作请求选项卡上列出分配给用户的所有内容。</li> 
+        <li><b>将我为自己分配的工作发送到我的工作选项卡中</b>：此设置引用已从Workfront中删除的已弃用功能。</li> 
        </ul> </td> 
      </tr> 
      <tr> 

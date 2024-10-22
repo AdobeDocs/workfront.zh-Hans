@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 任务是Adobe Workfront中影响项目完成的较小工作项。 在以下子部分中了解有关管理任务的信息：
 
 * [任务信息](../../manage-work/tasks/task-information/task-information.md)
-* [创建任务](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+* [创建任务：文章索引](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [分配任务](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [管理任务](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [任务约束](../../manage-work/tasks/task-constraints/task-constraints.md)

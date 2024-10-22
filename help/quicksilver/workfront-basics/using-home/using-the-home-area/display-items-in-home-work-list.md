@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 在“主页”区域显示[!UICONTROL 工作列表]中的项
+title: 在主页区域显示[!UICONTROL 工作列表]中的项
 description: 每个构件都包含自己的工作列表。 工作列表显示分配给您的所有工作项。 您可以使用筛选器和分组控制[!UICONTROL 工作列表]中显示的项目。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 6%

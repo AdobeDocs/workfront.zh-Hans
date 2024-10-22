@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 1%
 
 ---
 
@@ -38,19 +38,20 @@ ht-degree: 0%
   >
   >您可以将“处理此项工作”按钮替换为“开始”按钮。 有关将“处理此项工作”按钮替换为“开始”按钮的信息，请参阅[将“处理此项工作”按钮替换为“开始”按钮](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) 。
 
-* 单击处理此项接受后，按钮将更改为标记为完成或完成，具体取决于您在Workfront中访问任务或问题的位置。 有关您可以在何处访问“处理它”按钮的信息，请参阅本文中的[找到处理它并完成按钮](#locate-the-work-on-it-and-done-button)部分。
+* 单击“处理此项接受”后，按钮将变为“标记为完成”。 有关您可以在何处访问“处理它”按钮的信息，请参阅本文中的[找到处理它并完成按钮](#locate-the-work-on-it-and-done-button)部分。
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* 如果您不是唯一一个被分配到任务或问题的用户，并且您正在从“主页”区域的“工作列表”访问您的工作项，则该按钮将变为“完成我的部件”。
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## 找到处理此项工作并完成按钮 {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-您可以在Workfront的以下区域中找到“处理它并完成”按钮：
+## 找到处理此项工作并标记为完成按钮 {#locate-the-work-on-it-and-done-button}
 
-* 主页区域，位于工作列表或详细信息面板中
+您可以在Workfront的以下区域中找到“处理此项工作”和“标记为完成”按钮：
+
+* 我的工作小组件中的“主页”区域
 
   有关在“主页”区域中将项目标记为“完成”的信息，请参阅[在“主页”区域中将项目标记为“完成”](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)。
 
@@ -58,13 +59,13 @@ ht-degree: 0%
 
   有关对象标头的信息，请参阅[新建对象标头](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)。
 
-* 在任务或问题的列表或工作负载均衡器中的摘要面板
+* 在任务或问题摘要面板中
 
   有关使用摘要面板的信息，请参阅[摘要概述](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-## 单击“处理它并完成”按钮时自动更新的字段概述
+## 单击处理它并标记为完成按钮时自动更新的字段概述
 
-使用处理它和完成按钮的好处是，您可以允许Workfront自动更新分配给您的工作项的信息。
+使用“处理此项工作”和“标记为完成”按钮的好处是，您可以允许Workfront自动更新分配给您的工作项的信息。
 
 * [处理此项工作按钮](#work-on-it-button)
 * [开始按钮](#start-button)
@@ -111,7 +112,11 @@ ht-degree: 0%
 
 ### “完成”按钮 {#the-done-button}
 
-如果您有权编辑团队，则可以配置团队的“完成”按钮，以在将项目标记为已完成时更新任务或问题状态。 当将该团队作为其主团队的用户单击其项目上的“完成”按钮时，以下字段自动更新任务或问题：
+>[!NOTE]
+>
+>在Workfront的所有区域中，“完成”按钮显示为“标记为完成”。
+
+如果您有权编辑团队，则可以配置团队的“完成”按钮，以在将项目标记为已完成时更新任务或问题状态。 当将该团队作为其主团队的用户单击其项目上的“标记为完成”按钮时，以下字段将自动更新任务或问题：
 
 * 状态
 * 工作分配状态更新从“正在处理”到“已完成”

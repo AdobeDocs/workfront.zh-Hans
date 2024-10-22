@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 词汇表列出了 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
+source-wordcount: '20901'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[！UICONTROL日历]</td> 
-   <td> <p>[!DNL Workfront]中有两种类型的日历：[！UICONTROL主页日历]和日历报告。</p> <p>[！UICONTROL主页日历]是一个个人日历，允许用户根据[!DNL Workfront]中的可用小时数管理其工作量。 用户还可以将其[！UICONTROL主页日历]与[!DNL Outlook]集成（即将进行[!DNL Google]和[!DNL Microsoft]集成）。 </p> <p>有关[！UICONTROL主页日历]的详细信息，请参阅<a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[！UICONTROL主页日历]视图</a>。</p> <p>日历报告是一种动态报告，用户可在其中查看事件的日期和其他重要详细信息，包括到期日、工作状态以及事件所分配到的用户。</p> <p> 有关日历报告的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">日历报告概述</a>。</p> </td> 
+   <td> <p>在Workfront中，日历报告是一种动态报告，用户可以在其中查看事件的日期和其他重要详细信息，包括到期日期、工作状态和事件所分配到的用户。</p> <p> 有关日历报告的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">日历报告概述</a>。</p>
+   <p> 在Workfront Planning中，“日历”视图是在日历上显示记录的记录类型的一种视图。 您必须拥有附加许可证才能访问Workfront Planning。 </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[！UICONTROL可以启动]</td> 
@@ -1165,7 +1167,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>在[！UICONTROL Task]报告或[！UICONTROL Issue]报告中，[！UICONTROL Kanban Flag]字段显示对[！UICONTROL Kanban Board]上的文章设置的标志状态。 可能的值包括[！UICONTROL On Track]、[！UICONTROL Ready To Pull]和[！UICONTROL Is Blocked]。</p> <p>有关在[！UICONTROL Kanban故事板上的故事上设置标记状态的更多信息，请参阅  文章<a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">在[！UICONTROL Kanban展示板上的故事上使用标志]</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>KPI</td> 
+   <td>关键绩效指标</td> 
    <td>可衡量的价值，表明一家公司在多大程度上有效地实现了关键业务目标。</td> 
   </tr> 
   <tr> 
@@ -1644,7 +1646,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[！UICONTROL门户配置文件]</td> 
-   <td>管理员定义的选项卡和门户分区集合，显示在[!DNL Workfront]应用程序[！UICONTROL主页]和其他功能板上。</td> 
+   <td>管理员定义的选项卡和部分的集合，显示在[!DNL Workfront]中。</td> 
   </tr> 
   <tr> 
    <td>[！UICONTROL门户分区]</td> 

@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 配置我的设置
 description: 您的 [!DNL Adobe Workfront] 配置文件包含与您本人相关的信息（例如，您的姓名、电子邮件地址、地址、电话号码、职务等）。 它还包含有关您与 [!DNL Workfront] 和公司中其他用户的交互的信息。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ ht-degree: 1%
 
 <tr> 
    <td role="rowheader"><strong>[！UICONTROL将分配给自己的工作发送到我的“正在处理”选项卡]</strong> </td> 
-   <td>选择此字段可在[！UICONTROL工作]选项卡上显示您直接分配给自己的工作，而不是[！UICONTROL工作请求]选项卡。</td> 
+   <td>此字段引用已从[!DNL Workfront]中删除的已弃用功能。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（视情况而定）上传文档时自动生成验证</strong></td> 

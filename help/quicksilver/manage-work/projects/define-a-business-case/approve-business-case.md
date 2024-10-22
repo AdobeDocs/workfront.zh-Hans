@@ -5,16 +5,16 @@ description: 在完成并提交项目请求的商业论证后，必须批准该�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # 批准业务案例
 
-在完成并提交项目请求的商业论证后，必须批准该商业论证。 这取决于您组织中的工作流。 项目可以在没有业务案例必须获得批准的情况下开始，但您的Adobe Workfront管理员和项目所有者可能认为不宜这样做。 
+在完成并提交项目请求的商业论证后，必须批准该商业论证。 这取决于您组织中的工作流。 项目可以在没有业务案例必须获得批准的情况下开始，但您的Adobe Workfront管理员和项目所有者可能认为不宜这样做。
 
 有关完成和提交业务案例的详细信息，请参阅文章[为项目创建业务案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 
@@ -51,16 +51,16 @@ ht-degree: 0%
 
 在批准项目的业务案例时，请考虑以下事项：
 
-* 您必须对项目具有管理权限才能审批该项目的业务案例。 
-* 您将无法在主页的“批准”下看到等待业务案例获得批准的项目。
+* 您必须对项目具有管理权限才能审批该项目的业务案例。
+* 您将无法在主页的“我的审批”小组件下看到正在等待业务案例获得批准的项目。
 * 您必须手动转到需要业务案例批准的单个项目，以查看它们正在等待批准。 没有Workfront通知机制可提醒某人必须批准项目的业务案例。
-* 您可以通过构建项目报告或访问与项目组合相关联的项目来查找等待业务案例审批的项目。 
+* 您可以通过构建项目报告或访问与项目组合相关联的项目来查找等待业务案例审批的项目。
 
   有关Portfolio的详细信息，请参阅Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)中的文章[Portfolio概述。
 
 ## 通过构建项目报告审批业务案例
 
-您可以为项目构建报告，以查看哪些项目需要其业务案例获得批准。 
+您可以为项目构建报告，以查看哪些项目需要其业务案例获得批准。
 
 要为等待其业务案例审批的项目构建报告，请执行以下操作：
 
@@ -72,23 +72,23 @@ ht-degree: 0%
 
 1. 开始在&#x200B;**显示在此列**&#x200B;字段中键入“Status”，并在该字段出现在列表中时将其选中。
 
-    此列将显示项目的状态。
+   此列将显示项目的状态。
 
 1. 选择报告的&#x200B;**筛选器**&#x200B;选项卡，然后单击&#x200B;**添加筛选器规则**。
 
 1. 开始在&#x200B;**仅向我显示……**&#x200B;字段中键入“状态”，并在该字段出现在列表中时将其选定。
 1. 为筛选器修饰符选择&#x200B;**等于**。
-1. 在可用字段中开始键入“Requested”。 
+1. 在可用字段中开始键入“Requested”。
 
    这可确保报表仅包含处于已请求状态的项目。
 
-     ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. （可选）单击&#x200B;**添加其他筛选器规则**。
 
    您可以添加其他过滤器，以仅显示您是项目所有者、项目发起人或Portfolio所有者的项目。
 
-   例如，您可以使用以下filter语句： 
+   例如，您可以使用以下filter语句：
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ ht-degree: 0%
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   显示您被指定为“Portfolio管理器”的位置。 
+   显示您被指定为“Portfolio管理器”的位置。
 
 1. 单击&#x200B;**保存+关闭**。
 

@@ -7,9 +7,9 @@ description: 您可以使用Adobe Workfront中的过滤器来减少您在列表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1807'
 ht-degree: 1%
 
 ---
@@ -71,8 +71,8 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 您可以在Workfront的以下区域中使用内置过滤器或构建自定义过滤器：
 
-* 主页\
-  有关信息，请参阅文章[主页区域工作列表显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)中的[筛选工作列表](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list)部分。
+<!--* Home   
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
 * 请求区域。 您不能在请求区域中自定义筛选器。
 
   有关信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。

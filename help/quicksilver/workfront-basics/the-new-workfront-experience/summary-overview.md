@@ -5,9 +5,9 @@ description: 您可以使用“摘要”面板直接从任务问题、文档列�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ ht-degree: 2%
 
 使用[!UICONTROL 摘要]的[!UICONTROL 详细信息]部分查看高级别工作项详细信息、进行分配或添加开始日期。 单击&#x200B;**[!UICONTROL 查看全部]**&#x200B;直接转到任务或问题上的[!UICONTROL 详细信息]选项卡。
 
->[!NOTE]
->
->此部分中显示的字段与主页右侧面板中显示的字段相同。 您可以使用布局模板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)自定义这些字段[自定义[!UICONTROL 主页]和[!UICONTROL 摘要]。
+
 
 摘要面板中的![详细信息部分](assets/summary-details-section.png)
 

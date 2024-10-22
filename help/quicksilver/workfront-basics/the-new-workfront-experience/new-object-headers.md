@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: 对象标题概述
 description: 查看对象标题时，可以一目了然地查看 [!DNL Adobe Workfront] 中的对象信息。 标题中的信息可以包括对象的所有者、状态或完成百分比。
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ ht-degree: 0%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL 主页]标题概述
+<!--## [!UICONTROL Home] header overview 
 
-主页中有以下标头：
+The following headers are available in Home:
 
-* 任务：有关如何使用此标题的更多信息，请参阅本文中的[任务标题概述](#task-header-overview)。
-* 问题：有关如何使用此标题的更多信息，请参阅本文中的[问题标题概述](#issue-header-overview)。
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## 可自定义的标题
 
@@ -80,8 +81,8 @@ ht-degree: 0%
    <td> <p>文本“[！UICONTROL PROJECT]”显示在标题中项目名称上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">任务的操作区域</td> 
-   <td> <p>在项目名称的旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">项目的操作区域</td> 
+   <td> <p>在项目名称旁边，将显示包含<b>共享</b>选项的操作区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -144,7 +145,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">任务的操作区域</td> 
-   <td> <p>在任务名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>如果显示“依赖项”图标，您可以单击该图标查看任务的任何前置任务或后续任务。</p> </td> 
+   <td> <p>在任务名称旁边，将显示包含<b>共享</b>选项的操作区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>如果显示“依赖项”图标，您可以单击该图标查看任务的任何前置任务或后续任务。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -207,7 +208,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">问题的操作区域</td> 
-   <td> <p>在问题名称的旁边，显示[！UICONTROL actions]区域。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>如果显示[！UICONTROL依赖项]图标，您可以单击该图标以查看该问题的任何前置任务或后续任务。</p>  </td> 
+   <td> <p>在问题名称旁边，将显示包含<b>共享</b>选项的操作区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>如果显示[！UICONTROL依赖项]图标，您可以单击该图标以查看该问题的任何前置任务或后续任务。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -274,7 +275,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">计划的操作区域</td> 
-   <td> <p>在项目名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>在程序名旁边，将显示包含<b>共享</b>选项的操作区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL完成百分比]</td> 
@@ -328,8 +329,8 @@ ht-degree: 0%
    <td> <p>如果项目组合已停用，则标题中的项目组合名称上方会显示文本“[！UICONTROLPORTFOLIO已停用]”。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">项目组合的[！UICONTROL actions]区域</td> 
-   <td> <p>在项目组合名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">项目组合的操作区域</td> 
+   <td> <p>在项目组合名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROLPortfolio管理器]</td> 
@@ -392,7 +393,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">模板的操作区域</td> 
-   <td> <p>在模板名称旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>在模板名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL模板所有者]</td> 
@@ -439,7 +440,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">模板任务的操作区域</td> 
-   <td> <p>在模板任务的名称旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>在模板任务的名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL分配]</td> 
@@ -485,12 +486,15 @@ ht-degree: 0%
    <td> <p>文本“[！UICONTROL BILLING RECORD]”显示在标头中的开票记录名称上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">计费记录的操作区域</td> 
+   <td role="rowheader">计费记录的“更多”菜单</td> 
    <td> <p>在开票记录的名称旁边，将显示[！UICONTROL更多]菜单<img src="assets/more-menu.png">，该菜单允许您选择以下选项：</p> 
     <ul> 
      <li> <p>[！UICONTROL编辑]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> 删除 </p> </li> 
+    </ul>
+    <p><b>注释</b></p>
+    <p>对于记帐状态为“已记帐”的记帐记录，不会显示“更多”菜单。 您无法编辑或删除已记帐记录。</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL开票记录总数]</td> 
@@ -542,7 +546,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">用户的操作区域</td> 
-   <td> <p>在用户名旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>在用户名旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">电子邮件地址</td> 
@@ -589,7 +593,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">团队的操作区域</td> 
-   <td> <p>在团队名称的旁边，将显示[！UICONTROL actions]区域。</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>在团队名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">团队成员个人资料图片</td> 
@@ -632,8 +636,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">迭代的操作区域</td> 
-   <td> <p>在标题的右上角，将显示操作区域。</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>在迭代的名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">所有者</td> 
    <td>这是迭代的[！UICONTROL所有者]。 您不能在标头中编辑[！UICONTROL Owner]。</td> 
@@ -735,7 +738,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">文档的操作区域</td> 
-   <td> <p>在文档名称旁边，将显示操作区域。</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>在文档名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">审批[！UICONTROL决策]区域</td> 
@@ -773,7 +776,7 @@ ht-degree: 0%
    <td> <p>文本“[！UICONTROL COMPANY]”显示在标题中公司名称上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">公司的操作区域</td> 
+   <td role="rowheader">公司的“更多”菜单</td> 
    <td> <p>在公司名称旁边，将显示[！UICONTROL More]菜单<img src="assets/more-menu.png">，该菜单允许您选择以下选项：</p> 
     <ul> 
      <li> <p>[！UICONTROL编辑]</p> </li> 
@@ -819,7 +822,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">计划的操作区域</td> 
-   <td> <p>在计划名称旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>在计划名称旁边，将显示操作区域。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他计划操作</td> 
@@ -885,9 +888,9 @@ ht-degree: 0%
    <td> <p>文本“[！UICONTROL GOAL]”显示在标题中目标名称上方。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目标的操作区域</td> 
-   <td> <p>在目标名称旁边，将显示操作区域。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   您可以从目标的操作区域执行以下操作：
+   <td role="rowheader">目标的“更多”菜单</td> 
+   <td> <p>在目标名称旁边，显示更多菜单<img src="assets/more-icon.png">。</p> </p>
+   您可以从目标的更多菜单执行以下操作：
    <ul><li>[！UICONTROL编辑]</li>
    <li>[！UICONTROL复制目标]</li>
    <li>[！UICONTROL删除目标]</li>
