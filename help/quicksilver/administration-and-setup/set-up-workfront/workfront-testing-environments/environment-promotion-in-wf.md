@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 094a742e62bbf222e695d984efca612b32d9fadf
+source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 1%
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,7 @@ ht-degree: 1%
 | 风险类型(RSKTYP) | 风险类型 |
 | 资源池(RSPL) | 资源池 |
 | 访问级别(ACSLVL) | 访问级别 |
+| 费率卡(RTCRD) | 费率卡 |
 
 \*当前不可用
 
