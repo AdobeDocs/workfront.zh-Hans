@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ### 允许群集1 、 2 、 3 、 5 、 7 、 8和9的IP地址 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-如果您的生产环境位于群集1、2、3、5或7上，则必须允许以下IP地址。
+如果您的生产环境位于群集1、2、3、5、7、8或9上，则必须允许以下IP地址。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ jira.workfront.com域还必须可从您的公司服务器访问。 此域是必�
 
 ## 来自Workfront支持的电子邮件通知
 
-如果不收到来自Workfront支持的电子邮件，请确保添加所需的Salesforce IP地址和域。 有关更多信息，请参阅有关Salesforce IP要允许的地址和域的Salesforce帮助文章。
+如果您没有收到来自Workfront支持的电子邮件，请确保添加所需的Salesforce IP地址和域。 有关更多信息，请参阅有关Salesforce IP要允许的地址和域的Salesforce帮助文章。
