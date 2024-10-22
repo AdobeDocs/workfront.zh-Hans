@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 2%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 2%
       * [创建和管理Agile团队](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [编辑团队设置](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [管理您的团队正在处理的工作](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [取消激活团队](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [停用或删除团队](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [为任务配置完成按钮](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [配置问题的完成按钮](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [将“处理此项工作”按钮替换为“开始”按钮](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
@@ -1925,7 +1925,7 @@ ht-degree: 2%
             * [在视频验证中启用循环](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
             * [锁定或解锁验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
             * [在验证中搜索内容](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
-            * [比较证据](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
+            * [比较校样](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
             * [在验证查看器中下载验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
             * [验证查看器中的键盘快捷键](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
             * [在Web验证查看器中设置交互式内容验证](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)

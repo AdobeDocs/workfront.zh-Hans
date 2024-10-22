@@ -6,7 +6,7 @@ description: 默认情况下，创建团队后，您会成为团队所有者。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL 切换团队]**&#x200B;图标![切换团队图标](assets/switch-team-icon.png)，然后单击&#x200B;**[!UICONTROL 创建新团队]**。
 
-   ![选择“创建新团队”。](assets/create-new-team-350x198.png)
+   ![选择“创建新团队”。](assets/create-new-team.png)
 
 1. 在显示的&#x200B;**[!UICONTROL 新团队]**&#x200B;框中，输入以下信息：
 

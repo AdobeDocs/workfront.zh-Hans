@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: 取消激活团队
+title: 停用或删除团队
 description: 您可以停用不再使用的团队，同时保留关联的历史数据。 Adobe Workfront管理员可以随时从“设置”的团队区域重新激活团队。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 取消激活团队
+# 停用或删除团队
 
 您可以停用不再使用的团队，同时保留关联的历史数据。 [!DNL Adobe Workfront]管理员可以随时从“设置”中的“团队”区域重新激活团队。 如果取消激活某个团队，则该团队将不再显示在以下区域中：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront计划</p> </td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ ht-degree: 0%
    <p>新增：标准</p>
    <p>或</p>
    <p>当前：计划</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>访问级别配置</td>
+   <td><p>要停用团队，不需要配置。</p>
+   <p>要删除团队，您必须是系统管理员。</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ ht-degree: 0%
 1. 单击&#x200B;**[!DNL Switch team]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. 清除&#x200B;**[!UICONTROL 处于活动状态]**&#x200B;复选框。
+1. 清除团队设置中的&#x200B;**[!UICONTROL 处于活动状态]**&#x200B;复选框。
 1. 单击&#x200B;**[!UICONTROL 保存更改]**。
 
-## 已知限制
+## 停用团队的已知限制
 
 已停用的团队在以下区域显示：
 
 * [!DNL Workfront Goals]中的“所有者”字段。 这需要[!DNL Adobe Workfront Goals]的额外许可证。 有关详细信息，请参阅[开始使用 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)。
+
+## 删除团队
+
+只有系统管理员可以删除团队。 如果您是团队所有者（但不是管理员）并尝试删除团队，您将看到一条错误消息。
+
+要删除团队，请执行以下操作：
+
+{{step1-to-team}}
+
+1. 单击&#x200B;**[!DNL Switch team]**&#x200B;图标，然后从下拉菜单中选择新团队或在搜索栏中搜索团队。
+1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 删除]**。
+
+   ![](assets/edit-team-settings.png)
+
+1. 单击确认消息上的&#x200B;[!UICONTROL **确认**]&#x200B;以永久删除团队。 无法恢复已删除的团队。

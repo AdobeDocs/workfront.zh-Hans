@@ -6,9 +6,9 @@ description: Adobe Workfront的默认配置包括“处理此项工作”按钮�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 团队]**&#x200B;下拉菜单中，选择一个团队。\
    或\
-   单击&#x200B;**[!UICONTROL 创建团队]**。
+   单击&#x200B;**[!UICONTROL 创建新团队]**。
 
 1. 单击&#x200B;**[!UICONTROL 更多]**&#x200B;图标![](assets/more-icon.png)，然后单击&#x200B;**[!UICONTROL 编辑]**。
 
