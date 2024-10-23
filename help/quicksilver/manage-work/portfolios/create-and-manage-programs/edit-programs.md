@@ -6,9 +6,9 @@ description: 您可以编辑已创建的程序的信息，或其他用户已创�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >根据[!DNL Workfront]管理员如何为自定义表单中的分区设置权限，并非所有人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对程序本身的权限。 有关设置自定义表单各节权限的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   >根据[!DNL Workfront]管理员如何为自定义表单中的分区设置权限，并非所有人都可以查看或编辑给定自定义表单上的相同字段。 在自定义表单的部分中编辑字段的权限取决于您对程序本身的权限。 有关设置自定义表单各部分的权限的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 更新自定义表单中的任何字段，然后单击&#x200B;**[!UICONTROL 保存更改]**&#x200B;或继续下面的部分。
 

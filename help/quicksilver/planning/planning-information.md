@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    * 管理记录页面的布局
    * “记录注释和历史记录”部分
    * 共享记录
-   * Workfront对象的“Workfront规划”部分
+   * 从Workfront管理Workfront规划记录
 
 * [Adobe Workfront计划请求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)包含以下信息：
 

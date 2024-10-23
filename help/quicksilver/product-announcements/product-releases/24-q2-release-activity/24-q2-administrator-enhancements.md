@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Beta版自定义表单设计器现在允许您在预览模式下测试显示逻�
 
 向公司或用户附加自定义表单时，现在可以使用高级自定义表单功能，例如外部查找字段和Workfront本机字段。 高级功能在“公司详细信息”和“用户详细信息”页面上可用，而在“编辑公司”和“编辑用户”对话框中不可用。 必须在新的表单设计器中创建自定义表单，才能利用这些字段类型。
 
-有关自定义表单字段的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关自定义表单字段的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## JumpSeat集成现在可用于新包类型
 
@@ -64,7 +64,7 @@ Workfront本机字段现在可供您添加到自定义表单中。 利用此新�
 
 此功能仅在表单设计器测试版中可用，在旧版表单生成器中不可用。
 
-有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 [观看此功能的视频演示。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

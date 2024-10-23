@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2529'
+source-wordcount: '2523'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ ht-degree: 2%
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 在&#x200B;**添加自定义表单**&#x200B;字段中，选择要与问题关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以为一个问题添加十个自定义表单。
+1. 在&#x200B;**添加自定义表单**&#x200B;字段中，选择要与问题关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以为一个问题添加十个自定义表单。
 
 1. （视情况而定）如果您在问题中附加了自定义表单，请编辑表单上的任何字段。 在保存问题之前，必须指定所有必填字段。
 
    >[!NOTE]
    >
-   >根据您的Workfront管理员如何为自定义表单中的部分设置权限，并非每个人都可以查看或编辑给定自定义表单上的相同字段。 编辑自定义表单分区中字段的权限取决于您对问题本身的权限。 有关设置自定义表单各节权限的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 有关设置问题权限的信息，请参阅[共享问题](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
+   >根据您的Workfront管理员如何为自定义表单中的部分设置权限，并非每个人都可以查看或编辑给定自定义表单上的相同字段。 编辑自定义表单分区中字段的权限取决于您对问题本身的权限。 有关设置自定义表单各部分的权限的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 有关设置问题权限的信息，请参阅[共享问题](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)。
 
 1. 单击&#x200B;**保存**&#x200B;或继续编辑以下部分。
 

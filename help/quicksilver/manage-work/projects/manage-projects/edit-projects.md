@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 1%
 
 ---
@@ -340,7 +340,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中只显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以向一个项目添加十个自定义表单。
+   >您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中只显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以向一个项目添加十个自定义表单。
 
 
 1. （视情况而定）如果您将自定义表单附加到项目，请编辑表单上的任何字段。 在保存项目之前，必须指定所有必填字段。
@@ -562,7 +562,7 @@ ht-degree: 1%
    * 从同一组中选择多个项目时，系统级别和组特定的任务审批流程都会显示在此字段中。
    * 从不同组中选择多个项目时，此字段仅显示系统级任务审批流程。
 
-1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择将任务添加到项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以将十个自定义表单与一个任务关联。
+1. 在&#x200B;**任务默认自定义Forms**&#x200B;框中，选择将任务添加到项目时要与所有新任务关联的一个或多个自定义表单。 您必须先构建自定义表单，然后才可在此字段中选择它们。 列表中仅显示活动的自定义表单。 有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。 您最多可以将十个自定义表单与一个任务关联。
 1. （可选）如果要通过使用工作投入而不是计划小时数来启用管理任务投入，请选择&#x200B;**使用工作投入以自动计算任务计划小时数**。
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

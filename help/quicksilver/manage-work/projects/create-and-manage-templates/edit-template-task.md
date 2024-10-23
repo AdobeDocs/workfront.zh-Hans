@@ -7,9 +7,9 @@ description: 创建模板后，可以编辑有关模板任务的信息。 在使
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 3%
 
 ---
@@ -362,7 +362,7 @@ ht-degree: 3%
 
    您必须先构建自定义表单，然后才可在此字段中选择它们。
 列表中仅显示活动的自定义表单。
-有关生成自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关生成自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 您最多可以向一个模板任务添加十个自定义表单。
 表单会自动添加到从模板创建的任务中。
 1. （视情况而定，可选）如果将自定义表单附加到模板任务，请编辑表单上的任何字段。 在保存模板任务之前，必须指定所有必填字段。

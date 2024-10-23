@@ -6,9 +6,9 @@ description: 此集成方案将 [!DNL Adobe Workfront] 项目（营销活动）�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 代表需要资金的营销活动和其他项目的项目模板，配置了[!UICONTROL 预算请求]队列主题。 已分配[!UICONTROL 预算请求]队列主题以使用[!UICONTROL 预算请求]自定义表单。
 * 项目对象的&#x200B;**[!UICONTROL 营销活动简报]**&#x200B;表单。
@@ -141,7 +141,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 预期[!DNL Anaplan]配置
 

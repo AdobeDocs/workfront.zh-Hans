@@ -5,15 +5,17 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
 # 连接的记录类型概述
+
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
 
 通过连接各个记录类型可以指出它们彼此相关，或与来自其他应用程序的对象相关。
 
@@ -70,8 +72,10 @@ ht-degree: 1%
 
       * 链接记录字段是在您连接的记录类型上创建的。 不会在其他应用程序的对象类型上自动创建链接记录字段。
       * 无法从Workfront对象访问Planning记录字段。
-      * 当Workfront管理员通过Workfront与Adobe Experience Manager Assets之间的集成配置Experience Manager映射时，可从Metadata Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
       * Planning记录在Workfront对象的Planning选项卡中可见。 有关信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * 当Workfront管理员通过Workfront与Adobe Experience Manager Assets之间的集成配置Experience Manager映射时，可从Metadata Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
+
 
    * **从您连接的记录或对象添加查找字段时**：除了创建链接记录字段外，您还可以从连接的记录或对象类型连接到称为查找字段的字段。 链接（或查找字段）包含所连接记录中的信息，该信息显示在您连接的记录中。
 
@@ -159,8 +163,3 @@ ht-degree: 1%
 现实生活中，一个人与其所在国家/地区的唯一标识符（如社会保险号、护照ID、本地标识符ID）之间存在一对一的关系：每个人只有一个国家/地区的唯一标识符，并且每个唯一标识符只能链接到一个人。
 
 选择此连接类型后，可将其更改为任何其他连接类型。
-
-
-
-
-

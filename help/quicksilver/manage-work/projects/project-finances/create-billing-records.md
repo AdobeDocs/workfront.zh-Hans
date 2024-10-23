@@ -5,9 +5,9 @@ description: 除了设置收入和跟踪费用外，您还可以在项目上创�
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. （可选）在&#x200B;**自定义Forms**&#x200B;下，选择要添加到开票记录的开票记录自定义表单。
 
-   您（或其他有权访问自定义表单的用户）必须先创建账单记录自定义表单，然后才能在此处选择。 列表中仅显示活动的自定义表单。 有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   您（或其他有权访问自定义表单的用户）必须先创建账单记录自定义表单，然后才能在此处选择。 列表中仅显示活动的自定义表单。 有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    您可以重复此步骤以添加账单记录所需的其他自定义表单。
 

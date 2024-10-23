@@ -6,9 +6,9 @@ description: 在Adobe Workfront中，计划工作由项目和任务表示。 但
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Workfront管理员必须创建请求队列的以下组件：
   有关详细信息，请参阅文章[创建主题组](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
 * （可选）请求自定义表单。\
-  有关详细信息，请参阅文章[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关详细信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （可选）请求审批流程。\
   有关详细信息，请参阅文章[为工作项创建批准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
@@ -343,7 +343,7 @@ Workfront管理员必须创建请求队列的以下组件：
   有关自定义Workfront集成的更多信息，请参阅文章[Adobe Workfront集成](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)。
 
 * 如果您已经为Salesforce安装了Workfront应用程序，则可以从Salesforce提交请求。\
-  有关使用Salesforce的Workfront应用程序从Salesforce提交请求的信息，请参阅文章[从Salesforce对象提交Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
+  有关使用适用于Salesforce的Workfront应用程序提交来自Salesforce的请求的信息，请参阅文章[从Salesforce对象提交Adobe Workfront请求](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
 
 ## 查找已提交的请求
 

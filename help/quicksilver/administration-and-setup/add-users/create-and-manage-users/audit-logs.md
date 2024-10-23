@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 3%
 
 ---
@@ -208,7 +208,7 @@ Business Rules仅适用于已购买Ultimate Workfront计划的客户。 有关�
 * 更改自定义分区的名称或描述
 * 删除自定义分区
 
-有关自定义表单中的自定义节的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关自定义表单中自定义分区的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ### 汇率 {#exchange-rate}
 

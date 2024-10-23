@@ -7,9 +7,9 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-您的Workfront管理员或具有自定义表单的计划许可证和管理访问权限的用户必须在您的环境中创建自定义表单，然后才能将它们添加到对象中。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您的Workfront管理员或具有自定义表单的计划许可证和管理访问权限的用户必须在您的环境中创建自定义表单，然后才能将它们添加到对象中。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 向对象添加自定义表单
 

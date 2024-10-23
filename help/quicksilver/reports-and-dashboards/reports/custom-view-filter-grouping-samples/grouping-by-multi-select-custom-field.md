@@ -7,9 +7,9 @@ description: 您只能使用文本模式，在Adobe Workfront报表的多选自�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 要按多选自定义字段进行分组，您必须满足以下先决条件：
 
 * 在自定义表单中构建多选自定义字段。\
-  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 将自定义表单附加到对象。
 * 在每个对象上使用值填充多选自定义字段。 

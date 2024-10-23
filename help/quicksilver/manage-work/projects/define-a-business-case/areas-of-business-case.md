@@ -6,9 +6,9 @@ description: 本文介绍了项目的业务案例的方面。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Workfront管理员可以设置自定义费用类型。
 
 要应用自定义表单，您的Workfront管理员必须首先创建自定义表单。
 
-有关创建自定义表单的详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+有关创建自定义表单的详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 您可以使用自定义表单收集未在业务案例的其他字段中显示的附加信息。
 

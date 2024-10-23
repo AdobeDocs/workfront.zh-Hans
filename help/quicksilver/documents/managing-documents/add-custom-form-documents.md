@@ -6,9 +6,9 @@ description: 您可以将自定义表单添加到文档或文档版本，以捕�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >下拉菜单中仅显示活动的自定义表单。 每个文档最多可添加10个自定义表单。 如果需要创建自定义表单，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   >下拉菜单中仅显示活动的自定义表单。 每个文档最多可添加10个自定义表单。 如果需要创建自定义表单，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 编辑自定义表单
 

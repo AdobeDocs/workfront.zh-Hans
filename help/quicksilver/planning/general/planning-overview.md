@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2108'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Workfront Planning中目前提供以下功能：
 * 查看记录更改的历史记录
 * 段落字段的富文本格式
 * 从Workfront对象访问Planning记录
-* 从Workfront对象连接Planning记录
+* 从Workfront对象连接和断开Planning记录
 * 通过提交请求表单创建Planning记录
 * Workfront规划公共API
 * Adobe Workfront Fusion的Adobe Workfront规划模块

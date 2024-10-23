@@ -7,9 +7,9 @@ description: 以下计算字段显示对象状态标记为进行中(INP)的日�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 1. 转到要添加字段的自定义表单。
 1. 单击&#x200B;**已计算**&#x200B;以将已计算的自定义字段添加到表单。
-1. 为自定义字段键入&#x200B;**标签**，如&#x200B;*状态时间戳自定义字段*。
-1. 单击&#x200B;**完成**，然后单击&#x200B;**保存+关闭**。
+1. 为自定义字段键入&#x200B;**标签**。 例如，“状态时间戳自定义字段”。
+1. 单击&#x200B;**保存+关闭**。
 1. 重新打开该自定义表单，然后在表单上选择新的&#x200B;**状态时间戳自定义字段**。
 1. 在&#x200B;**计算**&#x200B;框中，复制并粘贴自定义字段的以下计算：
 

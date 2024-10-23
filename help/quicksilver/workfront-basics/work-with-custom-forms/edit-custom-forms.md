@@ -7,9 +7,9 @@ description: 将自定义表单附加到对象后，您可以编辑该表单上�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 先决条件
 
-* 您的Workfront管理员或对自定义表单具有管理访问权限的计划用户必须在您的环境中创建自定义表单。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+* 您的Workfront管理员或对自定义表单具有管理访问权限的计划用户必须在您的环境中创建自定义表单。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 您必须将自定义表单附加到对象。
 
   有关如何将自定义表单应用于对象的信息，请参阅[将自定义表单添加到对象](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
@@ -91,7 +91,7 @@ ht-degree: 0%
    * 仅当创建表单的用户将文本字段（粗体、斜体或下划线）设置为具有格式字段类型的文本字段时，您才可以设置文本字段的格式。 单行文本字段和段落文本字段无法格式化。
    * 仅当创建表单的用户在创建日期字段时包含该时间时，您才可以更新日期字段类型中的时间。
 
-   有关所有字段类型的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   有关所有字段类型的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 单击&#x200B;**保存更改**。
 

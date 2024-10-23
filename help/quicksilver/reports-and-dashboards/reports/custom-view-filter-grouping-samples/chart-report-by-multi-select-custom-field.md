@@ -7,9 +7,9 @@ description: 只有在您创建捕获多选自定义字段中选定选项的附�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 要生成引用多选自定义字段的计算字段，您必须满足以下先决条件：
 
 * 自定义表单中的多选自定义字段。\
-  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 带有附加到对象的多选自定义字段的自定义表单。
 * 每个对象的多选自定义字段的值。
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 创建自定义表单或编辑现有表单。
 
-   有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+   有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 1. 选择您计划用于自定义表单的一个或多个对象。
 1. 单击&#x200B;**添加字段**，然后单击&#x200B;**计算**&#x200B;以将多选自定义字段添加到表单。

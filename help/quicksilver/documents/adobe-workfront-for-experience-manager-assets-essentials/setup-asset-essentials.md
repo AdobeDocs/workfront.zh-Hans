@@ -6,9 +6,9 @@ description: 将您的工作与Experience Manager Assets Essentials中的内容�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 1%
 在开始之前，您必须
 
 * 在Experience Manager Assets Essentials中配置元数据架构，如[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)中所述。
-* （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+* （可选）在Workfront中配置自定义表单字段。 Workfront提供了许多内置自定义字段。 但是，您也可以创建自己的自定义字段。 有关详细信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支持的Workfront和Experience Manager Assets字段
 

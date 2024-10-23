@@ -6,10 +6,10 @@ description: 此集成方案链接具有 [!DNL Anaplan] 预算列表项的 [!DNL
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 1%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 1%
    </tbody> 
   </table>
 
-  有关创建自定义表单的信息，请参阅[使用表单设计器设计表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  有关创建自定义表单的信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 设置为请求队列以捕获新活动请求的项目。 [!UICONTROL 营销活动简报]表单必须附加到这些请求。
 
