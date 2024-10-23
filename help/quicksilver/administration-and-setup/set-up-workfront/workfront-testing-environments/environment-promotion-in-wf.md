@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
 # 在Workfront环境之间移动对象概述（环境升级）
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
 
 利用环境升级功能，可将对象从一个Workfront环境移动到另一个环境。 例如，您可以在沙盒环境中创建并配置模板，因为您知道任何测试都不会影响组织的实际数据。 配置和测试模板后，您可以将其移至生产环境，随时使用。
 
@@ -98,7 +100,7 @@ ht-degree: 2%
 | 风险类型(RSKTYP) | 风险类型 |
 | 资源池(RSPL) | 资源池 |
 | 访问级别(ACSLVL) | 访问级别 |
-| 费率卡(RTCRD) | 费率卡 |
+| <span class="preview">费率卡(RTCRD)</span> | <span class="preview">费率卡</span> |
 
 \*当前不可用
 
