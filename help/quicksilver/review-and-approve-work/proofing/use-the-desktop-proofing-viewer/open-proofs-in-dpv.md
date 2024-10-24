@@ -6,7 +6,7 @@ description: 如果无法按如下所述打开验证，请联系Adobe Workfront�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -67,7 +67,3 @@ ht-degree: 5%
    >桌面校对查看器不支持需要您登录的网站。
 
 1. 在出现的屏幕中单击&#x200B;**打开校对**。 
-
- 
-
- 
