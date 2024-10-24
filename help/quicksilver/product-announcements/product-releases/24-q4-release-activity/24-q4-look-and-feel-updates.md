@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ ht-degree: 0%
 
 * 我们为报表中的条件格式规则添加了扩展的调色板。 有关条件格式化的详细信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 * 我们添加了新的“编辑文本模式”按钮，以便在Report Builder中编辑列时进入文本模式。 有关在文本模式下编辑报表视图的详细信息，请参阅[使用文本模式编辑视图](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* 您无法再通过单击报告标题来编辑其标题。 您仍然可以通过单击报表操作>编辑，然后更改标题来编辑报表标题。 有关编辑报告的详细信息，请参阅[编辑报告设置](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)。
+* 不能再通过单击分组生成器中的列名称来创建分组。 您仍然可以通过在分组依据：字段列表中选择相应的字段，根据报表中的现有列创建分组。 有关创建分组的详细信息，请参阅[在Adobe Workfront中创建分组](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * 我们在报告过滤器界面中添加了一个新的切换开关，以按日期字段过滤时，在日历日期选择器和相对日期通配符文本字段之间切换。 此外，在报告筛选器界面中选择相对日期通配符快捷键，现在会根据您的选择自动填充关联的通配符字段。 有关在报告筛选器中使用相对日期通配符的更多信息，请参阅[使用基于日期的通配符来泛化报告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)。
 * 报告过滤器中的基于用户的通配符现在会根据您选择的字段类型建议自动完成的相关通配符。 有关报告筛选器中的基于用户的通配符的更多信息，请参阅[使用基于用户的通配符来泛化报告](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)。
 * 现在，显示带有公开共享提示的报告时，不会为通过公共共享链接访问报告的所有用户应用提示。 直接访问报告的已登录用户仍然能够应用提示。 有关报告提示的信息，请参阅[向报告添加提示](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)。
-* 对现有报表进行了更改，从而提高了与画布功能板的兼容性。
+* 我们更改了现有报表，以提高它们与画布功能板的兼容性。
 
 _从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实施。 最初，只有少数客户可以使用更改，并且这些更改会随着时间推移逐渐变得可用，直到在2024年11月8日之前完全向所有客户提供。_
 
@@ -58,9 +60,9 @@ _从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实
 
 我们更新了列表中的视图、分组和旧版过滤器界面，以匹配Workfront其他区域的设计。 这些更新包括对列表中的视图、分组和旧版过滤器的其他更改：
 
-* 用于报表中条件格式规则的扩展调色板。 有关条件格式化的详细信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
-* 新的“编辑文本模式”按钮，用于在创建新视图时编辑列时进入文本模式。 有关在文本模式下编辑视图的详细信息，请参阅[使用文本模式编辑视图](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)。
-* 在按日期字段过滤时，新增到旧版过滤器界面的切换开关，可在日历日期选择器和相对日期通配符文本字段之间切换。 此外，在报告筛选器界面中选择相对日期通配符快捷键，现在会根据您的选择自动填充关联的通配符字段。
+* 我们为报表中的条件格式规则添加了扩展的调色板。 有关条件格式化的详细信息，请参阅[在视图中使用条件格式](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+* 我们添加了新的“编辑文本模式”按钮，以便在创建新视图时编辑列时进入文本模式。 有关在文本模式下编辑视图的详细信息，请参阅[使用文本模式编辑视图](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)。
+* 在按日期字段过滤时，我们在旧版过滤器界面中添加了一个新的切换开关，以在日历日期选择器和相对日期通配符文本字段之间切换。 此外，在报告筛选器界面中选择相对日期通配符快捷键，现在会根据您的选择自动填充关联的通配符字段。
 * 旧版过滤器中，基于用户的通配符现在会根据您选择的字段类型，建议自动完成的相关通配符。 有关使用旧版筛选器的更多信息，请参阅[在Adobe Workfront中创建或编辑筛选器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
 _从2024年10月17日的24.10版本开始，这些更新正在生产中逐步实施。 最初，只有少数客户可以使用更改，并且这些更改会随着时间推移逐渐变得可用，直到在2024年11月8日之前完全向所有客户提供。_

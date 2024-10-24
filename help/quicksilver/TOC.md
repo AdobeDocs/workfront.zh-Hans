@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 2%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 2%
    * 公告{#announcements}
       * [公告](product-announcements/announcements/announcements.md)
       * [不再支持的功能计划](product-announcements/announcements/feature-removal-timeline.md)
+      * [增强的Analytics弃用指南](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [旧版主页弃用指南](product-announcements/announcements/legacy-home-deprecation.md)
       * [维护窗口常见问题解答](product-announcements/announcements/maintenance-window-faq.md)
       * [向允许列表添加验证所需的更改](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 2%
       * [更新部分概述](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [更新工作](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [字段中的字符限制](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [创建个人任务](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [回复更新](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [回复电子邮件通知](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [为其他人标记更新](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 2%
          * [自定义视图、筛选器和分组示例：文章索引](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [报告或列表：显示与对象关联的用户](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [筛选器：显示不完整的跨项目前置任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [筛选器：个人任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [筛选器：显示不完整的跨项目后置任务](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [筛选器：显示您当前的待审批项目](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [筛选器：仅显示处于审批状态的项目](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
