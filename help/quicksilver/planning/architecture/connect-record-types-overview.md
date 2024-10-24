@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
 
 # 连接的记录类型概述
 
-<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 通过连接各个记录类型可以指出它们彼此相关，或与来自其他应用程序的对象相关。
 
@@ -73,7 +75,7 @@ ht-degree: 1%
       * 链接记录字段是在您连接的记录类型上创建的。 不会在其他应用程序的对象类型上自动创建链接记录字段。
       * 无法从Workfront对象访问Planning记录字段。
       * Planning记录在Workfront对象的Planning选项卡中可见。 有关信息，请参阅Adobe Workfront对象的“规划”部分中的[管理记录](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
-     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * <span class="preview">您可以创建Planning连接自定义字段，并将其附加到Workfront对象的自定义表单。 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。</span>
       * 当Workfront管理员通过Workfront与Adobe Experience Manager Assets之间的集成配置Experience Manager映射时，可从Metadata Assets访问规划记录字段。 有关详细信息，请参阅[配置Adobe Workfront和Experience Manager Assets之间的资源元数据映射](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)。
 
 

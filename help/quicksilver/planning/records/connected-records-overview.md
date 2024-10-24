@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # 连接的记录概述
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ ht-degree: 0%
 * 您可以在以下区域将Workfront对象连接到Workfront Planning记录：
 
    * 从Workfront对象的“规划”部分。
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview">来自Workfront对象的自定义表单上的Planning连接字段。</span>
 
   有关信息，请参阅[管理来自Workfront对象的记录连接](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
