@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
+source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
 workflow-type: tm+mt
-source-wordcount: '14518'
+source-wordcount: '14549'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [产品版本概述](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront发布计划和流程](product-announcements/product-releases/workfront-release-schedule.md)
       * [为Adobe Workfront季度版本做准备](product-announcements/product-releases/release-readiness.md)
+      * 2025年第1季度版本{#release-25-q1}
+         * [2025年第1季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [在2025年第1季度发布时间范围内的外观更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024年第4季度版本{#release-24-q4}
          * [2024年第4季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第4季度管理员增强功能](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -175,6 +178,7 @@ ht-degree: 2%
          * [21.1其他增强功能](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion发布活动{#fusion-release}
          * [Adobe Workfront Fusion发布活动](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion发行活动： 2024年10月21日起的一周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Workfront Fusion发行活动： 2024年10月7日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Workfront Fusion发布活动： 2024年9月30日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
          * [Workfront Fusion发布活动： 2024年9月9日开始的周](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -259,6 +263,7 @@ ht-degree: 2%
          * [Workfront Fusion发布活动： 2020年9月21日开始的周](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Adobe Workfront Planning发布活动{#planning-release-activity}
          * [Adobe Workfront Planning发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning 2025年第一季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning 2024年第四季度发布活动](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront Scenario Planner发布活动{#scenario-planner-release}
          * [Adobe Workfront Scenario Planner发布活动](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)

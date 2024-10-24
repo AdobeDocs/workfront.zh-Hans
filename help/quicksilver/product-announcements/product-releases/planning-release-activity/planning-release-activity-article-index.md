@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: “Adobe Workfront计划发布活动：文章索引”
+title: 'Adobe Workfront计划发布活动：文章索引'
 description: 这是Adobe Workfront计划产品的发布活动。
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
+source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning发行活动：文章索引
 
@@ -30,6 +30,7 @@ ht-degree: 0%
 
 本文包含有关Adobe Workfront Planning产品的发行活动文章列表。
 
+* [Adobe Workfront Planning 2025年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Adobe Workfront Planning 2024年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 <!-- remove this after 25.1 and consider removing the pages too-->

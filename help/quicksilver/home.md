@@ -3,9 +3,9 @@ title: “[!DNL Adobe Workfront]文档”
 description: ' [!DNL Adobe Workfront]的文档。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,16 @@ ht-degree: 1%
 
 >[!TAB 最新版本]
 
+* [2025年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [2024年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-* [Adobe Workfront计划2024年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+* [Adobe Workfront规划2025年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
+>[!TAB 2025版本]
+
+* [2025年第一季度发行版概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront规划2025年第一季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
 
 >[!TAB 2024版本]
 
@@ -32,6 +38,7 @@ ht-degree: 1%
 * [2024年第三季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [2024年第四季度发行版概述](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion发布活动](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfront计划2025年第四季度发布活动](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Betas]
 
