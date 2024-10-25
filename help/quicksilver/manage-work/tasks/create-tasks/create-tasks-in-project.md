@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # 在项目中创建任务
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-只有在创建项目后，您才能在项目中创建任务。
+您可以通过以下方式在Adobe Workfront中创建任务：
 
-例如，在创建项目后，您可能需要添加任务并修改这些任务以组织项目计划。 有关创建项目的详细信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
+* 创建项目后，在项目中从头开始创建任务。
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  创建项目后，您可以添加并修改任务以组织项目计划。 有关创建项目的详细信息，请参阅[创建项目](../../../manage-work/projects/create-projects/create-project.md)。
 
-本文介绍了如何从头开始创建任务。 您还可以通过以下方式创建任务：
+* 通过将模板添加到项目来创建任务。
+
+  有关信息，请参阅[将模板附加到项目](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)。
+
+* 创建个人任务并将其移动到项目。
+
+  您可以通过执行以下操作之一来创建个人任务：
+
+   * 创建临时工作请求并将其发送给用户
+   * 在“主页”区域创建待办事项
+
+  有关创建不在项目中的个人任务的信息，请参阅[创建个人任务](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
+
+  您可以将个人任务移动到项目，这些任务会成为工作任务。
+
+本文介绍了如何从头开始创建任务以及如何将个人任务移动到项目。
+
+您还可以通过以下方式创建任务：
 
 * 通过复制或复制现有任务。 有关信息，请参阅[复制和复制任务](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 * 通过将任务从一个项目移动到另一个项目。 有关信息，请参阅[移动任务](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
@@ -152,3 +169,21 @@ ht-degree: 1%
          * 随时单击&#x200B;**撤消**&#x200B;可撤消您上次所做的更改，或者单击&#x200B;**取消**&#x200B;可撤消您对任务列表所做的所有更改。
          * 如果您之前单击了&#x200B;**撤消**，请单击&#x200B;**重做**&#x200B;以重新应用您取消的上次更改。
          * 单击&#x200B;**保存**&#x200B;以保存对任务列表所做的更改。
+
+## 通过将个人任务移动到项目来创建任务
+
+1. （视情况而定）确保您或其他用户已创建个人任务。
+
+   有关信息，请参阅[创建个人任务](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
+1. 创建个人任务筛选器并将其应用于任务报告或列表。
+
+   有关信息，请参阅[筛选器：个人任务](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)。
+
+   ![](assets/personal-tasks-report.png)
+1. 单击个人任务报告中的任务名称以将其打开。
+
+   Workfront将个人任务保存在未列出的个人项目中，该项目始终按以下模式命名：“&lt;用户全名>”任务。 例如，可以将个人项目命名为“Rick&#39;s Tasks”。
+
+1. 在任务页面中，单击&#x200B;**更多菜单** ![](assets/more-icon.png)，然后单击&#x200B;**移动**。 有关移动任务的详细信息，请参阅[移动任务](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)。
+
+   移动完任务后，该任务将显示在您选择的项目上。 项目时间表可能受新任务时间表的影响。

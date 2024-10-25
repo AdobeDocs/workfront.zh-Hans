@@ -7,9 +7,9 @@ description: 此任务筛选器返回不完整的跨项目前置任务。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 要应用此过滤器，请执行以下操作：
 
-1. 转到任务列表。
+1. 转到任务列表或任务报告。
 1. 从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
 
-1. 单击&#x200B;**切换到文本模式**。
-1. 在&#x200B;**为报表**&#x200B;设置筛选规则区域中，粘贴以下代码：
+1. （视情况而定）如果您从列表访问筛选器，请单击&#x200B;**文本模式**；如果您从报表访问筛选器，请单击&#x200B;**切换到文本模式**。
+1. 在新区域中，粘贴以下代码：
    <pre>前置任务MM：projectID=FIELD：projectID<br>前置任务MM：projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. 单击&#x200B;**保存筛选器**。
+1. （视情况而定）如果您从报表访问筛选器，请单击&#x200B;**保存筛选器**；如果您从任务列表访问筛选器，请单击&#x200B;**应用**，然后单击&#x200B;**另存为新筛选器**。
