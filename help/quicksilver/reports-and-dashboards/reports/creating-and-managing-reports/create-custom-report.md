@@ -6,7 +6,7 @@ description: 您可以通过创建报告，提供对贵组织在Adobe Workfront�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 创建自定义报表
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 您可以通过创建报告，提供对贵组织在Adobe Workfront中所需信息的访问权限。 您可以使用Workfront中提供的任何内置报告，也可以从头开始构建自定义报告。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
    或
 
-   要更改现有列，请单击该列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;框中单击当前字段左侧的&#x200B;**删除**&#x200B;图标![](assets/x-icon-circled.png)，并开始键入新字段，然后当该字段显示在列表中时单击它。
+   要更改现有列，请单击该列，在Report Builder左上角的&#x200B;**在此列字段中显示**&#x200B;区域中单击当前字段右侧的&#x200B;**删除**&#x200B;图标![](assets/remove-column-icon.png)，并开始键入新字段，然后当该字段显示在列表中时单击它。
 
    有关您在列中看到的字段的更多信息，请参阅[Adobe Workfront术语词汇表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
