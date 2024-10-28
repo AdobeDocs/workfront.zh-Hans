@@ -6,14 +6,19 @@ description: 我们建议您使用桌面校对查看器查看所有交互式内�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # 在Web验证查看器中设置交互式内容验证
+
+>[!IMPORTANT]
+>
+>这是旧版的浏览器扩展，不再受支持。 我们建议安装新的浏览器扩展程序，该扩展程序目前为测试版： [Adobe Workfront审核工具](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)。
+
 
 我们建议您使用桌面校对查看器查看所有交互式内容。 但是，如果贵组织的策略禁止这样做，则Workfront管理员可以将您的系统配置为使用Web验证查看器进行交互式验证。 有关这两个查看器的比较信息，请参阅[Web验证查看器和桌面验证查看器之间的区别](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)。
 
@@ -47,5 +52,3 @@ Web验证查看器具有以下限制：
 1. 在Web验证查看器中，单击&#x200B;**重新加载验证**。
 
 在浏览器上安装扩展后，验证查看器会在您每次单击&#x200B;**添加评论**&#x200B;时拍摄内容的静态屏幕快照。 此屏幕截图是添加带有标注的注释的地方。
-
- 
