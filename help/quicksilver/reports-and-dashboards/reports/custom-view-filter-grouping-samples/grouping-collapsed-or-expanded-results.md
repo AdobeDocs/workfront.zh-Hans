@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '分组：指示应使用文本模式折叠或展开分组的结果'
+title: '分组：指示应使用文本模式折叠还是展开分组结果'
 description: '分组：指示应使用文本模式折叠或展开分组的结果'
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # 分组：指示应使用文本模式折叠或展开分组的结果
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
@@ -36,6 +38,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -43,28 +47,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求修改分组 </p>
-   <p>计划修改报告</p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改过滤器的参与者 </p></li>
+   <li><p>用于修改报告的标准</p></li> </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求修改筛选器 </p></li>
+   <li><p>计划修改报告</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改分组</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr>  
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 指示应使用文本模式折叠还是展开分组结果
 
@@ -77,14 +87,11 @@ ht-degree: 0%
 
    如果分组已处于文本模式，请将以下代码添加到要折叠显示的分组级别：
 
-   ```
-   group.0.iscollapsed=true
-   ```
+   `group.0.iscollapsed=true`
 
 1. （可选）如果要展开分组显示，请将以下代码添加到相应的分组级别：
 
-   ```
-   group.0.iscollapsed=false
-   ```
+   `group.0.iscollapsed=false`
 
 1. 单击&#x200B;**完成**，然后单击&#x200B;**保存分组**。
+1. （可选）更新分组的名称，然后单击&#x200B;**保存分组**。

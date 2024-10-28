@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 按多选自定义字段对报表分组
 description: 您只能使用文本模式，在Adobe Workfront报表的多选自定义字段中按值分组。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # 按多选自定义字段对报表分组
+
+<!--Audited: 10/2024-->
 
 您只能使用文本模式，在Adobe Workfront报表的多选自定义字段中按值分组。
 
@@ -37,6 +39,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求修改分组 </p>
-   <p>计划修改报告</p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改过滤器的参与者 </p></li>
+   <li><p>用于修改报告的标准</p></li> </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求修改筛选器 </p></li>
+   <li><p>计划修改报告</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改分组</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr>  
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 按多选自定义字段对报表进行分组
 
@@ -75,17 +85,17 @@ ht-degree: 0%
   有关生成自定义表单和向其中添加自定义字段的信息，请参阅文章[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * 将自定义表单附加到对象。
-* 在每个对象上使用值填充多选自定义字段。 
+* 在每个对象上使用值填充多选自定义字段。
 
 要在报表中按多选自定义字段分组，请执行以下操作：
 
 1. 创建一个报表或编辑一个现有的报表，您要在该报表中为多选自定义字段添加分组。\
    有关创建报告的信息，请参阅文章[创建自定义报告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
-
+1. 单击&#x200B;**报告操作**，然后单击&#x200B;**编辑**。
 1. 选择&#x200B;**分组**&#x200B;选项卡。
 1. 单击&#x200B;**切换到文本模式**。
 
-1. 在&#x200B;**对您的报告分组**&#x200B;框中选择文本，然后将其替换为以下代码：
+1. 选择&#x200B;**分组依据**&#x200B;框中的文本并将其替换为以下代码：
 
    <pre>
    group.0.displayname=多选自定义字段名称
@@ -94,7 +104,7 @@ ht-degree: 0%
    group.0.textmode=true
    </pre>
 
-1. 将“多选自定义字段名称”替换为您在Workfront中显示的多选自定义字段的实际名称。
+1. 将“多选自定义字段名称”替换为您多选自定义字段的实际名称，如您的Workfront实例中所示。
 1. 单击&#x200B;**保存并关闭**。
 
    报告中的对象按多选自定义字段的值分组。

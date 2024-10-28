@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: “过滤器：创建引用同一字段（'AND'语句）的多个过滤器规则”
 description: 在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # 过滤器：创建引用同一字段（“AND”语句）的多个过滤器规则
+
+<!--Audited: 10/2024-->
 
 在标准模式界面中，如果尝试创建多个引用同一字段的筛选器（使用AND限定符），则在保存报表并退出Report Builder时，会删除其中一个筛选器。
 
@@ -27,6 +29,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -34,36 +38,41 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求修改筛选器 </p>
-   <p>计划修改报告</p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改过滤器的参与者 </p></li>
+   <li><p>用于修改报告的标准</p></li> </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求修改筛选器 </p></li>
+   <li><p>计划修改报告</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建引用同一字段的多个筛选规则
 
 1. 转到任务列表。
 1. 从&#x200B;**筛选器**&#x200B;下拉菜单中，选择&#x200B;**新建筛选器**。
-1. 单击&#x200B;**切换到文本模式**。
-1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
-1. 在报表的“设置过滤规则”区域中，添加以下代码：
+1. 单击&#x200B;**文本模式**。
+1. 在显示的框中，添加以下代码：
 
    ```
    name=green
@@ -89,4 +98,4 @@ ht-degree: 0%
    >   
    >这些语句区分大小写。
 
-1. 单击&#x200B;**完成**，然后单击&#x200B;**保存筛选器**。
+1. 单击&#x200B;**应用**，然后单击&#x200B;**另存为新项**。
