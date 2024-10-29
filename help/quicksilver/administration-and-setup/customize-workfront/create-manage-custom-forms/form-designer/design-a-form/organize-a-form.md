@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # 组织和预览表单
+
+{{highlighted-preview}}
 
 您可以使用表单设计器组织自定义表单，并预览该表单以验证设置是否正确。
 
@@ -157,6 +159,14 @@ ht-degree: 0%
    >* 自定义字段和小组件在表单中的显示方式可能并不总是相同，具体取决于用户查看表单时可用的屏幕空间量。 例如，如果水平空间受限，一行字段中的第三个字段可能会换行到下一行字段。
 
 1. （可选）要将自定义字段或小组件放置在另一个字段或小组件的上方或下方，请将其拖动到上方或下方，直到项目之间出现一条水平蓝线。
+
+<div class="preview">
+
+1. 要将自定义字段移动到表单上的另一个分区，您可以将其拖放到适当位置，或单击字段上的&#x200B;**移至**&#x200B;图标并选择要将其移动到的分区。
+
+   ![将字段移动到节](assets/move-field-to-section.png)
+
+</div>
 
 1. 若要保存更改，请单击&#x200B;**应用**
 

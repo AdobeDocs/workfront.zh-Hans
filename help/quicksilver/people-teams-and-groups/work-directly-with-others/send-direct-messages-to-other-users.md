@@ -7,9 +7,9 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 0%
 
 1. 选择要向其发送消息的一个或多个用户，然后单击&#x200B;[!UICONTROL **将更新发送给用户**]。
 1. 在[!UICONTROL 将更新发送给用户]窗口中键入您的消息。
+
+   <span class="preview">预览环境中的示例图像：</span>
 
    在“将更新发送到用户”窗口<span class="preview">![向用户发送消息](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
