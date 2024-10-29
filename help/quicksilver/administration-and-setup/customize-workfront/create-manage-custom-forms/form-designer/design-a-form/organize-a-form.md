@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ ht-degree: 0%
 
 1. （可选）要将自定义字段或小组件放置在另一个字段或小组件的上方或下方，请将其拖动到上方或下方，直到项目之间出现一条水平蓝线。
 
-<div class="preview">
+1. 要将自定义字段移动到表单上的另一个分区，您可以将其拖放到适当位置，<span class="preview">或单击字段上的&#x200B;**移至**&#x200B;图标并选择要将其移动到的分区。</span>
 
-1. 要将自定义字段移动到表单上的另一个分区，您可以将其拖放到适当位置，或单击字段上的&#x200B;**移至**&#x200B;图标并选择要将其移动到的分区。
-
+   <span class="preview">预览环境中的示例图像：</span>
    ![将字段移动到节](assets/move-field-to-section.png)
-
-</div>
 
 1. 若要保存更改，请单击&#x200B;**应用**
 
