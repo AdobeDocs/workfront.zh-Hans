@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 列入允许列表如果您的防火墙或邮件服务器配置为仅允许访问某些供应商，则必须将某些IP地址添加到其，以允许您的环境与[!DNL Adobe Workfront Fusion]之间的开放通信。
 
-## 识别您的数据中心
+您可以将所有Fusion IP地址和域添加到允许列表，也可以查找Fusion群集并仅添加该群集的IP地址和域。
+
+## 添加所有Fusion IP地址和域
+
+将以下IP地址添加到您的允许列表：
+
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+此外，如果贵组织使用出站网络过滤，请将以下域添加到您的以使您的允许列表能够访问Workfront Fusion。
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## 仅为群集添加Fusion IP地址和域
+
+### 识别您的数据中心
 
 IP地址因存储数据的位置而异。
 
@@ -43,7 +70,7 @@ IP地址因存储数据的位置而异。
 | 对`https://eu.fusion.adobe.com`的调用 | 欧盟数据中心 |
 | 对`https://az.fusion.adobe.com`的调用 | Azure数据中心 |
 
-## Workfront Fusion的IP地址
+### 为数据中心添加IP地址和域
 
 将以下IP地址添加到您的允许列表以使[!DNL Workfront Fusion]能够访问您的系统。
 
