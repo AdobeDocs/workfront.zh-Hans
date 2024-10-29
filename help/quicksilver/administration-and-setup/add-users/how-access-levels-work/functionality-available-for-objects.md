@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
+source-git-commit: 06c3cb557cf35d79b09e4f68e0f3e8cb69fbe4a6
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->本文介绍了可用于访问当前Workfront计划模型中的级别的功能。 要查看新计划模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
+>本文介绍了可用于访问新Workfront计划模型中的级别的功能。 要查看当前计划模型中可用的功能，请参阅[各种访问级别中每种对象类型可用的功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
 
 
 ## 项目
