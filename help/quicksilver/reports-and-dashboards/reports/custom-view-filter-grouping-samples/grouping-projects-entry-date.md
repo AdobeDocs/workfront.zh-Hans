@@ -7,14 +7,16 @@ description: 在此自定义项目分组中，您可以显示按项目输入日�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # 分组：按输入日期显示项目
+
+<!--Audited: 10/2024-->
 
 在此自定义项目分组中，您可以显示按项目输入日期值分组的项目。
 
@@ -76,11 +78,14 @@ ht-degree: 0%
 1. 删除&#x200B;**分组依据**&#x200B;区域中的文本。
 1. 将文本替换为以下代码：
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=项目条目
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate}，$$TODAY))&lt;=30，&quot;最近30天&quot;，IF(ABS(DATEDIFF({entryDate}，$$TODAY)))>30&amp;&amp;ABS(DATEDIFF({entryDate}，$$TODAY))&lt;=60，&quot;30-60天&quot;，&quot;60天之前&quot;)
-group.0.valueformat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. 单击&#x200B;**完成** > **保存分组**。
 1. （可选）更新分组的名称，然后单击&#x200B;**保存分组**。

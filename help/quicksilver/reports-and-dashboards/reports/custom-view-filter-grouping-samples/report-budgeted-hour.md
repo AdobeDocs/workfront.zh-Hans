@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '报告：预算小时数'
 description: '报告：预算小时数'
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
 
 # 报告：预算小时数
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
@@ -26,9 +28,11 @@ ht-degree: 1%
 >
 >预算小时数通常每小时在Adobe Workfront数据库中更新一次（在不常见情况下，最多可能需要三个小时）。 刷新报告不一定刷新其中的小时信息。 您可以在每个预算小时报表的右上角查看自上次更新以来经过的时间。 仅当自上次更新以来已超过一小时时，刷新报告才会刷新其中的信息。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
+>![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -37,62 +41,59 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改过滤器的参与者 </p></li>
+   <li><p>用于修改报告的标准</p></li> </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求修改筛选器 </p></li>
+   <li><p>计划修改报告</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 生成预算小时报告
 
-1. 单击右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**报表**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
 
-1. 单击&#x200B;**新报告>预算小时数**。
+1. 单击&#x200B;**新报告** > **更多** > **预算小时数**。
 
    默认视图应用于报表。
 
-1. （可选）若要使报告更易于阅读，请单击&#x200B;**预算小时数**&#x200B;列，然后单击&#x200B;**切换到文本模式**，然后更改
-
-   ```
-   valuefield
-   ```
-
-   行至
-
-   ```
-   valueexpreesion
-   ```
-
-   并输入舍入表达式。
+1. （可选）若要使报表更易于阅读，请单击&#x200B;**Bud。 小时**&#x200B;列，然后&#x200B;**切换到文本模式**，然后单击&#x200B;**编辑文本模式**。
+1. 将`valuefield`行更改为`valueexpreesion`并输入舍入表达式。
 
    这会将预算小时数舍入到您指定的小数位数。
 
    有关如何在Workfront中舍入数字的信息，请参阅文章[计算数据表达式概述](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
+1. 单击&#x200B;**完成**。
 1. （可选）单击&#x200B;**添加列**&#x200B;以添加其他列。
 1. （可选）为了使报表更易于阅读，我们建议您向报表中添加分组。 我们建议进行以下分组：
 
    单击&#x200B;**分组**&#x200B;选项卡，然后执行以下一项或多项操作：
 
-   1. 单击&#x200B;**添加分组**&#x200B;并开始键入“项目名称”，然后当它出现在列表中时将其选定。
-   1. 单击&#x200B;**添加分组**&#x200B;并开始键入“工作角色名称”，然后当它出现在列表中时将其选定。
-   1. 单击&#x200B;**添加分组**&#x200B;并开始键入&#x200B;**分配日期**，当它出现在列表中时将其选中，然后从&#x200B;**日期分组**&#x200B;字段中选择要按其进行分组的时间范围。
+   * 单击&#x200B;**添加分组**&#x200B;并开始键入“项目名称”，然后当它出现在列表中时将其选定。
+   * 单击&#x200B;**添加分组**&#x200B;并开始键入“工作角色名称”，然后当它出现在列表中时将其选定。
+   * 单击&#x200B;**添加分组**&#x200B;并开始键入“分配日期”，当它出现在列表中时将其选中，然后从&#x200B;**日期分组依据**&#x200B;字段中选择要作为分组依据的时间范围。
 
 1. （可选）单击&#x200B;**筛选器**&#x200B;以将筛选器添加到报表。
 1. （可选）单击&#x200B;**图表**&#x200B;以向报表中添加图表。

@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '报告：合并的任务和问题视图和分组'
 description: 此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
 # 报告：合并的任务和问题查看和分组
+
+<!--Audited: 10/2024-->
 
 此工作项报告同时显示用户已接受在一个报告中处理的任务和问题。 最好与自定义分组结合使用。
 
@@ -22,11 +24,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 工作项视图仅显示分配给他们的用户已接受的任务和问题。 此报告不显示尚未从“工作请求”或“团队请求”列表移动到用户工作列表的工作项。
+>  工作项视图仅显示分配给他们的用户已接受的任务和问题。 此报告不显示尚未从“工作请求”或“团队请求”列表移动到用户工作列表的工作项。
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -35,40 +39,47 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront计划*</td> 
+   <td role="rowheader">Adobe Workfront计划</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>计划 </p> </td> 
+   <td> 
+    <p>新增：</p>
+   <ul><li><p>修改过滤器的参与者 </p></li>
+   <li><p>用于修改报告的标准</p></li> </ul>
+
+<p>当前：</p>
+   <ul><li><p>请求修改筛选器 </p></li>
+   <li><p>计划修改报告</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对报告、功能板和日历的访问权限</p> <p>编辑对筛选器、视图、分组的访问权限</p> <p><b>注释</b>
-
-如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td>
-</tr> 
+   <td role="rowheader">访问级别配置</td> 
+   <td> <p>编辑对报告、功能板和日历的访问权限以修改报告</p> <p>编辑对筛选器、视图和分组的访问权限以修改筛选器</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理报表的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理报表的权限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 构建具有组合任务和问题视图和分组的报告
 
 要使用此视图生成报表，请执行以下操作：
 
-1. 从&#x200B;**主菜单** ![](assets/main-menu-icon.png)中，单击&#x200B;**报表**。
+1. 单击右上角的&#x200B;**主菜单**&#x200B;图标![](assets/main-menu-icon.png)或左上角的&#x200B;**主菜单**&#x200B;图标![](assets/lines-main-menu.png)（如果可用），然后单击&#x200B;**报表**。
 
-1. 单击&#x200B;**新建报告**，然后从下拉菜单中选择对象&#x200B;**工作项**。
+1. 从下拉菜单中单击&#x200B;**新建报告** > **更多** > **工作项**。
 
-1. 在&#x200B;**列预览**&#x200B;区域，单击唯一显示的列的标题。
+1. 在&#x200B;**列预览**&#x200B;区域，单击唯一显示的列的标题。 这是&#x200B;**外部引用**&#x200B;列。
 1. 单击&#x200B;**切换到文本模式**。
-1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
-1. 删除在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码：
+1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**编辑文本模式**。
+1. 移除在文本模式框中找到的文本，然后将其替换为以下代码：
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ ht-degree: 0%
    column.15.width=1
    ```
 
+1. 单击&#x200B;**完成**。
 1. （可选）单击&#x200B;**分组**&#x200B;以向报表中添加分组。
-1. （可选）如果要添加分组，请单击&#x200B;**切换到文本模式**。
+1. （可选且有条件）如果要添加分组，请单击&#x200B;**切换到文本模式**。
 1. （可选）将分组文本模式区域中的文本替换为以下代码：
 
    ```
@@ -273,3 +285,4 @@ ht-degree: 0%
    此分组将所有任务和问题分组在一起。
 
 1. 单击&#x200B;**保存+关闭**。
+1. （可选）更新报表的名称，然后单击&#x200B;**应用**。

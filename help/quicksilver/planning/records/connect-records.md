@@ -1,14 +1,14 @@
 ---
 title: 连接记录
-description: 在记录类型之间创建连接后，可以将各个记录彼此连接。
+description: 在记录类型之间创建连接后，可以将各个记录彼此连接。 在连接一个记录时，可以在另一个记录上显示这些记录的信息。
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # 连接记录
 
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 {{planning-important-intro}}
 
-您可以将Adobe Workfront Planning记录相互连接或与其他应用程序中的对象连接。
+您可以将Adobe Workfront Planning记录相互连接或与其他应用程序中的对象连接。 在连接一个记录时，可以在另一个记录上显示这些记录的信息。
 
 本文介绍了如何连接记录。 有关连接记录的更多常规信息，请参阅[连接的记录概述](/help/quicksilver/planning/records/connected-records-overview.md)。
 
@@ -129,11 +133,11 @@ ht-degree: 1%
 
 +++
 
-## 连接记录的先决条件
+## 连接记录的注意事项
 
-要将记录与其他记录或对象连接，您必须具备以下条件：
+* 要将记录与其他记录或对象连接，您必须具备以下条件：
 
-* 至少一个工作区、记录类型和记录。
+   * 至少一个工作区、记录类型和记录。
 
   有关更多信息，请参阅以下文章：
 
@@ -141,7 +145,9 @@ ht-degree: 1%
    * [创建记录类型](/help/quicksilver/planning/architecture/create-record-types.md)
    * [创建记录](/help/quicksilver/planning/records/create-records.md)
 
-* 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   * 记录类型之间的连接，或记录类型与其他应用程序的对象之间的连接。 有关信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+* 您可以将一个或多个记录或对象相互连接起来。 这取决于您在连接记录或对象类型时选择的连接类型。 有关信息，请参阅[连接记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 ## 从Workfront Planning连接记录
 
@@ -172,9 +178,10 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >    如果只选择在连接记录类型时显示记录的图像，则连接的字段中只会显示记录的缩略图或图标。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >如果只选择在连接记录类型时显示记录的图像，则连接的字段中只会显示记录的缩略图或图标。 有关详细信息，请参阅[连接记录类型](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >
 
-
+1. <span class="preview"> （视情况而定）如果在连接记录类型时为连接类型选择了“一对多”或“一对一”，并且尝试连接某个记录或已在其他地方连接的对象，您将收到一则警告，再次连接该记录将从原始连接中删除该记录。 单击&#x200B;**连接**&#x200B;允许删除并连接记录，或单击&#x200B;**取消**&#x200B;返回字段并选择其他记录。</span>
 1. （可选）如果找不到要连接的记录或对象，并且要添加该记录，请单击&#x200B;**+添加**&#x200B;以添加新记录。 有关详细信息，请参阅文章[创建记录](/help/quicksilver/planning/records/create-records.md)中的“连接时创建记录”部分。
 
    >[!TIP]

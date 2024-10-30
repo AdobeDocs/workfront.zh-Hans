@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 1%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # 创建字段
+
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它仅在“预览”环境中对所有客户可用。 在每月发布到生产环境后，生产环境中为启用快速发布的客户提供了相同的功能。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ OLD:
 
 1. 在&#x200B;**新建字段**&#x200B;选项卡中添加以下信息：
    * **名称**：字段类型的名称，它将显示在表或记录的详细信息页面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列标题上时，将显示字段的描述。
+   * **描述**：有关该字段的其他信息。 当您将鼠标悬停在表中的字段列标题上时，显示字段的描述，或者当在记录的详细信息页面中单击字段名称旁边的信息图标时，显示字段的描述。</span><span class="preview">
 1. 单击&#x200B;**创建**。
 
    新的单行字段作为列添加到记录类型，其值可以与记录相关联。
@@ -366,7 +371,7 @@ OLD:
 
 百分比字段类型以数字格式捕获信息，后跟百分比符号。
 
-1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。
+1. 按照本文中[从头开始创建字段](#create-fields-from-scratch)部分中的说明开始创建字段，然后选择&#x200B;**百分比**&#x200B;字段类型。<!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ OLD:
    * **精度**：要为该字段记录的小数位数。 最多可显示6位小数。
    * **允许负数**：如果要允许此字段中的负百分比值，请选择此选项。 默认情况下，此选项处于未选中状态。
 
-   >[!NOTE]
-   >
-   >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
+     >[!NOTE]
+     >
+     >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. 单击&#x200B;**创建**。
 
