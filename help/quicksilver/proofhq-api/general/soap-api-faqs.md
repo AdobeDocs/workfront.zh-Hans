@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 它需要3个简单的步骤：
 
-**步骤1**：通过Workfront Proof请求将文件发送到，以将文件上传到Post  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我们将返回文件哈希 — 这非常重要！ 请注意，在此阶段，您不会看到帐户中的任何内容，您迄今为止所做的一切只是向我们发送文件，但未告知我们应如何处理该文件。
+**步骤1**：通过Post请求将文件发送到，以将文件上传到Workfront Proof  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我们将返回文件哈希 — 这非常重要！ 请注意，在此阶段，您不会看到帐户中的任何内容，您迄今为止所做的一切只是向我们发送文件，但未告知我们应如何处理该文件。
 
 **步骤2**：如果还没有会话ID，请使用doLogin()或getSessionID()方法获取一个。 使用前者可使用用户的电子邮件地址和密码“登录”，如果您拥有用户的电子邮件地址和身份验证令牌，则使用后者进行登录。
 
@@ -69,7 +69,4 @@ ht-degree: 0%
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=`必须编码为 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`以便传递自定义参数。
 
-## 如何创建Java Web服务客户端？
-
-[此视频](https://screencast.com/t/xsSNrqs5b)说明如何使用Eclipse和Workfront Proof WSDL定义创建Java Web服务客户端。
 
