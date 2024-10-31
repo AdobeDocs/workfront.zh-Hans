@@ -3,10 +3,10 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '14534'
+ht-degree: 2%
 
 ---
 
@@ -902,23 +902,16 @@ ht-degree: 0%
       * [主页](workfront-basics/using-home/home.md)
       * 使用主页区域{#use-home-area}
          * [使用“主页”区域](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [从旧主页移至优先级](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [主页入门](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [在新主页中添加、编辑或删除构件](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [在“主页”区域的工作列表中显示项目](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [主页小组件过滤器概述](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [使用“我的工作”小组件管理您的工作](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [排定主页区域工作的优先级](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [在“主页”区域管理工作和团队请求](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [在主页区域更新或编辑工作项](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [从主页区域创建工作项和项目](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [在主页区域的工作项上记录时间](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [在“主页”区域将项目标记为“完成”](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [主页日程表视图](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [配置主页日程表视图设置](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [审阅人的主页区域](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [使用“主页日程表”视图](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [查看主页日程表](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [使用“我的更新”区域](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI助手{#ai-assistant}
       * [AI 助手](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1030,6 @@ ht-degree: 0%
       * [创新实验室](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [跨时区工作](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Workfront Proof Manager权限疑难解答](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [主页工作列表显示重复的审批流程](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [过滤器按钮未显示在页眉中](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [我在处理的项目过滤器包括意外结果](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [多个浏览器选项卡会导致Workfront注销](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

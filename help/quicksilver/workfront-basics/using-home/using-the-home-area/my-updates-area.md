@@ -6,7 +6,7 @@ description: 您可以使用[!UICONTROL 我的更新]区域快速查看等待您
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ ht-degree: 0%
 1. （可选）单击&#x200B;**[!UICONTROL 忽略]**&#x200B;以从审批列表中清除访问请求而不授予它。
 1. 如果您在一段时间内无法做出审批决策，请单击&#x200B;**[!UICONTROL 委托我的审批]**&#x200B;以委托您提交的审批。 有关委托审批的详细信息，请参阅[委托审批请求](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)。
 1. 滚动到您审批下的&#x200B;**[!UICONTROL 提及]**&#x200B;区域。 在这里，您可以查看对话中包含的所有项目。
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

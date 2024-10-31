@@ -6,9 +6,9 @@ description: 批准流程提供了灵活性，可以为项目、任务和问题�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 * 在“主页”区域
 
-   * 当您选择查看全部或审批时，所有等待您审批的项目、任务、问题、时间表、文档和访问权限都会显示在主页区域中。
-   * 您自己提交的审批也会显示在主页区域的工作列表的“我已提交的审批”部分。 有关详细信息，请参阅本文中“主页”区域](#review-work-you-submit-for-approval-in-the-home-area)部分中的[审核您提交供审批的工作。
-   * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域删除。
+   * 所有等待您审批的项目、任务、问题、时间表、文档和访问权限都将显示在主页区域的“我的审批”小组件中。
+   * 当您选择我已提交的审批过滤器选项时，您自己提交的审批也会显示在主页区域的我的审批小部件中。 有关详细信息，请参阅本文中“主页”区域](#review-work-you-submit-for-approval-in-the-home-area)部分中的[审核您提交供审批的工作。
+   * 当关联的项目、任务或问题标记为“已解决”、“已搁置”、“已关闭”或“已取消”时，审批将从“主页”区域的“我的审批”构件中删除。
 
   有关使用主页的信息，请参阅[主页入门](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
@@ -82,19 +82,10 @@ ht-degree: 0%
 
 ## 在“主页”区域查看您提交以供审批的工作 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
+1. （视情况而定）单击&#x200B;**筛选器**&#x200B;下拉菜单，然后选择&#x200B;**我已提交的审批**&#x200B;以查看您提交的审批。
 
-   >[!NOTE]
-   >
-   >您的Workfront管理员可以对环境中的主页图标进行以下更改：
-   >
-   >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
-
-1. 选择&#x200B;**工作列表**，然后单击&#x200B;**筛选器**&#x200B;下拉菜单并选择&#x200B;**审批**。
-1. 展开&#x200B;**我已提交的审批**&#x200B;部分，并查找您提交的审批。
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## 查看对象的审批状态
 

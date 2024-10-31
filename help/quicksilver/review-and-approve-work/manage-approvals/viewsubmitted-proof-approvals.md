@@ -6,9 +6,9 @@ description: 仅当您的Adobe Workfront环境与Workfront Proof Premium帐户�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ ht-degree: 0%
 
 ## 查看提交的验证审批
 
-1. 单击Adobe Workfront左上角的&#x200B;**主页**&#x200B;图标![](assets/home-icon-30x29.png)。
+1. 单击右上角的&#x200B;**[!UICONTROL 主菜单]** ![](assets/main-menu-icon.png)，然后单击&#x200B;**[!UICONTROL 主页]**。
+1. （视情况而定）单击&#x200B;**自定义**&#x200B;以添加&#x200B;**我的审批**&#x200B;小组件。
+1. （视情况而定）单击&#x200B;**筛选器**&#x200B;下拉菜单，然后选择&#x200B;**我已提交的审批**&#x200B;以查看您提交的审批。
 
-   >[!NOTE]
-   >
-   >您的Workfront管理员可以对环境中的主页图标进行以下更改：
-   >
-   >* 请将其替换为用于说明贵组织的自定义图像。 在这种情况下，图标的外观将与本文中显示的有所不同。
-   >* 将链接到该页面的页面替换为其他页面。 在这种情况下，请单击页面右上角的&#x200B;**主菜单** ![](assets/main-menu-icon.png)，然后单击&#x200B;**主页**。
-
-1. 在&#x200B;**工作列表**&#x200B;区域，转到我已提交的&#x200B;**审批**&#x200B;分组。
-
-1. 单击工作列表中的&#x200B;**验证**&#x200B;审批。
-
-   这将打开工作列表右侧的验证审批。
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > 如果您向访客验证用户提交审批，则此审批不会显示在主页中。
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. （可选）单击右面板右上角的&#x200B;**转至验证**&#x200B;以启动验证查看器。
 

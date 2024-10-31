@@ -6,9 +6,9 @@ description: 本页包含有关即将弃用旧版主页的信息。
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,6 @@ Adobe Workfront社区中，我们有新闻了 — 我们很快将弃用旧版主
 1. 将其余用户重新分配到新的主页布局。
 
 然后，尽快这样做可为您的用户留出时间来适应新体验，并自定义其新主页，以最符合其个人需求。 有关用户如何在自己的新主页上自定义小组件的信息，请参阅[在新主页中删除、添加和重新排列小组件](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
-
-### 了解新的主页和优先级中可用的内容
-
-以下文章提供了有关新主页和优先级中可用的功能的信息：
-
-<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
-* [从旧主页移至优先级](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### 在开发时遵循主页体验
 

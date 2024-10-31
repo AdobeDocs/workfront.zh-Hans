@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 0%
     <ul> 
      <li> <p>与云托管[!DNL Office 365]或[!DNL Outlook Live.]中的基于Web的[!DNL Outlook]版本集成 </p> </li> 
      <li> <p>在[！UICONTROL主页日历]中显示您的[!DNL Outlook]日历和您选择的任何关联日历（如生日和节假日日历）中的所有事件。</p> </li> 
-    </ul> <p><b>注意</b>： [！UICONTROL Outlook]日历配置与[!DNL Outlook]加载项（[!DNL Outlook]集成或[!DNL Workfront for Outlook]）完全不同。 无需安装即可配置日历。</p> <p>有关详细信息，请参阅<a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">配置[！UICONTROL主页日历]视图设置</a>。</p> </td> 
+    </ul> <p><b>注意</b>： [！UICONTROL Outlook]日历配置与[!DNL Outlook]加载项（[!DNL Outlook]集成或[!DNL Workfront for Outlook]）完全不同。 无需安装即可配置日历。</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

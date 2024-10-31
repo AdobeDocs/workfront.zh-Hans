@@ -6,9 +6,9 @@ description: 如果校对所有者或创建者启用了共享，则可以从校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 默认情况下，您添加到验证中的用户：
 
 * 接收包含证明链接的电子邮件通知。
-* 可从“主页”或“我的工作”区域对验证做出批准决定，如[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中所述。
+* 可以根据[批准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中所述，从主页区域对验证做出批准决定。
 * 无需启用验证即可查看验证。
 
 如果启用了自动工作流，并且您向验证中添加了未在Workfront中启用验证的用户，则会在自动工作流中创建一个新阶段。 首次查看验证时，您添加的用户会自动添加到此新阶段。 有关详细信息，请参阅[自动化工作流概述](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。

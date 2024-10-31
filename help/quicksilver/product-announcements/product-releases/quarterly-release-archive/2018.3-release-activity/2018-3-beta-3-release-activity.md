@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 0%
 使用“我的优先级”排序选项，您现在可以优先处理工作列表中对您很重要的任何工作项。
 
 以前，您只能在“我的工作”区域优先处理任务和问题。
-
-有关详细信息，请参阅[在主页区域排定工作优先级](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)。
 
 ## 以组管理员身份更新用户配置文件中的角色 {#update-roles-in-the-user-profile-as-a-group-administrator}
 

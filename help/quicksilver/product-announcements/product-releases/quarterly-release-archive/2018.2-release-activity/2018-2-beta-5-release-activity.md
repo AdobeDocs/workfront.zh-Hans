@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ ht-degree: 1%
 * 更新分配给您的任务
 
 如果在Outlook中使用日历，则可以集成日历，以便在“主页日历”视图中显示您的Outlook事件。
-
-有关详细信息，请参阅[主页日历视图](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)。
 
 ## 主页工作列表（左侧面板）的其他更新 {#additional-updates-to-the-work-list-left-panel-in-home}
 

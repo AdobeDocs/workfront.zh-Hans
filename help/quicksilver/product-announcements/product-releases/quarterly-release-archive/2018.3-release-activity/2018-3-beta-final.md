@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ ht-degree: 0%
 将主页日历配置为与Outlook日历同步时，主页日历中的项目现在会显示在Outlook日历中。
 
 以前，只能将Outlook日历中的项目同步到主页日历。
-
-有关将主页日历配置为与Outlook同步的信息，请参阅[配置主页日历视图设置](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)。
 
 ## 在主页中添加新任务的更新 {#updates-for-adding-new-tasks-in-home}
 

@@ -6,9 +6,9 @@ description: 您可以通过共享文档或将用户添加到校样来在Adobe W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ ht-degree: 0%
 
 ## 批准共享验证
 
-当用户将您添加到验证并使用自动工作流授予审批者角色或查看者和审批者角色时，审批请求显示在您的主页或“我的工作”区域的审批选项卡上。 然后，您可以直接从Workfront查看验证并做出批准决定。
+当用户将您添加到验证并使用自动工作流授予审批者角色或查看者和审批者角色时，审批请求显示在主页区域的“我的审批”小部件中。 然后，您可以直接从Workfront查看验证并做出批准决定。
 
-有关如何从“我的工作”区域作出批准决策的信息，请参阅[批准主页区域的工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[批准工作[批准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中的工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
+有关如何通过“我的审批”构件做出审批决策的信息，请参阅[从主页区域审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中审批工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
