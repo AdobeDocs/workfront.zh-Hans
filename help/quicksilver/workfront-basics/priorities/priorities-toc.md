@@ -5,10 +5,10 @@ description: 请查看这些区域以了解Adobe Workfront中的优先级区域�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 1%
 
 本节包含以下子部分：
 
+* [优先级：即将发布的版本](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [优先级入门](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [在“优先级”中过滤和分组您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [自定义优先级工作列表列](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
