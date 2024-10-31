@@ -7,9 +7,9 @@ description: 通过报告，可查看用户和工作的最新动态。 使用报
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
    <td> <li>根据常见的信息对信息进行分类，并在标题下列出报告结果。</li> <li>有关分组的信息，请参阅Adobe Workfront中的<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">分组概述</a>。</li> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">筛选</td> 
+   <td role="rowheader">筛选条件</td> 
    <td> <li>控制报表中显示的信息量。</li> <li>有关筛选器的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">筛选器概述</a>。</li> <li>有关筛选器修饰符的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">筛选器和条件修饰符</a>。</li> <li>您可以使用通配符进行过滤，以使过滤器更通用，并为其提供更大的使用灵活性。</li> <li>有关在筛选器中使用通配符的信息，请参阅<a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">通配符筛选器变量</a>。</li> </td> 
   </tr> 
  </tbody> 
@@ -64,8 +64,7 @@ ht-degree: 0%
 
 在构建报表时，您可以在Report Builder中单独修改其中的任何元素。
 
-增强报表中包含的信息相关性的另一种方法是将条件格式应用于视图。\
-有关使用条件格式的信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
+增强报表中包含的信息相关性的另一种方法是将条件格式应用于视图。 有关使用条件格式的信息，请参阅[在视图中使用条件格式](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)。
 
 ## 系统报表
 
@@ -81,17 +80,20 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 要创建报告，您可以执行以下操作之一：
 
 * 从头开始构建报表。
-* 复制现有报表。\
+* 复制现有报表。
+
   您必须至少具有“查看”权限才能复制其他人创建的报告。 有关复制报告的详细信息，请参阅[创建报告的副本](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)。
 
-有关创建报告的信息，请参阅[日历报告概述](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)。
+有关创建报告的信息，请参阅[创建自定义报告](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 ### 创建报告的先决条件 {#prerequisites-for-creating-reports}
 
-* 您必须拥有Plan许可证（当前许可证）或Standard许可证（新许可证）才能创建自己的报告。\
+* 您必须拥有Plan许可证（当前许可证）或Standard许可证（新许可证）才能创建自己的报告。
+
   有关Workfront许可证类型的信息，请参阅当前许可证的[许可证概述](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)和新许可证的[新许可证概述](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)。
 
-* 您的Workfront管理员必须为您授予在访问级别编辑报表的权限。\
+* 您的Workfront管理员必须为您授予在访问级别编辑报表的权限。
+
   有关授予对“编辑”报告的访问权限的信息，请参阅[授予对报告、功能板和日历的访问权限](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 您的Workfront管理员必须为您授予在访问级别编辑筛选器、视图和组的权限。
@@ -109,7 +111,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
 
 您可以通过查看&#x200B;**输入者**&#x200B;字段来查看报表的所有者。
 
-![输入者字段](assets/nwe-entered-by-350x218.png)
+![输入者字段](assets/unshimmed-entered-by.png)
 
 ### 在生成器界面中创建报表 {#create-reports-in-the-builder-interface}
 
@@ -334,7 +336,7 @@ Workfront提供了多个默认加载到系统中的系统报告。\
    <td>在视图中显示的对象、在筛选条件中使用的对象值或作为分组的公共元素使用的对象值。 字段Source中的选项取决于所创建UI元素的对象类型。 字段Source允许您引用UI元素的对象类型以外的对象属性。</td> 
   </tr> 
   <tr> 
-   <td>筛选</td> 
+   <td>筛选条件</td> 
    <td>确定在报表中显示哪些结果的主要报表元素。</td> 
   </tr> 
   <tr> 

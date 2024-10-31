@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,45 @@ ht-degree: 0%
 
 有关2024年8月28日正式发布后为Adobe Workfront Planning发布的所有功能的列表，请参阅[Adobe Workfront Planning发布活动：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 请求表单中现在支持连接字段
+
+>[!NOTE]
+>
+>预览版本： 2024年10月31日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
+
+您现在可以将Workfront Planning记录的已连接字段添加到记录类型请求表单中。
+
+您无法在请求表单中为Workfront对象添加连接查找字段或连接字段。
+
+在此增强功能之前，无法将这些类型的字段添加到Workfront Planning中的请求表单。
+
+有关信息，请参阅[在Adobe Workfront Planning中创建和管理申请表单](/help/quicksilver/planning/requests/create-request-form.md)。
+
+## 连接已链接到其他记录的记录时出现连接警告
+
+>[!NOTE]
+>
+>预览版本： 2024年10月31日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
+
+当尝试连接已在其他位置连接的记录，并且这些记录属于通过“一对多”或“一对一”连接类型连接的记录类型时，您现在会收到一条警告，指出这些记录已连接。 如果确认要继续连接，则将从原始记录中删除所选记录，并将其添加到当前编辑的记录中。
+
+有关连接类型的信息，请参阅[连接的记录类型概述](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+
+## 带有记录详细信息页面中字段描述的新信息图标
+
+>[!NOTE]
+>
+>预览版本： 2024年10月30日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
+
+我们在记录页面中的字段名称的右侧添加了一个信息图标。 当存在描述时，单击信息图标将显示字段的说明。 在此增强功能之前，将鼠标悬停在字段名称上时显示的字段描述。
+
+有关信息，请参阅[编辑记录](/help/quicksilver/planning/records/edit-records.md)。
+
 ## 适用于Planning连接的新Workfront字段类型
 
 >[!NOTE]
 >
->预览版本： 2024年10月24日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2024年1月16日）
-
-
+>预览版本： 2024年10月24日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
 
 为了继续将Workfront对象桥接到Workfront Planning记录，我们在Workfront自定义表单中添加了一个名为Planning连接的新字段类型。 现在，通过在Workfront自定义表单上添加此字段类型，并最终在Workfront对象上添加此字段类型，您可以执行以下操作：
 
@@ -55,4 +87,3 @@ ht-degree: 0%
 有关信息，请参阅[创建自定义表单](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 [观看此功能的视频演示](https://video.tv.adobe.com/v/3435633/){target=_blank}
-
