@@ -3,30 +3,30 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: 支持的校对文件类型和大小限制概述
-description: 您可以与审阅人共享和审阅各种类型的文件，即使他们未在其计算机上安装用于创建文件的软件(如Photoshop或Illustrator)也是如此。 我们支持大小最大为4 GB的静态、视频、音频、网络捕获和交互式文件类型。
+description: 您可以与审阅人共享和审阅各种类型的文件，即使他们的计算机上未安装用于创建文件的软件(例如Photoshop或Illustrator)。 我们支持最大为4 GB的静态、视频、音频、网页捕捉和交互式文件类型。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
-# 支持的校对文件类型和大小限制概述
+# 支持的校样文件类型和大小限制概述
 
 <!--Audited: 12/2023-->
 
-您可以与审阅人共享和审阅各种类型的文件，即使他们未在其计算机上安装用于创建文件的软件(如Photoshop或Illustrator)也是如此。 我们支持大小最大为4 GB的静态、视频、音频、网页捕获和交互式文件类型。
+您可以与审阅人共享和审阅各种类型的文件，即使他们的计算机上未安装用于创建文件的软件(例如Photoshop或Illustrator)。 我们支持最大为4 GB的静态、视频、音频、网页捕捉和交互式文件类型。
 
 ## 文件大小限制
 
-Workfront具有以下限制：
+Workfront has the following limits:
 
-* 每个文件的文件大小必须小于4 GB。
-* Microsoft Word (DOC， DOCX)和PowerPoint (PPT， PPTX)文件必须小于512 MB。 （这同样适用于在实施大小限制之前创建的这些文件类型的取消存档校样。）
-* xls和XLSX文件必须小于100 MB。
+* Files must be less than 4 GB per file.
+* Microsoft Word (DOC, DOCX) and PowerPoint (PPT, PPTX) files must be less than 512 MB. (This also applies to unarchiving proofs of these file types created before the size limit was implemented.)
+* XLS and XLSX files must be less than 100 MB.
 * 附加到验证评论的文件必须小于30 MB。
 * PNG的高度和宽度必须小于65535像素。
 * 静态组合验证最多可支持50个文件。
@@ -49,6 +49,7 @@ Workfront具有以下限制：
 > * PPSX - Microsoft PowerPoint幻灯片
 > * XLT - Microsoft Excel模板
 > * XLTX - Microsoft Excel模板
+> * EPS — 封装的PostScript
 
 * ABC - LEAD高级位压缩
 * ABIC — 自适应双级图像压缩
@@ -83,24 +84,24 @@ Workfront具有以下限制：
 * DRW - DRaWing
 * DWF - AutoDesk矢量
 * ECW — 增强压缩小波
-* EMF - Windows元文件
-* EXIF — 可交换图像文件格式
-* FAX - LaserView激光数据
+* EMF - Windows Metafile
+* EXIF - Exchangeable Image File Format
+* 传真 — LaserView激光数据
 * FITS — 灵活的图像传输系统
-* FLC - Flic Animation
-* FPX — 柯达闪光灯
+* FLC — 虚拟动画
+* FPX - Kodak FlashPix
 * GBR - GerberGIF- CompuServe
-* GIF — 图形交换格式(仅新Workfront Proof查看器中的动画GIF)
-* GIFHDP - Windows HD照片
-* ICO - Windows图标
-* IFF — 交换文件格式
+* GIF - Graphics Interchange Format (animated GIF in the new Workfront Proof Viewer only)
+* GIF HDP - Windows HD Photo
+* ICO - Windows Icon
+* IFF - Interchange File Format
 * IOCA — 图像对象内容架构
 * IMG - GEM图像
 * ITG — 交互图
 * JBG - JBIG
 * JB2 - JBIG2
 * JPG — 联合摄影专家组(JPEG)
-* JPEG-XR - Windows Media Photo/HD Photo (HDP)
+* JPEG-XR - Windows Media照片/高清照片(HDP)
 * JPEG-LS -JPEG无损
 * J2K -JPEG2000
 * JP2 — 已压缩的JPEG2000
@@ -144,17 +145,17 @@ Workfront具有以下限制：
 * SCT - Scitex连续色调
 * SFF — 结构化传真格式
 * SGI - Silicon图形图像
-* SHP - ESRI形状
-* SMP — 先知
-* SNP - Microsoft访问报表快照
-* SR2 - Sony Raw格式
+* SHP - ESRI Shape
+* SMP - Xionics
+* SNP - Microsoft访问报告快照
+* SR2 - Sony原始格式
 * SRF - Sony Raw格式
-* SVG — 可缩放矢量图形
-* TDB - Microsoft Windows缩略图缓存
-* TFX - Internet传真
+* SVG - Scalable Vector Graphics
+* TDB - Microsoft Windows Thumbnail Cache
+* TFX - Internet Fax
 * TGA - Truevision TARGA
-* TIFF — 标记图像文件格式
-* TIFX - Xerox互联网传真文件
+* TIFF - Tagged Image File Format
+* TIFX - Xerox Internet Fax File
 * VFF - Sun TAAC位图
 * WBMP — 无线位图
 * WFX - WinFax
@@ -181,7 +182,6 @@ Workfront具有以下限制：
 > * PPSX - Microsoft PowerPoint幻灯片
 > * XLT - Microsoft Excel模板
 > * XLTX - Microsoft Excel模板
-> * EPS — 封装的PostScript
 
 
 * AI - Adobe Illustrator图稿
@@ -236,7 +236,7 @@ Workfront具有以下限制：
 
 ## Web捕获
 
-您可以创建静态网页校样。 有关详细信息，请参阅[为网站或其他Web内容创建静态校样](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)和[使用Workfront Proof创建静态网站校样](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)。
+可以创建静态网页校样。 有关详细信息，请参阅[为网站或其他Web内容创建静态校样](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)和[使用Workfront Proof创建静态网站校样](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)。
 
 ## Zip文件
 
