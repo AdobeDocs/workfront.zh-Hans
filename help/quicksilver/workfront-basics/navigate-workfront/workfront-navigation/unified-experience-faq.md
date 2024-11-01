@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 和Adobe Experience Cloud的一些功能不同�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 | 验证查看器将在新选项卡中打开 | 验证查看器在Workfront中打开 |
 | 用于访问Workfront的URL为`experience.adobe.com` | 用于访问Workfront的URL为`(CompanyName).my.workfront.com` |
 | 日期格式（如YYYY/MM/DD）基于Unified Experience语言设置。 如果用户未更新其语言设置，则使用`en-US`设置。 | 日期格式（如YYYY/MM/DD）基于浏览器首选项 |
-| 不支持JumpSeat集成 | 支持Jumpseat集成 |
 
 {style="table-layout:auto"}
 
@@ -145,3 +144,7 @@ IMS是SSO的替代品，其功能大致相同。 所有用户权限都在[!DNL A
 ### [!DNL Workfront]移动用户的登录次数是否会发生变化？
 
 迁移到[!DNL Adobe Unified Experience]不应影响[!DNL Workfront]移动用户。
+
+### JumpSeat未使用[!DNL Adobe Unified Experience]，如何解决此问题？
+
+JumpSeat可与[!DNL Adobe Unified Experience]配合使用，但需要配置更新。 使用JumpSeat管理面板，将应用程序URL从`workfront.com`更改为以`.workfront.adobe.com`结尾

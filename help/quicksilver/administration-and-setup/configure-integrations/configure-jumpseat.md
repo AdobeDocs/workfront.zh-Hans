@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -58,6 +58,12 @@ ht-degree: 4%
 
 * 在[!DNL JumpSeat]中添加并激活[!DNL Workfront]作为应用程序。 有关详细信息，请参阅[如何添加或删除应用程序](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
+>[!IMPORTANT]
+>
+>如果您在AdobeUnified Experience上，则必须使用以下应用程序URL： `.workfront.adobe.com`。
+
+
+
 ## 配置[!DNL JumpSeat]集成
 
 我们建议在您的预览环境和生产环境中设置[!DNL JumpSeat]集成。
@@ -73,7 +79,15 @@ ht-degree: 4%
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 系统]** > **[!UICONTROL [!DNL JumpSeat]集成]**。
 1. 输入您的&#x200B;**[!UICONTROL [!DNL JumpSeat]URL]**，您可以在位于[!DNL JumpSeat]的扩展图标上找到该URL。
 
-   **示例：** [!DNL https]：//{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**示例：**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. 输入&#x200B;**[!UICONTROL [!DNL JumpSeat]集成令牌]**。 您可以在[!DNL JumpSeat]中的&#x200B;**[!UICONTROL 配置]**&#x200B;页面上找到此项。
 

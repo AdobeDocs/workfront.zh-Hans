@@ -4,9 +4,9 @@ description: 在2025年第一季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ ht-degree: 0%
 
 我们已升级Workfront导航栏以提高其性能。 外观更改很小。
 
-最显着的变化是“收藏夹”和“最近访问”下拉屏幕中不再有“关闭”按钮。 您只需单击离开屏幕，或按键盘上的ESC键将其关闭即可。
+最显着的变化如下：
+
+* “收藏夹”和“最近访问”下拉屏幕中不再有“关闭”按钮。 您只需单击离开屏幕，或按键盘上的ESC键将其关闭即可。
+* 无法再拖放固定页面来排列它们。 相反，有一个下拉菜单，其中包含允许您移动固定页面的按钮。
 
 ## “将更新发送到用户”窗口的外观更新
 
