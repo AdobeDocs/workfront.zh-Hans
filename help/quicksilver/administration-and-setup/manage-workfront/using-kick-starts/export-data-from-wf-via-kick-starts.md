@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 作为Adobe Workfront管理员，您可以使用Kick-Starts数据导出器从Workfront导出数据。 导出后，您可以将其用于其他应用程序。
 
@@ -194,7 +196,7 @@ ht-degree: 8%
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top">任务</td> 
+      <td scope="col" valign="top">任务分配</td> 
       <td scope="col" valign="top">工作<br>首选项</td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
@@ -219,7 +221,7 @@ ht-degree: 8%
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">筛选</td> 
+      <td valign="top">筛选条件</td> 
       <td valign="top"> 筛选器<br>首选项 </td> 
       <td valign="top">ZIP </td> 
      </tr> 
@@ -334,11 +336,15 @@ ht-degree: 8%
 
    无法导出矩阵报表。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-   Kick-Starts不支持文本模式筛选器。 要成功导出，必须将报表过滤器切换到“标准模式”。
+   Kick-Starts不支持文本模式过滤器或分组。 为了成功导出，必须将报表过滤器和分组切换到“标准模式”。
 
    在一次导出中，您最多可以选择100个功能板和100个报表。
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">预览环境中的示例图像：</span>
+   ![快速启动导出](assets/kickstart-export-spreadsheet-options.png)
+
+   生产环境中的示例图像：
+   ![快速启动导出](assets/kickstart-export-350x381.png)
 
    您可以一次导出多个对象。
 
@@ -346,4 +352,3 @@ ht-degree: 8%
 
    对于大型导出，Workfront将在后台工作以生成Excel文件，并向您提供有关延迟的警告消息。 下载完成后，将通过电子邮件将快速启动文件发送给您。
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

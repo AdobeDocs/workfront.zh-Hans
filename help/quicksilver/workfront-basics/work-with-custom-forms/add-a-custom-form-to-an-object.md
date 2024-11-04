@@ -7,10 +7,10 @@ description: 您可以将现有的自定义表单添加到下面列出的任何�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 1%
+source-wordcount: '821'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 1%
 * 项目群
 * 文档
 * 用户
+* 组
 * 迭代
 * 费用
 * 账单记录
