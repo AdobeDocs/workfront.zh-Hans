@@ -4,19 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '查看：计算时间和日期差异'
 description: 了解如何计算时间和日期差异。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # 查看：计算时间和日期差异
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ ht-degree: 0%
 
 1. 单击&#x200B;**添加列**&#x200B;并开始在&#x200B;**显示在此列**&#x200B;字段中键入“规划完成日期”，然后当它显示在列表中时将其选定。
 
-1. 单击&#x200B;**添加列**，然后单击&#x200B;**切换到文本模式**。
-
-1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
-1. 删除您在&#x200B;**文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码之一：
+1. 单击&#x200B;**添加列**，然后单击&#x200B;**切换到文本模式** > **编辑文本模式**。
+1. 删除在&#x200B;**编辑文本模式**&#x200B;框中找到的文本，然后将其替换为以下代码之一：
 
    * 要显示项目计划完成日期与任务计划完成日期之间的差异，请执行以下操作：
 
@@ -131,4 +129,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。

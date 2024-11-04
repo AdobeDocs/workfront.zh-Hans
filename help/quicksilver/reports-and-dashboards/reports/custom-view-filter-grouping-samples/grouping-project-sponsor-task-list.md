@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '分组：任务列表的项目发起人'
 description: 此任务分组允许您按项目发起人分组任务。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 分组：任务列表的项目发起人
+
+<!--Audited: 11/2024-->
 
 此任务分组允许您按项目发起人分组任务。
 
@@ -71,7 +73,11 @@ ht-degree: 0%
 1. 单击&#x200B;**切换到文本模式**。
 1. 移除所显示区域中的文本，然后使用以下代码替换该文本：
 
-   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
+   ```
+   group.0.name=Project Sponsor
+   group.0.valuefield=project:sponsor:name
+   group.0.valueformat=string
+   ```
 
 1. 单击&#x200B;**完成**。
 1. 更新分组名称，然后单击&#x200B;**保存分组**。

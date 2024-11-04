@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ ht-degree: 2%
 
    * 所选记录类型的表视图中可用的记录字段。<!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > 根据创建请求表单时所用的环境，存在以下情况：
-     >
-     >* 以下类型的字段未显示在预览</span>或生产环境的请求表单<span class="preview">中：
-     >
-     >    * 人员（包括“创建者”和“上次修改者”）
-     >    * 公式
-     >    * 创建日期
-     >    * 上次修改日期
-     >    * Workfront对象的已连接字段或查找字段
-     >    * Workfront Planning记录的已连接查找字段
-     >* 以下类型的字段不会显示在生产环境的请求表单中。 <span class="preview">它们显示在预览环境中：</span>
-     >    * <span class="preview"> Workfront Planning记录的已连接字段(包括与Workfront的连接和Experience Manager资源)</span>
+   >[!IMPORTANT]
+   >
+   > 根据创建请求表单时所用的环境，存在以下情况：
+   >
+   >* 以下类型的字段未显示在预览</span>或生产环境的请求表单<span class="preview">中：
+   >
+   >    * 人员（包括“创建者”和“上次修改者”）
+   >    * 公式
+   >    * 创建日期
+   >    * 上次修改日期
+   >    * Workfront对象的已连接字段或查找字段
+   >    * Workfront Planning记录的已连接查找字段
+   >* 以下类型的字段不会显示在生产环境的请求表单中。 <span class="preview">它们显示在预览环境中：</span>
+   >    * <span class="preview"> Workfront Planning记录&#39;连接的字段</span>
 
 
    * **默认的分区**：这是Workfront应用于请求表单的默认分区界限。 无法重命名或删除默认部分。
