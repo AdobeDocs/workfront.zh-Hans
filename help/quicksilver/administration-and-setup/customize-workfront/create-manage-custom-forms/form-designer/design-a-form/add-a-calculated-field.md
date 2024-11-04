@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
+source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -23,31 +23,19 @@ ht-degree: 0%
 
 * 对单个内置字段的简单引用。
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**示例：**&#x200B;要计算项目和任务产生的收入，您可以创建一个计算自定义字段，该字段包含内置字段“实际收入”。 当有人将自定义表单附加到项目或任务时，项目或任务的收入显示在字段中。
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**示例：**&#x200B;要计算项目和任务产生的收入，您可以创建一个计算自定义字段，该字段包含内置字段“实际收入”。 当有人将自定义表单附加到项目或任务时，项目或任务的收入显示在字段中。
 
 * 引用一个或多个字段的表达式。 这些可以是自定义字段、其他计算的自定义字段和内置字段。
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**示例：**&#x200B;要计算项目和任务产生的利润，您可以创建一个名为Profit的计算自定义字段，该字段包含从收入中减去成本的数学表达式。
-
-为此，您可以使用数学表达式SUB（减）以及内置的Workfront字段Actual Cost和Actual Revenue。
-
-在以下步骤中，您可以看到如何构建类似于此示例的表达式。
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**示例：**&#x200B;要计算项目和任务产生的利润，您可以创建一个名为Profit的计算自定义字段，该字段包含从收入中减去成本的数学表达式。
+  >
+  >为此，您可以使用数学表达式SUB（减）以及内置的Workfront字段Actual Cost和Actual Revenue。
+  >
+  >在以下步骤中，您可以看到如何构建类似于此示例的表达式。
 
 >[!NOTE]
 >
