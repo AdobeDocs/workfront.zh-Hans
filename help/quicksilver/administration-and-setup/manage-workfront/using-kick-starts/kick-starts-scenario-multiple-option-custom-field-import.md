@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**要包含的内容**&#x200B;部分中选择&#x200B;**自定义数据**。
 
-   “预览”环境中的示例图像：
+   <span class="preview">预览环境中的示例图像：</span>
    ![选择自定义数据](assets/kickstarts-select-existing-data.png)
 
    生产环境中的示例图像：
@@ -130,10 +130,11 @@ ht-degree: 0%
 
 1. 在&#x200B;**下载空白的快速启动电子表格**&#x200B;区域，选中&#x200B;**自定义数据**&#x200B;复选框，然后单击&#x200B;**下载**。
 
-   “预览”环境中的示例图像：
+   <span class="preview">预览环境中的示例图像：</span>
    ![选择自定义数据](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   生产环境中的示例图像：
+   ![选择自定义数据](assets/blank-custom-data-option-checked-kick-starts.png)
 
    将空白的快速启动文件下载到您的计算机。
 
@@ -182,7 +183,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >    如果某行代表Workfront中已存在的字段，则应输入&#x200B;**`isNew`** = **`FALSE`**。
+     >如果某行代表Workfront中已存在的字段，则应输入&#x200B;**`isNew`** = **`FALSE`**。
 
    * **`ID`** =对于表示新字段的每一行必须是唯一数字。 您可以使用以1开头的任意数字，但前提是每个新字段具有唯一数字。
    * **`setDataType`** =对于表示新字段的每一行，输入该字段支持的数据类型。 必须按数据库中显示的数据类型输入。 从以下数据类型中选择：
