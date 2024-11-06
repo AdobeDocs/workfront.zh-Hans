@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新增：在项目、任务、问题或时间表上的常规小时数上记录小时数的较短或更高</p>
+   <td> <p>新增：</p>
+   <ul><li><p> 在任务、问题或时间表上记录常规小时数的精简或更高</p>
+   <li><p>用于记录项目小时数的标准</p></li></ul>
+   <p>
    <p>当前： 
    <ul><li>查看或更高版本以在时间表中记录常规小时数</li>
    <li>用于记录项目、任务或问题的小时数的工作或更高</li></ul> </td> 
@@ -90,7 +93,7 @@ ht-degree: 0%
 * [项目、任务或问题](#project-task-or-issue)
 * [摘要面板](#summary-panel)
 * [展示板](#boards)
-* [移动应用程序](#mobile-app)
+* [移动设备应用程序](#mobile-app)
 
 ### 时间表 {#timesheet}
 
@@ -462,7 +465,7 @@ ht-degree: 0%
 您可以在Workfront展示板上的已连接信息卡上记录时间。 这与在任务或问题上记录时间是同一过程，卡片上记录的小时数将保存在连接的任务或问题上。
 有关详细信息，请参阅[在展示板上使用连接的卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
-### 移动应用程序 {#mobile-app}
+### 移动设备应用程序 {#mobile-app}
 
 您可以从Workfront移动设备应用程序记录时间。
 有关详细信息，请参阅适用于Android的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)或适用于iOS的[Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)。
