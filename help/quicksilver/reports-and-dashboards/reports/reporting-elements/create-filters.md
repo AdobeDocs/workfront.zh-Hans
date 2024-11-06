@@ -6,16 +6,16 @@ description: 您可以通过过滤器限制在项目列表中屏幕上显示的�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中创建或编辑筛选器
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 您可以通过过滤器限制在项目列表中屏幕上显示的信息量。 您可以根据对象的特定信息定义特定标准，并仅显示符合这些标准的对象。
 
@@ -47,42 +47,36 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>新文档：参与者或更高版本</p>
-
-或
-
-<p>当前：请求或更高版本</p>
-
-<p><b>注意：</b></p>
-
-要编辑报告中的过滤器，您必须具有以下许可证：
-
-<p>新增：标准</p>
-
-或
-
-<p>当前：计划</p>
-
-</td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>修改过滤器的参与者</p></li>
+         <li><p>用于修改报表中过滤器的标准</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求修改筛选器</p></li>
+         <li><p>计划修改报告中的筛选器</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
    <td> <ul><li><p>编辑对筛选器、视图和分组的访问权限</p></li></ul>
-    <p><b>注意：</b></p>
-   要在报表中编辑筛选器，除了具有筛选器、视图和分组的编辑访问权限之外，还必须具有以下访问级别配置：
 
-<ul><li><p>编辑对报告、功能板和日历的访问权限</p></li></ul>
+要在报表中编辑筛选器，除了具有筛选器、视图和分组的编辑访问权限之外，还必须具有以下访问级别配置：
 
-<p><b>注意：</b></p> <p> 如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+<ul><li><p>编辑对报告、功能板和日历的访问权限</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理筛选器的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader"><strong>对象权限*</strong></td> 
+   <td> <p>管理筛选器的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-要了解您拥有的计划、许可证类型或访问权限，请联系您的Workfront管理员。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -369,19 +363,17 @@ ht-degree: 1%
 无论使用何种方法创建过滤器，从头开始或从现有过滤器创建过滤器都是类似的。
 
 1. 转到包含要自定义的过滤器的列表或报表。
-1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
+1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)，然后单击&#x200B;**更多**&#x200B;图标![更多图标](assets/more-icon.png)，然后单击&#x200B;**返回旧版筛选器**。
 
    >[!TIP]
    >
    >报告创建者必须允许编辑过滤器，才能在报告中查看过滤器下拉列表。 默认情况下，“报表默认”筛选器应用于报表。 仅当您编辑报告时，才能自定义报告默认筛选条件。
 
-   ![筛选器下拉列表](assets/filter-drop-down-expanded-nwe.png)
-
-1. 单击筛选器列表顶部的&#x200B;**新建筛选器**。
+1. 单击筛选器列表顶部的&#x200B;**+新建筛选器**。
 
    或
 
-   将鼠标悬停在要修改的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)。
+   将鼠标悬停在要修改的筛选器上，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    用于自定义筛选器的生成器启动项。
 
@@ -423,7 +415,7 @@ ht-degree: 1%
 
    或
 
-   单击&#x200B;**另存为新筛选器**&#x200B;以从选定筛选器创建筛选器。
+   单击&#x200B;**另存为新筛选器**&#x200B;以从选定筛选器创建新筛选器。
 
    新筛选器将显示在筛选器列表中，并且会自动应用于您选择的列表或报表。
 

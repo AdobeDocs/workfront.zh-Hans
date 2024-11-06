@@ -6,24 +6,22 @@ description: Workfront中每个列表和报表都必须具有的主要元素包�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 报表元素：筛选器、视图和分组
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 有多个元素让列表或报表在Adobe Workfront中成为可能。 每个列表和报表都必须具有的主要元素包括过滤器、视图和分组。 每个元素可在任何报表中提供不同的信息。
 
@@ -56,11 +54,10 @@ ht-degree: 0%
 
   有关筛选器的详细信息，请参阅文章[筛选器概述](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)。
 
-![筛选器图标](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## 视图
 
-通过定义报表视图，您可以定义在报表中包括哪些信息。 与所有报表元素一样，视图也基于一种对象类型。\
+通过定义报表视图，您可以定义在报表中包括哪些信息。 与所有报表元素一样，视图也基于一种对象类型。
+
 例如，任务报告的视图可显示到期日，包括关键财务详细信息（如成本），或用于显示分配和提交日期详细信息。 视图可用于提供有关报表中数据的各种详细信息。
 
 视图的一些属性包括：

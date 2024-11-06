@@ -7,7 +7,7 @@ description: 您可以使用Adobe Workfront中的过滤器来减少您在列表�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 过滤器概述
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 您可以使用Adobe Workfront中的过滤器来减少您在列表、报告或其他区域屏幕上显示的信息量。
 
@@ -71,13 +71,16 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
 
 您可以在Workfront的以下区域中使用内置过滤器或构建自定义过滤器：
 
-* 主页\
+* 主页
+
   有关信息，请参阅[在主页区域的工作列表中显示项目](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)。
+
 * 请求区域。 您不能在请求区域中自定义筛选器。
 
   有关信息，请参阅[查找已提交的请求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-* 资源规划程序\
+* 资源规划程序
+
   有关信息，请参阅文章[资源规划者](../../../resource-mgmt/resource-planning/filter-resource-planner.md)中的筛选信息。
 
 * 利用率报告
@@ -104,9 +107,7 @@ Workfront中有多种类型的过滤器。 所有筛选器都可达到限制屏�
   >
   >无法在Scenario Planner中自定义筛选器。
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   您可以将内置筛选器用于计划、计划或项目，并且可以在方案规划程序中自定义项目筛选器。
 

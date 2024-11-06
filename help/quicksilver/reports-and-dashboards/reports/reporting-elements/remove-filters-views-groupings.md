@@ -6,20 +6,24 @@ description: 如果您创建了某个筛选器、视图或分组，或者这些�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
 
 # 删除过滤器、视图和分组
 
+<!-- Audited: 11/2024 -->
+
 如果您创建了某个筛选器、视图或分组，或者这些筛选器、视图或分组已与您共享，则可以从列表和报告中删除这些筛选器、视图或分组。 无法删除默认筛选器、视图或分组。
 
 ## 访问要求
 
-您必须具备以下条件：
++++ 展开以查看本文中各项功能的访问要求。
+
+您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>请求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>查看或更高权限的“筛选器”、“视图”、“分组”</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td><p>查看或更高权限的“筛选器”、“视图”、“分组”</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>查看对要移除的筛选器、视图或分组具有共享权限的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td><p>查看对要移除的筛选器、视图或分组具有共享权限的权限</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 使用标准生成器移除或删除筛选器
 
@@ -69,9 +85,6 @@ ht-degree: 1%
 1. 转到项目、任务、问题、项目组合、程序、用户、模板或组的列表。
 1. 单击&#x200B;**筛选器**&#x200B;图标![筛选器图标](assets/filter-nwepng.png)。
 1. 将鼠标悬停在&#x200B;**与我共享**&#x200B;下的筛选器上，单击&#x200B;**更多**&#x200B;菜单![更多图标](assets/more-icon-spectrum.png)，然后单击&#x200B;**删除**。
-
-   ![删除筛选器](assets/new-filters-more-menu-remove-filter.png)
-
 1. 选择确认消息上的&#x200B;**删除**&#x200B;以永久删除筛选器。
 
 ### 使用标准生成器删除过滤器

@@ -4,22 +4,24 @@ description: 编辑现有分组
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # 编辑现有分组
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 您可以自定义最初创建或与您共享的现有分组。 然后，您可以将其另存为新分组。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -33,20 +35,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>请求或更高版本 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的分组</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的分组</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以编辑报告中的分组</p> <p>管理分组的权限 </p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的分组</p> <p>管理分组的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 先决条件
 
@@ -58,7 +71,7 @@ ht-degree: 0%
 
 1. 转到包含要自定义的分组的对象列表。
 1. 单击&#x200B;**分组**&#x200B;图标。
-1. 选择要自定义的分组，然后单击&#x200B;**编辑**&#x200B;图标。
+1. 选择要自定义的分组，然后单击&#x200B;**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
 
    ![选择编辑图标。](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ ht-degree: 0%
 1. 重复步骤4、5和6以定义其他分组。\
    您最多可以定义三个分组来组织信息。 通过创建矩阵报告，您最多可以将信息分为四组。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-1. 单击&#x200B;**另存为新分组**&#x200B;以使用更改替换当前分组。
+1. 单击&#x200B;**保存分组**&#x200B;以使用更改替换当前分组。

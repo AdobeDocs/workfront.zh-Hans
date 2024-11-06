@@ -6,16 +6,16 @@ description: 在与Adobe Workfront中的其他用户共享报表时，请考虑�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 2%
 
 ---
 
 # 在视图中使用条件格式
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 在与Adobe Workfront中的其他用户共享报表时，请考虑自定义报表视图，以使某些信息更易于阅读或引人注目。
 
@@ -54,24 +54,23 @@ ht-degree: 2%
    <td> <p>新增：</p> 
    <ul><li>报告视图的标准</li>
   <li> 列表视图的参与者或更高版本</li></ul>
-
-<p>当前：</p>
+   <p>当前：</p>
    <ul>
     <li> 规划报告视图 </li>
     <li> 请求或更高版本以访问列表视图 </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p> <p><b>注释</b></p> <p>如果您没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以编辑报告中的视图</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

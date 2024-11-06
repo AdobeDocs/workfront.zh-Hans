@@ -7,18 +7,18 @@ description: 您可以添加分组来管理报告和列表中的信息布局。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront中的分组概述
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 您可以添加分组来管理报告和列表中的信息布局。
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
   有关从头开始创建分组的信息，请参阅[在Adobe Workfront中创建分组](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)。
 
-默认情况下，分组在报表或列表中以灰色或蓝色高亮显示。 报告或列表的结果会列在其各个分组下，不会突出显示。
+默认情况下，分组在报表或列表中以灰色高亮显示。 报告或列表的结果会列在其各个分组下，不会突出显示。
+
+![分组示例](assets/grouping-example-blue.png)
 
 您最多可以向一个报表中添加三个分组。 通过创建矩阵报告，您最多可以将信息分为四组。 有关矩阵报表的详细信息，请参阅[创建矩阵报表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)。
 
-在标准分组报表中，第一个分组的颜色较深，第二个分组的颜色较浅，第三个分组的颜色较浅。 您无法自定义分组中高亮显示的颜色或分组名称的字体。 分组名称后括号中的数字表示该分组下的结果数。 如果您的报表跨越多个页面，请确保在报表或列表中显示&#x200B;*全部*&#x200B;个结果，以便准确计算每个分组下的结果。
-
-![示例分组](assets/grouping-example-blue.png)
+分组名称后括号中的数字表示该分组下的结果数。 如果您的报表跨越多个页面，请确保在报表或列表中显示&#x200B;*全部*&#x200B;个结果，以便准确计算每个分组下的结果。
 
 使用分组时，请考虑以下事项：
 

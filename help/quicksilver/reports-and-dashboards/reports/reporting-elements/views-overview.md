@@ -7,7 +7,7 @@ description: 通过管理列表或报表的视图，可以自定义在列表或�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Adobe Workfront中的视图概述
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 通过管理列表或报表的视图，可以自定义在列表或报表中显示的信息类型。 可以在视图中显示对象及其属性。 有关Adobe Workfront对象的信息，请参阅[了解Adobe Workfront中的对象](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 

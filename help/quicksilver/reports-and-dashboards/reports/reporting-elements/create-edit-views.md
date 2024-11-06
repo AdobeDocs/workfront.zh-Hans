@@ -6,14 +6,16 @@ description: 您可以使用视图自定义在屏幕上显示的信息类型。 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # 在Adobe Workfront中创建或编辑视图
+
+<!-- Audited: 11/2024 -->
 
 您可以使用视图自定义在屏幕上显示的信息类型。 您可以在Adobe Workfront中使用多种类型的视图。
 
@@ -30,25 +32,36 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront计划*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront计划</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>请求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建视图</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td role="rowheader"><strong>对象权限*</strong></td> 
+   <td> <p>管理对报告的权限以创建或编辑报告中的视图</p> <p>管理视图的权限以编辑它</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,10 +77,11 @@ ht-degree: 1%
 您可以创建新的标准视图，也可以自定义之前创建的现有标准视图。
 
 1. 在要创建或自定义视图的任何列表中单击&#x200B;**视图**&#x200B;下拉菜单。
-1. （可选）要自定义现有视图，请选择要自定义的标准视图。\
-   标准视图可在Workfront的任何类型的列表（如报告、项目列表或任务列表）中使用。
-1. 单击&#x200B;**视图**&#x200B;下拉菜单，然后单击&#x200B;**自定义视图**&#x200B;或&#x200B;**新建视图**。\
-   将显示&#x200B;**自定义视图**&#x200B;对话框。
+
+1. 单击&#x200B;**+新建视图**按钮以创建新视图。
+或
+单击鼠标上要编辑的现有视图右侧出现的**编辑**&#x200B;图标![编辑图标](assets/edit-icon.png)。
+将显示**自定义视图**&#x200B;对话框。
 
 1. 在&#x200B;**列预览**&#x200B;部分中，执行以下任一操作：
 
@@ -121,7 +135,7 @@ ht-degree: 1%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>列规则</strong></td> 
-           <td><p>单击<strong>添加此列的规则</strong>以定义此列的规则。 添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 完成规则定义后，单击<strong>添加规则</strong>。</p></td> 
+           <td><p>单击<strong>+为此列</strong>添加规则以定义该列的规则。 添加规则后，您可以定义字段和文本样式，以显示与该规则匹配的字段。 完成规则定义后，单击<strong>添加规则</strong>。</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 在&#x200B;**Agile**&#x200B;部分的&#x200B;**其他字段**&#x200B;区域，单击&#x200B;**添加字段**，然后选择要添加到故事卡的字段。 （在创建自定义视图或创建报表列时，可以添加这些字段。）\
+1. 在&#x200B;**其他字段**&#x200B;区域中，单击&#x200B;**添加字段**，然后选择要添加到故事卡的字段。 （在创建自定义视图或创建报表列时，可以添加这些字段。）\
    重复此过程以向故事卡添加最多三个其他字段。\
    将字段添加到故事卡时，字段为仅查看字段，并且仅在填充字段时才显示。
 

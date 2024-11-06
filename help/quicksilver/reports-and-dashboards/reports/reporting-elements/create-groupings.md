@@ -6,24 +6,26 @@ description: 您可以从头开始创建自定义分组，也可以自定义现�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront中创建分组
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 报告或列表的结果可按分组组织。 分组根据特定信息对信息进行分类。
 
 您可以从头开始创建自定义分组，也可以自定义现有分组。 按照以下步骤从头开始创建分组。
 
 ## 访问要求
+
++++ 展开以查看本文中各项功能的访问要求。
 
 您必须具有以下权限才能执行本文中的步骤：
 
@@ -37,20 +39,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>请求或更高版本 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建分组</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板、日历的访问权限以在报告中创建分组</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以编辑报告中的分组</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td><p>管理对报告的权限以编辑报告中的分组</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 创建分组
 
@@ -59,10 +72,10 @@ ht-degree: 0%
 
    ![选择新分组](assets/newgrouping-nwe-standard-350x304.png)
 
-1. 单击&#x200B;**新建分组**。
+1. 单击&#x200B;**+新建分组**。
 用于创建分组的界面生成器随即启动。
 
-1. 在&#x200B;**分组预览**&#x200B;部分中，单击&#x200B;**添加分组**&#x200B;以定义您希望如何整理报告中的信息。 下面显示了报告中的分组预览。
+1. 在&#x200B;**分组预览**&#x200B;区域中，单击&#x200B;**添加分组**&#x200B;以定义您希望如何整理报告中的信息。 下面显示了报告中的分组预览。
 
 1. 开始键入字段的名称，该名称表示要在报表中组织信息的方式，然后在信息出现在下拉列表中时单击它。
 1. （可选且有条件）在更新的列表中构建分组时，如果希望分组的结果以折叠方式显示而不是展开，请选择&#x200B;**默认情况下折叠此分组**。 默认情况下，此设置处于禁用状态，分组的结果始终显示在展开列表中。

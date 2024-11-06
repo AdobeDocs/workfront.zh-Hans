@@ -6,14 +6,16 @@ description: 阅读本文，了解列宽指南以及如何在Workfront中更改�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # 修改列宽和顺序
+
+<!-- Audited: 11/2024 -->
 
 以下是有关Adobe Workfront中列宽的工作原理的准则：
 
@@ -36,6 +38,8 @@ ht-degree: 0%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront许可证*</strong></td> 
-   <td> <p>请求或更高版本 </p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>访问级别配置*</strong></td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以编辑报告中的视图</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>对象权限</strong></td> 
-   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理对报告的权限以编辑报告中的视图</p> <p>管理视图的权限以编辑它</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 修改列宽和顺序
 
@@ -113,17 +128,13 @@ ht-degree: 0%
 #### 临时调整列大小 {#resize-columns-temporarily}
 
 1. 转到要修改的列表。
-1. 拖动列的边框，直到该列达到所需大小。\
+1. 拖动列标题的边框，直到列达到所需大小为止。\
    ![](assets/column-resize-350x124.png)
 
 #### 临时对列重新排序 {#reorder-columns-temporarily}
 
 1. 转到要修改的列表。
-1. 单击要移动到其他位置的列以选取该列。
-1. 将列拖到正确的位置。
-1. 将列拖放到相应位置以移动它。
-
-   ![](assets/column-reorder-350x118.png)
+1. 单击并拖动要移动到所需位置的列标题。
 
 >[!TIP]
 >
