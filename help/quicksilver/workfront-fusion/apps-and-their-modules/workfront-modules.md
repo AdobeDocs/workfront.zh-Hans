@@ -9,9 +9,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront连接器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
+source-wordcount: '6797'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL记录类型]</td> 
-   <td> <p>（在您选择<strong>筛选器</strong>后显示。） 选择要模块监视的[!DNL Workfront]记录的类型。</p> <p>例如，如果您要在每次创建新项目时启动方案，请选择[！UICONTROL项目]</p> </td> 
+   <td> <p>（在选择<strong>筛选器</strong>后显示。）选择您希望模块监视的[!DNL Workfront]记录类型。</p> <p>例如，如果您要在每次创建新项目时启动方案，请选择[！UICONTROL项目]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL输出]</td> 
@@ -631,7 +631,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[！UICONTROL操作]</td> 
-   <td> <p>选择要模块执行的操作。</p> <p>根据您选择的[！UICONTROL记录类型]和[！UICONTROL操作]，您可能需要填写其他字段。 这两个设置的某些组合可能只需要记录ID，而其他设置（如<strong>[！UICONTROL记录类型的Project]</strong>和<strong>[！UICONTROL操作]</strong>的[！UICONTROL附加模板]）需要其他信息（如对象ID和模板ID）。</p> <p>有关各个字段的详细信息，请参阅<a href="http://developer.workfront.com/">Workfront开发人员文档</a>。 <p><strong>注意</strong>：开发人员文档网站仅包含通过API版本14传递的信息，但仍包含可供API调用使用的有用信息。 </p> 
+   <td> <p>选择要模块执行的操作。</p> <p>根据您选择的[！UICONTROL记录类型]和[！UICONTROL操作]，您可能需要填写其他字段。 这两个设置的某些组合可能只需要记录ID，而其他设置（如<strong>[！UICONTROL记录类型的Project]</strong>和<strong>[！UICONTROL操作]</strong>的[！UICONTROL附加模板]）需要其他信息（如对象ID和模板ID）。</p><p>有关某些操作可用的选项，请参阅本文中的<a href="#misc-action-options" class="MCXref xref">其他操作选项</a>。</p> <p>有关各个字段的详细信息，请参阅<a href="http://developer.workfront.com/">Workfront开发人员文档</a>。 <p><strong>注意</strong>：开发人员文档网站仅包含通过API版本14传递的信息，但仍包含可供API调用使用的有用信息。 </p> 
     <ol> 
      <li value="1"> <p>从[!DNL Workfront]开发人员文档页面的左侧导航中选择记录类型。 以下类型有自己的页面：</p> 
       <ul> 
@@ -653,6 +653,156 @@ ht-degree: 2%
 </table>
 
 查看可在每个 [!DNL Workfront] 模块](#workfront-object-types-available-for-each-workfront-module)可用的[[!DNL Workfront] 对象类型中使用此模块的[!DNL Workfront]对象类型列表。
+
+#### 其他操作选项
+
+##### 任务
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>操作</th> 
+   <th>选项</th> 
+  </tr> 
+  <tr> 
+   <td>复制</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignations</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除财务数据</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>移动</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignations</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除财务数据</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 问题
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>操作</th> 
+   <th>选项</th> 
+  </tr> 
+  <tr> 
+   <td>复制</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignations</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearpermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>转换为任务</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>保留原来的问题，并将其解决方案与此任务绑定</p></li>
+   <li>preservePrimaryContact<p>允许问题的主要联系人访问此任务</p></li>
+   <li>preserveCompletionDate<p>保留问题的计划完成日期</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>转换至项目</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>保留原来的问题，并将其解决方案与此任务绑定</p></li>
+   <li>preservePrimaryContact<p>允许问题的主要联系人访问此任务</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### 项目
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>操作</th> 
+   <th>选项</th> 
+  </tr> 
+  <tr> 
+   <td>复制</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignations</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除财务数据</p></li>
+   <li>clearpermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>附加模板/另存为模板</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignations</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverable<p>清除目标</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>清除财务数据</p></li>
+   <li>clearHourTypes</li>
+   <li>Clearisssetup<p>清除队列属性和问题设置</p></li>
+   <li>clearPredecessors</li>
+   <li>clearrisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>清除提醒通知</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL 搜索（旧版）]**
@@ -1011,7 +1162,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>任务</td> 
+   <td>任务分配</td> 
    <td> </td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1294,7 +1445,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>任务</td> 
+   <td>任务分配</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
@@ -1698,7 +1849,7 @@ ht-degree: 2%
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td>任务</td> 
+   <td>任务分配</td> 
    <td>✓ {\f13 }</td> 
    <td>✓ {\f13 }</td> 
   </tr> 
