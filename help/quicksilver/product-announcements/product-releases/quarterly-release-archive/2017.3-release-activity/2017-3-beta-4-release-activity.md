@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Workfront会分析可用用户中的当前工作分配，并为任何尚未分�
 
 在此更改之前，您无法报告此信息。
 
-有关构建自定义文本模式视图（从原始问题中捕获信息）的更多信息，请参阅[视图：在任务和项目列表上显示原始问题信息](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
+有关构建自定义文本模式视图（从原始问题中捕获信息）的更多信息，请参阅[视图：在任务或项目列表上显示原始问题信息](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)。
 
 ## 更新流中的过滤器系统更新现在可以跨对象持续进行 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

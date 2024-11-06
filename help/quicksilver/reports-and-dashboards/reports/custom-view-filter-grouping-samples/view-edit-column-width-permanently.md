@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：永久编辑列的宽度'
+title: '查看：永久编辑列宽'
 description: 可通过拖放栏的边距以匹配所需宽度来临时修改栏的宽度。 有关详细信息，请参阅修改列宽和顺序。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # 视图：永久编辑列的宽度
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 可通过拖放栏的边距以匹配所需宽度来临时修改栏的宽度。 有关详细信息，请参阅[修改列宽和顺序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    单击任何现有列的列标题。
 
 1. 单击&#x200B;**切换到文本模式**。
-1. 将鼠标悬停在文本模式区域上，然后单击&#x200B;**单击以编辑文本**。
+1. 单击&#x200B;**编辑文本模式**。T
 1. 将以下代码添加到列的文本模式中：
 
    ```
@@ -83,6 +83,6 @@ ht-degree: 0%
 
    对于&#x200B;**宽度**&#x200B;行，请指定任意数字（以像素为单位），以表示您希望列在视图中显示的宽度。
 
-1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。
 
 

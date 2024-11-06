@@ -4,19 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '视图：合并来自一个共享列中多个列的信息'
 description: 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # 视图：合并来自一个共享列中多个列的信息
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 您可以合并显示在多个单独列中的信息，并将其显示在一个共享列中。
 
@@ -94,7 +94,10 @@ ht-degree: 0%
 
 要合并两列不带换行符的数据，请执行以下操作：
 
-1. 使用视图的文本模式，将以下文本添加到要合并的第一列：
+1. 转到对象列表。
+1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以编辑该视图。
+1. 转到要合并的第一个列，然后单击&#x200B;**切换到文本模式** > **编辑文本模式**。
+1. 将以下文本添加到要合并的第一列：
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ ht-degree: 0%
 
    如果共享多列，请确保在包含每列的共享信息的代码行中添加列号。
 
+
    **示例：**&#x200B;以下是包含三个单独列的合并列的文本模式代码，从该列表的第二列开始。 合并的值包括项目名称、计划开始日期和项目所有者姓名，并且三个值之间没有间隔：
 
-   `column.1.valuefield=name`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.valueformat=HTML`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.1.sharecol=true`
 
-   `column.2.valuefield=plannedStartDate`
-
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。
 
 ## 使用换行符合并两列的数据
 
 执行以下操作可合并多列数据，以将其显示在一个公用列中，并在每列的值之间使用换行符：
 
+1. 转到对象列表。
+1. 从&#x200B;**视图**&#x200B;下拉列表中选择一个视图，然后单击&#x200B;**编辑**&#x200B;图标![](assets/edit-icon.png)以编辑该视图。
 1. 在要合并的两列之间添加第三列。
 
    >[!TIP]
@@ -137,18 +139,16 @@ ht-degree: 0%
    >* 要合并的列必须彼此相邻。
    >* 必须单击要合并的第一列。
 
-1. 单击&#x200B;**切换到文本模式**，然后在步骤1中添加的中间列中添加以下代码：
+1. 单击&#x200B;**切换到文本模式** > **编辑文本模式**，然后在步骤1中添加的中间列中添加以下代码：
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. 单击第一列并单击&#x200B;**切换到文本模式**，然后将以下文本添加到该列：
+1. 单击第一列，然后单击&#x200B;**切换到文本模式** > **编辑文本模式**，然后将以下文本添加到该列：
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ ht-degree: 0%
 
    如果共享多列，请确保在包含共享信息的代码行中添加列号。
 
-   **示例：**&#x200B;以下是共享列的文本模式代码，该共享列包含项目名称、计划开始日期和项目所有者名称以及换行符。 共享列是项目视图的第二列。
+   **示例：**&#x200B;以下是共享列的文本模式代码，该列包含项目名称、计划开始日期和项目所有者名称以及换行符。 共享列是项目视图的第二列。
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. 单击&#x200B;**保存**，然后单击&#x200B;**保存视图**。
+1. 单击&#x200B;**完成**，然后单击&#x200B;**保存视图**。

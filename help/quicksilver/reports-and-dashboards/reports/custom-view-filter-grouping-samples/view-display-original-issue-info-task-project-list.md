@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '查看：在任务和项目列表中显示原始问题信息'
+title: '查看：在任务或项目列表中显示原始问题信息'
 description: 在将问题转换为列表中的任务和项目后，您可以在任务和项目列表的视图上显示原始问题中的信息。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-# 查看：显示任务和项目列表上的原始问题信息
+# 查看：在任务或项目列表中显示原始问题信息
 
 在将问题转换为列表中的任务和项目后，您可以在任务和项目列表的视图上显示原始问题的以下信息：
 

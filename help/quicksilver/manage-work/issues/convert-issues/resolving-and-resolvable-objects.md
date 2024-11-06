@@ -7,7 +7,7 @@ description: 可解析对象是一个问题，其解决方案与解析对象绑�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
    <td>✓ {\f13 }</td> 
   </tr> 
   <tr> 
-   <td><strong>原始问题名称、原始问题输入日期、创建者姓名</strong>：显示原始问题的名称和输入日期，以及在文本模式自定义视图中创建问题的用户的名称。<br>有关为项目、任务报告或列表构建文本模式自定义视图以显示有关原始问题的信息的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">视图：显示任务和项目列表上的原始问题信息</a>。<br></td> 
+   <td><strong>原始问题名称、原始问题输入日期、创建者姓名</strong>：显示原始问题的名称和输入日期，以及在文本模式自定义视图中创建问题的用户的名称。<br>有关为项目或任务报告或列表构建文本模式自定义视图以显示有关原始问题的信息的详细信息，请参阅<a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">视图：在任务或项目列表中显示原始问题信息</a>。<br></td> 
    <td> </td> 
    <td> ✓ {\f13 }</td> 
    <td> ✓ {\f13 }</td> 
