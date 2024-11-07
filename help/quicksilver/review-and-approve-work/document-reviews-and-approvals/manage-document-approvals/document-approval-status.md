@@ -6,9 +6,9 @@ description: 列出并解释文档决策状态
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: bb889a181babe8c8641775871292c9a083d92818
+source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 5%
 您可以直接在文档列表中查看文档状态：
 
 ![](assets/status-in-doc-list.png)
-
->[!IMPORTANT]
->
->在文档列表中查看文档状态的功能暂时不可用。
 
 
 可以使用以下状态：

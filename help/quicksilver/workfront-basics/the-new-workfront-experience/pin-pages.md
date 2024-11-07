@@ -5,10 +5,10 @@ description: 您可以固定最重要的工作 [!DNL Adobe Workfront] 以提高�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ ht-degree: 1%
 您可以更改固定页面的名称，使其对您更有意义。
 
 1. 将鼠标悬停在顶部导航中的固定页面或&#x200B;**[!UICONTROL 更多菜单]**&#x200B;上。
-1. 单击插针名称旁边的箭头，然后选择&#x200B;**[!UICONTROL 重命名插针]**。
+1. 单击pin名称旁边的“更多”图标![](assets/more-icon.png)并选择&#x200B;**[!UICONTROL 重命名pin]**。
 
-   ![重命名pin](assets/rename-remove-pin.png)
+   ![重命名pin](assets/pin-menu.png)
 
-1. 键入新的pin名称，然后单击复选标记图标或按Enter键。
+1. 键入新的pin名称，然后单击&#x200B;**保存**。
 
-   ![单击复选标记可重命名pin](assets/rename-pin-click-checkmark.png)
+   ![单击复选标记可重命名pin](assets/new-pin-name.png)
 
-   单击复选标记或按Enter键后，会出现一个小弹出窗口，持续几秒钟，允许您在保存大头针名称之前撤消更改。
 
 ## 重新排列固定页面
 
 您可以重新排列固定页面的显示顺序。
 
-1. 将鼠标悬停在顶部导航中的固定页面或&#x200B;**[!UICONTROL 更多菜单]**&#x200B;上。 当看到手形光标时，单击并将固定拖动到所需的顺序。
+1. 将鼠标悬停在要移动的固定页面上，然后单击&#x200B;**更多**&#x200B;图标。
+1. 选择&#x200B;**向左移动**&#x200B;或&#x200B;**向右移动**&#x200B;以移动您的pin。
+1. （可选）选择&#x200B;**移到前面**&#x200B;将大头针移到大头针栏的最右位置。
+
+   ![移动大头针](assets/pin-menu.png)
 
    您的更改会自动保存，并在您下次访问Workfront时记住这些更改。
 
 ## 删除固定页面
 
-1. 单击要取消固定的固定页面。
-1. 单击屏幕顶部的&#x200B;**[!UICONTROL 取消固定当前页面]**。
+1. 单击要删除的pin旁边的更多图标![](assets/more-icon.png)。
+1. 单击&#x200B;**删除pin**。
 
-   或
-
-   单击插针名称旁边的箭头，然后选择&#x200B;**[!UICONTROL 删除插针]**。
-
-   ![移除pin](assets/rename-remove-pin.png)
+   ![移除pin](assets/pin-menu.png)
 
    无法再从[!DNL Workfront]中任何页面的顶部访问该页面。
