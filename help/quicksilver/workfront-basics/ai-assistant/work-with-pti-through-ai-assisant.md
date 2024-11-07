@@ -4,9 +4,9 @@ content-type: reference
 description: 您可以使用“摘要”此功能快速摘要工作项和文档。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 7fdfc7827fd21037aaaaa6df1cca543c1cd9e264
+source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -31,29 +31,27 @@ AI助手可以帮助您在Workfront中查找项目、任务和问题。
 1. 在AI助手面板中查看响应。
 1. （可选）要转到工作项，请单击AI助手面板中的链接。
 
-<!--
+## 创建工作项
 
-## Create a work item
+1. 单击屏幕右上角附近的&#x200B;**AI助手**&#x200B;图标![AI助手图标](assets/ai-assistant-icon.png)。
+1. 输入提示，例如
 
-1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
-1. Enter a prompt such as 
+   * 创建项目“春季营销活动”
+   * 将问题“UI错误”添加到项目“新UI”
+   * 在项目“春季营销活动”中创建“照片拍摄”任务
 
-   * Create project "Spring campaign"
-   * Add issue "UI Bug" to project "New UI" 
-   * Create "photoshoot" task in project "Spring campaign"
+1. 检查AI助手响应以确保它正在执行所需的操作
+1. （视情况而定）如果响应描述了正确的操作，请单击&#x200B;**是**。
 
-1. Check the AI Assistant response to ensure that it is taking the desired action
-1. (Conditional) If the response describes the correct action, click **Yes**.
-
-   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
-1. (Conditional) To cancel the creation of the new item, click **No**.
-1. (Optional) To go to the work item, click the link in the AI Assistant panel.
+   AI Assistant可能需要一些时间来创建该项目，具体取决于提示的大小或复杂程度以及它需要搜索的记录数。
+1. （视情况而定）要取消新项目的创建，请单击&#x200B;**否**。
+1. （可选）要转到工作项，请单击AI助手面板中的链接。
 
 >[!NOTE]
 >
->We recommend checking the new item to ensure that it was created as expected.
+>我们建议检查新项目，以确保已按预期创建它。
 
--->
+
 
 <!--
 
