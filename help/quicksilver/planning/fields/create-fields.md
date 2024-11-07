@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
+source-wordcount: '3847'
 ht-degree: 1%
 
 ---
@@ -383,21 +383,20 @@ OLD:
 
      >[!NOTE]
      >
-     >    如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
+     >如果选择“允许负数”，并且负值存储在附加字段的记录中，则以后不能再取消选择该设置。
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **显示为**：从下拉菜单中，选择您希望百分比值在表视图中的显示方式。 从以下选项中选择：
+      * **数字**：百分比值显示为一个数字，后跟百分比符号。
+      * **栏**：百分比值在百分比数字旁边显示为栏。 栏的填充颜色表示百分比值。
+      * **Circle**：百分比值在百分比数字旁边显示为圆形的轮廓。 圆轮廓的填充颜色指示百分比值。
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* 您在“显示为”字段中所做的选择仅适用于表格视图中可见的百分比值。 该字段的百分比值显示为一个数字，后跟Workfront Planning中其他位置的百分比符号。 当百分比类型字段在其他记录的表视图中显示为查找字段时，这也适用于百分比类型字段。
+   >* 以后编辑字段时，可以更改“显示为选定内容”。
+   </div>
 
 1. 单击&#x200B;**创建**。
 
