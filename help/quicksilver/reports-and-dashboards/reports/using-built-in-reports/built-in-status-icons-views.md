@@ -6,18 +6,18 @@ description: 可在视图中添加内置的状态图标字段作为列，以增�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 2%
+source-wordcount: '1213'
+ht-degree: 3%
 
 ---
 
 # 视图中的内置状态图标
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 可在视图中添加内置的状态图标字段作为列，以增强关于对象关键点的可见性。 通过使用状态图标，您可以一眼看出是否存在以下情况：
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 * 对象具有与其关联的其他注释
 * 费用是应计费的或应偿还的
 * 任务位于关键路径上
-* 用户属于公司、团队或位于其他时区
+* 用户属于公司、团队或个人位于其他时区
 
 请考虑以下事项：
 
@@ -45,6 +45,8 @@ ht-degree: 2%
 
 ## 访问要求
 
++++ 展开以查看本文中各项功能的访问要求。
+
 您必须具有以下权限才能执行本文中的步骤：
 
 <table style="table-layout:auto"> 
@@ -57,24 +59,31 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>请求或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> </td> 
-   <td> </td> 
-  </tr> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">访问级别配置*</td> 
-   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以将列添加到报告中</p> <p>注意：如果您仍然没有访问权限，请咨询Workfront管理员是否对您的访问级别设置了其他限制。 有关Workfront管理员如何修改您的访问级别的信息，请参阅<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">创建或修改自定义访问级别</a>。</p> </td> 
+   <td> <p>编辑对筛选器、视图、分组的访问权限</p> <p>编辑对报告、功能板和日历的访问权限以将列添加到报告中</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">对象权限</td> 
-   <td> <p>管理现有视图的权限</p> <p>管理报表的权限以向其添加列</p> <p>有关请求其他访问权限的信息，请参阅<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">请求访问对象</a>。</p> </td> 
+   <td> <p>管理现有视图的权限</p> <p>管理报表的权限以向其添加列</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;要了解您拥有什么计划、许可证类型或访问权限，请与Workfront管理员联系。
+*有关信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
++++
 
 ## 将状态图标字段添加到视图
 

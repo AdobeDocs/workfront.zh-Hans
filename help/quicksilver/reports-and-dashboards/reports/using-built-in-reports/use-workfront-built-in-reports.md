@@ -6,16 +6,16 @@ description: Adobe Workfront提供了大量可供使用的内置报告。 Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 10%
 
 ---
 
 # 使用Adobe Workfront内置报告
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront提供了大量可使用的内置报告。
 
@@ -27,6 +27,8 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
 
 +++ 展开以查看本文中各项功能的访问要求。
 
+您必须具有以下权限才能执行本文中的步骤：
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Workfront管理员可以隐藏内置报告，这样用户就无权访问它们�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront许可证*</td> 
-   <td> <p>新文档：参与者或更高版本</p>  
-   <p>当前：请求或更高版本</p> </td> 
+   <td> 
+      <p>新增：</p>
+         <ul>
+         <li><p>参与者或更高版本</p></li>
+         </ul>
+      <p>当前：</p>
+         <ul>
+         <li><p>请求或更高版本</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">访问级别配置</td> 

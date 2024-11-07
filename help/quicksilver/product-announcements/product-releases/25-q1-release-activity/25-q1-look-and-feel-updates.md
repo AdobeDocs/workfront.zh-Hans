@@ -4,9 +4,9 @@ description: 在2025年第一季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,39 @@ ht-degree: 0%
 本页介绍在2025年第一季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2025年第一季度版本的所有可用更改列表，请参阅[2025年第一季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 主要和次要导航区域的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年11月6日；适用于所有客户的生产版本： 2024年11月6日
+
+我们已升级Workfront主导航和辅助导航区域以提高性能。 外观更改很小。
+
+最显着的变化如下：
+
+* “收藏夹”和“最近访问”下拉屏幕中不再有“关闭”按钮。 您只需单击离开屏幕，或按键盘上的ESC键将其关闭即可。
+* 无法再拖放固定页面来排列它们。 相反，有一个下拉菜单，其中包含允许您移动固定页面的按钮。
+
+## 汇率列表的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年11月4日；用于快速发布的生产版本：用于24.12版本（2024年12月）；用于季度发布的生产版本：用于25.1版本（2025年1月）
+
+我们将在Workfront的“设置”区域引入新的列表格式，“汇率”列表是使用此表式格式的第一页。 添加新汇率和搜索汇率的功能没有改变。
+
+有关汇率的信息，请参阅[设置汇率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
+
+## 导出数据(Kick-Starts)页面的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年11月4日；用于快速发布的生产版本：用于24.12版本（2024年12月）；用于季度发布的生产版本：用于25.1版本（2025年1月）
+
+我们更新了“设置”区域中的“导出数据(Kick-Starts)”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
+
+有关信息，请参阅[通过Kick-Starts从Workfront导出数据](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
 ## Workfront导航栏的外观更新
 
@@ -34,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->预览版本： 2024年10月24日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2024年1月）
+>预览版本： 2024年10月24日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
 
 “将更新发送到用户”窗口已更新为更现代的设计，与Workfront的其他区域一致。
 
