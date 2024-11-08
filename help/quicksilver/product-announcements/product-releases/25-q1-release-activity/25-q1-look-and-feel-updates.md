@@ -4,9 +4,10 @@ description: 在2025年第一季度发布时间范围内的外观更新
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ ht-degree: 0%
 我们更新了“设置”区域中的“导出数据(Kick-Starts)”页面，更新后的设计更加现代化，与Workfront的其他区域保持一致。
 
 有关信息，请参阅[通过Kick-Starts从Workfront导出数据](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
-
-## Workfront导航栏的外观更新
-
->[!NOTE]
->
->适用于所有客户的生产版本： 24.11版本（2024年11月14日）之前
-
-我们已升级Workfront导航栏以提高其性能。 外观更改很小。
-
-最显着的变化如下：
-
-* “收藏夹”和“最近访问”下拉屏幕中不再有“关闭”按钮。 您只需单击离开屏幕，或按键盘上的ESC键将其关闭即可。
-* 无法再拖放固定页面来排列它们。 相反，有一个下拉菜单，其中包含允许您移动固定页面的按钮。
 
 ## “将更新发送到用户”窗口的外观更新
 
