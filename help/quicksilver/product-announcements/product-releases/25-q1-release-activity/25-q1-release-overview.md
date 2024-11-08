@@ -4,9 +4,10 @@ description: 本页介绍了2025年第一季度版本中包含的功能。 这�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -237,7 +238,7 @@ ht-degree: 0%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI助手现在可以处理项目、任务和问题</a></p>
-                <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准（例如“查找本周到期的任务”）查找项目、任务和问题。</p>
+                <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI Assistant可以根据您指定的标准查找或创建项目、任务和问题。</p>
             </td>
             <td><p><b>在以下日期可用：</b></p>
                 <ul>
