@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ ht-degree: 0%
 >
 >预览版本： 2024年10月31日；用于快速发布的生产：用于24.11版（2024年11月14日）；用于季度发布的生产：用于25.1版（2025年1月）
 
-为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以：
-
-* 根据指定的条件（例如“查找本周到期的任务”）查找项目、任务和问题。
-* 根据您提供的信息创建项目、任务和问题，例如“创建名为‘在项目Spring Campaign中修订验证’的任务”。
-
+为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准（例如“查找本周到期的任务”）查找项目、任务和问题。
 以前，AI助手无法直接处理项目、任务和问题。
 
 您的Workfront管理员可以为您的组织启用或禁用AI助手。 AI助手适用于Select、Prime和Ultimate计划的实例。

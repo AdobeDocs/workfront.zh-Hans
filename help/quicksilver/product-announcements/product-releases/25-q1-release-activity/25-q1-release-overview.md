@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -238,7 +238,7 @@ ht-degree: 0%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI助手现在可以处理项目、任务和问题</a></p>
-                <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI Assistant可以根据您指定的标准查找或创建项目、任务和问题。</p>
+                <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准找到项目、任务和问题。</p>
             </td>
             <td><p><b>在以下日期可用：</b></p>
                 <ul>
