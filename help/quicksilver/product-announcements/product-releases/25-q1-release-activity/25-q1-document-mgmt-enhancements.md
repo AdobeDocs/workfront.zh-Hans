@@ -4,9 +4,10 @@ description: 2025年第一季度文档管理增强功能
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ ht-degree: 0%
 >
 >预览版本： 2024年11月7日；用于快速发布的生产版本：用于24.11版本（2024年11月14日）；用于季度发布的生产版本：用于25.1版本（2025年1月）
 
-当向具有未完成审批的文档中添加新版本时，先前版本上的审批现在显示为“已撤回”。 先前的批准流程将关闭，即使一些参与者尚未做出决定。
+将新版本添加到具有待审批的文档时，对先前版本的审批现在将显示为“已撤回”，这表示由于添加新版本，先前审批流程已关闭。
+
+有关详细信息，请参阅[上传新文档版本并请求审批](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)。

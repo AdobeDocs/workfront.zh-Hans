@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">可用于文档版本审批的新撤回状态</a></p>
-                <p>当向具有未完成审批的文档中添加新版本时，先前版本上的审批现在显示为“已撤回”。 先前的批准流程将关闭，即使一些参与者尚未做出决定。</p>
+                <p>将新版本添加到具有待审批的文档时，对先前版本的审批现在将显示为“已撤回”，这表示由于添加新版本，先前审批流程已关闭。</p>
             </td>
             <td><p><b>在以下日期可用：</b></p>
                 <ul>

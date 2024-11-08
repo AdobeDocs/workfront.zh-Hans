@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文档、教程和其他资源，了解如何在组织中实施和有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
+source-git-commit: 974af7c2dd4a54deb176aa647c033439def2ff0e
 workflow-type: tm+mt
-source-wordcount: '14567'
+source-wordcount: '14576'
 ht-degree: 2%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 2%
       * [优先级：文章索引](workfront-basics/priorities/priorities-toc.md)
       * [优先级：即将发布的版本](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [优先级入门](workfront-basics/priorities/get-started-with-priorities.md)
+      * [在“优先级”工作列表中查看项目和任务详细信息](workfront-basics/priorities/view-task-project-details.md)
       * [在“优先级”中过滤和分组您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [自定义工作列表列](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [优先处理重要工作项目](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
