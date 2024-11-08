@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 1%
@@ -334,7 +334,7 @@ OLD:
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
-   * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--update this setting name - submitted bug for it to be changed-->
+      * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--update this setting name - submitted bug for it to be changed-->
 
      从以下选项中选择：
 
@@ -610,6 +610,7 @@ OLD:
       * **长**：2023年5月16日
       * **欧洲**： 16/05/2023
       * **ISO**： 2023-05-16
+
    * **包含时间字段**：如果要包含时间戳，请选择此选项。 默认情况下，该选项处于未选中状态。<!--submitted a UI text change for this - check the UI-->
 
      从以下选项中选择：
