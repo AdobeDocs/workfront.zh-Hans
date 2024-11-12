@@ -8,9 +8,9 @@ description: 除了Adobe Workfront许可证之外，Adobe Workfront Fusion还需
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
+source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 0%
 ## 文件
 
 * Fusion的文件总处理容量为&#x200B;**1 GB**。 该限制基于总内存成本。 每项操作都会产生该成本。 如果下载并上传了一个400 MB的文件，则文件容量的总成本将为800 MB。
+* Workfront Ultimate计划中的组织有权访问超过1 GB的增加的文件处理量。 Fusion平台最多可支持单个操作（例如上传文件）高达15GB的单个文件，但还有其他因素会影响数据传输。 单个操作的文件大小限制取决于Fusion连接到的Web服务。 数据传输是单次执行的总体处理。 这意味着，单次执行中的多个操作会对总数据传输做出贡献。 Fusion将处理文件，直到达到40分钟的执行限制。
+
+  有关详细信息，请参阅[在Adobe Workfront Fusion中使用大文件](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md)。
+
 
 ## 服务器内存使用率
 
