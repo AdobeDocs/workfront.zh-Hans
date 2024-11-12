@@ -7,9 +7,9 @@ description: 您可以将数组映射到Adobe Workfront Fusion中的模块字段
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -66,20 +66,122 @@ ht-degree: 0%
 
 有关[!DNL Adobe Workfront Fusion]许可证的信息，请参阅[[!DNL Adobe Workfront Fusion] 许可证](../../workfront-fusion/get-started/license-automation-vs-integration.md)。
 
-## 映射数组
 
-1. 单击位于目标字段中的按钮。
 
-   >[!INFO]
-   >
-   >  **示例：**&#x200B;对于上面的示例，您可以单击电子邮件的[!UICONTROL 添加附件]按钮。
-   >
-   >![](assets/add-an-attachment-button-350x152.jpg)
+## 映射整个数组
 
-1. 在显示的框中，输入项目。
+1. 在要将数组映射到的模块中，单击要映射数组的字段。 这是数组映射到的字段。
+
+1. 在显示的框中，映射项目。
 
    利用面板，可使用与映射任何其他类型项目相同的方式映射字段。 如果您不想单独填写每个项，但希望将另一个数组映射到目标字段，请使用[!UICONTROL 映射]按钮。 在这种情况下，请确保两个阵列（源阵列和目标阵列）具有相同的结构。
 
    可以将任意数量的项添加到数组。
 
-您可以使用迭代器将数组划分为单独的包。 有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)中的[[!UICONTROL 迭代器]模块。
+您可以使用迭代器将数组划分为单独的包。 有关详细信息，请参阅 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/modules/iterator-module.md)中的[[!UICONTROL 迭代器]模块。
+
+## 将项目映射到新数组
+
+Workfront Fusion中的某些字段允许您将元素映射到数组中。 例如，您可以在Workfront展示板>添加清单项目模块中创建一系列清单项目。 运行模块时，所有清单项目都会添加到信息卡中。
+
+任何显示“添加项”的模块字段都会创建一个数组。
+
+![添加项](assets/add-item.png)
+
+要将元素添加到数组，请执行以下操作：
+
+1. 单击&#x200B;**添加项**
+1. 在打开的面板中，输入有关项目的详细信息。
+1. 单击&#x200B;**添加**。
+1. （可选）对要添加到数组的每个元素重复步骤1-3。
+
+## 映射数组元素
+
+
+### 按数字映射数组元素
+
+数组元素在数组名称后方括号中显示为一个数字。 您可以使用此索引号将数组的单个元素映射到字段中。
+
+![](assets/map-array-1st-element.png)
+
+>[!NOTE]
+>
+>Workfront Fusion中的数组索引从1开始。
+
+要映射数组元素，请执行以下操作：
+
+1. 单击要将元素映射到其中的字段。
+
+   将打开映射面板。
+
+1. 找到包含要映射的元素的数组。
+1. 单击阵列旁边的下拉箭头。
+1. 单击要映射的元素。
+
+   元素已映射，索引为1。 这将映射数组中的第一个元素。
+
+1. 要映射数组的其他元素，请单击[1]并输入要映射的数组元素的索引号。
+
+   ![](assets/access-another-element.png)
+
+### 使用给定键映射数组的元素
+
+某些数组包含具有键值项的集合，例如元数据、属性等。 要使用其中一个值，您可以按元素给定的键值查找元素并从值项获取相应的值。 我们建议使用采用`map()`和`get()`函数组合的公式。
+
+
+
+>[!BEGINSHADEBOX]
+
+以下示例显示了[!DNL Jira]应用程序的输出。
+
+![](assets/output-of-jira-app-350x100.png)
+
+此示例从ID为10108的特定附件的附件数组中获取文件名。
+
+此示例生成以下输出：
+
+![](assets/output-from-jira-350x261.png)
+
+公式解释如下：
+
+* `map`
+
+   1. `map()`函数的第一个参数是整个数组项。
+   1. 第二个参数是值项的原始名称。 要获取原始名称，请将鼠标悬停在[!UICONTROL 映射]面板中的项上：
+
+      ![](assets/obtain-raw-name-350x124.png)
+
+      >[!NOTE]
+      >
+      >所有参数均区分大小写。 即使在此特定示例中，项目的标签与其原始名称不同（仅在大写中不同），仍需要使用原始名称。
+
+   1. 第三个参数是关键项的原始名称：
+
+      ![](assets/3rd-parameter-350x166.png)
+
+   1. 第四个参数是给定的键值。
+
+  由于`map()`函数返回一个数组（因为给定键值可能有更多元素），因此必须应用`get()`函数以获取其第一个元素：
+
+* `get`
+
+   1. `get()`函数的第一个参数是`map()`函数的结果。
+
+   1. 第二个参数是元素的索引。 在此示例中，索引为`1`。
+
+此示例生成以下输出：
+
+![](assets/output-from-jira-350x261.png)
+
+>[!ENDSHADEBOX]
+
+有关`map()`函数的更多信息，请参阅[数组函数](/help/quicksilver/workfront-fusion/functions/array-functions.md)。
+
+有关`get()`函数的更多信息，请参阅[常规函数](/help/quicksilver/workfront-fusion/functions/general-functions.md)。
+
+## 将数组元素转换为一系列包
+
+可以使用[!UICONTROL 迭代器]模块将数组转换为一系列包。 有关详细信息，请参阅[[!UICONTROL 迭代器]模块](/help/quicksilver/workfront-fusion/modules/iterator-module.md)。
+
+![](assets/series-of-bundles.png)
+
