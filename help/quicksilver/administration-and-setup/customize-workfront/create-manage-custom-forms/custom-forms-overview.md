@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ Workfront为每种对象类型提供了许多内置字段。
 * 段落
 * 带格式文本
 * 单选下拉菜单
-* 多选下拉列表
+* 多选下拉框
 * 外部查找
 * 本机字段引用
 * 键盘缓冲

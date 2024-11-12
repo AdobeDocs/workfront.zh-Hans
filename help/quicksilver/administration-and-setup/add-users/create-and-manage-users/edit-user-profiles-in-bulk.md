@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2210'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 0%
        <p>有关资源池的详细信息，请参阅<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">资源池概述</a>。</p> </li> 
        <li><b>每小时成本</b>：用户每小时的成本金额。 </li> 
        <li><b>按小时计费</b>：用户每小时的计费金额。</li> 
-       <li><b>自定义Forms</b>：将现有用户自定义表单与用户关联。 您必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。</li> 
+       <li><b>自定义Forms</b>：将现有用户自定义表单与用户关联。 您必须先创建自定义表单，然后才能将其与用户关联。 列表中仅显示活动的自定义表单。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</li> 
        <li><b>注释</b>：在提供的字段中输入注释。 所有选定用户都将收到应用程序内通知以及包含您评论的电子邮件通知。 该注释显示在用户配置文件的更新选项卡中。</li> 
        </ul> </td> 
      </tr> 

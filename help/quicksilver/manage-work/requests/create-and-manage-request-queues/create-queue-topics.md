@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自定义表单</strong> </td> 
-      <td>选择要与队列主题关联的任何自定义表单。 必须先创建问题的自定义表单，然后才能将问题与队列主题关联。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。</td> 
+      <td>选择要与队列主题关联的任何自定义表单。 必须先创建问题的自定义表单，然后才能将问题与队列主题关联。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>默认批准</strong></td> 

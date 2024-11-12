@@ -5,9 +5,9 @@ description: 您可以查看 [!DNL Adobe Workfront] 中的对象列表以获取�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -622,7 +622,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>无法使用富文本格式内联编辑自定义字段。</td> 
-   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。</p> </td> 
+   <td> <p>可以将带有格式的自定义字段中的文本配置为允许使用粗体、斜体、下划线、项目符号、编号、超链接和块引号。</p> <p>有关详细信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单/a&gt;。</p> </td> 
   </tr> 
   <tr> 
    <td>条件格式可以更改列表中链接的文本颜色</td> 

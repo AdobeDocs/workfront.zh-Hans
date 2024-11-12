@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">自定义Forms部分</td> 
-      <td> <p>如果有一些要添加到公司的字段在Workfront中不可用，则可以构建自定义表单并将其与公司关联。 您可以从下拉菜单中选择此表单，以将其附加到您的公司。 下拉菜单中仅列出活动的公司。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">使用表单设计器设计表单</a>。 </p> </td> 
+      <td> <p>如果有一些要添加到公司的字段在Workfront中不可用，则可以构建自定义表单并将其与公司关联。 您可以从下拉菜单中选择此表单，以将其附加到您的公司。 下拉菜单中仅列出活动的公司。 有关创建自定义表单的信息，请参阅<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">创建自定义表单</a>。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
