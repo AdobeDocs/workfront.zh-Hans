@@ -8,7 +8,7 @@ description: ' [!DNL Adobe Workfront Fusion] 的作用是使您的流程自动�
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -78,7 +78,9 @@ Workfront Fusion还提供支持场景的功能，例如场景创建模板、执�
 
 * 有关Workfront Fusion培训资源，请参阅[Workfront Fusion培训概述](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy)。
 
+
 * 有关方案的详细信息，请参阅[方案概述](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md)。
+
 
 * 要开始创建实践方案，请参阅[创建实践方案](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)。
 
