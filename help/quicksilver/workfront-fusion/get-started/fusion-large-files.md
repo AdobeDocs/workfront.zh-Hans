@@ -6,18 +6,21 @@ title: 在Adobe Workfront Fusion中使用大文件
 description: Workfront和HTTP连接器当前支持大文件。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Workfront Fusion中使用大文件
 
-Workfront Fusion中现在提供了增强的数据传输功能，支持在场景中处理显着更大的文件。
+>[!IMPORTANT]
+>
+>大文件功能仅供Workfront Ultimate客户使用，并且是分阶段推出的。 到2025年1月，所有具有Workfront Ultimate计划的Fusion组织都将拥有大文件功能。
 
-大文件功能仅适用于Workfront Ultimate客户。
+Workfront Fusion中现在提供了增强的数据传输功能，支持在场景中处理显着更大的文件。
 
 要处理较大的文件，必须更新方案。
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
