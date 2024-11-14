@@ -5,13 +5,13 @@ description: 查看有关即将发布的优先级版本的信息
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # 优先级：即将发布的版本
 
@@ -21,8 +21,8 @@ ht-degree: 0%
   <tr>
     <td><strong>即将推出</strong>
     <ul>
-    <li><strong>从工作列表访问项目详细信息</strong>：“项目详细信息”选项卡将显示项目的详细信息、注释和文档。</li>
-   <li><strong>在“文档”选项卡中查看文档</strong>：“文档”选项卡将允许您查看上载到任务和问题的文档。 您将能够查看预览并在文档上留下注释。 </li>
+
+<li><strong>在“文档”选项卡中查看文档</strong>：“文档”选项卡将允许您查看上载到任务和问题的文档。 您将能够查看预览并在文档上留下注释。 </li>
     </ul>
     </td>
   </tr>
