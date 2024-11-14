@@ -7,9 +7,9 @@ description: 通过Adobe Workfront，您可以快速轻松地将与任何工作�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront许可证</td> 
    <td>
-   <p>新增：浅色或更高</p>
-   <p>或</p>
-   <p>当前：审阅或更高版本</p>
-   </td>
+   <p>若要从用户的个人资料页面发送消息，您必须具有：<br>
+   新建：浅色或更高<br>
+   或<br>
+   当前：审阅或更高版本</p>
+   <p>若要从用户列表发送消息，您必须具有：<br>
+   新建： Standard<br>
+   或<br>
+   当前：工作或更高</p></td>
   </tr> 
  </tbody> 
 </table>
