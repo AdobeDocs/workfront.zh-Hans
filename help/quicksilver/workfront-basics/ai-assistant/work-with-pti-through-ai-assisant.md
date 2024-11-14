@@ -5,19 +5,48 @@ description: 您可以使用“摘要”此功能快速摘要工作项和文档�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # 使用AI助手处理项目、任务和问题
 
-<span class="preview">此页面上的信息引用了尚未公开的功能。 它仅在“预览Sandbox”环境中可用。</span>
+<span class="preview">此页面上高亮显示的信息引用了尚未公开的功能。 它在“预览”环境中为所有客户提供，在“生产”环境中为启用每月发布的客户提供。</span>
+
+<span class="preview">有关快速发布的信息，请参阅[为您的组织启用或禁用快速发布](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 
 AI助手可以帮助您在Workfront中查找项目、任务和问题。
+
+## 访问要求
+
+您必须具有以下权限才能执行本文中的步骤：
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront计划</td> 
+   <td><p>新建：任何</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront许可证</td> 
+   <td><p>新增：标准</p>
+       <p>或</p>
+       <p>当前：不可用</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+有关此表中信息的更多详细信息，请参阅Workfront文档中的[访问要求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
+
 
 ## 查找工作项
 
