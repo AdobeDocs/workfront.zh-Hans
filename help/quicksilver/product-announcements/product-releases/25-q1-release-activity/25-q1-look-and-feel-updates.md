@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 本页介绍在2025年第一季度发布时间范围内对Adobe Workfront应用程序各个区域的外观和感觉所做的细微更新。
 
 有关2025年第一季度版本的所有可用更改列表，请参阅[2025年第一季度版本概述](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)。
+
+## 文档集成的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年11月14日；适用于所有客户的生产版本： 2024年11月14日
+
+我们对您在设置中配置自定义集成的区域（设置>文档>自定义集成）进行了性能升级。 此升级包括对该区域的细微视觉变化。 功能未发生更改。
+
+## 公司成员和公司记帐费率页面的外观更新
+
+>[!NOTE]
+>
+>预览版本： 2024年11月4日；用于快速发布的生产版本：用于24.12版本（2024年12月）；用于季度发布的生产版本：用于25.1版本（2025年1月）
+
+我们更新了“公司会员费率”和“公司记帐费率”页面，更新后的设计更加现代化，与Workfront的其他部分保持一致。 通过设置>公司>选择公司名称>在左侧面板中选择公司成员来访问公司成员。 公司记帐费率可通过以下方式访问：设置>公司>选择公司名称>在左侧面板中选择记帐费率。
+
+有关信息，请参阅[创建和编辑公司](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)和[管理公司成员资格](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)。
 
 ## 主要和次要导航区域的外观更新
 

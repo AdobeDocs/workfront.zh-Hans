@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -45,37 +45,32 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">功能</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">发行日期</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">“移至”图标已添加到自定义字段</a></p>
-                <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本： 2024年10月29日</p>
-                    </li>
-                    <li>
-                        <p>用于快速发布的生产：用于24.11版（2024年11月14日）</p>
-                    </li>
-                    <li>
-                        <p>适用于所有客户的生产版本：使用25.1版本（2025年1月）</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            已将“移至”图标添加到自定义字段</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
+            <p>当自定义表单包含多个具有许多字段的分区时，可能很难通过拖放方式将字段从一个分区移动到另一个分区。 每个字段都添加了“移至”图标，允许您选择字段所在的部分。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年10月29日</li>
+                <li>用于快速发布的生产：用于24.11版（2024年11月14日）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 <!--### Boards enhancements
@@ -83,37 +78,31 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: October 31, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Change the owner of a board</a></p>
+            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: October 31, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>-->
 
 ### 文档管理增强功能
@@ -121,37 +110,32 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">功能</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">发行日期</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">可用于文档版本审批的新撤回状态</a></p>
-                <p>将新版本添加到具有待审批的文档时，对先前版本的审批现在将显示为“已撤回”，这表示由于添加新版本，先前审批流程已关闭。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本： 2024年11月7日</p>
-                    </li>
-                    <li>
-                        <p>用于快速发布的生产：用于24.11版（2024年11月14日）</p>
-                    </li>
-                    <li>
-                        <p>适用于所有客户的生产版本：使用25.1版本（2025年1月）</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            可用于文档版本审批的新提取状态</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
+            <p>将新版本添加到具有待审批的文档时，对先前版本的审批现在将显示为“已撤回”，这表示由于添加新版本，先前审批流程已关闭。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年11月7日</li>
+                <li>用于快速发布的生产：用于24.11版（2024年11月14日）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ### 主页增强功能
@@ -159,37 +143,53 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">功能</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">发行日期</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">在优先级中查看项目详细信息</a></p>
-                <p>您现在可以在“优先级”的工作列表中查看项目详细信息和注释。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本： 2024年11月6日</p>
-                    </li>
-                    <li>
-                        <p>用于快速发布的生产：用于24.11版（2024年11月14日）</p>
-                    </li>
-                    <li>
-                        <p>适用于所有客户的生产版本：使用25.1版本（2025年1月）</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            更新了“优先级”中“我的焦点”列中的选项</a></p>
+            [！BADGE In Production ]{type=Informational}
+            <p>我们更新了“我的焦点”列中的选项，以帮助您以更直观的方式排定工作的优先级并对工作进行排序。 新标签包括</p>
+            <ul>
+                <li>紧急</li>
+                <li>高</li>
+                <li>正常</li>
+                <li>低</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年11月14日</li>
+                <li><span class="preview">适用于所有客户的生产版本： 2024年11月14日</span></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            在优先级中查看项目详细信息</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
+            <p>您现在可以在“优先级”的工作列表中查看项目详细信息和注释。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年11月6日</li>
+                <li>用于快速发布的生产：用于24.11版（2024年11月14日）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ## 校对增强功能
@@ -197,36 +197,32 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">功能</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">发行日期</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">新的交互式审阅浏览器扩展已推出测试版</a></p>
-                [！BADGE In Production ]{type=Informational}
-                <p>我们将引入一个新的浏览器扩展Adobe Workfront审阅工具，以取代用于审阅交互式ZIP内容的旧版浏览器扩展。 新的Adobe Workfront审核工具支持跨所有常见浏览器审核ZIP内容。</p>
-                <p>旧版浏览器扩展将于2025年2月28日删除。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本： 2024年11月7日</p>
-                    </li>
-                    <li>
-                        <p class="preview">适用于所有客户的生产版本： 2024年11月7日</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">功能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">发行日期</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            测试版中提供了用于交互式审阅的新浏览器扩展</a></p>
+            [！BADGE In Production ]{type=Informational}
+            <p>我们将引入一个新的浏览器扩展Adobe Workfront审阅工具，以取代用于审阅交互式ZIP内容的旧版浏览器扩展。 新的Adobe Workfront审核工具支持跨所有常见浏览器审核ZIP内容。</p>
+            <p>旧版浏览器扩展将于2025年2月28日删除。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年11月7日</li>
+                <li><span class="preview">适用于所有客户的生产版本： 2024年11月7日</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ### 其他增强功能
@@ -234,43 +230,53 @@ ht-degree: 0%
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI助手现在可以处理项目、任务和问题</a></p>
-                <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准找到项目、任务和问题。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本： 2024年10月31日</p>
-                    </li>
-                    <li>
-                        <p>用于快速发布的生产：用于24.11版（2024年11月14日）</p>
-                    </li>
-                    <li>
-                        <p>适用于所有客户的生产版本：使用25.1版本（2025年1月）</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">在2025年第一季度期间的外观更新</a></p>
-                <p>在2025年第一季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
-            </td>
-            <td><p><b>在以下日期可用：</b></p>
-                <ul>
-                    <li>
-                        <p>预览版本：在整个2025年第一季度发布时间范围内</p>
-                    </li>
-                    <li>
-                        <p><span class="preview">生产版本：查看特定日期的发行说明</span></p>
-                    </li>
-                </ul>
-            </td>
-        </tr>                            
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            自定义表单中的部分现在可折叠和展开</a></p>
+            <p>将具有多个分区的自定义表单附加到对象时，您现在可以折叠和展开表单顶部默认分区以外的所有分区。 管理员也可以在表单设计器中预览表单时查看此功能。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年11月11日</li>
+                <li>快速发布生产：通过24.12版本（2024年12月）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            AI助手现在可以处理项目、任务和问题</a></p>
+            [！BADGE In Production for Fast Release ]{type=Positive}
+            <p>为了更便于在Workfront中管理您的工作项，我们更新了AI助手，以处理项目、任务和问题。 现在，AI助手可以根据您指定的标准找到项目、任务和问题。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本： 2024年10月31日</li>
+                <li>用于快速发布的生产：用于24.11版（2024年11月14日）</li>
+                <li>适用于所有客户的生产版本：使用25.1版本（2025年1月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            在2025年第一季度期间的外观更新</a></p>
+            <p>在2025年第一季度内，对Adobe Workfront应用程序各个区域的外观和工作方式进行了小幅更新。 查看各个发行说明以了解具体发行日期。</p>
+        </td>
+        <td>
+            <p><b>在以下日期可用：</b></p>
+            <ul>
+                <li>预览版本：在整个2025年第一季度发布时间范围内</li>
+                <li><span class="preview">生产版本：查看特定日期的发行说明</span></li>
+            </ul>
+        </td>
+    </tr>                            
+</tbody>
 </table>
 
 <!--
