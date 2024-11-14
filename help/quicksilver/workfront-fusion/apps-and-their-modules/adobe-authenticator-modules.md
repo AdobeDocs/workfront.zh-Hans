@@ -9,9 +9,9 @@ description: 借助Adobe Authenticator模块，您可以使用单个连接通过
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
@@ -180,13 +180,14 @@ Adobe Authenticator连接可连接到Adobe Developer Console上的单个项目�
 
 ## 模块
 
+* [进行自定义API调用](#make-a-custom-api-call)
+* [进行自定义API调用（旧版）](#make-a-custom-api-call-legacy)
+
 ### 进行自定义API调用
 
-通过此操作模块，可调用任何AdobeAPI。
+通过此操作模块，可调用任何AdobeAPI。 它支持大型文件，而不是纯文本正文。
 
->[!TIP]
->
->您必须为要连接的API输入整个URL。 此模块不接受相对URL。
+此模块已于2024年11月14日发布。 在此日期之前配置的任何Adobe Authenticator >进行自定义API调用都不会处理大型文件，现在被视为进行自定义API调用（旧版）模块。
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Adobe Authenticator连接可连接到Adobe Developer Console上的单个项目�
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[！UICONTROL基本URL]</p>
+      </td>
+      <td>
+        <p>输入要连接的API点的基本URL。</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[！UICONTROL URL]</p>
       </td>
       <td>
-        <p>输入要连接到的API点的整个URL。</p>
+        <p>输入相对于基本URL的路径。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL方法]</p>
+   <td> <p>选择配置API调用所需的HTTP请求方法。 有关详细信息，请参阅[!DNL Adobe Workfront Fusion]</a>中的<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP请求方法。</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL Headers]</td>
+      <td>
+        <p>以标准JSON对象的形式添加请求的标头。</p>
+        <p>例如， <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion会自动添加授权标头。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL查询字符串]  </td>
+      <td>
+        <p>输入请求查询字符串。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL主体类型]</td>
+   <td> 选择此API请求的主体类型：
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>原始</li>
+   <li>多部分/表单数据</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[！UICONTROL字段]  </td>
+      <td>
+        <p>对于要添加到APU请求的每个文件，单击<b>添加项</b>并输入文件的文本（用于原始数据），或输入键<code>uploadedFile</code>并映射文件数据。</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### 进行自定义API调用（旧版）
+
+通过此操作模块，可调用任何AdobeAPI。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td>有关创建与Adobe Authenticator模块的连接的说明，请参阅本文中的<a href="#create-a-connection" class="MCXref xref" >创建连接</a>。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL基本URL]</p>
+      </td>
+      <td>
+        <p>输入要连接的API点的基本URL。</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>输入相对于基本URL的路径。</p>
       </td>
     </tr>
     <tr>
